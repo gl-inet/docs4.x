@@ -79,3 +79,5 @@ markdown_extensions:
 nav:
   - Home:
     - Overview: index.md
+  - Specification:
+    - Overview: specification/index.md

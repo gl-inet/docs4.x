@@ -81,3 +81,7 @@ nav:
     - Overview: index.md
   - Specification:
     - Overview: specification/index.md
+  - Tutorials:
+    - Overview: tutorials/index.md
+    - OpenVPN Client: tutorials/openvpn_client.md
+    - WireGuard Client: tutorials/wireguard_client.md

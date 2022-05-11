@@ -84,4 +84,5 @@ nav:
   - Tutorials:
     - Overview: tutorials/index.md
     - OpenVPN Client: tutorials/openvpn_client.md
+    - OpenVPN Server: tutorials/openvpn_server.md
     - WireGuard Client: tutorials/wireguard_client.md

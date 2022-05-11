@@ -12,7 +12,7 @@ You can setup OpenVPN Client via web Admin Panel and [mobile app](../mobile_app)
 
 ## Setup NordVPN
 
-It has integrated NordVPN OpenVPN service.
+From firmware 4.0, it has integrated NordVPN OpenVPN service.
 
 1. Input your credential, then click **Save Credentials & Get Servers**
 
@@ -50,10 +50,32 @@ It has integrated NordVPN OpenVPN service.
 
 ## Setup OpenVPN client
 
-### Create a group
+As of frimware 4.0, it brings grouping to manage OpenVPN profiles. Please make sure all the profiles in the same group with the same credentials. For example, if you are ExpressVPN user, you can add a group named expressvpn, then upload all the ExpressVPN OpenVPN profiles you wanted to this group. For another OpenVPN service provider, please create another group.
 
-### Upload your OpenVPN configuration file
+Next steps, we will use ExpressVPN as an example.
 
-### Setup OpenVPN server by GL.iNet router
+1. Add a new group
 
-### Get configuration files from VPN service providers
+    ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/add_a_new_group.png)
+
+    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name.png)
+
+2. Give the group a descriptive name, for example expressvpn.
+
+    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name_2.png)
+
+3. Upload your OpenVPN configuration file, then input the credential, click **Apply**.
+
+    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/upload_profile.png)
+
+    ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/after_upload_profile.png)
+
+4. Go to VPN Dashboard to enable the connection.
+
+    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpndashboard_to_connect_expressvpn.png)
+
+## Setup OpenVPN server by GL.iNet router
+
+You can get a GL.iNet router to set as OpenVPN server, and get another GL.iNet router to set as OpenVPN client. For setup OpenVPN server, please check out [here](../openvpn_server).
+
+## Get configuration files from VPN service providers

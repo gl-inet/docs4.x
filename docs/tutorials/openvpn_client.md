@@ -16,37 +16,37 @@ From firmware 4.0, it has integrated NordVPN OpenVPN service.
 
 1. Input your credential, then click **Save Credentials & Get Servers**
 
-    ![input nordvpn credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/input_nordvpn_credential.png)
+    ![input nordvpn credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/input_nordvpn_credential.png){class="glboxshadow"}
 
 2. Select protocol, max server count of each location, locations, then click **Apply**.
 
-    ![select nordvpn servers](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/select_nordvpn_servers.png)
+    ![select nordvpn servers](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/select_nordvpn_servers.png){class="glboxshadow"}
 
     It will download configuration files.
 
-    ![downloaded configuration files](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/downloaded_configs.png)
+    ![downloaded configuration files](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/downloaded_configs.png){class="glboxshadow"}
 
 3. Connection
 
     Go to VPN Dashboard to enable the connection.
 
-    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpn_dashboard_to_connect.png)
+    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpn_dashboard_to_connect.png){class="glboxshadow"}
 
     Toggle the switch to enable the connection.
 
-    ![openvpn connected](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/openvpn_connected.png)
+    ![openvpn connected](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/openvpn_connected.png){class="glboxshadow"}
 
 4. Update servers
 
     NordVPN may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
 
-    ![update servers](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/update_servers.png)
+    ![update servers](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/update_servers.png){class="glboxshadow"}
 
 5. Edit credential
 
     Click the cog icon to edit the credential.
 
-    ![edit credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/edit_credential.png)
+    ![edit credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/edit_credential.png){class="glboxshadow"}
 
 ## Setup OpenVPN client
 
@@ -56,23 +56,23 @@ Next steps, we will use ExpressVPN as an example.
 
 1. Add a new group
 
-    ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/add_a_new_group.png)
+    ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/add_a_new_group.png){class="glboxshadow"}
 
-    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name.png)
+    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name.png){class="glboxshadow"}
 
 2. Give the group a descriptive name, for example expressvpn.
 
-    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name_2.png)
+    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name_2.png){class="glboxshadow"}
 
 3. Upload your OpenVPN configuration file, then input the credential, click **Apply**.
 
-    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/upload_profile.png)
+    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/upload_profile.png){class="glboxshadow"}
 
-    ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/after_upload_profile.png)
+    ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/after_upload_profile.png){class="glboxshadow"}
 
 4. Go to VPN Dashboard to enable the connection.
 
-    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpndashboard_to_connect_expressvpn.png)
+    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpndashboard_to_connect_expressvpn.png){class="glboxshadow"}
 
 ## Setup OpenVPN server by GL.iNet router
 

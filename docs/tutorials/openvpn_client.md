@@ -58,7 +58,7 @@ Next steps, we will use ExpressVPN as an example.
 
     ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/add_a_new_group.png){class="glboxshadow"}
 
-2. Give the group a descriptive name, for example expressvpn.
+2. Give the group a descriptive name, e.g. expressvpn.
 
     ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name.png){class="glboxshadow"}
 
@@ -70,7 +70,7 @@ Next steps, we will use ExpressVPN as an example.
 
 4. Go to VPN Dashboard to enable the connection.
 
-    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpndashboard_to_connect_expressvpn.png){class="glboxshadow"}
+    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpn_dashboard_to_connect_expressvpn.png){class="glboxshadow"}
 
 ## Setup OpenVPN server on GL.iNet router
 

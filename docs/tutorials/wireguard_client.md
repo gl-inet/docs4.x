@@ -84,6 +84,40 @@ Firmware 4.x has integrated Mullvad WireGaurd service.
 
 ## Setup WireGuard client
 
+As of frimware 4.0, it brings grouping to manage WireGuard profiles.
+
+1. Add a new group
+
+    ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_a_new_group.png){class="glboxshadow"}
+
+2. Give the group a descriptive name, e.g. azirevpn.
+
+    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/set_new_group_name.png){class="glboxshadow"}
+
+3. Upload your WireGuard configuration file, then input the credential, click **Apply**.
+
+    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/upload_profile.png){class="glboxshadow"}
+
+    ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/after_upload_profile.png){class="glboxshadow"}
+
+    **Manually Add Configuration** is for if you want to paste the WireGuard configuration or fill in each item.
+
+    ![add wireguard by text](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/manually_add_configuration.png){class="glboxshadow"}
+
+    Give a descriptive name and paste the configuration, click **Apply** to continue.
+
+    ![add wireguard by text](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_by_text.png){class="glboxshadow"}
+
+    Or you can add configuration by fill in each item, click **Item Mode**.
+
+    ![add wireguard by item mode](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_item_mode_1.png){class="glboxshadow"}
+    
+    ![add wireguard by item mode](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_item_mode_2.png){class="glboxshadow"}
+
+4. Go to VPN Dashboard to enable the connection.
+
+    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_to_connect_azirevpn.png){class="glboxshadow"}
+
 ## Setup WireGuard server on GL.iNet router
 
 You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup OpenVPN server, please check out [here](../wireguard_server).

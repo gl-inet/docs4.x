@@ -6,13 +6,15 @@ GL.iNet routers have pre-installed OpenVPN Client and Server.
 
 We recommend WireGuard over OpenVPN because it is much faster. For setup a WireGuard Client, please check out [here](../wireguard_client).
 
-If you have already bought OpenVPN service from a provider, but you don't know how to get the configuration file, please refer to [get configuration file from VPN service providers](#get-configuration-files-from-vpn-service-providers).
+If you have already bought OpenVPN service from a provider, but you don't know how to get the configuration file, please refer to [get configuration files from VPN service providers](#get-configuration-files-from-openvpn-service-providers).
 
 You can setup OpenVPN Client via web Admin Panel and [mobile app](../mobile_app). For the mobile app, it has already integrated NordVPN.
 
 ## Setup NordVPN
 
-From firmware 4.0, it has integrated NordVPN OpenVPN service.
+[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is the top online VPN service for speed and security.
+
+From firmware 4.0.0, it has integrated NordVPN OpenVPN service.
 
 1. Input your credential, then click **Save Credentials & Get Servers**
 
@@ -26,9 +28,7 @@ From firmware 4.0, it has integrated NordVPN OpenVPN service.
 
     ![downloaded configuration files](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/downloaded_configs.png){class="glboxshadow"}
 
-3. Connection
-
-    Go to VPN Dashboard to enable the connection.
+3. Go to VPN Dashboard to enable the connection.
 
     ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpn_dashboard_to_connect.png){class="glboxshadow"}
 
@@ -74,13 +74,13 @@ Next steps, we will use ExpressVPN as an example.
 
     ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpndashboard_to_connect_expressvpn.png){class="glboxshadow"}
 
-## Setup OpenVPN server by GL.iNet router
+## Setup OpenVPN server on GL.iNet router
 
 You can get a GL.iNet router to set as OpenVPN server, and get another GL.iNet router to set as OpenVPN client. For setup OpenVPN server, please check out [here](../openvpn_server).
 
-## Get configuration files from VPN service providers
+## Get configuration files from OpenVPN service providers
 
-We have tested different VPN service providers. Therefore, if you don't know how to get the configuration file, you can follow the instruction below. However, you have to contact your service provider for the configuration file if they are not listed below. 
+We have tested different OpenVPN service providers. Therefore, if you don't know how to get the configuration file, you can follow the instruction below. However, you have to contact your service provider for the configuration file if they are not listed below. 
 
 If you have any problem in the setup of OpenVPN, please contact [support@gl-inet.com](mailto:support@gl-inet.com)
 

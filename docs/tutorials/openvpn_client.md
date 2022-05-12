@@ -58,11 +58,9 @@ Next steps, we will use ExpressVPN as an example.
 
     ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/add_a_new_group.png){class="glboxshadow"}
 
-    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name.png){class="glboxshadow"}
-
 2. Give the group a descriptive name, for example expressvpn.
 
-    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name_2.png){class="glboxshadow"}
+    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name.png){class="glboxshadow"}
 
 3. Upload your OpenVPN configuration file, then input the credential, click **Apply**.
 

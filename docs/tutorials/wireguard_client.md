@@ -56,6 +56,8 @@ Firmware 4.x has integrated Mullvad WireGaurd service.
 
     It will pop up a dialog to select a location.
 
+    ![mullvad vpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/mullvad_select_servers.png){class="glboxshadow"}
+
     Then it will generate the configuration files of the selected location server.
     
     The **Public Key** is the WireGuard public key to send to Mullvad server, you can have up to five keys at the same time, you can manage WireGuard keys on [Mullvad's page](https://mullvad.net/en/account/#/ports){target="_blank"}.
@@ -65,6 +67,10 @@ Firmware 4.x has integrated Mullvad WireGaurd service.
 2. Go to VPN Dashboard to enable the connection.
 
     ![mullvad vpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_mullvadvpn.png){class="glboxshadow"}
+
+    Once connected, you should see your user IP address and the number of Bytes send/received.
+
+    ![vpn dashboard mullvad connected](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_mullvad_connected.png){class="glboxshadow"}
 
 3. Update servers
 

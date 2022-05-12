@@ -83,3 +83,7 @@ Firmware 4.x has integrated Mullvad WireGaurd service.
     ![mullvad vpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/mullvad_edit_credential.png){class="glboxshadow"}
 
 ## Setup WireGuard client
+
+## Setup WireGuard server on GL.iNet router
+
+## Get configuration files from WireGuard service providers

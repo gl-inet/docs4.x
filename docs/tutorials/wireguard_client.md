@@ -86,4 +86,6 @@ Firmware 4.x has integrated Mullvad WireGaurd service.
 
 ## Setup WireGuard server on GL.iNet router
 
+You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup OpenVPN server, please check out [here](../wireguard_server).
+
 ## Get configuration files from WireGuard service providers

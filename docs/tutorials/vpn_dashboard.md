@@ -44,10 +44,18 @@ At first, there is no configuration available for OpenVPN and WireGuard, you nee
 
 ### Global Options
 
+![global options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options.png){class="glboxshadow"}
+
 1. Block Non-VPN Traffic
+
+    If this option is enabled, all traffic from client devices trying to be sent out of the VPN tunnel will be blocked, which will effectively prevent VPN leaks due to client DNS settings, dropped VPN connections, client apps requesting by IP, etc.
 
 2. Allow Access WAN
 
+    If this option is enabled, while VPN is connected, client devices will still be able to access WAN, e.g. accessing your printer, NAS etc in upper subnet.
+
 3. Services From GL.iNet Doesn't Use VPN
+
+    If this option is enabled, services on routers that usually require the use of a real IP will not use VPN. Including GoodCloud, DDNS, rtty.
 
 ## VPN Server

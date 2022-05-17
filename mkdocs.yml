@@ -82,6 +82,28 @@ nav:
     - Overview: index.md
   - User Guide:
     - Overview: user-guide/index.md
+    - Travel Router:
+      - GL-AXT1800 (Flint):
+        - First Time Setup: user-guide/travel-router/gl-axt1800/first_time_setup.md
+        - Internet: user-guide/travel-router/gl-axt1800/internet.md
+        - Wireless: user-guide/travel-router/gl-axt1800/wireless.md
+        - Clients: user-guide/travel-router/gl-axt1800/clients.md
+        - Upgrade: user-guide/travel-router/gl-axt1800/upgrade.md
+        - Firewall: user-guide/travel-router/gl-axt1800/firewall.md
+        - VPN: user-guide/travel-router/gl-axt1800/vpn.md
+        - Applications: user-guide/travel-router/gl-axt1800/applications.md
+        - More Settings: user-guide/travel-router/gl-axt1800/more_settings.md
+    - Home Wi-Fi:
+      - GL-AX1800 (Flint):
+        - First Time Setup: user-guide/travel-router/gl-ax1800/first_time_setup.md
+        - Internet: user-guide/travel-router/gl-ax1800/internet.md
+        - Wireless: user-guide/travel-router/gl-ax1800/wireless.md
+        - Clients: user-guide/travel-router/gl-ax1800/clients.md
+        - Upgrade: user-guide/travel-router/gl-ax1800/upgrade.md
+        - Firewall: user-guide/travel-router/gl-ax1800/firewall.md
+        - VPN: user-guide/travel-router/gl-ax1800/vpn.md
+        - Applications: user-guide/travel-router/gl-ax1800/applications.md
+        - More Settings: user-guide/travel-router/gl-ax1800/more_settings.md
   - Tutorials:
     - Overview: tutorials/index.md
     - VPN Dashboard: tutorials/vpn_dashboard.md

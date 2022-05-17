@@ -80,8 +80,8 @@ markdown_extensions:
 nav:
   - Home:
     - Overview: index.md
-  - Specification:
-    - Overview: specification/index.md
+  - User Guide:
+    - Overview: user-guide/index.md
   - Tutorials:
     - Overview: tutorials/index.md
     - VPN Dashboard: tutorials/vpn_dashboard.md
@@ -89,3 +89,7 @@ nav:
     - OpenVPN Server: tutorials/openvpn_server.md
     - WireGuard Client: tutorials/wireguard_client.md
     - WireGuard Server: tutorials/wireguard_server.md
+  - Video Library:
+    - Overview: video-library/index.md
+  - Community:
+    - Overview: community/index.md

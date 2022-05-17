@@ -89,6 +89,7 @@ nav:
     - OpenVPN Server: tutorials/openvpn_server.md
     - WireGuard Client: tutorials/wireguard_client.md
     - WireGuard Server: tutorials/wireguard_server.md
+    - Mobile App: tutorials/mobile_app.md
   - Video Library:
     - Overview: video-library/index.md
   - Community:

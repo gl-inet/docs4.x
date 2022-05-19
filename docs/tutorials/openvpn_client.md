@@ -6,7 +6,7 @@ GL.iNet routers have pre-installed OpenVPN Client and Server.
 
 We recommend WireGuard over OpenVPN because it is much faster. For setup a WireGuard Client, please check out [here](../wireguard_client).
 
-If you have already bought OpenVPN service from a provider, but you don't know how to get the configuration file, please refer to [get configuration files from VPN service providers](#get-configuration-files-from-openvpn-service-providers).
+If you have already bought OpenVPN service from a provider, but you don't know how to get the configuration file, please refer to [get configuration files from OpenVPN service providers](#get-configuration-files-from-openvpn-service-providers).
 
 You can setup OpenVPN Client via web Admin Panel and [mobile app](../mobile_app). For the mobile app, it has already integrated NordVPN.
 
@@ -267,3 +267,35 @@ Others:
             TCP allows more stable connections than the UDP version, but is a bit slower. Choose this version, if you have recurrent connection issues such as sudden disconnections.
 
         After setting up your preferred settings, save them with **Save and download configuration**.
+
+??? "FastestVPN"
+
+    [Official Website](https://go.fastestvpn.com/affiliate/pap?a_aid=5ffd2a3e9d687){target="_blank"}
+
+    Download FastestVPN Config Files zip folder for OpenVPN TCP and UDP from [here](https://support.fastestvpn.com/download/openvpn-tcp-udp-config-files/)
+
+    [Refer link](https://support.fastestvpn.com/tutorials/routers/gl-inet/openvpn){target="_blank"}
+
+??? "FinchVPN"
+
+    [Official Website](https://www.finchvpn.com/){target="_blank"}
+
+    1. Login your FinchVPN account.
+
+        ![finchvpn login](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/finchvpn/finchvpn1.jpg){class="glboxshadow"}
+
+    2. Go to the Download page and click Download under FinchVPN OpenVPN Config.
+
+        ![finchvpn download page](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/finchvpn/finchvpn2.jpg){class="glboxshadow"}
+
+    3. Choose Linux
+
+        ![finchvpn](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/finchvpn/finchvpn3.jpg){class="glboxshadow"}
+
+    4. Choose the protocol based on your preference. Generally, you can choose the first one **Port 8484 over UDP**
+
+        ![finchvpn](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/finchvpn/finchvpn4.jpg){class="glboxshadow"}
+
+    5. Remember to tick the box to include your username and password before download the file.
+
+        ![finchvpn](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/finchvpn/finchvpn5.jpg){class="glboxshadow"}

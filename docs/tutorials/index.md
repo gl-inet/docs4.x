@@ -74,9 +74,9 @@ hide:
 * [plug-ins](plugins)
 * [DDNS](ddns). Overcome the issues related to Dynamic IP Addresses.
 * [GoodCloud](cloud), the official cloud service.
-* [AdGuardHome](adguardhome).
-* [NAS](nas).
-* [Log](log).
+* [AdGuardHome](adguardhome)
+* [NAS](nas)
+* [Log](log)
 
 ## More settings
 

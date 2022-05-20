@@ -86,7 +86,7 @@ nav:
     - Overview: user-guide/index.md
     - GL-AXT1800 (Slate AX):
       - Specification: user-guide/gl-axt1800/specification.md
-      - First Time Setup: user-guide/gl-axt1800/first_time_setup.md
+      - First Time Setup: user-guide/gl-axt1800.md
       - Internet: user-guide/gl-axt1800/internet.md
       - Wireless: user-guide/gl-axt1800/wireless.md
       - Clients: user-guide/gl-axt1800/clients.md

@@ -15,13 +15,12 @@ theme:
   logo: images/logo.svg
   features:
     - navigation.indexes
-    - navigation.sections
     - navigation.tabs
     - navigation.top
     - toc.integrate
   palette:
     - scheme: default
-      primary: white
+      primary: light green
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline

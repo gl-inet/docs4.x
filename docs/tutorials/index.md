@@ -68,6 +68,7 @@ hide:
 * [How to setup Mullvad VPN on router](wireguard_client#setup-mullvad).
 * [How to setup WireGuard server if GL.iNet router is not main router?](setup_wireguard_server_if_not_main_router)
 * [How to let all data go through VPN?](block_no_vpn_traffic)
+* [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp)
 
 ## Applications
 

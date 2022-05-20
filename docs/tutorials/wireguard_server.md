@@ -50,8 +50,14 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
     Click **Apply** to continue. It will generate a profile. If you want to generate the profile with DDNS instead of IP, please enable DDNS first.
 
-    Switch tab and click **Download** the QRCode or profile.
+    Switch tab and click **Download** the QR Code or profile.
 
 4. Start WireGuard server
 
-    Click **Start** to start WireGuard server.
+    Click the **Start** button in the upper right corner to start WireGuard server. Go to VPN Dashboard page to check its status.
+
+    ![wireguard server no client](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_no_client.png)
+
+    Test the profile generated at step 3 on your phone with WireGuard app, import from the profile or scan from QR Code, to make sure it's on a different network, please make your phone use 4G Internet only.
+
+    ![wireguard server no client](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_one_client.png)

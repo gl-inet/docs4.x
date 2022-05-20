@@ -128,6 +128,7 @@ nav:
       - DHCP: tutorials/dhcp.md
       - PPPoE: tutorials/pppoe.md
       - Set static WAN ip: tutorials/how_to_set_static_wan_ip.md
+      - Produce a wired connection: tutorials/produce_a_wired_connection.md
     - Wireless:
       - Wireless: tutorials/wireless.md
     - Clients:

@@ -42,11 +42,11 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
     Enter a descriptive name.
 
-    ![wireguard server profile setting](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_profile_setting.png)
+    ![wireguard server profile setting](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_profile_setting.png){class="glboxshadow"}
     
     **Set More** is for advanced settings.
 
-    ![wireguard server profile advanced setting](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_profile_setting_more.png)
+    ![wireguard server profile advanced setting](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_profile_setting_more.png){class="glboxshadow"}
 
     Click **Apply** to continue. It will generate a profile. If you want to generate the profile with DDNS instead of IP, please enable DDNS first.
 

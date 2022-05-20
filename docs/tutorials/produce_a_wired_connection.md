@@ -2,4 +2,4 @@
 
 Yes.
 
-Please connect your device to the LAN port of the router and then set up [repeater](../repeater).
+Please connect your device to the LAN port of the router and then set up [repeater](../internet_repeater).

@@ -1,12 +1,14 @@
 # VPN Dashboard
 
+Access to web Admin Panel, on the left side -> VPN -> VPN Dashboard
+
 VPN Dashboard page is for the status and setting of VPN.
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
 
 ## VPN Client
 
-At first, there is no configuration available for OpenVPN and WireGuard, you need to click **Set Up Now** to go to the corresponding page to configure.
+In the beginning, there is no configuration available for OpenVPN and WireGuard, you need to click **Set Up Now** to go to the corresponding page to configure.
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_2.png){class="glboxshadow"}
 
@@ -43,6 +45,8 @@ At first, there is no configuration available for OpenVPN and WireGuard, you nee
         You can manually configure routing rules for each VPN client instance.
 
 ### Global Options
+
+Click **Global Options** will popup a global options dialog.
 
 ![global options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options.png){class="glboxshadow"}
 

@@ -299,3 +299,88 @@ Others:
     5. Remember to tick the box to include your username and password before download the file.
 
         ![finchvpn](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/finchvpn/finchvpn5.jpg){class="glboxshadow"}
+
+??? "HideIPVPN"
+
+    [Official Website](https://www.hideipvpn.com/){target="_blank"}
+
+    1. Login your HideIPVPN account.
+
+    2. Go to Package on the left side, click the your package, make sure it is active.
+
+        ![hideipvpn client area](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/hideipvpn/package.jpg){class="glboxshadow"}
+
+    3. On the VPN tab, there is VPN Login Details of username and password, this is for login when OpenVPN connection
+
+        ![hideipvpn client area](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/hideipvpn/vpn_username_password.jpg){class="glboxshadow"}
+
+    4. Scroll down to download OpenVPN config files.
+
+        ![hideipvpn client area](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/hideipvpn/openvpn_config_files.jpg){class="glboxshadow"}
+
+??? "Hide.me VPN"
+
+    [Official Website](https://hide.me/?friend=glinet){target="_blank"}
+
+    1. Login your Hide.me account, find the Server Locations on the left side.
+
+    2. Download the OpenVPN Configuration for Windows.
+
+        ![hide.me vpn dashboard](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/hideme/hideme_dashboard.jpg){class="glboxshadow"}
+
+??? "HideMyAss"
+
+    [Official Website](https://click.hmavpn.com/aff_c?offer_id=1&aff_id=861){target="_blank"}
+
+    [Download](https://vpn.hidemyass.com/vpn-config/vpn-configs.zip)
+
+??? "IPVANISH"
+
+    [Official Website](https://www.ipvanish.com/){target="_blank"}
+
+    You can download all of the config files for all of the servers from [here](https://www.ipvanish.com/software/configs/configs.zip), then should upload this **config.zip** on the OpenVPN Client of web Admin Panel. Before uploading, please remove the servers in the .zip file that you will not use to reduce the file size.
+
+    You can also download individual server configuration files [here](https://www.ipvanish.com/software/configs/), but you will need to download **ca.ipvanish.com.crt** as well. Before uploading to the router, you need to compress the **ca.ipvanish.com.crt** and .ovpn configuration files into a .zip archive and upload them.
+
+    ![ipvanish](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ipvanish/ipvanish_download_openvpn_configs.png){class="glboxshadow"}
+
+    [Refer link](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup)
+
+??? "IVACY"
+
+    [Official Website](https://billing.ivacy.com/page/22852){target="_blank"}
+
+    [Download OpenVPN UDP Configs](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ivacy/IVACY_OpenVPN_Configs_UDP.zip)
+
+    [Download OpenVPN TCP Configs](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ivacy/IVACY_OpenVPN_Configs_TCP.zip)
+
+    [Refer link](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/)
+
+??? "IVPN"
+
+    [Official Website](https://www.ivpn.net/){target="_blank"}
+
+    1. Download the [OpenVPN config files](https://www.ivpn.net/releases/config/ivpn-openvpn-config.zip).
+
+    2. Find the Account ID on [IVPN Client Area](https://www.ivpn.net/clientarea/login){target="_blank"}.
+
+    3. When drag the config file to Add a New OpenVPN Configuration, you will be asked to enter User Name and Password. The User Name is your Account ID that begins with letters **ivpn**. The password can be anything, like **ivpn**
+
+        ![ivpn set up on gl.inet router](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ivpn/ivpn_set_up_openvpn_client.png){class="glboxshadow"}
+
+    [Refer link](https://www.ivpn.net/setup/gnu-linux-terminal.html)
+
+??? "OVPN"
+
+    [Official Website](https://www.ovpn.com/en?ref=glinet){target="_blank"}
+    
+    Just login, then you can easy get the OpenVPN configurations file by click the menu below.
+
+    ![get ovpn configuration files](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ovpn/get_ovpn_configuration_files.jpg){class="glboxshadow"}
+
+    Choose the server and download.
+
+    ![download ovpn openvpn configuration files](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ovpn/download_configuration_files.jpg){class="glboxshadow"}
+
+    The username and password are the same you login OVPN.
+

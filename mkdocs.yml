@@ -85,7 +85,7 @@ nav:
     - Overview: user-guide/index.md
     - GL-AXT1800 (Slate AX):
       - Specification: user-guide/gl-axt1800/specification.md
-      - First Time Setup: user-guide/gl-axt1800.md
+      - First Time Setup: user-guide/gl-axt1800/first_time_setup.md
       - Internet: user-guide/gl-axt1800/internet.md
       - Wireless: user-guide/gl-axt1800/wireless.md
       - Clients: user-guide/gl-axt1800/clients.md
@@ -153,7 +153,7 @@ nav:
       - WireGuard Server: tutorials/wireguard_server.md
       - Block No-VPN Traffic: tutorials/block_no_vpn_traffic.md
       - WireGuard Server if not main router: tutorials/setup_wireguard_server_if_not_main_router.md
-      - TCP or UDP: tutorials/openvpn_tcp_upd.md
+      - TCP or UDP: tutorials/openvpn_tcp_udp.md
     - Applications:
       - Plug-ins: tutorials/plugins.md
       - DDNS: tutorials/ddns.md

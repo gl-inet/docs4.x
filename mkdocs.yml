@@ -152,6 +152,7 @@ nav:
       - WireGuard Server: tutorials/wireguard_server.md
       - Block No-VPN Traffic: tutorials/block_no_vpn_traffic.md
       - WireGuard Server if not main router: tutorials/setup_wireguard_server_if_not_main_router.md
+      - TCP or UDP: tutorials/openvpn_tcp_upd.md
     - Applications:
       - Plug-ins: tutorials/plugins.md
       - DDNS: tutorials/ddns.md

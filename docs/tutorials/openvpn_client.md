@@ -430,3 +430,136 @@ Others:
 
     The username and password are the same you login OVPN.
 
+<div id="safervpn"></div>
+
+??? "SaferVPN"
+
+    [Official Website](https://safervpn.com/?a_aid=563){target="_blank"}
+
+    [Download](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup) directly.
+
+    ![safervpn openvpn config](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
+
+<div id="starvpn"></div>
+
+??? "StarVPN"
+
+    [Official Website](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
+
+    StarVPN has WireGuard service, we recommend to use WireGuard, checkout [here](../wireguard_client/#starvpn).
+
+    1. **Register an account with StarVPN**
+
+        Head on over to their [pricing plan](https://www.starvpn.com/#pricing){target="_blank"} options and choose a VPN plan that suits your needs. You can register on checkout or directly [here](https://www.starvpn.com/dashboard/register.php){target="_blank"}
+
+    2. VPN Login Information
+
+        Log into the StarVPN member area [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. You can find your VPN username and password for each slot in the Manage Slots Section or dashboard area.
+
+        ![starvpn credential](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/starvpn/vpn-username_edited-2.jpg){class="glboxshadow"}
+
+        For multiple slots, the VPN configuration settings and credentials can be located in the “Manage Slots” section.
+
+        ![starvpn credential](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/starvpn/vpn-username_slots_edited-1024x355.jpeg){class="glboxshadow"}
+
+    3. Download OpenVPN Configuration File
+
+        The next step, you must download the VPN server configuration files necessary so that the OpenVPN Software knows where to connect to.   Download the configuration file in the members area dashboard.
+
+        ![download starvpn config](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/starvpn/download-ovpn_edited.jpg){class="glboxshadow"}
+
+        Some GL.iNet routers do not support IPv6 or DNS Leak Protection, as a result you may experience an IP or connection error. Edit the ovpn configuration file and disable IPv6 by performing these simple tasks.
+
+        ![troubleshooting](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/starvpn/troubleshooting.jpg){class="glboxshadow"}
+
+<div id="strongvpn"></div>
+
+??? "StrongVPN"
+
+    [Official Website](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
+
+    1. Login with your [StrongVPN](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"} account and then you will be able to see VPN Accounts Summary. Click Account Setup Instructions”.
+
+        ![strongvpn setup 1](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_01.jpg){class="glboxshadow"}
+
+    2. Find the Manual setup section, follow the steps to get configuration.
+
+        ![strongvpn get config](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_02.jpg){class="glboxshadow"}
+
+<div id="vpnac"></div>
+
+??? "VPN.AC"
+
+    [Official Website](https://vpn.ac/aff.php?aff=1424){target="_blank"}
+
+    [Download](https://vpn.ac/ovpn/).
+
+    <img class="glboxshadow" alt="vpn.ac donwoad configuration" src="https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/vpn.ac/vpn.ac1.png" />
+
+<div id="vpngate"></div>
+
+??? "VPNGate"
+
+    [Official Website](https://www.vpngate.net/en/){target="_blank"}
+
+    The OpenVPN configuration files are listed on the [VPN Gate website](https://www.vpngate.net/en/) according to the server location.
+
+    1. Click OpenVPN Config file under the column **OpenVPN**.
+
+        ![VPNGate server list](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/vpngate/vpngate1.png){class="glboxshadow"}
+
+    2. You will see the download page.
+
+        ![VPNGate download page](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/vpngate/vpngate2.png){class="glboxshadow"}
+
+<div id="vpnunlimited"></div>
+
+??? "VPN Unlimited(KeepSolid)"
+
+    [Official Website](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}
+
+    Information quoted from [VPN unlimited official instruction](https://www.vpnunlimitedapp.com/en/info/manuals/how-to-manually-create-vpn-conf){target="_blank"}
+
+    Start out by logging in to your User Office, press Manage for the VPN Unlimited service, and follow a few simple steps:
+
+    1. Select a device
+
+        Pick a device from the list or create a new one. If you are out of free slots, delete an old device or buy extra slots.
+
+        ![vpn unlimited openvpn config](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/vpnunlimited/keepsolid1.png){class="glboxshadow"}
+
+    2. Choose the desired server location
+    
+        VPN Unlimited offers a large variety of servers, namely 400+ in 70+ locations. In this case, let it be Germany.
+
+    3. Select the VPN protocol
+
+        selece OpenVPN protocol.
+
+        ![vpn unlimited select protocol](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/vpnunlimited/keepsolid2.png){class="glboxshadow"}
+
+    4. Create a configuration
+
+        Press Generate and you will get all the data required to set up a VPN connection.
+
+        ![vpn unlimited generate configuration](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/vpnunlimited/keepsolid3.png){class="glboxshadow"}
+
+<div id="vyprvpn"></div>
+
+??? "VyprVPN"
+
+    VyprVPN offers the OpenVPN files here: [Where can I find the OpenVPN files? – VyprVPN Support](https://support.vyprvpn.com/hc/en-us/articles/360038096131-Where-can-I-find-the-OpenVPN-files-){target="_blank"}
+
+    The provided zip file contains two folders with the .ovpn files. One called OpenVPN160 one OpenVPN256. Just delete the OpenVPN160 folder from the zip file then upload it to GL.iNet router as usual.
+
+<div id="wevpn"></div>
+
+??? "Wevpn"
+
+    [Official Website](https://www.wevpn.com/aff/glinet){target="_blank"}
+
+    1. Access the Members Area to make a custom config using the Config Generator.
+
+        ![wevpn manual configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/wevpn/wevpn_manual_configuration_generator.jpg){class="glboxshadow"}
+
+    2. Choose the Protocal to UDP or TCP, the OpenVPN version, and the location. Then to download the configuration.

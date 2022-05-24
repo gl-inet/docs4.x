@@ -11,14 +11,15 @@ hide:
 * [How to upgrade to the latest firmware?](how_to_upgrade_to_the_latest_firmware)
 * [How to check the firmware version of the router?](check_firmware_version)
 * [What is web Admin Panel?](web_admin_panel)
+* [First time setup](first_time_setup)
 
 ## Internet Connection
 
-* [How to connect to internet via an ethernet cable](internet_ethernet).
-* [How to connect to internet via Repeater](internet_repeater).
-* [How to connect to internet via usb tethering](internet_tethering).
+* [How to connect to the Internet via an ethernet cable](internet_ethernet).
+* [How to connect to the Internet via Repeater](internet_repeater).
+* [How to connect to the Internet via usb tethering](internet_tethering).
 * [How to share mobile internet connection to router](share_mobile_internet_connection_to_router).
-* [How to connect to internet via usb modem](internet_cellular).
+* [How to connect to the Internet via usb modem](internet_cellular).
 * [Can I set up the router as a bridge so that it works like I am connecting to my main router directly?](setup_the_router_as_a_bridge)
 * [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection)
 * [Can I connect to an existing Wi-Fi network (i.e. public Wi-Fi or hotel Wi-Fi) and then create my own Wi-Fi network?](connect_to_an_existing_wifi)

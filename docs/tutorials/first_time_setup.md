@@ -38,7 +38,7 @@ GL-AXT1800, power adapter, ethernet cable.
 
     Set up admin password, we recommend using a strong password. Click **Submit** to continue.
 
-    **Note: Wi-Fi may turn off during the initialization, please make sure to reconnect to the router.**
+    **Note**: Wi-Fi may turn off during the initialization, please make sure to reconnect to the router.
 
     ![set up admin password](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class="glboxshadow"}
 

@@ -84,7 +84,7 @@ nav:
   - User Guide:
     - Overview: user-guide/index.md
     - GL-AXT1800 (Slate AX):
-      - Specification: user-guide/gl-axt1800/specification.md
+      - Hardware Info: user-guide/gl-axt1800/hardware_info.md
       - First Time Setup: user-guide/gl-axt1800/first_time_setup.md
       - Internet: user-guide/gl-axt1800/internet.md
       - Wireless: user-guide/gl-axt1800/wireless.md
@@ -95,7 +95,7 @@ nav:
       - Applications: user-guide/gl-axt1800/applications.md
       - More Settings: user-guide/gl-axt1800/more_settings.md
     - GL-AX1800 (Flint):
-      - Specification: user-guide/gl-ax1800/specification.md
+      - Hardware Info: user-guide/gl-ax1800/hardware_info.md
       - First Time Setup: user-guide/gl-ax1800/first_time_setup.md
       - Internet: user-guide/gl-ax1800/internet.md
       - Wireless: user-guide/gl-ax1800/wireless.md

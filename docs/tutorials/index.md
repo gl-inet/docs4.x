@@ -8,10 +8,10 @@ hide:
 
 ## General
 
+* [First time setup](first_time_setup)
 * [How to upgrade to the latest firmware?](how_to_upgrade_to_the_latest_firmware)
 * [How to check the firmware version of the router?](check_firmware_version)
 * [What is web Admin Panel?](web_admin_panel)
-* [First time setup](first_time_setup)
 
 ## Internet Connection
 
@@ -23,6 +23,7 @@ hide:
 * [Can I set up the router as a bridge so that it works like I am connecting to my main router directly?](setup_the_router_as_a_bridge)
 * [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection)
 * [Can I connect to an existing Wi-Fi network (i.e. public Wi-Fi or hotel Wi-Fi) and then create my own Wi-Fi network?](connect_to_an_existing_wifi)
+* [Connect to a Hotspot with Captive Portal](connect_to_a_hotspot_with_captive_portal)
 * [When repeater to an existing WiFi, how to lock to 5GHz or 2.4GHz?](repeater_lock_band)
 * [When using repeater, how to forget saved network?](repeater_forget_saved_netwrok)
 * [How to repeater to DFS Channel?](repeater_dfs_channel)

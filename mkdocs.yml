@@ -108,10 +108,10 @@ nav:
   - Tutorials:
     - Overview: tutorials/index.md
     - General:
+      - First time setup: tutorials/first_time_setup.md
       - Upgrade to latest firmware: tutorials/how_to_upgrade_to_the_latest_firmware.md
       - Check Firmware Version: tutorials/check_firmware_version.md
       - What is web Admin Panel: tutorials/web_admin_panel.md
-      - First time setup: tutorials/first_time_setup.md
     - Internet Connection:
       - Ethernet: tutorials/internet_ethernet.md
       - Repeater: tutorials/internet_repeater.md

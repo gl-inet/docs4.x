@@ -2,6 +2,8 @@
 
 To access the Internet, it can connect the WAN port of router to the modem or the LAN port of other router via an ethernet cable.
 
+On the left side of web Admin Panel -> INTERNET, Ethernet sector.
+
 ![ethernet dhcp](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_dhcp.png){class="glboxshadow"}
 
 **Note**: Before plugging the Ethernet cable into the WAN port of the router, you can click **Change to LAN** to [set the WAN port as a LAN port](../change_wan_to_lan/). That is useful when you are using the router as a [repeater](../internet_repeater). As a result, you can have one more LAN port.

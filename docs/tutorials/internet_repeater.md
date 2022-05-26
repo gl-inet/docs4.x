@@ -6,7 +6,7 @@ It works in WISP (Wireless Internet Service Provider) mode by default, which mea
 
 On the left side of web Admin Panel -> INTERNET, Repeater sector.
 
-## Basic setps
+## Basic steps
 
 ![repeater](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
 

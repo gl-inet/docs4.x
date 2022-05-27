@@ -20,7 +20,7 @@ theme:
     - toc.integrate
   palette:
     - scheme: default
-      primary: light green
+      primary: white
       accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline

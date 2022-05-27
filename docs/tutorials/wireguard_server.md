@@ -56,8 +56,8 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
     Click the **Start** button in the upper right corner to start WireGuard server. Go to VPN Dashboard page to check its status.
 
-    ![wireguard server no client](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_no_client.png)
+    ![wireguard server no client](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_no_client.png){class="glboxshadow"}
 
     Test the profile generated at step 3 on your phone with WireGuard app, import from the profile or scan from QR Code, to make sure it's on a different network, please make your phone use 4G Internet only.
 
-    ![wireguard server no client](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_one_client.png)
+    ![wireguard server one client](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_one_client.png){class="glboxshadow"}

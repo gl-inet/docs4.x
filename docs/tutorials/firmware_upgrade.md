@@ -18,6 +18,8 @@ After uploaded, it will verify the firmware.
 
 **Keep Setting:** Current settings will be retained. User installed packages will be prompted to re-install after upgrade.
 
-Click **Install** to upgrade. Please do not disconnect the power during the upgrade.
+Click **Install** to upgrade. 
+
+**Note:** Please do not disconnect the power during the upgrade.
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/en/4/tutorials/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}

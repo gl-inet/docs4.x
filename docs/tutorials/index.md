@@ -40,10 +40,6 @@ hide:
 ## Clients
 
 * [Clients](clients)
-* [How to set limit speed for a specific device?](client_qos)
-* [How to check realtime speed/traffic of a device?](client_speed_and_traffic)
-* [How to block a connected device?](block_client)
-* [Can I delete the offline clients?](delete_offline_clients)
 * [What will happen if connected device using randomized MAC or private Wi-Fi Address?](client_randomized_mac)
 
 ## Upgrade

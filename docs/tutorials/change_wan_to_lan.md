@@ -10,7 +10,7 @@ You can configure the WAN port of the router so that it can be used as a LAN por
 
 	![internet page](https://static.gl-inet.com/docs/en/4/tutorials/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
 
-4. Click **Yes** to confirm.
+4. Click **Apply** to confirm.
 
 	![caution change wan as lan](https://static.gl-inet.com/docs/en/4/tutorials/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
 

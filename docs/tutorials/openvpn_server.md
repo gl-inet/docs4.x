@@ -59,3 +59,16 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
     Click the **Start** button in the upper right corner on OpenVPN Server page to start the server. Then go to [VPN Dashboard page](../vpn_dashboard#vpn-server) to check its status and other settings.
 
     ![start openvpn server](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/start_openvpn_server.png){class="glboxshadow"}
+
+## To check if OpenVPN Server is working properly
+
+To check if OpenVPN Server is working properly, we can use another device connected to another network and use the OpenVPN configuration we exported earlier, to connect and see whether it connects properly and whether the IP address is the IP of OpenVPN Server.
+
+The simpliest way is to use a cell phone with [OpenVPN official client app](https://openvpn.net/vpn-client/){target="_blank"} installed, turn off its Wi-Fi connection, and only connect to Internet via 3G/4G/5G. Then open the OpenVPN app, import the OpenVPN configuration we previously exported. Enable the connection, check if the phone has Internet access and whether its IP address is the IP of your OpenVPN Server.
+
+There are several common reasons cause failed:
+
+* The Internet Service Provider doesn't assign you a public IP address, please check [here](#make-sure-internet-service-provider-assigns-you-a-public-ip-address).
+* You may need setup port forwarding, please check [here](#network-topology).
+* The port you are using for OpenVPN Server is blocked by the Internet Service Provider, change to another port, or contact the Internet Service Provider.
+* Some countries/regions may block the VPN connection.

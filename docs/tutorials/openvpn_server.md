@@ -24,11 +24,11 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
 ## Setup OpenVPN Server
 
-1. Click **Generate Configuration**
+1. Click **Generate Configuration** (Only the first time).
 
     ![openvpn server generate configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_generate_config.png){class="glboxshadow"}
 
-2. Apply the configuration
+2. Apply the configuration.
 
     ![openvpn server configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_configuration.png){class="glboxshadow"}
 
@@ -48,7 +48,11 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
         For **Only Certificate** and **Username/Password and Certificate**, the router will automatically generate a server and client certificate-key, and write into the configuration file when generating the client configuration file.
 
+        Please check [here](#advanced-configuration) for **Advanced Configuration**.
+
 3. Export Client Configuration
+
+    Clicking the **Export Client Configuration** button at the bottom or applying the modified configuration will pop up this dialog.
 
     If your network's public IP changes from time to time, you can enable [DDNS](../ddns/) by using DDNS domain in the configuration. Click **Download** to export the configuration for further setup.
 
@@ -72,3 +76,7 @@ There are several common reasons cause failed:
 * You may need setup port forwarding, please check [here](#network-topology).
 * The port you are using for OpenVPN Server is blocked by the Internet Service Provider, change to another port, or contact the Internet Service Provider.
 * Some countries/regions may block the VPN connection.
+
+## Advanced Configuration
+
+![openvpn server advancd configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_advanced_configuration.png){class="glboxshadow"}

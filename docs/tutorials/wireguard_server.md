@@ -24,7 +24,7 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
 Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
-1. Click **Generate Configuration**.
+1. Click **Generate Configuration** (Only the first time).
 
     ![wireguard server generate configuration](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_generate_configuration.png){class="glboxshadow"}
 
@@ -33,6 +33,10 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
     The default configuration works for most cases. Also modify it according to your network situation, click the **Apply** button after modification.
 
     ![wireguard server apply configuration](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_apply_configuration.png){class="glboxshadow"}
+
+    For **Set Key Manually**.
+
+    ![wireguard server set key manually](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_set_key_manually.png){class="glboxshadow"}
 
 3. Add a profile
 
@@ -48,16 +52,35 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
     ![wireguard server profile advanced setting](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_profile_setting_more.png){class="glboxshadow"}
 
-    Click **Apply** to continue. It will generate a profile. If your network's public IP changes from time to time, you can enable [DDNS](../ddns/), then using DDNS domain in the configuration.
+    Click **Apply** to continue. It will generate a profile.
+    
+    ![download wireguard client configuration](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/download_wireguard_client_configuration.png){class="glboxshadow"}
 
-    Switch tab and click **Download** the QR Code or profile.
+    If your network's public IP changes from time to time, you can enable [DDNS](../ddns/), then using DDNS domain in the configuration.
+
+    Click **Download** to save the profile.
 
 4. Start WireGuard server
 
-    Click the **Start** button in the upper right corner to start WireGuard server. Go to VPN Dashboard page to check its status.
+    Click the **Start** button in the upper right corner to start WireGuard server. Go to VPN Dashboard page to check its status and other settings.
 
-    ![wireguard server no client](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_no_client.png){class="glboxshadow"}
+    ![start wireguard server](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/start_wireguard_server.png){class="glboxshadow"}
 
-    Test the profile generated at step 3 on your phone with WireGuard app, import from the profile or scan from QR Code, to make sure it's on a different network, please make your phone use 4G Internet only.
+### To check if WireGuard Server is working properly
 
-    ![wireguard server one client](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_one_client.png){class="glboxshadow"}
+To check if WireGaurd Server is working properly, we can use another device connected to another network and use the WireGuard configuration we exported earlier to connect and see whether it connects properly and whether the IP address is the IP of WireGuard Server.
+
+The simpliest way is to use a cell phone with [WireGuard official client app](https://www.wireguard.com/install){target="_blank"} installed, turn off its Wi-Fi connection, and only connect to Internet via 3G/4G/5G. Then open the WireGaurd app, import the WireGaurd configuration from QR code. Enable the connection, check if the phone has Internet access and whether its IP address is the IP of your WireGuard Server.
+
+There are several common reasons cause failed:
+
+* The Internet Service Provider doesn't assign you a public IP address, please check [here](#make-sure-internet-service-provider-assigns-you-a-public-ip-address).
+* You may need setup port forwarding, please check [here](#network-topology).
+* The port you are using for WireGuard Server is blocked by the Internet Service Provider, change to another port, or contact the Internet Service Provider.
+* Some countries/regions may block the VPN connection.
+
+## WireGuard Client App
+
+We can use another GL.iNet router as WireGuard Client, or use their official app on other devices with various OS.
+
+- Please refer to WireGuard Official Website: [https://www.wireguard.com/install](https://www.wireguard.com/install){target="_blank"}

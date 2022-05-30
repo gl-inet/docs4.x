@@ -48,7 +48,7 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
     ![wireguard server profile advanced setting](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_profile_setting_more.png){class="glboxshadow"}
 
-    Click **Apply** to continue. It will generate a profile. If you want to generate the profile with DDNS instead of IP, please enable DDNS first.
+    Click **Apply** to continue. It will generate a profile. If your network's public IP changes from time to time, you can enable [DDNS](../ddns/), then using DDNS domain in the configuration.
 
     Switch tab and click **Download** the QR Code or profile.
 

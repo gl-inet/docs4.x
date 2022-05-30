@@ -64,6 +64,8 @@ Click **Global Options** will popup a global options dialog.
 
 ## VPN Server
 
+![vpn dashboard vpn server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server.png){class="glboxshadow"}
+
 ### OpenVPN Server Options
 
 Click the cog icon of OpenVPN server.
@@ -77,6 +79,8 @@ Click the cog icon of OpenVPN server.
 * **MTU:** The MTU you set for the instance will overwrite the MTU item in the configuration file.
 
 ### OpenVPN Server Route Rule
+
+Click the network icon of OpenVPN server.
 
 In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the encrypted tunnel provided by the VPN when accessing any network segment is determined by the routing rules you manually set.
 
@@ -93,6 +97,8 @@ In customize routes mode, the VPN client will ignore the configuration file and 
 * **MTU:** The MTU you set for the instance will overwrite the MTU item in the configuration file.
 
 ### WireGuard Server Route Rule
+
+Click the network icon of WireGuard server.
 
 In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the encrypted tunnel provided by the VPN when accessing any network segment is determined by the routing rules you manually set.
 

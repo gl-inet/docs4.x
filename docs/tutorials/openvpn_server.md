@@ -80,3 +80,9 @@ There are several common reasons cause failed:
 ## Advanced Configuration
 
 ![openvpn server advancd configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_advanced_configuration.png){class="glboxshadow"}
+
+## OpenVPN Client App
+
+We can use another GL.iNet router as OpenVPN Client, or use their official app on other devices with various OS.
+
+- Please refer to OpenVPN Official Website: [https://openvpn.net/vpn-client/](https://openvpn.net/vpn-client/){target="_blank"}

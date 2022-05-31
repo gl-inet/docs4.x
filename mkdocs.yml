@@ -154,7 +154,7 @@ nav:
       - TCP or UDP: tutorials/openvpn_tcp_udp.md
     - Applications:
       - Plug-ins: tutorials/plugins.md
-      - DDNS: tutorials/ddns.md
+      - Dynamic DNS: tutorials/ddns.md
       - GoodCloud: tutorials/cloud.md
       - AdGuardHOme: tutorials/adguardhome.md
       - Nas: tutorials/nas.md

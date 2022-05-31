@@ -70,6 +70,10 @@ To check if OpenVPN Server is working properly, we can use another device connec
 
 The simpliest way is to use a cell phone with [OpenVPN official client app](https://openvpn.net/vpn-client/){target="_blank"} installed, turn off its Wi-Fi connection, and only connect to Internet via 3G/4G/5G. Then open the OpenVPN app, import the OpenVPN configuration we previously exported. Enable the connection, check if the phone has Internet access and whether its IP address is the IP of your OpenVPN Server.
 
+When importing the configuration file to the OpenVPN app, it may has a reminder as below, please click **CONTINUE** as the certificate is already included in the configuration file.
+
+![openvpn app select certificate](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/select_certificate.png){class="glboxshadow"}
+
 There are several common reasons cause failed:
 
 * The Internet Service Provider doesn't assign you a public IP address, please check [here](#make-sure-internet-service-provider-assigns-you-a-public-ip-address).

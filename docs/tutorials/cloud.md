@@ -110,7 +110,7 @@ At the first time when you sign in, it will pop up a dialog to let you select th
 
 You can change the region on the top right corner at anytime.
 
-![select region button](http://static.gl-inet.com/docs/en/4/tutorials/cloud/select_region_button.png){class="glboxshadow"}
+![select region button](https://static.gl-inet.com/docs/en/4/tutorials/cloud/select_region_button.png){class="glboxshadow"}
 
 ### Add a new group 
 

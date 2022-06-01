@@ -12,7 +12,9 @@
 
 - [**GoodCloud**](../../../tutorials/cloud/)
 
-## AdGuardHome
+## AdGuard Home
+
+- [**AdGuard Home**](../../../tutorials/adguardhome/)
 
 ## Network Storage
 

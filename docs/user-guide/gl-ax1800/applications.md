@@ -10,6 +10,8 @@
 
 ## GoodCloud
 
+- [**GoodCloud**](../../../tutorials/cloud/)
+
 ## AdGuardHome
 
 ## Network Storage

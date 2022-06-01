@@ -181,6 +181,7 @@ nav:
       - Remote access web admin panel: tutorials/remote_access_web_admin_panel.md
       - Remote SSH to router: tutorials/remote_ssh_to_router.md
       - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+      - Device id, MAC, SN: tutorials/where_to_find_the_device_id_mac_sn.md
   - Video Library:
     - Overview: video-library/index.md
   - Community:

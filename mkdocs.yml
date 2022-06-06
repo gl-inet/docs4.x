@@ -157,7 +157,7 @@ nav:
       - Dynamic DNS: tutorials/ddns.md
       - GoodCloud: tutorials/cloud.md
       - AdGuardHOme: tutorials/adguardhome.md
-      - Nas: tutorials/nas.md
+      - Network Storage: tutorials/network_storage.md
       - Log: tutorials/log.md
     - More settings:
       - Change Admin Password: tutorials/admin_password.md

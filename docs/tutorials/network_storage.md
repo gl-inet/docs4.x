@@ -88,7 +88,23 @@ When a disk is found.
 
 === "Android"
 
-    [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"} is an awesome app to connect to Samba.
+    There are many Android apps that support Samba, here is an example of [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}.
+
+    At the home page, click **NETWORK**.
+
+    ![cx file explorer home page](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/cx_file_explorer_home.png){class="glboxshadow" width="400"}
+
+    Click **New Location**.
+    
+    ![cx file explorer home page](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/cx_file_explorer_new_location.png){class="glboxshadow" width="400"}
+
+    Click **SMB**.
+
+    ![cx file explorer home page](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/cx_file_explorer_remote.png){class="glboxshadow" width="350"}
+
+    Input the **Host**, **Username**, **Password**. If is **Anonymous Access**, please check the **Anonymous**.
+
+    ![cx file explorer home page](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/cx_file_explorer_smb.png){class="glboxshadow" width="350"}
 
 === "iOS"
 

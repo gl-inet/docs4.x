@@ -1,6 +1,6 @@
 # Network Storage
 
-Some GL.iNet models support TF card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDav, DLNA on this page for the disk.
+Some GL.iNet models support TF card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDAV, DLNA on this page for the disk.
 
 The supported disk formats are NTFS, exFAT, FAT32, Ext3, Ext4.
 
@@ -22,39 +22,75 @@ When a disk is found.
 
     Toggle to enalbe Samba, click **Apply**.
 
-    ![network storage, enable samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_samba.png){class="glboxshadow"}
+    ![network storage, enable samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_to_enable.png){class="glboxshadow"}
 
-    Go to **Shared Folder** tab. Click **Add** button to add a shared folder.
+    Go to **Shared Folder** tab. Click **+ Add** button to add a shared folder.
 
-    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/shared_folders.png){class="glboxshadow"}
+    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folders.png){class="glboxshadow"}
 
     Choose a folder to share, then click **Next**.
 
-    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/add_shared_folder.png){class="glboxshadow"}
+    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_add_shared_folder.png){class="glboxshadow"}
 
     For security reasons, we do not recommend enabling **Anonymous Access**.
 
-    If you leave the **Anonymous Access** off, you need to create a user by clicking the **+ Add User** button or choose an existing user, and then check the user in the option **Writable User** or **Read-Only User**. The User is for connecting to the Samba. You can manage the user in the **User Management** tab. 
+    If you leave the **Anonymous Access** off, you need to create a user by clicking the **+ Add User** button or choose an existing user, and then check the user in the option **Writable User** or **Read-Only User**. The User is for the connection to the Samba Server. You can manage the user in the **User Management** tab.
     
     Finally, click the **Apply** button.
 
-    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/shared_folder_settings.png){class="glboxshadow"}
+    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folder_settings.png){class="glboxshadow"}
 
     That is it. The access link can be found in **Shared Link**.
 
-    ![network storage, shared link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/shared_link.png){class="glboxshadow"}
+    ![network storage, shared link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_link.png){class="glboxshadow"}
 
     Click **Shared Link**, it will show the access link for each system. The Unix-like system include Android, iOS, macOS, Ubuntu etc.
 
-    ![network storage, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/folder_access_link.png){class="glboxshadow"}
+    **Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+
+    ![network storage, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_folder_access_link.png){class="glboxshadow"}
     
     Then try to access the Samba on various OS, check out [here](#samba-client).
 
-=== "WebDav"
+=== "WebDAV"
 
-    Toggle to enalbe WebDav, click **Apply**.
+    Toggle to enalbe WebDAV.
 
-    ![network storage, enable webdav](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_webdav.png){class="glboxshadow"}
+    For the protocol, **HTTP** is not encrypted, using on your risk; **HTTPS** is encrypted, it uses self signed certificate.
+    
+    Then click **Apply**.
+
+    ![network storage, enable webdav](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/enable_webdav.png){class="glboxshadow"}
+
+    Go to **Shared Folder** tab. Click **+ Add** button to add a shared folder.
+
+    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folders.png){class="glboxshadow"}
+
+    Choose a folder to share, then click **Next**.
+
+    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_add_shared_folder.png){class="glboxshadow"}
+
+    Select the **Share Protocol** as **WebDAV**.
+
+    For security reasons, we do not recommend enabling **Anonymous Access**.
+
+    If you leave the **Anonymous Access** off, you need to create a user by clicking the **+ Add User** button or choose an existing user, and then check the user in the option **Writable User** or **Read-Only User**. The User is for the connection to the WebDAV Server. You can manage the user in the **User Management** tab.
+
+    Finally, click the **Apply** button.
+
+    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/webdav_shared_folder_settings.png){class="glboxshadow"}
+
+    That is it. The access link can be found in **Shared Link**.
+
+    ![network storage, shared link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/webdav_share_link.png){class="glboxshadow"}
+
+    Click **Shared Link**, it will show the access link for each system. The Unix-like system include Android, iOS, macOS, Ubuntu etc.
+
+    **Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+
+    ![network storage, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/webdav_folder_access_link.png){class="glboxshadow"}
+
+    Then try to access the WebDAV on various OS, check out [here](#webdav-client).
 
 === "DLNA"
 
@@ -154,23 +190,90 @@ When a disk is found.
 
     Click **Done** button to complete this setup.
 
-    ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_4.png){class="glboxshadow" width="560"}
+    ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_4_samba.png){class="glboxshadow" width="560"}
 
-## WebDav Client
+## WebDAV Client
 
 === "Windows"
 
-    [Cyberduck](https://cyberduck.io/download/){target="_blank"}, [FileZilla Pro](https://filezillapro.com/){target="_blank"}, [RaiDrive](https://www.raidrive.com/){target="_blank"}, [WinSCP](https://winscp.net/eng/index.php){target="_blank"}
+    There is a lot of software that supports WebDAV, for example [RaiDrive](https://www.raidrive.com/){target="_blank"}, [Cyberduck](https://cyberduck.io/download/){target="_blank"}, [WinSCP](https://winscp.net/eng/index.php){target="_blank"}.
+    
+    Here is an example of RaiDrive.
 
-=== "Mac OS"
+    Click **Add**.
 
-    [Cyberduck](https://cyberduck.io/download/){target="_blank"}, [FileZilla Pro](https://filezillapro.com/){target="_blank"}, [FE File Explorer](https://apps.apple.com/hk/app/fe-file-explorer/id1444382558?l=en&mt=12){target="_blank"}, [Connect to or disconnect from a WebDAV server on Mac](https://support.apple.com/en-gb/guide/mac-help/mchlp1546/mac){target="_blank"}
+    ![RaiDrive WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/raidrive_add.png){class="glboxshadow"}
+
+    In the **Storage** area, click **NAS** -> **WebDAV**.
+
+    In the **Address** area, check/uncheck the checkbox near Address to switch https/http, enter the address.
+
+    In the **Account** area, enter username and password, or check the **Anonymous**.
+
+    Finally, click **Connect**, it will add a X drive in the File Explorer.
+
+    ![RaiDrive WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/raidrive_new_drive_webdav.png){class="glboxshadow"}
+
+=== "macOS"
+
+    There is a lot of app that supports WebDAV, for example [FE File Explorer](https://apps.apple.com/hk/app/fe-file-explorer/id1444382558?l=en&mt=12){target="_blank"}, [Cyberduck](https://cyberduck.io/download/){target="_blank"}.
+
+    Here is an example of FE File Explorer.
+
+    Click Add button.
+
+    ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/fe_file_explorer_add.png){class="glboxshadow"}
+
+    Select **WebDAV**.
+
+    ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/fe_file_explorer_webdav.png){class="glboxshadow"}
+
+    Enter connection settings. If is anonymous access, just leave **User Name** and **Password** empty. Then clidk **Save & Connect**.
+
+    ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/fe_file_explorer_webdav_connection_setting.png){class="glboxshadow"}
+
+    It may has a warning says *The following secure server (null) uses an untrusted certificate. Trust this server?*, that is because it use self signed certificate, please trust it.
 
 === "Android"
 
-    [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}
+    There are many iOS apps that support WebDAV, here is an example of [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}.
+
+    At the home page, click **NETWORK**.
+
+    ![cx file explorer home page](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/cx_file_explorer_home.png){class="glboxshadow" width="400"}
+
+    Click **New Location**.
+    
+    ![cx file explorer home page](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/cx_file_explorer_new_location.png){class="glboxshadow" width="400"}
+
+    Click **WebDAV**.
+
+    ![cx file explorer home page](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/cx_file_explorer_remote.png){class="glboxshadow" width="350"}
+
+    Input the **Host**, **Username**, **Password**. If is **Anonymous Access**, please check the **Anonymous**.
+
+    ![cx file explorer home page](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/cx_file_explorer_smb.png){class="glboxshadow" width="350"}
 
 === "iOS"
 
-    [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}
+    There are many iOS apps that support WebDAV, here is an example of [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
+    
+    **Note:** Documents doesn't support anonymous access.
 
+    Click the plus button in the lower right corner.
+
+    ![documents WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_1.png){class="glboxshadow" width="560"}
+
+    Click **Add Connection**.
+
+    ![documents WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_2.png){class="glboxshadow" width="560"}
+
+    Click **WebDAV Server**.
+
+    ![documents WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_3.png){class="glboxshadow" width="560"}
+
+    The **Title** is for a name of this connection. **URL** is the access link. **Login** is the username.
+
+    Click **Done** button to complete this setup.
+
+    ![documents WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_4_webdav.png){class="glboxshadow" width="560"}

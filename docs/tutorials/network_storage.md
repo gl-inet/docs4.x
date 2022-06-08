@@ -68,6 +68,32 @@ When a disk is found.
 
 === "Windows"
 
+    Here is an example of Windows 11, Windows 10 is similar.
+
+    Open up File Explorer and then right-click on **This PC** (in the left pane). From the resulting context menu, select **Show more options** -> **Add a network location**
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/windows11_add_network_location.png){class="glboxshadow"}
+
+    Click **Choose a custom network location** and then click **Next**.
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/windows11_add_network_location_2.png){class="glboxshadow"}
+
+    Enter the Samba access link. Then click **Next**.
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/windows11_add_network_location_3.png){class="glboxshadow"}
+
+    Give a name of this location. Click **Next**.
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/windows11_add_network_location_4.png){class="glboxshadow"}
+
+    Click **Finish**.
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/windows11_add_network_location_5.png){class="glboxshadow"}
+
+    If it need username and password, it will ask to enter the credential. Then click **OK**.
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/windows11_add_network_location_6.png){class="glboxshadow"}
+
 === "Mac OS"
 
     You can access Samba by the Finder.

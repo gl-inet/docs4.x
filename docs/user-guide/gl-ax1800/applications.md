@@ -2,20 +2,24 @@
 
 ## Plug-ins
 
-- [**Plug-ins**](../../../tutorials/plugins/)
+Please visit the [**Plug-ins**](../../../tutorials/plugins/) tutorial.
 
 ## Dynamic DNS
 
-- [**Dynamic DNS**](../../../tutorials/ddns/)
+Please visit the [**Dynamic DNS**](../../../tutorials/ddns/) tutorial.
 
 ## GoodCloud
 
-- [**GoodCloud**](../../../tutorials/cloud/)
+Please visit the  [**GoodCloud**](../../../tutorials/cloud/) tutorial.
 
 ## AdGuard Home
 
-- [**AdGuard Home**](../../../tutorials/adguardhome/)
+Please visit the [**AdGuard Home**](../../../tutorials/adguardhome/) tutorial.
 
 ## Network Storage
 
+Please visit the [**Network Storage**](../../../tutorials/network_storage/) tutorial.
+
 ## Log
+
+Please visit the [**Log**](../../../tutorials/log/) tutorial.

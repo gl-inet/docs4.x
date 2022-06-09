@@ -2,6 +2,8 @@
 
 On the left side of web Admin Panel -> MORE SETTINGS -> Admin Password
 
+![admin password](http://static.gl-inet.com/docs/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
+
 Change the password of login the web Admin Panel. You have to input your current password to change it.
 
 For security reasons, we recommend that you turn on **Prevent Weak Password**.

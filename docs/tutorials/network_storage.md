@@ -1,10 +1,22 @@
 # Network Storage
 
+## Contents
+
+- [Introduction](#introduction)
+- [Insert storage device](#insert-storage-device)
+- [Setup Samba](#setup-samba)
+- [Setup WebDAV](#setup-webdav)
+- [Setup DLNA](#setup-dlna)
+- [Samba Client](#samba-client)
+- [WebDAV Client](#webdav-client)
+
+## Introduction
+
 Some GL.iNet models support TF card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDAV, DLNA on this page for the disk.
 
 The supported disk formats are NTFS, exFAT, FAT32, Ext3, Ext4.
 
-## Setup
+## Insert storage device
 
 For TF card, you need to power off the router first, insert the TF card and then power on the router.
 
@@ -18,87 +30,87 @@ When a disk is found.
 
 ![network storage, disk found](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
 
-=== "Samba"
+## Setup Samba
 
-    Toggle to enalbe Samba, click **Apply**.
+Toggle to enalbe Samba, click **Apply**.
 
-    ![network storage, enable samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_to_enable.png){class="glboxshadow"}
+![network storage, enable samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_to_enable.png){class="glboxshadow"}
 
-    Go to **Shared Folder** tab. Click **+ Add** button to add a shared folder.
+Go to **Shared Folder** tab. Click **+ Add** button to add a shared folder.
 
-    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folders.png){class="glboxshadow"}
+![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folders.png){class="glboxshadow"}
 
-    Choose a folder to share, then click **Next**.
+Choose a folder to share, then click **Next**.
 
-    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_add_shared_folder.png){class="glboxshadow"}
+![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_add_shared_folder.png){class="glboxshadow"}
 
-    For security reasons, we do not recommend enabling **Anonymous Access**.
+For security reasons, we do not recommend enabling **Anonymous Access**.
 
-    If you leave the **Anonymous Access** off, you need to create a user by clicking the **+ Add User** button or choose an existing user, and then check the user in the option **Writable User** or **Read-Only User**. The User is for the connection to the Samba Server. You can manage the user in the **User Management** tab.
-    
-    Finally, click the **Apply** button.
+If you leave the **Anonymous Access** off, you need to create a user by clicking the **+ Add User** button or choose an existing user, and then check the user in the option **Writable User** or **Read-Only User**. The User is for the connection to the Samba Server. You can manage the user in the **User Management** tab.
 
-    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folder_settings.png){class="glboxshadow"}
+Finally, click the **Apply** button.
 
-    That is it. The access link can be found in **Shared Link**.
+![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folder_settings.png){class="glboxshadow"}
 
-    ![network storage, shared link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_link.png){class="glboxshadow"}
+That is it. The access link can be found in **Shared Link**.
 
-    Click **Shared Link**, it will show the access link for each system. The Unix-like system include Android, iOS, macOS, Ubuntu etc.
+![network storage, shared link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_link.png){class="glboxshadow"}
 
-    **Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+Click **Shared Link**, it will show the access link for each system. The Unix-like system include Android, iOS, macOS, Ubuntu etc.
 
-    ![network storage, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_folder_access_link.png){class="glboxshadow"}
-    
-    Then try to access the Samba on various OS, check out [here](#samba-client).
+**Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
 
-=== "WebDAV"
+![network storage, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_folder_access_link.png){class="glboxshadow"}
 
-    Toggle to enalbe WebDAV.
+Then try to access the Samba on various OS, check out [here](#samba-client).
 
-    For the protocol, **HTTP** is not encrypted, using on your risk; **HTTPS** is encrypted, it uses self signed certificate.
-    
-    Then click **Apply**.
+## Setup WebDAV
 
-    ![network storage, enable webdav](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/enable_webdav.png){class="glboxshadow"}
+Toggle to enalbe WebDAV.
 
-    Go to **Shared Folder** tab. Click **+ Add** button to add a shared folder.
+For the protocol, **HTTP** is not encrypted, using on your risk; **HTTPS** is encrypted, it uses self signed certificate.
 
-    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folders.png){class="glboxshadow"}
+Then click **Apply**.
 
-    Choose a folder to share, then click **Next**.
+![network storage, enable webdav](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/enable_webdav.png){class="glboxshadow"}
 
-    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_add_shared_folder.png){class="glboxshadow"}
+Go to **Shared Folder** tab. Click **+ Add** button to add a shared folder.
 
-    Select the **Share Protocol** as **WebDAV**.
+![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folders.png){class="glboxshadow"}
 
-    For security reasons, we do not recommend enabling **Anonymous Access**.
+Choose a folder to share, then click **Next**.
 
-    If you leave the **Anonymous Access** off, you need to create a user by clicking the **+ Add User** button or choose an existing user, and then check the user in the option **Writable User** or **Read-Only User**. The User is for the connection to the WebDAV Server. You can manage the user in the **User Management** tab.
+![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_add_shared_folder.png){class="glboxshadow"}
 
-    Finally, click the **Apply** button.
+Select the **Share Protocol** as **WebDAV**.
 
-    ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/webdav_shared_folder_settings.png){class="glboxshadow"}
+For security reasons, we do not recommend enabling **Anonymous Access**.
 
-    That is it. The access link can be found in **Shared Link**.
+If you leave the **Anonymous Access** off, you need to create a user by clicking the **+ Add User** button or choose an existing user, and then check the user in the option **Writable User** or **Read-Only User**. The User is for the connection to the WebDAV Server. You can manage the user in the **User Management** tab.
 
-    ![network storage, shared link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/webdav_share_link.png){class="glboxshadow"}
+Finally, click the **Apply** button.
 
-    Click **Shared Link**, it will show the access link for each system. The Unix-like system include Android, iOS, macOS, Ubuntu etc.
+![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/webdav_shared_folder_settings.png){class="glboxshadow"}
 
-    **Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+That is it. The access link can be found in **Shared Link**.
 
-    ![network storage, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/webdav_folder_access_link.png){class="glboxshadow"}
+![network storage, shared link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/webdav_share_link.png){class="glboxshadow"}
 
-    Then try to access the WebDAV on various OS, check out [here](#webdav-client).
+Click **Shared Link**, it will show the access link for each system. The Unix-like system include Android, iOS, macOS, Ubuntu etc.
 
-=== "DLNA"
+**Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
 
-    Toggle to enalbe DLNA, modify **Share Path** if needed, click **Apply**. That is it.
+![network storage, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav/webdav_folder_access_link.png){class="glboxshadow"}
 
-    ![network storage, enable dlna](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_dlna.png){class="glboxshadow"}
+Then try to access the WebDAV on various OS, check out [here](#webdav-client).
 
-    Connect your smart TV to the router, it will find the DLNA Server.
+## Setup DLNA
+
+Toggle to enalbe DLNA, modify **Share Path** if needed, click **Apply**. That is it.
+
+![network storage, enable dlna](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_dlna.png){class="glboxshadow"}
+
+Connect your smart TV to the router, it will find the DLNA Server.
 
 ## Samba Client
 

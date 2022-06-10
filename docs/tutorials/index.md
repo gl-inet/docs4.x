@@ -86,6 +86,7 @@ hide:
 * [DNS](dns)
 * [Network Mode](network_mode)
 * [IPv6](ipv6)
+* [Toggle Button Settings](toggle_button_settings)
 * [Reset Firmware](reset_firmware)
 * [Advanced Settings](advancd_settings)
 

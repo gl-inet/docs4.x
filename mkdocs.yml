@@ -167,6 +167,7 @@ nav:
       - DNS: tutorials/dns.md
       - Network Mode: tutorials/network_mode.md
       - IPv6: tutorials/ipv6.md
+      - Toggle Button Settings: tutorials/toggle_button_settings.md
       - Reset Firmware: tutorials/reset_firmware.md
       - Advanced Settings: tutorials/advanced_settings.md
     - Privacy:

@@ -97,7 +97,8 @@ hide:
 
 ## Trouble shooting
 
-
+* [What should I do if my router is bricked?](uboot)
+* [Debrick via Uboot](uboot)
 
 ## Other
 

@@ -1,5 +1,7 @@
 # DNS
 
+On the left side of web Admin Panel -> MORE SETTINGS -> DNS
+
 If you set custom DNS servers, any dns name will be resolved through the DNS servers set here instead of the one obtained from wan, repeater, cellular, hotspot sharing or VPN configuration DNS server.
 
 ![dns](https://static.gl-inet.com/docs/en/4/tutorials/dns/dns_page.png){class="glboxshadow"}

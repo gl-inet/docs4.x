@@ -1,3 +1,3 @@
-# CLIENTS
+＃クライアント
 
-Please refer to the tutorial of [CLIENTS](../../../tutorials/clients/)
+[CLIENTS]のチュートリアルを参照してください（../../../tutorials/clients/）

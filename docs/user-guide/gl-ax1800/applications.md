@@ -1,25 +1,25 @@
-# APPLICATIONS
+＃アプリケーション
 
-## Plug-ins
+## プラグイン
 
-Please visit the [**Plug-ins**](../../../tutorials/plugins/) tutorial.
+[**プラグイン**]（../../../tutorials/plugins/）チュートリアルにアクセスしてください。
 
-## Dynamic DNS
+## 動的DNS
 
-Please visit the [**Dynamic DNS**](../../../tutorials/ddns/) tutorial.
+[** Dynamic DNS **]（../../../ tutorials / ddns /）チュートリアルにアクセスしてください。
 
 ## GoodCloud
 
-Please visit the  [**GoodCloud**](../../../tutorials/cloud/) tutorial.
+[** GoodCloud **]（../../../ tutorials / cloud /）チュートリアルにアクセスしてください。
 
-## AdGuard Home
+## AdGuardホーム
 
-Please visit the [**AdGuard Home**](../../../tutorials/adguardhome/) tutorial.
+[** AdGuard Home **]（../../../tutorials/adguardhome/）チュートリアルにアクセスしてください。
 
-## Network Storage
+## ネットワークストレージ
 
-Please visit the [**Network Storage**](../../../tutorials/network_storage/) tutorial.
+[**ネットワークストレージ**]（../../../tutorials/network_storage/）チュートリアルにアクセスしてください。
 
-## Log
+## ログ
 
-Please visit the [**Log**](../../../tutorials/log/) tutorial.
+[** Log **]（../../../ tutorials / log /）チュートリアルにアクセスしてください。

@@ -13,6 +13,7 @@ copyright: Copyright &copy; 2022 GL Technologies & Microuter Technologies
 theme: 
   name: material
   logo: images/logo.svg
+  custom_dir: overrides
   features:
     - navigation.indexes
     - navigation.tabs
@@ -79,8 +80,7 @@ markdown_extensions:
   - pymdownx.details
 
 nav:
-  - Home:
-    - Overview: index.md
+  - Home: index.md
   - User Guide:
     - Overview: user-guide/index.md
     - GL-AXT1800 (Slate AX):

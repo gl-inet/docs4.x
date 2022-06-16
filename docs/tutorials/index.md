@@ -6,7 +6,7 @@ hide:
 
 # Tutorials
 
-## General
+## FAQ
 
 * [First time setup](first_time_setup)
 

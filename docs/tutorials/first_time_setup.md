@@ -26,7 +26,7 @@ GL-AXT1800, power adapter, ethernet cable.
 
         **GL-AXT1800-XXX** or **GL-AXT1800-XXX-5G**
 
-        Search for the SSID of the router in your computer/phone/tablet and input the default password: **goodlife**.
+        Search for the SSID of the router in your computer/phone/tablet and input the WiFi password. Please find the WiFi password on the label on the back of the router. Some models if you can't find the WiFi password on the label, please try the default password **goodlife**.
 
 3. Access the web Admin Panel
 

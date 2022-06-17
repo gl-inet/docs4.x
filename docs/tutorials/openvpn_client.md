@@ -16,7 +16,7 @@ You can setup OpenVPN Client via web Admin Panel and [mobile app](../mobile_app)
 
 From firmware 4.0.0, it has integrated NordVPN OpenVPN service.
 
-1. Input your NordVPN account's service credential, then click **Save Credentials & Get Servers**
+1. Input your NordVPN account's service credentials, then click **Save Credentials & Get Servers**
 
     ??? note
 

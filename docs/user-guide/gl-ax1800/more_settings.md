@@ -32,6 +32,6 @@ Please visit the [**Toggle Button Settings**](../../../tutorials/toggle_button_s
 
 Please visit the [**Reset Firmware**](../../../tutorials/reset_firmware/) tutorial.
 
-## Advanced Settins
+## Advanced Settings
 
 Please visit the [**Advanced Settings**](../../../tutorials/advanced_settings/) tutorial.

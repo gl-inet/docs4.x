@@ -1,4 +1,4 @@
-# OpenVPN Client
+# How to Setup OpenVPN Client on GL.iNet router
 
 OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
 
@@ -15,6 +15,8 @@ You can setup OpenVPN Client via web Admin Panel and [mobile app](../mobile_app)
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is the top online VPN service for speed and security.
 
 From firmware 4.0.0, it has integrated NordVPN OpenVPN service.
+
+Access to web Admin Panel, on the left side -> VPN -> OpenVPN Client
 
 1. Input your NordVPN account's service credentials, then click **Save Credentials & Get Servers**
 

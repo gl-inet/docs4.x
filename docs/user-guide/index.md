@@ -11,6 +11,13 @@
         <div class="gl-product-model">(GL-AXT1800)</div>
       </a>
     </div>
+    <div class="gl-product-card">
+      <a href="gl-a1300/hardware_info/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_a1300.jpg" >
+        <div class="gl-product-model">Slate Plus</div>
+        <div class="gl-product-model">(GL-A1300)</div>
+      </a>
+    </div>
   </div>
 </div>
 

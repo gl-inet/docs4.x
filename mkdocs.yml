@@ -145,7 +145,7 @@ nav:
       - Plug-ins: tutorials/plugins.md
       - Dynamic DNS: tutorials/ddns.md
       - GoodCloud: tutorials/cloud.md
-      - AdGuardHOme: tutorials/adguardhome.md
+      - AdGuard Home: tutorials/adguardhome.md
       - Network Storage: tutorials/network_storage.md
       - Log: tutorials/log.md
     - More settings:

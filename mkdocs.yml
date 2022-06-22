@@ -13,6 +13,7 @@ copyright: Copyright &copy; 2022 GL Technologies & Microuter Technologies
 theme: 
   name: material
   logo: images/logo.svg
+  custom_dir: overrides
   features:
     - navigation.indexes
     - navigation.tabs
@@ -79,8 +80,7 @@ markdown_extensions:
   - pymdownx.details
 
 nav:
-  - Home:
-    - Overview: index.md
+  - Home: index.md
   - User Guide:
     - Overview: user-guide/index.md
     - GL-AXT1800 (Slate AX):
@@ -117,41 +117,27 @@ nav:
       - Repeater: tutorials/internet_repeater.md
       - Tethering: tutorials/internet_tethering.md
       - Cellular: tutorials/internet_cellular.md
-      - Share mobile internet to router: tutorials/share_mobile_internet_connection_to_router.md
-      - Setup as a bridge: tutorials/setup_the_router_as_a_bridge.md
-      - Produce a wired connection: tutorials/produce_a_wired_connection.md
-      - Connect to an existing Wi-Fi: tutorials/connect_to_an_existing_wifi.md
       - Connect to a Hotspot with Captive Portal: tutorials/connect_to_a_hotspot_with_captive_portal.md
-      - Repeater lock band: tutorials/repeater_lock_band.md
-      - Repeater forget saved network: tutorials/repeater_forget_saved_netwrok.md
-      - Repeater DFS channel: tutorials/repeater_dfs_channel.md
-      - Turn off WiFi: tutorials/turn_off_wifi.md
-      - Hide SSID: tutorials/hide_ssid.md
       - DHCP: tutorials/dhcp.md
       - PPPoE: tutorials/pppoe.md
-      - Set static WAN ip: tutorials/how_to_set_static_wan_ip.md
       - Produce a wired connection: tutorials/produce_a_wired_connection.md
     - Wireless:
       - Wireless: tutorials/wireless.md
     - Clients:
       - Clients: tutorials/clients.md
-      - Client randomized MAC: tutorials/client_randomized_mac.md
     - Upgrade:
       - Frimware Upgrade: tutorials/firmware_upgrade.md
       - Download Firmware: tutorials/where_to_download_firmware.md
     - Firewall:
       - Firewall: tutorials/firewall.md
-      - Port forwarding: tutorials/port_forwarding.md
-      - DMZ: tutorials/dmz.md
     - VPN:
       - VPN Dashboard: tutorials/vpn_dashboard.md
       - OpenVPN Client: tutorials/openvpn_client.md
       - OpenVPN Server: tutorials/openvpn_server.md
       - WireGuard Client: tutorials/wireguard_client.md
       - WireGuard Server: tutorials/wireguard_server.md
-      - Block No-VPN Traffic: tutorials/block_no_vpn_traffic.md
-      - WireGuard Server if not main router: tutorials/setup_wireguard_server_if_not_main_router.md
       - TCP or UDP: tutorials/openvpn_tcp_udp.md
+      - Block No-VPN Traffic: tutorials/block_no_vpn_traffic.md
     - Applications:
       - Plug-ins: tutorials/plugins.md
       - Dynamic DNS: tutorials/ddns.md
@@ -167,17 +153,14 @@ nav:
       - DNS: tutorials/dns.md
       - Network Mode: tutorials/network_mode.md
       - IPv6: tutorials/ipv6.md
+      - Toggle Button Settings: tutorials/toggle_button_settings.md
       - Reset Firmware: tutorials/reset_firmware.md
       - Advanced Settings: tutorials/advanced_settings.md
-    - Privacy:
-      - Cloudflare: tutorials/how_to_use_cloudflare_dns_over_tls_on_glinet_router.md
-      - Protect Privacy: tutorials/how_to_use_vpn_and_dns_encryption_to_protect_your_privacy_with_glinet_router.md
+    - Troubleshooting:
+      - Debrick via Uboot: tutorials/uboot.md
     - Other:
       - Change WAN to LAN: tutorials/change_wan_to_lan.md
-      - SSH to router: tutorials/ssh.md
       - Mobile App: tutorials/mobile_app.md
-      - Find model number: tutorials/how_to_find_model.md
-      - What is LuCI: tutorials/what_is_luci.md
       - Remote access web admin panel: tutorials/remote_access_web_admin_panel.md
       - Remote SSH to router: tutorials/remote_ssh_to_router.md
       - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md

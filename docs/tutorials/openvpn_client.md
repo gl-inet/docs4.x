@@ -1,4 +1,4 @@
-# OpenVPN Client
+# How to Setup OpenVPN Client on GL.iNet router
 
 OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
 
@@ -16,9 +16,17 @@ You can setup OpenVPN Client via web Admin Panel and [mobile app](../mobile_app)
 
 From firmware 4.0.0, it has integrated NordVPN OpenVPN service.
 
-1. Input your credential, then click **Save Credentials & Get Servers**
+Access to web Admin Panel, on the left side -> VPN -> OpenVPN Client
 
-    ![input nordvpn credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/input_nordvpn_credential.png){class="glboxshadow"}
+1. Input your NordVPN account's service credentials, then click **Save Credentials & Get Servers**
+
+    ??? note
+
+        You can find your NordVPN service credentials in the Nord Account dashboard.
+
+        ![nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordvpn_service_credentials.png){class="glboxshadow"}
+
+    ![input nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/input_nordvpn_credential.png){class="glboxshadow"}
 
 2. Select protocol, max server count of each location, locations, then click **Apply**.
 
@@ -563,3 +571,15 @@ Others:
         ![wevpn manual configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/wevpn/wevpn_manual_configuration_generator.jpg){class="glboxshadow"}
 
     2. Choose the Protocal to UDP or TCP, the OpenVPN version, and the location. Then to download the configuration.
+
+<div id="zoogvpn"></div>
+
+??? "ZoogVPN"
+
+    [Official Website](https://zoogvpn.com/pricing?ref=xrsyzx){target="_blank"}
+
+    Sign in its [official website](https://zoogvpn.com/pricing?ref=xrsyzx){target="_blank"}, then access the [OpenVPN configuration files page](https://app.zoogvpn.com/setup/configuration-files){target="_blank"}, you will find all the servers here. Download the configuration file in the TCP column or UDP column.
+
+    ![zoogvpn openvpn configuration files](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/zoogvpn/zoogvpn_openvpn_config_files.png)
+
+    Then follow the [guide to setup OpenVPN Client on GL.iNet router](#setup-openvpn-client), the username and password are the same as the ones used to log into ZoogVPN website.

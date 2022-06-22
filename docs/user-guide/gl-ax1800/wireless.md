@@ -1,3 +1,3 @@
-# WIRELESS
+# 無線
 
-Please refer to the tutorial of [Wireless](../../../tutorials/wireless/)
+[ワイヤレス](../../../tutorials/wireless/)のチュートリアルを参照してください（../../../tutorials/wireless/）

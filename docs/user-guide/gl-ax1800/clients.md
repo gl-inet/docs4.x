@@ -1,3 +1,3 @@
 ＃クライアント
 
-[CLIENTS]のチュートリアルを参照してください（../../../tutorials/clients/）
+のチュートリアルを参照してください[CLIENTS](../../../tutorials/clients/)

@@ -1,13 +1,13 @@
-# AdGuard Home
+＃AdGuardホーム
 
-AdGuard Home is a network-wide software for blocking ads & tracking. Click **Start** button to continue.
+AdGuard Homeは、広告をブロックして追跡するためのネットワーク全体のソフトウェアです。 **開始**ボタンをクリックして続行します。
 
-![adguard home init](https://static.gl-inet.com/docs/en/4/tutorials/adguardhome/adguardhome_init.png){class="glboxshadow"}
+！[adguard home init]（https://static.gl-inet.com/docs/en/4/tutorials/adguardhome/adguardhome_init.png）{class = "glboxshadow"}
 
-When it starts, click **Setting Page** for advanced configuration.
+起動したら、**設定ページ**をクリックして詳細設定を行います。
 
-![adguard home started](https://static.gl-inet.com/docs/en/4/tutorials/adguardhome/adguardhome_started.png){class="glboxshadow"}
+！[アドガードホームが開始されました]（https://static.gl-inet.com/docs/en/4/tutorials/adguardhome/adguardhome_started.png）{class = "glboxshadow"}
 
-It will go to the AdGuard Home's own settings page. If you have any questions, please visit [Adguard Home Support Center](https://adguard.com/en/support.html){target="_blank"} for help.
+AdGuardHomeの独自の設定ページに移動します。 ご不明な点がございましたら、[Adguard Home Support Center]（https://adguard.com/en/support.html){target="_blank"}にアクセスしてください。
 
-![adguard home settings](https://static.gl-inet.com/docs/en/4/tutorials/adguardhome/adguardhome_settings.png){class="glboxshadow"}
+！[アドガードホーム設定]（https://static.gl-inet.com/docs/en/4/tutorials/adguardhome/adguardhome_settings.png）{class = "glboxshadow"}

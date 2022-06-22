@@ -1,15 +1,15 @@
-# Admin Password
+＃ 管理者のパスワード
 
-On the left side of web Admin Panel -> MORE SETTINGS -> Admin Password
+Web管理パネルの左側->その他の設定->管理者パスワード
 
-![admin password](http://static.gl-inet.com/docs/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
+！[管理者パスワード]（http://static.gl-inet.com/docs/en/4/tutorials/admin_password/admin_password.png）{class = "glboxshadow"}
 
-Change the password of login the web Admin Panel. You have to input your current password to change it.
+Web管理パネルにログインするためのパスワードを変更します。 変更するには、現在のパスワードを入力する必要があります。
 
-For security reasons, we recommend that you turn on **Prevent Weak Password**.
+セキュリティ上の理由から、**弱いパスワードの防止**をオンにすることをお勧めします。
 
-When **Prevent Weak Password** is turned on, the requirements for new passwords are as follows.
+**弱いパスワードの防止**がオンになっている場合、新しいパスワードの要件は次のとおりです。
 
-- 5 characters and maximum 63 characters.
-- Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
-- At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
+-5文字および最大63文字。
+-文字（大文字と小文字を区別する）、数字、記号 ``！ @＃$％^＆*（）_ +-=、。 > <| ？ / \ [] {}：; "'`〜``が許可されます。
+-大文字、小文字、数字、記号の少なくとも2つが必要です。

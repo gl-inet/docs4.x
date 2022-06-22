@@ -1,3 +1,3 @@
-# UPGRADE
+# アップグレード
 
-Please refer to the tutorial of [CLIENTS](../../../tutorials/firmware_upgrade/)
+[CLIENTS](../../../tutorials/firmware_upgrade/)のチュートリアルを参照してください（../../../tutorials/firmware_upgrade/）

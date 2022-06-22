@@ -1,5 +1,5 @@
-# FIREWALL
+  # ファイアウォール
 
-On the left side of web Admin Panel -> FIREWALL
+Web管理パネルの左側->FIREWALL
 
-Please refer to the [Firewall tutorial](../../../tutorials/firewall/)
+[Firewallチュートリアル](../../../tutorials/firewall/)を参照してください。

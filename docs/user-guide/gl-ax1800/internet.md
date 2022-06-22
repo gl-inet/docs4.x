@@ -1,9 +1,9 @@
-# INTERNET
+# インターネット
 
-## Ethernet
+## イーサネット
 
-## Repeater
+## リピーター
 
-## Tethering
+## テザリング
 
-## Cellular
+## セルラー

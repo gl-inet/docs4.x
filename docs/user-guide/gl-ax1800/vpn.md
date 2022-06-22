@@ -1,21 +1,21 @@
-# VPN
+＃VPN
 
-GL.iNet routers have pre-installed VPN server and client in OpenVPN and WireGuard.
+GL.iNetルーターには、OpenVPNとWireGuardにVPNサーバーとクライアントがプリインストールされています。
 
-## VPN Dashboard
+## VPNダッシュボード
 
-- [**VPN Dashboard**](../../../tutorials/vpn_dashboard/)
+-[** VPNダッシュボード**](../../../tutorials/vpn_dashboard/)
 
 ## OpenVPN
 
-Please refer to the links below for the detailed setup instruction:
+詳細なセットアップ手順については、以下のリンクを参照してください。
 
-- [**Setup OpenVPN Client**](../../../tutorials/openvpn_client/)
-- [**Setup OpenVPN Server**](../../../tutorials/openvpn_server/)
+-[** OpenVPNクライアントのセットアップ**](../../../tutorials/openvpn_client/)
+-[** OpenVPNサーバーのセットアップ**](../../../tutorials/openvpn_server/)
 
 ## WireGuard
 
-Please refer to the links below for the detailed setup instruction:
+詳細なセットアップ手順については、以下のリンクを参照してください。
 
-- [**Setup WireGuard Client**](../../../tutorials/wireguard_client/)
-- [**Setup WireGuard Server**](../../../tutorials/wireguard_server/)
+-[** WireGuardクライアントのセットアップ**](../../../tutorials/wireguard_client/)
+-[** WireGuardサーバーのセットアップ**](../../../tutorials/wireguard_server/)

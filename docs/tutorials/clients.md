@@ -1,27 +1,27 @@
 # CLIENTS
 
-On the left side of web Admin Panel -> CLIENTS
+ウェブ管理画面の左側にある「CLIENTS」をクリックします。
 
-You can manage all connected devices in CLIENTS page.
+CLIENTS ページで、接続されているすべてのデバイスを管理できます。
 
-## Blocking client
+## クライアントをブロックする
 
-Enable **Block WAN** so that it cannot access the WAN, only LAN. To put it simple, it will cannot access the Internet.
+WANをブロックする**を有効にすると、WANにアクセスできなくなり、LANだけにアクセスできるようになります。簡単に言うと、インターネットにアクセスできなくなります。
 
-![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients.png){class="glboxshadow"}
+![クライアントページ](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients.png){class="glboxshadow"}.
 
-## Limiting speed
+## 速度制限
 
-Click **Action** to limit speed a client.
+アクション**をクリックすると、クライアントの速度を制限することができます。
 
-![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_limit_speed_settings.png){class="glboxshadow"}
+![クライアントページ](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_limit_speed_settings.png){class="glboxshadow"}をクリックします。
 
-If a client has applied speed limitation, its up arrow and down arrow of speed will turn yellow.
+速度制限をかけたクライアントは、速度の上矢印と下矢印が黄色になります。
 
-![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_limit_speed.png){class="glboxshadow"}
+クライアントページ](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_limit_speed.png){class="glboxshadow"}をクリックします。
 
-Click **Action** to disable limiting.
+制限を解除するには、**Action**をクリックします。
 
-## Remove offline clients
+## オフラインのクライアントを削除する
 
-For offline clients, click **Action** can remove this client as well.
+オフラインのクライアントについては、**Action**をクリックすると、このクライアントも削除されます。

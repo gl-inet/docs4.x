@@ -1,54 +1,54 @@
-# First time setup
+  # 初めてのセットアップ
 
-The first setup of the GL.iNet router is very similar, here is the example of GL-AXT1800(Slate AX).
+GL.iNetルーターの最初のセットアップは非常に似ています。これは、GL-AXT1800（Slate AX）の例です。
 
-Please prepare the following items that included in the package.
+パッケージに含まれる以下のアイテムをご用意ください。
 
-GL-AXT1800, power adapter, ethernet cable.
+GL-AXT1800、電源アダプタ、イーサネットケーブル。
 
-1. Power on
+1.電源を入れます
 
-    If you want to use TF card, please insert before powering on the router. Hot plugging for TF card is not supported.
+    TFカードを使用する場合は、ルーターの電源を入れる前に挿入してください。 TFカードのホットプラグはサポートされていません。
 
-    Plug one end of the power adapter into the router and the other end into an outlet. It will automatically power on.
+    電源アダプタの一方の端をルータに接続し、もう一方の端をコンセントに接続します。自動的に電源が入ります。
 
-2. Connect to the router
+2.ルーターに接続します
 
-    You can connect to router via an ethernet cable or via Wi-Fi.
+    イーサネットケーブルまたはWi-Fiを介してルーターに接続できます。
 
-    * Connect via cable
+    *ケーブルで接続
 
-        Connect your computer to the LAN port of the router via Ethernet cable.
+        コンピューターをイーサネットケーブルを介してルーターのLANポートに接続します。
 
-    * Connect via Wi-Fi
+    *Wi-Fi経由で接続
 
-        The SSID was printed on the bottom label of the router with the following formats:
+        SSIDは、ルーターの下部ラベルに次の形式で印刷されています。
 
-        **GL-AXT1800-XXX** or **GL-AXT1800-XXX-5G**
+        **GL-AXT1800-XXX**または**GL-AXT1800-XXX-5G**
 
-        Search for the SSID of the router in your computer/phone/tablet and input the default password: **goodlife**.
+        コンピューター/電話/タブレットでルーターのSSIDを検索し、デフォルトのパスワード**goodlife**を入力します。
 
-3. Access the web Admin Panel
+3.Web管理パネルにアクセスします
 
-    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel.
+    Webブラウザ（Chrome、Edge、Safariをお勧めします）を開き、[http://192.168.8.1](http://192.168.8.1)にアクセスします。 Web管理パネルの初期設定に移動します。
 
-    Choose language.
+    言語を選択。
+    
+    ![言語を選択](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/choose_language.png){class = "glboxshadow"}
 
-    ![choose language](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/choose_language.png){class="glboxshadow"}
+    管理者パスワードを設定します。強力なパスワードを使用することをお勧めします。 **送信**をクリックして続行します。
 
-    Set up admin password, we recommend using a strong password. Click **Submit** to continue.
+    **注**：初期化中にWi-Fiがオフになる場合があります。必ず、ルーターに再接続してください。
 
-    **Note**: Wi-Fi may turn off during the initialization, please make sure to reconnect to the router.
+    ![管理者パスワードを設定](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class = "glboxshadow"}
+DS
+    初期設定後、ルーターのWeb管理パネルに入ります。
 
-    ![set up admin password](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class="glboxshadow"}
+   ![管理パネル](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel.png){class = "glboxshadow"}
 
-    After the initial setup, you will enter the web Admin Panel of the router.
+4.インターネットに接続する
 
-    ![admin panel](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel.png){class="glboxshadow"}
-
-4. Connect to the Internet
-
-    * [Connect to the Internet via an ethernet cable](../internet_ethernet)
-    * [Connect to the Internet via an existing Wi-Fi](../internet_repeater)
-    * [Connect to the Internet via usb tethering](../internet_tethering)
-    * [Connect to the Internet via usb modem](../internet_cellular)
+     * [イーサネットケーブルを介してインターネットに接続する]（../ internet_ethernet）
+     * [既存のWi-Fi経由でインターネットに接続]（../ internet_repeater）
+     * [usbテザリングを介してインターネットに接続する]（../ internet_tethering）
+     * [usbモデム経由でインターネットに接続]（../ internet_cellular）

@@ -1,9 +1,29 @@
 # User Guide
 
-- GL-AXT1800 / Slate AX
-    - [Hardware Info](gl-axt1800/hardware_info)
-    - [First Time Setup](gl-axt1800/first_time_setup)
+### Travel router
 
-- GL-AX1800 / Flint
-    - [Hardware Info](gl-ax1800/hardware_info)
-    - [First Time Setup](gl-ax1800/first_time_setup)
+<div class="gl-product-row">
+  <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-axt1800/hardware_info/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_axt1800.jpg" >
+        <div class="gl-product-model">Slate AX</div>
+        <div class="gl-product-model">(GL-AXT1800)</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+### Home Wi-Fi
+
+<div class="gl-product-row">
+  <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-ax1800/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ax1800.jpg" >
+        <div class="gl-product-model">Flint</div>
+        <div class="gl-product-model">(GL-AX1800)</div>
+  	  </a>
+  	</div>
+  </div>
+</div>

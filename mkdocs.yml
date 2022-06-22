@@ -129,7 +129,7 @@ nav:
     - Clients:
       - Clients: tutorials/clients.md
     - Upgrade:
-      - Frimware Upgrade: tutorials/firmware_upgrade.md
+      - Firmware Upgrade: tutorials/firmware_upgrade.md
       - Download Firmware: tutorials/where_to_download_firmware.md
     - Firewall:
       - Firewall: tutorials/firewall.md

@@ -1,6 +1,6 @@
 # Toggle Button Settings
 
-Some models have a togglel button, and you can customize what this button does in this page.
+Some models have a toggle button, and you can customize what this button does in this page.
 
 On the left side of web Admin Panel -> MORE SETTINGS -> Toggle Button Settings
 

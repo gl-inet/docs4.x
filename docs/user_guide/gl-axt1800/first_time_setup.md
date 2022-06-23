@@ -10,11 +10,11 @@ What’s inside the package?
 
 Package Contents:
 
-- 1 x user manual
+- 1 x User manual
 - 1 x Slate AX (GL-AXT1800)
 - 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
 
-Check out Slate AX’s [unboxing video](../../../video_library/#gl-axt1800slate-ax)
+Check out Slate AX's [unboxing video](../../../video_library/#gl-axt1800slate-ax).

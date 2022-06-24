@@ -1,6 +1,6 @@
 # Community
 
-Join our community to follow our latest news, solutions to common technical issues, and join our discussion on the lastest product development!
+Join our community to follow our latest news, solutions to common technical issues, and join our discussion on the latest product development!
 
 **Content Creators** - If you love using our products and services, feel free to apply and share your contents on our website and social media! We are more than happy to offer benefits including gifts, coupons, free routers for review, or even paid incentives for professional contents.
 

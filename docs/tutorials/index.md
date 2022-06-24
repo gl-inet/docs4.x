@@ -86,6 +86,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 
 * [How to change WAN port to LAN port?](change_wan_to_lan)
 * [GL.iNet Mobile App](mobile_app).
+* [What is LuCI?](what_is_luci)
 * [How to remote access router's web Admin Panel?](remote_access_web_admin_panel)
 * [How to remote ssh to router?](remote_ssh_to_router)
 * [How to check if Internet Service Provider assigns you a public IP address?](how_to_check_if_isp_assigns_you_a_public_ip_address)

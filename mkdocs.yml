@@ -36,6 +36,7 @@ theme:
 
 # Plugins
 plugins:
+  - search
   - redirects:
       redirect_maps:
         user-guide/index.md: user_guide/index.md

@@ -4,7 +4,7 @@ Some public hotspots especially those in hotel, cafe or airport, require you to 
 
 However, you may find that you are not able to enter the captive portal so that you cannot connect to the hotspot or access the Internet. In this case, please the following solutions one by one.
  
-## Solution1：Disable the *DNS Rebinding Attack Protection*
+## Solution 1：Disable the *DNS Rebinding Attack Protection*
 
 1. Visit the web Admin Panel (192.168.8.1), use [repeater](../internet_repeater/) to connect to the public hotspot which requires authentication through captive portal.
 

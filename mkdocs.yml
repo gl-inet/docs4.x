@@ -36,6 +36,7 @@ theme:
 
 # Plugins
 plugins:
+  - search
   - redirects:
       redirect_maps:
         user-guide/index.md: user_guide/index.md
@@ -191,6 +192,7 @@ nav:
     - Other:
       - Change WAN to LAN: tutorials/change_wan_to_lan.md
       - Mobile App: tutorials/mobile_app.md
+      - What is LuCI: tutorials/what_is_luci.md
       - Remote access web admin panel: tutorials/remote_access_web_admin_panel.md
       - Remote SSH to router: tutorials/remote_ssh_to_router.md
       - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md

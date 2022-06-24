@@ -4,6 +4,8 @@ On the left side of web Admin Panel -> FIREWALL
 
 In FIREWALL page, you can set up firewall rules like **Port Forwarding**, **Open Ports on Router** and **DMZ**.
 
+---
+
 ## Port Forwards
 
 Port Forwarding lets remote computers to connect to a local computer or server behind the firewall in the LAN network (such as web servers, FTP servers, etc).
@@ -32,6 +34,8 @@ It will pop up **Add New Port Forward Rule** dialog.
 
 **Enable:** Enable of disable of the rule.
 
+---
+
 ## Open Ports on Router
 
 The router's services, such as web and FTP, requires their respective ports to be opened on the router in order to be publicly reachable.
@@ -49,6 +53,8 @@ To open a port, click **Add**.
 **Port:** The port number that you want to open.
 
 **Enable:** Enable of disable of the rule.
+
+---
 
 ## DMZ
 

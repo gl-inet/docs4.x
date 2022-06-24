@@ -32,9 +32,9 @@ GL-AXT1800, power adapter, ethernet cable.
 
     Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel.
 
-    Choose language.
+    Choose a language, and click **Next** to continue.
 
-    ![choose language](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/choose_language.png){class="glboxshadow"}
+    ![Admin Panel](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel_first_time_login.png){class="glboxshadow"}
 
     Set up admin password, we recommend using a strong password. Click **Submit** to continue.
 

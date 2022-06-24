@@ -6,6 +6,8 @@ hide:
 
 # Tutorials
 
+Learn how to use our devices and add-on features with our step to step guides and answers to frequently asked questions.
+
 ## FAQ
 
 * [First time setup](first_time_setup)

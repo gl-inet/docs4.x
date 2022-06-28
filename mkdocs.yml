@@ -189,6 +189,7 @@ nav:
       - Advanced Settings: tutorials/advanced_settings.md
     - Troubleshooting:
       - Debrick via Uboot: tutorials/uboot.md
+      - Repair or Reset: tutorials/repair_network_or_reset_firmware.md
     - Other:
       - Change WAN to LAN: tutorials/change_wan_to_lan.md
       - Mobile App: tutorials/mobile_app.md

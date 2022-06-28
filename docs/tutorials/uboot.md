@@ -4,19 +4,21 @@ You may have bricked your router if you were doing some DIY projects or flashed 
 
 ---
 
+Please prepare a computer with an ethernet port, if not, please prepare an additional USB Ethernet Adapter.
+
 Please follow the procedures below to access the Uboot Web UI and re-install the firmware.
 
 You can also refer to video tutorial below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EAaaw8nyrnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. First you have to download firmware to your computer. You can download the firmware [here](https://dl.gl-inet.com/){target="_blank"}. Some models, such as GL-AR750S-EXT, it is available in two formats of firmware, please use the firmware with the .img extension.
+1. Please download firmware [here](https://dl.gl-inet.com/){target="_blank"} to your computer.
+
+    Some models, such as GL-AR750S-EXT, it is available in two formats of firmware, please use the firmware for uboot, its file name extension is **.img**.
 
 2. Connect your computer to the **Ethernet port (either LAN or WAN)** of the router. You **MUST** leave the other port **unconnected**.
 
 3. Press and hold the Reset button firmly first, and then power on your device. (If your device does not have a power button, plugging it in will power it on automatically.)
-
-    If you can not find the reset button, please refer to our page, [How to Repair and Reset](../../troubleshooting/reset).
 
     Release your finger when you see the LED has flashed:
 

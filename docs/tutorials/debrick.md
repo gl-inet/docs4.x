@@ -58,19 +58,51 @@ You can also refer to video tutorial below.
 
     - For **GL-MT300N**, **GL-MT300A**, the light flashes 3 times.
 
-4. Set your computer’s IP address to **192.168.1.2**. Please check the step-by-step guide for different operating systems below:
+4. Manually set the IP address of your computer to **192.168.1.2**. Please check the step-by-step guide for different operating systems below:
 
     ??? "Windows 7 / Windows 10"
 
-        1. Go to Control Panel -> Network and Internet -> Network and Sharing Center -> Change adapter settings.
+        1. Go to **Control Panel** -> **Network and Internet** -> **Network and Sharing Center** -> **Change adapter settings**.
 
-        2. Right click Local Area Connection -> Properties.
+        2. Right click **Local Area Connection** -> **Properties**.
 
-        3. Click Internet Protocol Version 4 (TCP/IPv4) -> Properties.
+        3. Click **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
 
-        4. Set the IP adress to 192.168.1.2 manually.
+        4. Set the **IP adress** to `192.168.1.2` manually.
+
+        5. Set the **Subnet mask** to `255.255.255.0`.
 
             ![ipv4 properties](https://static.gl-inet.com/docs/en/2.x/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+
+        6. Click the **OK** button.
+
+    ??? "Windows 11"
+
+        1. Open Settings.
+
+        2. Click on **Network & Internet**.
+
+        3. Click the **Ethernet** tab.
+
+            ![windows 11 ethernet](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
+
+        4. Under the "IP settings" section, click the **Edit** button.
+
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
+
+        5. Select the **Manual** option.
+
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
+
+        6. Turn on the **IPv4 toggle** switch.
+
+        7. Set the static **IP address** as **192.168.1.2**.
+
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
+
+        8. Specify the **Subnet mask** as **255.255.255.0**.
+
+        9. Click the **Save** button.
 
     ??? "macOS"
 
@@ -82,12 +114,12 @@ You can also refer to video tutorial below.
 
         4. Set the IPv4 Address to 192.168.1.2 manually.
 
-5. Use Firefox or Chrome to visit **http://192.168.1.1**.
+5. Use browser to visit **http://192.168.1.1**.
 
-![uboot web ui](https://static.gl-inet.com/docs/en/2.x/troubleshooting/src/debrick/ui.jpg){class="glboxshadow"}
+    ![uboot web ui](https://static.gl-inet.com/docs/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
-6. Click **Choose File** to find the firmware file. Then click **Update firmware**.
+6. Click **Choose file** to find the firmware file. Then click **Update firmware**.
 
 7. Wait for around 3 minutes. Don’t power off your device when updating. The router is ready when both power and  Wi-Fi LED are on or you can find its SSID on your device.
 
-8. Revert the IP setting you did in step 4 and connect your device to the LAN or Wi-Fi of the router. You will be able to access the router via 192.168.8.1 again.
+8. Revert the IP setting you did in step 4 and connect your device to the LAN or Wi-Fi of the router. You will be able to access the router via **192.168.8.1** again.

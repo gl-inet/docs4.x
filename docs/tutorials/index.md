@@ -77,7 +77,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [Reset Firmware](reset_firmware)
 * [Advanced Settings](advanced_settings)
 
-## Trouble shooting
+## Troubleshooting
 
 * [What should I do if my router is bricked?](debrick)
 * [Debrick via Uboot](debrick)

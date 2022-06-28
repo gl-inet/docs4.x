@@ -14,4 +14,4 @@ Join our community to follow our latest news, solutions to common technical issu
 
 - [Building a Site-2-Site network manually using two GL.iNet routers](https://forum.gl-inet.com/t/building-a-site-2-site-network-manually-using-two-gl-inet-routers/18294){target="_blank"}
 
-- [AdGuardHome on GL routers](https://forum.gl-inet.com/t/adguardhome-on-gl-routers/10664){target="_blank"}
+- [AdGuard Home on GL.iNet routers](https://forum.gl-inet.com/t/adguardhome-on-gl-routers/10664){target="_blank"}

@@ -75,7 +75,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [IPv6](ipv6)
 * [Toggle Button Settings](toggle_button_settings)
 * [Reset Firmware](reset_firmware)
-* [Advanced Settings](advancd_settings)
+* [Advanced Settings](advanced_settings)
 
 ## Trouble shooting
 

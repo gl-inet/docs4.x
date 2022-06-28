@@ -79,8 +79,8 @@ Learn how to use our devices and add-on features with our step to step guides an
 
 ## Trouble shooting
 
-* [What should I do if my router is bricked?](uboot)
-* [Debrick via Uboot](uboot)
+* [What should I do if my router is bricked?](debrick)
+* [Debrick via Uboot](debrick)
 * [How to repair network or reset to factory setting?](repair_network_or_reset_firmware)
 
 ## Other

@@ -1,4 +1,4 @@
-# GL-AX1800(Flint) how to upgrade to firmware 4.x?
+# How to upgrade GL-AX1800(Flint) to firmware 4.x?
 
 The GL-AX1800 is already available in 4.x beta firmware. For those who want to try it, you can follow the steps below to upgrade GL-AXT1800 from firmware 3.x to 4.x.
 

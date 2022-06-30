@@ -1,5 +1,7 @@
 # APPLICATIONS
 
+GL.inet routers include a wide range of add-on features that simplifies device management, improves user's internet experience, automates firmware update, and more.
+
 ## Plug-ins
 
 Please visit the [**Plug-ins**](../../../tutorials/plugins/) tutorial.

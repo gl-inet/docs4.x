@@ -6,6 +6,8 @@ hide:
 
 # Tutorials
 
+Learn how to use our devices and add-on features with our step to step guides and answers to frequently asked questions.
+
 ## FAQ
 
 * [First time setup](first_time_setup)
@@ -34,6 +36,8 @@ hide:
 
 * [Firmware upgrade](firmware_upgrade)
 * [Where to download official firmware?](where_to_download_firmware)
+* [How to upgrade GL-AX1800(Flint) to firmware 4.x?](gl-ax1800_upgrade_to_4)
+* [How to downgrade GL-AX1800(Flint) to firmware 3.x?](gl-ax1800_upgrade_to_4/#downgrade)
 
 ## Firewall
 
@@ -73,17 +77,19 @@ hide:
 * [IPv6](ipv6)
 * [Toggle Button Settings](toggle_button_settings)
 * [Reset Firmware](reset_firmware)
-* [Advanced Settings](advancd_settings)
+* [Advanced Settings](advanced_settings)
 
-## Trouble shooting
+## Troubleshooting
 
-* [What should I do if my router is bricked?](uboot)
-* [Debrick via Uboot](uboot)
+* [What should I do if my router is bricked?](debrick)
+* [Debrick via Uboot](debrick)
+* [How to repair network or reset to factory setting?](repair_network_or_reset_firmware)
 
 ## Other
 
 * [How to change WAN port to LAN port?](change_wan_to_lan)
 * [GL.iNet Mobile App](mobile_app).
+* [What is LuCI?](what_is_luci)
 * [How to remote access router's web Admin Panel?](remote_access_web_admin_panel)
 * [How to remote ssh to router?](remote_ssh_to_router)
 * [How to check if Internet Service Provider assigns you a public IP address?](how_to_check_if_isp_assigns_you_a_public_ip_address)

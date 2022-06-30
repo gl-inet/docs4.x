@@ -4,7 +4,10 @@
 
 ファイアウォールページでは、次のようなファイアウォールルールを設定することができます。**ポートフォワード**, **ルーターのポート開放** と **DMZ**.
 
+---
+
 ## ポートフォワード
+
 
 ポートフォワーディングは、リモートコンピュータがLANネットワークのファイアウォールの内側のローカルコンピュータまたはサーバー（Webサーバー、FTPサーバーなど）に接続することを可能にします。
 
@@ -32,6 +35,8 @@ It will pop up **Add New Port Forward Rule** dialog.
 
 **Enable:** Enable of disable of the rule.
 
+---
+
 ## Open Ports on Router
 
 The router's services, such as web and FTP, requires their respective ports to be opened on the router in order to be publicly reachable.
@@ -49,6 +54,8 @@ To open a port, click **Add**.
 **Port:** The port number that you want to open.
 
 **Enable:** Enable of disable of the rule.
+
+---
 
 ## DMZ
 

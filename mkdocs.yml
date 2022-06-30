@@ -34,6 +34,34 @@ theme:
         name: Switch to light mode
   favicon: images/favicon.png
 
+# Plugins
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+        user-guide/index.md: user_guide/index.md
+        user-guide/gl-axt1800/hardware_info.md: user_guide/gl-axt1800/hardware_info.md
+        user-guide/gl-axt1800/first_time_setup.md: user_guide/gl-axt1800/first_time_setup.md
+        user-guide/gl-axt1800/internet.md: user_guide/gl-axt1800/internet.md
+        user-guide/gl-axt1800/wireless.md: user_guide/gl-axt1800/wireless.md
+        user-guide/gl-axt1800/clients.md: user_guide/gl-axt1800/clients.md
+        user-guide/gl-axt1800/upgrade.md: user_guide/gl-axt1800/upgrade.md
+        user-guide/gl-axt1800/firewall.md: user_guide/gl-axt1800/firewall.md
+        user-guide/gl-axt1800/vpn.md: user_guide/gl-axt1800/vpn.md
+        user-guide/gl-axt1800/applications.md: user_guide/gl-axt1800/applications.md
+        user-guide/gl-axt1800/more_settings.md: user_guide/gl-axt1800/more_settings.md
+        user-guide/gl-ax1800/hardware_info.md: user_guide/gl-ax1800/hardware_info.md
+        user-guide/gl-ax1800/first_time_setup.md: user_guide/gl-ax1800/first_time_setup.md
+        user-guide/gl-ax1800/internet.md: user_guide/gl-ax1800/internet.md
+        user-guide/gl-ax1800/wireless.md: user_guide/gl-ax1800/wireless.md
+        user-guide/gl-ax1800/clients.md: user_guide/gl-ax1800/clients.md
+        user-guide/gl-ax1800/upgrade.md: user_guide/gl-ax1800/upgrade.md
+        user-guide/gl-ax1800/firewall.md: user_guide/gl-ax1800/firewall.md
+        user-guide/gl-ax1800/vpn.md: user_guide/gl-ax1800/vpn.md
+        user-guide/gl-ax1800/applications.md: user_guide/gl-ax1800/applications.md
+        user-guide/gl-ax1800/more_settings.md: user_guide/gl-ax1800/more_settings.md
+        video-library/index.md: video_library/index.md
+
 # Customization
 extra:
   analytics:
@@ -82,29 +110,32 @@ markdown_extensions:
 nav:
   - Home: index.md
   - User Guide:
-    - Overview: user-guide/index.md
+    - Overview: user_guide/index.md
     - GL-AXT1800 (Slate AX):
-      - Hardware Info: user-guide/gl-axt1800/hardware_info.md
-      - First Time Setup: user-guide/gl-axt1800/first_time_setup.md
-      - Internet: user-guide/gl-axt1800/internet.md
-      - Wireless: user-guide/gl-axt1800/wireless.md
-      - Clients: user-guide/gl-axt1800/clients.md
-      - Upgrade: user-guide/gl-axt1800/upgrade.md
-      - Firewall: user-guide/gl-axt1800/firewall.md
-      - VPN: user-guide/gl-axt1800/vpn.md
-      - Applications: user-guide/gl-axt1800/applications.md
-      - More Settings: user-guide/gl-axt1800/more_settings.md
+      - Hardware Info: user_guide/gl-axt1800/hardware_info.md
+      - First Time Setup: user_guide/gl-axt1800/first_time_setup.md
+      - Internet: user_guide/gl-axt1800/internet.md
+      - Wireless: user_guide/gl-axt1800/wireless.md
+      - Clients: user_guide/gl-axt1800/clients.md
+      - Upgrade: user_guide/gl-axt1800/upgrade.md
+      - Firewall: user_guide/gl-axt1800/firewall.md
+      - VPN: user_guide/gl-axt1800/vpn.md
+      - Applications: user_guide/gl-axt1800/applications.md
+      - More Settings: user_guide/gl-axt1800/more_settings.md
+    - GL-A1300 (Slate Plus):
+      - Hardware Info: user_guide/gl-a1300/hardware_info.md
+      - First Time Setup: user_guide/gl-a1300/first_time_setup.md
     - GL-AX1800 (Flint):
-      - Hardware Info: user-guide/gl-ax1800/hardware_info.md
-      - First Time Setup: user-guide/gl-ax1800/first_time_setup.md
-      - Internet: user-guide/gl-ax1800/internet.md
-      - Wireless: user-guide/gl-ax1800/wireless.md
-      - Clients: user-guide/gl-ax1800/clients.md
-      - Upgrade: user-guide/gl-ax1800/upgrade.md
-      - Firewall: user-guide/gl-ax1800/firewall.md
-      - VPN: user-guide/gl-ax1800/vpn.md
-      - Applications: user-guide/gl-ax1800/applications.md
-      - More Settings: user-guide/gl-ax1800/more_settings.md
+      - Hardware Info: user_guide/gl-ax1800/hardware_info.md
+      - First Time Setup: user_guide/gl-ax1800/first_time_setup.md
+      - Internet: user_guide/gl-ax1800/internet.md
+      - Wireless: user_guide/gl-ax1800/wireless.md
+      - Clients: user_guide/gl-ax1800/clients.md
+      - Upgrade: user_guide/gl-ax1800/upgrade.md
+      - Firewall: user_guide/gl-ax1800/firewall.md
+      - VPN: user_guide/gl-ax1800/vpn.md
+      - Applications: user_guide/gl-ax1800/applications.md
+      - More Settings: user_guide/gl-ax1800/more_settings.md
   - Tutorials:
     - Overview: tutorials/index.md
     - General:
@@ -126,8 +157,9 @@ nav:
     - Clients:
       - Clients: tutorials/clients.md
     - Upgrade:
-      - Frimware Upgrade: tutorials/firmware_upgrade.md
+      - Firmware Upgrade: tutorials/firmware_upgrade.md
       - Download Firmware: tutorials/where_to_download_firmware.md
+      - Upgrade GL-AX1800 to Firmware 4: tutorials/gl-ax1800_upgrade_to_4.md 
     - Firewall:
       - Firewall: tutorials/firewall.md
     - VPN:
@@ -142,7 +174,7 @@ nav:
       - Plug-ins: tutorials/plugins.md
       - Dynamic DNS: tutorials/ddns.md
       - GoodCloud: tutorials/cloud.md
-      - AdGuardHOme: tutorials/adguardhome.md
+      - AdGuard Home: tutorials/adguardhome.md
       - Network Storage: tutorials/network_storage.md
       - Log: tutorials/log.md
     - More settings:
@@ -157,15 +189,17 @@ nav:
       - Reset Firmware: tutorials/reset_firmware.md
       - Advanced Settings: tutorials/advanced_settings.md
     - Troubleshooting:
-      - Debrick via Uboot: tutorials/uboot.md
+      - Debrick via Uboot: tutorials/debrick.md
+      - Repair or Reset: tutorials/repair_network_or_reset_firmware.md
     - Other:
       - Change WAN to LAN: tutorials/change_wan_to_lan.md
       - Mobile App: tutorials/mobile_app.md
+      - What is LuCI: tutorials/what_is_luci.md
       - Remote access web admin panel: tutorials/remote_access_web_admin_panel.md
       - Remote SSH to router: tutorials/remote_ssh_to_router.md
       - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
       - Device id, MAC, SN: tutorials/where_to_find_the_device_id_mac_sn.md
   - Video Library:
-    - Overview: video-library/index.md
+    - Overview: video_library/index.md
   - Community:
     - Overview: community/index.md

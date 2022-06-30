@@ -3,6 +3,8 @@
 ホテルやカフェ、空港などにある公衆ホットスポットの中には、接続する前にWebページ（ キャプティブポータル ）で認証情報の入力や利用規約への同意が必要なものがあります。
 
 しかし、キャプティブポータルに入ることができないため、ホットスポットに接続したり、インターネットにアクセスしたりできない場合があります。この場合、以下の手順で**DNS Rebinding Attack Protection**を無効にしてください。
+ 
+## 解決策 1： *DNS Rebinding Attack Protection*を無効にしてください。
 
 1. Web管理パネル（192.168.8.1）にアクセスし、[repeater](../internet_repeater/)を使用して、キャプティブポータルによる認証を必要とするパブリックホットスポットに接続します。
 
@@ -34,5 +36,20 @@
 
     ![接続](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png)
 
+    ![connected](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png)
 
- 
+## Solution 2：MAC Clone
+
+Sometimes, disable the *DNS Rebinding Attack Protection* is not enough to solve this issue. Then you need to try the **MAC Clone** based on the solution 
+
+1. Got your smartphone registered on the network.
+
+2. On the left side of web Admin Panel -> MORE SETTINGS -> MAC Clone.
+
+3. Clone the MAC address of your smartphone to the router.
+![MACCLONE](https://d2jbioc4ahy17s.cloudfront.net/docs/en/4/tutorials/mac_clone/macclone4.0.jpg)
+4. It may need to reboot the rooter to take effect.
+
+## Solution 3：Ask the help from the hotel staff
+
+Some hotel's network has a very strict verification policy. Neither solution 1 nor 2 is unable to make it work, then you can consult with the hotel staff if they can add the router's MAC address(the Factory default one) to their "Whitelist" directly.

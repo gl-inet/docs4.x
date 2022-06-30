@@ -30,9 +30,9 @@ When a disk is found.
 
 ![network storage, disk found](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
 
-## Setup Samba
+## Set up Samba
 
-Toggle to enalbe Samba, click **Apply**.
+Toggle to enable Samba, click **Apply**.
 
 ![network storage, enable samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_to_enable.png){class="glboxshadow"}
 
@@ -64,9 +64,9 @@ Click **Shared Link**, it will show the access link for each system. The Unix-li
 
 Then try to access the Samba on various OS, check out [here](#samba-client).
 
-## Setup WebDAV
+## Set up WebDAV
 
-Toggle to enalbe WebDAV.
+Toggle to enable WebDAV.
 
 For the protocol, **HTTP** is not encrypted, using on your risk; **HTTPS** is encrypted, it uses self signed certificate.
 
@@ -104,9 +104,9 @@ Click **Shared Link**, it will show the access link for each system. The Unix-li
 
 Then try to access the WebDAV on various OS, check out [here](#webdav-client).
 
-## Setup DLNA
+## Set up DLNA
 
-Toggle to enalbe DLNA, modify **Share Path** if needed, click **Apply**. That is it.
+Toggle to enable DLNA, modify **Share Path** if needed, click **Apply**. That is it.
 
 ![network storage, enable dlna](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_dlna.png){class="glboxshadow"}
 

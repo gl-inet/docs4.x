@@ -28,13 +28,17 @@ GL-AXT1800、電源アダプタ、イーサネットケーブル。
         
         パソコン/スマホ/タブレットでルーターのSSIDを検索し、WiFiパスワードを入力してください。WiFiパスワードは、ルーター背面のラベルに記載されています。一部の機種では、ラベルにWiFiパスワードが記載されていない場合、デフォルトパスワードの**goodlife**をお試しください。
 
+        **Tip:** The QR code on the label on the back of the GL-AXT1800 is with wifi connection information and can be quickly connected using your phone's QR code scanning tool.
+
+        **Note:** At this time, you cannot access the Internet after connecting to the WiFi, you need to set up the admin password in the next step before you can access the Internet.
+
 3. Web管理パネルにアクセスします
 
     Webブラウザ（Chrome、Edge、Safariをお勧めします）を開き、[http://192.168.8.1](http://192.168.8.1)にアクセスします。 Web管理パネルの初期設定に移動します。
 
     言語を選択。
     
-    ![言語を選択](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/choose_language.png){class = "glboxshadow"}
+    ![言語を選択](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel_first_time_login.png){class = "glboxshadow"}
 
     管理者パスワードを設定します。強力なパスワードを使用することをお勧めします。 **送信**をクリックして続行します。
 

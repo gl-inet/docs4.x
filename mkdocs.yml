@@ -37,30 +37,6 @@ theme:
 # Plugins
 plugins:
   - search
-  - redirects:
-      redirect_maps:
-        user-guide/index.md: user_guide/index.md
-        user-guide/gl-axt1800/hardware_info.md: user_guide/gl-axt1800/hardware_info.md
-        user-guide/gl-axt1800/first_time_setup.md: user_guide/gl-axt1800/first_time_setup.md
-        user-guide/gl-axt1800/internet.md: user_guide/gl-axt1800/internet.md
-        user-guide/gl-axt1800/wireless.md: user_guide/gl-axt1800/wireless.md
-        user-guide/gl-axt1800/clients.md: user_guide/gl-axt1800/clients.md
-        user-guide/gl-axt1800/upgrade.md: user_guide/gl-axt1800/upgrade.md
-        user-guide/gl-axt1800/firewall.md: user_guide/gl-axt1800/firewall.md
-        user-guide/gl-axt1800/vpn.md: user_guide/gl-axt1800/vpn.md
-        user-guide/gl-axt1800/applications.md: user_guide/gl-axt1800/applications.md
-        user-guide/gl-axt1800/more_settings.md: user_guide/gl-axt1800/more_settings.md
-        user-guide/gl-ax1800/hardware_info.md: user_guide/gl-ax1800/hardware_info.md
-        user-guide/gl-ax1800/first_time_setup.md: user_guide/gl-ax1800/first_time_setup.md
-        user-guide/gl-ax1800/internet.md: user_guide/gl-ax1800/internet.md
-        user-guide/gl-ax1800/wireless.md: user_guide/gl-ax1800/wireless.md
-        user-guide/gl-ax1800/clients.md: user_guide/gl-ax1800/clients.md
-        user-guide/gl-ax1800/upgrade.md: user_guide/gl-ax1800/upgrade.md
-        user-guide/gl-ax1800/firewall.md: user_guide/gl-ax1800/firewall.md
-        user-guide/gl-ax1800/vpn.md: user_guide/gl-ax1800/vpn.md
-        user-guide/gl-ax1800/applications.md: user_guide/gl-ax1800/applications.md
-        user-guide/gl-ax1800/more_settings.md: user_guide/gl-ax1800/more_settings.md
-        video-library/index.md: video_library/index.md
 
 # Customization
 extra:

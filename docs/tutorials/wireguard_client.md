@@ -1,10 +1,10 @@
-# WireGuard Client
+# WireGuardクライアント
 
-WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/), [simpler](https://www.wireguard.com/quickstart/), leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. 
+WireGuard®は、**最先端の暗号技術**を利用した、非常にシンプルかつ高速な最新のVPNです。[faster](https://www.wireguard.com/performance/), [simpler](https://www.wireguard.com/quickstart/)を目指します。IPSecよりも無駄がなく、便利でありながら、膨大な頭痛の種を回避することができます。OpenVPNよりもかなり高性能になる予定です。
 
-GL.iNet routers have pre-installed WireGuard Client and Server.
+GL.iNetのルーターには、WireGuard ClientとServerがプリインストールされています。
 
-If you have already bought WireGuard service from a provider, but you don't know how to get the configuration files, please refer to [get configuration files from WireGuard service providers](#get-configuration-files-from-wireguard-service-providers).
+プロバイダーからWireGuardサービスを購入済みで、設定ファイルの入手方法が分からない場合は、以下のページを参照してください。 [get configuration files from WireGuard service providers](#get-configuration-files-from-wireguard-service-providers).
 
 You can setup WireGuard Client via web Admin Panel and [mobile app](../mobile_app). For the mobile app, it has already integrated some WireGuard Service Providers, they are AzireVPN, Mullvad VPN, TorGuard VPN, OVPN, WeVPN, StrongVPN, PIA VPN, SpiderVPN.
 

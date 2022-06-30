@@ -37,7 +37,7 @@
 - [GoodCloud and VPN](#goodcloud-and-vpn)
 - [Turn off cloud](#turn-off-cloud)
 
-## Introduction
+## 導入
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage routers. There is a video introduction below.
 

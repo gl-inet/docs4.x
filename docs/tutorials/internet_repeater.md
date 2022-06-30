@@ -1,40 +1,40 @@
-# Connect to the Internet via an existing Wi-Fi by Repeater
+# リピーターで既存のWi-Fiを経由してインターネットに接続します。
 
-Using Repeater means connecting the router to another existing wireless network, e.g. when you are using free Wi-Fi in a hotel or cafe.
+リピータの使用は、ホテルやカフェで無料Wi-Fiを使用する場合など、ルータを既存の別のワイヤレスネットワークに接続することを意味します。
 
-It works in WISP (Wireless Internet Service Provider) mode by default, which means that the router will create its own subnet and act as a firewall to protect you from the public network.
+デフォルトではWISP (Wireless Internet Service Provider) モードで動作します。これは、ルーターが独自のサブネットを作成し、パブリックネットワークからあなたを保護するファイアウォールとして動作することを意味します。
 
-On the left side of web Admin Panel -> INTERNET, Repeater sector.
+ウェブ管理画面の左側にある  -> インターネット, リピーター セクター.
 
-## Basic steps
+## 基本的な流れ
 
-![repeater](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
+![リピーター](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
 
-Click **Connect** in the image above.
+上の画像の **接続** 
 
 ![repeater join wlan](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_wlan.png){class="glboxshadow"}
 
-Choose a SSID from the drop-down list and enter its password. If the SSID you want to connect to is not in the list, click [Join Other Network](#join-other-network) in the image above.
+ドロップダウンリストからSSIDを選択し、そのパスワードを入力します。接続したいSSIDがリストにない場合。下の画像をクリックしてください。 　[Join Other Network](#join-other-network) 　
 
 ![repeater join network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_network.png){class="glboxshadow"}
 
 For [Advanced Settings](#join-network-advanced-setting).
 
-Wait a moment, if the password is correct, the connection will be successful.
+しばらく待って、パスワードが正しければ、接続は成功します。
 
 ![repeater connected](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-## Join network advanced setting
+## ジョインネットワークの詳細設定
 
-When joining the network, there are two additional options.
+ネットワークに参加する際、さらに2つのオプションがあります。
 
 ![repeater join network advanced setting](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
 
-* **Lock BSSID**. If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.
+* **ロック　BSSID**. このオプションを有効にすると、ルーターはこのSSIDを使用するネットワークに切り替えたときに、選択したBSSIDに対応するAPにのみ接続します。
 
-* **Manually set static IP**.
+* **手動で設定する静的IP**.
 
-## Repeater options
+## リピーターオプション
 
 Click the cog icon for Repeater options.
 

@@ -1,12 +1,12 @@
-# Connect to the Internet via cellular
+# セルラーでインターネットに接続
 
-The router can be used to access the Internet through cellular. There are two cases, some models have a built-in 3G/4G model; some models have a usb port and can be plugged into a usb 3G/4G modem. The operation steps are similar, here is GL-AXT1800 as an example.
+ルーターを使用して、セルラーでインターネットにアクセスすることができます。3G/4Gを内蔵している機種とusbポートがあり、usb 3G/4Gモデムに接続できる機種があります。操作手順は似ていて、ここではGL-AXT1800を例にしています。
 
-On the left side of web Admin Panel -> INTERNET, Cellular sector.
+ウェブ管理画面の左側にある -> INTERNET, Cellular sector.
 
-**Note:** Some SIM cards may need to be activated the first time you use them, so please activate them in your phone before using them in your router.
+**ノート:** SIMカードによっては、初回使用時にアクティベーションが必要な場合がありますので、ルーターで使用する前に、携帯電話でアクティベーションを行ってください
 
-1. We recommend to turn off the router first, insert your SIM card into the USB modem then plug the USB modem into the USB port of the router, and then turn it on again. If you insert a usb modem at power on, the page may be no change, please refresh the page.
+1.   まずルーターの電源を切り、SIMカードをUSBモデムに挿入し、USBモデムをルーターのUSBポートに接続してから、再度電源を入れることをお勧めします。電源投入時にUSBモデムを挿入した場合、ページが変化しないことがありますので、ページを更新してください。
 
 2. Please access the web Admin Panel -> INTERNET, Cellular sector. The first time, it may not connect automatically, but it has read the name of your carrier in the upper left corner and the IMEI, then please click **Auto Setup**.
 

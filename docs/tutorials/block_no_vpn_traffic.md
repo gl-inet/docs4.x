@@ -1,11 +1,11 @@
-# How to let all data go through VPN?
+# 全てのデータをVPN経由にする方法は？
 
-If you want all the data on the router to go through vpn, please follow the steps below.
+ルーター上の全てのデータをvpn経由にしたい場合は、以下の手順で行ってください。
 
-On the left side of web Admin Panel -> VPN -> VPN Dashboard.
+ウェブ管理パネル→VPN→VPNダッシュボードの左側にあります。
 
-In the **VPN Client** section, click **Global Options**, toggle on **Block Non-VPN Traffic**, then click **Apply** button.
+VPNクライアント**セクションで、**グローバルオプション**をクリックし、**非VPNトラフィックをブロック**をトグルし、**適用**ボタンをクリックします。
 
-![vpn client global options](https://static.gl-inet.com/docs/en/4/tutorials/block_no_vpn_traffic/global_options.png){class="glboxshadow"}
+![vpnクライアントのグローバルオプション](https://static.gl-inet.com/docs/en/4/tutorials/block_no_vpn_traffic/global_options.png){class="glboxshadow"}。
 
-**Note:** It need to run the VPN Client, otherwise it can't access the Internet.
+**注意:** VPNクライアントを実行する必要があり、そうでない場合はインターネットにアクセスすることはできません。

@@ -1,5 +1,5 @@
-# My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?
+# 私のデバイスは、イーサネットケーブルを介してのみ接続することができます。このルーターを使用して、私のデバイスをワイヤレスネットワークに接続することはできますか？
 
-Yes.
+はい
 
-Please connect your device to the LAN port of the router and then set up [repeater](../internet_repeater).
+ルーターのLANポートに機器を接続し、セットアップしてください。[repeater](../internet_repeater).

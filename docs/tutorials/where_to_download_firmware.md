@@ -1,3 +1,3 @@
-# Where to download firmware?
+# ファームウェアのダウンロード先を教えてください。
 
-Please download firmware from the [download site](https://dl.gl-inet.com){target="_blank"}
+ファームウェアは下記よりダウンロードしてください。 [download site](https://dl.gl-inet.com){target="_blank"}

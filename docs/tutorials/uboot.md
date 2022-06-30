@@ -1,12 +1,12 @@
-# Using Uboot to Debrick Your Router
+# Ubootを使ってルーターをブリックする
 
-You may have bricked your router if you were doing some DIY projects or flashed a wrong firmware. You may not be able to access your router but you can re-install the firmware by using Uboot failsafe.
+DIYをしたり、間違ったファームウェアをフラッシュした場合、ルーターがブリックしてしまうことがあります。ルーターにアクセスできないかもしれませんが、Uboot フェイルセーフを使ってファームウェアを再インストールすることができます。
 
 ---
 
-Please follow the procedures below to access the Uboot Web UI and re-install the firmware.
+以下の手順に従って、Uboot Web UIにアクセスし、ファームウェアを再インストールしてください。
 
-You can also refer to video tutorial below.
+また、以下のビデオチュートリアルを参照することもできます。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EAaaw8nyrnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

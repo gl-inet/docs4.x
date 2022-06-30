@@ -1,38 +1,38 @@
-# Setup OpenVPN Server on GL.iNet router
+# GL.iNetルータにOpenVPNサーバをセットアップする。
 
-OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
+OpenVPNは、仮想プライベートネットワーク（VPN）技術を利用して、サイト間またはポイント・ツー・ポイント接続を安全に確立するオープンソースのVPNプロトコルです。
 
-GL.iNet routers have pre-installed OpenVPN Client and Server.
+GL.iNetのルーターには、OpenVPNクライアントとサーバーがプリインストールされています。
 
-We recommend WireGuard over OpenVPN because it is much faster. For setup a WireGuard Server, please check out [here](../wireguard_server).
+OpenVPNよりもWireGuardの方が高速に接続できるため、WireGuardをお勧めします。WireGuardサーバーのセットアップについては、以下を参照してください。 [here](../wireguard_server).
 
 ---
 
-## Make sure Internet Service Provider assigns you a public IP address
+## インターネットサービスプロバイダからパブリックIPアドレスが割り当てられていることを確認する
 
-Please check if you Internet Service Provider assigns you a public IP address [here](../how_to_check_if_isp_assigns_you_a_public_ip_address).
+インターネットサービスプロバイダからパブリックIPアドレスが割り当てられているかどうかご確認ください。 [here](../how_to_check_if_isp_assigns_you_a_public_ip_address).
 
-**If no, you can't connect to the OpenVPN Server.**
+**できない場合、OpenVPN Server に接続できません。**
 
-An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}.
+別の方法として、リバース・プロキシ・ソリューションを使用することもできます。　 [AstroRelay](https://www.astrorelay.com/){target="_blank"}.お勧めします
 
-## Network Topology
+## ネットワークトポロジー
 
-* If GL.iNet router is the main router in your network, this is simple, please move to the [next step](#setup-openvpn-server).
-* If you already have a main router, then the GL.iNet router is under the main router, you may need to setup a port forwarding on the main router.
-* If you already have a main router, the GL.iNet router is several levels below it and you need to set up port forwarding on each level.
+* GL.iNetルーターがネットワークのメインルーターである場合、これは簡単です、 [next step](#setup-openvpn-server)に移動してください。.
+* すでにメインルーターがあり、GL.iNetルーターがメインルーターの下にある場合、メインルーターにポートフォワーディングの設定が必要な場合があります。
+* すでにメインルーターがある場合、GL.iNetルーターはその数段下にあるため、それぞれのレベルでポートフォワーディングを設定する必要があります。
 
-## Setup OpenVPN Server
+## OpenVPNサーバーのセットアップ
 
-1. Click **Generate Configuration** (Only the first time).
+1.　**Generate Configuration**をクリックしてください (初回のみ）
 
     ![openvpn server generate configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_generate_config.png){class="glboxshadow"}
 
-2. Apply the configuration.
+2. コンフィギュレーションを適用します。
 
     ![openvpn server configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_configuration.png){class="glboxshadow"}
 
-    If you do not need to modify the configuration, please click directly the **Export Client Configuration** at the bottom of page. If you have modified the configuration, please click the **Apply** button to continue.
+    設定を変更する必要がない場合は、 ページ下部の**Export Client Configuration**を直接クリックしてください。 設定を変更した場合は、 **Apply** ボタンをクリックして続行してください。
 
     * **Protocol:** UDP or TCP. To find out what the difference is, check out [this tutorial](../openvpn_tcp_udp/).
 

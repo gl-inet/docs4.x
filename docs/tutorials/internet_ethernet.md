@@ -1,29 +1,29 @@
-# Connect to the Internet via an ethernet cable
+# イーサネットケーブルでインターネットに接続する
 
-To access the Internet, it can connect the WAN port of router to the modem or the LAN port of other router via an ethernet cable.
+インターネットにアクセスするには、ルーターのWANポートとモデム、または他のルーターのLANポートをイーサネットケーブルで接続します。
 
-On the left side of web Admin Panel -> INTERNET, Ethernet sector.
+ウェブ管理画面の左側にある -> INTERNET, Ethernet sector.
 
 ![ethernet dhcp](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_dhcp.png){class="glboxshadow"}
 
-**Note**: Before plugging the Ethernet cable into the WAN port of the router, you can click **Change to LAN** to [set the WAN port as a LAN port](../change_wan_to_lan/). That is useful when you are using the router as a [repeater](../internet_repeater). As a result, you can have one more LAN port.
+**ノート**:イーサネットケーブルをルーターのWANポートに接続する前に, 　**LANに変更**をクリックして [WANポートをLANポートに設定する](../change_wan_to_lan/). ルーターを[repeater](../internet_repeater)として使用する場合に有効です。 その結果、LANポートを1つ増やすことができます。
 
-## Protocol
+## プロトコル
 
-There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
+プロトコルは3種類あります。 DHCP, Static, PPPoE. **修正** をクリックして変更します　
 
 * DHCP 
 
-    DHCP is the default and most common protocol. It is a network management protocol used on Internet Protocol (IP) networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client–server architecture.
+    DHCPは、デフォルトで最も一般的なプロトコルです。インターネットプロトコル（IP）ネットワークで使用されるネットワーク管理プロトコルで、ネットワークに接続された機器にIPアドレスやその他の通信パラメータをクライアント・サーバー方式で自動的に割り当てるためのものです。
 
 * Static
 
-    Static is required if your Internet Service Provider (ISP) has provided a fixed IP address for you or you want to configure the network information such as IP address, Gateway, Netmask manually.
+   Staticは、インターネットサービスプロバイダ（ISP）から固定IPアドレスを提供されている場合や、IPアドレス、ゲートウェイ、ネットマスクなどのネットワーク情報を手動で設定する場合に必要です。
 
     ![ethernet static](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_static.png){class="glboxshadow"}
 
 * PPPoE
 
-    PPPoE is required by many Internet Service Providers (ISP). Generally, your ISP will give you a modem and provide you a username & password that you needed when you are creating the Internet connection.
+    PPPoE は、多くのインターネットサービスプロバイダ（ISP）によって要求されます。一般的に、ISPはあなたにモデムを与え、あなたがインターネット接続を作成するときに必要だったユーザー名とパスワードを提供します。
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_pppoe.png){class="glboxshadow"}

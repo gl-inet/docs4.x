@@ -1,3 +1,3 @@
-# First time setup
+# 初回セットアップ
 
-Please refer to the tutorial of [first time setup](../../../tutorials/first_time_setup/)
+  [初回セットアップ](../../../tutorials/first_time_setup/)のチュートリアルをご参照ください。

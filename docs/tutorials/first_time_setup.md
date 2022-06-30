@@ -1,4 +1,4 @@
-  # 初めてのセットアップ
+ #  初めてのセットアップ
 
 GL.iNetルーターの最初のセットアップは非常に似ています。これは、GL-AXT1800（Slate AX）の例です。
 
@@ -48,7 +48,7 @@ GL-AXT1800、電源アダプタ、イーサネットケーブル。
 
 4. インターネットに接続する
 
-     * [イーサネットケーブルを介してインターネットに接続する]（../ internet_ethernet）
-     * [既存のWi-Fi経由でインターネットに接続]（../ internet_repeater）
-     * [usbテザリングを介してインターネットに接続する]（../ internet_tethering）
-     * [usbモデム経由でインターネットに接続]（../ internet_cellular）
+     * [イーサネットケーブルを介してインターネットに接続する](../ internet_ethernet)
+     * [既存のWi-Fi経由でインターネットに接続](../ internet_repeater)
+     * [usbテザリングを介してインターネットに接続する](../ internet_tethering)
+     * [usbモデム経由でインターネットに接続](../ internet_cellular)

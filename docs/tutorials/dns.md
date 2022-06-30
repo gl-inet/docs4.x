@@ -1,18 +1,18 @@
 # DNS
 
-On the left side of web Admin Panel -> MORE SETTINGS -> DNS
+Web管理パネルの左側 -> MORE SETTINGS -> DNS
 
-If you set custom DNS servers, any dns name will be resolved through the DNS servers set here instead of the one obtained from wan, repeater, cellular, hotspot sharing or VPN configuration DNS server.
+カスタムDNSサーバーを設定すると、あらゆるdns名は、wan、リピータ、セルラー、ホットスポット共有、VPN設定のDNSサーバーから取得するのではなく、ここで設定したDNSサーバーを経由して解決されるようになります。
 
 ![dns](https://static.gl-inet.com/docs/en/4/tutorials/dns/dns_page.png){class="glboxshadow"}
 
-**DNS Rebinding Attack Protection:** Turning on this option may cause private DNS lookup failure. If your network has a captive portal please disable this option.
+**DNS Rebinding Attack Protection:** このオプションをオンにすると、プライベートDNSルックアップに失敗することがあります。ネットワークにキャプティブポータルがある場合は、このオプションを無効にしてください。
 
-**Override DNS Settings for All Clients:** If enabled, your router will override unencrypted DNS settings for all clients.
+**すべてのクライアントのDNS設定を上書きする。** 有効にすると、ルーターはすべてのクライアントの非暗号化DNS設定を上書きします。
 
-## DNS Server Settings
+## DNSサーバーの設定
 
-There are four modes.
+4つのモードがあります。
 
 - Automatic, use the gateway of the parent router.
 
@@ -22,24 +22,24 @@ There are four modes.
 
     ![encrypted dns](https://static.gl-inet.com/docs/en/4/tutorials/dns/dns_server_settings_encrypted_dns.png){class="glboxshadow"}
 
-    **Encrypted Type** has four type, DNS over TLS, DNSCrypt-Proxy, DNS over HTTPS, Oblivious DNS over HTTPS.
+    **暗号化タイプ**は、DNS over TLS、DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPSの4種類です。
 
-    - For DNS over TLS, the DNS Provider has two options, NextDNS and Cloudflare.
+    - DNS over TLSの場合、DNSプロバイダーはNextDNSとCloudflareの2つの選択肢があります。
 
-    - For DNSCrypt-Proxy, DNS over HTTPS and Oblivious DNS over HTTPS, they can select DNS Server.
+    - DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPSについては、DNSサーバーを選択することができます。
 
         ![dnscrypt-proxy](https://static.gl-inet.com/docs/en/4/tutorials/dns/dnscrypt-proxy.png){class="glboxshadow"}
 
-- Manual DNS
+- マニュアルDNS
 
-    ![manual dns](https://static.gl-inet.com/docs/en/4/tutorials/dns/dns_server_settings_manual_dns.png){class="glboxshadow"}
+    ![マニュアルDNS](https://static.gl-inet.com/docs/en/4/tutorials/dns/dns_server_settings_manual_dns.png){class="glboxshadow"}
 
 - DNS Proxy
 
-    ![dns proxy](https://static.gl-inet.com/docs/en/4/tutorials/dns/dns_server_settings_dns_proxy.png){class="glboxshadow"}
+    ![マニュアルDNS](https://static.gl-inet.com/docs/en/4/tutorials/dns/dns_server_settings_dns_proxy.png){class="glboxshadow"}
 
-## Edit Hosts
+## ホストの編集
 
-Requests from clients will be resolved preferentially using the static DNS rules you write in Hosts.
+クライアントからのリクエストは、Hostsに記述した静的DNSルールで優先的に解決されます。
 
-![hosts](https://static.gl-inet.com/docs/en/4/tutorials/dns/edit_hosts.png){class="glboxshadow"}
+![ホスト](https://static.gl-inet.com/docs/en/4/tutorials/dns/edit_hosts.png){class="glboxshadow"}

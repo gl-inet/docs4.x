@@ -1,105 +1,103 @@
 # VPN Dashboard
 
-Access to web Admin Panel, on the left side -> VPN -> VPN Dashboard
+ウェブ管理パネルにアクセスし、左側の「VPN」→「VPN Dashboard」を選択します。
 
-VPN Dashboard page is for the status and setting of VPN.
+VPNダッシュボードは、VPNの状態や設定を行うためのページです。
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
 
 ## VPN Client
 
-In the beginning, there is no configuration available for OpenVPN and WireGuard, you need to click **Set Up Now** to go to the corresponding page to configure.
+OpenVPNとWireGuardについては、初期状態では設定項目がありませんので、**Set Up Now**をクリックして、該当するページに移動し、設定を行う必要があります。
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_2.png){class="glboxshadow"}
 
-### Proxy mode
+### プロキシモード
 
 ![vpn proxy](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_proxy.png){class="glboxshadow"}
 
-1. Global proxy
+1. グローバルプロクシ
 
-    All traffic will go through VPN. Only one VPN client instance can be activated.
+    すべてのトラフィックはVPNを経由します。VPNクライアントインスタンスは1台のみ起動可能です。
 
-2. Policy mode
+2. ポリシーモード
 
-    - Based on the target domain or IP.
+    - 対象ドメインまたはIPに基づいています。
     
-        In this mode, only the traffic of certain websites defined by IP address or domain name will go through VPN. Only one VPN client instance can be activated.
+        このモードでは、IPアドレスまたはドメイン名で定義された特定のWebサイトのトラフィックのみがVPNを通過します。VPNクライアントインスタンスは1つだけ有効です。
 
-    - Based on the client device.
+    - クライアントデバイスに基づています
 
-        In this mode, only the traffic of certain local client devices defined by MAC address will go through VPN. Only one VPN client instance can be activated.
+        このモードでは、MACアドレスで定義された特定のローカルクライアントデバイスのトラフィックのみがVPNを通過する。VPNクライアントインスタンスは1つだけアクティブにすることができます。
 
-    - Based on the VLAN.
+    - VLANに基づています。
 
-        In this mode, only the traffic of certain VLAN can go through the VPN. Only one VPN client instance can be activated.
+        このモードでは、特定のVLANのトラフィックのみがVPNを通過することができます。VPNクライアントインスタンスは1つだけ起動することができます。
+3.ルートモード
 
-3. Route mode
+    -自動検出
 
-    - Auto detect
-
-        The routing rules defined in each VPN client configuration file or issued by the VPN server will be used.
+       各VPNクライアントの設定ファイルに定義されている、またはVPNサーバーから発行されたルーティングルールが使用されます。
     
-    - Customize routing rules
+    - ルーティングルールのカスタマイズ
 
-        You can manually configure routing rules for each VPN client instance.
+        VPNクライアントインスタンスごとに、ルーティングルールを手動で設定することができます。
+### グローバルオプション
 
-### Global Options
-
-Click **Global Options** will popup a global options dialog.
+Click **グローバルオプション** will popup a global options dialog.
 
 ![global options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options.png){class="glboxshadow"}
 
-1. Block Non-VPN Traffic
+1. 非VP.Nトラフィックのブロック
 
-    If this option is enabled, all traffic from client devices trying to be sent out of the VPN tunnel will be blocked, which will effectively prevent VPN leaks due to client DNS settings, dropped VPN connections, client apps requesting by IP, etc.
+    このオプションを有効にすると、VPNトンネルから送信しようとするクライアントデバイスからのすべてのトラフィックがブロックされ、クライアントのDNS設定、VPN接続の切断、IPによるクライアントアプリの要求などによるVPNリークを効果的に防止することができます。
 
-2. Allow Access WAN
+2. WANへのアクセスを許可する
 
-    If this option is enabled, while VPN is connected, client devices will still be able to access WAN, e.g. accessing your printer, NAS etc in upper subnet.
+    このオプションを有効にすると、VPN接続中も、クライアント端末はWANにアクセスすることができます。
 
-3. Services From GL.iNet Doesn't Use VPN
+3. GL.iNetのサービスではVPNを使用しない
 
-    If this option is enabled, services on routers that usually require the use of a real IP will not use VPN. Including GoodCloud, DDNS, rtty.
+    このオプションを有効にすると、通常、実IPの使用を必要とするルーター上のサービスは、VPNを使用しません。GoodCloud、DDNS、rttyを含んでいます。
 
-## VPN Server
+##VPNサーバー
 
 ![vpn dashboard vpn server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server.png){class="glboxshadow"}
 
 ### OpenVPN Server Options
 
-Click the cog icon of OpenVPN server.
+OpenVPNサーバーのcog iconをクリックします。
 
 ![openvpn server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_options.png){class="glboxshadow"}
 
-* **Allow Remote Access LAN:** If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel.
+* **リモートアクセスLANを許可する：** このオプションを有効にすると、LANサブネット内のリソースは、VPNトンネルを介してアクセスすることができます。
 
-* **IP Masquerading:** If this option is enabled, when clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
+* **IP　マスカレード。:** このオプションを有効にすると、LAN上のクライアントデバイスがIPパケットを送信するとき、ルーターはソースIPアドレスを自分のアドレスに置き換えてから、VPNトンネルに転送します。
 
-* **MTU:** The MTU you set for the instance will overwrite the MTU item in the configuration file.
+* **MTU:** インスタンスに設定したMTUは、設定ファイルのMTUの項目を上書きします。
 
-### OpenVPN Server Route Rule
+### OpenVPNサーバーのルートルール
 
-Click the network icon of OpenVPN server.
+OpenVPNサーバーのネットワークアイコンをクリックします。
 
-In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the encrypted tunnel provided by the VPN when accessing any network segment is determined by the routing rules you manually set.
+カスタマイズルーツモードでは、VPNクライアントは、サーバーから発行された設定ファイルやルーティングの設定を無視します。任意のネットワーク・セグメントにアクセスする際に、VPNが提供する暗号化トンネルを使用するかどうかは、手動で設定したルーティング・ルールによって決定されます。
 
 ![openvpn server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_route_rule.png){class="glboxshadow"}
 
-### WireGuard Server Options
+### WireGuardサーバーのオプション
 
 ![wireguard server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_options.png){class="glboxshadow"}
 
-* **Allow Remote Access LAN:** If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel.
+* **リモートアクセスLANを許可する:** このオプションを有効にすると、LANサブネット内のリソースは、VPNトンネルを介してアクセスすることができます。
 
-* **IP Masquerading:** If this option is enabled, when clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
+* **IP　マスカレード:** このオプションを有効にすると、LAN上のクライアントデバイスがIPパケットを送信するとき、ルーターはソースIPアドレスを自分のアドレスに置き換えてから、VPNトンネルに転送します。
 
-* **MTU:** The MTU you set for the instance will overwrite the MTU item in the configuration file.
+* **MTU:** インスタンスに設定したMTUは、設定ファイルのMTUの項目を上書きします。
 
-### WireGuard Server Route Rule
+### WireGuardサーバーのルートルール
 
-Click the network icon of WireGuard server.
+WireGuardサーバーのネットワークアイコンをクリックします。
 
-In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the encrypted tunnel provided by the VPN when accessing any network segment is determined by the routing rules you manually set.
+カスタマイズルーツモードでは、VPNクライアントは、サーバーから発行された設定ファイルやルーティングの設定を無視します。任意のネットワーク・セグメントにアクセスする際に、VPNが提供する暗号化トンネルを使用するかどうかは、手動で設定したルーティング・ルールによって決定されます。
 
 ![wireguard server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_route_rule.png){class="glboxshadow"}

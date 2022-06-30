@@ -1,16 +1,16 @@
-# FIREWALL
+# ファイアウォール
 
-On the left side of web Admin Panel -> FIREWALL
+ウェブ管理画面の左側にある -> ファイアウォール
 
-In FIREWALL page, you can set up firewall rules like **Port Forwarding**, **Open Ports on Router** and **DMZ**.
+ファイアウォールページでは、次のようなファイアウォールルールを設定することができます。**ポートフォワード**, **ルーターのポート開放** と **DMZ**.
 
-## Port Forwards
+## ポートフォワード
 
-Port Forwarding lets remote computers to connect to a local computer or server behind the firewall in the LAN network (such as web servers, FTP servers, etc).
+ポートフォワーディングは、リモートコンピュータがLANネットワークのファイアウォールの内側のローカルコンピュータまたはサーバー（Webサーバー、FTPサーバーなど）に接続することを可能にします。
 
-To set up port forwarding, on the **Port Forwards** tab click **Add**.
+ポート転送を設定するには、on the **Port Forwards** タブの **Add**をクリックします。.
 
-![firewall page](https://static.gl-inet.com/docs/en/4/tutorials/firewall/firewall.png){class="glboxshadow"}
+![ファイアウォール ページ](https://static.gl-inet.com/docs/en/4/tutorials/firewall/firewall.png){class="glboxshadow"}
 
 It will pop up **Add New Port Forward Rule** dialog.
 

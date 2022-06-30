@@ -1,27 +1,19 @@
-# How to check if Internet Service Provider assigns you a public IP address?
+#  インターネットサービスプロバイダがパブリック IP アドレスを割り当てているかどうかを確認するには？
 
-## What is Public IP address?
+## パブリックIPアドレスとは何ですか？
 
-All IPv4 addresses can be divided into two major groups: global (or public, external) — those that are used on the Internet, and private (or local, internal) addresses — those that are used in the local area network (LAN).
+すべてのIPv4アドレスは、グローバル（またはパブリック、外部） - インターネットで使用されるアドレスと、プライベート（またはローカル、内部） - ローカルエリアネットワーク（LAN）で使用されるアドレスの2つのグループに大別されます。
 
-A public IP address is an IP address that is used to access the Internet. Public IP addresses can be routed on the Internet, unlike private addresses.
+パブリックIPアドレスは、インターネットにアクセスするために使用されるIPアドレスです。パブリックIPアドレスは、プライベートアドレスとは異なり、インターネット上でルーティングすることができます。
 
-The presence of a public IP address on your router will allow you to organize your own server (VPN, FTP, WEB, etc.), remote access to your computer, video surveillance cameras, and get access to them from anywhere on the global network.
+ルーターにパブリックIPアドレスがあると、独自のサーバー（VPN、FTP、WEBなど）を編成したり、パソコンへのリモートアクセス、監視カメラなどを設置し、グローバルネットワーク上のどこからでもアクセスできるようになります。
 
-## How to check if Internet Service Provider assigns you a public IP address?
+## インターネットサービスプロバイダがあなたにパブリックIPアドレスを割り当てているかどうかを確認する方法は？
 
-### Method 1:
+### 方法1:
 
-Ask your Internet Service Provider directly.
+方法1：インターネットサービスプロバイダに直接問い合わせる。
 
-### Method 2:
+### 方法2:
 
-Check the two IP address below to see if they are the same, otherwise not.
-
-* Search **my ip address** on Google, or access website like [https://whatismyipaddress.com/](https://whatismyipaddress.com/){target="_blank"}
-
-* Access the main router, you can find the WAN IP address.
-
-If the main router is GL.iNet router, the WAN IP address is the `IP Address` on the Internet page.
-
-![is public ip address](https://static.gl-inet.com/docs/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/is_public_ip_address.png){class="glboxshadow"}
+方法2：以下の2つのIPアドレスが同じかどうかを確認します。

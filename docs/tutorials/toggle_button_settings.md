@@ -1,14 +1,14 @@
-# Toggle Button Settings
+# トグルボタンの設定
 
-Some models have a togglel button, and you can customize what this button does in this page.
+一部の機種にはトグルボタンがあり、このボタンの動作をこのページでカスタマイズすることができます。
 
-On the left side of web Admin Panel -> MORE SETTINGS -> Toggle Button Settings
+ウェブ管理画面の左側 -> MORE SETTINGS -> Toggle Button Settingsで設定できます。
 
-![toggle button settings](https://static.gl-inet.com/docs/en/4/tutorials/toggle_button_settings/toggle_button_settings.png){class="glboxshadow"}
+![トグルボタン設定](https://static.gl-inet.com/docs/en/4/tutorials/toggle_button_settings/toggle_button_settings.png){class="glboxshadow"}と表示されます。
 
-There are four options.
+4つのオプションがあります。
 
-- No Function.
-- AdGuard Home (On/Off)
-- OpenVPN Client (On/Off)
-- WireGuard Client (On/Off)
+- 機能なし。
+- AdGuardホーム（On/Off）
+- OpenVPNクライアント (オン/オフ)
+- WireGuardクライアント（On/Off）

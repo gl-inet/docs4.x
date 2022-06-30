@@ -1,30 +1,29 @@
-# Setup WireGuard Server on GL.iNet router
+# GL.iNetルーターにWireGuard Serverをセットアップする。
 
-WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/){target="_blank"}, [simpler](https://www.wireguard.com/quickstart/){target="_blank"}, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. 
+WireGuard®は、非常にシンプルでありながら高速な最新のVPNで、以下のような特徴を備えています。 **最先端暗号技術**.   [faster](https://www.wireguard.com/performance/){target="_blank"}を目指しています , [simpler](https://www.wireguard.com/quickstart/){target="_blank"}, IPSecよりも無駄がなく、便利でありながら、膨大な頭痛の種を回避することができます。OpenVPNよりもかなり高性能になる予定です。
 
-GL.iNet routers have pre-installed WireGuard Server and Client.
-
+GL.iNetルーターには、WireGuardサーバーとクライアントがプリインストールされています。
 ---
 
-## Make sure Internet Service Provider assigns you a public IP address
+## インターネットサービスプロバイダからパブリックIPアドレスが割り当てられていることを確認してください
 
-Please check if you Internet Service Provider assigns you a public IP address [here](../how_to_check_if_isp_assigns_you_a_public_ip_address).
+インターネットサービスプロバイダからパブリックIPアドレスが割り当てられているかどうかご確認ください。 [here](../how_to_check_if_isp_assigns_you_a_public_ip_address).
 
-**If no, you can't connect to the WireGaurd Server.**
+**「いいえ」の場合、WireGaurd Serverへの接続ができません。**
 
-An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}.
+別の方法として、リバース・プロキシ・ソリューションを使用することもできます。　 [AstroRelay](https://www.astrorelay.com/){target="_blank"}お勧めします
 
-## Network Topology
+## ネットワークトポロジー
 
-* If GL.iNet router is the main router in your network, this is simple, please move to the next step.
-* If you already have a main router, then the GL.iNet router is under the main router, you may need to setup a port forwarding on the main router.
-* If you already have a main router, the GL.iNet router is several levels below it and you need to set up port forward on each level.
+* GL.iNetルーターがネットワークのメインルーターである場合は、簡単ですので、次のステップに進んでください。
+* すでにメインルーターがあり、GL.iNetルーターがメインルーターの下にある場合、メインルーターにポートフォワーディングの設定が必要な場合があります。
+* すでにメインルーターがある場合、GL.iNetルーターはその数段下にあるため、それぞれのレベルでポートフォワードの設定をする必要があります。
 
-## Setup WireGuard Server
+## WireGuardサーバーのセットアップ
 
-Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
+左側にあるWeb Admin Panelにアクセスします。 -> VPN -> WireGuard Server.
 
-1. Click **Generate Configuration** (Only the first time).
+1. **Generate Configuration** をクリックします（初回のみ）。
 
     ![wireguard server generate configuration](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_generate_configuration.png){class="glboxshadow"}
 

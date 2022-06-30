@@ -1,31 +1,38 @@
-# Connect to a Hotspot with Captive Portal
+# キャプティブポータル でホットスポットに接続する
 
-Some public hotspots especially those in hotel, cafe or airport, require you to input your authentication information or agree the terms and conditions through a web page (Captive Portal) before you can connect to it or access the Internet.
+ホテルやカフェ、空港などにある公衆ホットスポットの中には、接続する前にWebページ（ キャプティブポータル ）で認証情報の入力や利用規約への同意が必要なものがあります。
 
-However, you may find that you are not able to enter the captive portal so that you cannot connect to the hotspot or access the Internet. In this case, please follow the following procedures to disable the **DNS Rebinding Attack Protection**.
+しかし、キャプティブポータルに入ることができないため、ホットスポットに接続したり、インターネットにアクセスしたりできない場合があります。この場合、以下の手順で**DNS Rebinding Attack Protection**を無効にしてください。
 
-1. Visit the web Admin Panel (192.168.8.1), use [repeater](../internet_repeater/) to connect to the public hotspot which requires authentication through captive portal.
+1. Web管理パネル（192.168.8.1）にアクセスし、[repeater](../internet_repeater/)を使用して、キャプティブポータルによる認証を必要とするパブリックホットスポットに接続します。
 
-    Click **Connect** under the repeater sector.
+    リピーターセクターの下にある**接続**をクリックします。
 
-    ![repeater](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_sector.png){class="glboxshadow"}
+    ![リピーター](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_sector.png){class="glboxshadow"}
 
-    Select the public network which you want to connect.
+    接続する公衆回線を選択します。
+
 
     ![join wlan](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/join_wlan.png){class="glboxshadow"}
 
-    Click **Apply**. You can also enable the Remember button to save the current chose wireless network.
+    **Apply**をクリックします。Rememberボタンを有効にすると、現在選択されているワイヤレスネットワークを保存することもできます。
 
-    ![join network](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/join_network.png){class="glboxshadow"}
+    ![ネットワークに参加する](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/join_network.png){class="glboxshadow"} 
 
-    ![repeater connected](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_connected.png){class="glboxshadow"}
+    
+    ![リピーター接続](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_connected.png){class="glboxshadow"}
+    
 
-2. Go to web Admin Panel -> MORE SETTINGS -> DNS. Then, disable **DNS Rebinding Attack Protection** then click **Apply**.
+2. 2. Web管理パネル -> MORE SETTINGS -> DNSに移動します。DNS Rebinding Attack Protection**を無効にし、**Apply**をクリックします。
 
-    ![dns rebinding attack protection](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow"}
+    ![DNS Rebinding Attack Protection](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow"}。
 
-3. Use your web browser to visit a webpage, it will be redirected to the captive portal of the hotspot automatically.
 
-    If you are using smartphone but your web browser doesn't redirect to the captive portal. Please turn off the Wi-Fi of your smartphone and then turn it on and reconnect to the Wi-Fi of your router again. The captive portal should be popped up directly after you entered the Wi-Fi password.
+3. ウェブブラウザでウェブページにアクセスすると、自動的にホットスポットのキャプティブポータルにリダイレクトされます。
 
-    ![connected](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png)
+    スマートフォンを使用しているにもかかわらず、ウェブブラウザがキャプティブポータルにリダイレクトされない場合。スマートフォンのWi-Fiを一旦オフにしてからオンにし、再度ルーターのWi-Fiに接続してください。Wi-Fiのパスワードを入力すると、キャプティブポータルが直接ポップアップするはずです。
+
+    ![接続](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png)
+
+
+ 

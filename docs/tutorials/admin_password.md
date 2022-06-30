@@ -2,7 +2,7 @@
 
 Web管理パネルの左側->その他の設定->管理者パスワード
 
-![管理者パスワード](http://static.gl-inet.com/docs/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
+![管理者パスワード](https://static.gl-inet.com/docs/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
 
 Web管理パネルにログインするためのパスワードを変更します。 変更するには、現在のパスワードを入力する必要があります。
 

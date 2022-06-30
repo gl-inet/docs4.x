@@ -14,7 +14,7 @@ There are two ways to upgrade to firmware 4.x. The first method is recommended, 
 
     1. Please upgrade the firmware to 3.214 (the latest stable version).
 
-    2. Download the 4.x beta firmware [here](https://dl.gl-inet.com/?model=ax1800&type=beta){target="_blank"}, please download the one for uboot, its file name extension is **.img**.
+    2. Download the 4.x beta firmware [here](https://dl.gl-inet.com/?model=ax1800&type=beta){target="_blank"}, please download the one for uboot, its file name extension is **.img**. There may be some confusion here, the firmware used for uboot is not normally available for Local Upgrade, this is a special case.
 
     3. Upgrade it via the **Local Upgrade** in web Admin Panel -> UPGRADE with the .img firmware file.
 

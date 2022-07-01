@@ -16,7 +16,7 @@ You can also refer to video tutorial below.
 
 1. Please download firmware [here](https://dl.gl-inet.com/){target="_blank"} to your computer.
 
-    Some models, such as GL-AR750S-EXT, it is available in two formats of firmware, please use the firmware for uboot, its file name extension is **.img**.
+    Some models, such as GL-AR750S-EXT, it is available in two formats of firmware, please use the firmware for Uboot, its file name extension is **.img**.
 
 2. Remove the power of router. Connect your computer to the **Ethernet port (either LAN or WAN)** of the router. You **MUST** leave the other port **unconnected**.
 
@@ -118,7 +118,7 @@ You can also refer to video tutorial below.
 
 5. Use browser to visit **http://192.168.1.1**, this is the Uboot Web UI.
 
-    ![uboot web ui](https://static.gl-inet.com/docs/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
+    ![Uboot web ui](https://static.gl-inet.com/docs/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
     **Note:** The Uboot Web UI above may not be exactly the same as what you see, because the Uboot version is different for different production dates. In some cases, we recommend upgrading the Uboot version. Please refer to the tutorial below.
 

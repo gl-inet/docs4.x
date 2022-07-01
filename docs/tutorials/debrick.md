@@ -120,7 +120,7 @@ You can also refer to video tutorial below.
 
     ![uboot web ui](https://static.gl-inet.com/docs/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
-    **Note:** The uboot Web UI above may not be exactly the same as what you see, because the Uboot version is different for different production dates. In some cases, we recommend upgrading the Uboot version. Please refer to the tutorial below.
+    **Note:** The Uboot Web UI above may not be exactly the same as what you see, because the Uboot version is different for different production dates. In some cases, we recommend upgrading the Uboot version. Please refer to the tutorial below.
 
     ??? "Upgrade the Uboot version"
 
@@ -128,17 +128,17 @@ You can also refer to video tutorial below.
 
         For example, the following figure shows the Web UI of the old Uboot version of GL-AR750S. It has two **Choose file** buttons, which can be confusing for users.
 
-        ![gl-ar750s old uboot version](https://static.gl-inet.com/docs/en/4/tutorials/debrick/gl-ar750s_firmware_update_page_of_old_uboot_version.png){class="glboxshadow" width="700"}
+        ![gl-ar750s old Uboot version](https://static.gl-inet.com/docs/en/4/tutorials/debrick/gl-ar750s_firmware_update_page_of_old_uboot_version.png){class="glboxshadow" width="700"}
 
-        1. You need to download the uboot file [here](https://github.com/gl-inet/uboot-for-qca95xx/tree/master/bin){target="_blank"} in advance.
+        1. You need to download the Uboot file [here](https://github.com/gl-inet/uboot-for-qca95xx/tree/master/bin){target="_blank"} in advance.
 
-        2. Repeat the above steps until you can access the uboot Web UI.
+        2. Repeat the above steps until you can access the Uboot Web UI.
 
         3. Use browser to visit **http://192.168.1.1/uboot.html**
 
             ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 
-        4. Click the **Choose file** button and choose the uboot file you just downloaded.
+        4. Click the **Choose file** button and choose the Uboot file you just downloaded.
 
         5. Click **Update U-Boot** button.
 
@@ -146,7 +146,7 @@ You can also refer to video tutorial below.
 
         7. At this time you can change the IP setting back in step 4 and try to access the web Admin Panel, if you can access the web Admin Panel normally, it means the router has been rebooted.
 
-        8. Repeate the above steps to upgrade the firmware. If the uboot version is updated successfully, you will see that the uboot Web UI has changed at step 5. 
+        8. Repeate the above steps to upgrade the firmware. If the Uboot version is updated successfully, you will see that the Uboot Web UI has changed at step 5. 
 
 6. Click **Choose file** button to find the firmware file. Then click **Update firmware** button.
 

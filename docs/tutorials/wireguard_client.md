@@ -1,6 +1,6 @@
 # WireGuard Client
 
-WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/), [simpler](https://www.wireguard.com/quickstart/), leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. 
+WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/){target="_blank"}, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. 
 
 GL.iNet routers have pre-installed WireGuard Client and Server.
 
@@ -123,6 +123,36 @@ As of frimware 4.0, it brings grouping to manage WireGuard profiles.
 You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup OpenVPN server, please check out [here](../wireguard_server).
 
 ## Get configuration files from WireGuard service providers
+
+<div id="azirevpn"></div>
+
+??? "AzireVPN"
+
+    [Official Website](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"}
+
+    1. Access [AzireVPN official website](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} and login, then access the [WireGuard Configuration generator](https://www.azirevpn.com/cfg/wireguard){target="_blank"}
+
+        ![azirevpn wireguard configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/azirevpn/azirevpn_wireguard_generator.png){class="glboxshadow"}
+
+    2. At the IP option, please select **IPv4**. Then click **Download Configuration**.
+
+        ![azirevpn wireguard configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/azirevpn/azirevpn_wireguard_generator_ip.png){class="glboxshadow"}
+
+    3. Then follow the [guide](#setup-wireguard-client) to continue.
+
+    4. You can also use [mobile app](../mobile_app) to setup AzireVPN.
+
+<div id="mullvad"></div>
+
+??? "Mullvad"
+
+    [Official Website](https://mullvad.net/){target="_blank"}
+
+    1. Access [Mullvad Official Website](https://mullvad.net/){target="_blank"} and login, then access the [WireGaurd configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
+
+    2. Then follow the [guide](#setup-wireguard-client) to continue.
+
+    3. You can also use [mobile app](../mobile_app) to setup Mullvad.
 
 <div id="ovpn"></div>
 

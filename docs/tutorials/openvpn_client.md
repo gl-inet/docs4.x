@@ -20,7 +20,7 @@ Access to web Admin Panel, on the left side -> VPN -> OpenVPN Client
 
 1. Input your NordVPN account's service credentials, then click **Save Credentials & Get Servers**
 
-    ??? note
+    ??? "Where to find the NordVPN service credentials."
 
         You can find your NordVPN service credentials in the Nord Account dashboard.
 
@@ -58,7 +58,7 @@ Access to web Admin Panel, on the left side -> VPN -> OpenVPN Client
 
 ## Setup OpenVPN client
 
-As of frimware 4.0, it brings grouping to manage OpenVPN profiles. Please make sure all the profiles in the same group with the same credentials. For example, if you are ExpressVPN user, you can add a group named expressvpn, then upload all the ExpressVPN OpenVPN profiles you wanted to this group. For another OpenVPN service provider, please create another group.
+As of frimware 4.0, it brings grouping to manage OpenVPN profiles. Please make sure all the profiles in the same group with the same credentials. For example, if you are ExpressVPN user, you can add a group named *expressvpn*, then upload all the ExpressVPN OpenVPN profiles you wanted to this group. For another OpenVPN service provider, please create another group.
 
 Next steps, we will use ExpressVPN as an example.
 
@@ -124,7 +124,7 @@ Recommended:
 
     [Official Website](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
 
-    Login and [Download](https://api.surfshark.com/v1/server/configurations) directly, or read this [guide](https://support.surfshark.com/hc/en-us/articles/360011856259-How-to-set-up-Surfshark-on-GL-iNet-router-3-x-firmware-).
+    Login and [download](https://api.surfshark.com/v1/server/configurations) directly, or read this [guide](https://support.surfshark.com/hc/en-us/articles/360011856259-How-to-set-up-Surfshark-on-GL-iNet-router-3-x-firmware-).
 
 <div id="purevpn"></div>
 
@@ -290,7 +290,7 @@ Others:
 
     3. At the new screen, in the **Server configuration** tab, the desired parameters can be configured. For the purpose of setting OpenVPN for your DD-WRT Router, choose 'OpenVPN' from the Protocol drop down menu. Your desired country and server group, as described below, need to be defined too:
 
-        ![](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/cyberghost/cyberghost3.png){class="glboxshadow"}
+        ![server configuration](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/cyberghost/cyberghost3.png){class="glboxshadow"}
 
         - Protocol: For Router configurations, please choose OpenVPN
 

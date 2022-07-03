@@ -6,7 +6,7 @@ GL.iNet routers have pre-installed OpenVPN Client and Server.
 
 We recommend WireGuard over OpenVPN because it is much faster. For setup a WireGuard Client, please check out [here](../wireguard_client).
 
-If you have already bought OpenVPN service from a provider, but you don't know how to get the configuration file, please refer to [get configuration files from OpenVPN service providers](#get-configuration-files-from-openvpn-service-providers).
+If you have already bought OpenVPN service from a provider, but you don't know how to get the configuration file, please refer to [get configuration files from OpenVPN service providers](#get-configuration-files-from-openvpn-service-providers) or ask its support.
 
 You can setup OpenVPN Client via web Admin Panel and [mobile app](../mobile_app). For the mobile app, it has already integrated NordVPN.
 

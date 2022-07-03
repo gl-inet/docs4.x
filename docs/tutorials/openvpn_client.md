@@ -62,21 +62,23 @@ As of frimware 4.0, it brings grouping to manage OpenVPN profiles. Please make s
 
 Next steps, we will use ExpressVPN as an example.
 
-1. Add a new group
+1. Access to web Admin Panel, on the left side -> VPN -> OpenVPN Client
+
+2. Add a new group
 
     ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/add_a_new_group.png){class="glboxshadow"}
 
-2. Give the group a descriptive name, e.g. expressvpn.
+3. Give the group a descriptive name, e.g. expressvpn.
 
     ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name.png){class="glboxshadow"}
 
-3. Upload your OpenVPN configuration file, then input the credential, click **Apply**.
+4. Upload your OpenVPN configuration file, then input the credential, click **Apply**.
 
     ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/upload_profile.png){class="glboxshadow"}
 
     ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/after_upload_profile.png){class="glboxshadow"}
 
-4. Go to VPN Dashboard to enable the connection.
+5. Go to VPN Dashboard to enable the connection.
 
     ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpn_dashboard_to_connect_expressvpn.png){class="glboxshadow"}
 
@@ -88,7 +90,7 @@ You can get a GL.iNet router to set as OpenVPN server, and get another GL.iNet r
 
 We have tested different OpenVPN service providers. Therefore, if you don't know how to get the configuration file, you can follow the instruction below. However, you have to contact your service provider for the configuration file if they are not listed below. 
 
-If you have any problem in the setup of OpenVPN, please contact [support@gl-inet.com](mailto:support@gl-inet.com)
+If you have any problem in the setup of OpenVPN, please contact [support@gl-inet.com](mailto:support@gl-inet.com) or report in [this forum post](https://forum.gl-inet.com/t/openvpn-and-wireguard-compatibility-report/15621){target="_blank"}.
 
 Recommended:
 
@@ -98,7 +100,7 @@ Recommended:
 
     [Official Website](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"}
 
-    Download OpenVPN client configuration files. We recommend going into [NordVPN recommended server utility here](https://nordvpn.com/servers/tools/){target="_blank"}. It will recommend a server base on your network, click <code>Show available protocols</code> to download the UDP or TCP config.
+    Download OpenVPN client configuration files. We recommend going into [NordVPN recommended server utility here](https://nordvpn.com/servers/tools/){target="_blank"}. It will recommend a server base on your network, click **Show available protocols** to download the UDP or TCP config.
 
     ![nordvpn server utility](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/nordvpn/nordvpn_server_utility.png){class="glboxshadow"}
 

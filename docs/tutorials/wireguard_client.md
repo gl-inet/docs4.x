@@ -292,6 +292,8 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     It can't downlaod the WireGaurd configs from its website, please use [mobile app](../mobile_app) to setup PIA VPN.
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <div id="proton"></div>
 
 ??? "Proton VPN"

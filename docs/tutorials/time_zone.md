@@ -1,13 +1,13 @@
-# Time Zone
+# タイムゾーン
 
-On the left side of web Admin Panel -> MORE SETTINGS -> Time Zone
+ウェブ管理画面左側->その他の設定->タイムゾーン
 
-The time of the router's activities will be recorded according to the router time. So, make sure you have sync/select the right time zone.
+ルーターの活動時間は、ルーターの時間に合わせて記録されます。そのため、正しいタイムゾーンを同期/選択していることを確認してください。
 
-It does not automatically synchronize the time zone and requires a click on the **Sync** button.
+タイムゾーンの自動同期は行われず、**Sync**ボタンのクリックが必要です。
 
 ![time zone no sync](https://static.gl-inet.com/docs/en/4/tutorials/time_zone/time_zone_no_sync.png){class="glboxshadow"}
 
-After synchronization.
+同期後
 
 ![time zone sync](https://static.gl-inet.com/docs/en/4/tutorials/time_zone/time_zone_sync.png){class="glboxshadow"}

@@ -1,11 +1,11 @@
-# What is LuCI
+# LuCIとは何ですか
 
-LuCI is the web user interface of OpenWrt.
+LuCIは、OpenWrtのWebユーザーインターフェースです。
 
-To access LuCI, at the left side of web Admin Panel -> More Settings -> Advanced.
+LuCIにアクセスするには、ウェブ管理画面の左側にある -> More Settings -> Advanced.
 
-You can do some advanced settings in LuCI.
+LuCIでは、いくつかの高度な設定を行うことができます。
 
 ![advanced settings](https://static.gl-inet.com/docs/en/4/tutorials/advanced_settings/advanced_settings.png){class="glboxshadow"}
 
-Click the link **192.168.8.1/cgi-bin/luci** to access LuCI page.
+**192.168.8.1/cgi-bin/luci**のリンクをクリックすると、LuCIページにアクセスできます。

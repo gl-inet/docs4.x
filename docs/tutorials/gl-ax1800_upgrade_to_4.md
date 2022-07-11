@@ -1,33 +1,33 @@
-# How to upgrade GL-AX1800(Flint) to firmware 4.x?
+# GL-AX1800(Flint)のファームウェアを4.xにアップグレードするにはどうしたらいいですか？
 
-The GL-AX1800 is already available in 4.x beta firmware. For those who want to try it, you can follow the steps below to upgrade GL-AXT1800 from firmware 3.x to 4.x.
+GL-AX1800は、すでに4.xのベータ版ファームウェアが公開されています。試してみたい方は、以下の手順でGL-AXT1800をファームウェア3.xから4.xにアップグレードすることが可能です。
 
-**Note:** the beta firmware may has bugs.
+**注意：ベータ版ファームウェアにはバグがある可能性があります。
 
-## Upgrade
+## アップグレード
 
-There are two ways to upgrade to firmware 4.x. The first method is recommended, it is easier.
+ファームウェア4.xへのアップグレードには2つの方法がありますが、最初の方法が簡単でお勧めです。
 
-- Method 1:
+- 方法1．
 
-    Use the Local Upgrade in web Admin Panel.
+    Web管理画面の「ローカルアップグレード」を利用する。
 
-    1. Please upgrade the firmware to 3.214 (the latest stable version).
+    1. ファームウェアを3.214（最新の安定版）にバージョンアップしてください。
 
-    2. Download the 4.x beta firmware [here](https://dl.gl-inet.com/?model=ax1800&type=beta){target="_blank"}, please download the one for uboot, its file name extension is **.img**. There may be some confusion here, the firmware used for uboot is not normally available for Local Upgrade, this is a special case.
+    2. 4.xベータ版ファームウェアのダウンロードは[こちら](https://dl.gl-inet.com/?model=ax1800&type=beta){target="_blank"}、uboot用のものをダウンロードしてください、ファイル名の拡張子は**.img**です。ここで少し混乱するかもしれませんが、uboot用のファームウェアは通常Local Upgradeでは使用できませんので、これは特別なケースです。
 
-    3. Upgrade it via the **Local Upgrade** in web Admin Panel -> UPGRADE with the .img firmware file.
+    3. Web管理画面の**Local Upgrade** から、.imgファームウェアファイルを用いてアップグレードしてください。
 
         ![local upgrade](https://static.gl-inet.com/docs/en/3/setup/share/upgrade/local_upgrade.png){class="glboxshadow"}
 
-- Method 2:
+- 方法 2:
 
-    1. Download the 4.x beta firmware [here](https://dl.gl-inet.com/?model=ax1800&type=beta){target="_blank"}, please download the one for uboot, its file name extension is **.img**.
+    1. 4.xベータ版ファームウェアのダウンロードはこちら](https://dl.gl-inet.com/?model=ax1800&type=beta){target="_blank"}、uboot用のものをダウンロードしてください、ファイル名の拡張子は**.img**です。
 
-    2. Please flash the firmware by [Uboot](../debrick/).
+    2. [Uboot](../debrick/)でファームウェアをフラッシュしてください。
 
-## Downgrade
+## ダウングレード
 
-1. Please download the latest 3.x release firmware [here](https://dl.gl-inet.com/?model=ax1800){target="_blank"}
+1. 最新の3.xリリースファームウェアをダウンロードしてください。 [here](https://dl.gl-inet.com/?model=ax1800){target="_blank"}
 
-2. Please flash the firmware by [Uboot](../debrick/).
+2. [Uboot](../debrick/).でファームウェアをフラッシュしてください。

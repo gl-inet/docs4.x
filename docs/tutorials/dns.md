@@ -14,11 +14,11 @@ Web管理パネルの左側 -> MORE SETTINGS -> DNS
 
 4つのモードがあります。
 
-- Automatic, use the gateway of the parent router.
+- 自動、親ルーターのゲートウェイを使用します。
 
     ![automatic](https://static.gl-inet.com/docs/en/4/tutorials/dns/dns_server_settings_automatic.png){class="glboxshadow"}
 
-- Encrypted DNS
+- 暗号化DNS
 
     ![encrypted dns](https://static.gl-inet.com/docs/en/4/tutorials/dns/dns_server_settings_encrypted_dns.png){class="glboxshadow"}
 

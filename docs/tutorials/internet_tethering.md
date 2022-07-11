@@ -1,16 +1,16 @@
-# Connect to the Internet via usb tethering
+# usbテザリングでインターネットに接続する
 
-Using a USB cable to share network from your smartphone to the router is called Tethering. Host-less modem works in Tethering during the setup of the modem as well.
+USBケーブルを使って、スマートフォンからルーターまでネットワークを共有することをテザリングといいます。ホストレスモデムは、モデムの設定中もテザリングで動作します。
 
-**Note:** Some mobile carriers limit or charge extra for tethering. We recommend checking with your carrier.
+**注意：**携帯電話会社によっては、テザリングに制限や追加料金が発生する場合があります。ご利用の携帯電話会社にご確認いただくことをお勧めします。
 
 === "iPhone"
 
-    1. Connect iPhone to the USB port of the router. It will pop up a message asking to trust this computer? Click "Trust" to contine. Because we are connecting the iPhone to the router, so here is to TRUST the router.
+    1. iPhoneをルーターのUSBポートに接続します。このコンピュータを信頼するかどうかを尋ねるメッセージがポップアップ表示されます。信頼する "をクリックして続行します。iPhoneをルーターに接続しているので、ここでルーターを信頼することになります。
 
         ![trust this computer](https://static.gl-inet.com/docs/en/3/setup/share/internet/tethering/iphone_trust_this_computer.png){class="glboxshadow"}
 
-    2. Go to iPhone -> Settings -> Personal Hotspot -> Turn on Allow Others to Join.
+    2. iPhone -> 設定 -> パーソナルホットスポット -> 「他の人の参加を許可する」をオンにします。
 
         ![turn on allow others to join](https://static.gl-inet.com/docs/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow"}
 
@@ -18,18 +18,18 @@ Using a USB cable to share network from your smartphone to the router is called 
 
         ![tethering connect](https://static.gl-inet.com/docs/en/4/tutorials/internet_tethering/tethering_find_device.png){class="glboxshadow"}
 
-    4. It will show connected information on the top of your phone screen and the web Admin Panel once you connect successfully.
+    4. 接続に成功すると、携帯電話の画面上部とWebのAdmin Panelに接続情報が表示されます。
 
         ![tethering](https://static.gl-inet.com/docs/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow"}
 
-        Tethering connected.
+        テザリングに接続しました。
 
         ![tethering](https://static.gl-inet.com/docs/en/4/tutorials/internet_tethering/tethering_connected.png){class="glboxshadow"}
 
-    If the connection fails, please turn off and turn on **Allow Others to Join** for a few times.
+    接続に失敗した場合は、**Allow Others to Join**をオフにして、何度かオンにしてみてください。
 
 === "Android"
 
-    For Android phone tethering, the procedure is similar to iPhone. Connect it to the USB port of the router, it may pop up a dialog ask **Use USB for**, choose **File Transfer/Android Audio**, then check Settings -> Personal hotspot -> Usb network sharing.
+    Android携帯のテザリングは、iPhoneと同様の手順で行います。ルーターのUSBポートに接続すると、**USBを使用する**というダイアログが表示されるので、**ファイル転送/Androidオーディオ**を選択し、設定→パーソナルホットスポット→USBネットワーク共有にチェックを入れてください。
 
-    For the Android official documentation for refer [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}
+    Androidの公式ドキュメントはこちらをご覧ください。 [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}

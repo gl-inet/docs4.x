@@ -6,9 +6,9 @@ GL.iNetのルーターには、WireGuard ClientとServerがプリインストー
 
 プロバイダーからWireGuardサービスを購入済みで、設定ファイルの入手方法が分からない場合は、以下のページを参照してください。 [get configuration files from WireGuard service providers](#get-configuration-files-from-wireguard-service-providers).
 
-You can setup WireGuard Client via web Admin Panel and [mobile app](../mobile_app). For the mobile app, it has already integrated some WireGuard Service Providers, they are AzireVPN, Mullvad VPN, TorGuard VPN, OVPN, WeVPN, StrongVPN, PIA VPN, SpiderVPN.
+WireGuardクライアントの設定は、Web管理パネルと[モバイルアプリ](../mobile_app)で行えます。モバイルアプリでは、AzireVPN、Mullvad VPN、TorGuard VPN、OVPN、WeVPN、StrongVPN、PIA VPN、SpiderVPNのいくつかのWireGuardサービスプロバイダが既に統合されています。
 
-For setup via web Admin Panel, please follow the guide below.
+Web管理画面からの設定は、以下の手順で行ってください。
 
 ## Setup AzireVPN
 

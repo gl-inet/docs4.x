@@ -8,35 +8,35 @@
 
 1.   まずルーターの電源を切り、SIMカードをUSBモデムに挿入し、USBモデムをルーターのUSBポートに接続してから、再度電源を入れることをお勧めします。電源投入時にUSBモデムを挿入した場合、ページが変化しないことがありますので、ページを更新してください。
 
-2. Please access the web Admin Panel -> INTERNET, Cellular sector. The first time, it may not connect automatically, but it has read the name of your carrier in the upper left corner and the IMEI, then please click **Auto Setup**.
+2. Web管理パネル→INTERNET、Cellularセクターにアクセスしてください。初回は自動で接続されない場合がありますが、左上のキャリア名とIMEIを読み込んでいますので、**Auto Setup**をクリックしてください。
 
-    Please ignore the warning of *Incompatible Modem*
+     *不適合モデム*の警告は無視してください。
 
     ![usb modem auto setup](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/usb_modem_auto_setup.png){class="glboxshadow"}
 
-3. Connecting.
+3. 接続
 
-    **Note:** Some SIM cards may have special usage restrictions, such as the need to use a special APN. If your SIM card can't be registered, please consult your network operator if it has special restrictions.
+    **注意:** 一部のSIMカードは、特別なAPNを使用する必要があるなど、特別な使用制限がある場合があります。SIMカードが登録できない場合、特別な制限がある場合は、ネットワークオペレータにご相談ください。
 
     ![usb modem connecting](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/usb_modem_connecting.png){class="glboxshadow"}
 
-4. After a while, it will be connected. Otherwise, try [Manual Setup](#manual-setup).
+4.  しばらくすると、接続されます。それ以外の場合は、[マニュアルセットアップ]（#manual-setup）を試してください。
 
-    When the usb modem is plugged into the router the second time it is powered on, it is usually automatically recognized and a connection is established. It may not get the information of signal, modem name and IMEI.
+    usbモデムをルーターに接続して2回目に電源を入れると、通常は自動的に認識され、接続が確立されます。信号、モデム名、IMEIなどの情報を取得できない場合があります。
 
     ![usb modem connected](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/usb_modem_connected.png){class="glboxshadow"}
 
 ---
 
-### Manual Setup
+### マニュアルセットアップ
 
-Sometimes, **Auto Setup** may not work, you can try **Manual Setup**.
+自動セットアップ**がうまくいかない場合もありますので、**手動セットアップ**を試してみてください。
 
 ![4g modem manual setup](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/cellular_settings.png){class="glboxshadow"}
 
 ---
 
-### Compatible Modems
+### 適合モデム
 
 Here is a list of supported modems that we had tested before.
 

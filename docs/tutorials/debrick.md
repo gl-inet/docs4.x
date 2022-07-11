@@ -1,66 +1,61 @@
-# Using Uboot to Debrick Your Router
+# Uboot を使用してルーターをデブリックする
 
-You may have bricked your router if you were doing some DIY projects or flashed a wrong firmware. You may not be able to access your router but you can re-install the firmware by using Uboot failsafe.
+DIYをしたり、間違ったファームウェアをフラッシュした場合、ルーターがブリックした可能性があります。ルーターにアクセスできないかもしれませんが、Ubootフェイルセーフを使用してファームウェアを再インストールすることができます。
 
-**Note:** The Uboot operation will remove your router's settings and installed plugins.
+**注::** Uboot操作により、ルーターの設定やインストールされているプラグインが削除されます。
 
 ---
 
-Please prepare a computer with an ethernet port, if not, please prepare an additional USB Ethernet Adapter.
+イーサネットポートのあるPCをご用意ください。ない場合は、USBイーサネットアダプターを別途ご用意ください。
 
-Please follow the procedures below to access the Uboot Web UI and re-install the firmware.
+以下の手順でUboot Web UIにアクセスし、ファームウェアを再インストールしてください。
 
-You can also refer to video tutorial below.
+また、以下のビデオチュートリアルもご参照ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EAaaw8nyrnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. Please download firmware [here](https://dl.gl-inet.com/){target="_blank"} to your computer.
+1.ファームウェアをパソコンにダウンロードしてください。[ここ](https://dl.gl-inet.com/){target="_blank"}  
 
-    Some models, such as GL-AR750S-EXT, it is available in two formats of firmware, please use the firmware for uboot, its file name extension is **.img**.
+    GL-AR750S-EXTなど一部の機種では、2種類の形式のファームウェアが用意されていますが、uboot用のファームウェアは、ファイル名の拡張子が**.img**となっていますので、そちらをご利用ください。
 
-2. Remove the power of router. Connect your computer to the **Ethernet port (either LAN or WAN)** of the router. You **MUST** leave the other port **unconnected**.
+2.ルーターの電源を抜きます。お使いのコンピュータをルーターの**イーサネットポート（LANまたはWANのいずれか）**に接続します。あなたは**他のポートを**未接続のままにしておく必要があります**。
 
-3. Press and hold the Reset button firmly, and then power up the router. If your router doesn't have a power button, plugging the power in will power it on automatically.
+3. リセットボタンをしっかりと押し続けてから、ルーターの電源を入れます。ルーターに電源ボタンがない場合は、電源を差し込むと自動的に電源が入ります。
 
-    Then you will see a light flashes in a regular pattern a few times, please release your finger after the pattern changed.
+    その後、規則的なパターンで数回ライトが点滅するのが見えますが、パターンが変わった後に指を放してください。
 
-    The following will give the description of pattern of each model of light flashing.
+    以下、各機種の発光パターンについて説明する。
 
-    **Note:** Same router models with different manufacturing dates may have different LED lights colours or flashing pattern, it won't affect the UBoot process. Please pay more attention to the change of the flashing pattern.
+    **注: ** 別の製造業の日付の同じルーター モデルは異なった LED ライト色か点滅のパターンがあるかもしれません、それは UBoot プロセスに影響を与えません。点滅パターンの変更にもっと注意を払ってください。
 
-    - For **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)**, **GL-E750(Mudi)**, **microuter-N300**, the lgiht falshes 5 times.
 
-    - For **GL-S1300(Convexa-S), GL-B1300(Convexa-B)**, the light flashes 4 times.
+    -  **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)**, **GL-E750(Mudi)**, **microuter-N300**が4回点滅します
+
+    -  **GL-S1300(Convexa-S), GL-B1300(Convexa-B)**が4回点滅します
         
-        The left most LED may stay on the whole time while the rightmost LED flashes 4 times, then the middle LED turns on and stays on.
+        一番左のLEDがずっと点灯し続け、右端のLEDが4回点滅すると、真ん中のLEDが点灯して点灯したままになります。
         
-        (For some old GL-B1300, the left most LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times at the same time then they stay on.)
+        (一部の古いGL-B1300では、一番左のLEDがずっと点灯し、真ん中のLEDと一番右のLEDが同時に5回点滅した後、点灯したままになります)。
 
-    - For **GL-SF1200**, the 5G LED flashes 5 times then stays on.
+    - **GL-SF1200**の場合、5G LEDが5回点滅した後、点灯したままになります。
 
-    - For **GL-AX1800(Flint)**, the blue light flashes 5 times then turns white and stay on.
+    - **GL-AX1800(Flint)**の場合、青色ランプが5回点滅した後、白色に変わり、点灯したままになります。
 
-    - For **GL-AXT1800(Slate AX)**, the blue light flashes 5 times then stay on.
+    - **GL-AXT1800(Slate AX)**の場合、青ランプが5回点滅した後、点灯したままになります。
 
-    - For **GL-XE300(Puli)**, the LAN light falshes 5 times then WIFI light stay on.
+    - **GL-XE300(Puli)**の場合、LANランプが5回点滅し、WIFIランプが点灯したままとなります。
 
-    - For **GL-X300B(Collie)**, the WAN light flashes 5 times then WIFI light stay on.
+    - **GL-X300B(Collie)**の場合、WANライトは5回点滅し、WIFIライトは点灯したままです。
 
-    - For **GL-SFT1200(Opal)**, the blue light flashes 5 times then turns white and stay on.
+    - **GL-SFT1200(Opal)**の場合、青色ランプが5回点滅した後、白色に変化し、点灯したままになります。
 
-    - For **GL-AP1300(Cirrus)**, the power light falshes 5 times then stay on.
+    - **GL-MT1300（Beryl）**の場合、LEDは最初青色で、ゆっくり2回点滅し、その後少し早く5回点灯して白色に変わり、点灯したままになります。
 
-    - For **GL-MT1300(Beryl)**, the LED is blue at first, flash twice slowly, then light 5 times a bit quick and turn to white and stay on.
+    - **GL-B2200(Velica)**の場合、2つのLEDは最初青色で、その後白色に変わり5回点滅し、その後青色に変わり点灯し続けます。
 
-    - For **GL-B2200(Velica)**, the two LEDs are blue at first, then turn white to flash 5 times, then turn blue and stay on.
+    - **GL-MV1000**の場合、リピートLEDの点滅信号はありません。(電源とWANのLEDはずっと点灯しています）。
 
-    - For **GL-MV1000**, no repeat LED flashes signal. (Power and WAN LEDs will stay on the whole time.)
-
-    - For **GL-MiFi**, the lgiht flashes 6 times.
-
-    - For **GL-MT300N**, **GL-MT300A**, the light flashes 3 times.
-
-4. Manually set the IP address of your computer to **192.168.1.2**. Please check the step-by-step guide for different operating systems below:
+4. お使いのコンピュータのIPアドレスを手動で**192.168.1.2**に設定してください。以下、OS別の手順ガイドをご確認ください。
 
     ??? "Windows 7 / Windows 10"
 

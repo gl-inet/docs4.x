@@ -1,4 +1,4 @@
- #  初めてのセットアップ
+ # 初めてのセットアップ
 
 GL.iNetルーターの最初のセットアップは非常に似ています。これは、GL-AXT1800（Slate AX）の例です。
 
@@ -28,9 +28,9 @@ GL-AXT1800、電源アダプタ、イーサネットケーブル。
         
         パソコン/スマホ/タブレットでルーターのSSIDを検索し、WiFiパスワードを入力してください。WiFiパスワードは、ルーター背面のラベルに記載されています。一部の機種では、ラベルにWiFiパスワードが記載されていない場合、デフォルトパスワードの**goodlife**をお試しください。
 
-        **Tip:** The QR code on the label on the back of the GL-AXT1800 is with wifi connection information and can be quickly connected using your phone's QR code scanning tool.
+        **Tip:** GL-AXT1800の背面にあるラベルのQRコードは、wifiの接続情報が記載されており、スマホのQRコード読み取りツールで素早く接続することが可能です。
 
-        **Note:** At this time, you cannot access the Internet after connecting to the WiFi, you need to set up the admin password in the next step before you can access the Internet.
+        **注意:** この時、WiFiに接続してもインターネットにアクセスできないので、次のステップで管理者パスワードを設定してからインターネットにアクセスする必要があります。
 
 3. Web管理パネルにアクセスします
 

@@ -1,25 +1,25 @@
-# Firmware Upgrade
+# ファームウェアのアップグレード
 
-On the left side of web Admin Panel -> UPGRADE
+ウェブ管理画面の左側にある -> アップグレード
 
 ![upgrade](https://static.gl-inet.com/docs/en/4/tutorials/upgrade/upgrade.png){class="glboxshadow"}
 
-## Online Upgrade
+## オンラインアップグレード
 
-You can find the current firmware version here. If your router is connected to the Internet, it will check for the newer firmware version available for download.
+現在のファームウェアのバージョンは、こちらで確認することができます。ルーターがインターネットに接続されている場合、ダウンロード可能な新しいファームウェアのバージョンを確認します。
 
-## Local Upgrade
+## ローカルアップグレード
 
-Select a firmware file or drag and drop to upgrade. You can download the firmware from our [download site](https://dl.gl-inet.com){target="_blank"}.
+ファームウェアファイルを選択するか、ドラッグ＆ドロップしてアップグレードしてください。ファームウェアのダウンロードは、当社の [download site](https://dl.gl-inet.com){target="_blank"}.
 
 ![local upgrade](https://static.gl-inet.com/docs/en/4/tutorials/upgrade/local_upgrade.png){class="glboxshadow"}
 
-After uploaded, it will verify the firmware.
+アップロード後、ファームウェアの検証を行います。
 
-**Keep Setting:** Current settings will be retained. User installed packages will be prompted to re-install after upgrade.
+**Keep Setting:**　現在の設定が保持されます。ユーザーがインストールしたパッケージは、アップグレード後に再インストールを促されます。
 
-Click **Install** to upgrade. 
+**インストール**」をクリックすると、アップグレードされます。
 
-**Note:** Please do not disconnect the power during the upgrade.
+**注意:** アップグレード中は、電源を切らないでください。
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/en/4/tutorials/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}

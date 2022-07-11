@@ -1,27 +1,27 @@
-# How to repair network or reset to factory setting
+# ネットワークの修復や工場出荷時の設定に戻す方法
 
-All GL.iNet Routers have a reset button, you can use it to repair your network or reset your router to factory default. If you can neither access the web Admin Panel nor the router, you can press the **reset** button.
+ すべてのGL.iNetルーターにはリセットボタンがあり、それを使ってネットワークを修復したり、ルーターを工場出荷時の設定にリセットすることができます。ウェブ管理パネルやルーターにアクセスできない場合は、**リセット**ボタンを押すことができます。
 
-## Repair network
+## 修理ネットワーク
 
-Press and hold the reset button for **4 seconds** then release to repair your network.
+リセットボタンを**4秒**押したままにして、離すとネットワークが修復されます。
 
-## Reset to factory
+## 工場出荷時の状態に戻す
 
-There are two ways to reset the firmware.
+ファームウェアをリセットする方法は2つあります。
 
-1. Using reset button
+1. リセットボタンの使用
 
-    Press and hold the reset button for **10 seconds** then release to reset the router to factory settings. All user data will be cleared.
+    リセットボタンを**10秒**押したままにしてから離すと、ルーターが工場出荷時の設定にリセットされます。すべてのユーザーデータは消去されます。
 
-    **Note:** If the factory reset is not working. You might need to follow the [Uboot tutorial](../debrick/) to debrick your router.
+    **注：**工場出荷時リセットが機能しない場合。[Ubootチュートリアル](../debrick/)に従ってルーターをデブリックする必要がある場合があります。
 
-2. Reset firmware in web Admin Panel
+2. Web Admin Panelでファームウェアのリセットを行う
 
-    If you can access the web Admin Panel, you can reset firmware to factory.
+    Web Admin Panelにアクセスできる場合は、ファームウェアを工場出荷時の状態に戻すことができます。
 
-    On the left side of web Admin Panel -> MORE SETTINGS -> Reset Firmware
+    管理画面の左側->MORE SETTINGS->ファームウェアのリセット
 
-    **Note:** All your current settings, applications and data will be lost. The process will take about 3 minutes. DO NOT power off the router during this process.
-
+    **注意：**現在の設定、アプリケーション、データはすべて失われます。このプロセスには約 3 分かかります。このプロセスでは、ルーターの電源を切らないでください。
+    
     ![glinet reset firmware](https://static.gl-inet.com/docs/en/4/tutorials/reset_firmware/reset_firmware.png){class="glboxshadow"}

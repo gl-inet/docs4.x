@@ -1,6 +1,6 @@
  #  AdGuardホーム
 
-AdGu ard Homeは、広告をブロックして追跡するためのネットワーク全体のソフトウェアです。 **開始**ボタンをクリックして続行します。
+AdGuard Homeは、広告をブロックして追跡するためのネットワーク全体のソフトウェアです。 **開始**ボタンをクリックして続行します。
 
 ![adguard home init]（https://static.gl-inet.com/docs/en/4/tutorials/adguardhome/adguardhome_init.png）{class = "glboxshadow"}
 

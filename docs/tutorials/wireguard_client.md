@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 # WireGuardクライアント
 
 WireGuard®は、**最先端の暗号技術**を利用した、非常にシンプルかつ高速な最新のVPNです。[faster](https://www.wireguard.com/performance/), [simpler](https://www.wireguard.com/quickstart/)を目指します。IPSecよりも無駄がなく、便利でありながら、膨大な頭痛の種を回避することができます。OpenVPNよりもかなり高性能になる予定です。
+=======
+# How to Setup WireGaurd Client on GL.iNet router
+
+WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/){target="_blank"}, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 
 GL.iNetのルーターには、WireGuard ClientとServerがプリインストールされています。
 
-プロバイダーからWireGuardサービスを購入済みで、設定ファイルの入手方法が分からない場合は、以下のページを参照してください。 [get configuration files from WireGuard service providers](#get-configuration-files-from-wireguard-service-providers).
+プロバイダーからWireGuardサービスを購入済みで、設定ファイルの入手方法が分からない場合は、以下のページを参照してください。 [get configuration files from WireGuard service providers](#get-configuration-files-from-wireguard-service-providers)　また、サポートにお聞きください。
+
 
 WireGuardクライアントの設定は、Web管理パネルと[モバイルアプリ](../mobile_app)で行えます。モバイルアプリでは、AzireVPN、Mullvad VPN、TorGuard VPN、OVPN、WeVPN、StrongVPN、PIA VPN、SpiderVPNのいくつかのWireGuardサービスプロバイダが既に統合されています。
 
@@ -120,9 +126,39 @@ As of frimware 4.0, it brings grouping to manage WireGuard profiles.
 
 ## Setup WireGuard server on GL.iNet router
 
-You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup OpenVPN server, please check out [here](../wireguard_server).
+You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup WireGaurd server, please check out [here](../wireguard_server).
 
 ## Get configuration files from WireGuard service providers
+
+<div id="azirevpn"></div>
+
+??? "AzireVPN"
+
+    [Official Website](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"}
+
+    1. Access [AzireVPN official website](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} and login, then access the [WireGuard Configuration generator](https://www.azirevpn.com/cfg/wireguard){target="_blank"}
+
+        ![azirevpn wireguard configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/azirevpn/azirevpn_wireguard_generator.png){class="glboxshadow"}
+
+    2. At the IP option, please select **IPv4**. Then click **Download Configuration**.
+
+        ![azirevpn wireguard configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/azirevpn/azirevpn_wireguard_generator_ip.png){class="glboxshadow"}
+
+    3. Then follow the [guide](#setup-wireguard-client) to continue.
+
+    4. You can also use [mobile app](../mobile_app) to setup AzireVPN.
+
+<div id="mullvad"></div>
+
+??? "Mullvad"
+
+    [Official Website](https://mullvad.net/){target="_blank"}
+
+    1. Access [Mullvad Official Website](https://mullvad.net/){target="_blank"} and login, then access the [WireGaurd configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
+
+    2. Then follow the [guide](#setup-wireguard-client) to continue.
+
+    3. You can also use [mobile app](../mobile_app) to setup Mullvad.
 
 <div id="ovpn"></div>
 
@@ -261,6 +297,8 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
     [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
     It can't downlaod the WireGaurd configs from its website, please use [mobile app](../mobile_app) to setup PIA VPN.
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div id="proton"></div>
 

@@ -10,7 +10,11 @@ Learn how to use our devices and add-on features with our step to step guides an
 
 ## FAQ
 
-* [First time setup](first_time_setup)
+* [How to use Uboot to debrick your routers?](uboot)
+* [Connect to a Hotspot with Captive Portal?](connect_to_a_hotspot_with_captive_portal)
+* [How to remote access router's web Admin Panel?](remote_access_web_admin_panel)
+* [How to set up OpenVPN?](openvpn_client)
+* [How to set up WireGuard?](wireguard_client)
 
 ## Internet Connection
 

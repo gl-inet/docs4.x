@@ -101,6 +101,14 @@ nav:
     - GL-A1300 (Slate Plus):
       - Hardware Info: user_guide/gl-a1300/hardware_info.md
       - First Time Setup: user_guide/gl-a1300/first_time_setup.md
+      - Internet: user_guide/gl-a1300/internet.md
+      - Wireless: user_guide/gl-a1300/wireless.md
+      - Clients: user_guide/gl-a1300/clients.md
+      - Upgrade: user_guide/gl-a1300/upgrade.md
+      - Firewall: user_guide/gl-a1300/firewall.md
+      - VPN: user_guide/gl-a1300/vpn.md
+      - Applications: user_guide/gl-a1300/applications.md
+      - More Settings: user_guide/gl-a1300/more_settings.md
     - GL-AX1800 (Flint):
       - Hardware Info: user_guide/gl-ax1800/hardware_info.md
       - First Time Setup: user_guide/gl-ax1800/first_time_setup.md

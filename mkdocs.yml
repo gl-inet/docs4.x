@@ -122,11 +122,13 @@ nav:
       - More Settings: user_guide/gl-ax1800/more_settings.md
   - Tutorials:
     - Overview: tutorials/index.md
-    - General:
+    - FAQ:
       - First time setup: tutorials/first_time_setup.md
-      - Upgrade to latest firmware: tutorials/how_to_upgrade_to_the_latest_firmware.md
-      - Check Firmware Version: tutorials/check_firmware_version.md
-      - What is web Admin Panel: tutorials/web_admin_panel.md
+      - Debrick via Uboot: tutorials/debrick.md
+      - Connect to a Hotspot with Captive Portal: tutorials/connect_to_a_hotspot_with_captive_portal.md
+      - Remote access web admin panel: tutorials/remote_access_web_admin_panel.md
+      - OpenVPN Client: tutorials/openvpn_client.md
+      - WireGuard Client: tutorials/wireguard_client.md
     - Internet Connection:
       - Ethernet: tutorials/internet_ethernet.md
       - Repeater: tutorials/internet_repeater.md

@@ -294,6 +294,26 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<div id="airvpn"></div>
+
+??? "AirVPN"
+
+    [Official Website](https://airvpn.org/?referred_by=402389){target="_blank"}
+
+    1. If you are using [AirVPN](https://airvpn.org/?referred_by=402389){target="_blank"}, sign in to their website, go to the [Client Area](https://airvpn.org/client/){target="_blank"}, click the [Config Generator](https://airvpn.org/generator/){target="_blank"}
+
+        ![airvpn configuration generator](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/airvpn/airvpn_config_generator.png){class="glboxshadow" width="400"}
+
+    2. At the Config Generator page, select WireGuard at the Protocols sector.
+
+        ![airvpn protocols](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/airvpn/airvpn_protocols.png){class="glboxshadow" width="600"}
+
+    3. Select a server, then scroll down to the end, click **Generate** button. It will download the configuration file.
+
+        ![airvpn select server](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/airvpn/airvpn_select_server.png){class="glboxshadow" width="600"}
+
+    4. Then fllow the [guide](#setup-wireguard-client) to continue.
+
 <div id="proton"></div>
 
 ??? "Proton VPN"

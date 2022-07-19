@@ -4,9 +4,9 @@
 
 - [Introduction](#introduction)
 - [Insert storage device](#insert-storage-device)
-- [Setup Samba](#setup-samba)
-- [Setup WebDAV](#setup-webdav)
-- [Setup DLNA](#setup-dlna)
+- [Set up Samba](#set-up-samba)
+- [Set up WebDAV](#set-up-webdav)
+- [Set up DLNA](#set-up-dlna)
 - [Samba Client](#samba-client)
 - [WebDAV Client](#webdav-client)
 

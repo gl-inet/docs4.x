@@ -6,6 +6,10 @@ Please prepare the following items that included in the package.
 
 GL-AXT1800, power adapter, ethernet cable.
 
+There is a video guide.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HTM62DtfRXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 1. Power on
 
     If you want to use TF card, please insert before powering on the router. Hot plugging for TF card is not supported.

@@ -60,10 +60,30 @@ Or click **Connect**.
 
 ![repeater](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
 
-On the **Knows Network** sector, click trash icon to delete a known network, click cog icon to config the network.
+On the **Known Network** sector, click trash icon to delete a known network, click cog icon to config the network.
 
 ![repeater known network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_known_networks.png){class="glboxshadow"}
 
 ## Join other network
 
 ![](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
+
+## Reconnection
+
+In the following cases, the router's Repeater will try to connect to WiFi every once in a while. You can turn off the reconnection manually, and for ssid/password errors, please delete it in Known Network.
+
+1. The wrong SSID/password was entered during the process of Repeater, after the first failed connection.
+
+2. After connecting to the WiFi of the upstream router, the router moves out of the signal range of the upstream router.
+
+3. After connecting to the WiFi of the upstream router, the upstream router changed the SSID/password, or restricted the connection.
+
+It can be divided into three phases, the waiting phase, the scanning phase, and the connecting phase.
+
+**Note**: There are some problems during the scanning phase and the connection phase.
+
+1. In the waiting phase, everything is OK.
+
+2. In the scanning phase, data packet may loss in the scanned band, possible connection problems for new devices. For GL-AXT1800 and GL-AX1800, the Guest Wi-Fi will be temporarily turned off.
+
+3. In the connecting phase, the Main Wi-Fi on the corresponding band may be disconnected.

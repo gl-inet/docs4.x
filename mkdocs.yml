@@ -12,26 +12,26 @@ copyright: Copyright &copy; 2022 GL Technologies & Microuter Technologies
 
 theme: 
   name: material
-  logo: images/logo.svg
+  logo: images/logo_white.svg
   custom_dir: overrides
   features:
     - navigation.indexes
     - navigation.tabs
     - navigation.top
     - toc.integrate
-  palette:
-    - scheme: default
-      primary: white
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: cyan
-      accent: cyan
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+  # palette:
+  #   - scheme: default
+  #     primary: white
+  #     accent: indigo
+  #     toggle:
+  #       icon: material/toggle-switch-off-outline
+  #       name: Switch to dark mode
+  #   - scheme: slate
+  #     primary: cyan
+  #     accent: cyan
+  #     toggle:
+  #       icon: material/toggle-switch
+  #       name: Switch to light mode
   favicon: images/favicon.png
 
 # Plugins

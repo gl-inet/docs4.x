@@ -145,7 +145,7 @@ nav:
     - Upgrade:
       - Firmware Upgrade: tutorials/firmware_upgrade.md
       - Download Firmware: tutorials/where_to_download_firmware.md
-      - Upgrade GL-AX1800 to Firmware 4: tutorials/gl-ax1800_upgrade_to_4.md 
+      - Upgrade GL-AX1800 to Firmware 4: tutorials/gl-ax1800_upgrade_to_4.md
     - Firewall:
       - Firewall: tutorials/firewall.md
     - VPN:

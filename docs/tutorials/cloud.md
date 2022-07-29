@@ -102,7 +102,7 @@ Follow the steps above, to enable the cloud function, which will allow the route
 
 ### Sign up GoodCloud account
 
- Visit [https://www.goodcloud.xyz](https://www.goodcloud.xyz){target="_blank"}, sign up then sign in. If you don't find the verify email, look in spam or check email later. If you have any difficulty with sign up, please send email to [support@gl-inet.com](mailto:support@gl-inet.com) for help.
+ Visit [https://www.goodcloud.xyz](https://www.goodcloud.xyz){target="_blank"}, sign up then sign in. If you don't find the verify email, look in spam or check email later. If you have any difficulty with sign up, please send email to [support@glinet.biz](mailto:support@glinet.biz) for help.
 
 ### Select server region
 

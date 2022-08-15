@@ -41,7 +41,9 @@ Sometimes, disable the *DNS Rebinding Attack Protection* is not enough to solve 
 2. On the left side of web Admin Panel -> MORE SETTINGS -> MAC Clone.
 
 3. Clone the MAC address of your smartphone to the router.
-![MACCLONE](https://d2jbioc4ahy17s.cloudfront.net/docs/en/4/tutorials/mac_clone/macclone4.0.jpg)
+
+    ![MACCLONE](https://d2jbioc4ahy17s.cloudfront.net/docs/en/4/tutorials/mac_clone/macclone4.0.jpg){width="500"}
+
 4. It may need to reboot the rooter to take effect.
 
 ## Solution 3：Ask the help from the hotel staff

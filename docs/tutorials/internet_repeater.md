@@ -86,4 +86,4 @@ It can be divided into three phases, the waiting phase, the scanning phase, and 
 
 2. In the scanning phase, data packet may loss in the scanned band, possible connection problems for new devices. For GL-AXT1800 and GL-AX1800, the Guest Wi-Fi will be temporarily turned off.
 
-3. In the connecting phase, the Main Wi-Fi on the corresponding band may be disconnected.
+3. In the connecting phase, the Main Wi-Fi on the corresponding band may be disconnected for a few seconds.

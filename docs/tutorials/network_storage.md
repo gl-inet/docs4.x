@@ -52,6 +52,8 @@ Finally, click the **Apply** button.
 
 ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folder_settings.png){class="glboxshadow"}
 
+<div id="shared-link"></div>
+
 That is it. The access link can be found in **Shared Link**.
 
 ![network storage, shared link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_link.png){class="glboxshadow"}
@@ -182,27 +184,57 @@ Connect your smart TV to the router, it will find the DLNA Server.
 
 === "iOS"
 
-    There are many iOS apps that support Samba, here is an example of [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}. 
+    iOS [Files](https://apps.apple.com/us/app/files/id1232058109){target="_blank"} app support Samba, or you can use other apps, for example [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
+
+    The next section describes how to connect to Samba using **Files** app and **Documents** app respectively.
+
+    - Guide of connect to Samba server by [Files](https://apps.apple.com/us/app/files/id1232058109){target="_blank"} app.
+
+        Open the **Files** app. It's installed by default so you should find it on your home screen. As **Files** is now a removable app, you might need to reinstall it from the App Store if it doesn’t show up.
+
+        ![search files on iphone](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width=300"}
+
+        Make sure you're on the **Browse** tab at the bottom of the screen. Tap the "…" (three dots) icon in the top-right to display the app's context menu.
+        
+        ![ios files set up SMB](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ios_files_smb_1.png){class="glboxshadow" width=560"}
+
+        Tap the **Connect to Server** option near the top of the menu. On the next screen, enter your server's connection url. You can find the url in [Shared Link](#shared-link). Tap the **Next** button in the top-right to continue.
+
+        ![ios files set up SMB](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ios_files_smb_2.png){class="glboxshadow" width=560"}
+
+        The following screen lets you enter authentication credentials if you'll be connecting to a protected network share. Tap **Registered User** and fill out the **Name** and **Password** fields with your Samba username and password. You can tap "Guest" instead if you enable the **Anonymous Access**.
+
+        ![ios files set up SMB](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ios_files_smb_3.png){class="glboxshadow" width=560"}
+
+        Press the **Next** button in the top-right to complete the connection. Your iOS device should successfully connect to the server and display a list of available shares.
+
+        ![ios files set up SMB](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ios_files_smb_4.png){class="glboxshadow" width=560"}
+
+        The Samba share will be listed at the bottom of menu, underneath the **Shared** heading.
+
+        ![ios files set up SMB](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ios_files_smb_5.png){class="glboxshadow" width=560"}
+
+    - Guide of connect to Samba server by [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"} app.
     
-    **Note:** Documents doesn't support anonymous access.
+        **Note:** Documents doesn't support anonymous access.
 
-    Click the plus button in the lower right corner.
+        Click the plus button in the lower right corner.
 
-    ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_1.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_1.png){class="glboxshadow" width="560"}
 
-    Click **Add Connection**.
+        Click **Add Connection**.
 
-    ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_2.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_2.png){class="glboxshadow" width="560"}
 
-    Click **Windows SMB**.
+        Click **Windows SMB**.
 
-    ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_3.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_3.png){class="glboxshadow" width="560"}
 
-    The **Title** is for a name of this connection. **URL** is the access link. **Login** is the username.
+        The **Title** is for a name of this connection. **URL** is the access link. **Login** is the username.
 
-    Click **Done** button to complete this setup.
+        Click **Done** button to complete this setup.
 
-    ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_4_samba.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_4_samba.png){class="glboxshadow" width="560"}
 
 ## WebDAV Client
 

@@ -4,9 +4,9 @@ Some public hotspots especially those in hotel, cafe or airport, require you to 
 
 However, you may find that you are not able to enter the captive portal so that you cannot connect to the hotspot or access the Internet. In this case, please the following solutions one by one.
  
-## Solution 1：Disable the *DNS Rebinding Attack Protection*
+## Solution 1：Change DNS settings
 
-1. Visit the web Admin Panel (192.168.8.1), use [repeater](../internet_repeater/) to connect to the public hotspot which requires authentication through captive portal.
+1. Visit the web Admin Panel (default is 192.168.8.1), use [repeater](../internet_repeater/) to connect to the public hotspot which requires authentication through captive portal.
 
     Click **Connect** under the repeater sector.
 
@@ -22,11 +22,19 @@ However, you may find that you are not able to enter the captive portal so that 
 
     ![repeater connected](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_connected.png){class="glboxshadow"}
 
-2. Go to web Admin Panel -> MORE SETTINGS -> DNS. Then, disable **DNS Rebinding Attack Protection** then click **Apply**.
+2. Go to web Admin Panel -> MORE SETTINGS -> DNS. Then, make sure the **DNS Rebinding Attack Protection** is disable and the **Mode** is **Automatic**.
 
-    ![dns rebinding attack protection](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow"}
+    ![dns rebinding attack protection](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="580"}
 
-3. Use your web browser to visit a webpage, it will be redirected to the captive portal of the hotspot automatically.
+3. Go to web Admin Panel -> VPN -> VPN Dashboard. Make sure the connection of OpenVPN and WireGuard client is disable.
+
+    ![vpn client is disable](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="572"}
+
+4. Go to web Admin Panel -> APPLICATIONS -> AdGuard Home. Make sure the AdGuard Home is stopped.
+
+    ![adguard home is stopped](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
+
+5. Use your web browser to visit a webpage, it will be redirected to the captive portal of the hotspot automatically.
 
     If you are using smartphone but your web browser doesn't redirect to the captive portal. Please turn off the Wi-Fi of your smartphone and then turn it on and reconnect to the Wi-Fi of your router again. The captive portal should be popped up directly after you entered the Wi-Fi password.
 

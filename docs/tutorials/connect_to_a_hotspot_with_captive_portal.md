@@ -52,7 +52,7 @@ Sometimes, disable the *DNS Rebinding Attack Protection* is not enough to solve 
 
     ![MACCLONE](https://d2jbioc4ahy17s.cloudfront.net/docs/en/4/tutorials/mac_clone/macclone4.0.jpg){width="500"}
 
-4. It may need to reboot the rooter to take effect.
+4. It may need to reboot the router to take effect.
 
 ## Solution 3：Ask the help from the hotel staff
 

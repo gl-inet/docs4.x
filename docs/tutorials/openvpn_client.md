@@ -130,6 +130,8 @@ Recommended:
 
     [Download](https://www.privateinternetaccess.com/openvpn/openvpn.zip) directly.
 
+    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+
 <div id="surfshark"></div>
 
 ??? "Surfshark"
@@ -169,7 +171,12 @@ Recommended:
 
     [Download](https://d32d3g1fvkpl8y.cloudfront.net/heartbleed/router/Recommended-CA2.zip) directly.
 
+    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+
     [Refer link](https://support.purevpn.com/openvpn-files)
+
+    GL.iNet routers don't support the [dedicated IP](https://www.purevpn.com/dedicated-ip){target="_blank"} feature of PureVPN, because it needs PPTP.
+
 
 <div id="torguard"></div>
 
@@ -185,6 +192,7 @@ Recommended:
 
         ![torguard vpn username vpn password](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/torguard/torguard_vpnusername_vpnpassword.png){class="glboxshadow"}
 
+
 <div id="privatevpn"></div>
 
 ??? "PrivateVPN"
@@ -192,6 +200,8 @@ Recommended:
     [Official Website](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
 
     [Download](https://privatevpn.com/client/PrivateVPN-TUN.zip) directly.
+
+    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
 
 <div id="protonvpn"></div>
 
@@ -212,6 +222,7 @@ Recommended:
     4. The credential for connect OpenVPN is not the one that login Proton website's dashboard. You can find the crdential at **Account -> OpenVPN/IKEv2 username**
 
         ![protonvpn openvpn credential](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
+
 
 <div id="expressvpn"></div>
 
@@ -235,6 +246,7 @@ Recommended:
 
         **Keep this browser window open**. You will need this information for the setup later.
 
+
 Others:
 
 <div id="airvpn"></div>
@@ -254,6 +266,7 @@ Others:
     3. You will be able to see the download page of the configuration file.
 
         ![download config](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/airvpn/airvpn3.png){class="glboxshadow"}
+
 
 <div id="astrill"></div>
 
@@ -279,6 +292,7 @@ Others:
 
         ![download certificate](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/astrillvpn/astrill4.png){class="glboxshadow"}
 
+
 <div id="bolevpn"></div>
 
 ??? "bolehvpn"
@@ -287,7 +301,10 @@ Others:
 
     Login in [Dashboard](https://users.bolehvpn.net/){target="_blank"}, download your configuration files and select the [Linux_iOS inline](https://users.bolehvpn.net/download/inline/6){target="_blank"} format. Extract the zip files after completing the download.
 
+    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+
     [Refer link](https://www.bolehvpn.net/clients-installations/#1487691248224-0c435dba-d612){target="_blank"}
+
 
 <div id="cactusvpn"></div>
 
@@ -299,6 +316,7 @@ Others:
 
     ![download cactusvpn openvpn profiles](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/cactusvpn/cactusvpn1.jpg){class="glboxshadow"}
 
+
 <div id="cryptostorm"></div>
 
 ??? "Cryptostorm"
@@ -306,6 +324,7 @@ Others:
     [Official Website](https://cryptostorm.is/){target="_blank"}
 
     [Download](https://cryptostorm.is/configs/ecc/){target="_blank"} directly.
+
 
 <div id="cyberghost"></div>
 
@@ -346,6 +365,8 @@ Others:
     [Official Website](https://go.fastestvpn.com/affiliate/pap?a_aid=5ffd2a3e9d687){target="_blank"}
 
     Download FastestVPN Config Files zip folder for OpenVPN TCP and UDP from [here](https://support.fastestvpn.com/download/openvpn-tcp-udp-config-files/)
+
+    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
 
     [Refer link](https://support.fastestvpn.com/tutorials/routers/gl-inet/openvpn){target="_blank"}
 
@@ -415,19 +436,24 @@ Others:
 
     [Download](https://vpn.hidemyass.com/vpn-config/vpn-configs.zip)
 
+    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+
 <div id="ipvanish"></div>
 
 ??? "IPVANISH"
 
     [Official Website](https://www.ipvanish.com/){target="_blank"}
 
-    You can download all of the config files for all of the servers from [here](https://www.ipvanish.com/software/configs/configs.zip), then should upload this **config.zip** on the OpenVPN Client of web Admin Panel. Before uploading, please remove the servers in the .zip file that you will not use to reduce the file size.
+    - You can download all of the config files for all of the servers from [here](https://configs.ipvanish.com/configs/configs.zip), it contain all the server config file(.ovpn) and a certificate file(.crt). The .zip file maybe a little big for some models, please delete the configuration(.ovpn) of the server that you will not use.
 
-    You can also download individual server configuration files [here](https://www.ipvanish.com/software/configs/), but you will need to download **ca.ipvanish.com.crt** as well. Before uploading to the router, you need to compress the **ca.ipvanish.com.crt** and .ovpn configuration files into a .zip archive and upload them.
+        ![ipvanish all openvpn configs](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ipvanish/ipvanish_all_openvpn_configs.png){class="glboxshadow"}
 
-    ![ipvanish](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ipvanish/ipvanish_download_openvpn_configs.png){class="glboxshadow"}
+    - You can also download individual server configuration files [here](https://www.ipvanish.com/software/configs/), but you will need to download **ca.ipvanish.com.crt** as well. Before uploading to the router, you need to compress the **ca.ipvanish.com.crt** and .ovpn configuration files into a .zip archive.
+
+        ![ipvanish openvpn config file with certificate file](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ipvanish/ipvanish_openvpn_config_file_with_certificate_file.png){class="glboxshadow"}
 
     [Refer link](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup)
+
 
 <div id="ivacy"></div>
 
@@ -440,6 +466,7 @@ Others:
     [Download OpenVPN TCP Configs](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ivacy/IVACY_OpenVPN_Configs_TCP.zip)
 
     [Refer link](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/)
+
 
 <div id="ivpn"></div>
 
@@ -457,13 +484,14 @@ Others:
 
     [Refer link](https://www.ivpn.net/setup/gnu-linux-terminal.html)
 
+
 <div id="ovpn"></div>
 
 ??? "OVPN"
 
     [Official Website](https://www.ovpn.com/en?ref=glinet){target="_blank"}
     
-    Just login, then you can easy get the OpenVPN configurations file by click the menu below.
+    Just login, then you can easily get the OpenVPN configurations file by click the menu below.
 
     ![get ovpn configuration files](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ovpn/get_ovpn_configuration_files.jpg){class="glboxshadow"}
 
@@ -472,6 +500,18 @@ Others:
     ![download ovpn openvpn configuration files](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/ovpn/download_configuration_files.jpg){class="glboxshadow"}
 
     The username and password are the same you login OVPN.
+
+<div id="privadovpn"></div>
+
+??? "PrivadoVPN"
+
+    [Official Website](https://privadovpn.com/#a_aid=GLINET){target="_blank"}
+
+    Just login, then you can easily find the **Download VPN Configuration**.
+
+    ![PrivadoVPN OpenVPN configuration](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/privadovpn/privadovpn_openvpn_configuration.png){class="glboxshadow"}
+
+    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
 
 <div id="safervpn"></div>
 

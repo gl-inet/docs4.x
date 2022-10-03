@@ -24,7 +24,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [How to connect to the Internet via usb tethering](internet_tethering).
 * [How to connect to the Internet via usb modem](internet_cellular).
 * [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection)
-* [Connect to a Hotspot with Captive Portal](connect_to_a_hotspot_with_captive_portal)
+* [Connect to a Hotspot with Captive Portal](connect_to_a_hotspot_with_captive_portal).
 * [DHCP](dhcp)
 * [PPPoE](pppoe)
 * [How to set static WAN IP?](how_to_set_static_wan_ip)

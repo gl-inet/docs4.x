@@ -14,7 +14,7 @@
 
 Some GL.iNet models support TF card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDAV, DLNA on this page for the disk.
 
-The supported disk formats are NTFS, exFAT, FAT32, Ext3, Ext4.
+The supported disk formats are NTFS, FAT32.
 
 ## Insert storage device
 

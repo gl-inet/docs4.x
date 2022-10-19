@@ -138,7 +138,7 @@ nav:
       - DHCP: tutorials/dhcp.md
       - PPPoE: tutorials/pppoe.md
       - Produce a wired connection: tutorials/produce_a_wired_connection.md
-      - Drop-in gateway mode: tutorials/drop-in_gateway_mode.md
+      - Drop-in gateway: tutorials/drop-in_gateway.md
     - Wireless:
       - Wireless: tutorials/wireless.md
     - Clients:

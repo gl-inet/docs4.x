@@ -1,6 +1,6 @@
 # Firmware Upgrade
 
-On the left side of web Admin Panel -> UPGRADE
+On the left side of web Admin Panel -> SYSTEM -> Upgrade
 
 ![upgrade](https://static.gl-inet.com/docs/en/4/tutorials/upgrade/upgrade.png){class="glboxshadow"}
 
@@ -20,6 +20,6 @@ After uploaded, it will verify the firmware.
 
 Click **Install** to upgrade. 
 
-**Note:** Please do not disconnect the power during the upgrade.
+**Note:** Please keep the power on during the upgrade.
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/en/4/tutorials/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}

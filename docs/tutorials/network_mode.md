@@ -1,6 +1,6 @@
 # Network Mode
 
-On the left side of web Admin Panel -> MORE SETTINGS -> Network Mode
+On the left side of web Admin Panel -> NETWORK -> Network Mode
 
 When you change the router’s network mode, you may need to re-connect all your client devices.
 

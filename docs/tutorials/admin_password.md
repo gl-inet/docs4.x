@@ -1,6 +1,6 @@
 # Admin Password
 
-On the left side of web Admin Panel -> MORE SETTINGS -> Admin Password
+On the left side of web Admin Panel -> SYSTEM -> Admin Password
 
 ![admin password](https://static.gl-inet.com/docs/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
 

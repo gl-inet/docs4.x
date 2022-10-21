@@ -1,6 +1,6 @@
 # IPv6
 
-On the left side of web Admin Panel -> MORE SETTINGS -> IPv6
+On the left side of web Admin Panel -> NETWORK -> IPv6
 
 The IPv6 function allows you to enable and configure IPv6 on router.
 

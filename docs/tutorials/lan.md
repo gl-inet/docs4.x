@@ -1,6 +1,6 @@
 # LAN
 
-On the left side of web Admin Panel -> MORE SETTINGS -> LAN 
+On the left side of web Admin Panel -> NETWORK -> LAN 
 
 ![lan page](https://static.gl-inet.com/docs/en/4/tutorials/lan/lan_page.png){class="glboxshadow"}
 

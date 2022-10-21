@@ -93,33 +93,30 @@ nav:
       - Internet: user_guide/gl-axt1800/internet.md
       - Wireless: user_guide/gl-axt1800/wireless.md
       - Clients: user_guide/gl-axt1800/clients.md
-      - Upgrade: user_guide/gl-axt1800/upgrade.md
-      - Firewall: user_guide/gl-axt1800/firewall.md
       - VPN: user_guide/gl-axt1800/vpn.md
       - Applications: user_guide/gl-axt1800/applications.md
-      - More Settings: user_guide/gl-axt1800/more_settings.md
+      - Network: user_guide/gl-axt1800/network.md
+      - System: user_guide/gl-axt1800/system.md
     - GL-A1300 (Slate Plus):
       - Hardware Info: user_guide/gl-a1300/hardware_info.md
       - First Time Setup: user_guide/gl-a1300/first_time_setup.md
       - Internet: user_guide/gl-a1300/internet.md
       - Wireless: user_guide/gl-a1300/wireless.md
       - Clients: user_guide/gl-a1300/clients.md
-      - Upgrade: user_guide/gl-a1300/upgrade.md
-      - Firewall: user_guide/gl-a1300/firewall.md
       - VPN: user_guide/gl-a1300/vpn.md
       - Applications: user_guide/gl-a1300/applications.md
-      - More Settings: user_guide/gl-a1300/more_settings.md
+      - Network: user_guide/gl-a1300/network.md
+      - System: user_guide/gl-a1300/system.md
     - GL-AX1800 (Flint):
       - Hardware Info: user_guide/gl-ax1800/hardware_info.md
       - First Time Setup: user_guide/gl-ax1800/first_time_setup.md
       - Internet: user_guide/gl-ax1800/internet.md
       - Wireless: user_guide/gl-ax1800/wireless.md
       - Clients: user_guide/gl-ax1800/clients.md
-      - Upgrade: user_guide/gl-ax1800/upgrade.md
-      - Firewall: user_guide/gl-ax1800/firewall.md
       - VPN: user_guide/gl-ax1800/vpn.md
       - Applications: user_guide/gl-ax1800/applications.md
-      - More Settings: user_guide/gl-ax1800/more_settings.md
+      - Network: user_guide/gl-ax1800/network.md
+      - System: user_guide/gl-ax1800/system.md
   - Tutorials:
     - Overview: tutorials/index.md
     - FAQ:
@@ -143,12 +140,6 @@ nav:
       - Wireless: tutorials/wireless.md
     - Clients:
       - Clients: tutorials/clients.md
-    - Upgrade:
-      - Firmware Upgrade: tutorials/firmware_upgrade.md
-      - Download Firmware: tutorials/where_to_download_firmware.md
-      - Upgrade GL-AX1800 to Firmware 4: tutorials/gl-ax1800_upgrade_to_4.md
-    - Firewall:
-      - Firewall: tutorials/firewall.md
     - VPN:
       - VPN Dashboard: tutorials/vpn_dashboard.md
       - OpenVPN Client: tutorials/openvpn_client.md
@@ -161,24 +152,34 @@ nav:
       - Plug-ins: tutorials/plugins.md
       - Dynamic DNS: tutorials/ddns.md
       - GoodCloud: tutorials/cloud.md
-      - AdGuard Home: tutorials/adguardhome.md
       - Network Storage: tutorials/network_storage.md
-      - Log: tutorials/log.md
-    - More settings:
-      - Change Admin Password: tutorials/admin_password.md
+      - AdGuard Home: tutorials/adguardhome.md
+    - Network:
+      - Firewall: tutorials/firewall.md
+      - Multi-WAN: tutorials/multi-wan.md
       - LAN: tutorials/lan.md
-      - Time Zone: tutorials/time_zone.md
-      - MAC Clone: tutorials/mac_clone.md
       - DNS: tutorials/dns.md
       - Network Mode: tutorials/network_mode.md
       - IPv6: tutorials/ipv6.md
+      - MAC Clone: tutorials/mac_clone.md
+      - Drop-in Gateway: tutorials/drop-in_gateway.md
+      - IGMP Snooping: tutorials/igmp_snooping.md
+    - System:
+      - Overview: tutorials/system_overview.md
+      - Firmware Upgrade: tutorials/firmware_upgrade.md
+      - Scheduled Tasks: tutorials/scheduled_tasks.md
+      - Change Admin Password: tutorials/admin_password.md
+      - Time Zone: tutorials/time_zone.md
       - Toggle Button Settings: tutorials/toggle_button_settings.md
+      - Log: tutorials/log.md
       - Reset Firmware: tutorials/reset_firmware.md
       - Advanced Settings: tutorials/advanced_settings.md
     - Troubleshooting:
       - Debrick via Uboot: tutorials/debrick.md
       - Repair or Reset: tutorials/repair_network_or_reset_firmware.md
     - Other:
+      - Download Firmware: tutorials/where_to_download_firmware.md
+      - Upgrade GL-AX1800 to Firmware 4: tutorials/gl-ax1800_upgrade_to_4.md
       - Change WAN to LAN: tutorials/change_wan_to_lan.md
       - Mobile App: tutorials/mobile_app.md
       - What is LuCI: tutorials/what_is_luci.md

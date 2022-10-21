@@ -2,7 +2,7 @@
 
 Some models have a toggle button, and you can customize what this button does in this page.
 
-On the left side of web Admin Panel -> MORE SETTINGS -> Toggle Button Settings
+On the left side of web Admin Panel -> SYSTEM -> Toggle Button Settings
 
 ![toggle button settings](https://static.gl-inet.com/docs/en/4/tutorials/toggle_button_settings/toggle_button_settings.png){class="glboxshadow"}
 

@@ -1,6 +1,6 @@
 # Time Zone
 
-On the left side of web Admin Panel -> MORE SETTINGS -> Time Zone
+On the left side of web Admin Panel -> SYSTEM -> Time Zone
 
 The time of the router's activities will be recorded according to the router time. So, make sure you have sync/select the right time zone.
 

@@ -18,6 +18,13 @@
         <div class="gl-product-model">(Slate Plus)</div>
       </a>
     </div>
+      <div class="gl-product-card">
+      <a href="gl-mt1300/hardware_info/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt1300.jpg" >
+        <div class="gl-product-model">GL-MT1300</div>
+        <div class="gl-product-model">(Beryl)</div>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -30,6 +37,20 @@
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ax1800.jpg" >
         <div class="gl-product-model">GL-AX1800</div>
         <div class="gl-product-model">(Flint)</div>
+  	  </a>
+  	</div>
+  </div>
+</div>
+
+### Security Gateway
+
+<div class="gl-product-row">
+  <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-mt2500/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt2500-series.jpg" >
+        <div class="gl-product-model">GL-MT2500</div>
+        <div class="gl-product-model">(Brume 2)</div>
   	  </a>
   	</div>
   </div>

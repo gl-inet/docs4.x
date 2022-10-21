@@ -24,7 +24,7 @@ However, you may find that you are not able to enter the captive portal so that 
 
     ![repeater connected](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_connected.png){class="glboxshadow"}
 
-2. Go to web Admin Panel -> MORE SETTINGS -> DNS. Then, make sure the **DNS Rebinding Attack Protection** is disable and the **Mode** is **Automatic**.
+2. Go to web Admin Panel -> NETWORK -> DNS. Then, make sure the **DNS Rebinding Attack Protection** is disable and the **Mode** is **Automatic**.
 
     ![dns rebinding attack protection](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="580"}
 
@@ -50,7 +50,7 @@ Sometimes, [Solution 1](#solution-1change-dns-settings) is not enough to solve t
 
 1. Got your smartphone registered on the network.
 
-2. On the left side of web Admin Panel -> MORE SETTINGS -> MAC Clone.
+2. On the left side of web Admin Panel -> NETWORK -> MAC Clone.
 
 3. Clone the MAC address of your smartphone to the router.
 

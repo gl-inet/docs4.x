@@ -1,6 +1,6 @@
 # DNS
 
-On the left side of web Admin Panel -> MORE SETTINGS -> DNS
+On the left side of web Admin Panel -> NETWORK -> DNS
 
 If you set custom DNS servers, any dns name will be resolved through the DNS servers set here instead of the one obtained from wan, repeater, cellular, hotspot sharing or VPN configuration DNS server.
 

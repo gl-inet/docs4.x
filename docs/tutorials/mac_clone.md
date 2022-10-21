@@ -1,6 +1,6 @@
 # MAC Clone
 
-On the left side of web Admin Panel -> MORE SETTINGS -> MAC Clone
+On the left side of web Admin Panel -> NETWORK -> MAC Clone
 
 MAC Clone is useful when you connect to a public hotspot but you do not want the server to know your real MAC address or limit your Internet connections based on your MAC address.
 

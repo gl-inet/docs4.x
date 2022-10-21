@@ -1,6 +1,6 @@
 # Log
 
-On the left side of web Admin Panel -> APPLICATIONS -> Log.
+On the left side of web Admin Panel -> SYSTEM -> Log.
 
 The Log page allows you to view logs of System, Kernel, Crash, Cloud for analysis and troubleshooting.
 

@@ -117,6 +117,15 @@ nav:
       - Applications: user_guide/gl-ax1800/applications.md
       - Network: user_guide/gl-ax1800/network.md
       - System: user_guide/gl-ax1800/system.md
+    - GL-MT2500/GL-MT2500A (Brume 2):
+      - Hardware Info: user_guide/gl-mt2500/hardware_info.md
+      - First Time Setup: user_guide/gl-mt2500/first_time_setup.md
+      - Internet: user_guide/gl-mt2500/internet.md
+      - Clients: user_guide/gl-mt2500/clients.md
+      - VPN: user_guide/gl-mt2500/vpn.md
+      - Applications: user_guide/gl-mt2500/applications.md
+      - Network: user_guide/gl-mt2500/network.md
+      - System: user_guide/gl-mt2500/system.md
   - Tutorials:
     - Overview: tutorials/index.md
     - FAQ:

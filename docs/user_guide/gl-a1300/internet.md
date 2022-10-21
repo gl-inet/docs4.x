@@ -2,7 +2,7 @@
 
 The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
 
-Configure the internet network by selecting [INTERNET] in the side menu within the router's web Admin Panel. 
+Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
 
 Slate AX supports four ways to connect to the internet as listed below:
 

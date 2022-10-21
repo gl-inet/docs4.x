@@ -126,6 +126,16 @@ nav:
       - Applications: user_guide/gl-mt2500/applications.md
       - Network: user_guide/gl-mt2500/network.md
       - System: user_guide/gl-mt2500/system.md
+    - GL-MT1300 (Beryl):
+      - Hardware Info: user_guide/gl-mt1300/hardware_info.md
+      - First Time Setup: user_guide/gl-mt1300/first_time_setup.md
+      - Internet: user_guide/gl-mt1300/internet.md
+      - Wireless: user_guide/gl-mt1300/wireless.md
+      - Clients: user_guide/gl-mt1300/clients.md
+      - VPN: user_guide/gl-mt1300/vpn.md
+      - Applications: user_guide/gl-mt1300/applications.md
+      - Network: user_guide/gl-mt1300/network.md
+      - System: user_guide/gl-mt1300/system.md
   - Tutorials:
     - Overview: tutorials/index.md
     - FAQ:

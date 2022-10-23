@@ -34,7 +34,7 @@ For example, if the router has been set up with two types of Internet access, **
 
 Use multiple interfaces at the same time to increase the total bandwidth of the router.
 
-The system will assign interfaces to new connections based on the load ratio. 
+The system will assign interfaces to new connections based on the load ratio.
 
 Note: Alive connections or traffic are not ensured to match the load ratio. It is closer to this ratio if it has been used for a longer time.
 

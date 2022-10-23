@@ -184,6 +184,7 @@ nav:
       - MAC Clone: tutorials/mac_clone.md
       - Drop-in Gateway: tutorials/drop-in_gateway.md
       - IGMP Snooping: tutorials/igmp_snooping.md
+      - Hardware Acceleration: tutorials/hardware_acceleration.md
     - System:
       - Overview: tutorials/system_overview.md
       - Firmware Upgrade: tutorials/firmware_upgrade.md

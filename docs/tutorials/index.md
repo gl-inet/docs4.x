@@ -63,11 +63,13 @@ Learn how to use our devices and add-on features with our step to step guides an
 ## Network
 
 * [Firewall](firewall).
+* [Multi-WAN](multi-wan), failover to another Internet access method or use multiple interfaces at the same time to increase the total bandwidth.
 * [LAN](lan)
 * [DNS](dns)
 * [Network Mode](network_mode)
 * [IPv6](ipv6)
 * [MAC Clone](mac_clone)
+
 
 ## System
 

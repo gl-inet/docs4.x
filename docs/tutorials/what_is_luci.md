@@ -9,3 +9,7 @@ You can do some advanced settings in LuCI.
 ![advanced settings](https://static.gl-inet.com/docs/en/4/tutorials/advanced_settings/advanced_settings.png){class="glboxshadow"}
 
 Click the link **192.168.8.1/cgi-bin/luci** to access LuCI page.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

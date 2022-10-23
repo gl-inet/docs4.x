@@ -12,3 +12,7 @@ There are four options.
 - AdGuard Home (On/Off)
 - OpenVPN Client (On/Off)
 - WireGuard Client (On/Off)
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

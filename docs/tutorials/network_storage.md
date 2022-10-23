@@ -321,3 +321,7 @@ Connect your smart TV to the router, it will find the DLNA Server.
     Click **Done** button to complete this setup.
 
     ![documents WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_4_webdav.png){class="glboxshadow" width="560"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

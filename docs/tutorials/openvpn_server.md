@@ -90,3 +90,7 @@ There are several common reasons cause failed:
 We can use another GL.iNet router as OpenVPN Client, or use their official app on other devices with various OS.
 
 - Please refer to OpenVPN Official Website: [https://openvpn.net/vpn-client/](https://openvpn.net/vpn-client/){target="_blank"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

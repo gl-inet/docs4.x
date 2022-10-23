@@ -103,3 +103,7 @@ Click the network icon of WireGuard server.
 In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the encrypted tunnel provided by the VPN when accessing any network segment is determined by the routing rules you manually set.
 
 ![wireguard server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_route_rule.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

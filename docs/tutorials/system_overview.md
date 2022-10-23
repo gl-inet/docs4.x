@@ -38,3 +38,7 @@ Mouse over the graph to display specific values.
 Click the cog icon will go to the [Scheduled Tasks](../scheduled_tasks) of LED.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/en/4/tutorials/system_overview/led.png){class="glboxshadow" width="60%"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

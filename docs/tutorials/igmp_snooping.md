@@ -7,3 +7,7 @@ IGMP Snooping listens to the IGMP protocol package, extracts the corresponding i
 **Note**: IGMPv3 is compatible with v1 and v2. Use v3 by default, and switch if you experience a problem.
 
 ![IGMP Snooping](https://static.gl-inet.com/docs/en/4/tutorials/igmp_snooping/igmp_snooping.png){class="glboxshadow" width="60%"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

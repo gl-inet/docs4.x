@@ -13,3 +13,7 @@ When **Prevent Weak Password** is turned on, the requirements for new passwords 
 - 5 characters and maximum 63 characters.
 - Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
 - At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

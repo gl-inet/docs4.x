@@ -11,3 +11,7 @@ It does not automatically synchronize the time zone and requires a click on the 
 After synchronization.
 
 ![time zone sync](https://static.gl-inet.com/docs/en/4/tutorials/time_zone/time_zone_sync.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

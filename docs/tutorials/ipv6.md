@@ -16,3 +16,7 @@ After enabled.
 
 - **Mode**. There are three modes, **NAT6**, **Native** and **Static IPv6**.
 - **DNS acquisition method**. It has two options. **Automic** and **Manual**.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

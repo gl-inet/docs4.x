@@ -7,3 +7,7 @@ MAC Clone is useful when you connect to a public hotspot but you do not want the
 You can clone to your current client's MAC or a random one.
 
 ![mac clone](https://static.gl-inet.com/docs/en/4/tutorials/mac_clone/mac_clone.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

@@ -674,3 +674,7 @@ Others:
     ![zoogvpn openvpn configuration files](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/zoogvpn/zoogvpn_openvpn_config_files.png)
 
     Then follow the [guide to setup OpenVPN Client on GL.iNet router](#setup-openvpn-client), the username and password are the same as the ones used to log into ZoogVPN website.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

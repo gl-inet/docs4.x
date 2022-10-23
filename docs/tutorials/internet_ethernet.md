@@ -29,3 +29,7 @@ There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
     **VLAN ID**: This settings entry is only required if the provider's PPPoE server requires the interface to use a tagged specific VLAN ID.
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_pppoe.png){class="glboxshadow" width="58%"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

@@ -21,3 +21,7 @@ You can configure the WAN port of the router so that it can be used as a LAN por
 	![using as lan](https://static.gl-inet.com/docs/en/4/tutorials/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
 
 You can simply revert the setting by repeating the above procedures.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

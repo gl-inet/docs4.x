@@ -41,3 +41,7 @@ The **Defautl Gate Way** is **192.168.9.1**, If you have enable the Guest WiFi a
 You can just simply change the **Maximum Number of Users** to fit your need. Or click **Advanced** for more manually settings.
 
 ![lan page, guest network, advanced](https://static.gl-inet.com/docs/en/4/tutorials/lan/guest_network_advanced.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

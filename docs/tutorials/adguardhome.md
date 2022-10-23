@@ -11,3 +11,7 @@ When it starts, click **Setting Page** for advanced configuration.
 It will go to the AdGuard Home's own settings page. If you have any questions, please visit [Adguard Home Support Center](https://adguard.com/en/support.html){target="_blank"} for help.
 
 ![adguard home settings](https://static.gl-inet.com/docs/en/4/tutorials/adguardhome/adguardhome_settings.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

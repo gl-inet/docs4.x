@@ -31,3 +31,7 @@ There are two ways to reset the firmware.
 Video guide: How to Reset GL.iNet Router to Factory Default
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ON6PtGH_HJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

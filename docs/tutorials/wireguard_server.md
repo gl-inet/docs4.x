@@ -84,3 +84,7 @@ There are several common reasons cause failed:
 We can use another GL.iNet router as WireGuard Client, or use their official app on other devices with various OS.
 
 - Please refer to WireGuard Official Website: [https://www.wireguard.com/install](https://www.wireguard.com/install){target="_blank"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

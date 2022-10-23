@@ -488,3 +488,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
         ![download spider vpn configuration](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/spidervpn/spidervpn_config_2.jpg){class="glboxshadow"}
 
     3. Then follow the [guide](#setup-wireguard-client) to continue.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

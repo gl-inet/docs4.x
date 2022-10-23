@@ -19,3 +19,7 @@ Here is an example of GL-AXT1800.
 - Extender. Extend the Wi-Fi coverage of an existing wireless network.
 
 - WDS. Similar to Extender, please choose WDS if your main router supports WDS mode.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

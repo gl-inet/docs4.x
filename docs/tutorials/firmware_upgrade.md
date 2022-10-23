@@ -23,3 +23,7 @@ Click **Install** to upgrade.
 **Note:** Please keep the power on during the upgrade.
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/en/4/tutorials/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

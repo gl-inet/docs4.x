@@ -43,3 +43,7 @@ There are four modes.
 Requests from clients will be resolved preferentially using the static DNS rules you write in Hosts.
 
 ![hosts](https://static.gl-inet.com/docs/en/4/tutorials/dns/edit_hosts.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

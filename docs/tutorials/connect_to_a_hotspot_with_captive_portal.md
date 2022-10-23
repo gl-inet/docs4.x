@@ -64,3 +64,6 @@ Sometimes, [Solution 1](#solution-1change-dns-settings) is not enough to solve t
 
 Some hotel's network has a very strict verification policy. Neither solution 1 nor 2 is unable to make it work, then you can consult with the hotel staff if they can add the router's MAC address(the Factory default one) to their "Whitelist" directly.
 
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

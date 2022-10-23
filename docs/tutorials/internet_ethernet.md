@@ -26,4 +26,6 @@ There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
 
     PPPoE is required by many Internet Service Providers (ISP). Generally, your ISP will give you a modem and provide you a username & password that you needed when you are creating the Internet connection.
 
-    ![ethernet pppoe](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_pppoe.png){class="glboxshadow"}
+    **VLAN ID**: This settings entry is only required if the provider's PPPoE server requires the interface to use a tagged specific VLAN ID.
+
+    ![ethernet pppoe](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_pppoe.png){class="glboxshadow" width="58%"}

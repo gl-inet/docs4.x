@@ -69,6 +69,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [Network Mode](network_mode)
 * [IPv6](ipv6)
 * [MAC Clone](mac_clone)
+* [IGMP Snooping](igmp_snooping), to use the multicast function on the router.
 * [Hardware Acceleration](hardware_acceleration)
 
 ## System

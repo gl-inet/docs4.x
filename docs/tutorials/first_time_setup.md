@@ -60,3 +60,7 @@ There is a video guide.
     * [Connect to the Internet via an existing Wi-Fi](../internet_repeater)
     * [Connect to the Internet via usb tethering](../internet_tethering)
     * [Connect to the Internet via usb modem](../internet_cellular)
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

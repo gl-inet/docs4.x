@@ -19,3 +19,7 @@ Please refer to the following links for a step to step setup guide:
 
 - [**Setup WireGuard Client**](../../../tutorials/wireguard_client/)
 - [**Setup WireGuard Server**](../../../tutorials/wireguard_server/)
+
+## Tor
+
+- [**Tor**](../../../tutorials/tor/)

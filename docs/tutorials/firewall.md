@@ -63,3 +63,7 @@ DMZ lets you to expose one computer to the Internet, so all inbound packets will
 Toggle on **Enable DMZ**. Select the internal IP address of your device which is going to receive all the inbound packets.
 
 ![Port Forwards](https://static.gl-inet.com/docs/en/4/tutorials/firewall/dmz.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

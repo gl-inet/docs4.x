@@ -25,3 +25,7 @@ Click **Action** to disable limiting.
 ## Remove offline clients
 
 For offline clients, click **Action** can remove this client as well.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

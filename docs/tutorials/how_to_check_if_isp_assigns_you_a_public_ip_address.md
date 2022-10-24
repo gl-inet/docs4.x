@@ -25,3 +25,7 @@ Check the two IP address below to see if they are the same, otherwise not.
 If the main router is GL.iNet router, the WAN IP address is the `IP Address` on the Internet page.
 
 ![is public ip address](https://static.gl-inet.com/docs/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/is_public_ip_address.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

@@ -17,3 +17,7 @@ On the left side of web Admin Panel -> WIRELESS
 ![guest wifi 5g](https://static.gl-inet.com/docs/en/4/tutorials/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
 ![guest wifi 2.4g](https://static.gl-inet.com/docs/en/4/tutorials/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

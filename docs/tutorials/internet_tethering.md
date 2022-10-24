@@ -33,3 +33,7 @@ Using a USB cable to share network from your smartphone to the router is called 
     For Android phone tethering, the procedure is similar to iPhone. Connect it to the USB port of the router, it may pop up a dialog ask **Use USB for**, choose **File Transfer/Android Audio**, then check Settings -> Personal hotspot -> Usb network sharing.
 
     For the Android official documentation for refer [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

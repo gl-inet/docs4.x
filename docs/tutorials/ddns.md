@@ -95,3 +95,7 @@ Your SSH command should like below.
 or 
 
 `ssh root@xxxxxxx.glddns.com:YourExternalPort`
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

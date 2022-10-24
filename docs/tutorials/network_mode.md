@@ -1,6 +1,6 @@
 # Network Mode
 
-On the left side of web Admin Panel -> MORE SETTINGS -> Network Mode
+On the left side of web Admin Panel -> NETWORK -> Network Mode
 
 When you change the router’s network mode, you may need to re-connect all your client devices.
 
@@ -19,3 +19,7 @@ Here is an example of GL-AXT1800.
 - Extender. Extend the Wi-Fi coverage of an existing wireless network.
 
 - WDS. Similar to Extender, please choose WDS if your main router supports WDS mode.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

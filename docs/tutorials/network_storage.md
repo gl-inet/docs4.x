@@ -14,7 +14,7 @@
 
 Some GL.iNet models support TF card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDAV, DLNA on this page for the disk.
 
-The supported disk formats are NTFS, exFAT, FAT32, Ext3, Ext4.
+The supported disk formats are NTFS, FAT32.
 
 ## Insert storage device
 
@@ -321,3 +321,7 @@ Connect your smart TV to the router, it will find the DLNA Server.
     Click **Done** button to complete this setup.
 
     ![documents WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/documents_4_webdav.png){class="glboxshadow" width="560"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

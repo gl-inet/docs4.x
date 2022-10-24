@@ -20,7 +20,7 @@ There are two ways to reset the firmware.
 
     If you can access the web Admin Panel, you can reset firmware to factory.
 
-    On the left side of web Admin Panel -> MORE SETTINGS -> Reset Firmware
+    On the left side of web Admin Panel -> SYSTEM -> Reset Firmware
 
     **Note:** All your current settings, applications and data will be lost. The process will take about 3 minutes. DO NOT power off the router during this process.
 
@@ -31,3 +31,7 @@ There are two ways to reset the firmware.
 Video guide: How to Reset GL.iNet Router to Factory Default
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ON6PtGH_HJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

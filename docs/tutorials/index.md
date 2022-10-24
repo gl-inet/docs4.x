@@ -24,7 +24,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [How to connect to the Internet via usb tethering](internet_tethering).
 * [How to connect to the Internet via usb modem](internet_cellular).
 * [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection)
-* [Connect to a Hotspot with Captive Portal](connect_to_a_hotspot_with_captive_portal)
+* [Connect to a Hotspot with Captive Portal](connect_to_a_hotspot_with_captive_portal).
 * [DHCP](dhcp)
 * [PPPoE](pppoe)
 * [How to set static WAN IP?](how_to_set_static_wan_ip)
@@ -36,17 +36,6 @@ Learn how to use our devices and add-on features with our step to step guides an
 ## Clients
 
 * [Clients](clients)
-
-## Upgrade
-
-* [Firmware upgrade](firmware_upgrade)
-* [Where to download official firmware?](where_to_download_firmware)
-* [How to upgrade GL-AX1800(Flint) to firmware 4.x?](gl-ax1800_upgrade_to_4)
-* [How to downgrade GL-AX1800(Flint) to firmware 3.x?](gl-ax1800_upgrade_to_4/#downgrade)
-
-## Firewall
-
-* [Firewall](firewall).
 
 ## VPN
 
@@ -61,26 +50,41 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [How to setup Mullvad VPN on router?](wireguard_client#setup-mullvad)
 * [How to let all data go through VPN?](block_no_vpn_traffic)
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp)
+* [VPN Cascading](vpn_cascading)
+* [Tor](tor), to protect the personal privacy.
 
 ## Applications
 
 * [plug-ins](plugins)
 * [DDNS](ddns). Overcome the issues related to Dynamic IP Addresses.
 * [GoodCloud](cloud), the official cloud service.
-* [AdGuardHome](adguardhome)
+* [AdGuard Home](adguardhome)
 * [Network Storage](network_storage)
-* [Log](log)
 
-## More settings
+## Network
 
-* [Change admin password](admin_password)
+* [Firewall](firewall).
+* [Multi-WAN](multi-wan), failover to another Internet access method or use multiple interfaces at the same time to increase the total bandwidth.
 * [LAN](lan)
-* [Time Zone](time_zone)
-* [MAC Clone](mac_clone)
 * [DNS](dns)
 * [Network Mode](network_mode)
 * [IPv6](ipv6)
+* [MAC Clone](mac_clone)
+* [IGMP Snooping](igmp_snooping), to use the multicast function on the router.
+* [Hardware Acceleration](hardware_acceleration)
+
+## System
+
+* Upgrade
+    * [Firmware upgrade](firmware_upgrade)
+    * [Where to download official firmware?](where_to_download_firmware)
+    * [How to upgrade GL-AX1800(Flint) to firmware 4.x?](gl-ax1800_upgrade_to_4)
+    * [How to downgrade GL-AX1800(Flint) to firmware 3.x?](gl-ax1800_upgrade_to_4/#downgrade)
+* [Scheduled Tasks](scheduled_tasks), set scheduled LED display, reboot and Wi-Fi status.
+* [Change admin password](admin_password)
+* [Time Zone](time_zone)
 * [Toggle Button Settings](toggle_button_settings)
+* [Log](log)
 * [Reset Firmware](reset_firmware)
 * [Advanced Settings](advanced_settings)
 

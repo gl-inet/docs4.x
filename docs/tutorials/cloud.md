@@ -504,3 +504,7 @@ To stop GoodCloud service, turn it off on router web Admin Panel. Please follow 
 After disable Cloud, the interface is like below.
 
 ![after disable cloud](https://static.gl-inet.com/docs/en/4/tutorials/cloud/after_turn_off_cloud.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

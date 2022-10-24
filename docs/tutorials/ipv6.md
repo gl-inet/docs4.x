@@ -1,6 +1,6 @@
 # IPv6
 
-On the left side of web Admin Panel -> MORE SETTINGS -> IPv6
+On the left side of web Admin Panel -> NETWORK -> IPv6
 
 The IPv6 function allows you to enable and configure IPv6 on router.
 
@@ -16,3 +16,7 @@ After enabled.
 
 - **Mode**. There are three modes, **NAT6**, **Native** and **Static IPv6**.
 - **DNS acquisition method**. It has two options. **Automic** and **Manual**.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

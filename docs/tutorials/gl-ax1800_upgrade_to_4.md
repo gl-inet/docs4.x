@@ -31,3 +31,7 @@ There are two ways to upgrade to firmware 4.x. The first method is recommended, 
 1. Please download the latest 3.x release firmware [here](https://dl.gl-inet.com/?model=ax1800){target="_blank"}
 
 2. Please flash the firmware by [Uboot](../debrick/).
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

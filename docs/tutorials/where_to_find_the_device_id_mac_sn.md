@@ -17,3 +17,7 @@ For older models, you can't find the Device ID, but you can find the DDNS, in fa
 Login to the web Admin Panel, you can find them on the left side -> APPLICATION -> GoodCloud.
 
 ![goodcloud page](https://static.gl-inet.com/docs/en/4/tutorials/where_to_find_the_device_id_mac_sn/goodcloud_page_device_id.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

@@ -75,6 +75,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 
 ## System
 
+* [System Overview](system_overview), displays some hardwares status and system info.
 * Upgrade
     * [Firmware upgrade](firmware_upgrade)
     * [Where to download official firmware?](where_to_download_firmware)

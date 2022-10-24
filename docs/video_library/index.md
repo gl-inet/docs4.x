@@ -8,7 +8,7 @@ An Introduction to our future products, and a glimpse into our latest developmen
 
 Meet Brume 2 - Security Gateway for Remote Access
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=9czDvi2irME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9czDvi2irME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### GL-MV1000/Brume
 

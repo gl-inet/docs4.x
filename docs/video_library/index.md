@@ -4,6 +4,12 @@
 
 An Introduction to our future products, and a glimpse into our latest development.
 
+### GL-MT2500/GL-MT2500A(Brume 2)
+
+Meet Brume 2 - Security Gateway for Remote Access
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=9czDvi2irME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### GL-MV1000/Brume
 
 Meet Brume - Edge Computing Gateway for Highly Secure and Reliable Infrastructure

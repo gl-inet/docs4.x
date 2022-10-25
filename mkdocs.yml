@@ -146,6 +146,7 @@ nav:
       - OpenVPN Client: tutorials/openvpn_client.md
       - WireGuard Client: tutorials/wireguard_client.md
     - Internet Connection:
+      - Internet: tutorials/internet.md
       - Ethernet: tutorials/internet_ethernet.md
       - Repeater: tutorials/internet_repeater.md
       - Tethering: tutorials/internet_tethering.md

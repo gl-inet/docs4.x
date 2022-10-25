@@ -19,6 +19,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 
 ## Internet Connection
 
+* [The Internet Page](internet)
 * [How to connect to the Internet via an ethernet cable](internet_ethernet).
 * [How to connect to the Internet via Repeater](internet_repeater).
 * [How to connect to the Internet via usb tethering](internet_tethering).

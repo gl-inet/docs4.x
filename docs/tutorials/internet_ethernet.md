@@ -30,10 +30,21 @@ There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_pppoe.png){class="glboxshadow" width="58%"}
 
+## Warning
+
+When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](../multi-wan) page.
+
+- Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
+
+    ![ethernet wrning](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_warning.png){class="glboxshadow" width="60%"}
+
+    Solution: Please check if the upstream device of Ethernet has internet access.
+
 ---
 
 Related Articles
 
+- [Internet page](../internet)
 - [How to set the priority of each Internet access method?](../multi-wan/)
 - [How to set the load balance when multiple Internet access methods are used at the same time?](../multi-wan/)
 

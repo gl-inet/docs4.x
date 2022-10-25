@@ -66,7 +66,7 @@ On the **Known Network** sector, click trash icon to delete a known network, cli
 
 ## Join other network
 
-![](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
+![join other network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
 
 ## Reconnection
 
@@ -88,10 +88,21 @@ It can be divided into three phases, the waiting phase, the scanning phase, and 
 
 3. In the connecting phase, the Main Wi-Fi on the corresponding band may be disconnected for a few seconds.
 
+## Warning
+
+When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](../multi-wan) page.
+
+- Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
+
+    ![repeater wrning](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_warning.png){class="glboxshadow" width="60%"}
+
+    Solution: Please check if the upstream device of Repeater has internet access.
+
 ---
 
 Related Articles
 
+- [Internet page](../internet)
 - [How to set the priority of each Internet access method?](../multi-wan/)
 - [How to set the load balance when multiple Internet access methods are used at the same time?](../multi-wan/)
 

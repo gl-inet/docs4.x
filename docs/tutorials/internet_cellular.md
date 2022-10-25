@@ -63,10 +63,18 @@ Here is a list of supported modems that we had tested before.
 
 You can also search on the [forum](https://forum.gl-inet.com){target="_blank"} or create a post for asking.
 
+## Warning
+
+When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](../multi-wan) page.
+
+- Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
+
+    Solution: Please check if the sim card has internet access in a smart phone.
+
 ---
 
 Related Articles
-
+- [Internet page](../internet)
 - [How to set the priority of each Internet access method?](../multi-wan/)
 - [How to set the load balance when multiple Internet access methods are used at the same time?](../multi-wan/)
 

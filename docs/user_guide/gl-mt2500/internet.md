@@ -30,3 +30,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 [Click here to learn how to connect to the internet via usb modem](../../../tutorials/internet_cellular)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
+
+## Priority and load balance
+
+Go to [Multi-WAN](../../../tutorials/multi-wan/) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.

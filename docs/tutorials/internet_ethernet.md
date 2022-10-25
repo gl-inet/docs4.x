@@ -32,4 +32,11 @@ There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
 
 ---
 
+Related Articles
+
+- [How to set the priority of each Internet access method?](../multi-wan/)
+- [How to set the load balance when multiple Internet access methods are used at the same time?](../multi-wan/)
+
+---
+
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

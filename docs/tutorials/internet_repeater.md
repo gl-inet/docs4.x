@@ -90,4 +90,11 @@ It can be divided into three phases, the waiting phase, the scanning phase, and 
 
 ---
 
+Related Articles
+
+- [How to set the priority of each Internet access method?](../multi-wan/)
+- [How to set the load balance when multiple Internet access methods are used at the same time?](../multi-wan/)
+
+---
+
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

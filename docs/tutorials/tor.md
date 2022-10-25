@@ -7,7 +7,9 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
   - VPN
   - DNS
   - IPv6
-  - ADGuard Home. 
+  - ADGuard Home.
+
+Supported Models: GL-AXT1800
 
 Just toggle to enable it, then click **Apply** button. You can also choose a **Custom Exit Nodes**.
 

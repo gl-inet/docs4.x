@@ -28,6 +28,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [DHCP](dhcp)
 * [PPPoE](pppoe)
 * [How to set static WAN IP?](how_to_set_static_wan_ip)
+* [SMS Forwarding](sms_forwarding), forward SMS messages from router to mobile phone and email.
 
 ## Wireless
 

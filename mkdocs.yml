@@ -154,7 +154,7 @@ nav:
       - DHCP: tutorials/dhcp.md
       - PPPoE: tutorials/pppoe.md
       - Produce a wired connection: tutorials/produce_a_wired_connection.md
-      - Drop-in gateway: tutorials/drop-in_gateway.md
+      - SMS Forwarding: tutorials/sms_forwarding.md
     - Wireless:
       - Wireless: tutorials/wireless.md
     - Clients:

@@ -14,6 +14,8 @@ DDNS update frequency is once every 10 minutes.
 
 ![enable ddns](https://static.gl-inet.com/docs/en/4/tutorials/ddns/enable_ddns.png){class="glboxshadow"}
 
+**Note**: If you using DDNS and VPN Client at the same time, please make sure to enable **Services From GL.iNet Doesn't Use VPN** in [Global Option of VPN Client](../vpn_dashboard#global-options-of-vpn-client).
+
 ## Check if DDNS is in effect
 
 === "Using the DDNS Test tool"

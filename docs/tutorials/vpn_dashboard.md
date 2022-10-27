@@ -12,6 +12,34 @@ In the beginning, there is no configuration available for OpenVPN and WireGuard,
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_client_set_up_now.png){class="glboxshadow"}
 
+Once the configuration is complete, you can select the configuration file in the Configuration file column.
+
+![glinet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_client_configuration_file.png){class="glboxshadow"}
+
+### VPN Clinet Options
+
+Click the cog icon of OpenVPN or WireGuard.
+
+![glinet vpn dashboard, vpn client options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_client_options.png){class="glboxshadow" width="90%"}
+
+OpenVPN client options.
+
+![glinet vpn dashboard, openvpn client options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_client_options.png){class="glboxshadow" width="55%"}
+
+WireGuard client options.
+
+![glinet vpn dashboard, wireguard client options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_client_options.png){class="glboxshadow" width="55%"}
+
+* Allow Remote Access LAN, if this option is enabled, the devices connected under the router is allowed to access the LAN on the VPN Server side, which also requires the appropriate settings on the VPN Server side.
+
+    For example, in the image below, if this option is enabled, if means *Your Device* is allowed to access the *NAS*, but still needs the *VPN Server* to allow you to access the NAS within its subnet.
+
+    ![allow remote access LAN](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/allow_remote_access_lan_diagram.png){class="glboxshadow" width="55%"}
+
+* IP Masquerading. If this option is enabled, When clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
+
+* MTU. Stands for maximum transmission unit. The MTU you set for the instance will overwrite the MTU item in the configuration file.
+
 ### Proxy mode
 
 ![vpn proxy](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_proxy.png){class="glboxshadow"}
@@ -76,7 +104,7 @@ Click **Global Options** will popup a global options dialog.
 
     If this option is enabled, while VPN is connected, client devices will still be able to access WAN, e.g. accessing your printer, NAS etc in upper subnet.
 
-    ![vpn dashboard allow acdess wan diagram](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.png){class="glboxshadow" width="80%"}
+    ![vpn dashboard allow acdess wan diagram](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.jpg){class="glboxshadow" width="70%"}
 
     As shown above, if this feature is turned on, your device will have access to devices in the upstream subnet, such as printer and NAS.
 
@@ -129,6 +157,14 @@ Click the network icon of WireGuard server.
 In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the encrypted tunnel provided by the VPN when accessing any network segment is determined by the routing rules you manually set.
 
 ![wireguard server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_route_rule.png){class="glboxshadow"}
+
+### Global Options of VPN Server
+
+![Global Options of VPN Server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options_of_vpn_server_1.png){class="glboxshadow" width="80%"}
+
+![Global Options of VPN Server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options_of_vpn_server_2.png){class="glboxshadow" width="60%"}
+
+- **VPN Cascading**, If this option is enabled, when you have both VPN server and VPN Client running on this router, clients connected to the VPN server will further be routed to the VPN client tunnel. [Learn more about VPN Cascading](../vpn_cascading).
 
 ---
 

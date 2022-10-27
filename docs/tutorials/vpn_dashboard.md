@@ -50,7 +50,9 @@ As the above figure, the current proxy mode is Global Proxy, click Global Proxy 
 
 Click **Global Options** will popup a global options dialog.
 
-![global options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options.png){class="glboxshadow"}
+![global options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options_of_vpn_client_1.png){class="glboxshadow"}
+
+![global options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options_of_vpn_client_2.png){class="glboxshadow"}
 
 1. Block Non-VPN Traffic
 
@@ -84,7 +86,7 @@ Click **Global Options** will popup a global options dialog.
 
     If this option is enabled, services on routers that usually require the use of a real IP will not use VPN. Including GoodCloud, DDNS, rtty.
 
-    The main purpose of this is to use VPN Client and [GoodCloud](../cloud) / [DDNS](../ddns) at the same time. It is recommended to turn on this option if you want to use GoodCloud, otherwise the stability of GoodCloud will be affected by the VPN status. If you want to use DDNS, you must turn on this option, otherwise DDNS will point to the IP address of VPN Server.
+    The main purpose of this is to use VPN Client and [GoodCloud](../cloud) / [DDNS](../ddns) at the same time. It is recommended to turn on this option if you want to use GoodCloud, otherwise the stability of GoodCloud will be affected by the VPN status. If you want to use DDNS, you must turn on this option, otherwise DDNS will point to the IP address of the VPN Server.
 
 ## VPN Server
 

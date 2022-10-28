@@ -30,15 +30,21 @@ WireGuard client options.
 
 ![glinet vpn dashboard, wireguard client options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_client_options.png){class="glboxshadow" width="55%"}
 
-* Allow Remote Access LAN, if this option is enabled, the devices connected under the router is allowed to access the LAN on the VPN Server side, which also requires the appropriate settings on the VPN Server side.
+* Allow Remote Access LAN
+
+    If this option is enabled, the devices connected under the router is allowed to access the LAN on the VPN Server side, which also requires the appropriate settings on the VPN Server side.
 
     For example, in the image below, if this option is enabled, if means *Your Device* is allowed to access the *NAS*, but still needs the *VPN Server* to allow you to access the NAS within its subnet.
 
     ![allow remote access LAN](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/allow_remote_access_lan_diagram.png){class="glboxshadow" width="55%"}
 
-* IP Masquerading. If this option is enabled, When clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
+* IP Masquerading
 
-* MTU. Stands for maximum transmission unit. The MTU you set for the instance will overwrite the MTU item in the configuration file.
+    If this option is enabled, When clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
+
+* MTU
+
+    Stands for maximum transmission unit. The MTU you set for the instance will overwrite the MTU item in the configuration file.
 
 ### Proxy mode
 
@@ -118,23 +124,39 @@ Click **Global Options** will popup a global options dialog.
 
 ## VPN Server
 
-![vpn dashboard vpn server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server.png){class="glboxshadow"}
+In the beginning, both VPN Server are not initialized yet, please click **Set Up Now**, it will go to the [OpenVPN Server](../openvpn_server) and [WireGuard Server](../wireguard_server) pages respectively.
+
+![vpn dashboard vpn server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server.png){class="glboxshadow" width="80%"}
+
+After the OpenVPN Server and WireGuard Server are started.
+
+![vpn dashboard vpn server started](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server_started.png){class="glboxshadow" width="80%"}
 
 ### OpenVPN Server Options
 
 Click the cog icon of OpenVPN server.
 
+![openvpn server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_options_btn.png){class="glboxshadow" width="80%"}
+
 ![openvpn server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_options.png){class="glboxshadow"}
 
-* **Allow Remote Access LAN:** If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel.
+* **Allow Remote Access LAN**
 
-* **IP Masquerading:** If this option is enabled, when clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
+    If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel.
 
-* **MTU:** The MTU you set for the instance will overwrite the MTU item in the configuration file.
+* **IP Masquerading**
+
+    If this option is enabled, when clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
+
+* **MTU**
+
+    The MTU you set for the instance will overwrite the MTU item in the configuration file.
 
 ### OpenVPN Server Route Rule
 
 Click the network icon of OpenVPN server.
+
+![openvpn server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_route_rule_btn.png){class="glboxshadow" width="80%"}
 
 In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the encrypted tunnel provided by the VPN when accessing any network segment is determined by the routing rules you manually set.
 
@@ -142,17 +164,29 @@ In customize routes mode, the VPN client will ignore the configuration file and 
 
 ### WireGuard Server Options
 
+Click the cog icon of WireGuard server.
+
+![wireguard server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_options_btn.png){class="glboxshadow" width="80%"}
+
 ![wireguard server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_options.png){class="glboxshadow"}
 
-* **Allow Remote Access LAN:** If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel.
+* **Allow Remote Access LAN**
 
-* **IP Masquerading:** If this option is enabled, when clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
+    If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel.
 
-* **MTU:** The MTU you set for the instance will overwrite the MTU item in the configuration file.
+* **IP Masquerading**
+
+    If this option is enabled, when clients devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
+
+* **MTU**
+
+    The MTU you set for the instance will overwrite the MTU item in the configuration file.
 
 ### WireGuard Server Route Rule
 
 Click the network icon of WireGuard server.
+
+![wireguard server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_route_rule_btn.png){class="glboxshadow" width="80%"}
 
 In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the encrypted tunnel provided by the VPN when accessing any network segment is determined by the routing rules you manually set.
 

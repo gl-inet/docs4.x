@@ -18,7 +18,7 @@ The following figure has OpenVPN and Wireguard servers enabled on the router. An
 
 ![gl.inet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_cascading/vpn_dashboard.png){class="glboxshadow"}
 
-You can enable VPN cascading in “Global Options” in VPN server section.
+You can enable VPN cascading in **Global Options** in VPN server section.
 
 ![gl.inet enable vpn cascading](https://static.gl-inet.com/docs/en/4/tutorials/vpn_cascading/enable_vpn_cascading.png){class="glboxshadow" width="50%" height="50%"}
 

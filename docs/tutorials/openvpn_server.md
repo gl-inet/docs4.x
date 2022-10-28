@@ -1,4 +1,4 @@
-# Setup OpenVPN Server on GL.iNet router
+# Set Up OpenVPN Server on GL.iNet Router
 
 OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
 

@@ -2,8 +2,6 @@
 
 OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
 
-GL.iNet routers have pre-installed OpenVPN Client and Server.
-
 We recommend WireGuard over OpenVPN because it is much faster. For setup a WireGuard Server, please check out [here](../wireguard_server).
 
 ---

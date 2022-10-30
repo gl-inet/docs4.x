@@ -1,20 +1,20 @@
-# How to Setup WireGaurd Client on GL.iNet router
+# How to Set Up WireGaurd Client on GL.iNet Router
 
 WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/){target="_blank"}, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 
-GL.iNet routers have pre-installed WireGuard Client and Server.
-
 If you have already bought WireGuard service from a provider, but you don't know how to get the configuration files, please refer to [get configuration files from WireGuard service providers](#get-configuration-files-from-wireguard-service-providers) or ask its support.
 
-You can setup WireGuard Client via web Admin Panel and [mobile app](../mobile_app). For the mobile app, it has already integrated some WireGuard Service Providers, they are AzireVPN, Mullvad VPN, TorGuard VPN, OVPN, WeVPN, StrongVPN, PIA VPN, SpiderVPN.
+You can set up WireGuard Client via web Admin Panel or [mobile app](../mobile_app). For the mobile app, it has already integrated some WireGuard Service Providers, they are AzireVPN, Mullvad VPN, TorGuard VPN, OVPN, WeVPN, StrongVPN, PIA VPN.
 
-For setup via web Admin Panel, please follow the guide below.
+For set up via web Admin Panel, please follow the guide below.
 
-## Setup AzireVPN
+You can log in by clicking the **AzireVPN** or **Mullvad** button if you have a their membership, or by clicking **Add Manually** to upload the WireGuard profiles.
+
+![wireguard client no initialized](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/wireguard_client_no_initialized.png){class="glboxshadow" width="80%"}
+
+## Set Up AzireVPN
 
 [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} is privacy-minded VPN service providing secure, modern and robust tunnels such as WireGuard.
-
-Firmware 4.x has integrated AzireVPN WireGaurd service.
 
 ![azirevpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/azirevpn.png){class="glboxshadow"}
 
@@ -42,7 +42,7 @@ Firmware 4.x has integrated AzireVPN WireGaurd service.
 
     ![azirevpn edit credential](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/azirevpn_edit_credential.png){class="glboxshadow"}
 
-## Setup Mullvad
+## Set Up Mullvad
 
 [Mullvad](https://mullvad.net/){target="_blank"} is a VPN service that helps keep your online activity, identity, and location private.
 
@@ -82,47 +82,57 @@ Firmware 4.x has integrated Mullvad WireGaurd service.
 
     ![mullvad vpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/mullvad_edit_credential.png){class="glboxshadow"}
 
-## Setup WireGuard client
+## Set Up WireGuard Client
 
-As of frimware 4.0, it brings grouping to manage WireGuard profiles.
+As of firmware 4.0, it brings grouping to manage WireGuard profiles.
 
-1. Add a new group
+1. Click **Add Manually**.
 
-    ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_a_new_group.png){class="glboxshadow"}
+    ![add manually](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/wireguard_client_add_manually.png){class="glboxshadow" width="80%"}
 
-2. Give the group a descriptive name, e.g. azirevpn.
+2. It will create a group.
+
+    ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/add_a_new_group.png){class="glboxshadow"}
+
+3. Give the group a descriptive name, e.g. azirevpn. Then you can choose to upload configuration files or manually add configuration.
 
     ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/set_new_group_name.png){class="glboxshadow"}
 
-3. Upload your WireGuard configuration file, then input the credential, click **Apply**.
+    1. **Upload configuration files**
 
-    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/upload_profile.png){class="glboxshadow"}
+        Upload your WireGuard configuration file, click **Apply**.
 
-    ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/after_upload_profile.png){class="glboxshadow"}
+        ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/upload_profile.png){class="glboxshadow"}
 
-    **Manually Add Configuration** is for if you want to paste the WireGuard configuration or fill in each item.
+        ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/after_upload_profile.png){class="glboxshadow"}
 
-    ![add wireguard by text](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/manually_add_configuration.png){class="glboxshadow"}
+    2. **Manually Add Configuration**, it is for if you want to paste the WireGuard configuration or fill in each item.
 
-    Give a descriptive name and paste the configuration, click **Apply** to continue.
+        ![add wireguard by text](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/manually_add_configuration.png){class="glboxshadow"}
 
-    ![add wireguard by text](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_by_text.png){class="glboxshadow"}
+        Give a descriptive name and paste the configuration, click **Apply** to continue.
 
-    Or you can add configuration by fill in each item, click **Item Mode**.
+        ![add wireguard by text](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_by_text.png){class="glboxshadow"}
 
-    ![add wireguard by item mode](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_item_mode_1.png){class="glboxshadow"}
-    
-    ![add wireguard by item mode](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_item_mode_2.png){class="glboxshadow"}
+        Or you can add configuration by fill in each item, click **Item Mode**.
 
-4. Go to VPN Dashboard to enable the connection.
+        ![add wireguard by item mode](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_item_mode_1.png){class="glboxshadow"}
 
-    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_to_connect_azirevpn.png){class="glboxshadow"}
+        ![add wireguard by item mode](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_item_mode_2.png){class="glboxshadow"}
 
-## Setup WireGuard server on GL.iNet router
+4. Click the three dots icon to start / edit /delete the profile.
+
+    ![start the profile](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/start_the_profile.png){class="glboxshadow"}
+
+5. Check the connection status by go to [VPN Dashboard](../vpn_dashboard) page.
+
+    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_wireguard_status.png){class="glboxshadow"}
+
+## Set Up WireGuard Server on GL.iNet Router
 
 You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup WireGaurd server, please check out [here](../wireguard_server).
 
-## Get configuration files from WireGuard service providers
+## Get Configuration Files from WireGuard Service Providers
 
 <div id="azirevpn"></div>
 
@@ -488,6 +498,10 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
         ![download spider vpn configuration](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/spidervpn/spidervpn_config_2.jpg){class="glboxshadow"}
 
     3. Then follow the [guide](#setup-wireguard-client) to continue.
+
+---
+
+WireGuard® is a registered trademark of Jason A.Donenfeld.
 
 ---
 

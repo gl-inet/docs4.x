@@ -60,7 +60,7 @@ You can log in by clicking the **NordVPN** button if you have a NordVPN membersh
 
 ## Set Up OpenVPN Client
 
-As of frimware 4.0, it brings grouping to manage OpenVPN profiles. Please make sure all the profiles in the same group with the same credentials. For example, if you are ExpressVPN user, you can add a group named *expressvpn*, then upload all the ExpressVPN OpenVPN profiles you wanted to this group. For another OpenVPN service provider, please create another group.
+As of firmware 4.0, it brings grouping to manage OpenVPN profiles. Please make sure all the profiles in the same group with the same credentials. For example, if you are ExpressVPN user, you can add a group named *expressvpn*, then upload all the ExpressVPN OpenVPN profiles you wanted to this group. For another OpenVPN service provider, please create another group.
 
 Next steps, we will use ExpressVPN as an example.
 
@@ -82,7 +82,7 @@ Next steps, we will use ExpressVPN as an example.
 
     ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/after_upload_profile.png){class="glboxshadow"}
 
-5. Click the three dots icon to start the connection with the profile.
+5. Click the three dots icon to start / delete the profile.
 
     ![start the profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/start_the_profile.png){class="glboxshadow"}
 

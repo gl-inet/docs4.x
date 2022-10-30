@@ -48,7 +48,7 @@ When a disk is found.
 
     ![samba quick setup share, add a user](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow" width="72%"}
 
-4. Click the triangel icon to show all folders, select a folder for sharing. Then click **Next**.
+4. Click the triangel icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
 
     ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow" width="72%"}
 
@@ -88,7 +88,7 @@ When a disk is found.
 
     ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow" width="72%"}
 
-4. Click the triangel icon to show all folders, select a folder for sharing. Then click **Next**.
+4. Click the triangel icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
 
     ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow" width="72%"}
 

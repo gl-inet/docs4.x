@@ -2,7 +2,7 @@
 
 Hardware acceleration reduces CPU load and speeds up traffic packet forwarding, but can conflict with some features.
 
-When hardware acceleration is enabled, the following functions will not work properly: Port Forwards, Client Speed and Traffic Statistics, VPN Policy(Global Options and Proxy Mode).
+When hardware acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics.
 
 The following models have this option.
 

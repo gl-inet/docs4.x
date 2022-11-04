@@ -64,9 +64,21 @@ On the **Known Network** sector, click trash icon to delete a known network, cli
 
 ![repeater known network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_known_networks.png){class="glboxshadow"}
 
-## Join other network
+## Join Other Network
+
+If the SSID is not in the Available Network list, or if the SSID is hidden, you can click **Join Other Network**.
+
+![join other network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/join_other_network.png){class="glboxshadow" width="60%"}
 
 ![join other network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
+
+Input the SSID, for **Security**, It has the following three options.
+
+* None, it doesn't need password.
+* WPA/WPA2/WPA3
+* WPA/WPA2/WPA3 Enterprise, for Extensible Authentication Protocol (EAP), it requires a username and password for authentication.
+
+    ![join other network, eap](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/join_other_network_eap.png){class="glboxshadow" width="60%"}
 
 ## Reconnection
 

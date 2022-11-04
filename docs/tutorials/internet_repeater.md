@@ -66,7 +66,7 @@ On the **Known Network** sector, click trash icon to delete a known network, cli
 
 ## Join Other Network
 
-If the SSID is not in the Available Network list, or if the SSID is hidden, you can click **Join Other Network**.
+If the SSID is not in the Available Networks list, or if the SSID is hidden, you can click **Join Other Network**.
 
 ![join other network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/join_other_network.png){class="glboxshadow" width="60%"}
 

@@ -2,9 +2,9 @@
 
 Hardware acceleration reduces CPU load and speeds up traffic packet forwarding, but can conflict with some features.
 
-When hardware acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics.
+When hardware acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics, Client Speed Limit.
 
-The following models have this option.
+The following models have this option:
 
 GL-MT2500, GL-MT2500A, GL-MT1300
 

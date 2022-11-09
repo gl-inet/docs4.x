@@ -110,6 +110,14 @@ When Internet access is not available, the corresponding warning is displayed. T
 
     Solution: Please check if the upstream device of Repeater has internet access.
 
+## DFS
+
+When Repeater to a upstream 5G WiFi, the router WiFi will fellow the upstream WiFi to use or not use the DFS channel.
+
+* If the upstream WiFi uses a DFS channel and is scannable, the router's 5G WiFi will use the same channel.
+
+* The router's 5G WiFi will switch to the non-DFS channel if the upstream WiFi is not scannable or if the connection fails.
+
 ---
 
 Related Articles

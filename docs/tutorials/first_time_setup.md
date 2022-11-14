@@ -1,6 +1,13 @@
 # First time setup
 
-The first setup of the GL.iNet router is very similar, here is the example of GL-AXT1800(Slate AX).
+The first time setup of the GL.iNet router is very similar. Most of the models have Wi-Fi module, some models do not have Wi-Fi module, the following is divided into two cases according to the availability of Wi-Fi module.
+
+* [For models that have Wi-Fi](#for-models-that-have-wi-fi)
+* [For models that don't have Wi-Fi](#for-models-that-dont-have-wi-fi)
+
+## For models that have Wi-Fi
+
+Here is an example of GL-AXT1800 (Slate AX).
 
 Please prepare the following items that included in the package.
 
@@ -52,12 +59,60 @@ There is a video guide.
 
     After the initial setup, you will enter the web Admin Panel of the router.
 
-    ![admin panel](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel.png){class="glboxshadow"}
+    ![admin panel of gl-axt1800](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel_gl-axt1800.png){class="glboxshadow"}
 
 4. Connect to the Internet
 
     * [Connect to the Internet via an ethernet cable](../internet_ethernet)
     * [Connect to the Internet via an existing Wi-Fi](../internet_repeater)
+    * [Connect to the Internet via usb tethering](../internet_tethering)
+    * [Connect to the Internet via usb modem](../internet_cellular)
+
+## For models that don't have Wi-Fi
+
+Here is an example of GL-MT2500A (Brume 2).
+
+1. Power on
+
+    Plug one end of the power adapter into the router and the other end into an outlet. It will automatically power on.
+
+2. Connect to the router
+
+    You can connect to router via an ethernet cable or via Wi-Fi.
+
+    * Connect via cable
+
+        Connect your computer to the LAN port of the router via Ethernet cable.
+
+    * Connect via Wi-Fi by another router
+
+        As GL-MT2500A doesn't have a build-in Wi-Fi module, we can use another router to initialize the GL-MT2500.
+
+        * Method 1, the second router is set to AP(Access Point) mode, then connect the LAN port of GL-MT2500A to the WAN port of the second router.
+
+        * Method 2, the second router is default router mode, but with a different router IP address that is not conflict with 192.168.8.1/24, e.g., 192.168.10.1, then connect the LAN port of GL-MT2500A to the WAN port of the second router.
+
+        Use your computer or smartphone to connect to the Wi-Fi of the second router.
+
+3. Access the web Admin Panel
+
+    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel.
+
+    Choose a language, and click **Next** to continue.
+
+    ![Admin Panel](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel_first_time_login_gl-mt2500.png){class="glboxshadow"}
+
+    Set up admin password, we recommend using a strong password. Click **Submit** to continue.
+
+    ![set up admin password](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/set_up_your_admin_password_gl-mt2500.png){class="glboxshadow"}
+
+    After the initial setup, you will enter the web Admin Panel of the router.
+
+    ![admin panel of gl-mt2500](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel_gl-mt2500.png){class="glboxshadow"}
+
+4. Connect to the Internet
+
+    * [Connect to the Internet via an ethernet cable](../internet_ethernet)
     * [Connect to the Internet via usb tethering](../internet_tethering)
     * [Connect to the Internet via usb modem](../internet_cellular)
 

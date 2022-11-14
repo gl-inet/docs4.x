@@ -2,11 +2,11 @@
 
 On the left side of web Admin Panel -> NETWORK -> Network Mode
 
-When you change the router’s network mode, you may need to re-connect all your client devices.
+When you change the router's network mode, you may need to re-connect all your client devices.
 
 When you use Access Point/Extender/WDS mode, you may not connect to the web Admin Panel again. Try to access the web Admin Panel by the IP address that parent router assigned to this router. Or you can Press and hold the reset button for 4 seconds to revert to Router mode.
 
-## For models that have WiFi
+## For models that have Wi-Fi
 
 Here is an example of GL-AXT1800.
 
@@ -22,7 +22,7 @@ Here is an example of GL-AXT1800.
 
 - **WDS**. Similar to Extender, please choose WDS if your main router supports WDS mode.
 
-## For models that don't have WiFi
+## For models that don't have Wi-Fi
 
 Here is an example of GL-MT2500/GL-MT2500A. It doesn't have Access Point, Extender, WDS, modes, but it has Bridge mode.
 

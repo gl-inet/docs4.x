@@ -45,7 +45,7 @@ There is a video guide.
 
 3. Access the web Admin Panel
 
-    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel.
+    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. If can't access the web Admin Panel, please check [here](../cannot_access_web_admin_panel).
 
     Choose a language, and click **Next** to continue.
 
@@ -96,7 +96,7 @@ Here is an example of GL-MT2500A (Brume 2).
 
 3. Access the web Admin Panel
 
-    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel.
+    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. If can't access the web Admin Panel, please check [here](../cannot_access_web_admin_panel).
 
     Choose a language, and click **Next** to continue.
 

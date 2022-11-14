@@ -197,6 +197,7 @@ nav:
       - Reset Firmware: tutorials/reset_firmware.md
       - Advanced Settings: tutorials/advanced_settings.md
     - Troubleshooting:
+      - Can't access web Admin Panel: tutorials/cannot_access_web_admin_panel.md
       - Debrick via Uboot: tutorials/debrick.md
       - Repair or Reset: tutorials/repair_network_or_reset_firmware.md
     - Other:

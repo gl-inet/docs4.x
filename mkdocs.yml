@@ -168,6 +168,7 @@ nav:
       - WireGuard Server: tutorials/wireguard_server.md
       - TCP or UDP: tutorials/openvpn_tcp_udp.md
       - Block No-VPN Traffic: tutorials/block_no_vpn_traffic.md
+      - VPN Cascading: tutorials/vpn_cascading.md
       - Tor: tutorials/tor.md
     - Applications:
       - Plug-ins: tutorials/plugins.md

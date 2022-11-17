@@ -52,6 +52,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [How to setup Mullvad VPN on router?](wireguard_client#setup-mullvad)
 * [How to let all data go through VPN?](block_no_vpn_traffic)
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp)
+* [VPN Cascading](vpn_cascading)
 * [Tor](tor), to protect the personal privacy.
 
 ## Applications

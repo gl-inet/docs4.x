@@ -222,15 +222,15 @@ Connect your smart TV to the router, it will find the DLNA Server.
 
         Click the plus button in the lower right corner.
 
-        ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_client/documents_1.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_client/documents_1.png){class="glboxshadow" width="560"}
 
         Click **Add Connection**.
 
-        ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_client/documents_2.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_client/documents_2.png){class="glboxshadow" width="560"}
 
         Click **Windows SMB**.
 
-        ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_client/documents_3.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_client/documents_3.png){class="glboxshadow" width="560"}
 
         The **Title** is for a name of this connection. **URL** is the access link. **Login** is the username.
 

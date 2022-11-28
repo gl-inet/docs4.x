@@ -230,7 +230,7 @@ Connect your smart TV to the router, it will find the DLNA Server.
 
         ![documents samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_client/documents_3.png){class="glboxshadow" width="560"}
 
-        The **Title** is for a name of this connection. **URL** is the access link. **Login** is the username.
+        The **Title** is for a name of this connection. **URL** is the access link. **Login** is the username. If is anonymous access, just leave **Login** and **Password** empty.
 
         Click **Done** button to complete this setup.
 

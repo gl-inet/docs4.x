@@ -217,8 +217,6 @@ Connect your smart TV to the router, it will find the DLNA Server.
         ![ios files set up SMB](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width=560"}
 
     - Guide of connect to Samba server by [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"} app.
-    
-        **Note:** Documents doesn't support anonymous access.
 
         Click the plus button in the lower right corner.
 
@@ -305,8 +303,6 @@ Connect your smart TV to the router, it will find the DLNA Server.
 === "iOS"
 
     There are many iOS apps that support WebDAV, here is an example of [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
-    
-    **Note:** Documents doesn't support anonymous access.
 
     Click the plus button in the lower right corner.
 

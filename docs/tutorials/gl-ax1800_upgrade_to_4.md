@@ -16,7 +16,7 @@ There are two ways to upgrade to firmware 4.x. The first method is recommended, 
 
     3. Upgrade it via the **Local Upgrade** in web Admin Panel -> UPGRADE with the .img firmware file.
 
-        **Note:** 4.x firmware is not compatible with 3.x firmwaare. When you upgrade from 3.x firmware, please do **NOT** keep settings.
+        **Note:** 4.x firmware is not compatible with 3.x firmware. When you upgrade from 3.x firmware, please do **NOT** keep settings.
 
         ![local upgrade](https://static.gl-inet.com/docs/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow" width="60%"}
 

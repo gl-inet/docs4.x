@@ -2,6 +2,8 @@
 
 The GL-AX1800 is already available in 4.x firmware. For those who want to try it, you can follow the steps below to upgrade GL-AXT1800 from firmware 3.x to 4.x.
 
+Want to find guide of other models upgrade to firmware 4.x? Please check out [here](../upgrade_to_4).
+
 ## Upgrade
 
 There are two ways to upgrade to firmware 4.x. The first method is recommended, it is easier.

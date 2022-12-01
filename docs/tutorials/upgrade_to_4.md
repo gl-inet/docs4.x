@@ -24,7 +24,7 @@ Suitable for GL-AX1800, GL-MT1300, GL-SFT1200, GL-B1300.
 
 2. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}.
 
-    * For GL-MT1300, GL-B1300, GL-SFT1200, please download the one for Local Upgrade, its file name extension is **.tar**.
+    * For GL-MT1300, GL-B1300, GL-SFT1200, please download the one for Local Upgrade, its file name extension is **.tar** or **.bin**.
 
     * For GL-AX1800, please download the one for Uboot, its file name extension is **.img**.
 
@@ -40,7 +40,7 @@ Upgrade via Uboot.
 
 Suitable for all models.
 
-1. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}, please download the one for Uboot, its file name extension is **.img**.
+1. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}, please download the one for Uboot.
 
 2. Please flash the firmware by [Uboot](../debrick/).
 

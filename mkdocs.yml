@@ -203,7 +203,8 @@ nav:
       - Repair or Reset: tutorials/repair_network_or_reset_firmware.md
     - Other:
       - Download Firmware: tutorials/where_to_download_firmware.md
-      - Upgrade GL-AX1800 to Firmware 4: tutorials/gl-ax1800_upgrade_to_4.md
+      - Upgrade to Firmware 4.x: tutorials/upgrade_to_4.md
+      - Upgrade GL-AX1800 to Firmware 4.x: tutorials/gl-ax1800_upgrade_to_4.md
       - Change WAN to LAN: tutorials/change_wan_to_lan.md
       - Mobile App: tutorials/mobile_app.md
       - What is LuCI: tutorials/what_is_luci.md

@@ -81,8 +81,9 @@ Learn how to use our devices and add-on features with our step to step guides an
 * Upgrade
     * [Firmware upgrade](firmware_upgrade)
     * [Where to download official firmware?](where_to_download_firmware)
-    * [How to upgrade GL-AX1800(Flint) to firmware 4.x?](gl-ax1800_upgrade_to_4)
-    * [How to downgrade GL-AX1800(Flint) to firmware 3.x?](gl-ax1800_upgrade_to_4/#downgrade)
+    * [How to upgrade from 3.x to firmware 4.x?](gl-ax1800_upgrade_to_4)
+    * [How to upgrade GL-AX1800(Flint) from firmware 3.x to 4.x?](gl-ax1800_upgrade_to_4)
+    * [How to downgrade GL-AX1800(Flint) from firmware 4.x to 3.x?](gl-ax1800_upgrade_to_4/#downgrade)
 * [Scheduled Tasks](scheduled_tasks), set scheduled LED display, reboot and Wi-Fi status.
 * [Change admin password](admin_password)
 * [Time Zone](time_zone)

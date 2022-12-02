@@ -18,6 +18,8 @@ Use the Local Upgrade in web Admin Panel.
 
 3. Upgrade it via the **Local Upgrade** in web Admin Panel -> UPGRADE with the .img firmware file.
 
+    After the firmware verification, as shown in the figure below, it may show a warning and version is unknown, please ignore. We will improve it in next 3.x version.
+
     **Note:** 4.x firmware is not compatible with 3.x firmware. When you upgrade from 3.x firmware, please do **NOT** keep settings.
 
     ![local upgrade](https://static.gl-inet.com/docs/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow" width="60%"}

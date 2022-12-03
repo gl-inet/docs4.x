@@ -20,7 +20,7 @@ The following figure has OpenVPN and Wireguard servers enabled on the router. An
 
 You can enable VPN cascading in **Global Options** in VPN server section.
 
-![gl.inet enable vpn cascading](https://static.gl-inet.com/docs/en/4/tutorials/vpn_cascading/enable_vpn_cascading.png){class="glboxshadow" width="50%" height="50%"}
+![gl.inet enable vpn cascading](https://static.gl-inet.com/docs/en/4/tutorials/vpn_cascading/enable_vpn_cascading.png){class="glboxshadow gl-50-desktop"}
 
 ## Does VPN policy affect VPN Cascading
 
@@ -28,13 +28,13 @@ You can enable VPN cascading in **Global Options** in VPN server section.
 
     VPN policies, including **Global Proxy**, **Based on the Target Domain or IP**, **Based on the Client Device** and **Based on the VLAN**, does not affect VPN cascading. These polices only affect on the devices connected on the router physically, i.e. in the router's own subnet.
 
-    ![gl.inet vpn dashboard, vpn policy](https://static.gl-inet.com/docs/en/4/tutorials/vpn_cascading/modify_vpn_policy_mode_1.png){class="glboxshadow" width="70%" height="70%"}
+    ![gl.inet vpn dashboard, vpn policy](https://static.gl-inet.com/docs/en/4/tutorials/vpn_cascading/modify_vpn_policy_mode_1.png){class="glboxshadow gl-70-desktop"}
 
 * Policies DO affect VPN Cascading
 
     When you use **Auto Detect** or **Customized Routing Rules**, the routing rules comes with the VPN config or you set up will affect how the router route data so VPN cascading may not work.
 
-    ![gl.inet vpn dashboard, vpn policy](https://static.gl-inet.com/docs/en/4/tutorials/vpn_cascading/modify_vpn_policy_mode_2.png){class="glboxshadow" width="70%" height="70%"}
+    ![gl.inet vpn dashboard, vpn policy](https://static.gl-inet.com/docs/en/4/tutorials/vpn_cascading/modify_vpn_policy_mode_2.png){class="glboxshadow gl-70-desktop"}
 
 ---
 

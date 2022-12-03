@@ -15,7 +15,7 @@ Users who do not want to replace their main router, you can use this mode to ext
 
 ## Network Typology
 
-![drop-in gateway mode typology](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_mode_typology.png){class="glboxshadow" width="60%" height="60%"}
+![drop-in gateway mode typology](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_mode_typology.png){class="glboxshadow gl-60-desktop"}
 
 The diagram above has two color lines, gray lines, and green lines with 3 arrows on the green lines, and a number next to each arrow.
 
@@ -29,7 +29,7 @@ The diagram above has two color lines, gray lines, and green lines with 3 arrows
 
 2. On the left side of web Admin Panel -> Network -> Drop-in Gateway
 
-    ![drop-in gateway](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_options.png){class="glboxshadow" width="70%"}
+    ![drop-in gateway](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_options.png){class="glboxshadow gl-70-desktop"}
 
     * **Force the use of Drop-In Gateway Mode DNS**, if this option is enable, it will force to use the Drop-In Gateway router's DNS. Please enable it if you want to use AdGuard Home, DNS settings(encrypted DNS, Manual DNS, DNS Proxy etc).
     * **Device Cover Mode**
@@ -40,7 +40,7 @@ The diagram above has two color lines, gray lines, and green lines with 3 arrows
 
 3. When it is enabld, it will show a device list of MAC, IP and active status.
 
-    ![drop-in gateway enabled](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_mode_enabled.png){class="glboxshadow" width="76%"}
+    ![drop-in gateway enabled](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_mode_enabled.png){class="glboxshadow gl-70-desktop"}
 
 4. Then you can continue to set up with the other functions.
 

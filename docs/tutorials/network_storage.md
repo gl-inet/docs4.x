@@ -26,7 +26,7 @@ For USB Drive, you can directly plug it into the USB port. For portable external
 
 Go to web Admin Panel -> APPLICATIONS -> Network Storage
 
-![network storage](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/network_storage_init.png){class="glboxshadow" width="72%"}
+![network storage](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/network_storage_init.png){class="glboxshadow gl-70-desktop"}
 
 When a disk is found.
 
@@ -38,19 +38,19 @@ When a disk is found.
 
     * Allow Access WebDAV from WAN, enable it if you want the upstream devices can access the WebDAV.
 
-    ![enable samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow" width="72%"}
+    ![enable samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow gl-70-desktop"}
 
 2. Then let's set up to get the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
 
-    ![samba quick setup share](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow" width="72%"}
+    ![samba quick setup share](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow gl-70-desktop"}
 
 3. Add a user. This step will be skipped if you already have an account. Then click **Next**.
 
-    ![samba quick setup share, add a user](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow" width="72%"}
+    ![samba quick setup share, add a user](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow gl-70-desktop"}
 
 4. Click the triangel icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
 
-    ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow" width="72%"}
+    ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow gl-70-desktop"}
 
 5. Shared folder settings.
 
@@ -58,13 +58,13 @@ When a disk is found.
 
     The user you just created will be added to **Read-Only User** by default. If you want this account to be able to write or delete files, you can remove it from Read-Only User and add it to **Writable User**. Click **Apply**.
 
-    ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow" width="72%"}
+    ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow gl-70-desktop"}
 
 6. Folder access link. It shows the link for Windows and Unix-link OS. The Unix-like system include Android, iOS, macOS, Ubuntu etc. Then please try to access the Samba on various OS, check out [here](#samba-client).
 
     **Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
 
-    ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_folder_access_link.png){class="glboxshadow" width="72%"}
+    ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_folder_access_link.png){class="glboxshadow gl-70-desktop"}
 
 ---
 
@@ -78,19 +78,19 @@ When a disk is found.
 
     * WebDAV Port, generally you do not need to modify the port number unless it is conflicts. Port number range 1024 - 65535.
 
-    ![enable webdav](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow" width="72%"}
+    ![enable webdav](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow gl-70-desktop"}
 
 2. Then let's set up to get the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
 
-    ![enable webdav](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow" width="72%"}
+    ![enable webdav](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow gl-70-desktop"}
 
 3. Add a user. This step will be skipped if you already have an account. Then click **Next**.
 
-    ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow" width="72%"}
+    ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow gl-70-desktop"}
 
 4. Click the triangel icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
 
-    ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow" width="72%"}
+    ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow gl-70-desktop"}
 
 5. Shared folder settings.
 
@@ -98,13 +98,13 @@ When a disk is found.
 
     The user you just created will be added to **Read-Only User** by default. If you want this account to be able to write or delete files, you can remove it from Read-Only User and add it to **Writable User**. Click **Apply**.
 
-    ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_shared_folder_settings.png){class="glboxshadow" width="72%"}
+    ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_shared_folder_settings.png){class="glboxshadow gl-70-desktop"}
 
 6. Folder access link. It shows the link for Windows and Unix-link OS. The Unix-like system include Android, iOS, macOS, Ubuntu etc. Then please try to access the WebDAV on various OS, check out [here](#webdav-client).
 
     **Note:** If you enabled **Allow Access WebDAV from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
 
-    ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow" width="72%"}
+    ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow gl-70-desktop"}
 
 ---
 

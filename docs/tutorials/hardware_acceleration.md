@@ -8,7 +8,7 @@ The following models have this option:
 
 GL-MT2500, GL-MT2500A, GL-MT1300
 
-![Hardware Acceleration](https://static.gl-inet.com/docs/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow" width="60%"}
+![Hardware Acceleration](https://static.gl-inet.com/docs/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow gl-60-desktop"}
 
 ---
 

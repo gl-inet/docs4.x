@@ -68,7 +68,7 @@ On the **Known Network** sector, click trash icon to delete a known network, cli
 
 If the SSID is not in the Available Networks list, or if the SSID is hidden, you can click **Join Other Network**.
 
-![join other network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/join_other_network.png){class="glboxshadow" width="60%"}
+![join other network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/join_other_network.png){class="glboxshadow gl-60-desktop"}
 
 ![join other network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
 
@@ -78,7 +78,7 @@ Input the SSID, for **Security**, It has the following three options.
 * WPA/WPA2/WPA3
 * WPA/WPA2/WPA3 Enterprise, for Extensible Authentication Protocol (EAP), it requires a username and password for authentication.
 
-    ![join other network, eap](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/join_other_network_eap.png){class="glboxshadow" width="60%"}
+    ![join other network, eap](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/join_other_network_eap.png){class="glboxshadow gl-60-desktop"}
 
 ## Reconnection
 
@@ -106,7 +106,7 @@ When Internet access is not available, the corresponding warning is displayed. T
 
 - Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
 
-    ![repeater wrning](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_warning.png){class="glboxshadow" width="60%"}
+    ![repeater wrning](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_warning.png){class="glboxshadow gl-60-desktop"}
 
     Solution: Please check if the upstream device of Repeater has internet access.
 

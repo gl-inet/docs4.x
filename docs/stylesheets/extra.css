@@ -55,3 +55,20 @@ img.glboxshadow {
     margin: 0px 0px;
   }
 }
+@media only screen and (min-width: 992px) {
+  .gl-50-desktop {
+    width: 50%;
+  }
+  .gl-60-desktop {
+    width: 60%;
+  }
+  .gl-70-desktop {
+    width: 70%;
+  }
+  .gl-80-desktop {
+    width: 80%;
+  }
+  .gl-90-desktop {
+    width: 90%;
+  }
+}

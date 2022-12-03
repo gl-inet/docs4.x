@@ -11,7 +11,7 @@ There are two methods to forward SMS,
 
 Click the envelope icon to go to SMS page, you will find the SMS Forwarding settings.
 
-![sms setting](https://static.gl-inet.com/docs/en/4/tutorials/sms_forwarding/cellular_sms.png){class="glboxshadow" width="58%"}
+![sms setting](https://static.gl-inet.com/docs/en/4/tutorials/sms_forwarding/cellular_sms.png){class="glboxshadow gl-60-desktop"}
 
 ## SMS Forwarding to email
 

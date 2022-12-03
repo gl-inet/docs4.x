@@ -13,11 +13,11 @@ Supported Models: GL-AXT1800
 
 Just toggle to enable it, then click **Apply** button. You can also choose a **Custom Exit Nodes**.
 
-![gl.inet Tor](https://static.gl-inet.com/docs/en/4/tutorials/tor/tor.png){class="glboxshadow" width="58%"}
+![gl.inet Tor](https://static.gl-inet.com/docs/en/4/tutorials/tor/tor.png){class="glboxshadow gl-60-desktop"}
 
 Wait a while, depending on your network, and it will show connected.
 
-![gl.inet Tor connected](https://static.gl-inet.com/docs/en/4/tutorials/tor/tor_connected.png){class="glboxshadow" width="58%"}
+![gl.inet Tor connected](https://static.gl-inet.com/docs/en/4/tutorials/tor/tor_connected.png){class="glboxshadow gl-60-desktop"}
 
 ---
 

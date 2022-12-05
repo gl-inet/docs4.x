@@ -6,7 +6,7 @@ Please visit the [**System Overview**](../../../tutorials/system_overview/) tuto
 
 ## Upgrade
 
-GL.inet provides regular updates on our routers' firmware to improve performance, resolving bugs and fix vulnerabilities.
+GL.iNet provides regular updates on our routers' firmware to improve performance, resolving bugs and fix vulnerabilities.
 
 Please visit the [**Upgrade**](../../../tutorials/firmware_upgrade/) tutorial.
 

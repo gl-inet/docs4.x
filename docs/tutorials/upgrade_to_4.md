@@ -1,6 +1,6 @@
 # How to upgrade to firmware 4.x?
 
-Some models already have the 4.x beta firmware. For those who want to try it, you can follow the steps below to upgrade it from firmware 3.x to 4.x.
+Some old models already have the 4.x beta firmware. For those who want to try it, you can follow the steps below to upgrade it from firmware 3.x to 4.x.
 
 The following models are currently supported:
 

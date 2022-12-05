@@ -9,7 +9,22 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
   - IPv6
   - ADGuard Home.
 
-Supported Models: GL-AXT1800
+## Supported models
+
+| Router Model | Support Tor |
+| :----------- | :-------: |
+| GL-MT3000 (Beryl AX) | √ |
+| GL-AXT1800 (Slate AX) | √ |
+| GL-A1300 (Slate Plus) | √ |
+| GL-MT2500/GL-MT2500A (Brume 2) | √ |
+| GL-SFT1200 | √ |
+| GL-S1300 (Convexa-S) | √ |
+| GL-MT1300 (Beryl) | √ |
+| GL-AX1800 (Flint) | √ |
+| GL-B1300 (Convexa-B) | √ |
+| GL-AP1300 (Cirrus) | √ |
+
+## Setup
 
 Just toggle to enable it, then click **Apply** button. You can also choose a **Custom Exit Nodes**.
 

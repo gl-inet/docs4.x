@@ -18,6 +18,8 @@ The supported disk formats are NTFS, FAT32.
 
 **Note**: Some models do not have a TF card slot, please check the hardware specification of each model.
 
+**Note**: Some models do not support Samba, due to small flash space.
+
 ## Insert Storage Device
 
 For TF card, you need to power off the router first, insert the TF card and then power on the router.

@@ -20,8 +20,6 @@ The supported disk formats are NTFS, FAT32.
 
 Usually models with USB ports or MicroSD(TF) slots are supported for file sharing. For devices with Flash space less than or equal to 32MB, the Network Storage function is not yet supported and is still being developed and optimized.
 
-**Supported external storage models**
-
 | Router Model | USB Stick | USB Hard Drive | MicroSD Card | Samba | Webdav | DLNA |
 | :----------- | :-------: | :---: | :---: | :---: | :---: | :---: |
 | GL-MT3000 (Beryl AX) | √ | √ | - | √ | √ | √ | 

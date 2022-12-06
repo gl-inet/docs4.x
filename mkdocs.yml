@@ -149,10 +149,10 @@ nav:
   - Tutorials:
     - Overview: tutorials/index.md
     - FAQ:
-      - First time setup: tutorials/first_time_setup.md
+      - First Time Setup: tutorials/first_time_setup.md
       - Debrick via Uboot: tutorials/debrick.md
       - Connect to a Hotspot with Captive Portal: tutorials/connect_to_a_hotspot_with_captive_portal.md
-      - Remote access web admin panel: tutorials/remote_access_web_admin_panel.md
+      - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
       - OpenVPN Client: tutorials/openvpn_client.md
       - WireGuard Client: tutorials/wireguard_client.md
     - Internet Connection:
@@ -164,7 +164,7 @@ nav:
       - Connect to a Hotspot with Captive Portal: tutorials/connect_to_a_hotspot_with_captive_portal.md
       - DHCP: tutorials/dhcp.md
       - PPPoE: tutorials/pppoe.md
-      - Produce a wired connection: tutorials/produce_a_wired_connection.md
+      - Produce a Wired Connection: tutorials/produce_a_wired_connection.md
       - SMS Forwarding: tutorials/sms_forwarding.md
     - Wireless:
       - Wireless: tutorials/wireless.md
@@ -218,10 +218,11 @@ nav:
       - Change WAN to LAN: tutorials/change_wan_to_lan.md
       - Mobile App: tutorials/mobile_app.md
       - What is LuCI: tutorials/what_is_luci.md
-      - Remote access web admin panel: tutorials/remote_access_web_admin_panel.md
-      - Remote SSH to router: tutorials/remote_ssh_to_router.md
+      - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
+      - Remote SSH to Router: tutorials/remote_ssh_to_router.md
       - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
-      - Device id, MAC, SN: tutorials/where_to_find_the_device_id_mac_sn.md
+      - Device d, MAC, SN: tutorials/where_to_find_the_device_id_mac_sn.md
+      - LED Indication: tutorials/led.md
   - Video Library:
     - Overview: video_library/index.md
   - Community:

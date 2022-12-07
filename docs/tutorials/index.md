@@ -46,7 +46,8 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [Setup OpenVPN Server](openvpn_server).
 * [Setup WireGuard Client](wireguard_client).
 * [Setup WireGuard Server](wireguard_server).
-* [VPN proxy mode](vpn_dashboard#proxy-mode).
+* [VPN Proxy Mode](vpn_dashboard#proxy-mode).
+* [VPN Policy](vpn_dashboard#proxy-mode).
 * [How to setup NordVPN on router?](openvpn_client#setup-nordvpn)
 * [How to setup AzireVPN on router?](wireguard_client#setup-azirevpn)
 * [How to setup Mullvad VPN on router?](wireguard_client#setup-mullvad)

@@ -20,7 +20,7 @@ You can disable the interface status tracking, the router will use the physical 
 
 ## Multi-WAN methods
 
-There are two methods, **Failover** and **Load Balance**.
+There are two methods, **Failover** and **Load Balance**. **Failover** and **Load Balance** are mutually exclusive functions, and you can only use one of them.
 
 ### Failover
 

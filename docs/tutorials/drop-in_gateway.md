@@ -15,7 +15,7 @@ Users who do not want to replace their main router, you can use this mode to ext
 
 ## Network Typology
 
-![drop-in gateway mode typology](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_mode_typology.png){class="glboxshadow gl-60-desktop"}
+![drop-in gateway mode typology](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_mode_typology.svg){class="glboxshadow gl-60-desktop"}
 
 The diagram above has two color lines, gray lines, and green lines with 3 arrows on the green lines, and a number next to each arrow.
 

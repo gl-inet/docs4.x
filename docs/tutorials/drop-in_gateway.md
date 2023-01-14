@@ -2,7 +2,7 @@
 
 Drop-in Gateway mode is available since firmware version 4.1.
 
-On the left side of web Admin Panel -> NETWORK -> Network Mode
+On the left side of web Admin Panel -> NETWORK -> Drop-in Gateway
 
 ## Usage Scenarios
 

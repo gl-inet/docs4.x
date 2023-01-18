@@ -7,6 +7,7 @@
 - [Set up Samba](#set-up-samba)
 - [Set up WebDAV](#set-up-webdav)
 - [Set up DLNA](#set-up-dlna)
+- [Set up FTP](#set-up-ftp)
 - [Samba Client](#samba-client)
 - [WebDAV Client](#webdav-client)
 
@@ -130,6 +131,32 @@ Toggle to enable DLNA, modify **Share Path** if needed, click **Apply**. That is
 ![network storage, enable dlna](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_dlna.png){class="glboxshadow"}
 
 Connect your smart TV to the router, it will find the DLNA Server.
+
+---
+
+## Set Up FTP
+
+Toggle to enable FTP, modify **Share Path**, click **Apply**.
+
+![network storage, enable ftp](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_ftp.png){class="glboxshadow"}
+
+Then you will find **Shared Link**, you can find the access link in **Shared Link**.
+
+**Note:** FTP protocol is not encrypted, use at your own risk. It is recommended to use it only for some non-sensitive file sharing.
+
+---
+
+## Set Up NFS
+
+Toggle to enable NFS, modify **Share Path**, click **Apply**.
+
+![network storage, enable nfs](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_nfs.png){class="glboxshadow"}
+
+Then you will find **Shared Link**.
+
+**Note:** NFS does not support Utf8 very well, the file name will be messed up, please try to use English as the file name.
+
+---
 
 ## Samba Client
 
@@ -337,6 +364,56 @@ Connect your smart TV to the router, it will find the DLNA Server.
 
     ![documents WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
+---
+
+## FTP Client
+
+Windows' File Explorer and macOS' Finder both support the FTP protocol, and there are many excellent third-party FTP clients, such as FileZilla.
+
+=== "Windows"
+
+    Here is an example of Windows 11, Windows 10 is similar.
+
+    Open up File Explorer and then right-click on **This PC** (in the left pane). From the resulting context menu, select **Show more options** -> **Add a network location**
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_01.png){class="glboxshadow"}
+
+    Click **Choose a custom network location** and then click **Next**.
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_02.png){class="glboxshadow"}
+
+    Enter the FTP access link. Then click **Next**.
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_03.png){class="glboxshadow"}
+
+    Make sure **Log on anonymously** is checked. Click **Next**.
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_04.png){class="glboxshadow"}
+
+    Give a name of this location. Click **Next**.
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_05.png){class="glboxshadow"}
+
+    Click **Finish**.
+
+    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_06.png){class="glboxshadow"}
+
+=== "FileZilla"
+
+    [FileZilla](https://filezilla-project.org/download.php) support Windows, macOS and Linux.
+
+    Enter the FTP access link, without `ftp://`, then click **Quickconnect**.
+
+    ![filezilla](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/filezilla_01.png){class="glboxshadow"}
+
+    It will pop up an insecure warning dialog. Because FTP protocol is not encrypted, it is recommended to use it only for some non-sensitive file sharing. Click **OK** to continue.
+
+    ![filezilla](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/filezilla_02.png){class="glboxshadow"}
+
+    Then it will show the files on the right side of window.
+
+    ![filezilla](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/filezilla_03.png){class="glboxshadow"}
+    
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

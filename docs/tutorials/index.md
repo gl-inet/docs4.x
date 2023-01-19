@@ -74,7 +74,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [DNS](dns)
 * [Network Mode](network_mode)
 * [IPv6](ipv6)
-* [MAC Clone](mac_clone)
+* [MAC Address](mac_address)
 * [Drop-in Gateway](drop-in_gateway)
 * [IGMP Snooping](igmp_snooping), to use the multicast function on the router.
 * [Hardware Acceleration](hardware_acceleration)

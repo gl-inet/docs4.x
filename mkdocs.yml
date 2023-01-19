@@ -193,7 +193,7 @@ nav:
       - DNS: tutorials/dns.md
       - Network Mode: tutorials/network_mode.md
       - IPv6: tutorials/ipv6.md
-      - MAC Clone: tutorials/mac_clone.md
+      - MAC Address: tutorials/mac_address.md
       - Drop-in Gateway: tutorials/drop-in_gateway.md
       - IGMP Snooping: tutorials/igmp_snooping.md
       - Hardware Acceleration: tutorials/hardware_acceleration.md

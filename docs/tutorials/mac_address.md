@@ -6,15 +6,15 @@ The Mac Address page was previously called Mac Clone and has been changed to Mac
 
 You can find the router's default Mac Address on this page, clone a Client's Mac Address, enter a Mac Address manually or generate a random Mac Address.
 
-* The factory default mac address
+* The factory default mac address.
 
     ![default mac address](https://static.gl-inet.com/docs/en/4/tutorials/mac_address/mac_address_1.png){class="glboxshadow"}
 
-* Clone a client's mac address
+* Clone a client's mac address.
 
     ![clone mac address](https://static.gl-inet.com/docs/en/4/tutorials/mac_address/mac_address_2.png){class="glboxshadow"}
 
-* Manual input or generate a random mac address
+* Manual input or generate a random mac address.
 
     ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/en/4/tutorials/mac_address/mac_address_3.png){class="glboxshadow"}
 

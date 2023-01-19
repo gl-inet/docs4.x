@@ -155,7 +155,7 @@ Toggle to enable NFS, modify **Share Path**, click **Apply**.
 
 Then you will find **Shared Link**.
 
-**Note:** NFS does not support Utf8 very well, the file name will be messed up, please try to use English as the file name.
+**Note:** NFS does not support Utf8 very well, the file name may be messed up, please try to use English as the file name.
 
 ---
 
@@ -415,6 +415,38 @@ Windows' File Explorer and macOS' Finder both support the FTP protocol, and ther
 
     ![filezilla](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/filezilla_03.png){class="glboxshadow"}
     
+## NFS Client
+
+=== "Windows"
+
+    Here is an example of Windows 11, Windows 10 is similar.
+
+    The first step is to install the NFS client. Click the Windows button to open Start, type **turn windows features on or off**, and click to open the Turn Windows features on or off dialogue box.
+
+    ![turn windows features on or off](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/nfs_client/windows/turn_windows_feature_on_or_off.png){class="glboxshadow"}
+
+    Scroll down and select the option Services for NFS, then click OK.
+
+    ![turn on nfs client](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/nfs_client/windows/turn_on_nfs_client.png){class="glboxshadow"}
+
+    Open **Command Prompt**, mount it with fellowing command.
+
+    `mount IP:SHARE-PATH K:`
+
+    Replace **IP** and **SHARE-PATH** with the name show on Shared Link. Replace **K:** with the desired drive letter.
+
+    ![cmd mount nfs](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/nfs_client/windows/cmd_mount_nfs.png){class="glboxshadow"}
+
+    Check [here](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/mount) to learn more about `mount` command and its parameters.
+
+    If it mounts successfully, you can find it in Network locations of Windows Explorer.
+
+    ![nfs mount](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/nfs_client/windows/nfs_has_mounted.png){class="glboxshadow"}
+
+    If you want to unmount it, right click and select **Disconnect**.
+
+    ![nfs unmount](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/nfs_client/windows/nfs_disconnect.png){class="glboxshadow"}
+
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

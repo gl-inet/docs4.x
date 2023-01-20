@@ -4,7 +4,7 @@ On the left side of web Admin Panel -> NETWORK -> MAC Address
 
 The MAC Address page was previously called MAC Clone and has been changed to MAC Address since v4.2.
 
-You can find the router's default MAC Address on this page, clone a Client's MAC Address, enter a MAC Address manually or generate a random MAC Address.
+On this page, you can find the router's default MAC address, clone a client's MAC address, enter a MAC address manually, or generate a random MAC address.
 
 * The factory default MAC address.
 

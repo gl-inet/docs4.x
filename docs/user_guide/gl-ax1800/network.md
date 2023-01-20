@@ -26,9 +26,11 @@ Please visit the [**Network Mode**](../../../tutorials/network_mode/) tutorial.
 
 Please visit the [**IPv6**](../../../tutorials/ipv6/) tutorial.
 
-## MAC Clone
+## MAC Address
 
-Please visit the [**MAC Clone**](../../../tutorials/mac_clone/) tutorial.
+The Mac Address page was previously called Mac Clone and has been changed to Mac Address since v4.2.
+
+Please visit the [**MAC Address**](../../../tutorials/mac_address/) tutorial.
 
 ## Drop-in Gateway
 

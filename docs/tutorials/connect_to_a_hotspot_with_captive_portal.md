@@ -66,6 +66,8 @@ Sometimes, [Solution 1](#solution-1-change-dns-settings) is not enough to solve 
 
     ![iphone wifi private address](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
 
+    For some old phones, the MAC address is not found there in WiFi, then it uses the real MAC address of the phone. This can be found in the phone's **Settings** -> **About** where you can find the phone's MAC address.
+
 3. Usr your phone or computer to connect to router, access web admin panel. On the left side of web Admin Panel -> NETWORK -> MAC Address.
 
     Select Manual Mode, fill in the MAC address you wrote down in step 2 into the input box and click Apply.

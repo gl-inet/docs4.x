@@ -22,7 +22,7 @@ On this page, you can find the router's default MAC address, clone a client's MA
 
 ## Usage Scenarios
 
-When you connect to a public hotspot, use a random MAC address if you do not want the hotspot to know your real MAC address or to limit your access to the Internet based on it. Please read this guide [Connect to a Hotspot with Captive Portal](../connect_to_a_hotspot_with_captive_portal).
+When you connect to a public hotspot, use a random MAC address if you do not want the hotspot to know your real MAC address or to limit your access to the Internet based on it. Please read this guide [Connect to a Hotspot with a Captive Portal](../connect_to_a_hotspot_with_captive_portal).
 
 ---
 

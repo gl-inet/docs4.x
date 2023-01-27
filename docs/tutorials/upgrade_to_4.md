@@ -18,7 +18,7 @@ There are two methods to upgrade to firmware 4.x. The first method can be used f
 
 Upgrade via the Local Upgrade in web Admin Panel.
 
-Suitable for GL-AX1800, GL-MT1300, GL-SFT1200, GL-B1300.
+Suitable for GL-AX1800, GL-MT1300, GL-SFT1200, GL-B1300, GL-AR750S.
 
 1. Upgrade the firmware to the latest stable 3.x version.
 

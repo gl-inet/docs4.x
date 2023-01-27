@@ -593,6 +593,8 @@ Others:
 
         ![streamvpn guide, vpn router](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/streamvpn/streamvpn_guide_router.png){class="glboxshadow"}
 
+    **Note:** Only the configuration file name contains "Primary" work.
+
 <div id="strongvpn"></div>
 
 ??? "StrongVPN"

@@ -34,15 +34,17 @@ For example, if the router has been set up with two types of Internet access, **
 
 Use multiple interfaces at the same time to increase the total bandwidth of the router.
 
-The system will assign interfaces to new connections based on the load ratio.
+The system will assign interfaces to new connections based on the load ratio. The load ratio here can simply be set according to the bandwidth ratio. For example, if the bandwidth of Ethernet is 200Mbps, the bandwidth of Repeater's WiFi is 100Mbps, and no Tethering is connected, then the load ratio of Ethernet can be set to 2, the load ratio of Repeater to 1, and the load ratio of Tethering to 0.
 
-Note: Alive connections or traffic are not ensured to match the load ratio. It is closer to this ratio if it has been used for a longer time.
+**Note:** Alive connections or traffic are not ensured to match the load ratio. It is closer to this ratio if it has been used for a longer time.
 
 ![multi-wan load balance](https://static.gl-inet.com/docs/en/4/tutorials/multi-wan/multi-wan_mode_load_balance.png){class="glboxshadow gl-60-desktop"}
 
 ## Usage Scenarios
 
-The store's cashier system uses a wired connection to the Internet, while Repeater to Wi-Fi in neighboring stores (or inserting a SIM card to enable cellular network) as a backup Internet access method to prevent mobile payments from being made when the network cable is unavailable.
+* The store's cashier system uses a wired connection to the Internet, while Repeater to Wi-Fi in neighboring stores (or inserting a SIM card to enable cellular network) as a backup Internet access method to prevent mobile payments from being made when the network cable is unavailable.
+
+* Router Repeater to public WiFi, but the network speed is not fast enough, then you can use Mobile Tethering to do load balance at the same time to improve the overall bandwidth.
 
 ---
 

@@ -186,6 +186,9 @@ nav:
       - GoodCloud: tutorials/cloud.md
       - Network Storage: tutorials/network_storage.md
       - AdGuard Home: tutorials/adguardhome.md
+      - Parental Control: tutorials/parental_control.md
+      - ZeroTier: tutorials/zerotier.md
+      - Tailscale: tutorials/tailscale.md
     - Network:
       - Firewall: tutorials/firewall.md
       - Multi-WAN: tutorials/multi-wan.md

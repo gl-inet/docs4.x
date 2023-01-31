@@ -8,8 +8,11 @@
 - [Set up WebDAV](#set-up-webdav)
 - [Set up DLNA](#set-up-dlna)
 - [Set up FTP](#set-up-ftp)
+- [Set up NFS](#set-up-nfs)
 - [Samba Client](#samba-client)
 - [WebDAV Client](#webdav-client)
+- [FTP Client](#ftp-client)
+- [NFS Client](#nfs-client)
 
 ## Introduction
 

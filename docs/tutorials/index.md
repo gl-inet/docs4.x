@@ -10,7 +10,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 
 ## FAQ
 
-* [How to use Uboot to debrick your routers?](uboot)
+* [Ubootを使用してルーターをデブレイクする方法とは？](uboot)
 * [Connect to a Hotspot with Captive Portal?](connect_to_a_hotspot_with_captive_portal)
 * [How to remote access router's web Admin Panel?](remote_access_web_admin_panel)
 * [How to set up OpenVPN?](openvpn_client)

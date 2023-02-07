@@ -3,7 +3,7 @@
 
 WireGuard®は、**最先端の暗号技術**を利用した、非常にシンプルかつ高速な最新のVPNです。[faster](https://www.wireguard.com/performance/), [simpler](https://www.wireguard.com/quickstart/)を目指します。IPSecよりも無駄がなく、便利でありながら、膨大な頭痛の種を回避することができます。OpenVPNよりもかなり高性能になる予定です。
 =======
-# How to Setup WireGaurd Client on GL.iNet router
+# GL.iNetルーターでWireGaurdクライアントをセットアップする方法
 
 WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/){target="_blank"}, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 

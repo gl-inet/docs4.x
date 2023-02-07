@@ -1,9 +1,9 @@
-# MAC Clone
+# MACクローン
 
-On the left side of web Admin Panel -> MORE SETTINGS -> MAC Clone
+Web管理パネルの左側 -> その他の設定 -> MACクローン
 
-MAC Clone is useful when you connect to a public hotspot but you do not want the server to know your real MAC address or limit your Internet connections based on your MAC address.
+MACクローンは、パブリックホットスポットに接続するが、サーバーに実際のMACアドレスを認識させたり、MACアドレスに基づいてインターネット接続を制限したりする場合に便利です。
 
-You can clone to your current client's MAC or a random one.
+現在のクライアントのMACまたはランダムなMACにクローンを作成できます。
 
 ![mac clone](https://static.gl-inet.com/docs/en/4/tutorials/mac_clone/mac_clone.png){class="glboxshadow"}

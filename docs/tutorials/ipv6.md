@@ -1,18 +1,18 @@
 # IPv6
 
-On the left side of web Admin Panel -> MORE SETTINGS -> IPv6
+ウェブ管理画面の左側にある -> その他の設定 -> IPv6
 
-The IPv6 function allows you to enable and configure IPv6 on router.
+IPv6機能を使用すると、ルーターでIPv6を有効にして構成できます。
 
 ![ipv6](https://static.gl-inet.com/docs/en/4/tutorials/ipv6/ipv6_page.png){class="glboxshadow"}
 
-The current version of the firewall, VPN, terminal list, cloud service, etc., may not support IPv6 for the time being. Therefore, the IPv6 function can only be used for configuration within this interface.
+現在のバージョンのファイアウォール、VPN、端末リスト、クラウドサービスなどは、当面IPv6をサポートしていない可能性があります。したがって、IPv6機能は、このインターフェース内の構成にのみ使用できます。
 
-**Note:** If you use functions of both VPN and IPv6 at the same time, it's likely to cause IPv6 data leakage.
+**注意:** VPNとIPv6の両方の機能を同時に使用すると、IPv6データ漏洩の原因となる可能性があります。
 
-After enabled.
+有効にした後。
 
 ![ipv6 enabled](https://static.gl-inet.com/docs/en/4/tutorials/ipv6/ipv6_enabled.png){class="glboxshadow"}
 
-- **Mode**. There are three modes, **NAT6**, **Native** and **Static IPv6**.
-- **DNS acquisition method**. It has two options. **Automic** and **Manual**.
+- **モード**。**NAT6**、**ネイティブ**、**静的IPv6**の3つのモードがあります。
+- **DNS取得方法**。**自動**と**手動**の2つのオプションがあります。

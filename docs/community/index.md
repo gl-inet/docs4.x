@@ -1,17 +1,17 @@
-# Community
+# コミュニティ
+　   
+コミュニティに参加して、最新ニュースや一般的な技術的問題の解決策をフォローし、また最新の製品開発に関するディスカッションにも参加してください。       
 
-Join our community to follow our latest news, solutions to common technical issues, and join our discussion on the latest product development!
+**コンテンツクリエーター** – 当社の製品やサービスを気に入っていただけましたら、お気軽にご応募いただき、当社のウェブサイトやソーシャル メディアでコンテンツをご共有ください。 ギフト、クーポン、レビュー用の無料ルーター、さらにはプロ向けコンテンツの有料インセンティブなどの特典を喜んで提供いたします。
 
-**Content Creators** - If you love using our products and services, feel free to apply and share your contents on our website and social media! We are more than happy to offer benefits including gifts, coupons, free routers for review, or even paid incentives for professional contents.
+**ベータテスター** – 私たちは常に製品の改善に努めており、お客様のレビューは弊社にとって非常に貴重です。 当社製品のベータテスターに応募することをお勧めします。また、製品の発売時に通知されます。
 
-**Beta testers** – We are always looking to improve our products, and your reviews are highly valuable for us to do so. We encourage users to apply to be beta testers for our products, and you will also be notified when there is a product launch.
+### 以下は、最も一般的な GL.iNet フォーラムのディスカッションです。また、 [GL.iNet のフォーラムにアクセスするには、ここをクリックください。](https://forum.gl-inet.com/){target="_blank"}
 
-### Below are the most common GL.iNet Forum discussions, or [click here to visit GL.iNet's Forum.](https://forum.gl-inet.com/){target="_blank"}
+- [フリント、自動、手動で Adguard をアップグレードする方法は?](https://forum.gl-inet.com/t/how-to-upgrade-adguard-on-the-flint-auto-and-manual/21556){target="_blank"}
 
-- [How to upgrade Adguard on the Flint, auto and manual?](https://forum.gl-inet.com/t/how-to-upgrade-adguard-on-the-flint-auto-and-manual/21556){target="_blank"}
+- [OpenVPN と WireGuard の互換性レポート](https://forum.gl-inet.com/t/openvpn-and-wireguard-compatibility-report/15621){target="_blank"}
 
-- [OpenVPN and WireGuard Compatibility Report](https://forum.gl-inet.com/t/openvpn-and-wireguard-compatibility-report/15621){target="_blank"}
+- [2 つの GL.iNet ルーターを使用して Site-2-Site ネットワークを手動で構築する](https://forum.gl-inet.com/t/building-a-site-2-site-network-manually-using-two-gl-inet-routers/18294){target="_blank"}
 
-- [Building a Site-2-Site network manually using two GL.iNet routers](https://forum.gl-inet.com/t/building-a-site-2-site-network-manually-using-two-gl-inet-routers/18294){target="_blank"}
-
-- [AdGuard Home on GL.iNet routers](https://forum.gl-inet.com/t/adguardhome-on-gl-routers/10664){target="_blank"}
+- [GL.iNetルーターのAdGuard Home](https://forum.gl-inet.com/t/adguardhome-on-gl-routers/10664){target="_blank"}

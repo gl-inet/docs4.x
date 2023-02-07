@@ -1,37 +1,37 @@
-# MORE SETTINGS
+# その他の設定
 
-## Admin Password
+## 管理者パスワード
 
-Please visit the [**Admin Password**](../../../tutorials/admin_password/) tutorial.
+[**Admin Password**](../../../tutorials/admin_password/)チュートリアルをご覧ください。
 
 ## LAN
 
-Please visit the [**LAN**](../../../tutorials/lan/) tutorial.
+[**LAN**](../../../tutorials/lan/)チュートリアルをご覧ください。
 
 ## Time Zone
 
-Please visit the  [**Time Zone**](../../../tutorials/time_zone/) tutorial.
+[**Time Zone**](../../../tutorials/time_zone/) チュートリアルをご覧ください。
 
-## DNS
+## DNSs
 
-Please visit the [**DNS**](../../../tutorials/dns/) tutorial.
+[**DNS**](../../../tutorials/dns/) チュートリアルをご覧ください。
 
 ## Network Mode
 
-Please visit the [**Network Mode**](../../../tutorials/network_mode/) tutorial.
+[**Network Mode**](../../../tutorials/network_mode/) チュートリアルをご覧ください。
 
 ## IPv6
 
-Please visit the [**IPv6**](../../../tutorials/ipv6/) tutorial.
+ [**IPv6**](../../../tutorials/ipv6/) チュートリアルをご覧ください。
 
 ## Toggle Button Settings
 
-Please visit the [**Toggle Button Settings**](../../../tutorials/toggle_button_settings/) tutorial.
+[**Toggle Button Settings**](../../../tutorials/toggle_button_settings/) チュートリアルをご覧ください。
 
 ## Reset Firmware
 
-Please visit the [**Reset Firmware**](../../../tutorials/reset_firmware/) tutorial.
+[**Reset Firmware**](../../../tutorials/reset_firmware/) tutorial.
 
 ## Advanced Settings
 
-Please visit the [**Advanced Settings**](../../../tutorials/advanced_settings/) tutorial.
+[**Advanced Settings**](../../../tutorials/advanced_settings/) tutorial.

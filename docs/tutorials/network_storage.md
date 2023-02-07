@@ -12,59 +12,60 @@
 
 ## Introduction
 
-Some GL.iNet models support TF card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDAV, DLNA on this page for the disk.
+一部のGL.iNetモデルはTFカードをサポートし、一部のモデルはUSBポートを備え、USBフラッシュドライブとポータブル外付けハードドライブをサポートします。このページでディスク用にSamba、WebDAV、DLNAを設定できます。
 
-The supported disk formats are NTFS, exFAT, FAT32, Ext3, Ext4.
+サポートされているディスクフォーマットは、NTFS、exFAT、FAT32、Ext3、Ext4です。
 
-## Insert storage device
+## ストレージデバイスを挿入します
 
-For TF card, you need to power off the router first, insert the TF card and then power on the router.
+TFカードの場合は、最初にルータの電源をオフにし、TFカードを挿入してから、ルータの電源をオンにする必要があります。
 
-For USB Drive, you can directly plug it into the USB port. For portable external hard drive, if you have a separate power supply, please connect it to the power supply.
+USBドライブの場合は、USBポートに直接接続できます。 ポータブル外付けハードドライブの場合、別の電源装置がある場合は、電源装置に接続してください。
 
-Go to web Admin Panel -> APPLICATIONS -> Network Storage
+Web管理パネルに移動します -> アプリケーション -> ネットワークストレージ
 
 ![network storage](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/network_storage_init.png){class="glboxshadow"}
 
-When a disk is found.
+ディスクが見つかったとき。
 
 ![network storage, disk found](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
 
-## Set up Samba
+## Sambaをセットアップする
 
-Toggle to enable Samba, click **Apply**.
+切り替えてSambaを有効にし、**適用**をクリックします。
 
 ![network storage, enable samba](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_to_enable.png){class="glboxshadow"}
 
-Go to **Shared Folder** tab. Click **+ Add** button to add a shared folder.
+**共有フォルダ**タブに移動します。 **+追加**ボタンをクリックして、共有フォルダを追加します。
 
 ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folders.png){class="glboxshadow"}
 
-Choose a folder to share, then click **Next**.
+共有するフォルダを選択し、**次へ**をクリックします。
 
 ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_add_shared_folder.png){class="glboxshadow"}
 
-For security reasons, we do not recommend enabling **Anonymous Access**.
+セキュリティ上の理由から、**匿名アクセス**を有効にすることはお勧めしません。              
 
 If you leave the **Anonymous Access** off, you need to create a user by clicking the **+ Add User** button or choose an existing user, and then check the user in the option **Writable User** or **Read-Only User**. The User is for the connection to the Samba Server. You can manage the user in the **User Management** tab.
+**匿名アクセス**をオフのままにした場合は、**+ユーザーの追加**ボタンをクリックしてユーザーを作成するか、既存のユーザーを選択してから、**書き込み可能なユーザー**またはオプションでユーザーをチェックする必要があります。 **読み取り専用ユーザー**。 ユーザーはSambaサーバーへの接続用です。 **ユーザー管理**タブでユーザーを管理できます。
 
-Finally, click the **Apply** button.
+最後に、[Apply]ボタンをクリックします。
 
 ![network storage, shared folder](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_folder_settings.png){class="glboxshadow"}
 
-That is it. The access link can be found in **Shared Link**.
+アクセスリンクは**共有リンク**にあります。
 
 ![network storage, shared link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_shared_link.png){class="glboxshadow"}
 
-Click **Shared Link**, it will show the access link for each system. The Unix-like system include Android, iOS, macOS, Ubuntu etc.
+**共有リンク**をクリックすると、各システムのアクセスリンクが表示されます。Unixライクなシステムには、Android、iOS、macOS、Ubuntuなどが含まれます。
 
-**Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+**注意：**WANからのSambaアクセスを許可する**を有効にしてWANからアクセスする場合、下図のRouter IP（デフォルト192.168.8.1）をINTERNETページにあるWAN IPに置き換える必要があります。
 
 ![network storage, folder access link](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba/samba_folder_access_link.png){class="glboxshadow"}
 
-Then try to access the Samba on various OS, check out [here](#samba-client).
+その後、様々なOSでSambaにアクセスしてみて、以下をチェックしてみてください。[ここ](#samba-client).
 
-## Set up WebDAV
+## WebDAVのセットアップ
 
 Toggle to enable WebDAV.
 

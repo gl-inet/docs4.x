@@ -1,21 +1,21 @@
-# Network Mode
+#ネットワークモード
 
-On the left side of web Admin Panel -> MORE SETTINGS -> Network Mode
+Web管理パネルの左側 -> その他の設定 ->ネットワークモード
 
-When you change the router’s network mode, you may need to re-connect all your client devices.
+ルーターのネットワークモードを変更する場合、すべてのクライアントデバイスを再接続する必要がある場合があります。
 
-When you use Access Point/Extender/WDS mode, you may not connect to the web Admin Panel again. Try to access the web Admin Panel by the IP address that parent router assigned to this router. Or you can Press and hold the reset button for 4 seconds to revert to Router mode.
+アクセスポイント/エクステンダー/WDSモードを使用している場合、Web管理パネルに再度接続することはできません。 親ルーターがこのルーターに割り当てたIPアドレスでWeb管理パネルにアクセスしてみてください。 または、リセットボタンを4秒間押し続けて、ルーターモードに戻すこともできます。
 
-Here is an example of GL-AXT1800. 
+GL-AXT1800の例を次に示します。
 
-**Note:** some models do not support WDS mode.
+**注：**一部のモデルはWDSモードをサポートしていません。
 
 ![network mode](https://static.gl-inet.com/docs/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
 
-- Router. Create your own private network. The router will act as NAT, firewall and DHCP server. This is the default mode.
+- ルーター。 独自のプライベートネットワークを作成します。 ルーターは、NAT、ファイアウォール、DHCPサーバーとして機能します。 これがデフォルトのモードです。
 
-- Access Point. Connect to a wired network and broadcast a wireless network.
+- アクセス・ポイント。 有線ネットワークに接続し、無線ネットワークをブロードキャストします。
 
-- Extender. Extend the Wi-Fi coverage of an existing wireless network.
+- エクステンダー。 既存のワイヤレスネットワークのWi-Fiカバレッジを拡張します。
 
-- WDS. Similar to Extender, please choose WDS if your main router supports WDS mode.
+- WDS。 エクステンダーと同様に、メインルーターがWDSモードをサポートしている場合は、WDSを選択してください。

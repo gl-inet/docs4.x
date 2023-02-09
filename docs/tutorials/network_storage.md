@@ -30,7 +30,7 @@ Usually models with USB ports or MicroSD(TF) slots are supported for file sharin
 | GL-AXT1800 (Slate AX) | √ | √ | √ | √ | √ | √ | √ | √ |
 | GL-A1300 (Slate Plus) | √ | √ | - | √ | √ | √ | √ | √ |
 | GL-MT2500/GL-MT2500A (Brume 2) | √ | √ | - | √ | √ | √ | √ | √ | 
-| GL-SFT1200 | √ | √ | - | √ | √ | - | √ | √ | 
+| GL-SFT1200 | √ | √ | - | √ | √ | √ | √ | √ | 
 | GL-S1300 (Convexa-S) | √ | √ | - | √ | √ | √ | √ | √ |
 | GL-MT1300 (Beryl) | √ | √ | √ | - | √ | √ | √ | √ |
 | GL-AX1800 (Flint) | √ | √ | - | √ | √ | √ | √ | √ |

@@ -62,3 +62,17 @@
   	</div>
   </div>
 </div>
+
+### End of life models
+
+<div class="gl-product-row">
+  <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-ar750s/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ar750s.jpg" >
+        <div class="gl-product-model">GL-AR750S</div>
+        <div class="gl-product-model">(Slate)</div>
+  	  </a>
+  	</div>
+  </div>
+</div>

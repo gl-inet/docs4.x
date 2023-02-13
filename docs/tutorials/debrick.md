@@ -88,7 +88,7 @@ You can also refer to video tutorial below.
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
-        4. Under the "IP settings" section, click the **Edit** button.
+        4. Under the "IP assignment" section, click the **Edit** button.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 

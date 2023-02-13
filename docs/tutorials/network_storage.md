@@ -192,7 +192,7 @@ Then you will find **Shared Link**.
 
     ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_6.png){class="glboxshadow"}
 
-=== "Mac OS"
+=== "macOS"
 
     You can access Samba by the Finder.
 

@@ -56,7 +56,7 @@ Then follow the steps below to check the router's IP address.
     
     ![property of network on windows 7](https://static.gl-inet.com/docs/en/3/tutorials/cannot_access_web_panel/property_of_network_win7.jpg){class="glboxshadow"}
 
-=== "Mac OS"
+=== "macOS"
 
     1. System Preferences -> Network
 

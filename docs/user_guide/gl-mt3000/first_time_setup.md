@@ -16,3 +16,5 @@ Package Contents:
 - 1 x Thank you card
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
+
+Check out Slate AX's [unboxing video](../../../video_library/#gl-mt3000beryl-ax).

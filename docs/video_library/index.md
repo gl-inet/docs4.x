@@ -4,6 +4,20 @@
 
 An Introduction to our future products, and a glimpse into our latest development.
 
+### GL-MT3000(Beryl AX)
+
+Beryl AX (GL-MT3000) - Unboxing and Setup Guide
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I6P5mkGijAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+GL-MT3000 Beryl AX | THE SMALLEST WI-FI 6 VPN ROUTER
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6h8G1MzF2hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Beryl AX (GL-MT3000) VS Beryl (GL-MT1300) Comparison
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/roOFAFT4cjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### GL-MT2500/GL-MT2500A(Brume 2)
 
 Meet Brume 2 - Security Gateway for Remote Access

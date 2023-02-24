@@ -4,6 +4,8 @@ The wireless interface may vary a bit from model to model, here is an example of
 
 On the left side of web Admin Panel -> WIRELESS
 
+**Note**: Some models do not have 5G WiFi, e.g. GL-S200
+
 ## Main WiFi
 
 * 5G WiFi

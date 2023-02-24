@@ -136,6 +136,19 @@ nav:
       - Applications: user_guide/gl-mt2500/applications.md
       - Network: user_guide/gl-mt2500/network.md
       - System: user_guide/gl-mt2500/system.md
+    - GL-S200:
+      - Hardware Info: user_guide/gl-s200/hardware_info.md
+      - First Time Setup: user_guide/gl-s200/first_time_setup.md
+      - Internet: user_guide/gl-s200/internet.md
+      - Wireless: user_guide/gl-s200/wireless.md
+      - Clients: user_guide/gl-s200/clients.md
+      - Thread Mesh: user_guide/gl-s200/thread_mesh.md
+      - GL Dev Board: user_guide/gl-s200/gl_dev_board.md
+      - Bluetooth: user_guide/gl-s200/bluetooth.md
+      - VPN: user_guide/gl-s200/vpn.md
+      - Applications: user_guide/gl-s200/applications.md
+      - Network: user_guide/gl-s200/network.md
+      - System: user_guide/gl-s200/system.md
     - GL-MT1300 (Beryl):
       - Hardware Info: user_guide/gl-mt1300/hardware_info.md
       - First Time Setup: user_guide/gl-mt1300/first_time_setup.md

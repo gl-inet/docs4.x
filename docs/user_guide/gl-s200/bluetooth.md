@@ -153,3 +153,7 @@ If you would like to export the SSL certificate associated with the server conne
 You can import a Bluetooth configuration that you have previously backed up or exported from another machine on the Bluetooth configuration restore page.
 
 ![restore](https://static.gl-inet.com/docs-iot/en/ble-web-guide/restore.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

@@ -118,7 +118,7 @@ Click **Global Options** will popup a global options dialog.
 
 3. Services From GL.iNet Doesn't Use VPN
 
-    If this option is enabled, services on routers that usually require the use of a real IP will not use VPN. Including GoodCloud, DDNS, rtty.
+    If this option is enabled, services on routers that usually require the use of a real IP will not use VPN. Including GoodCloud, DDNS, rtty. Rtty include the **Remote SSH** and **Remote Web Access** in [GoodCloud page](../cloud/#enable-goodcloud-on-router).
 
     The main purpose of this is to use VPN Client and [GoodCloud](../cloud) / [DDNS](../ddns) at the same time. It is recommended to turn on this option if you want to use GoodCloud, otherwise the stability of GoodCloud will be affected by the VPN status. If you want to use DDNS, you must turn on this option, otherwise DDNS will point to the IP address of the VPN Server.
 

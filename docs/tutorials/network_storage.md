@@ -7,12 +7,8 @@
 - [Set up Samba](#set-up-samba)
 - [Set up WebDAV](#set-up-webdav)
 - [Set up DLNA](#set-up-dlna)
-- [Set up FTP](#set-up-ftp)
-- [Set up NFS](#set-up-nfs)
 - [Samba Client](#samba-client)
 - [WebDAV Client](#webdav-client)
-- [FTP Client](#ftp-client)
-- [NFS Client](#nfs-client)
 
 ## Introduction
 
@@ -24,19 +20,19 @@ The supported disk formats are NTFS, FAT32.
 
 Usually models with USB ports or MicroSD(TF) slots are supported for file sharing. For devices with Flash space less than or equal to 32MB, the Network Storage function is not yet supported and is still being developed and optimized.
 
-| Router Model | USB Stick | USB Hard Drive | MicroSD Card | Samba | Webdav | DLNA | FTP | NFS |
-| :----------- | :-------: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| GL-MT3000 (Beryl AX) | √ | √ | - | √ | √ | √ | √ | √ | 
-| GL-AXT1800 (Slate AX) | √ | √ | √ | √ | √ | √ | √ | √ |
-| GL-A1300 (Slate Plus) | √ | √ | - | √ | √ | √ | √ | √ |
-| GL-MT2500/GL-MT2500A (Brume 2) | √ | √ | - | √ | √ | √ | √ | √ | 
-| GL-SFT1200 | √ | √ | - | √ | √ | √ | √ | √ | 
-| GL-S1300 (Convexa-S) | √ | √ | - | √ | √ | √ | √ | √ |
-| GL-MT1300 (Beryl) | √ | √ | √ | - | √ | √ | √ | √ |
-| GL-AX1800 (Flint) | √ | √ | - | √ | √ | √ | √ | √ |
-| GL-AR750S (Slate) | √ | √ | √ | - | √ | √ | √ | √ |
-| GL-B1300 (Convexa-B) | √ | √ | - | - | - | - | - | - |
-| GL-AP1300 (Cirrus) | - | - | - | - | - | - | - | - |
+| Router Model | USB Stick | USB Hard Drive | MicroSD Card | Samba | Webdav | DLNA |
+| :----------- | :-------: | :---: | :---: | :---: | :---: | :---: |
+| GL-MT3000 (Beryl AX) | √ | √ | - | √ | √ | √ |
+| GL-AXT1800 (Slate AX) | √ | √ | √ | √ | √ | √ |
+| GL-A1300 (Slate Plus) | √ | √ | - | √ | √ | √ |
+| GL-MT2500/GL-MT2500A (Brume 2) | √ | √ | - | √ | √ | √ |
+| GL-SFT1200 | √ | √ | - | √ | √ | √ |
+| GL-S1300 (Convexa-S) | √ | √ | - | √ | √ | √ |
+| GL-MT1300 (Beryl) | √ | √ | √ | - | √ | √ |
+| GL-AX1800 (Flint) | √ | √ | - | √ | √ | √ |
+| GL-AR750S (Slate) | √ | √ | √ | - | √ | √ |
+| GL-B1300 (Convexa-B) | √ | √ | - | - | - | - |
+| GL-AP1300 (Cirrus) | - | - | - | - | - | - |
 
 ## Insert Storage Device
 
@@ -135,30 +131,6 @@ Toggle to enable DLNA, modify **Share Path** if needed, click **Apply**. That is
 ![network storage, enable dlna](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_dlna.png){class="glboxshadow"}
 
 Connect your smart TV to the router, it will find the DLNA Server.
-
----
-
-## Set Up FTP
-
-Toggle to enable FTP, modify **Share Path**, click **Apply**.
-
-![network storage, enable ftp](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_ftp.png){class="glboxshadow"}
-
-Then you will find **Shared Link**, you can find the access link in **Shared Link**.
-
-**Note:** FTP protocol is not encrypted, use at your own risk. It is recommended to use it only for some non-sensitive file sharing.
-
----
-
-## Set Up NFS
-
-Toggle to enable NFS, modify **Share Path**, click **Apply**.
-
-![network storage, enable nfs](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/enable_nfs.png){class="glboxshadow"}
-
-Then you will find **Shared Link**.
-
-**Note:** NFS does not support Utf8 very well, the file name may be messed up, please try to use English as the file name.
 
 ---
 
@@ -367,88 +339,6 @@ Then you will find **Shared Link**.
     Click **Done** button to complete this setup.
 
     ![documents WebDAV](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
-
----
-
-## FTP Client
-
-Windows' File Explorer and macOS' Finder both support the FTP protocol, and there are many excellent third-party FTP clients, such as FileZilla.
-
-=== "Windows"
-
-    Here is an example of Windows 11, Windows 10 is similar.
-
-    Open up File Explorer and then right-click on **This PC** (in the left pane). From the resulting context menu, select **Show more options** -> **Add a network location**
-
-    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_01.png){class="glboxshadow"}
-
-    Click **Choose a custom network location** and then click **Next**.
-
-    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_02.png){class="glboxshadow"}
-
-    Enter the FTP access link. Then click **Next**.
-
-    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_03.png){class="glboxshadow"}
-
-    Make sure **Log on anonymously** is checked. Click **Next**.
-
-    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_04.png){class="glboxshadow"}
-
-    Give a name of this location. Click **Next**.
-
-    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_05.png){class="glboxshadow"}
-
-    Click **Finish**.
-
-    ![windows 11 add network location](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/windows11_add_network_location_06.png){class="glboxshadow"}
-
-=== "FileZilla"
-
-    [FileZilla](https://filezilla-project.org/download.php) support Windows, macOS and Linux.
-
-    Enter the FTP access link, without `ftp://`, then click **Quickconnect**.
-
-    ![filezilla](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/filezilla_01.png){class="glboxshadow"}
-
-    It will pop up an insecure warning dialog. Because FTP protocol is not encrypted, it is recommended to use it only for some non-sensitive file sharing. Click **OK** to continue.
-
-    ![filezilla](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/filezilla_02.png){class="glboxshadow"}
-
-    Then it will show the files on the right side of window.
-
-    ![filezilla](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/ftp_client/filezilla_03.png){class="glboxshadow"}
-    
-## NFS Client
-
-=== "Windows"
-
-    Here is an example of Windows 11, Windows 10 is similar.
-
-    The first step is to install the NFS client. Click the Windows button to open Start, type **turn windows features on or off**, and click to open the Turn Windows features on or off dialogue box.
-
-    ![turn windows features on or off](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/nfs_client/windows/turn_windows_feature_on_or_off.png){class="glboxshadow"}
-
-    Scroll down and select the option Services for NFS, then click OK.
-
-    ![turn on nfs client](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/nfs_client/windows/turn_on_nfs_client.png){class="glboxshadow"}
-
-    Open **Command Prompt**, mount it with fellowing command.
-
-    `mount IP:SHARE-PATH K:`
-
-    Replace **IP** and **SHARE-PATH** with the name show on Shared Link. Replace **K:** with the desired drive letter.
-
-    ![cmd mount nfs](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/nfs_client/windows/cmd_mount_nfs.png){class="glboxshadow"}
-
-    Check [here](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/mount) to learn more about `mount` command and its parameters.
-
-    If it mounts successfully, you can find it in Network locations of Windows Explorer.
-
-    ![nfs mount](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/nfs_client/windows/nfs_has_mounted.png){class="glboxshadow"}
-
-    If you want to unmount it, right click and select **Disconnect**.
-
-    ![nfs unmount](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/nfs_client/windows/nfs_disconnect.png){class="glboxshadow"}
 
 ---
 

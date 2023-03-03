@@ -149,6 +149,11 @@ nav:
       - Applications: user_guide/gl-s200/applications.md
       - Network: user_guide/gl-s200/network.md
       - System: user_guide/gl-s200/system.md
+    - GL-S10:
+      - Hardware Info: user_guide/gl-s10/hardware_info.md
+      - First Time Setup: user_guide/gl-s10/first_time_setup.md
+      - User Manual: user_guide/gl-s10/user_manual.md
+      - Firmware Compilation Guide: user_guide/gl-s10/firmware_compilation_guide.md
     - GL-MT1300 (Beryl):
       - Hardware Info: user_guide/gl-mt1300/hardware_info.md
       - First Time Setup: user_guide/gl-mt1300/first_time_setup.md

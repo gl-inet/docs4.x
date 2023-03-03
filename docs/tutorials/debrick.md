@@ -14,11 +14,11 @@ DIYをしたり、間違ったファームウェアをフラッシュした場�
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EAaaw8nyrnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1.ファームウェアをパソコンにダウンロードしてください。[ここ](https://dl.gl-inet.com/){target="_blank"}  
+1. ファームウェアをパソコンにダウンロードしてください。[ここ](https://dl.gl-inet.com/){target="_blank"}  
 
     GL-AR750S-EXTなど一部の機種では、2種類の形式のファームウェアが用意されていますが、uboot用のファームウェアは、ファイル名の拡張子が**.img**となっていますので、そちらをご利用ください。
 
-2.ルーターの電源を抜きます。お使いのコンピュータをルーターの**イーサネットポート（LANまたはWANのいずれか）**に接続します。あなたは**他のポートを**未接続のままにしておく必要があります**。
+2. ルーターの電源を抜きます。お使いのコンピュータをルーターの**イーサネットポート（LANまたはWANのいずれか）**に接続します。あなたは**他のポートを**未接続のままにしておく必要があります**。
 
 3. リセットボタンをしっかりと押し続けてから、ルーターの電源を入れます。ルーターに電源ボタンがない場合は、電源を差し込むと自動的に電源が入ります。
 
@@ -59,92 +59,91 @@ DIYをしたり、間違ったファームウェアをフラッシュした場�
 
     ??? "Windows 7 / Windows 10"
 
-        1. Go to **Control Panel** -> **Network and Internet** -> **Network and Sharing Center** -> **Change adapter settings**.
+        1. **コントロール パネル** -> **ネットワークとインターネット** -> **ネットワークと共有センター** -> **アダプター設定の変更**に移動します。
 
-        2. Right click **Local Area Connection** -> **Properties**.
+        2. **ローカルエリア接続**を右クリック -> **プロパティ**をクリックします。
 
-        3. Click **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
+        3.  **インターネットプロトコルバージョン4（TCP/IPv4）** -> **プロパティ**をクリックします。
 
-        4. Set the **IP adress** to `192.168.1.2` manually.
+        4. **IP アドレス**を手動で  `192.168.1.2` に設定します。
 
-        5. Set the **Subnet mask** to `255.255.255.0`.
+        5. **サブネット マスク** を`255.255.255.0`に設定します。
 
             ![ipv4 properties](https://static.gl-inet.com/docs/en/2.x/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
 
-        6. Click the **OK** button.
+        6.  **OK** ボタンをクリックします。
 
     ??? "Windows 11"
 
-        1. Open Settings.
+        1. 設定を開きます。
 
-        2. Click on **Network & Internet**.
+        2.  **ネットワーク & インターネット**をクリックします。
 
-        3. Click the **Ethernet** tab.
+        3.  **イーサネット** タブをクリックします。
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
-        4. Under the "IP settings" section, click the **Edit** button.
+        4. "IP設定"セクションで、**編集**ボタンをクリックします。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        5. Select the **Manual** option.
+        5.  **マニュアル** を選択します。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        6. Turn on the **IPv4 toggle** switch.
+        6. **IPv4トグル** スイッチをオンにします。
 
-        7. Set the static **IP address** as **192.168.1.2**.
+        7. 静的 **IPアドレス**を**192.168.1.2**に設定します。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        8. Specify the **Subnet mask** as **255.255.255.0**.
+        8. **サブネットマスク** を **255.255.255.0**と指定します。
 
-        9. Click the **Save** button.
+        9. **保存** ボタンをクリックします。
 
     ??? "macOS"
 
-        1. Go to System Preferences -> Network.
+        1. システム環境設定 -> ネットワークを選択します。
 
-        2. Chooose Ethernet -> Advanced -> TCP/IP.
+        2. イーサネット -> 詳細設定-> TCP/IPを選択します。
 
-        3. In Configure IPv4, choose Manually.
+        3. IPv4設定、手動 を選択します。
+        4. IPv4 アドレスを 192.168.1.2 に手動で設定します。
 
-        4. Set the IPv4 Address to 192.168.1.2 manually.
-
-5. Use browser to visit **http://192.168.1.1**, this is the Uboot Web UI.
+5. ブラウザで**http://192.168.1.1**にアクセスしてください。これはUbootのWeb UIです。
 
     ![Uboot web ui](https://static.gl-inet.com/docs/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
-    **Note:** The Uboot Web UI above may not be exactly the same as what you see, because the Uboot version is different for different production dates. In some cases, we recommend upgrading the Uboot version. Please refer to the tutorial below.
+    **注意:** Uboot のバージョンは製造日によって異なるため、上記の Uboot Web UI は実際に表示されているものとまったく同じではない場合があります。 場合によっては、Uboot のバージョンをアップグレードすることをお勧めします。 以下のチュートリアルを参照してください。
 
-    ??? "Upgrade the Uboot version"
+    ??? "Ubootのバージョンをアップグレードする"
 
-        Some Uboot versions are too old or its Web UI is not easy for users to understand, so we recommend upgrading the Uboot version.
+        Ubootのバージョンが古すぎたり、そのWeb UIがユーザーにとってわかりにくいものもありますので、Ubootのバージョンアップをお勧めします。
 
-        For example, the following figure shows the Web UI of the old Uboot version of GL-AR750S. It has two **Choose file** buttons, which can be confusing for users.
+        たとえば、次の図は、古い Uboot バージョンの GL-AR750S の Web UI を示しています。 [ファイルを選択] ボタンが 2 つあるため、ユーザーが混乱する可能性があります。
 
         ![gl-ar750s old Uboot version](https://static.gl-inet.com/docs/en/4/tutorials/debrick/gl-ar750s_firmware_update_page_of_old_uboot_version.png){class="glboxshadow" width="700"}
 
-        1. You need to download the Uboot file [here](https://github.com/gl-inet/uboot-for-qca95xx/tree/master/bin){target="_blank"} in advance.
+        1. 事前に [こちら](https://github.com/gl-inet/uboot-for-qca95xx/tree/master/bin){target="_blank"} からUbootファイルをダウンロードしておく必要があります。
 
-        2. Repeat the above steps until you can access the Uboot Web UI.
+        2. Uboot Web UIにアクセスできるようになるまで、上記の手順を繰り返します。
 
-        3. Use browser to visit **http://192.168.1.1/uboot.html**
+        3. ブラウザで**http://192.168.1.1/uboot.html**にアクセスしてください。
 
             ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 
-        4. Click the **Choose file** button and choose the Uboot file you just downloaded.
+        4. **ファイルを選択する** ボタンをクリックし、先ほどダウンロードしたUbootファイルを選択します。
 
-        5. Click **Update U-Boot** button.
+        5. **U-Bootのアップデート** ボタンをクリックします。
 
-        6. It will take several minutes to update. After a successful update, it will reboot the router.
+        6. アップデートには数分かかります。アップデートに成功すると、ルーターが再起動します。
 
-        7. At this time you can change the IP setting back in step 4 and try to access the web Admin Panel, if you can access the web Admin Panel normally, it means the router has been rebooted.
+        7. この時、手順4でIP設定を元に戻して、Web管理パネルにアクセスしてみてください。Web管理パネルに正常にアクセスできれば、ルーターが再起動されたことを意味します。
 
-        8. Repeate the above steps to upgrade the firmware. If the Uboot version is updated successfully, you will see that the Uboot Web UI has changed at step 5. 
+        8. 上記の手順を繰り返し、ファームウェアをバージョンアップします。Ubootのバージョンアップに成功すると、手順5でUbootのWeb UIが変更されたことが確認できます。 
 
-6. Click **Choose file** button to find the firmware file. Then click **Update firmware** button.
+6.  **ファイルを選択する**ボタンをクリックして、ファームウェアファイルを探します。 **ファームウェアの更新** ボタンをクリックします。
 
-7. Wait for around 3 minutes. Don’t power off your device when updating. The router is ready when both power and  Wi-Fi LED are on or you can find its SSID on your device.
+7. 3分程度お待ちください。アップデート中は端末の電源を切らないでください。電源とWi-Fi LEDの両方が点灯している場合、またはデバイスにルーターのSSIDが表示されている場合は、ルーターの準備が完了しています。
 
-8. Revert the IP setting you did in step 4 and connect your device to the LAN or Wi-Fi of the router. You will be able to access the router via **192.168.8.1** again.
+8. 手順4で行ったIP設定を元に戻し、端末をルーターのLANまたはWi-Fiに接続します。再び**192.168.8.1**経由でルーターにアクセスできるようになります。

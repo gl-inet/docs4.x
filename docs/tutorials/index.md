@@ -4,44 +4,44 @@ hide:
   - toc
 ---
 
-# Tutorials
+# チュートリアル
 
-Learn how to use our devices and add-on features with our step to step guides and answers to frequently asked questions.
+デバイスやアドオン機能の使い方を、ステップ ツー ステップ ガイドとよくある質問への回答でご紹介しています。
 
 ## FAQ
 
 * [Ubootを使用してルーターをデブレイクする方法とは？](uboot)
-* [Connect to a Hotspot with Captive Portal?](connect_to_a_hotspot_with_captive_portal)
-* [How to remote access router's web Admin Panel?](remote_access_web_admin_panel)
-* [How to set up OpenVPN?](openvpn_client)
-* [How to set up WireGuard?](wireguard_client)
+* [Captive PortalでHotspotに接続する](connect_to_a_hotspot_with_captive_portal)
+* [ルーターのWeb管理パネルにリモートアクセスする方法は？](remote_access_web_admin_panel)
+* [OpenVPNの設定方法は？](openvpn_client)
+* [WireGuardの設定方法は？](wireguard_client)
 
-## Internet Connection
+## インターネット接続
 
-* [How to connect to the Internet via an ethernet cable](internet_ethernet).
-* [How to connect to the Internet via Repeater](internet_repeater).
-* [How to connect to the Internet via usb tethering](internet_tethering).
-* [How to connect to the Internet via usb modem](internet_cellular).
-* [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection)
-* [Connect to a Hotspot with Captive Portal](connect_to_a_hotspot_with_captive_portal)
+* [イーサネットケーブルでインターネットに接続する方法](internet_ethernet).
+* [リピーターでインターネットに接続する方法](internet_repeater).
+* [USBテザリングでインターネットに接続する方法](internet_tethering).
+* [usbモデムでインターネットに接続する方法](internet_cellular).
+* [私のデバイスは、イーサネットケーブルを通してのみ接続できます。このルーターを使って、私のデバイスをワイヤレス ネットワークに接続することはできますか？](produce_a_wired_connection)
+* [Captive PortalでHotspotに接続する](connect_to_a_hotspot_with_captive_portal)
 * [DHCP](dhcp)
 * [PPPoE](pppoe)
-* [How to set static WAN IP?](how_to_set_static_wan_ip)
+* [WANの固定IPを設定する方法は？](how_to_set_static_wan_ip)
 
-## Wireless
+## ワイヤレス
 
-* [Wireless](wireless)
+* [ワイヤレス](wireless)
 
-## Clients
+## クライアント
 
-* [Clients](clients)
+* [クライアント](clients)
 
-## Upgrade
+## アップグレード
 
-* [Firmware upgrade](firmware_upgrade)
-* [Where to download official firmware?](where_to_download_firmware)
-* [How to upgrade GL-AX1800(Flint) to firmware 4.x?](gl-ax1800_upgrade_to_4)
-* [How to downgrade GL-AX1800(Flint) to firmware 3.x?](gl-ax1800_upgrade_to_4/#downgrade)
+* [ファームウェアのアップグレード](firmware_upgrade)
+* [公式ファームウェアはどこからダウンロードできますか？](where_to_download_firmware)
+* [GL-AX1800(Flint)をファームウェア4.xにアップグレードする方法は？](gl-ax1800_upgrade_to_4)
+* [GL-AX1800(Flint)をファームウェア3.xにダウングレードする方法は?](gl-ax1800_upgrade_to_4/#downgrade)
 
 ## Firewall
 

@@ -38,18 +38,18 @@
 
     ![connected](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png)
 
-## Solution 2：MAC Clone
+## 解決策 2：MAC クローン
 
-Sometimes, disable the *DNS Rebinding Attack Protection* is not enough to solve this issue. Then you need to try the **MAC Clone** based on the solution 
+*DNS Rebinding Attack Protection* を無効にしても、この問題を解決できない場合があります。その場合は、以下の解決策に基づいて、**MAC Clone**を試す必要があります。
 
-1. Got your smartphone registered on the network.
+1. スマートフォンをネットワークに登録する。
 
-2. On the left side of web Admin Panel -> MORE SETTINGS -> MAC Clone.
+2. ウェブ管理画面の左側→MORE SETTINGS→MAC Cloneをクリックします。
 
-3. Clone the MAC address of your smartphone to the router.
+3. スマートフォンのMACアドレスをルーターにクローンする。
 ![MACCLONE](https://d2jbioc4ahy17s.cloudfront.net/docs/en/4/tutorials/mac_clone/macclone4.0.jpg)
-4. It may need to reboot the rooter to take effect.
+4. 有効にするには、ルーターを再起動する必要がある場合があります。
 
-## Solution 3：Ask the help from the hotel staff
+## 解決策3：ホテルのスタッフに相談する
 
-Some hotel's network has a very strict verification policy. Neither solution 1 nor 2 is unable to make it work, then you can consult with the hotel staff if they can add the router's MAC address(the Factory default one) to their "Whitelist" directly.
+ホテルのネットワークは、非常に厳しい検証ポリシーを持っている場合があります。解決策1でも2でもうまくいかない場合は、ホテルのスタッフに、ルーターのMACアドレス（工場出荷時のもの）を直接「ホワイトリスト」に追加できるかどうか相談してみてください。

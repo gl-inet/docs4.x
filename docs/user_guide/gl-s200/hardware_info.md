@@ -12,6 +12,10 @@ GL-S200 is a miniaturized Thread gateway supporting BLE protocol that runs on a 
 
 ---
 
-## PCB Pinout
+## GL-S200 PCB Pinout
 
 ![gl-s200 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-s200/hardware_info/gl-s200_pinout.jpg){class="glboxshadow"}
+
+## GL Thread Dev Board Pinout
+
+![gl thread dev board pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-s200/hardware_info/gl_thread_dev_board_pinout.jpg){class="glboxshadow"}

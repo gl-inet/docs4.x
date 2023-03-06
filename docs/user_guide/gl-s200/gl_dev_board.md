@@ -73,7 +73,7 @@ To enable users to better test the thread network in real-life situations, we of
 
 ![Automations](https://static.gl-inet.com/docs-iot/en/dev_board_web_guide/automations.png){class="glboxshadow"}
 
-### Add an automation
+### Add an automation with device action
 
 As an example, create an automation example: press a button on either board and the RGB lights on/off on both boards.
 
@@ -108,6 +108,56 @@ As an example, create an automation example: press a button on either board and 
 8. You can see the automation cards that have been created.
 
     ![create automations](https://static.gl-inet.com/docs-iot/en/dev_board_web_guide/auto-created.png){class="glboxshadow"}
+
+### Add an automation with webhook
+
+A webhook in web development is a method of augmenting or altering the behavior of a web page or web application with custom callbacks.
+
+As an example, I need TDB for home security alarms. When someone enters, send a message to Discord via webhook.
+
+1. Create a webhook url from Discord
+
+    Please refer to the [official Discord documentation](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks). Please copy the url of the webhook, the next steps need to use.
+
+2. Fellow the steps below to create an automation.
+
+    ![create automation, name](https://static.gl-inet.com/docs-iot/en/tutorials_webhook/auto_name.png){class="glboxshadow"}
+
+    Give it a name for the automation.
+
+    ![create automation, trigger type](https://static.gl-inet.com/docs-iot/en/tutorials_webhook/auto_trigger_type.png){class="glboxshadow"}
+
+    Select **Sensor trigger**.
+
+    ![create automation, trigger device](https://static.gl-inet.com/docs-iot/en/tutorials_webhook/auto_trigger_dev.png){class="glboxshadow"}
+
+    Select devices.
+
+    ![create automation, trigger condition](https://static.gl-inet.com/docs-iot/en/tutorials_webhook/auto_trigger_opera.png){class="glboxshadow"}
+
+    Select trigger condition.
+
+    ![create automation, trigger operation type](https://static.gl-inet.com/docs-iot/en/tutorials_webhook/auto_actor_type.png){class="glboxshadow"}
+
+    Select **Webhook**.
+
+    ![create automation, webhook url](https://static.gl-inet.com/docs-iot/en/tutorials_webhook/auto_actor_url.png){class="glboxshadow"}
+
+    Paste the url you got when you created the webhook.
+
+    ![create automation, webhook url](https://static.gl-inet.com/docs-iot/en/tutorials_webhook/auto_actor_msg.png){class="glboxshadow"}
+
+    Enter the message you wish to send to Discord. [Discord specifies that the message sent provide a value for at least one of **content**, **embeds**, **components**, or **file**](https://discord.com/developers/docs/resources/webhook).
+
+    **Note**: Different Internet applications have their own definitions for the content and format of messages, please refer to the relevant documentation.
+
+    Finally, an Automation that triggers the webhook is successfully created.
+
+    ![create automation, done](https://static.gl-inet.com/docs-iot/en/tutorials_webhook/auto_end.png){class="glboxshadow"}
+
+    When the TDB's pyroelectric infrared sensor is triggered, the GL-S200 sends the specified message to the webhook that is set up.
+
+    ![Discord get message](https://static.gl-inet.com/docs-iot/en/tutorials_webhook/final_effect.png){class="glboxshadow"}
 
 ---
 

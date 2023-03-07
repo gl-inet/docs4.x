@@ -6,6 +6,8 @@ Tailscale is a VPN service that makes the devices and applications you own acces
 
 The Tailscale feature in GL.iNet router allow the router to join the Tailscale and you can remote access it.
 
+**Note**: Because Tailscale is based on WireGuard, it is not recommended to use the Tailscale feature with the OpenVPN Client or WireGuard Client at the same time, as there may be bugs.
+
 **Note**: This feature is currently in beta, and may have some bugs.
 
 ## Supported models
@@ -73,7 +75,15 @@ Now that the GL-MT2500 is connected to the Tailscale virtual network, you can te
 
 ## Allow Remote Access WAN
 
-Coming soon.
+If this option is enabled, the resources on the WAN side of the device will be allowed to be accessed via the Tailscale virtual network.
+
+For example, as shown below, if Allow Remote Access WAN function is enabled, you can access GL-AX1800 by its IP(192.168.23.1) from leo-laptop, because GL-AX1800 is connected to the WAN port of GL-MT2500, which is the upper layer device of GL-MT2500.
+
+![tailscale, remote access wan typology](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/tailscale_access_wan.png){class="glboxshadow"}
+
+The operation steps are as follows.
+
+
 
 ## Allow Remote Access LAN
 

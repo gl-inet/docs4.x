@@ -93,7 +93,7 @@ The operation steps are as follows.
 
 3. Enable the subnet routes.
 
-    ![enable subnet route](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+    ![tailcale, enable subnet route](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
 4. Now you can access GL-AXT1800 by its IP(`192.168.29.1`) on other machines. You can actually access the device at 192.168.29.0/24.
 
@@ -101,8 +101,28 @@ The operation steps are as follows.
 
 ## Allow Remote Access LAN
 
-Coming soon.
+If this option is enabled, the resources inside the device LAN will be allowed to be accessed via the Tailscale virtual network.
+
+For example, as show below, if this function is enabled, you can SSH the `Ubuntu` by its IP(`192.168.8.100`) on `leo-phone`, because the PC is connected to the LAN port of GL-MT2500, which is the lower layer device of GL-MT2500.
+
+The operation steps are as follows.
+
+1. Enable Allow Remote Access LAN.
+
+2. Go to admin console of Tailscale, it will display an alert that GL-MT2500 has subnets. Click on the GL-MT2500 menu and select **Edit route settings**.
+
+    ![tailscale subnet alert](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/tailscale_subnet_alert.png){class="glboxshadow"}
+
+3. Enable the subnet routes.
+
+    ![tailscale, enable subnet route](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/tailscale_enable_subnet_routes_lan.png){class="glboxshadow"}
+
+4. Now you can ping or SSH the  by its IP(`192.168.8.100`) on other machines. You can actually access the device at 192.168.8.0/24.
+
+    ![tailscale, access ubuntu](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/tailscale_access_ubuntu.jpg){class="glboxshadow gl-50-desktop"}
 
 ## Custom Exit Nodes
 
-Coming soon.
+The exit node feature lets you route all non-Tailscale internet traffic through a specific device on your network. The device routing your traffic is called an “exit node.”
+
+[Refer link: Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/)

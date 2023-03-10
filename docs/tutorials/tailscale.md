@@ -127,6 +127,32 @@ The operation steps are as follows.
 
 ## Custom Exit Nodes
 
-The exit node feature lets you route all non-Tailscale internet traffic through a specific device on your network. The device routing your traffic is called an “exit node.”
+The exit node feature lets you route all non-Tailscale internet traffic through a specific device on your network. The device routing your traffic is called an “exit node”.
+
+**Note**: GL.iNet router is not yet available as an exit node, this feature is still under development.
+
+Setup Steps:
+
+1. On the device you wish to use as an exit node, select **Run exit node**. On Windows, follow the steps below.
+
+    ![tailscale windows, run exit node](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node.png){class="glboxshadow"}
+
+    Click **Yes**.
+
+    ![tailscale windows, run exit ndoe alert](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
+
+2. Set up the device as an exit node in the Admin console.
+
+    ![tailscale exit node alert](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_exit_node_alert.png){class="glboxshadow"}
+
+    ![tailscale use as exit node](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_use_as_exit_node.png){class="glboxshadow"}
+
+3. Enable **Custom Exit Nodes** in your router, click the refresh button, and select the IP of the device that has been set up as an exit node from the drop-down menu, then click **Apply**. That is it.
+
+    ![glinet tailscale, custom exit node](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow"}
 
 [Refer link: Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/)
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

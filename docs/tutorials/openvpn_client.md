@@ -20,9 +20,9 @@ You can log in by clicking the **NordVPN** button if you have a NordVPN membersh
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is the top online VPN service for speed and security.
 
-1. Input your NordVPN account's service credentials, then click **Save Credentials & Get Servers**
+1. Input your NordVPN account's **service credentials**(not the login account email/password), then click **Save Credentials & Get Servers**
 
-    ??? "Where to find the NordVPN service credentials."
+    ???+ question "Where to find the NordVPN service credentials."
 
         You can find your NordVPN service credentials in the Nord Account dashboard.
 

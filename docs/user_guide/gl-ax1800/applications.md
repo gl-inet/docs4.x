@@ -19,3 +19,15 @@ Please visit the [**Network Storage**](../../../tutorials/network_storage/) tuto
 ## AdGuard Home
 
 Please visit the [**AdGuard Home**](../../../tutorials/adguardhome/) tutorial.
+
+## Parental Control
+
+Please visit the [**Parental Control**](../../../tutorials/parental_control/) tutorial.
+
+## ZeroTier
+
+Please visit the [**ZeroTier**](../../../tutorials/zerotier/) tutorial.
+
+## Tailscale
+
+Please visit the [**Tailscale**](../../../tutorials/tailscale/) tutorial.

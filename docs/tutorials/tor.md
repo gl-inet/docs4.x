@@ -11,7 +11,7 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 
 ## Supported models
 
-| Router Model | Support Tor |
+| Router Model | Support |
 | :----------- | :-------: |
 | GL-MT3000 (Beryl AX) | √ |
 | GL-AXT1800 (Slate AX) | √ |

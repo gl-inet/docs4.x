@@ -12,13 +12,13 @@ The Tailscale feature in GL.iNet router allow the router to join the Tailscale v
 
 ## Supported models
 
-| Router Model | Support Tailscale |
+| Router Model | Support |
 | :----------- | :-------: |
+| GL-X3000 (Spitz AX) | √ |
 | GL-MT3000 (Beryl AX) | √ |
 | GL-AXT1800 (Slate AX) | √ |
 | GL-A1300 (Slate Plus) | √ |
 | GL-MT2500/GL-MT2500A (Brume 2) | √ |
-| GL-MT1300 (Beryl) | √ |
 | GL-AX1800 (Flint) | √ |
 
 ## Setup

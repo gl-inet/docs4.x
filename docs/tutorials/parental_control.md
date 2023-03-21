@@ -105,8 +105,6 @@ There may be several reasons why the settings are not effective after being conf
       * [Clear the cache in the desktop Chrome browser](https://support.google.com/accounts/answer/32050)
       
       * [Clear the cache in the desktop Edge browser](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2)
-      
-      * [Flush the DNS cache in Windows](https://www.bing.com/search?q=how+to+flush+the+dns+cache+in+windows&qs=n&form=QBRE&sp=-1&lq=0&pq=how+to+flush+the+dns+cache+in+windows&sc=10-37&sk=&cvid=B2220ABF33A24232BA98D091A998425F&ghsh=0&ghacc=0&ghpl=)
 
 2. Perhaps the schedule for the profile you set has not yet arrived.
 

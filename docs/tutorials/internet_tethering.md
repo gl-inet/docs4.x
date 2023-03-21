@@ -14,7 +14,7 @@ Using a USB cable to share network from your smartphone to the router is called 
 
         ![turn on allow others to join](https://static.gl-inet.com/docs/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow"}
 
-    3. Go to web Admin Panel, on the left side bar, choose "INTERNET" and click "Connect" in the middle of the page.
+    3. Use a computer or another phone, connect to the router, then go to web Admin Panel, on the left side bar, choose "INTERNET" and click "Connect" in the middle of the page.
 
         ![tethering connect](https://static.gl-inet.com/docs/en/4/tutorials/internet_tethering/tethering_find_device.png){class="glboxshadow"}
 
@@ -22,7 +22,7 @@ Using a USB cable to share network from your smartphone to the router is called 
 
         ![tethering](https://static.gl-inet.com/docs/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow"}
 
-        Tethering connected.
+        Tethering connected on web Admin Panel.
 
         ![tethering](https://static.gl-inet.com/docs/en/4/tutorials/internet_tethering/tethering_connected.png){class="glboxshadow"}
 

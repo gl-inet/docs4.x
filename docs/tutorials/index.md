@@ -65,6 +65,8 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [GoodCloud](cloud), the official cloud service.
 * [AdGuard Home](adguardhome)
 * [Network Storage](network_storage)
+* [Parental Control](parental_control)
+* [Tailscale](tailscale)
 
 ## Network
 

@@ -57,7 +57,7 @@ When the connection is successful, you will automatically be redirected to the a
 
 ![tailscale admin console](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/tailscale_admin_console_2.png){class="glboxshadow"}
 
-### Testing
+### Test connectivity
 
 Now that the GL-MT2500 is connected to the Tailscale virtual network, you can test it on other devices as fellows three ways.
 

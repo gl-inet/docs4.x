@@ -116,11 +116,11 @@ Click **Global Options** will popup a global options dialog.
 
     The main scenario is to give clients access to devices in the upstream subnet, but there is no way for the router to distinguish between the upstream subnet and the Internet, so if the traffic in the client device is accessed directly through IP, there may be a risk of leakage, so this option and Block Non-VPN Traffic are mutually exclusive.
 
-3. Services From GL.iNet Doesn't Use VPN
+3. Services From GL.iNet Use VPN
 
-    If this option is enabled, services on routers that usually require the use of a real IP will not use VPN. Including GoodCloud, DDNS, rtty. Rtty include the **Remote SSH** and **Remote Web Access** in [GoodCloud page](../cloud/#enable-goodcloud-on-router).
+    If this option is enabled, services on routers that usually require the use of a real IP will use VPN. Including GoodCloud, DDNS, rtty. Rtty include the **Remote SSH** and **Remote Web Access** in [GoodCloud page](../cloud/#enable-goodcloud-on-router).
 
-    The main purpose of this is to use VPN Client and [GoodCloud](../cloud) / [DDNS](../ddns) at the same time. It is recommended to turn on this option if you want to use GoodCloud, otherwise the stability of GoodCloud will be affected by the VPN status. If you want to use DDNS, you must turn on this option, otherwise DDNS will point to the IP address of the VPN Server.
+    The main purpose of this is to use VPN Client and [GoodCloud](../cloud) / [DDNS](../ddns) at the same time. It is recommended to turn off this option if you want to use GoodCloud, otherwise the stability of GoodCloud will be affected by the VPN status. If you want to use DDNS, you must turn off this option, otherwise DDNS will point to the IP address of the VPN Server.
 
 ## VPN Server
 

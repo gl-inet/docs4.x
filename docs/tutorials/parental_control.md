@@ -22,6 +22,8 @@ We will create two rulesets, **learning** and **play**, then set the learning ti
 
 ![parental control, enable](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/parental_control_enable.png){class="glboxshadow"}
 
+**Block WAN for Unmanaged Devices** is used to block unmanaged devices from accessing the Internet.
+
 The first time, it will have a setup wizard.
 
 Give the profile a name.
@@ -31,6 +33,8 @@ Give the profile a name.
 Select the devices you want to manage, or manually add device by input their MAC address.
 
 ![create a profile guide](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_create_profile_2.png){class="glboxshadow"}
+
+You should first connect these devices to the router, otherwise you will need to enter the MAC address manually.
 
 The default ruleset of access is **Block Internet Access**. We create two rulesets here, which we will use later. Click **Add a New Ruleset**.
 

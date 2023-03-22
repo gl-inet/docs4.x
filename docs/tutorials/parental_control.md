@@ -115,3 +115,5 @@ There may be several reasons why the settings are not effective after being conf
 3. The domain name you set may be incorrect.
   
     While a website's domain name is public, the domain name used when an app calls an API is not. To resolve this, you will need to use a tool(e.g. Wireshark) to capture packets or search for it.
+
+4. If you have a device that uses a random MAC address for each connection, that will also disable the feature.

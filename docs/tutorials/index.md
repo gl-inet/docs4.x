@@ -66,6 +66,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [AdGuard Home](adguardhome)
 * [Network Storage](network_storage)
 * [Parental Control](parental_control)
+* [ZeroTier](zerotier)
 * [Tailscale](tailscale)
 
 ## Network

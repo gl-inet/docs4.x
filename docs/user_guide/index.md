@@ -56,6 +56,20 @@
   </div>
 </div>
 
+### 4G LTE Router Gateway
+
+<div class="gl-product-row">
+  <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-x3000/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_x3000.jpg" >
+        <div class="gl-product-model">GL-X3000</div>
+        <div class="gl-product-model">(Spitz AX)</div>
+  	  </a>
+  	</div>
+  </div>
+</div>
+
 ### Home Wi-Fi
 
 <div class="gl-product-row">

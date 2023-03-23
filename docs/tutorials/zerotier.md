@@ -20,6 +20,7 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 | GL-A1300 (Slate Plus) | √ |
 | GL-MT2500/GL-MT2500A (Brume 2) | √ |
 | GL-AX1800 (Flint) | √ |
+| GL-AR750S (Slate) | √ |
 
 ## Setup
 

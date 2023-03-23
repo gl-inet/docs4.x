@@ -146,6 +146,16 @@ nav:
       - Applications: user_guide/gl-mt2500/applications.md
       - Network: user_guide/gl-mt2500/network.md
       - System: user_guide/gl-mt2500/system.md
+    - GL-SFT1200 (Opal):
+      - Hardware Info: user_guide/gl-sft1200/hardware_info.md
+      - First Time Setup: user_guide/gl-sft1200/first_time_setup.md
+      - Internet: user_guide/gl-sft1200/internet.md
+      - Wireless: user_guide/gl-sft1200/wireless.md
+      - Clients: user_guide/gl-sft1200/clients.md
+      - VPN: user_guide/gl-sft1200/vpn.md
+      - Applications: user_guide/gl-sft1200/applications.md
+      - Network: user_guide/gl-sft1200/network.md
+      - System: user_guide/gl-sft1200/system.md
     - GL-S200:
       - Hardware Info: user_guide/gl-s200/hardware_info.md
       - First Time Setup: user_guide/gl-s200/first_time_setup.md

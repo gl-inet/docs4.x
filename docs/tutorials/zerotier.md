@@ -25,8 +25,6 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 
 The following is an example of the GL-MT2500.
 
-Refer link: [Getting Started of ZeroTier documentation](https://docs.zerotier.com/getting-started/getting-started/).
-
 1. Create your first ZeroTier network
 
     Refer to [ZeroTier's official Getting Started documentation](https://docs.zerotier.com/getting-started/getting-started/) to create a ZeroTier account and network. Remember to take note of the Network ID, which is a 16-digit combination of letters and numbers, as it will be needed when connecting other devices later on.
@@ -71,7 +69,33 @@ Normally, you will be able to access the web Admin Panel of the router. You can 
 
 ## Allow Remote Access WAN
 
-Coming soon.
+If this option is enabled, the resources on the WAN side of the device will be allowed to be accessed via the ZeroTier virtual network.
+
+For example, as shown below, if this function is enabled, you can access `GL-AXT1800` by its IP(`192.168.29.1`) from `leo-phone`, because `GL-AX1800` is connected to the WAN port of `GL-MT2500`, which is the upper layer device of `GL-MT2500`.
+
+![zerotier, remote access wan topology](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/zerotier_access_wan_topology.png){class="glboxshadow"}
+
+The operation steps are as follows.
+
+1. Enable Allow Remote Access WAN.
+
+    ![enable allow remote access wan](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/enable_allow_remote_access_wan_1.png){class="glboxshadow"}
+
+    It will prompt you to set up routing rules.
+
+    ![enable allow remote access wan](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/enable_allow_remote_access_wan_2.png){class="glboxshadow"}
+
+2. Go to the [my.zerotier.com](https://my.zerotier.com) or click on **ZeroTier Central** in the image above, find the **Advanced** sector of settings panel. Fill in the route (Destination and Via) requested in the previous step. Click **Submit**.
+
+    ![add route](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/add_routes_1.png){class="glboxshadow"}
+
+    After adding.
+
+    ![add route](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/add_routes_2.png){class="glboxshadow"}
+
+3. Now you can access GL-AXT1800 by its IP(`192.168.29.1`) on other machines. You can actually access the devices at `192.168.29.0/24`.
+
+    ![zerotier, access axt1800](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow"}
 
 ## Allow Remote Access LAN
 

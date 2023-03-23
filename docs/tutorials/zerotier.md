@@ -99,7 +99,33 @@ The operation steps are as follows.
 
 ## Allow Remote Access LAN
 
-Coming soon.
+If this option is enabled, the resources inside the device LAN will be allowed to be accessed via the ZeroTier virtual network.
+
+For example, as show below, if this function is enabled, you can SSH to `Ubuntu` by its IP(`192.168.8.110`) from `leo-phone`, because `Ubuntu` is connected to the LAN port of `GL-MT2500`, which is the lower layer device of `GL-MT2500`.
+
+![ZeroTier, remote access lan topology](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/zerotier_access_lan_topology.png){class="glboxshadow"}
+
+The operation steps are as follows.
+
+1. Enable Allow Remote Access LAN.
+
+    ![enable allow remote access lan](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/enable_allow_remote_access_lan_1.png){class="glboxshadow"}
+
+    It will prompt you to set up routing rules.
+
+    ![enable allow remote access lan](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/enable_allow_remote_access_lan_2.png){class="glboxshadow"}
+
+2. Go to the [my.zerotier.com](https://my.zerotier.com) or click on **ZeroTier Central** in the image above, find the **Advanced** sector of settings panel. Fill in the route (Destination and Via) requested in the previous step. Click **Submit**.
+
+    ![add route](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/add_routes_3.png){class="glboxshadow"}
+
+    After adding.
+
+    ![add route](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/add_routes_4.png){class="glboxshadow"}
+
+3. Now you can ping or SSH the  by its IP(`192.168.8.110`) on other devices. You can actually access the devices at `192.168.8.0/24`.
+
+    ![zerotier, access ubuntu](https://static.gl-inet.com/docs/en/4/tutorials/zerotier/zerotier_access_ubuntu.jpg){class="glboxshadow gl-50-desktop"}
 
 ---
 

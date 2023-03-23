@@ -6,7 +6,7 @@ When hardware acceleration is enabled, the following functions will not work pro
 
 The following models have this option:
 
-GL-X3000(Spitz AX), GL-MT2500(Brume 2), GL-MT2500A(Brume 2), GL-MT1300(Beryl), GL-MT3000(Beryl AX)
+GL-X3000(Spitz AX), GL-MT2500(Brume 2), GL-MT3000(Beryl AX), GL-MT2500A(Brume 2), GL-SFT1200(Opal), GL-MT1300(Beryl)
 
 ![Hardware Acceleration](https://static.gl-inet.com/docs/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow gl-60-desktop"}
 

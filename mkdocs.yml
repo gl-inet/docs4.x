@@ -204,6 +204,16 @@ nav:
       - Applications: user_guide/gl-xe300/applications.md
       - Network: user_guide/gl-xe300/network.md
       - System: user_guide/gl-xe300/system.md
+    - GL-X300B (Collie):
+      - Hardware Info: user_guide/gl-x300b/hardware_info.md
+      - First Time Setup: user_guide/gl-x300b/first_time_setup.md
+      - Internet: user_guide/gl-x300b/internet.md
+      - Wireless: user_guide/gl-x300b/wireless.md
+      - Clients: user_guide/gl-x300b/clients.md
+      - VPN: user_guide/gl-x300b/vpn.md
+      - Applications: user_guide/gl-x300b/applications.md
+      - Network: user_guide/gl-x300b/network.md
+      - System: user_guide/gl-x300b/system.md
     - GL-AR750S (Slate):
       - Hardware Info: user_guide/gl-ar750s/hardware_info.md
       - First Time Setup: user_guide/gl-ar750s/first_time_setup.md

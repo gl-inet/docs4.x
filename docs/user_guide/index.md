@@ -88,6 +88,13 @@
         <div class="gl-product-model">(Puli)</div>
   	  </a>
   	</div>
+    <div class="gl-product-card">
+      <a href="gl-x300b/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_x300b-ble.jpg" >
+        <div class="gl-product-model">GL-X300B</div>
+        <div class="gl-product-model">(Collie)</div>
+  	  </a>
+  	</div>
   </div>
 </div>
 

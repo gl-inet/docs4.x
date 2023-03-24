@@ -46,7 +46,14 @@
         <div class="gl-product-model">(Slate Plus)</div>
       </a>
     </div>
-      <div class="gl-product-card">
+    <div class="gl-product-card">
+      <a href="gl-sft1200/hardware_info/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_sft1200.jpg" >
+        <div class="gl-product-model">GL-SFT1200</div>
+        <div class="gl-product-model">(Opal)</div>
+      </a>
+    </div>
+    <div class="gl-product-card">
       <a href="gl-mt1300/hardware_info/">
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt1300.jpg" >
         <div class="gl-product-model">GL-MT1300</div>
@@ -65,6 +72,13 @@
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_x3000.jpg" >
         <div class="gl-product-model">GL-X3000</div>
         <div class="gl-product-model">(Spitz AX)</div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
+      <a href="gl-x750/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_x750v2.jpg" >
+        <div class="gl-product-model">GL-X750</div>
+        <div class="gl-product-model">(Spitz)</div>
   	  </a>
   	</div>
   </div>

@@ -16,6 +16,8 @@ Some GL.iNet models support MicroSD(TF) card, some models have USB port and supp
 
 The supported disk formats are NTFS, FAT32.
 
+**Note**: The power consumption of USB hard drive is quite high. You should use it with an external power supply. Otherwise, it may cause malfunction.
+
 **Note**: Some models have USB Port/MicroSD slot but have limited storage space and do not support file sharing.
 
 ## Supported models

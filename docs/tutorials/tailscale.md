@@ -22,6 +22,7 @@ The Tailscale feature in GL.iNet router allow the router to join the Tailscale v
 | GL-AX1800 (Flint) | √ |
 | GL-SFT1200 (Opal) | x |
 | GL-AR750S (Slate) | x |
+| GL-X750 (Spitz) | x |
 
 ## Setup
 

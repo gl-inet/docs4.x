@@ -31,6 +31,7 @@ Usually models with USB ports or MicroSD(TF) slots are supported for file sharin
 | GL-MT1300 (Beryl) | √ | √ | √ | - | √ | √ |
 | GL-AX1800 (Flint) | √ | √ | - | √ | √ | √ |
 | GL-AR750S (Slate) | √ | √ | √ | - | √ | √ |
+| GL-XE300 (Puli) | √ | √ | √ | - | √ | √ |
 | GL-X750 (Spitz) | - | - | - | - | - | - |
 | GL-B1300 (Convexa-B) | √ | √ | - | - | - | - |
 | GL-AP1300 (Cirrus) | - | - | - | - | - | - |

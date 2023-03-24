@@ -81,6 +81,13 @@
         <div class="gl-product-model">(Spitz)</div>
   	  </a>
   	</div>
+    <div class="gl-product-card">
+      <a href="gl-xe300/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_xe300.jpg" >
+        <div class="gl-product-model">GL-XE300</div>
+        <div class="gl-product-model">(Puli)</div>
+  	  </a>
+  	</div>
   </div>
 </div>
 

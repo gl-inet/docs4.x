@@ -224,6 +224,16 @@ nav:
       - Applications: user_guide/gl-ar750s/applications.md
       - Network: user_guide/gl-ar750s/network.md
       - System: user_guide/gl-ar750s/system.md
+    - GL-B1300 (Convexa-B):
+      - Hardware Info: user_guide/gl-b1300/hardware_info.md
+      - First Time Setup: user_guide/gl-b1300/first_time_setup.md
+      - Internet: user_guide/gl-b1300/internet.md
+      - Wireless: user_guide/gl-b1300/wireless.md
+      - Clients: user_guide/gl-b1300/clients.md
+      - VPN: user_guide/gl-b1300/vpn.md
+      - Applications: user_guide/gl-b1300/applications.md
+      - Network: user_guide/gl-b1300/network.md
+      - System: user_guide/gl-b1300/system.md
   - Tutorials:
     - Overview: tutorials/index.md
     - FAQ:

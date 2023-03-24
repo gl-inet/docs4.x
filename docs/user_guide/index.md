@@ -109,6 +109,13 @@
         <div class="gl-product-model">(Flint)</div>
   	  </a>
   	</div>
+    <div class="gl-product-card">
+      <a href="gl-b1300/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_b1300.jpg" >
+        <div class="gl-product-model">GL-B1300</div>
+        <div class="gl-product-model">(Convexa-B)</div>
+  	  </a>
+  	</div>
   </div>
 </div>
 

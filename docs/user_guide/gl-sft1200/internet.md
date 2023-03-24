@@ -4,7 +4,7 @@ The internet configuration interface lets users choose to establish the type of 
 
 Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
 
-GL-AXT1800(Slate AX) supports four ways to connect to the internet as listed below:
+GL-SFT1200(Opal) supports four ways to connect to the internet as listed below:
 
 ## Ethernet
 
@@ -12,7 +12,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../../tutorials/internet_ethernet)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/internet/axt1800_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-sft1200/internet/sft1200_ethernet.png){class="glboxshadow"}
 
 ## Repeater
 
@@ -20,7 +20,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../../tutorials/internet_repeater)
 
-![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/internet/axt1800_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-sft1200/internet/sft1200_repeater.png){class="glboxshadow"}
 
 ## Tethering
 
@@ -28,15 +28,15 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 [Click here to learn how to connect to the internet via usb tethering](../../../tutorials/internet_tethering)
 
-![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/internet/axt1800_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-sft1200/internet/sft1200_tethering.png){class="glboxshadow"}
 
 ## Cellular
- 
+
 Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
 [Click here to learn how to connect to the internet via usb modem](../../../tutorials/internet_cellular)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/internet/axt1800_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-sft1200/internet/sft1200_cellular.png){class="glboxshadow"}
 
 ## Priority and load balance
 

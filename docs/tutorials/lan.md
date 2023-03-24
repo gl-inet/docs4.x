@@ -2,6 +2,8 @@
 
 On the left side of web Admin Panel -> NETWORK -> LAN 
 
+**Note**: Some models do not have WiFi (e.g. GL-MT2500/GL-MT2500A), so there is no Guest Network tab.
+
 ![lan page](https://static.gl-inet.com/docs/en/4/tutorials/lan/lan_page.png){class="glboxshadow"}
 
 ## Private Network

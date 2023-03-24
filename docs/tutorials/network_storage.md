@@ -12,29 +12,31 @@
 
 ## Introduction
 
-Some GL.iNet models support TF(MicroSD) card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDAV, DLNA on this page for the disk.
+Some GL.iNet models support MicroSD(TF) card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDAV, DLNA on this page for the disk.
 
 The supported disk formats are NTFS, FAT32.
+
+**Note**: Some models have USB Port/MicroSD slot but have limited storage space and do not support file sharing.
 
 ## Supported models
 
 Usually models with USB ports or MicroSD(TF) slots are supported for file sharing. For devices with Flash space less than or equal to 32MB, the Network Storage function is not yet supported and is still being developed and optimized.
 
-| Router Model | USB Stick | USB Hard Drive | MicroSD Card | Samba | Webdav | DLNA |
-| :----------- | :-------: | :---: | :---: | :---: | :---: | :---: |
-| GL-MT3000 (Beryl AX) | √ | √ | - | √ | √ | √ |
-| GL-AXT1800 (Slate AX) | √ | √ | √ | √ | √ | √ |
-| GL-A1300 (Slate Plus) | √ | √ | - | √ | √ | √ |
-| GL-MT2500/GL-MT2500A (Brume 2) | √ | √ | - | √ | √ | √ |
-| GL-SFT1200 | √ | √ | - | √ | √ | √ |
-| GL-S1300 (Convexa-S) | √ | √ | - | √ | √ | √ |
-| GL-MT1300 (Beryl) | √ | √ | √ | - | √ | √ |
-| GL-AX1800 (Flint) | √ | √ | - | √ | √ | √ |
-| GL-AR750S (Slate) | √ | √ | √ | - | √ | √ |
-| GL-XE300 (Puli) | √ | √ | √ | - | √ | √ |
-| GL-X750 (Spitz) | - | - | - | - | - | - |
-| GL-B1300 (Convexa-B) | √ | √ | - | - | - | - |
-| GL-AP1300 (Cirrus) | - | - | - | - | - | - |
+| Router Model | USB Port | MicroSD Card | Samba | Webdav | DLNA |
+| :----------- | :------: | :----------: | :---: | :---: | :---: |
+| GL-MT3000 (Beryl AX) | √ | - | √ | √ | √ |
+| GL-AXT1800 (Slate AX) | √ | √ | √ | √ | √ |
+| GL-A1300 (Slate Plus) | √ | - | √ | √ | √ |
+| GL-MT2500/GL-MT2500A (Brume 2) | √ | - | √ | √ | √ |
+| GL-SFT1200 | √ | - | √ | √ | √ |
+| GL-S1300 (Convexa-S) | √ | - | √ | √ | √ |
+| GL-MT1300 (Beryl) | √ | √ | - | √ | √ |
+| GL-AX1800 (Flint) | √ | - | √ | √ | √ |
+| GL-AR750S (Slate) | √ | √ | - | √ | √ |
+| GL-XE300 (Puli) | √ | √ | - | √ | √ |
+| GL-X750 (Spitz) | √ | √ | - | - | - |
+| GL-B1300 (Convexa-B) | √ | - | - | - | - |
+| GL-AP1300 (Cirrus) | - | - | - | - | - |
 
 ## Insert Storage Device
 

@@ -4,7 +4,7 @@ The internet configuration interface lets users choose to establish the type of 
 
 Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
 
-GL-AXT1800(Slate AX) supports four ways to connect to the internet as listed below:
+It supports four ways to connect to the internet as listed below:
 
 ## Ethernet
 

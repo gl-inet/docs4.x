@@ -24,6 +24,7 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 | GL-AR750S (Slate) | √ |
 | GL-X750 (Spitz) | - |
 | GL-XE300 (Puli) | √ |
+| GL-X300B (Collie) | - |
 
 ## Setup
 

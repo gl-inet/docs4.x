@@ -22,6 +22,7 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 | GL-AX1800 (Flint) | √ |
 | GL-SFT1200 (Opal) | x |
 | GL-AR750S (Slate) | √ |
+| GL-X750 (Spitz) | x |
 
 ## Setup
 

@@ -130,6 +130,10 @@ Learn about new features added to our products and services, and detailed tutori
 
 Experience your first impression of seeing our devices for the first time, and understanding the setup process.
 
+### GL-S200 & Thread Development Board - Unboxing
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pQ1bRMe-aEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Beryl (GL-MT1300) - Unboxing and Setup Guide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rT9cs6l0vBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

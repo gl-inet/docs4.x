@@ -184,6 +184,16 @@ nav:
       - Applications: user_guide/gl-mt1300/applications.md
       - Network: user_guide/gl-mt1300/network.md
       - System: user_guide/gl-mt1300/system.md
+    - GL-AP1300 (Cirrus):
+      - Hardware Info: user_guide/gl-ap1300/hardware_info.md
+      - First Time Setup: user_guide/gl-ap1300/first_time_setup.md
+      - Internet: user_guide/gl-ap1300/internet.md
+      - Wireless: user_guide/gl-ap1300/wireless.md
+      - Clients: user_guide/gl-ap1300/clients.md
+      - VPN: user_guide/gl-ap1300/vpn.md
+      - Applications: user_guide/gl-ap1300/applications.md
+      - Network: user_guide/gl-ap1300/network.md
+      - System: user_guide/gl-ap1300/system.md
     - GL-X750 (Spitz):
       - Hardware Info: user_guide/gl-x750/hardware_info.md
       - First Time Setup: user_guide/gl-x750/first_time_setup.md

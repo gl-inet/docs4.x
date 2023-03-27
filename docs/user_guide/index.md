@@ -75,6 +75,13 @@
   	  </a>
   	</div>
     <div class="gl-product-card">
+      <a href="gl-ap1300/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ap1300lte.jpg" >
+        <div class="gl-product-model-ap1300">GL-AP1300/GL-AP1300LTE</div>
+        <div class="gl-product-model">(Cirrus)</div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
       <a href="gl-x750/hardware_info/">
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_x750v2.jpg" >
         <div class="gl-product-model">GL-X750</div>

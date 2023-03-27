@@ -30,6 +30,10 @@
 div.gl-product-model{
   font-weight: bold;
 }
+.gl-product-model-ap1300 {
+  font-size: 12px;
+  font-weight: bold;
+}
 .gl-product-card:hover {
   border-color: #b6bde3 !important;
 }

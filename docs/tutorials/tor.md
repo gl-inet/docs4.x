@@ -28,6 +28,7 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 | GL-B1300 (Convexa-B)           | √         |
 | GL-AP1300 (Cirrus)             | √         |
 | GL-X300B (Collie)              | -         |
+| GL-MV1000/GL-MV1000W (Brume)   | √         |
 
 ## Setup
 

@@ -41,6 +41,7 @@ Usually models with USB ports or MicroSD(TF) slots are supported for file sharin
 | GL-B1300 (Convexa-B)           | √        | -            | -     | -     | -     |
 | GL-AP1300 (Cirrus)             | -        | -            | -     | -     | -     |
 | GL-X300B (Collie)              | -        | -            | -     | -     | -     |
+| GL-MV1000/GL-MV1000W (Brume)   | √        | √            | √     | √     | √     |
 
 ## Insert Storage Device
 

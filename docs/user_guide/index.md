@@ -151,5 +151,19 @@
         <div class="gl-product-model">(Slate)</div>
   	  </a>
   	</div>
+    <div class="gl-product-card">
+      <a href="gl-mv1000/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mv1000.jpg" >
+        <div class="gl-product-model">GL-MV1000</div>
+        <div class="gl-product-model">(Brume)</div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
+      <a href="gl-s1300/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_s1300.jpg" >
+        <div class="gl-product-model">GL-S1300</div>
+        <div class="gl-product-model">(Convexa-S)</div>
+  	  </a>
+  	</div>
   </div>
 </div>

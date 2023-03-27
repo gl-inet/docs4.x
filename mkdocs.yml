@@ -254,6 +254,15 @@ nav:
       - Applications: user_guide/gl-s1300/applications.md
       - Network: user_guide/gl-s1300/network.md
       - System: user_guide/gl-s1300/system.md
+    - GL-MV1000 (Brume):
+      - Hardware Info: user_guide/gl-mv1000/hardware_info.md
+      - First Time Setup: user_guide/gl-mv1000/first_time_setup.md
+      - Internet: user_guide/gl-mv1000/internet.md
+      - Clients: user_guide/gl-mv1000/clients.md
+      - VPN: user_guide/gl-mv1000/vpn.md
+      - Applications: user_guide/gl-mv1000/applications.md
+      - Network: user_guide/gl-mv1000/network.md
+      - System: user_guide/gl-mv1000/system.md
   - Tutorials:
     - Overview: tutorials/index.md
     - FAQ:

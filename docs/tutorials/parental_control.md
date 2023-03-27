@@ -6,6 +6,26 @@ On the left side of web Admin Panel -> APPLICATIONS -> Parental Control
 
 **Note**: This feature is currently in beta, and may have some bugs.
 
+## Supported models
+
+| Router Model                   | Support   |
+| :----------------------------- | :-------: |
+| GL-X3000 (Spitz AX)            | √         |
+| GL-MT3000 (Beryl AX)           | √         |
+| GL-AXT1800 (Slate AX)          | √         |
+| GL-A1300 (Slate Plus)          | √         |
+| GL-MT2500/GL-MT2500A (Brume 2) | √         |
+| GL-SFT1200 (Opal)              | -         |
+| GL-S1300 (Convexa-S)           | -         |
+| GL-MT1300 (Beryl)              | -         |
+| GL-AX1800 (Flint)              | √         |
+| GL-AR750S (Slate)              | -         |
+| GL-XE300 (Puli)                | -         |
+| GL-X750 (Spitz)                | -         |
+| GL-B1300 (Convexa-B)           | -         |
+| GL-AP1300 (Cirrus)             | -         |
+| GL-X300B (Collie)              | -         |
+
 ## Setup
 
 Make sure the time on your router is correct, otherwise, go to Time Zone and synchronize the time first.

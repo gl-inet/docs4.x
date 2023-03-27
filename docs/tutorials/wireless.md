@@ -6,6 +6,8 @@ On the left side of web Admin Panel -> WIRELESS
 
 **Note**: Some models do not have 5G WiFi, e.g. GL-S200, GL-X300B(Collie).
 
+**Note**: Some models do not have WiFi, e.g. GL-MT2500/GL-MT2500A(Brume 2), GL-MV1000(Brume)
+
 ## Main WiFi
 
 * 5G WiFi

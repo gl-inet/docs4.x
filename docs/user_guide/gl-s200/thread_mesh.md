@@ -113,13 +113,15 @@ You can add new devices to the network on this page, and GL-S200 supports bulk i
 
 1. Click the Add button to add individual devices. Please configure the relevant parameters according to your personal situation.
 
-- **Joiner EUI-64**: Joiner's EUI-64 or type ***** to match all Joiners.
-- **Joiner Credential**: The device credentials to be added must be a string containing all uppercase letters and numbers and must not contain the letters I, O, Q and Z, between 6 and 32 characters in length.
-- **Joiner Timeout**: Joiner access timeout, during which a Joiner can access the network using valid credentials.
+    - **Joiner EUI-64**: Joiner's EUI-64 or type ***** to match all Joiners.
+    - **Joiner Credential**: The device credentials to be added must be a string containing all uppercase letters and numbers and must not contain the letters I, O, Q and Z, between 6 and 32 characters in length.
+    - **Joiner Timeout**: Joiner access timeout, during which a Joiner can access the network using valid credentials.
 
-2. Once configured, click the Start button.Complete equipment connection within the specified timeframe
-- **Note**：Only one border router can be Commissioning on the same Thread network at the same time. Please finish Commissioning on the other border routers before adding the Joiner.
-No Joiner is detected, so Commissioner will stop 90 seconds after it is start.
+2. Once configured, click the Start button.Complete equipment connection within the specified timeframe.
+
+    - **Note**：Only one border router can be Commissioning on the same Thread network at the same time. Please finish Commissioning on the other border routers before adding the Joiner.
+    
+    No Joiner is detected, so Commissioner will stop 90 seconds after it is start.
 
 ### Add devices in batches
 

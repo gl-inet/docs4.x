@@ -68,7 +68,7 @@ Sometimes, [Solution 1](#solution-1-change-dns-settings) is not enough to solve 
 
     For some old phones, the MAC address is not found there in WiFi, then it uses the real MAC address of the phone. This can be found in the phone's **Settings** -> **About** where you can find the phone's MAC address.
 
-3. Usr your phone or computer to connect to router, access web admin panel. On the left side of web Admin Panel -> NETWORK -> MAC Address.
+3. Use your phone or computer to connect to router, access web admin panel. On the left side of web Admin Panel -> NETWORK -> MAC Address.
 
     Select Manual Mode, fill in the MAC address you wrote down in step 2 into the input box and click Apply.
 

@@ -43,6 +43,10 @@ When Internet access is not available, the corresponding warning is displayed. T
 
     Solution: Please check if the smartphone has internet access.
 
+## Troubleshooting
+
+    * Please use the original power supply.
+
 ---
 
 Related Articles

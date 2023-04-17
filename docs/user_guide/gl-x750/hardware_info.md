@@ -4,7 +4,7 @@ Spitz is a 3G/4G dual-band wireless router, widely used for smart home and IoT a
 
 Spitz (GL-X750V2) is the advanced version of Spitz (GL-X750). It comes with the redesigned PCBA and optimized antennas to improve the 4G performance.
 
-![gl-x750 interface](https://static.gl-inet.com/docs/en/3/setup/gl-x750/first_time_setup/router.jpg){class="glboxshadow"}
+![gl-x750 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-x750/hardware_info/x750v2_interface.jpg){class="glboxshadow"}
 
 ---
 
@@ -16,4 +16,4 @@ Spitz (GL-X750V2) is the advanced version of Spitz (GL-X750). It comes with the 
 
 ## PCB Pinout
 
-![gl-x750 pinout](https://static.gl-inet.com/docs/en/3/specification/spitz/x750.png){class="glboxshadow"}
+![gl-x750 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-x750/hardware_info/gl-x750_pinout.jpg){class="glboxshadow"}

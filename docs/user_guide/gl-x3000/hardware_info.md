@@ -12,3 +12,8 @@ GL-X3000 (Slate AX) is a Wi-Fi 6 cellular gateway designed to provide reliable c
 
 ---
 
+## PCB Pinout
+
+![gl-x3000 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_pinout-01.jpg){class="glboxshadow"}
+
+![gl-x3000 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_pinout-02.jpg){class="glboxshadow"}

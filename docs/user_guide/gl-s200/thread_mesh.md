@@ -159,7 +159,7 @@ SRP (Service Registration Protocol) is a service registration and discovery prot
 
 The Backbone Router (BBR) function is primarily used to receive multicast inbound/outbound requests. Refer to [Thread Border Router - Thread 1.2 Multicast](https://openthread.google.cn/codelabs/openthread-border-router-ipv6-multicast#0) for experimentation.
 
-![backbone routers](W:\online_docs\docs4.x\docs\user_guide\gl-s200\bbr_settings.png){class="glboxshadow"}
+![backbone routers](https://static.gl-inet.com/docs-iot/en/thread_web_guide/bbr_settings.png){class="glboxshadow"}
 
 - Backbone Interface: Select the interface that bbr use.
 

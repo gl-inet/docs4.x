@@ -21,13 +21,13 @@ Network Name/ PAN ID/ Extended PAN ID/ Network Key is generated based on the MAC
 
 ### Create a new network
 
-You can use the default configuration to create a new network. Click on the **Enable** button and the status of the S200 will change from **Detached** to **Leader**, which means that the new network has been created successfully.
+You can create a new network directly by using the default configuration and clicking **Enable**. You can then see that the status of the S200 has changed from **Detached** to **Leader**, which means that a new network has been created.
 
 **Note**: If you have the same network settings as an existing Thread network in your current environment, then the S200 will automatically join that network.
 
 ![create-new-network](https://static.gl-inet.com/docs-iot/en/thread_web_guide/create-new-network.png){class="glboxshadow"}
 
-If you want to adjust some parameters in particular, you can configure them by clicking on the **Manual Setup**.
+If you want to set some parameters manually, you can configure them by clicking on the **Manual Setup**.
 
 ![Manual-Setup](https://static.gl-inet.com/docs-iot/en/thread_web_guide/manual-setup.png){class="glboxshadow"}
 
@@ -89,6 +89,12 @@ In the Thread network, the GL.iNET S200 acts as a border agent to support extern
 
     ![using the commissioner](https://static.gl-inet.com/docs-iot/en/thread_web_guide/using-the-commissioner.png){class="glboxshadow"}
 
+### Export thread network settings
+
+You can copy the thread network dataset TLV data or download it in the file.
+
+![export_thread_network_settings](https://static.gl-inet.com/docs-iot/en/thread_web_guide/export_thread_network_settings.png){class="glboxshadow"}
+
 ## Thread Commissioning
 
 You can add new devices to the network on this page, and GL-S200 supports bulk imports.
@@ -111,17 +117,9 @@ You can add new devices to the network on this page, and GL-S200 supports bulk i
 
 ![add a single device](https://static.gl-inet.com/docs-iot/en/thread_web_guide/add-a-single-device.png){class="glboxshadow"}
 
-1. Click the Add button to add individual devices. Please configure the relevant parameters according to your personal situation.
-
-    - **Joiner EUI-64**: Joiner's EUI-64 or type ***** to match all Joiners.
-    - **Joiner Credential**: The device credentials to be added must be a string containing all uppercase letters and numbers and must not contain the letters I, O, Q and Z, between 6 and 32 characters in length.
-    - **Joiner Timeout**: Joiner access timeout, during which a Joiner can access the network using valid credentials.
-
-2. Once configured, click the Start button.Complete equipment connection within the specified timeframe.
-
-    - **Note**：Only one border router can be Commissioning on the same Thread network at the same time. Please finish Commissioning on the other border routers before adding the Joiner.
-    
-    No Joiner is detected, so Commissioner will stop 90 seconds after it is start.
+- **Joiner EUI-64**: Joiner's EUI-64 or type ***** to match all Joiners.
+- **Joiner Credential**: The device credentials to be added must be a string containing all uppercase letters and numbers and must not contain the letters I, O, Q and Z, between 6 and 32 characters in length.
+- **Joiner Timeout**: Joiner access timeout, during which a Joiner can access the network using valid credentials.
 
 ### Add devices in batches
 
@@ -161,7 +159,9 @@ SRP (Service Registration Protocol) is a service registration and discovery prot
 
 The Backbone Router (BBR) function is primarily used to receive multicast inbound/outbound requests. Refer to [Thread Border Router - Thread 1.2 Multicast](https://openthread.google.cn/codelabs/openthread-border-router-ipv6-multicast#0) for experimentation.
 
-![backbone routers](https://static.gl-inet.com/docs-iot/en/thread_web_guide/backbone-routers.png){class="glboxshadow"}
+![backbone routers](W:\online_docs\docs4.x\docs\user_guide\gl-s200\bbr_settings.png){class="glboxshadow"}
+
+- Backbone Interface: Select the interface that bbr use.
 
 ---
 

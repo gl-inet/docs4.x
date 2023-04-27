@@ -449,7 +449,7 @@ PING DEE6259B059B0BB6.local(fd15:5b2d:647f:1:25b3:9abe:d387:e9aa (fd15:5b2d:647f
 rtt min/avg/max/mdev = 69.331/69.331/69.331/0.000 ms
 ```
 
-### ****Step 3: Control the Light****
+### Step 3: Control the Light
 
 1. Toggle the Light
 
@@ -461,7 +461,7 @@ Example：
 sudo ./out/chip-tool/chip-tool onoff toggle 1001 1
 ```
 
-2.Turn On the Light
+2. Turn On the Light
 
 Command Format : `chip-tool onoff on ${NODE_ID} 1`
 
@@ -471,7 +471,7 @@ Example：
 sudo ./out/chip-tool/chip-tool onoff on 1001 1
 ```
 
-3.Turn Off the Light
+3. Turn Off the Light
 
 Command Format : `chip-tool onoff off ${NODE_ID} 1`
 
@@ -481,7 +481,7 @@ Example：
 sudo ./out/chip-tool/chip-tool onoff off 1001 1
 ```
 
-4.Read the State of the Light
+4. Read the State of the Light
 
 Command Format : `chip-tool onoff read on-off ${NODE_ID} 1`
 
@@ -491,9 +491,9 @@ Example：
 sudo ./out/chip-tool/chip-tool onoff read on-off 1001 1
 ```
 
-### ****Step 4 Use the Matter Switch to Control the Light****
+### Step 4: Use the Matter Switch to Control the Light
 
-1.Set the ACL of the Light to Allow the Switch to Control It
+1. Set the ACL of the Light to Allow the Switch to Control It
 
 For ACL parameter explanation, please refer to **Matter Core Specification - 9.10.5.3. ACL Attribute**
 
@@ -509,7 +509,7 @@ Example：
 sudo ./out/chip-tool/chip-tool accesscontrol write acl '[{"fabricIndex":1, "privilege":5, "authMode":2, "subjects":[112233, 1002], "targets":null}]' 1001 0
 ```
 
-2.Bind the Switch to the Light
+2. Bind the Switch to the Light
 
 Command Format :
 
@@ -525,11 +525,11 @@ sudo ./out/chip-tool/chip-tool binding write binding '[{"fabricIndex":1, "node":
 
 After completing the above steps, you can use Matter Switch BTN1 to control the on/off state of Matter Light.
 
-## ****Connect to Home Assistant****
+## Connect to Home Assistant
 
-**Test environment**
+Test environment
 
-- Raspberrypi 4B
-- Debian GNU/Linux 11 (bullseye)
+   - Raspberrypi 4B
+   - Debian GNU/Linux 11 (bullseye)
 
 In progress …

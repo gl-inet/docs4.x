@@ -29,14 +29,8 @@ This experiment uses the following topology diagram
 ### Step 1: Create a Thread network.
 
 ```
-root@GL-S200:~# uci set glipv6.lan.mode='relay'
-root@GL-S200:~# uci commit glipv6
-root@GL-S200:~# /etc/init.d/gl_ipv6 restart
 root@GL-S200:~# uci set otbr.otbr.enable=1
 root@GL-S200:~# uci commit otbr
-
-echo "net.ipv6.conf.wpan0.accept_ra=1" >>/etc/sysctl.conf
-sysctl -p /etc/sysctl.conf
 
 root@GL-S200:~# ot-ctl dataset init new
 Done

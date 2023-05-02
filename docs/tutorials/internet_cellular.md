@@ -87,7 +87,7 @@ It will open the SIM card slot settings dialog box.
 
 ![dual-sim, sim card slot settings](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/sim_card_slot_settings.png){class="glboxshadow"}
 
-If two SIM cards are inserted, you can enable auto switch.
+If two SIM cards are inserted, you can enable Auto Switch.
 
 ![dual-sim, auto switch](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/auto_switch.png){class="glboxshadow"}
 
@@ -110,6 +110,30 @@ Please refer to the [SMS tutorial](../sms).
 ## SMS Forwarding
 
 Please refer to the [SMS Forwarding tutorial](../sms_forwarding).
+
+## Modem Management
+
+Click the button to go to modem management page.
+
+![modem management button](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/modem_management_button.png){class="glboxshadow"}
+
+It includes information about the modem and AT commands.
+
+![modem management](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/modem_management.png){class="glboxshadow"}
+
+Modem AT commands are instructions that are used to control modems.
+
+When the 'Shortcut' option is selected as 'Manual command', you can enter the command to be executed in the 'AT Command' field.
+
+The following AT Commands have been pre-set.
+
+* Request IMEI
+* Request QCCID
+* Request IMSI
+* Check Signal Quality
+* Reset modem
+* Operator Names
+* Request SIM card status
 
 ## Warning
 

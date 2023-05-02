@@ -2,14 +2,25 @@
 
 Since version 4.1, forwarding SMS messages from the router to mobile phones and emails is available.
 
-**Note**: This feature only works on GL.iNet 4G models with original 4G LTE module, not support with other modules or any other USB modules. Currently support GL-XE300 (Puli).
+**Note**: This feature only works on GL.iNet 4G/5G models with original 4G LTE/5G NR module, not support with other modules or any other USB modules.
 
 There are two methods to forward SMS, 
 
 - Forward SMS to emails
 - Forward SMS to phones
 
-Click the envelope icon to go to SMS page, you will find the SMS Forwarding settings.
+## Supported models
+
+| Router Model                   | Support   |
+| :----------------------------- | :-------: |
+| GL-X3000 (Spitz AX)            | √         |
+| GL-XE300 (Puli)                | √         |
+
+## Setup
+
+Here take the GL-XE300 (Puli) as an example.
+
+On the left side of web Admin Panel -> INTERNET, Cellular sector. Click the envelope icon to go to SMS page, you will find the SMS Forwarding settings.
 
 ![sms setting](https://static.gl-inet.com/docs/en/4/tutorials/sms_forwarding/cellular_sms.png){class="glboxshadow gl-60-desktop"}
 
@@ -52,6 +63,12 @@ You can add up to 10 email addreses.
 Toggle to enable it, choose the National code and input the phone number, finally, click the apply button.
 
 You can add up to 10 cell phone numbers.
+
+---
+
+Related Articles
+
+- [SMS](../sms)
 
 ---
 

@@ -1,6 +1,10 @@
 # Connect to the Internet via cellular
 
-The router can be used to access the Internet through cellular. There are two cases, some models have a built-in 3G/4G model; some models have a usb port and can be plugged into a usb 3G/4G modem. The operation steps are similar, here is GL-AXT1800 as an example.
+The router can be used to access the Internet through cellular. There are two cases, some models have a built-in 3G/4G model; some models have a usb port and can be plugged into a usb 3G/4G modem. The operation steps are similar, here is GL-AXT1800(Slate AX) as an example.
+
+Some models have built-in modems and support dual SIM cards, and the interface may be slightly different. Please refer to [Dual-SIM](#dual-sim).
+
+## Setup
 
 On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
@@ -63,6 +67,50 @@ Here is a list of supported modems that we had tested before.
 
 You can also search on the [forum](https://forum.gl-inet.com){target="_blank"} or create a post for asking.
 
+## Dual-SIM
+
+Some models have built-in modems and support dual SIM cards, and the interface may be slightly different. Take the GL-X3000 (Spitz AX) as an example.
+
+When no SIM card is detected.
+
+![dual-sim, no sim](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/no_sim.png){class="glboxshadow"}
+
+When a SIM card is inserted.
+
+![dual-sim, 5g sim](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/5g_sim.png){class="glboxshadow"}
+
+Click current sim card.
+
+![dual-sim, current sim card](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/current_sim_card.png){class="glboxshadow"}
+
+It will open the SIM card slot settings dialog box.
+
+![dual-sim, sim card slot settings](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/sim_card_slot_settings.png){class="glboxshadow"}
+
+If two SIM cards are inserted, you can enable auto switch.
+
+![dual-sim, auto switch](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/auto_switch.png){class="glboxshadow"}
+
+* Auto Switch
+
+    The Internet status is detected in the same way as the settings in the Multi-WAN page.
+
+* Failover Interval
+
+    If Internet connection is still not available after failover, the device will switch back to the preferred SIM slot and will only retry failover after this interval.
+
+* Checking Preferred Slot Status Scheduled
+
+    If this option is enabled, the device will try to switch back to the preferred SIM slot at the specified time. So that you can switch back to using the preferred SIM slot when its internet connection is available.
+
+## SMS
+
+Please refer to the [SMS tutorial](../sms).
+
+## SMS Forwarding
+
+Please refer to the [SMS Forwarding tutorial](../sms_forwarding).
+
 ## Warning
 
 When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](../multi-wan) page.
@@ -74,6 +122,7 @@ When Internet access is not available, the corresponding warning is displayed. T
 ---
 
 Related Articles
+
 - [Internet page](../internet)
 - [How to set the priority of each Internet access method?](../multi-wan/)
 - [How to set the load balance when multiple Internet access methods are used at the same time?](../multi-wan/)

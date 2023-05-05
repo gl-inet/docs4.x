@@ -32,7 +32,7 @@ On the left side of web Admin Panel -> INTERNET, Cellular sector. Click the enve
 - **Encryption Method**, has three options: none, SSL/TLS and STARTTLS.
 - **Username**, the email address.
 - **Password**, app-specific passwords or the password for login account. For Gmail, Outlook, iCloud and Yahoo, please check the guide below.
-- **Subject**, the email subject
+- **Subject**, the email subject.
 
 ??? "Gmail"
 

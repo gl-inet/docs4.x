@@ -69,7 +69,7 @@ You can also search on the [forum](https://forum.gl-inet.com){target="_blank"} o
 
 ## Dual-SIM
 
-Some models have built-in modems and support dual SIM cards, and the interface may be slightly different. Take the GL-X3000 (Spitz AX) as an example.
+Some models have built-in modems and support dual SIM cards, and the interface may be slightly different. Take the GL-X3000 (Spitz AX) as an example. It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
 
 When no SIM card is detected.
 
@@ -90,6 +90,8 @@ It will open the SIM card slot settings dialog box.
 If two SIM cards are inserted, you can enable Auto Switch.
 
 ![dual-sim, auto switch](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/auto_switch.png){class="glboxshadow"}
+
+**Note**: The Auto Switch feature does not immediately switch to another SIM card. On one hand, it takes time to confirm that the current SIM card cannot access the internet, and only after confirming this will it switch. On the other hand, the other SIM card is not in standby mode, so it also takes some time to activate it.
 
 * Auto Switch
 

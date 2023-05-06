@@ -82,6 +82,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [Drop-in Gateway](drop-in_gateway)
 * [IGMP Snooping](igmp_snooping), to use the multicast function on the router.
 * [Hardware Acceleration](hardware_acceleration)
+* [Network Acceleration](network_acceleration)
 
 ## System
 

@@ -1,14 +1,22 @@
 # Connect to the Internet via cellular
 
-The router can be used to access the Internet through cellular. There are two cases, some models have a built-in 3G/4G model; some models have a usb port and can be plugged into a usb 3G/4G modem. The operation steps are similar, here is GL-AXT1800(Slate AX) as an example.
+The router can be used to access the Internet through cellular.
 
-Some models have built-in modems and support dual SIM cards, and the interface may be slightly different. Please refer to [Dual-SIM](#dual-sim).
+There are three cases:
 
-## Setup
+1. Some models have a built-in 3G/4G model with single SIM card, like GL-XE300(Puli). Please refer to [Setup for single SIM models](#setup-for-single-sim-models).
 
-On the left side of web Admin Panel -> INTERNET, Cellular sector.
+2. Some models have a usb port and can be plugged into a usb 3G/4G modem, like GL-AXT1800(Slate AX). Please refer to [Setup for single SIM models](#setup-for-single-sim-models).
+
+3. Some models have a built-in modem and support dual SIM cards, like GL-X3000(Spitz AX). Its interface may be slightly different. Please refer to [Setup for Dual-SIM models](#setup-for-dual-sim-models).
 
 **Note:** Some SIM cards may need to be activated the first time you use them, so please activate them in your phone before using them in your router.
+
+## Setup for single SIM models
+
+The following configuration steps are for built-in modem or external USB modem with only single SIM card. Here we use the GL-AXT1800 (Slate AX) with external USB modem as an example.
+
+On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
 1. We recommend to turn off the router first, insert your SIM card into the USB modem then plug the USB modem into the USB port of the router, and then turn it on again. If you insert a usb modem at power on, the page may be no change, please refresh the page.
 
@@ -67,9 +75,15 @@ Here is a list of supported modems that we had tested before.
 
 You can also search on the [forum](https://forum.gl-inet.com){target="_blank"} or create a post for asking.
 
-## Dual-SIM
+## Setup for Dual-SIM models
 
-Some models have built-in modems and support dual SIM cards, and the interface may be slightly different. Take the GL-X3000 (Spitz AX) as an example. It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
+Some models have a built-in modem and support dual SIM cards, and the interface may be slightly different compare to one SIM card model. 
+
+Here take the GL-X3000 (Spitz AX) as an example. It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
+
+We recommend to turn off the router first, insert your SIM card into the slot, and then turn it on again.
+
+On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
 When no SIM card is detected.
 
@@ -78,6 +92,8 @@ When no SIM card is detected.
 When a SIM card is inserted.
 
 ![dual-sim, 5g sim](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/5g_sim.png){class="glboxshadow"}
+
+### SIM card slot settings
 
 Click current sim card.
 
@@ -104,6 +120,20 @@ If two SIM cards are inserted, you can enable Auto Switch.
 * Checking Preferred Slot Status Scheduled
 
     If this option is enabled, the device will try to switch back to the preferred SIM slot at the specified time. So that you can switch back to using the preferred SIM slot when its internet connection is available.
+
+### Traffic Statistics
+
+![traffic statistics](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/traffic_statistics_option.png){class="glboxshadow gl-70-desktop"}
+
+![traffic statistics](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-70-desktop"}
+
+### Manual Setup
+
+Click **Manual Setup** button, it will pop up the Cellular Settings dialog.
+
+![cellular settings](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/manual_setup/cellular_settings.png){class="glboxshadow gl-70-desktop"}
+
+You can view or modify the cellular settings of the current SIM card. It also stores some pre-configured settings, and you can manually add configurations to the "Saved Settings" as well.
 
 ## SMS
 

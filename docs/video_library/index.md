@@ -10,6 +10,10 @@ GL-X3000 Spitz AX | Wi-Fi 6 Dual SIM Router with 5G NR Connectivity
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uBz8QOp_Do4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Spitz AX (GL-X3000) - Unboxing and Setup Guide
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/64C7dqHG2EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### GL-MT3000(Beryl AX)
 
 Beryl AX (GL-MT3000) - Unboxing and Setup Guide

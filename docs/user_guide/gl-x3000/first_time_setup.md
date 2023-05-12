@@ -17,3 +17,4 @@ Package Contents:
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
 
+Check out Spitz AX's [unboxing video](../../../video_library/#gl-x3000spitz-ax).

@@ -34,6 +34,8 @@ Establish internet access with connected devices by sharing a smartphone’s mob
  
 Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
+It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
+
 [Click here to learn how to connect to the internet via usb modem](../../../tutorials/internet_cellular)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/x3000_cellular.png){class="glboxshadow"}

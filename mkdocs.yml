@@ -3,11 +3,11 @@ repo_name: gl-inet/docs4.x
 repo_url: https://github.com/gl-inet/docs4.x
 edit_uri: ""
 
-site_name: GL.iNet Docs 4
-site_description: Documentation for GL.iNet Productions
+site_name: GL.iNet Router Docs 4
+site_description: Documentation for GL.iNet Router Productions
 site_author: GL.iNet
-site_url: https://docs.gl-inet.com/en/4/
-site_dir: /home/ubuntu/docs-build/en/4/
+site_url: https://docs.gl-inet.com/router/en/4/
+site_dir: /home/ubuntu/docs-build/router/en/4/
 copyright: Copyright &copy; 2023 GL Technologies & Microuter Technologies
 
 theme: 

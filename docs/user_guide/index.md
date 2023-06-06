@@ -140,6 +140,19 @@
   </div>
 </div>
 
+### Board & Module
+
+<div class="gl-product-row">
+  <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-m2/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_m2.jpg" >
+        <div class="gl-product-model">GL-M2</div>
+  	  </a>
+  	</div>
+  </div>
+</div>
+
 ### End of life models
 
 <div class="gl-product-row">

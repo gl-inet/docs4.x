@@ -156,6 +156,9 @@ nav:
       - Applications: user_guide/gl-sft1200/applications.md
       - Network: user_guide/gl-sft1200/network.md
       - System: user_guide/gl-sft1200/system.md
+    - GL-M2:
+      - Hardware Info: user_guide/gl-m2/hardware_info.md
+      - First Time Setup: user_guide/gl-m2/first_time_setup.md
     - GL-S200:
       - Hardware Info: user_guide/gl-s200/hardware_info.md
       - First Time Setup: user_guide/gl-s200/first_time_setup.md

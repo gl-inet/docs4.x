@@ -11,11 +11,3 @@ It supports "Dual SIM, Single Standby", which means it can hold two SIM cards fo
 ## Specification
 
 [GL-X3000 specification](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}
-
----
-
-## PCB Pinout
-
-![gl-x3000 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_pinout-01.jpg){class="glboxshadow"}
-
-![gl-x3000 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_pinout-02.jpg){class="glboxshadow"}

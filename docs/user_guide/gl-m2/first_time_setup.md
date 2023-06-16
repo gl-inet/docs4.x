@@ -1,8 +1,5 @@
 # First time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../../tutorials/first_time_setup/).
-
-
 What’s inside the package?
 
 ![gl-m2 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}

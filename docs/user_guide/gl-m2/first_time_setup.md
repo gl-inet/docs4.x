@@ -20,15 +20,15 @@ Package Contents:
 
 ---
 
-#### 1. Install the module and the antenna
+### 1. Install the module and the antenna
 Use an RF conversion extension cable or an SMA antenna connection cable to connect the antenna to the IPEX interface on the module. 
 
 ![gl-m2 setup](https://static.gl-inet.com/docs/en/4/user_guide/gl-m2/first_time_setup/m2_setup_1.jpg){class="glboxshadow"}
 
-#### 2. Insert the Nano SIM card
+### 2. Insert the Nano SIM card
 ![gl-m2 setup](https://static.gl-inet.com/docs/en/4/user_guide/gl-m2/first_time_setup/m2_setup_2.jpg){class="glboxshadow"}
 
-#### 3. Power up
+### 3. Power up
 Connect to a DC power supply and use a Type-C to USB 3.0 data cable to connect to the router or other device.
 
 ![gl-m2 setup](https://static.gl-inet.com/docs/en/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
@@ -43,14 +43,14 @@ Connect to a DC power supply and use a Type-C to USB 3.0 data cable to connect t
 *M2 is compatible with: AX1800, AXT1800, MT3000, MT2500, with firmware version 4.2.1 and above.
 
 
-#### 1. Connect M2 to a GL.iNet router, and use an ethernet cable to connect the GL.iNet router to a computer. Visit http://192.168.8.1 on a browser (Chrome, Edge, and Safari are recommended to use for this action) to enter the Admin Panel.
+### 1. Connect M2 to a GL.iNet router, and use an ethernet cable to connect the GL.iNet router to a computer. Visit http://192.168.8.1 on a browser (Chrome, Edge, and Safari are recommended to use for this action) to enter the Admin Panel.
 
 ![Connecting GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_1.png){class="glboxshadow"}
 
-#### 2.	Click on ***Auto Setup*** under the ***INTERNET*** section to connect to the Internet.
+### 2.	Click on ***Auto Setup*** under the ***INTERNET*** section to connect to the Internet.
 
 ![Connecting GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_2.png){class="glboxshadow"}
 
-#### 3. The network connection has been made successfully. 
+### 3. The network connection has been made successfully. 
 
 ![Connecting GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_3.png){class="glboxshadow"}

@@ -287,6 +287,7 @@ nav:
       - Produce a Wired Connection: tutorials/produce_a_wired_connection.md
       - SMS: tutorials/sms.md
       - SMS Forwarding: tutorials/sms_forwarding.md
+      - Get Moduel Logs: tutorials/get_module_logs.md
     - Wireless:
       - Wireless: tutorials/wireless.md
     - Clients:
@@ -348,8 +349,9 @@ nav:
       - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
       - Remote SSH to Router: tutorials/remote_ssh_to_router.md
       - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
-      - Device d, MAC, SN: tutorials/where_to_find_the_device_id_mac_sn.md
+      - Device id, MAC, SN: tutorials/where_to_find_the_device_id_mac_sn.md
       - LED Indication: tutorials/led.md
+      - Upgrade Quectel Module Software: tutorials/upgrade_quectel_module_software.md
   - Video Library:
     - Overview: video_library/index.md
   - Community:

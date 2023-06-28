@@ -31,6 +31,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [How to set static WAN IP?](how_to_set_static_wan_ip)
 * [SMS](sms)
 * [SMS Forwarding](sms_forwarding), forward SMS messages from router to mobile phone and email.
+* [How to use qlog to capture module logs](get_module_logs).
 
 ## Wireless
 
@@ -121,3 +122,4 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [How to remote ssh to router?](remote_ssh_to_router)
 * [How to check if Internet Service Provider assigns you a public IP address?](how_to_check_if_isp_assigns_you_a_public_ip_address)
 * [Where to find the device id, MAC, Serial Number?](where_to_find_the_device_id_mac_sn)
+* [How to upgrade quectel module software?](upgrade_quectel_module_software)

@@ -37,7 +37,9 @@ Connect to a DC power supply and use a Type-C to USB 3.0 data cable to connect t
 ---
 
 # Connecting GL-M2 to GL.iNet Routers
-*M2 is compatible with: AX1800, AXT1800, MT3000, MT2500, with firmware version 4.2.1 and above.
+*M2 is compatible with the following devices:
+- Flint (GL-AX1800): Firmware version 4.2.3 or above
+- Slate AX (GL-AXT1800), Beryl AX (GL-MT3000) & Brume 2 (GL-MT2500) : Firmware version 4.2.1 and above.
 
 
 ### 1. Connect M2 to a GL.iNet router, and use an ethernet cable to connect the GL.iNet router to a computer. Visit http://192.168.8.1 on a browser (Chrome, Edge, and Safari are recommended to use for this action) to enter the Admin Panel.

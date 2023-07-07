@@ -18,9 +18,9 @@ Gateway is the WireGuard IP of your client router, you can find it at your **Wir
 
 ![addrule](https://static.gl-inet.com/docs/en/4/tutorials/wiregaurd_server_access_client_lan_side/addrule.jpg){class="glboxshadow"}
 
-### 2. Go to the **WireGuard Server** then **Profiles** and click the modify icon
+### 2. Go to the **WireGuard Server** you will see the client IP (Gateway) in **Profiles** and click the modify icon
 
-![Gateway](https://static.gl-inet.com/docs/en/4/tutorials/wiregaurd_server_access_client_lan_side/Gateway.jpg){class="glboxshadow"}
+![gateway](https://static.gl-inet.com/docs/en/4/tutorials/wiregaurd_server_access_client_lan_side/gateway.jpg){class="glboxshadow"}
 
 Click **Set More**
 
@@ -33,3 +33,7 @@ Click **+** to add the allow IP and then click **Apply** to get a new configurat
 ### 3. Download the configuration 
 
 Load the configuration to your client router **192.168.8.1** in this case is the GL-AXT1800
+
+You can test by ping from **GL-MT2500** to **192.168.8.1** **(GL-AXT1800)**
+
+![ping](https://static.gl-inet.com/docs/en/4/tutorials/wiregaurd_server_access_client_lan_side/ping.jpg){class="glboxshadow"}

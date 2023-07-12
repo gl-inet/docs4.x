@@ -10,7 +10,7 @@ We recommend WireGuard over OpenVPN because it is much faster. For setup a WireG
 
 Please check if you Internet Service Provider assigns you a public IP address [here](../how_to_check_if_isp_assigns_you_a_public_ip_address).
 
-**If no, you can't connect to the OpenVPN Server.**
+**If not, you can't connect to the OpenVPN Server.**
 
 An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}.
 
@@ -81,7 +81,19 @@ There are several common reasons cause failed:
 
 ## Advanced Configuration
 
+* You can modify your own configuration at this tab.
+
 ![openvpn server advancd configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_advanced_configuration.png){class="glboxshadow"}
+
+## Client to client access
+
+### Network Topology
+
+![ptptopology](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/ptptopology.jpg){class="glboxshadow"}
+
+* Enable the client to client toggle, your clients can be access to each others
+
+![peertopeer](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/peertopeer.jpg){class="glboxshadow"}
 
 ## OpenVPN Client App
 

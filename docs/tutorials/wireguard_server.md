@@ -8,7 +8,7 @@ WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state
 
 Please check if you Internet Service Provider assigns you a public IP address [here](../how_to_check_if_isp_assigns_you_a_public_ip_address).
 
-**If no, you can't connect to the WireGaurd Server.**
+**If not, you can't connect to the WireGaurd Server.**
 
 An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}.
 
@@ -28,9 +28,11 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
 2. Apply the configuration
 
-    The default configuration works for most cases. Also modify it according to your network situation, click the **Apply** button after modification.
+    The default configuration works for most cases. If you found the IPv4 address conflict with your upper router's gateway, click the **Apply** button after modification. You can modify it as **10.1.0.1/24** 
 
     ![wireguard server apply configuration](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_apply_configuration.png){class="glboxshadow"}
+
+    ![xfinitygateway](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
     For **Set Key Manually**.
 
@@ -66,11 +68,15 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
 ### To check if WireGuard Server is working properly
 
+Many people mis-understandstool once they saw the server is up and think it is connected. The server can be up even you forward a wrong port or wrong address.
+
+![wgconnected](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wgconnected.jpg){class="glboxshadow"}
+
 To check if WireGaurd Server is working properly, we can use another device connected to another network and use the WireGuard configuration we exported earlier to connect and see whether it connects properly and whether the IP address is the IP of WireGuard Server.
 
 The simpliest way is to use a cell phone with [WireGuard official client app](https://www.wireguard.com/install){target="_blank"} installed, turn off its Wi-Fi connection, and only connect to Internet via 3G/4G/5G. Then open the WireGaurd app, import the WireGaurd configuration from QR code. Enable the connection, check if the phone has Internet access and whether its IP address is the IP of your WireGuard Server.
 
-There are several common reasons cause failed:
+There are several common reasons cause failure:
 
 * The Internet Service Provider doesn't assign you a public IP address, please check [here](#make-sure-internet-service-provider-assigns-you-a-public-ip-address).
 * You may need setup port forwarding, please check [here](#network-topology).

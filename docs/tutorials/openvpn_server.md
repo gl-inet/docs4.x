@@ -64,6 +64,10 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
 ## To check if OpenVPN Server is working properly
 
+Many people mis-understandstool once they saw the server is up and think it is connected. The server can be up even you forward a wrong port or wrong address.
+
+![openserverup](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openserverup.jpg){class="glboxshadow"}
+
 To check if OpenVPN Server is working properly, we can use another device connected to another network and use the OpenVPN configuration we exported earlier, to connect and see whether it connects properly and whether the IP address is the IP of OpenVPN Server.
 
 The simpliest way is to use a cell phone with [OpenVPN official client app](https://openvpn.net/vpn-client/){target="_blank"} installed, turn off its Wi-Fi connection, and only connect to Internet via 3G/4G/5G. Then open the OpenVPN app, import the OpenVPN configuration we previously exported. Enable the connection, check if the phone has Internet access and whether its IP address is the IP of your OpenVPN Server.
@@ -81,7 +85,7 @@ There are several common reasons cause failed:
 
 ## Advanced Configuration
 
-* You can modify your own configuration at this tab.
+You can modify your own configuration at this tab.
 
 ![openvpn server advancd configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_advanced_configuration.png){class="glboxshadow"}
 
@@ -91,7 +95,7 @@ There are several common reasons cause failed:
 
 ![ptptopology](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/ptptopology.jpg){class="glboxshadow"}
 
-* Enable the client to client toggle, your clients can be access to each others
+Enable the client to client toggle, your clients can be access to each others
 
 ![peertopeer](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/peertopeer.jpg){class="glboxshadow"}
 

@@ -2,7 +2,7 @@
 
 Sometimes you may be unable to access [http://192.168.8.1](http://192.168.8.1) to login web Admin Panel, there maybe several reasons.
 
-![cantaccessadmin](https://static.gl-inet.com/docs/en/4/tutorials/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
+![can't access admin](https://static.gl-inet.com/docs/en/4/tutorials/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
 
 * You computer or mobile phone doesn't connect to the router.
 * 192.168.8.1 is the default IP address of the router, you may have changed this IP.

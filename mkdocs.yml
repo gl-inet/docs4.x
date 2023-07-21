@@ -338,6 +338,7 @@ nav:
       - Can't access web Admin Panel: tutorials/cannot_access_web_admin_panel.md
       - Debrick via Uboot: tutorials/debrick.md
       - Repair or Reset: tutorials/repair_network_or_reset_firmware.md
+      - iPhone tethering fail: tutorials/iphone_tethering_fail.md
     - IoT:
       - GL.iNet OpenThread Border Router Codelabs: tutorials/openthread_border_router_codelabs.md
     - Other:

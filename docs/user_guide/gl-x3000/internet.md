@@ -48,7 +48,7 @@ You can save different profiles for the same or different carriers.
 
 ![manageprofile](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/manageprofile.jpg){class="glboxshadow"}
 
-* Add Profile
+* Add a new  profile or save the current profile
 
 ![addprofile](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/Addprofile.jpg){class="glboxshadow"}
 
@@ -56,7 +56,7 @@ You can save different profiles for the same or different carriers.
 
 ![createprofile](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/createprofile.jpg){class="glboxshadow"}
 
-* You can select the saved profile next time
+* You can select a saved profile next time
 
 ![selectprofile](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/selectprofile.jpg){class="glboxshadow"}
 
@@ -66,7 +66,7 @@ You can save different profiles for the same or different carriers.
 
 ### Band Masking
 
-You can check to the band signals by click view more in cells info and decide which band with stronger signal and which band with weaker signal. Then you can force your router just connect to bands you want or never connect to some bands you don't want. 
+You can check to the band signals by click **view more** in **cells info** and decide which band with stronger signal and which band with weaker signal. Then you can force your router just connect to bands you want or never connect to some bands you don't want. 
 
 ![cellinfo](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/cellinfo.jpg){class="glboxshadow"}
 

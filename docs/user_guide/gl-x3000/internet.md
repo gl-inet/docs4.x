@@ -40,43 +40,6 @@ It supports "Dual SIM, Single Standby", which means it can hold two SIM cards fo
 
 ![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/x3000_cellular.png){class="glboxshadow"}
 
-### Carrier profile
-
-You can save different profiles for the same or different carriers.
-
-* Click Manage profile
-
-![manageprofile](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/manageprofile.jpg){class="glboxshadow"}
-
-* Add a new  profile or save the current profile
-
-![addprofile](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/Addprofile.jpg){class="glboxshadow"}
-
-* Create the carrier own profile base on your needs
-
-![createprofile](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/createprofile.jpg){class="glboxshadow"}
-
-* You can select a saved profile next time
-
-![selectprofile](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/selectprofile.jpg){class="glboxshadow"}
-
-* Choose any profiles you needed
-
-![chooseprofile](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/chooseprofile.jpg){class="glboxshadow"}
-
-### Band Masking
-
-You can check to the band signals by click **view more** in **cells info** and decide which band with stronger signal and which band with weaker signal. Then you can force your router just connect to bands you want or never connect to some bands you don't want. 
-
-![cellinfo](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/cellinfo.jpg){class="glboxshadow"}
-
-Check **Block** or **Open** and select the below for bands you want to apply.
-
-![bandmasking](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/bandmasking.jpg){class="glboxshadow"}
-
-
-
-
 ## Priority and load balance
 
 Go to [Multi-WAN](../../../tutorials/multi-wan/) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.

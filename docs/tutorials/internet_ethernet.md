@@ -18,9 +18,9 @@
 
 * Static
 
-   Staticは、インターネットサービスプロバイダ（ISP）から固定IPアドレスを提供されている場合や、IPアドレス、ゲートウェイ、ネットマスクなどのネットワーク情報を手動で設定する場合に必要です。
+    Staticは、インターネットサービスプロバイダ（ISP）から固定IPアドレスを提供されている場合や、IPアドレス、ゲートウェイ、ネットマスクなどのネットワーク情報を手動で設定する場合に必要です。
 
-    ![ethernet static](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_static.png){class="glboxshadow"}
+     ![ethernet static](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_static.png){class="glboxshadow"}
 
 * PPPoE
 

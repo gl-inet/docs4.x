@@ -43,58 +43,58 @@ hide:
 * [GL-AX1800(Flint)をファームウェア4.xにアップグレードする方法は？](gl-ax1800_upgrade_to_4)
 * [GL-AX1800(Flint)をファームウェア3.xにダウングレードする方法は?](gl-ax1800_upgrade_to_4/#downgrade)
 
-## Firewall
+## ファイアウォール
 
-* [Firewall](firewall).
+* [ファイアウォール](firewall).
 
 ## VPN
 
-* [VPN Dashboard](vpn_dashboard).
-* [Setup OpenVPN Client](openvpn_client).
-* [Setup OpenVPN Server](openvpn_server).
-* [Setup WireGuard Client](wireguard_client).
-* [Setup WireGuard Server](wireguard_server).
-* [VPN proxy mode](vpn_dashboard#proxy-mode).
-* [How to setup NordVPN on router?](openvpn_client#setup-nordvpn)
-* [How to setup AzireVPN on router?](wireguard_client#setup-azirevpn)
-* [How to setup Mullvad VPN on router?](wireguard_client#setup-mullvad)
-* [How to let all data go through VPN?](block_no_vpn_traffic)
-* [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp)
+* [VPNダッシュボード](vpn_dashboard).
+* [OpenVPNクライアントのセットアップ](openvpn_client).
+* [OpenVPNサーバーのセットアップ](openvpn_server).
+* [WireGuard クライアントのセットアップ](wireguard_client).
+* [WireGuard サーバーのセットアップ](wireguard_server).
+* [VPN プロキシ モード](vpn_dashboard#proxy-mode).
+* [ルーターでNordVPNを設定する方法は？](openvpn_client#setup-nordvpn)
+* [ルーターでAzireVPNを設定する方法は？](wireguard_client#setup-azirevpn)
+* [ルーターでMullvad VPNを設定する方法は?](wireguard_client#setup-mullvad)
+* [すべてのデータをVPN経由にする方法とは？](block_no_vpn_traffic)
+* [OpenVPNの場合、TCPとUDPのどちらのプロトコルを選択すればよいですか？](openvpn_tcp_udp)
 
-## Applications
+## アプリケーション
 
-* [plug-ins](plugins)
+* [プラグイン](plugins)
 * [DDNS](ddns). Overcome the issues related to Dynamic IP Addresses.
 * [GoodCloud](cloud), the official cloud service.
 * [AdGuardHome](adguardhome)
-* [Network Storage](network_storage)
+* [ネットワークストレージ](network_storage)
 * [Log](log)
 
-## More settings
+## その他の設定
 
-* [Change admin password](admin_password)
+* [管理者パスワードを変更する](admin_password)
 * [LAN](lan)
 * [Time Zone](time_zone)
-* [MAC Clone](mac_clone)
+* [MACクローン](mac_clone)
 * [DNS](dns)
-* [Network Mode](network_mode)
+* [ネットワークモード](network_mode)
 * [IPv6](ipv6)
-* [Toggle Button Settings](toggle_button_settings)
-* [Reset Firmware](reset_firmware)
-* [Advanced Settings](advanced_settings)
+* [トグルボタンの設定](toggle_button_settings)
+* [ファームウェアをリセットする](reset_firmware)
+* [詳細設定](advanced_settings)
 
-## Troubleshooting
+## トラブルシューティング
 
-* [What should I do if my router is bricked?](debrick)
-* [Debrick via Uboot](debrick)
-* [How to repair network or reset to factory setting?](repair_network_or_reset_firmware)
+* [ルーターが故障した場合はどうすればよいですか?](debrick)
+* [Ubootでデブリック](debrick)
+* [ネットワークの修復や工場出荷時の設定に戻すにはどうすればよいですか？](repair_network_or_reset_firmware)
 
-## Other
+## その他
 
-* [How to change WAN port to LAN port?](change_wan_to_lan)
-* [GL.iNet Mobile App](mobile_app).
-* [What is LuCI?](what_is_luci)
-* [How to remote access router's web Admin Panel?](remote_access_web_admin_panel)
-* [How to remote ssh to router?](remote_ssh_to_router)
-* [How to check if Internet Service Provider assigns you a public IP address?](how_to_check_if_isp_assigns_you_a_public_ip_address)
-* [Where to find the device id, MAC, Serial Number?](where_to_find_the_device_id_mac_sn)
+* [WANポートをLANポートに変更する方法は？](change_wan_to_lan)
+* [GL.iNet モバイルアプリ](mobile_app).
+* [LuCIとは何ですか？](what_is_luci)
+* [ルーターのWeb管理パネルにリモートアクセスする方法は？](remote_access_web_admin_panel)
+* [SSHトンネル経由でリモートルーターに接続する方法は？](remote_ssh_to_router)
+* [インターネットサービスプロバイダーからパブリックIPアドレスが割り当てられているかどうかを確認する方法は？](how_to_check_if_isp_assigns_you_a_public_ip_address)
+* [デバイスID、MAC、シリアルナンバーはどこで確認できますか？](where_to_find_the_device_id_mac_sn)

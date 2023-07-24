@@ -36,34 +36,33 @@ For [Advanced Settings](#join-network-advanced-setting).
 
 ## リピーターオプション
 
-Click the cog icon for Repeater options.
+リピーターオプションのコグアイコンをクリックします。
 
 ![repeater connected](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
 ![repeater options](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_options.png){class="glboxshadow"}
 
-* **Allow Switching To Other Saved Network**. If the option is enabled, the router will automatically connect to other saved networks when it is unable to connect to the current Wi-Fi network.
+* **保存した他のネットワークへの切り替えを許可する**。このオプションを有効にすると、現在のWi-Fiネットワークに接続できない場合、ルーターは自動的に他の保存されたネットワークに接続します。
 
-* **Band Selection**. If you manually select a band, the router will not scan or connect to any Wi-Fi with another band.
+* **バンド選択**。手動でバンドを選択した場合、ルーターは他のバンドでWi-Fiをスキャンしたり接続したりしません。
 
-* **Allow Repeat DFS Channels**. If the option is enabled, 5GHz Wi-Fi will be temporarily unavailable when a radar is using the channel which is currently router using; Otherwise, the router will not connect to any Wi-Fi using DFS channels.
+* **繰り返しDFSチャネルを許可します**。 このオプションが有効になっている場合、レーダーが現在使用しているチャネルを使用している場合、5GHz Wi-Fiは一時的に利用できません。 それ以外の場合、ルーターはDFSチャネルを使用してWi-Fiに接続しません。
+* **2.4G用20MHz帯域の強制使用**。 このオプションを有効にすると、接続速度を下げる代わりに、接続の安定性を促します。2.4GのWi-Fiを繰り返し使用する場合のみ有効です。
 
-* **Force 20MHz Bandwith For 2.4G**. If the option is enabled, The device will prompting the stability of the connection in exchange of reducing the connection speed. It only works when repeating 2.4G Wi-Fi.
+## 既知のネットワークを管理する
 
-## Manage known network
+既知のネットワークを削除するには、 **スイッチネットワーク**をクリックします。
 
-To delete known network, click **Switch Network**.
+![リピータ接続](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-![repeater connected](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
+ または**接続**をクリックします。
 
-Or click **Connect**.
+![リピータ](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
 
-![repeater](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
+**既知のネットワーク** セクターで、 [ゴミ箱アイコン]をクリックして既知のネットワークを削除し、[歯車アイコン]をクリックしてネットワークを構成します。
 
-On the **Knows Network** sector, click trash icon to delete a known network, click cog icon to config the network.
+![既知のネットワークのリピーター](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_known_networks.png){class="glboxshadow"}
 
-![repeater known network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_known_networks.png){class="glboxshadow"}
-
-## Join other network
+## 既知のネットワークのリピーター
 
 ![](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}

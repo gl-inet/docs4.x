@@ -38,7 +38,7 @@
 
 ### 適合モデム
 
-Here is a list of supported modems that we had tested before.
+以下は、以前にテストしたサポート対象モデムのリストです。
 
 | Model                                  | 3G/4G | Tested | Tested by       | Comments* |
 | -------------------------------------- | ----- | ------ | --------------- | --------- |
@@ -57,10 +57,10 @@ Here is a list of supported modems that we had tested before.
 | Novatel USB551L (Verizon)              | 4G    | Yes    | GL.iNet/steven  | QMI       |
 | Verizon U620L (Verizon)                | 4G    | Yes    |                 | Host-less |
 
-*QMI: This modem supports QMI mode. Please choose **/dev/cdc-wdm0** in the **Device** list.
+*QMI: このモデムはQMIモードをサポートしています。**デバイス** リストで**/dev/cdc-wdm0** を選択してください。
 
-*Host-less: This modem supports tethering mode, please set up by using Tethering but not 3G/4G modem.
+*Host-less: このモデムはテザリング モードをサポートしています。3G/4G モデムではなく、テザリングを使用してセットアップしてください。
 
-You can also refer to [http://ofmodemsandmen.com/modems.html](http://ofmodemsandmen.com/modems.html){target="_blank"} for a well supported modem list.
+ [http://ofmodemsandmen.com/modems.html](http://ofmodemsandmen.com/modems.html){target="_blank"} で、サポートされているモデムの一覧を参照することもできます。
 
-You can also search on the [forum](https://forum.gl-inet.com){target="_blank"} or create a post for asking.
+[フォーラム](https://forum.gl-inet.com){target="_blank"} で検索するか、質問用の投稿を作成することもできます。

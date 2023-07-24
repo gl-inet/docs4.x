@@ -117,9 +117,22 @@ If two SIM cards are inserted, you can enable Auto Switch.
 
     If Internet connection is still not available after failover, the device will switch back to the preferred SIM slot and will only retry failover after this interval.
 
+    This option applies when both the preferred SIM card and the backup SIM card have no signal. If the preferred SIM card also has no signal, the device will switch to the backup SIM card and so on until one of the SIM cards has a signal.
+
+    ![traffic statistics](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/sim%20_card%20slot%20settings_failover%20interval.png){class="glboxshadow"}
+
+
 * Checking Preferred Slot Status Scheduled
 
     If this option is enabled, the device will try to switch back to the preferred SIM slot at the specified time. So that you can switch back to using the preferred SIM slot when its internet connection is available.
+
+    When this feature is enabled, the device will attempt to switch to the preferred SIM at this set time each day, for example, this feature is intended to prevent the backup SIM from using too much data, and if the preferred SIM still has no signal, it will fail to switch to the backup SIM.
+
+    ![traffic statistics](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/sim%20_card%20slot%20settings_checking%20preferred%20slot%20status%20scheduled.png){class="glboxshadow"}
+
+  
+
+   
 
 ### Traffic Statistics
 

@@ -2,38 +2,38 @@
 
 ## Overview
 
-Please visit the [**System Overview**](../../../tutorials/system_overview/) tutorial.
+Please visit the [**System Overview**](../../../interface_guide/system_overview/) tutorial.
 
 ## Upgrade
 
 GL.iNet provides regular updates on our routers' firmware to improve performance, resolving bugs and fix vulnerabilities.
 
-Please visit the [**Upgrade**](../../../tutorials/firmware_upgrade/) tutorial.
+Please visit the [**Upgrade**](../../../interface_guide/firmware_upgrade/) tutorial.
 
 ## Scheduled Tasks
 
-Please visit the [**Scheduled Tasks**](../../../tutorials/scheduled_tasks/) tutorial.
+Please visit the [**Scheduled Tasks**](../../../interface_guide/scheduled_tasks/) tutorial.
 
 ## Admin Password
 
-Please visit the [**Admin Password**](../../../tutorials/admin_password/) tutorial.
+Please visit the [**Admin Password**](../../../interface_guide/admin_password/) tutorial.
 
 ## Time Zone
 
-Please visit the  [**Time Zone**](../../../tutorials/time_zone/) tutorial.
+Please visit the  [**Time Zone**](../../../interface_guide/time_zone/) tutorial.
 
 ## Toggle Button Settings
 
-Please visit the [**Toggle Button Settings**](../../../tutorials/toggle_button_settings/) tutorial.
+Please visit the [**Toggle Button Settings**](../../../interface_guide/toggle_button_settings/) tutorial.
 
 ## Log
 
-Please visit the [**Log**](../../../tutorials/log/) tutorial.
+Please visit the [**Log**](../../../interface_guide/log/) tutorial.
 
 ## Reset Firmware
 
-Please visit the [**Reset Firmware**](../../../tutorials/reset_firmware/) tutorial.
+Please visit the [**Reset Firmware**](../../../interface_guide/reset_firmware/) tutorial.
 
 ## Advanced Settings
 
-Please visit the [**Advanced Settings**](../../../tutorials/advanced_settings/) tutorial.
+Please visit the [**Advanced Settings**](../../../interface_guide/advanced_settings/) tutorial.

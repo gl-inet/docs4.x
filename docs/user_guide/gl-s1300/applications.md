@@ -4,20 +4,20 @@ GL.iNet routers include a wide range of add-on features that simplifies device m
 
 ## Plug-ins
 
-Please visit the [**Plug-ins**](../../../tutorials/plugins/) tutorial.
+Please visit the [**Plug-ins**](../../../interface_guide/plugins/) tutorial.
 
 ## Dynamic DNS
 
-Please visit the [**Dynamic DNS**](../../../tutorials/ddns/) tutorial.
+Please visit the [**Dynamic DNS**](../../../interface_guide/ddns/) tutorial.
 
 ## GoodCloud
 
-Please visit the  [**GoodCloud**](../../../tutorials/cloud/) tutorial.
+Please visit the  [**GoodCloud**](../../../interface_guide/cloud/) tutorial.
 
 ## Network Storage
 
-Please visit the [**Network Storage**](../../../tutorials/network_storage/) tutorial.
+Please visit the [**Network Storage**](../../../interface_guide/network_storage/) tutorial.
 
 ## AdGuard Home
 
-Please visit the [**AdGuard Home**](../../../tutorials/adguardhome/) tutorial.
+Please visit the [**AdGuard Home**](../../../interface_guide/adguardhome/) tutorial.

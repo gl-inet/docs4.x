@@ -266,93 +266,69 @@ nav:
       - Applications: user_guide/gl-mv1000/applications.md
       - Network: user_guide/gl-mv1000/network.md
       - System: user_guide/gl-mv1000/system.md
+  - FAQ:
+    - Overview: faq/index.md
   - Tutorials:
     - Overview: tutorials/index.md
-    - FAQ:
-      - First Time Setup: tutorials/first_time_setup.md
-      - Debrick via Uboot: tutorials/debrick.md
-      - Connect to a Hotspot with a Captive Portal: tutorials/connect_to_a_hotspot_with_captive_portal.md
-      - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
-      - OpenVPN Client: tutorials/openvpn_client.md
-      - WireGuard Client: tutorials/wireguard_client.md
+  - Interface Guide:
+    - Overview: interface_guide/index.md
     - Internet Connection:
-      - Internet: tutorials/internet.md
-      - Ethernet: tutorials/internet_ethernet.md
-      - Repeater: tutorials/internet_repeater.md
-      - Tethering: tutorials/internet_tethering.md
-      - Cellular: tutorials/internet_cellular.md
-      - Connect to a Hotspot with a Captive Portal: tutorials/connect_to_a_hotspot_with_captive_portal.md
-      - DHCP: tutorials/dhcp.md
-      - PPPoE: tutorials/pppoe.md
-      - Produce a Wired Connection: tutorials/produce_a_wired_connection.md
-      - SMS: tutorials/sms.md
-      - SMS Forwarding: tutorials/sms_forwarding.md
-      - Get Moduel Logs: tutorials/get_module_logs.md
+      - Internet: interface_guide/internet.md
+      - Ethernet: interface_guide/internet_ethernet.md
+      - Repeater: interface_guide/internet_repeater.md
+      - Tethering: interface_guide/internet_tethering.md
+      - Cellular: interface_guide/internet_cellular.md
+      - Connect to a Hotspot with a Captive Portal: interface_guide/connect_to_a_hotspot_with_captive_portal.md
+      - DHCP: interface_guide/dhcp.md
+      - PPPoE: interface_guide/pppoe.md
+      - Produce a Wired Connection: interface_guide/produce_a_wired_connection.md
+      - SMS: interface_guide/sms.md
+      - SMS Forwarding: interface_guide/sms_forwarding.md
+      - Get Moduel Logs: interface_guide/get_module_logs.md
     - Wireless:
-      - Wireless: tutorials/wireless.md
+      - Wireless: interface_guide/wireless.md
     - Clients:
-      - Clients: tutorials/clients.md
+      - Clients: interface_guide/clients.md
     - VPN:
-      - VPN Dashboard: tutorials/vpn_dashboard.md
-      - OpenVPN Client: tutorials/openvpn_client.md
-      - OpenVPN Server: tutorials/openvpn_server.md
-      - WireGuard Client: tutorials/wireguard_client.md
-      - WireGuard Server: tutorials/wireguard_server.md
-      - TCP or UDP: tutorials/openvpn_tcp_udp.md
-      - Block No-VPN Traffic: tutorials/block_no_vpn_traffic.md
-      - VPN Cascading: tutorials/vpn_cascading.md
-      - Tor: tutorials/tor.md
-      - Accessing client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - VPN Dashboard: interface_guide/vpn_dashboard.md
+      - OpenVPN Client: interface_guide/openvpn_client.md
+      - OpenVPN Server: interface_guide/openvpn_server.md
+      - WireGuard Client: interface_guide/wireguard_client.md
+      - WireGuard Server: interface_guide/wireguard_server.md
+      - TCP or UDP: interface_guide/openvpn_tcp_udp.md
+      - Block No-VPN Traffic: interface_guide/block_no_vpn_traffic.md
+      - VPN Cascading: interface_guide/vpn_cascading.md
+      - Tor: interface_guide/tor.md
     - Applications:
-      - Plug-ins: tutorials/plugins.md
-      - Dynamic DNS: tutorials/ddns.md
-      - GoodCloud: tutorials/cloud.md
-      - Network Storage: tutorials/network_storage.md
-      - AdGuard Home: tutorials/adguardhome.md
-      - Parental Control: tutorials/parental_control.md
-      - ZeroTier: tutorials/zerotier.md
-      - Tailscale: tutorials/tailscale.md
+      - Plug-ins: interface_guide/plugins.md
+      - Dynamic DNS: interface_guide/ddns.md
+      - GoodCloud: interface_guide/cloud.md
+      - Network Storage: interface_guide/network_storage.md
+      - AdGuard Home: interface_guide/adguardhome.md
+      - Parental Control: interface_guide/parental_control.md
+      - ZeroTier: interface_guide/zerotier.md
+      - Tailscale: interface_guide/tailscale.md
     - Network:
-      - Firewall: tutorials/firewall.md
-      - Multi-WAN: tutorials/multi-wan.md
-      - LAN: tutorials/lan.md
-      - DNS: tutorials/dns.md
-      - Network Mode: tutorials/network_mode.md
-      - IPv6: tutorials/ipv6.md
-      - MAC Address: tutorials/mac_address.md
-      - Drop-in Gateway: tutorials/drop-in_gateway.md
-      - IGMP Snooping: tutorials/igmp_snooping.md
-      - Hardware Acceleration: tutorials/hardware_acceleration.md
-      - Network Acceleration: tutorials/network_acceleration.md
+      - Firewall: interface_guide/firewall.md
+      - Multi-WAN: interface_guide/multi-wan.md
+      - LAN: interface_guide/lan.md
+      - DNS: interface_guide/dns.md
+      - Network Mode: interface_guide/network_mode.md
+      - IPv6: interface_guide/ipv6.md
+      - MAC Address: interface_guide/mac_address.md
+      - Drop-in Gateway: interface_guide/drop-in_gateway.md
+      - IGMP Snooping: interface_guide/igmp_snooping.md
+      - Hardware Acceleration: interface_guide/hardware_acceleration.md
+      - Network Acceleration: interface_guide/network_acceleration.md
     - System:
-      - Overview: tutorials/system_overview.md
-      - Firmware Upgrade: tutorials/firmware_upgrade.md
-      - Scheduled Tasks: tutorials/scheduled_tasks.md
-      - Change Admin Password: tutorials/admin_password.md
-      - Time Zone: tutorials/time_zone.md
-      - Toggle Button Settings: tutorials/toggle_button_settings.md
-      - Log: tutorials/log.md
-      - Reset Firmware: tutorials/reset_firmware.md
-      - Advanced Settings: tutorials/advanced_settings.md
-    - Troubleshooting:
-      - Can't access web Admin Panel: tutorials/cannot_access_web_admin_panel.md
-      - Debrick via Uboot: tutorials/debrick.md
-      - Repair or Reset: tutorials/repair_network_or_reset_firmware.md
-    - IoT:
-      - GL.iNet OpenThread Border Router Codelabs: tutorials/openthread_border_router_codelabs.md
-    - Other:
-      - Download Firmware: tutorials/where_to_download_firmware.md
-      - Upgrade to Firmware 4.x: tutorials/upgrade_to_4.md
-      - Upgrade GL-AX1800 to Firmware 4.x: tutorials/gl-ax1800_upgrade_to_4.md
-      - Change WAN to LAN: tutorials/change_wan_to_lan.md
-      - Mobile App: tutorials/mobile_app.md
-      - What is LuCI: tutorials/what_is_luci.md
-      - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
-      - Remote SSH to Router: tutorials/remote_ssh_to_router.md
-      - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
-      - Device id, MAC, SN: tutorials/where_to_find_the_device_id_mac_sn.md
-      - LED Indication: tutorials/led.md
-      - Upgrade Quectel Module Software: tutorials/upgrade_quectel_module_software.md
+      - Overview: interface_guide/system_overview.md
+      - Firmware Upgrade: interface_guide/firmware_upgrade.md
+      - Scheduled Tasks: interface_guide/scheduled_tasks.md
+      - Time Zone: interface_guide/time_zone.md
+      - Toggle Button Settings: interface_guide/toggle_button_settings.md
+      - Log: interface_guide/log.md
+      - Reset Firmware: interface_guide/reset_firmware.md
+      - Advanced Settings: interface_guide/advanced_settings.md
   - Video Library:
     - Overview: video_library/index.md
   - Community:

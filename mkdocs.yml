@@ -268,8 +268,26 @@ nav:
       - System: user_guide/gl-mv1000/system.md
   - FAQ:
     - Overview: faq/index.md
+    - First Time Setup: faq/first_time_setup.md
+    - Can't access web Admin Panel: faq/cannot_access_web_admin_panel.md
+    - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
+    - Download Firmware: faq/where_to_download_firmware.md
+    - What is LuCI: faq/what_is_luci.md
+    - Change WAN to LAN: faq/change_wan_to_lan.md
+    - Debrick via Uboot: faq/debrick.md
+    - iPhone Tethering Fail: faq/iphone_tethering_fail.md
+    - Upgrade to Firmware 4.x: faq/upgrade_to_4.md
+    - Upgrade GL-AX1800 to Firmware 4.x: faq/gl-ax1800_upgrade_to_4.md
+    - LED Indication: faq/led.md
+    - Mobile App: faq/mobile_app.md
+    - Repair or Reset: faq/repair_network_or_reset_firmware.md
   - Tutorials:
     - Overview: tutorials/index.md
+    - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
+    - Remote SSH to Router: tutorials/remote_ssh_to_router.md
+    - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+    - Accessing client LAN from Server(WireGuard): tutorials\wireguard_server_access_to_client_lan_side.md
+    - Upgrade Quectel Module Software: tutorials\upgrade_quectel_module_software.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:
@@ -324,6 +342,7 @@ nav:
       - Overview: interface_guide/system_overview.md
       - Firmware Upgrade: interface_guide/firmware_upgrade.md
       - Scheduled Tasks: interface_guide/scheduled_tasks.md
+      - Admin Password: interface_guide/admin_password.md
       - Time Zone: interface_guide/time_zone.md
       - Toggle Button Settings: interface_guide/toggle_button_settings.md
       - Log: interface_guide/log.md

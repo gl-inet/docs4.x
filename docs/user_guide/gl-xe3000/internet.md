@@ -12,7 +12,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../../tutorials/internet_ethernet)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/x3000_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/internet/xe3000_ethernet.png){class="glboxshadow"}
 
 ## Repeater
 
@@ -20,7 +20,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../../tutorials/internet_repeater)
 
-![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/x3000_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/internet/xe3000_repeater.png){class="glboxshadow"}
 
 ## Tethering
 
@@ -28,7 +28,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 [Click here to learn how to connect to the internet via usb tethering](../../../tutorials/internet_tethering)
 
-![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/x3000_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/internet/xe3000_tethering.png){class="glboxshadow"}
 
 ## Cellular
  
@@ -38,7 +38,7 @@ It supports "Dual SIM, Single Standby", which means it can hold two SIM cards fo
 
 [Click here to learn how to connect to the internet via usb modem](../../../tutorials/internet_cellular)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/x3000_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/internet/xe3000_celluar.png){class="glboxshadow"}
 
 ## Priority and load balance
 

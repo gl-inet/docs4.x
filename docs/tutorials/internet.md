@@ -17,7 +17,7 @@ The internet page is the home page. The top half has a diagram showing the statu
 There are up to 4 types of Internet access, please refer to the corresponding tutorials
 
 - [Ethernet tutorial](../internet_ethernet)
-- [Repeater tutorial](../internet_repeater),
+- [Repeater tutorial](../internet_repeater)
 - [Tethering tutorial](../internet_tethering)
 - [Cellular tutorial](../cellular)
 

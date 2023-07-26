@@ -2,6 +2,8 @@
 
 **Note**: Hardware Acceleration features have been renamed to [Network Acceleration](../network_acceleration) since v4.3.
 
+---
+
 Hardware acceleration reduces CPU load and speeds up traffic packet forwarding, but can conflict with some features.
 
 When hardware acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics, Client Speed Limit.

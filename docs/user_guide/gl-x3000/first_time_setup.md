@@ -14,7 +14,6 @@ Package Contents:
 - 1 x Spitz AX (GL-X3000)
 - 1 x Ethernet cable
 - 1 x Thank you card
-- 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
+- 1 x Power adapter (US+EU+UK+AU plug)
 
 Check out Spitz AX's [unboxing video](../../../video_library/#gl-x3000spitz-ax).

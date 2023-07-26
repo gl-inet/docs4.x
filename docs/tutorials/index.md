@@ -24,6 +24,7 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [How to connect to the Internet via Repeater](internet_repeater).
 * [How to connect to the Internet via usb tethering](internet_tethering).
 * [How to connect to the Internet via usb modem or built-in modem](internet_cellular).
+* [Dual-Ethernet WAN](dual-ethernet_wan).
 * [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection)
 * [Connect to a Hotspot with a Captive Portal](connect_to_a_hotspot_with_captive_portal).
 * [DHCP](dhcp)
@@ -75,7 +76,6 @@ Learn how to use our devices and add-on features with our step to step guides an
 ## Network
 
 * [Firewall](firewall)
-* [Multi-Ethernet](multi-ethernet)
 * [Multi-WAN](multi-wan), failover to another Internet access method or use multiple interfaces at the same time to increase the total bandwidth.
 * [LAN](lan)
 * [DNS](dns)

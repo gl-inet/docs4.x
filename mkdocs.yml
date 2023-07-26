@@ -293,8 +293,6 @@ nav:
       - Cellular: tutorials/internet_cellular.md
       - Dual-Ethernet WAN: tutorials/dual-ethernet_wan.md
       - Connect to a Hotspot with a Captive Portal: tutorials/connect_to_a_hotspot_with_captive_portal.md
-      - DHCP: tutorials/dhcp.md
-      - PPPoE: tutorials/pppoe.md
       - Produce a Wired Connection: tutorials/produce_a_wired_connection.md
       - SMS: tutorials/sms.md
       - SMS Forwarding: tutorials/sms_forwarding.md

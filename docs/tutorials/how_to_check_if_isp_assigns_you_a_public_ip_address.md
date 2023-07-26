@@ -16,13 +16,13 @@ Ask your Internet Service Provider directly.
 
 ### Method 2:
 
-Check the two IP address below to see if they are the same, otherwise not.
+Check the two IP addresses below to see if they are the same, otherwise you don't have a public IP.
 
-* Search **my ip address** on Google, or access website like [https://whatismyipaddress.com/](https://whatismyipaddress.com/){target="_blank"}
+* Search **my ip address** on Google, or access our IP tools [https://tool.gl-inet.com/ip](https://tool.gl-inet.com/ip){target="_blank"}
 
 * Access the main router, you can find the WAN IP address.
 
-If the main router is GL.iNet router, the WAN IP address is the `IP Address` on the Internet page.
+We use GL.iNet router as the main router, if you found WAN IP address is same as the `IP Address` on the Internet page run on Google before, then **42xxxxx** is your Public IP.
 
 ![is public ip address](https://static.gl-inet.com/docs/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/is_public_ip_address.png){class="glboxshadow"}
 

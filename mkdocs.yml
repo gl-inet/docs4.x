@@ -281,6 +281,8 @@ nav:
     - LED Indication: faq/led.md
     - Mobile App: faq/mobile_app.md
     - Repair or Reset: faq/repair_network_or_reset_firmware.md
+    - Connect to a Hotspot with a Captive Portal: interface_guide/connect_to_a_hotspot_with_captive_portal.md
+    - Produce a Wired Connection: interface_guide/produce_a_wired_connection.md
   - Tutorials:
     - Overview: tutorials/index.md
     - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
@@ -296,10 +298,6 @@ nav:
       - Repeater: interface_guide/internet_repeater.md
       - Tethering: interface_guide/internet_tethering.md
       - Cellular: interface_guide/internet_cellular.md
-      - Connect to a Hotspot with a Captive Portal: interface_guide/connect_to_a_hotspot_with_captive_portal.md
-      - DHCP: interface_guide/dhcp.md
-      - PPPoE: interface_guide/pppoe.md
-      - Produce a Wired Connection: interface_guide/produce_a_wired_connection.md
       - SMS: interface_guide/sms.md
       - SMS Forwarding: interface_guide/sms_forwarding.md
       - Get Moduel Logs: interface_guide/get_module_logs.md

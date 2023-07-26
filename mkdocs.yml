@@ -268,28 +268,39 @@ nav:
       - System: user_guide/gl-mv1000/system.md
   - FAQ:
     - Overview: faq/index.md
-    - First Time Setup: faq/first_time_setup.md
-    - Can't access web Admin Panel: faq/cannot_access_web_admin_panel.md
-    - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
-    - Download Firmware: faq/where_to_download_firmware.md
-    - What is LuCI: faq/what_is_luci.md
-    - Change WAN to LAN: faq/change_wan_to_lan.md
-    - Debrick via Uboot: faq/debrick.md
-    - iPhone Tethering Fail: faq/iphone_tethering_fail.md
-    - Upgrade to Firmware 4.x: faq/upgrade_to_4.md
-    - Upgrade GL-AX1800 to Firmware 4.x: faq/gl-ax1800_upgrade_to_4.md
-    - LED Indication: faq/led.md
-    - Mobile App: faq/mobile_app.md
-    - Repair or Reset: faq/repair_network_or_reset_firmware.md
-    - Connect to a Hotspot with a Captive Portal: interface_guide/connect_to_a_hotspot_with_captive_portal.md
-    - Produce a Wired Connection: interface_guide/produce_a_wired_connection.md
+    - Common:
+      - First Time Setup: faq/first_time_setup.md
+      - Can't access web Admin Panel: faq/cannot_access_web_admin_panel.md
+      - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
+      - Download Firmware: faq/where_to_download_firmware.md
+      - What is LuCI: faq/what_is_luci.md
+      - Change WAN to LAN: faq/change_wan_to_lan.md
+      - Debrick via Uboot: faq/debrick.md
+      - LED Indication: faq/led.md
+      - Mobile App: faq/mobile_app.md
+      - Repair or Reset: faq/repair_network_or_reset_firmware.md
+    - Internet:
+      - iPhone Tethering Fail: faq/iphone_tethering_fail.md
+      - Connect to a Hotspot with a Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
+      - Produce a Wired Connection: faq/produce_a_wired_connection.md
+    - Upgrade:
+      - Upgrade to Firmware 4.x: faq/upgrade_to_4.md
+      - Upgrade GL-AX1800 to Firmware 4.x: faq/gl-ax1800_upgrade_to_4.md
+    - VPN:
+      - TCP or UDP: faq/openvpn_tcp_udp.md
+      - Block No-VPN Traffic: faq/block_no_vpn_traffic.md
   - Tutorials:
     - Overview: tutorials/index.md
     - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
     - Remote SSH to Router: tutorials/remote_ssh_to_router.md
     - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
-    - Accessing client LAN from Server(WireGuard): tutorials\wireguard_server_access_to_client_lan_side.md
-    - Upgrade Quectel Module Software: tutorials\upgrade_quectel_module_software.md
+    - Cellular:
+      - Upgrade Quectel Module Software: tutorials\upgrade_quectel_module_software.md
+      - SMS Forwarding: tutorials/sms_forwarding.md
+      - Get Moduel Logs: tutorials/get_module_logs.md
+    - VPN:
+      - VPN Cascading: tutorials/vpn_cascading.md
+      - Accessing client LAN from Server(WireGuard): tutorials\wireguard_server_access_to_client_lan_side.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:
@@ -299,8 +310,6 @@ nav:
       - Tethering: interface_guide/internet_tethering.md
       - Cellular: interface_guide/internet_cellular.md
       - SMS: interface_guide/sms.md
-      - SMS Forwarding: interface_guide/sms_forwarding.md
-      - Get Moduel Logs: interface_guide/get_module_logs.md
     - Wireless:
       - Wireless: interface_guide/wireless.md
     - Clients:
@@ -311,9 +320,6 @@ nav:
       - OpenVPN Server: interface_guide/openvpn_server.md
       - WireGuard Client: interface_guide/wireguard_client.md
       - WireGuard Server: interface_guide/wireguard_server.md
-      - TCP or UDP: interface_guide/openvpn_tcp_udp.md
-      - Block No-VPN Traffic: interface_guide/block_no_vpn_traffic.md
-      - VPN Cascading: interface_guide/vpn_cascading.md
       - Tor: interface_guide/tor.md
     - Applications:
       - Plug-ins: interface_guide/plugins.md

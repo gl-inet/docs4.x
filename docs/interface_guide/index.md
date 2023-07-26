@@ -19,8 +19,6 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Connect to a Hotspot with a Captive Portal](connect_to_a_hotspot_with_captive_portal).
 * [How to set static WAN IP?](how_to_set_static_wan_ip)
 * [SMS](sms)
-* [SMS Forwarding](sms_forwarding), forward SMS messages from router to mobile phone and email.
-* [How to use qlog to capture module logs](get_module_logs).
 
 ## Wireless
 

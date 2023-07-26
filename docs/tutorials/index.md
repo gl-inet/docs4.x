@@ -104,10 +104,6 @@ Learn how to use our devices and add-on features with our step to step guides an
 * [Reset Firmware](reset_firmware)
 * [Advanced Settings](advanced_settings)
 
-## IoT
-
-* [GL.iNet OpenThread Border Router Codelabs](openthread_border_router_codelabs)
-
 ## Troubleshooting
 
 * [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel)

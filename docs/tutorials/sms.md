@@ -8,6 +8,7 @@ Some models have a built-in modem that allows sending and receiving SMS messages
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-XE3000 (Puli AX)            | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE300 (Puli)                | √         |
 

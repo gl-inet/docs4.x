@@ -13,6 +13,7 @@ There are two methods to forward SMS,
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-XE3000 (Puli AX)            | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE300 (Puli)                | √         |
 

@@ -291,6 +291,7 @@ nav:
       - Repeater: tutorials/internet_repeater.md
       - Tethering: tutorials/internet_tethering.md
       - Cellular: tutorials/internet_cellular.md
+      - Dual-Ethernet WAN: tutorials/dual-ethernet_wan.md
       - Connect to a Hotspot with a Captive Portal: tutorials/connect_to_a_hotspot_with_captive_portal.md
       - DHCP: tutorials/dhcp.md
       - PPPoE: tutorials/pppoe.md

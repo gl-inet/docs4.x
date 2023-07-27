@@ -15,5 +15,3 @@ Package Contents:
 - 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Power adapter (US+EU+UK+AU plug)
-
-Check out Puli AX's [unboxing video](../../../video_library/#gl-xe3000puli-ax).

@@ -75,7 +75,7 @@ Go to [Multi-WAN](../../../interface_guide/multi-wan/) to set the priority of ea
 
 The wireless settings lets users manage network security of the primary Wi-Fi and the Guest Wi-Fi, it is accessible by going to **WIRELESS** on the side menu.
 
-[Click here to learn more about the wireless configuration](../../../interface_guide/wireless/)
+[Click here to learn more about the wireless configuration](../../interface_guide/wireless/)
 
 ---
 
@@ -83,7 +83,7 @@ The wireless settings lets users manage network security of the primary Wi-Fi an
 
 Clients are devices connected to the router, you can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router’s Admin Panel.
 
-[Click here to learn more about managing your device clients.](../../../interface_guide/clients/)
+[Click here to learn more about managing your device clients.](../../interface_guide/clients/)
 
 ---
 

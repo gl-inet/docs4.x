@@ -94,9 +94,7 @@ nav:
     - GL-AX1800 (Flint): user_guide/gl-ax1800/index.md
     - GL-MT2500/GL-MT2500A (Brume 2): user_guide/gl-mt2500/index.md
     - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
-    - GL-M2:
-      - Hardware Info: user_guide/gl-m2/hardware_info.md
-      - First Time Setup: user_guide/gl-m2/first_time_setup.md
+    - GL-M2: user_guide/gl-m2/index.md
     - GL-S200:
       - Hardware Info: user_guide/gl-s200/hardware_info.md
       - First Time Setup: user_guide/gl-s200/first_time_setup.md

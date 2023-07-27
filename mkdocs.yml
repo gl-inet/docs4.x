@@ -99,16 +99,7 @@ nav:
     - GL-S10: user_guide/gl-s10/index.md
     - GL-MT1300 (Beryl): user_guide/gl-mt1300/index.md
     - GL-AP1300 (Cirrus): user_guide/gl-ap1300/index.md
-    - GL-X750 (Spitz):
-      - Hardware Info: user_guide/gl-x750/hardware_info.md
-      - First Time Setup: user_guide/gl-x750/first_time_setup.md
-      - Internet: user_guide/gl-x750/internet.md
-      - Wireless: user_guide/gl-x750/wireless.md
-      - Clients: user_guide/gl-x750/clients.md
-      - VPN: user_guide/gl-x750/vpn.md
-      - Applications: user_guide/gl-x750/applications.md
-      - Network: user_guide/gl-x750/network.md
-      - System: user_guide/gl-x750/system.md
+    - GL-X750 (Spitz): user_guide/gl-x750/index.md
     - GL-XE300 (Puli):
       - Hardware Info: user_guide/gl-xe300/hardware_info.md
       - First Time Setup: user_guide/gl-xe300/first_time_setup.md

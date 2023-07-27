@@ -14,8 +14,8 @@ Learn how to use our devices and how to solve some common problems.
 * [How to use Uboot to debrick your routers?](debrick)
 * [Connect to a Hotspot with a Captive Portal?](connect_to_a_hotspot_with_captive_portal)
 * [How to remote access router's web Admin Panel?](remote_access_web_admin_panel)
-* [How to set up OpenVPN?](interface_guide/openvpn_client)
-* [How to set up WireGuard?](interface_guide/wireguard_client)
+* [How to set up OpenVPN?](../interface_guide/openvpn_client)
+* [How to set up WireGuard?](../interface_guide/wireguard_client)
 
 ## Troubleshooting
 
@@ -40,6 +40,6 @@ Learn how to use our devices and how to solve some common problems.
 * [What is LuCI?](../faq/what_is_luci)
 * [How to remote access router's web Admin Panel?](../faq/remote_access_web_admin_panel)
 * [How to remote ssh to router?](../faq/remote_ssh_to_router)
-* [How to check if Internet Service Provider assigns you a public IP address?](../faq/how_to_check_if_isp_assigns_you_a_public_ip_address)
+* [How to check if Internet Service Provider assigns you a public IP address?](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address)
 * [Where to find the device id, MAC, Serial Number?](../faq/where_to_find_the_device_id_mac_sn)
-* [How to upgrade quectel module software?](../faq/upgrade_quectel_module_software)
+* [How to upgrade quectel module software?](../tutorials/upgrade_quectel_module_software)

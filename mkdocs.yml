@@ -96,11 +96,7 @@ nav:
     - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
     - GL-M2: user_guide/gl-m2/index.md
     - GL-S200: user_guide/gl-s200/index.md
-    - GL-S10:
-      - Hardware Info: user_guide/gl-s10/hardware_info.md
-      - First Time Setup: user_guide/gl-s10/first_time_setup.md
-      - User Manual: user_guide/gl-s10/user_manual.md
-      - Firmware Compilation Guide: user_guide/gl-s10/firmware_compilation_guide.md
+    - GL-S10: user_guide/gl-s10/index.md
     - GL-MT1300 (Beryl):
       - Hardware Info: user_guide/gl-mt1300/hardware_info.md
       - First Time Setup: user_guide/gl-mt1300/first_time_setup.md

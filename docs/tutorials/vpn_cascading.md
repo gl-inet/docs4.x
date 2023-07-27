@@ -6,7 +6,7 @@ VPN Cascading is also called double VPN in various scenarios. But GL.iNet VPN Ca
 
 ![gl.inet vpn cascading](https://static.gl-inet.com/docs/en/4/tutorials/vpn_cascading/vpn_cascading.png){class="glboxshadow"}
 
-**VPN 1**: The router is used as VPN server. Clients connected to this server will go to Internet using the router’s ISP Network by default.
+**VPN 1**: The router is used as VPN server. Clients connected to this server will go to Internet using the router's ISP Network by default.
 
 **VPN 2**: The router is used as VPN client to 3rd party VPN services.
 

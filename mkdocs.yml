@@ -97,16 +97,7 @@ nav:
     - GL-M2: user_guide/gl-m2/index.md
     - GL-S200: user_guide/gl-s200/index.md
     - GL-S10: user_guide/gl-s10/index.md
-    - GL-MT1300 (Beryl):
-      - Hardware Info: user_guide/gl-mt1300/hardware_info.md
-      - First Time Setup: user_guide/gl-mt1300/first_time_setup.md
-      - Internet: user_guide/gl-mt1300/internet.md
-      - Wireless: user_guide/gl-mt1300/wireless.md
-      - Clients: user_guide/gl-mt1300/clients.md
-      - VPN: user_guide/gl-mt1300/vpn.md
-      - Applications: user_guide/gl-mt1300/applications.md
-      - Network: user_guide/gl-mt1300/network.md
-      - System: user_guide/gl-mt1300/system.md
+    - GL-MT1300 (Beryl): user_guide/gl-mt1300/index.md
     - GL-AP1300 (Cirrus):
       - Hardware Info: user_guide/gl-ap1300/hardware_info.md
       - First Time Setup: user_guide/gl-ap1300/first_time_setup.md

@@ -8,7 +8,7 @@ A captive portal is a Web page where public hotspots require users obligated to 
 
 * Public Wi-Fi is not safe
 
-    We cannot put enough emphasis on how public Wi-Fi is not safe. By connecting your GL.iNet router to the public wifi, you can simply login to your VPN account directly through your router’s Admin Panel, and it’ll automatically encrypt all connected devices within the local network, saving you from the trouble of setting up VPN on every single device. 
+    We cannot put enough emphasis on how public Wi-Fi is not safe. By connecting your GL.iNet router to the public wifi, you can simply login to your VPN account directly through your router's Admin Panel, and it’ll automatically encrypt all connected devices within the local network, saving you from the trouble of setting up VPN on every single device. 
 
 * Use as a repeater to allow connections with multiple devices
 

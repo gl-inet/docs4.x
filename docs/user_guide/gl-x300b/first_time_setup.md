@@ -4,7 +4,7 @@ All of GL.iNet's devices have a simple and almost identical setup process, [clic
 
 Please note that the adapter within the package depends on your shipping country.
 
-What’s inside the package? 
+What's inside the package? 
 
 **Note**: The image below is an example of GL-X300B-GPS, with some models slightly different.
 

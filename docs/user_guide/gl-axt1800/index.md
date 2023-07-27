@@ -22,7 +22,7 @@ All of GL.iNet's devices have a simple and almost identical setup process, [clic
 
 Please note that the adapter within the package depends on your shipping country.
 
-What’s inside the package?
+What's inside the package?
 
 ![gl-axt1800 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/first_time_setup/axt1800_unboxing.jpg){class="glboxshadow"}
 

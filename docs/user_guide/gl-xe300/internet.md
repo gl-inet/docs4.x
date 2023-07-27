@@ -24,7 +24,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 ## Tethering
 
-Establish internet access with connected devices by sharing a smartphone’s mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
 
 [Click here to learn how to connect to the internet via usb tethering](../../../interface_guide/internet_tethering)
 

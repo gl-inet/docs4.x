@@ -24,7 +24,7 @@ All of GL.iNet's devices have a simple and almost identical setup process, [clic
 
 Please note that the adapter within the package depends on your shipping country.
 
-What’s inside the package?
+What's inside the package?
 
 ![gl-s200 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-s200/first_time_setup/s200_unboxing.jpg){class="glboxshadow"}
 

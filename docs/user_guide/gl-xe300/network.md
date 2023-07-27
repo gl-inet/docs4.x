@@ -4,7 +4,7 @@
 
 GL.iNet's routers include multiple firewall features to ensure a secure connection and complete oversight by users. It lets users configure firewall rules including Port Forwarding, Open Ports, and DMZ.
 
-[Click here to learn more about GL.iNet routers’ firewall](../../../interface_guide/firewall/)
+[Click here to learn more about GL.iNet routers' firewall](../../../interface_guide/firewall/)
 
 ## Multi-WAN
 

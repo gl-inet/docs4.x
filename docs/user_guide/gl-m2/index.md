@@ -12,7 +12,7 @@ GL-M2 is for DIY enthusiasts who would like to build their own routers and modem
 
 ## First time setup
 
-What’s inside the package?
+What's inside the package?
 
 ![gl-m2 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
 

@@ -30,7 +30,7 @@ Here is an example of GL-MT2500/GL-MT2500A. It doesn't have Access Point, Extend
 
 - **Router**. Create your own private network. The router will act as NAT, firewall and DHCP server. This is the default mode.
 
-- **Bridge**. Connect to a wired network. Bridge mode is a networking feature that allows two routers together. When it enabled, it essentially turns the the router into a switch. The bridge-enabled router will still transfer data, but it won’t perform traditional Network Access Translation (NAT) processes.
+- **Bridge**. Connect to a wired network. Bridge mode is a networking feature that allows two routers together. When it enabled, it essentially turns the the router into a switch. The bridge-enabled router will still transfer data, but it won't perform traditional Network Access Translation (NAT) processes.
 
 ---
 

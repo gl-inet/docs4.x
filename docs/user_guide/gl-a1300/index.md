@@ -1,41 +1,36 @@
-# GL-AXT1800 (Slate AX) User Guide
+# Slate Plus (GL-A1300) User Guide
 
 ## Hardware info
 
-GL-AXT1800 (Slate AX) is the first Wi-Fi 6 travel router designed by GL.iNet. It comes with an IPQ6000 1.2GHz quad-core processor and runs on OpenWrt 21.02. With the latest Wi-Fi 6 technology, you can enjoy more capacity for connected devices and faster wireless speed on the road or at home.
+Slate Plus (GL-A1300) is a pocket-sized travel router with a powerful CPU optimized for network stability and processing VPN encryption efficiently. It includes our latest security features and runs on the latest OpenWrt operating system. It is designed for frequent travelers who have a heavy demand on using VPN networks.
 
-![gl-axt1800 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
+![GL-A1300 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){class="glboxshadow"}
 
-[GL-AXT1800 specification](https://www.gl-inet.com/products/gl-axt1800/#specs){target="_blank"}
-
----
+[GL-A1300 specification](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
 
 ### PCB Pinout
 
-![gl-axt1800 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_pinout.jpg){class="glboxshadow"}
+![GL-A1300 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_pinout.jpg){class="glboxshadow"}
 
 ---
 
 ## First time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../../interface_guide/first_time_setup/).
+All of GL.iNet’s devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../../interface_guide/first_time_setup/).
 
 Please note that the adapter within the package depends on your shipping country.
 
 What’s inside the package?
 
-![gl-axt1800 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/first_time_setup/axt1800_unboxing.jpg){class="glboxshadow"}
+![gl-a1300 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/first_time_setup/gl-a1300_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
-- 1 x User manual
-- 1 x Slate AX (GL-AXT1800)
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
-
-Check out Slate AX's [unboxing video](../../../video_library/#gl-axt1800slate-ax).
+1 x User manual
+1 x Slate Plus (GL-A1300)
+1 x Ethernet Cable
+1 x Warranty card
+1 x Power adapter (Selected plug type)
 
 ---
 
@@ -72,7 +67,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 ![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/internet/axt1800_tethering.png){class="glboxshadow"}
 
 ### Cellular
- 
+
 Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
 [Click here to learn how to connect to the internet via usb modem](../../../interface_guide/internet_cellular)
@@ -122,10 +117,6 @@ Please refer to the following links for a step to step setup guide:
 
 - [**Setup WireGuard Client**](../../../interface_guide/wireguard_client/)
 - [**Setup WireGuard Server**](../../../interface_guide/wireguard_server/)
-
-### Tor
-
-- [**Tor**](../../../interface_guide/tor/)
 
 ---
 
@@ -250,4 +241,3 @@ Please visit the [**Reset Firmware**](../../../interface_guide/reset_firmware/) 
 ### Advanced Settings
 
 Please visit the [**Advanced Settings**](../../../interface_guide/advanced_settings/) tutorial.
-

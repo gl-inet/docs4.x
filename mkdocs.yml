@@ -355,5 +355,8 @@ nav:
       - Advanced Settings: interface_guide/advanced_settings.md
   - Video Library:
     - Overview: video_library/index.md
+    - Meet Our New Products: video_library/products.md
+    - tutorials: video_library/tutorials.md
+    - Unboxing & First Time Setup: video_library/unboxing_first_set_up.md
   - Community:
     - Overview: community/index.md

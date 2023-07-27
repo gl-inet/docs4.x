@@ -89,16 +89,7 @@ nav:
     - GL-XE3000 (Puli AX): user_guide/gl-xe3000/index.md
     - GL-X3000 (Spitz AX): user_guide/gl-x3000/index.md
     - GL-MT3000 (Beryl AX): user_guide/gl-mt3000/index.md
-    - GL-AXT1800 (Slate AX):
-      - Hardware Info: user_guide/gl-axt1800/hardware_info.md
-      - First Time Setup: user_guide/gl-axt1800/first_time_setup.md
-      - Internet: user_guide/gl-axt1800/internet.md
-      - Wireless: user_guide/gl-axt1800/wireless.md
-      - Clients: user_guide/gl-axt1800/clients.md
-      - VPN: user_guide/gl-axt1800/vpn.md
-      - Applications: user_guide/gl-axt1800/applications.md
-      - Network: user_guide/gl-axt1800/network.md
-      - System: user_guide/gl-axt1800/system.md
+    - GL-AXT1800 (Slate AX): user_guide/gl-axt1800/index.md
     - GL-A1300 (Slate Plus):
       - Hardware Info: user_guide/gl-a1300/hardware_info.md
       - First Time Setup: user_guide/gl-a1300/first_time_setup.md

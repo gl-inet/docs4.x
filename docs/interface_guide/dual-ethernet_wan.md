@@ -13,4 +13,4 @@ You can use the function **change to WAN** at the internet tab to change one mor
 
 ![dual ethernet wan](https://static.gl-inet.com/docs/en/4/tutorials/dual-ethernet_wan/dual_ethernet.jpg){class="glboxshadow gl-80-desktop"}
 
-After you enable Dual-Ethernet WAN, you can configure multi-wan functions [here](../tutorials/multi-wan.md).
+After you enable Dual-Ethernet WAN, you can configure multi-wan functions [here](../interface_guide/multi-wan.md).

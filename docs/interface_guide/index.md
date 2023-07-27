@@ -16,6 +16,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [How to connect to the Internet via usb tethering](internet_tethering).
 * [How to connect to the Internet via usb modem or built-in modem](internet_cellular).
 * [SMS](sms)
+* [Dual-Ethernet WAN](dual-ethernet_wan).
 
 ## Wireless
 

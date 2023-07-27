@@ -86,16 +86,7 @@ nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
-    - GL-XE3000 (Puli AX):
-      - Hardware Info: user_guide/gl-xe3000/hardware_info.md
-      - First Time Setup: user_guide/gl-xe3000/first_time_setup.md
-      - Internet: user_guide/gl-xe3000/internet.md
-      - Wireless: user_guide/gl-xe3000/wireless.md
-      - Clients: user_guide/gl-xe3000/clients.md
-      - VPN: user_guide/gl-xe3000/vpn.md
-      - Applications: user_guide/gl-xe3000/applications.md
-      - Network: user_guide/gl-xe3000/network.md
-      - System: user_guide/gl-xe3000/system.md
+    - GL-XE3000 (Puli AX): user_guide/gl-xe3000/index.md
     - GL-X3000 (Spitz AX): user_guide/gl-x3000/index.md
     - GL-MT3000 (Beryl AX):
       - Hardware Info: user_guide/gl-mt3000/hardware_info.md
@@ -295,24 +286,9 @@ nav:
       - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
   - Tutorials:
     - Overview: tutorials/index.md
-    - FAQ:
-      - First Time Setup: tutorials/first_time_setup.md
-      - Debrick via Uboot: tutorials/debrick.md
-      - Connect to a Hotspot with a Captive Portal: tutorials/connect_to_a_hotspot_with_captive_portal.md
-      - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
-      - OpenVPN Client: tutorials/openvpn_client.md
-      - WireGuard Client: tutorials/wireguard_client.md
-    - Internet Connection:
-      - Internet: tutorials/internet.md
-      - Ethernet: tutorials/internet_ethernet.md
-      - Repeater: tutorials/internet_repeater.md
-      - Tethering: tutorials/internet_tethering.md
-      - Cellular: tutorials/internet_cellular.md
-      - Connect to a Hotspot with a Captive Portal: tutorials/connect_to_a_hotspot_with_captive_portal.md
-      - DHCP: tutorials/dhcp.md
-      - PPPoE: tutorials/pppoe.md
-      - Produce a Wired Connection: tutorials/produce_a_wired_connection.md
-      - SMS: tutorials/sms.md
+    - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+    - Cellular:
+      - Upgrade Quectel Module Software: tutorials\upgrade_quectel_module_software.md
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Moduel Logs: tutorials/get_module_logs.md
     - VPN:
@@ -327,6 +303,7 @@ nav:
       - Tethering: interface_guide/internet_tethering.md
       - Cellular: interface_guide/internet_cellular.md
       - SMS: interface_guide/sms.md
+      - Dual-Ethernet WAN: interface_guide/dual-ethernet_wan.md
     - Wireless:
       - Wireless: interface_guide/wireless.md
     - Clients:
@@ -360,34 +337,15 @@ nav:
       - Hardware Acceleration: interface_guide/hardware_acceleration.md
       - Network Acceleration: interface_guide/network_acceleration.md
     - System:
-      - Overview: tutorials/system_overview.md
-      - Firmware Upgrade: tutorials/firmware_upgrade.md
-      - Scheduled Tasks: tutorials/scheduled_tasks.md
-      - Change Admin Password: tutorials/admin_password.md
-      - Time Zone: tutorials/time_zone.md
-      - Toggle Button Settings: tutorials/toggle_button_settings.md
-      - Log: tutorials/log.md
-      - Reset Firmware: tutorials/reset_firmware.md
-      - Advanced Settings: tutorials/advanced_settings.md
-    - Troubleshooting:
-      - Can't access web Admin Panel: tutorials/cannot_access_web_admin_panel.md
-      - Debrick via Uboot: tutorials/debrick.md
-      - Repair or Reset: tutorials/repair_network_or_reset_firmware.md
-    - IoT:
-      - GL.iNet OpenThread Border Router Codelabs: tutorials/openthread_border_router_codelabs.md
-    - Other:
-      - Download Firmware: tutorials/where_to_download_firmware.md
-      - Upgrade to Firmware 4.x: tutorials/upgrade_to_4.md
-      - Upgrade GL-AX1800 to Firmware 4.x: tutorials/gl-ax1800_upgrade_to_4.md
-      - Change WAN to LAN: tutorials/change_wan_to_lan.md
-      - Mobile App: tutorials/mobile_app.md
-      - What is LuCI: tutorials/what_is_luci.md
-      - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
-      - Remote SSH to Router: tutorials/remote_ssh_to_router.md
-      - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
-      - Device id, MAC, SN: tutorials/where_to_find_the_device_id_mac_sn.md
-      - LED Indication: tutorials/led.md
-      - Upgrade Quectel Module Software: tutorials/upgrade_quectel_module_software.md
+      - Overview: interface_guide/system_overview.md
+      - Firmware Upgrade: interface_guide/firmware_upgrade.md
+      - Scheduled Tasks: interface_guide/scheduled_tasks.md
+      - Admin Password: interface_guide/admin_password.md
+      - Time Zone: interface_guide/time_zone.md
+      - Toggle Button Settings: interface_guide/toggle_button_settings.md
+      - Log: interface_guide/log.md
+      - Reset Firmware: interface_guide/reset_firmware.md
+      - Advanced Settings: interface_guide/advanced_settings.md
   - Video Library:
     - Overview: video_library/index.md
     - Meet Our New Products: video_library/products.md

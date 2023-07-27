@@ -86,16 +86,7 @@ nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
-    - GL-X3000 (Spitz AX):
-      - Hardware Info: user_guide/gl-x3000/hardware_info.md
-      - First Time Setup: user_guide/gl-x3000/first_time_setup.md
-      - Internet: user_guide/gl-x3000/internet.md
-      - Wireless: user_guide/gl-x3000/wireless.md
-      - Clients: user_guide/gl-x3000/clients.md
-      - VPN: user_guide/gl-x3000/vpn.md
-      - Applications: user_guide/gl-x3000/applications.md
-      - Network: user_guide/gl-x3000/network.md
-      - System: user_guide/gl-x3000/system.md
+    - GL-X3000 (Spitz AX): user_guide/gl-x3000/index.md
     - GL-MT3000 (Beryl AX):
       - Hardware Info: user_guide/gl-mt3000/hardware_info.md
       - First Time Setup: user_guide/gl-mt3000/first_time_setup.md

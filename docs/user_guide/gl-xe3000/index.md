@@ -1,4 +1,4 @@
-# GL-X3000 (Puli AX) User Guide
+# GL-XE3000 (Puli AX) User Guide
 
 ## Hardware info
 

@@ -15,9 +15,6 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [How to connect to the Internet via Repeater](internet_repeater).
 * [How to connect to the Internet via usb tethering](internet_tethering).
 * [How to connect to the Internet via usb modem or built-in modem](internet_cellular).
-* [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection)
-* [Connect to a Hotspot with a Captive Portal](connect_to_a_hotspot_with_captive_portal).
-* [How to set static WAN IP?](how_to_set_static_wan_ip)
 * [SMS](sms)
 
 ## Wireless
@@ -37,10 +34,9 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Setup WireGuard Server](wireguard_server).
 * [VPN Proxy Mode](vpn_dashboard#proxy-mode).
 * [VPN Policy](vpn_dashboard#proxy-mode).
-* [How to setup NordVPN on router?](openvpn_client#setup-nordvpn)
-* [How to setup AzireVPN on router?](wireguard_client#setup-azirevpn)
-* [How to setup Mullvad VPN on router?](wireguard_client#setup-mullvad)
-* [How to let all data go through VPN?](block_no_vpn_traffic)
+* [How to setup NordVPN on router?](openvpn_client#set-up-nordvpn)
+* [How to setup AzireVPN on router?](wireguard_client#set-up-azirevpn)
+* [How to setup Mullvad VPN on router?](wireguard_client#set-up-mullvad)
 * [How to Block Non-VPN Traffic?](block_no_vpn_traffic)
 * [VPN Kill Switch](block_no_vpn_traffic).
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp)

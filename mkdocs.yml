@@ -18,7 +18,6 @@ theme:
     - navigation.indexes
     - navigation.tabs
     - navigation.top
-    - toc.integrate
   # palette:
   #   - scheme: default
   #     primary: white
@@ -270,29 +269,31 @@ nav:
     - Overview: faq/index.md
     - Common:
       - First Time Setup: faq/first_time_setup.md
-      - Can't access web Admin Panel: faq/cannot_access_web_admin_panel.md
-      - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
-      - Download Firmware: faq/where_to_download_firmware.md
-      - What is LuCI: faq/what_is_luci.md
-      - Change WAN to LAN: faq/change_wan_to_lan.md
       - Debrick via Uboot: faq/debrick.md
       - LED Indication: faq/led.md
-      - Mobile App: faq/mobile_app.md
       - Repair or Reset: faq/repair_network_or_reset_firmware.md
+      - Remote Access Web Admin Panel: faq/remote_access_web_admin_panel.md
+      - Remote SSH to Router: faq/remote_ssh_to_router.md
+    - Troubleshooting:
+      - Can't access web Admin Panel: faq/cannot_access_web_admin_panel.md
     - Internet:
       - iPhone Tethering Fail: faq/iphone_tethering_fail.md
       - Connect to a Hotspot with a Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
       - Produce a Wired Connection: faq/produce_a_wired_connection.md
     - Upgrade:
+      - Download Firmware: faq/where_to_download_firmware.md
       - Upgrade to Firmware 4.x: faq/upgrade_to_4.md
       - Upgrade GL-AX1800 to Firmware 4.x: faq/gl-ax1800_upgrade_to_4.md
     - VPN:
       - TCP or UDP: faq/openvpn_tcp_udp.md
       - Block No-VPN Traffic: faq/block_no_vpn_traffic.md
+    - Other:
+      - Change WAN to LAN: faq/change_wan_to_lan.md
+      - Mobile App: faq/mobile_app.md
+      - What is LuCI: faq/what_is_luci.md
+      - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
   - Tutorials:
     - Overview: tutorials/index.md
-    - Remote Access Web Admin Panel: tutorials/remote_access_web_admin_panel.md
-    - Remote SSH to Router: tutorials/remote_ssh_to_router.md
     - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
     - Cellular:
       - Upgrade Quectel Module Software: tutorials\upgrade_quectel_module_software.md

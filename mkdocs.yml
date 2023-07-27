@@ -93,16 +93,7 @@ nav:
     - GL-A1300 (Slate Plus): user_guide/gl-a1300/index.md
     - GL-AX1800 (Flint): user_guide/gl-ax1800/index.md
     - GL-MT2500/GL-MT2500A (Brume 2): user_guide/gl-mt2500/index.md
-    - GL-SFT1200 (Opal):
-      - Hardware Info: user_guide/gl-sft1200/hardware_info.md
-      - First Time Setup: user_guide/gl-sft1200/first_time_setup.md
-      - Internet: user_guide/gl-sft1200/internet.md
-      - Wireless: user_guide/gl-sft1200/wireless.md
-      - Clients: user_guide/gl-sft1200/clients.md
-      - VPN: user_guide/gl-sft1200/vpn.md
-      - Applications: user_guide/gl-sft1200/applications.md
-      - Network: user_guide/gl-sft1200/network.md
-      - System: user_guide/gl-sft1200/system.md
+    - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
     - GL-M2:
       - Hardware Info: user_guide/gl-m2/hardware_info.md
       - First Time Setup: user_guide/gl-m2/first_time_setup.md

@@ -100,16 +100,7 @@ nav:
     - GL-MT1300 (Beryl): user_guide/gl-mt1300/index.md
     - GL-AP1300 (Cirrus): user_guide/gl-ap1300/index.md
     - GL-X750 (Spitz): user_guide/gl-x750/index.md
-    - GL-XE300 (Puli):
-      - Hardware Info: user_guide/gl-xe300/hardware_info.md
-      - First Time Setup: user_guide/gl-xe300/first_time_setup.md
-      - Internet: user_guide/gl-xe300/internet.md
-      - Wireless: user_guide/gl-xe300/wireless.md
-      - Clients: user_guide/gl-xe300/clients.md
-      - VPN: user_guide/gl-xe300/vpn.md
-      - Applications: user_guide/gl-xe300/applications.md
-      - Network: user_guide/gl-xe300/network.md
-      - System: user_guide/gl-xe300/system.md
+    - GL-XE300 (Puli): user_guide/gl-xe300/index.md
     - GL-X300B (Collie):
       - Hardware Info: user_guide/gl-x300b/hardware_info.md
       - First Time Setup: user_guide/gl-x300b/first_time_setup.md

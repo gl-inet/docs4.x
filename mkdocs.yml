@@ -91,16 +91,7 @@ nav:
     - GL-MT3000 (Beryl AX): user_guide/gl-mt3000/index.md
     - GL-AXT1800 (Slate AX): user_guide/gl-axt1800/index.md
     - GL-A1300 (Slate Plus): user_guide/gl-a1300/index.md
-    - GL-AX1800 (Flint):
-      - Hardware Info: user_guide/gl-ax1800/hardware_info.md
-      - First Time Setup: user_guide/gl-ax1800/first_time_setup.md
-      - Internet: user_guide/gl-ax1800/internet.md
-      - Wireless: user_guide/gl-ax1800/wireless.md
-      - Clients: user_guide/gl-ax1800/clients.md
-      - VPN: user_guide/gl-ax1800/vpn.md
-      - Applications: user_guide/gl-ax1800/applications.md
-      - Network: user_guide/gl-ax1800/network.md
-      - System: user_guide/gl-ax1800/system.md
+    - GL-AX1800 (Flint): user_guide/gl-ax1800/index.md
     - GL-MT2500/GL-MT2500A (Brume 2):
       - Hardware Info: user_guide/gl-mt2500/hardware_info.md
       - First Time Setup: user_guide/gl-mt2500/first_time_setup.md

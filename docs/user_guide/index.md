@@ -63,10 +63,24 @@
   </div>
 </div>
 
-### 4G LTE Router Gateway
+### Cellular Router
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-xe3000/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_xe3000.jpg" >
+        <div class="gl-product-model">GL-XE3000</div>
+        <div class="gl-product-model">(Puli AX)</div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
+      <a href="gl-xe3000/hardware_info/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_xe3000.jpg" >
+        <div class="gl-product-model">GL-XE3000</div>
+        <div class="gl-product-model">(Puli AX)</div>
+  	  </a>
+  	</div>
     <div class="gl-product-card">
       <a href="gl-x3000/">
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_x3000.jpg" >

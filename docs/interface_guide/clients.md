@@ -26,6 +26,12 @@ Enable **Block WAN** so that it cannot access the WAN, only LAN. To put it simpl
 
 ![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients.png){class="glboxshadow gl-80-desktop"}
 
+Starting from firmware 4.4.x, you can upload a block list in excel form or input Mac addressed manually to creat a **Block List**.
+
+![blocklist](https://static.gl-inet.com/docs/en/4/tutorials/clients/blocklist.jpg){class="glboxshadow gl-80-desktop"}
+
+![inputblock](https://static.gl-inet.com/docs/en/4/tutorials/clients/inputblock.jpg){class="glboxshadow gl-50-desktop"}
+
 **Note**: Blocking client is based on the MAC address of the device, so if the blocked device use a different MAC address next time, it can still connect to router.
 
 ## Speed

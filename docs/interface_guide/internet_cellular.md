@@ -180,6 +180,40 @@ The following AT Commands have been pre-set.
 * Operator Names
 * Request SIM card status
 
+## Carrier profile
+
+You can save different profiles for the same or different carriers.
+
+Click Manage profile
+
+![manageprofile](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/carrier_profile/manage_profile.jpg){class="glboxshadow"}
+
+Add a new  profile or save the current profile
+
+![addprofile](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/carrier_profile/add_profile.jpg){class="glboxshadow"}
+
+Create the carrier own profile base on your needs
+
+![createprofile](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/carrier_profile/create_profile.jpg){class="glboxshadow"}
+
+You can select a saved profile next time
+
+![selectprofile](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/carrier_profile/select_profile.jpg){class="glboxshadow"}
+
+Choose any profiles you needed
+
+![chooseprofile](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
+
+## Band Masking
+
+You can check to the band signals by click **view more** in **cells info** and decide which band with stronger signal and which band with weaker signal. Then you can force your router just connect to bands you want or never connect to some bands you don't want. 
+
+![cellinfo](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/band_masking/cell_info.jpg){class="glboxshadow"}
+
+Check **Block** or **Open** and select the below for bands you want to apply.
+
+![bandmasking](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/band_masking/band_masking.jpg){class="glboxshadow"}
+
 ## Warning
 
 When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](../multi-wan) page.

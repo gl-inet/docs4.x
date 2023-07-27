@@ -95,7 +95,7 @@ You can modify your own configuration at this tab.
 
 ![ptptopology](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/ptptopology.jpg){class="glboxshadow"}
 
-Enable the client to client toggle, your clients can be access to each others
+Enable the client to client toggle and export a new configuration to clinets, your clients can be access to each others now.
 
 ![peertopeer](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/peertopeer.jpg){class="glboxshadow"}
 

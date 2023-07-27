@@ -8,7 +8,7 @@ When Network acceleration is enabled, the following functions will not work prop
 
 The following models have this option:
 
-GL-X3000(Spitz AX), GL-MT2500(Brume 2), GL-MT3000(Beryl AX), GL-MT2500A(Brume 2), GL-SFT1200(Opal), GL-MT1300(Beryl)
+GL-XE3000(Puli AX), GL-X3000(Spitz AX), GL-MT2500(Brume 2), GL-MT3000(Beryl AX), GL-MT2500A(Brume 2), GL-SFT1200(Opal), GL-MT1300(Beryl)
 
 ## Setup
 

@@ -40,6 +40,8 @@ Please visit the [**Drop-in Gateway**](../../../interface_guide/drop-in_gateway/
 
 Please visit the [**IGMP Snooping**](../../../interface_guide/igmp_snooping/) tutorial.
 
-## Hardware Acceleration
+## Network Acceleration
+
+Formerly known as [Hardware Acceleration](../../../interface_guide/hardware_acceleration/).
 
 Please visit the [**Hardware Acceleration**](../../../interface_guide/hardware_acceleration/) tutorial.

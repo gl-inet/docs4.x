@@ -6,7 +6,7 @@ We recommend WireGuard over OpenVPN because it is much faster. For set up a Wire
 
 If you have already bought OpenVPN service from a provider, but you don't know how to get the configuration file, please refer to [get configuration files from OpenVPN service providers](#get-configuration-files-from-openvpn-service-providers) or ask its support.
 
-You can set up OpenVPN Client via web Admin Panel or [mobile app](../mobile_app). For the mobile app, it has already integrated NordVPN.
+You can set up OpenVPN Client via web Admin Panel or [mobile app](../../faq/mobile_app). For the mobile app, it has already integrated NordVPN.
 
 For set up via web Admin Panel, please follow the guide below.
 
@@ -118,7 +118,7 @@ Recommended:
 
     2. **Choose a NordVPN server**
 
-        Go to [NordVPN recommended server utility here](https://nordvpn.com/servers/tools/){target="_blank"}. It will recommend a server base on your network, click **Show available protocols** to download the UDP or TCP config. Click [here](../openvpn_tcp_udp/) to see the difference.
+        Go to [NordVPN recommended server utility here](https://nordvpn.com/servers/tools/){target="_blank"}. It will recommend a server base on your network, click **Show available protocols** to download the UDP or TCP config. Click [here](../../faq/openvpn_tcp_udp/) to see the difference.
 
         ![nordvpn server utility](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/nordvpn/nordvpn_server_utility.png){class="glboxshadow"}
 

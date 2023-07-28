@@ -150,7 +150,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     3. Then follow the [guide](#setup-wireguard-client) to continue.
 
-    4. You can also use [mobile app](../mobile_app) to setup AzireVPN.
+    4. You can also use [mobile app](../../faq/mobile_app) to setup AzireVPN.
 
 <div id="mullvad"></div>
 
@@ -162,7 +162,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     2. Then follow the [guide](#setup-wireguard-client) to continue.
 
-    3. You can also use [mobile app](../mobile_app) to setup Mullvad.
+    3. You can also use [mobile app](../../faq/mobile_app) to setup Mullvad.
 
 <div id="ovpn"></div>
 

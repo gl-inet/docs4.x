@@ -24,7 +24,7 @@ A captive portal is a Web page where public hotspots require users obligated to 
 
     After successfully connecting to your router, go to the web admin panel of your router by visiting router IP address (default is `192.168.8.1`) on the Internet browser. If you are logging in for the first time, select a language and create a new password for the router's web admin panel.
 
-3. Connect your router to the public hotspot's SSID using the [Repeater](../internet_repeater/) function.
+3. Connect your router to the public hotspot's SSID using the [Repeater](../../interface_guide/internet_repeater/) function.
 
 4. Fill out the hotel's Captive Portal.
 

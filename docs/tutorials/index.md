@@ -10,7 +10,6 @@ Learn how to use our devices correctly with detailed steps.
 
 ## VPN
 
-* [How to access client from server in WireGuard tunnel?](wireguard_server_access_to_client_lan_side)
 * [How to visit WireGuard client LAN side from Server?](wireguard_server_access_to_client_lan_side)
 
 ## Cellular

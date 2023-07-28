@@ -135,14 +135,16 @@ nav:
       - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
   - Tutorials:
     - Overview: tutorials/index.md
-    - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
     - Cellular:
       - Upgrade Quectel Module Software: tutorials\upgrade_quectel_module_software.md
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Moduel Logs: tutorials/get_module_logs.md
+      - Upgrade Quectel Module Software: tutorials/upgrade_quectel_module_software.md
     - VPN:
       - VPN Cascading: tutorials/vpn_cascading.md
       - Accessing client LAN from Server(WireGuard): tutorials\wireguard_server_access_to_client_lan_side.md
+    - Other:
+      - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:

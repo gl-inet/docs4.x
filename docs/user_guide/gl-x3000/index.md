@@ -14,7 +14,7 @@ It supports "Dual SIM, Single Standby", which means it can hold two SIM cards fo
 
 ## First time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../../interface_guide/first_time_setup/).
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../interface_guide/first_time_setup/).
 
 Please note that the adapter within the package depends on your shipping country.
 
@@ -30,7 +30,7 @@ Package Contents:
 - 1 x Thank you card
 - 1 x Power adapter (Selected plug type)
 
-Check out Spitz AX's [unboxing video](../../../video_library/#gl-x3000spitz-ax).
+Check out Spitz AX's [unboxing video](../../video_library/#gl-x3000spitz-ax).
 
 ---
 
@@ -46,7 +46,7 @@ It supports four ways to connect to the internet as listed below:
 
 Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
 
-[Click here to learn how to connect to the internet via an ethernet cable](../../../interface_guide/internet_ethernet)
+[Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet)
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/x3000_ethernet.png){class="glboxshadow"}
 
@@ -54,7 +54,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
 
-[Click here to learn how to connect to the internet via an existing Wi-Fi](../../../interface_guide/internet_repeater)
+[Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater)
 
 ![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/x3000_repeater.png){class="glboxshadow"}
 
@@ -62,7 +62,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 Establish internet access with connected devices by sharing a smartphone’s mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
 
-[Click here to learn how to connect to the internet via usb tethering](../../../interface_guide/internet_tethering)
+[Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering)
 
 ![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/x3000_tethering.png){class="glboxshadow"}
 
@@ -72,13 +72,13 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
 
-[Click here to learn how to connect to the internet via usb modem](../../../interface_guide/internet_cellular)
+[Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x3000/internet/x3000_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 
-Go to [Multi-WAN](../../../interface_guide/multi-wan/) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
+Go to [Multi-WAN](../../interface_guide/multi-wan/) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
 
 ---
 
@@ -104,21 +104,21 @@ GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VP
 
 ### VPN Dashboard
 
-- [**VPN Dashboard**](../../../interface_guide/vpn_dashboard/)
+- [**VPN Dashboard**](../../interface_guide/vpn_dashboard/)
 
 ### OpenVPN
 
 Please refer to the following links for a step to step setup guide:
 
-- [**Setup OpenVPN Client**](../../../interface_guide/openvpn_client/)
-- [**Setup OpenVPN Server**](../../../interface_guide/openvpn_server/)
+- [**Setup OpenVPN Client**](../../interface_guide/openvpn_client/)
+- [**Setup OpenVPN Server**](../../interface_guide/openvpn_server/)
 
 ### WireGuard
 
 Please refer to the following links for a step to step setup guide:
 
-- [**Setup WireGuard Client**](../../../interface_guide/wireguard_client/)
-- [**Setup WireGuard Server**](../../../interface_guide/wireguard_server/)
+- [**Setup WireGuard Client**](../../interface_guide/wireguard_client/)
+- [**Setup WireGuard Server**](../../interface_guide/wireguard_server/)
 
 ---
 
@@ -128,35 +128,35 @@ GL.iNet routers include a wide range of add-on features that simplifies device m
 
 ### Plug-ins
 
-Please visit the [**Plug-ins**](../../../interface_guide/plugins/) tutorial.
+Please visit the [**Plug-ins**](../../interface_guide/plugins/) tutorial.
 
 ### Dynamic DNS
 
-Please visit the [**Dynamic DNS**](../../../interface_guide/ddns/) tutorial.
+Please visit the [**Dynamic DNS**](../../interface_guide/ddns/) tutorial.
 
 ### GoodCloud
 
-Please visit the  [**GoodCloud**](../../../interface_guide/cloud/) tutorial.
+Please visit the  [**GoodCloud**](../../interface_guide/cloud/) tutorial.
 
 ### Network Storage
 
-Please visit the [**Network Storage**](../../../interface_guide/network_storage/) tutorial.
+Please visit the [**Network Storage**](../../interface_guide/network_storage/) tutorial.
 
 ### AdGuard Home
 
-Please visit the [**AdGuard Home**](../../../interface_guide/adguardhome/) tutorial.
+Please visit the [**AdGuard Home**](../../interface_guide/adguardhome/) tutorial.
 
 ### Parental Control
 
-Please visit the [**Parental Control**](../../../interface_guide/parental_control/) tutorial.
+Please visit the [**Parental Control**](../../interface_guide/parental_control/) tutorial.
 
 ### ZeroTier
 
-Please visit the [**ZeroTier**](../../../interface_guide/zerotier/) tutorial.
+Please visit the [**ZeroTier**](../../interface_guide/zerotier/) tutorial.
 
 ### Tailscale
 
-Please visit the [**Tailscale**](../../../interface_guide/tailscale/) tutorial.
+Please visit the [**Tailscale**](../../interface_guide/tailscale/) tutorial.
 
 ---
 
@@ -166,45 +166,45 @@ Please visit the [**Tailscale**](../../../interface_guide/tailscale/) tutorial.
 
 GL.iNet's routers include multiple firewall features to ensure a secure connection and complete oversight by users. It lets users configure firewall rules including Port Forwarding, Open Ports, and DMZ.
 
-[Click here to learn more about GL.iNet routers’ firewall](../../../interface_guide/firewall/)
+[Click here to learn more about GL.iNet routers’ firewall](../../interface_guide/firewall/)
 
 ### Multi-WAN
 
-Please visit the [**Multi-WAN**](../../../interface_guide/multi-wan/) tutorial.
+Please visit the [**Multi-WAN**](../../interface_guide/multi-wan/) tutorial.
 
 ### LAN
 
-Please visit the [**LAN**](../../../interface_guide/lan/) tutorial.
+Please visit the [**LAN**](../../interface_guide/lan/) tutorial.
 
 ### DNS
 
-Please visit the [**DNS**](../../../interface_guide/dns/) tutorial.
+Please visit the [**DNS**](../../interface_guide/dns/) tutorial.
 
 ### Network Mode
 
-Please visit the [**Network Mode**](../../../interface_guide/network_mode/) tutorial.
+Please visit the [**Network Mode**](../../interface_guide/network_mode/) tutorial.
 
 ### IPv6
 
-Please visit the [**IPv6**](../../../interface_guide/ipv6/) tutorial.
+Please visit the [**IPv6**](../../interface_guide/ipv6/) tutorial.
 
 ### MAC Address
 
 The Mac Address page was previously called Mac Clone and has been changed to Mac Address since v4.2.
 
-Please visit the [**MAC Address**](../../../interface_guide/mac_address/) tutorial.
+Please visit the [**MAC Address**](../../interface_guide/mac_address/) tutorial.
 
 ### Drop-in Gateway
 
-Please visit the [**Drop-in Gateway**](../../../interface_guide/drop-in_gateway/) tutorial.
+Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway/) tutorial.
 
 ### IGMP Snooping
 
-Please visit the [**IGMP Snooping**](../../../interface_guide/igmp_snooping/) tutorial.
+Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping/) tutorial.
 
 ### Hardware Acceleration
 
-Please visit the [**Hardware Acceleration**](../../../interface_guide/hardware_acceleration/) tutorial.
+Please visit the [**Hardware Acceleration**](../../interface_guide/hardware_acceleration/) tutorial.
 
 ---
 

@@ -16,7 +16,7 @@ GL-SFT1200 (Opal) is a pocket-sized travel router supporting 1200Mbps wireless t
 
 ## First time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../../interface_guide/first_time_setup/).
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../interface_guide/first_time_setup/).
 
 Please note that the adapter within the package depends on your shipping country.
 
@@ -53,25 +53,25 @@ GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VP
 
 ### VPN Dashboard
 
-- [**VPN Dashboard**](../../../interface_guide/vpn_dashboard/)
+- [**VPN Dashboard**](../../interface_guide/vpn_dashboard/)
 
 ### OpenVPN
 
 Please refer to the following links for a step to step setup guide:
 
-- [**Setup OpenVPN Client**](../../../interface_guide/openvpn_client/)
-- [**Setup OpenVPN Server**](../../../interface_guide/openvpn_server/)
+- [**Setup OpenVPN Client**](../../interface_guide/openvpn_client/)
+- [**Setup OpenVPN Server**](../../interface_guide/openvpn_server/)
 
 ### WireGuard
 
 Please refer to the following links for a step to step setup guide:
 
-- [**Setup WireGuard Client**](../../../interface_guide/wireguard_client/)
-- [**Setup WireGuard Server**](../../../interface_guide/wireguard_server/)
+- [**Setup WireGuard Client**](../../interface_guide/wireguard_client/)
+- [**Setup WireGuard Server**](../../interface_guide/wireguard_server/)
 
 ### Tor
 
-- [**Tor**](../../../interface_guide/tor/)
+- [**Tor**](../../interface_guide/tor/)
 
 ---
 
@@ -81,15 +81,15 @@ GL.iNet routers include a wide range of add-on features that simplifies device m
 
 ### Plug-ins
 
-Please visit the [**Plug-ins**](../../../interface_guide/plugins/) tutorial.
+Please visit the [**Plug-ins**](../../interface_guide/plugins/) tutorial.
 
 ### Dynamic DNS
 
-Please visit the [**Dynamic DNS**](../../../interface_guide/ddns/) tutorial.
+Please visit the [**Dynamic DNS**](../../interface_guide/ddns/) tutorial.
 
 ### GoodCloud
 
-Please visit the  [**GoodCloud**](../../../interface_guide/cloud/) tutorial.
+Please visit the  [**GoodCloud**](../../interface_guide/cloud/) tutorial.
 
 ---
 
@@ -99,47 +99,47 @@ Please visit the  [**GoodCloud**](../../../interface_guide/cloud/) tutorial.
 
 GL.iNet's routers include multiple firewall features to ensure a secure connection and complete oversight by users. It lets users configure firewall rules including Port Forwarding, Open Ports, and DMZ.
 
-[Click here to learn more about GL.iNet routers’ firewall](../../../interface_guide/firewall/)
+[Click here to learn more about GL.iNet routers’ firewall](../../interface_guide/firewall/)
 
 ### Multi-WAN
 
-Please visit the [**Multi-WAN**](../../../interface_guide/multi-wan/) tutorial.
+Please visit the [**Multi-WAN**](../../interface_guide/multi-wan/) tutorial.
 
 ### LAN
 
-Please visit the [**LAN**](../../../interface_guide/lan/) tutorial.
+Please visit the [**LAN**](../../interface_guide/lan/) tutorial.
 
 ### DNS
 
-Please visit the [**DNS**](../../../interface_guide/dns/) tutorial.
+Please visit the [**DNS**](../../interface_guide/dns/) tutorial.
 
 ### Network Mode
 
-Please visit the [**Network Mode**](../../../interface_guide/network_mode/) tutorial.
+Please visit the [**Network Mode**](../../interface_guide/network_mode/) tutorial.
 
 ### IPv6
 
-Please visit the [**IPv6**](../../../interface_guide/ipv6/) tutorial.
+Please visit the [**IPv6**](../../interface_guide/ipv6/) tutorial.
 
 ### MAC Address
 
 The Mac Address page was previously called Mac Clone and has been changed to Mac Address since v4.2.
 
-Please visit the [**MAC Address**](../../../interface_guide/mac_address/) tutorial.
+Please visit the [**MAC Address**](../../interface_guide/mac_address/) tutorial.
 
 ### Drop-in Gateway
 
-Please visit the [**Drop-in Gateway**](../../../interface_guide/drop-in_gateway/) tutorial.
+Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway/) tutorial.
 
 ### IGMP Snooping
 
-Please visit the [**IGMP Snooping**](../../../interface_guide/igmp_snooping/) tutorial.
+Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping/) tutorial.
 
 ### Network Acceleration
 
-Formerly known as [Hardware Acceleration](../../../interface_guide/hardware_acceleration/).
+Formerly known as [Hardware Acceleration](../../interface_guide/hardware_acceleration/).
 
-Please visit the [**Hardware Acceleration**](../../../interface_guide/hardware_acceleration/) tutorial.
+Please visit the [**Hardware Acceleration**](../../interface_guide/hardware_acceleration/) tutorial.
 
 ---
 
@@ -147,38 +147,38 @@ Please visit the [**Hardware Acceleration**](../../../interface_guide/hardware_a
 
 ### Overview
 
-Please visit the [**System Overview**](../../../interface_guide/system_overview/) tutorial.
+Please visit the [**System Overview**](../../interface_guide/system_overview/) tutorial.
 
 ### Upgrade
 
 GL.iNet provides regular updates on our routers' firmware to improve performance, resolving bugs and fix vulnerabilities.
 
-Please visit the [**Upgrade**](../../../interface_guide/firmware_upgrade/) tutorial.
+Please visit the [**Upgrade**](../../interface_guide/firmware_upgrade/) tutorial.
 
 ### Scheduled Tasks
 
-Please visit the [**Scheduled Tasks**](../../../interface_guide/scheduled_tasks/) tutorial.
+Please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks/) tutorial.
 
 ### Admin Password
 
-Please visit the [**Admin Password**](../../../interface_guide/admin_password/) tutorial.
+Please visit the [**Admin Password**](../../interface_guide/admin_password/) tutorial.
 
 ### Time Zone
 
-Please visit the  [**Time Zone**](../../../interface_guide/time_zone/) tutorial.
+Please visit the  [**Time Zone**](../../interface_guide/time_zone/) tutorial.
 
 ### Toggle Button Settings
 
-Please visit the [**Toggle Button Settings**](../../../interface_guide/toggle_button_settings/) tutorial.
+Please visit the [**Toggle Button Settings**](../../interface_guide/toggle_button_settings/) tutorial.
 
 ### Log
 
-Please visit the [**Log**](../../../interface_guide/log/) tutorial.
+Please visit the [**Log**](../../interface_guide/log/) tutorial.
 
 ### Reset Firmware
 
-Please visit the [**Reset Firmware**](../../../interface_guide/reset_firmware/) tutorial.
+Please visit the [**Reset Firmware**](../../interface_guide/reset_firmware/) tutorial.
 
 ### Advanced Settings
 
-Please visit the [**Advanced Settings**](../../../interface_guide/advanced_settings/) tutorial.
+Please visit the [**Advanced Settings**](../../interface_guide/advanced_settings/) tutorial.

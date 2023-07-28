@@ -16,7 +16,7 @@ GL-MT2500/GL-MT2500A(Brume 2) is a lightweight and powerful VPN Gateway that run
 
 ## First time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../../interface_guide/first_time_setup/).
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../interface_guide/first_time_setup/).
 
 Please note that the adapter within the package depends on your shipping country.
 
@@ -48,7 +48,7 @@ It supports three ways to connect to the internet as listed below:
 Ethernet 
 Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
 
-[Click here to learn how to connect to the internet via an ethernet cable](../../../interface_guide/internet_ethernet)
+[Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet)
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
 
@@ -56,7 +56,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 Establish internet access with connected devices by sharing a smartphone’s mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
 
-[Click here to learn how to connect to the internet via usb tethering](../../../interface_guide/internet_tethering)
+[Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering)
 
 ![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
 
@@ -64,13 +64,13 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
-[Click here to learn how to connect to the internet via usb modem](../../../interface_guide/internet_cellular)
+[Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 
-Go to [Multi-WAN](../../../interface_guide/multi-wan/) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
+Go to [Multi-WAN](../../interface_guide/multi-wan/) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
 
 ---
 
@@ -88,21 +88,21 @@ GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VP
 
 ### VPN Dashboard
 
-- [**VPN Dashboard**](../../../interface_guide/vpn_dashboard/)
+- [**VPN Dashboard**](../../interface_guide/vpn_dashboard/)
 
 ### OpenVPN
 
 Please refer to the following links for a step to step setup guide:
 
-- [**Setup OpenVPN Client**](../../../interface_guide/openvpn_client/)
-- [**Setup OpenVPN Server**](../../../interface_guide/openvpn_server/)
+- [**Setup OpenVPN Client**](../../interface_guide/openvpn_client/)
+- [**Setup OpenVPN Server**](../../interface_guide/openvpn_server/)
 
 ### WireGuard
 
 Please refer to the following links for a step to step setup guide:
 
-- [**Setup WireGuard Client**](../../../interface_guide/wireguard_client/)
-- [**Setup WireGuard Server**](../../../interface_guide/wireguard_server/)
+- [**Setup WireGuard Client**](../../interface_guide/wireguard_client/)
+- [**Setup WireGuard Server**](../../interface_guide/wireguard_server/)
 
 ---
 
@@ -112,35 +112,35 @@ GL.iNet routers include a wide range of add-on features that simplifies device m
 
 ### Plug-ins
 
-Please visit the [**Plug-ins**](../../../interface_guide/plugins/) tutorial.
+Please visit the [**Plug-ins**](../../interface_guide/plugins/) tutorial.
 
 ### Dynamic DNS
 
-Please visit the [**Dynamic DNS**](../../../interface_guide/ddns/) tutorial.
+Please visit the [**Dynamic DNS**](../../interface_guide/ddns/) tutorial.
 
 ### GoodCloud
 
-Please visit the  [**GoodCloud**](../../../interface_guide/cloud/) tutorial.
+Please visit the  [**GoodCloud**](../../interface_guide/cloud/) tutorial.
 
 ### Network Storage
 
-Please visit the [**Network Storage**](../../../interface_guide/network_storage/) tutorial.
+Please visit the [**Network Storage**](../../interface_guide/network_storage/) tutorial.
 
 ### AdGuard Home
 
-Please visit the [**AdGuard Home**](../../../interface_guide/adguardhome/) tutorial.
+Please visit the [**AdGuard Home**](../../interface_guide/adguardhome/) tutorial.
 
 ### Parental Control
 
-Please visit the [**Parental Control**](../../../interface_guide/parental_control/) tutorial.
+Please visit the [**Parental Control**](../../interface_guide/parental_control/) tutorial.
 
 ### ZeroTier
 
-Please visit the [**ZeroTier**](../../../interface_guide/zerotier/) tutorial.
+Please visit the [**ZeroTier**](../../interface_guide/zerotier/) tutorial.
 
 ### Tailscale
 
-Please visit the [**Tailscale**](../../../interface_guide/tailscale/) tutorial.
+Please visit the [**Tailscale**](../../interface_guide/tailscale/) tutorial.
 
 ---
 
@@ -150,47 +150,47 @@ Please visit the [**Tailscale**](../../../interface_guide/tailscale/) tutorial.
 
 GL.iNet's routers include multiple firewall features to ensure a secure connection and complete oversight by users. It lets users configure firewall rules including Port Forwarding, Open Ports, and DMZ.
 
-[Click here to learn more about GL.iNet routers’ firewall](../../../interface_guide/firewall/)
+[Click here to learn more about GL.iNet routers’ firewall](../../interface_guide/firewall/)
 
 ### Multi-WAN
 
-Please visit the [**Multi-WAN**](../../../interface_guide/multi-wan/) tutorial.
+Please visit the [**Multi-WAN**](../../interface_guide/multi-wan/) tutorial.
 
 ### LAN
 
-Please visit the [**LAN**](../../../interface_guide/lan/) tutorial.
+Please visit the [**LAN**](../../interface_guide/lan/) tutorial.
 
 ### DNS
 
-Please visit the [**DNS**](../../../interface_guide/dns/) tutorial.
+Please visit the [**DNS**](../../interface_guide/dns/) tutorial.
 
 ### Network Mode
 
-Please visit the [**Network Mode**](../../../interface_guide/network_mode/) tutorial.
+Please visit the [**Network Mode**](../../interface_guide/network_mode/) tutorial.
 
 ### IPv6
 
-Please visit the [**IPv6**](../../../interface_guide/ipv6/) tutorial.
+Please visit the [**IPv6**](../../interface_guide/ipv6/) tutorial.
 
 ### MAC Address
 
 The Mac Address page was previously called Mac Clone and has been changed to Mac Address since v4.2.
 
-Please visit the [**MAC Address**](../../../interface_guide/mac_address/) tutorial.
+Please visit the [**MAC Address**](../../interface_guide/mac_address/) tutorial.
 
 ### Drop-in Gateway
 
-Please visit the [**Drop-in Gateway**](../../../interface_guide/drop-in_gateway/) tutorial.
+Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway/) tutorial.
 
 ### IGMP Snooping
 
-Please visit the [**IGMP Snooping**](../../../interface_guide/igmp_snooping/) tutorial.
+Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping/) tutorial.
 
 ### Network Acceleration
 
-Formerly known as [Hardware Acceleration](../../../interface_guide/hardware_acceleration/).
+Formerly known as [Hardware Acceleration](../../interface_guide/hardware_acceleration/).
 
-Please visit the [**Hardware Acceleration**](../../../interface_guide/hardware_acceleration/) tutorial.
+Please visit the [**Hardware Acceleration**](../../interface_guide/hardware_acceleration/) tutorial.
 
 ---
 
@@ -198,35 +198,35 @@ Please visit the [**Hardware Acceleration**](../../../interface_guide/hardware_a
 
 ### Overview
 
-Please visit the [**System Overview**](../../../interface_guide/system_overview/) tutorial.
+Please visit the [**System Overview**](../../interface_guide/system_overview/) tutorial.
 
 ### Upgrade
 
 GL.iNet provides regular updates on our routers' firmware to improve performance, resolving bugs and fix vulnerabilities.
 
-Please visit the [**Upgrade**](../../../interface_guide/firmware_upgrade/) tutorial.
+Please visit the [**Upgrade**](../../interface_guide/firmware_upgrade/) tutorial.
 
 ### Scheduled Tasks
 
-Please visit the [**Scheduled Tasks**](../../../interface_guide/scheduled_tasks/) tutorial.
+Please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks/) tutorial.
 
 ### Admin Password
 
-Please visit the [**Admin Password**](../../../interface_guide/admin_password/) tutorial.
+Please visit the [**Admin Password**](../../interface_guide/admin_password/) tutorial.
 
 ### Time Zone
 
-Please visit the  [**Time Zone**](../../../interface_guide/time_zone/) tutorial.
+Please visit the  [**Time Zone**](../../interface_guide/time_zone/) tutorial.
 
 ### Log
 
-Please visit the [**Log**](../../../interface_guide/log/) tutorial.
+Please visit the [**Log**](../../interface_guide/log/) tutorial.
 
 ### Reset Firmware
 
-Please visit the [**Reset Firmware**](../../../interface_guide/reset_firmware/) tutorial.
+Please visit the [**Reset Firmware**](../../interface_guide/reset_firmware/) tutorial.
 
 ### Advanced Settings
 
-Please visit the [**Advanced Settings**](../../../interface_guide/advanced_settings/) tutorial.
+Please visit the [**Advanced Settings**](../../interface_guide/advanced_settings/) tutorial.
 

@@ -23,8 +23,18 @@ Learn how to use our devices and how to solve some common problems.
 * [What should I do if my router is bricked?](debrick)
 * [Debrick via Uboot](debrick)
 * [How to repair network or reset to factory setting?](repair_network_or_reset_firmware)
+* [iPhone tethering failed](iphone_tethering_fail)
 
-## Internet
+## Internet Connection
+
+* [iPhone tethering failed](iphone_tethering_fail)
+* [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection)
+
+## VPN
+
+* [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp)
+* [How to Block Non-VPN Traffic?](block_no_vpn_traffic)
+* [VPN Kill Switch](block_no_vpn_traffic).
 
 ## Upgrade
 
@@ -35,11 +45,11 @@ Learn how to use our devices and how to solve some common problems.
 
 ## Other
 
-* [How to change WAN port to LAN port?](../faq/change_wan_to_lan)
-* [GL.iNet Mobile App](../faq/mobile_app).
-* [What is LuCI?](../faq/what_is_luci)
-* [How to remote access router's web Admin Panel?](../faq/remote_access_web_admin_panel)
-* [How to remote ssh to router?](../faq/remote_ssh_to_router)
+* [How to change WAN port to LAN port?](change_wan_to_lan)
+* [GL.iNet Mobile App](mobile_app).
+* [What is LuCI?](what_is_luci)
+* [How to remote access router's web Admin Panel?](remote_access_web_admin_panel)
+* [How to remote ssh to router?](remote_ssh_to_router)
 * [How to check if Internet Service Provider assigns you a public IP address?](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address)
-* [Where to find the device id, MAC, Serial Number?](../faq/where_to_find_the_device_id_mac_sn)
-* [How to upgrade quectel module software?](../tutorials/upgrade_quectel_module_software)
+* [Where to find the device id, MAC, Serial Number?](where_to_find_the_device_id_mac_sn)
+* [LED Indication](led)

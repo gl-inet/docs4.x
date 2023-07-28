@@ -125,3 +125,7 @@ Please refer to this link: [https://docs.gl-inet.com/router/en/3/tutorials/ssh/]
 EP06-A: [https://fw.gl-inet.com/tools/quectel_module_software/EP06ALAR02A08M4G_01.004.01.004.zip](https://fw.gl-inet.com/tools/quectel_module_software/EP06ALAR02A08M4G_01.004.01.004.zip)
 
 RM520: [https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip](https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip)
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

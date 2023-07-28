@@ -63,10 +63,10 @@ There is a video guide.
 
 4. Connect to the Internet
 
-    * [Connect to the Internet via an ethernet cable](../internet_ethernet)
-    * [Connect to the Internet via an existing Wi-Fi](../internet_repeater)
-    * [Connect to the Internet via usb tethering](../internet_tethering)
-    * [Connect to the Internet via usb modem](../internet_cellular)
+    * [Connect to the Internet via an ethernet cable](../../interface_guide/internet_ethernet)
+    * [Connect to the Internet via an existing Wi-Fi](../../interface_guide/internet_repeater)
+    * [Connect to the Internet via usb tethering](../../interface_guide/internet_tethering)
+    * [Connect to the Internet via usb modem](../../interface_guide/internet_cellular)
 
 ## For models that don't have Wi-Fi
 
@@ -112,9 +112,9 @@ Here is an example of GL-MT2500A (Brume 2).
 
 4. Connect to the Internet
 
-    * [Connect to the Internet via an ethernet cable](../internet_ethernet)
-    * [Connect to the Internet via usb tethering](../internet_tethering)
-    * [Connect to the Internet via usb modem](../internet_cellular)
+    * [Connect to the Internet via an ethernet cable](../../interface_guide/internet_ethernet)
+    * [Connect to the Internet via usb tethering](../../interface_guide/internet_tethering)
+    * [Connect to the Internet via usb modem](../../interface_guide/internet_cellular)
 
 ---
 

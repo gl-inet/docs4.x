@@ -14,7 +14,7 @@ On the left side -> VPN -> OpenVPN Client
 
 You can log in by clicking the **NordVPN** button if you have a NordVPN membership, or by clicking **Add Manually** to upload the OpenVPN profiles.
 
-![openvpn client no initialized](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/openvpn_client_no_initialized.png){class="glboxshadow gl-80-desktop"}
+![openvpn client no initialized](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/openvpn_client_no_initialized.png){class="glboxshadow"}
 
 ## Set Up NordVPN
 
@@ -66,7 +66,7 @@ Next steps, we will use ExpressVPN as an example.
 
 1. Click **Add Manually**.
 
-    ![add manually](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/openvpn_client_add_manually.png){class="glboxshadow gl-80-desktop"}
+    ![add manually](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/openvpn_client_add_manually.png){class="glboxshadow"}
 
 2. It will create a group.
 

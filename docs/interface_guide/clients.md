@@ -8,15 +8,15 @@ The Clients page displays information about connected devices, including device 
 
 If you want to modify name and type of a device, please click the three docs icon, in the menu that pops up, click **Modify** item.
 
-![clients page, three dots](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_three_dots.png){class="glboxshadow gl-60-desktop"}
+![clients page, three dots](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_three_dots.png){class="glboxshadow"}
 
-![clients page, three dots](https://static.gl-inet.com/docs/en/4/tutorials/clients/edit_client_device.png){class="glboxshadow gl-60-desktop"}
+![clients page, three dots](https://static.gl-inet.com/docs/en/4/tutorials/clients/edit_client_device.png){class="glboxshadow"}
 
 ## MAC Address
 
 Many devices will use randomized MAC address, if the randomized MAC address is used, there will be a prompt.
 
-![clients page, three dots](https://static.gl-inet.com/docs/en/4/tutorials/clients/randomized_mac_address.png){class="glboxshadow gl-60-desktop"}
+![clients page, three dots](https://static.gl-inet.com/docs/en/4/tutorials/clients/randomized_mac_address.png){class="glboxshadow"}
 
 **Note**: The rule here is that if the second character of the MAC address is 2, 6, A or E(Ignore case), then it is considered a randomized MAC address. However, some devices may use a different rule to generate a randomized MAC address, so it may not be accurate.
 
@@ -24,19 +24,19 @@ Many devices will use randomized MAC address, if the randomized MAC address is u
 
 Enable **Block WAN** so that it cannot access the WAN, only LAN. To put it simple, it will cannot access the Internet.
 
-![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients.png){class="glboxshadow gl-80-desktop"}
+![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients.png){class="glboxshadow"}
 
 Starting from firmware 4.4.x, you can upload a block list in excel form or input Mac addressed manually to creat a **Block List**.
 
-![blocklist](https://static.gl-inet.com/docs/en/4/tutorials/clients/blocklist.jpg){class="glboxshadow gl-80-desktop"}
+![blocklist](https://static.gl-inet.com/docs/en/4/tutorials/clients/blocklist.jpg){class="glboxshadow"}
 
-![inputblock](https://static.gl-inet.com/docs/en/4/tutorials/clients/inputblock.jpg){class="glboxshadow gl-50-desktop"}
+![inputblock](https://static.gl-inet.com/docs/en/4/tutorials/clients/inputblock.jpg){class="glboxshadow gl-80-desktop"}
 
 **Note**: Blocking client is based on the MAC address of the device, so if the blocked device use a different MAC address next time, it can still connect to router.
 
 ## Speed
 
-![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_speed.png){class="glboxshadow gl-60-desktop"}
+![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_speed.png){class="glboxshadow"}
 
 The speed here is the average speed over 3 minutes.
 
@@ -55,13 +55,13 @@ The default sort type:
 - The self device is alway s on top
 - In online client sector, the later the device is connected, the higher it is on top.
 
-![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_sort.png){class="glboxshadow gl-60-desktop"}
+![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_sort.png){class="glboxshadow"}
 
 ## Limiting Speed
 
 If you want to limit the speed of a device, please click the three docs icon, in the menu that pops up, click **Limit Speed** item.
 
-![clients page, three dots](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_three_dots.png){class="glboxshadow gl-60-desktop"}
+![clients page, three dots](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_three_dots.png){class="glboxshadow"}
 
 ![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
@@ -75,7 +75,7 @@ Click **Action** to disable limiting.
 
 In the offline clients sector, you can **Delete All** offline clients. If you want to remove specific client, please click the three dots icon, in the menu that pops up, click **Remove Client** item.
 
-![remove clients](https://static.gl-inet.com/docs/en/4/tutorials/clients/remove_client.png){class="glboxshadow gl-80-desktop"}
+![remove clients](https://static.gl-inet.com/docs/en/4/tutorials/clients/remove_client.png){class="glboxshadow"}
 
 ---
 

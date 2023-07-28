@@ -14,7 +14,7 @@ GL-XE3000(Puli AX), GL-X3000(Spitz AX), GL-MT2500(Brume 2), GL-MT3000(Beryl AX),
 
 On the left side of web Admin Panel -> NETWORK -> Network Acceleration.
 
-![Network Acceleration](https://static.gl-inet.com/docs/en/4/tutorials/network_acceleration/network_acceleration.png){class="glboxshadow gl-60-desktop"}
+![Network Acceleration](https://static.gl-inet.com/docs/en/4/tutorials/network_acceleration/network_acceleration.png){class="glboxshadow"}
 
 Mode has three options.
 

@@ -23,7 +23,7 @@ Here take the GL-XE300 (Puli) as an example.
 
 On the left side of web Admin Panel -> INTERNET, Cellular sector. Click the envelope icon to go to SMS page, you will find the SMS Forwarding settings.
 
-![sms setting](https://static.gl-inet.com/docs/en/4/tutorials/sms_forwarding/cellular_sms.png){class="glboxshadow gl-60-desktop"}
+![sms setting](https://static.gl-inet.com/docs/en/4/tutorials/sms_forwarding/cellular_sms.png){class="glboxshadow"}
 
 ## SMS Forwarding to email
 

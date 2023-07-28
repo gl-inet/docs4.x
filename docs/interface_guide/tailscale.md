@@ -81,7 +81,7 @@ Now that the GL-MT2500 is connected to the Tailscale virtual network, you can te
 
 * Access web Admin Panel
 
-    ![web admin panel](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/web_admin_panel.png){class="glboxshadow gl-60-desktop"}
+    ![web admin panel](https://static.gl-inet.com/docs/en/4/tutorials/tailscale/web_admin_panel.png){class="glboxshadow gl-80-desktop"}
 
 ## Allow Remote Access WAN
 

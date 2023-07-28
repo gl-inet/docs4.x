@@ -8,19 +8,19 @@ Schedule Tasks allows you to set up a daily schedule for some basic actions, inc
 
 ## LED Display Schedule
 
-![led display schedule](https://static.gl-inet.com/docs/en/4/tutorials/scheduled_tasks/led_display_schedule.png){class="glboxshadow gl-60-desktop"}
+![led display schedule](https://static.gl-inet.com/docs/en/4/tutorials/scheduled_tasks/led_display_schedule.png){class="glboxshadow"}
 
 ## Schedule Reboot
 
-![Schedule Reboot](https://static.gl-inet.com/docs/en/4/tutorials/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-60-desktop"}
+![Schedule Reboot](https://static.gl-inet.com/docs/en/4/tutorials/scheduled_tasks/schedule_reboot.png){class="glboxshadow"}
 
 ## 5GHz Wi-Fi Status Schedule
 
-![5GHz Wi-Fi Status Schedule](https://static.gl-inet.com/docs/en/4/tutorials/scheduled_tasks/5g_wifi_status_schedule.png){class="glboxshadow gl-60-desktop"}
+![5GHz Wi-Fi Status Schedule](https://static.gl-inet.com/docs/en/4/tutorials/scheduled_tasks/5g_wifi_status_schedule.png){class="glboxshadow"}
 
 ## 2.4GHz Wi-Fi Status Schedule
 
-![2.4GHz Wi-Fi Status Schedule](https://static.gl-inet.com/docs/en/4/tutorials/scheduled_tasks/2g_wifi_status_schedule.png){class="glboxshadow gl-60-desktop"}
+![2.4GHz Wi-Fi Status Schedule](https://static.gl-inet.com/docs/en/4/tutorials/scheduled_tasks/2g_wifi_status_schedule.png){class="glboxshadow"}
 
 ---
 

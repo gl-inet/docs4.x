@@ -10,7 +10,7 @@ For set up via web Admin Panel, please follow the guide below.
 
 You can log in by clicking the **AzireVPN** or **Mullvad** button if you have a their membership, or by clicking **Add Manually** to upload the WireGuard profiles.
 
-![wireguard client no initialized](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/wireguard_client_no_initialized.png){class="glboxshadow gl-80-desktop"}
+![wireguard client no initialized](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/wireguard_client_no_initialized.png){class="glboxshadow"}
 
 ## Set Up AzireVPN
 
@@ -88,7 +88,7 @@ As of firmware 4.0, it brings grouping to manage WireGuard profiles.
 
 1. Click **Add Manually**.
 
-    ![add manually](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/wireguard_client_add_manually.png){class="glboxshadow gl-80-desktop"}
+    ![add manually](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/wireguard_client_add_manually.png){class="glboxshadow"}
 
 2. It will create a group.
 

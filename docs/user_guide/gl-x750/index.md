@@ -18,7 +18,7 @@ Spitz (GL-X750V2) is the advanced version of Spitz (GL-X750). It comes with the 
 
 ## First time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../interface_guide/first_time_setup/).
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup/).
 
 ---
 

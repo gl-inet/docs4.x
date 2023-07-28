@@ -22,7 +22,7 @@ Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 6
 
 ## First time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../interface_guide/first_time_setup/).
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup/).
 
 Please note that the adapter within the package depends on your shipping country.
 

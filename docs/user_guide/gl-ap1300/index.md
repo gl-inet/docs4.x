@@ -14,7 +14,7 @@ GL-AP1300(Cirrus) ceiling wireless access point is an elite business-class level
 
 ## First time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../interface_guide/first_time_setup/).
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup/).
 
 ---
 

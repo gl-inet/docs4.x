@@ -18,7 +18,7 @@ GL-AXT1800 (Slate AX) is the first Wi-Fi 6 travel router designed by GL.iNet. It
 
 ## First time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../interface_guide/first_time_setup/).
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup/).
 
 Please note that the adapter within the package depends on your shipping country.
 

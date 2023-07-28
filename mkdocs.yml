@@ -139,7 +139,6 @@ nav:
       - Upgrade Quectel Module Software: tutorials\upgrade_quectel_module_software.md
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Moduel Logs: tutorials/get_module_logs.md
-      - Upgrade Quectel Module Software: tutorials/upgrade_quectel_module_software.md
     - VPN:
       - VPN Cascading: tutorials/vpn_cascading.md
       - Accessing client LAN from Server(WireGuard): tutorials\wireguard_server_access_to_client_lan_side.md

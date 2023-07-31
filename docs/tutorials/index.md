@@ -18,6 +18,10 @@ Learn how to use our devices correctly with detailed steps.
 * [How to use qlog to capture module logs?](get_module_logs)
 * [How to upgrade quectel module software?](upgrade_quectel_module_software)
 
+## GoodCloud
+
+[GoodCloud Site to Site](goodcloud_site_to_site)
+
 ## Other
 
 * [How to check if Internet Service Provider assigns you a public IP address?](how_to_check_if_isp_assigns_you_a_public_ip_address)

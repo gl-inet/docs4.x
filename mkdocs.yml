@@ -142,6 +142,8 @@ nav:
     - VPN:
       - VPN Cascading: tutorials/vpn_cascading.md
       - Accessing client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+    - GoodCloud:
+      - Site to Site: tutorials/goodcloud_site_to_site.md
     - Other:
       - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
   - Interface Guide:

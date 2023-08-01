@@ -22,7 +22,7 @@ Use the Local Upgrade in web Admin Panel.
 
     **Note:** 4.x firmware is not compatible with 3.x firmware. When you upgrade from 3.x firmware, please do **NOT** keep settings.
 
-    ![local upgrade](https://static.gl-inet.com/docs/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-60-desktop"}
+    ![local upgrade](https://static.gl-inet.com/docs/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
 Method 2
 

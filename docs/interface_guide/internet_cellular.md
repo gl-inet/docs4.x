@@ -130,21 +130,17 @@ If two SIM cards are inserted, you can enable Auto Switch.
 
     ![traffic statistics](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/sim%20_card%20slot%20settings_checking%20preferred%20slot%20status%20scheduled.png){class="glboxshadow"}
 
-  
-
-   
-
 ### Traffic Statistics
 
-![traffic statistics](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/traffic_statistics_option.png){class="glboxshadow gl-70-desktop"}
+![traffic statistics](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/traffic_statistics_option.png){class="glboxshadow gl-90-desktop"}
 
-![traffic statistics](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-70-desktop"}
+![traffic statistics](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-90-desktop"}
 
 ### Manual Setup
 
 Click **Manual Setup** button, it will pop up the Cellular Settings dialog.
 
-![cellular settings](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/manual_setup/cellular_settings.png){class="glboxshadow gl-70-desktop"}
+![cellular settings](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/dual_sim/manual_setup/cellular_settings.png){class="glboxshadow gl-90-desktop"}
 
 You can view or modify the cellular settings of the current SIM card. It also stores some pre-configured settings, and you can manually add configurations to the "Saved Settings" as well.
 

@@ -20,15 +20,15 @@ Once the configuration is complete, you can select the configuration file in the
 
 Click the cog icon of OpenVPN or WireGuard.
 
-![glinet vpn dashboard, vpn client options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_client_options.png){class="glboxshadow gl-90-desktop"}
+![glinet vpn dashboard, vpn client options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_client_options.png){class="glboxshadow"}
 
 OpenVPN client options.
 
-![glinet vpn dashboard, openvpn client options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_client_options.png){class="glboxshadow gl-60-desktop"}
+![glinet vpn dashboard, openvpn client options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_client_options.png){class="glboxshadow"}
 
 WireGuard client options.
 
-![glinet vpn dashboard, wireguard client options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_client_options.png){class="glboxshadow gl-60-desktop"}
+![glinet vpn dashboard, wireguard client options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_client_options.png){class="glboxshadow"}
 
 * Allow Remote Access LAN
 
@@ -36,7 +36,7 @@ WireGuard client options.
 
     For example, in the image below, if this option is enabled, if means *Your Device* is allowed to access the *NAS*, but still needs the *VPN Server* to allow you to access the NAS within its subnet.
 
-    ![allow remote access LAN](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/allow_remote_access_lan_diagram.png){class="glboxshadow gl-60-desktop"}
+    ![allow remote access LAN](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/allow_remote_access_lan_diagram.png){class="glboxshadow"}
 
 * IP Masquerading
 
@@ -110,7 +110,7 @@ Click **Global Options** will popup a global options dialog.
 
     If this option is enabled, while VPN is connected, client devices will still be able to access WAN, e.g. accessing your printer, NAS etc in upper subnet.
 
-    ![vpn dashboard allow acdess wan diagram](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.jpg){class="glboxshadow gl-70-desktop"}
+    ![vpn dashboard allow acdess wan diagram](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
 
     As shown above, if this feature is turned on, your device will have access to devices in the upstream subnet, such as printer and NAS.
 
@@ -126,17 +126,17 @@ Click **Global Options** will popup a global options dialog.
 
 In the beginning, both VPN Server are not initialized yet, please click **Set Up Now**, it will go to the [OpenVPN Server](../openvpn_server) and [WireGuard Server](../wireguard_server) pages respectively.
 
-![vpn dashboard vpn server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server.png){class="glboxshadow gl-80-desktop"}
+![vpn dashboard vpn server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server.png){class="glboxshadow"}
 
 After the OpenVPN Server and WireGuard Server are started.
 
-![vpn dashboard vpn server started](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server_started.png){class="glboxshadow gl-80-desktop"}
+![vpn dashboard vpn server started](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server_started.png){class="glboxshadow"}
 
 ### OpenVPN Server Options
 
 Click the cog icon of OpenVPN server.
 
-![openvpn server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_options_btn.png){class="glboxshadow gl-80-desktop"}
+![openvpn server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_options_btn.png){class="glboxshadow"}
 
 ![openvpn server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_options.png){class="glboxshadow"}
 
@@ -156,7 +156,7 @@ Click the cog icon of OpenVPN server.
 
 Click the network icon of OpenVPN server.
 
-![openvpn server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_route_rule_btn.png){class="glboxshadow gl-80-desktop"}
+![openvpn server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_route_rule_btn.png){class="glboxshadow"}
 
 In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the encrypted tunnel provided by the VPN when accessing any network segment is determined by the routing rules you manually set.
 
@@ -166,7 +166,7 @@ In customize routes mode, the VPN client will ignore the configuration file and 
 
 Click the cog icon of WireGuard server.
 
-![wireguard server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_options_btn.png){class="glboxshadow gl-80-desktop"}
+![wireguard server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_options_btn.png){class="glboxshadow"}
 
 ![wireguard server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_options.png){class="glboxshadow"}
 
@@ -186,7 +186,7 @@ Click the cog icon of WireGuard server.
 
 Click the network icon of WireGuard server.
 
-![wireguard server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_route_rule_btn.png){class="glboxshadow gl-80-desktop"}
+![wireguard server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_route_rule_btn.png){class="glboxshadow"}
 
 In customize routes mode, the VPN client will ignore the configuration file and the routing configuration issued by the server. Whether to use the encrypted tunnel provided by the VPN when accessing any network segment is determined by the routing rules you manually set.
 
@@ -194,9 +194,9 @@ In customize routes mode, the VPN client will ignore the configuration file and 
 
 ### Global Options of VPN Server
 
-![Global Options of VPN Server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options_of_vpn_server_1.png){class="glboxshadow gl-80-desktop"}
+![Global Options of VPN Server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options_of_vpn_server_1.png){class="glboxshadow"}
 
-![Global Options of VPN Server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options_of_vpn_server_2.png){class="glboxshadow gl-60-desktop"}
+![Global Options of VPN Server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options_of_vpn_server_2.png){class="glboxshadow"}
 
 - **VPN Cascading**, If this option is enabled, when you have both VPN server and VPN Client running on this router, clients connected to the VPN server will further be routed to the VPN client tunnel. [Learn more about VPN Cascading](../vpn_cascading).
 

@@ -22,3 +22,32 @@
 * VPN
 	* Off: VPN inactive
 	* On: VPN active
+
+## GL-XE3000
+
+![xe-3000led](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/hardware_info/xe3000led.jpg){target="_blank"}
+
+* Power
+	* Green: power on
+	* Off: power off
+
+* Battery
+	* Flashing Red: battery level 0%-30%
+	* Flashing Violet: battery level 31%-50%
+	* Flashing Green: battery level 51%-99%
+	* Solid Green: battery level 100%
+
+* Internet
+	* On: Internet is connected
+	* Off: Internet is disconnected
+
+* 2G Wi-Fi
+	* On: 2.4G wifi is readied
+	* Flashing: 2.4G is communicating
+
+* 5G Wi-Fi
+	* On: 5G wifi is readied
+	* Flashing: 5G is communicating
+
+* Cellular
+	* Mobile Tower is conntected

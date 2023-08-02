@@ -99,3 +99,7 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 4. You will find a directory in /tmp/, there are some files, these files are qlog get data and need use Quectel tool to decode, so please send these files to GL.iNet or Quectel technical support.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/en/4/tutorials/get_module_logs/mtk7981a_qlogs_files.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

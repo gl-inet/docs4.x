@@ -150,7 +150,7 @@ Please refer to the [SMS tutorial](../sms).
 
 ## SMS Forwarding
 
-Please refer to the [SMS Forwarding tutorial](../sms_forwarding).
+Please refer to the [SMS Forwarding tutorial](tutorials/sms_forwarding/).
 
 ## Modem Management
 
@@ -199,6 +199,40 @@ You can select a saved profile next time
 Choose any profiles you needed
 
 ![chooseprofile](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
+
+## Signal Tower Lock
+
+Click Signal Tower Lock.
+
+![signal_tower_lock](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/signal_tower_lock_1.jpg){class="glboxshadow"}
+
+Select an available signal tower and lock it.
+
+![signal_tower_lock1](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/signal_tower_lock_2_.jpg){class="glboxshadow"}
+
+The device may not be able to scan all towers when the Cellular interface is enabled.
+
+![signal_tower_lock2](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/signal_tower_lock_3_.jpg){class="glboxshadow"}
+
+
+If the locked tower does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.
+
+Here you can display the status of the lock.
+
+![signal_tower_lock3](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/signal_tower_lock_4_.jpg){class="glboxshadow"}
+
+
+## Historical Signal Record
+
+You can select INTERNET on the left side of the GL-inet admin panel, scroll down to the Cellular section on the right side and click on the icon to bring up the pop-up window Historical Signal values
+
+![historical_signal_record](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/historical_signal_record_1.jpg){class="glboxshadow"}
+
+Checking your router's signal strength can help you determine the quality of your Internet connection. If the quality of your internet connection is poor, you can try switching to get a better signal.
+
+You can view Cellular's signal strength history by selecting different time frames.
+
+![historical_signal_record1](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/historical_signal_record_2_.jpg){class="glboxshadow"}
 
 ## Band Masking
 

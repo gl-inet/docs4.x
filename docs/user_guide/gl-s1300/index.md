@@ -10,7 +10,13 @@ GL-S1300 (Convexa-S) is a unique smart home gateway with beamforming Wi-Fi and B
 
 ### PCB Pinout
 
-![gl-s1300 pinout](https://static.gl-inet.com/docs/en/3/specification/s1300/S1300.png){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/3/specification/s1300/S1300.png" itemprop="contentUrl" data-size="2290x1937">
+      <img src="https://static.gl-inet.com/docs/en/3/specification/s1300/S1300.png" itemprop="thumbnail" alt="gl-s1300 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

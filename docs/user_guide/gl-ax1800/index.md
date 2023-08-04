@@ -16,7 +16,13 @@ Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 6
 
 ### PCB Pinout
 
-![gl-ax1800 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
+      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="thumbnail" alt="gl-ax1800 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

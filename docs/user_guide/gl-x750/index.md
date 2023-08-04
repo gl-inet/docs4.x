@@ -12,7 +12,13 @@ Spitz (GL-X750V2) is the advanced version of Spitz (GL-X750). It comes with the 
 
 ### PCB Pinout
 
-![gl-x750 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-x750/hardware_info/gl-x750_pinout.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-x750/hardware_info/gl-x750_pinout.jpg" itemprop="contentUrl" data-size="1500x1175">
+      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-x750/hardware_info/gl-x750_pinout.jpg" itemprop="thumbnail" alt="gl-x750 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

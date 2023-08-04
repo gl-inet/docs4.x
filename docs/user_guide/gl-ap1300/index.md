@@ -6,9 +6,21 @@ GL-AP1300(Cirrus) ceiling wireless access point is an elite business-class level
 
 ### PCB Pinout
 
-![gl-ap1300 pinout](https://static.gl-inet.com/docs/en/3/specification/gl-ap1300/GL-AP1300-PINOUT-1.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/3/specification/gl-ap1300/GL-AP1300-PINOUT-1.jpg" itemprop="contentUrl" data-size="6000x4000">
+      <img src="https://static.gl-inet.com/docs/en/3/specification/gl-ap1300/GL-AP1300-PINOUT-1.jpg" itemprop="thumbnail" alt="gl-ap1300 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
-![gl-ap1300 pinout](https://static.gl-inet.com/docs/en/3/specification/gl-ap1300/GL-AP1300-PINOUT-2.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/3/specification/gl-ap1300/GL-AP1300-PINOUT-2.jpg" itemprop="contentUrl" data-size="6000x4000">
+      <img src="https://static.gl-inet.com/docs/en/3/specification/gl-ap1300/GL-AP1300-PINOUT-2.jpg" itemprop="thumbnail" alt="gl-ap1300 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

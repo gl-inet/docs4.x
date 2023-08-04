@@ -10,7 +10,13 @@ GL-X300B (Collie) is an industrial cellular gateway designed to operate under hi
 
 ### PCB Pinout
 
-![gl-x300b pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
+      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg" itemprop="thumbnail" alt="gl-x300b pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

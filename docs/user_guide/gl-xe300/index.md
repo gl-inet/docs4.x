@@ -10,7 +10,13 @@ GL-XE300 (Puli) is a portable 4G smart router that is perfect for home, business
 
 ### PCB Pinout
 
-![gl-xe300 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
+      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg" itemprop="thumbnail" alt="gl-xe300 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

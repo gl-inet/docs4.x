@@ -10,7 +10,13 @@ Slate Plus (GL-A1300) is a pocket-sized travel router with a powerful CPU optimi
 
 ### PCB Pinout
 
-![GL-A1300 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_pinout.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_pinout.jpg" itemprop="contentUrl" data-size="1500x1398">
+      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_pinout.jpg" itemprop="thumbnail" alt="GL-A1300 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

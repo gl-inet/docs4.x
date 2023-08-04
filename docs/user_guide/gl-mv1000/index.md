@@ -10,7 +10,13 @@ Brume-W (GL-MV1000W)* is the special edition of Brume (GL-MV1000) that comes wit
 
 ### PCB Pinout
 
-![gl-mv1000 pinout](https://static.gl-inet.com/docs/en/3/specification/mv1000/mv1000.png){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/3/specification/mv1000/mv1000.png" itemprop="contentUrl" data-size="1786x1328">
+      <img src="https://static.gl-inet.com/docs/en/3/specification/mv1000/mv1000.png" itemprop="thumbnail" alt="gl-mv1000 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

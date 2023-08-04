@@ -6,7 +6,13 @@
 
 ### PCB Pinout
 
-![gl-s10 pinout](https://static.gl-inet.com/docs/en/3/specification/gl-s10/gl-s10-pinout.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/3/specification/gl-s10/gl-s10-pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
+      <img src="https://static.gl-inet.com/docs/en/3/specification/gl-s10/gl-s10-pinout.jpg" itemprop="thumbnail" alt="gl-s10 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

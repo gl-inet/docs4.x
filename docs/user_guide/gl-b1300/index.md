@@ -10,7 +10,13 @@ Convexa-B (GL-B1300) is a remarkable product in order to satisfy the wireless In
 
 ### PCB Pinout
 
-![gl-b1300 pinout](https://static.gl-inet.com/docs/en/2.x/hardware/b1300/src/GL-B1300_V1.31_PINOUT.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/2.x/hardware/b1300/src/GL-B1300_V1.31_PINOUT.jpg" itemprop="contentUrl" data-size="960x720">
+      <img src="https://static.gl-inet.com/docs/en/2.x/hardware/b1300/src/GL-B1300_V1.31_PINOUT.jpg" itemprop="thumbnail" alt="gl-b1300 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

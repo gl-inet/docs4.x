@@ -16,7 +16,13 @@ Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi
 
 ### PCB Pinout
 
-![gl-mt3000 pinout](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_pinout.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_pinout.jpg" itemprop="contentUrl" data-size="1200x1200">
+      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_pinout.jpg" itemprop="thumbnail" alt="gl-mt3000 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ---
 

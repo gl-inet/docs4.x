@@ -12,7 +12,7 @@ The first dual-band Gigabit AC travel router. We upgrade Ethernet ports (totally
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/hardware_info/gl-ar750s_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
+    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/hardware_info/gl-ar750s_pinout.jpg" itemprop="contentUrl" data-size="1150x1175">
       <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/hardware_info/gl-ar750s_pinout.jpg" itemprop="thumbnail" alt="GL-AR750S-EXT pcb pinout" loading="lazy" />
     </a>
   </figure>

@@ -10,7 +10,13 @@ Beryl (GL-MT1300) is a high-performance next generation pocket-sized router that
 
 ### PCB Pinout
 
-![gl-mt1300 pinout](https://static.gl-inet.com/docs/en/3/specification/gl-mt1300/pinout.jpg){class="glboxshadow"}
+<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a href="https://static.gl-inet.com/docs/en/3/specification/gl-mt1300/pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
+      <img src="https://static.gl-inet.com/docs/en/3/specification/gl-mt1300/pinout.jpg" itemprop="thumbnail" alt="gl-mt1300 pinout" loading="lazy" />
+    </a>
+  </figure>
+</div>
 
 ## First time setup
 

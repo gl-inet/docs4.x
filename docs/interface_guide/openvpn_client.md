@@ -20,17 +20,23 @@ You can log in by clicking the **NordVPN** button if you have a NordVPN membersh
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is the top online VPN service for speed and security.
 
-1. Input your NordVPN account's **service credentials**(not the login account email/password), then click **Save Credentials & Get Servers**
+1. Login your NordVPN web account and get your **service credentials**
+
+    ![nordacc](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordacc.jpg){class="glboxshadow"}
+
+    ![nordlogin](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordlogin.jpg){class="glboxshadow"}
 
     ???+ question "Where to find the NordVPN service credentials."
 
-        You can find your NordVPN service credentials in the Nord Account dashboard.
+    You can find your NordVPN service credentials in the Nord Account dashboard.
 
-        ![nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordvpn_service_credentials.png){class="glboxshadow"}
+     ![nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordvpn_service_credentials.png){class="glboxshadow"}
 
+2. Input your NordVPN account's **service credentials**(not the login account email/password), then click **Save Credentials & Get Servers**
+   
     ![input nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/input_nordvpn_credential.png){class="glboxshadow"}
 
-2. Select protocol, max server count of each location, locations, then click **Apply**.
+3. Select protocol, max server count of each location, locations, then click **Apply**.
 
     ![select nordvpn servers](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/select_nordvpn_servers.png){class="glboxshadow"}
 
@@ -38,7 +44,7 @@ You can log in by clicking the **NordVPN** button if you have a NordVPN membersh
 
     ![downloaded configuration files](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/downloaded_configs.png){class="glboxshadow"}
 
-3. Go to VPN Dashboard to enable the connection.
+4. Go to VPN Dashboard to enable the connection.
 
     ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpn_dashboard_to_connect.png){class="glboxshadow"}
 
@@ -46,13 +52,13 @@ You can log in by clicking the **NordVPN** button if you have a NordVPN membersh
 
     ![openvpn connected](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/openvpn_connected.png){class="glboxshadow"}
 
-4. Update servers
+5. Update servers
 
     NordVPN may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
 
     ![update servers](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/update_servers.png){class="glboxshadow"}
 
-5. Edit credential
+6. Edit credential
 
     Click the cog icon to edit the credential.
 

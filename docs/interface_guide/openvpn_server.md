@@ -8,7 +8,7 @@ We recommend WireGuard over OpenVPN because it is much faster. For setup a WireG
 
 ## Make sure Internet Service Provider assigns you a public IP address
 
-Please check if you Internet Service Provider assigns you a public IP address [here](../how_to_check_if_isp_assigns_you_a_public_ip_address).
+Please check if you Internet Service Provider assigns you a public IP address [here](../../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address).
 
 **If not, you can't connect to the OpenVPN Server.**
 

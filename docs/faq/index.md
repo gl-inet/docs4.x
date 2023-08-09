@@ -24,6 +24,7 @@ Learn how to use our devices and how to solve some common problems.
 * [Debrick via Uboot](debrick)
 * [How to repair network or reset to factory setting?](repair_network_or_reset_firmware)
 * [iPhone tethering failed](iphone_tethering_fail)
+* [MacOS cannot write in Samba](macos_cannot_write_samba)
 
 ## Internet Connection
 

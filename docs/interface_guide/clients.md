@@ -30,7 +30,7 @@ Starting from firmware 4.4.x, you can upload a block list in excel form or input
 
 ![blocklist](https://static.gl-inet.com/docs/en/4/tutorials/clients/blocklist.jpg){class="glboxshadow"}
 
-You can either input the Mac Address one by one or import a list by a CSV file.
+You can either import a list from a CSV file at **(1)** or input the Mac Address one by one at **(2)**.
 
 ![inputblock](https://static.gl-inet.com/docs/en/4/tutorials/clients/inputblock.jpg){class="glboxshadow gl-80-desktop"}
 

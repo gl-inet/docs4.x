@@ -30,7 +30,17 @@ Starting from firmware 4.4.x, you can upload a block list in excel form or input
 
 ![blocklist](https://static.gl-inet.com/docs/en/4/tutorials/clients/blocklist.jpg){class="glboxshadow"}
 
+You can either input the Mac Address one by one or import a list by a CSV file.
+
 ![inputblock](https://static.gl-inet.com/docs/en/4/tutorials/clients/inputblock.jpg){class="glboxshadow gl-80-desktop"}
+
+![importcsv](https://static.gl-inet.com/docs/en/4/tutorials/clients/importcsv.jpg){class="glboxshadow gl-80-desktop"}
+
+![dragcsv](https://static.gl-inet.com/docs/en/4/tutorials/clients/dragcsv.jpg){class="glboxshadow gl-80-desktop"}
+
+![loadcsv](https://static.gl-inet.com/docs/en/4/tutorials/clients/loadcsv.jpg){class="glboxshadow"}
+
+![applycsv](https://static.gl-inet.com/docs/en/4/tutorials/clients/applycsv.jpg){class="glboxshadow"}
 
 **Note**: Blocking client is based on the MAC address of the device, so if the blocked device use a different MAC address next time, it can still connect to router.
 

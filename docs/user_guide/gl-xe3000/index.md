@@ -10,7 +10,7 @@ It supports "Dual SIM, Single Standby", which means it can hold two SIM cards fo
 
 [GL-XE3000 specification](https://www.gl-inet.com/products/gl-xe3000/#specs){target="_blank"}
 
-[LED Indication](/router/en/4/faq/led/)
+[LED Indication](/router/en/4/faq/led/#gl-xe3000)
 
 ---
 

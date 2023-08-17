@@ -31,12 +31,17 @@
 	* Green: power on
 	* Off: power off
 
-* Battery
-	* Flashing Red: battery level 0%-30%
-	* Flashing Violet: battery level 31%-50%
+* Battery LED (During charging)
+	* Flashing Red: battery level 0%-20%
+	* Flashing Violet: battery level 21%-50%
 	* Flashing Green: battery level 51%-99%
 	* Solid Green: battery level 100%
 
+* Battery LED (Not charging) Show up for 5 sec after press the power button
+	* Red: battery level 0%-20%
+	* Violet: battery level 21%-50%
+	* Green: battery level 51%-100%
+	
 * Internet
 	* On: Internet is connected
 	* Off: Internet is disconnected

@@ -208,18 +208,18 @@ Click Signal Tower Lock.
 
 Select an available signal tower and lock it.
 
-![signal_tower_lock1](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/signal_tower_lock_2_.jpg){class="glboxshadow"}
+![signal_tower_lock1](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/signal_tower_lock_2.jpg){class="glboxshadow"}
 
 The device may not be able to scan all towers when the Cellular interface is enabled.
 
-![signal_tower_lock2](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/signal_tower_lock_3_.jpg){class="glboxshadow"}
+![signal_tower_lock2](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/signal_tower_lock_3.jpg){class="glboxshadow"}
 
 
 If the locked tower does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.
 
 Here you can display the status of the lock.
 
-![signal_tower_lock3](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/signal_tower_lock_4_.jpg){class="glboxshadow"}
+![signal_tower_lock3](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/signal_tower_lock_4.jpg){class="glboxshadow"}
 
 
 ## Historical Signal Record
@@ -232,7 +232,7 @@ Checking your router's signal strength can help you determine the quality of you
 
 You can view Cellular's signal strength history by selecting different time frames.
 
-![historical_signal_record1](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/historical_signal_record_2_.jpg){class="glboxshadow"}
+![historical_signal_record1](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/historical_signal_record_2.jpg){class="glboxshadow"}
 
 ## Band Masking
 

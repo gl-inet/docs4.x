@@ -176,6 +176,26 @@ The following AT Commands have been pre-set.
 * Operator Names
 * Request SIM card status
 
+## Change IMEI by AT command
+
+If you want to change our module IMEI number, for example 123456789101213, please type **AT+EGMR=1,7,"123456789101213"** and click **Send**
+
+![atimei](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/atimei.jpg){class="glboxshadow"}
+
+Check your router can access internet normally or not. If yes, you can save the new IMEI with **AT+QPRTPARA=1**
+
+![saveimei](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/saveimei.jpg){class="glboxshadow"}
+
+Reboot your router and check if the IMEI is saved.
+
+![imeireboot](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/imeireboot.jpg){class="glboxshadow"}
+
+## Check the Carrier Aggregation
+
+If you want to know the information about your carrier aggregation, you can type **AT+QCAINFO**
+
+![atcainfo](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/atcainfo.jpg){class="glboxshadow"}
+
 ## Carrier profile
 
 You can save different profiles for the same or different carriers.

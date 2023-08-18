@@ -198,7 +198,7 @@ In customize routes mode, the VPN client will ignore the configuration file and 
 
 ![Global Options of VPN Server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options_of_vpn_server_2.png){class="glboxshadow"}
 
-- **VPN Cascading**, If this option is enabled, when you have both VPN server and VPN Client running on this router, clients connected to the VPN server will further be routed to the VPN client tunnel. [Learn more about VPN Cascading](../vpn_cascading).
+- **VPN Cascading**, If this option is enabled, when you have both VPN server and VPN Client running on this router, clients connected to the VPN server will further be routed to the VPN client tunnel. [Learn more about VPN Cascading](../../tutorials/vpn_cascading).
 
 ---
 

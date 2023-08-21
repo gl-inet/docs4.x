@@ -8,6 +8,8 @@ GL-MT2500/GL-MT2500A(Brume 2) is a lightweight and powerful VPN Gateway that run
 
 [GL-MT2500/GL-MT2500A specification](https://www.gl-inet.com/products/gl-mt2500/#specs){target="_blank"}
 
+[LED Indication](/router/en/4/faq/led/#gl-mt2500)
+
 ### PCB Pinout
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">

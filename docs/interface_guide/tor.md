@@ -48,7 +48,7 @@ Wait a while, depending on your network, and it will show connected.
 
 *Some models can manually using plug-in the re-install the Tor, but it may affect the CPU load and making the system response slower.
 
-Search **gl-sdk40ui-torview**, and install.
+Search **gl-sdk40-ui-torview**, and install.
 
 ![torview](https://static.gl-inet.com/docs/en/4/tutorials/tor/torview.jpg){class="glboxshadow"}
 

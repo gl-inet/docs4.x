@@ -8,6 +8,7 @@ GL-AXT1800 (Slate AX) is the first Wi-Fi 6 travel router designed by GL.iNet. It
 
 [GL-AXT1800 specification](https://www.gl-inet.com/products/gl-axt1800/#specs){target="_blank"}
 
+[LED Indication](/router/en/4/faq/led/#gl-axt1800)
 ---
 
 ### PCB Pinout

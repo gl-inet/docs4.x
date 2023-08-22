@@ -17,6 +17,7 @@ Learn how to use our devices correctly with detailed steps.
 * [SMS Forwarding](sms_forwarding), forward SMS messages from router to mobile phone and email.
 * [How to use qlog to capture module logs?](get_module_logs)
 * [How to upgrade quectel module software?](upgrade_quectel_module_software)
+* [How to Check Carrier Aggregation?](how_to_check_carrier_aggregation)
 
 ## GoodCloud
 

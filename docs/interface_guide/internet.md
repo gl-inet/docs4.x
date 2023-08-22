@@ -2,7 +2,7 @@
 
 On the left side of web Admin Panel -> INTERNET
 
-The internet page is the home page. The top half has a diagram showing the status, and the bottom half has several types of Internet access, up to 4 types, [Ethernet](../internet_ethernet), [Repeater](../internet_repeater), [Tethering](../internet_tethering), [Cellular](../cellular).
+The internet page is the home page. The top half has a diagram showing the status, and the bottom half has several types of Internet access, up to 4 types, [Ethernet](../internet_ethernet), [Repeater](../internet_repeater), [Tethering](../internet_tethering), [Cellular](../internet_cellular).
 
 ## Status Diagram
 

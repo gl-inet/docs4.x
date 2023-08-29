@@ -23,6 +23,10 @@ Learn how to use our devices correctly with detailed steps.
 
 [GoodCloud Site to Site](goodcloud_site_to_site)
 
-## Other
+## Network Sharing
+
+* [How to use WinSCP to access your share files?](winscp_share_file)
+
+## Others
 
 * [How to check if Internet Service Provider assigns you a public IP address?](how_to_check_if_isp_assigns_you_a_public_ip_address)

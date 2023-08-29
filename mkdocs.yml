@@ -144,6 +144,8 @@ nav:
     - VPN:
       - VPN Cascading: tutorials/vpn_cascading.md
       - Accessing client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+    - Network Storage:
+      - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
     - Other:

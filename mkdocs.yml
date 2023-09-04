@@ -134,6 +134,7 @@ nav:
       - Mobile App: faq/mobile_app.md
       - What is LuCI: faq/what_is_luci.md
       - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
+      - Device LAN Mac, WiFi Mac: faq/how_can_I_know_the_lan_wifi_mac.md
   - Tutorials:
     - Overview: tutorials/index.md
     - Cellular:

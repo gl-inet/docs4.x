@@ -14,9 +14,9 @@ You can find the WAN address on the back label of our device. For example the WA
 
 The LAN Mac address is the WAN +1, therefore the result is E4:95:6E:40:DB:AA  (9 + 1 =A)
 
-The 2.4G Mac address is the WAN +2 therefore the result is E4:95:6E:40:DB:AB (9 + 1 =B)
+The 2.4G Mac address is the WAN +2 therefore the result is E4:95:6E:40:DB:AB (9 + 2 =B)
 
-The 5G Mac address is the WAN +3 therefore the result is E4:95:6E:40:DB:AC (9 + 1 =C)
+The 5G Mac address is the WAN +3 therefore the result is E4:95:6E:40:DB:AC (9 + 3 =C)
 
 ## Usage Scenario
 

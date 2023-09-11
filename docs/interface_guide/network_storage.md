@@ -108,7 +108,7 @@ When a disk is found.
 
 2. Then let's set up to get the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
 
-    ![enable webdav](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow"}
+    ![enable webdav](https://static.gl-inet.com/docs/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share.png){class="glboxshadow"}
 
 3. Add a user. This step will be skipped if you already have an account. Then click **Next**.
 

@@ -30,7 +30,7 @@ Package Contents:
 - 1 x Puli AX (GL-XE3000)
 - 1 x Ethernet cable
 - 1 x Thank you card
-- 1 x Power adapter (US+EU+UK+AU plug)
+- 1 x Power adapter (US+EU+UK+AU plugs)
 
 ---
 

@@ -12,7 +12,7 @@ If you want to visit the subnet of **192.168.8.1** **(GL-AXT1800)** at the clien
 Click the icon and enter the custom rule page
 ![Custom rule](https://static.gl-inet.com/docs/en/4/tutorials/wiregaurd_server_access_client_lan_side/Custom%20rule.jpg){class="glboxshadow"}
 
-Input the subnet you wanted to visit, in this case is **192.168.28.0/24** and type in the scope **global**.
+Input the subnet you wanted to visit, in this case is **192.168.8.0/24** and type in the scope **global**.
 
 Gateway is the WireGuard IP of your client router, you can find it at your **WireGuard Server** page.
 

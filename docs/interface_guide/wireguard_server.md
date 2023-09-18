@@ -10,7 +10,7 @@ Please check if you Internet Service Provider assigns you a public IP address [h
 
 **If not, you can't connect to the WireGaurd Server.**
 
-An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}.
+An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}, check the tutorial [here](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md).
 
 ## Network Topology
 

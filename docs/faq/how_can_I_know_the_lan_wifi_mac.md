@@ -2,7 +2,7 @@
 
 The Mac addresses of our devices are unique for each connecting port, they are arranging in sequence of hexadecimal order.
 
-The sequence is 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E.
+The sequence is 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
 
 ## Finding the WAN Mac address
 

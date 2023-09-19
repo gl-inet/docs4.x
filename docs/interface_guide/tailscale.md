@@ -141,6 +141,8 @@ The exit node feature lets you route all non-Tailscale internet traffic through 
 
 **Note**: GL.iNet router is not yet available as an exit node, this feature is still under development.
 
+**Note**: If the router's DNS Server is a private IP address that can be accessed only in the local network, you may lose the Internet access when running the exit nodes. Please go to Network > DNS menu and set a manual public DNS server such as 8.8.8.8 as the solution.
+
 Setup Steps:
 
 1. On the device you wish to use as an exit node, select **Run exit node**. On Windows, follow the steps below.

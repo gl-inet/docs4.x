@@ -7,6 +7,7 @@ AdGuard Home is a network-wide software for blocking ads & tracking. Click **Sta
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
 | GL-X3000 (Spitz AX)            | √         |
+| GL-XE3000 (Puli AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
 | GL-AXT1800 (Slate AX)          | √         |
 | GL-A1300 (Slate Plus)          | √         |

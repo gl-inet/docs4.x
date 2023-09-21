@@ -24,7 +24,7 @@ It will pop up **Add New Port Forward Rule** dialog.
 
 **External Zone:** The options for external zone are `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
 
-**External Port:** The numbers of external ports. You can enter a specific port number or a range of service ports (E.g **100-300**).
+**External Port:** The numbers of external ports. You can enter a specific port number here.
 
 **Internal Zone:** The options for external zone are `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
 

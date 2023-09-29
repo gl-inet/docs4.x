@@ -84,7 +84,7 @@ Next steps, we will use ExpressVPN as an example.
 
 4. Upload your OpenVPN configuration file, then input the credential, click **Apply**.
 
-    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/upload_profile.png){class="glboxshadow"}
+    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/upload_profile_1.png){class="glboxshadow"}
 
     ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/after_upload_profile.png){class="glboxshadow"}
 

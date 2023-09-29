@@ -13,6 +13,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to visit WireGuard client LAN side from Server?](wireguard_server_access_to_client_lan_side)
 * [How to set up OpenVPN server via Astrorelay?](how_to_set_up_openvpn_server_via_astrorelay)
 * [How to set up Wireguard server via Astrorelay?](how_to_set_up_wireguard_server_via_astrorelay)
+* [How to connect to the dedicated IP by NordVPN on GL.iNet routers?](how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers)
 
 ## Cellular
 

@@ -24,15 +24,15 @@ You can log in by clicking the **NordVPN** button if you have a NordVPN membersh
 
     ![nordacc](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordacc.jpg){class="glboxshadow"}
 
+    After login to Nord dashboard, click NordVPN on the left side, then click **Set up NordVPN manually**.
+
     ![nordlogin](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordlogin.jpg){class="glboxshadow"}
 
-    ???+ question "Where to find the NordVPN service credentials."
+    Then you will find the service credentials.
 
-    You can find your NordVPN service credentials in the Nord Account dashboard.
+    ![nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordvpn_service_credentials.png){class="glboxshadow"}
 
-     ![nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordvpn_service_credentials.png){class="glboxshadow"}
-
-2. Input your NordVPN account's **service credentials**(not the login account email/password), then click **Save Credentials & Get Servers**
+2. Input your NordVPN account's **service credentials** you got in step 1 (Note: It is **NOT** the login account email/password), then click **Save Credentials & Get Servers**
    
     ![input nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/input_nordvpn_credential.png){class="glboxshadow"}
 
@@ -84,7 +84,7 @@ Next steps, we will use ExpressVPN as an example.
 
 4. Upload your OpenVPN configuration file, then input the credential, click **Apply**.
 
-    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/upload_profile.png){class="glboxshadow"}
+    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/upload_profile_1.png){class="glboxshadow"}
 
     ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/after_upload_profile.png){class="glboxshadow"}
 
@@ -119,6 +119,14 @@ Recommended:
         NordVPN service credentials are different from your NordVPN account credentials, namely your email address and your password. You'll need NordVPN service credentials to connect to the VPN using the manual OpenVPN configuration method in the router.
 
         Login the [Official Website](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"}, go to the Nord Account dashboard, where you will find the service credentials.
+
+        ![nordacc](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordacc.jpg){class="glboxshadow"}
+
+        After login to Nord dashboard, click NordVPN on the left side, then click **Set up NordVPN manually**.
+
+        ![nordlogin](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordlogin.jpg){class="glboxshadow"}
+
+        Then you will find the service credentials.
 
         ![nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordvpn_service_credentials.png){class="glboxshadow"}
 
@@ -690,18 +698,6 @@ Others:
     VyprVPN offers the OpenVPN files here: [Where can I find the OpenVPN files? – VyprVPN Support](https://support.vyprvpn.com/hc/en-us/articles/360038096131-Where-can-I-find-the-OpenVPN-files-){target="_blank"}
 
     The provided zip file contains two folders with the .ovpn files. One called OpenVPN160 one OpenVPN256. Just delete the OpenVPN160 folder from the zip file then upload it to GL.iNet router as usual.
-
-<div id="wevpn"></div>
-
-??? "Wevpn"
-
-    [Official Website](https://www.wevpn.com/aff/glinet){target="_blank"}
-
-    1. Access the Members Area to make a custom config using the Config Generator.
-
-        ![wevpn manual configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/openvpn_client/wevpn/wevpn_manual_configuration_generator.jpg){class="glboxshadow"}
-
-    2. Choose the Protocal to UDP or TCP, the OpenVPN version, and the location. Then to download the configuration.
 
 <div id="zoogvpn"></div>
 

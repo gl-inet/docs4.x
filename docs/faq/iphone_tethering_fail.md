@@ -2,7 +2,7 @@
 
 When you encounter iPhone tethering failed, you can try the following steps to solve the problem.
 
-1. Please make sure your **Maximise Compability** is **Enable** (iPhone 8 or above)
+1. Please make sure your **Maximise Compatibility** is **Enable** (iPhone 8 or above)
 
     ![maxcompat](https://static.gl-inet.com/docs/en/4/tutorials/iphone_tethering_fail/maxcompat.PNG){class="glboxshadow gl-50-desktop" }
 

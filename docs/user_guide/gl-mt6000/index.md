@@ -133,6 +133,10 @@ Please refer to the links below for the detailed setup instruction:
 - [**Setup WireGuard Client**](../../interface_guide/wireguard_client/)
 - [**Setup WireGuard Server**](../../interface_guide/wireguard_server/)
 
+### Tor
+
+- [**Tor**](../../interface_guide/tor/)
+
 ---
 
 ## APPLICATIONS
@@ -213,6 +217,15 @@ Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway/) t
 
 Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping/) tutorial.
 
+### Network Acceleration
+
+Formerly known as [Hardware Acceleration](../../interface_guide/hardware_acceleration/).
+
+Please visit the [**Hardware Acceleration**](../../interface_guide/hardware_acceleration/) tutorial.
+
+<!-- TODO -->
+<!-- ### Advanced Settings -->
+
 ---
 
 ## SYSTEM
@@ -231,10 +244,6 @@ Please visit the [**Upgrade**](../../interface_guide/firmware_upgrade/) tutorial
 
 Please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks/) tutorial.
 
-### Admin Password
-
-Please visit the [**Admin Password**](../../interface_guide/admin_password/) tutorial.
-
 ### Time Zone
 
 Please visit the  [**Time Zone**](../../interface_guide/time_zone/) tutorial.
@@ -242,6 +251,9 @@ Please visit the  [**Time Zone**](../../interface_guide/time_zone/) tutorial.
 ### Log
 
 Please visit the [**Log**](../../interface_guide/log/) tutorial.
+
+<!-- TODO -->
+<!-- ### Security -->
 
 ### Reset Firmware
 

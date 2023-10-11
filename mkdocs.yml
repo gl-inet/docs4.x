@@ -86,6 +86,7 @@ nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
+    - GL-MT6000 (Flint 2): user_guide/gl-mt6000/index.md
     - GL-XE3000 (Puli AX): user_guide/gl-xe3000/index.md
     - GL-X3000 (Spitz AX): user_guide/gl-x3000/index.md
     - GL-MT3000 (Beryl AX): user_guide/gl-mt3000/index.md

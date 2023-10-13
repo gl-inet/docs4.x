@@ -56,7 +56,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/internet/axt1800_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/internet/a1300_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -64,7 +64,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater)
 
-![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/internet/axt1800_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/internet/a1300_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -72,7 +72,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering)
 
-![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/internet/axt1800_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/internet/a1300_tethering.png){class="glboxshadow"}
 
 ### Cellular
 
@@ -80,7 +80,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/internet/axt1800_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 

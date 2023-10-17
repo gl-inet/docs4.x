@@ -2,7 +2,7 @@
 
 ## Hardware info
 
-[GL-s10 specification](https://www.gl-inet.com/products/gl-s10/#specs){target="_blank"}
+[GL-S10 specification](https://www.gl-inet.com/products/gl-s10/#specs){target="_blank"}
 
 ## GPIO list
 

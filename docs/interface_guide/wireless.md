@@ -16,7 +16,7 @@ On the left side of web Admin Panel -> WIRELESS
 
     **Note**:
 
-    * The **Bandwidth** and **Channel** can't be modified when [repeater](../internet_repeater/) is enabled.
+    * The **Bandwidth** and **Channel** can't be modified when [repeater](internet_repeater.md) is enabled.
     * When **Channel** set as **Auto**, WiFi will not automatically switch to the DFS channel.
     * When switch to DFS channel from non-DFS channel, it will pop up a caution.
 

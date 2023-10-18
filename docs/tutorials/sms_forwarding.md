@@ -69,7 +69,7 @@ You can add up to 10 cell phone numbers.
 
 Related Articles
 
-- [SMS](../../interface_guide/sms)
+- [SMS](../interface_guide/sms.md)
 
 ---
 

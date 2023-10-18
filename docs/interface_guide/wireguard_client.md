@@ -4,7 +4,7 @@ WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state
 
 If you have already bought WireGuard service from a provider, but you don't know how to get the configuration files, please refer to [get configuration files from WireGuard service providers](#get-configuration-files-from-wireguard-service-providers) or ask its support.
 
-You can set up WireGuard Client via web Admin Panel or [mobile app](../mobile_app). For the mobile app, it has already integrated some WireGuard Service Providers, they are AzireVPN, Mullvad VPN, TorGuard VPN, OVPN, StrongVPN, PIA VPN.
+You can set up WireGuard Client via web Admin Panel or [mobile app](../faq/mobile_app.md). For the mobile app, it has already integrated some WireGuard Service Providers, they are AzireVPN, Mullvad VPN, TorGuard VPN, OVPN, StrongVPN, PIA VPN.
 
 For set up via web Admin Panel, please follow the guide below.
 
@@ -124,13 +124,13 @@ As of firmware 4.0, it brings grouping to manage WireGuard profiles.
 
     ![start the profile](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/start_the_profile.png){class="glboxshadow"}
 
-5. Check the connection status by go to [VPN Dashboard](../vpn_dashboard) page.
+5. Check the connection status by go to [VPN Dashboard](vpn_dashboard.md) page.
 
     ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_wireguard_status.png){class="glboxshadow"}
 
 ## Set Up WireGuard Server on GL.iNet Router
 
-You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup WireGaurd server, please check out [here](../wireguard_server).
+You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup WireGaurd server, please check out [here](wireguard_server.md).
 
 ## Get Configuration Files from WireGuard Service Providers
 
@@ -149,7 +149,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     3. Then follow the [guide](#setup-wireguard-client) to continue.
 
-    4. You can also use [mobile app](../../faq/mobile_app) to setup AzireVPN.
+    4. You can also use [mobile app](../faq/mobile_app.md) to setup AzireVPN.
 
 ??? "Mullvad"
     ### Mullvad
@@ -160,7 +160,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     2. Then follow the [guide](#setup-wireguard-client) to continue.
 
-    3. You can also use [mobile app](../../faq/mobile_app) to setup Mullvad.
+    3. You can also use [mobile app](../faq/mobile_app.md) to setup Mullvad.
 
 ??? "OVPN"
     ### OVPN
@@ -183,7 +183,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
     
     4. Then follow the [guide](#setup-wireguard-client) to continue.
 
-    5. You can also use <a href="../mobile_app">mobile app</a> to setup OVPN.
+    5. You can also use [mobile app](../faq/mobile_app.md) to setup OVPN.
 
 ??? "TorGuard"
     ### TorGuard
@@ -204,7 +204,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     3. Then follow the [guide](#setup-wireguard-client) to continue.
 
-    4. You can also use <a href="../mobile_app">mobile app</a> to setup TorGuard.
+    4. You can also use [mobile app](../faq/mobile_app.md) to setup TorGuard.
 
 ??? "Surfshark"
     ### Surfshark
@@ -261,7 +261,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
     
     3. Then follow the [guide](#setup-wireguard-client) to continue.
 
-    4. You can also use <a href="../mobile_app">mobile app</a> to setup StrongVPN.
+    4. You can also use [mobile app](../faq/mobile_app.md) to setup StrongVPN.
 
 ??? "Windscribe"
     ### Windscribe
@@ -298,7 +298,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
-    It can't downlaod the WireGaurd configs from its website, please use [mobile app](../mobile_app) to setup PIA VPN.
+    It can't downlaod the WireGaurd configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

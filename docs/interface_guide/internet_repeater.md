@@ -102,7 +102,7 @@ It can be divided into three phases, the waiting phase, the scanning phase, and 
 
 ## Warning
 
-When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](../multi-wan) page.
+When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
 
 - Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
 
@@ -122,9 +122,9 @@ When Repeater to a upstream 5G WiFi, the router WiFi will fellow the upstream Wi
 
 Related Articles
 
-- [Internet page](../internet)
-- [How to set the priority of each Internet access method?](../multi-wan/)
-- [How to set the load balance when multiple Internet access methods are used at the same time?](../multi-wan/)
+- [Internet page](internet.md)
+- [How to set the priority of each Internet access method?](multi-wan.md)
+- [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
 
 ---
 

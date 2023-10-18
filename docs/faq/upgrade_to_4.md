@@ -42,13 +42,13 @@ Suitable for all models.
 
 1. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}, please download the one for Uboot.
 
-2. Please flash the firmware by [Uboot](../debrick/).
+2. Please flash the firmware by [Uboot](debrick.md).
 
 ## Downgrade
 
 1. Please download the latest 3.x release firmware [here](https://dl.gl-inet.com){target="_blank"}.
 
-2. Please flash the firmware by [Uboot](../debrick/).
+2. Please flash the firmware by [Uboot](debrick.md).
 
 ---
 

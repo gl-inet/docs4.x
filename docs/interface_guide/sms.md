@@ -16,7 +16,7 @@ Some models have a built-in modem that allows sending and receiving SMS messages
 
 Here take the GL-X3000 (Spitz AX) as an example.
 
-Please refer to [this link](../internet_cellular) to set up the SIM card first.
+Please refer to [this link](internet_cellular.md) to set up the SIM card first.
 
 On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
@@ -46,7 +46,7 @@ Click on the **Send Message** button in the upper right corner.
 
 Related Articles
 
-- [SMS Forwarding](../sms_forwarding)
+- [SMS Forwarding](../tutorials/sms_forwarding.md)
 
 ---
 

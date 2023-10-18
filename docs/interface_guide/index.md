@@ -10,78 +10,78 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## Internet Connection
 
-* [The Internet Page](internet)
-* [How to connect to the Internet via an ethernet cable](internet_ethernet).
-* [How to connect to the Internet via Repeater](internet_repeater).
-* [How to connect to the Internet via usb tethering](internet_tethering).
-* [How to connect to the Internet via usb modem or built-in modem](internet_cellular).
-* [SMS](sms)
-* [Dual-Ethernet WAN](dual-ethernet_wan).
+* [The Internet Page](internet.md)
+* [How to connect to the Internet via an ethernet cable](internet_ethernet.md).
+* [How to connect to the Internet via Repeater](internet_repeater.md).
+* [How to connect to the Internet via usb tethering](internet_tethering.md).
+* [How to connect to the Internet via usb modem or built-in modem](internet_cellular.md).
+* [SMS](sms.md)
+* [Dual-Ethernet WAN](dual-ethernet_wan.md).
 
 ## Wireless
 
-* [Wireless](wireless)
+* [Wireless](wireless.md)
 
 ## Clients
 
-* [Clients](clients)
+* [Clients](clients.md)
 
 ## VPN
 
-* [VPN Dashboard](vpn_dashboard).
-* [Setup OpenVPN Client](openvpn_client).
-* [Setup OpenVPN Server](openvpn_server).
-* [Setup WireGuard Client](wireguard_client).
-* [Setup WireGuard Server](wireguard_server).
-* [VPN Proxy Mode](vpn_dashboard#proxy-mode).
-* [VPN Policy](vpn_dashboard#proxy-mode).
-* [How to setup NordVPN on router?](openvpn_client#set-up-nordvpn)
-* [How to setup AzireVPN on router?](wireguard_client#set-up-azirevpn)
-* [How to setup Mullvad VPN on router?](wireguard_client#set-up-mullvad)
-* [How to Block Non-VPN Traffic?](block_no_vpn_traffic)
-* [VPN Kill Switch](block_no_vpn_traffic).
-* [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp)
-* [VPN Cascading](vpn_cascading)
-* [Tor](tor), to protect the personal privacy.
+* [VPN Dashboard](vpn_dashboard.md).
+* [Setup OpenVPN Client](openvpn_client.md).
+* [Setup OpenVPN Server](openvpn_server.md).
+* [Setup WireGuard Client](wireguard_client.md).
+* [Setup WireGuard Server](wireguard_server.md).
+* [VPN Proxy Mode](vpn_dashboard.md#proxy-mode).
+* [VPN Policy](vpn_dashboard.md#proxy-mode).
+* [How to setup NordVPN on router?](openvpn_client.md#set-up-nordvpn)
+* [How to setup AzireVPN on router?](wireguard_client.md#set-up-azirevpn)
+* [How to setup Mullvad VPN on router?](wireguard_client.md#set-up-mullvad)
+* [How to Block Non-VPN Traffic?](../faq/block_no_vpn_traffic.md)
+* [VPN Kill Switch](../faq/block_no_vpn_traffic.md).
+* [For OpenVPN, which protocol should I choose, TCP or UDP?](../faq/openvpn_tcp_udp.md)
+* [VPN Cascading](../tutorials/vpn_cascading.md)
+* [Tor](tor.md), to protect the personal privacy.
 
 ## Applications
 
-* [plug-ins](plugins)
-* [DDNS](ddns). Overcome the issues related to Dynamic IP Addresses.
-* [GoodCloud](cloud), the official cloud service.
-* [AdGuard Home](adguardhome)
-* [Network Storage](network_storage)
-* [Parental Control](parental_control)
-* [ZeroTier](zerotier)
-* [Tailscale](tailscale)
+* [plug-ins](plugins.md)
+* [DDNS](ddns.md). Overcome the issues related to Dynamic IP Addresses.
+* [GoodCloud](cloud.md), the official cloud service.
+* [AdGuard Home](adguardhome.md)
+* [Network Storage](network_storage.md)
+* [Parental Control](parental_control.md)
+* [ZeroTier](zerotier.md)
+* [Tailscale](tailscale.md)
 
 ## Network
 
-* [Firewall](firewall).
-* [Multi-WAN](multi-wan), failover to another Internet access method or use multiple interfaces at the same time to increase the total bandwidth.
-* [LAN](lan)
-* [DNS](dns)
-* [Network Mode](network_mode)
-* [IPv6](ipv6)
-* [MAC Address](mac_address)
-* [Drop-in Gateway](drop-in_gateway)
-* [IGMP Snooping](igmp_snooping), to use the multicast function on the router.
-* [Hardware Acceleration](hardware_acceleration)
-* [Network Acceleration](network_acceleration)
+* [Firewall](firewall.md).
+* [Multi-WAN](multi-wan.md), failover to another Internet access method or use multiple interfaces at the same time to increase the total bandwidth.
+* [LAN](lan.md)
+* [DNS](dns.md)
+* [Network Mode](network_mode.md)
+* [IPv6](ipv6.md)
+* [MAC Address](mac_address.md)
+* [Drop-in Gateway](drop-in_gateway.md)
+* [IGMP Snooping](igmp_snooping.md), to use the multicast function on the router.
+* [Hardware Acceleration](hardware_acceleration.md)
+* [Network Acceleration](network_acceleration.md)
 
 ## System
 
-* [System Overview](system_overview), displays some hardwares status and system info.
+* [System Overview](system_overview.md), displays some hardwares status and system info.
 * Upgrade
-    * [Firmware upgrade](firmware_upgrade)
-    * [Where to download official firmware?](where_to_download_firmware)
-    * [How to upgrade from 3.x to firmware 4.x?](upgrade_to_4)
-    * [How to upgrade GL-AX1800(Flint) from firmware 3.x to 4.x?](gl-ax1800_upgrade_to_4)
-    * [How to downgrade GL-AX1800(Flint) from firmware 4.x to 3.x?](gl-ax1800_upgrade_to_4/#downgrade)
-* [Scheduled Tasks](scheduled_tasks), set scheduled LED display, reboot and Wi-Fi status.
-* [Change admin password](admin_password)
-* [Time Zone](time_zone)
-* [Toggle Button Settings](toggle_button_settings)
-* [Log](log)
-* [Reset Firmware](reset_firmware)
-* [Advanced Settings](advanced_settings)
+    * [Firmware upgrade](firmware_upgrade.md)
+    * [Where to download official firmware?](../faq/where_to_download_firmware.md)
+    * [How to upgrade from 3.x to firmware 4.x?](../faq/upgrade_to_4.md)
+    * [How to upgrade GL-AX1800(Flint) from firmware 3.x to 4.x?](../faq/gl-ax1800_upgrade_to_4.md)
+    * [How to downgrade GL-AX1800(Flint) from firmware 4.x to 3.x?](../faq/gl-ax1800_upgrade_to_4.md#downgrade)
+* [Scheduled Tasks](scheduled_tasks.md), set scheduled LED display, reboot and Wi-Fi status.
+* [Change admin password](admin_password.md)
+* [Time Zone](time_zone.md)
+* [Toggle Button Settings](toggle_button_settings.md)
+* [Log](log.md)
+* [Reset Firmware](reset_firmware.md)
+* [Advanced Settings](advanced_settings.md)

@@ -2,46 +2,80 @@
 
 Experience your first impression of seeing our devices for the first time, and understanding the setup process.
 
-## GL-S200 & Thread Development Board - Unboxing
+## GL-X3000(Spitz AX)
+
+Spitz AX (GL-X3000) - Unboxing and Setup Guide
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/64C7dqHG2EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MT3000(Beryl AX)
+
+Beryl AX (GL-MT3000) - Unboxing and Setup Guide
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I6P5mkGijAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-S200
+
+GL-S200 & Thread Development Board - Unboxing
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pQ1bRMe-aEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Beryl (GL-MT1300) - Unboxing and Setup Guide
+## Beryl(GL-MT1300)
+
+Beryl (GL-MT1300) - Unboxing and Setup Guide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rT9cs6l0vBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## BRUME (GL-MV1000) Edge Computing Gateway
+## BRUME(GL-MV1000)
+
+BRUME (GL-MV1000) Edge Computing Gateway
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VfRmTnJROpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Cirrus (GL-AP1300) / Cirrus LTE (GL-AP1300LTE) - Unboxing and Setup Guide
+## Cirrus(GL-AP1300) / Cirrus LTE(GL-AP1300LTE)
+
+Cirrus (GL-AP1300) / Cirrus LTE (GL-AP1300LTE) - Unboxing and Setup Guide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/db-LI967Q4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Flint (GL-AX1800) - Unboxing and Setup Guide
+## Flint(GL-AX1800)
+
+Flint (GL-AX1800) - Unboxing and Setup Guide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OsnDvWTuQnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-SF1200 - Unboxing and Setup Guide
+## GL-SF1200
+
+GL-SF1200 - Unboxing and Setup Guide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EdXKD5qrEoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Slate (GL-AR750S-Ext) - Unboxing and Setup Guide
+## Slate(GL-AR750S-Ext)
+
+Slate (GL-AR750S-Ext) - Unboxing and Setup Guide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cpN3ZXDBzi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Opal (GL-SFT1200) - Unboxing and Setup Guide
+## Opal(GL-SFT1200)
+
+Opal (GL-SFT1200) - Unboxing and Setup Guide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RlNJvsCPgK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Puli (GL-XE300) - Unboxing and Setup Guide
+## Puli(GL-XE300)
+
+Puli (GL-XE300) - Unboxing and Setup Guide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rMixxOvlPRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Slate AX (GL-AXT1800)-Unboxing
+## Slate AX(GL-AXT1800)
+
+Slate AX (GL-AXT1800) - Unboxing
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GnEr-LJVbdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Velica (GL-B2200) - Unboxing and Setup Guide
+## Velica(GL-B2200)
+
+Velica (GL-B2200) - Unboxing and Setup Guide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e7cX69FzikA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

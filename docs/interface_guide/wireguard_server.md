@@ -6,7 +6,7 @@ WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state
 
 ## Make sure Internet Service Provider assigns you a public IP address
 
-Please check if you Internet Service Provider assigns you a public IP address [here](../../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/).
+Please check if you Internet Service Provider assigns you a public IP address [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
 **If not, you can't connect to the WireGaurd Server.**
 
@@ -56,7 +56,7 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
     
     ![download wireguard client configuration](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/download_wireguard_client_configuration.png){class="glboxshadow"}
 
-    If your network's public IP changes from time to time, you can enable [DDNS](../ddns/), then using DDNS domain in the configuration.
+    If your network's public IP changes from time to time, you can enable [DDNS](ddns.md), then using DDNS domain in the configuration.
 
     Click **Download** to save the profile.
 

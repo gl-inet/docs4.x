@@ -1,6 +1,6 @@
 # Network Acceleration
 
-[Hardware Acceleration](../hardware_acceleration) features have been renamed to Network Acceleration since v4.3.
+[Hardware Acceleration](hardware_acceleration.md) features have been renamed to Network Acceleration since v4.3.
 
 Network acceleration reduces CPU load and speeds up traffic packet forwarding, but can conflict with some features.
 

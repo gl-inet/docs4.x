@@ -2,13 +2,13 @@
 
 Access to web Admin Panel, on the left side -> VPN -> VPN Dashboard
 
-VPN Dashboard page is for the status and setting of VPN. There are two sectors, [VPN Client](#vpn-client) and [VPN Server](vpn-server).
+VPN Dashboard page is for the status and setting of VPN. There are two sectors, [VPN Client](#vpn-client) and [VPN Server](#vpn-server).
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
 
 ## VPN Client
 
-In the beginning, there is no configuration available for OpenVPN and WireGuard, please click **Set Up Now**, it will go to the [OpenVPN Client](../openvpn_client) and [WireGuard Client](../wireguard_client) pages respectively.
+In the beginning, there is no configuration available for OpenVPN and WireGuard, please click **Set Up Now**, it will go to the [OpenVPN Client](openvpn_client.md) and [WireGuard Client](wireguard_client.md) pages respectively.
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_client_set_up_now.png){class="glboxshadow"}
 
@@ -118,13 +118,13 @@ Click **Global Options** will popup a global options dialog.
 
 3. Services From GL.iNet Use VPN
 
-    If this option is enabled, services on routers that usually require the use of a real IP will use VPN. Including GoodCloud, DDNS, rtty. Rtty include the **Remote SSH** and **Remote Web Access** in [GoodCloud page](../cloud/#enable-goodcloud-on-router).
+    If this option is enabled, services on routers that usually require the use of a real IP will use VPN. Including GoodCloud, DDNS, rtty. Rtty include the **Remote SSH** and **Remote Web Access** in [GoodCloud page](cloud.md#enable-goodcloud-on-router).
 
-    The main purpose of this is to use VPN Client and [GoodCloud](../cloud) / [DDNS](../ddns) at the same time. It is recommended to turn off this option if you want to use GoodCloud, otherwise the stability of GoodCloud will be affected by the VPN status. If you want to use DDNS, you must turn off this option, otherwise DDNS will point to the IP address of the VPN Server.
+    The main purpose of this is to use VPN Client and [GoodCloud](cloud.md) / [DDNS](ddns.md) at the same time. It is recommended to turn off this option if you want to use GoodCloud, otherwise the stability of GoodCloud will be affected by the VPN status. If you want to use DDNS, you must turn off this option, otherwise DDNS will point to the IP address of the VPN Server.
 
 ## VPN Server
 
-In the beginning, both VPN Server are not initialized yet, please click **Set Up Now**, it will go to the [OpenVPN Server](../openvpn_server) and [WireGuard Server](../wireguard_server) pages respectively.
+In the beginning, both VPN Server are not initialized yet, please click **Set Up Now**, it will go to the [OpenVPN Server](openvpn_server.md) and [WireGuard Server](wireguard_server.md) pages respectively.
 
 ![vpn dashboard vpn server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server.png){class="glboxshadow"}
 
@@ -198,7 +198,7 @@ In customize routes mode, the VPN client will ignore the configuration file and 
 
 ![Global Options of VPN Server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options_of_vpn_server_2.png){class="glboxshadow"}
 
-- **VPN Cascading**, If this option is enabled, when you have both VPN server and VPN Client running on this router, clients connected to the VPN server will further be routed to the VPN client tunnel. [Learn more about VPN Cascading](../../tutorials/vpn_cascading).
+- **VPN Cascading**, If this option is enabled, when you have both VPN server and VPN Client running on this router, clients connected to the VPN server will further be routed to the VPN client tunnel. [Learn more about VPN Cascading](../tutorials/vpn_cascading.md).
 
 ---
 

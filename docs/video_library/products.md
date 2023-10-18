@@ -8,15 +8,7 @@ GL-X3000 Spitz AX | Wi-Fi 6 Dual SIM Router with 5G NR Connectivity
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uBz8QOp_Do4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Spitz AX (GL-X3000) - Unboxing and Setup Guide
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/64C7dqHG2EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## GL-MT3000(Beryl AX)
-
-Beryl AX (GL-MT3000) - Unboxing and Setup Guide
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I6P5mkGijAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 GL-MT3000 Beryl AX | THE SMALLEST WI-FI 6 VPN ROUTER
 
@@ -32,19 +24,19 @@ Meet Brume 2 - Security Gateway for Remote Access
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9czDvi2irME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MV1000/Brume
+## GL-MV1000(Brume)
 
 Meet Brume - Edge Computing Gateway for Highly Secure and Reliable Infrastructure
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4mVs6V_sHnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-MV1000W/Brume-W
+## GL-MV1000W(Brume-W)
 
 Meet Brume-W: A Pocket-sized Wireless Gateway for Secure Edge Computing
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pR7rfVzAZzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AP1300/Cirrus
+## GL-AP1300(Cirrus)
 
 Meet CIRRUS-Enterprise Ceiling Wireless Access Point
 
@@ -104,7 +96,7 @@ Introducing GoodCloud, Your Remote Device Management Solution
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JkV2PAy-_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Tri-Band Mesh
+## Velica(GL-B2200)
 
 Velica (GL-B2200) Integrated Tri-Band Wireless Mesh System with Open Technologies
 

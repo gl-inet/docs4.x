@@ -6,7 +6,7 @@ On the left side of web Admin Panel -> INTERNET, Ethernet sector.
 
 ![ethernet dhcp](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_dhcp.png){class="glboxshadow"}
 
-**Note**: Before plugging the Ethernet cable into the WAN port of the router, you can click **Change to LAN** to [set the WAN port as a LAN port](../../faq/change_wan_to_lan/). That is useful when you are using the router as a [repeater](../internet_repeater). As a result, you can have one more LAN port.
+**Note**: Before plugging the Ethernet cable into the WAN port of the router, you can click **Change to LAN** to [set the WAN port as a LAN port](../faq/change_wan_to_lan.md). That is useful when you are using the router as a [repeater](internet_repeater.md). As a result, you can have one more LAN port.
 
 ## Protocol
 
@@ -32,7 +32,7 @@ There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
 
 ## Warning
 
-When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](../multi-wan) page.
+When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
 
 - Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
 
@@ -44,9 +44,9 @@ When Internet access is not available, the corresponding warning is displayed. T
 
 Related Articles
 
-- [Internet page](../internet)
-- [How to set the priority of each Internet access method?](../multi-wan/)
-- [How to set the load balance when multiple Internet access methods are used at the same time?](../multi-wan/)
+- [Internet page](internet.md)
+- [How to set the priority of each Internet access method?](multi-wan.md)
+- [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
 
 ---
 

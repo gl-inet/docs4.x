@@ -2,7 +2,7 @@
 
 OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
 
-We recommend WireGuard over OpenVPN because it is much faster. For setup a WireGuard Server, please check out [here](../wireguard_server).
+We recommend WireGuard over OpenVPN because it is much faster. For setup a WireGuard Server, please check out [here](wireguard_server.md).
 
 ---
 
@@ -32,7 +32,7 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
     If you do not need to modify the configuration, please click directly the **Export Client Configuration** at the bottom of page. If you have modified the configuration, please click the **Apply** button to continue.
 
-    * **Protocol:** UDP or TCP. To find out what the difference is, check out [this tutorial](../openvpn_tcp_udp/).
+    * **Protocol:** UDP or TCP. To find out what the difference is, check out [this tutorial](../faq/openvpn_tcp_udp.md).
 
     * **Authentication Mode:** There are three options **Only Certificate**, **Only Username/Password**, **Username/Password and Certificate**. 
     
@@ -52,13 +52,13 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
     Clicking the **Export Client Configuration** button at the bottom or applying the modified configuration will pop up this dialog.
 
-    If your network's public IP changes from time to time, you can enable [DDNS](../ddns/) by using DDNS domain in the configuration. Click **Download** to export the configuration for further setup.
+    If your network's public IP changes from time to time, you can enable [DDNS](ddns.md) by using DDNS domain in the configuration. Click **Download** to export the configuration for further setup.
 
     ![openvpn server configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_export_client_configuration.png){class="glboxshadow"}
 
 4. Start OpenVPN server
 
-    Click the **Start** button in the upper right corner on OpenVPN Server page to start the server. Then go to [VPN Dashboard page](../vpn_dashboard#vpn-server) to check its status and other settings.
+    Click the **Start** button in the upper right corner on OpenVPN Server page to start the server. Then go to [VPN Dashboard page](vpn_dashboard.md#vpn-server) to check its status and other settings.
 
     ![start openvpn server](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/start_openvpn_server.png){class="glboxshadow"}
 

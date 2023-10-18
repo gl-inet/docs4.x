@@ -18,7 +18,7 @@
     - [Remote access web Admin Panel](#remote-access-web-admin-panel)
     - [Remote access router's terminal](#remote-access-routers-terminal)
     - [Set email alarm](#set-email-alarm)
-- [Site to Site](../../tutorials/goodcloud_site_to_site)
+- [Site to Site](../tutorials/goodcloud_site_to_site.md)
 - [Batch Setting](#batch-setting)
     - [Batch Setting of Single Device](#batch-setting-of-single-device)
     - [Batch Setting of Mutiple Devices](#batch-setting-of-mutiple-devices)
@@ -131,7 +131,7 @@ On the left side -> Devices List -> Add Device. There are three methods to bind 
 
     ![add device](https://static.gl-inet.com/goodcloud/docs/add-device.png){class="glboxshadow"}
 
-    Check out [here](../where_to_find_the_device_id_mac_sn) to find the Device ID.
+    Check out [here](../faq/where_to_find_the_device_id_mac_sn.md) to find the Device ID.
 
         Note: Input "DDNS/Device ID" here just to verify that the router is really 
         original/valid.
@@ -286,7 +286,7 @@ Then set the email you want to receive notification. To ensure you get email suc
 
 ## Site to Site
 
-Please refer to [GoodCloud Site to Site](../../tutorials/goodcloud_site_to_site).
+Please refer to [GoodCloud Site to Site](../tutorials/goodcloud_site_to_site.md).
 
 ## Batch Setting
 

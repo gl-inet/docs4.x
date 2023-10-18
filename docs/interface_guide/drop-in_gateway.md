@@ -37,7 +37,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
     ![drop-in gateway generated settings](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_enabled.png){class="glboxshadow"}
 
-    The **IP Address** is same of the IP address in [Ethernet sector of Internet page](../internet_ethernet). The **Gateway** and **DNS Server 1** are the IP address of the main router. If these items are not set correctly, you can change them manually yourself.
+    The **IP Address** is same of the IP address in [Ethernet sector of Internet page](internet_ethernet.md). The **Gateway** and **DNS Server 1** are the IP address of the main router. If these items are not set correctly, you can change them manually yourself.
 
     Write down the IP address here, you will use it in the following steps.
 
@@ -87,7 +87,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         Please search for the corresponding brand on how to disable DHCP, or consult customer service.
 
-4. Go back to the GL.iNet router and set up features like [ADGuard Home](../adguardhome), [encypted DNS](../dns), [WireGaurd Client](../wireguard_client) and [OpenVPN Client](../openvpn_client).
+4. Go back to the GL.iNet router and set up features like [ADGuard Home](adguardhome.md), [encypted DNS](dns.md), [WireGaurd Client](wireguard_client.md) and [OpenVPN Client](openvpn_client.md).
 
 ### Some devices managed by the Drop-in Gateway
 
@@ -97,7 +97,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
     ![drop-in gateway generated settings](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_enabled.png){class="glboxshadow"}
 
-    The **IP Address** is same of the IP address in [Ethernet sector of Internet page](../internet_ethernet). The **Gateway** and **DNS Server 1** are the IP address of the main router. If these items are not set correctly, you can change them manually yourself.
+    The **IP Address** is same of the IP address in [Ethernet sector of Internet page](internet_ethernet.md). The **Gateway** and **DNS Server 1** are the IP address of the main router. If these items are not set correctly, you can change them manually yourself.
 
     Write down the IP address here, you will use it in the following steps.
 
@@ -183,7 +183,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
             ![wifi set dns](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/iphone/set_dns.jpg){class="glboxshadow gl-60-desktop"}
 
-4. Go back to the GL.iNet router and set up features like [ADGuard Home](../adguardhome), [encypted DNS](../dns), [WireGaurd Client](../wireguard_client) and [OpenVPN Client](../openvpn_client).
+4. Go back to the GL.iNet router and set up features like [ADGuard Home](adguardhome.md), [encypted DNS](dns.md), [WireGaurd Client](wireguard_client.md) and [OpenVPN Client](openvpn_client.md).
 
 ## Cautions
 

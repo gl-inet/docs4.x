@@ -1,6 +1,6 @@
 # Hardware Acceleration
 
-**Note**: Hardware Acceleration features have been renamed to [Network Acceleration](../network_acceleration) since v4.3.
+**Note**: Hardware Acceleration features have been renamed to [Network Acceleration](network_acceleration.md) since v4.3.
 
 ---
 

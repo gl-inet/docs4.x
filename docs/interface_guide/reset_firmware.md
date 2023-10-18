@@ -8,7 +8,7 @@ In case of malfunction, you can reset router.
 
 ![reset firmware](https://static.gl-inet.com/docs/en/4/tutorials/reset_firmware/reset_firmware.png){class="glboxshadow"}
 
-If you can't access the web Admin Panel, you can use the reset button as well, please check out [here](../repair_network_or_reset_firmware/#reset-to-factory).
+If you can't access the web Admin Panel, you can use the reset button as well, please check out [here](../faq/repair_network_or_reset_firmware.md#reset-to-factory).
 
 ---
 

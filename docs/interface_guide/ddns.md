@@ -14,7 +14,7 @@ DDNS update frequency is once every 10 minutes.
 
 ![enable ddns](https://static.gl-inet.com/docs/en/4/tutorials/ddns/enable_ddns.png){class="glboxshadow"}
 
-**Note**: If you using DDNS and VPN Client at the same time, please make sure to enable **Services From GL.iNet Doesn't Use VPN** in [Global Option of VPN Client](../vpn_dashboard#global-options-of-vpn-client).
+**Note**: If you using DDNS and VPN Client at the same time, please make sure to enable **Services From GL.iNet Doesn't Use VPN** in [Global Option of VPN Client](vpn_dashboard.md#global-options-of-vpn-client).
 
 ## Check if DDNS is in effect
 
@@ -44,7 +44,7 @@ DDNS update frequency is once every 10 minutes.
 
 ## HTTP Remote Access
 
-This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../how_to_check_if_isp_assigns_you_a_public_ip_address/).
+This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
 If your router is behind NAT, you may need to set up port forwarding in higher level router. It use port **80**.
 
@@ -58,7 +58,7 @@ After you enable HTTP Remote Access, you can access Admin Panel anywhere by your
 
 ## HTTPS Remote Access
 
-This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../how_to_check_if_isp_assigns_you_a_public_ip_address/).
+This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
 If your router is behind NAT, you may need to set up port forwarding in higher level router. It use port **443**.
 
@@ -82,7 +82,7 @@ Then, it will access the web Admin Panel.
 
 ## SSH Remote Access
 
-This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../how_to_check_if_isp_assigns_you_a_public_ip_address/).
+This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
 If your router is behind NAT, you may need to set up port forwarding in higher level router. It use port **22**.
 

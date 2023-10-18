@@ -37,7 +37,7 @@ Using a USB cable to share network from your smartphone to the router is called 
 
 ## Warning
 
-When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](../multi-wan) page.
+When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
 
 - Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
 
@@ -51,9 +51,9 @@ When Internet access is not available, the corresponding warning is displayed. T
 
 Related Articles
 
-- [Internet page](../internet)
-- [How to set the priority of each Internet access method?](../multi-wan/)
-- [How to set the load balance when multiple Internet access methods are used at the same time?](../multi-wan/)
+- [Internet page](internet.md)
+- [How to set the priority of each Internet access method?](multi-wan.md)
+- [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
 
 ---
 

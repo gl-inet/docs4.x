@@ -2,9 +2,9 @@
 
 On the left side of web Admin Panel -> NETWORK -> Multi-WAN
 
-GL.iNet router can be connected to the Internet in multiple ways, such as [Ethernet](../internet_ethernet), [Repeater](../internet_repeater), [Tethering](../internet_tethering), [Cellular](../internet_cellular). You can configure the router with multiple Internet access methods, so that when one type of Internet access is not available, it can automatically switch to another type of Internet access in a short time. Or use multiple Internet access methods at the same time, assigning the network connection to different connection methods in a certain ratio.
+GL.iNet router can be connected to the Internet in multiple ways, such as [Ethernet](internet_ethernet.md), [Repeater](internet_repeater.md), [Tethering](internet_tethering.md), [Cellular](internet_cellular.md). You can configure the router with multiple Internet access methods, so that when one type of Internet access is not available, it can automatically switch to another type of Internet access in a short time. Or use multiple Internet access methods at the same time, assigning the network connection to different connection methods in a certain ratio.
 
-Some models support [Dual-Ethernet WAN](../dual-ethernet_wan), which will add an additional Ethernet interface on the user interface.
+Some models support [Dual-Ethernet WAN](dual-ethernet_wan.md), which will add an additional Ethernet interface on the user interface.
 
 ## Interface Status Tracking Method
 

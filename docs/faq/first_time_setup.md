@@ -45,7 +45,7 @@ There is a video guide.
 
 3. Access the web Admin Panel
 
-    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. If can't access the web Admin Panel, please check [here](../cannot_access_web_admin_panel).
+    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. If can't access the web Admin Panel, please check [here](cannot_access_web_admin_panel.md).
 
     Choose a language, and click **Next** to continue.
 
@@ -63,10 +63,10 @@ There is a video guide.
 
 4. Connect to the Internet
 
-    * [Connect to the Internet via an ethernet cable](../../interface_guide/internet_ethernet)
-    * [Connect to the Internet via an existing Wi-Fi](../../interface_guide/internet_repeater)
-    * [Connect to the Internet via usb tethering](../../interface_guide/internet_tethering)
-    * [Connect to the Internet via usb modem](../../interface_guide/internet_cellular)
+    * [Connect to the Internet via an ethernet cable](../interface_guide/internet_ethernet.md)
+    * [Connect to the Internet via an existing Wi-Fi](../interface_guide/internet_repeater.md)
+    * [Connect to the Internet via usb tethering](../interface_guide/internet_tethering.md)
+    * [Connect to the Internet via usb modem](../interface_guide/internet_cellular.md)
 
 ## For models that don't have Wi-Fi
 
@@ -96,7 +96,7 @@ Here is an example of GL-MT2500A (Brume 2).
 
 3. Access the web Admin Panel
 
-    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. If can't access the web Admin Panel, please check [here](../cannot_access_web_admin_panel).
+    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. If can't access the web Admin Panel, please check [here](cannot_access_web_admin_panel.md).
 
     Choose a language, and click **Next** to continue.
 
@@ -112,9 +112,9 @@ Here is an example of GL-MT2500A (Brume 2).
 
 4. Connect to the Internet
 
-    * [Connect to the Internet via an ethernet cable](../../interface_guide/internet_ethernet)
-    * [Connect to the Internet via usb tethering](../../interface_guide/internet_tethering)
-    * [Connect to the Internet via usb modem](../../interface_guide/internet_cellular)
+    * [Connect to the Internet via an ethernet cable](../interface_guide/internet_ethernet.md)
+    * [Connect to the Internet via usb tethering](../interface_guide/internet_tethering.md)
+    * [Connect to the Internet via usb modem](../interface_guide/internet_cellular.md)
 
 ---
 

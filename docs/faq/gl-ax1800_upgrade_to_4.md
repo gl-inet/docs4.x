@@ -2,7 +2,7 @@
 
 The GL-AX1800 is already available in 4.x firmware. For those who want to try it, you can follow the steps below to upgrade GL-AXT1800 from firmware 3.x to 4.x.
 
-Want to find guide of other models upgrade to firmware 4.x? Please check out [here](../upgrade_to_4).
+Want to find guide of other models upgrade to firmware 4.x? Please check out [here](upgrade_to_4.md).
 
 ## Upgrade
 
@@ -28,13 +28,13 @@ Method 2
 
 1. Download the 4.x firmware [here](https://dl.gl-inet.com/?model=ax1800){target="_blank"}, please download the one for uboot, its file name extension is **.img**.
 
-2. Please flash the firmware by [Uboot](../debrick/).
+2. Please flash the firmware by [Uboot](debrick.md).
 
 ## Downgrade
 
 1. Please download the latest 3.x release firmware [here](https://dl.gl-inet.com/?model=ax1800){target="_blank"}.
 
-2. Please flash the firmware by [Uboot](../debrick/).
+2. Please flash the firmware by [Uboot](debrick.md).
 
 ---
 

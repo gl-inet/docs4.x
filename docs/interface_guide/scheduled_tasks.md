@@ -4,7 +4,7 @@ On the left side of web Admin Panel -> SYSTEM -> Scheduled Tasks
 
 Schedule Tasks allows you to set up a daily schedule for some basic actions, including switching LED lights on and off, restarting the router, and switching Wi-Fi on and off.
 
-**Note**: Please synchronize the time in the [Time Zone](../time_zone) first before using this function. If the device is shutdown at the set time, the task will not be executed.
+**Note**: Please synchronize the time in the [Time Zone](time_zone.md) first before using this function. If the device is shutdown at the set time, the task will not be executed.
 
 ## LED Display Schedule
 

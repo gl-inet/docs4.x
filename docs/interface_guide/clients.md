@@ -22,9 +22,11 @@ Many devices will use randomized MAC address, if the randomized MAC address is u
 
 ## Blocking Client
 
-Enable **Block WAN** so that it cannot access the WAN, only LAN. To put it simple, it will cannot access the Internet.
+Enable **Block** toggle to block client device, the blocked device can't access the LAN interface and WAN interface.
 
 ![clients page](https://static.gl-inet.com/docs/en/4/tutorials/clients/clients.png){class="glboxshadow"}
+
+If you only want a client device access LAN, please try the [Parental Control](parental_control.md).
 
 Starting from firmware 4.4.x, you can upload a block list in excel form or input Mac addressed manually to creat a **Block List**.
 

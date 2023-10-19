@@ -191,7 +191,7 @@ nav:
       - Firewall: interface_guide/firewall.md
       - Multi-WAN: interface_guide/multi-wan.md
       - LAN: interface_guide/lan.md
-      - Guest Network: guest_network.md
+      - Guest Network: interface_guide/guest_network.md
       - DNS: interface_guide/dns.md
       - Network Mode: interface_guide/network_mode.md
       - IPv6: interface_guide/ipv6.md
@@ -208,7 +208,6 @@ nav:
       - Time Zone: interface_guide/time_zone.md
       - Toggle Button Settings: interface_guide/toggle_button_settings.md
       - Log: interface_guide/log.md
-      - Security: interface_guide/security.md
       - Reset Firmware: interface_guide/reset_firmware.md
       - Advanced Settings: interface_guide/advanced_settings.md
   - Video Library:

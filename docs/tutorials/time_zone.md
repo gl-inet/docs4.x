@@ -6,8 +6,8 @@
 
 タイムゾーンの自動同期は行われず、**Sync**ボタンのクリックが必要です。
 
-![time zone no sync](https://static.gl-inet.com/docs/en/4/tutorials/time_zone/time_zone_no_sync.png){class="glboxshadow"}
+![time zone no sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_no_sync.png){class="glboxshadow"}
 
 同期後
 
-![time zone sync](https://static.gl-inet.com/docs/en/4/tutorials/time_zone/time_zone_sync.png){class="glboxshadow"}
+![time zone sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_sync.png){class="glboxshadow"}

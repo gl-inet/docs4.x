@@ -18,7 +18,7 @@ GL-AX1800は、すでに4.xのベータ版ファームウェアが公開され�
 
     3. Web管理画面の**Local Upgrade** から、.imgファームウェアファイルを用いてアップグレードしてください。
 
-        ![local upgrade](https://static.gl-inet.com/docs/en/3/setup/share/upgrade/local_upgrade.png){class="glboxshadow"}
+        ![local upgrade](https://static.gl-inet.com/docs/router/en/3/setup/share/upgrade/local_upgrade.png){class="glboxshadow"}
 
 - 方法 2:
 

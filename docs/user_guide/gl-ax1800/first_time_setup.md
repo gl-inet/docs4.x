@@ -6,7 +6,7 @@ Please note that the adapter within the package depends on your shipping country
 
 What’s inside the package?
 
-![gl-ax1800 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
+![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 

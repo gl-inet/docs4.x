@@ -4,17 +4,17 @@
 
 VPNダッシュボードは、VPNの状態や設定を行うためのページです。
 
-![glinet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
+![glinet vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
 
 ## VPN Client
 
 OpenVPNとWireGuardについては、初期状態では設定項目がありませんので、**Set Up Now**をクリックして、該当するページに移動し、設定を行う必要があります。
 
-![glinet vpn dashboard](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_2.png){class="glboxshadow"}
+![glinet vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_2.png){class="glboxshadow"}
 
 ### プロキシモード
 
-![vpn proxy](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_proxy.png){class="glboxshadow"}
+![vpn proxy](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_proxy.png){class="glboxshadow"}
 
 1. グローバルプロクシ
 
@@ -46,7 +46,7 @@ OpenVPNとWireGuardについては、初期状態では設定項目がありま�
 
 Click **グローバルオプション** will popup a global options dialog.
 
-![global options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/global_options.png){class="glboxshadow"}
+![global options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/global_options.png){class="glboxshadow"}
 
 1. 非VP.Nトラフィックのブロック
 
@@ -62,13 +62,13 @@ Click **グローバルオプション** will popup a global options dialog.
 
 ##VPNサーバー
 
-![vpn dashboard vpn server](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server.png){class="glboxshadow"}
+![vpn dashboard vpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server.png){class="glboxshadow"}
 
 ### OpenVPN Server Options
 
 OpenVPNサーバーのcog iconをクリックします。
 
-![openvpn server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_options.png){class="glboxshadow"}
+![openvpn server options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/openvpn_server_options.png){class="glboxshadow"}
 
 * **リモートアクセスLANを許可する：** このオプションを有効にすると、LANサブネット内のリソースは、VPNトンネルを介してアクセスすることができます。
 
@@ -82,11 +82,11 @@ OpenVPNサーバーのネットワークアイコンをクリックします。
 
 カスタマイズルーツモードでは、VPNクライアントは、サーバーから発行された設定ファイルやルーティングの設定を無視します。任意のネットワーク・セグメントにアクセスする際に、VPNが提供する暗号化トンネルを使用するかどうかは、手動で設定したルーティング・ルールによって決定されます。
 
-![openvpn server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/openvpn_server_route_rule.png){class="glboxshadow"}
+![openvpn server route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/openvpn_server_route_rule.png){class="glboxshadow"}
 
 ### WireGuardサーバーのオプション
 
-![wireguard server options](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_options.png){class="glboxshadow"}
+![wireguard server options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/wireguard_server_options.png){class="glboxshadow"}
 
 * **リモートアクセスLANを許可する:** このオプションを有効にすると、LANサブネット内のリソースは、VPNトンネルを介してアクセスすることができます。
 
@@ -100,4 +100,4 @@ WireGuardサーバーのネットワークアイコンをクリックします�
 
 カスタマイズルーツモードでは、VPNクライアントは、サーバーから発行された設定ファイルやルーティングの設定を無視します。任意のネットワーク・セグメントにアクセスする際に、VPNが提供する暗号化トンネルを使用するかどうかは、手動で設定したルーティング・ルールによって決定されます。
 
-![wireguard server route rule](https://static.gl-inet.com/docs/en/4/tutorials/vpn_dashboard/wireguard_server_route_rule.png){class="glboxshadow"}
+![wireguard server route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/wireguard_server_route_rule.png){class="glboxshadow"}

@@ -8,4 +8,4 @@
 
 下図は、GL-AXT1800のプラグインページです。
 
-![プラグイン](https://static.gl-inet.com/docs/en/4/tutorials/plug-ins/plug-ins.png){class="glboxshadow"}
+![プラグイン](https://static.gl-inet.com/docs/router/en/4/tutorials/plug-ins/plug-ins.png){class="glboxshadow"}

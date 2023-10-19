@@ -13,11 +13,11 @@
 
 ポート転送を設定するには、on the **Port Forwards** タブの **Add**をクリックします。.
 
-![ファイアウォール ページ](https://static.gl-inet.com/docs/en/4/tutorials/firewall/firewall.png){class="glboxshadow"}
+![ファイアウォール ページ](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/firewall.png){class="glboxshadow"}
 
 **新しいポートフォワードルールの追加**」ダイアログが表示されます。
 
-![add new port forward rule](https://static.gl-inet.com/docs/en/4/tutorials/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
+![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
 
 **名前:** 規則の名前です。
 
@@ -43,9 +43,9 @@ WebやFTPなどのルーターのサービスは、一般に到達できるよ�
 
 ポートを開くには、**Add**をクリックします。
 
-![open Ports on router](https://static.gl-inet.com/docs/en/4/tutorials/firewall/open_ports_on_router.png){class="glboxshadow"}
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/open_ports_on_router.png){class="glboxshadow"}
 
-![open Ports on router](https://static.gl-inet.com/docs/en/4/tutorials/firewall/add_new_open_port.png){class="glboxshadow"}
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/add_new_open_port.png){class="glboxshadow"}
 
 **名前:** ユーザーが指定可能なルールの名前。
 
@@ -63,4 +63,4 @@ DMZは、1台のコンピュータをインターネットに公開し、すべ�
 
 DMZを有効にする**をトグルします。すべての受信パケットを受信するデバイスの内部IPアドレスを選択します。
 
-![Port Forwards](https://static.gl-inet.com/docs/en/4/tutorials/firewall/dmz.png){class="glboxshadow"}
+![Port Forwards](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/dmz.png){class="glboxshadow"}

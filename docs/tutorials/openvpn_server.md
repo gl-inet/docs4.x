@@ -26,11 +26,11 @@ OpenVPNよりもWireGuardの方が高速に接続できるため、WireGuardを�
 
 1.　**Generate Configuration**をクリックしてください (初回のみ）
 
-    ![openvpn server generate configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_generate_config.png){class="glboxshadow"}
+    ![openvpn server generate configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_generate_config.png){class="glboxshadow"}
 
 2. コンフィギュレーションを適用します。
 
-    ![openvpn server configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_configuration.png){class="glboxshadow"}
+    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_configuration.png){class="glboxshadow"}
 
     設定を変更する必要がない場合は、 ページ下部の**Export Client Configuration**を直接クリックしてください。 設定を変更した場合は、 **Apply** ボタンをクリックして続行してください。
 
@@ -40,11 +40,11 @@ OpenVPNよりもWireGuardの方が高速に接続できるため、WireGuardを�
     
         For **Username/Password** and **Username/Password and Certificate** options, they need add user(s). Then, if a OpenVPN client connect to this server, it need to input the username and password.
 
-        ![openvpn server users](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_users.png){class="glboxshadow"}
+        ![openvpn server users](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_users.png){class="glboxshadow"}
 
         Created a user.
 
-        ![openvpn server add a user](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_add_a_user.png){class="glboxshadow"}
+        ![openvpn server add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_add_a_user.png){class="glboxshadow"}
 
         For **Only Certificate** and **Username/Password and Certificate**, the router will automatically generate a server and client certificate-key, and write into the configuration file when generating the client configuration file.
 
@@ -56,13 +56,13 @@ OpenVPNよりもWireGuardの方が高速に接続できるため、WireGuardを�
 
     If your network's public IP changes from time to time, you can enable [DDNS](../ddns/) by using DDNS domain in the configuration. Click **Download** to export the configuration for further setup.
 
-    ![openvpn server configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_export_client_configuration.png){class="glboxshadow"}
+    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_export_client_configuration.png){class="glboxshadow"}
 
 4. Start OpenVPN server
 
     Click the **Start** button in the upper right corner on OpenVPN Server page to start the server. Then go to [VPN Dashboard page](../vpn_dashboard#vpn-server) to check its status and other settings.
 
-    ![start openvpn server](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/start_openvpn_server.png){class="glboxshadow"}
+    ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/start_openvpn_server.png){class="glboxshadow"}
 
 ## To check if OpenVPN Server is working properly
 
@@ -72,7 +72,7 @@ The simpliest way is to use a cell phone with [OpenVPN official client app](http
 
 When importing the configuration file to the OpenVPN app, it may has a reminder as below, please click **CONTINUE** as the certificate is already included in the configuration file.
 
-![openvpn app select certificate](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/select_certificate.png){class="glboxshadow"}
+![openvpn app select certificate](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/select_certificate.png){class="glboxshadow"}
 
 There are several common reasons cause failed:
 
@@ -83,7 +83,7 @@ There are several common reasons cause failed:
 
 ## Advanced Configuration
 
-![openvpn server advancd configuration](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_server/openvpn_server_advanced_configuration.png){class="glboxshadow"}
+![openvpn server advancd configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_advanced_configuration.png){class="glboxshadow"}
 
 ## OpenVPN Client App
 

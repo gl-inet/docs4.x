@@ -44,7 +44,7 @@ GL-AXT1800、電源アダプタ、イーサネットケーブル。
 
     **注**：初期化中にWi-Fiがオフになる場合があります。必ず、ルーターに再接続してください。
 
-    ![管理者パスワードを設定](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class = "glboxshadow"}
+    ![管理者パスワードを設定](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class = "glboxshadow"}
 
     初期設定後、ルーターのWeb管理パネルに入ります。
 

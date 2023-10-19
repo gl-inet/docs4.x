@@ -22,31 +22,31 @@ Web管理画面からの設定は、以下の手順で行ってください。
 
 Firmware 4.x has integrated AzireVPN WireGaurd service.
 
-![azirevpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/azirevpn.png){class="glboxshadow"}
+![azirevpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/azirevpn.png){class="glboxshadow"}
 
 1. Input **Username** and **Password**, then click **Save Credentials & Get Servers**. It will generate configuration files for each servers.
 
-    ![azirevpn profiles](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/azirevpn_generated_profiles.png){class="glboxshadow"}
+    ![azirevpn profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/azirevpn_generated_profiles.png){class="glboxshadow"}
 
 2. Go to VPN Dashboard to enable the connection.
 
-    ![vpn dashboard azirevpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_azirevpn.png){class="glboxshadow"}
+    ![vpn dashboard azirevpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/vpn_dashboard_azirevpn.png){class="glboxshadow"}
 
     Once connected, you should see your user IP address and the number of Bytes send/received.
 
-    ![vpn dashboard azirevpn connected](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_azirevpn_connected.png){class="glboxshadow"}
+    ![vpn dashboard azirevpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/vpn_dashboard_azirevpn_connected.png){class="glboxshadow"}
 
 3. Update servers
 
     AzireVPN may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
 
-    ![azirevpn update servers](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/azirevpn_update_servers.png){class="glboxshadow"}
+    ![azirevpn update servers](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/azirevpn_update_servers.png){class="glboxshadow"}
 
 4. Edit credential
 
     Click the cog icon to edit the credential.
 
-    ![azirevpn edit credential](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/azirevpn_edit_credential.png){class="glboxshadow"}
+    ![azirevpn edit credential](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/azirevpn_edit_credential.png){class="glboxshadow"}
 
 ## Setup Mullvad
 
@@ -54,7 +54,7 @@ Firmware 4.x has integrated AzireVPN WireGaurd service.
 
 Firmware 4.x has integrated Mullvad WireGaurd service.
 
-![mullvad vpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/mullvad.png){class="glboxshadow"}
+![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/mullvad.png){class="glboxshadow"}
 
 1. Input **Account**, then click **Save Credentials & Get Servers**.
 
@@ -62,31 +62,31 @@ Firmware 4.x has integrated Mullvad WireGaurd service.
 
     It will pop up a dialog to select a location.
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/mullvad_select_servers.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/mullvad_select_servers.png){class="glboxshadow"}
 
     Then it will generate the configuration files of the selected location server.
     
     The **Public Key** is the WireGuard public key to send to Mullvad server, you can have up to five keys at the same time, you can manage WireGuard keys on [Mullvad's page](https://mullvad.net/en/account/#/ports){target="_blank"}.
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/mullvad_generated_profiles.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/mullvad_generated_profiles.png){class="glboxshadow"}
 
 2. Go to VPN Dashboard to enable the connection.
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_mullvadvpn.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/vpn_dashboard_mullvadvpn.png){class="glboxshadow"}
 
     Once connected, you should see your user IP address and the number of Bytes send/received.
 
-    ![vpn dashboard mullvad connected](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_mullvad_connected.png){class="glboxshadow"}
+    ![vpn dashboard mullvad connected](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/vpn_dashboard_mullvad_connected.png){class="glboxshadow"}
 
 3. Update servers
 
     Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/mullvad_update_servers.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/mullvad_update_servers.png){class="glboxshadow"}
 
 4. Edit credential
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/mullvad_edit_credential.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/mullvad_edit_credential.png){class="glboxshadow"}
 
 ## Setup WireGuard client
 
@@ -94,35 +94,35 @@ As of frimware 4.0, it brings grouping to manage WireGuard profiles.
 
 1. Add a new group
 
-    ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_a_new_group.png){class="glboxshadow"}
+    ![add a new group](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/add_a_new_group.png){class="glboxshadow"}
 
 2. Give the group a descriptive name, e.g. azirevpn.
 
-    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/set_new_group_name.png){class="glboxshadow"}
+    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/set_new_group_name.png){class="glboxshadow"}
 
 3. Upload your WireGuard configuration file, then input the credential, click **Apply**.
 
-    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/upload_profile.png){class="glboxshadow"}
+    ![upload profile](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/upload_profile.png){class="glboxshadow"}
 
-    ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/after_upload_profile.png){class="glboxshadow"}
+    ![after upload profile](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/after_upload_profile.png){class="glboxshadow"}
 
     **Manually Add Configuration** is for if you want to paste the WireGuard configuration or fill in each item.
 
-    ![add wireguard by text](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/manually_add_configuration.png){class="glboxshadow"}
+    ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/manually_add_configuration.png){class="glboxshadow"}
 
     Give a descriptive name and paste the configuration, click **Apply** to continue.
 
-    ![add wireguard by text](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_by_text.png){class="glboxshadow"}
+    ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/add_wg_by_text.png){class="glboxshadow"}
 
     Or you can add configuration by fill in each item, click **Item Mode**.
 
-    ![add wireguard by item mode](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_item_mode_1.png){class="glboxshadow"}
+    ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/add_wg_item_mode_1.png){class="glboxshadow"}
     
-    ![add wireguard by item mode](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/add_wg_item_mode_2.png){class="glboxshadow"}
+    ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/add_wg_item_mode_2.png){class="glboxshadow"}
 
 4. Go to VPN Dashboard to enable the connection.
 
-    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_client/vpn_dashboard_to_connect_azirevpn.png){class="glboxshadow"}
+    ![vpn dashboard page](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/vpn_dashboard_to_connect_azirevpn.png){class="glboxshadow"}
 
 ## Setup WireGuard server on GL.iNet router
 
@@ -138,11 +138,11 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     1. Access [AzireVPN official website](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} and login, then access the [WireGuard Configuration generator](https://www.azirevpn.com/cfg/wireguard){target="_blank"}
 
-        ![azirevpn wireguard configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/azirevpn/azirevpn_wireguard_generator.png){class="glboxshadow"}
+        ![azirevpn wireguard configuration generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/azirevpn/azirevpn_wireguard_generator.png){class="glboxshadow"}
 
     2. At the IP option, please select **IPv4**. Then click **Download Configuration**.
 
-        ![azirevpn wireguard configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/azirevpn/azirevpn_wireguard_generator_ip.png){class="glboxshadow"}
+        ![azirevpn wireguard configuration generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/azirevpn/azirevpn_wireguard_generator_ip.png){class="glboxshadow"}
 
     3. Then follow the [guide](#setup-wireguard-client) to continue.
 
@@ -168,17 +168,17 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     1. Login [www.ovpn.com](https://www.ovpn.com/en?ref=glinet){target="_blank"}, find the menu below to get WireGuard configuration files.
 
-        ![ovpn dashboard](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/ovpn/get_wireguard_configuration_files.jpg){class="glboxshadow"}
+        ![ovpn dashboard](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/ovpn/get_wireguard_configuration_files.jpg){class="glboxshadow"}
 
     2. Click **Generate WireGuard keys**, choose the server you wanted, then download the config.
 
-        ![ovpn generate wireguard keys](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/ovpn/download_wireguard_configuration_files.jpg){class="glboxshadow"}
+        ![ovpn generate wireguard keys](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/ovpn/download_wireguard_configuration_files.jpg){class="glboxshadow"}
 
     3. Open the config by text edit software, copy the content.
 
         The config may contain IPv6 content, as GL.iNet routers is not support IPv6 good enough, so please delete the IPv6 content. I have a example show below, the highlight content is the IPv6 content.
 
-        ![remove wireguard ipv6 content](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/ovpn/remove_wireguard_ipv6_content.jpg){class="glboxshadow"}
+        ![remove wireguard ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/ovpn/remove_wireguard_ipv6_content.jpg){class="glboxshadow"}
     
     4. Then fllow the [guide](#setup-wireguard-client) to continue.
 
@@ -192,15 +192,15 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     1. If you are using [TorGuard](https://torguard.net/aff.php?aff=3040){target="_blank"}, you need to login the control panel and find **Config Generator** from the **Tools** menu. 
 
-        ![torguard enable wireguard access](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/torguard/torguard_menu.jpg){class="glboxshadow"}
+        ![torguard enable wireguard access](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/torguard/torguard_menu.jpg){class="glboxshadow"}
 
     2. On the Config Generator page, choose **VPN Tunnel type** to WireGuard, select **VPN Server**, input **VPN Username** and **VPN Password**, click **Generate Config** button, wait a second, you will find the config on **Config Output** section.
 
-        ![torguard generate wireguard config](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/torguard/torguard_generate_wireguard_config.png){class="glboxshadow"}
+        ![torguard generate wireguard config](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/torguard/torguard_generate_wireguard_config.png){class="glboxshadow"}
 
         You can find the **VPN Username** and **VPN Password** below
 
-        ![torguard vpn username vpn password](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/torguard/torguard_vpnusername_vpnpassword.png){class="glboxshadow"}
+        ![torguard vpn username vpn password](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/torguard/torguard_vpnusername_vpnpassword.png){class="glboxshadow"}
 
     3. Then fllow the [guide](#setup-wireguard-client) to continue.
 
@@ -214,11 +214,11 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     1. If you are using [VPN.AC](https://vpn.ac/aff.php?aff=1424){target="_blank"}, you need to login the control panel and find WireGuard Manager from the "Services" menu.
     
-        ![VPN.AC WireGuard Manager](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/vpnac/vpn.ac_wireguard_manager.jpg){class="glboxshadow"}
+        ![VPN.AC WireGuard Manager](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnac/vpn.ac_wireguard_manager.jpg){class="glboxshadow"}
     
     2. Create the config and download.
     
-        ![VPN.AC create wireguard profiles](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/vpnac/vpn.ac_create_wireguard_profiles.jpg){class="glboxshadow"}
+        ![VPN.AC create wireguard profiles](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnac/vpn.ac_create_wireguard_profiles.jpg){class="glboxshadow"}
 
     3. Then fllow the [guide](#setup-wireguard-client) to continue.
 
@@ -232,7 +232,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
     
     2. Select a location from the drop down menu, click **GENERATE**, open the downloaded text file.
     
-        ![strongvpn wireguard configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/strongvpn/strongvpn_wireguard_configuration_generator.png){class="glboxshadow"}
+        ![strongvpn wireguard configuration generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/strongvpn/strongvpn_wireguard_configuration_generator.png){class="glboxshadow"}
     
     3. Then fllow the [guide](#setup-wireguard-client) to continue.
 
@@ -246,11 +246,11 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     1. Access the Members Area to make a custom config using the Config Generator.
     
-        ![wevpn manual configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/wevpn/wevpn_1.jpg){class="glboxshadow"}
+        ![wevpn manual configuration generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/wevpn/wevpn_1.jpg){class="glboxshadow"}
     
     2. When you select the WireGuard protocol, you will need to select **Add device** for the region selected.
     
-        ![wevpn manual configuration generator](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/wevpn/wevpn_2.jpg){class="glboxshadow"}
+        ![wevpn manual configuration generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/wevpn/wevpn_2.jpg){class="glboxshadow"}
 
     3. Then fllow the [guide](#setup-wireguard-client) to continue.
 
@@ -266,7 +266,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     Login then access the [WireGuard Config Generator](https://windscribe.com/getconfig/wireguard){target="_blank"}. Select location and port you'd like to use, then click Download Config.
 
-    ![windscribe WireGuard Config Generator](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/windscribe/windscribe_01.jpg){class="glboxshadow"}
+    ![windscribe WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/windscribe/windscribe_01.jpg){class="glboxshadow"}
 
     Then fllow the [guide](#setup-wireguard-client) to continue.
 
@@ -278,15 +278,15 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     1. Login then access the [Control panel](https://privatevpn.com/control-panel){target="_blank"}
     
-        ![PrivateVPN Control panel](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/privatevpn/privatevpn_wireguard_1.jpg){class="glboxshadow"}
+        ![PrivateVPN Control panel](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/privatevpn/privatevpn_wireguard_1.jpg){class="glboxshadow"}
     
     2. Select a server
     
-        ![select a server](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/privatevpn/privatevpn_wireguard_2.jpg){class="glboxshadow"}
+        ![select a server](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/privatevpn/privatevpn_wireguard_2.jpg){class="glboxshadow"}
     
     3. Click **GENERATE CONFIG**, then copy the config.
     
-        ![generate config](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/privatevpn/privatevpn_wireguard_3.jpg){class="glboxshadow"}
+        ![generate config](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/privatevpn/privatevpn_wireguard_3.jpg){class="glboxshadow"}
 
     4. Then fllow the [guide](#setup-wireguard-client) to continue.
 
@@ -318,15 +318,15 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     1. If you are using [VPN Unlimited](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}, sign in to your [User Office](https://my.keepsolid.com/){target="_blank"} > select the VPN Unlimited® application > click **Manage**.
     
-        ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/vpnunlimited/01.jpg){class="glboxshadow"}
+        ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnunlimited/01.jpg){class="glboxshadow"}
     
     2. Press the field under **Device** and click **Manually create a new device…** > set it’s custom name, for example WireGuard > choose appropriate location of the **Server** > select the **WireGuard**® protocol from the dropdown menu > click **Generate**.
     
-        ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/vpnunlimited/02.jpg){class="glboxshadow"}
+        ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnunlimited/02.jpg){class="glboxshadow"}
     
     3. The configuration parameters will then appear below in the text format.
     
-        ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/vpnunlimited/03.jpg){class="glboxshadow"}
+        ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnunlimited/03.jpg){class="glboxshadow"}
 
         Combine the configuration as below.
 
@@ -420,11 +420,11 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
         Log into the StarVPN member area [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. Click on Wireguard Config to download the configuration file. Each slot will contain a unique wireguard configuration file.
 
-        ![starvpn download wireguard config](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/starvpn/download-config_edited.jpg){class="glboxshadow"}
+        ![starvpn download wireguard config](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/download-config_edited.jpg){class="glboxshadow"}
 
     3. The config may contain IPv6 content, as GL.iNet routers is not support IPv6 good enough, so please delete the IPv6 content.
 
-        ![startvpn wireguard configuration remove ipv6 content](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/starvpn/starvpn_wireguard_configuration_remove_ipv6.jpg){class="glboxshadow"}
+        ![startvpn wireguard configuration remove ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/starvpn_wireguard_configuration_remove_ipv6.jpg){class="glboxshadow"}
 
     4. Then fllow the [guide](#setup-wireguard-client) to continue.
 
@@ -438,10 +438,10 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     1. Login [www.spidervpn.org](https://spidervpn.org/#a_aid=5ddfa0372e7ff), find the section to get your VPN configuration. Follow the steps to get the configuration.
 
-        ![get spider vpn configuration](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/spidervpn/spidervpn_config_1.jpg){class="glboxshadow"}
+        ![get spider vpn configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/spidervpn/spidervpn_config_1.jpg){class="glboxshadow"}
 
     2. Download the vpn configuration
 
-        ![download spider vpn configuration](https://static.gl-inet.com/docs/en/3/tutorials/wireguard_client/spidervpn/spidervpn_config_2.jpg){class="glboxshadow"}
+        ![download spider vpn configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/spidervpn/spidervpn_config_2.jpg){class="glboxshadow"}
 
     3. Then fllow the [guide](#setup-wireguard-client) to continue.

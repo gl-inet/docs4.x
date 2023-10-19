@@ -69,7 +69,7 @@ DIYをしたり、間違ったファームウェアをフラッシュした場�
 
         5. **サブネット マスク** を`255.255.255.0`に設定します。
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/en/2.x/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2.x/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
 
         6.  **OK** ボタンをクリックします。
 
@@ -81,21 +81,21 @@ DIYをしたり、間違ったファームウェアをフラッシュした場�
 
         3.  **イーサネット** タブをクリックします。
 
-            ![windows 11 ethernet](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
+            ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
         4. "IP設定"セクションで、**編集**ボタンをクリックします。
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
         5.  **マニュアル** を選択します。
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
         6. **IPv4トグル** スイッチをオンにします。
 
         7. 静的 **IPアドレス**を**192.168.1.2**に設定します。
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
         8. **サブネットマスク** を **255.255.255.0**と指定します。
 
@@ -112,7 +112,7 @@ DIYをしたり、間違ったファームウェアをフラッシュした場�
 
 5. ブラウザで**http://192.168.1.1**にアクセスしてください。これはUbootのWeb UIです。
 
-    ![Uboot web ui](https://static.gl-inet.com/docs/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
+    ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
     **注意:** Uboot のバージョンは製造日によって異なるため、上記の Uboot Web UI は実際に表示されているものとまったく同じではない場合があります。 場合によっては、Uboot のバージョンをアップグレードすることをお勧めします。 以下のチュートリアルを参照してください。
 
@@ -122,7 +122,7 @@ DIYをしたり、間違ったファームウェアをフラッシュした場�
 
         たとえば、次の図は、古い Uboot バージョンの GL-AR750S の Web UI を示しています。 [ファイルを選択] ボタンが 2 つあるため、ユーザーが混乱する可能性があります。
 
-        ![gl-ar750s old Uboot version](https://static.gl-inet.com/docs/en/4/tutorials/debrick/gl-ar750s_firmware_update_page_of_old_uboot_version.png){class="glboxshadow" width="700"}
+        ![gl-ar750s old Uboot version](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/gl-ar750s_firmware_update_page_of_old_uboot_version.png){class="glboxshadow" width="700"}
 
         1. 事前に [こちら](https://github.com/gl-inet/uboot-for-qca95xx/tree/master/bin){target="_blank"} からUbootファイルをダウンロードしておく必要があります。
 
@@ -130,7 +130,7 @@ DIYをしたり、間違ったファームウェアをフラッシュした場�
 
         3. ブラウザで**http://192.168.1.1/uboot.html**にアクセスしてください。
 
-            ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
+            ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 
         4. **ファイルを選択する** ボタンをクリックし、先ほどダウンロードしたUbootファイルを選択します。
 

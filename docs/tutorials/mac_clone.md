@@ -6,4 +6,4 @@ MACクローンは、パブリックホットスポットに接続するが、�
 
 現在のクライアントのMACまたはランダムなMACにクローンを作成できます。
 
-![mac clone](https://static.gl-inet.com/docs/en/4/tutorials/mac_clone/mac_clone.png){class="glboxshadow"}
+![mac clone](https://static.gl-inet.com/docs/router/en/4/tutorials/mac_clone/mac_clone.png){class="glboxshadow"}

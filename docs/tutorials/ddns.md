@@ -4,7 +4,7 @@
 
 ウェブ管理画面の左側 -> APPLICATIONS -> 動的 DNS
 
-![ddns](https://static.gl-inet.com/docs/en/4/tutorials/ddns/ddns.png){class="glboxshadow"}.
+![ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ddns.png){class="glboxshadow"}.
 　　　　　　　　　　　　　　
 ## DDNSを有効にする
 
@@ -12,7 +12,7 @@
 
 DDNSの更新頻度は、10分に1回です。
 
-![enable ddns](https://static.gl-inet.com/docs/en/4/tutorials/ddns/enable_ddns.png){class="glboxshadow"}.
+![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/enable_ddns.png){class="glboxshadow"}.
 
 ## DDNSが有効かどうかの確認
 
@@ -20,11 +20,11 @@ DDNSの更新頻度は、10分に1回です。
 
    **DDNSテスト**をクリックします。
 
-    ![ddns test](https://static.gl-inet.com/docs/en/4/tutorials/ddns/click_ddns_test.png){class="glboxshadow"} と表示される。
+    ![ddns test](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/click_ddns_test.png){class="glboxshadow"} と表示される。
 
     以下のように、**Your DDNS is resolved as x.x.x.x** と表示されれば、DDNSが動作していることになります。言い換えれば、この**ホスト**名は、インターネットアクセスのためのルータの最終的な出口IPにマップされています。
 
-    ![DDNSが動作した](https://static.gl-inet.com/docs/en/4/tutorials/ddns/ddns_test_resolved.png){class="glboxshadow"}。 
+    ![DDNSが動作した](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ddns_test_resolved.png){class="glboxshadow"}。 
  ==="または手動で確認する"
 
     以下の2つのIPアドレスが同じかどうかを確認し、Yesの場合はDDNSが有効であり、そうでない場合は無効です。
@@ -33,7 +33,7 @@ DDNSの更新頻度は、10分に1回です。
 
         `nslookup zw72cd7.glddns.com 8.8.8.8` を指定します。
 
-        ![nslookup](https://static.gl-inet.com/docs/en/4/tutorials/ddns/nslookup.png){class="glboxshadow"}となります。
+        ![nslookup](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/nslookup.png){class="glboxshadow"}となります。
 
         上記の出力は、Host NameがIPアドレスにマップされたことを意味します。
 
@@ -45,7 +45,7 @@ DDNSの更新頻度は、10分に1回です。
 
 ルーターがNATの内側にある場合、上位のルーターでポートフォワーディングを設定する必要があるかもしれません。この場合、**80**番ポートを使用します。
 
-![HTTP-Remote-Access](https://static.gl-inet.com/docs/en/4/tutorials/ddns/http_remote_access.png){class="glboxshadow"}.
+![HTTP-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/http_remote_access.png){class="glboxshadow"}.
 
 上記の手順で、HTTPリモートアクセスを有効にしてください。
 
@@ -59,7 +59,7 @@ HTTPリモートアクセスを有効にすると、DDNSのホスト名を**http
 
 ルーターがNATの内側にある場合、上位のルーターでポートフォワーディングを設定する必要がある場合があります。この場合、**443**番ポートを使用します。
 
-![HTTPSリモートアクセス](https://static.gl-inet.com/docs/en/4/tutorials/ddns/https_remote_access.png){class="glboxshadow"}を使用します。
+![HTTPSリモートアクセス](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access.png){class="glboxshadow"}を使用します。
 
 HTTPSリモートアクセスを有効にすると、DDNSのホスト名を**https**にすることで、どこでも管理画面にアクセスできるようになります（例：`https://xxxxxxx.glddns.com`）。ポートフォワーディングを使用している場合は、「https://xxxxxxx.glddns.com:YourExternalPort」のようにアクセスします。
 
@@ -67,11 +67,11 @@ HTTPSリモートアクセスを有効にすると、DDNSのホスト名を**htt
 
 クロームを開き、アドレスバーにURLを入力します。ここでは例として`https://zw72cd7.glddns.com:8001`を使用します。下部の**Advanced**をクリックして続行します。
 
-![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/en/4/tutorials/ddns/https_remote_access_android_chrome_1.png){class="glboxshadow" width="400"} をクリックします。
+![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_1.png){class="glboxshadow" width="400"} をクリックします。
 
 **Processed to xxxxxxx.glddns.com (unsafe)** をクリックし、次に進みます。
 
-![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/en/4/tutorials/ddns/https_remote_access_android_chrome_2.png){class="glboxshadow" width="400"} をクリックし、次へ進みます。
+![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_2.png){class="glboxshadow" width="400"} をクリックし、次へ進みます。
 
 その後、Web Admin Panelにアクセスします。
 
@@ -83,7 +83,7 @@ HTTPSリモートアクセスを有効にすると、DDNSのホスト名を**htt
 
 ルーターがNATの内側にある場合、上位のルーターでポートフォワーディングを設定する必要があるかもしれません。この場合、**22**番ポートを使用します。
 
-![SSH-Remote-Access](https://static.gl-inet.com/docs/en/4/tutorials/ddns/ssh_remote_access.png){class="glboxshadow"}.
+![SSH-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ssh_remote_access.png){class="glboxshadow"}.
 
 上記の手順で、SSHリモートアクセスを有効にすると、どこからでもルーターにsshでアクセスできるようになります。
 

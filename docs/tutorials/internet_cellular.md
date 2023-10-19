@@ -12,19 +12,19 @@
 
      *不適合モデム*の警告は無視してください。
 
-    ![usb modem auto setup](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/usb_modem_auto_setup.png){class="glboxshadow"}
+    ![usb modem auto setup](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/usb_modem_auto_setup.png){class="glboxshadow"}
 
 3. 接続
 
     **注意:** 一部のSIMカードは、特別なAPNを使用する必要があるなど、特別な使用制限がある場合があります。SIMカードが登録できない場合、特別な制限がある場合は、ネットワークオペレータにご相談ください。
 
-    ![usb modem connecting](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/usb_modem_connecting.png){class="glboxshadow"}
+    ![usb modem connecting](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/usb_modem_connecting.png){class="glboxshadow"}
 
 4.  しばらくすると、接続されます。それ以外の場合は、[マニュアルセットアップ]（#manual-setup）を試してください。
 
     usbモデムをルーターに接続して2回目に電源を入れると、通常は自動的に認識され、接続が確立されます。信号、モデム名、IMEIなどの情報を取得できない場合があります。
 
-    ![usb modem connected](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/usb_modem_connected.png){class="glboxshadow"}
+    ![usb modem connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/usb_modem_connected.png){class="glboxshadow"}
 
 ---
 
@@ -32,7 +32,7 @@
 
 自動セットアップ**がうまくいかない場合もありますので、**手動セットアップ**を試してみてください。
 
-![4g modem manual setup](https://static.gl-inet.com/docs/en/4/tutorials/internet_cellular/cellular_settings.png){class="glboxshadow"}
+![4g modem manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/cellular_settings.png){class="glboxshadow"}
 
 ---
 

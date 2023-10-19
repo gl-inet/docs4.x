@@ -10,7 +10,7 @@ GL-AXT1800の例を次に示します。
 
 **注：**一部のモデルはWDSモードをサポートしていません。
 
-![network mode](https://static.gl-inet.com/docs/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
+![network mode](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
 
 - ルーター。 独自のプライベートネットワークを作成します。 ルーターは、NAT、ファイアウォール、DHCPサーバーとして機能します。 これがデフォルトのモードです。
 

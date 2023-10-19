@@ -198,7 +198,7 @@ Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping.md) tut
 
 Formerly known as [Hardware Acceleration](../../interface_guide/hardware_acceleration.md).
 
-Please visit the [**Hardware Acceleration**](../../interface_guide/hardware_acceleration.md) tutorial.
+Please visit the [**Network Acceleration**](../../interface_guide/network_acceleration.md) tutorial.
 
 ---
 

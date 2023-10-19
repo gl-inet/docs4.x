@@ -2,8 +2,6 @@
 
 On the left side of web Admin Panel -> SYSTEM -> Upgrade
 
-![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/upgrade.png){class="glboxshadow"}
-
 ## Online Upgrade
 
 You can find the current firmware version here. If your router is connected to the Internet, it will check for the newer firmware version available for download.

@@ -2,9 +2,9 @@
 
 On the left side of web Admin Panel -> NETWORK -> LAN
 
-## Private Network
+## LAN
 
-The **Private Network** is the network if your devices connect to the Main WiFi or connect via an ethernet cable.
+The LAN is the network if your devices connect to the Main WiFi or connect via an ethernet cable.
 
 The **Router IP Address** is **192.168.8.1** by default. You can change it if it conflicts with your network.
 

@@ -213,7 +213,7 @@ Please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md)
 
 ### Admin Password
 
-This feature has been moved to [Security](../../interface_guide/security.md) since v4.5.
+This feature has been moved to [**Security**](../../interface_guide/security.md) since v4.5.
 
 Please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
 

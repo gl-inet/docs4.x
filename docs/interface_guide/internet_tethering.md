@@ -8,11 +8,11 @@ Using a USB cable to share network from your smartphone to the router is called 
 
     1. Connect iPhone to the USB port of the router. It will pop up a message asking to trust this computer? Click "Trust" to contine. Because we are connecting the iPhone to the router, so here is to TRUST the router.
 
-        ![trust this computer](https://static.gl-inet.com/docs/en/3/setup/share/internet/tethering/iphone_trust_this_computer.png){class="glboxshadow"}
+        ![trust this computer](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_trust_this_computer.png){class="glboxshadow"}
 
     2. Go to iPhone -> Settings -> Personal Hotspot -> Turn on Allow Others to Join.
 
-        ![turn on allow others to join](https://static.gl-inet.com/docs/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow"}
+        ![turn on allow others to join](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow"}
 
     3. Use a computer or another phone, connect to the router, then go to web Admin Panel, on the left side bar, choose "INTERNET" and click "Connect" in the middle of the page.
 
@@ -20,7 +20,7 @@ Using a USB cable to share network from your smartphone to the router is called 
 
     4. It will show connected information on the top of your phone screen and the web Admin Panel once you connect successfully.
 
-        ![tethering](https://static.gl-inet.com/docs/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow"}
+        ![tethering](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow"}
 
         Tethering connected on web Admin Panel.
 

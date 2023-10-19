@@ -1,6 +1,6 @@
 # Guest Network
 
-The **guest network** has been separated from the **LAN** since V4.5,On the left side of web Admin Panel -> NETWORK -> Guest Network.
+The **guest network** has been separated from the **LAN** since V4.5, On the left side of web Admin Panel -> NETWORK -> Guest Network.
 
 **Note**: Some models do not have WiFi (e.g. GL-MT2500/GL-MT2500A), so there is no Guest Network tab.
 
@@ -10,9 +10,9 @@ The **Defautl Gate Way** is **192.168.9.1**, If you have enable the Guest WiFi a
 
 The other basic setting and the DHCP server setting are the same as [LAN](lan.md).
 
-![guest_simple_set](https://static.gl-inet.com/docs/en/4/interface_guide/guest_network/guest_simple_set.jpg){class="glboxshadow"}
+![guest_simple_set](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_simple_set.jpg){class="glboxshadow"}
 
-![guest_dhcp_simple_set](https://static.gl-inet.com/docs/en/4/interface_guide/guest_network/guest_dhcp_simple_set.jpg){class="glboxshadow"}
+![guest_dhcp_simple_set](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_dhcp_simple_set.jpg){class="glboxshadow"}
 
 
 ---

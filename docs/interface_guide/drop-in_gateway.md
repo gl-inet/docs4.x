@@ -15,7 +15,7 @@ For users who do not want to replace their main router, you can use this mode to
 
 ## Network Typology
 
-![drop-in gateway mode typology](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_mode_topology.svg){class="glboxshadow gl-60-desktop"}
+![drop-in gateway mode typology](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/drop-in_gateway_mode_topology.svg){class="glboxshadow gl-60-desktop"}
 
 The diagram above has two colored lines, gray lines, and green lines with 3 arrows on the green lines, and a number next to each arrow.
 
@@ -35,7 +35,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
 2. Access web Admin Panel of GL.iNet router, enable Drop-in Gateway feature, it will generate the settings automatically.
 
-    ![drop-in gateway generated settings](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_enabled.png){class="glboxshadow"}
+    ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/drop-in_gateway_enabled.png){class="glboxshadow"}
 
     The **IP Address** is same of the IP address in [Ethernet sector of Internet page](internet_ethernet.md). The **Gateway** and **DNS Server 1** are the IP address of the main router. If these items are not set correctly, you can change them manually yourself.
 
@@ -49,11 +49,11 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         Access web Admin Panel -> NETWORK -> LAN -> Advanced
 
-        ![glinet lan advanced](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/glinet/lan_advanced.png){class="glboxshadow"}
+        ![glinet lan advanced](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/lan_advanced.png){class="glboxshadow"}
 
         Fill in the DHCP Gateway as the IP Address in step 2, then click **Apply**.
 
-        ![glinet lan, dhcp gateway](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/glinet/lan_dhcp_gateway.png){class="glboxshadow"}
+        ![glinet lan, dhcp gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/lan_dhcp_gateway.png){class="glboxshadow"}
 
     ??? "TP-Link"
 
@@ -61,11 +61,11 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         Access TP-Link's admin page. At the tab of **Advanced** -> **Network** -> **DHCP Server**, disable the **DHCP**.
 
-        ![tplink admin, disable dhcp](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/tplink/tplink_disable_dhcp_1.png){class="glboxshadow"}
+        ![tplink admin, disable dhcp](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/tplink/tplink_disable_dhcp_1.png){class="glboxshadow"}
 
         Then click **Save**.
 
-        ![tplink admin, disable dhcp](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/tplink/tplink_disable_dhcp_2.png){class="glboxshadow"}
+        ![tplink admin, disable dhcp](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/tplink/tplink_disable_dhcp_2.png){class="glboxshadow"}
 
     ??? "Linksys"
 
@@ -73,15 +73,15 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         Access Linksys's admin page.
 
-        ![linksys admin, connectivity](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/linksys/linksys_connectivity.png){class="glboxshadow"}
+        ![linksys admin, connectivity](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/linksys/linksys_connectivity.png){class="glboxshadow"}
 
         At the tab of **Local Network**, disable the **DHCP Server**, then click **OK**.
 
-        ![linksys admin, local network, disable dhcp](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/linksys/linksys_disable_dhcp.png){class="glboxshadow"}
+        ![linksys admin, local network, disable dhcp](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/linksys/linksys_disable_dhcp.png){class="glboxshadow"}
 
         It will show a warning, click **OK**.
 
-        ![linksys admin, apply changes](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/linksys/linksys_apply_changes.png){class="glboxshadow"}
+        ![linksys admin, apply changes](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/linksys/linksys_apply_changes.png){class="glboxshadow"}
 
     ??? "Others"
 
@@ -95,7 +95,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
 2. Access web Admin Panel of GL.iNet router, enable Drop-in Gateway feature, it will generate the settings automatically.
 
-    ![drop-in gateway generated settings](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/drop-in_gateway_enabled.png){class="glboxshadow"}
+    ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/drop-in_gateway_enabled.png){class="glboxshadow"}
 
     The **IP Address** is same of the IP address in [Ethernet sector of Internet page](internet_ethernet.md). The **Gateway** and **DNS Server 1** are the IP address of the main router. If these items are not set correctly, you can change them manually yourself.
 
@@ -113,17 +113,17 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         3. Click the **Ethernet** tab.
 
-            ![windows 11 ethernet](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/windows/windwos11_ethernet.png){class="glboxshadow"}
+            ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/windows/windwos11_ethernet.png){class="glboxshadow"}
 
         4. You will find the IP address of this PC. Under the "IP assignment" section, click the **Edit** button.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/windows/windwos11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/windows/windwos11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
         5. Select the **Manual** option. Turn on the **IPv4 toggle** switch.
 
         6. Set the **IP address** as the IP address you see in step d, **Subnet mask** set as `255.255.255.0`, both **Gateway** and **Preferred DNS** set as the IP address in Drop-in Gateway page.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/windows/windwos11_ethernet_edit_ip_settings.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/windows/windwos11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
         7. Click the **Save** button.
 
@@ -133,29 +133,29 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         1. Open Settings, click on Connections.
 
-            ![settings connections](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/android/settings_connections.jpg){class="glboxshadow"}
+            ![settings connections](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/android/settings_connections.jpg){class="glboxshadow"}
 
         2. Click on Wi-Fi.
 
-            ![connection wifi](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/android/connections_wifi.jpg){class="glboxshadow"}
+            ![connection wifi](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/android/connections_wifi.jpg){class="glboxshadow"}
 
         3. Click the cog icon of current SSID.
 
-            ![wifi setting](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/android/wifi_cog.jpg){class="glboxshadow"}
+            ![wifi setting](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/android/wifi_cog.jpg){class="glboxshadow"}
 
         4. Click **View more**.
 
-            ![wifi settings, view more](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/android/wifi_view_more.jpg){class="glboxshadow"}
+            ![wifi settings, view more](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/android/wifi_view_more.jpg){class="glboxshadow"}
 
         5. Click **IP settings**, choose **Static**.
 
-            ![ip settings](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/android/wifi_ip_settings.jpg){class="glboxshadow"}
+            ![ip settings](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/android/wifi_ip_settings.jpg){class="glboxshadow"}
 
-            ![IP settings, static](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/android/ip_settings_static.jpg){class="glboxshadow"}
+            ![IP settings, static](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/android/ip_settings_static.jpg){class="glboxshadow"}
 
         6. Set the **Gateway** and **DNS 1** as the IP address in Drop-in Gateway page, then click **Save**.
 
-            ![set gateway and dns ip](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/android/set_gateway.jpg){class="glboxshadow"}
+            ![set gateway and dns ip](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/android/set_gateway.jpg){class="glboxshadow"}
 
     ??? "iOS"
 
@@ -163,25 +163,25 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         1. Open Settings, click Wi-Fi.
 
-            ![settings wifi](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/iphone/setting_wifi.jpg){class="glboxshadow gl-60-desktop"}
+            ![settings wifi](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/setting_wifi.jpg){class="glboxshadow gl-60-desktop"}
 
         2. Click the SSID.
 
-            ![settings wifi](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/iphone/wifi_list.jpg){class="glboxshadow gl-60-desktop"}
+            ![settings wifi](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/wifi_list.jpg){class="glboxshadow gl-60-desktop"}
 
         3. Scroll down, you will find the **Configure IP** is **Automatic**, please write dwon **IP Address** and **Subnet Mask**, you will need it at next step.
 
-            ![wifi ipv4](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/iphone/ipv4.jpg){class="glboxshadow gl-60-desktop"}
+            ![wifi ipv4](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/ipv4.jpg){class="glboxshadow gl-60-desktop"}
 
         4. Change **Configure IP** to **Manual**, set the **IP Address** and **Subnet Mask** same as you see in previous step, and set the **Router** as the IP address in Drop-in Gateway page, then click **Save**.
 
-            ![wifi ipv4 manual](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/iphone/set_ipv4.jpg){class="glboxshadow gl-60-desktop"}
+            ![wifi ipv4 manual](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/set_ipv4.jpg){class="glboxshadow gl-60-desktop"}
 
         5. Click **Configure DNS**, change it to **Manual**. Click **Add Server**, set the server IP address as the IP address in Drop-in Gateway page, then click **Save**.
 
-            ![wifi dns](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/iphone/dns.jpg){class="glboxshadow gl-60-desktop"}
+            ![wifi dns](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/dns.jpg){class="glboxshadow gl-60-desktop"}
 
-            ![wifi set dns](https://static.gl-inet.com/docs/en/4/tutorials/drop-in_gateway/iphone/set_dns.jpg){class="glboxshadow gl-60-desktop"}
+            ![wifi set dns](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/set_dns.jpg){class="glboxshadow gl-60-desktop"}
 
 4. Go back to the GL.iNet router and set up features like [ADGuard Home](adguardhome.md), [encypted DNS](dns.md), [WireGaurd Client](wireguard_client.md) and [OpenVPN Client](openvpn_client.md).
 

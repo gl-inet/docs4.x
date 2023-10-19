@@ -6,7 +6,7 @@ Puli AX (GL-XE3000) is the ultimate Wi-Fi 6 5G Cellular Router that takes your i
 
 It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
 
-![xe3000_interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
+![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
 [GL-XE3000 specification](https://www.gl-inet.com/products/gl-xe3000/#specs){target="_blank"}
 
@@ -22,7 +22,7 @@ Please note that the adapter within the package depends on your shipping country
 
 What's inside the package?
 
-![xe3000_unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
+![xe3000_unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
@@ -48,7 +48,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/internet/xe3000_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -56,7 +56,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/internet/xe3000_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -64,7 +64,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/internet/xe3000_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -74,7 +74,7 @@ It supports "Dual SIM, Single Standby", which means it can hold two SIM cards fo
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/internet/xe3000_celluar.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_celluar.png){class="glboxshadow"}
 
 ### Priority and load balance
 

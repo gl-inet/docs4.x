@@ -8,7 +8,7 @@ It is recommended to click the **Update** button before use.
 
 The following figure shows the Plug-ins page of GL-AXT1800.
 
-![Plug-ins](https://static.gl-inet.com/docs/en/4/tutorials/plug-ins/plug-ins.png){class="glboxshadow"}
+![Plug-ins](https://static.gl-inet.com/docs/router/en/4/tutorials/plug-ins/plug-ins.png){class="glboxshadow"}
 
 ---
 

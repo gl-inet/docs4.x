@@ -16,7 +16,7 @@ Using a USB cable to share network from your smartphone to the router is called 
 
     3. Use a computer or another phone, connect to the router, then go to web Admin Panel, on the left side bar, choose "INTERNET" and click "Connect" in the middle of the page.
 
-        ![tethering connect](https://static.gl-inet.com/docs/en/4/tutorials/internet_tethering/tethering_find_device.png){class="glboxshadow"}
+        ![tethering connect](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/tethering_find_device.png){class="glboxshadow"}
 
     4. It will show connected information on the top of your phone screen and the web Admin Panel once you connect successfully.
 
@@ -24,7 +24,7 @@ Using a USB cable to share network from your smartphone to the router is called 
 
         Tethering connected on web Admin Panel.
 
-        ![tethering](https://static.gl-inet.com/docs/en/4/tutorials/internet_tethering/tethering_connected.png){class="glboxshadow"}
+        ![tethering](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/tethering_connected.png){class="glboxshadow"}
 
     If the connection fails, please turn off and turn on **Allow Others to Join** for a few times.
 

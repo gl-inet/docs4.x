@@ -32,7 +32,7 @@ Suitable for GL-AX1800, GL-MT1300, GL-SFT1200, GL-B1300, GL-AR750S.
 
     **Note:** 4.x firmware is not compatible with 3.x firmware. When you upgrade from 3.x firmware, please do **NOT** keep settings.
 
-    ![local upgrade](https://static.gl-inet.com/docs/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
+    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
 ### Method 2
 

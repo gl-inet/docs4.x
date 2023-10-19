@@ -4,7 +4,7 @@
 
 GL-X300B (Collie) is an industrial cellular gateway designed to operate under high temperatures and scenarios with potential physical hazards. There are two versions of Collie, designed to operate in indoor stationary facilities, or in transportation vehicles. Collie is perfect for machine-to-machine communications between electrical devices in high electrical noise environments.
 
-![gl-x300b interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
+![gl-x300b interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
 
 [GL-X300B specification](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
 
@@ -12,8 +12,8 @@ GL-X300B (Collie) is an industrial cellular gateway designed to operate under hi
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
-      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg" itemprop="thumbnail" alt="gl-x300b pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
+      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg" itemprop="thumbnail" alt="gl-x300b pinout" loading="lazy" />
     </a>
   </figure>
 </div>
@@ -30,7 +30,7 @@ What's inside the package?
 
 **Note**: The image below is an example of GL-X300B-GPS, with some models slightly different.
 
-![gl-x300b unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-x300b/first_time_setup/x300b-gps_unboxing.jpg){class="glboxshadow"}
+![gl-x300b unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/first_time_setup/x300b-gps_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
@@ -57,7 +57,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x300b/internet/x300b_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -65,7 +65,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x300b/internet/x300b_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_repeater.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -73,7 +73,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-x300b/internet/x300b_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 

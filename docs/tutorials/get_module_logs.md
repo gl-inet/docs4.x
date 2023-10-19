@@ -24,7 +24,7 @@ cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/qlog-ar9531-sha25
 chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 ```
 
-![Get Qlog](https://static.gl-inet.com/docs/en/4/tutorials/get_module_logs/ar9531_get_qlog.png){class="glboxshadow"}
+![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_get_qlog.png){class="glboxshadow"}
 
 ### Use the qlog
 
@@ -32,7 +32,7 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 
     My USB flash disk mount path is `/tmp/mountd/disk1_part1`
 
-    ![U Flash Drive Path](https://static.gl-inet.com/docs/en/4/tutorials/get_module_logs/ar9531_u_flash_drive_path.png){class="glboxshadow"}
+    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_u_flash_drive_path.png){class="glboxshadow"}
 
 2. Use the following command to open module debug mode
 
@@ -60,11 +60,11 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
     killall qlog*
     ```
 
-    ![Start And Stop Qlog](https://static.gl-inet.com/docs/en/4/tutorials/get_module_logs/ar9531_start_and_stop_qlog.png){class="glboxshadow"}
+    ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_start_and_stop_qlog.png){class="glboxshadow"}
 
 6. You will find a directory in the USB flash disk, there are some files, these files are qlog get data and need use Quectel tool to decode, so please send these files to GL.iNet or Quectel technical support.
 
-    ![Qlogs Files](https://static.gl-inet.com/docs/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
+    ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
 ## For GL-X3000/GL-XE3000
 
@@ -80,7 +80,7 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
     chmod 775 qlog-mtk7981a-sha256-78dda4  && sha256sum qlog-mtk7981a-sha256-78dda4
     ```
 
-    ![Get Qlog](https://static.gl-inet.com/docs/en/4/tutorials/get_module_logs/mtk7981a_get_qlog.png){class="glboxshadow"}
+    ![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_get_qlog.png){class="glboxshadow"}
 
 2. Use the following command to start qlog
 
@@ -94,11 +94,11 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
     killall qlog*
     ```
 
-    ![Start And Stop Qlog](https://static.gl-inet.com/docs/en/4/tutorials/get_module_logs/mtk7981a_start_and_stop_qlog.png){class="glboxshadow"}
+    ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_start_and_stop_qlog.png){class="glboxshadow"}
 
 4. You will find a directory in /tmp/, there are some files, these files are qlog get data and need use Quectel tool to decode, so please send these files to GL.iNet or Quectel technical support.
 
-    ![Qlogs Files](https://static.gl-inet.com/docs/en/4/tutorials/get_module_logs/mtk7981a_qlogs_files.png){class="glboxshadow"}
+    ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_qlogs_files.png){class="glboxshadow"}
 
 ---
 

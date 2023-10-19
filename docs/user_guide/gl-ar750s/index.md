@@ -4,7 +4,7 @@
 
 The first dual-band Gigabit AC travel router. We upgrade Ethernet ports (totally 3) to Gigabit ports so that it get faster speed in your travel. We also added 128MB Flash to provide dual flash for more storage and faster operation speed. It has a MicroSD (TF) slot which increase your storage space up to 128GB.
 
-![gl-ar750sinterface](https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/hardware_info/ar750s_interface.jpg){class="glboxshadow"}
+![gl-ar750sinterface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/hardware_info/ar750s_interface.jpg){class="glboxshadow"}
 
 [GL-AR750S specification](https://www.gl-inet.com/products/gl-ar750s/#specs){target="_blank"}
 
@@ -12,8 +12,8 @@ The first dual-band Gigabit AC travel router. We upgrade Ethernet ports (totally
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/hardware_info/gl-ar750s_pinout.jpg" itemprop="contentUrl" data-size="1150x1175">
-      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/hardware_info/gl-ar750s_pinout.jpg" itemprop="thumbnail" alt="GL-AR750S-EXT pcb pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/hardware_info/gl-ar750s_pinout.jpg" itemprop="contentUrl" data-size="1150x1175">
+      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/hardware_info/gl-ar750s_pinout.jpg" itemprop="thumbnail" alt="GL-AR750S-EXT pcb pinout" loading="lazy" />
     </a>
   </figure>
 </div>
@@ -28,7 +28,7 @@ Please note that the adapter within the package depends on your shipping country
 
 What's inside the package?
 
-![gl-750s unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/first_time_setup/ar750s_unboxing.jpg){class="glboxshadow"}
+![gl-750s unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/first_time_setup/ar750s_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
@@ -57,7 +57,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/internet/ar750s_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -65,7 +65,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/internet/ar750s_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -73,7 +73,7 @@ Establish internet access with connected devices by sharing a smartphone's mobil
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/internet/ar750s_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -81,7 +81,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-ar750s/internet/ar750s_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 

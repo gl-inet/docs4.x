@@ -31,7 +31,7 @@ On the left side of web Admin Panel -> APPLICATIONS -> Parental Control
 
 Make sure the time on your router is correct, otherwise, go to Time Zone and synchronize the time first.
 
-![parental control, router time](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/parental_control_time.png){class="glboxshadow"}
+![parental control, router time](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/parental_control_time.png){class="glboxshadow"}
 
 Let's take two typical cases as examples here, and you can make adjustments to suit your situation.
 
@@ -41,7 +41,7 @@ In the first use case, we will set up the device to be unable to access the inte
 
 We will create two rulesets, **learning** and **play**, then set the learning time from Monday to Friday from 8am to 11am, 6pm to 8pm of weekend is the play time.
 
-![parental control, enable](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/parental_control_enable.png){class="glboxshadow"}
+![parental control, enable](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/parental_control_enable.png){class="glboxshadow"}
 
 **Block WAN for Unmanaged Devices** is used to block unmanaged devices from accessing the Internet.
 
@@ -49,21 +49,21 @@ The first time, it will have a setup wizard.
 
 Give the profile a name.
 
-![create a profile guide](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_create_profile_1.png){class="glboxshadow"}
+![create a profile guide](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/guide/guide_create_profile_1.png){class="glboxshadow"}
 
 Select the devices you want to manage, or manually add device by input their MAC address.
 
-![create a profile guide](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_create_profile_2.png){class="glboxshadow"}
+![create a profile guide](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/guide/guide_create_profile_2.png){class="glboxshadow"}
 
 You should first connect these devices to the router, otherwise you will need to enter the MAC address manually.
 
 The default ruleset of access is **Block Internet Access**. We create two rulesets here, which we will use later. Click **Add a New Ruleset**.
 
-![create a profile guide](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_create_profile_3.png){class="glboxshadow"}
+![create a profile guide](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/guide/guide_create_profile_3.png){class="glboxshadow"}
 
 Specify the ruleset name, color, and a list of sites to block.
 
-![create a ruleset guide](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_create_ruleset_4.png){class="glboxshadow"}
+![create a ruleset guide](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/guide/guide_create_ruleset_4.png){class="glboxshadow"}
 
 The domain names entered in the blocklist include their subdomains. For example, if "example.com" is entered, it also includes any subdomain, such as "subdomain.example.com".
 
@@ -71,47 +71,47 @@ In addition to entering domain names, there are also specific syntax options ava
 
 Similarly, create another ruleset.
 
-![create a ruleset guide](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_create_ruleset_5.png){class="glboxshadow"}
+![create a ruleset guide](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/guide/guide_create_ruleset_5.png){class="glboxshadow"}
 
 At this point, there will be a total of 4 rulesets. Choose **Block Internet Access**.
 
-![create a profile guide](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_create_profile_6.png){class="glboxshadow"}
+![create a profile guide](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/guide/guide_create_profile_6.png){class="glboxshadow"}
 
 Then go to Set Schedule. Click **Go to Set**.
 
-![set schedule](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_schedule_7.png){class="glboxshadow"}
+![set schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/guide/guide_schedule_7.png){class="glboxshadow"}
 
 It is assumed that 8am to 11am Monday through Friday is the study time, and the ruleset here is **Learning**. Click **Apply**.
 
-![set schedule](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_schedule_8.png){class="glboxshadow"}
+![set schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/guide/guide_schedule_8.png){class="glboxshadow"}
 
 You will be taken to the edit page of the newly created profile.
 
-![modify profile](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/modify_profile.png){class="glboxshadow"}
+![modify profile](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/modify_profile.png){class="glboxshadow"}
 
 It has created a schedule. Click **Add Schedule** 
 
-![schedule](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/schedules_1.png){class="glboxshadow"}
+![schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/schedules_1.png){class="glboxshadow"}
 
 Specify the ruleset name, color, and a list of sites to block.
 
-![add a schedule](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/create_schedule_2.png){class="glboxshadow"}
+![add a schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/create_schedule_2.png){class="glboxshadow"}
 
 After creation, the Schedules are shown below.
 
-![schedules](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/schedules_2.png){class="glboxshadow"}
+![schedules](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/schedules_2.png){class="glboxshadow"}
 
 Click on the purple and green parts of the image above, and you can also modify it.
 
-![edit schedule](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/schedule_edit.png){class="glboxshadow"}
+![edit schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/schedule_edit.png){class="glboxshadow"}
 
 As shown below, click Parental Control at the top to return to the Parental Control page.
 
-![back to parental control page](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/back_to_parental_control_page.png){class="glboxshadow"}
+![back to parental control page](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/back_to_parental_control_page.png){class="glboxshadow"}
 
 The image below shows the final configuration. You can modify existing profiles and rulesets, or add profiles and rulesets, as you see fit.
 
-![parental control, finally](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/parental_control_finally.png){class="glboxshadow"}
+![parental control, finally](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/parental_control_finally.png){class="glboxshadow"}
 
 ### Case 2
 

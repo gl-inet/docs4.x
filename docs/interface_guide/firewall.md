@@ -12,11 +12,11 @@ Port Forwarding lets remote computers to connect to a local computer or server b
 
 To set up port forwarding, on the **Port Forwards** tab click **Add**.
 
-![firewall page](https://static.gl-inet.com/docs/en/4/tutorials/firewall/firewall.png){class="glboxshadow"}
+![firewall page](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/firewall.png){class="glboxshadow"}
 
 It will pop up **Add New Port Forward Rule** dialog.
 
-![add new port forward rule](https://static.gl-inet.com/docs/en/4/tutorials/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
+![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
 
 **Name:** The name of the rule.
 
@@ -42,9 +42,9 @@ The router's services, such as web and FTP, requires their respective ports to b
 
 To open a port, click **Add**.
 
-![open Ports on router](https://static.gl-inet.com/docs/en/4/tutorials/firewall/open_ports_on_router.png){class="glboxshadow"}
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/open_ports_on_router.png){class="glboxshadow"}
 
-![open Ports on router](https://static.gl-inet.com/docs/en/4/tutorials/firewall/add_new_open_port.png){class="glboxshadow"}
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/add_new_open_port.png){class="glboxshadow"}
 
 **Name:** The name of the rule which can be specified by the user.
 
@@ -62,7 +62,7 @@ DMZ lets you to expose one computer to the Internet, so all inbound packets will
 
 Toggle on **Enable DMZ**. Select the internal IP address of your device which is going to receive all the inbound packets.
 
-![Port Forwards](https://static.gl-inet.com/docs/en/4/tutorials/firewall/dmz.png){class="glboxshadow"}
+![Port Forwards](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/dmz.png){class="glboxshadow"}
 
 ---
 

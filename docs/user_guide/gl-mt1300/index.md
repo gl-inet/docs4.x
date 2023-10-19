@@ -4,7 +4,7 @@
 
 Beryl (GL-MT1300) is a high-performance next generation pocket-sized router that offers a powerful hardware and first-class cybersecurity protocol with unique and modern design. Beryl is the new era of travel router, an advanced version of our best-seller, Slate (GL-AR750S).
 
-![gl-mt1300 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt1300/hardware_info/mt1300_interface.jpg){class="glboxshadow"}
+![gl-mt1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/hardware_info/mt1300_interface.jpg){class="glboxshadow"}
 
 [GL-MT1300 specification](https://www.gl-inet.com/products/gl-mt1300/#specs){target="_blank"}
 
@@ -26,7 +26,7 @@ Please note that the adapter within the package depends on your shipping country
 
 What's inside the package?
 
-![gl-mt1300 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
+![gl-mt1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
@@ -53,7 +53,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt1300/internet/mt1300_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -61,7 +61,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt1300/internet/mt1300_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -69,7 +69,7 @@ Establish internet access with connected devices by sharing a smartphone's mobil
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt1300/internet/mt1300_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -77,7 +77,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt1300/internet/mt1300_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 

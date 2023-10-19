@@ -49,17 +49,17 @@ There is a video guide.
 
     Choose a language, and click **Next** to continue.
 
-    ![Admin Panel](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel_first_time_login.png){class="glboxshadow"}
+    ![Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/admin_panel_first_time_login.png){class="glboxshadow"}
 
     Set up admin password, we recommend using a strong password. Click **Submit** to continue.
 
     **Note**: Wi-Fi may turn off during the initialization, please make sure to reconnect to the router.
 
-    ![set up admin password](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class="glboxshadow"}
+    ![set up admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class="glboxshadow"}
 
     After the initial setup, you will enter the web Admin Panel of the router.
 
-    ![admin panel of gl-axt1800](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel_gl-axt1800.png){class="glboxshadow"}
+    ![admin panel of gl-axt1800](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/admin_panel_gl-axt1800.png){class="glboxshadow"}
 
 4. Connect to the Internet
 
@@ -100,15 +100,15 @@ Here is an example of GL-MT2500A (Brume 2).
 
     Choose a language, and click **Next** to continue.
 
-    ![Admin Panel](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel_first_time_login_gl-mt2500.png){class="glboxshadow"}
+    ![Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/admin_panel_first_time_login_gl-mt2500.png){class="glboxshadow"}
 
     Set up admin password, we recommend using a strong password. Click **Submit** to continue.
 
-    ![set up admin password](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/set_up_your_admin_password_gl-mt2500.png){class="glboxshadow"}
+    ![set up admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/set_up_your_admin_password_gl-mt2500.png){class="glboxshadow"}
 
     After the initial setup, you will enter the web Admin Panel of the router.
 
-    ![admin panel of gl-mt2500](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/admin_panel_gl-mt2500.png){class="glboxshadow"}
+    ![admin panel of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/admin_panel_gl-mt2500.png){class="glboxshadow"}
 
 4. Connect to the Internet
 

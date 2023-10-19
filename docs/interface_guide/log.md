@@ -4,7 +4,7 @@ On the left side of web Admin Panel -> SYSTEM -> Log.
 
 The Log page allows you to view logs of System, Kernel, Crash, Cloud for analysis and troubleshooting.
 
-![log page](https://static.gl-inet.com/docs/en/4/tutorials/log/log_system.png){class="glboxshadow"}
+![log page](https://static.gl-inet.com/docs/router/en/4/tutorials/log/log_system.png){class="glboxshadow"}
 
 Click **Refresh** to get the latest log information.
 

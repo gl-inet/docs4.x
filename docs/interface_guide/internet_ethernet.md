@@ -4,7 +4,7 @@ To access the Internet, it can connect the WAN port of router to the modem or th
 
 On the left side of web Admin Panel -> INTERNET, Ethernet sector.
 
-![ethernet dhcp](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_dhcp.png){class="glboxshadow"}
+![ethernet dhcp](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_ethernet/ethernet_dhcp.png){class="glboxshadow"}
 
 **Note**: Before plugging the Ethernet cable into the WAN port of the router, you can click **Change to LAN** to [set the WAN port as a LAN port](../faq/change_wan_to_lan.md). That is useful when you are using the router as a [repeater](internet_repeater.md). As a result, you can have one more LAN port.
 
@@ -20,7 +20,7 @@ There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
 
     Static is required if your Internet Service Provider (ISP) has provided a fixed IP address for you or you want to configure the network information such as IP address, Gateway, Netmask manually.
 
-    ![ethernet static](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_static.png){class="glboxshadow"}
+    ![ethernet static](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_ethernet/ethernet_static.png){class="glboxshadow"}
 
 * PPPoE
 
@@ -28,7 +28,7 @@ There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
 
     **VLAN ID**: This settings entry is only required if the provider's PPPoE server requires the interface to use a tagged specific VLAN ID.
 
-    ![ethernet pppoe](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_pppoe.png){class="glboxshadow gl-90-desktop"}
+    ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_ethernet/ethernet_pppoe.png){class="glboxshadow gl-90-desktop"}
 
 ## Warning
 
@@ -36,7 +36,7 @@ When Internet access is not available, the corresponding warning is displayed. T
 
 - Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
 
-    ![ethernet wrning](https://static.gl-inet.com/docs/en/4/tutorials/internet_ethernet/ethernet_warning.png){class="glboxshadow gl-90-desktop"}
+    ![ethernet wrning](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_ethernet/ethernet_warning.png){class="glboxshadow gl-90-desktop"}
 
     Solution: Please check if the upstream device of Ethernet has internet access.
 

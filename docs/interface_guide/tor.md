@@ -38,11 +38,11 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 
 Just toggle to enable it, then click **Apply** button. You can also choose a **Custom Exit Nodes**.
 
-![gl.inet Tor](https://static.gl-inet.com/docs/en/4/tutorials/tor/tor.png){class="glboxshadow"}
+![gl.inet Tor](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/tor.png){class="glboxshadow"}
 
 Wait a while, depending on your network, and it will show connected.
 
-![gl.inet Tor connected](https://static.gl-inet.com/docs/en/4/tutorials/tor/tor_connected.png){class="glboxshadow"}
+![gl.inet Tor connected](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/tor_connected.png){class="glboxshadow"}
 
 ## Manual install
 
@@ -50,9 +50,9 @@ Wait a while, depending on your network, and it will show connected.
 
 Search **gl-sdk4-ui-torview**, and install.
 
-![torview](https://static.gl-inet.com/docs/en/4/tutorials/tor/torview.jpg){class="glboxshadow"}
+![torview](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/torview.jpg){class="glboxshadow"}
 
-![torpage](https://static.gl-inet.com/docs/en/4/tutorials/tor/torpage.jpg){class="glboxshadow"}
+![torpage](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/torpage.jpg){class="glboxshadow"}
 
 ---
 

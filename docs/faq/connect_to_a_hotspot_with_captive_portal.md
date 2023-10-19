@@ -38,21 +38,21 @@ However, you may find that you are unable to enter the captive portal, so you ca
 
 1. Go to web Admin Panel -> NETWORK -> DNS. Then, make sure the **DNS Rebinding Attack Protection** is disable and the **Mode** is **Automatic**.
 
-    ![dns rebinding attack protection](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="580"}
+    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="580"}
 
 2. Go to web Admin Panel -> VPN -> VPN Dashboard. Make sure the connection of OpenVPN and WireGuard client is disable.
 
-    ![vpn client is disable](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="572"}
+    ![vpn client is disable](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="572"}
 
 3. Go to web Admin Panel -> APPLICATIONS -> AdGuard Home. Make sure the AdGuard Home is stopped.
 
-    ![adguard home is stopped](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
+    ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
 
 4. Use your web browser to visit a webpage, it will be redirected to the captive portal of the hotspot automatically.
 
     If you are using smartphone but your web browser doesn't redirect to the captive portal. Please turn off the Wi-Fi of your smartphone and then turn it on and reconnect to the Wi-Fi of your router again. The captive portal should be popped up directly after you entered the Wi-Fi password.
 
-    ![connected](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
+    ![connected](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
 
 ---
 
@@ -64,7 +64,7 @@ Sometimes, [Solution 1](#solution-1-change-dns-settings) is not enough to solve 
 
 2. Make sure your phone is connected to the hotel WiFi. Find the MAC address that your phone uses to connect to the hotel's WiFi. Here is an example for iPhone (iOS 16.1.2), go to settings -> Wi-Fi -> Select the hotel WiFi. You will find the Wi-Fi Address, write down this address.
 
-    ![iphone wifi private address](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
+    ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
 
     For some old phones, the MAC address is not found there in WiFi, then it uses the real MAC address of the phone. This can be found in the phone's **Settings** -> **About** where you can find the phone's MAC address.
 
@@ -72,7 +72,7 @@ Sometimes, [Solution 1](#solution-1-change-dns-settings) is not enough to solve 
 
     Select Manual Mode, fill in the MAC address you wrote down in step 2 into the input box and click Apply.
 
-    ![MAC manual](https://static.gl-inet.com/docs/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
+    ![MAC manual](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
 
 4. It may need to reboot the router to take effect.
 

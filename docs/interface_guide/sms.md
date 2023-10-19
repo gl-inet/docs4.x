@@ -20,15 +20,15 @@ Please refer to [this link](internet_cellular.md) to set up the SIM card first.
 
 On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
-![sms](https://static.gl-inet.com/docs/en/4/tutorials/sms/sms.png){class="glboxshadow"}
+![sms](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms.png){class="glboxshadow"}
 
-![sms receive](https://static.gl-inet.com/docs/en/4/tutorials/sms/sms_receive.png){class="glboxshadow"}
+![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.png){class="glboxshadow"}
 
-![sms detail](https://static.gl-inet.com/docs/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
+![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
 
 Click on the **Send Message** button in the upper right corner.
 
-![sms new message](https://static.gl-inet.com/docs/en/4/tutorials/sms/sms_new_message.png){class="glboxshadow"}
+![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message.png){class="glboxshadow"}
 
 * Recepient
 

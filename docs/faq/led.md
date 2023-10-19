@@ -2,7 +2,7 @@
 
 ## GL-AXT1800
 
-![gl-axt1800 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){target="_blank"}
+![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){target="_blank"}
 
 - Solid blue: System boot up
 - Flashing white: Searching network
@@ -10,7 +10,7 @@
 
 ## GL-A1300
 
-![GL-A1300 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){target="_blank"}
+![GL-A1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){target="_blank"}
 
 - Solid blue: System boot up
 - Flashing white: Searching network
@@ -18,7 +18,7 @@
 
 ## GL-MT2500/GL-MT2500A
 
-![gl-mt2500 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){target="_blank"}
+![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){target="_blank"}
 
 * System
 	* Blue: system booting
@@ -29,7 +29,7 @@
 
 ## GL-MT3000
 
-![gl-mt3000 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_interface.jpg){target="_blank"}
+![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_interface.jpg){target="_blank"}
 
 - Solid blue: System boot up
 - Flashing white: Searching network
@@ -37,7 +37,7 @@
 
 ## GL-XE3000
 
-![xe-3000led](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe3000/hardware_info/xe3000led.jpg){target="_blank"}
+![xe-3000led](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000led.jpg){target="_blank"}
 
 * Power
 	* Green: power on

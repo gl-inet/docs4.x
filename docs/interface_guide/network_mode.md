@@ -12,7 +12,7 @@ Here is an example of GL-AXT1800.
 
 **Note:** some models do not support WDS mode.
 
-![network mode](https://static.gl-inet.com/docs/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
+![network mode](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
 
 - **Router**. Create your own private network. The router will act as NAT, firewall and DHCP server. This is the default mode.
 
@@ -26,7 +26,7 @@ Here is an example of GL-AXT1800.
 
 Here is an example of GL-MT2500/GL-MT2500A. It doesn't have Access Point, Extender, WDS, modes, but it has Bridge mode.
 
-![network mode of gl-mt2500](https://static.gl-inet.com/docs/en/4/tutorials/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
+![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
 
 - **Router**. Create your own private network. The router will act as NAT, firewall and DHCP server. This is the default mode.
 

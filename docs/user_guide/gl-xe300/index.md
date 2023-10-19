@@ -4,7 +4,7 @@
 
 GL-XE300 (Puli) is a portable 4G smart router that is perfect for home, business and IoT solution. With its OpenWrt supported feature and large storage compatibility, it is designed for you to develop DIY IoT project. It also comes with a rechargeable battery, so you can bring it anywhere with you!
 
-![gl-xe300 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_interface.jpg){class="glboxshadow"}
+![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_interface.jpg){class="glboxshadow"}
 
 [GL-XE300 specification](https://www.gl-inet.com/products/gl-xe300/#specs){target="_blank"}
 
@@ -12,8 +12,8 @@ GL-XE300 (Puli) is a portable 4G smart router that is perfect for home, business
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
-      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg" itemprop="thumbnail" alt="gl-xe300 pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
+      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg" itemprop="thumbnail" alt="gl-xe300 pinout" loading="lazy" />
     </a>
   </figure>
 </div>
@@ -28,7 +28,7 @@ Please note that the adapter within the package depends on your shipping country
 
 What's inside the package?
 
-![gl-xe300 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/first_time_setup/xe300_unboxing.jpg){class="glboxshadow"}
+![gl-xe300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/first_time_setup/xe300_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
@@ -57,7 +57,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/internet/xe300_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -65,7 +65,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/internet/xe300_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -73,7 +73,7 @@ Establish internet access with connected devices by sharing a smartphone's mobil
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/internet/xe300_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -81,7 +81,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-xe300/internet/xe300_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 

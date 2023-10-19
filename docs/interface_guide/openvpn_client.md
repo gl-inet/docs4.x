@@ -14,7 +14,7 @@ On the left side -> VPN -> OpenVPN Client
 
 You can log in by clicking the **NordVPN** button if you have a NordVPN membership, or by clicking **Add Manually** to upload the OpenVPN profiles.
 
-![openvpn client no initialized](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/openvpn_client_no_initialized.png){class="glboxshadow"}
+![openvpn client no initialized](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/openvpn_client_no_initialized.png){class="glboxshadow"}
 
 ## Set Up NordVPN
 
@@ -22,47 +22,47 @@ You can log in by clicking the **NordVPN** button if you have a NordVPN membersh
 
 1. Login your NordVPN web account and get your **service credentials**
 
-    ![nordacc](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordacc.jpg){class="glboxshadow"}
+    ![nordacc](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordacc.jpg){class="glboxshadow"}
 
     After login to Nord dashboard, click NordVPN on the left side, then click **Set up NordVPN manually**.
 
-    ![nordlogin](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordlogin.jpg){class="glboxshadow"}
+    ![nordlogin](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordlogin.jpg){class="glboxshadow"}
 
     Then you will find the service credentials.
 
-    ![nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordvpn_service_credentials.png){class="glboxshadow"}
+    ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn_service_credentials.png){class="glboxshadow"}
 
 2. Input your NordVPN account's **service credentials** you got in step 1 (Note: It is **NOT** the login account email/password), then click **Save Credentials & Get Servers**
    
-    ![input nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/input_nordvpn_credential.png){class="glboxshadow"}
+    ![input nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/input_nordvpn_credential.png){class="glboxshadow"}
 
 3. Select protocol, max server count of each location, locations, then click **Apply**.
 
-    ![select nordvpn servers](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/select_nordvpn_servers.png){class="glboxshadow"}
+    ![select nordvpn servers](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/select_nordvpn_servers.png){class="glboxshadow"}
 
     It will download configuration files.
 
-    ![downloaded configuration files](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/downloaded_configs.png){class="glboxshadow"}
+    ![downloaded configuration files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/downloaded_configs.png){class="glboxshadow"}
 
 4. Go to VPN Dashboard to enable the connection.
 
-    ![vpn dashboard page](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpn_dashboard_to_connect.png){class="glboxshadow"}
+    ![vpn dashboard page](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/vpn_dashboard_to_connect.png){class="glboxshadow"}
 
     Toggle the switch to enable the connection.
 
-    ![openvpn connected](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/openvpn_connected.png){class="glboxshadow"}
+    ![openvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/openvpn_connected.png){class="glboxshadow"}
 
 5. Update servers
 
     NordVPN may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
 
-    ![update servers](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/update_servers.png){class="glboxshadow"}
+    ![update servers](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/update_servers.png){class="glboxshadow"}
 
 6. Edit credential
 
     Click the cog icon to edit the credential.
 
-    ![edit credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/edit_credential.png){class="glboxshadow"}
+    ![edit credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/edit_credential.png){class="glboxshadow"}
 
 ## Set Up OpenVPN Client
 
@@ -72,29 +72,29 @@ Next steps, we will use ExpressVPN as an example.
 
 1. Click **Add Manually**.
 
-    ![add manually](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/openvpn_client_add_manually.png){class="glboxshadow"}
+    ![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/openvpn_client_add_manually.png){class="glboxshadow"}
 
 2. It will create a group.
 
-    ![add a new group](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/add_a_new_group.png){class="glboxshadow"}
+    ![add a new group](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/add_a_new_group.png){class="glboxshadow"}
 
 3. Give the group a descriptive name, e.g. expressvpn.
 
-    ![set the new group name](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/set_new_group_name.png){class="glboxshadow"}
+    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/set_new_group_name.png){class="glboxshadow"}
 
 4. Upload your OpenVPN configuration file, then input the credential, click **Apply**.
 
-    ![upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/upload_profile_1.png){class="glboxshadow"}
+    ![upload profile](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/upload_profile_1.png){class="glboxshadow"}
 
-    ![after upload profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/after_upload_profile.png){class="glboxshadow"}
+    ![after upload profile](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/after_upload_profile.png){class="glboxshadow"}
 
 5. Click the three dots icon to start / delete the profile.
 
-    ![start the profile](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/start_the_profile.png){class="glboxshadow"}
+    ![start the profile](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/start_the_profile.png){class="glboxshadow"}
 
 6. Check the connection status by go to [VPN Dashboard](vpn_dashboard.md) page.
 
-    ![vpn dashboard page, openvpn status](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/vpn_dashboard_openvpn_status.png){class="glboxshadow"}
+    ![vpn dashboard page, openvpn status](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/vpn_dashboard_openvpn_status.png){class="glboxshadow"}
 
 ## Set Up OpenVPN Server on GL.iNet Router
 
@@ -119,15 +119,15 @@ Recommended:
 
         Login the [Official Website](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"}, go to the Nord Account dashboard, where you will find the service credentials.
 
-        ![nordacc](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordacc.jpg){class="glboxshadow"}
+        ![nordacc](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordacc.jpg){class="glboxshadow"}
 
         After login to Nord dashboard, click NordVPN on the left side, then click **Set up NordVPN manually**.
 
-        ![nordlogin](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordlogin.jpg){class="glboxshadow"}
+        ![nordlogin](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordlogin.jpg){class="glboxshadow"}
 
         Then you will find the service credentials.
 
-        ![nordvpn service credential](https://static.gl-inet.com/docs/en/4/tutorials/openvpn_client/nordvpn_service_credentials.png){class="glboxshadow"}
+        ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn_service_credentials.png){class="glboxshadow"}
 
     2. **Choose a NordVPN server**
 

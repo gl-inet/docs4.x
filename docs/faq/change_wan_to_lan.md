@@ -8,17 +8,17 @@ You can configure the WAN port of the router so that it can be used as a LAN por
 
 3. Go to **Internet**, it display the WAN port is **Using as WAN** in Ethernet section, click **Change to LAN** to change it as LAN.
 
-	![internet page](https://static.gl-inet.com/docs/en/4/tutorials/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
+	![internet page](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
 
 4. Click **Apply** to confirm.
 
-	![caution change wan as lan](https://static.gl-inet.com/docs/en/4/tutorials/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
+	![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
 
   **Note**: Wi-Fi may turn off during the process, please make sure to reconnect to the router.
 
 5. Then it display `Using as LAN`.
 
-	![using as lan](https://static.gl-inet.com/docs/en/4/tutorials/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
+	![using as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
 
 You can simply revert the setting by repeating the above procedures.
 

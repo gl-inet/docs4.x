@@ -24,37 +24,37 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
 1. Click **Generate Configuration** (Only the first time).
 
-    ![wireguard server generate configuration](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_generate_configuration.png){class="glboxshadow"}
+    ![wireguard server generate configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_generate_configuration.png){class="glboxshadow"}
 
 2. Apply the configuration
 
     The default configuration works for most cases. If you found the IPv4 address conflict with your upper router's gateway, click the **Apply** button after modification. You can modify it as **10.1.0.1/24** 
 
-    ![wireguard server apply configuration](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_apply_configuration.png){class="glboxshadow"}
+    ![wireguard server apply configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_apply_configuration.png){class="glboxshadow"}
 
-    ![xfinitygateway](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
+    ![xfinitygateway](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
     For **Set Key Manually**.
 
-    ![wireguard server set key manually](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_set_key_manually.png){class="glboxshadow"}
+    ![wireguard server set key manually](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_set_key_manually.png){class="glboxshadow"}
 
 3. Add a profile
 
     Switch to **Profiles** tab, generate a profile for your device by click the **Add** button.
 
-    ![wireguard server profiles](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_profiles.png){class="glboxshadow"}
+    ![wireguard server profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_profiles.png){class="glboxshadow"}
 
     Enter a descriptive name.
 
-    ![wireguard server profile setting](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_profile_setting.png){class="glboxshadow"}
+    ![wireguard server profile setting](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_profile_setting.png){class="glboxshadow"}
     
     **Set More** is for advanced settings.
 
-    ![wireguard server profile advanced setting](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wireguard_server_profile_setting_more.png){class="glboxshadow"}
+    ![wireguard server profile advanced setting](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_profile_setting_more.png){class="glboxshadow"}
 
     Click **Apply** to continue. It will generate a profile.
     
-    ![download wireguard client configuration](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/download_wireguard_client_configuration.png){class="glboxshadow"}
+    ![download wireguard client configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/download_wireguard_client_configuration.png){class="glboxshadow"}
 
     If your network's public IP changes from time to time, you can enable [DDNS](ddns.md), then using DDNS domain in the configuration.
 
@@ -64,13 +64,13 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
     Click the **Start** button in the upper right corner to start WireGuard server. Go to VPN Dashboard page to check its status and other settings.
 
-    ![start wireguard server](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/start_wireguard_server.png){class="glboxshadow"}
+    ![start wireguard server](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/start_wireguard_server.png){class="glboxshadow"}
 
 ### To check if WireGuard Server is working properly
 
 Many people mis-understandstool once they saw the server is up and think it is connected. The server can be up even you forward a wrong port or wrong address.
 
-![wgconnected](https://static.gl-inet.com/docs/en/4/tutorials/wireguard_server/wgconnected.jpg){class="glboxshadow"}
+![wgconnected](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wgconnected.jpg){class="glboxshadow"}
 
 To check if WireGaurd Server is working properly, we can use another device connected to another network and use the WireGuard configuration we exported earlier to connect and see whether it connects properly and whether the IP address is the IP of WireGuard Server.
 

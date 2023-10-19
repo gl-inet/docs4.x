@@ -24,7 +24,7 @@ Convexa-B (GL-B1300) is a remarkable product in order to satisfy the wireless In
 
 All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
 
-![gl-b1300 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-b1300/first_time_setup/b1300_unboxing.jpg){class="glboxshadow"}
+![gl-b1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b1300/first_time_setup/b1300_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 

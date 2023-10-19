@@ -6,7 +6,7 @@ On the left side of web Admin Panel -> VPN -> VPN Dashboard.
 
 In the **VPN Client** section, click **Global Options**, toggle on **Block Non-VPN Traffic**, then click **Apply** button.
 
-![vpn client global options](https://static.gl-inet.com/docs/en/4/tutorials/block_no_vpn_traffic/global_options.png){class="glboxshadow"}
+![vpn client global options](https://static.gl-inet.com/docs/router/en/4/tutorials/block_no_vpn_traffic/global_options.png){class="glboxshadow"}
 
 **Note:** It need to run the VPN Client, otherwise it can't access the Internet.
 

@@ -4,7 +4,7 @@
 
 Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 600Mbps (2.4GHz) + 1200Mbps (5GHz). Its VPN encryption speed goes up to 667Mbps and can be used to host VPN servers. Flint is perfect for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming.
 
-![gl-ax1800 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
+![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
 
 ---
 
@@ -18,8 +18,8 @@ Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 6
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
-      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="thumbnail" alt="gl-ax1800 pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
+      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="thumbnail" alt="gl-ax1800 pinout" loading="lazy" />
     </a>
   </figure>
 </div>
@@ -34,7 +34,7 @@ Please note that the adapter within the package depends on your shipping country
 
 What’s inside the package?
 
-![gl-ax1800 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
+![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
@@ -63,7 +63,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -71,7 +71,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/internet/ax1800_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -79,7 +79,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/internet/ax1800_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -87,7 +87,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-ax1800/internet/ax1800_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 

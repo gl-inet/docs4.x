@@ -16,7 +16,7 @@ GL-X3000(Spitz AX), GL-MT2500(Brume 2), GL-MT3000(Beryl AX), GL-MT2500A(Brume 2)
 
 On the left side of web Admin Panel -> NETWORK -> Hardware Acceleration.
 
-![Hardware Acceleration](https://static.gl-inet.com/docs/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
+![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
 
 ---
 

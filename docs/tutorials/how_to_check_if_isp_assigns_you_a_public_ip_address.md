@@ -24,7 +24,7 @@ Check the two IP addresses below to see if they are the same, otherwise you don'
 
 We use GL.iNet router as the main router, if you found WAN IP address is same as the `IP Address` on the Internet page run on Google before, then **42xxxxx** is your Public IP.
 
-![is public ip address](https://static.gl-inet.com/docs/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/is_public_ip_address.png){class="glboxshadow"}
+![is public ip address](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/is_public_ip_address.png){class="glboxshadow"}
 
 ---
 

@@ -12,11 +12,11 @@ GL.iNet routers have up to 4 interfaces, but this varies depending on the model.
 
 The router will use the ping or httping command to track the status of the connection to the destination IP to determine if the interface is available. If the interface is available, it will show as a green dot at the begining, otherwise it is gray.
 
-![multi-wan interface status tracking method](https://static.gl-inet.com/docs/en/4/tutorials/multi-wan/interface_status_tracking_method.png){class="glboxshadow"}
+![multi-wan interface status tracking method](https://static.gl-inet.com/docs/router/en/4/tutorials/multi-wan/interface_status_tracking_method.png){class="glboxshadow"}
 
 The setting of Interface Status Tracking Method
 
-![multi-wan interface status tracking method setting](https://static.gl-inet.com/docs/en/4/tutorials/multi-wan/interface_status_tracking_method_setting.png){class="glboxshadow gl-90-desktop"}
+![multi-wan interface status tracking method setting](https://static.gl-inet.com/docs/router/en/4/tutorials/multi-wan/interface_status_tracking_method_setting.png){class="glboxshadow gl-90-desktop"}
 
 You can disable the interface status tracking, the router will use the physical status of the interface (such as whether the network cable is plugged in or not).
 
@@ -26,7 +26,7 @@ There are two methods, **Failover** and **Load Balance**. **Failover** and **Loa
 
 ### Failover
 
-![multi-wan failover](https://static.gl-inet.com/docs/en/4/tutorials/multi-wan/multi-wan_mode_failover.png){class="glboxshadow gl-90-desktop"}
+![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/tutorials/multi-wan/multi-wan_mode_failover.png){class="glboxshadow gl-90-desktop"}
 
 You can set the priority of each interface, when the interface being used fails, the router will automatically switch to another available highest priority interface.
 
@@ -40,7 +40,7 @@ The system will assign interfaces to new connections based on the load ratio. Th
 
 **Note:** Alive connections or traffic are not ensured to match the load ratio. It is closer to this ratio if it has been used for a longer time.
 
-![multi-wan load balance](https://static.gl-inet.com/docs/en/4/tutorials/multi-wan/multi-wan_mode_load_balance.png){class="glboxshadow gl-90-desktop"}
+![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/tutorials/multi-wan/multi-wan_mode_load_balance.png){class="glboxshadow gl-90-desktop"}
 
 ## Usage Scenarios
 

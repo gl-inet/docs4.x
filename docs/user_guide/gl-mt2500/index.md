@@ -4,7 +4,7 @@
 
 GL-MT2500/GL-MT2500A(Brume 2) is a lightweight and powerful VPN Gateway that runs on OpenWrt v21.02 operating system. It is compactly designed to host a VPN server at home, or run SD-WAN (Site-to-Site) for small and medium-sized enterprises.
 
-![gl-mt2500 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
+![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
 [GL-MT2500/GL-MT2500A specification](https://www.gl-inet.com/products/gl-mt2500/#specs){target="_blank"}
 
@@ -14,8 +14,8 @@ GL-MT2500/GL-MT2500A(Brume 2) is a lightweight and powerful VPN Gateway that run
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/hardware_info/gl-mt2500a_pinout.jpg" itemprop="contentUrl" data-size="1500x1313">
-      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/hardware_info/gl-mt2500a_pinout.jpg" itemprop="thumbnail" alt="gl-mt2500 pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/gl-mt2500a_pinout.jpg" itemprop="contentUrl" data-size="1500x1313">
+      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/gl-mt2500a_pinout.jpg" itemprop="thumbnail" alt="gl-mt2500 pinout" loading="lazy" />
     </a>
   </figure>
 </div>
@@ -30,7 +30,7 @@ Please note that the adapter within the package depends on your shipping country
 
 What’s inside the package? (The following figure shows the GL-MT2500A as an example.)
 
-![gl-mt2500 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
+![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
@@ -58,7 +58,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -66,7 +66,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
 
 ### Cellular
 
@@ -74,7 +74,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 

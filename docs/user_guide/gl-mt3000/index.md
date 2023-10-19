@@ -4,7 +4,7 @@
 
 Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi 6 protocol. It is an upgraded version of Beryl (GL-MT1300), it runs on MT7981B 1.3GHz dual-core processor, offering more than double the total Wi-Fi speed. It is designed to support families with heavy Wi-Fi usage, and it's also compactly designed for travel use.
 
-![gl-mt3000 interface](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_interface.jpg){class="glboxshadow"}
+![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_interface.jpg){class="glboxshadow"}
 
 ---
 
@@ -20,8 +20,8 @@ Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_pinout.jpg" itemprop="contentUrl" data-size="1200x1200">
-      <img src="https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_pinout.jpg" itemprop="thumbnail" alt="gl-mt3000 pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_pinout.jpg" itemprop="contentUrl" data-size="1200x1200">
+      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_pinout.jpg" itemprop="thumbnail" alt="gl-mt3000 pinout" loading="lazy" />
     </a>
   </figure>
 </div>
@@ -36,7 +36,7 @@ Please note that the adapter within the package depends on your shipping country
 
 What's inside the package?
 
-![gl-MT3000 unboxing](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
+![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
@@ -65,7 +65,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/internet/mt3000_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -73,7 +73,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/internet/mt3000_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -81,7 +81,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/internet/mt3000_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -89,7 +89,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/en/4/user_guide/gl-mt3000/internet/mt3000_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 

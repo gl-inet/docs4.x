@@ -8,17 +8,17 @@ On this page, you can find the router's default MAC address, clone a client's MA
 
 * The factory default MAC address.
 
-    ![default mac address](https://static.gl-inet.com/docs/en/4/tutorials/mac_address/mac_address_1.png){class="glboxshadow"}
+    ![default mac address](https://static.gl-inet.com/docs/router/en/4/tutorials/mac_address/mac_address_1.png){class="glboxshadow"}
 
 * Clone a client's MAC address.
 
-    ![clone mac address](https://static.gl-inet.com/docs/en/4/tutorials/mac_address/mac_address_2.png){class="glboxshadow"}
+    ![clone mac address](https://static.gl-inet.com/docs/router/en/4/tutorials/mac_address/mac_address_2.png){class="glboxshadow"}
 
     **Note:** Many new devices now use a different random MAC address to connect to different WiFi, so the MAC address shown here may not be the actual MAC address of the user's device. The randomized MAC may also be called a Private Wi-Fi Address or a random hardware address on different devices. 
 
 * Manual input or generate a random MAC address.
 
-    ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/en/4/tutorials/mac_address/mac_address_3.png){class="glboxshadow"}
+    ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/router/en/4/tutorials/mac_address/mac_address_3.png){class="glboxshadow"}
 
 ## Usage Scenarios
 

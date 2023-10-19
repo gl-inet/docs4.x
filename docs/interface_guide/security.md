@@ -1,5 +1,7 @@
 # Security
 
+This feature is available since v4.5.
+
 On the left side of web Admin Panel -> SYSTEM -> Security
 
 ## Admin Password
@@ -113,8 +115,6 @@ The list of port numbers prohibited by the browser is as follows:
 | 6669,   // Alternate IRC [Apple addition]           |
 | 6697,   // IRC + TLS                                |
 | 10080,  // Amanda                                   |
-
-
 
 ## Remote Access Control
 

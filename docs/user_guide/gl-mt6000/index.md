@@ -252,6 +252,12 @@ Please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
 
 Please visit the [**Log**](../../interface_guide/log.md) tutorial.
 
+### Security
+
+This feature is available since v4.5.
+
+Please visit the [**Security**](../../interface_guide/security.md) tutorial.
+
 <!-- TODO -->
 <!-- ### Security -->
 

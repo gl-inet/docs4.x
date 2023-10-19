@@ -207,7 +207,7 @@ Please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md)
 
 ### Admin Password
 
-This feature has been moved to [Security](../../interface_guide/security.md) since v4.3.
+This feature has been moved to [Security](../../interface_guide/security.md) since v4.5.
 
 Please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
 
@@ -222,6 +222,12 @@ Please visit the [**Toggle Button Settings**](../../interface_guide/toggle_butto
 ### Log
 
 Please visit the [**Log**](../../interface_guide/log.md) tutorial.
+
+### Security
+
+This feature is available since v4.5.
+
+Please visit the [**Security**](../../interface_guide/security.md) tutorial.
 
 ### Reset Firmware
 

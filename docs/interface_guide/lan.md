@@ -4,7 +4,7 @@ On the left side of web Admin Panel -> NETWORK -> LAN
 
 **Note**: Some models do not have WiFi (e.g. GL-MT2500/GL-MT2500A), so there is no Guest Network tab.
 
-![lan page](https://static.gl-inet.com/docs/router/en/4/tutorials/lan/lan_page.png){class="glboxshadow"}
+![lan page](https://static.gl-inet.com/docs/en/4/tutorials/lan/lan_page.png){class="glboxshadow"}
 
 ## Private Network
 
@@ -12,11 +12,25 @@ The **Private Network** is the network if your devices connect to the Main WiFi 
 
 The **Router IP Address** is **192.168.8.1** by default. You can change it if it conflicts with your network.
 
-![lan page, private network](https://static.gl-inet.com/docs/router/en/4/tutorials/lan/private_network.png){class="glboxshadow"}
+![lan simple set](https://static.gl-inet.com/docs/en/4/interface_guide/lan/lan_simple_set.jpg){class="glboxshadow"}
 
-You can just simply change the **Maximum Number of Users** to fit your need. Or click **Advanced** for more manually settings.
+### Security Settings
 
-![lan page, private network advanced](https://static.gl-inet.com/docs/router/en/4/tutorials/lan/private_network_advanced.png){class="glboxshadow"}
+**Client Isolation**: You can isolate your network's client devices into a separate network area.These devices cannot communicate with other devices or with each other on the network.
+
+## DHCP Server
+
+The **DHCP Server** is enabled by default.The DHCP server automatically assigning IP addresses and other communication parameters to each client devices.If the DHCP server is disabled, you will have to configure them manually for each client.[How to manually configure static ip](../tutorials/manually_configure_static_ip.md)
+
+You can change the starting and ending IP addresses to suit your needs, for example, if the size of the network expands or shrinks, if there are IP address conflicts in the network, or if the subnet mask or IP address range has changed.
+
+![dhcp_simple_set](https://static.gl-inet.com/docs/en/4/interface_guide/lan/dhcp_simple_set.jpg){class="glboxshadow"}
+
+### Advanced
+
+You can click **Advanced** for more manually settings.
+
+![lan page, private network advanced](https://static.gl-inet.com/docs/en/4/tutorials/lan/private_network_advanced.png){class="glboxshadow"}
 
 ## Reserve an IP for a client
 
@@ -26,11 +40,11 @@ When you specify a reserved IP address for a client within the LAN, the client a
 
 Click **Add** to reserve an IP.
 
-![lan page, reserve ip](https://static.gl-inet.com/docs/router/en/4/tutorials/lan/reserve_ip.png){class="glboxshadow"}
+![lan page, reserve ip](https://static.gl-inet.com/docs/en/4/tutorials/lan/reserve_ip.png){class="glboxshadow"}
 
 Select the **MAC**, it will fill the **IP** automatically after select MAC. Give it a descriptive name. Then click **Submit**.
 
-![lan page, reserve ip, add a new reservation entry](https://static.gl-inet.com/docs/router/en/4/tutorials/lan/add_a_new_reservation_entry.png){class="glboxshadow"}
+![lan page, reserve ip, add a new reservation entry](https://static.gl-inet.com/docs/en/4/tutorials/lan/add_a_new_reservation_entry.png){class="glboxshadow"}
 
 ## Guest Network
 
@@ -38,12 +52,9 @@ The **Guest Network** is the network if your device connect to the Guest WiFi.
 
 The **Defautl Gate Way** is **192.168.9.1**, If you have enable the Guest WiFi and it conflicts with your network, you can change it.
 
-![lan page, guest network](https://static.gl-inet.com/docs/router/en/4/tutorials/lan/guest_network.png){class="glboxshadow"}
+![lan page, guest network](https://static.gl-inet.com/docs/en/4/tutorials/lan/guest_network.png){class="glboxshadow"}
 
 You can just simply change the **Maximum Number of Users** to fit your need. Or click **Advanced** for more manually settings.
 
-![lan page, guest network, advanced](https://static.gl-inet.com/docs/router/en/4/tutorials/lan/guest_network_advanced.png){class="glboxshadow"}
+![lan page, guest network, advanced](https://static.gl-inet.com/docs/en/4/tutorials/lan/guest_network_advanced.png){class="glboxshadow"}
 
----
-
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

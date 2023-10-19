@@ -145,6 +145,7 @@ nav:
       - How to check Carrier Aggregation: tutorials/how_to_check_carrier_aggregation.md
     - VPN:
       - VPN Cascading: tutorials/vpn_cascading.md
+      - Tap S2S or TUN: tutorials/tap_s2s_vs_tun.md
       - Accessing client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
       - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - How to set up Wireguard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
@@ -154,6 +155,7 @@ nav:
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
     - Other:
+      - How to manually configure static IP: tutorials/manually_configure_static_ip.md
       - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
   - Interface Guide:
     - Overview: interface_guide/index.md
@@ -189,6 +191,7 @@ nav:
       - Firewall: interface_guide/firewall.md
       - Multi-WAN: interface_guide/multi-wan.md
       - LAN: interface_guide/lan.md
+      - Guest Network: guest_network.md
       - DNS: interface_guide/dns.md
       - Network Mode: interface_guide/network_mode.md
       - IPv6: interface_guide/ipv6.md
@@ -197,14 +200,15 @@ nav:
       - IGMP Snooping: interface_guide/igmp_snooping.md
       - Hardware Acceleration: interface_guide/hardware_acceleration.md
       - Network Acceleration: interface_guide/network_acceleration.md
+      - NAT Settings: interface_guide/nat_settings.md
     - System:
       - Overview: interface_guide/system_overview.md
       - Firmware Upgrade: interface_guide/firmware_upgrade.md
       - Scheduled Tasks: interface_guide/scheduled_tasks.md
-      - Admin Password: interface_guide/admin_password.md
       - Time Zone: interface_guide/time_zone.md
       - Toggle Button Settings: interface_guide/toggle_button_settings.md
       - Log: interface_guide/log.md
+      - Security: interface_guide/security.md
       - Reset Firmware: interface_guide/reset_firmware.md
       - Advanced Settings: interface_guide/advanced_settings.md
   - Video Library:

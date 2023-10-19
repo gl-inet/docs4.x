@@ -24,7 +24,11 @@ Mode has three options.
 
 - Hardware Acceleration
 
+    Hardware acceleration works on Ethernet and Repeater.
+
 - Software Acceleration
+
+    Software acceleration works on Cellular.
 
 ---
 

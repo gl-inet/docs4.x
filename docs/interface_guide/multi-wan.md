@@ -8,17 +8,30 @@ Some models support [Dual-Ethernet WAN](dual-ethernet_wan.md), which will add an
 
 ## Interface Status Tracking Method
 
-GL.iNet routers have up to 4 interfaces, but this varies depending on the model. They are **Ethernet**, **Repeater**, **Tethering** and **Cellular**. Here is the GL-AXT1800 as an example.
+GL.iNet routers have up to 5 interfaces, but this varies depending on the model. They are **Ethernet 1**, **Ethernet 2**,**Repeater**, **Tethering** and **Cellular**. Here is the GL-MT6000 as an example.
 
 The router will use the ping or httping command to track the status of the connection to the destination IP to determine if the interface is available. If the interface is available, it will show as a green dot at the begining, otherwise it is gray.
 
 ![multi-wan interface status tracking method](https://static.gl-inet.com/docs/router/en/4/tutorials/multi-wan/interface_status_tracking_method.png){class="glboxshadow"}
 
-The setting of Interface Status Tracking Method
+**The setting of Interface Status Tracking Method**
 
-![multi-wan interface status tracking method setting](https://static.gl-inet.com/docs/router/en/4/tutorials/multi-wan/interface_status_tracking_method_setting.png){class="glboxshadow gl-90-desktop"}
+![multi-wan interface status tracking method setting](https://static.gl-inet.com/docs/en/4/tutorials/multi-wan/interface_status_tracking_method_setting.png){class="glboxshadow gl-90-desktop"}
 
-You can disable the interface status tracking, the router will use the physical status of the interface (such as whether the network cable is plugged in or not).
+- **Enable Interface Status Track**: You can disable the interface status tracking, the router will use the physical status of the interface (such as whether the network cable is plugged in or not).
+
+- **Low Data Mode**: Enable the switch to track only when there is an interface network error, and recommend users to use Low Data Mode when you are on a limited data plan.However, one drawback is that reconnecting after a network disconnection may be slightly slower compared to the regular mode, and only the cellular interface will be turned on by default.
+
+**Sensitivity Options**
+
+![Sensitivity Options](https://static.gl-inet.com/docs/en/4/interface_guide/multi-wan/sensitivity_options.png){class="glboxshadow gl-90-desktop"}
+
+This sensitivity determines the time interval for Internet status detection. 
+
+- If the network is stable and in scenarios such as watching videos or live streams, playing games, users are recommended to use high sensitivity for quick switching in case of network disconnection. 
+- If the network is unstable and downloading cached files, users are recommended to use low sensitivity to prevent constant network switching and discovering unsuccessful connections.
+
+**Tips**:Switching to high sensitivity may lead to network disconnection, please adjust it with caution.
 
 ## Multi-WAN methods
 

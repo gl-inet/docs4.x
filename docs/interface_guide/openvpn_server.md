@@ -12,7 +12,7 @@ Please check if you Internet Service Provider assigns you a public IP address [h
 
 **If not, you can't connect to the OpenVPN Server.**
 
-An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}, check the tutorial [here](../tutorials/how_to_set_up_openvpn_server_via_astrorelay.md).
+An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}.
 
 ## Network Topology
 
@@ -32,7 +32,9 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
     If you do not need to modify the configuration, please click directly the **Export Client Configuration** at the bottom of page. If you have modified the configuration, please click the **Apply** button to continue.
 
-    * **Protocol:** UDP or TCP. To find out what the difference is, check out [this tutorial](../faq/openvpn_tcp_udp.md).
+    * **Device Mode:** Tap s2s or Tun. To find out what the difference is, check out [tap s2s vs tun](../tutorials/tap_s2s-vs-tun.md).
+
+    * **Protocol:** UDP or TCP. To find out what the difference is, check out [tcp vs udp](../faq/openvpn_tcp_udp.md).
 
     * **Authentication Mode:** There are three options **Only Certificate**, **Only Username/Password**, **Username/Password and Certificate**. 
     

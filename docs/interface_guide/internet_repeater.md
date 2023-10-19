@@ -118,6 +118,32 @@ When Repeater to a upstream 5G WiFi, the router WiFi will fellow the upstream Wi
 
 * The router's 5G WiFi will switch to the non-DFS channel if the upstream WiFi is not scannable or if the connection fails.
 
+### Supported models
+
+| Router Model                   | Support   |
+| :----------------------------- | :-------: |
+| GL-X3000 (Spitz AX)            | √         |
+| GL-MT3000 (Beryl AX)           | √         |
+| GL-AXT1800 (Slate AX)          | √         |
+| GL-A1300 (Slate Plus)          | -         |
+| GL-MT2500/GL-MT2500A (Brume 2) | -         |
+| GL-SFT1200 (Opal)              | -         |
+| GL-S1300 (Convexa-S)           | -         |
+| GL-MT1300 (Beryl)              | -         |
+| GL-AX1800 (Flint)              | -         |
+| GL-MT6000 (Flint 2)            | √         |
+| GL-AR750S (Slate)              | -         |
+| GL-AR750 (Creta)               | -         |
+| GL-AR300M Series（Shadow）     | -         |
+| GL-MT300N-V2（Mango）          | -         |
+| GL-XE300 (Puli)                | -         |
+| GL-XE3000 (Puli AX)            | √         |
+| GL-X750 (Spitz)                | -         |
+| GL-B1300 (Convexa-B)           | -         |
+| GL-AP1300 (Cirrus)             | -         |
+| GL-X300B (Collie)              | -         |
+| GL-MV1000/GL-MV1000W (Brume)   | -         |
+
 ---
 
 Related Articles

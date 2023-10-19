@@ -4,7 +4,8 @@ Parental control feature available since V4.2
 
 On the left side of web Admin Panel -> APPLICATIONS -> Parental Control
 
-## local Version
+## Local Version
+
 The local version is provided by GL.iNet. It is currently in beta, so there is no additional cost. In this version, if you need to filter requests by application, you need to enter the domain manually.
 
 ### Supported Models
@@ -50,7 +51,7 @@ The first time, it will have a setup wizard.
 
 Give the profile a name.
 
-![create a profile guide](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_create_profile_1.png){class="glboxshadow"}
+![create a profile guide](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/guide/guide_create_profile_1.png){class="glboxshadow"}
 
 Select the devices you want to manage, or manually add device by input their MAC address.
 
@@ -80,7 +81,7 @@ At this point, there will be a total of 4 rulesets. Choose **Block Internet Acce
 
 Then go to Set Schedule. Click **Go to Set**.
 
-![set schedule](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/guide/guide_schedule_7.png){class="glboxshadow"}
+![set schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/guide/guide_schedule_7.png){class="glboxshadow"}
 
 It is assumed that 8am to 11am Monday through Friday is the study time, and the ruleset here is **Learning**. Click **Apply**.
 
@@ -112,7 +113,7 @@ As shown below, click Parental Control at the top to return to the Parental Cont
 
 The image below shows the final configuration. You can modify existing profiles and rulesets, or add profiles and rulesets, as you see fit.
 
-![parental control, finally](https://static.gl-inet.com/docs/en/4/tutorials/parental_control/parental_control_finally.png){class="glboxshadow"}
+![parental control, finally](https://static.gl-inet.com/docs/router/en/4/tutorials/parental_control/parental_control_finally.png){class="glboxshadow"}
 
 #### Case 2
 
@@ -143,9 +144,11 @@ There may be several reasons why the settings are not effective after being conf
 
 ## Bark Version
 
-The Bark version, which is provided and managed by Bark on their own platform, offers the option to filter applications and websites with a single click and monitor request history. Please be aware that an additional subscription fee is payable directly to Bark for this service.
+The [Bark](https://www.bark.us/){target="_blank"} version, which is provided and managed by Bark on their own platform, offers the option to filter applications and websites with a single click and monitor request history. Please be aware that an additional subscription fee is payable directly to Bark for this service.
 
 Bark Parental control feature available since v4.5.
+
+**Note:** It’s only available in the US, Australia, Guam, and South Africa.
 
 ### Usage Scenarios
 
@@ -167,22 +170,22 @@ On the left side of web Admin Panel -> APPLICATIONS -> Parental Control.
 After selecting the bark version, enable and apply it.Both versions of Parental Controls cannot be enabled at the same time, and the another one will be automatically disabled when you switch versions.
 
 
-![switch_versions](https://static.gl-inet.com/docs/en/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
+![switch_versions](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
 
 **Please note:** Bark's service may not be available in certain countries. As GL.iNet is not the provider of this service, should you encounter any issues using Bark, kindly reach out directly to [Bark's Technical Support ](https://www.bark.us/contact-us/?ref=glinet&home=glinet)for assistance.
 
 
-![bark_enable](https://static.gl-inet.com/docs/en/4/interface_guide/parental_control/bark_enable.png){class="glboxshadow"}
+![bark_enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_enable.png){class="glboxshadow"}
 
 The Bark service is enabled, but this device is not yet paired with any account. Please use the [Device Pairing Link](http://go.bark.us/?ref=glinet&home=glinet) to pair this device with your Bark account.
 
 
-![bark_pairing_link](https://static.gl-inet.com/docs/en/4/interface_guide/parental_control/bark_pairing_link.png){class="glboxshadow"}
+![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_pairing_link.png){class="glboxshadow"}
 
 The device is connected to Bark Cloud Services and paired with an account. Please [Go to Bark](https://www.bark.us/app/children/?ref=glinet&home=glinet) and log in to the paired account to control access.
 
 
-![device_set_up](https://static.gl-inet.com/docs/en/4/interface_guide/parental_control/device_set_up.png){class="glboxshadow"}
+![device_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/device_set_up.png){class="glboxshadow"}
 
 
-![bark_success_pair](https://static.gl-inet.com/docs/en/4/interface_guide/parental_control/bark_success_pair.png){class="glboxshadow"}
+![bark_success_pair](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_success_pair.png){class="glboxshadow"}

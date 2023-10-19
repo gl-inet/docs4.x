@@ -142,9 +142,10 @@ There may be several reasons why the settings are not effective after being conf
 
 
 ## Bark Version
+
 The Bark version, which is provided and managed by Bark on their own platform, offers the option to filter applications and websites with a single click and monitor request history. Please be aware that an additional subscription fee is payable directly to Bark for this service.
 
-Bark Parental control feature available since V4.5.
+Bark Parental control feature available since v4.5.
 
 ### Usage Scenarios
 

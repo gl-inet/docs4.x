@@ -8,15 +8,15 @@ Some models support [Dual-Ethernet WAN](dual-ethernet_wan.md), which will add an
 
 ## Interface Status Tracking Method
 
-GL.iNet routers have up to 5 interfaces, but this varies depending on the model. They are **Ethernet 1**, **Ethernet 2**,**Repeater**, **Tethering** and **Cellular**. Here is the GL-MT6000 as an example.
+GL.iNet routers have up to 5 interfaces, but this varies depending on the model. They are **Ethernet 1**, **Ethernet 2**, **Repeater**, **Tethering** and **Cellular**. Here is the GL-MT6000 as an example.
 
 The router will use the ping or httping command to track the status of the connection to the destination IP to determine if the interface is available. If the interface is available, it will show as a green dot at the begining, otherwise it is gray.
 
-![multi-wan interface status tracking method](https://static.gl-inet.com/docs/router/en/4/tutorials/multi-wan/interface_status_tracking_method.png){class="glboxshadow"}
+![multi-wan interface status tracking method](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track.png){class="glboxshadow"}
 
 **The setting of Interface Status Tracking Method**
 
-![multi-wan interface status tracking method setting](https://static.gl-inet.com/docs/en/4/tutorials/multi-wan/interface_status_tracking_method_setting.png){class="glboxshadow gl-90-desktop"}
+![multi-wan interface status tracking method setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_setting.png){class="glboxshadow gl-90-desktop"}
 
 - **Enable Interface Status Track**: You can disable the interface status tracking, the router will use the physical status of the interface (such as whether the network cable is plugged in or not).
 
@@ -24,14 +24,14 @@ The router will use the ping or httping command to track the status of the conne
 
 **Sensitivity Options**
 
-![Sensitivity Options](https://static.gl-inet.com/docs/en/4/interface_guide/multi-wan/sensitivity_options.png){class="glboxshadow gl-90-desktop"}
+![Sensitivity Options](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/sensitivity_options.png){class="glboxshadow gl-90-desktop"}
 
 This sensitivity determines the time interval for Internet status detection. 
 
 - If the network is stable and in scenarios such as watching videos or live streams, playing games, users are recommended to use high sensitivity for quick switching in case of network disconnection. 
 - If the network is unstable and downloading cached files, users are recommended to use low sensitivity to prevent constant network switching and discovering unsuccessful connections.
 
-**Tips**:Switching to high sensitivity may lead to network disconnection, please adjust it with caution.
+**Tips**: Switching to high sensitivity may lead to network disconnection, please adjust it with caution.
 
 ## Multi-WAN methods
 
@@ -39,7 +39,7 @@ There are two methods, **Failover** and **Load Balance**. **Failover** and **Loa
 
 ### Failover
 
-![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/tutorials/multi-wan/multi-wan_mode_failover.png){class="glboxshadow gl-90-desktop"}
+![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/multi-wan_mode_failover.png){class="glboxshadow gl-90-desktop"}
 
 You can set the priority of each interface, when the interface being used fails, the router will automatically switch to another available highest priority interface.
 
@@ -53,7 +53,7 @@ The system will assign interfaces to new connections based on the load ratio. Th
 
 **Note:** Alive connections or traffic are not ensured to match the load ratio. It is closer to this ratio if it has been used for a longer time.
 
-![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/tutorials/multi-wan/multi-wan_mode_load_balance.png){class="glboxshadow gl-90-desktop"}
+![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/multi-wan_mode_load_balance.png){class="glboxshadow gl-90-desktop"}
 
 ## Usage Scenarios
 

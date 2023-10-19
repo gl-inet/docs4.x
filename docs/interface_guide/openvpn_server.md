@@ -32,7 +32,7 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
     If you do not need to modify the configuration, please click directly the **Export Client Configuration** at the bottom of page. If you have modified the configuration, please click the **Apply** button to continue.
 
-    * **Device Mode:** Tap s2s or Tun. To find out what the difference is, check out [tap s2s vs tun](../tutorials/tap_s2s-vs-tun.md).
+    * **Device Mode:** TAP-S2S or Tun. To find out what the difference is, check out [tap s2s vs tun](../tutorials/tap_s2s_vs_tun.md).
 
     * **Protocol:** UDP or TCP. To find out what the difference is, check out [tcp vs udp](../faq/openvpn_tcp_udp.md).
 

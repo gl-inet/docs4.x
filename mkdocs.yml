@@ -145,7 +145,7 @@ nav:
       - How to check Carrier Aggregation: tutorials/how_to_check_carrier_aggregation.md
     - VPN:
       - VPN Cascading: tutorials/vpn_cascading.md
-      - Tap S2S or TUN: tutorials/tap_s2s_vs_tun.md
+      - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
       - Accessing client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
       - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - How to set up Wireguard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md

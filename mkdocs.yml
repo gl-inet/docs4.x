@@ -205,6 +205,7 @@ nav:
       - Overview: interface_guide/system_overview.md
       - Firmware Upgrade: interface_guide/firmware_upgrade.md
       - Scheduled Tasks: interface_guide/scheduled_tasks.md
+      - Admin Password: admin_password.md
       - Time Zone: interface_guide/time_zone.md
       - Toggle Button Settings: interface_guide/toggle_button_settings.md
       - Log: interface_guide/log.md

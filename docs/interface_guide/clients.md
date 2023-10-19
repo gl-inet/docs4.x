@@ -8,47 +8,54 @@ The Clients page displays information about connected devices, including device 
 
 If you want to modify name and type of a device, please click the three docs icon, in the menu that pops up, click **Modify** item.
 
-![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/clients_three_dots.png){class="glboxshadow"}
+![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_three_dots.png){class="glboxshadow"}
 
-![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/edit_client_device.png){class="glboxshadow"}
+![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/edit_client_device.png){class="glboxshadow"}
 
 ## MAC Address
 
 Many devices will use randomized MAC address, if the randomized MAC address is used, there will be a prompt.
 
-![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/randomized_mac_address.png){class="glboxshadow"}
+![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/randomized_mac_address.png){class="glboxshadow"}
 
 **Note**: The rule here is that if the second character of the MAC address is 2, 6, A or E(Ignore case), then it is considered a randomized MAC address. However, some devices may use a different rule to generate a randomized MAC address, so it may not be accurate.
 
-## Blocking Client
+## Blocklist
 
 Enable **Block** toggle to block client device, the blocked device can't access the LAN interface and WAN interface.
 
-![clients page](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/clients.png){class="glboxshadow"}
+![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients.png){class="glboxshadow"}
 
-If you only want a client device access LAN, please try the [Parental Control](parental_control.md).
+
+Blacklist: Devices with MAC addresses on the prohibited list are not allowed to connect to this router. 
+
+Whitelist: Only devices with specific MAC addresses are allowed to connect, suitable for IoT devices and enterprise network management.
+
+
+![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_whitelist.png){class="glboxshadow"}
+
 
 Starting from firmware 4.4.x, you can upload a block list in excel form or input Mac addressed manually to creat a **Block List**.
 
-![blocklist](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/blocklist.jpg){class="glboxshadow"}
+![blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist.jpg){class="glboxshadow"}
 
 You can either import a list from a CSV file at **(1)** or input the Mac Address one by one at **(2)**.
 
-![inputblock](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/inputblock.jpg){class="glboxshadow gl-80-desktop"}
+![inputblock](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/inputblock.jpg){class="glboxshadow gl-80-desktop"}
 
-![importcsv](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/importcsv.jpg){class="glboxshadow gl-80-desktop"}
+![importcsv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/importcsv.jpg){class="glboxshadow gl-80-desktop"}
 
-![dragcsv](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/dragcsv.jpg){class="glboxshadow gl-80-desktop"}
+![dragcsv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/dragcsv.jpg){class="glboxshadow gl-80-desktop"}
 
-![loadcsv](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/loadcsv.jpg){class="glboxshadow"}
+![loadcsv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/loadcsv.jpg){class="glboxshadow"}
 
-![applycsv](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/applycsv.jpg){class="glboxshadow"}
+![applycsv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/applycsv.jpg){class="glboxshadow"}
 
 **Note**: Blocking client is based on the MAC address of the device, so if the blocked device use a different MAC address next time, it can still connect to router.
 
 ## Speed
 
-![clients page](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/clients_speed.png){class="glboxshadow"}
+![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_speed.png){class="glboxshadow"}
 
 The speed here is the average speed over 3 minutes.
 
@@ -67,19 +74,19 @@ The default sort type:
 - The self device is alway s on top
 - In online client sector, the later the device is connected, the higher it is on top.
 
-![clients page](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/clients_sort.png){class="glboxshadow"}
+![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_sort.png){class="glboxshadow"}
 
 ## Limiting Speed
 
 If you want to limit the speed of a device, please click the three docs icon, in the menu that pops up, click **Limit Speed** item.
 
-![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/clients_three_dots.png){class="glboxshadow"}
+![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_three_dots.png){class="glboxshadow"}
 
-![clients page](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/clients_limit_speed_settings.png){class="glboxshadow"}
+![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
 If a client has applied speed limitation, its up arrow and down arrow of speed will turn yellow.
 
-![clients page](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/clients_limit_speed.png){class="glboxshadow"}
+![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed.png){class="glboxshadow"}
 
 Click **Action** to disable limiting.
 
@@ -87,7 +94,7 @@ Click **Action** to disable limiting.
 
 In the offline clients sector, you can **Delete All** offline clients. If you want to remove specific client, please click the three dots icon, in the menu that pops up, click **Remove Client** item.
 
-![remove clients](https://static.gl-inet.com/docs/router/en/4/tutorials/clients/remove_client.png){class="glboxshadow"}
+![remove clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_client.png){class="glboxshadow"}
 
 ---
 

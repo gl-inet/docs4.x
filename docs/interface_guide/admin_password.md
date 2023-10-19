@@ -1,6 +1,8 @@
 # Admin Password
 
-On the left side of web Admin Panel -> SYSTEM -> Admin Password
+On the left side of web Admin Panel -> SYSTEM -> Security
+
+**notion**: This part has been moved to **security** since 4.5.
 
 ![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
 

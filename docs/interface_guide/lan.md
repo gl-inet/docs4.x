@@ -36,8 +36,12 @@ When you specify a reserved IP address for a client within the LAN, the client a
 
 Click **Add** to reserve an IP.
 
-![lan page, reserve ip](https://static.gl-inet.com/router/docs/en/4/interface_guide/lan/reserve_ip.png){class="glboxshadow"}
+![lan page, Address Reservation](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/reserve_ip.png){class="glboxshadow"}
 
 Select the **MAC**, it will fill the **IP** automatically after select MAC. Give it a descriptive name. Then click **Submit**.
 
-![lan page, reserve ip, add a new reservation entry](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/add_a_new_reservation_entry.png){class="glboxshadow"}
+![lan page, Address Reservation, add a new reservation entry](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/add_a_new_reservation_entry.png){class="glboxshadow"}
+
+After adding a new IP address reservation.
+
+![lan page, added reserve ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/reserve_ip_added.png){class="glboxshadow"}

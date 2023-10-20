@@ -82,6 +82,19 @@ Firmware 4.x has integrated Mullvad WireGaurd service.
 
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/mullvad_edit_credential.png){class="glboxshadow"}
 
+5. Delete account information
+
+    **notion**: if you click **delete** on the firmware, you will delete the accounts, associated public keys and configuration files **inside the router**.
+
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/wgclient_delete_all.png){class="glboxshadow"}
+
+6. Delete 
+
+    Allow deleting all configuration files with one click and provide a prompt to also delete public keys.
+
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/wgclient_delete_all_configuration_file.png){class="glboxshadow"}
+
+
 ## Set Up WireGuard Client
 
 As of firmware 4.0, it brings grouping to manage WireGuard profiles.

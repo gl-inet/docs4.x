@@ -35,11 +35,13 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
 2. Access web Admin Panel of GL.iNet router, enable Drop-in Gateway feature, it will generate the settings automatically.
 
-    ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/drop-in_gateway_enabled.png){class="glboxshadow"}
+    ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/drop-in_gateway_all_device_enabled.png){class="glboxshadow"}
 
     The **IP Address** is same of the IP address in [Ethernet sector of Internet page](internet_ethernet.md). The **Gateway** and **DNS Server 1** are the IP address of the main router. If these items are not set correctly, you can change them manually yourself.
 
     Write down the IP address here, you will use it in the following steps.
+
+    You could choose the first configuration method,and click apply.
 
 3. Log in to the main router's admin page.
 
@@ -47,11 +49,13 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         If the brand of main router is GL.iNet and its version is v4.2 and above.
 
-        Access web Admin Panel -> NETWORK -> LAN -> Advanced
+        Access web Admin Panel -> NETWORK -> LAN -> DHCP Server -> Advanced
 
         ![glinet lan advanced](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/lan_advanced.png){class="glboxshadow"}
 
-        Fill in the DHCP Gateway as the IP Address in step 2, then click **Apply**.
+        Fill in the DHCP Gateway as the IP Address in step 2, etc.192.168.116.23,then click **Apply**.
+
+        ![glinet lan, dhcp gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/tips_dhcp_gateway.png){class="glboxshadow"}
 
         ![glinet lan, dhcp gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/lan_dhcp_gateway.png){class="glboxshadow"}
 
@@ -95,11 +99,13 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
 2. Access web Admin Panel of GL.iNet router, enable Drop-in Gateway feature, it will generate the settings automatically.
 
-    ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/drop-in_gateway_enabled.png){class="glboxshadow"}
+    ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/drop-in_gateway_some_device_enabled.png){class="glboxshadow"}
 
     The **IP Address** is same of the IP address in [Ethernet sector of Internet page](internet_ethernet.md). The **Gateway** and **DNS Server 1** are the IP address of the main router. If these items are not set correctly, you can change them manually yourself.
 
     Write down the IP address here, you will use it in the following steps.
+
+    You could choose the second configuration method,and click apply.
 
 3. Set the gateway and DNS on the device that you want to use the Drop-in Gateway feature to the IP address in Drop-in Gateway page.
 

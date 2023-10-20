@@ -1,51 +1,50 @@
+# How to manually configure the static IP?
+
 === "Windows 11"
 
     On Windows 11, you can set a static IP address configuration from the Settings app for wireless and wired adapters.
 
-    ## **Set static IP address on Wi-Fi adapter**
+    **Set static IP address on Wi-Fi adapter**
 
     To assign a static IP address configuration to a Wi-Fi adapter, use these steps:
 
-    1.Open Settings on Windows 11 -> Network & Internet ->  the Wi-Fi tab ->  Select the current network connection.
+    1. Open Settings on Windows 11 -> Network & Internet ->  the Wi-Fi tab ->  Select the current network connection.
 
-    2.Under the “IP settings” section, click the Edit button.
+    2. Under the “IP settings” section, click the Edit button.
 
-    ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Windows_11_edit_IP_address.webp){class="glboxshadow"}
+        ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Windows_11_edit_IP_address.webp){class="glboxshadow"}
 
-    3.Follow the steps below to set it up:
+    3. Follow the steps below to set it up:
 
-    ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Settings_app_set_static_IP_address.webp){class="glboxshadow"}
+        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Settings_app_set_static_IP_address.webp){class="glboxshadow"}
 
-    - Select the Manual option,Turn on the IPv4 toggle switch.
+        - Select the Manual option,Turn on the IPv4 toggle switch.
 
-    - Set a static IP address for Windows 11 – for example, 10.1.4.119.
+        - Set a static IP address for Windows 11 – for example, 10.1.4.119.
 
-    - Specify a Subnet mask – for example, 255.255.255.0.
+        - Specify a Subnet mask – for example, 255.255.255.0.
 
-    - Specify a Default Gateway address.
+        - Specify a Default Gateway address.
 
-    - Specify a Preferred DNS address (required).
+        - Specify a Preferred DNS address (required).
 
-    - (Optional) Specify an “Alternate DNS” address.
+        - (Optional) Specify an “Alternate DNS” address.
 
-    - Use the “DNS over HTTPS” drop-down menu and select the Off option for the preferred and alternate addresses, but you can enable DoH with these options:
+        - Use the “DNS over HTTPS” drop-down menu and select the Off option for the preferred and alternate addresses, but you can enable DoH with these options:
 
-        - Off: Transmits all DNS traffic without encryption.
+            - Off: Transmits all DNS traffic without encryption.
 
-        - On (automatic template): Sends all DNS traffic with encryption.
+            - On (automatic template): Sends all DNS traffic with encryption.
 
-        - On (manual template): Allows you to specify a specific template. It is only required if the DNS service doesn’t work automatically or has a template that works as expected.
+            - On (manual template): Allows you to specify a specific template. It is only required if the DNS service doesn’t work automatically or has a template that works as expected.
 
-     - Turn off the “Fallback to plaintext” toggle switch (if you enable DoH).
+        - Turn off the “Fallback to plaintext” toggle switch (if you enable DoH).
 
-         - Quick tip: If you enable this feature, the system will encrypt DNS traffic, but it allows queries to be sent without encryption.
+            - Quick tip: If you enable this feature, the system will encrypt DNS traffic, but it allows queries to be sent without encryption.
 
-    
-   
-    
-    4.Click the Save button.
+    4. Click the Save button.
 
-    Once you complete the steps, the static network configuration will apply to the computer. You can test the new settings by opening the web browser and loading a website.
+        Once you complete the steps, the static network configuration will apply to the computer. You can test the new settings by opening the web browser and loading a website.
 
 
     ## **Set static IP address on Ethernet adapter**
@@ -56,40 +55,39 @@
     
     2. Under the “IP settings” section, click the Edit button.
 
-    ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.webp){class="glboxshadow"}
+        ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.webp){class="glboxshadow"}
 
-    3.Follow the steps below to set it up:
+    3. Follow the steps below to set it up:
 
-    ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Settings_app_set_static_IP_address.webp){class="glboxshadow"}
+        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Settings_app_set_static_IP_address.webp){class="glboxshadow"}
         
-    - Select the Manual option.
+        - Select the Manual option.
 
-    - Turn on the IPv4 toggle switch.
+        - Turn on the IPv4 toggle switch.
 
-    - Set a static IP address for Windows 11 – for example, 10.1.4.119.
+        - Set a static IP address for Windows 11 – for example, 10.1.4.119.
 
-    - Specify a Subnet mask – for example, 255.255.255.0.
+        - Specify a Subnet mask – for example, 255.255.255.0.
 
-    - Specify a Default Gateway address.
+        - Specify a Default Gateway address.
 
-    - Specify a Preferred DNS address (required).
+        - Specify a Preferred DNS address (required).
 
-    - (Optional) Specify an “Alternate DNS” address.
+        - (Optional) Specify an “Alternate DNS” address.
 
-    - Use the “DNS over HTTPS” drop-down menu and select the Off option for the preferred and alternate addresses, but you can enable DoH with these options:
+        - Use the “DNS over HTTPS” drop-down menu and select the Off option for the preferred and alternate addresses, but you can enable DoH with these options:
 
-        * Off: Transmits all DNS traffic without encryption.
+            * Off: Transmits all DNS traffic without encryption.
 
-        * On (automatic template): Sends all DNS traffic with encryption.
+            * On (automatic template): Sends all DNS traffic with encryption.
 
-        * On (manual template): Allows you to specify a specific template. It is only required if the DNS service doesn’t work automatically or has a template that works as expected.
-        
-    - Turn off the “Fallback to plaintext” toggle switch (if you enable DoH).
+            * On (manual template): Allows you to specify a specific template. It is only required if the DNS service doesn’t work automatically or has a template that works as expected.
+            
+        - Turn off the “Fallback to plaintext” toggle switch (if you enable DoH).
 
+    4. Click the Save button.
 
-    4.Click the Save button.
-
-    After you complete the steps, you can test your settings using your web browser to open a website.
+        After you complete the steps, you can test your settings using your web browser to open a website.
 
 
 === "macOS"
@@ -102,7 +100,6 @@
 
     Select Network. The window shown below appears.
 
-    
     ![Mac_network_settings](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Mac_network_settings.webp){class="glboxshadow"}
 
     From the sidebar, select an active network interface. In this example, I’m connected to a wireless network, so I’ll select Wi-Fi.
@@ -126,28 +123,28 @@
 
     The steps will vary with different versions of Android. This documentation is based on Android version 11.
 
-    1.Go to Settings -> Select Network & Internet, then Wi-Fi -> Tap on the network currently connected to open the settings menu.
+    1. Go to Settings -> Select Network & Internet, then Wi-Fi -> Tap on the network currently connected to open the settings menu.
     
     ![list_available_networks](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/list_available_networks.png){class="gl-50-desktop"}
     {class="glboxshadow"}
 
-    2.To set a static IP address, do the following:
+    2. To set a static IP address, do the following:
 
     - Select the pencil icon in the top right to access the network settings.
         
-    ![pencil_icon](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/pencil_icon.png){class="gl-50-desktop"}
+        ![pencil_icon](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/pencil_icon.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
     - Select Advanced Options.
         
-    ![advanced_options](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/advanced_options.png){class="gl-50-desktop"}
+        ![advanced_options](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/advanced_options.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
     - Select IP Settings.
         
     - Change the setting from DHCP to Static.
         
-    ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
+        ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
     - When using static IP addresses on home and other private networks, they should be chosen from within the standard private IP address ranges listed:10.0.0.0 through 10.255.255.255,172.16.0.0 through 172.31.255.255,192.168.0.0 through 192.168.255.255
@@ -158,7 +155,7 @@
     - The Gateway should fill in automatically based on the IP address. If not, copy the IP address and replace the last number with a 1. 
         -ex. Based on the previous example: 192.168.1.1
 
-    3.Tap Save and let the network reconnect.
+    3. Tap Save and let the network reconnect.
 
 === "iOS"
 
@@ -190,7 +187,7 @@
 
     - Enter the routers IP address.
         
-    -  Tap on Subnet Mask and enter your information
+    - Tap on Subnet Mask and enter your information
 
         - Usually, it will be 225.225.0.0.
 

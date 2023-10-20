@@ -68,6 +68,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [IGMP Snooping](igmp_snooping.md), to use the multicast function on the router.
 * [Hardware Acceleration](hardware_acceleration.md)
 * [Network Acceleration](network_acceleration.md)
+* [NAT Settings](nat_settings.md)
 
 ## System
 

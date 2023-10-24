@@ -90,7 +90,7 @@ Next steps, we will use ExpressVPN as an example.
 
         2. File requires `username` and `password` input.
 
-        3. File requires `username`, `password`, and `askpass` input (new update).
+        3. File requires `username`, `password`, and `askpass` input (since v4.5).
         
         4. File requires no input.
 

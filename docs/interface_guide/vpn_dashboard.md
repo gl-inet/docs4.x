@@ -46,7 +46,6 @@ WireGuard client options.
 
     Stands for maximum transmission unit. The MTU you set for the instance will overwrite the MTU item in the configuration file.
 
-
 ### Proxy mode
 
 ![vpn proxy](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_proxy.png){class="glboxshadow"}
@@ -185,7 +184,7 @@ Click the cog icon of WireGuard server.
 
 * **Client to Client**
 
-    Wireguard clients can access data from each other,not side to side,users can access internal network devices at home or in the office while remote, and the data access of the wireguard server is safer than port forwarding due to encrypted processes, and once connected, the process is more stable and faster.
+    Wireguard clients can access data from each other, not side to side, users can access internal network devices at home or in the office while remote, and the data access of the wireguard server is safer than port forwarding due to encrypted processes, and once connected, the process is more stable and faster.
 
 ### WireGuard Server Route Rule
 

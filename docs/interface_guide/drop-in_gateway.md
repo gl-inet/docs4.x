@@ -41,7 +41,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
     Write down the IP address here, you will use it in the following steps.
 
-    You could choose the first configuration method,and click apply.
+    You could choose the first configuration method, and click apply.
 
 3. Log in to the main router's admin page.
 
@@ -53,7 +53,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         ![glinet lan advanced](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/lan_advanced.png){class="glboxshadow"}
 
-        Fill in the DHCP Gateway as the IP Address in step 2, etc.192.168.116.23,then click **Apply**.
+        Fill in the DHCP Gateway as the IP Address in step 2, etc. `192.168.116.23`, then click **Apply**.
 
         ![glinet lan, dhcp gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/tips_dhcp_gateway.png){class="glboxshadow"}
 
@@ -105,7 +105,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
     Write down the IP address here, you will use it in the following steps.
 
-    You could choose the second configuration method,and click apply.
+    You could choose the second configuration method, and click apply.
 
 3. Set the gateway and DNS on the device that you want to use the Drop-in Gateway feature to the IP address in Drop-in Gateway page.
 

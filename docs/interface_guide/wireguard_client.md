@@ -84,13 +84,13 @@ Firmware 4.x has integrated Mullvad WireGaurd service.
 
 5. Delete account information
 
-    **notion**: if you click **delete** on the firmware, you will delete the accounts, associated public keys and configuration files **inside the router**.
+    If you click **Delete**, it will delete the account credential, private key, public key and configuration files **in the router**.
 
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/wgclient_delete_all.png){class="glboxshadow"}
 
 6. Delete 
 
-    Allow deleting all configuration files with one click and provide a prompt to also delete public keys.
+    Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
 
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/wgclient_delete_all_configuration_file.png){class="glboxshadow"}
 

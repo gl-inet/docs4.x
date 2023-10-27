@@ -182,6 +182,10 @@ Click the cog icon of WireGuard server.
 
     The MTU you set for the instance will overwrite the MTU item in the configuration file.
 
+* **Client to Client**
+
+    Wireguard clients can access data from each other, not side to side, users can access internal network devices at home or in the office while remote, and the data access of the wireguard server is safer than port forwarding due to encrypted processes, and once connected, the process is more stable and faster.
+
 ### WireGuard Server Route Rule
 
 Click the network icon of WireGuard server.

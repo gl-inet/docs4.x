@@ -84,6 +84,16 @@ Next steps, we will use ExpressVPN as an example.
 
 4. Upload your OpenVPN configuration file, then input the credential, click **Apply**.
 
+    -  Supports 4 types of configuration files:
+
+        1. File requires `askpass` input.
+
+        2. File requires `username` and `password` input.
+
+        3. File requires `username`, `password`, and `askpass` input (since v4.5).
+        
+        4. File requires no input.
+
     ![upload profile](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/upload_profile_1.png){class="glboxshadow"}
 
     ![after upload profile](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/after_upload_profile.png){class="glboxshadow"}

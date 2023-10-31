@@ -28,10 +28,12 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
 2. Apply the configuration
 
-    The default configuration works for most cases. If you found the IPv4 address conflict with your upper router's gateway, click the **Apply** button after modification. You can modify it as **10.1.0.1/24** 
+    The default configuration works for most cases. If you found the IPv4 address conflict with your upper router's gateway, click the **Apply** button after modification. You can modify it as **10.1.0.1/24** , please don't forget to put **/24** at the end, otherwise you clients cannot get connections.
 
     ![wireguard server apply configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_apply_configuration.png){class="glboxshadow"}
 
+    For example, if you use Xfinity routers, your router IP will be same as our WireGuard Server IP, then you need to do the above changes.
+    
     ![xfinitygateway](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
     For **Set Key Manually**.

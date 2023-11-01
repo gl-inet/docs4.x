@@ -1,152 +1,150 @@
 # GL.iNet GoodCloud
 
-## Contents
+## コンテンツ
 
-- [Introduction](#introduction)
-- [Setup](#setup)
-    - [Enable GoodCloud on router](#enable-goodcloud-on-router)
-    - [Sign up GoodCloud account](#sign-up-goodcloud-account)
-    - [Select server region](#select-server-region)
-    - [Add a new group](#add-a-new-group)
-    - [Add device](#add-device)
-    - [Bound info on router web Admin Panel](#bound-info-on-router-web-admin-panel)
-    - [Unbind router](#unbind-router)
-- [Manage your devices](#manage-your-devices)
-    - [Devices info and status](#devices-info-and-status)
-    - [LTE Signal](#lte-signal)
-    - [Device detail info](#device-detail-info)
-    - [Remote access web Admin Panel](#remote-access-web-admin-panel)
-    - [Remote access router's terminal](#remote-access-routers-terminal)
-    - [Set email alarm](#set-email-alarm)
-- [Site to Site](#site-to-site)
-    - [Introduction](#introduction_1)
-    - [Conditions](#conditions)
-    - [Steps to build a Site to Site network](#steps-to-build-a-site-to-site-network)
-    - [Testing the Site to Site connection](#testing-the-site-to-site-connection)
-    - [Route and other options](#route-and-other-options)
-- [Batch Setting](#batch-setting)
-    - [Batch Setting of Single Device](#batch-setting-of-single-device)
-    - [Batch Setting of Mutiple Devices](#batch-setting-of-mutiple-devices)
-    - [Other Batch Operations](#other-batch-operations)
-- [Template Management](#template-management)
-    - [Add a Template](#add-a-template)
-    - [Upgrade](#upgrade)
-    - [Apply a template to a router](#apply-a-template-to-a-router)
-    - [Apply a template to multiple routers](#apply-a-template-to-multiple-routers)
-- [Task List](#task-list)
-- [GoodCloud and VPN](#goodcloud-and-vpn)
-- [Turn off cloud](#turn-off-cloud)
+- [はじめに](#introduction)
+- [セットアップ](#setup)
+    - [ルーターでGoodCloudを有効にする](#enable-goodcloud-on-router)
+    - [GoodCloudアカウントを登録する](#sign-up-goodcloud-account)
+    - [サーバー地域を選択する](#select-server-region)
+    - [新しいグループを追加する](#add-a-new-group)
+    - [デバイスを追加する](#add-device)
+    - [ルーターウェブ管理パネルのバウンド情報](#bound-info-on-router-web-admin-panel)
+    - [ルーターのバインドを解除する](#unbind-router)
+- [デバイスを管理する](#manage-your-devices)
+    - [デバイス情報とステータス](#devices-info-and-status)
+    - [LTE信号](#lte-signal)
+    - [デバイス詳細情報](#device-detail-info)
+    - [リモートアクセス管理パネル](#remote-access-web-admin-panel)
+    - [リモートアクセスルータの端末](#remote-access-routers-terminal)
+    - [アラームメールを設定する](#set-email-alarm)
+- [サイト・ツー・サイト](#site-to-site)
+    - [はじめに](#introduction_1)
+    - [条件](#conditions)
+    - [サイト・ツー・サイトネットワークを構築する手順](#steps-to-build-a-site-to-site-network)
+    - [サイト・ツー・サイト接続のテスト](#testing-the-site-to-site-connection)
+    - [ルートとその他のオプション](#route-and-other-options)
+- [バッチ設定](#batch-setting)
+    - [単一デバイスのバッチ設定](#batch-setting-of-single-device)
+    - [複数デバイスのバッチ設定](#batch-setting-of-mutiple-devices)
+    - [その他のバッチ操作](#other-batch-operations)
+- [テンプレート管理](#template-management)
+    - [テンプレートを追加する](#add-a-template)
+    - [アップグレード](#upgrade)
+    - [テンプレートをルーターに適用する](#apply-a-template-to-a-router)
+    - [複数のルーターにテンプレートを適用する](#apply-a-template-to-multiple-routers)
+- [タスクリスト](#task-list)
+- [GoodCloud と VPN](#goodcloud-and-vpn)
+- [クラウドをオフにする](#turn-off-cloud)
 
-## 導入
+## はじめに
 
-GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage routers. There is a video introduction below.
+GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud管理サービスは、ルーターにリモートでアクセスとルーターの管理ための簡単かつシンプルな方法を提供します。 以下に動画による紹介があります。
 
-Introducing GoodCloud, Your Remote Device Management Solution.
+リモートデバイス管理ソリューション、GoodCloudのご紹介。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JkV2PAy-_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Easy Guide to Setting Up your GoodCloud Wi-Fi Management System for SMEs.
+中小企業向けGoodCloud Wi-Fi管理システムの簡単設定ガイド。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7U1CwpKOKDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Features:
+特徴：
 
-* Check live router status
-    - Live online offline status check
-    - Live RAM and Load Average check
-    - LTE Signal
-    - Email alarm about online offline status update
+* ライブルーターのステータスを確認する
+    - ライブオンライン/オフラインステータス チェック
+    - ライブRAMと負荷平均チェック
+    - LTE信号
+    - オンライン、オフラインのステータス更新に関する電子メール アラーム
 
-* Set up routers remotely
-    - Set up routers (e.g. SSID and Key) remotely
-    - Remote SSH
-    - Remote access web Admin Panel
+* ルーターのリモート設定
+    - ルーターの設定（SSIDやキーなど）をリモートで行う
+    - リモートSSH
+    - リモート アクセス Web 管理パネル
 
-* Monitoring clients on routers remotely
-    - Check who is on your network
-    - Realtime traffic monitoring and block clients
-    - Email alarm about new client and block
+* ルーターのクライアントをリモートで監視
+    - ネットワークに接続しているユーザーをチェックする
+    - リアルタイムトラフィック監視とブロッククライアント
+    - 新規顧客とブロックに関する電子メールアラーム
 
-* Operate routers in batch
-    - Set up config templates and configure routers in batch
-    - Reboot or upgrade routers in batch
+* ルーターのバッチ操作
+    - コンフィグテンプレートを設定し、バッチでルーターを設定する
+    - ルーターをバッチで再起動またはアップグレード
 
-* Manage routers in groups
-    - Divide devices in different groups
-    - Manage devices in one page
+* ルーターをグループで管理する
+    - デバイスをグループごとに分ける
+    - デバイスを1つのページで管理
 
-* Site to Site
-    - Virtual Office: extend your office network to other offices
-    - Business Travel: remote access office's OA, CRM, MySQL systems
-    - Smart Home: remote access IP camera, NAS and other devices at home
+* サイト・ツー・サイト
+    - バーチャルオフィス：オフィスのネットワークを他のオフィスへ拡張
+    - 出張：オフィスのOA、CRM、MySQLシステムにリモートアクセス
+    - スマートホーム：自宅のIPカメラ、NAS、その他のデバイスにリモートアクセス
 
-## Setup
+## セットアップ
 
-There is a video tutorial below about how to enable cloud function and bind it to GoodCloud.
+cloud機能を有効にし、GoodCloudにバインドする方法については、以下にチュートリアル動画を掲載しています。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mvJQZphSO1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Enable GoodCloud on router
+### ルーターでGoodCloudを有効にする
 
-On the left side of web Admin Panel -> APPLICATIONS -> GoodCloud.
+ウェブ管理画面の左側→アプリケーション→GoodCloud
 
 ![enable goodcloud](https://static.gl-inet.com/docs/en/4/tutorials/cloud/enable_goodcloud.png){class="glboxshadow"}
 
-Follow the steps above, to enable the cloud function, which will allow the router to connect to the GoodCloud server.
+上記の手順に従ってcloud機能を有効にすると、ルーターがGoodCloudサーバーに接続できるようになります。
 
-* **Remote SSH** is for remote access router's terminal via GoodCloud. Check out [here](#remote-access-routers-terminal).
+* **リモートSSH** は、GoodCloud経由でルーターの端末にリモートアクセスするためのものです。チェックアウト [ここ](#remote-access-routers-terminal)。
 
-* **Remote Web Access** is for remote access router's web Admin Panel via GoodCloud. Check out [here](#remote-access-web-admin-panel).
+* **リモート Web アクセス** GoodCloud経由でルーターのウェブ管理パネルにリモートアクセスするためのものです。チェックアウト [ここ](#remote-access-web-admin-panel)。
 
-* **Data Server**, please choose the server which is nearest your devices located. There are three Data Server, **Asia Pacific**(Japan), **America**(Oregon) and **Europe**(Ireland).
+* **データサーバー**、お使いのデバイスに最も近いサーバーを選択してください。 データサーバーは3つあります、**アジア太平洋地域**(Japan), **アメリカ**(Oregon) と**ヨーロッパ**(Ireland)。
 
-### Sign up GoodCloud account
+### GoodCloudアカウント登録
 
- Visit [https://www.goodcloud.xyz](https://www.goodcloud.xyz){target="_blank"}, sign up then sign in. If you don't find the verify email, look in spam or check email later. If you have any difficulty with sign up, please send email to [support@gl-inet.com](mailto:support@gl-inet.com) for help.
+  [https://www.goodcloud.xyz](https://www.goodcloud.xyz){target="_blank"}を訪問、 サインアップしてサインインする。確認メールが見つからない場合は、スパムを確認するか、後でメールを確認してください。登録に問題がある場合、[support@glinet.biz](mailto:support@glinet.biz) までメールでお問い合わせください。 
 
-### Select server region
+### サーバー地域選択
 
-At the first time when you sign in, it will pop up a dialog to let you select the region, please select the region same as your device selected Data Server on the web Admin Panel ([Step of enable GoodCloud on router](#enable-goodcloud-on-router)).
+初めてサインインすると、地域を選択するためのダイアログが表示されます。 ウェブ管理パネルで選択したデータサーバーと同じ地域を選択してください。([ルーターでGoodCloudを有効にする手順](#enable-goodcloud-on-router))。
 
-You can change the region on the top right corner at anytime.
+右上隅でいつでも地域を変更できます。
 
 ![select region button](https://static.gl-inet.com/docs/en/4/tutorials/cloud/select_region_button.png){class="glboxshadow"}
 
-### Add a new group 
+### 新しいグループを追加する
 
-On the left side -> Groups List -> Add group.
+左側 -> グループリスト -> グループの追加
 
-Follow the steps below to add a new group.
+新しいグループを追加するには、以下の手順に従ってください。
 
 ![add group](https://static.gl-inet.com/goodcloud/docs/add-group.png){class="glboxshadow"}
 
-Set the group name, company, description and location.
+グループ名、会社名、説明、所在地を設定してください。
 
-Each device must belong to a group.
+各デバイスはグループに属していなければなりません。
 
-### Add device
+### デバイスを追加する
 
-On the left side -> Devices List -> Add Device. There are three methods to bind device to your GoodCloud account, **Auto discover**, **Manually add** and **Bulk import**.
+左側 -> デバイスリスト -> デバイスの追加。デバイスを GoodCloud アカウントにバインドするには、**自動検出**、**手動で追加** と**一括輸入** 3 つの方法があります。
 
-=== "Auto discover"
+=== "自動検出"
 
-    If your router and PC(which opened GoodCloud website) are in the same network, please try the **Auto discover**.
+    ルーターとPC(GoodCloudウェブサイトを開いたPC)が同じネットワーク内にある場合は、**自動検出**をお試しください。
     
-    Follow the steps below to add your device.
+    以下の手順に従って、デバイスを追加ください。
 
     ![add device](https://static.gl-inet.com/goodcloud/docs/add-device.png){class="glboxshadow"}
 
-    Check out [here](../where_to_find_the_device_id_mac_sn) to find the Device ID.
+    デバイスID[こちら](../where_to_find_the_device_id_mac_sn) をチェックしてください。
 
-        Note: Input "DDNS/Device ID" here just to verify that the router is really 
-        original/valid.
+        注意: ここで「DDNS/デバイス ID」を入力するのは、ルーターが本当にオリジナル/有効であることを確認するためです。
 
-        If you haven't added a group before, it will automatically create a default 
-        group.
+        グループを追加したことがない場合は、自動的にデフォルトのグループが作成されます。
 
-    Click `Refresh` to force auto discover devices again.
+    `Refresh` をクリックすると、強制的にデバイスの自動検出を再開します。
 
-    ![auto discover](https://static.gl-inet.com/goodcloud/docs/auto-discover.png){class="glboxshadow"}
+    ![自動検出](https://static.gl-inet.com/goodcloud/docs/auto-discover.png){class="glboxshadow"}
 
 === "Manually add"
 
@@ -504,3 +502,7 @@ To stop GoodCloud service, turn it off on router web Admin Panel. Please follow 
 After disable Cloud, the interface is like below.
 
 ![after disable cloud](https://static.gl-inet.com/docs/en/4/tutorials/cloud/after_turn_off_cloud.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

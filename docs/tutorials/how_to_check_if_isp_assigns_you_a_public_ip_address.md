@@ -1,19 +1,31 @@
-#  インターネットサービスプロバイダがパブリック IP アドレスを割り当てているかどうかを確認するには？
+# How to check if Internet Service Provider assigns you a public IP address?
 
-## パブリックIPアドレスとは何ですか？
+## What is Public IP address?
 
-すべてのIPv4アドレスは、グローバル（またはパブリック、外部） - インターネットで使用されるアドレスと、プライベート（またはローカル、内部） - ローカルエリアネットワーク（LAN）で使用されるアドレスの2つのグループに大別されます。
+All IPv4 addresses can be divided into two major groups: global (or public, external) — those that are used on the Internet, and private (or local, internal) addresses — those that are used in the local area network (LAN).
 
-パブリックIPアドレスは、インターネットにアクセスするために使用されるIPアドレスです。パブリックIPアドレスは、プライベートアドレスとは異なり、インターネット上でルーティングすることができます。
+A public IP address is an IP address that is used to access the Internet. Public IP addresses can be routed on the Internet, unlike private addresses.
 
-ルーターにパブリックIPアドレスがあると、独自のサーバー（VPN、FTP、WEBなど）を編成したり、パソコンへのリモートアクセス、監視カメラなどを設置し、グローバルネットワーク上のどこからでもアクセスできるようになります。
+The presence of a public IP address on your router will allow you to organize your own server (VPN, FTP, WEB, etc.), remote access to your computer, video surveillance cameras, and get access to them from anywhere on the global network.
 
-## インターネットサービスプロバイダがあなたにパブリックIPアドレスを割り当てているかどうかを確認する方法は？
+## How to check if Internet Service Provider assigns you a public IP address?
 
-### 方法1:
+### Method 1:
 
-方法1：インターネットサービスプロバイダに直接問い合わせる。
+Ask your Internet Service Provider directly.
 
-### 方法2:
+### Method 2:
 
-方法2：以下の2つのIPアドレスが同じかどうかを確認します。
+Check the two IP addresses below to see if they are the same, otherwise you don't have a public IP.
+
+* Search **my ip address** on Google, or access our IP tools [https://tool.gl-inet.com/ip](https://tool.gl-inet.com/ip){target="_blank"}
+
+* Access the main router, you can find the WAN IP address.
+
+We use GL.iNet router as the main router, if you found WAN IP address is same as the `IP Address` on the Internet page run on Google before, then **42xxxxx** is your Public IP.
+
+![is public ip address](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/is_public_ip_address.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

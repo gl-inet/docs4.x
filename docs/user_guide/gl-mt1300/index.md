@@ -1,30 +1,22 @@
-# Flint (GL-AX1800) User Guide
+# Beryl (GL-MT1300) User Guide
 
 ## Hardware info
 
-Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 600Mbps (2.4GHz) + 1200Mbps (5GHz). Its VPN encryption speed goes up to 667Mbps and can be used to host VPN servers. Flint is perfect for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming.
+Beryl (GL-MT1300) is a high-performance next generation pocket-sized router that offers a powerful hardware and first-class cybersecurity protocol with unique and modern design. Beryl is the new era of travel router, an advanced version of our best-seller, Slate (GL-AR750S).
 
-![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
+![gl-mt1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/hardware_info/mt1300_interface.jpg){class="glboxshadow"}
 
----
-
-### Specification
-
-[GL-AX1800 specification](https://www.gl-inet.com/products/gl-ax1800/#specs){target="_blank"}
-
----
+[GL-MT1300 specification](https://www.gl-inet.com/products/gl-mt1300/#specs){target="_blank"}
 
 ### PCB Pinout
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="thumbnail" alt="gl-ax1800 pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/3/specification/gl-mt1300/pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
+      <img src="https://static.gl-inet.com/docs/router/en/3/specification/gl-mt1300/pinout.jpg" itemprop="thumbnail" alt="gl-mt1300 pinout" loading="lazy" />
     </a>
   </figure>
 </div>
-
----
 
 ## First time setup
 
@@ -32,22 +24,20 @@ All of GL.iNet's devices have a simple and almost identical setup process, [clic
 
 Please note that the adapter within the package depends on your shipping country.
 
-What’s inside the package?
+What's inside the package?
 
-![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
+![gl-mt1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
 - 1 x User manual
-- 1 x Flint (GL-AX1800)
+- 1 x Beryl (GL-MT1300)
 - 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
 
-Check out Flint's [unboxing video](../../video_library/unboxing_first_set_up.md#flintgl-ax1800).
-
----
+Check out Beryl's [unboxing video](../../video_library/unboxing_first_set_up.md#berylgl-mt1300).
 
 ## INTERNET
 
@@ -63,7 +53,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -71,15 +61,15 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
-Establish internet access with connected devices by sharing a smartphone’s mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -87,7 +77,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 
@@ -153,22 +143,6 @@ Please visit the  [**GoodCloud**](../../interface_guide/cloud.md) tutorial.
 
 Please visit the [**Network Storage**](../../interface_guide/network_storage.md) tutorial.
 
-### AdGuard Home
-
-Please visit the [**AdGuard Home**](../../interface_guide/adguardhome.md) tutorial.
-
-### Parental Control
-
-Please visit the [**Parental Control**](../../interface_guide/parental_control.md) tutorial.
-
-### ZeroTier
-
-Please visit the [**ZeroTier**](../../interface_guide/zerotier.md) tutorial.
-
-### Tailscale
-
-Please visit the [**Tailscale**](../../interface_guide/tailscale.md) tutorial.
-
 ---
 
 ## NETWORK
@@ -213,6 +187,12 @@ Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md)
 
 Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping.md) tutorial.
 
+### Network Acceleration
+
+Formerly known as [Hardware Acceleration](../../interface_guide/hardware_acceleration.md).
+
+Please visit the [**Network Acceleration**](../../interface_guide/network_acceleration.md) tutorial.
+
 ---
 
 ## SYSTEM
@@ -240,6 +220,10 @@ Please visit the [**Admin Password**](../../interface_guide/admin_password.md) t
 ### Time Zone
 
 Please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
+
+### Toggle Button Settings
+
+Please visit the [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md) tutorial.
 
 ### Log
 

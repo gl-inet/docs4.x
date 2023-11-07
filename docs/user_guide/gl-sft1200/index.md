@@ -1,25 +1,19 @@
-# Flint (GL-AX1800) User Guide
+# GL-SFT1200 (Opal) User Guide
 
 ## Hardware info
 
-Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 600Mbps (2.4GHz) + 1200Mbps (5GHz). Its VPN encryption speed goes up to 667Mbps and can be used to host VPN servers. Flint is perfect for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming.
+GL-SFT1200 (Opal) is a pocket-sized travel router supporting 1200Mbps wireless transfers speed. It is compactly designed for portable use, which can meet the needs of wireless internet access for small businesses, small apartments or business traveler.
 
-![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
+![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/3/setup/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
----
-
-### Specification
-
-[GL-AX1800 specification](https://www.gl-inet.com/products/gl-ax1800/#specs){target="_blank"}
-
----
+[GL-SFT1200 specification](https://www.gl-inet.com/products/gl-sft1200/#specs){target="_blank"}
 
 ### PCB Pinout
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="thumbnail" alt="gl-ax1800 pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/3/specification/gl-sft1200/gl-sft1200-pinout.jpg" itemprop="contentUrl" data-size="1500x1500">
+      <img src="https://static.gl-inet.com/docs/router/en/3/specification/gl-sft1200/gl-sft1200-pinout.jpg" itemprop="thumbnail" alt="gl-sft1200 pinout" loading="lazy" />
     </a>
   </figure>
 </div>
@@ -32,20 +26,14 @@ All of GL.iNet's devices have a simple and almost identical setup process, [clic
 
 Please note that the adapter within the package depends on your shipping country.
 
-What’s inside the package?
-
-![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
-
 Package Contents:
 
 - 1 x User manual
-- 1 x Flint (GL-AX1800)
+- 1 x Opal (GL-SFT1200)
 - 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
-
-Check out Flint's [unboxing video](../../video_library/unboxing_first_set_up.md#flintgl-ax1800).
 
 ---
 
@@ -63,7 +51,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/internet/sft1200_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -71,7 +59,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/internet/sft1200_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -79,7 +67,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/internet/sft1200_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -87,7 +75,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/internet/sft1200_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 
@@ -105,7 +93,7 @@ The wireless settings lets users manage network security of the primary Wi-Fi an
 
 ## CLIENTS
 
-Clients are devices connected to the router, you can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router’s Admin Panel.
+Clients are devices connected to the router, you can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router's Admin Panel.
 
 [Click here to learn more about managing your device clients.](../../interface_guide/clients.md)
 
@@ -113,7 +101,7 @@ Clients are devices connected to the router, you can block clients or limit its 
 
 ## VPN
 
-GL.iNet routers have pre-installed VPN server and client in OpenVPN and WireGuard.
+GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VPN services. It automatically encrypts all network traffic within the connected network, including guest devices and client devices that are not capable of running VPN encryption. Our routers can also act as VPN servers, redirecting traffic from client devices in remote locations to the VPN server via a VPN tunnel before accessing the public internet.
 
 ### VPN Dashboard
 
@@ -121,21 +109,27 @@ GL.iNet routers have pre-installed VPN server and client in OpenVPN and WireGuar
 
 ### OpenVPN
 
-Please refer to the links below for the detailed setup instruction:
+Please refer to the following links for a step to step setup guide:
 
 - [**Setup OpenVPN Client**](../../interface_guide/openvpn_client.md)
 - [**Setup OpenVPN Server**](../../interface_guide/openvpn_server.md)
 
 ### WireGuard
 
-Please refer to the links below for the detailed setup instruction:
+Please refer to the following links for a step to step setup guide:
 
 - [**Setup WireGuard Client**](../../interface_guide/wireguard_client.md)
 - [**Setup WireGuard Server**](../../interface_guide/wireguard_server.md)
 
+### Tor
+
+- [**Tor**](../../interface_guide/tor.md)
+
 ---
 
 ## APPLICATIONS
+
+GL.iNet routers include a wide range of add-on features that simplifies device management, improves user's internet experience, automates firmware update, and more.
 
 ### Plug-ins
 
@@ -148,26 +142,6 @@ Please visit the [**Dynamic DNS**](../../interface_guide/ddns.md) tutorial.
 ### GoodCloud
 
 Please visit the  [**GoodCloud**](../../interface_guide/cloud.md) tutorial.
-
-### Network Storage
-
-Please visit the [**Network Storage**](../../interface_guide/network_storage.md) tutorial.
-
-### AdGuard Home
-
-Please visit the [**AdGuard Home**](../../interface_guide/adguardhome.md) tutorial.
-
-### Parental Control
-
-Please visit the [**Parental Control**](../../interface_guide/parental_control.md) tutorial.
-
-### ZeroTier
-
-Please visit the [**ZeroTier**](../../interface_guide/zerotier.md) tutorial.
-
-### Tailscale
-
-Please visit the [**Tailscale**](../../interface_guide/tailscale.md) tutorial.
 
 ---
 
@@ -213,6 +187,12 @@ Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md)
 
 Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping.md) tutorial.
 
+### Network Acceleration
+
+Formerly known as [Hardware Acceleration](../../interface_guide/hardware_acceleration.md).
+
+Please visit the [**Network Acceleration**](../../interface_guide/network_acceleration.md) tutorial.
+
 ---
 
 ## SYSTEM
@@ -240,6 +220,10 @@ Please visit the [**Admin Password**](../../interface_guide/admin_password.md) t
 ### Time Zone
 
 Please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
+
+### Toggle Button Settings
+
+Please visit the [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md) tutorial.
 
 ### Log
 

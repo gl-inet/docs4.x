@@ -1,28 +1,28 @@
-# Flint (GL-AX1800) User Guide
+# Flint 2 (GL-MT6000) User Guide
 
 ## Hardware info
 
-Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 600Mbps (2.4GHz) + 1200Mbps (5GHz). Its VPN encryption speed goes up to 667Mbps and can be used to host VPN servers. Flint is perfect for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming.
+Flint 2 (GL-MT6000) is a Wi-Fi 6 home and office router ideally suited for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming environments. Flint 2 offers blazing-fast WireGuard VPN speeds of up to 900Mbps. In addition, it also supports advanced network redundancies, including Multi-WAN, Failover and Load balance to ensure an uninterrupted network.
 
-![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
+![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
 
 ---
 
 ### Specification
 
-[GL-AX1800 specification](https://www.gl-inet.com/products/gl-ax1800/#specs){target="_blank"}
+[GL-MT6000 specification](https://www.gl-inet.com/products/gl-mt6000/#specs){target="_blank"}
 
----
+<!-- ---
 
 ### PCB Pinout
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="thumbnail" alt="gl-ax1800 pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
+      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_pinout.jpg" itemprop="thumbnail" alt="gl-mt6000 pinout" loading="lazy" />
     </a>
   </figure>
-</div>
+</div> -->
 
 ---
 
@@ -34,18 +34,18 @@ Please note that the adapter within the package depends on your shipping country
 
 What’s inside the package?
 
-![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
+![gl-mt6000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/first_time_setup/gl-mt6000_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
-- 1 x User manual
-- 1 x Flint (GL-AX1800)
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
+- 1 x GL-MT6000 Router
+- 1 x Power Adapter
+- 1 x Ethernet Cable
+- 1 x User Manual & Warranty Card
+- 1 x Converter
+- 1 x Thank You Card
 
-Check out Flint's [unboxing video](../../video_library/unboxing_first_set_up.md#flintgl-ax1800).
+<!-- Check out Flint 2's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt6000flint2). -->
 
 ---
 
@@ -63,7 +63,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -71,7 +71,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -79,7 +79,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -87,7 +87,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 
@@ -132,6 +132,10 @@ Please refer to the links below for the detailed setup instruction:
 
 - [**Setup WireGuard Client**](../../interface_guide/wireguard_client.md)
 - [**Setup WireGuard Server**](../../interface_guide/wireguard_server.md)
+
+### Tor
+
+- [**Tor**](../../interface_guide/tor.md)
 
 ---
 
@@ -213,6 +217,15 @@ Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md)
 
 Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping.md) tutorial.
 
+### Network Acceleration
+
+Formerly known as [Hardware Acceleration](../../interface_guide/hardware_acceleration.md).
+
+Please visit the [**Network Acceleration**](../../interface_guide/network_acceleration.md) tutorial.
+
+<!-- TODO -->
+<!-- ### Advanced Settings -->
+
 ---
 
 ## SYSTEM
@@ -231,12 +244,6 @@ Please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutori
 
 Please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
 
-### Admin Password
-
-This feature has been moved to [**Security**](../../interface_guide/security.md) since v4.5.
-
-Please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
-
 ### Time Zone
 
 Please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
@@ -250,6 +257,9 @@ Please visit the [**Log**](../../interface_guide/log.md) tutorial.
 This feature is available since v4.5.
 
 Please visit the [**Security**](../../interface_guide/security.md) tutorial.
+
+<!-- TODO -->
+<!-- ### Security -->
 
 ### Reset Firmware
 

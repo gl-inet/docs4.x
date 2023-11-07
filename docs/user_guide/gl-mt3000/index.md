@@ -1,16 +1,18 @@
-# Flint (GL-AX1800) User Guide
+# GL-MT3000 (Beryl AX) User Guide
 
 ## Hardware info
 
-Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 600Mbps (2.4GHz) + 1200Mbps (5GHz). Its VPN encryption speed goes up to 667Mbps and can be used to host VPN servers. Flint is perfect for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming.
+Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi 6 protocol. It is an upgraded version of Beryl (GL-MT1300), it runs on MT7981B 1.3GHz dual-core processor, offering more than double the total Wi-Fi speed. It is designed to support families with heavy Wi-Fi usage, and it's also compactly designed for travel use.
 
-![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
+![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_interface.jpg){class="glboxshadow"}
 
 ---
 
 ### Specification
 
-[GL-AX1800 specification](https://www.gl-inet.com/products/gl-ax1800/#specs){target="_blank"}
+[GL-MT3000 specification](https://www.gl-inet.com/products/gl-mt3000/#specs){target="_blank"}
+
+[LED Indication](../../faq/led.md#gl-mt3000)
 
 ---
 
@@ -18,8 +20,8 @@ Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 6
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="thumbnail" alt="gl-ax1800 pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_pinout.jpg" itemprop="contentUrl" data-size="1200x1200">
+      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_pinout.jpg" itemprop="thumbnail" alt="gl-mt3000 pinout" loading="lazy" />
     </a>
   </figure>
 </div>
@@ -32,20 +34,20 @@ All of GL.iNet's devices have a simple and almost identical setup process, [clic
 
 Please note that the adapter within the package depends on your shipping country.
 
-What’s inside the package?
+What's inside the package?
 
-![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
+![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
 
 Package Contents:
 
 - 1 x User manual
-- 1 x Flint (GL-AX1800)
+- 1 x Beryl AX (GL-MT3000)
 - 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
 
-Check out Flint's [unboxing video](../../video_library/unboxing_first_set_up.md#flintgl-ax1800).
+Check out Slate AX's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt3000beryl-ax).
 
 ---
 
@@ -63,7 +65,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -71,7 +73,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -79,7 +81,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -87,7 +89,7 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 
@@ -113,7 +115,7 @@ Clients are devices connected to the router, you can block clients or limit its 
 
 ## VPN
 
-GL.iNet routers have pre-installed VPN server and client in OpenVPN and WireGuard.
+GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VPN services. It automatically encrypts all network traffic within the connected network, including guest devices and client devices that are not capable of running VPN encryption. Our routers can also act as VPN servers, redirecting traffic from client devices in remote locations to the VPN server via a VPN tunnel before accessing the public internet.
 
 ### VPN Dashboard
 
@@ -121,21 +123,27 @@ GL.iNet routers have pre-installed VPN server and client in OpenVPN and WireGuar
 
 ### OpenVPN
 
-Please refer to the links below for the detailed setup instruction:
+Please refer to the following links for a step to step setup guide:
 
 - [**Setup OpenVPN Client**](../../interface_guide/openvpn_client.md)
 - [**Setup OpenVPN Server**](../../interface_guide/openvpn_server.md)
 
 ### WireGuard
 
-Please refer to the links below for the detailed setup instruction:
+Please refer to the following links for a step to step setup guide:
 
 - [**Setup WireGuard Client**](../../interface_guide/wireguard_client.md)
 - [**Setup WireGuard Server**](../../interface_guide/wireguard_server.md)
 
+### Tor
+
+- [**Tor**](../../interface_guide/tor.md)
+
 ---
 
 ## APPLICATIONS
+
+GL.iNet routers include a wide range of add-on features that simplifies device management, improves user's internet experience, automates firmware update, and more.
 
 ### Plug-ins
 
@@ -240,6 +248,10 @@ Please visit the [**Admin Password**](../../interface_guide/admin_password.md) t
 ### Time Zone
 
 Please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
+
+### Toggle Button Settings
+
+Please visit the [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md) tutorial.
 
 ### Log
 

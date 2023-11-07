@@ -8,27 +8,27 @@
 
 ## 基本的な流れ
 
-![リピーター](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
+![リピーター](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
 
 上の画像の **接続** 
 
-![repeater join wlan](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_wlan.png){class="glboxshadow"}
+![repeater join wlan](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_wlan.png){class="glboxshadow"}
 
 ドロップダウンリストからSSIDを選択し、そのパスワードを入力します。接続したいSSIDがリストにない場合。下の画像をクリックしてください。 　[Join Other Network](#join-other-network) 　
 
-![repeater join network](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_network.png){class="glboxshadow"}
+![repeater join network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_network.png){class="glboxshadow"}
 
 For [Advanced Settings](#join-network-advanced-setting).
 
 しばらく待って、パスワードが正しければ、接続は成功します。
 
-![repeater connected](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
 ## ジョインネットワークの詳細設定
 
 ネットワークに参加する際、さらに2つのオプションがあります。
 
-![repeater join network advanced setting](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
+![repeater join network advanced setting](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
 
 * **ロック　BSSID**. このオプションを有効にすると、ルーターはこのSSIDを使用するネットワークに切り替えたときに、選択したBSSIDに対応するAPにのみ接続します。
 
@@ -38,9 +38,9 @@ For [Advanced Settings](#join-network-advanced-setting).
 
 リピーターオプションのコグアイコンをクリックします。
 
-![repeater connected](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-![repeater options](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_options.png){class="glboxshadow"}
+![repeater options](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_options.png){class="glboxshadow"}
 
 * **保存した他のネットワークへの切り替えを許可する**。このオプションを有効にすると、現在のWi-Fiネットワークに接続できない場合、ルーターは自動的に他の保存されたネットワークに接続します。
 
@@ -54,16 +54,16 @@ For [Advanced Settings](#join-network-advanced-setting).
 
 既知のネットワークを削除するには、 **スイッチネットワーク**をクリックします。
 
-![リピータ接続](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![リピータ接続](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
  または**接続**をクリックします。
 
-![リピータ](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
+![リピータ](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
 
 **既知のネットワーク** セクターで、 [ゴミ箱アイコン]をクリックして既知のネットワークを削除し、[歯車アイコン]をクリックしてネットワークを構成します。
 
-![既知のネットワークのリピーター](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_known_networks.png){class="glboxshadow"}
+![既知のネットワークのリピーター](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_known_networks.png){class="glboxshadow"}
 
 ## 既知のネットワークのリピーター
 
-![](https://static.gl-inet.com/docs/en/4/tutorials/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
+![](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}

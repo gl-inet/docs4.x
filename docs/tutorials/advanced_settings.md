@@ -8,4 +8,4 @@ OpenWrtのデフォルトのWebユーザインタフェースであるLuCIで、
 
 192.168.8.1/cgi-bin/luci**のリンクをクリックすると、LuCIのページにアクセスできます。
 
-![詳細設定](https://static.gl-inet.com/docs/en/4/tutorials/advanced_settings/advanced_settings.png){class="glboxshadow"}.
+![詳細設定](https://static.gl-inet.com/docs/router/en/4/tutorials/advanced_settings/advanced_settings.png){class="glboxshadow"}.

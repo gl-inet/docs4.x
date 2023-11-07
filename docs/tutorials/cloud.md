@@ -90,7 +90,7 @@ cloud機能を有効にし、GoodCloudにバインドする方法については
 
 ウェブ管理画面の左側→アプリケーション→GoodCloud
 
-![enable goodcloud](https://static.gl-inet.com/docs/en/4/tutorials/cloud/enable_goodcloud.png){class="glboxshadow"}
+![enable goodcloud](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/enable_goodcloud.png){class="glboxshadow"}
 
 上記の手順に従ってcloud機能を有効にすると、ルーターがGoodCloudサーバーに接続できるようになります。
 
@@ -110,7 +110,7 @@ cloud機能を有効にし、GoodCloudにバインドする方法については
 
 右上隅でいつでも地域を変更できます。
 
-![select region button](https://static.gl-inet.com/docs/en/4/tutorials/cloud/select_region_button.png){class="glboxshadow"}
+![select region button](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/select_region_button.png){class="glboxshadow"}
 
 ### 新しいグループを追加する
 
@@ -171,13 +171,13 @@ After you seccessfully add router to GoodCloud, go back to router web Admin Pane
 
 refresh this page, It will display the bound GoodCloud username and date.
 
-![goodcloud bound](https://static.gl-inet.com/docs/en/4/tutorials/cloud/goodcloud_bound_info.png){class="glboxshadow"}
+![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/goodcloud_bound_info.png){class="glboxshadow"}
 
 ### Unbind router
 
 If you want to unbind the router, go to router web Admin Panel, on the left side, APPLICATION -> GoodCloud, click **Unbind** button.
 
-![goodcloud unbind](https://static.gl-inet.com/docs/en/4/tutorials/cloud/goodcloud_unbind.png){class="glboxshadow"}
+![goodcloud unbind](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/goodcloud_unbind.png){class="glboxshadow"}
 
 ## Manage your devices
 
@@ -489,7 +489,7 @@ If you enable GoodCloud function and running VPN client at the same time on rout
 
 Go to web Admin Panel, on the left side, VPN -> VPN Dashboard -> VPN Client -> Global Options.
 
-![Services from GL.iNet doesn't Use VPN](https://static.gl-inet.com/docs/en/4/tutorials/cloud/goodcloud_donot_use_vpn.png){class="glboxshadow"}
+![Services from GL.iNet doesn't Use VPN](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/goodcloud_donot_use_vpn.png){class="glboxshadow"}
 
 It is not recommended to run Site to Site while its nodes are also running VPN client, which can make the network particularly complex.
 
@@ -497,11 +497,11 @@ It is not recommended to run Site to Site while its nodes are also running VPN c
 
 To stop GoodCloud service, turn it off on router web Admin Panel. Please follow the steps below. No action needed on the GoodCloud website.
 
-![disable cloud](https://static.gl-inet.com/docs/en/4/tutorials/cloud/turn_off_cloud.png){class="glboxshadow"}
+![disable cloud](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/turn_off_cloud.png){class="glboxshadow"}
 
 After disable Cloud, the interface is like below.
 
-![after disable cloud](https://static.gl-inet.com/docs/en/4/tutorials/cloud/after_turn_off_cloud.png){class="glboxshadow"}
+![after disable cloud](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/after_turn_off_cloud.png){class="glboxshadow"}
 
 ---
 

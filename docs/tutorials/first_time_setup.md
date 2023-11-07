@@ -38,17 +38,17 @@ GL-AXT1800、電源アダプタ、イーサネットケーブル。
 
     言語を選択。
     
-    ![言語を選択](https://static.gl-inet.com/docs/jp/4/tutorials/first_time_setup/change_your_language.png){class = "glboxshadow"}
+    ![言語を選択](https://static.gl-inet.com/docs/router/jp/4/tutorials/first_time_setup/change_your_language.png){class = "glboxshadow"}
 
     管理者パスワードを設定します。強力なパスワードを使用することをお勧めします。 **送信**をクリックして続行します。
 
     **注**：初期化中にWi-Fiがオフになる場合があります。必ず、ルーターに再接続してください。
 
-    ![管理者パスワードを設定](https://static.gl-inet.com/docs/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class = "glboxshadow"}
+    ![管理者パスワードを設定](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class = "glboxshadow"}
 
     初期設定後、ルーターのWeb管理パネルに入ります。
 
-    ![管理パネル](https://static.gl-inet.com/docs/jp/4/tutorials/first_time_setup/admin_panel.png){class = "glboxshadow"}
+    ![管理パネル](https://static.gl-inet.com/docs/router/jp/4/tutorials/first_time_setup/admin_panel.png){class = "glboxshadow"}
 
 4. インターネットに接続する
 

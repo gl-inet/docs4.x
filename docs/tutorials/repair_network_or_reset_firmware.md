@@ -24,4 +24,4 @@
 
     **注意：**現在の設定、アプリケーション、データはすべて失われます。このプロセスには約 3 分かかります。このプロセスでは、ルーターの電源を切らないでください。
     
-    ![glinet reset firmware](https://static.gl-inet.com/docs/en/4/tutorials/reset_firmware/reset_firmware.png){class="glboxshadow"}
+    ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware.png){class="glboxshadow"}

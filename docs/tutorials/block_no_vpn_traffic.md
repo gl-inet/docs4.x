@@ -6,6 +6,6 @@
 
 VPNクライアント**セクションで、**グローバルオプション**をクリックし、**非VPNトラフィックをブロック**をトグルし、**適用**ボタンをクリックします。
 
-![vpnクライアントのグローバルオプション](https://static.gl-inet.com/docs/en/4/tutorials/block_no_vpn_traffic/global_options.png){class="glboxshadow"}。
+![vpnクライアントのグローバルオプション](https://static.gl-inet.com/docs/router/en/4/tutorials/block_no_vpn_traffic/global_options.png){class="glboxshadow"}。
 
 **注意:** VPNクライアントを実行する必要があり、そうでない場合はインターネットにアクセスすることはできません。

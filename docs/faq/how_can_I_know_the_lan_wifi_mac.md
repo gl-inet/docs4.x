@@ -1,22 +1,44 @@
 # How can I know my device's WAN, LAN, 2.4G, 5G Mac addresses
 
-The Mac addresses of our devices are unique for each connecting port, they are arranging in sequence of hexadecimal order.
+The Mac addresses of our devices are unique for each connecting port, they can be found in WAN 1, WAN 2, LAN ports, 2.4G WiFi and 5G WiFi.
 
-The sequence is 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+You can look up them by the following methods.
 
-## Finding the WAN Mac address
+**Method 1**
+
+## Finding the WAN Mac address from the label
 
 ![wan_lan_wifi](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/wan_lan_wifi.png){class="glboxshadow"}
 
 You can find the WAN address on the back label of our device. For example the WAN Mac is: E4:95:6E:40:DB:A9 here.
 
-## Calculate the LAN, 2.4G and 5G Mac addresses
+**Method 2**
 
-The LAN Mac address is the WAN +1, therefore the result is E4:95:6E:40:DB:AA  (9 + 1 =A)
+## Check them up in SSH cell
 
-The 2.4G Mac address is the WAN +2 therefore the result is E4:95:6E:40:DB:AB (9 + 2 =B)
+Please check [here](remote_ssh_to_router.md) for how to use SSH cell.
 
-The 5G Mac address is the WAN +3 therefore the result is E4:95:6E:40:DB:AC (9 + 3 =C)
+Please type **ifconfig** in the SSH cell.
+
+### Find the ethernet ports
+
+![ifconfigwan](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/ifcongwan.jpg){class="glboxshadow"}
+
+**eth0** is the WAN, which Mac Address is **94:83:C4:19:19:08**. 
+
+If there is one more WAN port, there will be one more WAN Mac Address. For example, our GL-MT6000.
+
+**eth1**, **eth2**, etc, are the LANs, which Mac Address is **94:83:C4:19:19:09**. 
+
+There would be only one Mac Address even there are more than one LAN ports. For example, our GL-AXT1800, GL-AX1800, GL-MT6000.
+
+### Find the wireless ports
+
+![ifconfigwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/ifcongwifi.jpg){class="glboxshadow"}
+
+**wlan0-1** is the 2.4G WiFi, which Mac Address is **96:83:C4:19:19:0B**.
+
+**wlan1** is the 5G WiFi, which Mac Address is **94:83:C4:19:19:0A**.
 
 ## Usage Scenario
 

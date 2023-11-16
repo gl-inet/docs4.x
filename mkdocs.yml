@@ -103,6 +103,7 @@ nav:
     - GL-S10: user_guide/gl-s10/index.md
     - GL-MT1300 (Beryl): user_guide/gl-mt1300/index.md
     - GL-AP1300 (Cirrus): user_guide/gl-ap1300/index.md
+    - GL-E750/GL-E750V2 (Mudi/Mudi V2): user_guide/gl-e750/index.md
     - GL-X750 (Spitz): user_guide/gl-x750/index.md
     - GL-XE300 (Puli): user_guide/gl-xe300/index.md
     - GL-X300B (Collie): user_guide/gl-x300b/index.md
@@ -148,12 +149,15 @@ nav:
       - How to check Carrier Aggregation: tutorials/how_to_check_carrier_aggregation.md
       - How to change x3000 and xe3000 antennas: tutorials/how to change x3000 and xe3000 antennas.md
     - VPN:
-      - VPN Cascading: tutorials/vpn_cascading.md
-      - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
       - Accessing client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - Build your own OpenVPN Home Server with two GL-iNET Routers: tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md
+      - Build your own WireGuard Home Server with two GL-iNET Routers: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
       - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - How to set up Wireguard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
       - How to connect to the dedicated IP by NordVPN on GL.iNet routers?: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
+      - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
+      - VPN Cascading: tutorials/vpn_cascading.md
+
     - Network Storage:
       - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
     - GoodCloud:

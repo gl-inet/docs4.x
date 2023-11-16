@@ -147,7 +147,7 @@ nav:
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Moduel Logs: tutorials/get_module_logs.md
       - How to check Carrier Aggregation: tutorials/how_to_check_carrier_aggregation.md
-      - How to change x3000 and xe3000 antennas: tutorials/how to change x3000 and xe3000 antennas.md
+      - How to change x3000 and xe3000 antennas: tutorials/how_to_change_x3000_and_xe3000_antennas.md
     - VPN:
       - Accessing client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
       - Build your own OpenVPN Home Server with two GL-iNET Routers: tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md

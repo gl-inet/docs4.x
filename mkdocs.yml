@@ -103,6 +103,7 @@ nav:
     - GL-S10: user_guide/gl-s10/index.md
     - GL-MT1300 (Beryl): user_guide/gl-mt1300/index.md
     - GL-AP1300 (Cirrus): user_guide/gl-ap1300/index.md
+    - GL-E750/GL-E750V2 (Mudi/Mudi V2): user_guide/gl-e750/index.md
     - GL-X750 (Spitz): user_guide/gl-x750/index.md
     - GL-XE300 (Puli): user_guide/gl-xe300/index.md
     - GL-X300B (Collie): user_guide/gl-x300b/index.md

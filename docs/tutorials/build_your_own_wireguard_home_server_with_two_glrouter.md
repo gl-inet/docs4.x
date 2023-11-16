@@ -13,17 +13,17 @@ Here we use our GL-MT6000 as the example to run WireGuard VPN server at the home
 
 ## Topology
 
-![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/topologywg.jpg){class="glboxshadow"}
+![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
 
 ## Check if you have a Public IP address
 
-First, you shall make sure the GL-MT6000 has a Public IP address on its WAN side, tso that it can be globally accessed. Otherwise your travel router cannot build up a VPN connection with it while you are traveling.
+First, you shall make sure the GL-MT6000 has a Public IP address on its WAN side, so that it can be globally accessed. Otherwise your travel router cannot build up a VPN connection with it while you are traveling.
 
 To check if you have the Public IP address, please open a web browser and type in [ip.gs](https:ip.gs) in the address bar.
 
-![myip](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/myip.jpg){class="glboxshadow"}
+![myip](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/myip.jpg){class="glboxshadow"}
 
-It will show your public IP if it matches with your WAN IP from your ISP, you are granted a Public IP Address.
+It will show your public IP address, if it matches with your WAN IP from your ISP, you are granted a Public IP Address.
 
 If you don’t have a Public IP address, here are some methods for your reference.
 
@@ -37,12 +37,12 @@ Connect to your home router’s WiFi or LAN, then login the web admin panel. Che
 
 **Example: A TP-Link Router**
 
-![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/tp_home.jpg){class="glboxshadow"}
+![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_home.jpg){class="glboxshadow"}
 
 ### Set up the Port Forwarding on your main router
 
 1. Login to the web control page of your main router 
-2. Find out where is the function of port forward, different brands may call it by different names
+2. Find out where is the function of port forwarding, different brands may call it by different names
 3. Find the IP address assigned to GL-MT6000
 
 **Example: A TP-Link Router**
@@ -52,11 +52,11 @@ Connect to your home router’s WiFi or LAN, then login the web admin panel. Che
 3. External/Internal port:  Please fill both are "51820"
 4. Protocol:  You can choose "All or UDP or TCP/UDP"
 
-![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/tp_port1.jpg){class="glboxshadow"}
+![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_port1.jpg){class="glboxshadow"}
 
 ## Scenario 2: Your MT3000 connects to the ISP modem directly
 
-![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/mt6000_home.jpg){class="glboxshadow"}
+![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.jpg){class="glboxshadow"}
 
 You can see your Public IP shows on the IP Address and you have **No Need** to do port forwarding.
 
@@ -68,57 +68,57 @@ Enable the DDNS function if you do not have a Public Static IP but only have a P
 
 Go to the admin panel >Applications>Dynamic DNS and slide to enable
 
-![serverddns](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/serverddns.jpg){class="glboxshadow"}
+![serverddns](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/serverddns.jpg){class="glboxshadow"}
 
 Check the box below and click **Apply**.
 
-![ddnsapply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/ddnsapply.jpg){class="glboxshadow"}
+![ddnsapply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/ddnsapply.jpg){class="glboxshadow"}
 
 Then Go to WireGuard VPN server, make sure the Listen Port is 51820 and click “Apply.”
 
-![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/wgsever.jpg){class="glboxshadow"}
+![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgsever.jpg){class="glboxshadow"}
 
 ## Generate a Configuration
 
-Click **Profiles** and **Add** a Client then it will automatically generate a client configuration. Click the **quare icon** (point 2) and slide to use DDNS Domain. (point 3, Optional if you have dynamic IP only).
+Click **Profiles** and **Add** a Client then it will automatically generate a client configuration. Click the **square icon** (point 2) and slide to use DDNS Domain. (point 3, Optional if you have dynamic IP only).
 
-![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/wgconfiggen.jpg){class="glboxshadow"}
+![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
 
 Use the WireGuard [mobile app](https://www.wireguard.com/install/) scan the QR to test the server.For details please click [here](../interface_guide/wireguard_server.md#to-check-if-wireguard-server-is-working-properly).
 
 ## Output a text format configuration for Client Installation
 
-Change the configuration to text format by click **Configuration File**! Copy the text for the client or download and save it then drag it to the client later.
+Change the configuration to text format by click **Configuration File**. Copy the text for the client or download and save it then drag it to the client later.
 
-![configload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/configload.jpg){class="glboxshadow"}
+![configload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/configload.jpg){class="glboxshadow"}
 
 ## Set up the WireGuard Client on GL-MT3000
 
 Login to the admin panel of GL-MT3000 and go to the WireGuard Client and click **Add Manually**.
 
-![addwgclient1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/addwgclient1.jpg){class="glboxshadow"}
+![addwgclient1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/addwgclient1.jpg){class="glboxshadow"}
 
-Create a name for the connection and drag the configuration downloaded before or click **anually Add Configuration**.
+Create a name for the connection and drag the configuration downloaded before or click **Manually Add Configuration**.
 
-![addwgclient2](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/addwgclient2.jpg){class="glboxshadow"}
+![addwgclient2](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/addwgclient2.jpg){class="glboxshadow"}
 
 Paste the Configuration Text onto it and then you can connect to the server now.
 
-![addwgclient3](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/addwgclient3.jpg){class="glboxshadow"}
+![addwgclient3](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/addwgclient3.jpg){class="glboxshadow"}
 
-## Connecting to your GL-MT6000 Server
+## Connect GL-MT3000 to your GL-MT6000 Server
 
 Click the name you just created, and it will show you the configuration you just loaded then click **Start**.
 
-![wgstart](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/wgstart.jpg){class="glboxshadow"}
+![wgstart](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgstart.jpg){class="glboxshadow"}
 
 You will see your client is connecting to the server now with your Home Public IP.
 
-![clientup](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/wgclientup.jpg){class="glboxshadow"}
+![clientup](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgclientup.jpg){class="glboxshadow"}
 
 Go back to the VPN DashBoard of GL-MT6000, you will also see the client is connected.
 
-![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wirrguard_server/wgservercon.jpg){class="glboxshadow"}
+![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgservercon.jpg){class="glboxshadow"}
 
 ## Use GoodCloud to manage the routers remotely in case of any problems when you are traveling
 

@@ -21,6 +21,8 @@ Learn how to use our devices correctly with detailed steps.
 * [How to use qlog to capture module logs?](get_module_logs.md)
 * [How to upgrade quectel module software?](upgrade_quectel_module_software.md)
 * [How to Check Carrier Aggregation?](how_to_check_carrier_aggregation.md)
+* [How to change x3000 and xe3000 antennas?](how to change x3000 and xe3000 antennas.md)
+
 
 ## GoodCloud
 

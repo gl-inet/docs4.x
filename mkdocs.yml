@@ -146,6 +146,7 @@ nav:
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Moduel Logs: tutorials/get_module_logs.md
       - How to check Carrier Aggregation: tutorials/how_to_check_carrier_aggregation.md
+      - How to change x3000 and xe3000 antennas: tutorials/how to change x3000 and xe3000 antennas.md
     - VPN:
       - VPN Cascading: tutorials/vpn_cascading.md
       - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md

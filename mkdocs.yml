@@ -147,12 +147,14 @@ nav:
       - Get Moduel Logs: tutorials/get_module_logs.md
       - How to check Carrier Aggregation: tutorials/how_to_check_carrier_aggregation.md
     - VPN:
-      - VPN Cascading: tutorials/vpn_cascading.md
-      - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
       - Accessing client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - Build your own WireGuard Home Server with two GL-iNET Routers: tutorials/build_your_own_wireguard_home_server_with_two_glrouter.md
       - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - How to set up Wireguard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
       - How to connect to the dedicated IP by NordVPN on GL.iNet routers?: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
+      - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
+      - VPN Cascading: tutorials/vpn_cascading.md
+
     - Network Storage:
       - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
     - GoodCloud:

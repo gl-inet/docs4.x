@@ -28,13 +28,16 @@ To turn on or off the Standby Mode, press the power button for 3 seconds. You wi
 ![gl-e750v2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/first_time_setup/e750v2_unboxing.jpg){class="glboxshadow"}
 
 - 1 x Mudi V2 (GL-E750V2) portable 4G LTE router
-- 1 x Power adapter (US, EU, UK & AU plugs)
-- 1 X User guide
+- 1 x Power adapter 
+- 4 x Converters (US, EU, UK & AU plugs)
+- 1 X User manual
 - 1 x Warranty card
 - 1 x Ethernet cable
 - 1 x USB-C port replicator 
-- 1 x USB-C cable
-- 1 x Black mesh pouch
+- 1 x USB-C to USB-C cable
+- 1 x USB-A to USB-C cable
+- 1 x Pouch bag
+- 1 x Thank-you card
 
 ---
 

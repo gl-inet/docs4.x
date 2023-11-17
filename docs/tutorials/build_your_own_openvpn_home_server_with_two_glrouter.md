@@ -31,34 +31,37 @@ If you don’t have a Public IP address, here are some methods for your referenc
 2. if you can ask your ISP to give you a Public IP address, she may charge an extra fee for it.
 3. if both the above two ways don’t work. For example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](how_to_set_up_openvpn_server_via_astrorelay.md).
 
-## Scenario 1: Your GL-MT6000 connects to an upper router
+??? "TP-Link as Main Router"
+    ### Your GL-MT6000 connects to an upper router
 
-Connect to your home router’s WiFi or LAN, then login the web admin panel. Check the IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
+    Connect to your home router’s WiFi or LAN, then login the web admin panel. Check the IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
 
-**Example: A TP-Link Router**
+    **Example: A TP-Link Router**
 
-![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tp_home.jpg){class="glboxshadow"}
+    ![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tp_home.jpg){class="glboxshadow"}
 
-### Set up the Port Forwarding on your main router
+    ### Set up the Port Forwarding on your main router
 
-1. Login to the web control page of your main router 
-2. Find out where is the function of port forwarding, different brands may call it by different names
-3. Find the IP address assigned to GL-MT6000
+    1. Login to the web control page of your main router 
+    2. Find out where is the function of port forwarding, different brands may call it by different names
+    3. Find the IP address assigned to GL-MT6000
 
-**Example: A TP-Link Router**
+    **Example: A TP-Link Router**
 
-1. Go to “Advanced” and click “virtual Server”, then “Add”.
-2. Internal IP (Device IP): It is the IP address assigned to GL-MT6000, you can find it in the client list of TP-Link
-3. External/Internal port:  Please fill both are "1194"
-4. Protocol:  You can choose "All or UDP or TCP/UDP"
+    1. Go to “Advanced” and click “virtual Server”, then “Add”.
+    2. Internal IP (Device IP): It is the IP address assigned to GL-MT6000, you can find it in the client list of TP-Link
+    3. External/Internal port:  Please fill both are "1194"
+    4. Protocol:  You can choose "All or UDP or TCP/UDP"
 
-![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tp_port1.jpg){class="glboxshadow"}
+    ![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tp_port1.jpg){class="glboxshadow"}
 
-## Scenario 2: Your MT3000 connects to the ISP modem directly
+??? "GL-iNET as Main Router"
 
-![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/mt6000_home.jpg){class="glboxshadow"}
+    ### Your GL-MT6000 connects to the ISP modem directly
 
-You can see your Public IP shows on the IP Address and you have **No Need** to do port forwarding.
+    ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/mt6000_home.jpg){class="glboxshadow"}
+
+    You can see your Public IP shows on the IP Address and you have **No Need** to do port forwarding.
 
 ## Set up the OpenVPN server on GL-MT6000
 
@@ -78,15 +81,15 @@ Then Go to OpenVPN server, make sure the Listen Port is 1194 and click **Export 
 
 ![ovpnserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/ovpnserver.jpg){class="glboxshadow"}
 
-## Generate a Configuration
+## Download the Configuration
 
 Slide to use DDNS Domain (Optional if you have dynamic IP only) or click **Download** directly.
 
 ![ovpnddnsn](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/ovpnddns.jpg){class="glboxshadow"}
 
-## Output a text format configuration for Client Installation
+## Find Downloaded Configuration for Client Installation
 
-Copy the Configuration file for the client or download and save it then drag it to the client later.
+Find Configuration file from download folder and drag it to the client later.
 
 ![ovpnconfigload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/ovpnconfigload.jpg){class="glboxshadow"}
 

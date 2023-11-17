@@ -25,6 +25,7 @@ Learn how to use our devices and how to solve some common problems.
 * [How to repair network or reset to factory setting?](repair_network_or_reset_firmware.md)
 * [iPhone tethering failed](iphone_tethering_fail.md)
 * [MacOS cannot write in Samba](macos_cannot_write_samba.md)
+* [My Wireguard Server Shows Client Connected but cannot access to the internet](my_wireguard_server_shows_client_connected_but_cannot_access_to_the_internet.md)
 
 ## Internet Connection
 

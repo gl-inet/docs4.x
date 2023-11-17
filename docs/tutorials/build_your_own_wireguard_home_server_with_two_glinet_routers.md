@@ -87,7 +87,7 @@ Click **Profiles** and **Add** a Client then it will automatically generate a cl
 
 ![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
 
-Use the WireGuard [mobile app](https://www.wireguard.com/install/) scan the QR to test the server.For details please click [here](../interface_guide/wireguard_server.md#to-check-if-wireguard-server-is-working-properly).
+Use the WireGuard [mobile app](https://www.wireguard.com/install/) scan the QR to test the server.For details please click [here](../interface_guide/wireguard_server.md/#to-check-if-wireguard-server-is-working-properly).
 
 ## Output a text format configuration for Client Installation
 

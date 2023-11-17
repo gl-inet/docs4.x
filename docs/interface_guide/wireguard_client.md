@@ -1,4 +1,4 @@
-# How to Set Up WireGaurd Client on GL.iNet Router
+# How to Set Up WireGuard Client on GL.iNet Router
 
 WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/){target="_blank"}, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 

@@ -33,7 +33,7 @@ There are many reasons your own WireGuard server is not working after the first 
 
 ## My WireGuard Server is connected but the connection is not stable
 
-1.  Change the [MTU](../interface_guide/vpn_dashboard.md/#vpn-client-options)from **1420** to a samller value, like **1380**.
+1.  Change the [MTU](../interface_guide/vpn_dashboard.md/#vpn-client-options) from **1420** to a samller value, like **1380**.
 
 2.  Check your Main router if it has to enable the VPN passthrough function or not.
 

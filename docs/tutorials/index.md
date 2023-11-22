@@ -12,10 +12,11 @@ Learn how to use our devices correctly with detailed steps.
 
 * [Build your own OpenVPN Home Server with two GL-iNET Routers](build_your_own_openvpn_home_server_with_two_glrouter.md)
 * [Build your own WireGuard Home Server with two GL-iNET Routers](build_your_own_wireguard_home_server_with_two_glinet_routers.md)
-* [How to visit WireGuard client LAN side from Server?](wireguard_server_access_to_client_lan_side.md)
+* [How to connect to the dedicated IP by NordVPN on GL.iNet routers?](how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md)
 * [How to set up OpenVPN server via Astrorelay?](how_to_set_up_openvpn_server_via_astrorelay.md)
 * [How to set up Wireguard server via Astrorelay?](how_to_set_up_wireguard_server_via_astrorelay.md)
-* [How to connect to the dedicated IP by NordVPN on GL.iNet routers?](how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md)
+* [How to visit WireGuard client LAN side from Server?](wireguard_server_access_to_client_lan_side.md)
+* [Use WireGuard to secure RDP from outside network](use_wireguard_to_secure_rdp_from_outside_network.md)
 
 ## Cellular
 

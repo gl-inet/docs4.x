@@ -4,6 +4,7 @@ Yes.
 
 Please connect your device to the LAN port of the router and then set up [repeater](../interface_guide/internet_repeater.md).
 
+![repeatertop](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/repeatertop.jpg){class=glboxshadow"}
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

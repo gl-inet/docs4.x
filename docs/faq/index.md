@@ -29,7 +29,7 @@ Learn how to use our devices and how to solve some common problems.
 
 ## Internet Connection
 
-* [iPhone tethering failed](iphone_tethering_fail.md)
+* [Build up an Intranet](build_up_an_intranet.md)
 * [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection.md)
 
 ## VPN

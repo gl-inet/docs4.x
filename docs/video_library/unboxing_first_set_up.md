@@ -14,6 +14,12 @@ Beryl AX (GL-MT3000) - Unboxing and Setup Guide
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I6P5mkGijAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## GL-MT2500A(Brume 2)
+
+Brume 2 (GL-MT2500A) - Unboxing and Setup Guide
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-S200
 
 GL-S200 & Thread Development Board - Unboxing

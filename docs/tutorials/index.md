@@ -32,4 +32,6 @@ Learn how to use our devices correctly with detailed steps.
 
 ## Others
 
-* [How to check if Internet Service Provider assigns you a public IP address?](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
+* [How to check if Internet Service Provider assigns you a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
+
+* [How to set up and use Spitz AX (GL-X3000) in your recreational vehicle](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)

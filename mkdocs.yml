@@ -161,6 +161,7 @@ nav:
     - Other:
       - How to manually configure static IP: tutorials/manually_configure_static_ip.md
       - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+      - How to set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:

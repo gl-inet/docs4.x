@@ -48,6 +48,8 @@ To get a better signal, use a roof antenna for your Spitz AX. You are recommende
 
 To avoid signal attenuation, the radio frequency cable from the roof antenna to your Spitz AX should not exceed 5 meters. (For example, when the radio frequency cable from MobileMark is 5 meters long, the signal reception at 3000MHz is reduced by 3dB, which is half the strength. The higher the frequency of the signal, the greater the attenuation.)
 
+[Learn how to replace the antennas on Spitz AX.](https://docs.gl-inet.com/router/en/4/tutorials/how_to_change_x3000_and_xe3000_antennas/) 
+
 ---
 
 ## 2. Set up the internet for your Spitz AX 

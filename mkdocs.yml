@@ -125,6 +125,7 @@ nav:
       - MacOS cannot write in Samba: faq/macos_cannot_write_samba.md
       - My Wireguard Server is not working: faq/my_wireguard_server_is_not_working.md
     - Internet:
+      - Build up an Intranet: faq/build_up_an_intranet.md
       - iPhone Tethering Fail: faq/iphone_tethering_fail.md
       - Connect to a Hotspot with a Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
       - Produce a Wired Connection: faq/produce_a_wired_connection.md

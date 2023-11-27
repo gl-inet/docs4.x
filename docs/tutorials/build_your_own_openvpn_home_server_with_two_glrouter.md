@@ -98,7 +98,15 @@ Use the OpenVPN [mobile app](https://openvpn.net/client/) upload the file to tes
 
 ## Set up the WireGuard Client on GL-MT3000
 
-Login to the admin panel of GL-MT3000 and go to the OpenVPN Client and click **Add Manually**.
+### Change the LAN IP
+
+Login to the admin panel of GL-MT3000 and go to the **Netwrok** on the side bar and change the LAN IP.
+
+[Change the LAN IP](../interface_guide/lan.md)
+
+### Add the Configuration
+
+Go to the OpenVPN Client and click **Add Manually**.
 
 ![addovpnclient1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/addovpnclient1.jpg){class="glboxshadow"}
 

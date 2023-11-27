@@ -97,7 +97,15 @@ Change the configuration to text format by click **Configuration File**. Copy th
 
 ## Set up the WireGuard Client on GL-MT3000
 
-Login to the admin panel of GL-MT3000 and go to the WireGuard Client and click **Add Manually**.
+### Change the LAN IP
+
+Login to the admin panel of GL-MT3000 and go to the **Netwrok** on the side bar and change the LAN IP.
+
+[Change the LAN IP](../interface_guide/lan.md)
+
+### Add the Configuration
+
+Go to the WireGuard Client and click **Add Manually**.
 
 ![addwgclient1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/addwgclient1.jpg){class="glboxshadow"}
 

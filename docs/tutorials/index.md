@@ -25,6 +25,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to upgrade quectel module software?](upgrade_quectel_module_software.md)
 * [How to Check Carrier Aggregation?](how_to_check_carrier_aggregation.md)
 * [How to change GL-X3000 and GL-XE3000 antennas?](how_to_change_x3000_and_xe3000_antennas.md)
+* [How to set up and use Spitz AX (GL-X3000) in your recreational vehicle](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
 
 
 ## GoodCloud
@@ -38,5 +39,3 @@ Learn how to use our devices correctly with detailed steps.
 ## Others
 
 * [How to check if Internet Service Provider assigns you a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
-
-* [How to set up and use Spitz AX (GL-X3000) in your recreational vehicle](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)

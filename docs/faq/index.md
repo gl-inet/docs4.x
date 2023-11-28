@@ -31,6 +31,7 @@ Learn how to use our devices and how to solve some common problems.
 
 * [Build up an Intranet](build_up_an_intranet.md)
 * [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection.md)
+* [GL-X3000 and GL-XE3000 connection optimization](gl-x3000_gl-xe3000_connection_optimization.md)
 
 ## VPN
 

@@ -1,16 +1,16 @@
 # LED Status Indication
 
-## GL-AXT1800
+## GL-A1300
 
-![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){target="_blank"}
+![GL-A1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){target="_blank"}
 
 - Solid blue: System boot up
 - Flashing white: Searching network
 - Solid white: Working normally- Solid white light means the router is working well.
 
-## GL-A1300
+## GL-AXT1800
 
-![GL-A1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){target="_blank"}
+![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){target="_blank"}
 
 - Solid blue: System boot up
 - Flashing white: Searching network

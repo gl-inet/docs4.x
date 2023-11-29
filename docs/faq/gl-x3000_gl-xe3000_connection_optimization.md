@@ -31,7 +31,7 @@
     
     2.4 Please try to use the locked frequency band function for testing. Please refer to the following link for using locked frequency band function.
     
-    https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#band-masking
+    [https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#band-masking](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#band-masking)
 
 ??? "Please check the sim card and device compatibility implication"
 

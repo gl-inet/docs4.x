@@ -270,7 +270,7 @@ Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){tar
 
 ### AT&T Certification
 
-Click the link [iotdevices.att.com/certified-devices.aspx#](https://iotdevices.att.com/certified-devices.aspx#) and input the device name, you can find it. 
+Click the link [att device certification](https://iotdevices.att.com/certified-devices.aspx#) and input the device name, you can find it. 
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification.png){class="glboxshadow"}
 
@@ -281,6 +281,6 @@ Click the link [iotdevices.att.com/certified-devices.aspx#](https://iotdevices.a
 
 ### T-MOBILE Certification
 
-Click the link https://www.t-mobile.com/business/solutions/iot/device-certification and choose 5G in **Filter**, you can find it. 
+Click the link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification) and choose 5G in **Filter**, you can find it. 
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/t-mobile_certification.png){class="glboxshadow"}

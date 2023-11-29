@@ -24,19 +24,19 @@ On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
     Please ignore the warning of *Incompatible Modem*
 
-    ![usb modem auto setup](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/usb_modem_auto_setup.png){class="glboxshadow"}
+    ![usb modem auto setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_auto_setup.png){class="glboxshadow"}
 
 3. Connecting.
 
     **Note:** Some SIM cards may have special usage restrictions, such as the need to use a special APN. If your SIM card can't be registered, please consult your network operator if it has special restrictions.
 
-    ![usb modem connecting](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/usb_modem_connecting.png){class="glboxshadow"}
+    ![usb modem connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_connecting.png){class="glboxshadow"}
 
 4. After a while, it will be connected. Otherwise, try [Manual Setup](#manual-setup).
 
     When the usb modem is plugged into the router the second time it is powered on, it is usually automatically recognized and a connection is established. It may not get the information of signal, modem name and IMEI.
 
-    ![usb modem connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/usb_modem_connected.png){class="glboxshadow"}
+    ![usb modem connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_connected.png){class="glboxshadow"}
 
 ---
 
@@ -44,7 +44,7 @@ On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
 Sometimes, **Auto Setup** may not work, you can try **Manual Setup**.
 
-![4g modem manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/cellular_settings.png){class="glboxshadow"}
+![4g modem manual setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/cellular_settings.png){class="glboxshadow"}
 
 ---
 
@@ -87,25 +87,25 @@ On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
 When no SIM card is detected.
 
-![dual-sim, no sim](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/no_sim.png){class="glboxshadow"}
+![dual-sim, no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/no_sim.png){class="glboxshadow"}
 
 When a SIM card is inserted.
 
-![dual-sim, 5g sim](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/5g_sim.png){class="glboxshadow"}
+![dual-sim, 5g sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/5g_sim.png){class="glboxshadow"}
 
 ### SIM card slot settings
 
 Click current sim card.
 
-![dual-sim, current sim card](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/current_sim_card.png){class="glboxshadow"}
+![dual-sim, current sim card](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/current_sim_card.png){class="glboxshadow"}
 
 It will open the SIM card slot settings dialog box.
 
-![dual-sim, sim card slot settings](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/sim_card_slot_settings.png){class="glboxshadow"}
+![dual-sim, sim card slot settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/sim_card_slot_settings.png){class="glboxshadow"}
 
 If two SIM cards are inserted, you can enable Auto Switch.
 
-![dual-sim, auto switch](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/auto_switch.png){class="glboxshadow"}
+![dual-sim, auto switch](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/auto_switch.png){class="glboxshadow"}
 
 **Note**: The Auto Switch feature does not immediately switch to another SIM card. On one hand, it takes time to confirm that the current SIM card cannot access the internet, and only after confirming this will it switch. On the other hand, the other SIM card is not in standby mode, so it also takes some time to activate it.
 
@@ -119,7 +119,7 @@ If two SIM cards are inserted, you can enable Auto Switch.
 
     This option applies when both the preferred SIM card and the backup SIM card have no signal. If the preferred SIM card also has no signal, the device will switch to the backup SIM card and so on until one of the SIM cards has a signal.
 
-    ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/sim%20_card%20slot%20settings_failover%20interval.png){class="glboxshadow"}
+    ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/sim%20_card%20slot%20settings_failover%20interval.png){class="glboxshadow"}
 
 
 * Checking Preferred Slot Status Scheduled
@@ -128,19 +128,19 @@ If two SIM cards are inserted, you can enable Auto Switch.
 
     When this feature is enabled, the device will attempt to switch to the preferred SIM at this set time each day, for example, this feature is intended to prevent the backup SIM from using too much data, and if the preferred SIM still has no signal, it will fail to switch to the backup SIM.
 
-    ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/sim%20_card%20slot%20settings_checking%20preferred%20slot%20status%20scheduled.png){class="glboxshadow"}
+    ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/sim%20_card%20slot%20settings_checking%20preferred%20slot%20status%20scheduled.png){class="glboxshadow"}
 
 ### Traffic Statistics
 
-![traffic statistics](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/traffic_statistics_option.png){class="glboxshadow gl-90-desktop"}
+![traffic statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/traffic_statistics_option.png){class="glboxshadow gl-90-desktop"}
 
-![traffic statistics](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-90-desktop"}
+![traffic statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-90-desktop"}
 
 ### Manual Setup
 
 Click **Manual Setup** button, it will pop up the Cellular Settings dialog.
 
-![cellular settings](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/manual_setup/cellular_settings.png){class="glboxshadow gl-90-desktop"}
+![cellular settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/manual_setup/cellular_settings.png){class="glboxshadow gl-90-desktop"}
 
 You can view or modify the cellular settings of the current SIM card. It also stores some pre-configured settings, and you can manually add configurations to the "Saved Settings" as well.
 
@@ -150,17 +150,17 @@ Please refer to the [SMS tutorial](sms.md).
 
 ## SMS Forwarding
 
-Please refer to the [SMS Forwarding tutorial](../tutorials/sms_forwarding.md).
+Please refer to the [SMS Forwarding tutorial](../interface_guide/sms_forwarding.md).
 
 ## Modem Management
 
 Click the button to go to modem management page.
 
-![modem management button](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/modem_management_button.png){class="glboxshadow"}
+![modem management button](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/modem_management_button.png){class="glboxshadow"}
 
 It includes information about the modem and AT commands.
 
-![modem management](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/modem_management.png){class="glboxshadow"}
+![modem management](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/modem_management.png){class="glboxshadow"}
 
 Modem AT commands are instructions that are used to control modems.
 
@@ -182,67 +182,67 @@ You can save different profiles for the same or different carriers.
 
 Click Manage profile
 
-![manageprofile](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/carrier_profile/manage_profile.jpg){class="glboxshadow"}
+![manageprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/manage_profile.jpg){class="glboxshadow"}
 
 Add a new  profile or save the current profile
 
-![addprofile](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/carrier_profile/add_profile.jpg){class="glboxshadow"}
+![addprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/add_profile.jpg){class="glboxshadow"}
 
 Create the carrier own profile base on your needs
 
-![createprofile](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/carrier_profile/create_profile.jpg){class="glboxshadow"}
+![createprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/create_profile.jpg){class="glboxshadow"}
 
 You can select a saved profile next time
 
-![selectprofile](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/carrier_profile/select_profile.jpg){class="glboxshadow"}
+![selectprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/select_profile.jpg){class="glboxshadow"}
 
 Choose any profiles you needed
 
-![chooseprofile](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
+![chooseprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
 
 ## Signal Tower Lock
 
 Click Signal Tower Lock.
 
-![signal_tower_lock](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/signal_tower_lock_1.jpg){class="glboxshadow"}
+![signal_tower_lock](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/signal_tower_lock_1.jpg){class="glboxshadow"}
 
 Select an available signal tower and lock it.
 
-![signal_tower_lock1](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/signal_tower_lock_2.jpg){class="glboxshadow"}
+![signal_tower_lock1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/signal_tower_lock_2.jpg){class="glboxshadow"}
 
 The device may not be able to scan all towers when the Cellular interface is enabled.
 
-![signal_tower_lock2](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/signal_tower_lock_3.jpg){class="glboxshadow"}
+![signal_tower_lock2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/signal_tower_lock_3.jpg){class="glboxshadow"}
 
 
 If the locked tower does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.
 
 Here you can display the status of the lock.
 
-![signal_tower_lock3](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/signal_tower_lock_4.jpg){class="glboxshadow"}
+![signal_tower_lock3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/signal_tower_lock_4.jpg){class="glboxshadow"}
 
 
 ## Historical Signal Record
 
 You can select INTERNET on the left side of the GL-inet admin panel, scroll down to the Cellular section on the right side and click on the icon to bring up the pop-up window Historical Signal values
 
-![historical_signal_record](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/historical_signal_record_1.jpg){class="glboxshadow"}
+![historical_signal_record](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/historical_signal_record_1.jpg){class="glboxshadow"}
 
 Checking your router's signal strength can help you determine the quality of your Internet connection. If the quality of your internet connection is poor, you can try switching to get a better signal.
 
 You can view Cellular's signal strength history by selecting different time frames.
 
-![historical_signal_record1](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/historical_signal_record_2.jpg){class="glboxshadow"}
+![historical_signal_record1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/historical_signal_record_2.jpg){class="glboxshadow"}
 
 ## Band Masking
 
 You can check to the band signals by click **view more** in **cells info** and decide which band with stronger signal and which band with weaker signal. Then you can force your router just connect to bands you want or never connect to some bands you don't want. 
 
-![cellinfo](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/band_masking/cell_info.jpg){class="glboxshadow"}
+![cellinfo](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/band_masking/cell_info.jpg){class="glboxshadow"}
 
 Check **Block** or **Open** and select the below for bands you want to apply.
 
-![bandmasking](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/band_masking/band_masking.jpg){class="glboxshadow"}
+![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/band_masking/band_masking.jpg){class="glboxshadow"}
 
 ## Warning
 
@@ -263,3 +263,24 @@ Related Articles
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+
+
+
+## IOT Certification
+
+### AT&T Certification
+
+Click the link [att device certification](https://iotdevices.att.com/certified-devices.aspx#) and input the device name, you can find it. 
+
+![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification.png){class="glboxshadow"}
+
+
+![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/at&t_certification_2.png){class="glboxshadow"}
+
+
+
+### T-MOBILE Certification
+
+Click the link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification) and choose 5G in **Filter**, you can find it. 
+
+![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/t-mobile_certification.png){class="glboxshadow"}

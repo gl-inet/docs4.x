@@ -2,41 +2,36 @@
 
 **If you fail to connect, please check whether the following issues exist.**
 
-
 ??? "Please check device hardware"
 
-    1.1、Please use the device's standard power adapter. Non-standard power adapters may cause insufficient power supply.
+    1.1 Please use the device's standard power adapter. Non-standard power adapters may cause insufficient power supply.
     
-    1.2、Please confirm that you can find the modem, IMEI number and SIM ICCID on the web. 
+    1.2 Please confirm that you can find the modem, IMEI number and SIM ICCID on the web. 
     
     If you cannot find it, please power off/on the device, if it still can’t be recognized, please contact customer service to return the device.
     
-    1.3、Please check the signal Cells info to confirm that the signal is normal. If the signal is very poor, please confirm that the antennas have been installed correctly, or change the position with good signal for testing.
+    1.3 Please check the signal Cells info to confirm that the signal is normal. If the signal is very poor, please confirm that the antennas have been installed correctly, or change the position with good signal for testing.
     
     1.4 If the device is an LTE device, please check that the frequency band of the device purchased is suitable for your area.
     ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/1.png){class="glboxshadow"}
-
-
 
 ??? "Please check device software config"
 
     2.1 Please login the Web interface and confirm that the LTE/5G NR connect program has been started. You can also try to click Abort and  Auto Setup again.
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/2.png"){class="glboxshadow}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/2.png){class="glboxshadow}
     
     2.2 Some devices can reselect the ttyUSBx interface for networking in the Manual Setup on the web. Each modem manufacturer uses different data interfaces. Please refer to the web page prompts for details.
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/3.png"){class="glboxshadow}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/3.png){class="glboxshadow}
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/4.png"){class="glboxshadow}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/4.png){class="glboxshadow}
     
     2.3 Some sim cards require a specific APN, please make sure the correct APN is set on the device
     
     2.4 Please try to use the locked frequency band function for testing. Please refer to the following link for using locked frequency band function.
     
     https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#band-masking
-
-
 
 ??? "Please check the sim card and device compatibility implication"
 
@@ -56,9 +51,9 @@
     
     3.6 If the SIM card can be registered and the IP address can be obtained, but cannot be connected to the Internet (only data can be uploaded but not downloaded), in this case, it is most likely that it has been banned by the operator's backend. You need to ask the operator to lift the restriction, or try Set TTL to 65 for testing, please refer to pictures below.
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/5.png"){class="glboxshadow}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/5.png){class="glboxshadow}
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/6.png"){class="glboxshadow}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/6.png){class="glboxshadow}
     
 If none of the above measures solve the problem, you can try sending an email to [support@glinet.biz](mailto:support@glinet.biz) and contact our technical support staff for support.
 

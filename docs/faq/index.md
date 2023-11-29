@@ -19,6 +19,7 @@ Learn how to use our devices and how to solve some common problems.
 
 ## Troubleshooting
 
+* [Cannot Scan iPhone 5G Hotspot](cannot_scan_iphone_5g_hotspot.md)
 * [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel.md)
 * [What should I do if my router is bricked?](debrick.md)
 * [Debrick via Uboot](debrick.md)

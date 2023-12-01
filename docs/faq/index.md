@@ -19,13 +19,14 @@ Learn how to use our devices and how to solve some common problems.
 
 ## Troubleshooting
 
+* [Cannot Scan Android 5G Hotspot](cannot_scan_android_5g_hotspot.md)
 * [Cannot Scan iPhone 5G Hotspot](cannot_scan_iphone_5g_hotspot.md)
-* [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel.md)
-* [What should I do if my router is bricked?](debrick.md)
 * [Debrick via Uboot](debrick.md)
 * [How to repair network or reset to factory setting?](repair_network_or_reset_firmware.md)
 * [iPhone tethering failed](iphone_tethering_fail.md)
 * [MacOS cannot write in Samba](macos_cannot_write_samba.md)
+* [What should I do if my router is bricked?](debrick.md)
+* [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel.md)
 * [My Wireguard Server is not working](my_wireguard_server_is_not_working.md)
 
 ## Internet Connection

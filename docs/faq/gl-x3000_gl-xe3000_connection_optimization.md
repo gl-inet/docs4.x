@@ -1,4 +1,4 @@
-# GL-X3000 and GL-XE3000 connection optimization
+# Cellular Network Troubleshooting Guide
 
 **If you fail to connect, please check whether the following issues exist.**
 

@@ -125,6 +125,7 @@ nav:
       - MacOS cannot write in Samba: faq/macos_cannot_write_samba.md
       - My Wireguard Server is not working: faq/my_wireguard_server_is_not_working.md
     - Internet:
+      - GL-X3000&GL-XE3000 connection: faq/gl-x3000_gl-xe3000_connection_optimization.md
       - Build up an Intranet: faq/build_up_an_intranet.md
       - Cannot Scan Android 5G Hotspot: faq/cannot_scan_android_5g_hotspot.md
       - Cannot Scan iPhone 5G Hotspot: faq/cannot_scan_iphone_5g_hotspot.md

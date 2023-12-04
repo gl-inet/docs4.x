@@ -1,6 +1,6 @@
 # Build up an Intranet with GL.iNet Routers
 
-You can build up an intranet with GL for various purpose. For examples, connecting stage devices for outdoor shows, extend the distance of control for a drone, setup an office intranet...
+You can build up an intranet with GL.iNet for various purpose. For examples, connecting stage devices for outdoor shows, extend the distance of control for a drone, setup an office intranet...
 
 ## Topology
 

@@ -56,7 +56,7 @@ If you don’t have a Public IP address, here are some methods for your referenc
 
     ![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_port1.jpg){class="glboxshadow"}
 
-??? "GL-iNET as Main Router"
+??? "GL.iNet as Main Router"
     ### Your GL-MT6000 connects to the ISP modem directly
 
     ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.jpg){class="glboxshadow"}

@@ -21,7 +21,7 @@
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/2.png){class="glboxshadow}
     
-    2.2 Some devices can reselect the ttyUSBx interface for networking in the Manual Setup on the web. Each modem manufacturer uses different data interfaces. Please refer to the web page prompts for details.
+    2.2 Some carriers need to use the 3G protocol to connect to the network. Please select the 3G protocol in the Manual Setup on the web page to use.
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/3.png){class="glboxshadow}
     

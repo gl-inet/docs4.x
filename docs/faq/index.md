@@ -33,7 +33,7 @@ Learn how to use our devices and how to solve some common problems.
 
 * [Build up an Intranet](build_up_an_intranet.md)
 * [Cellular Network Troubleshooting Guide](gl-x3000_gl-xe3000_connection_optimization.md)
-* [I replaced my old router with GL-iNet Router but No internet](i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md)
+* [I replaced my old router with GL.iNet Router but No internet](i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md)
 * [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection.md)
 
 ## VPN

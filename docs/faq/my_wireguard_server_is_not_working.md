@@ -8,7 +8,7 @@ There are many reasons your own WireGuard server is not working after the first 
 
     Please see point 2 of [set up Wiregaurd Server](../interface_guide/wireguard_server.md/#setup-wireguard-server)
 
-2. If you are using two GL-iNet Routers as the server and client, please change the LAN IP of either one. Change the [LAN IP](../interface_guide/lan.md).
+2. If you are using two GL.iNet Routers as the server and client, please change the LAN IP of either one. Change the [LAN IP](../interface_guide/lan.md).
 
 3. You ISP cannot resolve your DNS. Please change the DNS on the configuration to **8.8.8.8** or **8.8.4.4**.
 
@@ -23,7 +23,7 @@ There are many reasons your own WireGuard server is not working after the first 
 1.  Please check again your port forwarding is working. You can [test the Server](../interface_guide/wireguard_server.md/#to-check-if-wireguard-server-is-working-properly) by official WireGuard mobile App.
 
 2.  Please double confirm you have a Public IP address. For details please click [here](../interface_guide/wireguard_server.md/#make-sure-internet-service-provider-assigns-you-a-public-ip-address).
-3.  If you are using two GL-iNet routers as the server and the client, please change the LAN IP of either one. Change the [LAN IP](../interface_guide/lan.md).
+3.  If you are using two GL.iNet routers as the server and the client, please change the LAN IP of either one. Change the [LAN IP](../interface_guide/lan.md).
 
 4.  You are connecting your client to the server's WiFi or LAN port, please change to another network.
 

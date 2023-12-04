@@ -8,7 +8,7 @@ You may need to remote access your PC from outside network or vice versa. The mo
 
 ## Setup your own Wireguard Network
 
-You need to setup your own WireGuard Server and WireGuard Clinet before you can use the WireGuard Tunnel for RDP. You can setup the tunnel with two GL-iNet Routers. [Build your Own Home Wireguard Server two GL-iNet Routers](build_your_own_wireguard_home_server_with_two_glinet_routers.md).
+You need to setup your own WireGuard Server and WireGuard Clinet before you can use the WireGuard Tunnel for RDP. You can setup the tunnel with two GL.iNet Routers. [Build your Own Home Wireguard Server two GL.iNet Routers](build_your_own_wireguard_home_server_with_two_glinet_routers.md).
 
 ## Allow your Server access to the Client LAN side
 

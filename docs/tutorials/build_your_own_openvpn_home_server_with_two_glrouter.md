@@ -1,4 +1,4 @@
-# Build Your Own OpenVPN Home Server with two GL-iNet Routers
+# Build Your Own OpenVPN Home Server with two GL.iNet Routers
 
 This article will introduce how to set up your home router as the OpenVPN server and your travel router as the OpenVPN client to connect together remotely, so that you can use your home IP address with the travel router anywhere.
 

@@ -47,7 +47,7 @@ Package Contents:
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
 
-Check out Slate AX's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt3000beryl-ax).
+Check out Beryl AX's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt3000beryl-ax).
 
 ---
 

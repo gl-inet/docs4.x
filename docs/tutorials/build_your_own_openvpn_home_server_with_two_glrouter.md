@@ -1,4 +1,4 @@
-# Build Your Own OpenVPN Home Server with two GL-iNet Routers
+# Build Your Own OpenVPN Home Server with two GL.iNet Routers
 
 This article will introduce how to set up your home router as the OpenVPN server and your travel router as the OpenVPN client to connect together remotely, so that you can use your home IP address with the travel router anywhere.
 
@@ -55,7 +55,7 @@ If you don’t have a Public IP address, here are some methods for your referenc
 
     ![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tp_port1.jpg){class="glboxshadow"}
 
-??? "GL-iNET as Main Router"
+??? "GL.iNet as Main Router"
 
     ### Your GL-MT6000 connects to the ISP modem directly
 

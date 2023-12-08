@@ -14,6 +14,7 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-MT6000 (Flint2)             | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
 | GL-AXT1800 (Slate AX)          | √         |
@@ -23,8 +24,8 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 | GL-S1300 (Convexa-S)           | -         |
 | GL-MT1300 (Beryl)              | -         |
 | GL-AX1800 (Flint)              | √         |
-| GL-AR750S (Slate)              | √         |
-| GL-XE300 (Puli)                | √         |
+| GL-AR750S (Slate)              | -         |
+| GL-XE300 (Puli)                | -         |
 | GL-X750 (Spitz)                | -         |
 | GL-B1300 (Convexa-B)           | -         |
 | GL-AP1300 (Cirrus)             | -         |

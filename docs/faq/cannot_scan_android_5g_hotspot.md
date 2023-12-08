@@ -1,10 +1,10 @@
 If you cannot scan your android phone 5G hotspot, it may related to the country.
 
-Since some android phones preset the 5G at a USA 5G USA channel, if you are using a GL-iNet router originally not bought in USA. You will experience this problem. You can change your GL-iNet router's WiFi country code in Luci page.
+Since some android phones preset the 5G at a USA 5G USA channel, if you are using a GL.iNet router originally not bought in USA. You will experience this problem. You can change your GL.iNet router's WiFi country code in Luci page.
 
 ## Login Luci
 
-Login your GL-iNet router, at the left side bar choose **System>Advance>Luci**, login with the same admin password.
+Login your GL.iNet router, at the left side bar choose **System>Advance>Luci**, login with the same admin password.
 
 ## Edit WiFi settings
 

@@ -4,13 +4,13 @@ hide:
   - toc
 ---
 
-# Video Library
+# ビデオライブラリー
 
-Learn about our products and use them through videos.
+ビデオで製品の説明や使い方について学び、実際に使ってみましょう。
 
-## Contents
+## コンテンツ
 
-* [Meet Our New Products](products.md)
-* [tutorials](tutorials.md)
-* [Unboxing & First Time Setup](unboxing_first_set_up.md)
+* [新製品のご紹介](products.md)
+* [チュートリアル](tutorials.md)
+* [開梱＆初回セットアップ](unboxing_first_set_up.md)
 

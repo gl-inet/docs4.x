@@ -39,7 +39,7 @@
 
 ![xe-3000led](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000led.jpg){target="_blank"}
 
-* Power
+* Power LED
 	* Green: power on
 	* Off: power off
 
@@ -49,22 +49,22 @@
 	* Flashing Green: battery level 51%-99%
 	* Solid Green: battery level 100%
 
-* Battery LED (Not charging) Show up for 5 sec after press the power button
+* Battery LED (Not charging) Show up for 5 seconds after press the power button
 	* Red: battery level 0%-20%
 	* Violet: battery level 21%-50%
 	* Green: battery level 51%-100%
 	
-* Internet
+* Internet LED
 	* On: Internet is connected
 	* Off: Internet is disconnected
 
-* 2G Wi-Fi
+* 2G Wi-Fi LED
 	* On: 2.4G wifi is readied
 	* Flashing: 2.4G is communicating
 
-* 5G Wi-Fi
+* 5G Wi-Fi LED
 	* On: 5G wifi is readied
 	* Flashing: 5G is communicating
 
-* Cellular
+* Cellular LED
 	* Mobile Tower is conntected

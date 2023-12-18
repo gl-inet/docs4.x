@@ -1,7 +1,7 @@
-# Where to download firmware?
+# ファームウェアはどこからダウンロードできますか？
 
-Please download firmware from the [download site](https://dl.gl-inet.com){target="_blank"}
+[ダウンロードサイト](https://dl.gl-inet.com){target="_blank"}からファームウェアをダウンロードしてください。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

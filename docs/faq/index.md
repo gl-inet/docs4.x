@@ -6,52 +6,52 @@ hide:
 
 # FAQ
 
-Learn how to use our devices and how to solve some common problems.
+弊社のデバイスの使い方と、よくある問題の解決方法を学びましょう。
 
-## Guidelines for Newcomers:
+## 初心者向けのガイドライン:
 
-* [First time setup](first_time_setup.md)
-* [How to use Uboot to debrick your routers?](debrick.md)
-* [Connect to a Hotspot with a Captive Portal?](connect_to_a_hotspot_with_captive_portal.md)
-* [How to remote access router's web Admin Panel?](remote_access_web_admin_panel.md)
-* [How to set up OpenVPN?](../interface_guide/openvpn_client.md)
-* [How to set up WireGuard?](../interface_guide/wireguard_client.md)
+* [初回セットアップ](first_time_setup.md)
+* [Ubootを使ってルーターをデブリックするには？](debrick.md)
+* [キャプティブ・ポータルでホットスポットに接続するには？](connect_to_a_hotspot_with_captive_portal.md)
+* [ルーターのウェブ管理パネルにリモートアクセスする方法は？](remote_access_web_admin_panel.md)
+* [OpenVPNを設定するには？](../interface_guide/openvpn_client.md)
+* [WireGuardの設定方法は？](../interface_guide/wireguard_client.md)
 
-## Troubleshooting
+## トラブルシューティング
 
-* [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel.md)
-* [What should I do if my router is bricked?](debrick.md)
-* [Debrick via Uboot](debrick.md)
-* [How to repair network or reset to factory setting?](repair_network_or_reset_firmware.md)
-* [iPhone tethering failed](iphone_tethering_fail.md)
-* [MacOS cannot write in Samba](macos_cannot_write_samba.md)
+* [192.168.8.1経由でルーターにアクセスできないのはなぜですか？](cannot_access_web_admin_panel.md)
+* [ルーターがレンガ化した場合はどうすればよいですか？](debrick.md)
+* [Uboot経由でデブリック](debrick.md)
+* [ネットワークを修復する、工場出荷時の設定にリセットするにはどうすればよいですか?](repair_network_or_reset_firmware.md)
+* [iPhoneのテザリングに失敗](iphone_tethering_fail.md)
+* [MacOSはSambaに書き込めない](macos_cannot_write_samba.md)
 
-## Internet Connection
+## インターネット接続
 
-* [iPhone tethering failed](iphone_tethering_fail.md)
-* [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection.md)
+* [iPhoneのテザリングに失敗](iphone_tethering_fail.md)
+* [私のデバイスはイーサネットケーブルでしか接続できません。このルーターを使用して、自分のデバイスをワイヤレスネットワークに接続できますか？](produce_a_wired_connection.md)
 
 ## VPN
 
-* [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp.md)
-* [How to Block Non-VPN Traffic?](block_no_vpn_traffic.md)
-* [VPN Kill Switch](block_no_vpn_traffic.md).
+* [OpenVPNでは、TCPとUDPのどちらのプロトコルを選べばいいのでしょうか？](openvpn_tcp_udp.md)
+* [VPN以外のトラフィックをブロックするには？](block_no_vpn_traffic.md)
+* [VPNキルスイッチ](block_no_vpn_traffic.md)
 
-## Upgrade
+## アップグレード
 
-* [Where to download official firmware?](where_to_download_firmware.md)
-* [How to upgrade from 3.x to firmware 4.x?](upgrade_to_4.md)
-* [How to upgrade GL-AX1800(Flint) from firmware 3.x to 4.x?](gl-ax1800_upgrade_to_4.md)
-* [How to downgrade GL-AX1800(Flint) from firmware 4.x to 3.x?](gl-ax1800_upgrade_to_4.md#downgrade)
+* [公式ファームウェアはどこからダウンロードできますか?](where_to_download_firmware.md)
+* [ファームウェア3.xから4.xへのアップグレード方法は？](upgrade_to_4.md)
+* [GL-AX1800(Flint)をファームウェア3.xから4.xにアップグレードするには？](gl-ax1800_upgrade_to_4.md)
+* [GL-AX1800(Flint)をファームウェア4.xから3.xにダウングレードする方法は？](gl-ax1800_upgrade_to_4.md#downgrade)
 
-## Other
+## その他
 
-* [How to change WAN port to LAN port?](change_wan_to_lan.md)
-* [GL.iNet Mobile App](mobile_app.md).
-* [What is LuCI?](what_is_luci.md)
-* [How to remote access router's web Admin Panel?](remote_access_web_admin_panel.md)
-* [How to remote ssh to router?](remote_ssh_to_router.md)
-* [How to check if Internet Service Provider assigns you a public IP address?](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)
-* [How can I find the LAN Mac, WiFi Mac addresses of device](how_can_I_know_the_lan_wifi_mac.md)
-* [Where to find the device ID, MAC, Serial Number?](where_to_find_the_device_id_mac_sn.md)
-* [LED Indication](led.md)
+* [WANポートをLANポートに変更するには？](change_wan_to_lan.md)
+* [GL.iNet モバイルアプリ](mobile_app.md).
+* [LuCIとは？](what_is_luci.md)
+* [ルーターのウェブ管理パネルにリモートアクセスする方法は？](remote_access_web_admin_panel.md)
+* [ルーターへのリモートsshの方法は？](remote_ssh_to_router.md)
+* [インターネット・サービス・プロバイダーがパブリックIPアドレスを割り当てているかどうかを確認するには？](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)
+* [デバイスのLAN Mac、WiFi Macアドレスを見つけるには](how_can_I_know_the_lan_wifi_mac.md)
+* [デバイスID、MAC、シリアル番号はどこで確認できますか？](where_to_find_the_device_id_mac_sn.md)
+* [LED表示](led.md)

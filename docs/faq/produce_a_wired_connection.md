@@ -1,9 +1,9 @@
-# My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?
+# 私のデバイスはイーサネットケーブルでしか接続できません。このルーターを使ってワイヤレスネットワークに接続できますか？
 
-Yes.
+はい。
 
-Please connect your device to the LAN port of the router and then set up [repeater](../interface_guide/internet_repeater.md).
+デバイスをルーターのLANポートに接続し、 [リピーター](../interface_guide/internet_repeater.md)の設定を行ってください。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

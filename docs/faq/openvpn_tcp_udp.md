@@ -1,13 +1,13 @@
 # OpenVPN, TCP vs UDP
 
-GL.iNet router's OpenVPN Server supports both TCP and UDP protocols. What's the difference?
+GL.iNetルーターのOpenVPNサーバーは、TCPおよびUDPプロトコルの両方をサポートしています。それらの違いは何ですか？
 
-TCP is more reliable, but less speed. UDP is faster but less reliable.
+TCPは信頼性が高いが速度は低いです。UDPは速いですが信頼性は低いです。
 
-If you need a fast and constant data transmission for an application to work properly, UDP is a better choice. Otherwise, TCP is a stable and reliable protocol for transferring data and not losing any of it along the way. UDP is more suitable for gaming, streaming or using VoIP services. TCP is more suitable for emailing, web browsing and file transfer.
+特定のアプリケーションが正常に動作するために高速で一貫したデータ転送が必要な場合、UDPがより適しています。それ以外の場合、TCPはデータの安定した信頼性を保ちながらデータを転送するための安定したプロトコルです。UDPはゲーム、ストリーミング、VoIPサービスの利用に適しています。TCPはメール送信、ウェブブラウジング、ファイル転送に適しています。
 
-We recommend trying the UDP protocol first and only switching to TCP if you experience any issues.
+問題が発生した場合にのみTCPに切り替えるようにし、最初はUDPプロトコルを試すことをおすすめします。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？  [Community Forum](https://forum.gl-inet.com){target="_blank"}ご覧ください。

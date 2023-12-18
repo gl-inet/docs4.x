@@ -1,55 +1,55 @@
-# How to upgrade to firmware 4.x?
+# ファームウェア4.xにアップグレードする方法は？
 
-Some old models already have the 4.x beta firmware. For those who want to try it, you can follow the steps below to upgrade it from firmware 3.x to 4.x.
+一部の古いモデルには、すでに 4.x ベータ ファームウェアが搭載されています。ファームウェアを3.xから4.xにアップグレードするには、以下の手順に従ってお試してください。
 
-The following models are currently supported:
+現在、次のモデルがサポートされています：
 
 GL-AX1800(Flint), GL-MT1300(Beryl), GL-B1300(Convexa-B), GL-S1300(Convexa-S), GL-AP1300(Cirrus), GL-SFT1200(Opal), GL-AR750S(Slate).
 
-**Note:** The beta firmware may has bugs. Currently, it is recommended not to keep settings when upgrading, since they may be lost during the upgrade, or they may cause instability. Therefore, be sure to backup any critical settings before upgrading. We will improving the process to make the upgrade smoother.
+**注意:** ベータ版ファームウェアにはバグがある可能性があります。現在のところ、アップグレード時に設定が失われたり、不安定になったりする可能性があるため、アップグレード時に設定を保持しないことをお勧めします。そのため、アップグレード前に重要な設定をバックアップしておいてください。よりスムーズなアップグレードができるよう、プロセスを改善していきます。
 
-**Note:** Currently, the GL-B1300 and GL-S1300 do not have mesh function.
+**注意:** 現在、GL-B1300とGL-S1300にはメッシュ機能はありません。
 
-## Upgrade
+## アップグレード
 
-There are two methods to upgrade to firmware 4.x. The first method can be used for some models, and the second method can be used for all models.
+ファームウェア4.xへのアップグレードには2つの方法があります。1つ目の方法は一部のモデルに使用でき、2つ目の方法はすべてのモデルに使用できます。
 
-### Method 1
+### 方法1
 
-Upgrade via the Local Upgrade in web Admin Panel.
+ウェブ管理パネルのローカルアップグレードからアップグレードします。
 
-Suitable for GL-AX1800, GL-MT1300, GL-SFT1200, GL-B1300, GL-AR750S.
+GL-AX1800, GL-MT1300, GL-SFT1200, GL-B1300, GL-AR750Sに適しています。
 
-1. Upgrade the firmware to the latest stable 3.x version.
+1. ファームウェアを最新の安定した 3.x バージョンにアップグレードします。
 
-2. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}.
+2. [ここから](https://dl.gl-inet.com){target="_blank"}4.x ファームウェアをダウンロードします。
 
-    * For GL-MT1300, GL-B1300, GL-SFT1200, GL-AR750S, please download the one for Local Upgrade, its file name extension is **.tar** or **.bin**.
+    * GL-MT1300、GL-B1300、GL-SFT1200、GL-AR750Sの場合は、ローカル アップグレード用のものをダウンロードしてください。ファイル名拡張子は **.tar**または **.bin**です。
 
-    * For GL-AX1800, please download the one for Uboot, its file name extension is **.img**.
+    * GL-AX1800の場合は、Uboot用のものをダウンロードしてください。ファイル名拡張子は **.img**です。
 
-3. Upgrade it via the **Local Upgrade** in web Admin Panel -> UPGRADE with the firmware file you just donwloaded.
+3. Web 管理パネルの **ローカルアップグレード** から、ダウンロードしたファームウェアファイルでアップグレードしてください。
 
-    **Note:** 4.x firmware is not compatible with 3.x firmware. When you upgrade from 3.x firmware, please do **NOT** keep settings.
+    **注意:** 4.xファームウェアは3.xファームウェアと互換性がありません。3.xファームウェアからアップグレードする場合、 設定を **保持しない** でください。
 
     ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
-### Method 2
+### 方法2
 
-Upgrade via Uboot.
+Uboot経由でアップグレードします。
 
-Suitable for all models.
+すべてのモデルに適しています。
 
-1. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}, please download the one for Uboot.
+1. [ここから](https://dl.gl-inet.com){target="_blank"}4.x ファームウェアをダウンロードします。Uboot用のものをダウンロードしてください。
 
-2. Please flash the firmware by [Uboot](debrick.md).
+2. [Uboot](debrick.md)でファームウェアをフラッシュしてください。
 
-## Downgrade
+## ダウングレード
 
-1. Please download the latest 3.x release firmware [here](https://dl.gl-inet.com){target="_blank"}.
+1. [ここから](https://dl.gl-inet.com){target="_blank"}最新の 3.x リリース ファームウェアをダウンロードしてください。
 
-2. Please flash the firmware by [Uboot](debrick.md).
+2. [Uboot](debrick.md)でファームウェアをフラッシュしてください。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

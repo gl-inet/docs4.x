@@ -95,7 +95,7 @@ Firmware 4.x has integrated Mullvad WireGaurd service.
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/wgclient_delete_all_configuration_file.png){class="glboxshadow"}
 
 
-## Set Up WireGuard Client
+## Setup WireGuard Client
 
 As of firmware 4.0, it brings grouping to manage WireGuard profiles.
 

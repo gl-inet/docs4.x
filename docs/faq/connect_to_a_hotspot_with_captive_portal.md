@@ -1,87 +1,87 @@
-# Connecting to a Hotspot with a Captive Portal
+# キャプティブ・ポータルでホットスポットに接続する
 
-## What is a captive portal?
+## キャプティブ・ポータルとは？
 
-A captive portal is a Web page where public hotspots require users obligated to view and interact with before Internet access is granted.
+キャプティブ ポータルは、インターネットアクセスが許可される前に、パブリック ホットスポットがユーザーに閲覧および操作することを義務付けられている Web ページです。
 
-## Why do I need to use my router to connect to a public hotspot?
+## パブリック ホットスポットに接続するためにルーターを使用する必要があるのはなぜですか?
 
-* Public Wi-Fi is not safe
+* パブリックWi-Fiは安全ではありません 
 
-    We cannot put enough emphasis on how public Wi-Fi is not safe. By connecting your GL.iNet router to the public wifi, you can simply login to your VPN account directly through your router's Admin Panel, and it’ll automatically encrypt all connected devices within the local network, saving you from the trouble of setting up VPN on every single device. 
+    パブリックWi-Fiがいかに安全でないかは、いくら強調してもしきれません。GL.iNetルーターを公衆無線LANに接続すれば、ルーターの管理パネルから直接VPNアカウントにログインするだけで、ローカルネットワーク内で接続された全てのデバイスが自動的に暗号化され、全てのデバイスにVPNを設定する手間が省けます。
 
-* Use as a repeater to allow connections with multiple devices
+* リピーターとして使用し、複数のデバイスと接続可能
 
-    Besides that, some public Wi-Fi such as hotel complimentary Wi-Fi are limited to let’s say 2 devices. When you’re travelling in a group, that’s just not going to work. Instead, you could connect a travel router to the hotel Wi-Fi, and use it as a hotspot to broadcast Wi-Fi to all your devices including laptops, smartphones, tablets…etc. The hotel Wi-Fi will only recognize the travel router as a single device, but you could enjoy the free Wi-Fi as many devices as you want. 
+    その上、ホテルの無料Wi-FiなどパブリックWi-Fiの中には、例えば2台のデバイスに制限されている場合もあります。グループで旅行している場合、それではうまくいきません。その代わりに、トラベルルーターをホテルのWi-Fiに接続し、ホットスポットとして使用して、ノートパソコン、スマートフォン、タブレットなど、すべてのデバイスにWi-Fiをブロードキャストすることができます。ホテルのWi-Fiはトラベルルーターを1台のデバイスとしてしか認識しないが、何台でも無料Wi-Fiを楽しむことができます。
 
-## How do I connect my router to a public hotspot via captive portal?
+## ルーターをキャプティブポータル経由でパブリックホットスポットに接続するには？
 
-1. Connect your smartphone or computer to the router.
+1. スマートフォンまたはコンピューターをルーターに接続します。
 
-    Power on the router. On your smartphone or computer, connect WiFi to your travel router by searching its SSID, and enter the WiFi password. The default password indicated as “WIFI Key” on the bottom of your router.
+    ルーターの電源を入れます。 スマートフォンまたはコンピュータで、SSID を検索して WiFi をトラベル ルーターに接続し、WiFi パスワードを入力します。 デフォルトのパスワードは、ルーターの底部に「WIFI キー」として表示されます。
 
-2. Access your travel router's web admin panel.
+2. トラベル ルーターの Web 管理パネルにアクセスします。
 
-    After successfully connecting to your router, go to the web admin panel of your router by visiting router IP address (default is `192.168.8.1`) on the Internet browser. If you are logging in for the first time, select a language and create a new password for the router's web admin panel.
+    ルーターへの接続に成功したら、インターネットブラウザでルーターのIPアドレス（デフォルトは`192.168.8.1`）にアクセスして、ルーターのウェブ管理パネルにアクセスします。初めてログインする場合は、言語を選択し、ルータのWeb管理パネルの新しいパスワードを作成します。
 
-3. Connect your router to the public hotspot's SSID using the [Repeater](../interface_guide/internet_repeater.md/) function.
+3. [リピーター](../interface_guide/internet_repeater.md/) 機能を使用して、ルーターをパブリックホットスポットのSSIDに接続します。
 
-4. Fill out the hotel's Captive Portal.
+4. ホテルのキャプティブ・ポータルに必要事項を記入する。
 
-## Troubleshooting
+## トラブルシューティング
 
-However, you may find that you are unable to enter the captive portal, so you cannot connect to the hotspot or access the Internet. In this case, please try the following solutions one at a time.
+ただし、キャプティブ ポータルに入ることができないため、ホットスポットに接続したり、インターネットにアクセスしたりできない場合があります。 この場合は、次の解決策を 1 つずつ試してください。
 
 ---
 
-### Solution 1: Change DNS settings
+### 解決策 1: DNS 設定を変更する
 
-1. Go to web Admin Panel -> NETWORK -> DNS. Then, make sure the **DNS Rebinding Attack Protection** is disable and the **Mode** is **Automatic**.
+1. Web 管理パネル -> ネットワーク -> DNS に移動します。 次に、**DNS 再バインディング攻撃保護** が無効になっていて、**モード** が **自動** であることを確認します。
 
     ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="580"}
 
-2. Go to web Admin Panel -> VPN -> VPN Dashboard. Make sure the connection of OpenVPN and WireGuard client is disable.
+2. Web 管理パネル -> VPN -> VPN ダッシュボードに移動します。 OpenVPN と WireGuard クライアントの接続が無効になっていることを確認してください。
 
     ![vpn client is disable](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="572"}
 
-3. Go to web Admin Panel -> APPLICATIONS -> AdGuard Home. Make sure the AdGuard Home is stopped.
+3. Web 管理パネル -> アプリケーション -> AdGuard Homeに移動します。 AdGuard Homeが停止していることを確認してください。
 
     ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
 
-4. Use your web browser to visit a webpage, it will be redirected to the captive portal of the hotspot automatically.
+4. Web ブラウザを使用して Web ページにアクセスすると、ホットスポットのキャプティブ ポータルに自動的にリダイレクトされます。
 
-    If you are using smartphone but your web browser doesn't redirect to the captive portal. Please turn off the Wi-Fi of your smartphone and then turn it on and reconnect to the Wi-Fi of your router again. The captive portal should be popped up directly after you entered the Wi-Fi password.
+    スマートフォンを使用しているが、Web ブラウザがキャプティブ ポータルにリダイレクトされない場合、スマートフォンのWi-Fiを一度OFFにし、再度ONにしてルーターのWi-Fiに接続し直してください。 Wi-Fi パスワードを入力すると、キャプティブ ポータルが直接ポップアップ表示されます。
 
     ![connected](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
 
 ---
 
-### Solution 2：MAC Clone
+### 解決策 2：MAC クローン
 
-Sometimes, [Solution 1](#solution-1-change-dns-settings) is not enough to solve this issue. Some hotels limit the number of devices each customer can access by MAC address, and they record the MAC address of your phone (or other device) when it first time accesses the hotel WiFi. In this case, we need to clone the MAC address that the your phone uses to connect to the hotel WiFi to the router.
+[解決策 1](#solution-1-change-dns-settings)だけではこの問題を解決できない場合があります。 一部のホテルでは、各顧客がアクセスできるデバイスの数を MAC アドレスによって制限しており、初めてホテルの WiFi にアクセスしたときに携帯電話 (またはその他のデバイス) の MAC アドレスを記録します。 この場合、携帯電話がホテルの WiFi に接続するために使用する MAC アドレスをルーターにクローンする必要があります。
 
-1. Got your smartphone registered on the network.
+1. スマートフォンをネットワークに登録します。
 
-2. Make sure your phone is connected to the hotel WiFi. Find the MAC address that your phone uses to connect to the hotel's WiFi. Here is an example for iPhone (iOS 16.1.2), go to settings -> Wi-Fi -> Select the hotel WiFi. You will find the Wi-Fi Address, write down this address.
+2. お使いのスマートフォンがホテルのWiFiに接続されていることを確認します。あなたのスマホがホテルのWiFiに接続するために使用しているMACアドレスを確認します。以下はiPhone（iOS 16.1.2）の例です。設定→Wi-Fi→ホテルのWiFiを選択してください。Wi-Fiアドレスが表示されるので、このアドレスをメモします。
 
     ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
 
-    For some old phones, the MAC address is not found there in WiFi, then it uses the real MAC address of the phone. This can be found in the phone's **Settings** -> **About** where you can find the phone's MAC address.
+    一部の古い携帯電話では、WiFiでMACアドレスが見つからない場合、携帯電話の本当のMACアドレスを使用します。これは携帯電話の**設定** -> **About**にあり、そこで携帯電話のMACアドレスを見つけることができます。
 
-3. Use your phone or computer to connect to router, access web admin panel. On the left side of web Admin Panel -> NETWORK -> MAC Address.
+3. 携帯電話またはパソコンを使ってルーターに接続し、ウェブ管理パネルにアクセスします。ウェブ管理パネルの左側にある「ネットワーク」→「MACアドレス」を選択します。
 
-    Select Manual Mode, fill in the MAC address you wrote down in step 2 into the input box and click Apply.
+    手動モードを選択し、ステップ2でメモしたMACアドレスを入力ボックスに記入し、[適用]をクリックします。
 
     ![MAC manual](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
 
-4. It may need to reboot the router to take effect.
+4. 有効にするには、ルーターを再起動する必要があるかもしれません。
 
 ---
 
-### Solution 3：Ask the help from the hotel staff
+### 解決策3：ホテルのスタッフに助けを求める
 
-Some hotel's network has a very strict verification policy. Neither solution 1 nor 2 is unable to make it work, then you can consult with the hotel staff if they can add the router's MAC address(the Factory default one) to their "Whitelist" directly.
+ホテルのネットワークによっては、非常に厳格な認証ポリシーを持っている場合があります。解決策1でも2でもうまくいかない場合は、ルーターのMACアドレス（工場出荷時のデフォルトのもの）を直接「ホワイトリスト」に追加できるかどうか、ホテルのスタッフに相談してみてください。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

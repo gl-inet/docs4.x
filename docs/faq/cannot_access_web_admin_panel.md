@@ -4,93 +4,93 @@
 
 ![can't access admin](https://static.gl-inet.com/docs/router/en/4/tutorials/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
 
-* You computer or mobile phone doesn't connect to the router.
-* 192.168.8.1 is the default IP address of the router, you may have changed this IP.
-* The cache or extension of browser may cause unaccessable.
-* You are using a VPN client which handle your LAN traffic.
-* The router is bricked.
+* パソコンや携帯電話がルーターに接続していません。
+* 192.168.8.1 はルーターのデフォルトの IP アドレスですが、この IP は変更されている可能性があります。
+* ブラウザのキャッシュや拡張機能によりアクセスできない場合があります。
+* LAN トラフィックを処理する VPN クライアントを使用しています。
+* ルーターがレンガ化しました。
 
-Follow the steps to fix this issue.
+この問題を解決するには、手順に従ってください。
 
-1. [Check the connection](#check_the_connection)
-2. [Check router's IP address](#check-routers-ip-address)
-3. [Access the router's IP address](#access-the-routers-ip-address)
+1. [接続をチェックする](#check_the_connection)
+2. [ルーターのIPアドレスを確認する](#check-routers-ip-address)
+3. [ルーターのIPアドレスにアクセスする](#access-the-routers-ip-address)
 
-Or you can use [the app](mobile_app.md) to access the router.
+または、[アプリ]を使ってルーターにアクセスすることもできます。
 
 ---
 
-## Check the connection
+## 接続をチェックする
 
-If connected by ethernet cable, make sure your WAN/LAN port connection is correct. WAN port is connected to an Internet source and LAN port is connected to devices.
+イーサネットケーブルで接続している場合は、WAN/LANポートの接続が正しいことを確認してください。WANポートはインターネットソースに接続され、LANポートはデバイスに接続されています。
 
-If connected by Wi-Fi, make sure the SSID is correct.
+Wi-Fiで接続している場合は、SSIDが正しいことを確認してください。
 
-## Check router's IP address
+## ルーターのIPアドレスを確認する
 
-Then follow the steps below to check the router's IP address.
+次に、以下の手順に従ってルーターのIPアドレスを確認します。
 
 === "Windows 10 / Windows 11"
 
-    Access Control Panel, please make sure the top right corner is a View by Large icons or Small icons.
+    コントロールパネルにアクセスし、右上隅が大きなアイコンまたは小さなアイコンで表示されていることを確認してください。
 
     ![control panel](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/control_panel_view_by.png){class="glboxshadow"}
 
-    Control Panel -> Network and Share Center -> Click the connection. You may have multiple connections, please choose the corresponding connections of the router you want to check.
+    コントロールパネル ->ネットワークと共有センター -> 接続をクリックします。 複数の接続がある場合は、確認したいルーターの対応する接続を選択してください。
 
     ![network and sharing center, connections](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/network_and_sharing_center_connections.png){class="glboxshadow"}
 
-    It will pop up a dialog of the status of the connection. Click the detail button.
+    接続のステータスを示すダイアログがポップアップ表示されます。 詳細ボタンをクリックします。
 
     ![network and sharing center, connections status](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/network_and_sharing_center_connections_status.png){class="glboxshadow"}
 
-    It will pop up a dialog of network connection detail, the IP address of router is the **IPv4 Default Gateway**.
+    ネットワーク接続の詳細を示すダイアログが表示されます。ルーターの IP アドレスは **IPv4 デフォルト ゲートウェイ**です。
 
     ![network and sharing center, connections status detail](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/network_and_sharing_center_connections_status_detail.png){class="glboxshadow"}
 
 === "Windows 7"
 
-    Control Panel -> Network and Internet -> Network and Sharing Center -> Change adapter settings
+    コントロールパネル -> ネットワークとインターネット -> ネットワークと共有センター-> アダプター設定を変更する
 
-    Right click the network -> Status -> Details
+    ネットワークを右クリック -> ステータス-> 詳細
     
-    The IP address of router is the **IPv4 Default Gateway**
+    ルーターのIPアドレスは、**IPv4デフォルトゲートウェイ**です。
     
     ![property of network on windows 7](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/property_of_network_win7.jpg){class="glboxshadow"}
 
 === "macOS"
 
-    1. System Preferences -> Network
+    1. システム環境設定 -> ネットワーク
 
-    2. In the left column, click on the network connection. For an Ethernet connection, the router IP address will be shown.
+    2. 左側の列で、ネットワーク接続をクリックします。 イーサネット接続の場合、ルーターの IP アドレスが表示されます。
 
     ![router ip of ethernet on mac os](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/router_ip_of_ethernet_on_mac_os.jpg){class="glboxshadow"}
 
-    For a Wi-Fi connection, click the "Advanced..." button, and then the "TCP/IP" tab on the top of the windows. The router IP address will be shown.
+    Wi-Fi 接続の場合は、[詳細...] ボタンをクリックし、ウィンドウの上部にある [TCP/IP] タブをクリックします。 ルーターのIPアドレスが表示されます。
 
     ![router ip of Wi-Fi on mac os](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/router_ip_of_wifi_on_mac_os.jpg){class="glboxshadow"}
 
 === "iOS"
 
-    1. Settings -> Wi-Fi
-    2. Tap the information icon(blue i, in a circle) of current connected Wi-Fi. The router IP address will be shown.
+    1. 設定 -> Wi-Fi
+    2. 現在接続しているWi-Fiの情報アイコン（丸の中に青いi）をタップします。ルーターのIPアドレスが表示されます。
 
     ![router ip address on iphone](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/router_ip_address_on_iphone.jpg){class="glboxshadow"}
 
 === "Android"
 
-    This will vary from different Android device.
+    これはアンドロイドデバイスによって異なります。
 
-    1. Settings -> Network & internet
-    2. Tab on Wi-Fi and find the network you are connected to, click on the settings icon to manage its settings
-    3. Tap on the Advanced dropdown. If if offers you options for Static or Dynamic IPs, select Static
-    4. Either way, you should see your router's IP under Gateway.
+    1. 設定 -> ネットワークとインターネット
+    2. Wi-Fiをタブし、接続しているネットワークを見つけ、設定アイコンをクリックして設定を管理します。
+    3. 詳細設定のドロップダウンをタップします。静的IPまたは動的IPのオプションが表示されたら、静的IPを選択します。
+    4. いずれの場合でも、ゲートウェイの下にルーターの IP が表示されるはずです。
 
-## Access the router's IP address
+## ルーターのIPアドレスにアクセスする
 
-1. Make sure you are using Chrome/Edge/Safari, then try to access your IP address again.
-2. In order to avoid problems caused by the browser cache and extension, please open the incognito window. Then try to access the IP address of router again.
-3. If you are using a VPN, please turn off then try again.
-4. If you are using a mobile phone, please turn off the mobile data. Some phones will use mobile data instead of WiFi if the router can't access Internet.
-5. If above steps failed, try [Reset](repair_network_or_reset_firmware.md#reset-to-factory) to back to factory default.
-6. If the reset doesn't work, you can try [Debrick via uboot](debrick.md).
+1. Chrome/Edge/Safariを使用していることを確認し、再度IPアドレスにアクセスしてみてください。
+2. ブラウザのキャッシュや拡張機能による問題を避けるため、シークレットウィンドウを開いてください。その後、再度ルーターのIPアドレスにアクセスしてみてください。
+3. VPN を使用している場合は、VPN をオフにしてからもう一度お試しください。
+4. 携帯電話をご利用の場合は、モバイルデータ通信をオフにしてください。 一部の携帯電話では、ルーターがインターネットにアクセスできない場合、WiFi の代わりにモバイル データを使用します。
+5. 上記の手順が失敗した場合は、 [リセット](repair_network_or_reset_firmware.md#reset-to-factory)を試して工場出荷時の状態に戻してください。
+6. リセットが機能しない場合は、 [uboot経由でデブリック](debrick.md)を試してください。

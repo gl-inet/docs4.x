@@ -1,27 +1,27 @@
-# Change WAN to LAN
+# WANをLANに変更
 
-You can configure the WAN port of the router so that it can be used as a LAN port. That's useful when you are using the router in repeater mode which the WAN port is not required. As a result, you can have one more LAN port.
+ルーターのWANポートをLANポートとして使用できるように設定できます。これは、WANポートが不要なリピーターモードでルーターを使用する場合に便利です。その場合、LANポートが1つ増えます。
 
-1. Leave the WAN port of the router unconnected.
+1. ルーターのWANポートは未接続のままにしておきます。
 
-2. Connect your device to the router and access the web Admin Panel.
+2. デバイスをルーターに接続し、ウェブ管理パネルにアクセスします。
 
-3. Go to **Internet**, it display the WAN port is **Using as WAN** in Ethernet section, click **Change to LAN** to change it as LAN.
+3. **インターネット**に移動すると、イーサネットセクションでWANポートが**WANとして使用中**であることが表示されます。**LANに変更**をクリックしてLANに変更します。
 
 	![internet page](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
 
-4. Click **Apply** to confirm.
+4. **適用**をクリックして確定します。
 
 	![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
 
-  **Note**: Wi-Fi may turn off during the process, please make sure to reconnect to the router.
+  **注意**: 処理中に Wi-Fi がオフになる場合があります。必ずルーターに再接続してください。
 
-5. Then it display `Using as LAN`.
+5. その後、 `LANとして使用中`と表示されます。
 
 	![using as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
 
-You can simply revert the setting by repeating the above procedures.
+上記の手順を繰り返すだけで設定を元に戻すことができます。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

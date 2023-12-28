@@ -1,24 +1,24 @@
-# How can I know my device's WAN, LAN, 2.4G, 5G Mac addresses
+# デバイスの WAN、LAN、2.4G、5G の Mac アドレスを確認するには?
 
-The Mac addresses of our devices are unique for each connecting port, they are arranging in sequence of hexadecimal order.
+デバイスのMacアドレスは接続ポートごとにユニークで、16進数で並んでいます。
 
-The sequence is 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+配列は0、1、2、3、4、5、6、7、8、9、A、B、C、D、E、F。
 
-## Finding the WAN Mac address
+## WAN Mac アドレスの検索
 
 ![wan_lan_wifi](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/wan_lan_wifi.png){class="glboxshadow"}
 
-You can find the WAN address on the back label of our device. For example the WAN Mac is: E4:95:6E:40:DB:A9 here.
+WAN アドレスはデバイスの背面ラベルで確認できます。 たとえば、WAN Mac はここでは E4:95:6E:40:DB:A9 です。
 
-## Calculate the LAN, 2.4G and 5G Mac addresses
+## LAN、2.4G、および 5G の Mac アドレスを計算する
 
-The LAN Mac address is the WAN +1, therefore the result is E4:95:6E:40:DB:AA  (9 + 1 =A)
+LAN Mac アドレスは WAN +1 であるため、結果は E4:95:6E:40:DB:AA (9 + 1 =A) となります。
 
-The 2.4G Mac address is the WAN +2 therefore the result is E4:95:6E:40:DB:AB (9 + 2 =B)
+2.4G Mac アドレスは WAN +2 であるため、結果は E4:95:6E:40:DB:AB (9 + 2 =B) となります。
 
-The 5G Mac address is the WAN +3 therefore the result is E4:95:6E:40:DB:AC (9 + 3 =C)
+5G Mac アドレスは WAN +3 であるため、結果は E4:95:6E:40:DB:AC (9 + 3 =C) となります。
 
-## Usage Scenario
+## 使用シナリオ
 
-When you connect to some hotels, camping sites, campus, the network manager may ask your device's Mac address to register into his whitelist before.
-You need to tell him the exact Mac address or addressed of your device in order for network access. You can use the above logic to tell him exactly all your Mac addresses of your device immediately.
+ホテルやキャンプ場、キャンパスなどに接続する際、ネットワーク管理者が事前にあなたのデバイスのMacアドレスをホワイトリストに登録するよう求めることがあります。
+ネットワークにアクセスするには、正確な Mac アドレスまたはデバイスのアドレスを彼らに伝える必要があります。上記のロジックを使えば、すぐにあなたのデバイスのMacアドレスを正確に伝えることができます。

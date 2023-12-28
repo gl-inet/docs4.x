@@ -1,41 +1,40 @@
-# How to upgrade GL-AX1800(Flint) to firmware 4.x?
+# GL-AX1800(Flint)をファームウェア4.xにアップグレードするには？
 
-The GL-AX1800 is already available in 4.x firmware. For those who want to try it, you can follow the steps below to upgrade GL-AXT1800 from firmware 3.x to 4.x.
+GL-AXT1800はすでに4.xファームウェアが利用可能です。GL-AXT1800をファームウェア3.xから4.xにアップグレードするには、以下の手順に従ってください。
 
-Want to find guide of other models upgrade to firmware 4.x? Please check out [here](upgrade_to_4.md).
+他のモデルのファームウェア4.xへのアップグレードガイドをお探しですか？[こちら](upgrade_to_4.md)ご覧ください。
 
-## Upgrade
+## アップグレード
 
-There are two ways to upgrade to firmware 4.x. The first method is recommended, it is easier.
+ファームウェア 4.x にアップグレードするには 2 つの方法があります。 最初の方法が簡単なのでお勧めします。
 
-Method 1
+方法 1
 
-Use the Local Upgrade in web Admin Panel.
+Web 管理パネルのローカル アップグレードを使用します。
 
-1. Please upgrade the firmware to 3.214 (the latest stable version).
+1. ファームウェアを 3.214 (最新の安定バージョン) にアップグレードしてください。
 
-2. Download the 4.x firmware [here](https://dl.gl-inet.com/?model=ax1800){target="_blank"}, please download the one for uboot, its file name extension is **.img**. There may be some confusion here, the firmware used for uboot is not normally available for Local Upgrade, this is a special case.
+2.  [ここから](https://dl.gl-inet.com/?model=ax1800){target="_blank"}4.x ファームウェアをダウンロードします。uboot 用のものをダウンロードしてください。ファイル名拡張子は **.img** です。ここで混乱が生じるかもしれませんが、ubootに使用されているファームウェアは通常、ローカル・アップグレードでは使用できません。これは特殊なケースです。
 
-3. Upgrade it via the **Local Upgrade** in web Admin Panel -> UPGRADE with the .img firmware file.
+3. Web 管理パネルの **ローカル アップグレード** -> .img ファームウェア ファイルでアップグレードします。
 
-    After the firmware verification, as shown in the figure below, it may show a warning and version is unknown, please ignore. We will improve it in next 3.x version.
+    ファームウェアの検証後、下図に示すように、バージョンが不明という警告が表示される場合がありますが、無視してください。 次の 3.x バージョンでは改善する予定です。
 
-    **Note:** 4.x firmware is not compatible with 3.x firmware. When you upgrade from 3.x firmware, please do **NOT** keep settings.
+    **注意:** 4.x ファームウェアは 3.x ファームウェアと互換性がありません。 3.x ファームウェアからアップグレードする場合は、設定を**維持しない**でください。
 
     ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
-Method 2
+方法 2
 
-1. Download the 4.x firmware [here](https://dl.gl-inet.com/?model=ax1800){target="_blank"}, please download the one for uboot, its file name extension is **.img**.
+1.[ここから](https://dl.gl-inet.com/?model=ax1800){target="_blank"}4.x ファームウェアをダウンロードします。uboot 用のものをダウンロードしてください。ファイル名拡張子は **.img** です。
+2.[Uboot](debrick.md)でファームウェアをフラッシュしてください。
 
-2. Please flash the firmware by [Uboot](debrick.md).
+## ダウングレード
 
-## Downgrade
+1. [ここから](https://dl.gl-inet.com/?model=ax1800){target="_blank"}最新の 3.x リリース ファームウェアをダウンロードしてください
 
-1. Please download the latest 3.x release firmware [here](https://dl.gl-inet.com/?model=ax1800){target="_blank"}.
-
-2. Please flash the firmware by [Uboot](debrick.md).
+2. [Uboot](debrick.md)でファームウェアをフラッシュしてください。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

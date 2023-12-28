@@ -1,177 +1,177 @@
-# Using Uboot to Debrick Your Router
+# Ubootを使用してルーターをデブリックする
 
-You may have bricked your router if you were doing some DIY projects or flashed a wrong firmware. You may not be able to access your router but you can re-install the firmware by using Uboot failsafe.
+DIY プロジェクトを行っていたり、間違ったファームウェアをフラッシュしたりした場合、ルーターがブリックしてしまう可能性があります。 ルーターにアクセスできない場合がありますが、Uboot フェイルセーフを使用してファームウェアを再インストールできます。
 
-**Note:** The Uboot operation will remove your router's settings and installed plugins.
+**注意:** Uboot 操作により、ルーターの設定とインストールされているプラグインが削除されます。
 
 ---
 
-Please prepare a computer with an ethernet port, if not, please prepare an additional USB Ethernet Adapter.
+イーサネットポートを備えたコンピュータをご用意ください。イーサネットポートがない場合は、追加の USB イーサネットアダプタをご用意ください。
 
-Please follow the procedures below to access the Uboot Web UI and re-install the firmware.
+以下の手順に従って Uboot Web UI にアクセスし、ファームウェアを再インストールしてください。
 
-You can also refer to video tutorial below.
+以下のビデオチュートリアルも参照してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EAaaw8nyrnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. Please download firmware [here](https://dl.gl-inet.com/){target="_blank"} to your computer.
+1. [ここから](https://dl.gl-inet.com/){target="_blank"}ファームウェアをコンピュータにダウンロードしてください。
 
-    Some models, such as GL-AR750S-EXT, is available in two formats of firmware, please use the firmware for Uboot, its file name extension is **.img**.
+    GL-AR750S-EXT などの一部のモデルでは、2 つの形式のファームウェアがありますが、Uboot 用のファームウェアを使用してください。ファイル名拡張子は **.img** です。
 
-2. Remove the power of router. Connect your computer to the **Ethernet port (either LAN or WAN)** of the router. You **MUST** leave all the other ports **unconnected**.
+2. ルーターの電源を切ります。コンピューターをルーターの **イーサネット ポート (LAN または WAN)** に接続します。他のポートはすべて**未接続**にしておく必要があります。
 
-3. Press and hold the Reset button firmly, and then power up the router. If your router doesn't have a power button, plugging the power in will power it on automatically.
+3. リセット ボタンをしっかりと押したままにして、ルーターの電源を入れます。 ルーターに電源ボタンがない場合は、電源プラグを差し込むと自動的に電源が入ります。
 
-    Then you will see a LED flashing in a regular sequence a few times, please release your finger after the sequence changes.
+    LED が規則的なシーケンスで数回点滅します。シーケンスが変わったら指を放してください。
 
-    The following will give the description of sequence of each model of LED flashing.
+    以下は各モデルのLED点滅シーケンスを説明します。
 
-    **Note:** Same router models with different manufacturing dates may have different LED colours or flashing sequences, it won't affect the UBoot process. Please pay more attention to the change of the flashing LED.
+    **注意:** 同じルーターモデルでも製造年月日が異なると、LEDの色や点滅順序が異なる場合がありますが、UBootプロセスには影響しません。LEDの点滅の変化にご注意ください。
 
-    - For **GL-MT3000(Beryl AX)**, the blue LED flashes 6 times then turns white and stays on.
+    - **GL-MT3000(Beryl AX)**の場合、青色LEDが6回点滅し、その後白色に変わり点灯します。
 
-    - For **GL-MT2500/GL-MT2500A(Brume 2)**, the blue LED flashes 5 times then turns white and stays on.
+    -  **GL-MT2500/GL-MT2500A(Brume 2)**の場合、 青色LEDが5回点滅した後、白色に点灯します。
 
-    - For **GL-S200**, the cyan LED flashes 5 times, then briefly turns purple, then turns cyan and stays on.
+    -  **GL-S200**の場合、シアン色のLEDが5回点滅した後、短時間紫色に変わり、その後シアン色に変わって点灯したままになります。
 
-    - For **GL-A1300(Slate Plus)**, the LED flashes slowly 5 times, then stays on for a short while, then flashes quickly all the time.
+    -  **GL-A1300(Slate Plus)**の場合、 LEDがゆっくり5回点滅した後、しばらく点灯し、その後ずっと速く点滅します。
 
-    - For **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)**, **microuter-N300**, the LED falshes 5 times.
+    - **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)**, **microuter-N300**の場合、 LEDが5回点滅します。
 
-    - For **GL-E750(Mudi)**, its screen will first display "Booting", followed by "Reset Counting 1 to 4", and finally "Please Open Web 192.168.1.1".
+    -  **GL-E750(Mudi)**の場合、 画面には最初に「Booting」、次に「Reset Counting 1 to 4」、最後に「Please Open Web 192.168.1.1」が表示されます。
 
-    - For **GL-S1300(Convexa-S), GL-B1300(Convexa-B)**, the LED flashes 4 times.
+    -  **GL-S1300(Convexa-S), GL-B1300(Convexa-B)**の場合、 LEDが4回点滅します。
         
-        The left most LED may stay on the whole time while the rightmost LED flashes 4 times, then the middle LED turns on and stays on.
+        一番左のLEDがずっと点灯したまま、一番右のLEDが4回点滅し、その後、真ん中のLEDが点灯し続けることがあります。
         
-        (For some old GL-B1300, the left most LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simutaneously then they stays on.)
+        (一部の古いGL-B1300では、一番左のLEDがずっと点灯し、真ん中のLEDと一番右のLEDが同時に5回点滅した後、点灯したままになります。)
 
-    - For **GL-SF1200**, the 5G LED flashes 5 times then stays on.
+    -  **GL-SF1200**の場合、 5G LEDが5回点滅した後、点灯したままになります。
 
-    - For **GL-AX1800(Flint)**, the blue LED flashes 5 times then turns white and stays on.
+    -  **GL-AX1800(Flint)**の場合、 青色LEDが5回点滅した後、白色に変わり点灯し続けます。
 
-    - For **GL-AXT1800(Slate AX)**, the blue LED flashes 5 times then stays on.
+    -  **GL-AXT1800(Slate AX)**の場合、 青色LEDが5回点滅した後、点灯したままになります。
 
-    - For **GL-XE300(Puli)**, the LAN LED falshes 5 times then WIFI LED stays on.
+    -  **GL-XE300(Puli)**の場合、LAN LED が 5 回点滅し、その後 WIFI LED が点灯したままになります。
 
-    - For **GL-X300B(Collie)**, the WAN LED flashes 5 times then WIFI LED stays on.
+    -  **GL-X300B(Collie)**の場合、 WAN LED が 5 回点滅し、その後 WIFI LED が点灯したままになります。
 
-    - For **GL-SFT1200(Opal)**, the blue LED flashes 5 times then turns white and stays on.
+    -  **GL-SFT1200(Opal)**の場合、 青色の LED が 5 回点滅し、その後白色に変わり、点灯したままになります。
 
-    - For **GL-AP1300(Cirrus)**, the power LED flashes slowly 5 times, then stays on for a short while, then flashes quickly all the time.
+    -  **GL-AP1300(Cirrus)**の場合、 電源LEDがゆっくり5回点滅した後、しばらく点灯し、その後常に速く点滅します。
 
-    - For **GL-MT1300(Beryl)**, the LED is blue at first, flash twice slowly, then flash 5 times a bit quick and turn to white and stays on.
+    -  **GL-MT1300(Beryl)**の場合、 LEDは最初青色で、ゆっくり2回点滅し、その後少し速く5回点滅して白色に変わり、点灯したままになります。
 
-    - For **GL-B2200(Velica)**, the two LEDs are blue at first, then turn white to flash 5 times, then turn blue and stays on.
+    -  **GL-B2200(Velica)**の場合、 2つのLEDは最初青色で、次に白色に変わり5回点滅した後、青色に変わり点灯し続けます。
 
-    - For **GL-MV1000/GL-MV1000W(Brume)**, no repeat LED flashes signal. (Power and WAN LEDs will stays on the whole time.)
+    -  **GL-MV1000/GL-MV1000W(Brume)**の場合、 LEDが点滅しません。（電源と WAN LED はずっと点灯したままです）。
 
-    - For **GL-MiFi**, the LED flashes 6 times.
+    -  **GL-MiFi**の場合、 LEDが6回点滅します。
 
-    - For **GL-MT300N**, **GL-MT300A**, the LED flashes 3 times.
+    -  **GL-MT300N**, **GL-MT300A**の場合、 LEDが3回点滅します。
 
-4. Manually set the IP address of your computer to **192.168.1.2**. Please check the step-by-step guide for different operating systems below:
+4. 手動でコンピュータのIPアドレスを**192.168.1.2**に設定します。各オペレーティングシステムの手順をご覧ください：
 
     ??? "Windows 7 / Windows 10"
 
-        1. Go to **Control Panel** -> **Network and Internet** -> **Network and Sharing Center** -> **Change adapter settings**.
+        1. **コントロールパネル**-> **ネットワークとインターネットt** -> **ネットワークと共有センター** -> **アダプタ設定の変更**をクリックください。
 
-        2. Right click **Local Area Connection** -> **Properties**.
+        2. **ローカルエリア接続**を右クリック -> **プロパティ**。
 
-        3. Click **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
+        3. **インターネットプロトコルバージョン4 (TCP/IPv4)** をクリック-> **プロパティ**.
+ 
+        4. **IP アドレス**を手動で「192.168.1.2」に設定します。
 
-        4. Set the **IP adress** to `192.168.1.2` manually.
-
-        5. Set the **Subnet mask** to `255.255.255.0`.
+        5. **サブネット マスク**を「255.255.255.0」に設定します。
 
             ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
 
-        6. Click the **OK** button.
+        6. **OK** ボタンをクリックします。
 
     ??? "Windows 11"
 
-        1. Open Settings.
+        1. 設定を開きます。
 
-        2. Click on **Network & Internet**.
+        2. **ネットワークとインターネット**をクリックしてください。
 
-        3. Click the **Ethernet** tab.
+        3. **イーサネット** タブをクリックします。
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
-        4. Under the "IP assignment" section, click the **Edit** button.
+        4. [IP 割り当て] セクションで、**編集** ボタンをクリックします。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        5. Select the **Manual** option.
+        5. **手動** オプションを選択します。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        6. Turn on the **IPv4 toggle** switch.
+        6. **IPv4 トグル** スイッチをオンにします。
 
-        7. Set the static **IP address** as **192.168.1.2**.
+        7. 静的 **IP アドレス** を **192.168.1.2** に設定します。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        8. Specify the **Subnet mask** as **255.255.255.0**.
+        8. **サブネット マスク**を**255.255.255.0**として指定します。
 
-        9. Click the **Save** button.
+        9. **保存** ボタンをクリックします。
 
     ??? "macOS"
 
-        1. Click the **Apple** icon in the top left corner of the screen, and select **System Preferences**.
+        1. 画面左上の**Apple**アイコンをクリックし、**システム環境設定**を選択します。
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences.png){class="glboxshadow"}
 
-        2. Click **Network**.
+        2.  **ネットワーク**をクリックします。
 
             ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences_network.png){class="glboxshadow"}
 
-        3. Click **Ethernet** on the left and then click the drop-down box next to **Configure IPv4** and select **Manually**. If you are using a USB Ethernet Adapter, Ethernet may not be found and it may show up as the name of the USB Ethernet Adapter.
+        3. 左側の**イーサネット**をクリックし、**IPv4の設定**の隣にあるドロップダウンボックスをクリックし、**手動**を選択します。USBイーサネットアダプターを使用している場合、イーサネットが見つからず、USB イーサネット アダプタの名前として表示される場合があります。
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_1.png){class="glboxshadow"}
 
-        4. Enter the **IPv4 Address** to `192.168.1.2`, **Subnet Mask** to `255.255.255.0`, **Router** to `192.168.1.1`, then click the Apply button in the lower right corner.
+        4. **IPv4 アドレス** に「192.168.1.2」、**サブネット マスク** に「255.255.255.0」、**ルーター** に「192.168.1.1」を入力し、右下隅の [適用] ボタンをクリックします。 
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-5. Use browser to visit **http://192.168.1.1**, this is the Uboot Web UI.
+5. ブラウザを使用して **http://192.168.1.1** にアクセスします。これは Uboot Web UI です。
 
     ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
-    **Note:** The Uboot Web UI above may not be exactly the same as what you see, because the Uboot version is different for different production dates. In some cases, we recommend upgrading the Uboot version. Please refer to the tutorial below.
+    **注意:** Uboot のバージョンは製造日によって異なるため、上記の Uboot Web UI は表示されるものとまったく同じではない可能性があります。場合によっては、Uboot バージョンをアップグレードすることをお勧めします。 以下のチュートリアルを参照してください。
 
-    ??? "Upgrade the Uboot version"
+    ??? "Ubootのバージョンをアップグレードする"
 
-        Some Uboot versions are too old or its Web UI is not easy for users to understand, so we recommend upgrading the Uboot version.
+        Uboot のバージョンによっては古すぎる、または Web UI がユーザーにとって理解しにくい場合があるため、Uboot のバージョンをアップグレードすることをお勧めします。
 
-        For example, the following figure shows the Web UI of the old Uboot version of GL-AR750S. It has two **Choose file** buttons, which can be confusing for users.
+        たとえば、次の図は、GL-AR750S の古い Uboot バージョンの Web UI を示しています。 2 つの **ファイルを選択** ボタンがあるため、ユーザーは混乱する可能性があります。
 
         ![gl-ar750s old Uboot version](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/gl-ar750s_firmware_update_page_of_old_uboot_version.png){class="glboxshadow" width="700"}
 
-        1. You need to download the Uboot file [here](https://github.com/gl-inet/uboot-for-qca95xx/tree/master/bin){target="_blank"} in advance.
+        1. 事前にUbootファイルを [ここから](https://github.com/gl-inet/uboot-for-qca95xx/tree/master/bin){target="_blank"} ダウンロードしておく必要があります。
 
-        2. Repeat the above steps until you can access the Uboot Web UI.
+        2. Uboot Web UIにアクセスできるようになるまで、上記の手順を繰り返します。
 
-        3. Use browser to visit **http://192.168.1.1/uboot.html**
+        3. ブラウザを使用して **http://192.168.1.1/uboot.html** にアクセスします
 
             ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 
-        4. Click the **Choose file** button and choose the Uboot file you just downloaded.
+        4. **ファイルを選択**ボタンをクリックし、ダウンロードしたUbootファイルを選択します。
 
-        5. Click **Update U-Boot** button.
+        5. **U-Bootの更新**ボタンをクリックします。
 
-        6. It will take several minutes to update. After a successful update, it will reboot the router.
+        6. アップデートには数分かかります。アップデートに成功すると、ルーターが再起動します。
 
-        7. At this time you can change the IP setting back in step 4 and try to access the web Admin Panel, if you can access the web Admin Panel normally, it means the router has been rebooted.
+        7. この時、ステップ4に戻りIP設定を変更し、ウェブ管理パネルにアクセスしてみてください。ウェブ管理パネルに正常にアクセスできれば、ルーターが再起動されたことを意味します。
 
-        8. Repeate the above steps to upgrade the firmware. If the Uboot version is updated successfully, you will see that the Uboot Web UI has changed at step 5. 
+        8. 上記の手順を繰り返してファームウェアをアップグレードします。Ubootバージョンが正常に更新されると、ステップ5でUboot Web UIが変更されたことが確認できます。
 
-6. Click **Choose file** button to find the firmware file. Then click **Update firmware** button.
+6. **ファイルを選択** ボタンをクリックして、ファームウェア ファイルを見つけます。 次に、**ファームウェアの更新** ボタンをクリックします。
 
-7. Wait for around 3 minutes. Don’t power off your device when updating. The router is ready when both power and  Wi-Fi LED are on or you can find its SSID on your device.
+7. 約3分間待ちます。アップデート中はデバイスの電源を切らないでください。電源とWi-Fi LEDの両方が点灯している場合、またはデバイスでSSIDを確認できる場合、ルーターの準備は完了です。
 
-8. Revert the IP setting you did in step 4 and connect your device to the LAN or Wi-Fi of the router. You will be able to access the router via **192.168.8.1** again.
+8. ステップ4で行ったIP設定を元に戻し、デバイスをルーターのLANまたはWi-Fiに接続します。再び**192.168.8.1**でルーターにアクセスできるようになります。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

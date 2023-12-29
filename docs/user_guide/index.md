@@ -1,6 +1,6 @@
-# User Guide
+# ユーザーガイド
 
-### IoT Gateway
+### IoTゲートウェイ
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -21,7 +21,7 @@
   </div>
 </div>
 
-### Travel router
+### トラベルルーター
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -63,7 +63,7 @@
   </div>
 </div>
 
-### Cellular Router
+### セルラールーター
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -112,7 +112,7 @@
   </div>
 </div>
 
-### Home Wi-Fi
+### ホームWi-Fi
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -140,7 +140,7 @@
   </div>
 </div>
 
-### Security Gateway
+### セキュリティ・ゲートウェイ
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -154,7 +154,7 @@
   </div>
 </div>
 
-### Board & Module
+### ボード＆モジュール
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -167,7 +167,7 @@
   </div>
 </div>
 
-### End of life models
+### 生産終了モデル
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

@@ -1,6 +1,6 @@
-# GL-S10 User Guide
+# GL-S10 ユーザーガイド
 
-## Hardware info
+## ハードウェア情報
 
 [GL-S10 specification](https://www.gl-inet.com/products/gl-s10/#specs){target="_blank"}
 
@@ -41,7 +41,7 @@
 | GPIO36                        | GPIO36        | NC                                                           |
 | GPIO39                        | GPIO39        | NC                                                           |
 
-### PCB Pinout
+### PCB ピン配置
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -53,7 +53,7 @@
 
 ---
 
-## First time setup
+## 初回設定
 
 Please refer to [GL-S10](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/) on IoT docs.
 

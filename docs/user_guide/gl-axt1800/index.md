@@ -1,6 +1,6 @@
-# GL-AXT1800 (Slate AX) User Guide
+# GL-AXT1800 (Slate AX) ユーザーガイド
 
-## Hardware info
+## ハードウェア情報
 
 GL-AXT1800 (Slate AX) is the first Wi-Fi 6 travel router designed by GL.iNet. It comes with an IPQ6000 1.2GHz quad-core processor and runs on OpenWrt 21.02. With the latest Wi-Fi 6 technology, you can enjoy more capacity for connected devices and faster wireless speed on the road or at home.
 
@@ -12,7 +12,7 @@ GL-AXT1800 (Slate AX) is the first Wi-Fi 6 travel router designed by GL.iNet. It
 
 ---
 
-### PCB Pinout
+### PCB ピン配置
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -24,7 +24,7 @@ GL-AXT1800 (Slate AX) is the first Wi-Fi 6 travel router designed by GL.iNet. It
 
 ---
 
-## First time setup
+## 初回設定
 
 All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
 
@@ -47,7 +47,7 @@ Check out Slate AX's [unboxing video](../../video_library/unboxing_first_set_up.
 
 ---
 
-## INTERNET
+## インターネット
 
 The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
 
@@ -55,7 +55,7 @@ Configure the internet network by selecting **INTERNET** in the side menu within
 
 It supports four ways to connect to the internet as listed below:
 
-### Ethernet
+### イーサネット
 
 Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
 
@@ -63,7 +63,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_ethernet.png){class="glboxshadow"}
 
-### Repeater
+### リピーター
 
 Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
 
@@ -71,7 +71,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_repeater.png){class="glboxshadow"}
 
-### Tethering
+### テザリング
 
 Establish internet access with connected devices by sharing a smartphone’s mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
 
@@ -79,7 +79,7 @@ Establish internet access with connected devices by sharing a smartphone’s mob
 
 ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_tethering.png){class="glboxshadow"}
 
-### Cellular
+### セルラー
  
 Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
@@ -87,49 +87,49 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_cellular.png){class="glboxshadow"}
 
-### Priority and load balance
+### 優先順位とロードバランス
 
 Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
 
 ---
 
-## WIRELESS
+## ワイヤレス
 
-The wireless settings lets users manage network security of the primary Wi-Fi and the Guest Wi-Fi, it is accessible by going to **WIRELESS** on the side menu.
+ワイヤレス設定では、ユーザーはプライマリ Wi-Fi とゲスト Wi-Fi のネットワーク セキュリティを管理することができます。サイド メニューの **ワイヤレス** に移動するとアクセスできます。
 
-[Click here to learn more about the wireless configuration](../../interface_guide/wireless.md)
+[ワイヤレス設定の詳細については、こちらをクリックしてください](../../interface_guide/wireless.md)
 
 ---
 
-## CLIENTS
+## クライアント
 
-Clients are devices connected to the router, you can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router’s Admin Panel.
+クライアントはルーターに接続されているデバイスで あり、クライアントをブロックしたり、ネットワーク速度を制限したりすることができます。このインターフェイスには、ルーターの管理パネルのサイドメニューにある **クライアント** をクリックしてアクセスできます。
 
-[Click here to learn more about managing your device clients.](../../interface_guide/clients.md)
+[デバイスクライアントの管理については、こちらをクリックしてください。](../../interface_guide/clients.md)
 
 ---
 
 ## VPN
 
-GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VPN services. It automatically encrypts all network traffic within the connected network, including guest devices and client devices that are not capable of running VPN encryption. Our routers can also act as VPN servers, redirecting traffic from client devices in remote locations to the VPN server via a VPN tunnel before accessing the public internet.
+GL.iNetルーターには、30以上のVPNサービスをサポートするOpenVPNとWireGuard®がプリインストールされています。これは、ゲストデバイスやVPN暗号化を実行できないクライアントデバイスを含め、接続されたネットワーク内のすべてのネットワークトラフィックを自動的に暗号化します。また、当社のルーターはVPNサーバーとしても機能し、公共のインターネットにアクセスする前に、遠隔地にあるクライアントデバイスからのトラフィックをVPNトンネル経由でVPNサーバーにリダイレクトします。
 
-### VPN Dashboard
+### VPN ダッシュボード
 
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard.md)
+- [**VPN ダッシュボード**](../../interface_guide/vpn_dashboard.md)
 
 ### OpenVPN
 
-Please refer to the following links for a step to step setup guide:
+セットアップの手順については、以下のリンクをご参照ください：
 
-- [**Setup OpenVPN Client**](../../interface_guide/openvpn_client.md)
-- [**Setup OpenVPN Server**](../../interface_guide/openvpn_server.md)
+- [**Setup OpenVPN クライアント**](../../interface_guide/openvpn_client.md)
+- [**Setup OpenVPN サーバー**](../../interface_guide/openvpn_server.md)
 
 ### WireGuard
 
-Please refer to the following links for a step to step setup guide:
+セットアップの手順については、以下のリンクをご参照ください：
 
-- [**Setup WireGuard Client**](../../interface_guide/wireguard_client.md)
-- [**Setup WireGuard Server**](../../interface_guide/wireguard_server.md)
+- [**Setup WireGuard クライアント**](../../interface_guide/wireguard_client.md)
+- [**Setup WireGuard サーバー**](../../interface_guide/wireguard_server.md)
 
 ### Tor
 
@@ -137,85 +137,85 @@ Please refer to the following links for a step to step setup guide:
 
 ---
 
-## APPLICATIONS
+## アプリケーション
 
-GL.iNet routers include a wide range of add-on features that simplifies device management, improves user's internet experience, automates firmware update, and more.
+GL.iNetルーターには、デバイス管理の簡素化、ユーザーのインターネット体験の向上、ファームウェアアップデートの自動化など、幅広いアドオン機能が含まれています。
 
-### Plug-ins
+### プラグイン
 
-Please visit the [**Plug-ins**](../../interface_guide/plugins.md) tutorial.
+[**プラグイン**](../../interface_guide/plugins.md)チュートリアルにアクセスしてください。
 
-### Dynamic DNS
+### ダイナミックDNS
 
-Please visit the [**Dynamic DNS**](../../interface_guide/ddns.md) tutorial.
+ [**ダイナミックDNS**](../../interface_guide/ddns.md)チュートリアルにアクセスしてください。
 
 ### GoodCloud
 
-Please visit the  [**GoodCloud**](../../interface_guide/cloud.md) tutorial.
+ [**GoodCloud**](../../interface_guide/cloud.md)チュートリアルにアクセスしてください。
 
-### Network Storage
+### ネットワークストレージ
 
-Please visit the [**Network Storage**](../../interface_guide/network_storage.md) tutorial.
+ [**ネットワークストレージ**](../../interface_guide/network_storage.md)チュートリアルにアクセスしてください。
 
 ### AdGuard Home
 
-Please visit the [**AdGuard Home**](../../interface_guide/adguardhome.md) tutorial.
+ [**AdGuard Home**](../../interface_guide/adguardhome.md)チュートリアルにアクセスしてください。
 
-### Parental Control
+### ペアレンタルコントロール
 
-Please visit the [**Parental Control**](../../interface_guide/parental_control.md) tutorial.
+ [**ペアレンタルコントロール**](../../interface_guide/parental_control.md)チュートリアルにアクセスしてください。
 
 ### ZeroTier
 
-Please visit the [**ZeroTier**](../../interface_guide/zerotier.md) tutorial.
+ [**ZeroTier**](../../interface_guide/zerotier.md)チュートリアルにアクセスしてください。
 
 ### Tailscale
 
-Please visit the [**Tailscale**](../../interface_guide/tailscale.md) tutorial.
+ [**Tailscale**](../../interface_guide/tailscale.md)チュートリアルにアクセスしてください。
 
 ---
 
-## NETWORK
+## ネットワーク
 
-### Firewall
+### ファイアウォール
 
-GL.iNet's routers include multiple firewall features to ensure a secure connection and complete oversight by users. It lets users configure firewall rules including Port Forwarding, Open Ports, and DMZ.
+GL.iNetのルーターは、安全な接続とユーザーによる完全な監視を保証するため、複数のファイヤーウォール機能を備えています。ポート転送、オープンポート、DMZなどのファイアウォールルールを設定することができます。
 
-[Click here to learn more about GL.iNet routers’ firewall](../../interface_guide/firewall.md)
+[GL.iNetルーターのファイアウォールについて詳しくはこちら](../../interface_guide/firewall.md)
 
 ### Multi-WAN
 
-Please visit the [**Multi-WAN**](../../interface_guide/multi-wan.md) tutorial.
+ [**Multi-WAN**](../../interface_guide/multi-wan.md)チュートリアルにアクセスしてください。
 
 ### LAN
 
-Please visit the [**LAN**](../../interface_guide/lan.md) tutorial.
+ [**LAN**](../../interface_guide/lan.md) チュートリアルにアクセスしてください。
 
 ### DNS
 
-Please visit the [**DNS**](../../interface_guide/dns.md) tutorial.
+ [**DNS**](../../interface_guide/dns.md) チュートリアルにアクセスしてください。
 
 ### Network Mode
 
-Please visit the [**Network Mode**](../../interface_guide/network_mode.md) tutorial.
+ [**Network Mode**](../../interface_guide/network_mode.md) チュートリアルにアクセスしてください。
 
 ### IPv6
 
-Please visit the [**IPv6**](../../interface_guide/ipv6.md) tutorial.
+ [**IPv6**](../../interface_guide/ipv6.md) チュートリアルにアクセスしてください。
 
-### MAC Address
+### MACアドレス
 
-The Mac Address page was previously called Mac Clone and has been changed to Mac Address since v4.2.
+Mac アドレスページは、以前はMacクローンと呼ばれていましたが、v4.2からMacアドレスに変更されました。
 
-Please visit the [**MAC Address**](../../interface_guide/mac_address.md) tutorial.
+ [**MACアドレス**](../../interface_guide/mac_address.md)チュートリアルにアクセスしてください。
 
-### Drop-in Gateway
+### ドロップイン・ゲートウェイ
 
-Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md) tutorial.
+ [**ドロップイン・ゲートウェイ**](../../interface_guide/drop-in_gateway.md) チュートリアルにアクセスしてください。
 
-### IGMP Snooping
+### IGMPスヌーピング
 
-Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping.md) tutorial.
+ [**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルにアクセスしてください。
 
 ---
 

@@ -1,6 +1,6 @@
-# GL-M2 User Guide
+# GL-M2 ユーザーガイド
 
-## Hardware info
+## ハードウェア情報
 
 GL-M2 is for DIY enthusiasts who would like to build their own routers and modems. With GL-M2's 5G Module and 5G antennas, it provides a quality 5G cellular network.
 
@@ -10,7 +10,7 @@ GL-M2 is for DIY enthusiasts who would like to build their own routers and modem
 
 ---
 
-## First time setup
+## 初回設定
 
 What's inside the package?
 

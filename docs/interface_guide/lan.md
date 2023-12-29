@@ -8,11 +8,8 @@ The LAN is the network if your devices connect to the Main WiFi or connect via a
 
 The **Router IP Address** is **192.168.8.1** by default. You can change it if it conflicts with your network.
 
-![lan simple set](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/lan_simple_set.jpg){class="glboxshadow"}
+![lan simple set](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/lan_simple_set.png){class="glboxshadow"}
 
-### Security Settings
-
-**Client Isolation**: You can isolate your network's client devices into a separate network area.These devices cannot communicate with other devices or with each other on the network.
 
 ## DHCP Server
 

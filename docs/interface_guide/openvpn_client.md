@@ -168,7 +168,21 @@ Recommended:
 
     2. In the "Set up your devices" section, click on **More**.
 
-    ![expressvpn, set up your devices, more](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/set_up_your_devices_more.png){class="glboxshadow"}
+        ![expressvpn, set up your devices, more](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/set_up_your_devices_more.png){class="glboxshadow"}
+
+    3.  Click on **Manual Configuration**.
+
+        ![expressvpn, set up your devices, manual configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/set_up_your_devices_manual_configuration.png){class="glboxshadow"}
+
+    4.  You will see your **username**, **password**, and a list of **OpenVPN configuration files**.
+
+        ![expressvpn, setup info](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/setup_info.png){class="glboxshadow"}
+
+        Click the location(s) you want in order to download the .ovpn file(s).
+
+        **Keep this browser window open**. You will need this information for the setup later.
+
+    [Refer link](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
 
 ??? "PIA (Private Internet Access)"
     ### PIA
@@ -208,21 +222,6 @@ Recommended:
     4. The credential for connect OpenVPN is not the one that login Proton website's dashboard. You can find the crdential at **Account -> OpenVPN/IKEv2 username**
 
         ![protonvpn openvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
-
-
-    3. Click on **Manual Configuration**.
-
-    ![expressvpn, set up your devices, manual configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/set_up_your_devices_manual_configuration.png){class="glboxshadow"}
-
-    4. You will see your **username**, **password**, and a list of **OpenVPN configuration files**.
-
-        ![expressvpn, setup info](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/setup_info.png){class="glboxshadow"}
-
-        Click the location(s) you want in order to download the .ovpn file(s).
-
-        **Keep this browser window open**. You will need this information for the setup later.
-
-    [Refer link](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
 
 ??? "PureVPN"
     ### PureVPN

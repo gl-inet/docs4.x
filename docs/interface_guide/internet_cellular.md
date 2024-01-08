@@ -150,7 +150,7 @@ Please refer to the [SMS tutorial](sms.md).
 
 ## SMS Forwarding
 
-Please refer to the [SMS Forwarding tutorial](../interface_guide/sms_forwarding.md).
+Please refer to the [SMS Forwarding tutorial](../tutorials/sms_forwarding.md).
 
 ## Modem Management
 

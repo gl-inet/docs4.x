@@ -67,15 +67,17 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
 ## For GL-X3000/GL-XE3000
+
 1. Insert a USB flash disk and use the df command to get the mount path, remember the path
 
     My USB flash disk mount path is `/tmp/mountd/disk1_part1`
 
-    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mt7981a_u_flash_drive_path.png){class="glboxshadow"}
+    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_u_flash_drive_path.png){class="glboxshadow"}
 
 2. Get the qlog from GL.iNet server and confirm the qlog file sha256 is right
 
     Use the following commands to get qlog
+    
     ```
     cd /etc/ && wget https://fw.gl-inet.com/tools/quectel_tool/default_v15.cfg
     ```

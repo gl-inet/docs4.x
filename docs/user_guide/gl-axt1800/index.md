@@ -26,22 +26,22 @@ GL-AXT1800 (Slate AX) is the first Wi-Fi 6 travel router designed by GL.iNet. It
 
 ## 初回設定
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットアッププロセスを持っています。 [初回セットアップについてはここをクリックしてください](../../faq/first_time_setup.md/)。
 
-Please note that the adapter within the package depends on your shipping country.
+パッケージ内のアダプターは配送国によって異なることにご注意してください。
 
-What's inside the package?
+パッケージの中には何が入っていますか？
 
 ![gl-axt1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/first_time_setup/axt1800_unboxing.jpg){class="glboxshadow"}
 
-Package Contents:
+パッケージ内容：
 
-- 1 x User manual
+- 1 x ユーザーマニュアル
 - 1 x Slate AX (GL-AXT1800)
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
+- 1 x イーサネットケーブル
+- 1 x サンキューカード
+- 1 x 保証書
+- 1 x 電源アダプター (選択されたプラグタイプ)
 
 Check out Slate AX's [unboxing video](../../video_library/unboxing_first_set_up.md#slate-axgl-axt1800).
 
@@ -49,47 +49,47 @@ Check out Slate AX's [unboxing video](../../video_library/unboxing_first_set_up.
 
 ## インターネット
 
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
+インターネット設定画面では、ルーターがサポートしてるインターネット接続タイプを選択できます。
 
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
+ルータのWeb管理パネル内のサイドメニューで**インターネット**を選択して、インターネットネットワークを設定します。
 
-It supports four ways to connect to the internet as listed below:
+インターネットへの接続は以下の4つの方法がサポートされています:
 
 ### イーサネット
 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
+イーサネットケーブルを利用して、ルータをアクティブモデムまたはアクティブネットワークデバイスに接続してデータを転送します。この方法は通常、最も高速で信頼性の高いインターネット接続を提供します。
 
-[Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
+[イーサネット ケーブル経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_ethernet.md)
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_ethernet.png){class="glboxshadow"}
 
 ### リピーター
 
-Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
+ルーターを使用して範囲内で無線信号を受信し、その信号をより遠くへ転送することで、既存のWi-FiネットワークのWi-Fiカバーエリアを拡大します。この方法は、単一のルーターでは使用エリア全体をカバーするのに十分な範囲が確保できない場合に最も有効です。
 
-[Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
+[既存の Wi-Fi 経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_repeater.md)
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_repeater.png){class="glboxshadow"}
 
 ### テザリング
 
-Establish internet access with connected devices by sharing a smartphone’s mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+スマートフォンの通信データをケーブル経由でルーターと共有し、接続デバイスとのインターネット接続を確立します。この方法は、スマートフォンのデータを使ってインターネットにアクセスしたい場合に便利です。
 
-[Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
+[USBテザリング経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_tethering.md)
 
 ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_tethering.png){class="glboxshadow"}
 
 ### セルラー
- 
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
-[Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
+セルラー対応のUSBモデムをルーターのUSBポートに挿入して、ルーターをインターネットに接続します。この方法は、USBモデムからすべての接続デバイスにインターネットアクセスを共有する場合に最も役立ちます。
+
+[USBモデム経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_cellular.png){class="glboxshadow"}
 
 ### 優先順位とロードバランス
 
-Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
+[マルチWAN](../../interface_guide/multi-wan.md) では、各インターネットアクセス方式の優先順位や、複数のインターネットアクセス方式を同時に使用する場合のロードバランスを設定します。
 
 ---
 
@@ -219,51 +219,51 @@ Mac アドレスページは、以前はMacクローンと呼ばれていまし�
 
 ---
 
-## SYSTEM
+## システム
 
-### Overview
+### 概要
 
-Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
+ [**システム概要**](../../interface_guide/system_overview.md) チュートリアルにアクセスしてください。
 
-### Upgrade
+### アップグレード
 
-GL.iNet provides regular updates on our routers' firmware to improve performance, resolving bugs and fix vulnerabilities.
+GL.iNet は、パフォーマンスを向上させ、バグを解決し、脆弱性を修正するために、ルーターのファームウェアを定期的に更新します。
 
-Please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
+ [**アップグレード**](../../interface_guide/firmware_upgrade.md) チュートリアルにアクセスしてください。
 
-### Scheduled Tasks
+### スケジュールされたタスク
 
-Please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
+ [**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルにアクセスしてください。
 
-### Admin Password
+### 管理者パスワード
 
-This feature has been moved to [**Security**](../../interface_guide/security.md) since v4.5.
+この機能はv4.5から[**セキュリティ**](../../interface_guide/security.md) に移動されました。
 
-Please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
+ [**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルにアクセスしてください。
 
-### Time Zone
+### タイムゾーン
 
-Please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
+  [**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルにアクセスしてください。
 
-### Toggle Button Settings
+### トグルボタンの設定
 
-Please visit the [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md) tutorial.
+ [**トグルボタンの設定**](../../interface_guide/toggle_button_settings.md) チュートリアルにアクセスしてください。
 
-### Log
+### ログ
 
-Please visit the [**Log**](../../interface_guide/log.md) tutorial.
+ [**ログ**](../../interface_guide/log.md) チュートリアルにアクセスしてください。
 
-### Security
+### セキュリティ
 
-This feature is available since v4.5.
+この機能はv4.5から利用可能です。
 
-Please visit the [**Security**](../../interface_guide/security.md) tutorial.
+ [**セキュリティ**](../../interface_guide/security.md) チュートリアルにアクセスしてください。
 
-### Reset Firmware
+### ファームウェアをリセット
 
-Please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
+ [**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルにアクセスしてください。
 
-### Advanced Settings
+### 詳細設定
 
-Please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
+ [**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルにアクセスしてください。
 

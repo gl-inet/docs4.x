@@ -12,11 +12,11 @@ GL-M2 is for DIY enthusiasts who would like to build their own routers and modem
 
 ## 初回設定
 
-What's inside the package?
+パッケージの中には何が入っていますか？
 
 ![gl-m2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
 
-Package Contents:
+パッケージ内容：
 
 - 1 x GL-M2 Development Board
 - 4 x 5G Antennas

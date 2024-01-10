@@ -24,67 +24,67 @@ Slate Plus (GL-A1300) is a pocket-sized travel router with a powerful CPU optimi
 
 ## 初回設定
 
-All of GL.iNet’s devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットアッププロセスを持っています。 [初回セットアップについてはここをクリックしてください](../../faq/first_time_setup.md/)。
 
-Please note that the adapter within the package depends on your shipping country.
+パッケージ内のアダプターは配送国によって異なることにご注意してください。
 
-What’s inside the package?
+パッケージの中には何が入っていますか？
 
 ![gl-a1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/first_time_setup/gl-a1300_unboxing.jpg){class="glboxshadow"}
 
-Package Contents:
+パッケージ内容：
 
-1 x User manual
+1 x ユーザーマニュアル
 1 x Slate Plus (GL-A1300)
-1 x Ethernet Cable
-1 x Warranty card
-1 x Power adapter (Selected plug type)
+1 x イーサネットケーブル
+1 x 保証書
+1 x 電源アダプター (選択されたプラグタイプ)
 
 ---
 
 ## インターネット
 
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
+インターネット設定画面では、ルーターがサポートしてるインターネット接続タイプを選択できます。
 
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
+ルータのWeb管理パネル内のサイドメニューで**インターネット**を選択して、インターネットネットワークを設定します。
 
-It supports four ways to connect to the internet as listed below:
+インターネットへの接続は以下の4つの方法がサポートされています:
 
 ### イーサネット
 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
+イーサネットケーブルを利用して、ルータをアクティブモデムまたはアクティブネットワークデバイスに接続してデータを転送します。この方法は通常、最も高速で信頼性の高いインターネット接続を提供します。
 
-[Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
+[イーサネット ケーブル経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_ethernet.md)
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_ethernet.png){class="glboxshadow"}
 
 ### リピーター
 
-Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
+ルーターを使用して範囲内で無線信号を受信し、その信号をより遠くへ転送することで、既存のWi-FiネットワークのWi-Fiカバーエリアを拡大します。この方法は、単一のルーターでは使用エリア全体をカバーするのに十分な範囲が確保できない場合に最も有効です。
 
-[Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
+[既存の Wi-Fi 経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_repeater.md)
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_repeater.png){class="glboxshadow"}
 
 ### テザリング
 
-Establish internet access with connected devices by sharing a smartphone’s mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+スマートフォンの通信データをケーブル経由でルーターと共有し、接続デバイスとのインターネット接続を確立します。この方法は、スマートフォンのデータを使ってインターネットにアクセスしたい場合に便利です。
 
-[Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
+[USBテザリング経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_tethering.md)
 
 ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_tethering.png){class="glboxshadow"}
 
 ### セルラー
 
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+セルラー対応のUSBモデムをルーターのUSBポートに挿入して、ルーターをインターネットに接続します。この方法は、USBモデムからすべての接続デバイスにインターネットアクセスを共有する場合に最も役立ちます。
 
-[Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
+[USBモデム経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
 
 ### 優先順位とロードバランス
 
-Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
+[マルチWAN](../../interface_guide/multi-wan.md) では、各インターネットアクセス方式の優先順位や、複数のインターネットアクセス方式を同時に使用する場合のロードバランスを設定します。
 
 ---
 

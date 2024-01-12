@@ -2,13 +2,13 @@
 
 ## ハードウェア情報
 
-Slate Plus (GL-A1300) is a pocket-sized travel router with a powerful CPU optimized for network stability and processing VPN encryption efficiently. It includes our latest security features and runs on the latest OpenWrt operating system. It is designed for frequent travelers who have a heavy demand on using VPN networks.
+Slate Plus（GL-A1300）は、ネットワークの安定性とVPN暗号化を効率的に処理するために最適化された強力なCPUを搭載したポケットサイズのトラベルルーターです。最新のセキュリティ機能を搭載し、最新のOpenWrtオペレーティングシステムで動作します。VPNネットワークを頻繁に利用する旅行者向けに設計されています。
 
 ![GL-A1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){class="glboxshadow"}
 
-[GL-A1300 specification](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
+[GL-A1300 仕様](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
 
-[LED Indication](../../faq/led.md#gl-a1300)
+[LED 表示](../../faq/led.md#gl-a1300)
 
 ### PCB ピン配置
 

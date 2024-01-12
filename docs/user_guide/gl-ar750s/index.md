@@ -2,11 +2,11 @@
 
 ## ハードウェア情報
 
-The first dual-band Gigabit AC travel router. We upgrade Ethernet ports (totally 3) to Gigabit ports so that it get faster speed in your travel. We also added 128MB Flash to provide dual flash for more storage and faster operation speed. It has a MicroSD (TF) slot which increase your storage space up to 128GB.
+初のデュアルバンドギガビットACトラベルルーターです。イーサネットポート（計3つ）をギガビットポートにアップグレードして、旅行中でもより高速なスピードを実現しました。さらに、128MBのフラッシュメモリを追加し、デュアルフラッシュによるより多くのストレージと高速な操作速度を提供しています。MicroSD（TF）スロットも搭載しており、最大128GBまでのストレージスペースを拡張することができます。
 
 ![gl-ar750sinterface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/hardware_info/ar750s_interface.jpg){class="glboxshadow"}
 
-[GL-AR750S specification](https://www.gl-inet.com/products/gl-ar750s/#specs){target="_blank"}
+[GL-AR750S 仕様](https://www.gl-inet.com/products/gl-ar750s/#specs){target="_blank"}
 
 ### PCB ピン配置
 

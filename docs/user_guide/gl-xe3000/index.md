@@ -2,15 +2,15 @@
 
 ## ハードウェア情報
 
-Puli AX (GL-XE3000) is the ultimate Wi-Fi 6 5G Cellular Router that takes your internet speed to the next level! With a powerful built-in 6400mAh/7.4V/47.4Wh battery, you can now enjoy uninterrupted internet connectivity for even longer periods. Experience lightning-fast Wi-Fi speeds of up to 574Mbps (2.4GHz) and 2402Mbps (5GHz), with a combined maximum Wi-Fi speed of 3000Mbps. It is equipped with a 5G NR cellular connection, ensuring uninterrupted internet connectivity, even in the event of an ethernet failure.
+Puli AX (GL-XE3000) は、あなたのインターネット速度を次のレベルに引き上げる究極のWi-Fi 6 5Gセルラールーターです！6400mAh/7.4V/47.4Whのパワフルなバッテリーを内蔵し、より長時間のインターネット接続をお楽しみいただけます。最大574Mbps（2.4GHz）および2402Mbps（5GHz）、合計最大3000Mbpsの超高速Wi-Fi速度を体験できます。5G NRセルラー接続を搭載しているため、イーサネットに障害が発生した場合でも、インターネット接続が中断されることはありません。
 
-It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
+「デュアルSIM、シングルスタンバイ」に対応しており、インターネットアクセス用に2枚のSIMカードを入れることができるが、一度にアクティブにできるのは1枚のSIMカードのみで、ユーザーは切り替えて使うことができます。
 
 ![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
-[GL-XE3000 specification](https://www.gl-inet.com/products/gl-xe3000/#specs){target="_blank"}
+[GL-XE3000 仕様](https://www.gl-inet.com/products/gl-xe3000/#specs){target="_blank"}
 
-[LED Indication](../../faq/led.md#gl-xe3000)
+[LED 表示](../../faq/led.md#gl-xe3000)
 
 ---
 

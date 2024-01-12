@@ -2,13 +2,12 @@
 
 ## ハードウェア情報
 
-Spitz is a 3G/4G dual-band wireless router, widely used for smart home and IoT area. Running OpenWRT OS, you can compile your own firmware to fit for different application scenarios. It has built-in mini PCIe 3G/4G module to support different operators and can be used all over the world.
-
-Spitz (GL-X750V2) is the advanced version of Spitz (GL-X750). It comes with the redesigned PCBA and optimized antennas to improve the 4G performance.
+Spitzは3G/4Gデュアルバンド無線ルーターで、スマートホームやIoT分野で広く使用されています。OpenWRT OSを搭載し、様々なアプリケーションシナリオに合わせて独自のファームウェアをコンパイルすることができます。ミニPCIe 3G/4Gモジュールを内蔵しており、異なる通信事業者をサポートし、世界中で使用できます。
+Spitz (GL-X750V2) は (GL-X750)の進化版です。4G性能を向上させるため、再設計されたPCBAと最適化されたアンテナが搭載されています。
 
 ![gl-x750 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/hardware_info/x750v2_interface.jpg){class="glboxshadow"}
 
-[GL-X750 specification](https://www.gl-inet.com/products/gl-x750/#specs){target="_blank"}
+[GL-X750 仕様](https://www.gl-inet.com/products/gl-x750/#specs){target="_blank"}
 
 ### PCB ピン配置
 

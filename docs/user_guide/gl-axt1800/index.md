@@ -2,13 +2,13 @@
 
 ## ハードウェア情報
 
-GL-AXT1800 (Slate AX) is the first Wi-Fi 6 travel router designed by GL.iNet. It comes with an IPQ6000 1.2GHz quad-core processor and runs on OpenWrt 21.02. With the latest Wi-Fi 6 technology, you can enjoy more capacity for connected devices and faster wireless speed on the road or at home.
+GL-AXT1800（スレートAX）は、GL.iNetが設計した初のWi-Fi 6トラベルルーターです。IPQ6000 1.2GHzクアッドコアプロセッサを搭載し、OpenWrt 21.02で動作します。最新のWi-Fi 6テクノロジーにより、外出先でも自宅でも、接続デバイスの容量を増やし、より高速なワイヤレススピードを楽しむことができます。
 
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
 
-[GL-AXT1800 specification](https://www.gl-inet.com/products/gl-axt1800/#specs){target="_blank"}
+[GL-AXT1800 仕様](https://www.gl-inet.com/products/gl-axt1800/#specs){target="_blank"}
 
-[LED Indication](../../faq/led.md#gl-axt1800)
+[LED 表示](../../faq/led.md#gl-axt1800)
 
 ---
 

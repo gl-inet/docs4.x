@@ -2,11 +2,11 @@
 
 ## ハードウェア情報
 
-GL-SFT1200 (Opal) is a pocket-sized travel router supporting 1200Mbps wireless transfers speed. It is compactly designed for portable use, which can meet the needs of wireless internet access for small businesses, small apartments or business traveler.
+GL-SFT1200（Opal）は1200Mbpsの無線転送速度をサポートするポケットサイズのトラベルルーターです。コンパクトで持ち運びに便利な設計で、中小企業、小規模アパート、出張者のワイヤレスインターネットアクセスのニーズを満たします。
 
 ![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/3/setup/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
-[GL-SFT1200 specification](https://www.gl-inet.com/products/gl-sft1200/#specs){target="_blank"}
+[GL-SFT1200 仕様](https://www.gl-inet.com/products/gl-sft1200/#specs){target="_blank"}
 
 ### PCB ピン配置
 

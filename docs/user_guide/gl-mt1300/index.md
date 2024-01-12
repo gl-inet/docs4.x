@@ -2,11 +2,11 @@
 
 ## ハードウェア情報
 
-Beryl (GL-MT1300) is a high-performance next generation pocket-sized router that offers a powerful hardware and first-class cybersecurity protocol with unique and modern design. Beryl is the new era of travel router, an advanced version of our best-seller, Slate (GL-AR750S).
+Beryl(GL-MT1300)は高性能な次世代ポケットサイズのルーターで、パワフルなハードウェアと一流のサイバーセキュリティプロトコルをユニークでモダンなデザインで提供します。Berylは新時代の旅行用ルーターであり、当社のベストセラーであるSlate (GL-AR750S)の進化版です。
 
 ![gl-mt1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/hardware_info/mt1300_interface.jpg){class="glboxshadow"}
 
-[GL-MT1300 specification](https://www.gl-inet.com/products/gl-mt1300/#specs){target="_blank"}
+[GL-MT1300 仕様](https://www.gl-inet.com/products/gl-mt1300/#specs){target="_blank"}
 
 ### PCB ピン配置
 

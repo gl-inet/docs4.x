@@ -2,17 +2,17 @@
 
 ## ハードウェア情報
 
-Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi 6 protocol. It is an upgraded version of Beryl (GL-MT1300), it runs on MT7981B 1.3GHz dual-core processor, offering more than double the total Wi-Fi speed. It is designed to support families with heavy Wi-Fi usage, and it's also compactly designed for travel use.
+Beryl AX（GL-MT3000）は、Wi-Fi 6プロトコルを使用するAX3000ポケットサイズのトラベルルーターです。Beryl(GL-MT1300)のアップグレードバージョンで、MT7981B 1.3GHzデュアルコアプロセッサを搭載し、合計Wi-Fi速度を2倍以上提供します。Wi-Fiを頻繁に使用する家庭をサポートするように設計されており、旅行用にコンパクトに設計されている。
 
 ![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_interface.jpg){class="glboxshadow"}
 
 ---
 
-### Specification
+### 仕様
 
-[GL-MT3000 specification](https://www.gl-inet.com/products/gl-mt3000/#specs){target="_blank"}
+[GL-MT3000 仕様](https://www.gl-inet.com/products/gl-mt3000/#specs){target="_blank"}
 
-[LED Indication](../../faq/led.md#gl-mt3000)
+[LED 表示](../../faq/led.md#gl-mt3000)
 
 ---
 

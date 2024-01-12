@@ -2,15 +2,15 @@
 
 ## ハードウェア情報
 
-Flint 2 (GL-MT6000) is a Wi-Fi 6 home and office router ideally suited for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming environments. Flint 2 offers blazing-fast WireGuard VPN speeds of up to 900Mbps. In addition, it also supports advanced network redundancies, including Multi-WAN, Failover and Load balance to ensure an uninterrupted network.
+Flint 2 (GL-MT6000) は、高負荷のデータ転送、大量のデバイス接続、超低遅延ゲーム環境に最適な Wi-Fi 6 ホーム/オフィスルーターです。Flint 2は最大900Mbpsの高速WireGuard VPNを提供します。さらに、マルチWAN、フェイルオーバー、ロードバランスなどの高度なネットワーク冗長化機能により、中断のないネットワークを実現します。
 
 ![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
 
 ---
 
-### Specification
+### 仕様
 
-[GL-MT6000 specification](https://www.gl-inet.com/products/gl-mt6000/#specs){target="_blank"}
+[GL-MT6000 仕様](https://www.gl-inet.com/products/gl-mt6000/#specs){target="_blank"}
 
 <!-- ---
 

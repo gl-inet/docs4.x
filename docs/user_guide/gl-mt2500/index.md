@@ -2,13 +2,13 @@
 
 ## ハードウェア情報
 
-GL-MT2500/GL-MT2500A(Brume 2) is a lightweight and powerful VPN Gateway that runs on OpenWrt v21.02 operating system. It is compactly designed to host a VPN server at home, or run SD-WAN (Site-to-Site) for small and medium-sized enterprises.
+GL-MT2500/GL-MT2500A(Brume 2)は、OpenWrt v21.02オペレーティングシステムで動作する軽量でパワフルなVPNゲートウェイです。自宅でVPNサーバーをホストしたり、中小企業でSD-WAN(Site-to-Site)を実行するためにコンパクトに設計されています。
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
-[GL-MT2500/GL-MT2500A specification](https://www.gl-inet.com/products/gl-mt2500/#specs){target="_blank"}
+[GL-MT2500/GL-MT2500A 仕様](https://www.gl-inet.com/products/gl-mt2500/#specs){target="_blank"}
 
-[LED Indication](../../faq/led.md#gl-mt2500)
+[LED 表示](../../faq/led.md#gl-mt2500)
 
 ### PCB ピン配置
 

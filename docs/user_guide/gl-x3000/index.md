@@ -2,13 +2,13 @@
 
 ## ハードウェア情報
 
-GL-X3000 (Spitz AX) is a Wi-Fi 6 cellular gateway designed to provide reliable cellular networks in remote locations and high speed internet in urban areas. It has six external antennas for long range connection, two SIM Cards for selecting between the ISP with stronger connections, and Multi-WAN between the WAN port, SIM Card, and Repeater.
+GL-X3000 (Spitz AX)はWi-Fi 6セルラーゲートウェイで、遠隔地では信頼性の高いセルラーネットワークを、都市部では高速インターネットを提供するように設計されています。長距離接続のための6本の外部アンテナ、より強力な接続のISPを選択するための2枚のSIMカードおよびWANポート、SIMカード、リピータ間のマルチWANを備えています。
 
-It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
+「デュアルSIM、シングルスタンバイ」に対応しており、インターネットアクセス用に2枚のSIMカードを入れることができるが、一度にアクティブにできるのは1枚のSIMカードのみで、ユーザーは切り替えて使うことができます。
 
 ![gl-x3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_interface.jpg){class="glboxshadow"}
 
-[GL-X3000 specification](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}
+[GL-X3000 仕様](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}
 
 ---
 

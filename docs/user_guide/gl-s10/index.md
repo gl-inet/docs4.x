@@ -2,9 +2,9 @@
 
 ## ハードウェア情報
 
-[GL-S10 specification](https://www.gl-inet.com/products/gl-s10/#specs){target="_blank"}
+[GL-S10 仕様](https://www.gl-inet.com/products/gl-s10/#specs){target="_blank"}
 
-## GPIO list
+## GPIO リスト
 
 | ESP32-WROOM-32U GPIO Labeling | SIGNAL        | FUNCTION                                                     |
 | ----------------------------- | ------------- | ------------------------------------------------------------ |
@@ -55,14 +55,14 @@
 
 ## 初回設定
 
-Please refer to [GL-S10](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/) on IoT docs.
+IoT ドキュメントの [GL-S10](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/) を参照してください。
 
 ---
 
-## User Manual
+## ユーザーマニュアル
 
-Please refer to [User Manual](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/user_manual/) on IoT docs.
+IoT ドキュメントの [ユーザーマニュアル](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/user_manual/) を参照してください。
 
-## Firmware Compilation Guide
+## ファームウェアコンパイルガイド
 
-Please refer to [Firmware Compilation Guide](https://docs.gl-inet.com/router/iot/en/user_guide/gl-s10/firmware_compilation_guide/) on IoT docs.
+IoT ドキュメントの [ファームウェアコンパイルガイド](https://docs.gl-inet.com/router/iot/en/user_guide/gl-s10/firmware_compilation_guide/) を参照してください。

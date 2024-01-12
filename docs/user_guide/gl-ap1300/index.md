@@ -2,9 +2,9 @@
 
 ## ハードウェア情報
 
-GL-AP1300(Cirrus) ceiling wireless access point is an elite business-class level gateway with MU-MIMO Wi-Fi solution. PoE power supply and Watchdog timer built-in function are implemented in order to fulfill most enterprise-level user cases. With well-developed Goodcloud management system, managing the device is very easy and convenient. You can enable a remote and secure access wherever you are and whenever you want.
+GL-AP1300（Cirrus）は、MU-MIMO Wi-Fiソリューションを備えたエリートなビジネスクラスの天井取り付け型ワイヤレスアクセスポイントです。PoE電源供給とウォッチドッグタイマー内蔵機能が実装されており、ほとんどのエンタープライズレベルのユーザーケースに対応しています。よく開発されたGoodcloud管理システムにより、デバイスの管理は非常に簡単で便利です。どこにいても、いつでもリモートで安全なアクセスを有効にすることができます。
 
-[GL-AP1300 specification](https://www.gl-inet.com/products/gl-ap1300/#specs){target="_blank"}
+[GL-AP1300 仕様](https://www.gl-inet.com/products/gl-ap1300/#specs){target="_blank"}
 
 ### PCB ピン配置
 

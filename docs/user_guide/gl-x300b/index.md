@@ -2,11 +2,11 @@
 
 ## ハードウェア情報
 
-GL-X300B (Collie) is an industrial cellular gateway designed to operate under high temperatures and scenarios with potential physical hazards. There are two versions of Collie, designed to operate in indoor stationary facilities, or in transportation vehicles. Collie is perfect for machine-to-machine communications between electrical devices in high electrical noise environments.
+GL-X300B(Collie)は、高温下および物理的な危険が潜在するシナリオの下で動作するように設計された産業用セルラーゲートウェイです。Collieには2つのバージョンがあり、屋内定置施設での運用を想定したものと、輸送車両での運用を想定したものがあります。Collieは、電気ノイズの多い環境における電気機器間のマシンツーマシン通信に最適です。
 
 ![gl-x300b interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
 
-[GL-X300B specification](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
+[GL-X300B 仕様](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
 
 ### PCB ピン配置
 
@@ -28,7 +28,7 @@ GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットア�
 
 パッケージの中には何が入っていますか？
 
-**Note**: The image below is an example of GL-X300B-GPS, with some models slightly different.
+**注意**: 下の画像はGL-X300B-GPSの例で、一部モデルが若干異なります。
 
 ![gl-x300b unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/first_time_setup/x300b-gps_unboxing.jpg){class="glboxshadow"}
 

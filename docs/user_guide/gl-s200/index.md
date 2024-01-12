@@ -2,11 +2,11 @@
 
 ## ハードウェア情報
 
-GL-S200 is a miniaturized Thread gateway supporting BLE protocol that runs on a highly customizable OpenWrt operating system and supports cloud device management. It has a versatile design for connecting to various smart home devices, or mass device connectivity for smart buildings.
+GL-S200はBLEプロトコルをサポートする小型スレッドゲートウェイで、高度にカスタマイズ可能なOpenWrtオペレーティングシステム上で動作し、クラウドデバイス管理をサポートします。様々なスマートホームデバイスへの接続や、スマートビルディングの大量デバイス接続に対応する多機能設計です。
 
 ![gl-s200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl-s200_interface.jpg){class="glboxshadow"}
 
-[GL-s200 specification](https://www.gl-inet.com/products/gl-s200/#specs){target="_blank"}
+[GL-s200 仕様](https://www.gl-inet.com/products/gl-s200/#specs){target="_blank"}
 
 ### GL-S200 PCB ピン配置
 
@@ -18,7 +18,7 @@ GL-S200 is a miniaturized Thread gateway supporting BLE protocol that runs on a 
   </figure>
 </div>
 
-### GL Thread Dev Board Pinout
+### GLスレッド開発ボードのピン配置
 
 ![gl thread dev board pinout](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl_thread_dev_board_pinout.jpg){class="glboxshadow"}
 

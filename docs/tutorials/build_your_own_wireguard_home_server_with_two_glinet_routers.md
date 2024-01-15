@@ -19,7 +19,7 @@ Here we use our GL-MT6000 as the example to run WireGuard VPN server at the home
 
 First, you shall make sure the GL-MT6000 has a Public IP address on its WAN side, so that it can be globally accessed. Otherwise your travel router cannot build up a VPN connection with it while you are traveling.
 
-To check if you have the Public IP address, please open a web browser and type in [ip.gs](https://ip.gs) in the address bar.
+To check if you have the Public IP address, please open a web browser and type in [ip.gs](https://ip.gs){target="_blank"} in the address bar.
 
 ![myip](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/myip.jpg){class="glboxshadow"}
 

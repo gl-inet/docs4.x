@@ -68,27 +68,37 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 
 ## For GL-X3000/GL-XE3000
 
-1. Get the qlog from GL.iNet server and confirm the qlog file sha256 is right
+1. Insert a USB flash disk and use the df command to get the mount path, remember the path
+
+    My USB flash disk mount path is `/tmp/mountd/disk1_part1`
+
+    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_u_flash_drive_path.png){class="glboxshadow"}
+
+2. Get the qlog from GL.iNet server and confirm the qlog file sha256 is right
 
     Use the following commands to get qlog
-
+    
+    ```
+    cd /etc/ && wget https://fw.gl-inet.com/tools/quectel_tool/default_v15.cfg
+    ```
+    
     ```
     cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/qlog-mtk7981a-sha256-78dda4
     ```
 
     ```
-    chmod 775 qlog-mtk7981a-sha256-78dda4  && sha256sum qlog-mtk7981a-sha256-78dda4
+    chmod 775 qlog-mtk7981a-sha256-78dda4  && sha256sum qlog-mtk7981a-sha256-78dda4 && sha256sum /etc/default_v15.cfg
     ```
 
     ![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_get_qlog.png){class="glboxshadow"}
 
-2. Use the following command to start qlog
+3. Use the following command to start qlog
 
     ```
-    qlog-mtk7981a-sha256-78dda4 -s /tmp/qlogs_$(date +%Y%m%d%H%M) & 
+    qlog-mtk7981a-sha256-78dda4 -f /etc/default_v15.cfg -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) & 
     ```
 
-3. Wait 1~3 minutes, use the following command to stop qlog
+4. After captured packets with qlog, use the following command to stop qlog
 
     ```
     killall qlog*
@@ -96,7 +106,7 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 
     ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_start_and_stop_qlog.png){class="glboxshadow"}
 
-4. You will find a directory in /tmp/, there are some files, these files are qlog get data and need use Quectel tool to decode, so please send these files to GL.iNet or Quectel technical support.
+5. You will find a directory in the USB flash disk, there are some files, these files are qlog get data and need use Quectel tool to decode, so please send these files to GL.iNet or Quectel technical support.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_qlogs_files.png){class="glboxshadow"}
 

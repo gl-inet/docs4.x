@@ -1,26 +1,5 @@
 # User Guide
 
-### IoT Gateway
-
-<div class="gl-product-row">
-  <div class="gl-product-row-box">
-    <div class="gl-product-card">
-      <a href="gl-s200/">
-  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_s200.jpg" >
-        <div class="gl-product-model">GL-S200</div>
-        <div class="gl-product-model"></div>
-  	  </a>
-  	</div>
-    <div class="gl-product-card">
-      <a href="gl-s10/">
-  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_s10.jpg" >
-        <div class="gl-product-model">GL-S10</div>
-        <div class="gl-product-model"></div>
-  	  </a>
-  	</div>
-  </div>
-</div>
-
 ### Travel router
 
 <div class="gl-product-row">
@@ -67,7 +46,7 @@
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
-    <div class="gl-product-card">
+      <div class="gl-product-card">
       <a href="gl-e750/">
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_e750.jpg" >
         <div class="gl-product-model">GL-E750/GL-E750V2</div>
@@ -174,7 +153,35 @@
   </div>
 </div>
 
-### End of life models
+### IoT Gateway
+
+<div class="gl-product-row">
+  <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="https://docs.gl-inet.com/iot/en/thread_board_router/gl-s200/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_s200.jpg" >
+        <div class="gl-product-model">GL-S200</div>
+        <div class="gl-product-model"></div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
+      <a href="https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_s20.jpg" >
+        <div class="gl-product-model">GL-S20</div>
+        <div class="gl-product-model"></div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
+      <a href="https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_s10.jpg" >
+        <div class="gl-product-model">GL-S10</div>
+        <div class="gl-product-model"></div>
+  	  </a>
+  	</div>
+  </div>
+</div>
+
+### Legacy Models
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

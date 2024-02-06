@@ -1,4 +1,4 @@
-# I replace my old router with GK-Inet Router but No internet
+# I replace my old router with GL.iNet Router but No internet
 
 **Problem**: Router cannot get IP address (DHCP or PPPoE) when you put the cable from ISP to the WAN Interface.
 

@@ -1,13 +1,11 @@
-# I replace my old router with GL.iNet Router but No internet
+# I replaced my old router with a GL.iNet router but no internet
 
-**Problem**: Router cannot get IP address (DHCP or PPPoE) when you put the cable from ISP to the WAN Interface.
+If you cannot connect to the internet after replacing your old router with a GL.iNet router, it is likely your GL.iNet router cannot get an IP address (DHCP or PPPoE) after you connect your router's WAN port to your modem.
 
-**Cause**: The ISP modem has lock the mac address of your old router. It will not accept new router.
+Your internet service provider may have "locked" the MAC address of your router and does not accept new routers to be connected to your network. 
 
-**Solution**: Here are the solutions. Either one should work.
+To resolve this issue, follow one of these methods:
 
-1.   Just clone your old router’s mac addresss to the new router and it will work immediatelly.
-
-2.   The modem needs a reboot or reset to accept new router. Reboot the modem and try. If it does not work immediatelly, turn the modem off for 30 minutes then turn it on. Then have a try. You can just leave the router and modem connected although the router cannot get IP. Just go to a lunch or sleep. After you come back, it is likely to get IP already.
-
-3.  Call you ISP and tell me you need to change router and ask them to reset the modem.
+- Clone your old router's MAC addresss to the new router. 
+- Reboot your modem. If this does not resolve the issue, turn it off for 30 minutes, then turn it on. 
+- Contact your internet service provider to reset the modem for you. 

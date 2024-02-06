@@ -2,6 +2,14 @@
 
 Learn about new features added to our products and services, and detailed tutorials on how to use them.
 
+## How to Set Up GL.iNet Routers Running SDK 4.5 or Above for the First Time
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## How to Host a VPN Server using Brume 2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u0uBv1UJ1tA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Easy Guide to Setting Up your GoodCloud Wi-Fi Management System for SMEs
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7U1CwpKOKDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

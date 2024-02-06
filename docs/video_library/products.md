@@ -84,38 +84,34 @@ Gigabit Wireless Router for Security-savvy Travelers
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VkglWuItuXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE300(Puli)
+## GL-XE300 (Puli)
 
 4G LTE Portable Wireless IoT Gateway
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4falAJFN9ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AR750S(Slate)
+## GL-AR750S (Slate)
 
 Bring Gigabit Internet to Security -savvy Travelers
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ze1HRRyuiQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AXT1800(Slate AX)
+## GL-AXT1800 (Slate AX)
 
 Wi-Fi 6 Gigabit Wireless Router
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U94OkJfbTws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-B2200(Velica)
+## GL-B2200 (Velica)
 
-Integrated Tri-Band Wireless Mesh System
+Integrated Tri-Band Wireless Mesh System with Open Technologies
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-NMWKGcXS8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zr0ToJ68Pdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Cloud
 
 Introducing GoodCloud, Your Remote Device Management Solution
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JkV2PAy-_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Velica(GL-B2200)
-
-Integrated Tri-Band Wireless Mesh System with Open Technologies
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Zr0ToJ68Pdw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

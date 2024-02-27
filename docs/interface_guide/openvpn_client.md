@@ -226,6 +226,8 @@ Recommended:
 ??? "PureVPN"
     ### PureVPN
 
+    [Official Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
+
     To set up an OpenVPN client using PureVPN, you will need your OpenVPN username and password and a configuration file, which you can find in your PureVPN account. 
    
     1. [Sign in to your PureVPN account.](https://my.purevpn.com/)
@@ -474,6 +476,8 @@ Others:
 
 ??? "IVACY"
     ### IVACY
+
+    [Official Website](https://billing.ivacy.com/page/22852){target="_blank"}
 
     To set up an OpenVPN client using Ivacy, you will need the following: 
 

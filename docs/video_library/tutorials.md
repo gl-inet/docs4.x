@@ -2,6 +2,14 @@
 
 Learn about new features added to our products and services, and detailed tutorials on how to use them.
 
+## How to Set Up an OpenVPN Server on a GL.iNet Router
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qybMKxWZfoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## How to Set Up an OpenVPN Client on a GL.iNet Router
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/04sW3l6_rDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## How to Set Up GL.iNet Routers Running SDK 4.5 or Above for the First Time
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

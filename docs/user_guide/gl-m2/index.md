@@ -20,7 +20,7 @@ Package Contents:
 
 - 1 x GL-M2 Development Board
 - 4 x 5G Antennas
-- 4 x SMA Cable Connectors
+- 4 x IPEX Connectors
 - 2 x Screws
 - 1 x DC Power Adapter
 - 1 x Universal Plug Adapter (US, EU, UK & AU)

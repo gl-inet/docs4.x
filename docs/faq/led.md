@@ -5,7 +5,7 @@
 ![GL-A1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){target="_blank"}
 
 - Solid blue: System boot up
-- Flashing white: Searching network
+- Flashing blue: Searching network
 - Solid white: Working normally- Solid white light means the router is working well.
 
 ## GL-AXT1800
@@ -13,7 +13,7 @@
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){target="_blank"}
 
 - Solid blue: System boot up
-- Flashing white: Searching network
+- Flashing blue: Searching network
 - Solid white: Working normally- Solid white light means the router is working well.
 
 ## GL-MT2500/GL-MT2500A
@@ -32,7 +32,7 @@
 ![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_interface.jpg){target="_blank"}
 
 - Solid blue: System boot up
-- Flashing white: Searching network
+- Flashing blue: Searching network
 - Solid white: Working normally
 
 ## GL-XE3000

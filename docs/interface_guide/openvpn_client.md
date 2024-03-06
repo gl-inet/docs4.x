@@ -228,9 +228,14 @@ Recommended:
 
     [Official Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-    [Download](https://d32d3g1fvkpl8y.cloudfront.net/heartbleed/router/Recommended-CA2.zip) directly.
-
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+    To set up an OpenVPN client using PureVPN, you will need your OpenVPN username and password and a configuration file, which you can find in your PureVPN account. 
+   
+    1. [Sign in to your PureVPN account.](https://my.purevpn.com/)
+    2. From the left sidebar, click **Subscriptions**.
+    3. Scroll down to find your OpenVPN username and password.
+        ![purevpn username and password](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/purevpn-vpn-username-vpn-password.png){class="glboxshadow"}
+    4. From the left sidebar, click **Manual Configuration**. 
+    5. Select a VPN location and click **Download** to download the configuration file. 
 
     [Refer link](https://support.purevpn.com/openvpn-files)
 
@@ -445,15 +450,6 @@ Others:
 
         ![hide.me vpn dashboard](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/hideme/hideme_dashboard.jpg){class="glboxshadow"}
 
-??? "HideMyAss"
-    ### HideMyAss
-
-    [Official Website](https://click.hmavpn.com/aff_c?offer_id=1&aff_id=861){target="_blank"}
-
-    [Download](https://vpn.hidemyass.com/vpn-config/vpn-configs.zip)
-
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
-
 ??? "IPVANISH"
     ### IPVANISH
 
@@ -474,9 +470,12 @@ Others:
 
     [Official Website](https://billing.ivacy.com/page/22852){target="_blank"}
 
-    [Download OpenVPN UDP Configs](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ivacy/IVACY_OpenVPN_Configs_UDP.zip)
+    To set up an OpenVPN client using Ivacy, you will need the following: 
 
-    [Download OpenVPN TCP Configs](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ivacy/IVACY_OpenVPN_Configs_TCP.zip)
+    - Your username for the OpenVPN manual configuration, shown in the "Download Configuration" prompt
+     ![ivacy openvpn username](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ivacy-username.png){class="glboxshadow"}
+    - Your password (same as the one you used to sign in to your Ivacy account)
+    - An OpenVPN configuration file
 
     [Refer link](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/)
 

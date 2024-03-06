@@ -46,6 +46,7 @@ When Internet access is not available, the corresponding warning is displayed. T
 ## Troubleshooting
 
     * Please use the original power supply.
+    * Please restart your mobile once.
 
 ---
 

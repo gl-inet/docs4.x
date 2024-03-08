@@ -226,6 +226,8 @@ Recommended:
 ??? "PureVPN"
     ### PureVPN
 
+    [Official Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
+
     To set up an OpenVPN client using PureVPN, you will need your OpenVPN username and password and a configuration file, which you can find in your PureVPN account. 
    
     1. [Sign in to your PureVPN account.](https://my.purevpn.com/)
@@ -448,15 +450,6 @@ Others:
 
         ![hide.me vpn dashboard](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/hideme/hideme_dashboard.jpg){class="glboxshadow"}
 
-??? "HideMyAss"
-    ### HideMyAss
-
-    [Official Website](https://click.hmavpn.com/aff_c?offer_id=1&aff_id=861){target="_blank"}
-
-    [Download](https://vpn.hidemyass.com/vpn-config/vpn-configs.zip)
-
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
-
 ??? "IPVANISH"
     ### IPVANISH
 
@@ -474,6 +467,8 @@ Others:
 
 ??? "IVACY"
     ### IVACY
+
+    [Official Website](https://billing.ivacy.com/page/22852){target="_blank"}
 
     To set up an OpenVPN client using Ivacy, you will need the following: 
 

@@ -45,3 +45,7 @@ To ensure your security, you are advised to set a new password for your guest Wi
 3. Tap **Done**.
 
 You have now set up a guest Wi-Fi network. To connect your devices to it, locate the guest network name on the list of available networks and enter the password.  
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

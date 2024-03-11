@@ -155,6 +155,7 @@ nav:
       - How to check Carrier Aggregation: tutorials/how_to_check_carrier_aggregation.md
       - How to change GL-X3000 and GL-XE3000 antennas: tutorials/how_to_change_x3000_and_xe3000_antennas.md
       - How to set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
+      - How to set up a guest network: tutorials/how_to_set_up_a_guest_network.md
     - VPN:
       - Accessing Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
       - Build your own OpenVPN Home Server with two GL.iNet Routers: tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md

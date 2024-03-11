@@ -32,6 +32,10 @@ Learn how to use our devices correctly with detailed steps.
 
 [GoodCloud Site to Site](goodcloud_site_to_site.md)
 
+## Network
+
+* [How to set up a guest Wi-Fi network on a GL.iNet router](how_to_set_up_a_guest_network.md)
+
 ## Network Sharing
 
 * [How to use WinSCP to access your share files?](winscp_share_file.md)

@@ -15,6 +15,7 @@ There are two methods you can use to set up a guest Wi-Fi network on your GL.iNe
 3. In the left sidebar, click **Wireless**.
 ![click wireless](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-wireless.jpeg){class="glboxshadow"}
 4. In the section for your 5GHz or 2.4GHz Wi-Fi network, click the **Guest Wi-Fi** tab. 
+![click guest](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-guest-wifi.jpeg){class="glboxshadow"}
 5. Next to **Enable Wi-Fi**, toggle the switch to on. 
 
 ### 2. Set a new guest Wi-Fi network password

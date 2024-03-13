@@ -166,7 +166,6 @@ nav:
       - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
       - VPN Cascading: tutorials/vpn_cascading.md
       - Use Wireguard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
-
     - Network Storage:
       - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
     - GoodCloud:
@@ -174,6 +173,7 @@ nav:
     - Other:
       - How to manually configure static IP: tutorials/manually_configure_static_ip.md
       - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+      - How to block client devices: tutorials/how_to_block_client_devices.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:

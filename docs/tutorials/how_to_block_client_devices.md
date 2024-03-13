@@ -10,10 +10,10 @@ There are two methods of blocking client devices on your GL.iNet router: via the
 
 ### 1. Sign in to the admin panel
 
-1. In a web browser, enter 192.168.8.1. 
-2. Enter your password, then click **Login**. 
+In a web browser, enter 192.168.8.1. Enter your password, then click **Login**. 
 
 ### 2. Block client devices
+
 There are two ways to block client devices, depending on whether you have their MAC addresses:
 
 * If you do not have their MAC addresses: Use the [first method](#method-1-block-devices-without-their-mac-addresses) which allows you to block the devices that appear in the lists.

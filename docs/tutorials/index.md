@@ -44,3 +44,4 @@ Learn how to use our devices correctly with detailed steps.
 
 * [How to check if Internet Service Provider assigns you a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [How to block client devices](how_to_block_client_devices.md)
+* [How to set up drop-in gateway](how_to_set_up_drop_in_gateway.md)

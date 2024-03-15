@@ -205,23 +205,6 @@ Recommended:
 
     GL.iNet routers don't support the [dedicated IP](https://www.purevpn.com/dedicated-ip){target="_blank"} feature of PureVPN, because it needs PPTP.
 
-??? "TorGuard"
-    ### TorGuard
-
-    [Official Website](https://torguard.net/aff.php?aff=3040){target="_blank"}
-
-    1. If you are using [TorGuard](https://torguard.net/aff.php?aff=3040){target="_blank"}, you need to login the control panel and find **Config Generator** from the **Tools** menu. Choose the **VPN Server** and some other options. Then click **Generate Config** a config file will be downloaded automatically.
-
-        ![Generate ovpn](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/torguard/torguard_menu.jpg){class="glboxshadow"}
-
-    2. Choose the first OS, and **a VPN Server Hostname** and other options.
-
-        ![torguard config generator](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/torguard/torguard_config_generator.png){class="glboxshadow"}
-
-    3. The username and password for OpenVPN connection is different from your control panel login. You can find the VPN username and VPN password at menu **Services** --> **My Services** click on **My Services** then click into **Manage** you can get your new updated password.
-
-        ![torguard vpn username vpn password](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/torguard/torguard_vpnusername_vpnpassword.png){class="glboxshadow" width="700"}
-
 ??? "PrivateVPN"
     ### PrivateVPN
 
@@ -461,15 +444,6 @@ Others:
     2. Download the OpenVPN Configuration for Windows.
 
         ![hide.me vpn dashboard](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/hideme/hideme_dashboard.jpg){class="glboxshadow"}
-
-??? "HideMyAss"
-    ### HideMyAss
-
-    [Official Website](https://click.hmavpn.com/aff_c?offer_id=1&aff_id=861){target="_blank"}
-
-    [Download](https://vpn.hidemyass.com/vpn-config/vpn-configs.zip)
-
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
 
 ??? "IPVANISH"
     ### IPVANISH

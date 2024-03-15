@@ -1,23 +1,23 @@
-# Admin Password
+# 管理者パスワード
 
-**Note**: Admin Password feature has been moved to [Security](security.md) since v4.3.
+**注意**: 管理者パスワード機能はv4.3から[セキュリティ](security.md) に移動しました。
 
 ---
 
-On the left side of web Admin Panel -> SYSTEM -> Admin Password
+管理画面の左側→システム→管理者パスワード
 
 ![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
 
-Change the password of login the web Admin Panel. You have to input your current password to change it.
+管理画面にログインする際のパスワードを変更します。変更するには、現在のパスワードを入力する必要があります。
 
-For security reasons, we recommend that you turn on **Prevent Weak Password**.
+セキュリティ上の理由により、 **弱いパスワードの防止**をオンにすることをお勧めします。
 
-When **Prevent Weak Password** is turned on, the requirements for new passwords are as follows.
+ **弱いパスワードの防止** がオンになっている場合、新しいパスワードの条件は以下の通り。
 
-- 5 characters and maximum 63 characters.
-- Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
-- At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
+- 5文字から最大63文字。
+- 文字（大文字と小文字が区別されます）、数字、記号 `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` は使用できます。
+- 大文字、小文字、数字、記号のうち少なくとも 2 つが必要です。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

@@ -1,228 +1,225 @@
 # GL.iNet GoodCloud
 
-## Contents
+## コンテンツ
 
-- [Introduction](#introduction)
-- [Setup](#setup)
-    - [Enable GoodCloud on router](#enable-goodcloud-on-router)
-    - [Sign up GoodCloud account](#sign-up-goodcloud-account)
-    - [Select server region](#select-server-region)
-    - [Add a new group](#add-a-new-group)
-    - [Add device](#add-device)
-    - [Bound info on router web Admin Panel](#bound-info-on-router-web-admin-panel)
-    - [Unbind router](#unbind-router)
-- [Manage your devices](#manage-your-devices)
-    - [Devices info and status](#devices-info-and-status)
-    - [LTE Signal](#lte-signal)
-    - [Device detail info](#device-detail-info)
-    - [Remote access web Admin Panel](#remote-access-web-admin-panel)
-    - [Remote access router's terminal](#remote-access-routers-terminal)
-    - [Set email alarm](#set-email-alarm)
-- [Site to Site](../tutorials/goodcloud_site_to_site.md)
-- [Batch Setting](#batch-setting)
-    - [Batch Setting of Single Device](#batch-setting-of-single-device)
-    - [Batch Setting of Mutiple Devices](#batch-setting-of-mutiple-devices)
-    - [Other Batch Operations](#other-batch-operations)
-- [Template Management](#template-management)
-    - [Add a Template](#add-a-template)
-    - [Upgrade](#upgrade)
-    - [Apply a template to a router](#apply-a-template-to-a-router)
-    - [Apply a template to multiple routers](#apply-a-template-to-multiple-routers)
-- [Task List](#task-list)
-- [GoodCloud and VPN](#goodcloud-and-vpn)
-- [Turn off cloud](#turn-off-cloud)
+- [はじめに](#introduction)
+- [セットアップ](#setup)
+    - [ルーターでGoodCloudを有効にする](#enable-goodcloud-on-router)
+    - [GoodCloudアカウント登録](#sign-up-goodcloud-account)
+    - [サーバー地域の選択](#select-server-region)
+    - [新規グループを追加する](#add-a-new-group)
+    - [デバイスの追加](#add-device)
+    - [ルーターウェブ管理パネルのバウンド情報](#bound-info-on-router-web-admin-panel)
+    - [ルーターのバインド解除](#unbind-router)
+- [デバイスの管理](#manage-your-devices)
+    - [デバイス情報とステータス](#devices-info-and-status)
+    - [LTEシグナル](#lte-signal)
+    - [デバイス詳細情報](#device-detail-info)
+    - [リモートアクセスWeb管理者パネル](#remote-access-web-admin-panel)
+    - [リモートアクセス・ルーターの端末](#remote-access-routers-terminal)
+    - [メールアラームの設定](#set-email-alarm)
+- [サイト・ツー・サイト](../tutorials/goodcloud_site_to_site.md)
+- [一括設定](#batch-setting)
+    - [単一デバイスの一括設定](#batch-setting-of-single-device)
+    - [複数のデバイスの一括設定](#batch-setting-of-mutiple-devices)
+    - [その他の一括操作](#other-batch-operations)
+- [テンプレート管理](#template-management)
+    - [テンプレートの追加](#add-a-template)
+    - [アップグレード](#upgrade)
+    - [テンプレートをルーターに適用する](#apply-a-template-to-a-router)
+    - [複数のルーターにテンプレートを適用する](#apply-a-template-to-multiple-routers)
+- [タスクリスト](#task-list)
+- [GoodCloud と VPN](#goodcloud-and-vpn)
+- [Cloudをオフにする](#turn-off-cloud)
 
-## Introduction
+## はじめに
 
-GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage routers. There is a video introduction below.
+GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud 管理サービスは、ルーターにリモートでアクセスして管理するための簡単かつシンプルな方法を提供します。以下にビデオによる紹介があります。
 
-Introducing GoodCloud, Your Remote Device Management Solution.
+リモートデバイス管理ソリューション、GoodCloudのご紹介：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JkV2PAy-_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Easy Guide to Setting Up your GoodCloud Wi-Fi Management System for SMEs.
+中小企業向けGoodCloud Wi-Fi管理システムの簡単設定ガイド：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7U1CwpKOKDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Features:
+特徴：
 
-* Check live router status
-    - Live online offline status check
-    - Live RAM and Load Average check
-    - LTE Signal
-    - Email alarm about online offline status update
+* ルーターのライブステータスを確認する
+    - オンライン・オフラインのライブ・ステータス・チェック
+    - ライブRAMとロードアベレージのチェック
+    - LTEシグナル
+    - オンライン・オフライン状態の更新を電子メールで通知
 
-* Set up routers remotely
-    - Set up routers (e.g. SSID and Key) remotely
-    - Remote SSH
-    - Remote access web Admin Panel
+* ルーターをリモートでセットアップする
+    - ルーター をリモートでセットアップする(SSID やキーなど)
+    - リモートSSH
+    - リモートアクセスWeb管理パネル
 
-* Monitoring clients on routers remotely
-    - Check who is on your network
-    - Realtime traffic monitoring and block clients
-    - Email alarm about new client and block
+* ルーター上のクライアントをリモートで監視
+    - ネットワークに接続しているユーザーを確認する
+    - リアルタイムトラフィック監視とクライアントのブロック
+    - 新規顧客とブロックに関する電子メールアラーム
 
-* Operate routers in batch
-    - Set up config templates and configure routers in batch
-    - Reboot or upgrade routers in batch
+* ルーターの一括操作
+    - コンフィグテンプレートを設定し、ルーターを一括設定する
+    - ルーターを一括でリブートまたはアップグレードする
 
-* Manage routers in groups
-    - Divide devices in different groups
-    - Manage devices in one page
+* ルーターをグループで管理する
+    - デバイスをグループごとに分ける
+    - 1 ページでデバイスを管理
 
-* Site to Site
-    - Virtual Office: extend your office network to other offices
-    - Business Travel: remote access office's OA, CRM, MySQL systems
-    - Smart Home: remote access IP camera, NAS and other devices at home
+* サイト・ツー・サイト
+    - バーチャルオフィス：オフィスのネットワークを他のオフィスへ拡張
+    - 出張：オフィスのOA、CRM、MySQLシステムにリモートアクセス
+    - スマート ホーム: 自宅のIP カメラ、NAS、その他のデバイスにリモート アクセス
 
-## Setup
+## セットアップ
 
-There is a video tutorial below about how to enable cloud function and bind it to GoodCloud.
+クラウド機能を有効にし、GoodCloudにバインドする方法については、以下のビデオチュートリアルがあります。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mvJQZphSO1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Enable GoodCloud on router
+### ルーターでGoodCloudを有効にする
 
-On the left side of web Admin Panel -> APPLICATIONS -> GoodCloud.
+ウェブ管理画面の左側→アプリケーション→GoodCloud.
 
 ![enable goodcloud](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/enable_goodcloud.png){class="glboxshadow"}
 
-Follow the steps above, to enable the cloud function, which will allow the router to connect to the GoodCloud server.
+上記の手順に従ってCloud機能を有効にすると、ルーターがGoodCloudサーバーに接続できるようになります。
 
-* **Remote SSH** is for remote access router's terminal via GoodCloud. Check out [here](#remote-access-routers-terminal).
+* **リモートSSH** は、GoodCloud経由でルーターの端末にリモートアクセスするためのものです。 [こちら](#remote-access-routers-terminal)をご覧ください。
 
-* **Remote Web Access** is for remote access router's web Admin Panel via GoodCloud. Check out [here](#remote-access-web-admin-panel).
+* **リモートWebアクセス** は、GoodCloud経由でルーターのWeb管理パネルにリモートアクセスするためのものです。 [こちら](#remote-access-web-admin-panel)をご覧ください。
 
-* **Data Server**, please choose the server which is nearest your devices located. There are three Data Server, **Asia Pacific**(Japan), **America**(Oregon) and **Europe**(Ireland).
+* **データサーバー**、お使いの機器に最も近いサーバーをお選びください。データサーバーは、**アジア太平洋**(日本)、**アメリカ**(オレゴン)、**ヨーロッパ**(アイルランド)の3つがあります。
 
-### Sign up GoodCloud account
+### GoodCloudアカウント登録
 
- Visit [https://www.goodcloud.xyz](https://www.goodcloud.xyz){target="_blank"}, sign up then sign in. If you don't find the verify email, look in spam or check email later. If you have any difficulty with sign up, please send email to [support@glinet.biz](mailto:support@glinet.biz) for help.
+  [https://www.goodcloud.xyz](https://www.goodcloud.xyz){target="_blank"}にアクセスし、サインアップしてからサインインします。 確認メールが届かない場合は、迷惑メールのフォルダをチェックするか、後でメールを確認してください。登録に問題がある場合は、 [support@glinet.biz](mailto:support@glinet.biz) までメールでお問い合わせください。
 
-### Select server region
+### サーバーの地域を選択
 
-At the first time when you sign in, it will pop up a dialog to let you select the region, please select the region same as your device selected Data Server on the web Admin Panel ([Step of enable GoodCloud on router](#enable-goodcloud-on-router)).
+初回サインイン時に、地域を選択するダイアログが表示されます。Web管理パネル([Step of enable GoodCloud on router](#enable-goodcloud-on-router))で選択したデータサーバーと同じ地域を選択してください。
 
-You can change the region on the top right corner at anytime.
+右上隅でいつでも地域を変更できます。
 
 ![select region button](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/select_region_button.png){class="glboxshadow"}
 
-### Add a new group 
+### 新しいグループを追加する
 
-On the left side -> Groups List -> Add group.
+左側 -> グループリスト -> グループの追加
 
-Follow the steps below to add a new group.
+新しいグループを追加するには、以下の手順に従ってください。
 
 ![add group](https://static.gl-inet.com/goodcloud/docs/add-group.png){class="glboxshadow"}
 
-Set the group name, company, description and location.
+グループ名、会社名、説明、所在地を設定してください。
 
-Each device must belong to a group.
+各デバイスはグループに属している必要があります。
 
-### Add device
+### デバイスを追加
 
-On the left side -> Devices List -> Add Device. There are three methods to bind device to your GoodCloud account, **Auto discover**, **Manually add** and **Bulk import**.
+左側 -> デバイスリスト -> デバイス追加。 デバイスを GoodCloud アカウントにバインドするには、 **自動検出**、 **手動で追加**と**一括インポート**の 3 つの方法があります。
 
-=== "Auto discover"
+=== "自動検出"
 
-    If your router and PC(which opened GoodCloud website) are in the same network, please try the **Auto discover**.
+    ルーターとPC(GoodCloudウェブサイトを開いたPC)が同じネットワーク内にある場合は、**自動検出**をお試しください。
     
-    Follow the steps below to add your device.
+    以下の手順に従ってデバイスを追加してください。
 
     ![add device](https://static.gl-inet.com/goodcloud/docs/add-device.png){class="glboxshadow"}
 
-    Check out [here](../faq/where_to_find_the_device_id_mac_sn.md) to find the Device ID.
+    デバイス ID を確認するには、[こちら](../faq/where_to_find_the_device_id_mac_sn.md)を確認してください。
 
-        Note: Input "DDNS/Device ID" here just to verify that the router is really 
-        original/valid.
+        注意：ここで「DDNS/デバイスID」を入力するのは、ルーターが確かにオリジナル/有効であることを確認するためで す。
 
-        If you haven't added a group before, it will automatically create a default 
-        group.
+        グループを追加したことがない場合は、自動的にデフォルトのグループが作成されます。
 
-    Click `Refresh` to force auto discover devices again.
+    「更新」 をクリックすると、強制的にデバイスの自動検出が再開されます。
 
     ![auto discover](https://static.gl-inet.com/goodcloud/docs/auto-discover.png){class="glboxshadow"}
 
-=== "Manually add"
+=== "手動で追加"
 
-    If it can't discover automatically, try `Manually add`. All information that need to input can be found on the back of the router.
+    自動検出できない場合は、「手動で追加」を試してください。入力が必要な情報はすべてルーターの背面に記載されています。
 
-        Note: Input "MAC", "SN" and "DDNS" / "Device ID" here just to verify that the 
-        router is really original and valid.
+        注意：ここで「MAC」、「SN」、「DDNS」/「デバイスID」を入力するのは、ルーターが本当にオリジナルで有効かどうかを確認するためです。
 
-    For new models, it has **Device ID** on the back of router.
+    新しいモデルの場合、ルーターの背面に**デバイスID**が記載されています。
 
     ![manually add device](https://static.gl-inet.com/goodcloud/docs/manually-add-device-device-id.png){class="glboxshadow"}
 
-    For old models, it has **DDNS** on the back of the router. Only the first 7 characters of **DDNS** are needed.
+    旧モデルの場合、ルーターの背面に**DDNS**と記載されています。**DDNS**の最初の7文字のみが必要です。
 
     ![manually add device](https://static.gl-inet.com/goodcloud/docs/manually-add-device.png){class="glboxshadow"}
 
-=== "Bulk import"
+=== "一括インポート"
 
-    `Bulk import` is for user who have a great number of devices to add. By `Bulk import` you can import many devices by a Microsoft excel file.
+    「一括インポート」は、追加するデバイスが多数あるユーザー向けです。 「一括インポート」を使用すると、Microsoft Excel ファイルで多数のデバイスをインポートできます。
 
-### Bound info on router web Admin Panel
+### ルーター Web 管理パネル上のバインド情報
 
-After you seccessfully add router to GoodCloud, go back to router web Admin Panel, on the left side, APPLICATION -> GoodCloud, 
+ルーターをGoodCloudに追加した後、ルーターのウェブ管理パネルに戻り、左側の「アプリケーション」→「GoodCloud」を選択 して、
 
-refresh this page, It will display the bound GoodCloud username and date.
+このページを更新すると、バインドされたGoodCloudのユーザー名と日付が表示されます。
 
 ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/goodcloud_bound_info.png){class="glboxshadow"}
 
-### Unbind router
+### ルーターのバインドを解除
 
-If you want to unbind the router, go to router web Admin Panel, on the left side, APPLICATION -> GoodCloud, click **Unbind** button.
+ルーターのバインドを解除したい場合は、ルーターのウェブ管理パネルの左側にある　アプリケーション->GoodCloudの**バインド解除**ボタンをクリックします。
 
 ![goodcloud unbind](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/goodcloud_unbind.png){class="glboxshadow"}
 
-## Manage your devices
+## デバイス管理
 
-### Devices info and status
+### デバイス情報とステータス
 
-Sign in [Goodcloud](https://www.goodcloud.xyz), check at left side -> Device List
+ [Goodcloud](https://www.goodcloud.xyz)にサインイン、左側のデバイスリストをチェックします。
 
 ![device list table](https://static.gl-inet.com/goodcloud/docs/device_list_table.png){class="glboxshadow"}
 
-there is icon at the first column of this table, 
+この表の最初の列にアイコンがあります、
 
-![online icon](https://static.gl-inet.com/goodcloud/docs/online_icon.png) means this device is online.
+![online icon](https://static.gl-inet.com/goodcloud/docs/online_icon.png) このデバイスがオンラインであることを意味します。
 
-![offline icon](https://static.gl-inet.com/goodcloud/docs/offline_icon.png) means this device is offline.
+![offline icon](https://static.gl-inet.com/goodcloud/docs/offline_icon.png) このデバイスがオフラインであることを意味します。
 
-![deactovate icon](https://static.gl-inet.com/goodcloud/docs/deactivate_icon.png) means this device is deactivated, it has never connected to GoodCloud before.
+![deactovate icon](https://static.gl-inet.com/goodcloud/docs/deactivate_icon.png) このデバイスが非アクティブ化されており、これまでに GoodCloud に接続したことがないことを意味します。
 
 ![column selector](https://static.gl-inet.com/goodcloud/docs/column_selector.png){class="glboxshadow"}
 
-Select the column you want to display.
+表示させたい列を選択します。
 
-`Online time` is the latest time when device connected GoodCloud.
+`オンライン時間` はデバイスがGoodCloudに接続した最新の時間です。
 
-`Offline time` is the latest time when device disconnected GoodCloud.
+`オフライン時間` はデバイスがGoodCloudを切断した最新の時間です。
 
-`Update time` is the latest time when device connected or disconnected GoodCloud.
+`アップデート時間` は、デバイスがGoodCloudに接続または切断された最新の時間です。
 
-`IP`, if your router run VPN client, this IP will be your VPN IP by default. <a href="#goodcloud-and-vpn">Learn More</a>
+`IP`、ルーターがVPNクライアントを実行している場合、このIPはデフォルトでVPN IPになります。 <a href="#goodcloud-and-vpn">詳細はこちら</a>
 
-### LTE Signal
+### LTE シグナル
 
-Only available for 4G devices, e.g. GL-MiFi, GL-X750
+GL-MiFi、GL-X750などの4Gデバイスのみ使用可能です。
 
-Toggle the column on Device List page.
+デバイスリストページの列を切り替えます。
 
 ![device LTE signal](https://static.gl-inet.com/goodcloud/docs/lte_signal.png){class="glboxshadow"}
 
-It will show Signal strength, Type, and relavant parameters.
+信号強度、タイプ、関連するパラメーターが表示されます。
 
 ![device LTE signal](https://static.gl-inet.com/goodcloud/docs/lte_signal_2.png){class="glboxshadow"}
 
-### Device detail info
+### デバイス詳細情報
 
-At left side -> Device List, click the name of an online device, it will open a page to manage this device of WiFi, Clients and view router info, memory usage, up time, load average and log.
+左側のデバイスリストで、オンラインデバイスの名前をクリックすると、WiFi、クライアントのデバイスを管理するページが開き、ルータ情報、メモリ使用量、稼働時間、ロードアベレージ、ログが表示されます。
 
 ![to device detail page](https://static.gl-inet.com/goodcloud/docs/to_device_detail.png){class="glboxshadow"}
 
-#### Device info
+#### デバイス情報
 
 ![device info](https://static.gl-inet.com/goodcloud/docs/edit-device-device-info.png){class="glboxshadow"}
 
@@ -230,188 +227,188 @@ At left side -> Device List, click the name of an online device, it will open a 
 
 ![device info](https://static.gl-inet.com/goodcloud/docs/edit-device-wifi.png){class="glboxshadow"}
 
-Modify all WiFi settings.
+すべてのWiFi設定を変更します。
 
-#### Router status
+#### ルーターのステータス
 
 ![device info](https://static.gl-inet.com/goodcloud/docs/edit-device-router-status.png){class="glboxshadow"}
 
-#### Client list
+#### クライアントリスト
 
 ![device info](https://static.gl-inet.com/goodcloud/docs/edit-device-client-list.png){class="glboxshadow"}
 
-#### Timeline
+#### タイムライン
 
-Timeline tab display the activities of router, and messages uploaded by the router's associated IoT device.
+「タイムライン」タブには、ルーターのアクティビティと、ルーターに関連するIoTデバイスによってアップロードされたメッセージが表示されます。
 
 ![device timeline](https://static.gl-inet.com/goodcloud/docs/timeline.png){class="glboxshadow"}
 
-#### Tools
+#### ツール
 
-There are two tools, `Ping` and `Traceroute`.
+ `Ping`と`Traceroute`の2つのツールがあります。
 
 ![tools ping traceroute](https://static.gl-inet.com/goodcloud/docs/tools_ping_traceroute.png){class="glboxshadow"}
 
-### Remote access web Admin Panel
+### リモートアクセスWeb管理パネル
 
-Note: Please upgrade to 3.211 to use this feature.
+注意：この機能を使用するには、3.211にアップグレードしてください。
 
-If you can't find these icons, please make sure you have enable it, check out [here](#enable-goodcloud-on-router).
+これらのアイコンが見つからない場合は、 [こちら](#enable-goodcloud-on-router)をチェックして、それが有効になっていることを確認してください。
 
-If this feature not work, please try the incognito mode of browser.
+この機能が動作しない場合は、ブラウザのシークレットモードをお試しください。
 
 ![remote access web admin panel](https://static.gl-inet.com/goodcloud/docs/remote_access_web_admin_panel.png){class="glboxshadow"}
 
-### Remote access router's terminal
+### リモートアクセス・ルーターの端末
 
-Note: Please upgrade to 3.211 to use this feature.
+注意：この機能を使用するには、3.211にアップグレードしてください。
 
-If you can't find these icons, please make sure you have enable it, check out [here](#enable-goodcloud-on-router).
+これらのアイコンが見つからない場合は、 [こちら](#enable-goodcloud-on-router)をチェックして、それが有効になっていることを確認してください。
 
-If this feature not work, please try the incognito mode of browser.
+この機能が動作しない場合は、ブラウザのシークレットモードをお試しください。
 
 ![remote access web admin panel](https://static.gl-inet.com/goodcloud/docs/remote_access_terminal.png){class="glboxshadow"}
 
-### Set email alarm
+### メールアラームの設定
 
-You can set email alarm when a device is online, offline, and new client connected.
+デバイスがオンライン、オフライン、新しいクライアントに接続されたときに電子メールアラームを設定することができます。
 
-At left side -> Setting -> Alarm Setting, create alarm rules
+左側 -> 設定 -> アラーム設定で、アラームルールを作成します。
 
 ![create alarm rules](https://static.gl-inet.com/goodcloud/docs/create-alarm-rules.png){class="glboxshadow"}
 
-Then set the email you want to receive notification. To ensure you get email successful, please add admin@goodcloud.xyz to your email address book.
+次に、通知を受け取るメールアドレスを設定します。確実にメールを受信するために、admin@goodcloud.xyz をアドレス帳に追加してください。
 
 ![alarm rules](https://static.gl-inet.com/goodcloud/docs/alarm-rules.png){class="glboxshadow"}
 
 ## Site to Site
 
-Please refer to [GoodCloud Site to Site](../tutorials/goodcloud_site_to_site.md).
+[GoodCloud Site to Site](../tutorials/goodcloud_site_to_site.md)を参照してください。
 
-## Batch Setting
+## 一括設定
 
-You can use this feature to configure multiple parameters for a single device, or you can configure multiple parameters for multiple devices.
+この機能を使用して、1つのデバイスに対して複数のパラメータを設定することも、複数のデバイスに対して複数のパラメータを設定することもできます。
 
-    Note: This feature is only available to business users.
+   注意：この機能はビジネスユーザーのみが利用できます。
 
-### Batch Setting of Single Device
+### 単一デバイスの一括設定
 
-To configure single device, as show below.
+単一デバイスを設定するには、以下のようにします。
 
   <a href="https://static.gl-inet.com/goodcloud/docs/modify_configuration.png" target="_blank"><img alt="Modify Configuration" src="https://static.gl-inet.com/goodcloud/docs/modify_configuration.png"></a>
 
-The left side of image below is correct. If your interface is like the right side of image below, please upgrade to latest testing firmware.
+下の画像の左側が正しいです。もし下の画像の右側のようなインターフェースであれば、最新のテスト用ファームウェアにアップグレードしてください。
 
   <a href="https://static.gl-inet.com/goodcloud/docs/single_configuration.png" target="_blank"><img alt="Single Configuration" src="https://static.gl-inet.com/goodcloud/docs/single_configuration.png"></a>
 
-Check the configuration that needs to be modified and input value.
+変更が必要な構成を確認し、値を入力します。
   
 ![Add Configuration](https://static.gl-inet.com/goodcloud/docs/add_configuration.png){class="glboxshadow"}
 
-The checked configuration is required, and only the configuration that conforms to the rule can be filled out. After the configuration is delivered, it does not take effect immediately. The configuration takes effect and the device needs to be restarted. You can check the Restart now option in the lower right corner of the above figure. After the configuration is completed, the device will restart immediately.
+チェックされた構成は必須であり、ルールに適合する構成のみが記入可能であります。 構成が配信された後、すぐに有効になるわけではありません。構成が有効になり、デバイスを再起動する必要があります。 上図の右下隅にある「Restart now（今すぐ再起動）」オプションをチェックすることができます。 構成が完了すると、デバイスはすぐに再起動します。
 
-Preview the configuration and confirm the delivery.
+構成をプレビューし、配信を確認します。
 
 ![Preview Configuration](https://static.gl-inet.com/goodcloud/docs/preview_configuration.png){class="glboxshadow"}
 
-Unchecked **Restart now** option will prompt.
+**Restart now** オプションのチェックを外すと、プロンプトが表示されます。
 
 <a href="https://static.gl-inet.com/goodcloud/docs/config_not_take_effect.png" target="_blank"><img alt="config not take effect" src="https://static.gl-inet.com/goodcloud/docs/config_not_take_effect.png"></a>
 
-### Batch Setting of Mutiple Devices
+### 複数デバイスの一括設定
 
-Select the devices you want to configure.
+構成したいデバイスを選択します。
 
 ![mutiple configuration](https://static.gl-inet.com/goodcloud/docs/mutiple_configuration.png){class="glboxshadow" width="800"}
 
-Other operations are the same as when operating a single device.
+その他の操作は、単一デバイスを操作する場合と同じです。
 
-### Other Batch Operations
+### その他の一括操作
 
-Other Batch Operations: Move to other group, upgrade, restart, delete.
+その他の一括操作： 他のグループへの移動、アップグレード、再起動、削除。
 
 ![Task](https://static.gl-inet.com/goodcloud/docs/task.png){class="glboxshadow"}
 
-## Template Management
+## テンプレート管理
 
-Save frequently used configurations as templates and quickly apply them when you modify configurations in batches.
+よく使う構成をテンプレートとして保存し、一括で構成を変更する際に素早く適用できます。
 
-    Note: This feature is only available to business users.
+    注意：この機能はビジネスユーザーのみが利用できます。
 
-### Add a Template
+### テンプレートの追加
 
-Check the configuration that needs to be modified and input value. Most of the options are the same as those on web Admin Panel.
+変更が必要な構成を確認し、値を入力します。ほとんどのオプションはウェブ管理パネルと同じです。
 
 ![Add Template](https://static.gl-inet.com/goodcloud/docs/add_template.png){class="glboxshadow"}
 
-#### Upgrade
+#### アップグレード
 
-**Upgrade Path** is for upgrading custom firmware. Put the firmware and a text file on a web server, then put the url path on the **Upgrade Path**. For example, [https://fw.gl-inet.com/firmware/ar750/v1/](https://fw.gl-inet.com/firmware/ar750/v1/) is a Upgrade Path, it has a **list-sha256.txt** file [https://fw.gl-inet.com/firmware/ar750/v1/list-sha256.txt](https://fw.gl-inet.com/firmware/ar750/v1/list-sha256.txt) and a corresponding firmware file [https://fw.gl-inet.com/firmware/ar750/v1/openwrt-ar750-3.203-0701.bin](https://fw.gl-inet.com/firmware/ar750/v1/openwrt-ar750-3.203-0701.bin).
+**Upgrade Path**はカスタムファームウェアのアップグレード用です。ファームウェアとテキストファイルをウェブサーバーに置き、そのURLを**Upgrade Path**に置きます。例えば、 [https://fw.gl-inet.com/firmware/ar750/v1/](https://fw.gl-inet.com/firmware/ar750/v1/) は Upgrade Path、  **list-sha256.txt** ファイル [https://fw.gl-inet.com/firmware/ar750/v1/list-sha256.txt](https://fw.gl-inet.com/firmware/ar750/v1/list-sha256.txt) と対応するファームウェア・ファイル [https://fw.gl-inet.com/firmware/ar750/v1/openwrt-ar750-3.203-0701.bin](https://fw.gl-inet.com/firmware/ar750/v1/openwrt-ar750-3.203-0701.bin)があります。
 
-    Note: GL-AX1800, GL-S1300, GL-B1300, GL-AP1300 only support http path for now.
+    注意：GL-AX1800、GL-S1300、GL-B1300、GL-AP1300は今のところhttp pathのみサポートしています。
 
 ![Template info](https://static.gl-inet.com/goodcloud/docs/template_upgrade_path.png){class="glboxshadow"}
 
-The content of the text file is like [this](https://fw.gl-inet.com/firmware/ar750/v1/list-sha256.txt), its name should be **list-sha256.txt**. It has 4 columns, the first column is firmware version, the second column is the name of firmware file, the thrid column is the sha256 of firmware file, the forth column is the size of firmware file.
+テキストファイルの内容は [これ](https://fw.gl-inet.com/firmware/ar750/v1/list-sha256.txt)のようなもので、名前は**list-sha256.txt**とすべきである。4 つの列があり、初の列はファームウェアのバージョン、2番目の列はファームウェアファイルの名前、3番目の列はファームウェアファイルのsha256、4番目の列はファームウェアファイルのサイズである。
 
 ![gl-ar750 sha256](https://static.gl-inet.com/goodcloud/docs/ar750-sha256.png){class="glboxshadow"}
 
-Give the template a name and description.
+テンプレートに名前と説明を付けます。
 
 ![Template info](https://static.gl-inet.com/goodcloud/docs/template_info.png){class="glboxshadow"}
 
-### Apply a template to a router
+### ルーターにテンプレートを適用します。
 
-If you have created a template, then want to apply this template to a router. On the **Device List** page, find the router that you want to apply the template, make sure it is online, on the Actions column, click the cog icon, click **Modify Configuration** item. It will pop up a dialog **Configure batch modification**.
+テンプレートを作成し、このテンプレートをルーターに適用したい場合、 **デバイスリスト** テンプレートを適用したいルーターを見つけ、オンラインであることを確認し、アクション列で歯車のアイコンをクリックし、 **構成変更** 項目をクリックします。 **構成一括変更**ダイアログがポップアップします。
 
-On the top right corner of the dialog, you can choose a template that has already created. Then click **Apply** button on the bottom right corner.
+ダイアログの右上で、既に作成されているテンプレートを選択することができます。そして右下の**Apply**ボタンをクリックします。
 
-It will pop up another dialog to review the configuration of the template, scroll down to the bottom to click the **Confirm** button, it will load the configuration of template overwrite to this time modification.
+テンプレートの構成を確認するために別のダイアログがポップアップし、一番下までスクロールして**確認**ボタンをクリックすると、今回の変更にテンプレートの構成を上書きして読み込みます。
 
-Click **Apply** button, please note that the router will restart to take effect after click the **Apply** button.
+**Apply** ボタンをクリックします。**Apply** ボタンをクリックした後、ルーターが再起動され、有効になりますのでご注意ください。
 
-### Apply a template to multiple routers
+### 複数のルーターにテンプレートを適用する
 
-If you have created a template, then want to apply this template to multiple routers. This procedure is similar to that applied to a single router. On the **Device List** page, multiple select routers, then click **Bulk Action**, click **Modify Configuration** item. It will pop up a dialog **Configure batch modification**.
+テンプレートを作成し、このテンプレートを複数のルーターに適用する場合、この手順は、1台のルーターに適用する手順とよく似ています。**デバイスリスト**ページでルーターを複数選択し、**一括操作**をクリックし、**構成変更**項目をクリックします。**一括構成変更**ダイアログが表示されます。
 
-On the top right corner of the dialog, you can choose a template that has already created. Then click **Apply** button on the bottom right corner.
+ダイアログの右上で、既に作成されているテンプレートを選択することができます。そして右下の**Apply**ボタンをクリックします。
 
-It will pop up another dialog to review the configuration of the template, scroll down to the bottom to click the **Confirm** button, it will load the configuration of template overwrite to this time modification.
+テンプレートの構成を確認するために別のダイアログがポップアップし、一番下までスクロールして**確認**ボタンをクリックすると、今回の変更にテンプレートの構成を上書きして読み込みます。
 
-Click **Apply** button, please note that the router will restart to take effect after click the **Apply** button.
+**Apply** ボタンをクリックします。**Apply** ボタンをクリックした後、ルーターが再起動され、有効になりますのでご注意ください。
 
-## Task List
+## タスクリスト
 
-At task list page, it shows the execution result of the configuration template.
+タスクリストページでは、構成テンプレートの実行結果が表示されます。
 
-    Note: This feature is only available to business users.
+    注意：この機能はビジネスユーザーのみが利用できます。
 
 ![Task list](https://static.gl-inet.com/goodcloud/docs/task_list.png){class="glboxshadow"}
 
-You can view the execution result of each device and configuration.
+各デバイスと構成の実行結果をチェックすることができます。
 
 ![Task list detail info](https://static.gl-inet.com/goodcloud/docs/task_list_detail_info.png){class="glboxshadow"}
 
-## GoodCloud and VPN
+## GoodCloudとVPN
 
-If you enable GoodCloud function and running VPN client at the same time on router, by default, the connection between the router and the GoodCloud server will also go through the VPN, but sometimes the VPN connection is unstable, or the VPN provider mistakenly filters the GoodCloud connection, you can make the GoodCloud connection not go through the VPN by using the following settings.
+ルーターでGoodCloud機能を有効にし、同時にVPNクライアントを起動した場合、デフォルトではルーターとGoodCloudサーバー間の接続もVPNを経由しますが、VPN接続が不安定な場合や、VPNプロバイダーが誤ってGoodCloud接続をフィルタリングする場合がありますので、以下の設定でGoodCloud接続をVPNを経由しないようにすることができます。
 
-Go to web Admin Panel, on the left side, VPN -> VPN Dashboard -> VPN Client -> Global Options.
+ウェブ管理パネルの左側、VPN -> VPNダッシュボード -> VPNクライアント -> グローバルオプション。
 
 ![Services from GL.iNet doesn't Use VPN](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/goodcloud_donot_use_vpn.png){class="glboxshadow"}
 
-It is not recommended to run Site to Site while its nodes are also running VPN client, which can make the network particularly complex.
+ノードがVPNクライアントを実行している間にSite to Siteを実行することは推奨されません。
 
-## Turn off cloud
+## cloudオフにする
 
-To stop GoodCloud service, turn it off on router web Admin Panel. Please follow the steps below. No action needed on the GoodCloud website.
+GoodCloudサービスを停止するには、ルーターのウェブ管理パネルでサービスをオフにしてください。以下の手順に従ってください。GoodCloudウェブサイト上では何もする必要はありません。
 
 ![disable cloud](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/turn_off_cloud.png){class="glboxshadow"}
 
-After disable Cloud, the interface is like below.
+Cloudを無効にすると、以下のようなインターフェイスになります。
 
 ![after disable cloud](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/after_turn_off_cloud.png){class="glboxshadow"}
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

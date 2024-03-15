@@ -1,45 +1,45 @@
-# CLIENTS
+# クライアント
 
-On the left side of web Admin Panel -> CLIENTS
+Web 管理パネルの左側 -> クライアント
 
-The Clients page displays information about connected devices, including device name, connection type, IP address, MAC address, speed, and traffic.
+クライアントページには、デバイス名、接続タイプ、IP アドレス、MAC アドレス、速度、トラフィックなど、接続されているデバイスに関する情報が表示されます。
 
-## Modify Client Name and Type
+## クライアント名とタイプの変更
 
-If you want to modify name and type of a device, please click the three docs icon, in the menu that pops up, click **Modify** item.
+デバイスの名前とタイプを変更したい場合、「アクション」の下のアイコンをクリックし、ポップアップするメニューで、**変更**アイテムをクリックしてください。
 
 ![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_three_dots.png){class="glboxshadow"}
 
 ![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/edit_client_device.png){class="glboxshadow"}
 
-## MAC Address
+## MACアドレス
 
-Many devices will use randomized MAC address, if the randomized MAC address is used, there will be a prompt.
+多くのデバイスはランダム化されたMACアドレスを使用します。ランダム化されたMACアドレスが使用されている場合、プロンプトが表示されます。
 
 ![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/randomized_mac_address.png){class="glboxshadow"}
 
-**Note**: The rule here is that if the second character of the MAC address is 2, 6, A or E(Ignore case), then it is considered a randomized MAC address. However, some devices may use a different rule to generate a randomized MAC address, so it may not be accurate.
+**注意**: ここでのルールは、MACアドレスの2番目の文字が2、6、A、またはE（大文字と小文字を無視）であれば、ランダム化されたMACアドレスとみなすというものであります。ただし、デバイスによっては、異なるルールを使用してランダム化されたMACアドレスを生成する場合があるため、正確でない可能性があります。
 
-## Blocklist
+## ブロックリスト
 
-Enable **Block** toggle to block client device, the blocked device can't access the LAN interface and WAN interface.
+**ブロック**を有効にすると、クライアントデバイスをブロックし、ブロックされたデバイスはLANインターフェイスとWANインターフェイスにアクセスできなくなります。
 
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients.png){class="glboxshadow"}
 
 
-Blacklist: Devices with MAC addresses on the prohibited list are not allowed to connect to this router. 
+ブラックリスト: 禁止リストの MAC アドレスを持つデバイスは、このルーターに接続できません。
 
-Whitelist: Only devices with specific MAC addresses are allowed to connect, suitable for IoT devices and enterprise network management.
+ホワイトリスト: 特定のMACアドレスを持つデバイスのみが接続を許可されるため、IoTデバイスや企業のネットワーク管理に適している。
 
 
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_whitelist.png){class="glboxshadow"}
 
 
-Starting from firmware 4.4.x, you can upload a block list in excel form or input Mac addressed manually to creat a **Block List**.
+ファームウェア 4.4.x 以降、ブロック リストを Excel 形式でアップロードするか、Mac アドレスを手動で入力して **ブロック リスト** を作成できます。
 
 ![blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist.jpg){class="glboxshadow"}
 
-You can either import a list from a CSV file at **(1)** or input the Mac Address one by one at **(2)**.
+**(1)** で CSV ファイルからリストをインポートするか、**(2)** で Mac アドレスを 1 つずつ入力することができます。
 
 ![inputblock](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/inputblock.jpg){class="glboxshadow gl-80-desktop"}
 
@@ -51,51 +51,51 @@ You can either import a list from a CSV file at **(1)** or input the Mac Address
 
 ![applycsv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/applycsv.jpg){class="glboxshadow"}
 
-**Note**: Blocking client is based on the MAC address of the device, so if the blocked device use a different MAC address next time, it can still connect to router.
+**注意**: クライアントのブロックは、デバイスのMACアドレスに基づいているため、ブロックされたデバイスが次回別のMACアドレスを使用しても、ルータに接続することができます。
 
-## Speed
+## スピード
 
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_speed.png){class="glboxshadow"}
 
-The speed here is the average speed over 3 minutes.
+ここでのスピードは3分間の平均スピードで表示さ れます。
 
-- Open the current page for 10 seconds, the average speed of the last 10 seconds is displayed.
-- Open the current page for 30 seconds, the average speed of the last 30 seconds is displayed.
-- Open the current page for 60 seconds, the average speed of the last 60 seconds is displayed.
-- Open current page for 3 minutes, the average rate of the last 3 minutes is displayed.
-- Open current page for 10 minutes, the average rate of the last 3 minutes is displayed.
+- 現在のページを10秒間開くと、過去10秒間の平均スピードが表示されます。
+- 現在のページを30秒間開くと、過去30秒間の平均スピードが表示されます。
+- 現在のページを60秒間開くと、過去60秒間の平均スピードが表示されます。
+- 現在のページを3分間開くと、過去3分間の平均レートが表示されます。
+- 現在のページを10分間開くと、過去10分間の平均レートが表示されます。
 
-## Sort
+## ソート
 
-The current sort type is displayed in the upper right corner, and you can switch to other sort types.
+現在のソート順序のタイプは右上に表示され、他のソート順序のタイプに切り替えることもできます。
 
-The default sort type: 
+デフォルトのソート順序のタイプ：
 
-- The self device is alway s on top
-- In online client sector, the later the device is connected, the higher it is on top.
+- 自分のデバイスが常に一番上に表示されます。
+- オンライン クライアント セクターでは、デバイスの接続が遅くなるほど、上位に表示されます。
 
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_sort.png){class="glboxshadow"}
 
-## Limiting Speed
+## スピードの制限
 
-If you want to limit the speed of a device, please click the three docs icon, in the menu that pops up, click **Limit Speed** item.
+デバイスの速度を制限したい場合は、アクション 下のアイコンをクリックし、ポップアップするメニューで、**スピード制限**項目をクリックしてください。
 
 ![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_three_dots.png){class="glboxshadow"}
 
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
-If a client has applied speed limitation, its up arrow and down arrow of speed will turn yellow.
+クライアントが速度制限を適用している場合、速度の上矢印と下矢印が黄色に変わります。
 
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed.png){class="glboxshadow"}
 
-Click **Action** to disable limiting.
+制限を無効にするには、**アクション**をクリックします。
 
-## Remove Offline Clients
+## オフラインクライアントの削除
 
-In the offline clients sector, you can **Delete All** offline clients. If you want to remove specific client, please click the three dots icon, in the menu that pops up, click **Remove Client** item.
+オフラインクライアントセクターでは、オフラインクライアントを**すべて削除**することができます。特定のクライアントを削除したい場合は、アクション 下のアイコンをクリックし、ポップアップするメニューで、**クライアントを削除**項目をクリックしてください。
 
 ![remove clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_client.png){class="glboxshadow"}
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

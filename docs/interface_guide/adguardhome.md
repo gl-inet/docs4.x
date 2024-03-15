@@ -1,10 +1,10 @@
 # AdGuard Home
 
-AdGuard Home is a network-wide software for blocking ads & tracking. Click **Start** button to continue.
+AdGuard Home は、広告とトラッキング（追跡）をブロックするネットワーク全体用ソフトウェアです。  **スタート** ボタンをクリックして続行します。
 
-## Supported models
+## 対応モデル
 
-| Router Model                   | Support   |
+| ルーターモデル                   | サポート   |
 | :----------------------------- | :-------: |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE3000 (Puli AX)            | √         |
@@ -26,14 +26,14 @@ AdGuard Home is a network-wide software for blocking ads & tracking. Click **Sta
 
 ![adguard home init](https://static.gl-inet.com/docs/router/en/4/tutorials/adguardhome/adguardhome_init.png){class="glboxshadow"}
 
-When it starts, click **Setting Page** for advanced configuration.
+スタートしたら、 **設定ページ** をクリックして詳細設定を行います。
 
 ![adguard home started](https://static.gl-inet.com/docs/router/en/4/tutorials/adguardhome/adguardhome_started.png){class="glboxshadow"}
 
-It will go to the AdGuard Home's own settings page. If you have any questions, please visit [Adguard Home Support Center](https://adguard.com/en/support.html){target="_blank"} for help.
+AdGuard Home独自の設定ページに移動します。ご不明な点がございましたら、[Adguard Homeサポートセンター](https://adguard.com/en/support.html){target="_blank"} までお問い合わせください。
 
 ![adguard home settings](https://static.gl-inet.com/docs/router/en/4/tutorials/adguardhome/adguardhome_settings.png){class="glboxshadow"}
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

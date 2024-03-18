@@ -53,7 +53,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         ![glinet lan advanced](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/lan_advanced.png){class="glboxshadow"}
 
-        Fill in the DHCP Gateway as the IP Address in step 2, etc. `192.168.116.23`, then click **Apply**.
+        Fill in the DHCP Gateway as the IP Address in step 2, etc. `192.168.1.23`, then click **Apply**.
 
         ![glinet lan, dhcp gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/tips_dhcp_gateway.png){class="glboxshadow"}
 

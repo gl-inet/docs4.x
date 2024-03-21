@@ -6,7 +6,7 @@ The Clients page displays information about connected devices, including device 
 
 ## Modify Client Name and Type
 
-If you want to modify name and type of a device, please click the three docs icon, in the menu that pops up, click **Modify** item.
+If you want to modify name and type of a device, please click the three dots icon in the Action column, in the menu that pops up, click **Modify** item.
 
 ![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_three_dots.png){class="glboxshadow"}
 
@@ -78,7 +78,7 @@ The default sort type:
 
 ## Limiting Speed
 
-If you want to limit the speed of a device, please click the three docs icon, in the menu that pops up, click **Limit Speed** item.
+If you want to limit the speed of a device, please click the three dots icon in the Action column, in the menu that pops up, click **Limit Speed** item.
 
 ![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_three_dots.png){class="glboxshadow"}
 
@@ -88,11 +88,11 @@ If a client has applied speed limitation, its up arrow and down arrow of speed w
 
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed.png){class="glboxshadow"}
 
-Click **Action** to disable limiting.
+Click the three dots icon in the Action column to disable limiting.
 
 ## Remove Offline Clients
 
-In the offline clients sector, you can **Delete All** offline clients. If you want to remove specific client, please click the three dots icon, in the menu that pops up, click **Remove Client** item.
+In the offline clients sector, you can **Delete All** offline clients. If you want to remove specific client, please click the three dots icon in the action column, in the menu that pops up, click **Remove Client** item.
 
 ![remove clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_client.png){class="glboxshadow"}
 

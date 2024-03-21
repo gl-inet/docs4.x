@@ -1,66 +1,66 @@
-# FIREWALL
+# ファイアウォール
 
-On the left side of web Admin Panel -> FIREWALL
+ウェブ管理パネルの左側 ->ファイアーウォール
 
-In FIREWALL page, you can set up firewall rules like **Port Forwarding**, **Open Ports on Router** and **DMZ**.
+ファイアーウォールのページでは、**ポートフォワーディング**、**ルーターのオープンポート**、**DMZ**などのファイアーウォールルールを設定することができます。
 
 ---
 
-## Port Forwards
+## ポート転送
 
-Port Forwarding lets remote computers to connect to a local computer or server behind the firewall in the LAN network (such as web servers, FTP servers, etc).
+ポートフォワーディングは、リモートコンピュータがLANネットワーク内のファイアウォールの内側にあるローカルコンピュータやサーバー（ウェブサーバーやFTPサーバーなど）に接続できるようにします。
 
-To set up port forwarding, on the **Port Forwards** tab click **Add**.
+ポートフォワーディングを設定するには、**ポート転送**タブで**追加**をクリックします。
 
 ![firewall page](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/firewall.png){class="glboxshadow"}
 
-It will pop up **Add New Port Forward Rule** dialog.
+**新しいポート転送ルールを追加する**ダイアログがポップアップ表示されます。
 
 ![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
 
-**Name:** The name of the rule.
+**名称:** ルールの名前。
 
-**Protocol:** The protocol used, you can choose TCP, UDP, or both TCP and UDP.
+**プロトコル:** 使用するプロトコルは、TCP、UDP、またはTCPとUDPの両方を選択できます。
 
-**External Zone:** The options for external zone are `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**外部ゾーン:** 外部ゾーンのオプションは `WAN`、`wgclient`、`wgserver`、`ovpnclient`、`ovpnserver` です。
 
-**External Port:** The numbers of external ports. You can enter a specific port number here.
+**外部ポート:** 外部ポートの番号。ここに特定のポート番号を入力できます。
 
-**Internal Zone:** The options for external zone are `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**内部ゾーン:** 内部ゾーンのオプションは `WAN`、`wgclient`、`wgserver`、`ovpnclient`、`ovpnserver` です。
 
-**Internal IP:** The IP address assigned by the router to the device which needs to be accessed remotely.
+**内部IP:** リモートアクセスが必要なデバイスにルーターから割り当てられたIPアドレス。
 
-**Internal Port:** The internal port number of the device. You can enter a specific port number. Leave it blank if it is same as the external port.
+**内部ポート:** デバイスの内部ポート番号。特定のポート番号を入力できます。外部ポートと同じ場合は空欄にしてください。
 
-**Enable:** Enable of disable of the rule.
+**有効にする:** ルールの有効/無効を設定する。
 
 ---
 
-## Open Ports on Router
+## ルーターのオープンポート
 
-The router's services, such as web and FTP, requires their respective ports to be opened on the router in order to be publicly reachable.
+Web や FTP などのルーターのサービスでは、パブリックにアクセスできるようにするために、ルーター上でそれぞれのポートが開かれている必要があります。
 
-To open a port, click **Add**.
+ポートを開くには、**追加**をクリックします。
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/open_ports_on_router.png){class="glboxshadow"}
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/add_new_open_port.png){class="glboxshadow"}
 
-**Name:** The name of the rule which can be specified by the user.
+**名称:** ユーザーが指定できるルール名。
 
-**Protocol:** The protocol used, you can choose TCP, UDP, or both TCP and UDP.
+**プロトコル:** 使用するプロトコルは、TCP、UDP、またはTCPとUDPの両方を選択できます。
 
-**Port:** The port number that you want to open.
+**ポート:** 開きたいポート番号。
 
-**Enable:** Enable of disable of the rule.
+**有効にする:** ルールを有効または無効にします。
 
 ---
 
 ## DMZ
 
-DMZ lets you to expose one computer to the Internet, so all inbound packets will be redirected to this computer.
+DMZでは、1台のコンピュータをインターネットに公開することができ、すべての受信パケットはこのコンピュータにリダイレクトされます。
 
-Toggle on **Enable DMZ**. Select the internal IP address of your device which is going to receive all the inbound packets.
+**DMZを有効にする**をトグルする。すべてのインバウンドパケットを受信するデバイスの内部IPアドレスを選択します。
 
 ![Port Forwards](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/dmz.png){class="glboxshadow"}
 

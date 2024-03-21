@@ -1,100 +1,100 @@
-# Dynamic DNS
+# ダイナミックDNS
 
-Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a domain name to the dynamic IP address of a network device.
+ダイナミックドメインネームサービス（ダイナミックDNSまたはDDNS）は、ドメイン名をネットワークデバイスの動的IPアドレスにマッピングするために使用されるサービスです。
 
-On the left side of web Admin Panel -> APPLICATIONS -> Dynamic DNS
+ウェブ管理画面の左側 -> アプリケーション -> ダイナミックDNS
 
 ![ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ddns.png){class="glboxshadow"}
 
-## Enable DDNS
+## DDNSを有効にする
 
-Toggle on **Enabled DDNS**, option in Terms of Services & Privacy Policy, then click **Apply** button. Generally it take several minutes to take effect.
+利用規約とプライバシーポリシーの**DDNSを有効にする**トグルをオンにして、**適用**ボタンをクリックします。通常、有効になるまで数分かかります。
 
-DDNS update frequency is once every 10 minutes.
+DDNS の更新頻度は 10 分に 1 回です。
 
 ![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/enable_ddns.png){class="glboxshadow"}
 
-**Note**: If you using DDNS and VPN Client at the same time, please make sure to enable **Services From GL.iNet Doesn't Use VPN** in [Global Option of VPN Client](vpn_dashboard.md#global-options-of-vpn-client).
+**注意**: DDNS と VPN クライアントを同時に使用する場合は、 [VPN クライアントのグローバル オプション](vpn_dashboard.md#global-options-of-vpn-client)で**GL.iNetからのサービスはVPNを使用しません**を有効にしてください。
 
-## Check if DDNS is in effect
+## DDNS が有効かどうかを確認する
 
-=== "Using the DDNS Test tool"
+=== "DDNSテストツールを使用する"
 
-    Click the **DDNS Test**
+    **DDNS Test**をクリックしてください。
 
     ![ddns test](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/click_ddns_test.png){class="glboxshadow"}
 
-    If it says **Your DDNS is resolved as x.x.x.x** as show below, it means the DDNS is worked. In other words, this **Host Name** has maped to the final exit IP of the router for Internet access.
+    以下のように、**あなたのDDNSはx.x.x.xとして解決されました**と表示された場合、DDNSが機能することを示しています。言い換えれば、この**ホスト名**は、インターネットアクセスのためのルーターの最終的な出口IPにマッピングされています。
 
     ![ddns works](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ddns_test_resolved.png){class="glboxshadow"}
 
-=== "Or check it manually"
+=== "または手動で確認する"
 
-    Check the two IP address below to see if they are the same, if yes, the DDNS is in effect, otherwise not.
+    以下の 2 つの IP アドレスが同じかどうかを確認し、同じであれば DDNS が有効であり、そうでなければ無効です。
 
-    * Use `nslookup` command as show below to obtain the mapping between domain name and IP address. You need to change `zw72cd7.glddns.com` to your Host Name. `8.8.8.8` is Google DNS, you can change to other DNS.
+    * 以下に示すように `nslookup` コマンドを使用して、ドメイン名と IP アドレス間のマッピングを取得します。 `zw72cd7.glddns.com` をホスト名に変更する必要があります。 `8.8.8.8` はGoogle DNSですが、他のDNSに変更することもできます。
 
         `nslookup zw72cd7.glddns.com 8.8.8.8`
 
         ![nslookup](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/nslookup.png){class="glboxshadow"}
 
-        The output above means the Host Name has maped to an IP address.
+        上記の出力は、ホスト名が IP アドレスにマップされたことを意味します。
 
-    * Use phone/computer that connected to the router, search **my ip address** on Google, or access website like [https://whatismyipaddress.com/](https://whatismyipaddress.com/){target="_blank"}
+    * ルーターに接続されたスマホや PC を使用して、Google で **my ip address** を検索するか、[https://whatismyipaddress.com/](https://whatismyipaddress.com/){target="_blank"}のようなサイトにアクセスします。
 
-## HTTP Remote Access
+## HTTPリモートアクセス
 
-This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
+この機能にはパブリック IP アドレスが必要です。 インターネット プロバイダー サービスがパブリック IP アドレスを割り当てているかどうかを確認するには[こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)をご確認ください。
 
-If your router is behind NAT, you may need to set up port forwarding in higher level router. It use port **80**.
+ルーターがNATの後ろにある場合、上位のルーターでポートフォワーディングを設定する必要があるかもしれません。ポート番号**80**を使用します。
 
 ![HTTP-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/http_remote_access.png){class="glboxshadow"}
 
-Follow the steps above, to enable HTTP Remote Access. 
+上記の手順に従って、HTTPリモートアクセスを有効にします。
 
-***HTTP is not encrypted, use at your own risk.***
+***HTTPは暗号化されていませんので、ご自身の責任においてご利用ください。***
 
-After you enable HTTP Remote Access, you can access Admin Panel anywhere by your DDNS Host Name of **http**, e.g. `http://xxxxxxx.glddns.com`. If you use port forwarding, you should be access like `http://xxxxxxx.glddns.com:YourExternalPort`.
+HTTPリモートアクセスを有効にすると、DDNSホスト名の**http**でどこからでも管理パネルにアクセスできます。 e.g. `http://xxxxxxx.glddns.com`. ポートフォワーディングを使用する場合は、 `http://xxxxxxx.glddns.com:YourExternalPort`のようにアクセスする必要があります。
 
-## HTTPS Remote Access
+## HTTPS リモート アクセス
 
-This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
+この機能にはパブリックIPアドレスが必要です。 インターネットプロバイダーからパブリックIPアドレスが割り当てられているかどうかを確認するには、 [こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)を確認してください。
 
-If your router is behind NAT, you may need to set up port forwarding in higher level router. It use port **443**.
+ルーターがNATの後ろにある場合、上位のルーターでポートフォワーディングを設定する必要があるかもしれません。 **443**ポートを使用します。
 
 ![HTTPS-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access.png){class="glboxshadow"}
 
-After you enable HTTPS Remote Access, you can access Admin Panel anywhere by your DDNS Host Name of **https**, e.g. `https://xxxxxxx.glddns.com`. If you use port forwarding, you should be access like `https://xxxxxxx.glddns.com:YourExternalPort`.
+HTTPS リモート アクセスを有効にすると、DDNS ホスト名 **https** を使用してどこからでも管理パネルにアクセスできるようになります。e.g. `https://xxxxxxx.glddns.com`.ポートフォワーディングを使用する場合は、 `https://xxxxxxx.glddns.com:YourExternalPort`のようにアクセスする必要があります。
 
-This function use self-signed certificates, so the browers will indicate that **Your connection is not private**. I will show you how to use it anyway on Chrome Android, other browers are the similar process. I will turn off the WiFi on my phone and only use 4G to access the Internet.
+この機能は自己署名証明書を使用するため、ブラウザには **接続がプライベートではない**ことが表示されます。Android Chrome で使用する方法を説明します。他のブラウザでも同様のプロセスです。 スマホのWiFi をオフにし、インターネットへのアクセスには 4G のみを使用します。
 
-Open chrome and type the URL in the address bar, I'll use `https://zw72cd7.glddns.com:8001` as an example. Click **Advanced** at the bottom to continue.
+Chromeを開き、アドレスバーにURLを入力します。例として `https://zw72cd7.glddns.com:8001`を使用します。下にある**Advanced**をクリックしてください。
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_1.png){class="glboxshadow" width="400"}
 
-Click **Processed to xxxxxxx.glddns.com (unsafe)** to continue.
+ **xxxxxx.glddns.com に処理されました (安全ではありません)** をクリックして続行します。
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_2.png){class="glboxshadow" width="400"}
 
-Then, it will access the web Admin Panel.
+次に、Web 管理パネルにアクセスします。
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_3.png){class="glboxshadow" width="400"}
 
-## SSH Remote Access
+## SSHリモートアクセス
 
-This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
+この機能にはパブリックIPアドレスが必要です。 インターネットプロバイダーからパブリックIPアドレスが割り当てられているかどうかを確認するには、 [こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)を確認してください。
 
-If your router is behind NAT, you may need to set up port forwarding in higher level router. It use port **22**.
+ルーターがNATの後ろにある場合、上位のルーターでポートフォワーディングを設定する必要があるかもしれません。 **22**ポートを使用します。
 
 ![SSH-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ssh_remote_access.png){class="glboxshadow"}
 
-Follow the steps above, to enable SSH Remote Access, then you can ssh to your router anywhere. 
+上記の手順に従って SSH リモート アクセスを有効にします。そうすれば、どこでもルーターにsshできるようになります。
 
-Your SSH command should like below.
+SSH コマンドは以下のようになります。
 
 `ssh root@xxxxxxx.glddns.com`
 
-or 
+または
 
 `ssh root@xxxxxxx.glddns.com:YourExternalPort`
 

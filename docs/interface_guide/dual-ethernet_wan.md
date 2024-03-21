@@ -1,16 +1,16 @@
-# Dual-Ethernet WAN
+# デュアルイーサネットWAN
 
-## Supported models
+## 対応モデル
 
-| Router Model                   | Support   |
+| ルーターモデル                  | 対応      |
 | :----------------------------- | :-------: |
 | GL-MT6000 (Flint 2)            | √         |
 | GL-XE3000 (Puli AX)            | √         |
 
-## Setup
+## セットアップ
 
-You can use the function **change to WAN** at the internet tab to change one more LAN port to WAN.
+インターネットタブで**WANに変更する**機能を使用すると、もう1つのLANポートをWANに変更することができます。
 
 ![dual ethernet wan](https://static.gl-inet.com/docs/router/en/4/tutorials/dual-ethernet_wan/dual_ethernet.jpg){class="glboxshadow"}
 
-After you enable Dual-Ethernet WAN, you can configure multi-wan functions [here](../interface_guide/multi-wan.md).
+デュアル イーサネット WAN を有効にすると、 [こちら](../interface_guide/multi-wan.md)でマルチ WAN 機能を設定できます。

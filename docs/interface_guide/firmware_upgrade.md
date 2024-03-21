@@ -1,35 +1,35 @@
-# Firmware Upgrade
+# ファームウェアのアップグレード
 
-On the left side of web Admin Panel -> SYSTEM -> Upgrade
+ウェブ管理パネルの左側 ->システム -> アップグレード
 
-## Online Upgrade
+## オンライン・アップグレード
 
-You can find the current firmware version here. If your router is connected to the Internet, it will check for the newer firmware version available for download.
+現在のファームウェアバージョンはここで確認できます。ルーターがインターネットに接続されている場合、ダウンロード可能な新しいファームウェアバージョンを確認します。
 
 ![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
-**Preview Plan**
+**プレビュープラン**
 
-Enable the switch to get latest unstable updates, patches, improvements, and enhancements as soon as they're available. Set it once and it stays on (you always have the option to turn it off later).
+このスイッチを有効にすると、最新の不安定なアップデート、パッチ、改善、改良が利用可能になり次第、すぐに入手できます。一度設定するとオンのままになります (後でオフにすることもできます)。
 
-Check out the latest features at [What's New?](https://www.gl-inet.com/whats-new/)
+最新機能は[新着情報](https://www.gl-inet.com/whats-new/)でチェックできます。
 
-Please contact us if you encounter any issues. [support@glient.biz](mailto:support@glient.biz)
+何か問題がありましたらご連絡ください。[support@glient.biz](mailto:support@glient.biz)
 
 
-## Local Upgrade
+## ローカル・アップグレード
 
-Select a firmware file or drag and drop to upgrade. You can download the firmware from our [download site](https://dl.gl-inet.com){target="_blank"}.
+ファームウェアファイルを選択するか、ドラッグ＆ドロップしてアップグレードします。 [ダウンロードサイト](https://dl.gl-inet.com){target="_blank"}からファームウェアをダウンロードできます。
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 
-After uploaded, it will verify the firmware.
+アップロード後、ファームウェアを検証します。
 
-**Keep Setting:** Current settings will be retained. User installed packages will be prompted to re-install after upgrade.
+**設定を保持:** 現在の設定が保持されます。 ユーザーがインストールしたパッケージは、アップグレード後に再インストールするように求められます。
 
-Click **Install** to upgrade. 
+**インストール**をクリックしてアップグレードします。
 
-**Note:** Please keep the power on during the upgrade.
+**注意:** アップグレード中は電源を入れたままにしてください。
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
 

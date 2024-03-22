@@ -13,7 +13,7 @@ For users who do not want to replace their main router, you can use this mode to
 * Use VPN client
 * It is recommended to use a more powerful router with large memory (e.g. GL-MT2500) and install other traffic forwarding and control tools yourself.
 
-## Network Typology
+## Network Topology
 
 ![drop-in gateway mode typology](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/drop-in_gateway_mode_topology.svg){class="glboxshadow gl-60-desktop"}
 

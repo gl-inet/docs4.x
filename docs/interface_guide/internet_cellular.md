@@ -1,56 +1,56 @@
-# Connect to the Internet via cellular
+# セルラー経由でインターネットに接続
 
-The router can be used to access the Internet through cellular.
+ルーターは、セルラー経由でインターネットにアクセスすることができます。
 
-There are three cases:
+3つのケースがあります：
 
-1. Some models have a built-in 3G/4G model with single SIM card, like GL-XE300(Puli). Please refer to [Setup for single SIM models](#setup-for-single-sim-models).
+1. GL-XE300(Puli) のように、一部のモデルには1 枚の SIM カードを備えた 3G/4G モデルが内蔵されています。[シングルSIMモデルの設定方法](#setup-for-single-sim-models)をご覧ください。
 
-2. Some models have a usb port and can be plugged into a usb 3G/4G modem, like GL-AXT1800(Slate AX). Please refer to [Setup for single SIM models](#setup-for-single-sim-models).
+2. 一部のモデルにはUSB ポートがあり、GL-AXT1800(Slate AX) などは USB 3G/4G モデムに接続できます。 [シングルSIMモデルの設定方法](#setup-for-single-sim-models)をご覧ください。
 
-3. Some models have a built-in modem and support dual SIM cards, like GL-X3000(Spitz AX). Its interface may be slightly different. Please refer to [Setup for Dual-SIM models](#setup-for-dual-sim-models).
+3. GL-X3000(Spitz AX)のようにモデムを内蔵し、デュアルSIMカードをサポートするモデルもあります。インターフェイスが若干異なる場合があります。 [デュアルSIMモデルの設定方法](#setup-for-dual-sim-models)をご覧ください。
 
-**Note:** Some SIM cards may need to be activated the first time you use them, so please activate them in your phone before using them in your router.
+**注意:** 一部の SIM カードは初めて使用するときにアクティベートする必要がある場合があるため、ルーターで使用する前にスマートフォンでアクティベートしてください。
 
-## Setup for single SIM models
+## シングルSIMモデルの設定
 
-The following configuration steps are for built-in modem or external USB modem with only single SIM card. Here we use the GL-AXT1800 (Slate AX) with external USB modem as an example.
+以下の設定手順は、一枚のみのSIMカードで内蔵モデムまたは外付けUSBモデムを使用する場合です。ここでは、GL-AXT1800（Slate AX）と外付けUSBモデムを例に説明します。
 
-On the left side of web Admin Panel -> INTERNET, Cellular sector.
+管理画面の左側 → インターネット→セルラー
 
-1. We recommend to turn off the router first, insert your SIM card into the USB modem then plug the USB modem into the USB port of the router, and then turn it on again. If you insert a usb modem at power on, the page may be no change, please refresh the page.
+1. まずルーターの電源を切り、SIMカードをUSBモデムに挿入してから、USBモデムをルーターのUSBポートに接続し、再度電源を入れるようにしてください。電源を入れた状態でUSBモデムを差し込むと、ページが変わらない可能性がありますので、ページをリフレッシュしてください。
 
-2. Please access the web Admin Panel -> INTERNET, Cellular sector. The first time, it may not connect automatically, but it has read the name of your carrier in the upper left corner and the IMEI, then please click **Auto Setup**.
+2. 管理パネル->インターネット、セルラーのセクションにアクセスしてください。初回は自動的に接続されないかもしれませんが、左上のキャリア名とIMEIを読み込んだ後、**自動セットアップ**をクリックしてください。
 
-    Please ignore the warning of *Incompatible Modem*
+    *互換性のないモデム* の警告は無視してください。
 
     ![usb modem auto setup](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/usb_modem_auto_setup.png){class="glboxshadow"}
 
-3. Connecting.
+3. 接続
 
-    **Note:** Some SIM cards may have special usage restrictions, such as the need to use a special APN. If your SIM card can't be registered, please consult your network operator if it has special restrictions.
+    **注意:** 一部の SIM カードには、特別な APN を使用する必要があるなど、特別な使用制限が設けられている場合があります。 SIM カードが登録できない場合、特別な制限がある場合は通信事業者にお問い合わせください。
 
     ![usb modem connecting](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/usb_modem_connecting.png){class="glboxshadow"}
 
-4. After a while, it will be connected. Otherwise, try [Manual Setup](#manual-setup).
+4. しばらくすると接続されます。それ以外の場合は、[手動セットアップ](#manual-setup)をお試しください。
 
-    When the usb modem is plugged into the router the second time it is powered on, it is usually automatically recognized and a connection is established. It may not get the information of signal, modem name and IMEI.
+    usbモデムをルーターに接続して2回目に電源を入れると、通常は自動的に認識され、接続が確立されます。信号、モデム名、IMEIの情報は取得できない場合があります。
 
     ![usb modem connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/usb_modem_connected.png){class="glboxshadow"}
 
 ---
 
-### Manual Setup
+### 手動セットアップ
 
-Sometimes, **Auto Setup** may not work, you can try **Manual Setup**.
+**自動セットアップ**が機能しない場合があります。**手動セットアップ**を試してください。
 
 ![4g modem manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/cellular_settings.png){class="glboxshadow"}
 
 ---
 
-### Compatible Modems
+### 互換性のあるモデム
 
-Here is a list of supported modems that we had tested before.
+以前にテストした、サポートされているモデムのリストを次に示します。
 
 | Model                                  | 3G/4G | Tested | Tested by       | Comments* |
 | -------------------------------------- | ----- | ------ | --------------- | --------- |
@@ -69,196 +69,196 @@ Here is a list of supported modems that we had tested before.
 | Novatel USB551L (Verizon)              | 4G    | Yes    | GL.iNet/steven  | QMI       |
 | Verizon U620L (Verizon)                | 4G    | Yes    |                 | Host-less |
 
-*QMI: This modem supports QMI mode. Please choose **/dev/cdc-wdm0** in the **Device** list.
+*QMI: このモデムは QMI モードをサポートします。 **デバイス** リストで **/dev/cdc-wdm0** を選択してください。
 
-*Host-less: This modem supports tethering mode, please set up by using Tethering but not 3G/4G modem.
+*Host-less: このモデムはテザリング モードをサポートしています。3G/4G モデムではなく、テザリングを使用してセットアップしてください。
 
-You can also search on the [forum](https://forum.gl-inet.com){target="_blank"} or create a post for asking.
+また、 [forum](https://forum.gl-inet.com){target="_blank"} で検索するか、質問を投稿することもできます。
 
-## Setup for Dual-SIM models
+## デュアルSIMモデルのセットアップ
 
-Some models have a built-in modem and support dual SIM cards, and the interface may be slightly different compare to one SIM card model. 
+一部のモデルはモデムを内蔵しており、デュアル SIM カードをサポートしており、インターフェイスは 1 つの SIM カード モデルと比較して若干異なる場合があります。
 
-Here take the GL-X3000 (Spitz AX) as an example. It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
+ここではGL-X3000（スピッツAX）を例に挙げます。 「デュアル SIM、シングル スタンバイ」をサポートしています。つまり、インターネット アクセス用に 2 枚の SIM カードを保持できますが、一度にアクティブにできるのは 1 枚の SIM カードだけであり、ユーザーはそれらを切り替えることができます。
 
-We recommend to turn off the router first, insert your SIM card into the slot, and then turn it on again.
+まずルーターの電源を切り、SIMカードをスロットに挿入してから電源を入れ直すようにしてください。
 
-On the left side of web Admin Panel -> INTERNET, Cellular sector.
+管理画面の左側 →インターネット→セルラーセクター
 
-When no SIM card is detected.
+SIMカードが検出されない場合
 
 ![dual-sim, no sim](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/no_sim.png){class="glboxshadow"}
 
-When a SIM card is inserted.
+SIMカードが挿入されている場合
 
 ![dual-sim, 5g sim](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/5g_sim.png){class="glboxshadow"}
 
-### SIM card slot settings
+### SIMカードスロットの設定
 
-Click current sim card.
+現在のSIMカードをクリックします。
 
 ![dual-sim, current sim card](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/current_sim_card.png){class="glboxshadow"}
 
-It will open the SIM card slot settings dialog box.
+SIMカードスロットの設定ダイアログボックスが表示されます。
 
 ![dual-sim, sim card slot settings](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/sim_card_slot_settings.png){class="glboxshadow"}
 
-If two SIM cards are inserted, you can enable Auto Switch.
+SIM カードが 2 枚挿入されている場合は、自動切り替えを有効にすることができます。
 
 ![dual-sim, auto switch](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/auto_switch.png){class="glboxshadow"}
 
-**Note**: The Auto Switch feature does not immediately switch to another SIM card. On one hand, it takes time to confirm that the current SIM card cannot access the internet, and only after confirming this will it switch. On the other hand, the other SIM card is not in standby mode, so it also takes some time to activate it.
+**注意**: 自動切り替え機能は、別の SIM カードにすぐには切り替わりません。 一方で、現在のSIMカードがインターネットにアクセスできないことを確認するのに時間がかかり、それを確認して初めて切り替えられます。もう一方の SIM カードはスタンバイ状態ではないため、アクティベートするのにも時間がかかります。
 
-* Auto Switch
+* オートスイッチ
 
     The Internet status is detected in the same way as the settings in the Multi-WAN page.
 
-* Failover Interval
+* フェイルオーバー間隔
 
-    If Internet connection is still not available after failover, the device will switch back to the preferred SIM slot and will only retry failover after this interval.
+    フェイルオーバー後にインターネット接続がまだ利用可能でない場合、デバイスは優先SIMスロットに切り替わり、この間隔の後にのみフェイルオーバーを再試行します。
 
-    This option applies when both the preferred SIM card and the backup SIM card have no signal. If the preferred SIM card also has no signal, the device will switch to the backup SIM card and so on until one of the SIM cards has a signal.
+    このオプションは、優先 SIM カードとバックアップ SIM カードの両方に信号がない場合に適用されます。 優先 SIM カードにも信号がない場合、デバイスはバックアップ SIM カードに切り替え、SIM カードの 1 つが信号を受信できるまで同様に切り替えます。
 
     ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/sim%20_card%20slot%20settings_failover%20interval.png){class="glboxshadow"}
 
 
-* Checking Preferred Slot Status Scheduled
+* 優先スロットのスケジュール済みステータスの確認
 
-    If this option is enabled, the device will try to switch back to the preferred SIM slot at the specified time. So that you can switch back to using the preferred SIM slot when its internet connection is available.
+    このオプションを有効にすると、デバイスは指定した時間に優先SIMスロットに切り替えようとします。これにより、インターネット接続が利用可能になったときに、優先SIMスロットの使用に切り替えることができます。
 
-    When this feature is enabled, the device will attempt to switch to the preferred SIM at this set time each day, for example, this feature is intended to prevent the backup SIM from using too much data, and if the preferred SIM still has no signal, it will fail to switch to the backup SIM.
+    この機能を有効にすると、デバイスは毎日この設定時間に優先 SIM への切り替えを試みます。たとえば、この機能はバックアップ SIM がデータを過剰に使用するのを防ぐことを目的としています。 優先 SIM にまだ信号がない場合は、バックアップ SIM への切り替えに失敗します。
 
     ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/sim%20_card%20slot%20settings_checking%20preferred%20slot%20status%20scheduled.png){class="glboxshadow"}
 
-### Traffic Statistics
+### トラフィック統計
 
 ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/traffic_statistics_option.png){class="glboxshadow gl-90-desktop"}
 
 ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/traffic_statistics.png){class="glboxshadow gl-90-desktop"}
 
-### Manual Setup
+### 手動セットアップ
 
-Click **Manual Setup** button, it will pop up the Cellular Settings dialog.
+**手動セットアップ**ボタンをクリックすると、セルラー設定ダイアログがポップアップします。
 
 ![cellular settings](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/dual_sim/manual_setup/cellular_settings.png){class="glboxshadow gl-90-desktop"}
 
-You can view or modify the cellular settings of the current SIM card. It also stores some pre-configured settings, and you can manually add configurations to the "Saved Settings" as well.
+現在の SIM カードのセルラー設定を表示または変更できます。また、事前に行った設定も保存され、手動で「保存された設定」に追加することもできます。
 
 ## SMS
 
-Please refer to the [SMS tutorial](sms.md).
+ [SMSチュートリアル](sms.md)をご参照ください。
 
-## SMS Forwarding
+## SMSフォワーディング
 
-Please refer to the [SMS Forwarding tutorial](../tutorials/sms_forwarding.md).
+[SMS フォワーディング・チュートリアル](../tutorials/sms_forwarding.md)をご参照ください。
 
-## Modem Management
+## モデム管理
 
-Click the button to go to modem management page.
+ボタンをクリックするとモデム管理ページに移動します。
 
 ![modem management button](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/modem_management_button.png){class="glboxshadow"}
 
-It includes information about the modem and AT commands.
+モデムとATコマンドに関する情報が含まれています。
 
 ![modem management](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/modem_management.png){class="glboxshadow"}
 
-Modem AT commands are instructions that are used to control modems.
+モデム AT コマンドは、モデムを制御するために使用される命令です。
 
-When the 'Shortcut' option is selected as 'Manual command', you can enter the command to be executed in the 'AT Command' field.
+「ショートカット」オプションが「手動コマンド」として選択されている場合、「AT コマンド」フィールドに実行するコマンドを入力できます。
 
-The following AT Commands have been pre-set.
+以下のATコマンドがあらかじめ設定されています。
 
-* Request IMEI
-* Request QCCID
-* Request IMSI
-* Check Signal Quality
-* Reset modem
-* Operator Names
-* Request SIM card status
+* リクエストIMEI
+* リクエストQCCID
+* リクエストIMSI
+* 信号品質のチェック
+* モデムのリセット
+* オペレーター名
+* SIMカードのステータスをリクエスト
 
-## Carrier profile
+## キャリアプロファイル
 
-You can save different profiles for the same or different carriers.
+同じキャリアまたは異なるキャリア用に異なるプロファイルを保存することができます。
 
-Click Manage profile
+プロファイル管理をクリックします
 
 ![manageprofile](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/carrier_profile/manage_profile.jpg){class="glboxshadow"}
 
-Add a new  profile or save the current profile
+新規プロファイルの追加または現在のプロファイルの保存
 
 ![addprofile](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/carrier_profile/add_profile.jpg){class="glboxshadow"}
 
-Create the carrier own profile base on your needs
+ニーズに合わせてキャリア独自のプロフィールを作成
 
 ![createprofile](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/carrier_profile/create_profile.jpg){class="glboxshadow"}
 
-You can select a saved profile next time
+保存したプロファイルは次回から選択できます
 
 ![selectprofile](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/carrier_profile/select_profile.jpg){class="glboxshadow"}
 
-Choose any profiles you needed
+必要なプロファイルを選択する
 
 ![chooseprofile](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
 
-## Signal Tower Lock
+## 信号塔のロック
 
-Click Signal Tower Lock.
+信号塔ロックをクリックします。
 
 ![signal_tower_lock](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/signal_tower_lock_1.jpg){class="glboxshadow"}
 
-Select an available signal tower and lock it.
+利用可能な信号塔を選択し、ロックします
 
 ![signal_tower_lock1](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/signal_tower_lock_2.jpg){class="glboxshadow"}
 
-The device may not be able to scan all towers when the Cellular interface is enabled.
+セルラーインターフェースを有効にすると、デバイスがすべてのタワーをスキャンできない場合があります。
 
 ![signal_tower_lock2](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/signal_tower_lock_3.jpg){class="glboxshadow"}
 
 
-If the locked tower does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.
+ロックされたタワーがセルラー設定のバンド・マスキングまたは APN パラメーターと一致しない場合、セルラー・イン ターフェースはインターネットに接続できません。
 
-Here you can display the status of the lock.
+ここで、ロックのステータスを表示できます。
 
 ![signal_tower_lock3](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/signal_tower_lock_4.jpg){class="glboxshadow"}
 
 
-## Historical Signal Record
+## 過去の信号記録
 
-You can select INTERNET on the left side of the GL-inet admin panel, scroll down to the Cellular section on the right side and click on the icon to bring up the pop-up window Historical Signal values
+GL-inet管理画面の左側で[インターネット]を選択し、右側のセルラーのセクションまでスクロールダウンし、アイコンをクリックしてポップアップ歴史信号値ウィンドウを表示することができます 
 
 ![historical_signal_record](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/historical_signal_record_1.jpg){class="glboxshadow"}
 
-Checking your router's signal strength can help you determine the quality of your Internet connection. If the quality of your internet connection is poor, you can try switching to get a better signal.
+ルーターの信号強度をチェックすることで、インターネット接続の品質を判断することができます。インターネット接続の品質が悪い場合は、より良い信号を得るためにスイッチングを試すことができます。
 
-You can view Cellular's signal strength history by selecting different time frames.
+異なる時間枠を選択することで、セルラーの電波強度履歴を表示できます。
 
 ![historical_signal_record1](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/historical_signal_record_2.jpg){class="glboxshadow"}
 
-## Band Masking
+## バンドマスキング
 
-You can check to the band signals by click **view more** in **cells info** and decide which band with stronger signal and which band with weaker signal. Then you can force your router just connect to bands you want or never connect to some bands you don't want. 
+**セル情報**の**詳細を見る**をクリックすると、バンド信号を確認できます。そうすれば、ルーターが必要な帯域にだけ接続したり、必要でない帯域には接続しないようにすることができます。
 
 ![cellinfo](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/band_masking/cell_info.jpg){class="glboxshadow"}
 
-Check **Block** or **Open** and select the below for bands you want to apply.
+**ブロック** または **オープン** にチェックを入れ、適用したいバンドについて以下から選択します。
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_cellular/band_masking/band_masking.jpg){class="glboxshadow"}
 
-## Warning
+## 警告
 
-When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
+インターネットにアクセスできない場合は、対応する警告が表示されます。インターネットにアクセスできるかどうかは、 [マルチWAN](multi-wan.md) のページをご覧ください。
 
-- Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
+- 警告： *インターフェースは接続されていますが、IPv4プロトコルでインターネットにアクセスできません。*
 
-    Solution: Please check if the sim card has internet access in a smart phone.
+    解決方法：SIMカードがスマートフォンでインターネットに接続できるかどうかご確認ください。
 
 ---
 
-Related Articles
+関連記事
 
-- [Internet page](internet.md)
-- [How to set the priority of each Internet access method?](multi-wan.md)
-- [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
+- [インターネットページ](internet.md)
+- [各インターネットアクセス方法の優先順位を設定するには？](multi-wan.md)
+- [複数のインターネット・アクセス方式を同時に使用する場合のロードバランスの設定方法は？](multi-wan.md)
 
 ---
 

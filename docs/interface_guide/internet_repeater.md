@@ -1,126 +1,126 @@
-# Connect to the Internet via an existing Wi-Fi by Repeater
+# リピータで既存のWi-Fiを経由してインターネットに接続する
 
-Using Repeater means connecting the router to another existing wireless network, e.g. when you are using free Wi-Fi in a hotel or cafe.
+リピーターの使用とは、ホテルやカフェで無料Wi-Fiを使用する場合など、既存の他のワイヤレスネットワークにルーターを接続することです。
 
-It works in WISP (Wireless Internet Service Provider) mode by default, which means that the router will create its own subnet and act as a firewall to protect you from the public network.
+デフォルトではWISP（ワイヤレス・インターネット・サービス・プロバイダー）モードで動作し、ルーターは独自のサブネットを作成し、パブリックネットワークから保護するファイアウォールとして機能します。
 
-On the left side of web Admin Panel -> INTERNET, Repeater sector.
+Web 管理パネルの左側 -> インターネット-> リピーター セクター
 
-## Basic steps
+## 基本的な手順
 
 ![repeater](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
 
-Click **Connect** in the image above.
+上の画像の**接続**をクリックします。
 
 ![repeater join wlan](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_wlan.png){class="glboxshadow"}
 
-Choose a SSID from the drop-down list and enter its password. If the SSID you want to connect to is not in the list, click [Join Other Network](#join-other-network) in the image above.
+ドロップダウンリストからSSIDを選択し、パスワードを入力します。接続したいSSIDがリストにない場合は、上図の [他のネットワークに参加する](#join-other-network) をクリックしてください。
 
 ![repeater join network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_network.png){class="glboxshadow"}
 
-For [Advanced Settings](#join-network-advanced-setting).
+[詳細設定](#join-network-advanced-setting)の場合
 
-Wait a moment, if the password is correct, the connection will be successful.
+パスワードが正しければ、接続は成功します。
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-## Join network advanced setting
+## ネットワークの詳細設定に参加
 
-When joining the network, there are two additional options.
+ネットワークに参加する場合、2 つの追加オプションがあります。
 
 ![repeater join network advanced setting](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
 
-* **Lock BSSID**. If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.
+* **Lock BSSID**：このオ プ シ ョ ン を 有効 に す る と 、このSSID を使用す るネ ッ トワ ー クに切 り替えたときに、ルータは選択した BSSID に対応する AP にのみ接続します。
 
-* **Manually set static IP**.
+* **静的IPを手動で設定する**.
 
-## Repeater options
+## リピーター・オプション
 
-Click the cog icon for Repeater options.
+リピーターオプションの歯車アイコンをクリックします。
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_options.png){class="glboxshadow"}
 
-* **Allow Switching To Other Saved Network**. If the option is enabled, the router will automatically connect to other saved networks when it is unable to connect to the current Wi-Fi network.
+* **他の保存されたネットワークへの切り替えを許可する**. このオプションを有効にすると、現在のWi-Fiネットワークに接続できない場合、ルーターは自動的に他の保存されたネットワークに接続します。
 
-* **Band Selection**. If you manually select a band, the router will not scan or connect to any Wi-Fi with another band.
+* **バンド・セレクション**. 手動でバンドを選択した場合、ルーターは他のバンドのWi-Fiをスキャンしたり接続したりしません。
 
-* **Allow Repeat DFS Channels**. If the option is enabled, 5GHz Wi-Fi will be temporarily unavailable when a radar is using the channel which is currently router using; Otherwise, the router will not connect to any Wi-Fi using DFS channels.
+* **リピート DFS チャネルを許可する**. このオプションが有効になっている場合、ルーターが現在使用しているチャネルをレーダーが使用している場合、5GHz Wi-Fi は一時的に利用できなくなります。 そうしないと、ルーターは DFS チャネルを使用して Wi-Fi に接続できません。
 
-* **Force 20MHz Bandwith For 2.4G**. If the option is enabled, The device will prompting the stability of the connection in exchange of reducing the connection speed. It only works when repeating 2.4G Wi-Fi.
+* **2.4G用20MHz帯域幅の強制設定**. このオプションが有効な場合、デバイスは接続速度を低下させる代わりに、接続の安定性を要求します。 2.4G Wi-Fiを繰り返す場合のみ機能します。
 
-## Manage known network
+## 既知のネットワークを管理する
 
-To delete known network, click **Switch Network**.
+既知のネットワークを削除するには、**ネットワーク切り替え**をクリックします。
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-Or click **Connect**.
+または**接続**をクリックしてください。
 
 ![repeater](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
 
-On the **Known Network** sector, click trash icon to delete a known network, click cog icon to config the network.
+**既知のネットワーク**セクターで、既知のネットワークを削除するにはゴミ箱アイコンをクリックし、ネットワークを設定するには歯車アイコンをクリックします。
 
 ![repeater known network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_known_networks.png){class="glboxshadow"}
 
-## Join Other Network
+## 他のネットワークに参加する
 
-If the SSID is not in the Available Networks list, or if the SSID is hidden, you can click **Join Other Network**.
+SSIDが利用可能なネットワークリストにない場合、またはSSIDが非表示になっている場合は、**他のネットワークに参加**をクリックします。
 
 ![join other network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/join_other_network.png){class="glboxshadow gl-90-desktop"}
 
 ![join other network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
 
-Input the SSID, for **Security**, It has the following three options.
+SSIDを入力し、**セキュリティー**は以下の3つのオプションがあります。
 
-* None, it doesn't need password.
+* なし、パスワードは必要ありません。
 * WPA/WPA2/WPA3
-* WPA/WPA2/WPA3 Enterprise, for Extensible Authentication Protocol (EAP), it requires a username and password for authentication.
+* WPA/WPA2/WPA3 Enterpriseでは、EAP（Extensible Authentication Protocol）のため、認証にユーザー名とパスワードが必要です。
 
     ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/join_other_network_eap.png){class="glboxshadow gl-90-desktop"}
 
-## Reconnection
+## リコネクション
 
-In the following cases, the router's Repeater will try to connect to WiFi every once in a while. You can turn off the reconnection manually, and for ssid/password errors, please delete it in Known Network.
+以下の場合、ルーターのリピーターが時々WiFiに接続しようとします。手動でリコネクションをオフにすることができます。また、ssid/パスワードエラーの場合は、既知のネットワークから削除してください。
 
-1. The wrong SSID/password was entered during the process of Repeater, after the first failed connection.
+1. 最初の接続に失敗した後、リピーターのプロセス中に間違ったSSID/パスワードを入力した。
 
-2. After connecting to the WiFi of the upstream router, the router moves out of the signal range of the upstream router.
+2. アップストリーム側のルーターのWiFiに接続した後、ルーターはアップストリーム側のルーターの電波圏外に移動する。
 
-3. After connecting to the WiFi of the upstream router, the upstream router changed the SSID/password, or restricted the connection.
+3. アップストリーム側のルーターのWiFiに接続した後、アップストリーム側のルーターがSSID/パスワードを変更した、または接続を制限した。
 
-It can be divided into three phases, the waiting phase, the scanning phase, and the connecting phase.
+これは3つのフェーズに分けることができます、待機フェーズ、スキャンフェーズ、接続フェーズ。
 
-**Note**: There are some problems during the scanning phase and the connection phase.
+**注意 **：スキャンフェーズと接続フェーズでいくつかの問題があります。
 
-1. In the waiting phase, everything is OK.
+1. 待機フェーズでは何も問題ありません。
 
-2. In the scanning phase, data packet may loss in the scanned band, possible connection problems for new devices. For GL-AXT1800 and GL-AX1800, the Guest Wi-Fi will be temporarily turned off.
+2. スキャンのフェーズで、スキャンされた帯域でデータパケットが損失する可能性があり、新しいデバイスの接続に問題が発生する可能性があります。GL-AXT1800、GL-AX1800の場合、ゲストWi-Fiは一時的にオフになります。
 
-3. In the connecting phase, the Main Wi-Fi on the corresponding band may be disconnected for a few seconds.
+3. 接続フェーズでは、対応するバンドのMain Wi-Fiが数秒間切断されることがあります。 
 
-## Warning
+## 警告
 
-When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
+インターネットにアクセスできない場合は、対応する警告が表示されます。インターネットにアクセスできるかどうかは、 [マルチWAN](multi-wan.md) ページをご覧ください。
 
-- Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
+- 警告: *インターフェイスは接続されていますが、IPv4 プロトコルではインターネットにアクセスできません。*
 
     ![repeater wrning](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_warning.png){class="glboxshadow gl-90-desktop"}
 
-    Solution: Please check if the upstream device of Repeater has internet access.
+    解決方法： リピータのアップストリームデバイスがインターネットにアクセスできるか確認してください。
 
 ## DFS
 
-When Repeater to a upstream 5G WiFi, the router WiFi will fellow the upstream WiFi to use or not use the DFS channel.
+アップストリームの5G WiFiにリピータを接続する場合、ルータのWiFiはアップストリームのWiFiにDFSチャネルを使用するかどうかをフェローします。
 
-* If the upstream WiFi uses a DFS channel and is scannable, the router's 5G WiFi will use the same channel.
+* アップストリームWiFiがDFSチャネルを使用し、スキャン可能であれば、ルーターの5G WiFiは同じチャネルを使用します。
 
-* The router's 5G WiFi will switch to the non-DFS channel if the upstream WiFi is not scannable or if the connection fails.
+* ルーターの5G WiFiは、アップストリームWiFiがスキャン可能でない場合、または接続に失敗した場合、非DFSチャネルに切り替わります。
 
-### Supported models
+### 対応モデル
 
-| Router Model                   | Support   |
+| ルーターモデル                  | サポート   |
 | :----------------------------- | :-------: |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
@@ -146,11 +146,11 @@ When Repeater to a upstream 5G WiFi, the router WiFi will fellow the upstream Wi
 
 ---
 
-Related Articles
+関連記事
 
-- [Internet page](internet.md)
-- [How to set the priority of each Internet access method?](multi-wan.md)
-- [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
+- [インターネットページ](internet.md)
+- [各インターネットアクセス方法の優先順位を設定するには？](multi-wan.md)
+- [複数のインターネット・アクセス方式を同時に使用する場合のロードバランスの設定方法は？](multi-wan.md)
 
 ---
 

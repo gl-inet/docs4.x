@@ -4,85 +4,84 @@ hide:
   - toc
 ---
 
-# Interface Guide
+# インターフェース・ガイド
 
-Learn how to use our devices and add-on features with our step to step guides.
+ステップバイステップガイドでデバイスとアドオン機能の使用方法を学びましょう。
+## インターネット接続
 
-## Internet Connection
-
-* [The Internet Page](internet.md)
-* [How to connect to the Internet via an ethernet cable](internet_ethernet.md).
-* [How to connect to the Internet via Repeater](internet_repeater.md).
-* [How to connect to the Internet via usb tethering](internet_tethering.md).
-* [How to connect to the Internet via usb modem or built-in modem](internet_cellular.md).
+* [インターネットページ](internet.md)
+* [イーサネットケーブルでインターネットに接続する方法](internet_ethernet.md).
+* [リピータでインターネットに接続する方法](internet_repeater.md).
+* [USBテザリングでインターネットに接続する方法](internet_tethering.md).
+* [usbモデムまたは内蔵モデムでインターネットに接続する方法](internet_cellular.md).
 * [SMS](sms.md)
-* [Dual-Ethernet WAN](dual-ethernet_wan.md).
+* [デュアルイーサネットWAN](dual-ethernet_wan.md).
 
-## Wireless
+## ワイヤレス
 
-* [Wireless](wireless.md)
+* [ワイヤレス](wireless.md)
 
-## Clients
+## クライアント
 
-* [Clients](clients.md)
+* [クライアント](clients.md)
 
 ## VPN
 
-* [VPN Dashboard](vpn_dashboard.md).
-* [Setup OpenVPN Client](openvpn_client.md).
-* [Setup OpenVPN Server](openvpn_server.md).
-* [Setup WireGuard Client](wireguard_client.md).
-* [Setup WireGuard Server](wireguard_server.md).
-* [VPN Proxy Mode](vpn_dashboard.md#proxy-mode).
-* [VPN Policy](vpn_dashboard.md#proxy-mode).
-* [How to setup NordVPN on router?](openvpn_client.md#set-up-nordvpn)
-* [How to setup AzireVPN on router?](wireguard_client.md#set-up-azirevpn)
-* [How to setup Mullvad VPN on router?](wireguard_client.md#set-up-mullvad)
-* [How to Block Non-VPN Traffic?](../faq/block_no_vpn_traffic.md)
-* [VPN Kill Switch](../faq/block_no_vpn_traffic.md).
-* [For OpenVPN, which protocol should I choose, TCP or UDP?](../faq/openvpn_tcp_udp.md)
-* [VPN Cascading](../tutorials/vpn_cascading.md)
-* [Tor](tor.md), to protect the personal privacy.
+* [VPNダッシュボード](vpn_dashboard.md).
+* [OpenVPNクライアントの設定](openvpn_client.md).
+* [OpenVPNサーバーの設定](openvpn_server.md).
+* [WireGuardクライアントの設定](wireguard_client.md).
+* [WireGuardサーバーの設定](wireguard_server.md).
+* [VPNプロキシモード](vpn_dashboard.md#proxy-mode).
+* [VPN ポリシー](vpn_dashboard.md#proxy-mode).
+* [ルーターでNordVPNをセットアップする方法は？](openvpn_client.md#set-up-nordvpn)
+* [ルーターでAzireVPNをセットアップする方法は？](wireguard_client.md#set-up-azirevpn)
+* [ルーターでMullvad VPNをセットアップする方法](wireguard_client.md#set-up-mullvad)
+* [非VPNトラフィックをブロックするには？](../faq/block_no_vpn_traffic.md)
+* [VPNキルスイッチ](../faq/block_no_vpn_traffic.md).
+* [OpenVPNでは、TCPとUDPのどちらのプロトコルを選べばいいのでしょうか？](../faq/openvpn_tcp_udp.md)
+* [VPNカスケード](../tutorials/vpn_cascading.md)
+* [Tor](tor.md), 個人のプライバシーを保護するためです。
 
-## Applications
+## アプリケーション
 
-* [plug-ins](plugins.md)
-* [DDNS](ddns.md). Overcome the issues related to Dynamic IP Addresses.
-* [GoodCloud](cloud.md), the official cloud service.
+* [プラグイン](plugins.md)
+* [DDNS](ddns.md). ダイナミックIPアドレスに関する問題を克服する。
+* [GoodCloud](cloud.md), 公式 Cloud サービス。
 * [AdGuard Home](adguardhome.md)
-* [Network Storage](network_storage.md)
-* [Parental Control](parental_control.md)
+* [ネットワーク・ストレージ](network_storage.md)
+* [ペアレンタル・コントロール](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
 
-## Network
+## ネットワーク
 
-* [Firewall](firewall.md).
-* [Multi-WAN](multi-wan.md), failover to another Internet access method or use multiple interfaces at the same time to increase the total bandwidth.
+* [ファイアウォール](firewall.md).
+* [マルチWAN](multi-wan.md), 別のインターネットアクセス方式にフェイルオーバーしたり、複数のインターフェイスを同時に使用して総帯域幅を増やしたりする。
 * [LAN](lan.md)
 * [DNS](dns.md)
-* [Network Mode](network_mode.md)
+* [ネットワーク・モード](network_mode.md)
 * [IPv6](ipv6.md)
-* [MAC Address](mac_address.md)
-* [Drop-in Gateway](drop-in_gateway.md)
-* [IGMP Snooping](igmp_snooping.md), to use the multicast function on the router.
-* [Hardware Acceleration](hardware_acceleration.md)
-* [Network Acceleration](network_acceleration.md)
-* [NAT Settings](nat_settings.md)
+* [MAC アドレス](mac_address.md)
+* [ドロップイン・ゲートウェイ](drop-in_gateway.md)
+* [IGMPスヌーピング](igmp_snooping.md), ルーターでマルチキャスト機能を使用するため。
+* [ハードウェア・アクセラレーション](hardware_acceleration.md)
+* [ネットワーク・アクセラレーション](network_acceleration.md)
+* [NAT設定](nat_settings.md)
 
-## System
+## システム
 
-* [System Overview](system_overview.md), displays some hardwares status and system info.
-* Upgrade
-    * [Firmware upgrade](firmware_upgrade.md)
-    * [Where to download official firmware?](../faq/where_to_download_firmware.md)
-    * [How to upgrade from 3.x to firmware 4.x?](../faq/upgrade_to_4.md)
-    * [How to upgrade GL-AX1800(Flint) from firmware 3.x to 4.x?](../faq/gl-ax1800_upgrade_to_4.md)
-    * [How to downgrade GL-AX1800(Flint) from firmware 4.x to 3.x?](../faq/gl-ax1800_upgrade_to_4.md#downgrade)
-* [Scheduled Tasks](scheduled_tasks.md), set scheduled LED display, reboot and Wi-Fi status.
-* [Change admin password](admin_password.md)
+* [システム概要](system_overview.md), ハードウェアの状態やシステム情報を表示します。
+* アップグレード
+    * [ファームウェアのアップグレード](firmware_upgrade.md)
+    * [公式ファームウェアはどこからダウンロードできますか？](../faq/where_to_download_firmware.md)
+    * [ファームウェア3.xから4.xへのアップグレード方法は？](../faq/upgrade_to_4.md)
+    * [GL-AX1800(Flint)をファームウェア3.xから4.xにアップグレードするには？](../faq/gl-ax1800_upgrade_to_4.md)
+    * [GL-AX1800(Flint)をファームウェア4.xから3.xにダウングレードする方法は？](../faq/gl-ax1800_upgrade_to_4.md#downgrade)
+* [スケジュールされたタスク](scheduled_tasks.md), スケジュールLED表示、再起動、Wi-Fiステータスを設定します。
+* [管理者パスワードの変更](admin_password.md)
 * [Time Zone](time_zone.md)
-* [Toggle Button Settings](toggle_button_settings.md)
+* [トグルボタンの設定](toggle_button_settings.md)
 * [Log](log.md)
-* [Reset Firmware](reset_firmware.md)
-* [Advanced Settings](advanced_settings.md)
+* [ファームウェアをリセット](reset_firmware.md)
+* [詳細設定](advanced_settings.md)

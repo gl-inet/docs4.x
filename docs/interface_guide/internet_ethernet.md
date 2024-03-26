@@ -1,52 +1,52 @@
-# Connect to the Internet via an ethernet cable
+# イーサネットケーブルでインターネットに接続する
 
-To access the Internet, it can connect the WAN port of router to the modem or the LAN port of other router via an ethernet cable.
+インターネットにアクセスするには、ルーターのWANポートをモデムまたは他のルーターのLANポートにイーサネットケーブルで接続します。
 
-On the left side of web Admin Panel -> INTERNET, Ethernet sector.
+管理画面の左側にある「インターネット」→「イーサネットセクター」をクリックします。
 
 ![ethernet dhcp](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_ethernet/ethernet_dhcp.png){class="glboxshadow"}
 
-**Note**: Before plugging the Ethernet cable into the WAN port of the router, you can click **Change to LAN** to [set the WAN port as a LAN port](../faq/change_wan_to_lan.md). That is useful when you are using the router as a [repeater](internet_repeater.md). As a result, you can have one more LAN port.
+**注意**: イーサネットケーブルをルーターのWANポートに接続する前に、**LANに変更**をクリックして [WAN ポートを LAN ポートとして設定](../faq/change_wan_to_lan.md)できます。これは、ルーターを [リピーター](internet_repeater.md)として使用する場合に便利です。 その結果、LANポートを1つ増やすことができます。
 
-## Protocol
+## プロトコル
 
-There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
+DHCP、Static、PPPoEの3種類のプロトコルがあります。変更するには**修正**をクリックします。
 
 * DHCP 
 
-    DHCP is the default and most common protocol. It is a network management protocol used on Internet Protocol (IP) networks for automatically assigning IP addresses and other communication parameters to devices connected to the network using a client–server architecture.
+    DHCPはデフォルトで最も一般的なプロトコルです。これは、インターネットプロトコル（IP）ネットワークで使用されるネットワーク管理プロトコルで、クライアントサーバーアーキテクチャを使用して、ネットワークに接続されたデバイスにIPアドレスやその他の通信パラメータを自動的に割り当てます。
 
 * Static
 
-    Static is required if your Internet Service Provider (ISP) has provided a fixed IP address for you or you want to configure the network information such as IP address, Gateway, Netmask manually.
+    インターネットサービスプロバイダ（ISP）が固定IPアドレスを提供している場合、またはIPアドレス、ゲートウェイ、ネットマスクなどのネットワーク情報を手動で設定したい場合は、スタティックが必要です。
 
     ![ethernet static](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_ethernet/ethernet_static.png){class="glboxshadow"}
 
 * PPPoE
 
-    PPPoE is required by many Internet Service Providers (ISP). Generally, your ISP will give you a modem and provide you a username & password that you needed when you are creating the Internet connection.
+    PPPoEは、多くのインターネットサービスプロバイダ（ISP）で必要とされています。一般的に、ISPはあなたにモデムを提供し、インターネット接続を作成するときに必要なユーザー名とパスワードを提供します。
 
-    **VLAN ID**: This settings entry is only required if the provider's PPPoE server requires the interface to use a tagged specific VLAN ID.
+    **VLAN ID**： この設定項目は、プロバイダーのPPPoEサーバーがインターフェイスにタグ付けされた特定のVLAN IDを使用するよう要求する場合にのみ必要です。
 
     ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_ethernet/ethernet_pppoe.png){class="glboxshadow gl-90-desktop"}
 
-## Warning
+## 警告
 
-When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
+インターネットにアクセスできない場合は、対応する警告が表示されます。インターネットにアクセスできるかどうかは、 [マルチWAN](multi-wan.md) ページをご覧ください。
 
-- Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
+- 警告 : *インターフェースは接続されていますが、IPv4プロトコルでインターネットにアクセスできません。*
 
     ![ethernet wrning](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_ethernet/ethernet_warning.png){class="glboxshadow gl-90-desktop"}
 
-    Solution: Please check if the upstream device of Ethernet has internet access.
+    解決方法 :イーサネットのアップストリームデバイスがインターネットにアクセスできるかどうか確認してください。
 
 ---
 
-Related Articles
+関連記事
 
-- [Internet page](internet.md)
-- [How to set the priority of each Internet access method?](multi-wan.md)
-- [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
+- [インターネットページ](internet.md)
+- [各インターネットアクセス方法の優先順位を設定するには？](multi-wan.md)
+- [複数のインターネット・アクセス方式を同時に使用する場合のロードバランスの設定方法は？](multi-wan.md)
 
 ---
 

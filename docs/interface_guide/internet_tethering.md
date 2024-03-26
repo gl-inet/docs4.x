@@ -1,59 +1,59 @@
-# Connect to the Internet via usb tethering
+# USBテザリングでインターネットに接続
 
-Using a USB cable to share network from your smartphone to the router is called Tethering. Host-less modem works in Tethering during the setup of the modem as well.
+USBケーブルを使ってスマートフォンからルーターへネットワークを共有することをテザリングと呼びます。ホストレスモデムは、モデムのセットアップ中もテザリングで動作します。
 
-**Note:** Some mobile carriers limit or charge extra for tethering. We recommend checking with your carrier.
+** 注意:** 一部のモバイル通信事業者は、テザリングに制限を設けたり、追加料金を請求したりします。ご契約中の通信事業者にご確認ください。
 
 === "iPhone"
 
-    1. Connect iPhone to the USB port of the router. It will pop up a message asking to trust this computer? Click "Trust" to contine. Because we are connecting the iPhone to the router, so here is to TRUST the router.
+    1. iPhoneをルーターのUSBポートに接続します。 このコンピュータを信頼するかどうかを尋ねるメッセージがポップアップ表示されます。 「信頼」をクリックして続行します。 iPhone をルーターに接続しているので、ここではルーターを信頼します。
 
         ![trust this computer](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_trust_this_computer.png){class="glboxshadow"}
 
-    2. Go to iPhone -> Settings -> Personal Hotspot -> Turn on Allow Others to Join.
+    2. iPhone -> 設定 -> 個人ホットスポット -> 「他のユーザーの参加を許可」をオンにします。
 
         ![turn on allow others to join](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow"}
 
-    3. Use a computer or another phone, connect to the router, then go to web Admin Panel, on the left side bar, choose "INTERNET" and click "Connect" in the middle of the page.
+    3. パソコンまたは別のスマートフォンを使ってルーターに接続し、ウェブ管理パネルの左サイドバーで「インターネット」を選択し、ページ中央の「接続」をクリックします。
 
         ![tethering connect](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/tethering_find_device.png){class="glboxshadow"}
 
-    4. It will show connected information on the top of your phone screen and the web Admin Panel once you connect successfully.
+    4. 接続に成功すると、スマートフォンの画面上部とウェブの管理パネルに接続情報が表示されます。
 
         ![tethering](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow"}
 
-        Tethering connected on web Admin Panel.
+        ウェブ管理画面でテザリングに接続。
 
         ![tethering](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/tethering_connected.png){class="glboxshadow"}
 
-    If the connection fails, please turn off and turn on **Allow Others to Join** for a few times.
+    接続に失敗した場合は、**他のユーザーの参加を許可する**を数回オフにしてオンにしてください。
 
 === "Android"
 
-    For Android phone tethering, the procedure is similar to iPhone. Connect it to the USB port of the router, it may pop up a dialog ask **Use USB for**, choose **File Transfer/Android Audio**, then check Settings -> Personal hotspot -> Usb network sharing.
+    Android携帯のテザリングは、iPhoneと同じような手順です。ルーターのUSBポートに接続すると、**Use USB for**というダイアログが出るので、**File Transfer/Android Audio**を選択し、設定→個人用ホットスポット→Usbネットワーク共有にチェックをします。
 
     For the Android official documentation for refer [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}
 
 
-## Warning
+## 警告
 
-When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
+インターネットにアクセスできない場合は、対応する警告が表示されます。インターネットにアクセスできるかどうかは、 [マルチWAN](multi-wan.md)ページをご覧ください。
 
-- Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
+- 警告：*インターフェースは接続されていますが、IPv4プロトコルでインターネットにアクセスできません。
 
-    Solution: Please check if the smartphone has internet access.
+    解決方法 ：スマートフォンがインターネットに接続できるかどうかご確認ください。
 
-## Troubleshooting
+## 問題解決
 
-    * Please use the original power supply.
+    * オリジナルの電源をご使用ください。
 
 ---
 
-Related Articles
+関連記事
 
-- [Internet page](internet.md)
-- [How to set the priority of each Internet access method?](multi-wan.md)
-- [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
+- [インターネットページ](internet.md)
+- [各インターネットアクセス方法の優先順位を設定するには？](multi-wan.md)
+- [複数のインターネット・アクセス方式を同時に使用する場合のロードバランスの設定方法は？](multi-wan.md)
 
 ---
 

@@ -1,10 +1,10 @@
-# IGMP Snooping
+# IGMPスヌーピング
 
-You can enable IGMP snooping to use the multicast function on the router.
+IGMP スヌーピングを有効にすると、ルーターのマルチキャスト機能を使用できます。
 
-IGMP Snooping listens to the IGMP protocol package, extracts the corresponding information, establishes and maintains the layer 2 multicast forwarding publication, and then forwards the multicast group data to the host that joins the multicast group, while other hosts cannot receive the multicast group data.
+IGMP スヌーピングは、IGMP プロトコル パッケージをリッスンし、対応する情報を抽出し、レイヤ 2 マルチキャスト転送パブリケーションを確立して維持します。その後、マルチキャスト グループ データをマルチキャスト グループに参加するホストに転送しますが、他のホストはマルチキャスト グループ データを受信できません。
 
-**Note**: IGMPv3 is compatible with v1 and v2. Use v3 by default, and switch if you experience a problem.
+**注意**： IGMPv3はv1、v2と互換性があります。デフォルトではv3を使用し、問題が発生した場合は切り替えてください。
 
 ![IGMP Snooping](https://static.gl-inet.com/docs/router/en/4/tutorials/igmp_snooping/igmp_snooping.png){class="glboxshadow gl-90-desktop"}
 

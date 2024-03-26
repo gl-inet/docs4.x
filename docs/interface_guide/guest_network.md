@@ -1,16 +1,16 @@
-# Guest Network
+# ゲストネットワーク
 
-The **guest network** has been separated from the [LAN](lan.md) since v4.5.
+**ゲストネットワーク**は、v4.5以降 [LAN](lan.md)から分離されました。
 
-On the left side of web Admin Panel -> NETWORK -> Guest Network.
+Web 管理パネルの左側 -> ネットワーク -> ゲスト ネットワーク。
 
-**Note**: Some models do not have WiFi (e.g. GL-MT2500/GL-MT2500A), so there is no Guest Network tab.
+**注意**： 一部のモデルにはWiFiがないため（GL-MT2500/GL-MT2500Aなど）、ゲストネットワークタブはありません。
 
-The **Guest Network** is the network if your device connect to the Guest WiFi.
+**ゲストネットワーク**は、あなたのデバイスがゲストWiFiに接続する場合のネットワークです。
 
-The **Defautl Gateway** is **192.168.9.1**, If you have enable the Guest WiFi and it conflicts with your network, you can change it.
+**デフォルトのゲートウェイ**は**192.168.9.1**ですが、もしゲストWiFiを有効にしていて、あなたのネットワークと競合する場合は、変更することができます。
 
-The other basic setting and the DHCP server setting are the same as [LAN](lan.md).
+その他の基本設定とDHCPサーバーの設定は [LAN](lan.md)と同じです。
 
 ![guest_simple_set](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_simple_set.jpg){class="glboxshadow"}
 

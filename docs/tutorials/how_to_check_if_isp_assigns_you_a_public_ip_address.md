@@ -1,30 +1,25 @@
-# How to check if Internet Service Provider assigns you a public IP address?
+# How to check if you have a a public IP address
 
-## What is Public IP address?
+A public address, as opposed to a private IP address, is a unqiue numerical identifier assigned to your devices connected to the internet. You will need a public IP address if you want to host a website, set up a VPN server, or provide any online services. Your internet service provider typically provides you with one. 
 
-All IPv4 addresses can be divided into two major groups: global (or public, external) — those that are used on the Internet, and private (or local, internal) addresses — those that are used in the local area network (LAN).
+If you are not sure whether you have a public IP address, follow one of these methods to check. 
 
-A public IP address is an IP address that is used to access the Internet. Public IP addresses can be routed on the Internet, unlike private addresses.
+**Method 1: Contact your internet service provider directly**
 
-The presence of a public IP address on your router will allow you to organize your own server (VPN, FTP, WEB, etc.), remote access to your computer, video surveillance cameras, and get access to them from anywhere on the global network.
+**Method 2: Check your IP address in your router admin panel and on the internet** 
 
-## How to check if Internet Service Provider assigns you a public IP address?
+1. Sign in to your router's admin panel. 
+    * For GL.iNet routers, enter 192.168.8.1 into a web browser and sign in.
+    * If you have more than one router in your setup, sign in to the primary router's admin panel. 
+2. In the router admin panel, locate your IP address (e.g., 42.XXX.XX.)
+![locate ip address](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/locate-ip-address.png){class="glboxshadow"}
+3. In a web browser, search "what is my ip."
+![what is my ip](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/search-what-is-my-ip.png){class="glboxshadow"}
 
-### Method 1:
+If the two IP addresses match, you have a public IP address. 
+![two ip addresses match](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/two-ip-addresses-match.png){class="glboxshadow"}
 
-Ask your Internet Service Provider directly.
-
-### Method 2:
-
-Check the two IP addresses below to see if they are the same, otherwise you don't have a public IP.
-
-* Search **my ip address** on Google, or access our IP tools [https://tool.gl-inet.com/ip](https://tool.gl-inet.com/ip){target="_blank"}
-
-* Access the main router, you can find the WAN IP address.
-
-We use GL.iNet router as the main router, if you found WAN IP address is same as the `IP Address` on the Internet page run on Google before, then **42xxxxx** is your Public IP.
-
-![is public ip address](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/is_public_ip_address.png){class="glboxshadow"}
+If you do not have a public IP address, you can consider using an intranet penetration tool. It allows your website, VPN server, or services to be accessible on the internet, even if you do not have a public IP address. 
 
 ---
 

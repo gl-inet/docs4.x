@@ -26,13 +26,13 @@ It will pop up **Add New Port Forward Rule** dialog.
 
 **External Port:** The numbers of external ports. You can enter a specific port number here.
 
-**Internal Zone:** The options for external zone are `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**Internal Zone:** The options for internal zone are `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
 
 **Internal IP:** The IP address assigned by the router to the device which needs to be accessed remotely.
 
 **Internal Port:** The internal port number of the device. You can enter a specific port number. Leave it blank if it is same as the external port.
 
-**Enable:** Enable of disable of the rule.
+**Enable:** Enable or disable of the rule.
 
 ---
 
@@ -52,7 +52,7 @@ To open a port, click **Add**.
 
 **Port:** The port number that you want to open.
 
-**Enable:** Enable of disable of the rule.
+**Enable:** Enable or disable of the rule.
 
 ---
 

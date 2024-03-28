@@ -32,10 +32,16 @@ Learn how to use our devices correctly with detailed steps.
 
 [GoodCloud Site to Site](goodcloud_site_to_site.md)
 
+## Network
+
+* [How to set up a guest Wi-Fi network on a GL.iNet router](how_to_set_up_a_guest_network.md)
+
 ## Network Sharing
 
 * [How to use WinSCP to access your share files?](winscp_share_file.md)
 
 ## Others
 
-* [How to check if Internet Service Provider assigns you a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
+* [How to check if you have a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
+* [How to block client devices](how_to_block_client_devices.md)
+* [How to set up drop-in gateway](how_to_set_up_drop_in_gateway.md)

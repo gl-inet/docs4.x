@@ -14,7 +14,9 @@ It supports "Dual SIM, Single Standby", which means it can hold two SIM cards fo
 
 ## First time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+To set up your Spitz AX (GL-X3000), [refer to this setup tutorial](../../faq/first_time_setup.md/).
+
+(The default Wi-Fi network name and password are printed on a label on the back of the router. To find it, remove the wall mount attached to the router.)
 
 Please note that the adapter within the package depends on your shipping country.
 

@@ -13,7 +13,7 @@ For users who do not want to replace their main router, you can use this mode to
 * Use VPN client
 * It is recommended to use a more powerful router with large memory (e.g. GL-MT2500) and install other traffic forwarding and control tools yourself.
 
-## Network Typology
+## Network Topology
 
 ![drop-in gateway mode typology](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/drop-in_gateway_mode_topology.svg){class="glboxshadow gl-60-desktop"}
 
@@ -53,7 +53,7 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
         ![glinet lan advanced](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/lan_advanced.png){class="glboxshadow"}
 
-        Fill in the DHCP Gateway as the IP Address in step 2, etc. `192.168.116.23`, then click **Apply**.
+        Fill in the DHCP Gateway as the IP Address in step 2, etc. `192.168.1.23`, then click **Apply**.
 
         ![glinet lan, dhcp gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/glinet/tips_dhcp_gateway.png){class="glboxshadow"}
 

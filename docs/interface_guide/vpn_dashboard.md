@@ -16,7 +16,7 @@ Once the configuration is complete, you can select the configuration file in the
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_client_configuration_file.png){class="glboxshadow"}
 
-### VPN Clinet Options
+### VPN Client Options
 
 Click the cog icon of OpenVPN or WireGuard.
 

@@ -51,6 +51,7 @@ Learn how to use our devices and how to solve some common problems.
 
 ## Other
 
+* [Can I add Brume2 into the mobile App?](can_i_add_brume2_into_app.md)
 * [How to change WAN port to LAN port?](change_wan_to_lan.md)
 * [GL.iNet Mobile App](mobile_app.md).
 * [What is LuCI?](what_is_luci.md)

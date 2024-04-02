@@ -1,4 +1,4 @@
-# How to check if you have a a public IP address
+# How to check if you have a public IP address
 
 A public address, as opposed to a private IP address, is a unqiue numerical identifier assigned to your devices connected to the internet. You will need a public IP address if you want to host a website, set up a VPN server, or provide any online services. Your internet service provider typically provides you with one. 
 

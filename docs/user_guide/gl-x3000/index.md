@@ -14,7 +14,7 @@ To set up Spitz AX, you will use one of the four supported internet connection m
 
 1. Activate your SIM card(s), if required by the SIM card carrier. <br>
 2. Make sure you router is powered off. <br>
-3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at each time. The other SIM card functions only as a backup.)
+3. Insert the SIM card(s) into the SIM card slots. (<b>Note:</b> Only one SIM card is active at each time. The other SIM card functions only as a backup.)
 
 </div>
 
@@ -165,3 +165,7 @@ Your router package includes:
 - 1 x Power adapter (US+EU+UK+AU plugs)
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
+
+### Specifications
+
+Refer to [Specifications](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}. 

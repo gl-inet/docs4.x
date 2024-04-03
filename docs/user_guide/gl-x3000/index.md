@@ -125,7 +125,7 @@ Port forwarding allows remote servers and devices on the internet to access devi
 
 ---
 
-## Other features and settings you can use with Spitz AX
+## Other Spitz AX features and settings
 
 ### AdGuard Home
 

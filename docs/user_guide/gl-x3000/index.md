@@ -66,7 +66,7 @@ If you already inserted the SIM card into your router, you should be connected t
 
 Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
 
-##### The Repeater Method
+**The Repeater Method**
 
 1. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
 2. Select a Wi-Fi network. 
@@ -74,7 +74,7 @@ Connect an ethernet cable to your router's WAN port and an upstream device, such
 
 If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name. 
 
-##### The Tethering Method
+**The Tethering Method**
 
 1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
 2. In your mobile device's settings, enable tethering. 

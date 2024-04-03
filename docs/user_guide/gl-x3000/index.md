@@ -4,13 +4,28 @@
 
 To set up Spitz AX, you will use one of the four supported internet connection methods: Cellular (SIM cards), ethernet, repeater, and tethering. Follow the steps below. 
 
-#### If you are connecting via the cellular method
+<div class="callout">
 
-To connect to the internet via the cellular method, you will need at least one nano SIM card. Once you have the nano SIM card(s) ready, follow these steps: 
+<b> If you are connecting via the cellular method </b> <br>
 
-1. Activate your SIM card(s), if required by the SIM card carrier.
-2. Make sure you router is powered off. 
+<br> To connect to the internet via the cellular method, you will need at least one nano SIM card. Once you have the nano SIM card(s) ready, follow these steps: <br>
+
+<br>
+
+1. Activate your SIM card(s), if required by the SIM card carrier. <br>
+2. Make sure you router is powered off. <br>
 3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at each time. The other SIM card functions only as a backup.)
+
+</div>
+
+<style type="text/css" rel="stylesheet">
+.callout {
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+</style>
 
 ### 1. Power on the Spitz AX
 

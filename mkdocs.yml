@@ -84,6 +84,7 @@ markdown_extensions:
   - pymdownx.details
   - toc:
       permalink: true
+  - admonition
 
 nav:
   - Home: index.md

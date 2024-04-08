@@ -1,30 +1,154 @@
-# GL-X3000 (Spitz AX) User Guide
+# Spitz AX (GL-X3000 ) User Guide
 
-## Hardware info
+## How to set up Spitz AX
 
-GL-X3000 (Spitz AX) is a Wi-Fi 6 cellular gateway designed to provide reliable cellular networks in remote locations and high speed internet in urban areas. It has six external antennas for long range connection, two SIM Cards for selecting between the ISP with stronger connections, and Multi-WAN between the WAN port, SIM Card, and Repeater.
+To set up Spitz AX, you will use one of the four supported internet connection methods: Cellular (SIM cards), ethernet, repeater, and tethering. Follow the steps below. 
 
-It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
+!!! note "If you are connecting via the cellular method"
 
-![gl-x3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_interface.jpg){class="glboxshadow"}
+    To connect to the internet via the cellular method, you will need at least one nano SIM card. Once you have the nano SIM card(s) ready, follow these steps:
+    
+    1. Activate your SIM card(s), if required by the SIM card carrier.
+    2. Make sure you router is powered off.
+    3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at each time. The other SIM card functions only as a backup.)
 
-[GL-X3000 specification](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}
+### 1. Power on the Spitz AX
+
+Put the two-piece power adapter together. Connect it to your router and plug it into a wall outlet. Press the power button.
+
+### 2. Connect your device to the Spitz AX
+
+Connect your computer or mobile device to the router using Wi-Fi or ethernet.
+
+#### Wi-Fi
+
+On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
+
+#### Ethernet
+
+Connect your device to the router's LAN port using an ethernet cable. 
+
+### 3. Connect the Spitz AX to the internet 
+
+**Note:** The following instructions were written for those using the router admin panel to connect the router to the internet. If you want to use the GL.iNet app instead of the admin panel, download the app from your device's app store and follow the on-screen instructions. 
+
+#### a. Sign in to the router admin panel 
+
+i. In a web browser's address bar, enter 192.168.8.1.
+
+ii. Choose your language, then click **Next**.
+
+iii. Set your admin password, then click **Apply**. 
+
+#### b. Set up your internet connection method(s)
+
+**Note:** To use the multi-WAN feature, you will have to set up more than one internet connection methods below for failover and load balancing to function.
+
+**The Cellular Method**
+
+If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
+
+**Note:** If you are having issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](https://docs.gl-inet.com/router/en/4/faq/gl-x3000_gl-xe3000_connection_optimization/). 
+
+**The Ethernet Method**
+
+Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
+
+**The Repeater Method**
+
+i. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
+
+ii. Select a Wi-Fi network. 
+
+iii. Enter the network password, then click **Apply**.
+
+If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name. 
+
+**The Tethering Method**
+
+i. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
+
+ii. In your mobile device's settings, enable tethering. 
+
+iii. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
+
+If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
 ---
 
-## First time setup
+## How to set up a VPN 
 
-To set up your Spitz AX (GL-X3000), [refer to this setup tutorial](../../faq/first_time_setup.md/).
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). 
 
-(The default Wi-Fi network name and password are printed on a label on the back of the router. To find it, remove the wall mount attached to the router.)
+Spitz AX (and other GL.iNet routers) support the OpenVPN and WireGuard protocols. Both protocols offer strong security, but Wireguard offers greater speeds and convenience. If you do not have a preference in which VPN protocol to use, you can use WireGuard. 
 
-Please note that the adapter within the package depends on your shipping country.
+### OpenVPN 
 
-What's inside the package?
+To set up OpenVPN, follow these tutorials:
 
-![gl-x3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
+* [How to set up an OpenVPN client](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/)
+* [How to set up an OpenVPN server](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_server/)
 
-Package Contents:
+### WireGuard
+
+To set up WireGuard, follow these tutorials:
+
+* [How to set up a WireGuard client](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
+* [How to set up a WireGuard server](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
+
+---
+
+## How to set up tailscale
+
+Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
+
+---
+
+## How to set up multi-WAN (failover and load-balancing)
+
+Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+
+To set up multi-WAN, refer to [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/). 
+
+---
+
+## How to set up port forwarding
+
+Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](https://docs.gl-inet.com/router/en/4/interface_guide/firewall/#port-forwards). 
+
+---
+
+## Other Spitz AX features and settings
+
+### AdGuard Home
+
+AdGuard Home is a third-party tool that blocks ads and tracking to keep you safe. To learn how to enable AdGuard Home, refer to [AdGuard Home](https://docs.gl-inet.com/router/en/4/interface_guide/adguardhome/). 
+
+### Drop-in gateway 
+
+Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. To set up drop-in gateway, refer to [How to set up drop-in gateway](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_drop_in_gateway/). 
+
+### Dynamic DNS
+
+Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. To set up dynamic DNS, refer to [Dynamic DNS](https://docs.gl-inet.com/router/en/4/interface_guide/ddns/). 
+
+### Parental controls
+
+Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Spitz AX offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app. 
+
+To set up parental controls, refer to [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control). 
+
+---
+
+## Product overview
+
+### Product information
+
+Spitz AX (GL-X3000) is a dual-SIM Wi-Fi 6 cellular gateway designed to provide fast, reliable connections especially in remote areas and during road trips. It offers four internet access methods: Cellular (SIM cards), ethernet, repeater, and tethering. It supports multi-WAN (failover and load-balancing), VPN (OpenVPN and Wireguard), parental controls, AdGuard Home, port forwarding, Tailscale, and more. 
+
+### Package contents
+
+Your router package includes:
 
 - 1 x User manual
 - 1 x Spitz AX (GL-X3000)
@@ -33,224 +157,8 @@ Package Contents:
 - 1 x Wall mount kit
 - 1 x Power adapter (US+EU+UK+AU plugs)
 
-Check out Spitz AX's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-x3000spitz-ax).
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
 
----
+### Specifications
 
-## INTERNET
-
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
-
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
-
-It supports four ways to connect to the internet as listed below:
-
-### Ethernet
-
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
-
-[Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
-
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_ethernet.png){class="glboxshadow"}
-
-### Repeater
-
-Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
-
-[Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
-
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_repeater.png){class="glboxshadow"}
-
-### Tethering
-
-Establish internet access with connected devices by sharing a smartphone’s mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
-
-[Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
-
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_tethering.png){class="glboxshadow"}
-
-### Cellular
- 
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
-
-It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
-
-[Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
-
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_cellular.png){class="glboxshadow"}
-
-### Priority and load balance
-
-Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
-
----
-
-## WIRELESS
-
-The wireless settings lets users manage network security of the primary Wi-Fi and the Guest Wi-Fi, it is accessible by going to **WIRELESS** on the side menu.
-
-[Click here to learn more about the wireless configuration](../../interface_guide/wireless.md)
-
----
-
-## CLIENTS
-
-Clients are devices connected to the router, you can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router’s Admin Panel.
-
-[Click here to learn more about managing your device clients.](../../interface_guide/clients.md)
-
----
-
-## VPN
-
-GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VPN services. It automatically encrypts all network traffic within the connected network, including guest devices and client devices that are not capable of running VPN encryption. Our routers can also act as VPN servers, redirecting traffic from client devices in remote locations to the VPN server via a VPN tunnel before accessing the public internet.
-
-### VPN Dashboard
-
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard.md)
-
-### OpenVPN
-
-Please refer to the following links for a step to step setup guide:
-
-- [**Setup OpenVPN Client**](../../interface_guide/openvpn_client.md)
-- [**Setup OpenVPN Server**](../../interface_guide/openvpn_server.md)
-
-### WireGuard
-
-Please refer to the following links for a step to step setup guide:
-
-- [**Setup WireGuard Client**](../../interface_guide/wireguard_client.md)
-- [**Setup WireGuard Server**](../../interface_guide/wireguard_server.md)
-
----
-
-## APPLICATIONS
-
-GL.iNet routers include a wide range of add-on features that simplifies device management, improves user's internet experience, automates firmware update, and more.
-
-### Plug-ins
-
-Please visit the [**Plug-ins**](../../interface_guide/plugins.md) tutorial.
-
-### Dynamic DNS
-
-Please visit the [**Dynamic DNS**](../../interface_guide/ddns.md) tutorial.
-
-### GoodCloud
-
-Please visit the  [**GoodCloud**](../../interface_guide/cloud.md) tutorial.
-
-### Network Storage
-
-Please visit the [**Network Storage**](../../interface_guide/network_storage.md) tutorial.
-
-### AdGuard Home
-
-Please visit the [**AdGuard Home**](../../interface_guide/adguardhome.md) tutorial.
-
-### Parental Control
-
-Please visit the [**Parental Control**](../../interface_guide/parental_control.md) tutorial.
-
-### ZeroTier
-
-Please visit the [**ZeroTier**](../../interface_guide/zerotier.md) tutorial.
-
-### Tailscale
-
-Please visit the [**Tailscale**](../../interface_guide/tailscale.md) tutorial.
-
----
-
-## NETWORK
-
-### Firewall
-
-GL.iNet's routers include multiple firewall features to ensure a secure connection and complete oversight by users. It lets users configure firewall rules including Port Forwarding, Open Ports, and DMZ.
-
-[Click here to learn more about GL.iNet routers’ firewall](../../interface_guide/firewall.md)
-
-### Multi-WAN
-
-Please visit the [**Multi-WAN**](../../interface_guide/multi-wan.md) tutorial.
-
-### LAN
-
-Please visit the [**LAN**](../../interface_guide/lan.md) tutorial.
-
-### DNS
-
-Please visit the [**DNS**](../../interface_guide/dns.md) tutorial.
-
-### Network Mode
-
-Please visit the [**Network Mode**](../../interface_guide/network_mode.md) tutorial.
-
-### IPv6
-
-Please visit the [**IPv6**](../../interface_guide/ipv6.md) tutorial.
-
-### MAC Address
-
-The Mac Address page was previously called Mac Clone and has been changed to Mac Address since v4.2.
-
-Please visit the [**MAC Address**](../../interface_guide/mac_address.md) tutorial.
-
-### Drop-in Gateway
-
-Please visit the [**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md) tutorial.
-
-### IGMP Snooping
-
-Please visit the [**IGMP Snooping**](../../interface_guide/igmp_snooping.md) tutorial.
-
-### Hardware Acceleration
-
-Please visit the [**Hardware Acceleration**](../../interface_guide/hardware_acceleration.md) tutorial.
-
----
-
-## SYSTEM
-
-### Overview
-
-Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
-
-### Upgrade
-
-GL.iNet provides regular updates on our routers' firmware to improve performance, resolving bugs and fix vulnerabilities.
-
-Please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
-
-### Scheduled Tasks
-
-Please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
-
-### Admin Password
-
-This feature has been moved to [**Security**](../../interface_guide/security.md) since v4.5.
-
-Please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
-
-### Time Zone
-
-Please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
-
-### Log
-
-Please visit the [**Log**](../../interface_guide/log.md) tutorial.
-
-### Security
-
-This feature is available since v4.5.
-
-Please visit the [**Security**](../../interface_guide/security.md) tutorial.
-
-### Reset Firmware
-
-Please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
-
-### Advanced Settings
-
-Please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
+Refer to [Specifications](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}. 

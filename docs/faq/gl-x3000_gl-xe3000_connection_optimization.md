@@ -39,7 +39,7 @@
     
     3.1 Please confirm the SIM type. This device is certified based on IOT type devices. In theory, the device can only use IOT type SIM cards. If you are not sure about the card type, you need to consult the operator
     
-    Common SIM types are: data only, data only+voice, IOT, Hostpot. It is recommended to use IOT and Hostpot; not sure about data only, data only+voice can definitely be used.
+    Common SIM types are: data only, data only+voice, IOT, Hotspot. It is recommended to use IOT and Hotspot; not sure about data only, data only+voice can definitely be used.
     
     3.2 Some SIM cards need to be activated on the mobile phone. You can try to confirm on the mobile phone that the mobile phone card can connect to the internet, and then move it to the router for use.
     

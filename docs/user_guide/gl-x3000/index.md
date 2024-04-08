@@ -1,4 +1,4 @@
-# Spitz AX (GL-X3000 ) User Guide
+# Spitz AX (GL-X3000) User Guide
 
 ## How to set up Spitz AX
 

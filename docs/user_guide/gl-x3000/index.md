@@ -1,31 +1,16 @@
-# Spitz AX (GL-X3000 ) User Guide
+# Spitz AX (GL-X3000) User Guide
 
 ## How to set up Spitz AX
 
 To set up Spitz AX, you will use one of the four supported internet connection methods: Cellular (SIM cards), ethernet, repeater, and tethering. Follow the steps below. 
 
-<div class="callout">
+!!! note "If you are connecting via the cellular method"
 
-<b> If you are connecting via the cellular method </b> <br>
-
-<br> To connect to the internet via the cellular method, you will need at least one nano SIM card. Once you have the nano SIM card(s) ready, follow these steps: <br>
-
-<br>
-
-1. Activate your SIM card(s), if required by the SIM card carrier. <br>
-2. Make sure you router is powered off. <br>
-3. Insert the SIM card(s) into the SIM card slots. (<b>Note:</b> Only one SIM card is active at each time. The other SIM card functions only as a backup.)
-
-</div>
-
-<style type="text/css" rel="stylesheet">
-.callout {
-  border: 1px solid #ccc;
-  background-color: #f5f5f5;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-</style>
+    To connect to the internet via the cellular method, you will need at least one nano SIM card. Once you have the nano SIM card(s) ready, follow these steps:
+    
+    1. Activate your SIM card(s), if required by the SIM card carrier.
+    2. Make sure you router is powered off.
+    3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at each time. The other SIM card functions only as a backup.)
 
 ### 1. Power on the Spitz AX
 
@@ -40,19 +25,22 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
 #### Ethernet
+
 Connect your device to the router's LAN port using an ethernet cable. 
 
 ### 3. Connect the Spitz AX to the internet 
 
 **Note:** The following instructions were written for those using the router admin panel to connect the router to the internet. If you want to use the GL.iNet app instead of the admin panel, download the app from your device's app store and follow the on-screen instructions. 
 
-#### I. Sign in to the router admin panel 
+#### a. Sign in to the router admin panel 
 
-1. In a web browser's address bar, enter 192.168.8.1. 
-2. Choose your language, then click **Next**.
-3. Set your admin password, then click **Apply**. 
+i. In a web browser's address bar, enter 192.168.8.1.
 
-#### II. Set up your internet connection method(s)
+ii. Choose your language, then click **Next**.
+
+iii. Set your admin password, then click **Apply**. 
+
+#### b. Set up your internet connection method(s)
 
 **Note:** To use the multi-WAN feature, you will have to set up more than one internet connection methods below for failover and load balancing to function.
 
@@ -68,17 +56,22 @@ Connect an ethernet cable to your router's WAN port and an upstream device, such
 
 **The Repeater Method**
 
-1. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
-2. Select a Wi-Fi network. 
-3. Enter the network password, then click **Apply**.
+i. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
+
+ii. Select a Wi-Fi network. 
+
+iii. Enter the network password, then click **Apply**.
 
 If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name. 
 
 **The Tethering Method**
 
-1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
-2. In your mobile device's settings, enable tethering. 
-3. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
+i. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
+
+ii. In your mobile device's settings, enable tethering. 
+
+iii. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
+
 If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
 ---

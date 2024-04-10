@@ -2,6 +2,14 @@
 
 Learn about new features added to our products and services, and detailed tutorials on how to use them.
 
+## How to Set Up an WireGuard Server on a GL.iNet Router
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GSbytyaqOY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## How to Set Up an WireGuard Client on a GL.iNet Router
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIRcjB9k62A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## How to Set Up an OpenVPN Server on a GL.iNet Router
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qybMKxWZfoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

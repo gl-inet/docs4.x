@@ -25,6 +25,7 @@ Learn how to use our devices and how to solve some common problems.
 * [How to repair network or reset to factory setting?](repair_network_or_reset_firmware.md)
 * [iPhone tethering failed](iphone_tethering_fail.md)
 * [MacOS cannot write in Samba](macos_cannot_write_samba.md)
+* [Stuck on the "Installing" screen when updating the router](stuck_on_installing_screen.md)
 * [What should I do if my router is bricked?](debrick.md)
 * [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel.md)
 * [My Wireguard Server is not working](my_wireguard_server_is_not_working.md)

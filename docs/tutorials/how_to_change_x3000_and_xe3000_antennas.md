@@ -16,7 +16,7 @@ To install the antennas, follow these steps:
     * Attach the four "5G NR" antennas to the **MAIN**, **DIV**, **MIMO 1**, and **MIMO2** ports. 
 2. Position the antennas upwards for optimal performance. 
 
-![Antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x3000-antennas.jpg){class="gl-80-desktop glboxshadow"}
+    ![Antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x3000-antennas.jpg){class="gl-80-desktop glboxshadow"}
 
 ## Changing the external antennas 
 
@@ -37,4 +37,8 @@ The base of the 5G NR antenna uses a **SMA female connector** (external thread a
 
 ### Troubleshooting: I bought the incorrect antennas
 
-If you bought the incorrect antennas, you may want to consider buying an adapter which converts between connectors (e.g., SMA-RP male to SMA female). For issues choosing the right adapter, please contact our Support Team via email at support@glinet.biz. 
+If you bought the incorrect antennas, you may want to consider buying an adapter which converts between connectors (e.g., SMA-RP male to SMA female). For issues choosing the right adapter, please contact our Support Team via email at [support@glinet.biz](mailto:support@glinet.biz).
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

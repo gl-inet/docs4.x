@@ -6,7 +6,7 @@ If you want to update your router (or debrick it via U-Boot), download the firmw
 2. Select a tab at the top:
     * **Stable:** The official release for everyday use and recommended for most users. 
     * **Beta** (only available to certain router models): The pre-release version that is still undergoing development. 
-    * **Snapshot** (only available to certain router models): The version ready for production environments. 
+    * **Snapshot** (only available to certain router models): The daily build that includes the latest updates. 
 3. Select the **Download for** button. 
 
 ---

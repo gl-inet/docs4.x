@@ -7,6 +7,7 @@ Carrier aggregation combines multiple network bands to offer more bandwidth and 
 | Spitz AX (GL-X3000)            | √         |
 | Puli AX (GL-XE3000)            | √         |
 | Mudi V2 (GL-E750V2)            | √         |
+| Mudi (GL-E750)                 | √         |
 | Spitz (GL-X750)                | √         |
 | Collie (GL-X300B)              | √         |
 | Puli (GL-XE300)                | √         |

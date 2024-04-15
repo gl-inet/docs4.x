@@ -26,3 +26,7 @@ To check the carrier aggregation status, follow these steps:
 If carrier aggregation is active, you will see multiple network bands shown on the list. 
 
 ![atcainfo](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/carrier-aggregation-information.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

@@ -1,11 +1,16 @@
-# How to check the carrier aggregation status on Spitz AX and Puli AX
+# How to check the carrier aggregation status on your cellular router
 
 Carrier aggregation combines multiple network bands to offer more bandwidth and faster speeds for your cellular connection. You can check the carrier aggregation status via the router admin panel on these GL.iNet cellular routers:
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
-| GL-X3000 (Spitz AX)            | √         |
-| GL-XE3000 (Puli AX)            | √         |
+| Spitz AX (GL-X3000)            | √         |
+| Puli AX (GL-XE3000)            | √         |
+| Mudi V2 (GL-E750V2)            | √         |
+| Spitz (GL-X750)                | √         |
+| Collie (GL-X300B)              | √         |
+| Puli (GL-XE300)                | √         |
+| Cirrus (GL-AP1300LTE)          | √         |
 
 (You cannot enable carrier aggregation within the router admin panel. This feature is provided by your SIM carrier, not GL.iNet.)
 

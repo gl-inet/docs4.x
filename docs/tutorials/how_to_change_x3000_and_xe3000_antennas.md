@@ -1,43 +1,44 @@
-# How to change GL-X3000 and GL-XE3000 antennas
+# How to install or change your Spitz AX's or Puli AX's external antennas
 
-In order to facilitate some customers to replace the antenna of the device, this document is written for description, so that customers can accurately and quickly replace the antenna.
+When you are setting up your Spitz AX (GL-X3000) or Puli AX (GL-XE3000) for the first time, you will have to install the six external antennas included in the package. These external antennas are: 
 
-## Antenna common interface
+* 2 x Wi-Fi antennas (labeled as "WiFi 6")
+* 4 x 5G NR antennas (labeled as "5G NR")
 
-When you replace antennas, pay attention to the matching of device interfaces. Common antenna interfaces are as follows:
+Refer to the sections below to learn how to install or change the antennas. 
 
-![Antenna common interface](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/antenna_type_en.png){class="gl-80-desktop glboxshadow"}
+## Installing the external antennas
 
-## Device antenna type distribution
+To install the antennas, follow these steps: 
 
-X3000/XE3000 antennas include WiFi antennas and 5G NR antennas. The two sides of the network port are WiFi antennas, and the other four are 5G NR antennas. Please be sure to distinguish them clearly, as shown in the following picture
+1. Attach the antennas (in no particular order): 
+    * Attach the two "WiFi 6" antennas to the **WiFi 1** and **WiFi 2** ports. 
+    * Attach the four "5G NR" antennas to the **MAIN**, **DIV**, **MIMO 1**, and **MIMO2** ports. 
+2. Position the antennas upwards for optimal performance. 
 
-![Device antenna type distribution](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/device_antennas.png){class="gl-70-desktop glboxshadow"}
+    ![Antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x3000-antennas.jpg){class="gl-80-desktop glboxshadow"}
 
-## WiFi antenna replacement
+## Changing the external antennas 
 
-The WiFi base antenna of the X3000/XE3000 product is shown in the following picture, which adopts the shape of RP-SMA external thread and internal needle
+You can buy your own Wi-Fi or 5G NR antennas to replace the ones included in the package, for example, if you want to customize your network settings. 
+To ensure you purchase the antennas with the appropriate connectors, refer to the sections below. 
 
-![WiFi antenna device](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/wifi_device.png){class="gl-80-desktop glboxshadow"}
+### Wi-Fi antennas
 
-Therefore, if you buy an external WiFi antenna, please be sure to buy the RP-SMA internal thread and internal hole
+The base of the Wi-Fi antenna uses a **RP-SMA female connector** (external thread and internal needle). It requires a Wi-Fi antenna which uses a **RP-SMA male connector** (internal thread and internal hole).
 
-![WiFi antenna](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/wifi_antenna.png){class="gl-80-desktop glboxshadow"}
+![rp-sma connectors](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/rp-sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
 
-## 5G NR antenna replacement
+### 5G NR antennas
 
-The 5G NR base antenna of the X3000/XE3000 product is shown in the following picture, which adopts the shape of SMA external thread and internal hole
+The base of the 5G NR antenna uses a **SMA female connector** (external thread and internal hole). It requries a 5G NR antenna which uses a **SMA male connector** (internal thread and internal needle).
 
-![5G NR antenna device](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/5g_nr_device.png){class="gl-80-desktop glboxshadow"}
+![sma connectors](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
 
-Therefore, if you buy a 5G NR antenna, please be sure to buy the RP-SMA internal thread and internal needle
+### Troubleshooting: I bought the incorrect antennas
 
-![5G NR antenna](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/5g_nr_antenna.png){class="gl-80-desktop glboxshadow"}
+If you bought the incorrect antennas, you may want to consider buying an adapter which converts between connectors (e.g., SMA-RP male to SMA female). For issues choosing the right adapter, please contact our Support Team via email at [support@glinet.biz](mailto:support@glinet.biz).
 
-## Antenna switch
+---
 
-If you already have the corresponding antenna, but the interface is wrong, please buy the SMA adapter for switching, refer to the following figure 
-
-Note: These pictures from the network, just for reference only, please choose to buy according to your own antenna type, if you don’t know how to choose, please contact our technical support(<support@glinet.biz>)
-
-![antenna_switch](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/antenna_switch.png){class="gl-80-desktop glboxshadow"}
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

@@ -1,4 +1,4 @@
-# How to Block Specific Client Devices on a GL.iNet Router
+# How to block specific client devices on a GL.iNet router
 
 This tutorial will show you how to block specific client devices on a GL.iNet router. By blocking client devices, you prevent unauthorized access to your network. This helps to enhance your network security or control your family's access to the internet.
 

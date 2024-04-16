@@ -1,4 +1,4 @@
-# How to Set Up a Guest Wi-Fi Network on a GL.iNet Router
+# How to set up a guest Wi-Fi network on a GL.iNet router
 
 This tutorial will show you how to set up a guest Wi-Fi network on a GL.iNet router. 
 

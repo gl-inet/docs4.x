@@ -1,139 +1,106 @@
-# Build Your Own OpenVPN Home Server with two GL.iNet Routers
+# How to set Up an OpenVPN server on a GL.iNet router
 
-This article will introduce how to set up your home router as the OpenVPN server and your travel router as the OpenVPN client to connect together remotely, so that you can use your home IP address with the travel router anywhere.
+This tutorial will show you **how to set up an OpenVPN server on a GL.iNet router**. A VPN server allows you to establish a secure connection to your home or office network remotely. With a GL.iNet router, you can set up your OpenVPN server in minutes. 
 
-Here we use our GL-MT6000 as the example to run OpenVPN server at the home site, and you can also choose other models such as MT2500 if you don’t require the wireless capacity. As for the travel router, we use our GL-MT3000 as the example, and you can choose others as well.
+!!! note "Before you start, make sure to check the following requirements:"
+    **A public IP address**
 
-## Why you need to build own your OpenVPN home server
+    Setting up an OpenVPN server requires a public IP address. To check if you have one, follow [these steps](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/). (If do not have a public IP address, you are recommended to use an intranet penetration tool. It allows you to access your VPN server even if you do not have a public IP address.)
 
-1. Use your home IP address as the Internet address, acting as that you are just at home.
-2. No need to pay the monthly fee when comparing with the 3rd parties VPN service.
-3. Route all the Internet traffic to your home network via encrypted VPN tunnel and secure your privacy.
-4. Easy access to your internal resources and local streaming.
+    **Port forwarding**
 
-## Topology
+    If your GL.iNet router is connected to a primary router, you will have to set up port forwarding on the primary router. Refer to the instructions provided by your router manufacturer. 
 
-![topologyovpn](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/topologyovpn.jpg){class="glboxshadow"}
+## 1. Sign in to your router
 
-## Check if you have a Public IP address
+In a web browser, enter 192.168.8.1. Enter your password, then click **Login**.
 
-First, you shall make sure the GL-MT6000 has a Public IP address on its WAN side, so that it can be globally accessed. Otherwise your travel router cannot build up a VPN connection with it while you are traveling.
+![sign in](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/router-login.jpeg){class="glboxshadow"}
 
-To check if you have the Public IP address, please open a web browser and type in [ip.gs](https://ip.gs){target="_blank"} in the address bar.
+## 2. Set up Dynamic DNS (optional)
 
-![myip](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/myip.jpg){class="glboxshadow"}
+Setting up an OpenVPN server requires a static public IP address, which provdes a fixed address for your VPN server to be accessible to other devices. In most cases, you may not have a static public IP address. This requires setting up Dynamic DNS on your GL.iNet router. It allows you to connect to the OpenVPN server even if your public IP address is dynamic (instead of static) and changes constantly. 
 
-It will show your public IP address, if it matches with your WAN IP from your ISP, you are granted a Public IP Address.
+To set up Dynamic DNS, follow these steps: 
 
-If you don’t have a Public IP address, here are some methods for your reference.
+1. In the left sidebar, click **Applications** > **Dynamic DNS**. 
+![dynamic DNS](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/click-dynamic-dns.jpeg){class="glboxshadow"}
+2. Next to **Enable DDNS**, toggle the switch to on. 
+3. Check the box for **I have read and agree to the Terms of Service & Privacy Policy**.
+4. Click **Apply**. 
+![apply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/dynamic-dns-click-apply.jpeg){class="glboxshadow"}
 
-1. if you have a main router, you shall login to it and check if it gets the Public IP from your ISP.
-2. if you can ask your ISP to give you a Public IP address, she may charge an extra fee for it.
-3. if both the above two ways don’t work. For example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](how_to_set_up_openvpn_server_via_astrorelay.md).
+## 3. Download the configuration file
 
-??? "TP-Link as Main Router"
-    ### Your GL-MT6000 connects to an upper router
+1. In the left sidebar, click **VPN** > **OpenVPN Server**.
+![click openvpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/click-openvpn-server.jpeg){class="glboxshadow"}
+2. Click **Generate Configuration**. 
+3. Keep the default settings as-is, then click **Export Client Configuration**. 
+![click export](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/click-export-client-configuration.jpeg){class="glboxshadow"}
+4. If you set up **Dynamic DNS** previously, toggle the switch to on for **Use DDNS Domain**. 
+5. Click **Download**, then save the file. 
+6. At the top, click **Start**.
+![click start](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/openvpn-server-click-start.jpeg){class="glboxshadow"}
 
-    Connect to your home router’s WiFi or LAN, then login the web admin panel. Check the IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
+??? "(Optional) To access the local network of the VPN server, enable these settings:"
+    1. In the left sidebar, click **VPN** > **VPN Dashboard**. 
+    2. Click the Options icon.
+    3. Toggle the switch to on for **Remote Access LAN**.
+    4. Click **Apply**.
+    ![click apply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/openvpn-server-options-apply.jpeg){class="glboxshadow"}
 
-    **Example: A TP-Link Router**
+## 4. Connect to the OpenVPN server
 
-    ![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tp_home.jpg){class="glboxshadow"}
+To connect to the OpenVPN server, you will need an OpenVPN client. You can set it up by using one of these methods below: 
 
-    ### Set up the Port Forwarding on your main router
+* [Method 1: A third-party OpenVPN client app](#method-1-a-third-party-openvpn-client-app) (e.g., [OpenVPN Connect](https://openvpn.net/client/)). Choose this method if you do not have an additional router that supports setting up an OpenVPN client. 
+* [Method 2: A router that supports setting up an OpenVPN client.](#method-2-a-router-that-supports-setting-up-an-openvpn-client) For example, the GL.iNet [Beryl AX](https://www.gl-inet.com/products/gl-mt3000/) travel router.
 
-    1. Login to the web control page of your main router 
-    2. Find out where is the function of port forwarding, different brands may call it by different names
-    3. Find the IP address assigned to GL-MT6000
+### Method 1: A third-party OpenVPN client app
 
-    **Example: A TP-Link Router**
+In this tutorial, we will use the OpenVPN Connect app, the official app developed by OpenVPN Inc, as an example. 
 
-    1. Go to “Advanced” and click “virtual Server”, then “Add”.
-    2. Internal IP (Device IP): It is the IP address assigned to GL-MT6000, you can find it in the client list of TP-Link
-    3. External/Internal port:  Please fill both are "1194"
-    4. Protocol:  You can choose "All or UDP or TCP/UDP"
+1. On another device, connect to a different Wi-Fi network (or connect to cellular if you are using a mobile device.)
+2. Send the configuration file you downloaded earlier (e.g., by email) to the device, then download the file to it. 
+3. Download OpenVPN Connect for your device operating system:
+    * [Windows](https://openvpn.net/client/client-connect-vpn-for-windows/)
+    * [Mac](https://openvpn.net/client-connect-vpn-for-mac-os/)
+    * [Android](https://play.google.com/store/apps/details?id=net.openvpn.openvpn&hl=en&gl=US&pli=1)
+    * [iOS](https://apps.apple.com/us/app/openvpn-connect-openvpn-app/id590379981)
+    * [Linux](https://openvpn.net/openvpn-client-for-linux/)
+4. In the app, read the terms and conditions, then select **Agree**. 
+5. Select **Upload File**.
+![upload file](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tap-upload-file.png){class="glboxshadow"}
+6. Select **Browse**, then select the configuration file you downloaded previously. 
+7. Select **OK**.
+![tap ok](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tap-ok.png){class="glboxshadow"} 
+8. Select **Connect** > **OK** > **Allow**. 
 
-    ![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/tp_port1.jpg){class="glboxshadow"}
+You will see the word "Connected" at the top of the VPN profile. 
+![connected status](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/openvpn-connected-status.png){class="glboxshadow"} 
 
-??? "GL.iNet as Main Router"
+### Method 2: A router that supports setting up an OpenVPN client
 
-    ### Your GL-MT6000 connects to the ISP modem directly
+You can use any routers that support setting up the OpenVPN client manual configuration. In this tutorial, we will use GL.iNet's travel router [Beryl AX (GL-MT3000)](https://www.gl-inet.com/products/gl-mt3000/) as an example. 
 
-    ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/mt6000_home.jpg){class="glboxshadow"}
+1. In a web browser's address, enter 192.168.8.1.
+2. Enter your password, then click **Login**. 
+3. In the left sidebar, tap **VPN** > **OpenVPN Client**. 
+![click openvpn client](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/click-openvpn-client.png){class="glboxshadow"} 
+4. Click **Add Manually**. 
+![click add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/click-add-manually.png){class="glboxshadow"} 
+5. Enter a name in the field, then click the check icon. 
+6. Upload the configuration file you downloaded earlier. 
+![select a file](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/click-select-a-file.png){class="glboxshadow"} 
+7. Click **Apply**. 
+8. Click the three-dot icon, then click **Start**. 
+9. Connect a device to the router running the OpenVPN client. 
 
-    You can see your Public IP shows on the IP Address and you have **No Need** to do port forwarding.
+## 5. Check if you are connected successfully
 
-## Set up the OpenVPN server on GL-MT6000
-
-### Enable DDNS (Optional)
-
-Enable the DDNS function if you do not have a Public Static IP but only have a Public Dynamic IP.
-
-Go to the admin panel >Applications>Dynamic DNS and slide to enable
-
-![serverddns](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/serverddns.jpg){class="glboxshadow"}
-
-Check the box below and click **Apply**.
-
-![ddnsapply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/ddnsapply.jpg){class="glboxshadow"}
-
-Then Go to OpenVPN server, make sure the Listen Port is 1194 and click **Export Client Configuration**.
-
-![ovpnserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/ovpnserver.jpg){class="glboxshadow"}
-
-## Download the Configuration
-
-Slide to use DDNS Domain (Optional if you have dynamic IP only) or click **Download** directly.
-
-![ovpnddnsn](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/ovpnddns.jpg){class="glboxshadow"}
-
-## Find Downloaded Configuration for Client Installation
-
-Find Configuration file from download folder and drag it to the client later.
-
-![ovpnconfigload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/ovpnconfigload.jpg){class="glboxshadow"}
-
-Use the OpenVPN [mobile app](https://openvpn.net/client/) upload the file to test the server.For details please click [here](../interface_guide/openvpn_server.md#to-check-if-openvpn-server-is-working-properly).
-
-
-## Set up the WireGuard Client on GL-MT3000
-
-### Change the LAN IP
-
-Login to the admin panel of GL-MT3000 and go to the **Netwrok** on the side bar and change the LAN IP.
-
-[Change the LAN IP](../interface_guide/lan.md)
-
-### Add the Configuration
-
-Go to the OpenVPN Client and click **Add Manually**.
-
-![addovpnclient1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/addovpnclient1.jpg){class="glboxshadow"}
-
-Create a name for the connection and drag the configuration downloaded to the box.
-
-![addovpnclient2](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/addovpnclient2.jpg){class="glboxshadow"}
-
-You will see **Upload successful** then please click **Apply**.
-
-![addovpnclient3](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/addovpnclient3.jpg){class="glboxshadow"}
-
-## Connect your Client GL-MT3000 to your GL-MT6000 Server
-
-Click the name you just created, and it will show you the configuration you just loaded then click **Start**.
-
-![ovpnstart](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/ovpnstart.jpg){class="glboxshadow"}
-
-You will see your client is connecting to the server now with your Home Public IP or your DDNS address enabled.
-
-![ovpnconnect](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/ovpnconnect.jpg){class="glboxshadow"}
-
-## Use GoodCloud to manage the routers remotely in case of any problems when you are traveling
-
-Sometimes your server may be down due to a power outage or other reasons, in order to maintain the accessibility of your server, please bind it our GoodCloud also. 
+To check if you are connected to the OpenVPN server successfully, look up your IP address online. If it matches the one provided by your internet service provider to your network, you are connected to the OpenVPN server successfully. 
 
 ---
 
-Related Articles
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
 
-- [The GoodCloud](../interface_guide/cloud.md)

@@ -1,4 +1,4 @@
-# How to Set Up Drop-In Gateway on a GL.iNet Router 
+# How to set up drop-in gateway on a GL.iNet router 
 
 GL.iNet offers the drop-in gateway feature, which enhances the functionality of your primary router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. By using this feature, you can keep using your primary router as usual while enjoying additional features. 
 

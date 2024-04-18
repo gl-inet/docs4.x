@@ -175,16 +175,14 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     3. You can also use [mobile app](../faq/mobile_app.md) to setup Mullvad.
 
-??? "ANONINE"
-    ### ANONINE
+??? "PIA (Private Internet Access)"
+    ### PIA (Private Internet Access)
 
-    [Official Website](https://anonine.com/){target="_blank"}
+    [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
-    Fellow the guide below to generate WireGuard configs.
+    It can't downlaod the WireGaurd configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
 
-    [Windows](https://help.anonine.com/support/solutions/articles/5000817193-anonine-wireguard-installation-guide-for-windows-10){target="_blank"}, [macOS](https://help.anonine.com/support/solutions/articles/5000817206-anonine-wireguard-installation-guide-for-macos){target="_blank"}, [Ubuntu](https://help.anonine.com/support/solutions/articles/5000817191--anonine-wireguard-installation-guide-for-ubuntu-18-04){target="_blank"}, [Android](https://help.anonine.com/support/solutions/articles/5000817310--anonine-wireguard-installation-for-android){target="_blank"}, [iOS](https://help.anonine.com/support/solutions/articles/5000823286--anonine-wireguard-installation-for-ios){target="_blank"}
-
-    Then follow the [guide](#setup-wireguard-client) to continue.
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ??? "AirVPN"
     ### AirVPN
@@ -277,15 +275,6 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
     4. Then follow the [guide](#setup-wireguard-client) to continue.
 
     5. You can also use [mobile app](../faq/mobile_app.md) to setup OVPN.
-
-??? "PIA (Private Internet Access)"
-    ### PIA (Private Internet Access)
-
-    [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
-
-    It can't downlaod the WireGaurd configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ??? "PrivateVPN"
     ### PrivateVPN
@@ -477,6 +466,17 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
     Login then access the [WireGuard Config Generator](https://windscribe.com/getconfig/wireguard){target="_blank"}. Select location and port you'd like to use, then click Download Config.
 
     ![windscribe WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/windscribe/windscribe_01.jpg){class="glboxshadow"}
+
+    Then follow the [guide](#setup-wireguard-client) to continue.
+
+??? "ANONINE"
+    ### ANONINE
+
+    [Official Website](https://anonine.com/){target="_blank"}
+
+    Fellow the guide below to generate WireGuard configs.
+
+    [Windows](https://help.anonine.com/support/solutions/articles/5000817193-anonine-wireguard-installation-guide-for-windows-10){target="_blank"}, [macOS](https://help.anonine.com/support/solutions/articles/5000817206-anonine-wireguard-installation-guide-for-macos){target="_blank"}, [Ubuntu](https://help.anonine.com/support/solutions/articles/5000817191--anonine-wireguard-installation-guide-for-ubuntu-18-04){target="_blank"}, [Android](https://help.anonine.com/support/solutions/articles/5000817310--anonine-wireguard-installation-for-android){target="_blank"}, [iOS](https://help.anonine.com/support/solutions/articles/5000823286--anonine-wireguard-installation-for-ios){target="_blank"}
 
     Then follow the [guide](#setup-wireguard-client) to continue.
 

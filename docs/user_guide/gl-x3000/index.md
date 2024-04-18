@@ -4,7 +4,7 @@
 
 To set up Spitz AX, you will use one of the four supported internet connection methods: Cellular (SIM cards), ethernet, repeater, and tethering. Follow the steps below. 
 
-!!! note "If you are connecting via the cellular method"
+!!! note "Before you start, follow these steps (if connecting via the cellular method):"
 
     To connect to the internet via the cellular method, you will need at least one nano SIM card. Once you have the nano SIM card(s) ready, follow these steps:
     
@@ -20,59 +20,47 @@ Put the two-piece power adapter together. Connect it to your router and plug it 
 
 Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
-#### Wi-Fi
+=== "Wi-Fi"
 
-On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
+    On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
-#### Ethernet
+=== "Ethernet"
 
-Connect your device to the router's LAN port using an ethernet cable. 
+    Connect your device to the router's LAN port using an ethernet cable. 
 
 ### 3. Connect the Spitz AX to the internet 
 
-**Note:** The following instructions were written for those using the router admin panel to connect the router to the internet. If you want to use the GL.iNet app instead of the admin panel, download the app from your device's app store and follow the on-screen instructions. 
+**Note:** The following instructions were written for those using the router admin panel to connect the router to the internet. If you want to use the GL.iNet app instead of the admin panel, [download the app](https://www.gl-inet.com/app/) and follow the on-screen instructions. 
 
-#### a. Sign in to the router admin panel 
+#### 1. Sign in to the router admin panel 
 
-i. In a web browser's address bar, enter 192.168.8.1.
+In a web browser's address bar, enter 192.168.8.1. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
-ii. Choose your language, then click **Next**.
+#### 2. Set up your internet connection method(s)
 
-iii. Set your admin password, then click **Apply**. 
+=== "Cellular"
+    If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
+    
+    For issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](https://docs.gl-inet.com/router/en/4/faq/gl-x3000_gl-xe3000_connection_optimization/). 
 
-#### b. Set up your internet connection method(s)
+=== "Ethernet"
+    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
 
-**Note:** To use the multi-WAN feature, you will have to set up more than one internet connection methods below for failover and load balancing to function.
+=== "Repeater"
+    1. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
+    2. Select a Wi-Fi network. 
+    3. Enter the network password, then click **Apply**.
+    
+    If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name. 
 
-**The Cellular Method**
+=== "Tethering"
+    1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
+    2. In your mobile device's settings, enable tethering. 
+    3. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
+    
+    If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
-If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
-
-**Note:** If you are having issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](https://docs.gl-inet.com/router/en/4/faq/gl-x3000_gl-xe3000_connection_optimization/). 
-
-**The Ethernet Method**
-
-Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
-
-**The Repeater Method**
-
-i. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
-
-ii. Select a Wi-Fi network. 
-
-iii. Enter the network password, then click **Apply**.
-
-If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name. 
-
-**The Tethering Method**
-
-i. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
-
-ii. In your mobile device's settings, enable tethering. 
-
-iii. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
-
-If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
+**Note:** If you want to use the multi-WAN feature, you will have to set up more than one internet connection methods. 
 
 ---
 
@@ -98,7 +86,7 @@ To set up WireGuard, follow these tutorials:
 
 ---
 
-## How to set up tailscale
+## How to set up Tailscale
 
 Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
 

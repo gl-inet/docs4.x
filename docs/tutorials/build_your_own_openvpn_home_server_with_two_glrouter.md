@@ -9,7 +9,7 @@ This tutorial will show you **how to set up an OpenVPN server on a GL.iNet route
 
     **Port forwarding**
 
-    If your GL.iNet router is connected to a primary router, you will have to set up port forwarding on the primary router. Refer to the instructions provided by your router manufacturer. 
+    If your GL.iNet router is connected to a primary router, you will have to [set up port forwarding on the primary router](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/).
 
 ## 1. Sign in to your router
 

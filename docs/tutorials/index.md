@@ -35,6 +35,7 @@ Learn how to use our devices correctly with detailed steps.
 ## Network
 
 * [How to set up a guest Wi-Fi network on a GL.iNet router](how_to_set_up_a_guest_network.md)
+* [How to set up port forwarding on your primary router](how_to_set_up_port_forwarding.md)
 
 ## Network Sharing
 

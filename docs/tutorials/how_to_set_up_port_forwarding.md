@@ -1,6 +1,6 @@
 # How to set up port forwarding on your primary router
 
-If you are setting up a server (such as an [OpenVPN server](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_openvpn_home_server_with_two_glrouter/) or [WireGuard server](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers/)) on your GL.iNet router and it is connected to a primary router, you will have to set up port forwarding on the primary router. This ensures the server to be accessible properly. 
+If you are setting up a server (such as an [OpenVPN server](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_openvpn_home_server_with_two_glrouter/) or [WireGuard server](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers/)) on your GL.iNet router and it is connected to a primary router, you will have to set up port forwarding on the primary router. This ensures the server to be accessible properly. (Note that if there are other routers between the primary router and the GL.iNet router, you will have set up port forwarding on all these preceding routers.)
 
 The steps for setting up port forwarding vary depending on the brand and model of your router. Refer to the section appropriate to you below. 
 
@@ -15,10 +15,10 @@ If your primary router is a GL.iNet router, follow these steps to set up port fo
     * **Name:** Enter any name for the rule.
     * **Protocol:** Keep it as-is. 
     * **External Zone:** Keep it as-is. 
-    * **External Port:** Enter **1194** (if you are setting up an OpenVPN server) or **51820** (if you are setting up a WireGuard server).
+    * **External Port:** Enter the port you are using. For example, the default ports are **1194** (for OpenVPN servers) and **51820** (for WireGuard servers).
     * **Internal Zone:** Keep it as-is. 
     * **Internal IP:** Select the router you want to forward your port to. 
-    * **Internal Port:** Enter **1194** (if you are setting up an OpenVPN server) or **51820** (if you are setting up a WireGuard server).
+    * **Internal Port:** Enter the port you are using. For example, the default ports are **1194** (for OpenVPN servers) and **51820** (for WireGuard servers).
 5. Click **Apply**. 
 
 ## Other router brands as my primary router
@@ -27,7 +27,7 @@ If your primary router is a GL.iNet router, follow these steps to set up port fo
 
     Different router brands and models have different ways of naming the information you have to provide when you set up port forwarding. In general, make sure to enter the following information on the router's port forwarding screen:
     
-    * **External port/Internal port:** Enter **1194** (if you are setting up an OpenVPN server) or **51820** (if you are setting up a WireGuard server).
+    * **External port/Internal port:** Enter the port you are using. For example, the default ports are **1194** (for OpenVPN servers) and **51820** (for WireGuard servers).
     * **Protocol:** Choose **All** or **UDP/TCP**.
     * **Internal IP** (or shown as **Host IP**): Enter your secondary router's WAN IP address or select your secondary router from the dropdown if available. 
 

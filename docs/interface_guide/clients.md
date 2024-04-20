@@ -27,7 +27,7 @@ Enable **Block** toggle to block client device, the blocked device can't access 
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients.png){class="glboxshadow"}
 
 
-Blacklist: Devices with MAC addresses on the prohibited list are not allowed to connect to this router. 
+Blacklist: Devices with MAC addresses on the prohibited list are not allowed to connect to this router.
 
 Whitelist: Only devices with specific MAC addresses are allowed to connect, suitable for IoT devices and enterprise network management.
 
@@ -69,7 +69,7 @@ The speed here is the average speed over 3 minutes.
 
 The current sort type is displayed in the upper right corner, and you can switch to other sort types.
 
-The default sort type: 
+The default sort type:
 
 - The self device is alway s on top
 - In online client sector, the later the device is connected, the higher it is on top.
@@ -90,11 +90,21 @@ If a client has applied speed limitation, its up arrow and down arrow of speed w
 
 Click the three dots icon in the Action column to disable limiting.
 
+## Client Details
+
+If you need to view the IPv6 address of the client device. Or if the list does not show the column you need to view because you are browsing with a small-screen client device. Please click the three dots icon in the action column and then click the **View Details** item in the pop-up menu.
+
+![remove clients](/clients/view_detail.png){class="glboxshadow"}
+
+After that, you can see all the information about the client device in the opened subpage, including all IPv6 addresses of the device.
+
+![remove clients](/clients/client_detail.png){class="glboxshadow"}
+
 ## Remove Offline Clients
 
 In the offline clients sector, you can **Delete All** offline clients. If you want to remove specific client, please click the three dots icon in the action column, in the menu that pops up, click **Remove Client** item.
 
-![remove clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_client.png){class="glboxshadow"}
+![remove clients](/clients/remove_client.png){class="glboxshadow"}
 
 ---
 

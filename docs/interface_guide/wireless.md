@@ -4,39 +4,53 @@ The wireless interface may vary a bit from model to model, here is an example of
 
 On the left side of web Admin Panel -> WIRELESS
 
-**Note**: Some models do not have 5G WiFi, e.g. GL-S200, GL-X300B(Collie).
+**Note**: Some models do not have 5G Wi-Fi, e.g. GL-S200, GL-X300B(Collie).
 
-**Note**: Some models do not have WiFi, e.g. GL-MT2500/GL-MT2500A(Brume 2), GL-MV1000(Brume)
+**Note**: Some models do not have Wi-Fi, e.g. GL-MT2500/GL-MT2500A(Brume 2), GL-MV1000(Brume)
 
-## Main WiFi
+## Wi-Fi Status
 
-* 5G WiFi
+When Wi-Fi is enabled, the corresponding Wi-Fi icon will light up below the device model image on the Internet page.
 
-    ![main wifi 5g](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/main_wifi_5g.png){class="glboxshadow"}
+![wifi status](/internet/wifi_status.png){class="glboxshadow"}
+
+The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi icon. You can scan the Wi-Fi QR code using your Phone/Pad to quickly connect to the corresponding Wi-Fi.
+
+![wifi qr code](/internet/wifi_qr_code.png){class="glboxshadow"}
+
+## Main Wi-Fi
+
+* 5G Wi-Fi
+
+    ![main wifi 5g](/wireless/main_wifi_5g.png){class="glboxshadow"}
 
     **Note**:
 
+    * The Wi-Fi QR code will be displayed if the cursor hovers over the QR code icon beside the SSID Label. You can scan the Wi-Fi QR code using your Phone/Pad to quickly connect to the corresponding Wi-Fi.
+
+        ![wifi qr code](/wireless/wifi_qr_code.png){class="glboxshadow"}
+
     * The **Bandwidth** and **Channel** can't be modified when [repeater](internet_repeater.md) is enabled.
-    * When **Channel** set as **Auto**, WiFi will not automatically switch to the DFS channel.
+    * When **Channel** set as **Auto**, Wi-Fi will not automatically switch to the DFS channel.
     * When switch to DFS channel from non-DFS channel, it will pop up a caution.
 
         ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
-    * When the **Bandwidth** is set to 160 MHz (Only some models can be set to 160MHz), WiFi will always use the DFS channel, even if you choose a non-DFS channel of the **Auto** option.
+    * When the **Bandwidth** is set to 160 MHz (Only some models can be set to 160MHz), Wi-Fi will always use the DFS channel, even if you choose a non-DFS channel of the **Auto** option.
 
-* 2.4G WiFi
+* 2.4G Wi-Fi
 
-    ![main wifi 2.4g](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/main_wifi_2.4g.png){class="glboxshadow"}
+    ![main wifi 2.4g](/wireless/main_wifi_2.4g.png){class="glboxshadow"}
 
-## Guest WiFi
+## Guest Wi-Fi
 
-* 5G Guest WiFi
+* 5G Guest Wi-Fi
 
-    ![guest wifi 5g](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/guest_wifi_5g.png){class="glboxshadow"}
+    ![guest wifi 5g](/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
-* 2.4G Guest WiFi
+* 2.4G Guest Wi-Fi
 
-    ![guest wifi 2.4g](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
+    ![guest wifi 2.4g](/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
 ---
 

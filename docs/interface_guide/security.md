@@ -135,6 +135,25 @@ After enabling remote access, specific locations can be set to allow access, suc
 
 ![add_ip_address_list](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_list.png){class="glboxshadow"}
 
+---
+
+## Open Ports on Router
+
+The router's services, such as web and FTP, requires their respective ports to be opened on the router in order to be publicly reachable.
+
+To open a port, click **Add**.
+
+![open Ports on router](/security/open_ports_on_router.png){class="glboxshadow"}
+
+![open Ports on router](/security/add_new_open_port.png){class="glboxshadow"}
+
+**Name:** The name of the rule which can be specified by the user.
+
+**Protocol:** The protocol used, you can choose TCP, UDP, or both TCP and UDP.
+
+**Port:** The port number that you want to open.
+
+**Enable:** Enable or disable of the rule.
 
 ---
 

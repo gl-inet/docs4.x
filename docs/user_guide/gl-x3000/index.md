@@ -2,7 +2,10 @@
 
 ## How to set up Spitz AX
 
-To set up Spitz AX, you will use one of the four supported internet connection methods: Cellular (SIM cards), ethernet, repeater, and tethering. Follow the steps below. 
+To set up Spitz AX, you will use one of the four supported internet connection methods: Cellular (SIM cards), ethernet, repeater, and tethering. Watch this setup video or follow the steps below. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Spitz AX and other router models.)</small>
 
 !!! note "Before you start, follow these steps (if connecting via the cellular method):"
 
@@ -66,43 +69,37 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tailscale. 
 
-Spitz AX (and other GL.iNet routers) support the OpenVPN and WireGuard protocols. Both protocols offer strong security, but Wireguard offers greater speeds and convenience. If you do not have a preference in which VPN protocol to use, you can use WireGuard. 
 
-### OpenVPN 
+=== "OpenVPN" 
+    Spitz AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
-To set up OpenVPN, follow these tutorials:
+    * [How to set up an OpenVPN client](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/)
+    * [How to set up an OpenVPN server](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_server/)
 
-* [How to set up an OpenVPN client](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/)
-* [How to set up an OpenVPN server](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_server/)
+=== "WireGuard"
+    Spitz AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
-### WireGuard
+    * [How to set up a WireGuard client](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
+    * [How to set up a WireGuard server](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
 
-To set up WireGuard, follow these tutorials:
-
-* [How to set up a WireGuard client](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
-* [How to set up a WireGuard server](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
-
----
-
-## How to set up Tailscale
-
-Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
-
----
-
-## How to set up multi-WAN (failover and load-balancing)
-
-Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
-
-To set up multi-WAN, refer to [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/). 
+=== "Tailscale"
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up Tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
 
 ---
 
 ## How to set up port forwarding
 
 Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](https://docs.gl-inet.com/router/en/4/interface_guide/firewall/#port-forwards). 
+
+--- 
+
+## How to set up multi-WAN (failover and load-balancing)
+
+Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+
+To set up multi-WAN, refer to [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/). 
 
 ---
 

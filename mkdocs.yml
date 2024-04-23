@@ -180,6 +180,7 @@ nav:
       - How to manually configure static IP: tutorials/manually_configure_static_ip.md
       - How to check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
       - How to block client devices: tutorials/how_to_block_client_devices.md
+      - How to upgrade or downgrade your router (from v4.x to v4.x): tutorials/how_to_upgrade_downgrade_router.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:

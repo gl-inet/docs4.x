@@ -42,14 +42,23 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 #### 2. Set up your internet connection method(s)
 
 === "Cellular"
+
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_cellular.jpg){class='glboxshadow'}
+
     If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
     
     For issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](https://docs.gl-inet.com/router/en/4/faq/gl-x3000_gl-xe3000_connection_optimization/). 
 
 === "Ethernet"
+
+    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_ethernet.jpg){class='glboxshadow'}
+    
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
 
 === "Repeater"
+
+    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_repeater.jpg){class='glboxshadow'}
+
     1. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
@@ -57,6 +66,9 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
     If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name. 
 
 === "Tethering"
+
+     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_tethering.jpg){class='glboxshadow'}
+
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
     3. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
@@ -120,6 +132,17 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     To set up parental controls, refer to [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control). 
 
 ---
+
+## System settings
+
+* To reset the router's admin password, follow [these instructions](http://127.0.0.1:8000/router/en/4/interface_guide/admin_password/). 
+* To reset the router's firmware, follow [these instructions](https://docs.gl-inet.com/router/en/4/faq/repair_network_or_reset_firmware/). 
+* To reset the router's time zone, follow [these instructions](https://docs.gl-inet.com/router/en/4/interface_guide/time_zone/). 
+* To set scheduled tasks, follow [these instructions](https://docs.gl-inet.com/router/en/4/interface_guide/scheduled_tasks/). 
+* To set up custom DNS servers, follow [these instructions](https://docs.gl-inet.com/router/en/4/interface_guide/dns/). 
+* To view system logs, follow [these instructions](https://docs.gl-inet.com/router/en/4/interface_guide/log/). 
+
+--- 
 
 ## Product overview
 

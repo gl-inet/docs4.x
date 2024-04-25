@@ -1,35 +1,35 @@
-# Network Acceleration
+# ネットワーク・アクセラレーション
 
-[Hardware Acceleration](hardware_acceleration.md) features have been renamed to Network Acceleration since v4.3.
+[ハードウェア・アクセラレーション](hardware_acceleration.md) 機能はv4.3からネットワーク・アクセラレーションに名称が変更されました。
 
-Network acceleration reduces CPU load and speeds up traffic packet forwarding, but can conflict with some features.
+ネットワーク・アクセラレーションはCPU負荷を軽減し、トラフィックのパケット転送を高速化するが、いくつかの機能と競合する可能性があります。
 
-When Network acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics, Client Speed Limit.
+ネットワークアクセラレーションが有効な場合、以下の機能は正常に動作しません： クライアント速度とトラフィック統計、クライアント速度制限。
 
-The following models have this option:
+以下のモデルにこのオプションがあります：
 
 GL-XE3000(Puli AX), GL-X3000(Spitz AX), GL-MT2500(Brume 2), GL-MT3000(Beryl AX), GL-MT2500A(Brume 2), GL-SFT1200(Opal), GL-MT1300(Beryl)
 
-## Setup
+## セットアップ
 
-On the left side of web Admin Panel -> NETWORK -> Network Acceleration.
+ウェブ管理パネルの左側 -> ネットワーク -> ネットワーク・アクセラレーション。
 
 ![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/network_acceleration/network_acceleration.png){class="glboxshadow"}
 
-Mode has three options.
+モードには 3 つのオプションがあります。
 
-- Auto
+- オート
     
-    Auto mode will automatically switch between the two acceleration modes based on actual usage.
+    オートモードは、実際の使用状況に応じて2つの加速モードを自動的に切り替えます。
 
-- Hardware Acceleration
+- ハードウェア・アクセラレーション
 
-    Hardware acceleration works on Ethernet and Repeater.
+    ハードウェア アクセラレーションはイーサネットとリピーターで機能します。
 
-- Software Acceleration
+- ソフトウェアアクセラレーション
 
-    Software acceleration works on Cellular.
+    ソフトウェア・アクセラレーションはセルラーで機能します。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

@@ -1,47 +1,47 @@
 # LAN
 
-On the left side of web Admin Panel -> NETWORK -> LAN
+ウェブ管理画面の左側 -> NETWORK -> LAN
 
 ## LAN
 
-The LAN is the network if your devices connect to the Main WiFi or connect via an ethernet cable.
+LANは、あなたのデバイスがメインWiFiに接続するか、イーサネットケーブルを介して接続する場合のネットワークです。
 
-The **Router IP Address** is **192.168.8.1** by default. You can change it if it conflicts with your network.
+**ルーターIPアドレス** はデフォルトで**192.168.8.1** です。ネットワークと競合する場合は変更できます。
 
 ![lan simple set](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/lan_simple_set.jpg){class="glboxshadow"}
 
-### Security Settings
+### セキュリティ設定
 
-**Client Isolation**: You can isolate your network's client devices into a separate network area.These devices cannot communicate with other devices or with each other on the network.
+**クライアントの隔離**: ネットワークのクライアント デバイスを別のネットワーク領域に分離できます。これらのデバイスは、他のデバイスと通信したり、ネットワーク上で相互に通信したりすることはできません。
 
-## DHCP Server
+## DHCPサーバー
 
-The **DHCP Server** is enabled by default.The DHCP server automatically assigning IP addresses and other communication parameters to each client devices.If the DHCP server is disabled, you will have to configure them manually for each client. [How to manually configure static ip?](../tutorials/manually_configure_static_ip.md)
+*DHCP サーバー**はデフォルトで有効になっています。DHCP サーバーは、各クライアント デバイスに IP アドレスとその他の通信パラメータを自動的に割り当てます。DHCP サーバーが無効になっている場合は、クライアントごとに手動で設定する必要があります。 [静的IPを手動で設定する方法は？](../tutorials/manually_configure_static_ip.md)
 
-You can change the starting and ending IP addresses to suit your needs, for example, if the size of the network expands or shrinks, if there are IP address conflicts in the network, or if the subnet mask or IP address range has changed.
+例えば、ネットワークの規模が拡大または縮小した場合、ネットワーク内でIPアドレスの競合が発生した場合、サブネットマスクやIPアドレスの範囲が変更された場合など、必要に応じて開始IPアドレスと終了IPアドレスを変更することができます。
 
 ![dhcp_simple_set](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_simple_set.jpg){class="glboxshadow"}
 
-### Advanced
+### アドバンスト
 
-You can click **Advanced** for more manually settings.
+**アドバンスト**をクリックすると、さらに手動で設定できます。
 
 ![lan page, private network advanced](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_advanced_set.jpg){class="glboxshadow"}
 
-## Address Reservation
+## アドレス予約
 
-When you specify a reserved IP address for a client within the LAN, the client always receives the same IP address each time it accesses the router’s DHCP server. You can assign reserved IP addresses to computers or servers that require permanent IP settings.
+LAN 内のクライアントに予約 IPアドレスを 指定する と 、クライアントは、 ルータ の DHCP サーバーにア クセスするたびに、 常に同じ IP アドレスを受信します。予約 IP アドレスは、 永続的な IP 設定を必要 とするコンピ ュータ またはサーバーに割 り 当てる こ とができます。
 
-**Note:** Configured clients have to reconnect the router to activate.
+**注意:** 設定されたクライアントは、アクティベートするためにルーターに再接続する必要があります。
 
-Click **Add** to reserve an IP.
+**追加** をクリックして IP を予約します。
 
 ![lan page, Address Reservation](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/reserve_ip.png){class="glboxshadow"}
 
-Select the **MAC**, it will fill the **IP** automatically after select MAC. Give it a descriptive name. Then click **Submit**.
+**MAC** を選択します。MAC を選択すると、**IP** が自動的に入力されます。 わかりやすい名前を付けてください。 次に、**送信** をクリックします。
 
 ![lan page, Address Reservation, add a new reservation entry](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/add_a_new_reservation_entry.png){class="glboxshadow"}
 
-After adding a new IP address reservation.
+新しい IP アドレス予約を追加した後：
 
 ![lan page, added reserve ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/reserve_ip_added.png){class="glboxshadow"}

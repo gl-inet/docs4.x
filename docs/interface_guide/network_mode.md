@@ -1,37 +1,37 @@
-# Network Mode
+# ネットワーク・モード
 
-On the left side of web Admin Panel -> NETWORK -> Network Mode
+管理画面の左側→ネットワーク→ネットワークモード
 
-When you change the router's network mode, you may need to re-connect all your client devices.
+ルータのネットワークモードを変更すると、すべてのクライアントデバイスを再接続する必要がある場合があります。
 
-When you use Access Point/Extender/WDS mode, you may not connect to the web Admin Panel again. Try to access the web Admin Panel by the IP address that parent router assigned to this router. Or you can Press and hold the reset button for 4 seconds to revert to Router mode.
+アクセスポイント/エクステンダー/WDSモードを使用すると、Web管理パネルに再度接続できない場合があります。親ルーターがこのルーターに割り当てたIPアドレスでウェブ管理パネルにアクセスしてみてください。または、リセットボタンを4秒間長押しすると、ルーターモードに戻ります。
 
-## For models that have Wi-Fi
+## Wi-Fi搭載モデルの場合
 
-Here is an example of GL-AXT1800.
+こちらはGL-AXT1800の例です。
 
-**Note:** some models do not support WDS mode.
+**注意：** 一部のモデルはWDSモードをサポートしていません。
 
 ![network mode](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
 
-- **Router**. Create your own private network. The router will act as NAT, firewall and DHCP server. This is the default mode.
+- **ルーター**. あなただけのプライベートネットワークを構築しましょう。ルーターはNAT、ファイアウォール、DHCPサーバーとして機能します。これがデフォルトモードです。
 
-- **Access Point**. Connect to a wired network and broadcast a wireless network.
+- **アクセス・ポイント**. 有線ネットワークに接続し、無線ネットワークをブロードキャストします。 
 
-- **Extender**. Extend the Wi-Fi coverage of an existing wireless network.
+- **エクステンダー**. 既存のワイヤレスネットワークのWi-Fiカバレッジを拡張します。
 
-- **WDS**. Similar to Extender, please choose WDS if your main router supports WDS mode.
+- **WDS**. エクステンダーと同様に、メインルーターが WDS モードをサポートしている場合は、WDS を選択してください。
 
-## For models that don't have Wi-Fi
+## Wi-Fi非搭載モデルの場合
 
-Here is an example of GL-MT2500/GL-MT2500A. It doesn't have Access Point, Extender, WDS, modes, but it has Bridge mode.
+以下はGL-MT2500/GL-MT2500Aの例です。 アクセス ポイント、エクステンダー、WDS モードはありませんが、ブリッジ モードがあります。
 
 ![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
 
-- **Router**. Create your own private network. The router will act as NAT, firewall and DHCP server. This is the default mode.
+- **ルーター**. あなただけのプライベートネットワークを構築しましょう。ルーターはNAT、ファイアウォール、DHCPサーバーとして機能します。これがデフォルトモードです。
 
-- **Bridge**. Connect to a wired network. Bridge mode is a networking feature that allows two routers together. When it enabled, it essentially turns the the router into a switch. The bridge-enabled router will still transfer data, but it won't perform traditional Network Access Translation (NAT) processes.
+- **ブリッジ**. 有線ネットワークに接続します。ブリッジモードは、2台のルーターを一緒に使えるようにするネットワーク機能です。有効にする と 、本質的にはルータをスイッチに変えます。ブリッジ対応ルーターはデータを転送しますが、従来のネットワークアクセス変換（NAT）プロセスは実行しません。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

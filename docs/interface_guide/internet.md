@@ -1,25 +1,25 @@
-# Internet
+# インターネット
 
-On the left side of web Admin Panel -> INTERNET
+ウェブ管理画面の左側 -> INTERNET
 
-The internet page is the home page. The top half has a diagram showing the status, and the bottom half has several types of Internet access, up to 4 types, [Ethernet](internet_ethernet.md), [Repeater](internet_repeater.md), [Tethering](internet_tethering.md), [Cellular](internet_cellular.md).
+インターネットのページがホームページです。上半分にはステータスを示す図があり、下半分にはいくつかのインターネットアクセスの種類があり、 [イーサネット](internet_ethernet.md), [リピータ](internet_repeater.md), [テザリング](internet_tethering.md), [セルラー](internet_cellular.md)の最大4種類です。
 
-## Status Diagram
+## ステータス図
 
 ![status diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/status_diagram.png){class="glboxshadow"}
 
-- The left side of the diagram shows the current status of Internet access. A solid green line indicates that the network connection is available, a dashed gray line indicates that the network connection is not available, a solid white line and yellow triangle exclamation indicates that the connection is connected but cannot access the Internet.
-- In the middle of the diagram is the current router model number and the status of [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard.md), [Tor](tor.md), [5G main WiFi](wireless.md), [2.4G main WiFi](wireless.md), [5G Guest WiFi](wireless.md) and [2.4G Guest WiFi](wireless.md), with green indicating the feature is on and gray indicating the feature is off. The white color of [VPN](vpn_dashboard.md) or [Tor](tor.md) means the connection is in progress.
-- The right side of the diagram shows the devices connected to the router, [Clients](clients.md), and the top right corner shows the devices connected by wireless, and the bottom right corner shows the devices connected by wired, and the number of devices connected is shown.
+- 図の左側は、インターネットアクセスの現在の状態を示しています。緑の実線はネットワーク接続が利用可能であることを示し、グレーの破線はネットワーク接続が利用不可能であることを示し、白の実線と黄色の三角形のエクスクラメーションは接続されているがインターネットにアクセスできないことを示しています。
+- 図の中央には、現在のルーターの型番と、 [AdGuard Home](adguardhome.md)、 [IPv6](ipv6.md)、 [VPN](vpn_dashboard.md)、 [Tor](tor.md)、 [5G main WiFi](wireless.md)、 [2.4G main WiFi](wireless.md)、 [5G Guest WiFi](wireless.md) と[2.4G Guest WiFi](wireless.md)のステータスが表示され、緑色は機能がオン、グレーは機能がオフであることを示します。[VPN](vpn_dashboard.md)または [Tor](tor.md) の白色は接続中を意味します。
+- 図の右側にはルーターに接続されているデバイス [Clients](clients.md)が表示され、右上には無線で接続されているデバイス、右下には有線で接続されているデバイスまた接続されているデバイスの数が表示されています。
 
-## Internet Access Methods
+## インターネット・アクセス方法
 
-There are up to 4 types of Internet access, please refer to the corresponding tutorials
+インターネットアクセスには最大4つのタイプがあり、対応するチュートリアルを参照してください。
 
-- [Ethernet tutorial](internet_ethernet.md)
-- [Repeater tutorial](internet_repeater.md)
-- [Tethering tutorial](internet_tethering.md)
-- [Cellular tutorial](internet_cellular.md)
+- [イーサネット・チュートリアル](internet_ethernet.md)
+- [リピーター・チュートリアル](internet_repeater.md)
+- [テザリング・チュートリアル](internet_tethering.md)
+- [セルラー・チュートリアル](internet_cellular.md)
 
 ---
 

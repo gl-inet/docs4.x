@@ -1,14 +1,14 @@
-# Log
+# ログ
 
-On the left side of web Admin Panel -> SYSTEM -> Log.
+管理画面の左側にある「システム（SYSTEM）」→「ログ（LOG）」をクリックします。
 
-The Log page allows you to view logs of System, Kernel, Crash, Cloud for analysis and troubleshooting.
+ログページでは、分析およびトラブルシューティングのために、システム、カーネル、クラッシュ、クラウドのログを表示できます。
 
 ![log page](https://static.gl-inet.com/docs/router/en/4/tutorials/log/log_system.png){class="glboxshadow"}
 
-Click **Refresh** to get the latest log information.
+最新のログ情報を取得するには、**更新**をクリックしてください。
 
-Click **Export Log** to export log information of System, Kernel, Crash and Cloud. When you give feedback to GL.iNet, you can send the exported log file to GL.iNet technical support for faster problem analysis.
+システム、カーネル、クラッシュ、クラウドのログ情報をエクスポートするには、**ログのエクスポート**をクリックしてください。GL.iNetにフィードバックする場合、エクスポートされたログファイルをGL.iNetテクニカルサポートに送信し、より早く問題を分析することができます。
 
 ---
 

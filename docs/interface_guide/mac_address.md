@@ -1,28 +1,28 @@
-# MAC Address
+# MACアドレス
 
-On the left side of web Admin Panel -> NETWORK -> MAC Address
+ウェブ管理パネルの左側 -> ネットワーク -> MACアドレス
 
-The MAC Address page was previously called MAC Clone and has been changed to MAC Address since v4.2.
+MAC アドレスページは、以前はMAC クローンと呼ばれていましたが、v4.2 からMAC アドレスに変更されました。
 
-On this page, you can find the router's default MAC address, clone a client's MAC address, enter a MAC address manually, or generate a random MAC address.
+このページでは、ルーターのデフォルトMACアドレス、クライアントのMACアドレスのクローン、MACアドレスの手動入力、またはランダムなMACアドレスの生成を見つけることができます。
 
-* The factory default MAC address.
+* 工場出荷時のMACアドレス。
 
     ![default mac address](https://static.gl-inet.com/docs/router/en/4/tutorials/mac_address/mac_address_1.png){class="glboxshadow"}
 
-* Clone a client's MAC address.
+* クライアントのMACアドレスのクローン。
 
     ![clone mac address](https://static.gl-inet.com/docs/router/en/4/tutorials/mac_address/mac_address_2.png){class="glboxshadow"}
 
-    **Note:** Many new devices now use a different random MAC address to connect to different WiFi, so the MAC address shown here may not be the actual MAC address of the user's device. The randomized MAC may also be called a Private Wi-Fi Address or a random hardware address on different devices. 
+    **注意:** 現在、多くの新しいデバイスは、異なるWiFiに接続するために異なるランダムなMACアドレスを使用しているため、ここに表示されているMACアドレスは、ユーザーのデバイスの実際のMACアドレスではないかもしれません。ランダム化されたMACアドレスは、プライベートWi-Fiアドレスやランダムなハードウェアアドレスと呼ばれることもあります。
 
-* Manual input or generate a random MAC address.
+* 手動入力またはランダムなMACアドレスを生成します。
 
     ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/router/en/4/tutorials/mac_address/mac_address_3.png){class="glboxshadow"}
 
-## Usage Scenarios
+## 使用シナリオ
 
-When you connect to a public hotspot, use a random MAC address if you do not want the hotspot to know your real MAC address or to limit your access to the Internet based on it. Please read this guide [Connect to a Hotspot with a Captive Portal](../faq/connect_to_a_hotspot_with_captive_portal.md).
+公共のホットスポットに接続する際、ホットスポットに本当のMACアドレスを知られたくない場合や、MACアドレスに基づいてインターネットへのアクセスを制限されたくない場合は、ランダムなMACアドレスを使用してください。このガイドをお読みください： [キャプティブ ポータルを使用してホットスポットに接続する](../faq/connect_to_a_hotspot_with_captive_portal.md).
 
 ---
 

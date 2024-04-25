@@ -1,31 +1,31 @@
 # IPv6
 
-On the left side of web Admin Panel -> NETWORK -> IPv6
+Web 管理パネルの左側 -> ネットワーク -> IPv6
 
-The IPv6 function allows you to enable and configure IPv6 on router.
+IPv6 機能では、ルーターで IPv6 を有効にして設定できます。
 
 ![ipv6](https://static.gl-inet.com/docs/router/en/4/tutorials/ipv6/ipv6_page.png){class="glboxshadow"}
 
-The current version of the firewall, VPN, terminal list, cloud service, etc., may not support IPv6 for the time being. Therefore, the IPv6 function can only be used for configuration within this interface.
+ファイアウォール、VPN、端末リスト、Cloudサービスなどの現在のバージョンは、当面IPv6をサポートしていない可能性があります。そのため、IPv6機能はこのインターフェイス内での設定にしか使用できません。
 
-**Note:** If you use functions of both VPN and IPv6 at the same time, it's likely to cause IPv6 data leakage.
+**注意:** VPNとIPv6の両方の機能を同時に利用すると、IPv6のデータ漏洩が発生する可能性があります。
 
-After enabled.
+有効化された後
 
 ![ipv6 enabled](https://static.gl-inet.com/docs/router/en/4/tutorials/ipv6/ipv6_enabled.png){class="glboxshadow"}
 
-**Mode**: There are four modes, **NAT6**, **Native**, **Passthrough** and **Static IPv6**.
+**モード**: **NAT6**, **Native**, **Passthrough** と **Static IPv6**の4つのモードがあります。
 
-- NAT6 mode is suitable for scenarios where a router is used as a management gateway to assign dynamic internal IPv6 addresses to each device on the network. In this mode, terminal devices connect through a light cat and obtain a local area network IPv6 address.
+- NAT6モードは、ルーターを管理ゲートウェイとして使用し、ネットワーク上の各デバイスに動的な内部IPv6アドレスを割り当てるシナリオに適しています。このモードでは、端末デバイスはLight Catを介して接続し、ローカルエリアネットワークのIPv6アドレスを取得します。
 
-- Native mode is applicable when the router directly obtains a public IPv6 address, and the router automatically assigns IPv6 addresses to online devices. This mode can meet the IPv6 access needs of most users.
+- Native モードは、ルーターが直接パブリックIPv6アドレスを取得し、ルーターが自動的にオンラインデバイスにIPv6アドレスを割り当てる場合に適用されます。このモードは、ほとんどのユーザーのIPv6アクセスのニーズを満たすことができます。
 
-- Static IPv6 mode is suitable for devices or services that require a fixed IPv6 address, such as servers or network printers. This mode ensures that the device always uses the same IPv6 address, facilitating management and access.
+- Static IPv6モードは、サーバーやネットワークプリンターなど、固定IPv6アドレスを必要とするデバイスやサービスに適しています。このモードでは、デバイスが常に同じIPv6アドレスを使用するため、管理とアクセスが容易になります。
 
-- Passthrough mode is applicable when IPv6 packets need to be directly passed through without any processing or conversion. For example, some specific network applications or services may require the complete preservation of the content of IPv6 packets for further processing or analysis, which is used by technical personnel for network debugging or security analysis.
+- Passthrough モードは、IPv6パケットを処理または変換せずに直接通過させる必要がある場合に適用されます。例えば、特定のネットワークアプリケーションやサービスによっては、さらなる処理や分析のためにIPv6パケットの内容を完全に保存する必要がある場合があり、これは技術担当者がネットワークのデバッグやセキュリティ分析に使用します。
 
 
-**DNS acquisition method**. It has two options. **Automic** and **Manual**.
+**DNS取得方法**： **自動** と**手動**2つのオプションがあります。
 
 
 ---

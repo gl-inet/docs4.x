@@ -4,7 +4,7 @@ On the left side of web Admin Panel -> NETWORK -> DNS
 
 If you set custom DNS servers, any dns name will be resolved through the DNS servers set here instead of the one obtained from wan, repeater, cellular, hotspot sharing or VPN configuration DNS server.
 
-![dns](/dns/dns_page.png){class="glboxshadow"}
+![dns](images/dns/dns_page.png){class="glboxshadow"}
 
 **DNS Rebinding Attack Protection:** Turning on this option may cause private DNS lookup failure. If your network has a captive portal please disable this option.
 

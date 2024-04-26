@@ -18,7 +18,7 @@ Toggle on **Enable DMZ**. Select the internal IP address of your device which is
 
 You can select the priority of the DMZ. If the priority of the DMZ is higher than the port forwarding rules, all the port forwarding rules will be invalidated. Otherwise, only if the accessed port does not have a corresponding port forwarding rule, the request will be forwarded to the client device set by the DMZ.
 
-![dmz](/port_forwarding/dmz.png){class="glboxshadow"}
+![dmz](images/port_forwarding/dmz.png){class="glboxshadow"}
 
 ---
 
@@ -28,11 +28,11 @@ Port Forwarding lets remote computers to connect to a local computer or server b
 
 To set up port forwarding, on the **Port Forwarding** tab click **Add**.
 
-![port forwarding](/port_forwarding/port_forwarding.png){class="glboxshadow"}
+![port forwarding](images/port_forwarding/port_forwarding.png){class="glboxshadow"}
 
 It will pop up **Add New Port Forward Rule** dialog.
 
-![add new port forwarding rule](/port_forwarding/add_new_port_forward_rule.png){class="glboxshadow"}
+![add new port forwarding rule](images/port_forwarding/add_new_port_forward_rule.png){class="glboxshadow"}
 
 **Name:** The name of the rule.
 

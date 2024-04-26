@@ -24,17 +24,17 @@ For other settings, please refer to [Advanced Settings](#join-network-advanced-s
 
 Wait a moment, if the password is correct, the connection will be successful.
 
-![repeater connected](/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![repeater connected](/images/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
 ## For Public Hotspot
 
-* **Auto-Enable Authentication Mode For Public Hotspot**
+* **Auto-Enable Login Mode for Public Hotspots**
 
-  If this option is enabled, this router will automatically enter authentication mode when it successfully connected to a hotspot but not the Internet. This mode will pause VPNs, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).
+  If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. This mode will pause VPNs, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).
 
-  Even if you do not turn on this option, the device prompts you to enter this mode when it detects the captive portal existing in the hotspot and does not authenticate successfully.
+  Even if you do not turn on this option, the device prompts you to enter this mode when it detects the captive portal existing in the hotspot and does not login successfully.
 
-  ![authentication mode](/internet_repeater/authentication_mode.png){class="glboxshadow"}
+  ![login mode for public hotspots](/images/internet_repeater/login_mode_for_public_hotspots.png){class="glboxshadow"}
 
 * **Enable Camouflage**
 
@@ -46,7 +46,7 @@ Wait a moment, if the password is correct, the connection will be successful.
 
   You can choose which MAC to use to connect to this hotspot.
 
-  **Real**: The factory-written MAC address of the device.
+  **Factory**: The factory-written MAC address of the device.
   **Clone**: Clone a client's MAC address. Note that many new devices now use a different random MAC address to connect to different WiFi, so the MAC address shown here may not be the actual MAC address of the user's device. The randomized MAC may also be called a Private Wi-Fi Address or a random hardware address on different devices. You can also manually enter the device's MAC you want to clone if it is not in the options.
   **Random**: Generate a random MAC address.
 
@@ -56,7 +56,7 @@ Wait a moment, if the password is correct, the connection will be successful.
 
 When joining the network, there are two additional options.
 
-![repeater join network advanced setting](/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
+![repeater join network advanced setting](/images/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
 
 * **Lock BSSID**. If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.
 
@@ -74,7 +74,7 @@ Click the cog icon for Repeater options.
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-![repeater options](/internet_repeater/repeater_options.png){class="glboxshadow"}
+![repeater options](/images/internet_repeater/repeater_options.png){class="glboxshadow"}
 
 * **Allow Switching To Other Saved Network**. If the option is enabled, the router will automatically connect to other saved networks when it is unable to connect to the current Wi-Fi network.
 
@@ -102,7 +102,7 @@ If the SSID is not in the Available Networks list, or if the SSID is hidden, you
 
 ![join other network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/join_other_network.png){class="glboxshadow gl-90-desktop"}
 
-![join other network](/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
+![join other network](/images/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
 
 Input the SSID, for **Security**, It has the following three options.
 
@@ -110,7 +110,7 @@ Input the SSID, for **Security**, It has the following three options.
 * WPA/WPA2/WPA3
 * WPA/WPA2/WPA3 Enterprise, for Extensible Authentication Protocol (EAP), it requires a username and password for authentication.
 
-    ![join other network, eap](/internet_repeater/join_other_network_eap.png){class="glboxshadow gl-90-desktop"}
+    ![join other network, eap](/images/internet_repeater/join_other_network_eap.png){class="glboxshadow gl-90-desktop"}
 
 ## Reconnection
 

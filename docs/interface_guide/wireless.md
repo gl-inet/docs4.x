@@ -12,23 +12,23 @@ On the left side of web Admin Panel -> WIRELESS
 
 When Wi-Fi is enabled, the corresponding Wi-Fi icon will light up below the device model image on the Internet page.
 
-![wifi status](/internet/wifi_status.png){class="glboxshadow"}
+![wifi status](images/internet/wifi_status.png){class="glboxshadow"}
 
 The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi icon. You can scan the Wi-Fi QR code using your Phone/Pad to quickly connect to the corresponding Wi-Fi.
 
-![wifi qr code](/internet/wifi_qr_code.png){class="glboxshadow"}
+![wifi qr code](images/internet/wifi_qr_code.png){class="glboxshadow"}
 
 ## Main Wi-Fi
 
 * 5G Wi-Fi
 
-    ![main wifi 5g](/wireless/main_wifi_5g.png){class="glboxshadow"}
+    ![main wifi 5g](images/wireless/main_wifi_5g.png){class="glboxshadow"}
 
     **Note**:
 
     * The Wi-Fi QR code will be displayed if the cursor hovers over the QR code icon beside the SSID Label. You can scan the Wi-Fi QR code using your Phone/Pad to quickly connect to the corresponding Wi-Fi.
 
-        ![wifi qr code](/wireless/wifi_qr_code.png){class="glboxshadow"}
+        ![wifi qr code](images/wireless/wifi_qr_code.png){class="glboxshadow"}
 
     * The **Bandwidth** and **Channel** can't be modified when [repeater](internet_repeater.md) is enabled.
     * When **Channel** set as **Auto**, Wi-Fi will not automatically switch to the DFS channel.
@@ -40,17 +40,17 @@ The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi 
 
 * 2.4G Wi-Fi
 
-    ![main wifi 2.4g](/wireless/main_wifi_2.4g.png){class="glboxshadow"}
+    ![main wifi 2.4g](images/wireless/main_wifi_2.4g.png){class="glboxshadow"}
 
 ## Guest Wi-Fi
 
 * 5G Guest Wi-Fi
 
-    ![guest wifi 5g](/wireless/guest_wifi_5g.png){class="glboxshadow"}
+    ![guest wifi 5g](images/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
 * 2.4G Guest Wi-Fi
 
-    ![guest wifi 2.4g](/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
+    ![guest wifi 2.4g](images/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
 ---
 

@@ -143,9 +143,9 @@ The router's services, such as web and FTP, requires their respective ports to b
 
 To open a port, click **Add**.
 
-![open Ports on router](/security/open_ports_on_router.png){class="glboxshadow"}
+![open Ports on router](images/security/open_ports_on_router.png){class="glboxshadow"}
 
-![open Ports on router](/security/add_new_open_port.png){class="glboxshadow"}
+![open Ports on router](images/security/add_new_open_port.png){class="glboxshadow"}
 
 **Name:** The name of the rule which can be specified by the user.
 

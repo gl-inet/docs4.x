@@ -1,30 +1,30 @@
-# Network Storage
+# ネットワーク・ストレージ
 
-## Contents
+## コンテンツ
 
-- [Introduction](#introduction)
-- [Insert storage device](#insert-storage-device)
-- [Set up Samba](#set-up-samba)
-- [Set up WebDAV](#set-up-webdav)
-- [Set up DLNA](#set-up-dlna)
-- [Samba Client](#samba-client)
-- [WebDAV Client](#webdav-client)
+- [はじめに](#introduction)
+- [ストレージ・デバイスの挿入](#insert-storage-device)
+- [Sambaをセットアップする](#set-up-samba)
+- [WebDAVをセットアップする](#set-up-webdav)
+- [DLNAのセットアップ](#set-up-dlna)
+- [Samba クライアント](#samba-client)
+- [WebDAV クライアント](#webdav-client)
 
-## Introduction
+## はじめに
 
-Some GL.iNet models support MicroSD(TF) card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDAV, DLNA on this page for the disk.
+一部のGL.iNetモデルはMicroSD(TF)カードをサポートし、一部のモデルはUSBポートを搭載、USBフラッシュドライブとポータブル外付けハードドライブをサポートし、このページでディスクのSamba、WebDAV、DLNAを設定できます。
 
-The supported disk formats are NTFS, FAT32.
+サポートされているディスクフォーマットはNTFS、FAT32です。
 
-**Note**: The power consumption of USB hard drive is quite high. You should use it with an external power supply. Otherwise, it may cause malfunction.
+**注意**： USBハードディスクの消費電力はかなり高いです。外部電源と一緒に使用してください。そうしないと、故障の原因になる可能性があります。
 
-**Note**: Some models have USB Port/MicroSD slot but have limited storage space and do not support file sharing.
+**注意**： 一部のモデルにはUSBポート/MicroSDスロットがありますが、ストレージ容量に制限があり、ファイル共有には対応していません。
 
-## Supported models
+## 対応モデル
 
-Usually models with USB ports or MicroSD(TF) slots are supported for file sharing. For devices with Flash space less than or equal to 32MB, the Network Storage function is not yet supported and is still being developed and optimized.
+通常、USBポートまたはMicroSD(TF)スロットを搭載したモデルは、ファイル共有に対応しています。フラッシュ容量が32MB以下のデバイスの場合、ネットワークストレージ機能はまだサポートされていません。
 
-| Router Model                   | USB Port | MicroSD Card | Samba | Webdav | DLNA |
+| ルーターモデル                  | USBポート | MicroSDカード | Samba| Webdav| DLNA |
 | :----------------------------- | :------: | :----------: | :---: | :---: | :---: |
 | GL-XE3000 (Puli AX)            | √        | √            | √     | √     | √     |
 | GL-X3000 (Spitz AX)            | √        | √            | √     | √     | √     |
@@ -44,309 +44,309 @@ Usually models with USB ports or MicroSD(TF) slots are supported for file sharin
 | GL-X300B (Collie)              | -        | -            | -     | -     | -     |
 | GL-MV1000/GL-MV1000W (Brume)   | √        | √            | √     | √     | √     |
 
-## Insert Storage Device
+## ストレージ・デバイスの挿入
 
-For TF card, you need to power off the router first, insert the TF card and then power on the router.
+TFカードの場合は、まずルーターの電源を切り、TFカードを挿入してからルーターの電源を入れる必要があります。
 
-For USB Drive, you can directly plug it into the USB port. For portable external hard drive, if you have a separate power supply, please connect it to the power supply.
+USBドライブの場合、USBポートに直接差し込むことができます。ポータブル外付けハードドライブの場合、別途電源をお持ちの場合は、電源に接続してください。
 
-Go to web Admin Panel -> APPLICATIONS -> Network Storage
+ウェブ管理パネル -> アプリケーション -> ネットワークストレージ
 
 ![network storage](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/network_storage_init.png){class="glboxshadow"}
 
-When a disk is found.
+ディスクが見つかると
 
 ![network storage, disk found](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
 
-## Set Up Samba
+## Sambaをセットアップする
 
-1. Toggle on to enable Samba, for other parameters, please refer to the following, then click **Apply**.
+1. Sambaを有効にするにはトグルをオンにし、その他のパラメーターについては以下を参照し、**Apply**をクリックする。
 
-    * Allow Access WebDAV from WAN, enable it if you want the upstream devices can access the WebDAV.
+    * WANからのWebDAVアクセスを許可します。上位のデバイスがWebDAVにアクセスできるようにしたい場合は、これを有効にします。
 
     ![enable samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
 
-2. Then let's set up to get the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
+2. 次に、共有リンクを取得するように設定しましょう。 ディスクが検出されると、**クイック セットアップ共有**のリンクが表示されます。**クイック セットアップ共有** をクリックします。
 
     ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow"}
 
-3. Add a user. This step will be skipped if you already have an account. Then click **Next**.
+3. ユーザーを追加します。すでにアカウントをお持ちの場合は、このステップはスキップされます。**次へ**をクリックします。
 
     ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
 
-4. Click the triangel icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
+4. 三角形のアイコンをクリックしてすべてのフォルダーを表示し、共有するフォルダーを選択します。 または、disk1_part1をクリックしてディスク全体を共有します。 **次へ**をクリックします。
 
     ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
 
-5. Shared folder settings.
+5. 共有フォルダの設定
 
-    For security reasons, we do not recommend enabling **Anonymous Access**.
+    セキュリティ上の理由から、**匿名アクセス**を有効にすることはお勧めしません。
 
-    The user you just created will be added to **Read-Only User** by default. If you want this account to be able to write or delete files, you can remove it from Read-Only User and add it to **Writable User**. Click **Apply**.
+    作成したユーザーは、デフォルトで**Read-Only User**に追加されます。このアカウントをファイルの書き込みや削除ができるようにしたい場合は、Read-Only Userから外し、**Writable User**に追加します。**Apply** をクリックします。
 
     ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
 
-6. Folder access link. It shows the link for Windows and Unix-link OS. The Unix-like system include Android, iOS, macOS, Ubuntu etc. Then please try to access the Samba on various OS, check out [here](#samba-client).
+6. フォルダアクセスリンク。 WindowsとUnix系OSのリンクが表示されます。Unix系OSには、Android、iOS、macOS、Ubuntuなどがあります。それでは、様々なOSでSambaにアクセスしてみてください。 [こちら](#samba-client)チェックします。
 
-    **Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+    **注意:** **WANからのSambaアクセスを許可する** を有効にしてWANからアクセスする場合、下図のルーターIP(デフォルト192.168.8.1)をインターネット(INTERNET)ページにあるWAN IPに置き換える必要があります。
 
     ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_folder_access_link.png){class="glboxshadow"}
 
 ---
 
-## Set Up WebDAV
+## WebDAV のセットアップ
 
-1. Toggle on to enable WebDAV, for other parameters, please refer to the following, then click **Apply**.
+1. オンに切り替えるとWebDAVが有効になります。その他のパラメータについては、以下を参照し、**Apply**をクリックしてください。
 
-    * Allow Access WebDAV from WAN, enable it if you want the upstream devices can access the WebDAV.
+    * WANからのWebDAVアクセスを許可します。上位のデバイスがWebDAVにアクセスできるようにしたい場合は、これを有効にします。
 
-    * WebDAV Protocol, **HTTP** is not encrypted, using on your risk; **HTTPS** is encrypted, it uses self signed certificate.
+    * WebDAV プロトコル、**HTTP** は暗号化されません。使用する場合はリスクを負ってください。 **HTTPS** は暗号化されており、自己署名証明書を使用します。
 
-    * WebDAV Port, generally you do not need to modify the port number unless it is conflicts. Port number range 1024 - 65535.
+    * WebDAV ポートは、競合しない限り、通常は変更する必要はありません。ポート番号の範囲は 1024 ～ 65535 です。
 
     ![enable webdav](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow"}
 
-2. Then let's set up to get the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
+2. 次に、共有リンクを取得するように設定しましょう。 ディスクが検出されると、**クイック セットアップ共有**のリンクが表示されます。**クイック セットアップ共有** をクリックします。
 
     ![enable webdav](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share.png){class="glboxshadow"}
 
-3. Add a user. This step will be skipped if you already have an account. Then click **Next**.
+3. ユーザーを追加します。すでにアカウントをお持ちの場合は、このステップはスキップされます。**次へ**をクリックします。
 
     ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
 
-4. Click the triangel icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
+4. 三角形のアイコンをクリックしてすべてのフォルダーを表示し、共有するフォルダーを選択します。 または、disk1_part1 をクリックしてディスク全体を共有します。 **次へ**をクリックします。
 
     ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
 
-5. Shared folder settings.
+5. 共有フォルダの設定。
 
-    For security reasons, we do not recommend enabling **Anonymous Access**.
+    セキュリティ上の理由から、**匿名アクセス**を有効にすることはお勧めしません。
 
-    The user you just created will be added to **Read-Only User** by default. If you want this account to be able to write or delete files, you can remove it from Read-Only User and add it to **Writable User**. Click **Apply**.
+    作成したユーザーは、デフォルトで**Read-Only User**に追加されます。このアカウントをファイルの書き込みや削除ができるようにしたい場合は、Read-Only Userから外し、**Writable User**に追加します。**Apply** をクリックします。
 
     ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
 
-6. Folder access link. It shows the link for Windows and Unix-link OS. The Unix-like system include Android, iOS, macOS, Ubuntu etc. Then please try to access the WebDAV on various OS, check out [here](#webdav-client).
+6. フォルダアクセスリンク。 WindowsとUnix系OSのリンクが表示されます。Unix系OSには、Android、iOS、macOS、Ubuntuなどがあります。それでは、様々なOSでSambaにアクセスしてみてください。 [こちら](#webdav-client)チェックします。
 
-    **Note:** If you enabled **Allow Access WebDAV from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+    **注意:** **WANからのSambaアクセスを許可する** を有効にしてWANからアクセスする場合、下図のルーターIP(デフォルト192.168.8.1)をインターネット(INTERNET)ページにあるWAN IPに置き換える必要があります。
 
     ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow"}
 
 ---
 
-## Set Up DLNA
+## DLNAのセットアップ
 
-Toggle to enable DLNA, modify **Share Path** if needed, click **Apply**. That is it.
+DLNAを有効に切り替え、必要に応じて**共有パス**を変更し、**Apply**をクリックします。これで完了です。
 
 ![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/enable_dlna.png){class="glboxshadow"}
 
-Connect your smart TV to the router, it will find the DLNA Server.
+スマートテレビをルーターに接続すると、DLNAサーバーが見つかります。
 
 ---
 
-## Samba Client
+## Samba クライアント
 
 === "Windows"
 
-    Here is an example of Windows 11, Windows 10 is similar.
+    ここでは Windows 11 の例を示しますが、Windows 10 も同様です。
 
-    Open up File Explorer and then right-click on **This PC** (in the left pane). From the resulting context menu, select **Show more options** -> **Add a network location**
+    ファイルエクスプローラーを開き、**このPC**（左ペイン）を右クリックします。表示されるコンテキストメニューから、**その他のオプションを表示** -> **ネットワークの場所を追加** を選択します。
 
     ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location.png){class="glboxshadow"}
 
-    Click **Choose a custom network location** and then click **Next**.
+     **カスタムネットワークの場所を選択する** をクリックし、**次へ**をクリックします。
 
     ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_2.png){class="glboxshadow"}
 
-    Enter the Samba access link. Then click **Next**.
+    Sambaアクセスリンクを入力します。**次へ**をクリックします。
 
     ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_3.png){class="glboxshadow"}
 
-    Give a name of this location. Click **Next**.
+    この場所の名前を付けます。**次へ**をクリックしてください。
 
     ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_4.png){class="glboxshadow"}
 
-    Click **Finish**.
+    **完了**をクリックします。
 
     ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_5.png){class="glboxshadow"}
 
-    If it need username and password, it will ask to enter the credential. Then click **OK**.
+    ユーザー名とパスワードが必要な場合は、クレデンシャルの入力を求められます。その後、**OK**をクリックします。
 
     ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_6.png){class="glboxshadow"}
 
 === "macOS"
 
-    You can access Samba by the Finder.
+    FinderでSambaにアクセスできます。
 
-    Open up the Finder and click Go -> Connect to Server on the menu. Copy & paste the Samba access link.
+    Finderを開き、メニューのGo -> Connect to Serverをクリックします。Sambaアクセスリンクをコピー＆ペーストし ます。
 
     ![network storage, mac os finder connect to server](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/finder_connect_to_server.png){class="glboxshadow"}
 
-    It will ask for the username and password, the username is when you setup **Shared Folder Settings**.
+    ユーザー名とパスワードの入力を求められますが、ユーザー名は**共有フォルダ設定**を設定したときのものです。
     
-    If you set up anonymous access, please choose **Guest** in the image below.
+    匿名アクセスを設定した場合は、下の画像で**ゲスト**を選択してください。
 
     ![network storage, mac os finder connect to server username password](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/finder_username_password.png){class="glboxshadow"}
-
-    Click **Continue**, it will show the Samba on the sidebar of Finder.
+    
+    **続行**をクリックすると、Finder のサイドバーに Samba が表示されます。
 
     ![network storage, mac os finder samba connected](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/finder_samba_connected.png){class="glboxshadow"}
 
 === "Android"
 
-    There are many Android apps that support Samba, here is an example of [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}.
+    SambaをサポートするAndroidアプリは多数ありますが、ここでは [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}の例をご紹介します。
 
-    At the home page, click **NETWORK**.
+    ホームページで**ネットワーク**をクリックします。
 
     ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_home.png){class="glboxshadow" width="400"}
 
-    Click **New Location**.
+    **新しい場所**をクリックします。
     
     ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_new_location.png){class="glboxshadow" width="400"}
 
-    Click **SMB**.
+    **SMB**をクリックします。
 
     ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_remote.png){class="glboxshadow" width="350"}
 
-    Input the **Host**, **Username**, **Password**. If is **Anonymous Access**, please check the **Anonymous**.
+    **ホスト**、**ユーザー名**、**パスワード**を入力してください。**匿名アクセス**の場合は、**匿名**にチェックを入れてください。
 
     ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_smb.png){class="glboxshadow" width="350"}
 
 === "iOS"
 
-    iOS [Files](https://apps.apple.com/us/app/files/id1232058109){target="_blank"} app support Samba, or you can use other apps, for example [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
+    iOS [ファイル](https://apps.apple.com/us/app/files/id1232058109){target="_blank"}アプリはSambaをサポートしています。あるいは、他のアプリ、例えば[Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}を使うこともできます。
 
-    The next section describes how to connect to Samba using **Files** app and **Documents** app respectively.
+    次のセクションでは、それぞれ**Files**アプリと**Documents**アプリを使用してSambaに接続する方法を説明します。
 
-    - Guide of connect to Samba server by [Files](https://apps.apple.com/us/app/files/id1232058109){target="_blank"} app.
+    - [Files](https://apps.apple.com/us/app/files/id1232058109){target="_blank"} appによるSambaサーバーへの接続ガイド。
 
-        Open the **Files** app. It's installed by default so you should find it on your home screen. As **Files** is now a removable app, you might need to reinstall it from the App Store if it doesn't show up.
+        **Files** アプリを開きます。デフォルトでインストールされているので、ホーム画面にあるはずです。現在**Files**は取り外し可能なアプリなので、表示されない場合はApp Storeから再インストールする必要があるかもしれません。
 
         ![search files on iphone](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width=300"}
 
-        Make sure you're on the **Browse** tab at the bottom of the screen. Tap the "…" (three dots) icon in the top-right to display the app's context menu.
+        画面下部の**ブラウズ**タブにいることを確認します。右上の「...」（3つの点）アイコンをタップし、アプリのコンテキストメニューを表示します。
         
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width=560"}
 
-        Tap the **Connect to Server** option near the top of the menu. On the next screen, enter your server's connection url. You can find the url in [Shared Link](#shared-link). Tap the **Next** button in the top-right to continue.
+        メニューの上部にある**Connect to Server**オプションをタップします。次の画面で、サーバーの接続URLを入力します。URLは[共有リンク](#shared-link)にあります。 右上の**次へ**ボタンをタップして次に進みます。
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width=560"}
 
-        The following screen lets you enter authentication credentials if you'll be connecting to a protected network share. Tap **Registered User** and fill out the **Name** and **Password** fields with your Samba username and password. You can tap "Guest" instead if you enable the **Anonymous Access**.
+        保護された共有ネットワークに接続する場合は、次の画面で認証情報を入力します。**登録ユーザー**をタップし、**名前**と**パスワード**フィールドにSambaのユーザー名とパスワードを入力します。**匿名アクセス**を有効にすると、代わりに "ゲスト"をタップすることができます。
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios_files_smb_3.png){class="glboxshadow" width=560"}
 
-        Press the **Next** button in the top-right to complete the connection. Your iOS device should successfully connect to the server and display a list of available shares.
+        右上の**次へ**ボタンを押して接続を完了します。iOSデバイスがサーバーへの接続に成功し、利用可能な共有のリストが表示されるはずです。
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios_files_smb_4.png){class="glboxshadow" width=560"}
 
-        The Samba share will be listed at the bottom of menu, underneath the **Shared** heading.
+        Samba共有はメニューの一番下、**共有**見出しの下にリストさ れます。
 
         ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width=560"}
 
-    - Guide of connect to Samba server by [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"} app.
+    - [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"} appによるSambaサーバーへの接続ガイド。
 
-        Click the plus button in the lower right corner.
+        右下のプラスボタンをクリックします。
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_1.png){class="glboxshadow" width="560"}
 
-        Click **Add Connection**.
+        **接続の追加**をクリックします。
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_2.png){class="glboxshadow" width="560"}
 
-        Click **Windows SMB**.
+        **Windows SMB**をクリックします。
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_3.png){class="glboxshadow" width="560"}
 
-        The **Title** is for a name of this connection. **URL** is the access link. **Login** is the username. If is anonymous access, just leave **Login** and **Password** empty.
+        **タイトル**は、この接続の名前です。**URL**はアクセス・リンクです。**ログイン**はユーザー名です。匿名アクセスの場合は、**ログイン**と**パスワード**は空のままにしてください。
 
-        Click **Done** button to complete this setup.
+        **完了**ボタンをクリックして設定を完了します。
 
         ![documents samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/documents_4_samba.png){class="glboxshadow" width="560"}
 
-## WebDAV Client
+## WebDAV クライアント
 
 === "Windows"
 
-    There is a lot of software that supports WebDAV, for example [RaiDrive](https://www.raidrive.com/){target="_blank"}, [Cyberduck](https://cyberduck.io/download/){target="_blank"}, [WinSCP](https://winscp.net/eng/index.php){target="_blank"}.
+    WebDAV をサポートするソフトウェアは多数あります、例えば [RaiDrive](https://www.raidrive.com/){target="_blank"}, [Cyberduck](https://cyberduck.io/download/){target="_blank"}, [WinSCP](https://winscp.net/eng/index.php){target="_blank"}。
     
-    Here is an example of RaiDrive.
+    以下は RaiDrive の例です。
 
-    Click **Add**.
+    **追加** をクリックします。
 
     ![RaiDrive WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/raidrive_add.png){class="glboxshadow"}
 
-    In the **Storage** area, click **NAS** -> **WebDAV**.
+    **Storage** エリアで、**NAS** -> **WebDAV** をクリックします。
 
-    In the **Address** area, check/uncheck the checkbox near Address to switch https/http, enter the address.
+    **Address** エリアで、Address の近くにあるチェックボックスをオン/オフして https/http を切り替え、アドレスを入力します。
 
-    In the **Account** area, enter username and password, or check the **Anonymous**.
+    **Account** エリアで、ユーザー名とパスワードを入力するか、**匿名**にチェックを入れます。
 
-    Finally, click **Connect**, it will add a X drive in the File Explorer.
+    最後に、**接続**をクリックすると、ファイルエクスプローラーにXドライブが追加されます。
 
     ![RaiDrive WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/raidrive_new_drive_webdav.png){class="glboxshadow"}
 
 === "macOS"
 
-    There is a lot of app that supports WebDAV, for example [FE File Explorer](https://apps.apple.com/hk/app/fe-file-explorer/id1444382558?l=en&mt=12){target="_blank"}, [Cyberduck](https://cyberduck.io/download/){target="_blank"}.
+    WebDAVに対応したアプリは多数あります、例えば [FE File Explorer](https://apps.apple.com/hk/app/fe-file-explorer/id1444382558?l=en&mt=12){target="_blank"}, [Cyberduck](https://cyberduck.io/download/){target="_blank"}.
 
-    Here is an example of FE File Explorer.
-
-    Click Add button.
+    FEファイルエクスプローラーの例です。
+    
+    追加ボタンをクリックします。
 
     ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/fe_file_explorer_add.png){class="glboxshadow"}
 
-    Select **WebDAV**.
+    **WebDAV**を選択します。
 
     ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/fe_file_explorer_webdav.png){class="glboxshadow"}
 
-    Enter connection settings. If is anonymous access, just leave **User Name** and **Password** empty. Then clidk **Save & Connect**.
+    接続設定を入力します。 匿名アクセスの場合は、**ユーザー名** と **パスワード** を空のままにしておきます。 次に、**保存して接続** をクリックします。
 
     ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/fe_file_explorer_webdav_connection_setting.png){class="glboxshadow"}
 
-    It may has a warning says *The following secure server (null) uses an untrusted certificate. Trust this server?*, that is because it use self signed certificate, please trust it.
+    *以下のセキュアサーバー（null）は信頼できない証明書を使用しています*という警告が表示されることがありますが、これは自己署名証明書を使用しているため、信頼してください。
 
 === "Android"
 
-    There are many iOS apps that support WebDAV, here is an example of [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}.
+    WebDAVをサポートするiOSアプリはたくさんありますが、ここでは [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}の例を紹介します。
 
-    Note: Cx File Explorer doesn't support anonymous access.
+    注意：Cxファイルエクスプローラーは匿名アクセスをサポートしていません。
 
-    At the home page, click **NETWORK**.
+    ホームページで**ネットワーク**をクリックします。
 
     ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_home.png){class="glboxshadow" width="400"}
 
-    Click **New Location**.
+    **新しい場所**をクリックしてください。
     
     ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_new_location.png){class="glboxshadow" width="400"}
 
-    Click **WebDAV**.
+    **WebDAV**をクリックします。
 
     ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_remote.png){class="glboxshadow" width="350"}
 
-    Input the **Host**, **Port**, **Username**, **Password**.
+    **ホスト**、**ポート**、**ユーザー名**、**パスワード**を入力します。
 
     ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/cx_file_explorer_webdav.png){class="glboxshadow" width="350"}
 
 === "iOS"
 
-    There are many iOS apps that support WebDAV, here is an example of [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
+    WebDAVをサポートするiOSアプリはたくさんあるが、ここでは [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}の例を紹介します。
 
-    Click the plus button in the lower right corner.
+    右下のプラスボタンをクリックします。
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_1.png){class="glboxshadow" width="560"}
 
-    Click **Add Connection**.
+    **接続の追加**をクリックします。
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_2.png){class="glboxshadow" width="560"}
 
-    Click **WebDAV Server**.
+    **WebDAV Server**をクリックします。
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_3.png){class="glboxshadow" width="560"}
 
-    The **Title** is for a name of this connection. **URL** is the access link. **Login** is the username.
+    **タイトル** は、この接続の名前です。 **URL** はアクセスリンクです。 **ログイン** はユーザー名です。
 
-    Click **Done** button to complete this setup.
+    **完了**ボタンをクリックして、このセットアップを完了します。
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 

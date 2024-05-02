@@ -86,7 +86,7 @@ E.g. There is a Server A(172.30.97.100) in Node 1's subnet, if you want other Si
 
 You can add node's parent routes too.
 
-Each sub Node build an encrypted tunnel netwrok to Main Node, if you want to change the IP of tunnel subnet. Click 'IP Address Range'.
+Each sub Node build an encrypted tunnel Network to Main Node, if you want to change the IP of tunnel subnet. Click 'IP Address Range'.
 
 ![Tunnel IP Address Range](https://static.gl-inet.com/goodcloud/docs/tunnel-ip-address-range-s2s.png){class="glboxshadow"}
 

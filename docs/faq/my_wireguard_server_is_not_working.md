@@ -2,7 +2,9 @@
 
 There are various reasons the WireGuard server you have set up on your GL.iNet router is not working properly. To troubleshoot, refer to the section appropriate to your specific situation below. 
 
-??? "Situation 1: My WireGuard server is starting but can't be connected"
+#### Situation 1: My WireGuard server is starting but can't be connected
+
+??? "Follow these steps"
 
     ![client](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/client.jpg){class='glboxshadow'}
 
@@ -47,8 +49,9 @@ There are various reasons the WireGuard server you have set up on your GL.iNet r
 
     If you do not see the login screen of your GL.iNet router (secondary router), port forwarding is not working properly. Set up port forwarding again or make sure to use a router with functioning port forwarding ability as your primary router. 
 
+#### Situation 2: My WireGuard server shows my VPN client is connected, but my VPN client can't access the internet
 
-??? "Situation 2: My WireGuard server shows my VPN client is connected, but my VPN client can't access the internet"
+??? "Follow these steps"
 
     Follow the steps outlined for each possible cause below and check if the issue is resolved. If the issue is resolved, you can skip the rest of the section. 
 
@@ -89,7 +92,9 @@ There are various reasons the WireGuard server you have set up on your GL.iNet r
     3. In the **Configuration** tab, for the **IPv4 Address** field, add **/24** after **10.0.0.1**. 
     4. Click **Apply**. 
 
-??? "Situation 3: My WireGuard server is running but I can't connect my VPN client to it"
+#### Situation 3: My WireGuard server is running but I can't connect my VPN client to it
+
+??? "Follow these steps"
 
     Follow the steps outlined for each possible cause below and check if the issue is resolved. If the issue is resolved, you can skip the rest of the section. 
 
@@ -118,8 +123,9 @@ There are various reasons the WireGuard server you have set up on your GL.iNet r
 
     Upload your configuration information again. 
 
+#### Situation 4: My WireGuard server is connected but the connection is not stable
 
-??? "Situation 4: My WireGuard server is connected but the connection is not stable"
+??? "Follow these steps"
 
     Follow the steps below to resolve the issue. After each step, check if the issue is resolved. If the issue is resolved, you can skip the rest of the steps.
 
@@ -132,7 +138,9 @@ There are various reasons the WireGuard server you have set up on your GL.iNet r
         4. For **DNS Server 1**, select **Google Public DNS**. 
         5. Click **Apply**. 
 
-??? "Situation 5: My WireGuard server suddenly stopped working"
+#### Situation 5: My WireGuard server suddenly stopped working
+
+??? "Follow these steps"
 
     Follow the steps outlined for each possible cause below and check if the issue is resolved. If the issue is resolved, you can skip the rest of the section. 
 

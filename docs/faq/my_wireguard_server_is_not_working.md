@@ -155,3 +155,7 @@ There are various reasons the WireGuard server you have set up on your GL.iNet r
     **Possible cause 3: The port forwarding stopped working for unknown reasons**
 
     [Set up port forwarding](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/) again with another port. 
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

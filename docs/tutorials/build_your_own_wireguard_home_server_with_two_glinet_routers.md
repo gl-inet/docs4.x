@@ -99,7 +99,7 @@ Change the configuration to text format by click **Configuration File**. Copy th
 
 ### Change the LAN IP
 
-Login to the admin panel of GL-MT3000 and go to the **Netwrok** on the side bar and change the LAN IP.
+Login to the admin panel of GL-MT3000 and go to the **Network** on the side bar and change the LAN IP.
 
 [Change the LAN IP](../interface_guide/lan.md)
 

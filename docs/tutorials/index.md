@@ -43,6 +43,8 @@ Learn how to use our devices correctly with detailed steps.
 
 ## Others
 
-* [How to check if you have a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [How to block client devices](how_to_block_client_devices.md)
+* [How to check if you have a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [How to set up drop-in gateway](how_to_set_up_drop_in_gateway.md)
+* [How to upgrade or downgrade your router's firmware (from v4.x to v4.x)](how_to_upgrade_downgrade_router)
+* [How to activate or top up T-Mobile SIM cards](how_to_activate_top_up_sim_cards)

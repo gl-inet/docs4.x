@@ -160,6 +160,7 @@ nav:
       - How to set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
     - VPN: 
       - Accessing Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - How to set up an OpenVPN client on a GL.iNet router: tutorials/how_to_set_up_openvpn_client.md
       - How to set up an OpenVPN server on a GL.iNet router: tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md
       - Build your own WireGuard Home Server with two GL.iNet Routers: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
       - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md

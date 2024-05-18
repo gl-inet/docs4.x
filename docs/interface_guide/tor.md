@@ -1,17 +1,17 @@
 # Tor
 
-Tor (derived from **The Onion Router**) is a free and open-source software for enabling anonymous communication. It helps users to explore the internet with privacy. [Learn More about the Tor](https://www.torproject.org/){target="_blank"}.
+Tor (**The Onion Router**に由来) は、匿名通信を可能にするフリーでオープンソースのソフトウェアです。ユーザーがプライバシーを守りながらインターネットを利用するのに役立ちます。 [Torについてもっと詳しく](https://www.torproject.org/){target="_blank"}.
 
-**Note**: This feature is currently in beta, and may be problematic in some countries. When Tor is enabled, the following features will not work properly: 
+**注意**： この機能は現在ベータ版であり、一部の国では問題が発生する可能性があります。Torが有効な場合、以下の機能は正しく動作しません： 
 
   - VPN
   - DNS
   - IPv6
   - ADGuard Home.
 
-## Supported models
+## 対応モデル
 
-| Router Model                   | Support   |
+| ルーターモデル                  | サポート   |
 | :----------------------------- | :-------: |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
@@ -34,21 +34,21 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 | GL-X300B (Collie)              | -         |
 | GL-MV1000/GL-MV1000W (Brume)   | √         |
 
-## Setup
+## セットアップ
 
-Just toggle to enable it, then click **Apply** button. You can also choose a **Custom Exit Nodes**.
+トグルで有効にして、**適用**ボタンをクリックするだけです。また、**カスタム出口ノード**を選択することもできます。
 
 ![gl.inet Tor](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/tor.png){class="glboxshadow"}
 
-Wait a while, depending on your network, and it will show connected.
+ネットワークにもよりますが、しばらく待つと接続されたと表示されます。
 
 ![gl.inet Tor connected](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/tor_connected.png){class="glboxshadow"}
 
-## Manual install
+## マニュアル・インストール
 
-*Some models can manually using plug-in the re-install the Tor, but it may affect the CPU load and making the system response slower.
+*一部の機種では、プラグインを使用して手動でTorを再インストールすることができますが、CPU負荷に影響し、システムの応答が遅くなる可能性があります。
 
-Search **gl-sdk4-ui-torview**, and install.
+**gl-sdk4-ui-torview**を検索し、インストールします。
 
 ![torview](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/torview.jpg){class="glboxshadow"}
 

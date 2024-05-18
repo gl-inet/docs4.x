@@ -1,111 +1,111 @@
-# Set Up OpenVPN Server on GL.iNet Router
+# GL.iNetルーターにOpenVPNサーバーをセットアップする
 
-OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
+OpenVPNはオープンソースのVPNプロトコルであり、仮想プライベートネットワーク（VPN）技術を利用して、安全なサイト間接続またはポイント・ツー・ポイント接続を確立します。
 
-We recommend WireGuard over OpenVPN because it is much faster. For setup a WireGuard Server, please check out [here](wireguard_server.md).
+OpenVPNよりもWireGuardの方がはるかに高速なので、WireGuardをお勧めします。WireGuardサーバーのセットアップについては [こちら](wireguard_server.md)をご覧ください。
 
 ---
 
-## Make sure Internet Service Provider assigns you a public IP address
+## インターネットサービスプロバイダーがパブリックIPアドレスを割り当てていることを確認する
 
-Please check if you Internet Service Provider assigns you a public IP address [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
+インターネット サービス プロバイダーがパブリック IP アドレスを割り当てているかどうかを[こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)から確認してください 。
 
-**If not, you can't connect to the OpenVPN Server.**
+**そうではないと、OpenVPN サーバーに接続できません。**
 
-An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}.
+別の方法として、リバース・プロキシ・ソリューションを使うこともできます。 [AstroRelay](https://www.astrorelay.com/){target="_blank"}をお勧めします。
 
-## Network Topology
+## ネットワークトポロジー
 
-* If GL.iNet router is the main router in your network, this is simple, please move to the [next step](#setup-openvpn-server).
-* If you already have a main router, then the GL.iNet router is under the main router, you may need to setup a port forwarding on the main router.
-* If you already have a main router, the GL.iNet router is several levels below it and you need to set up port forwarding on each level.
+* GL.iNet ルーターがネットワーク内のメインルーターである場合、これは簡単です。 [次のステップ](#setup-openvpn-server)に進んでください。
+* すでにメインルーターがあり、GL.iNetルーターがメインルーターの下にある場合、メインルーターでポートフォワーディングをセットアップする必要があるかもしれません。
+* すでにメインルーターがある場合、GL.iNetルーターはその数段下にあり、それぞれのレベルでポートフォワーディングを設定する必要があります。
 
-## Setup OpenVPN Server
+## OpenVPNサーバーのセットアップ
 
-1. Click **Generate Configuration** (Only the first time).
+1. **設定を作成する**をクリックします（初回のみ）。
 
     ![openvpn server generate configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_generate_config.png){class="glboxshadow"}
 
-2. Apply the configuration.
+2. 設定を適用します。
 
     ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_configuration.png){class="glboxshadow"}
 
-    If you do not need to modify the configuration, please click directly the **Export Client Configuration** at the bottom of page. If you have modified the configuration, please click the **Apply** button to continue.
+    設定を変更する必要がない場合は、ページ下部の**クライアント設定をエクスポート**を直接クリックしてください。設定を変更した場合は、**Apply**ボタンをクリックして続行してください。
 
-    * **Device Mode:** TAP-S2S or Tun. To find out what the difference is, check out [tap s2s vs tun](../tutorials/tap_s2s_vs_tun.md).
+    * **デバイスモード:** TAP-S2SまたはTun。その違いについては、 [tap s2s vs tun](../tutorials/tap_s2s_vs_tun.md)をご覧ください。
 
-    * **Protocol:** UDP or TCP. To find out what the difference is, check out [tcp vs udp](../faq/openvpn_tcp_udp.md).
+    * **プロトコル:** UDP または TCP。 その違いについては、 [tcp vs udp](../faq/openvpn_tcp_udp.md)をご覧ください。
 
-    * **Authentication Mode:** There are three options **Only Certificate**, **Only Username/Password**, **Username/Password and Certificate**. 
+    * **認証モード:** **証明書のみ**、**ユーザー名/パスワードのみ**、**ユーザー名/パスワードと証明書**の3つのオプションがあります。
     
-        For **Username/Password** and **Username/Password and Certificate** options, they need add user(s). Then, if a OpenVPN client connect to this server, it need to input the username and password.
+        **ユーザー名/パスワード** および **ユーザー名/パスワードと証明書** オプションでは、ユーザーを追加する必要があります。OpenVPN クライアントがこのサーバーに接続する場合、ユーザー名とパスワードを入力する必要があります。
 
         ![openvpn server users](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_users.png){class="glboxshadow"}
 
-        Created a user.
+       ユーザーを作成。
 
         ![openvpn server add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_add_a_user.png){class="glboxshadow"}
 
-        For **Only Certificate** and **Username/Password and Certificate**, the router will automatically generate a server and client certificate-key, and write into the configuration file when generating the client configuration file.
+        **証明書のみ**と**ユーザー名/パスワードと証明書**の場合、ルーターは自動的にサーバーとクライアントの認証キーを生成し、クライアント設定ファイルを生成するときに設定ファイルに書き込みます。
 
-        Please check [here](#advanced-configuration) for **Advanced Configuration**.
+        **詳細設定**については、 [こちら](#advanced-configuration) をご確認ください。
 
-3. Export Client Configuration
+3. クライアント設定のエクスポート
 
-    Clicking the **Export Client Configuration** button at the bottom or applying the modified configuration will pop up this dialog.
+    下部の **クライアント設定のエクスポート**ボタンをクリックするか、変更した設定を適用すると、このダイアログがポップアップ表示されます。
 
-    If your network's public IP changes from time to time, you can enable [DDNS](ddns.md) by using DDNS domain in the configuration. Click **Download** to export the configuration for further setup.
+    ネットワークのパブリックIPが時々変更される場合は、設定でDDNSドメインを使用して [DDNS](ddns.md) を有効にすることができます。 **ダウンロード** をクリックすると、設定がエクスポートされます。
 
     ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_export_client_configuration.png){class="glboxshadow"}
 
-4. Start OpenVPN server
+4. OpenVPNサーバーの起動
 
-    Click the **Start** button in the upper right corner on OpenVPN Server page to start the server. Then go to [VPN Dashboard page](vpn_dashboard.md#vpn-server) to check its status and other settings.
+    OpenVPN サーバーページの右上にある **スタート** ボタンをクリックしてサーバーを起動します。その後、 [VPNダッシュボードページ](vpn_dashboard.md#vpn-server) に移動し、ステータスやその他の設定を確認します。
 
     ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/start_openvpn_server.png){class="glboxshadow"}
 
-## To check if OpenVPN Server is working properly
+## OpenVPN サーバーが正常に動作しているかどうかを確認する
 
-Many people mis-understandstool once they saw the server is up and think it is connected. The server can be up even you forward a wrong port or wrong address.
+多くの人は、サーバーが起動しているのを見て、接続されていると誤解します。 間違ったポートやアドレスを転送した場合でも、サーバーは稼働する可能性があります。
 
 ![openserverup](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openserverup.jpg){class="glboxshadow"}
 
-To check if OpenVPN Server is working properly, we can use another device connected to another network and use the OpenVPN configuration we exported earlier, to connect and see whether it connects properly and whether the IP address is the IP of OpenVPN Server.
+OpenVPN サーバーが正しく動作しているかどうかを確認するには、別のネットワークに接続された別のデバイスを使い、先ほどエクスポートした OpenVPN 設定を使用して接続し、正しく接続されるかどうか、IP アドレスが OpenVPN サーバーの IP かどうかを確認できます。
 
-The simpliest way is to use a cell phone with [OpenVPN official client app](https://openvpn.net/vpn-client/){target="_blank"} installed, turn off its Wi-Fi connection, and only connect to Internet via 3G/4G/5G. Then open the OpenVPN app, import the OpenVPN configuration we previously exported. Enable the connection, check if the phone has Internet access and whether its IP address is the IP of your OpenVPN Server.
+最も簡単な方法は、 [OpenVPN公式クライアントアプリ](https://openvpn.net/vpn-client/){target="_blank"} をインストールしたスマホを使い、Wi-Fi接続をオフにして、3G/4G/5G経由でのみインターネットに接続します。そしてOpenVPNアプリを開き、この前エクスポートしたOpenVPNの設定をインポートします。 接続を有効にして、スマートフォンがインターネットにアクセスできるかどうか、そしてその IP アドレスが OpenVPN サーバーの IP アドレスであるかどうかを確認します。
 
-When importing the configuration file to the OpenVPN app, it may has a reminder as below, please click **CONTINUE** as the certificate is already included in the configuration file.
+設定ファイルを OpenVPN アプリにインポートする際、以下のようなメッセージが表示されることがありますが、証明書はすでに設定ファイルに含まれていますので、**CONTINUE** をクリックしてください。
 
 ![openvpn app select certificate](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/select_certificate.png){class="glboxshadow"}
 
-There are several common reasons cause failed:
+失敗の原因はいくつかある：
 
-* The Internet Service Provider doesn't assign you a public IP address, please check [here](#make-sure-internet-service-provider-assigns-you-a-public-ip-address).
-* You may need setup port forwarding, please check [here](#network-topology).
-* The port you are using for OpenVPN Server is blocked by the Internet Service Provider, change to another port, or contact the Internet Service Provider.
-* Some countries/regions may block the VPN connection.
+* インターネット・サービス・プロバイダーがパブリックIPアドレスを割り当てていません。 [ こちら](#make-sure-internet-service-provider-assigns-you-a-public-ip-address)からご確認ください。
+* ポートフォワーディングの設定が必要な場合があります。 [こちら](#network-topology)からご確認ください。
+* OpenVPN サーバーに使用しているポートが、インターネットサービスプロバイダによってブロックされています。 別のポートに変更するか、インターネットサービスプロバイダーにお問い合わせください。
+* 国や地域によっては、VPN接続がブロックされる場合があります。
 
-## Advanced Configuration
+## 詳細設定
 
-You can modify your own configuration at this tab.
+このタブで自分の設定を編集することができます。
 
 ![openvpn server advancd configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_advanced_configuration.png){class="glboxshadow"}
 
-## Client to client access
+## クライアントからクライアントへのアクセス
 
-### Network Topology
+### ネットワーク・トポロジー
 
 ![ptptopology](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ptptopology.jpg){class="glboxshadow"}
 
-Enable the client to client toggle and export a new configuration to clinets, your clients can be access to each others now.
+クライアントからクライアントへの切り替えを有効にし、クライアントに新しい設定をエクスポートすると、クライアントは相互にアクセスできるようになります。
 
 ![peertopeer](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/peertopeer.jpg){class="glboxshadow"}
 
-## OpenVPN Client App
+## OpenVPNクライアントアプリ
 
-We can use another GL.iNet router as OpenVPN Client, or use their official app on other devices with various OS.
+他のGL.iNetルーターをOpenVPNクライアントとして使うこともできるし、様々なOSの他のデバイスで公式アプリを使うこともできます。
 
-- Please refer to OpenVPN Official Website: [https://openvpn.net/vpn-client/](https://openvpn.net/vpn-client/){target="_blank"}
+- OpenVPN公式サイトをご参照ください: [https://openvpn.net/vpn-client/](https://openvpn.net/vpn-client/){target="_blank"}
 
 ---
 

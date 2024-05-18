@@ -1,24 +1,24 @@
 # SMS
 
-Some models have a built-in modem that allows sending and receiving SMS messages after inserting a SIM card.
+一部のモデルにはモデムが内蔵されており、SIM カードを挿入すると SMS メッセージを送受信できます。
 
-**Note**: This feature only works on GL.iNet 4G/5G models with original 4G LTE/5G NR module, not support with other modules or any other USB modules.
+**注意**: この機能は、オリジナルの 4G LTE/5G NR モジュールを搭載した GL.iNet 4G/5G モデルでのみ動作し、他のモジュールや他の USB モジュールではサポートされません。
 
-## Supported models
+## 対応モデル
 
-| Router Model                   | Support   |
+| ルーターモデル                  | サポート   |
 | :----------------------------- | :-------: |
 | GL-XE3000 (Puli AX)            | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE300 (Puli)                | √         |
 
-## Setup
+## セットアップ
 
-Here take the GL-X3000 (Spitz AX) as an example.
+ここではGL-X3000（Spitz AX）を例に挙げます。
 
-Please refer to [this link](internet_cellular.md) to set up the SIM card first.
+ [このリンク](internet_cellular.md) を参照して、まずSIMカードを設定してください。
 
-On the left side of web Admin Panel -> INTERNET, Cellular sector.
+管理画面の左側にあるインターネット→セルラーセクターをクリックします。
 
 ![sms](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms.png){class="glboxshadow"}
 
@@ -26,27 +26,27 @@ On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
 ![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
 
-Click on the **Send Message** button in the upper right corner.
+右上の**メッセージを送信**ボタンをクリックしてください。
 
 ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message.png){class="glboxshadow"}
 
-* Recepient
+* 受信者
 
-    You need to select the international area code and enter the number. 
+    国際市外局番を選択し、番号を入力する必要があります。
 
-* From modem(SIM)
+* モデム（SIM）から
 
-    Select which SIM card to send from.
+    送信するSIMカードを選択します。
 
-* SMS Content
+* SMSコンテンツ
 
-    Each SMS can have up to 160 characters.
+   各SMSの文字数は160文字までです。
 
 ---
 
-Related Articles
+関連記事
 
-- [SMS Forwarding](../tutorials/sms_forwarding.md)
+- [SMSフォワーディング](../tutorials/sms_forwarding.md)
 
 ---
 

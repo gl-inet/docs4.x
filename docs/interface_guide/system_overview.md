@@ -1,41 +1,41 @@
-# System Overview
+# システム概要
 
-On the left side of web Admin Panel -> SYSTEM -> Overview
+ウェブ管理画面の左側 -> システム -> 概要
 
-The Overview page displays the status of some hardwares and supports some simple controls, including the following
+概要ページには、いくつかのハードウエアのステータスが表示され、以下のような簡単なコントロールがサポートされている。
 
-- Status of CPU, memory, Flash and external storage devices.
-- Status of hardware such as fan, battery, etc.
-- Control of LEDs and fan.
-- System information.
+- CPU、メモリ、フラッシュ、外部ストレージデバイスのステータス
+- ファン、バッテリーなどのハードウェアの状態
+- LEDとファンのコントロール
+- システム情報
 
-Here is the example of GL-AX1800.
+こちらはGL-AX1800の例。
 
 ![system overview](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/system_overview.png){class="glboxshadow"}
 
-## CPU Average Load
+## CPU平均負荷
 
-Click on the temperature to switch between Celsius and Fahrenheit.
+温度をクリックして摂氏と華氏を切り替えます。
 
-Mouse over the graph to display specific values.
+グラフの上にマウスを置くと、特定の値が表示されます。
 
 ![system overview, cpu average load](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/cpu_average_load.png){class="glboxshadow"}
 
-GL-AX1800/GL-MT3000/GL-X3000/GL-XE3000 has a fan, click the fan icon at the right top corner it will shows the fan settings.
+GL-AX1800/GL-MT3000/GL-X3000/GL-XE3000にはファンが付いており、右上隅にあるファンアイコンをクリックするとファン設定が表示されます。
 
 ![system overview, fan settings](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/fan_settings.png){class="glboxshadow"}
 
-## Memory Usage
+## メモリ使用量
 
-Mouse over the graph to display specific values.
+グラフの上にマウスを置くと、特定の値が表示されます。
 
-**Note**: The memory shown here is the memory available to the Linux system. The total memory here will be less than the physical memory because some of it will be allocated to the Wi-Fi subsystem or other boot areas.
+**注意**： ここに表示されているメモリは、Linuxシステムで使用可能なメモリです。メモリの一部はWi-Fiサブシステムやその他のブート領域に割り当てられるため、ここに表示されるメモリの合計は物理メモリよりも少なくなります。
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/memory_usage.png){class="glboxshadow"}
 
 ## LED
 
-Click the cog icon will go to the [Scheduled Tasks](scheduled_tasks.md) of LED.
+歯車のアイコンをクリックすると、LEDの[ スケジュールされたタスク](scheduled_tasks.md) に移動します。
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/led.png){class="glboxshadow"}
 

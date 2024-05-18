@@ -1,18 +1,18 @@
 # Tailscale
 
-Tailscale feature available since V4.2
+V4.2から Tailscale 機能が利用可能
 
-Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. For more information about Tailscale, please access [their website](https://tailscale.com/).
+Tailscaleは、あなたが所有するデバイスやアプリケーションを、世界中のどこからでも安全かつ簡単にアクセスできるようにするVPNサービスです。Tailscaleの詳細については、[ ホームページ ](https://tailscale.com/)にアクセスしてください。
 
-The Tailscale feature in GL.iNet router allow the router to join the Tailscale virtual network, then you can access it remotely, even to its WAN or LAN resources.
+GL.iNetルーターのTailscale機能により、ルーターはTailscale仮想ネットワークに参加することができ、WANまたはLANリソースにリモートアクセスすることができます。
 
-**Note**: Because Tailscale is based on WireGuard, it is not recommended to use the Tailscale feature with the OpenVPN Client or WireGuard Client at the same time, as there may be bugs.
+**注意**: Tailscale は WireGuard に基づいている、バグが発生する可能性があるため、Tailscale 機能を OpenVPN クライアントまたは WireGuard クライアントと同時に使用することはお勧めできません。
 
-**Note**: This feature is currently in beta, and may have some bugs.
+**注意**: この機能は現在ベータ版であり、いくつかのバグがある可能性があります。
 
-## Supported models
+## 対応モデル
 
-| Router Model                   | Support   |
+| ルーターモデル                  | サポート   |
 | :----------------------------- | :-------: |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
@@ -31,143 +31,143 @@ The Tailscale feature in GL.iNet router allow the router to join the Tailscale v
 | GL-X300B (Collie)              | -         |
 | GL-MV1000/GL-MV1000W (Brume)   | √         |
 
-## Setup
+## セットアップ
 
-The following is an example of the GL-MT2500.
+以下はGL-MT2500の例です。
 
-### Binding
+### バインディング
 
-Please register a Tailscale account first. For testing purposes, first bind one or two devices to your Tailscale account. After binding, you will be able to see your devices and their status in the Tailscale Admin console.
+まずTailscaleアカウントを登録してください。テスト用に、まず1台または2台のデバイスをTailscaleアカウントにバインドしてください。バインド後、Tailscale管理コンソールでデバイスとそのステータスを確認できるようになります。
 
 ![tailscale admin console](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_admin_console_1.png){class="glboxshadow"}
 
-On the left side -> APPLICATIONS -> Tailscale
+左側 -> アプリケーション -> Tailscale
 
 ![glinet tailscale disabled](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_disabled.png){class="glboxshadow"}
 
-Toggle to enable Tailscale, then click **Apply**.
+Tailscaleを有効に切り替え、**適用**をクリックします。
 
 ![glinet enable tailscale](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/enable_tailscale.png){class="glboxshadow"}
 
-It will show a **Device Bind Link**. Click the Device Bind Link.
+**デバイスバインドリンク**が表示されます。デバイスバインドリンクをクリックします。
 
 ![glinet bind link](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_bind_link_1.png){class="glboxshadow"}
 
-It will pop up and show a tailscale link, click it.
+ポップアップしてtailscaleのリンクが表示されるので、それをクリックします。
 
 ![glinet bind link](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_bind_link_2.png){class="glboxshadow"}
 
-The link will open in your browser and ask you to log in to your Tailscale account.
+リンクがブラウザで開き、Tailscaleアカウントにログインするよう求められます。
 
-Once logged in, you will be asked to confirm the device you want to connect to. Click **Connect**.
+ログインすると、接続するデバイスの確認画面が表示されます。**接続**をクリックします。
 
 ![tailscale confirm connect device](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_connect_device.png){class="glboxshadow gl-70-desktop"}
 
-When the connection is successful, you will automatically be redirected to the admin console. You can see here that the IP of the GL-MT2500 is `100.88.54.21`, and you can use this IP to access the router.
+接続が成功すると、自動的に管理コンソールにリダイレクトされます。ここでGL-MT2500のIPが`100.88.54.21`であることがわかり、このIPを使ってルーターにアクセスすることができます。
 
 ![tailscale admin console](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_admin_console_2.png){class="glboxshadow"}
 
-### Test connectivity
+### 接続性テスト
 
-Now that the GL-MT2500 is connected to the Tailscale virtual network, you can test it on other devices as fellows three ways.
+GL-MT2500がTailscale仮想ネットワークに接続されたので、3つの方法で他のデバイスでテストすることができます。
 
-* Use ping command
+* pingコマンドを使用する
 
     ![ping](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/ping.png){class="glboxshadow"}
 
-* SSH to the router
+* ルーターにSSH接続する
 
     ![ssh](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/ssh.png){class="glboxshadow"}
 
-* Access web Admin Panel
+* ウェブ管理パネルにアクセスする
 
     ![web admin panel](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/web_admin_panel.png){class="glboxshadow gl-80-desktop"}
 
-## Allow Remote Access WAN
+## リモートアクセスWANの許可
 
-If this option is enabled, the resources on the WAN side of the device will be allowed to be accessed via the Tailscale virtual network.
+このオプションを有効にすると、デバイスのWAN側のリソースにTailscale仮想ネットワーク経由でアクセスできるようになります。
 
-For example, as shown below, if this function is enabled, you can access `GL-AXT1800` by its IP(`192.168.29.1`) from `leo-phone`, because `GL-AX1800` is connected to the WAN port of `GL-MT2500`, which is the upper layer device of `GL-MT2500`.
+例えば、この機能を有効にすると、上位デバイスである`GL-MT2500`のWANポートに`GL-AXT1800`が接続されるため、`leo-phone`から`GL-AXT1800`のIP(`192.168.29.1`)でアクセスできるようになります。
 
 ![tailscale, remote access wan topology](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_wan_topology.png){class="glboxshadow"}
 
-The operation steps are as follows.
+操作の手順は以下の通り。
 
-1. Enable Allow Remote Access WAN.
+1. リモートアクセスWANを許可する。
 
     ![enable allow remote access wan](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/enable_allow_remote_access_wan.png){class="glboxshadow"}
 
-2. Go to admin console of Tailscale, it will display an alert that GL-MT2500 has subnets. Click on the GL-MT2500 menu and select **Edit route settings**.
+2. Tailscaleの管理コンソールにアクセスすると、GL-MT2500にサブネットがある旨のアラートが表示されます。GL-MT2500のメニューをクリックし、**ルート設定の編集**を選択します。
 
     ![tailscale subnet alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_subnet_alert_wan.png){class="glboxshadow"}
 
-3. Enable the subnet routes.
+3. サブネットのルートを有効にする。
 
     ![tailcale, enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
-4. Now you can access GL-AXT1800 by its IP(`192.168.29.1`) on other machines. You can actually access the devices at `192.168.29.0/24`.
+4. これで他の端末からGL-AXT1800のIP(`192.168.29.1`)でアクセスできるようになります。実際には、`192.168.29.0/24`のデバイスにアクセスできます。
 
     ![tailscale, access axt1800](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow"}
 
-## Allow Remote Access LAN
+## リモートアクセスLANの許可
 
-If this option is enabled, the resources inside the device LAN will be allowed to be accessed via the Tailscale virtual network.
+このオプションを有効にすると、Tailscale仮想ネットワーク経由でデバイスLAN内のリソースにアクセスできるようになります。
 
-For example, as show below, if this function is enabled, you can SSH to `Ubuntu` by its IP(`192.168.8.110`) from `leo-phone`, because `Ubuntu` is connected to the LAN port of `GL-MT2500`, which is the lower layer device of `GL-MT2500`.
+例えば、この機能を有効にすると、 `Ubuntu`は`GL-MT2500`のLANポートに接続されているので、`leo-phone`から`Ubuntu`のIP(`192.168.8.110`)でSSH接続することができます。
 
 ![tailscale, remote access lan topology](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_lan_topology.png){class="glboxshadow"}
 
-The operation steps are as follows.
+操作手順は以下の通り。
 
-1. Enable Allow Remote Access LAN.
+1. リモートアクセスLANを許可する。
 
     ![enable remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/enable_allow_remote_access_lan.png){class="glboxshadow"}
 
-2. Go to admin console of Tailscale, it will display an alert that GL-MT2500 has subnets. Click on the GL-MT2500 menu and select **Edit route settings**.
+2. Tailscaleの管理コンソールにアクセスすると、GL-MT2500にサブネットがある旨のアラートが表示されます。GL-MT2500のメニューをクリックし、**ルート設定の編集**を選択します。
 
     ![tailscale subnet alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_subnet_alert_lan.png){class="glboxshadow"}
 
-3. Enable the subnet routes.
+3. サブネットのルートを有効にする。
 
     ![tailscale, enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes_lan.png){class="glboxshadow"}
 
-4. Now you can ping or SSH the  by its IP(`192.168.8.110`) on other devices. You can actually access the devices at `192.168.8.0/24`.
+4. これで他のデバイスでIP(`192.168.8.110`)を使ってpingやSSHができるようになります。実際には`192.168.8.0/24`のデバイスにアクセスできます。
 
     ![tailscale, access ubuntu](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_ubuntu.jpg){class="glboxshadow gl-50-desktop"}
 
-## Custom Exit Nodes
+## カスタム出口ノード
 
-The exit node feature lets you route all non-Tailscale internet traffic through a specific device on your network. The device routing your traffic is called an “exit node”.
+出口ノード機能を使用すると、Tailscale以外のすべてのインターネットトラフィックをネットワーク上の特定のデバイス経由でルーティングできます。トラフィックをルーティングするデバイスは「出口ノード」と呼ばれます。
 
 ![exitnode](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/exitnode.jpg){class="glboxshadow"}
 
-**Note**: GL.iNet router is not yet available as an exit node, this feature is still under development.
+**注意**: GL.iNet ルーターはまだ出口ノードとして利用できません。この機能はまだ開発中です。
 
-**Note**: If the router's DNS Server is a private IP address that can be accessed only in the local network, you may lose the Internet access when running the exit nodes. Please go to Network > DNS menu and set a manual public DNS server such as 8.8.8.8 as the solution.
+**注意 **: ルーターのDNSサーバーがローカルネットワークでのみアクセス可能なプライベートIPアドレスである場合、出口ノードを実行するとインターネットアクセスができなくなる可能性があります。ネットワーク > DNSメニューから、8.8.8.8などの手動パブリックDNSサーバーを設定してください。
 
-Setup Steps:
+セットアップの手順
 
-1. On the device you wish to use as an exit node, select **Run exit node**. On Windows, follow the steps below.
+1. 出口ノードとして使用するデバイスで、**出口ノードの実行**を選択します。Windowsの場合は、以下の手順に従ってください。
 
     ![tailscale windows, run exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node.png){class="glboxshadow"}
 
-    Click **Yes**.
+    **はい**をクリックしてください。
 
     ![tailscale windows, run exit ndoe alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
 
-2. Set up the device as an exit node in the Admin console.
+2. 管理コンソールでデバイスを出口ノードとして設定します。
 
     ![tailscale exit node alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_exit_node_alert.png){class="glboxshadow"}
 
     ![tailscale use as exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_use_as_exit_node.png){class="glboxshadow"}
 
-3. Enable **Custom Exit Nodes** in your GL-router, click the refresh button, and select the IP of the device that has been set up as an exit node from the drop-down menu, then click **Apply**. That is it.
+3. GL- ルーターで**カスタム出口ノード**を有効にし、更新ボタンをクリックして、出口ノードとして設定されたデバイスのIPをドロップダウンメニュー から選択し、**適用**をクリックします。以上で設定は完了です。
 
     ![glinet tailscale, custom exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow"}
 
-4. The devices under that GL-router will use the home IP of the **Exit Node** .
+4. そのGL-ルーターの下にあるデバイスは、**出口ノード**のホームIPを使用します。
 
-[Refer link: Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/)
+[リンクを参照：出口ノード（すべてのトラフィックをルーティングする)](https://tailscale.com/kb/1103/exit-nodes/)
 
 ---
 

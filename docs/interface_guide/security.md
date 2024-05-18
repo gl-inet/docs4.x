@@ -1,38 +1,38 @@
-# Security
+# セキュリティ
 
-This feature is available since v4.5.
+この機能はv4.5から利用できます。
 
-On the left side of web Admin Panel -> SYSTEM -> Security
+ウェブ管理画面の左側 -> システム -> セキュリティ
 
-## Admin Password
+## 管理者パスワード
 
 ![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/admin_password.png){class="glboxshadow"}
 
-Change the password of login the web Admin Panel. You have to input your current password to change it.
+管理画面にログインする際のパスワードを変更します。変更するには、現在のパスワードを入力する必要があります。
 
-For security reasons, we recommend that you turn on **Prevent Weak Password**.
+セキュリティ上の理由から、**弱いパスワードの防止**をオンにすることをお勧めします。
 
-When **Prevent Weak Password** is turned on, the requirements for new passwords are as follows.
+ **弱いパスワードの防止** がオンの場合、新しいパスワードの条件は以下の通り。
 
-- 5 characters and maximum 63 characters.
-- Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
-- At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
+- 5文字以上63文字以内。
+- 文字（大文字と小文字を区別）、数字、記号 `` ！@ # $ % ^ & * ( ) _ + - = , . > < | ? / [ ] { } : ; " ' ` ~ `` が使用できます。
+- 大文字、小文字、数字、記号のうち少なくとも2つは必須。
 
-## Local Access Control
+## ローカル・アクセス・コントロール
 
-The local control feature can prevent scanning and intrusion attempts on the default port and avoid network problems caused by port conflicts.
+ローカル・コントロール機能は、デフォルト・ポートでのスキャンや侵入の試みを防ぎ、ポートの競合によるネットワーク問題を回避することができます。
 
-**Note**: If the port number is modified in the firmware, you needs to enter the correct port number on the mobile phone to enter the admin panel. If the port number is forgotten, please reset the router to the default port number.
+**注意**:  ファームウェアでポート番号が変更された場合、管理パネルに入るにはスマートフォンで正しいポート番号を入力する必要があります。ポート番号を忘れた場合は、ルーターをデフォルトのポート番号にリセットしてください。
 
 ![security_default_local_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/security_default_local_access_control.png){class="glboxshadow"}
 
-**Auto-Logout Time**: Interval between closing or hibernating the browser page and logging out.
+**自動ログアウト時間**： ブラウザページを閉じるか休止状態にしてからログアウトするまでの間隔。
 
-### Prohibited Port
+### 禁止ポート
 
 ![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/http_https_port_forbidden.png){class="glboxshadow"}
 
-??? "The list of port numbers prohibited by the browser is as follows:"
+??? "ブラウザが禁止するポート番号のリストは以下の通り。:"
 
     | Port  | Description                              |
     | :-----| :--------------------------------------: |
@@ -117,19 +117,19 @@ The local control feature can prevent scanning and intrusion attempts on the def
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## Remote Access Control
+## リモート・アクセス・コントロール
 
-After enabling remote access, specific locations can be set to allow access, such as enabling remote access to home devices only from the office, sacrificing convenience for improved security.
+リモートアクセスを有効にした後、特定の場所からのアクセスを許可するように設定することができます。例えば、オフィスから自宅のデバイスにのみリモートアクセスを許可し、利便性を犠牲にしてセキュリティを向上させることができます。
 
 ![security_remote_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/security_remote_access_control.png){class="glboxshadow"}
 
-- **Allow Ping from WAN**: When there is a network problem, allowing Ping from the WAN port can help users or network administrators check whether the router is properly connected, as well as determine network latency and packet loss.
+- **WANからのPingを許可する**: ネットワークに問題がある場合、WAN ポートからの Ping を許可すると、ユーザーまたはネットワーク管理者がルーターが適切に接続されているかどうかを確認したり、ネットワーク遅延やパケット損失を判断したりするのに役立ちます。
 
-- **HTTPS Remote Access**: HTTPS protocol is mainly used for communication between web browsers and web servers, providing secure data transmission guarantee. Therefore, when users need to remotely manage servers or access web applications through web browsers, HTTPS protocol can be used to ensure the security and reliability of data transmission.
+- **HTTPS リモート アクセス**: HTTPSプロトコルは主にウェブブラウザとウェブサーバ間の通信に使用され、安全なデータ伝送を保証します。そのため、ユーザーがウェブブラウザを通じてサーバーをリモート管理したり、ウェブアプリケーションにアクセスしたりする必要がある場合、HTTPSプロトコルを使用することで、データ伝送の安全性と信頼性を確保することができます。
 
-- **SSH Remote Access**: SSH protocol is mainly used for securely accessing and managing remote computers and servers, as well as performing file transfer operations. When users need to remotely log in to servers through command lines or scripts for system management, file transfer, and other operations, SSH protocol can be used to establish a secure tunnel to ensure the security and privacy of data transmission.
+- **SSHリモートアクセス**: SSHプロトコルは主にリモートコンピュータやサーバーに安全にアクセスしたり、管理したり、ファイル転送操作を実行するために使用されます。ユーザがシステム管理、ファイル転送、その他の操作のためにコマンドラインやスクリプトを使ってサーバにリモートログインする必要がある場合、セキュアなトンネルを確立してデータ転送のセキュリティとプライバシーを確保するためにSSHプロトコルを使用することができます。
 
-- **Allow Remote Access from Specific IPs**: This function is used in conjunction with the **HTTPS Remote Access** or **SSH Remote Access**.You can add multiple specified IP addresses to remotely manage routers from devices with these specified IP addresses.
+- **特定のIPからのリモートアクセスを許可する**: この機能は、**HTTPSリモートアクセス**または**SSHリモートアクセス**と組み合わせて使用します。複数の指定IPアドレスを追加して、これらの指定IPアドレスを持つデバイスからルーターをリモート管理することができます。
 
 ![add_ip_address](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address.png){class="glboxshadow"}
 

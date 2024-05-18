@@ -1,24 +1,24 @@
-# Scheduled Tasks
+# スケジュールされたタスク
 
-On the left side of web Admin Panel -> SYSTEM -> Scheduled Tasks
+ウェブ管理パネルの左側 -> システム -> スケジュールされたタスク
 
-Schedule Tasks allows you to set up a daily schedule for some basic actions, including switching LED lights on and off, restarting the router, and switching Wi-Fi on and off.
+スケジュール・タスクでは、LEDライトのオン／オフ、ルーターの再起動、Wi-Fiのオン／オフなど、基本的な動作の1日のスケジュールを設定できます。
 
-**Note**: Please synchronize the time in the [Time Zone](time_zone.md) first before using this function. If the device is shutdown at the set time, the task will not be executed.
+**注意**： この機能を使用する前に、まず[Time Zone](time_zone.md) で時刻を同期させてください。設定した時刻にデバイスがシャットダウンしている場合、タスクは実行されません。
 
-## LED Display Schedule
+## LED表示スケジュール
 
 ![led display schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/led_display_schedule.png){class="glboxshadow"}
 
-## Schedule Reboot
+## 再起動のスケジュール
 
 ![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/schedule_reboot.png){class="glboxshadow"}
 
-## 5GHz Wi-Fi Status Schedule
+## 5GHz Wi-Fiステータス・スケジュール
 
 ![5GHz Wi-Fi Status Schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/5g_wifi_status_schedule.png){class="glboxshadow"}
 
-## 2.4GHz Wi-Fi Status Schedule
+## 2.4GHz Wi-Fiステータス・スケジュール
 
 ![2.4GHz Wi-Fi Status Schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/2g_wifi_status_schedule.png){class="glboxshadow"}
 

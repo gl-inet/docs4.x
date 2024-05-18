@@ -1,34 +1,34 @@
-# Wireless
+# ワイヤレス
 
-The wireless interface may vary a bit from model to model, here is an example of GL-AXT1800.
+ワイヤレスインターフェースはモデルによって多少異なりますが、ここではGL-AXT1800の例を示します。
 
-On the left side of web Admin Panel -> WIRELESS
+ウェブ管理パネルの左側 -> ワイヤレス
 
-**Note**: Some models do not have 5G WiFi, e.g. GL-S200, GL-X300B(Collie).
+**注意**： GL-S200、GL-X300B(Collie)など、5G WiFiを搭載していないモデルもあります。
 
-**Note**: Some models do not have WiFi, e.g. GL-MT2500/GL-MT2500A(Brume 2), GL-MV1000(Brume)
+**注意**： GL-MT2500/GL-MT2500A(Brume2)、GL-MV1000(Brume)など、WiFiを搭載していないモデルもあります。
 
-## Main WiFi
+## メインWiFi
 
 * 5G WiFi
 
     ![main wifi 5g](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/main_wifi_5g.png){class="glboxshadow"}
 
-    **Note**:
+    **注意**:
 
-    * The **Bandwidth** and **Channel** can't be modified when [repeater](internet_repeater.md) is enabled.
-    * When **Channel** set as **Auto**, WiFi will not automatically switch to the DFS channel.
-    * When switch to DFS channel from non-DFS channel, it will pop up a caution.
+    *  [リピーター](internet_repeater.md) が有効になっている場合、**帯域幅**と**チャンネル**は変更できません。
+    * **チャンネル** を **オート** に設定すると、WiFi は自動的に DFS チャンネルに切り替わりません。
+    * 非DFSチャネルからDFSチャネルに切り替えると、警告がポップアップ表示されます。
 
         ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
-    * When the **Bandwidth** is set to 160 MHz (Only some models can be set to 160MHz), WiFi will always use the DFS channel, even if you choose a non-DFS channel of the **Auto** option.
+    * **帯域幅**が160MHzに設定されている場合（一部のモデルのみ160MHzに設定可能）、**Auto**オプションで非DFSチャンネルを選択しても、WiFiは常にDFSチャンネルを使用します。
 
 * 2.4G WiFi
 
     ![main wifi 2.4g](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/main_wifi_2.4g.png){class="glboxshadow"}
 
-## Guest WiFi
+## ゲストWiFi
 
 * 5G Guest WiFi
 

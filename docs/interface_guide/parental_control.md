@@ -1,16 +1,16 @@
-# Parental Control
+# ペアレンタル・コントロール
 
-Parental control feature available since V4.2
+V4.2からペアレンタルコントロール機能が利用可能
 
-On the left side of web Admin Panel -> APPLICATIONS -> Parental Control
+管理画面の左側 -> アプリケーション -> ペアレンタルコントロール
 
-## Local Version
+## ローカル・バージョン
 
-The local version is provided by GL.iNet. It is currently in beta, so there is no additional cost. In this version, if you need to filter requests by application, you need to enter the domain manually.
+ローカル版はGL.iNetが提供しています。現在ベータ版ですので、追加費用はかかりません。このバージョンでは、アプリケーション別にリクエストをフィルタリングする必要がある場合、ドメインを手動で入力する必要があります。
 
-### Supported Models
+### 対応モデル
 
-| Router Model                   | Support   |
+| ルーターモデル                  | サポート   |
 | :----------------------------- | :-------: |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
@@ -29,160 +29,160 @@ The local version is provided by GL.iNet. It is currently in beta, so there is n
 | GL-X300B (Collie)              | -         |
 | GL-MV1000/GL-MV1000W (Brume)   | √         |
 
-### Setup
+### セットアップ
 
-Make sure the time on your router is correct, otherwise, go to Time Zone and synchronize the time first.
+ルーターの時刻が正しいことを確認してください。そうでない場合は、まず「タイムゾーン」で時刻を同期させてください。
 
 ![parental control, router time](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_time.png){class="glboxshadow"}
 
-Let's take two typical cases as examples here, and you can make adjustments to suit your situation.
+ここでは例として 2 つの典型的なケースを取り上げます。状況に合わせて調整できます。
 
-#### Case 1
+#### ケース　1
 
-In the first use case, we will set up the device to be unable to access the internet by default.
+最初の使用例では、デフォルトでインターネットにアクセスできないようにデバイスを設定します。
 
-We will create two rulesets, **learning** and **play**, then set the learning time from Monday to Friday from 8am to 11am, 6pm to 8pm of weekend is the play time.
+**学習**と**遊び**の2つのルールセットを作成し、月曜日から金曜日の午前8時から午前11時までを学習時間、週末の午後6時から午後8時までを遊び時間に設定します。
 
 ![parental control, enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
 
-**Block WAN for Unmanaged Devices** is used to block unmanaged devices from accessing the Internet.
+**アンマネージドデバイスのWANブロック**は、アンマネージドデバイスがインターネットにアクセスするのをブロックするために使用されます。
 
-The first time, it will have a setup wizard.
+初回はセットアップ・ウィザードが表示されます。
 
-Give the profile a name.
+プロフィールに名前を付けます。
 
 ![create a profile guide](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_1.png){class="glboxshadow"}
 
-Select the devices you want to manage, or manually add device by input their MAC address.
+管理したいデバイスを選択するか、MACアドレスを入力してデバイスを手動で追加します。
 
 ![create a profile guide](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_2.png){class="glboxshadow"}
 
-You should first connect these devices to the router, otherwise you will need to enter the MAC address manually.
+まずこれらのデバイスをルーターに接続する必要があります。接続しない場合は、MAC アドレスを手動で入力する必要があります。
 
-The default ruleset of access is **Block Internet Access**. We create two rulesets here, which we will use later. Click **Add a New Ruleset**.
+アクセスのデフォルトのルールセットは、**インターネットアクセスをブロック** です。ここでは、後で使用する2つのルールセットを作成します。**新しいルールセットの追加**をクリックします。
 
 ![create a profile guide](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_3.png){class="glboxshadow"}
 
-Specify the ruleset name, color, and a list of sites to block.
+ルールセット名、色、ブロックするサイトのリストを指定します。
 
 ![create a ruleset guide](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_ruleset_4.png){class="glboxshadow"}
 
-The domain names entered in the blocklist include their subdomains. For example, if "example.com" is entered, it also includes any subdomain, such as "subdomain.example.com".
+ブロックリストに入力されたドメイン名には、そのサブドメインも含まれます。例えば、"example.com "が入力された場合、"subdomain.example.com "のようなサブドメインも含まれます。
 
-In addition to entering domain names, there are also specific syntax options available. Please refer to [this page](https://github.com/gl-inet/gl-feeds/tree/common/gl-sdk4-parental-control#app-feature-library-syntax) for more information.
+ドメイン名の入力に加えて、特定の構文オプションもあります。詳しくは [こちらのページ](https://github.com/gl-inet/gl-feeds/tree/common/gl-sdk4-parental-control#app-feature-library-syntax) をご覧ください。
 
-Similarly, create another ruleset.
+同様に、別のルールセットを作成します。
 
 ![create a ruleset guide](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_ruleset_5.png){class="glboxshadow"}
 
-At this point, there will be a total of 4 rulesets. Choose **Block Internet Access**.
+この時点で、合計4つのルールセットが存在することになります。**インターネットアクセスをブロックする**を選択します。
 
 ![create a profile guide](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_6.png){class="glboxshadow"}
 
-Then go to Set Schedule. Click **Go to Set**.
+次にスケジュールを設定しましょう。**設定へ移動**をクリックします。
 
 ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_schedule_7.png){class="glboxshadow"}
 
-It is assumed that 8am to 11am Monday through Friday is the study time, and the ruleset here is **Learning**. Click **Apply**.
+月曜日から金曜日の午前8時から午前11時までが学習時間であり、ここでのルールセットは**学習**であると仮定します。**適用**をクリックしてください。
 
 ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_schedule_8.png){class="glboxshadow"}
 
-You will be taken to the edit page of the newly created profile.
+新しく作成されたプロフィールの編集ページに移動します。
 
 ![modify profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/modify_profile.png){class="glboxshadow"}
 
-It has created a schedule. Click **Add Schedule** 
+スケジュールが作成されました。**スケジュールの追加**をクリックします。
 
 ![schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/schedules_1.png){class="glboxshadow"}
 
-Add another ruleset to the schedule.
+スケジュールに別のルールセットを追加します。
 
 ![add a schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/create_schedule_2.png){class="glboxshadow"}
 
-After apply, the **Play** schedules are shown below.
+適用後の**遊び**スケジュールは以下の通りです。
 
 ![schedules](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/schedules_2.png){class="glboxshadow"}
 
-Click on the purple or green parts of the image above, and you can also modify it.
+上の画像の紫か緑の部分をクリックすれば、修正することもできます。
 
 ![edit schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/schedule_edit.png){class="glboxshadow"}
 
-As shown below, click Parental Control at the top to return to the Parental Control page.
+下図のように、一番上の「ペアレンタルコントロール」をクリックすると、ペアレンタルコントロールのページに戻ります。
 
 ![back to parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/back_to_parental_control_page.png){class="glboxshadow"}
 
-The image below shows the final configuration. You can modify existing profiles and rulesets, or add profiles and rulesets, as you see fit.
+下の画像は、最終的な設定内容を示しています。既存のプロファイルやルールセットを変更したり、プロファイルやルールセットを追加したりすることができます。
 
 ![parental control, finally](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_finally.png){class="glboxshadow"}
 
-#### Case 2
+#### ケース 2
 
-In the second use case, we will set up the device to have restricted internet access by default. Then set the weekend evenings from 6pm to 8pm to play games and short videos. Bedtime, 9pm to 7am the next morning, will disable access to the Internet. See the video tutorial below.
+２つ目の使用例では、デフォルトでインターネットへのアクセスが制限されるようにデバイスを設定します。そして、週末の夕方6時から8時まではゲームや短い動画をプレイできるように設定します。就寝時間の夜9時から翌朝7時までは、インターネットへのアクセスを無効にします。以下のビデオチュートリアルをご覧ください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5-EOWZ3WkeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Troubleshooting
+### トラブルシューティング
 
-There may be several reasons why the settings are not effective after being configured:
+設定が有効でない理由はいくつか考えられます：
 
-1. DNS cache.
+1. DNSキャッシュ
   
-    Browsers and operating systems have caches, so it takes some time for the changes to take effect. You can try clearing the cache to get it to take effect immediately. 
+    ブラウザやOSにはキャッシュがあるため、変更が反映されるまでには時間がかかります。キャッシュをクリアすればすぐに有効になることもあります。
   
-      * [Clear the cache in the desktop Chrome browser](https://support.google.com/accounts/answer/32050)
+      * [デスクトップのChromeブラウザのキャッシュをクリアする。](https://support.google.com/accounts/answer/32050)
       
-      * [Clear the cache in the desktop Edge browser](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2)
+      * [デスクトップのEdgeブラウザでキャッシュをクリアする](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2)
 
-2. Perhaps the schedule for the profile you set has not yet arrived.
+2. おそらく、設定したプロファイルのスケジュールがまだ到着していない可能性があります。
 
-3. The domain name you set may be incorrect.
+3. 設定したドメイン名が間違っている可能性があります。
   
-    While a website's domain name is public, the domain name used when an app calls an API is not. To resolve this, you will need to use a tool(e.g. Wireshark) to capture packets or search for it.
+    ウェブサイトのドメイン名は公開されているが、アプリがAPIを呼び出すときに使われるドメイン名は公開されていません。これを解決するには、ツール（Wiresharkなど）を使ってパケットをキャプチャするまたは検索する必要があります。
 
-4. If you have a device that uses a random MAC address for each connection, that will also disable the feature.
+4. 各接続にランダムなMACアドレスを使用するデバイスを使用している場合、その機能も無効になります。
 
 
-## Bark Version
+## Bark バージョン
 
-The [Bark](https://www.bark.us/){target="_blank"} version, which is provided and managed by Bark on their own platform, offers the option to filter applications and websites with a single click and monitor request history. Please be aware that an additional subscription fee is payable directly to Bark for this service.
+[Bark](https://www.bark.us/){target="_blank"}バージョンは、Barkが独自のプラットフォーム上で提供・管理しており、アプリケーションやウェブサイトをワンクリックでフィルタリングしたり、リクエスト履歴を監視したりすることができます。このサービスをご利用いただくには、Barkに直接追加料金をお支払いいただく必要があります。
 
-Bark Parental control feature available since v4.5.
+v4.5 以降、Barkペアレンタルコントロール機能が利用可能になりました。
 
-**Note:** It’s only available in the US, Australia, Guam, and South Africa.
+**注意:** アメリカ、オーストラリア、グアム、南アフリカでのみ入手可能。
 
-### Usage Scenarios
+### 使用シナリオ
 
-Bark features monitoring functionality for over 24 different applications and social media networks, which serves as a pre-set list of users under our local parental control feature.
+Barkは、24以上の異なるアプリケーションやソーシャルメディアネットワークの監視機能を備えており、ローカルのペアレンタルコントロール機能であらかじめ設定されたユーザーリストとして機能します。
 
-With its logging function, it knows which client accessed which website during which time period, making it convenient for parents to view the logs and identify websites that are not in the blacklist list, and promptly add them to the scope of management control.
+ログ機能により、どのクライアントがどの時間帯にどのウェブサイトにアクセスしたかを把握でき、保護者がログを見てブラックリストに載っていないウェブサイトを特定し、速やかに管理制御の範囲に加えることができます。
 
-### Supported Models
+### 対応モデル
 
-| Router Model        | Support |
+| ルーターモデル       | サポート |
 | :------------------ | :-----: |
 | GL-MT6000 (Flint 2) |    √    |
 
 
-### Setup
+### セットアップ
 
-On the left side of web Admin Panel -> APPLICATIONS -> Parental Control.
+ウェブ管理画面の左側 -> アプリケーション -> ペアレンタルコントロール.
 
-After selecting the bark version, enable and apply it.Both versions of Parental Controls cannot be enabled at the same time, and the another one will be automatically disabled when you switch versions.
+Barkのバージョンを選択したら、有効にして適用します。ペアレンタルコントロールの両方のバージョンを同時に有効にすることはできず、バージョンを切り替えると、もう一方のバージョンは自動的に無効になります。
 
 
 ![switch_versions](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
 
-**Please note:** Bark's service may not be available in certain countries. As GL.iNet is not the provider of this service, should you encounter any issues using Bark, kindly reach out directly to [Bark's Technical Support ](https://www.bark.us/contact-us/?ref=glinet&home=glinet)for assistance.
+**ご注意ください：** Barkのサービスは、国によってはご利用いただけない場合があります。 GL.iNetはこのサービスの提供者ではありませんので、Barkを使用して問題が発生した場合は、 [Barkのテクニカルサポート](https://www.bark.us/contact-us/?ref=glinet&home=glinet)に直接お問い合わせください。
 
 
 ![bark_enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_enable.png){class="glboxshadow"}
 
-The Bark service is enabled, but this device is not yet paired with any account. Please use the [Device Pairing Link](http://go.bark.us/?ref=glinet&home=glinet) to pair this device with your Bark account.
+Barkサービスは有効ですが、このデバイスはまだどのアカウントともペアリングされていません。 [バイスペアリングリンク](http://go.bark.us/?ref=glinet&home=glinet) を使用して、このデバイスをBarkアカウントとペアリングしてください。
 
 
 ![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_pairing_link.png){class="glboxshadow"}
 
-The device is connected to Bark Cloud Services and paired with an account. Please [Go to Bark](https://www.bark.us/app/children/?ref=glinet&home=glinet) and log in to the paired account to control access.
+デバイスはBarkクラウドサービスに接続され、アカウントとペアリングされています。  [Barkにアクセス](https://www.bark.us/app/children/?ref=glinet&home=glinet) ペアリングされたアカウントにログインしてアクセスを制御してください。
 
 
 ![device_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/device_set_up.png){class="glboxshadow"}

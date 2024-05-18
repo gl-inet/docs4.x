@@ -1,12 +1,12 @@
-# Plug-ins
+# プラグイン
 
-On the left side of web Admin Panel -> APPLICATIONS -> Plug-ins
+ウェブ管理画面の左側 -> アプリケーション -> プラグイン
 
-**Plug-ins** allows you to manage OpenWrt packages. You can install or remove any package. 
+**プラグイン**では、OpenWrtのパッケージを管理することができます。任意のパッケージをインストールしたり、削除したりすることができます。
 
-It is recommended to click the **Update** button before use.
+使用する前に、**アップデート**ボタンをクリックすることをお勧めします。
 
-The following figure shows the Plug-ins page of GL-AXT1800.
+下図はGL-AXT1800のプラグインページです。
 
 ![Plug-ins](https://static.gl-inet.com/docs/router/en/4/tutorials/plug-ins/plug-ins.png){class="glboxshadow"}
 

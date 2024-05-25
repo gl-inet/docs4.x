@@ -20,7 +20,7 @@
 
     ![set up nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/set_up_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
-5. VPNダッシュボードに進み、設定ファイルを選択して**Apply**をクリックして接続します。
+5. VPNダッシュボードに進み、設定ファイルを選択して**適用**をクリックして接続します。
 
     ![connect nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/connect_nordvpn_on_glinet_router.png){class="glboxshadow"}
 

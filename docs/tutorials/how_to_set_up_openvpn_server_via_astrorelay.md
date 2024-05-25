@@ -26,7 +26,7 @@
 
     ![astrorelayリンク](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpncopylink.jpg){class="glboxshadow"}
 
-3. このリンクをOpenVPN構成の**Remote**の後に置き、**":"**をスペースに置き換えます。その後、修正された構成をOpenVPNクライアントアプリで使用できます。
+3. このリンクをOpenVPN構成の**リモート**の後に置き、**":"**をスペースに置き換えます。その後、修正された構成をOpenVPNクライアントアプリで使用できます。
 
     ![openvpn構成にリンクを置き換える](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnconfig.jpg){class="glboxshadow"}
 

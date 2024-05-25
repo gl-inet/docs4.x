@@ -104,13 +104,13 @@ GL.iNetルーターのZeroTier機能を使用すると、ルーターがZeroTier
 ![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_2.png){class="glboxshadow"}
 
 
-2. 他のデバイスからIP(`192.168.29.1`)を使用してGL-AXT1800にアクセスできます。実際には、`192.168.29.0/24`のデバイスにアクセスできます。
+3. 他のデバイスからIP(`192.168.29.1`)を使用してGL-AXT1800にアクセスできます。実際には、`192.168.29.0/24`のデバイスにアクセスできます。
 
 ![zerotier, access axt1800](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow"}
 
 ## リモートアクセスLANの許可
 
-このオプションが有効になっている場合、デバイスLAN内のリソースがZeroTier仮想ネットワークを介してアクセス可能になります。
+このオプションが有効になっている場合、デバイスLAN内のリソースはZeroTier仮想ネットワークを介してアクセス可能になります。
 
 例えば、以下のように、この機能が有効な場合、`GL-MT2500`の下層デバイスである`GL-MT2500`のLANポートに接続されているため、`leo-phone`から`Ubuntu`のIP(`192.168.8.110`)を使用してSSH接続できます。
 

@@ -1,31 +1,26 @@
-# How to check if Internet Service Provider assigns you a public IP address?
+# パブリックIPアドレスを持っているか確認する方法
 
-## What is Public IP address?
+パブリックアドレスは、プライベートIPアドレスとは異なり、インターネットに接続されたデバイスに割り当てられる一意の数値識別子です。ウェブサイトをホストしたり、VPNサーバーを設定したり、オンラインサービスを提供したりする場合は、パブリックIPアドレスが必要です。通常、インターネットサービスプロバイダーが提供します。
 
-All IPv4 addresses can be divided into two major groups: global (or public, external) — those that are used on the Internet, and private (or local, internal) addresses — those that are used in the local area network (LAN).
+パブリックIPアドレスを持っているかどうか確かでない場合は、以下の方法で確認できます。
 
-A public IP address is an IP address that is used to access the Internet. Public IP addresses can be routed on the Internet, unlike private addresses.
+**方法1: インターネットサービスプロバイダーに直接問い合わせる**
 
-The presence of a public IP address on your router will allow you to organize your own server (VPN, FTP, WEB, etc.), remote access to your computer, video surveillance cameras, and get access to them from anywhere on the global network.
+**方法2: ルーター管理パネルとインターネットでIPアドレスを確認する**
 
-## How to check if Internet Service Provider assigns you a public IP address?
+1. ルーターの管理パネルにサインインします。
+    * GL.iNetルーターの場合、ウェブブラウザに「192.168.8.1」と入力してサインインします。
+    * セットアップに複数のルーターがある場合は、プライマリールーターの管理パネルにサインインします。
+2. ルーター管理パネルでIPアドレスを確認します（例：42.XXX.XX.）
+![IPアドレスを確認](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/locate-ip-address.png){class="glboxshadow"}
+3. ウェブブラウザで「私のIPは何ですか？」と検索します。
+![私のIPは何ですか？](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/search-what-is-my-ip.png){class="glboxshadow"}
 
-### Method 1:
+もし二つのIPアドレスが一致すれば、パブリックIPアドレスを持っています。
+![二つのIPアドレスが一致](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/two-ip-addresses-match.png){class="glboxshadow"}
 
-Ask your Internet Service Provider directly.
-
-### Method 2:
-
-Check the two IP addresses below to see if they are the same, otherwise you don't have a public IP.
-
-* Search **my ip address** on Google, or access our IP tools [https://tool.gl-inet.com/ip](https://tool.gl-inet.com/ip){target="_blank"}
-
-* Access the main router, you can find the WAN IP address.
-
-We use GL.iNet router as the main router, if you found WAN IP address is same as the `IP Address` on the Internet page run on Google before, then **42xxxxx** is your Public IP.
-
-![is public ip address](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/is_public_ip_address.png){class="glboxshadow"}
+もしパブリックIPアドレスを持っていない場合は、イントラネットペネトレーションツールを使用することを検討できます。これにより、パブリックIPアドレスがなくても、ウェブサイト、VPNサーバー、サービスをインターネット上でアクセス可能にすることができます。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com)をご覧ください。

@@ -1,39 +1,38 @@
-# How to visit WireGuard client LAN side from Server
+# サーバーからWireGuardクライアントLAN側にアクセスする方法
 
-## The Topology of WireGuard site to site tunnel
+## WireGuardサイト間トンネルのトポロジー
 
-If you want to visit the subnet of **192.168.8.1** **(GL-AXT1800)** at the client side, like NAS, IP Cam...
+クライアント側の**192.168.8.1** **(GL-AXT1800)**のサブネット（NAS、IPカメラなど）にアクセスしたい場合：
 
 ![Topology](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/Topology.jpg){class="glboxshadow"}
 
+### 1. サーバーのVPNダッシュボードに移動する
 
-### 1. Go to the VPN Dashboard of the Server
-
-Click the icon and enter the custom rule page
+アイコンをクリックしてカスタムルールページに入ります。
 ![Custom rule](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/Custom%20rule.jpg){class="glboxshadow"}
 
-Input the subnet you wanted to visit, in this case is **192.168.8.0/24** and type in the scope **global**.
+アクセスしたいサブネットを入力します。この場合は**192.168.8.0/24**で、スコープに**global**を入力します。
 
-Gateway is the WireGuard IP of your client router, you can find it at your **WireGuard Server** page.
+ゲートウェイはクライアントルーターのWireGuard IPです。WireGuardサーバーページで確認できます。
 
 ![addrule](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/addrule.jpg){class="glboxshadow"}
 
-### 2. Go to the **WireGuard Server** you will see the client IP (Gateway) in **Profiles** and click the modify icon
+### 2. **WireGuardサーバー**に移動し、**プロファイル**でクライアントIP（ゲートウェイ）を確認し、修正アイコンをクリックします。
 
 ![gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/gateway.jpg){class="glboxshadow"}
 
-Click **Set More**
+**もっと詳しく**をクリックします。
 
 ![Setup](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/setup.jpg){class="glboxshadow"}
 
-Click **+** to add the allow IP and then click **Apply** to get a new configuration
+**+**をクリックして許可するIPを追加し、**適用**をクリックして新しい設定を取得します。
 
 ![allowip](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/allowip.jpg){class="glboxshadow"}
 
-### 3. Download the configuration 
+### 3. 設定をダウンロードする
 
-Load the configuration to your client router **192.168.8.1** in this case is the GL-AXT1800
+設定をクライアントルーター**192.168.8.1**にロードします。この場合はGL-AXT1800です。
 
-You can test by ping from **GL-MT2500** to **192.168.8.1** **(GL-AXT1800)**
+**GL-MT2500**から**192.168.8.1** **(GL-AXT1800)**にpingを送信してテストできます。
 
 ![ping](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/ping.jpg){class="glboxshadow"}

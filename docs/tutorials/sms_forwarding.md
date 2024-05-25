@@ -1,77 +1,77 @@
-# SMS Forwarding
+# SMS転送
 
-Since version 4.1, forwarding SMS messages from the router to mobile phones and emails is available.
+バージョン4.1以降、ルーターから携帯電話やメールにSMSメッセージを転送する機能が利用可能です。
 
-**Note**: This feature only works on GL.iNet 4G/5G models with original 4G LTE/5G NR module, not support with other modules or any other USB modules.
+**注意**：この機能は、オリジナルの4G LTE/5G NRモジュールを搭載したGL.iNetの4G/5Gモデルでのみ動作し、他のモジュールやUSBモジュールではサポートされていません。
 
-There are two methods to forward SMS, 
+SMSを転送する方法は2つあります：
 
-- Forward SMS to emails
-- Forward SMS to phones
+- メールへのSMS転送
+- 携帯電話へのSMS転送
 
-## Supported models
+## 対応モデル
 
-| Router Model                   | Support   |
-| :----------------------------- | :-------: |
-| GL-XE3000 (Puli AX)            | √         |
-| GL-X3000 (Spitz AX)            | √         |
-| GL-XE300 (Puli)                | √         |
-| GL-E750 (Mudi)                 | √         |
+| ルーターモデル                | サポート |
+| :----------------------------- | :------: |
+| GL-XE3000 (Puli AX)            | √        |
+| GL-X3000 (Spitz AX)            | √        |
+| GL-XE300 (Puli)                | √        |
+| GL-E750 (Mudi)                 | √        |
 
-## Setup
+## 設定
 
-Here take the GL-XE300 (Puli) as an example.
+ここではGL-XE300 (Puli)を例にとります。
 
-On the left side of web Admin Panel -> INTERNET, Cellular sector. Click the envelope icon to go to SMS page, you will find the SMS Forwarding settings.
+Web管理パネルの左側 -> インターネット、セルラーセクター。封筒アイコンをクリックしてSMSページに移動すると、SMS転送設定が見つかります。
 
 ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/cellular_sms.png){class="glboxshadow"}
 
-## SMS Forwarding to email
+## メールへのSMS転送
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forwarding_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**, dropdown list has preset Server Address for Gmail, Outlook, iCloud and Yahoo. If you using other mail providers, please check out their document or contact the support.
-- **Encryption Method**, has three options: none, SSL/TLS and STARTTLS.
-- **Username**, the email address.
-- **Password**, app-specific passwords or the password for login account. For Gmail, Outlook, iCloud and Yahoo, please check the guide below.
-- **Subject**, the email subject.
+- **SMTPサーバーアドレス**、ドロップダウンリストにはGmail、Outlook、iCloud、Yahooのプリセットサーバーアドレスが含まれています。他のメールプロバイダーを使用している場合は、そのドキュメントを確認するかサポートに連絡してください。
+- **暗号化方法**、オプションは3つあります：なし、SSL/TLS、STARTTLS。
+- **ユーザー名**、メールアドレス。
+- **パスワード**、アプリ固有のパスワードまたはログインアカウントのパスワード。Gmail、Outlook、iCloud、Yahooについては、以下のガイドを確認してください。
+- **件名**、メールの件名。
 
 ??? "Gmail"
 
-    For Gmail, you need to login your google account and create an **App Passwords**. Please check the official guide [Sign in with App Passwords](https://support.google.com/accounts/answer/185833?hl=en){target="_blank"}. You need to enable two-steps verification before create the App Passwords.
+    Gmailの場合、Googleアカウントにログインして**アプリパスワード**を作成する必要があります。公式ガイド[アプリパスワードでサインイン](https://support.google.com/accounts/answer/185833?hl=ja){target="_blank"}を確認してください。アプリパスワードを作成する前に、2段階認証を有効にする必要があります。
 
-    Both 465 and 587 ports are useable.
+    465と587の両方のポートが使用可能です。
 
 ??? "Outlook"
 
-    For Outlook, you can use password directly without any setting, and it supports port 587. Please chck the official guide [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}
+    Outlookの場合、特別な設定なしに直接パスワードを使用できます。ポート587をサポートしています。公式ガイド[Outlook.comのPOP、IMAP、およびSMTP設定](https://support.microsoft.com/ja-jp/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}を確認してください。
 
 ??? "iCloud"
 
-    For iCloud, you need to create an app-specific passwords for login, and it supports port 587. Please refer to the official guide [iCloud Mail server settings for other email client apps](https://support.apple.com/en-hk/HT202304){target="_blank"} and [Generate an app-specific password](https://support.apple.com/en-gb/HT204397){target="_blank"}.
+    iCloudを使用する場合、ログインにはアプリケーション固有のパスワードを作成する必要があり、ポート587をサポートしています。公式ガイドを参照してください：[他のメールクライアントアプリ用のiCloudメールサーバー設定](https://support.apple.com/en-hk/HT202304){target="_blank"}および[アプリケーション固有のパスワードの生成](https://support.apple.com/en-gb/HT204397){target="_blank"}。
 
 ??? "Yahoo"
 
-    For Yahoo, you need to set an app password for login, and it supports both port 465 and 587. Please refere to the official guide [POP access settings and instructions for Yahoo Mail](https://help.yahoo.com/kb/SLN4724.html){target="_blank"} and [Generate and manage third-party app passwords](https://help.yahoo.com/kb/SLN15241.html){target="_blank"}.
+    Yahooの場合、ログインにアプリパスワードを設定する必要があります。ポート465と587の両方をサポートしています。公式ガイド[YahooメールのPOPアクセス設定と手順](https://help.yahoo.com/kb/SLN4724.html){target="_blank"}および[サードパーティのアプリパスワードの生成と管理](https://help.yahoo.com/kb/SLN15241.html){target="_blank"}を参照してください。
 
-**Note**: Each emailer may has a limit on SMTP, limiting the number of emails that can be sent per day. Please consult with your service provider.
+**注意**：メールサービスによっては、SMTPで送信できるメールの数に1日あたりの制限があります。サービスプロバイダーに相談してください。
 
-You can add up to 10 email addreses.
+最大10件のメールアドレスを追加できます。
 
-## SMS Forwarding to phone
+## 携帯電話へのSMS転送
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forwarding_phone.png){class="glboxshadow"}
 
-Toggle to enable it, choose the National code and input the phone number, finally, click the apply button.
+トグルをオンにして、国番号を選択し、電話番号を入力し、最後に適用ボタンをクリックします。
 
-You can add up to 10 cell phone numbers.
+最大10件の携帯電話番号を追加できます。
 
 ---
 
-Related Articles
+関連する記事
 
 - [SMS](../interface_guide/sms.md)
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだ質問がありますか？私たちの[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

@@ -1,36 +1,35 @@
-# How to set up OpenVPN server via AstroRelay?
+# AstroRelay経由でOpenVPNサーバーを設定する方法
 
-Scenario: If you want to set up OpenVPN server in GL.iNet router at home/office to remote access your local service, but your ISP doesn't provide a public IP address.
+シナリオ: GL.iNetルーターでOpenVPNサーバーを設定してローカルサービスにリモートアクセスしたいが、ISPがパブリックIPアドレスを提供していない場合。
 
-[AstroRelay](https://www.astrorelay.com){target="_blank"} can provide a secure reverse proxy tunnel, which you can access your resources behind NAT and firewall.
+[AstroRelay](https://www.astrorelay.com){target="_blank"}は、NATおよびファイアウォールの背後にあるリソースにアクセスできる安全なリバースプロキシトンネルを提供します。
 
-1. Follow the guide [here](../interface_guide/openvpn_server.md) to set up OpenVPN server and ignoring that your don't have a public IP address. Please enalbe **Allow Access Local Network**.
+1. パブリックIPアドレスがないことを無視して、[こちら](../interface_guide/openvpn_server.md)のガイドに従ってOpenVPNサーバーを設定してください。**ローカルネットワークへのアクセスを許可**を有効にしてください。
 
-    ![set up openvpnd server](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/start_ovpn_server4x.jpg){class="glboxshadow"}
+    ![openvpnサーバーを設定](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/start_ovpn_server4x.jpg){class="glboxshadow"}
 
-    Then export a OpenVPN configuration. Below image is an example.
+    次に、OpenVPN構成をエクスポートします。以下の画像はその例です。
 
-    ![openvpn config](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnpastelink.jpg){class="glboxshadow"}
+    ![openvpn構成](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnpastelink.jpg){class="glboxshadow"}
 
-2. Please sign up an AstroRelay account and Follow the [tutorial](https://www.astrorelay.com/tutorial.html){target="_blank"}.
+2. AstroRelayアカウントにサインアップし、[チュートリアル](https://www.astrorelay.com/tutorial.html){target="_blank"}に従ってください。
 
-    When add a new domain, please choose the server closest to your router.
+    新しいドメインを追加する際、ルーターに最も近いサーバーを選択してください。
 
-    ![astrorelay add a new domain](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astrorelay_add_a_new_domain.png){class="glboxshadow"}
+    ![astrorelay 新しいドメインを追加](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astrorelay_add_a_new_domain.png){class="glboxshadow"}
 
-    When add a new link, the **Destination Host IP** is your router's IP address, this time is **192.168.48.1**.
+    新しいリンクを追加する際、**Destination Host IP**にはルーターのIPアドレス（この場合は**192.168.48.1**）を入力してください。
 
-    ![link for openvpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnaddlink.jpg){class="glboxshadow"}
+    ![openvpnサーバーのリンク](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnaddlink.jpg){class="glboxshadow"}
 
-    You can get a link finally, like **testforx3000.arlab1.cc:37202**, you can click the icon to copy the link.
+    最終的にリンクを取得できます。例えば、**testforx3000.arlab1.cc:37202**のようになります。アイコンをクリックしてリンクをコピーできます。
 
-    ![astrorelay link](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpncopylink.jpg){class="glboxshadow"}
+    ![astrorelayリンク](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpncopylink.jpg){class="glboxshadow"}
 
-3. Replace this link after the **Remote** in the OpenVPN configuration and replace the **":"** with a space. Then you can use the modified config in OpenVPN client app.
+3. このリンクをOpenVPN構成の**Remote**の後に置き、**":"**をスペースに置き換えます。その後、修正された構成をOpenVPNクライアントアプリで使用できます。
 
-    ![replace link in openvpn config](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnconfig.jpg){class="glboxshadow"}
+    ![openvpn構成にリンクを置き換える](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnconfig.jpg){class="glboxshadow"}
 
-4. When you are not at home/office, you can use the OpenVPN client app with the configuration created above to access your home/office local service as you at home/office.
+4. 自宅やオフィスにいない場合でも、上記で作成した構成を使用してOpenVPNクライアントアプリを利用し、自宅やオフィスのローカルサービスにアクセスできます。
 
-    ![openvpn up](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnup.jpg){class="glboxshadow"}
-
+    ![openvpn起動](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnup.jpg){class="glboxshadow"}

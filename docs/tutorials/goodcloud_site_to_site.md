@@ -1,95 +1,94 @@
 # GoodCloud Site to Site
 
-## Introduction
+## 導入
 
-GoodCloud Site to Site allows offices in multiple locations to establish secure connections with each other over internet. It extends the company's network, making computers resources from one location available to employees at other locations. 
+GoodCloud Site to Site は、複数の場所にあるオフィスがインターネットを介してお互いに安全な接続を確立できるようにします。これにより、会社のネットワークが拡張され、ある場所のコンピュータリソースが他の場所の従業員に利用可能になります。
 
 <a href="https://static.gl-inet.com/www/images/solutions/s2s/s2s_main_5.png" target="_blank"><img alt="site to site diagram" src="https://static.gl-inet.com/www/images/solutions/s2s/s2s_main_5.png"></a>
 
-Senerio 1: A company has dozens of branch offices that they wish to join in a single private network to share resources.
+シナリオ 1：会社が複数の支店を持っており、それらを単一のプライベートネットワークに結合してリソースを共有したい場合。
 
-Senerio 2: A company has a close relationship with a partner company, the Site to Site allows the companies to work together in a secure, shared network environment.
+シナリオ 2：会社がパートナー企業と密接な関係を持っており、Site to Site を使用して、企業が安全で共有されたネットワーク環境で一緒に作業できるようにします。
 
-Senerio 3: A family has IP camera and when they are not at home, the Site to Site allows to remote access the IP camera.
+シナリオ 3：家庭にIPカメラがあり、家にいないときにSite to Site を使用してIPカメラにリモートアクセスできるようにします。
 
-## Conditions
+## 条件
 
-It requires at least two GL.iNet routers, each in a different location, one of which has a public IP address. Please [check if your ISP assigns you a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md). It requires firmware version 3.026 and above.
+場所が異なる少なくとも2つのGL.iNetルーターが必要で、そのうちの1つはパブリックIPアドレスを持っている必要があります。 [ISP がパブリック IP アドレスを割り当てているかどうかを確認してください](how_to_check_if_isp_assigns_you_a_public_ip_address.md)。ファームウェアバージョン3.026以上が必要です。
 
-Note: It is not recommended to run Site to Site while its nodes are also running VPN client, which can make the network particularly complex.
+注意：ノードがVPNクライアントも実行している場合、ネットワークが特に複雑になる可能性があるため、Site to Siteの実行は推奨されません。
 
-## Steps to build a Site to Site network
+## サイト間ネットワークを構築する手順
 
-1. Bind your routers to GoodCloud. [how?](../interface_guide/cloud.md#add-device)
+1. ルーターをGoodCloudにバインドします。[方法はこちら](../interface_guide/cloud.md#add-device)
 
-2. Follow the steps below to create a Site to Site network.
+2. 以下の手順に従って、Site to Site ネットワークを作成します。
 
     ![create a site to site network](https://static.gl-inet.com/goodcloud/docs/create-s2s-01.png){class="glboxshadow"}
 
-    Default port is 51830, if you want to use another port, find the `Advanced` option at the lower left corner.
+    デフォルトのポートは51830です。別のポートを使用したい場合は、左下隅の「Advanced」オプションを見つけてください。
 
-    Due to the device's performance, each Site to Site network can have up to 10 devices.
+    デバイスの性能により、各Site to Site ネットワークには最大10台のデバイスを接続できます。
 
-    After you had chosen the devices, click Continue.
+    デバイスを選択した後、続行をクリックします。
 
     ![create a site to site network](https://static.gl-inet.com/goodcloud/docs/create-s2s-02.png){class="glboxshadow"}
 
-    Then, it will test each device if it can be set as the Main Node of Site to Site.
+    次に、各デバイスがSite to Siteのメインノードとして設定できるかどうかをテストします。
 
-    We suggest that the router with strong performance and best network speed to be the Main Node.
+    性能が強力でネットワーク速度が最適なルーターをメインノードにすることをお勧めします。
 
     ![testing each device](https://static.gl-inet.com/goodcloud/docs/testing-s2s-01.png){class="glboxshadow"}
 
-    If none of the devices can be used as the Main Node, make sure that:
+    どのデバイスもメインノードとして使用できない場合は、次の点を確認してください：
 
-    - One of routers has a public IP, either static public IP or dynamic public IP.
-    - Port is open, default is 51830.
-    - If the router is behind NAT, you may need to set up port forwading.
+    - ルーターのうちの1つがパブリックIPアドレスを持っていること（静的パブリックIPまたは動的パブリックIP）。
+    - ポートが開いていること（デフォルトは51830）。
+    - ルーターがNATの背後にある場合、ポートフォワーディングの設定が必要な場合があります。
 
-    You can also change port and try again.
+    ポートを変更して再試行することもできます。
+![testing each device](https://static.gl-inet.com/goodcloud/docs/testing-s2s-02.png){class="glboxshadow"}
 
-    ![testing each device](https://static.gl-inet.com/goodcloud/docs/testing-s2s-02.png){class="glboxshadow"}
+複数のデバイスがメインノードとして設定できる場合は、続行するデバイスを選択する必要があります。
 
-    If there are more than one device can be set as the Main Node, you need to choose one to continue.
+![testing each device](https://static.gl-inet.com/goodcloud/docs/testing-s2s-03.png){class="glboxshadow"}
 
-    ![testing each device](https://static.gl-inet.com/goodcloud/docs/testing-s2s-03.png){class="glboxshadow"}
+メインノードとして設定できるデバイスが1つしかない場合は、直接Site to Site詳細ページに移動します。
 
-    If there is only one device can be set as the Main Node, it will go to the Site to Site detail page directly.
+ネットワークはデフォルトで停止しています。LAN IPを確認し、問題がなければ「スタート」ボタンをクリックし、問題がある場合は「設定」をクリックしてLAN IPを変更します。
 
-    The network is stopped by default, check the LAN IP, if it is OK then you need to click Start button, otherwise click Setting to change LAN IP.
+![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-00.png){class="glboxshadow"}
 
-    ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-00.png){class="glboxshadow"}
+数分待つと、ノードの接続ステータスが表示されます。実線は接続済み、破線は未接続を意味します。
 
-    Wait a few minutes, the node's connect status will display as lines. Solid line means connected, dashed line means disconnected.
+![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
 
-    ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
+## サイト間接続のテスト
 
-## Testing the Site to Site connection
+これでSite to Siteネットワークが作成され、開始されましたので、接続をテストしましょう。
 
-Now the Site to Site network is created and started, let's test the connection.
+PCまたは携帯電話を使用して、このSite to Siteのノードの1つに接続し、ブラウザを使用して別のノードのLAN IPにアクセスします。ログインページが表示された場合、これらのノード間の接続が機能していることを意味します。
 
-Use your PC or Phone to connect to one of the Node of this Site to Site, and use browser to access another Node's LAN ip, if you see the login page, the connection between these two nodes is worked.
+例えば、私のPCがノード1デバイスに接続している場合、ブラウザを使用してメインノードのLAN IP（192.168.48.1）にアクセスし、ログインページが表示された場合、ノード1とメインノードの間の接続が機能していることを意味します。
 
-For example, my PC connect to Node 1 device, and then I use browser to access Main Node's LAN IP (192.168.48.1), if I see the login page, it means the connection between Node1 and Main Node is worked.
+## ルートおよびその他のオプション
 
-## Route and other options
-
-You can change each device's LAN IP and routes.
+各デバイスのLAN IPとルートを変更できます。
 
 ![LAN IP and routes](https://static.gl-inet.com/goodcloud/docs/lanip-routes-s2s.png){class="glboxshadow"}
 
-By default, each node can access other's LAN, based on security, we recommend only open the corresponding service IPs.
+デフォルトでは、各ノードは他のノードのLANにアクセスできますが、セキュリティ上の理由から、対応するサービスIPのみを開くことをお勧めします。
 
-E.g. There is a Server A(172.30.97.100) in Node 1's subnet, if you want other Site to Site nodes  only can access Node 1's Service A, you can set it like below:
+例えば、ノード1のサブネットにサーバーA（172.30.97.100）がある場合、他のSite to Siteノードがノード1のサービスAにのみアクセスできるようにするには、以下のように設定できます。
 
 ![LAN IP and routes](https://static.gl-inet.com/goodcloud/docs/lanip-routes-s2s-02.png){class="glboxshadow"}
 
-You can add node's parent routes too.
+ノードの親ルートを追加することもできます。
 
-Each sub Node build an encrypted tunnel netwrok to Main Node, if you want to change the IP of tunnel subnet. Click 'IP Address Range'.
+各サブノードはメインノードに暗号化されたトンネルネットワークを構築します。トンネルサブネットのIPを変更したい場合は、「IPアドレス範囲」をクリックします。
 
 ![Tunnel IP Address Range](https://static.gl-inet.com/goodcloud/docs/tunnel-ip-address-range-s2s.png){class="glboxshadow"}
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

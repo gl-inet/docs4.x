@@ -1,19 +1,20 @@
 # ZeroTier
 
-ZeroTier feature available since V4.2
+ZeroTier機能はV4.2以降で利用可能
 
-ZeroTier is a software-based virtual private network (VPN) that enables secure, encrypted communications between devices over the internet. It creates a private, virtual network that allows devices to communicate as if they were on the same local network, regardless of their physical location or network topology. ZeroTier is designed to be easy to set up and use, and offers features such as end-to-end encryption, network segmentation, and network bridging capabilities.
+ZeroTierは、インターネット上のデバイス間で安全な暗号化通信を可能にするソフトウェアベースの仮想プライベートネットワーク（VPN）です。これにより、デバイスは物理的な場所やネットワークトポロジーに関係なく、同じローカルネットワーク上にあるかのように通信できます。ZeroTierは簡単に設定でき、エンドツーエンドの暗号化、ネットワークセグメンテーション、ネットワークブリッジ機能などの機能を提供します。
 
-The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier virtual network, then you can access it remotely, even to its WAN or LAN resources.
+GL.iNetルーターのZeroTier機能を使用すると、ルーターがZeroTier仮想ネットワークに参加できるようになり、リモートでアクセスすることができ、WANやLANのリソースにもアクセスできます。
 
-**Note**: Because ZeroTier is based on WireGuard, it is not recommended to use the ZeroTier feature with the OpenVPN Client or WireGuard Client at the same time, as there may be bugs.
+**注意**: ZeroTierはWireGuardに基づいているため、OpenVPNクライアントやWireGuardクライアントと同時に使用することは推奨されません。バグが発生する可能性があります。
 
-**Note**: This feature is currently in beta, and may have some bugs.
+**注意**: この機能は現在ベータ版であり、いくつかのバグがある可能性があります。
 
-## Supported models
+## 対応モデル
 
-| Router Model                   | Support   |
+| ルーターモデル                  | 対応       |
 | :----------------------------- | :-------: |
+| GL-MT6000 (Flint2)             | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
 | GL-AXT1800 (Slate AX)          | √         |
@@ -23,120 +24,120 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 | GL-S1300 (Convexa-S)           | -         |
 | GL-MT1300 (Beryl)              | -         |
 | GL-AX1800 (Flint)              | √         |
-| GL-AR750S (Slate)              | √         |
-| GL-XE300 (Puli)                | √         |
+| GL-AR750S (Slate)              | -         |
+| GL-XE300 (Puli)                | -         |
 | GL-X750 (Spitz)                | -         |
 | GL-B1300 (Convexa-B)           | -         |
 | GL-AP1300 (Cirrus)             | -         |
 | GL-X300B (Collie)              | -         |
 | GL-MV1000/GL-MV1000W (Brume)   | √         |
 
-## Setup
+## 設定
 
-The following is an example of the GL-MT2500.
+以下はGL-MT2500の例です。
 
-1. Create your first ZeroTier network
+1. 最初のZeroTierネットワークを作成
 
-    Refer to [ZeroTier's official Getting Started documentation](https://docs.zerotier.com/getting-started/getting-started/) to create a ZeroTier account and network. Remember to take note of the Network ID, which is a 16-digit combination of letters and numbers, as it will be needed when connecting other devices later on.
+    [ZeroTierの公式スタートガイド](https://docs.zerotier.com/getting-started/getting-started/)を参照して、ZeroTierアカウントとネットワークを作成します。後で他のデバイスを接続する際に必要となる16桁の英数字のネットワークIDを記録しておいてください。
 
     ![zerotier network id](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_network_id.png){class="glboxshadow"}
 
-2. Enable ZeroTier on GL.iNet router
+2. GL.iNetルーターでZeroTierを有効化
 
-    Access router's web Admin Panel, on the left side -> APPLICATIONS -> ZeroTier
+    ルーターのウェブ管理パネルにアクセスし、左側 -> アプリケーション -> ZeroTier
 
-    Enable the toggle button, fill in the Network ID in the first step then click **Apply**.
-
+    トグルボタンを有効にし、最初のステップでネットワークIDを入力して**適用**をクリックします。
     ![enable zerotier](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_enable.png){class="glboxshadow"}
 
-    After a while the interface will indicate that authorization is required, which we will handle in the next step.
+しばらくすると、インターフェースが認証が必要であることを示します。次のステップでこれを処理します。
 
-    To facilitate testing, add another device (such as a computer or phone) to the ZeroTier network following the instructions in [this document](https://docs.zerotier.com/getting-started/getting-started/#setup-the-zerotier-app).
+テストを容易にするために、[この文書](https://docs.zerotier.com/getting-started/getting-started/#setup-the-zerotier-app)の指示に従って、別のデバイス（コンピュータやスマホなど）をZeroTierネットワークに追加します。
 
-3. Authorize your device on your network
+3. ネットワーク上のデバイスを認証する
 
-    ![zerotier central](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_central.png){class="glboxshadow"}
+![zerotier central](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_central.png){class="glboxshadow"}
 
-    To authorize your device on your network, click on the ZeroTier Central icon and navigate to the Members section of the settings for your network on the ZeroTier website. 
-    
-    ![zerotier members, auth](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_members_auth.png){class="glboxshadow"}
+ネットワーク上のデバイスを認証するには、ZeroTier Centralアイコンをクリックし、ZeroTierウェブサイトのネットワーク設定のメンバーセクションに移動します。
 
-    Locate the new device and click on the Auth checkbox to authorize it. Customize the name of the device if desired.
+![zerotier members, auth](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_members_auth.png){class="glboxshadow"}
 
-    **Note**: The device's Address should be displayed on the ZeroTier page of the router, but this feature may be added in future versions. To confirm the current Address of the ZeroTier on your router, SSH into the router and use the "zerotier-cli info" command.
+新しいデバイスを見つけて、認証チェックボックスをクリックして認証します。必要に応じてデバイスの名前をカスタマイズします。
 
-    ![zerotier managed ip](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/managed_ip.png){class="glboxshadow"}
+**注意**: デバイスのアドレスはルーターのZeroTierページに表示されるはずですが、この機能は将来的なバージョンで追加されるかもしれません。ルーターのZeroTierの現在のアドレスを確認するには、ルーターにSSHで接続し、「zerotier-cli info」コマンドを使用します。
 
-    After a short while, ZeroTier will assign a Managed IP to the device. Take note of this IP address as it will be used in the testing step.
+![zerotier managed ip](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/managed_ip.png){class="glboxshadow"}
 
-## Test connectivity
+しばらくすると、ZeroTier がマネージド IP をデバイスに割り当てます。 この IP アドレスはテスト手順で使用されるため、メモしておいてください。
 
-On another device that is also on the same ZeroTier network, use a web browser to access the router's web Admin Panel using the Managed IP obtained in the previous step.
+## 接続性のテスト
 
-Normally, you will be able to access the web Admin Panel of the router. You can also use the `ping` command mentioned in the [official documentation](https://docs.zerotier.com/getting-started/getting-started/#test-connectivity) to test it.
+同じZeroTierネットワーク上にある別のデバイスで、ウェブブラウザを使用して前のステップで取得したマネージドIPを使用してルーターのウェブ管理パネルにアクセスします。
+
+通常、ルーターのウェブ管理パネルにアクセスできるはずです。また、[公式ドキュメント](https://docs.zerotier.com/getting-started/getting-started/#test-connectivity)に記載されている`ping`コマンドを使用してテストすることもできます。
 
 ![web admin panel](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/web_admin_panel.png)
 
-## Allow Remote Access WAN
+## リモートアクセスWANの許可
 
-If this option is enabled, the resources on the WAN side of the device will be allowed to be accessed via the ZeroTier virtual network.
+このオプションが有効になっている場合、デバイスのWAN側のリソースはZeroTier仮想ネットワークを介してアクセス可能になります。
 
-For example, as shown below, if this function is enabled, you can access `GL-AXT1800` by its IP(`192.168.29.1`) from `leo-phone`, because `GL-AX1800` is connected to the WAN port of `GL-MT2500`, which is the upper layer device of `GL-MT2500`.
+例えば、以下のように、この機能が有効な場合、`GL-MT2500`の上位デバイスである`GL-AXT1800`に接続されているため、`leo-phone`から`GL-AXT1800`のIP（`192.168.29.1`）にアクセスできます。
 
 ![zerotier, remote access wan topology](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_access_wan_topology.png){class="glboxshadow"}
 
-The operation steps are as follows.
+操作手順は以下の通りです。
 
-1. Enable Allow Remote Access WAN.
+1. リモートアクセスWANを許可を有効にします。
 
     ![enable allow remote access wan](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/enable_allow_remote_access_wan_1.png){class="glboxshadow"}
 
-    It will prompt you to set up routing rules.
+    ルーティングルールの設定を求められます。
 
     ![enable allow remote access wan](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/enable_allow_remote_access_wan_2.png){class="glboxshadow"}
 
-2. Go to the [my.zerotier.com](https://my.zerotier.com) or click on **ZeroTier Central** in the image above, find the **Advanced** sector of settings panel. Fill in the route (Destination and Via) requested in the previous step. Click **Submit**.
+2. [my.zerotier.com](https://my.zerotier.com)にアクセスするか、上の画像の**ZeroTier Central**をクリックし、設定パネルの**Advanced**セクションを見つけます。前のステップで要求されたルート（宛先および経由）を入力します。**Submit**をクリックします。
 
-    ![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_1.png){class="glboxshadow"}
+![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_1.png){class="glboxshadow"}
 
-    After adding.
+追加後。
 
-    ![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_2.png){class="glboxshadow"}
+![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_2.png){class="glboxshadow"}
 
-3. Now you can access GL-AXT1800 by its IP(`192.168.29.1`) on other machines. You can actually access the devices at `192.168.29.0/24`.
 
-    ![zerotier, access axt1800](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow"}
+2. 他のデバイスからIP(`192.168.29.1`)を使用してGL-AXT1800にアクセスできます。実際には、`192.168.29.0/24`のデバイスにアクセスできます。
 
-## Allow Remote Access LAN
+![zerotier, access axt1800](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow"}
 
-If this option is enabled, the resources inside the device LAN will be allowed to be accessed via the ZeroTier virtual network.
+## リモートアクセスLANの許可
 
-For example, as show below, if this function is enabled, you can SSH to `Ubuntu` by its IP(`192.168.8.110`) from `leo-phone`, because `Ubuntu` is connected to the LAN port of `GL-MT2500`, which is the lower layer device of `GL-MT2500`.
+このオプションが有効になっている場合、デバイスLAN内のリソースがZeroTier仮想ネットワークを介してアクセス可能になります。
+
+例えば、以下のように、この機能が有効な場合、`GL-MT2500`の下層デバイスである`GL-MT2500`のLANポートに接続されているため、`leo-phone`から`Ubuntu`のIP(`192.168.8.110`)を使用してSSH接続できます。
 
 ![ZeroTier, remote access lan topology](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_access_lan_topology.png){class="glboxshadow"}
 
-The operation steps are as follows.
+操作手順は以下の通りです。
 
-1. Enable Allow Remote Access LAN.
+1. リモートアクセスLANを許可を有効にします。
 
     ![enable allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/enable_allow_remote_access_lan_1.png){class="glboxshadow"}
 
-    It will prompt you to set up routing rules.
+    ルーティングルールの設定を求められます。
 
     ![enable allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/enable_allow_remote_access_lan_2.png){class="glboxshadow"}
 
-2. Go to the [my.zerotier.com](https://my.zerotier.com) or click on **ZeroTier Central** in the image above, find the **Advanced** sector of settings panel. Fill in the route (Destination and Via) requested in the previous step. Click **Submit**.
+2. [my.zerotier.com](https://my.zerotier.com)にアクセスするか、上の画像の**ZeroTier Central**をクリックし、設定パネルの**Advanced**セクションを見つけます。前のステップで要求されたルート（宛先および経由）を入力します。**Submit**をクリックします。
 
     ![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_3.png){class="glboxshadow"}
 
-    After adding.
+    追加後。
 
     ![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_4.png){class="glboxshadow"}
 
-3. Now you can ping or SSH the  by its IP(`192.168.8.110`) on other devices. You can actually access the devices at `192.168.8.0/24`.
+3. 他のデバイスでIP(`192.168.8.110`)を使用してpingまたはSSH接続できます。実際には、`192.168.8.0/24`のデバイスにアクセスできます。
 
-    ![zerotier, access ubuntu](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_access_ubuntu.jpg){class="glboxshadow gl-50-desktop"}
+![zerotier, access ubuntu](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_access_ubuntu.jpg){class="glboxshadow gl-50-desktop"}
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。
+まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}を訪問してください。

@@ -1,199 +1,196 @@
-# How to manually configure the static IP?
+# 静的IPを手動で設定する方法
 
 === "Windows 11"
 
-    On Windows 11, you can set a static IP address configuration from the Settings app for wireless and wired adapters.
+    Windows 11では、無線および有線アダプターに対して設定アプリから静的IPアドレスを設定できます。
 
-    **Set static IP address on Wi-Fi adapter**
+    **Wi-Fiアダプターに静的IPアドレスを設定する**
 
-    To assign a static IP address configuration to a Wi-Fi adapter, use these steps:
+    Wi-Fiアダプターに静的IPアドレスを設定するには、以下の手順に従ってください：
 
-    1. Open Settings on Windows 11 -> Network & Internet ->  the Wi-Fi tab ->  Select the current network connection.
+    1. Windows 11の設定を開く -> ネットワークとインターネット -> Wi-Fiタブ -> 現在のネットワーク接続を選択します。
 
-    2. Under the “IP settings” section, click the Edit button.
+    2. 「IP設定」セクションの下にある「編集」ボタンをクリックします。
 
         ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Windows_11_edit_IP_address.webp){class="glboxshadow"}
 
-    3. Follow the steps below to set it up:
+    3. 以下の手順に従って設定を行います：
 
         ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Settings_app_set_static_IP_address.webp){class="glboxshadow"}
 
-        - Select the Manual option,Turn on the IPv4 toggle switch.
+        - 手動オプションを選択し、IPv4トグルスイッチをオンにします。
 
-        - Set a static IP address for Windows 11 – for example, 10.1.4.119.
+        - Windows 11用に静的IPアドレスを設定します - 例：10.1.4.119。
 
-        - Specify a Subnet mask – for example, 255.255.255.0.
+        - サブネットマスクを指定します - 例：255.255.255.0。
 
-        - Specify a Default Gateway address.
+        - デフォルトゲートウェイアドレスを指定します。
 
-        - Specify a Preferred DNS address (required).
+        - 優先DNSアドレスを指定します（必須）。
 
-        - (Optional) Specify an “Alternate DNS” address.
+        - （オプション）「代替DNS」アドレスを指定します。
 
-        - Use the “DNS over HTTPS” drop-down menu and select the Off option for the preferred and alternate addresses, but you can enable DoH with these options:
+        - 「DNS over HTTPS」ドロップダウンメニューを使用して、優先および代替アドレスのオフオプションを選択しますが、以下のオプションでDoHを有効にすることもできます：
 
-            - Off: Transmits all DNS traffic without encryption.
+            - オフ：すべてのDNSトラフィックを暗号化せずに送信します。
 
-            - On (automatic template): Sends all DNS traffic with encryption.
+            - オン（自動テンプレート）：すべてのDNSトラフィックを暗号化して送信します。
 
-            - On (manual template): Allows you to specify a specific template. It is only required if the DNS service doesn’t work automatically or has a template that works as expected.
+            - オン（手動テンプレート）：特定のテンプレートを指定できます。DNSサービスが自動的に機能しない場合や、期待通りに機能するテンプレートがある場合にのみ必要です。
 
-        - Turn off the “Fallback to plaintext” toggle switch (if you enable DoH).
+        - 「プレーンテキストへのフォールバック」トグルスイッチをオフにします（DoHを有効にする場合）。
 
-            - Quick tip: If you enable this feature, the system will encrypt DNS traffic, but it allows queries to be sent without encryption.
+            - クイックヒント：この機能を有効にすると、システムはDNSトラフィックを暗号化しますが、暗号化なしでクエリを送信することを許可します。
 
-    4. Click the Save button.
+    4. 「保存」ボタンをクリックします。
 
-        Once you complete the steps, the static network configuration will apply to the computer. You can test the new settings by opening the web browser and loading a website.
+        手順を完了すると、コンピューターに静的ネットワーク設定が適用されます。ウェブブラウザを開いてウェブサイトを読み込むことで、新しい設定をテストできます。
 
 
-    ## **Set static IP address on Ethernet adapter**
+    **イーサネットアダプターに静的IPアドレスを設定する**
 
-    To assign a static IP address to an Ethernet (wired) adapter on Windows 11, use these steps:
+    Windows 11でイーサネット（有線）アダプターに静的IPアドレスを設定するには、以下の手順に従ってください：
 
-    1. Open Settings -> Network & Internet ->  Ethernet tab.
-    
-    2. Under the “IP settings” section, click the Edit button.
+    1. 設定を開く -> ネットワークとインターネット -> イーサネットタブ。
+
+    2. 「IP設定」セクションの下にある「編集」ボタンをクリックします。
 
         ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.webp){class="glboxshadow"}
 
-    3. Follow the steps below to set it up:
+    3. 以下の手順に従って設定を行います：
 
         ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Settings_app_set_static_IP_address.webp){class="glboxshadow"}
         
-        - Select the Manual option.
+        - 手動オプションを選択します。
 
-        - Turn on the IPv4 toggle switch.
+        - IPv4トグルスイッチをオンにします。
 
-        - Set a static IP address for Windows 11 – for example, 10.1.4.119.
+        - Windows 11用に静的IPアドレスを設定します - 例：10.1.4.119。
 
-        - Specify a Subnet mask – for example, 255.255.255.0.
+        - サブネットマスクを指定します - 例：255.255.255.0。
 
-        - Specify a Default Gateway address.
+        - デフォルトゲートウェイアドレスを指定します。
 
-        - Specify a Preferred DNS address (required).
+        - 優先DNSアドレスを指定します（必須）。
 
-        - (Optional) Specify an “Alternate DNS” address.
+        - （オプション）「代替DNS」アドレスを指定します。
 
-        - Use the “DNS over HTTPS” drop-down menu and select the Off option for the preferred and alternate addresses, but you can enable DoH with these options:
+        - 「DNS over HTTPS」ドロップダウンメニューを使用して、優先および代替アドレスのオフオプションを選択しますが、以下のオプションでDoHを有効にすることもできます：
 
-            * Off: Transmits all DNS traffic without encryption.
+            * オフ：すべてのDNSトラフィックを暗号化せずに送信します。
 
-            * On (automatic template): Sends all DNS traffic with encryption.
+            * オン（自動テンプレート）：すべてのDNSトラフィックを暗号化して送信します。
 
-            * On (manual template): Allows you to specify a specific template. It is only required if the DNS service doesn’t work automatically or has a template that works as expected.
+            * オン（手動テンプレート）：特定のテンプレートを指定できます。DNSサービスが自動的に機能しない場合や、期待通りに機能するテンプレートがある場合にのみ必要です。
             
-        - Turn off the “Fallback to plaintext” toggle switch (if you enable DoH).
+        - 「プレーンテキストへのフォールバック」トグルスイッチをオフにします（DoHを有効にする場合）。
 
-    4. Click the Save button.
+    4. 「保存」ボタンをクリックします。
 
-        After you complete the steps, you can test your settings using your web browser to open a website.
-
+        手順を完了すると、ウェブブラウザを使ってウェブサイトを開くことで設定をテストできます。
 
 === "macOS"
 
-    Here’s how to set a static IP address in macOS:
+    macOSで静的IPアドレスを設定する方法は以下の通りです：
 
-    If you own a MacBook, you may want to create a new network location. This will allow you to use the static IP address for certain networks and not others. 
+    MacBookを所有している場合、新しいネットワークロケーションを作成することをお勧めします。これにより、特定のネットワークに対して静的IPアドレスを使用し、他のネットワークに対しては使用しないようにすることができます。
+    
+     Appleメニューから「システム環境設定」を選択します。
 
-    From the Apple menu, select System Preferences.
-
-    Select Network. The window shown below appears.
+    「ネットワーク」を選択します。以下のウィンドウが表示されます。
 
     ![Mac_network_settings](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Mac_network_settings.webp){class="glboxshadow"}
 
-    From the sidebar, select an active network interface. In this example, I’m connected to a wireless network, so I’ll select Wi-Fi.
+    サイドバーからアクティブなネットワークインターフェイスを選択します。この例では、無線ネットワークに接続しているので、Wi-Fiを選択します。
 
-    Make a note of the current IP address assigned to your Mac. You’ll need to select a new IP address from within the private IP address range listed. More on that in a minute.
+    Macに割り当てられている現在のIPアドレスをメモしておきます。次に、新しいIPアドレスをプライベートIPアドレス範囲から選択する必要があります。それについては後ほど説明します。
 
-    Click Advanced.
+    「詳細」をクリックします。
 
-    Select TCP/IP. The window shown below appears.
+    「TCP/IP」を選択します。以下のウィンドウが表示されます。
     
     ![Mac_Wi-Fi_settings](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Mac_Wi-Fi_settings.webp){class="glboxshadow"}
 
-    From the Configure IPv4 menu, select Manually.
+    「IPv4の設定」メニューから「手動」を選択します。
 
-    Enter a static IP address in the IPv4 Address field. What number should you enter? One method is to take your current IP address and change the last part of the number. In this example, I could have picked any address between 192.168.7.0 and 192.168.7.255, as long as the address was not already assigned to another device.
+    「IPv4アドレス」フィールドに静的IPアドレスを入力します。どの番号を入力すればよいでしょうか？一つの方法は、現在のIPアドレスの最後の部分を変更することです。この例では、192.168.7.0から192.168.7.255の範囲内で、他のデバイスに割り当てられていないアドレスを選択します。
 
-    Click OK -> Click Apply.
+    「OK」をクリック -> 「適用」をクリックします。
    
-
 === "Android"
 
-    The steps will vary with different versions of Android. This documentation is based on Android version 11.
+     手順はAndroidのバージョンによって異なります。このドキュメントはAndroidバージョン11に基づいています。
 
-    1. Go to Settings -> Select Network & Internet, then Wi-Fi -> Tap on the network currently connected to open the settings menu.
+    1. 設定に移動 -> 「ネットワークとインターネット」を選択し、次に「Wi-Fi」を選択 -> 現在接続されているネットワークをタップして設定メニューを開きます。
     
     ![list_available_networks](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/list_available_networks.png){class="gl-50-desktop"}
     {class="glboxshadow"}
 
-    2. To set a static IP address, do the following:
+    2. 静的IPアドレスを設定するには、以下の手順に従います：
 
-    - Select the pencil icon in the top right to access the network settings.
+    - 右上の鉛筆アイコンを選択してネットワーク設定にアクセスします。
         
         ![pencil_icon](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/pencil_icon.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - Select Advanced Options.
+    - 「詳細オプション」を選択します。
         
         ![advanced_options](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/advanced_options.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - Select IP Settings.
+    - 「IP設定」を選択します。
         
-    - Change the setting from DHCP to Static.
+    - 設定を「DHCP」から「静的」に変更します。
         
         ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - When using static IP addresses on home and other private networks, they should be chosen from within the standard private IP address ranges listed:10.0.0.0 through 10.255.255.255,172.16.0.0 through 172.31.255.255,192.168.0.0 through 192.168.255.255
+  - ホームやその他のプライベートネットワークで静的IPアドレスを使用する場合、以下の標準プライベートIPアドレス範囲内から選択する必要があります：10.0.0.0 から 10.255.255.255、172.16.0.0 から 172.31.255.255、192.168.0.0 から 192.168.255.255
 
-    - Now enter the IP address.
-        -This step is specific to each network. ex: 192.168.1.128
+    - IPアドレスを入力します。
+        - このステップは各ネットワークに特有です。例：192.168.1.128
         
-    - The Gateway should fill in automatically based on the IP address. If not, copy the IP address and replace the last number with a 1. 
-        -ex. Based on the previous example: 192.168.1.1
+    - IPアドレスに基づいてゲートウェイが自動的に入力されるはずです。されない場合は、IPアドレスをコピーして最後の数字を1に置き換えます。
+        - 例：前述の例に基づく場合：192.168.1.1
 
-    3. Tap Save and let the network reconnect.
+    3. 保存をタップし、ネットワークが再接続するのを待ちます。
 
 === "iOS"
 
-    When using static IP addresses on home and other private networks, they should be chosen from within the standard private IP address ranges listed:
+    ホームやその他のプライベートネットワークで静的IPアドレスを使用する場合、以下の標準プライベートIPアドレス範囲内から選択する必要があります：
 
-    10.0.0.0 through 10.255.255.255
-    172.16.0.0 through 172.31.255.255
-    192.168.0.0 through 192.168.255.255
+    10.0.0.0 から 10.255.255.255
+    172.16.0.0 から 172.31.255.255
+    192.168.0.0 から 192.168.255.255
 
-    To set a static IP address, do the following:
+    静的IPアドレスを設定するには、以下の手順に従います：
 
-    - Tap on the Settings icon.
+    - 設定アイコンをタップします。
 
-    - Go to Wi-Fi.
+    - Wi-Fiに移動します。
 
-    - Tap on the blue information icon (i) next to the name of the Wi-Fi network
-         - This may be a blue error if you are using something older than iOS 7.
+    - Wi-Fiネットワーク名の横にある青い情報アイコン (i) をタップします。
+         - iOS 7より古いバージョンを使用している場合は青いエラーになるかもしれません。
 
-    - Go to the Static tab, pictured below.
+    - 以下の画像のように、静的タブに移動します。
 
         
     ![IP_Settings_Screen_iOS](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/IP_Settings_Screen_iOS.png){class="glboxshadow"}
 
-    - Tap on the IP Address field.
+    - IPアドレスフィールドをタップします。
 
-    - Enter the static IP address that you want to use on your iPhone/iPad.
+    - iPhone/iPadで使用したい静的IPアドレスを入力します。
 
-    - Tap on the Router field.
+    - ルーターフィールドをタップします。
 
-    - Enter the routers IP address.
+    - ルーターのIPアドレスを入力します。
         
-    - Tap on Subnet Mask and enter your information
+    - サブネットマスクをタップして情報を入力します。
 
-        - Usually, it will be 225.225.0.0.
+        - 通常は225.225.0.0です。
 
-    - Tap on the Wi-Fi button, in the upper left corner of the screen, to save settings.
+    - 画面左上のWi-Fiボタンをタップして設定を保存します。
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
-    
+まだ質問がありますか？私たちの[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。

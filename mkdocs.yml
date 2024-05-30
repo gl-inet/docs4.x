@@ -143,21 +143,34 @@ nav:
       - Upgrade Quectel Module Software: tutorials/upgrade_quectel_module_software.md
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Moduel Logs: tutorials/get_module_logs.md
-      - How to check Carrier Aggregation: tutorials/how_to_check_carrier_aggregation.md
+      - How to check the carrier aggregation status on your cellular router: tutorials/how_to_check_carrier_aggregation.md
+      - How to install or change Spitz AX's or Puli AX's external antennas: tutorials/how_to_change_x3000_and_xe3000_antennas.md
+      - How to set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
     - VPN:
-      - VPN Cascading: tutorials/vpn_cascading.md
-      - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
-      - Accessing client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - Accessing Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - How to set up an OpenVPN client on a GL.iNet router: tutorials/how_to_set_up_openvpn_client.md
+      - How to set up an OpenVPN server on a GL.iNet router: tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md
+      - Build your own WireGuard Home Server with two GL.iNet Routers: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
       - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - How to set up Wireguard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
       - How to connect to the dedicated IP by NordVPN on GL.iNet routers?: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
+      - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
+      - VPN Cascading: tutorials/vpn_cascading.md
+      - Use Wireguard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
     - Network Storage:
       - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
+    - Network:
+      - How to set up a guest network: tutorials/how_to_set_up_a_guest_network.md
+      - How to set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
+      - How to set up port forwarding on your primary router: tutorials/how_to_set_up_port_forwarding.md
     - Other:
       - How to manually configure static IP: tutorials/manually_configure_static_ip.md
-      - Check IP Address: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+      - How to check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+      - How to block client devices: tutorials/how_to_block_client_devices.md
+      - How to upgrade or downgrade your router (from v4.x to v4.x): tutorials/how_to_upgrade_downgrade_router.md
+      - How to activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:

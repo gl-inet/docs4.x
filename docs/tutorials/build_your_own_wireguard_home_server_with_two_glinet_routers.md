@@ -1,8 +1,8 @@
 # 2つのGL.iNetルーターで自分のWireGuardホームサーバーを構築する方法
 
-この記事では、ホームルーターをWireGuard VPNサーバーとして設定し、旅行用ルーターをWireGuard VPNクライアントとして接続する方法を紹介します。これにより、どこにいても旅行用ルーターを使用して自宅のIPアドレスを使用できます。
+この記事では、ホームルーターをWireGuard VPNサーバーとして設定し、トラベルルータをWireGuard VPNクライアントとして接続する方法を紹介します。これにより、どこにいてもトラベルルータを使用して自宅のIPアドレスを使用できます。
 
-ここでは、GL-MT6000を例として使用してホームサイトでWireGuard VPNサーバーを実行しますが、無線機能が不要な場合はMT2500などの他のモデルも選択できます。旅行用ルーターとしてはGL-MT3000を例として使用しますが、他のモデルも選択可能です。
+ここでは、GL-MT6000を例として使用してホームサイトでWireGuard VPNサーバーを実行しますが、無線機能が不要な場合はMT2500などの他のモデルも使用できます。トラベルルータとしてはGL-MT3000を例として使用しますが、他のモデルも使用能です。
 
 ## なぜ自分のWireGuardホームサーバーを構築する必要があるのか
 
@@ -17,7 +17,7 @@
 
 ## パブリックIPアドレスを持っているか確認する
 
-まず、GL-MT6000がWAN側にパブリックIPアドレスを持っていることを確認する必要があります。そうでないと、旅行用ルーターが旅行中にVPN接続を確立できません。
+まず、GL-MT6000がWAN側にパブリックIPアドレスを持っていることを確認する必要があります。そうでないと、トラベルルータが旅行中にVPN接続を確立できません。
 
 パブリックIPアドレスを持っているか確認するには、ウェブブラウザを開き、アドレスバーに[ip.gs](https://ip.gs){target="_blank"}と入力してください。
 
@@ -48,7 +48,8 @@
     3. GL-MT6000に割り当てられたIPアドレスを確認します。
 
     **例: TP-Linkルーター**
-1. 「Advanced」に移動し、「virtual Server」をクリックして、「Add」をクリックします。
+    
+    1. 「Advanced」に移動し、「仮想サーバー」をクリックして、「追加」をクリックします。
     2. 内部IP（デバイスIP）：GL-MT6000に割り当てられたIPアドレスで、TP-Linkのクライアントリストで確認できます。
     3. 外部/内部ポート：両方とも「51820」と入力してください。
     4. プロトコル： 「All」または「UDP」または「TCP/UDP」を選択できます。
@@ -72,42 +73,42 @@
 
 ![serverddns](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/serverddns.jpg){class="glboxshadow"}
 
-以下のボックスにチェックを入れ、**Apply**をクリックします。
+以下のボックスにチェックを入れ、**適用する**をクリックします。
 
 ![ddnsapply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/ddnsapply.jpg){class="glboxshadow"}
 
-次にWireGuard VPNサーバーに移動し、リッスンポートが51820であることを確認して「Apply」をクリックします。
+次にWireGuard VPNサーバーに移動し、リッスンポートが51820であることを確認して「適用する」をクリックします。
 
 ![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgsever.jpg){class="glboxshadow"}
 
-## 設定を生成する
+## 構成を生成する
 
-**Profiles**をクリックし、クライアントを**Add**すると、自動的にクライアント設定が生成されます。**四角いアイコン**（ポイント2）をクリックし、DDNSドメインを使用するようにスライドします。（ポイント3、動的IPのみの場合はオプション）。
+**プロフィール**をクリックし、クライアントを**追加**すると、自動的にクライアント構成が生成されます。**四角いアイコン**（ポイント2）をクリックし、DDNSドメインを使用するようにスライドします。（ポイント3、動的IPのみの場合はオプション）。
 
 ![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
 
 WireGuardの[モバイルアプリ](https://www.wireguard.com/install/)を使用してQRコードをスキャンし、サーバーをテストします。詳細は[こちら](../interface_guide/wireguard_server.md/#to-check-if-wireguard-server-is-working-properly)をクリックしてください。
 
-## クライアントインストール用のテキスト形式の設定を出力する
+## クライアントインストール用のテキスト形式の構成を出力します
 
-**Configuration File**をクリックして設定をテキスト形式に変更します。テキストをクライアント用にコピーするか、ダウンロードして保存し、後でクライアントにドラッグします。
+**構成ファイル**をクリックして構成をテキスト形式に変更します。テキストをクライアント用にコピーするか、ダウンロードして保存し、後でクライアントにドラッグします。
 
 ![configload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/configload.jpg){class="glboxshadow"}
 
 ## GL-MT3000でWireGuardクライアントを設定する
 
 ### LAN IPを変更する
-管理パネルにログインし、サイドバーの**Network**に移動してLAN IPを変更します。
+管理パネルにログインし、サイドバーの**ネットワーク**に移動してLAN IPを変更します。
 
 [LAN IPを変更する](../interface_guide/lan.md)
 
 ### 設定を追加する
 
-WireGuardクライアントに移動し、**Add Manually**をクリックします。
+WireGuardクライアントに移動し、**手動で追加**をクリックします。
 
 ![addwgclient1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/addwgclient1.jpg){class="glboxshadow"}
 
-接続の名前を作成し、前回ダウンロードした設定をドラッグするか、**Manually Add Configuration**をクリックします。
+接続の名前を作成し、この前ダウンロードした設定をドラッグするか、**構成を手動で追加する**をクリックします。
 
 ![addwgclient2](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/addwgclient2.jpg){class="glboxshadow"}
 
@@ -117,7 +118,7 @@ WireGuardクライアントに移動し、**Add Manually**をクリックしま�
 
 ## GL-MT3000をGL-MT6000サーバーに接続する
 
-作成した名前をクリックすると、読み込んだ設定が表示されるので、**Start**をクリックします。
+作成した名前をクリックすると、読み込んだ設定が表示されるので、**スタート**をクリックします。
 
 ![wgstart](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgstart.jpg){class="glboxshadow"}
 

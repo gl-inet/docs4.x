@@ -74,9 +74,9 @@ markdown_extensions:
   - admonition
 
 nav:
-  - Home: index.md
-  - User Guide:
-    - Overview: user_guide/index.md
+  - ホーム: index.md
+  - ユーザーガイド:
+    - 概要: user_guide/index.md
     - GL-MT6000 (Flint 2): user_guide/gl-mt6000/index.md
     - GL-XE3000 (Puli AX): user_guide/gl-xe3000/index.md
     - GL-X3000 (Spitz AX): user_guide/gl-x3000/index.md
@@ -99,127 +99,127 @@ nav:
     - GL-S1300 (Convexa-S): user_guide/gl-s1300/index.md
     - GL-MV1000 (Brume): user_guide/gl-mv1000/index.md
   - FAQ:
-    - Overview: faq/index.md
+    - 概要: faq/index.md
     - Common:
-      - First Time Setup: faq/first_time_setup.md
-      - Debrick via Uboot: faq/debrick.md
-      - LED Indication: faq/led.md
-      - Repair or Reset: faq/repair_network_or_reset_firmware.md
-      - Remote Access Web Admin Panel: faq/remote_access_web_admin_panel.md
-      - Remote SSH to Router: faq/remote_ssh_to_router.md
-    - Troubleshooting:
-      - Can't access web Admin Panel: faq/cannot_access_web_admin_panel.md
-      - MacOS cannot write in Samba: faq/macos_cannot_write_samba.md
-    - Internet:
-      - iPhone Tethering Fail: faq/iphone_tethering_fail.md
-      - Connect to a Hotspot with a Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
-      - Produce a Wired Connection: faq/produce_a_wired_connection.md
-    - Upgrade:
-      - Download Firmware: faq/where_to_download_firmware.md
-      - Upgrade to Firmware 4.x: faq/upgrade_to_4.md
-      - Upgrade GL-AX1800 to Firmware 4.x: faq/gl-ax1800_upgrade_to_4.md
+      - 初回セットアップ: faq/first_time_setup.md
+      - Uboot経由でデブリック: faq/debrick.md
+      - LED表示: faq/led.md
+      - 修復またはリセット: faq/repair_network_or_reset_firmware.md
+      - リモート アクセス Web 管理パネル: faq/remote_access_web_admin_panel.md
+      - ルーターへのリモート SSH: faq/remote_ssh_to_router.md
+    - トラブルシューティング:
+      -ウェブ管理パネルにアクセスできません: faq/cannot_access_web_admin_panel.md
+      -MacOSはSambaに書き込めない: faq/macos_cannot_write_samba.md
+    - インターネット:
+      - iPhone テザリング失敗: faq/iphone_tethering_fail.md
+      - キャプティブポータルでホットスポットに接続する: faq/connect_to_a_hotspot_with_captive_portal.md
+      - 有線接続を作成する: faq/produce_a_wired_connection.md
+    - アップグレード:
+      - ファームウェアをダウンロード: faq/where_to_download_firmware.md
+      - ファームウェア 4.x へのアップグレード: faq/upgrade_to_4.md
+      - GL-AX1800 をファームウェア 4.x にアップグレード: faq/gl-ax1800_upgrade_to_4.md
     - VPN:
       - TCP or UDP: faq/openvpn_tcp_udp.md
-      - Block No-VPN Traffic: faq/block_no_vpn_traffic.md
-    - Other:
-      - Change WAN to LAN: faq/change_wan_to_lan.md
-      - Mobile App: faq/mobile_app.md
-      - What is LuCI: faq/what_is_luci.md
-      - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
-      - Device LAN Mac, WiFi Mac: faq/how_can_I_know_the_lan_wifi_mac.md
-  - Tutorials:
-    - Overview: tutorials/index.md
-    - Cellular:
-      - Upgrade Quectel Module Software: tutorials/upgrade_quectel_module_software.md
-      - SMS Forwarding: tutorials/sms_forwarding.md
-      - Get Moduel Logs: tutorials/get_module_logs.md
-      - How to check the carrier aggregation status on your cellular router: tutorials/how_to_check_carrier_aggregation.md
-      - How to install or change Spitz AX's or Puli AX's external antennas: tutorials/how_to_change_x3000_and_xe3000_antennas.md
-      - How to set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
+      - VPNなしのトラフィックをブロックする: faq/block_no_vpn_traffic.md
+    - さらに:
+      - WANをLANに変更: faq/change_wan_to_lan.md
+      - モバイルアプリ: faq/mobile_app.md
+      - LuCIとは: faq/what_is_luci.md
+      - デバイス ID、MAC、SN: faq/where_to_find_the_device_id_mac_sn.md
+      - デバイス LAN Mac、WiFi Mac: faq/how_can_I_know_the_lan_wifi_mac.md
+  - チュートリアル:
+    - 概要: tutorials/index.md
+    - セルラー:
+      - Quectelモジュールソフトウェアのアップグレード: tutorials/upgrade_quectel_module_software.md
+      - SMS転送: tutorials/sms_forwarding.md
+      - モジュールログを取得する: tutorials/get_module_logs.md
+      - セルラールーターのキャリアアグリゲーションステータスを確認する方法: tutorials/how_to_check_carrier_aggregation.md
+      - Spitz AX または Puli AX の外部アンテナの取り付けまたは交換方法: tutorials/how_to_change_x3000_and_xe3000_antennas.md
+      - RV用Spitz AXの設定方法: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
     - VPN:
-      - Accessing Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
-      - How to set up an OpenVPN client on a GL.iNet router: tutorials/how_to_set_up_openvpn_client.md
-      - How to set up an OpenVPN server on a GL.iNet router: tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md
-      - Build your own WireGuard Home Server with two GL.iNet Routers: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
-      - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
-      - How to set up Wireguard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
-      - How to connect to the dedicated IP by NordVPN on GL.iNet routers?: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
+      - サーバーからクライアント LAN にアクセスする (WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - GL.iNet ルーターに OpenVPN クライアントを設定する方法: tutorials/how_to_set_up_openvpn_client.md
+      - GL.iNet ルーターに OpenVPN サーバーを設定する方法: tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md
+      - 2台のGL.iNetルーターで独自のWireGuardホームサーバーを構築: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+      - Astrorelay経由でOpenVPNサーバーを設定する方法: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
+      - Astrorelay経由でWireguardサーバーを設定する方法: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
+      - GL.iNet ルーターで NordVPN の専用 IP に接続するにはどうすればいいですか?: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
       - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
-      - VPN Cascading: tutorials/vpn_cascading.md
-      - Use Wireguard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
-    - Network Storage:
-      - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
+      - VPN カスケード: tutorials/vpn_cascading.md
+      - Wireguardを使用して外部ネットワークからのRDPを保護する: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
+    - ネットワークストレージ:
+      - WinSCP を使用して共有ファイルにアクセスする方法: tutorials/winscp_share_file.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
-    - Network:
-      - How to set up a guest network: tutorials/how_to_set_up_a_guest_network.md
-      - How to set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
-      - How to set up port forwarding on your primary router: tutorials/how_to_set_up_port_forwarding.md
-    - Other:
-      - How to manually configure static IP: tutorials/manually_configure_static_ip.md
-      - How to check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
-      - How to block client devices: tutorials/how_to_block_client_devices.md
-      - How to upgrade or downgrade your router (from v4.x to v4.x): tutorials/how_to_upgrade_downgrade_router.md
-      - How to activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
-  - Interface Guide:
-    - Overview: interface_guide/index.md
-    - Internet Connection:
-      - Internet: interface_guide/internet.md
-      - Ethernet: interface_guide/internet_ethernet.md
-      - Repeater: interface_guide/internet_repeater.md
-      - Tethering: interface_guide/internet_tethering.md
-      - Cellular: interface_guide/internet_cellular.md
+    - ネットワーク:
+      - ゲストネットワークの設定方法: tutorials/how_to_set_up_a_guest_network.md
+      - ドロップインゲートウェイの設定方法: tutorials/how_to_set_up_drop_in_gateway.md
+      - プライマリルーターでポート転送を設定する方法: tutorials/how_to_set_up_port_forwarding.md
+    - その他:
+      - 静的IPを手動で設定する方法: tutorials/manually_configure_static_ip.md
+      - パブリックIPを持っているかどうかを確認する方法: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+      - クライアントデバイスをブロックする方法: tutorials/how_to_block_client_devices.md
+      - ルーターをアップグレードまたはダウングレードする方法 (v4.x から v4.x へ）: tutorials/how_to_upgrade_downgrade_router.md
+      - T-Mobile SIMカードを有効化またはチャージする方法: tutorials/how_to_activate_top_up_sim_cards.md
+  - インターフェースガイド:
+    - 概要: interface_guide/index.md
+    - インターネット接続:
+      - インターネット: interface_guide/internet.md
+      - イーサネット: interface_guide/internet_ethernet.md
+      - リピータ: interface_guide/internet_repeater.md
+      - テザリング: interface_guide/internet_tethering.md
+      - セルラー: interface_guide/internet_cellular.md
       - SMS: interface_guide/sms.md
-      - Dual-Ethernet WAN: interface_guide/dual-ethernet_wan.md
-    - Wireless:
-      - Wireless: interface_guide/wireless.md
-    - Clients:
-      - Clients: interface_guide/clients.md
+      - デュアルイーサネット WAN: interface_guide/dual-ethernet_wan.md
+    - ワイヤレス:
+      - ワイヤレス: interface_guide/wireless.md
+    - クライアント:
+      - クライアント: interface_guide/clients.md
     - VPN:
-      - VPN Dashboard: interface_guide/vpn_dashboard.md
-      - OpenVPN Client: interface_guide/openvpn_client.md
-      - OpenVPN Server: interface_guide/openvpn_server.md
-      - WireGuard Client: interface_guide/wireguard_client.md
-      - WireGuard Server: interface_guide/wireguard_server.md
+      - VPNダッシュボード: interface_guide/vpn_dashboard.md
+      - OpenVPN クライアント: interface_guide/openvpn_client.md
+      - OpenVPN サーバー: interface_guide/openvpn_server.md
+      - WireGuard クライアント: interface_guide/wireguard_client.md
+      - WireGuard サーバー: interface_guide/wireguard_server.md
       - Tor: interface_guide/tor.md
-    - Applications:
-      - Plug-ins: interface_guide/plugins.md
-      - Dynamic DNS: interface_guide/ddns.md
+    - アプリケーション:
+      - プラグイン: interface_guide/plugins.md
+      - ダイナミックDNS: interface_guide/ddns.md
       - GoodCloud: interface_guide/cloud.md
-      - Network Storage: interface_guide/network_storage.md
+      - ネットワークストレージ: interface_guide/network_storage.md
       - AdGuard Home: interface_guide/adguardhome.md
-      - Parental Control: interface_guide/parental_control.md
+      - ペアレンタルコントロール: interface_guide/parental_control.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
-    - Network:
-      - Firewall: interface_guide/firewall.md
-      - Multi-WAN: interface_guide/multi-wan.md
+    - ネットワーク:
+      - ファイアウォール: interface_guide/firewall.md
+      - マルチワン: interface_guide/multi-wan.md
       - LAN: interface_guide/lan.md
-      - Guest Network: interface_guide/guest_network.md
+      - ゲストネットワーク: interface_guide/guest_network.md
       - DNS: interface_guide/dns.md
-      - Network Mode: interface_guide/network_mode.md
+      - ネットワークモード: interface_guide/network_mode.md
       - IPv6: interface_guide/ipv6.md
-      - MAC Address: interface_guide/mac_address.md
-      - Drop-in Gateway: interface_guide/drop-in_gateway.md
-      - IGMP Snooping: interface_guide/igmp_snooping.md
-      - Hardware Acceleration: interface_guide/hardware_acceleration.md
-      - Network Acceleration: interface_guide/network_acceleration.md
-      - NAT Settings: interface_guide/nat_settings.md
-    - System:
-      - Overview: interface_guide/system_overview.md
-      - Firmware Upgrade: interface_guide/firmware_upgrade.md
-      - Scheduled Tasks: interface_guide/scheduled_tasks.md
-      - Admin Password: interface_guide/admin_password.md
+      - Macアドレス: interface_guide/mac_address.md
+      - ドロップインゲートウェイ: interface_guide/drop-in_gateway.md
+      - IGMPスヌーピング: interface_guide/igmp_snooping.md
+      - ハードウェアアクセラレーション: interface_guide/hardware_acceleration.md
+      - ネットワークアクセラレーション: interface_guide/network_acceleration.md
+      - NAT設定: interface_guide/nat_settings.md
+    - システム:
+      - 概要: interface_guide/system_overview.md
+      - ファームウェアのアップグレード: interface_guide/firmware_upgrade.md
+      - スケジュールされたタスク: interface_guide/scheduled_tasks.md
+      - 管理者のパスワード: interface_guide/admin_password.md
       - Time Zone: interface_guide/time_zone.md
-      - Toggle Button Settings: interface_guide/toggle_button_settings.md
-      - Log: interface_guide/log.md
-      - Security: interface_guide/security.md
-      - Reset Firmware: interface_guide/reset_firmware.md
-      - Advanced Settings: interface_guide/advanced_settings.md
-  - Video Library:
-    - Overview: video_library/index.md
-    - Meet Our New Products: video_library/products.md
-    - Tutorials: video_library/tutorials.md
-    - Unboxing & First Time Setup: video_library/unboxing_first_set_up.md
-  - Community:
-    - Overview: community/index.md
+      - トグルボタン設定: interface_guide/toggle_button_settings.md
+      - ログ: interface_guide/log.md
+      - セキュリティ: interface_guide/security.md
+      - ファームウェアをリセットする: interface_guide/reset_firmware.md
+      - 詳細設定: interface_guide/advanced_settings.md
+  - ビデオライブラリ:
+    - 概要: video_library/index.md
+    - 新製品をご紹介します: video_library/products.md
+    - チュートリアル: video_library/tutorials.md
+    - 開梱と初回セットアップ: video_library/unboxing_first_set_up.md
+  - コミュニティ:
+    - 概要: community/index.md

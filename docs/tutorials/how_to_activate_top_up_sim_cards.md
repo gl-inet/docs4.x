@@ -19,12 +19,12 @@
 
 1. SIMカードをルーターに挿入します。
 2. SIMカードパッケージに印刷されているQRコードをスキャンします。
-3. フィールドにメールアドレスおよびICCID番号（SIMカードの裏面に「SIM Card Number」として表示）を入力します。
+3. フィールドにメールアドレスおよびICCID番号（SIMカードの裏面に「SIMカードナンバー」として表示）を入力します。
 
 ![sim card number](https://static.gl-inet.com/docs/router/en/4/tutorials/activate_top_up_sim_card/sim-card-number.jpg){class="glboxshadow"}
 
 4. （オプション）ICCIDが表示されているSIMカードの写真をアップロードします。
-5. **Submit**をタップします。
+5. **提出する**をタップします。
 
 アクティベーションが完了するまでに最大24時間かかる場合があります。アクティベーションが成功すると、確認メールが届き、SIMカードの使用を開始できます。アクティベート後、SIMカードは30日間有効です。その後、SIMカードを使用し続けるにはトップアップする必要があります。
 
@@ -34,13 +34,13 @@
 
 1. SIMカードがルーターに挿入されていることを確認します。
 2. [Global Data WiFiページ](https://portal.globaldatawifi.com/binding_iccid)にアクセスします。
-3. メールアドレスおよびICCID番号（SIMカードの裏面に「SIM Card Number」として表示）を入力します。
+3. メールアドレスおよびICCID番号（SIMカードの裏面に「SIMカードナンバー」として表示）を入力します。
 
 ![sim card number](https://static.gl-inet.com/docs/router/en/4/tutorials/activate_top_up_sim_card/sim-card-number.jpg){class="glboxshadow"}
 
-4. **Search**を選択します。
-5. メールアドレスを入力し、**Bind & Pay**を選択します。
-6. クレジットカード情報を入力し、**Save card**を選択します。
+4. **検索**を選択します。
+5. メールアドレスを入力し、**バインド＆ペイ**を選択します。
+6. クレジットカード情報を入力し、**カード保存**を選択します。
 
 SIMカードは毎月同じ日に自動的に更新されます。
 

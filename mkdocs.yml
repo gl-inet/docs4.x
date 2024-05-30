@@ -59,6 +59,13 @@ extra:
       link: https://www.pinterest.com/glinetWiFi/
   version:
     provider: mike
+  alternate:
+    - name: English
+      link: /router/en/3/
+      lang: en
+    - name: Japanese
+      link: /router/jp/3/
+      lang: ja
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css

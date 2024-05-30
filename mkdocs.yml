@@ -18,20 +18,6 @@ theme:
     - navigation.indexes
     - navigation.tabs
     - navigation.top
-    - toc.integrate
-  palette:
-    - scheme: default
-      primary: white
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: cyan
-      accent: cyan
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
   favicon: images/favicon.png
 
 # Plugins
@@ -78,10 +64,14 @@ extra_javascript:
 
 markdown_extensions:
   - attr_list
-  - pymdownx.tabbed
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
   - toc:
       permalink: true
-  - pymdownx.details
+  - admonition
 
 nav:
   - Home: index.md

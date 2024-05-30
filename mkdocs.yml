@@ -108,8 +108,8 @@ nav:
       - リモート アクセス Web 管理パネル: faq/remote_access_web_admin_panel.md
       - ルーターへのリモート SSH: faq/remote_ssh_to_router.md
     - トラブルシューティング:
-      -ウェブ管理パネルにアクセスできません: faq/cannot_access_web_admin_panel.md
-      -MacOSはSambaに書き込めない: faq/macos_cannot_write_samba.md
+      - ウェブ管理パネルにアクセスできません: faq/cannot_access_web_admin_panel.md
+      - MacOSはSambaに書き込めない: faq/macos_cannot_write_samba.md
     - インターネット:
       - iPhone テザリング失敗: faq/iphone_tethering_fail.md
       - キャプティブポータルでホットスポットに接続する: faq/connect_to_a_hotspot_with_captive_portal.md

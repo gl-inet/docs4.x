@@ -61,10 +61,10 @@ extra:
     provider: mike
   alternate:
     - name: English
-      link: /router/en/3/
+      link: /router/en/4/
       lang: en
     - name: Japanese
-      link: /router/jp/3/
+      link: /router/jp/4/
       lang: ja
 
 extra_css:

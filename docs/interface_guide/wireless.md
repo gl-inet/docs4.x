@@ -70,16 +70,10 @@ The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi 
 
 * In both 2.4GHz and 5GHz bands, you can configure whether to enable the randomized BSSID independently. When the random BSSID is disabled, you can set the real MAC, and the BSSID will be generated using the real MAC.
 
-    ![main wifi 5g](images/wireless/main_wifi_2.4g_bssid_modify.png){class="glboxshadow"}
-
     ![main wifi 5g](images/wireless/main_wifi_2.4g_bssid_disable.png){class="glboxshadow"}
-
-    ![main wifi 5g](images/wireless/main_wifi_5g_bssid_modify.png){class="glboxshadow"}
 
     ![main wifi 5g](images/wireless/main_wifi_5g_bssid_disable.png){class="glboxshadow"}
 ---
 
-
-  
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

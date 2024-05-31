@@ -38,9 +38,14 @@ The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi 
 
     * When the **Bandwidth** is set to 160 MHz (Only some models can be set to 160MHz), Wi-Fi will always use the DFS channel, even if you choose a non-DFS channel of the **Auto** option.
 
+
+
+
 * 2.4G Wi-Fi
 
     ![main wifi 2.4g](images/wireless/main_wifi_2.4g.png){class="glboxshadow"}
+
+
 
 ## Guest Wi-Fi
 
@@ -52,6 +57,29 @@ The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi 
 
     ![guest wifi 2.4g](images/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
+
+## Randomized BSSID
+* The randomized BSSID solves the problem that router devices are tracked and located, effectively prevents the BSSID of your router from leaking, and prevents attackers from launching attacks on your router based on the vendor information obtained by the router BSSID, protecting your privacy.
+* When you use router Wi-Fi for the first time, a BSSID is generated for you by default, and each time the router restarts, a new BSSID is automatically generated for each Wi-Fi, that is, a randomly generated MAC. 
+* Using a random BSSID can hide your router's real MAC, helping to protect your privacy. 
+* The BSSID of the guest Wi-Fi is consistent with the BSSID of the primary Wi-Fi in the same band.
+
+    ![main wifi 5g](images/wireless/main_wifi_2.4g_bssid.png){class="glboxshadow"}
+
+    ![main wifi 5g](images/wireless/main_wifi_5g_bssid.png){class="glboxshadow"}
+
+* In both 2.4GHz and 5GHz bands, you can configure whether to enable the randomized BSSID independently. When the random BSSID is disabled, you can set the real MAC, and the BSSID will be generated using the real MAC.
+
+    ![main wifi 5g](images/wireless/main_wifi_2.4g_bssid_modify.png){class="glboxshadow"}
+
+    ![main wifi 5g](images/wireless/main_wifi_2.4g_bssid_disable.png){class="glboxshadow"}
+
+    ![main wifi 5g](images/wireless/main_wifi_5g_bssid_modify.png){class="glboxshadow"}
+
+    ![main wifi 5g](images/wireless/main_wifi_5g_bssid_disable.png){class="glboxshadow"}
 ---
+
+
+  
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

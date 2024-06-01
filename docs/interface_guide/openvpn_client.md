@@ -116,8 +116,6 @@ GL.iNetルーターをOpenVPNサーバーに設定し、別のGL.iNetルータ�
 
 OpenVPNの設定に問題がある場合は、 [support@glinet.biz](mailto:support@glinet.biz)に連絡するか、[このフォーラムの投稿](https://forum.gl-inet.com/t/openvpn-and-wireguard-compatibility-report/15621){target="_blank"}に報告してください。
 
-推奨：
-
 ??? "NordVPN"
     ### NordVPN
 
@@ -153,88 +151,6 @@ OpenVPNの設定に問題がある場合は、 [support@glinet.biz](mailto:suppo
 
      [モバイルアプリ](../faq/mobile_app.md) を使用してNordVPNを設定することもできます。
 
-??? "PIA (プライベート・インターネット・アクセス)"
-    ### PIA
-
-    [公式ウェブサイト](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
-
-    直接[ダウンロード](https://www.privateinternetaccess.com/openvpn/openvpn.zip) する。
-
-    ヒント: zipファイルが大きすぎてアップロードできない場合は、.zipファイル内の.ovpnを削除するか、単一の.ovpnファイルをアップロードしてください。
-
-??? "Surfshark"
-    ### Surfshark
-
-    [公式ウェブサイト](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
-
-    1. **ログインの詳細を確認する**
-
-        Surfsharkサービスの認証情報は、Surfsharkアカウントの認証情報（メールアドレスとパスワード）とは異なります。ルーターの手動OpenVPN設定方法を使用してVPNに接続するには、Surfsharkサービス認証情報が必要です。
-
-         [公式ウェブサイト](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"},  [このページ](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}に移動すると、手動接続に必要な詳細がすべて表示されます。
-
-        ![surfshark service credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_service_credential.png){class="glboxshadow"}
-
-    2. **Surfshark サーバーを選択する**
-
-        **場所**タブを選択すると、すべての Surfshark サーバーが表示されます。
-
-        ![surfshark locations](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_locations.png){class="glboxshadow"}
-
-        TCPかUDPを選択するよう求められます。[ここ](../faq/openvpn_tcp_udp.md) をクリックして違いを確認してください。
-
-        ![surfshark tcp udp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_udp_tcp.png){class="glboxshadow" width="400"}
-
-
-    すべてのコンフィグは [こちら](https://api.surfshark.com/v1/server/configurations) から直接ダウンロードできます。
-
-    ヒント: zipファイルが大きすぎてアップロードできない場合は、.zipファイル内の.ovpnを削除するか、単一の.ovpnファイルをアップロードしてください。
-
-    [Refer link](https://support.surfshark.com/hc/en-us/articles/360011856259-How-to-set-up-Surfshark-on-GL-iNet-router-3-x-firmware-){target="_blank"}
-
-??? "PureVPN"
-    ### PureVPN
-
-    [公式ウェブサイト](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
-
-    直接[ダウンロード](https://d32d3g1fvkpl8y.cloudfront.net/heartbleed/router/Recommended-CA2.zip)する。
-
-    ヒント: zipファイルが大きすぎてアップロードできない場合は、.zipファイル内の.ovpnを削除するか、単一の.ovpnファイルをアップロードしてください。
-
-    [参考リンク](https://support.purevpn.com/openvpn-files)
-
-    GL.iNet ルーターは、PPTP を必要とするため、PureVPN の [専用 IP](https://www.purevpn.com/dedicated-ip){target="_blank"} 機能をサポートしていません。
-
-??? "PrivateVPN"
-    ### PrivateVPN
-
-    [公式ウェブサイト](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
-
-    直接[ダウンロード](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/privatevpn/PrivateVPN-TUN.zip){target="_blank} する。
-
-    [こちら](https://privatevpn.com/client/PrivateVPN-TUN.zip)が公式ダウンロードリンクです。ルーターのインポート中にバグが発生したため、内部のファイル名に「Bogotá」という特殊文字が含まれています。ファイル名を変更し、上記のダウンロードリンクを提供しています。今後のバージョンではこのバグを修正する予定です。
-
-    ヒント: zipファイルが大きすぎてアップロードできない場合は、.zipファイル内の.ovpnを削除するか、単一の.ovpnファイルをアップロードしてください。
-
-??? "Proton VPN"
-    ### Proton VPN
-
-    [公式ウェブサイト](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
-
-    **プロトンVPNはWireGuardサービスを提供しており、WireGuardを使用することをお勧めします。[こちら](wireguard_client.md#wireguard-providers)をチェックアウト**
-
-    1.  [プロトンVPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"} アカウントにログインします。
-
-    2. 左側の**ダウンロード**をクリックしてください。
-
-    3. ルータープラットフォーム、プロトコルなどを選択し、設定ファイルをダウンロードする対象国を探します。
-
-        ![protonvpn openvpn configuration file](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/proton_openvpn_configuration_file.jpg){class="glboxshadow"}
-
-    4. OpenVPNに接続するためのクレデンシャルは、プロトンウェブサイトのダッシュボードにログインするためのものではありません。**アカウント -> OpenVPN/IKEv2 ユーザー名**で確認できます。
-
-        ![protonvpn openvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
-
 ??? "ExpressVPN"
     ### ExpressVPN
 
@@ -266,8 +182,159 @@ OpenVPNの設定に問題がある場合は、 [support@glinet.biz](mailto:suppo
 
     [参考リンク](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
 
+??? "PIA (プライベート・インターネット・アクセス)"
+    ### PIA
 
-Others:
+    [公式ウェブサイト](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
+
+    直接[ダウンロード](https://www.privateinternetaccess.com/openvpn/openvpn.zip) する。
+
+    ヒント: zipファイルが大きすぎてアップロードできない場合は、.zipファイル内の.ovpnを削除するか、単一の.ovpnファイルをアップロードしてください。
+
+??? "CyberGhost"
+    ### CyberGhost
+
+    [公式ウェブサイト](https://www.cyberghostvpn.com/offer/GLiNet_rem6fdij){target="_blank"}
+
+     [CyberGhost公式インストラクション](https://support.cyberghostvpn.com/hc/en-us/articles/213811885-Router-How-to-configure-OpenVPN-for-flashed-DD-WRT-routers){target="_blank"}より引用
+
+    1. CyberGhost VPNオンラインアカウントにログインします。
+
+        ![login](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost1.png){class="glboxshadow"}
+
+    2. 左側のメニューから"**VPN**"を選択し、"**Configure Device**"をクリックして、以下のようにサーバーの設定を作成します：
+
+        ![config device](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost2.jpg){class="glboxshadow"}
+
+        ![save config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost3.jpg){class="glboxshadow"}
+
+    3. 次に、以下の説明に従ってサーバー構成を作成します
+
+        * **プロトコル** : **OpenVPN**
+        * **国** : ネイティブ・プロトコルの接続は1つのサーバーでしか使用できないため、サーフィンをしたい国を選択する必要があります。この国で使用されるサーバーは、CyberGhostによって自動的に選択されます。
+
+        * **サーバーグループ** : サーバーグループと使用するOpenVPNプロトコル（UDPまたはTCP）を選択します。
+
+        **OpenVPN UDP**はTCPバージョンよりも高速ですが、場合によってはダウンロードが途切れることがあります。これはデフォルトの設定です。
+        
+        **OpenVPN TCP**はUDPバージョンよりも安定した接続を可能にしますが、若干遅くなります。突然の接続切断など、接続に関する問題が繰り返し発生する場合は、このバージョンを選択してください。
+
+        希望するパラメータを選択したら、**設定を保存**で保存します。
+
+    4. 設定ダッシュボードで生成された **OpenVPN** 認証情報を表示するには、**設定を表示** をクリックします。
+
+        ![view configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost4.png){class="glboxshadow"}
+
+    5. 接続設定の後、以下の点にご注意ください：
+
+        * **サーバーグループ** : これは接続したい国（サーバー）のアドレスで、例えば'12345-1-ca.cg-dialup.net'。このアドレスは、前のステップで選択した国ごとに変わります。実際に使用する単一サーバーは、CyberGhostによって自動的に選択されます。
+        * **ユーザー名** : このプロトコルで生成された専用のユーザー名です。これは通常のCyberGhostアカウントのユーザー名ではなく、手動設定でCyberGhostサーバーと認証するためだけに使用されます。GL.iNetルーターでOpenVPNをセットアップする際に必要となります。
+        * **パスワード** : プロトコルを使用するためだけに生成されたパスワード。これは通常のCyberGhostアカウントのパスワードではなく、手動設定でCyberGhostサーバーと認証するためだけに使用されます。GL.iNetルーターでOpenVPNを設定する際に必要となります。
+
+        完了したら、設定ファイルをダウンロードしてください。 *設定ファイルのダウンロード* クリックし、設定ファイルをコンピュータにダウンロードしてください。
+
+        ![save config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost5.png){class="glboxshadow"}
+
+??? "PrivateVPN"
+    ### PrivateVPN
+
+    [公式ウェブサイト](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
+
+    直接[ダウンロード](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/privatevpn/PrivateVPN-TUN.zip){target="_blank} する。
+
+    [こちら](https://privatevpn.com/client/PrivateVPN-TUN.zip)が公式ダウンロードリンクです。ルーターのインポート中にバグが発生したため、内部のファイル名に「Bogotá」という特殊文字が含まれています。ファイル名を変更し、上記のダウンロードリンクを提供しています。今後のバージョンではこのバグを修正する予定です。
+
+    ヒント: zipファイルが大きすぎてアップロードできない場合は、.zipファイル内の.ovpnを削除するか、単一の.ovpnファイルをアップロードしてください。
+
+??? "Proton VPN"
+    ### Proton VPN
+
+    [公式ウェブサイト](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
+
+    **プロトンVPNはWireGuardサービスを提供しており、WireGuardを使用することをお勧めします。[こちら](wireguard_client.md#wireguard-providers)をチェックアウト**
+
+    1.  [プロトンVPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"} アカウントにログインします。
+
+    2. 左側の**ダウンロード**をクリックしてください。
+
+    3. ルータープラットフォーム、プロトコルなどを選択し、設定ファイルをダウンロードする対象国を探します。
+
+        ![protonvpn openvpn configuration file](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/proton_openvpn_configuration_file.jpg){class="glboxshadow"}
+
+    4. OpenVPNに接続するためのクレデンシャルは、プロトンウェブサイトのダッシュボードにログインするためのものではありません。**アカウント -> OpenVPN/IKEv2 ユーザー名**で確認できます。
+
+        ![protonvpn openvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
+
+??? "PureVPN"
+    ### PureVPN
+
+    [公式ウェブサイト](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
+
+    直接[ダウンロード](https://d32d3g1fvkpl8y.cloudfront.net/heartbleed/router/Recommended-CA2.zip)する。
+
+    ヒント: zipファイルが大きすぎてアップロードできない場合は、.zipファイル内の.ovpnを削除するか、単一の.ovpnファイルをアップロードしてください。
+
+    [参考リンク](https://support.purevpn.com/openvpn-files)
+
+    GL.iNet ルーターは、PPTP を必要とするため、PureVPN の [専用 IP](https://www.purevpn.com/dedicated-ip){target="_blank"} 機能をサポートしていません。
+
+??? "Surfshark"
+    ### Surfshark
+
+    [公式ウェブサイト](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
+
+    1. **ログインの詳細を確認する**
+
+        Surfsharkサービスの認証情報は、Surfsharkアカウントの認証情報（メールアドレスとパスワード）とは異なります。ルーターの手動OpenVPN設定方法を使用してVPNに接続するには、Surfsharkサービス認証情報が必要です。
+
+         [公式ウェブサイト](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"},  [このページ](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}に移動すると、手動接続に必要な詳細がすべて表示されます。
+
+        ![surfshark service credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_service_credential.png){class="glboxshadow"}
+
+    2. **Surfshark サーバーを選択する**
+
+        **場所**タブを選択すると、すべての Surfshark サーバーが表示されます。
+
+        ![surfshark locations](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_locations.png){class="glboxshadow"}
+
+        TCPかUDPを選択するよう求められます。[ここ](../faq/openvpn_tcp_udp.md) をクリックして違いを確認してください。
+
+        ![surfshark tcp udp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_udp_tcp.png){class="glboxshadow" width="400"}
+
+
+    すべてのコンフィグは [こちら](https://api.surfshark.com/v1/server/configurations) から直接ダウンロードできます。
+
+    ヒント: zipファイルが大きすぎてアップロードできない場合は、.zipファイル内の.ovpnを削除するか、単一の.ovpnファイルをアップロードしてください。
+
+    [Refer link](https://support.surfshark.com/hc/en-us/articles/360011856259-How-to-set-up-Surfshark-on-GL-iNet-router-3-x-firmware-){target="_blank"}
+
+??? "StrongVPN"
+    ### StrongVPN
+
+    [公式ウェブサイト](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
+
+    1. [StrongVPN](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}アカウントでログインすると、VPNアカウントサマリーが表示されます。 アカウント設定案内をクリックします。
+
+        ![strongvpn setup 1](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_01.jpg){class="glboxshadow"}
+
+    2. マニュアルセットアップのセクションを見つけ、手順に従って設定を行います。
+
+        ![strongvpn get config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_02.jpg){class="glboxshadow"}
+
+??? "OVPN"
+    ### OVPN
+
+    [公式ウェブサイト](https://www.ovpn.com/en?ref=glinet){target="_blank"}
+    
+    ログインして、下のメニューをクリックすれば、簡単にOpenVPNの設定ファイルを入手できます。
+
+    ![get ovpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/get_ovpn_configuration_files.jpg){class="glboxshadow"}
+
+    サーバーを選択し、ダウンロードします。
+
+    ![download ovpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/download_configuration_files.jpg){class="glboxshadow"}
+
+    ユーザー名とパスワードは、OVPNにログインするときと同じです。
 
 ??? "AirVPN"
     ### AirVPN
@@ -335,50 +402,6 @@ Others:
     [公式ウェブサイト](https://cryptostorm.is/){target="_blank"}
 
     直接[ダウンロード](https://cryptostorm.is/configs/ecc/){target="_blank"} します。
-
-??? "CyberGhost"
-    ### CyberGhost
-
-    [公式ウェブサイト](https://www.cyberghostvpn.com/offer/GLiNet_rem6fdij){target="_blank"}
-
-     [CyberGhost公式インストラクション](https://support.cyberghostvpn.com/hc/en-us/articles/213811885-Router-How-to-configure-OpenVPN-for-flashed-DD-WRT-routers){target="_blank"}より引用
-
-    1. CyberGhost VPNオンラインアカウントにログインします。
-
-        ![login](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost1.png){class="glboxshadow"}
-
-    2. 左側のメニューから"**VPN**"を選択し、"**Configure Device**"をクリックして、以下のようにサーバーの設定を作成します：
-
-        ![config device](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost2.jpg){class="glboxshadow"}
-
-        ![save config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost3.jpg){class="glboxshadow"}
-
-    3. 次に、以下の説明に従ってサーバー構成を作成します
-
-        * **プロトコル** : **OpenVPN**
-        * **国** : ネイティブ・プロトコルの接続は1つのサーバーでしか使用できないため、サーフィンをしたい国を選択する必要があります。この国で使用されるサーバーは、CyberGhostによって自動的に選択されます。
-
-        * **サーバーグループ** : サーバーグループと使用するOpenVPNプロトコル（UDPまたはTCP）を選択します。
-
-        **OpenVPN UDP**はTCPバージョンよりも高速ですが、場合によってはダウンロードが途切れることがあります。これはデフォルトの設定です。
-        
-        **OpenVPN TCP**はUDPバージョンよりも安定した接続を可能にしますが、若干遅くなります。突然の接続切断など、接続に関する問題が繰り返し発生する場合は、このバージョンを選択してください。
-
-        希望するパラメータを選択したら、**設定を保存**で保存します。
-
-    4. 設定ダッシュボードで生成された **OpenVPN** 認証情報を表示するには、**設定を表示** をクリックします。
-
-        ![view configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost4.png){class="glboxshadow"}
-
-    5. 接続設定の後、以下の点にご注意ください：
-
-        * **サーバーグループ** : これは接続したい国（サーバー）のアドレスで、例えば'12345-1-ca.cg-dialup.net'。このアドレスは、前のステップで選択した国ごとに変わります。実際に使用する単一サーバーは、CyberGhostによって自動的に選択されます。
-        * **ユーザー名** : このプロトコルで生成された専用のユーザー名です。これは通常のCyberGhostアカウントのユーザー名ではなく、手動設定でCyberGhostサーバーと認証するためだけに使用されます。GL.iNetルーターでOpenVPNをセットアップする際に必要となります。
-        * **パスワード** : プロトコルを使用するためだけに生成されたパスワード。これは通常のCyberGhostアカウントのパスワードではなく、手動設定でCyberGhostサーバーと認証するためだけに使用されます。GL.iNetルーターでOpenVPNを設定する際に必要となります。
-
-        完了したら、設定ファイルをダウンロードしてください。 *設定ファイルのダウンロード* クリックし、設定ファイルをコンピュータにダウンロードしてください。
-
-        ![save config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost5.png){class="glboxshadow"}
 
 ??? "FastestVPN"
     ### FastestVPN
@@ -487,21 +510,6 @@ Others:
 
     [参照リンク](https://www.ivpn.net/setup/gnu-linux-terminal.html)
 
-??? "OVPN"
-    ### OVPN
-
-    [公式ウェブサイト](https://www.ovpn.com/en?ref=glinet){target="_blank"}
-    
-    ログインして、下のメニューをクリックすれば、簡単にOpenVPNの設定ファイルを入手できます。
-
-    ![get ovpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/get_ovpn_configuration_files.jpg){class="glboxshadow"}
-
-    サーバーを選択し、ダウンロードします。
-
-    ![download ovpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/download_configuration_files.jpg){class="glboxshadow"}
-
-    ユーザー名とパスワードは、OVPNにログインするときと同じです。
-
 ??? "PrivadoVPN"
     ### PrivadoVPN
 
@@ -566,19 +574,6 @@ Others:
         ![streamvpn guide, vpn router](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/streamvpn/streamvpn_guide_router.png){class="glboxshadow"}
 
     **注意:** 設定ファイル名は "Primary "を含んでいる場合のみ機能します。
-
-??? "StrongVPN"
-    ### StrongVPN
-
-    [公式ウェブサイト](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
-
-    1. [StrongVPN](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}アカウントでログインすると、VPNアカウントサマリーが表示されます。 アカウント設定案内をクリックします。
-
-        ![strongvpn setup 1](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_01.jpg){class="glboxshadow"}
-
-    2. マニュアルセットアップのセクションを見つけ、手順に従って設定を行います。
-
-        ![strongvpn get config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_02.jpg){class="glboxshadow"}
 
 ??? "VPN.AC"
     ### VPN.AC

@@ -48,7 +48,8 @@ The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi 
 * Randomized BSSID
     * **Using randomized BSSID can protect your privacy.** Clients vendor collect the geolocation of Wi-Fi access points based on their unique BSSID to locate the device. When client device scan or connect your router, merely being within Wi-Fi range of a client device can lead to a device’s location and movements being made widely and publicly available. When a client device uses GPS to determine its location, it periodically reports nearby Wi-Fi BSSIDs and their GPS coordinates to clients vendor servers. This allows other clients devices to query visible BSSIDs to estimate their location, even without GPS connectivity. An attacker can exploit client’s crowdsourced location tracking system to amass a worldwide database of Wi-Fi access point locations and track devices’ movements over time.
     
-    * BSSID Option enabled by default and it is generated randomized BSSID every time when it is at enabled state. When the random BSSID is disabled, you can use the real MAC.
+    * BSSID Option enabled by default. If this option is enabled, the device uses a randomly generated BSSID and renews it at each booting. When the random BSSID is disabled, you can use the real MAC.
+    
 
 ## Guest Wi-Fi
 

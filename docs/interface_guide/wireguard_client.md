@@ -46,7 +46,7 @@ You can log in by clicking the **AzireVPN** or **Mullvad** button if you have a 
 
 [Mullvad](https://mullvad.net/){target="_blank"} is a VPN service that helps keep your online activity, identity, and location private.
 
-Firmware 4.x has integrated Mullvad WireGaurd service.
+Firmware 4.x has integrated Mullvad WireGuard service.
 
 ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/mullvad.png){class="glboxshadow"}
 
@@ -143,7 +143,7 @@ As of firmware 4.0, it brings grouping to manage WireGuard profiles.
 
 ## Set Up WireGuard Server on GL.iNet Router
 
-You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup WireGaurd server, please check out [here](wireguard_server.md).
+You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup WireGuurd server, please check out [here](wireguard_server.md).
 
 ## Get Configuration Files from WireGuard Service Providers
 
@@ -169,7 +169,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     [Official Website](https://mullvad.net/){target="_blank"}
 
-    1. Access [Mullvad Official Website](https://mullvad.net/){target="_blank"} and login, then access the [WireGaurd configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
+    1. Access [Mullvad Official Website](https://mullvad.net/){target="_blank"} and login, then access the [WireGuard configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
 
     2. Then follow the [guide](#setup-wireguard-client) to continue.
 
@@ -180,7 +180,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
-    It can't downlaod the WireGaurd configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
+    It can't downlaod the WireGuard configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -230,7 +230,7 @@ You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet
 
     [Official Website](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
 
-    1. If you are using [Surfshark](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}, login then go to [this](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"} page, click on **Router**, and select **WireGaurd**.
+    1. If you are using [Surfshark](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}, login then go to [this](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"} page, click on **Router**, and select **WireGuard**.
 
         ![surfshark wireguard manual setup](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/surfshark/surfshark_wireguard_manual_setup_1.png){class="glboxshadow"}
 

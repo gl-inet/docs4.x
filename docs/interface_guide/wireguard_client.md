@@ -407,7 +407,7 @@ GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetル
 ??? "TRUST.ZONE"
     ### TRUST.ZONE
 
-    [公式サイト](https://trust.zone/){target="_blank"}
+    [公式サイト](https://trustzonevpn.info/join.php?user=U-HRfLr-MDAxNzE3NjgxMjM4){target="_blank"}
 
     1. [https://trust.zone/setup](https://trust.zone/setup)にアクセスしてログインします。
     

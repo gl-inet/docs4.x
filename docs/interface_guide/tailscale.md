@@ -141,7 +141,7 @@ GL-MT2500がTailscale仮想ネットワークに接続されたので、3つの�
 
 ![exitnode](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/exitnode.jpg){class="glboxshadow"}
 
-**注意**: GL.iNet ルーターはまだ出口ノードとして利用できません。この機能はまだ開発中です。
+**注意**: GL.iNet ルーターはまだ出口ノードとして利用できません。
 
 **注意 **: ルーターのDNSサーバーがローカルネットワークでのみアクセス可能なプライベートIPアドレスである場合、出口ノードを実行するとインターネットアクセスができなくなる可能性があります。ネットワーク > DNSメニューから、8.8.8.8などの手動パブリックDNSサーバーを設定してください。
 

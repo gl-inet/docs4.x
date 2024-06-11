@@ -38,18 +38,16 @@ The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi 
 
     * When the **Bandwidth** is set to 160 MHz (Only some models can be set to 160MHz), Wi-Fi will always use the DFS channel, even if you choose a non-DFS channel of the **Auto** option.
 
-
-
-
 * 2.4G Wi-Fi
 
     ![main wifi 2.4g](images/wireless/main_wifi_2.4g.png){class="glboxshadow"}
 
-* Randomized BSSID
-    * **Using randomized BSSID can protect your privacy.** Clients vendor collect the geolocation of Wi-Fi access points based on their unique BSSID to locate the device. When client device scan or connect your router, merely being within Wi-Fi range of a client device can lead to a device’s location and movements being made widely and publicly available. When a client device uses GPS to determine its location, it periodically reports nearby Wi-Fi BSSIDs and their GPS coordinates to clients vendor servers. This allows other clients devices to query visible BSSIDs to estimate their location, even without GPS connectivity. An attacker can exploit client’s crowdsourced location tracking system to amass a worldwide database of Wi-Fi access point locations and track devices’ movements over time.
-    
-    * BSSID Option enabled by default. If this option is enabled, the device uses a randomly generated BSSID and renews it at each booting. When the random BSSID is disabled, you can use the real MAC.
-    
+### Randomized BSSID
+
+* **Using randomized BSSID can protect your privacy.** Clients vendor collect the geolocation of Wi-Fi access points based on their unique BSSID to locate the device. When client device scan or connect your router, merely being within Wi-Fi range of a client device can lead to a device’s location and movements being made widely and publicly available. When a client device uses GPS to determine its location, it periodically reports nearby Wi-Fi BSSIDs and their GPS coordinates to clients vendor servers. This allows other clients devices to query visible BSSIDs to estimate their location, even without GPS connectivity. An attacker can exploit client’s crowdsourced location tracking system to amass a worldwide database of Wi-Fi access point locations and track devices’ movements over time.
+![randomized bssid](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/randomized-bssid.jpg){class="glboxshadow"}
+
+* BSSID Option enabled by default. If this option is enabled, the device uses a randomly generated BSSID and renews it at each booting. When the random BSSID is disabled, you can use the real MAC.
 
 ## Guest Wi-Fi
 

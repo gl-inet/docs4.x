@@ -141,6 +141,7 @@ nav:
       - Upgrade GL-AX1800 to firmware v4.x: faq/gl-ax1800_upgrade_to_4.md
     - VPN:
       - TCP or UDP: faq/openvpn_tcp_udp.md
+      - I must use Ethernet WAN when use VPN?: faq/i_must_use_ethernet_wan_when_use_vpn.md
       - Block No-VPN Traffic: faq/block_no_vpn_traffic.md
     - Other:
       - Can I add Brume2 into mobile App?: faq/can_i_add_brume2_into_app.md

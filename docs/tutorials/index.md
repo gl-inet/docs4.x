@@ -49,3 +49,4 @@ Learn how to use our devices correctly with detailed steps.
 * [How to set up drop-in gateway](how_to_set_up_drop_in_gateway.md)
 * [How to upgrade or downgrade your router's firmware (from v4.x to v4.x)](how_to_upgrade_downgrade_router.md)
 * [How to activate or top up T-Mobile SIM cards](how_to_activate_top_up_sim_cards.md)
+* [Hot to retrieve the Mobile App Log](how_to_retrieve_the_mobile_app_log.md)

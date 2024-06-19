@@ -122,9 +122,13 @@ Please refer to this link: [https://docs.gl-inet.com/router/en/3/tutorials/ssh/]
 
 ### Quectel module software donwload URL
 
-EP06-A: [https://fw.gl-inet.com/tools/quectel_module_software/EP06ALAR02A08M4G_01.004.01.004.zip](https://fw.gl-inet.com/tools/quectel_module_software/EP06ALAR02A08M4G_01.004.01.004.zip)
+EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
 
-RM520: [https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip](https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip)
+EP06-E: [https://fw.gl-inet.com/download/EP06E-modem-firmware/EP06ELAR04A22M4G.zip](https://fw.gl-inet.com/download/EP06E-modem-firmware/EP06ELAR04A22M4G.zip)
+
+EM060K: [https://fw.gl-inet.com/download/EM060K-modem-firmware/EM060KGLAAR01A12M2GA.zip](https://fw.gl-inet.com/download/EM060K-modem-firmware/EM060KGLAAR01A12M2GA.zip)
+
+RM520: [https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A03M4G_01.201.01.201.zip](https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A03M4G_01.201.01.201.zip)
 
 ---
 

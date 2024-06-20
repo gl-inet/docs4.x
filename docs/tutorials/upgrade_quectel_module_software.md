@@ -8,7 +8,7 @@ Use the laptop wifi to connect the device SSID (you will find the SSID and wifi 
 
 Please refer to this link: [https://docs.gl-inet.com/router/en/3/tutorials/ssh/](https://docs.gl-inet.com/router/en/3/tutorials/ssh/)
 
-### For GL-MiFi/GL-XE300/GL-X750/GL-X300
+### For GL-MiFi/GL-XE300/GL-X750/GL-E750/GL-X300B
 
 1. Get the QFirehose from GL.iNet server and confirm the QFirehose file SHA256 is right
 

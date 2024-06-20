@@ -26,7 +26,7 @@ Please refer to this link: [https://docs.gl-inet.com/router/en/3/tutorials/ssh/]
 
 2. Drop down to the bottom of this document to download the required module firmware
 
-   Put the zip package on a USB flash drive and unzip it
+    Put the zip package on a USB flash drive and unzip it
 
 3. Insert a USB flash disk and use the df command to get the mount path, remember the path
 

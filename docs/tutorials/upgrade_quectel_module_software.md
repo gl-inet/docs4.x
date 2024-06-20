@@ -35,7 +35,7 @@ Please refer to this link: [https://docs.gl-inet.com/router/en/3/tutorials/ssh/]
     The `/tmp/mountd/disk1_part1` is my USB flash disk, you must change the path to your path
 
     ```
-    wget https://fw.gl-inet.com/tools/quectel_module_software/EP06ALAR02A08M4G_01.004.01.004.zip -P /tmp/mountd/disk1_part1/
+    wget https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip -P /tmp/mountd/disk1_part1/
     ```
 
     ![ar9531_get_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/ar9531_get_quectel_module_software.png){class="glboxshadow"}
@@ -81,7 +81,7 @@ Please refer to this link: [https://docs.gl-inet.com/router/en/3/tutorials/ssh/]
 2. Get the Quectel module software and upcompress(For example RM520, for other module software, please refer to note of at the end of the document)
 
     ```
-    wget https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip -P /
+    wget https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A03M4G_01.201.01.201.zip -P /
     ```
 
     ![mtk7981a_get_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/mtk7981a_get_quectel_module_software.png){class="glboxshadow"}

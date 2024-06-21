@@ -28,7 +28,7 @@ Learn how to use our devices and how to solve some common problems.
 * [Stuck on the "Installing" screen when updating the router](stuck_on_installing_screen.md)
 * [What should I do if my router is bricked?](debrick.md)
 * [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel.md)
-* [My Wireguard Server is not working](my_wireguard_server_is_not_working.md)
+* [My Wireguard server is not working properly](my_wireguard_server_is_not_working.md)
 
 ## Internet Connection
 
@@ -41,6 +41,7 @@ Learn how to use our devices and how to solve some common problems.
 
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp.md)
 * [How to Block Non-VPN Traffic?](block_no_vpn_traffic.md)
+* [I must use Ethernet WAN when use VPN?](i_must_use_ethernet_wan_when_use_vpn.md)
 * [VPN Kill Switch](block_no_vpn_traffic.md).
 
 ## Upgrade

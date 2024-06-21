@@ -1,80 +1,161 @@
-# My WireGuard Server is not Working
+# The WireGuard server on my GL.iNet router is not working properly
 
-There are many reasons your own WireGuard server is not working after the first setup. Please follow the below guide and figure out the reason one by one.
+There are various reasons the WireGuard server you have set up on your GL.iNet router is not working properly. To troubleshoot, refer to the section appropriate to your specific situation below. 
 
-## My WireGuard Client is starting and never connect
+#### Situation 1: My WireGuard server is starting but can't be connected
 
-![client](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/client.jpg){class='glboxshadow'}
+??? "Follow these steps"
 
-It may be due to your port forward is not done, to ensure your Main router port forward is functioning, you can try to forward a HTTPS port to DDNS function.
+    ![client](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/client.jpg){class='glboxshadow'}
 
-1. Go to your Main router and forward the port 443 to our GL-iNet Router, just like what you do when you set up the VPN servers. Here is the example if you are using TP-Link as the Main router.
+    The port forwarding you have set up on your primary router connected to your secondary router (GL.iNet) may not be working properly. 
+    To check if port forwarding is working properly, try to forward the primary router's HTTPS port to your WireGuard server. Follow these steps: 
 
-    ![DDNS1](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS1.jpg){class='glboxshadow'}
+    ### 1. Forward your primary router's HTTPS port to your WireGuard server
 
-2. Enable the DDNS function in your GL-iNet Router
+    1. Sign in to your primary router's admin panel. 
+    2. Go to the port forwarding screen. 
+    3. Create a new port and name it **HTTPS**. 
+    4. Enter the following information:
+        * **External port/Internal port:** Enter **443**. 
+        * **Protocol:** Choose **All** or **UDP/TCP**.
+        * **Internal IP** (or shown as **Host IP**): Enter your secondary router's WAN IP address or select your secondary router from the dropdown if available.
+        ![DDNS1](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS1.jpg){class='glboxshadow'}
 
-    ![DDNS2](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS2.jpg){class='glboxshadow'}
+    ### 2. Enable DDNS and HTTPS remote access (on the GL.iNet router)
 
-3. Enable the HTTPS Remote Access
+    1. In a web browser, enter the URL to your GL.iNet router's admin panel (e.g., 192.168.8.1) and sign in.
+    2. In the left sidebar, click **Applications** > **Dynamic DNS**. 
+    3. Toggle **Enable DDNS** to on and check the box for **I have read and agree to the Terms of Service & Privacy Policy**. 
+        ![DDNS2](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS2.jpg){class='glboxshadow'}
+    4. Save the hostname somewhere as you will need it for later, then click **Apply**. 
+    5. In the left sidebar, click **System** > **Security**. 
+    6. Under **Remote Access Control**, toggle **HTTPS Remote Access** to on.  
+        ![DDNS3](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS3.jpg){class='glboxshadow'}
+    7. Click **Apply**. 
 
-    ![DDNS3](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS3.jpg){class='glboxshadow'}
+    ### 3. Check if you can access the GL.iNet router's admin panel 
 
-4. Connect your Laptop or PC to another network or cellular network. Launch a Windows Browser and type the DDNS address **Https://abcd123.glddns.com** and click **Advance**
+    1. On another device (e.g., laptop or mobile device), connect to a different Wi-Fi network or the cellular network. 
+    2. In a web browser's address bar, enter the hostname you saved earlier (abcd123.glddns.com). 
+    3. Click **Advanced**. 
+        ![DDNS4](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS4.jpg){class='glboxshadow'}
+    4. Click **Proceed to abcd123.glddns.com(unsafe)**. 
+        ![DDNS5](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS5.jpg){class='glboxshadow'}
 
-    ![DDNS4](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS4.jpg){class='glboxshadow'}
-
-5. Click Proceed to abcd123.glddns.com(unsafe)
-
-    ![DDNS5](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS5.jpg){class='glboxshadow'}
-
-6. If you can access our GL-iNet Router admin login, your Main router port forward is functioning.
+    If you see the login screen of your GL.iNet router (secondary router), the port forwarding you set up on your primary router is working properly.
 
     ![DDNS6](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/My%20client%20is%20waiting/DDNS6.jpg){class='glboxshadow'}
 
-## My WireGuard Server Shows Client connected but My Client cannot access to the internet
+    If you do not see the login screen of your GL.iNet router (secondary router), port forwarding is not working properly. Set up port forwarding again or make sure to use a router with functioning port forwarding ability as your primary router. 
 
-1. Your main router gateway IP is conflict with the WireGuard Server Virtual IP.
+#### Situation 2: My WireGuard server shows my VPN client is connected, but my VPN client can't access the internet
 
-    Please see point 2 of [set up Wiregaurd Server](../interface_guide/wireguard_server.md/#setup-wireguard-server)
+??? "Follow these steps"
 
-2. If you are using two GL.iNet Routers as the server and client, please change the LAN IP of either one. Change the [LAN IP](../interface_guide/lan.md).
+    Follow the steps outlined for each possible cause below and check if the issue is resolved. If the issue is resolved, you can skip the rest of the section. 
 
-3. You ISP cannot resolve your DNS. Please change the DNS on the configuration to **8.8.8.8** or **8.8.4.4**.
+    **Possible cause 1: You internet service provider may not be able to resolve GL.iNet's DNS servers**
 
-    ![dns8888](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/dns8888.jpg){class='glboxshadow'}
+    Try to manually configure the DNS server addresses by following these steps: 
 
-4. You have changed the Server Virtual IP yourself but you didn't put the **/24** and make it become **xx.x.x.x/24**.
+    1. In a web browser, enter the URL to your GL.iNet router's admin panel (e.g., 192.168.8.1) and sign in.
+    2. In the left sidebar, click **Network** > **DNS**. 
+    3. For **Mode**, select **Manual DNS**. 
+    4. For **DNS Server 1**, select **Google Public DNS**. 
+    5. Click **Apply**. 
 
-    Please see point 2 of [set up Wiregaurd Server](../interface_guide/wireguard_server.md/#setup-wireguard-server)
+    **Possible cause 2: Your primary router's gateway IP is in conflict with the WireGuard server's IP address**
 
-## My WireGuard Server is connected but My Clients cannot connect to it
+    Try to change the IPv4 address by following these steps: 
 
-1.  Please check again your [port forwarding](my_wireguard_server_is_not_working.md#my-wireguard-client-is-starting-and-never-connect) is working. You can [test the Server](../interface_guide/wireguard_server.md/#to-check-if-wireguard-server-is-working-properly) by official WireGuard mobile App.
+    1. In a web browser, enter the URL to your GL.iNet router's admin panel (e.g., 192.168.8.1) and sign in.
+    2. In the left sidebar, click **VPN** > **WireGuard Server**. 
+    3. In the **Configuration** tab, for the **IPv4 Address** field, enter a new IP address (e.g., 10.1.0.1/24). 
+    4. Click **Apply**. 
 
-2.  Please double confirm you have a Public IP address. For details please click [here](../interface_guide/wireguard_server.md/#make-sure-internet-service-provider-assigns-you-a-public-ip-address).
-3.  If you are using two GL.iNet routers as the server and the client, please change the LAN IP of either one. Change the [LAN IP](../interface_guide/lan.md).
+    **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addersses are in conflict**
 
-4.  You are connecting your client to the server's WiFi or LAN port, please change to another network.
+    Try to change the LAN IP address on either router by following these steps:     
 
-5.  You may missed some lines when you copy your configuration to the client.
+    1. In a web browser, sign in to the admin panel of either GL.iNet router (e.g., 192.168.8.1). 
+    2. In the left sidebar, click **Network** > **LAN**. 
+    3. In the **Router IP address** field, enter a new LAN IP address (e.g., 192.168.10.1). 
+    4. Click **Apply**. 
 
-6.  You may manually added the **Allowed IPs** into the configuration. Please add the **Allowed IPs** in [Server Profile](../tutorials/wireguard_server_access_to_client_lan_side.md/#2-go-to-the-wireguard-server-you-will-see-the-client-ip-gateway-in-profiles-and-click-the-modify-icon).
+    **Possible cause 4: The WireGuard server's IP address was updated but the subnet is missing**
 
-## My WireGuard Server is connected but the connection is not stable
+    Add a subnet to your WireGuard server IP address by following these steps: 
 
-1.  Change the [MTU](../interface_guide/vpn_dashboard.md/#vpn-client-options) from **1420** to a smaller value, like **1380**.
+    1. In a web browser, enter the URL to your GL.iNet router's admin panel (e.g., 192.168.8.1) and sign in.
+    2. In the left sidebar, click **VPN** > **WireGuard Server**. 
+    3. In the **Configuration** tab, for the **IPv4 Address** field, add **/24** after **10.0.0.1**. 
+    4. Click **Apply**. 
 
-2.  Check your Main router if it has to enable the VPN passthrough function or not.
+#### Situation 3: My WireGuard server is running but I can't connect my VPN client to it
 
-3.  Change the DNS on the [configuration.](my_wireguard_server_is_not_working.md/#my-wireguard-server-shows-client-connected-but-my-client-cannot-access-to-the-internet)
+??? "Follow these steps"
 
-4.  Use [encrypted DNS](../interface_guide/dns.md/#dns-server-settings) on GL-Router.
+    Follow the steps outlined for each possible cause below and check if the issue is resolved. If the issue is resolved, you can skip the rest of the section. 
 
-## My WireGuard Server is suddenly not working
+    **Possible cause 1: The port forwarding you have set up on your primary router may not be working properly**
 
-1.  It may due to a power outage, please check if your server is still on line by [Https Remote Access](my_wireguard_server_is_not_working.md/#my-wireguard-client-is-starting-and-never-connect) or [GoodCloud](../interface_guide/cloud.md).
+    To check if port forwarding is working properly, try to forward the HTTPS port to your WireGuard server by following the resolution steps outlined in Situation 1. 
 
-2.  You didn't enable the DDNS before and the public IP address is changed.
+    **Possible cause 2: You may not have a public IP address**
 
-3.  The port forwarding is failed for some unknow reasons, forward another port for a trial.
+    To check if you have one, follow this [page](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/). 
+
+    **Possible cause 3: If both your WireGuard server and WireGuard client were set up on GL.iNet routers, their LAN IP addersses are in conflict**
+
+    Change the LAN IP address on either router by following these steps: 
+
+    1. In a web browser, sign in to the admin panel of either GL.iNet router (e.g., 192.168.8.1). 
+    2. In the left sidebar, click **Network** > **LAN**. 
+    3. In the **Router IP address** field, enter a new LAN IP address (e.g., 192.168.10.1). 
+    4. Click **Apply**. 
+
+    **Possible cause 4: The device you are using to connect to the WireGurad server is connected to its Wi-Fi network or its LAN port** 
+
+    Connect your device to a different Wi-Fi network or its cellular network. 
+
+    **Possible cause 5: Some lines may be missing in the configuration file you uploaded to your client device**
+
+    Upload your configuration information again. 
+
+#### Situation 4: My WireGuard server is connected but the connection is not stable
+
+??? "Follow these steps"
+
+    Follow the steps below to resolve the issue. After each step, check if the issue is resolved. If the issue is resolved, you can skip the rest of the steps.
+
+    1. On your VPN client device, change the MTU from **1420** to a smaller value (e.g., 1380).
+    2. On your primary router, enable the VPN passthrough feature if available. 
+    3.  Try to manually configure DNS servers on your GL.iNet router by following these steps: 
+        1. In a web browser, enter the URL to your GL.iNet router's admin panel (e.g., 192.168.8.1) and sign in.
+        2. In the left sidebar, click **Network** > **DNS**. 
+        3. For Mode, select **Manual DNS**. 
+        4. For **DNS Server 1**, select **Google Public DNS**. 
+        5. Click **Apply**. 
+
+#### Situation 5: My WireGuard server suddenly stopped working
+
+??? "Follow these steps"
+
+    Follow the steps outlined for each possible cause below and check if the issue is resolved. If the issue is resolved, you can skip the rest of the section. 
+
+    **Possible cause 1: There may be a power outage in where you set up your WireGuard server**
+
+    Check whether your WireGuard server is still online by following the resolution steps in Situation 1 or via [GoodCloud](https://docs.gl-inet.com/router/en/4/interface_guide/cloud/) (if you previously connected your router to it).
+
+    **Possible cause 2: You did not enable the Dynamic DNS (DDNS)**
+
+    If you have a dynamic IP address (which you most likely do), you will need to enable DDNS. [Enable DDNS](https://www.youtube.com/watch?v=qLEj9zoiYRs&t=26s) and follow the rest of the steps to set up the WireGuard server again. 
+
+    **Possible cause 3: The port forwarding stopped working for unknown reasons**
+
+    [Set up port forwarding](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/) again with another port. 
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

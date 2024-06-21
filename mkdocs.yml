@@ -59,6 +59,13 @@ extra:
       link: https://www.pinterest.com/glinetWiFi/
   version:
     provider: mike
+  alternate:
+    - name: English
+      link: /router/en/4/
+      lang: en
+    - name: Japanese
+      link: /router/jp/4/
+      lang: ja
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
@@ -124,7 +131,7 @@ nav:
     - Troubleshooting:
       - Can't access web Admin Panel: faq/cannot_access_web_admin_panel.md
       - MacOS cannot write in Samba: faq/macos_cannot_write_samba.md
-      - My Wireguard Server is not working: faq/my_wireguard_server_is_not_working.md
+      - My Wireguard server is not working properly: faq/my_wireguard_server_is_not_working.md
       - Stuck on the "Installing" screen: faq/stuck_on_installing_screen.md
     - Internet:
       - Build up an Intranet: faq/build_up_an_intranet.md
@@ -141,6 +148,7 @@ nav:
       - Upgrade GL-AX1800 to firmware v4.x: faq/gl-ax1800_upgrade_to_4.md
     - VPN:
       - TCP or UDP: faq/openvpn_tcp_udp.md
+      - I must use Ethernet WAN when use VPN?: faq/i_must_use_ethernet_wan_when_use_vpn.md
       - Block No-VPN Traffic: faq/block_no_vpn_traffic.md
     - Other:
       - Can I add Brume2 into mobile App?: faq/can_i_add_brume2_into_app.md
@@ -160,6 +168,7 @@ nav:
       - How to set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
     - VPN: 
       - Accessing Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - How to set up an OpenVPN client on a GL.iNet router: tutorials/how_to_set_up_openvpn_client.md
       - How to set up an OpenVPN server on a GL.iNet router: tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md
       - Build your own WireGuard Home Server with two GL.iNet Routers: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
       - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
@@ -176,10 +185,13 @@ nav:
       - How to set up a guest network: tutorials/how_to_set_up_a_guest_network.md
       - How to set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
       - How to set up port forwarding on your primary router: tutorials/how_to_set_up_port_forwarding.md
-    - Other:
+    - Others:
       - How to manually configure static IP: tutorials/manually_configure_static_ip.md
       - How to check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
       - How to block client devices: tutorials/how_to_block_client_devices.md
+      - How to upgrade or downgrade your router (from v4.x to v4.x): tutorials/how_to_upgrade_downgrade_router.md
+      - How to activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
+      - How to retrieve the Mobile App Log: tutorials/how_to_retrieve_the_mobile_app_log.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:

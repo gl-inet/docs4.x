@@ -10,6 +10,7 @@ Learn how to use our devices correctly with detailed steps.
 
 ## VPN
 
+* [How to set up an OpenVPN client on a GL.iNet router](how_to_set_up_openvpn_client.md)
 * [How to set up an OpenVPN server on a GL.iNet router](build_your_own_openvpn_home_server_with_two_glrouter.md)
 * [Build your own WireGuard Home Server with two GL.iNet Routers](build_your_own_wireguard_home_server_with_two_glinet_routers.md)
 * [How to connect to the dedicated IP by NordVPN on GL.iNet routers?](how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md)
@@ -43,6 +44,9 @@ Learn how to use our devices correctly with detailed steps.
 
 ## Others
 
-* [How to check if you have a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [How to block client devices](how_to_block_client_devices.md)
+* [How to check if you have a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [How to set up drop-in gateway](how_to_set_up_drop_in_gateway.md)
+* [How to upgrade or downgrade your router's firmware (from v4.x to v4.x)](how_to_upgrade_downgrade_router.md)
+* [How to activate or top up T-Mobile SIM cards](how_to_activate_top_up_sim_cards.md)
+* [Hot to retrieve the Mobile App Log](how_to_retrieve_the_mobile_app_log.md)

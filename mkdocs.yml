@@ -224,6 +224,7 @@ nav:
       - Tailscale: interface_guide/tailscale.md
     - Network:
       - Firewall: interface_guide/firewall.md
+      - Port Forwarding: interface_guide/port_forwarding.md
       - Multi-WAN: interface_guide/multi-wan.md
       - LAN: interface_guide/lan.md
       - Guest Network: interface_guide/guest_network.md
@@ -247,6 +248,7 @@ nav:
       - Security: interface_guide/security.md
       - Reset Firmware: interface_guide/reset_firmware.md
       - Advanced Settings: interface_guide/advanced_settings.md
+      - Language: interface_guide/ui_languages.md
   - Video Library:
     - Overview: video_library/index.md
     - Meet Our New Products: video_library/products.md

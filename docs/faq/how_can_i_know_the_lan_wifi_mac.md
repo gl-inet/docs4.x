@@ -44,3 +44,7 @@ There would be only one Mac Address even there are more than one LAN ports. For 
 
 When you connect to some hotels, camping sites, campus, the network manager may ask your device's Mac address to register into his whitelist before.
 You need to tell him the exact Mac address or addressed of your device in order for network access. You can use the above logic to tell him exactly all your Mac addresses of your device immediately.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

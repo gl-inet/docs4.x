@@ -153,6 +153,8 @@ nav:
     - Other:
       - Can I add Brume2 into mobile App?: faq/can_i_add_brume2_into_app.md
       - Change WAN to LAN: faq/change_wan_to_lan.md
+      - How to connect GL-iNet Routers to Starlink Dish?: faq/connect_glinetrouter_to_starlink.md
+      - How to use HTTPS to access GL-iNet Routers and Adguard Home?: faq/use_https_for_adh.md
       - Mobile App: faq/mobile_app.md
       - What is LuCI: faq/what_is_luci.md
       - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md

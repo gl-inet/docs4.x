@@ -54,8 +54,10 @@ Learn how to use our devices and how to solve some common problems.
 ## Other
 
 * [Can I add Brume2 into the mobile App?](can_i_add_brume2_into_app.md)
+* [How to use HTTPS to access GL-iNet Router and Adguard Home?](use_https_for_adh.md)
+* [How to connect GL-iNet Routers to Starlink Dish?](connect_glinetrouter_to_starlink.md)
 * [How to change WAN port to LAN port?](change_wan_to_lan.md)
-* [GL.iNet Mobile App](mobile_app.md).
+* [GL.iNet Mobile App](mobile_app.md)
 * [What is LuCI?](what_is_luci.md)
 * [How to remote access router's web Admin Panel?](remote_access_web_admin_panel.md)
 * [How to remote ssh to router?](remote_ssh_to_router.md)

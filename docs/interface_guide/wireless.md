@@ -16,7 +16,7 @@ When Wi-Fi is enabled, the corresponding Wi-Fi icon will light up below the devi
 
 The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi icon. You can scan the Wi-Fi QR code using your Phone/Pad to quickly connect to the corresponding Wi-Fi.
 
-![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/wifi_qr_code.png){class="glboxshadow"}
+![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_qr_code.png){class="glboxshadow"}
 
 ## Main Wi-Fi
 

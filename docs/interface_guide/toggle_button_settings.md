@@ -6,7 +6,7 @@ Supported Models: GL-AXT1800(Slate AX), GL-MT1300(Beryl), GL-MT3000(Beryl AX), G
 
 On the left side of web Admin Panel -> SYSTEM -> Toggle Button Settings
 
-![toggle button settings](images/toggle_button_settings/toggle_button_settings.png){class="glboxshadow"}
+![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.png){class="glboxshadow"}
 
 There are four options.
 

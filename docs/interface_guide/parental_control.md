@@ -148,7 +148,7 @@ The [Bark](https://www.bark.us/){target="_blank"} version, which is provided and
 
 Bark Parental control feature available since v4.5.
 
-**Note:** It’s only available in the US, Australia, Guam, and South Africa.
+**Note:** It's only available in the US, Australia, Guam, and South Africa.
 
 ### Usage Scenarios
 

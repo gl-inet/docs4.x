@@ -8,11 +8,11 @@ A captive portal is a Web page where public hotspots require users obligated to 
 
 * Public Wi-Fi is not safe
 
-    We cannot put enough emphasis on how public Wi-Fi is not safe. By connecting your GL.iNet router to the public wifi, you can simply login to your VPN account directly through your router's Admin Panel, and it’ll automatically encrypt all connected devices within the local network, saving you from the trouble of setting up VPN on every single device. 
+    We cannot put enough emphasis on how public Wi-Fi is not safe. By connecting your GL.iNet router to the public wifi, you can simply login to your VPN account directly through your router's Admin Panel, and it'll automatically encrypt all connected devices within the local network, saving you from the trouble of setting up VPN on every single device. 
 
 * Use as a repeater to allow connections with multiple devices
 
-    Besides that, some public Wi-Fi such as hotel complimentary Wi-Fi are limited to let’s say 2 devices. When you’re travelling in a group, that’s just not going to work. Instead, you could connect a travel router to the hotel Wi-Fi, and use it as a hotspot to broadcast Wi-Fi to all your devices including laptops, smartphones, tablets…etc. The hotel Wi-Fi will only recognize the travel router as a single device, but you could enjoy the free Wi-Fi as many devices as you want. 
+    Besides that, some public Wi-Fi such as hotel complimentary Wi-Fi are limited to let's say 2 devices. When you're travelling in a group, that's just not going to work. Instead, you could connect a travel router to the hotel Wi-Fi, and use it as a hotspot to broadcast Wi-Fi to all your devices including laptops, smartphones, tablets…etc. The hotel Wi-Fi will only recognize the travel router as a single device, but you could enjoy the free Wi-Fi as many devices as you want. 
 
 ## How do I connect my router to a public hotspot via captive portal?
 

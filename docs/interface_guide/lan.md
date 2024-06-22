@@ -27,7 +27,7 @@ You can click **Advanced** for more manually settings.
 
 ## Address Reservation
 
-When you specify a reserved IP address for a client within the LAN, the client always receives the same IP address each time it accesses the router’s DHCP server. You can assign reserved IP addresses to computers or servers that require permanent IP settings.
+When you specify a reserved IP address for a client within the LAN, the client always receives the same IP address each time it accesses the router's DHCP server. You can assign reserved IP addresses to computers or servers that require permanent IP settings.
 
 **Note:** Configured clients have to reconnect the router to activate.
 

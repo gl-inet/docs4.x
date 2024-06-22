@@ -37,7 +37,7 @@ Wall mounts are provided in the package. To mount your Spitz AX to the wall, fol
 
 ![roof](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
-To get a better signal, use a roof antenna for your Spitz AX. You are recommended to use [MobileMark’s LTMG942 multi-band antenna](https://www.mobilemark.com/product/ltmg942-4xlte-2xwifi-gnss/) which provides optimal network signals. If you want to use roof antennas from other brands, make sure they fulfill the following requirements: 
+To get a better signal, use a roof antenna for your Spitz AX. You are recommended to use [MobileMark's LTMG942 multi-band antenna](https://www.mobilemark.com/product/ltmg942-4xlte-2xwifi-gnss/) which provides optimal network signals. If you want to use roof antennas from other brands, make sure they fulfill the following requirements: 
 
 - 4 cellular antennas, receiving frequency range 600M~6GHz.
 - 2 Wi-Fi antennas, receiving frequency range: 2.4G~2.5GHz, 5.15~5.84GHz

@@ -63,7 +63,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 ### Tethering
 
-Establish internet access with connected devices by sharing a smartphone’s mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
@@ -151,7 +151,7 @@ Please visit the  [**GoodCloud**](../../interface_guide/cloud.md) tutorial.
 
 GL.iNet's routers include multiple firewall features to ensure a secure connection and complete oversight by users. It lets users configure firewall rules including Port Forwarding, Open Ports, and DMZ.
 
-[Click here to learn more about GL.iNet routers’ firewall](../../interface_guide/firewall.md)
+[Click here to learn more about GL.iNet routers' firewall](../../interface_guide/firewall.md)
 
 ### Multi-WAN
 

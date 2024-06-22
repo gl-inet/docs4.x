@@ -478,7 +478,7 @@ If you have any problem in the setup of OpenVPN, please contact [support@glinet.
 
     [Official Website](https://www.hotspotshield.com/){target="_blank"}
 
-    1. Go to [https://www.hotspotshield.com/](https://www.hotspotshield.com/) and click on Account. Sign in if you’re asked.
+    1. Go to [https://www.hotspotshield.com/](https://www.hotspotshield.com/) and click on Account. Sign in if you're asked.
 
         ![hotspot shield login](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hotspot_shield/hotspotshield_front_page.png){class="glboxshadow"}
 

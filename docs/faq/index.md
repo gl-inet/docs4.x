@@ -62,6 +62,6 @@ Learn how to use our devices and how to solve some common problems.
 * [How to remote access router's web Admin Panel?](remote_access_web_admin_panel.md)
 * [How to remote ssh to router?](remote_ssh_to_router.md)
 * [How to check if Internet Service Provider assigns you a public IP address?](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)
-* [How can I find the LAN Mac, WiFi Mac addresses of device](how_can_I_know_the_lan_wifi_mac.md)
+* [How can I find the LAN Mac, WiFi Mac addresses of device](how_can_i_know_the_lan_wifi_mac.md)
 * [Where to find the device ID, MAC, Serial Number?](where_to_find_the_device_id_mac_sn.md)
 * [LED Indication](led.md)

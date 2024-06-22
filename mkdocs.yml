@@ -133,7 +133,7 @@ nav:
       - モバイルアプリ: faq/mobile_app.md
       - LuCIとは: faq/what_is_luci.md
       - デバイス ID、MAC、SN: faq/where_to_find_the_device_id_mac_sn.md
-      - デバイス LAN Mac、WiFi Mac: faq/how_can_I_know_the_lan_wifi_mac.md
+      - デバイス LAN Mac、WiFi Mac: faq/how_can_i_know_the_lan_wifi_mac.md
   - チュートリアル:
     - 概要: tutorials/index.md
     - セルラー:

@@ -46,7 +46,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## Applications
 
-* [plug-ins](plugins.md)
+* [Plug-ins](plugins.md)
 * [DDNS](ddns.md). Overcome the issues related to Dynamic IP Addresses.
 * [GoodCloud](cloud.md), the official cloud service.
 * [AdGuard Home](adguardhome.md)

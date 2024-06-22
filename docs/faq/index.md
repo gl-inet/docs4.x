@@ -52,6 +52,6 @@ hide:
 * [ルーターのウェブ管理パネルにリモートアクセスする方法は？](remote_access_web_admin_panel.md)
 * [ルーターへのリモートsshの方法は？](remote_ssh_to_router.md)
 * [インターネット・サービス・プロバイダーがパブリックIPアドレスを割り当てているかどうかを確認するには？](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)
-* [デバイスのLAN Mac、WiFi Macアドレスを見つけるには](how_can_I_know_the_lan_wifi_mac.md)
+* [デバイスのLAN Mac、WiFi Macアドレスを見つけるには](how_can_i_know_the_lan_wifi_mac.md)
 * [デバイスID、MAC、シリアル番号はどこで確認できますか？](where_to_find_the_device_id_mac_sn.md)
 * [LED表示](led.md)

@@ -135,7 +135,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ## System settings
 
-* To reset the router's admin password, follow [these instructions](http://127.0.0.1:8000/router/en/4/interface_guide/admin_password/). 
+* To reset the router's admin password, follow [these instructions](https://docs.gl-inet.com/router/en/4/interface_guide/admin_password/). 
 * To reset the router's firmware, follow [these instructions](https://docs.gl-inet.com/router/en/4/faq/repair_network_or_reset_firmware/). 
 * To reset the router's time zone, follow [these instructions](https://docs.gl-inet.com/router/en/4/interface_guide/time_zone/). 
 * To set scheduled tasks, follow [these instructions](https://docs.gl-inet.com/router/en/4/interface_guide/scheduled_tasks/). 

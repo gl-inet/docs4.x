@@ -2,7 +2,7 @@
 
 This article will introduce how to set up your home router as the WireGuard VPN server and your travel router as the WireGuard VPN client to connect together remotely, so that you can use your home IP address with the travel router anywhere.
 
-Here we use our GL-MT6000 as the example to run WireGuard VPN server at the home site, and you can also choose other models such as MT2500 if you don’t require the wireless capacity. As for the travel router, we use our GL-MT3000 as the example, and you can choose others as well.
+Here we use our GL-MT6000 as the example to run WireGuard VPN server at the home site, and you can also choose other models such as MT2500 if you don't require the wireless capacity. As for the travel router, we use our GL-MT3000 as the example, and you can choose others as well.
 
 ## Why you need to build own your WireGuard home server
 
@@ -25,17 +25,17 @@ To check if you have the Public IP address, please open a web browser and type i
 
 It will show your public IP address, if it matches with your WAN IP from your ISP, you are granted a Public IP Address.
 
-If you don’t have a Public IP address, here are some methods for your reference.
+If you don't have a Public IP address, here are some methods for your reference.
 
 1. if you have a main router, you shall login to it and check if it gets the Public IP from your ISP.
 2. if you can ask your ISP to give you a Public IP address, she may charge an extra fee for it.
-3. if both the above two ways don’t work. For example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md).
+3. if both the above two ways don't work. For example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md).
 
 ??? "TP-Link as Main Router"
 
     ### Your GL-MT6000 connects to an upper router
 
-    Connect to your home router’s WiFi or LAN, then login the web admin panel. Check the IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
+    Connect to your home router's WiFi or LAN, then login the web admin panel. Check the IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
 
     **Example: A TP-Link Router**
 

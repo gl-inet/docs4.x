@@ -4,7 +4,7 @@
 
 ## Product Information
 
-Mudi V2 (GL-E750V2) is a portable 4G LTE travel router compatible with global carriers. It runs fully open source on OpenWrt and GL.iNet’s SDK 4.0, providing customization capabilities and a suite of features. Mudi V2 (GL-E750V2) supports 300Mbps (2.4GHz) and 433Mbps (5GHz) Wi-Fi speeds and a MicroSD card of up to 1TB. It has a built-in 7000mAh battery. It also supports multi-WAN (failover and load balance) to ensure a smooth connection for all your devices. 
+Mudi V2 (GL-E750V2) is a portable 4G LTE travel router compatible with global carriers. It runs fully open source on OpenWrt and GL.iNet's SDK 4.0, providing customization capabilities and a suite of features. Mudi V2 (GL-E750V2) supports 300Mbps (2.4GHz) and 433Mbps (5GHz) Wi-Fi speeds and a MicroSD card of up to 1TB. It has a built-in 7000mAh battery. It also supports multi-WAN (failover and load balance) to ensure a smooth connection for all your devices. 
 
 ![gl-e750v2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/hardware_info/e750_interface.jpg){class="glboxshadow"}
 
@@ -95,7 +95,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 ### Tethering
 
-Establish internet access with connected devices by sharing a smartphone’s mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
@@ -121,7 +121,7 @@ The wireless settings lets users manage network security of the primary Wi-Fi an
 
 ## CLIENTS
 
-Clients are devices connected to the router, you can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router’s Admin Panel.
+Clients are devices connected to the router, you can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router's Admin Panel.
 
 [Click here to learn more about managing your device clients.](../../interface_guide/clients.md)
 
@@ -179,7 +179,7 @@ Please visit the  [**GoodCloud**](../../interface_guide/cloud.md) tutorial.
 
 GL.iNet's routers include multiple firewall features to ensure a secure connection and complete oversight by users. It lets users configure firewall rules including Port Forwarding, Open Ports, and DMZ.
 
-[Click here to learn more about GL.iNet routers’ firewall](../../interface_guide/firewall.md)
+[Click here to learn more about GL.iNet routers' firewall](../../interface_guide/firewall.md)
 
 ### Multi-WAN
 
@@ -227,7 +227,7 @@ Please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutori
 
 ### OLED Screen Settings
 
-On this page, you can adjust what information is displayed on your Mudi V2 (GL-E750V2)’s OLED screen. 
+On this page, you can adjust what information is displayed on your Mudi V2 (GL-E750V2)'s OLED screen. 
 
 
 ### Scheduled Tasks

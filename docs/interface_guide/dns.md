@@ -4,11 +4,13 @@ On the left side of web Admin Panel -> NETWORK -> DNS
 
 If you set custom DNS servers, any dns name will be resolved through the DNS servers set here instead of the one obtained from wan, repeater, cellular, hotspot sharing or VPN configuration DNS server.
 
-![dns](https://static.gl-inet.com/docs/router/en/4/tutorials/dns/dns_page.png){class="glboxshadow"}
+![dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_page.png){class="glboxshadow"}
 
 **DNS Rebinding Attack Protection:** Turning on this option may cause private DNS lookup failure. If your network has a captive portal please disable this option.
 
 **Override DNS Settings for All Clients:** If enabled, your router will override unencrypted DNS settings for all clients.
+
+**Allow VPN tunnels to prefer their own DNS:** If this option is enabled, when a VPN connection is available, data packets transmitted over the VPN tunnel will be resolved using the VPN's own DNS servers. If your VPN uses DNS servers on the intranet. Or if you are using policy-based VPN proxy mode and want to use the VPN's DNS server while using encrypted DNS for non-VPN packets. please enable it.
 
 ## DNS Server Settings
 

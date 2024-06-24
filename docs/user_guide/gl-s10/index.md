@@ -65,4 +65,4 @@ Please refer to [User Manual](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/u
 
 ## Firmware Compilation Guide
 
-Please refer to [Firmware Compilation Guide](https://docs.gl-inet.com/router/iot/en/user_guide/gl-s10/firmware_compilation_guide/) on IoT docs.
+Please refer to [Firmware Compilation Guide](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/firmware_compilation_guide/) on IoT docs.

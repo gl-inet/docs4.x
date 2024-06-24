@@ -46,7 +46,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## Applications
 
-* [plug-ins](plugins.md)
+* [Plug-ins](plugins.md)
 * [DDNS](ddns.md). Overcome the issues related to Dynamic IP Addresses.
 * [GoodCloud](cloud.md), the official cloud service.
 * [AdGuard Home](adguardhome.md)
@@ -58,6 +58,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 ## Network
 
 * [Firewall](firewall.md).
+* [Port Forwarding](port_forwarding.md).
 * [Multi-WAN](multi-wan.md), failover to another Internet access method or use multiple interfaces at the same time to increase the total bandwidth.
 * [LAN](lan.md)
 * [DNS](dns.md)
@@ -72,6 +73,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## System
 
+* [UI Languages](ui_languages.md)
 * [System Overview](system_overview.md), displays some hardwares status and system info.
 * Upgrade
     * [Firmware upgrade](firmware_upgrade.md)
@@ -84,5 +86,6 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Time Zone](time_zone.md)
 * [Toggle Button Settings](toggle_button_settings.md)
 * [Log](log.md)
+* [Security](security.md)
 * [Reset Firmware](reset_firmware.md)
 * [Advanced Settings](advanced_settings.md)

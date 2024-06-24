@@ -3,22 +3,27 @@
 On the left side of web Admin Panel -> NETWORK -> MAC Address
 
 The MAC Address page was previously called MAC Clone and has been changed to MAC Address since v4.2.
+The MAC address setting for the repeater interface has been migrated to the repeater connection hotspot interface in version 4.6 and above.
 
 On this page, you can find the router's default MAC address, clone a client's MAC address, enter a MAC address manually, or generate a random MAC address.
 
+If the device supports setting multiple Ethernet ports to be used as WAN ports, you can set the MAC address for each port separately. Note that the MAC address setting is only valid when the Ethernet port is used as a WAN port.
+
+![default mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/mac_address.png){class="glboxshadow"}
+
 * The factory default MAC address.
 
-    ![default mac address](https://static.gl-inet.com/docs/router/en/4/tutorials/mac_address/mac_address_1.png){class="glboxshadow"}
+    ![default mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/factory_default.png){class="glboxshadow"}
 
 * Clone a client's MAC address.
 
-    ![clone mac address](https://static.gl-inet.com/docs/router/en/4/tutorials/mac_address/mac_address_2.png){class="glboxshadow"}
+    ![clone mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/clone.png){class="glboxshadow"}
 
-    **Note:** Many new devices now use a different random MAC address to connect to different WiFi, so the MAC address shown here may not be the actual MAC address of the user's device. The randomized MAC may also be called a Private Wi-Fi Address or a random hardware address on different devices. 
+    **Note:** Many new devices now use a different random MAC address to connect to different WiFi, so the MAC address shown here may not be the actual MAC address of the user's device. The randomized MAC may also be called a Private Wi-Fi Address or a random hardware address on different devices.
 
 * Manual input or generate a random MAC address.
 
-    ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/router/en/4/tutorials/mac_address/mac_address_3.png){class="glboxshadow"}
+    ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/manual.png){class="glboxshadow"}
 
 ## Usage Scenarios
 

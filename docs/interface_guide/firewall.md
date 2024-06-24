@@ -1,8 +1,12 @@
-# FIREWALL
+# Firewall
 
-On the left side of web Admin Panel -> FIREWALL
+**Note**: Since v4.6, the Firewall page has been split. The Port Forwarding and DMZ features have been moved to the [Port Forwarding](port_forwarding.md). The Open Ports feature has been moved to the [Security](security.md).
 
-In FIREWALL page, you can set up firewall rules like **Port Forwarding**, **Open Ports on Router** and **DMZ**.
+---
+
+On the left side of web Admin Panel -> NETWORK -> Firewall
+
+In Firewall page, you can set up firewall rules like **Port Forwarding**, **Open Ports on Router** and **DMZ**.
 
 ---
 

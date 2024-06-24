@@ -18,21 +18,55 @@ Choose a SSID from the drop-down list and enter its password. If the SSID you wa
 
 ![repeater join network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_network.png){class="glboxshadow"}
 
-For [Advanced Settings](#join-network-advanced-setting).
+If you want to connect to a public hotspot, such as those provided by hotels/airports/malls, please refer to  [For Public Hotspot](#for-public-hotspot).
+
+For other settings, please refer to [Advanced Settings](#join-network-advanced-setting).
 
 Wait a moment, if the password is correct, the connection will be successful.
 
-![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![repeater connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
+
+## For Public Hotspot
+
+* **Auto-Enable Login Mode for Public Hotspots**
+
+  If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. This mode will pause VPNs, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).
+
+  Even if you do not turn on this option, the device prompts you to enter this mode when it detects the captive portal existing in the hotspot and does not login successfully.
+
+  ![login mode for public hotspots](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/login_mode_for_public_hotspots.png){class="glboxshadow"}
+
+* **Enable Camouflage**
+
+  If this option is enabled, this router camouflage itself as the same device as the client device you are now using.
+
+  If you enable camouflage mode, the device automatically emulates the MAC address based on the client device you are using.
+
+* **MAC Mode**
+
+  You can choose which MAC to use to connect to this hotspot.
+
+  **Factory**: The factory-written MAC address of the device.
+  **Clone**: Clone a client's MAC address. Note that many new devices now use a different random MAC address to connect to different WiFi, so the MAC address shown here may not be the actual MAC address of the user's device. The randomized MAC may also be called a Private Wi-Fi Address or a random hardware address on different devices. You can also manually enter the device's MAC you want to clone if it is not in the options.
+  **Random**: Generate a random MAC address.
+
+  The mode and cloned/randomized MAC address used when saving the network follows each SSID save, and you can change it manually.
 
 ## Join network advanced setting
 
 When joining the network, there are two additional options.
 
-![repeater join network advanced setting](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
+![repeater join network advanced setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
 
 * **Lock BSSID**. If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.
 
 * **Manually set static IP**.
+
+* **TTL**: TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator. By default, the router forwards the TTL of the incoming client device minus one. If you need to camouflage, you can set a fixed value here. the TTL is valid only for IPv4.
+
+* **HL**: In IPv6, the HL (Hop Limit) field is used to limit the number of transmission hops of data packets in the network, which is equivalent to the TTL in IPv4.
+
+* **MTU**: The default value is 1500.
 
 ## Repeater options
 
@@ -40,13 +74,11 @@ Click the cog icon for Repeater options.
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-![repeater options](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_options.png){class="glboxshadow"}
+![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 
 * **Allow Switching To Other Saved Network**. If the option is enabled, the router will automatically connect to other saved networks when it is unable to connect to the current Wi-Fi network.
 
 * **Band Selection**. If you manually select a band, the router will not scan or connect to any Wi-Fi with another band.
-
-* **Allow Repeat DFS Channels**. If the option is enabled, 5GHz Wi-Fi will be temporarily unavailable when a radar is using the channel which is currently router using; Otherwise, the router will not connect to any Wi-Fi using DFS channels.
 
 * **Force 20MHz Bandwith For 2.4G**. If the option is enabled, The device will prompting the stability of the connection in exchange of reducing the connection speed. It only works when repeating 2.4G Wi-Fi.
 
@@ -70,7 +102,7 @@ If the SSID is not in the Available Networks list, or if the SSID is hidden, you
 
 ![join other network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/join_other_network.png){class="glboxshadow gl-90-desktop"}
 
-![join other network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
+![join other network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
 
 Input the SSID, for **Security**, It has the following three options.
 
@@ -78,7 +110,7 @@ Input the SSID, for **Security**, It has the following three options.
 * WPA/WPA2/WPA3
 * WPA/WPA2/WPA3 Enterprise, for Extensible Authentication Protocol (EAP), it requires a username and password for authentication.
 
-    ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/join_other_network_eap.png){class="glboxshadow gl-90-desktop"}
+    ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_eap.png){class="glboxshadow gl-90-desktop"}
 
 ## Reconnection
 
@@ -151,7 +183,7 @@ Related Articles
 - [Internet page](internet.md)
 - [How to set the priority of each Internet access method?](multi-wan.md)
 - [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
-- [How can I know the LAN and WiFi Mac Addresses](../faq/how_can_I_know_the_lan_wifi_mac.md)
+- [How can I know the LAN and WiFi Mac Addresses](../faq/how_can_i_know_the_lan_wifi_mac.md)
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

@@ -54,7 +54,7 @@ If you don't have a Public IP address, here are some methods for your reference.
 
     ![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_port1.jpg){class="glboxshadow"}
 
-## Setup GL-iNet router direct if it is the Main Router
+## Setup GL-iNet router directly if it is the Main Router
 
 ??? "GL.iNet as Main Router"
     ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}

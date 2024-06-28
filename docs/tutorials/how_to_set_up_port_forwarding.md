@@ -32,7 +32,7 @@ Here are the instructions for setting up port forwarding on certain router brand
 
 ### Linksys
 
-[Refer to these instructions.](https://www.tp-link.com/us/support/faq/1379/)
+[Refer to these instructions.](https://www.linksys.com/support-article?articleNum=47073)
 
 ### Netgear 
 

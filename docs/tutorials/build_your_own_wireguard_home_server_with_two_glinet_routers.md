@@ -31,7 +31,7 @@ If you don't have a Public IP address, here are some methods for your reference.
 
 ### Confirm you need to do a Port Forwarding or not?
 
-=== "GL.iNet as Main Router"
+??? "GL.iNet as Main Router"
 
     Topology
 
@@ -45,7 +45,7 @@ If you don't have a Public IP address, here are some methods for your reference.
 
     Login GL.iNet Admin Panel, you can see your Public IP shows on the IP Address and you have **No Need** to do **Port Forwarding**.
 
-=== "GL.iNet as Sub-Router"
+??? "GL.iNet as Sub-Router"
 
     Topology
 
@@ -59,16 +59,6 @@ If you don't have a Public IP address, here are some methods for your reference.
 
     ![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_home.jpg){class="glboxshadow"}
 
-    Set up the Port Forwarding on your main router
-
-    1. Login to the web control page of your main router 
-    
-    2. Find out where is the function of port forwarding, different brands may call it by different names
-    
-    3. Find the IP address assigned to GL.iNet Router
-
-    Example: A TP-Link Router
-
     1. Go to “Advanced” and click “virtual Server”, then “Add”.
     
     2. Internal IP (Device IP): It is the IP address assigned to GL.iNet Router, you can find it in the client list of TP-Link
@@ -78,6 +68,8 @@ If you don't have a Public IP address, here are some methods for your reference.
     4. Protocol:  You can choose "All or UDP or TCP/UDP"
 
     ![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_port1.jpg){class="glboxshadow"}
+
+    **More [Port Forward](how_to_set_up_port_forwarding.md) examples**
    
 ## Set up the WireGuard server on GL.iNet Router
 

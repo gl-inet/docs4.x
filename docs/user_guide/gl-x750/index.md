@@ -64,7 +64,7 @@ Establish internet access with connected devices by sharing a smartphone's mobil
  
 Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
-[Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
+[Click here to learn how to connect to the internet via callular](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_cellular.png){class="glboxshadow"}
 

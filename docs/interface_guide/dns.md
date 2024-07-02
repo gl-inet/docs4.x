@@ -10,7 +10,7 @@ If you set custom DNS servers, any dns name will be resolved through the DNS ser
 
 **Override DNS Settings for All Clients:** If enabled, your router will override unencrypted DNS settings for all clients.
 
-**Allow VPN tunnels to prefer their own DNS:** If this option is enabled, when a VPN connection is available, data packets transmitted over the VPN tunnel will be resolved using the VPN's own DNS servers. If your VPN uses DNS servers on the intranet. Or if you are using policy-based VPN proxy mode and want to use the VPN's DNS server while using encrypted DNS for non-VPN packets. please enable it.
+**Allow Custom DNS to Override VPN DNS:** If this option is enabled, once you have set custom DNS, packets transmitted through the VPN tunnel will be resolved using the custom DNS override instead of the DNS server settings from the VPN connections.
 
 ## DNS Server Settings
 

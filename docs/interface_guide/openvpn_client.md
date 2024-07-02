@@ -476,7 +476,7 @@ If you have any problem in the setup of OpenVPN, please contact [support@glinet.
 ??? "Hotspot Shield"
     ### Hotspot Shield
 
-    [Official Website](https://www.hotspotshield.com/){target="_blank"}
+    [Official Website](https://trk.aclktrkr.com/aff_c?offer_id=59&aff_id=3722){target="_blank"}
 
     1. Go to [https://www.hotspotshield.com/](https://www.hotspotshield.com/) and click on Account. Sign in if you're asked.
 

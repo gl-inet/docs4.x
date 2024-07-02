@@ -469,6 +469,23 @@ OpenVPNの設定に問題がある場合は、 [support@glinet.biz](mailto:suppo
 
         ![hide.me vpn dashboard](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/hideme/hideme_dashboard.jpg){class="glboxshadow"}
 
+??? "Hotspot Shield"
+    ### Hotspot Shield
+
+    [公式ウェブサイト](https://trk.aclktrkr.com/aff_c?offer_id=59&aff_id=3722){target="_blank"}
+
+    1. [https://www.hotspotshield.com/](https://www.hotspotshield.com/)にアクセスして、アカウントをクリックします。サインインを求められたらサインインしてください。
+
+        ![ホットスポットシールド ログイン](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hotspot_shield/hotspotshield_front_page.png){class="glboxshadow"}
+
+    2. [https://app.hotspotshield.com/app/hotspotshield/router](https://app.hotspotshield.com/app/hotspotshield/router)にアクセスします。
+
+        「Select location」ドロップダウンメニューから、ルーターが使用する仮想ロケーションを選択します。次に「Download file」をクリックします。設定ファイル（config.ovpn）がコンピュータにダウンロードされます。OpenVPNクライアントをルーターに設定する際に、ユーザー名とパスワードを入力する必要があります。
+
+        ![ホットスポットシールド リンクルーター](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hotspot_shield/link_router.png){class="glboxshadow"}
+
+    [参考リンク](https://support.hotspotshield.com/hc/en-us/articles/360038538012-How-do-I-install-Hotspot-Shield-on-my-GL-iNet-router)
+
 ??? "IPVANISH"
     ### IPVANISH
 

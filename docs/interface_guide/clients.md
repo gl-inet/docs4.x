@@ -26,14 +26,11 @@ Enable **Block** toggle to block client device, the blocked device can't access 
 
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients.png){class="glboxshadow"}
 
-
 Blacklist: Devices with MAC addresses on the prohibited list are not allowed to connect to this router.
 
 Whitelist: Only devices with specific MAC addresses are allowed to connect, suitable for IoT devices and enterprise network management.
 
-
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_whitelist.png){class="glboxshadow"}
-
 
 Starting from firmware 4.4.x, you can upload a block list in excel form or input Mac addressed manually to creat a **Block List**.
 
@@ -94,17 +91,17 @@ Click the three dots icon in the Action column to disable limiting.
 
 If you need to view the IPv6 address of the client device. Or if the list does not show the column you need to view because you are browsing with a small-screen client device. Please click the three dots icon in the action column and then click the **View Details** item in the pop-up menu.
 
-![view detail](images/clients/view_detail.png){class="glboxshadow"}
+![view detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/view_detail.png){class="glboxshadow"}
 
 After that, you can see all the information about the client device in the opened subpage, including all IPv6 addresses of the device.
 
-![client detail](images/clients/client_detail.png){class="glboxshadow"}
+![client detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
 
 ## Remove Offline Clients
 
 In the offline clients sector, you can **Delete All** offline clients. If you want to remove specific client, please click the three dots icon in the action column, in the menu that pops up, click **Remove Client** item.
 
-![remove clients](images/clients/remove_client.png){class="glboxshadow"}
+![remove clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_client.png){class="glboxshadow"}
 
 ---
 

@@ -1,0 +1,64 @@
+# How to set up an OpenVPN client on a GL.iNet router
+
+This tutorial will show you **how to set up an OpenVPN client on a GL.iNet router**. 
+
+Before you start, you will need an active subscription with a VPN service provider that supports the OpenVPN manual configuration. [See a list of OpenVPN-compatible VPNs that are supported by GL.iNet](https://www.gl-inet.com/solutions/vpn/). 
+
+The following instructions were written for setting up an OpenVPN client through the router admin panel.  (To set up an OpenVPN client via the GL.iNet mobile app, [download the app](https://www.gl-inet.com/app/) and set it up.)
+
+## 1. Sign in to the router admin panel 
+
+In a web browser, enter the URL to the router admin panel (e.g.,192.168.8.1).  Enter your password, then click **Login**. 
+
+## 2. Set up and connect to the VPN profile 
+
+Follow the section appropriate to the VPN service provider you are using. 
+
+=== "NordVPN"
+
+    1. In the left sidebar, click **VPN** > **OpenVPN Client**.
+    2. Click **NordVPN**.
+
+        ![nordvpn](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/click-nordvpn.png){class="glboxshadow"}
+
+    3. Enter your service credentials, then click **Save and Continue**. 
+
+        ![save and continue](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/click-save-and-continue.png){class="glboxshadow"}
+
+    4. In the prompt, select the VPN locations you want to connect, then click **Apply**. 
+
+        ![apply](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/nordvpn-servers-click-apply.png){class="glboxshadow"}
+
+    5. Next to the VPN server you want to connect to, click the three-dot icon > **Start**. 
+
+        ![start](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/openvpn-click-start.png){class="glboxshadow"}
+
+=== "Other VPN service providers (E.g., ExpressVPN, Surfshark )"
+
+    1. In the left sidebar, click **VPN** > **OpenVPN Client**.
+    2. Click **Add Manually**. 
+
+        ![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/openvpn-click-add-manually.png){class="glboxshadow"}
+
+    3. Enter the name of your VPN service provider (e.g., ExpressVPN), then click the check icon. 
+
+        ![click-check-icon](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/click-check-icon.png){class="glboxshadow"}
+
+    4. Find your service credentials and download the configuration file provided by your VPN service provider. 
+    5. Upload the configuration file you downloaded earlier. 
+    6. Enter the service credentials you found earlier, then click **Apply**. 
+
+        ![apply](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/openvpn-click-apply.png){class="glboxshadow"}
+
+    7. Next to the VPN server address, click the three-dot icon > **Start**. 
+
+        ![start](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/openvpn-manual-click-start.png){class="glboxshadow"}
+
+## 3. Check if you are connected to the VPN successfully
+
+In a web browser, search your IP address location. If it matches the VPN server location you are connected to, your VPN connection is successful. You have completed the setup. 
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+

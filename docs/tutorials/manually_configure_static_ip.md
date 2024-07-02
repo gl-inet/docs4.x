@@ -36,7 +36,7 @@
 
             - On (automatic template): Sends all DNS traffic with encryption.
 
-            - On (manual template): Allows you to specify a specific template. It is only required if the DNS service doesn’t work automatically or has a template that works as expected.
+            - On (manual template): Allows you to specify a specific template. It is only required if the DNS service doesn't work automatically or has a template that works as expected.
 
         - Turn off the “Fallback to plaintext” toggle switch (if you enable DoH).
 
@@ -81,7 +81,7 @@
 
             * On (automatic template): Sends all DNS traffic with encryption.
 
-            * On (manual template): Allows you to specify a specific template. It is only required if the DNS service doesn’t work automatically or has a template that works as expected.
+            * On (manual template): Allows you to specify a specific template. It is only required if the DNS service doesn't work automatically or has a template that works as expected.
             
         - Turn off the “Fallback to plaintext” toggle switch (if you enable DoH).
 
@@ -92,7 +92,7 @@
 
 === "macOS"
 
-    Here’s how to set a static IP address in macOS:
+    Here's how to set a static IP address in macOS:
 
     If you own a MacBook, you may want to create a new network location. This will allow you to use the static IP address for certain networks and not others. 
 
@@ -102,9 +102,9 @@
 
     ![Mac_network_settings](https://static.gl-inet.com/docs/router/en/4/tutorials_new/manually_configure_static_ip/Mac_network_settings.webp){class="glboxshadow"}
 
-    From the sidebar, select an active network interface. In this example, I’m connected to a wireless network, so I’ll select Wi-Fi.
+    From the sidebar, select an active network interface. In this example, I'm connected to a wireless network, so I'll select Wi-Fi.
 
-    Make a note of the current IP address assigned to your Mac. You’ll need to select a new IP address from within the private IP address range listed. More on that in a minute.
+    Make a note of the current IP address assigned to your Mac. You'll need to select a new IP address from within the private IP address range listed. More on that in a minute.
 
     Click Advanced.
 

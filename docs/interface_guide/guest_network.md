@@ -8,7 +8,7 @@ On the left side of web Admin Panel -> NETWORK -> Guest Network.
 
 The **Guest Network** is the network if your device connect to the Guest WiFi.
 
-The **Defautl Gateway** is **192.168.9.1**, If you have enable the Guest WiFi and it conflicts with your network, you can change it.
+The **Default Gateway** is **192.168.9.1**, If you have enable the Guest WiFi and it conflicts with your network, you can change it.
 
 The other basic setting and the DHCP server setting are the same as [LAN](lan.md).
 

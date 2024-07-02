@@ -21,3 +21,7 @@ Launch WinSCP and select WebDAV, also select the TLS/SSL encryption. Then paste 
 Input your user name and password, then click save and login, the shared folder will be opened.
 
 ![webdav4](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/webdav4.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

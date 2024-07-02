@@ -8,7 +8,7 @@
     
     1.2 Please confirm that you can find the modem, IMEI number and SIM ICCID on the web. 
     
-    If you cannot find it, please power off/on the device, if it still can’t be recognized, please contact customer service to return the device.
+    If you cannot find it, please power off/on the device, if it still can't be recognized, please contact customer service to return the device.
     
     1.3 Please check the signal Cells info to confirm that the signal is normal. If the signal is very poor, please confirm that the antennas have been installed correctly, or change the position with good signal for testing.
     

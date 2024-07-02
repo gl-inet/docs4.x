@@ -24,7 +24,7 @@ For other settings, please refer to [Advanced Settings](#join-network-advanced-s
 
 Wait a moment, if the password is correct, the connection will be successful.
 
-![repeater connected](/images/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![repeater connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
 ## For Public Hotspot
 
@@ -34,7 +34,7 @@ Wait a moment, if the password is correct, the connection will be successful.
 
   Even if you do not turn on this option, the device prompts you to enter this mode when it detects the captive portal existing in the hotspot and does not login successfully.
 
-  ![login mode for public hotspots](/images/internet_repeater/login_mode_for_public_hotspots.png){class="glboxshadow"}
+  ![login mode for public hotspots](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/login_mode_for_public_hotspots.png){class="glboxshadow"}
 
 * **Enable Camouflage**
 
@@ -56,7 +56,7 @@ Wait a moment, if the password is correct, the connection will be successful.
 
 When joining the network, there are two additional options.
 
-![repeater join network advanced setting](/images/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
+![repeater join network advanced setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
 
 * **Lock BSSID**. If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.
 
@@ -74,7 +74,7 @@ Click the cog icon for Repeater options.
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-![repeater options](/images/internet_repeater/repeater_options.png){class="glboxshadow"}
+![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 
 * **Allow Switching To Other Saved Network**. If the option is enabled, the router will automatically connect to other saved networks when it is unable to connect to the current Wi-Fi network.
 
@@ -102,7 +102,7 @@ If the SSID is not in the Available Networks list, or if the SSID is hidden, you
 
 ![join other network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/join_other_network.png){class="glboxshadow gl-90-desktop"}
 
-![join other network](/images/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
+![join other network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
 
 Input the SSID, for **Security**, It has the following three options.
 
@@ -110,7 +110,7 @@ Input the SSID, for **Security**, It has the following three options.
 * WPA/WPA2/WPA3
 * WPA/WPA2/WPA3 Enterprise, for Extensible Authentication Protocol (EAP), it requires a username and password for authentication.
 
-    ![join other network, eap](/images/internet_repeater/join_other_network_eap.png){class="glboxshadow gl-90-desktop"}
+    ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_eap.png){class="glboxshadow gl-90-desktop"}
 
 ## Reconnection
 
@@ -183,7 +183,7 @@ Related Articles
 - [Internet page](internet.md)
 - [How to set the priority of each Internet access method?](multi-wan.md)
 - [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
-- [How can I know the LAN and WiFi Mac Addresses](../faq/how_can_I_know_the_lan_wifi_mac.md)
+- [How can I know the LAN and WiFi Mac Addresses](../faq/how_can_i_know_the_lan_wifi_mac.md)
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

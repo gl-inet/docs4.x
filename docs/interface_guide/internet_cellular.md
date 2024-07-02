@@ -56,6 +56,11 @@ Here is a list of supported modems that we had tested before.
 | -------------------------------------- | ----- | ------ | --------------- | --------- |
 | Quectel EC20-E, EC20-A, EC20-C         | 4G    | Yes    | GL.iNet         |           |
 | Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Yes    | GL.iNet         |           |
+| Quectel EC200A series                  | 4G    | Yes    | akw2312         | Host-less |
+| Quectel EP06-E, EP06-A                 | 4G    | Yes    | akw2312         |           |
+| Quectel EM060K-GL, EM120K-GL           | 4G    | Yes    | akw2312         |           |
+| Quectel EM120R-GL, EM160R-GL           | 4G    | Yes    | akw2312         |           |
+| Quectel RM520N-GL                      | 5G    | Yes    | akw2312         |           |
 | Quectel UC20-E                         | 3G    | Yes    | GL.iNet         |           |
 | ZTE ME909s-821                         | 4G    | Yes    | GL.iNet         |           |
 | Huawei E1550                           | 3G    | Yes    | GL.iNet         |           |

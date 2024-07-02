@@ -20,13 +20,13 @@ There are 3 types of protocols, DHCP, Static, PPPoE. Click **Modify** to change.
 
     Static is required if your Internet Service Provider (ISP) has provided a fixed IP address for you or you want to configure the network information such as IP address, Gateway, Netmask manually.
 
-    ![ethernet static](images/internet_ethernet/ethernet_static.png){class="glboxshadow"}
+    ![ethernet static](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_static.png){class="glboxshadow"}
 
 * PPPoE
 
     PPPoE is required by many Internet Service Providers (ISP). Generally, your ISP will give you a modem and provide you a username & password that you needed when you are creating the Internet connection.
 
-    ![ethernet pppoe](images/internet_ethernet/ethernet_pppoe.png){class="glboxshadow gl-90-desktop"}
+    ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_pppoe.png){class="glboxshadow gl-90-desktop"}
 
 ## Advanced
 

@@ -16,9 +16,17 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
 ## Network Topology
 
-* If GL.iNet router is the main router in your network, this is simple, please move to the [next step](#setup-openvpn-server).
-* If you already have a main router, then the GL.iNet router is under the main router, you may need to setup a port forwarding on the main router.
-* If you already have a main router, the GL.iNet router is several levels below it and you need to set up port forwarding on each level.
+### Confirm you need to do Port Forwarding or not?
+
+??? "GL.iNet is the Main Router"
+    
+    * If GL.iNet router is the main router in your network, this is simple, please move to the [next step](#setup-openvpn-server).
+
+??? " GL.iNet is the Sub-Router"
+
+    * If you already have a main router, then the GL.iNet router is under the main router, you may need to setup a [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) on the main router.
+    
+    * If you already have a main router, the GL.iNet router is several levels below it and you need to set up [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) on each level.
 
 ## Setup OpenVPN Server
 

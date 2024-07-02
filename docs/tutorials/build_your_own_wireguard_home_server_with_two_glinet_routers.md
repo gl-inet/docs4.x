@@ -11,11 +11,9 @@ Here we use our GL-MT6000 as the example to run WireGuard VPN server at the home
 3. Route all the Internet traffic to your home network via encrypted VPN tunnel and secure your privacy.
 4. Easy access to your internal resources and local streaming.
 
-## Topology
+## Preparations
 
-![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
-
-## Check if you have a Public IP address
+### Check if you have a Public IP address
 
 First, you shall make sure the GL-MT6000 has a Public IP address on its WAN side, so that it can be globally accessed. Otherwise your travel router cannot build up a VPN connection with it while you are traveling.
 
@@ -31,39 +29,49 @@ If you don't have a Public IP address, here are some methods for your reference.
 2. if you can ask your ISP to give you a Public IP address, she may charge an extra fee for it.
 3. if both the above two ways don't work. For example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md).
 
-??? "TP-Link as Main Router"
+### Confirm you need to do a Port Forwarding or not?
 
-    ### Your GL-MT6000 connects to an upper router
+??? "GL.iNet as Main Router"
+
+    Topology
+
+    GLiNet Router is directly connect to ISP modem
+
+    ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
+
+    How to confirm your GL.iNet Router connects to the ISP modem directly?
+
+    ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.jpg){class="glboxshadow gl-80-desktop"}
+
+    Login GL.iNet Admin Panel, you can see your Public IP shows on the IP Address and you have **No Need** to do **Port Forwarding**.
+
+??? "GL.iNet as Sub-Router"
+
+    Topology
+
+    Set the **Port Forward** on your Main Router if GL.iNet router is sit behind NAT
+
+    ![togologywgtp](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywgtp.jpg){class="glboxshadow"}
 
     Connect to your home router's WiFi or LAN, then login the web admin panel. Check the IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
 
-    **Example: A TP-Link Router**
+    Example: A TP-Link Router
 
     ![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_home.jpg){class="glboxshadow"}
 
-    ### Set up the Port Forwarding on your main router
-
-    1. Login to the web control page of your main router 
-    2. Find out where is the function of port forwarding, different brands may call it by different names
-    3. Find the IP address assigned to GL-MT6000
-
-    **Example: A TP-Link Router**
-
     1. Go to “Advanced” and click “virtual Server”, then “Add”.
-    2. Internal IP (Device IP): It is the IP address assigned to GL-MT6000, you can find it in the client list of TP-Link
+    
+    2. Internal IP (Device IP): It is the IP address assigned to GL.iNet Router, you can find it in the client list of TP-Link
+    
     3. External/Internal port:  Please fill both are "51820"
+    
     4. Protocol:  You can choose "All or UDP or TCP/UDP"
 
     ![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_port1.jpg){class="glboxshadow"}
 
-??? "GL.iNet as Main Router"
-    ### Your GL-MT6000 connects to the ISP modem directly
-
-    ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.jpg){class="glboxshadow"}
-
-    You can see your Public IP shows on the IP Address and you have **No Need** to do port forwarding.
-
-## Set up the WireGuard server on GL-MT6000
+    **More [Port Forward](how_to_set_up_port_forwarding.md) examples**
+   
+## Set up the WireGuard server on GL.iNet Router
 
 ### Enable DDNS (Optional)
 
@@ -81,7 +89,7 @@ Then Go to WireGuard VPN server, make sure the Listen Port is 51820 and click �
 
 ![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgsever.jpg){class="glboxshadow"}
 
-## Generate a Configuration
+### Generate a Configuration
 
 Click **Profiles** and **Add** a Client then it will automatically generate a client configuration. Click the **square icon** (point 2) and slide to use DDNS Domain. (point 3, Optional if you have dynamic IP only).
 
@@ -89,7 +97,7 @@ Click **Profiles** and **Add** a Client then it will automatically generate a cl
 
 Use the WireGuard [mobile app](https://www.wireguard.com/install/) scan the QR to test the server.For details please click [here](../interface_guide/wireguard_server.md/#to-check-if-wireguard-server-is-working-properly).
 
-## Output a text format configuration for Client Installation
+### Output a text format configuration for Client Installation
 
 Change the configuration to text format by click **Configuration File**. Copy the text for the client or download and save it then drag it to the client later.
 

@@ -49,3 +49,7 @@ It will pop up **Add New Port Forward Rule** dialog.
 **Internal Port:** The internal port number of the device. You can enter a specific port number. Leave it blank if it is same as the external port.
 
 **Enable:** Enable or disable of the rule.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

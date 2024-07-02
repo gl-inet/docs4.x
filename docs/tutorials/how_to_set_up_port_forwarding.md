@@ -4,23 +4,6 @@ If you are setting up a server (such as an [OpenVPN server](https://docs.gl-inet
 
 The steps for setting up port forwarding vary depending on the brand and model of your router. Refer to the section appropriate to you below. 
 
-## GL.iNet router as my primary router
-
-If your primary router is a GL.iNet router, follow these steps to set up port forwarding on it. 
-
-1. In a web browser, enter the URL to your router admin panel (e.g., 192.168.8.1) and sign in.
-2. In the left sidebar, click **Network** > **Firewall**. 
-3. In the **Port Forwards** tab, click **Add**. 
-4. Enter the following information: 
-    * **Name:** Enter any name for the rule.
-    * **Protocol:** Keep it as-is. 
-    * **External Zone:** Keep it as-is. 
-    * **External Port:** Enter the port you are using. For example, the default ports are **1194** (for OpenVPN servers) and **51820** (for WireGuard servers).
-    * **Internal Zone:** Keep it as-is. 
-    * **Internal IP:** Select the router you want to forward your port to. 
-    * **Internal Port:** Enter the port you are using. For example, the default ports are **1194** (for OpenVPN servers) and **51820** (for WireGuard servers).
-5. Click **Apply**. 
-
 ## Other router brands as my primary router
 
 !!! note "Make sure to enter the following information when setting up port forwarding:"
@@ -49,7 +32,7 @@ Here are the instructions for setting up port forwarding on certain router brand
 
 ### Linksys
 
-[Refer to these instructions.](https://www.tp-link.com/us/support/faq/1379/)
+[Refer to these instructions.](https://www.linksys.com/support-article?articleNum=47073)
 
 ### Netgear 
 

@@ -472,7 +472,7 @@ OpenVPNの設定に問題がある場合は、 [support@glinet.biz](mailto:suppo
 ??? "IPVANISH"
     ### IPVANISH
 
-    [公式ウェブサイト](https://www.ipvanish.com/){target="_blank"}
+    [公式ウェブサイト](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="_blank"}
 
     - [ここ](https://configs.ipvanish.com/configs/configs.zip)からすべてのサーバーのすべての構成ファイルをダウンロードできます。これには、すべてのサーバー構成ファイル (.ovpn) と証明書ファイル (.crt) が含まれています。 .zipファイルは機種によっては少し大きい場合がありますので、使用しないサーバーの設定(.ovpn)を削除してください。
 

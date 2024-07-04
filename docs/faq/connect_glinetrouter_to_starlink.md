@@ -10,7 +10,14 @@
 
 ### 3. Setup GLiNet Router by connecting it's LAN or WiFi. [First time setup](https://docs.gl-inet.com/router/en/4/faq/first_time_setup/)
 
-If you are using GL-XE3000(Puli AX), GL-X3000(Spitz AX), GL-MT3000(Beryl AX), GL-MT2500A(Brume2), GL-SFT1200(Opal), GL-MT1300(Beryl), please go to **Web Admin Panel** >**NETWORK**>**Network Acceleration**, then disable it
+If you are using the below models, please go to **Web Admin Panel** >**NETWORK**>**Network Acceleration**, then disable it
+
+| Router Model                   | Router Model      |  
+| -----------------------------  |-------------------|
+| GL-MT6000 (Flint 2)            |GL-MT2500 (Brume2) |
+| GL-XE3000 (Puli AX)            |GL-MT1300 (Beryl)  |
+| GL-X3000  (Spits AX)           |GL-SFT1200 (Opal) | 
+
 
 ![netacc](https://static.gl-inet.com/docs/router/en/4/faq/Starlink/netacc.jpg){class="glboxshadow"}
 

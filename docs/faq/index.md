@@ -65,3 +65,4 @@ Learn how to use our devices and how to solve some common problems.
 * [How can I find the LAN Mac, WiFi Mac addresses of device](how_can_i_know_the_lan_wifi_mac.md)
 * [Where to find the device ID, MAC, Serial Number?](where_to_find_the_device_id_mac_sn.md)
 * [LED Indication](led.md)
+* [How to make WiFi Calling work on Opal](how_to_make_wifi_calling_work_on_opal.md)

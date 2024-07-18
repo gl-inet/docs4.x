@@ -8,7 +8,7 @@ WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state
 
 Please check if you Internet Service Provider assigns you a public IP address [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
-**If not, you can't connect to the WireGaurd Server.**
+**If not, you can't connect to the WireGuard Server.**
 
 An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}, check the tutorial [here](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md).
 
@@ -82,9 +82,9 @@ Many people mis-understandstool once they saw the server is up and think it is c
 
 ![wgconnected](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wgconnected.jpg){class="glboxshadow"}
 
-To check if WireGaurd Server is working properly, we can use another device connected to another network and use the WireGuard configuration we exported earlier to connect and see whether it connects properly and whether the IP address is the IP of WireGuard Server.
+To check if WireGuard Server is working properly, we can use another device connected to another network and use the WireGuard configuration we exported earlier to connect and see whether it connects properly and whether the IP address is the IP of WireGuard Server.
 
-The simpliest way is to use a cell phone with [WireGuard official client app](https://www.wireguard.com/install){target="_blank"} installed, turn off its Wi-Fi connection, and only connect to Internet via 3G/4G/5G. Then open the WireGaurd app, import the WireGaurd configuration from QR code. Enable the connection, check if the phone has Internet access and whether its IP address is the IP of your WireGuard Server.
+The simpliest way is to use a cell phone with [WireGuard official client app](https://www.wireguard.com/install){target="_blank"} installed, turn off its Wi-Fi connection, and only connect to Internet via 3G/4G/5G. Then open the WireGuard app, import the WireGuard configuration from QR code. Enable the connection, check if the phone has Internet access and whether its IP address is the IP of your WireGuard Server.
 
 There are several common reasons cause failure:
 

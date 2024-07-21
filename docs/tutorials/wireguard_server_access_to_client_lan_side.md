@@ -2,7 +2,7 @@
 
 ## The Topology of WireGuard site to site tunnel
 
-If you want to visit the subnet of **192.168.8.1** **(GL-AXT1800)** at the client side, like NAS, IP Cam...
+Visit the subnet of WireGuard client(GL-AXT1800) like NAS, IP Cam... For Example IP Cam **192.168.8.160** 
 
 ![Topology](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/Topology.jpg){class="glboxshadow"}
 
@@ -32,8 +32,8 @@ Click **+** to add the allow IP and then click **Apply** to get a new configurat
 
 ### 3. Download the configuration 
 
-Load the configuration to your client router **192.168.8.1** in this case is the GL-AXT1800
+Load the configuration to your client router, in this case is the GL-AXT1800
 
-You can test by ping from **GL-MT2500** to **192.168.8.1** **(GL-AXT1800)**
+You can test the settings by ping from **GL-MT2500**(Server) to **192.168.8.160** (IP Cam under Client GL-AXT1800)
 
 ![ping](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/ping.jpg){class="glboxshadow"}

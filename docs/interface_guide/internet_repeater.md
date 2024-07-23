@@ -154,6 +154,7 @@ When Repeater to a upstream 5G WiFi, the router WiFi will fellow the upstream Wi
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-MT6000 (Flint2 )            | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
 | GL-AXT1800 (Slate AX)          | √         |

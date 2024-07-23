@@ -13,6 +13,7 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-MT6000 (Flint2 )            | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
 | GL-AXT1800 (Slate AX)          | √         |

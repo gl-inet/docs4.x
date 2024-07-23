@@ -6,7 +6,8 @@ AdGuard Home is a network-wide software for blocking ads & tracking. Click **Sta
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
-| GL-MT6000 (Flint2 )            | √         |
+| GL-B3000 (Marble)              | √         |
+| GL-MT6000 (Flint2)             | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE3000 (Puli AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |

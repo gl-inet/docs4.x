@@ -12,7 +12,8 @@ The local version is provided by GL.iNet. It is currently in beta, so there is n
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
-| GL-MT6000 (Flint2 )            | √         |
+| GL-B3000 (Marble)              | √         |
+| GL-MT6000 (Flint2)             | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
 | GL-AXT1800 (Slate AX)          | √         |

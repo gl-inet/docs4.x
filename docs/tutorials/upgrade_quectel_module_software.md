@@ -108,7 +108,7 @@ Please refer to this link: [https://docs.gl-inet.com/router/en/3/tutorials/ssh/]
 
     ![mtk7981a_check_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/mtk7981a_check_quectel_module_software.png){class="glboxshadow"}
 
-### Quectel module software donwload URL
+### Quectel module software download URL
 
 EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
 

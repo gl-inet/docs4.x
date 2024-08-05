@@ -21,7 +21,7 @@
 
 ![system overview, cpu average load](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/cpu_average_load.png){class="glboxshadow"}
 
-GL-AX1800/GL-MT3000/GL-X3000/GL-XE3000にはファンが付いており、右上隅にあるファンアイコンをクリックするとファン設定が表示されます。
+GL-AXT1800/GL-MT3000にはファンが付いており、右上隅にあるファンアイコンをクリックするとファン設定が表示されます。
 
 ![system overview, fan settings](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/fan_settings.png){class="glboxshadow"}
 

@@ -71,8 +71,6 @@ Specify the ruleset name, color, and a list of sites to block.
 
 The domain names entered in the blocklist include their subdomains. For example, if "example.com" is entered, it also includes any subdomain, such as "subdomain.example.com".
 
-In addition to entering domain names, there are also specific syntax options available. Please refer to [this page](https://github.com/gl-inet/gl-feeds/tree/common/gl-sdk4-parental-control#app-feature-library-syntax) for more information.
-
 Similarly, create another ruleset.
 
 ![create a ruleset guide](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_ruleset_5.png){class="glboxshadow"}
@@ -140,6 +138,10 @@ There may be several reasons why the settings are not effective after being conf
 3. The domain name you set may be incorrect.
   
     While a website's domain name is public, the domain name used when an app calls an API is not. To resolve this, you will need to use a tool(e.g. Wireshark) to capture packets or search for it.
+
+    For example:
+
+    If you want to filter www.google.com, google.com is more appropriate than www.google.com
 
 4. If you have a device that uses a random MAC address for each connection, that will also disable the feature.
 

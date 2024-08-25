@@ -1,15 +1,14 @@
-# How to let all data go through VPN?
+# Wie kann ich alle Daten über VPN leiten?
 
-If you want all the data on the router to go through vpn, please follow the steps below.
+Wenn Sie alle Daten auf dem Router über VPN leiten möchten, befolgen Sie bitte die folgenden Schritte:
 
-On the left side of web Admin Panel -> VPN -> VPN Dashboard.
+* Auf der linken Seite des Web-Admin-Panels -> VPN -> VPN-Dashboard.
+* Im Abschnitt **VPN Client** klicken Sie auf **Globale Optionen**, schalten Sie **Blockiere Nicht-VPN Verkehr** ein und klicken Sie dann auf die Schaltfläche **Anwenden**.
 
-In the **VPN Client** section, click **Global Options**, toggle on **Block Non-VPN Traffic**, then click **Apply** button.
+![VPN Client Globale Optionen](./block_non_vpn_traffic_01.png){class="glboxshadow"}
 
-![vpn client global options](https://static.gl-inet.com/docs/router/en/4/tutorials/block_no_vpn_traffic/global_options.png){class="glboxshadow"}
-
-**Note:** It need to run the VPN Client, otherwise it can't access the Internet.
+**Hinweis:** Der VPN-Client muss ausgeführt werden, andernfalls kann keine Verbindung zum Internet hergestellt werden. Wenn Sie die VPN-Verbindung manuell trennen, wird der Internetzugriff unterbrochen.
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Haben Sie noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"}.

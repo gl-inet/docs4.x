@@ -1,17 +1,17 @@
 # Community
 
-Join our community to follow our latest news, solutions to common technical issues, and join our discussion on the latest product development!
+Werden Sie Teil unserer Community, um stets über die neuesten Nachrichten informiert zu bleiben, Lösungen für häufige technische Probleme zu finden und sich an Diskussionen über die neuesten Produktentwicklungen zu beteiligen!
 
-**Content Creators** - If you love using our products and services, feel free to apply and share your contents on our website and social media! We are more than happy to offer benefits including gifts, coupons, free routers for review, or even paid incentives for professional contents.
+**Content Creators** – Wenn Sie unsere Produkte und Dienstleistungen gerne nutzen, bewerben Sie sich doch und teilen Sie Ihre Inhalte auf unserer Website und in den sozialen Medien! Wir freuen uns, Ihnen Vorteile wie Geschenke, Gutscheine, kostenlose Router zum Testen oder sogar bezahlte Anreize für professionelle Inhalte anzubieten.
 
-**Beta testers** – We are always looking to improve our products, and your reviews are highly valuable for us to do so. We encourage users to apply to be beta testers for our products, and you will also be notified when there is a product launch.
+**Beta-Tester** – Wir sind stetig daran interessiert, unsere Produkte zu verbessern. Ihre Bewertungen sind für uns von großem Wert, um dies zu erreichen. Wir ermutigen Benutzer, sich als Beta-Tester für unsere Produkte zu bewerben, und Sie werden auch benachrichtigt, wenn ein Produkt auf den Markt kommt.
 
-### Below are the most common GL.iNet Forum discussions, or [click here to visit GL.iNet's Forum.](https://forum.gl-inet.com/){target="_blank"}
+### Nachfolgend finden Sie die meistbesuchten GL.iNet Forum Diskussionen - [Klicken Sie hier, um das GL.iNet Forum zu besuchen.](https://forum.gl-inet.com/){target="_blank"}
 
-- [How to upgrade Adguard on the Flint, auto and manual?](https://forum.gl-inet.com/t/how-to-upgrade-adguard-on-the-flint-auto-and-manual/21556){target="_blank"}
+- [Wie kann man Adguard auf dem Flint aktualisieren, automatisch und manuell?](https://forum.gl-inet.com/t/how-to-upgrade-adguard-on-the-flint-auto-and-manual/21556){target="_blank"}
 
-- [OpenVPN and WireGuard Compatibility Report](https://forum.gl-inet.com/t/openvpn-and-wireguard-compatibility-report/15621){target="_blank"}
+- [OpenVPN und WireGuard Kompatibilitätsbericht](https://forum.gl-inet.com/t/openvpn-and-wireguard-compatibility-report/15621){target="_blank"}
 
-- [Building a Site-2-Site network manually using two GL.iNet routers](https://forum.gl-inet.com/t/building-a-site-2-site-network-manually-using-two-gl-inet-routers/18294){target="_blank"}
+- [Ein Site-to-Site-Netzwerk manuell mit zwei GL.iNet-Routern aufbauen](https://forum.gl-inet.com/t/building-a-site-2-site-network-manually-using-two-gl-inet-routers/18294){target="_blank"}
 
-- [AdGuard Home on GL.iNet routers](https://forum.gl-inet.com/t/adguardhome-on-gl-routers/10664){target="_blank"}
+- [AdGuard Home auf GL.iNet-Routern](https://forum.gl-inet.com/t/adguardhome-on-gl-routers/10664){target="_blank"}

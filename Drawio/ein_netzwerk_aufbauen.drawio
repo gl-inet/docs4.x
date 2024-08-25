@@ -1,0 +1,30 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Seite-1" id="Y_eyNsE7_x3C5lirdeUY">
+    <mxGraphModel dx="1100" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cjLHk5iqknPKTdUn5ddN-6" value="LAN" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;verticalAlign=bottom;" edge="1" parent="1" source="cjLHk5iqknPKTdUn5ddN-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="293.3600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cjLHk5iqknPKTdUn5ddN-1" value="GL.iNet Router" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.gl-inet.com/www/images/products/gl-mt3000/mt3000_main.png;" vertex="1" parent="1">
+          <mxGeometry x="480" y="242.72000000000003" width="120" height="101.28" as="geometry" />
+        </mxCell>
+        <mxCell id="cjLHk5iqknPKTdUn5ddN-2" value="RDP" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="290" y="264" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cjLHk5iqknPKTdUn5ddN-3" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.wi_fi;" vertex="1" parent="1">
+          <mxGeometry x="380" y="269.25" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cjLHk5iqknPKTdUn5ddN-4" value="PC an Ihrem Arbeitsplatz" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.desktop;" vertex="1" parent="1">
+          <mxGeometry x="690" y="260" width="76.29" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="cjLHk5iqknPKTdUn5ddN-5" value="Laptop im Besprechungsraum" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="225.25" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

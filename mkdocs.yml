@@ -255,10 +255,10 @@ nav:
       - Reset Firmware: interface_guide/reset_firmware.md
       - Advanced Settings: interface_guide/advanced_settings.md
       - Language: interface_guide/ui_languages.md
-  - Video Library:
-    - Overview: videos/index.md
-    - Meet Our New Products: videos/neue_produkte.md
-    - Tutorials: videos/anleitungen.md
-    - Unboxing & First Time Setup: videos/auspacken_und_ersteinrichtung.md
+  - Videos:
+    - Übersicht: videos/index.md
+    - Produktneuheiten: videos/neue_produkte.md
+    - Anleitungen: videos/anleitungen.md
+    - Auspacken & Ersteinrichtung: videos/auspacken_und_ersteinrichtung.md
   - Community:
     - Overview: community/index.md

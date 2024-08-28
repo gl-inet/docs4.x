@@ -28,6 +28,8 @@ You can also refer to video tutorial below.
 
     **Note:** Same router models with different manufacturing dates may have different LED colours or flashing sequences, it won't affect the UBoot process. Please pay more attention to the change of the flashing LED.
 
+    - For **GL-B3000(Marble)**, the blue LED light flashes 7 times, then the white light turns on and stays on.
+
     - For **GL-MT6000(Flint 2)**, the blue LED flashes 6 times then turns white and stays on.
 
     - For **GL-MT3000(Beryl AX)**, the blue LED flashes 6 times then turns white and stays on.

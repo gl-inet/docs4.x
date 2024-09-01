@@ -88,4 +88,4 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Log](log.md)
 * [Security](security.md)
 * [Reset Firmware](reset_firmware.md)
-* [Advanced Settings](advanced_settings.md)
+* [Erweiterte Einstellungen](erweiterte-einstellungen.md)

@@ -1,15 +1,15 @@
 # Log
 
-On the left side of web Admin Panel -> SYSTEM -> Log.
+In der **Administrator Oberfläche** auf der linken Seite -> **SYSTEM** -> **Protokoll**
 
-The Log page allows you to view logs of System, Kernel, Crash, Cloud for analysis and troubleshooting.
+Auf der Log-Seite können Sie die Protokolle von System, Kernel, Crash und Cloud einsehen, um Analysen durchzuführen und Probleme zu beheben.
 
-![log page](https://static.gl-inet.com/docs/router/en/4/tutorials/log/log_system.png){class="glboxshadow"}
+![Log-Seite](./log_01.png){class="glboxshadow"}
 
-Click **Refresh** to get the latest log information.
+Klicken Sie auf **Neuladen**, um die neuesten Protokollinformationen abzurufen.
 
-Click **Export Log** to export log information of System, Kernel, Crash and Cloud. When you give feedback to GL.iNet, you can send the exported log file to GL.iNet technical support for faster problem analysis.
+Klicken Sie auf **Protokoll exportieren**, um die Protokolldaten von System, Kernel, Crash und Cloud zu exportieren. Wenn Sie Feedback an GL.iNet senden, können Sie die exportierte Protokolldatei an den technischen Support weiterleiten, um eine schnellere Problemanalyse zu ermöglichen.
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Haben Sie noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"}.

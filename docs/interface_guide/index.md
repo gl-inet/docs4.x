@@ -46,7 +46,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## Applications
 
-* [Plug-ins](plugins.md)
+* [Softwarepakete](softwarepakete.md)
 * [DDNS](ddns.md). Overcome the issues related to Dynamic IP Addresses.
 * [GoodCloud](cloud.md), the official cloud service.
 * [AdGuard Home](adguardhome.md)
@@ -66,7 +66,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [IPv6](ipv6.md)
 * [MAC Address](mac_address.md)
 * [Drop-in Gateway](drop-in_gateway.md)
-* [IGMP Snooping](igmp_snooping.md), to use the multicast function on the router.
+* [IGMP Snooping](igmp_snooping.md), für die Nutzung von Multicast.
 * [Hardware Acceleration](hardware_acceleration.md)
 * [Network Acceleration](network_acceleration.md)
 * [NAT Settings](nat_settings.md)

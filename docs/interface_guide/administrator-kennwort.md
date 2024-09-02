@@ -1,4 +1,4 @@
-# Admin-Passwort
+# Administrator-Kennwort
 
 **Hinweis**: Die Funktion Admin-Passwort wurde seit Version 4.3 unter [Sicherheit](security.md) verschoben.
 

@@ -1,23 +1,23 @@
-# Admin Password
+# Admin-Passwort
 
-**Note**: Admin Password feature has been moved to [Security](security.md) since v4.3.
-
----
-
-On the left side of web Admin Panel -> SYSTEM -> Admin Password
-
-![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
-
-Change the password of login the web Admin Panel. You have to input your current password to change it.
-
-For security reasons, we recommend that you turn on **Prevent Weak Password**.
-
-When **Prevent Weak Password** is turned on, the requirements for new passwords are as follows.
-
-- 5 characters and maximum 63 characters.
-- Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
-- At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
+**Hinweis**: Die Funktion Admin-Passwort wurde seit Version 4.3 unter [Sicherheit](security.md) verschoben.
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+In der Administrator Oberfläche auf der linken Seite -> **SYSTEM** -> **Sicherheit** -> **Administrator-Kennwort**
+
+![Admin-Passwort](./administrator-kennwort_01.png){class="glboxshadow"}
+
+Ändern Sie das Passwort für den Login in die Administrator Oberfläche. Sie müssen Ihr aktuelles Passwort eingeben, um es zu ändern.
+
+Aus Sicherheitsgründen empfehlen wir, **Verhindere schwache Kennworte** zu aktivieren.
+
+Wenn **Verhindere schwache Kennworte** aktiviert ist, gelten die folgenden Anforderungen für neue Passwörter:
+
+- Mindestens 5 und maximal 63 Zeichen.
+- Buchstaben (Groß- und Kleinschreibung), Zahlen und Symbole `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sind erlaubt.
+- Es müssen mindestens zwei der folgenden Gruppen enthalten sein: Großbuchstaben, Kleinbuchstaben, Zahlen und Symbole.
+
+---
+
+Haben Sie noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"}.

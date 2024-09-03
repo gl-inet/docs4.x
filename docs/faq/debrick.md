@@ -81,6 +81,8 @@ You can also refer to video tutorial below.
 4. Manually set the IP address of your computer to **192.168.1.2**. Please check the step-by-step guide for different operating systems below:
 
     ??? "Windows 7 / Windows 10"
+    
+        ## Windows 7 / Windows 10
 
         1. Go to **Control Panel** -> **Network and Internet** -> **Network and Sharing Center** -> **Change adapter settings**.
 
@@ -97,6 +99,8 @@ You can also refer to video tutorial below.
         6. Click the **OK** button.
 
     ??? "Windows 11"
+    
+        ## Windows 11
 
         1. Open Settings.
 
@@ -125,6 +129,8 @@ You can also refer to video tutorial below.
         9. Click the **Save** button.
 
     ??? "macOS"
+    
+        ## macOS
 
         1. Click the **Apple** icon in the top left corner of the screen, and select **System Preferences**.
 

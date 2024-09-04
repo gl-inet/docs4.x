@@ -69,7 +69,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [IGMP Snooping](igmp_snooping.md), für die Nutzung von Multicast.
 * [Hardware Acceleration](hardware_acceleration.md)
 * [Network Acceleration](network_acceleration.md)
-* [NAT Settings](nat_settings.md)
+* [NAT-Einstellungen](nat-einstellungen.md)
 
 ## System
 

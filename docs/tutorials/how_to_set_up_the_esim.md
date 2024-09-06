@@ -2,6 +2,8 @@
 
 This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. The eSIM Physical card is compatible with the [Mudi V2 (GL-E750V2)](https://www.gl-inet.com/products/gl-e750/), [Spitz AX (GL-X3000)](https://www.gl-inet.com/products/gl-x3000/), and [Puli AX (GL-XE3000)](https://www.gl-inet.com/products/gl-xe3000/) routers, ensuring seamless internet connectivity.
 
+![eSIM Physical Card](https://static.gl-inet.com/www/images/solutions/esim/esimchip-and-physical-esim.jpg){class="glboxshadow"}
+
 ## The eSIM Physical Card Details
 - Supports 4G and 5G networks for reliable and fast connections.
 - Manage your eSIM profiles effortlessly by adding, removing, or enabling them.
@@ -53,9 +55,9 @@ Ensure your device is connected to the internet. Then, go to **"SYSTEM"** > **"U
 
 To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"Local Upgrade"**. Then, select the firmware file or drag it into the designated area to upgrade to the latest version.
 
-- **E750V2**: Please upgrade to firmware version V4.3.19. For more details, visit: [E750V2 Firmware](https://dl.gl-inet.com/router/e750/?type=beta)
-- **X3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [X3000 Firmware](https://dl.gl-inet.com/router/x3000/?type=beta)
-- **XE3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [XE3000 Firmware](https://dl.gl-inet.com/router/xe3000/?type=beta)
+- **E750V2**: Please upgrade to firmware version V4.3.19. For more details, visit: [E750V2 Firmware](https://dl.gl-inet.com/router/e750/?type=beta){target="_blank"}
+- **X3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [X3000 Firmware](https://dl.gl-inet.com/router/x3000/?type=beta){target="_blank"}
+- **XE3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [XE3000 Firmware](https://dl.gl-inet.com/router/xe3000/?type=beta){target="_blank"}
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim_physical_card_with_the_glinet_routers/local-upgrade.png){class="glboxshadow"}
 
@@ -75,6 +77,7 @@ Only one eSIM profile can be active at a time. A green dot indicates that the se
 **A. Current eSIM Status:**
 
 This section displays the basic information of the eSIM and details of the currently active profile.
+
 - **EID:** The unique ID of the eSIM card.
 - **ICCID:** The ICCID (Integrated Circuit Card Identifier) of the currently active eSIM profile.
 - **IMSI:** The IMSI (International Mobile Subscriber Identity) of the currently active eSIM profile.
@@ -85,7 +88,7 @@ This section provides details about the seed profile. The seed profile comes pre
 
 **C. Normal Profile:**
 
-This section displays information about the normal profiles. If you purchase an eSIM profile from an online store and upload the eSIM QR code using the "D. Add eSIM Profile (QR Code Install)" function, the profile will appear here after the upload is complete.
+This section displays information about the normal profiles. If you purchase an eSIM profile from an online store and upload the eSIM QR code using the **"Add eSIM Profile (QR Code Install)"** function, the profile will appear here after the upload is complete.
 
 **D. Add eSIM Profile (QR Code Install):**
 
@@ -101,7 +104,7 @@ If you run out of the complimentary and preloaded data provided by GL.iNet, or i
 
 **G. Recommended eSIM Profile Stores:**
 
-GL.iNet recommends two partner eSIM stores for your convenience: EIOTCLUB and Tuge. You can scan the QR codes or click link ([the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim) or [the Euge eSIM Store](https://esim_store.gl-inet.com/)) to make a purchase based on your needs. You can also choose to buy eSIM packages from other third-party providers of your choice.
+GL.iNet recommends two partner eSIM stores for your convenience: EIOTCLUB and Tuge. You can scan the QR codes or click link ([the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Euge eSIM Store](https://esim_store.gl-inet.com/){target="_blank"}) to make a purchase based on your needs. You can also choose to buy eSIM packages from other third-party providers of your choice.
 
 **H. Actions:**
 
@@ -125,7 +128,7 @@ After setting up your router, please follow the steps below to purchase and acti
 
 **Step 2:** Purchase an eSIM Profile from eSIM Stores.
 
-<u>Option 1</u>: Purchase an eSIM profile from one of our recommended stores: [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim) or [the Euge eSIM Store](https://esim_store.gl-inet.com). 
+<u>Option 1</u>: Purchase an eSIM profile from one of our recommended stores: [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Euge eSIM Store](https://esim_store.gl-inet.com){target="_blank"}. 
 
 *All eSIM profile packages purchased from these two stores are fully compatible with our routers. If you have any questions, please contact our support team at support@gl-inet.com.*
 
@@ -202,6 +205,7 @@ The seed profile is designed to ensure a successful connection during the initia
 - If the seed card still has data remaining, please verify that the seed profile is enabled in the eSIM Manage Application. If the seed profile is enabled and the issue persists, please take a screenshot of the "INTERNET" and "eSIM Manage" interfaces and email them to our support team at support@gl-inet.com for further assistance.
 
 2. Unable to Upload or Install Your eSIM Profile
+
 - <u>Option 1</u>: If you encounter any issues during the upload and installation of your QR code, you can click **"Copy Log"** and email it to us at support@gl-inet.com for assistance. 
 
 ![copy log](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim_physical_card_with_the_glinet_routers/unable-to-upload-or-install-your-esim-profile-copy-log.png){class="glboxshadow"}

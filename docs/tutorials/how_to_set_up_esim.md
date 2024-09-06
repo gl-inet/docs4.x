@@ -202,6 +202,7 @@ If the **Auto Setup** fails to connect to the internet, the screen will appear a
 The seed profile is designed to ensure a successful connection during the initial setup and to facilitate the purchase of the eSIM profile. During the first setup and connection using the seed profile, it may take 1-3 minutes after clicking "Auto Setup."
 
 - If the connection is unsuccessful, please check whether the data on the seed card has been exhausted. If the seed data is depleted, please use an alternative connection method, such as Ethernet, a repeater, or tethering, to connect to the internet. Alternatively, you may top up the eSIM seed card.
+
 - If the seed card still has data remaining, please verify that the seed profile is enabled in the eSIM Manage Application. If the seed profile is enabled and the issue persists, please take a screenshot of the "INTERNET" and "eSIM Manage" interfaces and email them to our support team at support@gl-inet.com for further assistance.
 
 2. Unable to Upload or Install Your eSIM Profile

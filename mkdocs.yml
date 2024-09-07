@@ -198,6 +198,7 @@ nav:
       - How to upgrade or downgrade your router (from v4.x to v4.x): tutorials/how_to_upgrade_downgrade_router.md
       - How to activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
       - How to retrieve the Mobile App Log: tutorials/how_to_retrieve_the_mobile_app_log.md
+      - Technical Support via GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:

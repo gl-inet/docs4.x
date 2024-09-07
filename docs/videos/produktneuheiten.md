@@ -1,98 +1,98 @@
-# Meet Our New Products
+# Lernen Sie unsere neuen Produkte kennen
 
-An Introduction to our future products, and a glimpse into our latest development.
+Eine Einführung in unsere zukünftigen Produkte und ein Einblick in unsere neuesten Entwicklungen.
 
 ## GL-B3000 (Marble)
 
-Decorative Wi-Fi 6 OpenWrt Router for Homes
+Dekorativer Wi-Fi 6 OpenWrt Router für Zuhause
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D75YEYdYKPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-MT6000 (Flint 2)
 
-A High-Performance Wi-Fi 6 Home Router
+Ein leistungsstarker Wi-Fi 6 Router für Zuhause
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wOm1PS4Z-fY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-XE3000 (Spitz AX)
 
-Wi-Fi 6 5G Cellular Router with Battery
+Wi-Fi 6 5G Mobilfunkrouter mit Akku
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XrMDpWNEscM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-X3000 (Spitz AX)
 
-Wi-Fi 6 Dual SIM Router with 5G NR Connectivity
+Wi-Fi 6 Dual-SIM-Router mit 5G NR Konnektivität
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uBz8QOp_Do4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-MT3000 (Beryl AX)
 
-A Pocket-sized Wi-Fi 6 Router for Home and Travel
+Ein handlicher Wi-Fi 6 Router für Zuhause und unterwegs
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6h8G1MzF2hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Beryl AX (GL-MT3000) VS Beryl (GL-MT1300) Comparison
+Beryl AX (GL-MT3000) VS Beryl (GL-MT1300) Vergleich
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/roOFAFT4cjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-MT2500/GL-MT2500A (Brume 2)
 
-Security Gateway for Remote Access
+Sicherheits-Gateway für Fernzugriff
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9czDvi2irME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-MV1000 (Brume)
 
-Edge Computing Gateway for Highly Secure and Reliable Infrastructure
+Edge Computing Gateway für hochsichere und zuverlässige Infrastruktur
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4mVs6V_sHnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-MV1000W (Brume-W)
 
-A Pocket-sized Wireless Gateway for Secure Edge Computing
+Ein handliches Wireless-Gateway für sicheres Edge Computing
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pR7rfVzAZzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-AP1300 (Cirrus)
 
-Enterprise Ceiling Wireless Access Point
+Drahtloser Enterprise-Decken-Access-Point
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wYTVenxLgQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-S1300 (Convexa-S)
 
-OpenWrt Gateway for Smart Home Wireless Devices
+OpenWrt Gateway für Smart-Home-Wireless-Geräte
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wRA22wQxd48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-AX1800 (Flint)
 
-Secure and Ultra Fast Wi-Fi 6 Wireless Router for Home or Office
+Sicherer und ultraschneller Wi-Fi 6 Wireless-Router für Zuhause oder Büro
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aXEIS3keP24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-E750 (Mudi)
 
-4G LTE Privacy Router for Road Warriors
+4G LTE Privacy-Router für Road Warriors
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y52aAzkWvQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-SFT1200 (Opal)
 
-Gigabit Wireless Router for Security-savvy Travelers
+Gigabit Wireless-Router für sicherheitsbewusste Reisende
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VkglWuItuXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-XE300 (Puli)
 
-4G LTE Portable Wireless IoT Gateway
+4G LTE Tragbares Wireless-IoT-Gateway
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4falAJFN9ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-AR750S (Slate)
 
-Bring Gigabit Internet to Security -savvy Travelers
+Gigabit-Internet für sicherheitsbewusste Reisende
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ze1HRRyuiQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -104,7 +104,7 @@ Wi-Fi 6 Gigabit Wireless Router
 
 ## GL-B2200 (Velica)
 
-Integrated Tri-Band Wireless Mesh System with Open Technologies
+Integriertes Tri-Band Wireless Mesh System mit offenen Technologien
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-NMWKGcXS8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -112,6 +112,6 @@ Integrated Tri-Band Wireless Mesh System with Open Technologies
 
 ## Cloud
 
-Introducing GoodCloud, Your Remote Device Management Solution
+Einführung von GoodCloud, Ihrer Lösung für Remote-Geräteverwaltung
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JkV2PAy-_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

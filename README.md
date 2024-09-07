@@ -1,6 +1,6 @@
 # GL.iNet documentation
 
-This repository is the source code for documentation of GL.iNet routers firmware 4.x
+Dieses Repository enthält die Dokumentation für GL.iNet-Produkte. Es handelt sich um eine inoffizielle Übersetzung der offiziellen Dokumentation, die auf Englisch verfügbar ist. Die Dokumentation wird von der Community gepflegt und ist daher möglicherweise nicht immer auf dem neuesten Stand.
 
 ## Environment 
 

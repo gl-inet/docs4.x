@@ -51,3 +51,4 @@ Learn how to use our devices correctly with detailed steps.
 * [How to upgrade or downgrade your router's firmware (from v4.x to v4.x)](how_to_upgrade_downgrade_router.md)
 * [How to activate or top up T-Mobile SIM cards](how_to_activate_top_up_sim_cards.md)
 * [Hot to retrieve the Mobile App Log](how_to_retrieve_the_mobile_app_log.md)
+* [Technical Support via GoodCloud](technical_support_via_goodcloud.md)

@@ -8,7 +8,7 @@ In order to troubleshoot modem issues, you will need to give an extra Internet c
 
 In the router’s admin panel, go to APPLICATIONS > GoodCloud and enable GoodCloud, Remote SSH and Remote Web Access, then agree the terms and click on the Apply button. As per the following picture.
 
-![How to enable GoodCloud](./technical_support_via_goodcloud_01.png)
+![How to enable GoodCloud](./technical_support_via_goodcloud_01.png){class="glboxshadow"}
 
 ## Register GoodCloud account and bind your device to your account
 
@@ -21,9 +21,9 @@ You might need to create a GoodCloud account and bind your device to your accoun
 
 Login [GoodCloud](https://www.goodcloud.xyz/#/login), go to Devices menu and click on the corresponding device. You will be lead to the detals page, click the **SHARE** tab and Share Device as per the following picture. Then share the device to the `gl.inet_support` account:
 
-![How to open device details](./technical_support_via_goodcloud_02.png)
+![How to open device details](./technical_support_via_goodcloud_02.png){class="glboxshadow"}
 
-![How to share device to GL.iNet technical support](./technical_support_via_goodcloud_03.png)
+![How to share device to GL.iNet technical support](./technical_support_via_goodcloud_03.png){class="glboxshadow"}
 
 ## Provide the login credentials to GL.iNet technical support
 
@@ -35,7 +35,7 @@ You can send those information to the GL.iNet technical support via **PM** (priv
 2. Click on the account of the GL.iNet technical supporter you are in contact with.
 3. Click on the **Message** button to send a private message.
 
-![How to send a private message](./technical_support_via_goodcloud_04.gif)
+![How to send a private message](./technical_support_via_goodcloud_04.gif){class="glboxshadow"}
 
 Sometimes, new users may not be able to send a private message to GL.iNet technical support. In that case, you can respond in the same thread where you're communicating and ask the technical supporter to send you a private message first.
 

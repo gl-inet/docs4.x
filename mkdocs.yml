@@ -136,7 +136,7 @@ nav:
       - My Wireguard server is not working properly: faq/my_wireguard_server_is_not_working.md
       - Stuck on the "Installing" screen: faq/stuck_on_installing_screen.md
     - Internet:
-      - Build up an Intranet: faq/build_up_an_intranet.md
+      - Ein Netzwerk aufbauen: faq/ein_netzwerk_aufbauen.md
       - Cannot Scan Android 5G Hotspot: faq/cannot_scan_android_5g_hotspot.md
       - Cannot Scan iPhone 5G Hotspot: faq/cannot_scan_iphone_5g_hotspot.md
       - Connect to a Hotspot with a Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
@@ -158,8 +158,8 @@ nav:
       - How to connect GL-iNet Routers to Starlink Dish?: faq/connect_glinetrouter_to_starlink.md
       - How to use HTTPS to access GL-iNet Routers and Adguard Home?: faq/use_https_for_adh.md
       - Mobile App: faq/mobile_app.md
-      - What is LuCI: faq/what_is_luci.md
-      - Device id, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
+      - Was ist LuCI: faq/was_ist_luci.md
+      - Geräte ID, MAC und Seriennummer: faq/wo_man_seriennummer_mac_geraete-id_findet.md
       - Device LAN Mac, WiFi Mac: faq/how_can_i_know_the_lan_wifi_mac.md
       - How to Make WiFi Calling work ON Opal: faq/how_to_make_wifi_calling_work_on_opal.md
   - Tutorials:
@@ -256,10 +256,10 @@ nav:
       - Reset Firmware: interface_guide/reset_firmware.md
       - Advanced Settings: interface_guide/advanced_settings.md
       - Language: interface_guide/ui_languages.md
-  - Video Library:
-    - Overview: video_library/index.md
-    - Meet Our New Products: video_library/products.md
-    - Tutorials: video_library/tutorials.md
-    - Unboxing & First Time Setup: video_library/unboxing_first_set_up.md
+  - Videos:
+    - Übersicht: videos/index.md
+    - Produktneuheiten: videos/neue_produkte.md
+    - Anleitungen: videos/anleitungen.md
+    - Auspacken & Ersteinrichtung: videos/auspacken_und_ersteinrichtung.md
   - Community:
     - Overview: community/index.md

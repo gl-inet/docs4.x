@@ -46,7 +46,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## Applications
 
-* [Plug-ins](plugins.md)
+* [Softwarepakete](softwarepakete.md)
 * [DDNS](ddns.md). Overcome the issues related to Dynamic IP Addresses.
 * [GoodCloud](cloud.md), the official cloud service.
 * [AdGuard Home](adguardhome.md)
@@ -66,10 +66,10 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [IPv6](ipv6.md)
 * [MAC Address](mac_address.md)
 * [Drop-in Gateway](drop-in_gateway.md)
-* [IGMP Snooping](igmp_snooping.md), to use the multicast function on the router.
+* [IGMP Snooping](igmp_snooping.md), für die Nutzung von Multicast.
 * [Hardware Acceleration](hardware_acceleration.md)
 * [Network Acceleration](network_acceleration.md)
-* [NAT Settings](nat_settings.md)
+* [NAT-Einstellungen](nat-einstellungen.md)
 
 ## System
 
@@ -82,10 +82,10 @@ Learn how to use our devices and add-on features with our step to step guides.
     * [How to upgrade GL-AX1800(Flint) from firmware 3.x to 4.x?](../faq/gl-ax1800_upgrade_to_4.md)
     * [How to downgrade GL-AX1800(Flint) from firmware 4.x to 3.x?](../faq/gl-ax1800_upgrade_to_4.md#downgrade)
 * [Scheduled Tasks](scheduled_tasks.md), set scheduled LED display, reboot and Wi-Fi status.
-* [Change admin password](admin_password.md)
-* [Time Zone](time_zone.md)
+* [Administrator-Kennwort ändern](administrator-kennwort.md)
+* [Zeitzone](zeitzone.md)
 * [Toggle Button Settings](toggle_button_settings.md)
 * [Log](log.md)
 * [Security](security.md)
 * [Reset Firmware](reset_firmware.md)
-* [Advanced Settings](advanced_settings.md)
+* [Erweiterte Einstellungen](erweiterte-einstellungen.md)

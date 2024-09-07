@@ -1,0 +1,54 @@
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  push:
+    branches: ["german"]  # Adjust this to your default branch
+  workflow_dispatch:  # Allows manual triggering
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt  # or mkdocs-material directly if no requirements.txt
+
+      - name: Build MkDocs site
+        run: |
+          source venv/bin/activate
+          mkdocs build --clean --site-dir ./site
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site  # MkDocs outputs to the 'site' directory by default
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

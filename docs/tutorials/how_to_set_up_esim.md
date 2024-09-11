@@ -61,9 +61,9 @@ Ensure your device is connected to the internet. Then, go to **"SYSTEM"** > **"U
 
 To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"Local Upgrade"**. Then, select the firmware file or drag it into the designated area to upgrade to the latest version.
 
-- **E750V2**: Please upgrade to firmware version V4.3.19. For more details, visit: [E750V2 Firmware](https://dl.gl-inet.com/router/e750/?type=beta){target="_blank"}
-- **X3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [X3000 Firmware](https://dl.gl-inet.com/router/x3000/?type=beta){target="_blank"}
-- **XE3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [XE3000 Firmware](https://dl.gl-inet.com/router/xe3000/?type=beta){target="_blank"}
+- **E750V2**: Please upgrade to firmware version V4.3.19. For more details, visit: [E750V2 Firmware](https://dl.gl-inet.com/router/e750/){target="_blank"}
+- **X3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [X3000 Firmware](https://dl.gl-inet.com/router/x3000/){target="_blank"}
+- **XE3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [XE3000 Firmware](https://dl.gl-inet.com/router/xe3000/){target="_blank"}
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/local-upgrade.png){class="glboxshadow"}
 

@@ -27,7 +27,7 @@ Login [GoodCloud](https://www.goodcloud.xyz), go to Devices menu and click on th
 
 ## Provide the login credentials to GL.iNet technical support
 
-After sharing the device, please provide the MAC address and your router’s login password so that we can log in and check this issue remotely.
+After sharing the device, please provide the **MAC address** and your **router’s login password** so that we can log in and check this issue remotely.
 
 You can send those information to the GL.iNet technical support via **PM** (private message) in the [offical forum](https://forum.gl-inet.com):
 
@@ -40,6 +40,10 @@ You can send those information to the GL.iNet technical support via **PM** (priv
 Sometimes, new users may not be able to send a private message to GL.iNet technical support. In that case, you can respond in the same thread where you're communicating and ask the technical supporter to send you a private message first.
 
 Please **DO NOT** share your device details in public, only share them with GL.iNet technical support via PM.
+
+## After the issue is resolved
+
+Please cancel the share and change the router password after the issue is resolved.
 
 ---
 

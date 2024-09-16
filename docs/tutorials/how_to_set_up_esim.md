@@ -199,6 +199,7 @@ You can easily switch between eSIM profiles by clicking **"Enable"** next to the
 ![eSIM profile is successfully set up](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/switch-or-delete-esim-profile.png){class="glboxshadow"}
 
 ## Troubleshooting Guide
+
 1. Unable to Connect to the Internet
 
 If the **Auto Setup** fails to connect to the internet, the screen will appear as shown below: 
@@ -222,3 +223,7 @@ The seed profile is designed to ensure a successful connection during the initia
 ![export log](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/unable-to-upload-or-install-your-esim-profile-export-log.png){class="glboxshadow"}
 
 ![copy log](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/unable-to-upload-or-install-your-esim-profile-export-logo-copy-log.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

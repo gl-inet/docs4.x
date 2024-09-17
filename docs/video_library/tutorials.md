@@ -2,6 +2,12 @@
 
 Learn about new features added to our products and services, and detailed tutorials on how to use them.
 
+## How to Set Up Your eSIM with the GL.iNet Router for the First Time
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## How to Uboot Mudi / Mudi V2
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pz0DidfIXRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## How to Set Up an WireGuard Server on a GL.iNet Router
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qLEj9zoiYRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

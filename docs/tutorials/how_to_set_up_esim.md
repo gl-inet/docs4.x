@@ -62,8 +62,8 @@ Ensure your device is connected to the internet. Then, go to **"SYSTEM"** > **"U
 To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"Local Upgrade"**. Then, select the firmware file or drag it into the designated area to upgrade to the latest version.
 
 - **E750V2**: Please upgrade to firmware version V4.3.19. For more details, visit: [E750V2 Firmware](https://dl.gl-inet.com/router/e750/){target="_blank"}
-- **X3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [X3000 Firmware](https://dl.gl-inet.com/router/x3000/){target="_blank"}
-- **XE3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [XE3000 Firmware](https://dl.gl-inet.com/router/xe3000/){target="_blank"}
+- **X3000**: Please upgrade to firmware version V4.4.13. For more details, visit: [X3000 Firmware](https://dl.gl-inet.com/router/x3000/){target="_blank"}
+- **XE3000**: Please upgrade to firmware version V4.4.13. For more details, visit: [XE3000 Firmware](https://dl.gl-inet.com/router/xe3000/){target="_blank"}
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/local-upgrade.png){class="glboxshadow"}
 
@@ -199,6 +199,7 @@ You can easily switch between eSIM profiles by clicking **"Enable"** next to the
 ![eSIM profile is successfully set up](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/switch-or-delete-esim-profile.png){class="glboxshadow"}
 
 ## Troubleshooting Guide
+
 1. Unable to Connect to the Internet
 
 If the **Auto Setup** fails to connect to the internet, the screen will appear as shown below: 
@@ -222,3 +223,7 @@ The seed profile is designed to ensure a successful connection during the initia
 ![export log](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/unable-to-upload-or-install-your-esim-profile-export-log.png){class="glboxshadow"}
 
 ![copy log](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/unable-to-upload-or-install-your-esim-profile-export-logo-copy-log.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

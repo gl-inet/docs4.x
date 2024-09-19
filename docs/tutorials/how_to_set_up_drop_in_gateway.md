@@ -1,5 +1,7 @@
 # How to set up drop-in gateway on a GL.iNet router 
 
+**Please note**: Models with firmware versions below v4.5.0 lack the "Configuration method" option in both the app and the web Admin Panel. Upon enabling the Drop-in Gateway, these models automatically operate in the "All devices are networked through drop-in gateway" mode.
+
 GL.iNet offers the drop-in gateway feature, which enhances the functionality of your primary router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. By using this feature, you can keep using your primary router as usual while enjoying additional features. 
 
 You can enable drop-in gateway for [all your devices](#enable-drop-in-gateway-for-all-devices) or [specific devices](#enable-drop-in-gateway-for-specific-devices) connected to your primary router. Follow the appropriate section for your setup.

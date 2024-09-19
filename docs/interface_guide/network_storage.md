@@ -24,27 +24,18 @@ The supported disk formats are NTFS, FAT32.
 
 Usually models with USB ports or MicroSD(TF) slots are supported for file sharing. For devices with Flash space less than or equal to 32MB, the Network Storage function is not yet supported and is still being developed and optimized.
 
-| Router Model                   | USB Port | MicroSD Card | Samba | Webdav | DLNA |
-| :----------------------------- | :------: | :----------: | :---: | :---: | :---: |
-| GL-B3000 (Marble)              | -        | -            | -     | -     | -     |
-| GL-MT6000 (Flint2)             | √        | -            | √     | √     | √     |
-| GL-XE3000 (Puli AX)            | √        | √            | √     | √     | √     |
-| GL-X3000 (Spitz AX)            | √        | √            | √     | √     | √     |
-| GL-MT3000 (Beryl AX)           | √        | -            | √     | √     | √     |
-| GL-AXT1800 (Slate AX)          | √        | √            | √     | √     | √     |
-| GL-A1300 (Slate Plus)          | √        | -            | √     | √     | √     |
-| GL-MT2500/GL-MT2500A (Brume 2) | √        | -            | √     | √     | √     |
-| GL-S1300 (Convexa-S)           | √        | -            | √     | √     | √     |
-| GL-MT1300 (Beryl)              | √        | √            | -     | -     | -     |
-| GL-AX1800 (Flint)              | √        | -            | √     | √     | √     |
-| GL-AR750S (Slate)              | √        | √            | -     | -     | -     |
-| GL-XE300 (Puli)                | √        | √            | -     | -     | -     |
-| GL-X750 (Spitz)                | √        | √            | -     | -     | -     |
-| GL-SFT1200 (Opal)              | √        | -            | -     | -     | -     |
-| GL-B1300 (Convexa-B)           | √        | -            | -     | -     | -     |
-| GL-AP1300 (Cirrus)             | -        | -            | -     | -     | -     |
-| GL-X300B (Collie)              | -        | -            | -     | -     | -     |
-| GL-MV1000/GL-MV1000W (Brume)   | √        | √            | √     | √     | √     |
+| Router Model                   | Samba | Webdav | DLNA | USB Port | MicroSD Card |
+| :----------------------------- | :---: | :---: | :---: | :------: | :----------: |
+| GL-MT6000 (Flint2)             | √     | √     | √     | √        | -            |
+| GL-XE3000 (Puli AX)            | √     | √     | √     | √        | √            |
+| GL-X3000 (Spitz AX)            | √     | √     | √     | √        | √            |
+| GL-MT3000 (Beryl AX)           | √     | √     | √     | √        | -            |
+| GL-AXT1800 (Slate AX)          | √     | √     | √     | √        | √            |
+| GL-A1300 (Slate Plus)          | √     | √     | √     | √        | -            |
+| GL-MT2500/GL-MT2500A (Brume 2) | √     | √     | √     | √        | -            |
+| GL-S1300 (Convexa-S)           | √     | √     | √     | √        | -            |
+| GL-AX1800 (Flint)              | √     | √     | √     | √        | -            |
+| GL-MV1000/GL-MV1000W (Brume)   | √     | √     | √     | √        | √            |
 
 ## Insert Storage Device
 

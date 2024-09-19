@@ -2,6 +2,12 @@
 
 Experience your first impression of seeing our devices for the first time, and understanding the setup process.
 
+## GL-B3000 (Marble)
+
+Unboxing & Setup Guide
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-E750V2 (Mudi V2)
 
 Unboxing & Setup Guide

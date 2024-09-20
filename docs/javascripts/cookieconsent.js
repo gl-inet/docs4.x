@@ -1,7 +1,3 @@
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('config', 'G-CB08JFHVHT');
-
 CookieConsent.run({
     guiOptions: {
         consentModal: {
@@ -84,7 +80,7 @@ CookieConsent.run({
         }
     },
 
-    onConsent: ({ cookie }) => {
+    onConsent: ({ cookie }) => {   
         gtag('consent', 'update', {
             'ad_storage': cookie.categories.includes('marketing') ? 'granted' : 'denied',
             'ad_user_data': cookie.categories.includes('marketing') ? 'granted' : 'denied',

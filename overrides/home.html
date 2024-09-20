@@ -1201,7 +1201,31 @@ video {
         </div>
     </section>
 </div>
+<script>
+  // Define dataLayer and the gtag function.
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
 
+  // Set default consent to 'denied' as a placeholder
+  // Determine actual values based on your own requirements
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied',
+    'functionality_storage': 'denied',
+    'personalization_storage': 'denied',
+    'security_storage': 'denied',
+  });
+</script>
+<script type="text/plain" data-category="analytics"
+  data-src="https://www.googletagmanager.com/gtag/js?id=G-CB08JFHVHT"></script>
+<script type="text/plain" data-category="analytics">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CB08JFHVHT');
+</script>
 {% endblock %}
 
 <!-- Content -->

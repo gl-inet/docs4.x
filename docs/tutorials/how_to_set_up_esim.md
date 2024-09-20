@@ -63,12 +63,12 @@ Ensure your device is connected to the internet. Then, go to **"SYSTEM"** > **"U
 
 To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"Local Upgrade"**. Then, select the firmware file or drag it into the designated area to upgrade to the latest version.
 
-- **E750V1※/E750V2**: Please upgrade to firmware version V4.3.19. For more details, visit: [E750V2 Firmware](https://dl.gl-inet.com/router/e750/){target="_blank"}
-- **X3000**: Please upgrade to firmware version V4.4.13 beta. For more details, visit: [X3000 Beta Firmware](https://dl.gl-inet.com/router/x3000/?type=beta){target="_blank"}
-- **XE3000**: Please upgrade to firmware version V4.4.13 beta. For more details, visit: [XE3000 Beta Firmware](https://dl.gl-inet.com/router/xe3000/?type=beta){target="_blank"}
-- **XE300※**: Please upgrade to firmware version V4.3.23  beta. For more details, visit: [XE300 Beta Firmware](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"}
-- **X750V1※/X750V2※**: Please upgrade to firmware version V4.3.23  beta. For more details, visit: [X750 Beta Firmware](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"}
-- **X300B**: Please upgrade to firmware version 4.5.21  beta. For more details, visit: [X300B Beta Firmware](https://dl.gl-inet.com/router/x300b/?type=beta){target="_blank"}
+- **E750V1※/E750V2**: Please upgrade to firmware [version 4.3.19](https://dl.gl-inet.com/router/e750/){target="_blank"}
+- **X3000**: Please upgrade to firmware version [4.4.13 beta](https://dl.gl-inet.com/router/x3000/?type=beta){target="_blank"}
+- **XE3000**: Please upgrade to firmware [version 4.4.13 beta](https://dl.gl-inet.com/router/xe3000/?type=beta){target="_blank"}
+- **XE300※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"}
+- **X750V1※/X750V2※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"}
+- **X300B**: Please upgrade to firmware [version 4.5.21 beta](https://dl.gl-inet.com/router/x300b/?type=beta){target="_blank"}
 
 *※Products equipped with EP06 modules do not support eSIM due to software incompatibility with Qualcomm.*
 

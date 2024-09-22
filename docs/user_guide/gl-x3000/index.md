@@ -47,6 +47,8 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
     If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
     
+    Learn how to set up the eSIM physical card on your GL.iNet router with our step-by-step instructions here: [How to Set Up the eSIM Physical Card with the GL.iNet Routers?](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/)
+
     For issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](https://docs.gl-inet.com/router/en/4/faq/gl-x3000_gl-xe3000_connection_optimization/). 
 
 === "Ethernet"

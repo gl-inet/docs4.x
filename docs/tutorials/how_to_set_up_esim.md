@@ -1,6 +1,8 @@
 # How to Set Up the eSIM Physical Card with the GL.iNet Routers?
 
-This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. The eSIM Physical card is compatible with the [Mudi V2 (GL-E750V2)](https://www.gl-inet.com/products/gl-e750/), [Spitz AX (GL-X3000)](https://www.gl-inet.com/products/gl-x3000/), and [Puli AX (GL-XE3000)](https://www.gl-inet.com/products/gl-xe3000/) routers, ensuring seamless internet connectivity.
+This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. The eSIM Physical card is compatible with the [Mudi V2 (GL-E750V2)※](https://www.gl-inet.com/products/gl-e750/), [Spitz AX (GL-X3000)](https://www.gl-inet.com/products/gl-x3000/), [Puli AX (GL-XE3000)](https://www.gl-inet.com/products/gl-xe3000/), [Puli (GL-XE300)※](https://www.gl-inet.com/products/gl-xe300/), [Spitz (GL-X750)※](https://www.gl-inet.com/products/gl-x750/), and [Collie (GL-X300B)](https://www.gl-inet.com/products/gl-x300b/) routers, ensuring seamless internet connectivity.
+
+*※Products equipped with EP06 modules do not support eSIM due to software incompatibility with Qualcomm.*
 
 ![eSIM Physical Card](https://static.gl-inet.com/www/images/solutions/esim/esimchip-and-physical-esim.jpg){class="glboxshadow"}
 
@@ -61,9 +63,14 @@ Ensure your device is connected to the internet. Then, go to **"SYSTEM"** > **"U
 
 To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"Local Upgrade"**. Then, select the firmware file or drag it into the designated area to upgrade to the latest version.
 
-- **E750V2**: Please upgrade to firmware version V4.3.19. For more details, visit: [E750V2 Firmware](https://dl.gl-inet.com/router/e750/){target="_blank"}
-- **X3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [X3000 Firmware](https://dl.gl-inet.com/router/x3000/){target="_blank"}
-- **XE3000**: Please upgrade to firmware version V4.4.11. For more details, visit: [XE3000 Firmware](https://dl.gl-inet.com/router/xe3000/){target="_blank"}
+- **E750V1※/E750V2**: Please upgrade to firmware [version 4.3.19](https://dl.gl-inet.com/router/e750/){target="_blank"}
+- **X3000**: Please upgrade to firmware version [4.4.13 beta](https://dl.gl-inet.com/router/x3000/?type=beta){target="_blank"}
+- **XE3000**: Please upgrade to firmware [version 4.4.13 beta](https://dl.gl-inet.com/router/xe3000/?type=beta){target="_blank"}
+- **XE300※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"}
+- **X750V1※/X750V2※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"}
+- **X300B**: Please upgrade to firmware [version 4.5.21 beta](https://dl.gl-inet.com/router/x300b/?type=beta){target="_blank"}
+
+*※Products equipped with EP06 modules do not support eSIM due to software incompatibility with Qualcomm.*
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/local-upgrade.png){class="glboxshadow"}
 
@@ -199,6 +206,7 @@ You can easily switch between eSIM profiles by clicking **"Enable"** next to the
 ![eSIM profile is successfully set up](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/switch-or-delete-esim-profile.png){class="glboxshadow"}
 
 ## Troubleshooting Guide
+
 1. Unable to Connect to the Internet
 
 If the **Auto Setup** fails to connect to the internet, the screen will appear as shown below: 
@@ -222,3 +230,7 @@ The seed profile is designed to ensure a successful connection during the initia
 ![export log](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/unable-to-upload-or-install-your-esim-profile-export-log.png){class="glboxshadow"}
 
 ![copy log](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/unable-to-upload-or-install-your-esim-profile-export-logo-copy-log.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

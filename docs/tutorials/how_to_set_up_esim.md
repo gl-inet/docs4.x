@@ -1,6 +1,6 @@
 # How to Set Up the eSIM Physical Card with the GL.iNet Routers?
 
-This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. The eSIM Physical card is compatible with the [Mudi V2 (GL-E750V2)※](https://www.gl-inet.com/products/gl-e750/), [Spitz AX (GL-X3000)](https://www.gl-inet.com/products/gl-x3000/), [Puli AX (GL-XE3000)](https://www.gl-inet.com/products/gl-xe3000/), [Puli (GL-XE300)※](https://www.gl-inet.com/products/gl-xe300/), [Spitz (GL-X750)※](https://www.gl-inet.com/products/gl-x750/), and [Collie (GL-X300B)](https://www.gl-inet.com/products/gl-x300b/) routers, ensuring seamless internet connectivity.
+This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. The eSIM Physical card is compatible with the [Mudi V2 (GL-E750V2)](https://www.gl-inet.com/products/gl-e750/), [Spitz AX (GL-X3000)](https://www.gl-inet.com/products/gl-x3000/), [Puli AX (GL-XE3000)](https://www.gl-inet.com/products/gl-xe3000/), [Puli (GL-XE300)※](https://www.gl-inet.com/products/gl-xe300/), [Spitz (GL-X750)※](https://www.gl-inet.com/products/gl-x750/), and [Collie (GL-X300B)](https://www.gl-inet.com/products/gl-x300b/) routers, ensuring seamless internet connectivity.
 
 *※Products equipped with EP06 modules do not support eSIM due to software incompatibility with Qualcomm.*
 
@@ -67,7 +67,7 @@ To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"L
 - **X3000**: Please upgrade to firmware version [4.4.13 beta](https://dl.gl-inet.com/router/x3000/?type=beta){target="_blank"}
 - **XE3000**: Please upgrade to firmware [version 4.4.13 beta](https://dl.gl-inet.com/router/xe3000/?type=beta){target="_blank"}
 - **XE300※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"}
-- **X750V1※/X750V2※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"}
+- **X750V1※/X750V2※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/x750/?type=beta){target="_blank"}
 - **X300B**: Please upgrade to firmware [version 4.5.21 beta](https://dl.gl-inet.com/router/x300b/?type=beta){target="_blank"}
 
 *※Products equipped with EP06 modules do not support eSIM due to software incompatibility with Qualcomm.*
@@ -233,4 +233,4 @@ The seed profile is designed to ensure a successful connection during the initia
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com/t/gl-inet-launches-esim-cards-for-routers/47351){target="_blank"}.

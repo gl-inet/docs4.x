@@ -264,15 +264,33 @@ Applicable for version 4.7.0.
 
 Applicable for version 4.7.0.
 
-1. Input **Token**, then click **Save And Continue**. It will generate configuration files for each servers.
+[Nordvpn](https://nordvpn.com/){target="_blank"} is the top online VPN service for speed and security.
+
+1. Login your NordVPN web account and get your service credentials
+
+    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/nordvpn01.png){class="glboxshadow"}
+    
+    After login to Nord dashboard, click NordVPN on the left side, then click Set up NordVPN manually.
+
+    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/nordvpn02.png){class="glboxshadow"}
+
+    Then you will find the service credentials.
+
+    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/nordvpn03.png){class="glboxshadow"}
+
+    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/nordvpn04.png){class="glboxshadow"}
+
+    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/nordvpn05.png){class="glboxshadow"}
+
+2. Input **Token**, then click **Save And Continue**. It will generate configuration files for each servers.
 
     ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn1.png){class="glboxshadow"}
 
-2. Select servers
+3. Select servers
 
     ![nordvpn select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn2.png){class="glboxshadow"}
 
-3. Start server
+4. Start server
 
     ![nordvpn start server](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn3.png){class="glboxshadow"}
     
@@ -280,19 +298,19 @@ Applicable for version 4.7.0.
 
     ![vpn dashboard nordvpn connectedia](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn4.png){class="glboxshadow"}
 
-4. Update servers
+5. Update servers
 
     Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
 
     ![nordvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn5.png){class="glboxshadow"}
 
-5. Edit credential or logout
+6. Edit credential or logout
 
     Click the cog icon to edit the credential or logout.
 
     ![nordvpn edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn6.png){class="glboxshadow"}
 
-6. Delete 
+7. Delete 
 
     Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
 

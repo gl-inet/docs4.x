@@ -191,23 +191,21 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is the top online VPN service for speed and security.
 
-[Nordvpn](https://nordvpn.com/){target="_blank"} is the top online VPN service for speed and security.
-
 1. Login your NordVPN web account and get your service credentials
 
-    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/nordvpn01.png){class="glboxshadow"}
+    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn01.png){class="glboxshadow"}
     
     After login to Nord dashboard, click NordVPN on the left side, then click Set up NordVPN manually.
 
-    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/nordvpn02.png){class="glboxshadow"}
+    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn02.png){class="glboxshadow"}
 
     Then you will find the service credentials.
 
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/nordvpn03.png){class="glboxshadow"}
+    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn03.png){class="glboxshadow"}
 
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/nordvpn04.png){class="glboxshadow"}
+    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn04.png){class="glboxshadow"}
 
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/nordvpn05.png){class="glboxshadow"}
+    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn05.png){class="glboxshadow"}
 
 2. Input **Token**, then click **Save And Continue**. It will generate configuration files for each servers.
 

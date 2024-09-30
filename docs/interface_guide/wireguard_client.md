@@ -13,12 +13,12 @@ You can set up WireGuard Client via web Admin Panel or [mobile app](../faq/mobil
 For set up via web Admin Panel, several providers are already integrated, and connection can also be established using a configuration file.
 
 * [Set Up AzireVPN](#set-up-azirevpn)
-* [Set Up Mullvad](#set-up-mullvad)
-* [Set Up PIA(Private Internet Access)](#set-up-piaprivate-internet-access)
-* [Set Up Surfshark](#set-up-surfshark)
-* [Set Up NordVPN](#set-up-nordvpn)
 * [Set Up Hide.me](#set-up-hideme)
 * [Set Up IPVanish](#set-up-ipvanish)
+* [Set Up Mullvad](#set-up-mullvad)
+* [Set Up NordVPN](#set-up-nordvpn)
+* [Set Up PIA(Private Internet Access)](#set-up-piaprivate-internet-access)
+* [Set Up Surfshark](#set-up-surfshark)
 * [Set up WireGuard Client via configurations](#set-up-wireguard-client)
 
 ## Set Up AzireVPN
@@ -60,6 +60,84 @@ For set up via web Admin Panel, several providers are already integrated, and co
     Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
 
     ![azirevpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn7.png){class="glboxshadow"}
+
+## Set Up Hide.me
+
+[Official Website](https://www.hideipvpn.com/){target="_blank"}
+
+1. Input **Username** and **Password**, then click **Save And Continue**. 
+
+    ![hideme login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme1.png){class="glboxshadow"}
+
+2. Start the server
+
+    ![hideme select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme2.png){class="glboxshadow"}
+    
+    Once connected, you should see your user IP address and the number of Bytes send/received.
+
+    ![vpn dashboard hideme connectedia](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme3.png){class="glboxshadow"}
+
+3. Update servers
+
+    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+
+    ![hideme update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme4.png){class="glboxshadow"}
+
+4. Edit credential or logout
+
+    Click the cog icon to edit the credential or logout.
+
+    ![hideme edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme5.png){class="glboxshadow"}
+
+5. Delete 
+
+    Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
+
+    ![hide.me delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme6.png){class="glboxshadow"}
+
+## Set Up IPVanish
+
+[Official Website](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="_blank"}
+
+1. Input **Username** and **Password**, then click **Save And Continue**. 
+
+    ![ipvanish login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish1.png){class="glboxshadow"}
+
+2. Select servers
+
+    ![ipvanish select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish2.png){class="glboxshadow"}
+
+3. Start server
+
+    ![ipvanish start server](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish3.png){class="glboxshadow"}
+
+    Once connected, you should see your user IP address and the number of Bytes send/received.
+
+    ![vpn dashboard ipvanish connectedia](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish4.png){class="glboxshadow"}
+
+4. Update servers
+
+    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+
+    ![ipvanish update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish5.png){class="glboxshadow"}
+
+5. Edit credential or logout
+
+    Click the cog icon to edit the credential or logout.
+
+    ![ipvanish edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish6.png){class="glboxshadow"}
+
+6. Refresh
+
+    You can click **Refresh** to update the public key when the VPN server cannot be connected.
+
+    ![ipvanish refresh](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish7.png){class="glboxshadow"}
+
+7. Delete 
+
+    Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
+
+    ![ipvanish delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish8.png){class="glboxshadow"}
 
 ## Set Up Mullvad
 
@@ -104,6 +182,60 @@ For set up via web Admin Panel, several providers are already integrated, and co
     Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
 
     ![mullvad delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad8.png){class="glboxshadow"}
+
+## Set Up NordVPN
+
+[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is the top online VPN service for speed and security.
+
+1. Login your NordVPN web account and get your service credentials
+
+    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_login.png){class="glboxshadow"}
+    
+    After login to Nord dashboard, click NordVPN on the left side, then click Set up NordVPN manually.
+
+    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_dashboard.png){class="glboxshadow"}
+
+    Then you will find the service credentials.
+
+    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/manual_setup.png){class="glboxshadow"}
+
+    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/generate_new_token.png){class="glboxshadow"}
+
+    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/copy_access_token.png){class="glboxshadow"}
+
+2. Input **Token**, then click **Save And Continue**. It will generate configuration files for each servers.
+
+    ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn1.png){class="glboxshadow"}
+
+3. Select servers
+
+    ![nordvpn select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn2.png){class="glboxshadow"}
+
+4. Start server
+
+    ![nordvpn start server](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn3.png){class="glboxshadow"}
+    
+    Once connected, you should see your user IP address and the number of Bytes send/received.
+
+    ![vpn dashboard nordvpn connectedia](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn4.png){class="glboxshadow"}
+
+5. Update servers
+
+    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+
+    ![nordvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn5.png){class="glboxshadow"}
+
+6. Edit credential or logout
+
+    Click the cog icon to edit the credential or logout.
+
+    ![nordvpn edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn6.png){class="glboxshadow"}
+
+7. Delete 
+
+    Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
+
+    ![nordvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn7.png){class="glboxshadow"}
 
 ## Set Up PIA(Private Internet Access)
 
@@ -186,138 +318,6 @@ For set up via web Admin Panel, several providers are already integrated, and co
     Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
 
     ![surfshark delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark8.png){class="glboxshadow"}
-
-## Set Up NordVPN
-
-[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is the top online VPN service for speed and security.
-
-1. Login your NordVPN web account and get your service credentials
-
-    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_login.png){class="glboxshadow"}
-    
-    After login to Nord dashboard, click NordVPN on the left side, then click Set up NordVPN manually.
-
-    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_dashboard.png){class="glboxshadow"}
-
-    Then you will find the service credentials.
-
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/manual_setup.png){class="glboxshadow"}
-
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/generate_new_token.png){class="glboxshadow"}
-
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/copy_access_token.png){class="glboxshadow"}
-
-2. Input **Token**, then click **Save And Continue**. It will generate configuration files for each servers.
-
-    ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn1.png){class="glboxshadow"}
-
-3. Select servers
-
-    ![nordvpn select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn2.png){class="glboxshadow"}
-
-4. Start server
-
-    ![nordvpn start server](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn3.png){class="glboxshadow"}
-    
-    Once connected, you should see your user IP address and the number of Bytes send/received.
-
-    ![vpn dashboard nordvpn connectedia](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn4.png){class="glboxshadow"}
-
-5. Update servers
-
-    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
-
-    ![nordvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn5.png){class="glboxshadow"}
-
-6. Edit credential or logout
-
-    Click the cog icon to edit the credential or logout.
-
-    ![nordvpn edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn6.png){class="glboxshadow"}
-
-7. Delete 
-
-    Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
-
-    ![nordvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn7.png){class="glboxshadow"}
-
-## Set Up Hide.me
-
-[Official Website](https://www.hideipvpn.com/){target="_blank"}
-
-1. Input **Username** and **Password**, then click **Save And Continue**. 
-
-    ![hideme login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme1.png){class="glboxshadow"}
-
-2. Start the server
-
-    ![hideme select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme2.png){class="glboxshadow"}
-    
-    Once connected, you should see your user IP address and the number of Bytes send/received.
-
-    ![vpn dashboard hideme connectedia](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme3.png){class="glboxshadow"}
-
-3. Update servers
-
-    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
-
-    ![hideme update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme4.png){class="glboxshadow"}
-
-4. Edit credential or logout
-
-    Click the cog icon to edit the credential or logout.
-
-    ![hideme edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme5.png){class="glboxshadow"}
-
-5. Delete 
-
-    Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
-
-    ![hide.me delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme6.png){class="glboxshadow"}
-
-## Set Up IPVanish
-
-[Official Website](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="_blank"}
-
-1. Input **Username** and **Password**, then click **Save And Continue**. 
-
-    ![ipvanish login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish1.png){class="glboxshadow"}
-
-2. Select servers
-
-    ![ipvanish select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish2.png){class="glboxshadow"}
-
-3. Start server
-
-    ![ipvanish start server](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish3.png){class="glboxshadow"}
-
-    Once connected, you should see your user IP address and the number of Bytes send/received.
-
-    ![vpn dashboard ipvanish connectedia](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish4.png){class="glboxshadow"}
-
-4. Update servers
-
-    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
-
-    ![ipvanish update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish5.png){class="glboxshadow"}
-
-5. Edit credential or logout
-
-    Click the cog icon to edit the credential or logout.
-
-    ![ipvanish edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish6.png){class="glboxshadow"}
-
-6. Refresh
-
-    You can click **Refresh** to update the public key when the VPN server cannot be connected.
-
-    ![ipvanish refresh](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish7.png){class="glboxshadow"}
-
-7. Delete 
-
-    Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
-
-    ![ipvanish delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish8.png){class="glboxshadow"}
 
 ## Set up WireGuard Client
 

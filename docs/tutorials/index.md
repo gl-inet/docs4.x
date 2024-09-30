@@ -19,6 +19,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to visit WireGuard client LAN side from Server?](wireguard_server_access_to_client_lan_side.md)
 * [How to visit OpenVPN client LAN side from Server?](openvpn_server_access_client_lan_side.md)
 * [Use WireGuard to secure RDP from outside network](use_wireguard_to_secure_rdp_from_outside_network.md)
+* [How to get configuration files from WireGuard service providers](how_to_get_configuration_files_from_wireguard_service_providers.md)
 
 ## Cellular
 

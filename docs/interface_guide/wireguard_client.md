@@ -319,6 +319,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
     ![ipvanish delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish8.png){class="glboxshadow"}
 
+
 ## Set up WireGuard Client
 
 As of firmware 4.0, it brings grouping to manage WireGuard profiles.
@@ -364,6 +365,49 @@ As of firmware 4.0, it brings grouping to manage WireGuard profiles.
 5. Check the connection status by go to [VPN Dashboard](vpn_dashboard.md) page.
 
     ![vpn dashboard page](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/vpn_dashboard_wireguard_status.png){class="glboxshadow"}
+
+
+## Set up WireGuard Client
+
+1. Click **Add Manually**.
+
+    ![add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/WireGuardClient1.png){class="glboxshadow"}
+
+2. It will create a group.
+
+    ![add a new group](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/WireGuardClient2.png){class="glboxshadow"}
+
+3. Give the group a descriptive name, e.g. azirevpn. Then you can choose to upload configuration files or manually add configuration.
+
+    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/WireGuardClient3.png){class="glboxshadow"}
+
+    1. **Upload configuration files**
+
+        Upload your WireGuard configuration file, click **Apply**.
+
+        ![upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/WireGuardClient4.png){class="glboxshadow"}
+
+        ![after upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/WireGuardClient5.png){class="glboxshadow"}
+
+    2. **Manually Add Configuration**, it is for if you want to paste the WireGuard configuration or fill in each item.
+
+        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/WireGuardClient7.png){class="glboxshadow"}
+
+        Give a descriptive name and paste the configuration, click **Item Mode** to continue.
+
+        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/WireGuardClient8.png){class="glboxshadow"}
+
+        ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/WireGuardClient9.png){class="glboxshadow"}
+
+4. Click the three dots icon to start / edit /delete the profile.
+
+    ![start the profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/WireGuardClient6.png){class="glboxshadow"}
+
+5. Check the connection status by go to [VPN Dashboard](vpn_dashboard.md) page.
+
+    ![vpn dashboard page](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/vpn_dashboard_wireguard_status.png){class="glboxshadow"}
+
+
 
 ## Set Up WireGuard Server on GL.iNet Router
 

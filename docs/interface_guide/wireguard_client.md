@@ -19,7 +19,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 * [Set Up NordVPN](#set-up-nordvpn)
 * [Set Up PIA(Private Internet Access)](#set-up-piaprivate-internet-access)
 * [Set Up Surfshark](#set-up-surfshark)
-* [Set up WireGuard Client via configurations](#set-up-wireguard-client)
+* [Set up WireGuard Client with other providers(via configuration files)](#set-up-other-providersvia-configuration-files)
 
 ## Set Up AzireVPN
 
@@ -319,7 +319,9 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
     ![surfshark delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark8.png){class="glboxshadow"}
 
-## Set up WireGuard Client
+## Set up other providers(via configuration files)
+
+If you are using another WireGuard service provider, you can also download the WireGuard configuration files and follow the steps below to set up the WireGuard Client. If you don't know how to download the configuration files, please refer to [this guide](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or ask their customer service.
 
 1. Click **Add Manually**.
 

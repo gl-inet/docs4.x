@@ -219,6 +219,19 @@
 
     Then follow the [guide](#setup-wireguard-client) to continue.
 
+??? "PrivadoVPN"
+    ### PrivadoVPN
+
+    [Official Website](https://privadovpn.com/#a_aid=GLINET){target="_blank"}
+
+    Access PrivadoVPN website, then login.
+
+    At the dashboard, find the Manual Configuration section, click WireGuard. Select the server you want to connect to, then click Download Configration.
+
+    ![privadovpn wireguard manual configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/privadovpn/privadovpn_wireguard_manual_configuration.png){class="glboxshadow"}
+
+    ![privadovpn wireguard manual configuration download](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/privadovpn/privadovpn_wireguard_manual_configuration_download.png){class="glboxshadow"}
+
 ??? "SpiderVPN"
     ### SpiderVPN
 

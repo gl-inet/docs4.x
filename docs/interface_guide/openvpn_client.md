@@ -1,5 +1,7 @@
 # How to Set Up OpenVPN Client on GL.iNet Router
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/04sW3l6_rDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
 
 We recommend WireGuard over OpenVPN because it is much faster. For set up a WireGuard Client, please check out [here](wireguard_client.md).

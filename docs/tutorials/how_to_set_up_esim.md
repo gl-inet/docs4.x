@@ -2,7 +2,7 @@
 
 This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. The eSIM Physical card is compatible with the [Mudi (GL-E750)※/Mudi V2 (GL-E750V2)](https://www.gl-inet.com/products/gl-e750/), [Spitz AX (GL-X3000)](https://www.gl-inet.com/products/gl-x3000/), [Puli AX (GL-XE3000)](https://www.gl-inet.com/products/gl-xe3000/), [Puli (GL-XE300)※](https://www.gl-inet.com/products/gl-xe300/), [Spitz (GL-X750)※](https://www.gl-inet.com/products/gl-x750/), and [Collie (GL-X300B)](https://www.gl-inet.com/products/gl-x300b/) routers, ensuring seamless internet connectivity.
 
-*※These products will NOT support eSIM when equipped with Quectel EP06 modules because the EP06 software (from Qualcomm) does not support certain special AT commands.*
+*※These products do not support eSIM with Quectel EP06-A modules due to the Qualcomm software lacking support for specific AT commands. For EP06-E, please refer to this [LINK](https://forum.gl-inet.com/t/48907){target="_blank"} to upgrade to the latest software for eSIM functionality.*
 
 ![eSIM Physical Card](https://static.gl-inet.com/www/images/solutions/esim/esimchip-and-physical-esim.jpg){class="glboxshadow"}
 
@@ -70,7 +70,7 @@ To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"L
 - **X750V1※/X750V2※**: Please upgrade to [firmware](https://dl.gl-inet.com/router/x750/?type=beta){target="_blank"} that supports eSIM.
 - **X300B**: Please upgrade to [firmware](https://dl.gl-inet.com/router/x300b/?type=beta){target="_blank"} that supports eSIM.
 
-*※<i>※These products do not support eSIM with Quectel EP06-A modules due to the Qualcomm software lacking support for specific AT commands. For EP06-E, please refer to this [LINK](https://forum.gl-inet.com/t/48907){target="_blank"}to upgrade to the latest software for eSIM functionality.</i>*
+*※<i>※These products do not support eSIM with Quectel EP06-A modules due to the Qualcomm software lacking support for specific AT commands. For EP06-E, please refer to this [LINK](https://forum.gl-inet.com/t/48907){target="_blank"} to upgrade to the latest software for eSIM functionality.</i>*
 
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/local-upgrade.png){class="glboxshadow"}

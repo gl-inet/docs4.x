@@ -63,14 +63,15 @@ Ensure your device is connected to the internet. Then, go to **"SYSTEM"** > **"U
 
 To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"Local Upgrade"**. Then, select the firmware file or drag it into the designated area to upgrade to the latest version.
 
-- **E750V1※/E750V2**: Please upgrade to firmware [version 4.3.19](https://dl.gl-inet.com/router/e750/){target="_blank"}
-- **X3000**: Please upgrade to firmware version [4.4.13 beta](https://dl.gl-inet.com/router/x3000/?type=beta){target="_blank"}
-- **XE3000**: Please upgrade to firmware [version 4.4.13 beta](https://dl.gl-inet.com/router/xe3000/?type=beta){target="_blank"}
-- **XE300※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"}
-- **X750V1※/X750V2※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/x750/?type=beta){target="_blank"}
-- **X300B**: Please upgrade to firmware [version 4.5.21 beta](https://dl.gl-inet.com/router/x300b/?type=beta){target="_blank"}
+- **E750V1※/E750V2**: Please upgrade to [firmware](https://dl.gl-inet.com/router/e750/){target="_blank"} that supports eSIM.
+- **X3000**: Please upgrade to [firmware](https://dl.gl-inet.com/router/x3000/?type=beta){target="_blank"} that supports eSIM.
+- **XE3000**: Please upgrade to [firmware](https://dl.gl-inet.com/router/xe3000/?type=beta){target="_blank"} that supports eSIM.
+- **XE300※**: Please upgrade to [firmware](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"} that supports eSIM.
+- **X750V1※/X750V2※**: Please upgrade to [firmware](https://dl.gl-inet.com/router/x750/?type=beta){target="_blank"} that supports eSIM.
+- **X300B**: Please upgrade to [firmware](https://dl.gl-inet.com/router/x300b/?type=beta){target="_blank"} that supports eSIM.
 
-*※Products equipped with EP06 modules do not support eSIM due to software incompatibility with Qualcomm.*
+*※<i>※These products do not support eSIM with Quectel EP06-A modules due to the Qualcomm software lacking support for specific AT commands. For EP06-E, please refer to this [LINK](https://forum.gl-inet.com/t/48907){target="_blank"}to upgrade to the latest software for eSIM functionality.</i>*
+
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/local-upgrade.png){class="glboxshadow"}
 
@@ -142,6 +143,7 @@ After setting up your router, please follow the steps below to purchase and acti
 **Step 2:** Purchase an eSIM Profile from eSIM Stores.
 
 <u>Option 1</u>: Purchase an eSIM profile from one of our recommended stores: [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Euge eSIM Store](https://esim_store.gl-inet.com){target="_blank"}. 
+
 
 *All eSIM profile packages purchased from these two stores are fully compatible with our routers. If you have any questions, please contact our support team at support@gl-inet.com.*
 

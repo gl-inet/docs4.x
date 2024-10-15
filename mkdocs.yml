@@ -39,9 +39,9 @@ plugins:
 
 # Customization
 extra:
-  analytics:
-    provider: google
-    property: G-CB08JFHVHT
+  # analytics:
+  #   provider: google
+  #   property: G-34T6Q5NL0V
   social:
     - icon: fontawesome/solid/globe
       link: https://www.gl-inet.com
@@ -70,6 +70,8 @@ extra:
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
+
   # we can use the cdn or files
   # - stylesheets/photoswipe.min.css
   # - stylesheets/default-skin.min.css
@@ -77,10 +79,13 @@ extra_css:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
   # we can use the cdn or files
   # - javascripts/photoswipe.min.js
   # - javascripts/photoswipe-ui-default.min.js
   - javascripts/extra.js
+  - javascripts/cookieconsent.js
+
 
 markdown_extensions:
   - attr_list
@@ -117,6 +122,7 @@ nav:
     - GL-XE300 (Puli): user_guide/gl-xe300/index.md
     - GL-X300B (Collie): user_guide/gl-x300b/index.md
     - GL-AR750S (Slate): user_guide/gl-ar750s/index.md
+    - GL-AR750 (Creta): user_guide/gl-ar750/index.md
     - GL-B1300 (Convexa-B): user_guide/gl-b1300/index.md
     - GL-S1300 (Convexa-S): user_guide/gl-s1300/index.md
     - GL-MV1000 (Brume): user_guide/gl-mv1000/index.md
@@ -183,6 +189,7 @@ nav:
       - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
       - VPN Cascading: tutorials/vpn_cascading.md
       - Use Wireguard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
+      - How to get configuration files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
     - Network Storage:
       - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
     - GoodCloud:
@@ -191,6 +198,7 @@ nav:
       - How to set up a guest network: tutorials/how_to_set_up_a_guest_network.md
       - How to set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
       - How to set up port forwarding on your primary router: tutorials/how_to_set_up_port_forwarding.md
+      - How to set up eSIM: tutorials/how_to_set_up_esim.md
     - Others:
       - How to manually configure static IP: tutorials/manually_configure_static_ip.md
       - How to check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
@@ -198,6 +206,7 @@ nav:
       - How to upgrade or downgrade your router (from v4.x to v4.x): tutorials/how_to_upgrade_downgrade_router.md
       - How to activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
       - How to retrieve the Mobile App Log: tutorials/how_to_retrieve_the_mobile_app_log.md
+      - Technical support via GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:

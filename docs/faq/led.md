@@ -22,7 +22,8 @@
 
 * System
 	* Blue: system booting
-	* White: system working normally
+	* Flashing blue: Searching network
+	* White: Working normally
 * VPN
 	* Off: VPN inactive
 	* On: VPN active

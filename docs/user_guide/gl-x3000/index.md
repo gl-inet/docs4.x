@@ -17,19 +17,19 @@ To set up Spitz AX, you will use one of the four supported internet connection m
 
 ### 1. Power on the Spitz AX
 
-Put the two-piece power adapter together. Connect it to your router and plug it into a wall outlet. Press the power button.
+Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
 ### 2. Connect your device to the Spitz AX
 
 Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
-=== "Wi-Fi"
-
-    On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
-
 === "Ethernet"
 
     Connect your device to the router's LAN port using an ethernet cable. 
+
+=== "Wi-Fi"
+
+    On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
 ### 3. Connect the Spitz AX to the internet 
 
@@ -47,6 +47,8 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
     If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
     
+    Learn how to set up the eSIM physical card on your GL.iNet router with our step-by-step instructions here: [How to Set Up the eSIM Physical Card with the GL.iNet Routers?](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/)
+
     For issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](https://docs.gl-inet.com/router/en/4/faq/gl-x3000_gl-xe3000_connection_optimization/). 
 
 === "Ethernet"
@@ -54,6 +56,8 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_ethernet.jpg){class='glboxshadow'}
     
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
+
+    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
 === "Repeater"
 
@@ -63,7 +67,9 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
     
-    If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name. 
+    If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name.
+
+    Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
 === "Tethering"
 
@@ -74,6 +80,8 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
     3. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
     
     If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
+
+    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
 **Note:** If you want to use the multi-WAN feature, you will have to set up more than one internet connection methods. 
 

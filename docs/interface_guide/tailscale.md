@@ -14,6 +14,7 @@ The Tailscale feature in GL.iNet router allow the router to join the Tailscale v
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-B3000 (Marble)              | √         |
 | GL-MT6000 (Flint 2)            | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
@@ -26,7 +27,7 @@ The Tailscale feature in GL.iNet router allow the router to join the Tailscale v
 | GL-AX1800 (Flint)              | √         |
 | GL-AR750S (Slate)              | -         |
 | GL-XE300 (Puli)                | -         |
-| GL-X750 (Spitz)                | -         |
+| GL-X750/GL-X750V2 (Spitz)      | -         |
 | GL-B1300 (Convexa-B)           | -         |
 | GL-AP1300 (Cirrus)             | -         |
 | GL-X300B (Collie)              | -         |

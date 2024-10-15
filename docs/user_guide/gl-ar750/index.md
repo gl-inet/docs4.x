@@ -1,29 +1,33 @@
-# Marble (GL-B3000) User Guide
+# GL-AR750(Creta) User Guide
 
-## How to set up Marble
+## How to set up GL-AR750
 
-To set up Marble, you will use one of the two supported internet connection methods: Ethernet and repeater. Watch this setup video or follow the steps below. 
+To set up GL-AR750, you will use one of the four supported internet connection methods: Ethernet and repeater. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Marble and other router models.)</small>
+<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for GL-AR750 and other router models.)</small>
 
-### 1. Power on the Marble
+### 1. Power on the GL-AR750
 
-Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
+Plug the Micro USB power cable into the power port of the router. Make sure you are using a standard 5V/2A power adapter.
 
-### 2. Connect your device to the Marble
+!!! Note
+
+    Hot plugging for TF card is not supported. If you want to use TF card, please insert before powering on the router.
+
+### 2. Connect your device to the GL-AR750
 
 Connect your computer or mobile device to the router using Wi-Fi or ethernet.
-
-=== "Ethernet"
-
-    Connect your device to the router's LAN port using an ethernet cable. 
 
 === "Wi-Fi"
 
     On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
-### 3. Connect the Marble to the internet 
+=== "Ethernet"
+
+    Connect your device to the router's LAN port using an ethernet cable.
+
+### 3. Connect the GL-AR750 to the internet 
 
 **Note:** The following instructions were written for those using the router web admin panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web admin panel, [download the app](https://www.gl-inet.com/app/) and follow the on-screen instructions. 
 
@@ -53,34 +57,47 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
+=== "Cellular"
+
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_cellular.jpg){class='glboxshadow'}
+
+    1. Insert a cellular-enabled USB modem into the router's USB port.
+    2. On the main screen of the web admin panel, locate the "Cellular" section, then click **Connect**.
+    3. If you are connected to the internet successfully, a light blue dot appears next to "Cellular."
+
+    Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md) for detailed instructions.
+
+=== "Tethering"
+
+    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_tethering.jpg){class='glboxshadow'}
+
+    1. Connect your smartphone to the router via USB cable and enable network shareing in Personal hotspot of the setting.
+    2. On the main screen of the web admin panel, locate the "Tethering" section, then click **Connect**.
+    3. If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
+
+    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
+
 **Note:** If you want to use the multi-WAN feature, you will have to set up more than one internet connection methods. 
 
 ---
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Marble (and other GL.iNet routers) support OpenVPN, WireGuard. Additionally, the Marble model also supports Tor.
-
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). GL-AR750 (and other GL.iNet routers) support OpenVPN, WireGuard. Additionally, the GL-AR750 model also supports Tor.
 
 === "OpenVPN" 
 
-    Marble (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    GL-AR750 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Marble (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    GL-AR750 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
-
-=== "Tor"
-
-    Tor is a privacy-focused service that allows you to access the internet anonymously. To set up Tor, follow these tutorials:
-
-    * [How to set up Tor](../../interface_guide/tor.md)
 
 ---
 
@@ -97,25 +114,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 === "GoodCloud"
 
     GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
-
----
-
-=== "AdGuard Home"
-
-    AdGuard Home is a third-party tool that blocks ads and tracking to keep you safe. To learn how to enable AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md). 
-
-=== "Parental controls"
-
-    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Marble offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app. 
-
-    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md).
-
-=== "Tailscale"
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md). 
-
-=== "ZeroTier"
-
-    ZeroTier is a VPN service that allows you to connect your devices to a virtual network. To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
 
 ---
 
@@ -150,17 +148,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
-=== "Guest Network"
-
-    The Guest Network page allows you to create and manage a separate network for your guests, providing them with internet access while keeping your main network secure. Key functionalities on this page include:
-
-    * Gateway: Set a specific IP address range for the guest network to distinguish it from your main network.
-    * DHCP: Configure the Dynamic Host Configuration Protocol for the guest network, automatically assigning IP addresses to devices that connect to it.
-
-    These features ensure that your guests can enjoy internet access without compromising the security and performance of your primary network.
-    
-    For detailed setup instructions and more information, please refer to [Guest Network](../../interface_guide/guest_network.md).
-
 === "DNS"
 
     The DNS page provides options to customize your router's Domain Name System settings, enhancing both security and performance. Key features available on this page include:
@@ -184,8 +171,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Network Mode](../../interface_guide/network_mode.md).
 
----
-
 === "IPv6"
 
     The IPv6 page enables you to configure IPv6 settings for your network, providing support for the latest internet protocol. On this page, you can enable IPv6 and select from four different modes to suit your network requirements:
@@ -198,6 +183,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These settings help you leverage the benefits of IPv6, including improved address space, enhanced security features, and better performance.
 
     For detailed setup instructions and more information, please refer to [IPv6](../../interface_guide/ipv6.md).
+
+---
 
 === "MAC Address"
 
@@ -215,8 +202,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. To set up Drop-in Gateway, refer to [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
----
-
 === "IGMP Snooping"
 
     The IGMP Snooping page allows you to configure settings that optimize multicast traffic management within your network. IGMP Snooping listens to and extracts information from IGMP protocol packets, establishing and maintaining Layer 2 multicast forwarding tables. This ensures that multicast group data is forwarded only to hosts that have joined the multicast group, preventing unwanted multicast traffic from reaching other hosts.
@@ -224,23 +209,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These settings help optimize network performance and efficiency, particularly in environments with significant multicast traffic, such as streaming video or online gaming.
 
     For detailed setup instructions and more information, please refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
-=== "Network Acceleration"
-
-    The Network Acceleration page allows you to enable features that reduce CPU load and speed up traffic packet forwarding, enhancing overall network performance. However, enabling network acceleration can conflict with certain features.
-
-    For detailed setup instructions and more information, please refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
-
-=== "NAT Settings"
-
-    The NAT Settings page allows you to configure Network Address Translation (NAT) options to optimize specific applications and improve network performance. Key settings available on this page include:
-
-    * Enable Full Cone NAT: Full Cone NAT can be used to reduce game latency, offering a more direct and less restrictive path for network traffic. However, enabling Full Cone NAT may be less secure as it allows external hosts to initiate connections to internal devices more easily.
-    * Enable SIP ALG: The Session Initiation Protocol Application Layer Gateway (SIP ALG) can help mitigate issues caused by multiple NATs, which can affect VoIP services. However, in most cases, SIP ALG may not be beneficial and can cause issues such as one-way audio (only one party can hear the other), phones not ringing during a call, phones dropping while connected, and calls going directly to voicemail.
-
-    These settings allow you to tailor your router's NAT behavior to better suit your network's needs, balancing performance improvements with potential security and functionality considerations.
-
-    For detailed setup instructions and more information, please refer to [NAT Settins](../../interface_guide/nat_settings.md).
 
 ---
 
@@ -286,11 +254,25 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
+=== "Admin Password"
+
+    The Admin Password page allows you to set or change the password for your router's administrative interface, ensuring that only authorized users can access and modify the router's settings. This password is crucial for maintaining the security and integrity of your network, protecting against unauthorized access and configuration changes.
+
+    For detailed setup instructions and more information, please refer to [Admin Password](../../interface_guide/admin_password.md).
+
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
     For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
+
+=== "Toggle Button Settings"
+
+    The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
+
+    For detailed setup instructions and more information, please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
+
+---
 
 === "Log"
 
@@ -305,20 +287,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
     For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
-
-=== "Security"
-
-    The Security page allows you to configure various security settings to protect your network and router from unauthorized access. This page includes options for:
-
-    * Admin Password: Set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
-    * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
-    *Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
-
-    These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
-
-    For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 
@@ -338,24 +306,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ### Product information
 
-The Marble (GL-B3000) router is an art of its own, cleverly displayed as a photo frame to house your favorite art piece and elevate your living space. Not just a visual delight to the eye, the Marble (GL-B3000) router delivers top-notch performance by featuring Wi-Fi 6 and supporting VPN capabilities.
-
-### Package contents
-
-Your router package includes:
-
-- 1 x User manual
-- 1 x Marble (GL-B3000)
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Wall mount kit
-- 1 x Power adapter (Selected plug type)
-- 1 x Adhesive pad
-- 1 x Router stand
-- 1 x Photo frame (Optional)
-
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
+Creta (GL-AR750) is a dual-band travel AC router. The simultaneous dual-band supports up to 733Mbps (2.4GHz: 300Mbps + 5GHz: 433Mbps) wireless transmission rate. Creta can convert a public network to a private Wi-Fi for secure surfing. External storage supports MicroSD up to 128GB. OpenWrt/LEDE and OpenVPN are pre-installed. Therefore, Creta gives the privacy-minded users a fast and simple VPN that utilizes state-of-the-art cryptography.
 
 ### Specifications
 
-Refer to [Specifications](https://www.gl-inet.com/products/gl-b3000/#specs){target="_blank"}. 
+Refer to [Specifications](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}. 

@@ -28,6 +28,8 @@ You can also refer to video tutorial below.
 
     **Note:** Same router models with different manufacturing dates may have different LED colours or flashing sequences, it won't affect the UBoot process. Please pay more attention to the change of the flashing LED.
 
+    - For **GL-B3000(Marble)**, the blue LED light flashes 7 times, then the white light turns on and stays on.
+
     - For **GL-MT6000(Flint 2)**, the blue LED flashes 6 times then turns white and stays on.
 
     - For **GL-MT3000(Beryl AX)**, the blue LED flashes 6 times then turns white and stays on.
@@ -79,6 +81,8 @@ You can also refer to video tutorial below.
 4. Manually set the IP address of your computer to **192.168.1.2**. Please check the step-by-step guide for different operating systems below:
 
     ??? "Windows 7 / Windows 10"
+    
+        ## Windows 7 / Windows 10
 
         1. Go to **Control Panel** -> **Network and Internet** -> **Network and Sharing Center** -> **Change adapter settings**.
 
@@ -95,6 +99,8 @@ You can also refer to video tutorial below.
         6. Click the **OK** button.
 
     ??? "Windows 11"
+    
+        ## Windows 11
 
         1. Open Settings.
 
@@ -123,6 +129,8 @@ You can also refer to video tutorial below.
         9. Click the **Save** button.
 
     ??? "macOS"
+    
+        ## macOS
 
         1. Click the **Apple** icon in the top left corner of the screen, and select **System Preferences**.
 

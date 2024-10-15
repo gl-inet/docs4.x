@@ -1,5 +1,7 @@
 # Set Up OpenVPN Server on GL.iNet Router
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GSbytyaqOY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
 
 We recommend WireGuard over OpenVPN because it is much faster. For setup a WireGuard Server, please check out [here](wireguard_server.md).
@@ -12,7 +14,9 @@ Please check if you Internet Service Provider assigns you a public IP address [h
 
 **If not, you can't connect to the OpenVPN Server.**
 
-An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}.
+Alternative methods:
+* To use a SDWAN solution, we suggest [AstroWarp](https://www.astrowarp.net){target="_blank"}.
+* To use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com){target="_blank"}, check the tutorial [here](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md).
 
 ## Network Topology
 
@@ -40,9 +44,9 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
     If you do not need to modify the configuration, please click directly the **Export Client Configuration** at the bottom of page. If you have modified the configuration, please click the **Apply** button to continue.
 
-    * **Device Mode:** TAP-S2S or Tun. To find out what the difference is, check out [tap s2s vs tun](../tutorials/tap_s2s_vs_tun.md).
+    * **Device Mode:** TAP-S2S or Tun. To find out what the difference is, check out [TAP-S2S vs Tun](../tutorials/tap_s2s_vs_tun.md).
 
-    * **Protocol:** UDP or TCP. To find out what the difference is, check out [tcp vs udp](../faq/openvpn_tcp_udp.md).
+    * **Protocol:** UDP or TCP. To find out what the difference is, check out [TCP vs UDP](../faq/openvpn_tcp_udp.md).
 
     * **Authentication Mode:** There are three options **Only Certificate**, **Only Username/Password**, **Username/Password and Certificate**. 
     

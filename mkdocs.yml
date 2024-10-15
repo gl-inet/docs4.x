@@ -124,6 +124,7 @@ nav:
     - Overview: faq/index.md
     - Common:
       - First Time Setup: faq/first_time_setup.md
+      - Warning from your browser: faq/warning_from_your_browser_during_setup.md
       - Debrick via Uboot: faq/debrick.md
       - LED Indication: faq/led.md
       - Repair or Reset: faq/repair_network_or_reset_firmware.md

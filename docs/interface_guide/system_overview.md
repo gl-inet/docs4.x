@@ -9,7 +9,7 @@ The Overview page displays the status of some hardwares and supports some simple
 - Control of LEDs and fan.
 - System information.
 
-Here is the example of GL-AX1800.
+Here is the example of GL-AXT1800.
 
 ![system overview](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/system_overview.png){class="glboxshadow"}
 

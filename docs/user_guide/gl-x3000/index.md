@@ -125,9 +125,12 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     AdGuard Home is a third-party tool that blocks ads and tracking to keep you safe. To learn how to enable AdGuard Home, refer to [AdGuard Home](https://docs.gl-inet.com/router/en/4/interface_guide/adguardhome/). 
 
+
 === "Drop-in gateway"
 
     Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. To set up drop-in gateway, refer to [How to set up drop-in gateway](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_drop_in_gateway/). 
+
+---
 
 === "Dynamic DNS"
 
@@ -141,7 +144,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "eSIM"
 
-    This router supports eSIM functionality. To learn how to set up and manage eSIM on your device, please refer to [this tutorial](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/).
+    This router supports eSIM functionality. To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_set_up_esim.md).
     
 ---
 

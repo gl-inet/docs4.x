@@ -30,6 +30,7 @@ Learn how to use our devices and how to solve some common problems.
 * [What should I do if my router is bricked?](debrick.md)
 * [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel.md)
 * [My Wireguard server is not working properly](my_wireguard_server_is_not_working.md)
+* [What should I do if I saw Subnet Conflict](what_should_i_do_with_subnet_conflict.md)
 
 ## Internet Connection
 

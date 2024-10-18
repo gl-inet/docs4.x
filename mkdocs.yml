@@ -141,7 +141,8 @@ nav:
       - MacOS cannot write in Samba: faq/macos_cannot_write_samba.md
       - My Wireguard server is not working properly: faq/my_wireguard_server_is_not_working.md
       - Stuck on the "Installing" screen: faq/stuck_on_installing_screen.md
-      - What Should I do if I saw Subnet Conflict: fad/what_should_i_do_with_subnet_conflict.md
+      - What Should I do if I saw Subnet Conflict: faq/what_should_i_do_with_subnet_conflict.md
+      - Warning on DDNS Test: faq/warning_on_ddns_test.md
     - Internet:
       - Build up an Intranet: faq/build_up_an_intranet.md
       - Cannot Scan Android 5G Hotspot: faq/cannot_scan_android_5g_hotspot.md

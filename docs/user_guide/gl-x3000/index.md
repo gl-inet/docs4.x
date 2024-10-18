@@ -139,6 +139,10 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up parental controls, refer to [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control). 
 
+=== "eSIM"
+
+    How to set up esim：[https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/]https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/
+
 ---
 
 ## System settings

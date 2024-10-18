@@ -141,8 +141,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "eSIM"
 
-    How to set up esim：[https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/]https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/
-
+    This router supports eSIM functionality. To learn how to set up and manage eSIM on your device, please refer to [this tutorial](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/).
+    
 ---
 
 ## System settings

@@ -40,6 +40,8 @@ There are four modes.
 
     ![dns proxy](https://static.gl-inet.com/docs/router/en/4/tutorials/dns/dns_server_settings_dns_proxy.png){class="glboxshadow"}
 
+    The router will forward all DNS requests to this DNS server. This might be useful if you are already running another DNS server or Pi-hole in your network.
+
 ## Edit Hosts
 
 Requests from clients will be resolved preferentially using the static DNS rules you write in Hosts.

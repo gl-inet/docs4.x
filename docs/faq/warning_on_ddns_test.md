@@ -10,7 +10,7 @@ It is a test result about your router position. If your GLiNet router is sitting
 
 This message will not disappear even if you have done the port forward on your primary router.
 
-It is just keeping to remind you the router position is behind NAT. If you need any service to passthough the NAT, you need some extra settings.
+It is just keeping to remind you the router position is behind NAT. If you need any service to pass through the NAT, you need some extra settings.
 
 If you get the below message, then you may using a cellular network and DDNS setup is not possible.
 

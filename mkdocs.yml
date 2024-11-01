@@ -192,6 +192,7 @@ nav:
       - VPN Cascading: tutorials/vpn_cascading.md
       - Use Wireguard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
       - How to get configuration files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+      - How to configure domain and IP filtering rules via an online txxt file: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_txt_file.md
     - Network Storage:
       - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
     - GoodCloud:

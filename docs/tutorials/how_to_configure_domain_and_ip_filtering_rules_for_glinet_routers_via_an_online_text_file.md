@@ -23,3 +23,46 @@ To ensure the router downloads the correct content, use the raw content URL in t
 
 This way, the router will be able to fetch the plain text content of the file.
 
+## Filter Formats for VPN Policy Based on the Target Domain or IP
+
+The "VPN Policy Based on the Target Domain or IP" feature supports the following filter formats in the online text file:
+
+* Domain name format: Use the domain name, such as `netflix.com`, to match all subdomains of `netflix.com`.
+* Subdomain format: Specify the full subdomain, such as `www.netflix.com`, to match only the specific subdomain.
+* CIDR format: Use CIDR notation to specify IP address ranges, such as `192.168.10.0/24`.
+* IPv4 address format: Specify individual IPv4 addresses, such as `192.168.10.10`.
+
+## Filter Formats for Parental Control Add a New Ruleset
+
+The "Add a New Ruleset" feature in Parental Control supports the following filter formats in the online text file:
+
+* Domain name format: Use the domain name, such as `instagram.com`, to match the specific domain.
+* Keyword format: Use a keyword, such as `instagram`, to match all URLs that contain the keyword. This provides a fuzzy matching capability.
+
+When creating the online text file, use one filter per line. The router will process each line according to the specified format and apply the corresponding rules to the VPN or Parental Control feature.
+
+## Examples
+
+For "VPN Policy Based on the Target Domain or IP":
+
+```
+netflix.com
+www.hulu.com
+192.168.10.0/24
+192.168.10.10
+```
+
+For "Parental Control Add a New Ruleset":
+
+```
+instagram.com
+facebook
+x.com
+snapchat
+```
+
+By following these filter formats, you can easily create and maintain the online text file for configuring the VPN and Parental Control features on your router.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

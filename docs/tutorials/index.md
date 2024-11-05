@@ -14,6 +14,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to set up an OpenVPN server on a GL.iNet router](build_your_own_openvpn_home_server_with_two_glrouter.md)
 * [Build your own WireGuard Home Server with two GL.iNet Routers](build_your_own_wireguard_home_server_with_two_glinet_routers.md)
 * [How to connect to the dedicated IP by NordVPN on GL.iNet routers?](how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md)
+* [How to connect to the dedicated IP by Surfshark on GL.iNet routers?](how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md)
 * [How to set up OpenVPN server via Astrorelay?](how_to_set_up_openvpn_server_via_astrorelay.md)
 * [How to set up WireGuard server via Astrorelay?](how_to_set_up_wireguard_server_via_astrorelay.md)
 * [How to visit WireGuard client LAN side from Server?](wireguard_server_access_to_client_lan_side.md)

@@ -54,3 +54,4 @@ Learn how to use our devices correctly with detailed steps.
 * [How to activate or top up T-Mobile SIM cards](how_to_activate_top_up_sim_cards.md)
 * [Hot to retrieve the Mobile App Log](how_to_retrieve_the_mobile_app_log.md)
 * [Technical Support via GoodCloud](technical_support_via_goodcloud.md)
+* [How to Configure Domain and IP Filtering Rules for GL.iNet Routers via an Online Text File](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)

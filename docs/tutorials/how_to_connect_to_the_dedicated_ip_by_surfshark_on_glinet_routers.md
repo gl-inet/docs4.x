@@ -12,24 +12,24 @@ Under the Dedicated IP section, click on Settings.
 
 ![setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark_dip/setting.jpg){calss="glboxshadow"}
 
-## Select protocol 
+## Select a protocol 
 
 ![protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/protocol.jpg){calss="glboxshadow"}
 
-## Download
+## Download Configuration files
 
-### Wireguard
+### Wireguard Configuration
 
 ![loadwg](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark_dip/loadwg.jpg){calss="glboxshadow"}
 
-### OpenVPN
+### OpenVPN Configuration
 
 Copy the credentials and paste them to the router.
 
 ![loadovpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/loadovpn.jpg){calss="glboxshadow"}
 
-## Upload to GLiNet router
+## Upload Configuration files to GLiNet router
 
-[Set up Wiregyard Client](../interface_guide/wireguard_client.md)
+[Set up Wireguard Client](../interface_guide/wireguard_client.md)
 
 [Set up OpenVPN Client](../interface_guide/openvpn_client.md)

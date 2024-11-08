@@ -66,7 +66,7 @@ To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"L
 - **E750V1※/E750V2**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/e750/esim/) that supports eSIM.
 - **X3000**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/x3000/esim/) that supports eSIM.
 - **XE3000**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/xe3000/esim/) that supports eSIM.
-- **XE300※**: PPlease upgrade to [firmware](http://download.gl-inet.com/firmware/xe300/esim/) that supports eSIM.
+- **XE300※**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/xe300/esim/) that supports eSIM.
 - **X750V1※/X750V2※**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/x750/esim/) that supports eSIM.
 - **X300B**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/x300b/esim/) that supports eSIM.
 

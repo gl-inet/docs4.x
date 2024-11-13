@@ -4,9 +4,9 @@ An Introduction to our future products, and a glimpse into our latest developmen
 
 ## GL-B3000 (Marble)
 
-Decorative Wi-Fi 6 OpenWrt Router for Homes
+Decorative Wi-Fi 6 Router for Homes
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D75YEYdYKPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eV2AuTpZx3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-MT6000 (Flint 2)
 

@@ -14,6 +14,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to set up an OpenVPN server on a GL.iNet router](build_your_own_openvpn_home_server_with_two_glrouter.md)
 * [Build your own WireGuard Home Server with two GL.iNet Routers](build_your_own_wireguard_home_server_with_two_glinet_routers.md)
 * [How to connect to the dedicated IP by NordVPN on GL.iNet routers?](how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md)
+* [How to connect to the dedicated IP by Surfshark on GL.iNet routers?](how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md)
 * [How to set up OpenVPN server via Astrorelay?](how_to_set_up_openvpn_server_via_astrorelay.md)
 * [How to set up WireGuard server via Astrorelay?](how_to_set_up_wireguard_server_via_astrorelay.md)
 * [How to visit WireGuard client LAN side from Server?](wireguard_server_access_to_client_lan_side.md)
@@ -53,3 +54,4 @@ Learn how to use our devices correctly with detailed steps.
 * [How to activate or top up T-Mobile SIM cards](how_to_activate_top_up_sim_cards.md)
 * [Hot to retrieve the Mobile App Log](how_to_retrieve_the_mobile_app_log.md)
 * [Technical Support via GoodCloud](technical_support_via_goodcloud.md)
+* [How to Configure Domain and IP Filtering Rules for GL.iNet Routers via an Online Text File](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)

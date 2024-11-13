@@ -188,10 +188,12 @@ nav:
       - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - How to set up Wireguard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
       - How to connect to the dedicated IP by NordVPN on GL.iNet routers?: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
+      - How to connect to the dedicated IP by Surfshark on GL.iNet routers?: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
       - TAP-S2S or TUN: tutorials/tap_s2s_vs_tun.md
       - VPN Cascading: tutorials/vpn_cascading.md
       - Use Wireguard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
       - How to get configuration files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+      - How to configure domain and IP filtering rules via an online text file: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
     - Network Storage:
       - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
     - GoodCloud:

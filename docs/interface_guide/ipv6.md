@@ -16,7 +16,7 @@ After enabled.
 
 **Mode**: There are four modes, **NAT6**, **Native**, **Passthrough** and **Static IPv6**.
 
-- NAT6 mode is suitable for scenarios where a router is used as a management gateway to assign dynamic internal IPv6 addresses to each device on the network. In this mode, terminal devices connect through a light cat and obtain a local area network IPv6 address.
+- NAT6 mode is suitable for scenarios where a router is used as a management gateway to assign dynamic internal IPv6 addresses to each device on the network. In this mode, terminal devices connect through a Optical Network Terminal and obtain a local area network IPv6 address.
 
 - Native mode is applicable when the router directly obtains a public IPv6 address, and the router automatically assigns IPv6 addresses to online devices. This mode can meet the IPv6 access needs of most users.
 

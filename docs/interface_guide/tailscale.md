@@ -10,6 +10,8 @@ The Tailscale feature in GL.iNet router allow the router to join the Tailscale v
 
 **Note**: This feature is currently in beta, and may have some bugs.
 
+**Note**: GL.iNet router is **not yet available as an exit node**.
+
 ## Supported models
 
 | Router Model                   | Support   |
@@ -142,8 +144,6 @@ The operation steps are as follows.
 The exit node feature lets you route all non-Tailscale internet traffic through a specific device on your network. The device routing your traffic is called an “exit node”.
 
 ![exitnode](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/exitnode.jpg){class="glboxshadow"}
-
-**Note**: GL.iNet router is not yet available as an exit node.
 
 **Note**: If the router's DNS Server is a private IP address that can be accessed only in the local network, you may lose the Internet access when running the exit nodes. Please go to Network > DNS menu and set a manual public DNS server such as 8.8.8.8 as the solution.
 

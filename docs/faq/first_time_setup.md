@@ -94,6 +94,10 @@ Here is an example of GL-MT2500A (Brume 2).
 
         Use your computer or smartphone to connect to the Wi-Fi of the second router.
 
+        !!! note
+        
+            The second router mentioned here is a regular router, like GL.iNet GL-AXT1800, TP-LINK, or Netgear routers. Modems, Optical Network Terminals, or devices provided by ISPs may not work in this scenario.
+
 3. Access the web Admin Panel
 
     Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. If can't access the web Admin Panel, please check [here](cannot_access_web_admin_panel.md).

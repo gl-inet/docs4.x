@@ -162,7 +162,7 @@ If you encounter any difficulties, please email [support@glinet.biz](mailto:supp
 
 #### Enable Cloud Service on router
 
-On the left side of web Admin Panel -> CLOUD SERVICE -> GoodCloud. 点击 Get start，右上角会有Cloud Service弹窗，点击 Enable 按钮来开启Cloud Service。
+On the left side of web Admin Panel -> CLOUD SERVICE -> GoodCloud. Click on "Get start", and a "Cloud Service" pop-up window will appear in the upper right corner. Click the "Enable" button to turn on Cloud Service.
 
 ![enable cloud service](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.png){class="glboxshadow"}
 

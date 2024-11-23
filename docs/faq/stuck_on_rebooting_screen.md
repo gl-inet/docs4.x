@@ -1,4 +1,4 @@
-# Stuck on the "Rebooting" screen when updating the router's firmware
+# Stuck on the "Rebooting" screen when rebooting the router's firmware
 
 If you are stuck on the "Rebooting" screen when rebooting your router's firmware, follow these steps to resolve the issue:
 

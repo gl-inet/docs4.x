@@ -118,7 +118,7 @@ If you run out of the complimentary and preloaded data provided by GL.iNet, or i
 
 **G. Recommended eSIM Profile Stores:**
 
-GL.iNet recommends two partner eSIM stores for your convenience: EIOTCLUB and Tuge. You can scan the QR codes or click link ([the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Euge eSIM Store](https://esim_store.gl-inet.com/){target="_blank"}) to make a purchase based on your needs. You can also choose to buy eSIM packages from other third-party providers of your choice.
+GL.iNet recommends two partner eSIM stores for your convenience: EIOTCLUB and Tuge. You can scan the QR codes or click link ([the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Tuge eSIM Store](https://esim_store.gl-inet.com/){target="_blank"}) to make a purchase based on your needs. You can also choose to buy eSIM packages from other third-party providers of your choice.
 
 **H. Actions:**
 
@@ -142,7 +142,7 @@ After setting up your router, please follow the steps below to purchase and acti
 
 **Step 2:** Purchase an eSIM Profile from eSIM Stores.
 
-<u>Option 1</u>: Purchase an eSIM profile from one of our recommended stores: [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Euge eSIM Store](https://esim_store.gl-inet.com){target="_blank"}. 
+<u>Option 1</u>: Purchase an eSIM profile from one of our recommended stores: [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Tuge eSIM Store](https://esim_store.gl-inet.com){target="_blank"}. 
 
 
 *All eSIM profile packages purchased from these two stores are fully compatible with our routers. If you have any questions, please contact our support team at support@gl-inet.com.*

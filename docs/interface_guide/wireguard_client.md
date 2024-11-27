@@ -133,7 +133,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
     Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
 
-    ![ipvanish delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish8.png){class="glboxshadow"}
+    ![ipvanish delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish7.png){class="glboxshadow"}
 
 ## Set Up Mullvad
 

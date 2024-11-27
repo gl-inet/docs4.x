@@ -19,7 +19,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 * [Set Up IPVanish](#set-up-ipvanish)
 * [Set Up Mullvad](#set-up-mullvad)
 * [Set Up NordVPN](#set-up-nordvpn)
-* [Set Up PIA(Private Internet Access)](#set-up-piaprivate-internet-access)
+* [Set Up PIA(Private Internet Access)](#set-up-pia-private-internet-access)
 * [Set Up Surfshark](#set-up-surfshark)
 * [Set up WireGuard Client with other providers(via configuration files)](#set-up-other-providersvia-configuration-files)
 
@@ -81,7 +81,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
 3. Update servers
 
-    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+    Hide.me may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
 
     ![hideme update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme4.png){class="glboxshadow"}
 
@@ -119,7 +119,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
 4. Update servers
 
-    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+    IPVanish may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
 
     ![ipvanish update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish5.png){class="glboxshadow"}
 
@@ -129,13 +129,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
     ![ipvanish edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish6.png){class="glboxshadow"}
 
-6. Refresh
-
-    You can click **Refresh** to update the public key when the VPN server cannot be connected.
-
-    ![ipvanish refresh](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish7.png){class="glboxshadow"}
-
-7. Delete 
+6. Delete 
 
     Allow deleting all configuration files with one click and provide a prompt to also delete private key and public key.
 
@@ -223,7 +217,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
 5. Update servers
 
-    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+    NordVPN may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
 
     ![nordvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn5.png){class="glboxshadow"}
 
@@ -299,7 +293,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
 4. Update servers
 
-    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+    Surfshark may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
 
     ![surfshark update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark5.png){class="glboxshadow"}
 

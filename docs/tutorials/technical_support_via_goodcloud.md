@@ -33,7 +33,7 @@ Make sure you set the **Share Duration** for example 7 days to protect your pers
 
 After sharing the device, please provide the **MAC address** and your **router’s login password** so that we can log in and check this issue remotely.
 
-You can send this information to the GL.iNet technical support via **email** at [support@glinet.biz](mailto:support@glinet.biz) or **PM** (private message) in the [official forum](https://forum.gl-inet.com). **Please do not send both email and PM at the same time.**
+You can send this information to the GL.iNet technical support via **email** at [support@gl-inet.com](mailto:support@gl-inet.com) or **PM** (private message) in the [official forum](https://forum.gl-inet.com). **Please do not send both email and PM at the same time.**
 
 Below are the steps to send a private message in the forum:
 

@@ -33,13 +33,15 @@ Make sure you set the **Share Duration** for example 7 days to protect your pers
 
 After sharing the device, please provide the **MAC address** and your **router’s login password** so that we can log in and check this issue remotely.
 
-You can send those information to the GL.iNet technical support via **PM** (private message) in the [offical forum](https://forum.gl-inet.com):
+You can send this information to the GL.iNet technical support via **email** at [support@glinet.biz](mailto:support@glinet.biz) or **PM** (private message) in the [official forum](https://forum.gl-inet.com). **Please do not send both email and PM at the same time.**
+
+Below are the steps to send a private message in the forum:
 
 1. Go to the [offical forum](https://forum.gl-inet.com).
 2. Click on the account of the GL.iNet technical supporter you are in contact with.
 3. Click on the **Message** button to send a private message.
 
-![How to send a private message](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/technical_support_via_goodcloud_04.gif){class="glboxshadow"}
+    ![How to send a private message](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/technical_support_via_goodcloud_04.gif){class="glboxshadow"}
 
 Sometimes, new users may not be able to send a private message to GL.iNet technical support. In that case, you can respond in the same thread where you're communicating and ask the technical supporter to send you a private message first.
 

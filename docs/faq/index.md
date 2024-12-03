@@ -27,6 +27,8 @@ Learn how to use our devices and how to solve some common problems.
 * [iPhone tethering failed](iphone_tethering_fail.md)
 * [MacOS cannot write in Samba](macos_cannot_write_samba.md)
 * [Stuck on the "Installing" screen when updating the router](stuck_on_installing_screen.md)
+* [Stuck on the "Reverting" screen when resetting the router](stuck_on_reverting_screen.md)
+* [Stuck on the "Rebooting" screen when rebooting the router](stuck_on_rebooting_screen.md)
 * [What should I do if my router is bricked?](debrick.md)
 * [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel.md)
 * [My Wireguard server is not working properly](my_wireguard_server_is_not_working.md)

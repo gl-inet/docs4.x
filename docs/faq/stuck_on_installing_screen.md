@@ -2,7 +2,7 @@
 
 If you are stuck on the "Installing" screen when updating your router's firmware, refer to the following steps to resolve the issue. 
 
-![stuck on installing](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_installing/stuck-on-installing.png){class="glboxshadow"}
+![stuck on installing](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_installing/installing.png){class="glboxshadow"}
 
 After each step, check if the issue is resolved. If the issue is resolved, you can skip the rest of the steps.
 
@@ -13,8 +13,6 @@ After each step, check if the issue is resolved. If the issue is resolved, you c
 3. Use a different browser (e.g., Edge, Safari) to upload your router's firmware again. 
 
 If the issue persists, contact our Support Team via email at [support@gl.inet.biz](mailto:support@glinet.biz). 
-
-
 
 ---
 

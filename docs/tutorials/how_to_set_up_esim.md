@@ -2,7 +2,7 @@
 
 This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. The eSIM Physical card is compatible with the [Mudi (GL-E750)※/Mudi V2 (GL-E750V2)](https://www.gl-inet.com/products/gl-e750/), [Spitz AX (GL-X3000)](https://www.gl-inet.com/products/gl-x3000/), [Puli AX (GL-XE3000)](https://www.gl-inet.com/products/gl-xe3000/), [Puli (GL-XE300)※](https://www.gl-inet.com/products/gl-xe300/), [Spitz (GL-X750)※](https://www.gl-inet.com/products/gl-x750/), and [Collie (GL-X300B)](https://www.gl-inet.com/products/gl-x300b/) routers, ensuring seamless internet connectivity.
 
-*※These products do not support eSIM with Quectel EP06-A modules due to the Qualcomm software lacking support for specific AT commands. For EP06-E, please refer to this [LINK](https://forum.gl-inet.com/t/48907){target="_blank"} to upgrade to the latest software for eSIM functionality.*
+*※Products with Quectel EP06-A modules do NOT support eSIM, as the Qualcomm software lacks specific AT command support. For products with EP06-E modules, please refer to this [LINK](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} to upgrade to the latest firmware and enable eSIM functionality.*
 
 ![eSIM Physical Card](https://static.gl-inet.com/www/images/solutions/esim/esimchip-and-physical-esim.jpg){class="glboxshadow"}
 
@@ -118,7 +118,7 @@ If you run out of the complimentary and preloaded data provided by GL.iNet, or i
 
 **G. Recommended eSIM Profile Stores:**
 
-GL.iNet recommends two partner eSIM stores for your convenience: EIOTCLUB and Tuge. You can scan the QR codes or click link ([the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Euge eSIM Store](https://esim_store.gl-inet.com/){target="_blank"}) to make a purchase based on your needs. You can also choose to buy eSIM packages from other third-party providers of your choice.
+GL.iNet recommends two partner eSIM stores for your convenience: EIOTCLUB and Tuge. You can scan the QR codes or click link ([the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Tuge eSIM Store](https://esim_store.gl-inet.com/){target="_blank"}) to make a purchase based on your needs. You can also choose to buy eSIM packages from other third-party providers of your choice.
 
 **H. Actions:**
 
@@ -142,7 +142,7 @@ After setting up your router, please follow the steps below to purchase and acti
 
 **Step 2:** Purchase an eSIM Profile from eSIM Stores.
 
-<u>Option 1</u>: Purchase an eSIM profile from one of our recommended stores: [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Euge eSIM Store](https://esim_store.gl-inet.com){target="_blank"}. 
+<u>Option 1</u>: Purchase an eSIM profile from one of our recommended stores: [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Tuge eSIM Store](https://esim_store.gl-inet.com){target="_blank"}. 
 
 
 *All eSIM profile packages purchased from these two stores are fully compatible with our routers. If you have any questions, please contact our support team at support@gl-inet.com.*

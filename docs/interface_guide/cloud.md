@@ -162,7 +162,7 @@ If you encounter any difficulties, please email [support@glinet.biz](mailto:supp
 
 #### Enable Cloud Service on router
 
-On the left side of web Admin Panel -> CLOUD SERVICE -> GoodCloud. 点击 Get start，右上角会有Cloud Service弹窗，点击 Enable 按钮来开启Cloud Service。
+On the left side of web Admin Panel -> CLOUD SERVICE -> GoodCloud. Click on "Get start", and a "Cloud Service" pop-up window will appear in the upper right corner. Click the "Enable" button to turn on Cloud Service.
 
 ![enable cloud service](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.png){class="glboxshadow"}
 
@@ -308,13 +308,19 @@ Please refer to [GoodCloud Site to Site](../tutorials/goodcloud_site_to_site.md)
 
 ## GoodCloud and VPN
 
-If you enable GoodCloud function and running VPN client at the same time on router, by default, the connection between the router and the GoodCloud server will also go through the VPN, but sometimes the VPN connection is unstable, or the VPN provider mistakenly filters the GoodCloud connection, you can make the GoodCloud connection not go through the VPN by using the following settings.
+If you enable GoodCloud function and running VPN client at the same time on router, by default, the connection between the router and the GoodCloud server will not go through the VPN. This ensures a more stable connection to GoodCloud services.
 
-Go to web Admin Panel, on the left side, VPN -> VPN Dashboard -> VPN Client -> Global Options.
+However, if you want the GoodCloud connection to go through the VPN, you can change this setting in the router's web Admin Panel. Go to VPN -> VPN Dashboard -> VPN Client -> Global Options, and enable the option for GoodCloud to use VPN.
 
 ![Services from GL.iNet doesn't Use VPN](https://static.gl-inet.com/docs/router/en/4/tutorials/cloud/goodcloud_donot_use_vpn.png){class="glboxshadow"}
 
-It is not recommended to run Site to Site while its nodes are also running VPN client, which can make the network particularly complex.
+Note that routing GoodCloud through VPN may affect the stability of the cloud connection, especially if:
+
+* The VPN connection is unstable
+* The VPN provider filters or blocks GoodCloud traffic
+* The VPN adds significant latency to the connection
+
+It's generally recommended to keep the default setting where GoodCloud bypasses the VPN for optimal performance and reliability.
 
 ## View Logs
 

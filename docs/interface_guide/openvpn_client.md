@@ -153,195 +153,6 @@ If you have any problem in the setup of OpenVPN, please contact [support@glinet.
 
     You can also use [mobile app](../faq/mobile_app.md) to setup NordVPN.
 
-??? "ExpressVPN"
-    ### ExpressVPN
-
-    [Official Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"}
-
-    Information quoted from [Expressvpn official instruction](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
-
-    1. Go to [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"} website, and log in with your ExpressVPN credentials.
-
-        ![expressvpn account click sign in](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/expressvpn-account-click-sign-in.jpg){target="_blank"}
-
-        **Enter the verification code** that is sent to your email.
-
-    2. In the "Set up your devices" section, click on **More**.
-
-        ![expressvpn, set up your devices, more](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/set_up_your_devices_more.png){class="glboxshadow"}
-
-    3.  Click on **Manual Configuration**.
-
-        ![expressvpn, set up your devices, manual configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/set_up_your_devices_manual_configuration.png){class="glboxshadow"}
-
-    4.  You will see your **username**, **password**, and a list of **OpenVPN configuration files**.
-
-        ![expressvpn, setup info](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/setup_info.png){class="glboxshadow"}
-
-        Click the location(s) you want in order to download the .ovpn file(s).
-
-        **Keep this browser window open**. You will need this information for the setup later.
-
-    [Refer link](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
-
-??? "PIA (Private Internet Access)"
-    ### PIA
-
-    [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
-
-    [Download](https://www.privateinternetaccess.com/openvpn/openvpn.zip) directly.
-
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
-
-??? "CyberGhost"
-    ### CyberGhost
-
-    [Official Website](https://www.cyberghostvpn.com/offer/GLiNet_rem6fdij){target="_blank"}
-
-    Information quoted from [CyberGhost official instruction](https://support.cyberghostvpn.com/hc/en-us/articles/213811885-Router-How-to-configure-OpenVPN-for-flashed-DD-WRT-routers){target="_blank"}
-
-    1. Login your CyberGhost VPN online account.
-
-        ![login](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost1.png){class="glboxshadow"}
-
-    2. Select "**VPN**" from the left-side menu, then click "**Configure Device**" and create your server configuration, as described below:
-
-        ![config device](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost2.jpg){class="glboxshadow"}
-
-        ![save config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost3.jpg){class="glboxshadow"}
-
-    3. Now create your server configuration, as described below:
-
-        * **Protocol** : **OpenVPN**
-        * **Country** : Since native protocol connections may only be used with exactly one server you now have to choose the country you want to surf from; the server to be used in this country will be chosen by CyberGhost automatically.
-        * **Server group** : Choose the server group and the OpenVPN protocol (UDP or TCP) you want to use
-
-        **OpenVPN UDP** allows higher speed than the TCP version but can result in broken downloads in some cases. This is the default setting.
-        
-        **OpenVPN TCP** allows more stable connections than the UDP version but is a bit slower. Choose this version, if you have recurrent connection issues such as sudden disconnections.
-
-        Once the desired parameters are chosen, save them with **Save Configuration**
-
-    4. To view the **OpenVPN** credentials that are generated for you on the configuration dashboard, press **View Configuration**.
-
-        ![view configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost4.png){class="glboxshadow"}
-
-    5. After setting up your connection preferences, please take note of the following:
-
-        * **Server Group** : This is the address of the country (server) you want to be connected with, e.g. '12345-1-ca.cg-dialup.net'. This address changes with every country you have chosen in the step before. The actual single server to be used will be chosen automatically by CyberGhost.
-        * **Username** : A solely for this protocol generated user name. This is NOT your regular CyberGhost account user name, it's used only to authenticate with CyberGhost servers via Manual Configurations. You will need this when set up OpenVPN on GL.iNet routers.
-        * **Password** : A solely for protocol usage generated password. This is NOT your regular CyberGhost account password, it's used only to authenticate with CyberGhost servers via Manual Configurations. You will need this when set up OpenVPN on GL.iNet routers.
-
-        Once done, please download the configuration file. For that click on *Download Configuration* and download the config file to your computer
-
-        ![save config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost5.png){class="glboxshadow"}
-
-??? "PrivateVPN"
-    ### PrivateVPN
-
-    [Official Website](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
-
-    [Download](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/privatevpn/PrivateVPN-TUN.zip){target="_blank} directly.
-
-    [Here](https://privatevpn.com/client/PrivateVPN-TUN.zip) is the official download link. Due to a bug encountered while importing the router, the file name inside contains special characters 'Bogotá'. We have renamed it and provided the download link above. We will fix this bug in future versions.
-
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
-
-??? "Proton VPN"
-    ### Proton VPN
-
-    [Official Website](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
-
-    **Proton VPN has WireGuard service, we recommend to use WireGuard, checkout [here](wireguard_client.md#wireguard-providers)**.
-
-    1. Login your [Proton VPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"} account.
-
-    2. Click **Download** in the left-hand side.
-
-    3. Choose Router platform, protocol etc, find your target country to download configuration file.
-
-        ![protonvpn openvpn configuration file](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/proton_openvpn_configuration_file.jpg){class="glboxshadow"}
-
-    4. The credential for connect OpenVPN is not the one that login Proton website's dashboard. You can find the crdential at **Account -> OpenVPN/IKEv2 username**
-
-        ![protonvpn openvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
-
-??? "PureVPN"
-    ### PureVPN
-
-    [Official Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
-
-    To set up an OpenVPN client using PureVPN, you will need your OpenVPN username and password and a configuration file, which you can find in your PureVPN account. 
-   
-    1. [Sign in to your PureVPN account.](https://my.purevpn.com/)
-    2. From the left sidebar, click **Subscriptions**.
-    3. Scroll down to find your OpenVPN username and password.
-        ![purevpn username and password](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/purevpn-vpn-username-vpn-password.png){class="glboxshadow"}
-    4. From the left sidebar, click **Manual Configuration**. 
-    5. Select a VPN location and click **Download** to download the configuration file. 
-
-    [Refer link](https://support.purevpn.com/openvpn-files)
-
-    GL.iNet routers don't support the [dedicated IP](https://www.purevpn.com/dedicated-ip){target="_blank"} feature of PureVPN, because it needs PPTP.
-
-??? "Surfshark"
-    ### Surfshark
-
-    [Official Website](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
-
-    1. **Find your login details**
-
-        Surfshark service credentials are different from your Surfshark account credentials, namely your email address and your password. You'll need Surfshark service credentials to connect to the VPN using the manual OpenVPN configuration method in the router.
-
-        Login the [Official Website](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}, go to [this page](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}, where you will find all of the details required for a manual connection.
-
-        ![surfshark service credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_service_credential.png){class="glboxshadow"}
-
-    2. **Choose a Surfshark server**
-
-        Select the **Locations** tab, where you will see all of the Surfshark servers.
-
-        ![surfshark locations](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_locations.png){class="glboxshadow"}
-
-        It will ask to choose TCP or UDP. Click [here](../faq/openvpn_tcp_udp.md) to see the difference.
-
-        ![surfshark tcp udp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_udp_tcp.png){class="glboxshadow" width="400"}
-
-
-    You can download all configs [here](https://api.surfshark.com/v1/server/configurations) directly.
-
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
-
-    [Refer link](https://support.surfshark.com/hc/en-us/articles/360011856259-How-to-set-up-Surfshark-on-GL-iNet-router-3-x-firmware-){target="_blank"}
-
-??? "StrongVPN"
-    ### StrongVPN
-
-    [Official Website](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
-
-    1. Login with your [StrongVPN](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"} account and then you will be able to see VPN Accounts Summary. Click Account Setup Instructions”.
-
-        ![strongvpn setup 1](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_01.jpg){class="glboxshadow"}
-
-    2. Find the Manual setup section, follow the steps to get configuration.
-
-        ![strongvpn get config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_02.jpg){class="glboxshadow"}
-
-??? "OVPN"
-    ### OVPN
-
-    [Official Website](https://www.ovpn.com/en?ref=glinet){target="_blank"}
-    
-    Just login, then you can easily get the OpenVPN configurations file by click the menu below.
-
-    ![get ovpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/get_ovpn_configuration_files.jpg){class="glboxshadow"}
-
-    Choose the server and download.
-
-    ![download ovpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/download_configuration_files.jpg){class="glboxshadow"}
-
-    The username and password are the same you login OVPN.
-
 ??? "AirVPN"
     ### AirVPN
 
@@ -408,6 +219,80 @@ If you have any problem in the setup of OpenVPN, please contact [support@glinet.
     [Official Website](https://cryptostorm.is/){target="_blank"}
 
     [Download](https://cryptostorm.is/configs/ecc/){target="_blank"} directly.
+
+??? "CyberGhost"
+    ### CyberGhost
+
+    [Official Website](https://www.cyberghostvpn.com/offer/GLiNet_rem6fdij){target="_blank"}
+
+    Information quoted from [CyberGhost official instruction](https://support.cyberghostvpn.com/hc/en-us/articles/213811885-Router-How-to-configure-OpenVPN-for-flashed-DD-WRT-routers){target="_blank"}
+
+    1. Login your CyberGhost VPN online account.
+
+        ![login](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost1.png){class="glboxshadow"}
+
+    2. Select "**VPN**" from the left-side menu, then click "**Configure Device**" and create your server configuration, as described below:
+
+        ![config device](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost2.jpg){class="glboxshadow"}
+
+        ![save config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost3.jpg){class="glboxshadow"}
+
+    3. Now create your server configuration, as described below:
+
+        * **Protocol** : **OpenVPN**
+        * **Country** : Since native protocol connections may only be used with exactly one server you now have to choose the country you want to surf from; the server to be used in this country will be chosen by CyberGhost automatically.
+        * **Server group** : Choose the server group and the OpenVPN protocol (UDP or TCP) you want to use
+
+        **OpenVPN UDP** allows higher speed than the TCP version but can result in broken downloads in some cases. This is the default setting.
+        
+        **OpenVPN TCP** allows more stable connections than the UDP version but is a bit slower. Choose this version, if you have recurrent connection issues such as sudden disconnections.
+
+        Once the desired parameters are chosen, save them with **Save Configuration**
+
+    4. To view the **OpenVPN** credentials that are generated for you on the configuration dashboard, press **View Configuration**.
+
+        ![view configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost4.png){class="glboxshadow"}
+
+    5. After setting up your connection preferences, please take note of the following:
+
+        * **Server Group** : This is the address of the country (server) you want to be connected with, e.g. '12345-1-ca.cg-dialup.net'. This address changes with every country you have chosen in the step before. The actual single server to be used will be chosen automatically by CyberGhost.
+        * **Username** : A solely for this protocol generated user name. This is NOT your regular CyberGhost account user name, it's used only to authenticate with CyberGhost servers via Manual Configurations. You will need this when set up OpenVPN on GL.iNet routers.
+        * **Password** : A solely for protocol usage generated password. This is NOT your regular CyberGhost account password, it's used only to authenticate with CyberGhost servers via Manual Configurations. You will need this when set up OpenVPN on GL.iNet routers.
+
+        Once done, please download the configuration file. For that click on *Download Configuration* and download the config file to your computer
+
+        ![save config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost5.png){class="glboxshadow"}
+
+??? "ExpressVPN"
+    ### ExpressVPN
+
+    [Official Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"}
+
+    Information quoted from [Expressvpn official instruction](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
+
+    1. Go to [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"} website, and log in with your ExpressVPN credentials.
+
+        ![expressvpn account click sign in](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/expressvpn-account-click-sign-in.jpg){target="_blank"}
+
+        **Enter the verification code** that is sent to your email.
+
+    2. In the "Set up your devices" section, click on **More**.
+
+        ![expressvpn, set up your devices, more](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/set_up_your_devices_more.png){class="glboxshadow"}
+
+    3.  Click on **Manual Configuration**.
+
+        ![expressvpn, set up your devices, manual configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/set_up_your_devices_manual_configuration.png){class="glboxshadow"}
+
+    4.  You will see your **username**, **password**, and a list of **OpenVPN configuration files**.
+
+        ![expressvpn, setup info](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/setup_info.png){class="glboxshadow"}
+
+        Click the location(s) you want in order to download the .ovpn file(s).
+
+        **Keep this browser window open**. You will need this information for the setup later.
+
+    [Refer link](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
 
 ??? "FastestVPN"
     ### FastestVPN
@@ -536,6 +421,36 @@ If you have any problem in the setup of OpenVPN, please contact [support@glinet.
 
     [Refer link](https://www.ivpn.net/setup/gnu-linux-terminal.html)
 
+??? "Mullvad"
+    ### Mullvad
+
+    [Official Website](https://mullvad.net/en){target="_blank"}
+
+    1. Go to [Mullvad](https://mullvad.net/en){rel="sponsored" target="_blank"} website, and log in with your Mullvad credentials.
+
+    2. Choose OpenVPN Configuration
+
+    ![ovpnconfig](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ovpnconfig.jpg){class="glboxshadow"}
+
+    3. Choose **Linux** and select your server location
+
+    ![linux](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/linux.jpg){class="glboxshadow"}
+
+??? "OVPN"
+    ### OVPN
+
+    [Official Website](https://www.ovpn.com/en?ref=glinet){target="_blank"}
+    
+    Just login, then you can easily get the OpenVPN configurations file by click the menu below.
+
+    ![get ovpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/get_ovpn_configuration_files.jpg){class="glboxshadow"}
+
+    Choose the server and download.
+
+    ![download ovpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/download_configuration_files.jpg){class="glboxshadow"}
+
+    The username and password are the same you login OVPN.
+
 ??? "OysterVPN"
     ### OysterVPN
 
@@ -549,6 +464,15 @@ If you have any problem in the setup of OpenVPN, please contact [support@glinet.
 
     Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
 
+??? "PIA (Private Internet Access)"
+    ### PIA
+
+    [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
+
+    [Download](https://www.privateinternetaccess.com/openvpn/openvpn.zip) directly.
+
+    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+
 ??? "PrivadoVPN"
     ### PrivadoVPN
 
@@ -559,6 +483,54 @@ If you have any problem in the setup of OpenVPN, please contact [support@glinet.
     ![PrivadoVPN OpenVPN configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/privadovpn/privadovpn_openvpn_configuration.png){class="glboxshadow"}
 
     Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+
+??? "PrivateVPN"
+    ### PrivateVPN
+
+    [Official Website](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
+
+    [Download](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/privatevpn/PrivateVPN-TUN.zip){target="_blank} directly.
+
+    [Here](https://privatevpn.com/client/PrivateVPN-TUN.zip) is the official download link. Due to a bug encountered while importing the router, the file name inside contains special characters 'Bogotá'. We have renamed it and provided the download link above. We will fix this bug in future versions.
+
+    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+
+??? "Proton VPN"
+    ### Proton VPN
+
+    [Official Website](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
+
+    **Proton VPN has WireGuard service, we recommend to use WireGuard, checkout [here](wireguard_client.md#wireguard-providers)**.
+
+    1. Login your [Proton VPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"} account.
+
+    2. Click **Download** in the left-hand side.
+
+    3. Choose Router platform, protocol etc, find your target country to download configuration file.
+
+        ![protonvpn openvpn configuration file](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/proton_openvpn_configuration_file.jpg){class="glboxshadow"}
+
+    4. The credential for connect OpenVPN is not the one that login Proton website's dashboard. You can find the crdential at **Account -> OpenVPN/IKEv2 username**
+
+        ![protonvpn openvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
+
+??? "PureVPN"
+    ### PureVPN
+
+    [Official Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
+
+    To set up an OpenVPN client using PureVPN, you will need your OpenVPN username and password and a configuration file, which you can find in your PureVPN account. 
+   
+    1. [Sign in to your PureVPN account.](https://my.purevpn.com/)
+    2. From the left sidebar, click **Subscriptions**.
+    3. Scroll down to find your OpenVPN username and password.
+        ![purevpn username and password](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/purevpn-vpn-username-vpn-password.png){class="glboxshadow"}
+    4. From the left sidebar, click **Manual Configuration**. 
+    5. Select a VPN location and click **Download** to download the configuration file. 
+
+    [Refer link](https://support.purevpn.com/openvpn-files)
+
+    GL.iNet routers don't support the [dedicated IP](https://www.purevpn.com/dedicated-ip){target="_blank"} feature of PureVPN, because it needs PPTP.
 
 ??? "SaferVPN"
     ### SaferVPN
@@ -599,7 +571,7 @@ If you have any problem in the setup of OpenVPN, please contact [support@glinet.
         Some GL.iNet routers do not support IPv6 or DNS Leak Protection, as a result you may experience an IP or connection error. Edit the ovpn configuration file and disable IPv6 by performing these simple tasks.
 
         ![troubleshooting](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/troubleshooting.jpg){class="glboxshadow"}
-
+        
 ??? "StreamVPN"
 
     [Official Website](https://billing.streamvpn.com/account/signup?aff_t=aaf341756f7b94ed3f040f78292b80f1db1adf3318eacb87dd9c4ad4e08fde11a%3A2%3A%7Bs%3A6%3A%22aff_id%22%3Bs%3A6%3A%22645311%22%3Bs%3A6%3A%22off_id%22%3Bi%3A10%3B%7D){target="_blank"}
@@ -613,6 +585,49 @@ If you have any problem in the setup of OpenVPN, please contact [support@glinet.
         ![streamvpn guide, vpn router](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/streamvpn/streamvpn_guide_router.png){class="glboxshadow"}
 
     **Note:** Only the configuration file name contains "Primary" work.
+
+??? "StrongVPN"
+    ### StrongVPN
+
+    [Official Website](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
+
+    1. Login with your [StrongVPN](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"} account and then you will be able to see VPN Accounts Summary. Click Account Setup Instructions”.
+
+        ![strongvpn setup 1](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_01.jpg){class="glboxshadow"}
+
+    2. Find the Manual setup section, follow the steps to get configuration.
+
+        ![strongvpn get config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_02.jpg){class="glboxshadow"}
+
+??? "Surfshark"
+    ### Surfshark
+
+    [Official Website](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
+
+    1. **Find your login details**
+
+        Surfshark service credentials are different from your Surfshark account credentials, namely your email address and your password. You'll need Surfshark service credentials to connect to the VPN using the manual OpenVPN configuration method in the router.
+
+        Login the [Official Website](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}, go to [this page](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}, where you will find all of the details required for a manual connection.
+
+        ![surfshark service credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_service_credential.png){class="glboxshadow"}
+
+    2. **Choose a Surfshark server**
+
+        Select the **Locations** tab, where you will see all of the Surfshark servers.
+
+        ![surfshark locations](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_locations.png){class="glboxshadow"}
+
+        It will ask to choose TCP or UDP. Click [here](../faq/openvpn_tcp_udp.md) to see the difference.
+
+        ![surfshark tcp udp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_udp_tcp.png){class="glboxshadow" width="400"}
+
+
+    You can download all configs [here](https://api.surfshark.com/v1/server/configurations) directly.
+
+    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+
+    [Refer link](https://support.surfshark.com/hc/en-us/articles/360011856259-How-to-set-up-Surfshark-on-GL-iNet-router-3-x-firmware-){target="_blank"}
 
 ??? "VPN.AC"
     ### VPN.AC

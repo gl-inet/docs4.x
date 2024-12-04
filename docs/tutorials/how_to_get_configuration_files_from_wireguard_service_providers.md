@@ -17,17 +17,6 @@
 
     4. You can also use [mobile app](../faq/mobile_app.md) to setup AzireVPN.
 
-??? "NordVPN"
-    ### NorVPN
-
-    [Official Website](https://nordvpn.com/){target="_blank"}
-
-    1. Access [NordVPN Official Website](https://nordvpn.com/){target="_blank"} and login, then access the copy the token.
-
-    2. Then follow the [guide](../interface_guide/wireguard_client.md/#set-up-nordvpn) to continue.
-
-    3. You can also use [mobile app](../faq/mobile_app.md) to setup Mullvad.
-
 ??? "Mullvad"
     ### Mullvad
 

@@ -113,13 +113,6 @@
 
     Then follow the [guide](#set-up-wireguard-client) to continue.
 
-??? "FastestVPN"
-    ### FastestVPN
-
-    [Official Website](https://fastestvpn.com/lifetime-special-deal?a_aid=5ffd2a3e9d687){target="_blank"}
-
-    If you are using [FastestVPN](https://fastestvpn.com/lifetime-special-deal?a_aid=5ffd2a3e9d687), please log in then access this page to generate WireGuard configurations.
-
 ??? "IVPN"
     ### IVPN
 

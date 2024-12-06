@@ -25,8 +25,9 @@
 	* Flashing blue: Searching network
 	* White: Working normally
 * VPN
-	* Off: VPN inactive
-	* On: VPN active
+	* Off: 		VPN is not connected
+	* Flashing: VPN is connecting
+	* Solid: 	VPN is connected
 
 ## GL-MT3000
 

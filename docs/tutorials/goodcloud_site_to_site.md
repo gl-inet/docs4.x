@@ -76,10 +76,6 @@ For example, my PC connect to Node 1 device, and then I use browser to access Ma
 
 ## Route and other options
 
-You can change each device's LAN IP and routes.
-
-![LAN IP and routes](https://static.gl-inet.com/goodcloud/docs/lanip-routes-s2s.png){class="glboxshadow"}
-
 By default, each node can access other's LAN, based on security, we recommend only open the corresponding service IPs.
 
 E.g. There is a Server A(172.30.97.100) in Node 1's subnet, if you want other Site to Site nodes  only can access Node 1's Service A, you can set it like below:

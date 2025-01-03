@@ -30,11 +30,12 @@ Usually models with USB ports or MicroSD(TF) slots are supported for file sharin
 | GL-XE3000 (Puli AX)            | √     | √     | √     | √        | √            |
 | GL-X3000 (Spitz AX)            | √     | √     | √     | √        | √            |
 | GL-MT3000 (Beryl AX)           | √     | √     | √     | √        | -            |
-| GL-AXT1800 (Slate AX)          | √     | √     | √     | √        | √            |
-| GL-A1300 (Slate Plus)          | √     | √     | √     | √        | -            |
 | GL-MT2500/GL-MT2500A (Brume 2) | √     | √     | √     | √        | -            |
-| GL-S1300 (Convexa-S)           | √     | √     | √     | √        | -            |
+| GL-AXT1800 (Slate AX)          | √     | √     | √     | √        | √            |
 | GL-AX1800 (Flint)              | √     | √     | √     | √        | -            |
+| GL-A1300 (Slate Plus)          | √     | √     | √     | √        | -            |
+| GL-S1300 (Convexa-S)           | √     | √     | √     | √        | -            |
+| GL-SFT1200 (Opal)*FW 4.7.2     | √     | -     | -     | √        | -            |
 | GL-MV1000/GL-MV1000W (Brume)   | √     | √     | √     | √        | √            |
 
 ## Insert Storage Device

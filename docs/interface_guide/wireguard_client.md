@@ -191,7 +191,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
     ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_dashboard.png){class="glboxshadow"}
 
-    Then you will find the service credentials.
+    Then you will find the **Access token**.
 
     ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/manual_setup.png){class="glboxshadow"}
 

@@ -191,6 +191,7 @@ You can also refer to video tutorial below.
 7. Wait for around 3 minutes. Don't power off your device when updating. The router is ready when both power and  Wi-Fi LED are on or you can find its SSID on your device.
 
 8. Revert the IP setting you did in step 4 and connect your device to the LAN or Wi-Fi of the router. You will be able to access the router via **192.168.8.1** again.
+**Note:** It might be required to delete the browser cache and cookies or to use the incognito mode to access the router. This happens often when you installed plain OpenWrt firmware before and the browser now always redirects to luci instead of the GL.iNet Web UI.
 
 ---
 

@@ -107,7 +107,7 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 5. After captured packets with qlog, use the following command to stop qlog
 
     ```
-    killall qlog*
+    ps  | grep qlog | grep -v grep | awk '{print $1}' | xargs kill -9
     ```
 
     ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_start_and_stop_qlog.png){class="glboxshadow"}

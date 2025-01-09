@@ -199,7 +199,7 @@ Your router package includes:
 
 Refer to [Specifications](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}. 
 
-### Compatible External Antennas for Spitz Plus (GL-X2000)
+### Compatible External Antennas
 
 Here are some external antennas you can purchase, depending on your needs.
 

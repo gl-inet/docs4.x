@@ -198,3 +198,10 @@ Your router package includes:
 ### Specifications
 
 Refer to [Specifications](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}. 
+
+### Compatible External Antennas for Spitz Plus (GL-X2000)
+
+Here are some external antennas you can purchase, depending on your needs.
+- [Mobile Mark LTMG308 (2x Global 5G LTE & GNSS)](https://www.mobilemark.com/product/ltmg308-2x-global-5g-lte-gnss/)
+- [Waveform MIMO 2x2 Panel External Antenna Kit](https://www.waveform.com/products/2x2-mimo-panel-kit)
+- [MINO 2x2 Log Periodic External Anntena Kit](https://www.waveform.com/products/mimo-log-periodic-hotspot-external-antennas)

@@ -68,6 +68,13 @@
   	  </a>
   	</div>
     <div class="gl-product-card">
+      <a href="gl-x2000/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_x2000.jpg" >
+        <div class="gl-product-model">GL-X2000</div>
+        <div class="gl-product-model">(Spitz Plus)</div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
       <a href="gl-ap1300/">
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ap1300lte.jpg" >
         <div class="gl-product-model-ap1300">GL-AP1300/GL-AP1300LTE</div>

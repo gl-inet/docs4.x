@@ -8,6 +8,8 @@ If you are not sure whether you have a public IP address, follow one of these me
 
 **Method 2: Check your IP address in your router admin panel and on the internet** 
 
+This method will only work if your GL.iNet router is connected to the internet directly. If you have a primary router, you will need to check the IP address on the primary router's admin panel instead. In that case see [How to set up port forwarding](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/) to forward the necessary ports from your primary router to your GL.iNet router.
+
 1. Sign in to your router's admin panel. 
     * For GL.iNet routers, enter 192.168.8.1 into a web browser and sign in.
     * If you have more than one router in your setup, sign in to the primary router's admin panel. 

@@ -14,14 +14,16 @@ You can set up WireGuard Client via web Admin Panel or [mobile app](../faq/mobil
 
 For set up via web Admin Panel, several providers are already integrated, and connection can also be established using a configuration file.
 
-* [Set Up AzireVPN](#set-up-azirevpn)
-* [Set Up Hide.me](#set-up-hideme)
-* [Set Up IPVanish](#set-up-ipvanish)
-* [Set Up Mullvad](#set-up-mullvad)
-* [Set Up NordVPN](#set-up-nordvpn)
-* [Set Up PIA(Private Internet Access)](#set-up-piaprivate-internet-access)
-* [Set Up Surfshark](#set-up-surfshark)
-* [Set up WireGuard Client with other providers(via configuration files)](#set-up-other-providersvia-configuration-files)
+- [How to Set Up WireGuard Client on GL.iNet Router](#how-to-set-up-wireguard-client-on-glinet-router)
+  - [Set Up AzireVPN](#set-up-azirevpn)
+  - [Set Up Hide.me](#set-up-hideme)
+  - [Set Up IPVanish](#set-up-ipvanish)
+  - [Set Up Mullvad](#set-up-mullvad)
+  - [Set Up NordVPN](#set-up-nordvpn)
+  - [Set Up PIA(Private Internet Access)](#set-up-piaprivate-internet-access)
+  - [Set Up Surfshark](#set-up-surfshark)
+  - [Set up other providers(via configuration files)](#set-up-other-providersvia-configuration-files)
+  - [Set Up WireGuard Server on GL.iNet Router](#set-up-wireguard-server-on-glinet-router)
 
 ## Set Up AzireVPN
 
@@ -359,7 +361,7 @@ If you are using another WireGuard service provider, you can also download the W
 
 ## Set Up WireGuard Server on GL.iNet Router
 
-You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup WireGuurd server, please check out [here](wireguard_server.md).
+You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup WireGuard server, please check out [here](wireguard_server.md).
 
 ---
 

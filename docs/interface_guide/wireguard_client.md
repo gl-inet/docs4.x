@@ -321,37 +321,37 @@ If you are using another WireGuard service provider, you can also download the W
 
 1. Click **Add Manually**.
 
-    ![add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/1. Set up other providers_Add Manually.png){class="glboxshadow"}
+    ![add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/1.add_manually.png){class="glboxshadow"}
 
 2. It will create a group.
 
-    ![add a new group](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/2. Set up other providers_create a group.png){class="glboxshadow"}
+    ![add a new group](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/2.create_a_group.png){class="glboxshadow"}
 
 3. Give the group a descriptive name, e.g. azirevpn. Then you can choose to upload configuration files or manually add configuration.
 
-    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/3. Set up other providers_set a descriptive name.png){class="glboxshadow"}
+    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/3.set_a_name.png){class="glboxshadow"}
 
     1. **Upload configuration files**
 
         Upload your WireGuard configuration file, click **Apply**.
 
-        ![upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/4. Set up other providers_upload configuration file.png){class="glboxshadow"}
+        ![upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/4.upload_configuration_file.png){class="glboxshadow"}
 
-        ![after upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/5. Set up other providers_upload configuration file(2).png){class="glboxshadow"}
+        ![after upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/5.upload_configuration_file(2).png){class="glboxshadow"}
 
     2. **Manually Add Configuration**, it is for if you want to paste the WireGuard configuration or fill in each item.
 
-        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/6. Set up other providers_Manually Add Configuration.png){class="glboxshadow"}
+        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/6.manually_add_configuration.png){class="glboxshadow"}
 
         Give a descriptive name and paste the configuration, click **Item Mode** to continue.
 
-        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/7. Set up other providers_Item Mode.png){class="glboxshadow"}
+        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/7.item_mode.png){class="glboxshadow"}
 
-        ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/8. Set up other providers_Item Mode(2).png){class="glboxshadow"}
+        ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/8.item_mode(2).png){class="glboxshadow"}
 
 4. Click the three dots icon to start / edit /delete the profile.
 
-    ![start the profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/9. Set up other providers_start_edit_delete.png){class="glboxshadow"}
+    ![start the profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/9.start_edit_delete.png){class="glboxshadow"}
 
 5. Check the connection status by go to [VPN Dashboard](vpn_dashboard.md) page.
 

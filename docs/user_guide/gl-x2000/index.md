@@ -43,7 +43,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_cellular.jpg){class='glboxshadow'}
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_cellular.jpg){class='glboxshadow'}
 
     If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light green dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
     
@@ -54,7 +54,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_ethernet.jpg){class='glboxshadow'}
+    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_ethernet.jpg){class='glboxshadow'}
     
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light green dot appears next to "Ethernet."
 
@@ -62,7 +62,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_repeater.jpg){class='glboxshadow'}
+    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_repeater.jpg){class='glboxshadow'}
 
     1. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
@@ -74,7 +74,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
 === "Tethering"
 
-     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_tethering.jpg){class='glboxshadow'}
+     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_tethering.jpg){class='glboxshadow'}
 
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
@@ -171,19 +171,19 @@ Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to 
 
 Your router package includes:
 
+- 1 x User manual
 - 1 x Spitz Plus (GL-X2000)
 - 4 x External antennas
+- 1 x Thank you card
+- 1 x Ethernet cable
 - 1 x Wall mount kit
 - 1 x Adhesive pad
 - 4 x Screws
-- 1 x User manual
-- 1 x Thank you card
 - 1 x Power adapter
-- 1 x Ethernet cable
-- 1 x Converters (Base on your shipping countries)
+- 1 x Converters (Base on your shipping countries,US/EU/UK/AU plugs)
 
 
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_unboxing.jpg){class="glboxshadow"}
 
 ### LED indicators 
 
@@ -197,12 +197,5 @@ Your router package includes:
 
 ### Specifications
 
-Refer to [Specifications](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}. 
+Refer to [Specifications](https://www.gl-inet.com/products/gl-x2000/#specs){target="_blank"}. 
 
-### Compatible External Antennas
-
-Here are some external antennas you can purchase, depending on your needs.
-
-- [Mobile Mark LTMG308 (2x Global 5G LTE & GNSS)](https://www.mobilemark.com/product/ltmg308-2x-global-5g-lte-gnss/)
-- [Waveform MIMO 2x2 Panel External Antenna Kit](https://www.waveform.com/products/2x2-mimo-panel-kit)
-- [MINO 2x2 Log Periodic External Anntena Kit](https://www.waveform.com/products/mimo-log-periodic-hotspot-external-antennas)

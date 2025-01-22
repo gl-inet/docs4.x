@@ -23,11 +23,9 @@ Login [GoodCloud](https://www.goodcloud.xyz), go to Devices menu and click on th
 
 ![How to open device details](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/technical_support_via_goodcloud_02.png){class="glboxshadow"}
 
-![How to share device to GL.iNet technical support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/technical_support_via_goodcloud_03.png){class="glboxshadow"}
+![How to share device to GL.iNet technical support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/techshare.png){class="glboxshadow"}
 
 Make sure you set the **Share Duration** for example 7 days to protect your personal network not shares to us forever.
-
-![sharelimit](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/sharelimit.jpg){class="glboxshadow"}
 
 ## Provide the login credentials to GL.iNet technical support
 

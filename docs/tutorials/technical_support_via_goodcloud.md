@@ -27,7 +27,9 @@ Login [GoodCloud](https://www.goodcloud.xyz), go to Devices menu and click on th
 
 Make sure you set the **Share Duration** for example 7 days to protect your personal network not shares to us forever.
 
+
 **Privacy Protection Statement**
+
 1. The devices shared by users with GL-iNet Support are ONLY used for troubleshooting purposes. GL-iNet Support will not retain, back up, or steal any privacy information of users.
 
 2. To ensure password security, it is recommended that you change the login password of the web admin panel to an infrequently used one before sharing it with GL-iNet Support. You can change it back to your regular password after the troubleshooting is completed.

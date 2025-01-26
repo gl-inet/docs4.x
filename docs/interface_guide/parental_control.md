@@ -164,7 +164,9 @@ With its logging function, it knows which client accessed which website during w
 
 | Router Model        | Support |
 | :------------------ | :-----: |
+| GL-BE9300 (Flint 3) |    √    |
 | GL-MT6000 (Flint 2) |    √    |
+| GL-B3000 (Marble)   |    √    |
 
 
 ### Setup

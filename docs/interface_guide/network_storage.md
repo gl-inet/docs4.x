@@ -56,7 +56,7 @@ When a disk is found.
 
 1. Toggle on to enable Samba, for other parameters, please refer to the following, then click **Apply**.
 
-    * Allow Access WebDAV from WAN, enable it if you want the upstream devices can access the WebDAV.
+    * Allow Access Samba from WAN, enable it if you want the upstream devices can access the Samba.
 
     ![enable samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
 
@@ -68,7 +68,7 @@ When a disk is found.
 
     ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
 
-4. Click the triangel icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
+4. Click the triangle icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
 
     ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
 
@@ -80,7 +80,7 @@ When a disk is found.
 
     ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
 
-6. Folder access link. It shows the link for Windows and Unix-link OS. The Unix-like system include Android, iOS, macOS, Ubuntu etc. Then please try to access the Samba on various OS, check out [here](#samba-client).
+6. Folder access link. It shows the link for Windows and Unix-like OS. The Unix-like system include Android, iOS, macOS, Ubuntu etc. Then please try to access the Samba on various OS, check out [here](#samba-client).
 
     **Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
 

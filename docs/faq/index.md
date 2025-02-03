@@ -45,7 +45,7 @@ Learn how to use our devices and how to solve some common problems.
 ## VPN
 
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp.md)
-* [How to Block Non-VPN Traffic?](block_no_vpn_traffic.md)
+* [How to Block Non-VPN Traffic?](block_non_vpn_traffic.md)
 * [I must use Ethernet WAN when use VPN?](i_must_use_ethernet_wan_when_use_vpn.md)
 * [VPN Kill Switch](block_no_vpn_traffic.md).
 

@@ -49,11 +49,11 @@ If you don't have a Public IP address, here are some methods for your reference.
 
     Topology
 
-    Set the **Port Forward** on your Main Router if GL.iNet router is sit behind NAT
+    Set the **Port Forward** on your Main Router if GL.iNet router sits behind NAT
 
     ![togologywgtp](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywgtp.jpg){class="glboxshadow"}
 
-    Connect to your home router's WiFi or LAN, then login the web admin panel. Check the IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
+    Connect to your home router's WiFi or LAN, then login to the web admin panel. Check the WAN IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
 
     Example: A TP-Link Router
 

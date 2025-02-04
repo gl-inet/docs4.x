@@ -38,8 +38,8 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [How to setup NordVPN on router?](openvpn_client.md#set-up-nordvpn)
 * [How to setup AzireVPN on router?](wireguard_client.md#set-up-azirevpn)
 * [How to setup Mullvad VPN on router?](wireguard_client.md#set-up-mullvad)
-* [How to Block Non-VPN Traffic?](../faq/block_no_vpn_traffic.md)
-* [VPN Kill Switch](../faq/block_no_vpn_traffic.md).
+* [How to Block Non-VPN Traffic?](../faq/block_non_vpn_traffic.md)
+* [VPN Kill Switch](../faq/block_non_vpn_traffic.md).
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](../faq/openvpn_tcp_udp.md)
 * [VPN Cascading](../tutorials/vpn_cascading.md)
 * [Tor](tor.md), to protect the personal privacy.

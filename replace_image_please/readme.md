@@ -1,1 +1,0 @@
-Please replace the image located on https://static.gl-inet.com/docs/router/en/4/tutorials/block_no_vpn_traffic/global_options.png by the image provided in this directory.

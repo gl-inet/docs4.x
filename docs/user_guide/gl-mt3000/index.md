@@ -2,7 +2,7 @@
 
 ## Hardware info
 
-Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi 6 protocol. It is an upgraded version of Beryl (GL-MT1300), it runs on MT7981B 1.3GHz dual-core processor, offering more than double the total Wi-Fi speed. It is designed to support families with heavy Wi-Fi usage, and it's also compactly designed for travel use.
+Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi 6 protocol. It is an upgraded version of Beryl (GL-MT1300). It runs on MT7981B 1.3GHz dual-core processor, offering more than double the total Wi-Fi speed. It is designed to support families with heavy Wi-Fi usage, and it's also compactly designed for travel use.
 
 ![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_interface.jpg){class="glboxshadow"}
 
@@ -34,7 +34,7 @@ All of GL.iNet's devices have a simple and almost identical setup process, [clic
 
 Please note that the adapter within the package depends on your shipping country.
 
-What's inside the package?
+What's included in the package?
 
 ![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
 
@@ -61,7 +61,7 @@ It supports four ways to connect to the internet as listed below:
 
 ### Ethernet
 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
+Transmit data using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
@@ -77,7 +77,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 ### Tethering
 
-Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users want to use the phone's data to access the internet.
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
@@ -107,7 +107,7 @@ The wireless settings lets users manage network security of the primary Wi-Fi an
 
 ## CLIENTS
 
-Clients are devices connected to the router, you can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router's Admin Panel.
+Clients are devices connected to the router. You can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router's Admin Panel.
 
 [Click here to learn more about managing your device clients.](../../interface_guide/clients.md)
 
@@ -123,7 +123,7 @@ GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VP
 
 ### OpenVPN
 
-Please refer to the following links for a step to step setup guide:
+Please refer to the following links for a step-by-step setup guide:
 
 - [**Setup OpenVPN Client**](../../interface_guide/openvpn_client.md)
 - [**Setup OpenVPN Server**](../../interface_guide/openvpn_server.md)
@@ -209,7 +209,7 @@ Please visit the [**IPv6**](../../interface_guide/ipv6.md) tutorial.
 
 ### MAC Address
 
-The Mac Address page was previously called Mac Clone and has been changed to Mac Address since v4.2.
+The MAC Address page was previously called Mac Clone and has been changed to Mac Address since v4.2.
 
 Please visit the [**MAC Address**](../../interface_guide/mac_address.md) tutorial.
 
@@ -231,7 +231,7 @@ Please visit the [**System Overview**](../../interface_guide/system_overview.md)
 
 ### Upgrade
 
-GL.iNet provides regular updates on our routers' firmware to improve performance, resolving bugs and fix vulnerabilities.
+GL.iNet provides regular updates on our routers' firmware to improve performance, resolve bugs, and fix vulnerabilities.
 
 Please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
 

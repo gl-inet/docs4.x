@@ -192,6 +192,8 @@ You can also refer to video tutorial below.
 
 8. Revert the IP setting you did in step 4 and connect your device to the LAN or Wi-Fi of the router. You will be able to access the router via **192.168.8.1** again.
 
+    **Note:** It might be required to use the incognito mode or to delete the browser cache and cookies to access the router.
+
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

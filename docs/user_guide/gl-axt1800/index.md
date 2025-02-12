@@ -245,7 +245,7 @@ Your router package includes:
 - 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
+- 1 x Converter (Selected plug type)
 
 ![gl-axt1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/first_time_setup/axt1800_unboxing.jpg){class="glboxshadow"}
 

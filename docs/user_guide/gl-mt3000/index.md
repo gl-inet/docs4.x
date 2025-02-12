@@ -7,7 +7,6 @@ To set up Beryl AX, you will use one of the four supported internet connection m
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Beryl AX and other router models.)</small>
 
-
 ### 1. Power on the Beryl AX
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
@@ -87,20 +86,31 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 
 === "OpenVPN" 
-    Spitz AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+
+    Beryl AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
-    Spitz AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+
+    Beryl AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
+=== "Tailscale"
+    
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
+    
+    * [How to set up Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
+
+
 === "Tor"
 
-    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. To set up Tor, refer to [Tor](../../interface_guide/tor.md).
+    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities.
+    
+    *[How to set up Tor](../../interface_guide/tor.md).
 
 ---
 

@@ -260,7 +260,7 @@ Your router package includes:
 - 1 x Puli AX (GL-XE3000)
 - 1 x Ethernet cable
 - 1 x Thank you card
-- 1 x Power adapter (Selected plug type)
+- 1 x Converter (Selected plug type)
 
 ![xe3000_unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
 

@@ -32,7 +32,7 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
 #### 1. Sign in to the router web Admin Panel 
 
-In a web browser's address bar, enter 192.168.8.1. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
+In a web browser's address bar, enter `192.168.8.1`. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
 

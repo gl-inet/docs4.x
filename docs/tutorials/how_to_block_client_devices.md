@@ -10,7 +10,7 @@ There are two methods of blocking client devices on your GL.iNet router: via the
 
 ### 1. Sign in to the admin panel
 
-In a web browser, enter 192.168.8.1. Enter your password, then click **Login**. 
+In a web browser, enter `192.168.8.1`. Enter your password, then click **Login**. 
 
 ### 2. Block client devices
 

@@ -9,7 +9,7 @@ If you are not sure whether you have a public IP address, follow one of these me
 **Method 2: Check your IP address in your router admin panel and on the internet** 
 
 1. Sign in to your router's admin panel. 
-    * For GL.iNet routers, enter 192.168.8.1 into a web browser and sign in.
+    * For GL.iNet routers, enter `192.168.8.1` into a web browser and sign in.
     * If you have more than one router in your setup, sign in to the primary router's admin panel. 
 2. In the router admin panel, locate your IP address (e.g., 42.XXX.XX.)
 ![locate ip address](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/locate-ip-address.png){class="glboxshadow"}

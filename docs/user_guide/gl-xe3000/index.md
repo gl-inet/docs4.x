@@ -212,7 +212,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     This router supports eSIM functionality. To enable the feature, ensure you are using [firmware version 4.4.13](https://dl.gl-inet.com/release/router/release/xe3000/4.4.13) or later.  
     
-    * Refer to [How to set up an eSIM](https://youtu.be/hyHh8pAxgVw?feature=shared)  
+    To set up eSIM, refer to [eSIM](https://youtu.be/hyHh8pAxgVw?feature=shared)  
 
 ---
 

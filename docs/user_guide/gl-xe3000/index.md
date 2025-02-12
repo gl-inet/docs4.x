@@ -33,9 +33,9 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
 ### 3. Connect the Puli AX to the internet 
 
-**Note:** The following instructions were written for those using the router admin panel to connect the router to the internet. If you want to use the GL.iNet app instead of the admin panel, [download the app](https://www.gl-inet.com/app/) and follow the on-screen instructions. 
+**Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
-#### 1. Sign in to the router admin panel 
+#### 1. Sign in to the router web Admin Panel 
 
 In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
@@ -67,7 +67,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your la
 
     ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_repeater.png){class='glboxshadow'}
 
-    1. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
+    1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
     
@@ -81,14 +81,13 @@ In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your la
 
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
-    3. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
+    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section.  
     
     If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
-**Note:** If you want to use the [multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/) feature, you will have to set up more than one internet connection methods. 
-
+**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
 ---
 
 ## How to set up a VPN
@@ -97,19 +96,18 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 
 === "OpenVPN" 
-    Puli AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
-    * [How to set up an OpenVPN client](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/)
-    * [How to set up an OpenVPN server](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_server/)
+    Puli AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    
+    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
+    * [How to set up an OpenVPN server](../../interface_
 
 === "WireGuard"
+
     Puli AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
-    * [How to set up a WireGuard client](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
-    * [How to set up a WireGuard server](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
-
-=== "Tailscale"
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up Tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
+    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
+    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
 ---
 
@@ -119,7 +117,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
     
-    To set up multi-WAN, Refer to [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/). 
+    To set up multi-WAN, Refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
 
 === "Priority and Load Balancing"
 
@@ -136,7 +134,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
     
-    To set up drop-in gateway, refer to [How to set up drop-in gateway](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_drop_in_gateway/). 
+    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
 
 ---
 
@@ -176,7 +174,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
     
-    To set up dynamic DNS, refer to [Dynamic DNS](https://docs.gl-inet.com/router/en/4/interface_guide/ddns/). 
+    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "GoodCloud"
 
@@ -204,11 +202,19 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up parental controls, refer to [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control). 
 
+=== "Tailscale"
+
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
+    
+    To set up Tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
+
 === "eSIM"
 
     This router supports eSIM functionality. To enable the feature, ensure you are using [firmware version 4.4.13](https://dl.gl-inet.com/release/router/release/xe3000/4.4.13) or later.  
     
     * Refer to [How to set up an eSIM](https://youtu.be/hyHh8pAxgVw?feature=shared)  
+
+---
 
 === "ZeroTier"
 
@@ -230,7 +236,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
 
 * To upgrade the router's firmway, please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
-* To learn more about managing your device clients, please visit the [**Clients**](./../interface_guide/clients.md) tutorial.
+* To learn more about managing your device clients, please visit the [**Clients**](../../interface_guide/clients.md) tutorial.
 * To schedule tasks, please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
 * To set admin password, please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
 * To set timezone, please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.

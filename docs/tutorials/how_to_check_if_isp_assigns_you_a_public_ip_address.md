@@ -23,4 +23,12 @@ If you do not have a public IP address, you can consider using an intranet penet
 
 ---
 
+Related Articles
+
+- [Set Up WireGuard Server on GL.iNet Routers](../interface_guide/wireguard_server.md)
+- [Set Up OpenVPN Server on GL.iNet Router](../interface_guide/openvpn_server.md)
+- [Port Forwarding](../interface_guide/port_forwarding.md)
+
+---
+
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

@@ -99,12 +99,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
-=== "Tailscale"
-    
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
-    
-    * [How to set up Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
-
 
 === "Tor"
 

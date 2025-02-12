@@ -26,9 +26,9 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
     The wireless settings lets users manage network security of the primary Wi-Fi and the Guest Wi-Fi, it is accessible by going to **WIRELESS** on the side menu.
 
 ### 3. Connect the Slate AX to the internet 
-**Note:** The following instructions were written for those using the router admin panel to connect the router to the internet. If you want to use the GL.iNet app instead of the admin panel, [download the app](https://www.gl-inet.com/app/) and follow the on-screen instructions. 
+**Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.  
 
-#### 1. Sign in to the router admin panel 
+#### 1. Sign in to the router web Admin Panel 
 
 In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
@@ -47,7 +47,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_repeater.png){class="glboxshadow"}
 
-    1. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
+    1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
     
@@ -61,7 +61,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
-    3. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
+    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
     
     If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
@@ -77,7 +77,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
 ---
 
-**Note:** If you want to use the [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/) feature, you will have to set up more than one internet connection methods. 
+**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
 
 --- 
 
@@ -90,23 +90,21 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Slate AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
-    * [How to set up an OpenVPN client](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/)
-    * [How to set up an OpenVPN server](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_server/)
+    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
+    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
     Slate AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
-    * [How to set up a WireGuard client](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
-    * [How to set up a WireGuard server](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
-
-=== "Tailscale"
-
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up Tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
+    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
+    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
 === "Tor"
 
-    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. To set up Tor, refer to [Tor](../../interface_guide/tor.md).
+    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
+    
+    * [How to set up Tor](../../interface_guide/tor.md).
 
 ---
 
@@ -116,7 +114,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
     
-    To set up multi-WAN, Refer to [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/). 
+    To set up multi-WAN, Refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
 
 === "Priority and Load Balancing"
 
@@ -133,7 +131,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
     
-    To set up drop-in gateway, refer to [How to set up drop-in gateway](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_drop_in_gateway/). 
+    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
 
 ---
 
@@ -156,20 +154,20 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up MAC address, refer to [Mac Address](../../interface_guide/network_mode.md).
 
----
   
-
 === "Plug-ins"
 
     A plugin is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
     
     To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
 
+---
+
 === "Dynamic DNS"
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
     
-    To set up dynamic DNS, refer to [Dynamic DNS](https://docs.gl-inet.com/router/en/4/interface_guide/ddns/). 
+    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "GoodCloud"
 
@@ -183,7 +181,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
 
----
 
 === "AdGuard Home"
 
@@ -191,11 +188,19 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up adguard home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
+---
+
 === "Parental controls"
 
     Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Slate AX offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app. 
     
     To set up parental controls, refer to [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control). 
+
+=== "Tailscale"
+
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
+    
+    * To set up Tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
 
 === "ZeroTier"
 
@@ -216,7 +221,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
 
 * To upgrade the router's firmway, please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
-* To learn more about managing your device clients, please visit the [**Clients**](./../interface_guide/clients.md) tutorial.
+* To learn more about managing your device clients, please visit the [**Clients**](../../interface_guide/clients.md) tutorial.
 * To schedule tasks, please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
 * To set admin password, please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
 * To set timezone, please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.

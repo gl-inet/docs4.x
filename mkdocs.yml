@@ -8,7 +8,7 @@ site_description: Documentation for GL.iNet Router Productions
 site_author: GL.iNet
 site_url: https://docs.gl-inet.com/router/en/4/
 site_dir: /root/docs-build/router/en/4/
-copyright: Copyright &copy; 2024 GL Technologies & Microuter Technologies
+copyright: Copyright &copy; 2025 GL Technologies & Microuter Technologies
 
 theme: 
   name: material
@@ -102,6 +102,7 @@ nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
+    - GL-X2000 (Spitz Plus): user_guide/gl-x2000/index.md
     - GL-B3000 (Marble): user_guide/gl-b3000/index.md
     - GL-MT6000 (Flint 2): user_guide/gl-mt6000/index.md
     - GL-XE3000 (Puli AX): user_guide/gl-xe3000/index.md
@@ -161,7 +162,7 @@ nav:
     - VPN:
       - TCP or UDP: faq/openvpn_tcp_udp.md
       - I must use Ethernet WAN when use VPN?: faq/i_must_use_ethernet_wan_when_use_vpn.md
-      - Block No-VPN Traffic: faq/block_no_vpn_traffic.md
+      - Block Non-VPN Traffic: faq/block_non_vpn_traffic.md
     - Other:
       - Can I add Brume2 into mobile App?: faq/can_i_add_brume2_into_app.md
       - Change WAN to LAN: faq/change_wan_to_lan.md

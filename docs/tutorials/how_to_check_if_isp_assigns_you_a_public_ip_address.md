@@ -9,7 +9,7 @@ If you are not sure whether you have a public IP address, follow one of these me
 **Method 2: Check your IP address in your router admin panel and on the internet** 
 
 1. Sign in to your router's admin panel. 
-    * For GL.iNet routers, enter 192.168.8.1 into a web browser and sign in.
+    * For GL.iNet routers, enter `192.168.8.1` into a web browser and sign in.
     * If you have more than one router in your setup, sign in to the primary router's admin panel. 
 2. In the router admin panel, locate your IP address (e.g., 42.XXX.XX.)
 ![locate ip address](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/locate-ip-address.png){class="glboxshadow"}
@@ -20,6 +20,14 @@ If the two IP addresses match, you have a public IP address.
 ![two ip addresses match](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/two-ip-addresses-match.png){class="glboxshadow"}
 
 If you do not have a public IP address, you can consider using an intranet penetration tool. It allows your website, VPN server, or services to be accessible on the internet, even if you do not have a public IP address. 
+
+---
+
+Related Articles
+
+- [Set Up WireGuard Server on GL.iNet Routers](../interface_guide/wireguard_server.md)
+- [Set Up OpenVPN Server on GL.iNet Router](../interface_guide/openvpn_server.md)
+- [Port Forwarding](../interface_guide/port_forwarding.md)
 
 ---
 

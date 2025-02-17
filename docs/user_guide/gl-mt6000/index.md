@@ -2,7 +2,7 @@
 
 ## How to set up Flint 2
 
-To set up Flint 2, you will use one of the four supported internet connection methods: Cellular, Ethernet, Repeater, and Tethering. Watch this setup video or follow the steps below. 
+To set up Flint 2, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, Cellular. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Flint 2 and other router models.)</small>
@@ -34,14 +34,6 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
-
-=== "Cellular"
-
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_cellular.png){class="glboxshadow"}
-
-    Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
-
-    [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
 === "Ethernet"
 
@@ -75,6 +67,14 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
     If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
     [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
+
+=== "Cellular"
+
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_cellular.png){class="glboxshadow"}
+
+    Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+
+    [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
 ---
 

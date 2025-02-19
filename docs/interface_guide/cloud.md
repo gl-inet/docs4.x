@@ -178,17 +178,17 @@ After enabling cloud services, click the "Sign Up" button to register a Cloud ac
 
 Follow the steps above to register a GoodCloud account. Once registration is complete, the router will automatically bind to this account. 
 
-![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
-
 If you don’t see the verification email, check your spam folder or try again later. For any difficulties with sign-up, please email [support@glinet.biz](mailto:support@glinet.biz) for assistance. 
 
 #### Bound info on router web Admin Panel
 
-After you seccessfully add router to GoodCloud, go back to router web Admin Panel, on the left side, APPLICATION -> GoodCloud, refresh this page, it will display the bound GoodCloud username and date.
+After you seccessfully add router to GoodCloud, go back to router web Admin Panel, at the upper right corner, click on the Cloud icon, you will see the bound device details, including the bound GoodCloud username and date, Device ID, Device MAC and Device S/N.
+
+![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
+
+In the web Admin Panel, move to the left side CLOUD SERVICES -> GoodCloud, you can enable or disable the router's remote access feature.
 
 ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_2.png){class="glboxshadow"}
-
-In this interface, you can enable or disable the router's remote access feature.
 
 * **Remote SSH** is for remote access router's terminal via GoodCloud. Check out [here](#remote-access-routers-terminal).
 

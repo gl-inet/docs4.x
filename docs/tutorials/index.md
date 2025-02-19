@@ -39,6 +39,8 @@ Learn how to use our devices correctly with detailed steps.
 
 * [How to set up a guest Wi-Fi network on a GL.iNet router](how_to_set_up_a_guest_network.md)
 * [How to set up port forwarding on your primary router](how_to_set_up_port_forwarding.md)
+* [How to Set Up the eSIM](how_to_set_up_esim.md)
+* [How to Set Up the eSIM Physical Card with Android Devices](how_to_set_up_the_esim_with_android_devices.md)
 
 ## Network Sharing
 
@@ -46,7 +48,6 @@ Learn how to use our devices correctly with detailed steps.
 
 ## Others
 
-* [How to Set Up the eSIM](how_to_set_up_esim.md)
 * [How to block client devices](how_to_block_client_devices.md)
 * [How to check if you have a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [How to Change the Nat Type on Gamling](how_to_change_the_nat_type_on_gamling.md)

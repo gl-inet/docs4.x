@@ -40,7 +40,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to set up a guest Wi-Fi network on a GL.iNet router](how_to_set_up_a_guest_network.md)
 * [How to set up port forwarding on your primary router](how_to_set_up_port_forwarding.md)
 * [How to Set Up the eSIM](how_to_set_up_esim.md)
-* [How to Set Up the eSIM Physical Card with Android Devices](how_to_set_up_the_esim_with_android_devices.md)
+* [How to Set Up the eSIM Physical Card with Android Devices](how_to_set_up_the_esim_physical_card_with_android_devices.md)
 
 ## Network Sharing
 

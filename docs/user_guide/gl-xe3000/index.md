@@ -88,6 +88,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your la
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
+
 ---
 
 ## How to set up a VPN

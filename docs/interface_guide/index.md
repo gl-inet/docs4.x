@@ -26,6 +26,11 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 * [Clients](clients.md)
 
+## Cloud Services
+
+* [GoodCloud](cloud.md), the official cloud service.
+* [AstroWarp](astrowarp.md), an advanced networking platform designed to provide seamless remote networking and remote device management.
+
 ## VPN
 
 * [VPN Dashboard](vpn_dashboard.md).
@@ -48,12 +53,12 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 * [Plug-ins](plugins.md)
 * [DDNS](ddns.md). Overcome the issues related to Dynamic IP Addresses.
-* [GoodCloud](cloud.md), the official cloud service.
 * [AdGuard Home](adguardhome.md)
 * [Network Storage](network_storage.md)
 * [Parental Control](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [eSIM Management](../tutorials/how_to_set_up_esim.md)
 
 ## Network
 
@@ -62,6 +67,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Multi-WAN](multi-wan.md), failover to another Internet access method or use multiple interfaces at the same time to increase the total bandwidth.
 * [LAN](lan.md)
 * [DNS](dns.md)
+* [Network Port Management](network_port_management.md)
 * [Network Mode](network_mode.md)
 * [IPv6](ipv6.md)
 * [MAC Address](mac_address.md)

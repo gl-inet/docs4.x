@@ -23,8 +23,6 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
     On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
-    The wireless settings lets users manage network security of the primary Wi-Fi and the Guest Wi-Fi, it is accessible by going to **WIRELESS** on the side menu.
-
 ### 3. Connect the Flint 2 to the internet 
 
 **Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
@@ -37,7 +35,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
 === "Ethernet"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_ethernet.png){class="glboxshadow"}
 
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
 
@@ -54,7 +52,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
     
     If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name.
 
-    [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
+    Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
 === "Tethering"
 
@@ -62,11 +60,11 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
-    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section.  
+    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
     
     If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
-    [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
+    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
 === "Cellular"
 
@@ -80,7 +78,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
 
---- 
+---
 
 ## How to set up a VPN 
 
@@ -109,60 +107,21 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
-## More features and settings
+## Cloud services
 
-=== "Multi-WAN"
+=== "GoodCloud"
 
-    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+    Good Cloud refers to a cloud computing service that prioritizes performance, reliability, and security while providing scalable resources for users. 
     
-    To set up multi-WAN, Refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
+    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
-=== "Priority and Load Balancing"
+=== "AstroWarp"
 
-    Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
-
-=== "LAN"
-
-    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
     
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-
-=== "Drop-in gateway"
-
-    Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
-    
-    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).  
-
----
-
-=== "Network Mode"
-
-    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
-    
-    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
-
-=== "IPV6"
-
-    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
-    
-    To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
-  
-
-=== "MAC Address"
-
-    A MAC address, or Media Access Control address, is a unique identifier assigned to network interfaces for communications on a physical network. It is typically expressed as a 12-digit hexadecimal number and is used to ensure that data packets are sent to the correct device on a local area network (LAN). 
-    
-    To set up MAC address, refer to [Mac Address](../../interface_guide/network_mode.md).
-
-=== "Network Acceleration"
-
-    Hardware acceleration refers to the use of specialized hardware components to perform specific tasks more efficiently than general-purpose CPUs. 
-    
-    To set up network acceleration to this [Network Acceleration](../../interface_guide/network_acceleration.md) tutorial.
-
----
-  
+## Applications
 
 === "Plug-ins"
 
@@ -174,13 +133,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
     
-    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md).  
-
-=== "GoodCloud"
-
-    Good Cloud refers to a cloud computing service that prioritizes performance, reliability, and security while providing scalable resources for users. 
-    
-    To set up goodcloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "Network Storage"
 
@@ -188,31 +141,89 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
 
----
-
 === "AdGuard Home"
 
     AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
     
-    To set up adguard home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
+    To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
+
+---
 
 === "Parental controls"
 
-    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Slate AX offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app. 
-    
-    To set up parental controls, refer to [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control). 
+    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Flint 2 offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app.
 
-=== "Tailscale"
-
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
-    
-    To set up Tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
+    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control).
 
 === "ZeroTier"
 
     ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
     
-    To set up zerotier, refer to [ZeroTier](../../interface_guide/zerotier.md).
+    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
+
+=== "Tailscale"
+
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
+    
+    To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
+
+---
+
+## Network settings
+
+=== "Port forwarding"
+
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
+
+=== "Multi-WAN"
+
+    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+
+    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
+
+=== "LAN"
+
+    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
+    
+    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
+
+=== "Guest Network"
+
+    The Guest Network page allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
+
+    To set up LAN, refer to [Lan Tutorial](../../interface_guide/guest_network.md). 
+
+---
+
+=== "DNS"
+
+    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
+
+    To set up DNS, refer to [DNS](../../interface_guide/dns.md).
+
+=== "Network Port Management"
+
+    The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+
+=== "Network Mode"
+
+    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
+    
+    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
+
+=== "IPv6"
+
+    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
+    
+    To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
+
+---
+
+=== "Drop-in gateway"
+
+    Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
+    
+    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
 
 === "IGMP Snooping"
 
@@ -220,20 +231,29 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
+=== "Network Acceleration"
+
+    Hardware acceleration refers to the use of specialized hardware components to perform specific tasks more efficiently than general-purpose CPUs. 
+    
+    To set up network acceleration to this [Network Acceleration](../../interface_guide/network_acceleration.md) tutorial.
+
+=== "NAT Settings"
+
+    The NAT Settings page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.
+
+    To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
+
 ---
 
 ## System settings
 
 Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
 
-* To upgrade the router's firmway, please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
-* To learn more about managing your device clients, please visit the [**Clients**](../../interface_guide/clients.md) tutorial.
+* To upgrade the router's firmware, please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
 * To schedule tasks, please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
-* To set admin password, please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
 * To set timezone, please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
-* To toggle button settings, please visit the [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md) tutorial.
 * To view the logs, please visit the [**Log**](../../interface_guide/log.md) tutorial.
-* To view security, please visit the [**Security**](../../interface_guide/security.md) tutorial.
+* To set security, please visit the [**Security**](../../interface_guide/security.md) tutorial.
 * To reset firmware, please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
 * To adjust advanced settings, please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
 
@@ -252,11 +272,11 @@ Flint 2 (GL-MT6000) is a Wi-Fi 6 home and office router ideally suited for heavy
 Your router package includes:
 
 - 1 x Flint 2 (GL-MT6000)
-- 1 x Power Adapter
-- 1 x Ethernet Cable
-- 1 x User Manual & Warranty Card
-- 1 x Converter (Selected plug type)
-- 1 x Thank You Card
+- 1 x Power adapter
+- 1 x Ethernet cable
+- 1 x User manual & warranty card
+- 1 x Converter (selected plug type)
+- 1 x Thank you card
 
 ![gl-mt6000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/first_time_setup/gl-mt6000_unboxing.jpg){class="glboxshadow"}
 
@@ -264,8 +284,6 @@ Check out Flint 2's [unboxing video](../../video_library/unboxing_first_set_up.m
 
 ---
 
-### Specification
+### Specifications
 
-[GL-MT6000 specification](https://www.gl-inet.com/products/gl-mt6000/#specs){target="_blank"}
-
----
+Refer to [gl-mt6000 specifications](https://www.gl-inet.com/products/gl-mt6000/#specs){target="_blank"}.

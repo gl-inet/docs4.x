@@ -93,16 +93,24 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 
 === "OpenVPN" 
+
     Spitz AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
+
     Spitz AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+
+=== "Tor"
+
+    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
+    
+    * [How to set up Tor](../../interface_guide/tor.md).
 ---
 
 ## More features and settings
@@ -138,6 +146,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md). 
 
 === "Tailscale"
+
     Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md). 
 
 === "ZeroTier"

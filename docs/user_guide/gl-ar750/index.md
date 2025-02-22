@@ -39,7 +39,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_ethernet.jpg){class='glboxshadow'}
+    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_ethernet.jpg){class="glboxshadow"}
     
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
 
@@ -47,7 +47,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_repeater.jpg){class='glboxshadow'}
+    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_repeater.jpg){class="glboxshadow"}
 
     1. On the main screen of the web admin panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
@@ -59,7 +59,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_cellular.jpg){class='glboxshadow'}
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_cellular.jpg){class="glboxshadow"}
 
     1. Insert a cellular-enabled USB modem into the router's USB port.
     2. On the main screen of the web admin panel, locate the "Cellular" section, then click **Connect**.
@@ -69,7 +69,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Tethering"
 
-    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_tethering.jpg){class='glboxshadow'}
+    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_tethering.jpg){class="glboxshadow"}
 
     1. Connect your smartphone to the router via USB cable and enable network shareing in Personal hotspot of the setting.
     2. On the main screen of the web admin panel, locate the "Tethering" section, then click **Connect**.

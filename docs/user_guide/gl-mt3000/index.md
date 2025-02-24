@@ -7,7 +7,6 @@ To set up Beryl AX, you will use one of the four supported internet connection m
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Beryl AX and other router models.)</small>
 
-
 ### 1. Power on the Beryl AX
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
@@ -28,17 +27,17 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
 ### 3. Connect the Beryl AX to the internet 
 
-**Note:** The following instructions were written for those using the router admin panel to connect the router to the internet. If you want to use the GL.iNet app instead of the admin panel, [download the app](https://www.gl-inet.com/app/) and follow the on-screen instructions. 
+**Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
-#### 1. Sign in to the router admin panel 
+#### 1. Sign in to the router web Admin Panel 
 
-In a web browser's address bar, enter 192.168.8.1. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
+In a web browser's address bar, enter `192.168.8.1`. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
 
 === "Ethernet"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_repeater.png){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_ethernet.png){class="glboxshadow"}
 
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
 
@@ -49,7 +48,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_repeater.png){class="glboxshadow"}
 
-    1. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
+    1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
     
@@ -63,7 +62,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
-    3. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
+    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
     
     If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
@@ -79,7 +78,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
 ---
 
-**Note:** If you want to use the [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/) feature, you will have to set up more than one internet connection methods. 
+**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
 
 ## How to set up a VPN 
 
@@ -90,23 +89,22 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Beryl AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
-    * [How to set up an OpenVPN client](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/)
-    * [How to set up an OpenVPN server](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_server/)
+    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
+    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
     Beryl AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
-    * [How to set up a WireGuard client](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/)
-    * [How to set up a WireGuard server](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_server/)
+    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
+    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
-=== "Tailscale"
-
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up Tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
 
 === "Tor"
 
-    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. To set up Tor, refer to [Tor](../../interface_guide/tor.md).
+    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities.
+    
+    *[How to set up Tor](../../interface_guide/tor.md).
 
 ---
 
@@ -116,7 +114,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
     
-    To set up multi-WAN, Refer to [Multi-WAN](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/). 
+    To set up multi-WAN, Refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
 
 === "Priority and Load Balancing"
 
@@ -128,12 +126,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up LAN, Refer to [Lan Tutorial](../../interface_guide/lan.md). 
 
-
 === "Drop-in gateway"
 
     Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
     
-    To set up drop-in gateway, refer to [How to set up drop-in gateway](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_drop_in_gateway/). 
+    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
 
 ---
 
@@ -163,11 +160,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
 
+---
+
 === "Dynamic DNS"
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
     
-    To set up dynamic DNS, refer to [Dynamic DNS](https://docs.gl-inet.com/router/en/4/interface_guide/ddns/). 
+    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "GoodCloud"
 
@@ -181,7 +180,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
 
----
 
 === "AdGuard Home"
 
@@ -189,11 +187,17 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up adguard home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
+---
+
 === "Parental controls"
 
     Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Spitz AX offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app. 
     
-    To set up parental controls, refer to [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control). 
+    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md). 
+
+=== "Tailscale"
+
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere. To set up Tailscale, refer to [Tailscale](../../interface_guide/parental_control.md). 
 
 === "ZeroTier"
 
@@ -214,7 +218,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
 
 * To upgrade the router's firmway, please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
-* To learn more about managing your device clients, please visit the [**Clients**](./../interface_guide/clients.md) tutorial.
+* To learn more about managing your device clients, please visit the [**Clients**](../../interface_guide/clients.md) tutorial.
 * To schedule tasks, please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
 * To set admin password, please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
 * To set timezone, please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
@@ -232,6 +236,8 @@ Please visit the [**System Overview**](../../interface_guide/system_overview.md)
 
 Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi 6 protocol. It is an upgraded version of Beryl (GL-MT1300). It runs on MT7981B 1.3GHz dual-core processor, offering more than double the total Wi-Fi speed. It is designed to support families with heavy Wi-Fi usage, and it's also compactly designed for travel use.
 
+![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
+
 ---
 
 ### Package contents
@@ -243,7 +249,7 @@ Your router package includes:
 - 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
+- 1 x Converter (Selected plug type)
 
 ![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
 

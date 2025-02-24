@@ -37,13 +37,13 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
 #### 1. Sign in to the router admin panel 
 
-In a web browser's address bar, enter 192.168.8.1. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
+In a web browser's address bar, enter `192.168.8.1`. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_cellular.jpg){class='glboxshadow'}
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_cellular.jpg){class="glboxshadow"}
 
     If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light green dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
     
@@ -54,7 +54,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_ethernet.jpg){class='glboxshadow'}
+    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_ethernet.jpg){class="glboxshadow"}
     
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light green dot appears next to "Ethernet."
 
@@ -62,7 +62,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_repeater.jpg){class='glboxshadow'}
+    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_repeater.jpg){class="glboxshadow"}
 
     1. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
@@ -74,7 +74,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
 === "Tethering"
 
-     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_tethering.jpg){class='glboxshadow'}
+     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_tethering.jpg){class="glboxshadow"}
 
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
@@ -159,6 +159,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 ### Product information
 
 Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to provide fast, reliable connections especially in remote areas and during road trips. Featuring 3-Carrier Aggregation, the router streams data on three carrier bands simultaneously, providing 3x available bandwidth to avoid congestion. It offers four internet access methods: Cellular (SIM cards), ethernet, repeater, and tethering. It supports multi-WAN (failover and load-balancing), VPN (OpenVPN and Wireguard), parental controls, AdGuard Home, port forwarding, Tailscale, and more. 
+
+![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
+
 
 ### Package contents
 

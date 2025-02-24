@@ -28,7 +28,8 @@
 	* Off: 		VPN client is not connected
 	* Flashing: VPN client is connecting
 	* Solid: 	VPN client is connected
-	(VPN server status not displayed on LED)
+	
+	VPN server status not displayed on LED.
 
 ## GL-MT3000
 

@@ -85,8 +85,6 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
 
----
-
 ## How to set up a VPN 
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tailscale. 
@@ -111,8 +109,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
     
     * [How to set up Tor](../../interface_guide/tor.md).
-
----
 
 ## Wireless and clients
 
@@ -162,13 +158,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
 
+---
+
 === "AdGuard Home"
 
     AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
     
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
-
----
 
 === "Parental controls"
 
@@ -182,6 +178,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
 
+---
+
 === "Tailscale"
 
     Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
@@ -191,8 +189,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 === "eSIM Management"
 
     This router supports eSIM functionality. To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_set_up_esim.md).
-
----
 
 ## Network settings
 
@@ -212,13 +208,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
 
+---
+
 === "Guest Network"
 
     It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
     To set up LAN, refer to [Lan Tutorial](../../interface_guide/guest_network.md). 
-
----
 
 === "DNS"
 
@@ -229,6 +225,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 === "Network Port Management"
 
     The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+
+---
 
 === "Network Mode"
 
@@ -242,13 +240,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
 
----
-
 === "Drop-in gateway"
 
     Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
     
     To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
+
+---
 
 === "IGMP Snooping"
 
@@ -267,8 +265,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The NAT Settings page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.
 
     To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
-
----
 
 ## System settings
 
@@ -313,13 +309,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
 
+---
+
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
     For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
-
----
 
 === "Log"
 
@@ -340,6 +336,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
     For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
+
+---
 
 === "Advanced Settings"
 

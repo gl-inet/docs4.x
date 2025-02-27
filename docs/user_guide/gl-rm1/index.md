@@ -58,11 +58,11 @@ You can now start using GL-RM1 to remote access your device.
 
 **Local Access to the Controlled Device**
 
-    If you want to locally access the controlled device via GL-RM1, find the IP address of GL-RM1 in its upper router, enter this IP address in the browser, you will be able to access the controlled device through GL-RM1 locally.
+If you want to locally access the controlled device via GL-RM1, find the IP address of GL-RM1 in its upper router, enter this IP address in the browser, you will be able to access the controlled device through GL-RM1 locally.
 
-    Take GL-AXT1800 as an example. Here we connect the GL-RM1 to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, the IP address of RM1 can be found in the Client list, as shown below.
+Take GL-AXT1800 as an example. Here we connect the GL-RM1 to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, the IP address of RM1 can be found in the Client list, as shown below.
 
-    ![local access](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/local_access_via_ip.png){class="glboxshadow"}
+![local access](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/local_access_via_ip.png){class="glboxshadow"}
 
 ## Function Introduction
 
@@ -213,14 +213,14 @@ There are some components in the box:
 
 **Explanation of Interfaces with Marked Numbers**
 
-    1. Type-C Interface: Connect to the RM1 device.
-    2. Firmware Upgrade button: for the single-chip microcomputer on the ATX main board.
-    3. Reset button.
-    4. Connect to the F_PANEL interface of the computer.
-    5. Connect to the control line of the computer panel.
-    
-    Note: 
-    Interfaces 4 and 5 can be connected interchangeably. That is, interface 5 can be connected to the F_PANEL, and interface 4 can be connected to the control line of the computer panel. The LED status on the board is consistent with the Power LED status on the computer panel.
+1. Type-C Interface: Connect to the RM1 device.
+2. Firmware Upgrade button: for the single-chip microcomputer on the ATX main board.
+3. Reset button.
+4. Connect to the F_PANEL interface of the computer.
+5. Connect to the control line of the computer panel.
+
+Note: 
+Interfaces 4 and 5 can be connected interchangeably. That is, interface 5 can be connected to the F_PANEL, and interface 4 can be connected to the control line of the computer panel. The LED status on the board is consistent with the Power LED status on the computer panel.
 
 Interfaces 4/5 diagram
 
@@ -241,3 +241,7 @@ Connect the fixed device to the F_PANEL interface of the host computer through t
 Connect the external interface to the USB-A interface of the GL-RM1 using the included USB-A to Type-C cable.
 
 ![install atx board 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/install_atx_board_3.jpg){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

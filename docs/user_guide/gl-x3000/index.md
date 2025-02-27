@@ -313,13 +313,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
 
----
-
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
     For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+
+---
 
 === "Log"
 
@@ -340,8 +340,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
     For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
-
----
 
 === "Advanced Settings"
 
@@ -380,4 +378,4 @@ Your router package includes:
 
 ### Specifications
 
-Refer to [gl-x3000 specifications](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}. 
+Refer to [GL-X3000 specifications](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}. 

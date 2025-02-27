@@ -140,7 +140,7 @@
   </div>
 </div>
 
-### Security Gateway
+### Security Gateway & Mini Routers
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
@@ -149,6 +149,13 @@
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt2500-series.jpg" >
         <div class="gl-product-model">GL-MT2500</div>
         <div class="gl-product-model">(Brume 2)</div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
+      <a href="gl-mt300n-v2/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt300n-v2.jpg" >
+        <div class="gl-product-model">GL-MT300N-V2</div>
+        <div class="gl-product-model">(Mango)</div>
   	  </a>
   	</div>
   </div>

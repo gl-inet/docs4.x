@@ -102,6 +102,7 @@ nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
+    - GL-RM1 (Comet): user_guide/gl-rm1/index.md
     - GL-X2000 (Spitz Plus): user_guide/gl-x2000/index.md
     - GL-B3000 (Marble): user_guide/gl-b3000/index.md
     - GL-MT6000 (Flint 2): user_guide/gl-mt6000/index.md
@@ -113,8 +114,10 @@ nav:
     - GL-AX1800 (Flint): user_guide/gl-ax1800/index.md
     - GL-MT2500/GL-MT2500A (Brume 2): user_guide/gl-mt2500/index.md
     - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
+    - GL-MT300N-V2 (Mango): user_guide/gl-mt300n-v2/index.md
     - GL-M2: user_guide/gl-m2/index.md
     - GL-S200: user_guide/gl-s200/index.md
+    - GL-S20: user_guide/gl-s20/index.md
     - GL-S10: user_guide/gl-s10/index.md
     - GL-MT1300 (Beryl): user_guide/gl-mt1300/index.md
     - GL-AP1300 (Cirrus): user_guide/gl-ap1300/index.md

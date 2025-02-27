@@ -57,16 +57,6 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md){target="_blank"} for detailed instructions.
 
-=== "Cellular"
-
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/usb_modem.png){class="glboxshadow"}
-
-    1. Insert a cellular-enabled USB modem into the router's USB port.
-    2. On the main screen of the web admin panel, locate the "Cellular" section, then click **Connect**.
-    3. If you are connected to the internet successfully, a light blue dot appears next to "Cellular."
-
-    Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md){target="_blank"} for detailed instructions.
-
 === "Tethering"
 
     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/tethering.png){class="glboxshadow"}
@@ -76,6 +66,16 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
     3. If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md){target="_blank"} for detailed instructions.
+
+=== "Cellular"
+
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/usb_modem.png){class="glboxshadow"}
+
+    1. Insert a cellular-enabled USB modem into the router's USB port.
+    2. On the main screen of the web admin panel, locate the "Cellular" section, then click **Connect**.
+    3. If you are connected to the internet successfully, a light blue dot appears next to "Cellular."
+
+    Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md){target="_blank"} for detailed instructions.
 
 **Note:** If you want to use the multi-WAN feature, you will have to set up more than one internet connection methods. 
 
@@ -210,8 +210,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md){target="_blank"}.
 
----
-
 ## System settings
 
 === "Overview"
@@ -299,8 +297,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
-
---- 
 
 ## Product overview
 

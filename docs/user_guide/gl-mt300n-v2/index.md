@@ -142,6 +142,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [LAN](../../interface_guide/lan.md){target="_blank"}.
 
+---
+
 === "DNS"
 
     The DNS page provides options to customize your router's Domain Name System settings, enhancing both security and performance. Key features available on this page include:
@@ -153,8 +155,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These settings allow you to optimize your network's DNS performance and security according to your specific needs.
 
     For detailed setup instructions and more information, please refer to [DNS](../../interface_guide/dns.md){target="_blank"}.
-
----
 
 === "Network Mode"
 
@@ -180,6 +180,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [IPv6](../../interface_guide/ipv6.md){target="_blank"}.
 
+---
+
 === "MAC Address"
 
     The MAC Address page allows you to view and manage the Media Access Control (MAC) addresses associated with your router. Key features available on this page include:
@@ -197,8 +199,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
     
     To set up Drop-in Gateway, refer to [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md){target="_blank"}.
-
----
 
 === "IGMP Snooping"
 
@@ -247,13 +247,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
 
+---
+
 === "Admin Password"
 
     The Admin Password page allows you to set or change the password for your router's administrative interface, ensuring that only authorized users can access and modify the router's settings. This password is crucial for maintaining the security and integrity of your network, protecting against unauthorized access and configuration changes.
 
     For detailed setup instructions and more information, please refer to [Admin Password](../../interface_guide/admin_password.md){target="_blank"}.
-
----
 
 === "Time Zone"
 
@@ -266,6 +266,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
 
     For detailed setup instructions and more information, please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md){target="_blank"}.
+
+---
 
 === "Log"
 
@@ -286,8 +288,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
     For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
-
----
 
 === "Advanced Settings"
 

@@ -53,16 +53,6 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md){target="_blank"} for detailed instructions.
 
-=== "Cellular"
-
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/usb_modem.png){class="glboxshadow"}
-
-    1. Insert a cellular-enabled USB modem into the router's USB port.
-    2. On the main screen of the web admin panel, locate the "Cellular" section, then click **Connect**.
-    3. If you are connected to the internet successfully, a light blue dot appears next to "Cellular."
-
-    Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md){target="_blank"} for detailed instructions.
-
 === "Tethering"
 
     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/tethering.png){class="glboxshadow"}
@@ -72,6 +62,16 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
     3. If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md){target="_blank"} for detailed instructions.
+
+=== "Cellular"
+
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/usb_modem.png){class="glboxshadow"}
+
+    1. Insert a cellular-enabled USB modem into the router's USB port.
+    2. On the main screen of the web admin panel, locate the "Cellular" section, then click **Connect**.
+    3. If you are connected to the internet successfully, a light blue dot appears next to "Cellular."
+
+    Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md){target="_blank"} for detailed instructions.
 
 **Note:** If you want to use the multi-WAN feature, you will have to set up more than one internet connection methods. 
 
@@ -142,8 +142,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [LAN](../../interface_guide/lan.md){target="_blank"}.
 
----
-
 === "DNS"
 
     The DNS page provides options to customize your router's Domain Name System settings, enhancing both security and performance. Key features available on this page include:
@@ -155,6 +153,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These settings allow you to optimize your network's DNS performance and security according to your specific needs.
 
     For detailed setup instructions and more information, please refer to [DNS](../../interface_guide/dns.md){target="_blank"}.
+
+---
 
 === "Network Mode"
 
@@ -180,8 +180,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [IPv6](../../interface_guide/ipv6.md){target="_blank"}.
 
----
-
 === "MAC Address"
 
     The MAC Address page allows you to view and manage the Media Access Control (MAC) addresses associated with your router. Key features available on this page include:
@@ -200,6 +198,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up Drop-in Gateway, refer to [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md){target="_blank"}.
 
+---
+
 === "IGMP Snooping"
 
     The IGMP Snooping page allows you to configure settings that optimize multicast traffic management within your network. IGMP Snooping listens to and extracts information from IGMP protocol packets, establishing and maintaining Layer 2 multicast forwarding tables. This ensures that multicast group data is forwarded only to hosts that have joined the multicast group, preventing unwanted multicast traffic from reaching other hosts.
@@ -207,8 +207,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These settings help optimize network performance and efficiency, particularly in environments with significant multicast traffic, such as streaming video or online gaming.
 
     For detailed setup instructions and more information, please refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md){target="_blank"}.
-
----
 
 ## System settings
 
@@ -249,13 +247,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
 
----
-
 === "Admin Password"
 
     The Admin Password page allows you to set or change the password for your router's administrative interface, ensuring that only authorized users can access and modify the router's settings. This password is crucial for maintaining the security and integrity of your network, protecting against unauthorized access and configuration changes.
 
     For detailed setup instructions and more information, please refer to [Admin Password](../../interface_guide/admin_password.md){target="_blank"}.
+
+---
 
 === "Time Zone"
 
@@ -268,8 +266,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
 
     For detailed setup instructions and more information, please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md){target="_blank"}.
-
----
 
 === "Log"
 
@@ -291,13 +287,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
 
+---
+
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
-
---- 
 
 ## Product overview
 

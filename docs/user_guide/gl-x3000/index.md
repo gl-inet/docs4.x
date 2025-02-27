@@ -272,16 +272,82 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ## System settings
 
-* The [System Overview](../../interface_guide/system_overview.md) page provides a summary of key system information. It displays CPU load and temperature, memory and flash storage usage, LED status, device uptime, hostname, model, architecture, firmware version, device ID and MAC address.
-* The [Upgrade](../../interface_guide/firmware_upgrade.md) page allows you to perform firmware and module(only cellular router) updates. It displays the current firmware version, type, and update time, and provides options for online and local upgrades of both the firmware and modules.
-* The [Schedule Tasks]((../../interface_guide/scheduled_tasks.md)) page allows you to set up various scheduled tasks. It includes options to schedule the LED display, router reboot, and turning the main and guest Wi-Fi networks on or off based on a specified schedule for both the 5 GHz and 2.4 GHz bands.
-* To set timezone, please visit the  [**Time Zone**](../../interface_guide/time_zone.md) page.
-* The [Log](../../interface_guide/log.md) page provides access to various system logs including System Log, Kernel Log, Crash Log, Cloud Log, and Nginx Log. It also offers options to export the log and refresh the displayed log information.
-* The [Security](../../interface_guide/security.md) page includes options to change the admin password, enable/disable weak password prevention, set local access control of the web Admin Panel, LuCI and SSH, configure remote access control, and open ports on the router for WAN access.
-* To reset firmware, please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
-* To adjust advanced settings with LuCI, please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
+=== "Overview"
+
+    The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
+
+    * CPU Average Load: Monitor the average load on your router’s CPU, helping to assess performance and identify potential bottlenecks.
+    * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
+    * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
+    * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
+    * Device Info: Access detailed information about your router's system, including uptime, hostname, model, architecture, OpenWrt version, kernel version, device ID, device MAC and device S/N.
+    * External Storage: Check the status of any external storage devices connected to the router, such as USB drives or TF cards.
+    
+    These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
+
+    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md){target="_blank"}.
+
+=== "Upgrade"
+
+    The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
+
+    * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
+    * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
+    * Module Online Upgrade: Automatically check for and install the latest 4G/5G module version directly from the manufacturer's server, simplifying the update process.
+    * Module Local Upgrade: Manually upload a module file from your computer to update the 4G/5G module.
+
+    These options allow you to keep your router up-to-date with the latest improvements and fixes.
+
+    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/firmware_upgrade.md){target="_blank"}.
+
+=== "Scheduled Tasks"
+
+    The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
+
+    * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
+    * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
+    * 5GHz Wi-Fi Status Schedule: Set a schedule to control the 5GHz Wi-Fi band, allowing for better management of network availability and power consumption.
+    * 2.4GHz Wi-Fi Status Schedule: Set a schedule to control the 2.4GHz Wi-Fi band, allowing for better management of network availability and power consumption.
+    
+    These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
+
+    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
 
 ---
+
+=== "Time Zone"
+
+    The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
+
+    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+
+=== "Log"
+
+    The Log page provides access to various logs that record the router's activities and events, aiding in troubleshooting and performance monitoring. This page includes:
+
+    * System Log: Detailed logs of system-level events and activities.
+    * Kernel Log: Logs related to the kernel's operations and events.
+    * Crash Log: Records of system crashes and errors, useful for diagnosing critical issues.
+    * Cloud Log: Logs of interactions and activities related to GoodCloud services integrated with the router.
+    * Nginx Log: Logs from the Nginx web server, if used by the router, detailing web traffic and server operations.
+    
+    Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
+
+    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
+
+=== "Reset Firmware"
+
+    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
+
+    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
+
+---
+
+=== "Advanced Settings"
+
+    The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
+
+    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
 
 ## Product overview
 

@@ -30,7 +30,7 @@ GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} breaks through 
 
     You will be re-directed to the LuCI login page. Enter the same admin password to log in.
 
-    ![log in luci](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci.png){class="glboxshadow"}
+    ![log in luci](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci.png){class="glboxshadow gl-80-desktop"}
 
 5. You have successfully logged in to LuCI.
 

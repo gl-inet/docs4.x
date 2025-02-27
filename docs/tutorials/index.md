@@ -33,7 +33,8 @@ Learn how to use our devices correctly with detailed steps.
 
 ## GoodCloud
 
-[GoodCloud Site to Site](goodcloud_site_to_site.md)
+* [GoodCloud Site to Site](goodcloud_site_to_site.md)
+* [How to Access the LuCI Interface via GoodCloud](how_to_access_the_luci_interface_via_goodcloud.md)
 
 ## Network
 

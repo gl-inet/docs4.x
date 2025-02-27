@@ -43,7 +43,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
     
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
 
-    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md){target="_blank"} for detailed instructions.
+    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
 === "Repeater"
 
@@ -55,7 +55,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
     
     If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name.
 
-    Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md){target="_blank"} for detailed instructions.
+    Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
 === "Tethering"
 
@@ -65,7 +65,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
     2. On the main screen of the web admin panel, locate the "Tethering" section, then click **Connect**.
     3. If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
-    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md){target="_blank"} for detailed instructions.
+    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
 === "Cellular"
 
@@ -75,7 +75,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
     2. On the main screen of the web admin panel, locate the "Cellular" section, then click **Connect**.
     3. If you are connected to the internet successfully, a light blue dot appears next to "Cellular."
 
-    Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md){target="_blank"} for detailed instructions.
+    Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md) for detailed instructions.
 
 **Note:** If you want to use the multi-WAN feature, you will have to set up more than one internet connection methods. 
 
@@ -89,15 +89,15 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     GL-AR750 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
-    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md){target="_blank"}
-    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md){target="_blank"}
+    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
+    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
     GL-AR750 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
-    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md){target="_blank"}
-    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md){target="_blank"}
+    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
+    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
 ---
 
@@ -105,15 +105,15 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Plug-ins"
 
-    Plug-ins are add-on features that enhance the functionality of your router. To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md){target="_blank"}.
+    Plug-ins are add-on features that enhance the functionality of your router. To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md){target="_blank"}. 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md){target="_blank"}.
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
 ---
 
@@ -127,13 +127,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * Open Ports: Monitor and control which ports on your router are open, helping to prevent unauthorized access and potential security threats.
     * DMZ (Demilitarized Zone): Place a device outside the main firewall, allowing it to have unrestricted access to the internet while protecting the rest of your network from potential threats.
 
-    For detailed setup instructions and more information, please refer to [Firewall](../../interface_guide/firewall.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Firewall](../../interface_guide/firewall.md).
 
 === "Multi-WAN"
 
     Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
 
-    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md){target="_blank"}. 
+    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
 
 === "LAN"
 
@@ -144,7 +144,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * DHCP: Enable or configure the Dynamic Host Configuration Protocol, which automatically assigns IP addresses to devices on your network.
     * Address Reservation: Reserve specific IP addresses for particular devices, ensuring they always receive the same IP address from the DHCP server.
 
-    For detailed setup instructions and more information, please refer to [LAN](../../interface_guide/lan.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [LAN](../../interface_guide/lan.md).
 
 ---
 
@@ -158,7 +158,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These settings allow you to optimize your network's DNS performance and security according to your specific needs.
 
-    For detailed setup instructions and more information, please refer to [DNS](../../interface_guide/dns.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [DNS](../../interface_guide/dns.md).
 
 === "Network Mode"
 
@@ -169,7 +169,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * Extender: Work as a range extender, boosting the signal of your existing wireless network to cover a larger area and eliminate dead zones.
     * WDS (Wireless Distribution System): Similar to Extender, please choose WDS if your main router supports WDS mode.
 
-    For detailed setup instructions and more information, please refer to [Network Mode](../../interface_guide/network_mode.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Network Mode](../../interface_guide/network_mode.md).
 
 === "IPv6"
 
@@ -182,7 +182,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These settings help you leverage the benefits of IPv6, including improved address space, enhanced security features, and better performance.
 
-    For detailed setup instructions and more information, please refer to [IPv6](../../interface_guide/ipv6.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [IPv6](../../interface_guide/ipv6.md).
 
 ---
 
@@ -196,11 +196,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These features enable you to manage your router's MAC addresses effectively, ensuring compatibility and flexibility within various network environments.
 
-    For detailed setup instructions and more information, please refer to [MAC Address](../../interface_guide/mac_address.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [MAC Address](../../interface_guide/mac_address.md).
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. To set up Drop-in Gateway, refer to [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md){target="_blank"}.
+    Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. To set up Drop-in Gateway, refer to [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 === "IGMP Snooping"
 
@@ -208,7 +208,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These settings help optimize network performance and efficiency, particularly in environments with significant multicast traffic, such as streaming video or online gaming.
 
-    For detailed setup instructions and more information, please refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
 ## System settings
 
@@ -224,7 +224,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
 
 === "Upgrade"
 
@@ -235,7 +235,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/firmware_upgrade.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/firmware_upgrade.md).
 
 === "Scheduled Tasks"
 
@@ -248,7 +248,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 ---
 
@@ -256,19 +256,19 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Admin Password page allows you to set or change the password for your router's administrative interface, ensuring that only authorized users can access and modify the router's settings. This password is crucial for maintaining the security and integrity of your network, protecting against unauthorized access and configuration changes.
 
-    For detailed setup instructions and more information, please refer to [Admin Password](../../interface_guide/admin_password.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Admin Password](../../interface_guide/admin_password.md).
 
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
 
 === "Toggle Button Settings"
 
     The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
 
-    For detailed setup instructions and more information, please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
 
 ---
 
@@ -284,19 +284,19 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
 
 === "Reset Firmware"
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
 
 ## Product overview
 
@@ -308,4 +308,4 @@ Creta (GL-AR750) is a dual-band travel AC router. The simultaneous dual-band sup
 
 ### Specifications
 
-Refer to [Specifications](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}. 
+Refer to [Specifications](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}.

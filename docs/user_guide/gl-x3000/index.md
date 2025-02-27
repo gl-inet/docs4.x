@@ -114,6 +114,20 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
+## Wireless and clients
+
+=== "Wireless"
+
+    The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+
+    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+
+=== "Clients"
+
+    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+
+    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+
 ## Cloud services
 
 === "GoodCloud"
@@ -258,15 +272,14 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ## System settings
 
-Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
-
-* To upgrade the router's firmware, please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
-* To schedule tasks, please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
-* To set timezone, please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
-* To view the logs, please visit the [**Log**](../../interface_guide/log.md) tutorial.
-* To set security, please visit the [**Security**](../../interface_guide/security.md) tutorial.
+* The [System Overview](../../interface_guide/system_overview.md) page provides a summary of key system information. It displays CPU load and temperature, memory and flash storage usage, LED status, device uptime, hostname, model, architecture, firmware version, device ID and MAC address.
+* The [Upgrade](../../interface_guide/firmware_upgrade.md) page allows you to perform firmware and module(only cellular router) updates. It displays the current firmware version, type, and update time, and provides options for online and local upgrades of both the firmware and modules.
+* The [Schedule Tasks]((../../interface_guide/scheduled_tasks.md)) page allows you to set up various scheduled tasks. It includes options to schedule the LED display, router reboot, and turning the main and guest Wi-Fi networks on or off based on a specified schedule for both the 5 GHz and 2.4 GHz bands.
+* To set timezone, please visit the  [**Time Zone**](../../interface_guide/time_zone.md) page.
+* The [Log](../../interface_guide/log.md) page provides access to various system logs including System Log, Kernel Log, Crash Log, Cloud Log, and Nginx Log. It also offers options to export the log and refresh the displayed log information.
+* The [Security](../../interface_guide/security.md) page includes options to change the admin password, enable/disable weak password prevention, set local access control of the web Admin Panel, LuCI and SSH, configure remote access control, and open ports on the router for WAN access.
 * To reset firmware, please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
-* To adjust advanced settings, please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
+* To adjust advanced settings with LuCI, please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
 
 ---
 

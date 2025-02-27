@@ -80,77 +80,98 @@ Connect the router to the internet by inserting a cellular enabled USB modem int
 
 Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
 
----
+## How to set up a VPN 
+
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tailscale. 
+
+
+=== "OpenVPN" 
+
+    Spitz AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+
+    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
+    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
+
+=== "WireGuard"
+
+    Spitz AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+
+    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
+    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+
+=== "Tor"
+
+    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
+    
+    * [How to set up Tor](../../interface_guide/tor.md).
 
 ## CLIENTS
 
-Clients are devices connected to the router, you can block clients or limit its network speed. The interface is accessible by clicking **CLIENTS** in the side menu of the router's Admin Panel.
+The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
-[Click here to learn more about managing your device clients.](../../interface_guide/clients.md)
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+
+## Cloud services
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
+    
+    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
+    
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+
+## Applications
+
+=== "Plug-ins"
+
+    A plugin is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
+    
+    To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
+
+=== "Dynamic DNS"
+
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
+    
+    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+
+=== "Network Storage"
+
+    Network storage refers to a centralized data storage solution that allows multiple users and devices to access and share files over a network. 
+    
+    To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
+
+---
+
+=== "AdGuard Home"
+
+    AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
+    
+    To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
+
+=== "Parental controls"
+
+    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Spitz AX offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app.
+
+    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control).
+
+=== "ZeroTier"
+
+    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
+    
+    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
 
 ---
 
-## VPN
+=== "Tailscale"
 
-GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VPN services. It automatically encrypts all network traffic within the connected network, including guest devices and client devices that are not capable of running VPN encryption. Our routers can also act as VPN servers, redirecting traffic from client devices in remote locations to the VPN server via a VPN tunnel before accessing the public internet.
-
-### VPN Dashboard
-
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard.md)
-
-### OpenVPN
-
-Please refer to the following links for a step to step setup guide:
-
-- [**Setup OpenVPN Client**](../../interface_guide/openvpn_client.md)
-- [**Setup OpenVPN Server**](../../interface_guide/openvpn_server.md)
-
-### WireGuard
-
-Please refer to the following links for a step to step setup guide:
-
-- [**Setup WireGuard Client**](../../interface_guide/wireguard_client.md)
-- [**Setup WireGuard Server**](../../interface_guide/wireguard_server.md)
-
----
-
-## APPLICATIONS
-
-GL.iNet routers include a wide range of add-on features that simplifies device management, improves user's internet experience, automates firmware update, and more.
-
-### Plug-ins
-
-Please visit the [**Plug-ins**](../../interface_guide/plugins.md) tutorial.
-
-### Dynamic DNS
-
-Please visit the [**Dynamic DNS**](../../interface_guide/ddns.md) tutorial.
-
-### GoodCloud
-
-Please visit the  [**GoodCloud**](../../interface_guide/cloud.md) tutorial.
-
-### Network Storage
-
-Please visit the [**Network Storage**](../../interface_guide/network_storage.md) tutorial.
-
-### AdGuard Home
-
-Please visit the [**AdGuard Home**](../../interface_guide/adguardhome.md) tutorial.
-
-### Parental Control
-
-Please visit the [**Parental Control**](../../interface_guide/parental_control.md) tutorial.
-
-### ZeroTier
-
-Please visit the [**ZeroTier**](../../interface_guide/zerotier.md) tutorial.
-
-### Tailscale
-
-Please visit the [**Tailscale**](../../interface_guide/tailscale.md) tutorial.
-
----
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
+    
+    To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
 
 ## NETWORK
 

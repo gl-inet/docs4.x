@@ -1,14 +1,6 @@
 # GL-MT2500/GL-MT2500A(Brume 2) User Guide
 
-## First time setup
-
 All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
-
-Please note that the adapter within the package depends on your shipping country.
-
-What's inside the package? (The following figure shows the GL-MT2500A as an example.)
-
-![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
 ## How to set up Brume 2
 
@@ -321,6 +313,12 @@ GL-MT2500/GL-MT2500A(Brume 2) is a lightweight and powerful VPN Gateway that run
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
 ### Package contents
+
+Please note that the adapter within the package depends on your shipping country.
+
+What's inside the package? (The following figure shows the GL-MT2500A as an example.)
+
+![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
 Your router package includes:
 

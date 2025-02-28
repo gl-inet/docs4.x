@@ -10,53 +10,59 @@ What's inside the package? (The following figure shows the GL-MT2500A as an exam
 
 ![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
-Package Contents:
+## How to set up Brume 2
 
-- 1 x User manual
-- 1 x Brume 2 (GL-MT2500 or GL-MT2500A)
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
+To set up Brume 2, you will use one of the four supported internet connection methods: Ethernet, Tethering and Cellular. Watch this setup video or follow the steps below. 
 
----
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Spitz AX and other router models.)</small>
 
-## INTERNET
+### 1. Power on the Brume 2
 
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
+Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
+### 2. Connect your device to the Brume 2
 
-It supports three ways to connect to the internet as listed below:
+Connect your computer to the router using ethernet.
 
-### Ethernet
+=== "Ethernet"
 
-Ethernet 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
+    Connect your device to the router's LAN port using an ethernet cable. 
 
-[Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
+### 3. Connect the Brume 2 to the internet 
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
+#### 1. Sign in to the router web Admin Panel 
 
-### Tethering
+In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
-Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+#### 2. Set up your internet connection method(s)
 
-[Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
+=== "Ethernet"
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
+    
+    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
 
-### Cellular
+    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
-[Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
+=== "Tethering"
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
+     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
 
-### Priority and load balance
+    1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
+    2. In your mobile device's settings, enable tethering. 
+    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
+    
+    If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
 
-Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
+=== "Cellular"
+
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
+
+    If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
+
+**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
 
 ## How to set up a VPN 
 
@@ -308,13 +314,26 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ## Product overview
 
-## Hardware info
+### Product information
 
 GL-MT2500/GL-MT2500A(Brume 2) is a lightweight and powerful VPN Gateway that runs on OpenWrt v21.02 operating system. It is compactly designed to host a VPN server at home, or run SD-WAN (Site-to-Site) for small and medium-sized enterprises.
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
-[LED Indication](../../faq/led.md#gl-mt2500)
+### Package contents
+
+Your router package includes:
+
+- 1 x Brume 2 (GL-MT2500 or GL-MT2500A)
+- 1 x Power adapter (Selected plug type)
+- 1 x Ethernet cable
+- 1 x User manual
+- 1 x Thank you card
+- 1 x Warranty card
+
+### LED indicators
+
+Please refer to [Brume 2 LED Indication](../../faq/led.md#gl-mt2500).
 
 ### PCB Pinout
 

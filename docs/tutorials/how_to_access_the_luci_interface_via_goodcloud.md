@@ -6,7 +6,7 @@ GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} breaks through 
 
 - Hardware Equipment: A GL.iNet router that has been configured with Internet and is operating normally.
 - Network Environment: The network to which the router is connected is stable and can access the Internet normally.
-- Device Binding: You need to [bind your GL.iNet router to your GoodCloud account](../interface_guide/cloud/#setup-your-goodcloud-account). If you don't have a GoodCloud account, please [register](https://www.goodcloud.xyz/){target="_blank"} one.
+- Device Binding: You need to [bind your GL.iNet router to your GoodCloud account](../interface_guide/cloud.md/#setup-your-goodcloud-account). If you don't have a GoodCloud account, please [register](https://www.goodcloud.xyz/){target="_blank"} one.
 
 ## Steps to Access the LuCI Interface via GoodCloud
 

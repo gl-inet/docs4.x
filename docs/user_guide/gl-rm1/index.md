@@ -6,17 +6,15 @@ It supports remote control of offline devices, allowing you to handle computer b
 
 ## Quick Setup Guide
 
-### 1. Connect the Devices
+This section will guide you how to set up GL-RM1 quickly. Connect the device, remote and local access to the controlled device.
+
+### Connect the Devices
 
 Connect GL-RM1 to the device you want to control according to the diagram below.
 
 ![connect devices](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/connect_devices.png){class="glboxshadow"}
 
-### 2. Access Controlled Device through GL-RM1
-
-You can access controlled devices through GL-RM1 remotely or locally.
-
-#### **Remote Access to the Controlled Device**
+### Remote Access to the Controlled Device
 
 Follow the steps below.
 
@@ -24,7 +22,7 @@ Follow the steps below.
 
 2. Register an Account.
     
-    Register a GL.inet account. If you already have one, skip this step.
+    Register a glinet account. If you already have one, skip this step.
 
     ![sign up](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/sign_up_account.png){class="glboxshadow"}
 
@@ -60,7 +58,7 @@ Follow the steps below.
 
 You can now start using GL-RM1 to remote access your device.
 
-#### **Local Access to the Controlled Device**
+### Local Access to the Controlled Device
 
 If you want to locally access the controlled device via GL-RM1, find the IP address of GL-RM1 in its upper router, enter this IP address in the browser, you will be able to access the controlled device through GL-RM1 locally.
 
@@ -80,11 +78,11 @@ Now you can use this IP to access your device locally via GL-RM1.
 
     ![settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/settings.png){class="glboxshadow"}
 
-    - **Video**
+    - Video
 
         It provides modifications of video quality and orientation. You can adjust the video quality according to the connection quality and resolution requirements, and adjust the viewing angles as well.
 
-    - **Remote Device Settings**
+    - Remote Device Settings
 
         You can adjust the relevant settings of the controlled device.
 
@@ -94,12 +92,12 @@ Now you can use this IP to access your device locally via GL-RM1.
         - Show Virtual Keyboard: Whether to display and use the virtual keyboard on the control page.
         - Show Local Cursor: Whether to display the mouse of the current device on the screen.
 
-    - **System**
+    - System
 
         - Language: Switch the language of control page. 
         - Color Mode: Switch the theme color, including dark and light modes.
 
-    - **Security**
+    - Security
 
         - Two-Factor Authentication: Enable two factor authentication (2FA) to protect your account.
         - Change Admin Password: Change your administrator password here.
@@ -112,17 +110,17 @@ Now you can use this IP to access your device locally via GL-RM1.
 
     ![toolbox](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/toolbox.png){class="glboxshadow"}
 
-    - **Clipboard**
+    - Clipboard
 
         The clipboard allows you to paste the text content of the control end into the controlled device.
 
-    - **Shortcut**
+    - Shortcut
 
         Here are some common shortcut key options. Click "ALL" to show all options.
 
         ![all shortcuts](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/shortcut_all.png){class="glboxshadow"}  
 
-    - **Terminal**
+    - Terminal
 
         Access Terminal: You can access the terminal of GL-RM1 through this function.
 
@@ -136,17 +134,19 @@ Now you can use this IP to access your device locally via GL-RM1.
 
     ![accessories](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/accessories.png){class="glboxshadow"}
 
-    - **Fingerbot**
+    - Fingerbot
 
         Insert the cover of the Fingerbot into the GL-RM1.
     
         - Time: The duration for which the Fingerbot presses.
         - Strength: Two levels of pressing strength are provided.
 
-    - **ATX Power**
+    - ATX Power
 
         - Power: Provides short press and long press functions.
         - Restart: Restart the device.
+
+---
 
 === "Virtual Media"
 
@@ -162,7 +162,7 @@ Now you can use this IP to access your device locally via GL-RM1.
 
     You can perform operations such as deletion and download.
 
-    - **Mount To Remote**
+    - Mount To Remote
 
         Click "Mount To Remote", two options are provided: File Sharing and Image Mounting.
     
@@ -195,15 +195,13 @@ Now you can use this IP to access your device locally via GL-RM1.
 
     ![upgrade firmware](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/upgrade_firmware){class="glboxshadow"}
 
-## Accessories Help Document
+## Accessories
 
 GL.iNet provides standard accessories that you can connect to the GL-RM1 for use.
 
 ### ATX Package
 
-**What's in the ATX Package**
-
-There are some components in the box:
+There are some components in the ATX Package box:
 
 - ATX main board
 - USB-A to Type-C cable
@@ -211,13 +209,13 @@ There are some components in the box:
 - Screw package
 - ATX Bracket Set
 
-![components](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/conponents.jpg){class="glboxshadow"}
+![components](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/conponents.jpg){class="glboxshadow gl-60-desktop"}
 
-**PIN-OUT of the ATX Board**
+### PIN-OUT of the ATX Board
 
 ![pinout board](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/pinout_board.png){class="glboxshadow"}
 
-**Explanation of Interfaces with Marked Numbers**
+Explanation of Interfaces with Marked Numbers
 
 1. Type-C Interface: Connect to the RM1 device.
 2. Firmware Upgrade button: for the single-chip microcomputer on the ATX main board.
@@ -225,8 +223,9 @@ There are some components in the box:
 4. Connect to the F_PANEL interface of the computer.
 5. Connect to the control line of the computer panel.
 
-Note: 
-Interfaces 4 and 5 can be connected interchangeably. That is, interface 5 can be connected to the F_PANEL, and interface 4 can be connected to the control line of the computer panel. The LED status on the board is consistent with the Power LED status on the computer panel.
+!!! note
+
+    Interfaces 4 and 5 can be connected interchangeably. That is, interface 5 can be connected to the F_PANEL, and interface 4 can be connected to the control line of the computer panel. The LED status on the board is consistent with the Power LED status on the computer panel.
 
 Interfaces 4/5 diagram
 
@@ -246,7 +245,7 @@ Connect the fixed device to the F_PANEL interface of the host computer through t
 
 Connect the external interface to the USB-A interface of the GL-RM1 using the included USB-A to Type-C cable.
 
-![install atx board 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/install_atx_board_3.jpg){class="glboxshadow"}
+![install atx board 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/install_atx_board_3.jpg){class="glboxshadow gl-80-desktop"}
 
 ---
 

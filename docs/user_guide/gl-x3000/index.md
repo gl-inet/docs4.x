@@ -35,7 +35,7 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
 **Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
-#### 1. Sign in to the router web Admin Panel 
+#### 1. Sign in to the router web Admin Panel
 
 In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
@@ -55,7 +55,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_ethernet.jpg){class="glboxshadow"}
     
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
+    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -67,7 +67,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
     
-    If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name.
+    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
@@ -79,11 +79,11 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
     2. In your mobile device's settings, enable tethering. 
     3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
     
-    If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
+    If you are connected to the internet successfully, a green dot appears next to "Tethering".
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
+**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods.
 
 ## How to set up a VPN 
 
@@ -330,6 +330,19 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
     For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
+
+=== "Security"
+
+    The Security page allows you to configure various security settings to protect your network and router from unauthorized access. This page includes options for:
+
+    * Admin Password: Set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
+    * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
+    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
+    * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
+
+    These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
+
+    For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
 
 === "Reset Firmware"
 

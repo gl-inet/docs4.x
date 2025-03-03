@@ -37,7 +37,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/ethernet.png){class="glboxshadow"}
     
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet" in the web admin panel.
+    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet" in the web admin panel.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -49,7 +49,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
     
-    If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name.
+    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
@@ -59,7 +59,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     1. Connect your smartphone to the router via USB cable and enable network shareing in Personal hotspot of the setting.
     2. On the main screen of the web admin panel, locate the "Tethering" section, then click **Connect**.
-    3. If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
+    3. If you are connected to the internet successfully, a green dot appears next to "Tethering".
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
@@ -69,7 +69,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     1. Insert a cellular-enabled USB modem into the router's USB port.
     2. On the main screen of the web admin panel, locate the "Cellular" section, then click **Connect**.
-    3. If you are connected to the internet successfully, a light blue dot appears next to "Cellular."
+    3. If you are connected to the internet successfully, a green dot appears next to "Cellular."
 
     Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md) for detailed instructions.
 

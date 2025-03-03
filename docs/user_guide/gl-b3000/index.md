@@ -37,7 +37,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_ethernet.jpg){class="glboxshadow"}
     
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
+    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -49,7 +49,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
     
-    If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name.
+    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
@@ -312,7 +312,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * Admin Password: Set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
     * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
-    *Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
+    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
 
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 

@@ -33,7 +33,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
     
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
+    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -46,7 +46,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
     2. In your mobile device's settings, enable tethering. 
     3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
     
-    If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
+    If you are connected to the internet successfully, a green dot appears next to "Tethering".
 
 === "Cellular"
 

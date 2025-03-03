@@ -80,7 +80,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
     2. In your mobile device's settings, enable tethering. 
     3. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
     
-    If you are connected to the internet successfully, a light green dot appears next to "Tethering."
+    If you are connected to the internet successfully, a light green dot appears next to "Tethering".
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 

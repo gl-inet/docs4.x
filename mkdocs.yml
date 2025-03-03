@@ -102,6 +102,7 @@ nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
+    - GL-BE3600 (Slate 7): user_guide/gl-be3600/index.md
     - GL-RM1 (Comet): user_guide/gl-rm1/index.md
     - GL-X2000 (Spitz Plus): user_guide/gl-x2000/index.md
     - GL-B3000 (Marble): user_guide/gl-b3000/index.md

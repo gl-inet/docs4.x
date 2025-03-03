@@ -168,7 +168,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Parental controls"
 
-    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Spitz AX offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app.
+    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
 
     To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md).
 

@@ -368,7 +368,8 @@ Your router package includes:
 - 1 x Warrenty card
 - 1 x Ethernet cable
 - 1 x Power adapter
-- 1 x Converters (Base on your shipping countries, US/EU/UK/AU plugs)
+- 1 x US Power Adapter
+- 3 x Converters (EU, UK, and AU Plugs)
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/first_time_setup/be3600_unboxing.jpg){class="glboxshadow"}
 

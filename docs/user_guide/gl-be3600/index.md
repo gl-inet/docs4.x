@@ -77,7 +77,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 (and other GL.iNet routers) support OpenVPN, WireGuard, and Tailscale. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
 
 
 === "OpenVPN" 
@@ -355,6 +355,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 Slate 7 (GL-BE3600) is a dual-band Wi-Fi 7 portable travel router, with a maximum Wi-Fi speed of 3600 Mbps. Supporting both OpenVPN and WireGuard, Slate 7 ensures robust performance. Its compact and lightweight design ensures unparalleled portability, making it the perfect companion for travel, while its durable construction provides long-lasting performance wherever you go.
 
 ### Package contents
+
+Please note that the adapter within the package depends on your shipping country.
 
 Your router package includes:
 

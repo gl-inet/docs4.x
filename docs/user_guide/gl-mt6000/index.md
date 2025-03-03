@@ -1,5 +1,7 @@
 # Flint 2 (GL-MT6000) User Guide
 
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+
 ## How to set up Flint 2
 
 To set up Flint 2, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
@@ -82,7 +84,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint 2 (and other GL.iNet routers) support OpenVPN, WireGuard, and Tailscale. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint 2 (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
 
 
 === "OpenVPN" 

@@ -60,7 +60,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 2 (and other GL.iNet routers) support OpenVPN, WireGuard, and Tailscale. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 2 (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
 
 
 === "OpenVPN" 

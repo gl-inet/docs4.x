@@ -1,5 +1,7 @@
 # Beryl AX (GL-MT3000) User Guide
 
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+
 ## How to set up Beryl AX
 
 To set up Beryl AX, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
@@ -77,7 +79,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Beryl AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tailscale. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Beryl AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
 
 
 === "OpenVPN" 
@@ -356,9 +358,9 @@ Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi
 
 ![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
 
----
-
 ### Package contents
+
+Please note that the adapter within the package depends on your shipping country.
 
 Your router package includes:
 

@@ -19,7 +19,7 @@ There are two methods for enabling drop-in gateway mode: via through the [router
 
 #### Via the router admin panel 
 
-1. In a web browser, enter 192.168.8.1.  
+1. In a web browser, enter `192.168.8.1`.  
 2. Enter your password, then click **Login**. 
 3. In the left sidebar, click **Network** > **Drop-in Gateway**. 
 ![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
@@ -65,7 +65,7 @@ There are two methods for enabling drop-in gateway mode: via through the [router
 
 #### Via the router admin panel {#specific-devices-admin}
 
-1. In a web browser, enter 192.168.8.1. 
+1. In a web browser, enter `192.168.8.1`. 
 2. Enter your password, then click **Login**. 
 3. In the left sidebar, click **Network** > **Drop-in Gateway**. 
 ![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}

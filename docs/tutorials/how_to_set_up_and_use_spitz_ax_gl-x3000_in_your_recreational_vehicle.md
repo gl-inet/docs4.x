@@ -66,7 +66,7 @@ To set up your SIM cards, follow these steps:
 
 To enter your APN, follow these steps: 
 
-1. Enter 192.168.8.1 in a web browser and sign in. 
+1. enter `192.168.8.1` in a web browser and sign in. 
 2. You should see the name of your carrier in the upper left corner. Click **Manual Setup**.
 3. Next to **APN**, enter the APN. 
 4. Click **Apply**. 

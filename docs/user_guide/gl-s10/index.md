@@ -45,8 +45,8 @@
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/3/specification/gl-s10/gl-s10-pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
-      <img src="https://static.gl-inet.com/docs/router/en/3/specification/gl-s10/gl-s10-pinout.jpg" itemprop="thumbnail" alt="gl-s10 pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s10/hardware_info/gl-s10-pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
+      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s10/hardware_info/gl-s10-pinout.jpg" itemprop="thumbnail" alt="gl-s10 pinout" loading="lazy" />
     </a>
   </figure>
 </div>
@@ -55,14 +55,16 @@
 
 ## First time setup
 
-Please refer to [GL-S10](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/) on IoT docs.
+Please refer to [GL-S10](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/){target="_blank"} on IoT docs.
 
 ---
 
 ## User Manual
 
-Please refer to [User Manual](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/user_manual/) on IoT docs.
+Please refer to [User Manual](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/user_manual/){target="_blank"} on IoT docs.
+
+---
 
 ## Firmware Compilation Guide
 
-Please refer to [Firmware Compilation Guide](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/firmware_compilation_guide/) on IoT docs.
+Please refer to [Firmware Compilation Guide](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/firmware_compilation_guide/){target="_blank"} on IoT docs.

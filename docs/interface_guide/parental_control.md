@@ -164,7 +164,9 @@ With its logging function, it knows which client accessed which website during w
 
 | Router Model        | Support |
 | :------------------ | :-----: |
+| GL-BE9300 (Flint 3) |    √    |
 | GL-MT6000 (Flint 2) |    √    |
+| GL-B3000 (Marble)   |    √    |
 
 
 ### Setup
@@ -184,7 +186,7 @@ After selecting the bark version, enable and apply it.Both versions of Parental 
 The Bark service is enabled, but this device is not yet paired with any account. Please use the [Device Pairing Link](http://go.bark.us/?ref=glinet&home=glinet) to pair this device with your Bark account.
 
 
-![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_pairing_link.png){class="glboxshadow"}
+![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paring.png){class="glboxshadow"}
 
 The device is connected to Bark Cloud Services and paired with an account. Please [Go to Bark](https://www.bark.us/app/children/?ref=glinet&home=glinet) and log in to the paired account to control access.
 

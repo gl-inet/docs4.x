@@ -2,7 +2,7 @@
 
 ## How to set up GL-AR750
 
-To set up GL-AR750, you will use one of the four supported internet connection methods: Ethernet and repeater. Watch this setup video or follow the steps below. 
+To set up GL-AR750, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for GL-AR750 and other router models.)</small>
@@ -29,17 +29,17 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
 ### 3. Connect the GL-AR750 to the internet 
 
-**Note:** The following instructions were written for those using the router web admin panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web admin panel, [download the app](https://www.gl-inet.com/app/) and follow the on-screen instructions. 
+**Note:** The following instructions were written for those connecting the router to Internet via web admin panel. If you want to use the GL.iNet app instead of the web admin panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
-#### 1. Sign in to the router web admin panel
+#### 1. Log in to the router web admin panel
 
-In a web browser's address bar, enter 192.168.8.1. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
+In a web browser's address bar, enter `192.168.8.1`. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_ethernet.jpg){class='glboxshadow'}
+    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/ethernet.png){class="glboxshadow"}
     
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
 
@@ -47,7 +47,7 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_repeater.jpg){class='glboxshadow'}
+    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/repeater.png){class="glboxshadow"}
 
     1. On the main screen of the web admin panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
@@ -57,19 +57,9 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
-=== "Cellular"
-
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_cellular.jpg){class='glboxshadow'}
-
-    1. Insert a cellular-enabled USB modem into the router's USB port.
-    2. On the main screen of the web admin panel, locate the "Cellular" section, then click **Connect**.
-    3. If you are connected to the internet successfully, a light blue dot appears next to "Cellular."
-
-    Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md) for detailed instructions.
-
 === "Tethering"
 
-    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_tethering.jpg){class='glboxshadow'}
+    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/tethering.png){class="glboxshadow"}
 
     1. Connect your smartphone to the router via USB cable and enable network shareing in Personal hotspot of the setting.
     2. On the main screen of the web admin panel, locate the "Tethering" section, then click **Connect**.
@@ -77,13 +67,23 @@ In a web browser's address bar, enter 192.168.8.1. Choose your language, then cl
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
+=== "Cellular"
+
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/usb_modem.png){class="glboxshadow"}
+
+    1. Insert a cellular-enabled USB modem into the router's USB port.
+    2. On the main screen of the web admin panel, locate the "Cellular" section, then click **Connect**.
+    3. If you are connected to the internet successfully, a light blue dot appears next to "Cellular."
+
+    Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md) for detailed instructions.
+
 **Note:** If you want to use the multi-WAN feature, you will have to set up more than one internet connection methods. 
 
 ---
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). GL-AR750 (and other GL.iNet routers) support OpenVPN, WireGuard. Additionally, the GL-AR750 model also supports Tor.
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). GL-AR750 (and other GL.iNet routers) support OpenVPN and WireGuard.
 
 === "OpenVPN" 
 
@@ -210,8 +210,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
----
-
 ## System settings
 
 === "Overview"
@@ -221,8 +219,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * CPU Average Load: Monitor the average load on your router’s CPU, helping to assess performance and identify potential bottlenecks.
     * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
     * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
-    * System Info: Access detailed information about your router's system, including firmware version, uptime, and network status.
     * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
+    * System Info: Access detailed information about your router's system, including firmware version, uptime, and network status.
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
@@ -300,14 +298,14 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
 
---- 
-
 ## Product overview
 
 ### Product information
 
 Creta (GL-AR750) is a dual-band travel AC router. The simultaneous dual-band supports up to 733Mbps (2.4GHz: 300Mbps + 5GHz: 433Mbps) wireless transmission rate. Creta can convert a public network to a private Wi-Fi for secure surfing. External storage supports MicroSD up to 128GB. OpenWrt/LEDE and OpenVPN are pre-installed. Therefore, Creta gives the privacy-minded users a fast and simple VPN that utilizes state-of-the-art cryptography.
 
+![ar750 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/product_info/ar750_overview.png){class="glboxshadow"}
+
 ### Specifications
 
-Refer to [Specifications](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}. 
+Refer to [Specifications](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}.

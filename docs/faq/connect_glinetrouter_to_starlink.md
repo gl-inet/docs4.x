@@ -22,12 +22,6 @@
 
 4. Open Starlink App, go to setting, enable the Bypass mode.
 
-5. Use Starlink App with GL.iNet Router network.
-
-    Go to **System** -> **Advance** -> **Luci** -> **Network** -> **Static Routes** set a static route, then Save & Apply.
-
-    ![statisroute](https://static.gl-inet.com/docs/router/en/4/faq/starlink/staticroute.jpg){class="glboxshadow"}
-
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

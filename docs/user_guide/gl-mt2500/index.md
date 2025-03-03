@@ -290,6 +290,19 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
 
+=== "Security"
+
+    The Security page allows you to configure various security settings to protect your network and router from unauthorized access. This page includes options for:
+
+    * Admin Password: Set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
+    * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
+    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
+    * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
+
+    These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
+
+    For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
+
 === "Reset Firmware"
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.

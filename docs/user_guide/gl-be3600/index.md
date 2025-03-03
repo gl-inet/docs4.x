@@ -354,6 +354,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 Slate 7 (GL-BE3600) is a dual-band Wi-Fi 7 portable travel router, with a maximum Wi-Fi speed of 3600 Mbps. Supporting both OpenVPN and WireGuard, Slate 7 ensures robust performance. Its compact and lightweight design ensures unparalleled portability, making it the perfect companion for travel, while its durable construction provides long-lasting performance wherever you go.
 
+![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
+
 ### Package contents
 
 Please note that the adapter within the package depends on your shipping country.

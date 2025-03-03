@@ -165,6 +165,13 @@
         <div class="gl-product-model">(Mango)</div>
   	  </a>
   	</div>
+    <div class="gl-product-card">
+      <a href="gl-ar300m/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ar300m.jpg" >
+        <div class="gl-product-model">GL-AR300M Series</div>
+        <div class="gl-product-model">(Shadow)</div>
+  	  </a>
+  	</div>
   </div>
 </div>
 

@@ -51,17 +51,19 @@ Follow the steps below.
 
         Click the "+" button in the upper right corner.
 
-        ![click + button](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_button.png){class="glboxshadow"}
+        ![click + button](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_button.png){class="glboxshadow gl-80-desktop"}
 
         Customize device name and input the S/N, which is printed on the label on the back of the device.
 
-        ![add manually](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_manually.png)
+        ![add manually](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_manually.png){class="glboxshadow gl-80-desktop"}
 
 You can now start using GL-RM1 to remote access your device.
 
 ### Local Access to the Controlled Device
 
-If you want to locally access the controlled device via GL-RM1, find the IP address of GL-RM1 in its upper router, enter this IP address in the browser, you will be able to access the controlled device through GL-RM1 locally.
+Method 1. Open a browser, enter `glkvm.local`, you will enter the local management page.
+
+Method 2. Find the IP address of GL-RM1 in its upper router, enter this IP address in the browser, you will be able to access the controlled device through GL-RM1 locally.
 
 Take GL-AXT1800 as an example. Here we connect the GL-RM1 to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, the IP address of RM1 can be found in the Client list, as shown below.
 
@@ -242,19 +244,19 @@ Fix the ATX main board and the ATX Bracket Set with the screws provided.
 
 Connect the fixed ATX board to the computer host box. Please pay attention to the insertion direction of the cable. 
 
-![install atx board 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation_1){class="glboxshadow gl-60-desktop"}
+![install atx board 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation1.png){class="glboxshadow gl-60-desktop"}
 
-![install atx board 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation_2){class="glboxshadow gl-60-desktop"}
+![install atx board 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation2.jpg){class="glboxshadow gl-60-desktop"}
 
 Place the AXT board bracket on the side frame of the computer host box.
 
-![install atx board 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation_3){class="glboxshadow gl-60-desktop"}
+![install atx board 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation3.png){class="glboxshadow gl-60-desktop"}
 
 Connect the external interface to the USB-A interface of the GL-RM1 using the included USB-A to Type-C cable.
 
-![install atx board 4](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation_4){class="glboxshadow gl-60-desktop"}
+![install atx board 4](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation4.jpg){class="glboxshadow gl-60-desktop"}
 
-![install atx board 5](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation_5){class="glboxshadow gl-60-desktop"}
+![install atx board 5](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation5.jpg){class="glboxshadow gl-60-desktop"}
 
 ---
 

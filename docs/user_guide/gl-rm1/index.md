@@ -12,7 +12,8 @@ This section will guide you how to set up GL-RM1 quickly. Connect the device, re
 
 Connect GL-RM1 to the device you want to control according to the diagram below.
 
-![connect devices](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/connect_devices.png){class="glboxshadow"}
+![connect devices](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/connect_devices_1.png){class="glboxshadow"}
+![connect devices](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/connect_devices_2.png){class="glboxshadow"}
 
 ### Remote Access to the Controlled Device
 
@@ -24,13 +25,13 @@ Follow the steps below.
     
     Register a glinet account. If you already have one, skip this step.
 
-    ![sign up](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/sign_up_account.png){class="glboxshadow"}
+    ![sign up](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/sign_up_account.png){class="glboxshadow gl-80-desktop"}
 
 3. Log in to your Account.
 
     Enter the username and password to log in.
     
-    ![log in](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/log_in.png){class="glboxshadow"}
+    ![log in](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/log_in.png){class="glboxshadow gl-80-desktop"}
 
 4. Bind your GL-RM1.
 
@@ -42,9 +43,9 @@ Follow the steps below.
 
         Click "Add Device" and select your GL-RM1.
 
-        ![add device via LAN](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_device.png){class="glboxshadow"}
+        ![add device via LAN](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_device_via_lan){class="glboxshadow"}
 
-        ![select device](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/select_device_1.png){class="glboxshadow"}
+        ![select device](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/select_device_via_lan){class="glboxshadow"}
 
     === "Bind via Adding Manually"
 
@@ -102,7 +103,7 @@ Now you can use this IP to access your device locally via GL-RM1.
         - Two-Factor Authentication: Enable two factor authentication (2FA) to protect your account.
         - Change Admin Password: Change your administrator password here.
 
-            ![change admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/change_password){class="glboxshadow"}
+            ![change admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/change_password){class="glboxshadow gl-60-desktop"}
 
 === "Toolbox"
 
@@ -220,16 +221,16 @@ Explanation of Interfaces with Marked Numbers
 1. Type-C Interface: Connect to the RM1 device.
 2. Firmware Upgrade button: for the single-chip microcomputer on the ATX main board.
 3. Reset button.
-4. Connect to the F_PANEL interface of the computer.
-5. Connect to the control line of the computer panel.
+4. Connect to the control line of the computer panel.
+5. Connect to the F_PANEL interface of the computer.
 
 !!! note
 
-    Interfaces 4 and 5 can be connected interchangeably. That is, interface 5 can be connected to the F_PANEL, and interface 4 can be connected to the control line of the computer panel. The LED status on the board is consistent with the Power LED status on the computer panel.
+    Interfaces 4 and 5 can be connected interchangeably. That is, interface 5 can be connected to the control line of the computer panel, and interface 4 can be connected to the F_PANEL. The LED status on the board is consistent with the Power LED status on the computer panel.
 
 Interfaces 4/5 diagram
 
-![interface diagram 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/interfaces.png){class="glboxshadow"}
+![interface diagram 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/interfaces.png){class="glboxshadow gl-60-desktop"}
 
 ![interface diagram 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/interfaces_2.png){class="glboxshadow"}
 
@@ -237,15 +238,23 @@ Interfaces 4/5 diagram
 
 Fix the ATX main board and the ATX Bracket Set with the screws provided.
 
-![install atx board 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/install_atx_board.png){class="glboxshadow"}
+![screw the mainboard and bracket](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/screw_the_mainboard_and_bracket){class="glboxshadow gl-60-desktop"}
 
-Connect the fixed device to the F_PANEL interface of the host computer through the cable. Please pay attention to the insertion direction of the cable. 
+Connect the fixed ATX board to the computer host box. Please pay attention to the insertion direction of the cable. 
 
-![install atx board 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/install_atx_board_2.png){class="glboxshadow"}
+![install atx board 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation1.png){class="glboxshadow gl-80-desktop"}
+
+![install atx board 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation2.jpg){class="glboxshadow gl-80-desktop"}
+
+Place the AXT board bracket on the side frame of the computer host box.
+
+![install atx board 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation3.png){class="glboxshadow gl-60-desktop"}
 
 Connect the external interface to the USB-A interface of the GL-RM1 using the included USB-A to Type-C cable.
 
-![install atx board 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/install_atx_board_3.jpg){class="glboxshadow gl-80-desktop"}
+![install atx board 4](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation4.jpg){class="glboxshadow"}
+
+![install atx board 5](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation5.jpg){class="glboxshadow gl-60-desktop"}
 
 ---
 

@@ -43,7 +43,7 @@ Follow the steps below.
 
         Click "Add Device" and select your GL-RM1.
 
-        ![add device via LAN](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_device_via_lan){class="glboxshadow"}
+        ![add device via LAN](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_device_via_lan){class="glboxshadow gl-80-desktop"}
 
         ![select device](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/select_device_via_lan){class="glboxshadow"}
 
@@ -242,19 +242,19 @@ Fix the ATX main board and the ATX Bracket Set with the screws provided.
 
 Connect the fixed ATX board to the computer host box. Please pay attention to the insertion direction of the cable. 
 
-![install atx board 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation1.png){class="glboxshadow gl-80-desktop"}
+![install atx board 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation_1){class="glboxshadow gl-60-desktop"}
 
-![install atx board 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation2.jpg){class="glboxshadow gl-80-desktop"}
+![install atx board 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation_2){class="glboxshadow gl-60-desktop"}
 
 Place the AXT board bracket on the side frame of the computer host box.
 
-![install atx board 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation3.png){class="glboxshadow gl-60-desktop"}
+![install atx board 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation_3){class="glboxshadow gl-60-desktop"}
 
 Connect the external interface to the USB-A interface of the GL-RM1 using the included USB-A to Type-C cable.
 
-![install atx board 4](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation4.jpg){class="glboxshadow"}
+![install atx board 4](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation_4){class="glboxshadow gl-60-desktop"}
 
-![install atx board 5](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation5.jpg){class="glboxshadow gl-60-desktop"}
+![install atx board 5](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation_5){class="glboxshadow gl-60-desktop"}
 
 ---
 

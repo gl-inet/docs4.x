@@ -43,9 +43,9 @@ Follow the steps below.
 
         Click "Add Device" and select your GL-RM1.
 
-        ![add device via LAN](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_device_via_lan){class="glboxshadow gl-80-desktop"}
+        ![add device](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_device.png){class="glboxshadow gl-80-desktop"}
 
-        ![select device](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/select_device_via_lan){class="glboxshadow"}
+        ![select device](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/select_device.png){class="glboxshadow"}
 
     === "Bind via Adding Manually"
 
@@ -105,7 +105,7 @@ Now you can use this IP to access your device locally via GL-RM1.
         - Two-Factor Authentication: Enable two factor authentication (2FA) to protect your account.
         - Change Admin Password: Change your administrator password here.
 
-            ![change admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/change_password){class="glboxshadow gl-60-desktop"}
+            ![change admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/change_password.png){class="glboxshadow gl-60-desktop"}
 
 === "Toolbox"
 
@@ -169,17 +169,17 @@ Now you can use this IP to access your device locally via GL-RM1.
 
         Click "Mount To Remote", two options are provided: File Sharing and Image Mounting.
     
-        ![mount to remote](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/mount_to_remote){class="glboxshadow"}
+        ![mount to remote](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/mount_to_remote.png){class="glboxshadow"}
     
         - File Sharing: Emulates a read-write USB drive. Upload the files to the KVM (GL-RM1) and transfer from the host to the remoted device.
 
             Click "File Sharing", a window will pop up in the upper right corner of the control page.
     
-            ![file sharing 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/file_sharing_1){class="glboxshadow"}
+            ![file sharing 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/file_sharing_1.png){class="glboxshadow"}
 
             Check the GL-RM1 control page, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". Now you can view, move or delete the files in this drive.
 
-            ![file sharing 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/file_sharing_2){class="glboxshadow"}
+            ![file sharing 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/file_sharing_2.png){class="glboxshadow"}
     
         - Image Mounting: Emulates a read-only CD-Rom, supports BIOS/UEFI boot, for system reinstallation or ISO-based software installation.
 
@@ -187,7 +187,7 @@ Now you can use this IP to access your device locally via GL-RM1.
     
             Click "Image Mounting", in the Mount Settings, select the image you need and click "Mount Image". The image will be mounting. 
 
-            ![image mounting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/image_mounting){class="glboxshadow"}
+            ![image mounting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/image_mounting.png){class="glboxshadow"}
 
             Then you can use this file on the controlled end.
 
@@ -196,7 +196,7 @@ Now you can use this IP to access your device locally via GL-RM1.
 
     You can upgrade the firmware version here. Local and Online Upgrades are supported.
 
-    ![upgrade firmware](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/upgrade_firmware){class="glboxshadow"}
+    ![upgrade firmware](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
 
 ## Accessories
 
@@ -240,7 +240,7 @@ Interfaces 4/5 diagram
 
 Fix the ATX main board and the ATX Bracket Set with the screws provided.
 
-![screw the mainboard and bracket](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/screw_the_mainboard_and_bracket){class="glboxshadow gl-60-desktop"}
+![screw the mainboard and bracket](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/screw_the_mainboard_and_bracket.png){class="glboxshadow gl-60-desktop"}
 
 Connect the fixed ATX board to the computer host box. Please pay attention to the insertion direction of the cable. 
 

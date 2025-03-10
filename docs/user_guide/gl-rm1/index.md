@@ -10,10 +10,20 @@ This section will guide you how to set up GL-RM1 quickly. Connect the device, re
 
 ### Connect the Devices
 
-Connect GL-RM1 to the device you want to control according to the diagram below.
+![connect devices](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/01_controlling-device-and-device-being-controlled.jpg){class="glboxshadow"}
 
-![connect devices](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/connect_devices_1.png){class="glboxshadow"}
-![connect devices](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/connect_devices_2.png){class="glboxshadow"}
+1. Connect the GL-RM1 to the power source to power on.
+
+![Connect the GL-RM1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/02_power-on.jpg){class="glboxshadow"}
+
+2. Use an HDMI cable to connect the GL-RM1's HDMI-IN port to the HDMI-OUT port of the Device B.
+![HDMI cable to connect the GL-RM1's HDMI-IN port](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/03_hdmi.jpg){class="glboxshadow"}
+
+3. Connect the GL-RM1's USB-Device port to the USB interface of the Device B using a USB cable.
+![Connect the GL-RM1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/04_usb-cable.jpg){class="glboxshadow"}
+
+4. Plug the GL-RM1's Ethernet port to a network source.
+![Connect the GL-RM1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/05_ethernet.jpg){class="glboxshadow"}
 
 ### Remote Access to the Controlled Device
 

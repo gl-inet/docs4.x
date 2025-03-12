@@ -276,9 +276,29 @@ Place the AXT board bracket on the side frame of the computer host box.
 
 Connect the external interface to the USB-A interface of the GL-RM1 using the included USB-A to Type-C cable.
 
-![connect the power cable to the atx board](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/power_the_atx_board.jpg){class="glboxshadow gl-60-desktop"}
+![connect power cable to the atx board](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_power_cable_to_atx_board.png){class="glboxshadow gl-60-desktop"}
 
-![connect the power cable to the KVM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_the_usb_cable_to_kvm.jpg){class="glboxshadow gl-60-desktop"}
+![connect usb cable to the KVM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_usb_cable_to_glkvm.png){class="glboxshadow gl-60-desktop"}
+
+## Others
+
+When using GL-RM1, sometimes you may get the issue that the mouse cursor can’t be superimposed.
+
+![mouse cursor can’t be superimposed](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/others/mouse_cursor_cannot_be_superimposed.jpg){class="glboxshadow gl-60-desktop"}
+
+It’s related with the display resolution. The MacBook resolution is different from GLKVM.
+
+Go to the Settings -> Displays -> Optimize for.
+
+![settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/others/settings.png){class="glboxshadow gl-60-desktop"}
+
+Change it to **GLKVM**.
+
+![settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/others/select_glkvm.png){class="glboxshadow gl-60-desktop"}
+
+Choose the Resolution you prefer, and you’ll find the mouse cursor is superimposed. Then you can enjoy using it.
+
+![resolution](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/others/resolution.png){class="glboxshadow gl-60-desktop"}
 
 ---
 

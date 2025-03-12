@@ -1,21 +1,19 @@
-# Flint (GL-AX1800) User Guide
+# Slate 7 (GL-BE3600) User Guide
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+## How to set up Slate 7
 
-## How to set up Flint
-
-To set up Flint, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+To set up Slate 7, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Flint and other router models.)</small>
+<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Spitz Plus and other router models.)</small>
 
-### 1. Power on the Flint
+### 1. Power on the Slate 7
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-### 2. Connect your device to the Flint
+### 2. Connect your device to the Slate 7
 
-Connect your computer or mobile device to the router using Wi-Fi or ethernet.
+Connect your computer or mobile device to the router using Wi-Fi or Ethernet.
 
 === "Ethernet"
 
@@ -25,27 +23,27 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
     On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
-### 3. Connect the Flint to the internet 
+### 3. Connect the Slate 7 to the internet 
 
 **Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
 #### 1. Sign in to the router web Admin Panel
 
-In a web browser's address bar, enter `192.168.8.1`. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
+In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
 
 === "Ethernet"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
-
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_ethernet.jpg){class="glboxshadow"}
+    
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_repeater.png){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_repeater.jpg){class="glboxshadow"}
 
     1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
@@ -57,7 +55,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_tethering.png){class="glboxshadow"}
+     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_tethering.jpg){class="glboxshadow"}
 
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
@@ -69,37 +67,36 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Cellular"
 
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_cellular.png){class="glboxshadow"}
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_cellular.jpg){class="glboxshadow"}
 
     Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
-    [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
+    Click here to learn how to connect to the internet via USB modem.
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods.
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
+
 
 === "OpenVPN" 
-
-    Flint (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Slate 7 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
-
-    Flint (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Slate 7 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
 === "Tor"
 
-    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities.
+    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
     
-    *[How to set up Tor](../../interface_guide/tor.md).
+    * [How to set up Tor](../../interface_guide/tor.md).
 
 ## Wireless and clients
 
@@ -125,7 +122,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "AstroWarp"
 
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
+    
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## Applications
 
@@ -173,7 +172,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
     
-    To set up Tailscale, refer to [Tailscale](../../interface_guide/parental_control.md). 
+    To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
 
 ## Network settings
 
@@ -302,6 +301,12 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
 
+=== "Toggle Button Settings"
+
+    The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
+
+    For detailed setup instructions and more information, please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
+
 === "Log"
 
     The Log page provides access to various logs that record the router's activities and events, aiding in troubleshooting and performance monitoring. This page includes:
@@ -316,6 +321,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
 
+---
+
 === "Security"
 
     The Security page allows you to configure various security settings to protect your network and router from unauthorized access. This page includes options for:
@@ -328,8 +335,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 
     For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
-
----
 
 === "Reset Firmware"
 
@@ -347,9 +352,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ### Product information
 
-Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 600Mbps (2.4GHz) + 1200Mbps (5GHz). Its VPN encryption speed goes up to 667Mbps and can be used to host VPN servers. Flint is perfect for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming.
+Slate 7 (GL-BE3600) is a dual-band Wi-Fi 7 portable travel router, with a maximum Wi-Fi speed of 3600 Mbps. Supporting both OpenVPN and WireGuard, Slate 7 ensures robust performance. Its compact and lightweight design ensures unparalleled portability, making it the perfect companion for travel, while its durable construction provides long-lasting performance wherever you go.
 
-![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
+![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 
 ### Package contents
 
@@ -358,26 +363,16 @@ Please note that the adapter within the package depends on your shipping country
 Your router package includes:
 
 - 1 x User manual
-- 1 x Flint (GL-AX1800)
-- 1 x Ethernet cable
+- 1 x Slate 7 (GL-BE3600)
 - 1 x Thank you card
-- 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
+- 1 x Warrenty card
+- 1 x Ethernet cable
+- 1 x Power adapter
+- 1 x US Power Adapter
+- 3 x Converters (EU, UK, and AU Plugs)
 
-![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/first_time_setup/be3600_unboxing.jpg){class="glboxshadow"}
 
-Check out Flint's [unboxing video](../../video_library/unboxing_first_set_up.md#flintgl-ax1800).
+### Specifications
 
-### Specification
-
-[GL-AX1800 specification](https://www.gl-inet.com/products/gl-ax1800/#specs){target="_blank"}
-
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="thumbnail" alt="gl-ax1800 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
+Refer to [GL-BE3600 Specifications](https://www.gl-inet.com/products/gl-be3600/#specs){target="_blank"}.

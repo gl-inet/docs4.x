@@ -1,5 +1,7 @@
 # Puli AX (GL-XE3000) User Guide
 
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+
 ## How to set up Puli AX
 
 To set up Puli AX, you will use one of the four supported internet connection methods: Cellular (SIM cards), Ethernet, Repeater, and Tethering. Watch this setup video or follow the steps below. 
@@ -57,42 +59,43 @@ In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your la
 
 
 === "Ethernet"
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_ethernet.png){class='glboxshadow'}
+    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_ethernet.png){class="glboxshadow"}
     
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
+    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_repeater.png){class='glboxshadow'}
+    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_repeater.png){class="glboxshadow"}
 
     1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
     
-    If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name.
+    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
 === "Tethering"
 
-    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_tethering.png){class='glboxshadow'}
+    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_tethering.png){class="glboxshadow"}
 
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
     3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section.  
     
-    If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
+    If you are connected to the internet successfully, a green dot appears next to "Tethering".
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
+
 ---
 
 ## How to set up a VPN
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Puli AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tailscale. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Puli AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
 
 
 === "OpenVPN" 
@@ -109,7 +112,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
 
----
+=== "Tor"
+
+    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
+    
+    * [How to set up Tor](../../interface_guide/tor.md).
 
 ## More features and settings
 
@@ -178,7 +185,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "GoodCloud"
 
-    Good Cloud refers to a cloud computing service that prioritizes performance, reliability, and security while providing scalable resources for users. 
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
     
     To set up goodcloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
@@ -198,9 +205,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Parental controls"
 
-    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Spitz AX offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app. 
+    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
     
-    To set up parental controls, refer to [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control). 
+    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md). 
 
 === "Tailscale"
 
@@ -259,6 +266,8 @@ Puli AX (GL-XE3000) is the ultimate Wi-Fi 6 5G Cellular Router that takes your i
 ---
 
 ### Package contents
+
+Please note that the adapter within the package depends on your shipping country.
 
 Your router package includes:
 

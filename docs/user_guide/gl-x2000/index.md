@@ -1,5 +1,7 @@
 # Spitz Plus (GL-X2000) User Guide
 
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+
 ## How to set up Spitz Plus
 
 To set up Spitz Plus, you will use one of the four supported internet connection methods: Cellular (SIM cards), ethernet, repeater, and tethering. Watch this setup video or follow the steps below. 
@@ -43,7 +45,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_cellular.jpg){class='glboxshadow'}
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_cellular.jpg){class="glboxshadow"}
 
     If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light green dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
     
@@ -54,7 +56,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_ethernet.jpg){class='glboxshadow'}
+    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_ethernet.jpg){class="glboxshadow"}
     
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light green dot appears next to "Ethernet."
 
@@ -62,7 +64,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_repeater.jpg){class='glboxshadow'}
+    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_repeater.jpg){class="glboxshadow"}
 
     1. On the main screen of the admin panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
@@ -74,13 +76,13 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Tethering"
 
-     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_tethering.jpg){class='glboxshadow'}
+     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_tethering.jpg){class="glboxshadow"}
 
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
     3. On the main screen of the admin panel, click **Connect** in the "Tethering" section. 
     
-    If you are connected to the internet successfully, a light green dot appears next to "Tethering."
+    If you are connected to the internet successfully, a light green dot appears next to "Tethering".
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
@@ -90,7 +92,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz Plus (and other GL.iNet routers) support OpenVPN, WireGuard, and Tailscale. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz Plus (and other GL.iNet routers) support OpenVPN, WireGuard. 
 
 
 === "OpenVPN" 
@@ -134,7 +136,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Spitz Plus offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app. 
 
-    To set up parental controls, refer to [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control). 
+    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md). 
 
 === "eSIM"
 
@@ -164,6 +166,8 @@ Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to 
 
 
 ### Package contents
+
+Please note that the adapter within the package depends on your shipping country.
 
 Your router package includes:
 

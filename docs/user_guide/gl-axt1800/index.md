@@ -23,8 +23,6 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
     On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
-    The wireless settings lets users manage network security of the primary Wi-Fi and the Guest Wi-Fi, it is accessible by going to **WIRELESS** on the side menu.
-
 ### 3. Connect the Slate AX to the internet 
 **Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.  
 
@@ -38,7 +36,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_ethernet.png){class="glboxshadow"}
 
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
+    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -51,7 +49,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
     
-    If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name.
+    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
 
     [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
@@ -63,7 +61,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
     2. In your mobile device's settings, enable tethering. 
     3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
     
-    If you are connected to the internet successfully, a light blue dot appears next to "Tethering."
+    If you are connected to the internet successfully, a green dot appears next to "Tethering".
 
     [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
     
@@ -83,7 +81,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tailscale. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
 
 
 === "OpenVPN" 
@@ -171,7 +169,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "GoodCloud"
 
-    Good Cloud refers to a cloud computing service that prioritizes performance, reliability, and security while providing scalable resources for users. 
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
     
     To set up goodcloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
@@ -194,7 +192,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Slate AX offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app. 
     
-    To set up parental controls, refer to [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control). 
+    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md). 
 
 === "Tailscale"
 
@@ -242,6 +240,8 @@ Slate AX (GL-AXT1800) is the first Wi-Fi 6 travel router designed by GL.iNet. It
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
 
 ### Package contents
+
+Please note that the adapter within the package depends on your shipping country.
 
 Your router package includes:
 

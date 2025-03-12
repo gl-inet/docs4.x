@@ -5,6 +5,13 @@
 <div class="gl-product-row">
   <div class="gl-product-row-box">
     <div class="gl-product-card">
+      <a href="gl-be3600/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_be3600.jpg" >
+        <div class="gl-product-model">GL-BE3600</div>
+        <div class="gl-product-model">(Slate 7)</div>
+      </a>
+    </div>
+    <div class="gl-product-card">
       <a href="gl-mt3000/">
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt3000.jpg" >
         <div class="gl-product-model">GL-MT3000</div>
@@ -140,17 +147,45 @@
   </div>
 </div>
 
-### Security Gateway
+### Security Gateway & Mini Routers
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
     <div class="gl-product-card">
       <a href="gl-mt2500/">
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt2500-series.jpg" >
-        <div class="gl-product-model">GL-MT2500</div>
+        <div class="gl-product-model">GL-MT2500/GL-MT2500A</div>
         <div class="gl-product-model">(Brume 2)</div>
   	  </a>
   	</div>
+    <div class="gl-product-card">
+      <a href="gl-mt300n-v2/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt300n-v2.jpg" >
+        <div class="gl-product-model">GL-MT300N-V2</div>
+        <div class="gl-product-model">(Mango)</div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
+      <a href="gl-ar300m/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ar300m.jpg" >
+        <div class="gl-product-model">GL-AR300M Series</div>
+        <div class="gl-product-model">(Shadow)</div>
+  	  </a>
+  	</div>
+  </div>
+</div>
+
+### Remote Control
+
+<div class="gl-product-row">
+  <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-rm1/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_rm1.jpg" >
+        <div class="gl-product-model">GL-RM1</div>
+        <div class="gl-product-model">(Comet)</div>
+      </a>
+    </div>
   </div>
 </div>
 

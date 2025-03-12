@@ -1,5 +1,7 @@
 # Marble (GL-B3000) User Guide
 
+All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+
 ## How to set up Marble
 
 To set up Marble, you will use one of the two supported internet connection methods: Ethernet and repeater. Watch this setup video or follow the steps below. 
@@ -35,21 +37,21 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_ethernet.jpg){class='glboxshadow'}
+    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_ethernet.jpg){class="glboxshadow"}
     
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a light blue dot appears next to "Ethernet."
+    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_repeater.jpg){class='glboxshadow'}
+    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_repeater.jpg){class="glboxshadow"}
 
     1. On the main screen of the web admin panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
     3. Enter the network password, then click **Apply**.
     
-    If you are connected to the internet successfully, a light blue dot appears next to the Wi-Fi network name.
+    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
@@ -312,7 +314,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * Admin Password: Set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
     * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
-    *Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
+    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
 
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 
@@ -341,6 +343,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 The Marble (GL-B3000) router is an art of its own, cleverly displayed as a photo frame to house your favorite art piece and elevate your living space. Not just a visual delight to the eye, the Marble (GL-B3000) router delivers top-notch performance by featuring Wi-Fi 6 and supporting VPN capabilities.
 
 ### Package contents
+
+Please note that the adapter within the package depends on your shipping country.
 
 Your router package includes:
 

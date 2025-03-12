@@ -6,7 +6,7 @@ There are various reasons the WireGuard server you have set up on your GL.iNet r
 
 ??? "Follow these steps"
 
-    ![client](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/client.jpg){class='glboxshadow'}
+    ![client](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/client.jpg){class="glboxshadow"}
 
     The port forwarding you have set up on your primary router connected to your secondary router (GL.iNet) may not be working properly. 
     To check if port forwarding is working properly, try to forward the primary router's HTTPS port to your WireGuard server. Follow these steps: 
@@ -20,18 +20,18 @@ There are various reasons the WireGuard server you have set up on your GL.iNet r
             * **External port/Internal port:** Enter **443**. 
             * **Protocol:** Choose **All** or **UDP/TCP**.
             * **Internal IP** (or shown as **Host IP**): Enter your secondary router's WAN IP address or select your secondary router from the dropdown if available.
-            ![DDNS1](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns1.jpg){class='glboxshadow'}
+            ![DDNS1](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns1.jpg){class="glboxshadow"}
 
     2. Enable DDNS and HTTPS remote access (on the GL.iNet router)
 
         1. In a web browser, enter the URL to your GL.iNet router's admin panel (e.g., 192.168.8.1) and sign in.
         2. In the left sidebar, click **Applications** > **Dynamic DNS**. 
         3. Toggle **Enable DDNS** to on and check the box for **I have read and agree to the Terms of Service & Privacy Policy**. 
-            ![DDNS2](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns2.jpg){class='glboxshadow'}
+            ![DDNS2](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns2.jpg){class="glboxshadow"}
         4. Save the hostname somewhere as you will need it for later, then click **Apply**. 
         5. In the left sidebar, click **System** > **Security**. 
         6. Under **Remote Access Control**, toggle **HTTPS Remote Access** to on.  
-            ![DDNS3](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns3.jpg){class='glboxshadow'}
+            ![DDNS3](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns3.jpg){class="glboxshadow"}
         7. Click **Apply**. 
 
     3. Check if you can access the GL.iNet router's admin panel 
@@ -39,13 +39,13 @@ There are various reasons the WireGuard server you have set up on your GL.iNet r
         1. On another device (e.g., laptop or mobile device), connect to a different Wi-Fi network or the cellular network. 
         2. In a web browser's address bar, enter the hostname you saved earlier (abcd123.glddns.com). 
         3. Click **Advanced**. 
-            ![DDNS4](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns4.jpg){class='glboxshadow'}
+            ![DDNS4](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns4.jpg){class="glboxshadow"}
         4. Click **Proceed to abcd123.glddns.com(unsafe)**. 
-            ![DDNS5](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns5.jpg){class='glboxshadow'}
+            ![DDNS5](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns5.jpg){class="glboxshadow"}
 
     If you see the login screen of your GL.iNet router (secondary router), the port forwarding you set up on your primary router is working properly.
 
-    ![DDNS6](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns6.jpg){class='glboxshadow'}
+    ![DDNS6](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns6.jpg){class="glboxshadow"}
 
     If you do not see the login screen of your GL.iNet router (secondary router), port forwarding is not working properly. Set up port forwarding again or make sure to use a router with functioning port forwarding ability as your primary router. 
 

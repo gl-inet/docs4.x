@@ -9,3 +9,7 @@ To resolve this issue, follow one of these methods:
 - Clone your old router's MAC addresss to the new router. 
 - Reboot your modem. If this does not resolve the issue, turn it off for 30 minutes, then turn it on. 
 - Contact your internet service provider to reset the modem for you. 
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

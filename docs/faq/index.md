@@ -34,6 +34,7 @@ Learn how to use our devices and how to solve some common problems.
 * [My Wireguard server is not working properly](my_wireguard_server_is_not_working.md)
 * [What should I do if I saw Subnet Conflict](what_should_i_do_with_subnet_conflict.md)
 * [Warning on DDNS test](warning_on_ddns_test.md)
+* [Why My VPN Speed is Low](why_my_vpn_speed_is_low.md)
 
 ## Internet Connection
 

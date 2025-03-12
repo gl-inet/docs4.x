@@ -222,7 +222,7 @@ There are some components in the ATX Package box:
 - Screw package
 - ATX Bracket Set
 
-![components](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/conponents.jpg){class="glboxshadow gl-60-desktop"}
+![components](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/atx_package_components.png){class="glboxshadow gl-60-desktop"}
 
 ### PIN-OUT of the ATX Board
 
@@ -252,21 +252,33 @@ Fix the ATX main board and the ATX Bracket Set with the screws provided.
 
 ![screw the mainboard and bracket](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/screw_the_mainboard_and_bracket.png){class="glboxshadow gl-60-desktop"}
 
-Connect the fixed ATX board to the computer host box. Please pay attention to the insertion direction of the cable. 
+Connect ATX board interfaces ④ and ⑤ respectively to the computer motherboard and F_PANEL interface. 
 
-![install atx board 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation1.png){class="glboxshadow gl-60-desktop"}
+The wires provided in the ATX Package allow you to connect one of the interfaces (such as interface ④) to the computer motherboard or F_PANEL interface. You need to use the wire set included in the computer host box to connect another ATX board interface (such as interface ⑤) to the computer motherboard or F_PANEL interface.
 
-![install atx board 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation2.jpg){class="glboxshadow gl-60-desktop"}
+Here's an example to connect one of the axt board interfaces to the F_PANEL interface of the computer, using wire set with multiple strands.
+
+![f_panel interface connection 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/f_panel_interface_connection_1.png){class="glboxshadow gl-60-desktop"}
+
+![f_panel interface connection 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/f_panel_interface_connection_2.png){class="glboxshadow gl-60-desktop"}
+
+![f_panel interface connection 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/f_panel_interface_connection_3.jpg){class="glboxshadow gl-60-desktop"}
+
+Then please use the wire set included in your computer host box to connect another ATX board interface to the computer motherboard.
+
+The final wiring diagram is shown in the following figure.
+
+![wiring diagram](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/wiring_diagram.jpg){class="glboxshadow gl-60-desktop"}
 
 Place the AXT board bracket on the side frame of the computer host box.
 
-![install atx board 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation3.png){class="glboxshadow gl-60-desktop"}
+![place the atx board bracket](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/place_the_atx_board_bracket.png){class="glboxshadow gl-60-desktop"}
 
 Connect the external interface to the USB-A interface of the GL-RM1 using the included USB-A to Type-C cable.
 
-![install atx board 4](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation4.jpg){class="glboxshadow gl-60-desktop"}
+![connect the power cable to the atx board](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/power_the_atx_board.jpg){class="glboxshadow gl-60-desktop"}
 
-![install atx board 5](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/installation5.jpg){class="glboxshadow gl-60-desktop"}
+![connect the power cable to the KVM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_the_usb_cable_to_kvm.jpg){class="glboxshadow gl-60-desktop"}
 
 ---
 

@@ -11,3 +11,7 @@
 ## Connecting by Phone Tethering
 
 ![tethering](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/tethering.jpg){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

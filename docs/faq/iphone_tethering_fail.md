@@ -15,3 +15,7 @@ When you encounter iPhone tethering failed, you can try the following steps to s
 4. Unplug and replug the lightening cable.
 
 5. Reboot the router and iphone. Sometimes iphone reboot does solve the tethering problem.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

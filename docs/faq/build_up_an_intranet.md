@@ -13,3 +13,7 @@ You can connect your PC by a LAN cable and then connect the WiFi to your Laptop.
 ### More Examples
 
 [Stage Management](https://www.linkedin.com/posts/gl-inet.com_today-we-would-like-to-share-a-customer-activity-7070333936018624512-vl5O?utm_source=share&utm_medium=member_ios)
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.

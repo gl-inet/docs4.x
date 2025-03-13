@@ -1,8 +1,6 @@
 # Comet (GL-RM1) User Guide
 
-GL-RM1 is an open - source remote KVM device with a wide range of applications. For business travelers, it enables remote control of office computers during trips, facilitating access to crucial documents. IT maintenance personnel can use it to remotely manage servers and quickly resolve issues.
-
-It supports remote control of offline devices, allowing you to handle computer boot failures and adjust BIOS settings. It also has a remote file transfer function, enabling easy data transfer for both online and offline computers. With audio support, it provides a more immersive remote interaction experience. In a word, it is an essential tool for remote work and device management.
+GL-RM1 is an open-source remote KVM device with a wide range of applications. You can use it to remote control your home computer when away from home, access to local resources, etc. It supports remote control of offline devices, allowing you to handle computer boot failures and adjust BIOS settings. It also has a remote file transfer function, enabling easy data transfer for both online and offline computers. With audio support, it provides a more immersive remote interaction experience. In a word, it is an essential tool for remote work and device management.
 
 ## Quick Setup Guide
 
@@ -12,18 +10,17 @@ This section will guide you how to set up GL-RM1 quickly. Connect the device, re
 
 ![connect devices](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/01_controlling-device-and-device-being-controlled.jpg){class="glboxshadow"}
 
-1. Connect the GL-RM1 to the power source to power on.
-
-![Connect the GL-RM1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/02_power-on.jpg){class="glboxshadow"}
+1. Connect the GL-RM1 to the power source to power it on.
+    ![Connect the GL-RM1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/02_power-on.jpg){class="glboxshadow"}
 
 2. Use an HDMI cable to connect the GL-RM1's HDMI-IN port to the HDMI-OUT port of the Device B.
-![HDMI cable to connect the GL-RM1's HDMI-IN port](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/03_hdmi.jpg){class="glboxshadow"}
+    ![HDMI cable to connect the GL-RM1's HDMI-IN port](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/03_hdmi.jpg){class="glboxshadow"}
 
 3. Connect the GL-RM1's USB-Device port to the USB interface of the Device B using a USB cable.
-![Connect the GL-RM1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/04_usb-cable.jpg){class="glboxshadow"}
+    ![Connect the GL-RM1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/04_usb-cable.jpg){class="glboxshadow"}
 
 4. Plug the GL-RM1's Ethernet port to a network source.
-![Connect the GL-RM1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/05_ethernet.jpg){class="glboxshadow"}
+    ![Connect the GL-RM1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/05_ethernet.jpg){class="glboxshadow"}
 
 ### Remote Access to the Controlled Device
 
@@ -75,7 +72,7 @@ Method 1. Open a browser, enter `glkvm.local`, you will enter the local manageme
 
 Method 2. Find the IP address of GL-RM1 in its upper router, enter this IP address in the browser, you will be able to access the controlled device through GL-RM1 locally.
 
-Take GL-AXT1800 as an example. Here we connect the GL-RM1 to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, the IP address of RM1 can be found in the Client list, as shown below.
+Take GL-AXT1800 as an example. Here we connect the GL-RM1 to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, the IP address of GL-RM1 can be found in the Client list, as shown below.
 
 ![local access via ip](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/local_access_via_ip.png){class="glboxshadow"}
 
@@ -230,7 +227,7 @@ There are some components in the ATX Package box:
 
 Explanation of Interfaces with Marked Numbers
 
-1. Type-C Interface: Connect to the RM1 device.
+1. Type-C Interface: Connect to the GL-RM1 device.
 2. Firmware Upgrade button: for the single-chip microcomputer on the ATX main board.
 3. Reset button.
 4. Connect to the control line of the computer panel.
@@ -270,7 +267,7 @@ The final wiring diagram is shown in the following figure.
 
 ![wiring diagram](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/wiring_diagram.jpg){class="glboxshadow gl-60-desktop"}
 
-Place the AXT board bracket on the side frame of the computer host box.
+Place the ATX board bracket on the side frame of the computer host box.
 
 ![place the atx board bracket](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/place_the_atx_board_bracket.png){class="glboxshadow gl-60-desktop"}
 
@@ -280,7 +277,7 @@ Connect the external interface to the USB-A interface of the GL-RM1 using the in
 
 ![connect usb cable to the KVM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_usb_cable_to_glkvm.png){class="glboxshadow gl-60-desktop"}
 
-## Others
+## How to fix mouse cursor issues on MacOS
 
 When using GL-RM1, sometimes you may get the issue that the mouse cursor can’t be superimposed.
 

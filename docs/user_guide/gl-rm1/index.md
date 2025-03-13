@@ -279,11 +279,11 @@ Connect the external interface to the USB-A interface of the GL-RM1 using the in
 
 ## How to fix mouse cursor issues on MacOS
 
-When using GL-RM1, sometimes you may get the issue that the mouse cursor can’t be superimposed.
+When using GL-RM1, sometimes you may get the issue that the mouse cursor can’t be superimposed on macOS.
 
 ![mouse cursor can’t be superimposed](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/others/mouse_cursor_cannot_be_superimposed.jpg){class="glboxshadow gl-60-desktop"}
 
-It’s related with the display resolution. The MacBook resolution is different from GLKVM.
+It’s related with the display resolution. The resolution is different from GLKVM.
 
 Go to the Settings -> Displays -> Optimize for.
 

@@ -82,128 +82,126 @@ Now you can use this IP to access your device locally via GL-RM1.
 
 ## Function Introduction
 
-=== "Settings"
+### Settings
 
-    Move to the top navigation bar, click **Settings**, you will get a page as below.
+Move to the top navigation bar, click **Settings**, you will get a page as below.
 
-    ![settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/settings.png){class="glboxshadow"}
+![settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/settings.png){class="glboxshadow"}
 
-    - Video
+- Video
 
-        It provides modifications of video quality and orientation. You can adjust the video quality according to the connection quality and resolution requirements, and adjust the viewing angles as well.
+    It provides modifications of video quality and orientation. You can adjust the video quality according to the connection quality and resolution requirements, and adjust the viewing angles as well.
 
-    - Remote Device Settings
+- Remote Device Settings
 
-        You can adjust the relevant settings of the controlled device.
+    You can adjust the relevant settings of the controlled device.
 
-        - Audio: Turn on or off the sound of the controlled device.
-        - Mouse: Turn on or off the mouse of the controlled device.
-        - Keyboard: Turn on or off the keyboard of the controlled device.
-        - Show Virtual Keyboard: Whether to display and use the virtual keyboard on the control page.
-        - Show Local Cursor: Whether to display the mouse of the current device on the screen.
+    - Audio: Turn on or off the sound of the controlled device.
+    - Mouse: Turn on or off the mouse of the controlled device.
+    - Keyboard: Turn on or off the keyboard of the controlled device.
+    - Show Virtual Keyboard: Whether to display and use the virtual keyboard on the control page.
+    - Show Local Cursor: Whether to display the mouse of the current device on the screen.
 
-    - System
+- System
 
-        - Language: Switch the language of control page. 
-        - Color Mode: Switch the theme color, including dark and light modes.
+    - Language: Switch the language of control page. 
+    - Color Mode: Switch the theme color, including dark and light modes.
 
-    - Security
+- Security
 
-        - Two-Factor Authentication: Enable two factor authentication (2FA) to protect your account.
-        - Change Admin Password: Change your administrator password here.
+    - Two-Factor Authentication: Enable two factor authentication (2FA) to protect your account.
+    - Change Admin Password: Change your administrator password here.
 
-            ![change admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/change_password.png){class="glboxshadow gl-60-desktop"}
+    ![change admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/change_password.png){class="glboxshadow gl-60-desktop"}
 
-=== "Toolbox"
+### Toolbox
 
-    In the top navigation bar, click  **Toolbox**.
+In the top navigation bar, click  **Toolbox**.
 
-    ![toolbox](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/toolbox.png){class="glboxshadow"}
+![toolbox](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/toolbox.png){class="glboxshadow"}
 
-    - Clipboard
+- Clipboard
 
-        The clipboard allows you to paste the text content of the control end into the controlled device.
+    The clipboard allows you to paste the text content of the control end into the controlled device.
 
-    - Shortcut
+- Shortcut
 
-        Here are some common shortcut key options. Click "ALL" to show all options.
+    Here are some common shortcut key options. Click "ALL" to show all options.
 
-        ![all shortcuts](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/shortcut_all.png){class="glboxshadow"}  
+    ![all shortcuts](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/shortcut_all.png){class="glboxshadow"}  
 
-    - Terminal
+- Terminal
 
-        Access Terminal: You can access the terminal of GL-RM1 through this function.
+    Access Terminal: You can access the terminal of GL-RM1 through this function.
 
-        ![access terminal](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/access_terminal.png){class="glboxshadow"} 
+    ![access terminal](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/access_terminal.png){class="glboxshadow"} 
 
-=== "Accessories"
+### Accessories
 
-    GL.iNet provides you with accessories (optional), which you can connect to the GL-RM1 for use.
+GL.iNet provides you with accessories (optional), which you can connect to the GL-RM1 for use.
 
-    In the top navigation bar, click  **Accessories**.
+In the top navigation bar, click  **Accessories**.
 
-    ![accessories](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/accessories.png){class="glboxshadow"}
+![accessories](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/accessories.png){class="glboxshadow"}
 
-    - Fingerbot
+- Fingerbot
 
-        Insert the cover of the Fingerbot into the GL-RM1.
+    Insert the cover of the Fingerbot into the GL-RM1.
     
-        - Time: The duration for which the Fingerbot presses.
-        - Strength: Two levels of pressing strength are provided.
+    - Time: The duration for which the Fingerbot presses.
+    - Strength: Two levels of pressing strength are provided.
 
-    - ATX Power
+- ATX Power
 
-        - Power: Provides short press and long press functions.
-        - Restart: Restart the device.
+    - Power: Provides short press and long press functions.
+    - Restart: Restart the device.
 
----
+### Virtual Media
 
-=== "Virtual Media"
+GL-RM1 allows you to transfer files from the host to GL-RM1, and then from GL-RM1 to the controlled device.
 
-    GL-RM1 allows you to transfer files from the host to GL-RM1, and then from GL-RM1 to the controlled device.
+In the top navigation bar, click  **Virtual Media**.
 
-    In the top navigation bar, click  **Virtual Media**.
+![virtual media](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/virtual_media.png){class="glboxshadow"}
 
-    ![virtual media](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/virtual_media.png){class="glboxshadow"}
+You can drag or click the box to upload files from host or from URL. As an example, two images were uploaded from the host to the GL-RM1 here.
 
-    You can drag or click the box to upload files from host or from URL. As an example, two images were uploaded from the host to the GL-RM1 here.
+![upload files](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/upload_files_example.png){class="glboxshadow"}
 
-    ![upload files](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/upload_files_example.png){class="glboxshadow"}
+You can perform operations such as deletion and download.
 
-    You can perform operations such as deletion and download.
+- Mount To Remote
 
-    - Mount To Remote
-
-        Click "Mount To Remote", two options are provided: File Sharing and Image Mounting.
+    Click "Mount To Remote", two options are provided: File Sharing and Image Mounting.
     
-        ![mount to remote](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/mount_to_remote.png){class="glboxshadow"}
+    ![mount to remote](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/mount_to_remote.png){class="glboxshadow"}
     
-        - File Sharing: Emulates a read-write USB drive. Upload the files to the KVM (GL-RM1) and transfer from the host to the remoted device.
+- File Sharing: Emulates a read-write USB drive. Upload the files to the KVM (GL-RM1) and transfer from the host to the remoted device.
 
-            Click "File Sharing", a window will pop up in the upper right corner of the control page.
+    Click "File Sharing", a window will pop up in the upper right corner of the control page.
     
-            ![file sharing 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/file_sharing_1.png){class="glboxshadow"}
+    ![file sharing 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/file_sharing_1.png){class="glboxshadow"}
 
-            Check the GL-RM1 control page, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". Now you can view, move or delete the files in this drive.
+    Check the GL-RM1 control page, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". Now you can view, move or delete the files in this drive.
 
-            ![file sharing 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/file_sharing_2.png){class="glboxshadow"}
+    ![file sharing 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/file_sharing_2.png){class="glboxshadow"}
     
-        - Image Mounting: Emulates a read-only CD-Rom, supports BIOS/UEFI boot, for system reinstallation or ISO-based software installation.
+- Image Mounting: Emulates a read-only CD-Rom, supports BIOS/UEFI boot, for system reinstallation or ISO-based software installation.
 
-            GL-RM1 can simulate a read-only virtual CD/DVD or disk drive on the target host. You can access this drive during the BIOS or UEFI startup process. This function can help you reinstall the operating system or mount an ISO to install applications on the target host and other tasks.
+    GL-RM1 can simulate a read-only virtual CD/DVD or disk drive on the target host. You can access this drive during the BIOS or UEFI startup process. This function can help you reinstall the operating system or mount an ISO to install applications on the target host and other tasks.
     
-            Click "Image Mounting", in the Mount Settings, select the image you need and click "Mount Image". The image will be mounting. 
+    Click "Image Mounting", in the Mount Settings, select the image you need and click "Mount Image". The image will be mounting. 
 
-            ![image mounting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/image_mounting.png){class="glboxshadow"}
+    ![image mounting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/image_mounting.png){class="glboxshadow"}
 
-            Then you can use this file on the controlled end.
+    Then you can use this file on the controlled end.
 
 
-=== "Help"
+### Help
 
-    You can upgrade the firmware version here. Local and Online Upgrades are supported.
+You can upgrade the firmware version here. Local and Online Upgrades are supported.
 
-    ![upgrade firmware](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
+![upgrade firmware](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
 
 ## Accessories
 

@@ -68,9 +68,9 @@ You can now start using GL-RM1 to remote access your device.
 
 ### Local Access to the Controlled Device
 
-Method 1. Open a browser, enter `glkvm.local`, you will enter the local management page.
+**Method 1**. Open a browser, enter `glkvm.local`, you will enter the local management page.
 
-Method 2. Find the IP address of GL-RM1 in its upper router, enter this IP address in the browser, you will be able to access the controlled device through GL-RM1 locally.
+**Method 2**. Find the IP address of GL-RM1 in its upper router, enter this IP address in the browser, you will be able to access the controlled device through GL-RM1 locally.
 
 Take GL-AXT1800 as an example. Here we connect the GL-RM1 to the LAN port of GL-AXT1800 router through an Ethernet cable, so GL-AXT1800 is the upper router. Log in to the web admin panel of GL-AXT1800, the IP address of GL-RM1 can be found in the Client list, as shown below.
 
@@ -209,6 +209,8 @@ GL.iNet provides standard accessories that you can connect to the GL-RM1 for use
 
 ### ATX Package
 
+#### Components
+
 There are some components in the ATX Package box:
 
 - ATX main board
@@ -219,9 +221,9 @@ There are some components in the ATX Package box:
 
 ![components](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/atx_package_components.png){class="glboxshadow gl-60-desktop"}
 
-### PIN-OUT of the ATX Board
+#### PIN-OUT of the ATX Board
 
-![pinout board](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/pinout_board.png){class="glboxshadow"}
+![pinout board](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_pinout.png){class="glboxshadow"}
 
 Explanation of Interfaces with Marked Numbers
 
@@ -241,7 +243,7 @@ Interfaces 4/5 diagram
 
 ![interface diagram 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/interfaces_2.png){class="glboxshadow"}
 
-### ATX Main Board Installation
+#### ATX Main Board Installation
 
 Fix the ATX main board and the ATX Bracket Set with the screws provided.
 
@@ -255,7 +257,7 @@ Here's an example to connect one of the axt board interfaces to the F_PANEL inte
 
 ![f_panel interface connection 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/f_panel_interface_connection_1.png){class="glboxshadow gl-60-desktop"}
 
-![f_panel interface connection 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/f_panel_interface_connection_2.png){class="glboxshadow gl-60-desktop"}
+![f_panel interface connection 2](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/f_panel_interface_connection_2.jpg){class="glboxshadow gl-60-desktop"}
 
 ![f_panel interface connection 3](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/f_panel_interface_connection_3.jpg){class="glboxshadow gl-60-desktop"}
 
@@ -273,9 +275,13 @@ Connect the external interface to the USB-A interface of the GL-RM1 using the in
 
 ![connect power cable to the atx board](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_power_cable_to_atx_board.png){class="glboxshadow gl-60-desktop"}
 
-![connect usb cable to the KVM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_usb_cable_to_glkvm.png){class="glboxshadow gl-60-desktop"}
+![connect usb cable to the KVM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_usb_cable_to_glkvm.jpg){class="glboxshadow gl-60-desktop"}
 
-## How to fix mouse cursor issues on MacOS
+### FingerBot
+
+Coming soon.
+
+## How to fix mouse cursor overlay issue on macOS
 
 When using GL-RM1, sometimes you may get the issue that the mouse cursor can’t be superimposed on macOS.
 
@@ -285,11 +291,11 @@ It’s related with the display resolution. The resolution is different from GLK
 
 Go to the Settings -> Displays -> Optimize for.
 
-![settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/others/settings.png){class="glboxshadow gl-60-desktop"}
+![settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/others/settings.jpg){class="glboxshadow gl-60-desktop"}
 
 Change it to **GLKVM**.
 
-![settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/others/select_glkvm.png){class="glboxshadow gl-60-desktop"}
+![select glkvm](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/others/select_glkvm.png){class="glboxshadow gl-60-desktop"}
 
 Choose the Resolution you prefer, and you’ll find the mouse cursor is superimposed. Then you can enjoy using it.
 

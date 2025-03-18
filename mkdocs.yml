@@ -215,6 +215,7 @@ nav:
       - How to set up eSIM: tutorials/how_to_set_up_esim.md
       - How to set up the eSIM Physical Card with Android Devices: tutorials/how_to_set_up_the_esim_physical_card_with_android_devices.md
     - Others:
+      - How to connect to an Extensible Authentication Protocol Network: tutorials/eap.md
       - How to manually configure static IP: tutorials/manually_configure_static_ip.md
       - How to check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
       - How to Change the Nat Type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md

@@ -26,7 +26,7 @@ This section will guide you how to set up GL-RM1 quickly. Connect the device, re
 
 Follow the steps below.
 
-1. Install the [App](https://link.gl-inet.com/label-rm1-app/){target="_blank"} on your Remote Control Device.
+1. Install the [App](https://link.gl-inet.com/label-rm1-app/){target="_blank"} on your remote controlling device.
 
 2. Register an Account.
     
@@ -46,7 +46,7 @@ Follow the steps below.
 
     === "Bind via Local Area Network"
     
-        Please ensure that the current Remote Control Device is in the same local area network as the GL-RM1.
+        Please ensure that the current Controlling Device is in the same local area network as the GL-RM1.
 
         Click "Add Device" and select your GL-RM1.
 
@@ -64,7 +64,7 @@ Follow the steps below.
 
         ![add manually](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_manually.png){class="glboxshadow gl-80-desktop"}
 
-You can now start using GL-RM1 to remote access your device.
+You can now start using GL-RM1 to remote access the controlled device.
 
 ### Local Access to the Controlled Device
 
@@ -76,7 +76,7 @@ Take GL-AXT1800 as an example. Here we connect the GL-RM1 to the LAN port of GL-
 
 ![local access via ip](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/local_access_via_ip.png){class="glboxshadow"}
 
-Now you can use this IP to access your device locally via GL-RM1.
+Now you can use this IP to access your controlled device locally via GL-RM1.
 
 ![local access](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/local_access.png){class="glboxshadow"}
 
@@ -146,15 +146,19 @@ In the top navigation bar, click  **Accessories**.
 
 - Fingerbot
 
-    Insert the cover of the Fingerbot into the GL-RM1.
+    The FingerBot is an optional accessory. Acting as a physical button emulator, it is designed to enable remote control of physical power button on the controlled device.
     
     - Time: The duration for which the Fingerbot presses.
     - Strength: Two levels of pressing strength are provided.
 
 - ATX Power
 
+    The ATX Board is another optional accessory. It functions as a smart power management module, enabling remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). Unlike the FingerBot, which controls device through physical button presses, the ATX Board will directly installed in the controlled device's host box, providing more concealed and stable power management. 
+
     - Power: Provides short press and long press functions.
     - Restart: Restart the device.
+
+    Click [here](https://docs.gl-inet.com/router/en/4/user_guide/gl-rm1/#atx-package) to find more details about ATX package.
 
 ### Virtual Media
 
@@ -271,15 +275,17 @@ Place the ATX board bracket on the side frame of the computer host box.
 
 ![place the atx board bracket](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/place_the_atx_board_bracket.png){class="glboxshadow gl-60-desktop"}
 
-Connect the external interface to the USB-A interface of the GL-RM1 using the included USB-A to Type-C cable.
+Connect the external interface of ATX board to the USB-A interface of the GL-RM1 using the included USB-A to Type-C cable.
 
 ![connect power cable to the atx board](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_power_cable_to_atx_board.png){class="glboxshadow gl-60-desktop"}
 
-![connect usb cable to the KVM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_usb_cable_to_glkvm.jpg){class="glboxshadow gl-60-desktop"}
+![connect usb cable to the KVM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_usb_cable_to_glkvm.png){class="glboxshadow"}
 
 ### FingerBot
 
-Coming soon.
+The FingerBot, acting as a physical button emulator, is designed to enable remote control of physical power button on the controlled device. 
+
+Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of GL-RM1. Then attach the FingerBot to the physical power button of the controlled device, it will be able to remote control the ON/OFF of the controlled device by physically pressing the power button.
 
 ## How to fix mouse cursor overlay issue on macOS
 

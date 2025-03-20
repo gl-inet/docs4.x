@@ -151,9 +151,11 @@ In the top navigation bar, click  **Accessories**.
     - Time: The duration for which the Fingerbot presses.
     - Strength: Two levels of pressing strength are provided.
 
+    Click [here](https://docs.gl-inet.com/router/en/4/user_guide/gl-rm1/#fingerbot) to find more details about FingerBot.
+
 - ATX Power
 
-    The ATX Board is another optional accessory. It functions as a smart power management module, enabling remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). Unlike the FingerBot, which controls device through physical button presses, the ATX Board will directly installed in the controlled device's host box, providing more concealed and stable power management. 
+    The ATX Board is another optional accessory. It is installed in the computer host box, enabling remote control of the controlled device's power supply (power on/off/reboot).
 
     - Power: Provides short press and long press functions.
     - Restart: Restart the device.
@@ -211,7 +213,17 @@ You can upgrade the firmware version here. Local and Online Upgrades are support
 
 GL.iNet provides standard accessories that you can connect to the GL-RM1 for use.
 
+### FingerBot
+
+The FingerBot, acting as a physical button emulator, is designed to enable remote control of physical power button on the controlled device. 
+
+Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of GL-RM1. Then attach the FingerBot to the physical power button of the controlled device, it will be able to remote control the ON/OFF of the controlled device by physically pressing the power button.
+
+Then you can log in to GL-RM1, go to [Accessories](https://docs.gl-inet.com/router/en/4/user_guide/gl-rm1/#accessories) to set the FingerBot.
+
 ### ATX Package
+
+The ATX Board is an optional accessory. It functions as a smart power management module, enabling remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). Unlike the FingerBot, which controls device through physical button presses, the ATX Board will directly installed in the controlled device's host box, providing more concealed and stable power management.
 
 #### Components
 
@@ -281,11 +293,7 @@ Connect the external interface of ATX board to the USB-A interface of the GL-RM1
 
 ![connect usb cable to the KVM](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/atx_board_installation/connect_usb_cable_to_glkvm.png){class="glboxshadow"}
 
-### FingerBot
-
-The FingerBot, acting as a physical button emulator, is designed to enable remote control of physical power button on the controlled device. 
-
-Remove the cover above the FingerBot to find a USB wireless receiver, and insert it into the USB port of GL-RM1. Then attach the FingerBot to the physical power button of the controlled device, it will be able to remote control the ON/OFF of the controlled device by physically pressing the power button.
+Now you can log in to the GL-RM1, go to [Accessories](https://docs.gl-inet.com/router/en/4/user_guide/gl-rm1/#accessories) to set the ATX power.
 
 ## How to fix mouse cursor overlay issue on macOS
 

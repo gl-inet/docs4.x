@@ -10,6 +10,30 @@ GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} breaks through 
 
 ## Steps to Access the LuCI Interface via GoodCloud
 
+### For Firmware Version 4.7 or Above
+
+Starting from v4.7, users can directly access the LuCI page from the GoodCloud platform without going through the router's web Admin Panel.
+
+1. Log in to your GoodCloud account [here](https://www.goodcloud.xyz/){target="_blank"}.
+
+2. On the left side -> **Devices** -> **Bound Devices**, Click the name of the device you want to access, then you will see the icons of Remote Web Access.
+
+    ![remote gui](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/remote_gui_mt6000.png){class="glboxshadow"}
+
+    The pop-up window displays the port 80. Change the port to **8080**, click Apply.
+
+    ![change port](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/change_port.png){class="glboxshadow"}
+
+3. You will be re-directed to the LuCI login page. Enter your admin password to log in.
+
+    ![log in luci](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci.png){class="glboxshadow gl-80-desktop"}
+
+4. You have successfully logged in to LuCI.
+
+    ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci_mt6000.png){class="glboxshadow"}    
+
+### For Firmware Version 4.6 or Below
+
 1. Log in to your GoodCloud account [here](https://www.goodcloud.xyz/){target="_blank"}.
 
 2. On the left side -> **Devices** -> **Bound Devices**, Click the name of the device you want to access, then you will see the icons of Remote Web Access.

@@ -36,8 +36,6 @@ It will pop up **Add New Port Forward Rule** dialog.
 
 ![add new port forwarding rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/add_new_port_forward_rule.png){class="glboxshadow"}
 
-**Name:** The name of the rule.
-
 **Protocol:** The protocol used, you can choose TCP, UDP, or both TCP and UDP.
 
 **External Zone:** The options for external zone are `WAN`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `LAN`, `Guest`.
@@ -49,6 +47,8 @@ It will pop up **Add New Port Forward Rule** dialog.
 **Internal IP:** The IP address assigned by the router to the device which needs to be accessed remotely. If you set a single port in **External Port**, you should set the single port here. If you set a port range in **External Port**, you should set the corresponding port range here.
 
 **Internal Port:** The internal port number of the device. You can enter a specific port number. Leave it blank if it is same as the external port.
+
+**Description:** Set a name or add a description for the port forwarding rule (optional).
 
 **Enable:** Enable or disable of the rule.
 

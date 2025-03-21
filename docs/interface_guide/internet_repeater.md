@@ -146,7 +146,7 @@ When Internet access is not available, the corresponding warning is displayed. T
 
 ## DFS
 
-When Repeater to a upstream 5G WiFi, the router WiFi will fellow the upstream WiFi to use or not use the DFS channel.
+When Repeater to a upstream 5G WiFi, the router WiFi will follow the upstream WiFi to use or not use the DFS channel.
 
 * If the upstream WiFi uses a DFS channel and is scannable, the router's 5G WiFi will use the same channel.
 
@@ -156,6 +156,7 @@ When Repeater to a upstream 5G WiFi, the router WiFi will fellow the upstream Wi
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-BE3600 (Slate 7)            | √         |
 | GL-B3000 (Marble)              | √         |
 | GL-MT6000 (Flint2)             | √         |
 | GL-X3000 (Spitz AX)            | √         |

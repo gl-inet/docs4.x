@@ -199,7 +199,7 @@ nav:
       - How to connect to the dedicated IP by NordVPN on GL.iNet routers?: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
       - How to connect to the dedicated IP by Surfshark on GL.iNet routers?: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
       - How to enable OpenVPN TAP-S2S mode on GL.iNet routers?: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
-      - VPN Cascading: tutorials/vpn_cascading.md
+      - How to use VPN Cascading on GL.iNet routers?: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
       - Use Wireguard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
       - How to get configuration files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
       - How to configure domain and IP filtering rules via an online text file: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md

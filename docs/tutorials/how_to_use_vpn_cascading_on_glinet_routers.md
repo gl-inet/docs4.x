@@ -1,6 +1,6 @@
-# VPN Cascading
+# How to use VPN Cascading on GL.iNet routers?
 
-## How VPN Cascading works
+## Introduction
 
 VPN Cascading is also called double VPN in various scenarios. But GL.iNet VPN Cascading may be a little different. Please refer to the following figure for the idea.
 

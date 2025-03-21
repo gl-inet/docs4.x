@@ -20,6 +20,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to visit WireGuard client LAN side from Server?](wireguard_server_access_to_client_lan_side.md)
 * [How to visit OpenVPN client LAN side from Server?](openvpn_server_access_client_lan_side.md)
 * [How to enable OpenVPN TAP-S2S mode on GL.iNet routers?](how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md)
+* [How to use VPN Cascading on GL.iNet routers?](how_to_use_vpn_cascading_on_glinet_routers.md)
 * [Use WireGuard to secure RDP from outside network](use_wireguard_to_secure_rdp_from_outside_network.md)
 * [How to get configuration files from WireGuard service providers](how_to_get_configuration_files_from_wireguard_service_providers.md)
 

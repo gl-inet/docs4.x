@@ -18,7 +18,7 @@ If many users are connected to the same VPN server, it can become congested, lea
 
 ## Server Upload Speed
 
-If you are using a private VPN tunnel, the Internet Service Provider (ISP) upload speed on the server side will be the bottleneck of the download speed on the client side, since the VPN client is downloading from the server.
+If you are using a private VPN tunnel, the Internet Service Provider (ISP) upload speed on the server side will be the bottleneck of the download speed on the client side, since the VPN client is downloading data through the server.
 
 ![tunnel](https://static.gl-inet.com/docs/router/en/4/faq/vpn_speed/tunnel.png){class="glboxshadow"}
 
@@ -28,7 +28,7 @@ Different VPN protocols like OpenVPN or WireGuard have varying levels of securit
 
 ## ISP Throttling
  
- Some Internet Service Providers (ISPs) may throttle speeds for users who are using VPNs, especially if they suspect heavy data usage. Expecially in some developing countries or small towns where many users share limited Internet infrastructures.
+ Some Internet Service Providers (ISPs) may throttle speeds for users who are using VPNs, especially if they suspect heavy data usage. Especially in some developing countries or small towns where many users share limited Internet infrastructures.
 
 ## DNS
 

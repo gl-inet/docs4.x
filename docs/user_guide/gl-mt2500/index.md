@@ -250,8 +250,6 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
     * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
-    * Module Online Upgrade: Automatically check for and install the latest 4G/5G module version directly from the manufacturer's server, simplifying the update process.
-    * Module Local Upgrade: Manually upload a module file from your computer to update the 4G/5G module.
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 

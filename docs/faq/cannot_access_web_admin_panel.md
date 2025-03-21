@@ -4,40 +4,38 @@ Sometimes you may be unable to access [http://192.168.8.1](http://192.168.8.1) t
 
 ![can't access admin](https://static.gl-inet.com/docs/router/en/4/tutorials/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
 
-## The possible causes are
+## The possible causes
 
 * You computer or mobile phone doesn't connect to the router.
 * 192.168.8.1 is the default IP address of the router, you may have changed this IP.
-* The cache or extension of browser may cause unaccessable.
+* The cache or extension of browser may cause inaccessible.
 * You are using a VPN client which handle your LAN traffic.
 * The router is bricked.
 
-## Follow the steps to fix this issue.
+## Check the general steps to access web Admin Panel 
 
-1. [Check the connection](#check_the_connection)
-2. [Check router's IP address](#check-routers-ip-address)
-3. [Access the router's IP address](#access-the-routers-ip-address)
-
-## Follow these steps to set it up.
-
-1.  Power up the router without connecting to any device.
-2.  Use your mobile/Laptop to scan the SSID GL-XXXX-xxx and input the WiFi key printed on the label. (if you are using a laptop, don't connect it to the internet)
-3.  Or plug a cable to the LAN port of the router. (Don't connect it to any WiFi)
-4.  Open a browser and type 192.168.8.1.
-5.  Create your password.
-6.  Scan your home WiFi in Repeater option or plug a cable to the WAN from your home router.
+1. Power up the router without connecting to any device.
+2. Use your mobile/laptop to scan the SSID GL-XXXX-xxx and input the WiFi key printed on the router label. (If you are using a laptop, don't connect it to the internet by other methods)
+3. If step 2 fails, turn off wifi on your computer/laptop, connect it to the router's LAN port via an Ethernet cable instead.
+4. Open a browser, type 192.168.8.1 in the address bar. You should be able to visit GL.iNet web Admin Panel.
 
 Or you can use [the app](mobile_app.md) to access the router.
 
+## Other steps to fix this issue
+
+1. [Check the connection](#check-the-connection)
+2. [Check router's IP address](#check-routers-ip-address)
+3. [Access the router's IP address](#access-the-routers-ip-address)
+
 ---
 
-## Check the connection
+### Check the connection
 
 If connected by ethernet cable, make sure your WAN/LAN port connection is correct. WAN port is connected to an Internet source and LAN port is connected to devices.
 
 If connected by Wi-Fi, make sure the SSID is correct.
 
-## Check router's IP address
+### Check router's IP address
 
 Then follow the steps below to check the router's IP address.
 
@@ -97,7 +95,7 @@ Then follow the steps below to check the router's IP address.
     3. Tap on the Advanced dropdown. If if offers you options for Static or Dynamic IPs, select Static
     4. Either way, you should see your router's IP under Gateway.
 
-## Access the router's IP address
+### Access the router's IP address
 
 1. Make sure you are using Chrome/Edge/Safari, then try to access your IP address again.
 2. In order to avoid problems caused by the browser cache and extension, please open the incognito window. Then try to access the IP address of router again.

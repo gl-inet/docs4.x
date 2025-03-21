@@ -24,7 +24,7 @@ DDNS update frequency is once every 10 minutes.
 
     ![ddns test](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/click_ddns_test.png){class="glboxshadow"}
 
-    If it says **Your DDNS is resolved as x.x.x.x** as show below, it means the DDNS is worked. In other words, this **Host Name** has maped to the final exit IP of the router for Internet access.
+    If it says **Your DDNS is resolved as x.x.x.x** as shown below, it means the DDNS is worked. In other words, this **Host Name** has maped to the final exit IP of the router for Internet access.
 
     ![ddns works](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ddns_test_resolved.png){class="glboxshadow"}
 

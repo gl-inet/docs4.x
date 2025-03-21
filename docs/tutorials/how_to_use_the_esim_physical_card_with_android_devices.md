@@ -1,4 +1,4 @@
-# How to Set Up the eSIM Physical Card with Android Devices
+# How to Use the eSIM Physical Card with Android Devices
 
 This guide provides step-by-step instructions for setting up and activating the eSIM Physical Card purchased from the GL.iNet online store. The eSIM Physical Card is compatible with most Android devices, offering effortless internet connectivity and seamless performance.
 
@@ -53,9 +53,9 @@ Sign up for a new account in the EIOTCLUB app.
 
 #### 6. Check and Manage Profiles
 
-- After completing the setup, the app will show these sections:
+After completing the setup, the app will show these sections:
 
-      ![Check and Manage Profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/06-check-and-manage-profiles.jpg){class="glboxshadow"}
+![Check and Manage Profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/06-check-and-manage-profiles.jpg){class="glboxshadow"}
 
 a. **eSIM Card Slot 1**: The name of your eSIM card.
 
@@ -63,23 +63,22 @@ b. **eSIM Profiles**: A list of eSIM profiles successfully added to your eSIM ca
 
 c. **Remote**: A management option for adding, removing, or updating your eSIM profiles.
 
-## How to Add or Purchase a New eSIM Profile
+## Add or Purchase a New eSIM Profile
 
-- After setting up the eSIM on your Android device, you’ll have access to a preloaded data package from GL.iNet:
-      - 100MB Global Data
-      - 1GB Data for Europe and the U.S.
+After setting up the eSIM on your Android device, you’ll have access to a preloaded data package from GL.iNet:
+
+- 100MB Global Data
+- 1GB Data for Europe and the U.S.
 
 These packages are ideal for downloading a new eSIM profile if you arrive in a location without internet access.
 
 ![The preloaded data package](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/07-the-preloaded-data-package.jpg){class="glboxshadow"}
 
-- To add an eSIM profile, you can directly click the **Add** button from the **SIM Card Section** of the app.
+To add an eSIM profile, you can directly click the **Add** button from the **SIM Card Section** of the app.
+      
+![Add an eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/08-add-an-esim-profile.jpg){class="glboxshadow"}
 
-      ![Add an eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/08-add-an-esim-profile.jpg){class="glboxshadow"}
-
-## Two Ways to Add or Purchase a New eSIM Profile
-
-### Method 1: Adding a Purchased eSIM Profile
+### Method 1: Add a Purchased eSIM Profile
 
 If you’ve already purchased an eSIM profile from your preferred eSIM store, follow these steps to add it:
 
@@ -151,7 +150,7 @@ Your new eSIM profile will now appear in the eSIM profile list.
 
 ![successfully added into the eSIM profile list](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/29-sucessfeully-added-into-the-esim-profile-list.jpg){class="glboxshadow"}
 
-## How to Enable or Switch Profiles
+## Enable or Switch Profiles
 
 #### 1. Access Your Profiles
 
@@ -165,7 +164,7 @@ Find the desired profile and tap the Toggle button to enable it.
 
 ![Enable Your Profile](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/17-enable-your-profile.jpg){class="glboxshadow"}
 
-## How to Delete an eSIM Profile
+## Delete an eSIM Profile
 
 #### 1. Turn Off the eSIM Profile:
 
@@ -186,7 +185,7 @@ Confirm the action by tapping the **Submit** button to delete the eSIM profile.
 
 ![Submit to Delete](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/21-submit-to-delete.jpg){class="glboxshadow"}
 
-## How to Delete an eSIM Card Slot
+## Delete an eSIM Card Slot
 
 #### 1. Open SIM Card Settings
 

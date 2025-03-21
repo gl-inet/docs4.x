@@ -1,4 +1,4 @@
-# How to Set Up the eSIM Physical Card with the GL.iNet Routers?
+# How to Set Up the eSIM Physical Card with GL.iNet Routers?
 
 This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. The eSIM Physical card is compatible with the [Mudi (GL-E750)※/Mudi V2 (GL-E750V2)](https://www.gl-inet.com/products/gl-e750/), [Spitz AX (GL-X3000)](https://www.gl-inet.com/products/gl-x3000/), [Puli AX (GL-XE3000)](https://www.gl-inet.com/products/gl-xe3000/), [Puli (GL-XE300)※](https://www.gl-inet.com/products/gl-xe300/), [Spitz (GL-X750)※](https://www.gl-inet.com/products/gl-x750/), and [Collie (GL-X300B)](https://www.gl-inet.com/products/gl-x300b/) routers, ensuring seamless internet connectivity.
 
@@ -43,7 +43,7 @@ If the **Auto Setup** connects to the internet successfully, the screen will app
 
 ![auto setup successfully](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/auto-setup-successfully.png ){class="glboxshadow"}
 
-## How to Manage Your eSIM Profile?
+## Manage Your eSIM Profile
 
 **Step 1:** Ensure your GL.iNet device has the latest firmware.
 
@@ -124,7 +124,7 @@ GL.iNet recommends two partner eSIM stores for your convenience: EIOTCLUB and Tu
 
 This section allows you to easily manage eSIM profiles, including enabling, switching or deleting them.
 
-## How to Top Up eSIM Seed Profile?
+## Top Up eSIM Seed Profile
 
 For initial setup or purchasing an eSIM profile, GL.iNet provides preloaded data: 100MB for global use and 1GB for Europe and the U.S. These plans are designed to be more expensive and are intended for situations where you need to download a new eSIM profile upon arriving in a location without internet access.
 
@@ -132,7 +132,7 @@ To top up your eSIM Seed Profile, simply click the **"Top-up"** button and follo
 
 ![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim_top-up.png){class="glboxshadow"}
 
-## How to Purchase a new eSIM Profile?
+## Purchase a new eSIM Profile
 After setting up your router, please follow the steps below to purchase and activate your eSIM profile:
 
 **Step 1:** Access the **eSIM Manage** Application

@@ -26,12 +26,17 @@ Learn how to use our devices correctly with detailed steps.
 
 ## Cellular
 
-* [SMS Forwarding](sms_forwarding.md), forward SMS messages from router to mobile phone and email.
+* [SMS Forwarding](sms_forwarding.md)
 * [How to use qlog to capture module logs?](get_module_logs.md)
 * [How to upgrade quectel module software?](upgrade_quectel_module_software.md)
 * [How to check the carrier aggregation status on your cellular router](how_to_check_carrier_aggregation.md)
 * [How to install or change Spitz AX's or Puli AX's external antennas](how_to_change_x3000_and_xe3000_antennas.md)
 * [How to set up and use Spitz AX (GL-X3000) in your recreational vehicle](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
+
+## eSIM
+
+* [How to Set Up the eSIM Physical Card with the GL.iNet Routers](how_to_set_up_esim_physical_card_with_glinet_routers.md)
+* [How to Use the eSIM Physical Card with Android Devices](how_to_use_the_esim_physical_card_with_android_devices.md)
 
 ## GoodCloud
 
@@ -41,11 +46,10 @@ Learn how to use our devices correctly with detailed steps.
 ## Network
 
 * [How to set up a guest Wi-Fi network on a GL.iNet router](how_to_set_up_a_guest_network.md)
+* [How to set up drop-in gateway on a GL.iNet router](how_to_set_up_drop_in_gateway.md)
 * [How to set up port forwarding on your primary router](how_to_set_up_port_forwarding.md)
-* [How to Set Up the eSIM](how_to_set_up_esim.md)
-* [How to Set Up the eSIM Physical Card with Android Devices](how_to_set_up_the_esim_physical_card_with_android_devices.md)
 
-## Network Sharing
+## Network Storage
 
 * [How to use WinSCP to access your share files?](winscp_share_file.md)
 
@@ -54,9 +58,8 @@ Learn how to use our devices correctly with detailed steps.
 * [How to block client devices](how_to_block_client_devices.md)
 * [How to check if you have a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [How to Change the Nat Type on Gaming](how_to_change_the_nat_type_on_gaming.md)
-* [How to set up drop-in gateway](how_to_set_up_drop_in_gateway.md)
 * [How to upgrade or downgrade your router's firmware (from v4.x to v4.x)](how_to_upgrade_downgrade_router.md)
 * [How to activate or top up T-Mobile SIM cards](how_to_activate_top_up_sim_cards.md)
-* [Hot to retrieve the Mobile App Log](how_to_retrieve_the_mobile_app_log.md)
+* [How to retrieve the Mobile App Log](how_to_retrieve_the_mobile_app_log.md)
 * [Technical Support via GoodCloud](technical_support_via_goodcloud.md)
 * [How to Configure Domain and IP Filtering Rules for GL.iNet Routers via an Online Text File](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)

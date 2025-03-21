@@ -276,7 +276,7 @@ nav:
       - NAT Settings: interface_guide/nat_settings.md
     - System:
       - Overview: interface_guide/system_overview.md
-      - Firmware Upgrade: interface_guide/firmware_upgrade.md
+      - Upgrade: interface_guide/upgrade.md
       - Scheduled Tasks: interface_guide/scheduled_tasks.md
       - Admin Password: interface_guide/admin_password.md
       - Time Zone: interface_guide/time_zone.md

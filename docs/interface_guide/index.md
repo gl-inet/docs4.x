@@ -82,7 +82,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [UI Languages](ui_languages.md)
 * [System Overview](system_overview.md), displays some hardwares status and system info.
 * Upgrade
-    * [Firmware upgrade](firmware_upgrade.md)
+    * [Upgrade](upgrade.md)
     * [Where to download official firmware?](../faq/where_to_download_firmware.md)
     * [How to upgrade from 3.x to firmware 4.x?](../faq/upgrade_to_4.md)
     * [How to upgrade GL-AX1800(Flint) from firmware 3.x to 4.x?](../faq/gl-ax1800_upgrade_to_4.md)

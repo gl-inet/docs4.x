@@ -182,24 +182,23 @@ nav:
   - Tutorials:
     - Overview: tutorials/index.md
     - VPN: 
-      - Accessing Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
-      - Accessing Client LAN from Server(OpenVPN): tutorials/openvpn_server_access_client_lan_side.md
       - How to set up an OpenVPN client on a GL.iNet router: tutorials/how_to_set_up_openvpn_client.md
       - How to set up an OpenVPN server on a GL.iNet router: tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md
       - Build your own WireGuard Home Server with two GL.iNet Routers: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+      - How to connect to the dedicated IP by NordVPN on GL.iNet routers: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
+      - How to connect to the dedicated IP by Surfshark on GL.iNet routers: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
       - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - How to set up Wireguard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
-      - How to connect to the dedicated IP by NordVPN on GL.iNet routers?: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
-      - How to connect to the dedicated IP by Surfshark on GL.iNet routers?: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
-      - How to enable OpenVPN TAP-S2S mode on GL.iNet routers?: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
-      - How to use VPN Cascading on GL.iNet routers?: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
+      - How to access Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - How to access Client LAN from Server(OpenVPN): tutorials/openvpn_server_access_client_lan_side.md
+      - How to enable OpenVPN TAP-S2S mode on GL.iNet routers: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
+      - How to use VPN Cascading on GL.iNet routers: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
       - Use Wireguard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
       - How to get configuration files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
-      - How to configure domain and IP filtering rules via an online text file: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
     - Cellular:
-      - Upgrade Quectel Module Software: tutorials/upgrade_quectel_module_software.md
       - SMS Forwarding: tutorials/sms_forwarding.md
-      - Get Moduel Logs: tutorials/get_module_logs.md
+      - Get Module Logs: tutorials/get_module_logs.md
+      - Upgrade Quectel Module Software: tutorials/upgrade_quectel_module_software.md
       - How to check the carrier aggregation status on your cellular router: tutorials/how_to_check_carrier_aggregation.md
       - How to install or change Spitz AX's or Puli AX's external antennas: tutorials/how_to_change_x3000_and_xe3000_antennas.md
       - How to set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
@@ -216,14 +215,15 @@ nav:
     - Network Storage:
       - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
     - Others:
-      - How to connect to an Extensible Authentication Protocol Network: tutorials/eap.md
-      - How to manually configure static IP: tutorials/manually_configure_static_ip.md
-      - How to check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
-      - How to Change the Nat Type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
       - How to block client devices: tutorials/how_to_block_client_devices.md
+      - How to manually configure static IP on the client devices: tutorials/manually_configure_static_ip.md
+      - How to check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
       - How to upgrade or downgrade your router (from v4.x to v4.x): tutorials/how_to_upgrade_downgrade_router.md
+      - How to connect to an Extensible Authentication Protocol Network: tutorials/eap.md
       - How to activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
+      - How to change the NAT type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
       - How to retrieve the Mobile App Log: tutorials/how_to_retrieve_the_mobile_app_log.md
+      - How to Configure Domain and IP Filtering Rules for GL.iNet Routers via an Online Text File: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
       - Technical support via GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Interface Guide:
     - Overview: interface_guide/index.md

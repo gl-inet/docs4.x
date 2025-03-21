@@ -1,4 +1,4 @@
-# How to manually configure the static IP?
+# How to manually configure static IP on the client devices?
 
 === "Windows 11"
 

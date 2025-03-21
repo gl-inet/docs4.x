@@ -1,4 +1,4 @@
-# How to change the NAT Type on Gaming
+# How to change the NAT type on Gaming
 
 Most of the game makers will ask you to turn on the UPnP on the router to get a better NAT type, however studies show UPnP is a non-secure protocol.
 

@@ -221,6 +221,8 @@ Remove the cover above the FingerBot to find a USB wireless receiver, and insert
 
 Then you can log in to GL-RM1, go to [Accessories](https://docs.gl-inet.com/router/en/4/user_guide/gl-rm1/#accessories) to set the FingerBot.
 
+**Note**: This product is not available yet.
+
 ### ATX Package
 
 The ATX Board is an optional accessory. It functions as a smart power management module, enabling remote control of the controlled device's power supply by simulating physical power button operations (power on/off/reboot). Unlike the FingerBot, which controls device through physical button presses, the ATX Board will directly installed in the controlled device's host box, providing more concealed and stable power management.

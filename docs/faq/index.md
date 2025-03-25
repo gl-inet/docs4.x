@@ -35,6 +35,7 @@ Learn how to use our devices and how to solve some common problems.
 * [What should I do if I saw Subnet Conflict](what_should_i_do_with_subnet_conflict.md)
 * [Warning on DDNS test](warning_on_ddns_test.md)
 * [Why My VPN Speed is Low](why_my_vpn_speed_is_low.md)
+* [Upgrade Uboot Version](upgrade_uboot_version.md)
 
 ## Internet Connection
 

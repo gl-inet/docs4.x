@@ -7,7 +7,7 @@ Sometimes you may be unable to access [http://192.168.8.1](http://192.168.8.1) t
 ## The possible causes
 
 * You computer or mobile phone doesn't connect to the router.
-* 192.168.8.1 is the default IP address of the router, you may have changed this IP.
+* `192.168.8.1` is the default IP address of the router, you may have changed this IP.
 * The cache or extension of browser may cause inaccessible.
 * You are using a VPN client which handle your LAN traffic.
 * The router is bricked.

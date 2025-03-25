@@ -6,7 +6,7 @@
 
 **Do NOT turn off the power during the upgrade process, otherwise it may cause the upgrade to fail and the device to be bricked**.
 
-## Prepararion
+## Preparation
 
 - A computer with an ethernet port. If not, please prepare an additional USB Ethernet Adapter.
 - An Ethernet cable.

@@ -17,7 +17,7 @@ Sometimes you may be unable to access [http://192.168.8.1](http://192.168.8.1) t
 1. Power up the router without connecting to any device.
 2. Use your mobile/laptop to scan the SSID GL-XXXX-xxx and input the WiFi key printed on the router label. (If you are using a laptop, don't connect it to the internet by other methods)
 3. If step 2 fails, turn off wifi on your computer/laptop, connect it to the router's LAN port via an Ethernet cable instead.
-4. Open a browser, type 192.168.8.1 in the address bar. You should be able to visit GL.iNet web Admin Panel.
+4. Open a browser, type `192.168.8.1` in the address bar. You should be able to visit GL.iNet web Admin Panel.
 
 Or you can use [the app](mobile_app.md) to access the router.
 
@@ -103,3 +103,7 @@ Then follow the steps below to check the router's IP address.
 4. If you are using a mobile phone, please turn off the mobile data. Some phones will use mobile data instead of WiFi if the router can't access Internet.
 5. If above steps failed, try [Reset](repair_network_or_reset_firmware.md#reset-to-factory) to back to factory default.
 6. If the reset doesn't work, you can try [Debrick via uboot](debrick.md).
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com/t/gl-inet-launches-esim-cards-for-routers/47351){target="_blank"}.

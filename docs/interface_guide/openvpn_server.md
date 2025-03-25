@@ -44,7 +44,7 @@ Alternative methods:
 
     If you do not need to modify the configuration, please click directly the **Export Client Configuration** at the bottom of page. If you have modified the configuration, please click the **Apply** button to continue.
 
-    * **Device Mode:** TAP-S2S or Tun. To find out what the difference is, check out [TAP-S2S vs Tun](../tutorials/tap_s2s_vs_tun.md).
+    * **Device Mode:** TAP-S2S or Tun. To find out what the difference is, check out [TAP-S2S vs Tun](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md).
 
     * **Protocol:** UDP or TCP. To find out what the difference is, check out [TCP vs UDP](../faq/openvpn_tcp_udp.md).
 

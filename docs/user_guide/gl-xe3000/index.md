@@ -242,7 +242,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
 
-* To upgrade the router's firmway, please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
+* To upgrade the router's firmway, please visit the [**Upgrade**](../../interface_guide/upgrade.md) tutorial.
 * To learn more about managing your device clients, please visit the [**Clients**](../../interface_guide/clients.md) tutorial.
 * To schedule tasks, please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
 * To set admin password, please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.

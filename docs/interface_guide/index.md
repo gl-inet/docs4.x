@@ -46,7 +46,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [How to Block Non-VPN Traffic?](../faq/block_non_vpn_traffic.md)
 * [VPN Kill Switch](../faq/block_non_vpn_traffic.md).
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](../faq/openvpn_tcp_udp.md)
-* [VPN Cascading](../tutorials/vpn_cascading.md)
+* [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
 * [Tor](tor.md), to protect the personal privacy.
 
 ## Applications
@@ -58,7 +58,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Parental Control](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
-* [eSIM Management](../tutorials/how_to_set_up_esim.md)
+* [eSIM Management](../tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md)
 
 ## Network
 

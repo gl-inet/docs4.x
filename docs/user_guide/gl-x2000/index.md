@@ -141,7 +141,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 === "eSIM"
 
     This router supports eSIM functionality only on [Beta Firmware v4.5.22](https://dl.gl-inet.com/router/x2000/beta). 
-    To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_set_up_esim.md).
+    To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md).
     
 ---
 

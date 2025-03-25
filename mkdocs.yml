@@ -258,7 +258,7 @@ nav:
       - Parental Control: interface_guide/parental_control.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
-      - eSIM Management: tutorials/how_to_set_up_esim.md
+      - eSIM Management: tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md
     - Network:
       - Firewall: interface_guide/firewall.md
       - Port Forwarding: interface_guide/port_forwarding.md

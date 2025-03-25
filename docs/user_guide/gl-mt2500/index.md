@@ -253,7 +253,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/firmware_upgrade.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md){target="_blank"}.
 
 === "Scheduled Tasks"
 

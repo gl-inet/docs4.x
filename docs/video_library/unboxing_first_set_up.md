@@ -6,7 +6,7 @@ Experience your first impression of seeing our devices for the first time, and u
 
 Unboxing & Setup Guide
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-_K3xuAj4UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-_K3xuAj4UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-B3000 (Marble)
 

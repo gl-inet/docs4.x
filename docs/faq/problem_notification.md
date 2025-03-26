@@ -43,4 +43,4 @@ Sincerely,
 
 GL.iNet Technical Support
 
-March 26, 2025 | 11:00 UTC+8
+March 26, 2025

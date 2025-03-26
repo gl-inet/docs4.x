@@ -72,7 +72,8 @@ Here is a list of supported modems that we had tested before.
 | Pantech UML290VW (Verizon)             | 4G    | Yes    | GL.iNet/steven  | QMI       |
 | Pantech UML295 (Verizon)               | 4G    | Yes    | GL.iNet/steven  | Host-less |
 | Novatel USB551L (Verizon)              | 4G    | Yes    | GL.iNet/steven  | QMI       |
-| Verizon U620L (Verizon)                | 4G    | Yes    |                 | Host-less |
+| Verizon U620L (Verizon)                | 4G    | Yes    | anonymous       | Host-less |
+| Huawei E3372h-320 (Ukraine)            | 4G    | Yes    | anonymous       | Host-less |
 
 *QMI: This modem supports QMI mode. Please choose **/dev/cdc-wdm0** in the **Device** list.
 

@@ -12,9 +12,13 @@ The local version is provided by GL.iNet. It is currently in beta, so there is n
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-BE9300 (Flint 3)            | √         |
+| GL-BE3600 (Slate 7)            | √         |
+| GL-X2000 (Spitz Plus)          | √         |
 | GL-B3000 (Marble)              | √         |
-| GL-MT6000 (Flint2)             | √         |
+| GL-MT6000 (Flint 2)            | √         |
 | GL-X3000 (Spitz AX)            | √         |
+| GL-XE3000 (Puli AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
 | GL-AXT1800 (Slate AX)          | √         |
 | GL-A1300 (Slate Plus)          | √         |

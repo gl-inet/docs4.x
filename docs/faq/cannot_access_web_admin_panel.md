@@ -92,7 +92,7 @@ Then follow the steps below to check the router's IP address.
 
     1. Settings -> Network & internet
     2. Tab on Wi-Fi and find the network you are connected to, click on the settings icon to manage its settings
-    3. Tap on the Advanced dropdown. If if offers you options for Static or Dynamic IPs, select Static
+    3. Tap on the Advanced dropdown. If it offers you options for Static or Dynamic IPs, select Static
     4. Either way, you should see your router's IP under Gateway.
 
 ### Access the router's IP address

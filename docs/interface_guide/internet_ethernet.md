@@ -1,8 +1,8 @@
 # Connect to the Internet via an ethernet cable
 
-To access the Internet, it can connect the WAN port of router to the modem or the LAN port of other router via an ethernet cable.
+To access the Internet, please connect the WAN port of your GL.iNet router to the modem or the LAN port of your host router via an ethernet cable.
 
-On the left side of web Admin Panel -> INTERNET, Ethernet sector.
+On the left side of web Admin Panel -> INTERNET -> Ethernet sector.
 
 ![ethernet dhcp](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_ethernet/ethernet_dhcp.png){class="glboxshadow"}
 

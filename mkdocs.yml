@@ -142,6 +142,8 @@ nav:
       - Repair or Reset: faq/repair_network_or_reset_firmware.md
       - Remote Access Web Admin Panel: faq/remote_access_web_admin_panel.md
       - Remote SSH to Router: faq/remote_ssh_to_router.md
+    - Problem Notification:
+      - Critical Problem Notification for GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification.md
     - Troubleshooting:
       - Can't access web Admin Panel: faq/cannot_access_web_admin_panel.md
       - MacOS cannot write in Samba: faq/macos_cannot_write_samba.md
@@ -162,14 +164,14 @@ nav:
       - iPhone Tethering Fail: faq/iphone_tethering_fail.md
       - I replaced my old router with GL.iNet Router but No internet: faq/i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md
       - Produce a Wired Connection: faq/produce_a_wired_connection.md
-    - Upgrade:
-      - Download firmware: faq/where_to_download_firmware.md
-      - Upgrade to firmware v4.x: faq/upgrade_to_4.md
-      - Upgrade GL-AX1800 to firmware v4.x: faq/gl-ax1800_upgrade_to_4.md
     - VPN:
       - TCP or UDP: faq/openvpn_tcp_udp.md
       - I must use Ethernet WAN when use VPN?: faq/i_must_use_ethernet_wan_when_use_vpn.md
       - Block Non-VPN Traffic: faq/block_non_vpn_traffic.md
+    - Upgrade:
+      - Download firmware: faq/where_to_download_firmware.md
+      - Upgrade to firmware v4.x: faq/upgrade_to_4.md
+      - Upgrade GL-AX1800 to firmware v4.x: faq/gl-ax1800_upgrade_to_4.md
     - Other:
       - Can I add Brume2 into mobile App?: faq/can_i_add_brume2_into_app.md
       - Change WAN to LAN: faq/change_wan_to_lan.md

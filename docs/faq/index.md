@@ -18,6 +18,9 @@ Learn how to use our devices and how to solve some common problems.
 * [How to set up OpenVPN?](../interface_guide/openvpn_client.md)
 * [How to set up WireGuard?](../interface_guide/wireguard_client.md)
 
+## Problem Notification
+* [Critical Problem Notification for GL-MT2500/GL-X3000/GL-XE3000](problem_notification.md)
+
 ## Troubleshooting
 
 * [Cannot Scan Android 5G Hotspot](cannot_scan_android_5g_hotspot.md)

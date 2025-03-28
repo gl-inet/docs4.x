@@ -14,7 +14,7 @@ We recommend using both WiFi and wired connections on your computer to avoid any
 
 ## 3. Download and Install AnyDesk
 
-Visit the official [AnyDesk website](anydesk.com) to download the version suitable for your Operating System.
+Visit the official [AnyDesk website](https://anydesk.com/) to download the version suitable for your Operating System.
 
 ![download anydesk](https://static.gl-inet.com/docs/router/en/4/tutorials/remote_support_via_anydesk/install_anydesk.png){class="glboxshadow"}
 

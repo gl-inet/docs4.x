@@ -156,7 +156,7 @@ You can also refer to video tutorial below.
 
     ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
-    **Note:** The Uboot Web UI above may not be exactly the same as what you see, because the Uboot version is different for different production dates. In some extreme cases, we recommend upgrading the Uboot version. Please refer to the tutorial [here](https://docs.gl-inet.com/router/en/4/faq/upgrade_uboot_version/).
+    **Note:** The Uboot Web UI above may not be exactly the same as what you see, because the Uboot version is different for different production dates. In some extreme cases, we recommend upgrading the Uboot version. Please refer to the tutorial [here](upgrade_uboot_version.md).
 
 6. Click **Choose file** button to find the firmware file. Then click **Update firmware** button.
 

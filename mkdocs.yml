@@ -36,6 +36,13 @@ theme:
 # Plugins
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
+        'tutorials/how_to_set_up_esim.md': 'tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md'
+        'tutorials/tap_s2s_vs_tun.md': 'tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md'
+        'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
+        'interface_guide/firmware_upgrade.md': 'interface_guide/upgrade.md'
 
 # Customization
 extra:

@@ -133,7 +133,7 @@ nav:
       - GL-AX1800 をファームウェア 4.x にアップグレード: faq/gl-ax1800_upgrade_to_4.md
     - VPN:
       - TCP or UDP: faq/openvpn_tcp_udp.md
-      - VPNなしのトラフィックをブロックする: faq/block_no_vpn_traffic.md
+      - VPNなしのトラフィックをブロックする: faq/block_non_vpn_traffic.md
     - さらに:
       - WANをLANに変更: faq/change_wan_to_lan.md
       - モバイルアプリ: faq/mobile_app.md

@@ -23,6 +23,9 @@ theme:
 # Plugins
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        'faq/block_no_vpn_traffic.md': 'faq/block_non_vpn_traffic.md'
 
 # Customization
 extra:

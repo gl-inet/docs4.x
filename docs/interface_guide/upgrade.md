@@ -18,7 +18,7 @@ You can find the current firmware version here. If your router is connected to t
 
 Enable the switch to get latest unstable updates, patches, improvements, and enhancements as soon as they're available. Set it once and it stays on (you always have the option to turn it off later).
 
-Check out the latest features at [What's New?](https://www.gl-inet.com/whats-new/)
+Check out the latest features at [What's New?](https://www.gl-inet.com/whats-new/){target="_blank"}
 
 Please contact us [support@glient.biz](mailto:support@glient.biz) if you encounter any issues.
 

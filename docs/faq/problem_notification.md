@@ -4,7 +4,9 @@ Dear GL.iNet Customers,
 
 This announcement addresses the startup failure and firmware recovery issues via U-Boot on the GL-MT2500/GL-X3000/GL-XE3000 devices. The problem stemmed from a software defect where some parameters were incorrectly defined, causing the routers to operate abnormally. As a result, we assessed that this issue might reduce the routers' service life to some extent, for which we sincerely apologize.
 
-We strongly recommend that all customers using these products, including GL-MT2500/GL-X3000/GL-XE3000, perform the following U-Boot bootloader and firmware upgrade to fully resolve this issue.
+We strongly recommend that all customers using these products, including GL-MT2500/GL-X3000/GL-XE3000, perform the following U-Boot bootloader and firmware upgrade to fully resolve this issue. 
+
+Even if your device has been upgraded to the latest firmware, an uboot bootloader upgrade is still needed as to avoid potential issue. After upgrading the uboot bootloader, if the latest firmware has been installed on your device, you may skip the step 2 and no need to upgrade the latest firmware again.
 
 ## GL-MT2500
 
@@ -13,11 +15,13 @@ We strongly recommend that all customers using these products, including GL-MT25
 2. Download and upgrade the firmware to [version 4.7.0](https://fw.gl-inet.com/firmware/mt2500/release/openwrt-mt2500-4.7.0-1205-1733363804.bin?_gl=1*16i9l4v*_gcl_aw*R0NMLjE3NDE2NTc4MjcuQ2owS0NRandtN3EtQmhEUkFSSXNBQ0Q2LWZXWGlDUTFhVGoxR3dIOU56QWNwSVNSRGRXa1hmejdBcWFTcFZDdnF0bFpPODhhb21USU9xTWFBdnJFRUFMd193Y0I.*_gcl_au*NDQ4NjEwOTg3LjE3NDIyODAwMjcuMTQ0NzIyNjk4OC4xNzQyODE2NDg5LjE3NDI4MTY2MzY.*_ga*Nzc4MDE3MTU4LjE3MzQ1MDE4Mzk.*_ga_34T6Q5NL0V*MTc0Mjg4NTg1OS43Ny4xLjE3NDI4ODY4NDQuMC4wLjA.)
 
 ## GL-X3000
+
 1. Download and upgrade the U-Boot bootloader to [version 2025-02-25 19:05:24](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-x3000-20250225-md5-c9d7b2fd2451adbc0bb126e2d9729e87.bin){target="_blank"}
 
 2. Download and upgrade the firmware to [version 4.7.4](https://fw.gl-inet.com/firmware/x3000/release/openwrt-x3000-4.7.4-0317-1742206344.bin?_gl=1*krg6tk*_gcl_aw*R0NMLjE3NDE2NTc4MjcuQ2owS0NRandtN3EtQmhEUkFSSXNBQ0Q2LWZXWGlDUTFhVGoxR3dIOU56QWNwSVNSRGRXa1hmejdBcWFTcFZDdnF0bFpPODhhb21USU9xTWFBdnJFRUFMd193Y0I.*_gcl_au*NDQ4NjEwOTg3LjE3NDIyODAwMjcuMTQ0NzIyNjk4OC4xNzQyODE2NDg5LjE3NDI4MTY2MzY.*_ga*Nzc4MDE3MTU4LjE3MzQ1MDE4Mzk.*_ga_34T6Q5NL0V*MTc0Mjg5MDU4NC43OC4wLjE3NDI4OTA1ODQuMC4wLjA.)
 
 ## GL-XE3000
+
 1. Download upgrade the U-Boot bootloader to [version 2025-02-25 19:07:14](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-xe3000-20250225-md5-05fadd9da27314d41dbadc6fbd239b3d.bin){target="_blank"}
 
 2. Download and upgrade the firmware to [version 4.7.4](https://fw.gl-inet.com/firmware/xe3000/release/openwrt-xe3000-4.7.4-0317-1742206184.bin?_gl=1*nvhmuz*_gcl_aw*R0NMLjE3NDE2NTc4MjcuQ2owS0NRandtN3EtQmhEUkFSSXNBQ0Q2LWZXWGlDUTFhVGoxR3dIOU56QWNwSVNSRGRXa1hmejdBcWFTcFZDdnF0bFpPODhhb21USU9xTWFBdnJFRUFMd193Y0I.*_gcl_au*NDQ4NjEwOTg3LjE3NDIyODAwMjcuMTQ0NzIyNjk4OC4xNzQyODE2NDg5LjE3NDI4MTY2MzY.*_ga*Nzc4MDE3MTU4LjE3MzQ1MDE4Mzk.*_ga_34T6Q5NL0V*MTc0Mjg5MDU4NC43OC4xLjE3NDI4OTE2MTQuMC4wLjA.)

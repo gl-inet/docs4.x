@@ -10,7 +10,7 @@
 
 - A computer with an ethernet port. If not, please prepare an additional USB Ethernet Adapter.
 - An Ethernet cable.
-- Download the Uboot file [here](https://github.com/gl-inet/uboot-for-qca95xx/tree/master/bin){target="_blank"} in advance. Mark sure you are using the correct uboot file.
+- Download the Uboot file as per the instructions of the GL-iNet support staff. Mark sure you are using the correct uboot file. If you don't know how to download the Uboot file, contact us via email at support@gl-inet.com.
 
 ## Upgrade Steps
 
@@ -94,7 +94,7 @@ Please follow the procedures below to access the U-Boot upgrade page.
 
     ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 
-5. Click the **Choose file** button and choose the Uboot file you just downloaded.
+5. Click the **Choose file** button and choose the Uboot file you downloaded.
 
 6. Click **Update U-Boot** button. Do NOT turn off the power during the upgrade process. It will take several minutes to update. 
 

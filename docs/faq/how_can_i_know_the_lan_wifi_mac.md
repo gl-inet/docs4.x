@@ -16,7 +16,7 @@ You can find the WAN address on the back label of our device. For example the WA
 
 ## Check them up in SSH cell
 
-Please check [here](remote_ssh_to_router.md) for how to use SSH cell.
+Please check [here](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) for how to use SSH cell.
 
 Please type **ifconfig** in the SSH cell.
 

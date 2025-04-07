@@ -8,7 +8,7 @@ Use the laptop wifi to connect the device SSID (you will find the SSID and wifi 
 
 ## Use the SSH protocol to login the device
 
-Please refer to this link: [https://docs.gl-inet.com/router/en/3/tutorials/ssh/](https://docs.gl-inet.com/router/en/3/tutorials/ssh/)
+Please refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
 
 ## For GL-XE300/GL-X750/GL-X300
 

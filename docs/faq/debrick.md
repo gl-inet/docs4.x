@@ -44,15 +44,15 @@ You can also refer to video tutorial below.
 
     - For **GL-A1300(Slate Plus)**, the LED flashes slowly 5 times, then stays on for a short while, then flashes quickly all the time.
 
-    - For **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)**, **microuter-N300**, the LED falshes 5 times.
+    - For **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)**, **microuter-N300**, the LED flashes 5 times.
 
     - For **GL-E750(Mudi)**, its screen will first display "Booting", followed by "Reset Counting 1 to 4", and finally "Please Open Web 192.168.1.1".
 
     - For **GL-S1300(Convexa-S), GL-B1300(Convexa-B)**, the LED flashes 4 times.
         
-        The left most LED may stay on the whole time while the rightmost LED flashes 4 times, then the middle LED turns on and stays on.
+        The leftmost Power LED may stay on the whole time while the rightmost WIFI LED flashes 4 times, then the middle Mesh LED turns on and stays on.
         
-        (For some old GL-B1300, the left most LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simutaneously then they stays on.)
+        (For some old GL-B1300, the leftmost Power LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simutaneously then they stays on.)
 
     - For **GL-SF1200**, the 5G LED flashes 5 times then stays on.
 
@@ -60,7 +60,7 @@ You can also refer to video tutorial below.
 
     - For **GL-AXT1800(Slate AX)**, the blue LED flashes 5 times then stays on.
 
-    - For **GL-XE300(Puli)**, the LAN LED falshes 5 times then WIFI LED stays on.
+    - For **GL-XE300(Puli)**, the LAN LED flashes 5 times then WIFI LED stays on.
 
     - For **GL-X300B(Collie)**, the WAN LED flashes 5 times then WIFI LED stays on.
 

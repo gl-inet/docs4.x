@@ -52,7 +52,7 @@ Follow the steps below.
 
         ![add device](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/add_device.png){class="glboxshadow gl-80-desktop"}
 
-        ![select device](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/select_device.png){class="glboxshadow"}
+        ![select device](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/select_device.jpg){class="glboxshadow gl-80-desktop"}
 
     === "Bind via Adding Manually"
 

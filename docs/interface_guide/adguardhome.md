@@ -10,7 +10,7 @@ AdGuard Home is a network-wide software for blocking ads & tracking. Click **Sta
 | GL-BE3600 (Slate 7)            | √         |
 | GL-X2000 (Spitz Plus)          | √         |
 | GL-B3000 (Marble)              | √         |
-| GL-MT6000 (Flint2)             | √         |
+| GL-MT6000 (Flint 2)            | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE3000 (Puli AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
@@ -21,7 +21,7 @@ AdGuard Home is a network-wide software for blocking ads & tracking. Click **Sta
 | GL-SFT1200 (Opal)              | -         |
 | GL-S1300 (Convexa-S)           | √         |
 | GL-MT1300 (Beryl)              | -         |
-| GL-AX1800 (Flint)              | √         |
+| GL-E750/E750V2 (Mudi)          | -         |
 | GL-AR750S (Slate)              | -         |
 | GL-XE300 (Puli)                | -         |
 | GL-X750 (Spitz)                | -         |

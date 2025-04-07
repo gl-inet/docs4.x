@@ -2,11 +2,11 @@
 
 ## Router's CPU Speed
 
-VPNs encrypt your data to provide privacy, which adds extra data processing. This encryption and decryption can slow down your connection. Please choose a router with faster CPU to enhance your VPN speed. We listed all the VPN speeds in our [product page](https://www.gl-inet.com/products/).
+VPNs encrypt your data to protect privacy, which adds extra data processing. This encryption and decryption can slow down your connection. Please choose a router with faster CPU to enhance your VPN speed. We listed all the VPN speeds in our [product page](https://www.gl-inet.com/products/).
 
 ## Server Distance
 
-If the VPN server is far from your physical location, the data has to travel a longer distance, resulting in higher latency and slower speeds. You can see the below example, it shows a client speed connects to different server locations at the same time of the day.
+If the VPN server is far from your physical location, the data has to travel a longer distance, resulting in higher latency and slower speeds. You can see the example below. It shows the client speeds when connecting to different server locations at the same time of the day.
 
 ![hk](https://static.gl-inet.com/docs/router/en/4/faq/vpn_speed/hkserver.jpg){class="glboxshadow"}
 

@@ -26,7 +26,9 @@ Usually models with USB ports or MicroSD(TF) slots are supported for file sharin
 
 | Router Model                   | Samba | Webdav | DLNA | USB Port | MicroSD Card |
 | :----------------------------- | :---: | :---: | :---: | :------: | :----------: |
-| GL-MT6000 (Flint2)             | √     | √     | √     | √        | -            |
+| GL-BE3600 (Slate 7)            | √     | √     | √     | √        | -            |
+| GL-X2000 (Spitz Plus)          | √     | √     | √     | √        | -            |
+| GL-MT6000 (Flint 2)            | √     | √     | √     | √        | -            |
 | GL-XE3000 (Puli AX)            | √     | √     | √     | √        | √            |
 | GL-X3000 (Spitz AX)            | √     | √     | √     | √        | √            |
 | GL-MT3000 (Beryl AX)           | √     | √     | √     | √        | -            |

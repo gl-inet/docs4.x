@@ -10,7 +10,7 @@ Use the laptop wifi to connect the device SSID (you will find the SSID and wifi 
 
 Please refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
 
-## For GL-XE300/GL-X750/GL-X300
+## For GL-XE300/GL-X750/GL-X300B
 
 ### Get the qlog from GL.iNet server and confirm the qlog file SHA256 is right
 

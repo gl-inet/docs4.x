@@ -6,7 +6,7 @@ This announcement addresses the startup failure and firmware recovery issues via
 
 We strongly recommend that all customers using these products, including GL-MT2500/GL-X3000/GL-XE3000, perform the following U-Boot bootloader and firmware upgrade to fully resolve this issue. 
 
-Even if your device has been upgraded to the latest firmware, an uboot bootloader upgrade is still needed as to avoid potential issue. After upgrading the uboot bootloader, if the latest firmware has been installed on your device, you may skip the step 2 and no need to upgrade the latest firmware again.
+If you have upgraded your device to the latest firmware as shown below, the U-Boot bootloader upgrade is still needed as to avoid potential issue. After upgrading the U-Boot bootloader, since the latest firmware has been installed on your device, you may skip the step 2 and no need to upgrade the latest firmware again.
 
 ## GL-MT2500
 

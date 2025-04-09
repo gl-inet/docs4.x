@@ -25,6 +25,7 @@ Learn how to use our devices and how to solve some common problems.
 
 * [Cannot Scan Android 5G Hotspot](cannot_scan_android_5g_hotspot.md)
 * [Cannot Scan iPhone 5G Hotspot](cannot_scan_iphone_5g_hotspot.md)
+* [USB modem is not working properly on GL.iNet router](usb_modem_is_not_working_properly_on_gl_inet_router.md)
 * [Debrick via Uboot](debrick.md)
 * [How to repair network or reset to factory setting?](repair_network_or_reset_firmware.md)
 * [iPhone tethering failed](iphone_tethering_fail.md)

@@ -12,7 +12,7 @@ If you have upgraded your device to the latest firmware as shown below, the U-Bo
 
 1. Download and upgrade the U-Boot bootloader to [version 2025-02-24 15:04:07](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-mt2500-20250224-md5-74286e770cfb041b611d80d4adaef189.bin){target="_blank"}
 
-2. Download and upgrade the firmware to [version 4.7.0](https://fw.gl-inet.com/firmware/mt2500/release/openwrt-mt2500-4.7.0-1205-1733363804.bin?_gl=1*16i9l4v*_gcl_aw*R0NMLjE3NDE2NTc4MjcuQ2owS0NRandtN3EtQmhEUkFSSXNBQ0Q2LWZXWGlDUTFhVGoxR3dIOU56QWNwSVNSRGRXa1hmejdBcWFTcFZDdnF0bFpPODhhb21USU9xTWFBdnJFRUFMd193Y0I.*_gcl_au*NDQ4NjEwOTg3LjE3NDIyODAwMjcuMTQ0NzIyNjk4OC4xNzQyODE2NDg5LjE3NDI4MTY2MzY.*_ga*Nzc4MDE3MTU4LjE3MzQ1MDE4Mzk.*_ga_34T6Q5NL0V*MTc0Mjg4NTg1OS43Ny4xLjE3NDI4ODY4NDQuMC4wLjA.)
+2. Download and upgrade the firmware to [version 4.7.4](https://fw.gl-inet.com/firmware/mt2500/release/openwrt-mt2500-4.7.4-0328-1743128340.bin?_gl=1*17rj12*_gcl_au*MjAzNzUxMjc0LjE3NDM0ODA3MjYuMTQ2OTgwODkxOS4xNzQ0MTc5MzE5LjE3NDQxNzkzMjg.*_ga*NjY5MTA3MDYyLjE3NDM0NzY2NDc.*_ga_34T6Q5NL0V*MTc0NDI3MjgyNS4zMy4xLjE3NDQyNzI4NDcuMC4wLjA.)
 
 ## GL-X3000
 

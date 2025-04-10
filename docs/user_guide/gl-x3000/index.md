@@ -51,7 +51,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
     
     Learn how to set up the eSIM physical card on your GL.iNet router with our step-by-step instructions here: [How to Set Up the eSIM Physical Card with the GL.iNet Routers?](../../tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md)
 
-    For issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](../../faq/gl-x3000_gl-xe3000_connection_optimization.md). 
+    For issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 
 
 === "Ethernet"
 

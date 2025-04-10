@@ -39,4 +39,4 @@ Yes, you can add your SSL certicate in the GLiNet routers.
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com/t/gl-inet-launches-esim-cards-for-routers/47351){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

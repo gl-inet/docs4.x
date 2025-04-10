@@ -47,4 +47,4 @@ You need to tell him the exact Mac address or addressed of your device in order 
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

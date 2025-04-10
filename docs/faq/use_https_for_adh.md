@@ -29,4 +29,4 @@ Then you can use HTTPS to visit 192.168.8.1 or 192.168.8.1:3001
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

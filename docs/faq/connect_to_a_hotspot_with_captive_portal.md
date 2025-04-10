@@ -84,4 +84,4 @@ Some hotel's network has a very strict verification policy. Neither solution 1 n
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

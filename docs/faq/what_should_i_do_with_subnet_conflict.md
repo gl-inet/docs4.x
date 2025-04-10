@@ -20,4 +20,8 @@ Please change the LAN IP **8** to **10** and then click **Apply**.
 
 It will change your access IP to **192.168.10.1** and please remember use this new IP for login next time.
 
-Please login with your password and the error message is gone.
+Please log in with your password and the error message will be gone.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

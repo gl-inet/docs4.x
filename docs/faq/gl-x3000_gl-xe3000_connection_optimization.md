@@ -59,4 +59,4 @@ If none of the above measures solve the problem, you can try sending an email to
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

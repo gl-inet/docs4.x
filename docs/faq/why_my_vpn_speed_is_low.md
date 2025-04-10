@@ -38,6 +38,6 @@ Different VPN protocols like OpenVPN or WireGuard have varying levels of securit
 
  Some Internet Service Providers (ISPs), especially mobile carries may limited the size of the data packet, please try to change the default MTU from 1420 to 1380 or 1280 in [VPN Client Option](../interface_guide/vpn_dashboard.md#vpn-client-options).
 
- ---
+---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

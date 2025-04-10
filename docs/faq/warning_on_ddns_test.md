@@ -15,3 +15,7 @@ It is just keeping to remind you the router position is behind NAT. If you need 
 If you get the below message, then you may using a cellular network and DDNS setup is not possible.
 
 ![ddnsfail](https://static.gl-inet.com/docs/router/en/4/faq/warning_on_ddns_test/ddnsfail.jpg){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

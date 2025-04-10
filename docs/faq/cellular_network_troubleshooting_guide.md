@@ -56,7 +56,3 @@
     ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/6.png){class="glboxshadow}
     
 If none of the above measures solve the problem, you can try sending an email to [support@glinet.biz](mailto:support@glinet.biz) and contact our technical support staff for support.
-
----
-
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

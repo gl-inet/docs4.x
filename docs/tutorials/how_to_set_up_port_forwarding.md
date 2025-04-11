@@ -24,7 +24,7 @@ Here are the instructions for setting up port forwarding on certain router brand
 
 ### Comcast (Xfinity)
 
-* [Xfinity Gateway](https://www.att.com/support/article/u-verse-high-speed-internet/KM1123072/)
+* [Xfinity Gateway](https://www.xfinity.com/support/articles/port-forwarding-xfinity-wireless-gateway)
 
 ### Eero 
 
@@ -46,4 +46,4 @@ If you need assistance because your specific router brand or model is not listed
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

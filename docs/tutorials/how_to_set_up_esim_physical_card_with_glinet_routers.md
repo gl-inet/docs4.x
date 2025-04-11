@@ -1,8 +1,8 @@
-# How to Set Up the eSIM Physical Card with the GL.iNet Routers?
+# How to Set Up the eSIM Physical Card with GL.iNet Routers?
 
 This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. The eSIM Physical card is compatible with the [Mudi (GL-E750)※/Mudi V2 (GL-E750V2)](https://www.gl-inet.com/products/gl-e750/), [Spitz AX (GL-X3000)](https://www.gl-inet.com/products/gl-x3000/), [Puli AX (GL-XE3000)](https://www.gl-inet.com/products/gl-xe3000/), [Puli (GL-XE300)※](https://www.gl-inet.com/products/gl-xe300/), [Spitz (GL-X750)※](https://www.gl-inet.com/products/gl-x750/), and [Collie (GL-X300B)](https://www.gl-inet.com/products/gl-x300b/) routers, ensuring seamless internet connectivity.
 
-*※Products equipped with EP06 modules do not support eSIM due to software incompatibility with Qualcomm.*
+*※Products with Quectel EP06-A modules do NOT support eSIM, as the Qualcomm software lacks specific AT command support. For products with EP06-E modules, please refer to this [LINK](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} to upgrade to the latest firmware and enable eSIM functionality.*
 
 ![eSIM Physical Card](https://static.gl-inet.com/www/images/solutions/esim/esimchip-and-physical-esim.jpg){class="glboxshadow"}
 
@@ -43,7 +43,7 @@ If the **Auto Setup** connects to the internet successfully, the screen will app
 
 ![auto setup successfully](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/auto-setup-successfully.png ){class="glboxshadow"}
 
-## How to Manage Your eSIM Profile?
+## Manage Your eSIM Profile
 
 **Step 1:** Ensure your GL.iNet device has the latest firmware.
 
@@ -63,14 +63,15 @@ Ensure your device is connected to the internet. Then, go to **"SYSTEM"** > **"U
 
 To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"Local Upgrade"**. Then, select the firmware file or drag it into the designated area to upgrade to the latest version.
 
-- **E750V1※/E750V2**: Please upgrade to firmware [version 4.3.19](https://dl.gl-inet.com/router/e750/){target="_blank"}
-- **X3000**: Please upgrade to firmware version [4.4.13 beta](https://dl.gl-inet.com/router/x3000/?type=beta){target="_blank"}
-- **XE3000**: Please upgrade to firmware [version 4.4.13 beta](https://dl.gl-inet.com/router/xe3000/?type=beta){target="_blank"}
-- **XE300※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/xe300/?type=beta){target="_blank"}
-- **X750V1※/X750V2※**: Please upgrade to firmware [version 4.3.23 beta](https://dl.gl-inet.com/router/x750/?type=beta){target="_blank"}
-- **X300B**: Please upgrade to firmware [version 4.5.21 beta](https://dl.gl-inet.com/router/x300b/?type=beta){target="_blank"}
+- **E750V1※/E750V2**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/e750/esim/) that supports eSIM.
+- **X3000**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/x3000/esim/) that supports eSIM.
+- **XE3000**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/xe3000/esim/) that supports eSIM.
+- **XE300※**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/xe300/esim/) that supports eSIM.
+- **X750V1※/X750V2※**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/x750/esim/) that supports eSIM.
+- **X300B**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/x300b/esim/) that supports eSIM.
 
-*※Products equipped with EP06 modules do not support eSIM due to software incompatibility with Qualcomm.*
+*<i>※These products do not support eSIM with Quectel EP06-A modules due to the Qualcomm software lacking support for specific AT commands. For EP06-E, please refer to this [LINK](https://forum.gl-inet.com/t/48907){target="_blank"} to upgrade to the latest software for eSIM functionality.</i>*
+
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/local-upgrade.png){class="glboxshadow"}
 
@@ -117,13 +118,13 @@ If you run out of the complimentary and preloaded data provided by GL.iNet, or i
 
 **G. Recommended eSIM Profile Stores:**
 
-GL.iNet recommends two partner eSIM stores for your convenience: EIOTCLUB and Tuge. You can scan the QR codes or click link ([the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Euge eSIM Store](https://esim_store.gl-inet.com/){target="_blank"}) to make a purchase based on your needs. You can also choose to buy eSIM packages from other third-party providers of your choice.
+GL.iNet recommends two partner eSIM stores for your convenience: EIOTCLUB and Tuge. You can scan the QR codes or click link ([the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Tuge eSIM Store](https://esim_store.gl-inet.com/){target="_blank"}) to make a purchase based on your needs. You can also choose to buy eSIM packages from other third-party providers of your choice.
 
 **H. Actions:**
 
 This section allows you to easily manage eSIM profiles, including enabling, switching or deleting them.
 
-## How to Top Up eSIM Seed Profile?
+## Top Up eSIM Seed Profile
 
 For initial setup or purchasing an eSIM profile, GL.iNet provides preloaded data: 100MB for global use and 1GB for Europe and the U.S. These plans are designed to be more expensive and are intended for situations where you need to download a new eSIM profile upon arriving in a location without internet access.
 
@@ -131,7 +132,7 @@ To top up your eSIM Seed Profile, simply click the **"Top-up"** button and follo
 
 ![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim_top-up.png){class="glboxshadow"}
 
-## How to Purchase a new eSIM Profile?
+## Purchase a new eSIM Profile
 After setting up your router, please follow the steps below to purchase and activate your eSIM profile:
 
 **Step 1:** Access the **eSIM Manage** Application
@@ -141,7 +142,8 @@ After setting up your router, please follow the steps below to purchase and acti
 
 **Step 2:** Purchase an eSIM Profile from eSIM Stores.
 
-<u>Option 1</u>: Purchase an eSIM profile from one of our recommended stores: [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Euge eSIM Store](https://esim_store.gl-inet.com){target="_blank"}. 
+<u>Option 1</u>: Purchase an eSIM profile from one of our recommended stores: [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} or [the Tuge eSIM Store](https://esim_store.gl-inet.com){target="_blank"}. 
+
 
 *All eSIM profile packages purchased from these two stores are fully compatible with our routers. If you have any questions, please contact our support team at support@gl-inet.com.*
 
@@ -157,9 +159,9 @@ After setting up your router, please follow the steps below to purchase and acti
 |-----------------------------------|------------|
 | Tuge (cooperate with GL.iNet)     |[https://esim_store.gl-inet.com](https://esim_store.gl-inet.com)|
 | Eiotclub (cooperate with GL.iNet) |[https://sim.eiotclub.com/eshop/esim/shop/shop](https://sim.eiotclub.com/eshop/esim/shop/shop)|
-| esim.me                           |[https://sim.eiotclub.com/eshop/esim/shop/shop](https://esim.me)|
+| esim.me                           |[https://esim.me](https://esim.me)|
 | orange                            |[https://travel.orange.com/](https://travel.orange.com/)|
-| redtea                            |[https://esim.redteago.com/](https://esim.redteago.com/)|
+| Redtea                            |[https://esim.redteago.com/](https://esim.redteago.com/)|
 | globalyo                          |[https://store.globalyo.com](https://store.globalyo.com)|
 | easysim                           |[https://easysim.global/](https://easysim.global/)|
 | jetpacglobal                      |[https://www.jetpacglobal.com/](https://www.jetpacglobal.com/)|
@@ -168,6 +170,7 @@ After setting up your router, please follow the steps below to purchase and acti
 | Ubigi                             |[https://cellulardata.ubigi.com/](https://cellulardata.ubigi.com/)|
 | airalo                            |[https://www.airalo.com](https://www.airalo.com)|
 | holafly                           |[https://esim.holafly.com](https://esim.holafly.com)|
+| boost mobile                      |[https://boost.com.au/pages/esim](https://boost.com.au/pages/esim)|
 | esim plus                         |[https://esimplus.me](https://esimplus.me)|
 | bytesim                           |[https://bytesim.com](https://bytesim.com)|
 
@@ -233,4 +236,4 @@ The seed profile is designed to ensure a successful connection during the initia
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com/t/gl-inet-launches-esim-cards-for-routers/47351){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

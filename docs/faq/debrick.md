@@ -18,7 +18,11 @@ You can also refer to video tutorial below.
 
     Some models, such as GL-AR750S-EXT, is available in two formats of firmware, please use the firmware for Uboot, its file name extension is **.img**.
 
-2. Remove the power of router. Connect your computer to the **Ethernet port (either LAN or WAN)** of the router. You **MUST** leave all the other ports **unconnected**.
+2. Remove the power of router. Connect your computer to the **Ethernet LAN port** of the router. You **MUST** leave all the other ports **unconnected**.
+
+    !!! note
+
+        For some models, certain individual LAN ports and the WAN port are interchangeable. Please do not use this LAN port. For example, on the GL-MT6000 (Flint 2), do not use LAN 1. Please use LAN 2, LAN 3, or LAN 4 instead.
 
 3. Press and hold the Reset button firmly, and then power up the router. If your router doesn't have a power button, plugging the power in will power it on automatically.
 
@@ -40,15 +44,15 @@ You can also refer to video tutorial below.
 
     - For **GL-A1300(Slate Plus)**, the LED flashes slowly 5 times, then stays on for a short while, then flashes quickly all the time.
 
-    - For **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)**, **microuter-N300**, the LED falshes 5 times.
+    - For **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)**, **microuter-N300**, the LED flashes 5 times.
 
     - For **GL-E750(Mudi)**, its screen will first display "Booting", followed by "Reset Counting 1 to 4", and finally "Please Open Web 192.168.1.1".
 
     - For **GL-S1300(Convexa-S), GL-B1300(Convexa-B)**, the LED flashes 4 times.
         
-        The left most LED may stay on the whole time while the rightmost LED flashes 4 times, then the middle LED turns on and stays on.
+        The leftmost Power LED may stay on the whole time while the rightmost WIFI LED flashes 4 times, then the middle Mesh LED turns on and stays on.
         
-        (For some old GL-B1300, the left most LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simutaneously then they stays on.)
+        (For some old GL-B1300, the leftmost Power LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simutaneously then they stays on.)
 
     - For **GL-SF1200**, the 5G LED flashes 5 times then stays on.
 
@@ -56,7 +60,7 @@ You can also refer to video tutorial below.
 
     - For **GL-AXT1800(Slate AX)**, the blue LED flashes 5 times then stays on.
 
-    - For **GL-XE300(Puli)**, the LAN LED falshes 5 times then WIFI LED stays on.
+    - For **GL-XE300(Puli)**, the LAN LED flashes 5 times then WIFI LED stays on.
 
     - For **GL-X300B(Collie)**, the WAN LED flashes 5 times then WIFI LED stays on.
 
@@ -102,49 +106,49 @@ You can also refer to video tutorial below.
     
         ## Windows 11
 
-        1. Open Settings.
+        7. Open Settings.
 
-        2. Click on **Network & Internet**.
+        8. Click on **Network & Internet**.
 
-        3. Click the **Ethernet** tab.
+        9. Click the **Ethernet** tab.
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
-        4. Under the "IP assignment" section, click the **Edit** button.
+        10. Under the "IP assignment" section, click the **Edit** button.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        5. Select the **Manual** option.
+        11. Select the **Manual** option.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        6. Turn on the **IPv4 toggle** switch.
+        12. Turn on the **IPv4 toggle** switch.
 
-        7. Set the static **IP address** as **192.168.1.2**.
+        13. Set the static **IP address** as **192.168.1.2**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        8. Specify the **Subnet mask** as **255.255.255.0**.
+        14. Specify the **Subnet mask** as **255.255.255.0**.
 
-        9. Click the **Save** button.
+        15. Click the **Save** button.
 
     ??? "macOS"
     
         ## macOS
 
-        1. Click the **Apple** icon in the top left corner of the screen, and select **System Preferences**.
+        16. Click the **Apple** icon in the top left corner of the screen, and select **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences.png){class="glboxshadow"}
 
-        2. Click **Network**.
+        17. Click **Network**.
 
             ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences_network.png){class="glboxshadow"}
 
-        3. Click **Ethernet** on the left and then click the drop-down box next to **Configure IPv4** and select **Manually**. If you are using a USB Ethernet Adapter, Ethernet may not be found and it may show up as the name of the USB Ethernet Adapter.
+        18. Click **Ethernet** on the left and then click the drop-down box next to **Configure IPv4** and select **Manually**. If you are using a USB Ethernet Adapter, Ethernet may not be found and it may show up as the name of the USB Ethernet Adapter.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_1.png){class="glboxshadow"}
 
-        4. Enter the **IPv4 Address** to `192.168.1.2`, **Subnet Mask** to `255.255.255.0`, **Router** to `192.168.1.1`, then click the Apply button in the lower right corner.
+        19. Enter the **IPv4 Address** to `192.168.1.2`, **Subnet Mask** to `255.255.255.0`, **Router** to `192.168.1.1`, then click the Apply button in the lower right corner.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
@@ -152,35 +156,7 @@ You can also refer to video tutorial below.
 
     ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
-    **Note:** The Uboot Web UI above may not be exactly the same as what you see, because the Uboot version is different for different production dates. In some extreme cases, we recommend upgrading the Uboot version. Please refer to the tutorial below.
-
-    ??? "Upgrade the Uboot version"
-
-        Upgrading uboot is very danerous and may brick your router. Only do this when it is necessary or being instructed.
-
-        Mark sure you are using the correct **uboot file** 
-        
-        Following figure shows the Web UI of the old Uboot version of GL-AR750S. It has two **Choose file** buttons, which can be confusing for users.
-
-        ![gl-ar750s old Uboot version](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/gl-ar750s_firmware_update_page_of_old_uboot_version.png){class="glboxshadow" width="700"}
-
-        1. You need to download the Uboot file [here](https://github.com/gl-inet/uboot-for-qca95xx/tree/master/bin){target="_blank"} in advance.
-
-        2. Repeat the above steps until you can access the Uboot Web UI.
-
-        3. Use browser to visit **http://192.168.1.1/uboot.html**
-
-            ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
-
-        4. Click the **Choose file** button and choose the Uboot file you just downloaded.
-
-        5. Click **Update U-Boot** button.
-
-        6. It will take several minutes to update. After a successful update, it will reboot the router.
-
-        7. At this time you can change the IP setting back in step 4 and try to access the web Admin Panel, if you can access the web Admin Panel normally, it means the router has been rebooted.
-
-        8. Repeate the above steps to upgrade the firmware. If the Uboot version is updated successfully, you will see that the Uboot Web UI has changed at step 5. 
+    **Note:** The Uboot Web UI above may not be exactly the same as what you see, because the Uboot version is different for different production dates. In some extreme cases, we recommend upgrading the Uboot version. Please refer to the tutorial [here](upgrade_uboot_version.md).
 
 6. Click **Choose file** button to find the firmware file. Then click **Update firmware** button.
 
@@ -188,6 +164,8 @@ You can also refer to video tutorial below.
 
 8. Revert the IP setting you did in step 4 and connect your device to the LAN or Wi-Fi of the router. You will be able to access the router via **192.168.8.1** again.
 
+    **Note:** It might be required to use the incognito mode or to delete the browser cache and cookies to access the router.
+
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

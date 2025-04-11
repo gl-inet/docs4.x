@@ -22,14 +22,18 @@
 
 * System
 	* Blue: system booting
-	* White: system working normally
+	* Flashing blue: Searching network
+	* White: Working normally
 * VPN
-	* Off: VPN inactive
-	* On: VPN active
+	* Off: 		VPN client is not connected
+	* Flashing: VPN client is connecting
+	* Solid: 	VPN client is connected
+	
+	VPN server status not displayed on LED.
 
 ## GL-MT3000
 
-![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/gl-mt3000_interface.jpg){target="_blank"}
+![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){target="_blank"}
 
 - Solid blue: System boot up
 - Flashing blue: Searching network

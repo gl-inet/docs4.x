@@ -1,5 +1,7 @@
 # Connect to the Internet via an existing Wi-Fi by Repeater
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Using Repeater means connecting the router to another existing wireless network, e.g. when you are using free Wi-Fi in a hotel or cafe.
 
 It works in WISP (Wireless Internet Service Provider) mode by default, which means that the router will create its own subnet and act as a firewall to protect you from the public network.
@@ -144,7 +146,7 @@ When Internet access is not available, the corresponding warning is displayed. T
 
 ## DFS
 
-When Repeater to a upstream 5G WiFi, the router WiFi will fellow the upstream WiFi to use or not use the DFS channel.
+When Repeater to a upstream 5G WiFi, the router WiFi will follow the upstream WiFi to use or not use the DFS channel.
 
 * If the upstream WiFi uses a DFS channel and is scannable, the router's 5G WiFi will use the same channel.
 
@@ -154,6 +156,7 @@ When Repeater to a upstream 5G WiFi, the router WiFi will fellow the upstream Wi
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-BE3600 (Slate 7)            | √         |
 | GL-B3000 (Marble)              | √         |
 | GL-MT6000 (Flint2)             | √         |
 | GL-X3000 (Spitz AX)            | √         |
@@ -186,6 +189,7 @@ Related Articles
 - [How to set the priority of each Internet access method?](multi-wan.md)
 - [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
 - [How can I know the LAN and WiFi Mac Addresses](../faq/how_can_i_know_the_lan_wifi_mac.md)
+
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

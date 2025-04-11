@@ -72,7 +72,8 @@ Here is a list of supported modems that we had tested before.
 | Pantech UML290VW (Verizon)             | 4G    | Yes    | GL.iNet/steven  | QMI       |
 | Pantech UML295 (Verizon)               | 4G    | Yes    | GL.iNet/steven  | Host-less |
 | Novatel USB551L (Verizon)              | 4G    | Yes    | GL.iNet/steven  | QMI       |
-| Verizon U620L (Verizon)                | 4G    | Yes    |                 | Host-less |
+| Verizon U620L (Verizon)                | 4G    | Yes    | anonymous       | Host-less |
+| Huawei E3372h-320 (Ukraine)            | 4G    | Yes    | anonymous       | Host-less |
 
 *QMI: This modem supports QMI mode. Please choose **/dev/cdc-wdm0** in the **Device** list.
 
@@ -82,7 +83,7 @@ You can also search on the [forum](https://forum.gl-inet.com){target="_blank"} o
 
 ## Setup for Dual-SIM models
 
-Some models have a built-in modem and support dual SIM cards, and the interface may be slightly different compare to one SIM card model. 
+Some models have a built-in modem that supports dual SIM cards, and the interface may be slightly different compared to models with only one SIM card. 
 
 Here take the GL-X3000 (Spitz AX) as an example. It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
 
@@ -284,4 +285,4 @@ Related Articles
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

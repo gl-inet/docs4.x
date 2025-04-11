@@ -11,38 +11,49 @@ Learn how to use our devices and how to solve some common problems.
 ## Guidelines for Newcomers:
 
 * [First time setup](first_time_setup.md)
+* [Warning from your browser!](warning_from_your_browser_during_setup.md)
 * [How to use Uboot to debrick your routers?](debrick.md)
 * [Connect to a Hotspot with a Captive Portal?](connect_to_a_hotspot_with_captive_portal.md)
 * [How to remote access router's web Admin Panel?](remote_access_web_admin_panel.md)
 * [How to set up OpenVPN?](../interface_guide/openvpn_client.md)
 * [How to set up WireGuard?](../interface_guide/wireguard_client.md)
 
+## Problem Notification
+* [Critical Problem Notification for GL-MT2500/GL-X3000/GL-XE3000](problem_notification.md)
+
 ## Troubleshooting
 
 * [Cannot Scan Android 5G Hotspot](cannot_scan_android_5g_hotspot.md)
 * [Cannot Scan iPhone 5G Hotspot](cannot_scan_iphone_5g_hotspot.md)
+* [USB modem is not working properly on GL.iNet router](usb_modem_is_not_working_properly_on_gl_inet_router.md)
 * [Debrick via Uboot](debrick.md)
 * [How to repair network or reset to factory setting?](repair_network_or_reset_firmware.md)
 * [iPhone tethering failed](iphone_tethering_fail.md)
 * [MacOS cannot write in Samba](macos_cannot_write_samba.md)
 * [Stuck on the "Installing" screen when updating the router](stuck_on_installing_screen.md)
+* [Stuck on the "Reverting" screen when resetting the router](stuck_on_reverting_screen.md)
+* [Stuck on the "Rebooting" screen when rebooting the router](stuck_on_rebooting_screen.md)
 * [What should I do if my router is bricked?](debrick.md)
 * [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel.md)
 * [My Wireguard server is not working properly](my_wireguard_server_is_not_working.md)
+* [What should I do if I saw Subnet Conflict](what_should_i_do_with_subnet_conflict.md)
+* [Warning on DDNS test](warning_on_ddns_test.md)
+* [Why My VPN Speed is Low](why_my_vpn_speed_is_low.md)
+* [Upgrade Uboot Version](upgrade_uboot_version.md)
 
 ## Internet Connection
 
 * [Build up an Intranet](build_up_an_intranet.md)
-* [Cellular Network Troubleshooting Guide](gl-x3000_gl-xe3000_connection_optimization.md)
+* [Cellular Network Troubleshooting Guide](cellular_network_troubleshooting_guide.md)
 * [I replaced my old router with GL.iNet Router but No internet](i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md)
 * [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection.md)
 
 ## VPN
 
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp.md)
-* [How to Block Non-VPN Traffic?](block_no_vpn_traffic.md)
+* [How to Block Non-VPN Traffic?](block_non_vpn_traffic.md)
 * [I must use Ethernet WAN when use VPN?](i_must_use_ethernet_wan_when_use_vpn.md)
-* [VPN Kill Switch](block_no_vpn_traffic.md).
+* [VPN Kill Switch](block_non_vpn_traffic.md).
 
 ## Upgrade
 

@@ -26,6 +26,11 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 * [Clients](clients.md)
 
+## Cloud Services
+
+* [GoodCloud](cloud.md), the official cloud service.
+* [AstroWarp](astrowarp.md), an advanced networking platform designed to provide seamless remote networking and remote device management.
+
 ## VPN
 
 * [VPN Dashboard](vpn_dashboard.md).
@@ -38,22 +43,22 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [How to setup NordVPN on router?](openvpn_client.md#set-up-nordvpn)
 * [How to setup AzireVPN on router?](wireguard_client.md#set-up-azirevpn)
 * [How to setup Mullvad VPN on router?](wireguard_client.md#set-up-mullvad)
-* [How to Block Non-VPN Traffic?](../faq/block_no_vpn_traffic.md)
-* [VPN Kill Switch](../faq/block_no_vpn_traffic.md).
+* [How to Block Non-VPN Traffic?](../faq/block_non_vpn_traffic.md)
+* [VPN Kill Switch](../faq/block_non_vpn_traffic.md).
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](../faq/openvpn_tcp_udp.md)
-* [VPN Cascading](../tutorials/vpn_cascading.md)
+* [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
 * [Tor](tor.md), to protect the personal privacy.
 
 ## Applications
 
 * [Plug-ins](plugins.md)
 * [DDNS](ddns.md). Overcome the issues related to Dynamic IP Addresses.
-* [GoodCloud](cloud.md), the official cloud service.
 * [AdGuard Home](adguardhome.md)
 * [Network Storage](network_storage.md)
 * [Parental Control](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [eSIM Management](../tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md)
 
 ## Network
 
@@ -62,6 +67,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Multi-WAN](multi-wan.md), failover to another Internet access method or use multiple interfaces at the same time to increase the total bandwidth.
 * [LAN](lan.md)
 * [DNS](dns.md)
+* [Network Port Management](network_port_management.md)
 * [Network Mode](network_mode.md)
 * [IPv6](ipv6.md)
 * [MAC Address](mac_address.md)
@@ -76,7 +82,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [UI Languages](ui_languages.md)
 * [System Overview](system_overview.md), displays some hardwares status and system info.
 * Upgrade
-    * [Firmware upgrade](firmware_upgrade.md)
+    * [Upgrade](upgrade.md)
     * [Where to download official firmware?](../faq/where_to_download_firmware.md)
     * [How to upgrade from 3.x to firmware 4.x?](../faq/upgrade_to_4.md)
     * [How to upgrade GL-AX1800(Flint) from firmware 3.x to 4.x?](../faq/gl-ax1800_upgrade_to_4.md)

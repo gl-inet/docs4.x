@@ -22,7 +22,7 @@ When **Prevent Weak Password** is turned on, the requirements for new passwords 
 
 The local control feature can prevent scanning and intrusion attempts on the default port and avoid network problems caused by port conflicts.
 
-**Note**: If the port number is modified in the firmware, you needs to enter the correct port number on the mobile phone to enter the admin panel. If the port number is forgotten, please reset the router to the default port number.
+**Note**: If the port number is modified in the firmware, you need to enter the correct port number on the mobile phone to enter the admin panel. If the port number is forgotten, please reset the router to the default port number.
 
 ![security_default_local_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/security_default_local_access_control.png){class="glboxshadow"}
 
@@ -157,4 +157,4 @@ To open a port, click **Add**.
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

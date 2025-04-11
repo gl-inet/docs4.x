@@ -66,7 +66,7 @@ To set up your SIM cards, follow these steps:
 
 To enter your APN, follow these steps: 
 
-1. Enter 192.168.8.1 in a web browser and sign in. 
+1. enter `192.168.8.1` in a web browser and sign in. 
 2. You should see the name of your carrier in the upper left corner. Click **Manual Setup**.
 3. Next to **APN**, enter the APN. 
 4. Click **Apply**. 
@@ -111,7 +111,6 @@ Spitz AX supports multi-WAN (failover and load balancing). You can set failover 
 
 To set failover, read the [Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/) section.
 
-
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

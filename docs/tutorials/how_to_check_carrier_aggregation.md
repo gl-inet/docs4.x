@@ -18,7 +18,7 @@ Carrier aggregation combines multiple network bands to offer more bandwidth and 
 To check the carrier aggregation status, follow these steps: 
 
 1. Make sure you have inserted a SIM card into the router. 
-2. In a web browser's address bar, enter 192.168.8.1 and sign in. 
+2. In a web browser's address bar, enter `192.168.8.1` and sign in. 
 3. Click the icon on the right. 
     ![click icon](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/cellular-click-icon-right.png){class="glboxshadow"}
 4. In the **AT Command field**, enter **AT+QCAINFO**.
@@ -30,4 +30,4 @@ If carrier aggregation is active, you will see multiple network bands shown on t
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

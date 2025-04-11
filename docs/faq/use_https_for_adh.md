@@ -26,3 +26,7 @@ Then, SSH into your GL-iNet Router or use WinSCP to replace the updated certific
 ![addcertpath](https://static.gl-inet.com/docs/router/en/4/faq/SSL/addcertpath.jpg){class="glboxshadow"}
 
 Then you can use HTTPS to visit 192.168.8.1 or 192.168.8.1:3001
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

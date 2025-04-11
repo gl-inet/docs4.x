@@ -6,7 +6,9 @@ This page was added since v4.6. For older versions, please view [Firewall](firew
 
 On the left side of web Admin Panel -> NETWORK -> Port Forwarding
 
-In FIREWALL page, you can set up firewall rules like **Port Forwarding**, **Open Ports on Router** and **DMZ**.
+In this page, you can set up firewall rules like **DMZ** and **Port Forwarding**.
+
+For **Open Ports on Router**, please go to SYSTEM -> Security.
 
 ---
 
@@ -34,8 +36,6 @@ It will pop up **Add New Port Forward Rule** dialog.
 
 ![add new port forwarding rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/add_new_port_forward_rule.png){class="glboxshadow"}
 
-**Name:** The name of the rule.
-
 **Protocol:** The protocol used, you can choose TCP, UDP, or both TCP and UDP.
 
 **External Zone:** The options for external zone are `WAN`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `LAN`, `Guest`.
@@ -48,8 +48,10 @@ It will pop up **Add New Port Forward Rule** dialog.
 
 **Internal Port:** The internal port number of the device. You can enter a specific port number. Leave it blank if it is same as the external port.
 
+**Description:** Set a name or add a description for the port forwarding rule (optional).
+
 **Enable:** Enable or disable of the rule.
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

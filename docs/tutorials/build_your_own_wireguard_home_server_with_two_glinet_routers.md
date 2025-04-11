@@ -17,9 +17,9 @@ Here we use our GL-MT6000 as the example to run WireGuard VPN server at the home
 
 First, you shall make sure the GL-MT6000 has a Public IP address on its WAN side, so that it can be globally accessed. Otherwise your travel router cannot build up a VPN connection with it while you are traveling.
 
-To check if you have the Public IP address, please open a web browser and type in [ip.gs](https://ip.gs){target="_blank"} in the address bar.
+To check if you have the Public IP address, please open a web browser and type in [what is my ip](https://whatismyipaddress.com/){target="_blank"} in the address bar.
 
-![myip](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/myip.jpg){class="glboxshadow"}
+![whatismyip](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/whatismyip.jpg){class="glboxshadow"}
 
 It will show your public IP address, if it matches with your WAN IP from your ISP, you are granted a Public IP Address.
 
@@ -49,11 +49,11 @@ If you don't have a Public IP address, here are some methods for your reference.
 
     Topology
 
-    Set the **Port Forward** on your Main Router if GL.iNet router is sit behind NAT
+    Set the **Port Forward** on your Main Router if GL.iNet router sits behind NAT
 
     ![togologywgtp](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywgtp.jpg){class="glboxshadow"}
 
-    Connect to your home router's WiFi or LAN, then login the web admin panel. Check the IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
+    Connect to your home router's WiFi or LAN, then login to the web Admin Panel. Check the WAN IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
 
     Example: A TP-Link Router
 
@@ -77,7 +77,7 @@ If you don't have a Public IP address, here are some methods for your reference.
 
 Enable the DDNS function if you do not have a Public Static IP but only have a Public Dynamic IP.
 
-Go to the admin panel >Applications>Dynamic DNS and slide to enable
+Go to the web Admin Panel -> Applications -> Dynamic DNS and slide to enable
 
 ![serverddns](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/serverddns.jpg){class="glboxshadow"}
 
@@ -107,7 +107,7 @@ Change the configuration to text format by click **Configuration File**. Copy th
 
 ### Change the LAN IP
 
-Login to the admin panel of GL-MT3000 and go to the **Network** on the side bar and change the LAN IP.
+Login to the web Admin Panel of GL-MT3000 and go to the **Network** on the side bar and change the LAN IP.
 
 [Change the LAN IP](../interface_guide/lan.md)
 
@@ -148,3 +148,7 @@ Sometimes your server may be down due to a power outage or other reasons, in ord
 Related Articles
 
 - [The GoodCloud](../interface_guide/cloud.md)
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

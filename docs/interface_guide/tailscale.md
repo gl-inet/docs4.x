@@ -10,10 +10,15 @@ The Tailscale feature in GL.iNet router allow the router to join the Tailscale v
 
 **Note**: This feature is currently in beta, and may have some bugs.
 
+**Note**: GL.iNet router is **not yet available as an exit node**.
+
 ## Supported models
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-BE9300 (Flint 3)            | √         |
+| GL-BE3600 (Slate 7)            | √         |
+| GL-X2000 (Spitz Plus)          | -         |
 | GL-B3000 (Marble)              | √         |
 | GL-MT6000 (Flint 2)            | √         |
 | GL-X3000 (Spitz AX)            | √         |
@@ -27,7 +32,7 @@ The Tailscale feature in GL.iNet router allow the router to join the Tailscale v
 | GL-AX1800 (Flint)              | √         |
 | GL-AR750S (Slate)              | -         |
 | GL-XE300 (Puli)                | -         |
-| GL-X750 (Spitz)                | -         |
+| GL-X750/GL-X750V2 (Spitz)      | -         |
 | GL-B1300 (Convexa-B)           | -         |
 | GL-AP1300 (Cirrus)             | -         |
 | GL-X300B (Collie)              | -         |
@@ -143,8 +148,6 @@ The exit node feature lets you route all non-Tailscale internet traffic through 
 
 ![exitnode](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/exitnode.jpg){class="glboxshadow"}
 
-**Note**: GL.iNet router is not yet available as an exit node.
-
 **Note**: If the router's DNS Server is a private IP address that can be accessed only in the local network, you may lose the Internet access when running the exit nodes. Please go to Network > DNS menu and set a manual public DNS server such as 8.8.8.8 as the solution.
 
 Setup Steps:
@@ -173,4 +176,4 @@ Setup Steps:
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

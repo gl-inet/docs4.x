@@ -15,7 +15,7 @@ GL-AXT1800, power adapter, ethernet cable.
 
 There is a video guide.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f7DYULL6ZSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Power on
 
@@ -74,25 +74,29 @@ Here is an example of GL-MT2500A (Brume 2).
 
 1. Power on
 
-    Plug one end of the power adapter into the router and the other end into an outlet. It will automatically power on.
+    Plug one end of the power adapter into the router and the other end into an outlet. The router will power on automatically.
 
 2. Connect to the router
 
-    You can connect to router via an ethernet cable or via Wi-Fi.
+    We can connect to router via an Ethernet cable or via Wi-Fi.
 
-    * Connect via cable
+    * Direct connection via Ethernet cable
 
-        Connect your computer to the LAN port of the router via Ethernet cable.
+        Connect your computer to the LAN port of the router using an Ethernet cable. This is the recommended configuration method as it's simple and straightforward.
 
-    * Connect via Wi-Fi by another router
+    * Connect via Wi-Fi of another router
 
-        As GL-MT2500A doesn't have a build-in Wi-Fi module, we can use another router to initialize the GL-MT2500.
+        As GL-MT2500A doesn't have a built-in Wi-Fi module, we can use another router with Wi-Fi capability to initialize the GL-MT2500A.
 
         * Method 1, the second router is set to AP(Access Point) mode, then connect the LAN port of GL-MT2500A to the WAN port of the second router.
 
         * Method 2, the second router is default router mode, but with a different router IP address that is not conflict with 192.168.8.1/24, e.g., 192.168.10.1, then connect the LAN port of GL-MT2500A to the WAN port of the second router.
 
         Use your computer or smartphone to connect to the Wi-Fi of the second router.
+
+        !!! note
+        
+            The second router mentioned here is a regular router, like GL.iNet GL-AXT1800, TP-LINK, or Netgear routers. Modems, Optical Network Terminals, or devices provided by ISPs may not work in this scenario.
 
 3. Access the web Admin Panel
 
@@ -118,4 +122,4 @@ Here is an example of GL-MT2500A (Brume 2).
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

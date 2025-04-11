@@ -1,4 +1,6 @@
-# Set Up OpenVPN Server on GL.iNet Router
+# Set Up OpenVPN Server on GL.iNet Routers
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GSbytyaqOY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
 
@@ -12,7 +14,9 @@ Please check if you Internet Service Provider assigns you a public IP address [h
 
 **If not, you can't connect to the OpenVPN Server.**
 
-An alternative method is to use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com/){target="_blank"}.
+Alternative methods:
+* To use a SDWAN solution, we suggest [AstroWarp](https://www.astrowarp.net){target="_blank"}.
+* To use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com){target="_blank"}, check the tutorial [here](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md).
 
 ## Network Topology
 
@@ -40,7 +44,7 @@ An alternative method is to use a reverse proxy solution, we suggest [AstroRelay
 
     If you do not need to modify the configuration, please click directly the **Export Client Configuration** at the bottom of page. If you have modified the configuration, please click the **Apply** button to continue.
 
-    * **Device Mode:** TAP-S2S or Tun. To find out what the difference is, check out [TAP-S2S vs Tun](../tutorials/tap_s2s_vs_tun.md).
+    * **Device Mode:** TAP-S2S or Tun. To find out what the difference is, check out [TAP-S2S vs Tun](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md).
 
     * **Protocol:** UDP or TCP. To find out what the difference is, check out [TCP vs UDP](../faq/openvpn_tcp_udp.md).
 
@@ -105,7 +109,7 @@ You can modify your own configuration at this tab.
 
 ![ptptopology](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ptptopology.jpg){class="glboxshadow"}
 
-Enable the client to client toggle and export a new configuration to clinets, your clients can be access to each others now.
+Enable the client to client toggle and export a new configuration to clients, your clients can access to each other now.
 
 ![peertopeer](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/peertopeer.jpg){class="glboxshadow"}
 
@@ -117,4 +121,4 @@ We can use another GL.iNet router as OpenVPN Client, or use their official app o
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

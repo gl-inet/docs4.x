@@ -1,4 +1,4 @@
-# CLIENTS
+# Clients
 
 On the left side of web Admin Panel -> CLIENTS
 
@@ -10,31 +10,29 @@ If you want to modify name and type of a device, please click the three dots ico
 
 ![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_three_dots.png){class="glboxshadow"}
 
-![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/edit_client_device.png){class="glboxshadow"}
+![edit client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/edit_client_device.png){class="glboxshadow"}
 
 ## MAC Address
 
 Many devices will use randomized MAC address, if the randomized MAC address is used, there will be a prompt.
 
-![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/randomized_mac_address.png){class="glboxshadow"}
+![random mac prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/randomized_mac_address.png){class="glboxshadow"}
 
 **Note**: The rule here is that if the second character of the MAC address is 2, 6, A or E(Ignore case), then it is considered a randomized MAC address. However, some devices may use a different rule to generate a randomized MAC address, so it may not be accurate.
 
 ## Blocklist
 
-Enable **Block** toggle to block client device, the blocked device can't access the LAN interface and WAN interface.
+Enable **Block** toggle to block client device. The access control rule is Blocklist by default, you can switch it to Allowlist from the top if needed.
 
-![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients.png){class="glboxshadow"}
-
-Blacklist: Devices with MAC addresses on the prohibited list are not allowed to connect to this router.
-
-Whitelist: Only devices with specific MAC addresses are allowed to connect, suitable for IoT devices and enterprise network management.
+![blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist.jpg){class="glboxshadow"}
 
 ![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_whitelist.png){class="glboxshadow"}
 
-Starting from firmware 4.4.x, you can upload a block list in excel form or input Mac addressed manually to creat a **Block List**.
+**Blacklist**: Devices with MAC addresses on the prohibited list are not allowed to connect to this router.
 
-![blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist.jpg){class="glboxshadow"}
+**Allowlist**: Only devices with specific MAC addresses are allowed to connect, suitable for IoT devices and enterprise network management.
+
+Starting from firmware 4.4.x, you can upload a block list in excel form or input Mac addresses manually to creat a **Block List**.
 
 You can either import a list from a CSV file at **(1)** or input the Mac Address one by one at **(2)**.
 
@@ -105,4 +103,4 @@ In the offline clients sector, you can **Delete All** offline clients. If you wa
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

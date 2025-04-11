@@ -2,6 +2,18 @@
 
 Experience your first impression of seeing our devices for the first time, and understanding the setup process.
 
+## GL-BE3600 (Slate 7)
+
+Unboxing Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/884A5k7oiQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-X2000 (Spitz Plus)
+
+Unboxing & Setup Guide
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-_K3xuAj4UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-B3000 (Marble)
 
 Unboxing & Setup Guide

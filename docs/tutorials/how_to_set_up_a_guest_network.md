@@ -10,7 +10,7 @@ There are two methods you can use to set up a guest Wi-Fi network on your GL.iNe
 
 ### 1. Enable the guest Wi-Fi network
 
-1. In a web browser, enter 192.168.8.1. 
+1. In a web browser, enter `192.168.8.1`. 
 2. Enter your password, then click **Login**. 
 3. In the left sidebar, click **Wireless**.
 ![click wireless](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-wireless.jpeg){class="glboxshadow"}
@@ -53,4 +53,4 @@ You have now set up a guest Wi-Fi network. To connect your devices to it, locate
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

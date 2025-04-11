@@ -16,7 +16,9 @@ Senerio 3: A family has IP camera and when they are not at home, the Site to Sit
 
 It requires at least two GL.iNet routers, each in a different location, one of which has a public IP address. Please [check if your ISP assigns you a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md). It requires firmware version 3.026 and above.
 
-Note: It is not recommended to run Site to Site while its nodes are also running VPN client, which can make the network particularly complex.
+!!! note
+
+    It is not recommended to run Site to Site while its nodes are also running VPN client, which can make the network particularly complex.
 
 ## Steps to build a Site to Site network
 
@@ -74,10 +76,6 @@ For example, my PC connect to Node 1 device, and then I use browser to access Ma
 
 ## Route and other options
 
-You can change each device's LAN IP and routes.
-
-![LAN IP and routes](https://static.gl-inet.com/goodcloud/docs/lanip-routes-s2s.png){class="glboxshadow"}
-
 By default, each node can access other's LAN, based on security, we recommend only open the corresponding service IPs.
 
 E.g. There is a Server A(172.30.97.100) in Node 1's subnet, if you want other Site to Site nodes  only can access Node 1's Service A, you can set it like below:
@@ -92,4 +90,4 @@ Each sub Node build an encrypted tunnel Network to Main Node, if you want to cha
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

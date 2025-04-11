@@ -14,6 +14,9 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-BE9300 (Flint 3)            | √         |
+| GL-BE3600 (Slate 7)            | √         |
+| GL-X2000 (Spitz Plus)          | -         |
 | GL-B3000 (Marble)              | √         |
 | GL-MT6000 (Flint2)             | √         |
 | GL-X3000 (Spitz AX)            | √         |
@@ -31,7 +34,7 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 | GL-B1300 (Convexa-B)           | -         |
 | GL-AP1300 (Cirrus)             | -         |
 | GL-X300B (Collie)              | -         |
-| GL-MV1000/GL-MV1000W (Brume)   | √         |
+| GL-MV1000/GL-MV1000W (Brume)   | √ (Beta)  |
 
 ## Setup
 
@@ -141,4 +144,4 @@ The operation steps are as follows.
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

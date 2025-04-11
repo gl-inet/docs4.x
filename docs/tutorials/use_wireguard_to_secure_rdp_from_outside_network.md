@@ -52,5 +52,3 @@ Input the credentials of your Server side PC.
 You will immediately remotely controlling your Server side PC.
 
 If you want to do vice versa, just reverse the steps of Server PC and Client Laptop.
-
-

@@ -47,4 +47,8 @@ You can enable the Full Cone NAT at **Network > NAT Settings** to imporve the la
 
 ![conenat](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/conenat.png){class="glboxshadow"}
 
-* This function available on Firmware 4.5 or above.
+* This function is available on Firmware 4.5 or above.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

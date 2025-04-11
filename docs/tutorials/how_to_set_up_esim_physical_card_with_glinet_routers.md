@@ -236,4 +236,4 @@ The seed profile is designed to ensure a successful connection during the initia
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com/t/gl-inet-launches-esim-cards-for-routers/47351){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

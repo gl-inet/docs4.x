@@ -111,7 +111,6 @@ Spitz AX supports multi-WAN (failover and load balancing). You can set failover 
 
 To set failover, read the [Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/) section.
 
-
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

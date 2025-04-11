@@ -189,6 +189,7 @@ Related Articles
 - [How to set the priority of each Internet access method?](multi-wan.md)
 - [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
 - [How can I know the LAN and WiFi Mac Addresses](../faq/how_can_i_know_the_lan_wifi_mac.md)
+
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

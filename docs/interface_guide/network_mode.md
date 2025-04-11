@@ -34,4 +34,4 @@ Here is an example of GL-MT2500/GL-MT2500A. It doesn't have Access Point, Extend
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

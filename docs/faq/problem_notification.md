@@ -4,9 +4,9 @@ Dear GL.iNet Customers,
 
 This announcement addresses the startup failure and firmware recovery issues via U-Boot on the GL-MT2500/GL-X3000/GL-XE3000 devices. The problem stemmed from a software defect where some parameters were incorrectly defined, causing the routers to operate abnormally. As a result, we assessed that this issue might reduce the routers' service life to some extent, for which we sincerely apologize.
 
-We strongly recommend that all customers using these products, including GL-MT2500/GL-X3000/GL-XE3000, perform the following U-Boot bootloader and firmware upgrade to fully resolve this issue. 
+We strongly recommend that all users of GL-MT2500, GL-X3000 and GL-XE3000, perform both a U-Boot bootloader upgrade and a firmware upgrade in order to completely resolve this issue. Both upgrade procedures are essential.
 
-If you have upgraded your device to the latest firmware as shown below, the U-Boot bootloader upgrade is still needed as to avoid potential issue. After upgrading the U-Boot bootloader, since the latest firmware has been installed on your device, you may skip the step 2 and no need to upgrade the latest firmware again.
+If you have upgraded your device to the latest firmware, the U-Boot bootloader upgrade is still needed as to avoid potential issue. After upgrading the U-Boot bootloader, since the latest firmware has been installed on your device, you may skip the step 2 and no need to upgrade the latest firmware again.
 
 ## GL-MT2500
 

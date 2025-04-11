@@ -117,7 +117,7 @@
 <div class="gl-product-row">
   <div class="gl-product-row-box">
     <div class="gl-product-card">
-      <a href="gl-b3000/">
+      <a href="gl-be9300/">
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_be9300.jpg" >
         <div class="gl-product-model">GL-BE9300</div>
         <div class="gl-product-model">(Flint 3)</div>

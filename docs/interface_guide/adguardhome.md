@@ -1,6 +1,6 @@
 # AdGuard Home
 
-AdGuard Home is a network-wide software for blocking ads & tracking. Click **Start** button to continue.
+AdGuard Home is a network-wide software for blocking ads and tracking. Once set up, it will cover ALL the devices on your home network, and there is no need for any additional client-side software. 
 
 ## Supported models
 
@@ -29,15 +29,27 @@ AdGuard Home is a network-wide software for blocking ads & tracking. Click **Sta
 | GL-AP1300 (Cirrus)             | √         |
 | GL-X300B (Collie)              | -         |
 
-![adguard home init](https://static.gl-inet.com/docs/router/en/4/tutorials/adguardhome/adguardhome_init.png){class="glboxshadow"}
+## Setup
 
-When it starts, click **Setting Page** for advanced configuration.
+Go to web Admin Panel -> APPLICATIONS -> AdGuard Home. Toggle the switch to enable AdGuard Home and click Apply. 
 
-![adguard home started](https://static.gl-inet.com/docs/router/en/4/tutorials/adguardhome/adguardhome_started.png){class="glboxshadow"}
+![adguard home enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/enable.png){class="glboxshadow"}
+
+![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
+
+- AdGuard Home Handle Client Requests: If this option is enabled, DNS queries from client devices will be handled directly by AdGuard Home. AdGuard Home will show DNS query logs by clients, but this will cause VPN policies based on domain not to work.
+
+This page displays statistics such as the DNS queries, blocked domains, etc, which is through the APl provided by AdGuard Home. 
+
+![adguard home web panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_web_panel.png){class="glboxshadow"}
+
+Then please click **Settings Page** to perform advanced configuration of Adguard Home.
+
+![adguard home started](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/settings_page.png){class="glboxshadow"}
 
 It will go to the AdGuard Home's own settings page. If you have any questions, please visit [Adguard Home Support Center](https://adguard.com/en/support.html){target="_blank"} for help.
 
-![adguard home settings](https://static.gl-inet.com/docs/router/en/4/tutorials/adguardhome/adguardhome_settings.png){class="glboxshadow"}
+![adguard home settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_dashboard.png){class="glboxshadow"}
 
 ---
 

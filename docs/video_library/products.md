@@ -2,6 +2,12 @@
 
 An Introduction to our future products, and a glimpse into our latest development.
 
+## GL-BE3600 (Slate 7)
+
+Dual-band Wi-Fi 7 Travel Router
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5u0bzFlL-3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-B3000 (Marble)
 
 Decorative Wi-Fi 6 Router for Homes

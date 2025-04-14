@@ -8,6 +8,10 @@ Unboxing Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/884A5k7oiQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Setup Guide
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-X2000 (Spitz Plus)
 
 Unboxing & Setup Guide

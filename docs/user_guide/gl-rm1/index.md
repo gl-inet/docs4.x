@@ -22,6 +22,22 @@ This section will guide you how to set up GL-RM1 quickly. Connect the device, re
 4. Plug the GL-RM1's Ethernet port to a network source.
     ![Connect the GL-RM1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/05_ethernet.jpg){class="glboxshadow"}
 
+### LED Explanation
+
+| LED Status               | Indication                        |
+| :----------------------- | :-------------------------------- |
+| Solid Blue               | Starting up                       |
+| Flashing White           | Started up but No Internet        |
+| Solid White              | Connected to Internet             |
+| Flashing Blue & White    | Firmware Upgrading                |
+
+### Button Explanation
+
+| Function                   | Operation                                | LED Indication                        |
+| :------------------------- | :--------------------------------------- | :------------------------------------ |
+| Enter U-Boot Flashing Mode | With device powered on, press and hold <br>the button for more than 3s then release | Pressing the button: Flashing Blue <br>Entered U-Boot mode: Solid Blue      |
+| Reset                      | With device powered on, press and hold <br>the button for 8-20s then release        | Pressing for 1-8s: Slowly Flashing <br>Pressing for 8-20s: Quickly Flashing |
+
 ### Remote Access to the Controlled Device
 
 Follow the steps below.
@@ -86,7 +102,7 @@ Now you can use this IP to access your controlled device locally via GL-RM1.
 
 Move to the top navigation bar, click **Settings**, you will get a page as below.
 
-![settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/settings.png){class="glboxshadow"}
+![settings](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/settings.png){class="glboxshadow"}
 
 - Video
 
@@ -106,19 +122,13 @@ Move to the top navigation bar, click **Settings**, you will get a page as below
 
     - Language: Switch the language of control page. 
     - Color Mode: Switch the theme color, including dark and light modes.
-
-- Security
-
-    - Two-Factor Authentication: Enable two factor authentication (2FA) to protect your account.
-    - Change Admin Password: Change your administrator password here.
-
-    ![change admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/change_password.png){class="glboxshadow gl-60-desktop"}
+    - Reset KVM
 
 ### Toolbox
 
 In the top navigation bar, click  **Toolbox**.
 
-![toolbox](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/toolbox.png){class="glboxshadow"}
+![toolbox](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/toolbox.png){class="glboxshadow"}
 
 - Clipboard
 
@@ -130,6 +140,12 @@ In the top navigation bar, click  **Toolbox**.
 
     ![all shortcuts](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/shortcut_all.png){class="glboxshadow"}  
 
+- Wake On Lan
+
+    Wake on LAN (WOL) is a technology that allows the controoled device to be remotely powered on or awakened from a low-power state.
+
+    Click Add Device to set it up.
+
 - Terminal
 
     Access Terminal: You can access the terminal of GL-RM1 through this function.
@@ -138,11 +154,11 @@ In the top navigation bar, click  **Toolbox**.
 
 ### Accessories
 
-GL.iNet provides you with accessories (optional), which you can connect to the GL-RM1 for use.
+GL.iNet provides optional accessories, which you can connect to the GL-RM1 for use.
 
 In the top navigation bar, click  **Accessories**.
 
-![accessories](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/accessories.png){class="glboxshadow"}
+![accessories](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/accessories.png){class="glboxshadow"}
 
 - Fingerbot
 
@@ -168,7 +184,7 @@ GL-RM1 allows you to transfer files from the host to GL-RM1, and then from GL-RM
 
 In the top navigation bar, click  **Virtual Media**.
 
-![virtual media](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/virtual_media.png){class="glboxshadow"}
+![virtual media](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/virtual_media.png){class="glboxshadow"}
 
 You can drag or click the box to upload files from host or from URL. As an example, two images were uploaded from the host to the GL-RM1 here.
 
@@ -176,17 +192,15 @@ You can drag or click the box to upload files from host or from URL. As an examp
 
 You can perform operations such as deletion and download.
 
-- Mount To Remote
+Click **Mount To Remote**, two options are provided: **File Sharing** and **Image Mounting**.
 
-    Click "Mount To Remote", two options are provided: File Sharing and Image Mounting.
-    
-    ![mount to remote](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/mount_to_remote.png){class="glboxshadow"}
+![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_to_remote.png){class="glboxshadow"}
     
 - File Sharing: Emulates a read-write USB drive. Upload the files to the KVM (GL-RM1) and transfer from the host to the remoted device.
 
     Click "File Sharing", a window will pop up in the upper right corner of the control page.
     
-    ![file sharing 1](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/file_sharing_1.png){class="glboxshadow"}
+    ![file sharing 1](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/file_sharing.png){class="glboxshadow"}
 
     Check the GL-RM1 control page, go to "This PC" of your controlled device, you will see a Drive named "GLKVM(F:)". Now you can view, move or delete the files in this drive.
 
@@ -202,16 +216,51 @@ You can perform operations such as deletion and download.
 
     Then you can use this file on the controlled end.
 
+### Apps Center
+
+In the top navigation bar, click  **Apps Center**.
+
+![image mounting](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/apps_center.png){class="glboxshadow"}
+
+- Tailscale: You can bind this device to your own Tailscale account to manage it under Tailscale network.
+
+    More instructions about Tailscale, please refer to [Tailscale documentation](https://tailscale.com/kb){class="blank"}.
 
 ### Help
 
-You can upgrade the firmware version here. Local and Online Upgrades are supported.
+Here you can find more information about GL.iNet KVM, or export log for troubleshooting.
 
-![upgrade firmware](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
+![help](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/help.png){class="glboxshadow"}
+
+### System
+
+In the upper right corner, you can adjust the screen size, such as collapsing the toolbar or enabling full-screen display. You can also upgrade firmware, enable Cloud service, change admin password, and restart/logout of your GL-RM1.
+
+- Upgrade
+
+    Local and Online Upgrades are supported.
+
+    ![upgrade firmware](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/upgrade_firmware.png){class="glboxshadow"}
+
+- Cloud Service
+
+    GL.iNet KVM panel can be accessed locally, so as to manage the controlled device under local network. Click [here](#local-access-to-the-controlled-device) for more details.
+
+    If you want to access the controlled device remotely, please download the App to use Cloud service.
+
+    ![cloud service](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/cloud_service.png){class="glboxshadow"}
+
+- Security
+
+    - Change Admin Password.
+
+        ![change admin password](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/change_password.png){class="glboxshadow gl-60-desktop"}
+
+    - 2FA Code: Enable two-factor authentication to protect your account.
 
 ## Accessories
 
-GL.iNet provides standard accessories that you can connect to the GL-RM1 for use.
+GL.iNet provides standard accessories that you can connect to the GL-RM1.
 
 ### FingerBot
 

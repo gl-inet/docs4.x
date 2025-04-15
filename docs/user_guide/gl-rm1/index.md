@@ -193,8 +193,6 @@ You can drag or click the box to upload files from host or from URL. As an examp
 You can perform operations such as deletion and download.
 
 Click **Mount To Remote**, two options are provided: **File Sharing** and **Image Mounting**.
-
-![mount to remote](https://static.gl-inet.com/docs/kvm/user_guide/gl-rm1/mount_to_remote.png){class="glboxshadow"}
     
 - File Sharing: Emulates a read-write USB drive. Upload the files to the KVM (GL-RM1) and transfer from the host to the remoted device.
 

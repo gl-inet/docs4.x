@@ -8,6 +8,8 @@ To completely resolve this issue, we strongly recommend that all users of GL-MT2
 
 Even if your device has already been upgraded to the latest firmware, a U-Boot bootloader upgrade remains mandatory to prevent potential issues. After completing the U-Boot bootloader upgrade, if the latest firmware is already installed, you may skip reinstalling the firmware.
 
+Please try upgrading with Chrome or Microsoft Edge. DO NOT to use Mozilla/Firefox.
+
 ## GL-MT2500
 
 1. Download and upgrade the U-Boot bootloader to [version 2025-02-24 15:04:07](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-mt2500-20250224-md5-74286e770cfb041b611d80d4adaef189.bin){target="_blank"}

@@ -35,11 +35,15 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
 === "Ethernet"
     
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_ethernet.jpg){class="glboxshadow"}
+
     Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
 === "Repeater"
+
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_repeater.jpg){class="glboxshadow"}
 
     1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
     2. Select a Wi-Fi network. 
@@ -51,6 +55,8 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
 === "Tethering"
 
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_tethering.jpg){class="glboxshadow"}
+
     1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
     2. In your mobile device's settings, enable tethering. 
     3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
@@ -60,6 +66,8 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
 === "Cellular"
+
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_cellular.jpg){class="glboxshadow"}
 
     Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 

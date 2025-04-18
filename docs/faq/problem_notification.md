@@ -8,7 +8,7 @@ To completely resolve this issue, we strongly recommend that all users of GL-MT2
 
 Even if your device has already been upgraded to the latest firmware, a U-Boot bootloader upgrade remains mandatory to prevent potential issues. After completing the U-Boot bootloader upgrade, if the latest firmware is already installed, you may skip reinstalling the firmware.
 
-Please try upgrading with Chrome or Microsoft Edge. DO NOT to use Mozilla/Firefox.
+Please try upgrading with Chrome or Microsoft Edge. DO NOT use Mozilla/Firefox.
 
 ## GL-MT2500
 

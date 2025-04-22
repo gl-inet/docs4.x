@@ -32,6 +32,8 @@ Wait a moment, if the password is correct, the connection will be successful.
 
 * **Auto-Enable Login Mode for Public Hotspots**
 
+  This feature is available since v4.6
+  
   If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. This mode will pause VPNs, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).
 
   Even if you do not turn on this option, the device prompts you to enter this mode when it detects the captive portal existing in the hotspot and does not login successfully.

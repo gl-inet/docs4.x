@@ -70,7 +70,7 @@ Client vendors collect the geographical location data of Wi-Fi access points by 
 
 Therefore, GL.iNet routers' Randomized BSSID feature can protect your privacy. 
 
-In the GL.iNet router's web Admin Panel, go to WIRELESS -> 5GHz Wi-Fi or 2.4GHz Wi-Fi，BSSID option is enabled by default. As a result, the device uses a randomly generated BSSID and renews it at each booting. When the random BSSID is disabled, you can use the real MAC.
+In the router's web Admin Panel, go to WIRELESS -> 5GHz Wi-Fi or 2.4GHz Wi-Fi, BSSID option is enabled by default. As a result, the device uses a randomly generated BSSID and renews it at each booting. When the random BSSID is disabled, you can use the real MAC.
 
 Guest Wi-Fi BSSID is consistent with the primary Wi-Fi BSSID in the same band.
 

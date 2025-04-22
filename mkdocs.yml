@@ -236,6 +236,7 @@ nav:
       - How to upgrade or downgrade your router (from v4.x to v4.x): tutorials/how_to_upgrade_downgrade_router.md
       - How to connect to an Extensible Authentication Protocol Network: tutorials/eap.md
       - How to SSH log in to the Router: tutorials/ssh_log_in_to_the_router.md
+      - How to use WinSCP to modify files on GL.iNet routers: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
       - How to activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
       - How to change the NAT type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
       - How to retrieve the Mobile App Log: tutorials/how_to_retrieve_the_mobile_app_log.md

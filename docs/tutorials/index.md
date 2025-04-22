@@ -61,6 +61,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to upgrade or downgrade your router's firmware (from v4.x to v4.x)](how_to_upgrade_downgrade_router.md)
 * [How to connect to an Extensible Authentication Protocol (EAP) Network](eap.md)
 * [How to SSH log in to the Router](ssh_log_in_to_the_router.md)
+* [How to use WinSCP to modify files on GL.iNet routers](how_to_use_winscp_to_modify_files_on_glinet_routers.md)
 * [How to activate or top up T-Mobile SIM cards](how_to_activate_top_up_sim_cards.md)
 * [How to change the NAT type on Gaming](how_to_change_the_nat_type_on_gaming.md)
 * [How to retrieve the Mobile App Log](how_to_retrieve_the_mobile_app_log.md)

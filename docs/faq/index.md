@@ -8,7 +8,7 @@ hide:
 
 Learn how to use our devices and how to solve some common problems.
 
-For GL.iNet KVM devices, please refer to [here](https://docs.gl-inet.com/kvm/en/).
+For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet.com/kvm/en/).
 
 ## Guidelines for Newcomers:
 

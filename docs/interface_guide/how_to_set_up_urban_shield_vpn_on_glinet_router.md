@@ -1,4 +1,4 @@
-# How to Set Up Urban Shield VPN Client on GL.iNet Router
+# How to Set Up Urban Shield VPN on GL.iNet Router
 
 [Urban Shield VPN](https://urbanshieldvpn.com/) is a VPN provider dedicated to offering high-security and high-performance VPN solutions to global users. It provides pre-configured GL.iNet VPN routers and flexible subscription plans, ensuring secure and private browsing. Simply activate Urban Shield VPN on your router, you’re protected with access to their global servers, allowing you to browse and stream with peace of mind.
 

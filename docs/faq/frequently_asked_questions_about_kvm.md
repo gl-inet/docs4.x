@@ -1,5 +1,9 @@
 # Frequently Asked Questions about GL.iNet KVM
 
+!!! Note
+
+    The relevant information of GL.iNet KVM has been migrated to GL.iNet KVM Docs. Please visit [GL.iNet KVM Docs](https://docs.gl-inet.com/kvm/en/) for more details.
+
 This document compiles commonly asked questions and answers about GL.iNet KVM (Remote Keyboard Video Mouse), designed to help you resolve issues quickly and use the device efficiently. 
 
 If your question is not listed here, please contact our technical support team for further assistance.

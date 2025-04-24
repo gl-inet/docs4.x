@@ -1,6 +1,6 @@
 # How to Configure Domain and IP Filtering Rules for GL.iNet Routers via an Online Text File
 
-Starting from firmware v4.7.0, the "VPN Policy Based on the Target Domain or IP" and "Add a New Ruleset" in Parental Control features support importing rules from a link to an online text file. This article will introduce the format of this text file.
+Starting from firmware v4.7.0, the "VPN Policy Based on the Target Domain or IP" in VPN feature and "Add a New Ruleset" in Parental Control feature support importing rules from a link to an online text file. This article will introduce the format of this text file.
 
 ## URL Format Description
 
@@ -65,4 +65,4 @@ By following these filter formats, you can easily create and maintain the online
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

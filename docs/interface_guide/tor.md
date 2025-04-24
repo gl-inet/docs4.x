@@ -13,6 +13,7 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-X2000 (Spitz Plus)          | -         |
 | GL-B3000 (Marble)              | √         |
 | GL-MT6000 (Flint2 )            | √         |
 | GL-X3000 (Spitz AX)            | √         |
@@ -26,8 +27,8 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 | GL-AX1800 (Flint)              | √         |
 | GL-AR750S (Slate)              | -         |
 | GL-AR750 (Creta)               | -         |
-| GL-AR300M Series（Shadow）     | -         |
-| GL-MT300N-V2（Mango）          | -         |
+| GL-AR300M Series (Shadow)      | -         |
+| GL-MT300N-V2 (Mango)           | -         |
 | GL-XE300 (Puli)                | -         |
 | GL-E750 (Mudi)                 | *         |
 | GL-X750 (Spitz)                | -         |
@@ -58,4 +59,4 @@ Search **gl-sdk4-ui-torview**, and install.
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

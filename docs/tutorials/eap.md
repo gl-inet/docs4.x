@@ -85,16 +85,4 @@ GL-iNet web Admin Panel only supports few EAP types for now. You may need to con
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
-
-
-
-
-
-
-
-
-
-
-
-
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

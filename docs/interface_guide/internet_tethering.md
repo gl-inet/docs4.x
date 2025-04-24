@@ -4,6 +4,8 @@ Using a USB cable to share network from your smartphone to the router is called 
 
 **Note:** Some mobile carriers limit or charge extra for tethering. We recommend checking with your carrier.
 
+## Setup
+
 === "iPhone"
 
     1. Connect iPhone to the USB port of the router. It will pop up a message asking to trust this computer? Click "Trust" to contine. Because we are connecting the iPhone to the router, so here is to TRUST the router.
@@ -34,19 +36,18 @@ Using a USB cable to share network from your smartphone to the router is called 
 
     For the Android official documentation for refer [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}
 
-
 ## Warning
 
 When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
 
 - Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
 
-    Solution: Please check if the smartphone has internet access.
+- Solution: Please check if the smartphone has internet access.
 
 ## Troubleshooting
 
-    * Please use the original power supply.
-    * Please restart your mobile once.
+* Please use the original power supply.
+* Please restart your mobile once.
 
 ---
 
@@ -58,4 +59,4 @@ Related Articles
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

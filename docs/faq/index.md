@@ -18,10 +18,14 @@ Learn how to use our devices and how to solve some common problems.
 * [How to set up OpenVPN?](../interface_guide/openvpn_client.md)
 * [How to set up WireGuard?](../interface_guide/wireguard_client.md)
 
+## Problem Notification
+* [Critical Problem Notification for GL-MT2500/GL-X3000/GL-XE3000](problem_notification.md)
+
 ## Troubleshooting
 
 * [Cannot Scan Android 5G Hotspot](cannot_scan_android_5g_hotspot.md)
 * [Cannot Scan iPhone 5G Hotspot](cannot_scan_iphone_5g_hotspot.md)
+* [USB modem is not working properly on GL.iNet router](usb_modem_is_not_working_properly_on_gl_inet_router.md)
 * [Debrick via Uboot](debrick.md)
 * [How to repair network or reset to factory setting?](repair_network_or_reset_firmware.md)
 * [iPhone tethering failed](iphone_tethering_fail.md)
@@ -35,11 +39,12 @@ Learn how to use our devices and how to solve some common problems.
 * [What should I do if I saw Subnet Conflict](what_should_i_do_with_subnet_conflict.md)
 * [Warning on DDNS test](warning_on_ddns_test.md)
 * [Why My VPN Speed is Low](why_my_vpn_speed_is_low.md)
+* [Upgrade Uboot Version](upgrade_uboot_version.md)
 
 ## Internet Connection
 
 * [Build up an Intranet](build_up_an_intranet.md)
-* [Cellular Network Troubleshooting Guide](gl-x3000_gl-xe3000_connection_optimization.md)
+* [Cellular Network Troubleshooting Guide](cellular_network_troubleshooting_guide.md)
 * [I replaced my old router with GL.iNet Router but No internet](i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md)
 * [My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?](produce_a_wired_connection.md)
 

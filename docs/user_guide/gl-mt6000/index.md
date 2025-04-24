@@ -7,7 +7,6 @@ All of GL.iNet's devices have a simple and almost identical setup process, [clic
 To set up Flint 2, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Flint 2 and other router models.)</small>
 
 ### 1. Power on the Flint 2
 
@@ -251,7 +250,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
 
-* To upgrade the router's firmware, please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
+* To upgrade the router's firmware, please visit the [**Upgrade**](../../interface_guide/upgrade.md) tutorial.
 * To schedule tasks, please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
 * To set timezone, please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
 * To view the logs, please visit the [**Log**](../../interface_guide/log.md) tutorial.

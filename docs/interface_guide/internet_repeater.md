@@ -32,6 +32,8 @@ Wait a moment, if the password is correct, the connection will be successful.
 
 * **Auto-Enable Login Mode for Public Hotspots**
 
+  This feature is available since v4.6
+  
   If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. This mode will pause VPNs, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).
 
   Even if you do not turn on this option, the device prompts you to enter this mode when it detects the captive portal existing in the hotspot and does not login successfully.
@@ -189,6 +191,7 @@ Related Articles
 - [How to set the priority of each Internet access method?](multi-wan.md)
 - [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
 - [How can I know the LAN and WiFi Mac Addresses](../faq/how_can_i_know_the_lan_wifi_mac.md)
+
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

@@ -191,7 +191,7 @@ Please visit the [**System Overview**](../../interface_guide/system_overview.md)
 
 GL.iNet provides regular updates on our routers' firmware to improve performance, resolving bugs and fix vulnerabilities.
 
-Please visit the [**Upgrade**](../../interface_guide/firmware_upgrade.md) tutorial.
+Please visit the [**Upgrade**](../../interface_guide/upgrade.md) tutorial.
 
 ### Scheduled Tasks
 

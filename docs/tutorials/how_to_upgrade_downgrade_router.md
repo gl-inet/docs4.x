@@ -50,6 +50,8 @@ The following instructions were written for uploading your firmware through the 
 
 If you lost your router settings during the firmware update process, restore your router settings. 
 
+If the above method doesn't work, try upgrading the firmware via [U-boot](https://docs.gl-inet.com/router/en/4/faq/debrick/).
+
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

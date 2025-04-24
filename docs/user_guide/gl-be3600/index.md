@@ -5,7 +5,7 @@
 To set up Slate 7, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Spitz Plus and other router models.)</small>
+<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Slate 7 and other router models.)</small>
 
 ### 1. Power on the Slate 7
 
@@ -71,7 +71,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
-    Click here to learn how to connect to the internet via USB modem.
+    Click [here](../../interface_guide/internet_cellular.md) to learn how to connect to the internet via USB modem.
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods.
 
@@ -273,12 +273,10 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
     * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
-    * Module Online Upgrade: Automatically check for and install the latest 4G/5G module version directly from the manufacturer's server, simplifying the update process.
-    * Module Local Upgrade: Manually upload a module file from your computer to update the 4G/5G module.
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/firmware_upgrade.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md){target="_blank"}.
 
 === "Scheduled Tasks"
 

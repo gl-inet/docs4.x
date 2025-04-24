@@ -33,3 +33,7 @@ Copy the credentials and paste them to the router.
 [Set up Wireguard Client](../interface_guide/wireguard_client.md)
 
 [Set up OpenVPN Client](../interface_guide/openvpn_client.md)
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

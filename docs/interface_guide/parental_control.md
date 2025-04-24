@@ -2,7 +2,7 @@
 
 Parental control feature available since V4.2
 
-On the left side of web Admin Panel -> APPLICATIONS -> Parental Control
+On the left side of web Admin Panel -> APPLICATIONS -> Parental Control.
 
 ## Local Version
 
@@ -12,9 +12,13 @@ The local version is provided by GL.iNet. It is currently in beta, so there is n
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-BE9300 (Flint 3)            | √         |
+| GL-BE3600 (Slate 7)            | √         |
+| GL-X2000 (Spitz Plus)          | √         |
 | GL-B3000 (Marble)              | √         |
-| GL-MT6000 (Flint2)             | √         |
+| GL-MT6000 (Flint 2)            | √         |
 | GL-X3000 (Spitz AX)            | √         |
+| GL-XE3000 (Puli AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
 | GL-AXT1800 (Slate AX)          | √         |
 | GL-A1300 (Slate Plus)          | √         |
@@ -43,13 +47,17 @@ Let's take two typical cases as examples here, and you can make adjustments to s
 
 In the first use case, we will set up the device to be unable to access the internet by default.
 
-We will create two rulesets, **learning** and **play**, then set the learning time from Monday to Friday from 8am to 11am, 6pm to 8pm of weekend is the play time.
+We will create two rulesets, **Learning** and **Play**, then set the learning time from Monday to Friday from 8am to 11am, 6pm to 8pm of weekend is the play time.
+
+Follow the steps below.
+
+Enable Parental Control and hit **Apply**.
 
 ![parental control, enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
 
 **Block WAN for Unmanaged Devices** is used to block unmanaged devices from accessing the Internet.
 
-The first time, it will have a setup wizard.
+Then there is a setup wizard for initial setup.
 
 Give the profile a name.
 
@@ -61,7 +69,9 @@ Select the devices you want to manage, or manually add device by input their MAC
 
 You should first connect these devices to the router, otherwise you will need to enter the MAC address manually.
 
-The default ruleset of access is **Block Internet Access**. We create two rulesets here, which we will use later. Click **Add a New Ruleset**.
+There are two default rulesets: **Block Internet Access** and **No Limit**. We create two more rulesets here: **Learning** and **Play**, which we will use later. 
+
+Click **Add a New Ruleset**.
 
 ![create a profile guide](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_3.png){class="glboxshadow"}
 
@@ -83,7 +93,7 @@ Then go to Set Schedule. Click **Go to Set**.
 
 ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_schedule_7.png){class="glboxshadow"}
 
-It is assumed that 8am to 11am Monday through Friday is the study time, and the ruleset here is **Learning**. Click **Apply**.
+It is assumed that 8am to 11am from Monday to Friday is the study time, and the ruleset here is **Learning**. Click **Apply**.
 
 ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_schedule_8.png){class="glboxshadow"}
 
@@ -99,7 +109,7 @@ Add another ruleset to the schedule.
 
 ![add a schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/create_schedule_2.png){class="glboxshadow"}
 
-After apply, the **Play** schedules are shown below.
+Click Apply, the **Play** schedules are shown below.
 
 ![schedules](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/schedules_2.png){class="glboxshadow"}
 
@@ -111,13 +121,13 @@ As shown below, click Parental Control at the top to return to the Parental Cont
 
 ![back to parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/back_to_parental_control_page.png){class="glboxshadow"}
 
-The image below shows the final configuration. You can modify existing profiles and rulesets, or add profiles and rulesets, as you see fit.
+The image below shows the final configuration. You can modify existing profiles and rulesets, or add profiles and rulesets.
 
 ![parental control, finally](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_finally.png){class="glboxshadow"}
 
 #### Case 2
 
-In the second use case, we will set up the device to have restricted internet access by default. Then set the weekend evenings from 6pm to 8pm to play games and short videos. Bedtime, 9pm to 7am the next morning, will disable access to the Internet. See the video tutorial below.
+In the second use case, we will set up the device to be restricted Internet access by default. Then set the weekend evenings from 6pm to 8pm to play games and short videos. Bedtime, from 9pm to 7am the next morning, will be unable to access the Internet. See the video tutorial below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5-EOWZ3WkeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -137,11 +147,11 @@ There may be several reasons why the settings are not effective after being conf
 
 3. The domain name you set may be incorrect.
   
-    While a website's domain name is public, the domain name used when an app calls an API is not. To resolve this, you will need to use a tool(e.g. Wireshark) to capture packets or search for it.
+    While a website's domain name is public, the domain name used when an app calls an API is not. To resolve this, you will need to use a tool (e.g. Wireshark) to capture packets or search for it.
 
     For example:
 
-    If you want to filter www.google.com, google.com is more appropriate than www.google.com
+    If you want to filter `www.google.com`, `google.com` is more appropriate than `www.google.com`.
 
 4. If you have a device that uses a random MAC address for each connection, that will also disable the feature.
 
@@ -150,15 +160,15 @@ There may be several reasons why the settings are not effective after being conf
 
 The [Bark](https://www.bark.us/){target="_blank"} version, which is provided and managed by Bark on their own platform, offers the option to filter applications and websites with a single click and monitor request history. Please be aware that an additional subscription fee is payable directly to Bark for this service.
 
-Bark Parental control feature available since v4.5.
+Bark Parental Control feature is available since v4.5
 
 **Note:** It's only available in the US, Australia, Guam, and South Africa.
 
 ### Usage Scenarios
 
-Bark features monitoring functionality for over 24 different applications and social media networks, which serves as a pre-set list of users under our local parental control feature.
+Bark features monitoring functionality for over 24 different applications and social media networks. These applications and social media networks serve as a pre-set list of items under our local parental control feature.
 
-With its logging function, it knows which client accessed which website during which time period, making it convenient for parents to view the logs and identify websites that are not in the blacklist list, and promptly add them to the scope of management control.
+With its logging function, it knows which client accessed which website during which time period, making it convenient for parents to view the logs and identify websites that are not in the blacklist, and promptly add them to the scope of management control.
 
 ### Supported Models
 
@@ -173,25 +183,24 @@ With its logging function, it knows which client accessed which website during w
 
 On the left side of web Admin Panel -> APPLICATIONS -> Parental Control.
 
-After selecting the bark version, enable and apply it.Both versions of Parental Controls cannot be enabled at the same time, and the another one will be automatically disabled when you switch versions.
-
+Select the Bark version, enable and apply. Both versions of Parental Control cannot be enabled at the same time, and the another one will be automatically disabled when you switch versions.
 
 ![switch_versions](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
 
-**Please note:** Bark's service may not be available in certain countries. As GL.iNet is not the provider of this service, should you encounter any issues using Bark, kindly reach out directly to [Bark's Technical Support ](https://www.bark.us/contact-us/?ref=glinet&home=glinet)for assistance.
-
+**Please note:** Bark's service may not be available in certain countries. As GL.iNet is not the provider of this service, should you encounter any issues using Bark, kindly reach out directly to [Bark's Technical Support ](https://www.bark.us/contact-us/?ref=glinet&home=glinet) for assistance.
 
 ![bark_enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_enable.png){class="glboxshadow"}
 
 The Bark service is enabled, but this device is not yet paired with any account. Please use the [Device Pairing Link](http://go.bark.us/?ref=glinet&home=glinet) to pair this device with your Bark account.
 
-
 ![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paring.png){class="glboxshadow"}
 
 The device is connected to Bark Cloud Services and paired with an account. Please [Go to Bark](https://www.bark.us/app/children/?ref=glinet&home=glinet) and log in to the paired account to control access.
 
-
 ![device_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/device_set_up.png){class="glboxshadow"}
 
-
 ![bark_success_pair](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_success_pair.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

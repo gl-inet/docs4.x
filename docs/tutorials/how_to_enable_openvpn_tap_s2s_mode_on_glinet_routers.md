@@ -1,10 +1,12 @@
-# OpenVPN, TAP-S2S vs Tun
+# How to enable OpenVPN TAP-S2S mode on GL.iNet routers?
 
 ## Usage Scenarios
 
 After enabling TAP-S2S mode, the OpenVPN client device can remotely access the OpenVPN server device, and the OpenVPN server device can also remotely access the OpenVPN client device. However, the downside is that the VPN rules set by the OpenVPN client themselves will not take effect after enabling TAP-S2S mode.
 
-## Network Topology
+## TAP-S2S vs TUN mode
+
+Network Topology
 
 ![tap_s2s_topology](https://static.gl-inet.com/docs/router/en/4/tutorials/tap_s2s_vs_tun/tap_s2s_topology.png){class="glboxshadow"}
 
@@ -45,4 +47,4 @@ Points to Note:
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

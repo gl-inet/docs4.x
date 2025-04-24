@@ -1,4 +1,4 @@
-# How to change the NAT Type on Gaming
+# How to change the NAT type on Gaming
 
 Most of the game makers will ask you to turn on the UPnP on the router to get a better NAT type, however studies show UPnP is a non-secure protocol.
 
@@ -43,8 +43,12 @@ Some games may need other ports to be forwarded, you can refer to this website f
 
 ## Full Cone NAT
 
-You can enable the Full Cone NAT at **Network > NAT Settings to imporve the latency.
+You can enable the Full Cone NAT at **Network > NAT Settings** to imporve the latency.
 
 ![conenat](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/conenat.png){class="glboxshadow"}
 
-* This function available on Firmware 4.5 or above.
+* This function is available on Firmware 4.5 or above.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

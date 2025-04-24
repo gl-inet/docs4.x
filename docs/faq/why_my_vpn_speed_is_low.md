@@ -2,11 +2,11 @@
 
 ## Router's CPU Speed
 
-VPNs encrypt your data to provide privacy, which adds extra data processing. This encryption and decryption can slow down your connection. Please choose a router with faster CPU to enhance your VPN speed. We listed all the VPN speeds in our [product page](https://www.gl-inet.com/products/).
+VPNs encrypt your data to protect privacy, which adds extra data processing. This encryption and decryption can slow down your connection. Please choose a router with faster CPU to enhance your VPN speed. We listed all the VPN speeds in our [product page](https://www.gl-inet.com/products/).
 
 ## Server Distance
 
-If the VPN server is far from your physical location, the data has to travel a longer distance, resulting in higher latency and slower speeds. You can see the below example, it shows a client speed connects to different server locations at the same time of the day.
+If the VPN server is far from your physical location, the data has to travel a longer distance, resulting in higher latency and slower speeds. You can see the example below. It shows the client speeds when connecting to different server locations at the same time of the day.
 
 ![hk](https://static.gl-inet.com/docs/router/en/4/faq/vpn_speed/hkserver.jpg){class="glboxshadow"}
 
@@ -38,6 +38,6 @@ Different VPN protocols like OpenVPN or WireGuard have varying levels of securit
 
  Some Internet Service Providers (ISPs), especially mobile carries may limited the size of the data packet, please try to change the default MTU from 1420 to 1380 or 1280 in [VPN Client Option](../interface_guide/vpn_dashboard.md#vpn-client-options).
 
- ---
+---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

@@ -5,7 +5,7 @@
 To set up GL-AR300M series, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for GL-AR750 and other router models.)</small>
+<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for GL-AR300M series and other router models.)</small>
 
 ### 1. Power on the GL-AR300M 
 
@@ -233,7 +233,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/firmware_upgrade.md).
+    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
 
 === "Scheduled Tasks"
 
@@ -301,7 +301,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 Shadow (GL-AR300M series) is a pocket-size mini router, designed to be Portable and Travel-Friendly, supporting up to 300Mbps wireless transmission rate. Shadow offers advanced security features, including support for OpenVPN, WireGuard®, and a DNS server. It not only allows you to convert a public network to a private Wi-Fi for secure surfing, but also allows you to upload vpn configuration files from over 30 VPN service providers, set it as vpn client, providing an added layer of privacy and security to create an encrypted traffic between your device and the VPN server.
 
-![ar300m illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n_v2_overview){class="glboxshadow"}
+![ar300m illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n_v2_overview.png){class="glboxshadow"}
 
 ### Specifications
 

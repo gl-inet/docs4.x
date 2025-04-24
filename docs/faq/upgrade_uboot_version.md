@@ -90,7 +90,9 @@ Please follow the procedures below to access the U-Boot upgrade page.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-4. Use browser to visit **http://192.168.1.1/uboot.html**
+4. **Use Google Chrome/Microsoft Edge to visit `http://192.168.1.1/uboot.html`**
+
+    **DO NOT use Mozilla/Firefox as it may brick your router.**
 
     ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 

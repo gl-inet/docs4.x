@@ -140,7 +140,7 @@ As of firmware 4.0, it brings grouping to manage WireGuard profiles.
 
     ![start the profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/start_the_profile.png){class="glboxshadow"}
 
-5. Check the connection status by go to [VPN Dashboard](vpn_dashboard.md) page.
+5. Check the connection status by go to [VPN Dashboard](vpn_dashboard_v4.7.md) page.
 
     ![vpn dashboard page](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/vpn_dashboard_wireguard_status.png){class="glboxshadow"}
 

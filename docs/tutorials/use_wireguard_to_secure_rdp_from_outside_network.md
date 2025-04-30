@@ -15,7 +15,7 @@ You need to setup your own WireGuard Server and WireGuard Clinet before you can 
 If you want to mutual access from both server and client, you need to allow your server access to the client LAN side first. [Accessing Client LAN from Server](wireguard_server_access_to_client_lan_side.md).
 
 ## Allow your Client access to the Server LAN side
-After that please enable “Allow Remote LAN Access” on both the VPN Dashboards of the server and the client. For details, Client-side please click [here](../interface_guide/vpn_dashboard.md/#vpn-clinet-options); Server-side please click [here](../interface_guide/vpn_dashboard.md/#wireguard-server-options).
+After that please enable “Allow Remote LAN Access” on both the VPN Dashboards of the server and the client. For details, Client-side please click [here](../interface_guide/vpn_dashboard_v4.7.md/#vpn-clinet-options); Server-side please click [here](../interface_guide/vpn_dashboard_v4.7.md/#wireguard-server-options).
 
 ## Setup the Server side PC Become Accessable
 

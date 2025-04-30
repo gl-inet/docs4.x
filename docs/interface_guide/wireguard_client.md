@@ -353,7 +353,7 @@ If you are using another WireGuard service provider, you can also download the W
 
     ![start the profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/start_edit_delete.png){class="glboxshadow"}
 
-5. Check the connection status by go to [VPN Dashboard](vpn_dashboard.md) page.
+5. Check the connection status by go to [VPN Dashboard](vpn_dashboard_v4.7.md) page.
 
     ![vpn dashboard page](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/vpn_dashboard_wireguard_status.png){class="glboxshadow"}
 

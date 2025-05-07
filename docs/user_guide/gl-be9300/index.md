@@ -347,6 +347,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 Flint 3 (GL-BE9300) is a tri-band Wi-Fi 7 desktop router, designed for home users and small offices. It delivers ultra-fast Wi-Fi 7 speeds, 5× 2.5G ports with 10Gbps aggregation, and robust VPN capabilities, along with AdGuard Home and Parental Controls. Flint 3 is built to meet the evolving demands of modern networks with efficiency and reliability. 
 
+![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
+
 ### Specifications
 
 Refer to [GL-BE9300 Specifications](https://www.gl-inet.com/products/gl-be9300/#specs){target="_blank"}.

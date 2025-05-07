@@ -25,9 +25,9 @@ It will show your public IP address, if it matches with your WAN IP from your IS
 
 If you don't have a Public IP address, here are some methods for your reference.
 
-1. if you have a main router, you shall login to it and check if it gets the Public IP from your ISP.
-2. if you can ask your ISP to give you a Public IP address, she may charge an extra fee for it.
-3. if both the above two ways don't work. For example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md).
+1. If you have a main router, you shall login to it and check if it gets the Public IP from your ISP.
+2. Ask your ISP for a Public IP address. It may require an extra fee.
+3. If the above two ways don't work, for example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try an SDWAN solution - [AstroWarp](https://www.astrowarp.net/). 
 
 ### Confirm you need to do a Port Forwarding or not?
 

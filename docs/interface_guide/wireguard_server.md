@@ -6,15 +6,17 @@ WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state
 
 ---
 
-## Make sure Internet Service Provider assigns you a public IP address
+## Make sure you have a public IP address
 
-Please check if you Internet Service Provider assigns you a public IP address [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
+Please check if your Internet Service Provider assigns you a public IP address [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
 
-**If not, you can't connect to the WireGuard Server.**
+**If not, your router cannot be set as the WireGuard Server.**
 
 Alternative methods:
-* To use a SDWAN solution, we suggest [AstroWarp](https://www.astrowarp.net){target="_blank"}.
-* To use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com){target="_blank"}, check the tutorial [here](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md).
+
+1. If you have a main router, you shall login to it and check if it gets the Public IP from your ISP.
+2. Ask your ISP for a Public IP address. It may require an extra fee.
+3. If the above two ways don't work, for example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try an SDWAN solution - [AstroWarp](https://www.astrowarp.net/). 
 
 ## Network Topology
 

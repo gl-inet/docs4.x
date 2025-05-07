@@ -11,7 +11,50 @@ To set up Slate 7, you will use one of the four supported internet connection me
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-### 2. Connect your device to the Slate 7
+### 2. Touchscreen Explanation
+
+#### Startup
+
+When the router is powered on, the GL.iNet logo will be displayed on the screen, followed by the startup progress bar.
+    
+Once the progress bar is fully loaded, the device startup is completed.
+
+#### Network
+
+The home page displays four icons representing four network connection types: Ethernet, Repeater, Tethering, and Cellular.
+    
+During the network connection process, the correspondin icon is displayed in orange; upon successful connection, it changes to green.
+
+Clicking on any of these icons to view the detailed network configuration information.
+
+#### Functions
+
+Access functions by swiping left and right.
+    
+When swiping from right to left, the following items are displayed in sequence:
+
+- Network connection
+- Tri-band WiFi details (including the SSID, password, QR code and the switch button)
+- OpenVPN switch (requires pre-setup in the web admin panel)
+- WireGuard switch (requires pre-setup in the web admin panel)
+- AdGuard Home switch
+- Tor switch
+- Traffic statistics, which refer to the average speed of all traffic passing through the router. The speed is calculated every 3 seconds.
+- CPU load and memory usage
+- Time zone and the specific time
+    
+After that, the display reverts to the Network connection interface.
+    
+When sliding from left to right, the display order is reversed.
+
+#### System
+
+Swiping from top to bottom allows you to access the system settings: Reboot and Lock Screen.
+
+- Reboot: Clicking the "Reboot" will display the "Slide To Reboot" prompt (two-step verification), then the router will initiate a restart process.
+- Lock Screen: The screen will turn off when clicking the "Lock Screen" option. Tap the screen to wake it up, and the function page where it last stayed will be displayed. Clicking again will display the "Slide To Unlock" prompt.
+
+### 3. Connect your device to the Slate 7
 
 Connect your computer or mobile device to the router using Wi-Fi or Ethernet.
 
@@ -23,7 +66,7 @@ Connect your computer or mobile device to the router using Wi-Fi or Ethernet.
 
     On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
-### 3. Connect the Slate 7 to the internet 
+### 4. Connect the Slate 7 to the internet 
 
 **Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 

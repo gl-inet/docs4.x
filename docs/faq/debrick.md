@@ -6,7 +6,11 @@ You may have bricked your router if you were doing some DIY projects or flashed 
 
 ---
 
-Please prepare a computer with an ethernet port, if not, please prepare an additional USB Ethernet Adapter.
+## Preparation
+
+Please prepare a computer with an ethernet port. If your computer does not have ethernet port, please prepare an additional USB Ethernet Adapter.
+
+## Debrick Steps
 
 Please follow the procedures below to access the Uboot Web UI and re-install the firmware.
 
@@ -14,9 +18,9 @@ You can also refer to video tutorial below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EAaaw8nyrnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. Please download firmware [here](https://dl.gl-inet.com/){target="_blank"} to your computer.
+1. Download firmware [here](https://dl.gl-inet.com/){target="_blank"} to your computer.
 
-    Some models, such as GL-AR750S-EXT, is available in two formats of firmware, please use the firmware for Uboot, its file name extension is **.img**.
+    Some models, such as GL-AR750S-EXT, are available in two formats of firmware. Please use the firmware for Uboot, whose file name extension is **.img**.
 
 2. Remove the power of router. Connect your computer to the **Ethernet LAN port** of the router. You **MUST** leave all the other ports **unconnected**.
 
@@ -24,13 +28,19 @@ You can also refer to video tutorial below.
 
         For some models, certain individual LAN ports and the WAN port are interchangeable. Please do not use this LAN port. For example, on the GL-MT6000 (Flint 2), do not use LAN 1. Please use LAN 2, LAN 3, or LAN 4 instead.
 
-3. Press and hold the Reset button firmly, and then power up the router. If your router doesn't have a power button, plugging the power in will power it on automatically.
+3. Press and hold the Reset button firmly, **at the same time power up the router**. If your router doesn't have a power button, plugging the power in will power it on automatically.
 
-    Then you will see a LED flashing in a regular sequence a few times, please release your finger after the sequence changes.
+    Then you will see a LED flashing in a regular sequence a few times, please release your finger **after** the sequence changes.
 
     The following will give the description of sequence of each model of LED flashing.
 
     **Note:** Same router models with different manufacturing dates may have different LED colours or flashing sequences, it won't affect the UBoot process. Please pay more attention to the change of the flashing LED.
+
+    - For **GL-BE3600(Slate 7)**, after holding down the reset button for about 5 seconds, a 5-second countdown will appear on the LED display. Keep pressing the reset button until the next step is displayed on the screen:
+        1. Manually set the IP address of your computer to 192.168.1.2
+        2. Use browser to visit  http://192.168.1.1
+
+        Turn to Step 4 for further instruction.
 
     - For **GL-B3000(Marble)**, the blue LED light flashes 7 times, then the white light turns on and stays on.
 
@@ -85,8 +95,6 @@ You can also refer to video tutorial below.
 4. Manually set the IP address of your computer to **192.168.1.2**. Please check the step-by-step guide for different operating systems below:
 
     ??? "Windows 7 / Windows 10"
-    
-        ## Windows 7 / Windows 10
 
         1. Go to **Control Panel** -> **Network and Internet** -> **Network and Sharing Center** -> **Change adapter settings**.
 
@@ -103,8 +111,6 @@ You can also refer to video tutorial below.
         6. Click the **OK** button.
 
     ??? "Windows 11"
-    
-        ## Windows 11
 
         7. Open Settings.
 
@@ -134,8 +140,6 @@ You can also refer to video tutorial below.
 
     ??? "macOS"
     
-        ## macOS
-
         16. Click the **Apple** icon in the top left corner of the screen, and select **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences.png){class="glboxshadow"}
@@ -152,7 +156,7 @@ You can also refer to video tutorial below.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-5. Use browser to visit **http://192.168.1.1**, this is the Uboot Web UI.
+5. Use browser to visit **http://192.168.1.1**. This is the Uboot Web UI.
 
     ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 

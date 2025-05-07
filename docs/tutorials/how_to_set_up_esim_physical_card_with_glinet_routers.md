@@ -72,17 +72,13 @@ Ensure your device is connected to the internet. Then, go to **"SYSTEM"** > **"U
 
 To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"Local Upgrade"**. Then, select the firmware file or drag it into the designated area to upgrade to the latest version.
 
-- **E750V1※/E750V2**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/e750/esim/) that supports eSIM.
-- **X3000**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/x3000/esim/) that supports eSIM.
-- **XE3000**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/xe3000/esim/) that supports eSIM.
-- **XE300※**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/xe300/esim/) that supports eSIM.
-- **X750V1※/X750V2※**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/x750/esim/) that supports eSIM.
-- **X300B**: Please upgrade to [firmware](http://download.gl-inet.com/firmware/x300b/esim/) that supports eSIM.
-
-*<i>※These products do not support eSIM with Quectel EP06-A modules due to the Qualcomm software lacking support for specific AT commands. For EP06-E, please refer to this [LINK](https://forum.gl-inet.com/t/48907){target="_blank"} to upgrade to the latest software for eSIM functionality.</i>*
-
-
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/local-upgrade.png){class="glboxshadow"}
+
+!!! Note
+
+    Some models, such as Mudi (GL-E750), Puli (GL-XE300) and Spitz (GL-X750), do not support eSIM if they are equipped with Quectel EP06-A modules due to the Qualcomm software lacking support for specific AT commands.  
+    
+    If they have EP06-E modules installed, please refer to this [LINK](https://forum.gl-inet.com/t/48907){target="_blank"} to upgrade the module to the latest software for eSIM functionality.
 
 **Step 2:** Access the eSIM Manage Application
 

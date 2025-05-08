@@ -189,6 +189,11 @@ After purchasing the eSIM profile, you will receive a QR code. Save this QR code
 
 ![add eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/add-esim-profile-2.png){class="glboxshadow"}
 
+*Note: As shown by the red arrow in the image above, a properly formatted QR code will display an activation code that begins with LPA:.*
+
+*However, some non-standard QR codes may produce only a raw activation code without the LPA: prefix.
+If this occurs, please manually add LPA: to the beginning of the code before clicking the “Download & Install” button.*
+
 **Step 4:** Enable Your New Profile
 
 After successfully uploading the QR code, you will see your new eSIM profile listed under **"Normal Profile"**. Click **"Enable"** to activate your new eSIM profile. 

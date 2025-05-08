@@ -16,7 +16,7 @@ Alternative methods:
 
 1. If you have a main router, you shall login to it and check if it gets the Public IP from your ISP.
 2. Ask your ISP for a Public IP address. It may require an extra fee.
-3. If the above two ways don't work, for example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try an SDWAN solution - [AstroWarp](https://www.astrowarp.net/). 
+3. If the above two ways don't work, for example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try an SDWAN solution - [AstroWarp](https://www.astrowarp.net/). 
 
 ## Network Topology
 

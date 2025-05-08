@@ -35,15 +35,13 @@ When swiping from right to left, the following items are displayed in sequence:
 
 - Network connection
 - Tri-band WiFi details (including the SSID, password, QR code and the switch button)
-- OpenVPN switch (requires pre-setup in the web admin panel)
-- WireGuard switch (requires pre-setup in the web admin panel)
+- OpenVPN switch
+- WireGuard switch
 - AdGuard Home switch
 - Tor switch
-- Traffic statistics, which refer to the average speed of all traffic passing through the router. The speed is calculated every 3 seconds.
+- Traffic statistics (It refers to the average speed of all traffic passing through the router. The speed is calculated every 3 seconds.)
 - CPU load and memory usage
 - Time zone and the specific time
-    
-After that, the display reverts to the Network connection interface.
     
 When sliding from left to right, the display order is reversed.
 

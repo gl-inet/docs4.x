@@ -1,28 +1,28 @@
 # Connect to the Internet via cellular
 
-The router can be used to access the Internet through cellular.
+Most GL.iNet routers can be used to access the Internet through cellular.
 
 There are three cases:
 
-1. Some models have a built-in 3G/4G model with single SIM card, like GL-XE300(Puli). Please refer to [Setup for single SIM models](#setup-for-single-sim-models).
+1. Some models have a built-in 3G/4G module with single SIM card, such as GL-XE300 (Puli). Please refer to [Setup for single SIM models](#setup-for-single-sim-models).
 
-2. Some models have a usb port and can be plugged into a usb 3G/4G modem, like GL-AXT1800(Slate AX). Please refer to [Setup for single SIM models](#setup-for-single-sim-models).
+2. Some models have a USB port and can be plugged with a USB 3G/4G modem, such as GL-AXT1800 (Slate AX). Please refer to [Setup for single SIM models](#setup-for-single-sim-models).
 
-3. Some models have a built-in modem and support dual SIM cards, like GL-X3000(Spitz AX). Its interface may be slightly different. Please refer to [Setup for Dual-SIM models](#setup-for-dual-sim-models).
+3. Some models have a built-in modem and support dual SIM cards, such as GL-X3000 (Spitz AX). Its web admin interface may be slightly different. Please refer to [Setup for Dual-SIM models](#setup-for-dual-sim-models).
 
-**Note:** Some SIM cards may need to be activated the first time you use them, so please activate them in your phone before using them in your router.
+**Note:** Some SIM cards may need to be activated the first time you use them. Please activate them on your phone before using them in the router.
 
 ## Setup for single SIM models
 
 The following configuration steps are for built-in modem or external USB modem with only single SIM card. Here we use the GL-AXT1800 (Slate AX) with external USB modem as an example.
 
-On the left side of web Admin Panel -> INTERNET, Cellular sector.
+On the left side of web Admin Panel -> INTERNET -> Cellular sector.
 
-1. We recommend to turn off the router first, insert your SIM card into the USB modem then plug the USB modem into the USB port of the router, and then turn it on again. If you insert a usb modem at power on, the page may be no change, please refresh the page.
+1. We recommend turning off the router first, inserting your SIM card into the USB modem then plugging the USB modem into the USB port of the router, and then turning it on again. If you insert a USB modem after the startup, the page may not change. Please refresh the page.
 
-2. Please access the web Admin Panel -> INTERNET, Cellular sector. The first time, it may not connect automatically, but it has read the name of your carrier in the upper left corner and the IMEI, then please click **Auto Setup**.
+2. Access the web Admin Panel, navigate to the INTERNET section and the Cellular sector. When you access it for the first time, it may not connect automatically, but it should display the name of your carrier in the upper left corner and show the IMEI. Please click Auto Setup.
 
-    Please ignore the warning of *Incompatible Modem*
+    Ignore the warning of *Incompatible Modem*
 
     ![usb modem auto setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_auto_setup.png){class="glboxshadow"}
 
@@ -34,7 +34,7 @@ On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
 4. After a while, it will be connected. Otherwise, try [Manual Setup](#manual-setup).
 
-    When the usb modem is plugged into the router the second time it is powered on, it is usually automatically recognized and a connection is established. It may not get the information of signal, modem name and IMEI.
+    **Note:** After the initial setup, when you restart the router (with the USB modem still plugged in), or when you insert the USB modem into the router for the second time and power on the router, usually the USB modem can be automatically recognized and a cellular network connection can be established without the need to click "Auto Setup" again. At this time, information such as the cellular signal, modem name, and IMEI may not be displayed on the router management interface, but the network connection may already be working properly. 
 
     ![usb modem connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_connected.png){class="glboxshadow"}
 
@@ -75,9 +75,9 @@ Here is a list of supported modems that we had tested before.
 | Verizon U620L (Verizon)                | 4G    | Yes    | anonymous       | Host-less |
 | Huawei E3372h-320 (Ukraine)            | 4G    | Yes    | anonymous       | Host-less |
 
-*QMI: This modem supports QMI mode. Please choose **/dev/cdc-wdm0** in the **Device** list.
+**QMI**: This modem supports QMI mode. Please choose **/dev/cdc-wdm0** in the Device list.
 
-*Host-less: This modem supports tethering mode, please set up by using Tethering but not 3G/4G modem.
+**Host-less**: This modem supports tethering mode. Please set up by using Tethering but not 3G/4G modem.
 
 You can also search on the [forum](https://forum.gl-inet.com){target="_blank"} or create a post for asking.
 
@@ -85,17 +85,17 @@ You can also search on the [forum](https://forum.gl-inet.com){target="_blank"} o
 
 Some models have a built-in modem that supports dual SIM cards, and the interface may be slightly different compared to models with only one SIM card. 
 
-Here take the GL-X3000 (Spitz AX) as an example. It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time, and the user can switch between them.
+Taking the GL-X3000 (Spitz AX) as an example. It supports "Dual SIM, Single Standby", which means it can hold two SIM cards for internet access, but only one SIM card can be active at a time. Users can switch between the two SIM cards.
 
-We recommend to turn off the router first, insert your SIM card into the slot, and then turn it on again.
+We recommend turning off the router first, inserting your SIM card into the slot, and then turning it on again.
 
-On the left side of web Admin Panel -> INTERNET, Cellular sector.
+On the left side of web Admin Panel -> INTERNET -> Cellular sector.
 
-When no SIM card is detected.
+When there's no SIM card detected, the page is displayed as below.
 
 ![dual-sim, no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/no_sim.png){class="glboxshadow"}
 
-When a SIM card is inserted.
+When there's a SIM card inserted, the page is displayed as below.
 
 ![dual-sim, 5g sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/dual_sim/5g_sim.png){class="glboxshadow"}
 

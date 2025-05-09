@@ -1,14 +1,16 @@
 # VPN Dashboard
 
+GL.iNet routers include a dedicated VPN Dashboard that provides a centralized interface for managing your VPN connections. You can use it to set up and monitor both VPN client and server configurations. The VPN Dashboard allows you to route your internet traffic through encrypted tunnels, helping protect your online privacy, bypass regional restrictions, and access remote networks. 
+
+This guide walks you through the key features of the VPN Dashboard and shows you how to configure, monitor, and optimize your VPN connections.
+
+<!-- A brief introduction allows the user to understand the contents and purpose of this guide. -->
+
 !!! Note
 
     This guide is based on firmware v4.8. If you are using an earlier firmware version, please visit [here](vpn_dashboard_v4.7.md).
 
-Access to web Admin Panel, on the left side -> VPN -> VPN Dashboard. 
-
-This page visually displays VPN status and settings through graphics.
-
-![vpn dashboard unmarked](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
+<!-- Removed "This page visually displays VPN status and settings through graphics." and '[vpn dashboard unmarked.png]' Reason: redundant -->
 
 ### Contents
 
@@ -27,6 +29,10 @@ The VPN dashboard mainly consists of the following parts, marked in the figure b
 ![vpn dashboard marked](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_dashboard_2.png){class="glboxshadow"}
 
 This guide will introduce to you one by one.
+
+## Navigating to the VPN Dashboard
+
+Access to web Admin Panel, on the left side -> VPN -> VPN Dashboard. 
 
 ## VPN Setup Wizard
 

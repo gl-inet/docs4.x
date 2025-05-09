@@ -31,13 +31,13 @@ The highlights of eSIM physical cards are as follows:
 
 !!! Note
 
-    Models with ※:
+    **For the models marked with ※:**
     
-    1. The current stable firmware does not support eSIM. Specific eSIM firmware is required to use eSIM functionality.
+    1. The current stable firmware does not support eSIM. To use the eSIM function, you need to install the eSIM-supported firmware. [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} for more instructions.
     
-    2. If you are using the ※ models with EP06-A module, even if eSIM firmware is installed, eSIM is not supported because the Qualcomm software lacks specific AT command support.
+    2. If you are using the ※ model with EP06-A module, eSIM is not supported because the Qualcomm software lacks specific AT command support.
     
-    3. If you are using the ※ models with EP06-E module, please refer to this [LINK](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} to upgrade the module version and install eSIM firmware in order to enable eSIM functionality.
+    3. If you are using the ※ model with EP06-E module, please refer to this [LINK](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} to upgrade the module's firmware and install the eSIM-supported firmware in order to enable eSIM functionality.
 
 ## Set Up the eSIM Physical Card
 

@@ -38,7 +38,7 @@ The VPN Setup Wizard is only for AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hid
 
 ![vpn wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_wizard_2.png){class="glboxshadow"}
 
-For other vpn providers, skip the wizard and go to [OpenVPN Client](openvpn_client.md){target="_blank"} / [Wireguard Client](wireguard_client.md){target="_blank"} to set up VPN manually. 
+For other vpn providers, skip the wizard and go to [OpenVPN Client](openvpn_client.md){target="_blank"} / [WireGuard Client](wireguard_client.md){target="_blank"} to set up VPN manually. 
 
 ## Primary Tunnel
 

@@ -178,7 +178,7 @@ nav:
       - Produce a Wired Connection: faq/produce_a_wired_connection.md
     - VPN:
       - TCP or UDP: faq/openvpn_tcp_udp.md
-      - I must use Ethernet WAN when use VPN?: faq/i_must_use_ethernet_wan_when_use_vpn.md
+      - Do I have to configure Ethernet WAN when using VPN?: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
       - Block Non-VPN Traffic: faq/block_non_vpn_traffic.md
     - Upgrade:
       - Download firmware: faq/where_to_download_firmware.md

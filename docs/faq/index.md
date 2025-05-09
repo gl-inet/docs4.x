@@ -54,7 +54,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp.md)
 * [How to Block Non-VPN Traffic?](block_non_vpn_traffic.md)
-* [I must use Ethernet WAN when use VPN?](i_must_use_ethernet_wan_when_use_vpn.md)
+* [Do I have to configure Ethernet WAN when using VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 * [VPN Kill Switch](block_non_vpn_traffic.md).
 
 ## Upgrade

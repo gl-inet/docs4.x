@@ -1,24 +1,49 @@
 # Toggle Button Settings
 
-Some models have a toggle button, and you can customize what this button does in this page.
+Some models have a toggle button, and you can customize what this button does in the web admin panel.
 
-Supported Models: GL-AXT1800(Slate AX), GL-MT1300(Beryl), GL-MT3000(Beryl AX), GL-A1300(Slate Plus), GL-MT1300(Beryl), GL-SFT1200(Opal), GL-S200, GL-AR750S(Slate)
+## Supported models
 
-On the left side of web Admin Panel -> SYSTEM -> Toggle Button Settings
+| Router Model                   | Support   |
+| :----------------------------- | :-------: |
+| GL-BE3600 (Slate 7)            | √         |
+| GL-MT3000 (Beryl AX)           | √         |
+| GL-AXT1800 (Slate AX)          | √         |
+| GL-MT1300 (Beryl)              | √         |
+| GL-A1300 (Slate Plus)          | √         |
+| GL-SFT1200 (Opal)              | √         |
+| GL-MT300N-V2 (Mango)           | √         |
+| GL-AR300M Series (Shadow)      | √         |
+| GL-AR750S (Slate)              | √         |
+| GL-AR750 (Creta)               | √         |
 
-![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.png){class="glboxshadow"}
+On the left side of web Admin Panel -> SYSTEM -> Toggle Button Settings.
 
-There are four options.
+![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
 
-- No Function.
-- AdGuard Home (On/Off)
-- OpenVPN Client (On/Off)
-- Tor (On/Off)
-- WireGuard Client (On/Off)
+Prior to firmware v4.8, there are four options, allowing users to customize the toggle button's functionality. 
 
-When you apply the settings, you can decide whether or not to immediately enable/disable your selected feature based on the toggle switch's on/off(left/right) status.
+- No Function
+- AdGuard Home
+- OpenVPN Client
+- Tor
+- WireGuard Client
 
-Note that when the device reboots, it will determine the enable/disable status of the feature you have configured based on the on/off(left/right) of the toggle button. For example, if you have set up the WireGuard Client to be controlled using the toggle button. Then when the device boots, if the toggle switch is on(LEFT), WireGuard Client is enabled, otherwise it is disabled.
+Starting from v4.8, more options are introduced: Repeater, WiFi, and LED, and users can tailor the toggle button according to their needs.
+
+- No Function
+- Repeater
+- Wi-Fi (Main/Guest Wi-Fi)
+- VPN
+- Tor 
+- AdGuard Home 
+- LED
+
+When applying settings, you can decide whether or not to immediately enable/disable your selected feature based on the toggle switch's on/off(left/right) position.
+
+**Note**: After a device reboot, the system will automatically apply the feature state according to the toggle switch position.
+
+For example, if you configure the WireGuard Client to be controlled by the toggle switch: When the switch is LEFT (ON), the WireGuard Client starts automatically. When the switch is RIGHT (OFF), the WireGuard Client remains disabled.
 
 ---
 

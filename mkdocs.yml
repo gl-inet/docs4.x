@@ -183,7 +183,6 @@ nav:
     - Upgrade:
       - Download firmware: faq/where_to_download_firmware.md
       - Upgrade to firmware v4.x: faq/upgrade_to_4.md
-      - Upgrade GL-AX1800 to firmware v4.x: faq/gl-ax1800_upgrade_to_4.md
     - Other:
       - Can I add Brume2 into mobile App?: faq/can_i_add_brume2_into_app.md
       - Change WAN to LAN: faq/change_wan_to_lan.md

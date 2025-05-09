@@ -61,8 +61,6 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 
 * [Where do I download the firmware files for my router?](where_to_download_firmware.md)
 * [How to upgrade from 3.x to firmware 4.x?](upgrade_to_4.md)
-* [How to upgrade GL-AX1800(Flint) from firmware 3.x to 4.x?](gl-ax1800_upgrade_to_4.md)
-* [How to downgrade GL-AX1800(Flint) from firmware 4.x to 3.x?](gl-ax1800_upgrade_to_4.md#downgrade)
 
 ## Other
 

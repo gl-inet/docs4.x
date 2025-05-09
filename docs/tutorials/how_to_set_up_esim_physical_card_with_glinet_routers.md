@@ -1,21 +1,13 @@
 # How to Set Up the eSIM Physical Card with GL.iNet Routers?
 
-This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. The eSIM Physical card is compatible with the following models, ensuring seamless internet connectivity.
-
-- [Spitz Plus (GL-X2000)](https://www.gl-inet.com/products/gl-x2000/)
-- [Mudi (GL-E750)※](https://www.gl-inet.com/products/gl-e750/)
-- [Mudi V2 (GL-E750V2)](https://www.gl-inet.com/products/gl-e750/)
-- [Spitz AX (GL-X3000)](https://www.gl-inet.com/products/gl-x3000/)
-- [Puli AX (GL-XE3000)](https://www.gl-inet.com/products/gl-xe3000/)
-- [Puli (GL-XE300)※](https://www.gl-inet.com/products/gl-xe300/)
-- [Spitz (GL-X750)※](https://www.gl-inet.com/products/gl-x750/)
-- [Collie (GL-X300B)](https://www.gl-inet.com/products/gl-x300b/)
-
-*※Products with Quectel EP06-A modules do NOT support eSIM, as the Qualcomm software lacks specific AT command support. For products with EP06-E modules, please refer to this [LINK](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} to upgrade the module to the latest firmware and enable eSIM functionality.*
+This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. 
 
 ![eSIM Physical Card](https://static.gl-inet.com/www/images/solutions/esim/esimchip-and-physical-esim.jpg){class="glboxshadow"}
 
-## The eSIM Physical Card Details
+## Features
+
+The highlights of eSIM physical cards are as follows:
+
 - Supports 4G and 5G networks for reliable and fast connections.
 - Manage your eSIM profiles effortlessly by adding, removing, or enabling them.
 - Select and purchase your preferred data packages from most eSIM stores worldwide at any time.
@@ -23,6 +15,29 @@ This guide will show you how to set up and activate the eSIM Physical card purch
 - Purchase eSIM profiles online without providing personal information, reducing the risk of privacy breaches.
 - Comes with a seed profile that includes 1GB of free data for the U.S. and Europe, plus 100MB of Global Data, valid for 1 year from the activation date.
 - Compatible with selected GL.iNet devices.
+
+## Supported Models
+
+| Router Model                   | Support   |
+| :----------------------------- | :-------: |
+| GL-X2000 (Spitz Plus)          | √         |
+| GL-X3000 (Spitz AX)            | √         |
+| GL-XE3000 (Puli AX)            | √         |
+| GL-E750V2 (Mudi V2)            | √         |
+| GL-E750 (Mudi)                 | ※        |
+| GL-XE300 (Puli)                | ※        |
+| GL-X750 (Spitz)                | ※        |
+| GL-X300B (Collie)              | ※        |
+
+!!! Note
+
+    Models with ※:
+    
+    1. The current stable firmware does not support eSIM. Specific eSIM firmware is required to use eSIM functionality.
+    
+    2. If you are using the ※ models with EP06-A module, even if eSIM firmware is installed, eSIM is not supported because the Qualcomm software lacks specific AT command support.
+    
+    3. If you are using the ※ models with EP06-E module, please refer to this [LINK](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} to upgrade the module version and install eSIM firmware in order to enable eSIM functionality.
 
 ## Set Up the eSIM Physical Card
 

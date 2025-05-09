@@ -39,6 +39,8 @@ Starting from v4.8, more options are introduced: Repeater, WiFi, and LED, and us
 - AdGuard Home 
 - LED
 
+![toggle button settings 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings_4.8.png){class="glboxshadow"}
+
 When applying settings, you can decide whether or not to immediately enable/disable your selected feature based on the toggle switch's on/off(left/right) position.
 
 **Note**: After a device reboot, the system will automatically apply the feature state according to the toggle switch position.

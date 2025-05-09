@@ -144,7 +144,7 @@ On the left side -> Devices -> Bound Devices -> Add Device. There are three meth
 
 #### Bound info on router web Admin Panel
 
-After you seccessfully add router to GoodCloud, go back to router web Admin Panel, on the left side, APPLICATION -> GoodCloud, refresh this page, it will display the bound GoodCloud username and date.
+After successfully adding router to GoodCloud, go back to router web Admin Panel, on the left side, select APPLICATIONS -> GoodCloud, refresh this page, it will display the bound GoodCloud username and date.
 
 ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_1.png){class="glboxshadow"}
 
@@ -182,7 +182,7 @@ If you don’t see the verification email, check your spam folder or try again l
 
 #### Bound info on router web Admin Panel
 
-After you seccessfully add router to GoodCloud, go back to router web Admin Panel, at the upper right corner, click on the Cloud icon, you will see the bound device details, including the bound GoodCloud username and date, Device ID, Device MAC and Device S/N.
+After successfully adding router to GoodCloud, go back to router web Admin Panel, click on the Cloud icon at the upper right corner, you will see the bound device details, including the bound GoodCloud username and date, Device ID, Device MAC and Device S/N.
 
 ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
 

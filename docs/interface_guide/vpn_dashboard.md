@@ -1,6 +1,6 @@
 # VPN Dashboard
 
-GL.iNet routers include a dedicated VPN Dashboard that provides a centralized interface for managing your VPN connections. You can use it to set up and monitor both VPN client and server configurations. The VPN Dashboard allows you to route your internet traffic through encrypted tunnels, helping protect your online privacy, bypass regional restrictions, and access remote networks. 
+GL.iNet routers include a dedicated VPN Dashboard that provides a centralized interface for managing your VPN connections. You can use it to set up and monitor VPN clients and server configurations. The VPN Dashboard allows you to route your internet traffic through encrypted tunnels, helping protect your online privacy, bypass regional restrictions, and access remote networks. 
 
 This guide walks you through the key features of the VPN Dashboard and shows you how to configure, monitor, and optimize your VPN connections.
 
@@ -10,12 +10,13 @@ This guide walks you through the key features of the VPN Dashboard and shows you
 
     This guide is based on firmware v4.8. If you are using an earlier firmware version, please visit [here](vpn_dashboard_v4.7.md).
 
-<!-- Removed "This page visually displays VPN status and settings through graphics." and '[vpn dashboard unmarked.png]' Reason: redundant -->
+<!-- Removed "This page visually displays VPN status and settings through graphics.", "[vpn dashboard unmarked.png]" and "This guide will introduce to you one by one." Reason: redundant -->
 
 ### Contents
 
-The VPN dashboard mainly consists of the following parts, marked in the figure below.
+The VPN dashboard consists of the following parts, marked in the figure below.
 
+1. [Navigating to the VPN Dashboard](#navigating-to-the-vpn-dashboard)
 1. [VPN Setup Wizard](#vpn-setup-wizard)
 2. [Primary Tunnel](#primary-tunnel)
     3. [Traffic Originating From](#traffic-originating-from)
@@ -28,37 +29,42 @@ The VPN dashboard mainly consists of the following parts, marked in the figure b
 </br>
 ![vpn dashboard marked](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_dashboard_2.png){class="glboxshadow"}
 
-This guide will introduce to you one by one.
-
 ## Navigating to the VPN Dashboard
 
-Access to web Admin Panel, on the left side -> VPN -> VPN Dashboard. 
+Open the web Admin Panel, on the left side bar, select **VPN** -> **VPN Dashboard**. <!-- Use bold to mark items/terms on the UI-->
+
+![admin panel of gl-axt1800](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/admin_panel_gl-axt1800.png){class="glboxshadow"}
+
+<!-- This image is a placeholder. For easier navigation, the "VPN" dropdown should be expanded, "VPN Dashboard" is highlighted in a red box. -->
 
 ## VPN Setup Wizard
 
-There is no configuration available for VPN Tunnel by default. Please click on VPN Setup Wizard at the upper left, which can help you set up the WireGuard VPN quickly.
+There is no default configuration for VPN tunnels. Click on the VPN Setup Wizard icon at the upper-left corner to quickly set one up. 
 
-![vpn wizard 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_wizard_1.png){class="glboxshadow"}
+<!-- Changed wording to be short, direct and more command-like. -->
+<!-- Removed "WireGuard VPN" to avoid confusion between VPN protocols and VPN clients. -->
 
-The VPN Setup Wizard is only for AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hide.me and IPVanish. Configuring the VPN may take a few minutes.
+![vpn wizard 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_wizard_1.png){class="glboxshadow"} <!-- To maintain consistency, consider highlighting the icon with a red box. -->
+
+The VPN Setup Wizard allows you to set up the following VPN clients: AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hide.me and IPVanish. Configuring the VPN may take a few minutes.
 
 ![vpn wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_wizard_2.png){class="glboxshadow"}
 
-For other vpn providers, skip the wizard and go to [OpenVPN Client](openvpn_client.md){target="_blank"} / [WireGuard Client](wireguard_client.md){target="_blank"} to set up VPN manually. 
+These VPN clients use WireGuard, a VPN protocol. To set up the above clients or other WireGuard clients, go to [WireGuard Client](wireguard_client.md){target="_blank"}. <!-- I intend to direct users to the "WireGuard Client" section, since it has follow-up instructions for setting up clients in the Wizard. I assume a separate section is created to avoid bloat in this guide. --> To set up OpenVPN clients, go to [OpenVPN Client](openvpn_client.md){target="_blank"}. <!-- By only listing the two, I'm assuming other open-source protocols like SoftEther are not supported.-->
 
 ## Primary Tunnel
 
-The Primary Tunnel is a preset tunnel where you can customize the traffic rule by setting three factors: 
+The Primary Tunnel is a preset VPN tunnel where you can customize the tunnel rule <!-- Opt for tunnel rule instead of traffic rule because it matches with UI label "VPN Tunnel" and "Add Tunnel", which are where rules are created. --> by setting three factors: 
 
-- Traffic Originating From (i.e. traffic of which device should use this rule)
-- Execute (i.e. use VPN or not use VPN)
-- Travelling To (i.e. to which target does the traffic travels through this tunnel)
+- **Traffic Originating From** (i.e. traffic of which device should use this rule)
+- **Execute** (i.e. to use VPN or not use VPN)
+- **Travelling To** (i.e. to which target does the traffic travels through this tunnel)
 
 ![primary tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/primary_tunnel.png){class="glboxshadow"}
 
 ### Traffic Originating From
 
-Click the greyed-out box under Traffic Originating From, select the device that you want to apply this rule to.
+Click the greyed-out box under **Traffic Originating From**, select the device that you want to apply this rule to.
 
 ![traffic from 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_1.png){class="glboxshadow"}
 
@@ -82,19 +88,19 @@ Click the greyed-out box under Traffic Originating From, select the device that 
 
 ### Execute
 
-Click the greyed-out box under Execute, select the action you want to perform on this rule.
+Click the greyed-out box under **Execute**, select the action you want to perform on this rule.
 
 ![execute 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/execute_1.png){class="glboxshadow"}
 
 ![execute 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/execute_2.png){class="glboxshadow"}
 
 - **Execute**: Use VPN or Not Use VPN.
-- **Auto-select Configuration**: When this option is enabled, the tunnel automatically selects available profiles to connect.
-- **Kill Switch**: Enable this feature to block traffic that matches this rule but is not tunneled, with higher priority than other VPN tunnel rules.
+- **Auto-select Configuration**: When enabled, the tunnel automatically selects available VPN configurations <!-- Changed to "VPN configurations" to be consistent with this setting name. Understand that "profiles" refers to saved VPN configurations. However, the term "profile" has not been introduced in this guide, thus it's substitutued to avoid confusion. --> to connect.
+- **Kill Switch**:When enabled, this feature blocks any matching traffic that isn’t sent through the VPN tunnel. This feature has higher priority over other tunnel rules. <!-- Clarified language. -->
 
 ### Travelling To
 
-Click the greyed-out box under Travelling To, select the target that the traffic travels to through this tunnel.
+Click the greyed-out box under **Travelling To**, select the target that the traffic travels to through this tunnel.
 
 ![Travel to 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_1.png){class="glboxshadow"}
 

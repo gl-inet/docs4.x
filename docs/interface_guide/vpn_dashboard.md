@@ -54,9 +54,9 @@ These VPN clients use WireGuard, a VPN protocol. To set up the above clients or 
 
 ## Primary Tunnel
 
-The Primary Tunnel is a preset VPN tunnel where you can customize the tunnel rule <!-- Opt for tunnel rule instead of traffic rule because it matches with UI label "VPN Tunnel" and "Add Tunnel", which are where rules are created. --> by setting three factors: 
+The Primary Tunnel is a preset VPN tunnel where you can customize the tunnel rule <!-- Changed to "tunnel rule" for consistency. Also because it matches with UI label "VPN Tunnel" and "Add Tunnel", which are where rules are created. --> by setting three factors: 
 
-- **Traffic Originating From** (i.e. traffic of which device should use this rule)
+- **Traffic Originating From** (i.e. traffic of which device should use this tunnel rule)
 - **Execute** (i.e. to use VPN or not use VPN)
 - **Travelling To** (i.e. to which target does the traffic travels through this tunnel)
 
@@ -64,11 +64,13 @@ The Primary Tunnel is a preset VPN tunnel where you can customize the tunnel rul
 
 ### Traffic Originating From
 
-Click the greyed-out box under **Traffic Originating From**, select the device that you want to apply this rule to.
+1. Click the greyed-out box under **Traffic Originating From**. <!-- Added ordered lists for instructions so that each image has a corresponding caption. -->
 
-![traffic from 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_1.png){class="glboxshadow"}
-
-![traffic from 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_2.png){class="glboxshadow"}
+    ![traffic from 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_1.png){class="glboxshadow"}
+   
+2. Select the device that you want to apply this rule to.
+   
+    ![traffic from 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_2.png){class="glboxshadow"}
 
 - **All Clients**: Traffic from all devices will apply this rule.
 
@@ -88,11 +90,13 @@ Click the greyed-out box under **Traffic Originating From**, select the device t
 
 ### Execute
 
-Click the greyed-out box under **Execute**, select the action you want to perform on this rule.
+1. Click the greyed-out box under **Execute**. 
 
-![execute 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/execute_1.png){class="glboxshadow"}
+    ![execute 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/execute_1.png){class="glboxshadow"}
 
-![execute 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/execute_2.png){class="glboxshadow"}
+2. Select the action you want to perform on this rule.
+   
+    ![execute 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/execute_2.png){class="glboxshadow"}
 
 - **Execute**: Use VPN or Not Use VPN.
 - **Auto-select Configuration**: When enabled, the tunnel automatically selects available VPN configurations <!-- Changed to "VPN configurations" to be consistent with this setting name. Understand that "profiles" refers to saved VPN configurations. However, the term "profile" has not been introduced in this guide, thus it's substitutued to avoid confusion. --> to connect.
@@ -100,23 +104,25 @@ Click the greyed-out box under **Execute**, select the action you want to perfor
 
 ### Travelling To
 
-Click the greyed-out box under **Travelling To**, select the target that the traffic travels to through this tunnel.
+1. Click the greyed-out box under **Travelling To**. 
 
-![Travel to 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_1.png){class="glboxshadow"}
+    ![Travel to 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_1.png){class="glboxshadow"}
 
-![Travel to 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_2.png){class="glboxshadow"}
+2. Select the target that the traffic travels to through this tunnel.
+
+    ![Travel to 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_2.png){class="glboxshadow"}
 
 - **All targets**: Traffic through this tunnel will travel to all destinations.
 
     ![all targets](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_3.png){class="glboxshadow gl-80-desktop"}
 
-- **Specified Domain / IP List**: Traffic through this tunnel will travel to specified Domain / IP. 
+- **Specified Domain / IP List**: Traffic through this tunnel will travel to a specified Domain / IP. 
 
     Manually input the specified Domain / IP.
 
     ![specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_4.png){class="glboxshadow gl-80-desktop"}
 
-    Or switch the Input Mode from Manual to Subscription URL and input URL Link. 
+    Or switch the **Input Mode** from **Manual** to **Subscription URL** and input URL Link. 
 
     ![specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_5.png){class="glboxshadow gl-80-desktop"}
 
@@ -131,7 +137,7 @@ Click the greyed-out box under **Travelling To**, select the target that the tra
 
     ![exclude specified domain/IP](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_6.png){class="glboxshadow gl-80-desktop"}
 
-    Or switch the Input Mode from Manual to Subscription URL and input URL Link. 
+    Or switch the **Input Mode** from **Manual** to **Subscription URL** and input URL Link. 
 
     !!! Note
         - If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day. 
@@ -140,7 +146,7 @@ Click the greyed-out box under **Travelling To**, select the target that the tra
 
 ### Tunnel Settings
 
-Click the cog icon next to the Primary Tunnel, you can rename the tunnel, change tunnel settings or delete the tunnel. 
+Click the cog icon next to **Primary Tunnel**, you can rename the tunnel, change tunnel settings or delete the tunnel. 
 
 ![tunnel settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/tunnel_settings.png){class="glboxshadow"}
 
@@ -148,14 +154,14 @@ Click the cog icon next to the Primary Tunnel, you can rename the tunnel, change
 
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/tunnel_options.png){class="glboxshadow gl-80-desktop"}
 
-- **Services from GL.iNet Use VPN**: If this option is enabled, GoodCloud, DDNS, and rtty services will use VPN tunnels to send packets. Note that these services normally need to use the real IP address of the device, otherwise operations may fail.
-- **Remote Access LAN**: If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel.
-- **IP Masquerading**: If this option is enabled, when client devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
-- **MTU**: The MTU you set for the instance here will overwrite the MTU item in the configuration file.
+- **Services from GL.iNet Use VPN**: When enabled, GoodCloud, DDNS, and rtty services will use VPN tunnels. Note that these services normally need to use the real IP address of the device, enabling this option may affect operation. <!-- Not sure if the original phrasing is intentionally less direct -->
+- **Remote Access LAN**: When enabled, devices connected to the VPN tunnel can reach other devices (e.g. computers, printers) on your local network (LAN).
+- **IP Masquerading**: When enabled, your LAN devices' outgoing traffic will be sent through the VPN using router's IP address instead of their own.
+- **MTU (Maximum Transmission Unit)**: Set your own MTU for this tunnel, it will override the MTU defined in the configuration file. Leave blank to use the system default value. <!-- Consider reccomending values: e.g. "Reccomended 1300-1500 for WireGuard, 1300-1500 for OpenVPN". Also consider adding link to learn more about defining MTU. -->
 
 ## Add Tunnel
 
-Apart from the preset Primary Tunnel, you can add tunnels to achieve multiple VPN instances.
+Apart from the preset **Primary Tunnel**, you can add tunnels to achieve multiple VPN instances.
 
 ![add tunnels](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/add_tunnel.png){class="glboxshadow"}
 
@@ -163,31 +169,31 @@ After adding a tunnel, the VPN Dashboard page will display the **Priority** opti
 
 ![priority 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/priority_1.png){class="glboxshadow"}
 
-By default, the preset Primary Tunnel will have the highest priority, followed by other manual-added tunnel(s).
+By default, the preset **Primary Tunnel** will have the highest priority, followed by other manual-added tunnel(s).
 
-The built-in Non VPN Tunnel will be locked as a basic tunnel with lowest priority, to ensure local network connectivity.
+The built-in **Non-VPN Tunnel** will be locked as a basic tunnel with lowest priority, to ensure local network connectivity.
 
 ![priority 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/priority_2.png){class="glboxshadow"}
 
-Press and hold the three-line icon on the right to drag the tunnels for sorting.
+Click and hold the three-line icon on the right to drag the tunnels for sorting.
 
 ## Non-VPN Tunnel
 
-The Non-VPN Tunnel is a basic network tunnel with lowest priority. It is unchangeable and cannot be deleted. 
+The **Non-VPN Tunnel** is a basic network tunnel with lowest priority. It is unchangeable and cannot be deleted. 
 
 ![non-vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/non_vpn_tunnel.png){class="glboxshadow"}
 
-It is actually a local network tunnel that is mutually exclusive with the VPN tunnel.
+It is a local network tunnel that is mutually exclusive with the VPN tunnel, traffic will go through one or the other, not both.
 
 When there are multiple tunnels, the router transmits traffic in the following order:
 
-- When the tunnel with the highest priority is enabled, the traffic that conforms to the tunnel rule will be transmitted according to the set execute action and targets. 
+1. When the tunnel with the highest priority is enabled, the traffic that conforms to the tunnel rule will be transmitted according to the set execute action and targets. 
 
-- For the traffic that does not conform to the tunnel rule of the highest priority, it will automatically be matched to the tunnel rule of the second highest priority. 
+2. For the traffic that does not conform to the tunnel rule of the highest priority, it will automatically be matched to the tunnel rule of the second highest priority. 
 
-- If it still does not match, it will continue to be matched against the next lower priority rule, and so on, until it is matched to the Non-VPN Tunnel with the lowest priority.
+3. If it still does not match, it will continue to be matched against the next lower priority rule, and so on, until it is matched to the Non-VPN Tunnel with the lowest priority.
 
-You can disable the Non-VPN Tunnel if needed. 
+You can disable the **Non-VPN Tunnel** if needed. 
 
 **Note**: Non-VPN tunnelling ensures that traffic not passing through the above tunnels can still connect to the Internet. If disabled, it will drop any remaining traffic.
 

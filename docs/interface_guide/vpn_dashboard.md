@@ -127,7 +127,7 @@ The Primary Tunnel is a preset VPN tunnel where you can customize the tunnel rul
     ![specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_5.png){class="glboxshadow gl-80-desktop"}
 
     !!! Note
-        - If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day. 
+        - If you select **Subscribe URL**, the domain name or IP in the URL is automatically updated every day. 
 
         - Make sure to enter the correct URL. The URL detection will identify the correctness of the domain name or IP address. [Learn More](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
@@ -140,7 +140,7 @@ The Primary Tunnel is a preset VPN tunnel where you can customize the tunnel rul
     Or switch the **Input Mode** from **Manual** to **Subscription URL** and input URL Link. 
 
     !!! Note
-        - If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day. 
+        - If you select **Subscribe URL**, the domain name or IP in the URL is automatically updated every day. 
 
         - Make sure to enter the correct URL. The URL detection will identify the correctness of the domain name or IP address. [Learn More](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 

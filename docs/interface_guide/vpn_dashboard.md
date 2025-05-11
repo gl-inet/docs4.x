@@ -100,7 +100,7 @@ The Primary Tunnel is a preset VPN tunnel where you can customize the tunnel rul
 
 - **Execute**: Use VPN or Not Use VPN.
 - **Auto-select Configuration**: When enabled, the tunnel automatically selects available VPN configurations <!-- Changed to "VPN configurations" to be consistent with this setting name. Understand that "profiles" refers to saved VPN configurations. However, the term "profile" has not been introduced in this guide, thus it's substitutued to avoid confusion. --> to connect.
-- **Kill Switch**:When enabled, this feature blocks any matching traffic that isn’t sent through the VPN tunnel. This feature has higher priority over other tunnel rules. <!-- Clarified language. -->
+- **Kill Switch**: When enabled, this feature blocks any matching traffic that isn’t sent through the VPN tunnel. This feature has higher priority over other tunnel rules. <!-- Clarified language. -->
 
 ### Travelling To
 

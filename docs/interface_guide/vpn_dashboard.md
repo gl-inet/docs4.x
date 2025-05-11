@@ -157,11 +157,11 @@ Click the cog icon next to **Primary Tunnel**, you can rename the tunnel, change
 - **Services from GL.iNet Use VPN**: When enabled, GoodCloud, DDNS, and rtty services will use VPN tunnels. Note that these services normally need to use the real IP address of the device, enabling this option may affect operation. <!-- Not sure if the original phrasing is intentionally less direct -->
 - **Remote Access LAN**: When enabled, devices connected to the VPN tunnel can reach other devices (e.g. computers, printers) on your local network (LAN).
 - **IP Masquerading**: When enabled, your LAN devices' outgoing traffic will be sent through the VPN using router's IP address instead of their own.
-- **MTU (Maximum Transmission Unit)**: Set your own MTU for this tunnel, it determines the largest size of the data packet travelling through your network. Leave blank to use the system default value. <!-- Consider reccomending values: e.g. "Reccomended 1300-1500 for WireGuard, 1300-1500 for OpenVPN". Also consider adding link to learn more about defining MTU. -->
+- **MTU (Maximum Transmission Unit)**: Set your own MTU for this tunnel, it determines the largest size of the data packet travelling through your network. Leave as blank to use the system default value. <!-- Consider reccomending values: e.g. "Reccomended 1300-1500 for WireGuard, 1300-1500 for OpenVPN". Also consider adding link to learn more about defining MTU. -->
 
 ## Add Tunnel
 
-Apart from the preset **Primary Tunnel**, you can add tunnels to achieve multiple VPN instances.
+Apart from the preset **Primary Tunnel**, you can add tunnels to achieve multiple VPN tunnels. <!-- instance > tunnel for consistency-->
 
 ![add tunnels](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/add_tunnel.png){class="glboxshadow"}
 

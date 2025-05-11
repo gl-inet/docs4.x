@@ -31,7 +31,7 @@ The VPN dashboard consists of the following parts, marked in the figure below.
 
 ## Navigating to the VPN Dashboard
 
-Open the web Admin Panel, on the left side bar, select **VPN** -> **VPN Dashboard**. <!-- Use bold to mark items/terms on the UI-->
+Open the web Admin Panel, on the left side bar, select **VPN** -> **VPN Dashboard**. 
 
 ![admin panel of gl-axt1800](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/admin_panel_gl-axt1800.png){class="glboxshadow"}
 

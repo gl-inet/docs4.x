@@ -154,14 +154,14 @@ Click the cog icon next to **Primary Tunnel**, you can rename the tunnel, change
 
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/tunnel_options.png){class="glboxshadow gl-80-desktop"}
 
-- **Services from GL.iNet Use VPN**: When enabled, GoodCloud, DDNS, and rtty services will use VPN tunnels. Note that these services normally need to use the real IP address of the device, enabling this option may affect operation. <!-- Not sure if the original phrasing is intentionally less direct -->
+- **Services from GL.iNet Use VPN**: When enabled, GoodCloud, DDNS, and rtty services will use VPN tunnels. Note that these services normally need to use the real IP address of the device, enabling this option may affect operation. 
 - **Remote Access LAN**: When enabled, devices connected to the VPN tunnel can reach other devices (e.g. computers, printers) on your local network (LAN).
 - **IP Masquerading**: When enabled, your LAN devices' outgoing traffic will be sent through the VPN using router's IP address instead of their own.
-- **MTU (Maximum Transmission Unit)**: Set your own MTU for this tunnel, it determines the largest size of the data packet travelling through your network. Leave as blank to use the system default value. <!-- Consider reccomending values: e.g. "Reccomended 1300-1500 for WireGuard, 1300-1500 for OpenVPN". Also consider adding link to learn more about defining MTU. -->
+- **MTU (Maximum Transmission Unit)**: Set your own MTU for this tunnel, it determines the largest size of the data packet travelling through your network. Leave as blank to use the system default value. <!-- Consider reccomending values: e.g. "Reccomended 1300-1500 for WireGuard, 1300-1500 for OpenVPN". Also consider adding link to learn more about MTU. -->
 
 ## Add Tunnel
 
-Apart from the preset **Primary Tunnel**, you can add tunnels to achieve multiple VPN tunnels. <!-- instance > tunnel for consistency-->
+Apart from the preset **Primary Tunnel**, you can add tunnels to achieve multiple VPN tunnels. <!-- "instances" > "tunnels" for consistency-->
 
 ![add tunnels](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/add_tunnel.png){class="glboxshadow"}
 
@@ -193,7 +193,7 @@ When there are multiple tunnels, the router transmits traffic in the following o
 
 3. If it still does not match, it will continue to be matched against the next lower priority rule, and so on, until it is matched to the Non-VPN Tunnel with the lowest priority.
 
-You can disable the **Non-VPN Tunnel** if needed. 
+You can disable the Non-VPN Tunnel if needed. 
 
 **Note**: Non-VPN tunnelling ensures that traffic not passing through the above tunnels can still connect to the Internet. If disabled, it will drop any remaining traffic.
 

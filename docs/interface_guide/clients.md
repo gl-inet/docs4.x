@@ -4,21 +4,45 @@ On the left side of web Admin Panel -> CLIENTS
 
 The Clients page displays information about connected devices, including device name, connection type, IP address, MAC address, speed, and traffic.
 
-## Modify Client Name and Type
+## Device Name
 
-If you want to modify name and type of a device, please click the three dots icon in the Action column, in the menu that pops up, click **Modify** item.
+The device name displayed here depends on the hostname of the device operator. You can modify the device name and type.
 
-![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_three_dots.png){class="glboxshadow"}
+Click the three-dot icon in the Action column, and in the popped-up menu, click **Modify**.
 
-![edit client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/edit_client_device.png){class="glboxshadow"}
+![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/action.jpg){class="glboxshadow"}
+
+![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow gl-80-desktop"}
 
 ## MAC Address
 
-Many devices will use randomized MAC address, if the randomized MAC address is used, there will be a prompt.
+Many devices will use randomized MAC address. If the connected devices use randomized MAC addresses, there will be a prompt.
 
-![random mac prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/randomized_mac_address.png){class="glboxshadow"}
+![random mac prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/randomized_mac.png){class="glboxshadow"}
 
 **Note**: The rule here is that if the second character of the MAC address is 2, 6, A or E(Ignore case), then it is considered a randomized MAC address. However, some devices may use a different rule to generate a randomized MAC address, so it may not be accurate.
+
+## Speed
+
+![speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/speed.png){class="glboxshadow"}
+
+The speed here is the average speed over 3 minutes.
+
+- Open the current page for 10 seconds, the average speed of the last 10 seconds is displayed.
+- Open the current page for 30 seconds, the average speed of the last 30 seconds is displayed.
+- Open the current page for 60 seconds, the average speed of the last 60 seconds is displayed.
+- Open current page for 3 minutes, the average rate of the last 3 minutes is displayed.
+- Open current page for 10 minutes, the average rate of the last 3 minutes is displayed.
+
+## Reserved IP
+
+This feature is available since v4.8
+
+When you specify a reserved IP address for a client within the LAN, the client always receives the same IP address each time it accesses the router's DHCP server. 
+
+You can assign reserved IP addresses to computers or servers that require permanent IP settings.
+
+![reserved ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/reserved_ip.png){class="glboxshadow"}
 
 ## Blocklist
 
@@ -26,7 +50,7 @@ Enable **Block** toggle to block client device. The access control rule is Block
 
 ![blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist.jpg){class="glboxshadow"}
 
-![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_whitelist.png){class="glboxshadow"}
+![access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_whitelist.png){class="glboxshadow gl-80-desktop"}
 
 **Blacklist**: Devices with MAC addresses on the prohibited list are not allowed to connect to this router.
 
@@ -48,58 +72,66 @@ You can either import a list from a CSV file at **(1)** or input the Mac Address
 
 **Note**: Blocking client is based on the MAC address of the device, so if the blocked device use a different MAC address next time, it can still connect to router.
 
-## Speed
-
-![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_speed.png){class="glboxshadow"}
-
-The speed here is the average speed over 3 minutes.
-
-- Open the current page for 10 seconds, the average speed of the last 10 seconds is displayed.
-- Open the current page for 30 seconds, the average speed of the last 30 seconds is displayed.
-- Open the current page for 60 seconds, the average speed of the last 60 seconds is displayed.
-- Open current page for 3 minutes, the average rate of the last 3 minutes is displayed.
-- Open current page for 10 minutes, the average rate of the last 3 minutes is displayed.
-
 ## Sort
 
 The current sort type is displayed in the upper right corner, and you can switch to other sort types.
 
-The default sort type:
+The default sort type is as follows:
 
-- The self device is alway s on top
-- In online client sector, the later the device is connected, the higher it is on top.
+- The self device is always on top.
+- In the online client section, the later the device is connected, the higher it appears in the list.
 
-![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_sort.png){class="glboxshadow"}
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.png){class="glboxshadow"}
 
-## Limiting Speed
+## Action
 
-If you want to limit the speed of a device, please click the three dots icon in the Action column, in the menu that pops up, click **Limit Speed** item.
+### Client Details
 
-![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_three_dots.png){class="glboxshadow"}
+If you need to view the details of the client device, please click the three-dot icon in the Action column and then click the **View Details** in the popped-up menu.
 
-![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
+![view details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/view_details.png){class="glboxshadow"}
+
+After that, you can see all the information about the client device in the opened subpage, including all IPv6 addresses of the device if any.
+
+![client details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
+
+### Modify
+
+Click the three-dot icon in the Action column, and in the popped-up menu, click **Modify**.
+
+![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/action.jpg){class="glboxshadow"}
+
+![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow gl-80-desktop"}
+
+### Limit Speed
+
+If you want to limit the speed of a device, please click the three-dot icon in the Action column, and in the popped-up menu, click **Limit Speed**.
+
+![clients page, three dots](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/action.jpg){class="glboxshadow"}
+
+![limit speed settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
 If a client has applied speed limitation, its up arrow and down arrow of speed will turn yellow.
 
-![clients page](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed.png){class="glboxshadow"}
+![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.jpg){class="glboxshadow"}
 
-Click the three dots icon in the Action column to disable limiting.
+Click the three-dot icon in the Action column to disable speed limit.
 
-## Client Details
+### Use VPN Tunnel
 
-If you need to view the IPv6 address of the client device. Or if the list does not show the column you need to view because you are browsing with a small-screen client device. Please click the three dots icon in the action column and then click the **View Details** item in the pop-up menu.
+This feature is available since v4.8
 
-![view detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/view_detail.png){class="glboxshadow"}
+Add client to VPN policy based tunnel list. If you want to make more detailed changes to the tunnels, please go to the VPN Dashboard to manage tunnels.
 
-After that, you can see all the information about the client device in the opened subpage, including all IPv6 addresses of the device.
-
-![client detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
+![use vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/use_vpn_tunnel.png){class="glboxshadow"}
 
 ## Remove Offline Clients
 
-In the offline clients sector, you can **Delete All** offline clients. If you want to remove specific client, please click the three dots icon in the action column, in the menu that pops up, click **Remove Client** item.
+In the offline clients section, you can click **Delete All** at the top right to delete all offline clients. 
 
-![remove clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_client.png){class="glboxshadow"}
+If you want to remove specific client, click the three-dot icon in the Action column, and in the popped-up menu, click **Remove Client**.
+
+![remove offline clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remote_offline_device.png){class="glboxshadow"}
 
 ---
 

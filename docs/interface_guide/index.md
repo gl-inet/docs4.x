@@ -93,3 +93,4 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Security](security.md)
 * [Reset Firmware](reset_firmware.md)
 * [Advanced Settings](advanced_settings.md)
+* [Help](help.md)

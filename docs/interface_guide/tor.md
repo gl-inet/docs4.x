@@ -39,9 +39,13 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 | GL-X300B (Collie)              | -         |
 | GL-MV1000/GL-MV1000W (Brume)   | √         |
 
+*Some models do not have built-in Tor supported, but users can manually use plug-in the re-install the Tor. Click [here](#manual-install) for details.
+
 ## Setup
 
-Just toggle to enable it, then click **Apply** button. You can also choose a **Custom Exit Nodes**.
+On the left side of web Admin Panel -> VPN -> Tor.
+
+Click the toggle switch to enable it, then click **Apply** button. You can also choose a **Custom Exit Nodes**.
 
 ![gl.inet Tor](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/tor.png){class="glboxshadow"}
 
@@ -51,7 +55,9 @@ Wait a while, depending on your network, and it will show connected.
 
 ## Manual install
 
-*Some models can manually using plug-in the re-install the Tor, but it may affect the CPU load and making the system response slower.
+*Some models can manually use plug-in the re-install the Tor, but it may affect the CPU load and making the system response slower.
+
+On the left side of web Admin Panel -> APPLICATIONS -> Plug-ins.
 
 Search **gl-sdk4-ui-torview**, and install.
 

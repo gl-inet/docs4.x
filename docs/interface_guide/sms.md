@@ -21,9 +21,9 @@ Please refer to [this link](internet_cellular.md) to set up the SIM card first.
 
 On the left side of web Admin Panel -> INTERNET, Cellular sector.
 
-![sms](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms.png){class="glboxshadow"}
+![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow gl-90-desktop"}
 
-![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.png){class="glboxshadow"}
+![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.png){class="glboxshadow gl-90-desktop"}
 
 ![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
 

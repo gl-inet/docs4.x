@@ -21,15 +21,15 @@ There are two methods to forward SMS,
 
 ## Setup
 
-Here take the GL-XE300 (Puli) as an example.
+Here take the GL-XE3000 (Puli AX) as an example.
 
-On the left side of web Admin Panel -> INTERNET, Cellular sector. Click the envelope icon to go to SMS page, you will find the SMS Forwarding settings.
+On the left side of web Admin Panel -> INTERNET -> Cellular section. Click the envelope icon in the upper right to enter SMS page, you will find the SMS Forwarding settings.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/cellular_sms.png){class="glboxshadow"}
+![sms setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow"}
 
 ## SMS Forwarding to email
 
-![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forwarding_email.png){class="glboxshadow"}
+![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
 - **SMTP Server Address**, dropdown list has preset Server Address for Gmail, Outlook, iCloud and Yahoo. If you using other mail providers, please check out their document or contact the support.
 - **Encryption Method**, has three options: none, SSL/TLS and STARTTLS.
@@ -61,7 +61,7 @@ You can add up to 10 email addreses.
 
 ## SMS Forwarding to phone
 
-![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forwarding_phone.png){class="glboxshadow"}
+![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 
 Toggle to enable it, choose the National code and input the phone number, finally, click the apply button.
 

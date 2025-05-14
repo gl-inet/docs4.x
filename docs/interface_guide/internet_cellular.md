@@ -22,7 +22,7 @@ There are three cases:
 
 ## Setup for single SIM models
 
-The following configuration steps are for built-in modem or external USB modem with only single SIM card. Here we use the GL-AXT1800 (Slate AX) with external USB modem as an example.
+The following configuration steps are for built-in modem or external USB modem with only single SIM card. Here we use the GL-MT3000 (Beryl AX) with external USB modem as an example.
 
 We recommend turning off the router first, inserting your SIM card into the USB modem then plugging the USB modem into the USB port of the router, and then turning it on again. If you insert a USB modem after the startup, the page may not change. Please refresh the page.
 
@@ -30,35 +30,49 @@ We recommend turning off the router first, inserting your SIM card into the USB 
 
 On the left side of web Admin Panel -> INTERNET -> Cellular section.
 
-1. When you access it for the first time, it may not connect automatically, but it should display the name of your carrier in the upper left corner and show the IMEI. Please click Auto Setup.
+1. When there's no SIM card inserted, the page displays a message "Your SIM card has not been detected". 
 
-    Ignore the warning of *Incompatible Modem*
+    ![single no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_no_sim.png){class="glboxshadow"}
 
-    ![usb modem auto setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_auto_setup.png){class="glboxshadow"}
+2. Insert a SIM card, and it will start connecting, as shown below. 
 
-2. Connecting.
+    ![single sim connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_connecting.png){class="glboxshadow"}
 
+    If it does not connect automatically, please click **Connect** or **Auto Setup**.
+    
+    Ignore the warning of *Incompatible Modem* if any.
+
+    ![incompatible modem](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/incompatible_modem.png){class="glboxshadow"}
+    
     **Note:** Some SIM cards may have special usage restrictions, such as the need to use a special APN. If your SIM card can't be registered, please consult your network operator if it has special restrictions.
+    
+3. Once the cellular network is connected, the status indicator in the upper left will turn green. 
+    
+    ![single sim connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_connected.png){class="glboxshadow"}
 
-    ![usb modem connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_connecting.png){class="glboxshadow"}
+    **Note:** After the initial setup, when you restart the router (with the USB modem still plugged in), or when you insert the USB modem into the router for the second time and power on the router, usually the USB modem can be automatically recognized and a cellular network connection can be established without the need to click "Connect" or "Auto Setup" again. At this time, information such as the cellular signal, modem name, and IMEI may not be displayed on the router management interface, but the network connection may already be working properly. 
 
-3. After a while, it will be connected. Otherwise, try [Manual Setup](#manual-setup).
-
-    **Note:** After the initial setup, when you restart the router (with the USB modem still plugged in), or when you insert the USB modem into the router for the second time and power on the router, usually the USB modem can be automatically recognized and a cellular network connection can be established without the need to click "Auto Setup" again. At this time, information such as the cellular signal, modem name, and IMEI may not be displayed on the router management interface, but the network connection may already be working properly. 
-
-    ![usb modem connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_connected.png){class="glboxshadow"}
-
----
+If the Auto Setup failed, please try [Manual Setup](#manual-setup).
 
 ### Manual Setup
 
 Sometimes, Auto Setup may not work, you can try Manual Setup.
 
-In the Cellular section, click **Manual Setup**.
+In the Cellular section, click **SIM Card Settings**.
 
-![4g modem manual setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/cellular_settings.png){class="glboxshadow"}
+![manual setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_manual_setup.png){class="glboxshadow"}
 
----
+You can view or modify the cellular settings of the current SIM card. It also stores some pre-configured settings, and you can manually add configurations to the "Saved Settings" as well.
+
+Changing the configuration and applying it will result in redialing.
+
+![single sim card settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_card_settings_1.png){class="glboxshadow"}
+
+Enable Band Masking if needed.
+
+You can switch the Masking Mode between Block mode and Open mode. Then select the LTE bands, 5G NSA Bands and 5G SA Bands.
+
+![single sim card settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_card_settings_2.png){class="glboxshadow"}
 
 ### Compatible Modems
 

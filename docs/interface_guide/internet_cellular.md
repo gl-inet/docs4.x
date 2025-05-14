@@ -105,23 +105,25 @@ We recommend turning off the router first, inserting your SIM card into the slot
 
 On the left side of web Admin Panel -> INTERNET -> Cellular section.
 
-1. When there's a SIM card inserted, the page is displayed as below. 
+1. When there's no SIM card inserted, the page is displayed as below. 
+
+    ![no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/no_sim.png){class="glboxshadow"}
+
+2. When there's a SIM card inserted, the page is displayed as below. 
 
     Please click **Connect** to start the Auto Setup.
 
     ![cellular unconnected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/cellular_unconnected.png){class="glboxshadow"}
 
-2. Once the cellular network is connected, the status indicator in the upper left will turn green.
+3. Once the cellular network is connected, the status indicator in the upper left will turn green.
 
     ![cellular connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/cellular_connected.png){class="glboxshadow"}
 
-3. Click **View More Information** to show more cellular information, including the modem details, SIM card details, Internet details, and cellular details.
+4. Click **View More Information** to show more cellular information, including the modem details, SIM card details, Internet details, and cellular details.
 
     ![view more info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/view_more_info.png){class="glboxshadow"}
 
-    ![cellular info 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/cellular_info_1.png){class="glboxshadow"}
-
-    ![cellular info 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/cellular_info_2.png){class="glboxshadow"}
+    ![cellular info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/cellular_info.jpg){class="glboxshadow gl-80-desktop"}
 
 If the Auto Setup failed, please try Manual Setup.
 
@@ -239,6 +241,8 @@ If you want to receive high-quality signal sources to ensure stable cellular con
 
 In the Cellular section, click the three-dot icon in the upper right, then select **Lock Tower**.
 
+![lock tower 0](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_tower_0.png){class="glboxshadow"}
+
 Click Scan to start scanning the cellular towers or the base stations. It will take about a few minutes to scan the tower. 
 
 ![lock tower 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_tower_1.png){class="glboxshadow"}
@@ -261,17 +265,21 @@ This feature is available in v4.8
 
 If you want to lock onto specific operator, in the Cellular section, click the three-dot icon in the upper right, then select **Lock Operator**.
 
+![lock operator 0](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_operator_0.png){class="glboxshadow"}
+
 The operator lock function supports three modes: 
 
 - Auto. Automatically connect to an available operator network.
 - Manual. Manually lock onto a specific operator.
 - Manual-Auto. Automatically switch to an available operator network if the manual lock fails.
 
-![lock operatpr](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_operator.png){class="glboxshadow"}
+![lock operatpr 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_operator_1.png){class="glboxshadow"}
 
 ## Modem AT Command
 
 In the Cellular section, click the three-dot icon in the upper right, then select **Modem AT Command**.
+
+![AT command 0](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_0.jpg){class="glboxshadow"}
 
 You will enter the AT Command page.
 

@@ -11,7 +11,7 @@ Learn how to use our devices correctly with detailed steps.
 ## VPN
 
 * [How to set up an OpenVPN client on a GL.iNet router](how_to_set_up_openvpn_client.md)
-* [How to set up an OpenVPN server on a GL.iNet router](build_your_own_openvpn_home_server_with_two_glrouter.md)
+* [How to set up an OpenVPN server on a GL.iNet router](how_to_set_up_openvpn_server.md)
 * [Build your own WireGuard Home Server with two GL.iNet Routers](build_your_own_wireguard_home_server_with_two_glinet_routers.md)
 * [How to connect to the dedicated IP by NordVPN on GL.iNet routers](how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md)
 * [How to connect to the dedicated IP by Surfshark on GL.iNet routers](how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md)

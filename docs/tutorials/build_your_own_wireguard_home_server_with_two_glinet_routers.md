@@ -2,7 +2,7 @@
 
 This article will introduce how to set up your home router as the WireGuard VPN server and your travel router as the WireGuard VPN client to connect together remotely, so that you can use your home IP address with the travel router anywhere.
 
-Here we use our GL-MT6000 as the example to run WireGuard VPN server at the home site, and you can also choose other models such as MT2500 if you don't require the wireless capacity. As for the travel router, we use our GL-MT3000 as the example, and you can choose others as well.
+Here we use GL-MT6000 as the example to run WireGuard VPN server at the home site, and you can also choose other models such as GL-MT2500 if you don't require the wireless capacity. As for the travel router, we use GL-MT3000 as the example, and you can choose others as well.
 
 ## Why you need to build own your WireGuard home server
 
@@ -15,49 +15,63 @@ Here we use our GL-MT6000 as the example to run WireGuard VPN server at the home
 
 ### Check if you have a Public IP address
 
-First, you shall make sure the GL-MT6000 has a Public IP address on its WAN side, so that it can be globally accessed. Otherwise your travel router cannot build up a VPN connection with it while you are traveling.
+First, make sure the GL-MT6000 has a Public IP address on its WAN side, so that it can be globally accessed. Otherwise your travel router cannot build up a VPN connection with it while you are traveling.
 
 To check if you have the Public IP address, please open a web browser and type in [what is my ip](https://whatismyipaddress.com/){target="_blank"} in the address bar.
 
 ![whatismyip](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/whatismyip.jpg){class="glboxshadow"}
 
-It will show your public IP address, if it matches with your WAN IP from your ISP, you are granted a Public IP Address.
+It will show your public IP address. If it matches the WAN IP provided by your ISP for the GL-MT6000, you have a public IP address.
 
-If you don't have a Public IP address, here are some methods for your reference.
+If you don't have a public IP address, here are some methods for your reference.
 
 1. If you have a main router, you shall login to it and check if it gets the Public IP from your ISP.
 2. Ask your ISP for a Public IP address. It may require an extra fee.
 3. If the above two ways don't work, for example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try an SDWAN solution - [AstroWarp](https://www.astrowarp.net/). 
 
-### Confirm you need to do a Port Forwarding or not?
+### Check if Port Forwarding is Required
 
-??? "GL.iNet as Main Router"
+??? "GL.iNet as Main Router" 
 
-    Topology
+    If your GL.iNet Router is directly connected to a ISP modem via an Ethernet cable, the GL.iNet Router is the Main Router.
 
-    GLiNet Router is directly connect to ISP modem
+    **How to check if your GL.iNet Router connects to the ISP modem directly?**
 
-    ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
+    Steps:
+    
+    1. Log in to the GL.iNet Admin Panel. 
 
-    How to confirm your GL.iNet Router connects to the ISP modem directly?
+    2. Select INTERNET from the left sidebar. Check the topology and connection details:
 
-    ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.jpg){class="glboxshadow gl-80-desktop"}
+        If directly connected via Ethernet, you will see a section named "Ethernet" with details such as Protocol, IP address, Gateway, etc.
 
-    Login GL.iNet Admin Panel, you can see your Public IP shows on the IP Address and you have **No Need** to do **Port Forwarding**.
+        Taking the following image as an example, the marked IP Address is the WAN IP provided by the ISP for this GL-iNet router. 
 
+        ![mt6000-home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/mt6000_home.png){class="glboxshadow"}
+
+        This WAN IP is a public IP address, thus this GL.iNet router, acting as a Main router, has a public IP and **no need to set a Port Forwarding for it**.
+
+        You just need to set this GL.iNet router as WireGuard server, and a travel router as WireGuard Client connecting to the server. Then a VPN tunnel will be built between them.
+
+        ![topologywg](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywg.jpg){class="glboxshadow"}
+    
 ??? "GL.iNet as Sub-Router"
 
-    Topology
+    Set up the **Port Forwarding** on your Main router for the GL.iNet router if the latter is behind NAT.
 
-    Set the **Port Forward** on your Main Router if GL.iNet router sits behind NAT
+    Topology
 
     ![togologywgtp](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/topologywgtp.jpg){class="glboxshadow"}
 
-    Connect to your home router's WiFi or LAN, then login to the web Admin Panel. Check the WAN IP address it obtains from your ISP. Here you can see it is your Public IP **42.200.00.00**.
+    Example: A TP-Link Router as your home main router.
 
-    Example: A TP-Link Router
+    Connect to the WiFi or LAN of your home router. Then login to the web Admin Panel. Check the WAN IP address it obtains from your ISP. In the image below, you can see that your public IP is **42.200.00.00**.
 
-    ![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_home.jpg){class="glboxshadow"}
+    ![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_home.png){class="glboxshadow"}
+    
+    **Before setting up port forwarding, we recommend reserving an IP address for the GL.iNet router on your Main router, so that a fixed IP can be assigned to the GL.iNet router.** Otherwise, once the Main router or GL.iNet router restarts, the main router may assign a different IP address to the GL.iNet router, causing the port forwarding rule to fail.
+
+    Then set up the Port Forwarding on your Main router for the GL.iNet router.
 
     1. Go to “Advanced” and click “virtual Server”, then “Add”.
     
@@ -70,7 +84,7 @@ If you don't have a Public IP address, here are some methods for your reference.
     ![tp_port1](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_port1.jpg){class="glboxshadow"}
 
     **More [Port Forward](how_to_set_up_port_forwarding.md) examples**
-   
+
 ## Set up the WireGuard server on GL.iNet Router
 
 ### Enable DDNS (Optional)

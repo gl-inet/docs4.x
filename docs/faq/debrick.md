@@ -12,11 +12,11 @@ Please prepare a computer with an ethernet port. If your computer does not have 
 
 ## Debrick Steps
 
-Please follow the procedures below to access the Uboot Web UI and re-install the firmware.
+Refer to this video tutorial or follow the procedures below to access the Uboot Web UI and re-install the firmware.
 
-You can also refer to video tutorial below.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pz0DidfIXRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EAaaw8nyrnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>The steps for using Uboot to re-install firmware are roughly the same, and this video takes Mudi/Mudi V2 as an example. For other models, you may follow the procedures below.</small>
 
 1. Download firmware [here](https://dl.gl-inet.com/){target="_blank"} to your computer.
 

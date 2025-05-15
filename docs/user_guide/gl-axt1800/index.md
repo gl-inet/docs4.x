@@ -4,7 +4,7 @@
 
 To set up Slate AX, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Slate AX and other router models.)</small>
 
 ### 1. Power on the Slate AX

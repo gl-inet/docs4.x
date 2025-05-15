@@ -1,5 +1,7 @@
 # Parental Control
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pOyDwQRc3io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Parental control feature available since V4.2
 
 On the left side of web Admin Panel -> APPLICATIONS -> Parental Control.

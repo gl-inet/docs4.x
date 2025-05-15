@@ -4,7 +4,9 @@ This guide provides step-by-step instructions for setting up and activating the 
 
 ![eSIM Physical Card officially endorsed by GL.iNet](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/esim-physical-card.png){class="glboxshadow"}
 
-## The eSIM Physical Card Details
+## Features
+
+The highlights of eSIM physical cards are as follows:
 
 - Supports 4G and 5G networks for reliable and fast connections.
 - Manage your eSIM profiles effortlessly by adding, removing, or enabling them.
@@ -16,7 +18,9 @@ This guide provides step-by-step instructions for setting up and activating the 
 
 ## Set Up the eSIM Physical Card on Android Devices
 
-If you’re using the eSIM Physical Card for the first time, follow these steps:
+If you’re using the eSIM Physical Card for the first time, watch this video or follow the steps below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I6rtcB8Se8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 1. Connect to the Internet
 

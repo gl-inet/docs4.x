@@ -4,8 +4,8 @@
 
 To set up Slate 7, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Slate 7 and other router models.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>(In this video we demonstrate the setup by configuring Slate 7 as Repeater. If you need to configure Slate 7 by other Internet connetion methods, please refer to the steps below.)</small>
 
 ### 1. Power on the Slate 7
 

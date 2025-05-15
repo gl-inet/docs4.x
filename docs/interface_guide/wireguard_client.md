@@ -6,26 +6,38 @@
 
     This guide is based on firmware v4.7.x. If you are using an earlier firmware version, please visit [here](wireguard_client_v4.6.md).
 
-WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/){target="_blank"}, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
+WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 
 If you have already bought WireGuard service from a provider, but you don't know how to get the configuration files, please refer to [get configuration files from WireGuard service providers](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or ask its support.
 
-You can set up WireGuard Client via web Admin Panel or [mobile app](../faq/mobile_app.md). For the mobile app, it has already integrated some WireGuard Service Providers, they are AzireVPN, Mullvad VPN, OVPN, StrongVPN, PIA VPN.
+You can set up WireGuard Client via web Admin Panel or [mobile app](../faq/mobile_app.md). 
 
-For set up via web Admin Panel, several providers are already integrated, and connection can also be established using a configuration file.
+**The mobile app** has already integrated some WireGuard service providers, such as AzireVPN, Mullvad VPN, OVPN, StrongVPN, PIA VPN, etc., which means you can easily set up WireGuard Client by simply enter the credentials of the WireGuard Service you purchased. Open the app and follow the instructions on it to set up.
+
+**The web Admin Panel** not only integrates some WireGuard service providers, but also provides an entrance for manually uploading configuration files. You can either enter the purchased WireGuard service credentials for quick setup, or manually upload a configuration file to set up the WireGuard client.
+
+Select your WireGuard service provider below to quickly locate the step-by-step instructions.
 
 * [Set Up AzireVPN](#set-up-azirevpn)
 * [Set Up Hide.me](#set-up-hideme)
 * [Set Up IPVanish](#set-up-ipvanish)
 * [Set Up Mullvad](#set-up-mullvad)
 * [Set Up NordVPN](#set-up-nordvpn)
-* [Set Up PIA(Private Internet Access)](#set-up-piaprivate-internet-access)
+* [Set Up PIA (Private Internet Access)](#set-up-piaprivate-internet-access)
 * [Set Up Surfshark](#set-up-surfshark)
-* [Set up WireGuard Client with other providers(via configuration files)](#set-up-other-providersvia-configuration-files)
+* [Set up WireGuard Client with other providers (via configuration files)](#set-up-other-providersvia-configuration-files)
 
 ## Set Up AzireVPN
 
 [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} is privacy-minded VPN service providing secure, modern and robust tunnels such as WireGuard.
+
+Watch this video to set up AzireVPN on GL.iNet routers via web Admin Panel or mobile app.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ra93wlDIekA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Or follow the steps below to set up AzireVPN on GL.iNet routers via web Admin Panel.
+
+In the web Admin Panel -> VPN -> WireGuard Client -> AzireVPN.
 
 1. Input **Username** and **Password**, then click **Save And Continue**. It will generate configuration files for each servers.
 
@@ -67,6 +79,8 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
 [Official Website](https://www.hideipvpn.com/){target="_blank"}
 
+In the web Admin Panel -> VPN -> WireGuard Client -> Hide.me.
+
 1. Input **Username** and **Password**, then click **Save And Continue**. 
 
     ![hideme login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme1.png){class="glboxshadow"}
@@ -100,6 +114,8 @@ For set up via web Admin Panel, several providers are already integrated, and co
 ## Set Up IPVanish
 
 [Official Website](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="_blank"}
+
+In the web Admin Panel -> VPN -> WireGuard Client -> IPVanish.
 
 1. Input **Username** and **Password**, then click **Save And Continue**. 
 
@@ -138,6 +154,8 @@ For set up via web Admin Panel, several providers are already integrated, and co
 ## Set Up Mullvad
 
 [Mullvad](https://mullvad.net/){target="_blank"} is a VPN service that helps keep your online activity, identity, and location private.
+
+In the web Admin Panel -> VPN -> WireGuard Client -> Mullvad.
 
 1. Input **Account**, then click **Save And Continue**. It will generate configuration files for each servers.
 
@@ -183,7 +201,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is the top online VPN service for speed and security.
 
-1. Login your NordVPN web account and get your service credentials
+1. Login your NordVPN web account in NordVPN site or [here](https://my.nordaccount.com/){target="_blank"}.
 
     ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_login.png){class="glboxshadow"}
     
@@ -199,7 +217,7 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
     ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/copy_access_token.png){class="glboxshadow"}
 
-2. Input **Token**, then click **Save And Continue**. It will generate configuration files for each servers.
+2. Login the web Admin Panel -> VPN -> WireGuard Client -> NordVPN. Input **Token**, then click **Save And Continue**. It will generate configuration files for each servers.
 
     ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn1.png){class="glboxshadow"}
 
@@ -233,9 +251,11 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
     ![nordvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn7.png){class="glboxshadow"}
 
-## Set Up PIA(Private Internet Access)
+## Set Up PIA (Private Internet Access)
 
 [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
+
+In the web Admin Panel -> VPN -> WireGuard Client -> PIA.
 
 1. Input **Username** and **Password**, then click **Save And Continue**. It will generate configuration files for each servers.
 
@@ -274,6 +294,8 @@ For set up via web Admin Panel, several providers are already integrated, and co
 ## Set Up Surfshark
 
 [[Official Website]](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
+
+In the web Admin Panel -> VPN -> WireGuard Client -> Surfshark.
 
 1. Input **Username** and **Password**, then click **Save And Continue**.
 
@@ -317,7 +339,9 @@ For set up via web Admin Panel, several providers are already integrated, and co
 
 ## Set up other providers(via configuration files)
 
-If you are using another WireGuard service provider, you can also download the WireGuard configuration files and follow the steps below to set up the WireGuard Client. If you don't know how to download the configuration files, please refer to [this guide](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or ask their customer service.
+If you are using another WireGuard service provider, you can download the WireGuard configuration files and follow the steps below to set up the WireGuard Client. If you don't know how to download the configuration files, please refer to [this guide](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or ask their customer service.
+
+In the web Admin Panel -> VPN -> WireGuard Client -> Add Manually.
 
 1. Click **Add Manually**.
 

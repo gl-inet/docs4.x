@@ -39,7 +39,9 @@ The highlights of eSIM physical cards are as follows:
 
 ## Set Up the eSIM Physical Card
 
-If you're using the eSIM Physical card for the first time, please follow these steps to set it up on your GL.iNet Router:
+If you're using the eSIM Physical card for the first time, please watch this setup video or follow these steps below to set it up on your GL.iNet Router.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Step 1:** Insert the eSIM Physical card into your router. Refer to the images below for detailed guidance.
 

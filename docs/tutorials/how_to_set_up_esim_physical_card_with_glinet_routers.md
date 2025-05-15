@@ -29,9 +29,7 @@ The highlights of eSIM physical cards are as follows:
 | GL-X750 (Spitz)                | ※        |
 | GL-X300B (Collie)              | ※        |
 
-!!! Note
-
-    **For the models marked with ※:**
+!!! Note "For the models marked with ※:"
     
     1. The current stable firmware does not support eSIM. To use the eSIM function, you need to install the eSIM-supported firmware. [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} for more instructions.
     

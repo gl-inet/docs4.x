@@ -1,20 +1,32 @@
 # How to set up port forwarding on your primary router
 
-If you are setting up a server (such as an [OpenVPN server](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_openvpn_home_server_with_two_glrouter/) or [WireGuard server](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers/)) on your GL.iNet router and it is connected to a primary router, you will have to set up port forwarding on the primary router. This ensures the server to be accessible properly. (Note that if there are other routers between the primary router and the GL.iNet router, you will have set up port forwarding on all these preceding routers.)
+If you are setting up a server (such as an [OpenVPN server](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_openvpn_home_server_with_two_glrouter/) or [WireGuard server](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers/)) on your GL.iNet router and it is connected to a primary router, you will have to set up port forwarding on the primary router. This ensures the server to be accessible properly. (Note that if there are other routers between the primary router and the GL.iNet router, you have to set up port forwarding on all these preceding routers.)
 
-The steps for setting up port forwarding vary depending on the brand and model of your router. Refer to the section appropriate to you below. 
+## Preperation
 
-## Other router brands as my primary router
+Before configuring port forwarding, we recommend **reserving a static IP address** for the GL.iNet router on your primary router. This ensures the GL.iNet router is always assigned a fixed IP address. 
 
-!!! note "Make sure to enter the following information when setting up port forwarding:"
+Otherwise, if the primary router or GL.iNet router restarts, the primary router may assign a new IP address to the GL.iNet router, causing the port forwarding rule to fail. 
 
-    Different router brands and models have different ways of naming the information you have to provide when you set up port forwarding. In general, make sure to enter the following information on the router's port forwarding screen:
+Next, set up port forwarding on your primary router for the GL.iNet router. 
+
+The steps for configuring port forwarding vary by router brand and model. Refer to the appropriate section below.
+
+## Using a GL.iNet Router as Your Primary Router
+
+Please refer to [this link](../interface_guide/port_forwarding.md){target="_blank"}.
+
+## Using Another Router Brand as Your Primary Router
+
+!!! note "Make sure to enter the following information when setting up port forwarding"
+
+    When configuring port forwarding, ensure the following information is provided. Note that terminology may vary across router brands and models.
     
     * **External port/Internal port:** Enter the port you are using. For example, the default ports are **1194** (for OpenVPN servers) and **51820** (for WireGuard servers).
     * **Protocol:** Choose **All** or **UDP/TCP**.
     * **Internal IP** (or shown as **Host IP**): Enter your secondary router's WAN IP address or select your secondary router from the dropdown if available. 
 
-Here are the instructions for setting up port forwarding on certain router brands and models as your primary router:
+Here are step-by-step instructions for setting up port forwarding on common primary router brands and models. 
 
 ### AT&T
 
@@ -42,7 +54,7 @@ Here are the instructions for setting up port forwarding on certain router brand
 
 [Refer to these instructions.](https://www.tp-link.com/us/support/faq/1379/)
 
-If you need assistance because your specific router brand or model is not listed above, contact your router manufacturer or the GL.iNet Support Team via email at [support@glinet.biz](mailto:support@glinet.biz).
+If your primary router brand or model is not listed above, refer to your router manufacturer’s documentation or contact their support team for further assistance.
 
 ---
 

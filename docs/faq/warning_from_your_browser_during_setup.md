@@ -2,24 +2,27 @@
 
 ![alert](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/alert.jpg){class="glboxshadow"}
 
-You may get this alert from your browser if this is your first time to setup your GLiNet routers.
+You may encounter this browser alert if this is your first time setting up your GL.iNet router.
 
-This is a general warning from browsers if the browsers detect a website without a SSL certicate.
+This is a standard security warning that browsers issue when they detect a website lacking an SSL/TLS certificate.
 
 ## Is it safe to browse 192.168.8.1?
 
-We are valued your network security, therefore during the first time setup, you do not need to connect to any internet source.
+We prioritize your network security. During the initial setup, you do not need an internet connection, as the process is entirely local.
 
-You may also notice when you connect to the GLiNet router's WiFi during setup, it will display you **"connected, No internet"**
+When connecting to the GL.iNet router’s Wi-Fi during setup, you may see **"Connected, No internet"**. This is expected, as the router operates in a standalone local network during configuration.
 
 ![nointernet](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/nointernet.jpg){class="glboxshadow"}
 
-Our setup IP **192.168.8.1** is a device IP, this is used for access the device itself. It is not a website but a private IP. Therefore, no internet connection is needed before the setup. Because there is **No internet connection**, there is no leak of any kinds of your privacy. It is a private connection.
+Similarly, the setup IP **192.168.8.1** is a private local IP address assigned to the router itself. It is used to access the device’s local management interface, not a public website. 
+
+Since the connection is purely local and no internet access is required during setup, there is **no risk of privacy leakage**. This ensures a secure, isolated environment for configuring your router.
 
 ## Why I still get a warning?
 
-Since the browsers do not distinguish the setup IP is not a website and all browsers classified IP addresses are websites, therefore browsers will detect if the website is safe or not by a SSL certificate.
-A real safe website will have a SSL certificate, thus browsers trigger the alert since they do not find a SSL certificate in our routers.
+Browsers usually do not distinguish between setup IP addresses and normal websites; they treat all IP addresses as websites and expect HTTPS connections to be secured by SSL/TLS certificates. 
+
+A genuinely secure website uses an SSL/TLS certificate, so when browsers access a router's setup IP (which does not have a certificate), they trigger a security alert due to the missing certificate.
 
 ## What can I do with this alert?
 

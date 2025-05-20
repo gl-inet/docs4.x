@@ -8,9 +8,9 @@ It is important to note that you should wait for the router to fully boot up bef
 
 Press and hold the reset button for **4 seconds** then release to perform a soft reset, which can repair your network.
 
-This operation will reboot the network interface, causing the loss of Internet interface configurations, while preserving Wi-Fi settings, VPN settings, system settings, etc.
+This operation will reboot the network interface and restore the Internet interface to default settings, while preserving Wi-Fi settings, VPN settings, system settings, etc. 
 
-A soft reset can also be used to quickly switch from Access Point (AP) mode back to router mode.
+A soft reset can also be used to quickly switch from non-router mode to router mode.
 
 ## Reset to factory
 

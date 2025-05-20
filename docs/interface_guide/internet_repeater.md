@@ -74,17 +74,33 @@ When joining the network, there are two additional options.
 
 ## Repeater options
 
-Click the cog icon for Repeater options.
+Click the cog icon for repeater options.
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
+
+**For firmware v4.8**, the Repeater Options page is displayed as follows.
+
+![v4.8 repeater options 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/4.8/repeater_options_1.png){class="glboxshadow"}
+
+- **Allow Switching to Other Networks Mode**. Three modes are available: 
+
+    - No Switching mode: When No Switching mode is enabled, other saved networks will not be automatically connected when the current Wi-Fi is disconnected.
+  
+    - Auto Switching mode: When Auto Switching mode is enabled, the router will try to connect to other saved networks when the current Wi-Fi is disconnected.
+  
+    - Auto Switching Without Network: When Auto-switching Without Network mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss. 
+
+- **Band Selection**: you can select from three options: Auto, 5 GHz and 2.4 GHz.
+
+    If you manually select a band, the router will not scan or connect to any Wi-Fi that is using another band.
+
+**For firmware v4.7 and earlier**, the Repeater Options page is displayed as below.
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 
 * **Allow Switching To Other Saved Network**. If the option is enabled, the router will automatically connect to other saved networks when it is unable to connect to the current Wi-Fi network.
 
 * **Band Selection**. If you manually select a band, the router will not scan or connect to any Wi-Fi with another band.
-
-* **Force 20MHz Bandwith For 2.4G**. If the option is enabled, The device will prompting the stability of the connection in exchange of reducing the connection speed. It only works when repeating 2.4G Wi-Fi.
 
 ## Manage known network
 

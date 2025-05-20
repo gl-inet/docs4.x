@@ -2,7 +2,7 @@
 
 !!! Note
 
-    This guide is based on firmware v4.8. If you are using old firmware, you may also refer to it as the web Admin Panel of the old firmware has some similarities with the new firmware. 
+    This guide is based on firmware v4.8. If you are using old firmware, please visit [here](internet_cellular_v4.7.md).
     
     Some features are only available in v4.8
 

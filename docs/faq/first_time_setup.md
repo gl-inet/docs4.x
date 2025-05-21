@@ -1,6 +1,8 @@
 # First time setup
 
-The first time setup of the GL.iNet router is very similar. Most of the models have Wi-Fi module, some models do not have Wi-Fi module, the following is divided into two cases according to the availability of Wi-Fi module.
+The first-time setup of the GL.iNet router is very similar. Most models have a Wi-Fi module, while some do not. 
+
+Therefore, the following guidance is divided into two cases based on the presence of a Wi-Fi module.
 
 * [For models that have Wi-Fi](#for-models-that-have-wi-fi)
 * [For models that don't have Wi-Fi](#for-models-that-dont-have-wi-fi)
@@ -9,17 +11,19 @@ The first time setup of the GL.iNet router is very similar. Most of the models h
 
 Here is an example of GL-AXT1800 (Slate AX).
 
-Please prepare the following items that included in the package.
+Please prepare the following items included in the package.
 
-GL-AXT1800, power adapter, ethernet cable.
+- GL-AXT1800
+- A power adapter
+- An Ethernet cable
 
-There is a video guide.
+Watch this video guide or follow the steps below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Power on
 
-    If you want to use TF card, please insert before powering on the router. Hot plugging for TF card is not supported.
+    If you want to use TF card, please insert before powering on the router. Hot-swapping TF cards is not supported.
 
     Plug one end of the power adapter into the router and the other end into an outlet. It will automatically power on.
 
@@ -33,19 +37,19 @@ There is a video guide.
 
     * Connect via Wi-Fi
 
-        The SSID was printed on the bottom label of the router with the following formats:
+        The SSID is printed on the bottom label of the router with the following formats:
 
         **GL-AXT1800-XXX** or **GL-AXT1800-XXX-5G**
 
-        Search for the SSID of the router in your computer/phone/tablet and input the WiFi password. Please find the WiFi password on the label on the back of the router. Some models if you can't find the WiFi password on the label, please try the default password **goodlife**.
+        Search for the SSID of the router in your computer/phone/tablet and input the WiFi password. Please find the WiFi password on the label on the back of the router. For some models if you can't find the WiFi password on the label, please try the default password **goodlife**.
 
-        **Tip:** The QR code on the label on the back of the GL-AXT1800 is with wifi connection information and can be quickly connected using your phone's QR code scanning tool.
+        **Tip:** The QR code on the label on the back of the GL-AXT1800 is with WiFi connection information and can be quickly connected using your phone's QR code scanning tool.
 
-        **Note:** At this time, you cannot access the Internet after connecting to the WiFi, you need to set up the admin password in the next step before you can access the Internet.
+        **Note:** After connecting to the WiFi, you cannot access the Internet at this stage. You need to set up the admin password in the next step and configure network.
 
 3. Access the web Admin Panel
 
-    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. If can't access the web Admin Panel, please check [here](cannot_access_web_admin_panel.md).
+    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. If you can't access the web Admin Panel, please check [here](cannot_access_web_admin_panel.md).
 
     Choose a language, and click **Next** to continue.
 
@@ -88,13 +92,13 @@ Here is an example of GL-MT2500A (Brume 2).
 
         As GL-MT2500A doesn't have a built-in Wi-Fi module, we can use another router with Wi-Fi capability to initialize the GL-MT2500A.
 
-        * Method 1, the second router is set to AP(Access Point) mode, then connect the LAN port of GL-MT2500A to the WAN port of the second router.
+        * Method 1: Set the second router in AP (Access Point) mode, then connect the LAN port of GL-MT2500A to the WAN port of the second router.
 
-        * Method 2, the second router is default router mode, but with a different router IP address that is not conflict with 192.168.8.1/24, e.g., 192.168.10.1, then connect the LAN port of GL-MT2500A to the WAN port of the second router.
+        * Method 2: Keep the second router in default router mode, but with a different router IP address that is not conflict with 192.168.8.1/24, e.g., 192.168.10.1. Then connect the LAN port of GL-MT2500A to the WAN port of the second router.
 
         Use your computer or smartphone to connect to the Wi-Fi of the second router.
 
-        !!! note
+        !!! Note
         
             The second router mentioned here is a regular router, like GL.iNet GL-AXT1800, TP-LINK, or Netgear routers. Modems, Optical Network Terminals, or devices provided by ISPs may not work in this scenario.
 

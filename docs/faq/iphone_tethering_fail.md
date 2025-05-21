@@ -1,8 +1,8 @@
 # iPhone Tethering failed
 
-When you encounter iPhone tethering failed, you can try the following steps to solve the problem.
+If you encounter an iPhone tethering failure, you can try the following steps to resolve the issue.
 
-1. Please make sure your **Maximise Compatibility** is **Enable** (iPhone 8 or above)
+1. Please make sure the **Maximise Compatibility** is **Enabled** (iPhone 8 or above)
 
     ![maxcompat](https://static.gl-inet.com/docs/router/en/4/tutorials/iphone_tethering_fail/maxcompat.PNG){class="glboxshadow gl-50-desktop" }
 
@@ -12,9 +12,9 @@ When you encounter iPhone tethering failed, you can try the following steps to s
 
 3. Make sure the iOS version is 15 or above.
 
-4. Unplug and replug the lightening cable.
+4. Unplug and replug the Lightning cable.
 
-5. Reboot the router and iphone. Sometimes iphone reboot does solve the tethering problem.
+5. Reboot both the router and your iPhone. Sometimes rebooting the iPhone solves the tethering issue.
 
 ---
 

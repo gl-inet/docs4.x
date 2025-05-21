@@ -1,30 +1,36 @@
 # Cannot Scan Android 5G Hotspot
 
-If you cannot scan your android phone 5G hotspot, it may be related to the WiFi country code.
+Connecting the GL.iNet router as a repeater to an Android phone's 5G hotspot is one of the common ways to access the Internet.
 
-Some Android phones set their 5G hotspot to a US channel by default. If your GL.iNet router wasn't originally purchased in the US, you might experience this issue. You can change your GL.iNet router's WiFi country code in LuCI page as per the steps below.
+However, if you cannot scan your Android phone's 5G hotspot, it may be related to the WiFi country code.
 
-**Step 1. Login LuCI**
+Some Android phones set their 5G hotspot to a US channel by default. If your GL.iNet router wasn't originally purchased in the US, you might experience this issue. 
 
-Login your GL.iNet router, at the left side bar choose **SYSTEM -> Advanced Settings -> Go to LuCI**, login with the same admin password.
+You can change your GL.iNet router's WiFi country code in LuCI page as per the steps below.
 
-**Step 2. Edit WiFi settings**
+## Step 1. Log in to LuCI
 
-Go to **Network -> Wireless** select 5G WiFi and edit, If you are using GL-MT3000, **Network -> MTK WiFi**.
+Log in to your GL.iNet router, at the left sidebar, choose **SYSTEM -> Advanced Settings -> Go to LuCI**. Login to LuCI with the same admin password.
+
+## Step 2. Edit WiFi settings
+
+Go to **Network -> Wireless**, select 5G WiFi and edit. If you are using GL-MT3000, go to **Network -> MTK WiFi**.
 
 ![5gwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gwifi.jpg){class="glboxshadow"}
 
 ![mtkwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/mtkwifi.jpg){class="glboxshadow"}
 
-**Step 3. Select U.S. as country code**
+## Step 3. Select US as the country code
 
-Select U.S. for your 5G WiFi.
+Under **Device Configuration -> Advanced Settings**, select US (United States) as the country code for your 5GHz WiFi. 
 
 ![5gus](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gus.jpg){class="glboxshadow"}
 
-Remember **Save & Apply** before logout.
+Click **Save & Apply** before logging out.
 
 ![saveapply](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/saveapply.jpg){class="glboxshadow"}
+
+Then try scanning your Android phone 5G hotspot again.
 
 ---
 

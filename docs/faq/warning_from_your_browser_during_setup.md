@@ -1,8 +1,8 @@
-# Your Connection is not Private
+# Warning from your browser: Your Connection is not Private
+
+You may encounter this browser alert if this is your first time setting up your GL.iNet router: Your Connection is not Private.
 
 ![alert](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/alert.jpg){class="glboxshadow"}
-
-You may encounter this browser alert if this is your first time setting up your GL.iNet router.
 
 This is a standard security warning that browsers issue when they detect a website lacking an SSL/TLS certificate.
 

@@ -10,6 +10,8 @@ Press and hold the reset button for **4 seconds** then release to perform a soft
 
 This operation will reboot the network interface and restore the Internet interface to default settings, while preserving Wi-Fi settings, VPN settings, system settings, etc. 
 
+**Note**: If WiFi has been disabled, a soft reset will restore WiFi to its default enabled state.
+
 A soft reset can also be used to quickly switch from non-router mode to router mode.
 
 ## Reset to factory

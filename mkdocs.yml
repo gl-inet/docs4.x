@@ -185,7 +185,7 @@ nav:
     - Other:
       - LED Indication: faq/led.md
       - GL.iNet Mobile App: faq/mobile_app.md
-      - Add Brume2 into mobile App: faq/how_to_add_brume2_into_app.md
+      - Add Brume 2 into mobile App: faq/how_to_add_brume2_into_app.md
       - Change WAN to LAN: faq/change_wan_to_lan.md
       - Access GL.iNet and Adguard Home via HTTPS: faq/use_https_for_adh.md
       - Connect to Starlink Dish: faq/connect_glinetrouter_to_starlink.md

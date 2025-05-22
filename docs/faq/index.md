@@ -61,7 +61,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 
 * [LED Indication](led.md)
 * [GL.iNet Mobile App](mobile_app.md)
-* [How to add Brume2 into the mobile App?](how_to_add_brume2_into_app.md)
+* [How to add Brume 2 into the mobile App?](how_to_add_brume2_into_app.md)
 * [How to change a WAN port to LAN port?](change_wan_to_lan.md)
 * [How to use HTTPS to access GL-iNet router and Adguard Home?](use_https_for_adh.md)
 * [How to connect GL-iNet Routers to Starlink Dish?](connect_glinetrouter_to_starlink.md)

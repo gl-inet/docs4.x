@@ -1,84 +1,90 @@
-# Can I add Brume2 into GLiNet Mobile App
+# How to add Brume 2 into GLiNet Mobile App
 
-You can add your Brume2(GL-MT2500/GL-MT2500A) into GLiNet Mobile App even it has no WiFi connection. You can either have your Brume2 being the main router or have it sitting as secondard router.
+You can add your Brume 2 (GL-MT2500/GL-MT2500A) into the GLiNet Mobile App even if it has no WiFi feature. You can either set it as the main router or the secondary router.
 
 The following methods are also applicable to Brume (GL-MV1000).
 
-## Brume2 as your secondary Router
+## Brume 2 as the Secondary Router
 
-## Topology
+**Topology**
+
+Here we have Slate AX (GL-AXT1800) as the main router and Brume 2 (GL-MT2500) as the secondary router.
 
 ![top1](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/top1.jpg){class="glboxshadow"}
 
-### Login your Brume2 admin panel and open port 80 with the side bar **Firewall** **Open Ports on Router**
+1. Log in to your Brume 2 web Admin Panel, go to **SYSTEM** -> **Security** -> **Open Ports on Router**, open port **80**.
 
-![open80](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/open80.jpg){class="glboxshadow"}
+    ![open80 1](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/open_port.png){class="glboxshadow"}
 
-### Login GL-AXT1800 and mark down the WAN IP of Brume2
+    For some older models, go to **Firewall** -> **Open Ports on Router**, open port **80**.
 
-![assignip](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/assignip.jpg){class="glboxshadow"}
+    ![open80 2](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/open80.jpg){class="glboxshadow"}
 
-### Connect your mobile to the WiFi of your Main Router, in this example is GL-AXT1800-308-5G
+2. Log in to main router and mark down the **WAN IP** of Brume 2
 
-![upperwifi](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/upperwifi.PNG){class="glboxshadow gl-50-desktop"}
+    ![assignip](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/assignip.jpg){class="glboxshadow"}
 
-### Launch the Mobile App and tab **Add New Device**
+3. Connect a phone to the WiFi of your main router.
 
-![adddevice](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/adddevice.PNG){class="glboxshadow gl-50-desktop"}
+    ![upperwifi](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/upperwifi.PNG){class="glboxshadow gl-50-desktop"}
 
-### Then tab **Initialized Devices**
+4. Launch the glinet App and click **Add New Device**.
 
-![initdevice](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/initdevice.PNG){class="glboxshadow gl-50-desktop"}
+    ![adddevice](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/adddevice.PNG){class="glboxshadow gl-50-desktop"}
 
-### Input the WAN IP you found in GL-AXT1800 before
+5. Then click **Initialized Devices**.
 
-![inputip](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/inputip.PNG){class="glboxshadow gl-50-desktop"}
+    ![initdevice](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/initdevice.PNG){class="glboxshadow gl-50-desktop"}
 
-### Input the login password of Brume2
+6. Input the WAN IP you found in the main router before.
 
-![inputpw](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/inputpw.PNG){class="glboxshadow gl-50-desktop"}
+    ![inputip](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/inputip.PNG){class="glboxshadow gl-50-desktop"}
 
-You Brume2 now will show up in the Mobile App
+7. Input the login password of Brume 2.
 
-![showup](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/showup.PNG){class="glboxshadow gl-50-desktop"}
+    ![inputpw](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/inputpw.PNG){class="glboxshadow gl-50-desktop"}
 
-## Brume2 as your Main Router
+    Now your Brume 2 will show up in the glinet mobile App.
 
-## Topology
+    ![showup](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/showup.PNG){class="glboxshadow gl-50-desktop"}
+
+## Brume 2 as the Main Router
+
+**Topology**
 
 ![top2](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/top2.jpg){class="glboxshadow"}
 
-### Login your secondard router, this time is GL-AXT1800 and set in into Access Point mode
+1. Log in to your secondary router, which is GL-AXT1800 in this case, and set it in Access Point mode.
 
-![setrouteap](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/setrouteap.jpg){class="glboxshadow"}
+    ![setrouteap](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/setrouteap.jpg){class="glboxshadow"}
 
-### Connect your mobile to the WiFi of your Access Point, in this example is GL-AXT1800-308-5G
+2. Connect a phone to the WiFi of your secondary router.
 
-![upperwifi](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/upperwifi.PNG){class="glboxshadow gl-50-desktop"} 
+    ![upperwifi](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/upperwifi.PNG){class="glboxshadow gl-50-desktop"} 
 
-### Launch the Mobile App and tab **Add New Device**
+3. Launch the glinet App and click **Add New Device**.
 
-![adddevice](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/adddevice.PNG){class="glboxshadow gl-50-desktop"}
+    ![adddevice](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/adddevice.PNG){class="glboxshadow gl-50-desktop"}
 
-### Select the picture of GL-MT2500
+4. Select your main router.
 
-![selectbrume2](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/selectbrume2.PNG){class="glboxshadow gl-50-desktop"}
+    ![selectbrume2](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/selectbrume2.PNG){class="glboxshadow gl-50-desktop"}
 
-### Tab **Next**
+5. Click **Next**
 
-![setupap](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/setupap.PNG){class="glboxshadow gl-50-desktop"}
+    ![setupap](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/setupap.PNG){class="glboxshadow gl-50-desktop"}
 
-### If you saw it is still connecting to the Access Point WiFi, just wait. If not, reconnect your mobile to Access Point WiFi
+6. If you are still connecting to the secondary router's WiFi, just wait. If not, re-connect to the secondary router's WiFi.
 
-![connectap](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/connectap.PNG){class="glboxshadow gl-50-desktop"}
+    ![connectap](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/connectap.PNG){class="glboxshadow gl-50-desktop"}
 
-### Input the login password of Brume2
+7. Input the login password of Brume 2.
 
-![inputpw](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/inputpw.PNG){class="glboxshadow gl-50-desktop"}
+    ![inputpw](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/inputpw.PNG){class="glboxshadow gl-50-desktop"}
 
-You Brume2 now will show up in the Mobile App
+    Now your Brume 2 will show up in the glinet mobile App.
 
-![showup](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/showup.PNG){class="glboxshadow gl-50-desktop"}
+    ![showup](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/showup.PNG){class="glboxshadow gl-50-desktop"}
 
 ---
 

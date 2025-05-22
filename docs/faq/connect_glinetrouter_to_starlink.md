@@ -1,4 +1,4 @@
-# How to Connect GL-iNet Router to a Starlink Dish
+# How to Connect GL.iNet Router to a Starlink Dish
 
 ## Topology
 
@@ -6,9 +6,9 @@
 
 1. Connect your Starlink Router power to the Starlink Dish.
 
-2. Connect Starlink LAN port to GLiNet Router WAN port.
+2. Connect Starlink LAN port to GL.iNet Router WAN port.
 
-3. Setup GLiNet Router by connecting it's LAN or WiFi. [First time setup](first_time_setup.md)
+3. Setup GL.iNet Router by connecting it's LAN or WiFi. [First time setup](first_time_setup.md)
 
     If you are using the below models, please go to **web Admin Panel** -> **NETWORK** -> **Network Acceleration**, then disable it
 

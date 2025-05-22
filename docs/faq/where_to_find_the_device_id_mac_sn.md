@@ -1,6 +1,6 @@
 # Where to find the Device ID, MAC address, Serial Number?
 
-## Method 1:
+## Method 1
 
 For most models, you can find them on the back of your router.
 
@@ -12,7 +12,7 @@ For older models, you can't find the Device ID, but you can find the DDNS, in fa
 
 ![label of gl-ar150](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/back_label_old.png){class="glboxshadow"}
 
-## Method 2:
+## Method 2
 
 Login to the web Admin Panel, you can find them on the left side -> APPLICATION -> GoodCloud.
 

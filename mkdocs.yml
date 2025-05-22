@@ -145,21 +145,19 @@ nav:
     - GL-MV1000 (Brume): user_guide/gl-mv1000/index.md
   - FAQ:
     - Overview: faq/index.md
-    - Common:
-      - First Time Setup: faq/first_time_setup.md
+    - Internet:
+      - First time setup: faq/first_time_setup.md
       - Warning from your browser: faq/warning_from_your_browser_during_setup.md
-      - Debrick via Uboot: faq/debrick.md
-      - LED Indication: faq/led.md
-      - Repair or Reset: faq/repair_network_or_reset_firmware.md
-      - Remote Access Web Admin Panel: faq/remote_access_web_admin_panel.md
-      - Remote SSH to Router: faq/remote_ssh_to_router.md
-    - Problem Notification:
-      - Critical Problem Notification for GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification.md
+      - Connect to Hotspot with Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
+      - Connect Ethernet-only device to Wi-Fi: faq/produce_a_wired_connection.md
+      - Build up an Intranet: faq/build_up_an_intranet.md
     - Troubleshooting:
       - Cannot access web Admin Panel: faq/cannot_access_web_admin_panel.md
       - Cannot Scan Android 5G Hotspot: faq/cannot_scan_android_5g_hotspot.md
       - Cannot Scan iPhone 5G Hotspot: faq/cannot_scan_iphone_5g_hotspot.md
       - iPhone tethering failed: faq/iphone_tethering_fail.md
+      - Cellular Network Troubleshooting Guide: faq/cellular_network_troubleshooting_guide.md
+      - Replacing the old router with GL.iNet router but has no internet: faq/i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md
       - USB modem is not working: faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
       - Repair network or reset: faq/repair_network_or_reset_firmware.md
       - What should I do if my router is bricked: faq/debrick.md
@@ -172,32 +170,32 @@ nav:
       - Why do I get a message from DDNS test: faq/why_do_I_get_a_message_from_ddns_test.md
       - Why is my VPN speed slow: faq/why_is_my_vpn_speed_slow.md
       - Upgrade Uboot version: faq/upgrade_uboot_version.md
-    - Internet:
-      - Build up an Intranet: faq/build_up_an_intranet.md
-      - Cannot Scan Android 5G Hotspot: faq/cannot_scan_android_5g_hotspot.md
-      - Cannot Scan iPhone 5G Hotspot: faq/cannot_scan_iphone_5g_hotspot.md
-      - Connect to a Hotspot with a Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
-      - Cellular Network Troubleshooting Guide: faq/cellular_network_troubleshooting_guide.md
-      - iPhone Tethering Fail: faq/iphone_tethering_fail.md
-      - I replaced my old router with GL.iNet Router but No internet: faq/i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md
-      - Produce a Wired Connection: faq/produce_a_wired_connection.md
     - VPN:
+      - How to set up OpenVPN: interface_guide/openvpn_client.md
+      - How to set up WireGuard: interface_guide/wireguard_client.md
+      - How to Block Non-VPN Traffic: faq/block_non_vpn_traffic.md
+      - VPN Kill Switch: faq/block_non_vpn_traffic.md
       - TCP or UDP: faq/openvpn_tcp_udp.md
       - Do I have to configure Ethernet WAN when using VPN?: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
-      - Block Non-VPN Traffic: faq/block_non_vpn_traffic.md
     - Upgrade:
-      - Download firmware: faq/where_to_download_firmware.md
+      - Download firmware: faq/how_to_download_firmware.md
       - Upgrade to firmware v4.x: faq/upgrade_to_4.md
+    - Problem Notification:
+      - Critical Problem Notification for GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification.md
     - Other:
-      - Can I add Brume2 into mobile App?: faq/can_i_add_brume2_into_app.md
+      - LED Indication: faq/led.md
+      - GL.iNet Mobile App: faq/mobile_app.md
+      - Add Brume2 into mobile App: faq/how_to_add_brume2_into_app.md
       - Change WAN to LAN: faq/change_wan_to_lan.md
-      - How to connect GL-iNet Routers to Starlink Dish?: faq/connect_glinetrouter_to_starlink.md
-      - How to use HTTPS to access GL-iNet Routers and Adguard Home?: faq/use_https_for_adh.md
-      - Mobile App: faq/mobile_app.md
+      - Access GL.iNet and Adguard Home via HTTPS: faq/use_https_for_adh.md
+      - Connect to Starlink Dish: faq/connect_glinetrouter_to_starlink.md
+      - Remote Web Admin: faq/remote_access_web_admin_panel.md
+      - Remote SSH to router: faq/remote_ssh_to_router.md
+      - Public IP checking: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+      - Make WiFi Calling work on Opal: faq/how_to_make_wifi_calling_work_on_opal.md
+      - Find all MAC addresses: faq/how_can_i_know_the_lan_wifi_mac.md
+      - Find device info: faq/where_to_find_the_device_id_mac_sn.md
       - What is LuCI: faq/what_is_luci.md
-      - Device ID, MAC, SN: faq/where_to_find_the_device_id_mac_sn.md
-      - Device LAN Mac, WiFi Mac: faq/how_can_i_know_the_lan_wifi_mac.md
-      - How to Make WiFi Calling Work on Opal (GL-SFT1200): faq/how_to_make_wifi_calling_work_on_opal.md
   - Tutorials:
     - Overview: tutorials/index.md
     - VPN: 

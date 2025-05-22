@@ -83,7 +83,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [System Overview](system_overview.md), displays some hardwares status and system info.
 * Upgrade
     * [Upgrade](upgrade.md)
-    * [Where to download official firmware?](../faq/where_to_download_firmware.md)
+    * [How to download official firmware?](../faq/how_to_download_firmware.md)
     * [How to upgrade from 3.x to firmware 4.x?](../faq/upgrade_to_4.md)
 * [Scheduled Tasks](scheduled_tasks.md), set scheduled LED display, reboot and Wi-Fi status.
 * [Change admin password](admin_password.md)

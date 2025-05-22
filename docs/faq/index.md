@@ -51,7 +51,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 ## Upgrade
 
 * [How to download the firmware for my router?](how_to_download_firmware.md)
-* [How to upgrade firmware from 3.x to 4.x?](upgrade_to_4.md)
+* [How to manually upgrade or downgrade router's firmware?](../tutorials/how_to_upgrade_downgrade_router.md)
 
 ## Problem Notification
 

@@ -179,7 +179,7 @@ nav:
       - Do I have to configure Ethernet WAN when using VPN?: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Upgrade:
       - Download firmware: faq/how_to_download_firmware.md
-      - Upgrade to firmware v4.x: faq/upgrade_to_4.md
+      - Manually upgrade or downgrade: tutorials/how_to_upgrade_downgrade_router.md
     - Problem Notification:
       - Critical Problem Notification for GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification.md
     - Other:

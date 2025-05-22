@@ -169,7 +169,7 @@ nav:
       - Stuck at "Reverting" screen during firmware reset: faq/stuck_at_reverting_screen.md
       - Stuck at "Rebooting" screen during firmware reboot: faq/stuck_at_rebooting_screen.md
       - How to resolve a subnet conflict: faq/how_to_resolve_a_subnet_conflict.md
-      - Warning on DDNS test: faq/warning_on_ddns_test.md
+      - Why do I get a message from DDNS test: faq/why_do_I_get_a_message_from_ddns_test.md
       - Why is my VPN speed slow: faq/why_is_my_vpn_speed_slow.md
       - Upgrade Uboot version: faq/upgrade_uboot_version.md
     - Internet:

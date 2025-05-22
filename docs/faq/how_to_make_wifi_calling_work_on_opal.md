@@ -8,12 +8,10 @@ In the web Admin Panel, go to SYSTEM -> Upgrade, upgrade the firmware to the lat
 
 ## Disable the Network Acceleration
 
-After the firmware upgrade, you can find the Network Acceleration on the left side of the web Admin Panel -> NETWORK -> Network Acceleration, please disable it manually.
+After the firmware upgrade, in the web Admin Panel, go to **NETWORK** -> **Network Acceleration**, then disable it.
 
 ![networkacc](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/netacc.jpg){class="glboxshadow}
 
-Based on our experience and feedback from our customer, the WiFi calling will work properly after disabling the Hardware Acceleration. But if this solution doesn't work on your device, please contact us via [support@gl.inet.biz](mailto:support@glinet.biz), and we will continue to provide help. 
+Based on our experience and customer feedback, the WiFi calling works properly after disabling the Nardware/Hardware Acceleration. 
 
----
-
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
+If this solution does not work on your device, please visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

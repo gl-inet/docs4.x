@@ -1,26 +1,31 @@
-# How to Connect GL.iNet Router to a Starlink Dish
+# How to connect a GL.iNet router to Starlink Dish?
 
-## Topology
+If you need to connect a GL.iNet router to Starlink Dish, follow the steps below.
+
+**Topology**
 
 ![starlinkgl](https://static.gl-inet.com/docs/router/en/4/faq/starlink/starlinkgl.jpg){class="glboxshadow"}
 
-1. Connect your Starlink Router power to the Starlink Dish.
+1. Connect the power of your Starlink router to the Starlink Dish.
 
-2. Connect Starlink LAN port to GL.iNet Router WAN port.
+2. Connect Starlink router's LAN port to GL.iNet router's WAN port.
 
-3. Setup GL.iNet Router by connecting it's LAN or WiFi. [First time setup](first_time_setup.md)
+3. Connect a device to the GL.iNet router's LAN port or WiFi, then configure the router for Internet access. [First time setup](first_time_setup.md)
 
-    If you are using the below models, please go to **web Admin Panel** -> **NETWORK** -> **Network Acceleration**, then disable it
+    If you are using the following models, please go to the web Admin Panel -> **NETWORK** -> **Network Acceleration**, then disable it.
 
-    | Router Model                   | Router Model      |  
-    | -----------------------------  |-------------------|
-    | GL-MT6000 (Flint 2)            |GL-MT2500 (Brume2) |
-    | GL-XE3000 (Puli AX)            |GL-MT1300 (Beryl)  |
-    | GL-X3000  (Spits AX)           |GL-SFT1200 (Opal)  | 
+    | Router Model                   |
+    | -----------------------------  |
+    | GL-MT6000 (Flint 2)            |
+    | GL-XE3000 (Puli AX)            |
+    | GL-X3000  (Spits AX)           |
+    | GL-MT2500 (Brume 2)            |
+    | GL-MT1300 (Beryl)              |
+    | GL-SFT1200 (Opal)              |
 
     ![netacc](https://static.gl-inet.com/docs/router/en/4/faq/starlink/netacc.jpg){class="glboxshadow"}
 
-4. Open Starlink App, go to setting, enable the Bypass mode.
+4. Open Starlink App, go to Settings and enable the **Bypass mode**.
 
 ---
 

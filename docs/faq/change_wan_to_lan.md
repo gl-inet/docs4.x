@@ -1,12 +1,14 @@
 # Change WAN to LAN
 
-You can configure the WAN port of the router so that it can be used as a LAN port. That's useful when you are using the router in repeater mode which the WAN port is not required. As a result, you can have one more LAN port.
+You can change the WAN port of your router to be a LAN port. This is particularly useful when using the router in repeater mode, where the WAN port is unnecessary. As a result, you will have an additional LAN port for expanded connectivity.
 
-1. Leave the WAN port of the router unconnected.
+Follow the steps below to change WAN to LAN.
 
-2. Connect your device to the router and access the web Admin Panel.
+1. Leave the WAN port unconnected.
 
-3. Go to **Internet**, it display the WAN port is **Using as WAN** in Ethernet section, click **Change to LAN** to change it as LAN.
+2. Connect a device to the router and access the web Admin Panel.
+
+3. Go to **Internet** -> **Ethernet** section, where it display the WAN port status is **Using as WAN**. Click **Change to LAN**.
 
 	![internet page](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
 
@@ -14,13 +16,13 @@ You can configure the WAN port of the router so that it can be used as a LAN por
 
 	![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
 
-  **Note**: Wi-Fi may turn off during the process, please make sure to reconnect to the router.
+	**Note**: Wi-Fi may disconnect temporarily during this process. Please ensure you reconnect to the router once completed.
 
-5. Then it display `Using as LAN`.
+5. Back in the Ethernet section, it displays `Using as LAN`.
 
 	![using as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
 
-You can simply revert the setting by repeating the above procedures.
+	You can simply revert the setting by repeating the above procedures.
 
 ---
 

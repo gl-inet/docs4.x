@@ -64,7 +64,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 * [How to add Brume 2 into the mobile App?](how_to_add_brume2_into_app.md)
 * [How to change a WAN port to LAN port?](change_wan_to_lan.md)
 * [How to use HTTPS to access GL-iNet router and Adguard Home?](use_https_for_adh.md)
-* [How to connect GL-iNet Routers to Starlink Dish?](connect_glinetrouter_to_starlink.md)
+* [How to connect a GL-iNet router to Starlink Dish?](connect_glinetrouter_to_starlink.md)
 * [How to remote access router's web Admin Panel?](remote_access_web_admin_panel.md)
 * [How to remote ssh to router?](remote_ssh_to_router.md)
 * [How to check if ISP assigns you a public IP address?](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)

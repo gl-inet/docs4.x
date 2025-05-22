@@ -1,10 +1,14 @@
-# MacOS cannot write in Samba
+# MacOS cannot write to a Samba share
 
-You may experience some Mac devices given you a error messsge when using ExFAT format to write a file into it.
+When using an ExFAT-formatted storage device with a Samba share on macOS, some Mac devices may display an error message when trying to write a file: 
+
+**"The operation can't be completed because an unexpected error occurred (error code 100093)."**
 
 ![macopyerror](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/macos_cannot_write_samba/macopyerror.jpg){class="glboxshadow"}
 
-This is due to the Finder will add attributes to the file before transfer and making the file is different from original for coping. You can solve this issue by:
+This is because the Finder adds file attributes before transferring, making the file different from the original when copying.
+
+You can solve this issue by the following methods.
 
 Method 1. Change your storage device into **NTFS** format.
 

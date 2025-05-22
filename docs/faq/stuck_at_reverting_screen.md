@@ -1,10 +1,10 @@
-# Stuck on the "Reverting" screen when resetting the router's firmware
+# Stuck at "Reverting" screen during firmware reset
 
-If you are stuck on the "Reverting" screen when resetting your router's firmware, refer to the following steps to resolve the issue.
+If you are stuck at the "Reverting" screen when resetting your router's firmware, refer to the following steps to resolve the issue.
 
 ![stuck on reverting](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_reverting/reverting.png){class="glboxshadow"}
 
-After each step, check if the issue is resolved. If the issue is resolved, you can skip the rest of the steps.
+After each step, check if the issue is resolved. If resolved, skip the remaining steps.
 
 1. Wait for at least 10 minutes to see if the reverting process completes on its own. The reverting process can sometimes take longer than expected.
 
@@ -12,11 +12,11 @@ After each step, check if the issue is resolved. If the issue is resolved, you c
 
 3. In a web browser, enter `192.168.8.1`. If the reverting process was successful, you will be directed to the setup guide.
 
-4. Enable the private/incognito mode of your browser, enter `192.168.8.1`. If the reverting process was successful, you will be directed to the setup guide.
+4. Enable the private/incognito mode of your browser and enter `192.168.8.1`. If the reverting process was successful, you will be directed to the setup guide.
 
 5. Use a different browser (e.g., Chrome, Edge, Safari) to enter `192.168.8.1`. If the reverting process was successful, you will be directed to the setup guide.
 
-6. If you still cannot access the router's web Admin Panel or the router is not functioning properly, try resetting the router to its factory default settings by follow [this](repair_network_or_reset_firmware.md/#reset-to-factory) guide.
+6. If you still cannot access the router's web Admin Panel or the router is not functioning properly, try resetting the router to its factory default settings by following [this](repair_network_or_reset_firmware.md/#reset-to-factory) guide.
 
 ---
 

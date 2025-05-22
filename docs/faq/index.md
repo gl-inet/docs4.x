@@ -25,22 +25,21 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 
 ## Troubleshooting
 
+* [Cannot access the router through 192.168.8.1](cannot_access_web_admin_panel.md)
 * [Cannot Scan Android 5G Hotspot](cannot_scan_android_5g_hotspot.md)
 * [Cannot Scan iPhone 5G Hotspot](cannot_scan_iphone_5g_hotspot.md)
-* [USB modem is not working properly on GL.iNet router](usb_modem_is_not_working_properly_on_gl_inet_router.md)
-* [Debrick via Uboot](debrick.md)
-* [How to repair network or reset to factory setting?](repair_network_or_reset_firmware.md)
 * [iPhone tethering failed](iphone_tethering_fail.md)
-* [MacOS cannot write in Samba](macos_cannot_write_samba.md)
-* [Stuck on the "Installing" screen when updating the router](stuck_on_installing_screen.md)
-* [Stuck on the "Reverting" screen when resetting the router](stuck_on_reverting_screen.md)
-* [Stuck on the "Rebooting" screen when rebooting the router](stuck_on_rebooting_screen.md)
+* [USB modem is not working properly on GL.iNet router](usb_modem_is_not_working_properly_on_gl_inet_router.md)
+* [How to repair network or reset to factory setting?](repair_network_or_reset_firmware.md)
 * [What should I do if my router is bricked?](debrick.md)
-* [Why can't I access the router through 192.168.8.1?](cannot_access_web_admin_panel.md)
-* [My Wireguard server is not working properly](my_wireguard_server_is_not_working.md)
-* [What should I do if I saw Subnet Conflict](what_should_i_do_with_subnet_conflict.md)
+* [MacOS cannot write to a Samba share](macos_cannot_write_samba.md)
+* [WireGuard server is not working properly](my_wireguard_server_is_not_working.md)
+* [Stuck at the "Installing" screen during firmware update](stuck_at_installing_screen.md)
+* [Stuck at the "Reverting" screen during firmware reset](stuck_at_reverting_screen.md)
+* [Stuck at the "Rebooting" screen during firmware reboot](stuck_at_rebooting_screen.md)
+* [How to resolve a subnet conflict](how_to_resolve_a_subnet_conflict.md)
 * [Warning on DDNS test](warning_on_ddns_test.md)
-* [Why My VPN Speed is Low](why_my_vpn_speed_is_low.md)
+* [Why is my VPN speed slow](why_is_my_vpn_speed_slow.md)
 * [Upgrade Uboot Version](upgrade_uboot_version.md)
 
 ## Internet Connection

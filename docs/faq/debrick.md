@@ -1,8 +1,8 @@
-# Using Uboot to Debrick Your Router
+# Using U-Boot to debrick your router
 
-You may have bricked your router if you were doing some DIY projects or flashed a wrong firmware. You may not be able to access your router but you can re-install the firmware by using Uboot failsafe.
+You may have bricked your router if you were doing some DIY projects or flashed a wrong firmware. You may not be able to access your router but you can re-install the firmware by using U-Boot failsafe.
 
-**Note:** The Uboot operation will remove your router's settings and installed plugins.
+**Note:** The U-Boot operation will remove your router's settings and installed plugins.
 
 ---
 
@@ -12,15 +12,15 @@ Please prepare a computer with an ethernet port. If your computer does not have 
 
 ## Debrick Steps
 
-Refer to this video tutorial or follow the procedures below to access the Uboot Web UI and re-install the firmware.
+Refer to this video tutorial or follow the procedures below to access the U-Boot Web UI and re-install the firmware.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pz0DidfIXRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<small>The steps for using Uboot to re-install firmware are roughly the same, and this video takes Mudi/Mudi V2 as an example. For other models, you may follow the procedures below.</small>
+<small>The steps for using U-Boot to re-install firmware are roughly the same, and this video takes Mudi/Mudi V2 as an example. For other models, you may follow the procedures below.</small>
 
 1. Download firmware [here](https://dl.gl-inet.com/){target="_blank"} to your computer.
 
-    Some models, such as GL-AR750S-EXT, are available in two formats of firmware. Please use the firmware for Uboot, whose file name extension is **.img**.
+    Some models, such as GL-AR750S-EXT, are available in two formats of firmware. Please use the firmware for U-Boot, whose file name extension is **.img**.
 
 2. Remove the power of router. Connect your computer to the **Ethernet LAN port** of the router. You **MUST** leave all the other ports **unconnected**.
 
@@ -34,7 +34,7 @@ Refer to this video tutorial or follow the procedures below to access the Uboot 
 
     The following will give the description of sequence of each model of LED flashing.
 
-    **Note:** Same router models with different manufacturing dates may have different LED colours or flashing sequences, it won't affect the UBoot process. Please pay more attention to the change of the flashing LED.
+    **Note:** Same router models with different manufacturing dates may have different LED colours or flashing sequences, it won't affect the U-Boot process. Please pay more attention to the change of the flashing LED.
 
     - For **GL-BE3600(Slate 7)**, after holding down the reset button for about 5 seconds, a 5-second countdown will appear on the LED display. Keep pressing the reset button until the next step is displayed on the screen:
         1. Manually set the IP address of your computer to 192.168.1.2
@@ -156,11 +156,11 @@ Refer to this video tutorial or follow the procedures below to access the Uboot 
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-5. Use browser to visit **http://192.168.1.1**. This is the Uboot Web UI.
+5. Use browser to visit **http://192.168.1.1**. This is the U-Boot Web UI.
 
     ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
-    **Note:** The Uboot Web UI above may not be exactly the same as what you see, because the Uboot version is different for different production dates. In some extreme cases, we recommend upgrading the Uboot version. Please refer to the tutorial [here](upgrade_uboot_version.md).
+    **Note:** The U-Boot Web UI above may not be exactly the same as what you see, because the U-Boot version is different for different production dates. In some extreme cases, we recommend upgrading the U-Boot version. Please refer to the tutorial [here](upgrade_uboot_version.md).
 
 6. Click **Choose file** button to find the firmware file. Then click **Update firmware** button.
 

@@ -1,10 +1,10 @@
-# Stuck on the "Rebooting" screen when rebooting the router's firmware
+# Stuck at "Rebooting" screen during firmware reboot
 
-If you are stuck on the "Rebooting" screen when rebooting your router's firmware, follow these steps to resolve the issue:
+If you are stuck at the "Rebooting" screen when rebooting your router's firmware, follow these steps to resolve the issue:
 
 ![stuck on rebooting](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_rebooting/rebooting.png){class="glboxshadow"}
 
-After each step, check if the issue is resolved. If the issue is resolved, you can skip the rest of the steps.
+After each step, check if the issue is resolved. If resolved, skip the remaining steps.
 
 1. Wait for at least 5 minutes to see if the rebooting process completes on its own. The rebooting process can sometimes take longer than expected, especially after a firmware update.
 

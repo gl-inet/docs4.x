@@ -1,6 +1,10 @@
-# My device can only be connected through Ethernet cable. Can I use this router to connect my device to a wireless network?
+# Can I connect an Ethernet-only device to Wi-Fi using GL.iNet router?
 
-Yes.
+Yes, you can.
+
+If your device only supports Ethernet connectivity but needs to connect to a wireless network, a GL.iNet router can bridge this gap.
+
+A GL.iNet router can act as an Ethernet-to-Wi-Fi bridge for devices that only have a wired connection, allowing them to join a wireless network. This is achieved by configuring the router as Repeater.
 
 Please connect your device to the LAN port of the router and then set up [repeater](../interface_guide/internet_repeater.md).
 

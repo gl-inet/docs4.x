@@ -2,33 +2,37 @@
 
 Scenario: If you want to set up WireGuard server in GL.iNet router at home/office to remote access your local service, but your ISP doesn't provide a public IP address.
 
-[AstroRelay](https://www.astrorelay.com){target="_blank"} can provide a secure reverse proxy tunnel, which you can access your resources behind NAT and firewall.
+[AstroRelay](https://www.astrorelay.com){target="_blank"} provides a secure reverse proxy tunnel, through which you can securely access resources behind NAT and firewalls.
 
-1. Follow the guide [here](../interface_guide/wireguard_server.md) to set up WireGuard server and ignoring that your don't have a public IP address. Please enable **Allow Access Local Network**.
+1. Follow the guide [here](../interface_guide/wireguard_server.md) to set up WireGuard server even if you don't have a public IP address. Please enable **Allow Access Local Network**.
 
     ![set up wireguard server](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/start_wg_server4x.jpg){class="glboxshadow"}
 
-    Then create a WireGuard configuration. Below image is an example.
+    Then export a WireGuard configuration. The image below is an example.
 
     ![wireguard config](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/wireguard_config.png){class="glboxshadow"}
 
-2. Please sign up an AstroRelay account and Follow the [tutorial](https://www.astrorelay.com/tutorial.html){target="_blank"}.
+2. Sign up an AstroRelay account and follow this [tutorial](https://www.astrorelay.com/tutorial.html){target="_blank"} to complete first-time setup.
 
-    When add a new domain, please choose the server closest to your router.
+    When adding a new domain, please choose the server closest to your router.
 
     ![astrorelay add a new domain](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/astrorelay_add_a_new_domain.png){class="glboxshadow"}
 
-    When add a new link, the **Destination Host IP** is your router's IP address, default is **192.168.8.1**.
+    When adding a new link, input your router's **LAN IP address** into the **Destination Host IP** box. Input **51820** into the **Destination Port** box.
 
     ![link for wireguard server](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/astrorelay_wg_server.png){class="glboxshadow"}
 
-    You can get a link finally, like **wg_server_test.arlab1.cc:33331**.
+    Then you will get a link, such as **wg_server_test.arlab1.cc:33331**. Click on it to copy the link.
 
     ![astrorelay link](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/astrorelay_link.png){class="glboxshadow"}
 
-3. Replace this link with the **Endpoint** in the WireGuard configuration. Then you can use the modified config in WireGuard client app.
+3. Open the WireGuard configuration, replace the data after **Endpoint** with the link you got in previous step. Then you will be able to use the modified config in WireGuard client app.
 
     ![replace link in wireguard config](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/replace_endpoint_in_wireguard_config.png){class="glboxshadow"}
 
-4. When you are not at home/office, you can use the WireGuard client app with the configuration created above to access your home/office local service as you at home/office.
+4. When you are not at home/office, you can upload the modified config file into the WireGuard client app to access your home/office local service as you are at home/office.
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
 

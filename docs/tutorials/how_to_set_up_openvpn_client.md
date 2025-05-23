@@ -6,9 +6,11 @@ Before you start, ensure you have an active subscription with a VPN service prov
 
 The following instructions guide you through setting up an OpenVPN client via the router admin panel. (To set up an OpenVPN client via the GL.iNet mobile app, [download the app](https://www.gl-inet.com/app/) and set it up.)
 
-## 1. Log in to the admin panel 
+## 1. Log in to your router
 
 In a web browser, enter the URL (e.g.,192.168.8.1) to access the router admin panel. Enter your admin password, then click **Login**. 
+
+![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/router-login.jpeg){class="glboxshadow"}
 
 ## 2. Set up VPN client
 

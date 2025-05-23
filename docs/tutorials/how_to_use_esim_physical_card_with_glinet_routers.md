@@ -1,6 +1,6 @@
-# How to set up the eSIM Physical Card with GL.iNet routers?
+# How to use the eSIM Physical Card with GL.iNet routers?
 
-This guide will show you how to set up and activate the eSIM Physical card purchased from the GL.iNet online store. 
+This guide will show you how to use the eSIM Physical card purchased from the GL.iNet online store with GL.iNet routers. 
 
 ![eSIM Physical Card](https://static.gl-inet.com/www/images/solutions/esim/esimchip-and-physical-esim.jpg){class="glboxshadow"}
 

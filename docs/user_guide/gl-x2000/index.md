@@ -51,7 +51,7 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
     
     Please note that eSIM functionality of GL-X2000 is available on Firmware v4.7 and above.
 
-    Learn how to set up the eSIM physical card on GL.iNet router here: [How to Set Up the eSIM Physical Card with the GL.iNet Routers?](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/)
+    Learn how to use the eSIM physical card on GL.iNet router [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
 === "Ethernet"
 
@@ -139,9 +139,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "eSIM"
 
-    This router supports eSIM functionality only on [Beta Firmware v4.5.22](https://dl.gl-inet.com/router/x2000/beta). 
+    This router supports eSIM functionality only on Firmware v4.7 and above. 
     
-    To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md).
+    To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     

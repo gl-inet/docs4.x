@@ -58,7 +58,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Parental Control](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
-* [eSIM Management](../tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md)
+* [eSIM Management](../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
 ## Network
 

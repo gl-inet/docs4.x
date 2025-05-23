@@ -55,7 +55,7 @@ In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your la
     **Option 2: Physical SIM Card**  
 
     * The router supports **Dual SIM, Single Standby**, allowing you to insert two SIM cards for internet access. However, only one SIM card can be active at a time, and you can manually switch between them.  
-    * Additionally, this router supports **physical eSIM**. Follow our step-by-step guide to set up your eSIM:  [How to Set Up the eSIM Physical Card with GL.iNet Routers.](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/)
+    * Additionally, this router supports **physical eSIM**. Follow our step-by-step guide to set up your eSIM [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
 
 === "Ethernet"
@@ -219,7 +219,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     This router supports eSIM functionality. To enable the feature, ensure you are using [firmware version 4.4.13](https://dl.gl-inet.com/release/router/release/xe3000/4.4.13) or later.  
     
-    To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md).
+    To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
     
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

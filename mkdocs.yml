@@ -39,7 +39,7 @@ plugins:
   - redirects:
       redirect_maps:
         'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
-        'tutorials/how_to_set_up_esim.md': 'tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md'
+        'tutorials/how_to_set_up_esim.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
         'tutorials/tap_s2s_vs_tun.md': 'tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md'
         'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
         'interface_guide/firmware_upgrade.md': 'interface_guide/upgrade.md'
@@ -220,7 +220,7 @@ nav:
       - Set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
       - Install or change external antennas for Spitz AX or Puli AX: tutorials/how_to_change_x3000_and_xe3000_antennas.md
     - eSIM:
-      - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md
+      - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Use eSIM Physical Card with Android devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
@@ -277,7 +277,7 @@ nav:
       - Parental Control: interface_guide/parental_control.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
-      - eSIM Management: tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md
+      - eSIM Management: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
     - Network:
       - Firewall: interface_guide/firewall.md
       - Port Forwarding: interface_guide/port_forwarding.md

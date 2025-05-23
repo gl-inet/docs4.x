@@ -199,53 +199,52 @@ nav:
   - Tutorials:
     - Overview: tutorials/index.md
     - VPN: 
-      - How to set up an OpenVPN client on a GL.iNet router: tutorials/how_to_set_up_openvpn_client.md
-      - How to set up an OpenVPN server on a GL.iNet router: tutorials/how_to_set_up_openvpn_server.md
-      - Build your own WireGuard Home Server with two GL.iNet Routers: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
-      - How to connect to the dedicated IP by NordVPN on GL.iNet routers: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
-      - How to connect to the dedicated IP by Surfshark on GL.iNet routers: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
-      - How to set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
-      - How to set up Wireguard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
-      - How to access Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
-      - How to access Client LAN from Server(OpenVPN): tutorials/openvpn_server_access_client_lan_side.md
-      - How to enable OpenVPN TAP-S2S mode on GL.iNet routers: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
-      - How to use VPN Cascading on GL.iNet routers: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
-      - Use Wireguard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
-      - How to get configuration files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+      - Set up OpenVPN client: tutorials/how_to_set_up_openvpn_client.md
+      - Set up OpenVPN server: tutorials/how_to_set_up_openvpn_server.md
+      - Build your own WireGuard home server: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+      - Connect to the dedicated IP by NordVPN: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
+      - Connect to the dedicated IP by Surfshark: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
+      - Set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
+      - Set up WireGuard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
+      - Access Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - Access Client LAN from Server(OpenVPN): tutorials/openvpn_server_access_client_lan_side.md
+      - Enable OpenVPN TAP-S2S: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
+      - Enable VPN Cascading: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
+      - Use WireGuard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
+      - Get config files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
     - Cellular:
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Module Logs: tutorials/get_module_logs.md
-      - Upgrade Quectel Module Software: tutorials/upgrade_quectel_module_software.md
-      - How to check the carrier aggregation status on your cellular router: tutorials/how_to_check_carrier_aggregation.md
-      - How to install or change Spitz AX's or Puli AX's external antennas: tutorials/how_to_change_x3000_and_xe3000_antennas.md
-      - How to set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
+      - Upgrade Quectel Module: tutorials/upgrade_quectel_module_software.md
+      - Check the carrier aggregation status: tutorials/how_to_check_carrier_aggregation.md
+      - Set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
+      - Install or change external antennas for Spitz AX or Puli AX: tutorials/how_to_change_x3000_and_xe3000_antennas.md
     - eSIM:
-      - How to Set Up the eSIM Physical Card with the GL.iNet Routers: tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md
-      - How to Use the eSIM Physical Card with Android Devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
+      - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_set_up_esim_physical_card_with_glinet_routers.md
+      - Use eSIM Physical Card with Android devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
-      - How to Access the LuCI Interface via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
+      - Access the LuCI via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
     - Network:
-      - How to set up a guest network: tutorials/how_to_set_up_a_guest_network.md
-      - How to set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
-      - How to set up port forwarding on your primary router: tutorials/how_to_set_up_port_forwarding.md
-      - How To set up Two Wired WAN without Two WAN ports: tutorials/can_i_use_multiwan_wired_input.md
-
+      - Set up a guest network: tutorials/how_to_set_up_a_guest_network.md
+      - Set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
+      - Set up port forwarding on your primary router: tutorials/how_to_set_up_port_forwarding.md
+      - Set up two wired WAN without two WAN ports: tutorials/can_i_use_multiwan_wired_input.md
     - Network Storage:
-      - How to use WinSCP to access your share files: tutorials/winscp_share_file.md
+      - Use WinSCP to access your share files: tutorials/winscp_share_file.md
     - Others:
-      - How to block client devices: tutorials/how_to_block_client_devices.md
-      - How to manually configure static IP on the client devices: tutorials/manually_configure_static_ip.md
-      - How to check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
-      - How to upgrade or downgrade your router (from v4.x to v4.x): tutorials/how_to_upgrade_downgrade_router.md
-      - How to connect to an Extensible Authentication Protocol Network: tutorials/eap.md
-      - How to SSH log in to the Router: tutorials/ssh_log_in_to_the_router.md
-      - How to use WinSCP to modify files on GL.iNet routers: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
-      - How to activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
-      - How to change the NAT type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
-      - How to retrieve the Mobile App Log: tutorials/how_to_retrieve_the_mobile_app_log.md
-      - How to Configure Domain and IP Filtering Rules for GL.iNet Routers via an Online Text File: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
-      - Technical support via GoodCloud: tutorials/technical_support_via_goodcloud.md
+      - Block client devices: tutorials/how_to_block_client_devices.md
+      - Manually configure static IP on client devices: tutorials/manually_configure_static_ip.md
+      - Check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+      - Upgrade or downgrade your router: tutorials/how_to_upgrade_downgrade_router.md
+      - Connect to EAP network: tutorials/eap.md
+      - SSH log in to the Router: tutorials/ssh_log_in_to_the_router.md
+      - Use WinSCP to modify files: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
+      - Activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
+      - Change the NAT type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
+      - Retrieve the mobile App log: tutorials/how_to_retrieve_the_mobile_app_log.md
+      - Configure Domain and IP Filtering rules for VPN: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+      - Technical Support via GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Interface Guide:
     - Overview: interface_guide/index.md
     - Internet Connection:

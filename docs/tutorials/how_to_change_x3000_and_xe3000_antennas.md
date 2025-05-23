@@ -1,4 +1,4 @@
-# How to install or change your Spitz AX's or Puli AX's external antennas
+# How to install or change external antennas for Spitz AX or Puli AX
 
 When you are setting up your Spitz AX (GL-X3000) or Puli AX (GL-XE3000) for the first time, you will have to install the six external antennas included in the package. These external antennas are: 
 

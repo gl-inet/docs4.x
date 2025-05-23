@@ -1,6 +1,6 @@
 # Can I use Multi-WAN wired input if my GL router doesn't have two WAN ports?
 
-Yes, you can! Our router supports most common Ethernet to USB-A adapters. Simply plug the Ethernet to USB-A adapter into the USB port on the router and connect the other end to your ISP router.
+Yes, you can. Our router supports most common Ethernet to USB-A adapters. Simply plug the Ethernet to USB-A adapter into the USB port on the router and connect the other end to your ISP router.
 
 ## Topology
 

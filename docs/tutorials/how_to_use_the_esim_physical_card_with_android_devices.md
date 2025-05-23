@@ -1,4 +1,4 @@
-# How to Use the eSIM Physical Card with Android Devices
+# How to use the eSIM Physical Card with Android devices
 
 This guide provides step-by-step instructions for setting up and activating the eSIM Physical Card purchased from the GL.iNet online store. The eSIM Physical Card is compatible with most Android devices, offering effortless internet connectivity and seamless performance.
 

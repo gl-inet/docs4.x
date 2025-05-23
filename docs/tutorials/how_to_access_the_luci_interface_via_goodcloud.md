@@ -1,4 +1,4 @@
-# How to Access the LuCI Interface via GoodCloud
+# How to access the LuCI interface via GoodCloud
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} breaks through geographical limitations and provides a convenient way for remote router management. Through GoodCloud, you can access the LuCI interface of the router anytime and anywhere, perform various settings on the router and easily manage the network.
 

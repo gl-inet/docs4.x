@@ -1,6 +1,6 @@
-# How to set up a guest Wi-Fi network on a GL.iNet router
+# How to set up a guest Wi-Fi network on GL.iNet routers
 
-This tutorial will show you how to set up a guest Wi-Fi network on a GL.iNet router. 
+This tutorial will show you how to set up a guest Wi-Fi network on GL.iNet routers. 
 
 A guest Wi-Fi network is a separate network on a router for devices you want to isolate from your main devices. These include guest devices and your smart home devices. By creating a guest network, you can prevent unauthorized access to and potential attacks on your primary network, enhancing your network security. 
 

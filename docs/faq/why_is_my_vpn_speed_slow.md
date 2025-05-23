@@ -1,4 +1,4 @@
-# Why is my VPN speed slow
+# Why is my VPN speed slow?
 
 ## Router's CPU Speed
 

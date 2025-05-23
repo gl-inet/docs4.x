@@ -1,4 +1,4 @@
-# How to make WiFi Calling work on Opal (GL-SFT1200)
+# How to make WiFi Calling work on Opal (GL-SFT1200)?
 
 ## Ensure the Firmware is V4.3.17 or Above
 

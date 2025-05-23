@@ -1,4 +1,4 @@
-# How to resolve a LAN subnet conflict
+# How to resolve a LAN subnet conflict?
 
 When you plug an ethernet cable from home router to the WAN port of GL.iNet router, sometimes you might see this message:
 

@@ -1,4 +1,4 @@
-# How to add Brume 2 into GLiNet Mobile App
+# How to add Brume 2 into GLiNet Mobile App?
 
 You can add your Brume 2 (GL-MT2500/GL-MT2500A) into the GLiNet Mobile App even if it has no WiFi feature. You can either set it as the main router or the secondary router.
 

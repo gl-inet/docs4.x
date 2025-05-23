@@ -1,4 +1,4 @@
-# How can I find all MAC addresses of my device
+# How can I find all MAC addresses of my device?
 
 ## Usage Scenario
 

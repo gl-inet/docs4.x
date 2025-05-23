@@ -1,4 +1,4 @@
-# What is LuCI
+# What is LuCI?
 
 LuCI is the web user interface of OpenWrt.
 

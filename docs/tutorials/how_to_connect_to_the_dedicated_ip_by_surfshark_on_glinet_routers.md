@@ -1,38 +1,38 @@
 # How to connect to the dedicated IP by Surfshark on GL.iNet routers?
 
-This article introduces the produces to setup the dedicated IP by Surfshark. Here we take GL-AXT1800 as the example, other models are just similar.
+This article introduces the steps to set up the dedicated IP by Surfshark. 
 
-## Login your Surfshark web account
+Here we take GL-AXT1800 as an example.
 
-Select Dedicated IP
+1. Log in to your Surfshark account, select **Dedicated IP**.
 
-![manualdip](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manualdip.jpg){calss="glboxshadow"}
+    ![manualdip](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manualdip.jpg){calss="glboxshadow"}
 
-Under the Dedicated IP section, click on Settings.
+2. Under the Dedicated IP section, click on **Settings**.
 
-![setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark_dip/setting.jpg){calss="glboxshadow"}
+    ![setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark_dip/setting.jpg){calss="glboxshadow"}
 
-## Select a protocol 
+3. **Select a protocol (WireGuard or OpenVPN) and download** config files for manual connection.
 
-![protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/protocol.jpg){calss="glboxshadow"}
+    ![protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/protocol.jpg){calss="glboxshadow"}
+    
+    For WireGuard Configuration, the download page is as shown below.
+    
+    ![loadwg](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark_dip/loadwg.jpg){calss="glboxshadow"}
 
-## Download Configuration files
+    For OpenVPN Configuration, the download page is as shown below.
+    
+    ![loadovpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/loadovpn.jpg){calss="glboxshadow"}
 
-### Wireguard Configuration
+    Copy the **credentials** for later use.
 
-![loadwg](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark_dip/loadwg.jpg){calss="glboxshadow"}
+4. Refer to the links below to upload the configuration files to GL.iNet router. 
 
-### OpenVPN Configuration
+    Enter the credentials if required.
 
-Copy the credentials and paste them to the router.
+    - [Upload Wireguard Configuration](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files)
 
-![loadovpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/loadovpn.jpg){calss="glboxshadow"}
-
-## Upload Configuration files to GLiNet router
-
-[Set up Wireguard Client](../interface_guide/wireguard_client.md)
-
-[Set up OpenVPN Client](../interface_guide/openvpn_client.md)
+    - [Upload OpenVPN Configuration](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/#set-up-openvpn-client)
 
 ---
 

@@ -6,7 +6,7 @@ Here we use GL-MT6000 as the example to run WireGuard VPN server at the home sit
 
 As for the travel router, we use GL-MT3000 as the example, and you can choose others as well.
 
-## Why you need to build own your WireGuard home server
+## Why you need to build your own WireGuard home server
 
 1. Use your home IP address as the Internet address, acting as that you are just at home.
 2. No need to pay the monthly fee when comparing with the 3rd parties VPN service.

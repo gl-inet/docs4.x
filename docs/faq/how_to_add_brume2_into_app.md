@@ -14,7 +14,7 @@ Here we have Slate AX (GL-AXT1800) as the main router and Brume 2 (GL-MT2500) as
 
 1. Log in to your Brume 2 web Admin Panel, go to **SYSTEM** -> **Security** -> **Open Ports on Router**, open port **80**.
 
-    ![open80 1](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/open_port.png){class="glboxshadow"}
+    ![open80 1](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/open80.png){class="glboxshadow"}
 
     For some older models, go to **Firewall** -> **Open Ports on Router**, open port **80**.
 

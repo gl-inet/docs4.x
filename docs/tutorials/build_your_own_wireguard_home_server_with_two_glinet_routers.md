@@ -129,11 +129,13 @@ Copy the text for the client, or click the Download button and save it for later
 
 ### Change the LAN IP
 
-Since we use GL-MT6000 and GL-MT3000 as examples in this tutorial, whose default LAN IPs are both **192.168.8.1**, we need to change one of them to a different LAN IP.
+Since we use GL-MT6000 and GL-MT3000 as examples in this tutorial, whose default LAN IPs are both **192.168.8.1**, we need to change one of them to a different LAN IP to avoid conflict.
 
 Login to the web Admin Panel of GL-MT3000, go to the **NETWORK** from the left side bar -> **LAN** to change the LAN IP.
 
 [Change the LAN IP](../interface_guide/lan.md)
+
+![change lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/change_lan_ip.png){class="glboxshadow"}
 
 ### Add the Configuration
 

@@ -157,7 +157,7 @@
 
 ### GL-XE300
 
-![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_interface.jpg){class="glboxshadow"}
+![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_led.png){class="glboxshadow gl-70-desktop"}
 
 * Battery LED (During charging)
 	* Flashing 1/4: battery level 0%-25%
@@ -258,7 +258,7 @@
 	- On: 2.4G WiFi is connected
 	- Off: 2.4G WiFi is disconnected
 
-### GL-AM300M Series
+### GL-AR300M Series
 
 ![gl-ar300m interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/ar300m_interface.png){class="glboxshadow"}
 

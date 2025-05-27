@@ -219,7 +219,7 @@ If the Data Used exceeds the Data Cap Amount, please modify the **Data Cap Amoun
 
     Then you can modify or reset the data used. 
 
-    ![traffic statistics 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/traffic_statistics_3.jpg){class="glboxshadow"}
+    ![traffic statistics 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/traffic_statistics_3_new.png){class="glboxshadow"}
 
 - **Set up SIM data limit**
 

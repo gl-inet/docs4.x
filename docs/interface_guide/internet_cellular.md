@@ -209,15 +209,27 @@ You will enter the Traffic Statistics page. It displays the used data of SIM car
 
 ![traffic statistics 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/traffic_statistics_1.png){class="glboxshadow"}
 
-If the Data Used exceeds the Data Cap Amount, please modify the Data Cap Amount or the Data Used manually. Otherwise, the network may be disconnected, or the SIM card may Auto Switch (for Dual-SIM models).
+If the Data Used exceeds the Data Cap Amount, please modify the **Data Cap Amount** or the **Data Used** manually. Otherwise, the network may be disconnected, or the SIM card may Auto Switch (for Dual-SIM models).
 
-If you want to set up the SIM data limit, turn on the “Save data when power off” switch first. It means the data can be saved even after the device is powered off.
+- **Modify the Data Used**
 
-![traffic statistics 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/traffic_statistics_2.png){class="glboxshadow"}
+    Click on **Modify** on the right side of SIM 1/2 Data Used. 
 
-Then enable the SIM 1 or SIM 2 Limit Settings.
+    ![traffic statistics 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/traffic_statistics_2.jpg){class="glboxshadow"}
 
-![traffic statistics 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/traffic_statistics_3.png){class="glboxshadow"}
+    Then you can modify or reset the data used. 
+
+    ![traffic statistics 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/traffic_statistics_3.jpg){class="glboxshadow"}
+
+- **Set up SIM data limit**
+
+    If you want to set up the SIM data limit, enable **Save data when power off** first. It means the data can be saved even after the device is powered off.
+
+    ![traffic statistics 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/traffic_statistics_4.png){class="glboxshadow"}
+
+    Then enable the SIM 1 or SIM 2 Limit Settings.
+
+    ![traffic statistics 5](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/traffic_statistics_5.jpg){class="glboxshadow"}
 
 For Dual-SIM models, we suggest enabling the **SIM Card Slot Auto Switch** at the same time. If the SIM 1 Data Cap Amount is set and the SIM Card Slot Auto Switch is enabled, SIM 1 will automatically switch to SIM 2 when it's data exceeds the Data Cap Amount and SIM 1 will be disabled.
 

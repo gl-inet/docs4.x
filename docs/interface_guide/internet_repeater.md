@@ -42,9 +42,7 @@ Wait a moment, if the password is correct, the connection will be successful.
 
 * **Enable Camouflage**
 
-  If this option is enabled, this router camouflage itself as the same device as the client device you are now using.
-
-  If you enable camouflage mode, the device automatically emulates the MAC address based on the client device you are using.
+  If enabled, the router will masquerade as the client device you use to access the management page by emulating its MAC address.
 
 * **MAC Mode**
 

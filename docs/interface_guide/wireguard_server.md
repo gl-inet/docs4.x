@@ -16,11 +16,11 @@ Alternative methods:
 
 1. If you have a main router, you shall login to it and check if it gets the Public IP from your ISP.
 2. Ask your ISP for a Public IP address. It may require an extra fee.
-3. If the above two ways don't work, for example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try an SDWAN solution - [AstroWarp](https://www.astrowarp.net/). 
+3. If the above two ways don't work, for example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try an SDWAN solution - [AstroWarp](https://www.astrowarp.net/){target="_blank"}. 
 
-## Network Topology
+## Confirm if Port Forwarding is required
 
-### Confirm you need to do Port Forwarding or not?
+**Network Topology**
 
 ??? "GL.iNet is the Main Router"
     
@@ -82,28 +82,28 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
     ![start wireguard server](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/start_wireguard_server.png){class="glboxshadow"}
 
-### To check if WireGuard Server is working properly
+## Check if WireGuard Server is working properly
 
-Many people mis-understandstool once they saw the server is up and think it is connected. The server can be up even you forward a wrong port or wrong address.
+Many people assume that the server has been successfully established as soon as they see it started, but in fact, it is not. 
+
+Even if you forward the wrong port or address, the server can still run.
 
 ![wgconnected](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wgconnected.jpg){class="glboxshadow"}
 
-To check if WireGuard Server is working properly, we can use another device connected to another network and use the WireGuard configuration we exported earlier to connect and see whether it connects properly and whether the IP address is the IP of WireGuard Server.
+To verify if the WireGuard Server is functioning properly, use another device on a separate network and import the previously exported WireGuard configuration to test connectivity and check the assigned IP address.
 
-The simpliest way is to use a cell phone with [WireGuard official client app](https://www.wireguard.com/install){target="_blank"} installed, turn off its Wi-Fi connection, and only connect to Internet via 3G/4G/5G. Then open the WireGuard app, import the WireGuard configuration from QR code. Enable the connection, check if the phone has Internet access and whether its IP address is the IP of your WireGuard Server.
+The simplest method is to use a smartphone with the official [WireGuard App](https://www.wireguard.com/install){target="_blank"} installed. First, disable the phone’s Wi-Fi and connect exclusively to the internet via cellular data (3G/4G/5G). Then launch the WireGuard app, import the pre-exported configuration file, and initiate the connection. Confirm whether the phone gains internet access and whether its IP address matches the WireGuard Server’s IP.
 
-There are several common reasons cause failure:
+If the connection fails, there are several common reasons:
 
-* The Internet Service Provider doesn't assign you a public IP address, please check [here](#make-sure-internet-service-provider-assigns-you-a-public-ip-address).
-* You may need setup port forwarding, please check [here](#network-topology).
-* The port you are using for WireGuard Server is blocked by the Internet Service Provider, change to another port, or contact the Internet Service Provider.
+* The Internet Service Provider doesn't assign you a public IP address. Please check [here](#make-sure-you-have-a-public-ip-address).
+* You may need to set up port forwarding. Please check [here](#confirm-if-port-forwarding-is-required).
+* The port you are using for WireGuard Server is blocked by the Internet Service Provider.Change to another port, or contact the Internet Service Provider for further assistance.
 * Some countries/regions may block the VPN connection.
 
 ## WireGuard Client App
 
-We can use another GL.iNet router as WireGuard Client, or use their official app on other devices with various OS.
-
-- Please refer to WireGuard Official Website: [https://www.wireguard.com/install](https://www.wireguard.com/install){target="_blank"}
+Please refer to WireGuard Official Website: [https://www.wireguard.com/install](https://www.wireguard.com/install){target="_blank"}
 
 ---
 

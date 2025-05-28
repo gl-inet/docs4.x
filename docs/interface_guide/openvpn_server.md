@@ -18,7 +18,7 @@ Alternative methods:
 
 1. If you have a main router, you shall login to it and check if it gets the Public IP from your ISP.
 2. Ask your ISP for a Public IP address. It may require an extra fee.
-3. If the above two ways don't work, for example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try an SDWAN solution - [AstroWarp](https://www.astrowarp.net/). 
+3. If the above two ways don't work, for example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try an SDWAN solution - [AstroWarp](https://www.astrowarp.net/){target="_blank"}. 
 
 ## Confirm if Port Forwarding is required
 
@@ -96,8 +96,8 @@ When importing the configuration file into the OpenVPN app, a reminder may appea
 
 If the connection fails, there are several common reasons:
 
-* The Internet Service Provider doesn't assign you a public IP address. Please check [here](#make-sure-internet-service-provider-assigns-you-a-public-ip-address).
-* You may need to set up port forwarding. Please check [here](#network-topology).
+* The Internet Service Provider doesn't assign you a public IP address. Please check [here](#make-sure-you-have-a-public-ip-address).
+* You may need to set up port forwarding. Please check [here](#confirm-if-port-forwarding-is-required).
 * The port you are using for OpenVPN Server is blocked by the Internet Service Provider. Change to another port, or contact the Internet Service Provider for further assistance.
 * Some countries/regions may block the VPN connection.
 
@@ -118,8 +118,6 @@ Enable the client to client toggle and export a new configuration to clients, yo
 ![peertopeer](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/peertopeer.jpg){class="glboxshadow"}
 
 ## OpenVPN Client App
-
-We can use another GL.iNet router as the OpenVPN Client, or use official OpenVPN app on other devices.
 
 Please refer to OpenVPN Official Website: [https://openvpn.net/vpn-client/](https://openvpn.net/vpn-client/){target="_blank"}
 

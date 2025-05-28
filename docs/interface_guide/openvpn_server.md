@@ -36,43 +36,47 @@ Alternative methods:
 
 ## Setup OpenVPN Server
 
-1. Click **Generate Configuration** (Only the first time).
+1. Click **Generate Configuration** (for vpn server initial setup only).
 
     ![openvpn server generate configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_generate_config.png){class="glboxshadow"}
 
 2. Apply the configuration.
 
-    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_configuration.png){class="glboxshadow"}
+    The default configuration works for most cases.
+    
+    If you do not need to modify the configuration, click on **Export Client Configuration** at the bottom directly and turn to the step 3. 
+    
+    If you have modified the configuration, click on **Apply** before exporting client configuration.
 
-    If you do not need to modify the configuration, please click directly the **Export Client Configuration** at the bottom of page. If you have modified the configuration, please click the **Apply** button to continue.
+    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_configuration.png){class="glboxshadow"}
 
     * **Device Mode:** TAP-S2S or Tun. To find out what the difference is, check out [TAP-S2S vs Tun](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md).
 
     * **Protocol:** UDP or TCP. To find out what the difference is, check out [TCP vs UDP](../faq/openvpn_tcp_udp.md).
 
-    * **Authentication Mode:** There are three options **Only Certificate**, **Only Username/Password**, **Username/Password and Certificate**. 
+    * **Authentication Mode:** This determines the authentication method used when the client connects. There are three options.
+
+        - **Certificate Only**: If selected, the router will automatically generate a server and client certificate keys and embed them in the client configuration file. When you upload the configuration to the client, no additional credentials are required.
+
+        - **Username/Password Only**: If selected, the router will generate client configuration without certificate keys. You must first add a username and password in the Users tab before exporting the client configuration. When uploading the configuration to the client, you need to enter these credentials for authentication.
+
+        - **Username/Password and Certificate**: If selected, you must first add a username and password in the Users tab before exporting the client configuration; second, the router will automatically generate server and client certificate keys and embed them in the configuration file. When uploading the configuration to the client, the certificate-key will be verified first, followed by username/password authentication for two-factor security.
     
-        For **Username/Password** and **Username/Password and Certificate** options, they need add user(s). Then, if a OpenVPN client connect to this server, it need to input the username and password.
-
-        ![openvpn server users](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_users.png){class="glboxshadow"}
-
-        Created a user.
+        Here is an example of creating a user.
 
         ![openvpn server add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_add_a_user.png){class="glboxshadow"}
 
-        For **Only Certificate** and **Username/Password and Certificate**, the router will automatically generate a server and client certificate-key, and write into the configuration file when generating the client configuration file.
-
         Please check [here](#advanced-configuration) for **Advanced Configuration**.
 
-3. Export Client Configuration
+3. Export Client Configuration.
 
-    Clicking the **Export Client Configuration** button at the bottom or applying the modified configuration will pop up this dialog.
-
-    If your network's public IP changes from time to time, you can enable [DDNS](ddns.md) by using DDNS domain in the configuration. Click **Download** to export the configuration for further setup.
+    Click on **Export Client Configuration** at the bottom of Configuration tab, or apply the modified configuration then it will pop up this dialog.
 
     ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_export_client_configuration.png){class="glboxshadow"}
 
-4. Start OpenVPN server
+    If your network's public IP changes from time to time, you can enable [DDNS](ddns.md) by using DDNS domain in the configuration. Click **Download** to export the configuration for further setup.
+
+4. Start OpenVPN server.
 
     Click the **Start** button in the upper right corner on OpenVPN Server page to start the server. Then go to [VPN Dashboard page](vpn_dashboard.md) to check its status and other settings.
 

@@ -36,27 +36,25 @@ Alternative methods:
 
 Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
-1. Click **Generate Configuration** (Only the first time).
+1. Click **Generate Configuration** (for vpn server initial setup only).
 
     ![wireguard server generate configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_generate_configuration.png){class="glboxshadow"}
 
-2. Apply the configuration
+2. Apply the configuration.
 
-    The default configuration works for most cases. If you found the IPv4 address conflict with your upper router's gateway, click the **Apply** button after modification. You can modify it as **10.1.0.1/24** , please don't forget to put **/24** at the end, otherwise you clients cannot get connections.
+    The default configuration works for most cases. 
+    
+    If you find that the IPv4 address conflicts with your upstream router's gateway, modify the address to others such as **10.1.0.1/24** and click **Apply**. Ensure the "/24" subnet mask is included to avoid connectivity issues.
 
     ![wireguard server apply configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_apply_configuration.png){class="glboxshadow"}
 
-    For example, if you use Xfinity routers, your router IP will be same as our WireGuard Server IP, then you need to do the above changes.
+    For example, if you use an Xfinity router in the upstream of GL.iNet router, the Xfinity router's IP might be 10.0.0.1, which will be same as our WireGuard Server IP, then you will need to do the above changes.
     
     ![xfinitygateway](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
-    For **Set Key Manually**.
+3. Add a profile.
 
-    ![wireguard server set key manually](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_set_key_manually.png){class="glboxshadow"}
-
-3. Add a profile
-
-    Switch to **Profiles** tab, generate a profile for your device by click the **Add** button.
+    Switch to **Profiles** tab, generate a profile for your device by clicking the **Add** button.
 
     ![wireguard server profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_profiles.png){class="glboxshadow"}
 
@@ -64,7 +62,7 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
 
     ![wireguard server profile setting](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_profile_setting.png){class="glboxshadow"}
     
-    **Set More** is for advanced settings.
+    If you need to set advanced settings, click **Set More**.
 
     ![wireguard server profile advanced setting](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_profile_setting_more.png){class="glboxshadow"}
 
@@ -72,11 +70,11 @@ Access to web Admin Panel, on the left side -> VPN -> WireGuard Server.
     
     ![download wireguard client configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/download_wireguard_client_configuration.png){class="glboxshadow"}
 
-    If your network's public IP changes from time to time, you can enable [DDNS](ddns.md), then using DDNS domain in the configuration.
+    If your network's public IP changes from time to time, you can enable [DDNS](ddns.md) by using DDNS domain in the configuration.
 
     Click **Download** to save the profile.
 
-4. Start WireGuard server
+4. Start WireGuard server.
 
     Click the **Start** button in the upper right corner to start WireGuard server. Go to VPN Dashboard page to check its status and other settings.
 

@@ -20,9 +20,9 @@ Alternative methods:
 2. Ask your ISP for a Public IP address. It may require an extra fee.
 3. If the above two ways don't work, for example, if you are in a CGNAT, you can take the reverse proxy method such as [Astrorelay](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try an SDWAN solution - [AstroWarp](https://www.astrowarp.net/). 
 
-## Network Topology
+## Confirm if Port Forwarding is required
 
-### Confirm you need to do Port Forwarding or not?
+**Network Topology**
 
 ??? "GL.iNet is the Main Router"
     
@@ -78,36 +78,38 @@ Alternative methods:
 
     ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/start_openvpn_server.png){class="glboxshadow"}
 
-## To check if OpenVPN Server is working properly
+## Check if OpenVPN Server is working properly
 
-Many people mis-understandstool once they saw the server is up and think it is connected. The server can be up even you forward a wrong port or wrong address.
+Many people assume that the server has been successfully established as soon as they see it started, but in fact, it is not. 
+
+Even if you forward the wrong port or address, the server can still run.
 
 ![openserverup](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openserverup.jpg){class="glboxshadow"}
 
-To check if OpenVPN Server is working properly, we can use another device connected to another network and use the OpenVPN configuration we exported earlier, to connect and see whether it connects properly and whether the IP address is the IP of OpenVPN Server.
+To verify if the OpenVPN Server is functioning properly, use another device on a separate network and import the previously exported OpenVPN configuration to test connectivity and check the assigned IP address.
 
-The simpliest way is to use a cell phone with [OpenVPN official client app](https://openvpn.net/vpn-client/){target="_blank"} installed, turn off its Wi-Fi connection, and only connect to Internet via 3G/4G/5G. Then open the OpenVPN app, import the OpenVPN configuration we previously exported. Enable the connection, check if the phone has Internet access and whether its IP address is the IP of your OpenVPN Server.
+The simplest method is to use a smartphone with the official [OpenVPN App](https://openvpn.net/vpn-client/){target="_blank"} installed. First, disable the phone’s Wi-Fi and connect exclusively to the internet via cellular data (3G/4G/5G). Then launch the OpenVPN app, import the pre-exported configuration file, and initiate the connection. Confirm whether the phone gains internet access and whether its IP address matches the OpenVPN Server’s IP.
 
-When importing the configuration file to the OpenVPN app, it may has a reminder as below, please click **CONTINUE** as the certificate is already included in the configuration file.
+When importing the configuration file into the OpenVPN app, a reminder may appear as shown below. Click **CONTINUE** to proceed, as the certificate is already embedded in the configuration file.
 
 ![openvpn app select certificate](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/select_certificate.png){class="glboxshadow"}
 
-There are several common reasons cause failed:
+If the connection fails, there are several common reasons:
 
-* The Internet Service Provider doesn't assign you a public IP address, please check [here](#make-sure-internet-service-provider-assigns-you-a-public-ip-address).
-* You may need setup port forwarding, please check [here](#network-topology).
-* The port you are using for OpenVPN Server is blocked by the Internet Service Provider, change to another port, or contact the Internet Service Provider.
+* The Internet Service Provider doesn't assign you a public IP address. Please check [here](#make-sure-internet-service-provider-assigns-you-a-public-ip-address).
+* You may need to set up port forwarding. Please check [here](#network-topology).
+* The port you are using for OpenVPN Server is blocked by the Internet Service Provider. Change to another port, or contact the Internet Service Provider for further assistance.
 * Some countries/regions may block the VPN connection.
 
 ## Advanced Configuration
 
-You can modify your own configuration at this tab.
+In the Configuration tab of the OpenVPN server page, you can modify the configuration of your own Server. 
 
 ![openvpn server advancd configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openvpn_server_advanced_configuration.png){class="glboxshadow"}
 
 ## Client to client access
 
-### Network Topology
+**Network Topology**
 
 ![ptptopology](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ptptopology.jpg){class="glboxshadow"}
 
@@ -117,9 +119,9 @@ Enable the client to client toggle and export a new configuration to clients, yo
 
 ## OpenVPN Client App
 
-We can use another GL.iNet router as OpenVPN Client, or use their official app on other devices with various OS.
+We can use another GL.iNet router as the OpenVPN Client, or use official OpenVPN app on other devices.
 
-- Please refer to OpenVPN Official Website: [https://openvpn.net/vpn-client/](https://openvpn.net/vpn-client/){target="_blank"}
+Please refer to OpenVPN Official Website: [https://openvpn.net/vpn-client/](https://openvpn.net/vpn-client/){target="_blank"}
 
 ---
 

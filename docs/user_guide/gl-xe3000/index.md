@@ -44,19 +44,16 @@ In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your la
 #### 2. Set up your internet connection method(s)
 
 === "Cellular"
+
     ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_cellular.png){class="glboxshadow"}
 
-    There are two ways to connect cellular connectivity to your router:
+    If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
+    
+    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models) for detailed instructions.
 
-    **Option 1: Cellular-Enabled USB Modem**  
+    Learn how to use the eSIM physical card on GL.iNet router [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
-    * Insert a cellular-enabled USB modem into the router’s USB port to share internet access with all connected devices. This method is ideal for using an external modem to provide internet connectivity. [Click here to learn how to connect via USB modem.](../../interface_guide/internet_cellular.md)  
-
-    **Option 2: Physical SIM Card**  
-
-    * The router supports **Dual SIM, Single Standby**, allowing you to insert two SIM cards for internet access. However, only one SIM card can be active at a time, and you can manually switch between them.  
-    * Additionally, this router supports **physical eSIM**. Follow our step-by-step guide to set up your eSIM [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
-
+    For issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 
 
 === "Ethernet"
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_ethernet.png){class="glboxshadow"}

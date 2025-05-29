@@ -49,6 +49,8 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
     
+    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models) for detailed instructions.
+
     Learn how to use the eSIM physical card on GL.iNet router [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
     For issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 

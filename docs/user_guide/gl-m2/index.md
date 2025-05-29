@@ -1,6 +1,6 @@
 # GL-M2 User Guide
 
-## Hardware info
+## Hardware Info
 
 GL-M2 is for DIY enthusiasts who would like to build their own routers and modems. With GL-M2's 5G Module and 5G antennas, it provides a quality 5G cellular network.
 
@@ -10,9 +10,7 @@ GL-M2 is for DIY enthusiasts who would like to build their own routers and modem
 
 ---
 
-## First time setup
-
-What's inside the package?
+## Package Contents
 
 ![gl-m2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
 
@@ -29,21 +27,21 @@ Package Contents:
 
 ---
 
-### Setup
+## First-time Setup
 
-1. Install the module and the antenna
+1. Install the module and the antenna.
 
     Use an RF conversion extension cable or an SMA antenna connection cable to connect the antenna to the IPEX interface on the module. 
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_1.jpg){class="glboxshadow"}
 
-2. Insert the Nano SIM card
+2. Insert the Nano SIM card.
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_2.jpg){class="glboxshadow"}
 
-3. Power up
+3. Power up.
 
-    Connect to a DC power supply and use a Type-C to USB 3.0 data cable to connect to the router or other device.
+    Connect to a DC power supply and use a Type-C to USB 3.0 data cable to [connect to the router](#connect-gl-m2-to-glinet-routers) or other device.
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
 
@@ -55,13 +53,21 @@ Package Contents:
 
 ---
 
-## Connecting GL-M2 to GL.iNet Routers
+## Connect GL-M2 to GL.iNet Routers
 
-GL-M2 is compatible with the following devices:
+GL-M2 (with 5G Module RM520N-GL installed) is compatible with the following devices:
+
+- Slate 7 (GL-BE3600) : Firmware version 4.7.1 or above.
+
+- Flint 2 (GL-MT6000) : Firmware version 4.5.1 or above.
 
 - Flint (GL-AX1800): Firmware version 4.2.3 or above
 
 - Slate AX (GL-AXT1800), Beryl AX (GL-MT3000) & Brume 2 (GL-MT2500) : Firmware version 4.2.1 and above.
+
+!!! note
+
+    The above compatible router list is obtained by using a 5G Module **RM520N-GL**. Compatibility with other modules is not guaranteed.
 
 <span></span>
 

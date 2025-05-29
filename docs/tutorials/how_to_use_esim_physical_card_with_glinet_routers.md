@@ -20,7 +20,7 @@ The highlights of eSIM physical cards are as follows:
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
-| GL-X2000 (Spitz Plus)          | √         |
+| GL-X2000 (Spitz Plus)          | √ (Beta)  |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE3000 (Puli AX)            | √         |
 | GL-E750V2 (Mudi V2)            | √         |
@@ -69,7 +69,7 @@ If the **Auto Setup** connects to the internet successfully, the screen will app
 
 ## Manage Your eSIM Profile
 
-**Step 1:** Ensure your GL.iNet device has the latest firmware.
+**Step 1:** Ensure your GL.iNet device has the latest firmware installed.
 
 Please make sure the Version is 4.0 or higher, and the Firmware Type number is 0319 or greater.
 
@@ -95,7 +95,7 @@ To update the firmware manually, navigate to **"SYSTEM"** > **"Upgrade"** > **"L
     
     If they have EP06-E modules installed, please refer to this [LINK](https://forum.gl-inet.com/t/48907){target="_blank"} to upgrade the module to the latest software for eSIM functionality.
 
-**Step 2:** Access the eSIM Manage Application
+**Step 2:** Access the eSIM Manage menu.
 
 - After updating the firmware, wait for your device to reboot, then log back into the GL.iNet Admin Panel.
 - Navigate to **"APPLICATIONS"** > **"eSIM Manage"** to enter the eSIM Manage application. Here, you can view the current status of your eSIM.

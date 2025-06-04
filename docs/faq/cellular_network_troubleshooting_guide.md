@@ -29,9 +29,13 @@
     
     **2.3** Some SIM cards require a specific APN. Please make sure the correct APN is set on the device.
     
-    **2.4** Please try locking frequency band for testing. Refer to the following link to use locked frequency band function.
+    **2.4** Lock frequency band for testing. For firmware prior to v4.8, refer to [this link](../interface_guide/internet_cellular_v4.7.md/#band-masking) to try Band Masking. For firmware v4.8 or higher, refer to [this link](../interface_guide/internet_cellular.md).
+
+    **2.5** Lock or unlock a signal tower for testing. This feature is supported by GL-X3000, GL-XE3000 and GL-X2000. Click [here](../interface_guide/internet_cellular.md/#lock-tower) for more instructions about tower locking.
     
-    [https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#band-masking](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#band-masking)
+    Locking to a signal tower may enable the router to connect to high-quality network resources, ensuring stable cellular connectivity. 
+    
+    However, after locking a signal tower, if the router is moved to another location, it will still attempt to reconnect to the locked tower after booting up. This may consequently prevent the router from connecting to the cellular network automatically at the new location. In this case, you need to either unlock the current signal tower via the router's web admin panel, or manually lock it to a new tower.
 
 ??? "Please check the SIM card and device compatibility"
 

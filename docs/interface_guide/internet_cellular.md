@@ -285,6 +285,8 @@ Click a tower to view the details and lock onto it.
 
 Please note that if the locked tower does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.
 
+After locking a signal tower, if the router is moved to another location, it will still attempt to reconnect to the locked tower after booting up. This may consequently prevent the router from connecting to the cellular network automatically at the new location. In this case, you need to either unlock the current signal tower via the router's web admin panel, or manually lock it to a new tower.
+
 ## Lock Operator
 
 This feature is available in v4.8

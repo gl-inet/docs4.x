@@ -16,38 +16,79 @@ Put the two-piece power adapter together. Connect it to your router and plug it 
 #### Startup
 
 When the router is powered on, the GL.iNet logo will be displayed on the screen, followed by the startup progress bar.
+
+![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){class="glboxshadow"}
     
 Once the progress bar is fully loaded, the device startup is completed.
 
 #### Network
 
-The home page displays four icons representing four network connection types: Ethernet, Repeater, Tethering, and Cellular.
-    
-During the network connection process, the correspondin icon is displayed in orange; upon successful connection, it changes to green.
+The home screen displays four icons representing four network connection types: Ethernet, Repeater, Tethering, and Cellular.
 
-Clicking on any of these icons to view the detailed network configuration information.
+![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
+
+| Color               | Indication                     |
+| :------------------ | :----------------------------- |
+| Green               | Network connected.             |
+| Yellow              | Network connecting or abnormal connection (e.g., no internet access).  |
+| White               | No network connection.         |
+
+Click on any of these icons to view the network status or detailed configuration information.
 
 #### Functions
 
 Access functions by swiping left and right.
-    
-When swiping from right to left, the following items are displayed in sequence:
+
+| Action                | Indication                     |
+| :-------------------- | :----------------------------- |
+| Swipe Left to Right   | Move to the previous page      |
+| Swipe Right to Left   | Move to the next page          |
+
+When sliding from right to left, the following items are displayed in sequence, some of which require pre-configuration in the admin panel.
 
 - Network connection
+
+    ![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
+
 - Tri-band WiFi details (including the SSID, password, QR code and the switch button)
-- OpenVPN switch
-- WireGuard switch
-- AdGuard Home switch
-- Tor switch
+
+    ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){class="glboxshadow"}
+
+- OpenVPN
+
+    ![openvpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/nordvpn-4.7.jpg){class="glboxshadow"}
+
+- WireGuard
+
+    ![wireguard](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wireguard.png){class="glboxshadow"}
+
+- AdGuard Home
+
+    ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){class="glboxshadow"}
+
+- Tor
+
+    ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png){class="glboxshadow"}
+
 - Traffic statistics (It refers to the average speed of all traffic passing through the router. The speed is calculated every 3 seconds.)
-- CPU load and memory usage
-- Time zone and the specific time
+
+    ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){class="glboxshadow"}
+
+- CPU overview
+
+    ![CPU overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png){class="glboxshadow"}
+
+- Time
+
+    ![time](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png){class="glboxshadow"}
     
 When sliding from left to right, the display order is reversed.
 
 #### System
 
-Swiping from top to bottom allows you to access the system settings: Reboot and Lock Screen.
+Swipe from top to bottom to access the system settings: Reboot and Lock Screen.
+
+![system settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png){class="glboxshadow"}
 
 - Reboot: Clicking the "Reboot" will display the "Slide To Reboot" prompt (two-step verification), then the router will initiate a restart process.
 - Lock Screen: The screen will turn off when clicking the "Lock Screen" option. Tap the screen to wake it up, and the function page where it last stayed will be displayed. Clicking again will display the "Slide To Unlock" prompt.

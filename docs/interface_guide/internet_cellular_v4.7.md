@@ -231,7 +231,7 @@ Choose any profiles you needed
 
 ## Signal Tower Lock
 
-Click Signal Tower Lock.
+Click the signal tower icon.
 
 ![signal_tower_lock](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/signal_tower_lock_1.jpg){class="glboxshadow"}
 
@@ -243,13 +243,11 @@ The device may not be able to scan all towers when the Cellular interface is ena
 
 ![signal_tower_lock2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/signal_tower_lock_3.jpg){class="glboxshadow"}
 
-
 If the locked tower does not match the band masking or APN parameters in the cellular settings, the cellular interface will not be able to connect to the Internet.
 
-Here you can display the status of the lock.
+The tower lock status (e.g., Locked/Unlocked) is displayed at the top.
 
 ![signal_tower_lock3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/signal_tower_lock_4.jpg){class="glboxshadow"}
-
 
 ## Historical Signal Record
 

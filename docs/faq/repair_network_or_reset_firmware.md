@@ -1,6 +1,6 @@
 # How to repair network or factory reset?
 
-All GL.iNet routers are equipped with a physical reset mechanism (either a reset button or a pinhole). Pressing the button or poking the pinhole has the same effect: restoring network connectivity or resetting the router. 
+All GL.iNet routers are equipped with a physical reset mechanism (either a reset button or a pinhole). Pressing the button or poking the pinhole has the same effect: restoring network connectivity or resetting the router to factory defaults. 
 
 For models with a pinhole, use a pin, straightened paperclip or similar tool to perform the action.  
 

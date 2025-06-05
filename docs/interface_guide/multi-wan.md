@@ -75,7 +75,9 @@ Use multiple network interfaces at the same time to increase the total bandwidth
 
 The load ratio here is the ratio between each network interface, and the system will assign interfaces to deal with new connections based on the set load ratio.
 
-For example, if the router is connected to four networks (Ethernet, Repeater, Tethering and Cellular) at the same time, and all four network interfaces are available to access the Internet, then enabling Load Balance and setting 1:1:1:1 means that the four network interfaces will load the network bandwidth averagely. Then the system will assign these four interfaces to new connections based on the set load ratio 1:1:1:1.
+For example, if the router is connected to four networks (Ethernet, Repeater, Tethering and Cellular) at the same time, and all four network interfaces are available to access the Internet, then enabling Load Balance and setting 1:1:1:1 means that the four network interfaces will load the network bandwidth averagely, as the system will assign these four interfaces to new connections based on the set load ratio 1:1:1:1.
+
+You can also customize the load ratio. If the Ethernet bandwidth is 200 Mbps, the Repeater WiFi bandwidth is 100 Mbps, and no Tethering or Cellular connections are active, you can set the load ratios to 2 for Ethernet, 1 for Repeater, and 0 for Tethering/Cellular. The system will then distribute new connections between these interfaces based on the configured ratio of 2:1, meaning the Ethernet interface will handle approximately twice as many connections as the Repeater interface. Compared with the Failover mode, this optimizes the overall throughput efficiency by balancing the load across available interface.
 
 **Note:** Alive connections or traffic are not ensured to match the load ratio. It is closer to this ratio if it has been used for a longer time.
 

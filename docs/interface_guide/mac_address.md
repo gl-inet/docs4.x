@@ -1,9 +1,14 @@
 # MAC Address
 
+!!! Note
+
+    This guide is applicable to v4.5 and earlier versions.
+    
+    Since v4.6, this page has been removed, and the MAC address settings for Ethernet and repeater interfaces have been migrated to the corresponding sections on the INTERNET page.
+
 On the left side of web Admin Panel -> NETWORK -> MAC Address
 
 The MAC Address page was previously called MAC Clone and has been changed to MAC Address since v4.2.
-The MAC address setting for the repeater interface has been migrated to the repeater connection hotspot interface in version 4.6 and above.
 
 On this page, you can find the router's default MAC address, clone a client's MAC address, enter a MAC address manually, or generate a random MAC address.
 

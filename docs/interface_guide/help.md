@@ -6,9 +6,17 @@ In the web Admin Panel, click the question mark icon on the right side of the ti
 
 You can find the [Router Support Docs](https://docs.gl-inet.com/router/en/4){target="_blank"}.
 
-For firmware v4.7 and above, you can also contact tech support with just one click, making it easier to obtain assistance.
+Since firmware v4.8, you can contact Tech Support with just one click, making it easier to obtain assistance.
 
-![contact support](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/contact_support_and_export_log.gif){class="glboxshadow"}
+Click **Contact Tech Support** and it will take you to the Log page, and a pop-up window will appear on the right side.
+
+![contact support](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/contact_support.png){class="glboxshadow"}
+
+![send feedback](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/send_feedback.png){class="glboxshadow"}
+
+Options of Upload System Log and Upload Debug Info are checked by default.
+
+Fill in the required information and click **Send** for assistance. 
 
 ---
 

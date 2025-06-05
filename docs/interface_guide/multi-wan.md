@@ -6,25 +6,45 @@ GL.iNet router can be connected to the Internet in multiple ways, such as [Ether
 
 Some models support [Dual-Ethernet WAN](dual-ethernet_wan.md), which will add an additional Ethernet interface on the user interface.
 
-## Interface Status Tracking Method
+## Interface Status Track
 
-GL.iNet routers have up to 5 interfaces, but this varies depending on the model. They are **Ethernet 1**, **Ethernet 2**, **Repeater**, **Tethering** and **Cellular**. Here is the GL-MT6000 as an example.
+GL.iNet routers support up to 5 virtual network interfaces, though the exact number may vary by model. For example, GL-MT6000 has **Ethernet 1**, **Ethernet 2**, **Repeater**, **Tethering** and **Cellular**, each serving distinct network functions in software-defined configurations.
 
-The router will use the ping or httping command to track the status of the connection to the destination IP to determine if the interface is available. If the interface is available, it will show as a green dot at the begining, otherwise it is gray.
+The routers use **ping** or **httping** (only for v4.3 and earlier) command to track the status of the connection to the destination IP, to determine if the interface is available. 
 
-![multi-wan interface status tracking method](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track.png){class="glboxshadow"}
+If the interface is available, a green dot will be displayed on the left side, otherwise it is gray.
 
-**The setting of Interface Status Tracking Method**
+![interface status track 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_1.jpg){class="glboxshadow"}
 
-![multi-wan interface status tracking method setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_setting.png){class="glboxshadow gl-90-desktop"}
+### Status Track Settings
 
-- **Enable Interface Status Track**: You can disable the interface status tracking, the router will use the physical status of the interface (such as whether the network cable is plugged in or not).
+Click the cog icon to access the status track settings of each network interface. 
 
-- **Low Data Mode**: Enable the switch to track only when there is an interface network error, and recommend users to use Low Data Mode when you are on a limited data plan.However, one drawback is that reconnecting after a network disconnection may be slightly slower compared to the regular mode, and only the cellular interface will be turned on by default.
+For example, this is the status tracking setting for Ethernet interface, and the same applies to other interfaces.
 
-**Sensitivity Options**
+![interface status track 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_2.png){class="glboxshadow"}
 
-![Sensitivity Options](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/sensitivity_options.png){class="glboxshadow gl-90-desktop"}
+- **Enable Interface Status Track**: It is enabled by default. You can disable the interface status tracking, as a result the router will determine the interface status by the physical status (such as whether the network cable is plugged in or not).
+
+- **Detection Mode**: This feature was introduced as Low Data Mode in v4.5 and renamed Detection Mode in v4.7. Three modes are available: Normal Mode, Low Data Mode, and Strict Mode.  
+
+    Normal mode is used by default, low data mode traces only when an interface network error occurs, and strict mode determines the interface status only based on the results of a detect command from a public ip.
+    
+    You can use Low Data Mode when you are on a limited data plan. However, one drawback is that reconnecting after a network disconnection may be slightly slower compared to the normal mode, and only the cellular interface will be turned on by default.
+
+- **Track Command**: ping command is used to track the status of the connection to the destination IP, to determine if the interface is available. For firmware v4.3 and earlier, there is also httping command available.
+
+- **IPv4 Track IP**: You can customize the IPv4 Track IP here.
+
+!!! Note
+
+    Some old firmware, such as v4.3, provide settings such as **Track Interval**, **Change to Failure Condition** and **Change to Available Condition**. These settings have been removed since v4.5 and replaced with Detection Mode and Sensitivity Options.
+
+### Sensitivity Options
+
+This feature is available since v4.5.
+
+![Sensitivity Options](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/sensitivity_options.jpg){class="glboxshadow"}
 
 This sensitivity determines the time interval for Internet status detection. 
 
@@ -33,27 +53,33 @@ This sensitivity determines the time interval for Internet status detection.
 
 **Tips**: Switching to high sensitivity may lead to network disconnection, please adjust it with caution.
 
-## Multi-WAN methods
+## Multi-WAN Method
 
-There are two methods, **Failover** and **Load Balance**. **Failover** and **Load Balance** are mutually exclusive functions, and you can only use one of them.
+There are two methods: **Failover** and **Load Balance**. Failover is enabled by default when there are multi-wan connections.
+
+**Failover** and **Load Balance** are mutually exclusive and you can only use one of them.
 
 ### Failover
 
-![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/multi-wan_mode_failover.png){class="glboxshadow gl-90-desktop"}
+![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/failover.png){class="glboxshadow"}
 
 You can set the priority of each interface, when the interface being used fails, the router will automatically switch to another available highest priority interface.
 
-For example, if the router has been set up with two types of Internet access, **Ethernet** and **Repeater**, and the priority of of Ethernet is 1, the priority of Repeater is 2, the priority of Ethernet is higher than Repeater, so the router will use the Ethernet to access Internet. If you unpluged the ethernet cable, the Ethernet interface will become unavailable, then the router will automatically switch to Repeater interface to access Internet. After a while, if the Ethernet interface becomes available again, the router will continue to use Repeater if the **Forced Refresh Streams** is off, and vice versa, the router will switch back to the higher priority Ethernet.
+For example, if the router has been set up with two types of Internet access, **Ethernet** and **Repeater**, and the priority of of Ethernet is 1, the priority of Repeater is 2, the priority of Ethernet is higher than Repeater, so the router will use the Ethernet to access Internet. If you unpluged the ethernet cable, the Ethernet interface will become unavailable, then the router will automatically switch to Repeater interface to access Internet.
+
+Once the Ethernet connection is restored, the router will automatically switch back to the Ethernet to access Internet as it has higher priority.
 
 ### Load Balance
 
-Use multiple interfaces at the same time to increase the total bandwidth of the router.
+Use multiple network interfaces at the same time to increase the total bandwidth of the router.
 
-The system will assign interfaces to new connections based on the load ratio. The load ratio here can simply be set according to the bandwidth ratio. For example, if the bandwidth of Ethernet is 200Mbps, the bandwidth of Repeater's WiFi is 100Mbps, and no Tethering is connected, then the load ratio of Ethernet can be set to 2, the load ratio of Repeater to 1, and the load ratio of Tethering to 0.
+The load ratio here is the ratio between each network interface, and the system will assign interfaces to deal with new connections based on the set load ratio.
+
+For example, if the router is connected to four networks (Ethernet, Repeater, Tethering and Cellular) at the same time, and all four network interfaces are available to access the Internet, then enabling Load Balance and setting 1:1:1:1 means that the four network interfaces will load the network bandwidth averagely. Then the system will assign these four interfaces to new connections based on the set load ratio 1:1:1:1.
 
 **Note:** Alive connections or traffic are not ensured to match the load ratio. It is closer to this ratio if it has been used for a longer time.
 
-![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/multi-wan_mode_load_balance.png){class="glboxshadow gl-90-desktop"}
+![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/load_balance.png){class="glboxshadow"}
 
 ## Usage Scenarios
 

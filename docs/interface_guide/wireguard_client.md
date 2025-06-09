@@ -23,7 +23,7 @@ Select your WireGuard service provider below to quickly locate the step-by-step 
 * [Set Up IPVanish](#set-up-ipvanish)
 * [Set Up Mullvad](#set-up-mullvad)
 * [Set Up NordVPN](#set-up-nordvpn)
-* [Set Up PIA (Private Internet Access)](#set-up-piaprivate-internet-access)
+* [Set Up PIA (Private Internet Access)](#set-up-pia-private-internet-access)
 * [Set Up Surfshark](#set-up-surfshark)
 * [Set up WireGuard Client with other providers (via configuration files)](#set-up-other-providersvia-configuration-files)
 

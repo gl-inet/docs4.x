@@ -2,6 +2,12 @@
 
 An Introduction to our future products, and a glimpse into our latest development.
 
+## GL-BE9300 (Flint 3)
+
+Tri-band Wi-Fi 7 Home Router
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X87yCZkvJ4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-BE3600 (Slate 7)
 
 Dual-band Wi-Fi 7 Travel Router

@@ -38,6 +38,7 @@ Usually models with USB ports or MicroSD(TF) slots are supported for file sharin
 | GL-A1300 (Slate Plus)          | √     | √     | √     | √        | -            |
 | GL-S1300 (Convexa-S)           | √     | √     | √     | √        | -            |
 | GL-SFT1200 (Opal)*FW 4.7.2     | √     | -     | -     | √        | -            |
+| GL-E750V2 (Mudi V2)*FW 4.7.2   | √     | -     | -     | √        | √            |
 | GL-MV1000/GL-MV1000W (Brume)   | √     | √     | √     | √        | √            |
 
 ## Insert Storage Device

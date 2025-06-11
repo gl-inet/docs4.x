@@ -20,7 +20,7 @@ Enable the switch to get latest unstable updates, patches, improvements, and enh
 
 Check out the latest features at [What's New?](https://www.gl-inet.com/whats-new/){target="_blank"}
 
-Please contact us [support@glient.biz](mailto:support@glient.biz) if you encounter any issues.
+Please contact us [support@glinet.biz](mailto:support@glinet.biz) if you encounter any issues.
 
 
 ### Local Upgrade

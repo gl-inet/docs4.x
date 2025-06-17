@@ -151,6 +151,9 @@ nav:
       - Connect to Hotspot with Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
       - Connect Ethernet-only device to Wi-Fi: faq/produce_a_wired_connection.md
       - Build up an Intranet: faq/build_up_an_intranet.md
+    - Problem Notification:
+      - Problem Notification for GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification.md
+      - Problem Notification and Solutions for GL-X3000/GL-X2000 Failure to Work with EE SIM Cards: faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md
     - Troubleshooting:
       - Cannot access web Admin Panel: faq/cannot_access_web_admin_panel.md
       - Cannot Scan Android 5G Hotspot: faq/cannot_scan_android_5g_hotspot.md
@@ -180,8 +183,6 @@ nav:
     - Upgrade:
       - Download firmware: faq/how_to_download_firmware.md
       - Manually upgrade or downgrade: tutorials/how_to_upgrade_downgrade_router.md
-    - Problem Notification:
-      - Critical Problem Notification for GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification.md
     - Other:
       - LED Indication: faq/led.md
       - GL.iNet Mobile App: faq/mobile_app.md

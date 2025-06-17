@@ -14,19 +14,19 @@ Please try upgrading with Chrome or Microsoft Edge. DO NOT use Mozilla/Firefox.
 
 1. Download and upgrade the U-Boot bootloader to [version 2025-02-24 15:04:07](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-mt2500-20250224-md5-74286e770cfb041b611d80d4adaef189.bin){target="_blank"}
 
-2. Download and upgrade the firmware to [version 4.7.4](https://fw.gl-inet.com/firmware/mt2500/release/openwrt-mt2500-4.7.4-0328-1743128340.bin?_gl=1*17rj12*_gcl_au*MjAzNzUxMjc0LjE3NDM0ODA3MjYuMTQ2OTgwODkxOS4xNzQ0MTc5MzE5LjE3NDQxNzkzMjg.*_ga*NjY5MTA3MDYyLjE3NDM0NzY2NDc.*_ga_34T6Q5NL0V*MTc0NDI3MjgyNS4zMy4xLjE3NDQyNzI4NDcuMC4wLjA.)
+2. Download and upgrade the firmware to [version 4.7.4](https://fw.gl-inet.com/firmware/mt2500/release/openwrt-mt2500-4.7.4-0328-1743128340.bin)
 
 ## GL-X3000
 
 1. Download and upgrade the U-Boot bootloader to [version 2025-02-25 19:05:24](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-x3000-20250225-md5-c9d7b2fd2451adbc0bb126e2d9729e87.bin){target="_blank"}
 
-2. Download and upgrade the firmware to [version 4.7.4](https://fw.gl-inet.com/firmware/x3000/release/openwrt-x3000-4.7.4-0317-1742206344.bin?_gl=1*krg6tk*_gcl_aw*R0NMLjE3NDE2NTc4MjcuQ2owS0NRandtN3EtQmhEUkFSSXNBQ0Q2LWZXWGlDUTFhVGoxR3dIOU56QWNwSVNSRGRXa1hmejdBcWFTcFZDdnF0bFpPODhhb21USU9xTWFBdnJFRUFMd193Y0I.*_gcl_au*NDQ4NjEwOTg3LjE3NDIyODAwMjcuMTQ0NzIyNjk4OC4xNzQyODE2NDg5LjE3NDI4MTY2MzY.*_ga*Nzc4MDE3MTU4LjE3MzQ1MDE4Mzk.*_ga_34T6Q5NL0V*MTc0Mjg5MDU4NC43OC4wLjE3NDI4OTA1ODQuMC4wLjA.)
+2. Download and upgrade the firmware to [version 4.7.4](https://fw.gl-inet.com/firmware/x3000/release/openwrt-x3000-4.7.4-0317-1742206344.bin)
 
 ## GL-XE3000
 
 1. Download upgrade the U-Boot bootloader to [version 2025-02-25 19:07:14](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-xe3000-20250225-md5-05fadd9da27314d41dbadc6fbd239b3d.bin){target="_blank"}
 
-2. Download and upgrade the firmware to [version 4.7.4](https://fw.gl-inet.com/firmware/xe3000/release/openwrt-xe3000-4.7.4-0317-1742206184.bin?_gl=1*nvhmuz*_gcl_aw*R0NMLjE3NDE2NTc4MjcuQ2owS0NRandtN3EtQmhEUkFSSXNBQ0Q2LWZXWGlDUTFhVGoxR3dIOU56QWNwSVNSRGRXa1hmejdBcWFTcFZDdnF0bFpPODhhb21USU9xTWFBdnJFRUFMd193Y0I.*_gcl_au*NDQ4NjEwOTg3LjE3NDIyODAwMjcuMTQ0NzIyNjk4OC4xNzQyODE2NDg5LjE3NDI4MTY2MzY.*_ga*Nzc4MDE3MTU4LjE3MzQ1MDE4Mzk.*_ga_34T6Q5NL0V*MTc0Mjg5MDU4NC43OC4xLjE3NDI4OTE2MTQuMC4wLjA.)
+2. Download and upgrade the firmware to [version 4.7.4](https://fw.gl-inet.com/firmware/xe3000/release/openwrt-xe3000-4.7.4-0317-1742206184.bin)
 
 !!! Note
 

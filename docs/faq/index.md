@@ -18,6 +18,11 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 * [Can I connect an Ethernet-only device to Wi-Fi using GL.iNet router?](produce_a_wired_connection.md)
 * [Build up an Intranet with GL.iNet routers](build_up_an_intranet.md)
 
+## Problem Notification
+
+* [Problem Notification for GL-MT2500/GL-X3000/GL-XE3000](problem_notification.md)
+* [Problem Notification and Solutions for GL-X3000/GL-X2000 Failure to Work with EE SIM Cards](problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md)
+
 ## Troubleshooting
 
 * [Cannot access the router through 192.168.8.1](cannot_access_web_admin_panel.md)
@@ -52,10 +57,6 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 
 * [How to download the firmware for my router?](how_to_download_firmware.md)
 * [How to manually upgrade or downgrade router's firmware?](../tutorials/how_to_upgrade_downgrade_router.md)
-
-## Problem Notification
-
-* [Critical Problem Notification for GL-MT2500/GL-X3000/GL-XE3000](problem_notification.md)
 
 ## Other
 

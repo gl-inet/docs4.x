@@ -12,16 +12,7 @@ If you need to connect a GL.iNet router to Starlink Dish, follow the steps below
 
 3. Connect a device to the GL.iNet router's LAN port or WiFi, then configure the router for Internet access. [First time setup](first_time_setup.md)
 
-    If you are using the following models, please go to the web Admin Panel -> **NETWORK** -> **Network Acceleration**, then disable it.
-
-    | Router Model                   |
-    | -----------------------------  |
-    | GL-MT6000 (Flint 2)            |
-    | GL-XE3000 (Puli AX)            |
-    | GL-X3000  (Spits AX)           |
-    | GL-MT2500 (Brume 2)            |
-    | GL-MT1300 (Beryl)              |
-    | GL-SFT1200 (Opal)              |
+    **Note**: If your GL.iNet router supports [Network Acceleration](../interface_guide/network_acceleration.md), please go to the web Admin Panel -> **NETWORK** -> **Network Acceleration** and disable it.
 
     ![netacc](https://static.gl-inet.com/docs/router/en/4/faq/starlink/netacc.jpg){class="glboxshadow"}
 

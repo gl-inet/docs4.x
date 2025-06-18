@@ -53,7 +53,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> AzireVPN.
 
 3. Update servers
 
-    AzireVPN may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+    AzireVPN may maintain or shutdown some servers, which will make the connection failed. You can **Update Servers** to get the latest available servers.
 
     ![azirevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn4.png){class="glboxshadow"}
 
@@ -95,7 +95,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Hide.me.
 
 3. Update servers
 
-    Hide.me may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+    Hide.me may maintain or shutdown some servers, which will make the connection failed. You can **Update Servers** to get the latest available servers.
 
     ![hideme update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme4.png){class="glboxshadow"}
 
@@ -135,7 +135,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> IPVanish.
 
 4. Update servers
 
-    IPVanish may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+    IPVanish may maintain or shutdown some servers, which will make the connection failed. You can **Update Servers** to get the latest available servers.
 
     ![ipvanish update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish5.png){class="glboxshadow"}
 
@@ -175,7 +175,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Mullvad.
 
 4. Update servers
 
-    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+    Mullvad may maintain or shutdown some servers, which will make the connection failed. You can **Update Servers** to get the latest available servers.
 
     ![mullvad update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad5.png){class="glboxshadow"}
 
@@ -235,7 +235,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Mullvad.
 
 5. Update servers
 
-    NordVPN may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+    NordVPN may maintain or shutdown some servers, which will make the connection failed. You can **Update Servers** to get the latest available servers.
 
     ![nordvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn5.png){class="glboxshadow"}
 
@@ -275,7 +275,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> PIA.
 
 4. Update servers
 
-    Mullvad may maintain or shutdown some servers, it will make the connection failed, you can **Update Servers** to get the latest available servers.
+    PIA may maintain or shutdown some servers, which will make the connection failed. You can **Update Servers** to get the latest available servers.
 
     ![pia update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia5.png){class="glboxshadow"}
 

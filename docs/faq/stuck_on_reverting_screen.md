@@ -1,4 +1,4 @@
-# Stuck at "Reverting" screen during firmware reset
+# Stuck on "Reverting" screen during firmware reset
 
 If you are stuck at the "Reverting" screen when resetting your router's firmware, refer to the following steps to resolve the issue.
 

@@ -1,4 +1,4 @@
-# Stuck at "Installing" screen during firmware update
+# Stuck on "Installing" screen during firmware update
 
 If you are stuck at the "Installing" screen when updating the router's firmware, refer to the following steps to resolve the issue. 
 

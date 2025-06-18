@@ -20,7 +20,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 
 ## Problem Notification
 
-* [Problem Notification for GL-MT2500/GL-X3000/GL-XE3000](problem_notification.md)
+* [Problem Notification for GL-MT2500/GL-X3000/GL-XE3000](problem_notification_for_mt2500_x3000_xe3000.md)
 * [Problem Notification and Solutions for GL-X3000/GL-X2000 Failure to Work with EE SIM Cards](problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md)
 
 ## Troubleshooting

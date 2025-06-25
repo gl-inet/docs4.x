@@ -36,7 +36,7 @@ The "VPN Policy Based on the Target Domain or IP" feature supports the following
 
 The "Add a New Ruleset" feature in Parental Control supports the following filter formats in the online text file:
 
-* Domain name format: Use the domain name, such as `netflix.com`, to match all subdomains of `netflix.com`.
+* Domain name format: Use the domain name, such as `instagram.com`, to match all subdomains of `instagram.com`.
 * Subdomain format: Specify the full subdomain, such as `www.instagram.com`, to match only the specific subdomain.
 
 When creating the online text file, use one filter per line. The router will process each line according to the specified format and apply the corresponding rules to the VPN or Parental Control feature.

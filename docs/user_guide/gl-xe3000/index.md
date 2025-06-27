@@ -1,6 +1,6 @@
 # Puli AX (GL-XE3000) User Guide
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ## How to set up Puli AX
 
@@ -11,19 +11,19 @@ To set up Puli AX, you will use one of the four supported internet connection me
 
 !!! note "Before you start, follow these steps (if connecting via the cellular method):"
 
-    To connect to the internet via the cellular method, you will need at least one nano SIM card. Once you have the nano SIM card(s) ready, follow these steps:
+    At least one nano SIM card is required to connect to the internet via the cellular method. Once you have the nano SIM card(s) ready, follow these steps:
     
-    1. Activate your SIM card(s), if required by the SIM card carrier.
-    2. Make sure you router is powered off.
-    3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at each time. The other SIM card functions only as a backup.)
+    1. Activate your SIM card(s) if required by the SIM card carrier.
+    2. Power off your router.
+    3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at one time. The other SIM card functions only as a backup.)
 
 ### 1. Power on the Puli AX
 
-Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
+Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
 ### 2. Connect your device to the Puli AX
 
-Connect your computer or mobile device to the router using Wi-Fi or ethernet.
+Connect your computer or mobile device to the router using Wi-Fi or ethernet cable.
 
 === "Ethernet"
 
@@ -35,11 +35,11 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
 ### 3. Connect the Puli AX to the internet 
 
-**Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
+**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
-#### 1. Sign in to the router web Admin Panel 
+#### 1. Log in to the router web Admin Panel 
 
-In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
+Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
 
@@ -47,18 +47,23 @@ In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your la
 
     ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_cellular.png){class="glboxshadow"}
 
-    If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
+    If you have already inserted the SIM card into your router, the internet should be connected automatically. (You should see the name of your SIM carrier and a green dot appear in the Cellular section.) 
+    
+    If not, click the **Auto Setup** option if it appears. 
     
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models) for detailed instructions.
 
     Learn how to use the eSIM physical card on GL.iNet router [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
-    For issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 
+    For issues using the cellular, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 
 
 === "Ethernet"
+
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_ethernet.png){class="glboxshadow"}
     
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
+    Connect an ethernet cable between your router's WAN port and an upstream device, such as a modem. 
+    
+    Once the router is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -66,11 +71,11 @@ In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your la
 
     ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_repeater.png){class="glboxshadow"}
 
-    1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
-    2. Select a Wi-Fi network. 
+    1. On the INTERNET page of the web Admin Panel, locate the "Repeater" section and click **Connect**.
+    2. Select a Wi-Fi network from the available networks. 
     3. Enter the network password, then click **Apply**.
     
-    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
+    Once the router is successfully connected to the internet, a green dot will appear next to the Wi-Fi network name.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
@@ -78,33 +83,32 @@ In a web browser's address bar, enter `192.168.8.1` and sign in.  Choose your la
 
     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
-    2. In your mobile device's settings, enable tethering. 
-    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section.  
+    1. Connect your mobile device to the router's USB port using a USB 3.0 data transfer cable. 
+    2. In your mobile device's settings, enable USB tethering. 
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section.  
     
-    If you are connected to the internet successfully, a green dot appears next to "Tethering".
+    Once the router is successfully connected to the internet, a green dot will appear next to "Tethering".
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
+**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods. 
 
 ---
 
 ## How to set up a VPN
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Puli AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
-
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Puli AX (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
 
 === "OpenVPN" 
 
-    Puli AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Puli AX (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
     
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Puli AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Puli AX (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -115,76 +119,47 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     * [How to set up Tor](../../interface_guide/tor.md).
 
-## More features and settings
+## Wireless and clients
 
-=== "Multi-WAN"
+=== "Wireless"
 
-    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+    The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+
+    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+
+=== "Clients"
+
+    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+
+    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+
+## Cloud services
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
     
-    To set up multi-WAN, Refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
+    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
-=== "Priority and Load Balancing"
+=== "AstroWarp"
 
-    Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
-
-=== "LAN"
-
-    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
     
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-
-=== "Drop-in gateway"
-
-    Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
-    
-    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
-
----
-
-=== "Network Mode"
-
-    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
-    
-    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
-
-=== "IPV6"
-
-    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
-    
-    To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
-  
-
-=== "MAC Address"
-
-    A MAC address, or Media Access Control address, is a unique identifier assigned to network interfaces for communications on a physical network. It is typically expressed as a 12-digit hexadecimal number and is used to ensure that data packets are sent to the correct device on a local area network (LAN). 
-    
-    To set up MAC address, refer to [Mac Address](../../interface_guide/network_mode.md).
-    
-=== "Network Acceleration"
-
-    Hardware acceleration refers to the use of specialized hardware components to perform specific tasks more efficiently than general-purpose CPUs. 
-    
-    To set up network acceleration to this [Network Acceleration](../../interface_guide/network_acceleration.md) tutorial.
---- 
+## Applications
 
 === "Plug-ins"
 
     A plugin is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
     
-    To set up plug-ins [Plug-ins](../../interface_guide/plugins.md).
+    To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
     
     To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
-
-=== "GoodCloud"
-
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
-    
-    To set up goodcloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
 === "Network Storage"
 
@@ -198,36 +173,91 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
     
-    To set up adguard home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
+    To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "Parental controls"
+=== "Parental Control"
 
-    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
-    
-    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md). 
+    Parental control is a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
 
-=== "Tailscale"
-
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
-    
-    To set up Tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
-
-=== "eSIM"
-
-    This router supports eSIM functionality. To enable the feature, ensure you are using [firmware version 4.4.13](https://dl.gl-inet.com/release/router/release/xe3000/4.4.13) or later.  
-    
-    To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
-    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
+    To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
 
 === "ZeroTier"
 
     ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
     
-    To set up zerotier, refer to [ZeroTier](../../interface_guide/zerotier.md).
+    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
 
+---
+
+=== "Tailscale"
+
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
+    
+    To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
+
+=== "eSIM Management"
+
+    To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Network settings
+
+=== "Port forwarding"
+
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
+
+=== "Multi-WAN"
+
+    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+
+    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
+
+=== "LAN"
+
+    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
+    
+    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
+
+---
+
+=== "Guest Network"
+
+    It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
+
+    To set up LAN, refer to [Lan Tutorial](../../interface_guide/guest_network.md). 
+
+=== "DNS"
+
+    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
+
+    To set up DNS, refer to [DNS](../../interface_guide/dns.md).
+
+=== "Network Port Management"
+
+    The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+
+---
+
+=== "Network Mode"
+
+    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
+    
+    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
+
+=== "IPv6"
+
+    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
+    
+    To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
+
+=== "Drop-in gateway"
+
+    Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
+    
+    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
+
+---
 
 === "IGMP Snooping"
 
@@ -235,7 +265,17 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
----
+=== "Network Acceleration"
+
+    Hardware acceleration refers to the use of specialized hardware components to perform specific tasks more efficiently than general-purpose CPUs. 
+    
+    To set up network acceleration to this [Network Acceleration](../../interface_guide/network_acceleration.md) tutorial.
+
+=== "NAT Settings"
+
+    The NAT Settings page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.
+
+    To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
 ## System settings
 

@@ -1,6 +1,6 @@
 # Beryl AX (GL-MT3000) User Guide
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ## How to set up Beryl AX
 
@@ -10,11 +10,11 @@ To set up Beryl AX, you will use one of the four supported internet connection m
 
 ### 1. Power on the Beryl AX
 
-Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
+Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
 ### 2. Connect your device to the Beryl AX
 
-Connect your computer or mobile device to the router using Wi-Fi or ethernet.
+Connect your computer or mobile device to the router using Wi-Fi or ethernet cable.
 
 === "Ethernet"
 
@@ -22,15 +22,15 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
 === "Wi-Fi"
 
-    On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
+    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
 ### 3. Connect the Beryl AX to the internet 
 
-**Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
+**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
-#### 1. Sign in to the router web Admin Panel
+#### 1. Log in to the router web Admin Panel
 
-In a web browser's address bar, enter `192.168.8.1`. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
+Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
 
@@ -38,7 +38,9 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_ethernet.png){class="glboxshadow"}
 
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
+    Connect an ethernet cable between your router's WAN port and an upstream device (e.g., a modem). 
+    
+    Once the router is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -46,11 +48,11 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_repeater.png){class="glboxshadow"}
 
-    1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
-    2. Select a Wi-Fi network. 
+    1. On the INTERNET page of the web Admin Panel, locate the "Repeater" section and click **Connect**.
+    2. Select a Wi-Fi network from the available networks. 
     3. Enter the network password, then click **Apply**.
     
-    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
+    Once the router is successfully connected to the internet, a green dot will appear next to the Wi-Fi network name.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
@@ -58,11 +60,11 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
-    2. In your mobile device's settings, enable tethering. 
-    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
+    1. Connect your mobile device to the router's USB port using a USB 3.0 data transfer cable. 
+    2. In your mobile device's settings, enable USB tethering. 
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section. 
     
-    If you are connected to the internet successfully, a green dot appears next to "Tethering".
+    Once the router is successfully connected to the internet, a green dot will appear next to "Tethering".
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
@@ -70,27 +72,28 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
     ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_cellular.png){class="glboxshadow"}
 
-    Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+    Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is useful for sharing internet access from a USB modem to all connected devices.
+
+    Once the router is successfully connected to the internet, a green dot will appear next to "Cellular".
 
     [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods.
+**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Beryl AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
-
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Beryl AX (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
 
 === "OpenVPN" 
 
-    Beryl AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Beryl AX (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Beryl AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Beryl AX (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -105,13 +108,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Wireless"
 
-    The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+    The Wireless page allows you to configure settings for both 5 GHz and 2.4 GHz Wi-Fi networks, including enabling/disabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling/disabling randomized BSSID, selecting Wi-Fi security mode, setting Wi-Fi password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
 
     To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
 === "Clients"
 
-    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+    The Clients page displays information about connected devices. For each client, it shows the device name, connection type (i.e., via ethernet or Wi-Fi), IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to reserve IP, block the client or perform other actions.
 
     To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
@@ -119,7 +122,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
     
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
@@ -137,7 +140,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
     
     To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
@@ -155,19 +158,17 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "Parental controls"
+=== "Parental Control"
 
-    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
+    Parental control is a group of settings designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
 
-    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md).
+    To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
 
 === "ZeroTier"
 
     ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
     
     To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
-
----
 
 === "Tailscale"
 

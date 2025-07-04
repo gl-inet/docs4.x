@@ -26,7 +26,7 @@ If the WiFi SSID you want to connect to is not in the Available Network list, cl
 
 For connecting to a public hotspot, such as those provided by hotels/airports/malls, please refer to  [For Public Hotspot](#for-public-hotspot).
 
-For other settings, please refer to [Advanced Settings](#join-network-advanced-setting).
+For other settings, please refer to [Advanced Settings](#advanced-settings).
 
 After a while, if the password input is correct, the connection will be successful.
 
@@ -56,7 +56,7 @@ When connecting the router to a public hotspot with a captive portal, enabling t
 
     You can choose which MAC the router uses to connect to the public hotspot.
 
-    - **Factory**: Uses the device’s original factory-assigned MAC address.
+    - **Factory**: Uses the device's original factory-assigned MAC address.
 
     - **Clone**: Clones a client device’s MAC address for connection. If the desired MAC isn’t listed, manually enter the address you want to clone. 
     
@@ -118,7 +118,7 @@ To view repeater options, click the gear icon in the upper-right corner of the c
 
 * **Band Selection**. If you manually select a band, the router will not scan or connect to any Wi-Fi with another band.
 
-## Manage known network
+## Manage Known Network
 
 To delete known network, click **Switch Network**.
 
@@ -190,7 +190,7 @@ When connecting to an upstream 5G WiFi, the router's WiFi will follow the upstre
 
 * The router's 5G WiFi will switch to the non-DFS channel if the upstream WiFi is not scannable or if the connection fails.
 
-### Supported models
+### Supported Models
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |

@@ -6,63 +6,81 @@ Using Repeater means connecting the router to another existing wireless network,
 
 It works in WISP (Wireless Internet Service Provider) mode by default, which means that the router will create its own subnet and act as a firewall to protect you from the public network.
 
-On the left side of web Admin Panel -> INTERNET, Repeater sector.
+## Basic Steps
 
-## Basic steps
+On the left side of web Admin Panel, go to INTERNET -> Repeater section, click **Connect**.
 
-![repeater](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
+![repeater section](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
 
-Click **Connect** in the image above.
+In the pop-up window, choose the Wi-Fi network you want to connect from the available network list. 
 
-![repeater join wlan](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_wlan.png){class="glboxshadow"}
+![join wifi 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_1.png){class="glboxshadow"}
 
-Choose a SSID from the drop-down list and enter its password. If the SSID you want to connect to is not in the list, click [Join Other Network](#join-other-network) in the image above.
+Enter the correct WiFi password and click **Apply**.
 
-![repeater join network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_join_network.png){class="glboxshadow"}
+![join wifi 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_2.png){class="glboxshadow"}
 
-If you want to connect to a public hotspot, such as those provided by hotels/airports/malls, please refer to  [For Public Hotspot](#for-public-hotspot).
+If the WiFi SSID you want to connect to is not in the Available Network list, click **Join Other Network** in the upper-right corner, manually input the WiFi SSID and other information required. Refer to [here](#join-other-network) for detailed steps.
+
+![join other network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
+
+For connecting to a public hotspot, such as those provided by hotels/airports/malls, please refer to  [For Public Hotspot](#for-public-hotspot).
 
 For other settings, please refer to [Advanced Settings](#join-network-advanced-setting).
 
-Wait a moment, if the password is correct, the connection will be successful.
+After a while, if the password input is correct, the connection will be successful.
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
 ## For Public Hotspot
 
-* **Auto-Enable Login Mode for Public Hotspots**
+When connecting the router to a public hotspot with a captive portal, enabling the following features can help improve the connection success rate.
 
-  This feature is available since v4.6
+![repeater settings for public hotspot](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_settings_for_public_hotspot.png){class="glboxshadow"}
+
+- **Auto-Enable Login Mode for Public Hotspots**
+
+    This feature is available since v4.6
+
+    If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it is successfully connected to a hotspot but not the Internet. **In this mode, some services will be suspended while the DNS mode will be switched to automatic**, which may leak your network activity to the hotspot provider (e.g. hotel or shopping mall).
+
+    Even if this option is not enabled, the router will prompt you to enter this mode when it detects a captive portal in the hotspot and fails to log in successfully.
+
+    ![login mode for public hotspots](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/login_mode_for_public_hotspots.png){class="glboxshadow"}
+
+- **Enable Camouflage**
+
+    If enabled, the router will masquerade as the client device you use to access the admin panel by emulating that device’s MAC address.
+
+- **MAC Mode**
+
+    You can choose which MAC the router uses to connect to the public hotspot.
+
+    - **Factory**: Uses the device’s original factory-assigned MAC address.
+
+    - **Clone**: Clones a client device’s MAC address for connection. If the desired MAC isn’t listed, manually enter the address you want to clone. 
+    
+        Note: Many modern devices use randomized MAC addresses (often called Private Wi-Fi Address or random hardware address) when connecting to Wi-Fi networks. Because of this, the MAC address displayed here may not match the device’s actual physical MAC.
   
-  If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it successfully connected to a hotspot but not the Internet. This mode will pause VPNs, which may cause data leaks to the provider of the hotspot (e.g., hotel/mall).
+    - **Random**: Automatically generates a random MAC address for connection.
 
-  Even if you do not turn on this option, the device prompts you to enter this mode when it detects the captive portal existing in the hotspot and does not login successfully.
+    When saving the network configuration, the MAC Mode (including any cloned/randomized MAC address) is tied to the specific SSID you save. You can manually change these settings for each SSID at any time.
 
-  ![login mode for public hotspots](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/login_mode_for_public_hotspots.png){class="glboxshadow"}
+- **Auto Update MAC**: If this option is enabled, the MAC can update automatically.
 
-* **Enable Camouflage**
+## Advanced Settings
 
-  If enabled, the router will masquerade as the client device you use to access the management page by emulating its MAC address.
+When joining the network, there are some additional options.
 
-* **MAC Mode**
+![advanced settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_advanced_settings.png){class="glboxshadow"}
 
-  You can choose which MAC to use to connect to this hotspot.
+* **Remember**: Enable this to remember the current repeated WiFi network. This is available in firmware v4.7 and later.
 
-  **Factory**: The factory-written MAC address of the device.
-  **Clone**: Clone a client's MAC address. Note that many new devices now use a different random MAC address to connect to different WiFi, so the MAC address shown here may not be the actual MAC address of the user's device. The randomized MAC may also be called a Private Wi-Fi Address or a random hardware address on different devices. You can also manually enter the device's MAC you want to clone if it is not in the options.
-  **Random**: Generate a random MAC address.
+* **Lock BSSID**: If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.
 
-  The mode and cloned/randomized MAC address used when saving the network follows each SSID save, and you can change it manually.
+* **Manually set static IP**: This is available in firmware v4.7 and later.
 
-## Join network advanced setting
-
-When joining the network, there are two additional options.
-
-![repeater join network advanced setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_join_network_advanced_setting.png){class="glboxshadow"}
-
-* **Lock BSSID**. If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.
-
-* **Manually set static IP**.
+    ![set static ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/manually_set_static_ip.png){class="glboxshadow"}
 
 * **TTL**: TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator. By default, the router forwards the TTL of the incoming client device minus one. If you need to camouflage, you can set a fixed value here. the TTL is valid only for IPv4.
 
@@ -70,17 +88,17 @@ When joining the network, there are two additional options.
 
 * **MTU**: The default value is 1500.
 
-## Repeater options
+## Repeater Options
 
-Click the cog icon for repeater options.
+To view repeater options, click the gear icon in the upper-right corner of the connected Repeater section.
 
-![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
 **For firmware v4.8**, the Repeater Options page is displayed as follows.
 
 ![v4.8 repeater options 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/4.8/repeater_options_1.png){class="glboxshadow"}
 
-- **Allow Switching to Other Networks Mode**. Three modes are available: 
+- **Allow Switching to Other Networks Mode**: 
 
     - No Switching mode: When No Switching mode is enabled, other saved networks will not be automatically connected when the current Wi-Fi is disconnected.
   
@@ -96,7 +114,7 @@ Click the cog icon for repeater options.
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 
-* **Allow Switching To Other Saved Network**. If the option is enabled, the router will automatically connect to other saved networks when it is unable to connect to the current Wi-Fi network.
+* **Allow Switching To Other Saved Networks**. If the option is enabled, the router will automatically connect to other saved networks when it is unable to connect to the current Wi-Fi network.
 
 * **Band Selection**. If you manually select a band, the router will not scan or connect to any Wi-Fi with another band.
 
@@ -104,65 +122,69 @@ Click the cog icon for repeater options.
 
 To delete known network, click **Switch Network**.
 
-![repeater connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![switch network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-Or click **Connect**.
+Or click **Connect** in the Repeater section if there's no any network connected.
 
-![repeater](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_sector.png){class="glboxshadow"}
+![repeater section](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
 
-On the **Known Network** sector, click trash icon to delete a known network, click cog icon to config the network.
+On the **Known Networks** section, click the trash icon to delete a known network, or the gear icon to configure the network.
 
-![repeater known network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_known_networks.png){class="glboxshadow"}
+![manage known network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/manage_known_networks.png){class="glboxshadow"}
 
 ## Join Other Network
 
 If the SSID is not in the Available Networks list, or if the SSID is hidden, you can click **Join Other Network**.
 
-![join other network](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/join_other_network.png){class="glboxshadow gl-90-desktop"}
+![join other network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
 
-![join other network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_join_other_network.png){class="glboxshadow"}
+Input the SSID, select the Security and enter the password (if required).
 
-Input the SSID, for **Security**, It has the following three options.
+![join other network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_2.png){class="glboxshadow"}
 
-* None, it doesn't need password.
-* WPA/WPA2/WPA3
-* WPA/WPA2/WPA3 Enterprise, for Extensible Authentication Protocol (EAP), it requires a username and password for authentication.
+For **Security** settings, there are two or three options, depending on the model.
 
-    ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_eap.png){class="glboxshadow gl-90-desktop"}
+* None, which means no password is required.
+* WPA/WPA2/WPA3, which is common and supported by nearly all WiFi networks.
+* WPA/WPA2/WPA3 Enterprise, which requires Extensible Authentication Protocol (EAP) for authentication. A valid username and password are needed to connect (typically used in business or campus networks).
+
+    ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_eap.png){class="glboxshadow"}
 
 ## Reconnection
 
-In the following cases, the router's Repeater will try to connect to WiFi every once in a while. You can turn off the reconnection manually, and for ssid/password errors, please delete it in Known Network.
+In the following cases, the router will automatically attempts to reconnect to WiFi every once in a while. You can manually disable this if needed. For SSID/password errors, remove the network from Known Networks to resolve.
 
-1. The wrong SSID/password was entered during the process of Repeater, after the first failed connection.
+1. Incorrect SSID/password entered during Repeater setup.
 
-2. After connecting to the WiFi of the upstream router, the router moves out of the signal range of the upstream router.
+2. Moved out of range of the upstream router after initial connection.
 
-3. After connecting to the WiFi of the upstream router, the upstream router changed the SSID/password, or restricted the connection.
+3. Upstream router changes SSID/password or restricts access post-connection.
 
-It can be divided into three phases, the waiting phase, the scanning phase, and the connecting phase.
+The reconnection process has three distinct phases: waiting phase, scanning phase and connecting phase.
 
-**Note**: There are some problems during the scanning phase and the connection phase.
+1. Waiting Phase: No issues - router waits for reconnection conditions.
 
-1. In the waiting phase, everything is OK.
+2. Scanning Phase: Packet loss may occur on the scanned frequency band. New devices might face connection problems. For models GL-AXT1800/GL-AX1800, Guest Wi-Fi will be temporarily disabled.
 
-2. In the scanning phase, data packet may loss in the scanned band, possible connection problems for new devices. For GL-AXT1800 and GL-AX1800, the Guest Wi-Fi will be temporarily turned off.
+3. Connecting Phase: Main Wi-Fi on the target band may drop for a few seconds during re-establishment.
 
-3. In the connecting phase, the Main Wi-Fi on the corresponding band may be disconnected for a few seconds.
+**Note**: Problems typically arise in the Scanning and Connecting Phases.
 
 ## Warning
 
-When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
+When Internet access is not available, the corresponding warning is displayed as below: 
 
-- Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
+**The interface is connected, but the Internet can't be accessed.**
 
-    ![repeater wrning](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_repeater/repeater_warning.png){class="glboxshadow gl-90-desktop"}
+![repeater wrning](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/interface_connected_no_internet.png){class="glboxshadow"}
 
-    Solution: Please check if the upstream device of Repeater has internet access.
+Solution: Please check if the upstream device of Repeater has internet access.
+
+To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
 
 ## DFS
 
-When Repeater to a upstream 5G WiFi, the router WiFi will follow the upstream WiFi to use or not use the DFS channel.
+When connecting to an upstream 5G WiFi, the router's WiFi will follow the upstream WiFi to use or not use the DFS channel.
 
 * If the upstream WiFi uses a DFS channel and is scannable, the router's 5G WiFi will use the same channel.
 

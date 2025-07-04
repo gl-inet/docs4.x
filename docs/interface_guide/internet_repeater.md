@@ -172,15 +172,17 @@ The reconnection process has three distinct phases: waiting phase, scanning phas
 
 ## Warning
 
-When Internet access is not available, the corresponding warning is displayed as below: 
+When Internet access is not available, the corresponding warning is displayed as below. 
 
-**The interface is connected, but the Internet can't be accessed.**
+**"The interface is connected, but the Internet can't be accessed."**
 
 ![repeater wrning](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/interface_connected_no_internet.png){class="glboxshadow"}
 
-Solution: Please check if the upstream device of Repeater has internet access.
+Solutions: 
 
-To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
+1. Check if the upstream device of Repeater has internet access.
+
+2. Go to [Multi-WAN](multi-wan.md) page to determine whether you can access the Internet or not.
 
 ## DFS
 

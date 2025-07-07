@@ -148,7 +148,9 @@ For **Security** settings, there are two or three options, depending on the mode
 * WPA/WPA2/WPA3, which is common and supported by nearly all WiFi networks.
 * WPA/WPA2/WPA3 Enterprise, which requires Extensible Authentication Protocol (EAP) for authentication. A valid username and password are needed to connect (typically used in business or campus networks).
 
-    ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_eap.png){class="glboxshadow"}
+    ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_eap.jpg){class="glboxshadow"}
+
+    For detailed guidance on repeating EAP networks, please click [here](../tutorials/eap.md){target="_blank"}.
 
 ## Reconnection
 

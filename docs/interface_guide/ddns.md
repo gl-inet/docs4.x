@@ -2,101 +2,135 @@
 
 Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a domain name to the dynamic IP address of a network device.
 
-On the left side of web Admin Panel -> APPLICATIONS -> Dynamic DNS
-
-![ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ddns.png){class="glboxshadow"}
+You can enable Dynamic DNS for this router and access this router remotely. An Internet Public IP address is required to use Dynamic DNS.
 
 ## Enable DDNS
 
-Toggle on **Enabled DDNS**, option in Terms of Services & Privacy Policy, then click **Apply** button. Generally it take several minutes to take effect.
+On the left side of web Admin Panel -> APPLICATIONS -> Dynamic DNS, the page is displayed as below.
 
-DDNS update frequency is once every 10 minutes.
+![ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns.png){class="glboxshadow"}
 
-![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/enable_ddns.png){class="glboxshadow"}
+Toggle on **Enable DDNS**, agree to the **Terms of Services & Privacy Policy**, then click **Apply**.
 
-**Note**: If you using DDNS and VPN Client at the same time, please make sure to enable **Services From GL.iNet Doesn't Use VPN** in [Global Option of VPN Client](vpn_dashboard_v4.7.md#global-options-of-vpn-client).
+![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
 
-## Check if DDNS is in effect
+Click on **Security Settings** in the bottom right corner.
+
+![security settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/security_settings-1.png){class="glboxshadow"}
+
+In the pop-up window, check if the remote access protocol you want to apply is enabled. If not, go to SYSTEM -> Security -> Remote Access Control to enable it.
+
+![security settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/security_settings-2.png){class="glboxshadow"}
+
+Enable the remote access protocol you want, and click **Apply**.
+
+![security remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_enabled.jpg){class="glboxshadow"}
+
+There may be a delay of up to 10 minutes in record synchronization between DNS servers. This may cause you to be unable to access through the DDNS domain name immediately after you have just enabled it or your public IP has changed.
+
+**Note**: If you use DDNS and VPN Client at the same time, make sure that the option **Services From GL.iNet Use VPN** is disabled in [Global Option of VPN Client](vpn_dashboard_v4.7.md#global-options-of-vpn-client).
+
+## Check If DDNS Works
 
 === "Using the DDNS Test tool"
 
-    Click the **DDNS Test**
+    In the Dynamic DNS page, click the **DDNS Test**
 
-    ![ddns test](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/click_ddns_test.png){class="glboxshadow"}
+    ![ddns test](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns_test.png){class="glboxshadow"}
 
-    If it says **Your DDNS is resolved as x.x.x.x** as shown below, it means the DDNS is worked. In other words, this **Host Name** has maped to the final exit IP of the router for Internet access.
+    Make sure the IP address from DDNS domain resolution matches the router’s WAN IP. 
+    
+    If not, a yellow prompt will appear at the top, indicating that the router might be behind NAT, and you need to set up port forwarding on the upstream router.
 
-    ![ddns works](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ddns_test_resolved.png){class="glboxshadow"}
+    ![ddns test prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns_test_no_public_ip.png){class="glboxshadow"}
 
-=== "Or check it manually"
+=== "Check it manually"
 
-    Check the two IP address below to see if they are the same, if yes, the DDNS is in effect, otherwise not.
+    1. Use `nslookup` command to obtain the mapping between domain name and IP address, as shown below.
 
-    * Use `nslookup` command as show below to obtain the mapping between domain name and IP address. You need to change `zw72cd7.glddns.com` to your Host Name. `8.8.8.8` is Google DNS, you can change to other DNS.
+        ![nslookup](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup.png){class="glboxshadow"}
 
-        `nslookup zw72cd7.glddns.com 8.8.8.8`
+        Replace the "xxxxxxx.glddns.com" in the image above with your Host Name. 
+        
+        The "8.8.8.8" in the image above is the Google DNS. You can use it or replace it with other DNS.
 
-        ![nslookup](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/nslookup.png){class="glboxshadow"}
+        You will get an IP address as an output, such as the IP "103.81.180.10" in the image above.
 
-        The output above means the Host Name has maped to an IP address.
+    2. Connect a smartphone or computer to the router. Search for "my ip address" in a browser, or visit a website like [What Is My IP Address](https://whatismyipaddress.com){target="_blank"}. You will get your public IP address.
 
-    * Use phone/computer that connected to the router, search **my ip address** on Google, or access website like [https://whatismyipaddress.com/](https://whatismyipaddress.com/){target="_blank"}
-
-## HTTP Remote Access
-
-This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
-
-If your router is behind NAT, you may need to set up port forwarding in higher level router. It use port **80**.
-
-![HTTP-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/http_remote_access.png){class="glboxshadow"}
-
-Follow the steps above, to enable HTTP Remote Access. 
-
-***HTTP is not encrypted, use at your own risk.***
-
-After you enable HTTP Remote Access, you can access Admin Panel anywhere by your DDNS Host Name of **http**, e.g. `http://xxxxxxx.glddns.com`. If you use port forwarding, you should be access like `http://xxxxxxx.glddns.com:YourExternalPort`.
+    3. Compare the two IP addresses obtained from Step 1 and 2. If they are the same, the DDNS is in effect, otherwise it is not.
 
 ## HTTPS Remote Access
 
-This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
+!!! Note
 
-If your router is behind NAT, you may need to set up port forwarding in higher level router. It use port **443**.
+    1. A **Public IP** address is required for HTTPS remote access. 
+    
+        Click [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) to check if your Internet Provider Service (ISP) assigns you a public IP address.
+    
+    2. If your router is behind NAT, configure port forwarding (port **443**) on the upstream router for HTTPS access.
 
-![HTTPS-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access.png){class="glboxshadow"}
+Then follow the steps below to enable HTTPS remote access for your router.
 
-After you enable HTTPS Remote Access, you can access Admin Panel anywhere by your DDNS Host Name of **https**, e.g. `https://xxxxxxx.glddns.com`. If you use port forwarding, you should be access like `https://xxxxxxx.glddns.com:YourExternalPort`.
+1. On the Dynamic DNS page, toggle on **Enable DDNS**, agree to the **Terms of Services & Privacy Policy**, then click **Apply**.
 
-This function use self-signed certificates, so the browers will indicate that **Your connection is not private**. I will show you how to use it anyway on Chrome Android, other browers are the similar process. I will turn off the WiFi on my phone and only use 4G to access the Internet.
+    ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
 
-Open chrome and type the URL in the address bar, I'll use `https://zw72cd7.glddns.com:8001` as an example. Click **Advanced** at the bottom to continue.
+2. On the left side of web admin panel, go to SYSTEM -> Security -> Remote Access Control.
 
-![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_1.png){class="glboxshadow" width="400"}
+    ![remote access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_disabled.png){class="glboxshadow"}
 
-Click **Processed to xxxxxxx.glddns.com (unsafe)** to continue.
+3. Enable the **HTTPS Remote Access**, and click **Apply**.
 
-![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_2.png){class="glboxshadow" width="400"}
+    ![enable https remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_https_remote_access.png){class="glboxshadow"}
 
-Then, it will access the web Admin Panel.
+Once enabled, you can access the router’s admin panel from anywhere using the DDNS host name over **HTTPS** (e.g., `https://xxxxxxx.glddns.com`). 
 
-![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_3.png){class="glboxshadow" width="400"}
+If port forwarding is configured, access it as `https://xxxxxxx.glddns.com:external_port `(replace the external_port with your actual port number). 
+
+**Note**: This function uses self-signed certificates, therefore the browsers will indicate **Your connection is not private** when accessing the router’s admin panel via the DDNS host name over **HTTPS**, as shown below (port 8001 is used below as an example).
+
+![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_0.jpg){class="glboxshadow" width="400"}
+
+Click **Advanced** at the bottom to continue.
+
+![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_1.png){class="glboxshadow" width="400"}
+
+Click **Processed to xxxxxxx.glddns.com** to continue.
+
+![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_2.png){class="glboxshadow" width="400"}
+
+You will then be able to access the web admin panel using the DDNS host name over HTTPS.
+
+![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_3.png){class="glboxshadow" width="400"}
 
 ## SSH Remote Access
 
-This function requires a public IP address. To check if your Internet Provider Service assign your a public IP address, please check [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md).
+!!! Note
 
-If your router is behind NAT, you may need to set up port forwarding in higher level router. It use port **22**.
+    1. A **Public IP** address is required for SSH remote access. 
+    
+        Click [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) to check if your Internet Provider Service (ISP) assigns you a public IP address.
+    
+    2. If your router is behind NAT, configure port forwarding (port **22**) on the upstream router for SSH access.
 
-![SSH-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ssh_remote_access.png){class="glboxshadow"}
+Then follow the steps below to enable SSH remote access for your router.
 
-Follow the steps above, to enable SSH Remote Access, then you can ssh to your router anywhere. 
+1. On the Dynamic DNS page, toggle on **Enable DDNS**, agree to the **Terms of Services & Privacy Policy**, then click **Apply**.
 
-Your SSH command should like below.
+    ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
 
-`ssh root@xxxxxxx.glddns.com`
+2. On the left side of web admin panel, go to SYSTEM -> Security -> Remote Access Control.
 
-or 
+    ![remote access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_disabled.png){class="glboxshadow"}
 
-`ssh root@xxxxxxx.glddns.com:YourExternalPort`
+3. Enable the **SSH Remote Access**, and click **Apply**.
+
+    ![enable ssh remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ssh_remote_access.png){class="glboxshadow"}
+
+Once enabled, you can access the router's admin panel from anywhere using the DDNS host name over **SSH** (e.g., `ssh root@xxxxxxx.glddns.com`). 
+
+If port forwarding is configured, access it as `ssh root@xxxxxxx.glddns.com:external_port` (replace the external_port with your actual port number). 
 
 ---
 

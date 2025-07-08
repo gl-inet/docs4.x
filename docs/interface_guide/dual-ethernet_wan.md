@@ -4,7 +4,9 @@
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-BE9300 (Flint 3)            | √         |
 | GL-MT6000 (Flint 2)            | √         |
+| GL-X3000  (Spitz AX)           | √         |
 | GL-XE3000 (Puli AX)            | √         |
 
 ## Setup

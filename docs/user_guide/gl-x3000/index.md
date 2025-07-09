@@ -1,6 +1,6 @@
 # Spitz AX (GL-X3000) User Guide
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ## How to set up Spitz AX
 
@@ -11,19 +11,19 @@ To set up Spitz AX, you will use one of the four supported internet connection m
 
 !!! note "Before you start, follow these steps (if connecting via the cellular method):"
 
-    To connect to the internet via the cellular method, you will need at least one nano SIM card. Once you have the nano SIM card(s) ready, follow these steps:
+    At least one nano SIM card is required to connect to the internet via the cellular method. Once you have the nano SIM card(s) ready, follow these steps:
     
-    1. Activate your SIM card(s), if required by the SIM card carrier.
-    2. Make sure you router is powered off.
-    3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at each time. The other SIM card functions only as a backup.)
+    1. Activate your SIM card(s) if required by the SIM card carrier.
+    2. Power off your router.
+    3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at one time. The other SIM card functions only as a backup.)
 
 ### 1. Power on the Spitz AX
 
-Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
+Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
 ### 2. Connect your device to the Spitz AX
 
-Connect your computer or mobile device to the router using Wi-Fi or ethernet.
+Connect your computer or mobile device to the router using Wi-Fi or ethernet cable.
 
 === "Ethernet"
 
@@ -31,15 +31,15 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
 === "Wi-Fi"
 
-    On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
+    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
 ### 3. Connect the Spitz AX to the internet 
 
-**Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
+**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
-#### 1. Sign in to the router web Admin Panel
+#### 1. Log in to the router web Admin Panel
 
-In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
+Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
 
@@ -47,19 +47,23 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_cellular.jpg){class="glboxshadow"}
 
-    If you already inserted the SIM card into your router, you should be connected to the internet automatically. (You should see the name of your SIM carrier and a light blue dot appear next to it.) If not, click the **Auto Setup** option if it appears. 
+    If you have already inserted the SIM card into your router, the internet should be connected automatically. (You should see the name of your SIM carrier and a green dot appear in the Cellular section.) 
+    
+    If not, click the **Auto Setup** option if it appears. 
     
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models) for detailed instructions.
 
     Learn how to use the eSIM physical card on GL.iNet router [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
-    For issues using the cellular method, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 
+    For issues using the cellular, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 
 
 === "Ethernet"
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_ethernet.jpg){class="glboxshadow"}
     
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
+    Connect an ethernet cable between your router's WAN port and an upstream device, such as a modem. 
+    
+    Once the router is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -67,11 +71,11 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_repeater.jpg){class="glboxshadow"}
 
-    1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
-    2. Select a Wi-Fi network. 
+    1. On the INTERNET page of the web Admin Panel, locate the "Repeater" section and click **Connect**.
+    2. Select a Wi-Fi network from the available networks. 
     3. Enter the network password, then click **Apply**.
     
-    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
+    Once the router is successfully connected to the internet, a green dot will appear next to the Wi-Fi network name.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
@@ -79,31 +83,30 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
      ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_tethering.jpg){class="glboxshadow"}
 
-    1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
-    2. In your mobile device's settings, enable tethering. 
-    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
+    1. Connect your mobile device to the router's USB port using a USB 3.0 data transfer cable. 
+    2. In your mobile device's settings, enable USB tethering. 
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section. 
     
-    If you are connected to the internet successfully, a green dot appears next to "Tethering".
+    Once the router is successfully connected to the internet, a green dot will appear next to "Tethering".
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods.
+**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
-
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz AX (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
 
 === "OpenVPN" 
 
-    Spitz AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Spitz AX (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Spitz AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Spitz AX (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -132,7 +135,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
     
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
@@ -170,11 +173,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "Parental controls"
+=== "Parental Control"
 
-    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
+    Parental control is a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
 
-    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md).
+    To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
 
 === "ZeroTier"
 
@@ -192,7 +195,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "eSIM Management"
 
-    This router supports eSIM functionality. To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
+    To learn how to set up and manage eSIM on your device, please refer to [this tutorial](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

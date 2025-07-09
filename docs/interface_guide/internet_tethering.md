@@ -8,46 +8,64 @@ Using a USB cable to share network from your smartphone to the router is called 
 
 === "iPhone"
 
-    1. Connect iPhone to the USB port of the router. It will pop up a message asking to trust this computer? Click "Trust" to contine. Because we are connecting the iPhone to the router, so here is to TRUST the router.
+    1. Connect an iPhone to the router’s USB port using a USB cable. A system dialog will appear asking whether to trust the device. Tap **Trust** to proceed. 
 
         ![trust this computer](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_trust_this_computer.png){class="glboxshadow"}
 
-    2. Go to iPhone -> Settings -> Personal Hotspot -> Turn on Allow Others to Join.
+    2. Go to iPhone **Settings** -> **Personal Hotspot** -> **Turn on Allow Others to Join**.
 
         ![turn on allow others to join](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow"}
 
-    3. Use a computer or another phone, connect to the router, then go to web Admin Panel, on the left side bar, choose "INTERNET" and click "Connect" in the middle of the page.
+    3. Connect a computer or another phone to the router to access the web Admin Panel, then go to INTERNET -> Tethering section, click **Connect**.
 
         ![tethering connect](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/tethering_find_device.png){class="glboxshadow"}
 
-    4. It will show connected information on the top of your phone screen and the web Admin Panel once you connect successfully.
+    4. Once connected, the personal hotspot status (such as the number of connected devices) appears in the status bar at the top of the phone screen.
 
         ![tethering](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow"}
 
-        Tethering connected on web Admin Panel.
+        The web admin panel will also display the Tethering connection status.
 
         ![tethering](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/tethering_connected.png){class="glboxshadow"}
 
-    If the connection fails, please turn off and turn on **Allow Others to Join** for a few times.
-
 === "Android"
 
-    For Android phone tethering, the procedure is similar to iPhone. Connect it to the USB port of the router, it may pop up a dialog ask **Use USB for**, choose **File Transfer/Android Audio**, then check Settings -> Personal hotspot -> Usb network sharing.
+    1. Connect an Android phone to the router’s USB port using a USB cable. A system dialog may appear asking Use USB for what purpose. Select **File Transfer** if prompted. 
 
-    For the Android official documentation for refer [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}
+    2. Go to **Settings** -> **Network & Internet** -> **Hotspot & tethering**, enable **USB tethering**.
+    
+        (The steps to enable USB Tethering vary by brand. Check your device’s settings for the exact location, and contact your manufacturer’s support if you need assistance.)
+
+    3. Access the router’s web admin panel, go to INTERNET -> Tethering section, click **Connect**.
+
+    4. Once connected, the personal hotspot status (such as the number of connected devices) appears in the status bar at the top of the phone screen. 
+    
+        The web admin panel will also display the Tethering connection status.
+
+    For the Android official documentation, refer to [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}
 
 ## Warning
 
-When Internet access is not available, the corresponding warning is displayed. To determine whether you can access the Internet or not, please go to [Multi-WAN](multi-wan.md) page.
+When Internet access is not available, the corresponding warning will be displayed: 
 
-- Warning: *The interface is connected, but the Internet can't be accessed with IPv4 protocol.*
+**"The interface is connected, but the Internet can't be accessed."**
 
-- Solution: Please check if the smartphone has internet access.
+Solutions: 
+
+1. Check if the smartphone has internet access.
+
+2. Go to [Multi-WAN](multi-wan.md) page to determine whether you can access the Internet or not.
 
 ## Troubleshooting
 
-* Please use the original power supply.
-* Please restart your mobile once.
+If the connection fails, try these troubleshooting steps:
+    
+- Use the original power supply for the router.
+- Unplug and re-plug the USB cable.
+- Use another USB cable. Ensure it supports data transfer (not just charging).
+- Turn off and turn on "USB Tethering" for a few times (for Android Phone).
+- Turn off and turn on "Allow Others to Join" for a few times (for iPhone).
+- Restart your smartphone and try again.
 
 ---
 

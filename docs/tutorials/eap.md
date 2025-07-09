@@ -14,8 +14,8 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
 | GL-BE3600 (Slate 7)            | √         |
 | GL-X2000 (Spitz Plus)          | √         |
 | GL-B3000 (Marble)              | √         |
-| GL-MT6000 (Flint 2)            | ●         |
-| GL-MT3000 (Beryl AX)           | ●         |
+| GL-MT6000 (Flint 2)            | ※        |
+| GL-MT3000 (Beryl AX)           | ※        |
 | GL-X3000 (Spitz AX)            | -         |
 | GL-XE3000 (Puli AX)            | -         |
 | GL-AXT1800 (Slate AX)          | √         |
@@ -37,7 +37,7 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
 
 !!! note
 
-    The models marked with ● do not support connecting to EAP networks when being installed the default firmware, but we provide native OpenWrt 24 firmware for these models which can be installed to support connecting to EAP networks. Here is the [link](https://dl.gl-inet.com/){target="_blank"} of download center.
+    The models marked with ※ do not support connecting to EAP networks when being installed the default firmware, but GL.iNet provides native OpenWrt 24 firmware for these models which can be installed to support connecting to EAP networks. Search the model in the [Download Center](https://dl.gl-inet.com/){target="_blank"} and turn to OPENWRT 24 tab for more details.
 
 ## Connect via web Admin Panel
 

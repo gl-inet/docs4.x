@@ -1,5 +1,7 @@
 # NAT Settings
 
+This feature is available starting from v4.5.16.
+
 On the left side of web Admin Panel -> NETWORK -> NAT Settings 
 
 The **LAN Network** is the network if your devices connect to the Main WiFi or connect via an ethernet cable.

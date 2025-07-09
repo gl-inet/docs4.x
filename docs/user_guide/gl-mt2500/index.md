@@ -1,6 +1,6 @@
 # GL-MT2500/GL-MT2500A(Brume 2) User Guide
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ## How to set up Brume 2
 
@@ -11,21 +11,17 @@ To set up Brume 2, you will use one of the three supported internet connection m
 
 ### 1. Power on the Brume 2
 
-Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
+Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
 ### 2. Connect your device to the Brume 2
 
-Connect your computer to the router using ethernet.
-
-=== "Ethernet"
-
-    Connect your device to the router's LAN port using an ethernet cable. 
+Connect your device to the router's LAN port using an ethernet cable. 
 
 ### 3. Connect the Brume 2 to the internet 
 
-#### 1. Sign in to the router web Admin Panel 
+#### 1. Log in to the router web Admin Panel 
 
-In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
+Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
 
@@ -33,46 +29,48 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
     
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
+    Connect an ethernet cable between your router's WAN port and an upstream device, such as a modem. 
+    
+    Once the router is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
-
 
 === "Tethering"
 
      ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
-    2. In your mobile device's settings, enable tethering. 
-    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
+    1. Connect your mobile device to the router's USB port using a USB 3.0 data transfer cable. 
+    2. In your mobile device's settings, enable USB tethering. 
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section. 
     
-    If you are connected to the internet successfully, a green dot appears next to "Tethering".
+    Once the router is successfully connected to the internet, a green dot will appear next to "Tethering".
 
 === "Cellular"
 
     ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
 
-    Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+    Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is useful for sharing internet access from a USB modem to all connected devices.
+
+    Once the router is successfully connected to the internet, a green dot will appear next to "Cellular".
 
     [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods. 
+**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods. 
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 2 (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
-
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 2 (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
 
 === "OpenVPN" 
 
-    Brume 2 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Brume 2 (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Brume 2 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Brume 2 (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -85,7 +83,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ## CLIENTS
 
-The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+The Clients page displays information about connected devices. For each client, it shows the device name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to reserve IP, block the client or perform other actions.
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
@@ -93,7 +91,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
     
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
@@ -113,7 +111,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
     
     To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
@@ -131,11 +129,11 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "Parental controls"
+=== "Parental Control"
 
-    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content. Brume 2 offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app.
+    Parental control is a group of settings designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content. Brume 2 offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app.
 
-    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md).
+    To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
 
 === "ZeroTier"
 

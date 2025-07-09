@@ -21,7 +21,7 @@ Mouse over the graph to display specific values.
 
 ![system overview, cpu average load](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/cpu_average_load.png){class="glboxshadow gl-70-desktop"}
 
-GL-AXT1800/GL-MT3000 has a fan. Click the fan icon at the right top corner, it will shows the fan settings.
+GL-AXT1800, GL-MT3000, and GL-BE3600 are equipped with a fan. Click the fan icon at the top-right corner to access the fan settings.
 
 ![system overview, fan settings](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/fan_settings.png){class="glboxshadow gl-70-desktop"}
 

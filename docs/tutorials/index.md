@@ -23,6 +23,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to enable VPN Cascading on GL.iNet routers](how_to_use_vpn_cascading_on_glinet_routers.md)
 * [Use WireGuard to secure RDP from outside network](use_wireguard_to_secure_rdp_from_outside_network.md)
 * [How to get configuration files from WireGuard service providers](how_to_get_configuration_files_from_wireguard_service_providers.md)
+* [How to reserve fixed IP for OpenVPN client in a self built OpenVPN connection](reserve_fixed_IP_for_ovpn_client.md)
 
 ## Cellular
 

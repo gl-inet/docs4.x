@@ -24,7 +24,7 @@ Toggle the button to enable IPv6, and click **Apply**.
 
 - Passthrough mode is applicable when IPv6 packets need to be directly passed through without any processing or conversion. For example, some specific network applications or services may require the complete preservation of the content of IPv6 packets for further processing or analysis, which is used by technical personnel for network debugging or security analysis.
 
-**DNS acquisition method**: There are two options: **Automic** and **Manual**.
+**DNS acquisition method**: There are two options: **Automatic** and **Manual**.
 
 ---
 

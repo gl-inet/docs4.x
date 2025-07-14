@@ -6,10 +6,9 @@ All GL.iNet routers have a simple and almost identical setup process. [Click her
 
 To set up Spitz AX, you will use one of the four supported internet connection methods: Cellular (SIM cards), Ethernet, Repeater, and Tethering. Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Spitz AX and other router models.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/64C7dqHG2EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! note "Before you start, follow these steps (if connecting via the cellular method):"
+!!! note "Before you start, follow these steps (if connecting via the cellular method)"
 
     At least one nano SIM card is required to connect to the internet via the cellular method. Once you have the nano SIM card(s) ready, follow these steps:
     

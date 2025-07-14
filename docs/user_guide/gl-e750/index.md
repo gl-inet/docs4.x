@@ -2,7 +2,7 @@
 
 **Note:** Mudi V2 (GL-E750V2) and Mudi (GL-E750) run on the same firmware. If you are using Mudi (GL-E750), [upgrade your firmware](https://dl.gl-inet.com/?model=e750) to use the latest features and functionality, and refer to this user guide. 
 
-## Product Information
+## Product Overview
 
 Mudi V2 (GL-E750V2) is a portable 4G LTE travel router compatible with global carriers. It runs fully open source on OpenWrt and GL.iNet's SDK 4.0, providing customization capabilities and a suite of features. Mudi V2 (GL-E750V2) supports 300Mbps (2.4GHz) and 433Mbps (5GHz) Wi-Fi speeds and a MicroSD card of up to 1TB. It has a built-in 7000mAh battery. It also supports multi-WAN (failover and load balance) to ensure a smooth connection for all your devices. 
 
@@ -10,18 +10,21 @@ Mudi V2 (GL-E750V2) is a portable 4G LTE travel router compatible with global ca
 
 ---
 
-## Functionality
+## Button
 
-### Power Button
+- Press the power button for **3 seconds**: Turn on the device.
 
-- To turn on the device, press the power button for 3 seconds.
-- To turn off the device, press the power button for 5 seconds. (After you press it for 3 seconds, the OLED screen will show “Standby Mode On” first. KEEP PRESSING the power button until you see “Shut Down” under the “Standby Mode On.” It will count down 3 seconds and turn off the device.
+- Press the power button for **3-5 seconds**: Enter Standby Mode.
 
-### Standby Mode
+- Press the power button for **more than 5 seconds**: Turn off the device. 
+
+    (When pressing for 3 seconds, the OLED screen will show “Standby Mode On” first. KEEP PRESSING the power button until you see "Shut Down" under the "Standby Mode On". It will count down 3 seconds and turn off the device.)
+
+## Standby Mode
+
 In Standby Mode, the Mudi V2 (GL-E750V2) will turn off Wi-Fi and 4G to save power. You can't connect to Mudi V2 (GL-E750V2) in this mode.
 
 To turn on or off the Standby Mode, press the power button for 3 seconds. You will see “Standby Mode On” or “Standby Mode Off” on the OLED screen.
-
 
 ## Package Contents
 
@@ -43,7 +46,13 @@ To turn on or off the Standby Mode, press the power button for 3 seconds. You wi
 
 ## First-time Setup
 
-### 1. Insert a SIM Card and an optional MicroSD card into Mudi V2 (GL-E750V2)
+Watch this video or follow the steps to set up Mudi V2.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4FzEgmYyy7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 1. Insert a SIM Card
+
+Insert a SIM Card and an optional MicroSD card into Mudi V2 (GL-E750V2).
 
 Note: If you are using a SIM card, you must insert it into your device before powering it on. 
 
@@ -55,6 +64,7 @@ Note: If you are using a SIM card, you must insert it into your device before po
 6. Press the lid down to close the cover plate.
 
 ### 2. Power on
+
 Press the power button to turn on the device.
 
 ![gl-e750v2 poweron](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_power-on.png){class="glboxshadow"}

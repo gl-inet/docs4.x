@@ -6,8 +6,7 @@ All GL.iNet routers have a simple and almost identical setup process. [Click her
 
 To set up Brume 2, you will use one of the three supported internet connection methods: Ethernet, Tethering and Cellular (Repeater is not supported as Brume 2 does not have WiFi module). Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Brume 2 and other router models.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Power on the Brume 2
 

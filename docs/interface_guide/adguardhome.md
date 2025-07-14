@@ -31,9 +31,7 @@ AdGuard Home is a network-wide software for blocking ads and tracking. Once set 
 
 ## Setup
 
-Go to web Admin Panel -> APPLICATIONS -> AdGuard Home. Toggle the switch to enable AdGuard Home and click Apply. 
-
-![adguard home enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/enable.png){class="glboxshadow"}
+Log in to the router's web Admin Panel -> APPLICATIONS -> AdGuard Home. Toggle the switch to enable AdGuard Home and click Apply. 
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
@@ -43,14 +41,14 @@ This page displays statistics such as the DNS queries, blocked domains, etc, whi
 
 ![adguard home web panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_web_panel.png){class="glboxshadow"}
 
-Then please click **Settings Page** to perform advanced configuration of Adguard Home.
+Then please click **Settings Page**.
 
 ![adguard home started](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/settings_page.png){class="glboxshadow"}
 
-It will go to the AdGuard Home's own settings page. If you have any questions, please visit [Adguard Home Support Center](https://adguard.com/en/support.html){target="_blank"} for help.
+It will be re-directed to the AdGuard Home's official settings page, where you can perform advanced configuration for the filter rules, etc.
 
 ![adguard home settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_dashboard.png){class="glboxshadow"}
 
----
+If you have any questions, please visit [Adguard Home Support Center](https://adguard.com/en/support.html){target="_blank"} for further assistance.
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.
+---

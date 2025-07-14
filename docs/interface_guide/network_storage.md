@@ -57,13 +57,13 @@ When a disk is found.
 
 ## Set Up Samba
 
-1. Toggle on to enable Samba, for other parameters, please refer to the following, then click **Apply**.
+1. Toggle on to enable Samba and click **Apply**.
 
-    * Allow Access Samba from WAN, enable it if you want the upstream devices can access the Samba.
+    * Allow Access Samba from WAN: Enable it if you want the upstream devices can access the Samba.
 
     ![enable samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
 
-2. Then let's set up to get the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
+2. Set the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
 
     ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow"}
 
@@ -133,7 +133,7 @@ When a disk is found.
 
 ## Set Up DLNA
 
-Toggle to enable DLNA, modify **Share Path** if needed, click **Apply**. That is it.
+Toggle to enable DLNA, modify **Share Path** if needed, then click **Apply**.
 
 ![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/enable_dlna.png){class="glboxshadow"}
 

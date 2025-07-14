@@ -28,7 +28,7 @@ If you have successfully set up your OpenVPN server using a GL.iNet router, this
 
 5. Add a file "GLsupport", type inside `ifconfig-push 10.8.0.10 255.255.255.0`
 
-    Verify the contect by `cat GLsupport`
+    Verify the content by `cat GLsupport`
 
     ![ifconfig-push](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ifconfig-push.png){class="glboxshadow"}
 
@@ -38,11 +38,11 @@ If you have successfully set up your OpenVPN server using a GL.iNet router, this
 
     **Note**: If you want to fix IP addresses for multiple OpenVPN clients, please create multiple usernames and passwords in Step 2, then repeat Step 5, add files to the CCD folder in the order of users, such as user_1, user_2, user_3, followed by the "ifconfig push" command and their corresponding fixed IP and subnet mask. 
     
-    For example, `ipconfig-push 10.8.0.20 225.225.225.0`, `ipconfig-push 10.8.0.30 225.225.225.0`, `ipconfig-push 10.8.0.40 225.225.225.0`
+    For example, `ifconfig-push 10.8.0.20 225.225.225.0`, `ifconfig-push 10.8.0.30 225.225.225.0`, `ifconfig-push 10.8.0.40 225.225.225.0`
 
 6. At last, test with your OVPN client and check if the Client Virtual IP (IPv4) is the reserved one you set. 
 
-    For example, if your OpenVPN client is a GL.iNet router, you can log in to the OpenVPN client router’s web admin panel, navigate to OpenVPN Client, and verify the Client Virtual IP (IPv4).
+    For example, if your OpenVPN client is a GL.iNet router, you can log in to the OpenVPN client router’s web admin panel, navigate to VPN Dashboard -> OpenVPN Client, and verify the Client Virtual IP (IPv4).
 
     ![test 1](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/test_e.g.1.png){class="glboxshadow"}
 

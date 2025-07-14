@@ -2,6 +2,12 @@
 
 Experience your first impression of seeing our devices for the first time, and understanding the setup process.
 
+## GL-BE9300 (Flint 3)
+
+Unboxing Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qAq6IFtKtj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-BE3600 (Slate 7)
 
 Unboxing Video

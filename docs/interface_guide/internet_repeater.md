@@ -198,6 +198,7 @@ When connecting to an upstream 5G WiFi, the router's WiFi will follow the upstre
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-BE9300 (Flint 3)            | √         |
 | GL-BE3600 (Slate 7)            | √         |
 | GL-B3000 (Marble)              | √         |
 | GL-MT6000 (Flint2)             | √         |

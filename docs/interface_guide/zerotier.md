@@ -37,7 +37,6 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 | GL-B1300 (Convexa-B)           | -         |
 | GL-AP1300 (Cirrus)             | -         |
 | GL-X300B (Collie)              | -         |
-| GL-MV1000/GL-MV1000W (Brume)   | √ (Beta)  |
 
 ## Setup
 

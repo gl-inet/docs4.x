@@ -39,7 +39,6 @@ The Tailscale feature in GL.iNet router allow the router to join the Tailscale v
 | GL-B1300 (Convexa-B)           | -         |
 | GL-AP1300 (Cirrus)             | -         |
 | GL-X300B (Collie)              | -         |
-| GL-MV1000/GL-MV1000W (Brume)   | √         |
 
 ## Setup
 

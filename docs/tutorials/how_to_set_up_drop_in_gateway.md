@@ -141,8 +141,8 @@ There are two methods for enabling drop-in gateway mode: via through the [router
     6. Keep a record of **IP Address** and **Subnet Mask**.
     7. Next to **Configure IPv4**, click **Manually**.
     8. Enter the following information: 
-        * **IP address:** Enter the IP Address you obtained in step 5. 
-        * **Subnet mask:** Enter the IP Address you obtained in step 5. 
+        * **IP address:** Enter the IP Address you obtained in step 6. 
+        * **Subnet mask:** Enter the IP Address you obtained in step 6. 
         * **Router:** Enter the IP address shown on the **Drop-in Gateway** page. 
     9. Click **OK** > **OK**. 
 

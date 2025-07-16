@@ -1,14 +1,22 @@
 # What is LuCI?
 
-LuCI is the web user interface of OpenWrt.
+LuCI is the web user interface of OpenWrt, where you can perform some advanced settings.
 
-To access LuCI, at the left side of web Admin Panel -> More Settings -> Advanced.
+It is an open and independent project maintained by OpenWrt. GL.iNet is not responsible for LuCI maintenance.
 
-You can do some advanced settings in LuCI.
+To access LuCI, navigate to SYSTEM from the left side of web Admin Panel -> Advanced Settings.
 
-![advanced settings](https://static.gl-inet.com/docs/router/en/4/tutorials/advanced_settings/advanced_settings.png){class="glboxshadow"}
+![advanced settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/go_to_luci.png){class="glboxshadow"}
 
-Click the link **192.168.8.1/cgi-bin/luci** to access LuCI page.
+Click on **Go To LuCI** button, you will be re-directed to the LuCI login page. 
+
+![luci login](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_login.jpg){class="glboxshadow"}
+
+Enter the login password, which is the same as the password of the web admin panel.
+
+You will be logged into the LuCI page. This is an example of the LuCI page for GL-AX1800 (Flint).
+
+![luci logged in](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_logged_in.jpg){class="glboxshadow"}
 
 ---
 

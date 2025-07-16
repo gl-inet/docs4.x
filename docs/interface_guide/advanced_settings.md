@@ -1,12 +1,12 @@
 # Advanced Settings
 
-On the left side of web Admin Panel -> SYSTEM -> Advanced Settings
+On the left side of web Admin Panel -> SYSTEM -> Advanced Settings.
+
+You can modify advanced settings with LuCI, the default web user interface of OpenWrt.
 
 ![advanced settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/go_to_luci.png){class="glboxshadow"}
 
-You can modify advanced settings with LuCI, the default web user interface of OpenWrt. LuCI is an open and independent project maintained by OpenWrt.
-
-It is provided as it is. GL.iNet is not responsible for LuCI maintenance.
+As an open and independent project maintained by OpenWrt, LuCI is provided as-is. GL.iNet is not responsible for LuCI maintenance.
 
 Click on **Go To LuCI** button, you will be re-directed to the LuCI login page. 
 

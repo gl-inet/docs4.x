@@ -12,19 +12,23 @@ The first column displays the device name and device type, which depends on the 
 
 To modify the device name and type, click the three-dot icon in the Action column, and in the drop-down menu, click **Modify**.
 
-![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow gl-80-desktop"}
+![modify](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify.png){class="glboxshadow"}
+
+![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
 ## Connection Type
 
-The second column presents the connection type.
+The blue icon on the right side of the device name represents the connection type/method of device.
 
-It indicates how the device is connected to the network - whether via Wi-Fi or a wired ethernet connection.
+It indicates how the device is connected to the network - whether via Wi-Fi or an ethernet cable.
 
 ![connection type](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/connection_type.png){class="glboxshadow"}
 
 ## IP and MAC Address
 
-Subsequent column lists the IP and MAC addresses of the connected device.
+The second column lists the IP and MAC addresses of the connected device.
+
+![ip and mac](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ip_mac.png){class="glboxshadow"}
 
 Many devices use randomized MAC addresses. If the connected devices use randomized MAC addresses, the following prompt will appear.
 
@@ -34,7 +38,7 @@ Many devices use randomized MAC addresses. If the connected devices use randomiz
 
 ## Speed
 
-The right side of the IP and MAC address column displays the internet speed of the connected device.
+The third column displays the internet speed of the connected device.
 
 ![speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/speed.png){class="glboxshadow"}
 
@@ -46,9 +50,15 @@ The speed here is the average speed over 3 minutes.
 - Open current page for 3 minutes, the average rate of the last 3 minutes is displayed.
 - Open current page for 10 minutes, the average rate of the last 3 minutes is displayed.
 
+## Traffic
+
+The fourth column displays the internet traffic of the connected device.
+
+![traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic.png){class="glboxshadow"}
+
 ## Reserved IP
 
-The Reserved IP column is displayed on the right side of the Traffic column, allowing users to reserve IP addresses for connected devices with just one click. 
+In the fifth column, you can reserve IP address for a certain connected device with just one click. 
 
 This feature is available as of v4.8.
 
@@ -60,33 +70,51 @@ You can assign reserved IP addresses to computers or servers that require perman
 
 ## Blocklist
 
-To the right of the Reserved IP column, there is a Block bar that allows for one click blocking of specific connected devices.
+In the sixth column, you can block specific connected devices with just one click. 
 
-Enable **Block** toggle to block client device. The access control rule is Blocklist by default, and you can switch it to Allowlist from the top if needed.
+The access control rule is Blocklist by default, and you can switch it to Allowlist from the top if needed.
 
 ![blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist.jpg){class="glboxshadow"}
 
-![access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_whitelist.png){class="glboxshadow gl-80-desktop"}
+![access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_allowlist.jpg){class="glboxshadow"}
 
-**Blacklist**: Devices with MAC addresses on the prohibited list are not allowed to connect to this router.
+- **Blocklist**: Devices with MAC addresses on the blocklist list are not allowed to connect to this router.
 
-**Allowlist**: Only devices with specific MAC addresses are allowed to connect, suitable for IoT devices and enterprise network management.
+- **Allowlist**: Only devices with specific MAC addresses are allowed to connect, suitable for IoT devices and enterprise network management.
 
-Starting from firmware 4.4.x, you can upload a block list in excel form or input Mac addresses manually to creat a **Block List**.
+To create a Blocklist, you can upload a block list in excel form at **(1)**, or input MAC addresses manually at **(2)**.
 
-You can either import a list from a CSV file at **(1)** or input the Mac Address one by one at **(2)**.
+![create blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/create_blocklist.png){class="glboxshadow"}
 
-![inputblock](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/inputblock.jpg){class="glboxshadow gl-80-desktop"}
+**Method 1. Import Clients**
 
-![importcsv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/importcsv.jpg){class="glboxshadow gl-80-desktop"}
+In the Access Control page, click on **Import Clients**.
 
-![dragcsv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/dragcsv.jpg){class="glboxshadow gl-80-desktop"}
+![import clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/import_clients.png){class="glboxshadow"}
 
-![loadcsv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/loadcsv.jpg){class="glboxshadow"}
+Click on **Download Import Template**, and you will download an XLS worksheet named "mac-template.csv".
 
-![applycsv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/applycsv.jpg){class="glboxshadow"}
+![download template](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/download_template.png){class="glboxshadow"}
 
-**Note**: Blocking client is based on the MAC address of the device, so if the blocked device use a different MAC address next time, it can still connect to router.
+Open the file, import the MAC addresses and save.
+
+![import csv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/importcsv.jpg){class="glboxshadow gl-80-desktop"}
+
+Select the saved file or drag it to the upload area.
+
+![upload csv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/dragcsv.jpg){class="glboxshadow  gl-80-desktop"}
+
+Once the upload is successful, click **Import** to complete the batch import of MAC addresses.
+
+![upload successful](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/upload_successful.png){class="glboxshadow"}
+
+**Method 2. Input Manually**
+
+In the Access Control page, manually input the MAC address of the devices you want to block, and click **Apply**.
+
+![input mac manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/input_mac_manually.png){class="glboxshadow"}
+
+**Note**: Blocking client is based on the MAC address of the device. If the blocked device uses different MAC address next time, it can still be able to connect to router.
 
 ## Sort
 
@@ -117,7 +145,7 @@ Click the three-dot icon in the Action column, and in the drop-down menu, click 
 
 ![modify](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify.png){class="glboxshadow"}
 
-![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow gl-80-desktop"}
+![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
 ### Limit Speed
 

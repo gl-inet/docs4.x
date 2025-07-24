@@ -41,7 +41,7 @@ Then go to SYSTEM -> Advanced Settings -> Go to LuCI. Log in to the [LuCI](../fa
 
 ![luci login](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/luci_login.jpg){class="glboxshadow gl-70-desktop"}
 
-## 4. Configure Wireless Client in LuCI
+## 4. Configure Repeater in LuCI
 
 In the LuCI interface, navigate to Network -> Wireless.
 

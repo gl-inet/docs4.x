@@ -19,7 +19,8 @@ Please prepare the following items included in the package.
 
 Watch this video guide or follow the steps below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>(This video uses a different GL.iNet router to demonstrate the setup, as the steps are the same for most router models.)</small>
 
 1. Power on
 
@@ -55,11 +56,11 @@ Watch this video guide or follow the steps below.
 
     ![Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/admin_panel_first_time_login.png){class="glboxshadow"}
 
-    Set up admin password, we recommend using a strong password. Click **Submit** to continue.
+    Set up admin password. We recommend using a strong password. Click **Apply** to continue.
 
     **Note**: Wi-Fi may turn off during the initialization, please make sure to reconnect to the router.
 
-    ![set up admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class="glboxshadow"}
+    ![set up admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/set_up_your_admin_password_gl-mt2500.png){class="glboxshadow"}
 
     After the initial setup, you will enter the web Admin Panel of the router.
 
@@ -110,7 +111,7 @@ Here is an example of GL-MT2500A (Brume 2).
 
     ![Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/admin_panel_first_time_login_gl-mt2500.png){class="glboxshadow"}
 
-    Set up admin password, we recommend using a strong password. Click **Submit** to continue.
+    Set up admin password. We recommend using a strong password. Click **Submit** to continue.
 
     ![set up admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/set_up_your_admin_password_gl-mt2500.png){class="glboxshadow"}
 

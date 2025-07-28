@@ -252,11 +252,13 @@
 
 - Middle LED (Configurable)
 	- On: This LED has been customized
-	- Off: This LED is not customized (default mode)
+	- Off: This LED has not been customized (default mode)
 
 - Wireless LED
 	- On: 2.4G WiFi is connected
 	- Off: 2.4G WiFi is disconnected
+
+	For earlier batches, the Wireless LED may display red instead of white in normal working state.
 
 ### GL-AR300M Series
 
@@ -273,3 +275,5 @@
 - Wireless LED
 	- On: 2.4G WiFi is connected
 	- Off: 2.4G WiFi is disconnected
+
+	For earlier batches, the Wireless LED may display red instead of white in normal working state.

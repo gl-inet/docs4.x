@@ -34,9 +34,9 @@ Then you will re-direct to the web Admin Panel.
 
 ![setup](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/setup.jpg){class="glboxshadow"}
 
-## Can I add a SSL certicate in the router?
+## Can I add an SSL certificate in the router?
 
-Yes, you can add your SSL certicate in the GLiNet routers.
+Yes, you can add your SSL certificate in the GLiNet routers.
 
 [How to add a SSL certificate](../faq/use_https_for_adh.md)
 

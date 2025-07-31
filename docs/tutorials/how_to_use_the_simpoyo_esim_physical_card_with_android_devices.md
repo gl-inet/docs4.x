@@ -20,7 +20,7 @@ The highlights of eSIM physical cards are as follows:
 
 If you’re using the eSIM Physical Card for the first time, watch this video or follow the steps below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tXs-TpP28CU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yv1bMsN5rXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 1. Connect to the Internet
 

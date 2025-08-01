@@ -8,11 +8,11 @@ On the left side of web Admin Panel -> VPN -> VPN Dashboard.
 
 The VPN dashboard displays VPN client connection details, tunnel rules, and other advanced settings.
 
-After setting the router as a VPN client, access this page to view VPN connection details (e.g., server address, traffic statistics, client virtual IP) or perform advanced settings on the VPN network, such as enabling kill switch, creating VPN tunnel rules for multi-tunnel scenarios, etc.
+You can view VPN connection details (e.g., server address, traffic statistics, client virtual IP), or perform advanced settings on the VPN network, such as enabling kill switch, creating VPN tunnel rules for multi-tunnel scenarios, etc.
 
 ## VPN Setup Wizard
 
-When accessing the VPN dashboard for the first time, the page displays as below. By default, there are no available configurations for VPN tunnels.
+By default, there are no available configurations on the VPN Dashboard.
 
 ![vpn dashboard initial state](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_dashboard_initial.png){class="glboxshadow"}
 

@@ -4,9 +4,9 @@ This tutorial introduces the steps to access your home devices (such as NAS, IP 
 
 ## Topology
 
-As shown below, you can access the devices such as NAS and IP camera on the WireGuard server’s LAN via their domain names from the client side.
+As shown below, you can access the devices such as NAS and IP camera on the WireGuard server’s LAN via their domain names from the PC on the client side.
 
-![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/topology_mt6000_axt1800.png){class="glboxshadow"}
+![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/topology_be9300_be3600.png){class="glboxshadow"}
 
 ## Setup Steps
 
@@ -46,7 +46,7 @@ Input the IP and domain name of the home devices you want to access, then click 
 
     **Once enabled, resources inside the LAN subnet of the WireGuard Server can be accessed through the VPN tunnel.**
 
-### 3. Export VPN Configuration Profile
+### 3. Export VPN Configuration
 
 In the server's admin panel, go to **VPN** -> **WireGuard Server** -> **Profiles** tab, export a configuration profile. 
 
@@ -56,20 +56,50 @@ You will obtain a file with the **.conf** extension, as shown below.
 
 ![downloads](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/downloads.png){class="glboxshadow"}
 
-Open this **.conf** file. Verify that the DNS field in the file points to the server’s tunnel IP, which is displayed under the Configuration tab of the WireGuard Server page. 
+Open this **.conf** file. Ensure that the DNS field in the file points to the server’s tunnel IP, which is displayed under the Configuration tab of the WireGuard Server page, as shown below.
 
-Delete the “64.6.64.6” at the end of DNS field if any.
+Delete "64.6.64.6" from the DNS field if any to avoid DNS resolution failure.
 
-![dns field](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/dns_field.jpg){class="glboxshadow"}
+![dns field](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/dns_field.png){class="glboxshadow"}
 
-### 4. Upload Configuration File  
+![wg tunnel ip](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wg_tunnel_ip.png){class="glboxshadow"}
 
-Log in to the web admin panel of your VPN client router, navigate to **VPN** -> **WireGuard Client**, click on **Add Manually**, then upload the configuration file.
+**Note**: The WireGuard server's tunnel IP varies from different firmware version. Please check your server’s tunnel IP.
 
-### 5. Start VPN Connection
+### 4. Enable VPN Server
 
-In the client’s VPN Dashboard, start the VPN connection. 
+In the **WireGuard Server** page, start the server.
 
-When your client connects to the VPN server successfully, you will be able to access your home devices on the server’s LAN by their domain names from the VPN client.
+![start server](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/start_server.png){class="glboxshadow"}
+
+### 5. Upload VPN Configuration
+
+Log in to the web admin panel of your VPN client router, navigate to **VPN** -> **WireGuard Client**, click on **Add Manually**.
+
+![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wgclient_add_manually.png){class="glboxshadow"}
+
+Create a name for this new group and upload the configuration file.
+
+![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wgclient_add_manually-2.png){class="glboxshadow"}
+
+Upload successful. Click **Apply**. 
+
+![apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wgclient_add_apply.png){class="glboxshadow"}
+
+You will get a configuration file listed here.
+
+![applied](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wgclient_add_applied.png){class="glboxshadow"}
+
+### 5. Start VPN Client Connection
+
+Click the three-dot icon to start the VPN connection. 
+
+![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/start_client.png){class="glboxshadow"}
+
+When the grey dot turns to green, it means the WireGuard client is connected to your WireGuard Server successfully.
+
+![wgclient connected](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wg_client_connected.png){class="glboxshadow"}
+
+Now you can access your home devices (such as NAS) on the server’s LAN via their domain names from the PC on the client's LAN.
 
 ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/ping_nas.png){class="glboxshadow"}

@@ -207,14 +207,14 @@ nav:
       - Connect to the dedicated IP by Surfshark: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
       - Set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - Set up WireGuard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
-      - Access Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
-      - Access Client LAN from Server(OpenVPN): tutorials/openvpn_server_access_client_lan_side.md
+      - Access Client LAN from Server (OpenVPN): tutorials/openvpn_server_access_client_lan_side.md
+      - Access Client LAN from Server (WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - Access Server LAN from Client (WireGuard) via domain name: tutorials/how_to_access_server_lan_device_via_domain_name.md
       - Enable OpenVPN TAP-S2S: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
       - Enable VPN Cascading: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
       - Use WireGuard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
       - Get config files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
       - Reserve fixed IP for OpenVPN client: tutorials/reserve_fixed_IP_for_ovpn_client.md
-      - Access WireGuard Server LAN device via domain name from Client side: tutorials/how_to_access_server_lan_device_via_domain_name.md
     - Cellular:
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Module Logs: tutorials/get_module_logs.md

@@ -120,15 +120,15 @@ Follow the steps below.
 
     You can also modify the schedule ruleset by clicking on a certain part in the schedule.
 
-    ![edit schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/schedule_edit.png){class="glboxshadow"}
+    ![edit schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/schedule_edit.jpg){class="glboxshadow"}
 
 11. Click **Parental Control** at the top to return to the Parental Control page.
 
-![back to parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/back_to_parental_control_page.png){class="glboxshadow"}
+    ![back to parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/back_to_parental_control_page.png){class="glboxshadow"}
 
-You will see the final configuration. You can modify the existing profiles and rulesets, or add new ones.
+    You will see the final configuration. You can modify the existing profiles and rulesets, or add new ones.
 
-![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/final_configuration.png){class="glboxshadow"}
+    ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/final_configuration.png){class="glboxshadow"}
 
 #### Case 2
 
@@ -156,9 +156,7 @@ There may be several reasons why the settings are not effective after being conf
   
     While a website's domain name is public, the domain name used when an app calls an API is not. To resolve this, you will need to use a tool (e.g. Wireshark) to capture packets or search for it.
 
-    For example:
-
-    If you want to filter "www.google.com", "google.com" is more appropriate than "www.google.com".
+    For example, if you want to filter "www.google.com", "google.com" is more appropriate than "www.google.com".
 
 4. The device you want to impose restrictions on uses a random MAC address for each connection, which will result in the rules not taking effect.
 

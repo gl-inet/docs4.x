@@ -36,7 +36,7 @@ Download the EIOTCLUB app via this link: [https://sim.eiotclub.com/eshop/downloa
 
 !!! note
 
-      Your device must support Android 9 or above. iPhone devices are not supported this eSIM Physical Card.
+      Ensure your device runs Android 9 or above. iPhone does not support this eSIM physical card.
 
 #### 4. Create a New Account
 

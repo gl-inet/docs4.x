@@ -20,9 +20,7 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
     A router with strong performance and the best network speed is preferred as the main node.
 
-!!! note
-
-    It is **NOT** recommended to run Site to Site while the Sub nodes are also running a VPN client / Tailscale / ZeroTier / AstroWarp, as this can make the network configuration particularly complex.
+3. It is **NOT** recommended to run Site to Site while the Sub nodes are also running a VPN client / Tailscale / ZeroTier / AstroWarp, as this can make the network configuration particularly complex.
 
 ## Build a Site to Site network
 
@@ -32,7 +30,7 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
     ![create network](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/create-network.png){class="glboxshadow"}
 
-    Check the box at the left side to select at lest two devices.
+3. Check the box at the left side to select at lest two devices.
 
     ![select devices](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/select-devices.png){class="glboxshadow"}
     
@@ -44,13 +42,13 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
     A Site to Site network can have up to 10 devices to ensure stable performance.
 
-    Name your network, and click **Next**.
+4. Name your network, and click **Next**.
 
     ![name network](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/name-network.png){class="glboxshadow"}
 
-    Node Usability Testing will start testing to check if any device can be set as the Main Node.
+5. Node Usability Testing will start testing to check if any device can be set as the Main Node.
 
-    ![node testing each device](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/node-testing.png){class="glboxshadow"}
+    ![node testing](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/node-testing.png){class="glboxshadow"}
 
     If none of your devices can be used as the Main Node, please make sure that:
 
@@ -62,15 +60,15 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
     If more than one device can be set as the Main Node, please choose one to continue. We suggest selecting the router with strong performance and the best network speed as the Main Node.
 
-    ![testing each device](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/testing-success.png){class="glboxshadow"}
+    ![testing success](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/testing-success.jpg){class="glboxshadow"}
 
     If there is only one device can be set as the Main Node, it will go to the Site to Site detail page directly.
 
-    The network is disabled by default. Ensure that the LAN IP addresses of all nodes do not conflict with each other. Click the gear icon to change LAN IP if needed, and click on **Start**.
+6. The network is disabled by default. Ensure that the LAN IP addresses of all nodes do not conflict with each other. Click the gear icon to change LAN IP if needed, and click on **Start**.
 
     ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-00.png){class="glboxshadow"}
 
-    Wait a few minutes. Once the dashed line turns to solid, it means the Site to Site network has been established successfully.
+7. Wait a few minutes. Once the dashed line turns to solid, it means the Site to Site network has been established successfully.
 
     ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
 

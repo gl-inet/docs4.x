@@ -1,23 +1,23 @@
-# Can't access web Admin Panel
+# Cannot access web Admin Panel
 
-Sometimes you may be unable to access [http://192.168.8.1](http://192.168.8.1) to login web Admin Panel, there maybe several reasons.
+Sometimes you may be unable to access [http://192.168.8.1](http://192.168.8.1) and thus fail to log in to the web Admin Panel. There may be several reasons.
 
 ![can't access admin](https://static.gl-inet.com/docs/router/en/4/tutorials/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
 
 ## The possible causes
 
-* You computer or mobile phone doesn't connect to the router.
-* `192.168.8.1` is the default IP address of the router, you may have changed this IP.
-* The cache or extension of browser may cause inaccessible.
-* You are using a VPN client which handle your LAN traffic.
+* Your computer or mobile phone is not connected to the router.
+* `192.168.8.1` is the default IP address of the router. You may have changed this IP.
+* The cache or extension of browser may cause the admin panel inaccessible.
+* The VPN or proxy software handles your traffic, which may cause the admin panel inaccessible.
 * The router is bricked.
 
 ## Check the general steps to access web Admin Panel 
 
 1. Power up the router without connecting to any device.
-2. Use your mobile/laptop to scan the SSID GL-XXXX-xxx and input the WiFi key printed on the router label. (If you are using a laptop, don't connect it to the internet by other methods)
-3. If step 2 fails, turn off wifi on your computer/laptop, connect it to the router's LAN port via an Ethernet cable instead.
-4. Open a browser, type `192.168.8.1` in the address bar. You should be able to visit GL.iNet web Admin Panel.
+2. Connect your mobile/laptop to the router's Wi-Fi and input the Wi-Fi key printed on the router label.
+3. If step 2 fails, turn off Wi-Fi on your computer/laptop. Connect it to the router's LAN port via an Ethernet cable instead.
+4. Open a browser, type `192.168.8.1` in the address bar and click Enter. You should be able to visit GL.iNet web Admin Panel.
 
 Or you can use [the app](mobile_app.md) to access the router.
 
@@ -31,13 +31,16 @@ Or you can use [the app](mobile_app.md) to access the router.
 
 ### Check the connection
 
-If connected by ethernet cable, make sure your WAN/LAN port connection is correct. WAN port is connected to an Internet source and LAN port is connected to devices.
+If connected by ethernet cable, make sure the router's WAN/LAN port connection is correct:
 
-If connected by Wi-Fi, make sure the SSID is correct.
+- The WAN port is connected to an Internet source, such as a modem or a primary router.
+- The LAN port is connected to the terminal device, such as your laptop.
+
+If connected by Wi-Fi, make sure you selected the correct SSID on your device to connect, and input the correct password.
 
 ### Check router's IP address
 
-Then follow the steps below to check the router's IP address.
+Follow the steps below to check the router's IP address.
 
 === "Windows 10 / Windows 11"
 
@@ -97,12 +100,19 @@ Then follow the steps below to check the router's IP address.
 
 ### Access the router's IP address
 
-1. Make sure you are using Chrome/Edge/Safari, then try to access your IP address again.
-2. In order to avoid problems caused by the browser cache and extension, please open the incognito window. Then try to access the IP address of router again.
-3. If you are using a VPN, please turn off then try again.
-4. If you are using a mobile phone, please turn off the mobile data. Some phones will use mobile data instead of WiFi if the router can't access Internet.
-5. If above steps failed, try [Reset](repair_network_or_reset_firmware.md#reset-to-factory) to back to factory default.
-6. If the reset doesn't work, you can try [Debrick via uboot](debrick.md).
+1. Use Chrome/Edge/Safari to access your router's admin panel for better compatibility.
+
+2. In order to avoid problems caused by the browser cache and extension, please open the incognito window, then try to access the IP address of router again.
+
+3. Disable any VPN or proxy software, including Tailscale and ZeroTier. 
+
+4. If you are using a mobile phone, please turn off the mobile data. 
+
+    Some smartphones will disconnect from the router's Wi-Fi and use mobile data instead when they detect that the router has no Internet. However, disconnecting from the router will prevent access to the web admin panel.
+
+5. If above steps failed, try [Reset](repair_network_or_reset_firmware.md#reset-to-factory) the router to factory default.
+
+6. If the reset doesn't work, try [Debrick via uboot](debrick.md).
 
 ---
 

@@ -35,13 +35,13 @@ The base of the Wi-Fi antenna uses a **RP-SMA female connector** (external threa
 
 ### 5G NR antennas
 
-The base of the 5G NR antenna uses a **SMA female connector** (external thread and internal hole). It requries a 5G NR antenna which uses a **SMA male connector** (internal thread and internal needle).
+The base of the 5G NR antenna uses a **SMA female connector** (external thread and internal hole). It requires a 5G NR antenna which uses a **SMA male connector** (internal thread and internal needle).
 
 ![sma connectors](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
 
 ### Troubleshooting
 
-If you bought the incorrect antennas, you may want to consider buying an adapter which converts between connectors (e.g., SMA-RP male to SMA female). 
+If you bought the incorrect antennas, you may consider buying an adapter which converts between connectors (e.g., SMA-RP male to SMA female). 
 
 ---
 

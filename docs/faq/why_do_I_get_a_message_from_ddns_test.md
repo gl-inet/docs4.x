@@ -8,17 +8,13 @@ When you run the DDNS test on the Dynamic DNS page, you may get a message as sho
 
 ![ddnstest](https://static.gl-inet.com/docs/router/en/4/faq/warning_on_ddns_test/ddnstest.jpg){class="glboxshadow"}
 
-It is not a **Warning** or an **Error** message, but a reminder.
+It is not a **Warning** or an **Error** message, but a reminder indicating your router's network status.
 
-This result indicates the router’s network position. If your GL.iNet router is configured as a secondary router in your home network, this message will appear.
+This result typically reflects the router's network position. For example, if your GL.iNet router is configured as a secondary router in your home network, this message will appear. 
 
-This message will not disappear even if you have configured port forwarding on your primary router. It simply reminds you that the router is behind NAT. 
+It will not disappear even if you've set up port forwarding on your primary router — this simply indicates the router is behind NAT.
 
-If you need to expose services through the NAT (e.g., remote access), additional settings are required.
-
-If you see the following message, it may indicate you are using a cellular network, where DDNS setup is not available.
-
-![ddnsfail](https://static.gl-inet.com/docs/router/en/4/faq/warning_on_ddns_test/ddnsfail.jpg){class="glboxshadow"}
+If you need to expose services through NAT (e.g., for remote access), additional settings are required.
 
 ---
 

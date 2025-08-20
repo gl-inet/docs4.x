@@ -37,7 +37,7 @@ Log in to the router's web Admin Panel -> APPLICATIONS -> AdGuard Home. Toggle t
 
 - AdGuard Home Handle Client Requests: If this option is enabled, DNS queries from client devices will be handled directly by AdGuard Home. AdGuard Home will show DNS query logs by clients, but this will cause VPN policies based on domain not to work.
 
-This page displays statistics such as the DNS queries, blocked domains, etc, which is through the APl provided by AdGuard Home. 
+This page displays statistics such as the DNS queries, blocked domains, etc, which is through the API provided by AdGuard Home. 
 
 ![adguard home web panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_web_panel.png){class="glboxshadow"}
 

@@ -13,7 +13,7 @@ This tutorial will show you **how to manually upgrade or downgrade your router f
 ## 1. Check if your router is running the latest firmware version (Only for upgrade)
 
 1. In a web browser, enter the URL to your router's admin panel (e.g., 192.168.8.1) and sign in.
-2. From the left sidebar, select **System** > **Upgrade**.  
+2. From the left sidebar, select **SYSTEM** > **Upgrade**.  
 
 ## 2. Download the firmware file
 
@@ -25,13 +25,13 @@ This tutorial will show you **how to manually upgrade or downgrade your router f
 The following instructions were written for uploading your firmware through the router admin panel.  (To upload your firmware via the GL.iNet mobile app, [download the app](https://www.gl-inet.com/app/) and set it up.)
 
 1. In a web browser, enter the URL to your router's admin panel (e.g., 192.168.8.1) and sign in. 
-2. (Optional) If you want to back up your current settings, follow these steps:
+2. (Optional) If you want to back up your current settings, follow the steps below.
 
     ??? "Back up your current settings"
 
-        a. From the left sidebar, click **System** > **Advanced Settings**. 
+        a. From the left sidebar, click **SYSTEM** > **Advanced Settings**. 
 
-        b. Click the link. 
+        b. Click the link or **Go To LuCI** button to access LuCI login page. 
 
         c. Enter the admin password, then click **Log in**. 
 
@@ -41,7 +41,7 @@ The following instructions were written for uploading your firmware through the 
         
         **Please note that this file is only applicable to the firmware version at the time of backup and not to other firmware versions.**
 
-3. From the left sidebar, click **System** > **Upgrade**. 
+3. From the left sidebar, click **SYSTEM** > **Upgrade**. 
 4. Click **Local Upgrade** and select the file you downloaded earlier. 
 5. To retain your current settings (e.g., your router admin password), toggle **Keep Settings** to on. 
 6. Click **Install**.

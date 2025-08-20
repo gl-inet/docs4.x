@@ -76,11 +76,11 @@
 	* Off: Internet is disconnected
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is readied
+	* On: 2.4G WiFi is ready
 	* Flashing: 2.4G WiFi is communicating
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is readied
+	* On: 5G WiFi is ready
 	* Flashing: 5G WiFi is communicating
 
 * Cellular LED
@@ -99,11 +99,11 @@
 	* Off: Internet is disconnected
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is readied
+	* On: 2.4G WiFi is ready
 	* Flashing: 2.4G WiFi is communicating
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is readied
+	* On: 5G WiFi is ready
 	* Flashing: 5G WiFi is communicating
 
 * Cellular LED
@@ -122,11 +122,11 @@
 	* Off: Internet is disconnected
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is readied
+	* On: 2.4G WiFi is ready
 	* Flashing: 2.4G WiFi is communicating
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is readied
+	* On: 5G WiFi is ready
 	* Flashing: 5G WiFi is communicating
 
 * Cellular LED
@@ -145,11 +145,11 @@
 	* Off: Internet is disconnected
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is readied
+	* On: 5G WiFi is ready
 	* Flashing: 5G WiFi is communicating
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is readied
+	* On: 2.4G WiFi is ready
 	* Flashing: 2.4G WiFi is communicating
 
 * Cellular LED
@@ -190,7 +190,7 @@
 	* Off: LAN port is disconnected
 
 * Wi-Fi LED
-	* On: 2.4G WiFi is readied
+	* On: 2.4G WiFi is ready
 	* Flashing: 2.4G WiFi is communicating
 
 * Cellular LED

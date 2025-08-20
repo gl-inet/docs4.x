@@ -78,7 +78,7 @@ There are ways to access the router terminal on Windows, including via Windows C
 
     1. **WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!** / **Host key verification failed**
 
-        This happens if the router's security key changed (e.g., after a factory reset or firmware update).
+        This happens if the router's security key changed (e.g., after a factory reset or firmware update), or if you have previously connected to another router, causing the host key verification to fail.
 
         ![warning](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/powershell_warning.jpg){class="glboxshadow"}
 
@@ -169,38 +169,10 @@ The process on Linux and Mac OS are generally the same. Below we use Ubuntu as a
     Run Ubuntu. Double click on the Terminal icon to launch Terminal. 
     
     ![Run Ubuntu](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ubuntu_login.png){class="glboxshadow"}
-    
-    Then input the command: `ssh root@192.168.8.1`
 
-    If you have ever connected to another router, host key verification failed may displayed as follow:
+2. Log in to the router
 
-    ![remove_ssh_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/remove_ssh_keygen.png){class="glboxshadow"}
-
-    If this happens, run the command in the red box. Please copy the exact command which is displayed in your terminal.
-
-    `ssh-keygen -f "~/.ssh/known_hosts" -R "192.168.8.1"`
-
-    ![removed_host_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/removed_host_keygen.png){class="glboxshadow"}
-
-    Then try connecting again.
-
-    You may also encounter the following error when connecting:
-
-    `Unable to negotiate with 10.0.0.1 port 22: no matching host key type found. Their offer: ssh-rsa`
-
-    This error is due to a change in the Openssh package from version 8.8. To fix it, open the **~/.ssh/config** file with a text editor (you can use for example Nano or Vim) and add the following lines:
-
-        host 192.168.8.1
-            HostkeyAlgorithms +ssh-rsa
-            PubkeyAcceptedAlgorithms +ssh-rsa
-
-    Make sure to change the host IP if it is not the default one.
-
-2. Log In Router
-
-    Retry the SSH login command:
-
-    `ssh root@192.168.8.1`
+    Input the SSH login command: `ssh root@192.168.8.1`
 
     ![Ubuntu sshin router 1](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ubuntu_sshin_router_1.png){class="glboxshadow"}
 
@@ -214,9 +186,33 @@ The process on Linux and Mac OS are generally the same. Below we use Ubuntu as a
 
     When you see a picture above, it means you login the router successfully.
 
-## Troubleshooting
+??? "Troubleshooting"
 
-[No matching host key type found. Their offer: ssh-rsa](https://forum.gl-inet.com/t/can-no-longer-ssh-into-router-no-matching-host-key-type-found-their-offer-ssh-rsa/20915/11)
+    1. **WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!** / **Host key verification failed**
+
+        This happens if the router's security key changed (e.g., after a factory reset or firmware update), or if you have previously connected to another router, causing the host key verification to fail.
+
+        ![remove_ssh_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/remove_ssh_keygen.png){class="glboxshadow"}
+
+        If this happens, run the command in the red box above. Please copy the exact command which is displayed in your terminal.
+
+        `ssh-keygen -f "~/.ssh/known_hosts" -R "192.168.8.1"`
+
+        ![removed_host_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/removed_host_keygen.png){class="glboxshadow"}
+
+        Then try connecting again.
+
+    2. **Unable to negotiate with 10.0.0.1 port 22: no matching host key type found. Their offer: ssh-rsa**
+    
+        You may encounter this error when connecting. This error is due to a change in the Openssh package from version 8.8. To fix it, open the **~/.ssh/config** file with a text editor (for example, you can use Nano or Vim) and add the following lines:
+
+            host 192.168.8.1
+                HostkeyAlgorithms +ssh-rsa
+                PubkeyAcceptedAlgorithms +ssh-rsa
+
+        Make sure to change the host IP if it is not the default one.
+
+        More discussion about this issue, please refer to [here](https://forum.gl-inet.com/t/can-no-longer-ssh-into-router-no-matching-host-key-type-found-their-offer-ssh-rsa/20915){target="_blank"}
 
 ---
 

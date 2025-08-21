@@ -293,7 +293,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> PIA.
 
 ## Set Up Surfshark
 
-[[Official Website]](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
+[[Official Website]](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
 In the web Admin Panel -> VPN -> WireGuard Client -> Surfshark.
 

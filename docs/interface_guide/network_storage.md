@@ -92,13 +92,13 @@ When a disk is found.
 
 ## Set Up WebDAV
 
-1. Toggle on to enable WebDAV, for other parameters, please refer to the following, then click **Apply**.
+1. Toggle on to enable WebDAV, and click **Apply**. For other parameters, please refer to the following instructions.
 
-    * Allow Access WebDAV from WAN, enable it if you want the upstream devices can access the WebDAV.
+    * Allow Access WebDAV from WAN: Enable this if you want upstream devices to access WebDAV.
 
-    * WebDAV Protocol, **HTTP** is not encrypted, using on your risk; **HTTPS** is encrypted, it uses self signed certificate.
+    * WebDAV Protocol: **HTTP** is not encrypted; use it at your own risk. **HTTPS** is encrypted and it uses self-signed certificate.
 
-    * WebDAV Port, generally you do not need to modify the port number unless it is conflicts. Port number range 1024 - 65535.
+    * WebDAV Port: Generally, you do not need to modify the port number unless it conflicts. The recommended port number range is 1024 - 65535.
 
     ![enable webdav](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow"}
 

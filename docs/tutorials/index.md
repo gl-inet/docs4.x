@@ -50,7 +50,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to set up a guest Wi-Fi network on GL.iNet routers](how_to_set_up_a_guest_network.md)
 * [How to set up drop-in gateway on GL.iNet routers](how_to_set_up_drop_in_gateway.md)
 * [How to set up port forwarding on your primary router](how_to_set_up_port_forwarding.md)
-* [How to set up two wired WAN without two WAN ports](can_i_use_multiwan_wired_input.md)
+* [How to configure dual wired WAN access on a single-WAN-port router](configure_dual_ethernet_wan.md)
 
 ## Network Storage
 

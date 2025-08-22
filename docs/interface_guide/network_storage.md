@@ -12,17 +12,21 @@
 
 ## Introduction
 
-Some GL.iNet models support MicroSD(TF) card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDAV, DLNA on this page for the disk.
+Some GL.iNet models have MicroSD(TF) card slots, while some models have USB ports, supporting USB flash drives and portable external hard drives. You can set up Samba, WebDAV, DLNA shares for the disk.
 
-The supported disk formats are NTFS, FAT32.
+The supported disk formats are NTFS, FAT32, ext4.
 
-**Note**: The power consumption of USB hard drive is quite high. You should use it with an external power supply. Otherwise, it may cause malfunction.
+!!! Note 
 
-**Note**: Some models have USB Port/MicroSD slot but have limited storage space and do not support file sharing.
+    1. The power consumption of a USB hard drive is quite high. You should use it with an external power supply, otherwise it may cause malfunction.
+
+    2. Some models have a USB port/MicroSD slot but have limited storage space and do not support file sharing.
 
 ## Supported models
 
-Usually models with USB ports or MicroSD(TF) slots are supported for file sharing. For devices with Flash space less than or equal to 32MB, the Network Storage function is not yet supported and is still being developed and optimized.
+Usually, models with USB ports or MicroSD(TF) slots support network storage (i.e. file sharing). 
+
+For devices with flash storage of 32MB or less, the Network Storage function is not yet supported and is still under development and optimization.
 
 | Router Model                   | Samba | Webdav | DLNA | USB Port | MicroSD Card |
 | :----------------------------- | :---: | :---: | :---: | :------: | :----------: |
@@ -37,8 +41,8 @@ Usually models with USB ports or MicroSD(TF) slots are supported for file sharin
 | GL-AX1800 (Flint)              | √     | √     | √     | √        | -            |
 | GL-A1300 (Slate Plus)          | √     | √     | √     | √        | -            |
 | GL-S1300 (Convexa-S)           | √     | √     | √     | √        | -            |
-| GL-SFT1200 (Opal)*FW 4.7.2     | √     | -     | -     | √        | -            |
-| GL-E750V2 (Mudi V2)*FW 4.7.2   | √     | -     | -     | √        | √            |
+| GL-SFT1200 (Opal)</br>***FW 4.7.2**  | √     | -     | -     | √        | -            |
+| GL-E750V2 (Mudi V2)</br>***FW 4.7.2**| √     | -     | -     | √        | √            |
 
 ## Insert Storage Device
 
@@ -46,11 +50,11 @@ For TF card, you need to power off the router first, insert the TF card and then
 
 For USB Drive, you can directly plug it into the USB port. For portable external hard drive, if you have a separate power supply, please connect it to the power supply.
 
-Go to web Admin Panel -> APPLICATIONS -> Network Storage
+Go to web Admin Panel -> APPLICATIONS -> Network Storage.
 
 ![network storage](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/network_storage_init.png){class="glboxshadow"}
 
-When a disk is found.
+When a disk is detected, the page is displayed as below.
 
 ![network storage, disk found](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
 
@@ -58,7 +62,7 @@ When a disk is found.
 
 1. Toggle on to enable Samba and click **Apply**.
 
-    * Allow Access Samba from WAN: Enable it if you want the upstream devices can access the Samba.
+    * Allow Access Samba from WAN: Enable it if you want the upstream devices to access Samba.
 
     ![enable samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
 
@@ -94,7 +98,7 @@ When a disk is found.
 
 1. Toggle on to enable WebDAV, and click **Apply**. For other parameters, please refer to the following instructions.
 
-    * Allow Access WebDAV from WAN: Enable this if you want upstream devices to access WebDAV.
+    * Allow Access WebDAV from WAN: Enable it if you want the upstream devices to access WebDAV.
 
     * WebDAV Protocol: **HTTP** is not encrypted; use it at your own risk. **HTTPS** is encrypted and it uses self-signed certificate.
 

@@ -41,7 +41,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 * [Stuck on the "Rebooting" screen during firmware reboot](stuck_on_rebooting_screen.md)
 * [How to resolve a subnet conflict?](how_to_resolve_a_subnet_conflict.md)
 * [Why do I get a message from DDNS test?](why_do_I_get_a_message_from_ddns_test.md)
-* [Why is my VPN speed slow?](why_is_my_vpn_speed_slow.md)
+* [Why is my VPN speed slower than expected?](why_is_my_vpn_speed_slow.md)
 * [Upgrade Uboot version](upgrade_uboot_version.md)
 
 ## VPN

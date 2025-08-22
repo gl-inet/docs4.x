@@ -171,7 +171,7 @@ nav:
       - Stuck on "Rebooting" screen during firmware reboot: faq/stuck_on_rebooting_screen.md
       - How to resolve a subnet conflict: faq/how_to_resolve_a_subnet_conflict.md
       - Why do I get a message from DDNS test: faq/why_do_I_get_a_message_from_ddns_test.md
-      - Why is my VPN speed slow: faq/why_is_my_vpn_speed_slow.md
+      - Why is my VPN speed slower than expected: faq/why_is_my_vpn_speed_slow.md
       - Upgrade Uboot version: faq/upgrade_uboot_version.md
     - VPN:
       - How to set up OpenVPN: interface_guide/openvpn_client.md

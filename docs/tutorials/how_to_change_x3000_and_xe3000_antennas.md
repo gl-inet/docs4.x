@@ -29,7 +29,7 @@ If you prefer to use other antennas, please refer to the sections below to ensur
 
 ### Wi-Fi antennas
 
-The base of the Wi-Fi antenna uses a **RP-SMA female connector** (external thread and internal needle). It requires a Wi-Fi antenna which uses a **RP-SMA male connector** (internal thread and internal hole).
+The base of the Wi-Fi antenna uses an **RP-SMA female connector** (external thread and internal needle). It requires a Wi-Fi antenna which uses an **RP-SMA male connector** (internal thread and internal hole).
 
 ![rp-sma connectors](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/rp-sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
 

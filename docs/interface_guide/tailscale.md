@@ -2,15 +2,17 @@
 
 Tailscale feature available since V4.2
 
-Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. For more information about Tailscale, please access [their website](https://tailscale.com/).
+Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. For more information about Tailscale, please visit [Tailscale official website](https://tailscale.com/).
 
-The Tailscale feature in GL.iNet router allow the router to join the Tailscale virtual network, then you can access it remotely, even to its WAN or LAN resources.
+The Tailscale feature in GL.iNet routers allows the router to join the Tailscale virtual network, allowing you to access it remotely, even to its WAN and LAN resources.
 
-**Note**: Because Tailscale is based on WireGuard, it is not recommended to use the Tailscale feature with the OpenVPN Client or WireGuard Client at the same time, as there may be bugs.
+**Note**: 
 
-**Note**: This feature is currently in beta, and may have some bugs.
+1. Since Tailscale is based on WireGuard, it is not recommended to use Tailscale and any of the following features/services simultaneously, as there may be routing conflicts: OpenVPN client; WireGuard client; GoodCloud Site to Site; ZeroTier; AstroWarp.
 
-**Note**: GL.iNet router is **not yet available as an exit node**.
+2. This feature is currently in beta, and may have some bugs.
+
+3. GL.iNet routers are **not yet available as exit node**.
 
 ## Supported models
 

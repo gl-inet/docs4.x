@@ -43,6 +43,12 @@ plugins:
         'tutorials/tap_s2s_vs_tun.md': 'tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md'
         'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
         'interface_guide/firmware_upgrade.md': 'interface_guide/upgrade.md'
+        'faq/i_must_use_ethernet_wan_when_use_vpn.md': 'faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md'
+        'faq/gl-ax1800_upgrade_to_4.md': 'faq/upgrade_to_4.md'
+        'faq/gl-x3000_gl-xe3000_connection_optimization.md': 'faq/cellular_network_troubleshooting_guide.md'
+        'faq/where_to_download_firmware.md': 'faq/how_to_download_firmware.md'
+        'tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md': 'tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md'
+        'faq/can_i_add_brume2_into_app.md': 'faq/how_to_add_brume2_into_app.md'
 
 # Customization
 extra:

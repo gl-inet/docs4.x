@@ -198,7 +198,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
     
-    * To set up Tailscale, refer to [Tailscale](https://docs.gl-inet.com/router/en/4/interface_guide/tailscale/). 
+    * To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md). 
 
 === "ZeroTier"
 

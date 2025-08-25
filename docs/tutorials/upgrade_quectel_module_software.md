@@ -1,4 +1,4 @@
-# Upgrade Quectel Module Software
+# Upgrade Quectel Module Firmware
 
 ## Preperation
 
@@ -106,7 +106,7 @@ Take the upgrade of the EM060K module as an example.
     chmod 775 /usr/bin/QFirehose-ar9531-sha256-b2297e && sha256sum /usr/bin/QFirehose-ar9531-sha256-b2297e
     ```
 
-    ![obtain QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/obtain_qfirehose.png){class="glboxshadow"}
+    ![obtain QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/obtain_qfirehose.jpg){class="glboxshadow"}
 
 6. Upgrade the module firmware using the QFirehose command, as shown below.
 

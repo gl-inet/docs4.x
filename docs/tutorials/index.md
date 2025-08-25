@@ -30,7 +30,7 @@ Learn how to use our devices correctly with detailed steps.
 
 * [SMS Forwarding](sms_forwarding.md)
 * [How to use qlog to capture module logs](get_module_logs.md)
-* [How to upgrade quectel module software](upgrade_quectel_module_software.md)
+* [How to upgrade quectel module firmware](upgrade_quectel_module_software.md)
 * [How to check the carrier aggregation status on your cellular router](how_to_check_carrier_aggregation.md)
 * [How to set up and use Spitz AX (GL-X3000) in your recreational vehicle](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
 * [How to install or change external antennas for Spitz AX or Puli AX](how_to_change_x3000_and_xe3000_antennas.md)

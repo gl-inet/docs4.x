@@ -30,25 +30,41 @@ A captive portal is a Web page where public hotspots require users to view and i
 
 ## Troubleshooting
 
-However, you may find that you are unable to enter the captive portal, so you cannot connect to the hotspot or access the Internet. In this case, please try the following solutions one at a time.
+However, you may find that you are unable to enter the captive portal, so you cannot connect to the hotspot or access the Internet. In this case, please try the following solutions.
+
+### Solution 1: Enable Public Hotspot Login Mode & Camouflage
+
+**Note**: These two features are available only in firmware v4.6 and above.
+
+When connecting the router to a public hotspot with a captive portal, on the Join Network page, enabling the following features can help improve the connection success rate.
+
+![hotspot login mode & camouflage](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/hotspot_login_mode_camouflage.png){class="glboxshadow"}
+
+- Auto-Enable Login Mode for Public Hotspots
+
+    If this option is enabled, this router will automatically enter Login Mode for Public Hotspots when it is successfully connected to a hotspot but not the Internet. In this mode, some services will be suspended while the DNS mode will be switched to automatic, which may leak your network activity to the hotspot provider (e.g. hotel or shopping mall).
+
+- Enable Camouflage
+
+    If enabled, the router will masquerade as the client device you use to access the admin panel by emulating that device’s MAC address.
 
 ---
 
-### Solution 1: Change DNS settings
+### Solution 2: Change DNS settings
 
 1. Go to web Admin Panel -> NETWORK -> DNS. Then, make sure the **DNS Rebinding Attack Protection** is disabled and the **Mode** is set to **Automatic**.
 
-    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="580"}
+    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
 
 2. Go to web Admin Panel -> VPN -> VPN Dashboard. Make sure the connection of OpenVPN and WireGuard client is disabled.
 
-    ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="580"}
+    **For firmware v4.7 and earlier**, the page is displayed as below. 
     
-    <small>(v4.7 and earlier)</small>
+    ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
+    
+    **For firmware v4.8 and higher**, the page is displayed as below.
 
-    ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.jpg){class="glboxshadow" width="580"}
-    
-    <small>(v4.8)</small>
+    ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
 
 3. Go to web Admin Panel -> APPLICATIONS -> AdGuard Home. Make sure the AdGuard Home is disabled.
 
@@ -62,7 +78,7 @@ However, you may find that you are unable to enter the captive portal, so you ca
 
 ---
 
-### Solution 2：MAC Clone
+### Solution 3：MAC Clone
 
 Sometimes, [Solution 1](#solution-1-change-dns-settings) is not enough to solve this issue. Some hotels limit the number of devices each customer can access by MAC address, and they record the MAC address of your phone (or other device) when it first time accesses the hotel WiFi. In this case, we need to clone the MAC address that the your phone uses to connect to the hotel WiFi to the router.
 
@@ -78,13 +94,13 @@ Sometimes, [Solution 1](#solution-1-change-dns-settings) is not enough to solve 
 
 3. Connect your phone or computer to the router. Access the router's web Admin Panel, clone or manually input this MAC access.
 
-    **For v4.5 and earlier**, please select NETWORK from the left side -> MAC Address.
+    **For firmware v4.5 and earlier**, please select NETWORK from the left side -> MAC Address.
 
     Select Manual Mode, fill in the MAC address you wrote down in step 2 into the input box and click Apply.
 
     ![MAC manual](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
 
-    **For v4.6 and higher**, please select INTERNET from the left side -> Repeater section, click Modify.
+    **For firmware v4.6 and higher**, please select INTERNET from the left side -> Repeater section, click Modify.
 
     ![repeater modify](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
 
@@ -96,7 +112,7 @@ Sometimes, [Solution 1](#solution-1-change-dns-settings) is not enough to solve 
 
 ---
 
-### Solution 3：Seek help from hotel staff
+### Solution 4：Seek help from hotel staff
 
 Some hotels' networks have very strict verification policies. If neither solution 1 nor solution 2 works, you can ask the hotel staff to add the router's MAC address (the factory default one) to their whitelist directly.
 

@@ -1,5 +1,36 @@
 # Slate AX (GL-AXT1800) User Guide
 
+## Product overview
+
+Slate AX (GL-AXT1800) is the first Wi-Fi 6 travel router designed by GL.iNet. It comes with an IPQ6000 1.2GHz quad-core processor and runs on OpenWrt 21.02. With the latest Wi-Fi 6 technology, you can enjoy more capacity for connected devices and faster wireless speed on the road or at home.
+
+![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
+
+## Package contents
+
+Please note that the adapter within the package depends on your shipping country.
+
+The package includes:
+
+- 1 x User manual
+- 1 x Slate AX (GL-AXT1800)
+- 1 x Ethernet cable
+- 1 x Thank you card
+- 1 x Warranty card
+- 1 x Converter (Selected plug type)
+
+![gl-axt1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/first_time_setup/axt1800_unboxing.jpg){class="glboxshadow"}
+
+Check out Slate AX's [unboxing video](../../video_library/unboxing_first_set_up.md#slate-axgl-axt1800).
+
+## LED indication
+
+[LED Indication](../../faq/led.md#gl-axt1800)
+
+## Specifications
+
+[GL-AXT1800 specifications](https://www.gl-inet.com/products/gl-axt1800/#specs){target="_blank"}
+
 ## How to set up Slate AX
 
 To set up Slate AX, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular.
@@ -228,40 +259,3 @@ Please visit the [**System Overview**](../../interface_guide/system_overview.md)
 * To view security, please visit the [**Security**](../../interface_guide/security.md) tutorial.
 * To reset firmware, please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
 * To adjust advanced settings, please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
-
----
-
-## Product overview
-
-### Product information
-
-Slate AX (GL-AXT1800) is the first Wi-Fi 6 travel router designed by GL.iNet. It comes with an IPQ6000 1.2GHz quad-core processor and runs on OpenWrt 21.02. With the latest Wi-Fi 6 technology, you can enjoy more capacity for connected devices and faster wireless speed on the road or at home.
-
-![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
-
-### Package contents
-
-Please note that the adapter within the package depends on your shipping country.
-
-Your router package includes:
-
-- 1 x User manual
-- 1 x Slate AX (GL-AXT1800)
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Warranty card
-- 1 x Converter (Selected plug type)
-
-![gl-axt1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/first_time_setup/axt1800_unboxing.jpg){class="glboxshadow"}
-
-Check out Slate AX's [unboxing video](../../video_library/unboxing_first_set_up.md#slate-axgl-axt1800).
-
----
-
-### Specification
-
-[GL-AXT1800 specification](https://www.gl-inet.com/products/gl-axt1800/#specs){target="_blank"}
-
-[LED Indication](../../faq/led.md#gl-axt1800)
-
----

@@ -1,12 +1,43 @@
 # Beryl AX (GL-MT3000) User Guide
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+## Product overview
+
+Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi 6 protocol. It is an upgraded version of Beryl (GL-MT1300). It runs on MT7981B 1.3GHz dual-core processor, offering more than double the total Wi-Fi speed. It is designed to support families with heavy Wi-Fi usage, and it's also compactly designed for travel use.
+
+![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
+
+## Package contents
+
+Please note that the adapter within the package depends on your shipping country.
+
+The package includes:
+
+- 1 x User manual
+- 1 x Beryl AX (GL-MT3000)
+- 1 x Ethernet cable
+- 1 x Thank you card
+- 1 x Warranty card
+- 1 x Converter (Selected plug type)
+
+![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
+
+Check out Beryl AX's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt3000beryl-ax).
+
+## LED indicators 
+
+[LED Indication](../../faq/led.md#gl-mt3000)
+
+## Specifications
+
+[GL-MT3000 specifications](https://www.gl-inet.com/products/gl-mt3000/#specs){target="_blank"}
 
 ## How to set up Beryl AX
 
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+
 To set up Beryl AX, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Power on the Beryl AX
 
@@ -348,35 +379,3 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
 
-## Product overview
-
-### Product information
-
-Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi 6 protocol. It is an upgraded version of Beryl (GL-MT1300). It runs on MT7981B 1.3GHz dual-core processor, offering more than double the total Wi-Fi speed. It is designed to support families with heavy Wi-Fi usage, and it's also compactly designed for travel use.
-
-![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
-
-### Package contents
-
-Please note that the adapter within the package depends on your shipping country.
-
-Your router package includes:
-
-- 1 x User manual
-- 1 x Beryl AX (GL-MT3000)
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Warranty card
-- 1 x Converter (Selected plug type)
-
-![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
-
-Check out Beryl AX's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt3000beryl-ax).
-
-### LED indicators 
-
-[LED Indication](../../faq/led.md#gl-mt3000)
-
-### Specifications
-
-[GL-MT3000 specification](https://www.gl-inet.com/products/gl-mt3000/#specs){target="_blank"}

@@ -1,13 +1,40 @@
 # Marble (GL-B3000) User Guide
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+## Product overview
+
+The Marble (GL-B3000) router is an art of its own, cleverly displayed as a photo frame to house your favorite art piece and elevate your living space. Not just a visual delight to the eye, the Marble (GL-B3000) router delivers top-notch performance by featuring Wi-Fi 6 and supporting VPN capabilities.
+
+![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
+
+## Package contents
+
+Please note that the adapter within the package depends on your shipping country.
+
+The package includes:
+
+- 1 x User manual
+- 1 x Marble (GL-B3000)
+- 1 x Ethernet cable
+- 1 x Thank you card
+- 1 x Wall mount kit
+- 1 x Power adapter (Selected plug type)
+- 1 x Adhesive pad
+- 1 x Router stand
+- 1 x Photo frame (Optional)
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
+
+## Specifications
+
+Refer to [Specifications](https://www.gl-inet.com/products/gl-b3000/#specs){target="_blank"}. 
 
 ## How to set up Marble
 
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+
 To set up Marble, you will use one of the two supported internet connection methods: Ethernet and repeater. Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Marble and other router models.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Power on the Marble
 
@@ -361,33 +388,3 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
-
---- 
-
-## Product overview
-
-### Product information
-
-The Marble (GL-B3000) router is an art of its own, cleverly displayed as a photo frame to house your favorite art piece and elevate your living space. Not just a visual delight to the eye, the Marble (GL-B3000) router delivers top-notch performance by featuring Wi-Fi 6 and supporting VPN capabilities.
-
-### Package contents
-
-Please note that the adapter within the package depends on your shipping country.
-
-Your router package includes:
-
-- 1 x User manual
-- 1 x Marble (GL-B3000)
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Wall mount kit
-- 1 x Power adapter (Selected plug type)
-- 1 x Adhesive pad
-- 1 x Router stand
-- 1 x Photo frame (Optional)
-
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
-
-### Specifications
-
-Refer to [Specifications](https://www.gl-inet.com/products/gl-b3000/#specs){target="_blank"}. 

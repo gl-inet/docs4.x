@@ -1,8 +1,33 @@
 # Flint 2 (GL-MT6000) User Guide
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+## Product overview
+
+Flint 2 (GL-MT6000) is a Wi-Fi 6 home and office router ideally suited for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming environments. Flint 2 offers blazing-fast WireGuard VPN speeds of up to 900Mbps. In addition, it also supports advanced network redundancies, including Multi-WAN, Failover and Load balance to ensure an uninterrupted network.
+
+![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
+
+## Package contents
+
+The package includes:
+
+- 1 x Flint 2 (GL-MT6000)
+- 1 x Power adapter
+- 1 x Ethernet cable
+- 1 x User manual & warranty card
+- 1 x Converter (selected plug type)
+- 1 x Thank you card
+
+![gl-mt6000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/first_time_setup/gl-mt6000_unboxing.jpg){class="glboxshadow"}
+
+Check out Flint 2's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt6000flint2). 
+
+## Specifications
+
+Refer to [gl-mt6000 specifications](https://www.gl-inet.com/products/gl-mt6000/#specs){target="_blank"}.
 
 ## How to set up Flint 2
+
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 To set up Flint 2, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
@@ -273,33 +298,3 @@ Please visit the [**System Overview**](../../interface_guide/system_overview.md)
 * To reset firmware, please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
 * To adjust advanced settings, please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
 
----
-
-## Product overview
-
-### Product information
-
-Flint 2 (GL-MT6000) is a Wi-Fi 6 home and office router ideally suited for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming environments. Flint 2 offers blazing-fast WireGuard VPN speeds of up to 900Mbps. In addition, it also supports advanced network redundancies, including Multi-WAN, Failover and Load balance to ensure an uninterrupted network.
-
-![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
-
-### Package contents
-
-Your router package includes:
-
-- 1 x Flint 2 (GL-MT6000)
-- 1 x Power adapter
-- 1 x Ethernet cable
-- 1 x User manual & warranty card
-- 1 x Converter (selected plug type)
-- 1 x Thank you card
-
-![gl-mt6000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/first_time_setup/gl-mt6000_unboxing.jpg){class="glboxshadow"}
-
-Check out Flint 2's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt6000flint2). 
-
----
-
-### Specifications
-
-Refer to [gl-mt6000 specifications](https://www.gl-inet.com/products/gl-mt6000/#specs){target="_blank"}.

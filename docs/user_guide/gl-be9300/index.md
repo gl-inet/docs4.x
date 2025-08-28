@@ -6,6 +6,10 @@ Flint 3 (GL-BE9300) is a tri-band Wi-Fi 7 desktop router, designed for home user
 
 ![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
 
+## Package contents
+
+Check out Flint 3's [unboxing video](../../video_library/unboxing_first_set_up/#gl-be9300-flint-3).
+
 ## Specifications
 
 Refer to [GL-BE9300 Specifications](https://www.gl-inet.com/products/gl-be9300/#specs){target="_blank"}.
@@ -14,8 +18,7 @@ Refer to [GL-BE9300 Specifications](https://www.gl-inet.com/products/gl-be9300/#
 
 To set up Flint 3, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Flint 3 and other router models.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WQqD-8NrAOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Power on the Flint 3
 

@@ -1,5 +1,31 @@
 # Slate 7 (GL-BE3600) User Guide
 
+## Product overview
+
+Slate 7 (GL-BE3600) is a dual-band Wi-Fi 7 portable travel router, with a maximum Wi-Fi speed of 3600 Mbps. Supporting both OpenVPN and WireGuard, Slate 7 ensures robust performance. Its compact and lightweight design ensures unparalleled portability, making it the perfect companion for travel, while its durable construction provides long-lasting performance wherever you go.
+
+![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
+
+## Package contents
+
+Please note that the adapter within the package depends on your shipping country.
+
+The package includes:
+
+- 1 x User manual
+- 1 x Slate 7 (GL-BE3600)
+- 1 x Thank you card
+- 1 x Ethernet cable
+- 1 x Power adapter
+- 1 x US Power Adapter
+- 3 x Converters (EU, UK, and AU Plugs)
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/first_time_setup/be3600_unboxing.jpg){class="glboxshadow"}
+
+## Specifications
+
+Refer to [GL-BE3600 Specifications](https://www.gl-inet.com/products/gl-be3600/#specs){target="_blank"}.
+
 ## How to set up Slate 7
 
 To set up Slate 7, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
@@ -380,6 +406,24 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
+=== "Display Management"
+
+    The Display Management page offers you a full-range of functions to manage the touchscreen display and related settings.
+
+    ![](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/display_management/display_management.png){class="glboxshadow"}
+
+    Personalization: 
+    
+    - Function Management: Manage which functions are shown on the touchscreen, tailoring the display to your needs.
+    - Lock Screen: Customize the lock-screen settings. You can set the wallpaper and wake display.
+    - Brightness: Adjust the touchscreen brightness. Use the slider or enter a specific level (range from 1 to 10) to fit different lighting conditions.
+
+    Security: 
+    
+    - Auto Lock: Set the time delay for the screen to auto-lock when there is no activity. The range is 1 to 30 minutes.
+    - Screen Always On: Toggle this option to decide if the touchscreen stays on continuously or turns off after inactivity.
+    - Enable Screen Passcode: Add an extra layer of security by enabling a passcode for the touchscreen.
+
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
@@ -391,6 +435,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
 
     For detailed setup instructions and more information, please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
+
+---
 
 === "Log"
 
@@ -405,8 +451,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
     For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
-
----
 
 === "Security"
 
@@ -432,32 +476,3 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
-
-## Product overview
-
-### Product information
-
-Slate 7 (GL-BE3600) is a dual-band Wi-Fi 7 portable travel router, with a maximum Wi-Fi speed of 3600 Mbps. Supporting both OpenVPN and WireGuard, Slate 7 ensures robust performance. Its compact and lightweight design ensures unparalleled portability, making it the perfect companion for travel, while its durable construction provides long-lasting performance wherever you go.
-
-![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
-
-### Package contents
-
-Please note that the adapter within the package depends on your shipping country.
-
-Your router package includes:
-
-- 1 x User manual
-- 1 x Slate 7 (GL-BE3600)
-- 1 x Thank you card
-- 1 x Warrenty card
-- 1 x Ethernet cable
-- 1 x Power adapter
-- 1 x US Power Adapter
-- 3 x Converters (EU, UK, and AU Plugs)
-
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/first_time_setup/be3600_unboxing.jpg){class="glboxshadow"}
-
-### Specifications
-
-Refer to [GL-BE3600 Specifications](https://www.gl-inet.com/products/gl-be3600/#specs){target="_blank"}.

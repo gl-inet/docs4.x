@@ -26,16 +26,15 @@ The package includes:
 
 ## Specifications
 
-[GL-A1300 specification](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
+[GL-A1300 specifications](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
 
 ## First time setup
 
 All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
-To set up Slate Plus, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below.
+To set up Slate Plus, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Please refer to this setup video.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Slate Plus and other router models.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zhY7AqmKJAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

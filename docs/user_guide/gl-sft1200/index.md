@@ -1,32 +1,16 @@
 # GL-SFT1200 (Opal) User Guide
 
-## Hardware info
+## Product overview
 
 GL-SFT1200 (Opal) is a pocket-sized travel router supporting 1200Mbps wireless transfers speed. It is compactly designed for portable use, which can meet the needs of wireless internet access for small businesses, small apartments or business traveler.
 
 ![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/3/setup/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
-[GL-SFT1200 specification](https://www.gl-inet.com/products/gl-sft1200/#specs){target="_blank"}
-
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/3/specification/gl-sft1200/gl-sft1200-pinout.jpg" itemprop="contentUrl" data-size="1500x1500">
-      <img src="https://static.gl-inet.com/docs/router/en/3/specification/gl-sft1200/gl-sft1200-pinout.jpg" itemprop="thumbnail" alt="gl-sft1200 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
-
----
-
-## First time setup
-
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+## Package contents
 
 Please note that the adapter within the package depends on your shipping country.
 
-Package Contents:
+The package includes:
 
 - 1 x User manual
 - 1 x Opal (GL-SFT1200)
@@ -35,7 +19,15 @@ Package Contents:
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
 
----
+![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
+
+## Specifications
+
+[GL-SFT1200 specifications](https://www.gl-inet.com/products/gl-sft1200/#specs){target="_blank"}
+
+## First time setup
+
+All of GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first time setup](../../faq/first_time_setup.md/).
 
 ## INTERNET
 

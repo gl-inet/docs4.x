@@ -1,4 +1,14 @@
-# GL-MT300N-V2(Mango) User Guide
+# GL-MT300N-V2 (Mango) User Guide
+
+## Product overview
+
+Mango (GL-MT300N-V2) is a pocket-size mini router, designed to be Portable and Travel-Friendly, supporting up to 300Mbps wireless transmission rate. Mango offers advanced security features, including support for OpenVPN, WireGuard®, and a DNS server. It not only allows you to convert a public network to a private Wi-Fi for secure surfing, but also allows you to upload vpn configuration files from over 30 VPN service providers, set it as vpn client, providing an added layer of privacy and security to create an encrypted traffic between your device and the VPN server.
+
+![mt300n-v2 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n_v2_overview.png){class="glboxshadow"}
+
+## Specifications
+
+[GL-MT300N-V2 specifications](https://www.gl-inet.com/products/gl-mt300n-v2/#specs){target="_blank"}.
 
 ## How to set up GL-MT300N-V2
 
@@ -295,14 +305,3 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Product overview
-
-### Product information
-
-Mango (GL-MT300N-V2) is a pocket-size mini router, designed to be Portable and Travel-Friendly, supporting up to 300Mbps wireless transmission rate. Mango offers advanced security features, including support for OpenVPN, WireGuard®, and a DNS server. It not only allows you to convert a public network to a private Wi-Fi for secure surfing, but also allows you to upload vpn configuration files from over 30 VPN service providers, set it as vpn client, providing an added layer of privacy and security to create an encrypted traffic between your device and the VPN server.
-
-![mt300n-v2 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n_v2_overview.png){class="glboxshadow"}
-
-### Specifications
-
-Refer to [Specifications](https://www.gl-inet.com/products/gl-mt300n-v2/#specs){target="_blank"}.

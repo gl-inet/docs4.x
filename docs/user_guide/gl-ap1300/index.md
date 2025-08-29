@@ -1,10 +1,12 @@
 ## Hardware info
 
-GL-AP1300(Cirrus) ceiling wireless access point is an elite business-class level gateway with MU-MIMO Wi-Fi solution. PoE power supply and Watchdog timer built-in function are implemented in order to fulfill most enterprise-level user cases. With well-developed Goodcloud management system, managing the device is very easy and convenient. You can enable a remote and secure access wherever you are and whenever you want.
+GL-AP1300 (Cirrus) ceiling wireless access point is an elite business-class level gateway with MU-MIMO Wi-Fi solution. PoE power supply and Watchdog timer built-in function are implemented in order to fulfill most enterprise-level user cases. With well-developed Goodcloud management system, managing the device is very easy and convenient. You can enable a remote and secure access wherever you are and whenever you want.
 
-[GL-AP1300 specification](https://www.gl-inet.com/products/gl-ap1300/#specs){target="_blank"}
+![gl-ap1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ap1300/hardware_info/ap1300_interface.jpg){class="glboxshadow"}
 
-### PCB Pinout
+[GL-AP1300 specifications](https://www.gl-inet.com/products/gl-ap1300/#specs){target="_blank"}
+
+### PCB pinout
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -24,9 +26,9 @@ GL-AP1300(Cirrus) ceiling wireless access point is an elite business-class level
 
 ---
 
-## First time setup
+## First-time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All of GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first time setup](../../faq/first_time_setup.md/).
 
 ---
 

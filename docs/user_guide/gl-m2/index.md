@@ -1,20 +1,20 @@
 # GL-M2 User Guide
 
-## Hardware Info
+## Hardware info
 
 GL-M2 is for DIY enthusiasts who would like to build their own routers and modems. With GL-M2's 5G Module and 5G antennas, it provides a quality 5G cellular network.
 
 ![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
-[GL-M2 specification](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
+[GL-M2 specifications](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 
 ---
 
-## Package Contents
+## Package contents
 
 ![gl-m2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
 
-Package Contents:
+The package includes:
 
 - 1 x GL-M2 Development Board
 - 4 x 5G Antennas
@@ -27,7 +27,11 @@ Package Contents:
 
 ---
 
-## First-time Setup
+## First-time setup
+
+Watch this video or follow the steps below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CzhxiAvCIlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Install the module and the antenna.
 
@@ -53,7 +57,7 @@ Package Contents:
 
 ---
 
-## Connect GL-M2 to GL.iNet Routers
+## Connect GL-M2 to GL.iNet routers
 
 GL-M2 (with 5G Module RM520N-GL installed) is compatible with the following devices:
 

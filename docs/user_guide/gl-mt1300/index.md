@@ -1,34 +1,16 @@
 # Beryl (GL-MT1300) User Guide
 
-## Hardware info
+## Product overview
 
-Beryl (GL-MT1300) is a high-performance next generation pocket-sized router that offers a powerful hardware and first-class cybersecurity protocol with unique and modern design. Beryl is the new era of travel router, an advanced version of our best-seller, Slate (GL-AR750S).
+Beryl (GL-MT1300) is a high-performance pocket-sized router that offers a powerful hardware and first-class cybersecurity protocol with unique and modern design. As an advanced version of our best-seller, Slate (GL-AR750S), Beryl is the new era of travel router.
 
 ![gl-mt1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/hardware_info/mt1300_interface.jpg){class="glboxshadow"}
 
-[GL-MT1300 specification](https://www.gl-inet.com/products/gl-mt1300/#specs){target="_blank"}
-
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/3/specification/gl-mt1300/pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
-      <img src="https://static.gl-inet.com/docs/router/en/3/specification/gl-mt1300/pinout.jpg" itemprop="thumbnail" alt="gl-mt1300 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
-
-## First time setup
-
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+## Package contents
 
 Please note that the adapter within the package depends on your shipping country.
 
-What's inside the package?
-
-![gl-mt1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
-
-Package Contents:
+The package includes:
 
 - 1 x User manual
 - 1 x Beryl (GL-MT1300)
@@ -37,7 +19,17 @@ Package Contents:
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
 
-Check out Beryl's [unboxing video](../../video_library/unboxing_first_set_up.md#berylgl-mt1300).
+![gl-mt1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
+
+Check out Beryl's [unboxing video](../../video_library/unboxing_first_set_up.md/#gl-mt1300-beryl).
+
+## Specifications
+
+[GL-MT1300 specifications](https://www.gl-inet.com/products/gl-mt1300/#specs){target="_blank"}
+
+## First-time setup
+
+All of GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first time setup](../../faq/first_time_setup.md/).
 
 ## INTERNET
 

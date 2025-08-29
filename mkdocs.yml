@@ -322,7 +322,7 @@ nav:
   - Video Library:
     - Overview: video_library/index.md
     - Meet Our New Products: video_library/products.md
-    - Tutorials: video_library/tutorials.md
     - Unboxing & First Time Setup: video_library/unboxing_first_set_up.md
+    - Tutorials: video_library/tutorials.md
   - Community:
     - Overview: community/index.md

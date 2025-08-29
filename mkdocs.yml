@@ -231,6 +231,8 @@ nav:
     - eSIM:
       - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Use eSIM Physical Card with Android devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
+      - Use the SIMPoYo eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md
+      - Use the SIMPoYo eSIM Physical Card with Android devices: tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
       - Access the LuCI via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md

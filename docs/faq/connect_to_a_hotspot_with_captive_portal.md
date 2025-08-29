@@ -4,7 +4,7 @@
 
 A captive portal is a Web page where public hotspots require users to view and interact with the page before Internet access is granted.
 
-## Why do I need to use a router to connect to a public hotspot?
+## Why use a router for public hotspots?
 
 * Public Wi-Fi is not safe
 
@@ -14,7 +14,11 @@ A captive portal is a Web page where public hotspots require users to view and i
 
     Besides that, some public Wi-Fi such as hotel complimentary Wi-Fi are limited to let's say 2 devices. When you're travelling in a group, that's just not going to work. Instead, you could connect a travel router to the hotel Wi-Fi, and use it as a hotspot to broadcast Wi-Fi to all your devices including laptops, smartphones, tablets…etc. The hotel Wi-Fi will only recognize the travel router as a single device, but you could enjoy the free Wi-Fi as many devices as you want. 
 
-## How do I connect my router to a public hotspot via captive portal?
+## How to connect router to public hotspot with captive portal?
+
+Watch this video or follow the steps below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CM4_soLf9fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. Connect your smartphone or computer to the router.
 

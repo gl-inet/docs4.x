@@ -409,20 +409,15 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 === "Display Management"
 
     The Display Management page offers you a full-range of functions to manage the touchscreen display and related settings.
-
-    ![](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/display_management/display_management.png){class="glboxshadow"}
-
-    Personalization: 
     
     - Function Management: Manage which functions are shown on the touchscreen, tailoring the display to your needs.
     - Lock Screen: Customize the lock-screen settings. You can set the wallpaper and wake display.
     - Brightness: Adjust the touchscreen brightness. Use the slider or enter a specific level (range from 1 to 10) to fit different lighting conditions.
-
-    Security: 
-    
     - Auto Lock: Set the time delay for the screen to auto-lock when there is no activity. The range is 1 to 30 minutes.
     - Screen Always On: Toggle this option to decide if the touchscreen stays on continuously or turns off after inactivity.
     - Enable Screen Passcode: Add an extra layer of security by enabling a passcode for the touchscreen.
+
+    For detailed setup instructions and more information, please refer to [Display Management](../../interface_guide/display_management.md){target="_blank"}.
 
 === "Time Zone"
 

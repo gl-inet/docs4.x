@@ -311,6 +311,7 @@ nav:
       - Upgrade: interface_guide/upgrade.md
       - Scheduled Tasks: interface_guide/scheduled_tasks.md
       - Admin Password: interface_guide/admin_password.md
+      - Display Management: interface_guide/display_management.md
       - Time Zone: interface_guide/time_zone.md
       - Toggle Button Settings: interface_guide/toggle_button_settings.md
       - Log: interface_guide/log.md

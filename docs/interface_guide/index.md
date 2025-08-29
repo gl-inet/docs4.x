@@ -86,6 +86,7 @@ Learn how to use our devices and add-on features with our step to step guides.
     * [How to upgrade from 3.x to firmware 4.x?](../faq/upgrade_to_4.md)
 * [Scheduled Tasks](scheduled_tasks.md) - to set schedules for LED display, Wi-Fi status and reboot.
 * [Change admin password](admin_password.md)
+* [Display Management](display_management.md)
 * [Time Zone](time_zone.md)
 * [Toggle Button Settings](toggle_button_settings.md)
 * [Log](log.md)

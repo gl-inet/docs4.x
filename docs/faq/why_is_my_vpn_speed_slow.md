@@ -1,6 +1,6 @@
 # Why is my VPN speed slower than expected?
 
-If you've noticed that your VPN connection speed is lower than the advertised rates, this is a common scenario in real-world usage. 
+If you've noticed that your VPN connection speed is lower than the theoretical maximum speed (tested in an ideal local area network), this is actually normal in real-world usage. 
 
 VPNs are designed to prioritize security and privacy, which inherently affects speed. It's normal for VPN speeds to range between 30-50% of the advertised maximum under typical network conditions. This discrepancy arises due to multiple factors that impact performance, which will be explained below, along with some tips to optimize your experience.
 

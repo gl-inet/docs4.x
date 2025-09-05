@@ -24,7 +24,7 @@ Since the connection is purely local and no internet access is required during s
 
 Browsers usually do not distinguish between a preset setup IP address and normal websites; they treat all IP addresses as websites and expect HTTPS connections to be secured by SSL/TLS certificates. 
 
-GL.iNet routers do use SSL/TLS certificates, but it is self-signed and not issued by third-party certificate authorities (CAs). Although accessing this IP is secure (as it is on a private local network), it is still considered "insecure" by the browser, which is why an alert is issued.
+GL.iNet routers do use SSL/TLS certificates, but they are self-signed and not issued by third-party certificate authorities (CAs). Although accessing this IP is secure (as it is on a private local network), it is still considered "insecure" by the browser, which is why an alert is issued.
 
 ## What can I do with this warning?
 

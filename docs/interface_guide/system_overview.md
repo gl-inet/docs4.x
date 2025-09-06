@@ -2,28 +2,42 @@
 
 On the left side of web Admin Panel -> SYSTEM -> Overview
 
-The Overview page displays the status of some hardwares and supports some simple controls, including the following
+The Overview page displays the status of some hardwares and supports some simple controls, including the following:
 
 - Status of CPU, Memory, Flash and External Storage devices.
 - Status of hardware such as Fan, Battery, etc.
 - Control of LEDs and Fan.
 - Device information.
 
-Here is the example of GL-MT3000.
+Here is an example of GL-MT3000.
 
 ![system overview](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/overview.png){class="glboxshadow"}
 
 ## CPU Average Load
 
-Click on the temperature to switch between Celsius and Fahrenheit.
+For most models without a fan, the CPU average load is displayed as below.
+
+![system overview, cpu average load, no fan](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/cpu_average_load_no_fan.jpg){class="glboxshadow"}
+
+For some models with a built-in fan, the CPU average load is displayed as below.
+
+![system overview, cpu average load, with fan](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/cpu_average_load.png){class="glboxshadow gl-70-desktop"}
 
 Mouse over the graph to display specific values.
 
-![system overview, cpu average load](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/cpu_average_load.png){class="glboxshadow gl-70-desktop"}
+Click on the temperature on the right to switch between Celsius and Fahrenheit.
 
-GL-AXT1800, GL-MT3000, and GL-BE3600 are equipped with a fan. Click the fan icon at the top-right corner to access the fan settings.
+Click on the Fan icon at the upper-right corner to enter the Fan Settings.
 
 ![system overview, fan settings](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/fan_settings.png){class="glboxshadow gl-70-desktop"}
+
+??? "Models with Built-in Fans"
+
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-BE3600 (Slate 7)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
 
 ## Memory Usage
 
@@ -35,7 +49,7 @@ Mouse over the graph to display specific values.
 
 ## LED
 
-Click the cog icon will go to the [Scheduled Tasks](scheduled_tasks.md) of LED.
+Click the gear icon will go to the [Scheduled Tasks](scheduled_tasks.md) of LED.
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/led.png){class="glboxshadow gl-70-desktop"}
 

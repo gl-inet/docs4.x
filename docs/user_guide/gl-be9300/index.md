@@ -8,7 +8,7 @@ Flint 3 (GL-BE9300) is a tri-band Wi-Fi 7 desktop router, designed for home user
 
 ## Package contents
 
-Check out Flint 3's [unboxing video](../../video_library/unboxing_first_set_up/#gl-be9300-flint-3).
+Check out Flint 3's [unboxing video](../../video_library/unboxing_first_set_up.md/#gl-be9300-flint-3).
 
 ## Specifications
 

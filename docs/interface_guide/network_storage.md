@@ -28,21 +28,22 @@ Usually, models with USB ports or MicroSD(TF) slots support network storage (i.e
 
 For devices with flash storage of 32MB or less, the Network Storage function is not yet supported and is still under development and optimization.
 
-| Router Model                   | Samba | Webdav | DLNA | USB Port | MicroSD Card |
-| :----------------------------- | :---: | :---: | :---: | :------: | :----------: |
-| GL-BE3600 (Slate 7)            | √     | √     | √     | √        | -            |
-| GL-X2000 (Spitz Plus)          | √     | √     | √     | √        | -            |
-| GL-MT6000 (Flint 2)            | √     | √     | √     | √        | -            |
-| GL-XE3000 (Puli AX)            | √     | √     | √     | √        | √            |
-| GL-X3000 (Spitz AX)            | √     | √     | √     | √        | √            |
-| GL-MT3000 (Beryl AX)           | √     | √     | √     | √        | -            |
-| GL-MT2500/GL-MT2500A (Brume 2) | √     | √     | √     | √        | -            |
-| GL-AXT1800 (Slate AX)          | √     | √     | √     | √        | √            |
-| GL-AX1800 (Flint)              | √     | √     | √     | √        | -            |
-| GL-A1300 (Slate Plus)          | √     | √     | √     | √        | -            |
-| GL-S1300 (Convexa-S)           | √     | √     | √     | √        | -            |
-| GL-SFT1200 (Opal)</br>***FW 4.7.2**  | √     | -     | -     | √        | -            |
-| GL-E750V2 (Mudi V2)</br>***FW 4.7.2**| √     | -     | -     | √        | √            |
+| Router Model                           | Samba | Webdav | DLNA | USB Port | MicroSD Card |
+| :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
+| GL-BE3600 (Slate 7)                    | √     | √     | √     | √        | -            |
+| GL-X2000 (Spitz Plus)                  | √     | √     | √     | √        | -            |
+| GL-MT6000 (Flint 2)                    | √     | √     | √     | √        | -            |
+| GL-XE3000 (Puli AX)                    | √     | √     | √     | √        | √            |
+| GL-X3000 (Spitz AX)                    | √     | √     | √     | √        | √            |
+| GL-MT3000 (Beryl AX)                   | √     | √     | √     | √        | -            |
+| GL-MT2500/GL-MT2500A (Brume 2)         | √     | √     | √     | √        | -            |
+| GL-AXT1800 (Slate AX)                  | √     | √     | √     | √        | √            |
+| GL-AX1800 (Flint)                      | √     | √     | √     | √        | -            |
+| GL-A1300 (Slate Plus)                  | √     | √     | √     | √        | -            |
+| GL-S1300 (Convexa-S)                   | √     | √     | √     | √        | -            |
+| GL-SFT1200 (Opal)</br>***FW 4.7.2**    | √     | -     | -     | √        | -            |
+| GL-E750V2 (Mudi V2)</br>***FW 4.7.2**  | √     | -     | -     | √        | √            |
+| GL-AR750S-EXT (Slate)</br>***FW 4.7.2**| √     | -     | -     | √        | √            |
 
 ## Insert Storage Device
 

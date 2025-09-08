@@ -160,7 +160,11 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
 
     ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
-    **Note:** The U-Boot Web UI above may not be exactly the same as what you see, because the U-Boot version is different for different production dates. In some extreme cases, we recommend upgrading the U-Boot version. Please refer to the tutorial [here](upgrade_uboot_version.md).
+    !!! Note 
+    
+        - If you fail to access U-Boot Web UI, check if you have any VPN or proxy software running. Disable any VPN or proxy software, including Tailscale and ZeroTier.
+    
+        - The U-Boot Web UI above may not be exactly the same as what you see, because the U-Boot version is different for different production dates. In some extreme cases, we recommend upgrading the U-Boot version. Please refer to the tutorial [here](upgrade_uboot_version.md).
 
 6. Click **Choose file** button to find the firmware file. Then click **Update firmware** button.
 

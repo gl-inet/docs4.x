@@ -1,15 +1,10 @@
 # Wireless
 
-The wireless interface may vary a bit from model to model. Here is an example of Beryl AX GL-MT3000.
-
-!!! Note
-
-    1. Some models do not have 5G Wi-Fi, e.g. GL-S200, GL-X300B(Collie).
-    2. Some models do not have Wi-Fi, e.g. GL-MT2500/GL-MT2500A(Brume 2).
+The wireless interface may vary slightly from model to model. For example, some models do not have 5 GHz Wi-Fi, such as GL-MT300N-V2 (Mango) and GL-X300B (Collie); some do not include Wi-Fi capability, such as GL-MT2500/GL-MT2500A(Brume 2).
 
 ## Wi-Fi Status Display
 
-The router’s Wi-Fi networks are enabled by default, and the corresponding Wi-Fi icon will light up below the device model image on the INTERNET page.
+GL.iNet router’s Wi-Fi networks are enabled by default, and the corresponding Wi-Fi icon will light up below the device model image on the INTERNET page.
 
 ![wifi status display](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_status_display.png){class="glboxshadow"}
 
@@ -19,23 +14,87 @@ The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi 
 
 ## Wireless Settings
 
-On the left side of web Admin Panel, go to WIRELESS page.
+On the left side of web Admin Panel -> WIRELESS
 
-The Wireless page allows configuration for both Main Wi-Fi networks (5 GHz and 2.4 GHz) and Guest Wi-Fi networks (5 GHz and 2.4 GHz).
+The wireless page supports setting up different Wi-Fi configurations, and it includes various Wi-Fi bands such as 2.4 GHz, 5 GHz, 6 GHz, and MLO Wi-Fi (which varies by router model), with each band further divided into Main Wi-Fi and Guest Wi-Fi networks for flexible wireless network management.
 
-### Main Wi-Fi
+### MLO Wi-Fi
 
-The Main Wi-Fi network includes 5 GHz and 2.4 GHz bands.
+**Note**: This Wi-Fi band is only available on Flint 3 (GL-BE3600) and Slate 7 (GL-BE3600).
 
-It allows you to configure settings for both 5 GHz and 2.4 GHz Wi-Fi networks, including enabling/disabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling/disabling randomized BSSID, selecting Wi-Fi security mode, setting Wi-Fi password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+MLO (Multi-Link Operation) is one of the core features of Wi-Fi 7 (802.11be), designed to improve network performance, significantly reduce latency, and enhance connection stability by utilizing multiple frequency bands simultaneously such as 2.4 GHz, 5 GHz, and 6 GHz.
 
-**5G Wi-Fi**
+Click on the tabs below to learn about MLO Main WiFi and MLO Guest WiFi settings.
 
-![main wifi 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_5g.jpg){class="glboxshadow"}
+=== "MLO Wi-Fi"
 
-**2.4G Wi-Fi**
+    The MLO Main Wi-Fi allows you to configure multiple settings, including enabling/disabling Wi-Fi, selecting radio bands (at least two), enabling/disabling randomized BSSID, setting the Wi-Fi name (SSID), Wi-Fi security, Wi-Fi password, and SSID visibility.
 
-![main wifi 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_2.4g.png){class="glboxshadow"}
+    ![MLO Main WiFi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_mlo.png){class="glboxshadow"}
+
+    - If the MLO Wi-Fi radio bands include 6 GHz, the MLO Wi-Fi BSSID will synchronize when the 6GHz Wi-Fi BSSID changes.
+
+    - The default Wi-Fi security for MLO Wi-Fi is WPA3-SAE, which is suitable for most devices that support MLO.
+
+=== "MLO Guest Wi-Fi"
+
+    The MLO Guest Wi-Fi allows you to configure simplified settings, including enabling/disabling Wi-Fi, selecting radio bands (at least two), setting the Wi-Fi name (SSID), Wi-Fi security, password, and SSID visibility.
+
+    ![MLO Guest WiFi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
+
+### 6 GHz Wi-Fi
+
+**Note**: This Wi-Fi band is only available on Flint 3 (GL-BE3600).
+
+The 6 GHz Wi-Fi provides faster, more stable wireless connectivity with reduced congestion compared to 2.4 GHz and 5 GHz bands.
+
+Click on the tabs below to learn about 6 GHz Main WiFi and 6 GHz Guest WiFi settings.
+
+=== "6 GHz Wi-Fi"
+
+    The 6 GHz Main Wi-Fi allows you to configure multiple settings, including enabling/disabling Wi-Fi, setting TX power, enabling/disabling randomized BSSID, setting the Wi-Fi name (SSID), Wi-Fi security, Wi-Fi password, SSID visibility, Wi-Fi mode, bandwidth, and channel. 
+
+    ![6G Main WiFi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_6g.png){class="glboxshadow"}
+
+    - Enable PSC: When PSC (Preferred Scanning Channel) is enabled, only channels with higher connectivity will be reserved to ensure 6 GHz device connections.
+
+=== "6 GHz Guest Wi-Fi"
+
+    The 6 GHz Guest Wi-Fi allows you to configure simplified settings, including enabling/disabling Wi-Fi, setting the Wi-Fi name (SSID), Wi-Fi security, password, and SSID visibility.
+
+    ![6G Guest WiFi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
+
+### 5 GHz Wi-Fi
+
+Click on the tabs below to learn about 5 GHz Main WiFi and 5 GHz Guest WiFi settings.
+
+=== "5 GHz Wi-Fi"
+
+    The 5 GHz Main Wi-Fi allows you to configure multiple settings, including enabling/disabling Wi-Fi, setting TX power, enabling/disabling randomized BSSID, setting the Wi-Fi name (SSID), Wi-Fi security, Wi-Fi password, SSID visibility, Wi-Fi mode, bandwidth, and channel. 
+
+    ![5G Main WiFi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_5g.jpg){class="glboxshadow"}
+
+=== "5 GHz Guest Wi-Fi"
+
+    The 5 GHz Guest Wi-Fi allows you to configure simplified settings, including enabling/disabling Wi-Fi, setting the Wi-Fi name (SSID), Wi-Fi security, password, and SSID visibility.
+
+    ![5G Guest WiFi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
+
+### 2.4 GHz Wi-Fi
+
+Click on the tabs below to learn about 2.4 GHz Main WiFi and 2.4 GHz Guest WiFi settings.
+
+=== "2.4 GHz Wi-Fi"
+
+    The 2.4 GHz Main Wi-Fi allows you to configure multiple settings, including enabling/disabling Wi-Fi, setting TX power, enabling/disabling randomized BSSID, setting the Wi-Fi name (SSID), Wi-Fi security, Wi-Fi password, SSID visibility, Wi-Fi mode, bandwidth, and channel. 
+
+    ![2.4G Main WiFi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_2.4g.png){class="glboxshadow"}
+
+=== "2.4 GHz Guest Wi-Fi"
+
+    The 2.4 GHz Guest Wi-Fi allows you to configure simplified settings, including enabling/disabling Wi-Fi, setting the Wi-Fi name (SSID), Wi-Fi security, password, and SSID visibility.
+
+    ![2.4G Guest WiFi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
 **Note**:
 
@@ -54,20 +113,6 @@ It allows you to configure settings for both 5 GHz and 2.4 GHz Wi-Fi networks, i
     ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
 * When the **Bandwidth** is set to **160 MHz** (Only some models can be set to 160MHz), the Wi-Fi will always use the DFS channel, even if you choose a non-DFS channel or Auto for Channel settings.
-
-### Guest Wi-Fi
-
-he Guest Wi-Fi network includes 5 GHz and 2.4 GHz bands.
-
-It supports settings including enabling/disabling Wi-Fi, setting the Wi-Fi Name (SSID), configuring Wi-Fi Security and Password, and adjusting SSID Visibility.
-
-**5G Guest Wi-Fi**
-
-![guest wifi 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
-
-**2.4G Guest Wi-Fi**
-
-![guest wifi 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
 ## Randomized BSSID
 

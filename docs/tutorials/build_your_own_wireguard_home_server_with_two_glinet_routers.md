@@ -94,7 +94,7 @@ If you don't have a public IP address, here are some methods for your reference.
 
     **More [Port Forward](how_to_set_up_port_forwarding.md) examples**
 
-## Set up the WireGuard server
+## Set up WireGuard server
 
 ### Enable DDNS (Optional)
 
@@ -106,9 +106,9 @@ Check the box for **Terms of Service & Privacy Policy** and click **Apply**.
 
 ![ddnsapply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/enable_ddns.jpg){class="glboxshadow"}
 
-Then go to the **WireGuard Server** -> Configuration tab, make sure the Listen Port is 51820 and click **Apply**.
+Then go to the **WireGuard Server** -> Configuration tab, make sure the Listen Port is 51820, then click **Apply**.
 
-![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgsever.jpg){class="glboxshadow"}
+![wgserver](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgserver-apply.png){class="glboxshadow"}
 
 ### Generate Configuration
 
@@ -130,7 +130,7 @@ Copy the text for the client, or click the Download button and save it for later
 
 ![configload](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/configload.jpg){class="glboxshadow"}
 
-## Set up the WireGuard Client
+## Set up WireGuard Client
 
 ### Change the LAN IP
 
@@ -178,11 +178,11 @@ Wait a few minutes. Once it is connected successfully, a green dot will light up
 
 ![wgconnected](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgclient_connected.png){class="glboxshadow"}
 
-Turn to the VPN Dashboard, and you will see that your client is connecting to the server with your home public IP.
+Turn to **VPN Dashboard**, and you will see that your client is connecting to the server with your home public IP.
 
 ![clientup](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgclientup.jpg){class="glboxshadow"}
 
-Log in back to the web Admin Panel of GL-MT6000 (the WireGuard server), go to **VPN** -> **VPN Dashboard** (or **WireGuard Server**), and you will also see the connnection status, indicating that the client is connected.
+Log in back to the web Admin Panel of GL-MT6000 (the WireGuard server), go to **VPN** -> **VPN Dashboard** (or go to **VPN** -> **WireGuard Server** if you use firmware v.4.8), and you will also see the connnection status, indicating that the client is connected.
 
 ![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgservercon.jpg){class="glboxshadow"}
 

@@ -42,11 +42,25 @@ To set up Dynamic DNS, follow these steps:
 ![click start](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/openvpn-server-click-start.jpeg){class="glboxshadow"}
 
 ??? "(Optional) To access the local network of the VPN server, enable these settings:"
+    
+    For firmware v4.7 and earlier:
+
     1. In the left sidebar, click **VPN** > **VPN Dashboard**. 
     2. Click the Options icon.
     3. Toggle the switch to on for **Remote Access LAN**.
     4. Click **Apply**.
-    ![click apply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/toggle-enable-remote-access-lan.png){class="glboxshadow"}
+
+        ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/toggle-enable-remote-access-lan.png){class="glboxshadow"}
+
+    For firmware v4.8 and higher:
+
+    1. In the left sidebar, click **VPN** > **OpenVPN Server**.
+    2. Click **Options** in the upper right.
+    3. Toggle the switch to on for **Allow Remote Access the LAN Subnet**.
+    4. Click **Apply**.
+
+        ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/enable-remote-access-lan-4.8.png){class="glboxshadow"}
+
 
 ## 4. Connect to OpenVPN server
 

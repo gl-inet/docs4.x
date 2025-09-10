@@ -56,27 +56,11 @@ Follow the steps below.
     
         GL.iNet router's WAN subnet usually can be found on the INTERNET page. It is determined by the upstream device that the router's WAN interface connects to (e.g., an ISP modem or upstream gateway).
 
-        The following two cases are for reference.
-        
-        - **Case 1. GL.iNet router works as a secondary router**
-        
-            If your router works as a secondary router (i.e. its WAN port is connected to another local network, such as an ISP modem or a main router), its WAN subnet can be determined from the WAN configuration.
-        
-            For example, if the router's WAN IP is 192.168.1.165, Gateway is 192.168.1.1, and Subnet Mask is 255.255.255.0 (a common mask for small networks), then the corresponding WAN subnet is 192.168.1.0/24. This is also the LAN subnet of the upstream device.
+        For example, if your router works as a secondary router (where its WAN port is connected to another local network, such as an ISP modem or a main router's LAN port), and the router's WAN IP is 192.168.1.165, Gateway is 192.168.1.1, and Subnet Mask is 255.255.255.0 (a common mask for small networks), then the corresponding WAN subnet is 192.168.1.0/24. This is also the LAN subnet of the upstream device.
 
-            ![check wan subnet](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
+        ![check wan subnet](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
 
-            **Note**: The prefix length of 192.168.1.0/24 is 24, which corresponds to the subnet mask 255.255.255.0. If your router's WAN Subnet Mask is not 255.255.255.0, the prefix length of your WAN subnet is not "/24". Please confirm the WAN subnet based on the actual WAN configuration. 
-
-            ---
-        
-        - **Case 2. GL.iNet router dials directly for internet access**
-        
-            If your router dials directly to get a public IP for internet access (e.g. PPPoE), your router's WAN subnet is assigned by your ISP. 
-        
-            For example, if the router's WAN IP is 202.103.10.5, Gateway is 202.103.10.1, and Subnet Mask is 255.255.255.248 (all assigned by your ISP), the WAN subnet is 202.103.10.0/29.
-
-            If you are still unsure about your router's WAN subnet, please contact your ISP for assistance.
+        **Note**: The prefix length of 192.168.1.0/24 is 24, which corresponds to the subnet mask 255.255.255.0. If your router's WAN Subnet Mask is not 255.255.255.0, the prefix length of your WAN subnet is not "/24". Please confirm the WAN subnet based on the actual WAN configuration. 
 
 3. Click the right box to set the tunnel action (i.e. use VPN or not use VPN).
 

@@ -65,6 +65,10 @@ Follow the steps below.
             For example, if the router's WAN IP is 192.168.1.165, Gateway is 192.168.1.1, and Subnet Mask is 255.255.255.0 (a common mask for small networks), then the corresponding WAN subnet is 192.168.1.0/24. This is also the LAN subnet of the upstream device.
 
             ![check wan subnet](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
+
+            **Note**: The prefix length of 192.168.1.0/24 is 24, which corresponds to the subnet mask 255.255.255.0. If your router's WAN Subnet Mask is not 255.255.255.0, the prefix length of your WAN subnet is not "/24". Please confirm the WAN subnet based on the actual WAN configuration. 
+
+            ---
         
         - **Case 2. GL.iNet router dials directly for internet access**
         

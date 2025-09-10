@@ -221,6 +221,7 @@ nav:
       - Use WireGuard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
       - Get config files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
       - Reserve fixed IP for OpenVPN client: tutorials/reserve_fixed_IP_for_ovpn_client.md
+      - Allow access to WAN when VPN client is enabled: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
     - Cellular:
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Module Logs: tutorials/get_module_logs.md

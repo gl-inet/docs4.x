@@ -25,6 +25,7 @@ Learn how to use our devices correctly with detailed steps.
 * [Use WireGuard to secure RDP from outside network](use_wireguard_to_secure_rdp_from_outside_network.md)
 * [How to get configuration files from WireGuard service providers](how_to_get_configuration_files_from_wireguard_service_providers.md)
 * [How to reserve fixed IP for OpenVPN client in a self built OpenVPN connection](reserve_fixed_IP_for_ovpn_client.md)
+* [How to allow access to WAN when VPN client is enabled?](how_to_allow_access_to_wan_when_vpn_client_enabled.md)
 
 ## Cellular
 

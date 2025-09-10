@@ -4,6 +4,8 @@ When VPN client is enabled on GL.iNet routers, in the default global mode, LAN d
 
 This tutorial introduces the steps to make the local WAN services (e.g. printer, NAS, etc.) accessible to the VPN client's LAN devices.
 
+![allow acdess wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
+
 ## For firmware v4.7 and earlier
 
 Log in to the web admin panel of your VPN client, and go to **VPN** -> **VPN Dashboard** -> **VPN Client**. Click the **Global Options** in the upper right corner.
@@ -52,9 +54,25 @@ Follow the steps below.
 
     ??? "How do I know the WAN subnet of my GL.iNet router?"
     
-        The WAN subnet can be found on the INTERNET page. For example, if the INTERNET page shows that your router's WAN IP address and Gateway are 192.168.1.165 and 192.168.1.1 respectively, its WAN subnet will be **192.168.1.0/24**.
+        GL.iNet router's WAN subnet usually can be found on the INTERNET page. It is determined by the upstream device that the router's WAN interface connects to (e.g., an ISP modem or upstream gateway).
 
-        ![check wan subnet](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
+        The following two cases are for reference.
+        
+        - **Case 1. GL.iNet router works as a secondary router**
+        
+            If your router works as a secondary router (i.e. its WAN port is connected to another local network, such as an ISP modem or a main router), its WAN subnet can be determined from the WAN configuration.
+        
+            For example, if the router's WAN IP is 192.168.1.165, Gateway is 192.168.1.1, and Subnet Mask is 255.255.255.0 (a common mask for small networks), then the corresponding WAN subnet is 192.168.1.0/24. This is also the LAN subnet of the upstream device.
+
+            ![check wan subnet](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
+        
+        - **Case 2. GL.iNet router dials directly for internet access**
+        
+            If your router dials directly to get a public IP for internet access (e.g. PPPoE), your router's WAN subnet is assigned by your ISP. 
+        
+            For example, if the router's WAN IP is 202.103.10.5, Gateway is 202.103.10.1, and Subnet Mask is 255.255.255.248 (all assigned by your ISP), the WAN subnet is 202.103.10.0/29.
+
+            If you are still unsure about your router's WAN subnet, please contact your ISP for assistance.
 
 3. Click the right box to set the tunnel action (i.e. use VPN or not use VPN).
 

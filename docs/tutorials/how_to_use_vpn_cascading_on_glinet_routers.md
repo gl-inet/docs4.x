@@ -56,7 +56,7 @@ Take GL-AXT1800 as an example.
 
     The server status is displayed on the **WireGuard Server** page.
 
-    ![vpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/4.8-wgserver.jpg){class="glboxshadow"}
+    ![vpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/4.8-wgserver.png){class="glboxshadow"}
 
     Now the laptop, which has been set as a WireGuard client connecting to the GL-AXT1800 (VPN 1), will access the Internet via the third-party VPN service (VPN 2), rather than the the GL-AXT1800's ISP network.
 

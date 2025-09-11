@@ -180,7 +180,6 @@ After setting up your router, please follow the steps below to purchase and acti
 | Tuge (cooperate with GL.iNet)     |[https://esim_store.gl-inet.com](https://esim_store.gl-inet.com)|
 | Eiotclub (cooperate with GL.iNet) |[https://sim.eiotclub.com/eshop/esim/shop/shop](https://sim.eiotclub.com/eshop/esim/shop/shop)|
 | esim.me                           |[https://esim.me](https://esim.me)|
-| orange                            |[https://travel.orange.com/](https://travel.orange.com/)|
 | Redtea                            |[https://esim.redteago.com/](https://esim.redteago.com/)|
 | globalyo                          |[https://store.globalyo.com](https://store.globalyo.com)|
 | easysim                           |[https://easysim.global/](https://easysim.global/)|
@@ -189,7 +188,6 @@ After setting up your router, please follow the steps below to purchase and acti
 | esim.sm                           |[https://esim.sm/](https://esim.sm/)|
 | Ubigi                             |[https://cellulardata.ubigi.com/](https://cellulardata.ubigi.com/)|
 | airalo                            |[https://www.airalo.com](https://www.airalo.com)|
-| holafly                           |[https://esim.holafly.com](https://esim.holafly.com)|
 | boost mobile                      |[https://boost.com.au/pages/esim](https://boost.com.au/pages/esim)|
 | esim plus                         |[https://esimplus.me](https://esimplus.me)|
 | bytesim                           |[https://bytesim.com](https://bytesim.com)|

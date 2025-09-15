@@ -229,6 +229,7 @@ nav:
       - Check the carrier aggregation status: tutorials/how_to_check_carrier_aggregation.md
       - Set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
       - Install or change external antennas for Spitz AX or Puli AX: tutorials/how_to_change_x3000_and_xe3000_antennas.md
+      - How to use SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - eSIM:
       - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Use eSIM Physical Card with Android devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
@@ -242,8 +243,6 @@ nav:
       - Set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
       - Set up port forwarding on your primary router: tutorials/how_to_set_up_port_forwarding.md
       - Configure dual wired WAN access: tutorials/configure_dual_ethernet_wan.md
-    - Network Storage:
-      - Use WinSCP to access your share files: tutorials/winscp_share_file.md
     - Others:
       - Block client devices: tutorials/how_to_block_client_devices.md
       - Manually configure static IP on client devices: tutorials/manually_configure_static_ip.md
@@ -252,6 +251,7 @@ nav:
       - Connect to EAP network: tutorials/eap.md
       - Connect to EAP network with advanced settings: tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md
       - SSH log in to the Router: tutorials/ssh_log_in_to_the_router.md
+      - Use WinSCP to access share files: tutorials/winscp_share_file.md
       - Use WinSCP to modify files: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
       - Activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
       - Change the NAT type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md

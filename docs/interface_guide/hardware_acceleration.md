@@ -19,9 +19,7 @@ When hardware acceleration is enabled, the following functions will not work pro
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE3000 (Puli AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
-| GL-AXT1800 (Slate AX)          | √         |
 | GL-MT2500/GL-MT2500A (Brume 2) | √         |
-| GL-AX1800 (Flint)              | √         |
 | GL-SFT1200 (Opal)              | √         |
 | GL-MT1300 (Beryl)              | √         |
 | GL-A1300 (Slate Plus)          | -         |

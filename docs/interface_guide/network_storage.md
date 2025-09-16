@@ -3,6 +3,7 @@
 ## Contents
 
 - [Introduction](#introduction)
+- [Supported models](#supported-models)
 - [Insert storage device](#insert-storage-device)
 - [Set up Samba](#set-up-samba)
 - [Set up WebDAV](#set-up-webdav)

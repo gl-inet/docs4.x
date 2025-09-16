@@ -229,12 +229,12 @@ nav:
       - Check the carrier aggregation status: tutorials/how_to_check_carrier_aggregation.md
       - Set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
       - Install or change external antennas for Spitz AX or Puli AX: tutorials/how_to_change_x3000_and_xe3000_antennas.md
-      - How to use SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - eSIM:
       - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Use eSIM Physical Card with Android devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
       - Use the SIMPoYo eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md
       - Use the SIMPoYo eSIM Physical Card with Android devices: tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md
+      - How to use SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
       - Access the LuCI via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md

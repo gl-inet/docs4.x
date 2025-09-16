@@ -35,7 +35,6 @@ Learn how to use our devices correctly with detailed steps.
 * [How to check the carrier aggregation status on your cellular router](how_to_check_carrier_aggregation.md)
 * [How to set up and use Spitz AX (GL-X3000) in your recreational vehicle](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
 * [How to install or change external antennas for Spitz AX or Puli AX](how_to_change_x3000_and_xe3000_antennas.md)
-* [How to use SIMPoYo uFi](how_to_use_simpoyo_ufi.md)
 
 ## eSIM
 
@@ -43,6 +42,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to use the eSIM Physical Card with Android devices](how_to_use_the_esim_physical_card_with_android_devices.md)
 * [How to use the SIMPoYo eSIM Physical Card with GL.iNet routers](how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md)
 * [How to use the SIMPoYo eSIM Physical Card with Android devices](how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md)
+* [How to use SIMPoYo uFi USB dongle](how_to_use_simpoyo_ufi.md)
 
 ## GoodCloud
 

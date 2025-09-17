@@ -10,46 +10,80 @@ As shown below, the GL-MT2500 is a WireGuard server and the GL-AXT1800 is a Wire
 
 ## 1. Add route rule on server
 
-Log in to the web admin panel of your WireGuard server, then go to **VPN** -> **VPN Dashboard** -> **VPN server**.
+??? "For firmware v4.7 and earlier"
 
-Click on the route icon on the right to enter the route rule.
+    Log in to the web admin panel of <u>your WireGuard server</u>, then go to **VPN** -> **VPN Dashboard** -> **VPN Server**.
 
-![add route rule 1](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.7-route-rule-1.jpg){class="glboxshadow"}
+    Click on the route icon on the right to enter the route rule.
 
-Click **Add Route Rule** in the upper right corner, and input the subnet you want to access.
+    ![add route rule 1](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.7-route-rule-1.jpg){class="glboxshadow"}
 
-![add route rule 2](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.7-route-rule-2.png){class="glboxshadow"}
+    Click **Add Route Rule** in the upper right corner, and input the subnet you want to access.
 
-For example, the LAN subnet of the WireGuard client GL-AXT1800 is **192.168.8.0/24**, so the Target Address is **192.168.8.0/24**. 
+    ![add route rule 2](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.7-route-rule-2.png){class="glboxshadow"}
+
+    For example, the LAN subnet of the WireGuard client GL-AXT1800 is **192.168.8.0/24**, so the Target Address is **192.168.8.0/24**. 
     
-Gateway is the client IP that your WireGuard server generated for this WireGuard client. You can find it under the Profiles tab of **WireGuard Server** page. Here we set the Gateway as **10.0.0.4**. Set the Scope as **global**.
+    Gateway is the client IP that your WireGuard server generated for this WireGuard client. You can find it under the **Profiles** tab of **WireGuard Server** page. As shown below, the client IP for the WireGuard client GL-AXT1800 is **10.0.0.4**.
     
-![add route rule 3](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.7-route-rule-3.jpg){class="glboxshadow"}
+    ![client ip](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.7-client-ip.png){class="glboxshadow"}
+    
+    So set the Gateway as **10.0.0.4**, and the Scope as **global**, then click **Apply**.
 
-## 2. Add allowed IP and get a new configuration
+    ![add route rule 3](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.7-route-rule-3.jpg){class="glboxshadow"}
 
-In the web admin panel of your WireGuard server, go to **WireGuard Server** -> **Profiles**, and you will find the client IP (Gateway) of GL-AXT1800. 
+??? "For firmware v4.8 and higher"
 
-Click the gear icon on the right to modify configuration.
+    Log in to the web admin panel of <u>your WireGuard server</u>, then go to **VPN** -> **WireGuard Server**.
 
-![gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/gateway.jpg){class="glboxshadow"}
+    Click the **Route Rules** tab, and click **Add Route Rule** on the right side.
 
-Click **Set More**
+    ![add route rule 1](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.8-route-rule-1.png){class="glboxshadow"}
 
-![client config set more](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/client-config-set-more.jpg){class="glboxshadow"}
+    In the pop-up window, input the subnet you want to access.
 
-Click **+ Add New** under the Allowed IPs list.
+    ![add route rule 2](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.8-route-rule-2.png){class="glboxshadow"}
 
-![add new allowed ip](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/add-new-allowed-ip.png){class="glboxshadow"}
+    For example, the LAN subnet of the WireGuard client GL-AXT1800 is **192.168.8.0/24**, so the Target Address is **192.168.8.0/24**. 
+    
+    Gateway is the client IP that your WireGuard server generated for this WireGuard client. You can find it under the **Profiles** tab on the same page. As shown below, the client IP for the WireGuard client GL-AXT1800 is **10.1.0.2**.
 
-Input the subnet of your WireGuard client, which is **192.168.8.0/24** in this case, then click **Apply** to get a new configuration
+    ![client ip](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.8-client-ip.png){class="glboxshadow"}
 
-![get new config](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/get-new-config-file.png){class="glboxshadow"}
+    So set the Gateway as **10.1.0.2**, then click **Apply**.
 
-### 3. Upload the configuration and test connection
+    ![add route rule 3](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.8-route-rule-3.png){class="glboxshadow"}
 
-Upload the new configuration to your client router, which is the GL-AXT1800 in this case. Start the VPN connection and test if you can access the LAN devices of your WireGuard client from the Server side.
+## 2. Allow remote access to client LAN
 
-You can test the connection via ping. For example, on a device connected to the WireGuard server (GL-MT2500), ping the IP of a device in the LAN side of the WireGuard client (GL-AXT1800), and check if it can ping successfully.
+??? "For firmware v4.7 and earlier"
+
+    Log in to the web admin panel of <u>your WireGuard client</u>, and go to **VPN** -> **VPN Dashboard** -> **VPN Client**.
+
+    Click on the gear icon on the right side of WireGuard.
+
+    ![wgclient options](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.7-wgclient-options.png){class="glboxshadow"}
+
+    In the pop-up window, enable **Remote Access LAN**, then click **Apply**.
+
+    ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.7-allow-remote-access-lan.png){class="glboxshadow"}
+
+??? "For firmware v4.8 and higher"
+
+    Log in to the web admin panel of <u>your WireGuard client</u>, and go to **VPN** -> **VPN Dashboard**.
+
+    On the top-left corner of your VPN tunnel, click the gear icon to enter the tunnel options.
+
+    ![tunnel options](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.8-tunnel-options.png){class="glboxshadow"}
+
+    In the pop-up window, enable **Allow Remote Access the LAN Subnet**, then click **Apply**.
+
+    ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.8-allow-remote-access-lan.png){class="glboxshadow"}
+
+## 3. Test connection
+
+Test if you can access the LAN devices of your WireGuard client from the Server side.
+
+You can test the connection via ping. For example, on a device connected to the WireGuard server (GL-MT2500), ping the IP address of a device within the LAN of your WireGuard client (GL-AXT1800), and check if it can ping successfully.
 
 ![ping](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/ping.jpg){class="glboxshadow"}

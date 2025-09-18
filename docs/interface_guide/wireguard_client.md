@@ -391,7 +391,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Surfshark.
 
     ![surfshark delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark9.png){class="glboxshadow"}
 
-## Set up other providers(via configuration files)
+## Set Up WireGuard Client Manually (for other providers)
 
 If you are using another WireGuard service provider, you can download the WireGuard configuration files and follow the steps below to set up the WireGuard Client. If you don't know how to download the configuration files, please refer to [this guide](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or contact their support.
 
@@ -447,7 +447,7 @@ Do not want to subscribe to third-party VPN services? You may purchase two GL.iN
 
 This is especially suitable for scenarios where your home network's ISP provides a Public IP, and you want to connect to your home network via VPN when away from home to ensure security and access to internal network resources. This eliminates the cost and hassle of continuously subscribing to commercial VPN services.
 
-For WireGuard server setup, please check out [here](wireguard_server.md).
+For WireGuard server setup, please check [here](wireguard_server.md).
 
 ---
 

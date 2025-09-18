@@ -178,13 +178,17 @@ Wait a few minutes. Once it is connected successfully, a green dot will light up
 
 ![wgconnected](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgclient_connected.png){class="glboxshadow"}
 
-Turn to **VPN Dashboard**, and you will see that your client is connecting to the server with your home public IP.
+Turn to **VPN Dashboard**, and you will see that your client is connecting to the server with your home public IP. The page may vary slightly depending on the firmware version.
 
 ![clientup](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgclientup.jpg){class="glboxshadow"}
 
-Log in back to the web Admin Panel of GL-MT6000 (the WireGuard server), go to **VPN** -> **VPN Dashboard** (or go to **VPN** -> **WireGuard Server** if you use firmware v.4.8), and you will also see the connnection status, indicating that the client is connected.
+Log in back to the web Admin Panel of GL-MT6000 (the WireGuard server), go to **VPN** -> **WireGuard Server** (or go to **VPN** -> **VPN Dashboard** if you use firmware v.4.7 and earlier), and you will also see the connnection status, indicating that the client is connected.
 
-![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgservercon.jpg){class="glboxshadow"}
+![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgservercon-4.8.png){class="glboxshadow"}
+<small>(WireGuard Server page in FW v4.8)</small>
+
+![servercon](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgservercon-4.7.jpg){class="glboxshadow"}
+<small>(VPN Dashboard page in FW v4.7 and earlier)</small>
 
 ## Prep for Remote VPN Fixes Ahead
 

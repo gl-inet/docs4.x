@@ -8,15 +8,15 @@
 
 WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 
-If you have already bought WireGuard service from a provider, but you don't know how to get the configuration files, please refer to [get configuration files from WireGuard service providers](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or ask its support.
+If you have subscribed to the WireGuard service from a provider but don't know how to get the configuration files, please refer to [Get Configuration Files from WireGuard Service Providers](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or contact their support.
 
-You can set up WireGuard Client via web Admin Panel or [mobile app](../faq/mobile_app.md). 
+You can set up WireGuard Client via the web Admin Panel or [mobile app](../faq/mobile_app.md). 
 
-**The mobile app** has already integrated some WireGuard service providers, such as AzireVPN, Mullvad VPN, OVPN, StrongVPN, PIA VPN, etc., which means you can easily set up WireGuard Client by simply enter the credentials of the WireGuard Service you purchased. Open the app and follow the instructions on it to set up.
+**The mobile app** integrates some WireGuard service providers, such as AzireVPN, Mullvad VPN, OVPN, StrongVPN, PIA VPN, etc., which means you can easily set it up by simply entering the login credentials of the WireGuard service you subscribed to. Open the app and follow the on-screen instructions to set up.
 
-**The web Admin Panel** not only integrates some WireGuard service providers, but also provides an entrance for manually uploading configuration files. You can either enter the purchased WireGuard service credentials for quick setup, or manually upload a configuration file to set up the WireGuard client.
+**The web Admin Panel** not only integrates some WireGuard service providers, but also provides an entry for manual configuration. You can either enter the credentials of your subscribed WireGuard service for quick setup, or manually upload a configuration file to complete the setup.
 
-Select your WireGuard service provider below to quickly locate the step-by-step instructions.
+Select the corresponding WireGuard service provider below to quickly locate the step-by-step instructions.
 
 * [Set Up AzireVPN](#set-up-azirevpn)
 * [Set Up Hide.me](#set-up-hideme)
@@ -49,7 +49,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> AzireVPN.
 
     ![azirevpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn2.png){class="glboxshadow"}
 
-    Once connected, a blue dot will appear next to the configuration file.
+    Once connected, a green dot will appear next to the configuration file.
 
     ![azirevpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn3.png){class="glboxshadow"}
     
@@ -97,7 +97,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Hide.me.
 
     ![hideme start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme2.png){class="glboxshadow"}
 
-    Once connected, a blue dot will appear next to the configuration file.
+    Once connected, a green dot will appear next to the configuration file.
 
     ![hideme connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme3.png){class="glboxshadow"}
 
@@ -145,7 +145,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> IPVanish.
 
     ![ipvanish start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish3.png){class="glboxshadow"}
 
-    Once connected, a blue dot will appear next to the configuration file.
+    Once connected, a green dot will appear next to the configuration file.
 
     ![ipvanish connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish4.png){class="glboxshadow"}
 
@@ -193,7 +193,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Mullvad.
 
     ![mullvad start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad3.png){class="glboxshadow"}
     
-    Once connected, a blue dot will appear next to the configuration file.
+    Once connected, a green dot will appear next to the configuration file.
 
     ![mullvad connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad4.png){class="glboxshadow"}
 
@@ -263,7 +263,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Mullvad.
 
     ![nordvpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn3.png){class="glboxshadow"}
 
-    Once connected, a blue dot will appear next to the configuration file.
+    Once connected, a green dot will appear next to the configuration file.
 
     ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn4.png){class="glboxshadow"}
 
@@ -287,7 +287,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Mullvad.
 
     You can click **Delete All** to delete all configuration files with one click, and choose whether to delete the private and public keys simultaneously.
 
-    ![nordvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn7.png){class="glboxshadow"}
+    ![nordvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn8.png){class="glboxshadow"}
 
 ## Set Up PIA (Private Internet Access)
 
@@ -311,7 +311,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> PIA.
 
     ![pia start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia3.png){class="glboxshadow"}
 
-    Once connected, a blue dot will appear next to the configuration file.
+    Once connected, a green dot will appear next to the configuration file.
 
     ![pia connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia4.png){class="glboxshadow"}
 
@@ -359,7 +359,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Surfshark.
 
     ![surfshark start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark3.png){class="glboxshadow"}
 
-    Once connected, a blue dot will appear next to the configuration file.
+    Once connected, a green dot will appear next to the configuration file.
 
     ![surfshark connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark4.png){class="glboxshadow"}
 
@@ -393,7 +393,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Surfshark.
 
 ## Set up other providers(via configuration files)
 
-If you are using another WireGuard service provider, you can download the WireGuard configuration files and follow the steps below to set up the WireGuard Client. If you don't know how to download the configuration files, please refer to [this guide](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or ask their customer service.
+If you are using another WireGuard service provider, you can download the WireGuard configuration files and follow the steps below to set up the WireGuard Client. If you don't know how to download the configuration files, please refer to [this guide](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or contact their support.
 
 In the web Admin Panel -> VPN -> WireGuard Client -> Add Manually.
 
@@ -419,16 +419,16 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Add Manually.
 
     2. **Manually add configuration**.
     
-        Click on **Manually Add Configuration** at the bottom of the upload area to paste the WireGuard configuration in text form, or fill in each item.
+        Click on **Manually Add Configuration** at the bottom of the upload area.
 
         ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/manually_add_configuration.png){class="glboxshadow"}
 
-        Set a descriptive name, and paste the configuration in the text box. Then click **Apply**.
+        Set a descriptive name, and paste the configuration into the text box. Then click **Apply**.
 
         ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/text_mode.png){class="glboxshadow"}
         <small>(Text Mode)</small>
 
-        Or switch to Item mode if you want to verify each item. Then click **Apply**.
+        If you want to verify each item, you can switch to the Item mode and check the config details. Then click **Apply**.
 
         ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/item_mode.png){class="glboxshadow"}
         <small>(Item Mode)</small>
@@ -443,7 +443,11 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Add Manually.
 
 ## Set Up WireGuard Server on GL.iNet Router
 
-You can get a GL.iNet router to set as WireGuard server, and get another GL.iNet router to set as WireGuard client. For setup WireGuard server, please check out [here](wireguard_server.md).
+Do not want to subscribe to third-party VPN services? You may purchase two GL.iNet routers – set one as WireGuard server and the other as WireGuard server.
+
+This is especially suitable for scenarios where your home network's ISP provides a Public IP, and you want to connect to your home network via VPN when away from home to ensure security and access to internal network resources. This eliminates the cost and hassle of continuously subscribing to commercial VPN services.
+
+For WireGuard server setup, please check out [here](wireguard_server.md).
 
 ---
 

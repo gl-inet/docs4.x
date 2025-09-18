@@ -96,7 +96,9 @@ Log in to the web Admin Panel, and navigate to VPN -> WireGuard Server.
 
         ![client configuration file](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/download_config_file.png){class="glboxshadow"}
 
-    If required, you can specify the server address from among the public IP, DDNS domain, and current WAN IP. For example, it is recommended to enable [DDNS](ddns.md) and use DDNS domain in the configuration if your network's public IP changes from time to time. This will simultaneously update the server address in the configuration file.
+    If required, you can specify the server address from among the public IP, DDNS domain, and current WAN IP. This feature has been available since firmware v4.8. Once changed, the server address in the configuration file will be updated simultaneously.
+    
+    For example, it is recommended to enable [DDNS](ddns.md) and use DDNS domain as the server address if your network's public IP changes frequently. 
     
     ![change server address](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/change_server_address.png){class="glboxshadow"}
 

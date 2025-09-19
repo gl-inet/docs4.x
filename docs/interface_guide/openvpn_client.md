@@ -78,7 +78,7 @@ NordVPN's OpenVPN/WireGuard quick setup is integrated into the admin panel of GL
 
 8. Delete all files.
 
-    You can click **Delete All** to delete all configuration files with one click, and choose whether to delete the private and public keys simultaneously.
+    You can click **Delete All** to delete all configuration files with one click.
 
     ![nordvpn delete all](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn9.png){class="glboxshadow"}
 

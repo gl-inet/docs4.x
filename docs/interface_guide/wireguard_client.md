@@ -25,7 +25,7 @@ Select the corresponding WireGuard service provider below to quickly locate the 
 * [Set Up NordVPN](#set-up-nordvpn)
 * [Set Up PIA (Private Internet Access)](#set-up-pia-private-internet-access)
 * [Set Up Surfshark](#set-up-surfshark)
-* [Set up WireGuard Client with other providers (via configuration files)](#set-up-other-providersvia-configuration-files)
+* [Set Up WireGuard Client Manually (for other providers)](#set-up-wireguard-client-manually-for-other-providers)
 
 ## Set Up AzireVPN
 

@@ -20,7 +20,7 @@ The highlights of eSIM physical cards are as follows:
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
-| GL-X2000 (Spitz Plus)          | √ (Beta)  |
+| GL-X2000 (Spitz Plus)          | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE3000 (Puli AX)            | √         |
 | GL-E750V2 (Mudi V2)            | √         |
@@ -28,6 +28,7 @@ The highlights of eSIM physical cards are as follows:
 | GL-XE300 (Puli)                | ※        |
 | GL-X750 (Spitz)                | ※        |
 | GL-X300B (Collie)              | ※        |
+| GL-E750V2 vSIM                 | -         |
 
 !!! Note "For the models marked with ※:"
     

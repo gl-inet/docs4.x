@@ -12,8 +12,8 @@ Recently we noticed that some customers come across connectivity failures with G
 
     | Router Model                  |                       |
     | :---------------------------- | :-------------------: |
-    | GL-X3000 (Spitz AX)           | [Firmware Download](https://dl.gl-inet.com/router/x3000/beta)     |
-    | GL-XE3000 (Puli AX)           | [Firmware Download](https://dl.gl-inet.com/router/xe3000/beta)    |
+    | GL-X3000 (Spitz AX)           | [Firmware Download](https://dl.gl-inet.com/router/x3000/stable)     |
+    | GL-XE3000 (Puli AX)           | [Firmware Download](https://dl.gl-inet.com/router/xe3000/stable)    |
     | GL-X2000 (Spitz Plus)         | [Firmware Download](https://dl.gl-inet.com/router/x2000/stable)   |
 
 2. **Workaround for Other Models**

@@ -8,7 +8,7 @@ WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state
 
 ## Make sure you have a public IP address
 
-Please check [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) if your Internet Service Provider assigns you a public IP address.
+Please click [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md) to check if your Internet Service Provider assigns you a public IP address.
 
 **If not, your router cannot be set up as a WireGuard Server.**
 

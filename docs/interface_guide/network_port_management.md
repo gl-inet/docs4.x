@@ -1,8 +1,8 @@
-# Network Port Management
+# Port Management
 
-Network Port Management is available since V4.7.
+Port Management is available since V4.7.
 
-On the left side of web Admin Panel -> NETWORK -> Network Port Management.
+On the left side of web Admin Panel -> NETWORK -> Port Management.
 
 It shows all Ethernet ports on the router. 
 
@@ -17,7 +17,6 @@ Click on **WAN**, it displays the network port status, MAC mode & MAC address, a
 - Mac Address: The MAC address of the WAN interface.
 
 - Negotiated Network Port Rate: The current negotiated speed of WAN interface.
-
 
 Click on **LAN**, it displays the negotiated network port rate of the LAN port.
 

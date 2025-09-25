@@ -298,7 +298,7 @@ nav:
       - LAN: interface_guide/lan.md
       - Guest Network: interface_guide/guest_network.md
       - DNS: interface_guide/dns.md
-      - Network Port Management: interface_guide/network_port_management.md
+      - Port Management: interface_guide/network_port_management.md
       - Network Mode: interface_guide/network_mode.md
       - IPv6: interface_guide/ipv6.md
       - MAC Address: interface_guide/mac_address.md

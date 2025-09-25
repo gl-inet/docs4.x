@@ -66,7 +66,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Multi-WAN](multi-wan.md) - enables failover to another Internet connection or simultaneous use of multiple interfaces to increase total bandwidth.
 * [LAN](lan.md)
 * [DNS](dns.md)
-* [Network Port Management](network_port_management.md)
+* [Port Management](network_port_management.md)
 * [Network Mode](network_mode.md)
 * [IPv6](ipv6.md)
 * [MAC Address](mac_address.md)

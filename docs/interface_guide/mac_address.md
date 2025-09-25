@@ -4,7 +4,7 @@
 
     This guide is applicable to v4.5 and earlier versions.
     
-    Since v4.6, this page has been removed, and the MAC address settings for Ethernet and repeater interfaces have been migrated to the corresponding sections on the INTERNET page.
+    Since v4.6, the MAC address settings for Ethernet and Repeater interfaces have been migrated to the [Port Management](network_port_management.md) and the [INTERNET](internet_repeater.md) page respectively.
 
 On the left side of web Admin Panel -> NETWORK -> MAC Address
 

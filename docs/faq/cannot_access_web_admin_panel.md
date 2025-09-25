@@ -112,7 +112,7 @@ Follow the steps below to check the router's IP address.
 
 5. If above steps failed, try [Reset](repair_network_or_reset_firmware.md#reset-to-factory) the router to factory default.
 
-6. If the reset doesn't work, try [Debrick via uboot](debrick.md).
+6. If the reset doesn't work, try [Unbrick via uboot](debrick.md).
 
 ---
 

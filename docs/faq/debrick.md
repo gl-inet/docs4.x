@@ -1,6 +1,6 @@
-# Using U-Boot to debrick your router
+# Using U-Boot to unbrick your router
 
-You may have bricked your router if you were doing some DIY projects or flashed a wrong firmware. You may not be able to access your router but you can re-install the firmware by using U-Boot failsafe.
+If you bricked your router due to some DIY projects or flashing a wrong firmware, you may fail to access it. In this case, you can re-install the firmware by using U-Boot failsafe.
 
 **Note:** The U-Boot operation will remove your router's settings and installed plugins.
 
@@ -10,7 +10,7 @@ You may have bricked your router if you were doing some DIY projects or flashed 
 
 Please prepare a computer with an ethernet port. If your computer does not have ethernet port, please prepare an additional USB Ethernet Adapter.
 
-## Debrick Steps
+## Unbrick Steps
 
 Refer to this video tutorial or follow the procedures below to access the U-Boot Web UI and re-install the firmware.
 

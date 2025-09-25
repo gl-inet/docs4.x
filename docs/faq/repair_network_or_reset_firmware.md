@@ -30,7 +30,7 @@ There are two ways to reset the firmware.
 
     Press and hold the reset button for **10 seconds** then release to reset the router to factory settings. All user data will be cleared.
 
-    **Note:** If the factory reset does not work, you might need to follow the [Uboot tutorial](debrick.md) to debrick your router.
+    **Note:** If the factory reset does not work, you might need to follow the [Uboot tutorial](debrick.md) to unbrick your router.
 
 2. Reset firmware in web admin panel.
 

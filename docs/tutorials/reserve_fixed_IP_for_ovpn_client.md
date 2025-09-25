@@ -1,14 +1,14 @@
-# How to reserve fixed IP for OpenVPN client in a self built OpenVPN connection?
+# How to reserve a fixed IP for OpenVPN client in a self built OpenVPN connection?
 
-If you have successfully set up your OpenVPN server using a GL.iNet router, this tutorial will show you how to reserve a fixed IP for your OpenVPN client connecting to your server.
+This tutorial will show you how to reserve a fixed IP for your OpenVPN client connecting to your server. Set up a GL.iNet router as your OpenVPN server first before following the steps below.
 
 1. Log in to the web admin panel of your OpenVPN server, from the left sidebar, navigate to **VPN** -> **OpenVPN Server**.
 
-    In the **Configuration** tab, note down the **IPv4 subnet**, and switch the Authentication Mode to **Username and Password Only**. For example, the following shows that the IPv4 subnet is 10.8.0.0/24.
+    In the **Configuration** tab, note down the **IPv4 subnet** (such as 10.8.0.0/24 in the following image), and switch the Authentication Mode to **Username and Password Only**.
 
     ![ovpn configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_config.png){class="glboxshadow"}
 
-2. Turn to **Users** tab, create a username and password. As shown below, a username "GLsupport" has been created as an example.
+2. Turn to the **Users** tab, create a username and password, as shown below.
 
     ![ovpn users](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_users.png){class="glboxshadow"}
 
@@ -20,13 +20,13 @@ If you have successfully set up your OpenVPN server using a GL.iNet router, this
 
     ![check config line](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/check_config_line.png){class="glboxshadow"}
 
-    If not, add it manually, then save and exit the file (in the vi editor, press the **Esc** key, then enter **:wq** and press Enter).
+    If not, add it manually, then save and exit the file.
 
 4. Go to `/etc/openvpn/`, add a ccd folder `mkdir ccd`.
 
     ![add ccd folder](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
 
-5. Add a file "GLsupport", type inside `ifconfig-push 10.8.0.10 255.255.255.0`
+5. Add a file "GLsupport", type in `ifconfig-push 10.8.0.10 255.255.255.0`, then save and exit the file.
 
     Verify the content by `cat GLsupport`
 
@@ -40,15 +40,15 @@ If you have successfully set up your OpenVPN server using a GL.iNet router, this
     
     For example, `ifconfig-push 10.8.0.20 225.225.225.0`, `ifconfig-push 10.8.0.30 225.225.225.0`, `ifconfig-push 10.8.0.40 225.225.225.0`
 
-6. At last, test with your OVPN client and check if the Client Virtual IP (IPv4) is the reserved one you set. 
+6. At last, test with your OVPN client and check if the Client Virtual IP (IPv4) is the reserved one. 
 
-    For example, if your OpenVPN client is a GL.iNet router, you can log in to the OpenVPN client router’s web admin panel, navigate to VPN Dashboard -> OpenVPN Client, and verify the Client Virtual IP (IPv4).
+    For example, if your OpenVPN client is a GL.iNet router, you can log in to the OpenVPN client router's web admin panel, navigate to VPN Dashboard to verify the Client Virtual IP (IPv4).
 
-    ![test 1](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/test_e.g.1.png){class="glboxshadow"}
+    ![ovpn client test v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.7.png){class="glboxshadow"}
+    <small>(VPN Dashboard in firmware v4.7 and earlier)</small>
 
-    ![test 2](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/test_e.g.2.png){class="glboxshadow"}
-
-    ![test 3](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/test_e.g.3.png){class="glboxshadow"}
+    ![ovpn client test v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.8.png){class="glboxshadow"}
+    <small>(VPN Dashboard in firmware v4.8)</small>
 
 ---
 

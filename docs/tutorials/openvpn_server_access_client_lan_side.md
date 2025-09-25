@@ -24,9 +24,11 @@ As shown below, the GL-AXT1800 is an OpenVPN server and the GL-MT2500 is an Open
 
     For example, the LAN subnet of the OpenVPN client GL-MT2500 is **192.168.48.0/24**, so the Target Address is **192.168.48.0/24**. 
     
-    Gateway is the client IP that your OpenVPN server generated for this OpenVPN client. Here we set the Gateway as **10.8.0.1**, then click **Apply**.
+    Gateway is the Client IP that your OpenVPN server generated for this OpenVPN client. Here we set the Gateway as **10.8.0.1**, then click **Apply**.
 
     ![ovpnserver route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.7-ovpn-route-rule-3.jpg){class="glboxshadow"}
+
+    Note: If you have multiple OpenVPN clients whose LAN subnets need to be accessed, please refer to [this link](reserve_fixed_IP_for_ovpn_client.md) to reserve a Client IP for each OpenVPN client before setting the route rules.
 
 ??? "For firmware v4.8 and higher"
 
@@ -42,9 +44,11 @@ As shown below, the GL-AXT1800 is an OpenVPN server and the GL-MT2500 is an Open
 
     For example, the LAN subnet of the OpenVPN client GL-MT2500 is **192.168.48.0/24**, so the Target Address is **192.168.48.0/24**. 
     
-    Gateway is the client IP that your OpenVPN server generated for this OpenVPN client. Here we set the Gateway as **10.8.0.2**, then click **Apply**.
+    Gateway is the Client IP that your OpenVPN server generated for this OpenVPN client. Here we set the Gateway as **10.8.0.2**, then click **Apply**.
 
     ![ovpnserver route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.8-ovpn-route-rule-3.jpg){class="glboxshadow"}
+
+    Note: If you have multiple OpenVPN clients whose LAN subnets need to be accessed, please refer to [this link](reserve_fixed_IP_for_ovpn_client.md) to reserve a Client IP for each OpenVPN client before setting the route rules.
 
 ## 2. Allow remote access to client LAN
 

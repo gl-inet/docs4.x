@@ -1,36 +1,16 @@
-# GL-XE300 (Puli) User Guide
+# Puli (GL-XE300) User Guide
 
-## Hardware info
+## Product overview
 
-GL-XE300 (Puli) is a portable 4G smart router that is perfect for home, business and IoT solution. With its OpenWrt supported feature and large storage compatibility, it is designed for you to develop DIY IoT project. It also comes with a rechargeable battery, so you can bring it anywhere with you!
+Puli (GL-XE300) is a portable 4G smart router that is perfect for home, travel, business and IoT solution. With its OpenWrt supported feature and large storage compatibility, it is designed for you to develop DIY IoT project. It also comes with a rechargeable battery, enabling portable use in various environments.
 
 ![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_interface.jpg){class="glboxshadow"}
 
-[GL-XE300 specification](https://www.gl-inet.com/products/gl-xe300/#specs){target="_blank"}
-
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_pinout.jpg" itemprop="thumbnail" alt="gl-xe300 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
-
----
-
-## First time setup
-
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+## Package contents
 
 Please note that the adapter within the package depends on your shipping country.
 
-What's inside the package?
-
-![gl-xe300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/first_time_setup/xe300_unboxing.jpg){class="glboxshadow"}
-
-Package Contents:
+The package includes:
 
 - 1 x User manual
 - 1 x Puli (GL-XE300)
@@ -39,7 +19,19 @@ Package Contents:
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
 
-Check out Puli's [unboxing video](../../video_library/unboxing_first_set_up.md#puligl-xe300).
+![gl-xe300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/first_time_setup/xe300_unboxing.jpg){class="glboxshadow"}
+
+Check out Puli's [unboxing video](../../video_library/unboxing_first_set_up.md/#gl-xe300-puli). 
+
+## Specifications
+
+[GL-XE300 specifications](https://www.gl-inet.com/products/gl-xe300/#specs){target="_blank"}
+
+---
+
+## First-time setup
+
+All GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ---
 

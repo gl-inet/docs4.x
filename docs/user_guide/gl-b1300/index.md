@@ -1,32 +1,16 @@
 # Convexa-B (GL-B1300) User Guide
 
-## Hardware info
+## Product overview
 
 Convexa-B (GL-B1300) is a remarkable product in order to satisfy the wireless Internet access demand for both commercial and home user. It will be your best choice for enjoying the wireless Internet surfing.
 
 ![gl-b1300 interface](https://static.gl-inet.com/docs/router/en/3/setup/gl-b1300/first_time_setup/router.jpg){class="glboxshadow"}
 
-[GL-B1300 specification](https://www.gl-inet.com/products/gl-b1300/#specs){target="_blank"}
+## Package contents
 
-### PCB Pinout
+Please note that the adapter within the package depends on your shipping country.
 
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/2/hardware/b1300/src/GL-B1300_V1.31_PINOUT.jpg" itemprop="contentUrl" data-size="960x720">
-      <img src="https://static.gl-inet.com/docs/router/en/2/hardware/b1300/src/GL-B1300_V1.31_PINOUT.jpg" itemprop="thumbnail" alt="gl-b1300 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
-
----
-
-## First time setup
-
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
-
-![gl-b1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b1300/first_time_setup/b1300_unboxing.jpg){class="glboxshadow"}
-
-Package Contents:
+The package includes:
 
 - 1 x User manual
 - 1 x Convexa-B (GL-B1300)
@@ -34,6 +18,18 @@ Package Contents:
 - 1 x Thank you card
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
+
+![gl-b1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b1300/first_time_setup/b1300_unboxing.jpg){class="glboxshadow"}
+
+## Specifications
+
+[GL-B1300 specifications](https://www.gl-inet.com/products/gl-b1300/#specs){target="_blank"}
+
+---
+
+## First-time setup
+
+All GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ---
 

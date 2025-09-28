@@ -1,30 +1,22 @@
-# GL-X750 (Spitz) User Guide
+# Spitz (GL-X750) User Guide
 
-## Hardware info
+## Product overview
 
 Spitz is a 3G/4G dual-band wireless router, widely used for smart home and IoT area. Running OpenWRT OS, you can compile your own firmware to fit for different application scenarios. It has built-in mini PCIe 3G/4G module to support different operators and can be used all over the world.
 
-Spitz (GL-X750V2) is the advanced version of Spitz (GL-X750). It comes with the redesigned PCBA and optimized antennas to improve the 4G performance.
+Spitz V2 (GL-X750V2) is the advanced version of Spitz (GL-X750). It comes with the redesigned PCBA and optimized antennas to improve the 4G performance.
 
 ![gl-x750 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/hardware_info/x750v2_interface.jpg){class="glboxshadow"}
 
-[GL-X750 specification](https://www.gl-inet.com/products/gl-x750/#specs){target="_blank"}
+## Specifications
 
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/hardware_info/gl-x750_pinout.jpg" itemprop="contentUrl" data-size="1500x1175">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/hardware_info/gl-x750_pinout.jpg" itemprop="thumbnail" alt="gl-x750 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
+[GL-X750 specifications](https://www.gl-inet.com/products/gl-x750/#specs){target="_blank"}
 
 ---
 
-## First time setup
+## First-time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ---
 

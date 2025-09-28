@@ -1,45 +1,37 @@
-# GL-AR750S (Slate) User Guide
+# Slate (GL-AR750S) User Guide
 
-## Hardware info
+## Product overview
 
-The first dual-band Gigabit AC travel router. We upgrade Ethernet ports (totally 3) to Gigabit ports so that it get faster speed in your travel. We also added 128MB Flash to provide dual flash for more storage and faster operation speed. It has a MicroSD (TF) slot which increase your storage space up to 128GB.
+Slate (GL-AR750S) is our first dual-band Gigabit AC travel router. With 3 x Gigabit Ethernet ports, it can provide faster speed in your travel. Additionally, the 128MB Flash provides dual flash for more storage and faster operation speed. It has a MicroSD (TF) slot which increases the storage space up to 128GB.
 
 ![gl-ar750sinterface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/hardware_info/ar750s_interface.jpg){class="glboxshadow"}
 
-[GL-AR750S specification](https://www.gl-inet.com/products/gl-ar750s/#specs){target="_blank"}
-
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/hardware_info/gl-ar750s_pinout.jpg" itemprop="contentUrl" data-size="1150x1175">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/hardware_info/gl-ar750s_pinout.jpg" itemprop="thumbnail" alt="GL-AR750S-EXT pcb pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
-
----
-
-## First time setup
-
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+## Package contents
 
 Please note that the adapter within the package depends on your shipping country.
 
-What's inside the package?
-
-![gl-750s unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/first_time_setup/ar750s_unboxing.jpg){class="glboxshadow"}
-
-Package Contents:
+The package includes:
 
 - 1 x User manual
-- 1 x Slate(GL-AR750S)
+- 1 x Slate (GL-AR750S)
 - 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
 
+![gl-ar750s unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/first_time_setup/ar750s_unboxing.jpg){class="glboxshadow"}
+
 Check out Slate's [unboxing video](../../video_library/unboxing_first_set_up.md#slategl-ar750s-ext).
+
+## Specifications
+
+[GL-AR750S specifications](https://www.gl-inet.com/products/gl-ar750s/#specs){target="_blank"}
+
+---
+
+## First-time setup
+
+All GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ---
 

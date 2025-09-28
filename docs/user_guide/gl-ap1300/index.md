@@ -1,34 +1,20 @@
-## Hardware info
+# Cirrus (GL-AP1300) User Guide
 
-GL-AP1300 (Cirrus) ceiling wireless access point is an elite business-class level gateway with MU-MIMO Wi-Fi solution. PoE power supply and Watchdog timer built-in function are implemented in order to fulfill most enterprise-level user cases. With well-developed Goodcloud management system, managing the device is very easy and convenient. You can enable a remote and secure access wherever you are and whenever you want.
+## Product overview
+
+Cirrus (GL-AP1300) ceiling wireless access point is an elite business-class level gateway with MU-MIMO Wi-Fi solution. PoE power supply and Watchdog timer built-in function are implemented in order to fulfill most enterprise-level user cases. With well-developed Goodcloud management system, managing the device is very easy and convenient. You can enable a remote and secure access wherever you are and whenever you want.
 
 ![gl-ap1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ap1300/hardware_info/ap1300_interface.jpg){class="glboxshadow"}
 
+## Specifications
+
 [GL-AP1300 specifications](https://www.gl-inet.com/products/gl-ap1300/#specs){target="_blank"}
-
-### PCB pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/3/specification/gl-ap1300/GL-AP1300-PINOUT-1.jpg" itemprop="contentUrl" data-size="6000x4000">
-      <img src="https://static.gl-inet.com/docs/router/en/3/specification/gl-ap1300/GL-AP1300-PINOUT-1.jpg" itemprop="thumbnail" alt="gl-ap1300 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/3/specification/gl-ap1300/GL-AP1300-PINOUT-2.jpg" itemprop="contentUrl" data-size="6000x4000">
-      <img src="https://static.gl-inet.com/docs/router/en/3/specification/gl-ap1300/GL-AP1300-PINOUT-2.jpg" itemprop="thumbnail" alt="gl-ap1300 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
 
 ---
 
 ## First-time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ---
 

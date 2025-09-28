@@ -1,28 +1,20 @@
 # Brume (GL-MV1000) User Guide
 
-## Hardware info
+## Product overview
 
-Brume (GL-MV1000) and Brume-W (GL-MV1000W)* are powerful and stable networking products designed to do cutting-edge computing. With the Marvell high-performance chipset, the Brume and Brume-W* can run state-of-the-art cryptography at impressive speeds for an excellent VPN routing experience. Pre-installed OpenWrt and supported Ubuntu, Brume and Brume-W* allows in-depth developments for commercial IoT projects.
+Brume (GL-MV1000) and Brume-W (GL-MV1000W) are powerful and stable networking products designed to do cutting-edge computing. With the Marvell high-performance chipset, the Brume and Brume-W* can run state-of-the-art cryptography at impressive speeds for an excellent VPN routing experience. Pre-installed OpenWrt and supported Ubuntu, Brume and Brume-W* allows in-depth developments for commercial IoT projects.
 
-Brume-W (GL-MV1000W)* is the special edition of Brume (GL-MV1000) that comes with an embedded Wi-Fi module, which delivers high-speed WiFi performance on 2.4GHz Wi-Fi with up to 300Mbps Wi-Fi speed.
+Brume-W (GL-MV1000W) is the special edition of Brume (GL-MV1000) that comes with an embedded Wi-Fi module, which delivers high-speed WiFi performance on 2.4GHz Wi-Fi with up to 300Mbps Wi-Fi speed.
 
-[GL-MV1000 specification](https://www.gl-inet.com/products/gl-mv1000/#specs){target="_blank"}
+## Specifications
 
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/3/specification/mv1000/mv1000.png" itemprop="contentUrl" data-size="1786x1328">
-      <img src="https://static.gl-inet.com/docs/router/en/3/specification/mv1000/mv1000.png" itemprop="thumbnail" alt="gl-mv1000 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
+[GL-MV1000 specifications](https://www.gl-inet.com/products/gl-mv1000/#specs){target="_blank"}
 
 ---
 
-## First time setup
+## First-time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first time-setup](../../faq/first_time_setup.md/).
 
 ---
 

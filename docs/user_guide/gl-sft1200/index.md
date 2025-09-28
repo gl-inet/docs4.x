@@ -1,8 +1,8 @@
-# GL-SFT1200 (Opal) User Guide
+# Opal (GL-SFT1200) User Guide
 
 ## Product overview
 
-GL-SFT1200 (Opal) is a pocket-sized travel router supporting 1200Mbps wireless transfers speed. It is compactly designed for portable use, which can meet the needs of wireless internet access for small businesses, small apartments or business traveler.
+Opal (GL-SFT1200) is a pocket-sized travel router supporting 1200Mbps wireless transfer speed. It is compactly designed for portable use, and can meet the needs of wireless internet access for small businesses, small apartments or business travelers.
 
 ![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/3/setup/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
@@ -25,9 +25,9 @@ The package includes:
 
 [GL-SFT1200 specifications](https://www.gl-inet.com/products/gl-sft1200/#specs){target="_blank"}
 
-## First time setup
+## First-time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ## INTERNET
 

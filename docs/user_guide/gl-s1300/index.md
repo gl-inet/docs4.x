@@ -1,28 +1,20 @@
-# GL-S1300 (Convexa-S) User Guide
+# Convexa-S (GL-S1300) User Guide
 
-## Hardware info
+## Product overview
 
-GL-S1300 (Convexa-S) is a unique smart home gateway with beamforming Wi-Fi and Bluetooth* that can connect all your IoT devices together. More wireless protocols will be added.
+Convexa-S (GL-S1300) is a unique smart home gateway with beamforming Wi-Fi and optional Bluetooth that connects all your IoT devices. It delivers 1267Mbps combined Wi-Fi speeds, 3 gigabit ports, and supports MU-MIMO & Wi-Fi SON to eliminate dead zones. With 8GB storage and OpenWrt, it enables VPN, network storage, and customizable solutions, plus GoodCloud remote control.
 
 ![gl-s1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s1300/hardware_info/s1300_interface.jpg){class="glboxshadow"}
 
-[GL-S1300 specification](https://www.gl-inet.com/products/gl-s1300/#specs){target="_blank"}
+## Specifications
 
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/3/specification/s1300/S1300.png" itemprop="contentUrl" data-size="2290x1937">
-      <img src="https://static.gl-inet.com/docs/router/en/3/specification/s1300/S1300.png" itemprop="thumbnail" alt="gl-s1300 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
+[GL-S1300 specifications](https://www.gl-inet.com/products/gl-s1300/#specs){target="_blank"}
 
 ---
 
-## First time setup
+## First-time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ---
 

@@ -1,14 +1,33 @@
 # GL-S200 User Guide
 
-## Hardware info
+## Product overview
 
 GL-S200 is a miniaturized Thread gateway supporting BLE protocol that runs on a highly customizable OpenWrt operating system and supports cloud device management. It has a versatile design for connecting to various smart home devices, or mass device connectivity for smart buildings.
 
 ![gl-s200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl-s200_interface.jpg){class="glboxshadow"}
 
-[GL-s200 specification](https://www.gl-inet.com/products/gl-s200/#specs){target="_blank"}
+## Package contents
 
-### GL-S200 PCB Pinout
+Please note that the adapter within the package depends on your shipping country.
+
+The package includes:
+
+- 1 x User manual
+- 1 x GL-S200
+- 1 x Ethernet cable
+- 1 x Thank you card
+- 1 x Warranty card
+- 1 x Power adapter (Selected plug type)
+
+![gl-s200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/first_time_setup/s200_unboxing.jpg){class="glboxshadow"}
+
+Check out GL-S200's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-s200).
+
+## Specifications
+
+[GL-S200 specifications](https://www.gl-inet.com/products/gl-s200/#specs){target="_blank"}
+
+## PCB Pinout
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -18,32 +37,15 @@ GL-S200 is a miniaturized Thread gateway supporting BLE protocol that runs on a 
   </figure>
 </div>
 
-### GL Thread Dev Board Pinout
+## GL Thread Dev Board Pinout
 
 ![gl thread dev board pinout](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl_thread_dev_board_pinout.jpg){class="glboxshadow"}
 
 ---
 
-## First time setup
+## First-time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
-
-Please note that the adapter within the package depends on your shipping country.
-
-What's inside the package?
-
-![gl-s200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/first_time_setup/s200_unboxing.jpg){class="glboxshadow"}
-
-Package Contents:
-
-- 1 x User manual
-- 1 x GL-S200
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
-
-Check out GL-S200's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-s200).
+All GL.iNet's devices have a simple and almost identical setup process. [Click here to learn about the first time setup](../../faq/first_time_setup.md/).
 
 ---
 

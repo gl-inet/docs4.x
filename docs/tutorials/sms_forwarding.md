@@ -2,7 +2,7 @@
 
 GL.iNet cellular routers support SMS forwarding, automatically pushing received messages to designated recipients.
 
-**Note**: This feature only works on GL.iNet 4G/5G models with the original 4G LTE/5G NR module, and is not supported on other modules or any other USB modules.
+**Note**: This feature only works on GL.iNet cellular routers with the original 4G LTE/5G NR module, and is not supported on other modules or any other USB modules.
 
 There are two methods to forward SMS.
 
@@ -24,7 +24,7 @@ There are two methods to forward SMS.
 
 Take the GL-XE3000 (Puli AX) as an example.
 
-On the left side of web Admin Panel -> INTERNET -> Cellular section. Click the envelope icon in the upper right to enter SMS page, you will find the SMS Forwarding settings.
+On the left side of web Admin Panel -> INTERNET -> Cellular section. Click the envelope icon in the upper right to enter SMS page, and you will find the SMS Forwarding settings.
 
 ![sms setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow"}
 
@@ -57,9 +57,9 @@ On the left side of web Admin Panel -> INTERNET -> Cellular section. Click the e
 
     For Yahoo, you need to set an app password for login, and it supports both port 465 and 587. Please refere to the official guide [POP access settings and instructions for Yahoo Mail](https://help.yahoo.com/kb/SLN4724.html){target="_blank"} and [Generate and manage third-party app passwords](https://help.yahoo.com/kb/SLN15241.html){target="_blank"}.
 
-**Note**: Each emailer may has a limit on SMTP, limiting the number of emails that can be sent per day. Please consult with your service provider.
+**Note**: Each email sender may be subject to SMTP sending limits, e.g., a daily limit on the number of emails sent. Please consult with your service provider.
 
-You can add up to 10 email addreses.
+You can add up to 10 email addresses.
 
 ### Forward via SMS
 

@@ -1,46 +1,46 @@
 # Get Module Logs
 
-Some GL.iNet routers come with built-in 3G, 4G, or 5G modules. When the network connection is not smooth, it may be necessary to export the module's log for analysis. Here are the steps to do so.
+Some GL.iNet routers come with built-in 3G/4G/5G modules. When the network connection is unstable, it may be necessary to export the module's log for analysis.
 
-## Use your computer to connect device
+Here are the steps to export the cellular module's log.
 
-Use the laptop wifi to connect the device SSID (you will find the SSID and wifi password on the device bottom label), or use the an ethenet cable to connect the LAN port of device and the the ethenet port of your computer.
+## 1. Connect your computer to the router
 
-## Use the SSH protocol to login the device
+Connect a laptop to the router's Wi-Fi (find the SSID and password on the device bottom label), or connect the ethernet port of your computer to the router's LAN port via an ethernet cable.
+
+## 2. SSH log in to your router
 
 Please refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
 
-## For GL-XE300/GL-X750/GL-X300B
+## 3. Get module logs
 
-### Get the qlog from GL.iNet server and confirm the qlog file SHA256 is right
+### For GL-XE300/GL-X750/GL-X300B
 
-Use the following commands to get qlog
+1. Use the following commands to get qlog from GL.iNet server, and confirm the qlog file SHA256 is right.
 
-```
-cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/qlog-ar9531-sha256-75fe8b
-```
+    ```
+    cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/qlog-ar9531-sha256-75fe8b
+    ```
 
-```
-chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
-```
+    ```
+    chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
+    ```
 
-![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_get_qlog.png){class="glboxshadow"}
+    ![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_get_qlog.png){class="glboxshadow"}
 
-### Use the qlog
-
-1. Insert a USB flash disk and use the df command to get the mount path, remember the path
+2. Insert a USB flash disk and use the df command to get the mount path, remember the path
 
     My USB flash disk mount path is `/tmp/mountd/disk1_part1`
 
     ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_u_flash_drive_path.png){class="glboxshadow"}
 
-2. Use the following command to open module debug mode
+3. Use the following command to open module debug mode
 
     ```
     gl_modem AT AT+QCFG=\"dbgctl\",0
     ```
 
-3. Use the following command to start qlog
+4. Use the following command to start qlog
 
     ```
     qlog-ar9531-sha256-75fe8b -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) & 
@@ -48,13 +48,13 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 
     The `/tmp/mountd/disk1_part1` is my USB flash disk, you must change the path to your path
 
-4. Use the following command to reboot model.
+5. Use the following command to reboot model.
 
     ```
     gl_modem AT AT+CFUN=0; sleep 1; gl_modem AT AT+CFUN=1
     ```
 
-5. Wait 1~3 minutes, use the following command to stop qlog
+6. Wait 1~3 minutes, use the following command to stop qlog
 
     ```
     ps  | grep qlog | grep -v grep | awk '{print $1}' | xargs kill -9
@@ -62,11 +62,11 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 
     ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_start_and_stop_qlog.png){class="glboxshadow"}
 
-6. You will find a directory in the USB flash disk, there are some files, these files are qlog get data and need use Quectel tool to decode, so please send these files to GL.iNet or Quectel technical support.
+7. You will find a directory in the USB flash disk, there are some files, these files are qlog get data and need use Quectel tool to decode, so please send these files to GL.iNet or Quectel technical support.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
-## For GL-X3000/GL-XE3000
+### For GL-X3000/GL-XE3000
 
 1. Insert a USB flash disk and use the df command to get the mount path, remember the path
 

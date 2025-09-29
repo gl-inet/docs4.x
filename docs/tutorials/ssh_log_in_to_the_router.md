@@ -28,7 +28,7 @@ There are ways to access the router terminal on Windows, including via Windows C
 
     **Note**: 192.168.8.1 is the router's default IP address. If you changed it before, use your custom IP instead.
 
-    Next, type your router's admin password and press Enter. For security, the password does not show on screen. 
+    Next, type your router's admin password and press Enter. **For security, the password does not show on screen**.
 
     ![cmd psw](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/cmd_psw.jpg){class="glboxshadow"}
 
@@ -66,7 +66,7 @@ There are ways to access the router terminal on Windows, including via Windows C
 
     ![powershell confirm](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/powershell_confirm.png){class="glboxshadow gl-90-desktop"}
 
-    You will be prompted to enter the router's admin password. Input the correct admin password and press Enter. For security, the password does not show on screen.
+    You will be prompted to enter the router's admin password. Input the correct admin password and press Enter. **For security, the password does not show on screen**.
     
     ![powershell psw](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/powershell_psw.png){class="glboxshadow gl-90-desktop"}
     
@@ -80,11 +80,11 @@ There are ways to access the router terminal on Windows, including via Windows C
 
         This happens if the router's security key changed (e.g., after a factory reset or firmware update), or if you have previously connected to another router, causing the host key verification to fail.
 
-        ![warning](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/powershell_warning.jpg){class="glboxshadow"}
+        ![warning](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/powershell_warning.jpg){class="glboxshadow gl-90-desktop"}
 
         To fix it, please open File Explorer, go to `C:\Users\Administrator\.ssh`, find a file named **known_hosts**.
 
-        ![known hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/known_hosts.png){class="glboxshadow"}
+        ![known hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/known_hosts.png){class="glboxshadow gl-90-desktop"}
 
         Double click on the known_hosts file and open it with Notepad.
 
@@ -92,7 +92,7 @@ There are ways to access the router terminal on Windows, including via Windows C
 
         Delete the entry related to the router IP address (e.g. 192.168.8.1), and save the file. Exit the File Explorer.
 
-        ![delete known hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/delete_known_hosts.png){class="glboxshadow"}
+        ![delete known hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/delete_known_hosts.png){class="glboxshadow gl-90-desktop"}
 
         Back in PowerShell, use the command `ssh root@192.168.8.1` to connect to the router again. It will prompt you to confirm connection. Type `yes` and press enter, then input the router's login password. You will then successfully log in to your router's terminal.
 
@@ -148,9 +148,7 @@ Watch this video to log in to your router via Bitvise.
 
     login as: `root`
 
-    Then input your admin password.
-
-    *Note: You need to use your password which you set up the router at the first time*.
+    Then input your admin password. **For security, the password does not show on screen**.
 
     ![SSH login successfully](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ar750s_ssh_successfully.jpg){class="glboxshadow"}
 
@@ -164,13 +162,13 @@ The process on Linux and Mac OS are generally the same. Below we use Ubuntu as a
 
 ### Using Ubuntu
 
-1. Launch Terminal
+1. Launch Terminal.
 
     Run Ubuntu. Double click on the Terminal icon to launch Terminal. 
     
     ![Run Ubuntu](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ubuntu_login.png){class="glboxshadow"}
 
-2. Log in to the router
+2. Log in to the router.
 
     Input the SSH login command: `ssh root@192.168.8.1`
 
@@ -180,11 +178,11 @@ The process on Linux and Mac OS are generally the same. Below we use Ubuntu as a
 
     ![Ubuntu sshin router 2](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ubuntu_sshin_router_2.png){class="glboxshadow"}
 
-    Then input your router password. You can set this password when you first connect to your router.
+    Then input your router's admin password. **For security, the password does not show on screen**.
 
     ![Ubuntu sshin router 3](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ubuntu_sshin_router_3.png){class="glboxshadow"}
 
-    When you see a picture above, it means you login the router successfully.
+    When you see a picture above, it means you log in to the router successfully.
 
 ??? "Troubleshooting"
 
@@ -192,13 +190,13 @@ The process on Linux and Mac OS are generally the same. Below we use Ubuntu as a
 
         This happens if the router's security key changed (e.g., after a factory reset or firmware update), or if you have previously connected to another router, causing the host key verification to fail.
 
-        ![remove_ssh_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/remove_ssh_keygen.png){class="glboxshadow"}
+        ![remove_ssh_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/remove_ssh_keygen.png){class="glboxshadow gl-90-desktop"}
 
         If this happens, run the command in the red box above. Please copy the exact command which is displayed in your terminal.
 
         `ssh-keygen -f "~/.ssh/known_hosts" -R "192.168.8.1"`
 
-        ![removed_host_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/removed_host_keygen.png){class="glboxshadow"}
+        ![removed_host_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/removed_host_keygen.png){class="glboxshadow gl-90-desktop"}
 
         Then try connecting again.
 
@@ -212,7 +210,7 @@ The process on Linux and Mac OS are generally the same. Below we use Ubuntu as a
 
         Make sure to change the host IP if it is not the default one.
 
-        More discussion about this issue, please refer to [here](https://forum.gl-inet.com/t/can-no-longer-ssh-into-router-no-matching-host-key-type-found-their-offer-ssh-rsa/20915){target="_blank"}
+        More discussion about this issue, please refer to [here](https://forum.gl-inet.com/t/can-no-longer-ssh-into-router-no-matching-host-key-type-found-their-offer-ssh-rsa/20915){target="_blank"}.
 
 ---
 

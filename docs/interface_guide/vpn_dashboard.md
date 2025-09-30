@@ -22,7 +22,7 @@ Click on the book icon in the upper left, and you can follow the instructions in
 
 ![vpn wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_wizard_2.png){class="glboxshadow"}
 
-**Note**: The VPN Setup Wizard is only for AzireVPN, Hide.me, IPVanish, Mullvad, NordVPN, PIA and Surfshark. Configuring the VPN may take a few minutes.
+**Note**: The VPN Setup Wizard is only for AzireVPN, Hide.me, IPVanish, Mullvad, NordVPN, PIA and Surfshark. It may take a few minutes.
 
 For other VPN providers, skip the wizard and go to [OpenVPN Client](openvpn_client.md){target="_blank"} / [WireGuard Client](wireguard_client.md){target="_blank"} to set up VPN manually. 
 
@@ -56,7 +56,7 @@ Take the following image as an example: Under Global Mode, only one VPN client c
 
 ### Policy Mode
 
-In this mode, you can configure and activate multiple VPN servers on a single device, as well as execute complex policy logic.
+In this mode, you can connect to multiple VPN servers on a single device and customize VPN rules.
 
 It suits use cases needing flexible traffic management, like routing different data through multiple VPN servers or applying custom access rules.
 
@@ -98,9 +98,9 @@ In this tunnel, you can customize the tunnel rule by setting three factors:
         
         ![all clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_clients.jpg){class="glboxshadow"}
 
-    - **Specified Connection Methods**
+    - **Specified Connection Types**
     
-        If selected, traffic from specified connection methods (e.g., LAN subnet, Drop-in Gateway, Guest Network) will apply this rule.
+        If selected, traffic from specified connection types (e.g., LAN subnet, Drop-in Gateway, Guest Network) will apply this rule.
         
         ![specified connection](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_connection_types_1.jpg){class="glboxshadow"}
 
@@ -218,7 +218,7 @@ In the following example, the Primary Tunnel rule is: All client devices connect
 
 #### Add Tunnel
 
-Except the primary tunnel, you can add more tunnels and specify that traffic from different devices routes to different targets through VPN (or not through VPN).
+If you want to connect to multiple VPN servers at the same time, add more tunnels and specify that traffic from different devices routes to different targets through VPN (or not through VPN).
 
 This is particularly useful when you need to route traffic from certain devices to Server A, while from others to Server B.
 
@@ -242,7 +242,7 @@ Upon finishing the rules customization, for security, please go to [All Other Tr
 
 #### All Other Traffic
 
-In policy mode, by default, there's a <u>preset</u> <u>enabled</u> rule displayed at the bottom of the VPN Dashboard page.
+In Policy Mode, by default, there's a <u>preset</u> <u>enabled</u> tunnel displayed at the bottom of the VPN Dashboard page.
 
 ![two tunnels](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_other_traffic.png){class="glboxshadow"}
 
@@ -254,11 +254,9 @@ This tunnel is for the following data traffic:
 
 #### Tunnel Priority
 
-By default, the preset Primary Tunnel has the top priority, followed by other manual-added tunnel(s).
+By default, the preset Primary Tunnel has the top priority, followed by other manual-added tunnel (if any), then the preset All Other Traffic tunnel to ensure local network connectivity (via WAN ISP network).
 
-The "All Other Traffic" tunnel is a preset tunnel with lowest priority, to ensure local network connectivity (via WAN).
-
-To modify tunnel priority, click "Modify Priority" in the info bar, or click the priority label at a tunnel's top-left (e.g., Priority 1/Priority 2).
+To modify tunnel priority, click **Modify Priority** in the top info bar, or click the **priority label** in the top left of any tunnel (e.g., Priority 1/Priority 2).
 
 ![modify priority](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/modify_priority_1.png){class="glboxshadow"}
 
@@ -274,13 +272,13 @@ Press and hold the three-line icon on the right to drag the tunnels for sorting,
 
 3. If the traffic still does not match, it will continue to match the next tunnel, and so on, until it matches the "All Other Traffic" tunnel.
 
-4. The "All Other Traffic" tunnel, if enabled, aims to route the traffic that does not go through the VPN tunnel, or traffic that failover from VPN connections.
+4. The All Other Traffic tunnel, if enabled, aims to route the traffic that does not go through the VPN tunnel, or traffic that failover from VPN connections.
 
-**Note**: The "All Other Traffic" tunnel ensures that traffic not through the above tunnels can still connect to the Internet. If disabled, it will enhance Kill Switch and block regular Internet access for traffic that does not go through VPN.
+**Note**: The All Other Traffic tunnel ensures that traffic not through the above tunnels can still connect to the Internet. If disabled, it will enhance Kill Switch and block regular Internet access for traffic that does not go through VPN.
 
 #### Tunnel Options
 
-Click the cog icon next to a tunnel name to configure advanced settings for this tunnel, or perform actions such as renaming or deleting it.
+Click the gear icon next to a tunnel name to configure advanced settings for this tunnel, or perform actions such as renaming or deleting it.
 
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_1.png){class="glboxshadow"}
 

@@ -4,17 +4,17 @@
 
 OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
 
-We recommend WireGuard over OpenVPN because it is much faster. For setting up a WireGuard Client, please check out [here](wireguard_client.md).
+We recommend WireGuard over OpenVPN because it is much faster. For setting up a WireGuard Client, please check [here](wireguard_client.md).
 
-Before you start, ensure you have an active subscription with a VPN service provider that supports OpenVPN manual configuration. Check [the list of OpenVPN-compatible VPN providers that are supported by GL.iNet](https://www.gl-inet.com/solutions/vpn/){target="_blank"}.
+Before you start, ensure you have an active subscription with a VPN service provider that supports OpenVPN manual configuration. Click [here](https://www.gl-inet.com/solutions/vpn/){target="_blank"} to check the OpenVPN providers compatible with GL.iNet.
 
 Generally, you need to visit the official website of the VPN service provider you subscribed first, obtain the configuration file, and upload it to the router to set it as OpenVPN Client. If you don't know how to get the configuration file, refer to [this link](#get-configuration-files-from-openvpn-service-providers) or ask their support.
 
 You can set up your GL.iNet router as OpenVPN client through the web admin panel or [mobile app](../faq/mobile_app.md). This article focuses on setting up OpenVPN client through the web admin panel.
 
-In the web Admin Panel, click on **VPN** -> **OpenVPN Client**. 
+In the web Admin Panel, navigate to **VPN** -> **OpenVPN Client**. 
 
-Click the **NordVPN** button to log in if you have a NordVPN subscription, or click on **Add Manually** to upload the OpenVPN configuration files.
+Click the **NordVPN** button to log in if you have a NordVPN subscription, or click **Add Manually** to upload the OpenVPN configuration files.
 
 ![openvpn client](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/openvpn_client_initial.png){class="glboxshadow"}
 
@@ -22,7 +22,7 @@ Click the **NordVPN** button to log in if you have a NordVPN subscription, or cl
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is a popular online VPN service for speed and security.
 
-NordVPN's OpenVPN/WireGuard quick setup is integrated into the admin panel of GL.iNet routers. You can acquire configuration files for all NordVPN servers online by entering your account credentials (obtained from the NordVPN Dashboard) in the router's web admin panel or mobile app, eliminating the need for manual file uploads.
+NordVPN quick setup is integrated into the admin panel of GL.iNet routers. You can acquire configuration files for all NordVPN servers online by entering your account credentials (obtained from the NordVPN Dashboard) in the router's web admin panel or mobile app, eliminating the need for manual file uploads.
 
 1. Log in to your NordVPN web account [here](https://my.nordaccount.com/){target="_blank"}.
 

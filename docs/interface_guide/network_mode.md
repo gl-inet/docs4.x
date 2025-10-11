@@ -2,35 +2,39 @@
 
 On the left side of web Admin Panel -> NETWORK -> Network Mode
 
-When you change the router's network mode, you may need to re-connect all your client devices.
+Network mode refers to the different operational roles and functionalities a router can assume to meet various network deployment needs.
 
-When you use Access Point/Extender/WDS mode, you may not connect to the web Admin Panel again. Try to access the web Admin Panel by the IP address that parent router assigned to this router. Or you can Press and hold the reset button for 4 seconds to revert to Router mode.
+When you change the router's network mode, you may need to reconnect all client devices.
 
-## For models that have Wi-Fi
+When you use Access Point / WDS, you will not be able to connect to the web admin panel again. You can press and hold the reset button for 4 seconds to revert to router mode.
+
+## For models with Wi-Fi
+
+Except for specific models, most GL.iNet wireless routers have Wi-Fi functionality.
+
+Models with Wi-Fi functionality usually support four modes: Router, Access Point, Extender, and WDS modes. Note that some models do not support WDS mode.
 
 Here is an example of GL-AXT1800.
 
-**Note:** some models do not support WDS mode.
-
 ![network mode](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
 
-- **Router**. Create your own private network. The router will act as NAT, firewall and DHCP server. This is the default mode.
+- **Router**: Allows the router to create a private network. This is the default mode. In this mode, the router functions as a NAT device, a firewall, and a DHCP server, managing IP address allocation and providing network security for connected devices.
 
-- **Access Point**. Connect to a wired network and broadcast a wireless network.
+- **Access Point**: Allows the router to connect to a wired network and then broadcast a wireless network signal, expanding wireless network access in a wired network environment.
 
-- **Extender**. Extend the Wi-Fi coverage of an existing wireless network.
+- **Extender**: It is used to extend the Wi-Fi coverage of an existing wireless network, helping to eliminate Wi-Fi dead zones in areas with poor original signal.
 
-- **WDS**. Similar to Extender, please choose WDS if your main router supports WDS mode.
+- **WDS**: Wireless Distribution System mode. It is similar to Extender mode. It is recommended when the main router supports WDS, facilitating wireless network expansion through a compatible wireless bridging mechanism.
 
-## For models that don't have Wi-Fi
+## For models without Wi-Fi
 
-Here is an example of GL-MT2500/GL-MT2500A. It doesn't have Access Point, Extender, WDS, modes, but it has Bridge mode.
+GL-MT2500/GL-MT2500A does not support Access Point, Extender, or WDS modes as it lacks Wi-Fi functionality, but does support Bridge mode.
 
 ![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
 
-- **Router**. Create your own private network. The router will act as NAT, firewall and DHCP server. This is the default mode.
+- **Router**: Allows the router to create a private network. This is the default mode. In this mode, the router functions as a NAT device, a firewall, and a DHCP server, managing IP address allocation and providing network security for connected devices.
 
-- **Bridge**. Connect to a wired network. Bridge mode is a networking feature that allows two routers together. When it enabled, it essentially turns the the router into a switch. The bridge-enabled router will still transfer data, but it won't perform traditional Network Access Translation (NAT) processes.
+- **Bridge**: Allows the router to connect to a wired network and function as a bridge between network devices. In this mode, the router essentially operates as a switch, forwarding data between connected devices without performing NAT, firewall, or DHCP services. This enables seamless communication between devices on the same network by acting as a simple connection point rather than a network gateway.
 
 ---
 

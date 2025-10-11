@@ -35,6 +35,7 @@ Click on the Fan icon at the upper-right corner to enter the Fan Settings.
 
     - GL-X2000 (Spitz Plus)
     - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
     - GL-BE3600 (Slate 7)
     - GL-MT3000 (Beryl AX)
     - GL-AXT1800 (Slate AX)

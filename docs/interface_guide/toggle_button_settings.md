@@ -14,6 +14,7 @@ Some models have a toggle button, and you can customize what this button does in
 | GL-SFT1200 (Opal)              | √         |
 | GL-MT300N-V2 (Mango)           | √         |
 | GL-AR300M Series (Shadow)      | √         |
+| GL-E750V2 (Mudi V2)            | √         |
 | GL-AR750S (Slate)              | √         |
 | GL-AR750 (Creta)               | √         |
 

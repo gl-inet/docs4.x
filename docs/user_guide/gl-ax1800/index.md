@@ -42,7 +42,7 @@ Put the two-piece power adapter together. Connect it to your router and plug it 
 
 ### 2. Connect your device to the Flint
 
-Connect your computer or mobile device to the router using Wi-Fi or ethernet cable.
+Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
 === "Ethernet"
 
@@ -50,7 +50,7 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet cab
 
 === "Wi-Fi"
 
-    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
+    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on the router's bottom label.)
 
 ### 3. Connect the Flint to the internet 
 
@@ -58,7 +58,7 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet cab
 
 #### 1. Log in to the router web Admin Panel
 
-Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
 
 #### 2. Set up your internet connection method(s)
 
@@ -110,18 +110,18 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint supports OpenVPN, WireGuard and Tor.
 
 === "OpenVPN" 
 
-    Flint (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Flint (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Flint (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Flint (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -158,11 +158,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
 
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+
 ## Applications
 
 === "Plug-ins"
 
-    A plugin is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
+    A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
     
     To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
 
@@ -170,7 +172,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
     
-    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "Network Storage"
 
@@ -188,7 +190,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Parental Control"
 
-    Parental control is a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
+    Parental Control is designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
 
     To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
 
@@ -208,7 +210,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Port forwarding"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
+    
+    To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
 
 === "Multi-WAN"
 
@@ -220,7 +224,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
     
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
+    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
 
 ---
 
@@ -236,9 +240,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 
-=== "Network Port Management"
+=== "Port Management"
 
-    The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+
+    To manage Ethernet ports, refer to [Port Management](../../interface_guide/network_port_management.md).
 
 ---
 
@@ -270,9 +276,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Network Acceleration"
 
-    Hardware acceleration refers to the use of specialized hardware components to perform specific tasks more efficiently than general-purpose CPUs. 
+    Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
     
-    To set up network acceleration to this [Network Acceleration](../../interface_guide/network_acceleration.md) tutorial.
+    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 === "NAT Settings"
 
@@ -295,7 +301,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
 
 === "Upgrade"
 
@@ -306,7 +312,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
 
 === "Scheduled Tasks"
 
@@ -319,7 +325,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 ---
 
@@ -327,7 +333,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
 
 === "Log"
 
@@ -341,7 +347,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
 
 === "Security"
 
@@ -362,11 +368,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
 

@@ -116,14 +116,14 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "OpenVPN" 
 
-    Flint 2 (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Flint 2 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Flint 2 (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Flint 2 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -166,7 +166,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Plug-ins"
 
-    A plugin is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
+    A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
     
     To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
 
@@ -174,7 +174,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
     
-    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "Network Storage"
 
@@ -192,7 +192,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Parental Control"
 
-    Parental control is a group of settings designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content. Flint 2 offers two options for parental control: the local version developed by GL.iNet and the integrated version from Bark, a parental control app.
+    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content. 
+    
+    Flint 2 offers two options for parental control: the local version developed by GL.iNet and the integrated version from Bark.
 
     To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
 
@@ -214,7 +216,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Port forwarding"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
+    
+    To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
 
 === "Multi-WAN"
 
@@ -226,7 +230,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
     
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
+    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
 
 === "Guest Network"
 
@@ -242,9 +246,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 
-=== "Network Port Management"
+=== "Port Management"
 
-    The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+
+    To manage Ethernet ports, refer to [Port Management](../../interface_guide/network_port_management.md).
 
 === "Network Mode"
 
@@ -274,9 +280,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Network Acceleration"
 
-    Hardware acceleration refers to the use of specialized hardware components to perform specific tasks more efficiently than general-purpose CPUs. 
+    Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
     
-    To set up network acceleration to this [Network Acceleration](../../interface_guide/network_acceleration.md) tutorial.
+    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 === "NAT Settings"
 
@@ -288,13 +294,89 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ## System settings
 
-Please visit the [**System Overview**](../../interface_guide/system_overview.md) tutorial.
+=== "Overview"
 
-* To upgrade the router's firmware, please visit the [**Upgrade**](../../interface_guide/upgrade.md) tutorial.
-* To schedule tasks, please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
-* To set timezone, please visit the  [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
-* To view the logs, please visit the [**Log**](../../interface_guide/log.md) tutorial.
-* To set security, please visit the [**Security**](../../interface_guide/security.md) tutorial.
-* To reset firmware, please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
-* To adjust advanced settings, please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
+    The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
 
+    * CPU Average Load: Monitor the average load on your router’s CPU, helping to assess performance and identify potential bottlenecks.
+    * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
+    * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
+    * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
+    * Device Info: Access detailed information about your router's system, including uptime, hostname, model, architecture, OpenWrt version, kernel version, device ID, device MAC and device S/N.
+    * External Storage: Check the status of any external storage devices connected to the router, such as USB drives or TF cards.
+    
+    These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
+
+    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
+
+=== "Upgrade"
+
+    The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
+
+    * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
+    * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
+
+    These options allow you to keep your router up-to-date with the latest improvements and fixes.
+
+    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
+
+=== "Scheduled Tasks"
+
+    The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
+
+    * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
+    * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
+    * 5GHz / 2.4GHz Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz Wi-Fi band, allowing for better management of network availability and power consumption.
+    
+    These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
+
+    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+
+---
+
+=== "Time Zone"
+
+    The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
+
+    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
+
+=== "Log"
+
+    The Log page provides access to various logs that record the router's activities and events, aiding in troubleshooting and performance monitoring. This page includes:
+
+    * System Log: Detailed logs of system-level events and activities.
+    * Kernel Log: Logs related to the kernel's operations and events.
+    * Crash Log: Records of system crashes and errors, useful for diagnosing critical issues.
+    * Cloud Log: Logs of interactions and activities related to GoodCloud services integrated with the router.
+    * Nginx Log: Logs from the Nginx web server, if used by the router, detailing web traffic and server operations.
+    
+    Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
+
+    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
+
+---
+
+=== "Security"
+
+    The Security page allows you to configure various security settings to protect your network and router from unauthorized access. This page includes options for:
+
+    * Admin Password: Set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
+    * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
+    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
+    * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
+
+    These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
+
+    For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
+
+=== "Reset Firmware"
+
+    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
+
+    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
+
+=== "Advanced Settings"
+
+    The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
+
+    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).

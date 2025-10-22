@@ -1,32 +1,27 @@
-# Flint 3 (GL-BE9300) User Guide
+# Flint 3e (GL-BE6500) User Guide
 
 ## Product overview
 
-Flint 3 (GL-BE9300) is a tri-band Wi-Fi 7 desktop router, designed for home users and small offices. It delivers ultra-fast Wi-Fi 7 speeds, 5 x 2.5G ports, and robust VPN capabilities, along with AdGuard Home and Parental Controls. Flint 3 is built to meet the evolving demands of modern networks with efficiency and reliability.
+Flint 3e (GL-BE6500) is a dual-band Wi-Fi 7 desktop router, designed for home users and small offices. It delivers ultra-fast Wi-Fi 7 speeds, 5 x 2.5G ports, and robust VPN capabilities, along with AdGuard Home and Parental Control. Flint 3e supports Multi-Link Operation (MLO), which combines 2.4GHz and 5GHz bands to boost speed and reduce latency, with 2.4GHz also usable exclusively for IoT devices. It aims to meet the evolving demands of modern networks with efficiency and reliability.
 
-![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
+![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
 
-## Package contents
+**Note**: The difference in appearance between Flint 3e and Flint 3 lies in the silk-screen printing: the silk-screen on Flint 3e is blue, while that on Flint 3 is white.
 
-Check out Flint 3's [unboxing video](../../video_library/unboxing_first_set_up.md/#gl-be9300-flint-3).
+## How to set up Flint 3e
 
-## Specifications
-
-Refer to [GL-BE9300 Specifications](https://www.gl-inet.com/products/gl-be9300/#specs){target="_blank"}.
-
-## How to set up Flint 3
-
-To set up Flint 3, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+To set up Flint 3e, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WQqD-8NrAOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Flint 3e and other models.)</small>
 
-### 1. Power on the Flint 3
+### 1. Power on the Flint 3e
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect your device to the Flint 3
+### 2. Connect your device to the Flint 3e
 
-Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
+Connect your computer or smartphone to the router using Wi-Fi or Ethernet.
 
 === "Ethernet"
 
@@ -34,11 +29,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
 === "Wi-Fi"
 
-    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on the router's bottom label.)
+    On your device, locate the router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on the router's label.)
 
-### 3. Connect the Flint 3 to the internet 
+### 3. Connect the Flint 3e to the internet 
 
-**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
+**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
 #### 1. Log in to the router web Admin Panel
 
@@ -94,18 +89,18 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose yo
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint 3 supports OpenVPN, WireGuard, and Tor. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint 3e supports OpenVPN, WireGuard, and Tor. 
 
 === "OpenVPN" 
     
-    Flint 3 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Flint 3e (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
-
-    Flint 3 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    
+    Flint 3e (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -120,9 +115,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Wireless"
 
-    The Wireless page allows you to configure settings for the 6GHz, 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
+    The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
     
-    In addition, Flint 3 supports MLO Wi-Fi, i.e. Multi-Link Operation. It allows connected devices to connect to multiple wireless networks simultaneously, in order to achieve higher bandwidth and more reliable connections.
+    In addition, Flint 3e supports MLO Wi-Fi, i.e. Multi-Link Operation. It allows connected devices to connect to multiple wireless networks simultaneously, in order to achieve higher bandwidth and more reliable connections.
 
     To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
@@ -210,7 +205,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
     
-    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
+    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
 
 ---
 
@@ -218,7 +213,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/guest_network.md). 
+    To set up LAN, refer to [Lan](../../interface_guide/guest_network.md). 
 
 === "DNS"
 
@@ -306,7 +301,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
     * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    * 6GHz / 5GHz / 2.4GHz / MLO Wi-Fi Status Schedule: Set a schedule to control the 6GHz / 5GHz / 2.4GHz / MLO Wi-Fi band, allowing for better management of network availability and power consumption.
+    * 5GHz / 2.4GHz / MLO Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz / MLO Wi-Fi band, allowing for better management of network availability and power consumption.
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
@@ -360,4 +355,3 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
-

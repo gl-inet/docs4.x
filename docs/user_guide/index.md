@@ -124,6 +124,13 @@
   	  </a>
   	</div>
     <div class="gl-product-card">
+      <a href="gl-be6500/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_be6500.png" >
+        <div class="gl-product-model">GL-BE6500</div>
+        <div class="gl-product-model">(Flint 3e)</div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
       <a href="gl-b3000/">
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_b3000.jpg" >
         <div class="gl-product-model">GL-B3000</div>

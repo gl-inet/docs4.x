@@ -2,7 +2,11 @@
 
 ## Product overview
 
-Slate 7 (GL-BE3600) is a dual-band Wi-Fi 7 portable travel router, with a maximum Wi-Fi speed of 3600 Mbps. Supporting both OpenVPN and WireGuard, Slate 7 ensures robust performance. Its compact and lightweight design ensures unparalleled portability, making it the perfect companion for travel, while its durable construction provides long-lasting performance wherever you go.
+GL-BE3600 (Slate 7) is GL.iNet first dual-band Wi-Fi 7 portable travel router, specifically designed for mobile scenarios such as business trips and vacations, balancing high-speed performance with extreme portability. It supports Wi-Fi 7 technologies including Multi-Link Operation (MLO) and 4K QAM, with theoretical dual-band speeds reaching 688Mbps (2.4GHz) + 2882Mbps (5GHz) — capable of meeting high-speed needs like 8K streaming and mobile gaming. Equipped with an innovative touchscreen, it enables network status checks at a glance and basic operations.
+
+Powered by a Qualcomm 1.1GHz quad-core processor, with 1GB DDR4 memory and 512MB NAND flash storage, it ensures stable multi-tasking and compatibility with various OpenWrt plugins. For connectivity, it includes 2x 2.5G Ethernet ports (1 WAN + 1 LAN) and 1x USB 3.0 port, catering to both high-speed wired connections and storage expansion needs. It also supports Type-C PD power supply (compatible with 5V/3A, 9V/3A, 12V/2.5A), offering effortless portability with its compact dimensions (130×91×34mm) and light weight (295g).
+
+Additionally, it comes pre-installed with AdGuard Home and supports over 30 VPN services (with OpenVPN-DCO speeds up to 385Mbps and WireGuard® speeds up to 490Mbps), ensuring security on public networks. It is very suitable for scenarios like remote work and travel network sharing, perfectly balancing mobile convenience and professional performance.
 
 ![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 

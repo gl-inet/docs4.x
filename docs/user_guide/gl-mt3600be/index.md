@@ -1,36 +1,29 @@
-# Flint 3 (GL-BE9300) User Guide
+# Beryl 7 (GL-MT3600BE) User Guide
 
 ## Product overview
 
-Flint 3 (GL-BE9300) is a tri-band Wi-Fi 7 desktop router designed specifically for home users, small offices, and high-demand scenarios. It supports Wi-Fi 7 Multi-Link Operation (MLO) technology, which intelligently merges its 2.4GHz, 5GHz, and 6GHz bands into a single connection to reduce interference and congestion. Combined with 4K QAM technology, the theoretical speeds of the three bands reach 688Mbps (2.4GHz), 2882Mbps (5GHz), and 5765Mbps (6GHz) respectively. Peak performance can be achieved via MLO or 6GHz connectivity, while the 2.4GHz band can be dedicated to IoT devices.
+Beryl 7 (GL-MT3600BE) is a dual-band Wi-Fi 7 portable travel router, specifically designed for mobile scenarios such as business trips and vacations. As an upgraded version of Beryl AX, it supports Wi-Fi 7 technologies including Multi-Link Operation (MLO) and 4K QAM, with theoretical dual-band speeds reaching 688Mbps (2.4GHz) + 2882Mbps (5GHz) — capable of meeting high-speed needs like 8K streaming and mobile gaming.
 
-Powered by a Qualcomm 1.5GHz quad-core processor, paired with 1GB DDR4 memory and 8GB eMMC flash storage, it handles multi-tasking smoothly and runs various plugins effortlessly. For connectivity, it features 5x 2.5G Ethernet ports (including 1 dedicated WAN port, 1 switchable WAN/LAN port, and 3 LAN ports), supporting dual-WAN setups with a maximum shared bandwidth of 5Gbps. It also comes with 1x USB 3.0 port for enhanced expandability.
+Powered by MediaTek Quad A53 @2.0GHz processor, with 512MB NAND flash storage, it ensures stable multi-tasking and compatibility with various OpenWrt plugins. For connectivity, it is equipped with 2x 2.5G Ethernet ports (1 WAN + 1 LAN) and 1x USB 3.0 port, catering to both high-speed wired connections and storage expansion needs. It also supports Type-C PD power supply, compatible with 5V/3A, 9V/3A, and 12V/2.5A. With compact dimensions of 120×83×34mm, it features a mini design, while its fresh light green color scheme adds a vibrant touch.
 
-Additionally, it pre-installs AdGuard Home to block ads and malicious tracking, supports Bark Parental Control and 30+ VPN services, and enables remote management via the GoodCloud platform, balancing performance, practicality, and usage security.
+It comes pre-installed with AdGuard Home and supports over 30 VPN services, ensuring security on public networks. It is very suitable for travel users who pursue portability and high cost-effectiveness, with a compact and stylish appearance.
 
-![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
+![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
 
-## Package contents
+## How to set up Beryl 7
 
-Check out Flint 3's [unboxing video](../../video_library/unboxing_first_set_up.md/#gl-be9300-flint-3).
+To set up Beryl 7, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
-## Specifications
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>(This video uses Beryl AX to demonstrate the setup, which is also applicable to Beryl 7 and other models)</small>
 
-Refer to [GL-BE9300 Specifications](https://www.gl-inet.com/products/gl-be9300/#specs){target="_blank"}.
+### 1. Power on the Beryl 7
 
-## How to set up Flint 3
+Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-To set up Flint 3, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+### 2. Connect your device to the Beryl 7
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WQqD-8NrAOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### 1. Power on the Flint 3
-
-Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
-
-### 2. Connect your device to the Flint 3
-
-Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
+Connect your computer or mobile device to the router using Wi-Fi or Ethernet.
 
 === "Ethernet"
 
@@ -38,23 +31,23 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
 === "Wi-Fi"
 
-    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on the router's bottom label.)
+    On your device, go to Settings -> WLAN, locate the router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on the router's bottom label.)
 
-### 3. Connect the Flint 3 to the internet 
+### 3. Connect the Beryl 7 to the internet 
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
 #### 1. Log in to the router web Admin Panel
 
-Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**.
 
 #### 2. Set up your internet connection method(s)
 
 === "Ethernet"
-    
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_ethernet.jpg){class="glboxshadow"}
 
-    Connect an ethernet cable between your router's WAN port and an upstream device, such as a modem. 
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/internet/mt3600be_ethernet.png){class="glboxshadow"}
+    
+    Connect an ethernet cable between your router's WAN port and an upstream device (e.g., a modem). 
     
     Once the router is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel.
 
@@ -62,7 +55,7 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose yo
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_repeater.jpg){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/internet/mt3600be_repeater.png){class="glboxshadow"}
 
     1. On the INTERNET page of the web Admin Panel, locate the "Repeater" section and click **Connect**.
     2. Select a Wi-Fi network from the available networks. 
@@ -74,7 +67,7 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose yo
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_tethering.jpg){class="glboxshadow"}
+     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/internet/mt3600be_tethering.png){class="glboxshadow"}
 
     1. Connect your mobile device to the router's USB port using a USB 3.0 data transfer cable. 
     2. In your mobile device's settings, enable USB tethering. 
@@ -86,30 +79,30 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose yo
 
 === "Cellular"
 
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_cellular.jpg){class="glboxshadow"}
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/internet/mt3600be_cellular.png){class="glboxshadow"}
 
-    Connect the router to the internet by inserting a cellular USB modem into the router's USB port. This method is useful for sharing internet from a USB modem to all connected devices.
+    Connect the router to the internet by inserting a cellular USB modem into the router's USB port. This method is useful for sharing internet access from a USB modem to all connected devices.
 
     Once the router is successfully connected to the internet, a green dot will appear next to "Cellular".
 
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
 
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
+**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods.
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint 3 supports OpenVPN, WireGuard, and Tor. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Beryl 7 (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
 
 === "OpenVPN" 
-    
-    Flint 3 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+
+    Beryl 7 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
-
-    Flint 3 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    
+    Beryl 7 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -124,9 +117,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Wireless"
 
-    The Wireless page allows you to configure settings for the 6GHz, 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
-    
-    In addition, Flint 3 supports MLO Wi-Fi, i.e. Multi-Link Operation, combining multiple wireless networks simultaneously to achieve higher bandwidth and more reliable connections.
+    The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+
+    In addition, Beryl 7 supports MLO Wi-Fi, i.e. Multi-Link Operation, combining multiple wireless networks simultaneously to achieve higher bandwidth and more reliable connections.
 
     To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
@@ -140,7 +133,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers. 
     
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
@@ -160,7 +153,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
     
     To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
@@ -313,11 +306,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
     * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    * Wi-Fi Status Schedule: Set a schedule to control the 6GHz / 5GHz / 2.4GHz / MLO Wi-Fi band, allowing for better management of network availability and power consumption.
+    * Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz / MLO Wi-Fi band, allowing for better management of network availability and power consumption.
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
 
 ---
 
@@ -325,7 +318,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
+    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+
+=== "Toggle Button Settings"
+
+    The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
+
+    For detailed setup instructions and more information, please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
 
 === "Log"
 
@@ -367,4 +366,3 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
-

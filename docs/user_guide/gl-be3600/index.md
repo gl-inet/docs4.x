@@ -2,7 +2,7 @@
 
 ## Product overview
 
-GL-BE3600 (Slate 7) is GL.iNet first dual-band Wi-Fi 7 portable travel router, specifically designed for mobile scenarios such as business trips and vacations, balancing high-speed performance with extreme portability. It supports Wi-Fi 7 technologies including Multi-Link Operation (MLO) and 4K QAM, with theoretical dual-band speeds reaching 688Mbps (2.4GHz) + 2882Mbps (5GHz) — capable of meeting high-speed needs like 8K streaming and mobile gaming. Equipped with an innovative touchscreen, it enables network status checks at a glance and basic operations.
+Slate 7 (GL-BE3600) is GL.iNet first dual-band Wi-Fi 7 portable travel router, specifically designed for mobile scenarios such as business trips and vacations, balancing high-speed performance with extreme portability. It supports Wi-Fi 7 technologies including Multi-Link Operation (MLO) and 4K QAM, with theoretical dual-band speeds reaching 688Mbps (2.4GHz) + 2882Mbps (5GHz) — capable of meeting high-speed needs like 8K streaming and mobile gaming. Equipped with an innovative touchscreen, it enables network status checks at a glance and basic operations.
 
 Powered by a Qualcomm 1.1GHz quad-core processor, with 1GB DDR4 memory and 512MB NAND flash storage, it ensures stable multi-tasking and compatibility with various OpenWrt plugins. For connectivity, it includes 2x 2.5G Ethernet ports (1 WAN + 1 LAN) and 1x USB 3.0 port, catering to both high-speed wired connections and storage expansion needs. It also supports Type-C PD power supply (compatible with 5V/3A, 9V/3A, 12V/2.5A), offering effortless portability with its compact dimensions (130×91×34mm) and light weight (295g).
 
@@ -59,9 +59,9 @@ The home screen displays four icons representing four network connection types: 
 
 | Color               | Indication                     |
 | :------------------ | :----------------------------- |
-| Green               | Network connected.             |
-| Yellow              | Network connecting or abnormal connection (e.g., no internet access).  |
-| White               | No network connection.         |
+| Green               | Network connected              |
+| Yellow              | Network connecting or abnormal connection (e.g., no internet access)   |
+| White               | No network connection          |
 
 Click on any of these icons to view the network status or detailed configuration information.
 
@@ -142,11 +142,11 @@ Connect your computer or mobile device to the router using Wi-Fi or Ethernet.
 
 ### 4. Connect the Slate 7 to the internet 
 
-**Note:** The following instructions were written for those using the router web Admin Panel to connect the router to the internet. If you want to use the GL.iNet app instead of the web Admin Panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
+**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
-#### 1. Sign in to the router web Admin Panel
+#### 1. Log in to the router web Admin Panel
 
-In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**. 
 
 #### 2. Set up your internet connection method(s)
 
@@ -188,22 +188,23 @@ In a web browser's address bar, enter `192.168.8.1` and sign in. Choose your lan
 
     Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
 
-    Click [here](../../interface_guide/internet_cellular.md) to learn how to connect to the internet via USB modem.
+    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods.
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
-
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
 
 === "OpenVPN" 
+    
     Slate 7 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
+    
     Slate 7 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
@@ -213,13 +214,15 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
     
-    * [How to set up Tor](../../interface_guide/tor.md).
+    * [How to set up Tor](../../interface_guide/tor.md)
 
 ## Wireless and clients
 
 === "Wireless"
 
     The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+
+    In addition, Slate 7 supports MLO Wi-Fi, i.e. Multi-Link Operation, combining multiple wireless networks simultaneously to achieve higher bandwidth and more reliable connections.
 
     To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
@@ -233,7 +236,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers. 
     
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
@@ -253,9 +256,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
     
-    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "Network Storage"
 
@@ -271,19 +274,17 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "Parental controls"
+=== "Parental Control"
 
-    Parental controls are a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
+    Parental Control is designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
 
-    To set up parental controls, refer to [Parental controls](../../interface_guide/parental_control.md).
+    To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
 
 === "ZeroTier"
 
     ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
     
     To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
-
----
 
 === "Tailscale"
 
@@ -295,7 +296,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Port forwarding"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
+    
+    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md). 
 
 === "Multi-WAN"
 
@@ -307,7 +310,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
     
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
+    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
 
 ---
 
@@ -315,7 +318,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/guest_network.md). 
+    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
 === "DNS"
 
@@ -323,9 +326,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 
-=== "Network Port Management"
+=== "Port Management"
 
-    The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+
+    To manage Ethernet ports, refer to [Port Management](../../interface_guide/network_port_management.md).
 
 ---
 
@@ -343,9 +348,12 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Drop-in gateway"
 
-    Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
+    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
     
-    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
+    To set up drop-in gateway, refer to these links:
+    
+    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
+    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 ---
 
@@ -357,9 +365,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Network Acceleration"
 
-    Hardware acceleration refers to the use of specialized hardware components to perform specific tasks more efficiently than general-purpose CPUs. 
+    Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
     
-    To set up network acceleration to this [Network Acceleration](../../interface_guide/network_acceleration.md) tutorial.
+    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 === "NAT Settings"
 
@@ -373,7 +381,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
 
-    * CPU Average Load: Monitor the average load on your router’s CPU, helping to assess performance and identify potential bottlenecks.
+    * CPU Average Load: Monitor the average load on your router's CPU, helping to assess performance and identify potential bottlenecks.
     * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
     * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
     * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
@@ -382,7 +390,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
 
 === "Upgrade"
 
@@ -393,7 +401,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
 
 === "Scheduled Tasks"
 
@@ -401,12 +409,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
     * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    * 5GHz Wi-Fi Status Schedule: Set a schedule to control the 5GHz Wi-Fi band, allowing for better management of network availability and power consumption.
-    * 2.4GHz Wi-Fi Status Schedule: Set a schedule to control the 2.4GHz Wi-Fi band, allowing for better management of network availability and power consumption.
+    * Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz / MLO Wi-Fi band, allowing for better management of network availability and power consumption.
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 ---
 
@@ -421,13 +428,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     - Screen Always On: Toggle this option to decide if the touchscreen stays on continuously or turns off after inactivity.
     - Enable Screen Passcode: Add an extra layer of security by enabling a passcode for the touchscreen.
 
-    For detailed setup instructions and more information, please refer to [Display Management](../../interface_guide/display_management.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Display Management](../../interface_guide/display_management.md).
 
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
 
 === "Toggle Button Settings"
 
@@ -449,7 +456,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
 
 === "Security"
 
@@ -468,10 +475,10 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).

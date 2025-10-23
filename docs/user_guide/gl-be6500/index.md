@@ -119,7 +119,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
     
-    In addition, Flint 3e supports MLO Wi-Fi, i.e. Multi-Link Operation. It allows connected devices to connect to multiple wireless networks simultaneously, in order to achieve higher bandwidth and more reliable connections.
+    In addition, Flint 3e supports MLO Wi-Fi, i.e. Multi-Link Operation, combining multiple wireless networks simultaneously to achieve higher bandwidth and more reliable connections.
 
     To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
@@ -133,7 +133,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers. 
     
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
@@ -175,7 +175,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Parental Control is designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
 
-    To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
+    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control.md).
 
 === "ZeroTier"
 
@@ -195,7 +195,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
     
-    To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
+    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md). 
 
 === "Multi-WAN"
 
@@ -207,7 +207,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
     
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
+    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
 
 ---
 
@@ -215,7 +215,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
-    To set up LAN, refer to [Lan](../../interface_guide/guest_network.md). 
+    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
 === "DNS"
 
@@ -245,9 +245,12 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Drop-in gateway"
 
-    Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
+    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
     
-    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
+    To set up drop-in gateway, refer to these links:
+    
+    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
+    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 ---
 
@@ -275,7 +278,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
 
-    * CPU Average Load: Monitor the average load on your router’s CPU, helping to assess performance and identify potential bottlenecks.
+    * CPU Average Load: Monitor the average load on your router's CPU, helping to assess performance and identify potential bottlenecks.
     * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
     * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
     * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
@@ -303,7 +306,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
     * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    * 5GHz / 2.4GHz / MLO Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz / MLO Wi-Fi band, allowing for better management of network availability and power consumption.
+    * Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz / MLO Wi-Fi band, allowing for better management of network availability and power consumption.
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 

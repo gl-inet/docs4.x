@@ -5,6 +5,13 @@
 <div class="gl-product-row">
   <div class="gl-product-row-box">
     <div class="gl-product-card">
+      <a href="gl-mt3600be/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt3600be.png" >
+        <div class="gl-product-model">GL-MT3600BE</div>
+        <div class="gl-product-model">(Beryl 7)</div>
+      </a>
+    </div>
+    <div class="gl-product-card">
       <a href="gl-be3600/">
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_be3600.jpg" >
         <div class="gl-product-model">GL-BE3600</div>
@@ -82,13 +89,6 @@
   	  </a>
   	</div>
     <div class="gl-product-card">
-      <a href="gl-ap1300/">
-  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ap1300lte.jpg" >
-        <div class="gl-product-model-ap1300">GL-AP1300/GL-AP1300LTE</div>
-        <div class="gl-product-model">(Cirrus)</div>
-  	  </a>
-  	</div>
-    <div class="gl-product-card">
       <a href="gl-x750/">
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_x750v2.jpg" >
         <div class="gl-product-model">GL-X750</div>
@@ -107,6 +107,13 @@
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_x300b-ble.jpg" >
         <div class="gl-product-model">GL-X300B</div>
         <div class="gl-product-model">(Collie)</div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
+      <a href="gl-ap1300/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ap1300lte.jpg" >
+        <div class="gl-product-model-ap1300">GL-AP1300/GL-AP1300LTE</div>
+        <div class="gl-product-model">(Cirrus)</div>
   	  </a>
   	</div>
   </div>
@@ -149,13 +156,6 @@
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ax1800.jpg" >
         <div class="gl-product-model">GL-AX1800</div>
         <div class="gl-product-model">(Flint)</div>
-  	  </a>
-  	</div>
-    <div class="gl-product-card">
-      <a href="gl-b1300/">
-  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_b1300.jpg" >
-        <div class="gl-product-model">GL-B1300</div>
-        <div class="gl-product-model">(Convexa-B)</div>
   	  </a>
   	</div>
   </div>
@@ -234,6 +234,13 @@
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-b1300/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_b1300.jpg" >
+        <div class="gl-product-model">GL-B1300</div>
+        <div class="gl-product-model">(Convexa-B)</div>
+  	  </a>
+  	</div>
     <div class="gl-product-card">
       <a href="gl-ar750s/">
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_ar750s.jpg" >

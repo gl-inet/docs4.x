@@ -67,7 +67,7 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
 
 === "Ethernet"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_ethernet.png){class="glboxshadow"}
 
     Connect an ethernet cable between your router's WAN port and an upstream device (e.g., a modem). 
     
@@ -107,7 +107,7 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
 
     Once the router is successfully connected to the internet, a green dot will appear next to "Cellular".
 
-    [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
+    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
 
@@ -133,7 +133,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities.
     
-    *[How to set up Tor](../../interface_guide/tor.md).
+    *[How to set up Tor](../../interface_guide/tor.md)
 
 ## Wireless and clients
 
@@ -161,6 +161,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
 
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+
 ## Applications
 
 === "Plug-ins"
@@ -173,7 +175,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
     
-    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "Network Storage"
 
@@ -191,9 +193,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Parental Control"
 
-    Parental control is a group of settings designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
+    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
 
-    To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
+    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control.md).
 
 === "ZeroTier"
 
@@ -211,7 +213,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Port forwarding"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
+    
+    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md). 
 
 === "Multi-WAN"
 
@@ -223,7 +227,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
     
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
+    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
 
 ---
 
@@ -231,7 +235,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/guest_network.md). 
+    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
 === "DNS"
 
@@ -239,9 +243,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 
-=== "Network Port Management"
+=== "Port Management"
 
-    The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+
+    To manage Ethernet ports, refer to [Port Management](../../interface_guide/network_port_management.md).
 
 ---
 
@@ -259,9 +265,12 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Drop-in gateway"
 
-    Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
+    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
     
-    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
+    To set up drop-in gateway, refer to these links:
+    
+    - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
+    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 ---
 
@@ -273,9 +282,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Network Acceleration"
 
-    Hardware acceleration refers to the use of specialized hardware components to perform specific tasks more efficiently than general-purpose CPUs. 
+    Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
     
-    To set up network acceleration to this [Network Acceleration](../../interface_guide/network_acceleration.md) tutorial.
+    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 === "NAT Settings"
 
@@ -289,7 +298,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
 
-    * CPU Average Load: Monitor the average load on your router’s CPU, helping to assess performance and identify potential bottlenecks.
+    * CPU Average Load: Monitor the average load on your router's CPU, helping to assess performance and identify potential bottlenecks.
     * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
     * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
     * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
@@ -298,7 +307,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
 
 === "Upgrade"
 
@@ -309,7 +318,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
 
 === "Scheduled Tasks"
 
@@ -317,12 +326,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
     * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    * 5GHz Wi-Fi Status Schedule: Set a schedule to control the 5GHz Wi-Fi band, allowing for better management of network availability and power consumption.
-    * 2.4GHz Wi-Fi Status Schedule: Set a schedule to control the 2.4GHz Wi-Fi band, allowing for better management of network availability and power consumption.
+    * Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz Wi-Fi band, allowing for better management of network availability and power consumption.
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 ---
 
@@ -330,7 +338,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
 
 === "Toggle Button Settings"
 
@@ -350,7 +358,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
 
 ---
 
@@ -371,11 +379,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
 

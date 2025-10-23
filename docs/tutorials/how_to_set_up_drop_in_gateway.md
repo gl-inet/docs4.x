@@ -158,4 +158,10 @@ Follow these articles to enable the features on your GL.iNet router:
 
 ---
 
+Related Article:
+
+- [Drop-in Gateway](../interface_guide/drop-in_gateway.md)
+
+---
+
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

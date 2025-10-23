@@ -1,17 +1,14 @@
 # Drop-in Gateway
 
-Please upgrade to v4.2.x to use this feature. There are some bugs in v4.1.x.
-
 On the left side of web Admin Panel -> NETWORK -> Drop-in Gateway
 
-## Usage Scenarios
-
-For users who do not want to replace their main router, you can use this mode to extend the functionality of your main router.
+Drop-in Gateway can be used to extend the functionality of the main router without replacing it.
 
 * Use ADGuard Home to filter advertisements
 * Use encrypted DNS
 * Use VPN client
-* It is recommended to use a more powerful router with large memory (e.g. GL-MT2500) and install other traffic forwarding and control tools yourself.
+
+It is recommended to use a more powerful router with large memory (e.g. GL-MT2500) and install other traffic forwarding and control tools yourself.
 
 ## Network Topology
 
@@ -195,6 +192,12 @@ The GL.iNet router referred to below is the GL.iNet router on which you want to 
 
 1. It will increase the latency when using this mode.
 2. When this mode is enabled, the data transferred between the selected devices in the LAN will also pass through the drop-in gateway, so the bandwidth between the main router and the drop-in gateway will affect the bandwidth of the whole LAN.
+
+---
+
+Related Article:
+
+- [How to set up drop-in gateway on a GL.iNet router](../tutorials/how_to_set_up_drop_in_gateway.md)
 
 ---
 

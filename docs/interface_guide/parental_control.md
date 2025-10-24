@@ -16,11 +16,14 @@ The local version is provided by GL.iNet. It is currently in beta, so there is n
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-BE6500 (Flint 3e)           | √         |
+| GL-MT3600BE (Beryl 7)          | √         |
 | GL-BE9300 (Flint 3)            | √         |
 | GL-BE3600 (Slate 7)            | √         |
 | GL-X2000 (Spitz Plus)          | √         |
 | GL-B3000 (Marble)              | √         |
 | GL-MT6000 (Flint 2)            | √         |
+| GL-AX1800 (Flint)              | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE3000 (Puli AX)            | √         |
 | GL-MT3000 (Beryl AX)           | √         |
@@ -30,7 +33,6 @@ The local version is provided by GL.iNet. It is currently in beta, so there is n
 | GL-SFT1200 (Opal)              | -         |
 | GL-S1300 (Convexa-S)           | -         |
 | GL-MT1300 (Beryl)              | -         |
-| GL-AX1800 (Flint)              | √         |
 | GL-AR750S (Slate)              | -         |
 | GL-XE300 (Puli)                | -         |
 | GL-X750 (Spitz)                | -         |
@@ -170,11 +172,12 @@ Please be aware that Bark service is only available in the United States, Austra
 
 ### Supported Models
 
-| Router Model        | Support |
-| :------------------ | :-----: |
-| GL-BE9300 (Flint 3) |    √    |
-| GL-MT6000 (Flint 2) |    √    |
-| GL-B3000 (Marble)   |    √    |
+| Router Model         | Support |
+| :------------------- | :-----: |
+| GL-BE6500 (Flint 3e) |    √    |
+| GL-BE9300 (Flint 3)  |    √    |
+| GL-MT6000 (Flint 2)  |    √    |
+| GL-B3000 (Marble)    |    √    |
 
 ### Usage Scenarios
 

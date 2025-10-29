@@ -80,9 +80,7 @@ Sometimes, new users may not be able to send a private message to GL.iNet techni
 
 Please **DO NOT** share your device details in public; only share them with GL.iNet technical support via PM.
 
-## After the issue is resolved
-
-Please cancel the share and change the router's admin password after the issue is resolved.
+After the issue is resolved, please cancel the share and change the router's admin password after the issue is resolved.
 
 ---
 

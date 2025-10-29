@@ -1,6 +1,6 @@
 # How to set up port forwarding on your primary router
 
-If you are setting up a server (such as an [OpenVPN server](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_openvpn_home_server_with_two_glrouter/) or [WireGuard server](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers/)) on your GL.iNet router and it is connected to a primary router, you will have to set up port forwarding on the primary router. This ensures the server to be accessible properly.
+If you are setting up a server (such as an [OpenVPN server](how_to_set_up_openvpn_server.md) or [WireGuard server](build_your_own_wireguard_home_server_with_two_glinet_routers.md)) your GL.iNet router and it is connected to a primary router, you will have to set up port forwarding on the primary router. This ensures the server to be accessible properly.
 
 Note that if there are other routers between the primary router and the GL.iNet router, you have to set up port forwarding on all these preceding routers.
 

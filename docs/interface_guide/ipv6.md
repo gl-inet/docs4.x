@@ -8,7 +8,7 @@ The IPv6 function allows you to enable and configure IPv6 on router.
 
 When IPv6 is enabled, WAN interfaces such as Ethernet will get their IPv6 addresses via DHCPv6. You can also modify the IPv6 address manually in the Ethernet settings page.
 
-**Note**: Some features (such as firewall, VPN, GoodCloud) do not yet support IPv6. If you use functions of both VPN and IPv6 at the same time, it's likely to cause IPv6 data leakage.
+**Note**: Some features (such as firewall, GoodCloud) do not yet support IPv6. If you use functions of both VPN and IPv6 at the same time, it's likely to cause IPv6 data leakage.
 
 Toggle the button to enable IPv6, and click **Apply**.
 

@@ -39,7 +39,7 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 | GL-AP1300 (Cirrus)             | √         |
 | GL-X300B (Collie)              | -         |
 
-*Some models do not have built-in Tor supported, but users can manually use plug-in the re-install the Tor. Click [here](#manual-install) for details.
+*Some models do not support Tor natively, but users can manually install Tor via a plug-in. Click [here](#manual-install) for details.
 
 ## Setup
 
@@ -55,7 +55,7 @@ Wait a while, depending on your network, and it will show connected.
 
 ## Manual install
 
-*Some models can manually use plug-in the re-install the Tor, but it may affect the CPU load and making the system response slower.
+**Note**: Some models can have Tor manually installed via a plug-in, but this may increase CPU load and slow down system response.
 
 On the left side of web Admin Panel -> APPLICATIONS -> Plug-ins.
 

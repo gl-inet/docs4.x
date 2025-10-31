@@ -1,8 +1,6 @@
 # Dynamic DNS
 
-Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a domain name to the dynamic IP address of a network device.
-
-You can enable Dynamic DNS for this router and access this router remotely. An Internet Public IP address is required to use Dynamic DNS.
+Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a domain name to the dynamic IP address of a network device. With Dynamic DNS, you can access your router remotely. An Internet public IP address is required for this functionality.
 
 ## Enable DDNS
 
@@ -26,11 +24,13 @@ Enable the remote access protocol you want, and click **Apply**.
 
 ![security remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_enabled.jpg){class="glboxshadow"}
 
-There may be a delay of up to 10 minutes in record synchronization between DNS servers. This may cause you to be unable to access through the DDNS domain name immediately after you have just enabled it or your public IP has changed.
+There may be a delay of up to 10 minutes in record synchronization between DNS servers. This may prevent you from accessing through the DDNS domain name immediately after enabling it or when your public IP changes.
 
-**Note**: If you use DDNS and VPN Client at the same time, make sure that the option **Services From GL.iNet Use VPN** is disabled in [Global Option of VPN Client](vpn_dashboard_v4.7.md#global-options-of-vpn-client).
+**Note**: If you enable DDNS and VPN Client at the same time, make sure that **Services From GL.iNet Use VPN** is disabled. This feature can be found in the [VPN Client Options](vpn_dashboard.md#tunnel-options) of the VPN Dashboard.
 
 ## Check If DDNS Works
+
+You can check if DDNS works using the DDNS test tool or check it manually using commands.
 
 === "Using the DDNS Test tool"
 
@@ -46,13 +46,13 @@ There may be a delay of up to 10 minutes in record synchronization between DNS s
 
 === "Check it manually"
 
-    1. Use `nslookup` command to obtain the mapping between domain name and IP address, as shown below.
+    1. Use `nslookup` command to obtain the mapping between domain name and IP address, as shown below.
 
-        ![nslookup](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup.png){class="glboxshadow"}
+        ![nslookup](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup.jpg){class="glboxshadow"}
 
         Replace the "xxxxxxx.glddns.com" in the image above with your Host Name. 
         
-        The "8.8.8.8" in the image above is the Google DNS. You can use it or replace it with other DNS.
+        The "8.8.8.8" in the image above is the Google DNS. Use it or replace it with other DNS.
 
         You will get an IP address as an output, such as the IP "103.81.180.10" in the image above.
 
@@ -70,7 +70,7 @@ There may be a delay of up to 10 minutes in record synchronization between DNS s
     
     2. If your router is behind NAT, configure port forwarding (port **443**) on the upstream router for HTTPS access.
 
-Then follow the steps below to enable HTTPS remote access for your router.
+Follow the steps below to enable HTTPS remote access for your router.
 
 1. On the Dynamic DNS page, toggle on **Enable DDNS**, agree to the **Terms of Services & Privacy Policy**, then click **Apply**.
 
@@ -114,7 +114,7 @@ You will then be able to access the web admin panel using the DDNS host name ove
     
     2. If your router is behind NAT, configure port forwarding (port **22**) on the upstream router for SSH access.
 
-Then follow the steps below to enable SSH remote access for your router.
+Follow the steps below to enable SSH remote access for your router.
 
 1. On the Dynamic DNS page, toggle on **Enable DDNS**, agree to the **Terms of Services & Privacy Policy**, then click **Apply**.
 

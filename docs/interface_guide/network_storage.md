@@ -13,21 +13,21 @@
 
 ## Introduction
 
-Some GL.iNet models have MicroSD(TF) card slots, while some models have USB ports, supporting USB flash drives and portable external hard drives. You can set up Samba, WebDAV, DLNA shares for the disk.
+Network storage enables wireless file sharing across devices by connecting a USB drive or SD card to your router. The router converts the storage device into a shared network drive, accessible to all Wi-Fi-connected devices.
 
-The supported disk formats are NTFS, FAT32, ext4.
+Some GL.iNet models have MicroSD(TF) card slots, while some models have USB ports, supporting USB flash drives and portable external hard drives. You can configure Samba, WebDAV, DLNA for these storage devices, which support common formats such as NTFS, FAT32, and EXT4.
 
 !!! Note 
 
-    1. The power consumption of a USB hard drive is quite high. You should use it with an external power supply, otherwise it may cause malfunction.
+    1. The power consumption of a USB hard drive is quite high. Use it with an external power supply, otherwise it may cause malfunction.
 
-    2. Some models have a USB port/MicroSD slot but have limited storage space and do not support file sharing.
+    2. Some models have a USB port or MicroSD slot but have limited storage space and do not support network storage.
 
 ## Supported models
 
 Usually, models with USB ports or MicroSD(TF) slots support network storage (i.e. file sharing). 
 
-For devices with flash storage of 32MB or less, the Network Storage function is not yet supported and is still under development and optimization.
+For devices with flash storage of 32MB or less, the Network Storage function is not yet supported.
 
 | Router Model                           | Samba | Webdav | DLNA | USB Port | MicroSD Card |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
@@ -52,11 +52,11 @@ For TF card, you need to power off the router first, insert the TF card and then
 
 For USB Drive, you can directly plug it into the USB port. For portable external hard drive, if you have a separate power supply, please connect it to the power supply.
 
-Go to web Admin Panel -> APPLICATIONS -> Network Storage.
+Log in to the router's web Admin Panel, navigate to APPLICATIONS -> Network Storage.
 
 ![network storage](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/network_storage_init.png){class="glboxshadow"}
 
-When a disk is detected, the page is displayed as below.
+Connect the storage device. When it is detected, the page is displayed as below.
 
 ![network storage, disk found](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
 

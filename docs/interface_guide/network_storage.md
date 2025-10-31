@@ -146,9 +146,9 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
 ## Set Up DLNA
 
-Toggle on **Enable DLNA**, modify **Share Path** if needed, then click **Apply**.
+Toggle on **Enable DLNA**, and click **Apply**.
 
-![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/enable_dlna.png){class="glboxshadow"}
+![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/enable_dlna.jpg){class="glboxshadow"}
 
 Connect your smart TV to the router, and it will find the DLNA Server.
 

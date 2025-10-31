@@ -45,13 +45,13 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 
 On the left side of web Admin Panel -> VPN -> Tor.
 
-Click the toggle switch to enable it, then click **Apply** button. You can also choose a **Custom Exit Nodes**.
+Click the toggle switch to enable it, enable **Custom Exit Nodes** if required, then click **Apply**.
 
-![gl.inet Tor](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/tor.png){class="glboxshadow"}
+![enable tor](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/enable_tor.png){class="glboxshadow"}
 
-Wait a while, depending on your network, and it will show connected.
+It will start connecting. If your network meet the requirements, it will show connected.
 
-![gl.inet Tor connected](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/tor_connected.png){class="glboxshadow"}
+![tor connected](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/connected.png){class="glboxshadow" width="672"}
 
 ## Manual install
 

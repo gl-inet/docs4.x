@@ -62,87 +62,95 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
 ## Set Up Samba
 
-1. Toggle on to enable Samba and click **Apply**.
+1. Toggle on **Enable Samba** and click **Apply**.
 
     * Allow Access Samba from WAN: Enable it if you want the upstream devices to access Samba.
 
     ![enable samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
 
-2. Set the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
+2. Click **Quick Setup Share** to set the shared link.
 
     ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow"}
 
-3. Add a user. This step will be skipped if you already have an account. Then click **Next**.
+3. Add a user and click **Next**. This step will be skipped if you already have an account. 
 
     ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
 
-4. Click the triangle icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
+4. Click the triangle icon to show all folders. Select a folder for sharing, or click the disk name (disk1_part1) if you want to share the whole disk. Then click **Next**.
 
     ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
 
-5. Shared folder settings.
+5. Set up the shared folder.
 
-    For security reasons, we do not recommend enabling **Anonymous Access**.
+    For security reasons, it is not recommended to enable **Anonymous Access**.
 
-    The user you just created will be added to **Read-Only User** by default. If you want this account to be able to write or delete files, you can remove it from Read-Only User and add it to **Writable User**. Click **Apply**.
+    The user created in the previous step will be added to **Read-Only User** by default. If you want this user to be able to write or delete files, remove it from Read-Only User and add it to **Writable User**, and click **Apply**.
 
     ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
 
-6. Folder access link. It shows the link for Windows and Unix-like OS. The Unix-like system include Android, iOS, macOS, Ubuntu etc. Then please try to access the Samba on various OS, check out [here](#samba-client).
+6. Obtain the folder access link. 
 
-    **Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+    The page will show the link for Windows and Unix-like OS. The Unix-like system includes Android, iOS, macOS, Ubuntu, etc. 
+    
+    Now you can access your shared folder over Samba service via these links. Click [here](#samba-client) for details.
 
     ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+
+    **Note:** If you enable **Allow Access Samba from WAN** and access the shared folder from upper network, please replace the router IP (default 192.168.8.1) in the access link with your router's WAN IP, which can be found on the INTERNET page of the web admin panel.
 
 ---
 
 ## Set Up WebDAV
 
-1. Toggle on to enable WebDAV, and click **Apply**. For other parameters, please refer to the following instructions.
+1. Toggle on **Enable WebDAV**, and click **Apply**.
 
     * Allow Access WebDAV from WAN: Enable it if you want the upstream devices to access WebDAV.
 
     * WebDAV Protocol: **HTTP** is not encrypted; use it at your own risk. **HTTPS** is encrypted and it uses self-signed certificate.
 
-    * WebDAV Port: Generally, you do not need to modify the port number unless it conflicts. The recommended port number range is 1024 - 65535.
+    * WebDAV Port: No need to modify the port number unless there’s a conflict. The recommended port number range is 1024 - 65535.
 
     ![enable webdav](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow"}
 
-2. Then let's set up to get the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
+2. Click **Quick Setup Share** to set the shared link.
 
     ![enable webdav](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share.png){class="glboxshadow"}
 
-3. Add a user. This step will be skipped if you already have an account. Then click **Next**.
+3. Add a user and click **Next**. This step will be skipped if you already have an account.
 
     ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
 
-4. Click the triangel icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
+4. Click the triangel icon to show all folders. Select a folder for sharing, or click the disk name (disk1_part1) to share the whole disk. Then click **Next**.
 
     ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
 
-5. Shared folder settings.
+5. Set up the shared folder.
 
-    For security reasons, we do not recommend enabling **Anonymous Access**.
+    For security reasons, it is not recommended to enable **Anonymous Access**.
 
-    The user you just created will be added to **Read-Only User** by default. If you want this account to be able to write or delete files, you can remove it from Read-Only User and add it to **Writable User**. Click **Apply**.
+    The user created in the previous step will be added to **Read-Only User** by default. If you want this user to be able to write or delete files, remove it from Read-Only User and add it to **Writable User**, and click **Apply**.
 
     ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
 
-6. Folder access link. It shows the link for Windows and Unix-link OS. The Unix-like system include Android, iOS, macOS, Ubuntu etc. Then please try to access the WebDAV on various OS, check out [here](#webdav-client).
+6. Obtain folder access link. 
 
-    **Note:** If you enabled **Allow Access WebDAV from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+    The page will show the link for Windows and Unix-like OS. The Unix-like system includes Android, iOS, macOS, Ubuntu, etc. 
+    
+    Now you can access your shared folder over Samba service via these links. Click [here](#webdav-client) for details.
 
     ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+
+    **Note:** If you enabled **Allow Access WebDAV from WAN** and access the shared folder from upper network, please replace the router IP (default 192.168.8.1) in the access link with your router's WAN IP, which can be found on the INTERNET page of the web admin panel.
 
 ---
 
 ## Set Up DLNA
 
-Toggle to enable DLNA, modify **Share Path** if needed, then click **Apply**.
+Toggle on **Enable DLNA**, modify **Share Path** if needed, then click **Apply**.
 
 ![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/enable_dlna.png){class="glboxshadow"}
 
-Connect your smart TV to the router, it will find the DLNA Server.
+Connect your smart TV to the router, and it will find the DLNA Server.
 
 ---
 
@@ -150,7 +158,7 @@ Connect your smart TV to the router, it will find the DLNA Server.
 
 === "Windows"
 
-    Here is an example of Windows 11, Windows 10 is similar.
+    Here is an example of Windows 11, which also applies to Windows 10.
 
     Open up File Explorer and then right-click on **This PC** (in the left pane). From the resulting context menu, select **Show more options** -> **Add a network location**
 

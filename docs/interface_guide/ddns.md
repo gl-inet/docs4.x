@@ -76,11 +76,11 @@ Follow the steps below to enable HTTPS remote access for your router.
 
     ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
 
-2. On the left side of web admin panel, go to SYSTEM -> Security -> Remote Access Control.
+2. In the web admin panel, go to SYSTEM -> Security -> Remote Access Control.
 
     ![remote access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_disabled.png){class="glboxshadow"}
 
-3. Enable the **HTTPS Remote Access**, and click **Apply**.
+3. Enable **HTTPS Remote Access**, and click **Apply**.
 
     ![enable https remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_https_remote_access.png){class="glboxshadow"}
 
@@ -88,15 +88,15 @@ Once enabled, you can access the router’s admin panel from anywhere using the 
 
 If port forwarding is configured, access it as `https://xxxxxxx.glddns.com:external_port `(replace the external_port with your actual port number). 
 
-**Note**: This function uses self-signed certificates, therefore the browsers will indicate **Your connection is not private** when accessing the router’s admin panel via the DDNS host name over **HTTPS**, as shown below (port 8001 is used below as an example).
+**Note**: This function uses self-signed certificates, therefore the browsers will indicate **Your connection is not private** when accessing the router's admin panel via the DDNS host name over **HTTPS**, as shown below (port 8001 is used below as an example).
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_0.jpg){class="glboxshadow" width="400"}
 
-Click **Advanced** at the bottom to continue.
+To proceed the HTTPS remote access, click **Advanced** at the bottom.
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_1.png){class="glboxshadow" width="400"}
 
-Click **Processed to xxxxxxx.glddns.com** to continue.
+Then click **Proceed to xxxxxxx.glddns.com** to continue.
 
 ![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_2.png){class="glboxshadow" width="400"}
 
@@ -120,11 +120,11 @@ Follow the steps below to enable SSH remote access for your router.
 
     ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
 
-2. On the left side of web admin panel, go to SYSTEM -> Security -> Remote Access Control.
+2. In the web admin panel, go to SYSTEM -> Security -> Remote Access Control.
 
     ![remote access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_disabled.png){class="glboxshadow"}
 
-3. Enable the **SSH Remote Access**, and click **Apply**.
+3. Enable **SSH Remote Access**, and click **Apply**.
 
     ![enable ssh remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ssh_remote_access.png){class="glboxshadow"}
 

@@ -10,6 +10,8 @@ When Network acceleration is enabled, the following functions will not work prop
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-BE6500 (Flint 3e)           | √         |
+| GL-BE9300 (Flint 3)            | √         |
 | GL-BE3600 (Slate 7)            | √         |
 | GL-X2000 (Spitz Plus)          | √         |
 | GL-B3000 (Marble)              | √         |

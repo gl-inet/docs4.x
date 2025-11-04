@@ -44,7 +44,7 @@ Click on the tabs below to learn about MLO Main WiFi and MLO Guest WiFi settings
 
 ### 6 GHz Wi-Fi
 
-**Note**: This Wi-Fi band is only available on Flint 3 (GL-BE3600).
+**Note**: This Wi-Fi band is only available on Flint 3 (GL-BE9300).
 
 The 6 GHz Wi-Fi provides faster, more stable wireless connectivity with reduced congestion compared to 2.4 GHz and 5 GHz bands.
 

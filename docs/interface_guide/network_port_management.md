@@ -20,7 +20,7 @@ Click on **WAN**, it displays the network port status, MAC mode & MAC address, a
 
 Click on **LAN**, it displays the negotiated network port rate of the LAN port.
 
-![wan port management](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_port_management/lan.png){class="glboxshadow"}
+![lan port management](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_port_management/lan.png){class="glboxshadow"}
 
 Some models such as GL-MT6000 and GL-XE3000, support switching a LAN port to be WAN port, as shown below. Thus a Dual-Ethernet WAN scenario can be achieved.
 

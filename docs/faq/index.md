@@ -43,6 +43,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 * [Why do I get a message from DDNS test?](why_do_I_get_a_message_from_ddns_test.md)
 * [Why is my VPN speed slower than expected?](why_is_my_vpn_speed_slow.md)
 * [What is the device capacity of my router?](what_is_the_device_capacity_of_my_router.md)
+* [What is the wireless coverage of my router?](what_is_the_wireless_coverage_range_of_my_router.md)
 * [Upgrade Uboot version](upgrade_uboot_version.md)
 
 ## VPN

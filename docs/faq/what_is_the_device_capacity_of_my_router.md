@@ -16,7 +16,7 @@ Wireless devices (2.4GHz / 5GHz Wi-Fi) require more router processing power than
 
 The router's CPU, memory, and wireless module specifications directly determine its ability to handle concurrent connections. Higher-performance hardware can manage more devices without lag or disconnections.
 
-## Environmental Interference
+## Wireless Interference
 
 Wi-Fi signal interference from neighboring routers, household appliances (microwaves, Bluetooth devices), or physical obstacles (concrete walls, metal furniture) degrades connection stability, indirectly limiting the effective number of supported devices.
 

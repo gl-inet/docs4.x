@@ -156,7 +156,6 @@ nav:
       - Warning from your browser: faq/warning_from_your_browser_during_setup.md
       - Connect to Hotspot with Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
       - Connect Ethernet-only device to Wi-Fi: faq/produce_a_wired_connection.md
-      - Build up an Intranet: faq/build_up_an_intranet.md
     - Problem Notification:
       - Problem Notification for GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification_for_mt2500_x3000_xe3000.md
       - Problem Notification and Solutions for GL-X3000/GL-X2000 Failure to Work with EE SIM Cards: faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md

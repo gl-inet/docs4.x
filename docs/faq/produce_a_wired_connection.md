@@ -1,6 +1,4 @@
-# Can I connect an Ethernet-only device to Wi-Fi using GL.iNet router?
-
-Yes, you can.
+# How to connect an Ethernet-only device to Wi-Fi with a GL.iNet router?
 
 If your device only supports Ethernet connectivity but needs to connect to a wireless network, a GL.iNet router can bridge this gap.
 

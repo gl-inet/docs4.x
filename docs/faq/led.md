@@ -198,6 +198,24 @@
 
 ## Home Wi-Fi
 
+### GL-BE9300
+
+![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-BE6500
+
+![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
 ### GL-MT6000
 
 ![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}

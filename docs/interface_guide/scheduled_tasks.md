@@ -34,6 +34,13 @@ Except for MLO Wi-Fi, which only supports the on/off schedule mode, all other Wi
 
 ### MLO Wi-Fi Schedule
 
+| Supported Models         |         |
+| :----------------------- | :-----: |
+| GL-BE6500 (Flint 3e)     |    √    |
+| GL-BE9300 (Flint 3)      |    √    |
+| GL-BE3600 (Slate 7)      |    √    |
+| GL-MT3600BE (Beryl 7)    |    √    |
+
 You can set an on/off schedule for both the MLO Main Wi-Fi and Guest Wi-Fi.
 
 Enable the Main or Guest Wi-Fi Schedule, set the on and off times, select the weekly effective dates, and then click Apply.
@@ -41,6 +48,11 @@ Enable the Main or Guest Wi-Fi Schedule, set the on and off times, select the we
 ![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
 
 ### 6 GHz Wi-Fi Schedule
+
+| Supported Models         |         |
+| :----------------------- | :-----: |
+| GL-BE6500 (Flint 3e)     |    √    |
+| GL-BE9300 (Flint 3)      |    √    |
 
 When the Wi-Fi schedule mode is **Turn On/Off**, you can set an on/off schedule for both the 6 GHz Main Wi-Fi and Guest Wi-Fi. 
 

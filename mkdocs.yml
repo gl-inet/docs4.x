@@ -120,6 +120,7 @@ nav:
   - User Guide:
     - Overview: user_guide/index.md
     - GL-BE9300 (Flint 3): user_guide/gl-be9300/index.md
+    - GL-BE6500 (Flint 3e): user_guide/gl-be6500/index.md
     - GL-BE3600 (Slate 7): user_guide/gl-be3600/index.md
     - GL-X2000 (Spitz Plus): user_guide/gl-x2000/index.md
     - GL-B3000 (Marble): user_guide/gl-b3000/index.md

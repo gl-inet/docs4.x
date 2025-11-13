@@ -1,4 +1,4 @@
-# Connect to the Internet via an ethernet cable
+# Connect to the Internet via an Ethernet cable
 
 Connect the router to a broadband network via an Ethernet cable plugged into the WAN port. It usually automatically acquires an IP address (DHCP). Users can also configure static IP or PPPoE manually. This method offers high stability and fast speed, making it ideal for home and office environments with fixed broadband access.
 

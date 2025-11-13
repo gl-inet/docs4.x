@@ -11,10 +11,10 @@ Learn how to use our devices and add-on features with our step to step guides.
 ## Internet Connection
 
 * [The Internet Page](internet.md)
-* [How to connect to the Internet via an ethernet cable](internet_ethernet.md)
+* [How to connect to the Internet via an Ethernet cable](internet_ethernet.md)
 * [How to connect to the Internet via Repeater](internet_repeater.md)
-* [How to connect to the Internet via usb tethering](internet_tethering.md)
-* [How to connect to the Internet via usb modem or built-in modem](internet_cellular.md)
+* [How to connect to the Internet via USB tethering](internet_tethering.md)
+* [How to connect to the Internet via cellular](internet_cellular.md)
 * [SMS](sms.md)
 * [Dual-Ethernet WAN](dual-ethernet_wan.md)
 
@@ -38,8 +38,8 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Setup OpenVPN Server](openvpn_server.md)
 * [Setup WireGuard Client](wireguard_client.md)
 * [Setup WireGuard Server](wireguard_server.md)
-* [VPN Proxy Mode](vpn_dashboard_v4.7.md#proxy-mode)
-* [VPN Policy](vpn_dashboard_v4.7.md#proxy-mode)
+* [VPN Policy (for firmware v4.7 and earlier)](vpn_dashboard_v4.7.md#proxy-mode)
+* [VPN Policy (for firmware v4.8 and later)](vpn_dashboard.md#policy-mode)
 * [How to setup NordVPN on router?](openvpn_client.md#set-up-nordvpn)
 * [How to setup AzireVPN on router?](wireguard_client.md#set-up-azirevpn)
 * [How to setup Mullvad VPN on router?](wireguard_client.md#set-up-mullvad)
@@ -51,7 +51,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 ## Applications
 
 * [Plug-ins](plugins.md)
-* [DDNS](ddns.md)- to overcome the issues related to Dynamic IP Addresses.
+* [DDNS](ddns.md) - to overcome the issues related to Dynamic IP Addresses.
 * [AdGuard Home](adguardhome.md)
 * [Network Storage](network_storage.md)
 * [Parental Control](parental_control.md)

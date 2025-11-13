@@ -1,4 +1,4 @@
-# Connect to the Internet via usb tethering
+# Connect to the Internet via USB tethering
 
 Using a USB cable to share network from your smartphone to the router is called Tethering. Host-less modem works in Tethering during the setup of the modem as well.
 

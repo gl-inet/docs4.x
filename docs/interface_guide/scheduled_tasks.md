@@ -51,7 +51,6 @@ Enable the Main or Guest Wi-Fi Schedule, set the on and off times, select the we
 
 | Supported Models         |         |
 | :----------------------- | :-----: |
-| GL-BE6500 (Flint 3e)     |    √    |
 | GL-BE9300 (Flint 3)      |    √    |
 
 When the Wi-Fi schedule mode is **Turn On/Off**, you can set an on/off schedule for both the 6 GHz Main Wi-Fi and Guest Wi-Fi. 

@@ -19,6 +19,7 @@ There are two methods to forward SMS.
 | GL-E750/GL-E750-V2 (Mudi/Mudi V2)  | √         |
 | GL-X750 (Spitz)                    | √         |
 | GL-XE300 (Puli)                    | √         |
+| GL-X300B (Collie)                  | √         |
 
 ## Setup
 

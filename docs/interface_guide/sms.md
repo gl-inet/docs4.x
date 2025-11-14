@@ -14,6 +14,7 @@ GL.iNet cellular routers have a built-in modem that allows sending and receiving
 | GL-E750/GL-E750-V2 (Mudi/Mudi V2)  | √         |
 | GL-X750 (Spitz)                    | √         |
 | GL-XE300 (Puli)                    | √         |
+| GL-X300B (Collie)                  | √         |
 
 ## Setup
 

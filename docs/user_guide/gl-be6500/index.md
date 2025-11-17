@@ -14,8 +14,7 @@ Powered by a Qualcomm A53 1.5GHz quad-core processor, with 1GB DDR4 memory and 5
 
 To set up Flint 3e, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WQqD-8NrAOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Flint 3e and other models.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R40QsUFYuUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Power on the Flint 3e
 

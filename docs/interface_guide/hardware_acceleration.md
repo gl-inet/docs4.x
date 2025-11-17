@@ -24,6 +24,8 @@ When hardware acceleration is enabled, the following functions will not work pro
 | GL-MT2500/GL-MT2500A (Brume 2) | √         |
 | GL-SFT1200 (Opal)              | √         |
 | GL-MT1300 (Beryl)              | √         |
+| GL-AXT1800 (Slate AX)          | -         |
+| GL-AX1800 (Flint)              | -         |
 | GL-A1300 (Slate Plus)          | -         |
 | GL-E750/E750V2 (Mudi)          | -         |
 | GL-AR750S (Slate)              | -         |

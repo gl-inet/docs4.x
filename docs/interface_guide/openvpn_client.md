@@ -329,9 +329,9 @@ If the service provider you subscribed to is not listed below, please contact th
 
     [Official Website](https://go.fastestvpn.com/affiliate/pap?a_aid=5ffd2a3e9d687){target="_blank"}
 
-    Download FastestVPN Config Files zip folder for OpenVPN TCP and UDP from [here](https://support.fastestvpn.com/download/openvpn-tcp-udp-config-files/)
+    Download FastestVPN config files zip folder for OpenVPN TCP and UDP from [here](https://support.fastestvpn.com/download/fastestvpn_ovpn/)
 
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+    Tips: If the zip file is too large to upload, delete some .ovpn files in the .zip folder, or upload a single .ovpn file.
 
     [Refer link](https://support.fastestvpn.com/tutorials/routers/gl-inet/openvpn){target="_blank"}
 

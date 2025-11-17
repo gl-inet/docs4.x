@@ -17,26 +17,6 @@
 
     4. You can also use [mobile app](../faq/mobile_app.md) to setup AzireVPN.
 
-??? "Mullvad"
-    ### Mullvad
-
-    [Official Website](https://mullvad.net/){target="_blank"}
-
-    1. Access [Mullvad Official Website](https://mullvad.net/){target="_blank"} and login, then access the [WireGuard configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
-
-    2. Then follow the [guide](../interface_guide/wireguard_client.md/#set-up-mullvad) to continue.
-
-    3. You can also use [mobile app](../faq/mobile_app.md) to setup Mullvad.
-
-??? "PIA (Private Internet Access)"
-    ### PIA (Private Internet Access)
-
-    [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
-
-    It can't downlaod the WireGuard configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ??? "Hide.me VPN"
     ### Hide.me VPN
 
@@ -57,6 +37,26 @@
     **Note:** The key in the Hide.me VPN configuration file is regenerated before each connection and becomes invalid after disconnection, so copying this configuration file to other devices will not connect successfully.
 
     [Refer link](https://github.com/eventure/hide.client.routers){target="_blank"}
+
+??? "Mullvad"
+    ### Mullvad
+
+    [Official Website](https://mullvad.net/){target="_blank"}
+
+    1. Access [Mullvad Official Website](https://mullvad.net/){target="_blank"} and login, then access the [WireGuard configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
+
+    2. Then follow the [guide](../interface_guide/wireguard_client.md/#set-up-mullvad) to continue.
+
+    3. You can also use [mobile app](../faq/mobile_app.md) to setup Mullvad.
+
+??? "PIA (Private Internet Access)"
+    ### PIA (Private Internet Access)
+
+    [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
+
+    It can't downlaod the WireGuard configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ??? "Surfshark"
     ### Surfshark

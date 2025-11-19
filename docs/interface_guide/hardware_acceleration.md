@@ -10,8 +10,6 @@ When hardware acceleration is enabled, the following functions will not work pro
 
 ## Supported Models
 
-## Supported Models
-
 ??? "Supported Models"
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)

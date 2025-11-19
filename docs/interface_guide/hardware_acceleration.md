@@ -10,22 +10,34 @@ When hardware acceleration is enabled, the following functions will not work pro
 
 ## Supported Models
 
-Hardware Acceleration is supported on the following router models:
+## Supported Models
 
-- GL-BE6500 (Flint 3e)
-- GL-BE9300 (Flint 3)
-- GL-BE3600 (Slate 7)
-- GL-X2000 (Spitz Plus)
-- GL-B3000 (Marble)
-- GL-MT6000 (Flint2)
-- GL-X3000 (Spitz AX)
-- GL-XE3000 (Puli AX)
-- GL-MT3000 (Beryl AX)
-- GL-MT2500/GL-MT2500A (Brume 2)
-- GL-SFT1200 (Opal)
-- GL-MT1300 (Beryl)
+??? "Supported Models"
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-X2000 (Spitz Plus)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint2)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-MT3000 (Beryl AX)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
 
-**Note**: If your router model is not listed above, Hardware Acceleration is not supported.
+??? "Not Supported Models"
+    - GL-AXT1800 (Slate AX)
+    - GL-AX1800 (Flint)
+    - GL-A1300 (Slate Plus)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
 
 ## Setup
 

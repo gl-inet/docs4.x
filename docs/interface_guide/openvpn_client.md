@@ -395,6 +395,8 @@ If the service provider you subscribed to is not listed below, please contact th
 
     [Official Website](https://trk.aclktrkr.com/aff_c?offer_id=59&aff_id=3722){target="_blank"}
 
+    **Note: The Hotspot Shield Router configuration files are no longer available or supported. The following steps are here for legacy purposes for those that may still have the files installed.**
+
     1. Go to [https://www.hotspotshield.com/](https://www.hotspotshield.com/) and click on Account. Sign in if you're asked.
 
         ![hotspot shield login](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hotspot_shield/hotspotshield_front_page.png){class="glboxshadow"}

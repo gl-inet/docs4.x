@@ -24,6 +24,7 @@ Select the corresponding WireGuard service provider below to quickly locate the 
 * [Set Up Mullvad](#set-up-mullvad)
 * [Set Up NordVPN](#set-up-nordvpn)
 * [Set Up PIA (Private Internet Access)](#set-up-pia-private-internet-access)
+* [Set up PureVPN](#set-up-purevpn)
 * [Set Up Surfshark](#set-up-surfshark)
 * [Set Up WireGuard Client Manually (for other providers)](#set-up-wireguard-client-manually-for-other-providers)
 
@@ -45,7 +46,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> AzireVPN.
 
 2. Start a connection.
 
-    Select a preferred server, and click the three-dot icon on the right to start a connection.
+    Select your preferred server, and click the three-dot icon on the right to start a connection.
 
     ![azirevpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn2.png){class="glboxshadow"}
 
@@ -93,7 +94,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Hide.me.
 
 2. Start a connection.
 
-    Select a preferred server, and click the three-dot icon on the right to start a connection.
+    Select your preferred server, and click the three-dot icon on the right to start a connection.
 
     ![hideme start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme2.png){class="glboxshadow"}
 
@@ -141,7 +142,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> IPVanish.
 
 3. Start a connection.
 
-    Select a preferred server, and click the three-dot icon on the right to start a connection.
+    Select your preferred server, and click the three-dot icon on the right to start a connection.
 
     ![ipvanish start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish3.png){class="glboxshadow"}
 
@@ -189,7 +190,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Mullvad.
 
 3. Start a connection.
 
-    Select a preferred server, and click the three-dot icon on the right to start a connection.
+    Select your preferred server, and click the three-dot icon on the right to start a connection.
 
     ![mullvad start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad3.png){class="glboxshadow"}
     
@@ -259,7 +260,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Mullvad.
 
 4. Start a connection.
 
-    Select a preferred server, and click the three-dot icon on the right to start a connection.
+    Select your preferred server, and click the three-dot icon on the right to start a connection.
 
     ![nordvpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn3.png){class="glboxshadow"}
 
@@ -307,7 +308,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> PIA.
 
 3. Start a connection.
 
-    Select a preferred server, and click the three-dot icon on the right to start a connection.
+    Select your preferred server, and click the three-dot icon on the right to start a connection.
 
     ![pia start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia3.png){class="glboxshadow"}
 
@@ -337,6 +338,52 @@ In the web Admin Panel -> VPN -> WireGuard Client -> PIA.
 
     ![pia delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia8.png){class="glboxshadow"}
 
+## Set Up PureVPN
+
+[Official Website](https://www.purevpn.com/){target="_blank"}
+
+In the web Admin Panel -> VPN -> WireGuard Client -> PureVPN.
+
+1. Input **Username** and **Password**, then click **Save and Continue**.
+
+    ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn1.png){class="glboxshadow"}
+
+    It will generate all available configuration files.
+
+    ![purevpn config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn2.png){class="glboxshadow"}
+
+2. Start a connection.
+
+    Select your preferred server, and click the three-dot icon on the right to start a connection.
+
+    ![purevpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn3.png){class="glboxshadow"}
+
+    Once connected, a green dot will appear next to the configuration file.
+
+    ![purevpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn4.png){class="glboxshadow"}
+
+    And the VPN connection details will be displayed on the **VPN Dashboard**.
+
+    ![purevpn connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn5.png){class="glboxshadow"}
+
+4. Update servers.
+
+    You can click **Update Servers** to obtain the latest available server list, avoiding connection failures caused by server maintenance or shutdown.
+
+    ![purevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn6.png){class="glboxshadow"}
+
+5. Edit credentials or logout.
+
+    Click the gear icon to edit your login credentials or log out.
+
+    ![purevpn edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn7.png){class="glboxshadow"}
+
+6. Delete All.
+
+    You can click **Delete All** to delete all configuration files with one click, and choose whether to delete the private and public keys simultaneously.
+
+    ![purevpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn8.png){class="glboxshadow"}
+
 ## Set Up Surfshark
 
 [[Official Website]](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
@@ -355,7 +402,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Surfshark.
 
 3. Start a connection.
 
-    Select a preferred server, and click the three-dot icon on the right to start a connection.
+    Select your preferred server, and click the three-dot icon on the right to start a connection.
 
     ![surfshark start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark3.png){class="glboxshadow"}
 

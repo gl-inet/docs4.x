@@ -130,7 +130,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Hide.me.
 
 In the web Admin Panel -> VPN -> WireGuard Client -> IPVanish.
 
-1. Input **Username** and **Password**, then click **Save and Continue**. 
+1. Input **Username** and **Password**, then click **Save and Continue**. It will generate configuration files for each server.
 
     ![ipvanish login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish1.png){class="glboxshadow"}
 
@@ -386,7 +386,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> PureVPN.
 
 ## Set Up Surfshark
 
-[[Official Website]](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
+[Official Website](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
 In the web Admin Panel -> VPN -> WireGuard Client -> Surfshark.
 
@@ -437,6 +437,64 @@ In the web Admin Panel -> VPN -> WireGuard Client -> Surfshark.
     You can click **Delete All** to delete all configuration files with one click, and choose whether to delete the private and public keys simultaneously.
 
     ![surfshark delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark9.png){class="glboxshadow"}
+
+## Set Up Windscribe
+
+[Official Website](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
+
+In the web Admin Panel -> VPN -> WireGuard Client -> Windscribe.
+
+1. Input **Username** and **Password**, then click **Save and Continue**. It will generate configuration files for each server.
+
+    ![windscribe login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe1.png){class="glboxshadow"}
+
+2. Select servers.
+
+    Select the server(s) you want to connect to, and click **Apply**.
+
+    ![windscribe select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe2.png){class="glboxshadow"}
+
+    Then you will get a list of configuration files corresponding to the selected server.
+
+    ![windscribe config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe3.png){class="glboxshadow"}
+
+3. Start a connection.
+
+    Select your preferred server, and click the three-dot icon on the right to start a connection.
+
+    ![windscribe start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe4.png){class="glboxshadow"}
+
+    Once connected, a green dot will appear next to the configuration file.
+
+    ![windscribe connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe5.png){class="glboxshadow"}
+
+    And the VPN connection details will be displayed on the **VPN Dashboard**.
+
+    ![windscribe connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe6.png){class="glboxshadow"}
+
+4. Update servers.
+
+    You can click **Update Servers** to obtain the latest available server list, avoiding connection failures caused by server maintenance or shutdown.
+
+    ![windscribe update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe7.png){class="glboxshadow"}
+
+5. Edit credentials or logout.
+
+    Click the gear icon to edit your login credentials or log out.
+
+    ![windscribe edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe8.png){class="glboxshadow"}
+
+6. Refresh.
+
+    You can click **Refresh** to update the public key when the VPN server cannot be connected.
+
+    ![windscribe refresh](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe9.png){class="glboxshadow"}
+
+7. Delete All.
+
+    You can click **Delete All** to delete all configuration files with one click, and choose whether to delete the private and public keys simultaneously.
+
+    ![windscribe delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe10.png){class="glboxshadow"}
 
 ## Set Up WireGuard Client Manually (for other providers)
 

@@ -281,13 +281,13 @@ OpenVPNの設定に問題がある場合は、 [support@glinet.biz](mailto:suppo
 ??? "Surfshark"
     ### Surfshark
 
-    [公式ウェブサイト](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
+    [公式ウェブサイト](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
     1. **ログインの詳細を確認する**
 
         Surfsharkサービスの認証情報は、Surfsharkアカウントの認証情報（メールアドレスとパスワード）とは異なります。ルーターの手動OpenVPN設定方法を使用してVPNに接続するには、Surfsharkサービス認証情報が必要です。
 
-         [公式ウェブサイト](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"},  [このページ](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}に移動すると、手動接続に必要な詳細がすべて表示されます。
+         [公式ウェブサイト](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"},  [このページ](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}に移動すると、手動接続に必要な詳細がすべて表示されます。
 
         ![surfshark service credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_service_credential.png){class="glboxshadow"}
 

@@ -34,8 +34,8 @@ hide:
 ## VPN
 
 * [OpenVPNでは、TCPとUDPのどちらのプロトコルを選べばいいのでしょうか？](openvpn_tcp_udp.md)
-* [VPN以外のトラフィックをブロックするには？](block_no_vpn_traffic.md)
-* [VPNキルスイッチ](block_no_vpn_traffic.md)
+* [VPN以外のトラフィックをブロックするには？](block_non_vpn_traffic.md)
+* [VPNキルスイッチ](block_non_vpn_traffic.md)
 
 ## アップグレード
 

@@ -227,9 +227,9 @@ GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetル
 ??? "Surfshark"
     ### Surfshark
 
-    [公式サイト](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
+    [公式サイト](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
-    1. [Surfshark](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}を使用している場合は、ログインして、この[ページ](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}にアクセスし、**ルーター**をクリックし、**WireGuard**を選択します。
+    1. [Surfshark](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}を使用している場合は、ログインして、この[ページ](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}にアクセスし、**ルーター**をクリックし、**WireGuard**を選択します。
 
         ![サーフシャーク ワイヤーガード マニュアル設定](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/surfshark/surfshark_wireguard_manual_setup_1.png){class="glboxshadow"}
 

@@ -37,8 +37,8 @@ hide:
 * [ルーターでNordVPNをセットアップする方法は？](openvpn_client.md#set-up-nordvpn)
 * [ルーターでAzireVPNをセットアップする方法は？](wireguard_client.md#set-up-azirevpn)
 * [ルーターでMullvad VPNをセットアップする方法](wireguard_client.md#set-up-mullvad)
-* [非VPNトラフィックをブロックするには？](../faq/block_no_vpn_traffic.md)
-* [VPNキルスイッチ](../faq/block_no_vpn_traffic.md).
+* [非VPNトラフィックをブロックするには？](../faq/block_non_vpn_traffic.md)
+* [VPNキルスイッチ](../faq/block_non_vpn_traffic.md).
 * [OpenVPNでは、TCPとUDPのどちらのプロトコルを選べばいいのでしょうか？](../faq/openvpn_tcp_udp.md)
 * [VPNカスケード](../tutorials/vpn_cascading.md)
 * [Tor](tor.md), 個人のプライバシーを保護するためです。

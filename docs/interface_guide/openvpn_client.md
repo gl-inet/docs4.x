@@ -724,6 +724,21 @@ If the service provider you subscribed to is not listed below, please contact th
 
     The provided zip file contains two folders with the .ovpn files. One called OpenVPN160 one OpenVPN256. Just delete the OpenVPN160 folder from the zip file then upload it to GL.iNet router as usual.
 
+??? "Windscribe"
+    ### Windscribe
+
+    [Official Website](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
+
+    1. Log in to your Windscribe membership account [here](https://windscribe.com/login?auth_required){target="_blank"}, then access the [OpenVPN Config Generator](https://windscribe.com/getconfig/openvpn){target="_blank"}. 
+    
+    2. Select the server location, protocol (UDP/TCP), port (e.g., 1194) you'd like to use, and OpenVPN version (preferably the newer one), then click **Download Config**. You will then get a file with the suffix ".ovpn" downloaded to your local device.
+
+        ![windscribe OpenVPN Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/windscribe/ovpn-config-generator.png){class="glboxshadow"}
+
+    3. Click the **Get Credentials** button on the same page. You will then receive the corresponding credentials, which will be used later in the router's web admin panel when uploading the config file to the router for authentication. Copy the credentials or keep this webpage open.
+
+    4. Then follow [this guide](../interface_guide/openvpn_client.md#set-up-openvpn-client-manually-for-other-providers) to continue.
+
 ??? "ZoogVPN"
     ### ZoogVPN
 

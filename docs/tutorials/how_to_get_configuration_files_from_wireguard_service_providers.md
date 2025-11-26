@@ -345,11 +345,13 @@
 
     [Official Website](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
-    Login then access the [WireGuard Config Generator](https://windscribe.com/getconfig/wireguard){target="_blank"}. Select location and port you'd like to use, then click Download Config.
+    1. Log in to your Windscribe membership account [here](https://windscribe.com/login?auth_required){target="_blank"}, then access the [WireGuard Config Generator](https://windscribe.com/getconfig/wireguard){target="_blank"}. 
+    
+    2. Select the server location and port you'd like to use, then click **Download Config**.
 
-    ![windscribe WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/windscribe/windscribe_01.jpg){class="glboxshadow"}
+        ![windscribe WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/windscribe/windscribe_01.jpg){class="glboxshadow"}
 
-    Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
+    3. Follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "12VPX"
     ### 12VPX

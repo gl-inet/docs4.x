@@ -340,7 +340,7 @@ In the web Admin Panel -> VPN -> WireGuard Client -> PIA.
 
 ## Set Up PureVPN
 
-[Official Website](https://www.purevpn.com/){target="_blank"}
+[Official Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
 In the web Admin Panel -> VPN -> WireGuard Client -> PureVPN.
 

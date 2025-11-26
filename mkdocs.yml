@@ -50,6 +50,8 @@ plugins:
         'faq/gl-x3000_gl-xe3000_connection_optimization.md': 'faq/cellular_network_troubleshooting_guide.md'
         'faq/where_to_download_firmware.md': 'faq/how_to_download_firmware.md'
         'faq/can_i_add_brume2_into_app.md': 'faq/how_to_add_brume2_into_app.md'
+        'tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
+        'tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md': 'tutorials/how_to_use_the_esim_physical_card_with_android_devices.md'
 
 # Customization
 extra:
@@ -234,8 +236,6 @@ nav:
     - eSIM:
       - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Use eSIM Physical Card with Android devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
-      - Use the SIMPoYo eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md
-      - Use the SIMPoYo eSIM Physical Card with Android devices: tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md
       - How to use SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md

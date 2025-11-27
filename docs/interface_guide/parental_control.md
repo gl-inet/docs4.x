@@ -14,31 +14,34 @@ The local version is provided by GL.iNet. It is currently in beta, so there is n
 
 ### Supported Models
 
-| Router Model                   | Support   |
-| :----------------------------- | :-------: |
-| GL-BE6500 (Flint 3e)           | √         |
-| GL-MT3600BE (Beryl 7)          | √         |
-| GL-BE9300 (Flint 3)            | √         |
-| GL-BE3600 (Slate 7)            | √         |
-| GL-X2000 (Spitz Plus)          | √         |
-| GL-B3000 (Marble)              | √         |
-| GL-MT6000 (Flint 2)            | √         |
-| GL-AX1800 (Flint)              | √         |
-| GL-X3000 (Spitz AX)            | √         |
-| GL-XE3000 (Puli AX)            | √         |
-| GL-MT3000 (Beryl AX)           | √         |
-| GL-AXT1800 (Slate AX)          | √         |
-| GL-A1300 (Slate Plus)          | √         |
-| GL-MT2500/GL-MT2500A (Brume 2) | √         |
-| GL-SFT1200 (Opal)              | -         |
-| GL-S1300 (Convexa-S)           | -         |
-| GL-MT1300 (Beryl)              | -         |
-| GL-AR750S (Slate)              | -         |
-| GL-XE300 (Puli)                | -         |
-| GL-X750 (Spitz)                | -         |
-| GL-B1300 (Convexa-B)           | -         |
-| GL-AP1300 (Cirrus)             | -         |
-| GL-X300B (Collie)              | -         |
+??? "Supported Models"
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-X2000 (Spitz Plus)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint2)
+    - GL-AX1800 (Flint)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
+    - GL-A1300 (Slate Plus)
+
+    ??? "Unsupported Models"
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
+    - GL-X300B (Collie)
 
 ### Setup
 

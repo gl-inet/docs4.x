@@ -36,10 +36,10 @@ Except for MLO Wi-Fi, which only supports the on/off schedule mode, all other Wi
 
 | Supported Models         |         |
 | :----------------------- | :-----: |
+| GL-MT3600BE (Beryl 7)    |    √    |
 | GL-BE6500 (Flint 3e)     |    √    |
 | GL-BE9300 (Flint 3)      |    √    |
 | GL-BE3600 (Slate 7)      |    √    |
-| GL-MT3600BE (Beryl 7)    |    √    |
 
 You can set an on/off schedule for both the MLO Main Wi-Fi and Guest Wi-Fi.
 

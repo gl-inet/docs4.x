@@ -27,7 +27,7 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
     - GL-AXT1800 (Slate AX)
     - GL-A1300 (Slate Plus)
 
-    ??? "Unsupported Models"
+??? "Unsupported Models"
     - GL-X2000 (Spitz Plus)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)

@@ -32,7 +32,7 @@ The Tailscale feature in GL.iNet routers allows the router to join the Tailscale
     - GL-AXT1800 (Slate AX)
     - GL-A1300 (Slate Plus)
 
-    ??? "Unsupported Models"
+??? "Unsupported Models"
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)
     - GL-E750/E750V2 (Mudi)

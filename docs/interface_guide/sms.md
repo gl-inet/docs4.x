@@ -15,7 +15,7 @@ GL.iNet cellular routers have a built-in modem that allows sending and receiving
     - GL-XE300 (Puli)
     - GL-X300B (Collie)
 
-    ??? "Unsupported Models"
+??? "Unsupported Models"
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)

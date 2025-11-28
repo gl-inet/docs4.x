@@ -230,7 +230,7 @@ nav:
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Module Logs: tutorials/get_module_logs.md
       - Upgrade Quectel Module: tutorials/upgrade_quectel_module_software.md
-      - Check the carrier aggregation status: tutorials/how_to_check_carrier_aggregation.md
+      - Check carrier aggregation status: tutorials/how_to_check_carrier_aggregation.md
       - Set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
       - Install or change external antennas for Spitz AX or Puli AX: tutorials/how_to_change_x3000_and_xe3000_antennas.md
     - eSIM:

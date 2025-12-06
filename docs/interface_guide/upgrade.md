@@ -21,6 +21,8 @@ You can find the current firmware version here. If your router is connected to t
 - **Online Download Failed**
 
     When trying to perform an online upgrade, if it displays **Download Failed**, please navigate to System -> Time Zone, and fix the time zone error (sync to browser).
+
+    ![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow gl-50-desktop"}
     
     Please contact us at [support@glinet.biz](mailto:support@glinet.biz) if you encounter any other issues.
 

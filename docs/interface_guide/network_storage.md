@@ -136,7 +136,7 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
     The page will show the link for Windows and Unix-like OS. The Unix-like system includes Android, iOS, macOS, Ubuntu, etc. 
     
-    Now you can access your shared folder over Samba service via these links. Click [here](#webdav-client) for details.
+    Now you can access your shared folder over WebDAV service via these links. Click [here](#webdav-client) for details.
 
     ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow"}
 

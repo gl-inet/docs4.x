@@ -331,7 +331,7 @@ The following AT Commands have been pre-set.
 * Operator Names
 * Request SIM card status
 
-As an example, the shotcut "Request IMEI" has been selected here. Click "Send" and you will get the result as below.
+As an example, the shortcut "Request IMEI" has been selected here. Click "Send" and you will get the result as below.
 
 ![AT command 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_3.png){class="glboxshadow"}
 

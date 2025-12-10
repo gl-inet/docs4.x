@@ -4,6 +4,7 @@ Carrier aggregation combines multiple network bands to offer more bandwidth and 
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
+| GL-X2000 (Spitz Plus)          | √         |
 | GL-X3000 (Spitz AX)            | √         |
 | GL-XE3000 (Puli AX)            | √         |
 | GL-E750/GL-E750V2 (Mudi)       | √         |

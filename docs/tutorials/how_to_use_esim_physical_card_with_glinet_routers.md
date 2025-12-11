@@ -28,7 +28,7 @@ The highlights of eSIM physical cards are as follows:
 | GL-XE300 (Puli)                | ※        |
 | GL-X750 (Spitz)                | ※        |
 | GL-X300B (Collie)              | ※        |
-| GL-E750V2 vSIM                 | -         |
+| GL-E750V2 vSIM                 | X         |
 
 **For models marked with ※**:
 

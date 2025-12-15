@@ -11,6 +11,7 @@ When hardware acceleration is enabled, the following functions will not work pro
 ## Supported Models
 
 ??? "Supported Models"
+    - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
@@ -24,14 +25,14 @@ When hardware acceleration is enabled, the following functions will not work pro
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)
 
-??? "Not Supported Models"
+??? "Unsupported Models"
     - GL-AXT1800 (Slate AX)
     - GL-AX1800 (Flint)
     - GL-A1300 (Slate Plus)
     - GL-E750/E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
     - GL-AR750S (Slate)
     - GL-XE300 (Puli)
-    - GL-X750 (Spitz)
     - GL-MT300N-V2 (Mango)
     - GL-AR300M Series (Shadow)
     - GL-B1300 (Convexa-B)

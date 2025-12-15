@@ -40,8 +40,6 @@ Learn how to use our devices correctly with detailed steps.
 
 * [How to use the eSIM Physical Card with GL.iNet routers](how_to_use_esim_physical_card_with_glinet_routers.md)
 * [How to use the eSIM Physical Card with Android devices](how_to_use_the_esim_physical_card_with_android_devices.md)
-* [How to use the SIMPoYo eSIM Physical Card with GL.iNet routers](how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md)
-* [How to use the SIMPoYo eSIM Physical Card with Android devices](how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md)
 * [How to use SIMPoYo uFi USB dongle](how_to_use_simpoyo_ufi.md)
 
 ## GoodCloud

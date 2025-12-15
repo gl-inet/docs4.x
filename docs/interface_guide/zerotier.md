@@ -12,32 +12,35 @@ The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier vir
 
 ## Supported models
 
-| Router Model                   | Support   |
-| :----------------------------- | :-------: |
-| GL-BE9300 (Flint 3)            | √         |
-| GL-BE3600 (Slate 7)            | √         |
-| GL-X2000 (Spitz Plus)          | -         |
-| GL-B3000 (Marble)              | √         |
-| GL-MT6000 (Flint2)             | √         |
-| GL-X3000 (Spitz AX)            | √         |
-| GL-XE3000 (Puli AX)            | √         |
-| GL-MT3000 (Beryl AX)           | √         |
-| GL-AXT1800 (Slate AX)          | √         |
-| GL-A1300 (Slate Plus)          | √         |
-| GL-MT2500/GL-MT2500A (Brume 2) | √         |
-| GL-SFT1200 (Opal)              | -         |
-| GL-S1300 (Convexa-S)           | -         |
-| GL-MT1300 (Beryl)              | -         |
-| GL-AX1800 (Flint)              | √         |
-| GL-AR750S (Slate)              | -         |
-| GL-AR300M Series (Shadow)      | -         |
-| GL-MT300N-V2 (Mango)           | -         |
-| GL-XE300 (Puli)                | -         |
-| GL-E750/GL-E750V2 (Mudi V2)    | -         |
-| GL-X750/GL-X750V2 (Spitz)      | -         |
-| GL-B1300 (Convexa-B)           | -         |
-| GL-AP1300 (Cirrus)             | -         |
-| GL-X300B (Collie)              | -         |
+??? "Supported Models"
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint2)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-AX1800 (Flint)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
+    - GL-A1300 (Slate Plus)
+
+??? "Unsupported Models"
+    - GL-X2000 (Spitz Plus)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
+    - GL-X300B (Collie)
 
 ## Setup
 

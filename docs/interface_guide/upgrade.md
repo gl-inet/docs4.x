@@ -14,18 +14,21 @@ You can find the current firmware version here. If your router is connected to t
 
 ![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
-**Preview Plan**
+- **Accept Preview Plan**
 
-Enable the switch to get latest unstable updates, patches, improvements, and enhancements as soon as they're available. Set it once and it stays on (you always have the option to turn it off later).
+    If this option is enabled, you can try new features before the final version is issued and provide us with feedback. Set it once and it stays on, and you always have the option to turn it off. Note that these upgrades may not be stable. Please check [What's New?](https://www.gl-inet.com/whats-new/){target="_blank"} for the latest firmware features.
 
-Check out the latest features at [What's New?](https://www.gl-inet.com/whats-new/){target="_blank"}
+- **Online Download Failed**
 
-Please contact us [support@glinet.biz](mailto:support@glinet.biz) if you encounter any issues.
+    When trying to perform an online upgrade, if it displays **Download Failed**, please navigate to System -> Time Zone, and fix the time zone error (sync to browser).
 
+    ![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow gl-50-desktop"}
+    
+    Please contact us at [support@glinet.biz](mailto:support@glinet.biz) if you encounter any other issues.
 
 ### Local Upgrade
 
-Select a firmware file or drag and drop to upgrade. You can download the firmware from our [download site](https://dl.gl-inet.com){target="_blank"}.
+Select a firmware file or drag and drop it to upgrade. You can download the firmware from our [download center](https://dl.gl-inet.com){target="_blank"}.
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 
@@ -33,7 +36,7 @@ After uploaded, it will verify the firmware.
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
 
-**Keep Settings:** Current settings will be retained. User installed packages will be prompted to re-install after upgrade. Do NOT check this option if you are downgrading the firmware.
+- **Keep Settings:** If this option is enabled, current settings will be retained and you will be prompted to reinstall any user-installed packages after the upgrade has completed. Do NOT check this option when downgrading firmware.
 
 Click **Install** to upgrade. 
 

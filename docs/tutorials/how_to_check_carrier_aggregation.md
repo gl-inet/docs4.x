@@ -4,29 +4,30 @@ Carrier aggregation combines multiple network bands to offer more bandwidth and 
 
 | Router Model                   | Support   |
 | :----------------------------- | :-------: |
-| Spitz AX (GL-X3000)            | √         |
-| Puli AX (GL-XE3000)            | √         |
-| Mudi V2 (GL-E750V2)            | √         |
-| Mudi (GL-E750)                 | √         |
-| Spitz (GL-X750)                | √         |
-| Collie (GL-X300B)              | √         |
-| Puli (GL-XE300)                | √         |
-| Cirrus (GL-AP1300LTE)          | √         |
+| GL-X2000 (Spitz Plus)          | √         |
+| GL-X3000 (Spitz AX)            | √         |
+| GL-XE3000 (Puli AX)            | √         |
+| GL-E750/GL-E750V2 (Mudi)       | √         |
+| GL-X750/GL-X750V2 (Spitz)      | √         |
+| GL-XE300 (Puli)                | √         |
+| GL-X300B (Collie)              | √         |
+| GL-AP1300LTE (Cirrus)          | √         |
 
-(You cannot enable carrier aggregation within the router admin panel. This feature is provided by your SIM carrier, not GL.iNet.)
+**Note**: Carrier aggregation cannot be enabled within the router admin panel. This feature is provided by your SIM carrier, not GL.iNet.
 
 To check the carrier aggregation status, follow these steps: 
 
 1. Make sure you have inserted a SIM card into the router. 
-2. In a web browser's address bar, enter `192.168.8.1` and sign in. 
-3. Click the icon on the right. 
-    ![click icon](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/cellular-click-icon-right.png){class="glboxshadow"}
-4. In the **AT Command field**, enter **AT+QCAINFO**.
-5. Click **Send**.
+2. Open a web browser, enter `192.168.8.1` in the address bar and log in. 
+3. In the cellular section, click the three-dot icon in the upper right corner, and click **Modem AT Command**. 
+    
+    ![Modem AT Command](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/modem-at-command.png){class="glboxshadow"}
 
-If carrier aggregation is active, you will see multiple network bands shown on the list. 
+4. In the pop-up window, enter **AT+QCAINFO**, and click **Send**.
 
-![atcainfo](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/carrier-aggregation-information.png){class="glboxshadow"}
+    If carrier aggregation is active, you will see multiple network bands shown on the list. 
+    
+    ![atcainfo](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/carrier-aggregation-info.png){class="glboxshadow"}
 
 ---
 

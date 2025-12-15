@@ -144,7 +144,7 @@ Now you can connect your devices to the router via cable or Wi-Fi, or connect to
 
 ## Top-up SIMPoYo Plans
 
-When your data runs out or expires, simply scan the QR code on your SIMPoYo uFi or visit [https://w.simpoyo.com/plans](https://w.simpoyo.com/plans/){target="_blank"} to top up your plan.
+When your data runs out or expires, simply scan the QR code on your SIMPoYo uFi or visit [https://w.simpoyo.com](https://w.simpoyo.com){target="_blank"} to top up your plan.
 
 !!! note "Supported Countries & Regions"
 

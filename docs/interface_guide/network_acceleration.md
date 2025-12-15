@@ -9,6 +9,7 @@ When Network acceleration is enabled, the following functions will not work prop
 ## Supported Models
 
 ??? "Supported Models"
+    - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
@@ -22,14 +23,14 @@ When Network acceleration is enabled, the following functions will not work prop
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)
 
-??? "Not Supported Models"
+??? "Unsupported Models"
     - GL-AXT1800 (Slate AX)
     - GL-AX1800 (Flint)
     - GL-A1300 (Slate Plus)
     - GL-E750/E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
     - GL-AR750S (Slate)
     - GL-XE300 (Puli)
-    - GL-X750 (Spitz)
     - GL-MT300N-V2 (Mango)
     - GL-AR300M Series (Shadow)
     - GL-B1300 (Convexa-B)
@@ -41,19 +42,23 @@ On the left side of web Admin Panel -> NETWORK -> Network Acceleration.
 
 ![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/network_acceleration/network_acceleration.png){class="glboxshadow"}
 
-Mode has three options.
+There are three modes.
 
-- Auto
+- **Auto**
     
     Auto mode will automatically switch between the two acceleration modes based on actual usage.
 
-- Hardware Acceleration
+- **Hardware Acceleration**
 
-    Hardware acceleration works on Ethernet and Repeater.
+    Hardware acceleration works on <u>Ethernet</u> and <u>Repeater</u>. 
+    
+    Hardware acceleration offloads high-frequency network tasks (e.g., NAT, packet forwarding, checksum verification) to dedicated hardware like NPUs or HWNAT chips. It specifically works on Ethernet (wired WAN/LAN) and Repeater connections, excelling in these scenarios with fixed paths and simple rules to deliver high throughput, low latency, and minimal CPU load for wire-speed data transmission.
 
-- Software Acceleration
+- **Software Acceleration**
 
-    Software acceleration works on Cellular.
+    Software acceleration works on <u>Cellular</u>. 
+    
+    Software acceleration relies on a router's general CPU paired with optimized kernels or drivers (e.g., SWNAT). It works on Cellular (4G/5G) access, typically the primary scenario where hardware acceleration is unavailable, offering strong compatibility and support for complex protocols. While flexible, it may hit CPU bottlenecks under high-bandwidth loads, especially when running advanced features like DPI, QoS, or port forwarding.
 
 ---
 

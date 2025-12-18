@@ -20,7 +20,7 @@ The wireless page supports setting up different Wi-Fi configurations, and it inc
 
 ### MLO Wi-Fi
 
-**Note**: This Wi-Fi band is only available on Flint 3 (GL-BE3600) and Slate 7 (GL-BE3600).
+**Note**: This Wi-Fi band is only available on Flint 3e (GL-BE6500), Flint 3 (GL-BE9300), and Slate 7 (GL-BE3600).
 
 MLO (Multi-Link Operation) is one of the core features of Wi-Fi 7 (802.11be), designed to improve network performance, significantly reduce latency, and enhance connection stability by utilizing multiple frequency bands simultaneously such as 2.4 GHz, 5 GHz, and 6 GHz.
 

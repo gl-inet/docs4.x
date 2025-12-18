@@ -26,9 +26,9 @@ Watch this video or follow the steps below.
 
 There are two ways to reset the firmware.
 
-1. Using reset button.
+1. Using the physical reset mechanism (button or pinhole).
 
-    Press and hold the reset button for **10 seconds** then release to reset the router to factory settings. All user data will be cleared.
+    Press and hold the reset button (or insert a pin into the pinhole) for **10 seconds** then release to reset the router to factory settings. All user data will be cleared.
 
     **Note:** If the factory reset does not work, you might need to follow the [Uboot tutorial](debrick.md) to unbrick your router.
 

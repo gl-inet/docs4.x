@@ -274,12 +274,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-=== "Network Acceleration"
-
-    Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
-    
-    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
-
 === "NAT Settings"
 
     The NAT Settings page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.

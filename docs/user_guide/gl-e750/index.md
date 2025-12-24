@@ -79,15 +79,13 @@ Make sure you are using a standard 5V/2A power adapter. Otherwise, it may cause 
 
 ## INTERNET
 
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
+Log in to the router's web Admin Panel, and navigate to **INTERNET** from the left-side menu. 
 
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
-
-It supports four ways to connect to the internet as listed below:
+This page allows you to select your internet connection type, such as Ethernet, Repeater, Tethering, and Cellular.
 
 ### Ethernet
 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
+Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
@@ -95,7 +93,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 ### Repeater
 
-Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
+Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
@@ -103,7 +101,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 ### Tethering
 
-Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+Connect the router's USB port to a smartphone with active mobile data via a USB cable to access the Internet. This method enables multiple devices connected to the router to access the internet using the smartphone's mobile data.
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
@@ -111,13 +109,13 @@ Establish internet access with connected devices by sharing a smartphone's mobil
 
 ### Cellular
  
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+Remove the back cover from Mudi V2, and insert a SIM card into the SIM card slot to connect it to the internet. This method is useful for sharing internet access from a single SIM card to all connected devices.
 
 [Click here to learn how to connect to the internet via cellular](../../interface_guide/internet_cellular.md)
 
-Learn how to set up the eSIM physical card on your GL.iNet router with our step-by-step instructions here: [How to Set Up the eSIM Physical Card with the GL.iNet Routers?](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/)
-
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_cellular.png){class="glboxshadow"}
+
+To use eSIM physical card on your GL.iNet router, please click here: [How to use the eSIM Physical Card with GL.iNet routers?](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
 ---
 

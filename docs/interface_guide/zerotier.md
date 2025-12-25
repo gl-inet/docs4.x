@@ -6,7 +6,7 @@ ZeroTier is a software-based virtual private network (VPN) that enables secure, 
 
 The ZeroTier feature in GL.iNet router allow the router to join the ZeroTier virtual network, then you can access it remotely, even to its WAN or LAN resources.
 
-**Note**: Because ZeroTier is based on WireGuard, it is not recommended to use the ZeroTier feature with the OpenVPN Client or WireGuard Client at the same time, as there may be bugs.
+**Note**: It is not recommended to use the ZeroTier simultaneously with any of the following features or services, as this may cause routing conflicts: OpenVPN Client, WireGuard Client, GoodCloud Site to Site, Tailscale, AstroWarp.
 
 **Note**: This feature is currently in beta, and may have some bugs.
 

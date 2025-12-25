@@ -8,7 +8,7 @@ The Tailscale feature in GL.iNet routers allows the router to join the Tailscale
 
 **Note**: 
 
-1. Since Tailscale is based on WireGuard, it is not recommended to use Tailscale and any of the following features/services simultaneously, as there may be routing conflicts: OpenVPN client; WireGuard client; GoodCloud Site to Site; ZeroTier; AstroWarp.
+1. Since Tailscale is based on WireGuard, it is not recommended to use Tailscale simultaneously with any of the following features or services, as this may cause routing conflicts: OpenVPN Client, WireGuard Client, GoodCloud Site to Site, ZeroTier, AstroWarp.
 
 2. This feature is currently in beta, and may have some bugs.
 

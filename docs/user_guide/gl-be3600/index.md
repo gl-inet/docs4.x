@@ -2,11 +2,9 @@
 
 ## Product overview
 
-Slate 7 (GL-BE3600) is GL.iNet first dual-band Wi-Fi 7 portable travel router, specifically designed for mobile scenarios such as business trips and vacations, balancing high-speed performance with extreme portability. It supports Wi-Fi 7 technologies including Multi-Link Operation (MLO) and 4K QAM, with theoretical dual-band speeds reaching 688Mbps (2.4GHz) + 2882Mbps (5GHz) — capable of meeting high-speed needs like 8K streaming and mobile gaming. Equipped with an innovative touchscreen, it enables network status checks at a glance and basic operations.
+Slate 7 (GL-BE3600) is GL.iNet's first dual-band Wi-Fi 7 portable travel router, engineered for on-the-go scenarios like business trips and vacations, balancing high-speed performance and portability. It supports Wi-Fi 7 technologies (Multi-Link Operation and 4K QAM), boasting theoretical dual-band speeds of 688Mbps (2.4GHz) + 2882Mbps (5GHz) to handle 8K streaming and mobile gaming seamlessly. Its innovative touchscreen enables one-glance network status checks and basic operations.
 
-Powered by a Qualcomm 1.1GHz quad-core processor, with 1GB DDR4 memory and 512MB NAND flash storage, it ensures stable multi-tasking and compatibility with various OpenWrt plugins. For connectivity, it includes 2x 2.5G Ethernet ports (1 WAN + 1 LAN) and 1x USB 3.0 port, catering to both high-speed wired connections and storage expansion needs. It also supports Type-C PD power supply (compatible with 5V/3A, 9V/3A, 12V/2.5A), offering effortless portability with its compact dimensions (130×91×34mm) and light weight (295g).
-
-Additionally, it comes pre-installed with AdGuard Home and supports over 30 VPN services (with OpenVPN-DCO speeds up to 385Mbps and WireGuard® speeds up to 490Mbps), ensuring security on public networks. It is very suitable for scenarios like remote work and travel network sharing, perfectly balancing mobile convenience and professional performance.
+Packed with 2× 2.5G Ethernet ports (1 WAN + 1 LAN) and 1× USB 3.0 port, it meets high-speed wired connection and storage expansion needs. It also supports Type-C PD power supply (5V/3A, 9V/3A, 12V/2.5A), delivering enhanced portability combined with its compact, lightweight design. Pre-installed with AdGuard Home and compatible with 30+ VPN services (with OpenVPN-DCO speeds up to 385Mbps and WireGuard® speeds up to 490Mbps), it ensures public network security. Ideal for remote work and travel network sharing, it perfectly blends mobile convenience with professional performance.
 
 ![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 

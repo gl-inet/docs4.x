@@ -2,9 +2,9 @@
 
 ## Product overview
 
-Flint 3e (GL-BE6500) is a dual-band Wi-Fi 7 desktop router designed specifically for home users and small offices. It supports Wi-Fi 7 Multi-Link Operation (MLO) technology, which intelligently merges 2.4GHz and 5GHz channels into a single Wi-Fi connection. By utilizing dual-band resources simultaneously, it reduces interference and congestion. With 4K QAM technology, it achieves a dual-band combined speed of 6453Mbps, representing a 20% increase over Wi-Fi 6. The 5G band is upgraded to 4X4 MIMO (160MHz), delivering significantly improved long-range performance.
+Flint 3e (GL-BE6500) is a dual-band Wi-Fi 7 desktop router built for home users and small offices. It supports Wi-Fi 7 Multi-Link Operation (MLO) technology, intelligently merging 2.4GHz and 5GHz channels into a single connection. Simultaneous dual-band resource use cuts interference and congestion, while 4K QAM delivers a combined dual-band speed of 6453Mbps — a 20% boost over Wi-Fi 6. The upgraded 5GHz band (4x4 MIMO, 160MHz) also enhances long-range performance significantly.
 
-Powered by a Qualcomm A53 1.5GHz quad-core processor, with 1GB DDR4 memory and 512M NAND storage, it handles multi-tasking smoothly and runs various plugins effortlessly. Equipped with 5x 2.5G Ethernet ports and 1x USB 3.0 port, it meets the needs for high-speed wired connections and expanded storage. It also supports free Bark Parental Control feature, balancing performance, practicality, and usage safety.
+Packed with 5× 2.5G Ethernet ports and 1× USB 3.0 port, it supports high-speed wired connectivity and storage expansion. Additionally, it is compatible with 30+ VPN services and delivers powerful VPN performance up to 680Mbps on WireGuard® and OpenVPN-DCO, plus it includes free Bark Parental Control, perfectly balancing performance, practicality and security.
 
 ![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/hardware_info/be6500_interface.jpg){class="glboxshadow"}
 

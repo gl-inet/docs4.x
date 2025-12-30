@@ -2,11 +2,9 @@
 
 ## Product overview
 
-Flint 3 (GL-BE9300) is a tri-band Wi-Fi 7 desktop router designed specifically for home users, small offices, and high-demand scenarios. It supports Wi-Fi 7 Multi-Link Operation (MLO) technology, which intelligently merges its 2.4GHz, 5GHz, and 6GHz bands into a single connection to reduce interference and congestion. Combined with 4K QAM technology, the theoretical speeds of the three bands reach 688Mbps (2.4GHz), 2882Mbps (5GHz), and 5765Mbps (6GHz) respectively. Peak performance can be achieved via MLO or 6GHz connectivity, while the 2.4GHz band can be dedicated to IoT devices.
+Flint 3 (GL-BE9300) is a tri-band Wi-Fi 7 desktop router built for home users, small offices, and high-demand scenarios. It supports Wi-Fi 7 Multi-Link Operation (MLO), intelligently merging its 2.4GHz, 5GHz and 6GHz bands into one connection to reduce interference and congestion. Combined with 4K QAM, it boasts theoretical tri-band speeds of 688Mbps (2.4GHz), 2882Mbps (5GHz) and 5765Mbps (6GHz). MLO or 6GHz connectivity delivers peak performance, while the 2.4GHz band can be dedicated to IoT devices.
 
-Powered by a Qualcomm 1.5GHz quad-core processor, paired with 1GB DDR4 memory and 8GB eMMC flash storage, it handles multi-tasking smoothly and runs various plugins effortlessly. For connectivity, it features 5x 2.5G Ethernet ports (including 1 dedicated WAN port, 1 switchable WAN/LAN port, and 3 LAN ports), supporting dual-WAN setups with a maximum shared bandwidth of 5Gbps. It also comes with 1x USB 3.0 port for enhanced expandability.
-
-Additionally, it pre-installs AdGuard Home to block ads and malicious tracking, supports Bark Parental Control and 30+ VPN services, and enables remote management via the GoodCloud platform, balancing performance, practicality, and usage security.
+It features 5× 2.5G Ethernet ports (1 dedicated WAN, 1 switchable WAN/LAN, 3 LAN), supporting dual-WAN setups with 5Gbps max shared bandwidth, plus 1× USB 3.0 port for expanded functionality. Additionally, it comes pre-installed with AdGuard Home for ad-blocking and anti-tracking, supports Bark Parental Control and 30+ VPN services, and enables remote management via GoodCloud — perfectly balancing performance, practicality, and security.
 
 ![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
 

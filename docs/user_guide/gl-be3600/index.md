@@ -41,9 +41,9 @@ To set up Slate 7, you will use one of the four supported internet connection me
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-### 2. Touchscreen Explanation
+### 2. Touchscreen
 
-#### Startup
+#### Power on
 
 When the router is powered on, the GL.iNet logo will be displayed on the screen, followed by the startup progress bar.
 
@@ -57,7 +57,7 @@ The home screen displays four icons representing four network connection types: 
 
 ![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
 
-| Color               | Indication                     |
+| Color               | Status                         |
 | :------------------ | :----------------------------- |
 | Green               | Network connected              |
 | Yellow              | Network connecting or abnormal connection (e.g., no internet access)   |
@@ -67,12 +67,7 @@ Click on any of these icons to view the network status or detailed configuration
 
 #### Functions
 
-Access functions by swiping left and right.
-
-| Action                | Indication                     |
-| :-------------------- | :----------------------------- |
-| Swipe Left to Right   | Move to the previous page      |
-| Swipe Right to Left   | Move to the next page          |
+You can access functions by swiping left and right.
 
 When sliding from right to left, the following items are displayed in sequence, some of which require pre-configuration in the admin panel.
 

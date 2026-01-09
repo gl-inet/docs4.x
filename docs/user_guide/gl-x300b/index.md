@@ -1,38 +1,32 @@
-# GL-X300B (Collie) User Guide
+# Collie (GL-X300B) User Guide
 
-## Hardware info
+## Product overview
 
-GL-X300B (Collie) is an industrial cellular gateway designed to operate under high temperatures and scenarios with potential physical hazards. There are two versions of Collie, designed to operate in indoor stationary facilities, or in transportation vehicles. Collie is perfect for machine-to-machine communications between electrical devices in high electrical noise environments.
+Collie (GL-X300B) is an industrial cellular gateway designed to operate under high temperatures and scenarios with potential physical hazards. There are three versions of Collie, designed to operate in indoor stationary facilities (GL-X300B-RS485 / GL-X300B-BLE), or in transportation vehicles (GL-X300B-GPS). Collie is perfect for machine-to-machine communications between electrical devices in high electrical noise environments.
 
 ![gl-x300b interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
 
-[GL-X300B specification](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
+**What's the difference?**
 
-### PCB Pinout
+![gl-x300b series](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b_series.png){class="glboxshadow"}
 
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg" itemprop="thumbnail" alt="gl-x300b pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
+![gl-x300b comparison](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/model_comparison.png){class="glboxshadow"}
 
----
+- **GL-X300B-GPS** is equipped with five external antennas, including two 2.4GHz Wi-Fi, two 4G LTE, and one GPS Antenna. The extendable wired antennas are perfect for having multiple reception placements within a vehicle, minimizing reception black spots when traveling through high network density cities.
 
-## First time setup
+- **GL-X300B-BLE** is equipped with three external omnidirectional antennas for 2.4GHz Wi-Fi, 4G LTE, and BLE communication, receiving signals from all directions, and providing high flexibility in installation placement within an industrial environment.
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+- **GL-X300B-RS485** includes an RS485 chip with RS485 interface. The module supports bi-directional data transmission of various devices in the field of industrial automation and IoT, thus realizing the functions of data acquisition, control and monitoring.
+
+!!! Note
+
+    The BLE and GPS versions are available with a minimum order quantity.
+
+## Package contents
 
 Please note that the adapter within the package depends on your shipping country.
 
-What's inside the package? 
-
-**Note**: The image below is an example of GL-X300B-GPS, with some models slightly different.
-
-![gl-x300b unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/first_time_setup/x300b-gps_unboxing.jpg){class="glboxshadow"}
-
-Package Contents:
+The package includes:
 
 - 1 x User manual
 - 1 x Collie (GL-X300B)
@@ -41,19 +35,29 @@ Package Contents:
 - 1 x Warranty card
 - 1 x Power adapter (Selected plug type)
 
----
+**Note**: The image below is an example of GL-X300B-GPS, with some models slightly different.
+
+![gl-x300b unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/first_time_setup/x300b-gps_unboxing.jpg){class="glboxshadow"}
+
+## Specifications
+
+[GL-X300B specifications](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
+
+## First-time setup
+
+All GL.iNet routers have a similar setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ## INTERNET
 
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
+Log in to the router's web Admin Panel, and navigate to **INTERNET** from the left-side menu. 
 
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
+This page allows you to select your internet connection type, such as Ethernet, Repeater, Tethering, and Cellular, depending on your model. 
 
-It supports three ways to connect to the internet as listed below:
+For Collie (GL-X300B), it supports three types of connection type: Ethernet, Repeater, and Cellular.
 
 ### Ethernet
 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
+Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
@@ -61,7 +65,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 ### Repeater
 
-Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
+Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
@@ -69,15 +73,19 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 ### Cellular
  
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+Insert a SIM card into the router's SIM card slot to connect it to the internet. This method is useful for sharing internet access from a single SIM card to all connected devices.
 
 [Click here to learn how to connect to the internet via cellular](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_cellular.png){class="glboxshadow"}
 
-### Priority and load balance
+### Multi-WAN
 
-Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
+Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., Ethernet, Repeater, and Cellular) at the same time. If the top-priority internet connection fails, the router will automatically switch to another internet connection. This is also called Failover, ensuring smooth and uninterrupted internet access.
+
+Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet connection. 
+
+Alternatively, you can switch the Multi-WAN mode from Failover to Load Balance, which enables you to use multiple network interfaces at the same time to increase the total bandwidth of the router.
 
 ---
 

@@ -1,96 +1,125 @@
-# How to set up drop-in gateway on a GL.iNet router 
-
-**Please note**: Models with firmware versions below v4.5.0 lack the "Configuration method" option in both the app and the web Admin Panel. Upon enabling the Drop-in Gateway, these models automatically operate in the "All devices are networked through drop-in gateway" mode.
+# How to set up drop-in gateway on a GL.iNet router
 
 GL.iNet offers the drop-in gateway feature, which enhances the functionality of your primary router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. By using this feature, you can keep using your primary router as usual while enjoying additional features. 
 
 You can enable drop-in gateway for [all your devices](#enable-drop-in-gateway-for-all-devices) or [specific devices](#enable-drop-in-gateway-for-specific-devices) connected to your primary router. Follow the appropriate section for your setup.
 
+**Note**: Models with firmware versions below v4.5.0 only supports enabling drop-in gateway for all devices. When drop-in gateway is enabled, all client devices will be networked through drop-in gateway, which means all traffic from connected clients is first handled by this router.
+
 ---
 
 ## Enable drop-in gateway for all devices
 
-### 1. Connect the GL.iNet router to the main router
+### 1. Connect GL.iNet router to the main router
 
 Connect the WAN port of the GL.iNet router to the LAN port of the main router with an ethernet cable.
 
-### 2. Enable drop-in gateway mode 
-There are two methods for enabling drop-in gateway mode: via through the [router admin panel](#via-the-router-admin-panel) or the [GL.iNet mobile app](#via-the-glinet-mobile-app). 
+### 2. Enable drop-in gateway 
 
-#### Via the router admin panel 
+There are two methods to enable drop-in gateway: through the router admin panel or the GL.iNet mobile app. 
 
-1. In a web browser, enter `192.168.8.1`.  
-2. Enter your password, then click **Login**. 
-3. In the left sidebar, click **Network** > **Drop-in Gateway**. 
-![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
+??? "Using web admin panel"
 
-4. Next to **Enable Drop-in Gateway Mode**, toggle the switch to on. 
-5. Select **All devices are networked through drop-in gateway**. 
-![click all devices](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/select-all-devices.jpeg){class="glboxshadow"}
+    1. In a web browser, enter `192.168.8.1`.  
 
-6. Click **Apply**. 
+    2. Enter your password, then click **Login**. 
 
-#### Via the GL.iNet mobile app
+    3. In the left sidebar, click **Network** > **Drop-in Gateway**. 
 
-**Note:** Before you start, install and set up the GL.iNet mobile app on your device. 
+        ![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
 
-1. On the main app screen, tap the **System** tab > **Drop-in Gateway**.![tap drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
+    4. Next to **Enable Drop-in Gateway Mode**, toggle the switch to on. 
 
-2. Tap **Enable**. 
-3. For **Devices are networked via drop-in gateway**, tap **All**.![tap all](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-all.jpeg){class="glboxshadow"}
-4. Tap **Done**. 
+    5. Select **All devices are networked through drop-in gateway**. 
 
-### 3. Disable the DHCP server on the main router
-To disable the DHCP server on your specific router, refer to the instructions provided by your router manufacturer. 
+        ![click all devices](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/select-all-devices.jpeg){class="glboxshadow"}
+
+    6. Click **Apply**. 
+
+??? "Using GL.iNet mobile app"
+
+    **Note:** Before you start, install the GL.iNet mobile app on your device. 
+
+    1. On the main app screen, tap the **System** tab > **Drop-in Gateway**.
+
+        ![tap drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
+
+    2. Tap **Enable**. 
+
+    3. For **Devices are networked via drop-in gateway**, tap **All**.
+
+        ![tap all](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-all.jpeg){class="glboxshadow"}
+
+    4. Tap **Done**. 
+
+### 3. Disable DHCP server on the main router
+
+Please log in to your primary router to disable the DHCP server. You may refer to the instructions provided by your router manufacturer or contact their support. 
 
 ### 4. Set up AdGuard, DNS, VPN, and other features
 
-Follow these articles to enable the features on your GL.iNet router:
+Follow these guides to enable the features you want on your GL.iNet router.
 
-* [AdGuard Home](https://docs.gl-inet.com/router/en/4/interface_guide/adguardhome/){target="_blank"}
-* [Encrypted DNS](https://docs.gl-inet.com/router/en/4/interface_guide/dns/){target="_blank"}
-* [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control/){target="_blank"}
-* [WireGaurd client](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/){target="_blank"}
-* [OpenVPN client](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/){target="_blank"}
+* [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
+* [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
+* [Parental Control](../interface_guide/parental_control.md){target="_blank"}
+* [WireGaurd Client](../interface_guide/wireguard_client.md){target="_blank"}
+* [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---
 
 ## Enable drop-in gateway for specific devices
 
-### 1. Connect the GL.iNet router to the main router
+### 1. Connect GL.iNet router to the main router
+
 Connect the WAN port of the GL.iNet router to the LAN port of the main router with an ethernet cable.
 
-### 2. Enable drop-in gateway mode 
-There are two methods for enabling drop-in gateway mode: via through the [router admin panel](#specific-devices-admin) or the [GL.iNet mobile app](#specific-devices-mobile). 
+### 2. Enable drop-in gateway
 
-#### Via the router admin panel {#specific-devices-admin}
+There are two methods to enable drop-in gateway: through the [router admin panel](#using-web-admin-panel) or the [GL.iNet mobile app](#using-glinet-mobile-app). 
 
-1. In a web browser, enter `192.168.8.1`. 
-2. Enter your password, then click **Login**. 
-3. In the left sidebar, click **Network** > **Drop-in Gateway**. 
-![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
-4. Next to **Enable Drop-in Gateway Mode**, toggle the switch to on. 
-5. Select **Some devices select their own networking gateway**. 
-![click some devices](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/select-some-devices.jpeg){class="glboxshadow"}
+??? "Using web admin panel"
 
-6. Click **Apply**. 
+    1. In a web browser, enter `192.168.8.1`. 
 
-**Note:** Do not close this tab. You will need to enter the IP address (shown on the screen) in the next step.
+    2. Enter your password, then click **Login**. 
 
-#### Via the GL.iNet mobile app {#specific-devices-mobile}
+    3. In the left sidebar, click **Network** > **Drop-in Gateway**. 
 
-**Note:** Before you start, install and set up the GL.iNet mobile app on your device. 
+        ![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
 
-1. On the main app screen, tap the **System** tab > **Drop-in Gateway**.![tap drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
-2. Tap **Enable**. 
-3. For **Devices are networked via drop-in gateway**, tap **part**.![tap part](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-part.jpeg){class="glboxshadow"}
-4. Tap **Done**. 
+    4. Next to **Enable Drop-in Gateway Mode**, toggle the switch to on. 
+    
+    5. Select **Some devices select their own networking gateway**. 
 
-**Note:** Do not close this tab. You will need to enter the IP address (shown on the screen) in the next step. 
+        ![click some devices](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/select-some-devices.jpeg){class="glboxshadow"}
 
-### 3. Set the gateway and DNS on the device
+    6. Click **Apply**. 
+
+    **Note:** Please Do NOT close this tab. You will need to enter the IP address (shown on the screen) in the next step.
+
+??? "Using GL.iNet mobile app"
+
+    **Note:** Before you start, install the GL.iNet mobile app on your device. 
+
+    1. On the main app screen, tap the **System** tab > **Drop-in Gateway**.
+    
+        ![tap drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
+    
+    2. Tap **Enable**. 
+    
+    3. For **Devices are networked via drop-in gateway**, tap **part**.
+    
+        ![tap part](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-part.jpeg){class="glboxshadow"}
+
+    4. Tap **Done**. 
+
+    **Note:** Please Do NOT close this tab. You will need to enter the IP address (shown on the screen) in the next step. 
+
+### 3. Set gateway and DNS on specific device
 
 ??? "Windows"
+    
     1. Connect your device to the main router. 
     2. On your Windows, open **Settings** > **Network & Internet**.
     3. Based on your connection method, follow these steps: 
@@ -141,20 +170,26 @@ There are two methods for enabling drop-in gateway mode: via through the [router
     6. Keep a record of **IP Address** and **Subnet Mask**.
     7. Next to **Configure IPv4**, click **Manually**.
     8. Enter the following information: 
-        * **IP address:** Enter the IP Address you obtained in step 5. 
-        * **Subnet mask:** Enter the IP Address you obtained in step 5. 
+        * **IP address:** Enter the IP Address you obtained in step 6. 
+        * **Subnet mask:** Enter the IP Address you obtained in step 6. 
         * **Router:** Enter the IP address shown on the **Drop-in Gateway** page. 
     9. Click **OK** > **OK**. 
 
 ### 4. Set up AdGuard, DNS, VPN, and other features
 
-Follow these articles to enable the features on your GL.iNet router:
+Follow these guides to enable the features you want on your GL.iNet router.
 
-* [AdGuard Home](https://docs.gl-inet.com/router/en/4/interface_guide/adguardhome/){target="_blank"}
-* [Encrypted DNS](https://docs.gl-inet.com/router/en/4/interface_guide/dns/){target="_blank"}
-* [Parental controls](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control/){target="_blank"}
-* [WireGaurd client](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/){target="_blank"}
-* [OpenVPN client](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/){target="_blank"}
+* [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
+* [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
+* [Parental Control](../interface_guide/parental_control.md){target="_blank"}
+* [WireGaurd Client](../interface_guide/wireguard_client.md){target="_blank"}
+* [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
+
+---
+
+Related Article:
+
+- [Drop-in Gateway](../interface_guide/drop-in_gateway.md)
 
 ---
 

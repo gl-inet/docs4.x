@@ -12,9 +12,13 @@ If you encounter an iPhone tethering failure, you can try the following steps to
 
 3. Make sure the iOS version is 15 or above.
 
-4. Unplug and replug the Lightning cable.
+4. Unplug and replug the Lightning / Type-C cable. 
 
-5. Reboot both the router and your iPhone. Sometimes rebooting the iPhone solves the tethering issue.
+5. Use another USB cable. Ensure it supports data transfer (not just charging).
+
+6. Use the original power supply for the router.
+
+7. Reboot both the router and your iPhone. Sometimes rebooting the iPhone solves the tethering issue.
 
 ---
 

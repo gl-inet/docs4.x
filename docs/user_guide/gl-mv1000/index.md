@@ -1,51 +1,42 @@
 # Brume (GL-MV1000) User Guide
 
-## Hardware info
+## Product overview
 
-Brume (GL-MV1000) and Brume-W (GL-MV1000W)* are powerful and stable networking products designed to do cutting-edge computing. With the Marvell high-performance chipset, the Brume and Brume-W* can run state-of-the-art cryptography at impressive speeds for an excellent VPN routing experience. Pre-installed OpenWrt and supported Ubuntu, Brume and Brume-W* allows in-depth developments for commercial IoT projects.
+Brume (GL-MV1000) and Brume-W (GL-MV1000W) are powerful and stable networking products designed to do cutting-edge computing. With the Marvell high-performance chipset, the Brume and Brume-W* can run state-of-the-art cryptography at impressive speeds for an excellent VPN routing experience. Pre-installed OpenWrt and supported Ubuntu, Brume and Brume-W* allows in-depth developments for commercial IoT projects.
 
-Brume-W (GL-MV1000W)* is the special edition of Brume (GL-MV1000) that comes with an embedded Wi-Fi module, which delivers high-speed WiFi performance on 2.4GHz Wi-Fi with up to 300Mbps Wi-Fi speed.
+Brume-W (GL-MV1000W) is the special edition of Brume (GL-MV1000) that comes with an embedded Wi-Fi module, which delivers high-speed WiFi performance on 2.4GHz Wi-Fi with up to 300Mbps Wi-Fi speed.
 
-[GL-MV1000 specification](https://www.gl-inet.com/products/gl-mv1000/#specs){target="_blank"}
+## Specifications
 
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/3/specification/mv1000/mv1000.png" itemprop="contentUrl" data-size="1786x1328">
-      <img src="https://static.gl-inet.com/docs/router/en/3/specification/mv1000/mv1000.png" itemprop="thumbnail" alt="gl-mv1000 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
+[GL-MV1000 specifications](https://www.gl-inet.com/products/gl-mv1000/#specs){target="_blank"}
 
 ---
 
-## First time setup
+## First-time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a similar setup process. [Click here to learn about the first time-setup](../../faq/first_time_setup.md/).
 
 ---
 
 ## INTERNET
 
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
+Log in to the router's web Admin Panel, and navigate to **INTERNET** from the left-side menu. 
 
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
+This page allows you to select your internet connection type, such as Ethernet, Repeater, Tethering, and Cellular, depending on your model. 
 
-It supports three ways to connect to the internet as listed below:
+For Brume (GL-MV1000), it supports three types of connection type: Ethernet, Tethering, and Cellular.
 
 ### Ethernet
 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
+Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mv1000/internet/mv1000_ethernet.png){class="glboxshadow"}
 
-
 ### Tethering
 
-Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+Connect the router's USB port to a smartphone with active mobile data via a USB cable to access the Internet. This method enables multiple devices connected to the router to access the internet using the smartphone's mobile data.
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
@@ -53,15 +44,19 @@ Establish internet access with connected devices by sharing a smartphone's mobil
 
 ### Cellular
  
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+Connect the router to the internet by plugging a cellular-enabled USB modem into the router's USB port. This method is useful for sharing internet from a USB modem to all connected devices.
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mv1000/internet/mv1000_cellular.png){class="glboxshadow"}
 
-### Priority and load balance
+### Multi-WAN
 
-Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
+Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., Ethernet, Repeater) at the same time. If the top-priority internet connection fails, the router will automatically switch to another internet connection. This is also called Failover, ensuring smooth and uninterrupted internet access.
+
+Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet connection. 
+
+Alternatively, you can switch the Multi-WAN mode from Failover to Load Balance, which enables you to use multiple network interfaces at the same time to increase the total bandwidth of the router.
 
 ---
 

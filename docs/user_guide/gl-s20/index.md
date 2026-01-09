@@ -2,7 +2,7 @@
 
 ## Hardware info
 
-[GL-S20 specification](https://www.gl-inet.com/products/gl-s20/#specs){target="_blank"}
+[GL-S20 specifications](https://www.gl-inet.com/products/gl-s20/#specs){target="_blank"}
 
 ## GPIO list
 
@@ -45,7 +45,7 @@
 | GPIO47                        | UART1 CTS      | used for connect to h2 uart0 rts                             |
 | GPIO48                        | UART1 TX       | used for connect to h2 uart0 rx                              |
 
-### PCB Pinout
+## PCB Pinout
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -57,7 +57,7 @@
 
 ---
 
-## First time setup
+## First-time setup
 
 Please refer to [GL-S20](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/){target="_blank"} on IoT docs.
 

@@ -1,13 +1,23 @@
-# GL-AR750(Creta) User Guide
+# Creta (GL-AR750) User Guide
 
-## How to set up GL-AR750
+## Product overview
 
-To set up GL-AR750, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+Creta (GL-AR750) is a dual-band travel AC router. The simultaneous dual-band supports up to 733Mbps (2.4GHz: 300Mbps + 5GHz: 433Mbps) wireless transmission rate. Creta can convert a public network to a private Wi-Fi for secure surfing. External storage supports MicroSD up to 128GB. OpenWrt/LEDE and OpenVPN are pre-installed. Therefore, Creta gives the privacy-minded users a fast and simple VPN that utilizes state-of-the-art cryptography.
+
+![ar750 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/product_info/ar750_overview.png){class="glboxshadow"}
+
+### Specifications
+
+[GL-AR750 specifications](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}
+
+## How to set up Creta
+
+To set up Creta, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for GL-AR750 and other router models.)</small>
+<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Creta and other router models.)</small>
 
-### 1. Power on the GL-AR750
+### 1. Power on Creta
 
 Plug the Micro USB power cable into the power port of the router. Make sure you are using a standard 5V/2A power adapter.
 
@@ -15,7 +25,7 @@ Plug the Micro USB power cable into the power port of the router. Make sure you 
 
     Hot plugging for TF card is not supported. If you want to use TF card, please insert before powering on the router.
 
-### 2. Connect your device to the GL-AR750
+### 2. Connect your device to Creta
 
 Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
@@ -27,7 +37,7 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
     Connect your device to the router's LAN port using an ethernet cable.
 
-### 3. Connect the GL-AR750 to the internet 
+### 3. Connect Creta to the internet 
 
 **Note:** The following instructions were written for those connecting the router to Internet via web admin panel. If you want to use the GL.iNet app instead of the web admin panel, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
@@ -83,18 +93,18 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). GL-AR750 (and other GL.iNet routers) support OpenVPN and WireGuard.
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Creta (and other GL.iNet routers) support OpenVPN and WireGuard.
 
 === "OpenVPN" 
 
-    GL-AR750 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Creta (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    GL-AR750 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Creta (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -297,15 +307,3 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
-
-## Product overview
-
-### Product information
-
-Creta (GL-AR750) is a dual-band travel AC router. The simultaneous dual-band supports up to 733Mbps (2.4GHz: 300Mbps + 5GHz: 433Mbps) wireless transmission rate. Creta can convert a public network to a private Wi-Fi for secure surfing. External storage supports MicroSD up to 128GB. OpenWrt/LEDE and OpenVPN are pre-installed. Therefore, Creta gives the privacy-minded users a fast and simple VPN that utilizes state-of-the-art cryptography.
-
-![ar750 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/product_info/ar750_overview.png){class="glboxshadow"}
-
-### Specifications
-
-Refer to [Specifications](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}.

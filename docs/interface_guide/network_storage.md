@@ -3,6 +3,7 @@
 ## Contents
 
 - [Introduction](#introduction)
+- [Supported models](#supported-models)
 - [Insert storage device](#insert-storage-device)
 - [Set up Samba](#set-up-samba)
 - [Set up WebDAV](#set-up-webdav)
@@ -12,34 +13,38 @@
 
 ## Introduction
 
-Some GL.iNet models support MicroSD(TF) card, some models have USB port and support USB flash drive and portable external hard drive, you can set up Samba, WebDAV, DLNA on this page for the disk.
+Network storage enables wireless file sharing across devices by connecting a USB drive or SD card to your router. The router converts the storage device into a shared network drive, accessible to all Wi-Fi-connected devices.
 
-The supported disk formats are NTFS, FAT32.
+Some GL.iNet models have MicroSD(TF) card slots, while some models have USB ports, supporting USB flash drives and portable external hard drives. You can configure Samba, WebDAV, DLNA for these storage devices, which support common formats such as NTFS, FAT32, and EXT4.
 
-**Note**: The power consumption of USB hard drive is quite high. You should use it with an external power supply. Otherwise, it may cause malfunction.
+!!! Note 
 
-**Note**: Some models have USB Port/MicroSD slot but have limited storage space and do not support file sharing.
+    1. The power consumption of a USB hard drive is quite high. Use it with an external power supply, otherwise it may cause malfunction.
+
+    2. Some models have a USB port or MicroSD slot but have limited storage space and do not support network storage.
 
 ## Supported models
 
-Usually models with USB ports or MicroSD(TF) slots are supported for file sharing. For devices with Flash space less than or equal to 32MB, the Network Storage function is not yet supported and is still being developed and optimized.
+Usually, models with USB ports or MicroSD(TF) slots support network storage (i.e. file sharing). 
 
-| Router Model                   | Samba | Webdav | DLNA | USB Port | MicroSD Card |
-| :----------------------------- | :---: | :---: | :---: | :------: | :----------: |
-| GL-BE3600 (Slate 7)            | √     | √     | √     | √        | -            |
-| GL-X2000 (Spitz Plus)          | √     | √     | √     | √        | -            |
-| GL-MT6000 (Flint 2)            | √     | √     | √     | √        | -            |
-| GL-XE3000 (Puli AX)            | √     | √     | √     | √        | √            |
-| GL-X3000 (Spitz AX)            | √     | √     | √     | √        | √            |
-| GL-MT3000 (Beryl AX)           | √     | √     | √     | √        | -            |
-| GL-MT2500/GL-MT2500A (Brume 2) | √     | √     | √     | √        | -            |
-| GL-AXT1800 (Slate AX)          | √     | √     | √     | √        | √            |
-| GL-AX1800 (Flint)              | √     | √     | √     | √        | -            |
-| GL-A1300 (Slate Plus)          | √     | √     | √     | √        | -            |
-| GL-S1300 (Convexa-S)           | √     | √     | √     | √        | -            |
-| GL-SFT1200 (Opal)*FW 4.7.2     | √     | -     | -     | √        | -            |
-| GL-E750V2 (Mudi V2)*FW 4.7.2   | √     | -     | -     | √        | √            |
-| GL-MV1000/GL-MV1000W (Brume)   | √     | √     | √     | √        | √            |
+For devices with flash storage of 32MB or less, the Network Storage function is not yet supported.
+
+| Router Model                           | Samba | Webdav | DLNA | USB Port | MicroSD Card |
+| :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
+| GL-BE3600 (Slate 7)                    | √     | √     | √     | √        | -            |
+| GL-X2000 (Spitz Plus)                  | √     | √     | √     | √        | -            |
+| GL-MT6000 (Flint 2)                    | √     | √     | √     | √        | -            |
+| GL-XE3000 (Puli AX)                    | √     | √     | √     | √        | √            |
+| GL-X3000 (Spitz AX)                    | √     | √     | √     | √        | √            |
+| GL-MT3000 (Beryl AX)                   | √     | √     | √     | √        | -            |
+| GL-MT2500/GL-MT2500A (Brume 2)         | √     | √     | √     | √        | -            |
+| GL-AXT1800 (Slate AX)                  | √     | √     | √     | √        | √            |
+| GL-AX1800 (Flint)                      | √     | √     | √     | √        | -            |
+| GL-A1300 (Slate Plus)                  | √     | √     | √     | √        | -            |
+| GL-S1300 (Convexa-S)                   | √     | √     | √     | √        | -            |
+| GL-SFT1200 (Opal)</br>***FW 4.7.2**    | √     | -     | -     | √        | -            |
+| GL-E750V2 (Mudi V2)</br>***FW 4.7.2**  | √     | -     | -     | √        | √            |
+| GL-AR750S-EXT (Slate)</br>***FW 4.7.2**| √     | -     | -     | √        | √            |
 
 ## Insert Storage Device
 
@@ -47,97 +52,105 @@ For TF card, you need to power off the router first, insert the TF card and then
 
 For USB Drive, you can directly plug it into the USB port. For portable external hard drive, if you have a separate power supply, please connect it to the power supply.
 
-Go to web Admin Panel -> APPLICATIONS -> Network Storage
+Log in to the router's web Admin Panel, navigate to APPLICATIONS -> Network Storage.
 
 ![network storage](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/network_storage_init.png){class="glboxshadow"}
 
-When a disk is found.
+Connect the storage device. When it is detected, the page is displayed as below.
 
 ![network storage, disk found](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
 
 ## Set Up Samba
 
-1. Toggle on to enable Samba, for other parameters, please refer to the following, then click **Apply**.
+1. Toggle on **Enable Samba** and click **Apply**.
 
-    * Allow Access Samba from WAN, enable it if you want the upstream devices can access the Samba.
+    * Allow Access Samba from WAN: Enable it if you want the upstream devices to access Samba.
 
     ![enable samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
 
-2. Then let's set up to get the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
+2. Click **Quick Setup Share** to set the shared link.
 
     ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow"}
 
-3. Add a user. This step will be skipped if you already have an account. Then click **Next**.
+3. Add a user and click **Next**. This step will be skipped if you already have an account. 
 
     ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
 
-4. Click the triangle icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
+4. Click the triangle icon to show all folders. Select a folder for sharing, or click the disk name (disk1_part1) if you want to share the whole disk. Then click **Next**.
 
     ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
 
-5. Shared folder settings.
+5. Set up the shared folder.
 
-    For security reasons, we do not recommend enabling **Anonymous Access**.
+    For security reasons, it is not recommended to enable **Anonymous Access**.
 
-    The user you just created will be added to **Read-Only User** by default. If you want this account to be able to write or delete files, you can remove it from Read-Only User and add it to **Writable User**. Click **Apply**.
+    The user created in the previous step will be added to **Read-Only User** by default. If you want this user to be able to write or delete files, remove it from Read-Only User and add it to **Writable User**, and click **Apply**.
 
     ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
 
-6. Folder access link. It shows the link for Windows and Unix-like OS. The Unix-like system include Android, iOS, macOS, Ubuntu etc. Then please try to access the Samba on various OS, check out [here](#samba-client).
+6. Obtain the folder access link. 
 
-    **Note:** If you enabled **Allow Access Samba from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+    The page will show the link for Windows and Unix-like OS. The Unix-like system includes Android, iOS, macOS, Ubuntu, etc. 
+    
+    Now you can access your shared folder over Samba service via these links. Click [here](#samba-client) for details.
 
     ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+
+    **Note:** If you enable **Allow Access Samba from WAN** and access the shared folder from upper network, please replace the router IP (default 192.168.8.1) in the access link with your router's WAN IP, which can be found on the INTERNET page of the web admin panel.
 
 ---
 
 ## Set Up WebDAV
 
-1. Toggle on to enable WebDAV, for other parameters, please refer to the following, then click **Apply**.
+1. Toggle on **Enable WebDAV**, and click **Apply**.
 
-    * Allow Access WebDAV from WAN, enable it if you want the upstream devices can access the WebDAV.
+    * Allow Access WebDAV from WAN: Enable it if you want the upstream devices to access WebDAV.
 
-    * WebDAV Protocol, **HTTP** is not encrypted, using on your risk; **HTTPS** is encrypted, it uses self signed certificate.
+    * WebDAV Protocol: **HTTP** is not encrypted; use it at your own risk. **HTTPS** is encrypted and it uses self-signed certificate.
 
-    * WebDAV Port, generally you do not need to modify the port number unless it is conflicts. Port number range 1024 - 65535.
+    * WebDAV Port: No need to modify the port number unless there’s a conflict. The recommended port number range is 1024 - 65535.
 
     ![enable webdav](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow"}
 
-2. Then let's set up to get the shared link. When a disk is detected, a link of **Quick Setup Share** is displayed. Click **Quick Setup Share**.
+2. Click **Quick Setup Share** to set the shared link.
 
     ![enable webdav](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share.png){class="glboxshadow"}
 
-3. Add a user. This step will be skipped if you already have an account. Then click **Next**.
+3. Add a user and click **Next**. This step will be skipped if you already have an account.
 
     ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
 
-4. Click the triangel icon to show all folders, select a folder for sharing. Or click the disk1_part1 to share whole disk. Then click **Next**.
+4. Click the triangel icon to show all folders. Select a folder for sharing, or click the disk name (disk1_part1) to share the whole disk. Then click **Next**.
 
     ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
 
-5. Shared folder settings.
+5. Set up the shared folder.
 
-    For security reasons, we do not recommend enabling **Anonymous Access**.
+    For security reasons, it is not recommended to enable **Anonymous Access**.
 
-    The user you just created will be added to **Read-Only User** by default. If you want this account to be able to write or delete files, you can remove it from Read-Only User and add it to **Writable User**. Click **Apply**.
+    The user created in the previous step will be added to **Read-Only User** by default. If you want this user to be able to write or delete files, remove it from Read-Only User and add it to **Writable User**, and click **Apply**.
 
     ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
 
-6. Folder access link. It shows the link for Windows and Unix-link OS. The Unix-like system include Android, iOS, macOS, Ubuntu etc. Then please try to access the WebDAV on various OS, check out [here](#webdav-client).
+6. Obtain folder access link. 
 
-    **Note:** If you enabled **Allow Access WebDAV from WAN** and access from WAN, you need to replace the Router IP (default 192.168.8.1) in the figure below with WAN IP which can be found in the INTERNET page.
+    The page will show the link for Windows and Unix-like OS. The Unix-like system includes Android, iOS, macOS, Ubuntu, etc. 
+    
+    Now you can access your shared folder over WebDAV service via these links. Click [here](#webdav-client) for details.
 
     ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+
+    **Note:** If you enabled **Allow Access WebDAV from WAN** and access the shared folder from upper network, please replace the router IP (default 192.168.8.1) in the access link with your router's WAN IP, which can be found on the INTERNET page of the web admin panel.
 
 ---
 
 ## Set Up DLNA
 
-Toggle to enable DLNA, modify **Share Path** if needed, click **Apply**. That is it.
+Toggle on **Enable DLNA**, and click **Apply**.
 
-![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/enable_dlna.png){class="glboxshadow"}
+![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/enable_dlna.jpg){class="glboxshadow"}
 
-Connect your smart TV to the router, it will find the DLNA Server.
+Connect your smart TV to the router, and it will find the DLNA Server.
 
 ---
 
@@ -145,7 +158,7 @@ Connect your smart TV to the router, it will find the DLNA Server.
 
 === "Windows"
 
-    Here is an example of Windows 11, Windows 10 is similar.
+    Here is an example of Windows 11, which also applies to Windows 10.
 
     Open up File Explorer and then right-click on **This PC** (in the left pane). From the resulting context menu, select **Show more options** -> **Add a network location**
 

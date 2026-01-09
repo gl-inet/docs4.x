@@ -1,44 +1,40 @@
 # Slate Plus (GL-A1300) User Guide
 
-## Hardware info
+## Product overview
 
 Slate Plus (GL-A1300) is a pocket-sized travel router with a powerful CPU optimized for network stability and processing VPN encryption efficiently. It includes our latest security features and runs on the latest OpenWrt operating system. It is designed for frequent travelers who have a heavy demand on using VPN networks.
 
 ![GL-A1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){class="glboxshadow"}
 
-[GL-A1300 specification](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
-
-[LED Indication](../../faq/led.md#gl-a1300)
-
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_pinout.jpg" itemprop="contentUrl" data-size="1500x1398">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_pinout.jpg" itemprop="thumbnail" alt="GL-A1300 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
-
----
-
-## First time setup
-
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+## Package contents
 
 Please note that the adapter within the package depends on your shipping country.
 
-What's inside the package?
+The package includes:
+
+- 1 x User manual
+- 1 x Slate Plus (GL-A1300)
+- 1 x Ethernet Cable
+- 1 x Warranty card
+- 1 x Power adapter (Selected plug type)
 
 ![gl-a1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/first_time_setup/gl-a1300_unboxing.jpg){class="glboxshadow"}
 
-Package Contents:
+## LED indication
 
-1 x User manual
-1 x Slate Plus (GL-A1300)
-1 x Ethernet Cable
-1 x Warranty card
-1 x Power adapter (Selected plug type)
+[LED Indication](../../faq/led.md#gl-a1300)
+
+## Specifications
+
+[GL-A1300 specifications](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
+
+## First time setup
+
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+
+To set up Slate Plus, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Please refer to this setup video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zhY7AqmKJAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

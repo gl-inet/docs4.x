@@ -4,180 +4,295 @@
 
     This guide is based on firmware v4.8. If you are using an earlier firmware version, please visit [here](vpn_dashboard_v4.7.md).
 
-Access to web Admin Panel, on the left side -> VPN -> VPN Dashboard. 
+On the left side of web Admin Panel -> VPN -> VPN Dashboard. 
 
-This page visually displays VPN status and settings through graphics.
+The VPN dashboard displays VPN client connection details, tunnel rules, and other advanced settings.
 
-![vpn dashboard unmarked](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
-
-### Contents
-
-The VPN dashboard mainly consists of the following parts, marked in the figure below.
-
-1. [VPN Setup Wizard](#vpn-setup-wizard)
-2. [Primary Tunnel](#primary-tunnel)
-    3. [Traffic Originating From](#traffic-originating-from)
-    4. [Execute](#execute)
-    5. [Travelling To](#travelling-to)
-    6. [Tunnel settings](#tunnel-settings)
-7. [Add Tunnel](#add-tunnel)
-8. [Non-VPN Tunnel](#non-vpn-tunnel)
-
-</br>
-![vpn dashboard marked](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_dashboard_2.png){class="glboxshadow"}
-
-This guide will introduce to you one by one.
+You can view VPN connection details (e.g., server address, traffic statistics, client virtual IP), or perform advanced settings on the VPN network, such as enabling kill switch, creating VPN tunnel rules for multi-tunnel scenarios, etc.
 
 ## VPN Setup Wizard
 
-There is no configuration available for VPN Tunnel by default. Please click on VPN Setup Wizard at the upper left, which can help you set up the WireGuard VPN quickly.
+By default, there are no available configurations on the VPN Dashboard.
 
-![vpn wizard 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_wizard_1.png){class="glboxshadow"}
+![vpn dashboard initial state](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_dashboard_initial.png){class="glboxshadow"}
 
-The VPN Setup Wizard is only for AzireVPN, Mullvad, PIA, Surfshark, NordVPN, Hide.me and IPVanish. Configuring the VPN may take a few minutes.
+Click on the book icon in the upper left, and you can follow the instructions in the VPN Setup Wizard to complete the VPN configuration quickly.
 
-![vpn wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/vpn_wizard_2.png){class="glboxshadow"}
+![vpn wizard 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_wizard_1.png){class="glboxshadow"}
 
-For other vpn providers, skip the wizard and go to [OpenVPN Client](openvpn_client.md){target="_blank"} / [WireGuard Client](wireguard_client.md){target="_blank"} to set up VPN manually. 
+![vpn wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_wizard_2.png){class="glboxshadow"}
 
-## Primary Tunnel
+**Note**: The VPN Setup Wizard is only for AzireVPN, Hide.me, IPVanish, Mullvad, NordVPN, PIA and Surfshark. It may take a few minutes.
 
-The Primary Tunnel is a preset tunnel where you can customize the traffic rule by setting three factors: 
+For other VPN providers, skip the wizard and go to [OpenVPN Client](openvpn_client.md){target="_blank"} / [WireGuard Client](wireguard_client.md){target="_blank"} to set up VPN manually. 
 
-- Traffic Originating From (i.e. traffic of which device should use this rule)
-- Execute (i.e. use VPN or not use VPN)
-- Travelling To (i.e. to which target does the traffic travels through this tunnel)
+Once connected successfully, the page displays as below.
 
-![primary tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/primary_tunnel.png){class="glboxshadow"}
+![vpn connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
-### Traffic Originating From
+It displays the currently used VPN protocol (e.g., WireGuard), the configuration file, server address, server listen port, traffic statistics and client virtual IP(s).
 
-Click the greyed-out box under Traffic Originating From, select the device that you want to apply this rule to.
+## VPN Mode
 
-![traffic from 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_1.png){class="glboxshadow"}
+In the VPN Dashboard, you can switch the VPN mode by clicking the button in the upper right corner.
 
-![traffic from 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_2.png){class="glboxshadow"}
+![vpn mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_mode.png){class="glboxshadow"}
 
-- **All Clients**: Traffic from all devices will apply this rule.
+There are two modes available: **Global Mode** and **Policy Mode**.
 
-    ![all clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_3.png){class="glboxshadow gl-80-desktop"}
+![vpn mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode.png){class="glboxshadow"}
 
-- **Specified Connection Methods**: Traffic from specified connection methods (LAN subnet/Drop-in Gateway/Guest Network) will apply this rule.
+### Global Mode
 
-    ![specified connection](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_4.png){class="glboxshadow gl-80-desktop"}
+Global Mode is the default VPN mode. 
 
-- **Specified Devices**: Traffic from specified devices will apply this rule.
+In this mode, all traffic will be routed through the VPN tunnel, and only one VPN client instance can be activated.
 
-    ![specified device](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_5.png){class="glboxshadow gl-80-desktop"}
+It is ideal for scenarios requiring all device traffic to pass through a single VPN server, such as unified network security or region-specific content access.
 
-- **Exclude Specified Devices**: Traffic from specified devices will **NOT** apply this rule.
+Take the following image as an example: Under Global Mode, only one VPN client can be activated, which connects to a single VPN server in Australia over WireGuard protocol. All traffic from devices connected to this router will be routed through this VPN tunnel.
 
-    ![exclude specified device](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/traffic_from_6.png){class="glboxshadow gl-80-desktop"}
+![vpn connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
-### Execute
+### Policy Mode
 
-Click the greyed-out box under Execute, select the action you want to perform on this rule.
+In this mode, you can connect to multiple VPN servers on a single device and customize VPN rules.
 
-![execute 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/execute_1.png){class="glboxshadow"}
+It suits use cases needing flexible traffic management, like routing different data through multiple VPN servers or applying custom access rules.
 
-![execute 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/execute_2.png){class="glboxshadow"}
+Switch the VPN Mode to Policy Mode, and click Apply.
 
-- **Execute**: Use VPN or Not Use VPN.
-- **Auto-select Configuration**: When this option is enabled, the tunnel automatically selects available profiles to connect.
-- **Kill Switch**: Enable this feature to block traffic that matches this rule but is not tunneled, with higher priority than other VPN tunnel rules.
+![policy mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/policy_mode.png){class="glboxshadow"}
 
-### Travelling To
+After switching, if the VPN is not enabled, the page displays as below, which has three sections, marked with A, B and C.
 
-Click the greyed-out box under Travelling To, select the target that the traffic travels to through this tunnel.
+![policy mode no vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/policy_no_vpn_file.png){class="glboxshadow"}
 
-![Travel to 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_1.png){class="glboxshadow"}
+- [Primary Tunnel](#primary-tunnel)
+- [Add Tunnel](#add-tunnel)
+- [All Other Traffic](#all-other-traffic)
 
-![Travel to 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_2.png){class="glboxshadow"}
+Click on the corresponding section to learn more.
 
-- **All targets**: Traffic through this tunnel will travel to all destinations.
+#### Primary Tunnel
 
-    ![all targets](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_3.png){class="glboxshadow gl-80-desktop"}
+The primary tunnel is a <u>preset</u> tunnel in Policy Mode. By default, it has the top priority, and you can modify [tunnel priority](#tunnel-priority) if there is more than one tunnel.
 
-- **Specified Domain / IP List**: Traffic through this tunnel will travel to specified Domain / IP. 
+In this tunnel, you can customize the tunnel rule by setting three factors: 
 
-    Manually input the specified Domain / IP.
+1. **From**: It refers to the traffic source, i.e., which device's traffic should apply this tunnel rule.
 
-    ![specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_4.png){class="glboxshadow gl-80-desktop"}
+    Follow the steps below to select the traffic source.
 
-    Or switch the Input Mode from Manual to Subscription URL and input URL Link. 
+    Click the greyed-out box.
 
-    ![specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_5.png){class="glboxshadow gl-80-desktop"}
+    ![traffic from](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_from_1.png){class="glboxshadow"}
 
-    !!! Note
-        - If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day. 
+    Select the device that you want to apply this rule.
 
-        - Make sure to enter the correct URL. The URL detection will identify the correctness of the domain name or IP address. [Learn More](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
+    ![traffic from](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_from_2.jpg){class="glboxshadow"}
+        
+    - **All Clients**
+    
+        If selected, traffic from all devices will apply this rule.
+        
+        ![all clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_clients.jpg){class="glboxshadow"}
 
-- **Exclude specified Domain / IP List**: Traffic through this tunnel will **NOT** travel to specified Domain / IP.
+    - **Specified Connection Types**
+    
+        If selected, traffic from specified connection types (e.g., LAN subnet, Drop-in Gateway, Guest Network) will apply this rule.
+        
+        ![specified connection](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_connection_types_1.jpg){class="glboxshadow"}
 
-    Manually input the specified Domain / IP.
+        If you enable the OpenVPN server or WireGuard server on this router, there will be more options for the Specified Connection Methods, which is useful in [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md).
 
-    ![exclude specified domain/IP](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/travel_to_6.png){class="glboxshadow gl-80-desktop"}
+        ![specified connection](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_connection_types_2.png){class="glboxshadow"}
 
-    Or switch the Input Mode from Manual to Subscription URL and input URL Link. 
+    - **Specified Devices**
+    
+        If selected, traffic from specified devices (based on MAC address) will apply this rule.
 
-    !!! Note
-        - If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day. 
+        ![specified devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_devices.jpg){class="glboxshadow"}
 
-        - Make sure to enter the correct URL. The URL detection will identify the correctness of the domain name or IP address. [Learn More](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
+    - **Exclude Specified Devices**
 
-### Tunnel Settings
+        If selected, traffic from specified devices (based on MAC address) will **NOT** apply this rule.
 
-Click the cog icon next to the Primary Tunnel, you can rename the tunnel, change tunnel settings or delete the tunnel. 
+        ![exclude devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_devices.jpg){class="glboxshadow"}
 
-![tunnel settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/tunnel_settings.png){class="glboxshadow"}
+2. **To**: It refers to the destination/target, to which the traffic is routed through the current tunnel.
 
-**Options**
+    Follow the steps below to select the target.
 
-![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/tunnel_options.png){class="glboxshadow gl-80-desktop"}
+    Click the greyed-out box. 
 
-- **Services from GL.iNet Use VPN**: If this option is enabled, GoodCloud, DDNS, and rtty services will use VPN tunnels to send packets. Note that these services normally need to use the real IP address of the device, otherwise operations may fail.
-- **Remote Access LAN**: If this option is enabled, resources inside the LAN subnet can be accessed through the VPN tunnel.
-- **IP Masquerading**: If this option is enabled, when client devices on LAN send their IP packets, the router replaces the source IP address with its own address and then forwards it to the VPN tunnel.
-- **MTU**: The MTU you set for the instance here will overwrite the MTU item in the configuration file.
+    ![traffic to](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_to_1.png){class="glboxshadow"}
+    
+    Select the target to which the traffic will be routed through this tunnel.
 
-## Add Tunnel
+    ![traffic to](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_to_2.png){class="glboxshadow"}
 
-Apart from the preset Primary Tunnel, you can add tunnels to achieve multiple VPN instances.
+    - **All targets**
+    
+        If selected, traffic that applies this rule will be routed to all targets.
 
-![add tunnels](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/add_tunnel.png){class="glboxshadow"}
+        ![all targets](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_targets.png){class="glboxshadow"}
+    
+    - **Specified Domain / IP List**
+    
+        If selected, traffic that applies this rule will be routed to specified Domain / IP. 
 
-After adding a tunnel, the VPN Dashboard page will display the **Priority** option in the upper right corner, which is used to set the priority of tunnels.
+        Manually input the specified Domain / IP.
 
-![priority 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/priority_1.png){class="glboxshadow"}
+        ![specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_manual.png){class="glboxshadow"}
 
-By default, the preset Primary Tunnel will have the highest priority, followed by other manual-added tunnel(s).
+        Or switch the **Input Mode** from Manual to Subscription URL, and input URL Link. 
 
-The built-in Non VPN Tunnel will be locked as a basic tunnel with lowest priority, to ensure local network connectivity.
+        ![specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_subscription.png){class="glboxshadow"}
 
-![priority 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/priority_2.png){class="glboxshadow"}
+        !!! Note
+        
+            - If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day. 
 
-Press and hold the three-line icon on the right to drag the tunnels for sorting.
+            - Make sure to enter the correct URL. The URL detection will verify the validity of the domain name or IP address. [Learn More](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
-## Non-VPN Tunnel
+    - **Exclude specified Domain / IP List**
+    
+        If selected, traffic that applies this rule will **NOT** be routed to specified Domain / IP. 
 
-The Non-VPN Tunnel is a basic network tunnel with lowest priority. It is unchangeable and cannot be deleted. 
+        Manually input the specified Domain / IP.
 
-![non-vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/non_vpn_tunnel.png){class="glboxshadow"}
+        ![exclude specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_manual.png){class="glboxshadow"}
 
-It is actually a local network tunnel that is mutually exclusive with the VPN tunnel.
+        Or switch the **Input Mode** from Manual to Subscription URL and input URL Link.
 
-When there are multiple tunnels, the router transmits traffic in the following order:
+        ![exclude specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_subscription.png){class="glboxshadow"} 
 
-- When the tunnel with the highest priority is enabled, the traffic that conforms to the tunnel rule will be transmitted according to the set execute action and targets. 
+        !!! Note
+        
+            - If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day. 
 
-- For the traffic that does not conform to the tunnel rule of the highest priority, it will automatically be matched to the tunnel rule of the second highest priority. 
+            - Make sure to enter the correct URL. The URL detection will verify the validity of the domain name or IP address. [Learn More](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
-- If it still does not match, it will continue to be matched against the next lower priority rule, and so on, until it is matched to the Non-VPN Tunnel with the lowest priority.
+3. **Via**: It refers to the traffic routing method, i.e., whether to use VPN.
 
-You can disable the Non-VPN Tunnel if needed. 
+    Follow the steps below to select the routing method.
 
-**Note**: Non-VPN tunnelling ensures that traffic not passing through the above tunnels can still connect to the Internet. If disabled, it will drop any remaining traffic.
+    Click the greyed-out box. 
+
+    ![via](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_via_1.png){class="glboxshadow"}
+    
+    Select the routing method for this tunnel: Use VPN or Not Use VPN.
+
+    ![via](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_via_2.png){class="glboxshadow"}
+
+    - **Use VPN**
+
+        If selected, traffic that applies this rule will be routed to the selected targets through VPN.
+        
+        To begin with, you need to configure your router as a VPN client. Use the [VPN Setup Wizard](#vpn-setup-wizard) to quickly complete the configuration, or navigate to OpenVPN Client / WireGuard Client in the left sidebar of the admin panel to configure manually.
+
+        ![use vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/use_vpn_0.jpg){class="glboxshadow"}
+
+        Once you set the router as a VPN client, select a VPN configuration file for this tunnel, and click Apply.
+
+        ![use vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/use_vpn_2.png){class="glboxshadow"}
+
+    - **Not Use VPN**
+    
+        If selected, traffic that applies this rule will be routed to the selected targets via WAN instead of VPN.
+
+        ![not use vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/not_use_vpn.png){class="glboxshadow"}
+
+After customizing the traffic source, target, and routing method, you will complete the primary tunnel rule setup. 
+
+In the following example, the Primary Tunnel rule is: All client devices connected to this router will use VPN; Their traffic will be routed through this VPN tunnel, connected to the server in Australia and eventually exit from this server to all targets on the Internet.
+
+![tunnel details](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel-details-2.png){class="glboxshadow"}
+
+!!! note
+
+    - If you need to create more tunnels for multiple VPN instances, click on [Add Tunnel](#add-tunnel) beneath the Primary Tunnel and customize the tunnel rules.
+    
+    - If you only need one tunnel for your traffic, for security, go to [All Other Traffic](#all-other-traffic) and [Tunnel Options](#tunnel-options) to check other settings before enabling the primary tunnel.
+
+#### Add Tunnel
+
+If you want to connect to multiple VPN servers at the same time, add more tunnels and specify that traffic from different devices routes to different targets through VPN (or not through VPN).
+
+This is particularly useful when you need to route traffic from certain devices to Server A, while from others to Server B.
+
+Click **Add Tunnel** beneath the Primary Tunnel.
+
+![add tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/add_tunnel.jpg){class="glboxshadow"}
+
+Name the tunnel.
+
+![name tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/name_tunnel.png){class="glboxshadow"}
+
+Then you will get one more tunnel on the VPN Dashboard in Polily Mode. 
+
+![two tunnels](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/two_tunnels.png){class="glboxshadow"}
+
+You can add more tunnels if needed. Up to 5 tunnels can be created (including the preset primary tunnel).
+
+Customize the tunnel rules by setting the traffic source, targets and routing method. Please refer to the method and process of the [Primary Tunnel](#primary-tunnel).
+
+Upon finishing the rules customization, for security, please go to [All Other Traffic](#all-other-traffic) and [Tunnel Options](#tunnel-options) to check other settings before enabling the tunnels.
+
+#### All Other Traffic
+
+In Policy Mode, by default, there's a <u>preset</u> <u>enabled</u> tunnel displayed at the bottom of the VPN Dashboard page.
+
+![two tunnels](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_other_traffic.png){class="glboxshadow"}
+
+This tunnel is for the following data traffic:
+
+- The traffic that does not go through the VPN tunnel.
+
+- The traffic that failover from VPN connections.
+
+#### Tunnel Priority
+
+By default, the preset Primary Tunnel has the top priority, followed by other manual-added tunnel (if any), then the preset All Other Traffic tunnel to ensure local network connectivity (via WAN ISP network).
+
+To modify tunnel priority, click **Modify Priority** in the top info bar, or click the **priority label** in the top left of any tunnel (e.g., Priority 1/Priority 2).
+
+![modify priority](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/modify_priority_1.png){class="glboxshadow"}
+
+Press and hold the three-line icon on the right to drag the tunnels for sorting, and click Apply
+
+![modify priority](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/modify_priority_2.png){class="glboxshadow"}
+
+**When there are multiple tunnels enabled, the router will route traffic in the following order**:
+
+1. If the highest-priority tunnel is enabled, traffic that matches the rules of this tunnel will be routed to the specified targets using the selected routing method.
+
+2. For traffic that does not match the rules of the highest-priority tunnel, it will automatically match the rules of the tunnel with the second-highest priority. This process continues in sequence, and so on.
+
+3. If the traffic still does not match, it will continue to match the next tunnel, and so on, until it matches the "All Other Traffic" tunnel.
+
+4. The All Other Traffic tunnel, if enabled, aims to route the traffic that does not go through the VPN tunnel, or traffic that failover from VPN connections.
+
+**Note**: The All Other Traffic tunnel ensures that traffic not through the above tunnels can still connect to the Internet. If disabled, it will enhance Kill Switch and block regular Internet access for traffic that does not go through VPN.
+
+#### Tunnel Options
+
+Click the gear icon next to a tunnel name to configure advanced settings for this tunnel, or perform actions such as renaming or deleting it.
+
+![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_1.png){class="glboxshadow"}
+
+![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
+
+- **Kill Switch**: If enabled, traffic matching the assigned VPN tunnel is blocked if the connection drops unexpectedly; otherwise, it will failover to next priority tunnels or WAN.
+
+- **Services from GL.iNet Use VPN**: If enabled, GoodCloud, DDNS, and rtty services will use VPN tunnels to send packets. Note that these services normally need to use the real IP address of the device, otherwise operations may fail.
+
+- **Allow Remote Access the LAN Subnet**: If enabled, remote access to this router (tunnel IP) and LAN devices through the VPN will be allowed. Requires the VPN server to advertise a route back to your LAN subnet(s).
+
+- **IP Masquerading**: If enabled, the LAN client source IPs will be rewrote to the router's VPN tunnel IP. Disabled only for Site-to-Site setups where the remote peer knows your LAN subnets.
+
+- **MTU**: The MTU you set for the tunnel will overwrite the MTU item in the configuration file.
 
 ---
 

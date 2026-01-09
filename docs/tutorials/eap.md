@@ -8,36 +8,36 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
 
 ## Supported models
 
-| Router Model                   | Support   |
-| :----------------------------- | :-------: |
-| GL-BE9300 (Flint 3)            | √         |
-| GL-BE3600 (Slate 7)            | √         |
-| GL-X2000 (Spitz Plus)          | √         |
-| GL-B3000 (Marble)              | √         |
-| GL-MT6000 (Flint 2)            | ※        |
-| GL-MT3000 (Beryl AX)           | ※        |
-| GL-X3000 (Spitz AX)            | -         |
-| GL-XE3000 (Puli AX)            | -         |
-| GL-AXT1800 (Slate AX)          | √         |
-| GL-A1300 (Slate Plus)          | √         |
-| GL-MT2500/GL-MT2500A (Brume 2) | -         |
-| GL-SFT1200 (Opal)              | -         |
-| GL-MT1300 (Beryl)              | -         |
-| GL-AX1800 (Flint)              | √         |
-| GL-AR750S (Slate)              | √         |
-| GL-AR750 (Creta)               | √         |
-| GL-XE300 (Puli)                | √         |
-| GL-E750/GL-E750V2 (Mudi)       | √         |
-| GL-X750/GL-X750V2 (Spitz)      | √         |
-| GL-B1300 (Convexa-B)           | √         |
-| GL-AP1300 (Cirrus)             | √         |
-| GL-X300B (Collie)              | √         |
-| GL-AR300M Series (Shadow)      | √         |
-| GL-MT300N-V2 (Mango)           | -         |
+??? "Supported Models"
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-X2000 (Spitz Plus)
+    - GL-B3000 (Marble)
+    - GL-AX1800 (Flint)
+    - GL-AXT1800 (Slate AX)
+    - GL-A1300 (Slate Plus)
+    - GL-XE300 (Puli)
+    - GL-E750/GL-E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-AR750S (Slate)
+    - GL-AR750 (Creta)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
+    - GL-X300B (Collie)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
 
-!!! note
+    **Note:** The models marked with ※ do not support connecting to EAP networks when being installed the default firmware, but GL.iNet provides native OpenWrt 24 firmware for these models which can be installed to support connecting to EAP networks. Search the model in the [Download Center](https://dl.gl-inet.com/){target="_blank"} and turn to OPENWRT 24 tab for more details.
 
-    The models marked with ※ do not support connecting to EAP networks when being installed the default firmware, but GL.iNet provides native OpenWrt 24 firmware for these models which can be installed to support connecting to EAP networks. Search the model in the [Download Center](https://dl.gl-inet.com/){target="_blank"} and turn to OPENWRT 24 tab for more details.
+??? "Unsupported Models"
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-MT300N-V2 (Mango)
 
 ## Connect via web Admin Panel
 

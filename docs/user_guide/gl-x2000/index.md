@@ -1,12 +1,51 @@
 # Spitz Plus (GL-X2000) User Guide
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+## Product overview
+
+Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to provide fast, reliable connections especially in remote areas and during road trips. Featuring 3-Carrier Aggregation, the router streams data on three carrier bands simultaneously, providing 3x available bandwidth to avoid congestion. It offers four internet access methods: Cellular (SIM cards), ethernet, repeater, and tethering. It supports multi-WAN (failover and load-balancing), VPN (OpenVPN and Wireguard), parental controls, AdGuard Home, port forwarding, Tailscale, and more. 
+
+![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
+
+## Package contents
+
+Please note that the adapter within the package depends on your shipping country.
+
+The package includes:
+
+- 1 x User manual
+- 1 x Spitz Plus (GL-X2000)
+- 4 x External antennas
+- 1 x Thank you card
+- 1 x Ethernet cable
+- 1 x Wall mount kit
+- 1 x Adhesive pad
+- 4 x Screws
+- 1 x Power adapter
+- 1 x Converters (Base on your shipping countries, US/EU/UK/AU plugs)
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_unboxing.jpg){class="glboxshadow"}
+
+## LED indicators 
+
+| Condition status                                                              | Power                                | Internet                    | 2.4GHz                      | 5GHz                        |Cellular | 
+| ----------------------------------------------------------------------------- | ------------------------------------ | --------------------------- | --------------------------- | --------------------------- | ------- |
+| Normal (connected to the internet)                                            | Green                                | Green                       | Green                       | Green                       | Green   |
+| Not connected to the internet                                                 | Green                                | Off                         | Green                       | Green                       | Green   |
+| Updating firmware                                                             | Green                                | Blinking green (every 0.5s) | Blinking green (every 0.5s) | Blinking green (every 0.5s) | Green   | 
+| Resetting router (hold down "reset" button for > 3s)                          | Blinkng green (every 1s)             | Green                       | Green                       | Green                       | Green   |
+| Restoring router to factory settings (hold down "reset" button for 10s)       | Fast blinking green (every 0.25s)    | Green                       | Green                       | Green                       | Green   | 
+
+## Specifications
+
+Refer to [Specifications](https://www.gl-inet.com/products/gl-x2000/#specs){target="_blank"}. 
 
 ## How to set up Spitz Plus
 
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+
 To set up Spitz Plus, you will use one of the four supported internet connection methods: Cellular (SIM cards), ethernet, repeater, and tethering. Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-_K3xuAj4UA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Spitz Plus and other router models.)</small>
 
 !!! note "Before you start, follow these steps (if connecting via the cellular method):"
@@ -267,49 +306,3 @@ To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 * To set scheduled tasks, follow [these instructions](https://docs.gl-inet.com/router/en/4/interface_guide/scheduled_tasks/). 
 * To set up custom DNS servers, follow [these instructions](https://docs.gl-inet.com/router/en/4/interface_guide/dns/). 
 * To view system logs, follow [these instructions](https://docs.gl-inet.com/router/en/4/interface_guide/log/). 
-
---- 
-
-## Product overview
-
-### Product information
-
-Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to provide fast, reliable connections especially in remote areas and during road trips. Featuring 3-Carrier Aggregation, the router streams data on three carrier bands simultaneously, providing 3x available bandwidth to avoid congestion. It offers four internet access methods: Cellular (SIM cards), ethernet, repeater, and tethering. It supports multi-WAN (failover and load-balancing), VPN (OpenVPN and Wireguard), parental controls, AdGuard Home, port forwarding, Tailscale, and more. 
-
-![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
-
-
-### Package contents
-
-Please note that the adapter within the package depends on your shipping country.
-
-Your router package includes:
-
-- 1 x User manual
-- 1 x Spitz Plus (GL-X2000)
-- 4 x External antennas
-- 1 x Thank you card
-- 1 x Ethernet cable
-- 1 x Wall mount kit
-- 1 x Adhesive pad
-- 4 x Screws
-- 1 x Power adapter
-- 1 x Converters (Base on your shipping countries, US/EU/UK/AU plugs)
-
-
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_unboxing.jpg){class="glboxshadow"}
-
-### LED indicators 
-
-| Condition status                                                              | Power                                | Internet                    | 2.4GHz                      | 5GHz                        |Cellular | 
-| ----------------------------------------------------------------------------- | ------------------------------------ | --------------------------- | --------------------------- | --------------------------- | ------- |
-| Normal (connected to the internet)                                            | Green                                | Green                       | Green                       | Green                       | Green   |
-| Not connected to the internet                                                 | Green                                | Off                         | Green                       | Green                       | Green   |
-| Updating firmware                                                             | Green                                | Blinking green (every 0.5s) | Blinking green (every 0.5s) | Blinking green (every 0.5s) | Green   | 
-| Resetting router (hold down "reset" button for > 3s)                          | Blinkng green (every 1s)             | Green                       | Green                       | Green                       | Green   |
-| Restoring router to factory settings (hold down "reset" button for 10s)       | Fast blinking green (every 0.25s)    | Green                       | Green                       | Green                       | Green   | 
-
-### Specifications
-
-Refer to [Specifications](https://www.gl-inet.com/products/gl-x2000/#specs){target="_blank"}. 
-

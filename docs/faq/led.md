@@ -76,11 +76,11 @@
 	* Off: Internet is disconnected
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is readied
+	* On: 2.4G WiFi is ready
 	* Flashing: 2.4G WiFi is communicating
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is readied
+	* On: 5G WiFi is ready
 	* Flashing: 5G WiFi is communicating
 
 * Cellular LED
@@ -99,11 +99,11 @@
 	* Off: Internet is disconnected
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is readied
+	* On: 2.4G WiFi is ready
 	* Flashing: 2.4G WiFi is communicating
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is readied
+	* On: 5G WiFi is ready
 	* Flashing: 5G WiFi is communicating
 
 * Cellular LED
@@ -122,11 +122,11 @@
 	* Off: Internet is disconnected
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is readied
+	* On: 2.4G WiFi is ready
 	* Flashing: 2.4G WiFi is communicating
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is readied
+	* On: 5G WiFi is ready
 	* Flashing: 5G WiFi is communicating
 
 * Cellular LED
@@ -145,11 +145,11 @@
 	* Off: Internet is disconnected
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is readied
+	* On: 5G WiFi is ready
 	* Flashing: 5G WiFi is communicating
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is readied
+	* On: 2.4G WiFi is ready
 	* Flashing: 2.4G WiFi is communicating
 
 * Cellular LED
@@ -190,13 +190,31 @@
 	* Off: LAN port is disconnected
 
 * Wi-Fi LED
-	* On: 2.4G WiFi is readied
+	* On: 2.4G WiFi is ready
 	* Flashing: 2.4G WiFi is communicating
 
 * Cellular LED
 	* Mobile Tower is conntected
 
 ## Home Wi-Fi
+
+### GL-BE9300
+
+![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
+### GL-BE6500
+
+![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/hardware_info/be6500_interface.jpg){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
 
 ### GL-MT6000
 
@@ -252,11 +270,13 @@
 
 - Middle LED (Configurable)
 	- On: This LED has been customized
-	- Off: This LED is not customized (default mode)
+	- Off: This LED has not been customized (default mode)
 
 - Wireless LED
 	- On: 2.4G WiFi is connected
 	- Off: 2.4G WiFi is disconnected
+
+	For earlier batches, the Wireless LED may display red instead of white in normal working state.
 
 ### GL-AR300M Series
 
@@ -273,3 +293,5 @@
 - Wireless LED
 	- On: 2.4G WiFi is connected
 	- Off: 2.4G WiFi is disconnected
+
+	For earlier batches, the Wireless LED may display red instead of white in normal working state.

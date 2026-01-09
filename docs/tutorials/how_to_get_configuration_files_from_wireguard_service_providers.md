@@ -13,36 +13,16 @@
 
         ![azirevpn wireguard configuration generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/azirevpn/azirevpn_wireguard_generator_ip.png){class="glboxshadow"}
 
-    3. Then follow the [guide](#setup-wireguard-client) to continue.
+    3. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-azirevpn) to continue.
 
     4. You can also use [mobile app](../faq/mobile_app.md) to setup AzireVPN.
-
-??? "Mullvad"
-    ### Mullvad
-
-    [Official Website](https://mullvad.net/){target="_blank"}
-
-    1. Access [Mullvad Official Website](https://mullvad.net/){target="_blank"} and login, then access the [WireGuard configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
-
-    2. Then follow the [guide](../interface_guide/wireguard_client.md/#set-up-mullvad) to continue.
-
-    3. You can also use [mobile app](../faq/mobile_app.md) to setup Mullvad.
-
-??? "PIA (Private Internet Access)"
-    ### PIA (Private Internet Access)
-
-    [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
-
-    It can't downlaod the WireGuard configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ??? "Hide.me VPN"
     ### Hide.me VPN
 
     [Official Website](https://hide.me/?friend=glinet){target="_blank"}
 
-    Hide.me VPN providers a simple way to use their WireGuard service in GL.iNet router.
+    Hide.me VPN provides a simple way to use their WireGuard service in GL.iNet router.
 
     1. [SSH](https://docs.gl-inet.com/router/en/3/tutorials/ssh/){target="_blank"} to router.
 
@@ -58,12 +38,32 @@
 
     [Refer link](https://github.com/eventure/hide.client.routers){target="_blank"}
 
+??? "Mullvad"
+    ### Mullvad
+
+    [Official Website](https://mullvad.net/){target="_blank"}
+
+    1. Access [Mullvad Official Website](https://mullvad.net/){target="_blank"} and login, then access the [WireGuard configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
+
+    2. Then follow [this guide](../interface_guide/wireguard_client.md/#set-up-mullvad) to continue.
+
+    3. You can also use [mobile app](../faq/mobile_app.md) to setup Mullvad.
+
+??? "PIA (Private Internet Access)"
+    ### PIA (Private Internet Access)
+
+    [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
+
+    It can't downlaod the WireGuard configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ??? "Surfshark"
     ### Surfshark
 
-    [Official Website](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}
+    [Official Website](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
-    1. If you are using [Surfshark](https://get.surfshark.net/aff_c?offer_id=6&aff_id=1400){target="_blank"}, login then go to [this](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"} page, click on **Router**, and select **WireGuard**.
+    1. If you are using [Surfshark](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}, log in then go to [this](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"} page, click on **Router**, and select **WireGuard**.
 
         ![surfshark wireguard manual setup](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/surfshark/surfshark_wireguard_manual_setup_1.png){class="glboxshadow"}
 
@@ -79,9 +79,11 @@
 
         ![surfshark wireguard manual setup](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/surfshark/surfshark_wireguard_manual_setup_4.png){class="glboxshadow"}
 
-    5. Lastly, choose a location you would like to set up, and hit the **download** button next to the location.
+    5. Lastly, choose a location you would like to set up, and hit the **download** button next to the location. You will be able to download the configuration files.
 
         ![surfshark wireguard manual setup](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/surfshark/surfshark_wireguard_manual_setup_5.png){class="glboxshadow"}
+
+    6. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-surfshark) to continue.
 
     [Refer link](https://support.surfshark.com/hc/en-us/articles/6585805139474-How-to-set-up-a-manual-WireGuard-connection-on-Android-){target="_blank"}
 
@@ -102,7 +104,7 @@
 
         ![airvpn select server](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/airvpn/airvpn_select_server.png){class="glboxshadow" width="600"}
 
-    4. Then follow the [guide](#setup-wireguard-client) to continue.
+    4. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "Astrill"
     ### Astrill
@@ -111,7 +113,7 @@
 
     If you are using [Astrill](https://www.astrill.com/a/dik2masnw6ig){target="_blank"}, please log in then access [this page](https://www.astrill.com/member-zone/tools/wireguard-configuration){target="_blank"} to generate WireGuard configurations.
 
-    Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "IVPN"
     ### IVPN
@@ -122,7 +124,7 @@
 
     [Windows](https://www.ivpn.net/setup/windows-10-wireguard/){target="_blank"}, [macOS](https://www.ivpn.net/setup/macos-wireguard/){target="_blank"}, [Linux](https://www.ivpn.net/setup/linux-wireguard/){target="_blank"}
 
-    Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "NVPN"
     ### NVPN
@@ -131,7 +133,7 @@
 
     Fellow the guide [here](https://support.nvpn.net/Knowledgebase/Article/View/428/0/how-to-use-our-wireguard#windows){target="_blank"} to create the config.
 
-    Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "OVPN"
     ### OVPN
@@ -152,7 +154,7 @@
 
         ![remove wireguard ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/ovpn/remove_wireguard_ipv6_content.jpg){class="glboxshadow"}
     
-    4. Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    4. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
     5. You can also use [mobile app](../faq/mobile_app.md) to setup OVPN.
 
@@ -173,7 +175,7 @@
     
         ![generate config](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/privatevpn/privatevpn_wireguard_3.jpg){class="glboxshadow"}
 
-    4. Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    4. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "PrivadoVPN"
     ### PrivadoVPN
@@ -188,7 +190,7 @@
 
     ![privadovpn wireguard manual configuration download](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/privadovpn/privadovpn_wireguard_manual_configuration_download.png){class="glboxshadow"}
 
-    Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "Proton VPN"
     ### Proton VPN
@@ -197,18 +199,28 @@
 
     If you are using [Proton VPN](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}, please follow the guide [here](https://protonvpn.com/support/wireguard-configurations/){target="_blank"} to generate the WireGuard configuration file.
 
-    Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "PureVPN"
     ### PureVPN
 
     [Official Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-    Please follow the guide [here](https://support.purevpn.com/setup-wireguard-on-linux){target="_blank"} to get the WireGuard configuration file.
+    Please refer to [this guide](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"} or the following steps to get the WireGuard configuration file manually.
+
+    1. Log in to your [Member Area](https://my.puremember.com/){target="_blank"} and click **Manual Configuration**.
+
+        ![purevpn wireguard manual configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/manual-purevpn1.png){class="glboxshadow"}
+
+    2. Go to your Member Area and download the WireGuard configuration file from there.
+
+        ![purevpn wireguard manual configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/manual-purevpn2.png){class="glboxshadow"}
 
     **Note**: Please make sure to copy the file and activate the connection within 30 minutes once the profile is downloaded, otherwise the configuration will expire and you will have to redownload a fresh configuration file.
 
-    Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
+
+    [Refer link](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
 
 ??? "SpiderVPN"
     ### SpiderVPN
@@ -223,7 +235,7 @@
 
         ![download spider vpn configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/spidervpn/spidervpn_config_2.jpg){class="glboxshadow"}
 
-    3. Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    3. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "StarVPN"
     ### StarVPN
@@ -244,7 +256,7 @@
 
         ![startvpn wireguard configuration remove ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/starvpn_wireguard_configuration_remove_ipv6.jpg){class="glboxshadow"}
 
-    4. Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    4. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
     [Refer link](https://www.starvpn.com/wireguard-setup-on-gl-inet-router/){target="_blank"}
 
@@ -259,7 +271,7 @@
     
         ![strongvpn wireguard configuration generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/strongvpn/strongvpn_wireguard_configuration_generator.png){class="glboxshadow"}
     
-    3. Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    3. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
     4. You can also use [mobile app](../faq/mobile_app.md) to setup StrongVPN.
 
@@ -272,7 +284,7 @@
     
     2. Scroll down to the WireGuard section, choose the port you want, then download a config of specific server or a zip file of all configs.
 
-    3. Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    3. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "VPN.AC"
     ### VPN.AC
@@ -287,7 +299,7 @@
     
         ![VPN.AC create wireguard profiles](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnac/vpn.ac_create_wireguard_profiles.jpg){class="glboxshadow"}
 
-    3. Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    3. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "VPN Unlimited(KeepSolid)"
     ### VPN Unlimited(KeepSolid)
@@ -322,7 +334,7 @@
         Endpoint = <i>paste Endpoint information</i></br>
         </p>
 
-    4. Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    4. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
  
     [Refer link 1](https://www.vpnunlimited.com/help/manuals/wireguard-setup-on-glinet-router){target="_blank"}
 
@@ -333,11 +345,13 @@
 
     [Official Website](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
-    Login then access the [WireGuard Config Generator](https://windscribe.com/getconfig/wireguard){target="_blank"}. Select location and port you'd like to use, then click Download Config.
+    1. Log in to your Windscribe membership account [here](https://windscribe.com/login?auth_required){target="_blank"}, then access the [WireGuard Config Generator](https://windscribe.com/getconfig/wireguard){target="_blank"}. 
+    
+    2. Select the server location and port you'd like to use, then click **Download Config**.
 
-    ![windscribe WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/windscribe/windscribe_01.jpg){class="glboxshadow"}
+        ![windscribe WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/windscribe/windscribe_01.jpg){class="glboxshadow"}
 
-    Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    3. Follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ??? "12VPX"
     ### 12VPX
@@ -346,7 +360,7 @@
 
     If you are using [12VPX](https://12vpx.com/?aff=1174){target="_blank"}, login then access [this page](https://12vpx.com/setup/wireguard){target="_blank"}, you will see the configs of all servers.
 
-    Then follow the [guide](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/#set-up-other-providersvia-configuration-files) to continue.
+    Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
 ---
 

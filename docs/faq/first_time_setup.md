@@ -19,7 +19,8 @@ Please prepare the following items included in the package.
 
 Watch this video guide or follow the steps below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>(This video uses a different GL.iNet router to demonstrate the setup, as the steps are the same for most router models.)</small>
 
 1. Power on
 
@@ -37,29 +38,33 @@ Watch this video guide or follow the steps below.
 
     * Connect via Wi-Fi
 
-        The SSID is printed on the bottom label of the router with the following formats:
+        The Wi-Fi SSID is printed on the router's bottom label in the following formats:
 
         **GL-AXT1800-XXX** or **GL-AXT1800-XXX-5G**
 
-        Search for the SSID of the router in your computer/phone/tablet and input the WiFi password. Please find the WiFi password on the label on the back of the router. For some models if you can't find the WiFi password on the label, please try the default password **goodlife**.
+        The default Wi-Fi Key is located below the SSID. 
 
-        **Tip:** The QR code on the label on the back of the GL-AXT1800 is with WiFi connection information and can be quickly connected using your phone's QR code scanning tool.
+        Search for the router's SSID on your computer, phone, or tablet, then enter the Wi-Fi Key. For some models, if the Wi-Fi password is not found on the label, please try "**goodlife**".
 
-        **Note:** After connecting to the WiFi, you cannot access the Internet at this stage. You need to set up the admin password in the next step and configure network.
+        **Tip:** The QR code on the bottom label contains the default Wi-Fi information. You can connect quickly by scanning it with your phone's QR code scanner.
 
-3. Access the web Admin Panel
+        **Note:** After connecting to the Wi-Fi, you may not have immediate Internet access. Please follow the next step to configure your network first before accessing the Internet.
 
-    Open a web browser (we recommend Chrome, Edge, Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. If you can't access the web Admin Panel, please check [here](cannot_access_web_admin_panel.md).
+3. Log in to the web Admin Panel
+
+    Open a web browser (we recommend Chrome, Edge, or Safari) and visit [http://192.168.8.1](http://192.168.8.1). You will be directed to the initial setup of the web Admin Panel. 
+    
+    If you cannot access the web Admin Panel, please check [here](cannot_access_web_admin_panel.md).
 
     Choose a language, and click **Next** to continue.
 
     ![Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/admin_panel_first_time_login.png){class="glboxshadow"}
 
-    Set up admin password, we recommend using a strong password. Click **Submit** to continue.
+    Set up admin password. We recommend using a strong password. Click **Apply** to continue.
 
     **Note**: Wi-Fi may turn off during the initialization, please make sure to reconnect to the router.
 
-    ![set up admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/set_up_your_admin_password.png){class="glboxshadow"}
+    ![set up admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/set_up_your_admin_password_gl-mt2500.png){class="glboxshadow"}
 
     After the initial setup, you will enter the web Admin Panel of the router.
 
@@ -110,7 +115,7 @@ Here is an example of GL-MT2500A (Brume 2).
 
     ![Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/admin_panel_first_time_login_gl-mt2500.png){class="glboxshadow"}
 
-    Set up admin password, we recommend using a strong password. Click **Submit** to continue.
+    Set up admin password. We recommend using a strong password. Click **Submit** to continue.
 
     ![set up admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/first_time_setup/set_up_your_admin_password_gl-mt2500.png){class="glboxshadow"}
 

@@ -42,7 +42,16 @@ plugins:
         'tutorials/how_to_set_up_esim.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
         'tutorials/tap_s2s_vs_tun.md': 'tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md'
         'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
+        'tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md': 'tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md'
+        'tutorials/can_i_use_multiwan_wired_input.md': 'tutorials/configure_dual_ethernet_wan.md'
         'interface_guide/firmware_upgrade.md': 'interface_guide/upgrade.md'
+        'faq/i_must_use_ethernet_wan_when_use_vpn.md': 'faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md'
+        'faq/gl-ax1800_upgrade_to_4.md': 'faq/upgrade_to_4.md'
+        'faq/gl-x3000_gl-xe3000_connection_optimization.md': 'faq/cellular_network_troubleshooting_guide.md'
+        'faq/where_to_download_firmware.md': 'faq/how_to_download_firmware.md'
+        'faq/can_i_add_brume2_into_app.md': 'faq/how_to_add_brume2_into_app.md'
+        'tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
+        'tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md': 'tutorials/how_to_use_the_esim_physical_card_with_android_devices.md'
 
 # Customization
 extra:
@@ -113,8 +122,8 @@ nav:
   - User Guide:
     - Overview: user_guide/index.md
     - GL-BE9300 (Flint 3): user_guide/gl-be9300/index.md
+    - GL-BE6500 (Flint 3e): user_guide/gl-be6500/index.md
     - GL-BE3600 (Slate 7): user_guide/gl-be3600/index.md
-    - GL-RM1 (Comet): user_guide/gl-rm1/index.md
     - GL-X2000 (Spitz Plus): user_guide/gl-x2000/index.md
     - GL-B3000 (Marble): user_guide/gl-b3000/index.md
     - GL-MT6000 (Flint 2): user_guide/gl-mt6000/index.md
@@ -148,9 +157,8 @@ nav:
     - Internet:
       - First time setup: faq/first_time_setup.md
       - Warning from your browser: faq/warning_from_your_browser_during_setup.md
-      - Connect to Hotspot with Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
+      - Connect to public hotspot with Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
       - Connect Ethernet-only device to Wi-Fi: faq/produce_a_wired_connection.md
-      - Build up an Intranet: faq/build_up_an_intranet.md
     - Problem Notification:
       - Problem Notification for GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification_for_mt2500_x3000_xe3000.md
       - Problem Notification and Solutions for GL-X3000/GL-X2000 Failure to Work with EE SIM Cards: faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md
@@ -171,7 +179,9 @@ nav:
       - Stuck on "Rebooting" screen during firmware reboot: faq/stuck_on_rebooting_screen.md
       - How to resolve a subnet conflict: faq/how_to_resolve_a_subnet_conflict.md
       - Why do I get a message from DDNS test: faq/why_do_I_get_a_message_from_ddns_test.md
-      - Why is my VPN speed slow: faq/why_is_my_vpn_speed_slow.md
+      - Why is my VPN speed slower than expected: faq/why_is_my_vpn_speed_slow.md
+      - What is the device capacity of my router: faq/what_is_the_device_capacity_of_my_router.md
+      - What is the wireless coverage of my router: faq/what_is_the_wireless_coverage_of_my_router.md
       - Upgrade Uboot version: faq/upgrade_uboot_version.md
     - VPN:
       - How to set up OpenVPN: interface_guide/openvpn_client.md
@@ -179,7 +189,7 @@ nav:
       - How to Block Non-VPN Traffic: faq/block_non_vpn_traffic.md
       - VPN Kill Switch: faq/block_non_vpn_traffic.md
       - TCP or UDP: faq/openvpn_tcp_udp.md
-      - Do I have to configure Ethernet WAN when using VPN?: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
+      - Do I have to configure Ethernet WAN when using VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Upgrade:
       - Download firmware: faq/how_to_download_firmware.md
       - Manually upgrade or downgrade: tutorials/how_to_upgrade_downgrade_router.md
@@ -207,23 +217,26 @@ nav:
       - Connect to the dedicated IP by Surfshark: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
       - Set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - Set up WireGuard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
-      - Access Client LAN from Server(WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
-      - Access Client LAN from Server(OpenVPN): tutorials/openvpn_server_access_client_lan_side.md
+      - Access Client LAN from Server (OpenVPN): tutorials/openvpn_server_access_client_lan_side.md
+      - Access Client LAN from Server (WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
+      - Access Server LAN from Client (WireGuard) via domain name: tutorials/how_to_access_server_lan_device_via_domain_name.md
       - Enable OpenVPN TAP-S2S: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
       - Enable VPN Cascading: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
       - Use WireGuard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
       - Get config files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
       - Reserve fixed IP for OpenVPN client: tutorials/reserve_fixed_IP_for_ovpn_client.md
+      - Allow access to WAN when VPN client is enabled: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
     - Cellular:
       - SMS Forwarding: tutorials/sms_forwarding.md
       - Get Module Logs: tutorials/get_module_logs.md
       - Upgrade Quectel Module: tutorials/upgrade_quectel_module_software.md
-      - Check the carrier aggregation status: tutorials/how_to_check_carrier_aggregation.md
+      - Check carrier aggregation status: tutorials/how_to_check_carrier_aggregation.md
       - Set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
       - Install or change external antennas for Spitz AX or Puli AX: tutorials/how_to_change_x3000_and_xe3000_antennas.md
     - eSIM:
       - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Use eSIM Physical Card with Android devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
+      - How to use SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
       - Access the LuCI via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
@@ -231,16 +244,16 @@ nav:
       - Set up a guest network: tutorials/how_to_set_up_a_guest_network.md
       - Set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
       - Set up port forwarding on your primary router: tutorials/how_to_set_up_port_forwarding.md
-      - Set up two wired WAN without two WAN ports: tutorials/can_i_use_multiwan_wired_input.md
-    - Network Storage:
-      - Use WinSCP to access your share files: tutorials/winscp_share_file.md
+      - Configure dual wired WAN access: tutorials/configure_dual_ethernet_wan.md
     - Others:
       - Block client devices: tutorials/how_to_block_client_devices.md
       - Manually configure static IP on client devices: tutorials/manually_configure_static_ip.md
       - Check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
       - Upgrade or downgrade your router: tutorials/how_to_upgrade_downgrade_router.md
       - Connect to EAP network: tutorials/eap.md
+      - Connect to EAP network with advanced settings: tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md
       - SSH log in to the Router: tutorials/ssh_log_in_to_the_router.md
+      - Use WinSCP to access share files: tutorials/winscp_share_file.md
       - Use WinSCP to modify files: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
       - Activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
       - Change the NAT type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
@@ -287,7 +300,7 @@ nav:
       - LAN: interface_guide/lan.md
       - Guest Network: interface_guide/guest_network.md
       - DNS: interface_guide/dns.md
-      - Network Port Management: interface_guide/network_port_management.md
+      - Port Management: interface_guide/network_port_management.md
       - Network Mode: interface_guide/network_mode.md
       - IPv6: interface_guide/ipv6.md
       - MAC Address: interface_guide/mac_address.md
@@ -301,6 +314,7 @@ nav:
       - Upgrade: interface_guide/upgrade.md
       - Scheduled Tasks: interface_guide/scheduled_tasks.md
       - Admin Password: interface_guide/admin_password.md
+      - Display Management: interface_guide/display_management.md
       - Time Zone: interface_guide/time_zone.md
       - Toggle Button Settings: interface_guide/toggle_button_settings.md
       - Log: interface_guide/log.md
@@ -312,7 +326,7 @@ nav:
   - Video Library:
     - Overview: video_library/index.md
     - Meet Our New Products: video_library/products.md
-    - Tutorials: video_library/tutorials.md
     - Unboxing & First Time Setup: video_library/unboxing_first_set_up.md
+    - Tutorials: video_library/tutorials.md
   - Community:
     - Overview: community/index.md

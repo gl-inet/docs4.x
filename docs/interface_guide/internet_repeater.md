@@ -8,13 +8,15 @@ It works in WISP (Wireless Internet Service Provider) mode by default, which mea
 
 ## Basic Steps
 
-On the left side of web Admin Panel, go to INTERNET -> Repeater section, click **Connect**.
+Log in to the router's web admin panel, navigate to **INTERNET** -> **Repeater** section, and click **Connect**.
 
 ![repeater section](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
 
-In the pop-up window, choose the Wi-Fi network you want to connect from the available network list. 
+Choose the Wi-Fi network you want to connect to from the available network list.
 
 ![join wifi 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_1.png){class="glboxshadow"}
+
+**Note**: The page displays the Wi-Fi channels your router supports. Please ensure that the Wi-Fi network you're connecting to uses one of these channels, otherwise it may not be displayed in the available network list.
 
 Enter the correct WiFi password and click **Apply**.
 
@@ -194,34 +196,37 @@ When connecting to an upstream 5G WiFi, the router's WiFi will follow the upstre
 
 * The router's 5G WiFi will switch to the non-DFS channel if the upstream WiFi is not scannable or if the connection fails.
 
-### Supported Models
+??? "Supported Models"
 
-| Router Model                   | Support   |
-| :----------------------------- | :-------: |
-| GL-BE3600 (Slate 7)            | √         |
-| GL-B3000 (Marble)              | √         |
-| GL-MT6000 (Flint2)             | √         |
-| GL-X3000 (Spitz AX)            | √         |
-| GL-MT3000 (Beryl AX)           | √         |
-| GL-AXT1800 (Slate AX)          | √         |
-| GL-A1300 (Slate Plus)          | -         |
-| GL-MT2500/GL-MT2500A (Brume 2) | -         |
-| GL-SFT1200 (Opal)              | -         |
-| GL-S1300 (Convexa-S)           | -         |
-| GL-MT1300 (Beryl)              | -         |
-| GL-AX1800 (Flint)              | -         |
-| GL-MT6000 (Flint 2)            | √         |
-| GL-AR750S (Slate)              | -         |
-| GL-AR750 (Creta)               | -         |
-| GL-AR300M Series（Shadow）     | -         |
-| GL-MT300N-V2（Mango）          | -         |
-| GL-XE300 (Puli)                | -         |
-| GL-XE3000 (Puli AX)            | √         |
-| GL-X750 (Spitz)                | -         |
-| GL-B1300 (Convexa-B)           | -         |
-| GL-AP1300 (Cirrus)             | -         |
-| GL-X300B (Collie)              | -         |
-| GL-MV1000/GL-MV1000W (Brume)   | -         |
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint 2)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
+
+??? "Unsupported Models"
+
+    - GL-AX1800 (Flint)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-A1300 (Slate Plus)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-AR750S (Slate)
+    - GL-AR750 (Creta)
+    - GL-AR300M Series (Shadow)
+    - GL-MT300N-V2 (Mango)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-X300B (Collie)
+    - GL-S1300 (Convexa-S)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
+    - GL-MV1000/GL-MV1000W (Brume)
 
 ---
 

@@ -4,18 +4,35 @@ Some models have a toggle button, and you can customize what this button does in
 
 ## Supported models
 
-| Router Model                   | Support   |
-| :----------------------------- | :-------: |
-| GL-BE3600 (Slate 7)            | √         |
-| GL-MT3000 (Beryl AX)           | √         |
-| GL-AXT1800 (Slate AX)          | √         |
-| GL-MT1300 (Beryl)              | √         |
-| GL-A1300 (Slate Plus)          | √         |
-| GL-SFT1200 (Opal)              | √         |
-| GL-MT300N-V2 (Mango)           | √         |
-| GL-AR300M Series (Shadow)      | √         |
-| GL-AR750S (Slate)              | √         |
-| GL-AR750 (Creta)               | √         |
+??? "Supported Models"
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE3600 (Slate 7)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
+    - GL-MT1300 (Beryl)
+    - GL-SFT1200 (Opal)
+    - GL-A1300 (Slate Plus)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-E750V2 (Mudi V2)
+    - GL-AR750S (Slate)
+    - GL-AR750 (Creta)
+
+??? "Unsupported Models"
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-X2000 (Spitz Plus)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint2)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-AX1800 (Flint)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-XE300 (Puli)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
+    - GL-X300B (Collie)
 
 On the left side of web Admin Panel -> SYSTEM -> Toggle Button Settings.
 

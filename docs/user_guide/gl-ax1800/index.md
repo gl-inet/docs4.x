@@ -1,8 +1,35 @@
 # Flint (GL-AX1800) User Guide
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+## Product overview
+
+Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 600Mbps (2.4GHz) + 1200Mbps (5GHz). Its VPN encryption speed goes up to 667Mbps and can be used to host VPN servers. Flint is perfect for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming.
+
+![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
+
+## Package contents
+
+Please note that the adapter within the package depends on your shipping country.
+
+The package includes:
+
+- 1 x User manual
+- 1 x Flint (GL-AX1800)
+- 1 x Ethernet cable
+- 1 x Thank you card
+- 1 x Warranty card
+- 1 x Power adapter (Selected plug type)
+
+![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
+
+Check out Flint's [unboxing video](../../video_library/unboxing_first_set_up.md/#gl-ax1800-flint).
+
+## Specifications
+
+[GL-AX1800 specifications](https://www.gl-inet.com/products/gl-ax1800/#specs){target="_blank"}
 
 ## How to set up Flint
+
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 To set up Flint, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
@@ -15,7 +42,7 @@ Put the two-piece power adapter together. Connect it to your router and plug it 
 
 ### 2. Connect your device to the Flint
 
-Connect your computer or mobile device to the router using Wi-Fi or ethernet cable.
+Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
 === "Ethernet"
 
@@ -23,7 +50,7 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet cab
 
 === "Wi-Fi"
 
-    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
+    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on the router's bottom label.)
 
 ### 3. Connect the Flint to the internet 
 
@@ -31,7 +58,7 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet cab
 
 #### 1. Log in to the router web Admin Panel
 
-Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
 
 #### 2. Set up your internet connection method(s)
 
@@ -83,18 +110,18 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint supports OpenVPN, WireGuard and Tor.
 
 === "OpenVPN" 
 
-    Flint (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Flint (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Flint (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Flint (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -131,11 +158,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
 
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+
 ## Applications
 
 === "Plug-ins"
 
-    A plugin is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
+    A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
     
     To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
 
@@ -143,7 +172,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
     
-    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "Network Storage"
 
@@ -161,7 +190,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Parental Control"
 
-    Parental control is a group of settings designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
+    Parental Control is designed to help you manage and control your children's devices. They include limiting their screen time and restricting their access to certain content.
 
     To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
 
@@ -175,13 +204,15 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
     
-    To set up Tailscale, refer to [Tailscale](../../interface_guide/parental_control.md). 
+    To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md). 
 
 ## Network settings
 
 === "Port forwarding"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
+    
+    To set up port forwarding, refer to [Port Forwards](../../interface_guide/port_forwarding.md). 
 
 === "Multi-WAN"
 
@@ -193,7 +224,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
     
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/lan.md). 
+    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
 
 ---
 
@@ -209,9 +240,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 
-=== "Network Port Management"
+=== "Port Management"
 
-    The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+
+    To manage Ethernet ports, refer to [Port Management](../../interface_guide/network_port_management.md).
 
 ---
 
@@ -241,12 +274,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
-=== "Network Acceleration"
-
-    Hardware acceleration refers to the use of specialized hardware components to perform specific tasks more efficiently than general-purpose CPUs. 
-    
-    To set up network acceleration to this [Network Acceleration](../../interface_guide/network_acceleration.md) tutorial.
-
 === "NAT Settings"
 
     The NAT Settings page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.
@@ -268,7 +295,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
 
 === "Upgrade"
 
@@ -279,7 +306,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
 
 === "Scheduled Tasks"
 
@@ -292,7 +319,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 ---
 
@@ -300,7 +327,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
 
 === "Log"
 
@@ -314,7 +341,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
 
 === "Security"
 
@@ -335,49 +362,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
+    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Product overview
-
-### Product information
-
-Flint (GL-AX1800) is a dual-band Wi-Fi 6 router with connection speed of up to 600Mbps (2.4GHz) + 1200Mbps (5GHz). Its VPN encryption speed goes up to 667Mbps and can be used to host VPN servers. Flint is perfect for heavy-duty data transmission, mass device connectivity or ultra-low latency gaming.
-
-![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
-
-### Package contents
-
-Please note that the adapter within the package depends on your shipping country.
-
-Your router package includes:
-
-- 1 x User manual
-- 1 x Flint (GL-AX1800)
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
-
-![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
-
-Check out Flint's [unboxing video](../../video_library/unboxing_first_set_up.md#flintgl-ax1800).
-
-### Specification
-
-[GL-AX1800 specification](https://www.gl-inet.com/products/gl-ax1800/#specs){target="_blank"}
-
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_pinout.jpg" itemprop="thumbnail" alt="gl-ax1800 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>

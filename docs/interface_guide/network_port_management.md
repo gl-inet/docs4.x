@@ -1,8 +1,8 @@
-# Network Port Management
+# Port Management
 
-Network Port Management is available since V4.7.
+Port Management is available since V4.7.
 
-On the left side of web Admin Panel -> NETWORK -> Network Port Management.
+On the left side of web Admin Panel -> NETWORK -> Port Management.
 
 It shows all Ethernet ports on the router. 
 
@@ -18,10 +18,9 @@ Click on **WAN**, it displays the network port status, MAC mode & MAC address, a
 
 - Negotiated Network Port Rate: The current negotiated speed of WAN interface.
 
-
 Click on **LAN**, it displays the negotiated network port rate of the LAN port.
 
-![wan port management](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_port_management/lan.png){class="glboxshadow"}
+![lan port management](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_port_management/lan.png){class="glboxshadow"}
 
 Some models such as GL-MT6000 and GL-XE3000, support switching a LAN port to be WAN port, as shown below. Thus a Dual-Ethernet WAN scenario can be achieved.
 

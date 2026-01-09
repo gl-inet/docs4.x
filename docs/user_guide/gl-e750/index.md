@@ -1,27 +1,28 @@
 # Mudi V2 (GL-E750V2) User Guide
 
-**Note:** Mudi V2 (GL-E750V2) and Mudi (GL-E750) run on the same firmware. If you are using Mudi (GL-E750), [upgrade your firmware](https://dl.gl-inet.com/?model=e750) to use the latest features and functionality, and refer to this user guide. 
+**Note:** Mudi V2 (GL-E750V2) and Mudi (GL-E750) run on the same firmware. If you are using Mudi (GL-E750), [upgrade your firmware](https://dl.gl-inet.com/?model=e750) to use the latest features and functionality.
 
-## Product Information
+## Product Overview
 
 Mudi V2 (GL-E750V2) is a portable 4G LTE travel router compatible with global carriers. It runs fully open source on OpenWrt and GL.iNet's SDK 4.0, providing customization capabilities and a suite of features. Mudi V2 (GL-E750V2) supports 300Mbps (2.4GHz) and 433Mbps (5GHz) Wi-Fi speeds and a MicroSD card of up to 1TB. It has a built-in 7000mAh battery. It also supports multi-WAN (failover and load balance) to ensure a smooth connection for all your devices. 
 
 ![gl-e750v2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/hardware_info/e750_interface.jpg){class="glboxshadow"}
 
----
+## Button
 
-## Functionality
+- Press the power button for **3 seconds**: Turn on the device.
 
-### Power Button
+- Press the power button for **3-5 seconds**: Enter Standby Mode.
 
-- To turn on the device, press the power button for 3 seconds.
-- To turn off the device, press the power button for 5 seconds. (After you press it for 3 seconds, the OLED screen will show “Standby Mode On” first. KEEP PRESSING the power button until you see “Shut Down” under the “Standby Mode On.” It will count down 3 seconds and turn off the device.
+- Press the power button for **more than 5 seconds**: Turn off the device. 
 
-### Standby Mode
+    (When pressing for 3 seconds, the OLED screen will show “Standby Mode On” first. KEEP PRESSING the power button until you see "Shut Down" under the "Standby Mode On". It will count down 3 seconds and turn off the device.)
+
+## Standby Mode
+
 In Standby Mode, the Mudi V2 (GL-E750V2) will turn off Wi-Fi and 4G to save power. You can't connect to Mudi V2 (GL-E750V2) in this mode.
 
 To turn on or off the Standby Mode, press the power button for 3 seconds. You will see “Standby Mode On” or “Standby Mode Off” on the OLED screen.
-
 
 ## Package Contents
 
@@ -43,7 +44,13 @@ To turn on or off the Standby Mode, press the power button for 3 seconds. You wi
 
 ## First-time Setup
 
-### 1. Insert a SIM Card and an optional MicroSD card into Mudi V2 (GL-E750V2)
+Watch this video or follow the steps to set up Mudi V2.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4FzEgmYyy7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 1. Insert a SIM Card
+
+Insert a SIM Card and an optional MicroSD card into Mudi V2 (GL-E750V2).
 
 Note: If you are using a SIM card, you must insert it into your device before powering it on. 
 
@@ -55,6 +62,7 @@ Note: If you are using a SIM card, you must insert it into your device before po
 6. Press the lid down to close the cover plate.
 
 ### 2. Power on
+
 Press the power button to turn on the device.
 
 ![gl-e750v2 poweron](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_power-on.png){class="glboxshadow"}
@@ -71,15 +79,13 @@ Make sure you are using a standard 5V/2A power adapter. Otherwise, it may cause 
 
 ## INTERNET
 
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
+Log in to the router's web Admin Panel, and navigate to **INTERNET** from the left-side menu. 
 
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
-
-It supports four ways to connect to the internet as listed below:
+This page allows you to select your internet connection type, such as Ethernet, Repeater, Tethering, and Cellular.
 
 ### Ethernet
 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
+Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
@@ -87,7 +93,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 ### Repeater
 
-Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
+Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
@@ -95,7 +101,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 ### Tethering
 
-Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+Connect the router's USB port to a smartphone with active mobile data via a USB cable to access the Internet. This method enables multiple devices connected to the router to access the internet using the smartphone's mobile data.
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
@@ -103,13 +109,13 @@ Establish internet access with connected devices by sharing a smartphone's mobil
 
 ### Cellular
  
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+Remove the back cover from Mudi V2, and insert a SIM card into the SIM card slot to connect it to the internet. This method is useful for sharing internet access from a single SIM card to all connected devices.
 
 [Click here to learn how to connect to the internet via cellular](../../interface_guide/internet_cellular.md)
 
-Learn how to set up the eSIM physical card on your GL.iNet router with our step-by-step instructions here: [How to Set Up the eSIM Physical Card with the GL.iNet Routers?](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_esim/)
-
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_cellular.png){class="glboxshadow"}
+
+To use eSIM physical card on your GL.iNet router, please click here: [How to use the eSIM Physical Card with GL.iNet routers?](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
 ---
 

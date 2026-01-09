@@ -1,65 +1,86 @@
 # Technical Support via GoodCloud
 
-Sometimes it is necessary to get technical support from GL.iNet staff and they may ask you to share the your device using GoodCloud. This guide will show you how to share your device with GL.iNet staff.
+Sometimes it is necessary to share your device via GoodCloud for technical support from GL.iNet. This guide will show you how to share your device with GL.iNet technical support.
 
-## Enable GoodCloud management and remote control
+## Enable GoodCloud and remote access
 
-In order to troubleshoot modem issues, you will need to give an extra Internet connection to the router to ensure the Internet stability. Please use the cable or repeater to build the 2nd connection and make sure it works.
+Before sharing your device with GL.iNet technical support, please ensure your router has an additional Internet connection for stability. Set up an Ethernet or Repeater connection as a failover backup and ensure it works properly.
 
-Then in the router's web Admin Panel, enable GoodCloud and Remote Access.
+Then log in to the router's web Admin Panel to enable GoodCloud and remote access.
 
-- For firmware version 4.7.x or higher, go to CLOUD SERVICES -> GoodCloud, enable Remote SSH and Remote Web Access, click on Apply. As per the following picture.
+- **For firmware version 4.7.x or higher**
 
-    ![How to enable GoodCloud](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.7.x.png){class="glboxshadow"}
+    Please go to **CLOUD SERVICES** -> **GoodCloud**, click **Get Started** and log in to your Cloud account in the upper right corner. If you don't have an account, register one first.
 
-- For firmware version 4.6.x or lower, go to APPLICATIONS -> GoodCloud, enable GoodCloud, Remote SSH and Remote Web Access, then agree the terms and click on Apply. As per the following picture.
+    ![get started log in](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/get_started_v4.7.x.png){class="glboxshadow"}
+    
+    Once logged in, your device will be bound to your Cloud account automatically. 
+    
+    Turn to the **GoodCloud** page, enable **Remote SSH** and **Remote Web Access**, and click **Apply**.
 
-    ![How to enable GoodCloud](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.6.x.png){class="glboxshadow"}
+    ![enable remote access 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.7.x.png){class="glboxshadow"}
 
-## Register GoodCloud account and bind your device to your account
+- **For firmware version 4.6.x or earlier**
 
-You might need to create a GoodCloud account and bind your device to your account first.
+    Please go to **APPLICATIONS** -> **GoodCloud**, enable **GoodCloud**, **Remote SSH** and **Remote Web Access**, check the **Terms of Service & Privacy Policy**, then click **Apply**.
 
-1. Go to [GoodCloud](https://www.goodcloud.xyz){target="_blank"} and log in or sign up for an account.
-2. Bind your device to GoodCloud. Refer to [Add Device](https://docs.gl-inet.com/router/en/4/interface_guide/cloud/#add-device).
+    ![enable GoodCloud 4.6](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.6.x.png){class="glboxshadow"}
 
-## Share to GL.iNet technical support 
+## Log in Cloud account and bind device
 
-Login [GoodCloud](https://www.goodcloud.xyz){target="_blank"}, go to Devices menu and click on the corresponding device. You will be lead to the details page, click the **SHARE** tab and **Share Device** as per the following picture. Then share the device to the GL-iNet Technical Support:
+If your router runs firmware v4.7 or higher, you can register an accout in the router's web Admin Panel and log in directly. Once logged in, the current device will be bound to your Cloud account automatically. 
 
-![How to open device details](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
+If your router runs firmware v4.6 or earlier, follow the steps below to log in to your account and bind your device.
 
-![How to share device to GL.iNet technical support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
+1. Visit [GoodCloud](https://www.goodcloud.xyz){target="_blank"} and log in to your account. If you don't have an account, register one first.
 
-Make sure you set the **Share Duration** for example 7 days to protect your personal network not shares to us forever.
+2. Bind your device to GoodCloud. Please refer to [this link](../interface_guide/cloud.md#add-device-in-your-account).
+
+## Share device with GL.iNet technical support
+
+1. Visit [GoodCloud](https://www.goodcloud.xyz){target="_blank"} and log in.
+
+2. Navigate to **Devices** -> **Bound Devices**, and click on the device you want to share. 
+
+    ![bound devices](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/bound_devices.png){class="glboxshadow"}
+
+3. You will be lead to the device details page. Click the **SHARE** tab and **Share Device**, as shown below. 
+
+    ![share device](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
+
+    Then share your device with GL.iNet Technical Support. To secure your personal network, please enable **Auto Expire Sharing** and set it to expire in 7 days. Then click **Confirm**.
+
+    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
 
 **Privacy Protection Statement**
 
-1. The devices shared by users with GL-iNet Support are ONLY used for troubleshooting purposes. GL-iNet Support will not retain, back up, or steal any privacy information of users.
+1. Devices shared with GL.iNet Technical Support are ONLY used for troubleshooting purposes. GL.iNet Support will not retain, back up, or access any of your privacy information.
 
-2. To ensure password security, it is recommended that you change the login password of the web admin panel to an infrequently used one before sharing it with GL-iNet Support. You can change it back to your regular password after the troubleshooting is completed.
+2. To ensure password security, we recommend changing the login password of the web admin panel to a temporary one before sharing the device with GL.iNet Support. You can revert to your regular password after troubleshooting is completed.
 
-## Provide the login credentials to GL.iNet technical support
+## Provide information to GL.iNet technical support
 
-After sharing the device, please provide the **MAC address** and your **router's login password** so that we can log in and check this issue remotely.
+After sharing the device, please provide your router's **MAC address** and **admin password** to the corresponding GL.iNet technical support staff via email or forum PM for remote troubleshooting. 
 
-You can send this information to the GL.iNet technical support via **email** at [support@gl-inet.com](mailto:support@gl-inet.com) or **PM** (private message) in the [official forum](https://forum.gl-inet.com){target="_blank"}. Please do not send both email and PM at the same time.
+**Please do not send the information via both email and PM at the same time.**
 
-Below are the steps to send a private message in the forum:
+- **via Email**: Send this information to the corresponding GL.iNet technical support staff at [support@gl-inet.com](mailto:support@gl-inet.com).
 
-1. Go to the [offical forum](https://forum.gl-inet.com){target="_blank"}.
-2. Click on the account of the GL.iNet technical supporter you are in contact with.
-3. Click on the **Message** button to send a private message.
+- **via Official Forum PM**: Send a PM (private message) the corresponding GL.iNet technical support staff in the [official forum](https://forum.gl-inet.com){target="_blank"}. 
 
-    ![How to send a private message](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/PM_via_forum.gif){class="glboxshadow"}
+    Here are steps to send a private message in the forum.
 
-Sometimes, new users may not be able to send a private message to GL.iNet technical support. In that case, you can respond in the same thread where you're communicating and ask the technical supporter to send you a private message first.
+    1. Go to the [offical forum](https://forum.gl-inet.com){target="_blank"}.
+    2. Click on the username of the GL.iNet support staff you are in contact with.
+    3. Click on the **Message** button to send a private message.
 
-Please **DO NOT** share your device details in public, only share them with GL.iNet technical support via PM.
+        ![How to send a private message](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/PM_via_forum.gif){class="glboxshadow"}
 
-## After the issue is resolved
+Sometimes, new users may not be able to send a private message to GL.iNet technical support. In that case, you can respond in the same thread where you're interacting and ask the technical support staff to send you a private message first.
 
-Please cancel the share and change the router password after the issue is resolved.
+Please **DO NOT** share your device details in public; only share them with GL.iNet technical support via PM.
+
+After the issue is resolved, please cancel the share and change your router's admin password.
 
 ---
 

@@ -1,6 +1,6 @@
 # How to download the firmware for my GL.iNet router?
 
-If you want to update your router (or debrick it via U-Boot), download the firmware files by the following steps: 
+If you want to update your router (or unbrick it via U-Boot), download the firmware files by the following steps: 
 
 1. In the [GL.iNet firmware download center](https://dl.gl-inet.com), select the search bar and your router model. 
 2. Select a tab at the top:

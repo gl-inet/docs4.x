@@ -11,52 +11,53 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 
 ## Supported models
 
-| Router Model                   | Support   |
-| :----------------------------- | :-------: |
-| GL-BE9300 (Flint 3)            | √         |
-| GL-BE3600 (Slate 7)            | √         |
-| GL-X2000 (Spitz Plus)          | -         |
-| GL-B3000 (Marble)              | √         |
-| GL-MT6000 (Flint2 )            | √         |
-| GL-X3000 (Spitz AX)            | √         |
-| GL-XE3000 (Puli AX)            | √         |
-| GL-MT3000 (Beryl AX)           | √         |
-| GL-AXT1800 (Slate AX)          | √         |
-| GL-A1300 (Slate Plus)          | √         |
-| GL-MT2500/GL-MT2500A (Brume 2) | √         |
-| GL-SFT1200 (Opal)              | *         |
-| GL-S1300 (Convexa-S)           | √         |
-| GL-MT1300 (Beryl)              | *         |
-| GL-AX1800 (Flint)              | √         |
-| GL-AR750S (Slate)              | -         |
-| GL-AR750 (Creta)               | -         |
-| GL-AR300M Series (Shadow)      | -         |
-| GL-MT300N-V2 (Mango)           | -         |
-| GL-XE300 (Puli)                | -         |
-| GL-E750 (Mudi)                 | *         |
-| GL-X750 (Spitz)                | -         |
-| GL-B1300 (Convexa-B)           | -         |
-| GL-AP1300 (Cirrus)             | √         |
-| GL-X300B (Collie)              | -         |
-| GL-MV1000/GL-MV1000W (Brume)   | √         |
+??? "Supported Models"
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint2)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-AX1800 (Flint)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
+    - GL-A1300 (Slate Plus)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
+    - *GL-SFT1200 (Opal)
+    - *GL-MT1300 (Beryl)
+    - *GL-E750/E750V2 (Mudi)
 
-*Some models do not have built-in Tor supported, but users can manually use plug-in the re-install the Tor. Click [here](#manual-install) for details.
+    **Note**: Models marked with * do not support Tor natively, but users can manually install Tor via a plug-in. Click [here](#manual-install) for details.
+
+??? "Unsupported Models"
+    - GL-X2000 (Spitz Plus)
+    - GL-AR750S (Slate)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-XE300 (Puli)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
 
 ## Setup
 
 On the left side of web Admin Panel -> VPN -> Tor.
 
-Click the toggle switch to enable it, then click **Apply** button. You can also choose a **Custom Exit Nodes**.
+Click the toggle switch to enable it, enable **Custom Exit Nodes** if required, then click **Apply**.
 
-![gl.inet Tor](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/tor.png){class="glboxshadow"}
+![enable tor](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/enable_tor.png){class="glboxshadow"}
 
-Wait a while, depending on your network, and it will show connected.
+It will start connecting. If your network meet the requirements, it will show connected.
 
-![gl.inet Tor connected](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/tor_connected.png){class="glboxshadow"}
+![tor connected](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/connected.png){class="glboxshadow" width="672"}
 
 ## Manual install
 
-*Some models can manually use plug-in the re-install the Tor, but it may affect the CPU load and making the system response slower.
+**Note**: Some models can have Tor manually installed via a plug-in, but this may increase CPU load and slow down system response.
 
 On the left side of web Admin Panel -> APPLICATIONS -> Plug-ins.
 

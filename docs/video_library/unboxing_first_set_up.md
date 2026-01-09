@@ -12,7 +12,7 @@ Unboxing Video
 
 Unboxing Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/884A5k7oiQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bEuwGm0hQ5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Setup Guide
 
@@ -41,6 +41,12 @@ Unboxing & Setup Guide
 Unboxing
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ru1O-zxKgKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-AX1800 (Flint)
+
+Unboxing and Setup Guide
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OsnDvWTuQnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-XE3000 (Puli AX)
 
@@ -78,11 +84,11 @@ Unboxing
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GnEr-LJVbdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-AX1800 (Flint)
+## GL-A1300 (Slate Plus)
 
 Unboxing and Setup Guide
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OsnDvWTuQnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zhY7AqmKJAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-MT1300 (Beryl)
 

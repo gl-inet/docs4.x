@@ -1,66 +1,60 @@
-# GL-S1300 (Convexa-S) User Guide
+# Convexa-S (GL-S1300) User Guide
 
-## Hardware info
+## Product overview
 
-GL-S1300 (Convexa-S) is a unique smart home gateway with beamforming Wi-Fi and Bluetooth* that can connect all your IoT devices together. More wireless protocols will be added.
+Convexa-S (GL-S1300) is a unique smart home gateway with beamforming Wi-Fi and optional Bluetooth that connects all your IoT devices. It delivers 1267Mbps combined Wi-Fi speeds, 3 gigabit ports, and supports MU-MIMO & Wi-Fi SON to eliminate dead zones. With 8GB storage and OpenWrt, it enables VPN, network storage, and customizable solutions, plus GoodCloud remote control.
 
 ![gl-s1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s1300/hardware_info/s1300_interface.jpg){class="glboxshadow"}
 
-[GL-S1300 specification](https://www.gl-inet.com/products/gl-s1300/#specs){target="_blank"}
+## Specifications
 
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/3/specification/s1300/S1300.png" itemprop="contentUrl" data-size="2290x1937">
-      <img src="https://static.gl-inet.com/docs/router/en/3/specification/s1300/S1300.png" itemprop="thumbnail" alt="gl-s1300 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
+[GL-S1300 specifications](https://www.gl-inet.com/products/gl-s1300/#specs){target="_blank"}
 
 ---
 
-## First time setup
+## First-time setup
 
-All of GL.iNet's devices have a simple and almost identical setup process, [click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a similar setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
 
 ---
 
 ## INTERNET
 
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
+Log in to the router's web Admin Panel, and navigate to **INTERNET** from the left-side menu. 
 
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
-
-It supports four ways to connect to the internet as listed below:
+This page allows you to select your internet connection type, such as Ethernet, Repeater, Tethering, and Cellular.
 
 ### Ethernet
 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
+Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
 
 [Click here to learn how to connect to the internet via an ethernet cable](../../interface_guide/internet_ethernet.md)
 
 ### Repeater
 
-Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
+Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
 
 [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
 
 ### Tethering
 
-Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+Connect the router's USB port to a smartphone with active mobile data via a USB cable to access the Internet. This method enables multiple devices connected to the router to access the internet using the smartphone's mobile data.
 
 [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
 
 ### Cellular
  
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+Connect the router to the internet by plugging a cellular-enabled USB modem into the router's USB port. This method is useful for sharing internet from a USB modem to all connected devices.
 
 [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
 
-### Priority and load balance
+### Multi-WAN
 
-Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet access method or the load balance when multiple Internet access methods are used at the same time.
+Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., Ethernet, Repeater) at the same time. If the top-priority internet connection fails, the router will automatically switch to another internet connection. This is also called Failover, ensuring smooth and uninterrupted internet access.
+
+Go to [Multi-WAN](../../interface_guide/multi-wan.md) to set the priority of each Internet connection. 
+
+Alternatively, you can switch the Multi-WAN mode from Failover to Load Balance, which enables you to use multiple network interfaces at the same time to increase the total bandwidth of the router.
 
 ---
 

@@ -14,9 +14,8 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 
 * [First time setup](first_time_setup.md)
 * [Warning from your browser](warning_from_your_browser_during_setup.md)
-* [Connect to a Hotspot with a Captive Portal](connect_to_a_hotspot_with_captive_portal.md)
-* [Can I connect an Ethernet-only device to Wi-Fi using GL.iNet router?](produce_a_wired_connection.md)
-* [Build up an Intranet with GL.iNet routers](build_up_an_intranet.md)
+* [How to connect a GL.iNet router to public hotspots with a Captive Portal?](connect_to_a_hotspot_with_captive_portal.md)
+* [How to connect an Ethernet-only device to Wi-Fi with a GL.iNet router?](produce_a_wired_connection.md)
 
 ## Problem Notification
 
@@ -41,7 +40,9 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 * [Stuck on the "Rebooting" screen during firmware reboot](stuck_on_rebooting_screen.md)
 * [How to resolve a subnet conflict?](how_to_resolve_a_subnet_conflict.md)
 * [Why do I get a message from DDNS test?](why_do_I_get_a_message_from_ddns_test.md)
-* [Why is my VPN speed slow?](why_is_my_vpn_speed_slow.md)
+* [Why is my VPN speed slower than expected?](why_is_my_vpn_speed_slow.md)
+* [What is the device capacity of my router?](what_is_the_device_capacity_of_my_router.md)
+* [What is the wireless coverage of my router?](what_is_the_wireless_coverage_of_my_router.md)
 * [Upgrade Uboot version](upgrade_uboot_version.md)
 
 ## VPN

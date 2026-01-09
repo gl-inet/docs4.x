@@ -1,15 +1,42 @@
 # Puli AX (GL-XE3000) User Guide
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+## Product overview
+
+Puli AX (GL-XE3000) is the ultimate Wi-Fi 6 5G Cellular Router that takes your internet speed to the next level! With a powerful built-in 6400mAh/7.4V/47.4Wh battery, you can now enjoy uninterrupted internet connectivity for even longer periods. Experience lightning-fast Wi-Fi speeds of up to 574Mbps (2.4GHz) and 2402Mbps (5GHz), with a combined maximum Wi-Fi speed of 3000Mbps. It is equipped with a 5G NR cellular connection, ensuring uninterrupted internet connectivity, even in the event of an ethernet failure.
+
+![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
+
+## Package contents
+
+Please note that the adapter within the package depends on your shipping country.
+
+The package includes:
+
+- 1 x User manual
+- 1 x Puli AX (GL-XE3000)
+- 1 x Ethernet cable
+- 1 x Thank you card
+- 1 x Converter (Selected plug type)
+
+![xe3000_unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
+
+## LED indication
+
+[LED Indication](../../faq/led.md#gl-xe3000){target="_blank"}
+
+## Specifications
+
+[GL-XE3000 specifications](https://www.gl-inet.com/products/gl-xe3000/#specs){target="_blank"}
 
 ## How to set up Puli AX
 
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+
 To set up Puli AX, you will use one of the four supported internet connection methods: Cellular (SIM cards), Ethernet, Repeater, and Tethering. Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Puli AX and other router models.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N-p9NaXZmIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! note "Before you start, follow these steps (if connecting via the cellular method):"
+!!! note "Before you start, follow these steps (if connecting via the cellular method)"
 
     At least one nano SIM card is required to connect to the internet via the cellular method. Once you have the nano SIM card(s) ready, follow these steps:
     
@@ -291,41 +318,4 @@ Please visit the [**System Overview**](../../interface_guide/system_overview.md)
 * To view security, please visit the [**Security**](../../interface_guide/security.md) tutorial.
 * To reset firmware, please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
 * To adjust advanced settings, please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
-
----
-
-## Product overview
-
-### Product information
-
-Puli AX (GL-XE3000) is the ultimate Wi-Fi 6 5G Cellular Router that takes your internet speed to the next level! With a powerful built-in 6400mAh/7.4V/47.4Wh battery, you can now enjoy uninterrupted internet connectivity for even longer periods. Experience lightning-fast Wi-Fi speeds of up to 574Mbps (2.4GHz) and 2402Mbps (5GHz), with a combined maximum Wi-Fi speed of 3000Mbps. It is equipped with a 5G NR cellular connection, ensuring uninterrupted internet connectivity, even in the event of an ethernet failure.
-
-![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
-
----
-
-### Package contents
-
-Please note that the adapter within the package depends on your shipping country.
-
-Your router package includes:
-
-- 1 x User manual
-- 1 x Puli AX (GL-XE3000)
-- 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Converter (Selected plug type)
-
-![xe3000_unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
-
----
-
-### Specification
-
-[GL-XE3000 specification](https://www.gl-inet.com/products/gl-xe3000/#specs){target="_blank"}
-
-[LED Indication](../../faq/led.md#gl-xe3000)
-
-
-
 

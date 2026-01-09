@@ -1,41 +1,44 @@
 # SMS Forwarding
 
-Since version 4.1, forwarding SMS messages from the router to mobile phones and emails is available.
+GL.iNet cellular routers support SMS forwarding, automatically pushing received messages to designated recipients.
 
-**Note**: This feature only works on GL.iNet 4G/5G models with original 4G LTE/5G NR module, not support with other modules or any other USB modules.
+**Note**: This feature only works on GL.iNet cellular routers with the original 4G LTE/5G NR module, and is not supported on other modules or any other USB modules.
 
-There are two methods to forward SMS, 
+There are two methods to forward SMS.
 
 - Forward SMS to emails
 - Forward SMS to phones
 
 ## Supported models
 
-| Router Model                   | Support   |
-| :----------------------------- | :-------: |
-| GL-X2000 (Spitz Plus)          | √         |
-| GL-XE3000 (Puli AX)            | √         |
-| GL-X3000 (Spitz AX)            | √         |
-| GL-XE300 (Puli)                | √         |
-| GL-E750 (Mudi)                 | √         |
+| Router Model                       | Support   |
+| :--------------------------------- | :-------: |
+| GL-X2000 (Spitz Plus)              | √         |
+| GL-XE3000 (Puli AX)                | √         |
+| GL-X3000 (Spitz AX)                | √         |
+| GL-E750/GL-E750-V2 (Mudi/Mudi V2)  | √         |
+| GL-X750 (Spitz)                    | √         |
+| GL-XE300 (Puli)                    | √         |
+| GL-X300B (Collie)                  | √         |
 
 ## Setup
 
-Here take the GL-XE3000 (Puli AX) as an example.
+Take the GL-XE3000 (Puli AX) as an example.
 
-On the left side of web Admin Panel -> INTERNET -> Cellular section. Click the envelope icon in the upper right to enter SMS page, you will find the SMS Forwarding settings.
+On the left side of web Admin Panel -> INTERNET -> Cellular section. Click the envelope icon in the upper right to enter SMS page, and you will find the SMS Forwarding settings.
 
 ![sms setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow"}
 
-## SMS Forwarding to email
+### Forward via Email
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**, dropdown list has preset Server Address for Gmail, Outlook, iCloud and Yahoo. If you using other mail providers, please check out their document or contact the support.
-- **Encryption Method**, has three options: none, SSL/TLS and STARTTLS.
-- **Username**, the email address.
-- **Password**, app-specific passwords or the password for login account. For Gmail, Outlook, iCloud and Yahoo, please check the guide below.
-- **Subject**, the email subject.
+- **SMTP Server Address**: Preset server addresses for Gmail, Outlook, iCloud, and Yahoo are available in the dropdown list. For other mail providers, refer to their documentation or contact their support.
+
+- **Encryption Method**: Three options are provided: none, SSL/TLS, and STARTTLS.
+- **Username**: Enter the email address here.
+- **Password**: Use an app-specific password or the login account password. For Gmail, Outlook, iCloud, and Yahoo, check the guide below.
+- **Subject**: Set the email subject here.
 
 ??? "Gmail"
 
@@ -55,15 +58,15 @@ On the left side of web Admin Panel -> INTERNET -> Cellular section. Click the e
 
     For Yahoo, you need to set an app password for login, and it supports both port 465 and 587. Please refere to the official guide [POP access settings and instructions for Yahoo Mail](https://help.yahoo.com/kb/SLN4724.html){target="_blank"} and [Generate and manage third-party app passwords](https://help.yahoo.com/kb/SLN15241.html){target="_blank"}.
 
-**Note**: Each emailer may has a limit on SMTP, limiting the number of emails that can be sent per day. Please consult with your service provider.
+**Note**: Each email sender may be subject to SMTP sending limits, e.g., a daily limit on the number of emails sent. Please consult with your service provider.
 
-You can add up to 10 email addreses.
+You can add up to 10 email addresses.
 
-## SMS Forwarding to phone
+### Forward via SMS
 
 ![sms forwarding phone](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 
-Toggle to enable it, choose the National code and input the phone number, finally, click the apply button.
+Choose the National code and input the phone number, and click Apply.
 
 You can add up to 10 cell phone numbers.
 

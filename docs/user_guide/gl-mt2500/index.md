@@ -1,13 +1,43 @@
-# GL-MT2500/GL-MT2500A(Brume 2) User Guide
+# Brume 2 (GL-MT2500/GL-MT2500A) User Guide
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+## Product overview
+
+Brume 2 (GL-MT2500/GL-MT2500A) is a lightweight and powerful VPN gateway that runs on OpenWrt v21.02 operating system. It is compactly designed to host a VPN server at home, or run SD-WAN (Site-to-Site) for small and medium-sized enterprises.
+
+![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
+
+## Package contents
+
+Please note that the adapter within the package depends on your shipping country.
+
+The package includes:
+
+- 1 x Brume 2 (GL-MT2500 or GL-MT2500A)
+- 1 x Power adapter (Selected plug type)
+- 1 x Ethernet cable
+- 1 x User manual
+- 1 x Thank you card
+- 1 x Warranty card
+
+The following figure shows the GL-MT2500A as an example.
+
+![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
+
+## LED indication
+
+Please refer to [Brume 2 LED Indication](../../faq/led.md#gl-mt2500).
+
+## Specifications
+
+[GL-MT2500/GL-MT2500A specifications](https://www.gl-inet.com/products/gl-mt2500/#specs){target="_blank"}
 
 ## How to set up Brume 2
 
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+
 To set up Brume 2, you will use one of the three supported internet connection methods: Ethernet, Tethering and Cellular (Repeater is not supported as Brume 2 does not have WiFi module). Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Brume 2 and other router models.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Power on the Brume 2
 
@@ -315,45 +345,3 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
 
-## Product overview
-
-### Product information
-
-GL-MT2500/GL-MT2500A(Brume 2) is a lightweight and powerful VPN Gateway that runs on OpenWrt v21.02 operating system. It is compactly designed to host a VPN server at home, or run SD-WAN (Site-to-Site) for small and medium-sized enterprises.
-
-![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
-
-### Package contents
-
-Please note that the adapter within the package depends on your shipping country.
-
-What's inside the package? (The following figure shows the GL-MT2500A as an example.)
-
-![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
-
-Your router package includes:
-
-- 1 x Brume 2 (GL-MT2500 or GL-MT2500A)
-- 1 x Power adapter (Selected plug type)
-- 1 x Ethernet cable
-- 1 x User manual
-- 1 x Thank you card
-- 1 x Warranty card
-
-### LED indicators
-
-Please refer to [Brume 2 LED Indication](../../faq/led.md#gl-mt2500).
-
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/gl-mt2500a_pinout.jpg" itemprop="contentUrl" data-size="1500x1313">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/gl-mt2500a_pinout.jpg" itemprop="thumbnail" alt="gl-mt2500 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
-
-### Specifications
-
-Refer to [GL-MT2500/GL-MT2500A specification](https://www.gl-inet.com/products/gl-mt2500/#specs){target="_blank"}

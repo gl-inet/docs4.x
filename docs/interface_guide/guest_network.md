@@ -36,4 +36,10 @@ Other basic settings and the DHCP server settings are the same as [LAN](lan.md).
 
 ---
 
+Related Articles:
+
+- [How to set up a guest Wi-Fi network on GL.iNet routers](../tutorials/how_to_set_up_a_guest_network.md)
+
+---
+
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

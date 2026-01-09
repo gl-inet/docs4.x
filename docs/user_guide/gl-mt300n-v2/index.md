@@ -1,17 +1,27 @@
-# GL-MT300N-V2(Mango) User Guide
+# Mango (GL-MT300N-V2) User Guide
 
-## How to set up GL-MT300N-V2
+## Product overview
 
-To set up GL-MT300N-V2, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+Mango (GL-MT300N-V2) is a pocket-size mini router, designed to be Portable and Travel-Friendly, supporting up to 300Mbps wireless transmission rate. Mango offers advanced security features, including support for OpenVPN, WireGuard®, and a DNS server. It not only allows you to convert a public network to a private Wi-Fi for secure surfing, but also allows you to upload vpn configuration files from over 30 VPN service providers, set it as vpn client, providing an added layer of privacy and security to create an encrypted traffic between your device and the VPN server.
+
+![mt300n-v2 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n_v2_overview.png){class="glboxshadow"}
+
+## Specifications
+
+[GL-MT300N-V2 specifications](https://www.gl-inet.com/products/gl-mt300n-v2/#specs){target="_blank"}
+
+## How to set up Mango
+
+To set up Mango, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3dm0w5kjAlc?si=3YykOcaz_YK_vp28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for GL-MT300N-V2 and other router models.)</small>
+<small>(This video uses a different GL.iNet router to demonstrate the setup, but the steps are the same for Mango and other router models.)</small>
 
-### 1. Power on the GL-MT300N-V2
+### 1. Power on Mango
 
 Plug the Micro USB power cable into the power port of the router. Make sure you are using a standard 5V/2A power adapter.
 
-### 2. Connect your device to the GL-MT300N-V2
+### 2. Connect your device to Mango
 
 Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
@@ -23,7 +33,7 @@ Connect your computer or mobile device to the router using Wi-Fi or ethernet.
 
     Connect your device to the router's LAN port using an ethernet cable.
 
-### 3. Connect the GL-MT300N-V2 to the internet 
+### 3. Connect Mango to the internet
 
 **Note:** The following instructions were written for those connecting the router to Internet via web admin panel. If you want to use the GL.iNet app instead of the web admin panel, [download the app](https://www.gl-inet.com/app/) and follow the on-screen instructions. 
 
@@ -79,18 +89,18 @@ In a web browser's address bar, enter `192.168.8.1`. Choose your language, then 
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). GL-MT300N-V2 (and other GL.iNet routers) support OpenVPN and WireGuard.
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Mango (and other GL.iNet routers) support OpenVPN and WireGuard.
 
 === "OpenVPN" 
 
-    GL-MT300N-V2 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Mango (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    GL-MT300N-V2 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Mango (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -295,14 +305,3 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Product overview
-
-### Product information
-
-Mango (GL-MT300N-V2) is a pocket-size mini router, designed to be Portable and Travel-Friendly, supporting up to 300Mbps wireless transmission rate. Mango offers advanced security features, including support for OpenVPN, WireGuard®, and a DNS server. It not only allows you to convert a public network to a private Wi-Fi for secure surfing, but also allows you to upload vpn configuration files from over 30 VPN service providers, set it as vpn client, providing an added layer of privacy and security to create an encrypted traffic between your device and the VPN server.
-
-![mt300n-v2 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n_v2_overview.png){class="glboxshadow"}
-
-### Specifications
-
-Refer to [Specifications](https://www.gl-inet.com/products/gl-mt300n-v2/#specs){target="_blank"}.

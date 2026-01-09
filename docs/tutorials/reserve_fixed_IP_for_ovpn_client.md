@@ -14,7 +14,7 @@ If you have successfully set up your OpenVPN server using a GL.iNet router, this
 
 3. SSH log in to the router, run the following command to open the OpenVPN server configuration script file:
 
-    `vi /etc/lib/netifd/proto/openserver.sh`
+    `vi /lib/netifd/proto/openserver.sh`
 
     In the opened file, check if the line "*client-config-dir /etc/openvpn/ccd*" exists in the script. 
 

@@ -14,7 +14,7 @@ This tutorial will show you how to reserve a fixed IP for your OpenVPN client co
 
 3. SSH log in to the router, run the following command to open the OpenVPN server configuration script file:
 
-    `vi /etc/lib/netifd/proto/openserver.sh`
+    `vi /lib/netifd/proto/openserver.sh`
 
     In the opened file, check if the line "*client-config-dir /etc/openvpn/ccd*" exists in the script. 
 

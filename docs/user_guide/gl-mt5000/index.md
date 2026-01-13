@@ -64,7 +64,7 @@ Configure your Brume 3 using one of the three supported internet connection meth
 
 === "Cellular"
 
-    An additional USB-C to USB-A adapter cable is required for this conection method.
+    An additional USB-C to USB-A adapter cable is required for this connection method.
     
     Plug a cellular USB modem into the USB Type-C port of Brume 3 via an additional USB-C to USB-A adapter cable. This is useful for sharing internet from a USB modem to all connected client devices.
 

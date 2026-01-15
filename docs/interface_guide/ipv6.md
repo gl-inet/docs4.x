@@ -8,13 +8,13 @@ The IPv6 function allows you to enable and configure IPv6 on router.
 
 When IPv6 is enabled, WAN interfaces such as Ethernet will get their IPv6 addresses via DHCPv6. You can also modify the IPv6 address manually in the Ethernet settings page.
 
-**Note**: Some features (e.g., firewall, GoodCloud, OpenVPN DCO) do not yet support IPv6. If you use functions of both VPN and IPv6 at the same time, it's likely to cause IPv6 data leakage.
+**Note**: Some features (e.g., firewall, GoodCloud, OpenVPN DCO) do not yet support IPv6. If you use these features and IPv6 at the same time, it's likely to cause connectivity issues.
 
-Toggle the button to enable IPv6, and click **Apply**.
+Toggle on **Enable IPv6**, select the mode for your main network and DNS acquisition method, then click **Apply**.
 
 ![ipv6 enabled](https://static.gl-inet.com/docs/router/en/4/tutorials/ipv6/ipv6_enabled.png){class="glboxshadow"}
 
-**Mode**: There are four modes: **Native**, **Passthrough**, **NAT6** and **Static IPv6**.
+**Mode**: Four modes are available: **Native**, **Passthrough**, **NAT6** and **Static IPv6**.
 
 - Native: This mode is applicable when the router directly obtains a public IPv6 address, and the router automatically assigns IPv6 addresses to online devices. This mode can meet the IPv6 access needs of most users.
 

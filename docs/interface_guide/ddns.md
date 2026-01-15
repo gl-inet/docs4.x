@@ -48,17 +48,21 @@ You can check if DDNS works using the DDNS test tool or check it manually using 
 
     1. Use `nslookup` command to obtain the mapping between domain name and IP address, as shown below.
 
-        ![nslookup](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup.jpg){class="glboxshadow"}
+        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup1.jpg){class="glboxshadow"}
 
         Replace the "xxxxxxx.glddns.com" in the image above with your Host Name. 
         
-        The "8.8.8.8" in the image above is the Google DNS. Use it or replace it with other DNS.
+        The "8.8.8.8" in the image above is the Google DNS. Use it or replace it with other DNS, then press Enter.
 
-        You will get an IP address as an output, such as the IP "103.81.180.10" in the image above.
+    2. If you get a public IP address as an output, such as "103.81.180.10" in the image below, it indicates that your DDNS domain has been successfully mapped to a public IP address.
 
-    2. Connect a smartphone or computer to the router. Search for "my ip address" in a browser, or visit a website like [What Is My IP Address](https://whatismyipaddress.com){target="_blank"}. You will get your public IP address.
+        ![nslookup 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup2.jpg){class="glboxshadow"}
+        
+        On a device connected to the router, search for "what is my ip address" in a browser, or visit a website like [What Is My IP Address](https://whatismyipaddress.com){target="_blank"}. You will get your public IP address. Compare the two IP addresses obtained from Step 1 and 2. If they are the same, the DDNS is in effect, otherwise it is not.
 
-    3. Compare the two IP addresses obtained from Step 1 and 2. If they are the same, the DDNS is in effect, otherwise it is not.
+    3. If you get a message `** server can't find xxxxxxx.glddns.com: NXDOMAIN`, as shown below, it indicates that domain resolution failed, and your DDNS domain has not been successfully mapped to a public IP address.
+
+        ![nslookup 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup3.png){class="glboxshadow"}
 
 ## HTTPS Remote Access
 

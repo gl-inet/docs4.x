@@ -1,10 +1,10 @@
 # IPv6
 
-On the left side of web Admin Panel -> NETWORK -> IPv6
+IPv6 (Internet Protocol version 6) is the latest Internet Protocol designed to replace IPv4. It offers a larger pool of unique IPs, solving the address exhaustion issue of IPv4 and supporting the growing number of connected devices globally.
+
+On the left side of web Admin Panel -> NETWORK -> IPv6. This page allows you to enable and configure IPv6 on your router.
 
 ![ipv6](https://static.gl-inet.com/docs/router/en/4/tutorials/ipv6/ipv6.png){class="glboxshadow"}
-
-The IPv6 function allows you to enable and configure IPv6 on router.
 
 When IPv6 is enabled, WAN interfaces such as Ethernet will get their IPv6 addresses via DHCPv6. You can also modify the IPv6 address manually in the Ethernet settings page.
 
@@ -24,7 +24,11 @@ Toggle on **Enable IPv6**, select the mode for your main network and DNS acquisi
 
 - Static IPv6: This mode is suitable for devices or services that require a fixed IPv6 address, such as servers or network printers. This mode ensures that the device always uses the same IPv6 address, facilitating management and access.
 
-**DNS acquisition method**: There are two options: **Automatic** and **Manual**.
+**DNS acquisition method**: It determines how the router obtains IPv6 DNS server addresses. There are two options: **Automatic** and **Manual**. 
+
+- Automatic: The router will obtain IPv6 DNS server addresses dynamically (e.g., via DHCPv6).
+
+- Manual: Input custom IPv6 DNS server addresses. However, since DNS is used to resolve domain names to their corresponding IP addresses, manual DNS server configuration may result in DNS lookup failures. Please use it with caution.
 
 ---
 

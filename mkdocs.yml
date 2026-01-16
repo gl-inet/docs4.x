@@ -310,6 +310,8 @@ nav:
       - Hardware Acceleration: interface_guide/hardware_acceleration.md
       - Network Acceleration: interface_guide/network_acceleration.md
       - NAT Settings: interface_guide/nat_settings.md
+    - Flow Control:
+      - DPI License: interface_guide/dpi_license.md
     - System:
       - Overview: interface_guide/system_overview.md
       - Upgrade: interface_guide/upgrade.md

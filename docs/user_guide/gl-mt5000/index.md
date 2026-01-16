@@ -179,17 +179,23 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "DPI License"
 
-    DPI (Deep Packet Inspection) technology, as a core capability of intelligent network management, can break the limitations of traditional routers that only identify source/destination addresses. It conducts in-depth analysis of the payload content of data packets and accurately identifies the applications and websites accessed by users through feature library comparison, enabling refined traffic classification and control. With this feature, your router will evolve from a simple network sharing device to an exclusive intelligent network management center for homes and small enterprises, fully meeting diverse traffic management needs.
+    DPI (Deep Packet Inspection) is a core capability of intelligent network management. It can overcome the limitation of traditional routers (which only identify source or destination addresses), analyze data packet payloads in depth, and accurately identify user-accessed applications and websites through feature library comparison, enabling refined traffic classification and control. 
+    
+    GL.iNet DPI feature adopts a lightweight embedded plug-in integrated with Notify for efficient deployment. With its online-updated signature database, it enables reliable management, making network control more accurate and efficient.
 
-    The DPI feature of GL.iNet routers adopts a lightweight embedded plug-in integrated with Notify, ensuring convenient and efficient deployment. It can accurately identify over 2,000 APPs, 31 application categories, and 431 network protocols; with its online-updated signature database, it provides stable and reliable technical support for core management actions such as traffic control, speed limiting, bandwidth priority allocation, and intelligent traffic offloading. Currently, there are four core applications on the Brume 3: Data Statistics, Content Filtering, QoS (Quality of Service), and SQM (Smart Queue Management), making network management more accurate and efficient.
+    Please refer to [DPI License](../../interface_guide/dpi_license.md) for detailed instructions.
 
 === "Data Statistics"
 
     Data Statistics offers an intelligent traffic insight dashboard that categorizes and visualizes network usage by applications, helping you monitor real-time and historical traffic for better network awareness and control.
 
+    Please refer to [Data Statistics](../../interface_guide/data_statistics.md) for detailed instructions.
+
 === "Content Filter"
 
     Content Filter provides smart online safety powered by DPI-based classification, automatically blocking harmful or malicious websites to keep your network clean and secure.
+
+    Please refer to [Content Filter](../../interface_guide/content_filter.md) for detailed instructions.
 
 ---
 
@@ -201,11 +207,15 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "QoS"
 
-    QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical applications such as video calls and gaming, reducing latency, and improving overall network performance.
+    QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical activities (e.g., video calls, gaming) during network congestion, reducing latency and improving overall network performance. Note that this applies to local client traffic and VPN Client tunnel traffic, but not to traffic received when the router functions as a VPN Server.
+
+    Please refer to [QoS](../../interface_guide/qos.md) for detailed instructions.
 
 === "SQM"
 
-    SQM intelligently manages your router's network traffic, preventing any single device or application from hogging excessive bandwidth. This reduces latency and buffering, delivering faster browsing speeds, clearer voice calls, and smoother gaming experiences.
+    SQM (Smart Queue Management) intelligently manages your router's network traffic to minimize latency and "bufferbloat", ensuring smoother gaming and voice calls.
+
+    Please refer to [SQM](../../interface_guide/sqm.md) for detailed instructions.
 
 ## Security
 
@@ -217,7 +227,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Management Control"
 
-    The Management Control allows you to configure various security settings to protect your network and router from unauthorized access. This page includes the following options:
+    Management Control allows you to configure various security settings to protect your network and router from unauthorized access. This page includes the following options:
 
     * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
     * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
@@ -229,7 +239,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "NAT Mode"
 
-    The NAT Mode page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.
+    NAT Mode page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.
 
     To set up NAT settings, refer to [NAT Mode](../../interface_guide/nat_settings.md).
 

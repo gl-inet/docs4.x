@@ -61,6 +61,13 @@
 <div class="gl-product-row">
   <div class="gl-product-row-box">
     <div class="gl-product-card">
+      <a href="gl-e5800/">
+  	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_e5800.png" >
+        <div class="gl-product-model">GL-E5800</div>
+        <div class="gl-product-model">(Mudi 7)</div>
+  	  </a>
+  	</div>
+    <div class="gl-product-card">
       <a href="gl-xe3000/">
   	    <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_xe3000.jpg" >
         <div class="gl-product-model">GL-XE3000</div>

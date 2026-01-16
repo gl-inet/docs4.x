@@ -2,7 +2,7 @@
 
 On the left side of web Admin Panel -> NETWORK -> Drop-in Gateway
 
-Drop-in Gateway is an extension function that enables capability expansion for an existing primary router without replacing or reconfiguring it. By connecting the GL.iNet router to the primary router via an Ethernet cable, users can overlay advanced network features onto the existing network infrastructure, for example:
+Drop-in Gateway is an extension function that enables capability expansion for an existing primary router without replacing or reconfiguring it. By connecting the GL.iNet router to the primary router via an Ethernet cable, users can add advanced network features onto the existing network infrastructure, for example:
 
 - Filter advertisements via AdGuard Home
 - Enable VPN client
@@ -18,7 +18,7 @@ Drop-in Gateway operates as an intermediate network system, routing data traffic
 
 The diagram above consists of two types of lines: gray lines, and green lines marked with three arrows, each labeled with a corresponding number.
 
-1. **Gray lines** illustrate the physical connection topology: client devices (e.g., PC, Phone) connect to the primary router, and the primary router's LAN port links to the WAN port of the GL.iNet router (with Drop-in Gateway enabled) via an Ethernet cable.
+1. **Gray lines** illustrate the physical connection topology: client devices (e.g., computer, laptop) connect to the primary router, and the primary router's LAN port links to the WAN port of the GL.iNet router (with Drop-in Gateway enabled) via an Ethernet cable.
 
 2. **Green lines** depict the sequential data transmission path when Drop-in Gateway is active, with the numbered arrows indicating the traffic flow order:
 
@@ -26,7 +26,7 @@ The diagram above consists of two types of lines: gray lines, and green lines ma
     
     2. The primary router forwards the traffic to the GL.iNet router for processing (e.g., ad filtering, VPN encryption);
     
-    3. After processing, the traffic is sent back to the primary router, which then delivers the final data to the original client devices.
+    3. After processing, the traffic is sent back to the primary router, which then either delivers the final data to the original client devices or routes it out to the Internet.
 
 ## Setup
 

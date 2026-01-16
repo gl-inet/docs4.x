@@ -315,6 +315,7 @@ nav:
       - Data Statistics: interface_guide/data_statistics.md
       - Content Filter: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md
+      - SQM: interface_guide/sqm.md
     - System:
       - Overview: interface_guide/system_overview.md
       - Upgrade: interface_guide/upgrade.md

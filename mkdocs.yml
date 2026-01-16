@@ -313,6 +313,7 @@ nav:
     - Flow Control:
       - DPI License: interface_guide/dpi_license.md
       - Data Statistics: interface_guide/data_statistics.md
+      - Content Filter: interface_guide/content_filter.md
     - System:
       - Overview: interface_guide/system_overview.md
       - Upgrade: interface_guide/upgrade.md

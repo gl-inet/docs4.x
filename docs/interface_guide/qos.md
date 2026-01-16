@@ -1,10 +1,10 @@
-# QoS
+# QoS (Quality of Service)
 
 !!! note
 
     1. This feature is now available only on **GL-MT5000 (Brume 3)**.
 
-    2. This feature applies to local client traffic and VPN Client tunnel traffic, but not to traffic received when the router functions as a VPN Server.
+    2. This feature affects traffic passing through the router as a gateway (including local client traffic and VPN Client traffic) but not incoming traffic when the router acts as a VPN Server.
 
 QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical activities (e.g., video calls, gaming) during network congestion, reducing latency and improving overall network performance. 
 

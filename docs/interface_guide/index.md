@@ -79,6 +79,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 ## Flow Control
 
 * [DPI License](dpi_license.md)
+* [Data Statistics](data_statistics.md)
 
 ## System
 

@@ -81,6 +81,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [DPI License](dpi_license.md)
 * [Data Statistics](data_statistics.md)
 * [Content Filter](content_filter.md)
+* [QoS](qos.md)
 
 ## System
 

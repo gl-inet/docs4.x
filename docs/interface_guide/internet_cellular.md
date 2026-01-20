@@ -78,7 +78,9 @@ Switch the Masking Mode between Block mode and Open mode, then select the LTE ba
 
 ### Compatible Modems
 
-Here is a list of supported modems that we had tested before.
+Here is a list of supported modems that we had tested before. 
+
+SIMPoYo uFi is a compact 4G LTE USB dongle with the Wi-Fi hotspot, designed for fast, reliable connectivity anywhere. It works seamlessly with most GL.iNet routers, as well as laptops, power banks, car USB ports, and other USB power sources. It comes with 10GB of free data for 30 days, valid in the UK, and 34 European countries. Click [here](https://www.gl-inet.com/campaign/simpoyo-ufi/) for details.
 
 | Model                                  | 3G/4G | Tested | Tested by       | Comments* |
 | -------------------------------------- | ----- | ------ | --------------- | --------- |

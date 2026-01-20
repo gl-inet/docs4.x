@@ -373,16 +373,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Scheduled Tasks"
 
-    The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
-
-    * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
-    * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    * Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz / MLO Wi-Fi band, allowing for better management of network availability and power consumption.
-    
-    These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
+    The Scheduled Tasks page allows you to configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
 
     For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
+    **Note**: Mudi 7 does not support LED display schedule and Wi-Fi status schedule.
 
 === "Display Management"
 

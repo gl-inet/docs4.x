@@ -82,6 +82,7 @@ Here is a list of supported modems that we had tested before.
 
 | Model                                  | 3G/4G | Tested | Tested by       | Comments* |
 | -------------------------------------- | ----- | ------ | --------------- | --------- |
+| SIMPOYO uFi SP-N150C4                  | 4G    | Yes    | GL.iNet         |           |
 | Quectel EC20-E, EC20-A, EC20-C         | 4G    | Yes    | GL.iNet         |           |
 | Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Yes    | GL.iNet         |           |
 | Quectel EC200A series                  | 4G    | Yes    | akw2312         | Host-less |
@@ -93,15 +94,15 @@ Here is a list of supported modems that we had tested before.
 | ZTE ME909s-821                         | 4G    | Yes    | GL.iNet         |           |
 | Huawei E1550                           | 3G    | Yes    | GL.iNet         |           |
 | Huawei E3276                           | 4G    | Yes    | GL.iNet         |           |
+| Huawei E3372                           | 4G    | Yes    | anonymous       |           |
+| Huawei E3372h-320 (Ukraine)            | 4G    | Yes    | anonymous       | Host-less |
 | TP-Link MA260                          | 3G    | Yes    | GL.iNet         |           |
 | ZTE M823                               | 4G    | Yes    | Arnas Risqianto |           |
 | ZTE MF190                              | 3G    | Yes    | Arnas Risqianto |           |
-| Huawei E3372                           | 4G    | Yes    | anonymous       |           |
 | Pantech UML290VW (Verizon)             | 4G    | Yes    | GL.iNet/steven  | QMI       |
 | Pantech UML295 (Verizon)               | 4G    | Yes    | GL.iNet/steven  | Host-less |
 | Novatel USB551L (Verizon)              | 4G    | Yes    | GL.iNet/steven  | QMI       |
 | Verizon U620L (Verizon)                | 4G    | Yes    | anonymous       | Host-less |
-| Huawei E3372h-320 (Ukraine)            | 4G    | Yes    | anonymous       | Host-less |
 
 **QMI**: This modem supports QMI mode. Please choose **/dev/cdc-wdm0** in the Device list.
 
@@ -259,7 +260,7 @@ Please refer to the [SMS Forwarding tutorial](../tutorials/sms_forwarding.md).
 
 ## Lock Tower
 
-This feature is only supported by GL-X3000, GL-XE3000, and GL-X2000 (v4.7). 
+This feature is only supported by GL-X3000, GL-XE3000, and GL-X2000 (firmware ver.4.7). 
 
 If you want to receive high-quality signal sources to ensure stable cellular connection, you can try locking tower.
 
@@ -289,7 +290,7 @@ After locking a signal tower, if the router is moved to another location, it wil
 
 ## Lock Operator
 
-This feature is available in v4.8
+This feature is only supported by GL-X3000, GL-XE3000, and GL-X2000 (firmware ver.4.8). 
 
 If you want to lock onto specific operator, in the Cellular section, click the three-dot icon in the upper right, then select **Lock Operator**.
 

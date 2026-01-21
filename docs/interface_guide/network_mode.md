@@ -10,7 +10,9 @@ Network mode refers to the various operational roles and functions that a router
     
     2. **When your router is in Access Point / WDS / Bridge mode, you will not be able to access the web admin panel using the original LAN IP address.** Instead, you need to log in to the upstream router to find the IP address it has assigned to this router, then use this IP address to access the web admin panel. If you do not have access to the upstream router, press and hold the reset button for 4 seconds to revert it to the default Router mode.
 
-    3. **In Non-Router mode, the following features will be unavailable**: Access Control (Allowlist and Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
+    3. **In Extender mode**, you can still access the web admin panel using its original LAN IP address.
+    
+    4. **In Non-Router mode, the following features will be unavailable**: Access Control (Allowlist and Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
 ## For models with Wi-Fi
 

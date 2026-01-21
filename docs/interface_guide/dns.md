@@ -2,7 +2,9 @@
 
 On the left side of web Admin Panel -> NETWORK -> DNS
 
-If you set custom DNS servers, any dns name will be resolved through the DNS servers set here instead of the one obtained from wan, repeater, cellular, hotspot sharing or VPN configuration DNS server.
+The DNS settings on your router control how domain names are translated into IP addresses. This page lets you use the DNS server(s) automatically obtained from upstream devices, or set custom ones, and configure DNS priorities.
+
+If you set custom DNS server(s), any DNS queries will be resolved through the specified one(s), instead of the DNS servers obtained through individual network interfaces. Otherwise, you will use the DNS settings configured for each interface.
 
 ![dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_page.png){class="glboxshadow"}
 
@@ -10,15 +12,15 @@ If you set custom DNS servers, any dns name will be resolved through the DNS ser
 
 - **Override DNS Settings for All Clients:** If enabled, your router will override unencrypted DNS settings for all clients.
 
-- **Allow Custom DNS to Override VPN DNS:** If this option is enabled, once you have set custom DNS, packets transmitted through the VPN tunnel will be resolved using the custom DNS override instead of the DNS server settings from the VPN connections.
+- **Allow Custom DNS to Override VPN DNS:** If enabled, once you have set custom DNS, packets transmitted through the VPN tunnel will be resolved using the custom DNS override instead of the DNS server settings from the VPN connections.
 
 ## DNS Server Settings
 
 There are four modes: Automatic, Encrypted DNS, Manual DNS, and DNS Proxy.
 
-- **Automatic**: The router will use the gateway of the uptream device (e.g., ISP modem, primary router).
+- **Automatic**: The router will automatically use the DNS server provided by the upstream device (e.g., ISP modem, primary router), or the DNS settings corresponding to each network interface.
 
-    ![automatic](https://static.gl-inet.com/docs/router/en/4/tutorials/dns/dns_server_settings_automatic.png){class="glboxshadow"}
+    ![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
 
 - **Encrypted DNS**: Four Encryption Type are available: DNS over TLS, DNSCrypt-Proxy, DNS over HTTPS, Oblivious DNS over HTTPS.
 
@@ -44,7 +46,7 @@ There are four modes: Automatic, Encrypted DNS, Manual DNS, and DNS Proxy.
 
 Requests from clients will be resolved preferentially using the static DNS rules you write in Hosts.
 
-![hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/dns/edit_hosts.png){class="glboxshadow"}
+![hosts](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/edit_hosts.png){class="glboxshadow"}
 
 ---
 

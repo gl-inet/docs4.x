@@ -184,26 +184,27 @@ In the following example, the gateway address of the primary router is `192.168.
 
             ![settings wifi](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/wifi_list.jpg){class="glboxshadow gl-60-desktop"}
 
-        3. Scroll down, you will find the **Configure IP** is **Automatic**, please write dwon **IP Address** and **Subnet Mask**, you will need it at next step.
+        3. Scroll down and you will find the **Configure IP** is **Automatic**. Write down the **IP Address** and **Subnet Mask** for the next step.
 
             ![wifi ipv4](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/ipv4.jpg){class="glboxshadow gl-60-desktop"}
 
-        4. Change **Configure IP** to **Manual**, set the **IP Address** and **Subnet Mask** to the same as you see in the previous step, and set the **Router** as the IP address in Drop-in Gateway page, then click **Save**.
+        4. Change **Configure IP** to **Manual**, set the **IP Address** and **Subnet Mask** to the same as you obtained in the previous step, and set the **Router** as the IP address displayed on the Drop-in Gateway page, then click **Save**.
 
             ![wifi ipv4 manual](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/set_ipv4.jpg){class="glboxshadow gl-60-desktop"}
 
-        5. Click **Configure DNS**, change it to **Manual**. Click **Add Server**, set the server IP address to the IP address displayed on the Drop-in Gateway page, and then click **Save**.
+        5. Click **Configure DNS** and change it to **Manual**. Click **Add Server**, set the DNS server IP address to the IP address displayed on the Drop-in Gateway page, then click **Save**.
 
             ![wifi dns](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/dns.jpg){class="glboxshadow gl-60-desktop"}
 
             ![wifi set dns](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/iphone/set_dns.jpg){class="glboxshadow gl-60-desktop"}
 
-4. Go back to the GL.iNet router and set up features like [AdGuard Home](adguardhome.md), [encrypted DNS](dns.md), [WireGuard Client](wireguard_client.md) and [OpenVPN Client](openvpn_client.md).
+4. Back to the GL.iNet router's web Admin Panel and set up features as needed, such as [AdGuard Home](adguardhome.md), [encrypted DNS](dns.md), [WireGuard Client](wireguard_client.md) and [OpenVPN Client](openvpn_client.md).
 
 ## Cautions
 
-1. It will increase the latency when using this mode.
-2. When this mode is enabled, the data transferred between the selected devices in the LAN will also pass through the drop-in gateway, so the bandwidth between the primary router and the drop-in gateway will affect the bandwidth of the whole LAN.
+1. Enabling Drop-in Gateway increases network latency.
+
+2. When Drop-in Gateway is enabled, data transmission between selected LAN devices is also routed through the drop-in gateway. Bandwidth between the primary router and drop-in gateway therefore impacts overall LAN bandwidth.
 
 ---
 

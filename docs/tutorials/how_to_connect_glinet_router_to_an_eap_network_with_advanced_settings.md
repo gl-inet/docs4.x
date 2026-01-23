@@ -104,3 +104,11 @@ Your router will be connected to the target EAP network successfully.
         You will be able to check the **wlan0** interface status.
 
         ![ifconfig](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/ifconfig_2.png){class="glboxshadow"}
+
+---
+
+Related Article:
+
+- [How to Connect to an Extensible Authentication Protocol (EAP) Network?](eap.md)
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

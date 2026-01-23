@@ -1,4 +1,4 @@
-# How to Connect to an Extensible Authentication Protocol (EAP) Network
+# How to connect to an Extensible Authentication Protocol (EAP) network?
 
 ## Introduction
 
@@ -84,5 +84,9 @@ GL-iNet web Admin Panel only supports few EAP types for now. You may need to con
     ![join network](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/luci_join_network.png){class="glboxshadow"}
 
 ---
+
+Related Article:
+
+- [How to connect GL.iNet router to an EAP network requiring advanced settings?](how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md)
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

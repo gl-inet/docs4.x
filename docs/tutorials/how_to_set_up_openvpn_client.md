@@ -16,9 +16,10 @@ In a web browser, enter the URL (e.g.,192.168.8.1) to access the router admin pa
 
 Refer to the section appropriate to the VPN service provider you are using. 
 
-=== "NordVPN"
+??? "NordVPN"
 
     1. In the left sidebar, click **VPN** > **OpenVPN Client**.
+
     2. Click **NordVPN**.
 
         ![nordvpn](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/click-nordvpn.png){class="glboxshadow"}
@@ -37,14 +38,15 @@ Refer to the section appropriate to the VPN service provider you are using.
 
         ![start](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/openvpn-click-start.png){class="glboxshadow"}
 
-=== "Other VPN service providers (E.g., ExpressVPN, Surfshark)"
+??? "Other VPN service providers (E.g., Surfshark)"
 
     1. In the left sidebar, click **VPN** > **OpenVPN Client**.
+
     2. Click **Add Manually**. 
 
         ![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/openvpn-click-add-manually.png){class="glboxshadow"}
 
-    3. Enter the name of your VPN service provider (e.g., ExpressVPN), then click the check icon. 
+    3. Set a name. You can enter the name of your VPN service provider, then click the check icon. 
 
         ![click-check-icon](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/click-check-icon.png){class="glboxshadow"}
 

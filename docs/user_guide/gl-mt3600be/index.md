@@ -17,8 +17,11 @@ The package includes:
 - 1 x Ethernet cable
 - 1 x User manual
 - 1 x Thank you card
-- 1 x Warranty card
 - 3 x Converters (EU, UK, and AU Plugs)
+
+Check out Beryl 7's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xZHmP3B8VlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How to set up Beryl 7
 

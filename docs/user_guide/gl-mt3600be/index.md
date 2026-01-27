@@ -8,6 +8,18 @@ Powered by a MediaTek Quad-core processor and featuring 512MB NAND flash storage
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
 
+## Package contents
+
+The package includes:
+
+- 1 x Beryl 7 (GL-MT3600BE)
+- 1 x Power adapter
+- 1 x Ethernet cable
+- 1 x User manual
+- 1 x Thank you card
+- 1 x Warranty card
+- 3 x Converters (EU, UK, and AU Plugs)
+
 ## How to set up Beryl 7
 
 To set up Beryl 7, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 

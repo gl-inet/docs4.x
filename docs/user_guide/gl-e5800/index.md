@@ -81,7 +81,7 @@ Configure your Mudi 7 using one of the five supported internet connection method
     
     ![ethernet connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
 
-    Connect the Mudi 7's WAN port to an upstream device (such as a modem) via an Ethernet cable. 
+    Connect the Mudi 7's WAN port to an upstream device (e.g., a modem) via an Ethernet cable. 
     
     Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page, and the touchscreen will also display the network status.
 
@@ -91,7 +91,7 @@ Configure your Mudi 7 using one of the five supported internet connection method
     
     ![repeater connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_repeater.jpg){class="glboxshadow"}
 
-    1. On the main screen of the web Admin Panel, locate the Repeater section, then click **Connect**.
+    1. On the INTERNET page of the web Admin Panel, locate the Repeater section, then click **Connect**.
     2. Select a Wi-Fi network. 
     3. Enter the password, then click **Apply**.
     

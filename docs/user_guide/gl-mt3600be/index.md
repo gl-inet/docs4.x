@@ -59,7 +59,7 @@ Configure your Beryl 7 using one of the five supported internet connection metho
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/internet/mt3600be_ethernet.png){class="glboxshadow"}
     
-    Connect the Beryl 7's WAN port to an upstream device (such as a modem) via an Ethernet cable.
+    Connect the Beryl 7's WAN port to an upstream device (e.g., a modem) via an Ethernet cable.
     
     Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page.
 
@@ -83,7 +83,7 @@ Configure your Beryl 7 using one of the five supported internet connection metho
 
     1. Connect your mobile device (e.g., smartphone or USB dongle) to the Beryl 7's USB port via a USB cable. 
     2. On your mobile device, go to Settings and enable USB Tethering. 
-    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section. 
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the Tethering section. 
     
     Once successfully connected to the internet, a green dot will appear in the Tethering section on the INTERNET page.
 
@@ -135,7 +135,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ## VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Beryl 7 (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Beryl 7 supports OpenVPN, WireGuard, and Tor.
 
 === "OpenVPN" 
 

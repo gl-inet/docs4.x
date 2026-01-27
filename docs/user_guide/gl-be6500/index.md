@@ -10,45 +10,60 @@ Packed with 5× 2.5G Ethernet ports and 1× USB 3.0 port, it supports high-speed
 
 **Note**: The difference in appearance between Flint 3e and Flint 3 lies in the silk-screen printing: the silk-screen on Flint 3e is blue, while that on Flint 3 is white.
 
+## Package contents
+
+The package includes:
+
+- 1 x Flint 3e (GL-BE6500)
+- 1 x Power adapter
+- 1 x Ethernet cable
+- 1 x User Manual
+- 1 x Thank you card
+- 1 x Converter (Based on your shipping country)
+
+Check out Flint 3e's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6-E0LtWqshk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## How to set up Flint 3e
 
 To set up Flint 3e, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R40QsUFYuUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on the Flint 3e
+### 1. Power on Flint 3e
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect your device to the Flint 3e
+### 2. Connect to Flint 3e
 
-Connect your computer or smartphone to the router using Wi-Fi or Ethernet.
+Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
-=== "Ethernet"
+- Ethernet
 
     Connect your device to the router's LAN port using an ethernet cable. 
 
-=== "Wi-Fi"
+- Wi-Fi
 
-    On your device, locate the router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on the router's label.)
+    On your device, locate the router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on the router's label.
 
-### 3. Connect the Flint 3e to the internet 
-
-**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
-
-#### 1. Log in to the router web Admin Panel
+### 3. Log in to the WebGUI
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
 
-#### 2. Set up your internet connection method(s)
+### 4. Connect the Flint 3e to the Internet 
+
+**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
+
+Configure your Flint 3e using one of the five supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
 
 === "Ethernet"
     
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_ethernet.jpg){class="glboxshadow"}
 
-    Connect an ethernet cable between your router's WAN port and an upstream device, such as a modem. 
+    Connect the Flint 3e's WAN port to an upstream device (e.g., a modem) via an ethernet cable. 
     
-    Once the router is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel.
+    Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -56,11 +71,11 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose yo
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_repeater.jpg){class="glboxshadow"}
 
-    1. On the INTERNET page of the web Admin Panel, locate the "Repeater" section and click **Connect**.
+    1. On the INTERNET page of the web Admin Panel, locate the Repeater section and click **Connect**.
     2. Select a Wi-Fi network from the available networks. 
-    3. Enter the network password, then click **Apply**.
+    3. Enter the password, then click **Apply**.
     
-    Once the router is successfully connected to the internet, a green dot will appear next to the Wi-Fi network name.
+    Once successfully connected to the internet, a green dot will appear in the Repeater section on the INTERNET page.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
@@ -68,11 +83,11 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose yo
 
     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_tethering.jpg){class="glboxshadow"}
 
-    1. Connect your mobile device to the router's USB port using a USB 3.0 data transfer cable. 
-    2. In your mobile device's settings, enable USB tethering. 
-    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section. 
+    1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port using a USB cable. 
+    2. On your mobile device, go to Settings and enable USB Tethering. 
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the Tethering section. 
     
-    Once the router is successfully connected to the internet, a green dot will appear next to "Tethering".
+    Once the router is successfully connected to the internet, a green dot will appear in the Tethering section on the INTERNET page.
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
@@ -80,15 +95,47 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose yo
 
     ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_cellular.jpg){class="glboxshadow"}
 
-    Connect the router to the internet by inserting a cellular USB modem into the router's USB port. This method is useful for sharing internet from a USB modem to all connected devices.
+    Plug a cellular USB modem into the Flint 3e's USB port. This is useful for sharing internet from a USB modem to all connected devices.
 
-    Once the router is successfully connected to the internet, a green dot will appear next to "Cellular".
+    Once successfully connected to the internet, a green dot will appear in the Cellular section on the INTERNET page.
 
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
 
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
+---
 
-## How to set up a VPN 
+Now you can enjoy surfing the Internet and configuring other settings on the GL.iNet WebGUI.
+    
+Below is an overview of the Flint 3e WebGUI features.
+
+## Wireless
+
+The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
+    
+In addition, Flint 3e supports MLO Wi-Fi, i.e. Multi-Link Operation, combining multiple wireless networks simultaneously to achieve higher bandwidth and more reliable connections.
+
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+
+## Clients
+
+The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+
+## Cloud services
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} provides an easy and simple way to remotely access and manage GL.iNet routers. 
+    
+    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
+    
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN 
 
 A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint 3e supports OpenVPN, WireGuard, and Tor. 
 
@@ -111,36 +158,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
     
     * [How to set up Tor](../../interface_guide/tor.md)
-
-## Wireless and clients
-
-=== "Wireless"
-
-    The Wireless page allows you to configure settings for the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
-    
-    In addition, Flint 3e supports MLO Wi-Fi, i.e. Multi-Link Operation, combining multiple wireless networks simultaneously to achieve higher bandwidth and more reliable connections.
-
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
-
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
-
-## Cloud services
-
-=== "GoodCloud"
-
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers. 
-    
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
-    
-    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## Applications
 
@@ -242,9 +259,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
 
-=== "Drop-in gateway"
+=== "Drop-in Gateway"
 
-    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
+    Drop-in Gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
     
     To set up drop-in gateway, refer to these links:
     
@@ -286,7 +303,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
+    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
 
 === "Upgrade"
 
@@ -297,7 +314,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
+    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
 
 === "Scheduled Tasks"
 
@@ -309,7 +326,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
 ---
 
@@ -317,7 +334,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
+    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
 
 === "Log"
 
@@ -331,7 +348,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
+    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
 
 ---
 
@@ -346,16 +363,16 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 
-    For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
+    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
 
 === "Reset Firmware"
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
+    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
+    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.

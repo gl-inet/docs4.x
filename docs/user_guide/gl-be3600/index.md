@@ -2,31 +2,29 @@
 
 ## Product overview
 
-Slate 7 (GL-BE3600) is GL.iNet's first dual-band Wi-Fi 7 portable travel router, engineered for on-the-go scenarios like business trips and vacations, balancing high-speed performance and portability. It supports Wi-Fi 7 technologies (Multi-Link Operation and 4K QAM), boasting theoretical dual-band speeds of 688Mbps (2.4GHz) + 2882Mbps (5GHz) to handle 8K streaming and mobile gaming seamlessly. Its innovative touchscreen enables one-glance network status checks and basic operations.
+Slate 7 (GL-BE3600) is GL.iNet's first dual-band Wi-Fi 7 portable travel router, built with flagship Wi-Fi 7 technologies including Multi-Link Operation and 4K QAM. It delivers theoretical dual-band speeds of 688Mbps (2.4GHz) and 2882Mbps (5GHz), enabling seamless 8K streaming and mobile gaming experiences. Its touchscreen allows one-glance network status checks and intuitive basic operations.
 
-Packed with 2× 2.5G Ethernet ports (1 WAN + 1 LAN) and 1× USB 3.0 port, it meets high-speed wired connection and storage expansion needs. It also supports Type-C PD power supply (5V/3A, 9V/3A, 12V/2.5A), delivering enhanced portability combined with its compact, lightweight design. Pre-installed with AdGuard Home and compatible with 30+ VPN services (with OpenVPN-DCO speeds up to 385Mbps and WireGuard® speeds up to 490Mbps), it ensures public network security. Ideal for remote work and travel network sharing, it perfectly blends mobile convenience with professional performance.
+Equipped with 2× 2.5G Ethernet ports (1 WAN + 1 LAN) and 1× USB 3.0 port, the router fulfills demands for high-speed wired connections and flexible storage expansion. It also supports Type-C PD power supply (5V/3A, 9V/3A, 12V/2.5A) and features a compact, lightweight design for portability. Pre-installed with AdGuard Home and compatible with over 30 VPN services, it provides robust security for your network. Blending mobile convenience with professional-grade performance, the Slate 7 is the ideal choice for remote work and on-the-go network sharing.
 
 ![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 
 ## Package contents
 
-Please note that the adapter within the package depends on your shipping country.
-
 The package includes:
 
-- 1 x User manual
 - 1 x Slate 7 (GL-BE3600)
+- 1 x User manual
 - 1 x Thank you card
 - 1 x Ethernet cable
-- 1 x Power adapter
+- 1 x Power cable
 - 1 x US Power Adapter
 - 3 x Converters (EU, UK, and AU Plugs)
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/first_time_setup/be3600_unboxing.jpg){class="glboxshadow"}
 
-## Specifications
+Check out Slate 7's unboxing video below.
 
-Refer to [GL-BE3600 Specifications](https://www.gl-inet.com/products/gl-be3600/#specs){target="_blank"}.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bEuwGm0hQ5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How to set up Slate 7
 
@@ -35,119 +33,119 @@ To set up Slate 7, you will use one of the four supported internet connection me
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(In this video we demonstrate the setup by configuring Slate 7 as Repeater. If you need to configure Slate 7 by other Internet connetion methods, please refer to the steps below.)</small>
 
-### 1. Power on the Slate 7
+### 1. Power on Slate 7
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
 ### 2. Touchscreen
 
-#### Power on
+??? "Power on"
 
-When the router is powered on, the GL.iNet logo will be displayed on the screen, followed by the startup progress bar.
+    When the router is powered on, the GL.iNet logo will be displayed on the screen, followed by the startup progress bar.
 
-![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){class="glboxshadow"}
+    ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){class="glboxshadow"}
     
-Once the progress bar is fully loaded, the device startup is completed.
+    Once the progress bar is fully loaded, the device startup is completed.
 
-#### Network
+??? "Network"
 
-The home screen displays four icons representing four network connection types: Ethernet, Repeater, Tethering, and Cellular.
-
-![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
-
-| Color               | Status                         |
-| :------------------ | :----------------------------- |
-| Green               | Network connected              |
-| Yellow              | Network connecting or abnormal connection (e.g., no internet access)   |
-| White               | No network connection          |
-
-Click on any of these icons to view the network status or detailed configuration information.
-
-#### Functions
-
-You can access functions by swiping left and right.
-
-When sliding from right to left, the following items are displayed in sequence, some of which require pre-configuration in the admin panel.
-
-- Network connection
+    The home screen displays four icons representing four network connection types: Ethernet, Repeater, Tethering, and Cellular.
 
     ![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
 
-- Tri-band WiFi details (including the SSID, password, QR code and the switch button)
+    | Color               | Status                         |
+    | :------------------ | :----------------------------- |
+    | Green               | Network connected              |
+    | Yellow              | Network connecting or abnormal connection (e.g., no internet access)   |
+    | White               | No network connection          |
 
-    ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){class="glboxshadow"}
+    Click on any of these icons to view the network status or detailed configuration information.
 
-- OpenVPN
+??? "Functions"
 
-    ![openvpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/nordvpn-4.7.jpg){class="glboxshadow"}
+    You can access functions by swiping left and right.
 
-- WireGuard
+    When sliding from right to left, the following items are displayed in sequence, some of which require pre-configuration in the admin panel. When sliding from left to right, the display order is reversed.
 
-    ![wireguard](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wireguard.png){class="glboxshadow"}
+    - Network connection
 
-- AdGuard Home
+        ![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
 
-    ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){class="glboxshadow"}
+    - Tri-band WiFi details (including the SSID, password, QR code and the switch button)
 
-- Tor
+        ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){class="glboxshadow"}
 
-    ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png){class="glboxshadow"}
+    - OpenVPN
 
-- Traffic statistics (It refers to the average speed of all traffic passing through the router. The speed is calculated every 3 seconds.)
+        ![openvpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/nordvpn-4.7.jpg){class="glboxshadow"}
 
-    ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){class="glboxshadow"}
+    - WireGuard
 
-- CPU overview
+        ![wireguard](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wireguard.png){class="glboxshadow"}
 
-    ![CPU overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png){class="glboxshadow"}
+    - AdGuard Home
 
-- Time
+        ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){class="glboxshadow"}
 
-    ![time](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png){class="glboxshadow"}
-    
-When sliding from left to right, the display order is reversed.
+    - Tor
 
-#### System
+        ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png){class="glboxshadow"}
 
-Swipe from top to bottom to access the system settings: Reboot and Lock Screen.
+    - Traffic statistics (It refers to the average speed of all traffic passing through the router. The speed is calculated every 3 seconds.)
 
-![system settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png){class="glboxshadow"}
+        ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){class="glboxshadow"}
 
-- Reboot: Clicking the "Reboot" will display the "Slide To Reboot" prompt (two-step verification), then the router will initiate a restart process.
+    - CPU overview
 
-    ![slide to reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){class="glboxshadow"}
+        ![CPU overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png){class="glboxshadow"}
 
-- Lock Screen: The screen will turn off when clicking the "Lock Screen" option. Tap the screen to wake it up, and the function page where it last stayed will be displayed. Clicking again will display the "Slide To Unlock" prompt.
+    - Time
 
-    ![slide to unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){class="glboxshadow"}
+        ![time](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png){class="glboxshadow"}
 
-### 3. Connect your device to the Slate 7
+??? "System"
 
-Connect your computer or mobile device to the router using Wi-Fi or Ethernet.
+    Swipe from top to bottom to access the system settings: Reboot and Lock Screen.
 
-=== "Ethernet"
+    ![system settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png){class="glboxshadow"}
+
+    - Reboot: Clicking the "Reboot" will display the "Slide To Reboot" prompt (two-step verification), then the router will initiate a restart process.
+
+        ![slide to reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){class="glboxshadow"}
+
+    - Lock Screen: The screen will turn off when clicking the "Lock Screen" option. Tap the screen to wake it up, and the function page where it last stayed will be displayed. Clicking again will display the "Slide To Unlock" prompt.
+
+        ![slide to unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){class="glboxshadow"}
+
+### 3. Connect to Slate 7
+
+Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
+
+- Ethernet
 
     Connect your device to the router's LAN port using an ethernet cable. 
 
-=== "Wi-Fi"
+- Wi-Fi
 
-    On your device, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
+    On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on your router's label.
 
-### 4. Connect the Slate 7 to the internet 
-
-**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
-
-#### 1. Log in to the router web Admin Panel
+### 4. Log in to the WebGUI
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**. 
 
-#### 2. Set up your internet connection method(s)
+### 5. Connect Slate 7 to the Internet 
+
+**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
+
+Configure your Slate 7 using one of the five supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
 
 === "Ethernet"
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_ethernet.jpg){class="glboxshadow"}
     
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
+    Connect the Slate 7's WAN port to an upstream device (e.g., a modem) via an ethernet cable. 
+    
+    Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -155,11 +153,11 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a 
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_repeater.jpg){class="glboxshadow"}
 
-    1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
-    2. Select a Wi-Fi network. 
-    3. Enter the network password, then click **Apply**.
+    1. On the INTERNET screen of the web Admin Panel, locate the Repeater section and click **Connect**.
+    2. Select a Wi-Fi network from the available networks.
+    3. Enter the password, then click **Apply**.
     
-    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
+    Once successfully connected to the internet, a green dot will appear in the Repeater section on the INTERNET page.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
@@ -167,11 +165,11 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a 
 
      ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_tethering.jpg){class="glboxshadow"}
 
-    1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
-    2. In your mobile device's settings, enable tethering. 
-    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
+    1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port using a USB cable. 
+    2. On your mobile device, go to Settings and enable USB Tethering. 
+    3. On the INTERNET screen of the web Admin Panel, click **Connect** in the Tethering section. 
     
-    If you are connected to the internet successfully, a green dot appears next to "Tethering".
+    Once successfully connected to the internet, a green dot will appear in the Tethering section on the INTERNET page.
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
@@ -179,15 +177,49 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a 
 
     ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_cellular.jpg){class="glboxshadow"}
 
-    Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+    Plug a cellular USB modem into the Slate 7's USB port. This is useful for sharing internet from a USB modem to all connected devices.
+
+    Once successfully connected to the internet, a green dot will appear in the Cellular section on the INTERNET page.
 
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
 
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, you will have to set up more than one internet connection methods.
+---
 
-## How to set up a VPN 
+Now you can enjoy surfing the Internet and configuring other settings on the GL.iNet WebGUI.
+    
+Below is an overview of the Slate 7 WebGUI features.
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
+## Wireless
+
+The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+
+In addition, Slate 7 supports MLO Wi-Fi, i.e. Multi-Link Operation, combining multiple wireless networks simultaneously to achieve higher bandwidth and more reliable connections.
+
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+
+## Clients
+
+The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+
+To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+
+## Cloud services
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} provides an easy and simple way to remotely access and manage GL.iNet routers. 
+    
+    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+
+=== "AstroWarp"
+
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
+    
+    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+
+## VPN 
+
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 supports OpenVPN, WireGuard, and Tor.
 
 === "OpenVPN" 
     
@@ -208,36 +240,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
     
     * [How to set up Tor](../../interface_guide/tor.md)
-
-## Wireless and clients
-
-=== "Wireless"
-
-    The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
-
-    In addition, Slate 7 supports MLO Wi-Fi, i.e. Multi-Link Operation, combining multiple wireless networks simultaneously to achieve higher bandwidth and more reliable connections.
-
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
-
-=== "Clients"
-
-    The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
-
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
-
-## Cloud services
-
-=== "GoodCloud"
-
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers. 
-    
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
-
-=== "AstroWarp"
-
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
-    
-    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## Applications
 
@@ -285,7 +287,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
 
-## Network settings
+## Network
 
 === "Port forwarding"
 
@@ -339,9 +341,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
 
-=== "Drop-in gateway"
+=== "Drop-in Gateway"
 
-    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
+    Drop-in Gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
     
     To set up drop-in gateway, refer to these links:
     
@@ -368,7 +370,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
-## System settings
+## System
 
 === "Overview"
 
@@ -383,7 +385,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
+    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
 
 === "Upgrade"
 
@@ -394,7 +396,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
+    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
 
 === "Scheduled Tasks"
 
@@ -406,7 +408,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
 ---
 
@@ -421,19 +423,19 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     - Screen Always On: Toggle this option to decide if the touchscreen stays on continuously or turns off after inactivity.
     - Enable Screen Passcode: Add an extra layer of security by enabling a passcode for the touchscreen.
 
-    For detailed setup instructions and more information, please refer to [Display Management](../../interface_guide/display_management.md).
+    Please refer to [Display Management](../../interface_guide/display_management.md) for detailed instructions.
 
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
+    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
 
 === "Toggle Button Settings"
 
     The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
 
-    For detailed setup instructions and more information, please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
+    Please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md) for detailed instructions.
 
 ---
 
@@ -449,7 +451,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
+    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
 
 === "Security"
 
@@ -462,16 +464,16 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 
-    For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
+    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
 
 === "Reset Firmware"
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
+    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
+    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.

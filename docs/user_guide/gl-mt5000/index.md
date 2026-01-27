@@ -8,8 +8,6 @@ Brume 3 (GL-MT5000) is a high-performance security gateway running OpenWrt v21.0
 
 ## Package contents
 
-Please note that the adapter within the package depends on your shipping country.
-
 The package includes:
 
 - 1 x Brume 3 (GL-MT5000)
@@ -17,8 +15,11 @@ The package includes:
 - 1 x Ethernet cable
 - 1 x User manual
 - 1 x Thank you card
-- 1 x Warranty card
-- 3 x Converters (EU, UK, and AU Plugs)
+- 1 x Converter (Based on your shipping country)
+
+Check out Brume 3's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How to set up Brume 3
 

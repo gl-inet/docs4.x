@@ -2,6 +2,15 @@
 
 ## Travel Router
 
+### GL-MT3600BE
+
+![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
 ### GL-MT3000
 
 ![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}

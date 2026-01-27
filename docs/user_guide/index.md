@@ -5,7 +5,7 @@
 <div class="gl-product-row">
   <div class="gl-product-row-box">
     <div class="gl-product-card">
-      <a href="https://www.gl-inet.com/products/gl-mt3600be/">
+      <a href="gl-mt3600be/">
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt3600be.png" >
         <div class="gl-product-model">GL-MT3600BE</div>
         <div class="gl-product-model">(Beryl 7)</div>

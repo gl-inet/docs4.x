@@ -121,6 +121,7 @@ nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
+    - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
     - GL-E5800 (Mudi 7): user_guide/gl-e5800/index.md
     - GL-MT5000 (Brume 3): user_guide/gl-mt5000/index.md
     - GL-BE9300 (Flint 3): user_guide/gl-be9300/index.md

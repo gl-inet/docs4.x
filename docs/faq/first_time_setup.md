@@ -5,7 +5,7 @@ GL.iNetルーターの初回セットアップは非常に似ています。ほ�
 * [Wi-Fi搭載モデルの場合](#for-models-that-have-wi-fi)
 * [Wi-Fi非搭載モデルの場合](#for-models-that-dont-have-wi-fi)
 
-## Wi-Fi搭載モデルの場合
+## Wi-Fi搭載モデルの場合 {#for-models-that-have-wi-fi}
 
 以下はGL-AXT1800（Slate AX）の例です。
 
@@ -68,7 +68,7 @@ GL-AXT1800, 電源アダプタ, イーサネットケーブル。
     * [USBテザリングでインターネットに接続する](../interface_guide/internet_tethering.md)
     * [USBモデム経由でインターネットに接続する](../interface_guide/internet_cellular.md)
 
-## Wi-Fi非搭載モデルの場合
+## Wi-Fi非搭載モデルの場合 {#for-models-that-dont-have-wi-fi}
 
 こちらはGL-MT2500A(Brume 2)の例です。
 

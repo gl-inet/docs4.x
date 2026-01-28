@@ -182,7 +182,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     DPI (Deep Packet Inspection) is a core capability of intelligent network management. It can overcome the limitation of traditional routers (which only identify source or destination addresses), analyze data packet payloads in depth, and accurately identify user-accessed applications and websites through feature library comparison, enabling refined traffic classification and control. 
     
-    GL.iNet DPI feature adopts a lightweight embedded plug-in integrated with Notify for efficient deployment. With its online-updated signature database, it enables reliable management, making network control more accurate and efficient.
+    Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI feature adopts a lightweight embedded plug-in for efficient deployment. With Netify online-updated signature database, it enables reliable management, making network control more accurate and efficient.
 
     Please refer to [DPI License](../../interface_guide/dpi_license.md) for detailed instructions.
 

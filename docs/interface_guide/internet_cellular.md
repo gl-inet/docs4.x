@@ -80,11 +80,12 @@ Switch the Masking Mode between Block mode and Open mode, then select the LTE ba
 
 Here is a list of supported modems that we had tested before. 
 
-SIMPoYo uFi is a compact 4G LTE USB dongle with the Wi-Fi hotspot, designed for fast, reliable connectivity anywhere. It works seamlessly with most GL.iNet routers, as well as laptops, power banks, car USB ports, and other USB power sources. It comes with 10GB of free data for 30 days, valid in the UK, and 34 European countries. Click [here](https://www.gl-inet.com/campaign/simpoyo-ufi/) for details.
+SIMPoYo uFi is a compact plug & play USB dongle with the Wi-Fi hotspot, designed for fast, reliable connectivity anywhere. It works seamlessly with most GL.iNet routers, as well as laptops, power banks, car USB ports, and other USB power sources. It comes with 10GB of free data for 30 days, valid in the UK, and 34 European countries. Click [here](https://www.gl-inet.com/campaign/simpoyo-ufi/) for details.
 
-| Model                                  | 3G/4G | Tested | Tested by       | Comments* |
+| Model                                  | Cellular | Tested | Tested by       | Comments* |
 | -------------------------------------- | ----- | ------ | --------------- | --------- |
-| SIMPOYO uFi SP-N150C4                  | 4G    | Yes    | GL.iNet         |           |
+| SIMPoYo 5G uFi                         | 5G    | Yes    | GL.iNet         |           |
+| SIMPoYo 4G uFi SP-N150C4               | 4G    | Yes    | GL.iNet         |           |
 | Quectel EC20-E, EC20-A, EC20-C         | 4G    | Yes    | GL.iNet         |           |
 | Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Yes    | GL.iNet         |           |
 | Quectel EC200A series                  | 4G    | Yes    | akw2312         | Host-less |

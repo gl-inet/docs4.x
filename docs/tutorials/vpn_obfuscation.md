@@ -29,7 +29,7 @@ In this case, we use two GL.iNet routers to set up a VPN obfuscation connection 
 
 #### Set up VPN Server
 
-1. Log in to the Brume 3 web Admin Panel. 
+1. Log in to the Brume 3's web Admin Panel. 
 
     Connect a device (e.g., your laptop or PC) to the Brume 3's LAN port via an Ethernet cable. Open a browser and enter the default admin address (usually `192.168.8.1`), then log in with your admin password.
 
@@ -77,13 +77,15 @@ In this case, we use two GL.iNet routers to set up a VPN obfuscation connection 
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start1.png){class="glboxshadow"}
 
-    Then your VPN server with AmneziaWG obfuscation is enabled. You can now connect to this VPN server Brume 3 via the AmneziaWG app, or a GL iNet router running firmware that supports AmneziaWG obfuscation. **Note**: Clients that do not support AmneziaWG obfuscation will be unable to connect.
+    Then your VPN server with AmneziaWG obfuscation is enabled. You can now connect to this VPN server Brume 3 via the AmneziaWG app, or a GL.iNet router running firmware that supports AmneziaWG obfuscation. 
+    
+    **Note: Clients that do not support AmneziaWG obfuscation will be unable to connect.**
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
 #### Set up VPN Client
 
-1. Log in to the Beryl AX web Admin Panel. 
+1. Log in to the Beryl AX's web Admin Panel. 
 
     Connect a device (e.g., your laptop or PC) to the Beryl AX's Wi-Fi or LAN port via an Ethernet cable. Open a browser and enter the default admin address (usually `192.168.8.1`), then log in with your admin password.
 
@@ -147,7 +149,7 @@ Users do not need to set up a server themselves; instead, they can achieve a VPN
 
 #### Set up VPN Client
 
-1. Log in to the Brume 3 web Admin Panel. 
+1. Log in to the Brume 3's web Admin Panel. 
 
     Connect a device (e.g., your laptop or PC) to the Brume 3's LAN port via an Ethernet cable. Open a browser and enter the default admin address (usually `192.168.8.1`), then log in with your admin password.
 
@@ -185,3 +187,6 @@ Users do not need to set up a server themselves; instead, they can achieve a VPN
     
     The VPN connection is complete. All devices on the Brume 3 now access the internet via the AmneziaVPN server, enabling a VPN obfuscation connection.
 
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

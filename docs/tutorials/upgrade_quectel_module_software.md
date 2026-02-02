@@ -40,21 +40,7 @@ Take the upgrade of the RM520N module as an example.
 
     ![mtk7981a_decompress_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/unzip_firmware.png){class="glboxshadow"}
 
-4. Enter the command below to obtain the QFirehose from GL.iNet server.
-
-    ```
-    cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/QFirehose-mtk7981a-sha256-c0b944
-    ```
-
-    Grant it executable permissions and verify the sha256 value of the QFirehose file.
-
-    ``` 
-    chmod 775 QFirehose-mtk7981a-sha256-c0b944  && sha256sum QFirehose-mtk7981a-sha256-c0b944
-    ```
-
-    ![mtk7981a_get_QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/obtain_qfirehose.png){class="glboxshadow"}
-
-5. Upgrade the module firmware using the QFirehose command, as shown below.
+4. Upgrade the module firmware using the QFirehose command, as shown below.
 
     **Note**: Please replace "/RM520NGLAAR03A03M4G_01.201.01201" with the actual module firmware folder path.
 
@@ -64,13 +50,13 @@ Take the upgrade of the RM520N module as an example.
 
     ![mtk7981a_upgrade_via_qfirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/upgrade_via_qfirehose.png){class="glboxshadow"}
 
-6. Wait a few minutes. When the upgrade is completed, the system will prompt "Upgrade module successfully".
+5. Wait a few minutes. When the upgrade is completed, the system will prompt "Upgrade module successfully".
 
     ![mtk7981a_upgrade_success](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/upgrade_success.png){class="glboxshadow"}
 
-7. Reboot your router, then SSH log in to your router again. 
+6. Reboot your router, then SSH log in to your router again. 
 
-8. Run the following command to double confirm if the module upgrade was successful.
+7. Run the following command to double confirm if the module upgrade was successful.
 
     ```
     gl_modem -B 0001:01:00.0 AT AT+QGMR
@@ -97,13 +83,13 @@ Take the upgrade of the EM060K module as an example.
 5. Enter the command below to obtain the QFirehose from GL.iNet server.
 
     ```
-    cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/QFirehose-ar9531-sha256-b2297e
+    cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/QFirehose-ar9531
     ```
 
-    Grant it executable permissions and verify the sha256 value of the QFirehose file.
+    Then grant it executable permissions.
 
     ``` 
-    chmod 775 /usr/bin/QFirehose-ar9531-sha256-b2297e && sha256sum /usr/bin/QFirehose-ar9531-sha256-b2297e
+    chmod 775 /usr/bin/QFirehose-ar9531-sha256-b2297e
     ```
 
     ![obtain QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/obtain_qfirehose.jpg){class="glboxshadow"}
@@ -113,7 +99,7 @@ Take the upgrade of the EM060K module as an example.
     **Note**: Please replace "/mnt/sdb1/EM060KGLAAR01A12M2GA" with the actual module firmware folder path.
 
     ```
-    /usr/bin/QFirehose-ar9531-sha256-b2297e -f /mnt/sdb1/EM060KGLAAR01A12M2GA
+    /usr/bin/QFirehose-ar9531 -f /mnt/sdb1/EM060KGLAAR01A12M2GA
     ```
 
     ![upgrade via QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/upgrade_via_qfirehose.png){class="glboxshadow"}

@@ -89,7 +89,7 @@ Take the upgrade of the EM060K module as an example.
     Then grant it executable permissions.
 
     ``` 
-    chmod 775 /usr/bin/QFirehose-ar9531-sha256-b2297e
+    chmod 775 /usr/bin/QFirehose-ar9531
     ```
 
     ![obtain QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/obtain_qfirehose.jpg){class="glboxshadow"}

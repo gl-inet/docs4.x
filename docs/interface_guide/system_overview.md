@@ -33,6 +33,9 @@ Click on the Fan icon at the upper-right corner to enter the Fan Settings.
 
 ??? "Models with Built-in Fans"
 
+    - GL-BE9300 (Flint 3)
+    - GL-BE6500 (Flint 3e)
+    - GL-MT3600BE (Beryl 7)
     - GL-X2000 (Spitz Plus)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)

@@ -52,11 +52,11 @@ However, if you have deployed a self-hosted DNS Server (IP address `192.168.1.13
 
 ## Verify DNS resolution
 
-Run the following command to catch DNS traffic on the VPN client. It will show that all VPN client DNS traffic goes to the VPN server (which is `10.0.0.1` in this example).
+Run the following command to capture DNS traffic on the VPN client. It will show that all VPN client DNS traffic goes to the VPN server (i.e., `10.0.0.1` in this example).
 
 ![client dns traffic](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/client_dns_traffic.png){class="glboxshadow"}
 
-Run the following command to catch DNS traffic on the VPN server. It will show that all VPN client DNS traffic finally goes to the DNS server (which is `192.168.1.13` in this example).
+Run the following command to capture DNS traffic on the VPN server. It will show that all VPN client DNS traffic finally goes to the self-hosted DNS server (i.e., `192.168.1.13` in this example).
 
 ![server dns traffic](https://static.gl-inet.com/docs/router/en/4/tutorials/route_vpn_dns_to_server_upstream_dns/server_dns_traffic.png){class="glboxshadow"}
 

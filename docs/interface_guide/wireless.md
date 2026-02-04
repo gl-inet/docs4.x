@@ -96,9 +96,9 @@ Click on the tabs below to learn about 2.4 GHz Main WiFi and 2.4 GHz Guest WiFi 
 
     ![2.4G Guest WiFi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
-**Note**:
+### Note
 
-* The Wi-Fi QR code will be displayed beside the SSID if the cursor hovers over the QR code icon. You can scan the Wi-Fi QR code using your Phone/Pad to quickly connect to the corresponding Wi-Fi.
+* The Wi-Fi QR code will be displayed beside the SSID if the cursor hovers over the QR code icon. You can scan the Wi-Fi QR code to quickly connect to the corresponding Wi-Fi.
 
     ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_ssid_qr_code.png){class="glboxshadow"}
 
@@ -108,15 +108,15 @@ Click on the tabs below to learn about 2.4 GHz Main WiFi and 2.4 GHz Guest WiFi 
 
 * When **Channel** is set to **Auto**, the router's Wi-Fi will not automatically switch to the DFS channel.
 
-* When switching the Channel to a DFS one from non-DFS channel, a caution will appear as shown below.
+* When switching the Channel to a DFS one from non-DFS channel, a caution will appear as follows.
 
     ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
-* When the **Bandwidth** is set to **160 MHz** (Only some models can be set to 160MHz), the Wi-Fi will always use the DFS channel, even if you choose a non-DFS channel or Auto for Channel settings.
+* When the **Bandwidth** is set to **160 MHz** (Only available on some models), the Wi-Fi will always use the DFS channel, even if you choose a non-DFS channel or Auto for Channel settings.
 
 ## Randomized BSSID
 
-Randomized BSSID feature is available as of firmware v4.6. It aims to prevent the client vendors from collecting nearby Wi-Fi BSSIDs and client devices' GPS coordinates to their servers.
+Randomized BSSID has been available since firmware v4.6. It aims to prevent the client vendors from collecting nearby Wi-Fi BSSIDs and client devices' GPS coordinates to their servers.
 
 **How Client Vendors Collect Location Data**
 

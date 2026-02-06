@@ -31,7 +31,7 @@ Click on the Fan icon at the upper-right corner to enter the Fan Settings.
 
 ![system overview, fan settings](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/fan_settings.png){class="glboxshadow gl-70-desktop"}
 
-??? "Models with Built-in Fans"
+!!! note "Models with Built-in Fans"
 
     - GL-BE9300 (Flint 3)
     - GL-BE6500 (Flint 3e)

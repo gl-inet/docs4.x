@@ -89,4 +89,6 @@ Related Article:
 
 - [How to connect GL.iNet router to an EAP network requiring advanced settings?](how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md)
 
+---
+
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

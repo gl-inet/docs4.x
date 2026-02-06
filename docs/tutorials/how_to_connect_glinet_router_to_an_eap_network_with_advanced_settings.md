@@ -111,4 +111,6 @@ Related Article:
 
 - [How to Connect to an Extensible Authentication Protocol (EAP) Network?](eap.md)
 
+---
+
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

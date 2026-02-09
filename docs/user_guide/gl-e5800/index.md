@@ -133,6 +133,34 @@ Configure your Mudi 7 using one of the five supported internet connection method
 
     3. Once successfully connected to the internet, a USB icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 
+## Repair & Reset
+
+You can restore network connectivity or reset Mudi 7 to factory defaults by a physical reset button.
+
+**Note**: Before performing a reset, ensure Mudi 7 has fully booted up. Do NOT press the reset button immediately after power-up, as this may trigger U-Boot failsafe mode.
+
+Remove the back cover, and you will find the reset button as shown below. 
+
+![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+
+!!! note "Network Repair"
+
+    Press and hold the reset button for **4 seconds**, then release to repair your network. When holding the button, pay attention to the on-screen prompts and operate as instructed.
+
+    This will restart the network interface, while preserving Wi-Fi settings, VPN configurations (disabled), system settings, etc.
+
+    **Note**:
+
+    1. If Wi-Fi has been disabled, a soft reset will restore Wi-Fi to its default enabled state.
+
+    2. A soft reset can also be used to quickly switch the device from non-router mode to router mode.
+
+!!! note "Device Reset"
+
+    Press and hold the reset button for **10 seconds**, then release to perform a hard reset. When holding the button, pay attention to the on-screen prompts and operate as instructed.
+    
+    This will clear all your settings. Please proceed with caution.
+
 ---
 
 Below is an overview of the Mudi 7 WebGUI features.

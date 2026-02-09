@@ -65,7 +65,7 @@ Open a web browser, enter `192.168.8.1` in the address bar, then access the logi
 
 ### 5. Connect Mudi 7 to the Internet
 
-Configure your Mudi 7 using one of the five supported internet connection methods: Cellular, Ethernet, Repeater, Tethering, and USB Ethernet. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
+Configure your Mudi 7 using one of the supported internet connection methods: Cellular, Ethernet, Repeater, Tethering, and USB Ethernet. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
 === "Cellular"
 

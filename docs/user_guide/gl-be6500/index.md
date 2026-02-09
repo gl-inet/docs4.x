@@ -45,17 +45,17 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
 - Wi-Fi
 
-    On your device, locate the router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on the router's label.
+    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on the router's label.
 
 ### 3. Log in to the WebGUI
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
 
-### 4. Connect the Flint 3e to the Internet 
+### 4. Connect Flint 3e to the Internet 
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
-Configure your Flint 3e using one of the five supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
+Configure your Flint 3e using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
 === "Ethernet"
     
@@ -103,8 +103,6 @@ Configure your Flint 3e using one of the five supported internet connection meth
 
 ---
 
-Now you can enjoy surfing the Internet and configuring other settings on the GL.iNet WebGUI.
-    
 Below is an overview of the Flint 3e WebGUI features.
 
 ## Wireless

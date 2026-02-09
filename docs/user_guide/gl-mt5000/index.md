@@ -39,7 +39,7 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose yo
 
 ### 4. Connect Brume 3 to the Internet
 
-Configure your Brume 3 using one of the three supported internet connection methods: Ethernet, Tethering, and Cellular (optional).
+Configure your Brume 3 using one of the supported internet connection methods: Ethernet, Tethering, and Cellular (optional). If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
 === "Ethernet"
     
@@ -72,8 +72,6 @@ Configure your Brume 3 using one of the three supported internet connection meth
     Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Cellular" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
 
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
-
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
 
 ## Clients
 

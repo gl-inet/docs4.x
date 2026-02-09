@@ -36,31 +36,31 @@ To set up Marble, you will use one of the two supported internet connection meth
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on the Marble
+### 1. Power on Marble
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect your device to the Marble
+### 2. Connect to Marble
 
-Connect your computer or mobile device to the router using Wi-Fi or ethernet cable.
+Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or ethernet cable.
 
-=== "Ethernet"
+- Ethernet
 
     Connect your device to the router's LAN port using an ethernet cable. 
 
-=== "Wi-Fi"
+- Wi-Fi
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
-### 3. Connect the Marble to the internet 
+### 3. Log in to the WebGUI
+
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
+
+### 4. Connect Marble to the Internet 
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
-#### 1. Log in to the router web admin panel
-
-Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
-
-#### 2. Set up your internet connection method(s)
+Configure your Marble using one of the supported internet connection methods: Ethernet, and Repeater. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up two internet connections. 
 
 === "Ethernet"
 
@@ -68,7 +68,7 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
     
     Connect an ethernet cable between your router's WAN port and an upstream device, such as a modem. 
     
-    Once the router is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel.
+    Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -76,15 +76,13 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
 
     ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_repeater.jpg){class="glboxshadow"}
 
-    1. On the INTERNET page of the web admin panel, locate the "Repeater" section and click **Connect**.
+    1. On the INTERNET page of the web admin panel, locate the Repeater section and click **Connect**.
     2. Select a Wi-Fi network from the available networks. 
     3. Enter the network password, then click **Apply**.
     
-    Once the router is successfully connected to the internet, a green dot will appear next to the Wi-Fi network name.
+    Once successfully connected to the internet, a green dot will appear in the Repeater section on the INTERNET page.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
-
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods. 
 
 ---
 

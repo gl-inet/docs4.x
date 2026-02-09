@@ -80,7 +80,7 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
-Configure your Spitz Plus using one of the four supported internet connection methods: Cellular, Ethernet, Repeater, and Tethering. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
+Configure your Spitz Plus using one of the supported internet connection methods: Cellular, Ethernet, Repeater, and Tethering. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
 === "Cellular"
 
@@ -132,8 +132,6 @@ Configure your Spitz Plus using one of the four supported internet connection me
 
 ---
 
-Now you can enjoy surfing the Internet and configuring other settings on the GL.iNet WebGUI.
-    
 Below is an overview of the Spitz Plus WebGUI features.
 
 ## Wireless

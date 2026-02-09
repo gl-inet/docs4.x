@@ -137,7 +137,7 @@ Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a 
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
-Configure your Slate 7 using one of the five supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
+Configure your Slate 7 using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
 === "Ethernet"
 
@@ -185,8 +185,6 @@ Configure your Slate 7 using one of the five supported internet connection metho
 
 ---
 
-Now you can enjoy surfing the Internet and configuring other settings on the GL.iNet WebGUI.
-    
 Below is an overview of the Slate 7 WebGUI features.
 
 ## Wireless

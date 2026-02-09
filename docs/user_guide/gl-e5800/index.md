@@ -47,13 +47,13 @@ Connect a device (e.g., computer, laptop or smartphone) to the Mudi 7 via Wi-Fi,
 
 - **Wi-Fi**
 
-    QR code: Use a device to scan the QR code on the screen of Mudi 7. Then click "Join" on your device to connect.
+    <u>QR code</u>: Use a device to scan the QR code on the screen of Mudi 7. Then click "Join" on your device to connect.
 
-    Manual Connect: On your device, go to Settings -> WLAN, locate the Wi-Fi network name of Mudi 7 in the available networks list, and enter the password to join the network. (You can find the default network name and password printed on the label.)
+    <u>Manual Connect</u>: On your device, go to Settings -> WLAN, locate the Wi-Fi network name of Mudi 7 in the available networks list, and enter the password to join the network. (You can find the default network name and password printed on the label.)
 
 - **Ethernet**
 
-    Connect your device to the LAN port of Mudi 7 via an Ethernet cable. 
+    Connect your device to the Ethernet port (default LAN) of Mudi 7 via an Ethernet cable. 
 
 - **USB**
 
@@ -81,9 +81,9 @@ Configure your Mudi 7 using one of the five supported internet connection method
     
     ![ethernet connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
 
-    Connect the Mudi 7's WAN port to an upstream device (e.g., a modem) via an Ethernet cable. 
-    
-    Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page, and the touchscreen will also display the network status.
+    1. Set the Ethernet port role to WAN port on the touchscreen or on the web admin panel.
+    2. Connect the Mudi 7's WAN port to an upstream device (e.g., a modem) via an Ethernet cable. 
+    3. Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page, and the touchscreen will also display the network status.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -206,9 +206,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Ethernet Port"
 
-    The Ethernet Port page allows you to manage the WAN and LAN ports, switch the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
+    The Ethernet Port page allows you to set the Ethernet port role (i.e., using it as WAN/LAN), switch the MAC mode and MAC address for the WAN interface, and display the negotiated port rate.
 
-    Mudi 7 comes with a single Ethernet port, default to WAN. You can switch it to LAN port if required.
+    Mudi 7 comes with a single Ethernet port, default to LAN. You can switch it to WAN port on the touchscreen or the web admin panel if required.
 
     To manage Ethernet ports, refer to [Port Management](../../interface_guide/network_port_management.md).
 

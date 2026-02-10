@@ -111,29 +111,25 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
 
     ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_tethering.jpg){class="glboxshadow"}
 
-    1. Connect your mobile device (e.g., smartphone) to Mudi 7's USB-C port via a USB cable. 
-    2. On the touchscreen, select the USB mode as **Host (USB OTG)**.
-    ![select usb mode](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/usb-mode-host.png){class="glboxshadow" width="360"}
-
-    3. On your mobile device, go to Settings and enable **USB Tethering**. If you use iPhone, tap **Trust This Device** if prompted. 
-    4. Mudi 7 will then automatically tether to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and click **Connect** in the Tethering section. 
-    5. Once successfully connected to the internet, a chain link icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
+    1. Connect your mobile device (e.g., smartphone or USB dongle) to Mudi 7's USB-C port via a USB cable. 
+    2. On your mobile device, go to Settings and enable **USB Tethering**. If you use iPhone, tap **Trust This Device** if prompted. 
+    3. Mudi 7 will then automatically connect to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and check the Tethering connection on the INTERNET page.
+    4. Once successfully connected to the internet, a chain link icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
 === "USB Ethernet"
 
     ![usb ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_usb_ethernet.png){class="glboxshadow"}
-    
+
     Mudi 7 is equipped with an **OTG-enabled** USB-C port. If you want to convert the USB-C port to an Ethernet port for additional network input, simply plug a **separately purchased USB-C-to-Ethernet adapter** into the USB-C port, then you will have one more Ethernet port.
 
     <small>*USB OTG (On-The-Go) is a USB standard that enables compatible devices like routers to switch between host and peripheral roles, allowing direct data transmission and power interaction without a separate host device.</small>
 
     1. Connect an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) to Mudi 7's USB-C port via a USB C-to-Ethernet adapter. 
-    2. On the touchscreen, select the USB mode as **Host (USB OTG)**.
-    ![select usb mode](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/usb-mode-host.png){class="glboxshadow" width="360"}
-
-    3. Once successfully connected to the internet, a USB icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
+    2. On the touchscreen or web admin panel, go to **Network** -> **Ethernet Ports**, set the USB Ethernet port role to **WAN**, and click **Apply**.
+    3. Mudi 7 will then automatically connect to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and check the USB Ethernet connection on the INTERNET page.
+    3. Once successfully connected to the internet, a USB icon and an Ethernet port icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 
 ## Repair & Reset
 

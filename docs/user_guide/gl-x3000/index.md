@@ -23,13 +23,16 @@ The package includes:
 
 ## LED indicators 
 
-| Condition status                                                              | Power                                | Internet                    | 2.4GHz                      | 5GHz                        |Cellular | 
-| ----------------------------------------------------------------------------- | ------------------------------------ | --------------------------- | --------------------------- | --------------------------- | ------- |
-| Normal (connected to the internet)                                            | Green                                | Green                       | Green                       | Green                       | Green   |
-| Not connected to the internet                                                 | Green                                | Off                         | Green                       | Green                       | Green   |
-| Updating firmware                                                             | Green                                | Blinking green (every 0.5s) | Blinking green (every 0.5s) | Blinking green (every 0.5s) | Green   | 
-| Resetting router (hold down "reset" button for > 3s)                          | Blinkng green (every 1s)             | Green                       | Green                       | Green                       | Green   |
-| Restoring router to factory settings (hold down "reset" button for 10s)       | Fast blinking green (every 0.25s)    | Green                       | Green                       | Green                       | Green   | 
+| Device Status                          | Power                  | Internet               | 2.4GHz                 | 5GHz                   | Cellular               | 
+| -------------------------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- |
+| Internet connected (Cellular active)   | Green On               | Green On               | Green On               | Green On               | Green On               |
+| Internet connected (Cellular inactive) | Green On               | Green On               | Green On               | Green On               | Off                    |
+| No Internet connection                 | Green On               | Off                    | Green On               | Green On               | Off                    |
+| Firmware updating                      | Green On               | Flashing every 0.5s    | Flashing every 0.5s    | Flashing every 0.5s    | Green On               | 
+| Network reset (press reset < 3s)       | Flashing every 1s      | Green On               | Green On               | Green On               | Green On               |
+| Factory reset (press reset for 10s)    | Flashing every 0.25s   | Green On               | Green On               | Green On               | Green On               | 
+
+**Tips**: When connected to the Internet, a flashing 2.4GHz or 5GHz LED means that Wi-Fi devices are connected and actively transmitting data.
 
 ## Specifications
 
@@ -37,13 +40,11 @@ Refer to [GL-X3000 specifications](https://www.gl-inet.com/products/gl-x3000/#sp
 
 ## How to set up Spitz AX
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
-
-To set up Spitz AX, you will use one of the four supported internet connection methods: Cellular (SIM cards), Ethernet, Repeater, and Tethering. Watch this setup video or follow the steps below. 
+To set up Spitz AX, you will use one of the four supported internet connection methods: Cellular, Ethernet, Repeater, and Tethering. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/64C7dqHG2EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! note "Before you start, follow these steps (if connecting via the cellular method)"
+!!! note "Before you start, follow these steps (if connecting via cellular)"
 
     At least one nano SIM card is required to connect to the internet via the cellular method. Once you have the nano SIM card(s) ready, follow these steps:
     
@@ -51,31 +52,33 @@ To set up Spitz AX, you will use one of the four supported internet connection m
     2. Power off your router.
     3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at one time. The other SIM card functions only as a backup.)
 
-### 1. Power on the Spitz AX
+### 1. Power on Spitz AX
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect your device to the Spitz AX
+### 2. Connect to Spitz AX
 
-Connect your computer or mobile device to the router using Wi-Fi or ethernet cable.
+Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi or Ethernet.
 
-=== "Ethernet"
+- Ethernet
 
-    Connect your device to the router's LAN port using an ethernet cable. 
+    Connect your device to the router's LAN port using an Ethernet cable. 
 
-=== "Wi-Fi"
+- Wi-Fi
 
-    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
+    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on your router's label.
 
-### 3. Connect the Spitz AX to the internet 
+### 3. Log in to the WebGUI
+
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
+
+When confirming the Wi‑Fi details, please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
+
+### 4. Connect Spitz AX to the Internet 
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 
-#### 1. Log in to the router web Admin Panel
-
-Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
-
-#### 2. Set up your internet connection method(s)
+Configure your Spitz AX using one of the supported internet connection methods: Cellular, Ethernet, Repeater, and Tethering. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
 === "Cellular"
 
@@ -89,15 +92,15 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
 
     Learn how to use the eSIM physical card on GL.iNet router [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
-    For issues using the cellular, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 
+    If you encounter any issues, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 
 
 === "Ethernet"
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_ethernet.jpg){class="glboxshadow"}
     
-    Connect an ethernet cable between your router's WAN port and an upstream device, such as a modem. 
+    Connect an ethernet cable between your router's WAN port and an upstream device such as a modem. 
     
-    Once the router is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel.
+    Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -105,11 +108,11 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_repeater.jpg){class="glboxshadow"}
 
-    1. On the INTERNET page of the web Admin Panel, locate the "Repeater" section and click **Connect**.
+    1. On the INTERNET page of the web Admin Panel, locate the Repeater section and click **Connect**.
     2. Select a Wi-Fi network from the available networks. 
-    3. Enter the network password, then click **Apply**.
+    3. Enter the password, then click **Apply**.
     
-    Once the router is successfully connected to the internet, a green dot will appear next to the Wi-Fi network name.
+    Once successfully connected to the internet, a green dot will appear in the Repeater section on the INTERNET page.
 
     Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
@@ -117,19 +120,17 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
 
      ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_tethering.jpg){class="glboxshadow"}
 
-    1. Connect your mobile device to the router's USB port using a USB 3.0 data transfer cable. 
-    2. In your mobile device's settings, enable USB tethering. 
-    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section. 
+    1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port using a USB cable. 
+    2. On your mobile device, go to Settings and enable USB Tethering. 
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the Tethering section. 
     
-    Once the router is successfully connected to the internet, a green dot will appear next to "Tethering".
+    Once successfully connected to the internet, a green dot will appear in the Tethering section on the INTERNET page.
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods.
-
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz AX (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Spitz AX (and other GL.iNet routers) supports OpenVPN and WireGuard. Additionally, it supports Tor.
 
 === "OpenVPN" 
 
@@ -265,9 +266,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 
-=== "Network Port Management"
+=== "Port Management"
 
-    The Network Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
 
 ---
 
@@ -283,9 +284,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
 
-=== "Drop-in gateway"
+=== "Drop-in Gateway"
 
-    Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
+    Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
     
     To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
 
@@ -315,7 +316,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
 
-    * CPU Average Load: Monitor the average load on your router’s CPU, helping to assess performance and identify potential bottlenecks.
+    * CPU Average Load: Monitor the average load on your router's CPU, helping to assess performance and identify potential bottlenecks.
     * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
     * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
     * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
@@ -324,7 +325,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md){target="_blank"}.
+    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
 
 === "Upgrade"
 
@@ -337,7 +338,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md){target="_blank"}.
+    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
 
 === "Scheduled Tasks"
 
@@ -350,7 +351,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
+    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
 ---
 
@@ -358,7 +359,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
 
 === "Log"
 
@@ -372,7 +373,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
+    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
 
 === "Security"
 
@@ -385,18 +386,18 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 
-    For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
+    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
+
+---
 
 === "Reset Firmware"
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
-
----
+    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
+    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.

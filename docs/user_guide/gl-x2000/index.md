@@ -92,9 +92,9 @@ Configure your Spitz Plus using one of the supported internet connection methods
     
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models) for detailed instructions.
 
-    **Note**: The eSIM functionality of GL-X2000 is available on firmware v4.7 and above. Learn how to use the eSIM physical card on GL.iNet router [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
+    **Note**: The eSIM functionality of Spitz Plus is available on firmware v4.7 and above. Learn how to use the eSIM physical card on GL.iNet router [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
-    For issues using the cellular, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 
+    If you encounter any issues, refer to the [Cellular Network Troubleshooting Guide](../../faq/cellular_network_troubleshooting_guide.md). 
 
 === "Ethernet"
 

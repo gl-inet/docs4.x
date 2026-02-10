@@ -39,7 +39,7 @@ Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi 
 
 - Ethernet
 
-    Connect your device to the router's LAN port using an ethernet cable. 
+    Connect your device to the router's LAN port using an Ethernet cable. 
 
 - Wi-Fi
 

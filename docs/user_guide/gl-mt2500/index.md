@@ -23,45 +23,37 @@ The following figure shows the GL-MT2500A as an example.
 
 ![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
-## LED indication
-
-Please refer to [Brume 2 LED Indication](../../faq/led.md#gl-mt2500).
-
 ## Specifications
 
 [GL-MT2500/GL-MT2500A specifications](https://www.gl-inet.com/products/gl-mt2500/#specs){target="_blank"}
 
 ## How to set up Brume 2
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
-
-To set up Brume 2, you will use one of the three supported internet connection methods: Ethernet, Tethering and Cellular (Repeater is not supported as Brume 2 does not have WiFi module). Watch this setup video or follow the steps below. 
+To set up Brume 2, you will use one of the supported internet connection methods: Ethernet, Tethering and Cellular. Repeater is not supported as Brume 2 does not have Wi-Fi module. Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on the Brume 2
+### 1. Power on Brume 2
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect your device to the Brume 2
+### 2. Connect to Brume 2
 
-Connect your device to the router's LAN port using an ethernet cable. 
+Connect your device (e.g., computer, laptop) to the router's LAN port using an Ethernet cable. 
 
-### 3. Connect the Brume 2 to the internet 
+### 3. Log in to the WebGUI
 
-#### 1. Log in to the router web Admin Panel 
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
-Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
-
-#### 2. Set up your internet connection method(s)
+### 4. Connect Brume 2 to the Internet
 
 === "Ethernet"
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
     
-    Connect an ethernet cable between your router's WAN port and an upstream device, such as a modem. 
+    Connect an ethernet cable between your router's WAN port and an upstream device such as a modem. 
     
-    Once the router is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel.
+    Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -69,27 +61,29 @@ Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter
 
      ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device to the router's USB port using a USB 3.0 data transfer cable. 
-    2. In your mobile device's settings, enable USB tethering. 
-    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section. 
+    1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port using a USB cable. 
+    2. On your mobile device, go to Settings and enable USB Tethering.
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the Tethering section. 
     
-    Once the router is successfully connected to the internet, a green dot will appear next to "Tethering".
+    Once successfully connected to the internet, a green dot will appear in the Tethering section on the INTERNET page.
+
+    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
 
 === "Cellular"
 
     ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
 
-    Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is useful for sharing internet access from a USB modem to all connected devices.
+    Plug a cellular USB modem into the router's USB port. This is useful for sharing internet from a USB modem to all connected devices.
 
-    Once the router is successfully connected to the internet, a green dot will appear next to "Cellular".
+    Once successfully connected to the internet, a green dot will appear in the Cellular section on the INTERNET page.
 
-    [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
+    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
 
 **Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods. 
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 2 (and other GL.iNet routers) support OpenVPN and WireGuard. Additionally, it also supports Tor.
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an additional layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 2 (and other GL.iNet routers) supports OpenVPN and WireGuard. Additionally, it supports Tor.
 
 === "OpenVPN" 
 
@@ -111,7 +105,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     * [How to set up Tor](../../interface_guide/tor.md).
 
-## CLIENTS
+## Clients
 
 The Clients page displays information about connected devices. For each client, it shows the device name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to reserve IP, block the client or perform other actions.
 
@@ -229,9 +223,9 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
 
-=== "Drop-in gateway"
+=== "Drop-in Gateway"
 
-    Drop-in gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
+    Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
     
     To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
 
@@ -270,7 +264,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md){target="_blank"}.
+    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
 
 === "Upgrade"
 
@@ -281,20 +275,18 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md){target="_blank"}.
+    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
 
 === "Scheduled Tasks"
 
-    The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
+    The Scheduled Tasks page allows you to automate router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
 
     * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
     * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    * 5GHz Wi-Fi Status Schedule: Set a schedule to control the 5GHz Wi-Fi band, allowing for better management of network availability and power consumption.
-    * 2.4GHz Wi-Fi Status Schedule: Set a schedule to control the 2.4GHz Wi-Fi band, allowing for better management of network availability and power consumption.
-    
+
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md){target="_blank"}.
+    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
 ---
 
@@ -302,7 +294,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md){target="_blank"}.
+    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
 
 === "Log"
 
@@ -316,7 +308,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md){target="_blank"}.
+    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
 
 === "Security"
 
@@ -329,19 +321,18 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 
-    For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
+    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
+
+---
 
 === "Reset Firmware"
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md){target="_blank"}.
-
----
+    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md){target="_blank"}.
-
+    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.

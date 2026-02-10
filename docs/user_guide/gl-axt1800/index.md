@@ -23,10 +23,6 @@ The package includes:
 
 Check out Slate AX's [unboxing video](../../video_library/unboxing_first_set_up.md#slate-axgl-axt1800).
 
-## LED indication
-
-[LED Indication](../../faq/led.md#gl-axt1800)
-
 ## Specifications
 
 [GL-AXT1800 specifications](https://www.gl-inet.com/products/gl-axt1800/#specs){target="_blank"}
@@ -42,29 +38,37 @@ To set up Slate AX, you will use one of the four supported internet connection m
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-### 2. Connect your device to Slate AX
+### 2. Connect to Slate AX
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
-- Ethernet: Connect your device to the router's LAN port using an ethernet cable. 
+- Ethernet
 
-- Wi-Fi: On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on the router's bottom label.)
+    Connect your device to the router's LAN port using an Ethernet cable. 
 
-### 3. Connect Slate AX to the internet
+- Wi-Fi
+
+    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on the router's bottom label.
+
+### 3. Log in to the WebGUI
+
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
+
+When confirming the Wi‑Fi details, please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
+
+### 4. Connect Slate AX to the Internet 
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
-#### 1. Log in to the web Admin Panel 
-
-In a web browser's address bar, enter `192.168.8.1` and log in. Choose your language, then click **Next**. Set your admin password, then click **Apply**. 
-
-#### 2. Set up your internet connection type(s)
+Configure your Slate AX using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
 === "Ethernet"
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_ethernet.png){class="glboxshadow"}
 
-    Connect an ethernet cable to your router's WAN port and an upstream device, such as a modem. If you are connected to the internet successfully, a green dot appears next to "Ethernet."
+    Connect an ethernet cable between your router's WAN port and an upstream device such as a modem. 
+    
+    Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
@@ -72,55 +76,50 @@ In a web browser's address bar, enter `192.168.8.1` and log in. Choose your lang
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_repeater.png){class="glboxshadow"}
 
-    1. On the main screen of the web Admin Panel, locate the "Repeater" section, then click **Connect**.
-    2. Select a Wi-Fi network. 
-    3. Enter the network password, then click **Apply**.
+    1. On the INTERNET page of the web Admin Panel, locate the Repeater section and click **Connect**.
+    2. Select a Wi-Fi network from the available networks. 
+    3. Enter the password, then click **Apply**.
     
-    If you are connected to the internet successfully, a green dot appears next to the Wi-Fi network name.
+    Once successfully connected to the internet, a green dot will appear in the Repeater section on the INTERNET page.
 
-    [Click here to learn how to connect to the internet via an existing Wi-Fi](../../interface_guide/internet_repeater.md)
+    Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
 
 === "Tethering"
 
     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device to the router's USB port using a 3.0 USB data transfer cable. 
-    2. In your mobile device's settings, enable tethering. 
-    3. On the main screen of the web Admin Panel, click **Connect** in the "Tethering" section. 
+    1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port using a USB cable. 
+    2. On your mobile device, go to Settings and enable USB Tethering. 
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the Tethering section. 
     
-    If you are connected to the internet successfully, a green dot appears next to "Tethering".
+    Once successfully connected to the internet, a green dot will appear in the Tethering section on the INTERNET page.
 
-    [Click here to learn how to connect to the internet via usb tethering](../../interface_guide/internet_tethering.md)
+    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
     
 === "Cellular"
 
     ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_cellular.png){class="glboxshadow"}
 
-    Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+    Plug a cellular USB modem into the router's USB port. This is useful for sharing internet from a USB modem to all connected devices.
 
-    [Click here to learn how to connect to the internet via usb modem](../../interface_guide/internet_cellular.md)
+    Once successfully connected to the internet, a green dot will appear in the Cellular section on the INTERNET page.
 
----
-
-**Note:** If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection methods. 
-
---- 
+    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
 
 ## How to set up a VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate AX (and other GL.iNet routers) support OpenVPN, WireGuard, and Tor. 
-
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate AX (and other GL.iNet routers) supports OpenVPN and WireGuard. Additionally, it supports Tor.
 
 === "OpenVPN" 
 
-    Slate AX (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Slate AX (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Slate AX (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Slate AX (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -299,7 +298,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
+    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
 
 === "Upgrade"
 
@@ -310,7 +309,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
+    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
 
 === "Scheduled Tasks"
 
@@ -322,7 +321,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
 ---
 
@@ -330,13 +329,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
+    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
 
 === "Toggle Button Settings"
 
     The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
 
-    For detailed setup instructions and more information, please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
+    Please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md) for detailed instructions.
 
 === "Log"
 
@@ -350,7 +349,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
+    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
 
 ---
 
@@ -365,16 +364,16 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
 
-    For detailed setup instructions and more information, please refer to [Security](../../interface_guide/security.md).
+    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
 
 === "Reset Firmware"
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
+    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
+    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.

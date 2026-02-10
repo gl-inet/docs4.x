@@ -91,7 +91,10 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
     ![ethernet connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
 
     1. Connect Mudi 7's Ethernet port to an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) via an Ethernet cable. 
-    2. On the touchscreen or web admin panel, go to **Network** -> **Ethernet Ports**, set the Ethernet port role to **WAN**, and click **Apply**.
+    2. On the touchscreen or web admin panel, go to **Network** -> **Ethernet Ports**, set the port role to **WAN**, and click **Apply**.
+
+        ![touchscreen ethernet wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-ethernet-wan.png){class="glboxshadow"}
+
     3. Once successfully connected to the internet, an Ethernet port icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
@@ -127,7 +130,10 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
     <small>*USB OTG (On-The-Go) is a USB standard that enables compatible devices like routers to switch between host and peripheral roles, allowing direct data transmission and power interaction without a separate host device.</small>
 
     1. Connect an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) to Mudi 7's USB-C port via a USB C-to-Ethernet adapter. 
-    2. On the touchscreen or web admin panel, go to **Network** -> **Ethernet Ports**, set the USB Ethernet port role to **WAN**, and click **Apply**.
+    2. On the touchscreen or web admin panel, go to **Network** -> **Ethernet Ports** -> **USB Ethernet Port**, set the port role to **WAN**, and click **Apply**.
+
+        ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
+
     3. Mudi 7 will then automatically connect to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and check the USB Ethernet connection on the INTERNET page.
     3. Once successfully connected to the internet, a USB icon and an Ethernet port icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 

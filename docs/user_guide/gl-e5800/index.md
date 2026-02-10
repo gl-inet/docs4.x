@@ -123,6 +123,8 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
 
 === "USB Ethernet"
 
+    ![usb ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_usb_ethernet.png){class="glboxshadow"}
+    
     Mudi 7 is equipped with an **OTG-enabled** USB-C port. If you want to convert the USB-C port to an Ethernet port for additional network input, simply plug a **separately purchased USB-C-to-Ethernet adapter** into the USB-C port, then you will have one more Ethernet port.
 
     <small>*USB OTG (On-The-Go) is a USB standard that enables compatible devices like routers to switch between host and peripheral roles, allowing direct data transmission and power interaction without a separate host device.</small>

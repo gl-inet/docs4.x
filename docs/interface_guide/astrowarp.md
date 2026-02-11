@@ -21,6 +21,8 @@ In the following example, we'll use **Flint 3 (GL-BE9300)** and **Slate 7 (GL-BE
 
 Flint 3 will act as the home router, while Slate 7 will act as the travel router that routes network traffic back to Flint 3 for Internet access.
 
+![topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/aw_topology.png){class="glboxshadow"}
+
 **Note**: Each GL.iNet router comes with **10 GB free data per month** for AstroWarp networking. Devices in an AstroWarp network will use the home router's data to access the Internet. You can upgrade to the AstroWarp+ plan for unlimited data as needed.
  
 1. Configure Flint 3 for Internet.

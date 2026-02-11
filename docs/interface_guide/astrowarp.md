@@ -6,7 +6,7 @@
 
     For other models, please refer to [this link](https://docs.astrowarp.net/){target="_blank"} for more information.
 
-AstroWarp is an advanced networking feature integrated into GL.iNet routers. It enables seamless remote access to your home network without registration or login. It uses the AmneziaWG protocol with built-in traffic obfuscation to keep your connection stable and secure, making it perfect for reliable remote access wherever you go.
+AstroWarp is an advanced networking feature integrated into GL.iNet routers. It enables seamless remote access to your home network without registration or login. Using the AmneziaWG protocol with built-in traffic obfuscation, it keeps your connection stable and secure, making it ideal for reliable remote access wherever you go.
 
 Users can set up an AstroWarp network directly through the GL.iNet router admin panel. Simply pair your routers using an access code and you can securely connect your travel router to your home network in seconds.
 
@@ -15,7 +15,7 @@ Users can set up an AstroWarp network directly through the GL.iNet router admin 
 1. It is not recommended to use AstroWarp with any of the following features at the same time, as this may cause routing conflicts: GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
 2. When AstroWarp is enabled, the Network Mode cannot be used.
 
-## Set up AstroWarp network
+## Quick Setup
 
 In the following example, we'll use **Flint 3 (GL-BE9300)** and **Slate 7 (GL-BE3600)** to set up an AstroWarp network. 
 
@@ -71,7 +71,7 @@ Flint 3 will act as the home router, while Slate 7 will act as the travel router
 
     ![connected home](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/connected_home.png){class="glboxshadow"}
 
-## Test connectivity
+## Test Connectivity
 
 1. Connect a laptop or smartphone to the Wi-Fi of the Slate 7 travel router.
 

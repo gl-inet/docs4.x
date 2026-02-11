@@ -28,14 +28,18 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
     - GL-X300B (Collie)
     - ※GL-MT6000 (Flint 2)
     - ※GL-MT3000 (Beryl AX)
+    - ※GL-SFT1200 (Opal)
 
-    **Note:** The models marked with ※ do not support connecting to EAP networks when being installed the default firmware, but GL.iNet provides native OpenWrt 24 firmware for these models which can be installed to support connecting to EAP networks. Search the model in the [Download Center](https://dl.gl-inet.com/){target="_blank"} and turn to OPENWRT 24 tab for more details.
+    **Note:** 
+    
+    1. GL-MT6000 (Flint 2) and GL-MT3000 (Beryl AX) do not support connecting to EAP networks when being installed the default firmware, but GL.iNet provides native OpenWrt 24 firmware for these models which can be installed to support connecting to EAP networks. Search the model in the [Download Center](https://dl.gl-inet.com/){target="_blank"} and turn to OPENWRT 24 tab for more details.
+
+    2. GL-SFT1200 (Opal) supports connecting to EAP networks with firmware v4.8.
 
 ??? "Unsupported Models"
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
     - GL-MT2500/GL-MT2500A (Brume 2)
-    - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)
     - GL-MT300N-V2 (Mango)
 

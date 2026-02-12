@@ -29,7 +29,7 @@ Flint 3 will act as the home router, while Slate 7 will act as the travel router
 
     Log in to the Flint 3's web admin panel and navigate to the **INTERNET** page. Connect it to the Internet using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular.
 
-    As shown below, the Flint 3 home router has been connected to the ISP modem via an Ethernet cable.
+    As shown below, the Flint 3 home router is connected to the ISP modem (Hong Kong Broadband Network Ltd) via an Ethernet cable.
 
     ![home internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/home_internet.png){class="glboxshadow"}
 
@@ -47,7 +47,7 @@ Flint 3 will act as the home router, while Slate 7 will act as the travel router
 
     Log in to the Slate 7's web admin panel, and navigate to the **INTERNET** page. Connect it to the Internet using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular.
 
-    As shown below, the Slate 7 travel router has been connected to the iPhone 15 Pro Personal Hotspot.
+    As shown below, the Slate 7 travel router is connected to the personal hotspot of an iPhone 15 Pro (located in Shenzhen, using the China Unicom Guangdong Province network).
 
     ![travel internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/travel_internet.png){class="glboxshadow"}
 

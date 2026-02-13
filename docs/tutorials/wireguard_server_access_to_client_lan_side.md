@@ -87,3 +87,7 @@ Test if you can access the LAN devices of your WireGuard client from the Server 
 You can test the connection via ping. For example, on a device connected to the WireGuard server (GL-MT2500), ping the IP address of a device within the LAN of your WireGuard client (GL-AXT1800), and check if it can ping successfully.
 
 ![ping](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/ping.jpg){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

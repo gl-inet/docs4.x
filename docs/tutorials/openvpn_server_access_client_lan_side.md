@@ -85,3 +85,7 @@ On a device connected to your OpenVPN server, ping GL-MT3000's IP address **192.
 If you can ping it successfully, it means the settings are correct. You will be able to access all other devices within the OpenVPN client LAN subnet through their IP addresses.
 
 ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/ping-test.jpg){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

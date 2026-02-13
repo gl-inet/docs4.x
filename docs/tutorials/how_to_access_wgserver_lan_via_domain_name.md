@@ -105,3 +105,7 @@ When the grey dot turns to green, it means the WireGuard client is connected to 
 Now you can access your home devices (such as NAS) on the server’s LAN via their domain names from the PC on the client's LAN.
 
 ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/ping_nas.png){class="glboxshadow"}
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

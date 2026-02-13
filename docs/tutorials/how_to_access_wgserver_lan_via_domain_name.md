@@ -10,7 +10,9 @@ As shown below, you can access devices such as NAS and IP camera on the WireGuar
 
 ## Setup Steps
 
-### 1. Edit Hosts on Server
+### 1. Edit Hosts on Server (Optional)
+
+This step applies when your VPN server cannot resolve local domain names properly.
 
 Log in to the web admin panel of your VPN server router, navigate to **NETWORK** -> **DNS** -> **Edit Hosts**.
 

@@ -52,6 +52,7 @@ plugins:
         'faq/can_i_add_brume2_into_app.md': 'faq/how_to_add_brume2_into_app.md'
         'tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
         'tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md': 'tutorials/how_to_use_the_esim_physical_card_with_android_devices.md'
+        'tutorials/how_to_access_server_lan_device_via_domain_name.md': 'tutorials/how_to_access_wgserver_lan_via_domain_name.md'
 
 # Customization
 extra:
@@ -221,9 +222,9 @@ nav:
       - Connect to the dedicated IP by Surfshark: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
       - Set up OpenVPN server via Astrorelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - Set up WireGuard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
-      - Access Client LAN from Server (OpenVPN): tutorials/openvpn_server_access_client_lan_side.md
-      - Access Client LAN from Server (WireGuard): tutorials/wireguard_server_access_to_client_lan_side.md
-      - Access Server LAN from Client (WireGuard) via domain name: tutorials/how_to_access_server_lan_device_via_domain_name.md
+      - Access OpenVPN Client LAN from Server: tutorials/openvpn_server_access_client_lan_side.md
+      - Access WireGuard Client LAN from Server: tutorials/wireguard_server_access_to_client_lan_side.md
+      - Access WireGuard Server LAN from Client via domain name: tutorials/how_to_access_wgserver_lan_via_domain_name.md
       - Enable OpenVPN TAP-S2S: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
       - Enable VPN Cascading: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
       - Use WireGuard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md

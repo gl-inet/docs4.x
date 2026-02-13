@@ -90,7 +90,7 @@ Click **Global Options** will popup a global options dialog.
 
 1. Block Non-VPN Traffic
 
-    If this option is enabled, all traffic from client devices trying to be sent out of the VPN tunnel will be blocked, which will effectively prevent VPN leaks due to client DNS settings, dropped VPN connections, client apps requesting by IP, etc.
+    If this option is enabled, all client device traffic attempting to bypass the VPN tunnel will be blocked, which will effectively prevent VPN leaks caused by client DNS configurations, dropped VPN connections, client apps requesting by IP, etc.
 
     This feature is also know as [VPN Kill Switch](https://cybernews.com/what-is-vpn/vpn-kill-switch/){target="_blank"}. It is designed to prevent your data from leaking to the web. Most VPN providers offer a Kill Switch feature that automatically disconnects your computer, phone, or tablet from the internet if your VPN connection drops. The Block Non-VPN Traffic feature on GL.iNet rotuers can handle more ways to compromise, including the following six scenarios:
 

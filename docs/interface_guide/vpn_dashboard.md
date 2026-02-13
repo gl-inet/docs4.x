@@ -242,15 +242,15 @@ Upon finishing the rules customization, for security, please go to [All Other Tr
 
 #### All Other Traffic
 
-In Policy Mode, by default, there's a <u>preset</u> <u>enabled</u> tunnel displayed at the bottom of the VPN Dashboard page.
+In Policy Mode, a <u>pre-enabled</u> tunnel is displayed by default at the bottom of the VPN Dashboard.
 
-![two tunnels](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_other_traffic.png){class="glboxshadow"}
+![all other traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_other_traffic.png){class="glboxshadow"}
 
-This tunnel is for the following data traffic:
+This tunnel applies to the following traffic:
 
-- The traffic that does not go through the VPN tunnel.
+- Traffic that does not route through any VPN tunnel.
 
-- The traffic that failover from VPN connections.
+- Traffic that has failed over from VPN connections.
 
 #### Tunnel Priority
 

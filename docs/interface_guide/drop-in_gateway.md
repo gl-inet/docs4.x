@@ -120,7 +120,7 @@ In the following example, the gateway address of the primary router is `192.168.
 
     ??? "Windows"
 
-        Here is an example of Windows 11, Windows 10 is similar. Make sure your PC is connected to the primary router. It is assumed here that your computer is connected to the primary router via a network cable, and the setup is similar if you connect via WiFi.
+        Here is an example of Windows 11, Windows 10 is similar. Make sure your PC is connected to the primary router. It is assumed here that your computer is connected to the primary router via a network cable, and the setup is similar if you connect via Wi-Fi.
 
         1. Open Settings.
 

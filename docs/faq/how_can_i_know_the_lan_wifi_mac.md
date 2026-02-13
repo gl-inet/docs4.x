@@ -2,7 +2,7 @@
 
 ## Usage Scenario
 
-The MAC addresses of GL.iNet device are unique for each network interface, such as WAN 1, WAN 2, LAN ports, 2.4G WiFi and 5G WiFi.
+The MAC addresses of GL.iNet device are unique for each network interface, such as WAN 1, WAN 2, LAN ports, 2.4G Wi-Fi and 5G Wi-Fi.
 
 When you connect to some hotels, camping sites, or campuses, the network manager may ask for your device's MAC address to register on the whitelist before getting Internet access. 
 
@@ -42,9 +42,9 @@ Taking the following image as an example.
 
 ![ifconfigwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/ifcongwifi.jpg){class="glboxshadow"}
 
-- **wlan0-1** is the 2.4G WiFi, with MAC address **96:83:C4:19:19:0B**.
+- **wlan0-1** is the 2.4G Wi-Fi, with MAC address **96:83:C4:19:19:0B**.
 
-- **wlan1** is the 5G WiFi, with MAC address **94:83:C4:19:19:0A**.
+- **wlan1** is the 5G Wi-Fi, with MAC address **94:83:C4:19:19:0A**.
 
 ---
 

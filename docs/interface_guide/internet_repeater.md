@@ -18,11 +18,11 @@ Choose the Wi-Fi network you want to connect to from the available network list.
 
 **Note**: The page displays the Wi-Fi channels your router supports. Please ensure that the Wi-Fi network you're connecting to uses one of these channels, otherwise it may not be displayed in the available network list.
 
-Enter the correct WiFi password and click **Apply**.
+Enter the correct Wi-Fi password and click **Apply**.
 
 ![join wifi 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_2.png){class="glboxshadow"}
 
-If the WiFi SSID you want to connect to is not in the Available Network list, click **Join Other Network** in the upper-right corner, manually input the WiFi SSID and other information required. Refer to [here](#join-other-network) for detailed steps.
+If the Wi-Fi SSID you want to connect to is not in the Available Network list, click **Join Other Network** in the upper-right corner, manually input the Wi-Fi SSID and other information required. Refer to [here](#join-other-network) for detailed steps.
 
 ![join other network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
 
@@ -76,7 +76,7 @@ When joining the network, there are some additional options.
 
 ![advanced settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_advanced_settings.png){class="glboxshadow"}
 
-* **Remember**: Enable this to remember the current repeated WiFi network. This is available in firmware v4.7 and later.
+* **Remember**: Enable this to remember the current repeated Wi-Fi network. This is available in firmware v4.7 and later.
 
 * **Lock BSSID**: If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.
 
@@ -147,7 +147,7 @@ Input the SSID, select the Security and enter the password (if required).
 For **Security** settings, there are two or three options, depending on the model.
 
 * None, which means no password is required.
-* WPA/WPA2/WPA3, which is common and supported by nearly all WiFi networks.
+* WPA/WPA2/WPA3, which is common and supported by nearly all Wi-Fi networks.
 * WPA/WPA2/WPA3 Enterprise, which requires Extensible Authentication Protocol (EAP) for authentication. A valid username and password are needed to connect (typically used in business or campus networks).
 
     ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_eap.jpg){class="glboxshadow"}
@@ -156,7 +156,7 @@ For **Security** settings, there are two or three options, depending on the mode
 
 ## Reconnection
 
-In the following cases, the router will automatically attempts to reconnect to WiFi every once in a while. You can manually disable this if needed. For SSID/password errors, remove the network from Known Networks to resolve.
+In the following cases, the router will automatically attempts to reconnect to Wi-Fi every once in a while. You can manually disable this if needed. For SSID/password errors, remove the network from Known Networks to resolve.
 
 1. Incorrect SSID/password entered during Repeater setup.
 
@@ -190,11 +190,11 @@ Solutions:
 
 ## DFS
 
-When connecting to an upstream 5G WiFi, the router's WiFi will follow the upstream WiFi to use or not use the DFS channel.
+When connecting to an upstream 5G Wi-Fi, the router's Wi-Fi will follow the upstream Wi-Fi to use or not use the DFS channel.
 
-* If the upstream WiFi uses a DFS channel and is scannable, the router's 5G WiFi will use the same channel.
+* If the upstream Wi-Fi uses a DFS channel and is scannable, the router's 5G Wi-Fi will use the same channel.
 
-* The router's 5G WiFi will switch to the non-DFS channel if the upstream WiFi is not scannable or if the connection fails.
+* The router's 5G Wi-Fi will switch to the non-DFS channel if the upstream Wi-Fi is not scannable or if the connection fails.
 
 ??? "Supported Models"
 
@@ -235,7 +235,7 @@ Related Articles
 - [Internet page](internet.md)
 - [How to set the priority of each Internet access method?](multi-wan.md)
 - [How to set the load balance when multiple Internet access methods are used at the same time?](multi-wan.md)
-- [How can I know the LAN and WiFi Mac Addresses](../faq/how_can_i_know_the_lan_wifi_mac.md)
+- [How can I know the LAN and Wi-Fi Mac Addresses](../faq/how_can_i_know_the_lan_wifi_mac.md)
 
 ---
 

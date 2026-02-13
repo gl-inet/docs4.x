@@ -70,7 +70,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 * [How to remote access router's web Admin Panel?](remote_access_web_admin_panel.md)
 * [How to remote ssh to router?](remote_ssh_to_router.md)
 * [How to check if ISP assigns you a public IP address?](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)
-* [How to make WiFi Calling work on Opal?](how_to_make_wifi_calling_work_on_opal.md)
+* [How to make Wi-Fi Calling work on Opal?](how_to_make_wifi_calling_work_on_opal.md)
 * [How can I find all MAC addresses of my device?](how_can_i_know_the_lan_wifi_mac.md)
 * [Where to find the device ID, MAC and SN?](where_to_find_the_device_id_mac_sn.md)
 * [What is LuCI?](what_is_luci.md)

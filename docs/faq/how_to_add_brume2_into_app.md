@@ -1,6 +1,6 @@
 # How to add Brume 2 into GLiNet Mobile App?
 
-You can add your Brume 2 (GL-MT2500/GL-MT2500A) into the GLiNet Mobile App even if it has no WiFi feature. You can either set it as the main router or the secondary router.
+You can add your Brume 2 (GL-MT2500/GL-MT2500A) into the GLiNet Mobile App even if it has no Wi-Fi feature. You can either set it as the main router or the secondary router.
 
 The following methods are also applicable to Brume (GL-MV1000).
 
@@ -24,7 +24,7 @@ Here we have Slate AX (GL-AXT1800) as the main router and Brume 2 (GL-MT2500) as
 
     ![assignip](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/assignip.jpg){class="glboxshadow"}
 
-3. Connect a phone to the WiFi of your main router.
+3. Connect a phone to the Wi-Fi of your main router.
 
     ![upperwifi](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/upperwifi.PNG){class="glboxshadow gl-50-desktop"}
 
@@ -58,7 +58,7 @@ Here we have Slate AX (GL-AXT1800) as the main router and Brume 2 (GL-MT2500) as
 
     ![setrouteap](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/setrouteap.jpg){class="glboxshadow"}
 
-2. Connect a phone to the WiFi of your secondary router.
+2. Connect a phone to the Wi-Fi of your secondary router.
 
     ![upperwifi](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/upperwifi.PNG){class="glboxshadow gl-50-desktop"} 
 
@@ -74,7 +74,7 @@ Here we have Slate AX (GL-AXT1800) as the main router and Brume 2 (GL-MT2500) as
 
     ![setupap](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/setupap.PNG){class="glboxshadow gl-50-desktop"}
 
-6. If you are still connecting to the secondary router's WiFi, just wait. If not, re-connect to the secondary router's WiFi.
+6. If you are still connecting to the secondary router's Wi-Fi, just wait. If not, re-connect to the secondary router's Wi-Fi.
 
     ![connectap](https://static.gl-inet.com/docs/router/en/4/faq/add_brume2_into_app/connectap.PNG){class="glboxshadow gl-50-desktop"}
 

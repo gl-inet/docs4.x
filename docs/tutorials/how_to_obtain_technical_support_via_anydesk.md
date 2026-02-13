@@ -10,7 +10,7 @@ Please close any applications that are not needed in advance. This will help red
 
 ## 2. Ensure Network Stable
 
-We recommend using both WiFi and wired connections on your computer to avoid any disconnections or delays during the remote assistance session.
+We recommend using both Wi-Fi and wired connections on your computer to avoid any disconnections or delays during the remote assistance session.
 
 ## 3. Download and Install AnyDesk
 

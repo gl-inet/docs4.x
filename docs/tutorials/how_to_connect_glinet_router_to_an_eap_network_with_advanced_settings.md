@@ -27,7 +27,7 @@ Obtain the configuration parameters for the target EAP network in advance. For e
 - Inner authentication type (e.g., MSCHAPv2, PAP)
 - CA certificate (if required, prepare .crt format file)
 
-This is an example of Xfinity Mobile WiFi for your reference:
+This is an example of Xfinity Mobile Wi-Fi for your reference:
 
 ![xfinity wifi configs](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/xfinity_mobile_config.png){class="glboxshadow gl-50-desktop"}
 
@@ -47,7 +47,7 @@ In the LuCI interface, navigate to Network -> Wireless.
 
 ![xfinity wifi configs](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/wireless.png){class="glboxshadow"}
 
-Click the **Scan** button in the 5G or 2.4G section to search for available WiFi networks.
+Click the **Scan** button in the 5G or 2.4G section to search for available Wi-Fi networks.
 
 ![wireless scan](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/wireless_scan.png){class="glboxshadow"}
 

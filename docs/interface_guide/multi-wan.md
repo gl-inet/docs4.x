@@ -10,7 +10,7 @@ GL.iNet routers can be connected to the Internet in multiple ways, such as [Ethe
 
 !!! Note
 
-    1. Models lacking WiFi functionality (e.g., GL-MT2500/GL-MT2500A) only support Ethernet, Tethering, and Cellular network access.
+    1. Models lacking Wi-Fi functionality (e.g., GL-MT2500/GL-MT2500A) only support Ethernet, Tethering, and Cellular network access.
 
     2. Models lacking USB port (e.g., GL-B3000) only support Ethernet and Repeater network access.
 
@@ -87,7 +87,7 @@ The load ratio here is the ratio between each network interface, and the system 
 
 For example, if the router is connected to four networks (Ethernet, Repeater, Tethering and Cellular) at the same time, and all four network interfaces are available to access the Internet, then enabling Load Balance and setting 1:1:1:1 means that the four network interfaces will load the network bandwidth averagely, as the system will assign these four interfaces to new connections based on the set load ratio 1:1:1:1.
 
-You can also customize the load ratio. If the Ethernet bandwidth is 200 Mbps, the Repeater WiFi bandwidth is 100 Mbps, and no Tethering or Cellular connections are active, you can set the load ratios to 2 for Ethernet, 1 for Repeater, and 0 for Tethering/Cellular. The system will then distribute new connections between these interfaces based on the configured ratio of 2:1, meaning the Ethernet interface will handle approximately twice as many connections as the Repeater interface. Compared with the Failover mode, this optimizes the overall throughput efficiency by balancing the load across available interface.
+You can also customize the load ratio. If the Ethernet bandwidth is 200 Mbps, the Repeater Wi-Fi bandwidth is 100 Mbps, and no Tethering or Cellular connections are active, you can set the load ratios to 2 for Ethernet, 1 for Repeater, and 0 for Tethering/Cellular. The system will then distribute new connections between these interfaces based on the configured ratio of 2:1, meaning the Ethernet interface will handle approximately twice as many connections as the Repeater interface. Compared with the Failover mode, this optimizes the overall throughput efficiency by balancing the load across available interface.
 
 **Note:** Alive connections or traffic are not ensured to match the load ratio. It is closer to this ratio if it has been used for a longer time.
 
@@ -97,7 +97,7 @@ You can also customize the load ratio. If the Ethernet bandwidth is 200 Mbps, th
 
 * The store's cashier system uses a wired connection to the Internet, while Repeater to Wi-Fi in neighboring stores (or inserting a SIM card to enable cellular network) as a backup Internet access method to prevent mobile payments from being made when the network cable is unavailable.
 
-* Router Repeater to public WiFi, but the network speed is not fast enough, then you can use Mobile Tethering to do load balance at the same time to improve the overall bandwidth.
+* Router Repeater to public Wi-Fi, but the network speed is not fast enough, then you can use Mobile Tethering to do load balance at the same time to improve the overall bandwidth.
 
 ---
 

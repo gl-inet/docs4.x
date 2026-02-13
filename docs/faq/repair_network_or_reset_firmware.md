@@ -14,7 +14,7 @@ This operation will reboot the network interface and restore the Internet interf
 
 **Note**: 
 
-1. If WiFi has been disabled, a soft reset will restore WiFi to its default enabled state.
+1. If Wi-Fi has been disabled, a soft reset will restore Wi-Fi to its default enabled state.
 
 2. A soft reset can also be used to quickly switch from non-router mode to router mode.
 

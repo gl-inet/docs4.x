@@ -2,7 +2,7 @@
 
 On the left side of web Admin Panel -> NETWORK -> LAN
 
-LAN is the network that your device is connected to when it is connected via the main WiFi or via an Ethernet cable.
+LAN is the network that your device is connected to when it is connected via the main Wi-Fi or via an Ethernet cable.
 
 It includes Basic settings, DHCP server settings and Address Reservation.
 

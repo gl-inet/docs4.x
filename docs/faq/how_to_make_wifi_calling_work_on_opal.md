@@ -1,4 +1,4 @@
-# How to make WiFi Calling work on Opal (GL-SFT1200)?
+# How to make Wi-Fi Calling work on Opal (GL-SFT1200)?
 
 ## Ensure the Firmware is V4.3.17 or Above
 
@@ -12,6 +12,6 @@ After the firmware upgrade, in the web Admin Panel, go to **NETWORK** -> **Netwo
 
 ![networkacc](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/netacc.jpg){class="glboxshadow}
 
-Based on our experience and customer feedback, the WiFi calling works properly after disabling the Network/Hardware Acceleration. 
+Based on our experience and customer feedback, the Wi-Fi calling works properly after disabling the Network/Hardware Acceleration. 
 
 If this solution does not work on your device, please visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

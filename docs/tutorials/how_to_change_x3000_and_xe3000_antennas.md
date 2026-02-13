@@ -2,7 +2,7 @@
 
 When you are setting up your Spitz AX (GL-X3000) or Puli AX (GL-XE3000) for the first time, you will have to install the six external antennas included in the package. These external antennas are: 
 
-* 2 x Wi-Fi antennas (labeled as "WiFi 6")
+* 2 x Wi-Fi antennas (labeled as "Wi-Fi 6")
 * 4 x 5G NR antennas (labeled as "5G NR")
 
 Refer to the sections below to learn how to install or change the antennas. 
@@ -12,7 +12,7 @@ Refer to the sections below to learn how to install or change the antennas.
 To install the antennas, follow these steps: 
 
 1. Attach the antennas (in no particular order): 
-    * Attach the two identical WiFi 6 antennas to the **WiFi 1** and **WiFi 2** ports (no specific pairing is required).
+    * Attach the two identical Wi-Fi 6 antennas to the **Wi-Fi 1** and **Wi-Fi 2** ports (no specific pairing is required).
     * Attach the four identical 5G NR antennas to the **MAIN**, **DIV**, **MIMO 1**, and **MIMO2** ports (no specific pairing is required).
 
     ![Antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x3000-antennas.jpg){class="gl-80-desktop glboxshadow"}

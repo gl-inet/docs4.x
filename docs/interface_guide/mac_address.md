@@ -24,7 +24,7 @@ If the device supports setting multiple Ethernet ports to be used as WAN ports, 
 
     ![clone mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/clone.png){class="glboxshadow"}
 
-    **Note:** Many new devices now use a different random MAC address to connect to different WiFi, so the MAC address shown here may not be the actual MAC address of the user's device. The randomized MAC may also be called a Private Wi-Fi Address or a random hardware address on different devices.
+    **Note:** Many new devices now use a different random MAC address to connect to different Wi-Fi, so the MAC address shown here may not be the actual MAC address of the user's device. The randomized MAC may also be called a Private Wi-Fi Address or a random hardware address on different devices.
 
 * Manual input or generate a random MAC address.
 

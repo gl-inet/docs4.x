@@ -2,9 +2,9 @@
 
 Some GL.iNet routers have USB ports, users can plug a USB modem into the USB port to configure Internet access, even to realize Multi-WAN scenarios if combined with other Internet access. 
 
-However, you may encounter the problem that some USB modem (such as ZTE F50 Mobile WiFi Hotspot) cannot be used normally on the router, causing frequent network dropouts. 
+However, you may encounter the problem that some USB modem (such as ZTE F50 Mobile Wi-Fi Hotspot) cannot be used normally on the router, causing frequent network dropouts. 
 
-This may be due to the compatibility problem between the router's USB port (usually USB3.0) and the 2.4G WiFi, which leads to the USB modem dropping out constantly and cannot access the Internet normally.
+This may be due to the compatibility problem between the router's USB port (usually USB3.0) and the 2.4G Wi-Fi, which leads to the USB modem dropping out constantly and cannot access the Internet normally.
 
 To solve this issue, you can switch the USB port specification from USB 3.0 to USB 2.0.
 

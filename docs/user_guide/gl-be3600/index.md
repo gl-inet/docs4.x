@@ -71,7 +71,7 @@ Put the two-piece power adapter together. Connect it to your router and plug it 
 
         ![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
 
-    - Tri-band WiFi details (including the SSID, password, QR code and the switch button)
+    - Tri-band Wi-Fi details (including the SSID, password, QR code and the switch button)
 
         ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){class="glboxshadow"}
 

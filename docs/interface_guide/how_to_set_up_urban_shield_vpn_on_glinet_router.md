@@ -26,7 +26,7 @@ Set up your admin password. We recommend using a strong password. Click **Next**
 
 ![set up admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/web_panel_signup.png){class="glboxshadow"}
 
-Set up WiFi. The page displays factory WiFi details, including the WiFi name (SSID) and password, which you can change or keep. If you change any WiFi details, please make sure to reconnect your device to the changed WiFi.
+Set up Wi-Fi. The page displays factory Wi-Fi details, including the Wi-Fi name (SSID) and password, which you can change or keep. If you change any Wi-Fi details, please make sure to reconnect your device to the changed Wi-Fi.
 
 ![set up wifi](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/set_up_wifi.png){class="glboxshadow"}
 

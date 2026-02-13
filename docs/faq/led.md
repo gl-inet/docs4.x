@@ -85,12 +85,12 @@
 	* Off: Internet is disconnected
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is ready
-	* Flashing: 2.4G WiFi is communicating
+	* On: 2.4G Wi-Fi is ready
+	* Flashing: 2.4G Wi-Fi is communicating
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is ready
-	* Flashing: 5G WiFi is communicating
+	* On: 5G Wi-Fi is ready
+	* Flashing: 5G Wi-Fi is communicating
 
 * Cellular LED
 	* Mobile Tower is conntected
@@ -108,12 +108,12 @@
 	* Off: Internet is disconnected
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is ready
-	* Flashing: 2.4G WiFi is communicating
+	* On: 2.4G Wi-Fi is ready
+	* Flashing: 2.4G Wi-Fi is communicating
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is ready
-	* Flashing: 5G WiFi is communicating
+	* On: 5G Wi-Fi is ready
+	* Flashing: 5G Wi-Fi is communicating
 
 * Cellular LED
 	* Mobile Tower is conntected
@@ -131,12 +131,12 @@
 	* Off: Internet is disconnected
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is ready
-	* Flashing: 2.4G WiFi is communicating
+	* On: 2.4G Wi-Fi is ready
+	* Flashing: 2.4G Wi-Fi is communicating
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is ready
-	* Flashing: 5G WiFi is communicating
+	* On: 5G Wi-Fi is ready
+	* Flashing: 5G Wi-Fi is communicating
 
 * Cellular LED
 	* Mobile Tower is conntected
@@ -154,12 +154,12 @@
 	* Off: Internet is disconnected
 
 * 5G Wi-Fi LED
-	* On: 5G WiFi is ready
-	* Flashing: 5G WiFi is communicating
+	* On: 5G Wi-Fi is ready
+	* Flashing: 5G Wi-Fi is communicating
 
 * 2.4G Wi-Fi LED
-	* On: 2.4G WiFi is ready
-	* Flashing: 2.4G WiFi is communicating
+	* On: 2.4G Wi-Fi is ready
+	* Flashing: 2.4G Wi-Fi is communicating
 
 * Cellular LED
 	* Mobile Tower is conntected
@@ -199,8 +199,8 @@
 	* Off: LAN port is disconnected
 
 * Wi-Fi LED
-	* On: 2.4G WiFi is ready
-	* Flashing: 2.4G WiFi is communicating
+	* On: 2.4G Wi-Fi is ready
+	* Flashing: 2.4G Wi-Fi is communicating
 
 * Cellular LED
 	* Mobile Tower is conntected
@@ -282,8 +282,8 @@
 	- Off: This LED has not been customized (default mode)
 
 - Wireless LED
-	- On: 2.4G WiFi is connected
-	- Off: 2.4G WiFi is disconnected
+	- On: 2.4G Wi-Fi is connected
+	- Off: 2.4G Wi-Fi is disconnected
 
 	For earlier batches, the Wireless LED may display red instead of white in normal working state.
 
@@ -300,7 +300,7 @@
 	- Off: This LED is not customized (default mode)
 
 - Wireless LED
-	- On: 2.4G WiFi is connected
-	- Off: 2.4G WiFi is disconnected
+	- On: 2.4G Wi-Fi is connected
+	- Off: 2.4G Wi-Fi is disconnected
 
 	For earlier batches, the Wireless LED may display red instead of white in normal working state.

@@ -46,7 +46,7 @@ Prior to firmware v4.8, there are four options, allowing users to customize the 
 - Tor
 - WireGuard Client
 
-Starting from v4.8, more options are introduced: Repeater, WiFi, and LED, and users can tailor the toggle button according to their needs.
+Starting from v4.8, more options are introduced: Repeater, Wi-Fi, and LED, and users can tailor the toggle button according to their needs.
 
 - No Function
 - Repeater

@@ -74,7 +74,7 @@ If you don't have a public IP address, here are some methods for your reference.
 
     Example: A TP-Link Router as your home main router.
 
-    Connect to the WiFi or LAN of your home router. Then login to the web Admin Panel. Check the WAN IP address it obtains from your ISP. In the image below, you can see that your public IP is **42.200.00.00**.
+    Connect to the Wi-Fi or LAN of your home router. Then login to the web Admin Panel. Check the WAN IP address it obtains from your ISP. In the image below, you can see that your public IP is **42.200.00.00**.
 
     ![tp_home](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/tp_home.png){class="glboxshadow"}
     

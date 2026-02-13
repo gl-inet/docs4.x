@@ -33,7 +33,7 @@ Activation may take up to 24 hours to complete. Upon successful activation, you 
 After 30 days, you can top up your SIM card at $80/month by following these steps: 
 
 1. Make sure the SIM card is inserted into the router. 
-2. Visit the [Global Data WiFi page](https://portal.globaldatawifi.com/binding_iccid). 
+2. Visit the [Global Data Wi-Fi page](https://portal.globaldatawifi.com/binding_iccid). 
 3. Enter your email address and the ICCID number (shown as "SIM Card Number" on the back of the SIM card). 
 ![sim card number](
 https://static.gl-inet.com/docs/router/en/4/tutorials/activate_top_up_sim_card/sim-card-number.jpg){class="glboxshadow"}

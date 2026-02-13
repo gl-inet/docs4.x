@@ -10,7 +10,7 @@ The top half features a diagram showing the Internet status, and the bottom half
 
 - The left side of the diagram shows the current status of Internet access. A solid green line indicates that the network connection is available, a dashed gray line indicates that the network connection is not available, a solid white line and yellow triangle exclamation indicates that the connection is connected but cannot access the Internet.
 
-- In the middle of the diagram is the current router model number and the status of [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard.md), [Tor](tor.md), [5G main WiFi](wireless.md), [2.4G main WiFi](wireless.md), [5G Guest WiFi](wireless.md) and [2.4G Guest WiFi](wireless.md), with green indicating the feature is on and gray indicating the feature is off. The white color of [VPN](vpn_dashboard.md) or [Tor](tor.md) means the connection is in progress.
+- In the middle of the diagram is the current router model number and the status of [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard.md), [Tor](tor.md), [5G main Wi-Fi](wireless.md), [2.4G main Wi-Fi](wireless.md), [5G Guest Wi-Fi](wireless.md) and [2.4G Guest Wi-Fi](wireless.md), with green indicating the feature is on and gray indicating the feature is off. The white color of [VPN](vpn_dashboard.md) or [Tor](tor.md) means the connection is in progress.
 
 - The right side of the diagram shows the devices ([Clients](clients.md)) connected to the router. The devices with wireless connections are displayed above, while the devices with wired connections are displayed below. The numbers next to them represent the number of connected devices.
 

@@ -12,9 +12,9 @@ It includes Guest Network basic settings and DHCP server settings.
 
 You can set a separate, isolated network designed for temporary users, providing limited access and enhanced security by segregating it from the primary network.
 
-**Note**: Some models do not have WiFi (e.g. GL-MT2500/GL-MT2500A), so there is no Guest Network tab.
+**Note**: Some models do not have Wi-Fi (e.g. GL-MT2500/GL-MT2500A), so there is no Guest Network tab.
 
-The **Default Gateway** is **192.168.9.1**, If you have enable the Guest WiFi and it conflicts with your network, you can change it.
+The **Default Gateway** is **192.168.9.1**, If you have enable the Guest Wi-Fi and it conflicts with your network, you can change it.
 
 Security settings: 
 

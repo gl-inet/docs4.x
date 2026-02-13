@@ -10,7 +10,7 @@ Watch this video or follow the steps below to learn more about Parental Control 
 
 ## Local Version
 
-The local version is provided by GL.iNet. It is currently in beta, so there is no additional cost. In this version, if you need to filter requests by application, you need to enter the domain manually.
+The local version is provided by GL.iNet. It is currently in beta and has no additional cost. In this version, if you need to filter requests by application, you need to enter the domain manually.
 
 ### Supported Models
 
@@ -45,7 +45,9 @@ The local version is provided by GL.iNet. It is currently in beta, so there is n
 
 ### Setup
 
-Log in to the router's web admin panel, go to APPLICATIONS -> Parental Control. Ensure the router time is accurate. If not, go to SYSTEM -> Time Zone to synchronize it first.
+Log in to the router's web admin panel, and navigate to **APPLICATIONS** -> **Parental Control**. 
+
+Ensure the router time is accurate. If not, go to **SYSTEM** -> **Time Zone** to synchronize it first.
 
 ![router time](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_time.png){class="glboxshadow"}
 
@@ -169,9 +171,13 @@ There may be several reasons why the settings are not effective after being conf
 
 The [Bark](https://www.bark.us/){target="_blank"} version, which is provided and managed by Bark on their own platform, offers the option to filter applications and websites with a single click and monitor request history. 
 
-Bark Parental Control feature has been available since v4.5, and it is supported by certain GL.iNet routers only.
+The Bark Parental Control feature has been available since firmware v4.5, and is supported only on selected GL.iNet routers.
 
-Please be aware that Bark service is only available in the United States, Australia, Guam, and South Africa. Generally speaking, an additional subscription fee is payable directly to Bark for this service. However, in collaboration with Bark, GL.iNet enhances its parental control offerings and the Bark Home plan is available for free with the following GL.iNet routers, provides advanced monitoring and alert systems without any additional cost.
+**Note**: 
+
+1. The Bark service is available **only in the United States, Australia, Guam, and South Africa**. This service typically requires a paid subscription directly to Bark. However, as part of our partnership with Bark, GL.iNet offers the Bark Home plan for free on select router models, providing advanced monitoring and alerts at no extra cost.
+
+2. The two Parental Control versions cannot be enabled at the same time. Switching between versions will automatically disable the other.
 
 ### Supported Models
 
@@ -212,25 +218,27 @@ With its logging function, it knows which client accessed which website during w
 
 ### Setup
 
-On the left side of web Admin Panel -> APPLICATIONS -> Parental Control.
+Log in to the router's web admin panel, and navigate to **APPLICATIONS** -> **Parental Control**. 
 
-Select the Bark version and apply. Both versions of Parental Control cannot be enabled at the same time, and the another one will be automatically disabled when you switch versions.
+Select the Bark version, toggle the switch and click **Apply**. 
 
 ![switch_versions](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
 
-**Please note:** Bark's service may not be available in certain countries. As GL.iNet is not the provider of this service, should you encounter any issues using Bark, kindly reach out directly to [Bark's Technical Support ](https://www.bark.us/contact-us/?ref=glinet&home=glinet) for assistance.
-
 ![bark_enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_enable.png){class="glboxshadow"}
 
-The Bark service is enabled, but this device is not yet paired with any account. Please use the [Device Pairing Link](http://go.bark.us/?ref=glinet&home=glinet) to pair this device with your Bark account.
+**Note:** Bark's service may not be available in certain countries. As GL.iNet is not the provider of this service, should you encounter any issues using Bark, kindly reach out directly to [Bark's Technical Support ](https://www.bark.us/contact-us/?ref=glinet&home=glinet) for assistance.
 
-![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paring.png){class="glboxshadow"}
+The Bark service is enabled, but this device is not yet paired with any account. Please use the [Device Pairing Link](https://www.bark.us/app/signup/?ref=glinet&home=glinet) to pair this device with your Bark account.
 
-The device is connected to Bark Cloud Services and paired with an account. Please [Go to Bark](https://www.bark.us/app/children/?ref=glinet&home=glinet) and log in to the paired account to control access.
+![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_pairing.png){class="glboxshadow"}
 
-![device_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/device_set_up.png){class="glboxshadow"}
+Once paired, the page displays as follows.
 
-![bark_success_pair](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_success_pair.png){class="glboxshadow"}
+![bark_paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
+
+Your device is now connected to Bark Cloud Services and paired with your account. Please [go to Bark](https://www.bark.us/app/children/?ref=glinet&home=glinet) and log in to your account to create a profile for network control.
+
+![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_setup.png){class="glboxshadow gl-90-desktop"}
 
 ---
 

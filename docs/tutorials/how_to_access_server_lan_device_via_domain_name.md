@@ -1,10 +1,10 @@
-# How to access WireGuard Server LAN device via domain name from the client side?
+# How to access WireGuard Server LAN devices from the client side via domain names?
 
-This tutorial introduces the steps to access your home devices (such as NAS, IP camera, etc.) on your WireGuard server side by their domain names from the client side.
+This tutorial introduces the steps to access your home devices (such as NAS, IP camera, etc.) on the WireGuard server from the client side using their domain names.
 
 ## Topology
 
-As shown below, you can access the devices such as NAS and IP camera on the WireGuard server’s LAN via their domain names from the PC on the client side.
+As shown below, you can access devices such as NAS and IP camera on the WireGuard server's LAN from the PC on the client side via their domain names.
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/topology_be9300_be3600.png){class="glboxshadow"}
 
@@ -90,9 +90,9 @@ You will get a configuration file listed here.
 
 ![applied](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/wgclient_add_applied.png){class="glboxshadow"}
 
-### 5. Start VPN Client Connection
+### 6. Start VPN Client Connection
 
-Click the three-dot icon to start the VPN connection. 
+Click the three-dot icon to initiate the VPN connection. 
 
 ![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/start_client.png){class="glboxshadow"}
 

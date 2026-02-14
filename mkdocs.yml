@@ -224,6 +224,7 @@ nav:
       - Set up WireGuard server via Astrorelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
       - Access OpenVPN Client LAN from Server: tutorials/openvpn_server_access_client_lan_side.md
       - Access WireGuard Client LAN from Server: tutorials/wireguard_server_access_to_client_lan_side.md
+      - Access OpenVPN Server LAN from Client via domain name: tutorials/how_to_access_ovpnserver_lan_via_domain_name.md
       - Access WireGuard Server LAN from Client via domain name: tutorials/how_to_access_wgserver_lan_via_domain_name.md
       - Enable OpenVPN TAP-S2S: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
       - Enable VPN Cascading: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md

@@ -175,9 +175,11 @@ The Bark Parental Control feature has been available since firmware v4.5, and is
 
 **Note**: 
 
-1. The Bark service is available **only in the United States, Australia, Guam, and South Africa**. This service typically requires a paid subscription directly to Bark. However, as part of our partnership with Bark, GL.iNet offers the Bark Home plan for free on select router models, providing advanced monitoring and alerts at no extra cost.
+1. The Bark service is available **only in the United States, Australia, and South Africa**. Click [here](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"} for details.
 
-2. The two Parental Control versions cannot be enabled at the same time. Switching between versions will automatically disable the other.
+2. The Bark service typically requires a paid subscription. However, as part of our partnership with Bark, GL.iNet offers the Bark Home plan for free on select router models, providing advanced monitoring and alerts at no extra cost.
+
+3. The two Parental Control versions cannot be enabled at the same time. Switching between versions will automatically disable the other.
 
 ### Supported Models
 

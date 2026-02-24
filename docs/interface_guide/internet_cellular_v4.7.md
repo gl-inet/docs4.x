@@ -2,39 +2,49 @@
 
 !!! note
 
-    This guide is based on firmware v4.7 and earlier. If you are using the latest firmware version, please visit [here](internet_cellular.md).
+    This guide is based on firmware v4.7 and earlier. If you are using the latest firmware version, please check [here](internet_cellular.md).
 
-Most GL.iNet routers can be used to access the Internet through cellular.
+---
 
-There are three cases:
+Most GL.iNet routers support cellular connectivity. This guide covers three common scenarios:
 
-1. Some models have a built-in 3G/4G module with single SIM card, such as GL-XE300 (Puli). Please refer to [Setup for single SIM models](#setup-for-single-sim-models).
+1. **Built-in 4G Single-SIM models**
 
-2. Some models have a USB port and can be plugged with a USB 3G/4G modem, such as GL-AXT1800 (Slate AX). Please refer to [Setup for single SIM models](#setup-for-single-sim-models).
+    Some models include a built-in 4G module with a single SIM card slot, such as the GL-XE300 (Puli). Please refer to [Setup for Single-SIM models](#setup-for-single-sim-models).
 
-3. Some models have a built-in modem and support dual SIM cards, such as GL-X3000 (Spitz AX). Its web admin interface may be slightly different. Please refer to [Setup for Dual-SIM models](#setup-for-dual-sim-models).
+2. **USB Modem compatible models**
 
-**Note:** Some SIM cards may need to be activated the first time you use them. Please activate them on your phone before using them in the router.
+    Some models feature a USB port and support cellular connectivity via a USB modem, such as the GL-AXT1800 (Slate AX). The setup steps are similar to those of the built-in 4G single-SIM models. Please refer to [Setup for Single-SIM models](#setup-for-single-sim-models).
+
+3. **Built-in 5G Dual-SIM models**
+
+    Some models include a built-in 5G module with dual SIM card slots, such as the GL-X3000 (Spitz AX). The cellular settings in the web Admin Panel may differ slightly. Please refer to [Setup for Dual-SIM models](#setup-for-dual-sim-models).
+
+**Note:** Some SIM cards require activation before first use. To ensure compatibility, activate the SIM card in a smartphone before inserting it into the router.
 
 ## Setup for single SIM models
 
-The following configuration steps are for built-in modem or external USB modem with only single SIM card. Here we use the GL-AXT1800 (Slate AX) with external USB modem as an example.
+The following steps apply to models with a built-in cellular modem and a single SIM card slot (e.g., GL-XE300 Puli), or a USB port for connecting an external USB modem (e.g., GL-AXT1800 Slate AX).
 
-We recommend turning off the router first, inserting your SIM card into the USB modem then plugging the USB modem into the USB port of the router, and then turning it on again. If you insert a USB modem after the startup, the page may not change. Please refresh the page.
+Here we use the **GL-AXT1800 (Slate AX)** with an external USB modem as an example.
+
+We recommend powering off the router first. Insert a pre-activated SIM card into the USB modem, then plug the modem into the router's USB port. After that, power on the router.
+
+If you plug the USB modem after the router has booted up, the web Admin Panel may not update automatically. In that case, please refresh the page to check for changes.
 
 ### Auto Setup
 
-On the left side of web Admin Panel -> INTERNET -> Cellular section.
+Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellular**.
 
-1. When you access it for the first time, it may not connect automatically, but it should display the name of your carrier in the upper left corner and show the IMEI. Please click Auto Setup.
+1. When you access it for the first time, it may not connect automatically, but it should display the name of your carrier in the upper left corner, and the IMEI. Click **Auto Setup**.
 
     Ignore the warning of *Incompatible Modem*
 
     ![usb modem auto setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_auto_setup.png){class="glboxshadow"}
 
-2. Connecting.
+2. It will start connecting.
 
-    **Note:** Some SIM cards may have special usage restrictions, such as the need to use a special APN. If your SIM card can't be registered, please consult your network operator if it has special restrictions.
+    **Note:** Some SIM cards may have special usage restrictions, such as requiring a custom APN. If your SIM card fails to register, please contact your carrier to check for special restrictions.
 
     ![usb modem connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/usb_modem_connecting.png){class="glboxshadow"}
 
@@ -46,11 +56,25 @@ On the left side of web Admin Panel -> INTERNET -> Cellular section.
 
 ### Manual Setup
 
-Sometimes, Auto Setup may not work, you can try Manual Setup.
-
-In the Cellular section, click **Manual Setup**.
+In the Cellular section, click **Manual Setup** to enter the Cellular Settings page.
 
 ![4g modem manual setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/cellular_settings.png){class="glboxshadow"}
+
+- **Protocol**: The cellular communication protocol (e.g., 3G, QMI, or QCM). This is usually auto-detected, and you can change it to match your modem and carrier requirements.
+
+- **Port**: The serial port used to communicate with the cellular modem. This is usually auto-detected and does not require manual adjustment.
+
+- **APN**: APN (Access Point Name) is a gateway parameter required for a cellular network connection. It allows the router to connect to the internet provided by your mobile carrier. You can use the default APN or set a custom APN provided by your carrier.
+
+- **PIN**: If your SIM card is protected by a PIN code, enter it here. This field is optional if no PIN is set.
+
+- **TTL**: TTL (Time To Live) defines the maximum time packets can survive in the network. By default, the router decrements the TTL of incoming packets from client devices by 1 before forwarding them. If you need to override it, you can set a fixed value here. The TTL setting is valid only for IPv4.
+
+- **Service**: Select the cellular service type to define the network technologies the modem will use.
+
+- **Dial Number**: Enter the dial-up number provided by your carrier. This is often pre-configured and may be left blank for most modern networks.
+
+- **Authentication**: Choose the authentication method required by your carrier (e.g., NONE, PAP, CHAP). This is usually set to NONE if no credentials are needed.
 
 ### Compatible Modems
 

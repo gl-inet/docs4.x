@@ -1,4 +1,4 @@
-# VPN Obfuscation
+# How to set up VPN Obfuscation on GL.iNet routers
 
 ## What is VPN Obfuscation
 
@@ -14,9 +14,9 @@ AmneziaWG is a VPN protocol built on WireGuard, with built-in traffic obfuscatio
 
 AmneziaWG is compatible with a wide range of devices, including Windows, macOS, iOS, Android, Linux, and routers, delivering reliable obfuscated VPN connections across all scenarios.
 
-Currently, several GL.iNet routers (such as **Brume 3** and **Beryl AX**) support the AmneziaWG protocol in specific firmware versions. Full support will be officially available in firmware version 4.9 and gradually extended to more models.
+Currently, several GL.iNet routers (e.g., **Brume 3**, **Flint 3**, **Flint 2**, and **Beryl AX**) support the AmneziaWG protocol in select firmware versions. Full official support will be available in firmware ver.4.9 and gradually roll out to more models.
 
-## Set up VPN Obfuscation on GL.iNet routers
+## Quick Setup
 
 Below are two typical scenarios for setting up AmneziaWG VPN obfuscation on GL.iNet routers.
 

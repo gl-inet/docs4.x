@@ -6,31 +6,29 @@
 
 ---
 
-Most GL.iNet routers support cellular connectivity. This guide covers three common scenarios:
+Most GL.iNet routers support cellular connectivity. This guide covers three types of models:
 
 1. **Built-in 4G Single-SIM models**
 
-    Some models include a built-in 4G module with a single SIM card slot, such as the GL-XE300 (Puli). Please refer to [Setup for Single-SIM models](#setup-for-single-sim-models).
+    Some models include a built-in 4G module with a single SIM card slot, such as the GL-E750 (Mudi). Please refer to [Setup for Single-SIM models](#setup-for-single-sim-models).
 
-2. **USB Modem compatible models**
-
-    Some models feature a USB port and support cellular connectivity via a USB modem, such as the GL-MT3000 (Beryl AX). The setup steps are similar to those of the built-in 4G single-SIM models. Please refer to [Setup for Single-SIM models](#setup-for-single-sim-models).
-
-3. **Built-in 5G Dual-SIM models**
+2. **Built-in 5G Dual-SIM models**
 
     Some models include a built-in 5G module with dual SIM card slots, such as the GL-X3000 (Spitz AX). The cellular settings in the web Admin Panel may differ slightly. Please refer to [Setup for Dual-SIM models](#setup-for-dual-sim-models).
+
+3. **USB Modem compatible models**
+
+    Some models do not have a built-in SIM card slot, but feature a USB port and support cellular connectivity via a USB modem, such as the GL-MT3000 (Beryl AX). Please refer to [Setup for USB modem](#setup-for-usb-modem).
 
 **Note:** Some SIM cards require activation before first use. To ensure compatibility, activate the SIM card in a smartphone before inserting it into the router.
 
 ## Setup for Single-SIM models
 
-The following steps apply to models with a built-in cellular modem and a single SIM card slot (e.g., GL-XE300 Puli), or a USB port for connecting an external USB modem (e.g., GL-MT3000 Beryl AX).
+The following steps apply to models with a built-in cellular modem and a single SIM card slot.
 
-Here we use the **GL-MT3000 (Beryl AX)** with the external 5G development board **GL-M2** as an example. Since the GL-M2 has a built-in module, the connection is managed via the router's Cellular interface. If you use a regular external USB modem, the connection will instead be managed through the router's Tethering interface.
+Here we use the **GL-E750 (Mudi)** as an example. 
 
-We recommend powering off the router first. Insert a pre-activated SIM card into the USB modem, then plug the modem into the router's USB port. After that, power on the router.
-
-If you plug the USB modem after the router has booted up, the web Admin Panel may not update automatically. In that case, please refresh the page to check for changes.
+We recommend you power off the router first, insert a pre-activated SIM into the slot, then power it on. If you insert the SIM card after the router has booted up, the web Admin Panel may not update automatically. In that case, please refresh the page or restart the router.
 
 ### Auto Setup
 
@@ -38,21 +36,19 @@ Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellula
 
 1. When no SIM card is inserted, the page displays a message "Your SIM card has not been detected".
 
-    ![single no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_no_sim.png){class="glboxshadow"}
+    ![single no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_no_sim.png){class="glboxshadow"}
 
 2. Insert a SIM card. The device will start connecting as shown below.
 
     ![single sim connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_connecting.png){class="glboxshadow"}
 
-    If it does not connect automatically, click the **Connect** button if available, or try [Manual Setup](#manual-setup).
+    If it does not connect automatically, click the **Connect** button if available.
 
-    **Note:** Some SIM cards may have special usage restrictions, such as requiring a custom APN. If your SIM card fails to register, please contact your carrier to check for special restrictions.
+    If the SIM card is not detected, try restarting the router to see if it can be detected.
     
 3. Once the cellular network is connected, the page will display the network details with a green dot, indicating a successful connection.
     
     ![single sim connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_connected.png){class="glboxshadow"}
-
-    **Note:** After initial setup, if you restart the router with the USB modem connected, or reinsert the modem, it will be recognized automatically, and the network connection will be established without clicking Connect again.
 
 If Auto Setup fails, please try [Manual Setup](#manual-setup-single-sim).
 
@@ -60,11 +56,15 @@ If Auto Setup fails, please try [Manual Setup](#manual-setup-single-sim).
 
 In the router's web Admin Panel, navigate to **INTERNET** -> **Cellular**, then click **SIM Card Settings**.
 
-![manual setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_manual_setup.png){class="glboxshadow"}
+![sim card settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_settings_1.png){class="glboxshadow"}
 
-You can view or modify the cellular settings of the current SIM card. Applying the changes will trigger a reconnection.
+You can view or modify the cellular settings of the current SIM card. 
 
-![single sim card settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_card_settings_1.png){class="glboxshadow"}
+**Note**: Some SIM cards may require a specific APN. If your SIM card fails to register, please contact your carrier to check for any restrictions. Configure the correct APN on your router if necessary. 
+
+Applying the changes will trigger a reconnection.
+
+![single sim card settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_settings_2.png){class="glboxshadow"}
 
 - **APN**: APN (Access Point Name) is a gateway parameter required for a cellular network connection. It allows the router to connect to the internet provided by your mobile carrier. You can use the default APN or set a custom APN provided by your carrier.
 
@@ -82,54 +82,17 @@ You can view or modify the cellular settings of the current SIM card. Applying t
 
 - **Band Masking**: You can enable Band Masking if you want the router to block certain bands or use only specific cellular bands. Click [here](#band-masking) for details.
 
-### Compatible Modems
-
-Here is a list of supported modems that we had tested before. 
-
-SIMPoYo uFi is a compact plug & play USB dongle with the Wi-Fi hotspot, designed for fast, reliable connectivity anywhere. It works seamlessly with most GL.iNet routers, as well as laptops, power banks, car USB ports, and other USB power sources. It comes with 10GB of free data for 30 days, valid in the UK, and 34 European countries. Click [here](https://www.gl-inet.com/campaign/simpoyo-ufi/) for details.
-
-| Model                                  | Cellular | Tested | Tested by       | Comments* |
-| -------------------------------------- | ----- | ------ | --------------- | --------- |
-| SIMPoYo 5G uFi                         | 5G    | Yes    | GL.iNet         |           |
-| SIMPoYo 4G uFi SP-N150C4               | 4G    | Yes    | GL.iNet         |           |
-| Quectel EC20-E, EC20-A, EC20-C         | 4G    | Yes    | GL.iNet         |           |
-| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Yes    | GL.iNet         |           |
-| Quectel EC200A series                  | 4G    | Yes    | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G    | Yes    | akw2312         |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G    | Yes    | akw2312         |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G    | Yes    | akw2312         |           |
-| Quectel RM520N-GL                      | 5G    | Yes    | akw2312         |           |
-| Quectel UC20-E                         | 3G    | Yes    | GL.iNet         |           |
-| ZTE ME909s-821                         | 4G    | Yes    | GL.iNet         |           |
-| Huawei E1550                           | 3G    | Yes    | GL.iNet         |           |
-| Huawei E3276                           | 4G    | Yes    | GL.iNet         |           |
-| Huawei E3372                           | 4G    | Yes    | anonymous       |           |
-| Huawei E3372h-320 (Ukraine)            | 4G    | Yes    | anonymous       | Host-less |
-| TP-Link MA260                          | 3G    | Yes    | GL.iNet         |           |
-| ZTE M823                               | 4G    | Yes    | Arnas Risqianto |           |
-| ZTE MF190                              | 3G    | Yes    | Arnas Risqianto |           |
-| Pantech UML290VW (Verizon)             | 4G    | Yes    | GL.iNet/steven  | QMI       |
-| Pantech UML295 (Verizon)               | 4G    | Yes    | GL.iNet/steven  | Host-less |
-| Novatel USB551L (Verizon)              | 4G    | Yes    | GL.iNet/steven  | QMI       |
-| Verizon U620L (Verizon)                | 4G    | Yes    | anonymous       | Host-less |
-
-**QMI**: This modem supports QMI mode. Please choose **/dev/cdc-wdm0** in the Device list.
-
-**Host-less**: This modem supports tethering mode. Please set up by using Tethering but not 3G/4G modem.
-
-You can also search on the [forum](https://forum.gl-inet.com){target="_blank"} or create a post for asking.
-
 ## Setup for Dual-SIM models
 
-The following steps apply to models with a built-in cellular modem that supports dual SIM cards (e.g., GL-X3000 Spitz AX). The web interface may differ slightly from single-SIM models.
+The following steps apply to models with a built-in cellular modem that supports dual SIM cards. The pages may differ slightly from single-SIM models.
 
 Here we use the **GL-X3000 (Spitz AX)** as an example. It supports Dual SIM, Single Standby, which means it can hold two SIM cards for cellular access, but only one SIM card can be active at a time. You can manually switch between the two SIM cards.
 
-We recommend powering off the router first. Insert your pre-activated SIM cards into the slots, then power on the router.
+We recommend you power off the router first, insert your pre-activated SIM card(s) into the slots, then power it on. If you insert the SIM card after the router has booted up, the web Admin Panel may not update automatically. In that case, please refresh the page or restart the router.
 
 ### Auto Setup
 
-Log in to the router's web Admin Panel, and navigate to **INTERNET** -> **Cellular**.
+Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellular**.
 
 1. When no SIM card is inserted, the page displays a message "Your SIM card has not been detected". 
 
@@ -139,7 +102,7 @@ Log in to the router's web Admin Panel, and navigate to **INTERNET** -> **Cellul
 
     ![cellular unconnected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/cellular_unconnected.png){class="glboxshadow"}
 
-    **Note**: Some SIM cards may have special usage restrictions, such as requiring a custom APN. If your SIM card fails to register, please contact your carrier to check for special restrictions.
+    If the SIM card is not detected, try restarting the router to see if it can be detected.
 
 3. Once the cellular network is connected, the page will display the network details with a green dot, indicating a successful connection.
 
@@ -159,7 +122,11 @@ In the router's web Admin Panel, navigate to **INTERNET** -> **Cellular**, then 
 
 ![sim card settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sim_card_settings_1.png){class="glboxshadow"}
 
-You can view or modify the cellular settings of the current SIM card. Applying the changes will trigger a reconnection.
+You can view or modify the cellular settings of the current SIM card. 
+
+**Note**: Some SIM cards may require a specific APN. If your SIM card fails to register, please contact your carrier to check for any restrictions. Configure the correct APN on your router if necessary. 
+
+Applying the changes will trigger a reconnection.
 
 ![sim card settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sim_card_settings_2.png){class="glboxshadow"}
 
@@ -214,6 +181,71 @@ If two SIM cards are inserted, you can enable **Auto Switch**.
     ![checking preferred slot status scheduled](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/check_preferred_slot_status.png){class="glboxshadow"}
 
 **Note**: The Auto Switch feature does not switch to another SIM card immediately. First, the device needs time to confirm that the current SIM cannot access the internet. Second, the other SIM is not in standby mode and requires time to activate.
+
+## Setup for USB modem
+
+The following steps apply to models without built-in SIM card slot, but has a USB port for connecting an external USB modem.
+
+Here we use the **GL-MT3000 (Beryl AX)** with an external USB modem **SIMPoYo uFi** as an example.
+
+We recommend you power off the router first, insert a pre-activated SIM into the USB modem, plug the modem into the router's USB port, then power on the router. If you plug the USB modem after the router has booted up, the web Admin Panel may not update automatically. In that case, please refresh the page or restart the router.
+
+### Quick Setup
+
+1. Power off the router first. Insert a SIM card into the USB modem, plug the modem into the router's USB port, then power on the router.
+
+2. Log in to the router's web Admin Panel, navigate to **INTERNET** -> **Tethering**, then click **Connect**.
+
+    ![usb modem 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/usb_modem_1.png){class="glboxshadow"}
+
+    If you need to set advanced settings (e.g., TTL, HL, and MTU), click **Advanced** to customize, then click **Connect**.
+
+    ![usb modem 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/usb_modem_2.png){class="glboxshadow"}
+
+    It will start connecting.
+
+    ![usb modem 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/usb_modem_3.png){class="glboxshadow"}
+
+3. Once connected, the page will display the network details with a green dot, indicating a successful connection.
+    
+    ![usb modem 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/usb_modem_4.png){class="glboxshadow"}
+
+    **Note:** After initial setup, if you restart the router with the USB modem plugged in, or replug the modem, it will be recognized automatically, and the network connection will be established without clicking the connect button again.
+
+### Compatible Modems
+
+Here is a list of supported modems that we had tested before. 
+
+**SIMPoYo uFi** is a compact plug & play USB dongle with the Wi-Fi hotspot, designed for fast, reliable connectivity anywhere. It works seamlessly with most GL.iNet routers, as well as laptops, power banks, car USB ports, and other USB power sources. It comes with 10GB of free data for 30 days, valid in the UK, and 34 European countries.
+
+| Model                                  | Cellular | Tested | Tested by       | Comments* |
+| -------------------------------------- | -------- | ------ | --------------- | --------- |
+| [SIMPoYo 5G uFi](https://www.gl-inet.com/campaign/simpoyo-5g-ufi/)                        | 5G    | Yes    | GL.iNet         |           |
+| [SIMPoYo 4G uFi (SP-N150C4)](https://www.gl-inet.com/campaign/simpoyo-ufi/)               | 4G    | Yes    | GL.iNet         |           |
+| Quectel EC20-E, EC20-A, EC20-C         | 4G       | Yes    | GL.iNet         |           |
+| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G       | Yes    | GL.iNet         |           |
+| Quectel EC200A series                  | 4G       | Yes    | akw2312         | Host-less |
+| Quectel EP06-E, EP06-A                 | 4G       | Yes    | akw2312         |           |
+| Quectel EM060K-GL, EM120K-GL           | 4G       | Yes    | akw2312         |           |
+| Quectel EM120R-GL, EM160R-GL           | 4G       | Yes    | akw2312         |           |
+| Quectel RM520N-GL                      | 5G       | Yes    | akw2312         |           |
+| Quectel UC20-E                         | 3G       | Yes    | GL.iNet         |           |
+| ZTE ME909s-821                         | 4G       | Yes    | GL.iNet         |           |
+| Huawei E1550                           | 3G       | Yes    | GL.iNet         |           |
+| Huawei E3276                           | 4G       | Yes    | GL.iNet         |           |
+| Huawei E3372                           | 4G       | Yes    | anonymous       |           |
+| Huawei E3372h-320 (Ukraine)            | 4G       | Yes    | anonymous       | Host-less |
+| TP-Link MA260                          | 3G       | Yes    | GL.iNet         |           |
+| ZTE M823                               | 4G       | Yes    | Arnas Risqianto |           |
+| ZTE MF190                              | 3G       | Yes    | Arnas Risqianto |           |
+| Pantech UML290VW (Verizon)             | 4G       | Yes    | GL.iNet/steven  | QMI       |
+| Pantech UML295 (Verizon)               | 4G       | Yes    | GL.iNet/steven  | Host-less |
+| Novatel USB551L (Verizon)              | 4G       | Yes    | GL.iNet/steven  | QMI       |
+| Verizon U620L (Verizon)                | 4G       | Yes    | anonymous       | Host-less |
+
+- **QMI**: This modem supports QMI mode. Please select QMI as the cellular communication protocol, and **/dev/cdc-wdm0** as the serial port in the SIM card settings.
+
+- **Host-less**: This modem supports Tethering mode. Please manage the connection via the router's Tethering interface rather than the Cellular interface.
 
 ## Traffic Statistics
 
@@ -271,9 +303,9 @@ You can enable Band Masking if you want the router to block certain bands or use
 
 In the router's web Admin Panel, navigate to **INTERNET** -> **Cellular** -> **SIM Card Settings**, toggle on **Enable Band Masking**.
 
-![single sim card settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_card_settings_2.png){class="glboxshadow"}
+![single sim band masking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/single_sim_band_masking.png){class="glboxshadow"}
 
-Select the **Masking Mode** between Block mode and Open mode, then select the LTE bands, 5G NSA Bands and 5G SA Bands.
+Select the **Masking Mode** (Block or Open), then select the LTE Bands, 5G NSA Bands, and 5G SA Bands.
 
 ## SMS
 
@@ -329,7 +361,7 @@ There are three locking modes:
 - **Manual**: Manually lock onto a specific operator.
 - **Manual-Auto**: Automatically switch to an available operator network if the manual lock fails.
 
-![lock operatpr 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_operator_1.png){class="glboxshadow"}
+![lock operator 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/lock_operator_1.png){class="glboxshadow"}
 
 ## Modem AT Command
 
@@ -367,17 +399,73 @@ In the bottom right corner, you can click **Export Debug Info** to download a .j
 
 ![AT command 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_4.png){class="glboxshadow"}
 
-## Caution
+## Troubleshooting
 
-If the cellular network is unavailable, a yellow caution message may appear at the top of the Cellular section, reminding you to check network settings or connections.
+If you fail to set up a cellular connection, click the error message below for relevant solutions.
 
-**The interface is connected, but the Internet can't be accessed.**
+??? note "No SIM / Your SIM card has not been detected"
 
-![connected but no internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/connected_no_internet.png){class="glboxshadow"}
+    ![no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/1.no_sim.png){class="glboxshadow"}
 
-Please verify that the SIM card can access the internet normally in a smartphone and has an active mobile data plan.
+    Here are some suggestions for troubleshooting.
+    
+    1. Refresh the page and wait a few minutes to check if the SIM card can be detected.
+    
+    2. Ensure the SIM card is installed correctly. Align the notch on the SIM card with the corresponding mark on the card slot to confirm proper insertion orientation.
+    
+    3. Power off the router, remove and reinsert the SIM card, then power the router back on.
+    
+    4. Try using another SIM card if available.
 
-If the issue persists, download the logs and send them to [support@gl-inet.com](mailto:support@gl-inet.com).
+    If the issue persists, download the logs and send them to [support@gl-inet.com](mailto:support@gl-inet.com).
+
+??? note "SIM card not registered / The interface is connected, but the Internet can't be accessed"
+
+    This issue has two types of error messages:
+
+    - SIM card not registered
+
+        ![sim not registered](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/2.sim_not_registered.png){class="glboxshadow"}
+
+    - The interface is connected, but the Internet can't be accessed
+    
+        ![connected no internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.connected_no_internet.png){class="glboxshadow"}
+
+    Here are some suggestions for troubleshooting.
+
+    1. Refresh the page and wait a few minutes to check if the error disappears.
+    
+    2. Click **Disconnect**/**Abort**, then click **Connect** to try reconnecting.
+    
+    3. Restart the router.
+    
+    4. Verify the SIM card status and ensure it is activated. Test the SIM card by inserting it into a smartphone to confirm it can access the internet normally with an active mobile data plan, or contact your network carrier for verification.
+    
+    5. Some network carriers may require a 3G protocol for network connection. Please go to **SIM Card Settings** -> **Protocol**, select **3G**, then click **Apply**.
+
+        ![sim protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.sim_protocol.png){class="glboxshadow gl-80-desktop"}
+
+        The device will reconnect automatically. Wait a few minutes to check if the connection is successful.
+
+        ![connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.connecting.png){class="glboxshadow"}
+
+        If the connection is successful, the page will display as follows.
+
+        ![connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.connected.png){class="glboxshadow"}
+    
+    6. Some SIM cards may have special usage restrictions (e.g., requiring a specific APN). If your SIM card fails to register, contact your carrier to check for any restrictions. 
+    
+        If necessary, go to **SIM Card Settings** -> **APN**, configure the correct APN on the router, then click **Apply**.
+
+        ![sim apn](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.sim_apn.png){class="glboxshadow gl-80-desktop"}
+    
+    7. Click **View More Information** to check the cellular signal strength. If the signal is weak, ensure the antenna is installed correctly. Move the router to an open and unobstructed location for better signal reception.
+
+        ![cells signal](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.cells_signal.png){class="glboxshadow gl-80-desktop"}
+    
+    8. Check if **Band Masking** or **Lock Tower** is enabled. If so, disable the feature and try reconnecting.
+
+    If the issue persists, download the logs and send them to [support@gl-inet.com](mailto:support@gl-inet.com).
 
 ## IoT Certification
 

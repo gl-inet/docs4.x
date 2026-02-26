@@ -261,7 +261,7 @@ If the Data Used exceeds the Data Cap Amount, please modify the **Data Cap Amoun
 
 - **Modify the Data Used**
 
-    Click on **Modify** on the right side of SIM 1/2 Data Used. 
+    Click **Modify** on the right side of SIM 1/2 Data Used. 
 
     ![traffic statistics 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/traffic_statistics_2.jpg){class="glboxshadow"}
 
@@ -287,19 +287,19 @@ In the router's web Admin Panel, navigate to **INTERNET** -> **Cellular**, then 
 
 ![historical signal record](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/historical_signal_record_0.png){class="glboxshadow"}
 
-Checking your router's signal strength can help you determine the quality of your Internet connection. If the quality of your internet connection is poor, you can try switching to get a better signal.
+You can check the quality of your cellular connection here. If the signal is weak, try switching towers for a better signal.
 
 ![historical signal record 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/historical_signal_record_1.png){class="glboxshadow"}
 
 ![historical signal record 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/historical_signal_record_2.png){class="glboxshadow"}
 
-You can view the Cellular signal strength history by selecting different time frames in the upper right.
+View the signal strength history by selecting different time frames in the upper-right corner.
 
 ![historical signal record 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/historical_signal_record_3.png){class="glboxshadow"}
 
 ## Band Masking
 
-You can enable Band Masking if you want the router to block certain bands or use only specific cellular bands.
+Band Masking allows you to block specific bands or use only preferred cellular bands to improve weak cellular signal.
 
 In the router's web Admin Panel, navigate to **INTERNET** -> **Cellular** -> **SIM Card Settings**, toggle on **Enable Band Masking**.
 
@@ -403,11 +403,11 @@ In the bottom right corner, you can click **Export Debug Info** to download a .j
 
 ## Troubleshooting
 
-If you fail to set up a cellular connection, click the error message below for relevant solutions.
+If you fail to establish a cellular connection, click the error message below for relevant solutions.
 
 ??? note "No SIM / Your SIM card has not been detected"
 
-    ![no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/1.no_sim.png){class="glboxshadow"}
+    ![no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/no_sim.png){class="glboxshadow"}
 
     Here are some suggestions for troubleshooting.
     
@@ -427,11 +427,11 @@ If you fail to set up a cellular connection, click the error message below for r
 
     - SIM card not registered
 
-        ![sim not registered](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/2.sim_not_registered.png){class="glboxshadow"}
+        ![sim not registered](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_not_registered.png){class="glboxshadow"}
 
     - The interface is connected, but the Internet can't be accessed
     
-        ![connected no internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.connected_no_internet.png){class="glboxshadow"}
+        ![connected no internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/connected_no_internet.png){class="glboxshadow"}
 
     Here are some suggestions for troubleshooting.
 
@@ -445,25 +445,25 @@ If you fail to set up a cellular connection, click the error message below for r
     
     5. Some network carriers may require a 3G protocol for network connection. Please go to **SIM Card Settings** -> **Protocol**, select **3G**, then click **Apply**.
 
-        ![sim protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.sim_protocol.png){class="glboxshadow gl-80-desktop"}
+        ![sim protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-80-desktop"}
 
         The device will reconnect automatically. Wait a few minutes to check if the connection is successful.
 
-        ![connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.connecting.png){class="glboxshadow"}
+        ![connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/connecting.png){class="glboxshadow"}
 
         If the connection is successful, the page will display as follows.
 
-        ![connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.connected.png){class="glboxshadow"}
+        ![connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/connected.png){class="glboxshadow"}
     
     6. Some SIM cards may have special usage restrictions (e.g., requiring a specific APN). If your SIM card fails to register, contact your carrier to check for any restrictions. 
     
         If necessary, go to **SIM Card Settings** -> **APN**, configure the correct APN on the router, then click **Apply**.
 
-        ![sim apn](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.sim_apn.png){class="glboxshadow gl-80-desktop"}
+        ![sim apn](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_apn.png){class="glboxshadow gl-80-desktop"}
     
     7. Click **View More Information** to check the cellular signal strength. If the signal is weak, ensure the antenna is installed correctly. Move the router to an open and unobstructed location for better signal reception.
 
-        ![cells signal](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/3.cells_signal.png){class="glboxshadow gl-80-desktop"}
+        ![cells signal](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/cells_info.png){class="glboxshadow gl-80-desktop"}
     
     8. Check if **Band Masking** or **Lock Tower** is enabled. If so, disable the feature and try reconnecting.
 

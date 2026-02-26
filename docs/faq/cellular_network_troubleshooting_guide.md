@@ -1,70 +1,89 @@
 # Cellular Network Troubleshooting Guide
 
-**If you fail to connect, please check whether the following issues exist.**
+If you cannot establish a cellular connection, please check for the following issues.
 
-??? "Please check device hardware"
+??? "Check device hardware"
 
-    **1.1** Please use the device's standard power adapter. Non-standard power adapters may cause insufficient power supply.
+    **1.1** Use a standard power adapter for your device. Non-standard power adapters may cause insufficient power supply.
     
-    **1.2** Please confirm that you can find the modem name, IMEI number and SIM ICCID on the web. 
-    
-    If you cannot find them, please power off/on the device. If the modem name and IMEI number still cannot be recognized, please contact our customer service to return the device.
-    
-    **1.3** Please check the signal Cells info to confirm that the signal is normal. If the signal is very poor, please confirm that the antennas have been installed correctly, or move the router to the position with good signal for testing.
-    
-    **1.4** If your GL.iNet cellular router is an LTE device, please check if the frequency band of the device purchased is suitable for your area.
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/1.png){class="glboxshadow"}
+    **1.2** Make sure the **Modem name**, **IMEI** and **SIM ICCID** are displayed on the web Admin Panel.
 
-??? "Please check device software config"
+    ![modem name](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/no_sim.png){class="glboxshadow"}
+    
+    For firmware ver.4.8 and later, click **View More Information** to find the SIM ICCID.
 
-    **2.1** Please log in to the Web interface and confirm that the cellular connection program has been started. You can also try to click Abort and Auto Setup again.
+    If you cannot find them, restart your router. If the modem name and IMEI still cannot be recognized, please contact us at [support@gl-inet.com](mailto:support@gl-inet.com).
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/2.png){class="glboxshadow}
-    
-    **2.2** Some carriers need to use the 3G protocol to connect to the network. Please select the 3G protocol in the Manual Setup on the web page and click Apply for a try.
-    
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/3.png){class="glboxshadow}
-    
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/4.png){class="glboxshadow}
-    
-    **2.3** Some SIM cards require a specific APN. Please make sure the correct APN is set on the device.
-    
-    **2.4** Lock frequency band for testing. For firmware prior to v4.8, refer to [this link](../interface_guide/internet_cellular_v4.7.md/#band-masking) to try Band Masking. For firmware v4.8 or higher, refer to [this link](../interface_guide/internet_cellular.md).
+    **1.3** Click **View More** to check the **Cells Info** and confirm that the signal is stable. If the signal is very weak, ensure the antennas are installed correctly, or move the router to an area with good signal and test again.
 
-    **2.5** Lock or unlock a signal tower for testing. This feature is supported by GL-X3000, GL-XE3000 and GL-X2000. Click [here](../interface_guide/internet_cellular.md/#lock-tower) for more instructions about tower locking.
+    ![cells info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/cells_info.png){class="glboxshadow"}
     
-    Locking to a signal tower may enable the router to connect to high-quality network resources, ensuring stable cellular connectivity. 
-    
-    However, after locking a signal tower, if the router is moved to another location, it will still attempt to reconnect to the locked tower after booting up. This may consequently prevent the router from connecting to the cellular network automatically at the new location. In this case, you need to either unlock the current signal tower via the router's web admin panel, or manually lock it to a new tower.
+    **1.4** Click **View More** to check if the frequency band supported by your device is compatible with your region.
 
-??? "Please check the SIM card and device compatibility"
+    ![frequency band](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/frequency_band.png){class="glboxshadow"}
 
-    Among the following measures, if you need to consult the operator, please record the IMEI of the device and the ICCID of the SIM card and inform the operator's customer service, and clearly inform the operator that you are using a router device.
-    
-    **3.1** Please confirm the SIM type. GL.iNet cellular device is certified based on IOT type devices. In theory, the device can only use IOT type SIM cards. If you are not sure about the card type, please consult the operator.
-    
-    Common SIM types are: data only, data only + voice, IOT, Hotspot. It is recommended to use IOT and Hotspot type SIM card. We are not sure if a SIM card with data only or data only + voice can definitely be used.
-    
-    **3.2** Some SIM cards need to be activated on a mobile phone. Ensure that when the SIM card is inserted into a mobile phone, the phone can connect to the internet. Then insert the SIM card into the router for use.
-    
-    **3.3** Some customized cards can only be used on mobile phones or specific devices. Please confirm if the SIM must be bound to a specific device for use.
-    
-    **3.4** In some states or cities in the United States (such as AT&T Seattle), you may need to upload the IMEI to the operator's server.
-    
-    **3.5** If your router displays "SIM Card Not Registered", please try all the above methods first.
+??? "Check software settings"
 
-    We recommend powering off the router first, inserting the SIM card into the slot, and restarting it. Some models may fail to recognize the SIM card if inserted after booting, as hot swapping is unsupported.
+    **2.1** Log in to the web Admin Panel and ensure the cellular connection program has been started. You can also click **Abort** and then click **Connect**.
+    
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/2.png){class="glboxshadow gl-90-desktop"}
+    
+    **2.2** Some network carriers may require the **3G protocol** to connect. Switch to 3G protocol and test again.
 
-    Ensure all antennas are correctly and securely attached, then test the device in an outdoor location with strong cellular signal. Weak signal conditions may prevent SIM cards from registering with the network.
+    For firmware ver.4.7 and earlier, go to **Manual Setup** -> **Protocol**, select **3G**, then click **Apply**.
     
-    If the problem persists, it is likely that the SIM cannot be used with the router. Please consult the operator's customer service for details. 
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/3.png){class="glboxshadow gl-90-desktop"}
     
-    If the operator confirms that it's not the SIM card issue, kindly contact GL.iNet support.
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/4.png){class="glboxshadow gl-90-desktop"}
+
+    For firmware ver.4.8 and later, go to **SIM Card Settings** -> **Protocol**, select **3G**, then click **Apply**.
+
+    ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
+
+    The device will reconnect automatically. Wait a few minutes to check if the connection is successful.
+
+    **2.3** Some SIM cards require a specific APN. If your SIM card fails to register, contact your carrier to check for any restrictions. Configure the correct APN on your router if necessary, then click **Apply**.
+
+    ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **3.6** If the SIM card can be registered and the IP address can be obtained, but the device cannot connect to the Internet (only data can be uploaded but not downloaded), it is most likely that it has been banned by the operator's backend. You need to ask the operator to lift the restriction, or try setting TTL to 65 for testing. Please refer to the pictures below.
+    **2.4** Enable **Band Maksing** and test again. For firmware ver.4.7 and earlier, refer to [this link](../interface_guide/internet_cellular_v4.7.md/#band-masking). For firmware ver.4.8 and later, refer to [this link](../interface_guide/internet_cellular.md/#band-masking.md).
+
+    **2.5** Lock or unlock a signal tower and test again. This feature is available only on GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) and GL-X2000 (Spitz Plus). Click [here](../interface_guide/internet_cellular.md/#lock-tower) for more instructions.
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/5.png){class="glboxshadow}
+    Locking to a specific signal tower allows the router to access a high-quality network resource and maintain stable cellular connectivity.
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/6.png){class="glboxshadow}
+    However, once a tower is locked, the router will keep trying to reconnect to it after rebooting even if moved to a new location. This may prevent the router from connecting to the cellular network automatically. If this happens, you can either unlock the current tower via the router's web admin panel or manually lock it to a new tower.
+
+    **Note:** The locked tower must match the frequency bands supported by your carrier and device; otherwise, the connection may fail.
+
+??? "Check SIM compatibility"
     
-If none of the above measures solve the problem, you can try sending an email to [support@glinet.biz](mailto:support@glinet.biz) and contact our technical support staff for support.
+    **3.1** Confirm the SIM type. GL.iNet cellular routers are certified as IoT devices. In theory, the device supports only IoT‑type SIM cards. If you are unsure about the SIM type, please contact your carrier.
+    
+    Common SIM types include: data‑only, data‑only + voice, IoT, and hotspot. We recommend using IoT or hotspot SIM cards. Data-only or data-only + voice SIM cards are not guaranteed to work.
+    
+    **3.2** Some SIM cards must first be activated. Make sure the SIM card can access the Internet when inserted into a phone, then move it to the router.
+    
+    **3.3** Some customized SIM cards can only be used on mobile phones or specific devices. Please confirm whether the SIM card is locked to a particular device.
+    
+    **3.4** In some states or cities in the United States (e.g., AT&T in Seattle), you may need to register the device IMEI with your carrier. If you are unsure about the registration, please contact your carrier.
+    
+    **3.5** If the web Admin Panel shows "SIM card not registered", try the steps above first.
+
+    We recommend you power off the router, insert the SIM card, then restart the router. Some models do not support hot swapping and may fail to detect the SIM card if inserted while powered on.
+
+    Make sure all antennas are properly installed, then test again in an outdoor area with strong cellular signal. Weak signal may prevent the SIM card from registering on the network.
+
+    If the problem persists, the SIM card may be incompatible with the router. Contact your network carrier for further assistance.
+
+    If your carrier confirms the issue is not related to the SIM card, please contact our support team at [support@gl-inet.com](mailto:support@gl-inet.com).
+
+    **3.6** If the SIM card can register and obtain an IP address but cannot access the Internet (upload works but download does not), the SIM card is most likely restricted by your network carrier. Contact your carrier to remove the restriction, or set TTL to 65 and test again as shown below.
+    
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/5.png){class="glboxshadow gl-90-desktop"}
+    
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/6.png){class="glboxshadow gl-90-desktop"}
+
+    When contacting your network carrier, please provide your device modem name, IMEI, SIM ICCID, and router model.
+    
+If none of the above solves the problem, please contact our support team at [support@gl-inet.com](mailto:support@gl-inet.com).

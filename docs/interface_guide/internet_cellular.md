@@ -319,9 +319,9 @@ Please refer to the [SMS Forwarding tutorial](../tutorials/sms_forwarding.md).
 
 This feature is available only on GL-X3000, GL-XE3000, and GL-X2000 (firmware ver.4.7 or later).
 
-If you want to receive high-quality signal sources to ensure stable cellular connection, you can try locking tower.
+If you want to receive a high-quality signal and ensure a stable cellular connection, you can try locking tower.
 
-**Note:** Locking onto a base station requires matching the carrier and the device's supported frequency bands; otherwise, it may affect dialing. Please confirm the base station information to avoid potential issues.
+**Note:** The locked tower must match the frequency bands supported by your carrier and device; otherwise, the connection may fail.
 
 In the router's web Admin Panel, navigate to **INTERNET** -> **Cellular**. Click the three-dot icon in the upper right, then select **Lock Tower**.
 
@@ -341,9 +341,11 @@ Click a tower to view the details and lock onto it.
 
 **Note**: 
 
-1. If the locked tower does not match the band locking or APN parameters in your cellular settings, the router will not be able to connect to the cellular network.
+1. The device may not be able to scan all towers when the Cellular interface is enabled.
 
-2. After locking a cell tower, if you move the router to another location, it will still attempt to reconnect to the locked tower after rebooting. This may prevent the router from connecting to the cellular network automatically at the new location. In this case, you need to either unlock the current cell tower, or manually lock it to a new tower.
+2. If the locked tower does not match the band masking or APN parameters in your cellular settings, the router will not be able to connect to the cellular network.
+
+3. After locking a cell tower, if you move the router to another location, it will still attempt to reconnect to the locked tower after rebooting. This may prevent the router from connecting to the cellular network automatically at the new location. In this case, you need to either unlock the current cell tower, or manually lock it to a new tower.
 
 ## Lock Operator
 

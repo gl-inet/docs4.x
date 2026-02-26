@@ -1,15 +1,16 @@
 # How to set up OpenVPN server on GL.iNet routers
 
-This tutorial will show you **how to set up an OpenVPN server on GL.iNet routers**. A VPN server allows you to establish a secure connection to your home or office network remotely. With a GL.iNet router, you can set up your OpenVPN server in minutes. 
+This tutorial will show you how to set up an OpenVPN server on GL.iNet routers. A VPN server allows you to establish a secure connection to your home or office network remotely. With a GL.iNet router, you can set up an OpenVPN server in a few minutes.
 
-!!! note "Before you start, make sure to check the following requirements:"
-    **A public IP address**
+!!! note "Before you start, make sure you meet the following requirements"
+    
+    **Public IP address**
 
-    Setting up an OpenVPN server requires a public IP address. To check if you have one, follow [these steps](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/).
+    Setting up an OpenVPN server requires a public IP address. To check if you have one, refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/).
 
     **Port forwarding**
 
-    If your GL.iNet router is connected to a primary router, you will have to [set up port forwarding on the primary router](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/).
+    If your GL.iNet router is connected behind a primary router, [set up port forwarding on the primary router](https://docs.gl-inet.com/router/en/4/tutorials/how_to_set_up_port_forwarding/).
 
 ## 1. Log in to your router
 

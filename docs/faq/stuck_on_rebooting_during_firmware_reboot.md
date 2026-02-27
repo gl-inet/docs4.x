@@ -1,6 +1,6 @@
-# Stuck on "Rebooting" during firmware update
+# Stuck on "Rebooting" during firmware reboot
 
-If your router is stuck on "Rebooting" during a firmware update, follow the steps below to resolve the issue.
+If your router is stuck on "Rebooting" during a firmware reboot, follow the steps below to resolve the issue.
 
 ![stuck on rebooting](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_rebooting/rebooting.png){class="glboxshadow"}
 

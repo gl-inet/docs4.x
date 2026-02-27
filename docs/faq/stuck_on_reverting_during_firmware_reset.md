@@ -1,6 +1,6 @@
-# Stuck on "Reverting" during firmware update
+# Stuck on "Reverting" during firmware reset
 
-If your router is stuck on "Reverting" during a firmware update, follow the steps below to resolve the issue.
+If your router is stuck on "Reverting" during a firmware reset, follow the steps below to resolve the issue.
 
 ![stuck on reverting](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_reverting/reverting.png){class="glboxshadow"}
 

@@ -178,9 +178,9 @@ nav:
       - What should I do if my router is bricked: faq/debrick.md
       - MacOS cannot write to a Samba share: faq/macos_cannot_write_samba.md
       - WireGuard server is not working properly: faq/my_wireguard_server_is_not_working.md
-      - Stuck on "Installing" during firmware update: faq/stuck_on_installing_screen.md
-      - Stuck on "Reverting" during firmware update: faq/stuck_on_reverting_screen.md
-      - Stuck on "Rebooting" during firmware update: faq/stuck_on_rebooting_screen.md
+      - Stuck on "Installing" during firmware update: faq/stuck_on_installing_during_firmware_update.md
+      - Stuck on "Reverting" during firmware reset: faq/stuck_on_reverting_during_firmware_reset.md
+      - Stuck on "Rebooting" during firmware reboot: faq/stuck_on_rebooting_during_firmware_reboot.md
       - How to resolve a subnet conflict: faq/how_to_resolve_a_subnet_conflict.md
       - Why do I get a message from DDNS test: faq/why_do_I_get_a_message_from_ddns_test.md
       - Why is my VPN speed slower than expected: faq/why_is_my_vpn_speed_slow.md

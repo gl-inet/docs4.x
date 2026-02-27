@@ -10,7 +10,7 @@ Learn how to use our devices and how to solve some common problems.
 
 For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet.com/kvm/en/).
 
-## Internet Connection:
+## Network Connection
 
 * [First time setup](first_time_setup.md)
 * [Warning from your browser](warning_from_your_browser_during_setup.md)
@@ -35,9 +35,9 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 * [What should I do if my router is bricked?](debrick.md)
 * [MacOS cannot write to a Samba share](macos_cannot_write_samba.md)
 * [WireGuard server is not working properly](my_wireguard_server_is_not_working.md)
-* [Stuck on the "Installing" screen during firmware update](stuck_on_installing_screen.md)
-* [Stuck on the "Reverting" screen during firmware reset](stuck_on_reverting_screen.md)
-* [Stuck on the "Rebooting" screen during firmware reboot](stuck_on_rebooting_screen.md)
+* [Stuck on "Installing" during firmware update](stuck_on_installing_screen.md)
+* [Stuck on "Reverting" during firmware update](stuck_on_reverting_screen.md)
+* [Stuck on "Rebooting" during firmware update](stuck_on_rebooting_screen.md)
 * [How to resolve a subnet conflict?](how_to_resolve_a_subnet_conflict.md)
 * [Why do I get a message from DDNS test?](why_do_I_get_a_message_from_ddns_test.md)
 * [Why is my VPN speed slower than expected?](why_is_my_vpn_speed_slow.md)

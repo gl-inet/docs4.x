@@ -46,7 +46,7 @@ If you cannot establish a cellular connection, please check for the following is
 
     ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** Enable **Band Maksing** and test again. For firmware ver.4.7 and earlier, refer to [this link](../interface_guide/internet_cellular_v4.7.md/#band-masking). For firmware ver.4.8 and later, refer to [this link](../interface_guide/internet_cellular.md/#band-masking.md).
+    **2.4** Enable **Band Maksing** and test again. For firmware ver.4.7 and earlier, refer to [this link](../interface_guide/internet_cellular_v4.7.md/#band-masking). For firmware ver.4.8 and later, refer to [this link](../interface_guide/internet_cellular.md/#band-masking).
 
     **2.5** Lock or unlock a signal tower and test again. This feature is available only on GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) and GL-X2000 (Spitz Plus). Click [here](../interface_guide/internet_cellular.md/#lock-tower) for more instructions.
     

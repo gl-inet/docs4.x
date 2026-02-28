@@ -45,7 +45,9 @@ The local version is provided by GL.iNet. It is currently in beta and has no add
 
 ### Setup
 
-Log in to the router's web admin panel, and navigate to **APPLICATIONS** -> **Parental Control**. 
+Log in to the router's web admin panel and navigate to **APPLICATIONS** -> **Parental Control**. 
+
+For firmware ver.4.8.4 and later, navigate to **Flow Control** -> **Parental Control**.
 
 Ensure the router time is accurate. If not, go to **SYSTEM** -> **Time Zone** to synchronize it first.
 

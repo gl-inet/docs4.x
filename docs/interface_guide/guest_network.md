@@ -1,6 +1,6 @@
 # Guest Network
 
-The guest network settings have been separated from the [LAN](lan.md) since v4.5.
+The guest network settings have been separated from [LAN](lan.md) since firmware v4.5.
 
 On the left side of web Admin Panel -> NETWORK -> Guest Network. 
 

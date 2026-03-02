@@ -10,7 +10,7 @@ On the left side of web Admin Panel -> SYSTEM -> Upgrade, you can upgrade the ro
 
 ### Online Upgrade
 
-You can find the current firmware version here. If your router is connected to the Internet, it will check for the newer firmware version available for download.
+You can find the current firmware version here.
 
 ![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
@@ -18,13 +18,15 @@ You can find the current firmware version here. If your router is connected to t
 
     If this option is enabled, you can try new features before the final version is issued and provide us with feedback. Set it once and it stays on, and you always have the option to turn it off. Note that these upgrades may not be stable. Please check [What's New?](https://www.gl-inet.com/whats-new/){target="_blank"} for the latest firmware features.
 
-- **Online Download Failed**
+If your router is connected to the Internet, it will check for available firmware updates.
 
-    When trying to perform an online upgrade, if it displays **Download Failed**, please navigate to System -> Time Zone, and fix the time zone error (sync to browser).
+![upgrade reminder](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/upgrade_reminder.png){class="glboxshadow"}
 
-    ![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow gl-50-desktop"}
-    
-    Please contact us at [support@glinet.biz](mailto:support@glinet.biz) if you encounter any other issues.
+**Note**: When trying to perform an online upgrade, if it displays **Download Failed**, please navigate to System -> Time Zone, and fix the time zone error (sync to browser).
+
+![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow gl-50-desktop"}
+
+![time zone](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 
 ### Local Upgrade
 

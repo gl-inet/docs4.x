@@ -76,11 +76,11 @@ When joining the network, there are some additional options.
 
 ![advanced settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_advanced_settings.png){class="glboxshadow"}
 
-* **Remember**: Enable this to remember the current repeated Wi-Fi network. This is available in firmware v4.7 and later.
+* **Remember**: Enable this to remember the current repeated Wi-Fi network.
 
-* **Lock BSSID**: If this option is enabled, the router will only connect to the AP corresponding to the BSSID you selected when switching to a network using this SSID.
+* **Lock BSSID**: When enabled, the router will connect only to the specific access point (AP) corresponding to the selected BSSID, even when other APs share the same SSID.
 
-* **Manually set static IP**: This is available in firmware v4.7 and later.
+* **Manually Set Static IP**: When enabled, you can manually configure a fixed IPv4 address, netmask, gateway, and DNS servers for the router's repeater connection, instead of obtaining these settings automatically.
 
     ![set static ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/manually_set_static_ip.png){class="glboxshadow"}
 

@@ -1,12 +1,10 @@
 # Set Up OpenVPN Server on GL.iNet Routers
 
+OpenVPN is an open‑source VPN protocol that uses virtual private network techniques to establish secure site‑to‑site or point‑to‑point connections.
+
+To set up OpenVPN server on a GL.iNet router, watch this video or refer to the steps below.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GSbytyaqOY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-OpenVPN is an open-source VPN protocol that makes use of virtual private network (VPN) techniques to establish safe site-to-site or point-to-point connections. 
-
-We recommend WireGuard over OpenVPN because it is much faster. For setting up a WireGuard Server, please check [here](wireguard_server.md).
-
----
 
 ## Make sure you have a public IP address
 

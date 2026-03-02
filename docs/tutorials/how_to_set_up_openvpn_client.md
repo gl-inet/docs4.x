@@ -1,10 +1,16 @@
 # How to set up OpenVPN client on GL.iNet routers
 
-This tutorial will show you **how to set up an OpenVPN client on GL.iNet routers**. 
+This tutorial will show you how to set up an OpenVPN client on GL.iNet routers. 
 
-Before you start, ensure you have an active subscription with a VPN service provider that supports OpenVPN manual configuration. [See a list of OpenVPN-compatible VPNs that are supported by GL.iNet](https://www.gl-inet.com/solutions/vpn/). 
+Watch this video or refer to the steps below.
 
-The following instructions guide you through setting up an OpenVPN client via the router admin panel. (To set up an OpenVPN client via the GL.iNet mobile app, [download the app](https://www.gl-inet.com/app/) and set it up.)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/04sW3l6_rDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+Before you start, ensure you have an active subscription with a VPN service provider that supports OpenVPN manual configuration. Click [here](https://www.gl-inet.com/solutions/vpn/){target="_blank"} to check the OpenVPN providers compatible with GL.iNet.
+
+Below are steps to set up an OpenVPN client via the router's web admin panel.
 
 ## 1. Log in to your router
 

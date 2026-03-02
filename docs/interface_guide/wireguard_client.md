@@ -1,22 +1,28 @@
-# How to Set Up WireGuard Client on GL.iNet Router
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIRcjB9k62A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# Set Up WireGuard Client on GL.iNet Routers
 
 !!! note
 
-    This guide is for firmware v4.7 and above. If you are using an earlier firmware version, please visit [here](wireguard_client_v4.6.md).
+    This guide is for firmware ver.4.7 and later. If you are using an earlier firmware, please visit [here](wireguard_client_v4.6.md).
 
-WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
+WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 
-If you have subscribed to the WireGuard service from a provider but don't know how to get the configuration files, please refer to [Get Configuration Files from WireGuard Service Providers](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or contact their support.
+To set up WireGuard client on a GL.iNet router, watch this video or refer to the steps below.
 
-You can set up WireGuard Client via the web Admin Panel or [mobile app](../faq/mobile_app.md). 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIRcjB9k62A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**The mobile app** integrates some WireGuard service providers, such as AzireVPN, Mullvad VPN, OVPN, StrongVPN, PIA VPN, etc., which means you can easily set it up by simply entering the login credentials of the WireGuard service you subscribed to. Open the app and follow the on-screen instructions to set up.
+---
 
-**The web Admin Panel** not only integrates some WireGuard service providers, but also provides an entry for manual configuration. You can either enter the credentials of your subscribed WireGuard service for quick setup, or manually upload a configuration file to complete the setup.
+Before you start, ensure you have an active subscription with a VPN service provider that supports WireGuard manual configuration. Click [here](https://www.gl-inet.com/solutions/vpn/){target="_blank"} to check the WireGuard providers compatible with GL.iNet.
 
-Select the corresponding WireGuard service provider below to quickly locate the step-by-step instructions.
+Generally, you need to visit the official website of the VPN service provider you subscribed first, obtain the configuration file, and upload it to the router to set it as a WireGuard client. If you don't know how to get the configuration file, refer to [this link](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or contact their support.
+
+You can set up a WireGuard client via the web Admin Panel or [mobile app](../faq/mobile_app.md). 
+
+- **The mobile app** integrates some WireGuard service providers, such as AzireVPN, Mullvad VPN, OVPN, StrongVPN, PIA VPN, etc., which means you can easily set it up by simply entering the login credentials of the WireGuard service you subscribed to. Open the app and follow the on-screen instructions to set up.
+
+- **The web Admin Panel** not only integrates some WireGuard service providers, but also provides an entry for manual configuration. You can either enter the credentials of your subscribed WireGuard service for quick setup, or manually upload a configuration file to complete the setup.
+
+Below are steps to set up via the web admin panel. Select the corresponding WireGuard service provider below to quickly locate the step-by-step instructions.
 
 * [Set Up AzireVPN](#set-up-azirevpn)
 * [Set Up Hide.me](#set-up-hideme)

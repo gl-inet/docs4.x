@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - feature/github-actions-deploy
   workflow_dispatch:
 
 jobs:

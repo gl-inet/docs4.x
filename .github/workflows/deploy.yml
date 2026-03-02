@@ -1,0 +1,52 @@
+# Build and Deploy Docs - Testing GitHub Actions
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout docs4.x
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10.4'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Build docs
+        run: mkdocs build
+
+      - name: Checkout docs-build
+        uses: actions/checkout@v4
+        with:
+          repository: gl-inet/docs-build
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          path: docs-build
+          clean: true
+
+      - name: Deploy English to docs-build
+        run: |
+          cp -r site/* docs-build/router/en/4/
+
+      - name: Commit and Push to docs-build
+        working-directory: ./docs-build
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if [ -n "$(git diff --cached --name-only)" ]; then
+            git commit -m "docs4 build: $(git log -1 --format='%H')"
+            git push
+            echo "✅ Deployed successfully"
+          else
+            echo "ℹ️ No changes to deploy"
+          fi

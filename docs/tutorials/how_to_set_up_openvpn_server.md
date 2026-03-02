@@ -14,32 +14,32 @@ This tutorial will show you how to set up an OpenVPN server on GL.iNet routers. 
 
 ## 1. Log in to your router
 
-In a web browser, enter the URL (e.g., 192.168.8.1) to access the router admin panel. Enter your admin password, then click **Login**.
+Open a web browser and access the router's web admin panel (default IP: 192.168.8.1). Log in with your admin password.
 
 ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/router-login.jpeg){class="glboxshadow"}
 
-## 2. Set up Dynamic DNS (Optional)
+## 2. Enable Dynamic DNS (Optional)
 
-Setting up an OpenVPN server typically requires a **static public IP address**, which provides a fixed endpoint for other devices to access your VPN server. However, most users do not have a static public IP address. In such cases, you can configure **Dynamic DNS (DDNS)** on your GL.iNet router. This allows persistent connectivity to the OpenVPN server even when your public IP address changes dynamically.
+Setting up an OpenVPN server typically requires a **static public IP address**, which provides a fixed endpoint for other devices to access your VPN server. 
 
-To set up Dynamic DNS, follow these steps: 
+However, if you do not have a static public IP address, e.g., a dynamic one instead, you may need to enable **Dynamic DNS (DDNS)** on your GL.iNet router. This allows persistent connectivity to the OpenVPN server even when your public IP address changes dynamically.
 
-1. In the left sidebar, click **Applications** > **Dynamic DNS**. 
+Follow the steps below to enable Dynamic DNS.
+
+1. In the router's web admin panel, go to **APPLICATIONS** > **Dynamic DNS**. 
 ![dynamic DNS](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/click-dynamic-dns.jpeg){class="glboxshadow"}
-2. Next to **Enable DDNS**, toggle the switch to on. 
-3. Check the box for **I have read and agree to the Terms of Service & Privacy Policy**.
-4. Click **Apply**. 
+2. Toggle on **Enable DDNS**, read and agree to the **Terms of Service & Privacy Policy**, then click **Apply**. 
 ![apply](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/dynamic-dns-click-apply.png){class="glboxshadow"}
 
 ## 3. Download configuration file
 
-1. In the left sidebar, click **VPN** > **OpenVPN Server**.
+1. In the router's web admin panel, go to **VPN** > **OpenVPN Server**.
 2. Click **Generate Configuration**. 
 3. Keep the default settings as-is, then click **Export Client Configuration**. 
 ![click export](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/click-export-client-configuration.jpeg){class="glboxshadow"}
-4. In the pop-up page, if you set up **Dynamic DNS** previously, toggle the switch to on for **Use DDNS Domain**. 
+4. In the pop-up window, toggle the switch **Use DDNS Domain** to on if you have set up **Dynamic DNS** previously. 
 5. Click **Download**, then save the file. 
-6. At the top of OpenVPN Server page, click **Start**.
+6. At the top of **OpenVPN Server** page, click **Start**.
 ![click start](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/openvpn-server-click-start.jpeg){class="glboxshadow"}
 
 ??? "(Optional) To access the local network of the VPN server, enable these settings:"
@@ -108,9 +108,9 @@ To connect to the OpenVPN server, you will need an OpenVPN client. You can set i
     9. Click the three-dot icon, then click **Start**. 
     10. Connect a device to the router running the OpenVPN client. 
 
-## 5. Check VPN connection
+## 5. Verify VPN connection
 
-To check if you are successfully connected to the OpenVPN server, look up your public IP address. If it matches the one provided by the VPN server (not your Internet service provider), you are connected to the OpenVPN server successfully.
+Open a web browser and search for your IP address and location. If they match the VPN server's IP (instead of your Internet service provider's IP) and location, the VPN connection is successful.
 
 ---
 

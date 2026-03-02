@@ -14,25 +14,27 @@ Please click [here](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_add
 
 Alternative methods:
 
-1. If you have a main router, log in to it and check if it gets a public IP from your ISP.
+1. If you have a primary router, log in to it and check if it gets a public IP from your ISP.
 2. Ask your ISP for a public IP address. This may incur an extra fee.
-3. If the above two methods don't work (e.g., if your network is behind CGNAT), you can use a reverse proxy solution such as [Astrorelay](../tutorials/how_to_set_up_wireguard_server_via_astrorelay.md). Alternatively, you may try our SD-WAN solution: [AstroWarp](https://www.astrowarp.net/){target="_blank"}. 
+3. If the above two methods don't work (e.g., if your network is behind CGNAT), you may try our SD-WAN solution [AstroWarp](https://www.astrowarp.net/){target="_blank"}. 
 
 ## Confirm if Port Forwarding is required
 
 **Network Topology**
 
-??? "GL.iNet is the Main Router"
+??? "GL.iNet is the primary router"
     
-    * If GL.iNet router is the main router in your network, this is simple, please move to the [next step](#setup-openvpn-server).
+    * If GL.iNet router is the primary router in your network, no port forwarding is required. Please move to the [next step](#setup-openvpn-server).
 
-??? " GL.iNet is the Sub-Router"
+??? " GL.iNet is the sub-router"
 
-    * If you already have a main router, then the GL.iNet router is under the main router, you may need to setup a [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) on the main router.
+    * If a primary router is already in use and the GL.iNet router is configured as a secondary router, you will need to configure [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) on the primary router.
     
-    * If you already have a main router, the GL.iNet router is several levels below it and you need to set up [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) on each level.
+    * If a primary router is already in use and the GL.iNet router is several levels below the primary router, configure [port forwarding](../tutorials/how_to_set_up_port_forwarding.md) on each intermediate level.
 
-## Setup OpenVPN Server
+## Set up OpenVPN Server
+
+Log in to the web Admin Panel, and navigate to VPN -> OpenVPN Server.
 
 1. Click **Generate Configuration** (for vpn server initial setup only).
 
@@ -88,6 +90,8 @@ Alternative methods:
 
 ## Check if OpenVPN Server is working properly
 
+### Verify Server status
+
 Since firmware v4.8, you can check the server connection status on the **OpenVPN Server** page. 
 
 If it shows upload/download traffic statistics, it means the OpenVPN server is running.
@@ -98,7 +102,9 @@ For firmware v4.7 and earlier, please check the server connection status on the 
 
 ![openvpn server connected v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openserverup.jpg){class="glboxshadow"}
 
-To verify if the OpenVPN Server is functioning properly, please import the previously exported client configuration to a device on a different network (not the same local network as the server). Test the VPN connectivity and check the device's public IP address.
+### Verify Client's IP
+
+Verify a successful connection to the server: Import the previously exported OpenVPN configuration to a device on a different network (not the same local network as the server). Then open a web browser, search for your IP address and location. If they match the VPN server's IP (instead of your Internet service provider's IP) and location, the VPN connection is successful.
 
 The simplest method is to use a smartphone with the official [OpenVPN App](https://openvpn.net/vpn-client/){target="_blank"} installed. First, disable the smartphone's Wi-Fi and connect exclusively to the internet via cellular data (4G/5G). Then open the OpenVPN app, import the configuration file, and initiate the connection. Check if the smartphone can access the internet and if its IP address matches the OpenVPN Server's IP.
 
@@ -123,9 +129,9 @@ Enable the client to client toggle and export a new configuration to clients, yo
 
 ![peertopeer](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/peertopeer.jpg){class="glboxshadow"}
 
-## OpenVPN Client App
+## OpenVPN App Install
 
-Please refer to OpenVPN Official Website: [https://openvpn.net/vpn-client/](https://openvpn.net/vpn-client/){target="_blank"}
+Please download the OpenVPN App from [OpenVPN Official Website](https://openvpn.net/vpn-client/){target="_blank"}.
 
 ---
 

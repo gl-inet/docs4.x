@@ -14,17 +14,17 @@ Below are steps to set up an OpenVPN client via the router's web admin panel.
 
 ## 1. Log in to your router
 
-In a web browser, enter the URL (e.g.,192.168.8.1) to access the router admin panel. Enter your admin password, then click **Login**. 
+Open a web browser and access the router's web admin panel (default IP: 192.168.8.1). Log in with your admin password.
 
 ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/router-login.jpeg){class="glboxshadow"}
 
 ## 2. Set up VPN client
 
-Refer to the section appropriate to the VPN service provider you are using. 
+Refer to the section corresponding to the VPN service provider you are using. 
 
 ??? "NordVPN"
 
-    1. In the left sidebar, click **VPN** > **OpenVPN Client**.
+    1. In the router's web admin panel, go to **VPN** > **OpenVPN Client**.
 
     2. Click **NordVPN**.
 
@@ -46,7 +46,7 @@ Refer to the section appropriate to the VPN service provider you are using.
 
 ??? "Other VPN service providers (E.g., Surfshark)"
 
-    1. In the left sidebar, click **VPN** > **OpenVPN Client**.
+    1. In the router's web admin panel, go to **VPN** > **OpenVPN Client**.
 
     2. Click **Add Manually**. 
 
@@ -67,9 +67,9 @@ Refer to the section appropriate to the VPN service provider you are using.
 
         ![start](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/openvpn-manual-click-start.png){class="glboxshadow"}
 
-## 3. Check VPN connection
+## 3. Verify VPN connection
 
-In a web browser, search your IP address location. If it matches the VPN server location you are connected to, the VPN connection is successful.
+Open a web browser and search for your IP address and location. If they match the VPN server's IP (instead of your Internet service provider's IP) and location, the VPN connection is successful.
 
 ---
 

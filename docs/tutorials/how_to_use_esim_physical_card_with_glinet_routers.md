@@ -29,6 +29,7 @@ The highlights of eSIM physical cards are as follows:
 | GL-X750 (Spitz)                | ※        |
 | GL-X300B (Collie)              | ※        |
 | GL-E750V2 vSIM                 | X         |
+| GL-E5800 (Mudi 7)              | X         |
 
 **For models marked with ※**:
 
@@ -36,9 +37,13 @@ The highlights of eSIM physical cards are as follows:
     
 2. If you are using the ※ model with EP06-A module, eSIM is not supported because the Qualcomm software lacks specific AT command support.
     
-3. If you are using the ※ model with EP06-E module, please refer to this [LINK](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} to upgrade the module's firmware and install the eSIM-supported firmware in order to enable eSIM functionality.
+3. If you are using the ※ model with EP06-E module, please refer to this [link](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} to upgrade the module's firmware and install the eSIM-supported firmware in order to enable eSIM functionality.
 
-**Note**: GL-E750V2 vSIM does not support eSIM functionality.
+**For models marked with X**:
+
+1. GL-E750V2 vSIM does not support eSIM functionality.
+
+2. GL-E5800 (Mudi 7) comes with a built-in eSIM. Therefore, the eSIM physical card will be recognized as a regular SIM card without eSIM functionality on Mudi 7.
 
 ## Set Up the eSIM Physical Card
 

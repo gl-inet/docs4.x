@@ -1,6 +1,6 @@
 # Port Forwarding
 
-This page has been added since firmware v4.6. For older firmware versions, please refer to [Firewall](firewall.md).
+This page has been available since firmware v4.6. For earlier firmware versions, please refer to [Firewall](firewall.md).
 
 ---
 

@@ -1,16 +1,18 @@
 # UI Languages
 
-This feature was added since v4.6.
+This feature has been added since firmware v4.6.
 
 ---
 
-If you need to add additional UI languages or update the UI text, click the button at the bottom of the language toggle list on the right side of the title bar.
+You can click the language button in the upper right corner to switch or add UI languages.
+
+To add additional UI languages or update UI text, click **Add Languages**.
 
 ![languages list](https://static.gl-inet.com/docs/router/en/4/interface_guide/ui_languages/add_languages.jpg){class="glboxshadow"}
 
-In "Management Interface Languages" pop-up window, select the language you need and click "Update" and the device will automatically get the latest version of the language pack from our repository. Unselected language packs will be deleted (except English).
+In the pop-up window, select your desired language and click **Update**. The router will automatically pull the latest language pack from our repository. Uninstalled language packs will be removed (except English).
 
-If you need to get the latest version of the language pack automatically to revise possible text errors on the interface, please turn on "Enable Auto Update". When this option is enabled, the device will automatically get the latest version of the language pack at the time you set.
+If you want to automatically get the latest language pack to fix potential text issues, toggle on **Enable Auto Update** and set the update time. The router will then automatically download the latest language pack at the specified time.
 
 ![languages list](https://static.gl-inet.com/docs/router/en/4/interface_guide/ui_languages/languages_list.png){class="glboxshadow"}
 

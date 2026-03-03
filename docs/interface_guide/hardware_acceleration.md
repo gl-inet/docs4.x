@@ -1,6 +1,8 @@
 # Hardware Acceleration
 
-**Note**: Hardware Acceleration features have been renamed to [Network Acceleration](network_acceleration.md) since v4.3.
+**Note**: This feature has been renamed to [Network Acceleration](network_acceleration.md) since v4.3. 
+
+This guide applies to firmware v4.2 and earlier.
 
 ---
 
@@ -11,6 +13,8 @@ When hardware acceleration is enabled, the following functions will not work pro
 ## Supported Models
 
 ??? "Supported Models"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
@@ -38,7 +42,7 @@ When hardware acceleration is enabled, the following functions will not work pro
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Setup
+## Quick Setup
 
 On the left side of web Admin Panel -> NETWORK -> Hardware Acceleration.
 
@@ -46,9 +50,14 @@ On the left side of web Admin Panel -> NETWORK -> Hardware Acceleration.
 
 ---
 
-## Quick summary — Hardware NAT vs Software NAT
-* You care most about throughput (e.g., multi-gigabit broadband) and don’t need on-router SQM or per-client shaping → enable Hardware NAT / Network Acceleration. This will give the highest throughput and lowest CPU use.
+## Quick Summary
 
-* You care about low latency, consistent QoS, per-client limits, or you rely on SQM (cake/fq_codel) → use Software NAT (disable hardware offload). SQM and QoS require packets to traverse the kernel qdisc stack — offloaded packets bypass that path and therefore are not shaped.
+**Hardware NAT vs. Software NAT**
+
+* You care most about throughput (e.g., multi‑gigabit broadband) and don't need on‑router SQM or per‑client shaping → enable Hardware NAT / Network Acceleration. This delivers the highest throughput and lowest CPU usage.
+
+* You care about low latency, consistent QoS, per‑client limits, or you rely on SQM (cake/fq_codel) → use Software NAT (disable hardware offload). SQM and QoS require packets to traverse the kernel qdisc stack — offloaded packets bypass this path and are therefore not shaped.
+
+---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

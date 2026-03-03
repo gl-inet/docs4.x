@@ -2,9 +2,10 @@
 
 Dual-Ethernet WAN feature allows switching the default LAN1 to a second WAN port for dual Ethernet access, providing reliable backup connectivity and supporting bandwidth aggregation (where compatible) for high-demand use. It also lets you connect to two separate networks (e.g., work and personal) simultaneously, enhancing flexibility without extra hardware.
 
-## Supported models
+## Supported Models
 
 ??? "Supported Models"
+    - ※GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
@@ -13,6 +14,8 @@ Dual-Ethernet WAN feature allows switching the default LAN1 to a second WAN port
     - GL-MT6000 (Flint2)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
+
+    **Note**: GL-E5800 (Mudi 7) is equipped with one Ethernet port (default LAN, can be switched to WAN) and an **OTG-enabled USB-C port**. To add a second Ethernet port for Dual-Ethernet WAN, please connect a separately sold USB‑C‑to‑Ethernet adapter to the USB‑C port.
 
 ??? "Unsupported Models"
     - GL-B3000 (Marble)

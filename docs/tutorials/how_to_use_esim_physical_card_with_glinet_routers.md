@@ -45,7 +45,7 @@ The highlights of eSIM physical cards are as follows:
 
 2. GL-E5800 (Mudi 7) comes with a built-in eSIM. Therefore, the eSIM physical card will be recognized as a regular SIM card without eSIM functionality on Mudi 7.
 
-## Set Up the eSIM Physical Card
+## Set up eSIM Physical Card
 
 If you're using the eSIM Physical card for the first time, please watch this setup video or follow these steps below to set it up on your GL.iNet Router.
 
@@ -117,7 +117,7 @@ Navigate to **APPLICATIONS** > **eSIM Management**. Here you can view your eSIM 
 
 Only one eSIM profile can be active at a time. A green dot indicates that the selected eSIM profile is currently active.
 
-## eSIM Management Interface Guide
+## eSIM Management Guide
 
 ![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-management-interface-guide.jpg){class="glboxshadow"}
 
@@ -168,7 +168,7 @@ To top up your eSIM Seed Profile, simply click the **Top-up** button, scan the Q
 
 ![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim_top-up.jpg){class="glboxshadow"}
 
-## Purchase a new eSIM Profile and Install
+## Purchase eSIM Profile and Install
 
 After setting up your router, follow the steps below to purchase and activate your eSIM profile.
 

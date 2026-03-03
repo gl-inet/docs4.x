@@ -1,6 +1,6 @@
 # Security
 
-This feature is available since v4.5.
+This feature has been available since firmware v4.5.
 
 On the left side of web Admin Panel -> SYSTEM -> Security
 

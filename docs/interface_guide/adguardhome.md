@@ -1,10 +1,12 @@
 # AdGuard Home
 
-AdGuard Home is a network-wide software for blocking ads and tracking. Once set up, it will cover ALL the devices on your home network, and there is no need for any additional client-side software. 
+AdGuard Home is a network-wide software for blocking ads and tracking. Once set up, it covers all devices on your home network with no need for additional client-side software.
 
-## Supported models
+## Supported Models
 
 ??? "Supported Models"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)

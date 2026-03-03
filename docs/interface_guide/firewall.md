@@ -1,8 +1,8 @@
 # Firewall
 
-**Note**: Since v4.6, the Firewall page has been split. The Port Forwarding and DMZ features have been moved to the [Port Forwarding](port_forwarding.md). The Open Ports feature has been moved to the [Security](security.md).
+This guide applies to firmware v4.5 and earlier.
 
-This document applies to the firmware versions prior to v4.6.
+Since v4.6, the Firewall page has been split. The Port Forwarding and DMZ features have been moved to the [Port Forwarding](port_forwarding.md). The Open Ports feature has been moved to the [Security](security.md).
 
 ---
 

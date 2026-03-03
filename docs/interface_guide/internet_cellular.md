@@ -317,7 +317,14 @@ Please refer to the [SMS Forwarding tutorial](../tutorials/sms_forwarding.md).
 
 ## Lock Tower
 
-This feature is available only on GL-X3000, GL-XE3000, and GL-X2000 (firmware ver.4.7 or later).
+!!! note "Supported Models"
+
+    - GL-E5800 (Mudi 7)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-X2000 (Spitz Plus)*
+
+    *The GL-X2000 (Spitz Plus) supports this feature on firmware ver.4.7 or later.
 
 If you want to receive a high-quality signal and ensure a stable cellular connection, you can try locking tower.
 

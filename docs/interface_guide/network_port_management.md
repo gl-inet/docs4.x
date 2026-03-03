@@ -1,6 +1,6 @@
 # Port Management
 
-Port Management is available since V4.7.
+Port Management has been available since firmware v4.7.
 
 On the left side of web Admin Panel -> NETWORK -> Port Management.
 

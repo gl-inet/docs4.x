@@ -12,9 +12,11 @@ The Tailscale feature on GL.iNet routers, available since firmware V4.2, allows 
 
 3. GL.iNet routers are **not yet available as exit nodes**.
 
-## Supported models
+## Supported Models
 
 ??? "Supported Models"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)

@@ -1,7 +1,5 @@
 # Network Acceleration
 
-[Hardware Acceleration](hardware_acceleration.md) features have been renamed to Network Acceleration since v4.3.
-
 Network acceleration reduces CPU load and speeds up traffic packet forwarding, but can conflict with some features.
 
 When Network acceleration is enabled, the following functions will not work properly: Client Speed and Traffic Statistics, Client Speed Limit.
@@ -9,6 +7,8 @@ When Network acceleration is enabled, the following functions will not work prop
 ## Supported Models
 
 ??? "Supported Models"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)

@@ -15,6 +15,8 @@ The local version is provided by GL.iNet. It is currently in beta and has no add
 ### Supported Models
 
 ??? "Supported Models"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
@@ -63,7 +65,7 @@ Then follow the setup wizard to set up Parental Control.
 
 Here are two use cases for your reference, which you can adjust according to your own situation.
 
-#### Case 1
+**Case 1**
 
 **Scenario**: Devices in the profile can only access the Internet for study from 8 AM to 11 AM on weekdays, and for gaming from 6 PM to 8 PM on weekends. All other times, internet access is blocked by default.
 
@@ -139,7 +141,7 @@ Follow the steps below.
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/final_configuration.png){class="glboxshadow"}
 
-#### Case 2
+**Case 2**
 
 **Scenario**: Devices in the profile can only access the Internet for playing games and short videos from 6 PM to 8 PM on weekend evenings. All other times, including the bedtime from 9 PM to 7 AM the next morning, internet access is blocked by default.
 
@@ -149,29 +151,33 @@ See the video tutorial below.
 
 ### Troubleshooting
 
-There may be several reasons why the settings are not effective after being configured:
+If your configured settings do not take effect, check the following possible reasons.
 
 1. DNS cache.
   
-    Browsers and operating systems have caches, so it takes some time for the changes to take effect. You can try clearing the cache to get it to take effect immediately. 
+    Browsers and operating systems maintain DNS caches, so changes may take time to take effect. You can clear the cache to apply changes immediately.
   
-      * [Clear the cache in the desktop Chrome browser](https://support.google.com/accounts/answer/32050)
+      * [Clear the cache in desktop Chrome](https://support.google.com/accounts/answer/32050){target="_blank"}
       
-      * [Clear the cache in the desktop Edge browser](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2)
+      * [Clear the cache in desktop Edge](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
-2. The schedule for the profile has not yet arrived.
+2. The profile schedule has not started.
 
-3. The domain name you set may be incorrect.
-  
-    While a website's domain name is public, the domain name used when an app calls an API is not. To resolve this, you will need to use a tool (e.g. Wireshark) to capture packets or search for it.
+3. The domain name you entered may be incorrect.
 
-    For example, if you want to filter "www.google.com", "google.com" is more appropriate than "www.google.com".
+    A website's domain is public, but the API domain used by an app is often not. To resolve this, use a tool such as Wireshark to capture packets or search for the relevant domain.
 
-4. The device you want to impose restrictions on uses a random MAC address for each connection, which will result in the rules not taking effect.
+    For example, to block "www.google.com", using "google.com" is more effective than "www.google.com".
+
+4. The target device uses a random MAC address for each connection, which prevents rules from taking effect.
 
 ## Bark Version
 
 The [Bark](https://www.bark.us/){target="_blank"} version, which is provided and managed by Bark on their own platform, offers the option to filter applications and websites with a single click and monitor request history. 
+
+It offers monitoring functionality for more than 24 popular apps and social media platforms, which are included in the preset list for our local parental control feature.
+
+With its logging function, it records which client accessed which website and at what time. This allows parents to easily view the logs, identify websites not on the blacklist, and quickly add them to the management scope.
 
 The Bark Parental Control feature has been available since firmware v4.5, and is supported only on selected GL.iNet routers.
 
@@ -192,6 +198,8 @@ The Bark Parental Control feature has been available since firmware v4.5, and is
     - GL-MT6000 (Flint2)
 
 ??? "Unsupported Models"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
@@ -213,12 +221,6 @@ The Bark Parental Control feature has been available since firmware v4.5, and is
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
-
-### Usage Scenarios
-
-Bark features monitoring functionality for over 24 different applications and social media networks. These applications and social media networks serve as a pre-set list of items under our local parental control feature.
-
-With its logging function, it knows which client accessed which website during which time period, making it convenient for parents to view the logs and identify websites that are not in the blacklist, and promptly add them to the scope of management control.
 
 ### Setup
 

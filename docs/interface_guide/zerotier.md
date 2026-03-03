@@ -10,9 +10,11 @@ The ZeroTier feature on GL.iNet routers, available since firmware V4.2, allows t
 
 2. This feature is currently in beta, and may have some bugs.
 
-## Supported models
+## Supported Models
 
 ??? "Supported Models"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)

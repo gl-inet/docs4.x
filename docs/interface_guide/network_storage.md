@@ -23,7 +23,7 @@ Some GL.iNet models have MicroSD(TF) card slots, while some models have USB port
 
     2. Some models have a USB port or MicroSD slot but have limited storage space and do not support network storage.
 
-## Supported models
+## Supported Models
 
 Usually, models with USB ports or MicroSD(TF) slots support network storage (i.e. file sharing). 
 
@@ -31,6 +31,8 @@ For devices with flash storage of 32MB or less, the Network Storage function is 
 
 | Router Model                           | Samba | Webdav | DLNA | USB Port | MicroSD Card |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
+| GL-E5800 (Mudi 7)                      | √     | √     | √     | √        | -            |
+| GL-MT5000 (Brume 3)                    | √     | √     | √     | √        | -            |
 | GL-BE3600 (Slate 7)                    | √     | √     | √     | √        | -            |
 | GL-X2000 (Spitz Plus)                  | √     | √     | √     | √        | -            |
 | GL-MT6000 (Flint 2)                    | √     | √     | √     | √        | -            |

@@ -19,6 +19,8 @@ Some models have a toggle button, and you can customize what this button does in
     - GL-AR750 (Creta)
 
 ??? "Unsupported Models"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-X2000 (Spitz Plus)
@@ -46,7 +48,7 @@ Prior to firmware v4.8, there are four options, allowing users to customize the 
 - Tor
 - WireGuard Client
 
-Starting from v4.8, more options are introduced: Repeater, Wi-Fi, and LED, and users can tailor the toggle button according to their needs.
+Since firmware v4.8, more options have been introduced: Repeater, Wi‑Fi, and LED. Users can customize the toggle buttons according to their needs.
 
 - No Function
 - Repeater

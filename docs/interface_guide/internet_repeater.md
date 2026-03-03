@@ -174,19 +174,19 @@ The reconnection process has three distinct phases: waiting phase, scanning phas
 
 **Note**: Problems typically arise in the Scanning and Connecting Phases.
 
-## Warning
+## Troubleshooting
 
-When Internet access is not available, the corresponding warning is displayed as below. 
+When the router is connected to a Wi-Fi network as a repeater, if the Internet is unavailable, a yellow message will be displayed as shown below.
 
 **"The interface is connected, but the Internet can't be accessed."**
 
-![repeater wrning](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/interface_connected_no_internet.png){class="glboxshadow"}
+![connect but no internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/interface_connected_no_internet.png){class="glboxshadow"}
 
-Solutions: 
+To fix this issue:
 
-1. Check if the upstream device of Repeater has internet access.
+1. Check if the upstream device (i.e., the Wi-Fi network your router is connected to) has internet access.
 
-2. Go to [Multi-WAN](multi-wan.md) page to determine whether you can access the Internet or not.
+2. Go to [Multi-WAN](multi-wan.md) page to check the repeater interface status.
 
 ## DFS
 
@@ -198,6 +198,7 @@ When connecting to an upstream 5G Wi-Fi, the router's Wi-Fi will follow the upst
 
 ??? "Supported Models"
 
+    - GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
@@ -211,8 +212,9 @@ When connecting to an upstream 5G Wi-Fi, the router's Wi-Fi will follow the upst
 
 ??? "Unsupported Models"
 
-    - GL-AX1800 (Flint)
+    - GL-MT5000 (Brume 3)
     - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-AX1800 (Flint)
     - GL-A1300 (Slate Plus)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)

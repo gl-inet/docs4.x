@@ -66,15 +66,19 @@ Click on **LAN**: It displays the negotiated network port rate of the LAN port.
 
 Please refer to this [link](network_port_management.md) for more details. 
 
-## Caution
+## Troubleshooting
 
-When Internet access is not available, a yellow caution message will be displayed as shown below, reminding you to check network settings or connections. 
+If an ethernet cable is plugged into the WAN port but the Internet is unavailable, a yellow message will be displayed as shown below.
 
-**The interface is connected, but the Internet can't be accessed.**
+**"The interface is connected, but the Internet can't be accessed."**
 
 ![ethernet caution](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_9.jpg){class="glboxshadow gl-90-desktop"}
 
-Please check if the upstream device of Ethernet has internet access, or navigate to [Multi-WAN](multi-wan.md) page to check the Ethernet interface status.
+To fix this issue:
+
+1. Check if the upstream device has Internet access.
+
+2. Go to [Multi-WAN](multi-wan.md) page to check the Ethernet interface status.
 
 ---
 

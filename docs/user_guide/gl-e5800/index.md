@@ -393,11 +393,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Admin Password page allows you to set or change the password for the router's administrative interface.
 
-    For security reasons, we recommend that you turn on **Prevent Weak Password**.
+    The admin password must meet the following requirements:
 
-    When **Prevent Weak Password** is turned on, the requirements for new passwords are as follows.
-
-    * 5 characters and maximum 63 characters.
+    * Minimum 10 characters and maximum 63 characters.
     * Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
     * At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
 
@@ -437,6 +435,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 === "USB & Power"
 
     The USB & Power page allows you to configure USB-related settings and power management for your router, such as USB protocol, power direction, idle timeouts, and standby behavior.
+
+    Please refer to [USB & Power](../../interface_guide/usb_power.md) for detailed instructions.
 
 ---
 

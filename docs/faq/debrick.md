@@ -1,4 +1,4 @@
-# Using UBoot to unbrick your router
+# Using Uboot to unbrick your router
 
 If you bricked your router due to some DIY projects or flashing a wrong firmware, you may fail to access it. In this case, you can re-install the firmware by using U-Boot failsafe.
 

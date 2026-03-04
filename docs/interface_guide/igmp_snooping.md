@@ -1,12 +1,14 @@
 # IGMP Snooping
 
+On the left side of the web Admin Panel, go to **NETWORK** -> **IGMP Snooping**.
+
 You can enable IGMP snooping to use the multicast function on the router.
 
 IGMP Snooping listens to the IGMP protocol package, extracts the corresponding information, establishes and maintains the layer 2 multicast forwarding publication, and then forwards the multicast group data to the host that joins the multicast group, while other hosts cannot receive the multicast group data.
 
 **Note**: IGMPv3 is compatible with v1 and v2. Use v3 by default, and switch if you experience a problem.
 
-![IGMP Snooping](https://static.gl-inet.com/docs/router/en/4/tutorials/igmp_snooping/igmp_snooping.png){class="glboxshadow gl-90-desktop"}
+![IGMP Snooping](https://static.gl-inet.com/docs/router/en/4/tutorials/igmp_snooping/igmp_snooping.png){class="glboxshadow"}
 
 ---
 

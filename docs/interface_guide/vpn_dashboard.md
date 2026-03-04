@@ -1,10 +1,10 @@
 # VPN Dashboard
 
-!!! Note
+**Note**: This guide is based on firmware v4.8. For earlier versions, please refer to [here](vpn_dashboard_v4.7.md).
 
-    This guide is based on firmware v4.8. If you are using an earlier firmware version, please visit [here](vpn_dashboard_v4.7.md).
+---
 
-On the left side of web Admin Panel -> VPN -> VPN Dashboard. 
+On the left side of the web Admin Panel, go to **VPN** -> **VPN Dashboard**. 
 
 The VPN dashboard displays VPN client connection details, tunnel rules, and other advanced settings.
 

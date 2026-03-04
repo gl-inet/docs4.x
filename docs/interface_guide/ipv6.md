@@ -2,7 +2,9 @@
 
 IPv6 (Internet Protocol version 6) is the latest Internet Protocol designed to replace IPv4. It offers a larger pool of unique IPs, solving the address exhaustion issue of IPv4 and supporting the growing number of connected devices globally.
 
-On the left side of web Admin Panel -> NETWORK -> IPv6. This page allows you to enable and configure IPv6 on your router.
+On the left side of the web Admin Panel, go to **NETWORK** -> **IPv6**. 
+
+This page allows you to enable and configure IPv6 on your router.
 
 ![ipv6](https://static.gl-inet.com/docs/router/en/4/tutorials/ipv6/ipv6.png){class="glboxshadow"}
 

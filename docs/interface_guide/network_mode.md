@@ -1,6 +1,6 @@
 # Network Mode
 
-On the left side of web Admin Panel -> NETWORK -> Network Mode
+On the left side of the web Admin Panel, go to **NETWORK** -> **Network Mode**.
 
 Network mode refers to the various operational roles and functions that a router can assume to meet different network deployment needs. These modes are tailored to scenarios ranging from home Wi-Fi coverage to enterprise-level multi-link networking, with each mode disabling or enabling specific router features to optimize performance.
 

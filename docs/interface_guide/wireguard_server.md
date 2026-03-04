@@ -34,7 +34,7 @@ Alternative methods:
 
 ## Set up WireGuard Server
 
-Log in to the web Admin Panel, and navigate to VPN -> WireGuard Server.
+Log in to the web Admin Panel, and navigate to **VPN** -> **WireGuard Server**.
 
 1. Click **Generate Configuration** (for vpn server initial setup only).
 

@@ -370,7 +370,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
     
-    * [How to set up Tor](../../interface_guide/tor.md)
+    To set up Tor, refer to [Tor](../../interface_guide/tor.md).
 
 ## System
 
@@ -387,11 +387,11 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
+    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
 
 === "Admin Password"
 
-    The Admin Password page enables you to set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
+    The Admin Password page allows you to set or change the password for the router's administrative interface.
 
     For security reasons, we recommend that you turn on **Prevent Weak Password**.
 
@@ -410,7 +410,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
+    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
 
 ---
 
@@ -418,7 +418,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Scheduled Tasks page allows you to configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
 
     **Note**: Mudi 7 does not support LED display schedule and Wi-Fi status schedule.
 
@@ -427,31 +427,16 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Display Management page lets you manage the touchscreen display and its related settings.
     
     - Wallpaper: Customize the wallpaper and wake display style.
-    - Brightness: Adjust the touchscreen brightness. Use the slider or enter a specific level (range from 1 to 10) to fit different lighting conditions.
+    - Brightness: Adjust the touchscreen brightness. Use the slider or enter a percentage to fit different lighting conditions.
     - Personalised Signature: Add a custom text to the touchscreen to show your unique style or for quick identification.
     - Auto Lock: Set the time delay for the screen to auto-lock when there is no activity. The range is 15 seconds to 5 minutes.
     - Passcode: Set a passcode for the touchscreen for an extra layer of security.
 
-    For detailed setup instructions and more information, please refer to [Display Management](../../interface_guide/display_management.md).
+    Please refer to [Display Management](../../interface_guide/display_management.md) for detailed instructions.
 
 === "USB & Power"
 
-    The USB & Power page provides comprehensive settings for managing the router's USB functions and power-related configurations.
-    
-    **USB**
-
-    - USB Protocol Switch: Switch between USB 2.0 and USB 3.1 protocols for the USB port.
-    - Dual Role USB Mode: Select the USB working mode from the dropdown menu. You can set it as Device or Host.
-    - Power Direction: Choose the power priority for the USB port from the dropdown menu. You can set it as Input Priority or Output Priority.
-    - Power Threshold: Set a specific power threshold percentage for the USB port. 
-    
-    **Power**
-    
-    - Wi-Fi Idle Timeout: Set the idle duration (range from 10 minutes to 2 hours, or never) after which Wi-Fi will enter standby. 
-    - Ethernet Idle Timeout: Set the idle duration (range from 10 minutes to 2 hours, or never) for Ethernet to switch to standby.
-    - Power Off Timeout: Set the time delay (range from 1 hour to 12 hours, or never) until the router automatically powers off when idle.
-    - Power On with Charger: Toggle this switch to enable/disable the router powering on automatically when connected to a charger.
-    - Auto Standby: Toggle this switch to activate/deactivate automatic system standby for power saving.
+    The USB & Power page allows you to configure USB-related settings and power management for your router, such as USB protocol, power direction, idle timeouts, and standby behavior.
 
 ---
 
@@ -459,13 +444,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
+    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
 
 === "Reset Firmware"
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
+    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
 
 === "Log"
 
@@ -479,10 +464,10 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
+    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
+    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.

@@ -54,7 +54,7 @@ For TF card, you need to power off the router first, insert the TF card and then
 
 For USB Drive, you can directly plug it into the USB port. For portable external hard drive, if you have a separate power supply, please connect it to the power supply.
 
-Log in to the router's web Admin Panel, navigate to APPLICATIONS -> Network Storage.
+Log in to the router's web Admin Panel and go to **APPLICATIONS** -> **Network Storage**.
 
 ![network storage](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/network_storage_init.png){class="glboxshadow"}
 

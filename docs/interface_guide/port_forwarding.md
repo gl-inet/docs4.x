@@ -1,10 +1,10 @@
 # Port Forwarding
 
-This page has been available since firmware v4.6. For earlier firmware versions, please refer to [Firewall](firewall.md).
+This page has been available since firmware v4.6. For earlier versions, please refer to [Firewall](firewall.md).
 
 ---
 
-On the left side of web Admin Panel -> NETWORK -> Port Forwarding
+On the left side of the web Admin Panel, go to **NETWORK** -> **Port Forwarding**.
 
 This page allows you to set firewall rules like **DMZ** and **Port Forwarding**.
 

@@ -41,7 +41,9 @@ GL.iNet cellular routers support SMS forwarding, automatically pushing incoming 
 
 Take the GL-XE3000 (Puli AX) as an example.
 
-On the left side of web Admin Panel -> INTERNET -> Cellular section. Click the envelope icon in the upper right to enter SMS page, and you will find the SMS Forwarding settings.
+On the left side of the web Admin Panel, go to **INTERNET** -> **Cellular** section. 
+
+Click the envelope icon in the upper right to enter the SMS page, and you will find the SMS Forwarding settings.
 
 ![sms setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow"}
 

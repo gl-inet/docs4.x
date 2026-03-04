@@ -1,8 +1,10 @@
 # Toggle Button Settings
 
-Some models have a toggle button, and you can customize what this button does in the web admin panel.
+The Toggle Button Settings allow you to assign specific functions to the physical toggle button on your router for quick access and control, providing convenient shortcuts for common tasks. 
 
-## Supported models
+You can customize the button’s behavior in the web Admin Panel.
+
+## Supported Models
 
 ??? "Supported Models"
     - GL-MT3600BE (Beryl 7)
@@ -36,7 +38,9 @@ Some models have a toggle button, and you can customize what this button does in
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-On the left side of web Admin Panel -> SYSTEM -> Toggle Button Settings.
+## Setup
+
+On the left side of the web Admin Panel, go to **SYSTEM** -> **Toggle Button Settings**.
 
 ![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
 
@@ -58,7 +62,7 @@ Since firmware v4.8, more options have been introduced: Repeater, Wi‑Fi, and L
 - AdGuard Home 
 - LED
 
-![toggle button settings 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings_4.8.png){class="glboxshadow"}
+![toggle button 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_4.8.png){class="glboxshadow"}
 
 When applying settings, you can decide whether or not to immediately enable/disable your selected feature based on the toggle switch's on/off(left/right) position.
 

@@ -1,6 +1,6 @@
 # Advanced Settings
 
-On the left side of web Admin Panel -> SYSTEM -> Advanced Settings.
+On the left side of the web Admin Panel, go to **SYSTEM** -> **Advanced Settings**.
 
 You can modify advanced settings with LuCI, the default web user interface of OpenWrt.
 

@@ -1,6 +1,6 @@
 # DNS
 
-On the left side of web Admin Panel -> NETWORK -> DNS
+On the left side of the web Admin Panel, go to **NETWORK** -> **DNS**.
 
 The DNS settings on your router control how domain names are translated into IP addresses. This page lets you use the DNS server(s) automatically obtained from upstream devices, or set custom ones, and configure DNS priorities.
 

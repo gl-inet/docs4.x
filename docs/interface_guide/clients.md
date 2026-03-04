@@ -1,6 +1,6 @@
 # Clients
 
-On the left side of web Admin Panel -> CLIENTS
+On the left side of the web Admin Panel, go to **CLIENTS**.
 
 The Clients page displays information about connected devices, including device name, connection type, IP address, MAC address, speed, and traffic, arranged left to right.
 

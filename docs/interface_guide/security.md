@@ -2,7 +2,9 @@
 
 This feature has been available since firmware v4.5.
 
-On the left side of web Admin Panel -> SYSTEM -> Security
+On the left side of the web Admin Panel, go to **SYSTEM** -> **Security**.
+
+This page allows you to configure various security settings to protect your network and router from unauthorized access.
 
 ## Admin Password
 
@@ -10,7 +12,7 @@ You can change the login password of the web Admin Panel here.
 
 ![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/admin_password.jpg){class="glboxshadow"}
 
-The requirements for the admin passwords are as follows.
+The admin password must meet the following requirements:
 
 - Minimum 10 characters and maximum 63 characters.
 - Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.

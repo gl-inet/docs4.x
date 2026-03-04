@@ -1,6 +1,6 @@
 # System Overview
 
-On the left side of web Admin Panel -> SYSTEM -> Overview
+On the left side of the web Admin Panel, go to **SYSTEM** -> **Overview**.
 
 The Overview page displays the status of some hardwares and supports some simple controls, including the following:
 

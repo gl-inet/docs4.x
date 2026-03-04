@@ -1,6 +1,6 @@
 # Reset Firmware
 
-On the left side of web Admin Panel -> SYSTEM -> Reset Firmware
+On the left side of the web Admin Panel, go to **SYSTEM** -> **Reset Firmware**.
 
 If the router malfunctions, you can try to resolve the issue by resetting the firmware. Click on the **Delete All and Reboot** button to reset the firmware.
 

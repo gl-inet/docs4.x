@@ -43,9 +43,11 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-## Setup
+## Quick Setup
 
-On the left side of web Admin Panel -> VPN -> Tor.
+On the left side of the web Admin Panel, go to **VPN** -> **Tor**. 
+
+For firmware ver.4.8.4 and later, go to **APPLICATIONS** -> **Tor**.
 
 Click the toggle switch to enable it, enable **Custom Exit Nodes** if required, then click **Apply**.
 
@@ -55,13 +57,13 @@ It will start connecting. If your network meet the requirements, it will show co
 
 ![tor connected](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/connected.png){class="glboxshadow" width="672"}
 
-## Manual install
+## Manual Install
 
 **Note**: Some models can have Tor manually installed via a plug-in, but this may increase CPU load and slow down system response.
 
-On the left side of web Admin Panel -> APPLICATIONS -> Plug-ins.
+On the left side of the web Admin Panel, go to **APPLICATIONS** -> **Plug-ins**.
 
-Search **gl-sdk4-ui-torview**, and install.
+Search **gl-sdk4-ui-torview** and install.
 
 ![torview](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/torview.jpg){class="glboxshadow"}
 

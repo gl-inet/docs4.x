@@ -1,6 +1,6 @@
 # Log
 
-On the left side of web Admin Panel -> SYSTEM -> Log.
+On the left side of the web Admin Panel, go to **SYSTEM** -> **Log**.
 
 The Log page allows you to view logs of System, Kernel, Crash, Cloud and Nginx for analysis and troubleshooting.
 

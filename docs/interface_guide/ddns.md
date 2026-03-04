@@ -4,7 +4,7 @@ Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a dom
 
 ## Enable DDNS
 
-On the left side of web Admin Panel -> APPLICATIONS -> Dynamic DNS, the page is displayed as below.
+On the left side of the web Admin Panel, go to **APPLICATIONS** -> **Dynamic DNS**.
 
 ![ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns.png){class="glboxshadow"}
 

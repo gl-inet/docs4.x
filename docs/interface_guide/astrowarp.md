@@ -1,10 +1,10 @@
 # AstroWarp
 
-!!! note
+**Note**: This guide introduces the new version of AstroWarp, which is currently available on **Flint 3 (GL-BE9300)** and **Slate 7 (GL-BE3600)** in firmware v4.8.4 and v4.8.3 respectively. 
 
-    This guide introduces the new version of AstroWarp, which is currently available on **Flint 3 (GL-BE9300)** and **Slate 7 (GL-BE3600)** in firmware v4.8.4 and v4.8.3 respectively. 
+For other models, please refer to [this link](https://docs.astrowarp.net/){target="_blank"} for more information.
 
-    For other models, please refer to [this link](https://docs.astrowarp.net/){target="_blank"} for more information.
+---
 
 AstroWarp is an advanced networking feature integrated into GL.iNet routers. It enables seamless remote access to your home network without registration or login. Using the AmneziaWG protocol with built-in traffic obfuscation, it keeps your connection stable and secure, making it ideal for reliable remote access wherever you go.
 

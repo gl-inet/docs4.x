@@ -1,10 +1,12 @@
 # Content Filter
 
-**Note**: This feature is now available only on **GL-MT5000 (Brume 3)**.
-
 Content Filter provides smart online safety powered by DPI-based classification, automatically blocking harmful or malicious websites to keep your network clean and secure.
 
-Log in to the router's web admin panel, and navigate to **FLOW CONTROL** > **Content Filter**. 
+**Note**: This feature is now available only on **GL-MT5000 (Brume 3)**.
+
+---
+
+On the left side of the web Admin Panel, go to **FLOW CONTROL** > **Content Filter**. 
 
 Customize the blocked content (such as apps, domains or IP addresses) and click **Apply**.
 

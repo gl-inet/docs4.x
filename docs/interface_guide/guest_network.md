@@ -2,7 +2,7 @@
 
 The guest network settings have been separated from [LAN](lan.md) since firmware v4.5.
 
-On the left side of web Admin Panel -> NETWORK -> Guest Network. 
+On the left side of the web Admin Panel, go to **NETWORK** -> **Guest Network**. 
 
 It includes Guest Network basic settings and DHCP server settings.
 

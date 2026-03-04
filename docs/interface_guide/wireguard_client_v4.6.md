@@ -1,18 +1,26 @@
-# How to Set Up WireGuard Client on GL.iNet Router (Firmware v4.6 and earlier)
+# Set Up WireGuard Client on GL.iNet Routers (Firmware v4.6 and earlier)
 
-!!! note
+**Note**: This guide applies to firmware v4.6 and earlier. For newer versions, please refer [here](wireguard_client.md).
 
-    This guide is based on firmware v4.6 and earlier. If you are using an latest firmware version, please visit [here](wireguard_client.md).
+---
 
-WireGuard® is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/){target="_blank"}, simpler, leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
+WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN.
 
 If you have already bought WireGuard service from a provider, but you don't know how to get the configuration files, please refer to [get configuration files from WireGuard service providers](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or ask its support.
 
-You can set up WireGuard Client via web Admin Panel or [mobile app](../faq/mobile_app.md). For the mobile app, it has already integrated some WireGuard Service Providers, they are AzireVPN, Mullvad VPN, OVPN, StrongVPN, PIA VPN.
+You can set up WireGuard Client via the web Admin Panel or [mobile app](../faq/mobile_app.md). 
 
-For set up via web Admin Panel, please follow the guide below.
+- The mobile app has integrated with several WireGuard service providers, such as AzireVPN, Mullvad, OVPN, StrongVPN, and PIA VPN.
 
-You can log in by clicking the **AzireVPN** or **Mullvad** button if you have a their membership, or by clicking **Add Manually** to upload the WireGuard profiles.
+- The web Admin Panel supports fewer WireGuard service providers (e.g., AzireVPN and Mullvad), but provides more intuitive and detailed pages.
+
+Below are the steps to set up via the web Admin Panel.
+
+---
+
+Log in to the web Admin Panel and navigate to **VPN** -> **WireGuard Client**.
+
+If you have **AzireVPN** or **Mullvad** membership, you can log in with their credentials directly. Alternatively, click **Add Manually** to upload the WireGuard profiles manually.
 
 ![wireguard client no initialized](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/wireguard_client_no_initialized.png){class="glboxshadow"}
 

@@ -14,7 +14,7 @@ The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi 
 
 ## Wireless Settings
 
-On the left side of web Admin Panel -> WIRELESS
+On the left side of the web Admin Panel, go to **WIRELESS**.
 
 The wireless page supports setting up different Wi-Fi configurations, and it includes various Wi-Fi bands such as 2.4 GHz, 5 GHz, 6 GHz, and MLO Wi-Fi (which varies by router model), with each band further divided into Main Wi-Fi and Guest Wi-Fi networks for flexible wireless network management.
 

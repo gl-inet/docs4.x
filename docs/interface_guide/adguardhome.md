@@ -38,7 +38,9 @@ AdGuard Home is a network-wide software for blocking ads and tracking. Once set 
 
 ## Setup
 
-Log in to the router's web Admin Panel -> APPLICATIONS -> AdGuard Home. Toggle the switch to enable AdGuard Home and click Apply. 
+Log in to the router's web Admin Panel and go to **APPLICATIONS** -> **AdGuard Home**. 
+
+Toggle the switch to enable AdGuard Home and click **Apply**. 
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 

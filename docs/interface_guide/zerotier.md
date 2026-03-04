@@ -2,7 +2,7 @@
 
 ZeroTier is a software-based virtual private network (VPN) that enables secure, encrypted communications between devices over the internet. It creates a private, virtual network that allows devices to communicate as if they were on the same local network, regardless of their physical location or network topology. ZeroTier is designed to be easy to set up and use, and offers features such as end-to-end encryption, network segmentation, and network bridging capabilities.
 
-The ZeroTier feature on GL.iNet routers, available since firmware V4.2, allows the router to join a ZeroTier virtual network. Once connected, you can access the router remotely, including its WAN and LAN resources.
+The ZeroTier feature on GL.iNet routers, available since firmware v4.2, allows the router to join a ZeroTier virtual network. Once connected, you can access the router remotely, including its WAN and LAN resources.
 
 **Note**: 
 

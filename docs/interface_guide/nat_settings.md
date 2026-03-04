@@ -2,7 +2,7 @@
 
 This feature has been available since v4.5.16.
 
-On the left side of web Admin Panel -> NETWORK -> NAT Settings 
+On the left side of the web Admin Panel, go to **NETWORK** -> **NAT Settings**.
 
 This page lets you enable **Full Cone NAT** to improve peer-to-peer connection stability for apps like gaming or streaming, and **SIP ALG** to fix compatibility issues with VoIP/SIP-based phone services.
 

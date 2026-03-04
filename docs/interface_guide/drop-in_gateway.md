@@ -1,6 +1,6 @@
 # Drop-in Gateway
 
-On the left side of web Admin Panel -> NETWORK -> Drop-in Gateway
+On the left side of the web Admin Panel, go to **NETWORK** -> **Drop-in Gateway**.
 
 Drop-in Gateway is an extension function that enables capability expansion for an existing primary router without replacing or reconfiguring it. By connecting the GL.iNet router to the primary router via an Ethernet cable, users can add advanced network features onto the existing network infrastructure, for example:
 

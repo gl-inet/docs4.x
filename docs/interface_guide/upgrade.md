@@ -1,6 +1,8 @@
 # Upgrade
 
-On the left side of web Admin Panel -> SYSTEM -> Upgrade, you can upgrade the router's firmware version. For certain cellular models, you can also upgrade the module version if needed.
+On the left side of the web Admin Panel, go to **SYSTEM** -> **Upgrade** to update your router's firmware.
+
+For some cellular models, you can also upgrade the module version if needed.
 
 !!! Note
 

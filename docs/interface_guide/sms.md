@@ -37,21 +37,27 @@ GL.iNet cellular routers are equipped with a built-in modem that supports sendin
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Setup
+## Quick Setup
 
 Take the GL-X3000 (Spitz AX) as an example.
 
 Please refer to [this link](internet_cellular.md) to set up the SIM card first.
 
-On the left side of web Admin Panel -> INTERNET, Cellular sector.
+On the left side of the web Admin Panel, go to **INTERNET** -> **Cellular** section.
+
+Click the envelope icon in the upper right corner.
 
 ![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow gl-90-desktop"}
 
+You will be directed to the SMS page, where you can view incoming messages or send new messages.
+
 ![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
+
+Click a message to view the details.
 
 ![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
 
-Click on the **Send Message** button in the upper right corner.
+Click the **Send Message** button in the upper right corner to compose a new message.
 
 ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message.jpg){class="glboxshadow"}
 

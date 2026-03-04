@@ -1,6 +1,6 @@
 # Internet
 
-Log in to the web Admin Panel, navigate to INTERNET, and you will enter the homepage.
+Log in to the web Admin Panel and go to **INTERNET**.
 
 The top half features a diagram showing the Internet status, and the bottom half lists up to 4 types of Internet access: [Ethernet](internet_ethernet.md), [Repeater](internet_repeater.md), [Tethering](internet_tethering.md), and [Cellular](internet_cellular.md).
 

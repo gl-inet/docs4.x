@@ -36,29 +36,29 @@
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} is a platform designed to simplify the remote deployment and management of connected devices. It provides an easy way to remotely access and manage GL.iNet routers. By centralizing network devices on the cloud, users can efficiently perform batch management tasks, such as deploying network configurations and performing software upgrades. They can also remotely access the router's web admin panel or connect to the router's terminal via SSH, achieving cross-regional and end-to-end network device management.
 
-Features:
+With GoodCloud, you can:
 
-- Check the router's real-time status
+1. Check the router's real-time status
     - Monitor online-offline status
     - View real-time RAM usage and load average
     - Receive email alerts for online-offline status changes
 
-- Set up routers remotely
+2. Set up routers remotely
     - configure router settings (e.g. SSID and password)
     - Remote SSH access
     - Remote access to the WebUI
     - Share router access with others
 
-- Monitor connected clients remotely
+3. Monitor connected clients remotely
     - View devices connected to your network
     - Monitor real-time traffic and block clients
     - Receive email alerts for new connections and block events
 
-- Batch router operations
+4. Perform batch operations
     - Batch reboot
     - Batch firmware upgrade
 
-- Site-to-Site Connectivity
+5. Establish Site-to-Site connectivity
     - Virtual Office: Extend your office network to other branch offices
     - Business Travel: Remotely access office systems (e.g., OA, CRM, MySQL)
     - Smart Home: Remotely access home devices (e.g., IP cameras, NAS)

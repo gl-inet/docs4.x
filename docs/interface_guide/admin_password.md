@@ -1,20 +1,20 @@
 # Admin Password
 
-**Note**: Admin Password feature has been moved to [Security](security.md) since v4.3.
+**Note**: This page has been moved to [Security](security.md) since v4.3.
+
+The Admin Password page allows you to set or change the password for the router's administrative interface.
 
 ---
 
-On the left side of web Admin Panel -> SYSTEM -> Admin Password
+On the left side of the web Admin Panel, go to **SYSTEM** > **Admin Password**.
 
 ![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
 
-Change the password of login the web Admin Panel. You have to input your current password to change it.
+Change the login password for your router's web Admin Panel. Your current password is required to make changes.
 
-For security reasons, we recommend that you turn on **Prevent Weak Password**.
+The admin password must meet the following requirements:
 
-When **Prevent Weak Password** is turned on, the requirements for new passwords are as follows.
-
-- 5 characters and maximum 63 characters.
+- Minimum 10 characters and maximum 63 characters.
 - Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
 - At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
 

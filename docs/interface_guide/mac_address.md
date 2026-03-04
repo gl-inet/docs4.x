@@ -6,7 +6,7 @@ Since v4.6, the MAC address settings for Ethernet and Repeater interfaces have b
 
 ---
 
-On the left side of web Admin Panel -> NETWORK -> MAC Address
+On the left side of the web Admin Panel, go to **NETWORK** -> **MAC Address**.
 
 The MAC Address page was previously called MAC Clone and has been changed to MAC Address since v4.2.
 

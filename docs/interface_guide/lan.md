@@ -1,6 +1,6 @@
 # LAN
 
-On the left side of web Admin Panel -> NETWORK -> LAN
+On the left side of the web Admin Panel, go to **NETWORK** -> **LAN**.
 
 LAN is the network that your device is connected to when it is connected via the main Wi-Fi or via an Ethernet cable.
 

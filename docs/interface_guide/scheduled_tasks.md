@@ -1,6 +1,6 @@
 # Scheduled Tasks
 
-On the left side of web Admin Panel -> SYSTEM -> Scheduled Tasks
+On the left side of the web Admin Panel, go to **SYSTEM** -> **Scheduled Tasks**.
 
 Schedule Tasks allows you to set up daily schedules for basic operations such as turning LED on/off, restarting the router, enabling/disabling Wi‑Fi, and switching TX power level.
 

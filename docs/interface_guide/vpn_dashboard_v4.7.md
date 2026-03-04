@@ -1,6 +1,10 @@
 # VPN Dashboard (Firmware v4.7 and earlier)
 
-Access to web Admin Panel, on the left side -> VPN -> VPN Dashboard
+**Note**: This guide is based on firmware v4.7 and earlier. For newer versions, please refer to [here](vpn_dashboard.md).
+
+---
+
+Log in to the web Admin Panel, and go to **VPN** -> **VPN Dashboard**.
 
 VPN Dashboard page is for the status and setting of VPN. There are two sectors, [VPN Client](#vpn-client) and [VPN Server](#vpn-server).
 

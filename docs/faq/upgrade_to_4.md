@@ -1,54 +1,36 @@
 # How to upgrade to firmware 4.x?
 
-Some old models already have the 4.x beta firmware. For those who want to try it, you can follow the steps below to upgrade it from firmware 3.x to 4.x.
+**This document is outdated and no longer maintained. Click [here](../interface_guide/upgrade.md) for the latest upgrade guide.**
 
-The following models are currently supported:
+---
 
-GL-AX1800(Flint), GL-MT1300(Beryl), GL-B1300(Convexa-B), GL-S1300(Convexa-S), GL-AP1300(Cirrus), GL-SFT1200(Opal), GL-AR750S(Slate).
+Follow the steps below to upgrade your router from firmware 3.x to 4.x.
 
-**Note:** The beta firmware may has bugs. Currently, it is recommended not to keep settings when upgrading, since they may be lost during the upgrade, or they may cause instability. Therefore, be sure to backup any critical settings before upgrading. We will improving the process to make the upgrade smoother.
+Note: Please do not keep settings when upgrading from v3.x to v4.x, as this may cause instability. Back up any critical settings before upgrading.
 
-**Note:** Currently, the GL-B1300 and GL-S1300 do not have mesh function.
+The GL-B1300 and GL-S1300 do not support mesh function in firmware v4.x.
 
-## Upgrade
+---
 
-There are two methods to upgrade to firmware 4.x. The first method can be used for some models, and the second method can be used for all models.
+## Method 1. Local Upgrade
 
-### Method 1
-
-Upgrade via the Local Upgrade in web Admin Panel.
-
-Suitable for GL-AX1800, GL-MT1300, GL-SFT1200, GL-B1300, GL-AR750S.
+You can upgrade the firmware via web Admin Panel.
 
 1. Upgrade the firmware to the latest stable 3.x version.
 
-2. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}.
+2. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}. Make sure you **download the one for common upgrade**.
 
-    * For GL-MT1300, GL-B1300, GL-SFT1200, GL-AR750S, please download the one for Local Upgrade, its file name extension is **.tar** or **.bin**.
+3. Log in to the web Admin Panel, go to **Upgrade** -> **Local Upgrade**. Upload the firmware file you just donwloaded.
 
-    * For GL-AX1800, please download the one for Uboot, its file name extension is **.img**.
-
-3. Upgrade it via the **Local Upgrade** in web Admin Panel -> UPGRADE with the firmware file you just donwloaded.
-
-    **Note:** 4.x firmware is not compatible with 3.x firmware. When you upgrade from 3.x firmware, please do **NOT** keep settings.
+    **Note:** 4.x firmware is not compatible with 3.x firmware. When upgrading from 3.x firmware, do **NOT** keep settings.
 
     ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
-### Method 2
+## Method 2. U-Boot Upgrade
 
-Upgrade via Uboot.
+1. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}. Make sure you **download the one for U-Boot**.
 
-Suitable for all models.
-
-1. Download the 4.x firmware [here](https://dl.gl-inet.com){target="_blank"}, please download the one for Uboot.
-
-2. Please flash the firmware by [Uboot](debrick.md).
-
-## Downgrade
-
-1. Please download the latest 3.x release firmware [here](https://dl.gl-inet.com){target="_blank"}.
-
-2. Please flash the firmware by [Uboot](debrick.md).
+2. Refer to this [U-Boot](debrick.md) guide to flash the firmware.
 
 ---
 

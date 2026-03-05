@@ -67,7 +67,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [LAN](lan.md)
 * [Guest Network](guest_network.md)
 * [DNS](dns.md)
-* [Ethernet Ports](ethernet_ports.md)
+* [Ethernet Port](ethernet_port.md)
 * [Network Mode](network_mode.md)
 * [IPv6](ipv6.md)
 * [MAC Address](mac_address.md)

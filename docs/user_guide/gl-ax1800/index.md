@@ -242,7 +242,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
 
-    To manage Ethernet ports, refer to [Port Management](../../interface_guide/network_port_management.md).
+    To manage Ethernet ports, refer to [Port Management](../../interface_guide/ethernet_port.md).
 
 ---
 

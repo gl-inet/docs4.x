@@ -50,21 +50,21 @@ In addition to the essential settings, there are also some optional advanced set
 
 * **MTU**: The default MTU value is 1500 bytes.
 
-## Ethernet Ports
+## Ethernet Port
 
-Click the gear icon in the upper right corner of the Ethernet section to enter [Port Management](network_port_management.md).
+Click the gear icon in the upper right corner to enter [Ethernet Port](ethernet_port.md).
 
-![port management 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_6.png){class="glboxshadow"}
+![ethernet port 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_6.png){class="glboxshadow"}
 
-Click on **WAN**: It displays the network port status (i.e. using as WAN/LAN), MAC mode & MAC address, as well as the negotiated network port rate of the WAN port.
+The **WAN** page displays the port role (i.e., using as WAN or LAN), MAC mode & MAC address, and the negotiated network port rate. 
 
-![port management 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_7.jpg){class="glboxshadow"}
+![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
 
-Click on **LAN**: It displays the negotiated network port rate of the LAN port.
+The **LAN** page displays the port role and negotiated network port rate.
 
-![port management 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_8.png){class="glboxshadow"}
+![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/lan.png){class="glboxshadow"}
 
-Please refer to this [link](network_port_management.md) for more details. 
+Please refer to this [link](ethernet_port.md) for details. 
 
 ## Troubleshooting
 

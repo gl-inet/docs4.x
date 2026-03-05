@@ -253,7 +253,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Mudi 7 comes with a single Ethernet port, default to LAN. You can switch it to WAN port on the touchscreen or the web admin panel if required.
 
-    To manage Ethernet ports, refer to [Port Management](../../interface_guide/network_port_management.md).
+    To manage Ethernet ports, refer to [Ethernet Port](../../interface_guide/ethernet_port.md).
 
 === "IPv6"
 

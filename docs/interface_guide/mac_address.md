@@ -2,7 +2,7 @@
 
 This guide applies to firmware v4.5 and earlier.
     
-Since v4.6, the MAC address settings for Ethernet and Repeater interfaces have been migrated to the [Port Management](network_port_management.md) and the [INTERNET](internet_repeater.md) page respectively.
+Since v4.6, the MAC address settings for Ethernet and Repeater interfaces have been migrated to the [Ethernet Port](ethernet_port.md) and the [Repeater](internet_repeater.md) page respectively.
 
 ---
 

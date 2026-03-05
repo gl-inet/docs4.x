@@ -13,6 +13,8 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 
 ??? "Supported Models"
     - GL-MT3600BE (Beryl 7)
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)

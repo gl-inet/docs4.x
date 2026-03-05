@@ -52,6 +52,7 @@ Learn how to use our devices correctly with detailed steps.
 
 ## Network
 
+* [How to connect to an EAP (Extensible Authentication Protocol) network](eap.md)
 * [How to set up a guest Wi-Fi network on GL.iNet routers](how_to_set_up_a_guest_network.md)
 * [How to set up drop-in gateway on GL.iNet routers](how_to_set_up_drop_in_gateway.md)
 * [How to set up port forwarding on your primary router](how_to_set_up_port_forwarding.md)
@@ -63,8 +64,6 @@ Learn how to use our devices correctly with detailed steps.
 * [How to manually configure static IP on the client devices](manually_configure_static_ip.md)
 * [How to check if you have a public IP address](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [How to upgrade or downgrade your router's firmware (from v4.x to v4.x)](how_to_upgrade_downgrade_router.md)
-* [How to connect to an Extensible Authentication Protocol (EAP) network](eap.md)
-* [How to connect GL.iNet router to an EAP network requiring advanced settings](how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md)
 * [How to SSH log in to the router](ssh_log_in_to_the_router.md)
 * [How to use WinSCP to access your share files](winscp_share_file.md)
 * [How to use WinSCP to modify files on GL.iNet routers](how_to_use_winscp_to_modify_files_on_glinet_routers.md)

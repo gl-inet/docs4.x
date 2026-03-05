@@ -53,6 +53,7 @@ plugins:
         'tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
         'tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md': 'tutorials/how_to_use_the_esim_physical_card_with_android_devices.md'
         'tutorials/how_to_access_server_lan_device_via_domain_name.md': 'tutorials/how_to_access_wgserver_lan_via_domain_name.md'
+        'tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md': 'tutorials/eap.md'
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
 
 # Customization
@@ -249,17 +250,16 @@ nav:
       - Site to Site: tutorials/goodcloud_site_to_site.md
       - Access the LuCI via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
     - Network:
+      - Connect to EAP network: tutorials/eap.md
       - Set up a guest network: tutorials/how_to_set_up_a_guest_network.md
       - Set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
-      - Set up port forwarding on your primary router: tutorials/how_to_set_up_port_forwarding.md
+      - Set up port forwarding on primary router: tutorials/how_to_set_up_port_forwarding.md
       - Configure dual wired WAN access: tutorials/configure_dual_ethernet_wan.md
     - Others:
       - Block client devices: tutorials/how_to_block_client_devices.md
       - Manually configure static IP on client devices: tutorials/manually_configure_static_ip.md
       - Check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
       - Upgrade or downgrade your router: tutorials/how_to_upgrade_downgrade_router.md
-      - Connect to EAP network: tutorials/eap.md
-      - Connect to EAP network with advanced settings: tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md
       - SSH log in to the Router: tutorials/ssh_log_in_to_the_router.md
       - Use WinSCP to access share files: tutorials/winscp_share_file.md
       - Use WinSCP to modify files: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md

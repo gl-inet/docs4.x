@@ -1,8 +1,10 @@
-# Port Management
+# Ethernet Ports
 
-Port Management has been available since firmware v4.7.
+**Note**: This page has been available as **Port Management** since firmware v4.7, and was renamed to **Ethernet Ports** in firmware v4.8.3.
 
-On the left side of the web Admin Panel, go to **NETWORK** -> **Port Management**.
+---
+
+On the left side of the web Admin Panel, go to **NETWORK** -> **Port Management** or **Ethernet Ports**.
 
 It shows all Ethernet ports on the router. 
 

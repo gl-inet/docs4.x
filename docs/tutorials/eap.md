@@ -9,6 +9,8 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
 ## Supported models
 
 ??? "Supported Models"
+    - GL-MT3600BE (Beryl 7)
+    - GL-E5800 (Mudi 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
@@ -37,6 +39,7 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
     2. GL-SFT1200 (Opal) supports connecting to EAP networks with firmware v4.8.
 
 ??? "Unsupported Models"
+    - GL-MT5000 (Brume 3)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
     - GL-MT2500/GL-MT2500A (Brume 2)

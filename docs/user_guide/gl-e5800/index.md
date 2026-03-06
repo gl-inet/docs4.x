@@ -4,7 +4,7 @@
 
 Mudi 7 is a portable 5G NR Wi-Fi 7 travel router built for road warriors and business travelers, delivering reliable, private networks to secure data against cyber threats. It features 5G hyper-speed, dual SIM auto-switching (failover), and Wi-Fi 7 (320MHz channels and 4K QAM) for stable, fast connectivity, supporting fast downloads, 4K streaming, lag-free video conferencing even in crowded areas.
 
-Equipped with a touchscreen, Mudi 7 lets you monitor real-time data usage, signal strength and connected devices, or adjust settings via simple swipes. The interface features one-tap network optimization and dynamic cues (e.g., speed, battery) for hassle-free intuitive control.
+Equipped with a touchscreen, the Mudi 7 allows you to monitor real-time data usage, signal strength, connected devices, and client speed, and adjust settings with simple taps for intuitive, hassle-free control.
 
 ![gl-e5800 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/gl-e5800_overview.png){class="glboxshadow"}
 
@@ -17,9 +17,14 @@ The package includes:
 - 1 x Mudi 7 (GL-E5800)
 - 1 x Battery Pack
 - 1 x 10Gbps USB-C Cable
-- 1 x Travel Case
+- 1 x Travel Pouch
 - 1 x User Manual
-- 1 x Warranty Card
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/unboxing.png){class="glboxshadow"}
+
+Check out Mudi 7's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How to set up Mudi 7
 

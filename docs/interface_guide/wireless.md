@@ -20,7 +20,13 @@ The wireless page supports setting up different Wi-Fi configurations, and it inc
 
 ### MLO Wi-Fi
 
-**Note**: This Wi-Fi band is only available on Flint 3e (GL-BE6500), Flint 3 (GL-BE9300), and Slate 7 (GL-BE3600).
+| Supported Models               |           |
+| :----------------------------- | :-------: |
+| Slate 7 Pro (GL-BE10000)       | √         |
+| Beryl 7 (GL-MT3600BE)          | √         |
+| Flint 3e (GL-BE6500)           | √         |
+| Flint 3 (GL-BE9300)            | √         |
+| Slate 7 (GL-BE3600)            | √         |
 
 MLO (Multi-Link Operation) is one of the core features of Wi-Fi 7 (802.11be), designed to improve network performance, significantly reduce latency, and enhance connection stability by utilizing multiple frequency bands simultaneously such as 2.4 GHz, 5 GHz, and 6 GHz.
 
@@ -44,7 +50,11 @@ Click on the tabs below to learn about MLO Main Wi-Fi and MLO Guest Wi-Fi settin
 
 ### 6 GHz Wi-Fi
 
-**Note**: This Wi-Fi band is only available on Flint 3 (GL-BE9300).
+| Supported Models               |           |
+| :----------------------------- | :-------: |
+| Slate 7 Pro (GL-BE10000)       | √         |
+| Mudi 7 (GL-E5800)              | √         |
+| Flint 3 (GL-BE9300)            | √         |
 
 The 6 GHz Wi-Fi provides faster, more stable wireless connectivity with reduced congestion compared to 2.4 GHz and 5 GHz bands.
 

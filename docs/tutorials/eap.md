@@ -2,7 +2,7 @@
 
 Some GL.iNet routers support connecting to EAP (Extensible Authentication Protocol) Wi-Fi networks.
 
-If the target EAP network only requires username and password authentication, you can directly connect the router to it via the web Admin Panel. Simply select the EAP network, security, and enter your credentials to complete the connection. 
+EAP is an authentication framework commonly used with **802.1X authentication** for **WPA2‑Enterprise / WPA3‑Enterprise** networks. A typical example is **eduroam**, a global Wi‑Fi roaming service for education and research that relies on 802.1X and EAP.
 
 This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi network: via Admin Panel and via LuCI.
 
@@ -80,6 +80,8 @@ If your target EAP network cannot be connected via the web Admin Panel, please t
 
 1. Log in to the web Admin Panel, go to **SYSTEM** -> **Advanced Settings**. Install LuCI and click **Go to LuCI**.
 
+    ![gotoluci](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/gotoluci.png){class="glboxshadow"}
+
 2. Log in to LuCI interface with the same admin password, and go to Network -> Wireless.
 
     ![wireless](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/luci_network_wireless.png){class="glboxshadow"}
@@ -94,7 +96,7 @@ If your target EAP network cannot be connected via the web Admin Panel, please t
 
 ## Troubleshooting
 
-If the target EAP network requires additional parameters, such as EAP method (e.g., PEAP, TTLS), domain suffix match, identity, anonymous identity, etc., the EAP connection via web Admin Panel may fail.
+If the target EAP network requires additional parameters, such as EAP type (e.g., PEAP, TTLS), domain suffix match, identity, anonymous identity, etc., the EAP connection via web Admin Panel may fail.
 
 ![connection failed](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/connection_failed.png){class="glboxshadow"}
 

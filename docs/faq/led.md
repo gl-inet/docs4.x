@@ -1,4 +1,6 @@
-# LED Status Indication
+# LED Status Indicators
+
+This document describes the LED indicator status and corresponding meanings for different GL.iNet router models. 
 
 ## Travel Router
 
@@ -254,20 +256,35 @@
 
 ## Security Gateway & Mini Routers
 
-### GL-MT2500/GL-MT2500A
+### GL-MT5000
 
-![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
+![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
 
-* System
+* System LED
 	* Blue: System booting
 	* Flashing blue: Searching network
 	* White: Working normally
-* VPN
+* VPN LED
 	* Off: VPN client is not connected
 	* Flashing: VPN client is connecting
 	* Solid: VPN client is connected
 	
-	VPN server status not displayed on LED.
+Note: The VPN server status is not displayed on the LED.
+
+### GL-MT2500/GL-MT2500A
+
+![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
+
+* System LED
+	* Blue: System booting
+	* Flashing blue: Searching network
+	* White: Working normally
+* VPN LED
+	* Off: VPN client is not connected
+	* Flashing: VPN client is connecting
+	* Solid: VPN client is connected
+	
+Note: The VPN server status is not displayed on the LED.
 
 ### GL-MT300N-V2
 

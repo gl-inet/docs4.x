@@ -201,7 +201,7 @@ nav:
       - Download firmware: faq/how_to_download_firmware.md
       - Manually upgrade or downgrade: tutorials/how_to_upgrade_downgrade_router.md
     - Other:
-      - LED Indication: faq/led.md
+      - LED status indicators: faq/led.md
       - GL.iNet Mobile App: faq/mobile_app.md
       - Add Brume 2 into mobile App: faq/how_to_add_brume2_into_app.md
       - Change WAN to LAN: faq/change_wan_to_lan.md

@@ -29,7 +29,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 * [Cannot Scan iPhone 5G Hotspot](cannot_scan_iphone_5g_hotspot.md)
 * [iPhone tethering failed](iphone_tethering_fail.md)
 * [Cellular Network Troubleshooting Guide](cellular_network_troubleshooting_guide.md)
-* [Replacing the old router with GL.iNet router but has no internet](i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md)
+* [No internet after replacing the old router with a GL.iNet router](no_internet_after_replacing_the_old_router_with_glinet.md)
 * [USB modem is not working properly on GL.iNet router](usb_modem_is_not_working_properly_on_gl_inet_router.md)
 * [How to repair network or factory reset?](repair_network_or_reset_firmware.md)
 * [What should I do if my router is bricked?](debrick.md)

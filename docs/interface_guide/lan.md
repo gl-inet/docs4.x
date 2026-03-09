@@ -8,45 +8,49 @@ It includes Basic settings, DHCP server settings and Address Reservation.
 
 ## Basic Settings
 
+You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
+
 ![lan basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/basic_settings.jpg){class="glboxshadow"}
 
 - **Router IP Address**
 
-    The router IP Address is the address that you would enter into your browser 's address bar to access the router's admin page. 
+    This is the address that you would enter into your browser's address bar to access the router's admin page. 
     
     It is **192.168.8.1** by default. You can change it if it conflicts with your network.
 
 - **Netmask**
     
-    Two options are provided: **255.255.255.0** and **255.255.0.0**
+    Defaults to **255.255.255.0**. You can also select **255.255.0.0** if you need a larger subnet with more IP addresses.
 
 - **AP Isolation**
 
-    You can isolate your network's client devices into a separate network area. These devices cannot communicate with other devices on the network.
+    You can isolate client devices into a separate network segment. These devices will not be able to communicate with other devices on the same network.
 
 ## DHCP Server
 
-The **DHCP Server** is enabled by default.The DHCP server automatically assigning IP addresses and other communication parameters to each client devices.If the DHCP server is disabled, you will have to configure them manually for each client. [How to manually configure static ip?](../tutorials/manually_configure_static_ip.md)
+The **DHCP Server** is enabled by default. The DHCP server automatically assigns IP addresses and other communication parameters to each client devices.
 
-You can change the starting and ending IP addresses to suit your needs, for example, if the size of the network expands or shrinks, if there are IP address conflicts in the network, or if the subnet mask or IP address range has changed.
+If the DHCP server is disabled, you will need to configure network settings for client devices manually. Click [here](../tutorials/manually_configure_static_ip.md) to learn how to manually configure a static IP.
+
+You can change the starting and ending IP addresses to suit your needs — for example, if your network expands or shrinks, if IP address conflicts occur, or if the subnet mask range is modified.
 
 ![dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_server.png){class="glboxshadow"}
 
-Click **Advanced** for further setup if needed.
+Click **Advanced** for further configuration if needed.
 
 ![dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_advanced_1.png){class="glboxshadow"}
 
 ![dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_advanced_2.png){class="glboxshadow"}
 
-- **Lease Time**: The duration for which a device can use an IP address assigned via DHCP.
+- **Lease Time**: The period for which a DHCP-assigned IP address is valid for a device.
 
-- **Gateway**: The device that routes traffic between the local network and external networks (e.g., the internet).
+- **Gateway**: The device that routes traffic between the local network and external networks such as the Internet.
 
-- **DNS Server 1**: The primary server responsible for translating domain names into IP addresses.
+- **DNS Server 1**: The primary server that translates domain names into IP addresses.
 
-- **DNS Server 2**: A backup server used to resolve domain names if the primary DNS server fails.
+- **DNS Server 2**: The secondary server used for domain name resolution if the primary DNS server is unavailable.
 
-- **LPR Server**: (Line Printer Remote Server) A service that manages print jobs and enables networked devices to send print requests to remote printers. Multiple printer LPR ports can be filled.
+- **LPR Server**: (Line Printer Remote Server) A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured.
 
 ## Address Reservation
 

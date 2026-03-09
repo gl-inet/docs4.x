@@ -61,7 +61,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 
 ## Other
 
-* [LED status indicators](led.md)
+* [LED indicator status](led.md)
 * [GL.iNet Mobile App](mobile_app.md)
 * [How to add Brume 2 into the mobile App?](how_to_add_brume2_into_app.md)
 * [How to change a WAN port to LAN port?](change_wan_to_lan.md)

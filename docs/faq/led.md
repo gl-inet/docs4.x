@@ -1,4 +1,4 @@
-# LED Status Indicators
+# LED Indicator Status
 
 This document describes the LED indicator status and corresponding meanings for different GL.iNet router models. 
 

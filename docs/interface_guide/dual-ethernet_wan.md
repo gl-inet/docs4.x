@@ -6,6 +6,7 @@ Dual-Ethernet WAN feature allows switching the default LAN1 to a second WAN port
 
 ??? "Supported Models"
     - ※GL-E5800 (Mudi 7)
+    - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)

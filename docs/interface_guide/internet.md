@@ -2,26 +2,38 @@
 
 Log in to the web Admin Panel and go to **INTERNET**.
 
-The top half features a diagram showing the Internet status, and the bottom half lists up to 4 types of Internet access: [Ethernet](internet_ethernet.md), [Repeater](internet_repeater.md), [Tethering](internet_tethering.md), and [Cellular](internet_cellular.md).
+The top half features a diagram showing the Internet status, and the bottom half lists four or five Internet access methods (availability varies by model).
 
 ## Status Diagram
 
 ![status diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/status_diagram.png){class="glboxshadow"}
 
-- The left side of the diagram shows the current status of Internet access. A solid green line indicates that the network connection is available, a dashed gray line indicates that the network connection is not available, a solid white line and yellow triangle exclamation indicates that the connection is connected but cannot access the Internet.
+**The left side** of the diagram shows the current Internet status.
 
-- In the middle of the diagram is the current router model number and the status of [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard.md), [Tor](tor.md), [5G main Wi-Fi](wireless.md), [2.4G main Wi-Fi](wireless.md), [5G Guest Wi-Fi](wireless.md) and [2.4G Guest Wi-Fi](wireless.md), with green indicating the feature is on and gray indicating the feature is off. The white color of [VPN](vpn_dashboard.md) or [Tor](tor.md) means the connection is in progress.
+- A solid green line means the network connection is active.
+- A dashed gray line means no network connection.
+- A solid white line with a yellow exclamation mark means connected but no Internet access.
 
-- The right side of the diagram shows the devices ([Clients](clients.md)) connected to the router. The devices with wireless connections are displayed above, while the devices with wired connections are displayed below. The numbers next to them represent the number of connected devices.
+**The middle** of the diagram displays the current router model and the status of [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard.md), [Tor](tor.md), [5G Main Wi-Fi](wireless.md), [2.4G Main Wi-Fi](wireless.md), [5G Guest Wi-Fi](wireless.md) and [2.4G Guest Wi-Fi](wireless.md). 
+
+- Green indicates the feature is enabled, gray indicates disabled. For VPN and Tor, white means connecting.
+- Hover your cursor over an enabled Wi‑Fi icon to display its Wi‑Fi QR code. You can scan it with your phone or tablet to connect to the corresponding Wi‑Fi network quickly.
+
+    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/wifi_qrcode.png){class="glboxshadow"}
+
+**The right side** of the diagram shows the devices ([Clients](clients.md)) connected to the router. 
+
+- Wirelessly connected devices are shown in the upper section, and wired devices in the lower section.
+- The numbers next to each section indicate the number of connected devices.
 
 ## Internet Access Methods
 
-There are up to 4 types of Internet access. Please refer to the corresponding tutorials as follows, or get started with the [Setup Wizard](#setup-wizard).
+There are up to four Internet access methods. Please refer to the corresponding tutorials below, or get started with the [Setup Wizard](#setup-wizard).
 
-- [Ethernet tutorial](internet_ethernet.md)
-- [Repeater tutorial](internet_repeater.md)
-- [Tethering tutorial](internet_tethering.md)
-- [Cellular tutorial](internet_cellular.md)
+- [Ethernet](internet_ethernet.md)
+- [Repeater](internet_repeater.md)
+- [Tethering](internet_tethering.md)
+- [Cellular](internet_cellular.md)
 
 ## Setup Wizard
 

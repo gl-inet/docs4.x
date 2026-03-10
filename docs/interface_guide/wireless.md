@@ -1,24 +1,12 @@
 # Wireless
 
-The wireless interface may vary slightly from model to model. For example, some models do not have 5 GHz Wi-Fi, such as GL-MT300N-V2 (Mango) and GL-X300B (Collie); some do not include Wi-Fi capability, such as GL-MT2500/GL-MT2500A(Brume 2).
-
-## Wi-Fi Status Display
-
-GL.iNet router’s Wi-Fi networks are enabled by default, and the corresponding Wi-Fi icon will light up below the device model image on the INTERNET page.
-
-![wifi status display](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_status_display.png){class="glboxshadow"}
-
-The Wi-Fi QR code will be displayed if the cursor hovers over the enabled Wi-Fi icon. You can scan the Wi-Fi QR code using your Phone/Pad to quickly connect to the corresponding Wi-Fi.
-
-![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_qr_code.jpg){class="glboxshadow"}
-
-## Wireless Settings
-
 On the left side of the web Admin Panel, go to **WIRELESS**.
 
-The wireless page supports setting up different Wi-Fi configurations, and it includes various Wi-Fi bands such as 2.4 GHz, 5 GHz, 6 GHz, and MLO Wi-Fi (which varies by router model), with each band further divided into Main Wi-Fi and Guest Wi-Fi networks for flexible wireless network management.
+The Wireless page supports configuring separate Wi-Fi networks, including 2.4 GHz, 5 GHz, 6 GHz, and MLO Wi-Fi (availability varies by model). Each band can be set up as a Main Wi‑Fi or Guest Wi‑Fi network for flexible wireless management.
 
-### MLO Wi-Fi
+**Note**: Some models do not support 5 GHz Wi-Fi, such as GL-MT300N-V2 (Mango) and GL-X300B (Collie); some have no Wi‑Fi function, such as GL-MT5000 (Brume 3) and GL-MT2500/GL-MT2500A (Brume 2).
+
+## MLO Wi-Fi
 
 | Supported Models               |           |
 | :----------------------------- | :-------: |
@@ -48,7 +36,7 @@ Click on the tabs below to learn about MLO Main Wi-Fi and MLO Guest Wi-Fi settin
 
     ![MLO Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
 
-### 6 GHz Wi-Fi
+## 6 GHz Wi-Fi
 
 | Supported Models               |           |
 | :----------------------------- | :-------: |
@@ -74,7 +62,7 @@ Click on the tabs below to learn about 6 GHz Main Wi-Fi and 6 GHz Guest Wi-Fi se
 
     ![6G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
 
-### 5 GHz Wi-Fi
+## 5 GHz Wi-Fi
 
 Click on the tabs below to learn about 5 GHz Main Wi-Fi and 5 GHz Guest Wi-Fi settings.
 
@@ -90,7 +78,7 @@ Click on the tabs below to learn about 5 GHz Main Wi-Fi and 5 GHz Guest Wi-Fi se
 
     ![5G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
-### 2.4 GHz Wi-Fi
+## 2.4 GHz Wi-Fi
 
 Click on the tabs below to learn about 2.4 GHz Main Wi-Fi and 2.4 GHz Guest Wi-Fi settings.
 
@@ -106,9 +94,9 @@ Click on the tabs below to learn about 2.4 GHz Main Wi-Fi and 2.4 GHz Guest Wi-F
 
     ![2.4G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
-### Note
+## Common Wi-Fi Settings
 
-* The Wi-Fi QR code will be displayed beside the SSID if the cursor hovers over the QR code icon. You can scan the Wi-Fi QR code to quickly connect to the corresponding Wi-Fi.
+* Hover your cursor over the QR code icon next to the Wi-Fi SSID to display its Wi‑Fi QR code. You can scan it with your phone or tablet to connect to the corresponding Wi‑Fi network quickly.
 
     ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_ssid_qr_code.png){class="glboxshadow"}
 

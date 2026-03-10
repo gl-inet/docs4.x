@@ -6,7 +6,7 @@ For some cellular models, you can also upgrade the module version if needed.
 
 !!! Note
 
-    Please keep the power on during the upgrade. Do **NOT** power off the router. The device will automatically reboot after upgrade, which may take a few seconds.
+    Please keep the power on during the upgrade. Do **NOT** power off the router. The device will automatically reboot after upgrade, which may take a few minutes.
 
 ## Firmware Upgrade
 
@@ -44,21 +44,23 @@ After uploaded, it will verify the firmware.
 
 Click **Install** to upgrade. 
 
-## Module Upgrade
+## Modem Upgrade
 
-Starting from v4.4.12, GL.iNet cellular routers support upgrading the cellular module via web Admin Panel. You can try to upgrade the cellular module when cellular networking fails. 
+GL.iNet cellular routers allow users to upgrade the cellular modem firmware through the web Admin Panel. 
+
+You may try a cellular module upgrade when cellular networking fails or experiences instability. We recommend contacting technical support for troubleshooting before performing the modem upgrade.
 
 ### Online Upgrade
 
-Find the current cellular module version here. If your router is connected to the Internet, it will automatically check for the latest module version directly from the manufacturer's server, simplifying the update process.
+You can find the current cellular modem version here. If your router is connected to the Internet, it will automatically check for the latest cellular modem version from the manufacturer's server, simplifying the update process.
 
-![module online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/module_online_upgrade.png){class="glboxshadow"}
+![modem online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
 
 ### Local Upgrade
 
-Manually upload a module file from your computer to update the 4G/5G module if needed.
+Manually upload a modem firmware file from your computer to update the cellular modem if needed.
 
-![module local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/module_local_upgrade.png){class="glboxshadow"}
+![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
 ---
 

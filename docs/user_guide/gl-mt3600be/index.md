@@ -4,13 +4,11 @@
 
 Beryl 7 (GL-MT3600BE) is a dual-band Wi-Fi 7 portable travel router, specifically designed for mobile scenarios such as business trips and vacations. As an upgraded version of Beryl AX, it supports Wi-Fi 7 technologies including Multi-Link Operation (MLO) and 4K QAM, with theoretical dual-band speeds reaching 688Mbps (2.4GHz) + 2882Mbps (5GHz) — able to meet high-speed needs like 8K streaming and mobile gaming.
 
-Powered by a MediaTek Quad-core processor and featuring 512MB NAND flash storage, it ensures stable multi-tasking and compatibility with various OpenWrt plugins. It is equipped with 2x 2.5G Ethernet ports (1 WAN + 1 LAN) and 1x USB 3.0 port, catering to both high-speed wired connections and storage expansion needs. With PD compatibility, it can be powered using a standard phone charger cable, reducing the weight and clutter in your luggage. Capable of supporting 120+ devices concurrently, it comes in a sleek, portable design built for life on the go.
+Powered by a MediaTek Quad-core processor and featuring 512MB NAND flash storage, it ensures stable multi-tasking and compatibility with various OpenWrt plugins. It is equipped with 2x 2.5G Ethernet ports and 1x USB 3.0 port, catering to both high-speed wired connections and storage expansion needs. With PD compatibility, it can be powered using a standard phone charger cable, reducing the weight and clutter in your luggage. Capable of supporting 120+ devices concurrently, it comes in a sleek, portable design built for life on the go.
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
 
 ## Package contents
-
-The package includes:
 
 - 1 x Beryl 7 (GL-MT3600BE)
 - 1 x Power adapter
@@ -25,15 +23,15 @@ Check out Beryl 7's unboxing video below.
 
 ## How to set up Beryl 7
 
-To set up Beryl 7, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ey-Z3MEOPpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on Beryl 7
+### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-### 2. Connect to Beryl 7
+### 2. Connect device
 
 Connect your computer or mobile device to the router via Wi-Fi or Ethernet.
 
@@ -45,11 +43,11 @@ Connect your computer or mobile device to the router via Wi-Fi or Ethernet.
 
     On your device, go to Settings -> WLAN, locate the router's Wi-Fi network name in the available networks list, and enter the password to join the network. (You can find the default network name and password printed on the label.)
 
-### 3. Log in to the WebGUI
+### 3. Log in to web Admin Panel
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**.
 
-### 4. Connect Beryl 7 to the Internet 
+### 4. Internet setup
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -100,8 +98,8 @@ Configure your Beryl 7 using one of the supported internet connection methods: E
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
 
 ---
-    
-Below is an overview of the Beryl 7 WebGUI features.
+
+Below is an overview of the features in the Beryl 7 web Admin Panel.
 
 ## Wireless
 

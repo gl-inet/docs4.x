@@ -8,24 +8,17 @@ Brume 2 (GL-MT2500/GL-MT2500A) is a lightweight and powerful VPN gateway that ru
 
 ## Package contents
 
-Please note that the adapter within the package depends on your shipping country.
-
-The package includes:
-
-- 1 x Brume 2 (GL-MT2500 or GL-MT2500A)
-- 1 x Power adapter (Selected plug type)
-- 1 x Ethernet cable
+- 1 x Brume 2 (GL-MT2500/GL-MT2500A)
 - 1 x User manual
+- 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Warranty card
+- 1 x Power adapter
+- 1 x Converter (Based on your shipping country)
 
 The following figure shows the GL-MT2500A as an example.
 
 ![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
-
-## Specifications
-
-[GL-MT2500/GL-MT2500A specifications](https://www.gl-inet.com/products/gl-mt2500/#specs){target="_blank"}
 
 ## How to set up Brume 2
 
@@ -33,19 +26,19 @@ To set up Brume 2, you will use one of the supported internet connection methods
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on Brume 2
+### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect to Brume 2
+### 2. Connect device
 
 Connect your device (e.g., computer, laptop) to the router's LAN port using an Ethernet cable. 
 
-### 3. Log in to the WebGUI
+### 3. Log in to web Admin Panel
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
-### 4. Connect Brume 2 to the Internet
+### 4. Internet setup
 
 === "Ethernet"
 

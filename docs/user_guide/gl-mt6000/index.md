@@ -8,35 +8,31 @@ Flint 2 (GL-MT6000) is a Wi-Fi 6 home and office router ideally suited for heavy
 
 ## Package contents
 
-The package includes:
-
 - 1 x Flint 2 (GL-MT6000)
-- 1 x Power adapter
-- 1 x Ethernet cable
-- 1 x User manual & warranty card
-- 1 x Converter (selected plug type)
+- 1 x User manual
 - 1 x Thank you card
+- 1 x Ethernet cable
+- 1 x Power adapter
+- 1 x Converter (Base on your shipping country)
 
 ![gl-mt6000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/first_time_setup/gl-mt6000_unboxing.jpg){class="glboxshadow"}
 
-Check out Flint 2's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt6000flint2). 
+Check out Flint 2's unboxing video below.
 
-## Specifications
-
-Refer to [gl-mt6000 specifications](https://www.gl-inet.com/products/gl-mt6000/#specs){target="_blank"}.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ru1O-zxKgKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How to set up Flint 2
 
-To set up Flint 2, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(This video uses a different GL.iNet router to demonstrate the setup but the steps are the same for Flint 2 and other router models.)</small>
 
-### 1. Power on Flint 2
+### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect to Flint 2
+### 2. Connect device
 
 Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi or Ethernet.
 
@@ -48,13 +44,13 @@ Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi 
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on the router's label.
 
-### 3. Log in to the WebGUI
+### 3. Log in to web Admin Panel
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
 When confirming the Wi‑Fi details, please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
 
-### 4. Connect Flint 2 to the Internet 
+### 4. Internet setup
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 

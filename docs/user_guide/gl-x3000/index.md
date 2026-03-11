@@ -8,16 +8,13 @@ Spitz AX (GL-X3000) is a dual-SIM Wi-Fi 6 cellular gateway designed to provide f
 
 ## Package contents
 
-Please note that the adapter within the package depends on your shipping country.
-
-The package includes:
-
 - 1 x Spitz AX (GL-X3000)
-- 1 x Power adapter (US+EU+UK+AU plugs)
-- 1 x Ethernet cable
 - 1 x User manual
-- 1 x Wall mount kit
 - 1 x Thank you card
+- 1 x Ethernet cable
+- 1 x Wall mount kit
+- 1 x Power adapter
+- 4 x Converters
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
 
@@ -34,13 +31,9 @@ The package includes:
 
 **Tips**: When connected to the Internet, a flashing 2.4GHz or 5GHz LED means that Wi-Fi devices are connected and actively transmitting data.
 
-## Specifications
-
-Refer to [GL-X3000 specifications](https://www.gl-inet.com/products/gl-x3000/#specs){target="_blank"}.
-
 ## How to set up Spitz AX
 
-To set up Spitz AX, you will use one of the four supported internet connection methods: Cellular, Ethernet, Repeater, and Tethering. Watch this setup video or follow the steps below. 
+Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/64C7dqHG2EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -52,11 +45,11 @@ To set up Spitz AX, you will use one of the four supported internet connection m
     2. Power off your router.
     3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at one time. The other SIM card functions only as a backup.)
 
-### 1. Power on Spitz AX
+### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect to Spitz AX
+### 2. Connect device
 
 Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi or Ethernet.
 
@@ -68,13 +61,13 @@ Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi 
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on your router's label.
 
-### 3. Log in to the WebGUI
+### 3. Log in to web Admin Panel
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
 When confirming the Wi‑Fi details, please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
 
-### 4. Connect Spitz AX to the Internet 
+### 4. Internet setup
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions. 
 

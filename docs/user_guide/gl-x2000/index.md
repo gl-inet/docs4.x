@@ -8,10 +8,6 @@ Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to 
 
 ## Package contents
 
-Please note that the adapter within the package depends on your shipping country.
-
-The package includes:
-
 - 1 x Spitz Plus (GL-X2000)
 - 1 x User manual
 - 4 x External antennas
@@ -35,10 +31,6 @@ The package includes:
 | Resetting router (hold down "reset" button for > 3s)                          | Blinkng green (every 1s)             | Green                       | Green                       | Green                       | Green   |
 | Restoring router to factory settings (hold down "reset" button for 10s)       | Fast blinking green (every 0.25s)    | Green                       | Green                       | Green                       | Green   | 
 
-## Specifications
-
-Refer to [Specifications](https://www.gl-inet.com/products/gl-x2000/#specs){target="_blank"}. 
-
 ## How to set up Spitz Plus
 
 To set up Spitz Plus, you will use one of the four supported internet connection methods: Cellular (SIM required), Ethernet, Repeater, and Tethering. Watch this setup video or follow the steps below. 
@@ -54,11 +46,11 @@ To set up Spitz Plus, you will use one of the four supported internet connection
     2. Power off your router.
     3. Insert the SIM card(s) into the SIM card slots. (**Note:** Only one SIM card is active at one time. The other SIM card functions only as a backup.)
 
-### 1. Power on Spitz Plus
+### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect to Spitz Plus
+### 2. Connect device
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -72,11 +64,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on your router's label.
 
-### 3. Log in to the WebGUI
+### 3. Log in to web Admin Panel
 
 Launch a web browser, enter `192.168.8.1` in the address bar, and you will enter the GL.iNet Web Admin Panel. Choose a language and set your admin password, then click **Apply**. 
 
-### 4. Connect Spitz Plus to the Internet 
+### 4. Internet setup
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -132,7 +124,7 @@ Configure your Spitz Plus using one of the supported internet connection methods
 
 ---
 
-Below is an overview of the Spitz Plus WebGUI features.
+Below is an overview of the features in the Spitz Plus web Admin Panel.
 
 ## Wireless
 

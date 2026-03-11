@@ -8,8 +8,6 @@ Brume 3 (GL-MT5000) is a high-performance security gateway running OpenWrt v21.0
 
 ## Package contents
 
-The package includes:
-
 - 1 x Brume 3 (GL-MT5000)
 - 1 x Power adapter
 - 1 x Ethernet cable
@@ -23,21 +21,25 @@ Check out Brume 3's unboxing video below.
 
 ## How to set up Brume 3
 
+Watch this setup video or follow the steps below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RwbdUy79WHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your Brume 3 and plug it into an outlet. It will start up automatically.
 
-### 2. Connect to Brume 3
+### 2. Connect device
 
 Connect a wired device (e.g., a computer or laptop) to the Brume 3's LAN port via an Ethernet cable.
 
-### 3. Log in to the WebGUI
+### 3. Log in to web Admin Panel
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. 
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
 
-### 4. Connect Brume 3 to the Internet
+### 4. Internet setup
 
 Configure your Brume 3 using one of the supported internet connection methods: Ethernet, Tethering, and Cellular (optional). If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
@@ -72,6 +74,10 @@ Configure your Brume 3 using one of the supported internet connection methods: E
     Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Cellular" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
 
     Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
+
+---
+
+Below is an overview of the features in the Brume 3 web Admin Panel.
 
 ## Clients
 

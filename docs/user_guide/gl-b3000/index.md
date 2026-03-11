@@ -8,39 +8,32 @@ The Marble (GL-B3000) router is an art of its own, cleverly displayed as a photo
 
 ## Package contents
 
-Please note that the adapter within the package depends on your shipping country.
-
-The package includes:
-
-- 1 x User manual
 - 1 x Marble (GL-B3000)
-- 1 x Ethernet cable
+- 1 x User manual
 - 1 x Thank you card
+- 1 x Ethernet cable
 - 1 x Wall mount kit
-- 1 x Power adapter (Selected plug type)
 - 1 x Adhesive pad
 - 1 x Router stand
 - 1 x Photo frame (Optional)
+- 1 x Power adapter
+- 1 x Converter (Based on your shipping country)
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
-## Specifications
-
-Refer to [Specifications](https://www.gl-inet.com/products/gl-b3000/#specs){target="_blank"}. 
-
 ## How to set up Marble
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+Watch these installation and setup videos or follow the steps below. 
 
-To set up Marble, you will use one of the two supported internet connection methods: Ethernet and repeater. Watch this setup video or follow the steps below. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AiIC_HdJfws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-U2WTVYRkPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on Marble
+### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect to Marble
+### 2. Connect device
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or ethernet cable.
 
@@ -52,11 +45,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the list of available networks and enter the password. (You can find the default network name and password printed on your router's label.)
 
-### 3. Log in to the WebGUI
+### 3. Log in to web Admin Panel
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
 
-### 4. Connect Marble to the Internet 
+### 4. Internet setup
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 

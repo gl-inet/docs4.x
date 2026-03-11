@@ -10,8 +10,6 @@ Equipped with 2× 2.5G Ethernet ports (1 WAN + 1 LAN) and 1× USB 3.0 port, the 
 
 ## Package contents
 
-The package includes:
-
 - 1 x Slate 7 (GL-BE3600)
 - 1 x User manual
 - 1 x Thank you card
@@ -28,12 +26,12 @@ Check out Slate 7's unboxing video below.
 
 ## How to set up Slate 7
 
-To set up Slate 7, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(In this video we demonstrate the setup by configuring Slate 7 as Repeater. If you need to configure Slate 7 by other Internet connetion methods, please refer to the steps below.)</small>
 
-### 1. Power on Slate 7
+### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
@@ -53,11 +51,11 @@ Put the two-piece power adapter together. Connect it to your router and plug it 
 
     ![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
 
-    | Color               | Status                         |
-    | :------------------ | :----------------------------- |
-    | Green               | Network connected              |
-    | Yellow              | Network connecting or abnormal connection (e.g., no internet access)   |
-    | White               | No network connection          |
+    | Color               | Status                           |
+    | :------------------ | :------------------------------- |
+    | Green               | Active / Connected to Internet   |
+    | Yellow              | Connecting / Network Failure     |
+    | White               | Inactive connection              |
 
     Click on any of these icons to view the network status or detailed configuration information.
 
@@ -117,7 +115,7 @@ Put the two-piece power adapter together. Connect it to your router and plug it 
 
         ![slide to unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){class="glboxshadow"}
 
-### 3. Connect to Slate 7
+### 3. Connect device
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -129,11 +127,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on your router's label.
 
-### 4. Log in to the WebGUI
+### 4. Log in to web Admin Panel
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**. 
 
-### 5. Connect Slate 7 to the Internet 
+### 5. Internet setup
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -185,7 +183,7 @@ Configure your Slate 7 using one of the supported internet connection methods: E
 
 ---
 
-Below is an overview of the Slate 7 WebGUI features.
+Below is an overview of the features in the Slate 7 web Admin Panel.
 
 ## Wireless
 

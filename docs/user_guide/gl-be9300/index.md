@@ -10,8 +10,6 @@ It features 5× 2.5G Ethernet ports (1 dedicated WAN, 1 switchable WAN/LAN, 3 LA
 
 ## Package contents
 
-The package includes:
-
 - 1 x Flint 3 (GL-BE9300)
 - 1 x Power adapter
 - 1 x Ethernet cable
@@ -25,15 +23,15 @@ Check out Flint 3's unboxing video below.
 
 ## How to set up Flint 3
 
-To set up Flint 3, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WQqD-8NrAOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on Flint 3
+### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect to Flint 3
+### 2. Connect device
 
 Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi or Ethernet.
 
@@ -45,11 +43,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi 
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on the router's label.
 
-### 3. Log in to the WebGUI
+### 3. Log in to web Admin Panel
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
 
-### 4. Connect Flint 3 to the Internet 
+### 4. Internet setup
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 
@@ -101,7 +99,7 @@ Configure your Flint 3 using one of the supported internet connection methods: E
 
 ---
     
-Below is an overview of the Flint 3 WebGUI features.
+Below is an overview of the features in the Flint 3 web Admin Panel.
 
 ## Wireless
 

@@ -8,37 +8,28 @@ Opal (GL-SFT1200) is a pocket-sized travel router supporting 1200Mbps wireless t
 
 ## Package contents
 
-Please note that the adapter within the package depends on your shipping country.
-
-The package includes:
-
-- 1 x User manual
 - 1 x Opal (GL-SFT1200)
+- 1 x User manual
 - 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
+- 1 x Power adapter
+- 1 x Converter (Based on your shipping country)
 
 ![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
 
-Check out Opal's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-sft1200-opal).
-
-## Specifications
-
-[GL-SFT1200 specifications](https://www.gl-inet.com/products/gl-sft1200/#specs){target="_blank"}
-
 ## How to set up Opal
 
-To set up Opal, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+Watch this setup video or follow the steps below. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(This video uses a different GL.iNet router to demonstrate the setup, but the steps are the same for Opal and other router models.)</small>
 
-### 1. Power on Opal
+### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-### 2. Connect to Opal
+### 2. Connect device
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -50,13 +41,13 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on the router's bottom label.
 
-### 3. Log in to the WebGUI
+### 3. Log in to web Admin Panel
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
 Please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
 
-### 4. Connect Opal to the Internet 
+### 4. Internet setup
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 

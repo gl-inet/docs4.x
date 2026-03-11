@@ -10,10 +10,6 @@ Equipped with a touchscreen, the Mudi 7 allows you to monitor real-time data usa
 
 ## Package contents
 
-Please note that the adapter within the package depends on your shipping country.
-
-The package includes:
-
 - 1 x Mudi 7 (GL-E5800)
 - 1 x Battery Pack
 - 1 x 10Gbps USB-C Cable
@@ -32,7 +28,9 @@ Watch this setup video or follow the steps below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6xg8I0ohAMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Install Nano-SIM card
+### 1. Install SIM card
+
+Install Nano-SIM card(s) on your Mudi 7. If you prefer using eSIM, skip this and turn to step 2.
 
 First, remove the battery cover, then take out Mudi 7's battery.
 
@@ -44,35 +42,17 @@ Finally, put the battery and the cover back.
 
 ### 2. Power on
 
-Press and hold the Power Button for **3 seconds**, or plug in a power adapter.
+Press and hold the Power button for **3 seconds**, or plug in a power adapter.
 
 ![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power_on.png){class="glboxshadow"}
 
-Then follow the on-screen instructions to complete the device initialization, or follow the steps below to proceed.
+### 3. Basic settings
 
-### 3. Connect to Mudi 7
+Follow the on-screen instructions to configure basic settings, including **screen passcode**, **admin password**, **Wi-Fi name**, **Wi-Fi password** and **frequency bands**.
 
-Connect a device (e.g., computer, laptop or smartphone) to the Mudi 7 via Wi-Fi, an Ethernet cable, or even via a USB cable.
+**Tip**: The default admin password is the last 9 characters of the device's S/N, followed by a # character. You may use the default password or set a custom one.
 
-- **Wi-Fi**
-
-    <u>QR code</u>: Use a device to scan the QR code on the screen of Mudi 7. Then click "Join" on your device to connect.
-
-    <u>Manual Connect</u>: On your device, go to Settings -> WLAN, locate the Wi-Fi network name of Mudi 7 in the available networks list, and enter the password to join the network. (You can find the default network name and password printed on the label.)
-
-- **Ethernet**
-
-    Connect your device to the Ethernet port (default LAN) of Mudi 7 via an Ethernet cable. 
-
-- **USB**
-
-    Connect your device to the USB-C port of Mudi 7 via a USB cable. The OTG-enabled USB-C port allows you to access the Mudi 7's WebGUI in the next step.
-
-### 4. Log in to the WebGUI
-
-Open a web browser, enter `192.168.8.1` in the address bar, then access the login page of Mudi 7. Choose your language, set your admin password, then click **Apply**.
-
-### 5. Connect Mudi 7 to the Internet
+### 4. Internet setup
 
 Configure your Mudi 7 using one of the supported internet connection methods: Cellular, Ethernet, Repeater, Tethering, and USB Ethernet. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
@@ -82,7 +62,7 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
     
     Mudi 7 comes with a **built-in eSIM** and **dual Nano‑SIM** slots. You can connect to the Internet by purchasing an eSIM package (no physical SIM card required), or insert your Nano‑SIM cards to access the 5G mobile network.
     
-    - eSIM: On the touchscreen, go to **Cellular** -> **Active SIM Card**, enable eSIM, then upload your eSIM profile or purchase it in the eSIM Profile Store. 
+    - eSIM: On the touchscreen, go to **Cellular** -> **Active SIM Card**, enable eSIM, then upload your eSIM profile through the web Admin Panel, or purchase it in the eSIM Profile Store. 
 
     - Nano‑SIM: Remove the back cover of Mudi 7, take out the battery, insert your Nano-SIM card into the slot, then install the battery. 
 
@@ -174,9 +154,30 @@ Remove the back cover, and you will find the reset button as shown below.
     
     This will clear all your settings. Please proceed with caution.
 
----
+## Log in to web Admin Panel
 
-Below is an overview of the Mudi 7 WebGUI features.
+You can log into the Mudi 7 web Admin Panel to configure or check more settings.
+
+First, connect a device (e.g., computer, laptop or smartphone) to the Mudi 7 via Wi-Fi, an Ethernet cable, or a USB cable.
+
+- **Wi-Fi**
+
+    - <u>QR code</u>: Use your device to scan the QR code on the Mudi 7 screen. Then click "Join" on your device to connect.
+    - <u>Manual Connect</u>: On your device, go to Settings -> WLAN, locate the Wi-Fi network name of Mudi 7 in the available networks list, and enter the password to join the network. (You can find the default network name and password printed on the label.)
+
+- **Ethernet**
+
+    Connect your device to the Ethernet port (default LAN) of Mudi 7 via an Ethernet cable. 
+
+- **USB**
+
+    Connect your device to the USB-C port of Mudi 7 via a USB cable. The OTG-enabled USB-C port allows you to access the Mudi 7's WebGUI in the next step.
+
+Then open a web browser and enter `192.168.8.1` in the address bar to access the login page. Select your language, set your admin password, and click **Apply**.
+
+You will then be logged into the Mudi 7 web Admin Panel.
+
+Below is an overview of the features in the Mudi 7 web Admin Panel.
 
 ## Wireless
 

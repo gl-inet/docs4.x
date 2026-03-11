@@ -8,36 +8,27 @@ Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi
 
 ## Package contents
 
-Please note that the adapter within the package depends on your shipping country.
-
-The package includes:
-
-- 1 x User manual
 - 1 x Beryl AX (GL-MT3000)
+- 1 x User manual
 - 1 x Ethernet cable
 - 1 x Thank you card
 - 1 x Warranty card
-- 1 x Converter (Selected plug type)
+- 1 x Power adapter
+- 1 x Converter (Based on your shipping country)
 
 ![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
 
-Check out Beryl AX's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt3000beryl-ax).
-
-## Specifications
-
-[GL-MT3000 specifications](https://www.gl-inet.com/products/gl-mt3000/#specs){target="_blank"}
-
 ## How to set up Beryl AX
 
-To set up Beryl AX, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Watch this setup video or follow the steps below. 
+Watch this setup video or follow the steps below. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on Beryl AX
+### 1. Power on
 
 Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
-### 2. Connect to Beryl AX
+### 2. Connect device
 
 Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi or Ethernet.
 
@@ -49,13 +40,13 @@ Connect a device (e.g., computer, laptop or smartphone) to the router via Wi-Fi 
 
     On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on your router's label.
 
-### 3. Log in to the WebGUI
+### 3. Log in to web Admin Panel
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**. 
 
 When confirming the Wi‑Fi details, please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
 
-### 4. Connect Beryl AX to the Internet 
+### 4. Internet setup
 
 **Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. If you prefer using the GL.iNet app, [download the app](https://www.gl-inet.com/app/){target="_blank"} and follow the on-screen instructions.
 

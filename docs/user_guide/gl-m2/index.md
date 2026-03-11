@@ -2,13 +2,11 @@
 
 ## Hardware info
 
-GL-M2 is for DIY enthusiasts who would like to build their own routers and modems. With GL-M2's 5G Module and 5G antennas, it provides a quality 5G cellular network.
+GL-M2 is a 5G development board for DIY enthusiasts who would like to build their own routers and modems. With GL-M2's 5G Module and 5G antennas, it provides a quality 5G cellular network.
 
 ![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [GL-M2 specifications](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
-
----
 
 ## Package contents
 
@@ -24,8 +22,6 @@ The package includes:
 - 1 x Universal Plug Adapter (US, EU, UK & AU)
 - 1 x 5G Module (Optional)
 - 1 x Type-C Cable
-
----
 
 ## First-time setup
 
@@ -55,34 +51,38 @@ Watch this video or follow the steps below.
 
   - When the power indicator light is lit in red, it indicates a functioning power supply.
 
----
+## Connect M2 to GL.iNet routers
 
-## Connect GL-M2 to GL.iNet routers
+GL-M2 (with 5G module RM520N-GL installed) is compatible with the following models:
 
-GL-M2 (with 5G Module RM520N-GL installed) is compatible with the following devices:
+- Slate 7 Pro (GL-BE10000)
+- Brume 3 (GL-MT5000)
+- Beryl 7 (GL-MT3600BE)
+- Flint 3e (GL-BE6500)
+- Flint 3 (GL-BE9300)
+- Slate 7 (GL-BE3600)
+- Flint 2 (GL-MT6000)
+- Flint (GL-AX1800)
+- Beryl AX (GL-MT3000)
+- Slate AX (GL-AXT1800)
+- Brume 2 (GL-MT2500)
 
-- Slate 7 (GL-BE3600) : Firmware version 4.7.1 or above.
+**Note**: The compatible router list above is validated with the **RM520N‑GL** 5G module. Compatibility with other modules is not guaranteed.
 
-- Flint 2 (GL-MT6000) : Firmware version 4.5.1 or above.
+Follow the steps below to connect the M2 to your GL.iNet router.
 
-- Flint (GL-AX1800): Firmware version 4.2.3 or above
+1. Connect the M2 to a GL.iNet router using a USB cable.
 
-- Slate AX (GL-AXT1800), Beryl AX (GL-MT3000) & Brume 2 (GL-MT2500) : Firmware version 4.2.1 and above.
+2. Connect a device (such as a computer or laptop) to the GL.iNet router using an Ethernet cable. 
 
-!!! note
+3. On your device, open a web browser, go to [http://192.168.8.1](http://192.168.8.1) and log in to the web Admin Panel.
 
-    The above compatible router list is obtained by using a 5G Module **RM520N-GL**. Compatibility with other modules is not guaranteed.
+    ![Connect GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_1.png){class="glboxshadow"}
 
-<span></span>
+4. On the **INTERNET** page, click **Auto Setup** in the Cellular section to connect to the Internet.
 
-1. Connect M2 to a GL.iNet router, and use an ethernet cable to connect the GL.iNet router to a computer. Visit [http://192.168.8.1](http://192.168.8.1) on a browser to enter the web Admin Panel.
+    ![Connect GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_2.png){class="glboxshadow"}
 
-    ![Connecting GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_1.png){class="glboxshadow"}
+5. Once connected successfully, the page will display the connection details as shown below. 
 
-2. Click on ***Auto Setup*** under the ***INTERNET*** section to connect to the Internet.
-
-    ![Connecting GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_2.png){class="glboxshadow"}
-
-3. The network connection has been made successfully. 
-
-    ![Connecting GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_3.png){class="glboxshadow"}
+    ![Connect GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_3.png){class="glboxshadow"}

@@ -28,6 +28,10 @@ Check out Mudi 7's unboxing video below.
 
 ## How to set up Mudi 7
 
+Watch this setup video or follow the steps below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6xg8I0ohAMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 1. Install Nano-SIM card
 
 First, remove the battery cover, then take out Mudi 7's battery.

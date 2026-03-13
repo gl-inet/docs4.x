@@ -12,7 +12,7 @@
 
 1. GL.iNetサーバーからQFirehoseを取なければならないし、QFirehoseファイルのSHA256が正しいことを確認します
 
-    で下のコマンドを使用してQFirehoseを取なければならないします
+    以下のコマンドを使用してQFirehoseを取なければならないします
 
     ```
     cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/QFirehose-ar9531-sha256-7383f4
@@ -32,7 +32,7 @@
 
 3. Quectelモジュールソフトウェアを取なければならないし、アップ圧縮します（例：EP06-A。彼のモジュールソフトウェアの場合は、文書の最も後の注意事項を参照してください）
 
-    `/tmp/mountd/disk1_part1`は私のUSBフラッシュディスクのパスです。あなたのパスに変よりする必要があります
+    `/tmp/mountd/disk1_part1`は私のUSBフラッシュディスクのパスです。あなたのパスに変更する必要があります
 
     ```
     wget https://fw.gl-inet.com/tools/quectel_module_software/EP06ALAR02A08M4G_01.004.01.004.zip -P /tmp/mountd/disk1_part1/
@@ -66,7 +66,7 @@
 
 1. GL.iNetサーバーからQFirehoseを取なければならないし、QFirehoseファイルのSHA256が正しいことを確認します
 
-    で下のコマンドを使用してQFirehoseを取なければならないします
+    以下のコマンドを使用してQFirehoseを取なければならないします
 
     ```
     cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/QFirehose-mtk7981a-sha256-c0b944

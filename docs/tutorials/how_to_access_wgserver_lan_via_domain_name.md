@@ -34,7 +34,7 @@ VPNサーバールーターのWeb管理パネルにログインし、**NETWORK**
 
     ![server allow access lan 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server-allow-access-lan-4.8.png){class="glboxshadow"}
 
-    **有効にすると、このルーターとLANデバイスにVPN経よりでリモートアクセスできます。**
+    **有効にすると、このルーターとLANデバイスにVPN経由でリモートアクセスできます。**
  
 ??? "ファームウェアv4.7で前のサーバールーターの場合"
 
@@ -46,7 +46,7 @@ VPNサーバールーターのWeb管理パネルにログインし、**NETWORK**
 
     ![server allow access lan 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server-allow-access-lan-4.7.png){class="glboxshadow"}
 
-    **有効にすると、このルーターとLANデバイスにVPN経よりでリモートアクセスできます。**
+    **有効にすると、このルーターとLANデバイスにVPN経由でリモートアクセスできます。**
 
 ### 3. VPN設定のエクスポート
 
@@ -54,7 +54,7 @@ VPNサーバールーターのWeb管理パネルにログインし、**NETWORK**
 
 ![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/export_config.png){class="glboxshadow"}
 
-で下のとおり**設定ファイル**を取なければならないできます。
+以下のとおり**設定ファイル**を取なければならないできます。
 
 ![downloads](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/downloads.png){class="glboxshadow"}
 

@@ -22,7 +22,7 @@ VPNクライアントのWeb管理パネルにログインし、**VPN** -> **VPN 
 
 オプション**Allow Access WAN**はファームウェアv4.8のVPN Dashboardから削除されました。しかし、VPNポリシーを通じてローカルWANアクセスを達成できます。
 
-で下の手順に従ってください。
+以下の手順に従ってください。
 
 1. VPNクライアントのWeb管理パネルにログインし、**VPN** -> **VPN Dashboard**に移動します。
 
@@ -44,7 +44,7 @@ VPNクライアントのWeb管理パネルにログインし、**VPN** -> **VPN 
 
     **Exclude Speficied Domain / IP**を選択し、ルー器のWANサブネットを入力し、**Apply**をクリックします。
 
-    これにより、WANサブネットへのすべてのトラフィックがVPNトンネルではなくローカルWAN経よりでルーされます。
+    これにより、WANサブネットへのすべてのトラフィックがVPNトンネルではなくローカルWAN経由でルーされます。
 
     ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target.png){class="glboxshadow"}
 
@@ -56,7 +56,7 @@ VPNクライアントのWeb管理パネルにログインし、**VPN** -> **VPN 
     
         GL.iNetルー器のWANサブネットは通例INTERNETページで確認できます。ルー器のWANインターフェースが接続する上位機器（ISPモデムや上位ゲートウェイなど）によって決まります。
 
-         例를 들어,ルー器が二次ルー器として機できるしている場合（WANポートがISPモデムやメインルー器のLANポートなど別のローカルネットワークに接続されている場合）、ルー器のWAN IPが192.168.1.165、ゲートウェイが192.168.1.1、サブネットマスクが255.255.255.0（小规模ネットワークの一般のなマスク）の場合、対応するWANサブネットは192.168.1.0/24です。これは上位機器のLANサブネットでもあります。
+         例えば、ルー器が二次ルー器として機能している場合（WANポートがISPモデムやメインルー器のLANポートなど別のローカルネットワークに接続されている場合）、ルー器のWAN IPが192.168.1.165、ゲートウェイが192.168.1.1、サブネットマスクが255.255.255.0（小规模ネットワークの一般的なマスク）の場合、対応するWANサブネットは192.168.1.0/24です。これは上位機器のLANサブネットでもあります。
 
         ![check wan subnet](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/local-wan-details.png){class="glboxshadow gl-80-desktop"}
 
@@ -68,7 +68,7 @@ VPNクライアントのWeb管理パネルにログインし、**VPN** -> **VPN 
 
     **Use VPN**を選択し、VPN設定ファイルを選択して**Apply**をクリックします。
     
-    利用可できるな設定がない場合は、まずルー器をVPNクライアントとして設定する設定をアップロードしてください。次にこのページに移動し、Use VPNを選択してVPN設定ファイルを選択してApplyをクリックします。
+    利用可能な設定がない場合は、まずルー器をVPNクライアントとして設定する設定をアップロードしてください。次にこのページに移動し、Use VPNを選択してVPN設定ファイルを選択してApplyをクリックします。
 
     ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select-config-2.jpg){class="glboxshadow"}
 
@@ -76,7 +76,7 @@ VPNクライアントのWeb管理パネルにログインし、**VPN** -> **VPN 
 
     ![enable vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/enable_vpn.png){class="glboxshadow"}
 
-    しばらくお待ちください。正常に 接続すると緑に変よりされます。
+    しばらくお待ちください。正常に 接続すると緑に変更されます。
 
     ![vpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/vpn_connected.png){class="glboxshadow"}
 

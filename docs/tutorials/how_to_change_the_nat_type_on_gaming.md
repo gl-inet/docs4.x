@@ -1,12 +1,12 @@
-# ゲームでNATタイプを変よりする方法
+# ゲームでNATタイプを変更する方法
 
 ほとんどのゲーム開発者は、より好のなNATタイプを取なければならないするためにルー器でUPnPを有効にするように求めますが、UPnPは安全でないプロトコルであることが研究で示されています。
 
-より安全な方法で、DMZまたはポート転送の機できるを使用して same じ目のを達成できます。
+より安全な方法で、DMZまたはポート転送の機能を使用して同じ目のを達成できます。
 
 ## ゲームのIPを確認
 
-クライアントリストに移動し、ゲームに割り当てられたIPを確認します。このIPアドレスをで下の設定で使用する必要があります。
+クライアントリストに移動し、ゲームに割り当てられたIPを確認します。このIPアドレスを以下の設定で使用する必要があります。
 
 ![gameip](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
@@ -47,7 +47,7 @@ TCP 3074
 
 ![conenat](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/conenat.png){class="glboxshadow"}
 
-* この機できるはファームウェア4.5で上で利用可できるです。
+* この機能はファームウェア4.5で上で利用可能です。
 
 ---
 

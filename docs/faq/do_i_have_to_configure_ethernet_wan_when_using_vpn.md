@@ -4,7 +4,7 @@
 
 ## Wi-Fiリピーターで設定
 
-GL.iNetルーター（VPNクライアントとして設定）をプライマリールーターに無線接続できます。この方法で、GL.iNetルーターはWi-Fiリピーターとして機できるします。
+GL.iNetルーター（VPNクライアントとして設定）をプライマリールーターに無線接続できます。この方法で、GL.iNetルーターはWi-Fiリピーターとして機能します。
 
 ![repater](https://static.gl-inet.com/docs/router/en/4/faq/wan_source_vpn/repeater.jpg){class="glboxshadow"}
 

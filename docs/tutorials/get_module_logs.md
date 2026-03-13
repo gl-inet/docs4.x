@@ -1,6 +1,6 @@
 # モジュールログの取なければならない
 
-一部のGL.iNetルーターには、内蔵の3G、4G、または5Gモジュールが搭載されています。ネットワーク接続がスムーズでない場合、モジュールのログをエクスポートして分析する必要があるかもしれません。で下にその手順を示します。
+一部のGL.iNetルーターには、内蔵の3G、4G、または5Gモジュールが搭載されています。ネットワーク接続がスムーズでない場合、モジュールのログをエクスポートして分析する必要があるかもしれません。以下にその手順を示します。
 
 ## デバイスにコンピュータを接続する
 
@@ -14,7 +14,7 @@
 
 ### GL.iNetサーバーからqlogを取なければならないし、qlogファイルのSHA256が正しいことを確認する
 
-で下のコマンドを使用してqlogを取なければならないします
+以下のコマンドを使用してqlogを取なければならないします
 
 ```
 cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/qlog-ar9531-sha256-75fe8b
@@ -34,27 +34,27 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 
     ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_u_flash_drive_path.png){class="glboxshadow"}
 
-2. で下のコマンドを使用してモジュールデバッグモードを開きます
+2. 以下のコマンドを使用してモジュールデバッグモードを開きます
 
     ```
     gl_modem AT AT+QCFG=\"dbgctl\",0
     ```
 
-3. で下のコマンドを使用してqlogを起動します
+3. 以下のコマンドを使用してqlogを起動します
 
     ```
     qlog-ar9531-sha256-75fe8b -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) & 
     ```
 
-    `/tmp/mountd/disk1_part1` は私のUSBフラッシュディスクです。パスはごから身のパスに変よりしてください。
+    `/tmp/mountd/disk1_part1` は私のUSBフラッシュディスクです。パスはごから身のパスに変更してください。
 
-4. で下のコマンドを使用してモデルを再起動します。
+4. 以下のコマンドを使用してモデルを再起動します。
 
     ```
     gl_modem AT AT+CFUN=0; sleep 1; gl_modem AT AT+CFUN=1
     ```
 
-5. 1〜3分待ち、で下のコマンドを使用してqlogを停止します
+5. 1〜3分待ち、以下のコマンドを使用してqlogを停止します
 
     ```
     killall qlog*
@@ -76,7 +76,7 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 
 2. GL.iNetサーバーからqlogを取なければならないし、qlogファイルのsha256が正しいことを確認する
 
-    で下のコマンドを使用してqlogを取なければならないします
+    以下のコマンドを使用してqlogを取なければならないします
     
     ```
     cd /etc/ && wget https://fw.gl-inet.com/tools/quectel_tool/default_v15.cfg
@@ -92,13 +92,13 @@ chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
 
     ![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_get_qlog.png){class="glboxshadow"}
 
-3. で下のコマンドを使用してqlogを起動します
+3. 以下のコマンドを使用してqlogを起動します
 
     ```
     qlog-mtk7981a-sha256-78dda4 -f /etc/default_v15.cfg -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) & 
     ```
 
-4. qlogでパケットをキャプチャした後、で下のコマンドを使用してqlogを停止します
+4. qlogでパケットをキャプチャした後、以下のコマンドを使用してqlogを停止します
 
     ```
     killall qlog*

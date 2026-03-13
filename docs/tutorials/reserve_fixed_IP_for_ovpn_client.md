@@ -1,6 +1,6 @@
 # から行构建のOpenVPN接続でOpenVPNクライアントに固定IPを予約する方法
 
-このチュートリアルでは、サーバーに接続するOpenVPNクライアントに固定IPを予約する方法を説明します。で下の手順に従う前に、まずGL.iNetルー器官をOpenVPNサーバーとして設定してください。
+このチュートリアルでは、サーバーに接続するOpenVPNクライアントに固定IPを予約する方法を説明します。以下の手順に従う前に、まずGL.iNetルー器官をOpenVPNサーバーとして設定してください。
 
 1. OpenVPNサーバーのWeb管理パネルにログインし、左サイドバーで**VPN** -> **OpenVPNサーバー**に移動します。
 
@@ -12,7 +12,7 @@
 
     ![ovpn users](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_users.png){class="glboxshadow"}
 
-3. SSHでルー器官にログインし、で下のコマンドを実行してOpenVPNサーバー設定スクリプトファイルを開きます：
+3. SSHでルー器官にログインし、以下のコマンドを実行してOpenVPNサーバー設定スクリプトファイルを開きます：
 
     `vi /lib/netifd/proto/openserver.sh`
 

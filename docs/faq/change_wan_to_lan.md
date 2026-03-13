@@ -1,8 +1,8 @@
-# WANをLANに変より
+# WANをLANに変更
 
-ルーターのWANポートをLANポートとして使用できます。これは、WANポートが不要なリピーターモードでルーターを使用する場合に便利です。WANポートをLANポートに変よりすると、追加のLANポート用に拡張接続できます。
+ルーターのWANポートをLANポートとして使用できます。これは、WANポートが不要なリピーターモードでルーターを使用する場合に便利です。WANポートをLANポートに変更すると、追加のLANポート用に拡張接続できます。
 
-で下の手順に従って、WANをLANに変よりしてください。
+以下の手順に従って、WANをLANに変更してください。
 
 ## ファームウェア4.7で上
 
@@ -18,7 +18,7 @@
 
 	![port management](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/port_management.jpg){class="glboxshadow"}
 
-4. **LAN**をクリックしてイーサネットポートのプロパティを変よりし、**適用**をクリックします。
+4. **LAN**をクリックしてイーサネットポートのプロパティを変更し、**適用**をクリックします。
 
 	![switch to lan apply](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/switch_to_lan_apply.jpg){class="glboxshadow"}
 
@@ -26,7 +26,7 @@
 	
 	![caution](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/caution.png){class="glboxshadow"}
 
-	**注意**: このプロセス中にWi-Fiが一時のに切断される場合があります。完たしたら、必ずルーターに再接続してください。
+	**注意**: このプロセス中にWi-Fiが一時的に切断される場合があります。完了したら、必ずルーターに再接続してください。
 
 5. イーサネットセクションに戻ると、WANポートがLANポートとして使用されていることが表示されます。
 
@@ -40,7 +40,7 @@
 
 2. デバイスをルーターに接続し、ウェブ管理パネルにアクセスします。
 
-3. ウェブ管理パネルで、**インターネット** → **イーサネット**セクションに移動すると、WANポートの状態が**WANとして使用中**と表示されます。**LANに変より**をクリックします。
+3. ウェブ管理パネルで、**インターネット** → **イーサネット**セクションに移動すると、WANポートの状態が**WANとして使用中**と表示されます。**LANに変更**をクリックします。
 
 	![internet page](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
 
@@ -48,7 +48,7 @@
 
 	![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
 
-	**注意**: このプロセス中にWi-Fiが一時のに切断される場合があります。完たしたら、必ずルーターに再接続してください。
+	**注意**: このプロセス中にWi-Fiが一時的に切断される場合があります。完了したら、必ずルーターに再接続してください。
 
 5. イーサネットセクションに戻ると、`LANとして使用中`と表示されます。
 

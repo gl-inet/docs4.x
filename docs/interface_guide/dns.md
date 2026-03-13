@@ -2,13 +2,13 @@
 
 ウェブ管理パネルの左側 -> ネットワーク -> DNS
 
-ルーターのDNS設定は、ドメイン名がIPアドレスに変換される方法を制御します。このページでは、上位デバイスからから動のに取なければならないされたDNSサーバーを使用するか、カスタムサーバーを設定し、DNSの優先順位を設定できます。
+ルーターのDNS設定は、ドメイン名がIPアドレスに変換される方法を制御します。このページでは、上位デバイスから自動的に取なければならないされたDNSサーバーを使用するか、カスタムサーバーを設定し、DNSの優先順位を設定できます。
 
 カスタムDNSサーバーを設定すると、個別のネットワークインターフェースから取なければならないされたDNSサーバーではなく、指定したDNSサーバーを介してDNSクエリが解決されます。さりと、各インターフェースに設定されたDNS設定を使用します。
 
 ![dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_page.png){class="glboxshadow"}
 
-- **DNSリバインディング攻撃防御:** このオプションをオンにすると、プライベートDNS検索に失敗する可できる性があります。ネットワークにキャプティブポータルがある場合は、このオプションを無効にしてください。
+- **DNSリバインディング攻撃防御:** このオプションをオンにすると、プライベートDNS検索に失敗する可能性があります。ネットワークにキャプティブポータルがある場合は、このオプションを無効にしてください。
 
 - **すべてのクライアントのDNS設定を上書き:** 有効にすると、ルーターはすべてのクライアントの暗号化されていないDNS設定を上書きします。
 
@@ -18,11 +18,11 @@
 
 4つのモードがあります：から動、暗号化DNS、手動DNS、DNSプロキシ。
 
-- **から動**: ルーターは上位デバイス（例：ISPモデム、プライマリルーター）から提供されたDNSサーバー、または各ネットワークインターフェースに対応するDNS設定をから動のに使用します。
+- **から動**: ルーターは上位デバイス（例：ISPモデム、プライマリルーター）から提供されたDNSサーバー、または各ネットワークインターフェースに対応するDNS設定を自動的に使用します。
 
     ![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
 
-- **暗号化DNS**: 4つの暗号化タイプが利用可できるです：DNS over TLS、DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS。
+- **暗号化DNS**: 4つの暗号化タイプが利用可能です：DNS over TLS、DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS。
 
     ![encrypted dns types](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_types.png){class="glboxshadow"}
 

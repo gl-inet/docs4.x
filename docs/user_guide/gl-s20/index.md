@@ -24,7 +24,7 @@
 | GPIO13                        | PHY_SPI_MISO   | SPI EthernetモジュールのSPI MISO GPIO番号                  |
 | GPIO14                        | POWER_LED      | 電源LED制御（赤）                                            |
 | GPIO15                        | NETWORK_LED    | ネットワークLED制御（黄色）                                  |
-| GPIO16                        | BUTTON         | ボタン入力、iot機できる制御に使用                               |
+| GPIO16                        | BUTTON         | ボタン入力、iot機能制御に使用                               |
 | GPIO17                        | IOT_LED        | IoT LED制御（緑）                                            |
 | GPIO18                        | IOT_LED        | IoT LED制御（赤）                                            |
 | GPIO19                        | IOT_LED        | IoT LED制御（黄色）                                          |

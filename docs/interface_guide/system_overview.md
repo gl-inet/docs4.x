@@ -2,24 +2,24 @@
 
 ウェブ管理パネルの左側 -> **システム** -> **概要**
 
-概要ページには、いくつかのハードウェアのステータスが表示され、で下のような簡単なコントロールがサポートされています：
+概要ページには、いくつかのハードウェアのステータスが表示され、以下のような簡単なコントロールがサポートされています：
 
 - CPU、メモリ、フラッシュ、外部ストレージデバイスのステータス
 - ファン、バッテリーなどのハードウェアのステータス
 - LEDとファンのコントロール
 - デバイス情報
 
-で下是GL-MT3000の例子。
+以下是GL-MT3000の例子。
 
 ![system overview](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/overview.png){class="glboxshadow"}
 
 ## CPU平均負荷
 
-ファンがないほとんどのモデルでは、CPU平均負荷はで下のようになります。
+ファンがないほとんどのモデルでは、CPU平均負荷は以下のようになります。
 
 ![system overview, cpu average load, no fan](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/cpu_average_load_no_fan.jpg){class="glboxshadow"}
 
-一部のファン内蔵モデルでは、CPU平均負荷はで下のようになります。
+一部のファン内蔵モデルでは、CPU平均負荷は以下のようになります。
 
 ![system overview, cpu average load, with fan](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/cpu_average_load.png){class="glboxshadow gl-70-desktop"}
 
@@ -47,7 +47,7 @@
 
 グラフにマウスを合わせると、特定の値が表示されます。
 
-**注意**: ここに表示されているメモリは、Linuxシステムで使用可できるなメモリです。メモリの一部はWi-Fiサブシステムやその彼のブート領域に割り当てられるため、ここに表示されるメモリの合計は物理メモリよりも少なくなります。
+**注意**: ここに表示されているメモリは、Linuxシステムで使用可能なメモリです。メモリの一部はWi-Fiサブシステムやその彼のブート領域に割り当てられるため、ここに表示されるメモリの合計は物理メモリよりも少なくなります。
 
 ![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
 
@@ -59,7 +59,7 @@
 
 ## フラッシュ
 
-システム使用、アプリケーション使用、残りの使用可できるを含む、合計フラッシュメモリが表示されます。
+システム使用、アプリケーション使用、残りの使用可能を含む、合計フラッシュメモリが表示されます。
 
 ![system overview, flash](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/flash.png){class="glboxshadow"}
 
@@ -73,7 +73,7 @@
 
 ## 外部ストレージ
 
-このセクションはv4.5で降で利用可できるで、USBディスクの合計と使用可できるな容量が表示されます。
+このセクションはv4.5で降で利用可能で、USBディスクの合計と使用可能な容量が表示されます。
 
 v4.7で降の一部のモデルは、USBプロトコルの切り替えをサポートしています。
 

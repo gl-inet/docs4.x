@@ -20,8 +20,8 @@ hide:
 * [Astrorelayを使ってWireGuardサーバーを設定する方法](how_to_set_up_wireguard_server_via_astrorelay.md)
 * [OpenVPNクライアントLAN側からサーバーにアクセスする方法](openvpn_server_access_client_lan_side.md)
 * [WireGuardクライアントLAN側からサーバーにアクセスする方法](wireguard_server_access_to_client_lan_side.md)
-* [ドメイン名経よりでOpenVPNサーバーLANサブネットにアクセスする方法](how_to_access_ovpnserver_lan_via_domain_name.md)
-* [ドメイン名経よりでWireGuardサーバーLANサブネットにアクセスする方法](how_to_access_wgserver_lan_via_domain_name.md)
+* [ドメイン名経由でOpenVPNサーバーLANサブネットにアクセスする方法](how_to_access_ovpnserver_lan_via_domain_name.md)
+* [ドメイン名経由でWireGuardサーバーLANサブネットにアクセスする方法](how_to_access_wgserver_lan_via_domain_name.md)
 * [GL.iNetルーターでOpenVPN TAP-S2Sモードを有効にする方法](how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md)
 * [GL.iNetルーターでVPNカスケードを有効にする方法](how_to_use_vpn_cascading_on_glinet_routers.md)
 * [WireGuardを使用して外部ネットワークからのRDPを保護する方法](use_wireguard_to_secure_rdp_from_outside_network.md)
@@ -48,7 +48,7 @@ hide:
 ## GoodCloud
 
 * [GoodCloud Site to Site](goodcloud_site_to_site.md)
-* [GoodCloud経よりでLuCIインターフェースにアクセスする方法](how_to_access_the_luci_interface_via_goodcloud.md)
+* [GoodCloud経由でLuCIインターフェースにアクセスする方法](how_to_access_the_luci_interface_via_goodcloud.md)
 
 ## ネットワーク
 
@@ -64,12 +64,12 @@ hide:
 * [パブリックIPアドレスを持っているか確認する方法](how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [ルーターのファームウェアをアップグレードまたはダウングレードする方法（v4.xからv4.x）](how_to_upgrade_downgrade_router.md)
 * [拡張認証プロトコル（EAP）ネットワークに接続する方法](eap.md)
-* [高度な設定を必要があるEAPネットワークにGL.iNetルーターを接続する方法](how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md)
+* [高度な設定を必要があるEAPネットワークにGL.iNetルーターを接続する方法](eap.md)
 * [ルーターにSSHでログインする方法](ssh_log_in_to_the_router.md)
 * [WinSCPを使用して共有ファイルにアクセスする方法](winscp_share_file.md)
-* [WinSCPを使用してGL.iNetルーターのファイルを変よりする方法](how_to_use_winscp_to_modify_files_on_glinet_routers.md)
+* [WinSCPを使用してGL.iNetルーターのファイルを変更する方法](how_to_use_winscp_to_modify_files_on_glinet_routers.md)
 * [T-Mobile SIMカードをアクティベートまたはチャージする方法](how_to_activate_top_up_sim_cards.md)
-* [ゲームでNATタイプを変よりする方法](how_to_change_the_nat_type_on_gaming.md)
+* [ゲームでNATタイプを変更する方法](how_to_change_the_nat_type_on_gaming.md)
 * [モバイルAppログを取なければならないする方法](how_to_retrieve_the_mobile_app_log.md)
-* [オンラインテキストファイル経よりでGL.iNetルーターのドメインとIPフィルタリングルールを設定する方法](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)
+* [オンラインテキストファイル経由でGL.iNetルーターのドメインとIPフィルタリングルールを設定する方法](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)
 * [GoodCloud経よりの技術サポート](technical_support_via_goodcloud.md)

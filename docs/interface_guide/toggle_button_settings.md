@@ -40,9 +40,9 @@
 
 ![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
 
-ファームウェアv4.8で前は、4つのオプションがあり、ユーザーがトグルボタンの機できるをカスタマイズできます。
+ファームウェアv4.8で前は、4つのオプションがあり、ユーザーがトグルボタンの機能をカスタマイズできます。
 
-- 機できるなし
+- 機能なし
 - AdGuard Home
 - OpenVPN Client
 - Tor
@@ -50,7 +50,7 @@
 
 ファームウェアv4.8で降では、より多くのオプションが導入されました：リピーター、Wi-Fi、LED。ユーザーはニーズに応じてトグルボタンをカスタマイズできます。
 
-- 機できるなし
+- 機能なし
 - リピーター
 - Wi-Fi（メイン/ゲストWi-Fi）
 - VPN
@@ -60,9 +60,9 @@
 
 ![toggle button settings 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings_4.8.png){class="glboxshadow"}
 
-設定を適用のときには、トグルスイッチのオン/オフ（左/右）位置に基づいて、選択した機できるをすぐに有効/無効にするかどうかを決定できます。
+設定を適用のときには、トグルスイッチのオン/オフ（左/右）位置に基づいて、選択した機能をすぐに有効/無効にするかどうかを決定できます。
 
-**注意**：デバイスの再起動後、システムはトグルスイッチの位置に従って機できるをから動のに適用します。
+**注意**：デバイスの再起動後、システムはトグルスイッチの位置に従って機能を自動的に適用します。
 
 例場合あなたするWireGuard Client設定为よりトグルスイ制御：当スイに左侧（オン）时，WireGuard Clientことになるから動起動。当スイに右侧（オフ）时，WireGuard Client保持無効ステータス。
 

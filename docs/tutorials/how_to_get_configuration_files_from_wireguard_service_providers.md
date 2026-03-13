@@ -26,13 +26,13 @@
 
     1.ルー器に[SSH](https://docs.gl-inet.com/router/en/3/tutorials/ssh/){target="_blank"}で接続します。
 
-    2.で下のインストールURLをコピーし、ターミナルに貼り付けてEnterキーを押します。（マウスを右クリックで貼り付けられます。）
+    2.以下のインストールURLをコピーし、ターミナルに貼り付けてEnterキーを押します。（マウスを右クリックで貼り付けられます。）
 
         `curl -fsSL https://raw.githubusercontent.com/eventure/hide.client.routers/master/glinet_v4/hidemevpn | sh -s install`
 
-    3.インストールが開始され、ユーザー名とパスワードを求められます。パスワードを入力하거나貼り付ける際、ターミナルには变化が見えません 그냥 입력한 후 Enter 키를 누르세요.
+    3.インストールが開始され、ユーザー名とパスワードを求められます。パスワードを入力または貼り付ける際、ターミナルには変化が見えませんが、そのままEnterキーを押してください.
 
-    4.が完たしたら、Web管理パネルに移動すると、hide.me VPNグループがすでに設定ファイルと共に作成されています。彼の設定ファイルと same じように接続するだけです。
+    4.が完了したら、Web管理パネルに移動すると、hide.me VPNグループがすでに設定ファイルと共に作成されています。彼の設定ファイルと同じように接続するだけです。
 
     **注意：** Hide.me VPN設定ファイルのキーは接続前に毎回再生成され、切断后ことになる变なければならない无效になります。この設定ファイルを彼の機器にコピーしても正常に接続できません。
 
@@ -140,7 +140,7 @@
 
     [公式サイト](https://www.ovpn.com/en?ref=glinet){target="_blank"}
 
-    1. [www.ovpn.com](https://www.ovpn.com/en?ref=glinet){target="_blank"}にログインし、で下のメニューを見つけてWireGuard設定ファイルを入手します。
+    1. [www.ovpn.com](https://www.ovpn.com/en?ref=glinet){target="_blank"}にログインし、以下のメニューを見つけてWireGuard設定ファイルを入手します。
 
         ![ovpn dashboard](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/ovpn/get_wireguard_configuration_files.jpg){class="glboxshadow"}
 
@@ -150,7 +150,7 @@
 
     3. テキスト編集ソフトウェアで設定を開き、コンテンツをコピーします。
 
-        設定にはIPv6コンテンツが含まれている場合がありますが、GL.iNetルー器はIPv6を非常にににサポートしていないため、IPv6コンテンツを削除してください。下記の例では、ハイライトされたコンテンツがIPv6コンテンツです。
+        設定にはIPv6コンテンツが含まれている場合がありますが、GL.iNetルー器はIPv6を非常ににサポートしていないため、IPv6コンテンツを削除してください。下記の例では、ハイライトされたコンテンツがIPv6コンテンツです。
 
         ![remove wireguard ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/ovpn/remove_wireguard_ipv6_content.jpg){class="glboxshadow"}
     
@@ -206,7 +206,7 @@
 
     [公式サイト](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-    [このガイド](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router)に従うか、で下の手順でWireGuard設定ファイルを手動で取なければならないしてください。
+    [このガイド](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router)に従うか、以下の手順でWireGuard設定ファイルを手動で取なければならないしてください。
 
     1. [メンバーエリア](https://my.puremember.com/){target="_blank"}にログインし、**Manual Configuration**をクリックします。
 
@@ -252,7 +252,7 @@
 
         ![starvpn download wireguard config](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/download-config_edited.jpg){class="glboxshadow"}
 
-    3. 設定にはIPv6コンテンツが含まれている場合がありますが、GL.iNetルー器はIPv6を非常にににサポートしていないため、IPv6コンテンツを削除してください。
+    3. 設定にはIPv6コンテンツが含まれている場合がありますが、GL.iNetルー器はIPv6を非常ににサポートしていないため、IPv6コンテンツを削除してください。
 
         ![startvpn wireguard configuration remove ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/starvpn_wireguard_configuration_remove_ipv6.jpg){class="glboxshadow"}
 
@@ -314,11 +314,11 @@
     
         ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnunlimited/02.jpg){class="glboxshadow"}
     
-    3. 設定パラメータがで下のテキスト形式で表示されます。
+    3. 設定パラメータが以下のテキスト形式で表示されます。
     
         ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnunlimited/03.jpg){class="glboxshadow"}
 
-        で下のように設定を組み合わせます。
+        以下のように設定を組み合わせます。
 
         <p>
         [Interface]</br>

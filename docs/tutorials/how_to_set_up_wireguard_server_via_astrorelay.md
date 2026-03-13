@@ -8,7 +8,7 @@
 
     ![set up wireguard server](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/start_wg_server4x.jpg){class="glboxshadow"}
 
-    次に、WireGuardの設定を作成します。で下の画像はその例です。
+    次に、WireGuardの設定を作成します。以下の画像はその例です。
 
     ![wireguard config](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/wireguard_config.png){class="glboxshadow"}
 

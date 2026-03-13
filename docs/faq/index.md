@@ -6,7 +6,7 @@ hide:
 
 # FAQ
 
-デバイスの使い方と、一般のな問題の解決方法について学びましょう。
+デバイスの使い方と、一般的な問題の解決方法について学びましょう。
 
 GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet.com/kvm/en/)をご覧ください。
 
@@ -24,12 +24,12 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 
 ## トラブルシューティング
 
-* [192.168.8.1経よりでルーターにアクセスできない](cannot_access_web_admin_panel.md)
+* [192.168.8.1経由でルーターにアクセスできない](cannot_access_web_admin_panel.md)
 * [Android 5Gホットスポットをスキャンできない](cannot_scan_android_5g_hotspot.md)
 * [iPhone 5Gホットスポットをスキャンできない](cannot_scan_iphone_5g_hotspot.md)
 * [iPhoneテザリング失敗](iphone_tethering_fail.md)
 * [セルラネットワークトラブルシューティングガイド](cellular_network_troubleshooting_guide.md)
-* [古いルーターをGL.iNetルーターに置き換えたがインターネットにアクセスできない](i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md)
+* [古いルーターをGL.iNetルーターに置き換えたがインターネットにアクセスできない](no_internet_after_replacing_the_old_router_with_glinet.md)
 * [USBモデムがGL.iNetルーターで正常に動作しない](usb_modem_is_not_working_properly_on_gl_inet_router.md)
 * [ネットワークを修復するか工場出荷時にリセットする方法は？](repair_network_or_reset_firmware.md)
 * [ルーターがレンガ化した場合はどうすればよいですか？](debrick.md)
@@ -64,7 +64,7 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 * [LEDインジケーター](led.md)
 * [GL.iNetモバイルアプリ](mobile_app.md)
 * [モバイルアプリにBrume 2を追加する方法は？](how_to_add_brume2_into_app.md)
-* [WANポートをLANポートに変よりする方法は？](change_wan_to_lan.md)
+* [WANポートをLANポートに変更する方法は？](change_wan_to_lan.md)
 * [HTTPSを使用してGL-iNetルーターとAdguard Homeにアクセスする方法は？](use_https_for_adh.md)
 * [GL-iNetルーターをStarlink Dishに接続する方法は？](connect_glinetrouter_to_starlink.md)
 * [ルーターのウェブ管理パネルにリモートアクセスする方法は？](remote_access_web_admin_panel.md)

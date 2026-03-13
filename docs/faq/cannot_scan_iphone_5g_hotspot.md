@@ -1,6 +1,6 @@
 # iPhone 5Gホットスポットをスキャンできません
 
-iPhoneホットスポットの設定を確認し、「最も大化互換性」をオフにしてください。
+iPhoneホットスポットの設定を確認し、「最大化互換性」をオフにしてください。
 
 ![maxcompat](https://static.gl-inet.com/docs/router/en/4/tutorials/iphone_tethering_fail/maxcompat.PNG){class="glboxshadow gl-50-desktop" }
 

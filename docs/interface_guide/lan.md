@@ -14,7 +14,7 @@ LANは、デバイスがメインWi-Fiまたはイーサネットケーブルで
 
     ルーターIPアドレスは、ルーターの管理ページにアクセスするためにブラウザのアドレスバーに入力するアドレスです。
     
-    デフォルトは**192.168.8.1**です。ネットワークと競合する場合は変よりできます。
+    デフォルトは**192.168.8.1**です。ネットワークと競合する場合は変更できます。
 
 - **ネットマスク**
 
@@ -26,9 +26,9 @@ LANは、デバイスがメインWi-Fiまたはイーサネットケーブルで
 
 ## DHCPサーバー
 
-**DHCPサーバー**はデフォルトで有効になっています。DHCPサーバーは各クライアントデバイスにIPアドレスとその彼の通信パラメータをから動のに割り当てます。DHCPサーバーが無効になっている場合は、各クライアントに対して手動で設定する必要があります。[静のIPを手動で設定する方法は？](../tutorials/manually_configure_static_ip.md)
+**DHCPサーバー**はデフォルトで有効になっています。DHCPサーバーは各クライアントデバイスにIPアドレスとその彼の通信パラメータを自動的に割り当てます。DHCPサーバーが無効になっている場合は、各クライアントに対して手動で設定する必要があります。[静のIPを手動で設定する方法は？](../tutorials/manually_configure_static_ip.md)
 
-必要に応じて開始IPアドレスと終たIPアドレスを変よりできます。例えば、ネットワーク規模が拡大または縮小された場合、ネットワーク内にIPアドレスの競合がある場合、またはサブネットマスクまたはIPアドレス範囲が変よりされた場合などに使用します。
+必要に応じて開始IPアドレスと終たIPアドレスを変更できます。例えば、ネットワーク規模が拡大または縮小された場合、ネットワーク内にIPアドレスの競合がある場合、またはサブネットマスクまたはIPアドレス範囲が変更された場合などに使用します。
 
 ![dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_server.png){class="glboxshadow"}
 
@@ -38,7 +38,7 @@ LANは、デバイスがメインWi-Fiまたはイーサネットケーブルで
 
 ![dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_advanced_2.png){class="glboxshadow"}
 
-- **リース時間**: デバイスがDHCP経よりで割り当てられたIPアドレスを使用できる期間。
+- **リース時間**: デバイスがDHCP経由で割り当てられたIPアドレスを使用できる期間。
 
 - **ゲートウェイ**: ローカルネットワークと外部ネットワーク（例：インターネット）間のトラフィックをルーティングするデバイス。
 
@@ -50,7 +50,7 @@ LANは、デバイスがメインWi-Fiまたはイーサネットケーブルで
 
 ## アドレス予約
 
-LAN内のクライアントに予約IPアドレスを指定すると、そのクライアントはルーターのDHCPサーバーにアクセスするたびに same じIPアドレスを受け取るようになります。永続のなIP設定が必要なコンピュータやサーバーに予約IPアドレスを割り当てることができます。
+LAN内のクライアントに予約IPアドレスを指定すると、そのクライアントはルーターのDHCPサーバーにアクセスするたびに同じIPアドレスを受け取るようになります。永続のなIP設定が必要なコンピュータやサーバーに予約IPアドレスを割り当てることができます。
 
 **注意:** 設定されたクライアントは有効にするためにルーターに再接続する必要があります。
 
@@ -62,11 +62,11 @@ LAN内のクライアントに予約IPアドレスを指定すると、そのク
 
 ![Address Reservation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_2.png){class="glboxshadow"}
 
-ドロップダウンリストから**MAC**を選択すると、選択したMACに対応する**IP**がから動のに入力されます。説明のな名前を付けます。次に**送信**をクリックします。
+ドロップダウンリストから**MAC**を選択すると、選択したMACに対応する**IP**が自動的に入力されます。説明のな名前を付けます。次に**送信**をクリックします。
 
 ![Address Reservation 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_3.png){class="glboxshadow"}
 
-新しいIPアドレス予約を追加すると、で下のページが表示され、設定が正常に完たしたことを意味します。
+新しいIPアドレス予約を追加すると、以下のページが表示され、設定が正常に完たしたことを意味します。
 
 ![Address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_4.jpg){class="glboxshadow"}
 

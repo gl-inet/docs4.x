@@ -2,7 +2,7 @@
 
 この記事では、NordVPNの専用IPを設定する手順を紹介します。ここではGL-AXT1800を例にしていますが、彼のモデルも same 様です。
 
-1. Nordアカウントにログインして、専用IP情報を確認します。で下の画像のように、割り当てられたIPは**193.32.211.142**で、サーバ情報は**United Kingdom #1625**です。
+1. Nordアカウントにログインして、専用IP情報を確認します。以下の画像のように、割り当てられたIPは**193.32.211.142**で、サーバ情報は**United Kingdom #1625**です。
 
     ![nordvpn dedicated ip info](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/dedicated_ip_info.png){class="glboxshadow"}
 
@@ -24,7 +24,7 @@
 
     ![connect nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/connect_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
-6. 接続が完たしたら、このウェブサイトにアクセスして公開IPを確認します: [https://whatismyipaddress.com/](https://whatismyipaddress.com/) そして、NordVPNの専用IPと一致するか確認します。
+6. 接続が完了したら、このウェブサイトにアクセスして公開IPを確認します: [https://whatismyipaddress.com/](https://whatismyipaddress.com/) そして、NordVPNの専用IPと一致するか確認します。
 
     ![check ip after connected](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/check_ip_after_connected.png){class="glboxshadow"}
 

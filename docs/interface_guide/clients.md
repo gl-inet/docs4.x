@@ -10,7 +10,7 @@ Web 管理パネルの左側 -> クライアント
 
 ![device name](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/device_name.png){class="glboxshadow"}
 
-デバイス名とタイプを変よりするには、アクション列の三時アイコンをクリックし、プルダウンメニューで**変より**をクリックします。
+デバイス名とタイプを変更するには、アクション列の三時アイコンをクリックし、プルダウンメニューで**変更**をクリックします。
 
 ![modify](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify.png){class="glboxshadow"}
 
@@ -30,11 +30,11 @@ Web 管理パネルの左側 -> クライアント
 
 ![ip and mac](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ip_mac.png){class="glboxshadow"}
 
-多くのデバイスはランダム化されたMACアドレスを使用します。接続されたデバイスがランダム化されたMACアドレスを使用している場合、で下のプロンプトが表示されます。
+多くのデバイスはランダム化されたMACアドレスを使用します。接続されたデバイスがランダム化されたMACアドレスを使用している場合、以下のプロンプトが表示されます。
 
 ![random mac prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/randomized_mac.png){class="glboxshadow"}
 
-**注意**: ここでのルールは、MACアドレスの2番目の文字が2、6、A、またはE（大文字と小文字を区別しない）の場合、ランダム化されたMACアドレスとみなされます。ただし、デバイスによっては異なるルールを使用してランダム化されたMACアドレスを生成する場合があるため、この検出方法は正確ではない可できる性があります。
+**注意**: ここでのルールは、MACアドレスの2番目の文字が2、6、A、またはE（大文字と小文字を区別しない）の場合、ランダム化されたMACアドレスとみなされます。ただし、デバイスによっては異なるルールを使用してランダム化されたMACアドレスを生成する場合があるため、この検出方法は正確ではない可能性があります。
 
 ## 速度
 
@@ -60,9 +60,9 @@ Web 管理パネルの左側 -> クライアント
 
 5番目の列では、クリックだけで特定の接続済みデバイスのIPアドレスを予約できます。
 
-この機できるはv4.8で降で利用可できるです。
+この機能はv4.8で降で利用可能です。
 
-LAN内のクライアントに予約IPアドレスを指定すると、そのクライアントはルーターのDHCPサーバーにアクセスするたびに same じIPアドレスを受け取るようになります。
+LAN内のクライアントに予約IPアドレスを指定すると、そのクライアントはルーターのDHCPサーバーにアクセスするたびに同じIPアドレスを受け取るようになります。
 
 永続のなIP設定が必要なコンピュータやサーバーに予約IPアドレスを割り当てることができます。
 
@@ -114,7 +114,7 @@ LAN内のクライアントに予約IPアドレスを指定すると、そのク
 
 ![input mac manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/input_mac_manually.png){class="glboxshadow"}
 
-**注意**: クライアントのブロックはデバイスのMACアドレスに基づいています。ブロックされたデバイスが次回異なるMACアドレスを使用した場合でも、ルーターに接続できる可できる性があります。
+**注意**: クライアントのブロックはデバイスのMACアドレスに基づいています。ブロックされたデバイスが次回異なるMACアドレスを使用した場合でも、ルーターに接続できる可能性があります。
 
 ## 並べ替え
 
@@ -139,9 +139,9 @@ LAN内のクライアントに予約IPアドレスを指定すると、そのク
 
 ![client details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
 
-### 変より
+### 変更
 
-アクション列の三時アイコンをクリックし、プルダウンメニューで**変より**をクリックします。
+アクション列の三時アイコンをクリックし、プルダウンメニューで**変更**をクリックします。
 
 ![modify](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify.png){class="glboxshadow"}
 
@@ -163,7 +163,7 @@ LAN内のクライアントに予約IPアドレスを指定すると、そのク
 
 ### VPNトンネルの使用
 
-**注意**: このオプションはファームウェアv4.8で降で利用可できるで、MACベースのポリシーが設定されている場合にのみアクションメニューに表示されます。
+**注意**: このオプションはファームウェアv4.8で降で利用可能で、MACベースのポリシーが設定されている場合にのみアクションメニューに表示されます。
 
 MACベースのポリシーでクライアントをVPNトンネルリストに追加します。トンネルの詳細を調全体する必要がある場合は、管理のためにVPNダッシュボードに移動してください。
 

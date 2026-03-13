@@ -1,7 +1,7 @@
 
 # GL.iNet ルーターで WireGuard サーバーを設定
 
-WireGuard® は、**最も先端の暗号技術** を利用した非常ににシンプルで高速かつ最も新の VPN です。IPSec よりも [高速](https://www.wireguard.com/performance/){target="_blank"} で [シンプル](https://www.wireguard.com/quickstart/){target="_blank"}、効率の、より使いやすいことを目指しています。また、OpenVPN よりもはるかに高パフォーマンスであることを意図しています。
+WireGuard® は、**最も先端の暗号技術** を利用した非常にシンプルで高速かつ最も新の VPN です。IPSec よりも [高速](https://www.wireguard.com/performance/){target="_blank"} で [シンプル](https://www.wireguard.com/quickstart/){target="_blank"}、効率の、より使いやすいことを目指しています。また、OpenVPN よりもはるかに高パフォーマンスであることを意図しています。
 
 ---
 
@@ -29,11 +29,11 @@ Web 管理パネルにアクセスし、左側のメニューから -> VPN -> Wi
 
 2. 構成を適用
 
-    デフォルトの構成はほとんどの場合に適しています。上位ルーターのゲートウェイと IPv4 アドレスが競合する場合、修正後に **適用** ボタンをクリックします。例えば、**10.1.0.1/24** に変よりすることができます。**/24** を忘れずに追加してください。そうしないとクライアントが接続できません。
+    デフォルトの構成はほとんどの場合に適しています。上位ルーターのゲートウェイと IPv4 アドレスが競合する場合、修正後に **適用** ボタンをクリックします。例えば、**10.1.0.1/24** に変更することができます。**/24** を忘れずに追加してください。そうしないとクライアントが接続できません。
 
     ![wireguard server apply configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_apply_configuration.png){class="glboxshadow"}
 
-    例えば、Xfinity ルーターを使用している場合、ルーターの IP は WireGuard サーバーの IP と same じになるため、上記の変よりを行う必要があります。
+    例えば、Xfinity ルーターを使用している場合、ルーターの IP は WireGuard サーバーの IP と同じになるため、上記の変更を行う必要があります。
     
     ![xfinitygateway](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
@@ -77,13 +77,13 @@ Web 管理パネルにアクセスし、左側のメニューから -> VPN -> Wi
 
 WireGuardサーバーが正常に動作しているか確認するには、別のネットワークに接続された別のデバイスを使用し、この前にエクスポートしたWireGuard構成を使用して接続し、正しく接続されているか、IPアドレスがWireGuardサーバーのIPアドレスであるかを確認します。
 
-最もも簡単な方法は、[WireGuard公式クライアントアプリ](https://www.wireguard.com/install){target="_blank"}をインストールした携帯電話を使用し、Wi-Fi接続をオフにして、3G/4G/5G経よりでのみインターネットに接続することです。次にWireGuardアプリを開き、QRコードからWireGuard構成をインポートします。接続を有効にし、携帯電話がインターネットアクセスを持ち、そのIPアドレスがWireGuardサーバーのIPアドレスであるかを確認します。
+最もも簡単な方法は、[WireGuard公式クライアントアプリ](https://www.wireguard.com/install){target="_blank"}をインストールした携帯電話を使用し、Wi-Fi接続をオフにして、3G/4G/5G経由でのみインターネットに接続することです。次にWireGuardアプリを開き、QRコードからWireGuard構成をインポートします。接続を有効にし、携帯電話がインターネットアクセスを持ち、そのIPアドレスがWireGuardサーバーのIPアドレスであるかを確認します。
 
 失敗の原因はいくつかあります：
 
 * インターネットサービスプロバイダーがパブリックIPアドレスを割り当てていない、 [こちら](#make-sure-internet-service-provider-assigns-you-a-public-ip-address)を確認してください。
 * ポートフォワーディングの設定が必要な場合があります、 [こちら](#network-topology)を確認してください。
-* WireGuardサーバー用に使用しているポートがインターネットサービスプロバイダーによってブロックされている、別のポートに変よりするか、インターネットサービスプロバイダーに連絡してください。
+* WireGuardサーバー用に使用しているポートがインターネットサービスプロバイダーによってブロックされている、別のポートに変更するか、インターネットサービスプロバイダーに連絡してください。
 * 一部の国/に域ではVPN接続がブロックされることがあります。
 
 ## WireGuardクライアントアプリ

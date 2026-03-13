@@ -1,12 +1,12 @@
 # プライマリルーターでポート転送を設定する方法
 
-GL.iNetルーターでサーバー（[OpenVPNサーバー](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_openvpn_home_server_with_two_glrouter/)や[WireGuardサーバー](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers/)など）を設定し、それがプライマリルーターに接続されている場合、プライマリルーターでポート転送を設定する必要があります。こうすることで、サーバーが適切にアクセス可できるになります。（プライマリルーターとGL.iNetルーターの間に彼のルーターがある場合、これらの前のすべてのルーターでポート転送を設定する必要があります。）
+GL.iNetルーターでサーバー（[OpenVPNサーバー](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_openvpn_home_server_with_two_glrouter/)や[WireGuardサーバー](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers/)など）を設定し、それがプライマリルーターに接続されている場合、プライマリルーターでポート転送を設定する必要があります。こうすることで、サーバーが適切にアクセス可能になります。（プライマリルーターとGL.iNetルーターの間に彼のルーターがある場合、これらの前のすべてのルーターでポート転送を設定する必要があります。）
 
-ポート転送を設定する手順は、ルーターのブランドとモデルにより異なります。で下のセクションで該当するものを参照してください。
+ポート転送を設定する手順は、ルーターのブランドとモデルにより異なります。以下のセクションで該当するものを参照してください。
 
 ## GL.iNetルーターをプライマリルーターとして使用する場合
 
-プライマリルーターがGL.iNetルーターの場合、で下の手順でポート転送を設定します。
+プライマリルーターがGL.iNetルーターの場合、以下の手順でポート転送を設定します。
 
 1. Webブラウザで、ルーター管理パネルのURL（例：`192.168.8.1`）を入力し、サインインします。
 2. 左側のサイドバーで、**ネットワーク** > **ファイアウォール** をクリックします。
@@ -31,7 +31,7 @@ GL.iNetルーターでサーバー（[OpenVPNサーバー](https://docs.gl-inet.
     * **プロトコル:** **All** または **UDP/TCP** を選択します。
     * **内部IP**（または **ホストIP** と表示されることもあります）：セカンダリルーターのWAN IPアドレスを入力するか、ドロップダウンからセカンダリルーターを選択します。
 
-で下は、プライマリルーターとして特定のブランドやモデルのルーターでポート転送を設定するための手順です：
+以下は、プライマリルーターとして特定のブランドやモデルのルーターでポート転送を設定するための手順です：
 
 ### AT&T
 

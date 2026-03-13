@@ -6,7 +6,7 @@ hide:
 
 # インターフェース・ガイド
 
-ステップバイステップガイドでデバイスとアドオン機できるの使用方法を学びましょう。
+ステップバイステップガイドでデバイスとアドオン機能の使用方法を学びましょう。
 
 ## インターネット接続
 
@@ -63,16 +63,16 @@ hide:
 
 * [ファイアウォール](firewall.md)
 * [ポートフォワーディング](port_forwarding.md)
-* [マルチWAN](multi-wan.md) - 別のインターネット接続にフェイルオーバーしたり、複数のインターフェースを same 時に使用して総帯域幅を増大させたりできます。
+* [マルチWAN](multi-wan.md) - 別のインターネット接続にフェイルオーバーしたり、複数のインターフェースを同時に使用して総帯域幅を増大させたりできます。
 * [LAN](lan.md)
 * [ゲストネットワーク](guest_network.md)
 * [DNS](dns.md)
-* [ポート管理](network_port_management.md)
+* [ポート管理](ethernet_port.md)
 * [ネットワークモード](network_mode.md)
 * [IPv6](ipv6.md)
 * [MACアドレス](mac_address.md)
 * [ドロップインゲートウェイ](drop-in_gateway.md)
-* [IGMPスヌーピング](igmp_snooping.md) - ルーターでマルチキャスト機できるを使用するため。
+* [IGMPスヌーピング](igmp_snooping.md) - ルーターでマルチキャスト機能を使用するため。
 * [ハードウェアアクセラレーション](hardware_acceleration.md)
 * [ネットワークアクセラレーション](network_acceleration.md)
 * [NAT設定](nat_settings.md)
@@ -94,7 +94,7 @@ hide:
     * [公式ファームウェアはどこからダウンロードできますか？](../faq/how_to_download_firmware.md)
     * [ファームウェア3.xから4.xへのアップグレード方法は？](../faq/upgrade_to_4.md)
 * [スケジュールタスク](scheduled_tasks.md) - LED表示、Wi-Fiステータス、再起動のスケジュールを設定。
-* [管理者パスワードの変より](admin_password.md)
+* [管理者パスワードの変更](admin_password.md)
 * [ディスプレイ管理](display_management.md)
 * [タイムゾーン](time_zone.md)
 * [トグルボタン設定](toggle_button_settings.md)

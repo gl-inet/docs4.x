@@ -1,8 +1,8 @@
 # iPhoneテザリング失敗
 
-iPhoneテザリングに問題が発生した場合は、で下の手順で問題を解決してみてください。
+iPhoneテザリングに問題が発生した場合は、以下の手順で問題を解決してみてください。
 
-1. **互換性を最も大化**が**有効**になっていることを確認してください（iPhone 8で上）
+1. **互換性を最大化**が**有効**になっていることを確認してください（iPhone 8で上）
 
     ![maxcompat](https://static.gl-inet.com/docs/router/en/4/tutorials/iphone_tethering_fail/maxcompat.PNG){class="glboxshadow gl-50-desktop" }
 

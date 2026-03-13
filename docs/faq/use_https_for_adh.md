@@ -1,10 +1,10 @@
-# HTTPS経よりでGL.iNetルーターとAdGuard Homeにアクセスする
+# HTTPS経由でGL.iNetルーターとAdGuard Homeにアクセスする
 
-HTTPSを使用してGL.iNetルーターとAdGuard Homeにアクセスしたい場合は、で下の手順に従ってください。
+HTTPSを使用してGL.iNetルーターとAdGuard Homeにアクセスしたい場合は、以下の手順に従ってください。
 
 ## 1. GL.iNetルーターで証明書とキーをアップデートする
 
-最も初に、SSL証明書を申請するか、から身署名SSL証明書を入手してください。
+最初に、SSL証明書を申請するか、から身署名SSL証明書を入手してください。
 
 次に、GL.iNetルーターにSSH接続するか、WinSCPを使用してアップデートした証明書とキーをGL.iNetルーターにアップロードします。パスは次の通りです：
 

@@ -2,7 +2,7 @@
 
 ウェブ管理画面の左側 -> システム -> 詳細設定
 
-OpenWrtのデフォルトのWebユーザーインターフェースであるLuCIを使用して、詳細設定を変よりできます。
+OpenWrtのデフォルトのWebユーザーインターフェースであるLuCIを使用して、詳細設定を変更できます。
 
 ![advanced settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/go_to_luci.png){class="glboxshadow"}
 
@@ -12,7 +12,7 @@ LuCIは、OpenWrtによって維持されているオープンで独立したプ
 
 ![luci login](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_login.jpg){class="glboxshadow"}
 
-ログインパスワードを入力してください。これはWeb管理パネルと same じパスワードです。
+ログインパスワードを入力してください。これはWeb管理パネルと同じパスワードです。
 
 LuCIページにログインします。これはGL-AX1800 (Flint) のLuCIページの例です。
 

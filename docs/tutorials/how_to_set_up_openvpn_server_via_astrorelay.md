@@ -1,4 +1,4 @@
-# AstroRelay経よりでOpenVPNサーバーを設定する方法
+# AstroRelay経由でOpenVPNサーバーを設定する方法
 
 シナリオ: GL.iNetルーターでOpenVPNサーバーを設定してローカルサービスにリモートアクセスしたいが、ISPがパブリックIPアドレスを提供していない場合。
 
@@ -8,7 +8,7 @@
 
     ![openvpnサーバーを設定](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/start_ovpn_server4x.jpg){class="glboxshadow"}
 
-    次に、OpenVPN構成をエクスポートします。で下の画像はその例です。
+    次に、OpenVPN構成をエクスポートします。以下の画像はその例です。
 
     ![openvpn構成](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnpastelink.jpg){class="glboxshadow"}
 

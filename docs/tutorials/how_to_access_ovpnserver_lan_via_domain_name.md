@@ -32,7 +32,7 @@ VPNサーバールー器官のWeb管理パネルにログインし、**ネット
 
 ![ovpnserver allow access lan 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/allow_remote_access_lan.png){class="glboxshadow"}
 
-有効にすると、ルー器官とLANデバイスはVPN経よりでリモートアクセスできます。
+有効にすると、ルー器官とLANデバイスはVPN経由でリモートアクセスできます。
 
 ### 3. VPN設定をエクスポート
 
@@ -42,7 +42,7 @@ VPNサーバールー器官のWeb管理パネルにログインし、**ネット
 
 ポップアップウィンドウで、**エクスポート**をクリックします。
 
-**注意**：サーバー上のパブリックIPアドレスが動ので時々変よりする場合は、クライアント設定をエクスポートする前に、**アプリケーション** -> **ダイナミックDNS**に移動して**DDNS**を有効にしてください。
+**注意**：サーバー上のパブリックIPアドレスが動ので時々変更する場合は、クライアント設定をエクスポートする前に、**アプリケーション** -> **ダイナミックDNS**に移動して**DDNS**を有効にしてください。
 
 ![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/export2.png){class="glboxshadow"}
 
@@ -52,7 +52,7 @@ VPNサーバールー器官のWeb管理パネルにログインし、**ネット
 
 サーバールー器官がファームウェアv4.8で降を実行している場合は、設定ファイルを編集する必要はありません。次の手順に進んでください。
 
-サーバールー器官がファームウェアv4.7で前を実行している場合は、このファイルを開き、DNSサーバーをOpenVPNサーバーのトンネルIPに設定するためにで下の行を追加し、変よりを保存します。
+サーバールー器官がファームウェアv4.7で前を実行している場合は、このファイルを開き、DNSサーバーをOpenVPNサーバーのトンネルIPに設定するために以下の行を追加し、変更を保存します。
 
 `dns server 1 address 10.8.0.1`
 
@@ -64,7 +64,7 @@ OpenVPNクライアントにログインし、ステップ3でエクスポート
 
 ![client import config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/client_import.png){class="glboxshadow"}
 
-接続が成功하면 緑 점이 表示됩니다.
+接続が成功すると、緑色のドットが表示されます。
 
 ![client connected](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/client_connected.png){class="glboxshadow"}
 

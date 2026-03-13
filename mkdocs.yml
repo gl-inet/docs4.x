@@ -8,7 +8,7 @@ site_description: Documentation for GL.iNet Productions
 site_author: GL.iNet
 site_url: https://docs.gl-inet.com/router/jp/4/
 site_dir: /root/docs-build/router/jp/4/
-copyright: Copyright &copy; 2025 GL Technologies & Microuter Technologies
+copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
 
 theme: 
   name: material
@@ -26,6 +26,9 @@ plugins:
   - redirects:
       redirect_maps:
         'faq/block_no_vpn_traffic.md': 'faq/block_non_vpn_traffic.md'
+        'faq/i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md': 'faq/no_internet_after_replacing_the_old_router_with_glinet.md'
+        'tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md': 'tutorials/eap.md'
+        'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
 
 # Customization
 extra:
@@ -128,6 +131,7 @@ nav:
       - iPhone テザリング失敗: faq/iphone_tethering_fail.md
       - キャプティブポータルでホットスポットに接続する: faq/connect_to_a_hotspot_with_captive_portal.md
       - 有線接続を作成する: faq/produce_a_wired_connection.md
+      - 古いルーターをGL.iNet路由器に置き換えた後にインターネットがない: faq/no_internet_after_replacing_the_old_router_with_glinet.md
     - アップグレード:
       - ファームウェアをダウンロード: faq/where_to_download_firmware.md
       - ファームウェア 4.x へのアップグレード: faq/upgrade_to_4.md
@@ -166,6 +170,7 @@ nav:
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
     - ネットワーク:
+      - EAPネットワークに接続: tutorials/eap.md
       - ゲストネットワークの設定方法: tutorials/how_to_set_up_a_guest_network.md
       - ドロップインゲートウェイの設定方法: tutorials/how_to_set_up_drop_in_gateway.md
       - プライマリルーターでポート転送を設定する方法: tutorials/how_to_set_up_port_forwarding.md
@@ -211,6 +216,7 @@ nav:
       - LAN: interface_guide/lan.md
       - ゲストネットワーク: interface_guide/guest_network.md
       - DNS: interface_guide/dns.md
+      - Ethernet ポート: interface_guide/ethernet_port.md
       - ネットワークモード: interface_guide/network_mode.md
       - IPv6: interface_guide/ipv6.md
       - Macアドレス: interface_guide/mac_address.md
@@ -224,6 +230,8 @@ nav:
       - ファームウェアのアップグレード: interface_guide/firmware_upgrade.md
       - スケジュールされたタスク: interface_guide/scheduled_tasks.md
       - 管理者のパスワード: interface_guide/admin_password.md
+      - Display Management: interface_guide/display_management.md
+      - USB & Power: interface_guide/usb_power.md
       - Time Zone: interface_guide/time_zone.md
       - トグルボタン設定: interface_guide/toggle_button_settings.md
       - ログ: interface_guide/log.md

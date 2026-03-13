@@ -1,7 +1,7 @@
 
 # GL.iNet ルーターで WireGuard サーバーを設定
 
-WireGuard® は、**最先端の暗号技術** を利用した非常にシンプルで高速かつ最新の VPN です。IPSec よりも [高速](https://www.wireguard.com/performance/){target="_blank"} で [シンプル](https://www.wireguard.com/quickstart/){target="_blank"}、効率的、より使いやすいことを目指しています。また、OpenVPN よりもはるかに高性能であることを意図しています。
+WireGuard® は、**最も先端の暗号技術** を利用した非常ににシンプルで高速かつ最も新の VPN です。IPSec よりも [高速](https://www.wireguard.com/performance/){target="_blank"} で [シンプル](https://www.wireguard.com/quickstart/){target="_blank"}、効率の、より使いやすいことを目指しています。また、OpenVPN よりもはるかに高パフォーマンスであることを意図しています。
 
 ---
 
@@ -16,8 +16,8 @@ WireGuard® は、**最先端の暗号技術** を利用した非常にシンプ
 ## ネットワークトポロジー
 
 * GL.iNet ルーターがネットワークのメインルーターである場合、次のステップに進むだけです。
-* 既にメインルーターが存在する場合、GL.iNet ルーターがメインルーターの下にあるため、メインルーターでポートフォワーディングを設定する必要があります。
-* 既にメインルーターが存在し、GL.iNet ルーターがいくつかのレベル下にある場合、各レベルでポートフォワーディングを設定する必要があります。
+* 既にメインルーターが存にする場合、GL.iNet ルーターがメインルーターの下にあるため、メインルーターでポートフォワーディングを設定する必要があります。
+* 既にメインルーターが存にし、GL.iNet ルーターがいくつかのレベル下にある場合、各レベルでポートフォワーディングを設定する必要があります。
 
 ## WireGuard サーバーの設定
 
@@ -29,11 +29,11 @@ Web 管理パネルにアクセスし、左側のメニューから -> VPN -> Wi
 
 2. 構成を適用
 
-    デフォルトの構成はほとんどの場合に適しています。上位ルーターのゲートウェイと IPv4 アドレスが競合する場合、修正後に **適用** ボタンをクリックします。例えば、**10.1.0.1/24** に変更することができます。**/24** を忘れずに追加してください。そうしないとクライアントが接続できません。
+    デフォルトの構成はほとんどの場合に適しています。上位ルーターのゲートウェイと IPv4 アドレスが競合する場合、修正後に **適用** ボタンをクリックします。例えば、**10.1.0.1/24** に変よりすることができます。**/24** を忘れずに追加してください。そうしないとクライアントが接続できません。
 
     ![wireguard server apply configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_apply_configuration.png){class="glboxshadow"}
 
-    例えば、Xfinity ルーターを使用している場合、ルーターの IP は WireGuard サーバーの IP と同じになるため、上記の変更を行う必要があります。
+    例えば、Xfinity ルーターを使用している場合、ルーターの IP は WireGuard サーバーの IP と same じになるため、上記の変よりを行う必要があります。
     
     ![xfinitygateway](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
@@ -47,7 +47,7 @@ Web 管理パネルにアクセスし、左側のメニューから -> VPN -> Wi
 
     ![wireguard server profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_profiles.png){class="glboxshadow"}
 
-    説明的な名前を入力します。
+    説明のな名前を入力します。
 
     ![wireguard server profile setting](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wireguard_server_profile_setting.png){class="glboxshadow"}
     
@@ -65,7 +65,7 @@ Web 管理パネルにアクセスし、左側のメニューから -> VPN -> Wi
 
 4. WireGuardサーバーの起動
 
-    右上隅の**スタート**ボタンをクリックしてWireGuardサーバーを起動します。VPNダッシュボードページに移動して、状態と他の設定を確認します。
+    右上隅の**スタート**ボタンをクリックしてWireGuardサーバーを起動します。VPNダッシュボードページに移動して、状態と彼の設定を確認します。
 
     ![start wireguard server](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/start_wireguard_server.png){class="glboxshadow"}
 
@@ -77,18 +77,18 @@ Web 管理パネルにアクセスし、左側のメニューから -> VPN -> Wi
 
 WireGuardサーバーが正常に動作しているか確認するには、別のネットワークに接続された別のデバイスを使用し、この前にエクスポートしたWireGuard構成を使用して接続し、正しく接続されているか、IPアドレスがWireGuardサーバーのIPアドレスであるかを確認します。
 
-最も簡単な方法は、[WireGuard公式クライアントアプリ](https://www.wireguard.com/install){target="_blank"}をインストールした携帯電話を使用し、Wi-Fi接続をオフにして、3G/4G/5G経由でのみインターネットに接続することです。次にWireGuardアプリを開き、QRコードからWireGuard構成をインポートします。接続を有効にし、携帯電話がインターネットアクセスを持ち、そのIPアドレスがWireGuardサーバーのIPアドレスであるかを確認します。
+最もも簡単な方法は、[WireGuard公式クライアントアプリ](https://www.wireguard.com/install){target="_blank"}をインストールした携帯電話を使用し、Wi-Fi接続をオフにして、3G/4G/5G経よりでのみインターネットに接続することです。次にWireGuardアプリを開き、QRコードからWireGuard構成をインポートします。接続を有効にし、携帯電話がインターネットアクセスを持ち、そのIPアドレスがWireGuardサーバーのIPアドレスであるかを確認します。
 
 失敗の原因はいくつかあります：
 
 * インターネットサービスプロバイダーがパブリックIPアドレスを割り当てていない、 [こちら](#make-sure-internet-service-provider-assigns-you-a-public-ip-address)を確認してください。
 * ポートフォワーディングの設定が必要な場合があります、 [こちら](#network-topology)を確認してください。
-* WireGuardサーバー用に使用しているポートがインターネットサービスプロバイダーによってブロックされている、別のポートに変更するか、インターネットサービスプロバイダーに連絡してください。
-* 一部の国/地域ではVPN接続がブロックされることがあります。
+* WireGuardサーバー用に使用しているポートがインターネットサービスプロバイダーによってブロックされている、別のポートに変よりするか、インターネットサービスプロバイダーに連絡してください。
+* 一部の国/に域ではVPN接続がブロックされることがあります。
 
 ## WireGuardクライアントアプリ
 
-別の GL.iNet ルーターを WireGuard クライアントとして使用したり、さまざまな OS を備えた他のデバイスで公式アプリを使用したりすることができます。
+別の GL.iNet ルーターを WireGuard クライアントとして使用したり、さまざまな OS を備えた彼のデバイスで公式アプリを使用したりすることができます。
 
 - WireGuard公式ウェブサイトを参照してください: [https://www.wireguard.com/install](https://www.wireguard.com/install){target="_blank"}
 

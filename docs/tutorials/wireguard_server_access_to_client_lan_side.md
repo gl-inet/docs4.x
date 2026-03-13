@@ -25,7 +25,7 @@
 
 ![Setup](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/setup.jpg){class="glboxshadow"}
 
-**+**をクリックして許可するIPを追加し、**適用**をクリックして新しい設定を取得します。
+**+**をクリックして許可するIPを追加し、**適用**をクリックして新しい設定を取なければならないします。
 
 ![allowip](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/allowip.jpg){class="glboxshadow"}
 

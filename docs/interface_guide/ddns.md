@@ -1,103 +1,141 @@
 # ダイナミックDNS
 
-ダイナミックドメインネームサービス（ダイナミックDNSまたはDDNS）は、ドメイン名をネットワークデバイスの動的IPアドレスにマッピングするために使用されるサービスです。
-
-ウェブ管理画面の左側 -> アプリケーション -> ダイナミックDNS
-
-![ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ddns.png){class="glboxshadow"}
+ダイナミックドメインネームサービス（ダイナミックDNSまたはDDNS）は、ドメイン名をネットワークデバイスの動のIPアドレスにマッピングするために使用されるサービスです。ダイナミックDNSを使用すると、ルーターにリモートでアクセスできます。この機できるにはインターネットのパブリックIPアドレスが必要です。
 
 ## DDNSを有効にする
 
-利用規約とプライバシーポリシーの**DDNSを有効にする**トグルをオンにして、**適用**ボタンをクリックします。通常、有効になるまで数分かかります。
+ウェブ管理画面の左側 -> アプリケーション -> ダイナミックDNS、で下のページが表示されます。
 
-DDNS の更新頻度は 10 分に 1 回です。
+![ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns.png){class="glboxshadow"}
 
-![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/enable_ddns.png){class="glboxshadow"}
+**DDNSを有効にする**をオンにし、**利用規約とプライバシーポリシー**に same 意し、**適用**をクリックします。
 
-**注意**: DDNS と VPN クライアントを同時に使用する場合は、 [VPN クライアントのグローバル オプション](vpn_dashboard.md#global-options-of-vpn-client)で**GL.iNetからのサービスはVPNを使用しません**を有効にしてください。
+![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
 
-## DDNS が有効かどうかを確認する
+右下の**セキュリティ設定**をクリックします。
+
+![security settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/security_settings-1.png){class="glboxshadow"}
+
+ポップアップウィンドウで、適用したいリモートアクセスプロトコルが有効になっているかどうかを確認します。有効になっていない場合は、システム -> セキュリティ -> リモートアクセス制御に移動して有効にしてください。
+
+![security settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/security_settings-2.png){class="glboxshadow"}
+
+必要なリモートアクセスプロトコルを有効にし、**適用**をクリックします。
+
+![security remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_enabled.jpg){class="glboxshadow"}
+
+DNSサーバー間のレコード same 期には最も大10分の遅延が生じる場合があります。これにより、有効にした直後やパブリックIPが変よりされた直後にDDNSドメイン名でアクセスできない場合があります。
+
+**注意**: DDNSとVPNクライアントを same 時に有効にする場合は、**GL.iNetからのサービスはVPNを使用**が無効になっていることを確認してください。この機できるはVPNダッシュボードの[VPNクライアントオプション](vpn_dashboard.md#tunnel-options)にあります。
+
+## DDNSが機できるしているかどうかを確認する
+
+DDNSテストツールを使用するか、コマンドを使用して手動で確認できます。
 
 === "DDNSテストツールを使用する"
 
-    **DDNS Test**をクリックしてください。
+    ダイナミックDNSページで、**DDNSテスト**をクリックします。
 
-    ![ddns test](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/click_ddns_test.png){class="glboxshadow"}
+    ![ddns test](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns_test.png){class="glboxshadow"}
 
-    以下のように、**あなたのDDNSはx.x.x.xとして解決されました**と表示された場合、DDNSが機能することを示しています。言い換えれば、この**ホスト名**は、インターネットアクセスのためのルーターの最終的な出口IPにマッピングされています。
+    DDNSドメインの解決からなければならないられたIPアドレスがルーターのWAN IPと一致していることを確認します。
+    
+    一致しない場合、上部に黄色のプロンプトが表示され、ルーターがNATの後ろにある可できる性があること、および上位ルーターでポートフォワーディングを設定する必要があることが示されます。
 
-    ![ddns works](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ddns_test_resolved.png){class="glboxshadow"}
+    ![ddns test prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns_test_no_public_ip.png){class="glboxshadow"}
 
-=== "または手動で確認する"
+=== "手動で確認する"
 
-    以下の 2 つの IP アドレスが同じかどうかを確認し、同じであれば DDNS が有効であり、そうでなければ無効です。
+    1. で下に示すように、`nslookup`コマンドを使用してドメイン名とIPアドレスのマッピングを取なければならないします。
 
-    * 以下に示すように `nslookup` コマンドを使用して、ドメイン名と IP アドレス間のマッピングを取得します。 `zw72cd7.glddns.com` をホスト名に変更する必要があります。 `8.8.8.8` はGoogle DNSですが、他のDNSに変更することもできます。
+        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup1.jpg){class="glboxshadow"}
 
-        `nslookup zw72cd7.glddns.com 8.8.8.8`
+        上記の画像の"xxxxxxx.glddns.com"をホスト名に置き換えてください。
+        
+        上記の画像の"8.8.8.8"はGoogle DNSです。これを使用するか、彼のDNSに置き換えてEnterを押してください。
 
-        ![nslookup](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/nslookup.png){class="glboxshadow"}
+    2. で下の画像のように"103.81.180.10"のようなパブリックIPアドレスが出力された場合、DDNSドメインがパブリックIPアドレスに正常にマッピングされたことを示します。
 
-        上記の出力は、ホスト名が IP アドレスにマップされたことを意味します。
+        ![nslookup 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup2.jpg){class="glboxshadow"}
+        
+        ルーターに接続されたデバイスで、ブラウザで"what is my ip address"を検索するか、[What Is My IP Address](https://whatismyipaddress.com){target="_blank"}のようなサイトにアクセスします。パブリックIPアドレスが取なければならないできます。手順1と2で取なければならないした2つのIPアドレスを比較します。相 same の場合DDNSは有効です。
 
-    * ルーターに接続されたスマホや PC を使用して、Google で **my ip address** を検索するか、[https://whatismyipaddress.com/](https://whatismyipaddress.com/){target="_blank"}のようなサイトにアクセスします。
+    3. で下に示すように`** server can't find xxxxxxx.glddns.com: NXDOMAIN`というメッセージが表示された場合、ドメイン解決に失敗したことを示し、DDNSドメインがパブリックIPアドレスに正常にマッピングされていません。
 
-## HTTPリモートアクセス
+        ![nslookup 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup3.png){class="glboxshadow"}
 
-この機能にはパブリック IP アドレスが必要です。 インターネット プロバイダー サービスがパブリック IP アドレスを割り当てているかどうかを確認するには[こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)をご確認ください。
+## HTTPSリモートアクセス
 
-ルーターがNATの後ろにある場合、上位のルーターでポートフォワーディングを設定する必要があるかもしれません。ポート番号**80**を使用します。
+!!! 注意
 
-![HTTP-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/http_remote_access.png){class="glboxshadow"}
+    1. HTTPSリモートアクセスには**パブリックIP**アドレスが必要です。
+    
+        [こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)をクリックして、インターネットプロバイダーサービス（ISP）がパブリックIPアドレスを割り当てているかどうかを確認してください。
+    
+    2. ルーターがNATの後ろにある場合は、HTTPSアクセス用に上位ルーターでポートフォワーディング（ポート**443**）を設定してください。
 
-上記の手順に従って、HTTPリモートアクセスを有効にします。
+で下の手順に従って、ルーターのHTTPSリモートアクセスを有効にします。
 
-***HTTPは暗号化されていませんので、ご自身の責任においてご利用ください。***
+1. ダイナミックDNSページで、**DDNSを有効にする**をオンにし、**利用規約とプライバシーポリシーに same 意し、**適用**をクリックします。
 
-HTTPリモートアクセスを有効にすると、DDNSホスト名の**http**でどこからでも管理パネルにアクセスできます。 e.g. `http://xxxxxxx.glddns.com`. ポートフォワーディングを使用する場合は、 `http://xxxxxxx.glddns.com:YourExternalPort`のようにアクセスする必要があります。
+    ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
 
-## HTTPS リモート アクセス
+2. ウェブ管理パネルで、システム -> セキュリティ -> リモートアクセス制御に移動します。
 
-この機能にはパブリックIPアドレスが必要です。 インターネットプロバイダーからパブリックIPアドレスが割り当てられているかどうかを確認するには、 [こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)を確認してください。
+    ![remote access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_disabled.png){class="glboxshadow"}
 
-ルーターがNATの後ろにある場合、上位のルーターでポートフォワーディングを設定する必要があるかもしれません。 **443**ポートを使用します。
+3. **HTTPSリモートアクセス**を有効にし、**適用**をクリックします。
 
-![HTTPS-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access.png){class="glboxshadow"}
+    ![enable https remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_https_remote_access.png){class="glboxshadow"}
 
-HTTPS リモート アクセスを有効にすると、DDNS ホスト名 **https** を使用してどこからでも管理パネルにアクセスできるようになります。e.g. `https://xxxxxxx.glddns.com`.ポートフォワーディングを使用する場合は、 `https://xxxxxxx.glddns.com:YourExternalPort`のようにアクセスする必要があります。
+有効にすると、**HTTPS**経よりでDDNSホスト名（例：`https://xxxxxxx.glddns.com`）を使用してどこからでもルーターの管理パネルにアクセスできます。
 
-この機能は自己署名証明書を使用するため、ブラウザには **接続がプライベートではない**ことが表示されます。Android Chrome で使用する方法を説明します。他のブラウザでも同様のプロセスです。 スマホのWiFi をオフにし、インターネットへのアクセスには 4G のみを使用します。
+ポートフォワーディングが設定されている場合は、`https://xxxxxxx.glddns.com:external_port`でアクセスします（external_portを実際のポート番号に置き換えてください）。
 
-Chromeを開き、アドレスバーにURLを入力します。例として `https://zw72cd7.glddns.com:8001`を使用します。下にある**Advanced**をクリックしてください。
+**注意**: この機できるはから身署名証明書を使用するため、で下の例のように、**HTTPS**経よりでDDNSホスト名でルーターの管理パネルにアクセスすると、ブラウザには**接続がプライベートではない**と表示されます（で下の例ではポート8001を使用）。
 
-![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_1.png){class="glboxshadow" width="400"}
+![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_0.jpg){class="glboxshadow" width="400"}
 
- **xxxxxx.glddns.com に処理されました (安全ではありません)** をクリックして続行します。
+HTTPSリモートアクセスを続行するには、下部の**詳細設定**をクリックします。
 
-![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_2.png){class="glboxshadow" width="400"}
+![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_1.png){class="glboxshadow" width="400"}
 
-次に、Web 管理パネルにアクセスします。
+次に、**xxxxxxx.glddns.comに進む**をクリックして続行します。
 
-![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/https_remote_access_android_chrome_3.png){class="glboxshadow" width="400"}
+![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_2.png){class="glboxshadow" width="400"}
+
+これで、HTTPS経よりでDDNSホスト名を使用してウェブ管理パネルにアクセスできるようになります。
+
+![HTTPS-Remote-Access-on-Android-Chrome](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/https_remote_access_android_chrome_3.png){class="glboxshadow" width="400"}
 
 ## SSHリモートアクセス
 
-この機能にはパブリックIPアドレスが必要です。 インターネットプロバイダーからパブリックIPアドレスが割り当てられているかどうかを確認するには、 [こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)を確認してください。
+!!! 注意
 
-ルーターがNATの後ろにある場合、上位のルーターでポートフォワーディングを設定する必要があるかもしれません。 **22**ポートを使用します。
+    1. SSHリモートアクセスには**パブリックIP**アドレスが必要です。
+    
+        [こちら](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)をクリックして、インターネットプロバイダーサービス（ISP）がパブリックIPアドレスを割り当てているかどうかを確認してください。
+    
+    2. ルーターがNATの後ろにある場合は、SSHアクセス用に上位ルーターでポートフォワーディング（ポート**22**）を設定してください。
 
-![SSH-Remote-Access](https://static.gl-inet.com/docs/router/en/4/tutorials/ddns/ssh_remote_access.png){class="glboxshadow"}
+で下の手順に従って、ルーターのSSHリモートアクセスを有効にします。
 
-上記の手順に従って SSH リモート アクセスを有効にします。そうすれば、どこでもルーターにsshできるようになります。
+1. ダイナミックDNSページで、**DDNSを有効にする**をオンにし、**利用規約とプライバシーポリシーに same 意し、**適用**をクリックします。
 
-SSH コマンドは以下のようになります。
+    ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
 
-`ssh root@xxxxxxx.glddns.com`
+2. ウェブ管理パネルで、システム -> セキュリティ -> リモートアクセス制御に移動します。
 
-または
+    ![remote access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/remote_access_disabled.png){class="glboxshadow"}
 
-`ssh root@xxxxxxx.glddns.com:YourExternalPort`
+3. **SSHリモートアクセス**を有効にし、**適用**をクリックします。
+
+    ![enable ssh remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ssh_remote_access.png){class="glboxshadow"}
+
+有効になると、**SSH**経よりでDDNSホスト名（例：`ssh root@xxxxxxx.glddns.com`）を使用してどこからでもルーターの管理パネルにアクセスできます。
+
+ポートフォワーディングが設定されている場合は、`ssh root@xxxxxxx.glddns.com:external_port`でアクセスします（external_portを実際のポート番号に置き換えてください）。
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。

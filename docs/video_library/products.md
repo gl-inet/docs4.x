@@ -1,6 +1,6 @@
 # 新製品のご紹介
 
-当社将来の製品についての紹介と、最新開発の概要をご覧ください。
+当社する来の製品についての紹介と、最も新開発の概要をご覧ください。
 
 ## GL-X3000(Spitz AX)
 
@@ -10,7 +10,7 @@ GL-X3000 Spitz AX | Wi-Fi 6 5G NR接続を備えたデュアルSIMルーター
 
 ## GL-MT3000(Beryl AX)
 
-GL-MT3000 Beryl AX | 最小の WI-FI 6 VPN ルーター
+GL-MT3000 Beryl AX | 最も小の WI-FI 6 VPN ルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6h8G1MzF2hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -38,7 +38,7 @@ Meet Brume-W: セキュアなエッジ・コンピューティングを実現す
 
 ## GL-AP1300(Cirrus)
 
-Meet CIRRUS-企業向け天井型ワイヤレス・アクセス・ポイント
+Meet CIRRUS-企業へけ天井型ワイヤレス・アクセス・ポイント
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wYTVenxLgQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -50,19 +50,19 @@ Meet Convexa S - スマートホーム用OpenWrtゲートウェイ
 
 ## GL-AX1800(Flint)
 
-Meet Flint (GL-AX1800) - 家庭またはオフィス向けの安全で超高速な Wi-Fi 6 ワイヤレス ルーター
+Meet Flint (GL-AX1800) - 家庭またはオフィスへけの安全で超高速な Wi-Fi 6 ワイヤレス ルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aXEIS3keP24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-E750(Mudi)
 
-Meet MUDI - ロードウォリアー向けの 4G LTE プライバシー ルーター
+Meet MUDI - ロードウォリアーへけの 4G LTE プライバシー ルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y52aAzkWvQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-SFT1200(Opal)
 
-Meet Opal (GL-SFT1200) セキュリティに精通した旅行者向けのギガビット無線ルーター
+Meet Opal (GL-SFT1200) セキュリティに精通した旅行者へけのギガビット無線ルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VkglWuItuXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

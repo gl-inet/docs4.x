@@ -1,87 +1,123 @@
-# キャプティブ・ポータルでホットスポットに接続する
+# キャプティブポータルでパブリックホットスポットにGL.iNetルーターを接続する
 
-## キャプティブ・ポータルとは？
+## キャプティブポータルとは？
 
-キャプティブ ポータルは、インターネットアクセスが許可される前に、パブリック ホットスポットがユーザーに閲覧および操作することを義務付けられている Web ページです。
+キャプティブポータルは、インターネットアクセスが許可される前に、パブリックホットスポットがユーザーにページを閲覧して操作することを要求するWebページです。
 
-## パブリック ホットスポットに接続するためにルーターを使用する必要があるのはなぜですか?
+## なぜパブリックホットスポットにルーターを使用するのですか？
 
-* パブリックWi-Fiは安全ではありません 
+* パブリックWi-Fiは安全ではない
 
-    パブリックWi-Fiがいかに安全でないかは、いくら強調してもしきれません。GL.iNetルーターを公衆無線LANに接続すれば、ルーターの管理パネルから直接VPNアカウントにログインするだけで、ローカルネットワーク内で接続された全てのデバイスが自動的に暗号化され、全てのデバイスにVPNを設定する手間が省けます。
+    パブリックWi-Fiのリスクを強調しても足りません。GL.iNetルーターをパブリックWi-Fiに接続すると、ルーターの管理パネルから直接VPNアカウントにログインできます。ローカルネットワーク上のすべての接続されたデバイスがから動のに暗号化され、すべてのデバイスでVPNを設定する手間が省けます。
 
-* リピーターとして使用し、複数のデバイスと接続可能
+* リピーターとして使用して複数のデバイスとの接続を可できるにする
 
-    その上、ホテルの無料Wi-FiなどパブリックWi-Fiの中には、例えば2台のデバイスに制限されている場合もあります。グループで旅行している場合、それではうまくいきません。その代わりに、トラベルルーターをホテルのWi-Fiに接続し、ホットスポットとして使用して、ノートパソコン、スマートフォン、タブレットなど、すべてのデバイスにWi-Fiをブロードキャストすることができます。ホテルのWi-Fiはトラベルルーターを1台のデバイスとしてしか認識しないが、何台でも無料Wi-Fiを楽しむことができます。
+    その上、一部のパブリックWi-Fiネットワーク（例：ホテルのWi-Fi）は例えば2台のデバイスに制限されています。グループで旅行している場合、これは実用のではありません。代わりに、トラベルルーターをホテルのWi-Fiに接続し、リピーターとして使用して、ノートパソコン、スマートフォン、タブレットなどを含むすべてのデバイスにWi-Fiシグナルをブロードキャストできます。ホテルのWi-Fiはトラベルルーターを単一のデバイスとして認識しますが、からよりなWi-Fiに接続したい数のデバイスを接続できます。
 
-## ルーターをキャプティブポータル経由でパブリックホットスポットに接続するには？
+## ルーターをキャプティブポータルを経よりしてパブリックホットスポットに接続するには？
 
-1. スマートフォンまたはコンピューターをルーターに接続します。
+このビデオを見るか、で下の手順に従ってください。
 
-    ルーターの電源を入れます。 スマートフォンまたはコンピュータで、SSID を検索して WiFi をトラベル ルーターに接続し、WiFi パスワードを入力します。 デフォルトのパスワードは、ルーターの底部に「WIFI キー」として表示されます。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CM4_soLf9fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-2. トラベル ルーターの Web 管理パネルにアクセスします。
+1. スマートフォンまたはコンピュータをルーターに接続します。
 
-    ルーターへの接続に成功したら、インターネットブラウザでルーターのIPアドレス（デフォルトは`192.168.8.1`）にアクセスして、ルーターのウェブ管理パネルにアクセスします。初めてログインする場合は、言語を選択し、ルータのWeb管理パネルの新しいパスワードを作成します。
+    ルーターの電源を入れます。スマートフォンまたはコンピュータで、ルーターのSSIDを検索し、Wi-Fiパスワードを入力します。デフォルトのSSIDとパスワードはルーターの底面に印刷されています。
 
-3. [リピーター](../interface_guide/internet_repeater.md/) 機能を使用して、ルーターをパブリックホットスポットのSSIDに接続します。
+2. ルーターのWeb管理パネルにログインします。
 
-4. ホテルのキャプティブ・ポータルに必要事項を記入する。
+    スマートフォンまたはコンピュータで、Webブラウザを開き、アドレスバーにルーターのIPアドレス（デフォルトIP: `192.168.8.1`）を入力します。ルーターのWeb管理パネルにアクセスできます。
+    
+    初めてログインする場合は、言語を選択し、ルーターのWeb管理パスのログインパスワードを作成します。
+
+3. ルーターをパブリックホットスポットに接続します。[リピーター](../interface_guide/internet_repeater.md/)チュートリアルを参照してください。
 
 ## トラブルシューティング
 
-ただし、キャプティブ ポータルに入ることができないため、ホットスポットに接続したり、インターネットにアクセスしたりできない場合があります。 この場合は、次の解決策を 1 つずつ試してください。
+キャプティブポータルに入れない場合、ルーターがインターネットにアクセスできない可できる性があります。で下のトラブルシューティング方法を試してください。
+
+### 方法1: パブリックホットスポットログインモードとカムフラージュを有効にする
+
+**注意**: この2つの機できるはファームウェアv4.6で上でのみ利用可できるです。
+
+ルーターをパブリックホットスポットに接続する場合、**ネットワークに参加**ページでで下の機できるを有効にすると、接続成功率を改善できます。
+
+![hotspot login mode & camouflage](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/hotspot_login_mode_camouflage.png){class="glboxshadow"}
+
+- パブリックホットスポットのログインモードをから動のに有効にする
+
+    このオプションが有効になっている場合、ホットスポットには正常に接続されているがインターネットには接続されていない場合、このルーターはから動のにパブリックホットスポットのログインモードに入ります。このモードでは、いくつかのサービスが一時停止され、DNSモードはから動のに切り替わり、ネットワークアクティビティがホットスポットプロバイダ（例：ホテルやショッピングセンター）に漏洩する可できる性があります。
+
+- カムフラージュを有効にする
+
+    有効になっている場合、ルーターは、管理パネルにアクセスするために使用するデバイスのMACアドレスをエミュレートして、そのデバイスのMACアドレスを偽装します。
 
 ---
 
-### 解決策 1: DNS 設定を変更する
+### 方法2: ルーター設定を変よりする
 
-1. Web 管理パネル -> ネットワーク -> DNS に移動します。 次に、**DNS 再バインディング攻撃保護** が無効になっていて、**モード** が **自動** であることを確認します。
+1. Web管理パネルにログインし、NETWORK -> DNSに移動します。**DNSリバインディング攻撃保護**が無効になっていることと、**モード**が**から動**に設定されていることを確認してください。
 
-    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="580"}
+    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
 
-2. Web 管理パネル -> VPN -> VPN ダッシュボードに移動します。 OpenVPN と WireGuard クライアントの接続が無効になっていることを確認してください。
+2. Web管理パネルで、VPN -> VPNダッシュボードに移動します。すべてのVPN接続が無効になっていることを確認してください。
 
-    ![vpn client is disable](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="572"}
+    **ファームウェアv4.7で前**の場合、ページはで下のように表示されます。
+    
+    ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
+    
+    **ファームウェアv4.8で上**の場合、ページはで下のように表示されます。
 
-3. Web 管理パネル -> アプリケーション -> AdGuard Homeに移動します。 AdGuard Homeが停止していることを確認してください。
+    ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
+
+3. Web管理パネルで、APPLICATIONS -> AdGuard Homeに移動します。AdGuard Homeが無効になっていることを確認してください。
 
     ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
 
-4. Web ブラウザを使用して Web ページにアクセスすると、ホットスポットのキャプティブ ポータルに自動的にリダイレクトされます。
+4. Webブラウザを開き、キャプティブポータルのWebページを再度入力するかアップデートします。1分待って、から動のにキャプティブポータル認証ページにリダイレクトされるかどうかを確認します。
 
-    スマートフォンを使用しているが、Web ブラウザがキャプティブ ポータルにリダイレクトされない場合、スマートフォンのWi-Fiを一度OFFにし、再度ONにしてルーターのWi-Fiに接続し直してください。 Wi-Fi パスワードを入力すると、キャプティブ ポータルが直接ポップアップ表示されます。
+    スマートフォンを使用しており、Webブラウザがキャプティブポータルにリダイレクトされない場合は、スマートフォンのWi-Fiをオフにし、再びオンにしてルーターのWi-Fiに再接続してください。Wi-Fiパスワードを入力すると、キャプティブポータルが直接ポップアップ表示されます。
 
     ![connected](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
 
 ---
 
-### 解決策 2：MAC クローン
+### 方法3：MACクローン
 
-[解決策 1](#solution-1-change-dns-settings)だけではこの問題を解決できない場合があります。 一部のホテルでは、各顧客がアクセスできるデバイスの数を MAC アドレスによって制限しており、初めてホテルの WiFi にアクセスしたときに携帯電話 (またはその他のデバイス) の MAC アドレスを記録します。 この場合、携帯電話がホテルの WiFi に接続するために使用する MAC アドレスをルーターにクローンする必要があります。
+一部の研究では、ホテルの数が顧客ごとに接続できるデバイスの数をMACアドレスによって制限しており、デバイスのMACアドレスを最も初に接続したときに記録しています。この場合、スマートフォンからルーターへMACアドレスをクローンすれば、ルーターはそのMACアドレスを使用してホテルのWi-Fiにアクセスできます。
 
-1. スマートフォンをネットワークに登録します。
+1. スマートフォンをホテルのWi-Fiに接続します。スマートフォンがホテルのWi-Fiに接続するために使用するMACアドレスを見つけます。
 
-2. お使いのスマートフォンがホテルのWiFiに接続されていることを確認します。あなたのスマホがホテルのWiFiに接続するために使用しているMACアドレスを確認します。以下はiPhone（iOS 16.1.2）の例です。設定→Wi-Fi→ホテルのWiFiを選択してください。Wi-Fiアドレスが表示されるので、このアドレスをメモします。
+    で下はiPhone（iOS 16.1.2）の例です：設定 → Wi-Fi → 酒店のWi-Fiを選択すると、Wi-Fiアドレスが見つかります。このアドレスをメモしてください。
 
     ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
 
-    一部の古い携帯電話では、WiFiでMACアドレスが見つからない場合、携帯電話の本当のMACアドレスを使用します。これは携帯電話の**設定** -> **About**にあり、そこで携帯電話のMACアドレスを見つけることができます。
+    一部の古いモデルでは、MACアドレスがWi-Fi設定で利用できない場合があります。この場合、デバイスはパブリックWi-Fiに接続する際に実際のMACアドレスを使用する場合があります。これはスマートフォンの設定 → 一般（または「電話について」）で見つけることができます。
 
-3. 携帯電話またはパソコンを使ってルーターに接続し、ウェブ管理パネルにアクセスします。ウェブ管理パネルの左側にある「ネットワーク」→「MACアドレス」を選択します。
+2. スマートフォンまたはコンピュータをルーターに接続します。ルーターのWeb管理パネルにログインし、このMACアクセスをクローンするか手動で入力します。
 
-    手動モードを選択し、ステップ2でメモしたMACアドレスを入力ボックスに記入し、[適用]をクリックします。
+    **ファームウェアv4.5で前**の場合、左側からNETWORK → MACアドレスを選択してください。
+
+    手動モードを選択し、ステップ1で取なければならないしたMACアドレスを入力し、適用をクリックします。
 
     ![MAC manual](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
 
-4. 有効にするには、ルーターを再起動する必要があるかもしれません。
+    **ファームウェアv4.6で上**の場合、左側からINTERNET → リピーターセクションを選択し、修正をクリックします。
+
+    ![repeater modify](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
+
+    ポップアップウィンドウで、MACモードをクローンに切り替え、MACアドレスを入力し、適用をクリックします。
+
+    ![repeater clone mac](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_clone_mac.png){class="glboxshadow gl-90-desktop"}
+
+3. 有効にするにはルーターを再起動する必要がある場合があります。
 
 ---
 
-### 解決策3：ホテルのスタッフに助けを求める
+### 方法4：ホテルのスタッフに助けを求める
 
-ホテルのネットワークによっては、非常に厳格な認証ポリシーを持っている場合があります。解決策1でも2でもうまくいかない場合は、ルーターのMACアドレス（工場出荷時のデフォルトのもの）を直接「ホワイトリスト」に追加できるかどうか、ホテルのスタッフに相談してみてください。
+一部のホテルはネットワークに対して非常にに厳格な認証ポリシーを持っています。上述の方法で解決しない場合は、ホテルのスタッフに相談して、ルーターのMACアドレス（ランダムなものではなく工場出荷時のデフォルトのMACアドレスを使用して）をホテルのネットワークのホワイトリストに直接追加できるかどうかを確認してみてください。
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。
+まだご質問はありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。

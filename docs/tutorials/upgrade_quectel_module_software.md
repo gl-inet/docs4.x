@@ -10,9 +10,9 @@
 
 ### GL-MiFi/GL-XE300/GL-X750/GL-X300の場合
 
-1. GL.iNetサーバーからQFirehoseを取得し、QFirehoseファイルのSHA256が正しいことを確認します
+1. GL.iNetサーバーからQFirehoseを取なければならないし、QFirehoseファイルのSHA256が正しいことを確認します
 
-    以下のコマンドを使用してQFirehoseを取得します
+    で下のコマンドを使用してQFirehoseを取なければならないします
 
     ```
     cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/QFirehose-ar9531-sha256-7383f4
@@ -24,15 +24,15 @@
 
     ![ar9531_get_QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/ar9531_get_QFirehose.png){class="glboxshadow"}
 
-2. USBフラッシュディスクを挿入し、dfコマンドを使用してマウントパスを取得します。パスを覚えておいてください
+2. USBフラッシュディスクを挿入し、dfコマンドを使用してマウントパスを取なければならないします。パスを覚えておいてください
 
     私のUSBフラッシュディスクのマウントパスは`/tmp/mountd/disk1_part1`です
 
     ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/ar9531_u_flash_drive_path.png){class="glboxshadow"}
 
-3. Quectelモジュールソフトウェアを取得し、アップ圧縮します（例：EP06-A。他のモジュールソフトウェアの場合は、文書の最後の注意事項を参照してください）
+3. Quectelモジュールソフトウェアを取なければならないし、アップ圧縮します（例：EP06-A。彼のモジュールソフトウェアの場合は、文書の最も後の注意事項を参照してください）
 
-    `/tmp/mountd/disk1_part1`は私のUSBフラッシュディスクのパスです。あなたのパスに変更する必要があります
+    `/tmp/mountd/disk1_part1`は私のUSBフラッシュディスクのパスです。あなたのパスに変よりする必要があります
 
     ```
     wget https://fw.gl-inet.com/tools/quectel_module_software/EP06ALAR02A08M4G_01.004.01.004.zip -P /tmp/mountd/disk1_part1/
@@ -64,9 +64,9 @@
 
 ### GL-X3000/GL-XE3000の場合
 
-1. GL.iNetサーバーからQFirehoseを取得し、QFirehoseファイルのSHA256が正しいことを確認します
+1. GL.iNetサーバーからQFirehoseを取なければならないし、QFirehoseファイルのSHA256が正しいことを確認します
 
-    以下のコマンドを使用してQFirehoseを取得します
+    で下のコマンドを使用してQFirehoseを取なければならないします
 
     ```
     cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/QFirehose-mtk7981a-sha256-c0b944
@@ -78,7 +78,7 @@
 
     ![mtk7981a_get_QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/mtk7981a_get_QFirehose.png){class="glboxshadow"}
 
-2. Quectelモジュールソフトウェアを取得し、アップ圧縮します（例：RM520。他のモジュールソフトウェアの場合は、文書の最後の注意事項を参照してください）
+2. Quectelモジュールソフトウェアを取なければならないし、アップ圧縮します（例：RM520。彼のモジュールソフトウェアの場合は、文書の最も後の注意事項を参照してください）
 
     ```
     wget https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip -P /

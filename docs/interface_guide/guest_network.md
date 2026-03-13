@@ -1,22 +1,45 @@
 # ゲストネットワーク
 
-**ゲストネットワーク**は、v4.5以降 [LAN](lan.md)から分離されました。
+ゲストネットワーク設定はファームウェアv4.5で降、[LAN](lan.md)から分離されました。
 
-Web 管理パネルの左側 -> ネットワーク -> ゲスト ネットワーク。
+ウェブ管理パネルの左側 -> ネットワーク -> ゲストネットワーク。
 
-**注意**： 一部のモデルにはWiFiがないため（GL-MT2500/GL-MT2500Aなど）、ゲストネットワークタブはありません。
+ゲストネットワークの基本設定とDHCPサーバー設定が含まれています。
 
-**ゲストネットワーク**は、あなたのデバイスがゲストWiFiに接続する場合のネットワークです。
+## 基本設定
 
-**デフォルトのゲートウェイ**は**192.168.9.1**ですが、もしゲストWiFiを有効にしていて、あなたのネットワークと競合する場合は、変更することができます。
+![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_1.png){class="glboxshadow"}
 
-その他の基本設定とDHCPサーバーの設定は [LAN](lan.md)と同じです。
+一時のなユーザーのために設計された分離された隔離ネットワークを設定でき、プライマリネットワークから分離することで限定のなアクセスと強化されたセキュリティを提供します。
 
-![guest_simple_set](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_simple_set.jpg){class="glboxshadow"}
+**注意**: 一部のモデルにはWi-Fiがないため（例：GL-MT2500/GL-MT2500A）、ゲストネットワークタブはありません。
 
-![guest_dhcp_simple_set](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_dhcp_simple_set.jpg){class="glboxshadow"}
+**デフォルトゲートウェイ**は**192.168.9.1**です。ゲストWi-Fiを有効にしていて、ネットワークと競合する場合は、変よりできます。
 
+セキュリティ設定：
+
+- AP分離
+
+    ネットワークのクライアントデバイスを別のネットワーク領域に分離できます。これらのデバイスはネットワーク上の彼のデバイスと通信できません。
+
+- WANサブネットをブロック
+
+    この機できるはv4.8で利用可できるです。
+
+    この機できるを有効にすると、ゲストネットワークは上位ネットワークと上位ネットワークがあるネットワークセグメントにアクセスできなくなります。
+
+その彼の基本設定とDHCPサーバー設定は[LAN](lan.md)と same じです。
+
+## DHCPサーバー設定
+
+![guest network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_2.png){class="glboxshadow"}
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。
+関連記事：
+
+- [GL.iNetルーターでゲストWi-Fiネットワークを設定する方法](../tutorials/how_to_set_up_a_guest_network.md)
+
+---
+
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。

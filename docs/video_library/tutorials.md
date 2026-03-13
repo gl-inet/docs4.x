@@ -1,8 +1,8 @@
 # チュートリアル
 
-当社の製品やサービスに追加された新機能や、その使用方法に関する詳細なチュートリアルをご覧いただけます。
+当社の製品やサービスに追加された新機できるや、その使用方法に関する詳細なチュートリアルをご覧いただけます。
 
-## 中小企業向けGoodCloud Wi-Fi管理システムの簡単設定ガイド
+## 中小企業へけGoodCloud Wi-Fi管理システムの簡単設定ガイド
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7U1CwpKOKDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

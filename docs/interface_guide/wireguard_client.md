@@ -1,12 +1,12 @@
 # GL.iNetルーターでのWireGuardクライアントの設定方法
 
-WireGuard®は、**最先端の暗号技術**を利用した、非常にシンプルで高速かつ最新のVPNです。これは、IPSecよりも[高速](https://www.wireguard.com/performance/){target="_blank"}、シンプル、効率的で使いやすく、複雑な問題を回避することを目的としています。また、OpenVPNよりも著しく高性能であることを意図しています。
+WireGuard®は、**最も先端の暗号技術**を利用した、非常ににシンプルで高速かつ最も新のVPNです。これは、IPSecよりも[高速](https://www.wireguard.com/performance/){target="_blank"}、シンプル、効率ので使いやすく、複雑な問題を回避することを目のとしています。また、OpenVPNよりも著しく高パフォーマンスであることを意図しています。
 
-すでにプロバイダーからWireGuardサービスを購入しているが、設定ファイルの取得方法がわからない場合は、[WireGuardサービスプロバイダーから設定ファイルを取得する](#get-configuration-files-from-wireguard-service-providers)を参照するか、そのサポートに問い合わせてください。
+すでにプロバイダーからWireGuardサービスを購入しているが、設定ファイルの取なければならない方法がわからない場合は、[WireGuardサービスプロバイダーから設定ファイルを取なければならないする](#get-configuration-files-from-wireguard-service-providers)を参照するか、そのサポートに問い合わせてください。
 
 Web管理パネルまたは[モバイルアプリ](../faq/mobile_app.md)を介してWireGuardクライアントを設定できます。モバイルアプリには、AzireVPN、Mullvad VPN、OVPN、StrongVPN、PIA VPNなどのいくつかのWireGuardサービスプロバイダーが統合されています。
 
-Web管理パネルを介して設定する場合は、以下のガイドに従ってください。
+Web管理パネルを介して設定する場合は、で下のガイドに従ってください。
 
 AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN**または**Mullvad**ボタンをクリックしてログインするか、**手動で追加**をクリックしてWireGuardプロファイルをアップロードしてください。
 
@@ -14,11 +14,11 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
 ## AzireVPNの設定
 
-[AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"}は、WireGuardのような安全で最新かつ堅牢なトンネルを提供するプライバシー志向のVPNサービスです。
+[AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"}は、WireGuardのような安全で最も新かつ堅牢なトンネルを提供するプライバシー志へのVPNサービスです。
 
 ![azirevpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/azirevpn.png){class="glboxshadow"}
 
-1. **ユーザー名**と**パスワード**を入力し、**認証情報の保存とサーバー取得**をクリックします。これにより、各サーバーの設定ファイルが生成されます。
+1. **ユーザー名**と**パスワード**を入力し、**認証情報の保存とサーバー取なければならない**をクリックします。これにより、各サーバーの設定ファイルが生成されます。
 
     ![azirevpn profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/azirevpn_generated_profiles.png){class="glboxshadow"}
 
@@ -30,9 +30,9 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
     ![vpn dashboard azirevpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/vpn_dashboard_azirevpn_connected.png){class="glboxshadow"}
 
-3. サーバーの更新
+3. サーバーのアップデート
 
-    AzireVPNはサーバーのメンテナンスやシャットダウンを行うことがあり、接続が失敗することがあります。**サーバーを更新する**をクリックして、最新の利用可能なサーバーを取得できます。
+    AzireVPNはサーバーのメンテナンスやシャットダウンを行うことがあり、接続が失敗することがあります。**サーバーをアップデートする**をクリックして、最も新の利用可できるなサーバーを取なければならないできます。
 
     ![azirevpn update servers](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/azirevpn_update_servers.png){class="glboxshadow"}
 
@@ -50,7 +50,7 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
 ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/mullvad.png){class="glboxshadow"}
 
-1. **アカウント**を入力し、**認証情報の保存とサーバー取得**をクリックします。
+1. **アカウント**を入力し、**認証情報の保存とサーバー取なければならない**をクリックします。
 
     Mullvadアカウント番号は、「1000 0000 0000 0000」から「9999 9999 9999 9999」の範囲の16桁の10進数です。
 
@@ -60,7 +60,7 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
     選択したロケーションサーバーの設定ファイルが生成されます。
     
-    **パブリックキー**は、Mullvadサーバーに送信するWireGuardの公開鍵です。同時に最大5つの鍵を持つことができ、WireGuard鍵は[Mullvadのページ](https://mullvad.net/en/account/#/ports){target="_blank"}で管理できます。
+    **パブリックキー**は、Mullvadサーバーに送信するWireGuardの公開鍵です。 same 時に最も大5つの鍵を持つことができ、WireGuard鍵は[Mullvadのページ](https://mullvad.net/en/account/#/ports){target="_blank"}で管理できます。
 
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/mullvad_generated_profiles.png){class="glboxshadow"}
 
@@ -72,9 +72,9 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
     ![vpn dashboard mullvad connected](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/vpn_dashboard_mullvad_connected.png){class="glboxshadow"}
 
-3. サーバーの更新
+3. サーバーのアップデート
 
-    Mullvadはサーバーのメンテナンスやシャットダウンを行うことがあり、接続が失敗することがあります。**サーバーを更新する**をクリックして、最新の利用可能なサーバーを取得できます。
+    Mullvadはサーバーのメンテナンスやシャットダウンを行うことがあり、接続が失敗することがあります。**サーバーをアップデートする**をクリックして、最も新の利用可できるなサーバーを取なければならないできます。
 
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/mullvad_update_servers.png){class="glboxshadow"}
 
@@ -96,7 +96,7 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
 
 ## WireGuardクライアントの設定
-ファームウェア4.0以降では、WireGuardプロファイルを管理するためのグループ化機能が追加されました。
+ファームウェア4.0で降では、WireGuardプロファイルを管理するためのグループ化機できるが追加されました。
 
 1. **手動で追加**をクリックします。
 
@@ -106,7 +106,7 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
     ![新しいグループを追加](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/add_a_new_group.png){class="glboxshadow"}
 
-3. グループに「azirevpn」などの説明的な名前を付けます。次に、設定ファイルをアップロードするか、手動で設定を追加するかを選択できます。
+3. グループに「azirevpn」などの説明のな名前を付けます。次に、設定ファイルをアップロードするか、手動で設定を追加するかを選択できます。
 
     ![新しいグループ名を設定](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/set_new_group_name.png){class="glboxshadow"}
 
@@ -122,7 +122,7 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
         ![テキストでWireGuardを追加](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/manually_add_configuration.png){class="glboxshadow"}
 
-        説明的な名前を付け、設定を貼り付けて**適用**をクリックして続行します。
+        説明のな名前を付け、設定を貼り付けて**適用**をクリックして続行します。
 
         ![テキストでWireGuardを追加](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/add_wg_by_text.png){class="glboxshadow"}
 
@@ -132,7 +132,7 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
         ![項目モードでWireGuardを追加](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/add_wg_item_mode_2.png){class="glboxshadow"}
 
-4. プロファイルの開始 / 編集 / 削除を行うには、三点リーダーのアイコンをクリックします。
+4. プロファイルの開始 / 編集 / 削除を行うには、三時リーダーのアイコンをクリックします。
 
     ![プロファイルを開始](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/start_the_profile.png){class="glboxshadow"}
 
@@ -144,7 +144,7 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
 GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetルーターをWireGuardクライアントとして設定することができます。WireGuardサーバーの設定については、[こちら](wireguard_server.md)をご参照ください。
 
-## WireGuardサービスプロバイダーから設定ファイルを取得する
+## WireGuardサービスプロバイダーから設定ファイルを取なければならないする
 
 ??? "AzireVPN"
     ### AzireVPN
@@ -192,15 +192,15 @@ GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetル
 
     1. ルーターに[SSH](https://docs.gl-inet.com/router/en/3/tutorials/ssh/){target="_blank"}で接続します。
 
-    2. 以下のインストールURLをコピーし、ターミナルに貼り付けてEnterを押します。（右クリックで貼り付け）
+    2. で下のインストールURLをコピーし、ターミナルに貼り付けてEnterを押します。（右クリックで貼り付け）
 
         `curl -fsSL https://raw.githubusercontent.com/eventure/hide.client.routers/master/glinet_v4/hidemevpn | sh -s install`
 
     3. インストールが開始され、ユーザー名とパスワードが求められます。パスワードを入力または貼り付ける際、ターミナルには何も表示されませんが、入力後にEnterを押してください。
 
-    4. 完了後、Web管理パネルに移動すると、hide.me VPNグループが作成され、既に設定ファイルが含まれています。他の設定ファイルと同様に接続してください。
+    4. 完た後、Web管理パネルに移動すると、hide.me VPNグループが作成され、既に設定ファイルが含まれています。彼の設定ファイルと same 様に接続してください。
 
-    **注意:** Hide.me VPN設定ファイル内のキーは、接続前に再生成され、切断後は無効になるため、この設定ファイルを他のデバイスにコピーしても接続できません。
+    **注意:** Hide.me VPN設定ファイル内のキーは、接続前に再生成され、切断後は無効になるため、この設定ファイルを彼のデバイスにコピーしても接続できません。
 
     [参照リンク](https://github.com/eventure/hide.client.routers){target="_blank"}
 
@@ -245,7 +245,7 @@ GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetル
 
         ![サーフシャーク ワイヤーガード マニュアル設定](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/surfshark/surfshark_wireguard_manual_setup_4.png){class="glboxshadow"}
 
-    5. 最後に、設定したい場所を選択し、その場所の横にある**ダウンロード**ボタンをクリックします。
+    5. 最も後に、設定したい場所を選択し、その場所の横にある**ダウンロード**ボタンをクリックします。
 
         ![サーフシャーク ワイヤーガード マニュアル設定](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/surfshark/surfshark_wireguard_manual_setup_5.png){class="glboxshadow"}
 
@@ -271,7 +271,7 @@ GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetル
 
     [公式ウェブサイト](https://www.ovpn.com/en?ref=glinet){target="_blank"}
 
-    1. [www.ovpn.com](https://www.ovpn.com/en?ref=glinet){target="_blank"}にログインし、以下のメニューからWireGuard設定ファイルを取得します。
+    1. [www.ovpn.com](https://www.ovpn.com/en?ref=glinet){target="_blank"}にログインし、で下のメニューからWireGuard設定ファイルを取なければならないします。
 
         ![ovpn dashboard](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/ovpn/get_wireguard_configuration_files.jpg){class="glboxshadow"}
 
@@ -279,9 +279,9 @@ GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetル
 
         ![ovpn generate wireguard keys](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/ovpn/download_wireguard_configuration_files.jpg){class="glboxshadow"}
 
-    3. テキスト編集ソフトウェアで設定ファイルを開き、その内容をコピーします。
+    3. テキスト編集ソフトウェアで設定ファイルを開き、そのコンテンツをコピーします。
 
-        設定にはIPv6の内容が含まれている場合がありますが、GL.iNetルーターはIPv6を十分にサポートしていないため、IPv6の内容を削除してください。以下の例では、ハイライトされた内容がIPv6の内容です。
+        設定にはIPv6のコンテンツが含まれている場合がありますが、GL.iNetルーターはIPv6を非常にににサポートしていないため、IPv6のコンテンツを削除してください。で下の例では、ハイライトされたコンテンツがIPv6のコンテンツです。
 
         ![remove wireguard ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/ovpn/remove_wireguard_ipv6_content.jpg){class="glboxshadow"}
     
@@ -294,9 +294,9 @@ GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetル
 
     [公式ウェブサイト](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-    [ここ](https://support.purevpn.com/setup-wireguard-on-linux){target="_blank"}のガイドに従って、WireGuard設定ファイルを取得してください。
+    [ここ](https://support.purevpn.com/setup-wireguard-on-linux){target="_blank"}のガイドに従って、WireGuard設定ファイルを取なければならないしてください。
 
-    **注意**: プロファイルをダウンロードしたら、30分以内にファイルをコピーして接続をアクティブにしてください。そうしないと、設定が期限切れとなり、新しい設定ファイルを再ダウンロードする必要があります。
+    **注意**: プロファイルをダウンロードしたら、30分で内にファイルをコピーして接続をアクティブにしてください。そうしないと、設定が期限切れとなり、新しい設定ファイルを再ダウンロードする必要があります。
 
 ??? "PrivateVPN"
     ### PrivateVPN
@@ -371,7 +371,7 @@ GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetル
 
     [公式ウェブサイト](https://spidervpn.org/#a_aid=5ddfa0372e7ff){target="_blank"}
 
-    1. [www.spidervpn.org](https://spidervpn.org/#a_aid=5ddfa0372e7ff)にログインし、VPN設定を取得するセクションを見つけます。手順に従って設定を取得してください。
+    1. [www.spidervpn.org](https://spidervpn.org/#a_aid=5ddfa0372e7ff)にログインし、VPN設定を取なければならないするセクションを見つけます。手順に従って設定を取なければならないしてください。
 
         ![get spider vpn configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/spidervpn/spidervpn_config_1.jpg){class="glboxshadow"}
 
@@ -396,7 +396,7 @@ GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetル
 
         ![starvpn download wireguard config](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/download-config_edited.jpg){class="glboxshadow"}
 
-    3. 設定にはIPv6の内容が含まれている場合がありますが、GL.iNetルーターはIPv6を十分にサポートしていないため、IPv6の内容を削除してください。
+    3. 設定にはIPv6のコンテンツが含まれている場合がありますが、GL.iNetルーターはIPv6を非常にににサポートしていないため、IPv6のコンテンツを削除してください。
 
         ![startvpn wireguard configuration remove ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/starvpn_wireguard_configuration_remove_ipv6.jpg){class="glboxshadow"}
 
@@ -447,7 +447,7 @@ GL.iNetルーターをWireGuardサーバーとして設定し、別のGL.iNetル
     
         ![VPN Unlimited 設定](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnunlimited/03.jpg){class="glboxshadow"}
 
-        設定を以下のように組み合わせます。
+        設定をで下のように組み合わせます。
 
         <p>
         [Interface]</br>

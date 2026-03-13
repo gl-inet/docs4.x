@@ -1,40 +1,64 @@
 # セキュリティ
 
-この機能はv4.5から利用できます。
+この機できるはファームウェアv4.5で降で利用可できるです。
 
-ウェブ管理画面の左側 -> システム -> セキュリティ
+ウェブ管理パネルの左側 -> システム -> セキュリティ
 
 ## 管理者パスワード
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/admin_password.png){class="glboxshadow"}
+ここでウェブ管理パネルのログインパスワードを変よりできます。
 
-管理画面にログインする際のパスワードを変更します。変更するには、現在のパスワードを入力する必要があります。
+![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/admin_password.jpg){class="glboxshadow"}
 
-セキュリティ上の理由から、**弱いパスワードの防止**をオンにすることをお勧めします。
+管理者パスワードの要件はで下の通りです。
 
- **弱いパスワードの防止** がオンの場合、新しいパスワードの条件は以下の通り。
+- 最も小10文字、最も大63文字。
+- 文字（大文字と小文字を区別）、数字、記号 `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` が使用できます。
+- 大文字、小文字、数字、記号のうち少なくとも2つが必要です。
 
-- 5文字以上63文字以内。
-- 文字（大文字と小文字を区別）、数字、記号 `` ！@ # $ % ^ & * ( ) _ + - = , . > < | ? / [ ] { } : ; " ' ` ~ `` が使用できます。
-- 大文字、小文字、数字、記号のうち少なくとも2つは必須。
+## アクセス制御
 
-## ローカル・アクセス・コントロール
+アクセス制御は firmware v4.7で前ではローカルアクセス制御とも呼ばれ、ルーターの異なる管理インターフェースのアクセスを管理します。
 
-ローカル・コントロール機能は、デフォルト・ポートでのスキャンや侵入の試みを防ぎ、ポートの競合によるネットワーク問題を回避することができます。
+デフォルトポートでのスキャンや侵入の試みを防ぎ、ポートの競合によるネットワーク問題を回避できます。
 
-**注意**:  ファームウェアでポート番号が変更された場合、管理パネルに入るにはスマートフォンで正しいポート番号を入力する必要があります。ポート番号を忘れた場合は、ルーターをデフォルトのポート番号にリセットしてください。
+**注意**: ファームウェアでポート番号が変よりされた場合、管理パネルにアクセスするには正しいポート番号を入力する必要があります。ポート番号を忘れた場合は、ルーターをデフォルトのポート番号にリセットしてください。
 
-![security_default_local_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/security_default_local_access_control.png){class="glboxshadow"}
+![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/access_control_4.8.png){class="glboxshadow"}
 
-**自動ログアウト時間**： ブラウザページを閉じるか休止状態にしてからログアウトするまでの間隔。
+### 管理パネル
+
+- **HTTPポート**: デフォルトは80で、ウェブ管理パネルへの暗号化されていないHTTPアクセスに使用されます。
+
+- **HTTPSポート**: デフォルトは443で、ウェブ管理パネルへの安全なHTTPSアクセスに使用されます。
+
+- **HTTPSを強制**: 有効にすると、ウェブ管理パネルへのアクセスは安全なHTTPS接続を使用することが強制されます。
+
+- **から動ログアウト時間**: デフォルトで5分に設定されており、セキュリティのため、この時間後にアイドル状態の管理者セッションがから動のにログアウトされます。から動ログアウト時間は1分から3時間の間でカスタマイズできます。
+
+### LuCI
+
+- **HTTPポート**: デフォルトは8080で、LuCIインターフェースへの暗号化されていないHTTPアクセス用です。
+
+- **HTTPSポート**: デフォルトは8443で、LuCIインターフェースへの安全なHTTPSアクセス用です。
+
+- **HTTPSを強制**: 有効にすると、LuCIインターフェースへのアクセスは安全なHTTPS接続を使用することが強制されます。
+
+### SSH
+
+- **SSHを有効にする**: ルーターへのSSHアクセスが許可されているかどうかを制御します。デフォルトで有効になっています。
+
+- **SSHポート**: デフォルトは22で、ルーターへのSSHアクセスに使用されるポートです。
 
 ### 禁止ポート
 
+予約ポート（またはブラウザ/ネットワークの規則で特定のサービスのために予約されているポート）と競合するポート番号を割り当てると、「このポートはブラウザによって禁止されています」というプロンプトが表示されます。
+
 ![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/http_https_port_forbidden.png){class="glboxshadow"}
 
-??? "ブラウザが禁止するポート番号のリストは以下の通り。:"
+??? "ブラウザによって禁止されているポート番号のリスト"
 
-    | Port  | Description                              |
+    | ポート | 説明                                      |
     | :-----| :--------------------------------------: |
     | 1     | tcpmux                                   |
     | 7     | echo                                     |
@@ -77,7 +101,7 @@
     | 161   | snmp                                     |
     | 179   | BGP                                      |
     | 389   | ldap                                     |
-    | 427   | SLP (Also used by Apple Filing Protocol) |
+    | 427   | SLP (Apple Filing Protocolでも使用)     |
     | 465   | smtp+ssl                                 |
     | 512   | print / exec                             |
     | 513   | login                                    |
@@ -117,25 +141,44 @@
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## リモート・アクセス・コントロール
+## リモートアクセス制御
 
-リモートアクセスを有効にした後、特定の場所からのアクセスを許可するように設定することができます。例えば、オフィスから自宅のデバイスにのみリモートアクセスを許可し、利便性を犠牲にしてセキュリティを向上させることができます。
+リモートアクセスを有効にした後、特定の場所からのアクセスを許可するように設定できます。例えば、セキュリティをへ上させるために利便性を犠牲にして、オフicesからホームデバイスへのリモートアクセスのみを有効にできます。
 
 ![security_remote_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/security_remote_access_control.png){class="glboxshadow"}
 
-- **WANからのPingを許可する**: ネットワークに問題がある場合、WAN ポートからの Ping を許可すると、ユーザーまたはネットワーク管理者がルーターが適切に接続されているかどうかを確認したり、ネットワーク遅延やパケット損失を判断したりするのに役立ちます。
+- **WANからのPingを許可**: ネットワークに問題がある場合、WANポートからのPingを許可すると、ユーザーが適切に接続されているかどうかを確認したり、ネットワーク遅延やパケット損失を判断したりするのに役立ちます。
 
-- **HTTPS リモート アクセス**: HTTPSプロトコルは主にウェブブラウザとウェブサーバ間の通信に使用され、安全なデータ伝送を保証します。そのため、ユーザーがウェブブラウザを通じてサーバーをリモート管理したり、ウェブアプリケーションにアクセスしたりする必要がある場合、HTTPSプロトコルを使用することで、データ伝送の安全性と信頼性を確保することができます。
+- **HTTPSリモートアクセス**: HTTPSプロトコルは主にウェブブラウザとウェブサーバー間の通信に使用され、安全なデータ転送を保証します。ユーザーがウェブブラウザを通じてサーバーをリモート管理したり、ウェブアプリケーションにアクセスしたりする必要がある場合、HTTPSプロトコルを使用することで、データ転送のセキュリティと信頼性を確保できます。
 
-- **SSHリモートアクセス**: SSHプロトコルは主にリモートコンピュータやサーバーに安全にアクセスしたり、管理したり、ファイル転送操作を実行するために使用されます。ユーザがシステム管理、ファイル転送、その他の操作のためにコマンドラインやスクリプトを使ってサーバにリモートログインする必要がある場合、セキュアなトンネルを確立してデータ転送のセキュリティとプライバシーを確保するためにSSHプロトコルを使用することができます。
+- **SSHリモートアクセス**: SSHプロトコルは主にリモートコンピュータやサーバーへの安全なアクセス管理とファイル転送操作に使用されます。ユーザーはコマンドラインやスクリプトを使用してサーバーにリモートログインし、システム管理、ファイル転送などの操作を行う必要があり、SSHプロトコルを使用して安全なトンネルを確立し、データ転送のセキュリティとプライバシーを確保できます。
 
-- **特定のIPからのリモートアクセスを許可する**: この機能は、**HTTPSリモートアクセス**または**SSHリモートアクセス**と組み合わせて使用します。複数の指定IPアドレスを追加して、これらの指定IPアドレスを持つデバイスからルーターをリモート管理することができます。
+- **特定のIPからのリモートアクセスを許可**: この機できるは**WANからのPingを許可**、**HTTPSリモートアクセス**、**SSHリモートアクセス**と組み合わせて使用します。複数の指定IPアドレスを追加して、これらの指定IPアドレスを持つデバイスからルーターをリモート管理できます。
 
-![add_ip_address](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address.png){class="glboxshadow"}
+![add_ip_address_1](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_1.png){class="glboxshadow"}
 
-![add_ip_address_list](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_list.png){class="glboxshadow"}
-
+![add_ip_address_2](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_2.png){class="glboxshadow"}
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。
+## ルーターのオープンポート
+
+ウェブやFTPなどのルーターのサービスでは、パブリックにアクセスできるようにするために、ルーター上で respective ポートが開かれている必要があります。
+
+ポートを開くには、**追加**をクリックします。
+
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/open_ports_on_router.png){class="glboxshadow"}
+
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_new_open_port.png){class="glboxshadow"}
+
+**名称:** ユーザーが指定できるルールの名前。
+
+**プロトコル:** 使用するプロトコル。TCP、UDP、またはTCPとUDPの両方を選択できます。
+
+**ポート:** 開きたいポート番号。
+
+**有効にする:** ルールの有効または無効を設定します。
+
+---
+
+まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。

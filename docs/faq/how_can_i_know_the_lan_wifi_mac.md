@@ -25,4 +25,4 @@ LAN Mac アドレスは WAN +1 であるため、結果は E4:95:6E:40:DB:AA (9 
 
 ---
 
-まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}にアクセスしてください。
+まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。

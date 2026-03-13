@@ -2,14 +2,22 @@
 
 ウェブ管理画面の左側 -> システム -> 詳細設定
 
-OpenWrtのデフォルトのWebユーザーインターフェースであるLuCIを使って、詳細設定を変更することができます。 LuCI は、OpenWrt によって維持されるオープンで独立したプロジェクトです。
+OpenWrtのデフォルトのWebユーザーインターフェースであるLuCIを使用して、詳細設定を変よりできます。
 
-そのままのご提供となります。 GL.iNet は LuCI のメンテナンスには責任を負いません。
+![advanced settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/go_to_luci.png){class="glboxshadow"}
 
-**192.168.8.1/cgi-bin/luci** リンクをクリックして、LuCI ページにアクセスします。
+LuCIは、OpenWrtによって維持されているオープンで独立したプロジェクトです。GL.iNetはLuCIのメンテナンス責任を負いません。
 
-![advanced settings](https://static.gl-inet.com/docs/router/en/4/tutorials/advanced_settings/advanced_settings.png){class="glboxshadow"}
+**LuCIへ移動** ボタンをクリックすると、LuCIログインページにリダイレクトされます。
+
+![luci login](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_login.jpg){class="glboxshadow"}
+
+ログインパスワードを入力してください。これはWeb管理パネルと same じパスワードです。
+
+LuCIページにログインします。これはGL-AX1800 (Flint) のLuCIページの例です。
+
+![luci logged in](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_logged_in.jpg){class="glboxshadow"}
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。
+まだご質問はありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。

@@ -167,7 +167,7 @@
   </div>
 </div>
 
-### 生産終了モデル
+### 生産終たモデル
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">

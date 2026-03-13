@@ -1,12 +1,12 @@
 # 外部ネットワークからRDPを保護するためにWireGuardを使用
 
-外部ネットワークからPCにリモートアクセスする必要がある場合やその逆の場合、最も安全な方法は自分のWireGuardトンネルを使用することです。これにより、ポートフォワーディングを使用してパブリックIPアドレス経由でアクセスするよりも高いセキュリティが提供されます。トンネルを設定した後、Windowsの**リモートデスクトップアプリ**を使用して、どこからでもPCにアクセスできます。
+外部ネットワークからPCにリモートアクセスする必要がある場合やその逆の場合、最もも安全な方法はから分のWireGuardトンネルを使用することです。これにより、ポートフォワーディングを使用してパブリックIPアドレス経よりでアクセスするよりも高いセキュリティが提供されます。トンネルを設定した後、Windowsの**リモートデスクトップアプリ**を使用して、どこからでもPCにアクセスできます。
 
 ## トポロジー
 
 ![wgrdp](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/wgrdp.jpg){class="glboxshadow"}
 
-## 自分のWireGuardネットワークを設定
+## から分のWireGuardネットワークを設定
 
 WireGuardトンネルをRDPに使用する前に、WireGuardサーバーとWireGuardクライアントを設定する必要があります。2台のGL.iNetルーターを使用してトンネルを設定できます。 [2台のGL.iNetルーターを使用してホームWireGuardサーバーを構築](build_your_own_wireguard_home_server_with_two_glinet_routers.md)。
 
@@ -18,7 +18,7 @@ WireGuardトンネルをRDPに使用する前に、WireGuardサーバーとWireG
 
 その後、サーバーとクライアントの両方のVPNダッシュボードで「リモートLANアクセスを許可」を有効にしてください。詳細については、クライアント側は[こちら](../interface_guide/vpn_dashboard.md/#vpn-clinet-options)、サーバー側は[こちら](../interface_guide/vpn_dashboard.md/#wireguard-server-options)をクリックしてください。
 
-## サーバー側PCをアクセス可能にする
+## サーバー側PCをアクセス可できるにする
 
 ### サーバー側PC
 

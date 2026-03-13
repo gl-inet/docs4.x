@@ -8,4 +8,4 @@ Androidユーザーの方は、[Google Play](https://play.google.com/store/apps/
 
 ---
 
-まだご質問はありますか？  [Community Forum](https://forum.gl-inet.com){target="_blank"}ご覧ください。
+まだご質問はありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。

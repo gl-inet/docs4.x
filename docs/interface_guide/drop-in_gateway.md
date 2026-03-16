@@ -104,7 +104,7 @@ In the following example, the gateway address of the primary router is `192.168.
 
 1. Connect the LAN port of the primary router to the WAN port of the GL.iNet router via an ethernet cable.
 
-2. Log in to the web admin panel of GL.iNet router, enable Drop-in Gateway, and the system will automatically generate the corresponding configuration parameters.
+2. Log in to the web admin panel of your GL.iNet router, enable Drop-in Gateway, and the system will automatically generate the corresponding configuration parameters.
 
     ![drop-in gateway generated settings](https://static.gl-inet.com/docs/router/en/4/tutorials/drop-in_gateway/drop-in_gateway_some_device_enabled.png){class="glboxshadow"}
 

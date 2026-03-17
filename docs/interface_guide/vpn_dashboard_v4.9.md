@@ -16,7 +16,7 @@ Compared to firmware v4.8, v4.9 includes the following improvements to the VPN D
 
 ## Getting Started
 
-When entering this page for the first time, if you have not uploaded any VPN configurations, the page will display as follows. Click **Add VPN Tunnel** to get started.
+When entering this page for the first time, if no tunnels have been created, the page will appear as shown below. Click **Add VPN Tunnel** to get started.
 
 ![getting started](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/getting_started.png){class="glboxshadow"}
 
@@ -44,7 +44,7 @@ You will be directed to the VPN Dashboard, where the VPN Tunnel 1 has been enabl
 
 **In this example, all clients connected to this router will access the Internet through this VPN tunnel.**
 
-If you want to configure VPN tunnel rules, please refer to [VPN Policy](#vpn-policy).
+If you want to configure VPN policy, please refer to [VPN Policy](#vpn-policy).
 
 The **All Other Traffic** is a pre-enabled tunnel displaying at the bottom of the VPN Dashboard. Click [here](#all-other-traffic) for details.
 
@@ -102,7 +102,7 @@ Then follow the setup wizard to configure your VPN policy, including selecting V
     - **Specified Domain / IP List**: If selected, traffic matching this rule will be routed to specified domains or IP addresses. You need to enter them manually.
     ![specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/specified_domain_ip.png){class="glboxshadow"}
 
-    - **Exclude specified Domain / IP List**: If selected, traffic matching this rule will not be routed to specified Domain / IP. You need to enter them manually.
+    - **Exclude specified Domain / IP List**: If selected, traffic matching this rule will not be routed to specified domains or IP addresses. You need to enter them manually.
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
 
 ### Usage Scenarios
@@ -265,7 +265,7 @@ When enabled, unmatched traffic can still access the Internet.
 
 ![all other traffic on](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/all_other_traffic_on.png){class="glboxshadow"}
 
-When disabled, only traffic routed via VPN is allowed to access the Internet. All non-VPN traffic and traffic that fails over from VPN connections will be blocked. This global setting overrides and disables the individual Kill Switch for each VPN tunnel.
+When disabled, only traffic routed via VPN is allowed to access the Internet. All non-VPN traffic and traffic that fails over from VPN connections will be blocked. This option does not override the individual Kill Switch for each VPN tunnel.
 
 ![all other traffic off](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/all_other_traffic_off.png){class="glboxshadow"}
 
@@ -287,10 +287,10 @@ Click and hold the three-line icon on the right to reorder the tunnels, then cli
 
 3. Multiple profiles can be selected within each tunnel group to enable intra-tunnel failover. When the highest-priority profile in a tunnel group goes down, the tunnel will automatically connect using the second-highest priority profile, and so on.
 
-4. If a VPN tunnel disconnects unexpectedly, the system will determine whether to fail over the traffic to the All Other Traffic tunnel based on whether this tunnel's **Kill Switch** is enabled. is enabled. 
+4. If a VPN tunnel disconnects unexpectedly, the system will determine whether to fail over the traffic to the All Other Traffic tunnel based on whether this tunnel's **Kill Switch** is enabled. 
 
-    - If the Kill Switch is enabled, traffic matching this tunnel will be blocked and will not fail over to the All Other Traffic tunnel.
-    - If the Kill Switch is disabled, traffic matching this tunnel will fail over to the All Other Traffic tunnel.
+    - If the Kill Switch is enabled, traffic will be blocked and will not fail over to the All Other Traffic tunnel.
+    - If the Kill Switch is disabled, traffic will fail over to the All Other Traffic tunnel.
 
 5. The **All Other Traffic** tunnel is enabled by default to ensure that traffic not matching the VPN tunnels can still access the Internet.
 

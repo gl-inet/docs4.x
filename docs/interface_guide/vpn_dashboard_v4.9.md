@@ -8,6 +8,12 @@ On the left side of the web Admin Panel, go to **VPN** -> **VPN Dashboard**.
 
 The VPN dashboard displays VPN connection details, such as routing rules, connected server, traffic statistics, client virtual IP, and connection log, and allows users to configure advanced settings such as the VPN Kill Switch, IP Masquerading, and MTU.
 
+Compared to firmware v4.8, firmware v4.9 improves the following features on VPN Dashboard:
+
+1. Allow users to upload or select multiple configuration files within a tunnel group and set their priority order. The tunnel will attempt to connect to each configuration in sequence according to priority until a connection is established.
+
+2. Each tunnel group operates independently and does not perform failover between groups. If all configurations in a single tunnel fail to connect, the system will determine whether to switch to the local WAN based on the status of the Tunnel Kill Switch and the All Other Traffic tunnel.
+
 ## Getting Started
 
 When entering this page for the first time, if you have not uploaded any VPN configurations, the page will display as follows. Click **Add VPN Tunnel** to get started.

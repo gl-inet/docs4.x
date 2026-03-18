@@ -1,94 +1,98 @@
 # GoodCloud Site to Site
 
-## 導入
+## はじめに
 
-GoodCloud Site to Site は、複数の場所にあるオフィスがインターネットを介してお互いに安全な接続を確立できるようにします。これにより、ことになる社のネットワークが拡張され、ある場所のコンピュータリソースが彼の場所の従業員に利用可能になります。
+GoodCloud Site to Site を使うと、異なる拠点にあるオフィス同士をインターネット経由で安全に接続できます。これにより、会社のネットワークを拡張し、ある拠点のコンピューターリソースを別の拠点の従業員も利用できるようになります。
 
-<a href="https://static.gl-inet.com/www/images/solutions/s2s/s2s_main_5.png" target="_blank"><img alt="site to site diagram" src="https://static.gl-inet.com/www/images/solutions/s2s/s2s_main_5.png"></a>
+![site to site](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/s2s-main.png){class="glboxshadow"}
 
-シナリオ 1：ことになる社が複数の支店を持っており、それらを単一のプライベートネットワークに結合してリソースを共有したい場合。
+**Scenario 1**: 同じ会社の複数の支店を 1 つのプライベートネットワークとして統合し、全拠点でシームレスにリソース共有したい場合。
 
-シナリオ 2：ことになる社がパートナー企業と密接な関係を持っており、Site to Site を使用して、企業が安全で共有されたネットワーク環境で一緒に作業できるようにします。
+**Scenario 2**: 密接に連携する 2 社が、共同作業のために安全な共有ネットワーク環境を必要とする場合。
 
-シナリオ 3：家庭にIPカメラがあり、家にいないときにSite to Site を使用してIPカメラにリモートアクセスできるようにします。
+**Scenario 3**: 自宅に IP カメラがあり、外出先からそのデバイスへリモートアクセスしたい場合。
 
 ## 条件
 
-場所が異なる少なくとも2つのGL.iNetルーターが必要で、そのうちの1つはパブリックIPアドレスを持っている必要があります。 [ISP がパブリック IP アドレスを割り当てているかどうかを確認してください](how_to_check_if_isp_assigns_you_a_public_ip_address.md)。ファームウェアバージョン3.026で上が必要です。
+1. Site to Site ネットワークの構築には、少なくとも 2 台の GL.iNet ルーターが必要です。
 
-注意：ノードがVPNクライアントも実行している場合、ネットワークが特に複雑になる可能性があるため、Site to Siteの実行は推奨されません。
+2. 少なくとも 1 台のルーターはパブリックIPアドレスを持ち、Main Node として設定できる必要があります。[ISP がパブリックIPアドレスを割り当てているか確認してください](how_to_check_if_isp_assigns_you_a_public_ip_address.md)。
 
-## サイト間ネットワークを構築する手順
+   Main Node には、性能が高く、ネットワーク速度が最も良いルーターを選ぶことを推奨します。
 
-1. ルーターをGoodCloudにバインドします。[方法はこちら](../interface_guide/cloud.md#add-device)
+3. Sub Node 側で VPNクライアント / Tailscale / ZeroTier / AstroWarp を同時に動作させた状態で Site to Site を使うことは推奨されません。ネットワーク構成が非常に複雑になるためです。
 
-2. 以下の手順に従って、Site to Site ネットワークを作成します。
+## Site to Site ネットワークを構築する
 
-    ![create a site to site network](https://static.gl-inet.com/goodcloud/docs/create-s2s-01.png){class="glboxshadow"}
+1. ルーターを GoodCloud アカウントへバインドします。[手順はこちら](../interface_guide/cloud.md/#setup-your-goodcloud-account)。
 
-    デフォルトのポートは51830です。別のポートを使用したい場合は、左下隅の「Advanced」オプションを見つけてください。
+2. [GoodCloud](https://www.goodcloud.xyz/#/login){target="\_blank"} にログインし、左側のサイドバーで **Site to Site** を開きます。右上の **Create Network** をクリックします。
 
-    デバイスのパフォーマンスにより、各Site to Site ネットワークには最大10台のデバイスを接続できます。
+   ![create network](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/create-network.png){class="glboxshadow"}
 
-    デバイスを選択した後、続行をクリックします。
+3. 左側のチェックボックスをオンにして、少なくとも 2 台のデバイスを選択します。
 
-    ![create a site to site network](https://static.gl-inet.com/goodcloud/docs/create-s2s-02.png){class="glboxshadow"}
+   ![select devices](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/select-devices.png){class="glboxshadow"}
 
-    次に、各デバイスがSite to Siteのメインノードとして設定できるかどうかをテストします。
+   選択したデバイスはページ下部に表示されます。
 
-    パフォーマンスが強力でネットワーク速度が最も適なルーターをメインノードにすることをお勧めします。
+   Site to Site のデフォルトポートは **51830** です。別のポートを使いたい場合は、左下の **Advanced** をクリックして変更してください。その後 **Next** をクリックします。
 
-    ![testing each device](https://static.gl-inet.com/goodcloud/docs/testing-s2s-01.png){class="glboxshadow"}
+   ![two devices selected](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/two-devices-selected.png){class="glboxshadow"}
 
-    どのデバイスもメインノードとして使用できない場合は、次の時を確認してください：
+   安定した性能を確保するため、1 つの Site to Site ネットワークに追加できるデバイスは最大 10 台です。
 
-    - ルーターのうちの1つがパブリックIPアドレスを持っていること（静のパブリックIPまたは動のパブリックIP）。
-    - ポートが開いていること（デフォルトは51830）。
-    - ルーターがNATの背後にある場合、ポートフォワーディングの設定が必要な場合があります。
+4. ネットワーク名を入力し、**Next** をクリックします。
 
-    ポートを変更して再試行することもできます。
-![testing each device](https://static.gl-inet.com/goodcloud/docs/testing-s2s-02.png){class="glboxshadow"}
+   ![name network](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/name-network.png){class="glboxshadow"}
 
-複数のデバイスがメインノードとして設定できる場合は、続行するデバイスを選択する必要があります。
+5. Node Usability Testing が始まり、どのデバイスを Main Node に設定できるかを確認します。
 
-![testing each device](https://static.gl-inet.com/goodcloud/docs/testing-s2s-03.png){class="glboxshadow"}
+   ![node testing](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/node-testing.png){class="glboxshadow"}
 
-メインノードとして設定できるデバイスが1つしかない場合は、直接Site to Site詳細ページに移動します。
+   どのデバイスも Main Node にできない場合は、以下を確認してください。
+   - 少なくとも 1 台のルーターが静的または動的なパブリックIPアドレスを持っていること
+   - ポートが開放されていること。Site to Site のデフォルトポートは 51830 です
+   - Main Node にしたいルーターが NAT 配下にある場合、Port Forwarding の設定が必要なこと
 
-ネットワークはデフォルトで停止しています。LAN IPを確認し、問題がなければ「スタート」ボタンをクリックし、問題がある場合は「設定」をクリックしてLAN IPを変更します。
+   ![testing failed](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/testing-failed.png){class="glboxshadow"}
 
-![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-00.png){class="glboxshadow"}
+   複数のデバイスが Main Node にできる場合は、その中から 1 台を選んで続行してください。性能が高く、ネットワーク速度が最も良いルーターを Main Node に選ぶことを推奨します。
 
-数分待つと、ノードの接続ステータスが表示されます。実線は接続済み、破線は未接続を意味します。
+   ![testing success](https://static.gl-inet.com/goodcloud/docs/tutorials/site_to_site/testing-success.jpg){class="glboxshadow"}
 
-![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
+   Main Node にできるデバイスが 1 台だけの場合は、そのまま Site to Site の詳細ページへ移動します。
 
-## サイト間接続のテスト
+6. ネットワークはデフォルトで無効です。すべてのノードで LAN IP アドレスが重複していないことを確認してください。必要に応じて歯車アイコンをクリックして LAN IP を変更し、問題がなければ **Start** をクリックします。
 
-これでSite to Siteネットワークが作成され、開始されましたので、接続をテストしましょう。
+   ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-00.png){class="glboxshadow"}
 
-PCまたは携帯電話を使用して、このSite to Siteのノードの1つに接続し、ブラウザを使用して別のノードのLAN IPにアクセスします。ログインページが表示された場合、これらのノード間の接続が機能していることを意味します。
+7. 数分待ってください。破線が実線に変われば、Site to Site ネットワークの構築は成功です。
 
-例えば、私のPCがノード1デバイスに接続している場合、ブラウザを使用してメインノードのLAN IP（192.168.48.1）にアクセスし、ログインページが表示された場合、ノード1とメインノードの間の接続が機能していることを意味します。
+   ![detail s2s](https://static.gl-inet.com/goodcloud/docs/detail-s2s-01.png){class="glboxshadow"}
 
-## ルートおよびその彼のオプション
+## Site to Site 接続をテストする
 
-各デバイスのLAN IPとルートを変更できます。
+1. この Site to Site ネットワーク内のいずれかのノードに、PC またはスマートフォンを接続します。
 
-![LAN IP and routes](https://static.gl-inet.com/goodcloud/docs/lanip-routes-s2s.png){class="glboxshadow"}
+2. Webブラウザーで別のノードの LAN IP を開きます。ログインページにアクセスできれば、その 2 つのノード間の接続は正常です。
 
-デフォルトでは、各ノードは彼のノードのLANにアクセスできますが、セキュリティ上の理よりから、対応するサービスIPのみを開くことをお勧めします。
+## ルートとその他のオプション
 
-例えば、ノード1のサブネットにサーバーA（172.30.97.100）がある場合、彼のSite to Siteノードがノード1のサービスAにのみアクセスできるようにするには、以下のように設定できます。
+デフォルトでは、各ノードは他のノードの LAN にアクセスできます。セキュリティ上の理由から、必要なサービスの IP アドレスだけを許可する設定を推奨します。
+
+たとえば、Node 1 のサブネット内に Server A (`172.30.97.100`) があり、他のノードから Node 1 の Service A のみへアクセスさせたい場合は、以下のように設定できます。
 
 ![LAN IP and routes](https://static.gl-inet.com/goodcloud/docs/lanip-routes-s2s-02.png){class="glboxshadow"}
 
-ノードの親ルートを追加することもできます。
+各ノードには parent route を追加することもできます。
 
-各サブノードはメインノードに暗号化されたトンネルネットワークを構築します。トンネルサブネットのIPを変更したい場合は、「IPアドレス範囲」をクリックします。
+各 Sub Node は Main Node に対して暗号化されたトンネルを構築します。トンネルサブネットの IP を変更したい場合は、**IP Address Range** をクリックして変更してください。
+
+IPアドレス範囲を変更すると、数分間ネットワークが切断されます。
 
 ![Tunnel IP Address Range](https://static.gl-inet.com/goodcloud/docs/tunnel-ip-address-range-s2s.png){class="glboxshadow"}
 
 ---
 
-まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="\_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="\_blank"} からお問い合わせください。

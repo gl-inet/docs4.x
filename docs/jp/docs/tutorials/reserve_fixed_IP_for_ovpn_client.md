@@ -1,55 +1,53 @@
-# から行构建のOpenVPN接続でOpenVPNクライアントに固定IPを予約する方法
+# 自作OpenVPN接続でOpenVPNクライアントに固定IPを予約する方法
 
-このチュートリアルでは、サーバーに接続するOpenVPNクライアントに固定IPを予約する方法を説明します。以下の手順に従う前に、まずGL.iNetルー器官をOpenVPNサーバーとして設定してください。
+このチュートリアルでは、OpenVPNサーバーへ接続するOpenVPNクライアントに固定IPを予約する方法を説明します。以下の手順を実行する前に、まず GL.iNet ルーターを OpenVPN Server として設定してください。
 
-1. OpenVPNサーバーのWeb管理パネルにログインし、左サイドバーで**VPN** -> **OpenVPNサーバー**に移動します。
+1. OpenVPN Server のWeb管理画面にログインし、左側のサイドバーで **VPN** -> **OpenVPN Server** に移動します。
 
-    **設定**タブで、**IPv4サブネット**をメモします（例：下图の10.8.0.0/24）。その後する認証模式切り替えまで**ユーザー名和パスワード仅**。
+   **Configuration** タブで **IPv4 subnet** を控えます。以下の画像では `10.8.0.0/24` です。続いて Authentication Mode を **Username and Password Only** に切り替えます。
 
-    ![ovpn configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_config.png){class="glboxshadow"}
+   ![ovpn configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_config.png){class="glboxshadow"}
 
-2. **ユーザー**タブに切り替えます。下図のようにのようにユーザー名とパスワードを作成します。
+2. **Users** タブへ移動し、以下のようにユーザー名とパスワードを作成します。
 
-    ![ovpn users](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_users.png){class="glboxshadow"}
+   ![ovpn users](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_users.png){class="glboxshadow"}
 
-3. SSHでルー器官にログインし、以下のコマンドを実行してOpenVPNサーバー設定スクリプトファイルを開きます：
+3. SSHでルーターへログインし、次のコマンドを実行して OpenVPN Server の設定スクリプトファイルを開きます。
 
-    `vi /lib/netifd/proto/openserver.sh`
+   `vi /lib/netifd/proto/openserver.sh`
 
-    開いたファイルで、スクリプト内に"*client-config-dir /etc/openvpn/ccd*"という行が存にするか確認します。
+   開いたファイル内で、`client-config-dir /etc/openvpn/ccd` という行が存在するか確認します。
 
-    ![check config line](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/check_config_line.png){class="glboxshadow"}
+   ![check config line](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/check_config_line.png){class="glboxshadow"}
 
-    存にしない場合は、手動で追加し、ファイルを保存して終たします。
+   存在しない場合は手動で追加し、ファイルを保存して終了してください。
 
-4. `/etc/openvpn/`に移動し、ccdフォルダを追加します`mkdir ccd`。
+4. `/etc/openvpn/` に移動し、`mkdir ccd` を実行して ccd フォルダーを作成します。
 
-    ![add ccd folder](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
+   ![add ccd folder](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
 
-5. "GLsupport"というファイルを追加し、`ifconfig-push 10.8.0.10 255.255.255.0`を入力し、ファイルを保存して終たします。
+5. `GLsupport` という名前のファイルを作成し、`ifconfig-push 10.8.0.10 255.255.255.0` と入力して保存し、終了します。
 
-    `cat GLsupport`で コンテンツを確認します
+   続いて `cat GLsupport` を実行して内容を確認します。
 
-    ![ifconfig-push](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ifconfig-push.png){class="glboxshadow"}
+   ![ifconfig-push](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ifconfig-push.png){class="glboxshadow"}
+   - `GLsupport` ユーザーで OpenVPN Server に接続すると、このユーザーには固定IP `10.8.0.10` が割り当てられます。
+   - `255.255.255.0` はサブネットマスクです。必要に応じて、OpenVPN Server のサブネットマスクに置き換えてください。
 
-    - GLsupportを使用してOpenVPNサーバーに接続すると、このGLsupportユーザーに固定IP 10.8.0.10が割り当てられます。
-    
-    - "255.255.255.0"はサブネットマスクで、OpenVPNサーバーのサブネットマスクに置き換えることができます。
+   **Note**: 複数の OpenVPN クライアントに固定IPを割り当てたい場合は、手順2で複数のユーザー名とパスワードを作成し、手順5を繰り返して、ユーザー名ごとに CCD フォルダーへファイルを追加してください。たとえば `user_1`、`user_2`、`user_3` などのファイルを作成し、それぞれに `ifconfig-push` コマンドと対応する固定IPおよびサブネットマスクを記述します。
 
-    **注意**：複数のOpenVPNクライアントにIPアドレスを固定したい場合は、手順2で複数のユーザー名とパスワードを作成し、手順5を繰り返し、ユーザーの順序でCCDフォルダにファイルを追加します（user_1、user_2、user_3など）。次に、"ifconfig push"コマンドと対応する固定IPおよびサブネットマスクを続けます。
-    
-    例：`ifconfig-push 10.8.0.20 225.225.225.0`、`ifconfig-push 10.8.0.30 225.225.225.0`、`ifconfig-push 10.8.0.40 225.225.225.0`
+   例: `ifconfig-push 10.8.0.20 225.225.225.0`、`ifconfig-push 10.8.0.30 225.225.225.0`、`ifconfig-push 10.8.0.40 225.225.225.0`
 
-6. 最も後に、OVPNクライアントでテストし、クライアント仮想IP（IPv4）が予約したものかどうかを確認します。
+6. 最後に、OVPNクライアントでテストし、Client Virtual IP (IPv4) が予約したIPアドレスになっているか確認します。
 
-    例として、OpenVPNクライアントがGL.iNetルー器官の場合、OpenVPNクライアントルー器官のWeb管理パネルにログインし、VPNダッシュボードに移動してクライアント仮想IP（IPv4）を確認できます。
+   たとえば、OpenVPN クライアントが GL.iNet ルーターであれば、そのWeb管理画面にログインし、VPN Dashboard へ移動して Client Virtual IP (IPv4) を確認できます。
 
-    ![ovpn client test v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.7.png){class="glboxshadow"}
-    <small>（ファームウェアv4.7で前のVPNダッシュボード）</small>
+   ![ovpn client test v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.7.png){class="glboxshadow"}
+   <small>(ファームウェア v4.7 以前の VPN Dashboard)</small>
 
-    ![ovpn client test v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.8.png){class="glboxshadow"}
-    <small>（ファームウェアv4.8のVPNダッシュボード）</small>
+   ![ovpn client test v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.8.png){class="glboxshadow"}
+   <small>(ファームウェア v4.8 の VPN Dashboard)</small>
 
 ---
 
-まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="\_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="\_blank"} からお問い合わせください。

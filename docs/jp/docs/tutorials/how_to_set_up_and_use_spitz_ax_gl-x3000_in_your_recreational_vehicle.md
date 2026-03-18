@@ -1,116 +1,122 @@
-# RVで Spitz AX (GL-X3000) をセットアップおよび使用する方法
+# Spitz AX (GL-X3000) をRVでセットアップして使う方法
 
-このガイドは、RVで Spitz AX をセットアップおよび使用する方法を示します。始める前に、以下の追加機器およびサービスを準備する必要があるかもしれません：
+このガイドでは、RVで Spitz AX をセットアップして使う方法を説明します。開始前に、必要に応じて以下の機材やサービスを準備してください。
 
-- 使用するインターネット接続方法に応じて、SIMカードまたはUSBケーブル（テザリング用）。SIMカードを使用する場合は、オペレーターにAPNを問い合わせてください。
-- より良いカバレッジをなければならないるためのルーフアンテナ。
-- 携帯電話の電波が届かないに域に行く場合は、[Starlinkのサブスクリプション](https://www.starlink.com/roam)。
+- 利用するインターネット接続方法に応じた SIMカード、またはテザリング用のUSBケーブル
+- より広い通信エリアを確保したい場合はルーフアンテナ
+- セルラー通信圏外へ行く場合は [Starlink のサブスクリプション](https://www.starlink.com/roam){target="\_blank"}
+
+SIMカードを使う場合は、事前に通信事業者へ APN を確認しておいてください。
 
 ---
 
-## 1. Spitz AX およびその彼の機器をインストールする
+## 1. Spitz AX と周辺機器を設置する
 
-旅を始める前に、以下の手順に従って Spitz AX をセットアップします。
+出発前に、以下の手順で Spitz AX を設置してください。
 
-### ステップ1: Spitz AX の設置場所を選ぶ
+### Step 1: Spitz AX の設置場所を選ぶ
 
-最大カバレッジのために中央で障害物のない場所を選ぶことをお勧めします。設置場所は電源から1メートルで内である必要があります。これは電源アダプターケーブルの長さです。
+できるだけ通信範囲を広くするため、中央に近く、障害物の少ない場所へ設置することを推奨します。電源アダプターのケーブル長は 1 メートルなので、電源の近くに設置してください。
 
 ![location](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-power-source.jpg){class="glboxshadow"}
 
-Spitz AX を平らな面に置くことも、壁に取り付けることもできます。壁に取り付ける場合は、次のステップに従います。
+Spitz AX は平らな場所に置くことも、壁面へ取り付けることもできます。壁面へ取り付ける場合は、次の手順へ進んでください。
 
-### （オプション）ステップ2: Spitz AX を壁に取り付ける
+### (Optional) Step 2: Spitz AX を壁に取り付ける
 
-Spitz AX を壁に取り付ける方法は2つあります：
-- 付属の粘着パッドを使用する
-- 壁取り付け具を使用する
+Spitz AX を壁に取り付ける方法は 2 通りあります。
 
-パッケージには壁取り付け具が付属しています。Spitz AX を壁に取り付けるには、以下の手順に従います：
+- 付属の粘着パッドを使う
+- 壁面取付用マウントを使う
 
-1. 取り付け具をネジで壁に取り付ける。
-2. Spitz AX を取り付け具にスナップして取り付ける。
+パッケージには壁面取付用マウントが含まれています。壁に取り付ける場合は、以下の手順を実行してください。
+
+1. ネジでマウントを壁に固定します。
+2. Spitz AX をマウントにはめ込みます。
 
 ![wall mount](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-screws.jpg){class="glboxshadow"}
 
-### （オプション）ステップ3: RVルーフアンテナの取り付け
+### (Optional) Step 3: RV用ルーフアンテナを取り付ける
 
 ![roof](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
-シグナルをより良くするために、Spitz AX にルーフアンテナを使用します。最も適なネットワークシグナルを提供する[MobileMarkのLTMG942マルチバンドアンテナ](https://www.mobilemark.com/product/ltmg942-4xlte-2xwifi-gnss/)を使用することをお勧めします。彼のブランドのルーフアンテナを使用する場合は、以下の要件を満たしていることを確認してください：
+より良い受信状態を得るには、Spitz AX にルーフアンテナを接続してください。[MobileMark の LTMG942 multi-band antenna](https://www.mobilemark.com/product/ltmg942-4xlte-2xwifi-gnss/){target="\_blank"} は最適なネットワーク受信性能を得やすいため、推奨されています。他社製のルーフアンテナを使う場合は、以下の要件を満たしていることを確認してください。
 
-- 4つのセルラーアンテナ、受信周波数範囲600M～6GHz。
-- 2つのWi-Fiアンテナ、受信周波数範囲：2.4G～2.5GHz、5.15～5.84GHz
+- セルラーアンテナ 4 本、受信周波数範囲 600M~6GHz
+- Wi-Fi アンテナ 2 本、受信周波数範囲 2.4G~2.5GHz、5.15~5.84GHz
 
 ![antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-six-antennas.jpg){class="glboxshadow"}
 
-**注意:** 7-in-1アンテナ（GPSアンテナを含む）を使用することもできますが、Spitz AX には6つのアンテナのみを接続する必要があります。Spitz AX のDIV/GNSSインターフェースはGPSシグナルをサポートします。これはセルラーアンテナ（600M～6GHzの受信周波数）がGPSの周波数をカバーしているためです。Spitz AX はコマンドラインを使用してGPS位置を表示することをサポートしますが、現にに図上に位置を表示することはサポートしていません。
+**Note**: GPSアンテナを含む 7-in-1 アンテナも使用できますが、Spitz AX に接続するのは 6 本のみです。Spitz AX の DIV/GNSS インターフェースは、セルラーアンテナの受信周波数範囲 600M~6GHz が GPS の周波数もカバーしているため、GPS信号に対応しています。Spitz AX はコマンドラインで GPS 位置情報を確認できますが、現時点では地図上への表示には対応していません。
 
-シグナル減衰を避けるために、ルーフアンテナから Spitz AX への高周波ケーブルは5メートルを超えないようにしてください。例えば、MobileMark 製の5メートルのケーブルは3000MHzでのシグナル受信を3dB減少させ、強度が半分になります。シグナルの周波数が高いほど、減衰が大きくなります。
+信号減衰を避けるため、ルーフアンテナから Spitz AX までの高周波ケーブルは 5 メートル以内にしてください。たとえば MobileMark の 5 メートルケーブルでは、3000MHz の受信信号が 3dB 低下し、信号強度は半分になります。周波数が高いほど減衰も大きくなります。
 
-[Spitz AX のアンテナを交換する方法を学ぶ。](https://docs.gl-inet.com/router/en/4/tutorials/how_to_change_x3000_and_xe3000_antennas/)
+[Spitz AX のアンテナ交換方法はこちらを参照してください。](https://docs.gl-inet.com/router/en/4/tutorials/how_to_change_x3000_and_xe3000_antennas/){target="\_blank"}
 
 ---
 
-### 2. Spitz AX のインターネット設定
+## 2. Spitz AX のインターネット接続を設定する
 
-旅行中にインターネットアクセスを確保するために、SIMカードを使用してインターネットを設定します。Spitz AX には 5GNR モジュールが内蔵されており、デュアル SIM カードをサポートしています。異なるモバイルネットワークキャリアは、SIMカード用に異なるセルラーパッケージを提供し、異なるAPNを使用します。設定にAPNを入力する必要があるため、オペレーターにVPNの確認をしてください。
+移動中もインターネットへ接続できるように、まず SIMカードで通信を設定します。
 
-#### SIMカードを設定する手順:
+Spitz AX には 5GNR モジュールが内蔵されており、デュアルSIMに対応しています。通信事業者によって利用できるプランや APN が異なるため、設定前に利用中の事業者へ APN を確認してください。
+
+SIMカードを設定する手順は以下のとおりです。
 
 1. SIMカードを挿入します。
-   ![SIMカードを挿入](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-sim-card.jpg){class="glboxshadow"}
+
+   ![insert sim](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-sim-card.jpg){class="glboxshadow"}
 
 2. 電源アダプターを接続し、ルーターの電源を入れます。
 
-#### APNを入力する手順:
+APN を入力するには、以下の手順を実行します。
 
-1. ウェブブラウザに `192.168.8.1` を入力し、サインインします。
-2. 左上にキャリアの名前が表示されます。**手動設定** をクリックします。
-3. **APN** の横にAPNを入力します。
-4. **適用する** をクリックします。
+1. Webブラウザーで `192.168.8.1` を開き、サインインします。
+2. 左上に通信事業者名が表示されます。**Manual Setup** をクリックします。
+3. **APN** の項目に APN を入力します。
+4. **Apply** をクリックします。
 
-デュアル SIM カードを使用する場合、一度に動作するのは一つの SIM カードのみです。毎回手動で使用する SIM カードを選択するか、[から動切替機能](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models)を有効にします。ルーターが一つの SIM カードでインターネットにアクセスできないと検出した場合、自動的に彼の SIM カードに切り替えます。切り替えには約1分かかります。
+デュアルSIMを使用している場合でも、同時に有効になるのは 1 枚だけです。都度手動で切り替えることもできますし、[Auto Switch 機能](https://docs.gl-inet.com/router/en/4/interface_guide/internet_cellular/#setup-for-dual-sim-models){target="\_blank"} を有効にすることもできます。ルーターが一方の SIM で正常にインターネット接続できないと判断すると、もう一方の SIM に自動切り替えします。切り替えには約 1 分かかります。
 
 ---
 
-### 3. さまざまなシナリオで Spitz AX を使用
+## 3. シーン別に Spitz AX を使う
 
-#### 道路上で
+### 走行中
 
-![道路上で](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
+![on the road](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
 
-運転中は、前のステップで設定した SIM カードを使用してインターネットに接続できます。
+走行中は、前の手順で設定した SIMカードを使ってインターネットへ接続できます。
 
-#### キャンプ場で
+### キャンプ場
 
-![キャンプ場](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
+![campground](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
-旅行中にキャンプ場に停車した場合、サイトが提供するパブリック Wi-Fi ネットワークを使用してセルラーデータを節約できます。[既存の Wi-Fi ネットワークに接続する方法を学ぶ。](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/)
+旅先のキャンプ場に滞在する場合は、施設が提供する公衆Wi-Fiへ接続してセルラーデータの消費を抑えられます。[既存のWi-Fiネットワークへ接続する方法はこちら。](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/){target="\_blank"}
 
-一度 Wi-Fi ネットワークに接続すると、Spitz AX はネットワーク名とパスワードを記憶します。次回周辺にいるときに自動的に接続します。
+一度 Wi-Fi ネットワークへ接続すると、Spitz AX はネットワーク名とパスワードを記憶します。次回その場所の近くへ行くと、自動的に再接続されます。
 
-#### 携帯電話の電波が届かない場所
+### セルラー通信圏外のエリア
 
-![セルラー](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
+![cellular](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
 
+セルラー通信圏外のエリア、たとえば人口の少ない砂漠地帯などへ行く場合は、衛星インターネットサービスの Starlink を利用してください。セルラー通信が良好なエリアでは Spitz AX が受信した 5G 信号を使い、セルラー通信が使えないエリアでは Starlink を使う運用ができます。
 
-セルラーカバー範囲外のエリア（例：人口の少ない砂漠に帯）に移動する場合は、衛星インターネットサービスであるStarlinkを使用してください。この方法では、セルラーカバー範囲が良好なエリアではSpitz AXの受信する5Gシグナルを使用し、セルラーカバー範囲外のエリアではStarlinkを使用します。
-
-Starlinkアンテナをセットアップする際は、遮るものがないことを確認してください。道路の両側の障害物（例：木々）が受信に影響するため、障害物から離れて駐車するようにしてください。
+Starlink アンテナを設置するときは、遮るものがない場所を選んでください。道路脇の木などの障害物は受信に影響するため、できるだけ障害物から離れた場所へ駐車することを推奨します。
 
 ---
 
 ## 4. フェイルオーバーの優先順位を設定する
-Spitz AXはマルチWAN（フェイルオーバーおよび負荷分散）をサポートしています。シナリオに基づいて異なるネットワークのフェイルオーバー優先順位を設定することができます。
 
-| シナリオ| 優先順位 |
-| --------| ------- |
-| キャンプ場内（リピーターを使用してWi-Fiネットワークに接続） | <p> リピーターをセルラーより高い優先順位に設定します。</p> <p>キャンプ場を離れると、ルーターは自動的にセルラーに切り替わります。</p>|
-| Starlink（イーサネット）+ セルラー | イーサネットよりセルラーを高い優先順位に設定します。 <p>セルラーカバー範囲のエリアでは、ルーターはセルラーネットワークを使用します。</p> <p>セルラーカバー範囲外のエリアにまで達すると、ルーターは自動的にイーサネット経由でStarlinkに切り替わります。</p>|
+Spitz AX は multi-WAN をサポートしており、フェイルオーバーとロードバランシングを利用できます。利用シーンに応じて、各ネットワークのフェイルオーバー優先順位を設定してください。
 
-フェイルオーバーの設定については、[フェイルオーバー](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/)セクションを参照してください。
+| シナリオ                                                  | 優先順位                                                                                                                                                                                                                 |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| キャンプ場で Repeater を使って施設の Wi-Fi に接続する場合 | <p>Cellular より Repeater の優先順位を高く設定します。</p><p>キャンプ場を離れると、ルーターは自動的に Cellular へ切り替わります。</p>                                                                                    |
+| Starlink（Ethernet）+ Cellular                            | <p>Ethernet より Cellular の優先順位を高く設定します。</p><p>セルラー通信圏内では、ルーターは Cellular を使用します。</p><p>セルラー通信圏外へ入ると、ルーターは自動的に Ethernet 経由の Starlink へ切り替わります。</p> |
+
+フェイルオーバーの設定方法は、[Failover](https://docs.gl-inet.com/router/en/4/interface_guide/multi-wan/){target="\_blank"} を参照してください。
 
 ---
 
-まだ質問がありますか？私たちの[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}を訪問してください。
+ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="\_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="\_blank"} からお問い合わせください。

@@ -7,7 +7,7 @@ site_name: GL.iNet Router Docs 4
 site_description: Documentation for GL.iNet Productions
 site_author: GL.iNet
 site_url: https://docs.gl-inet.com/router/jp/4/
-site_dir: /root/docs-build/router/jp/4/
+site_dir: site
 copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
 
 theme:

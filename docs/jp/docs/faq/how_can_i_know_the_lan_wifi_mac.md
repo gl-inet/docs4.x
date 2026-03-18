@@ -1,0 +1,28 @@
+# デバイスの WAN、LAN、2.4G、5G の Mac アドレスを確認するには?
+
+デバイスのMacアドレスは接続ポートごとにユニークで、16進数で並んでいます。
+
+配列は0、1、2、3、4、5、6、7、8、9、A、B、C、D、E、F。
+
+## WAN Mac アドレスの検索
+
+![wan_lan_wifi](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/wan_lan_wifi.png){class="glboxshadow"}
+
+WAN アドレスはデバイスの背面ラベルで確認できます。 たとえば、WAN Mac はここでは E4:95:6E:40:DB:A9 です。
+
+## LAN、2.4G、および 5G の Mac アドレスを計算する
+
+LAN Mac アドレスは WAN +1 であるため、結果は E4:95:6E:40:DB:AA (9 + 1 =A) となります。
+
+2.4G Mac アドレスは WAN +2 であるため、結果は E4:95:6E:40:DB:AB (9 + 2 =B) となります。
+
+5G Mac アドレスは WAN +3 であるため、結果は E4:95:6E:40:DB:AC (9 + 3 =C) となります。
+
+## 使用シナリオ
+
+ホテルやキャンプ場、キャンパスなどに接続する際、ネットワーク管理者が事前にあなたのデバイスのMacアドレスをホワイトリストに登録するよう求めることがあります。
+ネットワークにアクセスするには、正確な Mac アドレスまたはデバイスのアドレスを彼らに伝える必要があります。上記のロジックを使えば、すぐにあなたのデバイスのMacアドレスを正確に伝えることができます。
+
+---
+
+まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。

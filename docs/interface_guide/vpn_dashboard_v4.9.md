@@ -50,6 +50,8 @@ The **All Other Traffic** is a pre-enabled tunnel displaying at the bottom of th
 
 ## Tunnel Details
 
+On the VPN Dashboard, each individual VPN tunnel is displayed as shown below, showing detailed VPN tunnel information such as routing rules, connected server, traffic statistics, server address, listen port, client virtual IP, and connection log. You can enable or disable the VPN tunnel and configure tunnel settings at the top of the tunnel group.
+
 ![tunnel details](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/tunnel_details.png){class="glboxshadow"}
 
 ## VPN Policy
@@ -64,7 +66,7 @@ On the VPN Dashboard, click **Add New Tunnel** or click the middle area of an ex
 
 ![add new tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/add_new_tunnel.png){class="glboxshadow"}
 
-Then follow the setup wizard to configure your VPN policy, including selecting VPN profile, client source, and target destination.
+Then follow the setup wizard to configure your VPN policy, including selecting VPN profile, traffic source, and traffic destination.
 
 1. **Select the VPN profile.** 
 

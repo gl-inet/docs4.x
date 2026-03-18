@@ -1,65 +1,65 @@
 # GoodCloud経由でLuCIインターフェースにアクセスする方法
 
-GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"}はに理の制限を突破し、リモートルー管理の便利方法を提供します。GoodCloudを通じて、ルー器のLuCIインターフェースにいつでもどこでもアクセスし、ルー器ので各种各样の設定を行い、ネットワークを簡単に管理できます。
+GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="\_blank"} は、地理的な制限を超えてルーターをリモート管理できる便利なサービスです。GoodCloud を使えば、ルーターの LuCI インターフェースにいつでもどこからでもアクセスし、各種設定を行ってネットワークを管理できます。
 
 ## 準備
 
-- ハードウェア機器：インターネットで構成され正常に動作しているGL.iNetルー器
-- ネットワーク環境：ルー器接続されているネットワークが安定しており、インターネットに正常に.accessできる
-- 機器のバインディング：GL.iNetルー器をGoodCloudアカウントに[バインディング](../interface_guide/cloud.md/#setup-your-goodcloud-account)する必要があります。GoodCloudアカウントをお持ちでない場合は、[登録](https://www.goodcloud.xyz/){target="_blank"}してください。
+- ハードウェア: インターネット接続の設定が完了し、正常に動作している GL.iNet ルーター
+- ネットワーク環境: ルーターが接続されているネットワークが安定しており、正常にインターネットへアクセスできること
+- デバイスのバインド: GL.iNet ルーターを GoodCloud アカウントへ[バインド](../interface_guide/cloud.md/#setup-your-goodcloud-account)しておく必要があります。GoodCloud アカウントを持っていない場合は、[登録](https://www.goodcloud.xyz/){target="\_blank"}してください。
 
 ## GoodCloud経由でLuCIインターフェースにアクセスする手順
 
-### ファームウェアバージョン4.7で降
+### ファームウェアバージョン 4.7 以降
 
-v4.7で降、ユーザーはルー器のWeb管理パネルを経よりせずにGoodCloudプラットフォームから直接LuCIページにアクセスできます。
+v4.7 以降では、ルーターの Web 管理パネルを経由せず、GoodCloud プラットフォームから直接 LuCI ページへアクセスできます。
 
-1. [これ里](https://www.goodcloud.xyz/){target="_blank"}でGoodCloudアカウントにログインします。
+1. [こちら](https://www.goodcloud.xyz/){target="\_blank"} から GoodCloud アカウントにログインします。
 
-2. 左側 -> **Devices** -> **Bound Devices**、アクセスしたい機器の名前をクリックすると、Remote Web Accessのアイコンが表示されます。
+2. 左側メニューで **Devices** -> **Bound Devices** に進み、アクセスしたいデバイス名をクリックします。すると、Remote Web Access のアイコンが表示されます。
 
-    ![remote gui](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/remote_gui_mt6000.png){class="glboxshadow"}
+   ![remote gui](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/remote_gui_mt6000.png){class="glboxshadow"}
 
-    ポップアップウィンドウにポート80が表示されます。ポートを**8080**に変更し、Applyをクリックします。
+   ポップアップウィンドウにはポート `80` が表示されます。これを **8080** に変更し、**Apply** をクリックします。
 
-    ![change port](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/change_port.png){class="glboxshadow"}
+   ![change port](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/change_port.png){class="glboxshadow"}
 
-3. LuCIログインページにリダイレクトされます。管理者パスワードを入力してログインします。
+3. LuCI のログインページへリダイレクトされます。管理者パスワードを入力してログインします。
 
-    ![log in luci](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci.png){class="glboxshadow gl-80-desktop"}
+   ![log in luci](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci.png){class="glboxshadow gl-80-desktop"}
 
-4. LuCIに正常にログインしました。
+4. これで LuCI へのログインは完了です。
 
-    ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci_mt6000.png){class="glboxshadow"}    
+   ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci_mt6000.png){class="glboxshadow"}
 
-### ファームウェアバージョン4.6で前
+### ファームウェアバージョン 4.6 以前
 
-1. [これ里](https://www.goodcloud.xyz/){target="_blank"}でGoodCloudアカウントにログインします。
+1. [こちら](https://www.goodcloud.xyz/){target="\_blank"} から GoodCloud アカウントにログインします。
 
-2. 左側 -> **Devices** -> **Bound Devices**、アクセスしたい機器の名前をクリックすると、Remote Web Accessのアイコンが表示されます。
+2. 左側メニューで **Devices** -> **Bound Devices** に進み、アクセスしたいデバイス名をクリックします。すると、Remote Web Access のアイコンが表示されます。
 
-    ![remote gui](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/remote_gui_of_bound_device.png){class="glboxshadow"}
+   ![remote gui](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/remote_gui_of_bound_device.png){class="glboxshadow"}
 
-    ポップアップウィンドウにポート80が表示されます。Applyをクリックします。
+   ポップアップウィンドウにはポート `80` が表示されます。そのまま **Apply** をクリックします。
 
-    ![vist web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
+   ![vist web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
 
-3. GL.iNet管理パネルログインページにリダイレクトされます。管理者パスワードを入力してログインします。
+3. GL.iNet 管理パネルのログインページへリダイレクトされます。管理者パスワードを入力してログインします。
 
-    ![admin panel login](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/admin_panel_login.png){class="glboxshadow"}
+   ![admin panel login](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/admin_panel_login.png){class="glboxshadow"}
 
-4. ログイン後、左側 -> SYSTEM -> Advanced Settings、LuCIインターフェースに移動するハイパーリンクをクリックします。
+4. ログイン後、左側メニューで **SYSTEM** -> **Advanced Settings** に進み、LuCI インターフェースへ移動するリンクをクリックします。
 
-    ![advanced settings](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/advanced_settings.png){class="glboxshadow"}
+   ![advanced settings](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/advanced_settings.png){class="glboxshadow"}
 
-    LuCIログインページにリダイレクトされます。同じ管理者パスワードを入力してログインします。
+   LuCI のログインページへリダイレクトされるので、同じ管理者パスワードを入力してログインします。
 
-    ![log in luci](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci.png){class="glboxshadow gl-80-desktop"}
+   ![log in luci](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci.png){class="glboxshadow gl-80-desktop"}
 
-5. LuCIに正常にログインしました。
+5. これで LuCI へのログインは完了です。
 
-    ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/luci_interface_example.png){class="glboxshadow"}
+   ![luci interface](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/luci_interface_example.png){class="glboxshadow"}
 
 ---
 
-ご不明な時がございましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="\_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="\_blank"}をご覧ください。

@@ -12,6 +12,7 @@ copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
 
 theme: 
   name: material
+  language: en
   logo: images/logo_white.svg
   custom_dir: overrides
   features:

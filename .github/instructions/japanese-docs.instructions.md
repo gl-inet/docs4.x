@@ -20,6 +20,22 @@ applyTo: "docs/jp/docs/**/*.md"
 - Prefer `リモートアクセス` for `remote access`.
 - Prefer `待受ポート` or `リスニングポート` consistently within one file.
 
+## Fixed Network and VPN Vocabulary
+
+- Use one consistent translation for these concepts within a file: `Global Mode`, `Policy Mode`, `All Other Traffic`, `VPN Client`, `VPN Server`, `fail over`, `site-to-site`, `guest network`, `traffic source`, `traffic destination`, `routing method`, `port role`, `negotiated speed`.
+- Prefer `グローバルモード` for `Global Mode`.
+- Prefer `ポリシーモード` for `Policy Mode`.
+- Prefer `その他のすべてのトラフィック` for `All Other Traffic`.
+- Prefer `VPNクライアント` and `VPNサーバー`.
+- Prefer `フェイルオーバー` for `fail over`.
+- Prefer `サイトツーサイト` for `site-to-site`.
+- Prefer `ゲストネットワーク` for `guest network`.
+- Prefer `トラフィック送信元` for `traffic source`.
+- Prefer `トラフィック宛先` for `traffic destination`.
+- Prefer `ルーティング方法` for `routing method`.
+- Prefer `ポートの役割` for `port role`.
+- Prefer `ネゴシエート速度` for `negotiated speed`.
+
 ## UI and Navigation
 
 - Preserve actual product UI labels when they appear in screenshots or navigation paths.
@@ -34,6 +50,14 @@ applyTo: "docs/jp/docs/**/*.md"
 - Do not mistranslate option scope, for example mixing `Allow Access Samba from WAN` with `Allow Access WebDAV from WAN`.
 - Do not confuse `traffic source`, `traffic destination`, and `routing method`.
 - Do not confuse `remote peer`, `server`, `client`, `device`, and `router`.
+
+## VPN and Routing Accuracy Check
+
+- Preserve the distinction between traffic that is matched by a rule and traffic that is excluded from a rule.
+- Preserve whether unmatched traffic is allowed, blocked, or routed via local WAN.
+- Preserve whether a tunnel fails over to another tunnel, to `All Other Traffic`, or does not fail over at all.
+- Preserve whether a setting is per-tunnel or global.
+- Translate `enabled`, `disabled`, `default`, `only`, and `all` with extra care because they often change device behavior.
 
 ## Repository Expectations for Japanese
 

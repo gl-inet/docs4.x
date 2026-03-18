@@ -23,6 +23,8 @@ Some GL.iNet models have MicroSD(TF) card slots, while some models have USB port
 
     2. Some models have a USB port or MicroSD slot but have limited storage space and do not support network storage.
 
+    3. The web Admin Panel only allows you to manage shared folders. To manage files on your storage device, please use the [mobile app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
+
 ## Supported Models
 
 Usually, models with USB ports or MicroSD(TF) slots support network storage (i.e. file sharing). 
@@ -361,6 +363,14 @@ Connect your smart TV to the router, and it will find the DLNA Server.
     Click **Done** button to complete this setup.
 
     ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
+
+## Using Mobile App
+
+The web Admin Panel only allows you to manage shared folders. To manage files on your storage device, please use the [mobile app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
+
+- When accessing the app over the **local network**, it shows your storage device and its capacity, and supports read/write access.
+
+- When accessing the app via the **cloud**, it shows your storage device and its capacity, but does not support read/write access.
 
 ---
 

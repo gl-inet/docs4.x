@@ -16,14 +16,19 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10.4'
+          python-version: "3.10.4"
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      - name: Build docs
-        run: mkdocs build
+      - name: Build English
+        working-directory: docs/en
+        run: mkdocs build --site-dir ../../site/en
+
+      - name: Build Japanese
+        working-directory: docs/jp
+        run: mkdocs build --site-dir ../../site/jp
 
       - name: Checkout docs-build
         uses: actions/checkout@v4
@@ -35,7 +40,15 @@ jobs:
 
       - name: Deploy English to docs-build
         run: |
-          cp -r site/* docs-build/router/en/4/
+          rm -rf docs-build/router/en/4
+          mkdir -p docs-build/router/en/4
+          cp -r site/en/. docs-build/router/en/4/
+
+      - name: Deploy Japanese to docs-build
+        run: |
+          rm -rf docs-build/router/jp/4
+          mkdir -p docs-build/router/jp/4
+          cp -r site/jp/. docs-build/router/jp/4/
 
       - name: Commit and Push to docs-build
         working-directory: ./docs-build

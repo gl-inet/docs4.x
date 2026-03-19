@@ -1,382 +1,382 @@
-# Brume 3 (GL-MT5000) User Guide
+# Brume 3 (GL-MT5000) Guía del usuario
 
-## Product overview
+## Descripción general del producto
 
-Brume 3 (GL-MT5000) is a high-performance security gateway running OpenWrt v21.02, equipped with a MediaTek Quad-core Cortex-A53 CPU, 1GB RAM, and 8GB eMMC storage for plugin expansion. It features a compact design, ideal for space-constrained deployments, and supports home VPN hosting, site-to-site SD-WAN, as well as over 30 VPN services for secure, cross-location connectivity. What's more, it comes with GL.iNet's DPI feature, as well as Parental Control and AdGuard Home, meeting the diverse needs of tech enthusiasts and business users.
+Brume 3 (GL-MT5000) es una puerta de enlace de seguridad de alto rendimiento que ejecuta OpenWrt v21.02, equipada con una CPU MediaTek Cortex-A53 de cuatro núcleos, 1 GB de RAM y 8 GB de almacenamiento eMMC para ampliar complementos. Tiene un diseño compacto, ideal para implementaciones con espacio limitado, y admite alojamiento VPN doméstico, SD-WAN site-to-site, así como más de 30 servicios VPN para una conectividad segura entre ubicaciones. Además, incorpora la función DPI de GL.iNet, así como Control parental y AdGuard Home, para cubrir las distintas necesidades de entusiastas de la tecnología y usuarios empresariales.
 
 ![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
 
-## Package contents
+## Contenido del paquete
 
 - 1 x Brume 3 (GL-MT5000)
-- 1 x Power adapter
-- 1 x Ethernet cable
-- 1 x User manual
-- 1 x Thank you card
-- 1 x Converter (Based on your shipping country)
+- 1 x Adaptador de corriente
+- 1 x Cable Ethernet
+- 1 x Manual del usuario
+- 1 x Tarjeta de agradecimiento
+- 1 x Convertidor (según el país de envío)
 
-Check out Brume 3's unboxing video below.
+Vea a continuación el video de unboxing de Brume 3.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## How to set up Brume 3
+## Cómo configurar Brume 3
 
-Watch this setup video or follow the steps below.
+Vea este video de configuración o siga los pasos a continuación.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RwbdUy79WHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Power on
+### 1. Encendido
 
-Put the two-piece power adapter together. Connect it to your Brume 3 and plug it into an outlet. It will start up automatically.
+Monte las dos piezas del adaptador de corriente. Conéctelo a su Brume 3 y enchúfelo a una toma de corriente. Se iniciará automáticamente.
 
-### 2. Connect device
+### 2. Conecte un dispositivo
 
-Connect a wired device (e.g., a computer or laptop) to the Brume 3's LAN port via an Ethernet cable.
+Conecte un dispositivo con cable (por ejemplo, un ordenador o un portátil) al puerto LAN de Brume 3 mediante un cable Ethernet.
 
-### 3. Log in to web Admin Panel
+### 3. Inicie sesión en el panel de administración web
 
-**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. 
+**Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router mediante el panel de administración web de GL.iNet.
 
-Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
+Abra un navegador web, introduzca `192.168.8.1` en la barra de direcciones e inicie sesión. Elija su idioma y establezca la contraseña de administrador; después, haga clic en **Apply**.
 
-### 4. Internet setup
+### 4. Configuración de Internet
 
-Configure your Brume 3 using one of the supported internet connection methods: Ethernet, Tethering, and Cellular (optional). If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
+Configure su Brume 3 usando uno de los métodos de conexión a Internet admitidos: Ethernet, Tethering y Cellular (opcional). Si desea usar la función [Multi-WAN](../../interface_guide/multi-wan.md), configure más de una conexión a Internet.
 
 === "Ethernet"
-    
+
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_ethernet.png){class="glboxshadow"}
 
-    Connect the Brume 3's WAN port to an upstream device (such as a modem) via an ethernet cable. 
-    
-    Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
+    Conecte el puerto WAN de Brume 3 a un dispositivo ascendente (como un módem) mediante un cable Ethernet.
 
-    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
+    Cuando Brume 3 se conecte correctamente a Internet, aparecerá un punto verde junto a "Ethernet" en la página INTERNET del panel de administración web y el LED físico de Brume 3 se iluminará en blanco fijo.
+
+    Consulte [Conectarse a Internet mediante un cable Ethernet](../../interface_guide/internet_ethernet.md) para ver instrucciones detalladas.
 
 === "Tethering"
 
     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device to the USB Type-C port of Brume 3 via a USB 3.0 data cable. 
-    2. In your mobile device's settings, enable USB tethering. 
-    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section. 
-    
-    Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Tethering" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
+    1. Conecte su dispositivo móvil al puerto USB Type-C de Brume 3 mediante un cable de datos USB 3.0.
+    2. En la configuración de su dispositivo móvil, active USB Tethering.
+    3. En la página INTERNET del panel de administración web, haga clic en **Connect** en la sección "Tethering".
 
-    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
+    Cuando Brume 3 se conecte correctamente a Internet, aparecerá un punto verde junto a "Tethering" en la página INTERNET del panel de administración web y el LED físico de Brume 3 se iluminará en blanco fijo.
+
+    Consulte [Conectarse a Internet mediante USB tethering](../../interface_guide/internet_tethering.md) para ver instrucciones detalladas.
 
 === "Cellular"
 
-    An additional USB-C to USB-A adapter cable is required for this connection method.
-    
-    Plug a cellular USB modem into the USB Type-C port of Brume 3 via an additional USB-C to USB-A adapter cable. This is useful for sharing internet from a USB modem to all connected client devices.
+    Para este método de conexión se requiere un cable adaptador USB-C a USB-A adicional.
 
-    Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Cellular" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
+    Conecte un módem USB celular al puerto USB Type-C de Brume 3 mediante un cable adaptador USB-C a USB-A adicional. Esto resulta útil para compartir Internet desde un módem USB con todos los dispositivos cliente conectados.
 
-    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
+    Cuando Brume 3 se conecte correctamente a Internet, aparecerá un punto verde junto a "Cellular" en la página INTERNET del panel de administración web y el LED físico de Brume 3 se iluminará en blanco fijo.
+
+    Consulte [Conectarse a Internet mediante cellular](../../interface_guide/internet_cellular.md) para ver instrucciones detalladas.
 
 ---
 
-Below is an overview of the features in the Brume 3 web Admin Panel.
+A continuación se muestra un resumen de las funciones del panel de administración web de Brume 3.
 
 ## Clients
 
-The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
+La página Clients muestra información sobre los dispositivos conectados. Para cada cliente, muestra el nombre, las direcciones IP y MAC, las velocidades de descarga y carga, el tráfico total, y ofrece la posibilidad de bloquear el cliente o realizar otras acciones.
 
-To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
 
-## Cloud services
+## Servicios en la nube
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers. 
-    
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+    El servicio de gestión en la nube GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} ofrece una forma sencilla de acceder de forma remota a los routers GL.iNet y administrarlos.
+
+    Para configurar GoodCloud, consulte [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
 
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
-    
-    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+    AstroWarp es una plataforma de red avanzada diseñada para proporcionar redes remotas sin interrupciones y gestión remota de dispositivos. Diseñada específicamente para integrarse con los routers GL.iNet, AstroWarp admite una gestión integral de dispositivos en redes completas, lo que permite controlar tanto dispositivos superiores como inferiores. Gracias a su enfoque en la gestión de toda la red y al futuro soporte para control a nivel de hardware, AstroWarp ofrece una solución más sólida y fiable para administrar dispositivos y mantener redes seguras y estables.
 
-## VPN 
+    Para configurar AstroWarp, consulte [AstroWarp](../../interface_guide/astrowarp.md).
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 3 supports OpenVPN and WireGuard. 
+## VPN
 
-=== "OpenVPN" 
-    
-    Brume 3 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad (cliente VPN) y le permite acceder a una red remota (servidor VPN). Brume 3 es compatible con OpenVPN y WireGuard.
 
-    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
-    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
+=== "OpenVPN"
+
+    Brume 3 (y otros routers GL.iNet) es compatible con el protocolo OpenVPN, que ofrece una seguridad sólida. Para configurar OpenVPN, siga estos tutoriales:
+
+    * [Cómo configurar un cliente OpenVPN](../../interface_guide/openvpn_client.md)
+    * [Cómo configurar un servidor OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
-    
-    Brume 3 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
-    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
-    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+    Brume 3 (y otros routers GL.iNet) es compatible con el protocolo WireGuard, que ofrece gran velocidad y comodidad. Para configurar WireGuard, siga estos tutoriales:
 
-## Network
+    * [Cómo configurar un cliente WireGuard](../../interface_guide/wireguard_client.md)
+    * [Cómo configurar un servidor WireGuard](../../interface_guide/wireguard_server.md)
+
+## Red
 
 === "Multi-WAN"
 
-    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+    Multi-WAN es una función de red que le permite configurar el router con varias conexiones a Internet (por ejemplo, cellular, repeater y ethernet) al mismo tiempo. Si la conexión a Internet actual falla, el router cambiará automáticamente a otra conexión. Esto garantiza un acceso a Internet fluido e ininterrumpido.
 
-    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
+    Para configurar Multi-WAN, consulte [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
-    
-    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
+    LAN, o red de área local, es una red que conecta ordenadores y dispositivos dentro de un área geográfica limitada, como una casa u oficina. Permite transferencias de datos a alta velocidad y el uso compartido de recursos, lo que facilita que los dispositivos se comuniquen entre sí de forma eficiente.
+
+    Para configurar LAN, consulte [Lan](../../interface_guide/lan.md).
 
 === "DNS"
 
-    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
+    La página DNS le permite establecer servidores DNS personalizados, activar la protección contra ataques de DNS rebinding y sobrescribir la configuración DNS de todos los clientes, permitir que el DNS personalizado anule el DNS de la VPN, y configurar el modo de ajustes del servidor DNS para que sea automático o para especificar manualmente los servidores DNS de la conexión Ethernet.
 
-    To set up DNS, refer to [DNS](../../interface_guide/dns.md).
+    Para configurar DNS, consulte [DNS](../../interface_guide/dns.md).
 
 ---
 
 === "Ethernet Port"
 
-    The Ethernet Port page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
+    La página Ethernet Port le permite configurar los puertos WAN y LAN, establecer la interfaz WAN/LAN en Ethernet, especificar el modo MAC y la dirección MAC para la interfaz WAN, y mostrar la velocidad negociada del puerto de red.
 
-    To manage Ethernet ports, refer to [Ethernet Port](../../interface_guide/ethernet_port.md).
+    Para administrar los puertos Ethernet, consulte [Ethernet Port](../../interface_guide/ethernet_port.md).
 
 === "IPv6"
 
-    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
-    
-    To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
+    IPv6, o Protocolo de Internet versión 6, es la versión más reciente del Protocolo de Internet diseñada para sustituir a IPv4. Proporciona un espacio de direcciones mucho mayor, lo que permite un número prácticamente ilimitado de direcciones IP únicas, algo esencial para dar cabida al creciente número de dispositivos conectados a Internet.
+
+    Para configurar IPv6, consulte [IPv6](../../interface_guide/ipv6.md).
 
 === "IGMP Snooping"
 
-    IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
-    
-    To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+    IGMP snooping es una técnica de optimización de red utilizada en switches Ethernet para gestionar y controlar el tráfico multicast.
+
+    Para configurar IGMP snooping, consulte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
 ---
 
 === "Network Mode"
 
-    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
-    
-    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
+    El modo de red hace referencia a los ajustes de configuración que determinan cómo un dispositivo se conecta a una red y se comunica con otros dispositivos.
+
+    Para configurar el modo de red, consulte [Network Mode](../../interface_guide/network_mode.md).
 
 === "Drop-in gateway"
 
-    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
-    
-    To set up drop-in gateway, refer to these links:
-    
+    Drop-in gateway amplía las funciones de su router principal, incluidas AdGuard Home, DNS cifrado y cliente VPN.
+
+    Para configurar Drop-in gateway, consulte estos enlaces:
+
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
-    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
+    - [Cómo configurar drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Network Acceleration"
 
-    Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
-    
-    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
+    La aceleración de red puede reducir la carga de la CPU y acelerar el reenvío de paquetes de tráfico.
 
-## Flow Control
+    Para configurar la aceleración de red, consulte [Network Acceleration](../../interface_guide/network_acceleration.md).
+
+## Control de flujo
 
 === "DPI License"
 
-    DPI (Deep Packet Inspection) is a core capability of intelligent network management. It can overcome the limitation of traditional routers (which only identify source or destination addresses), analyze data packet payloads in depth, and accurately identify user-accessed applications and websites through feature library comparison, enabling refined traffic classification and control. 
-    
-    Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI feature adopts a lightweight embedded plug-in for efficient deployment. With Netify online-updated signature database, it enables reliable management, making network control more accurate and efficient.
+    DPI (Deep Packet Inspection) es una capacidad central de la gestión inteligente de redes. Puede superar la limitación de los routers tradicionales (que solo identifican direcciones de origen o destino), analizar en profundidad la carga útil de los paquetes de datos e identificar con precisión las aplicaciones y los sitios web a los que accede el usuario mediante la comparación con bibliotecas de firmas, lo que permite una clasificación y un control del tráfico más detallados.
 
-    Please refer to [DPI License](../../interface_guide/dpi_license.md) for detailed instructions.
+    Integrada con [Netify](https://www.netify.ai/){target="_blank"}, la función DPI de GL.iNet adopta un complemento integrado ligero para un despliegue eficiente. Con la base de datos de firmas de Netify actualizada en línea, permite una gestión fiable y hace que el control de red sea más preciso y eficiente.
+
+    Consulte [DPI License](../../interface_guide/dpi_license.md) para ver instrucciones detalladas.
 
 === "Data Statistics"
 
-    Data Statistics offers an intelligent traffic insight dashboard that categorizes and visualizes network usage by applications, helping you monitor real-time and historical traffic for better network awareness and control.
+    Data Statistics ofrece un panel inteligente de análisis de tráfico que clasifica y visualiza el uso de la red por aplicaciones, lo que le ayuda a supervisar el tráfico en tiempo real e histórico para lograr una mejor visibilidad y control de la red.
 
-    Please refer to [Data Statistics](../../interface_guide/data_statistics.md) for detailed instructions.
+    Consulte [Data Statistics](../../interface_guide/data_statistics.md) para ver instrucciones detalladas.
 
 === "Content Filter"
 
-    Content Filter provides smart online safety powered by DPI-based classification, automatically blocking harmful or malicious websites to keep your network clean and secure.
+    Content Filter proporciona seguridad inteligente en línea mediante clasificación basada en DPI y bloquea automáticamente sitios web dañinos o maliciosos para mantener su red limpia y segura.
 
-    Please refer to [Content Filter](../../interface_guide/content_filter.md) for detailed instructions.
+    Consulte [Content Filter](../../interface_guide/content_filter.md) para ver instrucciones detalladas.
 
 ---
 
 === "Parental Control"
 
-    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
+    Parental Control está diseñado para ayudarle a administrar y controlar los dispositivos de sus hijos. Incluye limitar el tiempo de pantalla y restringir el acceso a determinados contenidos.
 
-    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control.md).
+    Para configurar el control parental, consulte [Parental Control](../../interface_guide/parental_control.md).
 
 === "QoS"
 
-    QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical activities (e.g., video calls, gaming) during network congestion, reducing latency and improving overall network performance. Note that this applies to local client traffic and VPN Client tunnel traffic, but not to traffic received when the router functions as a VPN Server.
+    QoS (Quality of Service) optimiza la asignación del ancho de banda al priorizar actividades críticas (por ejemplo, videollamadas o juegos) durante la congestión de la red, reduciendo la latencia y mejorando el rendimiento general. Tenga en cuenta que esto se aplica al tráfico de clientes locales y al tráfico del túnel de cliente VPN, pero no al tráfico recibido cuando el router funciona como servidor VPN.
 
-    Please refer to [QoS](../../interface_guide/qos.md) for detailed instructions.
+    Consulte [QoS](../../interface_guide/qos.md) para ver instrucciones detalladas.
 
 === "SQM"
 
-    SQM (Smart Queue Management) intelligently manages your router's network traffic to minimize latency and "bufferbloat", ensuring smoother gaming and voice calls.
+    SQM (Smart Queue Management) gestiona de forma inteligente el tráfico de red del router para minimizar la latencia y el "bufferbloat", garantizando una experiencia más fluida en juegos y llamadas de voz.
 
-    Please refer to [SQM](../../interface_guide/sqm.md) for detailed instructions.
+    Consulte [SQM](../../interface_guide/sqm.md) para ver instrucciones detalladas.
 
-## Security
+## Seguridad
 
 === "Port Forwarding"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
-    
-    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md). 
+    El reenvío de puertos permite que servidores y dispositivos remotos en Internet accedan a dispositivos dentro de una red privada.
+
+    Para configurar el reenvío de puertos, consulte [Port Forwarding](../../interface_guide/port_forwarding.md).
 
 === "Management Control"
 
-    Management Control allows you to configure various security settings to protect your network and router from unauthorized access. This page includes the following options:
+    Management Control le permite configurar varios ajustes de seguridad para proteger su red y su router frente a accesos no autorizados. Esta página incluye las siguientes opciones:
 
-    * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
-    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
-    * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
+    * Local Access Control: administre y restrinja el acceso a la interfaz del router desde dispositivos conectados a su red local.
+    * Remote Access Control: configure y restrinja el acceso a la interfaz del router desde ubicaciones remotas a través de Internet, reforzando la seguridad frente a amenazas externas.
+    * Open Ports on Router: controle qué puertos están abiertos en el router para limitar posibles vulnerabilidades y accesos no autorizados.
 
-    These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
+    Estos ajustes le ayudan a mantener un entorno de red seguro, protegiendo tanto el router como los dispositivos conectados.
 
-    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
+    Consulte [Security](../../interface_guide/security.md) para ver instrucciones detalladas.
 
 === "NAT Mode"
 
-    NAT Mode page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.
+    La página NAT Mode le permite activar o desactivar las funciones Full Cone NAT y SIP ALG (Application Layer Gateway).
 
-    To set up NAT settings, refer to [NAT Mode](../../interface_guide/nat_settings.md).
+    Para configurar los ajustes NAT, consulte [NAT Mode](../../interface_guide/nat_settings.md).
 
-## Applications
+## Aplicaciones
 
 === "Plug-ins"
 
-    A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
-    
-    To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
+    Un complemento es un componente de software que añade funciones o características específicas a un programa existente, lo que permite personalizarlo y ampliar sus capacidades.
+
+    Para configurar complementos, consulte [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
-    
-    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Resulta especialmente útil para usuarios que necesitan una dirección IP estática para acceder a una red remota.
+
+    Para configurar Dynamic DNS, consulte [Dynamic DNS](../../interface_guide/ddns.md).
 
 === "Network Storage"
 
-    Network storage refers to a centralized data storage solution that allows multiple users and devices to access and share files over a network. 
-    
-    To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
+    El almacenamiento en red hace referencia a una solución centralizada de almacenamiento de datos que permite a varios usuarios y dispositivos acceder a archivos y compartirlos a través de una red.
+
+    Para configurar el almacenamiento en red, consulte [Network Storage](../../interface_guide/network_storage.md).
 
 ---
 
 === "AdGuard Home"
 
-    AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
-    
-    To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
+    AdGuard Home es una solución de bloqueo de anuncios y rastreadores para toda la red que actúa como servidor DNS para filtrar contenido no deseado en todos los dispositivos conectados a una red doméstica.
+
+    Para configurar AdGuard Home, consulte [AdGuard Home](../../interface_guide/adguardhome.md).
 
 === "ZeroTier"
 
-    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
-    
-    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
+    ZeroTier es una solución de red definida por software que permite a los usuarios crear redes virtuales seguras a través de Internet, conectando dispositivos como si estuvieran en la misma red local.
+
+    Para configurar ZeroTier, consulte [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tailscale"
 
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
-    
-    To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
+    Tailscale es un servicio VPN que le permite acceder a sus dispositivos y aplicaciones desde cualquier lugar.
+
+    Para configurar Tailscale, consulte [Tailscale](../../interface_guide/tailscale.md).
 
 === "Tor"
 
-    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
-    
-    * [How to set up Tor](../../interface_guide/tor.md)
+    Tor, abreviatura de The Onion Router, es una red centrada en la privacidad que permite la comunicación anónima por Internet. Encamina el tráfico de Internet a través de una serie de servidores operados por voluntarios (nodos) para ocultar la ubicación y el uso del usuario, lo que dificulta rastrear sus actividades en línea.
 
-## System
+    * [Cómo configurar Tor](../../interface_guide/tor.md)
+
+## Sistema
 
 === "Overview"
 
-    The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
+    La página Overview ofrece una visión general completa del estado actual y de las métricas de rendimiento de su router. En esta página puede ver:
 
-    * CPU Average Load: Monitor the average load on your router's CPU, helping to assess performance and identify potential bottlenecks.
-    * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
-    * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
-    * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
-    * Device Info: Access detailed information about your router's system, including uptime, hostname, model, architecture, OpenWrt version, kernel version, device ID, device MAC and device S/N.
-    * External Storage: Check the status of any external storage devices connected to the router, such as USB drives or TF cards.
-    
-    These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
+    * Carga media de CPU: supervise la carga media de la CPU del router para evaluar el rendimiento e identificar posibles cuellos de botella.
+    * Uso de memoria: compruebe cuánta memoria del router está en uso para facilitar la gestión de recursos.
+    * Control LED: active o desactive las luces LED del router para personalizar los indicadores visuales del dispositivo.
+    * Uso de flash: vea el uso del almacenamiento flash del router para asegurarse de que haya suficiente espacio para el firmware y los datos de configuración.
+    * Información del dispositivo: acceda a información detallada del sistema del router, incluidos el tiempo de actividad, el nombre de host, el modelo, la arquitectura, la versión de OpenWrt, la versión del kernel, el ID del dispositivo, la MAC del dispositivo y el número de serie.
+    * Almacenamiento externo: consulte el estado de los dispositivos de almacenamiento externo conectados al router, como unidades USB o tarjetas TF.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
+    Estas funciones le proporcionan información esencial y controles útiles para administrar y supervisar eficazmente el funcionamiento del router.
+
+    Para obtener instrucciones detalladas e información adicional, consulte [Overview](../../interface_guide/system_overview.md).
 
 === "Admin Password"
 
-    The Admin Password page enables you to set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
+    La página Admin Password le permite establecer o cambiar la contraseña de la interfaz administrativa del router para garantizar que solo los usuarios autorizados puedan modificar la configuración.
 
-    For security reasons, we recommend that you turn on **Prevent Weak Password**.
+    Por motivos de seguridad, le recomendamos activar **Prevent Weak Password**.
 
-    When **Prevent Weak Password** is turned on, the requirements for new passwords are as follows.
+    Cuando **Prevent Weak Password** está activado, los requisitos para las nuevas contraseñas son los siguientes.
 
-    * 5 characters and maximum 63 characters.
-    * Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
-    * At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
+    * 5 caracteres como mínimo y 63 caracteres como máximo.
+    * Se permiten letras (distinguiendo mayúsculas y minúsculas), números y símbolos `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``.
+    * Se requieren al menos dos de estos tipos: letras mayúsculas, letras minúsculas, números y símbolos.
 
 === "Upgrade"
 
-    The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
+    La página Upgrade se utiliza para actualizar el firmware del router a la versión más reciente, lo que garantiza mejor rendimiento, mayor seguridad y nuevas funciones. Esta página ofrece dos opciones de actualización:
 
-    * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
-    * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
+    * Firmware Online Upgrade: compruebe e instale automáticamente la versión más reciente del firmware directamente desde el servidor del fabricante, lo que simplifica el proceso de actualización.
+    * Firmware Local Upgrade: cargue manualmente un archivo de firmware desde su ordenador para actualizar el router, lo que le da control sobre la versión y el momento de la actualización.
 
-    These options allow you to keep your router up-to-date with the latest improvements and fixes.
+    Estas opciones le permiten mantener el router actualizado con las mejoras y correcciones más recientes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
+    Para obtener instrucciones detalladas e información adicional, consulte [Upgrade](../../interface_guide/upgrade.md).
 
 ---
 
 === "Scheduled Tasks"
 
-    The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
+    La página Scheduled Tasks le permite automatizar diversas funciones del router según un horario predefinido, mejorando la comodidad y la eficiencia. Entre las funciones principales de esta página se incluyen:
 
-    * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
-    * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    
-    These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
+    * Programación de la pantalla LED: establezca un horario para encender o apagar automáticamente las luces LED del router y reducir la contaminación lumínica en determinados momentos.
+    * Reinicio programado: configure el router para que se reinicie automáticamente a intervalos específicos, lo que ayuda a mantener un rendimiento y una estabilidad óptimos.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+    Estas opciones de programación le proporcionan un mayor control sobre el funcionamiento del router y garantizan que se adapte a sus necesidades y preferencias específicas.
+
+    Para obtener instrucciones detalladas e información adicional, consulte [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 === "Time Zone"
 
-    The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
+    La página Time Zone le permite establecer la zona horaria correcta para el router, garantizando que todas las tareas programadas, los registros y los eventos del sistema tengan marcas de tiempo precisas según su hora local. Este ajuste es fundamental para mantener registros exactos y para el correcto funcionamiento de las configuraciones basadas en el tiempo.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
+    Para obtener instrucciones detalladas e información adicional, consulte [Time Zone](../../interface_guide/time_zone.md).
 
 === "Log"
 
-    The Log page provides access to various logs that record the router's activities and events, aiding in troubleshooting and performance monitoring. This page includes:
+    La página Log proporciona acceso a varios registros que documentan las actividades y eventos del router, lo que ayuda a la resolución de problemas y a la supervisión del rendimiento. Esta página incluye:
 
-    * System Log: Detailed logs of system-level events and activities.
-    * Kernel Log: Logs related to the kernel's operations and events.
-    * Crash Log: Records of system crashes and errors, useful for diagnosing critical issues.
-    * Cloud Log: Logs of interactions and activities related to GoodCloud services integrated with the router.
-    * Nginx Log: Logs from the Nginx web server, if used by the router, detailing web traffic and server operations.
-    
-    Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
+    * Registro del sistema: registros detallados de eventos y actividades a nivel del sistema.
+    * Registro del kernel: registros relacionados con las operaciones y eventos del kernel.
+    * Registro de fallos: registros de bloqueos y errores del sistema, útiles para diagnosticar problemas críticos.
+    * Registro de la nube: registros de interacciones y actividades relacionadas con los servicios GoodCloud integrados en el router.
+    * Registro de Nginx: registros del servidor web Nginx, si el router lo utiliza, con detalles sobre el tráfico web y las operaciones del servidor.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
+    Además, la página incluye un botón Export Log que le permite exportar todos los registros recopilados para su análisis por parte del soporte técnico. Esta función es muy útil para diagnosticar problemas complejos y obtener ayuda profesional.
+
+    Para obtener instrucciones detalladas e información adicional, consulte [Log](../../interface_guide/log.md).
 
 ---
 
 === "Reset Firmware"
 
-    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
+    La página Reset Firmware le permite restablecer la versión actual del firmware del router a sus ajustes predeterminados, eliminando todas las configuraciones personalizadas. Este proceso restaurará el router a los ajustes predeterminados de la versión de firmware instalada actualmente. Puede resultar útil para solucionar problemas persistentes o para empezar de nuevo con la configuración predeterminada del firmware actual.
 
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
+    Para obtener instrucciones detalladas e información adicional, consulte [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 
-    The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
+    La página Advanced Settings ofrece acceso a opciones de configuración avanzada a través de la interfaz OpenWrt LuCI, lo que permite a los usuarios con experiencia ajustar con precisión la configuración y las funciones del router más allá de las opciones básicas. Esto incluye configuraciones detalladas de red, ajustes del firewall y otras personalizaciones avanzadas del sistema.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
+    Para obtener instrucciones detalladas e información adicional, consulte [Advanced Settings](../../interface_guide/advanced_settings.md).

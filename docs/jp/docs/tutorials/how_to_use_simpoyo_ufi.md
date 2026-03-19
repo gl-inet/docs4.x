@@ -1,9 +1,9 @@
-# SIMPoYo uFiの使用方法
+# SIMPoYo uFiの使い方
 
-SIMPoYo uFiは、Wi-Fiホットスポット機能を備えたコンパクトなPlug & Play USB dongleシリーズで、どこでも高速で信頼性の高い接続を実現するように設計されています。ほとんどのGL.iNetルー器だけでなく、ノートパソコン、モバイルバッテリー車のUSBポート、その彼のUSB電源でも動作します。英国および彼の34のヨーロッパ諸国で30日間有効な10GBの免费データが含まれています。
-<br><small>*利用可能に域： [EU](https://store-eu.gl-inet.com/) & [UK Stores](https://store-uk.gl-inet.com/)</small>
+SIMPoYo uFi は、Wi-Fiホットスポット機能を備えたコンパクトな Plug & Play USB ドングルシリーズです。外出先でも高速かつ安定した通信を利用できるように設計されており、多くのGL.iNetルーターに加えて、ノートPC、モバイルバッテリー、車載USBポート、そのほかのUSB電源でも使用できます。イギリスおよびヨーロッパ34か国で利用できる、30日間有効の無料データ 10GB が付属します。
+<br><small>\*販売地域: [EU](https://store-eu.gl-inet.com/) & [UK Stores](https://store-uk.gl-inet.com/)</small>
 
-このガイドでは、SIMPoYo uFi USB dongle（SP-N150C4）の使用方法、内蔵SIMカードの_activation 方法、不 same 機器での使用方法、データトップアップ、uFi設定の管理について説明します。
+このガイドでは、SIMPoYo uFi USB ドングル（SP-N150C4）の使い方、LED表示、内蔵SIMカードの有効化方法、各種機器での利用方法、データのトップアップ、uFi の設定管理について説明します。
 
 ![SIMPoYo uFi](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/sp-n150c4.jpg){class="glboxshadow"}
 
@@ -42,276 +42,273 @@ SIMPoYo uFiは、Wi-Fiホットスポット機能を備えたコンパクトなP
         <tbody>
             <tr>
                 <td rowspan="3">4G LED</td>
-                <td>緑</td>
-                <td>LTE接続済み</td>
+                <td>Green</td>
+                <td>LTE接続中</td>
             </tr>
             <tr>
-                <td>青</td>
-                <td>WCDMA接続済み</td>
+                <td>Blue</td>
+                <td>WCDMA接続中</td>
             </tr>
             <tr>
-                <td>赤時滅</td>
-                <td>シグナルなし / SIMカードなし / サービス圏外</td>
+                <td>Red Blinking</td>
+                <td>圏外 / SIMカード未挿入 / サービス圏外</td>
             </tr>
             <tr>
                 <td rowspan="3">Wi-Fi LED</td>
-                <td>緑</td>
-                <td>Wi-Fiに機器が接続済み</td>
+                <td>Green</td>
+                <td>Wi-Fiに端末が接続中</td>
             </tr>
             <tr>
-                <td>青</td>
-                <td>Wi-Fiに機器が未接続</td>
+                <td>Blue</td>
+                <td>Wi-Fiに端末が未接続</td>
             </tr>
             <tr>
-                <td>オフ</td>
-                <td>Wi-Fiが無効</td>
+                <td>OFF</td>
+                <td>Wi-Fi無効</td>
             </tr>
+            <tr>
                 <td rowspan="2">4G LED + Wi-Fi LED</td>
-                <td>白</td>
-                <td>機器電源オン</td>
+                <td>White</td>
+                <td>電源オン</td>
             </tr>
             <tr>
-                <td>オフ</td>
-                <td>機器電源オフ</td>
+                <td>OFF</td>
+                <td>電源オフ</td>
+            </tr>
         </tbody>
     </table>
 </body>
 </html>
 
-## SIMカードの_activation
+## SIMカードを有効化する
 
-SIMPoYo uFiにはプレインストールされたSIMカードがプレインストールされており、使用前に_activation する必要があります。
+SIMPoYo uFi には SIM カードがあらかじめ取り付けられています。使用前に有効化してください。
 
-以下の動画を見るか、手順に従ってSIMPoYo uFiのSIMカードを_active にしてください。
+以下の動画を見るか、手順に従って SIMPoYo uFi の SIM カードを有効化してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0UokDjzp7Ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**ステップ1**。SIMPoYo uFiの背面の情報ラベルにあるICCID番号を見つけます。
+**ステップ1**。SIMPoYo uFi 背面の情報ラベルに記載されている ICCID 番号を確認します。
 
-**ステップ2**。QRコードをスキャンするか、[https://w.simpoyo.com/activate/](https://w.simpoyo.com/activate/){target="_blank"}にアクセスしてICCID番号を入力しに登録します。
+**ステップ2**。QRコードをスキャンするか、[https://w.simpoyo.com/activate/](https://w.simpoyo.com/activate/){target="\_blank"} にアクセスし、ICCID 番号を入力して登録します。
 
-**ステップ3**。10GBの免费データをお楽しみください。新規ユーザーとして、英国および彼の34のヨーロッパ諸国で30日間有効な10GBの免费4Gデータがすなわち座に付 and されます。
+**ステップ3**。無料データ 10GB を利用します。新規ユーザーには、イギリスおよびヨーロッパ34か国で使える、30日間有効の無料4Gデータ 10GB が即時付与されます。
 
-## インターネット設定
+## インターネットの設定
 
-### GL.iNetルー器に接続
+### GL.iNetルーターに接続する
 
-SIMPoYo uFiはほとんどのGL.iNetトラベルおよびホームルー器シームレスに動作します—単にルー器に差し込むだけで、いつでもどこでもすなわち座に4G LTEにアクセスできます。
+SIMPoYo uFi は、多くのGL.iNetのトラベルルーターやホームルーターでそのまま利用できます。ルーターのUSBポートに挿すだけで、いつでもどこでも4G LTE接続を使えます。
 
-以下の動画を見るか、手順に従ってSIMPoYo uFiをGL.iNetルー器に接続してください。
+以下の動画を見るか、手順に従って SIMPoYo uFi を GL.iNet ルーターに接続してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sU2u4En04so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**ステップ1**。SIMPoYo uFiをGL.iNetルー器のUSBポートに差し込みます。
+**ステップ1**。SIMPoYo uFi を GL.iNet ルーターの USB ポートに挿します。
 
 ![setup1](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/setup1.png){class="glboxshadow"}
 
-**ステップ2**。機器をルー器に接続し、ブラウザを開いて`192.168.8.1`にアクセスしてルー器のWeb管理パネルにログインします。ルー器のIPアドレスを変更した場合は、新しいアドレスでログインしてください。
+**ステップ2**。端末をルーターに接続し、ブラウザで `192.168.8.1` を開いてルーターの Web 管理パネルにログインします。ルーターの IP アドレスを変更している場合は、その新しいアドレスを使用してください。
 
 ![setup2](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/setup2.png){class="glboxshadow"}
 
-**ステップ3**。管理パネルで、**INTERNET** -> **Tethering**に移動し、**Connect**をクリックします。
+**ステップ3**。管理パネルで **INTERNET** -> **Tethering** に移動し、**Connect** をクリックします。
 
 ![setup3](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/setup3.png){class="glboxshadow"}
 
-**ステップ4**。接続が完たすると、左上に青いドットが表示されたネットワーク詳細が表示されます。
+**ステップ4**。接続に成功すると、左上に青いドットが付いたネットワーク情報が表示されます。
 
 ![setup4](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/setup4.png){class="glboxshadow"}
 
-これで、有線またはWi-Fiでルー器に機器を接続するか、SIMPoYo uFiのWi-Fiに直接接続してインターネットを楽しむことができます。
+これで、ルーターに有線またはWi-Fiで接続するか、SIMPoYo uFi の Wi-Fi に直接接続してインターネットを利用できます。
 
-- 有線でルー器に接続：でとても網 cableをルー器のLANポートと機器に差し込みます。有線专用機器や安定しています·干扰Free接続に最も適です。
+- ルーターに有線接続する: Ethernet ケーブルでルーターの LAN ポートと端末を接続します。有線専用の機器や、安定した干渉の少ない通信が必要な場合に適しています。
 
-- Wi-Fiでルー器に接続：ルー器の底部のラベルにあるWi-Fi SSIDとKeyを見つけ、機器を接続します。複数の機器（2.4 GHz & 5 GHz）、より広い覆盖範囲、またはルー器の个性化のネット設定に适しています。
+- ルーターに Wi-Fi 接続する: ルーター底面のラベルに記載された Wi-Fi SSID と Key を確認して接続します。複数端末の接続、2.4 GHz / 5 GHz の利用、より広いカバー範囲、ルーター側の細かいネットワーク設定が必要な場合に適しています。
 
-- Wi-FiでSIMPoYo uFiに接続：SIMPoYo uFiの機器ラベルにあるWi-Fi SSIDとKeyを見つけ、機器（最大8台）を接続します。必要に応じて灵活な独立した2.4 GHzホットスポットとして機能します。
+- SIMPoYo uFi に Wi-Fi 接続する: SIMPoYo uFi 本体ラベルの Wi-Fi SSID と Key を確認し、端末を接続します。最大8台まで接続でき、必要に応じて独立した 2.4 GHz ホットスポットとして使えます。
 
-### コンピュータに接続
+### コンピューターに接続する
 
-**ステップ1**。SIMPoYo uFiをコンピュータ（デスクトップまたはノートパソコンなど）のUSBポートに差し込みます。USB Ethernet機器として自動的に認識され、機器はすぐにオンラインになります。
+**ステップ1**。SIMPoYo uFi をデスクトップPCやノートPCなどの USB ポートに挿します。USB Ethernet デバイスとして自動認識され、すぐにインターネットへ接続できます。
 
-**ステップ2**。彼の機器（スマートフォン、タブレットなど）はSIMPoYo uFiの2.4 GHz Wi-Fiネットワークに接続して同時にインターネットにアクセスできます。
+**ステップ2**。スマートフォンやタブレットなどほかの端末も、SIMPoYo uFi の 2.4 GHz Wi-Fi に接続して同時にインターネットを利用できます。
 
 ![multi-device](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/multi-device.jpg){class="glboxshadow"}
 
-### USB電源に接続
+### USB電源に接続する
 
-**ステップ1**。SIMPoYo uFiをウォールチャー�、モバイルバッテリー、车載充电器などのUSB电源に差し込みます。
+**ステップ1**。SIMPoYo uFi を USB 電源に挿します。壁面充電器、モバイルバッテリー、車載充電器などが利用できます。
 
-**ステップ2**。电源を入れると、SIMPoYo uFiはSSID **SIMPoYo-XXX**のWi-Fiネットワークをブロードキャストします。
+**ステップ2**。電源が入ると、SIMPoYo uFi は SSID **SIMPoYo-XXX** の Wi-Fi ネットワークをブロードキャストします。
 
-**ステップ3**。機器ラベルのWi-Fiパスワード（Key）を見つけます。このパスワードを使用して、スマートフォン、タブレット、ノートパソコン、その彼の機器をSIMPoYo uFiのWi-Fiに接続してインターネットにアクセスします。
+**ステップ3**。本体ラベルの Wi-Fi パスワード（Key）を確認し、そのパスワードでスマートフォン、タブレット、ノートPCなどの端末を SIMPoYo uFi の Wi-Fi に接続します。
 
-## SIMPoYoプランのトップアップ
+## SIMPoYoプランをトップアップする
 
-データがなくなったか期限切れになった場合は、SIMPoYo uFiのQRコードをスキャンするか、[https://w.simpoyo.com](https://w.simpoyo.com){target="_blank"}にアクセスしてプランをトップアップしてください。
+データ容量を使い切った場合や有効期限が切れた場合は、SIMPoYo uFi の QR コードをスキャンするか、[https://w.simpoyo.com](https://w.simpoyo.com){target="\_blank"} にアクセスしてプランをトップアップしてください。
 
-!!! note "対応国·に域"
+!!! note "対応国と地域"
 
     - **イギリス**
 
     - **ヨーロッパ**
 
-        アンドラ、オーストリア、ベルギー、ブルガリア、クロアチアイ Cyprus、チェコ、デンマーク、エストニア、Finland、France、Germany、Gibraltar (UK)、Greece、Hungary、アイスランド、アイルランド、イタリア、ラトビア、リヒテンシュタイン、リトアニア、ルクセンブルク、マルタ、オランダ、ノルウェー、ポルトガル、レユニオン（フランス）、ルーマニア、スロバキア、スロベニア、スペイン、スイス。
+        アンドラ、オーストリア、ベルギー、ブルガリア、クロアチア、キプロス、チェコ、デンマーク、エストニア、フィンランド、フランス、ドイツ、ジブラルタル（UK）、ギリシャ、ハンガリー、アイスランド、アイルランド、イタリア、ラトビア、リヒテンシュタイン、リトアニア、ルクセンブルク、マルタ、オランダ、ノルウェー、ポーランド、ポルトガル、レユニオン（フランス）、ルーマニア、スロバキア、スロベニア、スペイン、スウェーデン、スイス。
 
-    - **中東·北アフリカ**
+    - **中東・北アフリカ**
 
-        エジプト、イラン、Israel、Kuwait、Qatar、Saudi Arabia、UAE。
+        エジプト、イラン、イスラエル、クウェート、カタール、サウジアラビア、アラブ首長国連邦。
 
     - **アジア**
 
-        インドネシア、日本、パキスタン、Philippines、Singapore、South Korea、Turkey、Vietnam、中国本土、香港（中国）、台湾（中国）。
+        インドネシア、日本、パキスタン、フィリピン、シンガポール、韓国、トルコ、ベトナム、中国本土、香港（中国）、台湾（中国）。
 
-## SIMPoYo uFiの管理
+## SIMPoYo uFiを管理する
 
-SIMPoYo uFiの管理パネルにログインしてネット設定を管理できます。
+SIMPoYo uFi の管理パネルにログインすると、ネットワーク設定を管理できます。
 
-### 管理パネルにログイン
+### 管理パネルにログインする
 
-1. 機器をSIMPoYo uFiのWi-Fiネットワークに接続します。
+1. 端末を SIMPoYo uFi の Wi-Fi ネットワークに接続します。
 
-2. ブラウザを開いて`192.168.1.1`を入力し、SIMPoYo uFiの管理パネルにアクセスします。
+2. ブラウザを開き、`192.168.1.1` を入力して SIMPoYo uFi の管理パネルにアクセスします。
 
-3. 管理者パスワードでログインします（デフォルトではSIMPoYo uFiのWi-Fiパスワードと同じです）。
+3. 管理者パスワードでログインします。デフォルトでは、Wi-Fi パスワードと同じです。
 
-    ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/0-simpoyo-login.png){class="glboxshadow"}
+   ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/0-simpoyo-login.png){class="glboxshadow"}
 
-### ネット詳細の確認
+### ネットワークの詳細を確認する
 
-1. 上部メニューから**Status**を選択し、**Device & Network**に移動します。機器のネット状態が表示されたホームページに入ります。
+1. 上部メニューで **Status** を選択し、**Device & Network** に移動します。端末のネットワーク状態が表示されるホーム画面が開きます。
 
-    ![network status](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/1.1-device-network.png){class="glboxshadow"}
+   ![network status](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/1.1-device-network.png){class="glboxshadow"}
 
-2. 左サイドバーから**Cellular Network**に切り替え、シグナル強度などのモバイルネット詳細を確認できます。
+2. 左側のサイドバーで **Cellular Network** に切り替えると、電波強度などのモバイルネットワーク情報を確認できます。
 
-    ![cellular network](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/1.2-cellular-network.png){class="glboxshadow"}
+   ![cellular network](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/1.2-cellular-network.png){class="glboxshadow"}
 
-### データ使用量の確認
+### データ使用量を確認する
 
-1. 上部メニューから**Data Usage**を選択すると、ダウンロード、アップロード、合計データ消費量と期間が 表示されます。
+1. 上部メニューで **Data Usage** を選択すると、ダウンロード量、アップロード量、合計使用量、利用期間が表示されます。
 
-    ![data usage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/2-data-usage.png){class="glboxshadow"}
+   ![data usage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/2-data-usage.png){class="glboxshadow"}
 
-    注意：データは参考用のみです。正確性は請求書を参照してください。
+   注意: 表示されるデータ量は参考値です。正確な請求情報は契約先の明細を参照してください。
 
-2. データ使用量をリセットしたい場合は、**Clear History**ボタンをクリックしてリセットします。
+2. 使用量をリセットしたい場合は、**Clear History** をクリックします。
 
-### Wi-Fi設定の変更
+### Wi-Fi設定を変更する
 
-1. 上部メニューから**Settings**を選択し、**Wi-Fi Settings**に移動します。
+1. 上部メニューで **Settings** を選択し、**Wi-Fi Settings** に移動します。
 
-    ![wifi settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.1-wifi-settings.png){class="glboxshadow"}
+   ![wifi settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.1-wifi-settings.png){class="glboxshadow"}
 
-2. SIMPoYo uFiのWi-Fiネットワーク名とパスワードをカスタマイズし、**Apply**をクリックします。
+2. SIMPoYo uFi の Wi-Fi 名とパスワードを変更し、**Apply** をクリックします。
 
-### APNの設定
+### APNを設定する
 
-SIMカードに手動でのAPN設定が必要な場合は、以下の手順に従ってください。
+SIMカードで手動のAPN設定が必要な場合は、以下の手順で設定します。
 
-1. 上部メニューから**Settings**を選択し、**Cellular Settings**に移動します。
+1. 上部メニューで **Settings** を選択し、**Cellular Settings** に移動します。
 
-    ![cellular settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.2-cellular-settings.png){class="glboxshadow"}
+   ![cellular settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.2-cellular-settings.png){class="glboxshadow"}
 
-2. **APN Mode**を**Manual**に切り替えます。
+2. **APN Mode** を **Manual** に切り替えます。
 
-3. モバイル通信事業者から提供された情報を入力し、**Apply**をクリックします。
+3. 通信事業者から提供された情報を入力し、**Apply** をクリックします。
 
-### ローミングの有効化
+### ローミングを有効にする
 
-ローミングにより、SIMカードは彼のに域/国でに元の通信業者と一緒に動作するため、から宅ネットワークから離れている間も接続を維持できます。
+ローミングを有効にすると、SIMカードは他の地域や国でも現地通信事業者のネットワークを利用できるため、ホームネットワークの圏外でも接続を維持できます。
 
-以下の手順に従ってローミングを有効にします。
+1. 上部メニューで **Settings** を選択し、**Roaming** に移動します。
 
-1. 上部メニューから**Settings**を選択し、**Roaming**に移動します。
+   ![roaming](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.3-roaming.png){class="glboxshadow"}
 
-    ![roaming](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.3-roaming.png){class="glboxshadow"}
+2. **Enable** を選択し、**Apply** をクリックします。
 
-2. **Enable**を選択し、**Apply**をクリックします。
+### PINコードを有効にする
 
-### PINコードの有効化
+PINコードは、SIMカードを保護するための短いセキュリティコードです。通常は4〜8桁で構成され、無断使用を防ぐためにSIMカードをロックします。SIMカードが盗難に遭ったり他の端末に挿し替えられたりした場合でも、PINコードがなければ有効化や利用ができません。
 
-PINコードはSIMカードの短い（通例4〜8桁の）セキュリティパスワードで、不正使用を防ぐためにカードをロックします。SIMが盗まれたり別の機器に入れられた場合、PINコードなしでは_activation または使用できません。
+1. 上部メニューで **Settings** を選択し、**PIN Settings** に移動します。
 
-以下の手順に従ってPINコードを有効にします。
+   ![pin settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.4-pin-settings.png){class="glboxshadow"}
 
-1. 上部メニューから**Settings**を選択し、**PIN Settings**に移動します。
+2. **Enable** を選択し、PINコードを設定して **Apply** をクリックします。
 
-    ![pin settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.4-pin-settings.png){class="glboxshadow"}
+### 管理者パスワードを変更する
 
-2. **Enable**を選択し、PINコードを設定して**Apply**をクリックします。
+デフォルトの管理者パスワードは Wi-Fi パスワードと同じです。セキュリティのため、初期設定時に変更することをおすすめします。
 
-### 管理者パスワードの変更
+1. 上部メニューで **Settings** を選択し、**Admin Settings** に移動します。
 
-デフォルトの管理者はWi-Fiパスワードと同じです。セキュリティのため、初期設定時に変更してください。
+   ![admin settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.5-admin-settings.png){class="glboxshadow"}
 
-1. 上部メニューから**Settings**を選択し、**Admin Settings**に移動します。
+2. 管理者パスワードとログインタイムアウトを設定し、**Apply** をクリックします。
 
-    ![admin settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.5-admin-settings.png){class="glboxshadow"}
-
-2. 管理者パスワードとログインタイムアウトをカスタマイズし、**Apply**をクリックします。
-
-3. SIMPoYo uFiをデフォルト設定にリセットしたい場合は、**Factory Default Setting**ボタンをクリックしてリセットします。
+3. 工場出荷時設定に戻す場合は、**Factory Default Setting** をクリックします。
 
 ### DHCP設定
 
-デフォルトでは、SIMPoYo uFiのIPアドレスは`192.168.1.1`で、DHCPサーバーが有効になって接続された機器にIPアドレスを割り当てています。
+デフォルトでは、SIMPoYo uFi の IP アドレスは `192.168.1.1` で、DHCPサーバーが有効になっており、接続した端末にIPアドレスを割り当てます。
 
-IPアドレスを変更またはDHCP設定をカスタマイズしたい場合は、以下の手順に従ってください。
+IPアドレスを変更したい場合やDHCP設定をカスタマイズしたい場合は、以下の手順に従ってください。
 
-1. 上部メニューから**Settings**を選択し、**Advanced** -> **DHCP**に移動します。
+1. 上部メニューで **Settings** を選択し、**Advanced** -> **DHCP** に移動します。
 
-    ![dhcp](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.6-dhcp.jpg){class="glboxshadow"}
+   ![dhcp](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.6-dhcp.jpg){class="glboxshadow"}
 
-2. 機器のIPアドレスの変更、DHCPサーバーの有効化/無効化、IP範囲とリース時間の設定ができます。DHCP設定を行い、**Apply**をクリックします。
+2. 端末のIPアドレス変更、DHCPサーバーの有効化または無効化、IP範囲、リース時間の設定ができます。設定後、**Apply** をクリックします。
 
 ### MACフィルター
 
-MACフィルターを使用すると、MUアドレスを管理してWLANにアクセスできる機器を制御でき、ネットワークのセキュリティを強化できます。
+MACフィルターを使用すると、MACアドレスでWLANへの接続可否を制御でき、ネットワークのセキュリティを高められます。
 
-MACフィルターはデフォルトで無効になっています。有効にする場合は、以下の手順に従ってください。
+MACフィルターはデフォルトで無効です。有効にする場合は以下の手順に従ってください。
 
-1. 上部メニューから**Settings**を選択し、**Advanced** -> **MAC Filter**に移動します。
+1. 上部メニューで **Settings** を選択し、**Advanced** -> **MAC Filter** に移動します。
 
-    ![mac filter](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.6-mac-filter-1.png){class="glboxshadow"}
+   ![mac filter](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.6-mac-filter-1.png){class="glboxshadow"}
 
-    上部の**User list**には接続された機器の詳細が表示されます。制御したい機器がリストにあるか確認します。ない場合は、SIMPoYo uFiのWi-Fiに再接続してください。
+   上部の **User list** には接続中の端末情報が表示されます。制御したい端末が一覧に表示されているか確認してください。表示されていない場合は、SIMPoYo uFi の Wi-Fi に再接続してください。
 
-2. **MAC Filter Mode**を**Black List** / **White List**に切り替えます。
+2. **MAC Filter Mode** を **Black List** または **White List** に切り替えます。
 
-    ![mac filter](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.6-mac-filter-2.png){class="glboxshadow"}
+   ![mac filter](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.6-mac-filter-2.png){class="glboxshadow"}
 
-3. ブロック/許可したい機器のMACアドレスをリストにコピーし、**Apply**をクリックします。
+3. ブロックまたは許可したい端末の MAC アドレスをリストに追加し、**Apply** をクリックします。
 
 ### アップグレード
 
-1. 上部メニューから**Upgrade**を選択し、**Device Info**に移動すると、SIMPoYo uFiの機器情報が表示されます：
+1. 上部メニューで **Upgrade** を選択し、**Device Info** に移動すると、SIMPoYo uFi の端末情報を確認できます。
+   - ハードウェア情報（ハードウェアバージョン、MACアドレス、IMEI、ICCID）
+   - ソフトウェア情報（ソフトウェアバージョン）
+   - WebUI情報（WebUIバージョン）
 
-    - ハードウェア情報（ハードウェアバージョン、MACアドレス、IMEI、ICCID）
-    - ソフトウェア情報（ソフトウェアバージョン）
-    - WebUI情報（WebUIバージョン）
+   ![upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/4.1-upgrade.jpg){class="glboxshadow"}
 
-    ![upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/4.1-upgrade.jpg){class="glboxshadow"}
-    
-2. ソフトウェアバージョンをアップグレードできます。
+2. 新しいバージョンがあれば、ソフトウェアをアップグレードできます。
 
-    左サイドバーから**Online Update**に切り替え、**Check New Update**ボタンをクリックして新しいバージョンが利用可能か確認します。
+   左側のサイドバーで **Online Update** に切り替え、**Check New Update** をクリックすると、新しいバージョンがあるか確認できます。
 
-    ![online upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/4.2-online-update.png){class="glboxshadow"}
+   ![online upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/4.2-online-update.png){class="glboxshadow"}
 
-    または、左サイドバーから**Local Update**に切り替え、ファイルをアップロードして**Apply**をクリックして手動でアップグレードします。
+   または、左側のサイドバーで **Local Update** に切り替え、ファイルをアップロードして **Apply** をクリックすると、手動アップグレードが行えます。
 
-    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/4.3-local-update.png){class="glboxshadow"}
+   ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/4.3-local-update.png){class="glboxshadow"}
 
-## アクセサリーガイド
+## 付属アクセサリー
 
-パッケージには以下のアクセサリーが含まれています：
+パッケージには以下のアクセサリーが含まれています。
 
-- **1 USB-C to USB-A adapter cable**：SIMPoYo uFiをUSB Type-Cインターフェースのみを持つ機器（ノートパソコンなど）に差し込むのに适しています。
+- **1 USB-C to USB-A adapter cable**: USB Type-C ポートしかない端末（ノートPCなど）に SIMPoYo uFi を接続する際に使用します。
 
-- **1 USB-A to USB-A adapter cable**：SIMPoYo uFiをUSBポート（コンピュータやUSB電源など）に灵活に接続できます。SIMPoYo uFiの原生ポートとターゲットポートとの直接接触を避け、衝撃による金属インターフェースの損傷を防ぐのに役立ちます。
+- **1 USB-A to USB-A adapter cable**: コンピューターやUSB電源などのUSBポートへ、SIMPoYo uFi を柔軟に接続できます。本体ポートと接続先ポートが直接ぶつかるのを避けられるため、衝撃による金属端子の損傷防止にも役立ちます。
 
-- **1 SIM eject tool (pin)**：SIMカードを機器（スマートフォンなど）から取り出してSIMPoYo uFiにインストールしたり、必要に応じてuFiのリセットピンホールを押すために使用します。
+- **1 SIM eject tool (a pin)**: スマートフォンなどからSIMカードを取り出して SIMPoYo uFi に装着する際、または必要に応じて uFi のリセット用ピンホールを押す際に使用します。
 
 ---
 
-ご不明な時がございましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="\_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="\_blank"}をご覧ください。

@@ -6,6 +6,10 @@ on:
       - master
   workflow_dispatch:
 
+concurrency:
+  group: docs-build-deploy
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -37,6 +41,7 @@ jobs:
           ssh-key: ${{ secrets.DEPLOY_KEY }}
           path: docs-build
           clean: true
+          fetch-depth: 0
 
       - name: Deploy English to docs-build
         run: |
@@ -58,6 +63,7 @@ jobs:
           git add -A
           if [ -n "$(git diff --cached --name-only)" ]; then
             git commit -m "docs4 build: $(git log -1 --format='%H')"
+            git pull --rebase origin master
             git push
             echo "✅ Deployed successfully"
           else

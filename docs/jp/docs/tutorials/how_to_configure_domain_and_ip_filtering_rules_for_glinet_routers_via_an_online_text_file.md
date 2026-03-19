@@ -1,45 +1,45 @@
-# GL.iNetルー器のドメインとIPフィルタリングルールをオンラインテキストファイルで構成する方法
+# GL.iNet ルーターのドメイン / IP フィルタリングルールをオンラインテキストファイルで設定する方法
 
-ファームウェアv4.7.0で降、VPN機能の「VPN Policy Based on the Target Domain or IP」と保護者へけコントロール機能の「Add a New Ruleset」はオンラインテキストファイルへのリンクからのルールのインポートをサポートします。このでは、このテキストファイルの形式を紹介します。
+ファームウェア v4.7.0 以降では、VPN 機能の「VPN Policy Based on the Target Domain or IP」と、Parental Control 機能の「Add a New Ruleset」が、オンラインテキストファイルへのリンクからルールをインポートできるようになっています。この記事では、そのテキストファイルの形式を紹介します。
 
 ## URL形式の説明
 
 ### 対応および非対応のURL形式
 
-- テキストファイル対応ファイル形式：.txt、.conf、.logなど
-- 非対応ファイル形式：.exe、.zip、.jpgなどのバイナリファイル
+- 対応するテキストファイル形式: `.txt`、`.conf`、`.log` など
+- 非対応のファイル形式: `.exe`、`.zip`、`.jpg` などのバイナリファイル
 
 ### GitHubを使用したテキストファイルのホスティング
 
-テキストファイルをパブリックGitHubリポジトリでホスティングしている場合は、通例のGitHub URLではなく生のコンテンツURLを使用するようにしてください。
+テキストファイルを公開 GitHub リポジトリでホストしている場合は、通常の GitHub URL ではなく raw content URL を使用してください。
 
 例えば、以下のGitHub URLは生のコンテンツではなくWebコンテンツを指しています：
 
 `https://github.com/SecOps-Institute/FacebookIPLists/blob/master/facebook_ipv4_cidr_blocks.lst`
 
-ルー器が正しいコンテンツをダウンロードできるようにするには、以下の形式で生のコンテンツURLを使用してください：
+ルーターが正しい内容をダウンロードできるようにするには、以下の形式の raw content URL を使用してください:
 
 `https://raw.githubusercontent.com/SecOps-Institute/FacebookIPLists/master/facebook_ipv4_cidr_blocks.lst`
 
-これ样することで、ルー器はファイルのプレーンテキストコンテンツを取なければならないできるようになります。
+これにより、ルーターはファイルのプレーンテキスト内容を取得できるようになります。
 
 ## ターゲットドメインまたはIPに基づくVPNポリシーのフィルタ形式
 
 「VPN Policy Based on the Target Domain or IP」機能は、オンラインテキストファイルで以下のフィルタ形式をサポートします：
 
-* ドメイン名形式： `netflix.com`などのドメイン名を使用して、`netflix.com`のすべてのサブドメインにマッチさせます。
-* サブドメイン形式： `www.netflix.com`などの完全なサブドメインを指定して、特定のサブドメインのみにマッチさせます。
-* CIDR形式： `192.168.10.0/24`などのCIDR表記を使用してIPアドレス範囲を指定します。
-* IPv4アドレス形式： `192.168.10.10`などの個々のIPv4アドレスを指定します。
+- ドメイン名形式: `netflix.com` のようなドメイン名を使うと、`netflix.com` のすべてのサブドメインに一致します。
+- サブドメイン形式: `www.netflix.com` のように完全なサブドメインを指定すると、その特定のサブドメインのみに一致します。
+- CIDR 形式: `192.168.10.0/24` のような CIDR 表記で IP アドレス範囲を指定できます。
+- IPv4 アドレス形式: `192.168.10.10` のような個別の IPv4 アドレスを指定できます。
 
-## 保護者へけコントロールの新しいルールセットのフィルタ形式
+## Parental Control の Add a New Ruleset に対応するフィルタ形式
 
-保護者へけコントロールの「Add a New Ruleset」機能は、オンラインテキストファイルで以下のフィルタ形式をサポートします：
+Parental Control の「Add a New Ruleset」機能では、オンラインテキストファイルで以下のフィルタ形式をサポートします:
 
-* ドメイン名形式： `instagram.com`などのドメイン名を使用して、`instagram.com`のすべてのサブドメインにマッチさせます。
-* サブドメイン形式： `www.instagram.com`などの完全なサブドメインを指定して、特定のサブドメインのみにマッチさせます。
+- ドメイン名形式: `instagram.com` のようなドメイン名を使うと、`instagram.com` のすべてのサブドメインに一致します。
+- サブドメイン形式: `www.instagram.com` のように完全なサブドメインを指定すると、その特定のサブドメインのみに一致します。
 
-オンラインテキストファイルを作成する場合、行ごとに1つのフィルタを使用します。ルーターは各行を指定された形式に従って処理し、関連するルールをVPNまたは保護者へけコントロール機能に適用します。
+オンラインテキストファイルを作成する際は、1 行につき 1 つのフィルタを記述してください。ルーターは各行を指定された形式に従って処理し、対応するルールを VPN または Parental Control 機能に適用します。
 
 ## 例
 
@@ -52,7 +52,7 @@ www.hulu.com
 192.168.10.10
 ```
 
-「Parental Control Add a New Ruleset」の場合：
+「Parental Control Add a New Ruleset」の場合:
 
 ```
 instagram.com
@@ -61,8 +61,8 @@ x.com
 snapchat
 ```
 
-これらのフィルタ形式に従うことで、ルー器のVPNと保護者へけコントロール機能を構成するためのオンラインテキストファイルを簡単に作成してメンテナンスできます。
+これらの形式に従うことで、ルーターの VPN および Parental Control 機能向けのオンラインテキストファイルを簡単に作成し、維持管理できます。
 
 ---
 
-ご不明な時がございましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+まだご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="\_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="\_blank"} をご利用ください。

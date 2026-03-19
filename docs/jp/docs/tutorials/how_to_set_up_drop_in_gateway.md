@@ -1,163 +1,157 @@
-# GL.iNetルーターでドロップインゲートウェイを設定する方法
+# GL.iNetルーターでDrop-in Gatewayを設定する方法
 
-GL.iNetは、AdGuard Home、暗号化されたDNS、VPNなど、プライマリルーターにない機能を追加するドロップインゲートウェイ機能を提供しています。この機能を使用することで、プライマリルーターを通例通り使用しながら追加の機能を楽しむことができます。
+GL.iNetはDrop-in Gateway機能を提供しており、AdGuard Home、暗号化DNS、VPNなど、メインルーターにはない機能を追加できます。この機能を使えば、メインルーターはそのまま利用しながら、追加機能だけをGL.iNetルーター側で利用できます。
 
-ドロップインゲートウェイをプライマリルーターに接続された[すべてのデバイス](#すべてのデバイスに対してドロップインゲートウェイを有効にする)または[特定のデバイス](#特定のデバイスに対してドロップインゲートウェイを有効にする)に対して有効にすることができます。適切なセクションに従って設定を行ってください。
+Drop-in Gatewayは、メインルーターに接続されている[すべてのデバイス](#すべてのデバイスでdrop-in-gatewayを有効にする)または[特定のデバイス](#特定のデバイスでdrop-in-gatewayを有効にする)に対して有効にできます。利用したい構成に合わせて該当する手順を実行してください。
+
+**Note**: ファームウェアが v4.5.0 未満のモデルでは、Drop-in Gatewayを有効にできるのはすべてのデバイスに対してのみです。Drop-in Gatewayを有効にすると、接続中のすべてのクライアントデバイスの通信はまずこのルーターを経由して処理されます。
 
 ---
 
-## すべてのデバイスに対してドロップインゲートウェイを有効にする
+## すべてのデバイスでDrop-in Gatewayを有効にする
 
 ### 1. GL.iNetルーターをメインルーターに接続する
 
-GL.iNetルーターのWANポートをメインルーターのLANポートにイーサネットケーブルで接続します。
+GL.iNetルーターのWANポートを、メインルーターのLANポートにイーサネットケーブルで接続します。
 
-### 2. ドロップインゲートウェイモードを有効にする
-ドロップインゲートウェイモードを有効にする方法は2つあります：[ルーター管理パネルを通じて](#ルーター管理パネルを通じて)または[GL.iNetモバイルアプリを通じて](#glinetモバイルアプリを通じて)。
+### 2. Drop-in Gatewayを有効にする
 
-#### ルーター管理パネルを通じて
+Drop-in Gatewayを有効にする方法は2通りあります。ルーターの管理画面を使う方法と、GL.iNetモバイルアプリを使う方法です。
 
-1. Webブラウザーで192.168.8.1と入力します。  
-2. パスワードを入力して、**ログイン**をクリックします。
-3. 左側のサイドバーで、**ネットワーク** > **ドロップインゲートウェイ**をクリックします。
-![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
+??? "Using web admin panel"
 
-4. **ドロップインゲートウェイモードを有効にする**の隣にあるスイッチをオンにします。
-5. **すべてのデバイスがドロップインゲートウェイを通じてネットワークに接続される**を選択します。
-![click all devices](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/select-all-devices.jpeg){class="glboxshadow"}
+    1. Webブラウザーで `192.168.8.1` を開きます。
 
-6. **適用**をクリックします。
+    2. パスワードを入力し、**Login** をクリックします。
 
-#### GL.iNetモバイルアプリを通じて
+    3. 左側のサイドバーで **Network** > **Drop-in Gateway** をクリックします。
 
-**注:** 始める前に、デバイスにGL.iNetモバイルアプリをインストールして設定してください。
+        ![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
 
-1. メインアプリ画面で、**システム**タブ > **ドロップインゲートウェイ**をタップします。
-![tap drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
+    4. **Enable Drop-in Gateway Mode** の横にあるスイッチをオンにします。
 
-2. **有効にする**をタップします。
-3. **デバイスがドロップインゲートウェイを介してネットワークに接続される**のために、**すべて**をタップします。
-![tap all](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-all.jpeg){class="glboxshadow"}
-4. **完た**をタップします。
+    5. **All devices are networked through drop-in gateway** を選択します。
+
+        ![click all devices](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/select-all-devices.jpeg){class="glboxshadow"}
+
+    6. **Apply** をクリックします。
+
+??? "Using GL.iNet mobile app"
+
+    **Note:** 開始前に、端末へGL.iNetモバイルアプリをインストールしてください。
+
+    1. アプリのメイン画面で **System** タブ > **Drop-in Gateway** をタップします。
+
+        ![tap drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
+
+    2. **Enable** をタップします。
+
+    3. **Devices are networked via drop-in gateway** で **All** をタップします。
+
+        ![tap all](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-all.jpeg){class="glboxshadow"}
+
+    4. **Done** をタップします。
 
 ### 3. メインルーターのDHCPサーバーを無効にする
-特定のルーターでDHCPサーバーを無効にする方法については、ルーターメーカーが提供する指示を参照してください。
 
-### 4. AdGuard、DNS、VPN、およびその彼の機能を設定する
+メインルーターにログインして、DHCPサーバーを無効にしてください。設定方法はルーターメーカーの案内を参照するか、メーカーサポートへお問い合わせください。
 
-GL.iNetルーターで機能を有効にする方法については、以下の記事を参照してください：
+### 4. AdGuard、DNS、VPNなどの機能を設定する
 
-* [AdGuard Home](https://docs.gl-inet.com/router/en/4/interface_guide/adguardhome/){target="_blank"}
-* [暗号化DNS](https://docs.gl-inet.com/router/en/4/interface_guide/dns/){target="_blank"}
-* [ペアレンタル・コントロール](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control/){target="_blank"}
-* [WireGaurd クライアント](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/){target="_blank"}
-* [OpenVPN クライアント](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/){target="_blank"}
+GL.iNetルーターで利用したい機能に応じて、以下のガイドを参照してください。
+
+- [AdGuard Home](../interface_guide/adguardhome.md){target="\_blank"}
+- [暗号化DNS](../interface_guide/dns.md){target="\_blank"}
+- [ペアレンタルコントロール](../interface_guide/parental_control.md){target="\_blank"}
+- [WireGaurd Client](../interface_guide/wireguard_client.md){target="\_blank"}
+- [OpenVPN Client](../interface_guide/openvpn_client.md){target="\_blank"}
 
 ---
 
-## 特定のデバイスに対してドロップインゲートウェイを有効にする
+## 特定のデバイスでDrop-in Gatewayを有効にする
 
 ### 1. GL.iNetルーターをメインルーターに接続する
-GL.iNetルーターのWANポートをメインルーターのLANポートにイーサネットケーブルで接続します。
 
-### 2. ドロップインゲートウェイモードを有効にする
-ドロップインゲートウェイモードを有効にする方法は2つあります：[ルーター管理パネルを通じて](#specific-devices-admin)または[GL.iNetモバイルアプリを通じて](#specific-devices-mobile)。
+GL.iNetルーターのWANポートを、メインルーターのLANポートにイーサネットケーブルで接続します。
 
-#### ルーター管理パネルを通じて {#specific-devices-admin}
+### 2. Drop-in Gatewayを有効にする
 
-1. Webブラウザーで192.168.8.1と入力します。
-2. パスワードを入力して、**ログイン**をクリックします。
-3. 左側のサイドバーで、**ネットワーク** > **ドロップインゲートウェイ**をクリックします。
-![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
-4. **ドロップインゲートウェイモードを有効にする**の隣にあるスイッチをオンにします。
-5. **一部のデバイスが独からのネットワーキングゲートウェイを選択する**を選択します。
-![click some devices](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/select-some-devices.jpeg){class="glboxshadow"}
+Drop-in Gatewayを有効にする方法は2通りあります。ルーターの管理画面を使う方法と、GL.iNetモバイルアプリを使う方法です。
 
-6. **適用**をクリックします。
+??? "Using web admin panel"
 
-**注:** このタブを閉じないでください。次のステップで表示されるIPアドレスを入力する必要があります。
+    1. Webブラウザーで `192.168.8.1` を開きます。
 
-#### GL.iNetモバイルアプリを通じて {#specific-devices-mobile}
+    2. パスワードを入力し、**Login** をクリックします。
 
-**注:** 始める前に、デバイスにGL.iNetモバイルアプリをインストールして設定してください。
+    3. 左側のサイドバーで **Network** > **Drop-in Gateway** をクリックします。
 
-1. メインアプリ画面で、**システム**タブ > **ドロップインゲートウェイ**をタップします。
-![tap drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
-2. **有効にする**をタップします。
-3. **デバイスがドロップインゲートウェイを介してネットワークに接続される**のために、**一部**をタップします。
-![tap part](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-part.jpeg){class="glboxshadow"}
-4. **完た**をタップします。
+        ![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
 
-**注:** このタブを閉じないでください。次のステップで表示されるIPアドレスを入力する必要があります。
+    4. **Enable Drop-in Gateway Mode** の横にあるスイッチをオンにします。
 
-### 3. デバイスでゲートウェイとDNSを設定する
+    5. **Some devices select their own networking gateway** を選択します。
 
-??? "Windows"
-    1. デバイスをメインルーターに接続します。
-    2. Windowsで、**設定** > **ネットワークとインターネット**を開きます。
-    3. 接続方法に基づいて、以下の手順に従います: 
-        * Ethernet: **Ethernet**をクリックします。
-        * Wi-Fi: **Wi-Fi**をクリックし、Wi-Fiネットワーク名をクリックします。
-    4. IPv4アドレスをコピーします。**IP割り当て**の隣にある**編集**をクリックします。
-    5. **手動**をクリックします。
-    6. **IPv4**をオンに切り替えます。
-    7. 以下の情報を入力します:
-        * **IPアドレス:** ステップ4でコピーしたIPアドレスを貼り付けます。
-        * **サブネットマスク:** **255.255.255.0**と入力します。
-        * **ゲートウェイ:** **ドロップインゲートウェイ**ページに表示されるIPアドレスを入力します。
-        * **優先DNS:** **ドロップインゲートウェイ**ページに表示されるIPアドレスを入力します。
-    8. **保存**をクリックします。
+        ![click some devices](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/select-some-devices.jpeg){class="glboxshadow"}
 
-??? "Android"
-    1. デバイスをメインルーターに接続します。
-    2. Androidで、**設定** を開きます。
-    3. **接続** > **Wi-Fi** をタップします。
-    4. 接続しているネットワークの **設定** アイコンをタップします。
-    5. **詳細を表示** をタップします。
-    6. **IP設定** > **静の** をタップします。
-    7. **ゲートウェイ** と **DNS 1** に **ドロップインゲートウェイ** 画面に表示されるIPアドレスを入力します。
-    8. **保存** をタップします。
+    6. **Apply** をクリックします。
 
-??? "iOS"
-    1. デバイスをメインルーターに接続します。
-    2. iOSで、**設定** を開きます。
-    3. **Wi-Fi** をタップします。
-    4. 接続しているWi-Fiネットワークをタップします。
-    5. **IPv4アドレス** の下で **IPアドレス** と **サブネットマスク** を記録します。
-    6. **IPを構成** > **手動** をタップします。
-    7. 次の情報を入力します：
-        * **IPアドレス**：ステップ5で取なければならないしたIPアドレスを入力します。
-        * **サブネットマスク**：ステップ5で取なければならないしたサブネットマスクを入力します。
-        * **ルーター**：**ドロップインゲートウェイ** 画面に表示されるIPアドレスを入力します。
-    8. **保存** をタップします。
-    9. **DNSを構成** をタップし、**手動** をタップします。
-    10. **サーバーを追加** をタップし、**ドロップインゲートウェイ** 画面に表示されるIPアドレスを入力します。
-    11. **保存** をタップします。
+    **Note:** このタブは閉じないでください。次の手順で、画面に表示されるIPアドレスを入力する必要があります。
 
-??? "Mac"
-    1. デバイスをメインルーターに接続します。
-    2. Macで、Appleアイコン > **システム設定** をクリックします。
-    3. 左のサイドバーで **ネットワーク** をクリックします。
-    4. 接続しているネットワークの横で **詳細** をクリックします。
-    5. **TCP/IP** をクリックします。
-    6. **IPアドレス** と **サブネットマスク** を記録します。
-    7. **IPv4を構成** の横で **手動** をクリックします。
-    8. 次の情報を入力します：
-        * **IPアドレス**：ステップ5で取なければならないしたIPアドレスを入力します。
-        * **サブネットマスク**：ステップ5で取なければならないしたサブネットマスクを入力します。
-        * **ルーター**：**ドロップインゲートウェイ** ページに表示されるIPアドレスを入力します。
-    9. **OK** > **OK** をクリックします。
+??? "Using GL.iNet mobile app"
 
-### 4. AdGuard、DNS、VPN、その彼の機能を設定する
+    **Note:** 開始前に、端末へGL.iNetモバイルアプリをインストールしてください。
 
-GL.iNetルーターで機能を有効にするには、以下の記事を参照してください：
+    1. アプリのメイン画面で **System** タブ > **Drop-in Gateway** をタップします。
 
-* [AdGuard Home](https://docs.gl-inet.com/router/en/4/interface_guide/adguardhome/){target="_blank"}
-* [暗号化されたDNS](https://docs.gl-inet.com/router/en/4/interface_guide/dns/){target="_blank"}
-* [ペアレンタルコントロール](https://docs.gl-inet.com/router/en/4/interface_guide/parental_control/){target="_blank"}
-* [WireGuardクライアント](https://docs.gl-inet.com/router/en/4/interface_guide/wireguard_client/){target="_blank"}
-* [OpenVPNクライアント](https://docs.gl-inet.com/router/en/4/interface_guide/openvpn_client/){target="_blank"}
+        ![tap drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
+
+    2. **Enable** をタップします。
+
+    3. **Devices are networked via drop-in gateway** で **part** をタップします。
+
+        ![tap part](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-part.jpeg){class="glboxshadow"}
+
+    4. **Done** をタップします。
+
+    **Note:** このタブは閉じないでください。次の手順で、画面に表示されるIPアドレスを入力する必要があります。
+
+### 3. 特定のデバイスでゲートウェイとDNSを設定する
+
+??? "Windows" 1. デバイスをメインルーターに接続します。2. Windowsで **Settings** > **Network & Internet** を開きます。3. 接続方法に応じて、以下のいずれかを選択します。
+_ Ethernet: **Ethernet** をクリックします。
+_ Wi-Fi: **Wi-Fi** をクリックし、接続中のWi-Fi名をクリックします。4. IPv4アドレスをコピーします。続いて **IP assignment** の横にある **Edit** をクリックします。5. **Manual** をクリックします。6. **IPv4** をオンにします。7. 以下の情報を入力します。
+_ **IP address:** 手順4でコピーしたIPアドレスを貼り付けます。
+_ **Subnet mask:** `255.255.255.0` を入力します。
+_ **Gateway:** **Drop-in Gateway** ページに表示されているIPアドレスを入力します。
+_ **Preferred DNS:** **Drop-in Gateway** ページに表示されているIPアドレスを入力します。8. **Save** をクリックします。
+
+??? "Android" 1. デバイスをメインルーターに接続します。2. Androidで **Settings** を開きます。3. **Connections** > **Wi-Fi** をタップします。4. 接続中のネットワークの横にある **Settings** アイコンをタップします。5. **View more** をタップします。6. **IP settings** > **Static** をタップします。7. **Gateway** と **DNS 1** に、**Drop-in Gateway** 画面に表示されているIPアドレスを入力します。8. **Save** をタップします。
+
+??? "iOS" 1. デバイスをメインルーターに接続します。2. iOSで **Settings** を開きます。3. **Wi-Fi** をタップします。4. 接続中のWi-Fiネットワークをタップします。5. **IPv4 Address** の項目で、**IP Address** と **Subnet Mask** を控えます。6. **Configure IP** > **Manual** をタップします。7. 以下の情報を入力します。
+_ **IP Address:** 手順5で控えたIP Addressを入力します。
+_ **Subnet Mask:** 手順5で控えたSubnet Maskを入力します。\* **Router:** **Drop-in Gateway** 画面に表示されているIPアドレスを入力します。8. **Save** をタップします。9. **Configure DNS** をタップし、**Manual** をタップします。10. **Add Server** をタップし、**Drop-in Gateway** 画面に表示されているIPアドレスを入力します。11. **Save** をタップします。
+
+??? "Mac" 1. デバイスをメインルーターに接続します。2. MacでAppleアイコン > **System Settings** をクリックします。3. 左側のサイドバーで **Network** をクリックします。4. 接続中のネットワークの横にある **Details** をクリックします。5. **TCP/IP** をクリックします。6. **IP Address** と **Subnet Mask** を控えます。7. **Configure IPv4** の横で **Manually** をクリックします。8. 以下の情報を入力します。
+_ **IP address:** 手順6で控えたIP Addressを入力します。
+_ **Subnet mask:** 手順6で控えたSubnet Maskを入力します。\* **Router:** **Drop-in Gateway** ページに表示されているIPアドレスを入力します。9. **OK** > **OK** をクリックします。
+
+### 4. AdGuard、DNS、VPNなどの機能を設定する
+
+GL.iNetルーターで利用したい機能に応じて、以下のガイドを参照してください。
+
+- [AdGuard Home](../interface_guide/adguardhome.md){target="\_blank"}
+- [暗号化DNS](../interface_guide/dns.md){target="\_blank"}
+- [ペアレンタルコントロール](../interface_guide/parental_control.md){target="\_blank"}
+- [WireGaurd Client](../interface_guide/wireguard_client.md){target="\_blank"}
+- [OpenVPN Client](../interface_guide/openvpn_client.md){target="\_blank"}
 
 ---
 
-まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}を訪問してください。
+関連記事:
+
+- [Drop-in Gateway](../interface_guide/drop-in_gateway.md)
+
+---
+
+ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="\_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="\_blank"} からお問い合わせください。

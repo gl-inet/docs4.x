@@ -219,6 +219,7 @@ nav:
           - OpenVPN クライアントに固定 IP を予約する: tutorials/reserve_fixed_IP_for_ovpn_client.md
           - VPN クライアント有効時に WAN アクセスを許可する: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
           - VPN クライアント DNS をサーバー上流 DNS にルーティングする: tutorials/route_vpn_client_dns_to_server_upstream_dns.md
+          - OpenVPN サーバー証明書を更新する: tutorials/how_to_update_openvpn_server_certificates.md
       - セルラー:
           - SMS 転送: tutorials/sms_forwarding.md
           - モジュールログを取得する: tutorials/get_module_logs.md

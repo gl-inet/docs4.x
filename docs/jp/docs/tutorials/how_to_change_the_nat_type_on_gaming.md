@@ -1,54 +1,53 @@
 # ゲームでNATタイプを変更する方法
 
-ほとんどのゲーム開発者は、より好のなNATタイプを取なければならないするためにルー器でUPnPを有効にするように求めますが、UPnPは安全でないプロトコルであることが研究で示されています。
+多くのゲームメーカーは、より良い NAT タイプを得るためにルーターで UPnP を有効にするよう案内しています。しかし、UPnP は安全性の低いプロトコルであることが知られています。
 
-より安全な方法で、DMZまたはポート転送の機能を使用して同じ目のを達成できます。
+より安全な方法として、DMZ またはポート転送を使って同じ目的を達成できます。
 
-## ゲームのIPを確認
+## ゲーム機のIPアドレスを確認する
 
-クライアントリストに移動し、ゲームに割り当てられたIPを確認します。このIPアドレスを以下の設定で使用する必要があります。
+クライアント一覧を開き、ゲーム機に割り当てられている IP アドレスを確認します。以下の設定ではこの IP アドレスを使います。
 
 ![gameip](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/gameip.png){class="glboxshadow"}
 
-## 方法1 DMZ
+## 方法1: DMZ
 
-サイドバー**Network > Port Forwarding**に移動し、ゲームIPでDMZを有効にします。
+サイドバーで **Network > Port Forwarding** に移動し、ゲーム機の IP アドレスを指定して DMZ を有効にします。
 
 ![dmz](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/dmzgame.png){class="glboxshadow"}
 
-## 方法2 ポート転送
+## 方法2: ポート転送
 
-サイドバー**Network > Port Forwarding**に移動し、ゲームIPで必要なポートを追加します。
+サイドバーで **Network > Port Forwarding** に移動し、ゲーム機の IP アドレスに対して必要なポートを追加します。
 
 ![inputport](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/inputport.png){class="glboxshadow"}
 
-例：PS5のポート
+例: PS5 のポート
 
 UDP 3074, 3478-3479
 
 TCP 1935, 3478-3480
 
-
 ![ps5port](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/ps5port.png){class="glboxshadow"}
 
-Xboxポート
+Xbox のポート
 
 UDP 88, 3074
 
 TCP 3074
 
-一部のゲームでは彼のポートを転送する必要がある場合の詳細については、この Web サイトを参照してください。
+ゲームによっては別のポートを転送する必要がある場合があります。詳しくは以下のサイトを参照してください。
 
 [Port forward on different Games](https://portforward.com/games/)
 
 ## Full Cone NAT
 
-遅延を改善するには、**Network > NAT Settings**でFull Cone NATを有効にできます。
+遅延を改善したい場合は、**Network > NAT Settings** で Full Cone NAT を有効にできます。
 
 ![conenat](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/conenat.png){class="glboxshadow"}
 
-* この機能はファームウェア4.5で上で利用可能です。
+- この機能はファームウェア 4.5 以降で利用できます。
 
 ---
 
-ご不明な時がございましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="\_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="\_blank"}をご覧ください。

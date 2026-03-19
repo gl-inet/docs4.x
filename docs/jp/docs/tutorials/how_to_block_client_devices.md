@@ -1,82 +1,82 @@
 # GL.iNetルーターで特定のクライアントデバイスをブロックする方法
 
-このチュートリアルでは、GL.iNetルーターで特定のクライアントデバイスをブロックする方法を説明します。クライアントデバイスをブロックすることで、ネットワークへの不正アクセスを防止できます。これにより、ネットワークのセキュリティを強化したり、家族のインターネットアクセスを管理したりすることができます。
+このチュートリアルでは、GL.iNetルーターで特定のクライアントデバイスをブロックする方法を説明します。クライアントデバイスをブロックすると、ネットワークへの不正アクセスを防止できます。これにより、ネットワークのセキュリティ向上や、家族のインターネット利用管理に役立ちます。
 
-GL.iNetルーターは、MACアドレス（ネットワーク上の個々のデバイスに割り当てられた一意の12文字の識別子）に基づいてクライアントデバイスをブロックします。この方法はMACアドレスフィルタリングとも呼ばれます。
+GL.iNetルーターでは、MACアドレスをもとにクライアントデバイスをブロックします。MACアドレスは、ネットワーク上の各デバイスに割り当てられた12文字の固有識別子です。この方式はMACアドレスフィルタリングとも呼ばれます。
 
-GL.iNetルーターでクライアントデバイスをブロックする方法は2つあります：[ルーター管理パネル](#ルーター管理パネルからクライアントデバイスをブロックする)または[GL.iNetモバイルアプリ](#glinetモバイルアプリからクライアントデバイスをブロックする)を使用する方法です。
+クライアントデバイスをブロックする方法は2つあります。ルーターの[管理画面](#管理画面からクライアントデバイスをブロックする)を使う方法と、[GL.iNetモバイルアプリ](#glinetモバイルアプリからクライアントデバイスをブロックする)を使う方法です。
 
-## ルーター管理パネルからクライアントデバイスをブロックする
+## 管理画面からクライアントデバイスをブロックする
 
-### 1. 管理パネルにサインインする
+### 1. 管理画面にサインインする
 
-ウェブブラウザに「192.168.8.1」と入力します。パスワードを入力し、**ログイン**をクリックします。
+Webブラウザーで `192.168.8.1` を開きます。パスワードを入力し、**Login** をクリックします。
 
 ### 2. クライアントデバイスをブロックする
 
-MACアドレスの有無に応じて、クライアントデバイスをブロックする方法は2つあります：
+MACアドレスを把握しているかどうかによって、手順が異なります。
 
-* MACアドレスがない場合: [最も初の方法](#方法1-macアドレスなしでデバイスをブロックする)を使用して、リストに表示されるデバイスをブロックします。
-* MACアドレスがある場合: [第二の方法](#方法2-macアドレスを使用してデバイスをブロックする)を使用します。
+- MACアドレスがわからない場合: [方法1](#方法1-macアドレスがわからないデバイスをブロックする)を使うと、一覧に表示されているデバイスをブロックできます。
+- MACアドレスがわかっている場合: [方法2](#方法2-macアドレスがわかっているデバイスをブロックする)を使います。
 
-#### 方法1: MACアドレスなしでデバイスをブロックする
+#### 方法1: MACアドレスがわからないデバイスをブロックする
 
-1. 左側のサイドバーで**クライアント**をクリックします。
-![クライアントをクリック](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-clients.jpeg){class="glboxshadow"}
+1. 左側のサイドバーで **Clients** をクリックします。
+   ![click clients](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-clients.jpeg){class="glboxshadow"}
 
-2. デバイスの横にあるスイッチをオンに切り替えます。
-![スイッチを切り替え](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/toggle-block.jpeg){class="glboxshadow"}
+2. 対象デバイスの横にあるスイッチをオンにします。
+   ![toggle switch](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/toggle-block.jpeg){class="glboxshadow"}
 
-リストにブロックしたいデバイスが表示されない場合は、[MACアドレスをブロックリストに追加してブロック](#方法2-macアドレスを使用してデバイスをブロックする)する必要があります。
+一覧にブロックしたいデバイスが表示されない場合は、[MACアドレスをブロックリストへ追加する方法](#方法2-macアドレスがわかっているデバイスをブロックする)を使用してください。
 
-#### 方法2: MACアドレスを使用してデバイスをブロックする
+#### 方法2: MACアドレスがわかっているデバイスをブロックする
 
-この方法を使用するには、デバイスのMACアドレスを取なければならないする必要があります。デバイスの製造元が提供する指示を参照してください。
-デバイスのMACアドレスを取なければならないしたら、次の手順に従います：
+この方法では、ブロックしたいデバイスのMACアドレスが必要です。確認方法は、デバイスメーカーが案内している手順を参照してください。
+MACアドレスを確認したら、次の手順を実行します。
 
-1. 左側のサイドバーで**クライアント**をクリックします。
-2. 上部で**ブロックリスト**をクリックします。
-![ブロックリストをクリック](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-blocklist.jpeg){class="glboxshadow"}
-3. 次のいずれかの方法でデバイスをブロックします：
-    - MACアドレスを個別に入力する場合: 空のフィールドに入力します。
-    - MACアドレスのリストをインポートする場合: **クライアントのインポート**をクリックし、ファイルをインポートしてから**インポート**をクリックします。
-4. **適用する**をクリックします。
-![適用をクリック](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-apply.jpeg){class="glboxshadow"}
+1. 左側のサイドバーで **Clients** をクリックします。
+2. 上部で **Blocklist** をクリックします。
+   ![click blocklist](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-blocklist.jpeg){class="glboxshadow"}
+3. 次のいずれかの方法でデバイスをブロックします。
+   - MACアドレスを個別に入力する場合: 空欄にMACアドレスを入力します。
+   - MACアドレスの一覧をインポートする場合: **Import Clients** をクリックし、ファイルを読み込んでから **Import** をクリックします。
+4. **Apply** をクリックします。
+   ![click apply](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-apply.jpeg){class="glboxshadow"}
 
 ## GL.iNetモバイルアプリからクライアントデバイスをブロックする
 
-**注意:** 始める前に、デバイスに GL.iNet モバイル アプリをインストールして設定してください。
+**Note:** 開始前に、端末へGL.iNetモバイルアプリをインストールし、初期設定を済ませてください。
 
-クライアントデバイスをブロックする方法は、MACアドレスの有無に応じて2つあります：
+MACアドレスを把握しているかどうかによって、手順が異なります。
 
-* MACアドレスがない場合: リストに表示されるデバイスをブロックできる[最も初の方法](#mobile-1)を使用します。
-* MACアドレスがある場合: [第二の方法](#mobile-2)を使用します。
+- MACアドレスがわからない場合: [方法1](#mobile-1)を使うと、一覧に表示されているデバイスをブロックできます。
+- MACアドレスがわかっている場合: [方法2](#mobile-2)を使います。
 
-### 方法1: MACアドレスなしでデバイスをブロックする {#mobile-1}
+### 方法1: MACアドレスがわからないデバイスをブロックする {#mobile-1}
 
-1. メインアプリ画面で、**接続されたクライアント**または**オフィスクライアント**の下にあるブロックしたいデバイスをタップします。
-![デバイスをタップ](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-a-device.jpeg){class="glboxshadow"}
+1. アプリのメイン画面で、**Connected Clients** または **Office Clients** の一覧から、ブロックしたいデバイスをタップします。
+   ![tap a device](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-a-device.jpeg){class="glboxshadow"}
 
-2. **設定**の下で、**ブロック**スイッチをオンに切り替えます。
-![ブロックスイッチを切り替え](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/settings-toggle-block-to-on.jpeg){class="glboxshadow"}
+2. **Settings** 内にある **Block** スイッチをオンにします。
+   ![toggle block](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/settings-toggle-block-to-on.jpeg){class="glboxshadow"}
 
-リストにブロックしたいデバイスが表示されない場合は、[MACアドレスをブロックリストに追加してブロック](#mobile-2)する必要があります。
+一覧にブロックしたいデバイスが表示されない場合は、[MACアドレスを使ってブロックリストへ追加する方法](#mobile-2)を使用してください。
 
-### 方法2: MACアドレスを使用してデバイスをブロックする {#mobile-2}
+### 方法2: MACアドレスがわかっているデバイスをブロックする {#mobile-2}
 
-この方法を使用するには、ブロックしたいデバイスのMACアドレスを取なければならないする必要があります。デバイスの製造元が提供する指示を参照してください。
-デバイスのMACアドレスを取なければならないしたら、次の手順に従います：
+この方法では、ブロックしたいデバイスのMACアドレスが必要です。確認方法は、デバイスメーカーが案内している手順を参照してください。
+MACアドレスを確認したら、次の手順を実行します。
 
-1. メインアプリ画面で、設定アイコン > **アクセス制御**をタップします。
-![アクセスコントロールをタップ](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-access-control.jpeg){class="glboxshadow"}
+1. アプリのメイン画面で、設定アイコン > **Access Control** をタップします。
+   ![tap access control](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-access-control.jpeg){class="glboxshadow"}
 
-2. **ブロック**をタップします。
-![ブロックをタップ](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-block.jpeg){class="glboxshadow"}
+2. **Block** をタップします。
+   ![tap block](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-block.jpeg){class="glboxshadow"}
 
-3. 次のいずれかの方法でデバイスをブロックします：
-    - MACアドレスを個別に入力する場合: **MACアドレスを追加**をタップし、MACアドレスを入力して**完た**をタップします。
-    - MACアドレスのリストをインポートする場合: **クライアントのインポート** > **クライアントのインポート**をタップしてファイルを選択します。
+3. 次のいずれかの方法でデバイスをブロックします。
+   - MACアドレスを個別に入力する場合: **Add MAC address** をタップし、MACアドレスを入力して **Done** をタップします。
+   - MACアドレスの一覧をインポートする場合: **Import Clients** > **Import Clients** をタップし、ファイルを選択します。
 
 ---
 
-まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com)をご覧ください。
+ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="\_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="\_blank"} からお問い合わせください。

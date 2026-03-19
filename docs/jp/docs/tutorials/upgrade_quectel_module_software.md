@@ -1,131 +1,133 @@
-# Quectelモジュールソフトウェアのアップグレード
+# Quectelモジュールファームウェアをアップグレードする方法
 
-## コンピュータをデバイスに接続
+## 事前準備
 
-ラップトップのWi-Fiを使用してデバイスのSSIDに接続します（SSIDとWi-Fiパスワードはデバイスの底面ラベルに記載されています）。または、イーサネットケーブルを使用してデバイスのLANポートとコンピュータのイーサネットポートを接続します。
+1. ルーターがインターネットへ接続できる状態であることを確認します。
 
-## SSHプロトコルを使用してデバイスにログイン
+2. コンピューターまたはノートPCを、Wi-Fiまたはイーサネットケーブルでルーターへ接続します。
 
-こちらのリンクを参照してください: [https://docs.gl-inet.com/router/en/3/tutorials/ssh/](https://docs.gl-inet.com/router/en/3/tutorials/ssh/)
+## アップグレード手順
 
-### GL-MiFi/GL-XE300/GL-X750/GL-X300の場合
+### GL-X3000 / GL-XE3000 の場合
 
-1. GL.iNetサーバーからQFirehoseを取なければならないし、QFirehoseファイルのSHA256が正しいことを確認します
+**方法1: GL.iNet GUI からアップグレードする**
 
-    以下のコマンドを使用してQFirehoseを取なければならないします
+1. このチュートリアルの末尾から、対応するモジュールファームウェアをダウンロードします。
 
-    ```
-    cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/QFirehose-ar9531-sha256-7383f4
-    ```
+2. ルーターのWeb管理画面にログインし、**SYSTEM** -> **Upgrade** -> **Module Local Upgrade** に移動して、モジュールファームウェア（`.zip` 形式）をアップロードします。
 
-    ``` 
-    chmod 775 QFirehose-ar9531-sha256-7383f4  && sha256sum QFirehose-ar9531-sha256-7383f4
-    ```
+   ![module local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/module_local_upgrade.png){class="glboxshadow"}
 
-    ![ar9531_get_QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/ar9531_get_QFirehose.png){class="glboxshadow"}
+**方法2: SSH からアップグレードする**
 
-2. USBフラッシュディスクを挿入し、dfコマンドを使用してマウントパスを取なければならないします。パスを覚えておいてください
+ここでは RM520N モジュールのアップグレードを例に説明します。
 
-    私のUSBフラッシュディスクのマウントパスは`/tmp/mountd/disk1_part1`です
+1. SSHでルーターへログインします。[こちら](ssh_log_in_to_the_router.md)を参照してください。
 
-    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/ar9531_u_flash_drive_path.png){class="glboxshadow"}
+2. 次のコマンドでモジュールファームウェアをダウンロードします。
 
-3. Quectelモジュールソフトウェアを取なければならないし、アップ圧縮します（例：EP06-A。彼のモジュールソフトウェアの場合は、文書の最も後の注意事項を参照してください）
+   ```
+   wget https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A03M4G_01.201.01.201.zip -P /
+   ```
 
-    `/tmp/mountd/disk1_part1`は私のUSBフラッシュディスクのパスです。あなたのパスに変更する必要があります
+   ![mtk7981a_get_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/download_firmware.png){class="glboxshadow"}
 
-    ```
-    wget https://fw.gl-inet.com/tools/quectel_module_software/EP06ALAR02A08M4G_01.004.01.004.zip -P /tmp/mountd/disk1_part1/
-    ```
+3. 次のコマンドでモジュールファームウェアを展開します。
 
-    ![ar9531_get_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/ar9531_get_quectel_module_software.png){class="glboxshadow"}
+   ```
+   unzip /RM520NGLAAR03A03M4G_01.201.01.201.zip -d /RM520NGLAAR03A03M4G_01.201.01.201
+   ```
 
-    ```
-    unzip /tmp/mountd/disk1_part1/EP06ALAR02A08M4G_01.004.01.004.zip -d /tmp/mountd/disk1_part1/EP06ALAR02A08M4G_01.004.01.004
-    ```
+   ![mtk7981a_decompress_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/unzip_firmware.png){class="glboxshadow"}
 
-    ![ar9531_upcompress_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/ar9531_upcompress_quectel_module_software.png){class="glboxshadow"}
+4. 次のように QFirehose コマンドを使ってモジュールファームウェアをアップグレードします。
 
-  4. QFirehoseを使用してQuectelモジュールソフトウェアをアップグレード
+   **Note**: `"/RM520NGLAAR03A03M4G_01.201.01.201"` は実際のモジュールファームウェアフォルダーのパスに置き換えてください。
 
-    ```sh
-    QFirehose-ar9531-sha256-7383f4 -f /tmp/mountd/disk1_part1/EP06ALAR02A08M4G_01.004.01.004
-    ```
+   ```
+   QFirehose-mtk7981a-sha256-c0b944 -f /RM520NGLAAR03A03M4G_01.201.01.201
+   ```
 
-    ![ar9531_upgrade_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/ar9531_upgrade_quectel_module_software.png){class="glboxshadow"}
+   ![mtk7981a_upgrade_via_qfirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/upgrade_via_qfirehose.png){class="glboxshadow"}
 
-5. 次のコマンドを使用してQuectelモジュールソフトウェアのバージョンを確認します。
+5. 数分待ちます。アップグレードが完了すると、システムに `Upgrade module successfully` と表示されます。
 
-    ```
-    gl_modem AT AT+QGMR
-    ```
+   ![mtk7981a_upgrade_success](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/upgrade_success.png){class="glboxshadow"}
 
-    ![ar9531_check_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/ar9531_check_quectel_module_software.png){class="glboxshadow"}
+6. ルーターを再起動し、再度SSHでルーターへログインします。
 
-### GL-X3000/GL-XE3000の場合
+7. 次のコマンドを実行し、モジュールのアップグレードが正常に完了したか再確認します。
 
-1. GL.iNetサーバーからQFirehoseを取なければならないし、QFirehoseファイルのSHA256が正しいことを確認します
+   ```
+   gl_modem -B 0001:01:00.0 AT AT+QGMR
+   ```
 
-    以下のコマンドを使用してQFirehoseを取なければならないします
+   ![mtk7981a_check_version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
 
-    ```
-    cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/QFirehose-mtk7981a-sha256-c0b944
-    ```
+### GL-MiFi / GL-XE300 / GL-X750 / GL-E750 の場合
 
-    ```
-    chmod 775 QFirehose-mtk7981a-sha256-c0b944  && sha256sum QFirehose-mtk7981a-sha256-c0b944
-    ```
+ここでは EM060K モジュールのアップグレードを例に説明します。
 
-    ![mtk7981a_get_QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/mtk7981a_get_QFirehose.png){class="glboxshadow"}
+1. USBメモリを用意します。このチュートリアルの末尾から対応するモジュールファームウェアをUSBメモリにダウンロードし、`.zip` ファイルを展開してUSBドライブのルートディレクトリへ配置します。
 
-2. Quectelモジュールソフトウェアを取なければならないし、アップ圧縮します（例：RM520。彼のモジュールソフトウェアの場合は、文書の最も後の注意事項を参照してください）
+2. USBメモリをルーターに接続します。その後、[こちら](ssh_log_in_to_the_router.md)を参照してSSHでルーターへログインします。
 
-    ```
-    wget https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip -P /
-    ```
+3. `df - h` コマンドを入力し、USBドライブのマウントパスを確認して控えます。
 
-    ![mtk7981a_get_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/mtk7981a_get_quectel_module_software.png){class="glboxshadow"}
+   ![check mounting path](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_mounting_path.png){class="glboxshadow"}
 
-    ```
-    unzip /RM520NGLAAR01A07M4G_01.201.01.201.zip -d /RM520NGLAAR01A07M4G_01.201.01.201
-    ```
+4. `ls -l` コマンドを入力し、モジュールファームウェアのフォルダー名を確認します。
 
-    ![mtk7981a_upcompress_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/mtk7981a_upcompress_quectel_module_software.png){class="glboxshadow"}
+   ![check firmware folder](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_firmware_folder.png){class="glboxshadow"}
 
-3. QFirehoseを使用してQuectelモジュールソフトウェアをアップグレード
+5. 次のコマンドでGL.iNetサーバーからQFirehoseを取得します。
 
-    ```
-    QFirehose-mtk7981a-sha256-c0b944 -f /RM520NGLAAR01A07M4G_01.201.01.201
-    ```
+   ```
+   cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/QFirehose-ar9531
+   ```
 
-    ![mtk7981a_upgrade_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/mtk7981a_upgrade_quectel_module_software.png){class="glboxshadow"}
+   続いて、実行権限を付与します。
 
-4. 次のコマンドを使用してQuectelモジュールのソフトウェアバージョンを確認します。
+   ```
+   chmod 775 /usr/bin/QFirehose-ar9531
+   ```
 
-    ```
-    echo 1 > /sys/devices/platform/11280000.pcie/pci0001:00/0001:00:00.0/0001:01:00.0/remove
-    ```
+   ![obtain QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/obtain_qfirehose.jpg){class="glboxshadow"}
 
-    ```
-    echo 1 > /sys/devices/platform/11280000.pcie/pci0001:00/0001:00:00.0/rescan
-    ```
+6. 次のように QFirehose コマンドを使ってモジュールファームウェアをアップグレードします。
 
-    ```
-    gl_modem AT AT+QGMR
-    ```
+   **Note**: `"/mnt/sdb1/EM060KGLAAR01A12M2GA"` は実際のモジュールファームウェアフォルダーのパスに置き換えてください。
 
-    ```
-    rm /RM520NGLAAR01A07M4G_01.201.01.201* -rf
-    ```
+   ```
+   /usr/bin/QFirehose-ar9531 -f /mnt/sdb1/EM060KGLAAR01A12M2GA
+   ```
 
-    ![mtk7981a_check_quectel_module_software](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/mtk7981a_check_quectel_module_software.png){class="glboxshadow"}
+   ![upgrade via QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/upgrade_via_qfirehose.png){class="glboxshadow"}
 
-### QuectelモジュールソフトウェアのダウンロードURL
+7. 数分待ちます。アップグレードが完了すると、システムに `Upgrade module successfully` と表示されます。
 
-EP06-A: [https://fw.gl-inet.com/tools/quectel_module_software/EP06ALAR02A08M4G_01.004.01.004.zip](https://fw.gl-inet.com/tools/quectel_module_software/EP06ALAR02A08M4G_01.004.01.004.zip)
+   ![upgrade_success](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/upgrade_success.png){class="glboxshadow"}
 
-RM520: [https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip](https://fw.gl-inet.com/tools/quectel_module_software/RM520NGLAAR01A07M4G_01.201.01.201.zip)
+8. ルーターを再起動し、再度SSHでルーターへログインします。
+
+9. 次のコマンドを実行し、モジュールのアップグレードが正常に完了したか再確認します。
+
+   ```
+   gl_modem AT AT+QGMR
+   ```
+
+   ![check module version](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
+
+## QuectelモジュールファームウェアのダウンロードURL
+
+EP06-A: [https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip](https://fw.gl-inet.com/download/EP06A-modem-firmware/EP06ALAR02A08M4G_01.009.01.009.zip)
+
+EP06-E: [https://fw.gl-inet.com/download/EP06E-modem-firmware/EP06ELAR04A22M4G.zip](https://fw.gl-inet.com/download/EP06E-modem-firmware/EP06ELAR04A22M4G.zip)
+
+EM060K: [https://fw.gl-inet.com/download/EM060K-modem-firmware/EM060KGLAAR01A12M2GA.zip](https://fw.gl-inet.com/download/EM060K-modem-firmware/EM060KGLAAR01A12M2GA.zip)
+
+RM520N-GL_AA: [https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A04M4G_01.202.01.202.zip](https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A04M4G_01.202.01.202.zip)
 
 ---
 
-まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}を訪問してください。
+ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="\_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="\_blank"} からお問い合わせください。

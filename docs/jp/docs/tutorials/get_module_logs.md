@@ -1,115 +1,121 @@
-# モジュールログの取なければならない
+# モジュールログを取得する方法
 
-一部のGL.iNetルーターには、内蔵の3G、4G、または5Gモジュールが搭載されています。ネットワーク接続がスムーズでない場合、モジュールのログをエクスポートして分析する必要があるかもしれません。以下にその手順を示します。
+一部のGL.iNetルーターには、3G/4G/5Gモジュールが内蔵されています。ネットワーク接続が不安定な場合は、分析のためにモジュールログをエクスポートする必要があります。
 
-## デバイスにコンピュータを接続する
+以下に、セルラーモジュールのログをエクスポートする手順を示します。
 
-ラップトップのWi-Fiを使用してデバイスのSSIDに接続します（SSIDとWi-Fiパスワードはデバイスの底面ラベルに記載されています）、またはイーサネットケーブルを使用してデバイスのLANポートとコンピュータのイーサネットポートに接続します。
+## 1. コンピューターをルーターに接続する
 
-## SSHプロトコルを使用してデバイスにログインする
+ノートPCをルーターのWi-Fiに接続します。SSIDとパスワードは本体底面ラベルで確認できます。あるいは、イーサネットケーブルでコンピューターのイーサネットポートとルーターのLANポートを接続してください。
 
-こちらのリンクを参照してください: [https://docs.gl-inet.com/router/en/3/tutorials/ssh/](https://docs.gl-inet.com/router/en/3/tutorials/ssh/)
+## 2. SSHでルーターにログインする
 
-## GL-XE300/GL-X750/GL-X300の場合
+[こちら](ssh_log_in_to_the_router.md)を参照してください。
 
-### GL.iNetサーバーからqlogを取なければならないし、qlogファイルのSHA256が正しいことを確認する
+## 3. モジュールログを取得する
 
-以下のコマンドを使用してqlogを取なければならないします
+### GL-XE300 / GL-X750 / GL-X300 の場合
 
-```
-cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/qlog-ar9531-sha256-75fe8b
-```
+1. 次のコマンドを使ってGL.iNetサーバーからqlogを取得し、qlogファイルのSHA256が正しいことを確認します。
 
-```
-chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
-```
+   ```
+   cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/qlog-ar9531-sha256-75fe8b
+   ```
 
-![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_get_qlog.png){class="glboxshadow"}
+   ```
+   chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
+   ```
 
-### qlogの使用
+   ![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_get_qlog.png){class="glboxshadow"}
 
-1. USBフラッシュディスクを挿入し、dfコマンドを使用してマウントパスを取なければならないし、そのパスを覚えておきます
+2. USBメモリを挿入し、`df` コマンドでマウントパスを確認して控えておきます。
 
-    私のUSBフラッシュディスクのマウントパスは `/tmp/mountd/disk1_part1` です
+   私のUSBメモリのマウントパスは `/tmp/mountd/disk1_part1` です。
 
-    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_u_flash_drive_path.png){class="glboxshadow"}
+   ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_u_flash_drive_path.png){class="glboxshadow"}
 
-2. 以下のコマンドを使用してモジュールデバッグモードを開きます
+3. 次のコマンドでモジュールのデバッグモードを有効にします。
 
-    ```
-    gl_modem AT AT+QCFG=\"dbgctl\",0
-    ```
+   ```
+   gl_modem AT AT+QCFG=\"dbgctl\",0
+   ```
 
-3. 以下のコマンドを使用してqlogを起動します
+4. 次のコマンドでqlogを開始します。
 
-    ```
-    qlog-ar9531-sha256-75fe8b -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) & 
-    ```
+   ```
+   qlog-ar9531-sha256-75fe8b -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) &
+   ```
 
-    `/tmp/mountd/disk1_part1` は私のUSBフラッシュディスクです。パスはごから身のパスに変更してください。
+   `/tmp/mountd/disk1_part1` は私のUSBメモリのパスです。実際にはご自身のマウントパスへ変更してください。
 
-4. 以下のコマンドを使用してモデルを再起動します。
+5. 次のコマンドでモジュールを再起動します。
 
-    ```
-    gl_modem AT AT+CFUN=0; sleep 1; gl_modem AT AT+CFUN=1
-    ```
+   ```
+   gl_modem AT AT+CFUN=0; sleep 1; gl_modem AT AT+CFUN=1
+   ```
 
-5. 1〜3分待ち、以下のコマンドを使用してqlogを停止します
+6. 1〜3分待ってから、次のコマンドでqlogを停止します。
 
-    ```
-    killall qlog*
-    ```
+   ```
+   ps  | grep qlog | grep -v grep | awk '{print $1}' | xargs kill -9
+   ```
 
-    ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_start_and_stop_qlog.png){class="glboxshadow"}
+   ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_start_and_stop_qlog.png){class="glboxshadow"}
 
-6. USBフラッシュディスクにディレクトリが見つかり、その中にいくつかのファイルが存にします。これらのファイルはqlogの取なければならないデータであり、Quectelツールを使用してデコードする必要があります。これらのファイルをGL.iNetまたはQuectelの技術サポートに送信してください。
+7. USBメモリ内にディレクトリが作成され、その中に複数のファイルが保存されます。これらはqlogで取得したデータで、Quectelのツールでデコードする必要があります。これらのファイルをGL.iNetまたはQuectelの技術サポートへ送付してください。
 
-    ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
+   ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
-## GL-X3000/GL-XE3000の場合
+### GL-X3000 / GL-XE3000 の場合
 
-1. USBフラッシュディスクを挿入し、dfコマンドを使用してマウントパスを取なければならないし、そのパスを覚えておきます
+1. USBメモリを挿入し、`df` コマンドでマウントパスを確認して控えておきます。
 
-    私のUSBフラッシュディスクのマウントパスは `/tmp/mountd/disk1_part1` です
+   私のUSBメモリのマウントパスは `/tmp/mountd/disk1_part1` です。
 
-    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_u_flash_drive_path.png){class="glboxshadow"}
+   ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_u_flash_drive_path.png){class="glboxshadow"}
 
-2. GL.iNetサーバーからqlogを取なければならないし、qlogファイルのsha256が正しいことを確認する
+2. GL.iNetサーバーからqlogを取得し、qlogファイルのSHA256が正しいことを確認します。
 
-    以下のコマンドを使用してqlogを取なければならないします
-    
-    ```
-    cd /etc/ && wget https://fw.gl-inet.com/tools/quectel_tool/default_v15.cfg
-    ```
-    
-    ```
-    cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/qlog-mtk7981a-sha256-78dda4
-    ```
+   次のコマンドでqlogを取得します。
 
-    ```
-    chmod 775 qlog-mtk7981a-sha256-78dda4  && sha256sum qlog-mtk7981a-sha256-78dda4 && sha256sum /etc/default_v15.cfg
-    ```
+   ```
+   cd /etc/ && wget https://fw.gl-inet.com/tools/quectel_tool/default_v15.cfg
+   ```
 
-    ![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_get_qlog.png){class="glboxshadow"}
+   ```
+   cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/qlog-mtk7981a-sha256-78dda4
+   ```
 
-3. 以下のコマンドを使用してqlogを起動します
+   ```
+   chmod 775 qlog-mtk7981a-sha256-78dda4  && sha256sum qlog-mtk7981a-sha256-78dda4 && sha256sum /etc/default_v15.cfg
+   ```
 
-    ```
-    qlog-mtk7981a-sha256-78dda4 -f /etc/default_v15.cfg -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) & 
-    ```
+   ![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_get_qlog.png){class="glboxshadow"}
 
-4. qlogでパケットをキャプチャした後、以下のコマンドを使用してqlogを停止します
+3. 次のコマンドでqlogを開始します。
 
-    ```
-    killall qlog*
-    ```
+   ```
+   qlog-mtk7981a-sha256-78dda4 -f /etc/default_v15.cfg -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) &
+   ```
 
-    ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_start_and_stop_qlog.png){class="glboxshadow"}
+4. 次のコマンドでモジュールを再起動します。
 
-5. USBフラッシュディスクにディレクトリが見つかり、その中にいくつかのファイルが存にします。これらのファイルはqlogの取なければならないデータであり、Quectelツールを使用してデコードする必要があります。これらのファイルをGL.iNetまたはQuectelの技術サポートに送信してください。
+   ```
+   gl_modem -B 0001:01:00.0 SAT sp AT+CFUN=0; sleep 1; gl_modem -B 0001:01:00.0 SAT sp AT+CFUN=1
+   ```
 
-    ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_qlogs_files.png){class="glboxshadow"}
+5. qlogでパケットを取得した後、次のコマンドでqlogを停止します。
+
+   ```
+   ps  | grep qlog | grep -v grep | awk '{print $1}' | xargs kill -9
+   ```
+
+   ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_start_and_stop_qlog.png){class="glboxshadow"}
+
+6. USBメモリ内にディレクトリが作成され、その中に複数のファイルが保存されます。これらはqlogで取得したデータで、Quectelのツールでデコードする必要があります。これらのファイルをGL.iNetまたはQuectelの技術サポートへ送付してください。
+
+   ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_qlogs_files.png){class="glboxshadow"}
 
 ---
 
-まだ質問がありますか？私たちの[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="\_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="\_blank"} からお問い合わせください。

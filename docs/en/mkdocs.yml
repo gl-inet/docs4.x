@@ -197,6 +197,7 @@ nav:
       - How to Block Non-VPN Traffic: faq/block_non_vpn_traffic.md
       - VPN Kill Switch: faq/block_non_vpn_traffic.md
       - TCP or UDP: faq/openvpn_tcp_udp.md
+      - AmneziaWG Obfuscation Parameters: faq/amnezia_obfuscation_parameters.md
       - Do I have to configure Ethernet WAN when using VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Upgrade:
       - Download firmware: faq/how_to_download_firmware.md

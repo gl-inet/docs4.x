@@ -2,7 +2,7 @@
 
 This repository is the source code for documentation of GL.iNet routers firmware 4.x
 
-## Environment 
+## Environment
 
 Build by [mkdocs](https://www.mkdocs.org/) 1.5.3, with theme [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) 9.4.6
 
@@ -106,32 +106,3 @@ Reference:
 [Setting up versioning](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/)
 
 [https://squidfunk.github.io/mkdocs-material-example-versioning/](https://squidfunk.github.io/mkdocs-material-example-versioning/)
-
-## Jenkins integration
-
-```
-# go to docs-build path to get latest git commit
-# incase some guys build on their computer
-cd /root/docs-build/
-git reset --hard HEAD
-git pull
-# activate virtualenv
-cd /root/docs-venv/
-. ./bin/activate
-# git pull latest commit
-cd docs4.x
-git checkout master
-git reset --hard HEAD
-git pull
-# build docs to /root/docs-build/router/en/4/
-mkdocs build
-# deactivate virtualenv
-deactivate
-echo "finish building"
-#
-cd /root/docs-build/
-git add .
-git commit -m "docs4 build"
-git push
-echo "done"
-```

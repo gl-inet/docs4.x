@@ -30,10 +30,10 @@ jobs:
         lang: ${{ fromJSON(needs.prepare.outputs.langs_json) }}
     steps:
       - name: Checkout docs4.x
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.10.4"
 
@@ -46,7 +46,7 @@ jobs:
         run: mkdocs build --site-dir ../../site/${{ matrix.lang }}
 
       - name: Upload ${{ matrix.lang }} artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: site-${{ matrix.lang }}
           path: site/${{ matrix.lang }}
@@ -59,13 +59,13 @@ jobs:
       - build
     steps:
       - name: Download built site artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           pattern: site-*
           path: site
 
       - name: Checkout docs-build
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: gl-inet/docs-build
           ssh-key: ${{ secrets.DEPLOY_KEY }}

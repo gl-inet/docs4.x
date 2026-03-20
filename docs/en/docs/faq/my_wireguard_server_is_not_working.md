@@ -117,7 +117,7 @@ If you encounter issues, follow these troubleshooting steps based on your specif
     3. In the **Router IP address** field, enter a new LAN IP address (e.g., 192.168.10.1). 
     4. Click **Apply**. 
 
-    **Possible cause 4: The device you are using to connect to the WireGurad server is connected to its Wi-Fi network or its LAN port** 
+    **Possible cause 4: The device you are using to connect to the WireGuard server is connected to its Wi-Fi network or its LAN port** 
 
     Connect your device to a different Wi-Fi network or its cellular network. 
 

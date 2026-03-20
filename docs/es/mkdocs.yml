@@ -1,4 +1,3 @@
-# Repository
 repo_name: gl-inet/docs4.x
 repo_url: https://github.com/gl-inet/docs4.x
 edit_uri: ""
@@ -21,7 +20,6 @@ theme:
     - navigation.top
   favicon: https://static.gl-inet.com/docs/router/common/favicon.png
 
-# Plugins
 plugins:
   - search
   - redirects:
@@ -45,11 +43,7 @@ plugins:
         'tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md': 'tutorials/eap.md'
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
  
-# Customization
 extra:
-  # analytics:
-  #   provider: google
-  #   property: G-34T6Q5NL0V
   social:
     - icon: fontawesome/solid/globe
       link: https://www.gl-inet.com
@@ -94,9 +88,6 @@ extra_javascript:
   - javascripts/analytics.js
   - javascripts/extra.js
   - javascripts/cookieconsent.js
-
-
-
 
 markdown_extensions:
   - attr_list

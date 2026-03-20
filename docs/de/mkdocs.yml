@@ -1,4 +1,3 @@
-# Repository
 repo_name: gl-inet/docs4.x
 repo_url: https://github.com/gl-inet/docs4.x
 edit_uri: ""
@@ -19,22 +18,8 @@ theme:
     - navigation.indexes
     - navigation.tabs
     - navigation.top
-  # palette:
-  #   - scheme: default
-  #     primary: white
-  #     accent: indigo
-  #     toggle:
-  #       icon: material/toggle-switch-off-outline
-  #       name: Switch to dark mode
-  #   - scheme: slate
-  #     primary: cyan
-  #     accent: cyan
-  #     toggle:
-  #       icon: material/toggle-switch
-  #       name: Switch to light mode
   favicon: https://static.gl-inet.com/docs/router/common/favicon.png
 
-# Plugins
 plugins:
   - search
   - redirects:
@@ -103,9 +88,6 @@ extra_javascript:
   - javascripts/analytics.js
   - javascripts/extra.js
   - javascripts/cookieconsent.js
-
-
-
 
 markdown_extensions:
   - attr_list

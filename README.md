@@ -1,66 +1,127 @@
-# GL.iNet documentation
+# GL.iNet Documentation
 
-This repository is the source code for documentation of GL.iNet routers firmware 4.x
+This repository contains the source files for GL.iNet router firmware 4.x documentation.
+
+It is now a multilingual documentation repository. The current language sites in this repo are:
+
+- English: `docs/en/`
+- German: `docs/de/`
+- Spanish: `docs/es/`
+- Japanese: `docs/jp/`
+
+Each language has its own `mkdocs.yml`, `docs/`, and `overrides/` directory.
 
 ## Environment
 
-Build by [mkdocs](https://www.mkdocs.org/) 1.5.3, with theme [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) 9.4.6
+The documentation is built with [MkDocs](https://www.mkdocs.org/) 1.5.3 and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme 9.4.6.
 
 ## Installation
 
-Create a new python virtualenv
+Create a Python virtual environment:
 
-`python3 -m venv docs-venv`
+```bash
+python -m venv .venv
+```
 
-Activate the virtualenv, then
+Activate the virtual environment, then install dependencies:
 
-`pip install mkdocs-material` or `pip install mkdocs-material=="9.*" `
+```bash
+pip install -r requirements.txt
+```
 
-Or use the requirements.txt in the root of the project
+You can also install Material for MkDocs directly:
 
-`pip install -r requirements.txt`
+```bash
+pip install mkdocs-material
+```
 
-Refer: [https://squidfunk.github.io/mkdocs-material/getting-started/#with-pip](https://squidfunk.github.io/mkdocs-material/getting-started/#with-pip)
+Reference: [https://squidfunk.github.io/mkdocs-material/getting-started/#with-pip](https://squidfunk.github.io/mkdocs-material/getting-started/#with-pip)
+
+## Repository Structure
+
+The root `docs/` folder contains one MkDocs project per language:
+
+```text
+docs/
+  en/
+    mkdocs.yml
+    docs/
+    overrides/
+  de/
+    mkdocs.yml
+    docs/
+    overrides/
+  es/
+    mkdocs.yml
+    docs/
+    overrides/
+  jp/
+    mkdocs.yml
+    docs/
+    overrides/
+```
+
+In most cases, localized pages should mirror the corresponding English page path under `docs/en/docs/`.
+
+## Local Preview
+
+Run MkDocs against the language you want to preview.
+
+Examples:
+
+```bash
+mkdocs serve -f docs/en/mkdocs.yml
+mkdocs serve -f docs/de/mkdocs.yml
+mkdocs serve -f docs/es/mkdocs.yml
+mkdocs serve -f docs/jp/mkdocs.yml
+```
+
+If you are reviewing or translating localized content, open the English source page and the matching localized page side by side in VS Code.
 
 ## Online View
 
-Please view the docs online at [https://docs.gl-inet.com/router/en/4/](https://docs.gl-inet.com/router/en/4/)
+Published documentation:
 
-## Guide
+- English: [https://docs.gl-inet.com/router/en/4/](https://docs.gl-inet.com/router/en/4/)
+- German: [https://docs.gl-inet.com/router/de/4/](https://docs.gl-inet.com/router/de/4/)
+- Spanish: [https://docs.gl-inet.com/router/es/4/](https://docs.gl-inet.com/router/es/4/)
+- Japanese: [https://docs.gl-inet.com/router/jp/4/](https://docs.gl-inet.com/router/jp/4/)
 
-### Markdown syntax
+## Writing Guide
 
-Each page use markdown, please check out this basic syntax of markdown [here](https://www.markdownguide.org/basic-syntax/).
+### Markdown Syntax
 
-### Open in new tab
+All pages are written in Markdown. For basic syntax, see [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
 
-If you wanna a link to open in new tab, add `{target="_blank"}` at the end of link block.
+### Open a Link in a New Tab
 
-### Image file type
+To open a link in a new tab, add `{target="_blank"}` at the end of the link.
 
-Prefer to use png.
+### Image File Type
 
-### Image lightbox
+Prefer PNG unless there is a clear reason to use another format.
 
-If the size of image is too big, please use the PhotoSwipe, check out [here](#about-plugin-photoswipe).
+### Image Lightbox
 
-### Image size
+If an image is large, use PhotoSwipe. See [About PhotoSwipe](#about-photoswipe).
 
-Use `gl-50-desktop`, `gl-60-desktop`, `gl-70-desktop`,`gl-80-desktop`, `gl-90-desktop` to set the percentage of the image width on desktop browser.
+### Image Size
+
+Use `gl-50-desktop`, `gl-60-desktop`, `gl-70-desktop`, `gl-80-desktop`, or `gl-90-desktop` to control image width on desktop.
 
 Example:
 
 `![gl.inet enable vpn cascading](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/enable_vpn_cascading.png){class="gl-50-desktop"}`
 
-### Image shadow effect
+### Image Shadow Effect
 
-Use `{class="glboxshadow"}` to add shadow effect to the image.
+Use `{class="glboxshadow"}` to add a shadow to an image.
 
 Example:
 
 `![tap block](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-block.jpeg){class="glboxshadow"}`
 
-### Image captions
+### Image Captions
 
 ```html
 <figure>
@@ -69,23 +130,37 @@ Example:
 </figure>
 ```
 
-### Use relative path to link internal content
+### Internal Links
 
-```
+Use relative paths for internal links.
+
+```md
 [easytethering](../../../tutorials/tether)
 ```
 
-## About plugin PhotoSwipe
+## About PhotoSwipe
 
-Using the v4 version, v5 version looks better, but need to load js module. Don't know how to work it out in mkdocs.
+This project currently uses PhotoSwipe v4. Version 5 looks better, but it requires loading JavaScript modules and is not integrated here.
 
-Suggest to use PhotoSwipe when the width of image is large than 1021px.
+Use PhotoSwipe when the image width is larger than 1021 px.
 
-```
+```html
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/3/setup/gl-b2200/hardware/hardware_1.jpg" itemprop="contentUrl" data-size="3167x2480">
-      <img src="https://static.gl-inet.com/docs/router/en/3/setup/gl-b2200/hardware/hardware_1.jpg" itemprop="thumbnail" alt="gl-b2200 pcb pinout" />
+  <figure
+    itemprop="associatedMedia"
+    itemscope
+    itemtype="http://schema.org/ImageObject"
+  >
+    <a
+      href="https://static.gl-inet.com/docs/router/en/3/setup/gl-b2200/hardware/hardware_1.jpg"
+      itemprop="contentUrl"
+      data-size="3167x2480"
+    >
+      <img
+        src="https://static.gl-inet.com/docs/router/en/3/setup/gl-b2200/hardware/hardware_1.jpg"
+        itemprop="thumbnail"
+        alt="gl-b2200 pcb pinout"
+      />
     </a>
   </figure>
 </div>
@@ -93,16 +168,14 @@ Suggest to use PhotoSwipe when the width of image is large than 1021px.
 
 Reference:
 
-[https://photoswipe.com/documentation/getting-started.html](https://photoswipe.com/documentation/getting-started.html)
+- [https://photoswipe.com/documentation/getting-started.html](https://photoswipe.com/documentation/getting-started.html)
+- [https://codepen.io/dimsemenov/pen/ZYbPJM](https://codepen.io/dimsemenov/pen/ZYbPJM)
 
-[https://codepen.io/dimsemenov/pen/ZYbPJM](https://codepen.io/dimsemenov/pen/ZYbPJM)
+## About Versioning
 
-## About versoning
-
-There is a plugin named `mike` is for versoning, it need to deploy with Github Page, but I don't use Github Page, I just copy the file structure like `mike` does. Please check out [mkdocs-material-example-versioning](https://github.com/squidfunk/mkdocs-material-example-versioning), and switch to `gh-pages` branch.
+The `mike` plugin is designed for versioned MkDocs deployments, usually with GitHub Pages. This repository does not deploy with GitHub Pages, but it follows a similar output structure.
 
 Reference:
 
-[Setting up versioning](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/)
-
-[https://squidfunk.github.io/mkdocs-material-example-versioning/](https://squidfunk.github.io/mkdocs-material-example-versioning/)
+- [Setting up versioning](https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning/)
+- [mkdocs-material-example-versioning](https://github.com/squidfunk/mkdocs-material-example-versioning)

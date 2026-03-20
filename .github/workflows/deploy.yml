@@ -30,6 +30,14 @@ jobs:
         working-directory: docs/en
         run: mkdocs build --site-dir ../../site/en
 
+      - name: Build German
+        working-directory: docs/de
+        run: mkdocs build --site-dir ../../site/de
+
+      - name: Build Spanish
+        working-directory: docs/es
+        run: mkdocs build --site-dir ../../site/es
+
       - name: Build Japanese
         working-directory: docs/jp
         run: mkdocs build --site-dir ../../site/jp
@@ -48,6 +56,18 @@ jobs:
           rm -rf docs-build/router/en/4
           mkdir -p docs-build/router/en/4
           cp -r site/en/. docs-build/router/en/4/
+
+      - name: Deploy German to docs-build
+        run: |
+          rm -rf docs-build/router/de/4
+          mkdir -p docs-build/router/de/4
+          cp -r site/de/. docs-build/router/de/4/
+
+      - name: Deploy Spanish to docs-build
+        run: |
+          rm -rf docs-build/router/es/4
+          mkdir -p docs-build/router/es/4
+          cp -r site/es/. docs-build/router/es/4/
 
       - name: Deploy Japanese to docs-build
         run: |

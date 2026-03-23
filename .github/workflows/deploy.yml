@@ -11,14 +11,29 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  prepare:
     runs-on: ubuntu-latest
+    outputs:
+      langs_json: ${{ steps.langs.outputs.json }}
+    steps:
+      - name: Define document languages
+        id: langs
+        run: |
+          echo 'json=["en","de","es","jp"]' >> "$GITHUB_OUTPUT"
+
+  build:
+    runs-on: ubuntu-latest
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        lang: ${{ fromJSON(needs.prepare.outputs.langs_json) }}
     steps:
       - name: Checkout docs4.x
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.10.4"
 
@@ -26,16 +41,31 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Build English
-        working-directory: docs/en
-        run: mkdocs build --site-dir ../../site/en
+      - name: Build ${{ matrix.lang }}
+        working-directory: docs/${{ matrix.lang }}
+        run: mkdocs build --site-dir ../../site/${{ matrix.lang }}
 
-      - name: Build Japanese
-        working-directory: docs/jp
-        run: mkdocs build --site-dir ../../site/jp
+      - name: Upload ${{ matrix.lang }} artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: site-${{ matrix.lang }}
+          path: site/${{ matrix.lang }}
+          if-no-files-found: error
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs:
+      - prepare
+      - build
+    steps:
+      - name: Download built site artifacts
+        uses: actions/download-artifact@v8
+        with:
+          pattern: site-*
+          path: site
 
       - name: Checkout docs-build
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: gl-inet/docs-build
           ssh-key: ${{ secrets.DEPLOY_KEY }}
@@ -43,17 +73,13 @@ jobs:
           clean: true
           fetch-depth: 0
 
-      - name: Deploy English to docs-build
+      - name: Deploy built docs to docs-build
         run: |
-          rm -rf docs-build/router/en/4
-          mkdir -p docs-build/router/en/4
-          cp -r site/en/. docs-build/router/en/4/
-
-      - name: Deploy Japanese to docs-build
-        run: |
-          rm -rf docs-build/router/jp/4
-          mkdir -p docs-build/router/jp/4
-          cp -r site/jp/. docs-build/router/jp/4/
+          for lang in ${{ join(fromJSON(needs.prepare.outputs.langs_json), ' ') }}; do
+            rm -rf docs-build/router/$lang/4
+            mkdir -p docs-build/router/$lang/4
+            cp -r site/site-$lang/. docs-build/router/$lang/4/
+          done
 
       - name: Commit and Push to docs-build
         working-directory: ./docs-build

@@ -1,4 +1,3 @@
-# Repository
 repo_name: gl-inet/docs4.x
 repo_url: https://github.com/gl-inet/docs4.x
 edit_uri: ""
@@ -20,7 +19,6 @@ theme:
     - navigation.top
   favicon: https://static.gl-inet.com/docs/router/common/favicon.png
 
-# Plugins
 plugins:
   - search
   - redirects:
@@ -44,11 +42,7 @@ plugins:
         "tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md": "tutorials/how_to_use_the_esim_physical_card_with_android_devices.md"
         "tutorials/how_to_access_server_lan_device_via_domain_name.md": "tutorials/how_to_access_wgserver_lan_via_domain_name.md"
 
-# Customization
 extra:
-  # analytics:
-  #   provider: google
-  #   property: G-34T6Q5NL0V
   social:
     - icon: fontawesome/solid/globe
       link: https://www.gl-inet.com
@@ -70,7 +64,7 @@ extra:
     - name: English
       link: /router/en/4/
       lang: en
-    - name: Japanese
+    - name: 日本語
       link: /router/jp/4/
       lang: ja
 

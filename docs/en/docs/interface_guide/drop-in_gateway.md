@@ -34,7 +34,7 @@ There are two deployment modes for different application scenarios: All client d
 
 In the following example, the gateway address of the primary router is `192.168.1.1`.
 
-### All devices are networked through Drop-in Gateway
+### All devices are networked through Drop-in Gateway {all-devices-managed-by-the-drop-in-gateway}
 
 1. Connect the LAN port of the primary router to the WAN port of the GL.iNet router via an ethernet cable.
 
@@ -100,7 +100,7 @@ In the following example, the gateway address of the primary router is `192.168.
 
 4. Go back to the GL.iNet router and set up features like [AdGuard Home](adguardhome.md), [encrypted DNS](dns.md), [WireGuard Client](wireguard_client.md) and [OpenVPN Client](openvpn_client.md).
 
-### Specific devices are networked through Drop-in Gateway
+### Specific devices are networked through Drop-in Gateway {some-devices-managed-by-the-drop-in-gateway}
 
 1. Connect the LAN port of the primary router to the WAN port of the GL.iNet router via an ethernet cable.
 

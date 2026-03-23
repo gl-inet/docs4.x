@@ -22,7 +22,7 @@ If you have a NordVPN subscription, click **NordVPN** to log in; otherwise, clic
 
 ![openvpn client](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/openvpn_client_initial.png){class="glboxshadow"}
 
-## Set Up NordVPN
+## Set Up NordVPN {#set-up-nordvpn}
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is a popular online VPN service for speed and security.
 
@@ -142,7 +142,7 @@ If you have two GL.iNet routers, you may consider setting one as an OpenVPN serv
 
 For setting up OpenVPN server, please check [here](openvpn_server.md).
 
-## Get Configuration Files from OpenVPN Service Providers
+## Get Configuration Files from OpenVPN Service Providers {#get-configuration-files-from-openvpn-service-providers}
 
 We have tested 30+ OpenVPN service providers and documented the steps to obtain configuration files. If you are unsure how to get the configuration file, please refer to the steps below.
 

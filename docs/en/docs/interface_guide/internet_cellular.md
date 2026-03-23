@@ -474,7 +474,7 @@ If you fail to establish a cellular connection, click the error message below fo
 
     If the issue persists, download the logs and send them to [support@gl-inet.com](mailto:support@gl-inet.com).
 
-## IoT Certification
+## IoT Certification {#iot-certification}
 
 ### AT&T Certification
 

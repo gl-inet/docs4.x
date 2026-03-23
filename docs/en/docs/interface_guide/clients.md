@@ -68,7 +68,7 @@ You can assign reserved IP addresses to computers or servers that require perman
 
 ![reserved ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/reserved_ip.png){class="glboxshadow"}
 
-## Blocklist
+## Blocklist {#blocklist}
 
 In the sixth column, you can block specific connected devices with just one click. 
 

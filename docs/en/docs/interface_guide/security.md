@@ -52,7 +52,7 @@ It can prevent scanning and intrusion attempts on the default port and avoid net
 
 - **SSH Port**: Defaults to 22, the port used for SSH access to the router.
 
-### Prohibited Port
+### Prohibited Port {#prohibited-port}
 
 If you assign a port number that conflicts with a reserved port (or one reserved for specific services by browsers/network conventions), a prompt will appear stating "This port is forbidden by the browser".
 

@@ -4,8 +4,8 @@ This article will introduce how to set up your home router as the WireGuard VPN 
 
 Watch this video or refer to the steps below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v_DyRGicWco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(This video uses GL-BE9300 (Flint 3) and GL-BE3600 (Slate 7) to demonstrate the VPN setup.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7mJXA5MfMb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>(This video uses GL-MT5000 (Brume 3) and GL-MT3600BE (Beryl 7) to demonstrate the VPN setup.)</small>
 
 In the following steps, we take GL-MT6000 (Flint 2) and GL-MT3000 (Beryl AX) as examples:
 

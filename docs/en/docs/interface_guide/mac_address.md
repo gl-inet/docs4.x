@@ -1,16 +1,16 @@
 # MAC Address
 
 This guide applies to firmware v4.5 and earlier.
-    
-Since v4.6, the MAC address settings for Ethernet and Repeater interfaces have been migrated to the [Ethernet Port](ethernet_port.md) and the [Repeater](internet_repeater.md) page respectively.
+
+The MAC Address page was previously titled MAC Clone and has been renamed to MAC Address since v4.2.
+
+Since v4.6, the MAC address settings for Ethernet and Repeater interfaces have been moved to the [Ethernet Port](ethernet_port.md) and [Repeater](internet_repeater.md) respectively.
 
 ---
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **MAC Address**.
 
-The MAC Address page was previously called MAC Clone and has been changed to MAC Address since v4.2.
-
-On this page, you can find the router's default MAC address, clone a client's MAC address, enter a MAC address manually, or generate a random MAC address.
+You can find the router's default MAC address, clone a client's MAC address, enter a MAC address manually, or generate a random MAC address.
 
 If the device supports setting multiple Ethernet ports to be used as WAN ports, you can set the MAC address for each port separately. Note that the MAC address setting is only valid when the Ethernet port is used as a WAN port.
 

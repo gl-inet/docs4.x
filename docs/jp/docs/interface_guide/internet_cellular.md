@@ -474,7 +474,7 @@ ATコマンドページが表示されます。
 
     問題が解決しない場合は、ログをダウンロードして[support@gl-inet.com](mailto:support@gl-inet.com)にお送りください。
 
-## IoT認証
+## IoT認証 {#iot-certification}
 
 ### AT&T認証
 

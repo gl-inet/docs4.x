@@ -64,7 +64,7 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
 ![almacenamiento en red, disco detectado](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
 
-## Configurar Samba
+## Configurar Samba {#set-up-samba}
 
 1. Active **Enable Samba** y haga clic en **Apply**.
    - Allow Access Samba from WAN: Habilítelo si desea que los dispositivos de la red ascendente puedan acceder a Samba.
@@ -103,7 +103,7 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
 ---
 
-## Configurar WebDAV
+## Configurar WebDAV {#set-up-webdav}
 
 1. Active **Enable WebDAV** y haga clic en **Apply**.
    - Allow Access WebDAV from WAN: Habilítelo si desea que los dispositivos de la red ascendente puedan acceder a WebDAV.
@@ -146,7 +146,7 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
 ---
 
-## Configurar DLNA
+## Configurar DLNA {#set-up-dlna}
 
 Active **Enable DLNA** y haga clic en **Apply**.
 

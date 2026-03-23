@@ -4,8 +4,8 @@
 
 以下の動画を見るか、その下の手順を参照してください。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v_DyRGicWco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>この動画では、VPN設定の例として GL-BE9300 (Flint 3) と GL-BE3600 (Slate 7) を使用しています。</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7mJXA5MfMb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>この動画では、VPN設定の例として GL-MT5000 (Brume 3) と GL-MT3600BE (Beryl 7) を使用しています。</small>
 
 以下の手順では、GL-MT6000 (Flint 2) と GL-MT3000 (Beryl AX) を例に説明します。
 

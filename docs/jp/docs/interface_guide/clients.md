@@ -68,7 +68,7 @@ LAN内のクライアントに予約IPアドレスを指定すると、そのク
 
 ![reserved ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/reserved_ip.png){class="glboxshadow"}
 
-## ブロックリスト
+## ブロックリスト {#blocklist}
 
 6番目の列では、クリックだけで特定の接続済みデバイスをブロックできます。
 

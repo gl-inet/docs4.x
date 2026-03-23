@@ -4,8 +4,8 @@ Este artículo explica cómo configurar su router doméstico como servidor VPN W
 
 Vea este vídeo o siga los pasos indicados a continuación.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v_DyRGicWco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(Este vídeo usa GL-BE9300 (Flint 3) y GL-BE3600 (Slate 7) para demostrar la configuración de la VPN.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7mJXA5MfMb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>(Este vídeo usa GL-MT5000 (Brume 3) y GL-MT3600BE (Beryl 7) para demostrar la configuración de la VPN.)</small>
 
 En los siguientes pasos, tomamos como ejemplo GL-MT6000 (Flint 2) y GL-MT3000 (Beryl AX):
 

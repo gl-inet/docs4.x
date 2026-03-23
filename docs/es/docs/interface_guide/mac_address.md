@@ -2,13 +2,13 @@
 
 Esta guía se aplica al firmware v4.5 y anteriores.
 
+La página **MAC Address** se llamaba anteriormente **MAC Clone** y pasó a llamarse **MAC Address** desde la versión v4.2.
+
 Desde la versión v4.6, la configuración de dirección MAC para las interfaces Ethernet y Repeater se ha trasladado respectivamente a las páginas [Ethernet Port](ethernet_port.md) y [Repeater](internet_repeater.md).
 
 ---
 
 En el lado izquierdo del panel web de administración, vaya a **NETWORK** -> **MAC Address**.
-
-La página **MAC Address** se llamaba anteriormente **MAC Clone** y pasó a llamarse **MAC Address** desde la versión v4.2.
 
 En esta página, puede encontrar la dirección MAC predeterminada del router, clonar la dirección MAC de un cliente, introducir una dirección MAC manualmente o generar una dirección MAC aleatoria.
 

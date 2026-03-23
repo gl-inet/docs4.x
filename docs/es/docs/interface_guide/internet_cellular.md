@@ -474,7 +474,7 @@ Si no consigue establecer una conexión celular, haga clic en el mensaje de erro
 
     Si el problema persiste, descargue los registros y envíelos a [support@gl-inet.com](mailto:support@gl-inet.com).
 
-## Certificación IoT
+## Certificación IoT {#iot-certification}
 
 ### Certificación de AT&T
 

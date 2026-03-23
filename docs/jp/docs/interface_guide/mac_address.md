@@ -1,18 +1,18 @@
 # MACアドレス
 
-このガイドはファームウェアv4.5で前に当てはまります。
+このガイドはファームウェア v4.5 以前に適用されます。
 
-v4.6で降、イーサネットとリピーターインターフェースのMACアドレス設定はそれぞれ[ポート管理](ethernet_port.md)ページと[インターネット](internet_repeater.md)ページにに移行しました。
+MAC Address ページは以前は MAC Clone という名称で、v4.2 以降は MAC Address に変更されました。
+
+v4.6 以降、Ethernet と Repeater インターフェースの MAC アドレス設定は、それぞれ [Ethernet Port](ethernet_port.md) ページと [Repeater](internet_repeater.md) ページに移動しました。
 
 ---
 
-ウェブ管理パネルの左側 -> ネットワーク -> MACアドレス
+Web 管理画面の左側で **NETWORK** -> **MAC Address** に移動します。
 
-MACアドレスページはで前はMACクローン」と呼ばれていましたが、v4.2で降MACアドレス」に変更されました。
+このページでは、ルーターのデフォルト MAC アドレスの確認、クライアントの MAC アドレスのクローン、MAC アドレスの手動入力、ランダムな MAC アドレスの生成ができます。
 
-このページでは、ルーターのデフォルトMACアドレスを見つけ、クライアントのMACアドレスをクローンしたり、MACアドレスを手動で入力したり、ランダムなMACアドレスを生成したりできます。
-
-デバイスが複数のEthernetポートをWANポートとして使用するように設定することをサポートしている場合、各ポートのMACアドレスを個別に設定できます。MACアドレス設定は、EthernetポートがWANポートとして使用されている場合にのみ有効であることに注意してください。
+デバイスが複数の Ethernet ポートを WAN ポートとして使用できる場合は、各ポートごとに MAC アドレスを個別に設定できます。MAC アドレス設定は、その Ethernet ポートが WAN ポートとして使用されている場合にのみ有効です。
 
 ![default mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/mac_address.png){class="glboxshadow"}
 

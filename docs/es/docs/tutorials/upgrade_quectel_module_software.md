@@ -14,9 +14,9 @@
 
 1. Descargue el firmware del módulo correspondiente desde la parte inferior de este tutorial.
 
-2. Inicie sesión en el panel de administración web del router, vaya a **SYSTEM** -> **Upgrade** -> **Module Local Upgrade** y suba el firmware del módulo, en formato .zip.
+2. Inicie sesión en el panel de administración web del router, vaya a **SYSTEM** -> **Upgrade** -> **Modem Local Upgrade** y suba el firmware del módulo, en formato .zip.
 
-   ![module local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/module_local_upgrade.png){class="glboxshadow"}
+   ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
 **Método 2. Actualización mediante SSH**
 

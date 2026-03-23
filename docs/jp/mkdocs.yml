@@ -198,8 +198,8 @@ nav:
           - OpenVPN サーバーの設定: tutorials/how_to_set_up_openvpn_server.md
           - 2台のGL.iNetルーターで独自のWireGuardホームサーバーを構築: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
           - VPN 難読化の設定: tutorials/vpn_obfuscation.md
-          - NordVPN の専用 IP への接続: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
-          - Surfshark の専用 IP への接続: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
+          - NordVPN に Dedicated IP で接続する: tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
+          - Surfshark に Dedicated IP で接続する: tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md
           - Astrorelay 経由で OpenVPN サーバーを設定する: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
           - Astrorelay 経由で WireGuard サーバーを設定する: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
           - サーバーから OpenVPN クライアント LAN にアクセスする: tutorials/openvpn_server_access_client_lan_side.md

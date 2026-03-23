@@ -12,7 +12,7 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
 ![wireguard client no initialized](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/wireguard_client_no_initialized.png){class="glboxshadow"}
 
-## AzireVPNの設定
+## AzireVPNの設定 {#set-up-azirevpn}
 
 [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"}は、WireGuardのような安全で最も新かつ堅牢なトンネルを提供するプライバシー志へのVPNサービスです。
 
@@ -42,7 +42,7 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
 
     ![azirevpn edit credential](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/azirevpn_edit_credential.png){class="glboxshadow"}
 
-## Mullvadの設定
+## Mullvadの設定 {#set-up-mullvad}
 
 [Mullvad](https://mullvad.net/){target="_blank"}は、オンライン活動、身元、位置情報をプライベートに保つVPNサービスです。
 
@@ -95,7 +95,7 @@ AzireVPNまたはMullvadのメンバーシップがある場合は、**AzireVPN*
     ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_client/wgclient_delete_all_configuration_file.png){class="glboxshadow"}
 
 
-## WireGuardクライアントの設定
+## WireGuardクライアントの設定 {#set-up-wireguard-client-manually-for-other-providers}
 ファームウェア4.0で降では、WireGuardプロファイルを管理するためのグループ化機能が追加されました。
 
 1. **手動で追加**をクリックします。

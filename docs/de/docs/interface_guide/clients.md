@@ -68,7 +68,7 @@ Sie können reservierte IP-Adressen für Computer oder Server vergeben, die daue
 
 ![reserved ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/reserved_ip.png){class="glboxshadow"}
 
-## Sperrliste
+## Sperrliste {#blocklist}
 
 In der sechsten Spalte können Sie bestimmte verbundene Geräte mit nur einem Klick blockieren. 
 

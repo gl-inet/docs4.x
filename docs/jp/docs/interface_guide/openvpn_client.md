@@ -16,7 +16,7 @@ NordVPN メンバーシップをお持ちの場合は、**NordVPN** ボタンを
 
 ![openvpn client no initialized](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/openvpn_client_no_initialized.png){class="glboxshadow"}
 
-## NordVPN をセットアップする
+## NordVPN をセットアップする {#set-up-nordvpn}
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} は、速度とセキュリティの時でトップのオンライン VPN サービスです。
 
@@ -64,7 +64,7 @@ NordVPN メンバーシップをお持ちの場合は、**NordVPN** ボタンを
 
     ![edit credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/edit_credential.png){class="glboxshadow"}
 
-## OpenVPNクライアントのセットアップ
+## OpenVPNクライアントのセットアップ {#set-up-openvpn-client-manually-for-other-providers}
 
 ファームウェア4. 0で降、OpenVPNプロファイルをグループ化して管理できるようになりました。同じグループ内にすべてのプロファイルが同じ認証情報で含まれていることを確認してください。例えば、あなたがExpressVPNユーザーなら、*expressvpn*というグループを追加し、あなたが望むExpressVPNのOpenVPNプロファイルをすべてこのグループにアップロードすることができます。彼のOpenVPNサービスプロバイダについては、別のグループを作成してください。
 
@@ -110,7 +110,7 @@ NordVPN メンバーシップをお持ちの場合は、**NordVPN** ボタンを
 
 GL.iNetルーターをOpenVPNサーバーに設定し、別のGL.iNetルーターをOpenVPNクライアントに設定することができます。OpenVPNサーバーのセットアップについては、 [こちら](openvpn_server.md)をご覧ください。
 
-## OpenVPNサービスプロバイダから設定ファイルを入手する
+## OpenVPNサービスプロバイダから設定ファイルを入手する {#get-configuration-files-from-openvpn-service-providers}
 
 私たちはさまざまなOpenVPNサービスプロバイダをテストしました。設定ファイルの入手方法がわからない場合は、以下の指示に従ってください。ただし、以下に記載されていない場合は、サービスプロバイダに問い合わせて設定ファイルを入手する必要があります。
 

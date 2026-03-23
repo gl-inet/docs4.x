@@ -64,7 +64,7 @@ Schließen Sie das Speichergerät an. Sobald es erkannt wurde, wird die Seite wi
 
 ![network storage, disk found](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
 
-## Samba einrichten
+## Samba einrichten {#set-up-samba}
 
 1. Aktivieren Sie **Enable Samba** und klicken Sie auf **Apply**.
 
@@ -104,7 +104,7 @@ Schließen Sie das Speichergerät an. Sobald es erkannt wurde, wird die Seite wi
 
 ---
 
-## WebDAV einrichten
+## WebDAV einrichten {#set-up-webdav}
 
 1. Aktivieren Sie **Enable WebDAV** und klicken Sie auf **Apply**.
 
@@ -148,7 +148,7 @@ Schließen Sie das Speichergerät an. Sobald es erkannt wurde, wird die Seite wi
 
 ---
 
-## DLNA einrichten
+## DLNA einrichten {#set-up-dlna}
 
 Aktivieren Sie **Enable DLNA** und klicken Sie auf **Apply**.
 

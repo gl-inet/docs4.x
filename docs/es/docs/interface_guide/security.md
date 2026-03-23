@@ -52,7 +52,7 @@ Puede evitar intentos de escaneo e intrusión en el puerto predeterminado, así 
 
 - **SSH Port**: El valor predeterminado es 22, el puerto utilizado para el acceso SSH al router.
 
-### Puerto prohibido
+### Puerto prohibido {#prohibited-port}
 
 Si asigna un número de puerto que entra en conflicto con un puerto reservado, o con uno reservado para servicios específicos por los navegadores o las convenciones de red, aparecerá un aviso indicando "This port is forbidden by the browser".
 

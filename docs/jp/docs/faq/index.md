@@ -52,6 +52,7 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 * [非VPNトラフィックをブロックする方法は？](block_non_vpn_traffic.md)
 * [VPNキルスイッチ](block_non_vpn_traffic.md)
 * [OpenVPNでは、TCPとUDPのどちらのプロトコルを選ぶべきですか？](openvpn_tcp_udp.md)
+* [AmneziaWG難読化パラメーターの紹介](amnezia_obfuscation_parameters.md)
 * [VPN使用時にイーサネットWANを設定する必要がありますか？](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## アップグレード

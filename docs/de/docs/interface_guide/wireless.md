@@ -112,7 +112,7 @@ Klicken Sie auf die folgenden Tabs, um mehr über die Einstellungen für 2,4 GHz
 
 * Wenn **Bandwidth** auf **160 MHz** eingestellt ist (nur bei einigen Modellen verfügbar), verwendet das Wi‑Fi immer den DFS-Kanal, selbst wenn Sie für **Channel** einen Nicht-DFS-Kanal oder **Auto** auswählen.
 
-## Randomized BSSID
+## Randomized BSSID {#randomized-bssid}
 
 Randomized BSSID ist seit Firmware v4.6 verfügbar. Es soll verhindern, dass Gerätehersteller Wi‑Fi-BSSIDs in der Nähe und die GPS-Koordinaten von Client-Geräten auf ihren Servern sammeln.
 

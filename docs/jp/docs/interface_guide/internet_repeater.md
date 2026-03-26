@@ -1,4 +1,4 @@
-# リピーターで既存のWi-Fi経由でインターネットに接続する
+# リピーター経由で既存のWi-Fiに接続
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

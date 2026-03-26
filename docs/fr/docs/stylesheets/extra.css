@@ -1,0 +1,78 @@
+/* for home page product cards */
+.gl-product-row {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px !important;
+  display: block;
+  margin: 0px;
+}
+.gl-product-row-box {
+  float: left;
+  width: 100%;
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.gl-product-card {
+  float: left;
+  width: 95%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #ffffff;
+  text-align: center;
+}
+.gl-product-card img{
+  width: 70%;
+}
+div.gl-product-model{
+  font-weight: bold;
+}
+.gl-product-model-ap1300 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.gl-product-card:hover {
+  border-color: #b6bde3 !important;
+}
+img.glboxshadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 30em) {
+	.gl-product-row-box {
+    grid-template-columns: 50% 50%;
+  }
+}
+/* for GL-S10 user manuel */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-container, .s10-user-manual > div {
+  margin: 10px 20px;
+}
+@media only screen and (max-width: 30em) {
+  .flex-container, .s10-user-manual > div {
+    margin: 0px 0px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .gl-50-desktop {
+    width: 50%;
+  }
+  .gl-60-desktop {
+    width: 60%;
+  }
+  .gl-70-desktop {
+    width: 70%;
+  }
+  .gl-80-desktop {
+    width: 80%;
+  }
+  .gl-90-desktop {
+    width: 90%;
+  }
+}

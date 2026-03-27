@@ -135,9 +135,11 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
 This scenario uses a single GL.iNet router **Brume 3 (GL-MT5000)** as a VPN client to connect to an AmneziaVPN server. 
 
-There is no need to set up your own server. You can establish a VPN obfuscation connection directly using the official AmneziaVPN servers (Amnezia Premium subscription required).
+In this case, you don't need to deploy your own server. Simply download an AmneziaWG configuration file from the [official Amnezia website](https://amnezia.org/){target="_blank"} or any VPN service provider that integrates AmneziaWG, then upload the file to your GL.iNet router. You will then be able to establish a VPN connection with obfuscation enabled.
 
 #### Download Configuration
+
+<u>Option 1</u>: Download a config from Amnezia Official (Premium subscription required).
 
 1. Log in to the [Amnezia Premium Dashboard](https://cp.amnezia.org/en/login){target="_blank"} with your Subscription Key.
 
@@ -146,6 +148,22 @@ There is no need to set up your own server. You can establish a VPN obfuscation 
 2. On the Amnezia Dashboard, turn to the **Connection Assets** -> **Configuration Files**, select a country and download a configuration file to your local for later use.
 
     ![amnezia config](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/amnezia_config.png){class="glboxshadow"}
+
+<u>Option 2</u>: Download a config from other VPN provider that integrates AmneziaWG.
+
+Take StarVPN as an example.
+
+1. Head on over to StarVPN [pricing plans](https://www.starvpn.com/#pricing){target="_blank"} and choose a VPN plan that suits your needs. You can register a StarVPN account on checkout or directly [here](https://www.starvpn.com/dashboard/register.php){target="_blank"}.
+
+2. Log in to the [StarVPN Dashboard](https://www.starvpn.com/dashboard){target="_blank"}, locate the **VPN Configuration** and click **AmneziaWG Config** to download the configuration file.
+    
+    ![starvpn amneziawg config download](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/awg_starvpn.png){class="glboxshadow"}
+
+3. The config may contain IPv6 address. To avoid compatibility and connectivity issues, open the .conf file and remove IPv6 address, as shown below.
+
+    ![starvpn remove ipv6](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/awg_remove_ipv6.png){class="glboxshadow"}
+
+    Then follow the steps below to set up VPN client.
 
 #### Set up VPN Client
 

@@ -592,7 +592,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     2. **Download OpenVPN Configuration**
 
-        Log in to the StarVPN member area [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. On the Dashboard, locate the **VPN Configuration** section and click **OpenVPN Config**.
+        Log in to the StarVPN member area [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. On the Dashboard, locate the **VPN Configuration** section and click **OpenVPN Config**. Please copy the OVPN username and password. You will need these credentials for authentication when uploading the file to your GL.iNet router.
 
         ![download starvpn ovpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/ovpnconfigdl.png){class="glboxshadow"}
 

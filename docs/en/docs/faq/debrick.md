@@ -8,7 +8,9 @@ If you bricked your router due to some DIY projects or flashing a wrong firmware
 
 ## Preparation
 
-Please prepare a computer with an ethernet port. If your computer does not have ethernet port, please prepare an additional USB Ethernet Adapter.
+Please prepare a computer or laptop with an Ethernet port. If your computer does not have an ethernet port, an additional USB-Ethernet adapter is required.
+
+**Note**: GL-E5800 (Mudi 7) currently does not support firmware flashing via U-Boot.
 
 ## Unbrick Steps
 
@@ -18,82 +20,91 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
 
 <small>The steps for using U-Boot to re-install firmware are roughly the same, and this video takes Mudi/Mudi V2 as an example. For other models, you may follow the procedures below.</small>
 
-1. Download firmware [here](https://dl.gl-inet.com/){target="_blank"} to your computer.
+1. Download U-Boot firmware [here](https://dl.gl-inet.com/){target="_blank"} to your computer.
 
-    Some models, such as GL-AR750S-EXT, are available in two formats of firmware. Please use the firmware for U-Boot, whose file name extension is **.img**.
+    Some models offer two firmware variants. Please download the U‑Boot compatible firmware.
 
-2. Remove the power of router. Connect your computer to the **Ethernet LAN port** of the router. You **MUST** leave all the other ports **unconnected**.
+2. Power off your router. Connect a computer to the router's **Ethernet LAN port**, and leave all the other ports unconnected.
 
     !!! note
 
-        For some models, certain individual LAN ports and the WAN port are interchangeable. Please do not use this LAN port. For example, on the GL-MT6000 (Flint 2), do not use LAN 1. Please use LAN 2, LAN 3, or LAN 4 instead.
+        On some models, a specific individual LAN port can be switched to WAN. Please do not use this LAN port for firmware flashing. For example, on the GL-MT6000 (Flint 2), do not use LAN 1. Please use LAN 2, LAN 3, or LAN 4 instead.
 
-3. Press and hold the Reset button firmly, **at the same time power up the router**. If your router doesn't have a power button, plugging the power in will power it on automatically.
+3. Press and hold the Reset button firmly, **at the same time power on the router**. If your router doesn't have a power button, plugging the power in will power it on automatically.
 
-    Then you will see the LED flashing in a regular sequence a few times, please release your finger **after** the sequence changes.
+    Wait for the LED to flash in a regular sequence several times. Release the Reset button **after** the flashing pattern changes.
 
-    The following will give the description of sequence of each model of LED flashing.
+    !!! note "LED Flashing Patterns by Device Model"
 
-    **Note:** Same router models with different manufacturing dates may have different LED colours or flashing sequences, it won't affect the U-Boot process. Please pay more attention to the change of the flashing LED.
-
-    - For **GL-BE9300(Flint 3)**, the blue LED flashes 6 times, then turns solid white.
-    
-    - For **GL-BE3600(Slate 7)**, after holding down the reset button for about 5 seconds, a 5-second countdown will appear on the LED display. Keep pressing the reset button until the next step is displayed on the screen:
-
-        1. Manually set the IP address of your computer to 192.168.1.2
-        2. Use browser to visit  http://192.168.1.1
-
-        Turn to Step 4 for further instruction.
-
-    - For **GL-B3000(Marble)**, the blue LED light flashes 7 times, then turns solid white.
-
-    - For **GL-MT6000(Flint 2)**, the blue LED flashes 6 times, then turns solid white.
-
-    - For **GL-MT3000(Beryl AX)**, the blue LED flashes 6 times, then turns solid white.
-
-    - For **GL-MT2500/GL-MT2500A(Brume 2)**, the blue LED flashes 5 times, then turns solid white.
-
-    - For **GL-S200**, the cyan LED flashes 5 times, then briefly turns purple, then turns solid cyan.
-
-    - For **GL-A1300(Slate Plus)**, the LED flashes slowly 5 times, then stays on for a short while, then flashes quickly all the time.
-
-    - For **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)** and **microuter-N300**, the LED flashes 5 times.
-
-    - For **GL-E750(Mudi)**, its screen will first display "Booting", followed by "Reset Counting 1 to 4", and finally "Please Open Web 192.168.1.1".
-
-    - For **GL-S1300(Convexa-S)** and **GL-B1300(Convexa-B)**, the LED flashes 4 times.
+        **Note:** Identical router models from different production batches may have different LED colors or flashing sequences. This does not affect the U-Boot recovery process. Please focus on the change of the LED flashing state.
         
-        The leftmost Power LED may stay on the whole time while the rightmost Wi-Fi LED flashes 4 times, then the middle Mesh LED turns solid on.
+        - For **GL-MT3600BE (Beryl 7)**: The blue LED flashes 7 times, then turns solid white.
         
-        (For some old GL-B1300, the leftmost Power LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simutaneously, then stay on.)
+        - For **GL-MT5000 (Brume 3)**: The Power LED flashes blue 7 times, then turns solid white.
 
-    - For **GL-SF1200**, the 5G LED flashes 5 times, then turns solid on.
+        - For **GL-BE6500 (Flint 3e)**: The blue LED flashes 6 times, then turns solid white.
+        
+        - For **GL-BE9300 (Flint 3)**: The blue LED flashes 6 times, then turns solid white.
+        
+        - For **GL-BE3600 (Slate 7)**: After holding down the Reset button for about 5 seconds, a 5-second countdown will appear on the touchscreen. Keep pressing the Reset button until the next prompt appears on the screen, e.g., manually set the IP address of your computer to 192.168.1.2, and use browser to visit http://192.168.1.1. Turn to Step 4 for further instruction.
 
-    - For **GL-AX1800(Flint)**, the blue LED flashes 5 times, then turns solid white.
+        - For **GL-X2000 (Spitz Plus)**: The Internet LED flashes 5 times, then the Wi-Fi LED stays on.
 
-    - For **GL-AXT1800(Slate AX)**, the blue LED flashes 5 times, then turns solid on.
+        - For **GL-B3000 (Marble)**: The blue LED light flashes 7 times, then turns solid white.
 
-    - For **GL-XE300(Puli)**, the LAN LED flashes 5 times, then the Wi-Fi LED stays on.
+        - For **GL-MT6000 (Flint 2)**: The blue LED flashes 6 times, then turns solid white.
 
-    - For **GL-X300B(Collie)**, the WAN LED flashes 5 times, then the Wi-Fi LED stays on.
+        - For **GL-MT3000 (Beryl AX)**: The blue LED flashes 6 times, then turns solid white.
 
-    - For **GL-X3000(Spitz AX)**, the WAN LED flashes 5 times, then the Wi-Fi LED stays on.
+        - For **GL-MT2500/GL-MT2500A (Brume 2)**: The Power LED flashes blue 5 times, then turns solid white.
 
-    - For **GL-XE3000(Puli AX)**, the WAN LED flashes 5 times, then the Wi-Fi LED stays on.
+        - For **GL-X3000 (Spitz AX)**: The Internet LED flashes 5 times, then the Wi-Fi LED stays on.
 
-    - For **GL-SFT1200(Opal)**, the blue LED flashes 5 times, then turns solid white.
+        - For **GL-XE3000 (Puli AX)**: The Internet LED flashes 5 times, then the Wi-Fi LED stays on.
+            
+        - For **GL-XE300 (Puli)**: The LAN LED flashes 5 times, then the Wi-Fi LED stays on.
 
-    - For **GL-AP1300(Cirrus)**, the power LED flashes slowly 5 times, then stays on for a short while, then flashes quickly all the time.
+        - For **GL-E750 (Mudi)**: Its screen will first display "Booting", followed by "Reset Counting 1 to 4", and finally "Please Open Web 192.168.1.1".
 
-    - For **GL-MT1300(Beryl)**, the LED starts blue, flashes twice slowly, then flashes 5 times faster and turns solid white.
+        - For **GL-X750 (Spitz)**: The Internet LED flashes 5 times, then the Wi-Fi LED stays on.
 
-    - For **GL-B2200(Velica)**, the two LEDs start blue, then turn white and flash 5 times, then turn solid blue.
+        - For **GL-AX1800 (Flint)**: The blue LED flashes 5 times, then turns solid white.
 
-    - For **GL-MV1000/GL-MV1000W(Brume)**, no repeat LED flashes signal. (Power and WAN LEDs will stay on the whole time.)
+        - For **GL-AXT1800 (Slate AX)**: The blue LED flashes 5 times, then turns solid white.
 
-    - For **GL-MiFi**, the LED flashes 6 times.
+        - For **GL-SFT1200 (Opal)**: The blue LED flashes 5 times, then turns solid white.
 
-    - For **GL-MT300N**, **GL-MT300A**, the LED flashes 3 times.
+        - For **GL-MT1300 (Beryl)**: The blue LED flashes twice slowly, then flashes 5 times faster and turns solid white.
+
+        - For **GL-A1300 (Slate Plus)**: The LED flashes slowly 5 times, then stays on for a short while, then flashes quickly all the time.
+
+        - For **GL-MT300N-V2 (Mango)** and **GL-AR300M (Shadow)**: The LED flashes 5 times. 
+
+        - For **GL-X300B (Collie)**: The WAN LED flashes 5 times, then the Wi-Fi LED stays on.
+
+        - For **GL-AP1300 (Cirrus)**: The power LED flashes slowly 5 times, then stays on for a short while, then flashes quickly all the time.
+
+        - For **GL-B1300 (Convexa-B)** and **GL-S1300 (Convexa-S, EOL)**: The LED flashes 4 times.
+            
+            The leftmost Power LED stays on the whole time while the rightmost Wi-Fi LED flashes 4 times, then the middle Mesh LED turns solid on.
+            
+            (For some old GL-B1300, the leftmost Power LED stays on the whole time, and both the middle LED and the rightmost LED flash 5 times simutaneously, then stay on.)
+
+        - For **GL-B2200 (Velica)**: The two LEDs start blue, then turn white and flash 5 times, then turn solid blue.
+
+        - For **GL-SF1200**: The 5G LED flashes 5 times, then turns solid on.
+
+        - For **GL-S200**, the cyan LED flashes 5 times, then briefly turns purple, then turns solid cyan.
+        
+        - For **GL-AR750 (Creta)** and **GL-AR750S-EXT (Slate)**: The LED flashes 5 times. 
+        
+        - For **GL-USB150 (Microuter)**, **microuter-N300** and **GL-AR150 (White)**: The LED flashes 5 times.
+
+        - For **GL-MV1000/GL-MV1000W (Brume)**: No repeat LED flashes signal. Power and WAN LEDs will stay on the whole time.
+        
+        - For **GL-MiFi**: The LED flashes 6 times.
+
+        - For **GL-MT300N** and **GL-MT300A**: The LED flashes 3 times.
 
 4. Manually set the IP address of your computer to **192.168.1.2**. Please check the step-by-step guide for different operating systems below:
 
@@ -171,9 +182,11 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
 
 6. Click **Choose file** button to find the firmware file. Then click **Update firmware** button.
 
-7. Wait for around 3 minutes. Don't power off your device when updating. The router is ready when both power and  Wi-Fi LED are on or you can find its SSID on your device.
+7. Wait for about 3 minutes. Don't power off your device during the firmware update. 
 
-8. Revert the IP setting you did in step 4 and connect your device to the LAN or Wi-Fi of the router. You will be able to access the router via **192.168.8.1** again.
+    The router is ready when the LED keeps flashing blue; for some cellular models, it is ready once both the Power and Wi‑Fi LEDs are solid on.
+
+8. Revert the IP settings you did in step 4 and connect your computer to the router's LAN or Wi-Fi. You will be able to access the router's web admin panel via **192.168.8.1** again.
 
     **Note:** It might be required to use the incognito mode or to delete the browser cache and cookies to access the router.
 

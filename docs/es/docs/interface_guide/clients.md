@@ -68,7 +68,7 @@ Puede asignar direcciones IP reservadas a ordenadores o servidores que requieran
 
 ![reserved ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/reserved_ip.png){class="glboxshadow"}
 
-## Blocklist
+## Blocklist {#blocklist}
 
 En la sexta columna, puede bloquear dispositivos conectados específicos con un solo clic.
 

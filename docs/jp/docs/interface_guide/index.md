@@ -12,7 +12,7 @@ hide:
 
 * [インターネットページ](internet.md)
 * [イーサネットケーブルでインターネットに接続する方法](internet_ethernet.md)
-* [リピータでインターネットに接続する方法](internet_repeater.md)
+* [リピーターでインターネットに接続する方法](internet_repeater.md)
 * [USBテザリングでインターネットに接続する方法](internet_tethering.md)
 * [ cellularでインターネットに接続する方法](internet_cellular.md)
 * [SMS](sms.md)
@@ -38,11 +38,11 @@ hide:
 * [OpenVPNサーバーの設定](openvpn_server.md)
 * [WireGuardクライアントの設定](wireguard_client.md)
 * [WireGuardサーバーの設定](wireguard_server.md)
-* [VPNポリシー（ファームウェアv4.7で前）](vpn_dashboard_v4.7.md#proxy-mode)
-* [VPNポリシー（ファームウェアv4.8で降）](vpn_dashboard.md#policy-mode)
+* [VPNポリシー（ファームウェアv4.7以前）](vpn_dashboard_v4.7.md#proxy-mode)
+* [VPNポリシー（ファームウェアv4.8以降）](vpn_dashboard.md#policy-mode)
 * [ルーターでNordVPNをセットアップする方法は？](openvpn_client.md#set-up-nordvpn)
 * [ルーターでAzireVPNをセットアップする方法は？](wireguard_client.md#set-up-azirevpn)
-* [ルーターでMullvad VPNをセットアップする方法](wireguard_client.md#set-up-mullvad)
+* [ルーターでMullvad VPNをセットアップする方法は？](wireguard_client.md#set-up-mullvad)
 * [OpenVPNでは、TCPとUDPのどちらのプロトコルを選べばいいのでしょうか？](../faq/openvpn_tcp_udp.md)
 * [VPNキルスイッチ](../faq/block_non_vpn_traffic.md)
 * [VPNカスケード](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
@@ -63,7 +63,7 @@ hide:
 
 * [ファイアウォール](firewall.md)
 * [ポートフォワーディング](port_forwarding.md)
-* [マルチWAN](multi-wan.md) - 別のインターネット接続にフェイルオーバーしたり、複数のインターフェースを同時に使用して総帯域幅を増大させたりできます。
+* [マルチWAN](multi-wan.md) - 別のインターネット接続へのフェイルオーバーを可能にするほか、複数のインターフェースを同時に使用して総帯域幅を拡大。
 * [LAN](lan.md)
 * [ゲストネットワーク](guest_network.md)
 * [DNS](dns.md)

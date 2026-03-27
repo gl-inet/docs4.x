@@ -14,9 +14,9 @@
 
 1. このチュートリアルの末尾から、対応するモジュールファームウェアをダウンロードします。
 
-2. ルーターのWeb管理画面にログインし、**SYSTEM** -> **Upgrade** -> **Module Local Upgrade** に移動して、モジュールファームウェア（`.zip` 形式）をアップロードします。
+2. ルーターの Web 管理画面にログインし、**SYSTEM** -> **Upgrade** -> **Modem Local Upgrade** に移動して、モジュールファームウェア（`.zip` 形式）をアップロードします。
 
-   ![module local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/module_local_upgrade.png){class="glboxshadow"}
+   ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
 **方法2: SSH からアップグレードする**
 

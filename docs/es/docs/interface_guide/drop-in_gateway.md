@@ -33,7 +33,7 @@ Hay dos modos de despliegue para distintos escenarios de aplicación: todos los 
 
 En el siguiente ejemplo, la dirección de gateway del router principal es `192.168.1.1`.
 
-### Todos los dispositivos pasan por Drop-in Gateway
+### Todos los dispositivos pasan por Drop-in Gateway {all-devices-managed-by-the-drop-in-gateway}
 
 1.  Conecte el puerto LAN del router principal al puerto WAN del router GL.iNet mediante un cable Ethernet.
 
@@ -98,7 +98,7 @@ En el siguiente ejemplo, la dirección de gateway del router principal es `192.1
 
 4.  Vuelva al router GL.iNet y configure funciones como [AdGuard Home](adguardhome.md), [DNS cifrado](dns.md), [WireGuard Client](wireguard_client.md) y [OpenVPN Client](openvpn_client.md).
 
-### Solo determinados dispositivos pasan por Drop-in Gateway
+### Solo determinados dispositivos pasan por Drop-in Gateway {some-devices-managed-by-the-drop-in-gateway}
 
 1.  Conecte el puerto LAN del router principal al puerto WAN del router GL.iNet mediante un cable Ethernet.
 

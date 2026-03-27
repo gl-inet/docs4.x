@@ -34,7 +34,7 @@ Für unterschiedliche Anwendungsszenarien gibt es zwei Bereitstellungsmodi: Entw
 
 Im folgenden Beispiel lautet die Gateway-Adresse des Hauptrouters `192.168.1.1`.
 
-### Alle Geräte werden über Drop-in Gateway ins Netzwerk eingebunden
+### Alle Geräte werden über Drop-in Gateway ins Netzwerk eingebunden {all-devices-managed-by-the-drop-in-gateway}
 
 1. Verbinden Sie den LAN-Port des Hauptrouters per Ethernet-Kabel mit dem WAN-Port des GL.iNet-Routers.
 
@@ -100,7 +100,7 @@ Im folgenden Beispiel lautet die Gateway-Adresse des Hauptrouters `192.168.1.1`.
 
 4. Kehren Sie zum GL.iNet-Router zurück und richten Sie Funktionen wie [AdGuard Home](adguardhome.md), [verschlüsseltes DNS](dns.md), [WireGuard Client](wireguard_client.md) und [OpenVPN Client](openvpn_client.md) ein.
 
-### Bestimmte Geräte werden über Drop-in Gateway ins Netzwerk eingebunden
+### Bestimmte Geräte werden über Drop-in Gateway ins Netzwerk eingebunden {some-devices-managed-by-the-drop-in-gateway}
 
 1. Verbinden Sie den LAN-Port des Hauptrouters per Ethernet-Kabel mit dem WAN-Port des GL.iNet-Routers.
 

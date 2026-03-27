@@ -4,8 +4,8 @@ Dieser Artikel zeigt, wie Sie Ihren Heimrouter als WireGuard-VPN-Server und Ihre
 
 Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v_DyRGicWco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<small>(In diesem Video werden GL-BE9300 (Flint 3) und GL-BE3600 (Slate 7) verwendet, um die VPN-Einrichtung zu demonstrieren.)</small>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7mJXA5MfMb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>(In diesem Video werden GL-MT5000 (Brume 3) und GL-MT3600BE (Beryl 7) verwendet, um die VPN-Einrichtung zu demonstrieren.)</small>
 
 In den folgenden Schritten verwenden wir GL-MT6000 (Flint 2) und GL-MT3000 (Beryl AX) als Beispiele:
 

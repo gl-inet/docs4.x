@@ -50,6 +50,8 @@ This repository contains localized GL.iNet router documentation. When translatin
 ## Internal Links and Anchors
 
 - Check internal links carefully after translation.
+- Preserve explicit custom heading anchors and hash IDs exactly as written, such as `{#example-anchor}` or `{custom-anchor}`.
+- When translating a heading that has a custom anchor, keep the custom hash ID unchanged so cross-language links remain stable.
 - If heading text changes, make sure same-page links still resolve.
 - Update anchor links when needed instead of leaving broken English anchor references in a localized page.
 - Keep cross-page links valid within the localized docs tree.

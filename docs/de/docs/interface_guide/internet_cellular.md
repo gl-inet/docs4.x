@@ -474,7 +474,7 @@ Wenn Sie keine Mobilfunkverbindung herstellen können, klicken Sie auf die folge
 
     Wenn das Problem weiterhin besteht, laden Sie die Protokolle herunter und senden Sie sie an [support@gl-inet.com](mailto:support@gl-inet.com).
 
-## IoT-Zertifizierung
+## IoT-Zertifizierung {#iot-certification}
 
 ### AT&T-Zertifizierung
 

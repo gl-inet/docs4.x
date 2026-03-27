@@ -22,7 +22,7 @@ Si tiene una suscripción a NordVPN, haga clic en **NordVPN** para iniciar sesi�
 
 ![openvpn client](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/openvpn_client_initial.png){class="glboxshadow"}
 
-## Configurar NordVPN
+## Configurar NordVPN {#set-up-nordvpn}
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902){target="\_blank"} es un servicio VPN en línea popular por su velocidad y seguridad.
 
@@ -86,7 +86,7 @@ La configuración rápida de NordVPN está integrada en el panel de administraci
 
    ![nordvpn delete all](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn9.png){class="glboxshadow"}
 
-## Configurar manualmente el cliente OpenVPN (para otros proveedores)
+## Configurar manualmente el cliente OpenVPN (para otros proveedores) {#set-up-openvpn-client-manually-for-other-providers}
 
 Si su proveedor de servicios OpenVPN no está integrado en nuestro panel de administración, visite primero el sitio web oficial del proveedor al que está suscrito para obtener el archivo de configuración. Después, súbalo al router para configurar un cliente OpenVPN.
 
@@ -138,7 +138,7 @@ Si tiene dos routers GL.iNet, puede considerar configurar uno como servidor Open
 
 Para configurar el servidor OpenVPN, consulte [aquí](openvpn_server.md).
 
-## Obtener archivos de configuración de proveedores de servicios OpenVPN
+## Obtener archivos de configuración de proveedores de servicios OpenVPN {#get-configuration-files-from-openvpn-service-providers}
 
 Hemos probado más de 30 proveedores de servicios OpenVPN y documentado los pasos para obtener los archivos de configuración. Si no está seguro de cómo obtener el archivo de configuración, consulte los pasos que se indican a continuación.
 

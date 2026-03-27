@@ -52,7 +52,7 @@ Sie kann Scan- und Eindringversuche auf dem Standardport verhindern und Netzwerk
 
 - **SSH Port**: Standardmäßig 22; der Port, der für den SSH-Zugriff auf den Router verwendet wird.
 
-### Verbotene Ports
+### Verbotene Ports {#prohibited-port}
 
 Wenn Sie eine Portnummer zuweisen, die mit einem reservierten Port kollidiert (oder mit einem Port, der von Browsern bzw. Netzwerkkonventionen für bestimmte Dienste reserviert ist), erscheint ein Hinweis mit der Meldung "This port is forbidden by the browser".
 

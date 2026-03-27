@@ -34,7 +34,7 @@ Im Folgenden finden Sie die Schritte für die Einrichtung über das webbasierte 
 * [Surfshark einrichten](#surfshark-einrichten)
 * [WireGuard-Client manuell einrichten (andere Anbieter)](#wireguard-client-manuell-einrichten-andere-anbieter)
 
-## AzireVPN einrichten
+## AzireVPN einrichten {#set-up-azirevpn}
 
 [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} ist ein datenschutzorientierter VPN-Dienst, der sichere, moderne und robuste Tunnel wie WireGuard bereitstellt.
 
@@ -88,7 +88,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Az
 
     ![azirevpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn8.png){class="glboxshadow"}
 
-## Hide.me einrichten
+## Hide.me einrichten {#set-up-hideme}
 
 [Offizielle Website](https://www.hideipvpn.com/){target="_blank"}
 
@@ -130,7 +130,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Hi
 
     ![hide.me delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme7.png){class="glboxshadow"}
 
-## IPVanish einrichten
+## IPVanish einrichten {#set-up-ipvanish}
 
 [Offizielle Website](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="_blank"}
 
@@ -178,7 +178,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **IP
 
     ![ipvanish delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish8.png){class="glboxshadow"}
 
-## Mullvad einrichten
+## Mullvad einrichten {#set-up-mullvad}
 
 [Mullvad](https://mullvad.net/){target="_blank"} ist ein VPN-Dienst, der Ihre Online-Aktivitäten, Ihre Identität und Ihren Standort privat hält.
 
@@ -232,7 +232,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Mu
 
     ![mullvad delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad9.png){class="glboxshadow"}
 
-## NordVPN einrichten
+## NordVPN einrichten {#set-up-nordvpn}
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} ist ein Online-VPN-Dienst, der Geschwindigkeit und Sicherheit kombiniert.
 
@@ -296,7 +296,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Mu
 
     ![nordvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn8.png){class="glboxshadow"}
 
-## PIA (Private Internet Access) einrichten
+## PIA (Private Internet Access) einrichten {#set-up-pia-private-internet-access}
 
 [Offizielle Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
@@ -344,7 +344,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **PI
 
     ![pia delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia8.png){class="glboxshadow"}
 
-## PureVPN einrichten
+## PureVPN einrichten {#set-up-purevpn}
 
 [Offizielle Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
@@ -390,7 +390,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Pu
 
     ![purevpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn8.png){class="glboxshadow"}
 
-## Surfshark einrichten
+## Surfshark einrichten {#set-up-surfshark}
 
 [Offizielle Website](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
@@ -444,7 +444,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Su
 
     ![surfshark delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark9.png){class="glboxshadow"}
 
-## Windscribe einrichten
+## Windscribe einrichten {#set-up-windscribe}
 
 [Offizielle Website](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
@@ -502,7 +502,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Wi
 
     ![windscribe delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe10.png){class="glboxshadow"}
 
-## WireGuard-Client manuell einrichten (andere Anbieter)
+## WireGuard-Client manuell einrichten (andere Anbieter) {#set-up-wireguard-client-manually-for-other-providers}
 
 Wenn Sie einen anderen WireGuard-Dienstanbieter verwenden, können Sie die WireGuard-Konfigurationsdateien herunterladen und den nachstehenden Schritten folgen, um den WireGuard-Client einzurichten. Falls Sie nicht wissen, wie Sie die Konfigurationsdateien herunterladen, lesen Sie bitte [diese Anleitung](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) oder wenden Sie sich an den Support des Anbieters.
 

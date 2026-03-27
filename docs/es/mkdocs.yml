@@ -200,8 +200,8 @@ nav:
       - Configurar servidor OpenVPN: tutorials/how_to_set_up_openvpn_server.md
       - Crear tu propio servidor doméstico WireGuard: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
       - Configurar la ofuscación de VPN: tutorials/vpn_obfuscation.md
-      - Conectarse a la IP dedicada de NordVPN: tutorials/how_to_connect_to_the_dedicated_ip_by_nordvpn_on_glinet_routers.md
-      - Conectarse a la IP dedicada de Surfshark: tutorials/how_to_connect_to_the_dedicated_ip_by_surfshark_on_glinet_routers.md
+      - Conectarse a NordVPN con una IP dedicada: tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
+      - Conectarse a Surfshark con una IP dedicada: tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md
       - Configurar servidor OpenVPN mediante AstroRelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
       - Configurar servidor WireGuard mediante AstroRelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
       - Acceder a la LAN del cliente OpenVPN desde el servidor: tutorials/openvpn_server_access_client_lan_side.md

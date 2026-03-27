@@ -112,7 +112,7 @@ Haga clic en las pestañas siguientes para consultar la configuración de la Wi-
 
 - Cuando **Bandwidth** se configura en **160 MHz** (solo disponible en algunos modelos), la Wi-Fi siempre utilizará un canal DFS, aunque elija un canal no DFS o **Auto** en la configuración de **Channel**.
 
-## Randomized BSSID
+## Randomized BSSID {#randomized-bssid}
 
 Randomized BSSID está disponible desde el firmware v4.6. Su objetivo es impedir que los fabricantes de los clientes recopilen los BSSID Wi-Fi cercanos y las coordenadas GPS de los dispositivos cliente en sus servidores.
 

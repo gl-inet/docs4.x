@@ -573,7 +573,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     [Official Website](https://safervpn.com/?a_aid=563){target="_blank"}
 
-    [Download](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup) directly.
+    Click [here](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup) to download configuration files directly.
 
     ![safervpn openvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
 
@@ -582,31 +582,29 @@ If the service provider you subscribed to is not listed below, please contact th
 
     [Official Website](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
-    StarVPN has WireGuard service, we recommend to use WireGuard, checkout [here](wireguard_client.md#starvpn).
+    StarVPN offers VPN service with OpenVPN and WireGuard protocols. We recommend WireGuard as it is ususlly faster than OpenVPN. Check out [here](wireguard_client.md#starvpn).
+
+    If you prefer using OpenVPN protocol, follow the steps below to download the configuration file.
 
     1. **Register an account with StarVPN**
 
         Head on over to their [pricing plan](https://www.starvpn.com/#pricing){target="_blank"} options and choose a VPN plan that suits your needs. You can register on checkout or directly [here](https://www.starvpn.com/dashboard/register.php){target="_blank"}
 
-    2. VPN Login Information
+    2. **Download OpenVPN Configuration**
 
-        Log into the StarVPN member area [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. You can find your VPN username and password for each slot in the Manage Slots Section or dashboard area.
+        Log in to the StarVPN member area [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. On the Dashboard, locate the **VPN Configuration** section and click **OpenVPN Config**.
 
-        ![starvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/vpn-username_edited-2.jpg){class="glboxshadow"}
+        ![download starvpn ovpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/ovpnconfigdl.png){class="glboxshadow"}
 
-        For multiple slots, the VPN configuration settings and credentials can be located in the “Manage Slots” section.
+        Select UDP or TCP and download a configuration file.
 
-        ![starvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/vpn-username_slots_edited-1024x355.jpeg){class="glboxshadow"}
+        ![select udp or tcp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/udp_tcp.png){class="glboxshadow"}
 
-    3. Download OpenVPN Configuration File
+    3. **Edit configuration file**
+    
+        Some GL.iNet routers do not support IPv6. To avoid compatibility and connectivity issues, open the .ovpn configuration file and remove IPv6-related content, as shown below.
 
-        The next step, you must download the VPN server configuration files necessary so that the OpenVPN Software knows where to connect to.   Download the configuration file in the members area dashboard.
-
-        ![download starvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/download-ovpn_edited.jpg){class="glboxshadow"}
-
-        Some GL.iNet routers do not support IPv6 or DNS Leak Protection, as a result you may experience an IP or connection error. Edit the ovpn configuration file and disable IPv6 by performing these simple tasks.
-
-        ![troubleshooting](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/troubleshooting.jpg){class="glboxshadow"}
+        ![remove ipv6](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/remove_ipv6.png){class="glboxshadow"}
         
 ??? "StreamVPN"
     ### StreamVPN

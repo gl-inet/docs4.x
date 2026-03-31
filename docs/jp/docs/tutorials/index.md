@@ -39,7 +39,7 @@ hide:
 - [Quectelモジュールファームウェアをアップグレードする方法](upgrade_quectel_module_software.md)
 - [セルラールーターでキャリアアグリゲーションの状態を確認する方法](how_to_check_carrier_aggregation.md)
 - [Spitz AX (GL-X3000) をRVでセットアップして使う方法](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
-- [Spitz AX または Puli AX の外部アンテナを取り付けまたは交換する方法](how_to_change_x3000_and_xe3000_antennas.md)
+- [Spitz AX または Puli AX の外部アンテナを取り付けまたは交換する方法](how_to_install_or_change_antennas.md)
 
 ## eSIM
 

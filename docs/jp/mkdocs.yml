@@ -220,7 +220,7 @@ nav:
           - Quectel モジュールのアップグレード: tutorials/upgrade_quectel_module_software.md
           - キャリアアグリゲーションの確認方法: tutorials/how_to_check_carrier_aggregation.md
           - RV 用 Spitz AX の設定方法: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
-          - 外部アンテナの取り付けまたは交換方法: tutorials/how_to_change_x3000_and_xe3000_antennas.md
+          - 外部アンテナの取り付けまたは交換方法: tutorials/how_to_install_or_change_antennas.md
       - eSIM:
           - GL.iNet ルーターで eSIM 物理カードを使用する: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
           - Android デバイスで eSIM 物理カードを使用する: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md

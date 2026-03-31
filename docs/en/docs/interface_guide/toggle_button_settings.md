@@ -1,8 +1,8 @@
 # Toggle Button Settings
 
-The Toggle Button Settings allow you to assign specific functions to the physical toggle button on your router for quick access and control, providing convenient shortcuts for common tasks. 
+The Toggle Button Settings allow you to assign specific functions to the physical toggle switch (also known as a mode switch on some models) on your router for quick access and control, providing convenient shortcuts for common operations. 
 
-You can customize the button’s behavior in the web Admin Panel.
+You can customize the switch behavior in the web Admin Panel.
 
 ## Supported Models
 

@@ -1,15 +1,24 @@
-# How to Configure Domain and IP Filtering Rules for GL.iNet Routers via an Online Text File
+# How to configure Domain and IP Filtering rules for GL.iNet Routers via an online text file
 
-Starting from firmware v4.7.0, the "VPN Policy Based on the Target Domain or IP" in VPN feature and "Add a New Ruleset" in Parental Control feature support importing rules from a link to an online text file. This article will introduce the format of this text file.
+Starting with firmware v4.7, the following features support importing rules from an online text file URL:
 
-## URL Format Description
+- VPN Policy Based on Target Domains or IP Addresses (under VPN)
+- Add a New Ruleset (under Parental Control)
 
-### Supported and Unsupported URL Formats
+This tutorial explains how to use an online text file to import domain and IP filtering rules for GL.iNet routers.
 
-- Supported file formats for the text file: .txt, .conf, .log, etc.
-- Unsupported file formats: binary files such as .exe, .zip, .jpg, etc.
+## Supported URL & File Formats
 
-### Using GitHub to Host the Text File
+The supported URL formats are as follows:
+
+- Plain text file URLs (HTTP/HTTPS)
+- GitHub Raw content URL
+
+The supported file types are `.txt`, `.conf`, `.log`, and other plain text formats.
+
+**Note**: Binary files are not supported, such as `.exe`, `.zip`, `.jpg`, `.png`, etc.
+
+## Use GitHub to Host Text File
 
 If you host the text file in a public GitHub repository, make sure to use the raw content URL instead of the regular GitHub URL. 
 
@@ -21,45 +30,25 @@ To ensure the router downloads the correct content, use the raw content URL in t
 
 `https://raw.githubusercontent.com/SecOps-Institute/FacebookIPLists/master/facebook_ipv4_cidr_blocks.lst`
 
-This way, the router will be able to fetch the plain text content of the file.
+In this way, the router will be able to fetch the plain text content of the file.
 
-## Filter Formats for VPN Policy Based on the Target Domain or IP
+## Filter Formats for VPN Policy (Domain/IP)
 
-The "VPN Policy Based on the Target Domain or IP" feature supports the following filter formats in the online text file:
+The "VPN Policy Based on Target Domain or IP Address" feature supports the following filter formats in the online text file:
 
-* Domain name format: Use the domain name, such as `netflix.com`, to match all subdomains of `netflix.com`.
-* Subdomain format: Specify the full subdomain, such as `www.netflix.com`, to match only the specific subdomain.
-* CIDR format: Use CIDR notation to specify IP address ranges, such as `192.168.10.0/24`.
-* IPv4 address format: Specify individual IPv4 addresses, such as `192.168.10.10`.
+* Domain name: Use the domain name, such as `netflix.com` (matches all subdomains).
+* Subdomain: Specify the full subdomain, such as `www.netflix.com` (matches only this subdomain).
+* CIDR range: Use CIDR notation to specify IP address ranges, such as `192.168.10.0/24`.
+* IPv4 address: Specify individual IPv4 addresses, such as `192.168.10.10`.
 
-## Filter Formats for Parental Control Add a New Ruleset
+## Filter Formats for Parental Control (Ruleset)
 
 The "Add a New Ruleset" feature in Parental Control supports the following filter formats in the online text file:
 
-* Domain name format: Use the domain name, such as `instagram.com`, to match all subdomains of `instagram.com`.
-* Subdomain format: Specify the full subdomain, such as `www.instagram.com`, to match only the specific subdomain.
+* Domain name: Use the domain name, such as `instagram.com` (matches all subdomains).
+* Subdomain: Specify the full subdomain, such as `www.instagram.com` (matches only this subdomain).
 
 When creating the online text file, use one filter per line. The router will process each line according to the specified format and apply the corresponding rules to the VPN or Parental Control feature.
-
-## Examples
-
-For "VPN Policy Based on the Target Domain or IP":
-
-```
-netflix.com
-www.hulu.com
-192.168.10.0/24
-192.168.10.10
-```
-
-For "Parental Control Add a New Ruleset":
-
-```
-instagram.com
-facebook
-x.com
-snapchat
-```
 
 By following these filter formats, you can easily create and maintain the online text file for configuring the VPN and Parental Control features on your router.
 

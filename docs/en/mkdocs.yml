@@ -248,7 +248,7 @@ nav:
       - Activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
       - Change the NAT type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
       - Retrieve the mobile App log: tutorials/how_to_retrieve_the_mobile_app_log.md
-      - Configure Domain and IP Filtering rules for VPN: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+      - Configure Domain and IP Filtering rules: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
       - Technical Support via GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Interface Guide:
     - Overview: interface_guide/index.md

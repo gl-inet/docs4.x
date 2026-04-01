@@ -176,6 +176,12 @@ You can log in to the SIMPoYo uFi Admin Panel to manage your network settings.
 
     ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/0-simpoyo-login.png){class="glboxshadow"}
 
+**Tips**: If you forgot the admin password of your SIMPoYo uFi, follow the steps below to reset it:
+
+1. Plug the SIMPoYo uFi into the USB port of a computer, laptop, or any USB power source; it will power on automatically.
+2. Insert a pin into the Reset pinhole for about 2 seconds, then release it. 
+3. Wait for 8-10 seconds. The LED indicator will turn off first, then two white lights will turn on, indicating a successful reset.
+
 ### Check Network Details
 
 1. Choose **Status** from the top menu and navigate to **Device & Network**. You will enter the home page where the device's network status is displayed.
@@ -251,6 +257,14 @@ The default admin password is the same as the Wi-Fi password. For security purpo
 2. Customize the Admin Password and Login Timeout, then click **Apply**.
 
 3. If you want to reset your SIMPoYo uFi to default settings, click the **Factory Default Setting** button to reset.
+
+### Reset Admin Password
+
+If you forgot the admin password of your SIMPoYo uFi, follow the steps below to reset it:
+
+1. Plug the SIMPoYo uFi into the USB port of a computer, laptop, or any USB power source; it will power on automatically.
+2. Insert a pin into the Reset pinhole for about 2 seconds, then release it. 
+3. Wait for 8-10 seconds. The LED indicator will turn off first, then two white lights will turn on, indicating a successful reset.
 
 ### DHCP Settings
 

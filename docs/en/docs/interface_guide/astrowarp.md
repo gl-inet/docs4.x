@@ -1,8 +1,8 @@
 # AstroWarp
 
-**Note**: This guide introduces the new version of AstroWarp, which is currently available on **Flint 3 (GL-BE9300)** and **Slate 7 (GL-BE3600)** in firmware v4.8.4 and v4.8.3 respectively. 
+**Note**: This guide introduces the new version of AstroWarp, which is integrated into GL.iNet web Admin Panel.
 
-For other models, please refer to [this link](https://docs.astrowarp.net/){target="_blank"} for more information.
+For documentation on the legacy AstroWarp, please refer to [this link](https://docs.astrowarp.net/){target="_blank"}.
 
 ---
 
@@ -14,6 +14,40 @@ Users can set up an AstroWarp network directly through the GL.iNet router admin 
 
 1. It is not recommended to use AstroWarp with any of the following features at the same time, as this may cause routing conflicts: GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
 2. When AstroWarp is enabled, the Network Mode cannot be used.
+
+## Supported Models
+
+??? "Supported Models"
+
+    - GL-BE9300 (Flint 3), release v4.8.4
+    - GL-BE3600 (Slate 7), release v4.8.3
+    - GL-MT6000 (Flint 2), Beta v4.8.4
+    - GL-X3000 (Spitz AX), Beta v4.8.4
+    - GL-XE3000 (Puli AX), Beta v4.8.4
+    - GL-AX1800 (Flint), Beta v4.8.4
+    - GL-AXT1800 (Slate AX), Beta v4.8.3
+    - GL-MT3000 (Beryl AX), Beta v4.8.2
+
+??? "Unsupported Models"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-X2000 (Spitz Plus)
+    - GL-B3000 (Marble)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-A1300 (Slate Plus)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
+    - GL-X300B (Collie)
 
 ## Quick Setup
 

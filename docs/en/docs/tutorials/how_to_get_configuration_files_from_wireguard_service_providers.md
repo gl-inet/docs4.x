@@ -5,7 +5,7 @@
 
     [Official Website](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"}
 
-    1. Access [AzireVPN official website](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} and login, then access the [WireGuard Configuration generator](https://www.azirevpn.com/cfg/wireguard){target="_blank"}
+    1. Access [AzireVPN official website](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} and log in, then access the [WireGuard Configuration generator](https://www.azirevpn.com/cfg/wireguard){target="_blank"}
 
         ![azirevpn wireguard configuration generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/azirevpn/azirevpn_wireguard_generator.png){class="glboxshadow"}
 
@@ -43,7 +43,7 @@
 
     [Official Website](https://mullvad.net/){target="_blank"}
 
-    1. Access [Mullvad Official Website](https://mullvad.net/){target="_blank"} and login, then access the [WireGuard configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
+    1. Access [Mullvad Official Website](https://mullvad.net/){target="_blank"} and log in, then access the [WireGuard configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
 
     2. Then follow [this guide](../interface_guide/wireguard_client.md/#set-up-mullvad) to continue.
 
@@ -182,7 +182,7 @@
 
     [Official Website](https://privadovpn.com/#a_aid=GLINET){target="_blank"}
 
-    Access PrivadoVPN website, then login.
+    Access PrivadoVPN website and log in.
 
     At the dashboard, find the Manual Configuration section, click WireGuard. Select the server you want to connect to, then click Download Configration.
 
@@ -248,17 +248,26 @@
 
     2. **Download Wireguard Configuration**
 
-        Log into the StarVPN member area [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. Click on Wireguard Config to download the configuration file. Each slot will contain a unique wireguard configuration file.
+        Log in to the StarVPN member area [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. Click on **Wireguard Config** to download the configuration file. Each slot will contain a unique wireguard configuration file.
 
-        ![starvpn download wireguard config](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/download-config_edited.jpg){class="glboxshadow"}
+        ![starvpn wireguard config download](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/wgconfigdl.png){class="glboxshadow"}
 
-    3. The config may contain IPv6 content, as GL.iNet routers is not support IPv6 good enough, so please delete the IPv6 content.
+        **Tips**: If you want to use the AmneziaWG obfuscation techniques, click on **AmneziaWG Config** to download the configuration file. Each slot will contain a unique AmneziaWG configuration file. 
+    
+        ![starvpn amneziawg config download](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/amneziawgdl.png){class="glboxshadow"}
 
-        ![startvpn wireguard configuration remove ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/starvpn_wireguard_configuration_remove_ipv6.jpg){class="glboxshadow"}
+    3. **Edit configuration file (Optional)**
+    
+        The config may contain IPv6 address. To avoid compatibility and connectivity issues, open the .conf file and remove IPv6 address, as shown below.
 
-    4. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
+        ![startvpn wireguard configuration remove ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/remove_ipv6.jpg){class="glboxshadow"}
 
-    [Refer link](https://www.starvpn.com/wireguard-setup-on-gl-inet-router/){target="_blank"}
+    4. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to upload the configuration file to your GL.iNet router.
+
+    References:
+    
+    - [WireGuard VPN Setup with StarVPN on GL.iNet Router](https://www.starvpn.com/wireguard-setup-on-gl-inet-router/){target="_blank"}
+    - [AmneziaWG VPN Setup with StarVPN](https://www.starvpn.com/amnezia-vpn-setup-with-starvpn){target="_blank"}
 
 ??? "StrongVPN"
     ### StrongVPN
@@ -280,7 +289,7 @@
 
     [Official Website](https://trustzonevpn.info/r.php?RID=B-byr1v-MDAxNzE3NjgxMjM4){target="_blank"}
 
-    1. Access [https://trust.zone/setup](https://trust.zone/setup) and login.
+    1. Access [https://trust.zone/setup](https://trust.zone/setup) and log in.
     
     2. Scroll down to the WireGuard section, choose the port you want, then download a config of specific server or a zip file of all configs.
 
@@ -291,7 +300,7 @@
 
     [Official Website](https://vpn.ac/aff.php?aff=1424){target="_blank"}
 
-    1. If you are using [VPN.AC](https://vpn.ac/aff.php?aff=1424){target="_blank"}, you need to login the control panel and find WireGuard Manager from the "Services" menu.
+    1. If you are using [VPN.AC](https://vpn.ac/aff.php?aff=1424){target="_blank"}, you need to log in to the control panel and find WireGuard Manager from the "Services" menu.
     
         ![VPN.AC WireGuard Manager](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnac/vpn.ac_wireguard_manager.jpg){class="glboxshadow"}
     
@@ -358,7 +367,7 @@
 
     [Official Website](https://12vpx.com/?aff=1174){target="_blank"}
 
-    If you are using [12VPX](https://12vpx.com/?aff=1174){target="_blank"}, login then access [this page](https://12vpx.com/setup/wireguard){target="_blank"}, you will see the configs of all servers.
+    If you are using [12VPX](https://12vpx.com/?aff=1174){target="_blank"}, log in and access [this page](https://12vpx.com/setup/wireguard){target="_blank"}, you will see the configs of all servers.
 
     Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 

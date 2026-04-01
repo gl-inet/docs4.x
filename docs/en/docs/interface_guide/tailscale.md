@@ -2,7 +2,7 @@
 
 Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. For more information about Tailscale, please visit [Tailscale official website](https://tailscale.com/).
 
-The Tailscale feature on GL.iNet routers, available since firmware V4.2, allows the router to join a Tailscale virtual network. Once connected, you can access the router remotely, including its WAN and LAN resources.
+The Tailscale feature on GL.iNet routers, available since firmware v4.2, allows the router to join a Tailscale virtual network. Once connected, you can access the router remotely, including its WAN and LAN resources.
 
 **Note**: 
 
@@ -80,7 +80,7 @@ The following is an example of the GL-MT2500.
 
     ![tailscale confirm connect device](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_connect_device.png){class="glboxshadow gl-70-desktop"}
 
-    When the connection is successful, you will be automatically redirected to the Tailscale admin console. You can see that the IP address of the GL-MT2500 is `100.88.54.21`. Now you can use this IP to access the router.
+    When the connection is successful, you will be automatically redirected to the Tailscale Admin console. You can see that the IP address of the GL-MT2500 is `100.88.54.21`. Now you can use this IP to access the router.
 
     ![tailscale admin console](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_admin_console_2.png){class="glboxshadow"}
 
@@ -116,7 +116,7 @@ The operation steps are as follows.
 
     ![enable allow remote access wan](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/enable_allow_remote_access_wan.png){class="glboxshadow"}
 
-2. Go to Tailscale admin console, and it will display an alert that GL-MT2500 has subnets. 
+2. Go to Tailscale Admin console, and it will display an alert that GL-MT2500 has subnets. 
 
     Click the three-dot icon on the right of GL-MT2500 and select **Edit route settings**.
 
@@ -146,7 +146,7 @@ The operation steps are as follows.
 
     ![enable remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/enable_allow_remote_access_lan.png){class="glboxshadow"}
 
-2. Go to Tailscale admin console, and it will display an alert that GL-MT2500 has subnets. 
+2. Go to Tailscale Admin console, and it will display an alert that GL-MT2500 has subnets. 
 
     Click the three-dot icon on the right of GL-MT2500 and select **Edit route settings**.
 
@@ -162,35 +162,53 @@ The operation steps are as follows.
 
 ## Custom Exit Nodes
 
-The exit node feature lets you route all non-Tailscale internet traffic through a specific device on your network. The device routing your traffic is called an “exit node”.
+By default, Tailscale acts as an overlay network: it only routes traffic between devices running Tailscale, and does not process your public Internet traffic — such as when browsing websites like Google.
+
+However, there might be times when you want Tailscale to route your public Internet traffic. For example, when you are away from home or traveling abroad, if you need to access online services (such as banking) that are only available in your home country, you can set your home desktop with a public IP as an Exit node, and configure other devices on the same Tailnet — such as the GL-AXT1800 and GL-MT3000 shown in the image below — to send their traffic through it. This enables all your public Internet traffic to be forwarded via the Exit Node.
 
 ![exitnode](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/exitnode.jpg){class="glboxshadow"}
 
-**Note**: If the router's DNS Server is a private IP address that can be accessed only in the local network, you may lose the Internet access when running the exit nodes. Please go to Network > DNS menu and set a manual public DNS server such as 8.8.8.8 as the solution.
+When all traffic is routed through an Exit Node, you are effectively using the default routes (0.0.0.0/0, ::/0), which works similarly to a regular VPN connection.
 
-Setup Steps:
+In summary, an Exit node routes outbound Internet traffic from your Tailnet devices, effectively acting as VPN servers. When connected to an Exit node, all your non-Tailscale Internet traffic appears to originate from its location, helping you access geo-restricted content and enhance your online privacy. The device handling this traffic forwarding is referred to as an "exit node".
 
-1. On the device you wish to use as an exit node, select **Run exit node**. On Windows, follow the steps below.
+**Note**: If the router's DNS server uses a private IP address accessible only within the local network, you may lose Internet connectivity when running an exit node. To resolve this, log in to the router, go to **NETWORK** -> **DNS**, and manually set a public DNS server such as 8.8.8.8.
+
+---
+
+In the following example, a GL.iNet router **GL-MT2500** and a **Leo-Desktop** are on the same Tailnet. Below are the steps to set Leo-Desktop as an Exit Node.
+
+1. Enable subnet routes of GL-MT2500 in the Tailscale Admin console.
+
+    Go to Tailscale Admin console, click the three-dot icon on the right of GL-MT2500 and select **Edit route settings**.
+
+    ![tailscale edit route settings](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_subnet_alert_wan.png){class="glboxshadow"}
+
+    In the pop-up window, enable the subnet routes.
+
+    ![tailcale, enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+
+2. On the device you want to use as an exit node, such as Leo-Desktop in this example, select **Run exit node**. Here's an example on Windows OS.
 
     ![tailscale windows, run exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node.png){class="glboxshadow"}
 
-    Click **Yes**.
+    Then click **Yes**.
 
     ![tailscale windows, run exit ndoe alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
 
-2. Set up the device as an exit node in the Admin console.
+3. In the Tailscale Admin console, set up the Leo-Desktop as an Exit node.
 
     ![tailscale exit node alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_exit_node_alert.png){class="glboxshadow"}
 
     ![tailscale use as exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_use_as_exit_node.png){class="glboxshadow"}
 
-3. Enable **Custom Exit Nodes** in your GL-router, click the refresh button, and select the IP of the device that has been set up as an exit node from the drop-down menu, then click **Apply**. That is it.
+4. Log in to the GL-MT2500's web Admin Panel, go to **APPLICATIONS** -> **Tailscale** and enable **Custom Exit Nodes**. Click the refresh button, and select the IP address of the Leo-Desktop from the drop-down menu, then click **Apply**.
 
     ![glinet tailscale, custom exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow"}
 
-4. The devices under that GL-router will use the home IP of the **Exit Node** .
+    Devices connected to the router will then route their traffic through the Exit Node to access the Internet, and all your Internet traffic will appear to originate from the Exit Node's location.
 
-[Refer link: Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/)
+References: [Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/){target="_blank"}
 
 ---
 

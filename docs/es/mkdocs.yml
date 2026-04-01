@@ -222,7 +222,7 @@ nav:
       - Actualizar módulo Quectel: tutorials/upgrade_quectel_module_software.md
       - Comprobar el estado de la agregación de portadoras: tutorials/how_to_check_carrier_aggregation.md
       - Configurar Spitz AX para vehículos recreativos: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
-      - Instalar o cambiar antenas externas: tutorials/how_to_change_x3000_and_xe3000_antennas.md
+      - Instalar o cambiar antenas externas: tutorials/how_to_install_or_change_antennas.md
     - eSIM:
       - Usar tarjeta física eSIM con routers GL.iNet: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Usar tarjeta física eSIM con dispositivos Android: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md

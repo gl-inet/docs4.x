@@ -4,6 +4,16 @@ This tutorial introduces the installation and replacement of external antennas f
 
 ## Install external antennas
 
+### Mudi 7
+
+Mudi 7 (GL-E5800) is equipped with two TS‑9 antenna ports, allowing you to connect external antennas (not included) to improve cellular signal in weak coverage areas. This is ideal for use in RVs, basements, and indoor environments to extend range and ensure a stable connection.
+
+![e5800 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/e5800-antenna.png){class="glboxshadow"}
+
+The TS‑9 ports on Mudi 7 are female connectors (internal hole). They require antennas with a TS‑9 male connector (internal pin).
+
+![ts-9 connector](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/ts9_connector.png){class="glboxshadow" width="328"}
+
 ### Spitz AX / Puli AX
 
 Spitz AX (GL-X3000) and Puli AX (GL-XE3000) come with the following external antennas:

@@ -1,6 +1,6 @@
-# How to use SIMPoYo uFi?
+# SIMPoYo 4G uFi User Guide
 
-SIMPoYo uFi is our compact Plug & Play USB dongle series with Wi-Fi hotspot, designed for fast and reliable connectivity anywhere. It works seamlessly with most GL.iNet routers, as well as laptops, power banks, car USB ports, and other USB power sources. It comes with 10GB of free data for 30 days, valid in the UK and 34 other European countries.
+SIMPoYo 4G uFi is our compact Plug & Play USB dongle series with Wi-Fi hotspot, designed for fast and reliable connectivity anywhere. It works seamlessly with most GL.iNet routers, as well as laptops, power banks, car USB ports, and other USB power sources. It comes with 10GB of free data for 30 days, valid in the UK and 34 other European countries.
 <br><small>*Available Only: [EU](https://store-eu.gl-inet.com/) & [UK Stores](https://store-uk.gl-inet.com/)</small>
 
 This guide will show you how to use the SIMPoYo uFi USB dongle (SP-N150C4), including LED indication, how to activate its built-in SIM card, use the dongle on different devices, top up data, and manage uFi settings.

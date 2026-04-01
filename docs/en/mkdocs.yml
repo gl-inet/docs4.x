@@ -123,6 +123,7 @@ nav:
     - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
     - GL-MT300N-V2 (Mango): user_guide/gl-mt300n-v2/index.md
     - GL-AR300M (Shadow): user_guide/gl-ar300m/index.md
+    - SIMPoYo 4G uFi: user_guide/simpoyo-4g-ufi/index.md
     - GL-M2: user_guide/gl-m2/index.md
     - GL-S200: user_guide/gl-s200/index.md
     - GL-S20: user_guide/gl-s20/index.md
@@ -227,7 +228,6 @@ nav:
     - eSIM:
       - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Use eSIM Physical Card with Android devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
-      - How to use SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
       - Access the LuCI via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md

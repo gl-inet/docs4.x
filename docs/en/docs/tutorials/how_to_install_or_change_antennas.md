@@ -6,7 +6,7 @@ This tutorial introduces the installation and replacement of external antennas f
 
 ### Mudi 7
 
-Mudi 7 (GL-E5800) is equipped with two TS‑9 antenna ports, allowing you to connect external antennas (not included) to improve cellular signal in weak coverage areas. This is ideal for use in RVs, basements, and indoor environments to extend range and ensure a stable connection.
+Mudi 7 (GL-E5800) is equipped with two TS‑9 antenna ports that support cellular frequencies from 600 MHz to 6 GHz. You can connect external antennas (not included) to improve cellular signal in weak coverage areas. It is ideal for use in RVs, basements, and indoor settings to extend range and ensure a stable connection. 
 
 ![e5800 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/e5800-antenna.png){class="glboxshadow"}
 
@@ -84,7 +84,7 @@ Follow these steps to install the antennas.
 
 ## Change external antennas
 
-The following guidance applies to all cellular routers with external antenna interfaces, except Mudi 7 (GL-E5800).
+The following instructions apply to all cellular routers with external antenna ports, except Mudi 7 (GL-E5800). Click [here](#mudi-7){target="_blank"} to view external antenna installation for Mudi 7.
 
 You can buy additional Wi-Fi or 4G/5G NR antennas to replace those included in the package, allowing you to customize your network setup.
 

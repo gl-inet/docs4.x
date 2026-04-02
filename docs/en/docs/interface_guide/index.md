@@ -79,7 +79,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## Flow Control
 
-* [DPI License](dpi_license.md)
+* [DPI Engine](dpi_engine.md)
 * [Data Statistics](data_statistics.md)
 * [Content Filter](content_filter.md)
 * [QoS (Quality of Service)](qos.md)

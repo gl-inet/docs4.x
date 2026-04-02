@@ -188,7 +188,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI feature adopts a lightweight embedded plug-in for efficient deployment. With Netify online-updated signature database, it enables reliable management, making network control more accurate and efficient.
 
-    Please refer to [DPI License](../../interface_guide/dpi_license.md) for detailed instructions.
+    Please refer to [DPI Engine](../../interface_guide/dpi_engine.md) for detailed instructions.
 
 === "Data Statistics"
 

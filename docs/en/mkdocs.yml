@@ -300,7 +300,7 @@ nav:
       - Network Acceleration: interface_guide/network_acceleration.md
       - NAT Settings: interface_guide/nat_settings.md
     - Flow Control:
-      - DPI License: interface_guide/dpi_license.md
+      - DPI Engine: interface_guide/dpi_engine.md
       - Data Statistics: interface_guide/data_statistics.md
       - Content Filter: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md

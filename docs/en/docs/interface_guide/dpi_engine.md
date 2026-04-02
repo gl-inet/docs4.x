@@ -18,9 +18,9 @@ Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI a
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
 
-## Enable DPI Engine
+## Quick Setup
 
-Log in to the router's web Admin Panel, go to **FLOW CONTROL** -> **DPI Engine** and click **Enable DPI Engine**.
+On the left side of the web Admin Panel, go to **FLOW CONTROL** -> **DPI Engine** and click **Enable DPI Engine**.
 
 ![dpi engine initial](https://static.gl-inet.com/docs/router/en/4/interface_guide/dpi_engine/dpi_engine_initial.png){class="glboxshadow"}
 

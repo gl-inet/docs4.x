@@ -2,21 +2,46 @@
 
 QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical activities (e.g., video calls, gaming) during network congestion, reducing latency and improving overall network performance. 
 
-**Note**: 
+**Note**: This feature affects traffic passing through the router as a gateway (including local client traffic and VPN Client traffic) but not incoming traffic when the router acts as a VPN Server.
 
-1. This feature is now available only on **GL-MT5000 (Brume 3)**.
+## Supported Models
 
-2. This feature affects traffic passing through the router as a gateway (including local client traffic and VPN Client traffic) but not incoming traffic when the router acts as a VPN Server.
+!!! note "Supported Models"
 
----
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MT5000 (Brume 3)
 
-On the left side of the web Admin Panel, go to **FLOW CONTROL** > **QoS**. 
+## Quick Setup
 
-Set your maximum upload and download speeds first (input range: 1 - 10000) for traffic scheduling. Match them to your actual internet bandwidth for the best results.
+On the left side of the web Admin Panel, go to **FLOW CONTROL** -> **QoS**. 
 
-Then set priorities for different applications, and the router will allocate bandwidth accordingly.
+Toggle the switch to enable QoS, and the page displays as follows.
 
 ![qos](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/qos.png){class="glboxshadow"}
+
+Set your maximum upload and download speeds (input range: 1 - 10000) for traffic scheduling. Match them to your actual internet bandwidth for the best results. 
+
+![qos speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/up_down_speed.png){class="glboxshadow"}
+
+**Note**: Values entered in the input field are in **Mbps** (megabits per second). The equivalent **MB/s** (megabytes per second) is displayed for your reference.
+
+Then set priorities for different applications. The router will allocate bandwidth accordingly.
+
+![app priority](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/app_priority.png){class="glboxshadow"}
+
+## Customize App Priority
+
+To customize application priority, select **Customize** and click **Pre-Set up**.
+
+![customize priority1](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/customize_priority1.png){class="glboxshadow"}
+
+In the pop-up window, all categories are set to Medium Priority by default.
+
+![customize priority2](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/customize_priority2.png){class="glboxshadow"}
+
+Drag the categories to adjust their priority as needed, then click **Confirm**.
+
+![customize priority3](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/customize_priority3.png){class="glboxshadow"}
 
 ---
 

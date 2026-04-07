@@ -1,53 +1,53 @@
 # DNS
 
-ウェブ管理パネルの左側 -> ネットワーク -> DNS
+Web Admin Panel の左側で、**NETWORK** -> **DNS** に移動します。
 
-ルーターのDNS設定は、ドメイン名がIPアドレスに変換される方法を制御します。このページでは、上位デバイスから自動的に取なければならないされたDNSサーバーを使用するか、カスタムサーバーを設定し、DNSの優先順位を設定できます。
+ルーターの DNS 設定では、ドメイン名をどのように IP アドレスへ変換するかを制御します。このページでは、上位デバイスから自動取得した DNS サーバーを使うか、カスタム DNS サーバーを設定するか、また DNS の優先順位を設定できます。
 
-カスタムDNSサーバーを設定すると、個別のネットワークインターフェースから取なければならないされたDNSサーバーではなく、指定したDNSサーバーを介してDNSクエリが解決されます。さりと、各インターフェースに設定されたDNS設定を使用します。
+カスタム DNS サーバーを設定すると、DNS クエリは各ネットワークインターフェースから取得した DNS サーバーではなく、指定した DNS サーバーで解決されます。設定しない場合は、各インターフェースごとの DNS 設定が使用されます。
 
 ![dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_page.png){class="glboxshadow"}
 
-- **DNSリバインディング攻撃防御:** このオプションをオンにすると、プライベートDNS検索に失敗する可能性があります。ネットワークにキャプティブポータルがある場合は、このオプションを無効にしてください。
+- **DNS Rebinding Attack Protection:** このオプションをオンにすると、プライベート DNS の名前解決に失敗する場合があります。ネットワークにキャプティブポータルがある場合は、このオプションを無効にしてください。
 
-- **すべてのクライアントのDNS設定を上書き:** 有効にすると、ルーターはすべてのクライアントの暗号化されていないDNS設定を上書きします。
+- **Override DNS Settings for All Clients:** 有効にすると、ルーターがすべてのクライアントの非暗号化 DNS 設定を上書きします。
 
-- **VPN DNSをカスタムDNSで上書きすることを許可:** 有効にすると、カスタムDNSを設定すると、VPNトンネルを介して送信されるパケットはVPN接続からのDNSサーバー設定ではなく、カスタムDNSオーバーライドを使用して解決されます。
+- **Allow Custom DNS to Override VPN DNS:** 有効にすると、カスタム DNS を設定したときに、VPN トンネル経由のパケットは VPN 接続側の DNS サーバー設定ではなく、カスタム DNS 設定で名前解決されます。
 
 ## DNSサーバー設定
 
-4つのモードがあります：から動、暗号化DNS、手動DNS、DNSプロキシ。
+4 つのモードがあります: Automatic、Encrypted DNS、Manual DNS、DNS Proxy。
 
-- **から動**: ルーターは上位デバイス（例：ISPモデム、プライマリルーター）から提供されたDNSサーバー、または各ネットワークインターフェースに対応するDNS設定を自動的に使用します。
+- **Automatic**: ルーターは上位デバイス（例: ISP モデム、プライマリルーター）から提供された DNS サーバー、または各ネットワークインターフェースに対応する DNS 設定を自動的に使用します。
 
     ![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
 
-- **暗号化DNS**: 4つの暗号化タイプが利用可能です：DNS over TLS、DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS。
+- **Encrypted DNS**: 4 種類の暗号化方式を利用できます。DNS over TLS、DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS です。
 
     ![encrypted dns types](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_types.png){class="glboxshadow"}
 
-    - DNS over TLSの場合、Control D、NextDNS、CloudflareからDNSプロバイダーを選択します。
+    - DNS over TLS では、Control D、NextDNS、Cloudflare から DNS プロバイダーを選択します。
 
         ![dns over tls](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_tls.png){class="glboxshadow"}
 
-    - 彼の3つ（DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS）の場合、リポジトリから少なくとも1つのDNSサーバーを選択します。
+    - それ以外の 3 つ（DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS）では、リポジトリから少なくとも 1 つの DNS Server を選択します。
 
         ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
 
-- **手動DNS**: ドロップダウンリストからルーター用の少なくとも1つのDNSサーバーを選択します。
+- **Manual DNS**: ドロップダウンリストから、ルーターで使用する DNS Server を少なくとも 1 つ選択します。
 
     ![manual dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/manual_dns.png){class="glboxshadow"}
 
-- **DNSプロキシ**: ルーターはすべてのLAN DNSクエリを指定したプロキシサーバーアドレス（例：8.8.8.8#53）にルーティングします。ネットワーク上で別のDNSサーバーやPi-holeを実行している場合に便利です。
+- **DNS Proxy**: ルーターはすべての LAN DNS クエリを、指定したプロキシサーバーアドレス（例: 8.8.8.8#53）へ転送します。ネットワーク上で別の DNS サーバーや Pi-hole を運用している場合に便利です。
 
     ![dns proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_proxy.png){class="glboxshadow"}
 
-## ホスト編集
+## Hosts の編集
 
-クライアントからのリクエストは、ホストに記述した静のDNSルールを使用して優先のに解決されます。
+クライアントからのリクエストは、Hosts に記述した静的 DNS ルールを優先して解決されます。
 
 ![hosts](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/edit_hosts.png){class="glboxshadow"}
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

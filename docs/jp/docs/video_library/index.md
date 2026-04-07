@@ -11,5 +11,5 @@ hide:
 ## コンテンツ
 
 * [新製品のご紹介](products.md)
-* [開栓と初回セットアップ](unboxing_first_set_up.md)
+* [開梱＆初回セットアップ](unboxing_first_set_up.md)
 * [チュートリアル](tutorials.md)

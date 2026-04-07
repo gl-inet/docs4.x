@@ -1,57 +1,57 @@
-# GL.iNetルーターでeSIM物理カードを使う方法
+# GL.iNetルーターでeSIM Physical Cardを使用する方法
 
-このガイドでは、GL.iNet オンラインストアで購入した eSIM 物理カードを GL.iNet ルーターで使用する方法を説明します。
+このガイドでは、GL.iNetオンラインストアで購入したeSIM Physical CardをGL.iNetルーターで使用する方法を紹介します。
 
 ![eSIM Physical Card](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_simpoyo_esim_physical_card_with_android_devices/simpoyo-esim-physical-card.png){class="glboxshadow"}
 
 ## 特長
 
-eSIM物理カードの主な特長は次のとおりです。
+eSIM Physical Cardの主な特長は以下のとおりです。
 
-- 4G および 5G ネットワークに対応し、高速かつ安定した接続を利用できます。
-- eSIM プロファイルの追加、削除、有効化を簡単に管理できます。
-- 世界中の多くの eSIM ストアから、好みのデータプランを選んで購入できます。
-- 世界中の多くの eSIM ストアの eSIM プロファイルに対応しています。
-- 個人情報を提供せずにオンラインで eSIM プロファイルを購入できるため、プライバシー漏えいのリスクを低減できます。
-- 米国およびヨーロッパ向けの無料データ 1GB と、グローバルデータ 100MB を含むシードプロファイルが付属します。有効期間は有効化日から 1 年間です。
-- 一部の GL.iNet デバイスで利用できます。
+- 4Gおよび5Gネットワークに対応し、安定した高速接続を実現します。
+- eSIMプロファイルの追加、削除、有効化を簡単に管理できます。
+- 世界中の多くのeSIMストアから、好みのデータパッケージをいつでも選択して購入できます。
+- 世界中の多くのeSIMストアのeSIMプロファイルに対応しています。
+- 個人情報を提供せずにオンラインでeSIMプロファイルを購入でき、プライバシー漏えいのリスクを軽減できます。
+- シードプロファイルが付属し、アクティベーション日から1年間有効な米国およびヨーロッパ向け1GBの無料データと、100MBのグローバルデータが含まれます。
+- 一部のGL.iNetデバイスに対応しています。
 
 ## 対応モデル
 
-| ルーター型番          | 対応 |
-| :-------------------- | :--: |
-| GL-X2000 (Spitz Plus) |  √   |
-| GL-X3000 (Spitz AX)   |  √   |
-| GL-XE3000 (Puli AX)   |  √   |
-| GL-E750V2 (Mudi V2)   |  √   |
-| GL-E750 (Mudi)        |  ※   |
-| GL-XE300 (Puli)       |  ※   |
-| GL-X750 (Spitz)       |  ※   |
-| GL-X300B (Collie)     |  ※   |
-| GL-E750V2 vSIM        |  X   |
-| GL-E5800 (Mudi 7)     |  X   |
+| Router Model                   | Support   |
+| :----------------------------- | :-------: |
+| GL-X2000 (Spitz Plus)          | √         |
+| GL-X3000 (Spitz AX)            | √         |
+| GL-XE3000 (Puli AX)            | √         |
+| GL-E750V2 (Mudi V2)            | √         |
+| GL-E750 (Mudi)                 | ※        |
+| GL-XE300 (Puli)                | ※        |
+| GL-X750 (Spitz)                | ※        |
+| GL-X300B (Collie)              | ※        |
+| GL-E750V2 vSIM                 | X         |
+| GL-E5800 (Mudi 7)              | X         |
 
-**※ 印のモデルについて**
+**※ が付いたモデルについて**:
 
-1. 現在の安定版ファームウェアでは eSIM をサポートしていません。eSIM 機能を利用するには、eSIM 対応ファームウェアをインストールする必要があります。詳細は [お問い合わせ](https://www.gl-inet.com/contacts/){target="\_blank"} ください。
+1. 現在の安定版ファームウェアではeSIMをサポートしていません。eSIM機能を使用するには、eSIM対応ファームウェアをインストールする必要があります。詳細は[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
 
-2. ※ 印のモデルで EP06-A モジュールを使用している場合、Qualcomm ソフトウェアが一部の AT コマンドをサポートしていないため、eSIM は利用できません。
+2. ※ のモデルで EP06-A モジュールを使用している場合、Qualcommソフトウェアが特定のATコマンドをサポートしていないため、eSIMは利用できません。
 
-3. ※ 印のモデルで EP06-E モジュールを使用している場合は、[こちらのリンク](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="\_blank"} を参照し、モジュールのファームウェアをアップグレードしたうえで、eSIM 対応ファームウェアを導入してください。
+3. ※ のモデルで EP06-E モジュールを使用している場合は、この[リンク](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"}を参照してモジュールのファームウェアをアップグレードし、eSIM対応ファームウェアをインストールしてeSIM機能を有効にしてください。
 
-**X 印のモデルについて**
+**X が付いたモデルについて**:
 
-1. GL-E750V2 vSIM は eSIM 機能をサポートしていません。
+1. GL-E750V2 vSIM はeSIM機能をサポートしていません。
 
-2. GL-E5800 (Mudi 7) は eSIM を内蔵しているため、eSIM 物理カードを挿しても通常の SIM カードとして認識され、eSIM 機能は利用できません。
+2. GL-E5800 (Mudi 7) にはeSIMが内蔵されています。そのため、Mudi 7ではeSIM Physical CardはeSIM機能のない通常のSIMカードとして認識されます。
 
-## eSIM物理カードを設定する
+## eSIM Physical Cardを設定する
 
-初めて eSIM 物理カードを使用する場合は、以下の動画を見るか、手順に従って GL.iNet ルーターで設定してください。
+初めてeSIM Physical Cardを使用する場合は、この設定動画を見るか、以下の手順に従ってGL.iNetルーターで設定してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SCex_vuvgNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**ステップ1:** eSIM 物理カードをルーターに挿入します。詳しくは以下の画像を参照してください。
+**Step 1:** eSIM Physical Cardをルーターに挿入します。詳しくは以下の画像を参照してください。
 
 ![E750V2](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/e750v2-sim-card.jpg){class="glboxshadow"}
 
@@ -59,171 +59,173 @@ eSIM物理カードの主な特長は次のとおりです。
 
 ![XE3000](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/xe3000-sim-card.jpg){class="glboxshadow"}
 
-**ステップ2:** ブラウザを開き、アドレスバーに `192.168.8.1` と入力して GL.iNet 管理パネルにログインします。
+**Step 2:** ブラウザを開き、アドレスバーに "192.168.8.1" と入力してGL.iNet管理パネルにログインします。
 
 ![log in to the GL.iNet Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/login-admin-panel.jpg){class="glboxshadow"}
 
-**ステップ3:** インターネットに接続します。
+**Step 3:** デバイスをインターネットに接続します。
 
-**INTERNET** に移動し、**Connect** をクリックします。古いファームウェアでは **Auto Setup** と表示される場合があります。モバイル回線経由でインターネットに接続してください。
+**INTERNET** に移動し、**Connect**（古いファームウェアでは **Auto Setup**）をクリックしてCellular経由でインターネットに接続します。
 
-_この eSIM 物理カードには、米国およびヨーロッパ向けの無料データ 1GB と、グローバルデータ 100MB を含むシードプロファイルが付属しています。有効期間は有効化日から 1 年間です。このデータは eSIM プロファイルの購入およびダウンロード専用であり、通常のインターネット利用を目的としたものではありません。_
+*このeSIM Physical Cardには、アクティベーション日から1年間有効な米国およびヨーロッパ向け1GBの無料データと、100MBのグローバルデータを含むシードプロファイルが付属しています。このデータはeSIMプロファイルの購入とダウンロード専用であり、一般的なインターネット利用を目的としたものではありません。*
 
 ![initial setup connect](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connect.jpg){class="glboxshadow"}
 
-インターネット接続に成功すると、次のような画面が表示されます。
+インターネット接続に成功すると、画面は次のように表示されます。
 
 ![initial setup connected](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connected.jpg){class="glboxshadow"}
 
 ## eSIMプロファイルを管理する
 
-**ステップ1:** GL.iNet デバイスに最新ファームウェアがインストールされていることを確認します。
+**Step 1:** GL.iNetデバイスに最新のファームウェアがインストールされていることを確認します。
 
-バージョンが 4.0 以上で、Firmware Type 番号が 0319 以上であることを確認してください。
+Version が 4.0 以上で、Firmware Type 番号が 0319 以上であることを確認してください。
 
 ![auto setup successfully](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/latest-firmware.png){class="glboxshadow"}
 
-ファームウェアが**最新ではない**場合は、オンラインまたは手動でアップグレードできます。
+ファームウェアが**最新でない**場合は、オンライン自動更新または手動更新でアップグレードできます。
 
-<u>オプション1</u>: オンラインアップグレード
+<u>Option 1</u>: オンラインファームウェア更新
 
 1. デバイスがインターネットに接続されていることを確認します。
 
-2. Web 管理パネルで **SYSTEM** > **Upgrade** > **Online Upgrade** に移動し、**Install** をクリックすると、自動的に最新ファームウェアへ更新されます。
+2. Web管理パネルで **SYSTEM** > **Upgrade** > **Online Upgrade** に移動し、**Install** ボタンをクリックして最新ファームウェアに自動更新します。
 
-   ![online upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/online-upgrade.png){class="glboxshadow"}
+    ![online upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/online-upgrade.png){class="glboxshadow"}
 
-<u>オプション2</u>: 手動アップデート
+<u>Option 2</u>: 手動ファームウェア更新
 
-1. [こちら](https://dl.gl-inet.com/){target="\_blank"} から、eSIM 機能に対応した対象モデル用ファームウェアをダウンロードします。
+1. eSIM機能に対応した対象モデルのファームウェアを[こちら](https://dl.gl-inet.com/){target="_blank"}からダウンロードします。
 
-2. Web 管理パネルで **SYSTEM** > **Upgrade** > **Local Upgrade** に移動し、ファームウェアファイルを選択するか指定領域にドラッグして、最新バージョンへアップグレードします。
+2. Web管理パネルで **SYSTEM** > **Upgrade** > **Local Upgrade** に移動します。ファームウェアファイルを選択するか、指定エリアにドラッグして最新バージョンへ更新します。
 
-   ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/local-upgrade.png){class="glboxshadow"}
+    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/local-upgrade.png){class="glboxshadow"}
 
 !!! Note
 
-    1. Mudi (GL-E750)、Puli (GL-XE300)、Spitz (GL-X750) など一部のモデルは、Quectel EP06-A モジュールを搭載している場合、Qualcomm ソフトウェアが一部の AT コマンドをサポートしていないため eSIM を利用できません。
+    1. Mudi (GL-E750)、Puli (GL-XE300)、Spitz (GL-X750) など一部のモデルは、Qualcommソフトウェアが特定のATコマンドをサポートしていないため、Quectel EP06-A モジュール搭載時はeSIMをサポートしません。
 
-    2. EP06-E モジュールを搭載している場合は、[こちらのリンク](https://forum.gl-inet.com/t/48907){target="_blank"} を参照し、モジュールを最新ソフトウェアにアップグレードしてください。
+    2. EP06-E モジュールを搭載している場合は、eSIM機能を利用するために、[このリンク](https://forum.gl-inet.com/t/48907){target="_blank"}を参照してモジュールを最新ソフトウェアへアップグレードしてください。
 
-**ステップ2:** eSIM Management に移動します。
+**Step 2:** eSIM管理画面に移動します。
 
-ファームウェア更新後、デバイスが再起動したら GL.iNet 管理パネルにログインします。
+ファームウェアの更新後、デバイスが再起動するのを待ってからGL.iNet管理パネルにログインします。
 
-**APPLICATIONS** > **eSIM Management** に移動すると、現在の eSIM 状態を確認できます。
+**APPLICATIONS** > **eSIM Management** に移動します。ここで現在のeSIMステータスを確認できます。
 
 ![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-manage-status.jpg){class="glboxshadow"}
 
-同時に有効化できる eSIM プロファイルは 1 つだけです。緑色のドットは、そのプロファイルが現在有効であることを示します。
+同時に有効化できるeSIMプロファイルは1つだけです。緑の点は、選択したeSIMプロファイルが現在有効であることを示します。
 
-## eSIM Management ガイド
+## eSIM管理ガイド
 
 ![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-management-interface-guide.jpg){class="glboxshadow"}
 
-**A. 現在のeSIM状態:**
+**A. 現在のeSIMステータス:**
 
-このセクションには、eSIM の基本情報と現在有効なプロファイルの詳細が表示されます。
+このセクションには、eSIMの基本情報と現在有効なプロファイルの詳細が表示されます。
 
-- **EID:** eUICC（eSIM チップ）のグローバルで一意な識別子です。プロファイルの識別や制御に使用されます。
-- **ICCID:** 現在有効な eSIM プロファイルの Integrated Circuit Card Identifier です。
-- **IMSI:** 現在有効な eSIM プロファイルの International Mobile Subscriber Identity です。
-- **eSIM OS Version:** eUICC の互換性や機能を定義するオペレーティングシステムのバージョンです。
-- **eSIM Storage (remain/total):** eSIM プロファイル保存用として eUICC 上で利用可能な容量と総容量です。
-- **eSIM Profile Number:** eUICC に保存されている eSIM プロファイル数です。
+- **EID:** 識別とプロファイル制御に使用される eUICC（eSIMチップ）のグローバル一意識別子です。
+- **ICCID:** 現在有効なeSIMプロファイルの Integrated Circuit Card Identifier です。
+- **IMSI:** 現在有効なeSIMプロファイルの International Mobile Subscriber Identity です。
+- **eSIM OS Version:** eUICCの互換性と機能を定義するオペレーティングシステムのバージョンです。
+- **eSIM Storage (remain/total):** eSIMプロファイル保存用の eUICC 上の空き容量と総容量です。
+- **eSIM Profile Number:** 現在 eUICC に保存されているeSIMプロファイル数です。
 
 **B. シードプロファイル:**
 
-このセクションには、シードプロファイルの詳細が表示されます。シードプロファイルには、有効化日から 1 年間有効な米国およびヨーロッパ向けの無料データ 1GB と、グローバルデータ 100MB があらかじめ含まれています。このデータを使って世界各地で他のプロファイルをダウンロードできます。残量、総量、有効期限などの使用状況も確認できます。
+このセクションにはシードプロファイルの詳細が表示されます。シードプロファイルには、アクティベーション日から1年間有効な米国およびヨーロッパ向け1GBの無料データと、100MBのグローバルデータが事前に読み込まれています。このデータを使って世界中で他のプロファイルをダウンロードできます。残量、総量、有効期限などの使用状況も確認できます。
 
 **C. 通常プロファイル:**
 
-このセクションには、通常プロファイルの情報が表示されます。オンラインストアで eSIM プロファイルを購入し、**Add eSIM Profile (QR Code Install)** 機能で QR コードをアップロードすると、アップロード完了後にここへ表示されます。
+このセクションには通常プロファイルの情報が表示されます。オンラインストアでeSIMプロファイルを購入し、**Add eSIM Profile (QR Code Install)** 機能でeSIM QRコードをアップロードすると、アップロード完了後にここへ表示されます。
 
-**D. eSIMプロファイルを追加する（QR Code Install）:**
+**D. Add eSIM Profile (QR Code Install):**
 
-eSIM プロファイルをアップロードしてインストールする中心機能です。オンラインストアで eSIM プロファイルを購入すると QR コードが発行されます。このボタンから QR コードをアップロードすると、ルーターへ eSIM プロファイルがダウンロードされてインストールされます。
+これはeSIMプロファイルをアップロードしてインストールするための中心的な機能です。オンラインストアでeSIMプロファイルを購入すると、QRコードが提供されます。このボタンをクリックしてQRコードをアップロードすると、ルーターにeSIMプロファイルがダウンロードおよびインストールされます。
 
-**E. サポート用ログをエクスポートする:**
+**E. Export Log for Support:**
 
-このセクションでは、eSIM の動作に関連するログを確認できます。問題が発生して技術サポートが必要な場合は、ログをエクスポートし、support@gl-inet.com 宛てに送信してください。
+このセクションでは、eSIMの動作に関連するすべてのログを確認できます。問題が発生して技術サポートが必要な場合は、これらのログをエクスポートし、support@gl-inet.com までメールでサポートチームへ共有できます。
 
-**F. トップアップ:**
+**F. Top-up:**
 
-GL.iNet が提供する無料データやプリロード済みデータを使い切った場合、または有効期限切れ後もサービスを継続したい場合は、**Top-up** をクリックし、QR コードをスキャンして追加データを購入できます。
+GL.iNetが提供する無料の事前読み込みデータを使い切った場合、または有効期限切れ後もサービスを継続したい場合は、**Top-up** ボタンをクリックしてQRコードをスキャンし、追加データを購入できます。
 
 **G. 推奨eSIMプロファイルストア:**
 
-GL.iNet では、EIOTCLUB と Tuge の 2 つのパートナー eSIM ストアを推奨しています。QR コードをスキャンするか、[EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="\_blank"} または [Tuge eSIM Store](https://esim_store.gl-inet.com/){target="\_blank"} のリンクを開いて購入できます。ほかのサードパーティープロバイダーから eSIM パッケージを購入することも可能です。
+GL.iNetでは、利便性のために EIOTCLUB と Tuge の2つの提携eSIMストアを推奨しています。QRコードをスキャンするか、リンク（[the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} または [the Tuge eSIM Store](https://esim_store.gl-inet.com/){target="_blank"}）をクリックして、必要に応じて購入できます。もちろん、他のサードパーティeSIMプロバイダーから購入することも可能です。
 
-**H. 操作:**
+**H. Actions:**
 
-このセクションでは、eSIM プロファイルの有効化、切り替え、削除を簡単に行えます。
+このセクションでは、eSIMプロファイルの有効化、切り替え、削除などを簡単に管理できます。
 
-## eSIMシードプロファイルをトップアップする
+## eSIMシードプロファイルをチャージする
 
-初期設定や eSIM プロファイル購入のために、GL.iNet はプリロード済みデータとして、グローバル向け 100MB とヨーロッパ / 米国向け 1GB を提供しています。これらのプランは比較的高価ですが、インターネットに接続できない場所へ到着した直後に新しい eSIM プロファイルをダウンロードする必要がある場面を想定して用意されています。
+初期設定やeSIMプロファイル購入のために、GL.iNetは事前読み込みデータとしてグローバル向け100MBと、ヨーロッパおよび米国向け1GBを提供しています。これらのプランは料金が高めに設定されており、インターネット接続がない場所に到着した際に新しいeSIMプロファイルをダウンロードする必要がある場合を想定しています。
 
-eSIM シードプロファイルをトップアップするには、**Top-up** ボタンをクリックし、QR コードをスキャンして画面の案内に従ってください。
+eSIMシードプロファイルをチャージするには、**Top-up** ボタンをクリックし、QRコードをスキャンして案内に従ってください。
 
 ![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim_top-up.jpg){class="glboxshadow"}
 
 ## eSIMプロファイルを購入してインストールする
 
-ルーターの設定が完了したら、以下の手順に従って eSIM プロファイルを購入し、有効化してください。
+ルーターの設定完了後、以下の手順でeSIMプロファイルを購入して有効化します。
 
-**ステップ1:** eSIM ストアで eSIM プロファイルを購入します。
+**Step 1:** eSIMストアでeSIMプロファイルを購入します。
 
-<u>オプション1</u>: 推奨ストアのいずれかから購入します。[EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="\_blank"} または [Tuge eSIM Store](https://esim_store.gl-inet.com){target="\_blank"} を利用してください。直接リンクは以下の画像からも確認できます。
+<u>Option 1</u>: 推奨ストアである [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} または [the Tuge eSIM Store](https://esim_store.gl-inet.com){target="_blank"} のいずれかでeSIMプロファイルを購入します。ストアへの直接リンクは以下の画像を参照してください。
 
-_これら 2 つのストアで購入した eSIM プロファイルパッケージは、当社ルーターとの完全互換性が確認されています。ご不明点があれば support@gl-inet.com までお問い合わせください。_
+
+*これら2つのストアで購入したeSIMプロファイルパッケージは、当社ルーターとの完全な互換性が確認されています。ご不明な点がある場合は、support@gl-inet.com までサポートチームへお問い合わせください。*
 
 ![eSIM recommend store](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-profile-recommend-store-1.jpg){class="glboxshadow"}
 
 ![eSIM recommend store](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-profile-recommend-store-2.jpg){class="glboxshadow"}
 
-<u>オプション2</u>: [こちらのリンク](https://forum.gl-inet.com/t/carriers-supported-by-gl-inet-physical-esim/54164){target="\_blank"} を参照すると、GL.iNet がテストしたストアの一覧を確認できます。ただし、これらのストアのすべてのパッケージについて、GL.iNet ルーターとの完全な互換性を保証するものではありません。
+<u>Option 2</u>: GL.iNetでテスト済みのストア一覧は[このリンク](https://forum.gl-inet.com/t/carriers-supported-by-gl-inet-physical-esim/54164){target="_blank"}を参照してください。なお、これらのストアのすべてのパッケージがGL.iNetルーターと完全互換であることは保証できません。
 
-_GL.iNet はこれらのストアと提携していないため、これらのパッケージに関するアフターサポートや返金には対応できません。_
+*GL.iNetはこれらのストアと提携していないため、これらのパッケージに関するアフターサポートや返金対応はできません。*
 
-<u>オプション3</u>: 任意のサードパーティープロバイダーから eSIM プロファイルを購入します。
+<u>Option 3</u>: 任意の他のサードパーティプロバイダーからeSIMプロファイルを購入します。
 
-**ステップ2:** eSIM プロファイルをインストールします。
+**Step 2**: eSIMプロファイルをインストールする
 
-購入後に発行される QR コードをコンピューターへ保存します。その後、**Add eSIM Profile (QR Code Install)** をクリックして、購入した eSIM プロファイルをアップロードし、インストールします。
+eSIMプロファイルを購入すると、QRコードが提供されます。このQRコードをコンピューターに保存してください。次に **Add eSIM Profile (QR Code Install)** ボタンをクリックして、購入したeSIMプロファイルをアップロードしてインストールします。
 
 ![add eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/add-esim-profile-1.jpg){class="glboxshadow"}
 
 ![add eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/add-esim-profile-2.jpg){class="glboxshadow"}
 
-**注意:** 上の画像で緑色の矢印が示しているように、正しくフォーマットされた QR コードでは、**LPA:** で始まるアクティベーションコードが表示されます。
+**Note:** 上の画像の緑色の矢印が示すように、正しい形式のQRコードでは **LPA:** で始まるアクティベーションコードが表示されます。
 
-_一部の非標準 QR コードでは、LPA プレフィックスのない生のアクティベーションコードだけが表示される場合があります。その場合は、**Download & Install** をクリックする前に、コードの先頭へ手動で `LPA:` を追加してください。_
+*ただし、標準外のQRコードでは LPA プレフィックスなしの生のアクティベーションコードしか出ない場合があります。
+その場合は、**Download & Install** ボタンをクリックする前に、コードの先頭へ手動で "LPA:" を追加してください。*
 
-**ステップ3:** 新しいプロファイルを有効化します。
+**Step 3:** 新しいプロファイルを有効にする
 
-QR コードのアップロードに成功すると、新しい eSIM プロファイルが **通常プロファイル** の下に表示されます。**Enable** をクリックして有効化してください。
+QRコードのアップロードに成功すると、新しいeSIMプロファイルが **Normal Profile** の一覧に表示されます。**Enable** をクリックして新しいeSIMプロファイルを有効化します。
 
 ![enable your new profile](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/enable-your-new-profile.jpg){class="glboxshadow"}
 
-**ステップ4:** 新しい eSIM プロファイルを適用し、インターネットへ接続します。
+**Step 4:** 新しいeSIMプロファイルを適用してインターネットに接続する
 
-eSIM プロファイルを有効化したら、**INTERNET** に移動し、**Connect** をクリックしてプロファイルを適用します。
+eSIMプロファイルを有効にしたら、**INTERNET** に移動し、**Connect** をクリックしてeSIMプロファイルを適用し、インターネットへ接続します。
 
 ![connect to internet](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/enable-your-new-profile-connect.jpg){class="glboxshadow"}
 
-_注意: 一部の eSIM プロファイルでは、APN、PIN、TTL などの追加設定が必要になることがあります。必要な場合は **Manual Setup** または **SIM Card Settings** をクリックして設定してください。インターネット接続を確立するために、デバイスの再起動が必要な場合もあります。_
+*注: 一部のeSIMプロファイルでは、APN、PIN、TTL などの追加設定が必要な場合があります。必要に応じて **Manual Setup** または **SIM Card Settings** をクリックして設定してください。場合によっては、インターネット接続を確立するためにデバイスの再起動が必要です。*
 
-設定が完了すると、次のような画面が表示されます。
+eSIMプロファイルの設定に成功すると、画面は次のように表示されます。
 
 ![eSIM profile is successfully set up](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/enable-your-new-profile-successfully.jpg){class="glboxshadow"}
 
-**ステップ5:** eSIM プロファイルを切り替える、または削除します。
+**Step 5:** eSIMプロファイルを簡単に切り替えまたは削除する
 
-有効化したいプロファイルの横にある **Enable** をクリックすると、簡単にプロファイルを切り替えられます。削除する場合は **Delete** をクリックしてください。
+有効化したいプロファイルの横にある **Enable** をクリックすると、eSIMプロファイルを簡単に切り替えられます。eSIMプロファイルを削除するには、**Delete** をクリックしてください。
 
 ![eSIM profile is successfully set up](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/switch-or-delete-esim-profile.jpg){class="glboxshadow"}
 
 ---
 
-まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="\_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="\_blank"}をご覧ください。
+ご不明な点がありましたら、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。

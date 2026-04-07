@@ -1,33 +1,37 @@
-# セルラールーターのキャリアアグリゲーションステータスを確認する方法
+# セルラールーターでキャリアアグリゲーションの状態を確認する方法
 
-キャリアアグリゲーションは、複数のネットワークバンドを組み合わせて、セルラー接続の帯域幅と速度をへ上させる技術です。GL.iNetの携帯ルーターでは、ルーター管理パネルからキャリアアグリゲーションのステータスを確認できます：
+キャリアアグリゲーションは、複数のネットワークバンドを組み合わせることで、セルラー接続の帯域幅を広げ、通信速度を向上させる機能です。
 
-| ルーターモデル                  | サポート   |
-| :----------------------------- | :-------: |
-| Spitz AX (GL-X3000)            | √         |
-| Puli AX (GL-XE3000)            | √         |
-| Mudi V2 (GL-E750V2)            | √         |
-| Mudi (GL-E750)                 | √         |
-| Spitz (GL-X750)                | √         |
-| Collie (GL-X300B)              | √         |
-| Puli (GL-XE300)                | √         |
-| Cirrus (GL-AP1300LTE)          | √         |
+この機能は SIM キャリア側のサポートに依存するため、ルーターの Web 管理画面で有効化することはできません。
 
-（キャリアアグリゲーションはルーター管理パネル内で有効にすることはできません。この機能はGL.iNetではなく、SIMキャリアによって提供されます。）
+ただし、ルーターの Web 管理画面で AT コマンドを使うことで、キャリアアグリゲーションの状態を確認できます。
 
-キャリアアグリゲーションのステータスを確認するには、次の手順に従います：
+!!! note "対応モデル"
 
-1. SIMカードをルーターに挿入していることを確認してください。
-2. ウェブブラウザのアドレスバーに「192.168.8.1」と入力し、サインインします。
-3. 右側のアイコンをクリックします。
-    ![アイコンをクリック](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/cellular-click-icon-right.png){class="glboxshadow"}
-4. **ATコマンドフィールド**に「**AT+QCAINFO**」と入力します。
-5. **送信**をクリックします。
+    - GL-E5800 (Mudi 7)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-E750/GL-E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-XE300 (Puli)
+    - GL-X300B (Collie)
+    - GL-AP1300LTE (Cirrus)
 
-キャリアアグリゲーションが有効な場合、リストに複数のネットワークバンドが表示されます。
+以下の手順でキャリアアグリゲーションの状態を確認してください。
 
-![ATCINFO](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/carrier-aggregation-information.png){class="glboxshadow"}
+1. ルーターに SIM カードを挿入します。
+2. Web ブラウザを開き、アドレスバーに `192.168.8.1` と入力してログインします。
+3. **INTERNET** -> **Cellular** セクションに移動し、右上の三点アイコンをクリックして **Modem AT Command** をクリックします。
+
+    ![Modem AT Command](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/modem-at-command.png){class="glboxshadow"}
+
+4. ポップアップウィンドウで **AT+QCAINFO** を入力し、**Send** をクリックします。
+
+    キャリアアグリゲーションが有効な場合は、一覧に複数のネットワークバンドが表示されます。
+
+    ![atcainfo](https://static.gl-inet.com/docs/router/en/4/tutorials/carrier_aggregation/carrier-aggregation-info.png){class="glboxshadow"}
 
 ---
 
-まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com)をご覧ください。
+まだご不明な点がありますか？ [Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

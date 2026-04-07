@@ -1,23 +1,23 @@
 # ヘルプ
 
-ウェブ管理パネルで、タイトルバーの右側にある疑問符アイコンをクリックします。
+Web管理パネルで、タイトルバー右側の疑問符アイコンをクリックします。
 
 ![help](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/help.png){class="glboxshadow"}
 
-[ルーターサポートドキュメント](https://docs.gl-inet.com/router/en/4){target="_blank"}を見つけることができます。
+[Router Support Docs](https://docs.gl-inet.com/router/en/4){target="_blank"} を参照できます。
 
-firmware v4.8で降、ワンクリックで技術サポートに連絡できるようになり、サポートを受けやすくなります。
+ファームウェア v4.8 以降では、ワンクリックで Tech Support に連絡できるようになり、サポートを受けやすくなりました。
 
-**技術サポートに連絡**をクリックするとログページに移動し、右側にポップアップウィンドウが表示されます。
+**Contact Tech Support** をクリックすると Log ページへ移動し、右側にポップアップウィンドウが表示されます。
 
 ![contact support](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/contact_support.png){class="glboxshadow"}
 
 ![send feedback](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/send_feedback.png){class="glboxshadow"}
 
-システムログのアップロードとデバッグ情報のアップロードのオプションはデフォルトでチェックされています。
+**Upload System Log** と **Upload Debug Info** は、デフォルトでチェックされています。
 
-必要な情報を入力し、**送信**をクリックしてサポートを受けてください。
+必要な情報を入力し、**Send** をクリックしてサポートを依頼してください。
 
 ---
 
-まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}を訪問してください。
+ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

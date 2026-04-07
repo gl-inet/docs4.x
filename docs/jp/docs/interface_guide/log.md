@@ -1,21 +1,21 @@
 # ログ
 
-ウェブ管理パネルの左側 -> **システム** -> **ログ**
+Web管理パネルの左側で、**SYSTEM** -> **Log** に移動します。
 
-ログページでは、分析およびトラブルシューティングのために、システム、カーネル、クラッシュ、クラウド、Nginxのログを表示できます。
+Log ページでは、System、Kernel、Crash、Cloud、Nginx のログを表示でき、分析やトラブルシューティングに役立ちます。
 
-eSIMをサポートする一部のセルurermodelsでは、eSIMログが提供されています。
+eSIM をサポートする一部のセルラーモデルでは、eSIM log も提供されます。
 
-以下是GL-X3000の例子。
+以下は GL-X3000 の例です。
 
 ![log page](https://static.gl-inet.com/docs/router/en/4/interface_guide/log/log.png){class="glboxshadow"}
 
-**フィルタリング**機能は、ファームウェアv4.8で降のシステムログページで利用できます。レベルまたはモジュールを選択するか、キーワードを入力してログを素早くクエリできます。
+**filtering** 機能は、ファームウェア v4.8 以降の System Log ページで利用できます。レベルやモジュールを選択するか、キーワードを入力して、ログをすばやく絞り込めます。
 
-**アップデート**をクリックして最も新のログ情報を取なければならないします。
+**Refresh** をクリックすると、最新のログ情報を取得できます。
 
-**ログをエクスポート**をクリックして、システム、カーネル、クラッシュ、クラウドのログ情報をエクスポートします。GL.iNetにフィードバックする場合、エクスポートされたログファイルをGL.iNetの技術サポートに送信して、より速く問題を分析してもらうことができます。
+**Export Log** をクリックすると、System、Kernel、Crash、Cloud のログ情報をエクスポートできます。GL.iNet にフィードバックを送る際は、エクスポートしたログファイルを技術サポートへ送信することで、問題解析をより迅速に進められます。
 
 ---
 
-まだご質問はありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

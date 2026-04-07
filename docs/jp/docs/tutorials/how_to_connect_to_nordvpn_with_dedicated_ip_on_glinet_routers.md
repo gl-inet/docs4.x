@@ -1,4 +1,4 @@
-# GL.iNetルーターでNordVPNにDedicated IPで接続する方法
+# GL.iNetルーターでNordVPNのDedicated IPに接続する方法
 
 この記事では、GL.iNet ルーターで NordVPN の Dedicated IP 接続を設定する手順を紹介します。
 
@@ -12,7 +12,7 @@
 
     ![download nordvpn dedicated ip info](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/download_dedicated_ip_config.png){class="glboxshadow"}
 
-3. Nord Account のページに戻り、**Manual Setup** に進んで **Set up NordVPN Manually** をクリックし、サービス認証情報を取得します。
+3. Nord Account ページに戻り、**Manual Setup** に進んで **Set up NordVPN Manually** をクリックし、サービス認証情報を取得します。
 
     ![nordvpn manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup.png){class="glboxshadow"}
 
@@ -22,7 +22,7 @@
 
     ![set up nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/set_up_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
-    有効な設定ファイルが 1 つ検出されました。ユーザー名とパスワードを入力してください。これらの設定ファイルで異なるパスワードを使用している場合は、それぞれの設定ファイルごとに対応するパスワードを入力する必要があります。
+    有効な設定ファイルが 1 つ検出されました。ユーザー名とパスワードを入力してください。これらの設定で異なるパスワードを使用している場合は、それぞれの設定ファイルに対応するパスワードを入力する必要があります。
 
 5. 右側の三点アイコンをクリックして接続します。あるいは **VPN Dashboard** に移動し、設定ファイルを選択して **Apply** をクリックして接続することもできます。
 

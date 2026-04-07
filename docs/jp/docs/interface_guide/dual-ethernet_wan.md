@@ -1,11 +1,12 @@
 # デュアルイーサネットWAN
 
-デュアルイーサネットWAN機能を使用すると、デフォルトのLAN1を2番目のWANポートに切り替えることができ、デュアルバンド幅聚合（対応している場合）で高必要用途に信頼性の高いバックアップ接続を提供します。また、仕事と個人など2つの独立したネットワークに同時に接続でき、追加のハードウェアなしで柔軟性をへ上できます。
+デュアルイーサネットWAN機能では、デフォルトの LAN1 を2つ目の WAN ポートに切り替えて、デュアルイーサネット接続を実現できます。これにより、信頼性の高いバックアップ接続が可能になり、対応モデルでは帯域幅の集約もサポートされるため、高負荷な用途にも適しています。また、追加のハードウェアなしで、仕事用と個人用など2つの別々のネットワークへ同時接続することもできます。
 
 ## 対応モデル
 
 ??? "対応モデル"
     - ※GL-E5800 (Mudi 7)
+    - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
@@ -15,7 +16,7 @@
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
 
-    **注意**: GL-E5800 (Mudi 7)には1つのイーサネットポート（デフォルトLAN、WANに切り替え可能）と**<ruby>OTG対応<rt>OTG対応</rt></ruby>USB-Cポート**が装備されています。デュアルイーサネットWAN用の2番目のイーサネットポートを追加するには、USB-Cポートに別途販売されているUSB-C-to-イーサネットアダプタを接続してください。
+    **注意**: GL-E5800 (Mudi 7) には、イーサネットポートが1つ（デフォルトは LAN、WAN へ切り替え可能）と、**OTG対応 USB-C ポート** が搭載されています。デュアルイーサネットWAN用に2つ目のイーサネットポートを追加するには、別売りの USB‑C‑to‑Ethernet アダプターを USB‑C ポートへ接続してください。
 
 ??? "非対応モデル"
     - GL-B3000 (Marble)
@@ -37,14 +38,18 @@
 
 ## セットアップ
 
-1. ルーターのウェブ管理パネルにログインします。
+1. ルーターの Web 管理パネルにログインします。
 
-2. **ネットワーク** -> **ポート管理** -> **LAN**タブに移動し、ポートのプロパティをWANに切り替えて、**適用**をクリックします。
+2. **NETWORK** -> **Port Management** -> **LAN** タブに移動し、ポートのプロパティを WAN に切り替えて **Apply** をクリックします。
 
     ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/tutorials/dual-ethernet_wan/dual_ethernet_1.png){class="glboxshadow"}
 
-3. ポップアップウィンドウで、**適用**をクリックします。
+3. ポップアップウィンドウで **Apply** をクリックします。
 
     ![dual ethernet wan 2](https://static.gl-inet.com/docs/router/en/4/tutorials/dual-ethernet_wan/dual_ethernet_2.png){class="glboxshadow"}
 
-4. デュアルイーサネットWANを有効にすると、[こちら](../interface_guide/multi-wan.md)でマルチWAN機能を設定できます。
+4. デュアルイーサネットWANを有効にした後は、[こちら](../interface_guide/multi-wan.md)でマルチWAN機能を設定できます。
+
+---
+
+ご不明な点がありましたら、[コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。

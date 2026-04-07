@@ -1,60 +1,62 @@
 # LAN
 
-ウェブ管理パネルの左側 -> ネットワーク -> LAN
+Web Admin Panel の左側で、**NETWORK** -> **LAN** に移動します。
 
-LANは、デバイスがメインWi-Fiまたはイーサネットケーブルで接続されている場合のネットワークです。
+LAN は、デバイスがメイン Wi-Fi または Ethernet ケーブルで接続されたときに利用するネットワークです。
 
-基本設定、DHCPサーバー設定、アドレス予約が含まれています。
+このページには基本設定、DHCP Server 設定、Address Reservation が含まれます。
 
 ## 基本設定
 
 ![lan basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/basic_settings.jpg){class="glboxshadow"}
 
-- **ルーターIPアドレス**
+- **Router IP Address**
 
-    ルーターIPアドレスは、ルーターの管理ページにアクセスするためにブラウザのアドレスバーに入力するアドレスです。
+    これは、ルーターの管理画面にアクセスする際にブラウザーのアドレスバーへ入力するアドレスです。
     
-    デフォルトは**192.168.8.1**です。ネットワークと競合する場合は変更できます。
+    デフォルトは **192.168.8.1** です。ネットワークと競合する場合は変更できます。
 
-- **ネットマスク**
+- **Netmask**
 
-    2つのオプションがあります：**255.255.255.0**と**255.255.0.0**
+    デフォルトは **255.255.255.0** です。より多くの IP アドレスが必要な大きなサブネットが必要な場合は、**255.255.0.0** も選択できます。
 
-- **AP分離**
+- **AP Isolation**
 
-    ネットワークのクライアントデバイスを別のネットワーク領域に分離できます。これらのデバイスはネットワーク上の彼のデバイスと通信できません。
+    クライアントデバイスを別のネットワークセグメントに分離できます。これらのデバイスは同じネットワーク上のほかのデバイスと通信できなくなります。
 
 ## DHCPサーバー
 
-**DHCPサーバー**はデフォルトで有効になっています。DHCPサーバーは各クライアントデバイスにIPアドレスとその彼の通信パラメータを自動的に割り当てます。DHCPサーバーが無効になっている場合は、各クライアントに対して手動で設定する必要があります。[静のIPを手動で設定する方法は？](../tutorials/manually_configure_static_ip.md)
+**DHCP Server** はデフォルトで有効です。DHCP サーバーは各クライアントデバイスに IP アドレスとそのほかの通信パラメーターを自動的に割り当てます。
 
-必要に応じて開始IPアドレスと終たIPアドレスを変更できます。例えば、ネットワーク規模が拡大または縮小された場合、ネットワーク内にIPアドレスの競合がある場合、またはサブネットマスクまたはIPアドレス範囲が変更された場合などに使用します。
+DHCP サーバーを無効にした場合は、クライアントデバイス側でネットワーク設定を手動で行う必要があります。静的 IP を手動で設定する方法については、[こちら](../tutorials/manually_configure_static_ip.md) を参照してください。
+
+開始 IP アドレスと終了 IP アドレスは、ネットワークの拡大・縮小、IP アドレス競合の発生、サブネットマスク範囲の変更など、必要に応じて変更できます。
 
 ![dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_server.png){class="glboxshadow"}
 
-必要な場合は、**詳細設定**をクリックしてさらに設定できます。
+必要に応じて **Advanced** をクリックすると、さらに詳細な設定を行えます。
 
 ![dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_advanced_1.png){class="glboxshadow"}
 
 ![dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_advanced_2.png){class="glboxshadow"}
 
-- **リース時間**: デバイスがDHCP経由で割り当てられたIPアドレスを使用できる期間。
+- **Lease Time**: DHCP で割り当てられた IP アドレスがデバイスに対して有効である期間です。
 
-- **ゲートウェイ**: ローカルネットワークと外部ネットワーク（例：インターネット）間のトラフィックをルーティングするデバイス。
+- **Gateway**: ローカルネットワークとインターネットなどの外部ネットワークの間でトラフィックをルーティングするデバイスです。
 
-- **DNSサーバー1**: ドメイン名をIPアドレスに変換する主要なサーバー。
+- **DNS Server 1**: ドメイン名を IP アドレスへ変換するプライマリサーバーです。
 
-- **DNSサーバー2**: プライマリDNSサーバーが失敗した場合にドメイン名解決に使用されるバックアップサーバー。
+- **DNS Server 2**: プライマリ DNS サーバーが利用できない場合に、名前解決に使用されるセカンダリサーバーです。
 
-- **LPRサーバー**: （Line Printer Remote Server）印刷ジョブを管理し、ネットワークデバイスがリモートプリンターに印刷リクエストを送信できるようにするサービス。複数のプリンターのLPRポートを入力できます。
+- **LPR Server**: （Line Printer Remote Server）印刷ジョブを管理し、ネットワークデバイスからリモートプリンターへ印刷要求を送れるようにするサービスです。複数の LPR プリンターポートを設定できます。
 
 ## アドレス予約
 
-LAN内のクライアントに予約IPアドレスを指定すると、そのクライアントはルーターのDHCPサーバーにアクセスするたびに同じIPアドレスを受け取るようになります。永続のなIP設定が必要なコンピュータやサーバーに予約IPアドレスを割り当てることができます。
+LAN 内のクライアントに予約 IP アドレスを指定すると、そのクライアントはルーターの DHCP Server に接続するたびに常に同じ IP アドレスを受け取ります。固定 IP 設定が必要なコンピューターやサーバーに予約 IP アドレスを割り当てられます。
 
-**注意:** 設定されたクライアントは有効にするためにルーターに再接続する必要があります。
+**Note:** 設定したクライアントは反映のためにルーターへ再接続する必要があります。
 
-**追加**をクリックしてIPを予約します。
+**Add** をクリックして IP を予約します。
 
 ![Address Reservation 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_1.png){class="glboxshadow"}
 
@@ -62,14 +64,14 @@ LAN内のクライアントに予約IPアドレスを指定すると、そのク
 
 ![Address Reservation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_2.png){class="glboxshadow"}
 
-ドロップダウンリストから**MAC**を選択すると、選択したMACに対応する**IP**が自動的に入力されます。説明のな名前を付けます。次に**送信**をクリックします。
+ドロップダウンリストから **MAC** を選択すると、選択した MAC に対応する **IP** が自動入力されます。わかりやすい名前を付けて、**Submit** をクリックします。
 
 ![Address Reservation 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_3.png){class="glboxshadow"}
 
-新しいIPアドレス予約を追加すると、以下のページが表示され、設定が正常に完たしたことを意味します。
+新しい IP アドレス予約を追加すると、以下の画面が表示され、設定が正常に完了したことを示します。
 
 ![Address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_4.jpg){class="glboxshadow"}
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

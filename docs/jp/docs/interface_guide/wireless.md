@@ -1,147 +1,145 @@
 # ワイヤレス
 
-ワイヤレスインターフェースはモデルによっていくら異なる場合があります。例えば、GL-MT300N-V2（Mango）やGL-X300B（Collie）のように5 GHz Wi-Fi搭載していないモデルもあります。GL-MT2500/GL-MT2500A（Brume 2）のようにWi-Fi機能がないモデルもあります。
+Web 管理パネルの左側で、**WIRELESS** に移動します。
 
-## Wi-Fiステータス表示
+Wireless ページでは、2.4 GHz、5 GHz、6 GHz、MLO Wi-Fi など、個別の Wi-Fi ネットワークを設定できます（利用可否はモデルによって異なります）。各バンドは、メイン Wi‑Fi またはゲスト Wi‑Fi として設定でき、柔軟にワイヤレス管理を行えます。
 
-GL.iNetルーターのWi-Fiネットワークはデフォルトで有効されており、インターネットページのデバイスモデル画像の下に対応するWi-Fiアイコンが時灯します。
+**注意**: 5 GHz Wi-Fi に対応していないモデル（GL-MT300N-V2 (Mango)、GL-X300B (Collie) など）や、Wi‑Fi 機能自体を搭載していないモデル（GL-MT5000 (Brume 3)、GL-MT2500/GL-MT2500A (Brume 2) など）があります。
 
-![wifi status display](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_status_display.png){class="glboxshadow"}
+## MLO Wi-Fi
 
-有効なWi-Fiアイコンにカーソルを合わせると、Wi-Fi QRコードが表示されます。Phone/Padを使用してWi-Fi QRコードをスキャンし、対応するWi-Fiに素早く接続できます。
+| 対応モデル               |           |
+| :----------------------- | :-------: |
+| Slate 7 Pro (GL-BE10000) | √         |
+| Beryl 7 (GL-MT3600BE)    | √         |
+| Flint 3e (GL-BE6500)     | √         |
+| Flint 3 (GL-BE9300)      | √         |
+| Slate 7 (GL-BE3600)      | √         |
 
-![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_qr_code.jpg){class="glboxshadow"}
+MLO（Multi-Link Operation）は Wi-Fi 7（802.11be）の中核機能の1つで、2.4 GHz、5 GHz、6 GHz など複数の周波数帯を同時に利用することで、ネットワーク性能の向上、遅延の大幅な低減、接続の安定性向上を実現します。
 
-## ワイヤレス設定
-
-ウェブ管理パネルの左側 -> ワイヤレス
-
-ワイヤレスページでは異なるWi-Fi設定をサポートしており、2.4 GHz、5 GHz、6 GHz、MLO Wi-Fi（ルーターModelによって異なる）などさまざまなWi-Fiバンドが含まれています。各バンドはさらにメインビジネスWi-FiとゲストWi-Fiネットワークに分かれ、柔軟な無線ネットワーク管理が可能です。
-
-### MLO Wi-Fi
-
-**注意**: このWi-FiバンドはFlint 3e（GL-BE6500）、Flint 3（GL-BE9300）、Slate 7（GL-BE3600）でのみ利用可能です。
-
-MLO（Multi-Link Operation）はWi-Fi 7（802.11be）のコア機能の1つで、2.4 GHz、5 GHz、6 GHzなどの複数の周波数帯を同時に利用することで、ネットワークパフォーマンスを大幅に改善し、遅延を削減し、接続の安定性をへ上させるように設計されています。
-
-以下のタブをクリックして、MLOメインビジネスWi-FiとMLOゲストWi-Fi設定について 詳細を確認できます。
+以下のタブをクリックすると、MLO メイン Wi-Fi と MLO ゲスト Wi-Fi の設定を確認できます。
 
 === "MLO Wi-Fi"
 
-    MLOメインビジネスWi-Fiでは、Wi-Fiの有効化/無効化、ラジオバンドの選択（2つで上）、ランダムBSSIDの有効化/無効化、Wi-Fi名（SSID）、Wi-Fiセキュリティ、Wi-Fiパスワード、SSID可視性の設定など、複数の設定を構成できます。
+    MLO メイン Wi-Fi では、Wi-Fi の有効/無効、無線バンドの選択（2つ以上）、ランダム BSSID の有効/無効、Wi-Fi 名（SSID）、Wi-Fi セキュリティ、Wi-Fi パスワード、SSID 表示などを設定できます。
 
     ![MLO Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_mlo.png){class="glboxshadow"}
 
-    - MLO Wi-Fiラジオバンドに6 GHzが含まれている場合、6 GHz Wi-Fi BSSIDが変更されると、MLO Wi-Fi BSSIDは 同期します。
+    - MLO Wi-Fi の無線バンドに 6 GHz が含まれている場合、6 GHz Wi-Fi の BSSID が変わると MLO Wi-Fi の BSSID も同期して変更されます。
 
-    - MLO Wi-FiのデフォルトWi-FiセキュリティはWPA3-SAEで、MLOをサポートするほとんどのデバイスに適しています。
+    - MLO Wi-Fi のデフォルトの Wi-Fi セキュリティは WPA3-SAE で、MLO に対応したほとんどのデバイスに適しています。
 
 === "MLO Guest Wi-Fi"
 
-    MLOゲストWi-Fiでは、Wi-Fiの有効化/無効化、ラジオバンドの選択（2つで上）、Wi-Fi名（SSID）、Wi-Fiセキュリティ、パスワード、SSID可視性など、簡素化された設定を構成できます。
+    MLO ゲスト Wi-Fi では、Wi-Fi の有効/無効、無線バンドの選択（2つ以上）、Wi-Fi 名（SSID）、Wi-Fi セキュリティ、パスワード、SSID 表示など、簡易的な設定を行えます。
 
     ![MLO Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
 
-### 6 GHz Wi-Fi
+## 6 GHz Wi-Fi
 
-**注意**: このWi-FiバンドはFlint 3（GL-BE9300）でのみ利用可能です。
+| 対応モデル               |           |
+| :----------------------- | :-------: |
+| Slate 7 Pro (GL-BE10000) | √         |
+| Mudi 7 (GL-E5800)        | √         |
+| Flint 3 (GL-BE9300)      | √         |
 
-6 GHz Wi-Fiは、2.4 GHzや5 GHzバンドと比較して、混雑が減少した、より高速で安定した無線接続を提供します。
+6 GHz Wi-Fi は、2.4 GHz および 5 GHz 帯と比べて混雑が少なく、より高速で安定したワイヤレス接続を提供します。
 
-以下のタブをクリックして、6 GHzメインビジネスWi-Fiと6 GHzゲストWi-Fi設定について 詳細を確認できます。
+以下のタブをクリックすると、6 GHz メイン Wi-Fi と 6 GHz ゲスト Wi-Fi の設定を確認できます。
 
 === "6 GHz Wi-Fi"
 
-    6 GHzメインビジネスWi-Fiでは、Wi-Fiの有効化/無効化、TX powerの設定、ランダムBSSIDの有効化/無効化、Wi-Fi名（SSID）、Wi-Fiセキュリティ、Wi-Fiパスワード、SSID可視性、Wi-Fiモード、帯域幅、チャネルの設定など、複数の設定を構成できます。
+    6 GHz メイン Wi-Fi では、Wi-Fi の有効/無効、TX power、ランダム BSSID の有効/無効、Wi-Fi 名（SSID）、Wi-Fi セキュリティ、Wi-Fi パスワード、SSID 表示、Wi-Fi モード、帯域幅、チャネルなどを設定できます。
 
     ![6G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_6g.png){class="glboxshadow"}
 
-    - PSCを有効にする: PSC（Preferred Scanning Channel）が有効になっている場合、より高い接続性を持つチャネルのみが予約され、6 GHzデバイスの接続が確保されます。
+    - Enable PSC: PSC（Preferred Scanning Channel）を有効にすると、接続性の高いチャネルのみが予約され、6 GHz デバイスの接続を確保できます。
 
 === "6 GHz Guest Wi-Fi"
 
-    6 GHzゲストWi-Fiでは、Wi-Fiの有効化/無効化、Wi-Fi名（SSID）、Wi-Fiセキュリティ、パスワード、SSID可視性など、簡素化された設定を構成できます。
+    6 GHz ゲスト Wi-Fi では、Wi-Fi の有効/無効、Wi-Fi 名（SSID）、Wi-Fi セキュリティ、パスワード、SSID 表示など、簡易的な設定を行えます。
 
     ![6G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
 
-### 5 GHz Wi-Fi
+## 5 GHz Wi-Fi
 
-以下のタブをクリックして、5 GHzメインビジネスWi-Fiと5 GHzゲストWi-Fi設定について 詳細を確認できます。
+以下のタブをクリックすると、5 GHz メイン Wi-Fi と 5 GHz ゲスト Wi-Fi の設定を確認できます。
 
 === "5 GHz Wi-Fi"
 
-    5 GHzメインビジネスWi-Fiでは、Wi-Fiの有効化/無効化、TX powerの設定、ランダムBSSIDの有効化/無効化、Wi-Fi名（SSID）、Wi-Fiセキュリティ、Wi-Fiパスワード、SSID可視性、Wi-Fiモード、帯域幅、チャネルの設定など、複数の設定を構成できます。
+    5 GHz メイン Wi-Fi では、Wi-Fi の有効/無効、TX power、ランダム BSSID の有効/無効、Wi-Fi 名（SSID）、Wi-Fi セキュリティ、Wi-Fi パスワード、SSID 表示、Wi-Fi モード、帯域幅、チャネルなどを設定できます。
 
     ![5G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_5g.jpg){class="glboxshadow"}
 
 === "5 GHz Guest Wi-Fi"
 
-    5 GHzゲストWi-Fiでは、Wi-Fiの有効化/無効化、Wi-Fi名（SSID）、Wi-Fiセキュリティ、パスワード、SSID可視性など、簡素化された設定を構成できます。
+    5 GHz ゲスト Wi-Fi では、Wi-Fi の有効/無効、Wi-Fi 名（SSID）、Wi-Fi セキュリティ、パスワード、SSID 表示など、簡易的な設定を行えます。
 
     ![5G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
-### 2.4 GHz Wi-Fi
+## 2.4 GHz Wi-Fi
 
-以下のタブをクリックして、2.4 GHzメインビジネスWi-Fiと2.4 GHzゲストWi-Fi設定について inúmerがあります。
+以下のタブをクリックすると、2.4 GHz メイン Wi-Fi と 2.4 GHz ゲスト Wi-Fi の設定を確認できます。
 
 === "2.4 GHz Wi-Fi"
 
-    2.4 GHzメインビジネスWi-Fiでは、Wi-Fiの有効化/無効化、TX powerの設定、ランダムBSSIDの有効化/無効化、Wi-Fi名（SSID）、Wi-Fiセキュリティ、Wi-Fiパスワード、SSID可視性、Wi-Fiモード、帯域幅、チャネルの設定など、複数の設定を構成できます。
+    2.4 GHz メイン Wi-Fi では、Wi-Fi の有効/無効、TX power、ランダム BSSID の有効/無効、Wi-Fi 名（SSID）、Wi-Fi セキュリティ、Wi-Fi パスワード、SSID 表示、Wi-Fi モード、帯域幅、チャネルなどを設定できます。
 
     ![2.4G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_2.4g.png){class="glboxshadow"}
 
 === "2.4 GHz Guest Wi-Fi"
 
-    2.4 GHzゲストWi-Fiでは、Wi-Fiの有効化/無効化、Wi-Fi名（SSID）、Wi-Fiセキュリティ、パスワード、SSID可視性など、簡素化された設定を構成できます。
+    2.4 GHz ゲスト Wi-Fi では、Wi-Fi の有効/無効、Wi-Fi 名（SSID）、Wi-Fi セキュリティ、パスワード、SSID 表示など、簡易的な設定を行えます。
 
     ![2.4G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
-### 注意
+## 一般的な Wi-Fi 設定
 
-- Wi-Fi QRコードは、QRコードアイコンにカーソルを合わせると、SSIDの横に表示されます。Wi-Fi QRコードをスキャンして、対応するWi-Fiに素早く接続できます。
+* Wi-Fi SSID の横にある QR コードアイコンにカーソルを合わせると、Wi‑Fi の QR コードが表示されます。スマートフォンやタブレットで読み取ることで、対応する Wi‑Fi ネットワークにすばやく接続できます。
 
     ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_ssid_qr_code.png){class="glboxshadow"}
 
-- **ランダムBSSID**: この機能はデフォルトで有効になっています。これは、クライアントベンダーが附近のWi-Fi BSSIDsとクライアントデバイスのGPS座標をサーバーに収集するのを防ぐことを目のとしています。詳細については[こちら](#randomized-bssid)をクリックしてください。
+* **Randomized BSSID**: この機能はデフォルトで有効です。周辺の Wi-Fi BSSID とクライアントデバイスの GPS 座標が、クライアントベンダーのサーバーに収集されることを防ぐことを目的としています。詳細は[こちら](#randomized-bssid)を参照してください。
 
-- **帯域幅**と**チャネル**は、ルーターが[リピーター](internet_repeater.md)として動作している間は変更できません。これらは重复 networks のものに追随します。
+* ルーターが[リピーター](internet_repeater.md)として動作している間は、**Bandwidth** と **Channel** は変更できません。中継先ネットワークの設定に従います。
 
-- **チャネル**が**から動**に設定されている場合、ルーターのWi-Fiは自動的にDFSチャンネルに切り替わりません。
+* **Channel** を **Auto** に設定している場合、ルーターの Wi-Fi は自動的に DFS チャネルへ切り替わりません。
 
-- チャルを非DFSチャンネルからDFSチャンネルに切り替えると、以下の警告が表示されます。
+* 非 DFS チャネルから DFS チャネルへ切り替えると、次のような警告が表示されます。
 
     ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
-- **帯域幅**が**160 MHz**に設定されている場合（一部のモデルのみ利用可能です）、チャネル設定で非DFSチャンネルまたはから動を選択しても、Wi-Fiは常にDFSチャンネルを使用します。
+* **Bandwidth** を **160 MHz** に設定している場合（一部モデルのみ対応）、Channel 設定で非 DFS チャネルまたは Auto を選択していても、Wi-Fi は常に DFS チャネルを使用します。
 
-## ランダムBSSID {#randomized-bssid}
+## Randomized BSSID {#randomized-bssid}
 
-ランダムBSSIDはファームウェアv4.6で降で利用可能です。これは、クライアントベンダーが附近のWi-Fi BSSIDsとクライアントデバイスのGPS座標をサーバーに収集するのを防ぐことを目のとしています。
+Randomized BSSID はファームウェア v4.6 以降で利用できます。周辺の Wi-Fi BSSID とクライアントデバイスの GPS 座標が、クライアントベンダーのサーバーに収集されることを防ぐことを目的としています。
 
-**クライアントベンダーが位置データを収集する方法**
+**クライアントベンダーが位置情報を収集する仕組み**
 
-クライアントベンダーは通例、デバイスを設定するために一意のBSSIDsを活用して、Wi-Fiアクセスポイントのに理の位置データを収集します。クライアントデバイス（例：スマートフォン、PC）がルーターをスキャンまたは接続すると：
+クライアントベンダーは通常、Wi-Fi アクセスポイント固有の BSSID を利用して、その地理的位置情報を収集し、デバイスの位置推定に利用します。クライアントデバイス（スマートフォン、PC など）がルーターをスキャンまたは接続すると、次のようなことが起こります。
 
-- 彼のデバイスがルーターのWi-Fiシグナルカバー内にある場合その位置と移動軌跡が露出する可能性があります。
+- 他のデバイスがルーターの Wi-Fi 信号範囲内にある場合、それらの位置や移動履歴が露出する可能性があります。
 
-- デバイスが設定にGPSを使用している場合定期のに、近くのWi-Fi BSSIDsと対応するGPS座標をベンダのサーバーにアップロードします。
+- デバイスが位置情報に GPS を使用している場合、近くの Wi-Fi BSSID と対応する GPS 座標が定期的にベンダーのサーバーへアップロードされます。
 
 ![randomized bssid](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/randomized-bssid-new.jpg){class="glboxshadow"}
 
-**クラウドソース追跡のセキュリティリスク**
+**クラウドソース型追跡のセキュリティリスク**
 
-GPSのないデバイス（またはGPSが無効なデバイス）も、表示可能なBSSID情報をクエリして位置を推定できます。しかし、このクラウドソース位置追跡システムにはセキュリティ脆弱性があります。攻撃者はこれを使用して、Wi-Fiアクセスポイントの locations のグローバルデータベースを蓄積し、デバイスの移動軌跡を継続のに追跡し、ユーザーのプライバシーとセキュリティに脅威をもたらす可能性があります。
+GPS を搭載していないデバイス（または GPS を無効にしたデバイス）でも、見えている BSSID 情報を照会することで現在地を推定できます。しかし、このようなクラウドソース型の位置追跡システムにはセキュリティ上の脆弱性があります。攻撃者はこれを利用して Wi-Fi アクセスポイントの位置情報のグローバルデータベースを蓄積し、デバイスの移動経路を継続的に追跡できるため、ユーザーのプライバシーとセキュリティを脅かす可能性があります。
 
-**ランダムBSSIDがプライバシーを保護する方法**
+**Randomized BSSID がプライバシーを保護する仕組み**
 
-これらの脆弱性に対処するため、GL.iNetルーターはプライバシー保護としてランダムBSSID機能を実装しています。
+こうした脆弱性に対処するため、GL.iNet ルーターはプライバシー保護機能として Randomized BSSID を実装しています。
 
-ルーターのウェブ管理パネルで、無線 -> 5 GHz Wi-Fiまたは2.4 GHz Wi-Fiに移動すると、BSSIDオプションはデフォルトで有効になっています。
+ルーターの Web 管理パネルで **WIRELESS** -> **5GHz Wi-Fi** または **2.4GHz Wi-Fi** に移動すると、BSSID オプションはデフォルトで有効になっています。
 
-この設定により、デバイスはランダムに生成されたBSSIDを使用し、ブートごとにアップデートします。ランダムBSSIDを無効にすると、ルーターは実際のMACアドレスの使用に戻ります。
+この設定では、デバイスはランダムに生成された BSSID を使用し、起動のたびに更新します。ランダム BSSID を無効にすると、ルーターは実際の MAC アドレスを使用するように戻ります。
 
-**注意**: ゲストWi-Fiの場合、BSSIDは same 一周波数バンド内のメインビジネスWi-Fi BSSIDと一貫して維持されます。
+**注意**: ゲスト Wi-Fi の BSSID は、同じ周波数帯のメイン Wi-Fi の BSSID と一致したままになります。
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がありましたら、[コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご利用ください。

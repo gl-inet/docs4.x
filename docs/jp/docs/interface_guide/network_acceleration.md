@@ -1,8 +1,8 @@
 # ネットワークアクセラレーション
 
-ネットワークアクセラレーションはCPU負荷を軽減し、トラフィックのパケット転送を高速化しますが、一部の機能と競合する可能性があります。
+Network Acceleration は CPU 負荷を軽減し、トラフィックのパケット転送を高速化しますが、一部の機能と競合する場合があります。
 
-ネットワークアクセラレーションが有効な場合、以下の機能は正常に動作しません：クライアント速度とトラフィック統計、クライアント速度制限。
+Network Acceleration を有効にすると、次の機能は正しく動作しません: Client Speed and Traffic Statistics、Client Speed Limit。
 
 ## 対応モデル
 
@@ -38,28 +38,28 @@
 
 ## 設定
 
-ウェブ管理パネルの左側 -> ネットワーク -> ネットワークアクセラレーション。
+Web Admin Panel の左側で、**NETWORK** -> **Network Acceleration** に移動します。
 
 ![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/network_acceleration/network_acceleration.png){class="glboxshadow"}
 
-3つのモードがあります。
+3 つのモードがあります。
 
-- **から動**
+- **Auto**
     
-    から動モードは実際の使用状況に応じて2つのアクセラレーションモードを自動的に切り替えます。
+    Auto モードでは、実際の使用状況に応じて 2 つのアクセラレーションモードが自動的に切り替わります。
 
-- **ハードウェアアクセラレーション**
+- **Hardware Acceleration**
 
-    ハードウェアアクセラレーションは<u>イーサネット</u>と<u>リピーター</u>で機能します。
+    Hardware Acceleration は <u>Ethernet</u> と <u>Repeater</u> で動作します。
     
-    ハードウェアアクセラレーションは、NAT、パケット転送、チェックサム検証などの高頻度ネットワークタスクを、NPUやHWNATチップなどの専用ハードウェアにオフロードします。これは特にイーサネット（有線WAN/LAN）とリピーター接続で機能し、固定パスとシンプルなルールでこれらのシナリオで優れたパフォーマンスを発揮し、有線速度のデータのために高スループット、低遅延、最も小限のCPU負荷を実現します。
+    Hardware Acceleration は、NAT、パケット転送、チェックサム検証などの高頻度ネットワーク処理を NPU や HWNAT チップなどの専用ハードウェアへオフロードします。特に Ethernet（有線 WAN/LAN）と Repeater 接続で有効で、固定された通信経路とシンプルなルールの環境で高いスループット、低遅延、低 CPU 負荷を実現します。
 
-- **ソフトウェアアクセラレーション**
+- **Software Acceleration**
 
-    ソフトウェアアクセラレーションは<u>セルラー</u>で機能します。
+    Software Acceleration は <u>Cellular</u> で動作します。
     
-    ソフトウェアアクセラレーションは�カーネルやドライバー（例：SWNAT） and えられたルーターの一般CPUに依存します。これはセルラー（4G/5G）アクセスで機能し、一般のにハードウェアアクセラレーションが利用できない主要シナリオであり、複雑なプロトコルに対して強力な互換性とサポートを提供します。柔軟性ですが、DPI、QoS、ポートフォワーディングなどの高度な機能を実行している場合、特に帯域幅負荷下でCPUボトルネックに直面する可能性があります。
+    Software Acceleration は、最適化されたカーネルやドライバー（例: SWNAT）と組み合わせたルーターの汎用 CPU に依存します。Cellular（4G/5G）アクセスで利用されることが多く、ハードウェアアクセラレーションが使えない環境でも高い互換性と複雑なプロトコルへの対応を提供します。一方で、DPI、QoS、Port Forwarding などの高度な機能を使用している場合は、特に高帯域時に CPU がボトルネックになることがあります。
 
 ---
 
-まだご質問はありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

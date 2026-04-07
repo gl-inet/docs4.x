@@ -8,7 +8,7 @@
 
 以下は、GL.iNetフォーラムで最もよく読まれているトピックです。
 
-- [FlintでAdGuardをアップグレードする方法（から動・手動）](https://forum.gl-inet.com/t/how-to-upgrade-adguard-on-the-flint-auto-and-manual/21556){target="_blank"}
+- [FlintでAdGuardをアップグレードする方法（自動・手動）](https://forum.gl-inet.com/t/how-to-upgrade-adguard-on-the-flint-auto-and-manual/21556){target="_blank"}
 
 - [OpenVPNとWireGuard互換性レポート](https://forum.gl-inet.com/t/openvpn-and-wireguard-compatibility-report/15621){target="_blank"}
 

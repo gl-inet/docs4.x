@@ -12,9 +12,9 @@
 
 * リピーターとして使用して複数のデバイスとの接続を可能にする
 
-    その上、一部のパブリックWi-Fiネットワーク（例：ホテルのWi-Fi）は例えば2台のデバイスに制限されています。グループで旅行している場合、これは実用のではありません。代わりに、トラベルルーターをホテルのWi-Fiに接続し、リピーターとして使用して、ノートパソコン、スマートフォン、タブレットなどを含むすべてのデバイスにWi-Fiシグナルをブロードキャストできます。ホテルのWi-Fiはトラベルルーターを単一のデバイスとして認識しますが、からよりなWi-Fiに接続したい数のデバイスを接続できます。
+    その上、一部のパブリックWi-Fiネットワーク（例：ホテルのWi-Fi）は例えば2台のデバイスに制限されています。グループで旅行している場合、これは実用的ではありません。代わりに、トラベルルーターをホテルのWi-Fiに接続し、リピーターとして使用して、ノートパソコン、スマートフォン、タブレットなどを含むすべてのデバイスにWi-Fiシグナルをブロードキャストできます。ホテルのWi-Fiはトラベルルーターを単一のデバイスとして認識しますが、自由にWi-Fiに接続したい数のデバイスを接続できます。
 
-## ルーターをキャプティブポータルを経よりしてパブリックホットスポットに接続するには？
+## ルーターをキャプティブポータル経由でパブリックホットスポットに接続するには？
 
 このビデオを見るか、以下の手順に従ってください。
 
@@ -56,17 +56,17 @@
 
 ### 方法2: ルーター設定を変更する
 
-1. Web管理パネルにログインし、NETWORK -> DNSに移動します。**DNSリバインディング攻撃保護**が無効になっていることと、**モード**が**から動**に設定されていることを確認してください。
+1. Web管理パネルにログインし、NETWORK -> DNSに移動します。**DNSリバインディング攻撃保護**が無効になっていることと、**モード**が**自動**に設定されていることを確認してください。
 
     ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
 
 2. Web管理パネルで、VPN -> VPNダッシュボードに移動します。すべてのVPN接続が無効になっていることを確認してください。
 
-    **ファームウェアv4.7で前**の場合、ページは以下のように表示されます。
+    **ファームウェアv4.7以前**の場合、ページは以下のように表示されます。
     
     ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
     
-    **ファームウェアv4.8で上**の場合、ページは以下のように表示されます。
+    **ファームウェアv4.8以上**の場合、ページは以下のように表示されます。
 
     ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
 
@@ -88,7 +88,7 @@
 
 1. スマートフォンをホテルのWi-Fiに接続します。スマートフォンがホテルのWi-Fiに接続するために使用するMACアドレスを見つけます。
 
-    以下はiPhone（iOS 16.1.2）の例です：設定 → Wi-Fi → 酒店のWi-Fiを選択すると、Wi-Fiアドレスが見つかります。このアドレスをメモしてください。
+    以下はiPhone（iOS 16.1.2）の例です：設定 → Wi-Fi → ホテルのWi-Fiを選択すると、Wi-Fiアドレスが見つかります。このアドレスをメモしてください。
 
     ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
 
@@ -96,13 +96,13 @@
 
 2. スマートフォンまたはコンピュータをルーターに接続します。ルーターのWeb管理パネルにログインし、このMACアクセスをクローンするか手動で入力します。
 
-    **ファームウェアv4.5で前**の場合、左側からNETWORK → MACアドレスを選択してください。
+    **ファームウェアv4.5以前**の場合、左側からNETWORK → MACアドレスを選択してください。
 
-    手動モードを選択し、ステップ1で取なければならないしたMACアドレスを入力し、適用をクリックします。
+    手動モードを選択し、ステップ1で取得したMACアドレスを入力し、適用をクリックします。
 
     ![MAC manual](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
 
-    **ファームウェアv4.6で上**の場合、左側からINTERNET → リピーターセクションを選択し、修正をクリックします。
+    **ファームウェアv4.6以上**の場合、左側からINTERNET → リピーターセクションを選択し、修正をクリックします。
 
     ![repeater modify](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
 

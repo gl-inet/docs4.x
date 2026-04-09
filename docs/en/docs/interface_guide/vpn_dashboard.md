@@ -124,7 +124,9 @@ In this tunnel, you can customize the tunnel rule by setting three factors:
 
         ![all targets](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_targets.png){class="glboxshadow"}
     
-    - **Specified Domain / IP List**: If selected, traffic matching this rule will be routed to specified domains or IP addresses. You need to enter them manually.
+    - **Specified Domain / IP List**: If selected, traffic matching this rule will be routed to specified domains or IP addresses. You need to enter them manually. 
+    
+        Please note that specifying a <u>root domain</u> will cover all its subdomains. For example, if you want to specify `archive.ubuntu.com`, `security.ubuntu.com`, and `old-releases.ubuntu.com` in a tunnel, you only need to specify the root domain `ubuntu.com`.
 
         ![specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_manual.png){class="glboxshadow"}
 
@@ -134,11 +136,15 @@ In this tunnel, you can customize the tunnel rule by setting three factors:
 
         !!! Note
         
+            - Specifying a root domain will cover all its subdomains.
+            
             - If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day. 
 
             - Make sure to enter the correct URL. The URL detection will verify the validity of the domain name or IP address. [Learn More](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
-    - **Exclude Specified Domain / IP List**: If selected, traffic matching this rule will **NOT** be routed to specified domains or IP addresses. You need to enter them manually.
+    - **Exclude Specified Domain / IP List**: If selected, traffic matching this rule will **NOT** be routed to specified domains or IP addresses. You need to enter them manually. 
+    
+        Please note that specifying a <u>root domain</u> will cover all its subdomains. For example, if you want to specify `archive.ubuntu.com`, `security.ubuntu.com`, and `old-releases.ubuntu.com` in a tunnel, you only need to specify the root domain `ubuntu.com`.
 
         ![exclude specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_manual.png){class="glboxshadow"}
 
@@ -148,6 +154,8 @@ In this tunnel, you can customize the tunnel rule by setting three factors:
 
         !!! Note
         
+            - Specifying a root domain will cover all its subdomains.
+            
             - If you select Subscribe URL, the domain name or IP in the URL is automatically updated every day. 
 
             - Make sure to enter the correct URL. The URL detection will verify the validity of the domain name or IP address. [Learn More](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}

@@ -2,8 +2,8 @@ repo_name: gl-inet/docs4.x
 repo_url: https://github.com/gl-inet/docs4.x
 edit_uri: ""
 
-site_name: GL.iNet Router Docs 4
-site_description: Documentation for GL.iNet Productions
+site_name: GL.iNet ルータードキュメント 4
+site_description: GL.iNet ルーター製品向けドキュメント
 site_author: GL.iNet
 site_url: https://docs.gl-inet.com/router/jp/4/
 site_dir: site
@@ -11,6 +11,7 @@ copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
 
 theme:
   name: material
+  language: ja
   logo: https://static.gl-inet.com/docs/router/common/logo_white.svg
   custom_dir: overrides
   features:
@@ -64,9 +65,24 @@ extra:
     - name: English
       link: /router/en/4/
       lang: en
+    - name: Deutsch
+      link: /router/de/4/
+      lang: de
+    - name: Español
+      link: /router/es/4/
+      lang: es
+    - name: Français
+      link: /router/fr/4/
+      lang: fr
+    - name: Italiano
+      link: /router/it/4/
+      lang: it
     - name: 日本語
       link: /router/jp/4/
       lang: ja
+    - name: Polski
+      link: /router/pl/4/
+      lang: pl
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css

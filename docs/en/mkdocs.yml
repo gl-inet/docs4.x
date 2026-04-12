@@ -42,7 +42,9 @@ plugins:
         'tutorials/how_to_access_server_lan_device_via_domain_name.md': 'tutorials/how_to_access_wgserver_lan_via_domain_name.md'
         'tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md': 'tutorials/eap.md'
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
- 
+        'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
+        'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
+
 extra:
   social:
     - icon: fontawesome/solid/globe
@@ -138,6 +140,7 @@ nav:
     - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
     - GL-MT300N-V2 (Mango): user_guide/gl-mt300n-v2/index.md
     - GL-AR300M (Shadow): user_guide/gl-ar300m/index.md
+    - SIMPoYo 4G uFi: user_guide/simpoyo-4g-ufi/index.md
     - GL-M2: user_guide/gl-m2/index.md
     - GL-S200: user_guide/gl-s200/index.md
     - GL-S20: user_guide/gl-s20/index.md
@@ -242,7 +245,6 @@ nav:
     - eSIM:
       - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Use eSIM Physical Card with Android devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
-      - How to use SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
       - Site to Site: tutorials/goodcloud_site_to_site.md
       - Access the LuCI via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
@@ -263,7 +265,7 @@ nav:
       - Activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
       - Change the NAT type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
       - Retrieve the mobile App log: tutorials/how_to_retrieve_the_mobile_app_log.md
-      - Configure Domain and IP Filtering rules for VPN: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+      - Configure Domain and IP Filtering rules: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
       - Technical Support via GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Interface Guide:
     - Overview: interface_guide/index.md
@@ -315,7 +317,7 @@ nav:
       - Network Acceleration: interface_guide/network_acceleration.md
       - NAT Settings: interface_guide/nat_settings.md
     - Flow Control:
-      - DPI License: interface_guide/dpi_license.md
+      - DPI Engine: interface_guide/dpi_engine.md
       - Data Statistics: interface_guide/data_statistics.md
       - Content Filter: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md

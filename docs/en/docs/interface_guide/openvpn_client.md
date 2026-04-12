@@ -457,21 +457,6 @@ If the service provider you subscribed to is not listed below, please contact th
 
     [Refer link](https://www.ivpn.net/setup/gnu-linux-terminal.html)
 
-??? "Mullvad"
-    ### Mullvad
-
-    [Official Website](https://mullvad.net/en){target="_blank"}
-
-    1. Go to [Mullvad](https://mullvad.net/en){rel="sponsored" target="_blank"} website, and log in with your Mullvad credentials.
-
-    2. Choose OpenVPN Configuration
-
-    ![ovpnconfig](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ovpnconfig.jpg){class="glboxshadow"}
-
-    3. Choose **Linux** and select your server location
-
-    ![linux](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/linux.jpg){class="glboxshadow"}
-
 ??? "OVPN"
     ### OVPN
 

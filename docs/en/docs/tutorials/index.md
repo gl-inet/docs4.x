@@ -45,7 +45,6 @@ Learn how to use our devices correctly with detailed steps.
 
 * [How to use the eSIM Physical Card with GL.iNet routers](how_to_use_esim_physical_card_with_glinet_routers.md)
 * [How to use the eSIM Physical Card with Android devices](how_to_use_the_esim_physical_card_with_android_devices.md)
-* [How to use SIMPoYo uFi USB dongle](how_to_use_simpoyo_ufi.md)
 
 ## GoodCloud
 
@@ -72,5 +71,5 @@ Learn how to use our devices correctly with detailed steps.
 * [How to activate or top up T-Mobile SIM cards](how_to_activate_top_up_sim_cards.md)
 * [How to change the NAT type on Gaming](how_to_change_the_nat_type_on_gaming.md)
 * [How to retrieve the mobile App log](how_to_retrieve_the_mobile_app_log.md)
-* [How to configure Domain and IP Filtering rules for GL.iNet routers via an Online Text File](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)
+* [How to configure Domain and IP Filtering rules for GL.iNet routers via an online text file](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)
 * [Technical Support via GoodCloud](technical_support_via_goodcloud.md)

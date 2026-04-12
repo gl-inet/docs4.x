@@ -6,17 +6,17 @@ Collie (GL-X300B) is an industrial cellular gateway designed to operate under hi
 
 ![gl-x300b interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
 
-**What's the difference?**
+**What's the difference between GL-X300B-RS485, GL-X300B-BLE, and GL-X300B-GPS?**
 
 ![gl-x300b series](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b_series.png){class="glboxshadow"}
 
 ![gl-x300b comparison](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/model_comparison.png){class="glboxshadow"}
 
-- **GL-X300B-GPS** is equipped with five external antennas, including two 2.4GHz Wi-Fi, two 4G LTE, and one GPS Antenna. The extendable wired antennas are perfect for having multiple reception placements within a vehicle, minimizing reception black spots when traveling through high network density cities.
+- **GL-X300B-RS485** includes an RS485 chip with RS485 interface. The module supports bi-directional data transmission of various devices in the field of industrial automation and IoT, thus realizing the functions of data acquisition, control and monitoring.
 
 - **GL-X300B-BLE** is equipped with three external omnidirectional antennas for 2.4GHz Wi-Fi, 4G LTE, and BLE communication, receiving signals from all directions, and providing high flexibility in installation placement within an industrial environment.
 
-- **GL-X300B-RS485** includes an RS485 chip with RS485 interface. The module supports bi-directional data transmission of various devices in the field of industrial automation and IoT, thus realizing the functions of data acquisition, control and monitoring.
+- **GL-X300B-GPS** is equipped with five external antennas, including two 2.4GHz Wi-Fi, two 4G LTE, and one GPS Antenna. The extendable wired antennas are perfect for having multiple reception placements within a vehicle, minimizing reception black spots when traveling through high network density cities.
 
 !!! Note
 
@@ -24,20 +24,18 @@ Collie (GL-X300B) is an industrial cellular gateway designed to operate under hi
 
 ## Package contents
 
-Please note that the adapter within the package depends on your shipping country.
-
-The package includes:
-
 - 1 x User manual
-- 1 x Collie (GL-X300B)
+- 1 x Collie (GL-X300B-RS485) (2-year Warranty)
 - 1 x Ethernet cable
-- 1 x Thank you card
-- 1 x Warranty card
-- 1 x Power adapter (Selected plug type)
+- 1 x External 4G antenna
+- 2 x External Wi-Fi antenna
+- 1 x Terminal block (Green)
+- 1 x Wall mount kit
+- 1 x DIN rail kit
+- 1 x Power adapter
+- 4 x Converters (US, UK, EU and AU plugs) (three-month Warranty)
 
-**Note**: The image below is an example of GL-X300B-GPS, with some models slightly different.
-
-![gl-x300b unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/first_time_setup/x300b-gps_unboxing.jpg){class="glboxshadow"}
+![gl-x300b package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b-rs485_package.jpg){class="glboxshadow"}
 
 ## Specifications
 

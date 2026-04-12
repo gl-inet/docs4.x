@@ -1,6 +1,6 @@
-# How to use SIMPoYo uFi?
+# SIMPoYo 4G uFi User Guide
 
-SIMPoYo uFi is our compact Plug & Play USB dongle series with Wi-Fi hotspot, designed for fast and reliable connectivity anywhere. It works seamlessly with most GL.iNet routers, as well as laptops, power banks, car USB ports, and other USB power sources. It comes with 10GB of free data for 30 days, valid in the UK and 34 other European countries.
+SIMPoYo 4G uFi is our compact Plug & Play USB dongle series with Wi-Fi hotspot, designed for fast and reliable connectivity anywhere. It works seamlessly with most GL.iNet routers, as well as laptops, power banks, car USB ports, and other USB power sources. It comes with 10GB of free data for 30 days, valid in the UK and 34 other European countries.
 <br><small>*Available Only: [EU](https://store-eu.gl-inet.com/) & [UK Stores](https://store-uk.gl-inet.com/)</small>
 
 This guide will show you how to use the SIMPoYo uFi USB dongle (SP-N150C4), including LED indication, how to activate its built-in SIM card, use the dongle on different devices, top up data, and manage uFi settings.
@@ -176,6 +176,12 @@ You can log in to the SIMPoYo uFi Admin Panel to manage your network settings.
 
     ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/0-simpoyo-login.png){class="glboxshadow"}
 
+**Tips**: If you forgot the admin password of your SIMPoYo uFi, follow the steps below to reset it:
+
+1. Plug the SIMPoYo uFi into the USB port of a computer, laptop, or any USB power source; it will power on automatically.
+2. Insert a pin into the Reset pinhole for about 2 seconds, then release it. 
+3. Wait for 8-10 seconds. The LED indicator will turn off first, then two white lights will turn on, indicating a successful reset.
+
 ### Check Network Details
 
 1. Choose **Status** from the top menu and navigate to **Device & Network**. You will enter the home page where the device's network status is displayed.
@@ -251,6 +257,14 @@ The default admin password is the same as the Wi-Fi password. For security purpo
 2. Customize the Admin Password and Login Timeout, then click **Apply**.
 
 3. If you want to reset your SIMPoYo uFi to default settings, click the **Factory Default Setting** button to reset.
+
+### Reset Admin Password
+
+If you forgot the admin password of your SIMPoYo uFi, follow the steps below to reset it:
+
+1. Plug the SIMPoYo uFi into the USB port of a computer, laptop, or any USB power source; it will power on automatically.
+2. Insert a pin into the Reset pinhole for about 2 seconds, then release it. 
+3. Wait for 8-10 seconds. The LED indicator will turn off first, then two white lights will turn on, indicating a successful reset.
 
 ### DHCP Settings
 

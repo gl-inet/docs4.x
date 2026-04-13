@@ -79,7 +79,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 
 ## Flow Control
 
-* [DPI-Lizenz](dpi_license.md)
+* [DPI Engine](dpi_engine.md)
 * [Datenstatistiken](data_statistics.md)
 * [Inhaltsfilter](content_filter.md)
 * [QoS (Quality of Service)](qos.md)

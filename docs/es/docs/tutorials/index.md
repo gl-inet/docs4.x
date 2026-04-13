@@ -39,13 +39,12 @@ Aprenda a usar correctamente nuestros dispositivos con pasos detallados.
 - [Cómo actualizar el firmware del módulo Quectel](upgrade_quectel_module_software.md)
 - [Cómo comprobar el estado de la agregación de portadoras en su router celular](how_to_check_carrier_aggregation.md)
 - [Cómo configurar y usar Spitz AX (GL-X3000) en su vehículo recreativo](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
-- [Cómo instalar o cambiar antenas externas para Spitz AX o Puli AX](how_to_install_or_change_antennas.md)
+- [Cómo instalar o cambiar antenas externas de routers celulares](how_to_install_or_change_antennas.md)
 
 ## eSIM
 
 - [Cómo usar la tarjeta física eSIM con routers GL.iNet](how_to_use_esim_physical_card_with_glinet_routers.md)
 - [Cómo usar la tarjeta física eSIM con dispositivos Android](how_to_use_the_esim_physical_card_with_android_devices.md)
-- [Cómo usar el dongle USB uFi de SIMPoYo](how_to_use_simpoyo_ufi.md)
 
 ## GoodCloud
 
@@ -72,5 +71,5 @@ Aprenda a usar correctamente nuestros dispositivos con pasos detallados.
 - [Cómo activar o recargar tarjetas SIM de T-Mobile](how_to_activate_top_up_sim_cards.md)
 - [Cómo cambiar el tipo de NAT para gaming](how_to_change_the_nat_type_on_gaming.md)
 - [Cómo recuperar el registro de la app móvil](how_to_retrieve_the_mobile_app_log.md)
-- [Cómo configurar reglas de filtrado de dominios e IP para routers GL.iNet mediante un archivo de texto en línea](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)
+- [Cómo configurar reglas de filtrado de dominios e IP para routers GL.iNet mediante un archivo de texto online](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)
 - [Soporte técnico mediante GoodCloud](technical_support_via_goodcloud.md)

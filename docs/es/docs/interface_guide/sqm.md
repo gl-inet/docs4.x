@@ -4,26 +4,35 @@ SQM (Smart Queue Management) gestiona de forma inteligente el tráfico de red de
 
 **Nota**:
 
-1. Esta función actualmente solo está disponible en **GL-MT5000 (Brume 3)**.
+1. Esta función afecta al tráfico que pasa por el router cuando actúa como puerta de enlace, incluido el tráfico de los clientes locales y el del cliente VPN, pero no al tráfico entrante cuando el router actúa como servidor VPN.
 
-2. Esta función afecta al tráfico que pasa por el router cuando actúa como puerta de enlace, incluido el tráfico de clientes locales y el tráfico del cliente VPN, pero no al tráfico entrante cuando el router actúa como servidor VPN.
+2. Como SQM consume bastantes recursos, funciona mejor en redes con poco ancho de banda o congestionadas. Habilitarlo en conexiones de alta velocidad puede reducir el rendimiento máximo.
 
-3. Como SQM consume bastantes recursos, funciona mejor en redes con poco ancho de banda o congestionadas. Habilitarlo en conexiones de alta velocidad puede reducir el rendimiento máximo.
+## Modelos compatibles
 
----
+!!! note "Modelos compatibles"
 
-En el lado izquierdo del panel de administración web, vaya a **FLOW CONTROL** > > **SQM**.
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MT5000 (Brume 3)
 
-Primero, establezca sus velocidades máximas de carga y descarga para la programación del tráfico, con un rango de entrada de 1 a 10000. Ajústelas al ancho de banda real de su conexión a Internet para obtener los mejores resultados.
+## Configuración rápida
+
+En el lado izquierdo del panel de administración web, vaya a **FLOW CONTROL** -> **SQM**.
+
+Active el interruptor para habilitar SQM y defina las velocidades máximas de subida y bajada (rango de entrada: 1 - 10000) para la programación del tráfico. Ajústelas al ancho de banda real de su conexión a Internet para obtener los mejores resultados.
 
 ![sqm](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/sqm.png){class="glboxshadow"}
 
-Para Queue Rule, hay dos opciones disponibles:
+**Nota**: Los valores introducidos en el campo están en **Mbps** (megabits por segundo). El valor equivalente en **MB/s** (megabytes por segundo) se muestra como referencia.
 
-- **cake**: Modelado de tráfico inteligente y automático con un mejor control global de la latencia, recomendado.
+![up down speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/up_down_speed.jpg){class="glboxshadow"}
 
-- **fq_codel**: Encolado justo simple y eficiente con reducción básica de la latencia.
+Para **Queue Rule**, hay dos opciones disponibles:
+
+- **cake**: modelado de tráfico inteligente y automático con un mejor control global de la latencia (recomendado).
+
+- **fq_codel**: encolado justo simple y eficiente con reducción básica de la latencia.
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

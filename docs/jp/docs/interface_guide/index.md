@@ -79,7 +79,7 @@ hide:
 
 ## フロー制御
 
-* [DPIライセンス](dpi_license.md)
+* [DPI Engine](dpi_engine.md)
 * [データ統計](data_statistics.md)
 * [コンテンツフィルター](content_filter.md)
 * [QoS（Quality of Service）](qos.md)

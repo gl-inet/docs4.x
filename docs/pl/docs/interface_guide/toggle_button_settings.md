@@ -68,7 +68,7 @@ Podczas stosowania ustawień możesz zdecydować, czy wybrana funkcja ma zostać
 
 **Uwaga**: Po ponownym uruchomieniu urządzenia system automatycznie zastosuje stan funkcji zgodnie z pozycją przełącznika.
 
-Na przykład jeśli skonfigurujesz **WireGuard Client** do sterowania przełącznikiem, to gdy przełącznik jest ustawiony w pozycji LEFT (ON), klient WireGuard uruchomi się automatycznie. Gdy przełącznik jest ustawiony w pozycji RIGHT (OFF), klient WireGuard pozostanie wyłączony.
+Na przykład jeśli skonfigurujesz **VPN** do sterowania przełącznikiem, to gdy przełącznik jest ustawiony w pozycji LEFT (ON), połączenie VPN uruchomi się automatycznie. Gdy przełącznik jest ustawiony w pozycji RIGHT (OFF), połączenie VPN pozostanie wyłączone.
 
 ---
 

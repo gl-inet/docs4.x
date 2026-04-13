@@ -45,7 +45,6 @@ hide:
 
 * [GL.iNetルーターでeSIM Physical Cardを使う方法](how_to_use_esim_physical_card_with_glinet_routers.md)
 * [AndroidデバイスでeSIM Physical Cardを使う方法](how_to_use_the_esim_physical_card_with_android_devices.md)
-* [SIMPoYo uFi USB dongleを使う方法](how_to_use_simpoyo_ufi.md)
 
 ## GoodCloud
 

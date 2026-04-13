@@ -126,6 +126,8 @@ In questo tunnel puoi personalizzare la regola del tunnel impostando tre fattori
 
     - **Specified Domain / IP List**: se selezionato, il traffico che corrisponde a questa regola verra' instradato verso domini o indirizzi IP specificati. Devi inserirli manualmente.
 
+        Tieni presente che specificare un <u>dominio radice</u> includerà tutti i suoi sottodomini. Ad esempio, se vuoi specificare `archive.ubuntu.com`, `security.ubuntu.com` e `old-releases.ubuntu.com` in un tunnel, ti basta specificare il dominio radice `ubuntu.com`.
+
         ![specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_manual.png){class="glboxshadow"}
 
         Oppure cambia **Input Mode** da Manual a Subscription URL e inserisci il link URL.
@@ -134,17 +136,29 @@ In questo tunnel puoi personalizzare la regola del tunnel impostando tre fattori
 
         !!! Note
 
+            - Specificare un dominio radice includerà tutti i suoi sottodomini.
+
             - Se selezioni Subscribe URL, il dominio o IP nell'URL viene aggiornato automaticamente ogni giorno.
 
             - Assicurati di inserire l'URL corretto. Il rilevamento URL verifichera' la validita' del dominio o dell'indirizzo IP. [Scopri di piu'](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
     - **Exclude Specified Domain / IP List**: se selezionato, il traffico che corrisponde a questa regola **NON** verra' instradato verso domini o indirizzi IP specificati. Devi inserirli manualmente.
 
+        Tieni presente che specificare un <u>dominio radice</u> includerà tutti i suoi sottodomini. Ad esempio, se vuoi specificare `archive.ubuntu.com`, `security.ubuntu.com` e `old-releases.ubuntu.com` in un tunnel, ti basta specificare il dominio radice `ubuntu.com`.
+
         ![exclude specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_manual.png){class="glboxshadow"}
 
         Oppure cambia **Input Mode** da Manual a Subscription URL e inserisci il link URL.
 
         ![exclude specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_subscription.png){class="glboxshadow"}
+
+        !!! Note
+
+            - Specificare un dominio radice includerà tutti i suoi sottodomini.
+
+            - Se selezioni Subscribe URL, il dominio o IP nell'URL viene aggiornato automaticamente ogni giorno.
+
+            - Assicurati di inserire l'URL corretto. Il rilevamento URL verificherà la validità del nome di dominio o dell'indirizzo IP. [Scopri di più](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
 3. **Via**: si riferisce al metodo di instradamento del traffico, cioe' se usare o meno la VPN.
 

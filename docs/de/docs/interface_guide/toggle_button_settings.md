@@ -1,8 +1,8 @@
 # Einstellungen für den Toggle-Button
 
-Mit den Einstellungen für den Toggle-Button können Sie der physischen Umschalttaste Ihres Routers bestimmte Funktionen für schnellen Zugriff und direkte Steuerung zuweisen. So erhalten Sie praktische Kurzbefehle für häufig genutzte Aufgaben.
+Mit den Einstellungen für den Toggle-Button können Sie der physischen Umschalttaste Ihres Routers bestimmte Funktionen für schnellen Zugriff und direkte Steuerung zuweisen. Bei einigen Modellen wird sie auch als Mode Switch bezeichnet. So erhalten Sie praktische Kurzbefehle für häufig genutzte Aufgaben.
 
-Sie können das Verhalten der Taste im Web-Admin-Panel anpassen.
+Sie können das Verhalten dieses Schalters im Web-Admin-Panel anpassen.
 
 ## Unterstützte Modelle
 
@@ -64,7 +64,7 @@ Seit Firmware v4.8 wurden weitere Optionen hinzugefügt: Repeater, Wi‑Fi und L
 
 ![toggle button 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_4.8.png){class="glboxshadow"}
 
-Beim Anwenden der Einstellungen können Sie festlegen, ob die ausgewählte Funktion sofort entsprechend der Ein-/Aus-Position (links/rechts) des Schalters aktiviert bzw. deaktiviert werden soll.
+Beim Anwenden der Einstellungen können Sie festlegen, ob die ausgewählte Funktion sofort entsprechend der Ein-/Aus-Position (links/rechts) des physischen Schalters aktiviert bzw. deaktiviert werden soll.
 
 **Hinweis**: Nach einem Neustart des Geräts übernimmt das System den Funktionsstatus automatisch entsprechend der Position des Toggle-Schalters.
 

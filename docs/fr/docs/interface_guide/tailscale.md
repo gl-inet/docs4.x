@@ -162,35 +162,53 @@ Les étapes sont les suivantes.
 
 ## Nœuds de sortie personnalisés
 
-La fonctionnalité de nœud de sortie vous permet d'acheminer tout le trafic Internet non Tailscale via un appareil spécifique de votre réseau. L'appareil qui achemine votre trafic est appelé « nœud de sortie ».
+Par défaut, Tailscale fonctionne comme un réseau superposé : il achemine uniquement le trafic entre les appareils exécutant Tailscale et ne traite pas votre trafic Internet public, par exemple lorsque vous consultez des sites web comme Google.
+
+Cependant, il peut arriver que vous souhaitiez utiliser Tailscale pour acheminer votre trafic Internet public. Par exemple, lorsque vous êtes loin de chez vous ou en voyage à l’étranger, si vous devez accéder à des services en ligne (comme votre banque) disponibles uniquement dans votre pays d’origine, vous pouvez définir votre ordinateur de bureau domestique disposant d’une IP publique comme nœud de sortie, puis configurer d’autres appareils sur le même Tailnet — comme le GL-AXT1800 et le GL-MT3000 montrés dans l’image ci-dessous — pour envoyer leur trafic via celui-ci. Tout votre trafic Internet public sera alors transféré par ce nœud de sortie.
 
 ![exitnode](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/exitnode.jpg){class="glboxshadow"}
 
-**Remarque** : si le serveur DNS du routeur est une adresse IP privée accessible uniquement sur le réseau local, vous pouvez perdre l'accès à Internet lorsque vous utilisez des nœuds de sortie. Accédez à **Network** > **DNS** et définissez manuellement un serveur DNS public tel que `8.8.8.8` pour résoudre ce problème.
+Lorsque tout le trafic est acheminé via un nœud de sortie, vous utilisez en pratique les routes par défaut (`0.0.0.0/0`, `::/0`), ce qui fonctionne de façon similaire à une connexion VPN classique.
 
-Étapes de configuration :
+En résumé, un nœud de sortie achemine le trafic Internet sortant des appareils de votre Tailnet et agit ainsi comme un serveur VPN. Lorsque vous êtes connecté à un nœud de sortie, tout votre trafic Internet non Tailscale semble provenir de son emplacement, ce qui peut vous aider à accéder à des contenus géographiquement restreints et à renforcer votre confidentialité en ligne. L’appareil qui effectue ce transfert de trafic est appelé « nœud de sortie ».
 
-1. Sur l'appareil que vous souhaitez utiliser comme nœud de sortie, sélectionnez **Run exit node**. Sous Windows, suivez les étapes ci-dessous.
+**Remarque** : si le serveur DNS du routeur utilise une adresse IP privée accessible uniquement sur le réseau local, vous pouvez perdre l’accès à Internet lorsque vous utilisez un nœud de sortie. Pour résoudre ce problème, connectez-vous au routeur, accédez à **NETWORK** -> **DNS**, puis définissez manuellement un serveur DNS public tel que `8.8.8.8`.
+
+---
+
+Dans l’exemple suivant, un routeur GL.iNet **GL-MT2500** et un **Leo-Desktop** appartiennent au même Tailnet. Voici les étapes pour configurer Leo-Desktop comme nœud de sortie.
+
+1. Activez les routes de sous-réseau du GL-MT2500 dans la console d’administration Tailscale.
+
+    Accédez à la console d’administration Tailscale, cliquez sur l’icône à trois points à droite du GL-MT2500, puis sélectionnez **Edit route settings**.
+
+    ![tailscale edit route settings](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_subnet_alert_wan.png){class="glboxshadow"}
+
+    Dans la fenêtre contextuelle, activez les routes de sous-réseau.
+
+    ![tailcale, enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+
+2. Sur l’appareil que vous souhaitez utiliser comme nœud de sortie, par exemple Leo-Desktop dans cet exemple, sélectionnez **Run exit node**. Voici un exemple sous Windows.
 
     ![tailscale windows, run exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node.png){class="glboxshadow"}
 
-    Cliquez sur **Yes**.
+    Cliquez ensuite sur **Yes**.
 
     ![tailscale windows, run exit ndoe alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
 
-2. Configurez l'appareil comme nœud de sortie dans la console d'administration.
+3. Dans la console d’administration Tailscale, configurez Leo-Desktop comme nœud de sortie.
 
     ![tailscale exit node alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_exit_node_alert.png){class="glboxshadow"}
 
     ![tailscale use as exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_use_as_exit_node.png){class="glboxshadow"}
 
-3. Activez **Custom Exit Nodes** sur votre routeur GL.iNet, cliquez sur le bouton d'actualisation, puis sélectionnez dans la liste déroulante l'adresse IP de l'appareil configuré comme nœud de sortie, puis cliquez sur **Apply**. C'est tout.
+4. Connectez-vous au panneau d’administration web du GL-MT2500, accédez à **APPLICATIONS** -> **Tailscale** et activez **Custom Exit Nodes**. Cliquez sur le bouton d’actualisation, sélectionnez l’adresse IP de Leo-Desktop dans la liste déroulante, puis cliquez sur **Apply**.
 
     ![glinet tailscale, custom exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow"}
 
-4. Les appareils connectés à ce routeur GL utiliseront alors l'adresse IP domestique du **Exit Node**.
+    Les appareils connectés au routeur achemineront alors leur trafic via le nœud de sortie pour accéder à Internet, et tout votre trafic Internet semblera provenir de l’emplacement du nœud de sortie.
 
-[Voir : Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/)
+Référence : [Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/){target="_blank"}
 
 ---
 

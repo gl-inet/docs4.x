@@ -203,6 +203,19 @@
   </div>
 </div>
 
+### Dongle USB 4G/5G
+
+<div class="gl-product-row">
+  <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="simpoyo-4g-ufi/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-table/table_simpoyo-ufi.png" >
+        <div class="gl-product-model">SIMPoYo 4G uFi</div>
+      </a>
+    </div>
+  </div>
+</div>
+
 ### Scheda e modulo
 
 <div class="gl-product-row">

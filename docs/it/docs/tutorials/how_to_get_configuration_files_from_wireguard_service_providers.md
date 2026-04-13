@@ -248,11 +248,11 @@
 
     2. **Scarica la configurazione WireGuard**
 
-        Accedi alla [dashboard](https://www.starvpn.com/dashboard){target="_blank"} dell'area membri StarVPN. Fai clic su **Wireguard Config** per scaricare il file di configurazione. Ogni slot conterra' un file di configurazione wireguard univoco.
+        Accedi alla [dashboard](https://www.starvpn.com/dashboard){target="_blank"} dell'area membri StarVPN. Fai clic su **Wireguard Config** per scaricare il file di configurazione. Ogni slot conterrà un file di configurazione WireGuard univoco.
 
         ![starvpn wireguard config download](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/wgconfigdl.png){class="glboxshadow"}
 
-        **Suggerimento**: se vuoi usare le tecniche di offuscamento AmneziaWG, fai clic su **AmneziaWG Config** per scaricare il file di configurazione. Ogni slot conterra' un file di configurazione AmneziaWG univoco.
+        **Suggerimento**: se vuoi usare l'offuscamento AmneziaWG, fai clic su **AmneziaWG Config** per scaricare il file di configurazione. Ogni slot conterrà un file di configurazione AmneziaWG univoco.
 
         ![starvpn amneziawg config download](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/amneziawgdl.png){class="glboxshadow"}
 

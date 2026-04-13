@@ -39,7 +39,7 @@ Découvrez comment utiliser correctement nos appareils grâce à des étapes dé
 * [Comment mettre à niveau le firmware du module quectel](upgrade_quectel_module_software.md)
 * [Comment vérifier l’état de l’agrégation de porteuses sur votre routeur cellulaire](how_to_check_carrier_aggregation.md)
 * [Comment configurer et utiliser Spitz AX (GL-X3000) dans votre véhicule de loisirs](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
-* [Comment installer ou remplacer des antennes externes pour Spitz AX ou Puli AX](how_to_change_x3000_and_xe3000_antennas.md)
+* [Comment installer ou remplacer des antennes externes pour les routeurs cellulaires](how_to_install_or_change_antennas.md)
 
 ## eSIM
 

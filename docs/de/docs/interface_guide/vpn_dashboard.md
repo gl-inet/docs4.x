@@ -91,13 +91,13 @@ In diesem Tunnel können Sie die Tunnel-Regel über drei Faktoren anpassen:
     ![traffic source](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_from_1.png){class="glboxshadow"}
 
     ![traffic source](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_from_2.jpg){class="glboxshadow"}
-        
+
     - **All Clients**: Wenn ausgewählt, entspricht der Datenverkehr aller Geräte dieser Regel.
-        
+
         ![all clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_clients.jpg){class="glboxshadow"}
 
     - **Specified Connection Types**: Wenn ausgewählt, entspricht Datenverkehr bestimmter Verbindungstypen (z. B. LAN-Subnetz, Drop-in Gateway, Guest Network) dieser Regel.
-        
+
         ![specified connection](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_connection_types_1.jpg){class="glboxshadow"}
 
         Wenn Sie auf diesem Router den OpenVPN-Server oder WireGuard-Server aktiviert haben, erscheinen unter Specified Connection Types zusätzliche Optionen. Das ist nützlich für [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md).
@@ -117,14 +117,16 @@ In diesem Tunnel können Sie die Tunnel-Regel über drei Faktoren anpassen:
     Klicken Sie auf das ausgegraute Feld, um die Datenverkehrsziele auszuwählen.
 
     ![traffic destination](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_to_1.png){class="glboxshadow"}
-    
+
     ![traffic destination](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_to_2.png){class="glboxshadow"}
 
     - **All Targets**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, zu allen Zielen geleitet.
 
         ![all targets](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_targets.png){class="glboxshadow"}
-    
+
     - **Specified Domain / IP List**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, zu den angegebenen Domains oder IP-Adressen geleitet. Diese müssen manuell eingegeben werden.
+
+        Bitte beachten Sie, dass die Angabe einer <u>Root-Domain</u> alle ihre Subdomains abdeckt. Wenn Sie beispielsweise `archive.ubuntu.com`, `security.ubuntu.com` und `old-releases.ubuntu.com` in einem Tunnel angeben möchten, müssen Sie nur die Root-Domain `ubuntu.com` angeben.
 
         ![specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_manual.png){class="glboxshadow"}
 
@@ -133,21 +135,27 @@ In diesem Tunnel können Sie die Tunnel-Regel über drei Faktoren anpassen:
         ![specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_subscription.png){class="glboxshadow"}
 
         !!! Note
-        
+
+            - Die Angabe einer Root-Domain deckt alle zugehörigen Subdomains ab.
+
             - Wenn Sie Subscribe URL auswählen, werden die Domainnamen oder IPs unter dieser URL täglich automatisch aktualisiert.
 
             - Stellen Sie sicher, dass Sie die richtige URL eingeben. Die URL-Prüfung verifiziert die Gültigkeit der Domainnamen oder IP-Adressen. [Mehr erfahren](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
     - **Exclude Specified Domain / IP List**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, **NICHT** zu den angegebenen Domains oder IP-Adressen geleitet. Diese müssen manuell eingegeben werden.
 
+        Bitte beachten Sie, dass die Angabe einer <u>Root-Domain</u> alle ihre Subdomains abdeckt. Wenn Sie beispielsweise `archive.ubuntu.com`, `security.ubuntu.com` und `old-releases.ubuntu.com` in einem Tunnel angeben möchten, müssen Sie nur die Root-Domain `ubuntu.com` angeben.
+
         ![exclude specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_manual.png){class="glboxshadow"}
 
         Oder wechseln Sie den **Input Mode** von Manual zu Subscription URL und geben Sie einen URL-Link ein.
 
-        ![exclude specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_subscription.png){class="glboxshadow"} 
+        ![exclude specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_subscription.png){class="glboxshadow"}
 
         !!! Note
-        
+
+            - Die Angabe einer Root-Domain deckt alle zugehörigen Subdomains ab.
+
             - Wenn Sie Subscribe URL auswählen, werden die Domainnamen oder IPs unter dieser URL täglich automatisch aktualisiert.
 
             - Stellen Sie sicher, dass Sie die richtige URL eingeben. Die URL-Prüfung verifiziert die Gültigkeit der Domainnamen oder IP-Adressen. [Mehr erfahren](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
@@ -161,7 +169,7 @@ In diesem Tunnel können Sie die Tunnel-Regel über drei Faktoren anpassen:
     ![via](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_via_2.png){class="glboxshadow"}
 
     - **Use VPN**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, über das VPN zu den ausgewählten Zielen geleitet.
-        
+
         Zunächst müssen Sie Ihren Router als VPN-Client konfigurieren. Verwenden Sie den [VPN Setup Wizard](#setup-wizard), um die Konfiguration schnell abzuschließen, oder gehen Sie in der linken Seitenleiste zu OpenVPN Client bzw. WireGuard Client, um die Konfiguration manuell vorzunehmen.
 
         Sobald der Router als VPN-Client eingerichtet ist, wählen Sie eine VPN-Konfigurationsdatei für diesen Tunnel aus und klicken Sie auf **Apply**.

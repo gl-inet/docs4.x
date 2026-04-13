@@ -182,13 +182,13 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 ## Control de flujo
 
-=== "DPI License"
+=== "DPI Engine"
 
     DPI (Deep Packet Inspection) es una capacidad central de la gestión inteligente de redes. Puede superar la limitación de los routers tradicionales (que solo identifican direcciones de origen o destino), analizar en profundidad la carga útil de los paquetes de datos e identificar con precisión las aplicaciones y los sitios web a los que accede el usuario mediante la comparación con bibliotecas de firmas, lo que permite una clasificación y un control del tráfico más detallados.
 
     Integrada con [Netify](https://www.netify.ai/){target="_blank"}, la función DPI de GL.iNet adopta un complemento integrado ligero para un despliegue eficiente. Con la base de datos de firmas de Netify actualizada en línea, permite una gestión fiable y hace que el control de red sea más preciso y eficiente.
 
-    Consulte [DPI License](../../interface_guide/dpi_license.md) para ver instrucciones detalladas.
+    Consulte [DPI Engine](../../interface_guide/dpi_engine.md) para ver instrucciones detalladas.
 
 === "Data Statistics"
 

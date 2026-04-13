@@ -48,7 +48,7 @@ Per ottenere un segnale migliore, usa un'antenna da tetto per Spitz AX. Consigli
 
 Per evitare attenuazione del segnale, il cavo a radiofrequenza dall'antenna da tetto a Spitz AX non dovrebbe superare i 5 metri. Ad esempio, quando il cavo radiofrequenza MobileMark e' lungo 5 metri, la ricezione del segnale a 3000MHz si riduce di 3dB, cioe' a meta' della potenza. Maggiore e' la frequenza del segnale, maggiore sara' l'attenuazione.
 
-[Scopri come sostituire le antenne di Spitz AX.](https://docs.gl-inet.com/router/en/4/tutorials/how_to_change_x3000_and_xe3000_antennas/)
+[Scopri come installare o sostituire le antenne esterne per router cellulari.](how_to_install_or_change_antennas.md)
 
 ---
 

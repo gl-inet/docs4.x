@@ -1,4 +1,4 @@
-# Introduction aux paramètres d'obfuscation d'AmneziaWG
+# Paramètres d'obfuscation AmneziaWG
 
 AmneziaWG est un protocole VPN basé sur WireGuard avec une obfuscation du trafic intégrée. Ses paramètres d'obfuscation contrôlent la manière dont le trafic est déguisé afin d'éviter sa détection par des contrôles réseau stricts. Vous trouverez ci-dessous un aperçu détaillé des différences entre les versions d'AmneziaWG, des paramètres d'obfuscation, de leurs contraintes et des réglages recommandés.
 

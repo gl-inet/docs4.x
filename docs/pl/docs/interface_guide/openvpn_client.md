@@ -1,4 +1,4 @@
-﻿# Konfiguracja klienta OpenVPN na routerach GL.iNet
+# Konfiguracja klienta OpenVPN na routerach GL.iNet
 
 OpenVPN to otwartoźródłowy protokół VPN, który wykorzystuje techniki wirtualnych sieci prywatnych do ustanawiania bezpiecznych połączeń site-to-site lub punkt-punkt.
 
@@ -43,7 +43,7 @@ Szybka konfiguracja NordVPN jest zintegrowana z panelem administracyjnym router�
     ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
 
 2. Zaloguj się do panelu administratora routera, przejdź do VPN -> OpenVPN Client -> NordVPN. Wprowadź **dane logowania do usługi** uzyskane w kroku 1 (uwaga: to **NIE** są dane logowania do konta e-mail/hasło), a następnie kliknij **Save and Continue**.
-   
+
     ![input nordvpn service credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn1.png){class="glboxshadow"}
 
 3. Wybierz protokół, maksymalną liczbę serwerów dla każdej lokalizacji i lokalizacje, a następnie kliknij **Apply**.
@@ -113,15 +113,15 @@ W poniższych krokach jako przykładu używamy [PIA (Private Internet Access)](h
     - Dostępne są 4 typy danych uwierzytelniających:
 
         1. Bez uwierzytelniania.
-        
+
         2. Tylko nazwa użytkownika i hasło.
-        
+
         3. Tylko hasło (Passphrase).
 
         4. Nazwa użytkownika, hasło i Passphrase.
 
     Plik konfiguracyjny zostanie wyświetlony po przesłaniu.
-     
+
     ![manual upload files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual5.png){class="glboxshadow"}
 
 6. Kliknij ikonę trzech kropek po prawej stronie, aby nawiązać połączenie.
@@ -278,7 +278,7 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
         * **Server group** : Wybierz grupę serwerów i protokół OpenVPN (UDP lub TCP).
 
         **OpenVPN UDP** zapewnia wyższą prędkość niż wersja TCP, ale w niektórych przypadkach może powodować przerwy w pobieraniu. Jest to ustawienie domyślne.
-        
+
         **OpenVPN TCP** zapewnia bardziej stabilne połączenia niż wersja UDP, ale jest nieco wolniejszy. Wybierz tę wersję, jeśli masz powtarzające się problemy z połączeniem, takie jak nagłe rozłączenia.
 
         Po wybraniu żądanych parametrów zapisz je klikając **Save Configuration**.
@@ -457,26 +457,11 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
 
     [Link do instrukcji](https://www.ivpn.net/setup/gnu-linux-terminal.html)
 
-??? "Mullvad"
-    ### Mullvad
-
-    [Oficjalna strona](https://mullvad.net/en){target="_blank"}
-
-    1. Przejdź na stronę [Mullvad](https://mullvad.net/en){rel="sponsored" target="_blank"} i zaloguj się za pomocą danych logowania Mullvad.
-
-    2. Wybierz konfigurację OpenVPN.
-
-    ![ovpnconfig](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ovpnconfig.jpg){class="glboxshadow"}
-
-    3. Wybierz **Linux** i wybierz lokalizację serwera.
-
-    ![linux](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/linux.jpg){class="glboxshadow"}
-
 ??? "OVPN"
     ### OVPN
 
     [Oficjalna strona](https://www.ovpn.com/en?ref=glinet){target="_blank"}
-    
+
     Po zalogowaniu możesz łatwo uzyskać pliki konfiguracyjne OpenVPN, klikając poniższe menu.
 
     ![get ovpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/get_ovpn_configuration_files.jpg){class="glboxshadow"}
@@ -556,7 +541,7 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
     [Oficjalna strona](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
     Aby skonfigurować klienta OpenVPN za pomocą PureVPN, potrzebna będzie nazwa użytkownika i hasło OpenVPN oraz plik konfiguracyjny, które możesz znaleźć na swoim koncie PureVPN.
-   
+
     1. [Zaloguj się do swojego konta PureVPN](https://my.purevpn.com/).
     2. Z lewego paska bocznego kliknij **Subscriptions**.
     3. Przewiń w dół, aby znaleźć swoją nazwę użytkownika i hasło OpenVPN.
@@ -601,11 +586,11 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
         ![select udp or tcp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/udp_tcp.png){class="glboxshadow"}
 
     3. **Edytuj plik konfiguracyjny**
-    
+
         Niektóre routery GL.iNet nie obsługują IPv6. Aby uniknąć problemów ze zgodnością i łącznością, otwórz plik konfiguracyjny .ovpn i usuń treści związane z IPv6, jak pokazano poniżej.
 
         ![remove ipv6](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/remove_ipv6.png){class="glboxshadow"}
-        
+
 ??? "StreamVPN"
     ### StreamVPN
 
@@ -704,7 +689,7 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
         ![vpn unlimited openvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/vpnunlimited/keepsolid1.png){class="glboxshadow"}
 
     2. Wybierz żądaną lokalizację serwera.
-    
+
         VPN Unlimited oferuje szeroki wybór serwerów – ponad 400 w ponad 70 lokalizacjach. W tym przykładzie wybierzemy Niemcy.
 
     3. Wybierz protokół VPN.
@@ -732,7 +717,7 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
     [Oficjalna strona](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
     1. Zaloguj się do swojego konta Windscribe [tutaj](https://windscribe.com/login?auth_required){target="_blank"}, a następnie przejdź do [generatora konfiguracji OpenVPN](https://windscribe.com/getconfig/openvpn){target="_blank"}.
-    
+
     2. Wybierz lokalizację serwera, protokół (UDP/TCP), port (np. 1194) i wersję OpenVPN (najlepiej nowszą), a następnie kliknij **Download Config**. Na Twoje urządzenie zostanie pobrany plik z rozszerzeniem „.ovpn".
 
         ![windscribe OpenVPN Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/windscribe/ovpn-config-generator.png){class="glboxshadow"}

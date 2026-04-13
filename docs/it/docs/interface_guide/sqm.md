@@ -1,26 +1,35 @@
 # SQM (Smart Queue Management)
 
-SQM, Smart Queue Management, gestisce in modo intelligente il traffico di rete del router per ridurre al minimo la latenza e il "bufferbloat", garantendo gaming e chiamate vocali piu' fluidi.
+SQM (Smart Queue Management) gestisce in modo intelligente il traffico di rete del router per ridurre al minimo la latenza e il "bufferbloat", garantendo gaming e chiamate vocali più fluidi.
 
 **Nota**:
 
-1. Questa funzione e' attualmente disponibile solo su **GL-MT5000 (Brume 3)**.
+1. Questa funzione influisce sul traffico che passa attraverso il router come gateway, incluso il traffico dei client locali e il traffico del client VPN, ma non sul traffico in ingresso quando il router agisce come VPN Server.
 
-2. Questa funzione influisce sul traffico che passa attraverso il router come gateway, incluso il traffico dei client locali e il traffico del client VPN, ma non sul traffico in ingresso quando il router agisce come VPN Server.
+2. Poiché SQM richiede molte risorse, funziona al meglio su reti a bassa larghezza di banda o congestionate. Abilitarlo su connessioni ad alta velocità può ridurre il throughput massimo.
 
-3. Poiche' SQM richiede molte risorse, funziona al meglio su reti a bassa larghezza di banda o congestionate. Abilitarlo su connessioni ad alta velocita' puo' ridurre il throughput massimo.
+## Modelli supportati
 
----
+!!! note "Modelli supportati"
 
-Sul lato sinistro del pannello di amministrazione web, vai su **FLOW CONTROL** > > **SQM**.
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MT5000 (Brume 3)
 
-Imposta prima la velocita' massima di upload e download, intervallo di input: 1 - 10000, per la pianificazione del traffico. Per ottenere i migliori risultati, falle corrispondere alla tua effettiva larghezza di banda Internet.
+## Configurazione rapida
+
+Sul lato sinistro del pannello di amministrazione web, vai su **FLOW CONTROL** -> **SQM**.
+
+Attiva l'interruttore per abilitare SQM, quindi imposta la velocità massima di upload e download, intervallo di input 1 - 10000, per la pianificazione del traffico. Per ottenere i migliori risultati, falle corrispondere alla tua effettiva larghezza di banda Internet.
 
 ![sqm](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/sqm.png){class="glboxshadow"}
 
+**Nota**: i valori inseriti nel campo di input sono espressi in **Mbps** (megabit al secondo). L'equivalente in **MB/s** (megabyte al secondo) viene mostrato come riferimento.
+
+![up down speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/up_down_speed.jpg){class="glboxshadow"}
+
 Per Queue Rule sono disponibili due opzioni:
 
-- **cake**: traffic shaping intelligente e automatico con controllo complessivo superiore della latenza, consigliato.
+- **cake**: traffic shaping intelligente e automatico con un controllo complessivo della latenza superiore, consigliato.
 
 - **fq_codel**: fair queueing semplice ed efficiente con riduzione di base della latenza.
 

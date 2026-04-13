@@ -1,8 +1,8 @@
-# Paramètres du bouton bascule
+# Paramètres du bouton à bascule
 
-Les paramètres du bouton bascule vous permettent d'assigner des fonctions spécifiques au bouton physique de votre routeur afin d'obtenir un accès et un contrôle rapides, avec des raccourcis pratiques pour les tâches courantes.
+Les paramètres du bouton à bascule vous permettent d’assigner des fonctions spécifiques à l’interrupteur physique de votre routeur (également appelé sélecteur de mode sur certains modèles) pour un accès et un contrôle rapides, avec des raccourcis pratiques pour les opérations courantes.
 
-Vous pouvez personnaliser le comportement du bouton dans le panneau d'administration web.
+Vous pouvez personnaliser le comportement de cet interrupteur dans le panneau d’administration web.
 
 ## Modèles pris en charge
 
@@ -40,11 +40,11 @@ Vous pouvez personnaliser le comportement du bouton dans le panneau d'administra
 
 ## Configuration
 
-Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Toggle Button Settings**.
+Dans la partie gauche du panneau d’administration web, accédez à **SYSTEM** -> **Toggle Button Settings**.
 
 ![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
 
-Avant le firmware v4.8, cinq options étaient disponibles pour personnaliser la fonction du bouton bascule :
+Avant le firmware v4.8, cinq options permettaient de personnaliser la fonction du bouton à bascule :
 
 - No Function
 - AdGuard Home
@@ -52,7 +52,7 @@ Avant le firmware v4.8, cinq options étaient disponibles pour personnaliser la 
 - Tor
 - WireGuard Client
 
-Depuis le firmware v4.8, d'autres options ont été ajoutées : Repeater, Wi‑Fi et LED. Les utilisateurs peuvent ainsi personnaliser le bouton bascule selon leurs besoins.
+Depuis le firmware v4.8, d’autres options ont été ajoutées : Repeater, Wi‑Fi et LED. Les utilisateurs peuvent ainsi personnaliser l’interrupteur selon leurs besoins.
 
 - No Function
 - Repeater
@@ -64,11 +64,11 @@ Depuis le firmware v4.8, d'autres options ont été ajoutées : Repeater, Wi‑F
 
 ![toggle button 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_4.8.png){class="glboxshadow"}
 
-Lors de l'application des paramètres, vous pouvez décider d'activer ou non immédiatement la fonction choisie selon la position gauche/droite (ON/OFF) du bouton bascule.
+Lors de l’application des paramètres, vous pouvez décider d’activer ou non immédiatement la fonctionnalité choisie selon la position ON/OFF (gauche/droite) du bouton à bascule.
 
-**Remarque** : après le redémarrage de l'appareil, le système appliquera automatiquement l'état de la fonction en fonction de la position du bouton bascule.
+**Remarque** : après le redémarrage de l’appareil, le système appliquera automatiquement l’état de la fonctionnalité en fonction de la position du bouton à bascule.
 
-Par exemple, si vous configurez **WireGuard Client** pour être contrôlé par le bouton bascule : lorsque le bouton est à gauche (**ON**), le client WireGuard démarre automatiquement ; lorsqu'il est à droite (**OFF**), le client WireGuard reste désactivé.
+Par exemple, si vous configurez **WireGuard Client** pour qu’il soit contrôlé par le bouton à bascule : lorsque l’interrupteur est à gauche (**ON**), le client WireGuard démarre automatiquement ; lorsqu’il est à droite (**OFF**), le client WireGuard reste désactivé.
 
 ---
 

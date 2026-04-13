@@ -1,4 +1,4 @@
-# Parametry maskowania AmneziaWG
+# Parametry obfuskacji AmneziaWG
 
 AmneziaWG to protokół VPN oparty na WireGuard z wbudowanym maskowaniem ruchu. Jego parametry maskowania określają, w jaki sposób ruch jest ukrywany, aby utrudnić jego wykrycie przez restrykcyjne mechanizmy kontroli sieci. Poniżej znajdziesz szczegółowe omówienie różnic między wersjami AmneziaWG, parametrów maskowania, ich ograniczeń oraz zalecanych ustawień.
 

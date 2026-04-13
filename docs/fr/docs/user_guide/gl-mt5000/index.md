@@ -35,7 +35,7 @@ Connectez un appareil filaire (par exemple un ordinateur de bureau ou un ordinat
 
 ### 3. Se connecter au panneau d'administration web
 
-**Remarque :** Les instructions suivantes s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet. 
+**Remarque :** Les instructions suivantes s'appliquent aux utilisateurs qui configurent le routeur via le panneau d'administration web GL.iNet.
 
 Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse et connectez-vous. Choisissez votre langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
 
@@ -44,11 +44,11 @@ Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d'adresse et con
 Configurez votre Brume 3 en utilisant l'une des méthodes de connexion Internet prises en charge : Ethernet, Tethering et Cellular (optionnel). Si vous souhaitez utiliser la fonction [Multi-WAN](../../interface_guide/multi-wan.md), veuillez configurer plus d'une connexion Internet.
 
 === "Ethernet"
-    
+
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_ethernet.png){class="glboxshadow"}
 
-    Connectez le port WAN du Brume 3 à un appareil en amont (par ex. un modem) à l'aide d'un câble Ethernet. 
-    
+    Connectez le port WAN du Brume 3 à un appareil en amont (par ex. un modem) à l'aide d'un câble Ethernet.
+
     Une fois le Brume 3 connecté avec succès à Internet, un point vert apparaîtra à côté de "Ethernet" sur la page INTERNET du panneau d'administration web, et la LED physique du Brume 3 deviendra blanche fixe.
 
     Veuillez consulter [Connexion à Internet via un câble Ethernet](../../interface_guide/internet_ethernet.md) pour des instructions détaillées.
@@ -57,10 +57,10 @@ Configurez votre Brume 3 en utilisant l'une des méthodes de connexion Internet 
 
     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_tethering.png){class="glboxshadow"}
 
-    1. Connectez votre appareil mobile au port USB Type-C du Brume 3 à l'aide d'un câble de données USB 3.0. 
-    2. Dans les paramètres de votre appareil mobile, activez le partage de connexion USB. 
-    3. Sur la page INTERNET du panneau d'administration web, cliquez sur **Connect** dans la section "Tethering". 
-    
+    1. Connectez votre appareil mobile au port USB Type-C du Brume 3 à l'aide d'un câble de données USB 3.0.
+    2. Dans les paramètres de votre appareil mobile, activez le partage de connexion USB.
+    3. Sur la page INTERNET du panneau d'administration web, cliquez sur **Connect** dans la section "Tethering".
+
     Une fois le Brume 3 connecté avec succès à Internet, un point vert apparaîtra à côté de "Tethering" sur la page INTERNET du panneau d'administration web, et la LED physique du Brume 3 deviendra blanche fixe.
 
     Veuillez consulter [Connexion à Internet via le partage de connexion USB](../../interface_guide/internet_tethering.md) pour des instructions détaillées.
@@ -68,7 +68,7 @@ Configurez votre Brume 3 en utilisant l'une des méthodes de connexion Internet 
 === "Cellular"
 
     Un câble adaptateur USB-C vers USB-A supplémentaire est requis pour cette méthode de connexion.
-    
+
     Branchez un modem USB cellulaire sur le port USB Type-C du Brume 3 à l'aide d'un câble adaptateur USB-C vers USB-A supplémentaire. Cela permet de partager la connexion Internet d'un modem USB avec tous les appareils clients connectés.
 
     Une fois le Brume 3 connecté avec succès à Internet, un point vert apparaîtra à côté de "Cellular" sur la page INTERNET du panneau d'administration web, et la LED physique du Brume 3 deviendra blanche fixe.
@@ -90,28 +90,28 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
 === "GoodCloud"
 
     Le service de gestion Cloud GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un moyen simple et pratique d'accéder à distance aux routeurs GL.iNet et de les gérer.
-    
+
     Pour configurer GoodCloud, consultez [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
 
-    AstroWarp est une plateforme réseau avancée conçue pour offrir une mise en réseau à distance fluide et une gestion à distance des appareils. Conçue spécialement pour l'intégration avec les routeurs GL.iNet, AstroWarp prend en charge une gestion complète des appareils sur l'ensemble du réseau, y compris les appareils de niveau supérieur et inférieur. Axée sur la gestion à l'échelle du réseau et sur une future prise en charge du contrôle matériel, AstroWarp fournit une solution plus robuste et plus fiable pour gérer les appareils et maintenir des réseaux sûrs et stables. 
-    
+    AstroWarp est une plateforme réseau avancée conçue pour offrir une mise en réseau à distance fluide et une gestion à distance des appareils. Conçue spécialement pour l'intégration avec les routeurs GL.iNet, AstroWarp prend en charge une gestion complète des appareils sur l'ensemble du réseau, y compris les appareils de niveau supérieur et inférieur. Axée sur la gestion à l'échelle du réseau et sur une future prise en charge du contrôle matériel, AstroWarp fournit une solution plus robuste et plus fiable pour gérer les appareils et maintenir des réseaux sûrs et stables.
+
     Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN
 
-Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Le Brume 3 prend en charge OpenVPN et WireGuard. 
+Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre votre appareil et le serveur VPN. Il ajoute une couche supplémentaire de confidentialité et de sécurité (client VPN) et vous permet d'accéder à un réseau distant (serveur VPN). Le Brume 3 prend en charge OpenVPN et WireGuard.
 
-=== "OpenVPN" 
-    
+=== "OpenVPN"
+
     Brume 3 (comme les autres routeurs GL.iNet) prend en charge le protocole OpenVPN, qui offre une sécurité renforcée. Pour configurer OpenVPN, suivez ces tutoriels :
 
     * [Comment configurer un client OpenVPN](../../interface_guide/openvpn_client.md)
     * [Comment configurer un serveur OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
-    
+
     Brume 3 (comme les autres routeurs GL.iNet) prend en charge le protocole WireGuard, qui offre d'excellentes vitesses et une grande simplicité d'utilisation. Pour configurer WireGuard, suivez ces tutoriels :
 
     * [Comment configurer un client WireGuard](../../interface_guide/wireguard_client.md)
@@ -121,14 +121,14 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Multi-WAN"
 
-    Multi-WAN est une fonctionnalité réseau qui permet de configurer le routeur avec plusieurs connexions Internet simultanées (par ex. cellular, repeater et ethernet). Si votre connexion Internet actuelle tombe en panne, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu. 
+    Multi-WAN est une fonctionnalité réseau qui permet de configurer le routeur avec plusieurs connexions Internet simultanées (par ex. cellular, repeater et ethernet). Si votre connexion Internet actuelle tombe en panne, le routeur bascule automatiquement vers une autre connexion. Cela garantit un accès Internet fluide et ininterrompu.
 
     Pour configurer le Multi-WAN, consultez [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    Le LAN, ou réseau local, est un réseau qui connecte des ordinateurs et des appareils dans une zone géographique limitée, comme une maison ou un bureau. Il permet des transferts de données rapides et le partage de ressources, afin que les appareils puissent communiquer efficacement entre eux. 
-    
+    Le LAN, ou réseau local, est un réseau qui connecte des ordinateurs et des appareils dans une zone géographique limitée, comme une maison ou un bureau. Il permet des transferts de données rapides et le partage de ressources, afin que les appareils puissent communiquer efficacement entre eux.
+
     Pour configurer le LAN, consultez [LAN](../../interface_guide/lan.md).
 
 === "DNS"
@@ -147,48 +147,48 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "IPv6"
 
-    IPv6, ou Internet Protocol version 6, est la version la plus récente du protocole Internet conçue pour remplacer IPv4. Elle offre un espace d'adressage bien plus vaste, permettant un nombre quasiment illimité d'adresses IP uniques, ce qui est essentiel pour prendre en charge le nombre croissant d'appareils connectés à Internet. 
-    
+    IPv6, ou Internet Protocol version 6, est la version la plus récente du protocole Internet conçue pour remplacer IPv4. Elle offre un espace d'adressage bien plus vaste, permettant un nombre quasiment illimité d'adresses IP uniques, ce qui est essentiel pour prendre en charge le nombre croissant d'appareils connectés à Internet.
+
     Pour configurer IPv6, consultez [IPv6](../../interface_guide/network_mode.md).
 
 === "IGMP Snooping"
 
-    L'IGMP snooping est une technique d'optimisation réseau utilisée sur les commutateurs Ethernet pour gérer et contrôler le trafic multicast. 
-    
+    L'IGMP snooping est une technique d'optimisation réseau utilisée sur les commutateurs Ethernet pour gérer et contrôler le trafic multicast.
+
     Pour configurer l'IGMP Snooping, consultez [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
 ---
 
 === "Mode réseau"
 
-    Le mode réseau désigne les paramètres de configuration qui déterminent comment un appareil se connecte à un réseau et communique avec d'autres appareils. 
-    
+    Le mode réseau désigne les paramètres de configuration qui déterminent comment un appareil se connecte à un réseau et communique avec d'autres appareils.
+
     Pour configurer le mode réseau, consultez [Mode réseau](../../interface_guide/network_mode.md).
 
 === "Passerelle Drop-in"
 
     Drop-in Gateway étend les fonctionnalités de votre routeur principal, notamment avec AdGuard Home, le DNS chiffré et le client VPN.
-    
+
     Pour configurer Drop-in Gateway, consultez les liens suivants :
-    
+
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [Comment configurer Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Accélération réseau"
 
     L'accélération réseau peut réduire la charge du CPU et accélérer le transfert des paquets réseau.
-    
+
     Pour configurer l'accélération réseau, consultez [Accélération réseau](../../interface_guide/network_acceleration.md).
 
 ## Contrôle du flux
 
-=== "Licence DPI"
+=== "DPI Engine"
 
     Le DPI (Deep Packet Inspection) est une capacité essentielle de la gestion réseau intelligente. Il permet de dépasser les limites des routeurs traditionnels (qui n'identifient que les adresses source ou de destination), d'analyser en profondeur le contenu des paquets de données et d'identifier avec précision les applications et sites web consultés par l'utilisateur grâce à la comparaison avec une base de signatures, ce qui permet une classification et un contrôle affinés du trafic.
-    
+
     Intégrée à [Netify](https://www.netify.ai/){target="_blank"}, la fonction DPI de GL.iNet utilise un plug-in embarqué léger pour un déploiement efficace. Grâce à la base de signatures Netify mise à jour en ligne, elle permet une gestion fiable et rend le contrôle du réseau plus précis et plus efficace.
 
-    Veuillez consulter [Licence DPI](../../interface_guide/dpi_license.md) pour des instructions détaillées.
+    Veuillez consulter [DPI Engine](../../interface_guide/dpi_engine.md) pour des instructions détaillées.
 
 === "Statistiques des données"
 
@@ -226,8 +226,8 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Redirection de ports"
 
-    La redirection de port permet à des serveurs et appareils distants sur Internet d'accéder à des appareils situés sur un réseau privé. 
-    
+    La redirection de port permet à des serveurs et appareils distants sur Internet d'accéder à des appareils situés sur un réseau privé.
+
     Pour configurer la redirection de ports, consultez [Redirection de ports](../../interface_guide/port_forwarding.md).
 
 === "Contrôle de gestion"
@@ -252,46 +252,46 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Plug-ins"
 
-    Un plug-in est un composant logiciel qui ajoute des fonctionnalités spécifiques à un programme existant, permettant ainsi de le personnaliser et d'en étendre les capacités. 
-    
+    Un plug-in est un composant logiciel qui ajoute des fonctionnalités spécifiques à un programme existant, permettant ainsi de le personnaliser et d'en étendre les capacités.
+
     Pour configurer les plug-ins, consultez [Plug-ins](../../interface_guide/plugins.md).
 
 === "DNS dynamique"
 
-    Le DNS dynamique (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Il est particulièrement utile aux utilisateurs qui ont besoin d'une adresse IP statique pour accéder à un réseau distant. 
-    
+    Le DNS dynamique (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Il est particulièrement utile aux utilisateurs qui ont besoin d'une adresse IP statique pour accéder à un réseau distant.
+
     Pour configurer le DNS dynamique, consultez [DNS dynamique](../../interface_guide/ddns.md).
 
 === "Stockage réseau"
 
-    Le stockage réseau désigne une solution centralisée de stockage de données qui permet à plusieurs utilisateurs et appareils d'accéder à des fichiers et de les partager via un réseau. 
-    
+    Le stockage réseau désigne une solution centralisée de stockage de données qui permet à plusieurs utilisateurs et appareils d'accéder à des fichiers et de les partager via un réseau.
+
     Pour configurer le stockage réseau, consultez [Stockage réseau](../../interface_guide/network_storage.md).
 
 ---
 
 === "AdGuard Home"
 
-    AdGuard Home est une solution de blocage des publicités et des traceurs à l'échelle du réseau qui agit comme un serveur DNS pour filtrer les contenus indésirables sur tous les appareils connectés au réseau domestique. 
-    
+    AdGuard Home est une solution de blocage des publicités et des traceurs à l'échelle du réseau qui agit comme un serveur DNS pour filtrer les contenus indésirables sur tous les appareils connectés au réseau domestique.
+
     Pour configurer AdGuard Home, consultez [AdGuard Home](../../interface_guide/adguardhome.md).
 
 === "ZeroTier"
 
-    ZeroTier est une solution réseau définie par logiciel qui permet de créer des réseaux virtuels sécurisés sur Internet, reliant les appareils comme s'ils se trouvaient sur le même réseau local. 
-    
+    ZeroTier est une solution réseau définie par logiciel qui permet de créer des réseaux virtuels sécurisés sur Internet, reliant les appareils comme s'ils se trouvaient sur le même réseau local.
+
     Pour configurer ZeroTier, consultez [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tailscale"
 
-    Tailscale est un service VPN qui vous permet d'accéder à vos appareils et applications partout. 
-    
+    Tailscale est un service VPN qui vous permet d'accéder à vos appareils et applications partout.
+
     Pour configurer Tailscale, consultez [Tailscale](../../interface_guide/tailscale.md).
 
 === "Tor"
 
-    Tor, abréviation de The Onion Router, est un réseau axé sur la confidentialité qui permet des communications anonymes sur Internet. Il achemine le trafic Internet via une série de serveurs bénévoles (nœuds) afin de masquer l'emplacement et l'usage de l'utilisateur, rendant les activités en ligne difficiles à tracer. 
-    
+    Tor, abréviation de The Onion Router, est un réseau axé sur la confidentialité qui permet des communications anonymes sur Internet. Il achemine le trafic Internet via une série de serveurs bénévoles (nœuds) afin de masquer l'emplacement et l'usage de l'utilisateur, rendant les activités en ligne difficiles à tracer.
+
     * [Comment configurer Tor](../../interface_guide/tor.md)
 
 ## Système
@@ -306,7 +306,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     * Utilisation du stockage flash : consultez l'utilisation de la mémoire flash du routeur afin de vérifier qu'il reste suffisamment d'espace pour le firmware et les données de configuration.
     * Informations sur l'appareil : accédez à des informations détaillées sur le système du routeur, notamment la durée de fonctionnement, le nom d'hôte, le modèle, l'architecture, la version d'OpenWrt, la version du noyau, l'ID de l'appareil, l'adresse MAC et le numéro de série.
     * Stockage externe : vérifiez l'état des périphériques de stockage externes connectés au routeur, comme les clés USB ou les cartes TF.
-    
+
     Ces fonctionnalités offrent des informations et des contrôles essentiels pour vous aider à gérer et surveiller efficacement le fonctionnement du routeur.
 
     Pour des instructions détaillées et plus d'informations, veuillez consulter [Overview](../../interface_guide/system_overview.md).
@@ -342,7 +342,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     * Planification de l'affichage LED : définissez un calendrier pour allumer ou éteindre automatiquement les voyants LED du routeur, afin de réduire la pollution lumineuse à certains moments.
     * Redémarrage planifié : configurez le routeur pour redémarrer automatiquement à des intervalles définis, afin de préserver des performances et une stabilité optimales.
-    
+
     Ces options de planification vous offrent un meilleur contrôle sur le fonctionnement du routeur, afin qu'il réponde à vos besoins et préférences spécifiques.
 
     Pour des instructions détaillées et plus d'informations, veuillez consulter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
@@ -362,7 +362,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     * Journal des plantages : enregistrements des plantages et erreurs système, utiles pour diagnostiquer les problèmes critiques.
     * Journal cloud : journaux des interactions et activités liées aux services GoodCloud intégrés au routeur.
     * Journal Nginx : journaux du serveur web Nginx, s'il est utilisé par le routeur, détaillant le trafic web et les opérations du serveur.
-    
+
     En outre, cette page propose un bouton Export Log, qui permet d'exporter tous les journaux collectés pour analyse par le support technique. Cette fonction est précieuse pour diagnostiquer des problèmes complexes et obtenir une assistance professionnelle.
 
     Pour des instructions détaillées et plus d'informations, veuillez consulter [Log](../../interface_guide/log.md).

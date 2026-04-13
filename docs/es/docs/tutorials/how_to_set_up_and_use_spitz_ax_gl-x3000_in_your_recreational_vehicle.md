@@ -49,7 +49,7 @@ Para obtener una mejor señal, use una antena de techo para su Spitz AX. Se reco
 
 Para evitar la atenuación de la señal, el cable de radiofrecuencia entre la antena de techo y su Spitz AX no debe superar los 5 metros. Por ejemplo, cuando el cable de radiofrecuencia de MobileMark tiene una longitud de 5 metros, la recepción de la señal a 3000MHz se reduce en 3dB, lo que equivale a la mitad de la intensidad. Cuanto mayor sea la frecuencia de la señal, mayor será la atenuación.
 
-[Aprenda a sustituir las antenas del Spitz AX.](https://docs.gl-inet.com/router/en/4/tutorials/how_to_change_x3000_and_xe3000_antennas/)
+[Aprenda a instalar o cambiar las antenas externas de routers celulares.](https://docs.gl-inet.com/router/en/4/tutorials/how_to_install_or_change_antennas/)
 
 ---
 

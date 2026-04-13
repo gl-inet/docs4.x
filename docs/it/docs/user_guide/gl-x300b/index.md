@@ -6,17 +6,17 @@ Collie (GL-X300B) è un gateway cellulare industriale progettato per funzionare 
 
 ![gl-x300b interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
 
-**Qual è la differenza?**
+**Qual è la differenza tra GL-X300B-RS485, GL-X300B-BLE e GL-X300B-GPS?**
 
 ![gl-x300b series](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b_series.png){class="glboxshadow"}
 
 ![gl-x300b comparison](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/model_comparison.png){class="glboxshadow"}
 
-- **GL-X300B-GPS** è dotato di cinque antenne esterne, tra cui due antenne Wi-Fi 2.4GHz, due antenne 4G LTE e un'antenna GPS. Le antenne cablate estendibili sono ideali per avere più posizioni di ricezione all'interno di un veicolo, riducendo al minimo i punti ciechi di ricezione durante gli spostamenti in città ad alta densità di rete.
+- **GL-X300B-RS485** include un chip RS485 con interfaccia RS485. Il modulo supporta la trasmissione dati bidirezionale di vari dispositivi nel campo dell'automazione industriale e dell'IoT, realizzando così funzioni di acquisizione dati, controllo e monitoraggio.
 
 - **GL-X300B-BLE** è dotato di tre antenne omnidirezionali esterne per comunicazioni Wi-Fi 2.4GHz, 4G LTE e BLE, in grado di ricevere segnali da tutte le direzioni e offrire grande flessibilità di installazione in ambienti industriali.
 
-- **GL-X300B-RS485** include un chip RS485 con interfaccia RS485. Il modulo supporta la trasmissione dati bidirezionale di vari dispositivi nel campo dell'automazione industriale e dell'IoT, realizzando così funzioni di acquisizione dati, controllo e monitoraggio.
+- **GL-X300B-GPS** è dotato di cinque antenne esterne, tra cui due antenne Wi-Fi 2.4GHz, due antenne 4G LTE e un'antenna GPS. Le antenne cablate estendibili sono ideali per avere più posizioni di ricezione all'interno di un veicolo, riducendo al minimo i punti ciechi di ricezione durante gli spostamenti in città ad alta densità di rete.
 
 !!! Note
 
@@ -24,20 +24,20 @@ Collie (GL-X300B) è un gateway cellulare industriale progettato per funzionare 
 
 ## Contenuto della confezione
 
-Tieni presente che l'adattatore incluso nella confezione dipende dal Paese di spedizione.
-
 La confezione include:
 
 - 1 x Manuale utente
-- 1 x Collie (GL-X300B)
+- 1 x Collie (GL-X300B-RS485) (garanzia di 2 anni)
 - 1 x Cavo Ethernet
-- 1 x Biglietto di ringraziamento
-- 1 x Scheda di garanzia
-- 1 x Alimentatore (tipo di spina selezionato)
+- 1 x Antenna esterna 4G
+- 2 x Antenne esterne Wi-Fi
+- 1 x Morsettiera (verde)
+- 1 x Kit per montaggio a parete
+- 1 x Kit per guida DIN
+- 1 x Alimentatore
+- 4 x Adattatori (spine US, UK, EU e AU) (garanzia di tre mesi)
 
-**Nota**: l'immagine seguente mostra come esempio GL-X300B-GPS; alcuni modelli possono essere leggermente diversi.
-
-![gl-x300b unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/first_time_setup/x300b-gps_unboxing.jpg){class="glboxshadow"}
+![gl-x300b package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b-rs485_package.jpg){class="glboxshadow"}
 
 ## Specifiche
 
@@ -72,7 +72,7 @@ Configura il router come repeater per estendere la copertura Wi-Fi di una rete W
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_repeater.png){class="glboxshadow"}
 
 ### Cellular
- 
+
 Inserisci una SIM nello slot SIM del router per connetterlo a Internet. Questo metodo è utile per condividere l'accesso a Internet di una singola SIM con tutti i dispositivi collegati.
 
 [Fai clic qui per scoprire come connetterti a Internet tramite rete cellulare](../../interface_guide/internet_cellular.md)

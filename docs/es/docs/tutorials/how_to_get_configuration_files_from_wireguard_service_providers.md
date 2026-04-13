@@ -232,17 +232,26 @@
 
     2. **Descargue la configuración Wireguard**
 
-        Inicie sesión en el [dashboard](https://www.starvpn.com/dashboard){target="_blank"} del área de miembros de StarVPN. Haga clic en Wireguard Config para descargar el archivo de configuración. Cada slot contiene un archivo de configuración WireGuard único.
+        Inicie sesión en el [dashboard](https://www.starvpn.com/dashboard){target="_blank"} del área de miembros de StarVPN. Haga clic en **Wireguard Config** para descargar el archivo de configuración. Cada slot contendrá un archivo de configuración WireGuard único.
 
-        ![starvpn download wireguard config](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/download-config_edited.jpg){class="glboxshadow"}
+        ![starvpn wireguard config download](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/wgconfigdl.png){class="glboxshadow"}
 
-    3. La configuración puede contener contenido IPv6. Como los routers GL.iNet no ofrecen un soporte suficientemente bueno para IPv6, elimine ese contenido.
+        **Consejo**: Si desea usar las técnicas de ofuscación de AmneziaWG, haga clic en **AmneziaWG Config** para descargar el archivo de configuración. Cada slot contendrá un archivo de configuración AmneziaWG único.
 
-        ![startvpn wireguard configuration remove ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/starvpn_wireguard_configuration_remove_ipv6.jpg){class="glboxshadow"}
+        ![starvpn amneziawg config download](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/amneziawgdl.png){class="glboxshadow"}
 
-    4. Luego siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para continuar.
+    3. **Edite el archivo de configuración (opcional)**
 
-    [Refer link](https://www.starvpn.com/wireguard-setup-on-gl-inet-router/){target="_blank"}
+        La configuración puede contener una dirección IPv6. Para evitar problemas de compatibilidad y conectividad, abra el archivo `.conf` y elimine la dirección IPv6, como se muestra a continuación.
+
+        ![startvpn wireguard configuration remove ipv6 content](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/starvpn/remove_ipv6.jpg){class="glboxshadow"}
+
+    4. A continuación, siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para subir el archivo de configuración a su router GL.iNet.
+
+    Referencias:
+
+    - [WireGuard VPN Setup with StarVPN on GL.iNet Router](https://www.starvpn.com/wireguard-setup-on-gl-inet-router/){target="_blank"}
+    - [AmneziaWG VPN Setup with StarVPN](https://www.starvpn.com/amnezia-vpn-setup-with-starvpn){target="_blank"}
 
 ??? "StrongVPN" ### StrongVPN
 

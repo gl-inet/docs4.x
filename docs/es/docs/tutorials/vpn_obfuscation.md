@@ -135,17 +135,35 @@ Este escenario utiliza dos routers GL.iNet para establecer una conexión VPN ofu
 
 Este escenario usa un único router GL.iNet, **Brume 3 (GL-MT5000)**, como cliente VPN para conectarse a un servidor AmneziaVPN.
 
-No es necesario configurar su propio servidor. Puede establecer una conexión VPN ofuscada directamente usando los servidores oficiales de AmneziaVPN, se requiere una suscripción Amnezia Premium.
+En este caso, no necesita desplegar su propio servidor. Solo tiene que descargar un archivo de configuración AmneziaWG desde el [sitio web oficial de Amnezia](https://amnezia.org/){target="_blank"} o desde cualquier proveedor VPN que integre AmneziaWG y, a continuación, subir ese archivo a su router GL.iNet. Después podrá establecer una conexión VPN con la ofuscación habilitada.
 
 #### Descargar la configuración
 
-1. Inicie sesión en el [Amnezia Premium Dashboard](https://cp.amnezia.org/en/login){target="\_blank"} con su Subscription Key.
+<u>Opción 1</u>: Descargue una configuración desde Amnezia Official (requiere suscripción Premium).
+
+1. Inicie sesión en el [Amnezia Premium Dashboard](https://cp.amnezia.org/en/login){target="_blank"} con su Subscription Key.
 
    ![amnezia login](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/amnezia_login.png){class="glboxshadow"}
 
 2. En el panel de Amnezia, vaya a **Connection Assets** -> **Configuration Files**, seleccione un país y descargue un archivo de configuración en su equipo local para usarlo después.
 
    ![amnezia config](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/amnezia_config.png){class="glboxshadow"}
+
+<u>Opción 2</u>: Descargue una configuración desde otro proveedor VPN que integre AmneziaWG.
+
+Tomemos StarVPN como ejemplo.
+
+1. Vaya a los [planes de precios](https://www.starvpn.com/#pricing){target="_blank"} de StarVPN y elija el plan VPN que mejor se adapte a sus necesidades. Puede registrar una cuenta StarVPN durante la compra o directamente [aquí](https://www.starvpn.com/dashboard/register.php){target="_blank"}.
+
+2. Inicie sesión en el [Dashboard de StarVPN](https://www.starvpn.com/dashboard){target="_blank"}, localice **VPN Configuration** y haga clic en **AmneziaWG Config** para descargar el archivo de configuración.
+
+    ![starvpn amneziawg config download](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/awg_starvpn.png){class="glboxshadow"}
+
+3. La configuración puede contener una dirección IPv6. Para evitar problemas de compatibilidad y conectividad, abra el archivo `.conf` y elimine la dirección IPv6, como se muestra a continuación.
+
+    ![starvpn remove ipv6](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/awg_remove_ipv6.png){class="glboxshadow"}
+
+    Después, siga los pasos siguientes para configurar el cliente VPN.
 
 #### Configurar el cliente VPN
 

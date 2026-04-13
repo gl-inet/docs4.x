@@ -79,7 +79,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 
 ## Kontrola ruchu
 
-* [Licencja DPI](dpi_license.md)
+* [DPI Engine](dpi_engine.md)
 * [Statystyki danych](data_statistics.md)
 * [Filtr treści](content_filter.md)
 * [QoS (Quality of Service)](qos.md)

@@ -1,38 +1,70 @@
 # Statistiche dei dati
 
-Data Statistics offre una dashboard intelligente di analisi del traffico che categorizza e visualizza l'utilizzo della rete per applicazione, aiutandoti a monitorare il traffico in tempo reale e storico per ottenere maggiore consapevolezza e controllo della rete.
+Data Statistics offre una dashboard intuitiva del traffico che identifica l'utilizzo della rete per applicazione e protocollo. Supporta la visualizzazione delle tendenze storiche dell'ultima ora, dell'ultimo giorno e degli ultimi 7 giorni, mostra le classifiche di utilizzo, monitora il traffico per dispositivo e consente di bloccare con un clic le app indesiderate.
 
-**Nota**:
+**Nota**: questa funzione non può funzionare con Network Acceleration. Abilitandola, Network Acceleration verrà disattivato automaticamente per garantire il corretto funzionamento.
 
-1. Questa funzione e' attualmente disponibile solo su **GL-MT5000 (Brume 3)**.
+## Modelli supportati
 
-2. Questa funzione non puo' funzionare con Network Acceleration. Abilitandola, Network Acceleration verra' disabilitato automaticamente per garantire il corretto funzionamento.
-
----
+!!! note "Modelli supportati"
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MT5000 (Brume 3)
 
 ## Configurazione rapida
 
-Sul lato sinistro del pannello di amministrazione web, vai su **FLOW CONTROL** > **Data Statistics**.
+Sul lato sinistro del pannello di amministrazione web, vai su **FLOW CONTROL** -> **Data Statistics**.
 
 Attiva l'interruttore nell'angolo superiore destro per visualizzare **Application Total Data**.
 
-![data statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/data-statistics.png){class="glboxshadow"}
+![data statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/data_stat.png){class="glboxshadow"}
 
-- **Top 10 Apps by Bandwidth Usage**: presenta un grafico di tendenza basato sul tempo, ad esempio per il giorno precedente, per mostrare il consumo di banda delle 10 applicazioni principali nel periodo selezionato.
+Questa pagina è composta da due parti:
 
-    Se necessario, cambia la timeline tra Past Hour, Past Day e Past Week.
+- **Top 10 Apps by Bandwidth Usage**: presenta un grafico temporale, ad esempio relativo all'ultimo giorno, che mostra il consumo di banda delle 10 applicazioni principali nel periodo selezionato.
 
-- **App Traffic Statistics**: mostra metriche dettagliate del traffico per ogni applicazione, inclusi i dati di Download, Upload e Total Bandwidth.
+    Passa il mouse sul grafico per visualizzare il consumo dei dati delle 10 applicazioni che usano più banda in un momento specifico.
 
-    Se necessario, cerca applicazioni specifiche nella barra di ricerca.
+    ![top10 apps chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/top10_apps_chart.png){class="glboxshadow"}
+
+- **App Traffic Statistics**: mostra metriche dettagliate del traffico per ogni applicazione, inclusi Download, Upload e Total Bandwidth. Se necessario, cerca applicazioni specifiche nella barra di ricerca.
+
+    Fai clic sulla freccia di ordinamento accanto all'intestazione della colonna per ordinare l'elenco in modo crescente o decrescente.
+
+    ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat1.png){class="glboxshadow"}
 
 ## Regole di archiviazione dei dati
 
-1. Le statistiche del traffico vengono salvate nella RAM ogni 15 secondi e archiviate nella flash ogni 1 ora. Le scritture frequenti sulla flash vengono evitate per proteggere la durata della memoria flash.
+1. Le statistiche del traffico vengono salvate nella RAM ogni 15 secondi e scritte nella memoria flash ogni 1 ora. Le scritture frequenti sulla flash vengono evitate per proteggere la durata della memoria.
 
 2. Un soft reboot non causa perdita di dati. Prima del riavvio, il sistema scrive i dati dalla RAM alla flash.
 
-3. Un hard reboot (scollegare e ricollegare l'alimentazione) o un aggiornamento del firmware (mantenendo le impostazioni) possono causare la perdita dei dati fino all'ultima ora piu' recente.
+3. Un hard reboot, scollegando e ricollegando l'alimentazione, o un aggiornamento del firmware mantenendo le impostazioni, possono causare la perdita dei dati fino all'ora più recente.
+
+## Cambiare intervallo di tempo
+
+Puoi passare da Past hour a Past day e Past week secondo necessità.
+
+![select time range](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/select_time_range.jpg){class="glboxshadow"}
+
+L'intervallo di tempo scelto determina il modo in cui i dati vengono visualizzati:
+
+- **Per un'analisi più dettagliata, ad esempio Past Hour**: il grafico mostra fluttuazioni in tempo reale e con maggiore granularità. I picchi sono più alti e i cali più netti, così è più facile individuare improvvisi aumenti dell'uso di banda.
+
+    ![past hour](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_hour.png){class="glboxshadow"}
+
+- **Per una panoramica generale, ad esempio Past Day o Past Week**: il grafico condensa i dati su una timeline più lunga. Le curve risultano più uniformi e mostrano l'andamento generale del traffico invece di ogni piccola variazione.
+
+    ![past day](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_day.png){class="glboxshadow"}
+
+## Cancellare le statistiche
+
+Fai clic sull'icona della scopa in alto a sinistra per cancellare le statistiche quando necessario.
+
+![clear data](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data1.png){class="glboxshadow"}
+
+Dopo la cancellazione, la pagina si aggiornerà come mostrato di seguito. Potrebbe essere necessario attendere qualche istante affinché inizino a caricarsi nuove statistiche.
+
+![clear data](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data2.png){class="glboxshadow"}
 
 ---
 

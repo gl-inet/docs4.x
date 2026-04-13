@@ -1,8 +1,8 @@
 # トグルボタン設定
 
-Toggle Button Settings では、ルーター本体の物理トグルスイッチ（一部モデルでは mode switch とも呼ばれます）に特定の機能を割り当て、よく使う操作へすばやくアクセスできる便利なショートカットとして利用できます。
+Toggle Button Settings では、ルーター本体の物理トグルスイッチ（一部モデルでは mode switch とも呼ばれます）に特定の機能を割り当て、よく使う操作をすばやく実行できるショートカットとして利用できます。
 
-Web管理パネルで、このスイッチの動作をカスタマイズできます。
+このスイッチの動作は Web 管理パネルでカスタマイズできます。
 
 ## 対応モデル
 
@@ -52,7 +52,7 @@ Web管理パネルの左側で、**SYSTEM** -> **Toggle Button Settings** に移
 - Tor
 - WireGuard Client
 
-ファームウェア v4.8 以降では、Repeater、Wi-Fi、LED が追加され、より多くの選択肢からニーズに合わせて設定できます。
+ファームウェア v4.8 以降では、Repeater、Wi‑Fi、LED が追加され、より多くの選択肢から用途に合わせて設定できます。
 
 - No Function
 - Repeater
@@ -64,7 +64,7 @@ Web管理パネルの左側で、**SYSTEM** -> **Toggle Button Settings** に移
 
 ![toggle button 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_4.8.png){class="glboxshadow"}
 
-設定を適用する際は、トグルスイッチの on/off（left/right）位置に応じて、選択した機能をすぐに有効/無効にするかどうかを決められます。
+設定を適用するときは、トグルスイッチの on / off（left / right）位置に応じて、選択した機能をすぐに有効化または無効化するかどうかを決められます。
 
 **Note**: デバイスを再起動すると、システムはトグルスイッチの位置に応じて機能の状態を自動的に適用します。
 

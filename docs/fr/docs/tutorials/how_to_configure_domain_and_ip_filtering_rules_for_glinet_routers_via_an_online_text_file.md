@@ -1,68 +1,57 @@
-# Comment configurer des règles de filtrage de domaines et d'adresses IP pour les routeurs GL.iNet via un fichier texte en ligne
+# Comment configurer des règles de filtrage de domaine et d’IP pour les routeurs GL.iNet via un fichier texte en ligne
 
-À partir du firmware v4.7.0, la fonctionnalité "VPN Policy Based on the Target Domain or IP" dans la fonction VPN et "Add a New Ruleset" dans la fonction Parental Control prennent en charge l'importation de règles à partir d'un lien vers un fichier texte en ligne. Cet article présente le format de ce fichier texte.
+À partir du firmware v4.7, les fonctionnalités suivantes prennent en charge l’importation de règles depuis l’URL d’un fichier texte en ligne :
 
-## Description du format d'URL
+- la politique VPN basée sur les domaines ou adresses IP de destination (dans VPN)
+- **Add a New Ruleset** (dans Parental Control)
 
-### Formats d'URL pris en charge et non pris en charge
+Ce tutoriel explique comment utiliser un fichier texte en ligne pour importer des règles de filtrage de domaines et d’adresses IP sur les routeurs GL.iNet.
 
-- Formats de fichiers pris en charge pour le fichier texte : .txt, .conf, .log, etc.
-- Formats de fichiers non pris en charge : fichiers binaires tels que .exe, .zip, .jpg, etc.
+## Formats d’URL et de fichiers pris en charge
 
-### Utiliser GitHub pour héberger le fichier texte
+Les formats d’URL pris en charge sont les suivants :
 
-Si vous hébergez le fichier texte dans un dépôt GitHub public, veillez à utiliser l'URL du contenu brut plutôt que l'URL GitHub classique.
+- URL de fichiers texte brut (HTTP/HTTPS)
+- URL GitHub Raw content
 
-Par exemple, l'URL GitHub suivante pointe vers le contenu web plutôt que vers le contenu brut :
+Les types de fichiers pris en charge sont `.txt`, `.conf`, `.log` et d’autres formats texte brut.
+
+**Remarque** : les fichiers binaires ne sont pas pris en charge, comme `.exe`, `.zip`, `.jpg`, `.png`, etc.
+
+## Utiliser GitHub pour héberger le fichier texte
+
+Si vous hébergez le fichier texte dans un dépôt GitHub public, veillez à utiliser l’URL du contenu brut plutôt que l’URL GitHub classique.
+
+Par exemple, l’URL GitHub suivante pointe vers le contenu web et non vers le contenu brut :
 
 `https://github.com/SecOps-Institute/FacebookIPLists/blob/master/facebook_ipv4_cidr_blocks.lst`
 
-Pour que le routeur télécharge le bon contenu, utilisez l'URL du contenu brut au format suivant :
+Pour que le routeur télécharge le bon contenu, utilisez une URL de contenu brut au format suivant :
 
 `https://raw.githubusercontent.com/SecOps-Institute/FacebookIPLists/master/facebook_ipv4_cidr_blocks.lst`
 
-Ainsi, le routeur pourra récupérer le contenu en texte brut du fichier.
+De cette manière, le routeur pourra récupérer le contenu texte brut du fichier.
 
-## Formats de filtre pour "VPN Policy Based on the Target Domain or IP"
+## Formats de filtre pour la politique VPN (domaine/IP)
 
-La fonctionnalité "VPN Policy Based on the Target Domain or IP" prend en charge les formats de filtre suivants dans le fichier texte en ligne :
+La fonctionnalité **VPN Policy Based on Target Domain or IP Address** prend en charge les formats de filtre suivants dans le fichier texte en ligne :
 
-* Format de nom de domaine : utilisez le nom de domaine, par exemple `netflix.com`, pour faire correspondre tous les sous-domaines de `netflix.com`.
-* Format de sous-domaine : indiquez le sous-domaine complet, par exemple `www.netflix.com`, pour faire correspondre uniquement ce sous-domaine précis.
-* Format CIDR : utilisez la notation CIDR pour définir des plages d'adresses IP, par exemple `192.168.10.0/24`.
-* Format d'adresse IPv4 : indiquez des adresses IPv4 individuelles, par exemple `192.168.10.10`.
+* Nom de domaine : utilisez le nom de domaine, par exemple `netflix.com` (correspond à tous les sous-domaines).
+* Sous-domaine : indiquez le sous-domaine complet, par exemple `www.netflix.com` (correspond uniquement à ce sous-domaine).
+* Plage CIDR : utilisez la notation CIDR pour définir des plages d’adresses IP, par exemple `192.168.10.0/24`.
+* Adresse IPv4 : indiquez des adresses IPv4 individuelles, par exemple `192.168.10.10`.
 
-## Formats de filtre pour "Add a New Ruleset" dans Parental Control
+## Formats de filtre pour Parental Control (Ruleset)
 
-La fonctionnalité "Add a New Ruleset" dans Parental Control prend en charge les formats de filtre suivants dans le fichier texte en ligne :
+La fonctionnalité **Add a New Ruleset** dans Parental Control prend en charge les formats de filtre suivants dans le fichier texte en ligne :
 
-* Format de nom de domaine : utilisez le nom de domaine, par exemple `instagram.com`, pour faire correspondre tous les sous-domaines de `instagram.com`.
-* Format de sous-domaine : indiquez le sous-domaine complet, par exemple `www.instagram.com`, pour faire correspondre uniquement ce sous-domaine précis.
+* Nom de domaine : utilisez le nom de domaine, par exemple `instagram.com` (correspond à tous les sous-domaines).
+* Sous-domaine : indiquez le sous-domaine complet, par exemple `www.instagram.com` (correspond uniquement à ce sous-domaine).
 
-Lors de la création du fichier texte en ligne, utilisez un filtre par ligne. Le routeur traitera chaque ligne selon le format indiqué et appliquera les règles correspondantes à la fonction VPN ou Parental Control.
-
-## Exemples
-
-Pour "VPN Policy Based on the Target Domain or IP" :
-
-```
-netflix.com
-www.hulu.com
-192.168.10.0/24
-192.168.10.10
-```
-
-Pour "Parental Control Add a New Ruleset" :
-
-```
-instagram.com
-facebook
-x.com
-snapchat
-```
+Lorsque vous créez le fichier texte en ligne, utilisez un filtre par ligne. Le routeur traitera chaque ligne selon le format spécifié et appliquera les règles correspondantes à la fonctionnalité VPN ou Parental Control.
 
 En respectant ces formats de filtre, vous pouvez facilement créer et maintenir le fichier texte en ligne pour configurer les fonctions VPN et Parental Control sur votre routeur.
 
 ---
 
-Vous avez encore des questions ? Consultez notre [Forum communautaire](https://forum.gl-inet.com){target="_blank"} ou [contactez-nous](https://www.gl-inet.com/contacts/){target="_blank"}.
+Vous avez encore des questions ? Consultez notre [forum communautaire](https://forum.gl-inet.com){target="_blank"} ou [contactez-nous](https://www.gl-inet.com/contacts/){target="_blank"}.

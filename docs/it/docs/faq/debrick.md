@@ -10,6 +10,8 @@ Se hai bloccato il router a causa di alcuni progetti fai-da-te o del caricamento
 
 Prepara un computer con una porta Ethernet. Se il computer non dispone di una porta Ethernet, prepara un adattatore USB Ethernet aggiuntivo.
 
+**Nota**: GL-E5800 (Mudi 7) al momento non supporta il flashing del firmware tramite U-Boot.
+
 ## Passaggi per lo sblocco
 
 Fai riferimento a questo video tutorial oppure segui la procedura riportata di seguito per accedere all'interfaccia web U-Boot e reinstallare il firmware.
@@ -18,9 +20,9 @@ Fai riferimento a questo video tutorial oppure segui la procedura riportata di s
 
 <small>I passaggi per reinstallare il firmware usando U-Boot sono in gran parte gli stessi; questo video usa Mudi/Mudi V2 come esempio. Per altri modelli, puoi seguire la procedura qui sotto.</small>
 
-1. Scarica il firmware [qui](https://dl.gl-inet.com/){target="_blank"} sul computer.
+1. Scarica il firmware U-Boot [qui](https://dl.gl-inet.com/){target="_blank"} sul computer.
 
-    Alcuni modelli, come GL-AR750S-EXT, sono disponibili in due formati di firmware. Usa il firmware per U-Boot, la cui estensione del file è **.img**.
+    Alcuni modelli offrono due varianti di firmware. Scarica il firmware compatibile con U-Boot.
 
 2. Scollega l'alimentazione del router. Collega il computer alla **porta Ethernet LAN** del router. **TUTTE** le altre porte devono rimanere **scollegate**.
 
@@ -32,68 +34,77 @@ Fai riferimento a questo video tutorial oppure segui la procedura riportata di s
 
     Vedrai quindi il LED lampeggiare in una sequenza regolare alcune volte; rilascia il dito **dopo** che la sequenza cambia.
 
-    Di seguito trovi la descrizione della sequenza di lampeggiamento dei LED per ciascun modello.
+    !!! note "Sequenze di lampeggiamento LED per modello"
 
-    **Nota:** modelli identici ma prodotti in date diverse possono avere colori dei LED o sequenze di lampeggiamento differenti; questo non influisce sul processo U-Boot. Presta soprattutto attenzione al cambiamento del LED lampeggiante.
+        **Nota:** modelli identici ma prodotti in lotti diversi possono avere colori dei LED o sequenze di lampeggiamento differenti. Questo non influisce sul processo di recupero U-Boot. Presta soprattutto attenzione al cambiamento dello stato del LED.
 
-    - Per **GL-BE9300(Flint 3)**, il LED blu lampeggia 6 volte, poi diventa bianco fisso.
+        - Per **GL-MT3600BE (Beryl 7)**: il LED blu lampeggia 7 volte, poi diventa bianco fisso.
 
-    - Per **GL-BE3600(Slate 7)**, dopo aver tenuto premuto il pulsante reset per circa 5 secondi, sul display LED apparirà un conto alla rovescia di 5 secondi. Continua a tenere premuto il pulsante reset finché sullo schermo non viene visualizzato il passaggio successivo:
+        - Per **GL-MT5000 (Brume 3)**: il LED Power lampeggia in blu 7 volte, poi diventa bianco fisso.
 
-        1. Imposta manualmente l'indirizzo IP del computer su 192.168.1.2
-        2. Usa il browser per visitare http://192.168.1.1
+        - Per **GL-BE6500 (Flint 3e)**: il LED blu lampeggia 6 volte, poi diventa bianco fisso.
 
-        Passa al Passaggio 4 per ulteriori istruzioni.
+        - Per **GL-BE9300 (Flint 3)**: il LED blu lampeggia 6 volte, poi diventa bianco fisso.
 
-    - Per **GL-B3000(Marble)**, il LED blu lampeggia 7 volte, poi diventa bianco fisso.
+        - Per **GL-BE3600 (Slate 7)**: dopo aver tenuto premuto il pulsante Reset per circa 5 secondi, sul touchscreen apparirà un conto alla rovescia di 5 secondi. Continua a tenerlo premuto finché sullo schermo non compare il messaggio successivo, ad esempio di impostare manualmente l'IP del computer su 192.168.1.2 e visitare http://192.168.1.1 con il browser. Passa al passaggio 4 per ulteriori istruzioni.
 
-    - Per **GL-MT6000(Flint 2)**, il LED blu lampeggia 6 volte, poi diventa bianco fisso.
+        - Per **GL-X2000 (Spitz Plus)**: il LED Internet lampeggia 5 volte, poi il LED Wi-Fi rimane acceso.
 
-    - Per **GL-MT3000(Beryl AX)**, il LED blu lampeggia 6 volte, poi diventa bianco fisso.
+        - Per **GL-B3000 (Marble)**: il LED blu lampeggia 7 volte, poi diventa bianco fisso.
 
-    - Per **GL-MT2500/GL-MT2500A(Brume 2)**, il LED blu lampeggia 5 volte, poi diventa bianco fisso.
+        - Per **GL-MT6000 (Flint 2)**: il LED blu lampeggia 6 volte, poi diventa bianco fisso.
 
-    - Per **GL-S200**, il LED ciano lampeggia 5 volte, poi diventa brevemente viola e infine ciano fisso.
+        - Per **GL-MT3000 (Beryl AX)**: il LED blu lampeggia 6 volte, poi diventa bianco fisso.
 
-    - Per **GL-A1300(Slate Plus)**, il LED lampeggia lentamente 5 volte, rimane acceso per un breve periodo e poi lampeggia rapidamente in continuazione.
+        - Per **GL-MT2500/GL-MT2500A (Brume 2)**: il LED Power lampeggia in blu 5 volte, poi diventa bianco fisso.
 
-    - Per **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)** e **microuter-N300**, il LED lampeggia 5 volte.
+        - Per **GL-X3000 (Spitz AX)**: il LED Internet lampeggia 5 volte, poi il LED Wi-Fi rimane acceso.
 
-    - Per **GL-E750(Mudi)**, lo schermo mostrerà prima "Booting", poi "Reset Counting 1 to 4" e infine "Please Open Web 192.168.1.1".
+        - Per **GL-XE3000 (Puli AX)**: il LED Internet lampeggia 5 volte, poi il LED Wi-Fi rimane acceso.
 
-    - Per **GL-S1300(Convexa-S)** e **GL-B1300(Convexa-B)**, il LED lampeggia 4 volte.
+        - Per **GL-XE300 (Puli)**: il LED LAN lampeggia 5 volte, poi il LED Wi-Fi rimane acceso.
 
-        Il LED di alimentazione più a sinistra può restare acceso per tutto il tempo mentre il LED Wi-Fi più a destra lampeggia 4 volte, poi il LED Mesh centrale rimane acceso fisso.
+        - Per **GL-E750 (Mudi)**: sullo schermo appariranno in sequenza "Booting", poi "Reset Counting 1 to 4" e infine "Please Open Web 192.168.1.1".
 
-        (Per alcuni vecchi GL-B1300, il LED di alimentazione più a sinistra resta acceso per tutto il tempo e sia il LED centrale sia quello più a destra lampeggiano 5 volte contemporaneamente, poi restano accesi.)
+        - Per **GL-X750 (Spitz)**: il LED Internet lampeggia 5 volte, poi il LED Wi-Fi rimane acceso.
 
-    - Per **GL-SF1200**, il LED 5G lampeggia 5 volte, poi resta acceso fisso.
+        - Per **GL-AX1800 (Flint)**: il LED blu lampeggia 5 volte, poi diventa bianco fisso.
 
-    - Per **GL-AX1800(Flint)**, il LED blu lampeggia 5 volte, poi diventa bianco fisso.
+        - Per **GL-AXT1800 (Slate AX)**: il LED blu lampeggia 5 volte, poi diventa bianco fisso.
 
-    - Per **GL-AXT1800(Slate AX)**, il LED blu lampeggia 5 volte, poi resta acceso fisso.
+        - Per **GL-SFT1200 (Opal)**: il LED blu lampeggia 5 volte, poi diventa bianco fisso.
 
-    - Per **GL-XE300(Puli)**, il LED LAN lampeggia 5 volte, poi il LED Wi-Fi resta acceso.
+        - Per **GL-MT1300 (Beryl)**: il LED blu lampeggia due volte lentamente, poi lampeggia 5 volte più velocemente e diventa bianco fisso.
 
-    - Per **GL-X300B(Collie)**, il LED WAN lampeggia 5 volte, poi il LED Wi-Fi resta acceso.
+        - Per **GL-A1300 (Slate Plus)**: il LED lampeggia lentamente 5 volte, rimane acceso per un breve periodo e poi lampeggia rapidamente in continuazione.
 
-    - Per **GL-X3000(Spitz AX)**, il LED WAN lampeggia 5 volte, poi il LED Wi-Fi resta acceso.
+        - Per **GL-MT300N-V2 (Mango)** e **GL-AR300M (Shadow)**: il LED lampeggia 5 volte.
 
-    - Per **GL-XE3000(Puli AX)**, il LED WAN lampeggia 5 volte, poi il LED Wi-Fi resta acceso.
+        - Per **GL-X300B (Collie)**: il LED WAN lampeggia 5 volte, poi il LED Wi-Fi rimane acceso.
 
-    - Per **GL-SFT1200(Opal)**, il LED blu lampeggia 5 volte, poi diventa bianco fisso.
+        - Per **GL-AP1300 (Cirrus)**: il LED Power lampeggia lentamente 5 volte, rimane acceso per un breve periodo e poi lampeggia rapidamente in continuazione.
 
-    - Per **GL-AP1300(Cirrus)**, il LED di alimentazione lampeggia lentamente 5 volte, resta acceso per un breve periodo e poi lampeggia rapidamente in continuazione.
+        - Per **GL-B1300 (Convexa-B)** e **GL-S1300 (Convexa-S, EOL)**: il LED lampeggia 4 volte.
 
-    - Per **GL-MT1300(Beryl)**, il LED parte blu, lampeggia due volte lentamente, poi 5 volte più velocemente e infine diventa bianco fisso.
+            Il LED Power più a sinistra rimane acceso per tutto il tempo, mentre il LED Wi-Fi più a destra lampeggia 4 volte, poi il LED Mesh centrale rimane acceso fisso.
 
-    - Per **GL-B2200(Velica)**, i due LED partono blu, poi diventano bianchi e lampeggiano 5 volte, quindi diventano blu fissi.
+            Per alcuni vecchi GL-B1300, il LED Power più a sinistra rimane acceso per tutto il tempo e sia il LED centrale sia quello più a destra lampeggiano 5 volte contemporaneamente, poi restano accesi.
 
-    - Per **GL-MV1000/GL-MV1000W(Brume)**, non c'è un segnale LED ripetuto di lampeggio. (I LED Power e WAN resteranno accesi per tutto il tempo.)
+        - Per **GL-B2200 (Velica)**: i due LED partono blu, poi diventano bianchi e lampeggiano 5 volte, quindi tornano blu fissi.
 
-    - Per **GL-MiFi**, il LED lampeggia 6 volte.
+        - Per **GL-SF1200**: il LED 5G lampeggia 5 volte, poi resta acceso fisso.
 
-    - Per **GL-MT300N**, **GL-MT300A**, il LED lampeggia 3 volte.
+        - Per **GL-S200**: il LED ciano lampeggia 5 volte, poi diventa brevemente viola e infine ciano fisso.
+
+        - Per **GL-AR750 (Creta)** e **GL-AR750S-EXT (Slate)**: il LED lampeggia 5 volte.
+
+        - Per **GL-USB150 (Microuter)**, **microuter-N300** e **GL-AR150 (White)**: il LED lampeggia 5 volte.
+
+        - Per **GL-MV1000/GL-MV1000W (Brume)**: non c'è una sequenza LED ripetuta di lampeggio. I LED Power e WAN restano accesi per tutto il tempo.
+
+        - Per **GL-MiFi**: il LED lampeggia 6 volte.
+
+        - Per **GL-MT300N** e **GL-MT300A**: il LED lampeggia 3 volte.
 
 4. Imposta manualmente l'indirizzo IP del computer su **192.168.1.2**. Consulta la guida dettagliata per i diversi sistemi operativi qui sotto:
 
@@ -171,7 +182,9 @@ Fai riferimento a questo video tutorial oppure segui la procedura riportata di s
 
 6. Fai clic sul pulsante **Choose file** per individuare il file del firmware. Poi fai clic sul pulsante **Update firmware**.
 
-7. Attendi circa 3 minuti. Non spegnere il dispositivo durante l'aggiornamento. Il router è pronto quando sia il LED di alimentazione sia il LED Wi-Fi sono accesi, oppure quando puoi trovare il suo SSID sul dispositivo.
+7. Attendi circa 3 minuti. Non spegnere il dispositivo durante l'aggiornamento del firmware.
+
+    Il router è pronto quando il LED continua a lampeggiare in blu; per alcuni modelli cellulari, è pronto quando sia il LED Power sia il LED Wi-Fi rimangono accesi fissi.
 
 8. Ripristina le impostazioni IP modificate al passaggio 4 e collega il dispositivo alla LAN o al Wi-Fi del router. Potrai nuovamente accedere al router tramite **192.168.8.1**.
 

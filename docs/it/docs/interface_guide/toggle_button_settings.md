@@ -1,6 +1,6 @@
 # Toggle Button Settings
 
-Toggle Button Settings consente di assegnare funzioni specifiche all'interruttore fisico a levetta, chiamato anche mode switch su alcuni modelli, presente sul router per un accesso e un controllo rapidi, offrendo scorciatoie pratiche per operazioni comuni.
+Toggle Button Settings consente di assegnare funzioni specifiche all'interruttore fisico a levetta, chiamato anche mode switch su alcuni modelli, per ottenere accesso e controllo rapidi e disporre di scorciatoie pratiche per le operazioni più comuni.
 
 Puoi personalizzare il comportamento dell'interruttore nel pannello di amministrazione web.
 
@@ -44,7 +44,7 @@ Sul lato sinistro del pannello di amministrazione web, vai su **SYSTEM** -> **To
 
 ![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
 
-Prima del firmware v4.8 erano disponibili quattro opzioni, che consentivano agli utenti di personalizzare la funzione del pulsante a levetta.
+Prima del firmware v4.8 erano disponibili cinque opzioni per personalizzare la funzione dell'interruttore a levetta.
 
 - No Function
 - AdGuard Home
@@ -52,11 +52,11 @@ Prima del firmware v4.8 erano disponibili quattro opzioni, che consentivano agli
 - Tor
 - WireGuard Client
 
-Dal firmware v4.8 sono state introdotte piu' opzioni: Repeater, Wi-Fi e LED. Gli utenti possono personalizzare i pulsanti a levetta in base alle proprie esigenze.
+Dal firmware v4.8 sono state introdotte altre opzioni, come Repeater, Wi‑Fi e LED. Puoi personalizzare l'interruttore a levetta in base alle tue esigenze.
 
 - No Function
 - Repeater
-- Wi-Fi, Main/Guest Wi-Fi
+- Wi-Fi (Main/Guest Wi-Fi)
 - VPN
 - Tor
 - AdGuard Home
@@ -64,11 +64,11 @@ Dal firmware v4.8 sono state introdotte piu' opzioni: Repeater, Wi-Fi e LED. Gli
 
 ![toggle button 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_4.8.png){class="glboxshadow"}
 
-Quando applichi le impostazioni, puoi decidere se abilitare o disabilitare immediatamente la funzione selezionata in base alla posizione on/off, sinistra/destra, dell'interruttore.
+Quando applichi le impostazioni, puoi decidere se abilitare o disabilitare subito la funzione selezionata in base alla posizione on/off, sinistra/destra, dell'interruttore.
 
 **Nota**: dopo il riavvio del dispositivo, il sistema applichera' automaticamente lo stato della funzione in base alla posizione dell'interruttore a levetta.
 
-Ad esempio, se configuri WireGuard Client per essere controllato dall'interruttore a levetta: quando l'interruttore e' a SINISTRA, ON, WireGuard Client si avvia automaticamente. Quando l'interruttore e' a DESTRA, OFF, WireGuard Client resta disabilitato.
+Ad esempio, se configuri WireGuard Client perché sia controllato dall'interruttore a levetta, quando l'interruttore è a SINISTRA (ON) WireGuard Client si avvia automaticamente. Quando l'interruttore è a DESTRA (OFF), WireGuard Client resta disabilitato.
 
 ---
 

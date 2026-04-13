@@ -35,7 +35,7 @@ Connect a wired device (e.g., a computer or laptop) to the Brume 3's LAN port vi
 
 ### 3. Im Web-Admin-Panel anmelden
 
-**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. 
+**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel.
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
@@ -44,11 +44,11 @@ Connect a wired device (e.g., a computer or laptop) to the Brume 3's LAN port vi
 Richten Sie Brume 3 mit einer der unterstützten Internetverbindungsmethoden ein: Ethernet, Tethering, and Cellular (optional). If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
 === "Ethernet"
-    
+
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_ethernet.png){class="glboxshadow"}
 
-    Connect the Brume 3's WAN port to an upstream device (such as a modem) via an ethernet cable. 
-    
+    Connect the Brume 3's WAN port to an upstream device (such as a modem) via an ethernet cable.
+
     Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
 
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
@@ -57,10 +57,10 @@ Richten Sie Brume 3 mit einer der unterstützten Internetverbindungsmethoden ein
 
     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device to the USB Type-C port of Brume 3 via a USB 3.0 data cable. 
-    2. In your mobile device's settings, enable USB tethering. 
-    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section. 
-    
+    1. Connect your mobile device to the USB Type-C port of Brume 3 via a USB 3.0 data cable.
+    2. In your mobile device's settings, enable USB tethering.
+    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section.
+
     Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Tethering" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
 
     Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
@@ -68,7 +68,7 @@ Richten Sie Brume 3 mit einer der unterstützten Internetverbindungsmethoden ein
 === "Cellular"
 
     An additional USB-C to USB-A adapter cable is required for this connection method.
-    
+
     Plug a cellular USB modem into the USB Type-C port of Brume 3 via an additional USB-C to USB-A adapter cable. This is useful for sharing internet from a USB modem to all connected client devices.
 
     Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Cellular" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
@@ -89,29 +89,29 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers. 
-    
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers.
+
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
 
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
-    
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
+
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 3 supports OpenVPN and WireGuard. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 3 supports OpenVPN and WireGuard.
 
-=== "OpenVPN" 
-    
+=== "OpenVPN"
+
     Brume 3 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
-    
+
     Brume 3 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
@@ -121,15 +121,15 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Multi-WAN"
 
-    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access.
 
-    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
+    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
-    
-    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
+    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently.
+
+    To set up LAN, refer to [Lan](../../interface_guide/lan.md).
 
 === "DNS"
 
@@ -147,48 +147,48 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "IPv6"
 
-    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
-    
+    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet.
+
     To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
 
 === "IGMP Snooping"
 
-    IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
-    
+    IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic.
+
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
 ---
 
 === "Network Mode"
 
-    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
-    
+    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices.
+
     To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
 
 === "Drop-in gateway"
 
-    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
-    
+    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client.
+
     To set up drop-in gateway, refer to these links:
-    
+
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Netzwerkbeschleunigung"
 
     Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
-    
+
     To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 ## Durchflusskontrolle
 
-=== "DPI License"
+=== "DPI Engine"
 
-    DPI (Deep Packet Inspection) is a core capability of intelligent network management. It can overcome the limitation of traditional routers (which only identify source or destination addresses), analyze data packet payloads in depth, and accurately identify user-accessed applications and websites through feature library comparison, enabling refined traffic classification and control. 
-    
+    DPI (Deep Packet Inspection) is a core capability of intelligent network management. It can overcome the limitation of traditional routers (which only identify source or destination addresses), analyze data packet payloads in depth, and accurately identify user-accessed applications and websites through feature library comparison, enabling refined traffic classification and control.
+
     Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI feature adopts a lightweight embedded plug-in for efficient deployment. With Netify online-updated signature database, it enables reliable management, making network control more accurate and efficient.
 
-    Please refer to [DPI License](../../interface_guide/dpi_license.md) for detailed instructions.
+    Weitere Informationen finden Sie unter [DPI Engine](../../interface_guide/dpi_engine.md).
 
 === "Data Statistics"
 
@@ -226,9 +226,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Port Forwarding"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
-    
-    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md). 
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network.
+
+    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md).
 
 === "Management Control"
 
@@ -252,46 +252,46 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Plug-ins"
 
-    A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
-    
+    A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities.
+
     To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
-    
-    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network.
+
+    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md).
 
 === "Network Storage"
 
-    Network storage refers to a centralized data storage solution that allows multiple users and devices to access and share files over a network. 
-    
+    Network storage refers to a centralized data storage solution that allows multiple users and devices to access and share files over a network.
+
     To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
 
 ---
 
 === "AdGuard Home"
 
-    AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
-    
+    AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network.
+
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
 === "ZeroTier"
 
-    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
-    
+    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network.
+
     To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tailscale"
 
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
-    
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere.
+
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
 
 === "Tor"
 
-    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
-    
+    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities.
+
     * [How to set up Tor](../../interface_guide/tor.md)
 
 ## System
@@ -306,7 +306,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
     * Device Info: Access detailed information about your router's system, including uptime, hostname, model, architecture, OpenWrt version, kernel version, device ID, device MAC and device S/N.
     * External Storage: Check the status of any external storage devices connected to the router, such as USB drives or TF cards.
-    
+
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
     For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
@@ -342,7 +342,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
     * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    
+
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
     For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
@@ -362,7 +362,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * Crash Log: Records of system crashes and errors, useful for diagnosing critical issues.
     * Cloud Log: Logs of interactions and activities related to GoodCloud services integrated with the router.
     * Nginx Log: Logs from the Nginx web server, if used by the router, detailing web traffic and server operations.
-    
+
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
     For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).

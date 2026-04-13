@@ -126,6 +126,8 @@ Dans ce tunnel, vous pouvez personnaliser la règle de tunnel en définissant tr
 
     - **Specified Domain / IP List** : si cette option est sélectionnée, le trafic correspondant à cette règle sera acheminé vers les noms de domaine ou adresses IP spécifiés. Vous devez les saisir manuellement.
 
+        Veuillez noter que si vous spécifiez un <u>domaine racine</u>, tous ses sous-domaines seront également inclus. Par exemple, si vous souhaitez spécifier `archive.ubuntu.com`, `security.ubuntu.com` et `old-releases.ubuntu.com` dans un tunnel, il suffit de spécifier le domaine racine `ubuntu.com`.
+
         ![specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_manual.png){class="glboxshadow"}
 
         Ou basculez le **Input Mode** de Manual vers Subscription URL, puis saisissez l'URL.
@@ -134,11 +136,15 @@ Dans ce tunnel, vous pouvez personnaliser la règle de tunnel en définissant tr
 
         !!! Note
 
+            - La spécification d’un domaine racine couvre tous ses sous-domaines.
+
             - Si vous sélectionnez Subscribe URL, le nom de domaine ou l'adresse IP contenus dans l'URL sont mis à jour automatiquement chaque jour.
 
             - Assurez-vous de saisir une URL correcte. La détection d'URL vérifiera la validité du nom de domaine ou de l'adresse IP. [En savoir plus](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
     - **Exclude Specified Domain / IP List** : si cette option est sélectionnée, le trafic correspondant à cette règle **ne** sera **pas** acheminé vers les noms de domaine ou adresses IP spécifiés. Vous devez les saisir manuellement.
+
+        Veuillez noter que si vous spécifiez un <u>domaine racine</u>, tous ses sous-domaines seront également inclus. Par exemple, si vous souhaitez spécifier `archive.ubuntu.com`, `security.ubuntu.com` et `old-releases.ubuntu.com` dans un tunnel, il suffit de spécifier le domaine racine `ubuntu.com`.
 
         ![exclude specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_manual.png){class="glboxshadow"}
 
@@ -147,6 +153,8 @@ Dans ce tunnel, vous pouvez personnaliser la règle de tunnel en définissant tr
         ![exclude specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_subscription.png){class="glboxshadow"}
 
         !!! Note
+
+            - La spécification d’un domaine racine couvre tous ses sous-domaines.
 
             - Si vous sélectionnez Subscribe URL, le nom de domaine ou l'adresse IP contenus dans l'URL sont mis à jour automatiquement chaque jour.
 

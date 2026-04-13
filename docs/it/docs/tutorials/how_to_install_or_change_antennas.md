@@ -1,8 +1,18 @@
-# Come installare o sostituire le antenne esterne dei router cellulari?
+# Come installare o sostituire le antenne esterne per router cellulari?
 
-Questo tutorial presenta l'installazione e la sostituzione delle antenne esterne per alcuni router cellulari.
+Questo tutorial illustra l'installazione e la sostituzione delle antenne esterne per alcuni router cellulari.
 
 ## Installare le antenne esterne
+
+### Mudi 7
+
+Mudi 7 (GL-E5800) è dotato di due porte antenna TS-9 che supportano frequenze cellulari da 600 MHz a 6 GHz. Puoi collegare antenne esterne, non incluse, per migliorare il segnale cellulare nelle aree con copertura debole. È ideale per l'uso in camper, seminterrati e ambienti interni, per estendere la copertura e garantire una connessione stabile.
+
+![e5800 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/e5800-antenna.png){class="glboxshadow"}
+
+Le porte TS-9 di Mudi 7 sono connettori femmina, con foro interno. Richiedono antenne con connettore TS-9 maschio, con pin interno.
+
+![ts-9 connector](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/ts9_connector.png){class="glboxshadow" width="328"}
 
 ### Spitz AX / Puli AX
 
@@ -74,11 +84,11 @@ Segui questi passaggi per installare le antenne.
 
 ## Sostituire le antenne esterne
 
-Le indicazioni seguenti si applicano a tutti i router cellulari con interfacce per antenne esterne, eccetto Mudi 7 (GL-E5800).
+Le istruzioni seguenti si applicano a tutti i router cellulari con porte per antenne esterne, tranne Mudi 7 (GL-E5800). Fai clic [qui](#mudi-7){target="_blank"} per visualizzare l'installazione delle antenne esterne per Mudi 7.
 
-Puoi acquistare antenne Wi-Fi o 4G/5G NR aggiuntive per sostituire quelle incluse nella confezione e personalizzare cosi' la configurazione di rete.
+Puoi acquistare antenne Wi-Fi o 4G/5G NR aggiuntive per sostituire quelle incluse nella confezione, così da personalizzare la tua configurazione di rete.
 
-Tuttavia, consigliamo di usare le antenne originali, poiche' sono state sottoposte a test approfonditi prima della spedizione per garantire prestazioni e compatibilita' ottimali.
+Tuttavia, consigliamo di usare le antenne originali, poiché sono state sottoposte a test approfonditi prima della spedizione per garantire prestazioni e compatibilità ottimali.
 
 Se preferisci usare antenne di terze parti, fai riferimento alle sezioni seguenti per assicurarti di scegliere antenne con il tipo corretto di connettore.
 
@@ -86,13 +96,13 @@ Se preferisci usare antenne di terze parti, fai riferimento alle sezioni seguent
 
 ### Antenne Wi-Fi
 
-La base dell'antenna Wi-Fi usa un **connettore RP-SMA femmina** (filettatura esterna e pin interno). E' quindi necessaria un'antenna Wi-Fi con **connettore RP-SMA maschio** (filettatura interna e foro interno).
+La base dell'antenna Wi-Fi usa un **connettore RP-SMA femmina** (filettatura esterna e pin interno). È quindi necessaria un'antenna Wi-Fi con **connettore RP-SMA maschio** (filettatura interna e foro interno).
 
 ![rp-sma connectors](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/rp-sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
 
 ### Antenne 5G NR
 
-La base dell'antenna 5G NR usa un **connettore SMA femmina** (filettatura esterna e foro interno). E' quindi necessaria un'antenna 5G NR con **connettore SMA maschio** (filettatura interna e pin interno).
+La base dell'antenna 5G NR usa un **connettore SMA femmina** (filettatura esterna e foro interno). È quindi necessaria un'antenna 5G NR con **connettore SMA maschio** (filettatura interna e pin interno).
 
 ![sma connectors](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
 

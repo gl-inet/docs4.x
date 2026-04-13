@@ -2,42 +2,40 @@
 
 ## Produktübersicht
 
-Collie (GL-X300B) is an industrial cellular gateway designed to operate under high temperatures and scenarios with potential physical hazards. There are three versions of Collie, designed to operate in indoor stationary facilities (GL-X300B-RS485 / GL-X300B-BLE), or in transportation vehicles (GL-X300B-GPS). Collie is perfect for machine-to-machine communications between electrical devices in high electrical noise environments.
+Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei hohen Temperaturen und in Umgebungen mit potenziellen physischen Gefahren. Es gibt drei Versionen von Collie, die entweder für stationäre Innenanlagen (GL-X300B-RS485 / GL-X300B-BLE) oder für Fahrzeuge (GL-X300B-GPS) entwickelt wurden. Collie eignet sich ideal für die Maschine-zu-Maschine-Kommunikation zwischen elektrischen Geräten in Umgebungen mit starker elektrischer Störbelastung.
 
 ![gl-x300b interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
 
-**What's the difference?**
+**Was ist der Unterschied zwischen GL-X300B-RS485, GL-X300B-BLE und GL-X300B-GPS?**
 
 ![gl-x300b series](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b_series.png){class="glboxshadow"}
 
 ![gl-x300b comparison](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/model_comparison.png){class="glboxshadow"}
 
-- **GL-X300B-GPS** is equipped with five external antennas, including two 2.4GHz Wi-Fi, two 4G LTE, and one GPS Antenna. The extendable wired antennas are perfect for having multiple reception placements within a vehicle, minimizing reception black spots when traveling through high network density cities.
+- **GL-X300B-RS485** enthält einen RS485-Chip mit RS485-Schnittstelle. Das Modul unterstützt die bidirektionale Datenübertragung verschiedener Geräte im Bereich der industriellen Automatisierung und des IoT und ermöglicht so Datenerfassung, Steuerung und Überwachung.
 
-- **GL-X300B-BLE** is equipped with three external omnidirectional antennas for 2.4GHz Wi-Fi, 4G LTE, and BLE communication, receiving signals from all directions, and providing high flexibility in installation placement within an industrial environment.
+- **GL-X300B-BLE** ist mit drei externen omnidirektionalen Antennen für 2,4-GHz-Wi-Fi, 4G LTE und BLE-Kommunikation ausgestattet. Sie empfangen Signale aus allen Richtungen und bieten hohe Flexibilität bei der Installation in industriellen Umgebungen.
 
-- **GL-X300B-RS485** includes an RS485 chip with RS485 interface. The module supports bi-directional data transmission of various devices in the field of industrial automation and IoT, thus realizing the functions of data acquisition, control and monitoring.
+- **GL-X300B-GPS** ist mit fünf externen Antennen ausgestattet, darunter zwei 2,4-GHz-Wi-Fi-, zwei 4G-LTE- und eine GPS-Antenne. Die verlängerbaren kabelgebundenen Antennen eignen sich ideal für mehrere Empfangspositionen innerhalb eines Fahrzeugs und helfen, Empfangslücken in Städten mit hoher Netzwerkauslastung zu minimieren.
 
 !!! Note
 
-    The BLE and GPS versions are available with a minimum order quantity.
+    Die BLE- und GPS-Versionen sind nur ab einer Mindestbestellmenge erhältlich.
 
 ## Lieferumfang
 
-Bitte beachten Sie, dass der im Lieferumfang enthaltene Adapter vom Zielland abhängt.
-
-Der Lieferumfang umfasst:
-
 - 1 x Benutzerhandbuch
-- 1 x Collie (GL-X300B)
+- 1 x Collie (GL-X300B-RS485) (2 Jahre Garantie)
 - 1 x Ethernet-Kabel
-- 1 x Dankeskarte
-- 1 x Garantiekarte
-- 1 x Netzadapter (ausgewählter Steckertyp)
+- 1 x Externe 4G-Antenne
+- 2 x Externe Wi-Fi-Antenne
+- 1 x Anschlussklemme (grün)
+- 1 x Wandmontageset
+- 1 x DIN-Schienenset
+- 1 x Netzadapter
+- 4 x Adapter (US-, UK-, EU- und AU-Stecker) (3 Monate Garantie)
 
-**Note**: The image below is an example of GL-X300B-GPS, with some models slightly different.
-
-![gl-x300b unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/first_time_setup/x300b-gps_unboxing.jpg){class="glboxshadow"}
+![gl-x300b package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b-rs485_package.jpg){class="glboxshadow"}
 
 ## Technische Daten
 
@@ -72,7 +70,7 @@ Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_repeater.png){class="glboxshadow"}
 
 ### Cellular
- 
+
 Insert a SIM card into the router's SIM card slot to connect it to the internet. This method is useful for sharing internet access from a single SIM card to all connected devices.
 
 [Click here to learn how to connect to the internet via cellular](../../interface_guide/internet_cellular.md)

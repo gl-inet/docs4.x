@@ -44,11 +44,11 @@ Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effe
 Configura Brume 3 utilizzando uno dei metodi di connessione Internet supportati: Ethernet, Tethering e Cellular (opzionale). Se vuoi utilizzare la funzione [Multi-WAN](../../interface_guide/multi-wan.md), configura più di una connessione Internet.
 
 === "Ethernet"
-    
+
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_ethernet.png){class="glboxshadow"}
 
     Collega la porta WAN di Brume 3 a un dispositivo a monte, ad esempio un modem, tramite un cavo Ethernet.
-    
+
     Quando Brume 3 è connesso correttamente a Internet, accanto a "Ethernet" nella pagina INTERNET del pannello di amministrazione web apparirà un punto verde e il LED fisico di Brume 3 diventerà bianco fisso.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite cavo Ethernet](../../interface_guide/internet_ethernet.md).
@@ -60,7 +60,7 @@ Configura Brume 3 utilizzando uno dei metodi di connessione Internet supportati:
     1. Collega il dispositivo mobile alla porta USB Type-C di Brume 3 tramite un cavo dati USB 3.0.
     2. Nelle impostazioni del dispositivo mobile, abilita il tethering USB.
     3. Nella pagina INTERNET del pannello di amministrazione web, fai clic su **Connect** nella sezione "Tethering".
-    
+
     Quando Brume 3 è connesso correttamente a Internet, accanto a "Tethering" nella pagina INTERNET del pannello di amministrazione web apparirà un punto verde e il LED fisico di Brume 3 diventerà bianco fisso.
 
     Per istruzioni dettagliate, fai riferimento a [Connessione a Internet tramite tethering USB](../../interface_guide/internet_tethering.md).
@@ -68,7 +68,7 @@ Configura Brume 3 utilizzando uno dei metodi di connessione Internet supportati:
 === "Cellular"
 
     Per questo metodo di connessione è necessario un cavo adattatore aggiuntivo da USB-C a USB-A.
-    
+
     Collega un modem USB cellulare alla porta USB Type-C di Brume 3 tramite un cavo adattatore aggiuntivo da USB-C a USB-A. Questo metodo è utile per condividere la connessione Internet di un modem USB con tutti i dispositivi client collegati.
 
     Quando Brume 3 è connesso correttamente a Internet, accanto a "Cellular" nella pagina INTERNET del pannello di amministrazione web apparirà un punto verde e il LED fisico di Brume 3 diventerà bianco fisso.
@@ -90,13 +90,13 @@ Per configurare i client, fai riferimento a [Client](../../interface_guide/clien
 === "GoodCloud"
 
     Il servizio di gestione cloud GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} offre un modo semplice e pratico per accedere da remoto ai router GL.iNet e gestirli.
-    
+
     Per configurare GoodCloud, fai riferimento a [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
 
     AstroWarp è una piattaforma di rete avanzata progettata per offrire networking remoto senza interruzioni e gestione remota dei dispositivi. Sviluppata appositamente per l'integrazione con i router GL.iNet, AstroWarp supporta una gestione completa dei dispositivi in intere reti, consentendo il controllo sia dei dispositivi a monte sia di quelli a valle. Grazie all'attenzione alla gestione dell'intera rete e al futuro supporto per il controllo a livello hardware, AstroWarp offre una soluzione più solida e affidabile per la gestione dei dispositivi e il mantenimento di reti sicure e stabili.
-    
+
     Per configurare AstroWarp, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## VPN
@@ -104,14 +104,14 @@ Per configurare i client, fai riferimento a [Client](../../interface_guide/clien
 Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il tuo dispositivo e il server VPN. Fornisce un ulteriore livello di privacy e sicurezza (client VPN) e consente di accedere a una rete remota (server VPN). Brume 3 supporta OpenVPN e WireGuard.
 
 === "OpenVPN"
-    
+
     Brume 3, come gli altri router GL.iNet, supporta il protocollo OpenVPN, che offre un elevato livello di sicurezza. Per configurare OpenVPN, segui queste guide:
 
     * [Come configurare un client OpenVPN](../../interface_guide/openvpn_client.md)
     * [Come configurare un server OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
-    
+
     Brume 3, come gli altri router GL.iNet, supporta il protocollo WireGuard, che offre ottime velocità e praticità. Per configurare WireGuard, segui queste guide:
 
     * [Come configurare un client WireGuard](../../interface_guide/wireguard_client.md)
@@ -128,7 +128,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 === "LAN"
 
     La LAN, o Local Area Network, è una rete che collega computer e dispositivi all'interno di un'area geografica limitata, ad esempio una casa o un ufficio. Consente trasferimenti dati ad alta velocità e la condivisione delle risorse, permettendo ai dispositivi di comunicare tra loro in modo efficiente.
-    
+
     Per configurare la LAN, fai riferimento a [LAN](../../interface_guide/lan.md).
 
 === "DNS"
@@ -148,13 +148,13 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 === "IPv6"
 
     IPv6, o Internet Protocol versione 6, è la versione più recente del protocollo Internet, progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto più ampio, consentendo un numero virtualmente illimitato di indirizzi IP univoci, indispensabile per supportare il numero crescente di dispositivi connessi a Internet.
-    
+
     Per configurare IPv6, fai riferimento a [IPv6](../../interface_guide/network_mode.md).
 
 === "IGMP Snooping"
 
     L'IGMP Snooping è una tecnica di ottimizzazione della rete utilizzata negli switch Ethernet per gestire e controllare il traffico multicast.
-    
+
     Per configurare IGMP Snooping, fai riferimento a [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
 ---
@@ -162,33 +162,33 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 === "Modalità di rete"
 
     La modalità di rete si riferisce alle impostazioni di configurazione che determinano come un dispositivo si connette a una rete e comunica con altri dispositivi.
-    
+
     Per configurare la modalità di rete, fai riferimento a [Network Mode](../../interface_guide/network_mode.md).
 
 === "Drop-in Gateway"
 
     Drop-in Gateway estende le funzionalità del router principale con caratteristiche che potrebbe non avere, tra cui AdGuard Home, DNS crittografato e VPN.
-    
+
     Per configurare Drop-in Gateway, fai riferimento a questi link:
-    
+
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [Come configurare Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Accelerazione di rete"
 
     L'accelerazione di rete può ridurre il carico della CPU e velocizzare l'inoltro dei pacchetti di traffico.
-    
+
     Per configurare l'accelerazione di rete, fai riferimento a [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 ## Controllo del traffico
 
-=== "Licenza DPI"
+=== "DPI Engine"
 
     DPI (Deep Packet Inspection) è una funzionalità centrale della gestione intelligente della rete. Può superare i limiti dei router tradizionali, che identificano solo indirizzi di origine o destinazione, analizzare in profondità il payload dei pacchetti dati e identificare con precisione applicazioni e siti web visitati dagli utenti tramite il confronto con una libreria di firme, consentendo una classificazione e un controllo raffinati del traffico.
-    
+
     Integrata con [Netify](https://www.netify.ai/){target="_blank"}, la funzione DPI di GL.iNet adotta un plug-in embedded leggero per una distribuzione efficiente. Grazie al database di firme aggiornato online da Netify, consente una gestione affidabile e rende il controllo della rete più preciso ed efficiente.
 
-    Per istruzioni dettagliate, fai riferimento a [DPI License](../../interface_guide/dpi_license.md).
+    Per istruzioni dettagliate, fai riferimento a [DPI Engine](../../interface_guide/dpi_engine.md).
 
 === "Statistiche dati"
 
@@ -227,7 +227,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 === "Port Forwarding"
 
     Il port forwarding consente a server remoti e dispositivi su Internet di accedere ai dispositivi presenti su una rete privata.
-    
+
     Per configurare il port forwarding, fai riferimento a [Port Forwarding](../../interface_guide/port_forwarding.md).
 
 === "Controllo di gestione"
@@ -253,19 +253,19 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 === "Plug-in"
 
     Un plug-in è un componente software che aggiunge funzionalità specifiche a un programma esistente, consentendo la personalizzazione e l'ampliamento delle sue capacità.
-    
+
     Per configurare i plug-in, fai riferimento a [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
     Dynamic DNS (DDNS) rileva e aggiorna automaticamente in tempo reale l'indirizzo IP associato a un dominio. È particolarmente utile per gli utenti che necessitano di un indirizzo IP statico per accedere a una rete remota.
-    
+
     Per configurare Dynamic DNS, fai riferimento a [Dynamic DNS](../../interface_guide/ddns.md).
 
 === "Archiviazione di rete"
 
     L'archiviazione di rete è una soluzione di archiviazione dati centralizzata che consente a più utenti e dispositivi di accedere ai file e condividerli tramite una rete.
-    
+
     Per configurare l'archiviazione di rete, fai riferimento a [Network Storage](../../interface_guide/network_storage.md).
 
 ---
@@ -273,25 +273,25 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 === "AdGuard Home"
 
     AdGuard Home è una soluzione di blocco degli annunci e dei tracker a livello di rete che funziona come server DNS per filtrare i contenuti indesiderati su tutti i dispositivi collegati alla rete domestica.
-    
+
     Per configurare AdGuard Home, fai riferimento a [AdGuard Home](../../interface_guide/adguardhome.md).
 
 === "ZeroTier"
 
     ZeroTier è una soluzione di rete definita dal software che consente agli utenti di creare reti virtuali sicure su Internet, collegando i dispositivi come se si trovassero sulla stessa rete locale.
-    
+
     Per configurare ZeroTier, fai riferimento a [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tailscale"
 
     Tailscale è un servizio VPN che consente di accedere ai propri dispositivi e applicazioni ovunque.
-    
+
     Per configurare Tailscale, fai riferimento a [Tailscale](../../interface_guide/tailscale.md).
 
 === "Tor"
 
     Tor, abbreviazione di The Onion Router, è una rete incentrata sulla privacy che consente comunicazioni anonime su Internet. Instrada il traffico Internet attraverso una serie di server volontari, chiamati nodi, per oscurare la posizione e l'utilizzo dell'utente, rendendo difficile tracciare le attività online.
-    
+
     * [Come configurare Tor](../../interface_guide/tor.md)
 
 ## Sistema
@@ -306,7 +306,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     * Utilizzo flash: visualizza l'utilizzo della memoria flash del router, assicurando spazio sufficiente per firmware e dati di configurazione.
     * Informazioni sul dispositivo: accedi alle informazioni dettagliate del sistema del router, inclusi uptime, hostname, modello, architettura, versione OpenWrt, versione del kernel, ID dispositivo, MAC del dispositivo e numero di serie.
     * Archiviazione esterna: verifica lo stato di eventuali dispositivi di archiviazione esterni collegati al router, come unità USB o schede TF.
-    
+
     Queste funzioni forniscono informazioni e controlli essenziali, aiutandoti a gestire e monitorare in modo efficace il funzionamento del router.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Overview](../../interface_guide/system_overview.md).
@@ -342,7 +342,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     * Pianificazione LED: imposta una pianificazione per accendere o spegnere automaticamente i LED del router, riducendo l'inquinamento luminoso in orari specifici.
     * Riavvio pianificato: configura il router affinché si riavvii automaticamente a intervalli specifici, contribuendo a mantenere prestazioni e stabilità ottimali.
-    
+
     Queste opzioni di pianificazione ti offrono un maggiore controllo sul funzionamento del router, assicurando che risponda alle tue esigenze e preferenze specifiche.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
@@ -362,7 +362,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     * Log di crash: registrazioni di arresti anomali ed errori di sistema, utili per diagnosticare problemi critici.
     * Log cloud: registri delle interazioni e delle attività relative ai servizi GoodCloud integrati nel router.
     * Log Nginx: registri del server web Nginx, se utilizzato dal router, che descrivono il traffico web e le operazioni del server.
-    
+
     Inoltre, la pagina include un pulsante Export Log che consente di esportare tutti i log raccolti per l'analisi da parte del supporto tecnico. Questa funzione è preziosa per diagnosticare problemi complessi e ottenere assistenza professionale.
 
     Per istruzioni dettagliate e ulteriori informazioni, fai riferimento a [Log](../../interface_guide/log.md).

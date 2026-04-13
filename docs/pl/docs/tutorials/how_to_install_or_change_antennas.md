@@ -4,6 +4,16 @@ W tym poradniku opisano instalację i wymianę zewnętrznych anten w wybranych r
 
 ## Instalacja zewnętrznych anten
 
+### Mudi 7
+
+Mudi 7 (GL-E5800) jest wyposażony w dwa porty antenowe TS-9, które obsługują częstotliwości komórkowe od 600 MHz do 6 GHz. Możesz podłączyć zewnętrzne anteny (brak w zestawie), aby poprawić sygnał komórkowy w miejscach o słabym zasięgu. To idealne rozwiązanie do kamperów, piwnic i zastosowań wewnątrz budynków, gdy chcesz zwiększyć zasięg i zapewnić stabilne połączenie.
+
+![e5800 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/e5800-antenna.png){class="glboxshadow"}
+
+Porty TS-9 w Mudi 7 to złącza żeńskie (otwór wewnętrzny). Wymagają anten z męskim złączem TS-9 (wewnętrzny pin).
+
+![ts-9 connector](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/ts9_connector.png){class="glboxshadow" width="328"}
+
 ### Spitz AX / Puli AX
 
 Spitz AX (GL-X3000) i Puli AX (GL-XE3000) są wyposażone w następujące zewnętrzne anteny:
@@ -13,14 +23,14 @@ Spitz AX (GL-X3000) i Puli AX (GL-XE3000) są wyposażone w następujące zewnę
 
 Wykonaj poniższe kroki, aby zainstalować zewnętrzne anteny.
 
-1. Podłącz anteny (kolejność nie ma znaczenia). 
+1. Podłącz anteny (kolejność nie ma znaczenia).
 
     * Podłącz dwie identyczne anteny Wi-Fi 6 do portów **Wi-Fi 1** i **Wi-Fi 2**.
     * Podłącz cztery identyczne anteny 5G NR do portów **MAIN**, **DIV**, **MIMO 1** i **MIMO2**.
 
     ![x3000 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x3000-antennas.jpg){class="gl-80-desktop glboxshadow"}
 
-2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność. 
+2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność.
 
 ### Spitz Plus
 
@@ -31,14 +41,14 @@ Spitz Plus (GL-X2000) jest wyposażony w następujące zewnętrzne anteny:
 
 Wykonaj poniższe kroki, aby zainstalować zewnętrzne anteny.
 
-1. Podłącz anteny (kolejność nie ma znaczenia). 
+1. Podłącz anteny (kolejność nie ma znaczenia).
 
     - Podłącz dwie identyczne anteny Wi-Fi do portów **Wi-Fi 6**.
     - Podłącz dwie identyczne anteny 4G do portu **4G**.
 
     ![x2000 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x2000-back.png){class="gl-80-desktop glboxshadow"}
 
-2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność. 
+2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność.
 
 ### Spitz
 
@@ -50,7 +60,7 @@ Wykonaj poniższe kroki, aby zainstalować zewnętrzne anteny.
 
     ![x750v2 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x750v2_back.png){class="gl-80-desktop glboxshadow"}
 
-2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność. 
+2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność.
 
 ### Collie
 
@@ -61,7 +71,7 @@ Collie (GL-X300B-RS485) jest wyposażony w następujące anteny:
 
 Wykonaj poniższe kroki, aby zainstalować anteny.
 
-1. Podłącz anteny (kolejność nie ma znaczenia). 
+1. Podłącz anteny (kolejność nie ma znaczenia).
 
     - Podłącz dwie identyczne anteny Wi-Fi do portów **2.4G**.
     - Podłącz pojedynczą antenę 4G do portu **4G**.
@@ -70,11 +80,11 @@ Wykonaj poniższe kroki, aby zainstalować anteny.
 
     ![x300b antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
 
-2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność. 
+2. Ustaw anteny pionowo, aby uzyskać optymalną wydajność.
 
 ## Wymiana zewnętrznych anten
 
-Poniższe wskazówki dotyczą wszystkich routerów komórkowych ze złączami dla zewnętrznych anten, z wyjątkiem Mudi 7 (GL-E5800).
+Poniższe instrukcje dotyczą wszystkich routerów komórkowych ze złączami dla zewnętrznych anten, z wyjątkiem Mudi 7 (GL-E5800). Kliknij [tutaj](#mudi-7){target="_blank"}, aby zobaczyć instrukcję instalacji anten zewnętrznych dla Mudi 7.
 
 Możesz kupić dodatkowe anteny Wi-Fi lub 4G/5G NR, aby zastąpić te dołączone do zestawu i dostosować konfigurację swojej sieci.
 
@@ -82,7 +92,7 @@ Zalecamy jednak korzystanie z oryginalnych anten, ponieważ przed wysyłką prze
 
 Jeśli wolisz używać anten innych producentów, zapoznaj się z poniższymi sekcjami, aby upewnić się, że wybierasz anteny z odpowiednim typem złącza.
 
-**Wskazówka**: Jeśli kupisz nieodpowiednie anteny, możesz rozważyć zakup adaptera zmieniającego typ złącza (np. SMA-RP male na SMA female). 
+**Wskazówka**: Jeśli kupisz nieodpowiednie anteny, możesz rozważyć zakup adaptera zmieniającego typ złącza (np. SMA-RP male na SMA female).
 
 ### Anteny Wi-Fi
 

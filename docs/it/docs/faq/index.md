@@ -52,7 +52,7 @@ Per i dispositivi GL.iNet KVM, fai riferimento a [GL.iNet KVM Docs](https://docs
 * [Come bloccare il traffico non VPN?](block_non_vpn_traffic.md)
 * [VPN Kill Switch](block_non_vpn_traffic.md)
 * [Per OpenVPN, quale protocollo dovrei scegliere: TCP o UDP?](openvpn_tcp_udp.md)
-* [Introduzione ai parametri di offuscamento di AmneziaWG](amnezia_obfuscation_parameters.md)
+* [Parametri di offuscamento di AmneziaWG](amnezia_obfuscation_parameters.md)
 * [Devo configurare Ethernet WAN quando uso la VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## Aggiornamento

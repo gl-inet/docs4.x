@@ -1,83 +1,121 @@
-# Brume 3 (GL-MT5000) User Guide
+# Slate 7 Pro (GL-BE10000) User Guide
 
 ## Product overview
 
-Brume 3 (GL-MT5000) is a high-performance security gateway running OpenWrt v21.02, equipped with a MediaTek Quad-core Cortex-A53 CPU, 1GB RAM, and 8GB eMMC storage for plugin expansion. It features a compact design, ideal for space-constrained deployments, and supports home VPN hosting, site-to-site SD-WAN, as well as over 30 VPN services for secure, cross-location connectivity. What's more, it comes with GL.iNet's DPI feature, as well as Parental Control and AdGuard Home, meeting the diverse needs of tech enthusiasts and business users.
+Slate 7 Pro (GL-BE10000) is a tri‑band Wi‑Fi 7 portable travel router. As an upgraded version of Slate 7 (GL-BE3600), it features a larger touchscreen on the top, and is equipped with 1GB DDR4 RAM and 8GB eMMC flash storage for stable performance and plugin compatibility. It delivers high VPN speeds of up to 1,100 Mbps for WireGuard® and 1,000 Mbps for OpenVPN-DCO. With 2× 2.5G Ethernet ports (1 WAN + 1 LAN), 1× USB-C 3.0 port and PD power support, it provides strong connectivity and convenience for travel and mobile use.
 
-![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
+![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 
 ## Package contents
 
-- 1 x Brume 3 (GL-MT5000)
-- 1 x Power adapter
-- 1 x Ethernet cable
+The package includes:
+
+- 1 x Slate 7 Pro (GL-BE10000)
 - 1 x User manual
 - 1 x Thank you card
-- 1 x Converter (Based on your shipping country)
+- 1 x Ethernet cable
+- 1 x Power cable
+- 1 x Power Adapter
+- 4 x Converters (US, EU, UK, and AU Plugs)
 
-Check out Brume 3's unboxing video below.
+## How to set up Slate 7 Pro
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## How to set up Brume 3
-
-Watch this setup video or follow the steps below.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RwbdUy79WHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+To set up Slate 7 Pro, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Follow the steps below.
 
 ### 1. Power on
 
-Put the two-piece power adapter together. Connect it to your Brume 3 and plug it into an outlet. It will start up automatically.
+Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-### 2. Connect device
+### 2. Touchscreen
 
-Connect a wired device (e.g., a computer or laptop) to the Brume 3's LAN port via an Ethernet cable.
+When the router is powered on, the GL.iNet logo will be displayed on the screen, followed by the startup progress bar.
 
-### 3. Log in to web Admin Panel
+![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){class="glboxshadow" width="360"}
 
-**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel. 
+Once the progress bar is fully loaded, the device completes startup and enters the welcome screen. Follow the prompts to set your admin password and Wi-Fi network.
 
-Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose your language and set your admin password, then click **Apply**.
+![set admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){class="glboxshadow" width="360"}
 
-### 4. Internet setup
+![set WiFi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){class="glboxshadow" width="360"}
 
-Configure your Brume 3 using one of the supported internet connection methods: Ethernet, Tethering, and Cellular (optional). If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
+You will then enter the home screen. The left side shows real-time system info, including system time and network speed, and provides shortcut tiles for Wi-Fi, Clients, VPN, and other functions. The right side provides shortcut tiles for the four connection modes: Ethernet, Repeater, Tethering, and Cellular.
+
+![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){class="glboxshadow" width="360"}
+
+Different colors on the four shortcut tiles indicate different network status.
+
+![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){class="glboxshadow" width="360"}
+
+- **Blue**: Active / Connected to Internet
+- **Yellow**: Connecting / Network Failure
+- **White**: Inactive connection
+
+### 3. Connect device
+
+Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
+
+- Ethernet
+
+    Connect your device to the router's LAN port using an ethernet cable. 
+
+- Wi-Fi
+
+    On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name (SSID) and password printed on the router's label.
+
+### 4. Log in to web Admin Panel
+
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**. 
+
+### 5. Internet setup
+
+Configure your Slate 7 Pro using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
 === "Ethernet"
-    
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_ethernet.png){class="glboxshadow"}
 
-    Connect the Brume 3's WAN port to an upstream device (such as a modem) via an ethernet cable. 
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_ethernet.jpg){class="glboxshadow"}
     
-    Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
+    1. Connect the Slate 7 Pro's WAN port to an upstream device (e.g., ISP modem, network switch, or wall Ethernet jack) using an Ethernet cable. 
+    2. Slate 7 Pro will automatically attempt to obtain network parameters, such as IP address, gateway, and DNS server, to establish an Ethernet connection.
+    3. Once successfully connected to the internet, the Ethernet section on the touchscreen homepage will turn blue (active). You can either tap Ethernet on the touchscreen homepage or log in to the web admin panel to check the connection details.
 
-    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
+=== "Repeater"
+
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_repeater.jpg){class="glboxshadow"}
+
+    1. Tap **Repeater** on the touchscreen. It will start scanning for available Wi-Fi networks.
+    2. Select the Wi-Fi network you want Slate 7 Pro to extend. 
+    3. Enter the password and tap **Apply**.
+    4. Once successfully connected to the internet, the Repeater section on the touchscreen homepage will turn blue (active). You can either tap Repeater on the touchscreen homepage or log in to the web admin panel to check the connection details.
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_tethering.png){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_tethering.jpg){class="glboxshadow"}
 
-    1. Connect your mobile device to the USB Type-C port of Brume 3 via a USB 3.0 data cable. 
-    2. In your mobile device's settings, enable USB tethering. 
-    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section. 
-    
-    Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Tethering" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
+    1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port using a USB cable. 
+    2. On your mobile device, go to Settings and enable **USB Tethering** or **Personal Hotspot**. For iPhone, tap **Trust This Device** if prompted. 
+    3. On the touchscreen, select **Tethering** and tap **Connect**. The router will connect to your device.
+    4. Once successfully connected to the internet, the Tethering section on the touchscreen homepage will turn blue (active). You can either tap Tethering on the touchscreen homepage or log in to the web admin panel to check the connection details.
 
-    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
+    **Note**: If the connection fails, make sure the power supply voltage is above 9V 3A, as low power supply may prevent the USB port from powering up. Repeat the steps above, or log in to the web admin panel to check the Tethering connection status.
 
 === "Cellular"
 
-    An additional USB-C to USB-A adapter cable is required for this connection method.
-    
-    Plug a cellular USB modem into the USB Type-C port of Brume 3 via an additional USB-C to USB-A adapter cable. This is useful for sharing internet from a USB modem to all connected client devices.
+    ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_cellular.jpg){class="glboxshadow"}
 
-    Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Cellular" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
-
-    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
+    1. Plug a cellular USB modem into the Slate 7 Pro's USB port. This is useful for sharing internet from a USB modem to all connected devices.
+    2. Once successfully connected to the internet, the Cellular section on the touchscreen homepage will turn blue (active). You can either tap Cellular on the touchscreen homepage or log in to the web admin panel to check the connection details.
 
 ---
 
-Below is an overview of the features in the Brume 3 web Admin Panel.
+Below is an overview of the features in the Slate 7 Pro web Admin Panel.
+
+## Wireless 
+
+The Wireless page allows you to configure settings for the 6GHz, 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
+    
+In addition, Slate 7 Pro supports MLO Wi-Fi, i.e. Multi-Link Operation, combining multiple wireless networks simultaneously to achieve higher bandwidth and more reliable connections.
+
+To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
 ## Clients
 
@@ -85,34 +123,34 @@ The Clients page displays information about connected devices. For each client, 
 
 To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
-## Cloud services
+## Cloud Services
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers. 
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} provides an easy and simple way to remotely access and manage GL.iNet routers. 
     
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
 
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
+    AstroWarp is an advanced networking feature integrated into GL.iNet routers. It enables seamless remote access to your home network without registration or login. Using the AmneziaWG protocol with built-in traffic obfuscation, it keeps your connection stable and secure, making it ideal for reliable remote access wherever you go. Users can set up an AstroWarp network directly through the GL.iNet router admin panel. Simply pair your routers using an access code and you can securely connect your travel router to your home network in seconds.
     
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Brume 3 supports OpenVPN and WireGuard. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 Pro supports OpenVPN and WireGuard protocols. 
 
 === "OpenVPN" 
     
-    Brume 3 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Slate 7 Pro (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
-    
-    Brume 3 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+
+    Slate 7 Pro (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -131,17 +169,23 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
 
+=== "Guest Network"
+
+    It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
+
+    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
+
+---
+
 === "DNS"
 
     The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
 
     To set up DNS, refer to [DNS](../../interface_guide/dns.md).
 
----
-
 === "Ethernet Port"
 
-    The Ethernet Port page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
+    The Ethernet Port page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
 
     To manage Ethernet ports, refer to [Ethernet Port](../../interface_guide/ethernet_port.md).
 
@@ -151,13 +195,13 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
 
+---
+
 === "IGMP Snooping"
 
     IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
     
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
-
----
 
 === "Network Mode"
 
@@ -165,9 +209,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
 
-=== "Drop-in gateway"
+=== "Drop-in Gateway"
 
-    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
+    Drop-in Gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
     
     To set up drop-in gateway, refer to these links:
     
@@ -250,6 +294,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ## Applications
 
+
 === "Plug-ins"
 
     A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
@@ -276,17 +321,17 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
-=== "ZeroTier"
-
-    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
-    
-    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
-
 === "Tailscale"
 
     Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
     
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
+
+=== "ZeroTier"
+
+    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
+    
+    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tor"
 
@@ -309,7 +354,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
-    For detailed setup instructions and more information, please refer to [Overview](../../interface_guide/system_overview.md).
+    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
 
 === "Admin Password"
 
@@ -323,6 +368,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
     * At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
 
+    Please refer to [Admin Password](../../interface_guide/admin_password.md) for detailed instructions.
+
 === "Upgrade"
 
     The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
@@ -332,7 +379,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.
 
-    For detailed setup instructions and more information, please refer to [Upgrade](../../interface_guide/upgrade.md).
+    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
 
 ---
 
@@ -340,18 +387,45 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
 
-    * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
+    * LCD Display Schedule: Set a schedule to automatically turn the router's LCD display on or off, reducing light pollution during specific times.
     * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
+    * Wi-Fi Status Schedule: Set a schedule to control the 6GHz / 5GHz / 2.4GHz / MLO Wi-Fi band, allowing for better management of network availability and power consumption.
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 
-    For detailed setup instructions and more information, please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
+    
+=== "Display Management"
+
+    The Display Management page offers you a full-range of functions to manage the touchscreen display and related settings.
+
+    ‒ Wallpaper: Customize the wallpaper and wake display style.
+    ‒ Brightness: Adjust the touchscreen brightness. Use the slider or enter a specific percentage to fit different lighting conditions.
+    ‒ Auto Lock: Set the time delay for the screen to auto-lock when there is no activity. The range is 1 minute to 30 minutes.
+    ‒ Screen Always On: Toggle this option to decide if the touchscreen stays on continuously or turns off after inactivity.
+    ‒ Enable Screen Passcode: Set a passcode for the touchscreen for an extra layer of security.
+
+    Please refer to [Display Management](../../interface_guide/display_management.md) for detailed instructions.
 
 === "Time Zone"
 
     The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
 
-    For detailed setup instructions and more information, please refer to [Time Zone](../../interface_guide/time_zone.md).
+    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
+
+---
+
+=== "Toggle Button Settings"
+
+    The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
+
+    Please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md) for detailed instructions.
+
+=== "Reset Firmware"
+
+    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
+
+    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
 
 === "Log"
 
@@ -365,18 +439,10 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
-    For detailed setup instructions and more information, please refer to [Log](../../interface_guide/log.md).
-
----
-
-=== "Reset Firmware"
-
-    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
-
-    For detailed setup instructions and more information, please refer to [Reset Firmware](../../interface_guide/reset_firmware.md).
+    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
 
 === "Advanced Settings"
 
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
-    For detailed setup instructions and more information, please refer to [Advanced Settings](../../interface_guide/advanced_settings.md).
+    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.

@@ -106,6 +106,7 @@ nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
+    - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md
     - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
     - GL-E5800 (Mudi 7): user_guide/gl-e5800/index.md
     - GL-MT5000 (Brume 3): user_guide/gl-mt5000/index.md

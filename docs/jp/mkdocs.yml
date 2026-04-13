@@ -42,6 +42,8 @@ plugins:
         "tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md": "tutorials/how_to_use_esim_physical_card_with_glinet_routers.md"
         "tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md": "tutorials/how_to_use_the_esim_physical_card_with_android_devices.md"
         "tutorials/how_to_access_server_lan_device_via_domain_name.md": "tutorials/how_to_access_wgserver_lan_via_domain_name.md"
+        "interface_guide/dpi_license.md": "interface_guide/dpi_engine.md"
+        "tutorials/how_to_change_x3000_and_xe3000_antennas.md": "tutorials/how_to_install_or_change_antennas.md"
 
 extra:
   social:

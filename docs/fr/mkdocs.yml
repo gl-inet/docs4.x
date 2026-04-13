@@ -2,16 +2,16 @@ repo_name: gl-inet/docs4.x
 repo_url: https://github.com/gl-inet/docs4.x
 edit_uri: ""
 
-site_name: GL.iNet Router Docs 4
-site_description: Documentation for GL.iNet Router Productions
+site_name: Documentation des routeurs GL.iNet 4
+site_description: Documentation des produits routeur GL.iNet
 site_author: GL.iNet
-site_url: https://docs.gl-inet.com/router/en/4/
+site_url: https://docs.gl-inet.com/router/fr/4/
 site_dir: site
 copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
 
 theme: 
   name: material
-  language: en
+  language: fr
   logo: https://static.gl-inet.com/docs/router/common/logo_white.svg
   custom_dir: overrides
   features:
@@ -42,6 +42,8 @@ plugins:
         'tutorials/how_to_access_server_lan_device_via_domain_name.md': 'tutorials/how_to_access_wgserver_lan_via_domain_name.md'
         'tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md': 'tutorials/eap.md'
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
+        'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
+        'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
  
 extra:
   social:
@@ -65,9 +67,24 @@ extra:
     - name: English
       link: /router/en/4/
       lang: en
+    - name: Deutsch
+      link: /router/de/4/
+      lang: de
+    - name: Español
+      link: /router/es/4/
+      lang: es
+    - name: Français
+      link: /router/fr/4/
+      lang: fr
+    - name: Italiano
+      link: /router/it/4/
+      lang: it
     - name: 日本語
       link: /router/jp/4/
       lang: ja
+    - name: Polski
+      link: /router/pl/4/
+      lang: pl
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
@@ -101,9 +118,9 @@ markdown_extensions:
   - admonition
 
 nav:
-  - Home: index.md
-  - User Guide:
-    - Overview: user_guide/index.md
+  - Accueil: index.md
+  - Guide utilisateur:
+    - Apercu: user_guide/index.md
     - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
     - GL-E5800 (Mudi 7): user_guide/gl-e5800/index.md
     - GL-MT5000 (Brume 3): user_guide/gl-mt5000/index.md
@@ -139,191 +156,191 @@ nav:
     - GL-S1300 (Convexa-S): user_guide/gl-s1300/index.md
     - GL-MV1000 (Brume): user_guide/gl-mv1000/index.md
   - FAQ:
-    - Overview: faq/index.md
+    - Apercu: faq/index.md
     - Internet:
-      - First time setup: faq/first_time_setup.md
-      - Warning from your browser: faq/warning_from_your_browser_during_setup.md
-      - Connect to public hotspot with Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
-      - Connect Ethernet-only device to Wi-Fi: faq/produce_a_wired_connection.md
-    - Problem Notification:
-      - Problem Notification for GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification_for_mt2500_x3000_xe3000.md
-      - Problem Notification and Solutions for GL-X3000/GL-X2000 Failure to Work with EE SIM Cards: faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md
-    - Troubleshooting:
-      - Cannot access web Admin Panel: faq/cannot_access_web_admin_panel.md
-      - Cannot Scan Android 5G Hotspot: faq/cannot_scan_android_5g_hotspot.md
-      - Cannot Scan iPhone 5G Hotspot: faq/cannot_scan_iphone_5g_hotspot.md
-      - iPhone tethering failed: faq/iphone_tethering_fail.md
-      - Cellular Network Troubleshooting Guide: faq/cellular_network_troubleshooting_guide.md
-      - No internet after replacing the old router with GL.iNet: faq/no_internet_after_replacing_the_old_router_with_glinet.md
-      - USB modem is not working: faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
-      - Repair network or reset: faq/repair_network_or_reset_firmware.md
-      - What should I do if my router is bricked: faq/debrick.md
-      - MacOS cannot write to a Samba share: faq/macos_cannot_write_samba.md
-      - WireGuard server is not working properly: faq/my_wireguard_server_is_not_working.md
-      - Stuck on "Installing" during firmware update: faq/stuck_on_installing_during_firmware_update.md
-      - Stuck on "Reverting" during firmware reset: faq/stuck_on_reverting_during_firmware_reset.md
-      - Stuck on "Rebooting" during firmware reboot: faq/stuck_on_rebooting_during_firmware_reboot.md
-      - How to resolve a subnet conflict: faq/how_to_resolve_a_subnet_conflict.md
-      - Why do I get a message from DDNS test: faq/why_do_I_get_a_message_from_ddns_test.md
-      - Why is my VPN speed slower than expected: faq/why_is_my_vpn_speed_slow.md
-      - What is the device capacity of my router: faq/what_is_the_device_capacity_of_my_router.md
-      - What is the wireless coverage of my router: faq/what_is_the_wireless_coverage_of_my_router.md
-      - Upgrade Uboot version: faq/upgrade_uboot_version.md
+      - Premiere configuration: faq/first_time_setup.md
+      - Avertissement de votre navigateur: faq/warning_from_your_browser_during_setup.md
+      - Se connecter a un hotspot public avec portail captif: faq/connect_to_a_hotspot_with_captive_portal.md
+      - Connecter un appareil Ethernet uniquement au Wi-Fi: faq/produce_a_wired_connection.md
+    - Notification de probleme:
+      - Notification de probleme pour GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification_for_mt2500_x3000_xe3000.md
+      - Notification de probleme et solutions pour GL-X3000/GL-X2000 ne fonctionnant pas avec les cartes SIM EE: faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md
+    - Depannage:
+      - Impossible d'acceder au panneau d'administration web: faq/cannot_access_web_admin_panel.md
+      - Impossible de detecter le hotspot 5G Android: faq/cannot_scan_android_5g_hotspot.md
+      - Impossible de detecter le hotspot 5G de l'iPhone: faq/cannot_scan_iphone_5g_hotspot.md
+      - Echec du partage de connexion de l'iPhone: faq/iphone_tethering_fail.md
+      - Guide de depannage du reseau cellulaire: faq/cellular_network_troubleshooting_guide.md
+      - Pas d'Internet apres avoir remplace l'ancien routeur par un GL.iNet: faq/no_internet_after_replacing_the_old_router_with_glinet.md
+      - Le modem USB ne fonctionne pas: faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
+      - Reparer le reseau ou reinitialiser: faq/repair_network_or_reset_firmware.md
+      - Que faire si mon routeur est bloque: faq/debrick.md
+      - macOS ne peut pas ecrire sur un partage Samba: faq/macos_cannot_write_samba.md
+      - Le serveur WireGuard ne fonctionne pas correctement: faq/my_wireguard_server_is_not_working.md
+      - Bloque sur "Installing" pendant la mise a jour du firmware: faq/stuck_on_installing_during_firmware_update.md
+      - Bloque sur "Reverting" pendant la reinitialisation du firmware: faq/stuck_on_reverting_during_firmware_reset.md
+      - Bloque sur "Rebooting" pendant le redemarrage du firmware: faq/stuck_on_rebooting_during_firmware_reboot.md
+      - Comment resoudre un conflit de sous-reseau: faq/how_to_resolve_a_subnet_conflict.md
+      - Pourquoi est-ce que je recois un message du test DDNS: faq/why_do_I_get_a_message_from_ddns_test.md
+      - Pourquoi la vitesse de mon VPN est-elle plus lente que prevu: faq/why_is_my_vpn_speed_slow.md
+      - Quelle est la capacite en appareils de mon routeur: faq/what_is_the_device_capacity_of_my_router.md
+      - Quelle est la couverture sans fil de mon routeur: faq/what_is_the_wireless_coverage_of_my_router.md
+      - Mettre a niveau la version d'U-Boot: faq/upgrade_uboot_version.md
     - VPN:
-      - How to set up OpenVPN: interface_guide/openvpn_client.md
-      - How to set up WireGuard: interface_guide/wireguard_client.md
-      - How to Block Non-VPN Traffic: faq/block_non_vpn_traffic.md
-      - VPN Kill Switch: faq/block_non_vpn_traffic.md
-      - TCP or UDP: faq/openvpn_tcp_udp.md
-      - AmneziaWG Obfuscation Parameters: faq/amnezia_obfuscation_parameters.md
-      - Do I have to configure Ethernet WAN when using VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
-    - Upgrade:
-      - Download firmware: faq/how_to_download_firmware.md
-      - Manually upgrade or downgrade: tutorials/how_to_upgrade_downgrade_router.md
-    - Other:
-      - LED indicator status: faq/led.md
-      - GL.iNet Mobile App: faq/mobile_app.md
-      - Add Brume 2 into mobile App: faq/how_to_add_brume2_into_app.md
-      - Change WAN to LAN: faq/change_wan_to_lan.md
-      - Access GL.iNet and Adguard Home via HTTPS: faq/use_https_for_adh.md
-      - Connect to Starlink Dish: faq/connect_glinetrouter_to_starlink.md
-      - Remote Web Admin: faq/remote_access_web_admin_panel.md
-      - Remote SSH to router: faq/remote_ssh_to_router.md
-      - Public IP checking: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
-      - Make WiFi Calling work on Opal: faq/how_to_make_wifi_calling_work_on_opal.md
-      - Find all MAC addresses: faq/how_can_i_know_the_lan_wifi_mac.md
-      - Find device info: faq/where_to_find_the_device_id_mac_sn.md
-      - What is LuCI: faq/what_is_luci.md
-  - Tutorials:
-    - Overview: tutorials/index.md
+      - Comment configurer OpenVPN: interface_guide/openvpn_client.md
+      - Comment configurer WireGuard: interface_guide/wireguard_client.md
+      - Comment bloquer le trafic hors VPN: faq/block_non_vpn_traffic.md
+      - Kill Switch VPN: faq/block_non_vpn_traffic.md
+      - TCP ou UDP: faq/openvpn_tcp_udp.md
+      - Parametres d'obfuscation AmneziaWG: faq/amnezia_obfuscation_parameters.md
+      - Dois-je configurer le WAN Ethernet lorsque j'utilise un VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
+    - Mise a jour:
+      - Telecharger le firmware: faq/how_to_download_firmware.md
+      - Mettre a niveau ou retrograder manuellement: tutorials/how_to_upgrade_downgrade_router.md
+    - Autres:
+      - Etat du voyant LED: faq/led.md
+      - Application mobile GL.iNet: faq/mobile_app.md
+      - Ajouter Brume 2 a l'application mobile: faq/how_to_add_brume2_into_app.md
+      - Changer le WAN en LAN: faq/change_wan_to_lan.md
+      - Acceder a GL.iNet et AdGuard Home via HTTPS: faq/use_https_for_adh.md
+      - Se connecter a l'antenne Starlink: faq/connect_glinetrouter_to_starlink.md
+      - Administration web a distance: faq/remote_access_web_admin_panel.md
+      - SSH distant vers le routeur: faq/remote_ssh_to_router.md
+      - Verification de l'IP publique: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+      - Faire fonctionner les appels Wi-Fi sur Opal: faq/how_to_make_wifi_calling_work_on_opal.md
+      - Trouver toutes les adresses MAC: faq/how_can_i_know_the_lan_wifi_mac.md
+      - Trouver les informations de l'appareil: faq/where_to_find_the_device_id_mac_sn.md
+      - Qu'est-ce que LuCI: faq/what_is_luci.md
+  - Tutoriels:
+    - Apercu: tutorials/index.md
     - VPN: 
-      - Set up OpenVPN client: tutorials/how_to_set_up_openvpn_client.md
-      - Set up OpenVPN server: tutorials/how_to_set_up_openvpn_server.md
-      - Build your own WireGuard home server: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
-      - Set up VPN Obfuscation: tutorials/vpn_obfuscation.md
-      - Connect to NordVPN via dedicated IP: tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
-      - Connect to Surfshark via dedicated IP: tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md
-      - Set up OpenVPN server via AstroRelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
-      - Set up WireGuard server via AstroRelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
-      - Access OpenVPN Client LAN from Server: tutorials/openvpn_server_access_client_lan_side.md
-      - Access WireGuard Client LAN from Server: tutorials/wireguard_server_access_to_client_lan_side.md
-      - Access OpenVPN Server LAN from Client via domain name: tutorials/how_to_access_ovpnserver_lan_via_domain_name.md
-      - Access WireGuard Server LAN from Client via domain name: tutorials/how_to_access_wgserver_lan_via_domain_name.md
-      - Enable OpenVPN TAP-S2S: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
-      - Enable VPN Cascading: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
-      - Use WireGuard to secure RDP from outside network: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
-      - Get config files from WireGuard service providers: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
-      - Reserve fixed IP for OpenVPN client: tutorials/reserve_fixed_IP_for_ovpn_client.md
-      - Allow access to WAN when VPN client is enabled: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
-      - Route VPN Client DNS to Server Upstream DNS: tutorials/route_vpn_client_dns_to_server_upstream_dns.md
-      - Update OpenVPN server certificates: tutorials/how_to_update_openvpn_server_certificates.md
-    - Cellular:
-      - SMS Forwarding: tutorials/sms_forwarding.md
-      - Get Module Logs: tutorials/get_module_logs.md
-      - Upgrade Quectel Module: tutorials/upgrade_quectel_module_software.md
-      - Check carrier aggregation status: tutorials/how_to_check_carrier_aggregation.md
-      - Set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
-      - Install or change external antennas: tutorials/how_to_change_x3000_and_xe3000_antennas.md
+      - Configurer le client OpenVPN: tutorials/how_to_set_up_openvpn_client.md
+      - Configurer le serveur OpenVPN: tutorials/how_to_set_up_openvpn_server.md
+      - Creer votre propre serveur domestique WireGuard: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+      - Configurer l'obfuscation VPN: tutorials/vpn_obfuscation.md
+      - Se connecter a NordVPN via une IP dediee: tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
+      - Se connecter a Surfshark via une IP dediee: tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md
+      - Configurer le serveur OpenVPN via AstroRelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
+      - Configurer le serveur WireGuard via AstroRelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
+      - Acceder au LAN du client OpenVPN depuis le serveur: tutorials/openvpn_server_access_client_lan_side.md
+      - Acceder au LAN du client WireGuard depuis le serveur: tutorials/wireguard_server_access_to_client_lan_side.md
+      - Acceder au LAN du serveur OpenVPN depuis le client via un nom de domaine: tutorials/how_to_access_ovpnserver_lan_via_domain_name.md
+      - Acceder au LAN du serveur WireGuard depuis le client via un nom de domaine: tutorials/how_to_access_wgserver_lan_via_domain_name.md
+      - Activer OpenVPN TAP-S2S: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
+      - Activer le VPN en cascade: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
+      - Utiliser WireGuard pour securiser RDP depuis l'exterieur du reseau: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
+      - Obtenir les fichiers de configuration des fournisseurs de services WireGuard: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+      - Reserver une IP fixe pour le client OpenVPN: tutorials/reserve_fixed_IP_for_ovpn_client.md
+      - Autoriser l'acces au WAN lorsque le client VPN est active: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
+      - Acheminer le DNS du client VPN vers le DNS amont du serveur: tutorials/route_vpn_client_dns_to_server_upstream_dns.md
+      - Mettre a jour les certificats du serveur OpenVPN: tutorials/how_to_update_openvpn_server_certificates.md
+    - Cellulaire:
+      - Transfert SMS: tutorials/sms_forwarding.md
+      - Obtenir les journaux du module: tutorials/get_module_logs.md
+      - Mettre a niveau le module Quectel: tutorials/upgrade_quectel_module_software.md
+      - Verifier l'etat de l'agregation de porteuses: tutorials/how_to_check_carrier_aggregation.md
+      - Configurer Spitz AX pour un camping-car: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
+      - Installer ou changer les antennes externes: tutorials/how_to_change_x3000_and_xe3000_antennas.md
     - eSIM:
-      - Use eSIM Physical Card with GL.iNet routers: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
-      - Use eSIM Physical Card with Android devices: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
-      - How to use SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
+      - Utiliser une carte eSIM physique avec les routeurs GL.iNet: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
+      - Utiliser une carte eSIM physique avec les appareils Android: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
+      - Comment utiliser SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
-      - Site to Site: tutorials/goodcloud_site_to_site.md
-      - Access the LuCI via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
-    - Network:
-      - Connect to EAP network: tutorials/eap.md
-      - Set up a guest network: tutorials/how_to_set_up_a_guest_network.md
-      - Set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
-      - Set up port forwarding on primary router: tutorials/how_to_set_up_port_forwarding.md
-      - Configure dual wired WAN access: tutorials/configure_dual_ethernet_wan.md
-    - Others:
-      - Block client devices: tutorials/how_to_block_client_devices.md
-      - Manually configure static IP on client devices: tutorials/manually_configure_static_ip.md
-      - Check if you have a public IP: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
-      - Upgrade or downgrade your router: tutorials/how_to_upgrade_downgrade_router.md
-      - SSH log in to the Router: tutorials/ssh_log_in_to_the_router.md
-      - Use WinSCP to access share files: tutorials/winscp_share_file.md
-      - Use WinSCP to modify files: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
-      - Activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
-      - Change the NAT type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
-      - Retrieve the mobile App log: tutorials/how_to_retrieve_the_mobile_app_log.md
-      - Configure Domain and IP Filtering rules for VPN: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
-      - Technical Support via GoodCloud: tutorials/technical_support_via_goodcloud.md
-  - Interface Guide:
-    - Overview: interface_guide/index.md
-    - Internet Connection:
+      - Site a site: tutorials/goodcloud_site_to_site.md
+      - Acceder a LuCI via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
+    - Reseau:
+      - Se connecter a un reseau EAP: tutorials/eap.md
+      - Configurer un reseau invite: tutorials/how_to_set_up_a_guest_network.md
+      - Configurer une passerelle drop-in: tutorials/how_to_set_up_drop_in_gateway.md
+      - Configurer la redirection de port sur le routeur principal: tutorials/how_to_set_up_port_forwarding.md
+      - Configurer l'acces WAN double filaire: tutorials/configure_dual_ethernet_wan.md
+    - Autres:
+      - Bloquer des appareils clients: tutorials/how_to_block_client_devices.md
+      - Configurer manuellement une IP statique sur des appareils clients: tutorials/manually_configure_static_ip.md
+      - Verifier si vous disposez d'une IP publique: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
+      - Mettre a niveau ou retrograder votre routeur: tutorials/how_to_upgrade_downgrade_router.md
+      - Se connecter au routeur en SSH: tutorials/ssh_log_in_to_the_router.md
+      - Utiliser WinSCP pour acceder aux fichiers partages: tutorials/winscp_share_file.md
+      - Utiliser WinSCP pour modifier des fichiers: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
+      - Activer ou recharger des cartes SIM T-Mobile: tutorials/how_to_activate_top_up_sim_cards.md
+      - Changer le type de NAT pour les jeux: tutorials/how_to_change_the_nat_type_on_gaming.md
+      - Recuperer le journal de l'application mobile: tutorials/how_to_retrieve_the_mobile_app_log.md
+      - Configurer les regles de filtrage de domaine et d'IP pour le VPN: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+      - Support technique via GoodCloud: tutorials/technical_support_via_goodcloud.md
+  - Guide de l'interface:
+    - Apercu: interface_guide/index.md
+    - Connexion Internet:
       - Internet: interface_guide/internet.md
       - Ethernet: interface_guide/internet_ethernet.md
-      - Repeater: interface_guide/internet_repeater.md
-      - Tethering: interface_guide/internet_tethering.md
-      - Cellular: interface_guide/internet_cellular.md
+      - Repeteur: interface_guide/internet_repeater.md
+      - Partage de connexion: interface_guide/internet_tethering.md
+      - Cellulaire: interface_guide/internet_cellular.md
       - SMS: interface_guide/sms.md
-      - Dual-Ethernet WAN: interface_guide/dual-ethernet_wan.md
-    - Wireless:
-      - Wireless: interface_guide/wireless.md
+      - WAN Ethernet double: interface_guide/dual-ethernet_wan.md
+    - Sans fil:
+      - Sans fil: interface_guide/wireless.md
     - Clients:
       - Clients: interface_guide/clients.md
-    - Cloud Services:
+    - Services Cloud:
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:
-      - VPN Dashboard: interface_guide/vpn_dashboard.md
-      - OpenVPN Client: interface_guide/openvpn_client.md
-      - OpenVPN Server: interface_guide/openvpn_server.md
-      - WireGuard Client: interface_guide/wireguard_client.md
-      - WireGuard Server: interface_guide/wireguard_server.md
+      - Tableau de bord VPN: interface_guide/vpn_dashboard.md
+      - Client OpenVPN: interface_guide/openvpn_client.md
+      - Serveur OpenVPN: interface_guide/openvpn_server.md
+      - Client WireGuard: interface_guide/wireguard_client.md
+      - Serveur WireGuard: interface_guide/wireguard_server.md
       - Tor: interface_guide/tor.md
     - Applications:
       - Plug-ins: interface_guide/plugins.md
-      - Dynamic DNS: interface_guide/ddns.md
-      - Network Storage: interface_guide/network_storage.md
+      - DNS dynamique: interface_guide/ddns.md
+      - Stockage reseau: interface_guide/network_storage.md
       - AdGuard Home: interface_guide/adguardhome.md
-      - Parental Control: interface_guide/parental_control.md
+      - Controle parental: interface_guide/parental_control.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
-      - eSIM Management: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
-    - Network:
-      - Firewall: interface_guide/firewall.md
-      - Port Forwarding: interface_guide/port_forwarding.md
+      - Gestion eSIM: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
+    - Reseau:
+      - Pare-feu: interface_guide/firewall.md
+      - Redirection de port: interface_guide/port_forwarding.md
       - Multi-WAN: interface_guide/multi-wan.md
       - LAN: interface_guide/lan.md
-      - Guest Network: interface_guide/guest_network.md
+      - Reseau invite: interface_guide/guest_network.md
       - DNS: interface_guide/dns.md
-      - Ethernet Port: interface_guide/ethernet_port.md
-      - Network Mode: interface_guide/network_mode.md
+      - Port Ethernet: interface_guide/ethernet_port.md
+      - Mode reseau: interface_guide/network_mode.md
       - IPv6: interface_guide/ipv6.md
-      - MAC Address: interface_guide/mac_address.md
-      - Drop-in Gateway: interface_guide/drop-in_gateway.md
+      - Adresse MAC: interface_guide/mac_address.md
+      - Passerelle drop-in: interface_guide/drop-in_gateway.md
       - IGMP Snooping: interface_guide/igmp_snooping.md
-      - Hardware Acceleration: interface_guide/hardware_acceleration.md
-      - Network Acceleration: interface_guide/network_acceleration.md
-      - NAT Settings: interface_guide/nat_settings.md
-    - Flow Control:
-      - DPI License: interface_guide/dpi_license.md
-      - Data Statistics: interface_guide/data_statistics.md
-      - Content Filter: interface_guide/content_filter.md
+      - Acceleration materielle: interface_guide/hardware_acceleration.md
+      - Acceleration reseau: interface_guide/network_acceleration.md
+      - Parametres NAT: interface_guide/nat_settings.md
+    - Controle du flux:
+      - Licence DPI: interface_guide/dpi_license.md
+      - Statistiques des donnees: interface_guide/data_statistics.md
+      - Filtre de contenu: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md
       - SQM: interface_guide/sqm.md
-    - System:
-      - Overview: interface_guide/system_overview.md
-      - Upgrade: interface_guide/upgrade.md
-      - Scheduled Tasks: interface_guide/scheduled_tasks.md
-      - Admin Password: interface_guide/admin_password.md
-      - Display Management: interface_guide/display_management.md
-      - USB & Power: interface_guide/usb_power.md
-      - Time Zone: interface_guide/time_zone.md
-      - Toggle Button Settings: interface_guide/toggle_button_settings.md
-      - Log: interface_guide/log.md
-      - Security: interface_guide/security.md
-      - Reset Firmware: interface_guide/reset_firmware.md
-      - Advanced Settings: interface_guide/advanced_settings.md
-      - Language: interface_guide/ui_languages.md
-      - Help: interface_guide/help.md
-  - Video Library:
-    - Overview: video_library/index.md
-    - Meet Our New Products: video_library/products.md
-    - Unboxing & First Time Setup: video_library/unboxing_first_set_up.md
-    - Tutorials: video_library/tutorials.md
-  - Community:
-    - Overview: community/index.md
+    - Systeme:
+      - Apercu: interface_guide/system_overview.md
+      - Mise a jour: interface_guide/upgrade.md
+      - Taches planifiees: interface_guide/scheduled_tasks.md
+      - Mot de passe administrateur: interface_guide/admin_password.md
+      - Gestion de l'affichage: interface_guide/display_management.md
+      - USB et alimentation: interface_guide/usb_power.md
+      - Fuseau horaire: interface_guide/time_zone.md
+      - Parametres du bouton bascule: interface_guide/toggle_button_settings.md
+      - Journal: interface_guide/log.md
+      - Securite: interface_guide/security.md
+      - Reinitialiser le firmware: interface_guide/reset_firmware.md
+      - Parametres avances: interface_guide/advanced_settings.md
+      - Langue: interface_guide/ui_languages.md
+      - Aide: interface_guide/help.md
+  - Bibliotheque video:
+    - Apercu: video_library/index.md
+    - Decouvrez nos nouveaux produits: video_library/products.md
+    - Deballage et premiere configuration: video_library/unboxing_first_set_up.md
+    - Tutoriels: video_library/tutorials.md
+  - Communaute:
+    - Apercu: community/index.md

@@ -457,21 +457,6 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     [Referenzlink](https://www.ivpn.net/setup/gnu-linux-terminal.html)
 
-??? "Mullvad"
-    ### Mullvad
-
-    [Offizielle Website](https://mullvad.net/en){target="_blank"}
-
-    1. Besuchen Sie die [Mullvad](https://mullvad.net/en){rel="sponsored" target="_blank"}-Website und melden Sie sich mit Ihren Mullvad-Zugangsdaten an.
-
-    2. Wählen Sie **OpenVPN Configuration**.
-
-    ![ovpnconfig](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ovpnconfig.jpg){class="glboxshadow"}
-
-    3. Wählen Sie **Linux** und anschließend den gewünschten Serverstandort aus.
-
-    ![linux](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/linux.jpg){class="glboxshadow"}
-
 ??? "OVPN"
     ### OVPN
 
@@ -573,7 +558,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     [Offizielle Website](https://safervpn.com/?a_aid=563){target="_blank"}
 
-    [Download](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup) direkt.
+    Klicken Sie [hier](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup), um die Konfigurationsdateien direkt herunterzuladen.
 
     ![safervpn openvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
 
@@ -582,31 +567,29 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     [Offizielle Website](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
-    StarVPN bietet auch WireGuard an. Wir empfehlen daher WireGuard. Mehr dazu [hier](wireguard_client.md#starvpn).
+    StarVPN bietet VPN-Dienste mit den Protokollen OpenVPN und WireGuard an. Wir empfehlen WireGuard, da es in der Regel schneller als OpenVPN ist. Weitere Informationen finden Sie [hier](wireguard_client.md#starvpn).
+
+    Wenn Sie lieber das OpenVPN-Protokoll verwenden möchten, führen Sie die folgenden Schritte aus, um die Konfigurationsdatei herunterzuladen.
 
     1. **Ein Konto bei StarVPN registrieren**
 
-        Besuchen Sie die [pricing plan](https://www.starvpn.com/#pricing){target="_blank"}-Seite, wählen Sie einen passenden VPN-Tarif und registrieren Sie sich beim Checkout oder direkt [hier](https://www.starvpn.com/dashboard/register.php){target="_blank"}.
+        Rufen Sie die Optionen des [Tarifplans](https://www.starvpn.com/#pricing){target="_blank"} auf und wählen Sie einen VPN-Tarif, der zu Ihren Anforderungen passt. Sie können sich beim Checkout oder direkt [hier](https://www.starvpn.com/dashboard/register.php){target="_blank"} registrieren.
 
-    2. VPN-Anmeldeinformationen
+    2. **OpenVPN-Konfiguration herunterladen**
 
-        Melden Sie sich im [Dashboard](https://www.starvpn.com/dashboard){target="_blank"} des StarVPN-Mitgliederbereichs an. Ihren VPN-Benutzernamen und Ihr Passwort für jeden Slot finden Sie im Bereich **Manage Slots** oder direkt im Dashboard.
+        Melden Sie sich im [Dashboard](https://www.starvpn.com/dashboard){target="_blank"} des StarVPN-Mitgliederbereichs an. Suchen Sie im Dashboard den Abschnitt **VPN Configuration** und klicken Sie auf **OpenVPN Config**. Kopieren Sie bitte den OVPN-Benutzernamen und das OVPN-Passwort. Diese Zugangsdaten benötigen Sie für die Authentifizierung, wenn Sie die Datei auf Ihren GL.iNet-Router hochladen.
 
-        ![starvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/vpn-username_edited-2.jpg){class="glboxshadow"}
+        ![download starvpn ovpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/ovpnconfigdl.png){class="glboxshadow"}
 
-        Bei mehreren Slots finden Sie die VPN-Konfigurationseinstellungen und Zugangsdaten im Bereich **Manage Slots**.
+        Wählen Sie UDP oder TCP und laden Sie eine Konfigurationsdatei herunter.
 
-        ![starvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/vpn-username_slots_edited-1024x355.jpeg){class="glboxshadow"}
+        ![select udp or tcp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/udp_tcp.png){class="glboxshadow"}
 
-    3. OpenVPN-Konfigurationsdatei herunterladen
+    3. **Konfigurationsdatei bearbeiten**
 
-        Im nächsten Schritt müssen Sie die VPN-Server-Konfigurationsdateien herunterladen, damit die OpenVPN-Software weiß, wohin sie sich verbinden soll. Laden Sie die Konfigurationsdatei im Dashboard des Mitgliederbereichs herunter.
+        Einige GL.iNet-Router unterstützen IPv6 nicht. Um Kompatibilitäts- und Verbindungsprobleme zu vermeiden, öffnen Sie die `.ovpn`-Konfigurationsdatei und entfernen Sie die IPv6-bezogenen Inhalte wie unten gezeigt.
 
-        ![download starvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/download-ovpn_edited.jpg){class="glboxshadow"}
-
-        Einige GL.iNet-Router unterstützen kein IPv6 oder keinen DNS Leak Protection. Daher können IP- oder Verbindungsfehler auftreten. Bearbeiten Sie in diesem Fall die `.ovpn`-Datei und deaktivieren Sie IPv6.
-
-        ![troubleshooting](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/troubleshooting.jpg){class="glboxshadow"}
+        ![remove ipv6](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/remove_ipv6.png){class="glboxshadow"}
 
 ??? "StreamVPN"
     ### StreamVPN

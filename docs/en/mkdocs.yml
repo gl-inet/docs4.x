@@ -67,9 +67,24 @@ extra:
     - name: English
       link: /router/en/4/
       lang: en
+    - name: Deutsch
+      link: /router/de/4/
+      lang: de
+    - name: Español
+      link: /router/es/4/
+      lang: es
+    - name: Français
+      link: /router/fr/4/
+      lang: fr
+    - name: Italiano
+      link: /router/it/4/
+      lang: it
     - name: 日本語
       link: /router/jp/4/
       lang: ja
+    - name: Polski
+      link: /router/pl/4/
+      lang: pl
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css

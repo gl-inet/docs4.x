@@ -130,6 +130,8 @@ En este túnel, puede personalizar la regla del túnel estableciendo tres factor
 
     - **Specified Domain / IP List**: Si se selecciona, el tráfico que coincida con esta regla se enrutará a los dominios o direcciones IP especificados. Debe introducirlos manualmente.
 
+      Tenga en cuenta que, si especifica un <u>dominio raíz</u>, se incluirán todos sus subdominios. Por ejemplo, si desea incluir `archive.ubuntu.com`, `security.ubuntu.com` y `old-releases.ubuntu.com` en un túnel, solo necesita especificar el dominio raíz `ubuntu.com`.
+
       ![specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_manual.png){class="glboxshadow"}
 
       O bien cambie **Input Mode** de Manual a Subscription URL e introduzca el enlace URL.
@@ -138,11 +140,15 @@ En este túnel, puede personalizar la regla del túnel estableciendo tres factor
 
       !!! Note
 
+            - Si especifica un dominio raíz, se incluirán todos sus subdominios.
+
             - Si selecciona Subscribe URL, el nombre de dominio o la IP de la URL se actualizarán automáticamente cada día.
 
             - Asegúrese de introducir la URL correcta. La detección de la URL verificará la validez del nombre de dominio o de la dirección IP. [Más información](../tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md){target="_blank"}
 
     - **Exclude Specified Domain / IP List**: Si se selecciona, el tráfico que coincida con esta regla **NO** se enrutará a los dominios o direcciones IP especificados. Debe introducirlos manualmente.
+
+      Tenga en cuenta que, si especifica un <u>dominio raíz</u>, se incluirán todos sus subdominios. Por ejemplo, si desea incluir `archive.ubuntu.com`, `security.ubuntu.com` y `old-releases.ubuntu.com` en un túnel, solo necesita especificar el dominio raíz `ubuntu.com`.
 
       ![exclude specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_manual.png){class="glboxshadow"}
 
@@ -151,6 +157,8 @@ En este túnel, puede personalizar la regla del túnel estableciendo tres factor
       ![exclude specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_subscription.png){class="glboxshadow"}
 
       !!! Note
+
+            - Si especifica un dominio raíz, se incluirán todos sus subdominios.
 
             - Si selecciona Subscribe URL, el nombre de dominio o la IP de la URL se actualizarán automáticamente cada día.
 

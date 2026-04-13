@@ -1,67 +1,104 @@
 # マルチWAN
 
-ウェブ管理パネルの左側 -> ネットワーク -> マルチWAN
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D1s1WScLP4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-GL.iNetルーターは、 [イーサネット](internet_ethernet.md)、 [リピーター](internet_repeater.md)、 [テザリング](internet_tethering.md)、 [セルラー](internet_cellular.md)など、複数の方法でインターネットに接続することができます。ルーターに複数のインターネットアクセス方式を設定することで、ある種類のインターネットアクセスが利用できない場合、短時間で自動的に別の種類のインターネットアクセスに切り替えることができます。また、複数のインターネットアクセス方式を同時に使用し、ネットワーク接続を一定の割合で異なる接続方式に割り当てることもできます。
+Web Admin Panel の左側で、**NETWORK** -> **Multi-WAN** に移動します。
 
-一部のモデルは [デュアルイーサネットWAN](dual-ethernet_wan.md)をサポートしており、ユーザーインターフェイスにイーサネットインターフェイスが追加されます。
+ルーターに複数のインターネット接続方法を設定できます。ある接続方法が利用できなくなった場合、短時間で自動的に別の接続方法へ切り替えられます。また、複数の接続方法を同時に使い、一定の比率で新しい接続を割り当てることもできます。
 
-## インターフェース・ステータス追跡方法
+GL.iNet ルーターは、[Ethernet](internet_ethernet.md)、[Repeater](internet_repeater.md)、[Tethering](internet_tethering.md)、[Cellular](internet_cellular.md) など、複数の方法でインターネットへ接続できます。
 
-GL.iNetルーターには最大5つのインターフェイスがありますが、モデルによって異なります。それらは**イーサネット1**、**イーサネット2**、**リピーター**、**テザリング**、**セルラー**です。ここでは例としてGL-MT6000を紹介します。
+!!! Note
 
-ルーターはpingまたはhttpingコマンドを使用して、宛先IPへの接続状態を追跡し、インターフェイスが使用可能かどうかを判断します。インターフェイスが利用可能であれば、先頭に緑の時で表示され、そうでなければ灰色で表示されます。
+    1. Wi-Fi 機能のないモデル（例: GL-MT2500/GL-MT2500A）は、Ethernet、Tethering、Cellular のみをサポートします。
 
-![multi-wan interface status tracking method](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track.png){class="glboxshadow"}
+    2. USB ポートのないモデル（例: GL-B3000）は、Ethernet と Repeater のみをサポートします。
 
-**インターフェース状態追跡方法の設定**
+    3. 一部モデルは [Dual-Ethernet WAN](dual-ethernet_wan.md) をサポートしており、UI 上に追加の Ethernet インターフェースが表示されます。
 
-![multi-wan interface status tracking method setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_setting.png){class="glboxshadow gl-90-desktop"}
+## インターフェース状態追跡
 
-- **インターフェース・ステータス・トラックを有効にする**: インターフェイスのステータストラッキングを無効にすると、ルーターはインターフェイスの物理のなステータス（ネットワークケーブルが接続されているかどうかなど）を使用します。
+GL.iNet ルーターは最大 5 つの仮想ネットワークインターフェースをサポートしますが、実際の数はモデルによって異なります。たとえば GL-MT6000 には **Ethernet 1**、**Ethernet 2**、**Repeater**、**Tethering**、**Cellular** があり、それぞれがソフトウェア定義された異なる役割を持ちます。
 
-- **ローデータモード**: インターフェース・ネットワーク・エラーが発生した場合のみ追跡するようスイッチを有効にし、データプランが限られている場合は低データモードを使用するようユーザーに推奨する。ただし、欠時としては、ネットワーク切断後の再接続が通例モードより若干遅くなる可能性があることと、デフォルトでセルラーインターフェイスのみがオンになることです。
+ルーターは **ping** コマンド（v4.3 以前では **httping** も利用可能）を使って宛先 IP への接続状態を追跡し、そのインターフェースが利用可能かどうかを判断します。
 
-**感度オプション**
+インターフェースが利用可能な場合、左側に緑色の点が表示され、利用できない場合は灰色になります。
 
-![Sensitivity Options](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/sensitivity_options.png){class="glboxshadow gl-90-desktop"}
+![interface status track 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_1.jpg){class="glboxshadow"}
 
-この感度は、インターネット・ステータス検出の時間間隔を決定します。
+### ステータストラッキング設定
 
-- ネットワークが安定しており、ビデオやライブストリームを見たり、ゲームをしたりする場合は、ネットワークが切断された場合に素早く切り替えられるよう、高感度を使用することをお勧めします。
-- ネットワークが不安定でキャッシュされたファイルをダウンロードする場合は、常にネットワークが切り替わって接続に失敗するのを防ぐため、低感度を使用することをお勧めします。
+歯車アイコンをクリックすると、各ネットワークインターフェースの状態追跡設定を開けます。
 
-**ヒント**: 高感度に切り替えるとネットワークが切断される可能性がありますので、注意して調全体してください。
+以下は Ethernet インターフェースの状態追跡設定の例で、ほかのインターフェースも同様です。
 
-## マルチWANの方法
+![interface status track 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_2.png){class="glboxshadow"}
 
-**フェイルオーバー**と**ロードバランス**の 2 つの方法があります。 **フェイルオーバー** と **ロード バランス** は相互に排彼のな機能であり、どちらか 1 つのみしか使用できません。
+- **Enable Interface Status Track**: デフォルトで有効です。無効にすると、ルーターはインターフェースの物理状態（例: ネットワークケーブルが挿さっているかどうか）だけで利用可否を判断します。
 
-### フェイルオーバー
+- **Detection Mode**: この機能は v4.5 では Low Data Mode として導入され、v4.7 で Detection Mode に名称変更されました。Normal Mode、Low Data Mode、Strict Mode の 3 つがあります。
 
-![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/multi-wan_mode_failover.png){class="glboxshadow gl-90-desktop"}
+    Normal Mode がデフォルトです。Low Data Mode はインターフェースのネットワーク異常が発生したときのみ追跡を行い、Strict Mode は public IP への検出コマンド結果だけに基づいてインターフェース状態を判定します。
 
-各インターフェイスの優先順位を設定することができ、使用中のインターフェイスに障害が発生した場合、ルーターは自動的に利用可能な別の最も高優先順位のインターフェイスに切り替えます。
+    データ通信量に制限がある場合は Low Data Mode を使えます。ただし、ネットワーク切断後の再接続が Normal Mode よりわずかに遅くなることがあり、デフォルトでは Cellular インターフェースのみがオンになります。
 
-例えば、ルーターに**イーサネット**と**リピータ**の2種類のインターネットアクセスが設定されており、イーサネットの優先順位が1、リピータの優先順位が2である場合、イーサネットの優先順位がリピータより高いため、ルーターはイーサネットを使用してインターネットにアクセスします。イーサネットケーブルを抜くと、イーサネットインターフェイスは使用できなくなり、ルーターは自動的にリピータインターフェイスに切り替えてインターネットにアクセスします。しばらくしてイーサネットインターフェイスが再び利用可能になると、**強制リフレッシュストリーム**がオフの場合、ルーターはリピータを使用し続け、その逆の場合、ルーターは優先順位の高いイーサネットに切り替わります。
+- **Track Command**: ping コマンドを使って宛先 IP への接続状態を追跡し、インターフェースが利用可能かどうかを判断します。ファームウェア v4.3 以前では httping も使用できます。
 
-### ロード バランス
+- **IPv4 Track IP**: ここで IPv4 Track IP をカスタマイズできます。
 
-複数のインターフェイスを同時に使用して、ルーターの総帯域幅を増やします。
+!!! Note
 
-システムは、負荷率に基づいて新しい接続にインターフェイスを割り当てます。ここでの負荷比率は、単純に帯域幅の比率に従って設定することができます。例えば、イーサネットの帯域幅が200Mbps、リピータのWiFiの帯域幅が100Mbps、テザリングが接続されていない場合、イーサネットの負荷率を2、リピータの負荷率を1、テザリングの負荷率を0に設定できます。
+    v4.3 などの古いファームウェアでは、**Track Interval**、**Change to Failure Condition**、**Change to Available Condition** などの設定がありました。これらは v4.5 以降で廃止され、Detection Mode と Sensitivity Options に置き換えられています。
 
+### 感度オプション
 
-**Note:** アクティブな接続またはトラフィックが負荷率と一致するかどうかは保証されません。 長期間使用するとこの比率に近づきます。
+この機能は v4.5 以降で利用できます。
 
-![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/multi-wan_mode_load_balance.png){class="glboxshadow gl-90-desktop"}
+![Sensitivity Options](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/sensitivity_options.jpg){class="glboxshadow"}
+
+この感度設定は、インターネット状態を検出する時間間隔を決定します。
+
+- ネットワークが安定していて、動画視聴、ライブ配信、ゲームなどの用途では、切断時に素早く切り替えられるよう高感度を推奨します。
+- ネットワークが不安定で、キャッシュされるファイルをダウンロードしているような用途では、頻繁な切り替えや接続失敗を防ぐため低感度を推奨します。
+
+**Tips**: 高感度へ切り替えるとネットワーク切断が発生する場合があります。慎重に調整してください。
+
+## Multi-WAN の方式
+
+方式は **Failover** と **Load Balance** の 2 つです。複数の WAN 接続がある場合、デフォルトでは Failover が有効になります。
+
+**Failover** と **Load Balance** は排他的であり、同時には使用できません。
+
+### Failover
+
+![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/failover.png){class="glboxshadow"}
+
+各インターフェースの優先順位を設定できます。使用中のインターフェースに障害が発生すると、ルーターは利用可能なインターフェースのうち最も優先順位の高いものへ自動的に切り替えます。
+
+たとえば、ルーターに **Ethernet** と **Repeater** の 2 種類のインターネット接続が設定され、Ethernet の優先順位が 1、Repeater の優先順位が 2 である場合、より優先順位の高い Ethernet が使われます。Ethernet ケーブルを抜くと Ethernet インターフェースは利用不可になり、ルーターは自動的に Repeater インターフェースへ切り替えてインターネットへ接続します。
+
+その後 Ethernet 接続が復旧すると、優先順位が高いため、ルーターは自動的に Ethernet へ戻ります。
+
+### 負荷分散
+
+複数のネットワークインターフェースを同時に使い、ルーター全体の帯域を増やします。
+
+ここで設定する load ratio は各ネットワークインターフェース間の比率であり、システムはその比率に基づいて新しい接続を各インターフェースへ割り当てます。
+
+たとえば、ルーターが 4 つのネットワーク（Ethernet、Repeater、Tethering、Cellular）に同時接続され、4 つすべてのインターフェースがインターネット利用可能な場合、Load Balance を有効にして `1:1:1:1` に設定すると、4 つのインターフェースへ新しい接続が均等に割り当てられます。
+
+load ratio はカスタマイズも可能です。たとえば Ethernet が 200 Mbps、Repeater の Wi-Fi が 100 Mbps、Tethering と Cellular が未接続の場合、Ethernet を 2、Repeater を 1、Tethering/Cellular を 0 に設定できます。するとシステムは `2:1` の比率で新しい接続を割り当て、Ethernet インターフェースが Repeater の約 2 倍の接続を処理します。Failover mode と比べると、利用可能なインターフェースへ負荷を分散することで全体のスループット効率を高められます。
+
+**Note:** 既存の接続やトラフィックが load ratio と正確に一致することは保証されません。長時間使用するほど、この比率に近づきます。
+
+![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/load_balance.png){class="glboxshadow"}
 
 ## 使用シナリオ
 
-* 店舗のレジ・システムはインターネットへの有線接続を使用し、ネットワーク・ケーブルが利用できないときにモバイル決済が行われないように、バックアップのインターネット・アクセス方法として近隣店舗のWi-Fiへのリピーター（またはSIMカードを挿入して携帯電話ネットワークを利用可能にする）を使用します。
+* 店舗のレジシステムは有線でインターネットへ接続し、ネットワークケーブルが使えない場合の予備回線として、近隣店舗の Wi-Fi への Repeater 接続（または SIM カードを挿入して Cellular を有効化）を使用することで、モバイル決済が止まるのを防げます。
 
-* ルーター・リピーターをパブリックWiFiに接続してもネットワーク速度が非常にでない場合は、モバイル・テザリングを使って同時にロードバランスを行い、全体の帯域幅を改善することができます。
+* ルーターを公衆 Wi-Fi に Repeater 接続していて速度が十分でない場合は、Mobile Tethering を同時に使って Load Balance を行い、全体の帯域を改善できます。
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

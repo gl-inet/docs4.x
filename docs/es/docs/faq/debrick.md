@@ -8,7 +8,9 @@ Si su router quedó bloqueado debido a algún proyecto DIY o por instalar un fir
 
 ## Preparación
 
-Prepare un ordenador con puerto Ethernet. Si su ordenador no tiene puerto Ethernet, prepare también un adaptador USB a Ethernet.
+Prepare un ordenador o portátil con puerto Ethernet. Si su equipo no tiene puerto Ethernet, necesitará además un adaptador USB a Ethernet.
+
+**Nota**: GL-E5800 (Mudi 7) no admite actualmente el flasheo de firmware mediante U-Boot.
 
 ## Pasos para recuperar el router
 
@@ -18,80 +20,91 @@ Consulte este videotutorial o siga los procedimientos que se indican a continuac
 
 <small>Los pasos para reinstalar el firmware mediante U-Boot son aproximadamente los mismos, y este vídeo toma como ejemplo Mudi/Mudi V2. Para otros modelos, puede seguir los procedimientos que se indican a continuación.</small>
 
-1.  Descargue el firmware [aquí](https://dl.gl-inet.com/){target="\_blank"} en su ordenador.
+1.  Descargue el firmware compatible con U-Boot [aquí](https://dl.gl-inet.com/){target="_blank"} en su ordenador.
 
-    Algunos modelos, como GL-AR750S-EXT, están disponibles en dos formatos de firmware. Utilice el firmware para U-Boot, cuya extensión de archivo es **.img**.
+    Algunos modelos ofrecen dos variantes de firmware. Descargue la versión compatible con U-Boot.
 
-2.  Desconecte la alimentación del router. Conecte su ordenador al **puerto LAN Ethernet** del router. **DEBE** dejar todos los demás puertos **sin conectar**.
+2.  Apague el router. Conecte un ordenador al **puerto LAN Ethernet** del router y deje todos los demás puertos sin conectar.
 
     !!! note
 
-        En algunos modelos, ciertos puertos LAN individuales y el puerto WAN son intercambiables. No utilice ese puerto LAN. Por ejemplo, en el GL-MT6000 (Flint 2), no use LAN 1. Use LAN 2, LAN 3 o LAN 4 en su lugar.
+        En algunos modelos, un puerto LAN concreto puede convertirse en WAN. No utilice ese puerto LAN para flashear el firmware. Por ejemplo, en el GL-MT6000 (Flint 2), no use LAN 1. Use LAN 2, LAN 3 o LAN 4.
 
 3.  Mantenga pulsado firmemente el botón Reset y, **al mismo tiempo, encienda el router**. Si su router no tiene botón de encendido, al conectar la alimentación se encenderá automáticamente.
 
-    A continuación verá que el LED parpadea varias veces en una secuencia regular. Suelte el botón **después** de que cambie la secuencia.
+    Espere a que el LED parpadee varias veces siguiendo una secuencia regular. Suelte el botón Reset **después** de que cambie el patrón de parpadeo.
 
-    A continuación se describe la secuencia de parpadeo del LED de cada modelo.
+    !!! note "Patrones de parpadeo LED por modelo"
 
-    **Nota:** Los mismos modelos de router con diferentes fechas de fabricación pueden tener colores de LED o secuencias de parpadeo diferentes. Esto no afectará al proceso de U-Boot. Preste más atención al cambio en la secuencia del LED.
-    - Para **GL-BE9300(Flint 3)**, el LED azul parpadea 6 veces y luego se queda en blanco fijo.
+        **Nota:** Un mismo modelo de router puede tener colores o secuencias de LED distintos según el lote de fabricación. Esto no afecta al proceso de recuperación con U-Boot. Lo importante es fijarse en el cambio del patrón de parpadeo.
 
-    - Para **GL-BE3600(Slate 7)**, después de mantener pulsado el botón reset durante unos 5 segundos, aparecerá una cuenta atrás de 5 segundos en la pantalla LED. Siga pulsando el botón reset hasta que aparezca el siguiente paso en la pantalla:
-      1. Configure manualmente la dirección IP de su ordenador en 192.168.1.2
-      2. Use el navegador para visitar http://192.168.1.1
+        - Para **GL-MT3600BE (Beryl 7)**: el LED azul parpadea 7 veces y luego se queda en blanco fijo.
 
-      Pase al paso 4 para obtener más instrucciones.
+        - Para **GL-MT5000 (Brume 3)**: el LED de alimentación parpadea en azul 7 veces y luego se queda en blanco fijo.
 
-    - Para **GL-B3000(Marble)**, el LED azul parpadea 7 veces y luego se queda en blanco fijo.
+        - Para **GL-BE6500 (Flint 3e)**: el LED azul parpadea 6 veces y luego se queda en blanco fijo.
 
-    - Para **GL-MT6000(Flint 2)**, el LED azul parpadea 6 veces y luego se queda en blanco fijo.
+        - Para **GL-BE9300 (Flint 3)**: el LED azul parpadea 6 veces y luego se queda en blanco fijo.
 
-    - Para **GL-MT3000(Beryl AX)**, el LED azul parpadea 6 veces y luego se queda en blanco fijo.
+        - Para **GL-BE3600 (Slate 7)**: después de mantener pulsado el botón Reset durante unos 5 segundos, aparecerá una cuenta atrás de 5 segundos en la pantalla táctil. Siga pulsando Reset hasta que aparezca la siguiente indicación en pantalla, por ejemplo, configurar manualmente la dirección IP de su ordenador en 192.168.1.2 y abrir http://192.168.1.1 en el navegador. Después pase al paso 4.
 
-    - Para **GL-MT2500/GL-MT2500A(Brume 2)**, el LED azul parpadea 5 veces y luego se queda en blanco fijo.
+        - Para **GL-X2000 (Spitz Plus)**: el LED de Internet parpadea 5 veces y luego el LED Wi-Fi permanece encendido.
 
-    - Para **GL-S200**, el LED cian parpadea 5 veces, luego se vuelve brevemente púrpura y finalmente queda fijo en cian.
+        - Para **GL-B3000 (Marble)**: el LED azul parpadea 7 veces y luego se queda en blanco fijo.
 
-    - Para **GL-A1300(Slate Plus)**, el LED parpadea lentamente 5 veces, luego permanece encendido un momento y después parpadea rápidamente de forma continua.
+        - Para **GL-MT6000 (Flint 2)**: el LED azul parpadea 6 veces y luego se queda en blanco fijo.
 
-    - Para **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)** y **microuter-N300**, el LED parpadea 5 veces.
+        - Para **GL-MT3000 (Beryl AX)**: el LED azul parpadea 6 veces y luego se queda en blanco fijo.
 
-    - Para **GL-E750(Mudi)**, la pantalla mostrará primero "Booting", luego "Reset Counting 1 to 4" y finalmente "Please Open Web 192.168.1.1".
+        - Para **GL-MT2500/GL-MT2500A (Brume 2)**: el LED de alimentación parpadea en azul 5 veces y luego se queda en blanco fijo.
 
-    - Para **GL-S1300(Convexa-S)** y **GL-B1300(Convexa-B)**, el LED parpadea 4 veces.
+        - Para **GL-X3000 (Spitz AX)**: el LED de Internet parpadea 5 veces y luego el LED Wi-Fi permanece encendido.
 
-      El LED de alimentación situado más a la izquierda puede permanecer encendido todo el tiempo mientras el LED Wi-Fi de la derecha parpadea 4 veces; después, el LED Mesh central queda encendido de forma fija.
+        - Para **GL-XE3000 (Puli AX)**: el LED de Internet parpadea 5 veces y luego el LED Wi-Fi permanece encendido.
 
-      Para algunos GL-B1300 antiguos, el LED de alimentación izquierdo permanece encendido todo el tiempo, mientras que el LED central y el LED derecho parpadean 5 veces simultáneamente y luego quedan encendidos.
+        - Para **GL-XE300 (Puli)**: el LED LAN parpadea 5 veces y luego el LED Wi-Fi permanece encendido.
 
-    - Para **GL-SF1200**, el LED 5G parpadea 5 veces y luego queda fijo.
+        - Para **GL-E750 (Mudi)**: la pantalla mostrará primero "Booting", luego "Reset Counting 1 to 4" y finalmente "Please Open Web 192.168.1.1".
 
-    - Para **GL-AX1800(Flint)**, el LED azul parpadea 5 veces y luego se queda en blanco fijo.
+        - Para **GL-X750 (Spitz)**: el LED de Internet parpadea 5 veces y luego el LED Wi-Fi permanece encendido.
 
-    - Para **GL-AXT1800(Slate AX)**, el LED azul parpadea 5 veces y luego queda fijo.
+        - Para **GL-AX1800 (Flint)**: el LED azul parpadea 5 veces y luego se queda en blanco fijo.
 
-    - Para **GL-XE300(Puli)**, el LED LAN parpadea 5 veces y luego el LED Wi-Fi queda encendido.
+        - Para **GL-AXT1800 (Slate AX)**: el LED azul parpadea 5 veces y luego se queda en blanco fijo.
 
-    - Para **GL-X300B(Collie)**, el LED WAN parpadea 5 veces y luego el LED Wi-Fi queda encendido.
+        - Para **GL-SFT1200 (Opal)**: el LED azul parpadea 5 veces y luego se queda en blanco fijo.
 
-    - Para **GL-X3000(Spitz AX)**, el LED WAN parpadea 5 veces y luego el LED Wi-Fi queda encendido.
+        - Para **GL-MT1300 (Beryl)**: el LED azul parpadea dos veces lentamente, luego parpadea 5 veces más rápido y se queda en blanco fijo.
 
-    - Para **GL-XE3000(Puli AX)**, el LED WAN parpadea 5 veces y luego el LED Wi-Fi queda encendido.
+        - Para **GL-A1300 (Slate Plus)**: el LED parpadea lentamente 5 veces, permanece encendido un momento y después parpadea rápidamente de forma continua.
 
-    - Para **GL-SFT1200(Opal)**, el LED azul parpadea 5 veces y luego se queda en blanco fijo.
+        - Para **GL-MT300N-V2 (Mango)** y **GL-AR300M (Shadow)**: el LED parpadea 5 veces.
 
-    - Para **GL-AP1300(Cirrus)**, el LED de alimentación parpadea lentamente 5 veces, luego permanece encendido un momento y después parpadea rápidamente de forma continua.
+        - Para **GL-X300B (Collie)**: el LED WAN parpadea 5 veces y luego el LED Wi-Fi permanece encendido.
 
-    - Para **GL-MT1300(Beryl)**, el LED comienza en azul, parpadea dos veces lentamente, luego parpadea 5 veces más rápido y se queda en blanco fijo.
+        - Para **GL-AP1300 (Cirrus)**: el LED de alimentación parpadea lentamente 5 veces, permanece encendido un momento y después parpadea rápidamente de forma continua.
 
-    - Para **GL-B2200(Velica)**, los dos LED comienzan en azul, luego se vuelven blancos y parpadean 5 veces, y finalmente quedan fijos en azul.
+        - Para **GL-B1300 (Convexa-B)** y **GL-S1300 (Convexa-S, EOL)**: el LED parpadea 4 veces.
 
-    - Para **GL-MV1000/GL-MV1000W(Brume)**, no hay señal repetitiva de parpadeo LED. Los LED de alimentación y WAN permanecerán encendidos todo el tiempo.
+            El LED de alimentación situado más a la izquierda permanece encendido todo el tiempo mientras el LED Wi-Fi de la derecha parpadea 4 veces; después, el LED Mesh central queda encendido de forma fija.
 
-    - Para **GL-MiFi**, el LED parpadea 6 veces.
+            (En algunos GL-B1300 antiguos, el LED de alimentación izquierdo permanece encendido todo el tiempo y tanto el LED central como el derecho parpadean 5 veces simultáneamente antes de quedar encendidos.)
 
-    - Para **GL-MT300N**, **GL-MT300A**, el LED parpadea 3 veces.
+        - Para **GL-B2200 (Velica)**: los dos LED comienzan en azul, luego se vuelven blancos, parpadean 5 veces y finalmente quedan fijos en azul.
+
+        - Para **GL-SF1200**: el LED 5G parpadea 5 veces y luego queda fijo.
+
+        - Para **GL-S200**: el LED cian parpadea 5 veces, luego se vuelve brevemente púrpura y finalmente queda fijo en cian.
+
+        - Para **GL-AR750 (Creta)** y **GL-AR750S-EXT (Slate)**: el LED parpadea 5 veces.
+
+        - Para **GL-USB150 (Microuter)**, **microuter-N300** y **GL-AR150 (White)**: el LED parpadea 5 veces.
+
+        - Para **GL-MV1000/GL-MV1000W (Brume)**: no hay señal repetitiva de parpadeo LED. Los LED de alimentación y WAN permanecerán encendidos todo el tiempo.
+
+        - Para **GL-MiFi**: el LED parpadea 6 veces.
+
+        - Para **GL-MT300N** y **GL-MT300A**: el LED parpadea 3 veces.
 
 4.  Configure manualmente la dirección IP de su ordenador en **192.168.1.2**. Consulte la guía paso a paso para distintos sistemas operativos a continuación:
 
@@ -169,9 +182,11 @@ Consulte este videotutorial o siga los procedimientos que se indican a continuac
 
 6.  Haga clic en el botón **Choose file** para buscar el archivo de firmware. Después haga clic en el botón **Update firmware**.
 
-7.  Espere unos 3 minutos. No apague el dispositivo durante la actualización. El router estará listo cuando tanto el LED de alimentación como el LED Wi-Fi estén encendidos, o cuando pueda encontrar su SSID en su dispositivo.
+7.  Espere unos 3 minutos. No apague el dispositivo durante la actualización del firmware.
 
-8.  Restaure la configuración IP que realizó en el paso 4 y conecte su dispositivo a la LAN o al Wi-Fi del router. Podrá volver a acceder al router a través de **192.168.8.1**.
+    El router estará listo cuando el LED siga parpadeando en azul; en algunos modelos celulares, estará listo cuando tanto el LED de alimentación como el LED Wi‑Fi queden encendidos de forma fija.
+
+8.  Restaure la configuración IP que realizó en el paso 4 y conecte su ordenador a la LAN o al Wi-Fi del router. Podrá volver a acceder al panel de administración web del router a través de **192.168.8.1**.
 
     **Nota:** Puede ser necesario usar el modo incógnito o eliminar la caché y las cookies del navegador para acceder al router.
 

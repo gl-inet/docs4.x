@@ -1,228 +1,234 @@
-# GL-X300B (Collie) ユーザーガイド
+# Collie (GL-X300B) ユーザーガイド
 
-## ハードウェア情報
+## 製品概要
 
-GL-X300B(Collie)は、高温下および物理のな危険が潜にするシナリオの下で動作するように設計された産業用セルラーゲートウェイです。Collieには2つのバージョンがあり、屋内定置施設での運用を想定したものと、輸送車両での運用を想定したものがあります。Collieは、電気ノイズの多い環境における電気機器間のマシンツーマシン通信に最も適です。
+Collie（GL-X300B）は、高温環境や物理的リスクのある環境での利用を想定して設計された産業用セルラーゲートウェイです。Collie には 3 つのバージョンがあり、屋内の固定設備向け（GL-X300B-RS485 / GL-X300B-BLE）と、車載利用向け（GL-X300B-GPS）に分かれています。電気ノイズの多い環境における機器間通信にも適しています。
 
 ![gl-x300b interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
 
-[GL-X300B 仕様](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
+**GL-X300B-RS485、GL-X300B-BLE、GL-X300B-GPS の違いは何ですか？**
 
-### PCB ピン設定
+![gl-x300b series](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b_series.png){class="glboxshadow"}
 
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg" itemprop="contentUrl" data-size="3167x2480">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_pinout.jpg" itemprop="thumbnail" alt="gl-x300b pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
+![gl-x300b comparison](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/model_comparison.png){class="glboxshadow"}
 
----
+- **GL-X300B-RS485** は RS485 インターフェース用の RS485 チップを搭載しています。産業オートメーションや IoT 分野の各種デバイスと双方向データ通信を行い、データ収集、制御、監視を実現します。
+
+- **GL-X300B-BLE** は、2.4GHz Wi‑Fi、4G LTE、BLE 通信用の外部無指向性アンテナを 3 本搭載しています。全方向から信号を受信できるため、産業環境での設置場所に柔軟性があります。
+
+- **GL-X300B-GPS** は、2 本の 2.4GHz Wi‑Fi アンテナ、2 本の 4G LTE アンテナ、1 本の GPS アンテナの計 5 本の外部アンテナを搭載しています。延長可能な有線アンテナにより、車両内で複数の受信ポイントを確保しやすく、高密度な都市部を移動する際の受信ムラを減らせます。
+
+!!! Note
+
+    BLE バージョンと GPS バージョンは最小注文数量の条件付きで提供されます。
+
+## パッケージ内容
+
+- 1 x ユーザーマニュアル
+- 1 x Collie (GL-X300B-RS485)（2 年保証）
+- 1 x Ethernet ケーブル
+- 1 x 外部 4G アンテナ
+- 2 x 外部 Wi‑Fi アンテナ
+- 1 x 端子台（緑）
+- 1 x 壁面取付キット
+- 1 x DIN レールキット
+- 1 x 電源アダプター
+- 4 x 変換プラグ（US / UK / EU / AU）（3 か月保証）
+
+![gl-x300b package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b-rs485_package.jpg){class="glboxshadow"}
+
+## 仕様
+
+[GL-X300B の仕様](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
 
 ## 初回設定
 
-GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットアッププロセスを持っています。 [初回セットアップについてはここをクリックしてください](../../faq/first_time_setup.md/)。
+GL.iNet のすべてのルーターは、ほぼ共通の手順でセットアップできます。[初回セットアップはこちら](../../faq/first_time_setup.md/)。
 
-パッケージ内のアダプターは配送国によって異なることにご注意してください。
+## INTERNET
 
-パッケージの中には何が入っていますか？
+ルーターの Web Admin Panel にログインし、左側メニューの **INTERNET** に移動します。
 
-**注意**: 下の画像はGL-X300B-GPSの例で、一部モデルが若干異なります。
+このページでは、モデルに応じて Ethernet、Repeater、Tethering、Cellular などの接続方法を選択できます。
 
-![gl-x300b unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/first_time_setup/x300b-gps_unboxing.jpg){class="glboxshadow"}
+Collie（GL-X300B）では、Ethernet、Repeater、Cellular の 3 種類の接続方式を利用できます。
 
-パッケージコンテンツ：
+### Ethernet
 
-- 1 x ユーザーマニュアル
-- 1 x Collie (GL-X300B)
-- 1 x イーサネットケーブル
-- 1 x サンキューカード
-- 1 x 保証書
-- 1 x 電源アダプター (選択されたプラグタイプ)
+Ethernet ケーブルでルーターをモデムや上位ネットワーク機器に接続し、インターネットへアクセスします。通常、この方法が最も高速で安定した接続を提供します。
 
----
-
-## インターネット
-
-インターネット設定画面では、ルーターがサポートしてるインターネット接続タイプを選択できます。
-
-ルータのWeb管理パネル内のサイドメニューで**インターネット**を選択して、インターネットネットワークを設定します。
-
-インターネットへの接続は以下の3つの方法がサポートされています:
-
-### イーサネット
-
-イーサネットケーブルを利用して、ルータをアクティブモデムまたはアクティブネットワークデバイスに接続してデータを転送します。この方法は通例、最もも高速で信頼性の高いインターネット接続を提供します。
-
-[イーサネット ケーブル経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_ethernet.md)
+[イーサネットケーブルでインターネットに接続する方法はこちら](../../interface_guide/internet_ethernet.md)
 
 ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_ethernet.png){class="glboxshadow"}
 
-### リピーター
+### Repeater
 
-ルーターを使用して範囲内で無線シグナルを受信し、そのシグナルをより遠くへ転送することで、既存のWi-FiネットワークのWi-Fiカバーエリアを拡大します。この方法は、単一のルーターでは使用エリア全体をカバーするのに非常にな範囲が確保できない場合に最もも有効です。
+ルーターをリピーターとして設定すると、既存の Wi‑Fi ネットワークの電波を受信して再送信し、カバー範囲を広げられます。1 台のルーターだけでは利用エリア全体を十分にカバーできない場合に便利です。
 
-[既存の Wi-Fi 経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_repeater.md)
+[既存の Wi‑Fi 経由でインターネットに接続する方法はこちら](../../interface_guide/internet_repeater.md)
 
 ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_repeater.png){class="glboxshadow"}
 
-### セルラー
+### Cellular
 
-セルラー対応のUSBモデムをルーターのUSBポートに挿入して、ルーターをインターネットに接続します。この方法は、USBモデムからすべての接続デバイスにインターネットアクセスを共有する場合に最もも役立ちます。
+SIM カードをルーターの SIM カードスロットに挿入してインターネットに接続します。1 枚の SIM カードの回線を、接続されたすべてのデバイスで共有したい場合に便利です。
 
-[USBモデム経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_cellular.md)
+[セルラー経由でインターネットに接続する方法はこちら](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_cellular.png){class="glboxshadow"}
 
-### 優先順位とロードバランス
+### Multi-WAN
 
-[マルチWAN](../../interface_guide/multi-wan.md) では、各インターネットアクセス方式の優先順位や、複数のインターネットアクセス方式を同時に使用する場合のロードバランスを設定します。
+Multi-WAN は、ルーターに複数のインターネット接続（例: Ethernet、Repeater、Cellular）を同時に設定できる機能です。最優先の接続が失われた場合、ルーターは自動的に別の接続へ切り替えます。これは Failover とも呼ばれ、通信を途切れにくくします。
 
----
+[Multi-WAN](../../interface_guide/multi-wan.md) で各インターネット接続の優先度を設定してください。
 
-## ワイヤレス
-
-ワイヤレス設定では、ユーザーはプライマリ Wi-Fi とゲスト Wi-Fi のネットワーク セキュリティを管理することができます。サイド メニューの **ワイヤレス** に移動するとアクセスできます。
-
-[ワイヤレス設定の詳細については、こちらをクリックしてください](../../interface_guide/wireless.md)
+また、Multi-WAN モードを Failover から Load Balance に切り替えることで、複数のネットワークインターフェースを同時に使用し、ルーター全体の帯域幅を増やすこともできます。
 
 ---
 
-## クライアント
+## WIRELESS
 
-クライアントはルーターに接続されているデバイスで あり、クライアントをブロックしたり、ネットワーク速度を制限したりすることができます。このインターフェイスには、ルーターの管理パネルのサイドメニューにある **クライアント** をクリックしてアクセスできます。
+Wireless 設定では、メイン Wi‑Fi と Guest Wi‑Fi のネットワークセキュリティを管理できます。左側メニューの **WIRELESS** からアクセスします。
 
-[デバイスクライアントの管理については、こちらをクリックしてください。](../../interface_guide/clients.md)
+[ワイヤレス設定の詳細はこちら](../../interface_guide/wireless.md)
+
+---
+
+## CLIENTS
+
+Clients はルーターに接続されているデバイスです。クライアントのブロックやネットワーク速度の制限を行えます。ルーターの Admin Panel で左側メニューの **CLIENTS** をクリックすると利用できます。
+
+[クライアント管理の詳細はこちら](../../interface_guide/clients.md)
 
 ---
 
 ## VPN
 
-GL.iNetルーターには、30以上のVPNサービスをサポートするOpenVPNとWireGuard®がプリインストールされています。これは、ゲストデバイスやVPN暗号化を実行できないクライアントデバイスを含め、接続されたネットワーク内のすべてのネットワークトラフィックを自動的に暗号化します。また、当社のルーターはVPNサーバーとしても機能し、パブリックのインターネットにアクセスする前に、遠隔にあるクライアントデバイスからのトラフィックをVPNトンネル経由でVPNサーバーにリダイレクトします。
+GL.iNet ルーターには、30 以上の VPN サービスに対応した OpenVPN と WireGuard® がプリインストールされています。接続されたネットワーク内のすべてのトラフィック（ゲストデバイスや VPN 暗号化を実行できないクライアントデバイスを含む）を自動的に暗号化できます。また、ルーターを VPN サーバーとして動作させ、離れた場所にあるクライアントデバイスのトラフィックを VPN トンネル経由で VPN サーバーへ転送してからパブリックインターネットへ接続することもできます。
 
-### VPN ダッシュボード
+### VPN Dashboard
 
-- [**VPN ダッシュボード**](../../interface_guide/vpn_dashboard.md)
+- [**VPN Dashboard**](../../interface_guide/vpn_dashboard.md)
 
 ### OpenVPN
 
-セットアップの手順については、以下のリンクをご参照ください：
+セットアップ手順については、以下のリンクを参照してください。
 
-- [**Setup OpenVPN クライアント**](../../interface_guide/openvpn_client.md)
-- [**Setup OpenVPN サーバー**](../../interface_guide/openvpn_server.md)
+- [**OpenVPN クライアントの設定**](../../interface_guide/openvpn_client.md)
+- [**OpenVPN サーバーの設定**](../../interface_guide/openvpn_server.md)
 
 ### WireGuard
 
-セットアップの手順については、以下のリンクをご参照ください：
+セットアップ手順については、以下のリンクを参照してください。
 
-- [**Setup WireGuard クライアント**](../../interface_guide/wireguard_client.md)
-- [**Setup WireGuard サーバー**](../../interface_guide/wireguard_server.md)
+- [**WireGuard クライアントの設定**](../../interface_guide/wireguard_client.md)
+- [**WireGuard サーバーの設定**](../../interface_guide/wireguard_server.md)
 
 ---
 
-## アプリケーション
+## APPLICATIONS
 
-GL.iNetルーターには、デバイス管理の簡素化、ユーザーのインターネット体験の向上、ファームウェアアップデートのから動化など、幅広いアドオン機能が含まれています。
+GL.iNet ルーターには、デバイス管理の簡素化、インターネット利用体験の向上、ファームウェアアップデートの自動化などに役立つ、さまざまな追加機能が用意されています。
 
-### プラグイン
+### Plug-ins
 
-[**プラグイン**](../../interface_guide/plugins.md)チュートリアルにアクセスしてください。
+[**Plug-ins**](../../interface_guide/plugins.md) チュートリアルを参照してください。
 
-### ダイナミックDNS
+### Dynamic DNS
 
- [**ダイナミックDNS**](../../interface_guide/ddns.md)チュートリアルにアクセスしてください。
+[**Dynamic DNS**](../../interface_guide/ddns.md) チュートリアルを参照してください。
 
 ### GoodCloud
 
- [**GoodCloud**](../../interface_guide/cloud.md)チュートリアルにアクセスしてください。
+[**GoodCloud**](../../interface_guide/cloud.md) チュートリアルを参照してください。
 
 ---
 
-## ネットワーク
+## NETWORK
 
-### ファイアウォール
+### Firewall
 
-GL.iNetのルーターは、安全な接続とユーザーによる完全な監視を保証するため、複数のファイヤーウォール機能を備えています。ポート転送、オープンポート、DMZなどのファイアウォールルールを設定することができます。
+GL.iNet ルーターには、安全な接続とユーザーによる十分な管理を実現するための複数のファイアウォール機能が用意されています。Port Forwarding、Open Ports、DMZ などのファイアウォールルールを設定できます。
 
-[GL.iNetルーターのファイアウォールについて詳しくはこちら](../../interface_guide/firewall.md)
+[GL.iNet ルーターのファイアウォールについて詳しくはこちら](../../interface_guide/firewall.md)
 
 ### Multi-WAN
 
- [**Multi-WAN**](../../interface_guide/multi-wan.md)チュートリアルにアクセスしてください。
+[**Multi-WAN**](../../interface_guide/multi-wan.md) チュートリアルを参照してください。
 
 ### LAN
 
- [**LAN**](../../interface_guide/lan.md) チュートリアルにアクセスしてください。
+[**LAN**](../../interface_guide/lan.md) チュートリアルを参照してください。
 
 ### DNS
 
- [**DNS**](../../interface_guide/dns.md) チュートリアルにアクセスしてください。
+[**DNS**](../../interface_guide/dns.md) チュートリアルを参照してください。
 
 ### Network Mode
 
- [**Network Mode**](../../interface_guide/network_mode.md) チュートリアルにアクセスしてください。
+[**Network Mode**](../../interface_guide/network_mode.md) チュートリアルを参照してください。
 
 ### IPv6
 
- [**IPv6**](../../interface_guide/ipv6.md) チュートリアルにアクセスしてください。
+[**IPv6**](../../interface_guide/ipv6.md) チュートリアルを参照してください。
 
-### MACアドレス
+### MAC Address
 
-Mac アドレスページは、で前はMacクローンと呼ばれていましたが、v4.2からMacアドレスに変更されました。
+MAC Address ページは、以前は Mac Clone と呼ばれていましたが、v4.2 以降は MAC Address に変更されています。
 
- [**MACアドレス**](../../interface_guide/mac_address.md)チュートリアルにアクセスしてください。
+[**MAC Address**](../../interface_guide/mac_address.md) チュートリアルを参照してください。
 
-### ドロップイン・ゲートウェイ
+### Drop-in Gateway
 
- [**ドロップイン・ゲートウェイ**](../../interface_guide/drop-in_gateway.md) チュートリアルにアクセスしてください。
+[**Drop-in Gateway**](../../interface_guide/drop-in_gateway.md) チュートリアルを参照してください。
 
-### IGMPスヌーピング
+### IGMP Snooping
 
- [**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルにアクセスしてください。
+[**IGMP Snooping**](../../interface_guide/igmp_snooping.md) チュートリアルを参照してください。
 
 ---
 
-## システム
+## SYSTEM
 
-### 概要
+### Overview
 
- [**システム概要**](../../interface_guide/system_overview.md) チュートリアルにアクセスしてください。
+[**System Overview**](../../interface_guide/system_overview.md) チュートリアルを参照してください。
 
-### アップグレード
+### Upgrade
 
-GL.iNet は、パフォーマンスをへ上させ、バグを解決し、脆弱性を修正するために、ルーターのファームウェアを定期のにアップデートします。
+GL.iNet は、性能向上、バグ修正、脆弱性対策のために、ルーターのファームウェアを定期的に更新しています。
 
- [**アップグレード**](../../interface_guide/upgrade.md) チュートリアルにアクセスしてください。
+[**Upgrade**](../../interface_guide/upgrade.md) チュートリアルを参照してください。
 
-### スケジュールされたタスク
+### Scheduled Tasks
 
- [**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルにアクセスしてください。
+[**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) チュートリアルを参照してください。
 
-### 管理者パスワード
+### Admin Password
 
-この機能はv4.5から[**セキュリティ**](../../interface_guide/security.md) に移動されました。
+この機能は v4.5 から [**Security**](../../interface_guide/security.md) に移動しました。
 
- [**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルにアクセスしてください。
+[**Admin Password**](../../interface_guide/admin_password.md) チュートリアルを参照してください。
 
-### タイムゾーン
+### Time Zone
 
-  [**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルにアクセスしてください。
+[**Time Zone**](../../interface_guide/time_zone.md) チュートリアルを参照してください。
 
-### ログ
+### Log
 
- [**ログ**](../../interface_guide/log.md) チュートリアルにアクセスしてください。
+[**Log**](../../interface_guide/log.md) チュートリアルを参照してください。
 
-### セキュリティ
+### Security
 
-この機能はv4.5から利用可能です。
+この機能は v4.5 から利用できます。
 
- [**セキュリティ**](../../interface_guide/security.md) チュートリアルにアクセスしてください。
+[**Security**](../../interface_guide/security.md) チュートリアルを参照してください。
 
-### ファームウェアをリセット
+### Reset Firmware
 
- [**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルにアクセスしてください。
+[**Reset Firmware**](../../interface_guide/reset_firmware.md) チュートリアルを参照してください。
 
-### 詳細設定
+### Advanced Settings
 
- [**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルにアクセスしてください。
+[**Advanced Settings**](../../interface_guide/advanced_settings.md) チュートリアルを参照してください。

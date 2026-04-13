@@ -1,71 +1,71 @@
 # ファイアウォール
 
-このガイドはファームウェアv4.5で前に当てはまります。
+このガイドはファームウェア v4.5 以前に適用されます。
 
-v4.6で降、ファイアウォールページは分割されました。ポートフォワーディングとDMZ機能は[ポートフォワーディング](port_forwarding.md)に移動しました。オープンポート機能は[セキュリティ](security.md)に移動しました。
+v4.6 以降、Firewall ページは分割されました。Port Forwarding と DMZ の機能は [Port Forwarding](port_forwarding.md) に移動し、Open Ports 機能は [Security](security.md) に移動しました。
 
 ---
 
-ウェブ管理パネルの左側 -> ネットワーク -> ファイアウォール
+Web Admin Panel の左側で、**NETWORK** -> **Firewall** に移動します。
 
-ファイアウォールページでは、**ポートフォワーディング**、**ルーターのオープンポート**、**DMZ**などのファイアウォールルールを設定できます。
+このページでは、**Port Forwarding**、**Open Ports on Router**、**DMZ** などのファイアウォールルールを設定できます。
 
-## ポート転送
+## ポートフォワーディング
 
-ポートフォワーディングを使用すると、リモートコンピュータがLAN内のルーターファイアウォールの内側にあるローカルコンピュータやサーバー（ウェブサーバーやFTPサーバーなど）に接続できます。
+Port Forwarding を使うと、リモートコンピューターから LAN 内のルーターのファイアウォール背後にあるローカルコンピューターやサーバー（Web サーバー、FTP サーバーなど）へ接続できます。
 
-ポートフォワーディングを設定するには、**ポート転送**タブをクリックし、**追加**をクリックします。
+Port Forwarding を設定するには、**Port Forwards** タブをクリックし、**Add** をクリックします。
 
 ![firewall page](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/firewall.png){class="glboxshadow"}
 
-ポップアップウィンドウで新しいポート転送ルールを追加し、**適用**をクリックします。
+ポップアップウィンドウで新しいポート転送ルールを追加し、**Apply** をクリックします。
 
 ![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
 
-**名称:** ルールの名前。
+**Name:** ルール名です。
 
-**プロトコル:** 使用するプロトコル。TCP、UDP、またはTCPとUDPの両方を選択できます。
+**Protocol:** 使用するプロトコルです。TCP、UDP、または TCP と UDP の両方を選択できます。
 
-**外部ゾーン:** 外部ゾーンのオプションは `WAN`、`wgclient`、`wgserver`、`ovpnclient`、`ovpnserver` です。
+**External Zone:** 外部ゾーンの選択肢は `WAN`、`wgclient`、`wgserver`、`ovpnclient`、`ovpnserver` です。
 
-**外部ポート:** 外部ポートの番号。特定のポート番号を入力できます。
+**External Port:** 外部ポート番号です。特定のポート番号を入力できます。
 
-**内部ゾーン:** 内部ゾーンのオプションは `WAN`、`wgclient`、`wgserver`、`ovpnclient`、`ovpnserver` です。
+**Internal Zone:** 内部ゾーンの選択肢は `WAN`、`wgclient`、`wgserver`、`ovpnclient`、`ovpnserver` です。
 
-**内部IP:** リモートアクセスが必要なデバイスにルーターから割り当てられたIPアドレス。
+**Internal IP:** リモートアクセスする対象デバイスにルーターが割り当てた IP アドレスです。
 
-**内部ポート:** デバイスの内部ポート番号。特定のポート番号を入力できます。外部ポートと同じ場合は空欄にしてください。
+**Internal Port:** デバイスの内部ポート番号です。特定のポート番号を入力できます。External Port と同じ場合は空欄のままにしてください。
 
-**有効にする:** ルールの有効/無効を設定します。
+**Enable:** ルールを有効または無効にします。
 
-## ルーターのオープンポート
+## ルーターで開いているポート
 
-ウェブやFTPなどのルーターのサービスでは、公にアクセスできるようにするために、ルーター上で respective ポートが開かれている必要があります。
+Web や FTP などのルーターサービスを外部から利用できるようにするには、それぞれのポートをルーター上で開放する必要があります。
 
-ポートを開くには、**ルーターのオープンポート**タブに切り替えて、**追加**をクリックします。
+ポートを開放するには、**Open Ports on Router** タブに切り替えて **Add** をクリックします。
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/open_ports_on_router.png){class="glboxshadow"}
 
-ポップアップウィンドウで新しいポートを開き、**適用**をクリックします。
+ポップアップウィンドウで新しいポートを開放し、**Apply** をクリックします。
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/add_new_open_port.png){class="glboxshadow"}
 
-**名称:** ユーザーが指定できるルールの名前。
+**Name:** ユーザーが指定できるルール名です。
 
-**プロトコル:** 使用するプロトコル。TCP、UDP、またはTCPとUDPの両方を選択できます。
+**Protocol:** 使用するプロトコルです。TCP、UDP、または TCP と UDP の両方を選択できます。
 
-**ポート:** 開きたいポート番号。
+**Port:** 開放するポート番号です。
 
-**有効にする:** ルールの有効または無効を設定します。
+**Enable:** ルールを有効または無効にします。
 
 ## DMZ
 
-DMZを使用すると、1台のコンピュータをインターネットに公開でき、すべての受信パケットはこのコンピュータにリダイレクトされます。
+DMZ を使うと、1 台のコンピューターをインターネットに公開でき、すべての受信パケットがそのコンピューターにリダイレクトされます。
 
-**DMZを有効にする**をオンにします。すべての受信パケットを受け取るホストデバイスの内部IPアドレスを選択します。
+**Enable DMZ** をオンにし、すべての受信パケットを受け取るホストデバイスの内部 IP アドレスを選択します。
 
 ![Port Forwards](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/dmz.png){class="glboxshadow"}
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

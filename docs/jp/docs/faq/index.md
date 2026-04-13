@@ -52,7 +52,7 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 * [非VPNトラフィックをブロックする方法は？](block_non_vpn_traffic.md)
 * [VPNキルスイッチ](block_non_vpn_traffic.md)
 * [OpenVPNでは、TCPとUDPのどちらのプロトコルを選ぶべきですか？](openvpn_tcp_udp.md)
-* [AmneziaWG難読化パラメーターの紹介](amnezia_obfuscation_parameters.md)
+* [AmneziaWG難読化パラメーター](amnezia_obfuscation_parameters.md)
 * [VPN使用時にイーサネットWANを設定する必要がありますか？](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## アップグレード
@@ -60,7 +60,7 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 * [ルーターのファームウェアはどこからダウンロードできますか？](how_to_download_firmware.md)
 * [ルーターのファームウェアを手動でアップグレードまたはダウングレードする方法は？](../tutorials/how_to_upgrade_downgrade_router.md)
 
-## その彼
+## その他
 
 * [LEDインジケーター](led.md)
 * [GL.iNetモバイルアプリ](mobile_app.md)

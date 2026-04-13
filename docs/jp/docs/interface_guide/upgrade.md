@@ -1,28 +1,30 @@
 # アップグレード
 
-ウェブ管理パネルの左側 -> **システム** -> **アップグレード**では、ルーターのファームウェアバージョンをアップグレードできます。特定のモバイルモデルでは、必要に応じてモジュールバージョンもアップグレードできます。
+Web管理パネルの左側で、**SYSTEM** -> **Upgrade** に移動すると、ルーターのファームウェアを更新できます。
 
-!!! 注意
+一部のセルラーモデルでは、必要に応じてモジュールバージョンもアップグレードできます。
 
-    アップグレード中に電源が入った状態を保ってください。ルーターの電源をオフにしないでください。デバイスはアップグレード後に自動的に再起動します。数秒かかる場合があります。
+!!! Note
+
+    アップグレード中は電源を入れたままにしてください。ルーターの電源を **切らないでください**。アップグレード後、デバイスは自動的に再起動します。これには数分かかる場合があります。
 
 ## ファームウェアアップグレード
 
 ### オンラインアップグレード
 
-現にのファームウェアバージョンはここにあります。
+ここで現在のファームウェアバージョンを確認できます。
 
 ![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
-- **プレビュープランを受け入れる**
+- **Accept Preview Plan**
 
-    このオプションを有効にすると、最も終バージョンがリリースされる前に新機能を試すことができ、私たちのフィードバックを提供できます。一度設定するとオンのままになり、オフにするオプションがあります。これらのアップグレードは安定していない場合があることに注意してください。最も新のファームウェア機能については、[What's New?](https://www.gl-inet.com/whats-new/){target="_blank"} をご覧ください。
+    このオプションを有効にすると、正式版が公開される前に新機能を試し、フィードバックを送ることができます。一度有効にするとそのまま維持され、いつでもオフにできます。なお、これらのアップグレードは安定していない可能性があります。最新のファームウェア機能については [What's New?](https://www.gl-inet.com/whats-new/){target="_blank"} を確認してください。
 
-ルーターがインターネットに接続されている場合、利用可能なファームウェアアップデートプログラムを確認します。
+ルーターがインターネットに接続されていれば、利用可能なファームウェア更新を確認します。
 
 ![upgrade reminder](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/upgrade_reminder.png){class="glboxshadow"}
 
-**注意**：オンラインアップグレードを実行するとき、「ダウンロード失敗」と表示された場合、**システム** -> **タイムゾーン**に移動し、タイムゾーンエラーを修正します（ブラウザに 同期）。
+**Note**: オンラインアップグレード時に **Download Failed** と表示された場合は、**SYSTEM** -> **Time Zone** に移動し、タイムゾーンのエラーを修正してください（ブラウザと同期）。
 
 ![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow gl-50-desktop"}
 
@@ -30,34 +32,36 @@
 
 ### ローカルアップグレード
 
-ファームウェアファイルを選択するかドラッグ＆ドロップしてアップグレードできます。ファームウェアは当社の[ダウンロードセンター](https://dl.gl-inet.com){target="_blank"}からダウンロードできます。
+ファームウェアファイルを選択するか、ドラッグ&ドロップしてアップグレードできます。ファームウェアは [download center](https://dl.gl-inet.com){target="_blank"} からダウンロードできます。
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 
-アップロードすると、ファームウェアを検証します。
+アップロード後、ファームウェアの検証が行われます。
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
 
-- **設定を保持**：このオプションを有効にすると、現にの設定が保持され、アップグレード完た後にユーザーインストールパッケージの再インストールを求めるプロンプトが表示されます。ファームウェアをダウングレートるときは、このオプションをチェックしないでください。
+- **Keep Settings:** このオプションを有効にすると、現在の設定が保持され、アップグレード完了後にユーザーがインストールしたパッケージの再インストールを求められます。ファームウェアをダウングレードするときは、このオプションをチェックしないでください。
 
-**インストール**をクリックしてアップグレードします。
+**Install** をクリックしてアップグレードします。
 
-## モジュールアップグレード
+## モデムアップグレード
 
-v4.4.12で降、GL.iNetモバイルルーターはウェブ管理パネル経由でモバイルモジュールアップグレードをサポートします。モバイルネットワークが失敗した場合、モバイルモジュールをアップグレードしてみてください。
+GL.iNet のセルラールーターでは、Web管理パネルからセルラーモデムのファームウェアをアップグレードできます。
+
+セルラーネットワークが接続できない、または不安定な場合は、セルラーモジュールのアップグレードを試すことができます。モデムのアップグレードを実行する前に、まず技術サポートへ連絡してトラブルシューティングすることをおすすめします。
 
 ### オンラインアップグレード
 
-現にのモバイルモジュールバージョンはここにあります。ルーターがインターネットに接続されている場合、自動的に製造元のサーバーから最も新バージョンを直接確認し、アップデートプロセスを簡素化します。
+ここで現在のセルラーモデムのバージョンを確認できます。ルーターがインターネットに接続されていれば、メーカーのサーバーから最新のセルラーモデムバージョンを自動で確認し、更新作業を簡単に行えます。
 
-![module online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/module_online_upgrade.png){class="glboxshadow"}
+![modem online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
 
 ### ローカルアップグレード
 
-必要に応じて、コンピューターからモジュールファイルをアップロードして4G/5Gモジュールをアップデートできます。
+必要に応じて、コンピューターからモデムのファームウェアファイルを手動でアップロードしてセルラーモデムを更新できます。
 
-![module local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/module_local_upgrade.png){class="glboxshadow"}
+![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
 ---
 
-まだご質問はありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

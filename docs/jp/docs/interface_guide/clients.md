@@ -1,16 +1,16 @@
 # クライアント
 
-Web 管理パネルの左側 -> クライアント
+Web 管理パネルの左側で、**CLIENTS** に移動します。
 
-クライアントページには、デバイス名、接続タイプ、IPアドレス、MACアドレス、速度、トラフィックなど、接続されているデバイスに関する情報が表示されます（左から右に設定）。
+Clients ページには、接続されているデバイスのデバイス名、接続タイプ、IP アドレス、MAC アドレス、速度、トラフィックが左から右の順に表示されます。
 
 ## デバイス名
 
-最も初の列には、デバイス名とデバイスタイプが表示されます。これはデバイスのホスト名によって異なります。
+1列目には、デバイス名とデバイスタイプが表示されます。これはデバイスの使用者が設定したホスト名によって異なります。
 
 ![device name](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/device_name.png){class="glboxshadow"}
 
-デバイス名とタイプを変更するには、アクション列の三時アイコンをクリックし、プルダウンメニューで**変更**をクリックします。
+デバイス名とタイプを変更するには、Action 列の三点アイコンをクリックし、ドロップダウンメニューで **Modify** をクリックします。
 
 ![modify](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify.png){class="glboxshadow"}
 
@@ -18,130 +18,130 @@ Web 管理パネルの左側 -> クライアント
 
 ## 接続タイプ
 
-デバイス名の右側にある青いアイコンは、デバイスの接続タイプ/接続方法を表しています。
+デバイス名の右側にある青いアイコンは、そのデバイスの接続タイプ/接続方法を表します。
 
-デバイスがWi-Fiか有線LANでネットワークに接続されているかを示します。
+Wi-Fi またはイーサネットケーブルのどちらでネットワークに接続されているかを示します。
 
 ![connection type](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/connection_type.png){class="glboxshadow"}
 
-## IPとMACアドレス
+## IP アドレスと MAC アドレス
 
-2番目の列には、接続されているデバイスのIPアドレスとMACアドレスが表示されます。
+2列目には、接続されているデバイスの IP アドレスと MAC アドレスが表示されます。
 
 ![ip and mac](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ip_mac.png){class="glboxshadow"}
 
-多くのデバイスはランダム化されたMACアドレスを使用します。接続されたデバイスがランダム化されたMACアドレスを使用している場合、以下のプロンプトが表示されます。
+多くのデバイスはランダム化された MAC アドレスを使用します。接続中のデバイスがランダム化 MAC アドレスを使用している場合は、次のプロンプトが表示されます。
 
 ![random mac prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/randomized_mac.png){class="glboxshadow"}
 
-**注意**: ここでのルールは、MACアドレスの2番目の文字が2、6、A、またはE（大文字と小文字を区別しない）の場合、ランダム化されたMACアドレスとみなされます。ただし、デバイスによっては異なるルールを使用してランダム化されたMACアドレスを生成する場合があるため、この検出方法は正確ではない可能性があります。
+**注意**: ここでの判定ルールは、MAC アドレスの2文字目が 2、6、A、E のいずれか（大文字小文字を区別しない）であれば、ランダム化 MAC アドレスとみなすというものです。ただし、一部デバイスでは別のルールでランダム化 MAC アドレスを生成するため、この検出方法が正確でない場合があります。
 
 ## 速度
 
-3番目の列には、接続されているデバイスのインターネット速度が表示されます。
+3列目には、接続されているデバイスのインターネット速度が表示されます。
 
 ![speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/speed.png){class="glboxshadow"}
 
-ここでの速度は3分間の平均速度です。
+ここで表示される速度は、3分間の平均速度です。
 
-- 現にのページを10秒間開くと、過去10秒間の平均速度が表示されます。
-- 現にのページを30秒間開くと、過去30秒間の平均速度が表示されます。
-- 現にのページを60秒間開くと、過去60秒間の平均速度が表示されます。
-- 現にのページを3分間開くと、過去3分間の平均レートが表示されます。
-- 現にのページを10分間開くと、過去3分間の平均レートが表示されます。
+- 現在のページを 10 秒間開くと、直近 10 秒間の平均速度が表示されます。
+- 現在のページを 30 秒間開くと、直近 30 秒間の平均速度が表示されます。
+- 現在のページを 60 秒間開くと、直近 60 秒間の平均速度が表示されます。
+- 現在のページを 3 分間開くと、直近 3 分間の平均速度が表示されます。
+- 現在のページを 10 分間開いても、直近 3 分間の平均速度が表示されます。
 
 ## トラフィック
 
-4番目の列には、接続されているデバイスのインターネットトラフィックが表示されます。
+4列目には、接続されているデバイスのインターネットトラフィックが表示されます。
 
 ![traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic.png){class="glboxshadow"}
 
-## 予約IP
+## IP予約
 
-5番目の列では、クリックだけで特定の接続済みデバイスのIPアドレスを予約できます。
+5列目では、ワンクリックで特定の接続済みデバイスに IP アドレスを予約できます。
 
-この機能はv4.8で降で利用可能です。
+この機能は v4.8 以降で利用できます。
 
-LAN内のクライアントに予約IPアドレスを指定すると、そのクライアントはルーターのDHCPサーバーにアクセスするたびに同じIPアドレスを受け取るようになります。
+LAN 内のクライアントに予約 IP アドレスを指定すると、そのクライアントはルーターの DHCP サーバーにアクセスするたびに、常に同じ IP アドレスを受け取ります。
 
-永続のなIP設定が必要なコンピュータやサーバーに予約IPアドレスを割り当てることができます。
+固定 IP 設定が必要なコンピューターやサーバーに、予約 IP アドレスを割り当てることができます。
 
 ![reserved ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/reserved_ip.png){class="glboxshadow"}
 
-## ブロックリスト {#blocklist}
+## Blocklist {#blocklist}
 
-6番目の列では、クリックだけで特定の接続済みデバイスをブロックできます。
+6列目では、ワンクリックで特定の接続済みデバイスをブロックできます。
 
-アクセス制御ルールはデフォルトでブロックリストとなっており、必要に応じて上部でホワイトリストに切り替えできます。
+アクセス制御ルールはデフォルトで Blocklist に設定されており、必要に応じて上部から Allowlist に切り替えられます。
 
 ![blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist.jpg){class="glboxshadow"}
 
 ![access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_allowlist.jpg){class="glboxshadow"}
 
-- **ブロックリスト**: ブロックリストにあるMACアドレスを持つデバイスは、このルーターへの接続が許可されません。
+- **Blocklist**: Blocklist に登録された MAC アドレスを持つデバイスは、このルーターへ接続できません。
 
-- **ホワイトリスト**: 特定のMACアドレスを持つデバイスのみが接続を許可され、IoTデバイスや企業ネットワーク管理に適しています。
+- **Allowlist**: 指定した MAC アドレスを持つデバイスだけが接続を許可されます。IoT デバイスや企業ネットワークの管理に適しています。
 
-ブロックリストを作成するには、**(1)** でExcel形式のブロックリストをアップロードするか、**(2)** でMACアドレスを手動で入力できます。
+Blocklist を作成するには、**(1)** で Excel 形式のブロックリストをアップロードするか、**(2)** で MAC アドレスを手動入力します。
 
 ![create blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/create_blocklist.png){class="glboxshadow"}
 
-**方法1. クライアントをインポート**
+**方法1. Import Clients**
 
-アクセス制御ページで、**クライアントをインポート**をクリックします。
+Access Control ページで、**Import Clients** をクリックします。
 
 ![import clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/import_clients.png){class="glboxshadow"}
 
-**インポートテンプレートをダウンロード**をクリックし、"mac-template.csv"という名前のXLSワークシートをダウンロードします。
+**Download Import Template** をクリックすると、"mac-template.csv" という名前の XLS ワークシートがダウンロードされます。
 
 ![download template](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/download_template.png){class="glboxshadow"}
 
-ファイルを開き、MACアドレスをインポートして保存します。
+ファイルを開き、MAC アドレスを入力して保存します。
 
 ![import csv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/importcsv.jpg){class="glboxshadow gl-80-desktop"}
 
-保存したファイルを選択するか、ドラッグしてアップロード領域にドロップします。
+保存したファイルを選択するか、アップロードエリアへドラッグします。
 
 ![upload csv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/dragcsv.jpg){class="glboxshadow gl-80-desktop"}
 
-アップロードが成功したら、**インポート**をクリックしてMACアドレスの一括インポートを完たします。
+アップロードに成功したら、**Import** をクリックして MAC アドレスの一括インポートを完了します。
 
 ![upload successful](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/upload_successful.png){class="glboxshadow"}
 
 **方法2. 手動入力**
 
-アクセス制御ページで、ブロックしたいデバイスのMACアドレスを手動で入力し、**適用**をクリックします。
+Access Control ページで、ブロックしたいデバイスの MAC アドレスを手動入力し、**Apply** をクリックします。
 
 ![input mac manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/input_mac_manually.png){class="glboxshadow"}
 
-**注意**: クライアントのブロックはデバイスのMACアドレスに基づいています。ブロックされたデバイスが次回異なるMACアドレスを使用した場合でも、ルーターに接続できる可能性があります。
+**注意**: クライアントのブロックはデバイスの MAC アドレスに基づきます。ブロックされたデバイスが次回別の MAC アドレスを使用した場合、再びルーターへ接続できる可能性があります。
 
-## 並べ替え
+## Sort
 
-現にの並べ替えタイプは右上に表示され、彼の並べ替えタイプに切り替えできます。
+現在の並べ替えタイプは右上に表示され、他の並べ替えタイプへ切り替えることもできます。
 
-デフォルトの並べ替えタイプは次の通りです：
+デフォルトの並べ替えルールは次のとおりです。
 
-- から分のデバイスは常に一番上に表示されます。
-- オンラインクライアントセクションでは、デバイスが後から接続なるほど、リストの上位に 設定されます。
+- 自分のデバイスは常に最上部に表示されます。
+- オンラインクライアントセクションでは、後から接続されたデバイスほど上に表示されます。
 
 ![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.png){class="glboxshadow"}
 
-## アクション
+## Action
 
-### クライアントの詳細
+### クライアント詳細
 
-クライアントデバイスの詳細を表示する必要がある場合は、最もも右にあるアクション列の三時アイコンをクリックし、プルダウンメニューで**詳細を表示**をクリックします。
+クライアントデバイスの詳細を表示したい場合は、右端の Action 列にある三点アイコンをクリックし、ドロップダウンメニューで **View Details** をクリックします。
 
 ![view details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/details.png){class="glboxshadow"}
 
-開いたサブページでクライアントデバイスのすべての情報（該当する場合はデバイスのすべてのIPv6アドレスを含む）を確認できます。
+開いたサブページでは、該当する場合はすべての IPv6 アドレスを含め、クライアントデバイスのすべての情報を確認できます。
 
 ![client details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
 
-### 変更
+### Modify
 
-アクション列の三時アイコンをクリックし、プルダウンメニューで**変更**をクリックします。
+Action 列の三点アイコンをクリックし、ドロップダウンメニューで **Modify** をクリックします。
 
 ![modify](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify.png){class="glboxshadow"}
 
@@ -149,34 +149,34 @@ LAN内のクライアントに予約IPアドレスを指定すると、そのク
 
 ### 速度制限
 
-アクション列の三時アイコンをクリックし、プルダウンメニューで**速度制限**をクリックします。
+Action 列の三点アイコンをクリックし、ドロップダウンメニューで **Limit Speed** をクリックします。
 
 ![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.png){class="glboxshadow"}
 
 ![limit speed settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
-速度制限が適用されているクライアントの場合、速度の上矢印と下矢印が黄色に変わります。
+速度制限が適用されているクライアントでは、速度表示の上矢印と下矢印が黄色になります。
 
 ![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.jpg){class="glboxshadow"}
 
-アクション列の三時アイコンをクリックして速度制限を無効にします。
+速度制限を無効にするには、Action 列の三点アイコンをクリックします。
 
-### VPNトンネルの使用
+### VPNトンネルを使用
 
-**注意**: このオプションはファームウェアv4.8で降で利用可能で、MACベースのポリシーが設定されている場合にのみアクションメニューに表示されます。
+**注意**: このオプションはファームウェア v4.8 以降で利用でき、MAC ベースのポリシーが設定されている場合にのみ Action メニューへ表示されます。
 
-MACベースのポリシーでクライアントをVPNトンネルリストに追加します。トンネルの詳細を調全体する必要がある場合は、管理のためにVPNダッシュボードに移動してください。
+MAC ベースのポリシーを使用してクライアントを VPN トンネルリストに追加します。トンネルの詳細設定を行う場合は、VPN ダッシュボードに移動して管理してください。
 
 ![use vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
 
 ## オフラインクライアントの削除
 
-オフラインクライアントセクションで、右上の**すべて削除**をクリックしてすべてのオフラインクライアントを削除できます。
+オフラインクライアントセクションでは、右上の **Delete All** をクリックすると、すべてのオフラインクライアントを削除できます。
 
-特定のクライアントを削除したい場合は、アクション列の三時アイコンをクリックし、プルダウンメニューで**クライアントを削除**をクリックします。
+特定のクライアントだけを削除したい場合は、Action 列の三点アイコンをクリックし、ドロップダウンメニューで **Remove Client** をクリックします。
 
 ![remove offline clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_offline.png){class="glboxshadow"}
 
 ---
 
-まだご質問はありますか？ [コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がありましたら、[コミュニティ・フォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご利用ください。

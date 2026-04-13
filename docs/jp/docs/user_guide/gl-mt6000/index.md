@@ -1,275 +1,366 @@
 # Flint 2 (GL-MT6000) ユーザーガイド
 
-## ハードウェア情報
+## 製品概要
 
-Flint 2 (GL-MT6000) は、高負荷のデータ転送、大量のデバイス接続、超低遅延ゲーム環境に最も適な Wi-Fi 6 ホーム/オフィスルーターです。Flint 2は最大900Mbpsの高速WireGuard VPNを提供します。さらに、マルチWAN、フェイルオーバー、ロードバランスなどの高度なネットワーク冗長化機能により、中断のないネットワークを実現します。
+Flint 2 (GL-MT6000) は、大容量データ通信、多数のデバイス接続、または超低遅延のゲーム環境に最適な Wi-Fi 6 対応の家庭・オフィス向けルーターです。Flint 2 は最大 900Mbps の高速 WireGuard VPN を提供します。また、マルチWAN、フェイルオーバー、ロードバランスなどの高度なネットワーク冗長化機能により、途切れのないネットワーク接続を実現します。
 
 ![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
 
----
+## 同梱物
 
-### 仕様
-
-[GL-MT6000 仕様](https://www.gl-inet.com/products/gl-mt6000/#specs){target="_blank"}
-
-<!-- ---
-
-### PCB Pinout
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_pinout.jpg" itemprop="contentUrl" data-size="1200x940">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_pinout.jpg" itemprop="thumbnail" alt="gl-mt6000 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div> -->
-
----
-
-## 初回設定
-
-GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットアッププロセスを持っています。 [初回セットアップについてはここをクリックしてください](../../faq/first_time_setup.md/)。
-
-パッケージ内のアダプターは配送国によって異なることにご注意してください。
-
-パッケージの中には何が入っていますか？
+- 1 x Flint 2 (GL-MT6000)
+- 1 x ユーザーマニュアル
+- 1 x サンキューカード
+- 1 x イーサネットケーブル
+- 1 x 電源アダプター
+- 1 x 変換プラグ（配送先の国に応じた仕様）
 
 ![gl-mt6000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/first_time_setup/gl-mt6000_unboxing.jpg){class="glboxshadow"}
 
-パッケージコンテンツ：
+以下の Flint 2 の開封動画をご覧ください。
 
-- 1 x GL-MT6000 ルーター
-- 1 x 電源アダプター 
-- 1 x イーサネットケーブル
-- 1 x ユーザーマニュアル & 保証書
-- 1 x 変換プラグ
-- 1 x サンキューカード
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ru1O-zxKgKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!-- Check out Flint 2's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-mt6000flint2). -->
+## Flint 2 のセットアップ方法
 
----
+セットアップ動画を見るか、以下の手順に従ってください。
 
-## インターネット
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<small>（この動画では別の GL.iNet ルーターを使ってセットアップを説明していますが、手順は Flint 2 やその他のルーターモデルでも同じです。）</small>
 
-インターネット設定画面では、ルーターがサポートしてるインターネット接続タイプを選択できます。
+### 1. 電源を入れる
 
-ルータのWeb管理パネル内のサイドメニューで**インターネット**を選択して、インターネットネットワークを設定します。
+2 ピース構成の電源アダプターを組み立ててルーターに接続し、コンセントに差し込みます。自動的に起動します。
 
-インターネットへの接続は以下の4つの方法がサポートされています:
+### 2. デバイスを接続する
 
-### イーサネット
+デバイス（例: コンピューター、ノート PC、スマートフォン）を Wi-Fi またはイーサネットでルーターに接続します。
 
-イーサネットケーブルを利用して、ルータをアクティブモデムまたはアクティブネットワークデバイスに接続してデータを転送します。この方法は通例、最もも高速で信頼性の高いインターネット接続を提供します。
+- イーサネット
 
-[イーサネット ケーブル経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_ethernet.md)
+    イーサネットケーブルを使用して、デバイスをルーターの LAN ポートに接続します。
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_ethernet.png){class="glboxshadow"}
+- Wi-Fi
 
-### リピーター
+    デバイスで **設定** → **WLAN** を開き、利用可能なネットワーク一覧からルーターの Wi-Fi 名を見つけてパスワードを入力し、ネットワークに参加します。初期のネットワーク名とパスワードはルーター本体のラベルに記載されています。
 
-ルーターを使用して範囲内で無線シグナルを受信し、そのシグナルをより遠くへ転送することで、既存のWi-FiネットワークのWi-Fiカバーエリアを拡大します。この方法は、単一のルーターでは使用エリア全体をカバーするのに非常にな範囲が確保できない場合に最もも有効です。
+### 3. Web管理パネルにログインする
 
-[既存の Wi-Fi 経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_repeater.md)
+Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力してログインします。言語を選択し、管理者パスワードを設定してから **Apply** をクリックします。
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_repeater.png){class="glboxshadow"}
+Wi-Fi 情報を変更した場合は、更新された認証情報を使用してルーターの Wi-Fi に再接続する必要があります。
 
-### テザリング
+### 4. インターネット設定
 
-スマートフォンの通信データをケーブル経由でルーターと共有し、接続デバイスとのインターネット接続を確立します。この方法は、スマートフォンのデータを使ってインターネットにアクセスしたい場合に便利です。
+**注意：** 以下の手順は GL.iNet Web管理パネルを使用して設定するユーザー向けです。GL.iNet アプリをご利用の場合は、[アプリをダウンロード](https://www.gl-inet.com/app/){target="_blank"}して画面の指示に従ってください。
 
-[USBテザリング経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_tethering.md)
+Flint 2 のインターネット接続方法（イーサネット、リピーター、テザリング、セルラー）のいずれかを設定します。[マルチWAN](../../interface_guide/multi-wan.md) 機能を使用する場合は、複数のインターネット接続を設定してください。
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_tethering.png){class="glboxshadow"}
+=== "イーサネット"
 
-### セルラー
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_ethernet.png){class="glboxshadow"}
 
-セルラー対応のUSBモデムをルーターのUSBポートに挿入して、ルーターをインターネットに接続します。この方法は、USBモデムからすべての接続デバイスにインターネットアクセスを共有する場合に最もも役立ちます。
+    ルーターの WAN ポートとモデムなどの上流デバイスをイーサネットケーブルで接続します。
 
-[USBモデム経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_cellular.md)
+    インターネットへの接続に成功すると、INTERNET ページのイーサネットセクションに緑のドットが表示されます。
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_cellular.png){class="glboxshadow"}
+    詳細については[イーサネットケーブルでインターネットに接続する方法](../../interface_guide/internet_ethernet.md)をご参照ください。
 
-### 優先順位とロードバランス
+=== "リピーター"
 
-[マルチWAN](../../interface_guide/multi-wan.md) では、各インターネットアクセス方式の優先順位や、複数のインターネットアクセス方式を同時に使用する場合のロードバランスを設定します。
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_repeater.png){class="glboxshadow"}
 
----
+    1. Web管理パネルの INTERNET ページでリピーターセクションを見つけ、**Connect** をクリックします。
+    2. 利用可能なネットワークから Wi-Fi ネットワークを選択します。
+    3. パスワードを入力し、**Apply** をクリックします。
 
-## ワイヤレス
+    インターネットへの接続に成功すると、INTERNET ページのリピーターセクションに緑のドットが表示されます。
 
-ワイヤレス設定では、ユーザーはプライマリ Wi-Fi とゲスト Wi-Fi のネットワーク セキュリティを管理することができます。サイド メニューの **ワイヤレス** に移動するとアクセスできます。
+    詳細については[既存の Wi-Fi ネットワーク経由でインターネットに接続する方法](../../interface_guide/internet_repeater.md)をご参照ください。
 
-[ワイヤレス設定の詳細については、こちらをクリックしてください](../../interface_guide/wireless.md)
+=== "テザリング"
 
----
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_tethering.png){class="glboxshadow"}
 
-## クライアント
+    1. USB ケーブルを使用してモバイルデバイス（スマートフォンや USB ドングルなど）をルーターの USB ポートに接続します。
+    2. モバイルデバイスの設定で USB テザリングを有効にします。
+    3. Web管理パネルの INTERNET ページで、テザリングセクションの **Connect** をクリックします。
 
-クライアントはルーターに接続されているデバイスで あり、クライアントをブロックしたり、ネットワーク速度を制限したりすることができます。このインターフェイスには、ルーターの管理パネルのサイドメニューにある **クライアント** をクリックしてアクセスできます。
+    インターネットへの接続に成功すると、INTERNET ページのテザリングセクションに緑のドットが表示されます。
 
-[デバイスクライアントの管理については、こちらをクリックしてください。](../../interface_guide/clients.md)
+    詳細については[USB テザリング経由でインターネットに接続する方法](../../interface_guide/internet_tethering.md)をご参照ください。
 
----
+=== "セルラー"
 
-## VPN
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_cellular.png){class="glboxshadow"}
 
-GL.iNetルーターには、30以上のVPNサービスをサポートするOpenVPNとWireGuard®がプリインストールされています。これは、ゲストデバイスやVPN暗号化を実行できないクライアントデバイスを含め、接続されたネットワーク内のすべてのネットワークトラフィックを自動的に暗号化します。また、当社のルーターはVPNサーバーとしても機能し、パブリックのインターネットにアクセスする前に、遠隔にあるクライアントデバイスからのトラフィックをVPNトンネル経由でVPNサーバーにリダイレクトします。
+    セルラー対応の USB モデムをルーターの USB ポートに挿入します。USB モデムのインターネットを接続された全デバイスで共有する場合に便利です。
 
-### VPN ダッシュボード
+    インターネットへの接続に成功すると、INTERNET ページのセルラーセクションに緑のドットが表示されます。
 
-- [**VPN ダッシュボード**](../../interface_guide/vpn_dashboard.md)
-
-### OpenVPN
-
-セットアップの手順については、以下のリンクをご参照ください：
-
-- [**Setup OpenVPN クライアント**](../../interface_guide/openvpn_client.md)
-- [**Setup OpenVPN サーバー**](../../interface_guide/openvpn_server.md)
-
-### WireGuard
-
-セットアップの手順については、以下のリンクをご参照ください：
-
-- [**Setup WireGuard クライアント**](../../interface_guide/wireguard_client.md)
-- [**Setup WireGuard サーバー**](../../interface_guide/wireguard_server.md)
-
-### Tor
-
-- [**Tor**](../../interface_guide/tor.md)
+    詳細については[セルラー経由でインターネットに接続する方法](../../interface_guide/internet_cellular.md)をご参照ください。
 
 ---
+
+## VPN のセットアップ方法
+
+VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全な暗号化トラフィックを作成します。プライバシーとセキュリティの追加レイヤー（VPN クライアント）を提供し、リモートネットワークへのアクセス（VPN サーバー）を可能にします。Flint 2（およびその他の GL.iNet ルーター）は OpenVPN と WireGuard をサポートしており、さらに Tor もサポートしています。
+
+=== "OpenVPN"
+
+    Flint 2（およびその他の GL.iNet ルーター）は、強固なセキュリティを提供する OpenVPN プロトコルをサポートしています。OpenVPN のセットアップには以下のチュートリアルに従ってください：
+
+    * [OpenVPN クライアントのセットアップ方法](../../interface_guide/openvpn_client.md)
+    * [OpenVPN サーバーのセットアップ方法](../../interface_guide/openvpn_server.md)
+
+=== "WireGuard"
+
+    Flint 2（およびその他の GL.iNet ルーター）は、高速で使いやすい WireGuard プロトコルをサポートしています。WireGuard のセットアップには以下のチュートリアルに従ってください：
+
+    * [WireGuard クライアントのセットアップ方法](../../interface_guide/wireguard_client.md)
+    * [WireGuard サーバーのセットアップ方法](../../interface_guide/wireguard_server.md)
+
+=== "Tor"
+
+    Tor（The Onion Router）は、インターネット上で匿名通信を可能にするプライバシー重視のネットワークです。ボランティアが運営するサーバー（ノード）を介してトラフィックをルーティングし、ユーザーの位置情報や利用状況を難読化することで、オンラインアクティビティの追跡を困難にします。
+
+    * [Tor のセットアップ方法](../../interface_guide/tor.md)
+
+## ワイヤレスとクライアント
+
+=== "ワイヤレス"
+
+    ワイヤレスページでは、5 GHz および 2.4 GHz Wi-Fi ネットワークの設定（Wi-Fi の有効/無効、送信電力、SSID、ランダム BSSID、セキュリティモード、パスワード、SSID 公開設定、Wi-Fi モード、帯域幅、チャンネル）を行えます。
+
+    ワイヤレスの設定については[ワイヤレス](../../interface_guide/wireless.md)をご参照ください。
+
+=== "クライアント"
+
+    クライアントページには、接続されたデバイスの情報（デバイス名、接続タイプ、IP アドレスと MAC アドレス、ダウンロード/アップロード速度、総トラフィック）が表示されます。IP の予約やクライアントのブロックなどの操作も行えます。
+
+    クライアントの設定については[クライアント](../../interface_guide/clients.md)をご参照ください。
+
+## クラウドサービス
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} サービスは、GL.iNet ルーターにリモートアクセスして管理するための簡単な方法を提供します。
+
+    GoodCloud の設定については[GoodCloud](../../interface_guide/cloud.md)をご参照ください。
+
+=== "AstroWarp"
+
+    AstroWarp は、シームレスなリモートネットワーキングとリモートデバイス管理を提供する高度なネットワーキングプラットフォームです。GL.iNet ルーターとの統合専用に構築されており、ネットワーク全体にわたる包括的なデバイス管理をサポートし、上位・下位デバイスの制御を実現します。デバイス管理と安全で安定したネットワーク維持のための堅牢なソリューションです。
+
+    AstroWarp の設定については[AstroWarp](../../interface_guide/astrowarp.md)をご参照ください。
 
 ## アプリケーション
 
-GL.iNetルーターには、デバイス管理の簡素化、ユーザーのインターネット体験の向上、ファームウェアアップデートのから動化など、幅広いアドオン機能が含まれています。
+=== "プラグイン"
 
-### プラグイン
+    プラグインは、既存のコンピュータープログラムに特定の機能を追加するソフトウェアコンポーネントで、機能のカスタマイズと拡張を可能にします。
 
-[**プラグイン**](../../interface_guide/plugins.md)チュートリアルにアクセスしてください。
+    プラグインの設定については[プラグイン](../../interface_guide/plugins.md)をご参照ください。
 
-### ダイナミックDNS
+=== "ダイナミック DNS"
 
- [**ダイナミックDNS**](../../interface_guide/ddns.md)チュートリアルにアクセスしてください。
+    ダイナミック DNS（DDNS）は、ドメインに関連付けられた IP アドレスをリアルタイムで自動的に検出・更新します。静的 IP アドレスが必要なリモートネットワークアクセスのユーザーに便利です。
 
-### GoodCloud
+    ダイナミック DNS の設定については[ダイナミック DNS](../../interface_guide/ddns.md)をご参照ください。
 
- [**GoodCloud**](../../interface_guide/cloud.md)チュートリアルにアクセスしてください。
+=== "ネットワークストレージ"
 
-### ネットワークストレージ
+    ネットワークストレージとは、複数のユーザーやデバイスがネットワーク経由でファイルにアクセス・共有できる集中型データストレージソリューションです。
 
- [**ネットワークストレージ**](../../interface_guide/network_storage.md)チュートリアルにアクセスしてください。
+    ネットワークストレージの設定については[ネットワークストレージ](../../interface_guide/network_storage.md)をご参照ください。
 
-### AdGuard Home
+=== "AdGuard Home"
 
- [**AdGuard Home**](../../interface_guide/adguardhome.md)チュートリアルにアクセスしてください。
+    AdGuard Home は、ネットワーク全体の広告・トラッカーブロックソリューションです。DNS サーバーとして機能し、ホームネットワークに接続された全デバイスの不要なコンテンツをフィルタリングします。
 
-### ペアレンタルコントロール
-
- [**ペアレンタルコントロール**](../../interface_guide/parental_control.md)チュートリアルにアクセスしてください。
-
-### ZeroTier
-
- [**ZeroTier**](../../interface_guide/zerotier.md)チュートリアルにアクセスしてください。
-
-### Tailscale
-
- [**Tailscale**](../../interface_guide/tailscale.md)チュートリアルにアクセスしてください。
+    AdGuard Home の設定については[AdGuard Home](../../interface_guide/adguardhome.md)をご参照ください。
 
 ---
 
-## ネットワーク
+=== "ペアレンタルコントロール"
 
-### ファイアウォール
+    ペアレンタルコントロールは、お子様のデバイスを管理・制御するために設計された機能で、スクリーンタイムの制限や特定コンテンツへのアクセス制限が含まれます。
 
-GL.iNetのルーターは、安全な接続とユーザーによる完全な監視を保証するため、複数のファイヤーウォール機能を備えています。ポート転送、オープンポート、DMZなどのファイアウォールルールを設定することができます。
+    Flint 2 では、GL.iNet 独自のローカル版と Bark による統合版の 2 つのペアレンタルコントロールオプションを提供しています。
 
-[GL.iNetルーターのファイアウォールについて詳しくはこちら](../../interface_guide/firewall.md)
+    ペアレンタルコントロールの設定については[ペアレンタルコントロール](../../interface_guide/parental_control.md)をご参照ください。
 
-### Multi-WAN
+=== "ZeroTier"
 
- [**Multi-WAN**](../../interface_guide/multi-wan.md)チュートリアルにアクセスしてください。
+    ZeroTier は、インターネット上で安全な仮想ネットワークを作成し、デバイスを同じローカルネットワーク上にあるかのように接続するソフトウェア定義ネットワーキングソリューションです。
 
-### LAN
+    ZeroTier の設定については[ZeroTier](../../interface_guide/zerotier.md)をご参照ください。
 
- [**LAN**](../../interface_guide/lan.md) チュートリアルにアクセスしてください。
+=== "Tailscale"
 
-### DNS
+    Tailscale は、どこからでもデバイスやアプリケーションにアクセスできる VPN サービスです。
 
- [**DNS**](../../interface_guide/dns.md) チュートリアルにアクセスしてください。
-
-### Network Mode
-
- [**Network Mode**](../../interface_guide/network_mode.md) チュートリアルにアクセスしてください。
-
-### IPv6
-
- [**IPv6**](../../interface_guide/ipv6.md) チュートリアルにアクセスしてください。
-
-### MACアドレス
-
-Mac アドレスページは、で前はMacクローンと呼ばれていましたが、v4.2からMacアドレスに変更されました。
-
- [**MACアドレス**](../../interface_guide/mac_address.md)チュートリアルにアクセスしてください。
-
-### ドロップイン・ゲートウェイ
-
- [**ドロップイン・ゲートウェイ**](../../interface_guide/drop-in_gateway.md) チュートリアルにアクセスしてください。
-
-### IGMPスヌーピング
-
- [**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルにアクセスしてください。
-
-### ネットワークアクセラレーション
-
-で前は[ハードウェア アクセラレーション](../../interface_guide/hardware_acceleration.md)と呼ばれていました。
-
-[**ネットワークアクセラレーション**](../../interface_guide/network_acceleration.md) チュートリアルにアクセスしてください。
-
-<!-- TODO -->
-<!-- ### Advanced Settings -->
+    Tailscale の設定については[Tailscale](../../interface_guide/tailscale.md)をご参照ください。
 
 ---
 
-## システム
+## ネットワーク設定
 
-### 概要
+=== "ポート転送"
 
- [**システム概要**](../../interface_guide/system_overview.md) チュートリアルにアクセスしてください。
+    ポート転送は、インターネット上のリモートサーバーやデバイスがプライベートネットワーク内のデバイスにアクセスできるようにします。
 
-### アップグレード
+    ポート転送の設定については[ポート転送](../../interface_guide/port_forwarding.md)をご参照ください。
 
-GL.iNet は、パフォーマンスをへ上させ、バグを解決し、脆弱性を修正するために、ルーターのファームウェアを定期のにアップデートします。
+=== "マルチWAN"
 
- [**アップグレード**](../../interface_guide/upgrade.md) チュートリアルにアクセスしてください。
+    マルチ WAN は、複数のインターネット接続（セルラー、リピーター、イーサネットなど）を同時に設定できるネットワーキング機能です。現在のインターネット接続が切断された場合、ルーターは自動的に別の接続に切り替えます。
 
-### スケジュールされたタスク
+    マルチ WAN の設定については[マルチWAN](../../interface_guide/multi-wan.md)をご参照ください。
 
- [**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルにアクセスしてください。
+=== "LAN"
 
-### 管理者パスワード
+    LAN（ローカルエリアネットワーク）は、家庭やオフィスなど限られたエリア内のコンピューターとデバイスを接続するネットワークです。高速なデータ転送とリソース共有を可能にします。
 
-この機能はv4.5から[**セキュリティ**](../../interface_guide/security.md) に移動されました。
+    LAN の設定については[LAN](../../interface_guide/lan.md)をご参照ください。
 
- [**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルにアクセスしてください。
+=== "ゲストネットワーク"
 
-### タイムゾーン
+    ゲストネットワークページでは、IPv4 プライベートアドレス範囲（192.168.0.0/16、172.16.0.0/12、10.0.0.0/8）内でサブネットを設定し、ゲートウェイとネットマスクの IP アドレスを指定し、AP アイソレーションなどのセキュリティ設定を行えます。
 
-  [**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルにアクセスしてください。
+    ゲストネットワークの設定については[ゲストネットワーク](../../interface_guide/guest_network.md)をご参照ください。
 
-### ログ
+---
 
- [**ログ**](../../interface_guide/log.md) チュートリアルにアクセスしてください。
+=== "DNS"
 
-### セキュリティ
+    DNS ページでは、カスタム DNS サーバーの設定、DNS リバインディング攻撃防護の有効化、全クライアントの DNS 設定の上書き、カスタム DNS による VPN DNS の上書き許可、および DNS サーバー設定モードの自動または手動設定が行えます。
 
-この機能はv4.5から利用可能です。
+    DNS の設定については[DNS](../../interface_guide/dns.md)をご参照ください。
 
- [**セキュリティ**](../../interface_guide/security.md) チュートリアルにアクセスしてください。
+=== "イーサネットポート"
 
-### ファームウェアをリセット
+    イーサネットポートページでは、WAN と LAN ポートの設定、WAN/LAN インターフェイスのイーサネット設定、WAN インターフェイスの MAC モードと MAC アドレスの指定、およびネットワークポートの交渉速度の確認が行えます。
 
- [**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルにアクセスしてください。
+    イーサネットポートの管理については[イーサネットポート](../../interface_guide/ethernet_port.md)をご参照ください。
 
-### 詳細設定
+=== "ネットワークモード"
 
- [**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルにアクセスしてください。
+    ネットワークモードは、デバイスのネットワーク接続方法と他デバイスとの通信方法を決定する設定です。
+
+    ネットワークモードの設定については[ネットワークモード](../../interface_guide/network_mode.md)をご参照ください。
+
+=== "IPv6"
+
+    IPv6（インターネットプロトコルバージョン 6）は IPv4 の後継として設計された最新のインターネットプロトコルです。大幅に広大なアドレス空間を提供し、インターネットに接続されるデバイスの増加に対応するための実質的に無制限のユニーク IP アドレスを可能にします。
+
+    IPv6 の設定については[IPv6](../../interface_guide/network_mode.md)をご参照ください。
+
+---
+
+=== "ドロップイン・ゲートウェイ"
+
+    ドロップイン・ゲートウェイは、AdGuard Home、暗号化 DNS、VPN など、メインルーターにない機能を拡張します。
+
+    ドロップイン・ゲートウェイの設定については[ドロップイン・ゲートウェイのセットアップ方法](../../tutorials/how_to_set_up_drop_in_gateway.md)をご参照ください。
+
+=== "IGMPスヌーピング"
+
+    IGMP スヌーピングは、イーサネットスイッチでマルチキャストトラフィックを管理・制御するために使用されるネットワーク最適化技術です。
+
+    IGMP スヌーピングの設定については[IGMPスヌーピング](../../interface_guide/igmp_snooping.md)をご参照ください。
+
+=== "ネットワークアクセラレーション"
+
+    ネットワークアクセラレーションは CPU 負荷を軽減し、トラフィックパケット転送を高速化します。
+
+    ネットワークアクセラレーションの設定については[ネットワークアクセラレーション](../../interface_guide/network_acceleration.md)をご参照ください。
+
+=== "NAT 設定"
+
+    NAT 設定ページでは、Full Cone NAT と SIP ALG（アプリケーション・レイヤー・ゲートウェイ）機能の有効/無効を設定できます。
+
+    NAT 設定については[NAT 設定](../../interface_guide/nat_settings.md)をご参照ください。
+
+---
+
+## システム設定
+
+=== "概要"
+
+    概要ページは、ルーターの現在の状態とパフォーマンスの包括的なスナップショットを提供します。このページでは以下を確認できます：
+
+    * CPU 平均負荷：ルーターの CPU 平均負荷を監視し、パフォーマンスの評価とボトルネックの特定に役立ちます。
+    * メモリ使用量：ルーターのメモリ使用量を確認し、リソース管理を支援します。
+    * LED 制御：ルーターの LED ライトのオン/オフを切り替え、視覚的インジケーターをカスタマイズします。
+    * フラッシュ使用量：ルーターのフラッシュストレージの使用状況を確認し、十分な容量を確保します。
+    * デバイス情報：稼働時間、ホスト名、モデル、アーキテクチャ、OpenWrt バージョン、カーネルバージョン、デバイス ID、デバイス MAC、デバイス S/N などのシステム詳細情報にアクセスできます。
+    * 外部ストレージ：USB ドライブや TF カードなど、ルーターに接続された外部ストレージデバイスの状態を確認できます。
+
+    詳細については[概要](../../interface_guide/system_overview.md)をご参照ください。
+
+=== "アップグレード"
+
+    アップグレードページは、ルーターのファームウェアを最新バージョンに更新するために使用します。以下の 2 つのアップグレードオプションを提供しています：
+
+    * ファームウェアオンラインアップグレード：メーカーのサーバーから直接最新ファームウェアを自動的に確認してインストールします。
+    * ファームウェアローカルアップグレード：コンピューターからファームウェアファイルを手動でアップロードしてルーターを更新します。
+
+    詳細については[アップグレード](../../interface_guide/upgrade.md)をご参照ください。
+
+=== "スケジュールされたタスク"
+
+    スケジュールされたタスクページでは、事前に定義されたスケジュールに基づいてルーター機能を自動化できます。主な機能は以下のとおりです：
+
+    * LED ディスプレイスケジュール：特定の時間帯にルーターの LED ライトを自動的にオン/オフにするスケジュールを設定します。
+    * スケジュール再起動：指定した間隔でルーターを自動的に再起動するよう設定します。
+    * 5GHz / 2.4GHz Wi-Fi ステータススケジュール：5GHz / 2.4GHz Wi-Fi バンドを制御するスケジュールを設定し、ネットワークの可用性と消費電力を管理します。
+
+    詳細については[スケジュールされたタスク](../../interface_guide/scheduled_tasks.md)をご参照ください。
+
+---
+
+=== "タイムゾーン"
+
+    タイムゾーンページでは、ルーターの正しいタイムゾーンを設定し、すべてのスケジュールされたタスク、ログ、システムイベントが現地時間に合わせて正確にタイムスタンプされるようにします。
+
+    詳細については[タイムゾーン](../../interface_guide/time_zone.md)をご参照ください。
+
+=== "ログ"
+
+    ログページでは、ルーターのアクティビティとイベントを記録するさまざまなログにアクセスでき、トラブルシューティングとパフォーマンス監視に役立ちます。このページには以下が含まれます：
+
+    * システムログ：システムレベルのイベントとアクティビティの詳細なログ。
+    * カーネルログ：カーネルの動作とイベントに関連するログ。
+    * クラッシュログ：重大な問題の診断に役立つシステムクラッシュとエラーの記録。
+    * クラウドログ：ルーターに統合された GoodCloud サービスに関連するログ。
+    * Nginx ログ：Nginx Web サーバーのログ（Web トラフィックとサーバー動作の詳細）。
+
+    ログのエクスポートボタンにより、テクニカルサポート分析のためにすべてのログをエクスポートできます。
+
+    詳細については[ログ](../../interface_guide/log.md)をご参照ください。
+
+---
+
+=== "セキュリティ"
+
+    セキュリティページでは、ネットワークとルーターを不正アクセスから保護するためのさまざまなセキュリティ設定を行えます。このページには以下のオプションが含まれます：
+
+    * 管理者パスワード：認証されたユーザーのみが設定を変更できるよう、ルーターの管理インターフェイスのパスワードを設定または変更します。
+    * ローカルアクセス制御：ローカルネットワークに接続されたデバイスからのルーターインターフェイスへのアクセスを管理・制限します。
+    * リモートアクセス制御：インターネット経由のリモートロケーションからのルーターインターフェイスへのアクセスを設定・制限します。
+    * ルーターのオープンポート：ルーター上のオープンポートを制御し、潜在的な脆弱性と不正アクセスを制限します。
+
+    詳細については[セキュリティ](../../interface_guide/security.md)をご参照ください。
+
+=== "ファームウェアのリセット"
+
+    ファームウェアのリセットページでは、ルーターの現在のファームウェアバージョンをデフォルト設定にリセットし、すべてのカスタム設定を消去できます。このプロセスにより、現在インストールされているファームウェアのデフォルト設定にルーターが復元されます。
+
+    詳細については[ファームウェアのリセット](../../interface_guide/reset_firmware.md)をご参照ください。
+
+=== "詳細設定"
+
+    詳細設定ページでは、OpenWrt LuCI インターフェイスを通じて高度な設定オプションにアクセスでき、上級ユーザーがルーターの設定と機能を細かく調整できます。詳細なネットワーク設定、ファイアウォール設定、その他の高度なシステムカスタマイズが含まれます。
+
+    詳細については[詳細設定](../../interface_guide/advanced_settings.md)をご参照ください。

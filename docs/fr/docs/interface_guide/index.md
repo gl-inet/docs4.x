@@ -79,7 +79,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 
 ## Contrôle du trafic
 
-* [Licence DPI](dpi_license.md)
+* [DPI Engine](dpi_engine.md)
 * [Statistiques des données](data_statistics.md)
 * [Filtre de contenu](content_filter.md)
 * [QoS (Quality of Service)](qos.md)

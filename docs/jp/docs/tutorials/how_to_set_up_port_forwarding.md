@@ -1,66 +1,64 @@
-# プライマリルーターでポート転送を設定する方法
+# メインルーターでポートフォワーディングを設定する方法
 
-GL.iNetルーターでサーバー（[OpenVPNサーバー](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_openvpn_home_server_with_two_glrouter/)や[WireGuardサーバー](https://docs.gl-inet.com/router/en/4/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers/)など）を設定し、それがプライマリルーターに接続されている場合、プライマリルーターでポート転送を設定する必要があります。こうすることで、サーバーが適切にアクセス可能になります。（プライマリルーターとGL.iNetルーターの間に彼のルーターがある場合、これらの前のすべてのルーターでポート転送を設定する必要があります。）
+GL.iNetルーターでサーバー（たとえば [OpenVPNサーバー](how_to_set_up_openvpn_server.md) や [WireGuardサーバー](build_your_own_wireguard_home_server_with_two_glinet_routers.md)）を設定しており、そのルーターがメインルーターに接続されている場合は、メインルーターでポートフォワーディングを設定する必要があります。これにより、サーバーに正しくアクセスできるようになります。
 
-ポート転送を設定する手順は、ルーターのブランドとモデルにより異なります。以下のセクションで該当するものを参照してください。
+メインルーターとGL.iNetルーターの間に他のルーターがある場合は、それらすべての上流ルーターでもポートフォワーディングを設定する必要があります。
 
-## GL.iNetルーターをプライマリルーターとして使用する場合
+## 準備
 
-プライマリルーターがGL.iNetルーターの場合、以下の手順でポート転送を設定します。
+ポートフォワーディングを設定する前に、メインルーターでGL.iNetルーターの**固定IPアドレス予約**を行うことを推奨します。これにより、GL.iNetルーターには常に固定のIPアドレスが割り当てられます。
 
-1. Webブラウザで、ルーター管理パネルのURL（例：`192.168.8.1`）を入力し、サインインします。
-2. 左側のサイドバーで、**ネットワーク** > **ファイアウォール** をクリックします。
-3. **ポートフォワード** タブで、**追加** をクリックします。
-4. 次の情報を入力します：
-    * **名前:** ルールの任意の名前を入力します。
-    * **プロトコル:** そのままにします。
-    * **外部ゾーン:** そのままにします。
-    * **外部ポート:** 使用するポートを入力します。例：デフォルトのポートは**1194**（OpenVPNサーバー用）および**51820**（WireGuardサーバー用）です。
-    * **内部ゾーン:** そのままにします。
-    * **内部IP:** ポートを転送するルーターを選択します。
-    * **内部ポート:** 使用するポートを入力します。例：デフォルトのポートは**1194**（OpenVPNサーバー用）および**51820**（WireGuardサーバー用）です。
-5. **適用する** をクリックします。
+そうしないと、メインルーターまたはGL.iNetルーターの再起動時に、メインルーターがGL.iNetルーターへ新しいIPアドレスを割り当て、ポートフォワーディングのルールが機能しなくなる可能性があります。
 
-## 彼のブランドのルーターをプライマリルーターとして使用する場合
+次に、GL.iNetルーター向けにメインルーターでポートフォワーディングを設定してください。
 
-!!! note "ポート転送を設定する際に次の情報を入力してください："
+ポートフォワーディングの設定手順は、ルーターのブランドやモデルによって異なります。以下の該当セクションを参照してください。
 
-    ルーターのブランドやモデルによって、ポート転送を設定する際に提供する情報の名前が異なります。一般のには、ルーターのポート転送画面に次の情報を入力してください：
-    
-    * **外部ポート/内部ポート:** 使用するポートを入力します。例：デフォルトのポートは**1194**（OpenVPNサーバー用）および**51820**（WireGuardサーバー用）です。
-    * **プロトコル:** **All** または **UDP/TCP** を選択します。
-    * **内部IP**（または **ホストIP** と表示されることもあります）：セカンダリルーターのWAN IPアドレスを入力するか、ドロップダウンからセカンダリルーターを選択します。
+## GL.iNetルーターをメインルーターとして使用する場合
 
-以下は、プライマリルーターとして特定のブランドやモデルのルーターでポート転送を設定するための手順です：
+[こちらのリンク](../interface_guide/port_forwarding.md){target="_blank"}を参照してください。
+
+## 他社製ルーターをメインルーターとして使用する場合
+
+!!! note "ポートフォワーディング設定時に以下の情報を入力してください"
+
+    ポートフォワーディングを設定する際は、以下の情報を入力してください。なお、項目名はルーターのブランドやモデルによって異なる場合があります。
+
+    * **External port/Internal port:** 使用するポートを入力します。たとえば、デフォルトのポートは **1194**（OpenVPNサーバー用）と **51820**（WireGuardサーバー用）です。
+    * **Protocol:** **All** または **UDP/TCP** を選択します。
+    * **Internal IP**（または **Host IP** と表示される場合があります）: セカンダリルーターのWAN IPアドレスを入力するか、利用可能であればドロップダウンからセカンダリルーターを選択します。
+
+以下は、一般的なメインルーターブランドやモデルでポートフォワーディングを設定するための手順です。
+
+メインルーターのブランドまたはモデルが以下にない場合は、ルーターのマニュアルを参照するか、サポートチームへお問い合わせください。
 
 ### AT&T
 
-* [NVG589](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010280/)
-* [Pace 5031](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010292/)
-* [Pace 5268](https://www.att.com/support/article/u-verse-high-speed-internet/KM1123072/)
+* [NVG589](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010280/){target="_blank"}
+* [Pace 5031](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010292/){target="_blank"}
+* [Peace 5268](https://www.att.com/support/article/u-verse-high-speed-internet/KM1123072/){target="_blank"}
 
 ### Comcast (Xfinity)
 
-* [Xfinity Gateway](https://www.xfinity.com/support/articles/set-up-port-forwarding-xfinity-xfi)
-
-### Eero
-
-[これらの手順を参照してください。](https://support.eero.com/hc/en-us/articles/207908443-How-do-I-configure-port-forwarding)
-
-### リンクシス
-
-[これらの指示を参照してください。](https://www.tp-link.com/us/support/faq/1379/)
-
-### ネットギア
-
-[これらの指示を参照してください。](https://kb.netgear.com/24290/How-do-I-add-a-custom-port-forwarding-service-on-my-NETGEAR-router)
+* [Xfinity Gateway](https://www.xfinity.com/support/articles/xfi-port-forwarding){target="_blank"}
 
 ### TP-Link
 
-[これらの指示を参照してください。](https://www.tp-link.com/us/support/faq/1379/)
+* [Deco series](https://www.tp-link.com/us/support/faq/1797/){target="_blank"}
+* [Wireless router series](https://www.tp-link.com/us/support/faq/1379/){target="_blank"}
 
-上記にリストされていない特定のルーターブランドまたはモデルについて支援が必要な場合は、ルーターの製造元またはGL.iNetサポートチームにメールでお問い合わせください：[support@glinet.biz](mailto:support@glinet.biz)。
+### Eero
+
+[こちらのリンク](https://support.eero.com/hc/en-us/articles/207908443-How-do-I-configure-port-forwarding){target="_blank"}を参照してください。
+
+### Linksys
+
+[こちらのリンク](https://support.linksys.com/kb/article/318-en/){target="_blank"}を参照してください。
+
+### Netgear
+
+[こちらのリンク](https://kb.netgear.com/24290/How-do-I-add-a-custom-port-forwarding-service-on-my-NETGEAR-router){target="_blank"}を参照してください。
 
 ---
 
-まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

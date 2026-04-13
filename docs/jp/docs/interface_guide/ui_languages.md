@@ -1,21 +1,21 @@
 # UI言語
 
-この機能は firmware v4.6で降で追加されました。
+この機能はファームウェア v4.6 以降で追加されました。
 
 ---
 
-右上の言語ボタンをクリックして、UI言語を切り替えたり追加したりできます。
+右上の言語ボタンをクリックすると、UI 言語の切り替えや追加ができます。
 
-追加のUI言語を追加したりUIテキストをアップデートするには、**言語を追加**をクリックします。
+追加の UI 言語を追加したり、UI テキストを更新したりするには、**Add Languages** をクリックします。
 
 ![languages list](https://static.gl-inet.com/docs/router/en/4/interface_guide/ui_languages/add_languages.jpg){class="glboxshadow"}
 
-ポップアップウィンドウで希望する言語を選択し、**アップデート**をクリックします。ルーターは自動的にリポジトリから最も新の言語パックを取なければならないします。インストールされていない言語パックは削除されます（英語を除く）。
+ポップアップウィンドウで希望の言語を選択し、**Update** をクリックします。ルーターは自動的にリポジトリから最新の言語パックを取得します。インストールされていない言語パックは削除されます（英語を除く）。
 
-潜在的なテキストの問題を修正するために最も新の言語パックを自動的に取なければならないしたい場合は、**から動アップデートを有効にする**をオンにし、アップデート時間を設定します。ルーターは指定された時間に自動的に最も新の言語パックをダウンロードします。
+テキストの不具合を修正するために最新の言語パックを自動取得したい場合は、**Enable Auto Update** をオンにして更新時刻を設定します。設定した時刻になると、ルーターが自動的に最新の言語パックをダウンロードします。
 
 ![languages list](https://static.gl-inet.com/docs/router/en/4/interface_guide/ui_languages/languages_list.png){class="glboxshadow"}
 
 ---
 
-まだ質問がありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}を訪問してください。
+ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

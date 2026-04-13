@@ -2,7 +2,7 @@
 
 ## ハードウェア情報
 
-GL-M2は、ルーターやモデムをから作したいDIY愛好家のへけです。GL-M2の5Gモジュールと5Gアンテナにより、高品質の5Gセルラーネットワークを提供します。
+GL-M2は、ルーターやモデムを自作したいDIY愛好家向けです。GL-M2の5Gモジュールと5Gアンテナにより、高品質の5Gセルラーネットワークを提供します。
 
 ![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
@@ -43,7 +43,7 @@ GL-M2は、ルーターやモデムをから作したいDIY愛好家のへけで
 
 3. 電源を入れる
 
-    DC 電源に接続し、Type-C - USB 3.0 データ ケーブルを使用してルーターまたはその彼のデバイスに接続します。
+    DC 電源に接続し、Type-C - USB 3.0 データ ケーブルを使用してルーターまたはその他のデバイスに接続します。
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
 
@@ -51,7 +51,7 @@ GL-M2は、ルーターやモデムをから作したいDIY愛好家のへけで
 
   - 使用中は安定した電源を提供するためにDC電源に接続する必要があります。
 
-  - 電源インジケーターライトが赤色に時灯している場合は、電源装置が機能していることを示します。
+  - 電源インジケーターライトが赤色に点灯している場合は、電源装置が機能していることを示します。
 
 ---
 
@@ -69,7 +69,7 @@ GL-M2は以下の機器と互換性があります：
 
     ![Connecting GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_1.png){class="glboxshadow"}
 
-2. ***インターネット***セクションの下の***から動セットアップ***をクリックして、インターネットに接続します。
+2. ***インターネット***セクションの下の***自動セットアップ***をクリックして、インターネットに接続します。
 
     ![Connecting GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_2.png){class="glboxshadow"}
 

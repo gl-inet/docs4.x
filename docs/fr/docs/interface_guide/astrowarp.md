@@ -1,8 +1,8 @@
 # AstroWarp
 
-**Note** : Ce guide présente la nouvelle version d’AstroWarp, actuellement disponible sur **Flint 3 (GL-BE9300)** et **Slate 7 (GL-BE3600)** avec les firmwares v4.8.4 et v4.8.3 respectivement.
+**Remarque** : ce guide présente la nouvelle version d’AstroWarp, intégrée au panneau d’administration web des routeurs GL.iNet.
 
-Pour les autres modèles, veuillez consulter [ce lien](https://docs.astrowarp.net/){target="_blank"} pour plus d’informations.
+Pour la documentation de l’ancienne version d’AstroWarp, veuillez consulter [ce lien](https://docs.astrowarp.net/){target="_blank"}.
 
 ---
 
@@ -10,10 +10,44 @@ AstroWarp est une fonctionnalité réseau avancée intégrée aux routeurs GL.iN
 
 Les utilisateurs peuvent configurer un réseau AstroWarp directement depuis le panneau d’administration du routeur GL.iNet. Il suffit d’appairer vos routeurs à l’aide d’un code d’accès pour connecter en toute sécurité votre routeur de voyage à votre réseau domestique en quelques secondes.
 
-**Note:** 
+**Remarque** :
 
-1. Il n’est pas recommandé d’utiliser AstroWarp en même temps que l’une des fonctionnalités suivantes, car cela peut provoquer des conflits de routage : GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
+1. Il n’est pas recommandé d’utiliser AstroWarp en même temps que les fonctionnalités suivantes, car cela peut provoquer des conflits de routage : GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
 2. Lorsque AstroWarp est activé, la fonction **Network Mode** ne peut pas être utilisée.
+
+## Modèles pris en charge
+
+??? "Modèles pris en charge"
+
+    - GL-BE9300 (Flint 3), version v4.8.4
+    - GL-BE3600 (Slate 7), version v4.8.3
+    - GL-MT6000 (Flint 2), bêta v4.8.4
+    - GL-X3000 (Spitz AX), bêta v4.8.4
+    - GL-XE3000 (Puli AX), bêta v4.8.4
+    - GL-AX1800 (Flint), bêta v4.8.4
+    - GL-AXT1800 (Slate AX), bêta v4.8.3
+    - GL-MT3000 (Beryl AX), bêta v4.8.2
+
+??? "Modèles non pris en charge"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-X2000 (Spitz Plus)
+    - GL-B3000 (Marble)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-A1300 (Slate Plus)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
+    - GL-X300B (Collie)
 
 ## Configuration rapide
 
@@ -23,8 +57,8 @@ Flint 3 jouera le rôle de routeur domestique, tandis que Slate 7 fera office de
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/aw_topology.png){class="glboxshadow"}
 
-**Note** : Chaque routeur GL.iNet inclut **10 GB de données gratuites par mois** pour le réseau AstroWarp. Les appareils d’un réseau AstroWarp utilisent les données du routeur domestique pour accéder à Internet. Vous pouvez passer au forfait AstroWarp+ pour obtenir des données illimitées si nécessaire.
- 
+**Remarque** : chaque routeur GL.iNet inclut **10 GB de données gratuites par mois** pour le réseau AstroWarp. Les appareils d’un réseau AstroWarp utilisent les données du routeur domestique pour accéder à Internet. Vous pouvez passer au forfait AstroWarp+ pour obtenir des données illimitées si nécessaire.
+
 1. Configurez Flint 3 pour l’accès à Internet.
 
     Connectez-vous au panneau d’administration web de Flint 3 et ouvrez la page **INTERNET**. Connectez-le à Internet à l’aide de l’une des méthodes de connexion prises en charge : Ethernet, Repeater, Tethering et Cellular.
@@ -47,7 +81,7 @@ Flint 3 jouera le rôle de routeur domestique, tandis que Slate 7 fera office de
 
     Connectez-vous au panneau d’administration web de Slate 7, puis ouvrez la page **INTERNET**. Connectez-le à Internet à l’aide de l’une des méthodes de connexion prises en charge : Ethernet, Repeater, Tethering et Cellular.
 
-    Comme indiqué ci-dessous, le routeur de voyage Slate 7 est connecté au point d’accès personnel d’un iPhone 15 Pro (situé à Shenzhen, utilisant le réseau China Unicom Guangdong Province).
+    Comme indiqué ci-dessous, le routeur de voyage Slate 7 est connecté au point d’accès personnel d’un iPhone 15 Pro (situé à Shenzhen et utilisant le réseau China Unicom Guangdong Province).
 
     ![travel internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/travel_internet.png){class="glboxshadow"}
 

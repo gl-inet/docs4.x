@@ -1,40 +1,40 @@
-# OpenVPNクライアントのLAN側からサーバーにアクセスする方法
+# サーバー側からOpenVPNクライアントのLAN側へアクセスする方法
 
-このチュートリアルでは、OpenVPNサーバー側からOpenVPNクライアントのLANサブネット（NAS、IPカメラなど）にアクセスする手順説明します。
+このチュートリアルでは、OpenVPNサーバー側から OpenVPN クライアントのLANサブネット（NAS、IPカメラなど）にアクセスする手順を説明します。
 
-## 構成
+## トポロジー
 
-下図のように、GL-AXT1800はOpenVPNサーバーであり、GL-MT2500はそれに接続されたOpenVPNクライアントです。サーバー側からGL-MT2500のLAN側にあるデバイス（NASやGL-MT3000、サブルーターなど）にアクセスできます。
+以下の図のように、GL-AXT1800 は OpenVPN サーバー、GL-MT2500 はそれに接続された OpenVPN クライアントです。サーバー側から、GL-MT2500 のLAN側にあるデバイス（NAS や GL-MT3000 などのサブルーター）へアクセスできます。
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/ovpnlantop.jpg){class="glboxshadow"}
 
-## 1. サーバーでルートルールを追加
+## 1. サーバー側でルートルールを追加する
 
-??? "ファームウェアv4.7で前の場合"
+??? "ファームウェア v4.7 以前"
 
-    <u>OpenVPNサーバー</u>のWeb管理パネルにログインし、**VPN** -> **VPNダッシュボード** -> **VPNサーバー**に移動します。
+    <u>OpenVPNサーバー</u>のWeb管理パネルにログインし、**VPN** -> **VPN Dashboard** -> **VPN Server** に移動します。
 
-    右側のルートアイコンをクリックしてルートルールに入ります。
+    右側のルートアイコンをクリックして、ルートルール画面を開きます。
 
     ![ovpnserver route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.7-ovpn-route-rule-1.jpg){class="glboxshadow"}
 
-    ポップアップウィンドウで、右側の**ルートルールを追加**ボタンをクリックし、アクセスしたいサブネットを入力します。
+    ポップアップウィンドウで、右側の **Add Route Rule** ボタンをクリックし、アクセスしたいサブネットを入力します。
 
     ![ovpnserver route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.7-ovpn-route-rule-2.png){class="glboxshadow"}
 
-    例として、OpenVPNクライアントGL-MT2500のLANサブネットは**192.168.48.0/24**なので、ターゲットアドレスは**192.168.48.0/24**です。
-    
-    ゲートウェイは、このOpenVPNクライアントに対してOpenVPNサーバーが生成したクライアントIPです。ここではゲートウェイを**10.8.0.1**に設定し、**適用**をクリックします。
+    たとえば、OpenVPNクライアント GL-MT2500 のLANサブネットが **192.168.48.0/24** の場合、**Target Address** は **192.168.48.0/24** です。
+
+    **Gateway** は、この OpenVPN クライアントに対して OpenVPN サーバーが割り当てたクライアントIPです。ここでは **Gateway** を **10.8.0.1** に設定し、**Apply** をクリックします。
 
     ![ovpnserver route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.7-ovpn-route-rule-3.jpg){class="glboxshadow"}
 
-    注意：アクセスする必要があるLANサブネットを持つ複数のOpenVPNクライアントがある場合は、ルートルールを設定する前に、[このリンク](reserve_fixed_IP_for_ovpn_client.md)を参照して各OpenVPNクライアントのクライアントIPを予約してください。
+    注: LANサブネットにアクセスしたい OpenVPN クライアントが複数ある場合は、ルートルールを設定する前に、[こちら](reserve_fixed_IP_for_ovpn_client.md) を参照して各 OpenVPN クライアントのクライアントIPを予約してください。
 
-??? "ファームウェアv4.8で降の場合"
+??? "ファームウェア v4.8 以降"
 
-    <u>OpenVPNサーバー</u>のWeb管理パネルにログインし、**VPN** -> **OpenVPNサーバー**に移動します。
+    <u>OpenVPNサーバー</u>のWeb管理パネルにログインし、**VPN** -> **OpenVPN Server** に移動します。
 
-    **ルートルール**タブをクリックし、右側の**ルートルールを追加**ボタンをクリックします。
+    **Route Rules** タブをクリックし、右側の **Add Route Rule** ボタンをクリックします。
 
     ![ovpnserver route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.8-ovpn-route-rule-1.png){class="glboxshadow"}
 
@@ -42,46 +42,50 @@
 
     ![ovpnserver route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.8-ovpn-route-rule-2.png){class="glboxshadow"}
 
-    例として、OpenVPNクライアントGL-MT2500のLANサブネットは**192.168.48.0/24**なので、ターゲットアドレスは**192.168.48.0/24**です。
-    
-    ゲートウェイは、このOpenVPNクライアントに対してOpenVPNサーバーが生成したクライアントIPです。ここではゲートウェイを**10.8.0.2**に設定し、**適用**をクリックします。
+    たとえば、OpenVPNクライアント GL-MT2500 のLANサブネットが **192.168.48.0/24** の場合、**Target Address** は **192.168.48.0/24** です。
+
+    **Gateway** は、この OpenVPN クライアントに対して OpenVPN サーバーが割り当てたクライアントIPです。ここでは **Gateway** を **10.8.0.2** に設定し、**Apply** をクリックします。
 
     ![ovpnserver route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.8-ovpn-route-rule-3.jpg){class="glboxshadow"}
 
-## 2. サーバーでNATを有効にする
+    注: LANサブネットにアクセスしたい OpenVPN クライアントが複数ある場合は、ルートルールを設定する前に、[こちら](reserve_fixed_IP_for_ovpn_client.md) を参照して各 OpenVPN クライアントのクライアントIPを予約してください。
 
-**重要**：NATを有効にしないと、サーバー側からクライアントのLAN側のデバイスにアクセスできません。
+## 2. クライアントLANへのリモートアクセスを許可する
 
-??? "For firmware v4.7 and earlier"
+??? "ファームウェア v4.7 以前"
 
-    **VPN** -> **VPNダッシュボード** -> **VPNサーバー**に移動します。
+    <u>OpenVPNクライアント</u>のWeb管理パネルにログインし、**VPN** -> **VPN Dashboard** -> **VPN Client** に移動します。
 
-    右側のオプションアイコンをクリックします。
+    歯車アイコンをクリックしてクライアントオプションを開きます。
 
-    ![ovpn nat](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.7-nat-1.png){class="glboxshadow"}
+    ![ovpnclient options](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.7-client-options.png){class="glboxshadow"}
 
-    **NATを有効にする**をオンにし、**適用**をクリックします。
+    ポップアップウィンドウで **Remote Access LAN** を有効にし、**Apply** をクリックします。
 
-    ![ovpn nat](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.7-nat-2.png){class="glboxshadow"}
+    ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.7-allow-remote-access-lan.jpg){class="glboxshadow"}
 
-??? "For firmware v4.8 and higher"
+??? "ファームウェア v4.8 以降"
 
-    **VPN** -> **OpenVPNサーバー**に移動します。
+    <u>OpenVPNクライアント</u>のWeb管理パネルにログインし、**VPN** -> **VPN Dashboard** に移動します。
 
-    右上の**オプション**をクリックします。
+    VPNトンネルの左上にある歯車アイコンをクリックして、トンネルオプションを開きます。
 
-    ![ovpn nat](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.8-nat-1.png){class="glboxshadow"}
+    ![ovpnclient options](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.8-client-tunnel-options.png){class="glboxshadow"}
 
-    **NATを有効にする**をオンにし、**適用**をクリックします。
+    ポップアップウィンドウで **Allow Remote Access the LAN Subnet** を有効にし、**Apply** をクリックします。
 
-    ![ovpn nat](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.8-nat-2.png){class="glboxshadow"}
+    ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.8-allow-remote-access-lan.png){class="glboxshadow"}
 
-## 3. クライアントのLANサブネットへのアクセスをテスト
+## 3. 接続をテストする
 
-これで、サーバー側からOpenVPNクライアントのLANサブネットのデバイスにアクセスできるはずです。
+OpenVPNクライアントのLAN内にある GL-MT3000 に、IPアドレス **192.168.48.211** でアクセスする例を示します。
 
-例えば、サーバー側のブラウザで**192.168.48.1**（GL-MT2500のLAN IP）を入力すると、GL-MT2500の管理パネルにアクセスできます。
+OpenVPNサーバーに接続しているデバイスから、GL-MT3000 のIPアドレス **192.168.48.211** に ping を実行します。これは、OpenVPNクライアント（GL-MT2500）が自分のLAN内で GL-MT3000 に割り当てたIPアドレスです。
+
+ping が成功すれば、設定は正しく完了しています。OpenVPNクライアントのLANサブネット内にある他のデバイスにも、それぞれのIPアドレスでアクセスできるようになります。
+
+![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/ping-test.jpg){class="glboxshadow"}
 
 ---
 
-まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -1,14 +1,12 @@
 # ハードウェアアクセラレーション
 
-**注意**: この機能はv4.3で降、[ネットワークアクセラレーション](network_acceleration.md)に名称が変更されました。
-
-このガイドはファームウェアv4.2で前に当てはまります。
+**Note**: このガイドはファームウェア v4.2 以前に適用されます。新しいバージョンについては、[Network Acceleration](network_acceleration.md) を参照してください。
 
 ---
 
-ハードウェアアクセラレーション（ときにハードウェアNAT、フローオフロード、またはオフロードと呼ばれる）は、パケット転送をCPUからルーターのSoC/NICハードウェアに移すことでCPU負荷を軽減します。これにより通例、最大スループットがへ上しCPU使用率が削減されますが、特にLinuxネットワークスタック（netfilter / iptables / nftables）またはSQM（Smart Queue Management）で使用されるカーネルキューイングディシプリン（qdisc）に依存する機能については、重要なトレードオフがあります。
+ハードウェアアクセラレーション（hardware NAT、flow offloading、offloading とも呼ばれます）は、パケット転送処理を CPU からルーターの SoC/NIC ハードウェアへ移すことで CPU 負荷を軽減します。通常は最大スループットの向上と CPU 使用率の低減が期待できますが、Linux ネットワークスタック（netfilter/iptables/nftables）や、SQM（Smart Queue Management）で使われるカーネルのキューイング制御（qdisc）に依存する機能では重要なトレードオフがあります。
 
-ハードウェアアクセラレーションが有効な場合、以下の機能は正常に動作しません：クライアント速度とトラフィック統計、クライアント速度制限。
+ハードウェアアクセラレーションを有効にすると、次の機能は正しく動作しません: Client Speed and Traffic Statistics、Client Speed Limit。
 
 ## 対応モデル
 
@@ -44,20 +42,20 @@
 
 ## クイック設定
 
-ウェブ管理パネルの左側 -> ネットワーク -> ハードウェアアクセラレーション。
+Web Admin Panel の左側で、**NETWORK** -> **Hardware Acceleration** に移動します。
 
 ![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
 
----
-
-## クイック概要
-
-**ハードウェアNAT vs. ソフトウェアNAT**
-
-* スループット（例：マルチギガビットブロードバンド）を最もも重視し、ルーター上のSQMやクライアントごとのシェーピングが必要ない場合 -> ハードウェアNAT / ネットワークアクセラレーションを有効にします。これにより、最も高スループットと最も低CPU使用率が実現されます。
-
-* 低遅延、一貫したQoSクライアントごとの制限が必要、またはSQM（cake/fq_codel）に依存する場合 -> ソフトウェアNATを使用します（ハードウェアオフロードを無効にします）。SQMとQoSはパケットがカーネルqdiscスタックを経よりすることを必要とします。オフロードされたパケットはこのパスをバイパスするため、シェーピングされません。
+スイッチをオンにして、**Apply** をクリックします。
 
 ---
 
-まだご質問はありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}をご覧ください。
+## Hardware NAT と Software NAT
+
+* スループット（例: マルチギガビット回線）を最優先し、ルーター上で SQM やクライアントごとの帯域制御を使わない場合は、Hardware NAT / Network Acceleration を有効にしてください。最も高いスループットと低い CPU 使用率を実現できます。
+
+* 低遅延、一貫した QoS、クライアント単位の制限が重要で、SQM（cake/fq_codel）を利用する場合は、Software NAT（ハードウェアオフロード無効）を使用してください。SQM と QoS はパケットがカーネルの qdisc スタックを通過する必要がありますが、オフロードされたパケットはこの経路を通らないため、帯域制御されません。
+
+---
+
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

@@ -1,10 +1,12 @@
-# トグルボタンの設定
+# トグルボタン設定
 
-一部のモデルにはトグルボタンがあり、ウェブ管理パネルでこのボタンの動作をカスタマイズできます。
+Toggle Button Settings では、ルーター本体の物理トグルスイッチ（一部モデルでは mode switch とも呼ばれます）に特定の機能を割り当て、よく使う操作をすばやく実行できるショートカットとして利用できます。
+
+このスイッチの動作は Web 管理パネルでカスタマイズできます。
 
 ## 対応モデル
 
-??? "対応モデル"
+??? "Supported Models"
     - GL-MT3600BE (Beryl 7)
     - GL-BE3600 (Slate 7)
     - GL-MT3000 (Beryl AX)
@@ -18,7 +20,7 @@
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
 
-??? "非対応モデル"
+??? "Unsupported Models"
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-BE6500 (Flint 3e)
@@ -36,36 +38,38 @@
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-ウェブ管理パネルの左側 -> **システム** -> **トグルボタンの設定**
+## Setup
+
+Web管理パネルの左側で、**SYSTEM** -> **Toggle Button Settings** に移動します。
 
 ![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
 
-ファームウェアv4.8で前は、4つのオプションがあり、ユーザーがトグルボタンの機能をカスタマイズできます。
+ファームウェア v4.8 より前では、トグルボタンの機能をカスタマイズできるオプションは以下のとおりです。
 
-- 機能なし
+- No Function
 - AdGuard Home
 - OpenVPN Client
 - Tor
 - WireGuard Client
 
-ファームウェアv4.8で降では、より多くのオプションが導入されました：リピーター、Wi-Fi、LED。ユーザーはニーズに応じてトグルボタンをカスタマイズできます。
+ファームウェア v4.8 以降では、Repeater、Wi‑Fi、LED が追加され、より多くの選択肢から用途に合わせて設定できます。
 
-- 機能なし
-- リピーター
-- Wi-Fi（メイン/ゲストWi-Fi）
+- No Function
+- Repeater
+- Wi-Fi (Main/Guest Wi-Fi)
 - VPN
 - Tor
 - AdGuard Home
 - LED
 
-![toggle button settings 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings_4.8.png){class="glboxshadow"}
+![toggle button 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_4.8.png){class="glboxshadow"}
 
-設定を適用のときには、トグルスイッチのオン/オフ（左/右）位置に基づいて、選択した機能をすぐに有効/無効にするかどうかを決定できます。
+設定を適用するときは、トグルスイッチの on / off（left / right）位置に応じて、選択した機能をすぐに有効化または無効化するかどうかを決められます。
 
-**注意**：デバイスの再起動後、システムはトグルスイッチの位置に従って機能を自動的に適用します。
+**Note**: デバイスを再起動すると、システムはトグルスイッチの位置に応じて機能の状態を自動的に適用します。
 
-例場合あなたするWireGuard Client設定为よりトグルスイ制御：当スイに左侧（オン）时，WireGuard Clientことになるから動起動。当スイに右侧（オフ）时，WireGuard Client保持無効ステータス。
+たとえば、WireGuard Client をトグルスイッチで制御するよう設定した場合、スイッチが LEFT (ON) なら WireGuard Client は自動的に起動します。スイッチが RIGHT (OFF) なら WireGuard Client は無効のままです。
 
 ---
 
-まだご質問はありますか？ [コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"}または[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

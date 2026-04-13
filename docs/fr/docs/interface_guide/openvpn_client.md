@@ -16,7 +16,7 @@ Vous pouvez configurer un client OpenVPN via le panneau d'administration web ou 
 
 ---
 
-Dans le panneau d'administration web, accédez à **VPN** -> **OpenVPN Client**. 
+Dans le panneau d'administration web, accédez à **VPN** -> **OpenVPN Client**.
 
 Si vous avez un abonnement NordVPN, cliquez sur **NordVPN** pour vous connecter ; sinon, cliquez sur **Add Manually** pour importer les fichiers de configuration OpenVPN.
 
@@ -43,7 +43,7 @@ La configuration rapide de NordVPN est intégrée au panneau d'administration de
     ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
 
 2. Connectez-vous au panneau d'administration web de votre routeur, accédez à VPN -> OpenVPN Client -> NordVPN. Saisissez les **service credentials** obtenus à l'étape 1 (remarque : ce ne sont **PAS** l'adresse e-mail et le mot de passe du compte de connexion), puis cliquez sur **Save and Continue**.
-   
+
     ![input nordvpn service credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn1.png){class="glboxshadow"}
 
 3. Sélectionnez le protocole, le nombre maximal de serveurs pour chaque emplacement ainsi que les emplacements, puis cliquez sur **Apply**.
@@ -113,15 +113,15 @@ Dans les étapes suivantes, nous utiliserons [PIA (Private Internet Access)](htt
     - Il existe 4 types d'identifiants pour l'authentification :
 
         1. Aucune authentification.
-        
-        2. Nom d'utilisateur et mot de passe uniquement. 
-        
+
+        2. Nom d'utilisateur et mot de passe uniquement.
+
         3. Phrase secrète uniquement.
 
         4. Nom d'utilisateur, mot de passe et phrase secrète.
 
     Le fichier de configuration importé s'affichera ensuite.
-     
+
     ![manual upload files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual5.png){class="glboxshadow"}
 
 6. Cliquez sur l'icône à trois points à droite pour démarrer une connexion.
@@ -175,7 +175,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
         ![nordvpn config download](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_config_download.png){class="glboxshadow"}
 
-        Dans la fenêtre contextuelle, sélectionnez le protocole **OpenVPN** et téléchargez la configuration UDP ou TCP. 
+        Dans la fenêtre contextuelle, sélectionnez le protocole **OpenVPN** et téléchargez la configuration UDP ou TCP.
 
         ![nordvpn select protocol](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_select_protocol.png){class="glboxshadow"}
 
@@ -278,7 +278,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
         * **Server group** : choisissez le groupe de serveurs et le protocole OpenVPN (UDP ou TCP) à utiliser
 
         **OpenVPN UDP** offre une vitesse plus élevée que la version TCP, mais peut entraîner des téléchargements corrompus dans certains cas. C'est le réglage par défaut.
-        
+
         **OpenVPN TCP** offre des connexions plus stables que la version UDP, mais il est un peu plus lent. Choisissez cette version si vous rencontrez des problèmes de connexion récurrents, comme des déconnexions soudaines.
 
         Une fois les paramètres souhaités choisis, enregistrez-les avec **Save Configuration**.
@@ -433,7 +433,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     [Site officiel](https://billing.ivacy.com/page/22852){target="_blank"}
 
-    Pour configurer un client OpenVPN avec Ivacy, vous aurez besoin des éléments suivants : 
+    Pour configurer un client OpenVPN avec Ivacy, vous aurez besoin des éléments suivants :
 
     - Votre nom d'utilisateur pour la configuration manuelle OpenVPN, affiché dans l'invite "Download Configuration"
      ![ivacy openvpn username](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ivacy-username.png){class="glboxshadow"}
@@ -476,7 +476,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
     ### OVPN
 
     [Site officiel](https://www.ovpn.com/en?ref=glinet){target="_blank"}
-    
+
     Connectez-vous simplement, puis vous pourrez facilement obtenir le fichier de configuration OpenVPN en cliquant sur le menu ci-dessous.
 
     ![get ovpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/get_ovpn_configuration_files.jpg){class="glboxshadow"}
@@ -555,14 +555,14 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     [Site officiel](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-    Pour configurer un client OpenVPN avec PureVPN, vous aurez besoin de votre nom d'utilisateur et de votre mot de passe OpenVPN ainsi que d'un fichier de configuration, que vous trouverez dans votre compte PureVPN. 
-   
+    Pour configurer un client OpenVPN avec PureVPN, vous aurez besoin de votre nom d'utilisateur et de votre mot de passe OpenVPN ainsi que d'un fichier de configuration, que vous trouverez dans votre compte PureVPN.
+
     1. [Connectez-vous à votre compte PureVPN.](https://my.purevpn.com/)
     2. Dans la barre latérale gauche, cliquez sur **Subscriptions**.
     3. Faites défiler la page vers le bas pour trouver votre nom d'utilisateur et votre mot de passe OpenVPN.
         ![purevpn username and password](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/purevpn-vpn-username-vpn-password.png){class="glboxshadow"}
-    4. Dans la barre latérale gauche, cliquez sur **Manual Configuration**. 
-    5. Sélectionnez un emplacement VPN, puis cliquez sur **Download** pour télécharger le fichier de configuration. 
+    4. Dans la barre latérale gauche, cliquez sur **Manual Configuration**.
+    5. Sélectionnez un emplacement VPN, puis cliquez sur **Download** pour télécharger le fichier de configuration.
 
     [Lien de référence](https://support.purevpn.com/openvpn-files)
 
@@ -582,32 +582,28 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     [Site officiel](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
-    StarVPN propose également le service WireGuard ; nous vous recommandons d'utiliser WireGuard. Consultez [ici](wireguard_client.md#starvpn).
+    StarVPN propose un service VPN avec les protocoles OpenVPN et WireGuard. Nous recommandons WireGuard, car il est généralement plus rapide qu’OpenVPN. Consultez [ici](wireguard_client.md#starvpn).
 
     1. **Créer un compte StarVPN**
 
         Rendez-vous sur leurs options de [tarification](https://www.starvpn.com/#pricing){target="_blank"} et choisissez une offre VPN adaptée à vos besoins. Vous pouvez vous inscrire lors du paiement ou directement [ici](https://www.starvpn.com/dashboard/register.php){target="_blank"}
 
-    2. Informations de connexion VPN
+    2. **Télécharger la configuration OpenVPN**
 
-        Connectez-vous à l'espace membre StarVPN [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. Vous pouvez trouver votre nom d'utilisateur et votre mot de passe VPN pour chaque slot dans la section Manage Slots ou dans la zone dashboard.
+        Connectez-vous à l’espace membre StarVPN [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. Dans le tableau de bord, repérez la section **VPN Configuration** puis cliquez sur **OpenVPN Config**. Copiez le nom d’utilisateur et le mot de passe OVPN. Vous aurez besoin de ces identifiants pour l’authentification lors du téléversement du fichier sur votre routeur GL.iNet.
 
-        ![starvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/vpn-username_edited-2.jpg){class="glboxshadow"}
+        ![download starvpn ovpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/ovpnconfigdl.png){class="glboxshadow"}
 
-        Pour plusieurs slots, les paramètres de configuration VPN et les identifiants se trouvent dans la section “Manage Slots”.
+        Sélectionnez UDP ou TCP, puis téléchargez un fichier de configuration.
 
-        ![starvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/vpn-username_slots_edited-1024x355.jpeg){class="glboxshadow"}
+        ![select udp or tcp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/udp_tcp.png){class="glboxshadow"}
 
-    3. Télécharger le fichier de configuration OpenVPN
+    3. **Modifier le fichier de configuration**
 
-        À cette étape, vous devez télécharger les fichiers de configuration du serveur VPN nécessaires pour que le logiciel OpenVPN sache à quel serveur se connecter. Téléchargez le fichier de configuration depuis le dashboard de l'espace membre.
+        Certains routeurs GL.iNet ne prennent pas en charge IPv6. Pour éviter les problèmes de compatibilité et de connectivité, ouvrez le fichier de configuration `.ovpn` et supprimez le contenu lié à IPv6, comme ci-dessous.
 
-        ![download starvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/download-ovpn_edited.jpg){class="glboxshadow"}
+        ![remove ipv6](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/remove_ipv6.png){class="glboxshadow"}
 
-        Certains routeurs GL.iNet ne prennent pas en charge IPv6 ni DNS Leak Protection ; vous pouvez donc rencontrer une erreur d'adresse IP ou de connexion. Modifiez le fichier de configuration ovpn et désactivez IPv6 en suivant ces étapes simples.
-
-        ![troubleshooting](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/troubleshooting.jpg){class="glboxshadow"}
-        
 ??? "StreamVPN"
     ### StreamVPN
 
@@ -706,7 +702,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
         ![vpn unlimited openvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/vpnunlimited/keepsolid1.png){class="glboxshadow"}
 
     2. Choisir l'emplacement du serveur souhaité
-    
+
         VPN Unlimited propose un grand nombre de serveurs : plus de 400 dans plus de 70 emplacements. Dans cet exemple, ce sera l'Allemagne.
 
     3. Sélectionner le protocole VPN
@@ -733,8 +729,8 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     [Site officiel](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
-    1. Connectez-vous à votre compte membre Windscribe [ici](https://windscribe.com/login?auth_required){target="_blank"}, puis accédez à [OpenVPN Config Generator](https://windscribe.com/getconfig/openvpn){target="_blank"}. 
-    
+    1. Connectez-vous à votre compte membre Windscribe [ici](https://windscribe.com/login?auth_required){target="_blank"}, puis accédez à [OpenVPN Config Generator](https://windscribe.com/getconfig/openvpn){target="_blank"}.
+
     2. Sélectionnez l'emplacement du serveur, le protocole (UDP/TCP), le port (par exemple 1194) que vous souhaitez utiliser, ainsi que la version OpenVPN (de préférence la plus récente), puis cliquez sur **Download Config**. Un fichier avec le suffixe ".ovpn" sera alors téléchargé sur votre appareil local.
 
         ![windscribe OpenVPN Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/windscribe/ovpn-config-generator.png){class="glboxshadow"}

@@ -1,101 +1,112 @@
 # Utiliser U-Boot pour débricker votre routeur
 
-Si votre routeur est devenu inutilisable à cause de certains projets DIY ou du flash d'un mauvais firmware, vous risquez de ne plus pouvoir y accéder. Dans ce cas, vous pouvez réinstaller le firmware en utilisant le mode failsafe U-Boot.
+Si votre routeur est devenu inutilisable à cause de certains projets DIY ou du flash d’un mauvais firmware, vous risquez de ne plus pouvoir y accéder. Dans ce cas, vous pouvez réinstaller le firmware à l’aide du mode failsafe U-Boot.
 
-**Remarque :** L'opération U-Boot supprimera les paramètres de votre routeur ainsi que les plug-ins installés.
+**Remarque :** l’opération U-Boot supprimera les paramètres de votre routeur ainsi que les plug-ins installés.
 
 ---
 
 ## Préparation
 
-Préparez un ordinateur avec un port Ethernet. Si votre ordinateur ne dispose pas d'un port Ethernet, prévoyez un adaptateur USB Ethernet supplémentaire.
+Préparez un ordinateur avec un port Ethernet. Si votre ordinateur ne dispose pas d’un port Ethernet, prévoyez un adaptateur USB-Ethernet supplémentaire.
+
+**Remarque** : le GL-E5800 (Mudi 7) ne prend actuellement pas en charge le flash du firmware via U-Boot.
 
 ## Étapes pour débricker
 
-Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour accéder à l'interface Web U-Boot et réinstaller le firmware.
+Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour accéder à l’interface Web U-Boot et réinstaller le firmware.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pz0DidfIXRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <small>Les étapes de réinstallation du firmware avec U-Boot sont globalement les mêmes, et cette vidéo prend Mudi/Mudi V2 comme exemple. Pour les autres modèles, vous pouvez suivre les procédures ci-dessous.</small>
 
-1. Téléchargez le firmware [ici](https://dl.gl-inet.com/){target="_blank"} sur votre ordinateur.
+1. Téléchargez le firmware U-Boot [ici](https://dl.gl-inet.com/){target="_blank"} sur votre ordinateur.
 
-    Certains modèles, comme le GL-AR750S-EXT, sont disponibles en deux formats de firmware. Veuillez utiliser le firmware pour U-Boot, dont l'extension du nom de fichier est **.img**.
+    Certains modèles proposent deux variantes de firmware. Veuillez télécharger le firmware compatible avec U-Boot.
 
-2. Coupez l'alimentation du routeur. Connectez votre ordinateur au **port Ethernet LAN** du routeur. Vous **DEVEZ** laisser tous les autres ports **déconnectés**.
+2. Coupez l’alimentation du routeur. Connectez votre ordinateur au **port Ethernet LAN** du routeur et laissez tous les autres ports déconnectés.
 
     !!! note
 
-        Pour certains modèles, certains ports LAN individuels et le port WAN sont interchangeables. Veuillez ne pas utiliser ce port LAN. Par exemple, sur le GL-MT6000 (Flint 2), n'utilisez pas LAN 1. Utilisez plutôt LAN 2, LAN 3 ou LAN 4.
+        Sur certains modèles, un port LAN spécifique peut être basculé en WAN. N’utilisez pas ce port LAN pour le flash du firmware. Par exemple, sur le GL-MT6000 (Flint 2), n’utilisez pas LAN 1. Utilisez plutôt LAN 2, LAN 3 ou LAN 4.
 
-3. Maintenez fermement le bouton Reset enfoncé et, **en même temps, mettez le routeur sous tension**. Si votre routeur n'a pas de bouton d'alimentation, le fait de brancher l'alimentation l'allumera automatiquement.
+3. Maintenez fermement le bouton Reset enfoncé et, **en même temps, mettez le routeur sous tension**. Si votre routeur n’a pas de bouton d’alimentation, le fait de brancher l’alimentation l’allumera automatiquement.
 
-    Vous verrez alors la LED clignoter plusieurs fois selon une séquence régulière ; relâchez votre doigt **après** le changement de séquence.
+    Attendez que la LED clignote selon une séquence régulière plusieurs fois. Relâchez le bouton Reset **après** le changement de séquence.
 
-    Voici la description de la séquence de clignotement des LED pour chaque modèle.
+    !!! note "Séquences de clignotement des LED selon le modèle"
 
-    **Remarque :** Un même modèle de routeur peut avoir des couleurs de LED ou des séquences de clignotement différentes selon sa date de fabrication ; cela n'affectera pas le processus U-Boot. Faites surtout attention au changement dans la séquence de clignotement.
+        **Remarque :** des routeurs identiques issus de lots de production différents peuvent avoir des couleurs de LED ou des séquences de clignotement différentes. Cela n’affecte pas le processus de récupération U-Boot. Faites surtout attention au changement d’état du clignotement.
 
-    - Pour le **GL-BE9300(Flint 3)**, la LED bleue clignote 6 fois, puis devient blanche fixe.
-    
-    - Pour le **GL-BE3600(Slate 7)**, après avoir maintenu le bouton Reset enfoncé pendant environ 5 secondes, un compte à rebours de 5 secondes apparaît sur l'écran LED. Continuez à appuyer sur le bouton Reset jusqu'à ce que l'étape suivante s'affiche à l'écran :
+        - Pour le **GL-MT3600BE (Beryl 7)** : la LED bleue clignote 7 fois, puis devient blanche fixe.
 
-        1. Manually set the IP address of your computer to 192.168.1.2
-        2. Use browser to visit  http://192.168.1.1
+        - Pour le **GL-MT5000 (Brume 3)** : la LED d’alimentation clignote en bleu 7 fois, puis devient blanche fixe.
 
-        Passez à l'étape 4 pour la suite des instructions.
+        - Pour le **GL-BE6500 (Flint 3e)** : la LED bleue clignote 6 fois, puis devient blanche fixe.
 
-    - Pour le **GL-B3000(Marble)**, la LED bleue clignote 7 fois, puis devient blanche fixe.
+        - Pour le **GL-BE9300 (Flint 3)** : la LED bleue clignote 6 fois, puis devient blanche fixe.
 
-    - Pour le **GL-MT6000(Flint 2)**, la LED bleue clignote 6 fois, puis devient blanche fixe.
+        - Pour le **GL-BE3600 (Slate 7)** : après avoir maintenu le bouton Reset enfoncé pendant environ 5 secondes, un compte à rebours de 5 secondes apparaît sur l’écran tactile. Continuez à appuyer sur le bouton Reset jusqu’à ce que l’invite suivante apparaisse à l’écran, par exemple définir manuellement l’adresse IP de votre ordinateur sur 192.168.1.2 et utiliser un navigateur pour accéder à http://192.168.1.1. Passez ensuite à l’étape 4.
 
-    - Pour le **GL-MT3000(Beryl AX)**, la LED bleue clignote 6 fois, puis devient blanche fixe.
+        - Pour le **GL-X2000 (Spitz Plus)** : la LED Internet clignote 5 fois, puis la LED Wi-Fi reste allumée.
 
-    - Pour le **GL-MT2500/GL-MT2500A(Brume 2)**, la LED bleue clignote 5 fois, puis devient blanche fixe.
+        - Pour le **GL-B3000 (Marble)** : la LED bleue clignote 7 fois, puis devient blanche fixe.
 
-    - Pour le **GL-S200**, la LED cyan clignote 5 fois, devient brièvement violette, puis reste cyan fixe.
+        - Pour le **GL-MT6000 (Flint 2)** : la LED bleue clignote 6 fois, puis devient blanche fixe.
 
-    - Pour le **GL-A1300(Slate Plus)**, la LED clignote lentement 5 fois, reste allumée un court instant, puis clignote rapidement en continu.
+        - Pour le **GL-MT3000 (Beryl AX)** : la LED bleue clignote 6 fois, puis devient blanche fixe.
 
-    - Pour les **GL-AR150**, **GL-AR300M**, **GL-USB150(Microuter)**, **GL-AR750(Creta)**, **GL-AR750S-EXT(Slate)**, **GL-X750(Spitz)**, **GL-MT300N-V2(Mango)** et **microuter-N300**, la LED clignote 5 fois.
+        - Pour le **GL-MT2500/GL-MT2500A (Brume 2)** : la LED d’alimentation clignote en bleu 5 fois, puis devient blanche fixe.
 
-    - Pour le **GL-E750(Mudi)**, son écran affiche d'abord "Booting", puis "Reset Counting 1 to 4", puis enfin "Please Open Web 192.168.1.1".
+        - Pour le **GL-X3000 (Spitz AX)** : la LED Internet clignote 5 fois, puis la LED Wi-Fi reste allumée.
 
-    - Pour les **GL-S1300(Convexa-S)** et **GL-B1300(Convexa-B)**, la LED clignote 4 fois.
-        
-        La LED Power la plus à gauche peut rester allumée tout le temps tandis que la LED Wi-Fi la plus à droite clignote 4 fois, puis la LED Mesh du milieu reste allumée en continu.
-        
-        (Pour certains anciens GL-B1300, la LED Power la plus à gauche reste allumée en permanence, et la LED du milieu ainsi que celle de droite clignotent 5 fois simultanément, puis restent allumées.)
+        - Pour le **GL-XE3000 (Puli AX)** : la LED Internet clignote 5 fois, puis la LED Wi-Fi reste allumée.
 
-    - Pour le **GL-SF1200**, la LED 5G clignote 5 fois, puis reste allumée en continu.
+        - Pour le **GL-XE300 (Puli)** : la LED LAN clignote 5 fois, puis la LED Wi-Fi reste allumée.
 
-    - Pour le **GL-AX1800(Flint)**, la LED bleue clignote 5 fois, puis devient blanche fixe.
+        - Pour le **GL-E750 (Mudi)** : son écran affiche d’abord "Booting", puis "Reset Counting 1 to 4", puis enfin "Please Open Web 192.168.1.1".
 
-    - Pour le **GL-AXT1800(Slate AX)**, la LED bleue clignote 5 fois, puis reste allumée en continu.
+        - Pour le **GL-X750 (Spitz)** : la LED Internet clignote 5 fois, puis la LED Wi-Fi reste allumée.
 
-    - Pour le **GL-XE300(Puli)**, la LED LAN clignote 5 fois, puis la LED Wi-Fi reste allumée.
+        - Pour le **GL-AX1800 (Flint)** : la LED bleue clignote 5 fois, puis devient blanche fixe.
 
-    - Pour le **GL-X300B(Collie)**, la LED WAN clignote 5 fois, puis la LED Wi-Fi reste allumée.
+        - Pour le **GL-AXT1800 (Slate AX)** : la LED bleue clignote 5 fois, puis devient blanche fixe.
 
-    - Pour le **GL-X3000(Spitz AX)**, la LED WAN clignote 5 fois, puis la LED Wi-Fi reste allumée.
+        - Pour le **GL-SFT1200 (Opal)** : la LED bleue clignote 5 fois, puis devient blanche fixe.
 
-    - Pour le **GL-XE3000(Puli AX)**, la LED WAN clignote 5 fois, puis la LED Wi-Fi reste allumée.
+        - Pour le **GL-MT1300 (Beryl)** : la LED bleue clignote deux fois lentement, puis 5 fois plus rapidement avant de devenir blanche fixe.
 
-    - Pour le **GL-SFT1200(Opal)**, la LED bleue clignote 5 fois, puis devient blanche fixe.
+        - Pour le **GL-A1300 (Slate Plus)** : la LED clignote lentement 5 fois, reste allumée un court instant, puis clignote rapidement en continu.
 
-    - Pour le **GL-AP1300(Cirrus)**, la LED d'alimentation clignote lentement 5 fois, reste allumée un court instant, puis clignote rapidement en continu.
+        - Pour les **GL-MT300N-V2 (Mango)** et **GL-AR300M (Shadow)** : la LED clignote 5 fois.
 
-    - Pour le **GL-MT1300(Beryl)**, la LED est d'abord bleue, clignote deux fois lentement, puis clignote 5 fois plus rapidement et devient blanche fixe.
+        - Pour le **GL-X300B (Collie)** : la LED WAN clignote 5 fois, puis la LED Wi-Fi reste allumée.
 
-    - Pour le **GL-B2200(Velica)**, les deux LED sont d'abord bleues, puis deviennent blanches et clignotent 5 fois, avant de devenir bleues fixes.
+        - Pour le **GL-AP1300 (Cirrus)** : la LED d’alimentation clignote lentement 5 fois, reste allumée un court instant, puis clignote rapidement en continu.
 
-    - Pour les **GL-MV1000/GL-MV1000W(Brume)**, il n'y a pas de séquence répétée de clignotement des LED. (Les LED Power et WAN restent allumées en permanence.)
+        - Pour les **GL-B1300 (Convexa-B)** et **GL-S1300 (Convexa-S, EOL)** : la LED clignote 4 fois.
 
-    - Pour le **GL-MiFi**, la LED clignote 6 fois.
+            La LED Power la plus à gauche reste allumée tout le temps tandis que la LED Wi-Fi la plus à droite clignote 4 fois, puis la LED Mesh du milieu reste allumée en continu.
 
-    - Pour les **GL-MT300N**, **GL-MT300A**, la LED clignote 3 fois.
+            (Pour certains anciens GL-B1300, la LED Power la plus à gauche reste allumée en permanence, et la LED du milieu ainsi que celle de droite clignotent 5 fois simultanément, puis restent allumées.)
 
-4. Définissez manuellement l'adresse IP de votre ordinateur sur **192.168.1.2**. Veuillez consulter le guide pas à pas pour les différents systèmes d'exploitation ci-dessous :
+        - Pour le **GL-B2200 (Velica)** : les deux LED sont d’abord bleues, puis deviennent blanches et clignotent 5 fois, avant de devenir bleues fixes.
+
+        - Pour le **GL-SF1200** : la LED 5G clignote 5 fois, puis reste allumée en continu.
+
+        - Pour le **GL-S200** : la LED cyan clignote 5 fois, devient brièvement violette, puis reste cyan fixe.
+
+        - Pour les **GL-AR750 (Creta)** et **GL-AR750S-EXT (Slate)** : la LED clignote 5 fois.
+
+        - Pour les **GL-USB150 (Microuter)**, **microuter-N300** et **GL-AR150 (White)** : la LED clignote 5 fois.
+
+        - Pour les **GL-MV1000/GL-MV1000W (Brume)** : il n’y a pas de séquence répétée de clignotement des LED. Les LED Power et WAN restent allumées en permanence.
+
+        - Pour le **GL-MiFi** : la LED clignote 6 fois.
+
+        - Pour les **GL-MT300N** et **GL-MT300A** : la LED clignote 3 fois.
+
+4. Définissez manuellement l’adresse IP de votre ordinateur sur **192.168.1.2**. Veuillez consulter le guide pas à pas pour les différents systèmes d’exploitation ci-dessous :
 
     ??? "Windows 7 / Windows 10"
 
@@ -105,7 +116,7 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
         3. Cliquez sur **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
 
-        4. Définissez manuellement l'**IP adress** sur `192.168.1.2`.
+        4. Définissez manuellement l’**IP adress** sur `192.168.1.2`.
 
         5. Définissez le **Subnet mask** sur `255.255.255.0`.
 
@@ -119,7 +130,7 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
         8. Cliquez sur **Network & Internet**.
 
-        9. Cliquez sur l'onglet **Ethernet**.
+        9. Cliquez sur l’onglet **Ethernet**.
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
@@ -127,13 +138,13 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        11. Sélectionnez l'option **Manual**.
+        11. Sélectionnez l’option **Manual**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        12. Activez le commutateur **IPv4**.
+        12. Activez l’interrupteur **IPv4**.
 
-        13. Définissez l'**IP address** statique sur **192.168.1.2**.
+        13. Définissez l’**IP address** statique sur **192.168.1.2**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
@@ -142,8 +153,8 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
         15. Cliquez sur le bouton **Save**.
 
     ??? "macOS"
-    
-        16. Cliquez sur l'icône **Apple** en haut à gauche de l'écran, puis sélectionnez **System Preferences**.
+
+        16. Cliquez sur l’icône **Apple** en haut à gauche de l’écran, puis sélectionnez **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences.png){class="glboxshadow"}
 
@@ -151,7 +162,7 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
             ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences_network.png){class="glboxshadow"}
 
-        18. Cliquez sur **Ethernet** à gauche, puis cliquez sur la liste déroulante à côté de **Configure IPv4** et sélectionnez **Manually**. Si vous utilisez un adaptateur USB Ethernet, **Ethernet** peut ne pas apparaître et le nom de l'adaptateur USB Ethernet peut s'afficher à la place.
+        18. Cliquez sur **Ethernet** à gauche, puis cliquez sur la liste déroulante à côté de **Configure IPv4** et sélectionnez **Manually**. Si vous utilisez un adaptateur USB-Ethernet, **Ethernet** peut ne pas apparaître et le nom de l’adaptateur peut s’afficher à la place.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_1.png){class="glboxshadow"}
 
@@ -159,23 +170,25 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-5. Utilisez un navigateur pour accéder à **http://192.168.1.1**. Il s'agit de l'interface Web U-Boot.
+5. Utilisez un navigateur pour accéder à **http://192.168.1.1**. Il s’agit de l’interface Web U-Boot.
 
     ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
-    !!! Note 
-    
-        - Si vous ne parvenez pas à accéder à l'interface Web U-Boot, vérifiez si un logiciel VPN ou proxy est en cours d'exécution. Désactivez tout logiciel VPN ou proxy, y compris Tailscale et ZeroTier.
-    
-        - L'interface Web U-Boot ci-dessus peut ne pas être exactement identique à ce que vous voyez, car la version d'U-Boot diffère selon les dates de production. Dans certains cas extrêmes, nous recommandons de mettre à niveau la version d'U-Boot. Veuillez consulter le tutoriel [ici](upgrade_uboot_version.md).
+    !!! Note
+
+        - Si vous ne parvenez pas à accéder à l’interface Web U-Boot, vérifiez si un logiciel VPN ou proxy est en cours d’exécution. Désactivez tout logiciel VPN ou proxy, y compris Tailscale et ZeroTier.
+
+        - L’interface Web U-Boot ci-dessus peut ne pas être exactement identique à ce que vous voyez, car la version d’U-Boot diffère selon les dates de production. Dans certains cas extrêmes, nous recommandons de mettre à niveau la version d’U-Boot. Veuillez consulter le tutoriel [ici](upgrade_uboot_version.md).
 
 6. Cliquez sur le bouton **Choose file** pour trouver le fichier du firmware. Cliquez ensuite sur le bouton **Update firmware**.
 
-7. Attendez environ 3 minutes. N'éteignez pas votre appareil pendant la mise à jour. Le routeur est prêt lorsque les LED d'alimentation et Wi-Fi sont allumées, ou lorsque vous pouvez trouver son SSID sur votre appareil.
+7. Attendez environ 3 minutes. N’éteignez pas votre appareil pendant la mise à jour du firmware.
 
-8. Rétablissez le paramétrage IP modifié à l'étape 4 et connectez votre appareil au LAN ou au Wi-Fi du routeur. Vous pourrez de nouveau accéder au routeur via **192.168.8.1**.
+    Le routeur est prêt lorsque la LED continue de clignoter en bleu ; pour certains modèles cellulaires, il est prêt lorsque les LED Power et Wi-Fi restent allumées en continu.
 
-    **Remarque :** Il peut être nécessaire d'utiliser le mode navigation privée ou de supprimer le cache et les cookies du navigateur pour accéder au routeur.
+8. Rétablissez le paramétrage IP modifié à l’étape 4 et connectez votre ordinateur au LAN ou au Wi-Fi du routeur. Vous pourrez de nouveau accéder au panneau d’administration web du routeur via **192.168.8.1**.
+
+    **Remarque :** il peut être nécessaire d’utiliser le mode navigation privée ou de supprimer le cache et les cookies du navigateur pour accéder au routeur.
 
 ---
 

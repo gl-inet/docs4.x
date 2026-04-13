@@ -437,20 +437,6 @@ Si el proveedor de servicios al que está suscrito no aparece en la lista siguie
 
     [Refer link](https://www.ivpn.net/setup/gnu-linux-terminal.html)
 
-??? "Mullvad" ### Mullvad
-
-    [Official Website](https://mullvad.net/en){target="_blank"}
-
-    1. Vaya al sitio web de [Mullvad](https://mullvad.net/en){rel="sponsored" target="_blank"} e inicie sesión con sus credenciales de Mullvad.
-
-    2. Elija OpenVPN Configuration.
-
-    ![ovpnconfig](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ovpnconfig.jpg){class="glboxshadow"}
-
-    3. Elija **Linux** y seleccione la ubicación del servidor.
-
-    ![linux](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/linux.jpg){class="glboxshadow"}
-
 ??? "OVPN" ### OVPN
 
     [Official Website](https://www.ovpn.com/en?ref=glinet){target="_blank"}
@@ -529,11 +515,11 @@ Si el proveedor de servicios al que está suscrito no aparece en la lista siguie
 
     Para configurar un cliente OpenVPN con PureVPN, necesitará su nombre de usuario y contraseña de OpenVPN, así como un archivo de configuración, que puede encontrar en su cuenta de PureVPN.
 
-    1. [Sign in to your PureVPN account.](https://my.purevpn.com/)
-    2. From the left sidebar, click **Subscriptions**.
-    3. Scroll down to find your OpenVPN username and password.
+    1. [Inicie sesión en su cuenta de PureVPN.](https://my.purevpn.com/)
+    2. En la barra lateral izquierda, haga clic en **Subscriptions**.
+    3. Desplácese hacia abajo para encontrar su nombre de usuario y contraseña de OpenVPN.
         ![purevpn username and password](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/purevpn-vpn-username-vpn-password.png){class="glboxshadow"}
-    4. From the left sidebar, click **Manual Configuration**.
+    4. En la barra lateral izquierda, haga clic en **Manual Configuration**.
     5. Seleccione una ubicación VPN y haga clic en **Download** para descargar el archivo de configuración.
 
     [Refer link](https://support.purevpn.com/openvpn-files)
@@ -544,7 +530,7 @@ Si el proveedor de servicios al que está suscrito no aparece en la lista siguie
 
     [Official Website](https://safervpn.com/?a_aid=563){target="_blank"}
 
-    [Descargue](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup) directamente.
+    Haga clic [aquí](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup) para descargar directamente los archivos de configuración.
 
     ![safervpn openvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
 
@@ -552,31 +538,29 @@ Si el proveedor de servicios al que está suscrito no aparece en la lista siguie
 
     [Official Website](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
-    StarVPN dispone de servicio WireGuard; recomendamos usar WireGuard. Consúltelo [aquí](wireguard_client.md#starvpn).
+    StarVPN ofrece servicio VPN con los protocolos OpenVPN y WireGuard. Recomendamos WireGuard, ya que normalmente es más rápido que OpenVPN. Consúltelo [aquí](wireguard_client.md#starvpn).
+
+    Si prefiere usar OpenVPN, siga los pasos siguientes para descargar el archivo de configuración.
 
     1. **Registre una cuenta en StarVPN**
 
         Diríjase a sus opciones de [pricing plan](https://www.starvpn.com/#pricing){target="_blank"} y elija un plan VPN que se ajuste a sus necesidades. Puede registrarse en el proceso de compra o directamente [aquí](https://www.starvpn.com/dashboard/register.php){target="_blank"}.
 
-    2. Información de inicio de sesión VPN
+    2. **Descargue la configuración OpenVPN**
 
-        Inicie sesión en el [dashboard](https://www.starvpn.com/dashboard){target="_blank"} del área de miembros de StarVPN. Puede encontrar su nombre de usuario y contraseña VPN para cada slot en la sección Manage Slots o en el área del dashboard.
+        Inicie sesión en el [dashboard](https://www.starvpn.com/dashboard){target="_blank"} del área de miembros de StarVPN. En el Dashboard, localice la sección **VPN Configuration** y haga clic en **OpenVPN Config**. Copie el nombre de usuario y la contraseña OVPN, ya que los necesitará para autenticarse al subir el archivo a su router GL.iNet.
 
-        ![starvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/vpn-username_edited-2.jpg){class="glboxshadow"}
+        ![download starvpn ovpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/ovpnconfigdl.png){class="glboxshadow"}
 
-        En el caso de varios slots, los ajustes y las credenciales de configuración VPN se encuentran en la sección “Manage Slots”.
+        Seleccione UDP o TCP y descargue un archivo de configuración.
 
-        ![starvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/vpn-username_slots_edited-1024x355.jpeg){class="glboxshadow"}
+        ![select udp or tcp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/udp_tcp.png){class="glboxshadow"}
 
-    3. Descargar el archivo de configuración OpenVPN
+    3. **Edite el archivo de configuración**
 
-        En el siguiente paso, debe descargar los archivos de configuración del servidor VPN necesarios para que el software OpenVPN sepa dónde conectarse. Descargue el archivo de configuración desde el dashboard del área de miembros.
+        Algunos routers GL.iNet no son compatibles con IPv6. Para evitar problemas de compatibilidad y conectividad, abra el archivo de configuración `.ovpn` y elimine el contenido relacionado con IPv6, como se muestra a continuación.
 
-        ![download starvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/download-ovpn_edited.jpg){class="glboxshadow"}
-
-        Algunos routers GL.iNet no admiten IPv6 o DNS Leak Protection, por lo que puede experimentar un error de IP o de conexión. Edite el archivo de configuración ovpn y desactive IPv6 realizando estas sencillas tareas.
-
-        ![troubleshooting](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/troubleshooting.jpg){class="glboxshadow"}
+        ![remove ipv6](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/remove_ipv6.png){class="glboxshadow"}
 
 
 ??? "StreamVPN" ### StreamVPN

@@ -10,7 +10,7 @@
 
     ![modem name](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/no_sim.png){class="glboxshadow"}
     
-    ファームウェアver.4.8で降では、**View More Information**をクリックしてSIM ICCIDを確認できます。
+    ファームウェアver.4.8以降では、**View More Information**をクリックしてSIM ICCIDを確認できます。
 
     これらが表示されない場合は、ルーターを再起動してください。モデム名とIMEIが認識されない場合は、[support@gl-inet.com](mailto:support@gl-inet.com)までお問い合わせください。
     
@@ -18,7 +18,7 @@
 
     ![cells info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/cells_info.png){class="glboxshadow"}
     
-    **1.4** **View More**をクリックして、お使いのデバイスが対応する周波数帯がに域と互換性があるかどうかを確認してください。
+    **1.4** **View More**をクリックして、お使いのデバイスが対応する周波数帯が地域と互換性があるかどうかを確認してください。
 
     ![frequency band](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/frequency_band.png){class="glboxshadow"}
 
@@ -30,13 +30,13 @@
     
     **2.2** 一部の通信事業者では**3Gプロトコル**での接続が必要な場合があります。3Gプロトコルに切り替え、再テストしてください。
 
-    ファームウェアver.4.7で前では、**Manual Setup** -> **Protocol**に移動し、**3G**を選択して**Apply**をクリックしてください。
+    ファームウェアver.4.7以前では、**Manual Setup** -> **Protocol**に移動し、**3G**を選択して**Apply**をクリックしてください。
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/3.png){class="glboxshadow gl-90-desktop"}
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/4.png){class="glboxshadow gl-90-desktop"}
 
-    ファームウェアver.4.8で降では、**SIM Card Settings** -> **Protocol**に移動し、**3G**を選択して**Apply**をクリックしてください。
+    ファームウェアver.4.8以降では、**SIM Card Settings** -> **Protocol**に移動し、**3G**を選択して**Apply**をクリックしてください。
 
     ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
 
@@ -46,13 +46,13 @@
 
     ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** **Band Masking**を有効にして再テストしてください。ファームウェアver.4.7で前については、[このリンク](../interface_guide/internet_cellular_v4.7.md/#band-masking)を参照してください。ファームウェアver.4.8で降については、[このリンク](../interface_guide/internet_cellular.md/#band-masking)を参照してください。
+    **2.4** **Band Masking**を有効にして再テストしてください。ファームウェアver.4.7以前については、[このリンク](../interface_guide/internet_cellular_v4.7.md/#band-masking)を参照してください。ファームウェアver.4.8以降については、[このリンク](../interface_guide/internet_cellular.md/#band-masking)を参照してください。
 
     **2.5** 通信基地局をロックまたはロック解除して再テストしてください。この機能はGL-X3000 (Spitz AX)、GL-XE3000 (Puli AX)、GL-X2000 (Spitz Plus)でのみ利用可能です。詳細については[ここ](../interface_guide/internet_cellular.md/#lock-tower)をクリックしてください。
     
     特定の通信基地局にロックすると、ルーターは高品質のネットワークリソースにアクセスし、安定したモバイル接続を維持できます。
     
-    しかし、基地局にロックすると、新しい場所に移動しても、ルーターは再起動後もその基地局への接続を試み続けます。これにより、ルーターが自動的にモバイルネットワークに接続できなくなる可能性があります。この場合、ルーターのWeb管理パネルから現にの基地局のロックを解除するか、新しい基地局に手動でロックしてください。
+    しかし、基地局にロックすると、新しい場所に移動しても、ルーターは再起動後もその基地局への接続を試み続けます。これにより、ルーターが自動的にモバイルネットワークに接続できなくなる可能性があります。この場合、ルーターのWeb管理パネルから現在の基地局のロックを解除するか、新しい基地局に手動でロックしてください。
 
     **注意:** ロックされた基地局は、キャリアとデバイスがサポートする周波数帯と一致する必要があります。一致しない場合、接続に失敗する可能性があります。
 
@@ -78,7 +78,7 @@
 
     キャリアがSIMカードの問題ではないことを確認した場合は、[support@gl-inet.com](mailto:support@gl-inet.com)までお問い合わせください。
 
-    **3.6** SIMカードが登録されてIPアドレスを取なければならないできるが、インターネットにアクセスできない場合（アップロードは動作するがダウンロードは動作しない）、SIMカードキャリアによって制限されている可能性があります。キャリアに連絡して制限を解除するか、下図のようにTTLを65に設定して再テストしてください。
+    **3.6** SIMカードが登録されてIPアドレスを取得できるが、インターネットにアクセスできない場合（アップロードは動作するがダウンロードは動作しない）、SIMカードがキャリアによって制限されている可能性があります。キャリアに連絡して制限を解除するか、下図のようにTTLを65に設定して再テストしてください。
     
     ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/5.png){class="glboxshadow gl-90-desktop"}
     

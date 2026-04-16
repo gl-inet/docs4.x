@@ -18,29 +18,42 @@ If you set custom DNS server(s), any DNS queries will be resolved through the sp
 
 There are four modes: Automatic, Encrypted DNS, Manual DNS, and DNS Proxy.
 
-- **Automatic**: The router will automatically use the DNS server provided by the upstream device (e.g., ISP modem, primary router), or the DNS settings corresponding to each network interface.
+### Automatic
 
-    ![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
+In this mode, the router will automatically use the DNS server provided by the upstream device (e.g., ISP modem, primary router), or the DNS settings corresponding to each network interface.
 
-- **Encrypted DNS**: Four Encryption Type are available: DNS over TLS, DNSCrypt-Proxy, DNS over HTTPS, Oblivious DNS over HTTPS.
+![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
 
-    ![encrypted dns types](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_types.png){class="glboxshadow"}
+### Encrypted DNS
 
-    - For DNS over TLS, select a DNS provider among Control D, NextDNS, and Cloudflare.
+In this mode, four encryption type are available: 
 
-        ![dns over tls](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_tls.png){class="glboxshadow"}
+- DNS over TLS
+- DNSCrypt-Proxy
+- DNS over HTTPS
+- Oblivious DNS over HTTPS
 
-    - For the other three (i.e., DNSCrypt-Proxy, DNS over HTTPS, and Oblivious DNS over HTTPS), select at least one DNS Server from the repository.
+![encrypted dns types](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_types.png){class="glboxshadow"}
 
-        ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
+For DNS over TLS, select a DNS provider among Control D, NextDNS, and Cloudflare.
 
-- **Manual DNS**: Select at least one DNS Server for your router from the drop-down list.
+![dns over tls](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_tls.png){class="glboxshadow"}
 
-    ![manual dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/manual_dns.png){class="glboxshadow"}
+For the other three (i.e., DNSCrypt-Proxy, DNS over HTTPS, and Oblivious DNS over HTTPS), select at least one DNS Server from the repository.
 
-- **DNS Proxy**: The router will route all LAN DNS queries to the proxy server address you specify (e.g., 8.8.8.8#53). This might be useful if you are running another DNS server or Pi-hole on your network.
+![dnscrypt-proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
 
-    ![dns proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_proxy.png){class="glboxshadow"}
+### Manual DNS
+
+In this mode, you can customize your router's DNS server. Select at least one DNS Server for your router from the drop-down list.
+
+![manual dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/manual_dns.png){class="glboxshadow"}
+
+### DNS Proxy
+
+In this mode, the router will route all LAN DNS queries to the proxy server address you specify (e.g., 8.8.8.8#53). This might be useful if you are running another DNS server or Pi-hole on your network.
+
+![dns proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_proxy.png){class="glboxshadow"}
 
 ## Edit Hosts
 

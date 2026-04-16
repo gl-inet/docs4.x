@@ -101,7 +101,7 @@ GL.iNet routers have pre-installed VPN server and client in OpenVPN and WireGuar
 
 ### VPN Dashboard
 
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard.md)
+- [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
 ### OpenVPN
 

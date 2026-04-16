@@ -51,7 +51,7 @@ Some Internet Service Providers (ISPs) may fail to resolve VPN domains. Try usin
 
 Some Internet Service Providers (ISPs), especially mobile carriers, may limit the size of data packets. Try changing the default MTU from 1420 to 1380 or 1280 in the VPN Client Options. 
 
-For firmware v4.8 and above, please refer to [here](../interface_guide/vpn_dashboard.md/#tunnel-options). 
+For firmware v4.8 and above, please refer to [here](../interface_guide/vpn_dashboard_v4.8.md/#tunnel-options). 
 
 For firmware v4.7 and earlier, please refer to [here](../interface_guide/vpn_dashboard_v4.7.md#vpn-client-options).
 

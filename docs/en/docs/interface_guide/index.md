@@ -33,13 +33,15 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## VPN
 
-* [VPN Dashboard](vpn_dashboard.md)
+* [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
+* [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
+* [VPN Dashboard (v4.9)](vpn_dashboard_v4.9.md)
 * [Set up OpenVPN Client](openvpn_client.md)
 * [Set up OpenVPN Server](openvpn_server.md)
 * [Set up WireGuard Client](wireguard_client.md)
 * [Set up WireGuard Server](wireguard_server.md)
 * [VPN Policy (for firmware v4.7 and earlier)](vpn_dashboard_v4.7.md#proxy-mode)
-* [VPN Policy (for firmware v4.8 and later)](vpn_dashboard.md#policy-mode)
+* [VPN Policy (for firmware v4.8 and later)](vpn_dashboard_v4.8.md#policy-mode)
 * [How to set up NordVPN on router?](openvpn_client.md#set-up-nordvpn)
 * [How to set up AzireVPN on router?](wireguard_client.md#set-up-azirevpn)
 * [How to set up Mullvad VPN on router?](wireguard_client.md#set-up-mullvad)

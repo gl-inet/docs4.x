@@ -26,7 +26,7 @@ Enable the remote access protocol you want, and click **Apply**.
 
 There may be a delay of up to 10 minutes in record synchronization between DNS servers. This may prevent you from accessing through the DDNS domain name immediately after enabling it or when your public IP changes.
 
-**Note**: If you enable DDNS and VPN Client at the same time, make sure that **Services From GL.iNet Use VPN** is disabled. This feature can be found in the [VPN Client Options](vpn_dashboard.md#tunnel-options) of the VPN Dashboard.
+**Note**: If you enable DDNS and VPN Client at the same time, make sure that **Services From GL.iNet Use VPN** is disabled. This feature can be found in the [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) of the VPN Dashboard.
 
 ## Check If DDNS Works
 

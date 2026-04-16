@@ -1,12 +1,8 @@
 # VPN Dashboard (Firmware v4.7 and earlier)
 
-**Note**: This guide is based on firmware v4.7 and earlier. For newer versions, please refer to [here](vpn_dashboard.md).
-
----
-
 Log in to the web Admin Panel, and go to **VPN** -> **VPN Dashboard**.
 
-VPN Dashboard page is for the status and setting of VPN. There are two sectors, [VPN Client](#vpn-client) and [VPN Server](#vpn-server).
+VPN Dashboard page displays the VPN connection status and settings. There are two sectors: [VPN Client](#vpn-client) and [VPN Server](#vpn-server).
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
 

@@ -44,6 +44,7 @@ plugins:
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
+        'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
 
 extra:
   social:
@@ -286,7 +287,9 @@ nav:
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:
-      - VPN Dashboard: interface_guide/vpn_dashboard.md
+      - VPN Dashboard (v4.7): interface_guide/vpn_dashboard_v4.7.md
+      - VPN Dashboard (v4.8): interface_guide/vpn_dashboard_v4.8.md
+      - VPN Dashboard (v4.9): interface_guide/vpn_dashboard_v4.9.md
       - OpenVPN Client: interface_guide/openvpn_client.md
       - OpenVPN Server: interface_guide/openvpn_server.md
       - WireGuard Client: interface_guide/wireguard_client.md

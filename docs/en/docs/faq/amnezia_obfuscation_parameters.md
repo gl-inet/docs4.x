@@ -20,8 +20,8 @@ Here is how to identify the AmneziaWG version:
 | Parameter    | Description                    | Constraints     | Auto-generated   |
 | ------------ | ------------------------------ | --------------- | ---------------- |
 | Jc           | The number of junk packets before the client initiating the handshake (for interference with traffic feature detection) | 1~128 | 4~12 |
-| Jmin         | Minimun size for random junk packets (bytes); Must be configured with Jmax to define junk packats size | 0 ≤ Jmin < Jmax < 65535 | 0 <= jmin < jmax < 1280 |
-| Jmax         | Maximun size for random junk packets     | 0 ≤ Jmin < Jmax < 65535        | 0≤ Jmin < Jmax < 1280 |
+| Jmin         | Minimun size for random junk packets (bytes); Must be configured with Jmax to define junk packats size | 0 ≤ Jmin < Jmax < 1280 | 0 <= jmin < jmax < 1280 |
+| Jmax         | Maximun size for random junk packets     | 0 ≤ Jmin < Jmax < 1280         | 0≤ Jmin < Jmax < 1280 |
 | S1           | Random prefixes for Init packets         | 0 ≤ S1 ≤ 1132                  | 15~150 |
 | S2           | Random prefixes for Response packets     | 0 ≤ S2 ≤ 1188 <br> S1 + 56 ≠ S2 | 15~150 |
 | S3           | Random prefixes for Cookie packets       | 0 ≤ S3 ≤ 1216                  | 15~150 |

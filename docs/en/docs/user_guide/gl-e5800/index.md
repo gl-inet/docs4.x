@@ -92,13 +92,13 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
 
         ![active sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/active_sim_card.png){class="glboxshadow"}
 
-    5. The router will start connecting via this eSIM profile. Wait and see if the eSIM is connected successfully.
+    5. The router will start connecting via this eSIM profile. Please wait and check if the connection is successful. 
 
     **Set up Nano‑SIM**: 
     
     1. Remove the back cover, take out the battery, insert your Nano-SIM card into the slot, then install the battery. 
 
-    2. The router will start connecting automatically via this Nano SIM card. Wait and see if it is connected successfully. You can check the cellular connection status on the touchscreen.
+    2. The router will start connecting automatically via this Nano‑SIM card. Please wait and check if the connection is successful.
 
     Once successfully connected to the internet, the signal bars and cellular status will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 

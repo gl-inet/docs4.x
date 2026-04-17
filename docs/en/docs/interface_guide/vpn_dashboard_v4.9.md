@@ -12,7 +12,9 @@ Compared to firmware v4.8, v4.9 includes the following improvements to the VPN D
 
 ## Getting Started
 
-When entering this page for the first time, if no tunnels have been created, the page will appear as shown below. Click **Add VPN Tunnel** to get started.
+### Upload VPN Profile
+
+When entering this page for the first time, if no tunnels have been created, the page appears as follows. Click **Add VPN Tunnel** to get started.
 
 ![getting started](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/getting_started.png){class="glboxshadow"}
 
@@ -36,7 +38,9 @@ Then click **Go to Dashboard** at the bottom. You will be directed to the VPN Da
 
 ![PureVPN3](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/purevpn3.png){class="glboxshadow"}
 
-??? "What is VPN policy?"
+### Set Up VPN Policy
+
+!!! note "What is VPN policy?"
 
     A VPN policy defines how network traffic is routed through VPN tunnels, determining which traffic goes to target destinations via VPN and which accesses the Internet directly through the local WAN.
 
@@ -83,6 +87,20 @@ On the VPN Dashboard, follow the setup wizard to configure your VPN policy, incl
     - **Exclude specified Domain / IP List**: If selected, traffic matching this rule will not be routed to specified domains or IP addresses. You need to enter them manually.
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
 
+### Kill Switch
+
+!!! note "What is Kill Switch?"
+
+    Kill Switch is a security feature for VPN connections. It automatically cuts off all internet access for your local network if the VPN connection drops unexpectedly, preventing your real IP address and online data from being exposed and ensuring continuous privacy and security. This feature is particularly useful for maintaining secure, anonymous internet access, such as when using public networks, processing sensitive data, or hiding your real IP address.
+
+    When enabled, it blocks any client traffic that attempts to bypass the VPN tunnel, effectively stopping VPN leaks caused by DNS configuration issues, unexpected disconnections, direct IP requests, and other similar scenarios. 
+
+Since firmware v4.8, GL.iNet routers have supported configuring a Kill Switch for each individual VPN tunnel, as well as the global VPN connection.
+
+- To set up Kill Switch for each individual VPN tunnel, refer to [here](#tunnel-options).
+
+- To set up Kill Switch for the global VPN connection (i.e., Enhanced Kill Switch), refer to [here](#all-other-traffic).
+
 ## Usage Scenarios
 
 Here are two scenarios with step-by-step setup instructions for your reference.
@@ -103,7 +121,7 @@ Here are two scenarios with step-by-step setup instructions for your reference.
 
     Take [PureVPN](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"} as an example. Select one or multiple profiles, and adjust their priority on the right as needed. 
 
-    ![scenario 1 select profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_profiles.png){class="glboxshadow"}
+    ![scenario 1 profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_profiles.png){class="glboxshadow"}
 
     **Note**: When multiple profiles are selected, the tunnel will attempt to connect using each profile in priority order until a connection is successfully established. If all profiles within a single tunnel fail to connect, the system will determine whether to switch to the local WAN based on the status of the Tunnel Kill Switch and [All Other Traffic](#all-other-traffic) policy.
 
@@ -111,13 +129,13 @@ Here are two scenarios with step-by-step setup instructions for your reference.
 
     Click the **Specified Devices** tab, select the devices that will use the VPN, then click **Apply**.
 
-    ![scenario 1 select source](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_specified_devices.png){class="glboxshadow"}
+    ![scenario 1 source](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_specified_devices.png){class="glboxshadow"}
 
 3. Select Target Destination.
 
     Click the **All Targets** tab, set it as the traffic destination, then click **Apply**.
 
-    ![scenario 1 select target](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/case1_target.png){class="glboxshadow"}
+    ![scenario 1 target](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_all_targets.png){class="glboxshadow"}
 
 4. You will be directed to the VPN Dashboard, where a VPN tunnel has been added. 
 
@@ -157,7 +175,7 @@ Here are two scenarios with step-by-step setup instructions for your reference.
 
     Take [PureVPN](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"} as an example. Select one or multiple profiles, and adjust their priority on the right as needed.
 
-    ![scenario 2 select profile1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_profiles1.png){class="glboxshadow"}
+    ![scenario 2 profile1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_profiles1.png){class="glboxshadow"}
 
     **Note**: When multiple profiles are selected, the tunnel will attempt to connect using each profile in priority order until a connection is successfully established. If all profiles within a single tunnel fail to connect, the system will determine whether to switch to the local WAN based on the status of the Tunnel Kill Switch and [All Other Traffic](#all-other-traffic) policy.
 
@@ -165,13 +183,13 @@ Here are two scenarios with step-by-step setup instructions for your reference.
 
     Click the **All Clients** tab, set it as the client source for Tunnel 1, then click **Apply**.
 
-    ![scenario 2 select source1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/case2_source.png){class="glboxshadow"}
+    ![scenario 2 source1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_all_clients.png){class="glboxshadow"}
 
 3. Select Target Destination.
 
     Click the **Specified Domain / IP List** tab, enter domains of some common social media and streaming services, as shown below, then click **Apply**.
 
-    ![scenario 2 select target1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_specified_targets.png){class="glboxshadow"}
+    ![scenario 2 target1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_specified_targets.png){class="glboxshadow"}
 
 4. You will be directed to the VPN Dashboard, where the Tunnel 1 has been added. 
 
@@ -191,7 +209,7 @@ Here are two scenarios with step-by-step setup instructions for your reference.
 
     Take [PureVPN](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"} as an example. Select one or multiple profiles, and adjust their priority on the right as needed.
 
-    ![scenario 2 select profile2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_profiles2.png){class="glboxshadow"}
+    ![scenario 2 profile2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_profiles2.png){class="glboxshadow"}
 
     **Note**: When multiple profiles are selected, the tunnel will attempt to connect using each profile in priority order until a connection is successfully established. If all profiles within a single tunnel fail to connect, the system will determine whether to switch to the local WAN based on the status of the Tunnel Kill Switch and [All Other Traffic](#all-other-traffic) policy.
 
@@ -199,13 +217,13 @@ Here are two scenarios with step-by-step setup instructions for your reference.
 
     Click the **All Clients** tab, set it as the client source for Tunnel 2, then click **Apply**.
 
-    ![scenario 2 select source2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_all_clients.png){class="glboxshadow"}
+    ![scenario 2 source2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_all_clients.png){class="glboxshadow"}
 
 9. Select Target Destination.
 
     Click the **All Targets** tab, set it as the traffic destination for Tunnel 2, then click **Apply**.
 
-    ![scenario 2 select target2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_all_targets.png){class="glboxshadow"}
+    ![scenario 2 target2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_all_targets.png){class="glboxshadow"}
 
 10. You will be directed to the VPN Dashboard, where the Tunnel 2 has been added. 
 
@@ -213,9 +231,9 @@ Here are two scenarios with step-by-step setup instructions for your reference.
 
 11. Make sure the **Kill Switch** for Tunnel 2 is enabled. If the VPN disconnects unexpectedly, Internet access for traffic matching this tunnel will be blocked to prevent DNS leaks and IP tracking.
 
-    ![tunnel 2 kill switch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_killswitch3.png){class="glboxshadow"}
+    ![tunnel 2 kill switch3](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_killswitch3.png){class="glboxshadow"}
 
-    ![tunnel 2 kill switch2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_killswitch4.png){class="glboxshadow"}
+    ![tunnel 2 kill switch4](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_killswitch4.png){class="glboxshadow"}
 
 12. Click the gear icon at the upper right and enable **Enhanced Kill Switch**. This ensures that all traffic must access Internet via the VPN.
 

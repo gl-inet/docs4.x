@@ -126,6 +126,42 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
     3. Mudi 7 will then automatically connect to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and check the USB Ethernet connection on the INTERNET page.
     3. Once successfully connected to the internet, a USB icon and an Ethernet port icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 
+## Firmware Upgrade
+
+!!! Note "Before upgrading, please note:"
+
+    1. To retain your Mudi 7's configurations, select **Keep Settings** on the upgrade page. 
+    2. Do not select Keep Settings when downgrading, as there may be compatibility issues.
+    3. Firmware upgrade requires a certain amount of data consumption. If your SIM card data plan is limited, it is recommended to connect the router to the Internet via other methods (such as Repeater, USB Tethering, etc.) to avoid extra data consumption.
+
+You can upgrade Mudi 7's firmware via the Touchscreen or web Admin Panel.
+
+### Upgrade via Touchscreen
+
+1. Connect your Mudi 7 to the Internet. 
+
+2. Once connected, the system will automatically check for available firmware updates. If a new firmware is available, a prompt will pop up on the screen. In the pop-up prompt window, click **Go to Upgrade** to proceed.
+
+    ![go to upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade1.png){class="glboxshadow" width="300"}
+
+3. If the pop-up window does not appear, click **More** on the home screen -> **About Device** -> **Version & Upgrade** -> **Download & Upgrade**, then follow the on-screen instructions to upgrade the firmware.
+
+    ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
+
+### Upgrade via Web
+
+1. Online Upgrade
+
+    Log in to the web Admin Panel, and go to **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade** to update your router's firmware. 
+    
+    Please refer to [here](../../interface_guide/upgrade.md#online-upgrade) for details.
+
+2. Local Upgrade
+
+    Log in to the web Admin Panel, go to **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade** to update your router's firmware. 
+    
+    Please refer to [here](../../interface_guide/upgrade.md#local-upgrade) for details.
+
 ## Repair & Reset
 
 You can restore network connectivity or reset Mudi 7 to factory defaults by a physical reset button.

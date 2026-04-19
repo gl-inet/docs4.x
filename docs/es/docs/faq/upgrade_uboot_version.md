@@ -20,7 +20,7 @@ Siga los procedimientos que se indican a continuación para acceder a la página
 
     !!! note
 
-        En algunos modelos, ciertos puertos LAN y el puerto WAN son intercambiables. No utilice ese puerto LAN. Por ejemplo, en el GL-MT6000 (Flint 2), no utilice LAN 1. Use LAN 2, LAN 3 o LAN 4 en su lugar.
+        En algunos modelos, determinados puertos LAN individuales y el puerto WAN son intercambiables. No utilice ese puerto LAN. Por ejemplo, en el GL-MT6000 (Flint 2), no utilice LAN 1. Use LAN 2, LAN 3 o LAN 4 en su lugar.
 
 2.  Mantenga presionado con firmeza el botón Reset y, al mismo tiempo, encienda el router. Si su router no tiene botón de encendido, al conectar la alimentación se encenderá automáticamente.
 
@@ -90,7 +90,7 @@ Siga los procedimientos que se indican a continuación para acceder a la página
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-4.  **Use Google Chrome o Microsoft Edge para visitar `http://192.168.1.1/uboot.html`**
+4.  **Use Google Chrome o Microsoft Edge para visitar `http://192.168.1.1/uboot.html`**. Asegúrese de introducir la URL completa para evitar sugerencias almacenadas en caché que lleven a una dirección incorrecta.
 
     **NO use Mozilla/Firefox, ya que podría bloquear su router.**
 

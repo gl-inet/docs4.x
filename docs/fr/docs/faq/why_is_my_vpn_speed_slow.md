@@ -51,7 +51,7 @@ Certains fournisseurs d'accès Internet (FAI) peuvent ne pas résoudre correctem
 
 Certains fournisseurs d'accès Internet (FAI), en particulier les opérateurs mobiles, peuvent limiter la taille des paquets de données. Essayez de modifier la MTU par défaut de 1420 à 1380 ou 1280 dans **VPN Client Options**.
 
-Pour le firmware v4.8 et supérieur, veuillez consulter [ici](../interface_guide/vpn_dashboard.md/#tunnel-options).
+Pour le firmware v4.8 et supérieur, veuillez consulter [ici](../interface_guide/vpn_dashboard_v4.8.md/#tunnel-options).
 
 Pour le firmware v4.7 et antérieur, veuillez consulter [ici](../interface_guide/vpn_dashboard_v4.7.md#vpn-client-options).
 

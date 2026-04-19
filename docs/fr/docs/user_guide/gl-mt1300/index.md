@@ -101,7 +101,7 @@ Les routeurs GL.iNet intègrent un client VPN et un serveur VPN préinstallés p
 
 ### VPN Dashboard
 
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard.md)
+- [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
 ### OpenVPN
 

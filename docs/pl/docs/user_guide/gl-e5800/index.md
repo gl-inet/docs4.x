@@ -62,9 +62,43 @@ Skonfiguruj Mudi 7, korzystając z jednej z obsługiwanych metod połączenia z 
     
     Mudi 7 ma **wbudowaną kartę eSIM** oraz **dwa gniazda Nano-SIM**. Z internetem możesz połączyć się, kupując pakiet eSIM (bez fizycznej karty SIM), albo wkładając karty Nano-SIM, aby uzyskać dostęp do mobilnej sieci 5G.
     
-    - eSIM: Na ekranie dotykowym przejdź do **Cellular** -> **Active SIM Card**, włącz eSIM, a następnie prześlij profil eSIM przez web Admin Panel albo kup go w eSIM Profile Store.
+    **Konfiguracja eSIM**:
 
-    - Nano-SIM: Zdejmij tylną pokrywę Mudi 7, wyjmij akumulator, włóż kartę Nano-SIM do gniazda, a następnie ponownie zamontuj akumulator.
+    1. Na ekranie dotykowym przejdź do **Cellular** -> **SIM Card Switch** i włącz przełącznik **enable eSIM**.
+
+        ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
+
+    2. Zaloguj się do web Admin Panel i przejdź do **INTERNET** -> **Cellular** -> **eSIM Management**.
+
+        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
+
+    3. W wyskakującym oknie kliknij na dole **Add eSIM Profile**.
+
+        ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
+
+        Prześlij profil eSIM za pomocą kodu QR albo kodu aktywacyjnego, a następnie kliknij **Install**. Pamiętaj, że większość profili eSIM można pobrać i dodać tylko raz.
+
+        ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile2.png){class="glboxshadow"}
+
+        **Wskazówka**: Jeśli nie masz jeszcze wykupionego profilu eSIM, możesz kupić go w eSIM Profile Recommended Store.
+
+        ![recommended store](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
+
+    4. Po przesłaniu profilu przejdź do **Cellular** i kliknij **SIM Card Switch**.
+
+        ![sim card switch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/sim_card_switch.png){class="glboxshadow" width="590"}
+
+        W wyskakującym oknie wybierz **eSIM** jako aktywną kartę SIM, a następnie kliknij **Apply**.
+
+        ![active sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/active_sim_card.png){class="glboxshadow"}
+
+    5. Router rozpocznie łączenie z internetem przy użyciu tego profilu eSIM. Poczekaj chwilę i sprawdź, czy połączenie zostało nawiązane pomyślnie.
+
+    **Konfiguracja Nano-SIM**:
+
+    1. Zdejmij tylną pokrywę, wyjmij akumulator, włóż kartę Nano-SIM do gniazda, a następnie ponownie zamontuj akumulator.
+
+    2. Router automatycznie rozpocznie łączenie z internetem za pośrednictwem tej karty Nano-SIM. Poczekaj chwilę i sprawdź, czy połączenie zostało nawiązane pomyślnie.
 
     Po pomyślnym połączeniu z internetem paski siły sygnału i stan połączenia komórkowego pojawią się w prawym górnym rogu ekranu dotykowego. Szczegóły połączenia możesz też sprawdzić w web Admin Panel.
 
@@ -125,6 +159,43 @@ Skonfiguruj Mudi 7, korzystając z jednej z obsługiwanych metod połączenia z 
 
     3. Mudi 7 połączy się wtedy automatycznie z urządzeniem. Jeśli połączenie nie zostanie nawiązane, powtórz powyższe kroki albo zaloguj się do web Admin Panel i sprawdź połączenie USB Ethernet na stronie INTERNET.
     4. Po pomyślnym połączeniu z internetem w prawym górnym rogu ekranu dotykowego pojawią się ikona USB oraz ikona portu Ethernet. Szczegóły połączenia możesz też sprawdzić w web Admin Panel.
+
+
+## Aktualizacja firmware
+
+!!! note "Przed aktualizacją zwróć uwagę na poniższe kwestie:"
+
+    1. Aby zachować konfigurację Mudi 7, na stronie aktualizacji wybierz **Keep Settings**.
+    2. Podczas powrotu do starszej wersji firmware nie wybieraj opcji Keep Settings, ponieważ mogą wystąpić problemy ze zgodnością.
+    3. Aktualizacja firmware wymaga pewnej ilości transferu danych. Jeśli pakiet danych na Twojej karcie SIM jest ograniczony, zalecamy połączyć router z internetem inną metodą (np. przez Repeater, USB Tethering itp.), aby uniknąć dodatkowego zużycia danych.
+
+Firmware Mudi 7 możesz zaktualizować za pomocą ekranu dotykowego lub web Admin Panel.
+
+### Aktualizacja przez ekran dotykowy
+
+1. Połącz Mudi 7 z internetem.
+
+2. Po nawiązaniu połączenia system automatycznie sprawdzi dostępność aktualizacji firmware. Jeśli nowa wersja będzie dostępna, na ekranie pojawi się komunikat. W tym oknie kliknij **Go to Upgrade**, aby przejść dalej.
+
+    ![go to upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade1.png){class="glboxshadow" width="300"}
+
+3. Jeśli wyskakujące okno się nie pojawi, na ekranie głównym kliknij **More** -> **About Device** -> **Version & Upgrade** -> **Download & Upgrade**, a następnie postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby zaktualizować firmware.
+
+    ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
+
+### Aktualizacja przez WWW
+
+1. Aktualizacja online
+
+    Zaloguj się do web Admin Panel i przejdź do **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade**, aby zaktualizować firmware routera.
+
+    Szczegółowe informacje znajdziesz [tutaj](../../interface_guide/upgrade.md#online-upgrade).
+
+2. Aktualizacja lokalna
+
+    Zaloguj się do web Admin Panel i przejdź do **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade**, aby zaktualizować firmware routera.
+
+    Szczegółowe informacje znajdziesz [tutaj](../../interface_guide/upgrade.md#local-upgrade).
 
 ## Naprawa i reset
 

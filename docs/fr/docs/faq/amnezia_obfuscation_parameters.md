@@ -20,8 +20,8 @@ Voici comment identifier la version d'AmneziaWG :
 | Paramètre | Description | Contraintes | Généré automatiquement |
 | --------- | ----------- | ----------- | ---------------------- |
 | Jc | Nombre de paquets parasites avant que le client n'initie la négociation initiale (afin d'interférer avec la détection des caractéristiques du trafic) | 1~128 | 4~12 |
-| Jmin | Taille minimale des paquets parasites aléatoires (octets) ; doit être configurée avec Jmax pour définir la taille des paquets parasites | 0 ≤ Jmin < Jmax < 65535 | 0 <= jmin < jmax < 1280 |
-| Jmax | Taille maximale des paquets parasites aléatoires | 0 ≤ Jmin < Jmax < 65535 | 0≤ Jmin < Jmax < 1280 |
+| Jmin | Taille minimale des paquets parasites aléatoires (octets) ; doit être configurée avec Jmax pour définir la taille des paquets parasites | 0 ≤ Jmin < Jmax < 1280 | 0 ≤ Jmin < Jmax < 1280 |
+| Jmax | Taille maximale des paquets parasites aléatoires | 0 ≤ Jmin < Jmax < 1280 | 0 ≤ Jmin < Jmax < 1280 |
 | S1 | Préfixes aléatoires pour les paquets Init | 0 ≤ S1 ≤ 1132 | 15~150 |
 | S2 | Préfixes aléatoires pour les paquets Response | 0 ≤ S2 ≤ 1188 <br> S1 + 56 ≠ S2 | 15~150 |
 | S3 | Préfixes aléatoires pour les paquets Cookie | 0 ≤ S3 ≤ 1216 | 15~150 |

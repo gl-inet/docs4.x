@@ -14,7 +14,7 @@ W górnej połowie strony znajduje się diagram pokazujący stan połączenia z 
 - Przerywana szara linia oznacza brak połączenia sieciowego.
 - Ciągła biała linia z żółtym wykrzyknikiem oznacza połączenie bez dostępu do Internetu.
 
-**Środkowa część** diagramu pokazuje bieżący model routera oraz stan funkcji [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard.md), [Tor](tor.md), [5G Main Wi-Fi](wireless.md), [2.4G Main Wi-Fi](wireless.md), [5G Guest Wi-Fi](wireless.md) i [2.4G Guest Wi-Fi](wireless.md).
+**Środkowa część** diagramu pokazuje bieżący model routera oraz stan funkcji [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard_v4.8.md), [Tor](tor.md), [5G Main Wi-Fi](wireless.md), [2.4G Main Wi-Fi](wireless.md), [5G Guest Wi-Fi](wireless.md) i [2.4G Guest Wi-Fi](wireless.md).
 
 - Zielony oznacza, że funkcja jest włączona, a szary — że jest wyłączona. W przypadku VPN i Tor biały oznacza nawiązywanie połączenia.
 - Najedź kursorem na włączoną ikonę Wi‑Fi, aby wyświetlić kod QR tej sieci. Możesz zeskanować go telefonem lub tabletem, aby szybko połączyć się z odpowiednią siecią Wi‑Fi.

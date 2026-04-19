@@ -10,9 +10,7 @@ Tryb sieciowy określa różne role i funkcje operacyjne, jakie może przyjąć 
     
     2. **Gdy router jest w trybie Access Point / WDS / Bridge, dostęp do panelu administratora za pomocą oryginalnego adresu IP sieci LAN nie będzie możliwy.** Zamiast tego należy zalogować się do routera nadrzędnego, aby znaleźć adres IP przypisany temu routerowi, a następnie użyć tego adresu do uzyskania dostępu do panelu administratora. Jeśli nie masz dostępu do routera nadrzędnego, naciśnij i przytrzymaj przycisk reset przez 4 sekundy, aby przywrócić domyślny tryb Router.
 
-    3. **W trybie Extender** nadal możesz uzyskać dostęp do panelu administratora za pomocą oryginalnego adresu IP sieci LAN.
-    
-    4. **W trybie Non-Router następujące funkcje będą niedostępne**: Access Control (Allowlist i Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
+    3. **W trybie Non-Router następujące funkcje będą niedostępne**: Access Control (Allowlist i Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
 ## Modele z Wi-Fi
 

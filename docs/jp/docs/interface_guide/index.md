@@ -33,13 +33,15 @@ hide:
 
 ## VPN
 
-* [VPNダッシュボード](vpn_dashboard.md)
+* [VPNダッシュボード（v4.7）](vpn_dashboard_v4.7.md)
+* [VPNダッシュボード（v4.8）](vpn_dashboard_v4.8.md)
+* [VPNダッシュボード（v4.9）](vpn_dashboard_v4.9.md)
 * [OpenVPNクライアントを設定する](openvpn_client.md)
 * [OpenVPNサーバーを設定する](openvpn_server.md)
 * [WireGuardクライアントを設定する](wireguard_client.md)
 * [WireGuardサーバーを設定する](wireguard_server.md)
 * [VPNポリシー（ファームウェア v4.7 以前）](vpn_dashboard_v4.7.md#proxy-mode)
-* [VPNポリシー（ファームウェア v4.8 以降）](vpn_dashboard.md#policy-mode)
+* [VPNポリシー（ファームウェア v4.8 以降）](vpn_dashboard_v4.8.md#policy-mode)
 * [ルーターで NordVPN を設定する方法](openvpn_client.md#set-up-nordvpn)
 * [ルーターで AzireVPN を設定する方法](wireguard_client.md#set-up-azirevpn)
 * [ルーターで Mullvad VPN を設定する方法](wireguard_client.md#set-up-mullvad)

@@ -33,13 +33,15 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 
 ## VPN
 
-* [Tableau de bord VPN](vpn_dashboard.md)
+* [Tableau de bord VPN (v4.7)](vpn_dashboard_v4.7.md)
+* [Tableau de bord VPN (v4.8)](vpn_dashboard_v4.8.md)
+* [Tableau de bord VPN (v4.9)](vpn_dashboard_v4.9.md)
 * [Configurer OpenVPN Client](openvpn_client.md)
 * [Configurer OpenVPN Server](openvpn_server.md)
 * [Configurer WireGuard Client](wireguard_client.md)
 * [Configurer WireGuard Server](wireguard_server.md)
 * [Politique VPN (pour le firmware v4.7 et antérieur)](vpn_dashboard_v4.7.md#proxy-mode)
-* [Politique VPN (pour le firmware v4.8 et ultérieur)](vpn_dashboard.md#policy-mode)
+* [Politique VPN (pour le firmware v4.8 et ultérieur)](vpn_dashboard_v4.8.md#policy-mode)
 * [Comment configurer NordVPN sur le routeur ?](openvpn_client.md#set-up-nordvpn)
 * [Comment configurer AzireVPN sur le routeur ?](wireguard_client.md#set-up-azirevpn)
 * [Comment configurer Mullvad VPN sur le routeur ?](wireguard_client.md#set-up-mullvad)

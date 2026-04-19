@@ -7,7 +7,6 @@ Routery komórkowe GL.iNet obsługują przekazywanie wiadomości SMS, automatycz
 ## Obsługiwane modele
 
 ??? "Obsługiwane modele"
-    - GL-E5800 (Mudi 7)
     - GL-X2000 (Spitz Plus)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -17,6 +16,7 @@ Routery komórkowe GL.iNet obsługują przekazywanie wiadomości SMS, automatycz
     - GL-X300B (Collie)
 
 ??? "Nieobsługiwane modele"
+    - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)

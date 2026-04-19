@@ -90,7 +90,7 @@ Routery GL.iNet są fabrycznie wyposażone w OpenVPN i WireGuard® oraz obsługu
 
 ### VPN Dashboard
 
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard.md)
+- [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
 ### OpenVPN
 

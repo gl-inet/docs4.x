@@ -14,7 +14,7 @@ Die obere Hälfte zeigt ein Diagramm mit dem Internetstatus, und die untere Häl
 - Eine gestrichelte graue Linie bedeutet, dass keine Netzwerkverbindung besteht.
 - Eine durchgezogene weiße Linie mit gelbem Ausrufezeichen bedeutet, dass eine Verbindung besteht, aber kein Internetzugang verfügbar ist.
 
-**Die Mitte** des Diagramms zeigt das aktuelle Routermodell und den Status von [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard.md), [Tor](tor.md), [5G-Haupt-Wi-Fi](wireless.md), [2.4G-Haupt-Wi-Fi](wireless.md), [5G-Gast-Wi-Fi](wireless.md) und [2.4G-Gast-Wi-Fi](wireless.md).
+**Die Mitte** des Diagramms zeigt das aktuelle Routermodell und den Status von [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard_v4.8.md), [Tor](tor.md), [5G-Haupt-Wi-Fi](wireless.md), [2.4G-Haupt-Wi-Fi](wireless.md), [5G-Gast-Wi-Fi](wireless.md) und [2.4G-Gast-Wi-Fi](wireless.md).
 
 - Grün bedeutet, dass die Funktion aktiviert ist, Grau bedeutet deaktiviert. Bei VPN und Tor bedeutet Weiß, dass gerade eine Verbindung aufgebaut wird.
 - Bewegen Sie den Mauszeiger über ein aktiviertes Wi‑Fi-Symbol, um den zugehörigen Wi‑Fi-QR-Code anzuzeigen. Sie können ihn mit Ihrem Smartphone oder Tablet scannen, um sich schnell mit dem entsprechenden Wi‑Fi-Netzwerk zu verbinden.

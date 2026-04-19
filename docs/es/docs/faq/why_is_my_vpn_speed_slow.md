@@ -51,7 +51,7 @@ Algunos proveedores de servicios de Internet, ISP, pueden no resolver correctame
 
 Algunos proveedores de servicios de Internet, ISP, especialmente los operadores móviles, pueden limitar el tamaño de los paquetes de datos. Pruebe a cambiar el MTU predeterminado de 1420 a 1380 o 1280 en las opciones del cliente VPN.
 
-Para el firmware v4.8 y superior, consulte [aquí](../interface_guide/vpn_dashboard.md/#tunnel-options).
+Para el firmware v4.8 y superior, consulte [aquí](../interface_guide/vpn_dashboard_v4.8.md/#tunnel-options).
 
 Para el firmware v4.7 y anteriores, consulte [aquí](../interface_guide/vpn_dashboard_v4.7.md#vpn-client-options).
 

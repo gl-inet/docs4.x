@@ -26,7 +26,7 @@ Activez le protocole d’accès à distance souhaité, puis cliquez sur **Apply*
 
 La synchronisation des enregistrements entre les serveurs DNS peut prendre jusqu’à 10 minutes. Cela peut vous empêcher d’accéder immédiatement au nom de domaine DDNS juste après son activation ou après un changement de votre adresse IP publique.
 
-**Note** : Si vous activez DDNS et le client VPN en même temps, assurez-vous que **Services From GL.iNet Use VPN** est désactivé. Cette option se trouve dans les [VPN Client Options](vpn_dashboard.md#tunnel-options) du VPN Dashboard.
+**Note** : Si vous activez DDNS et le client VPN en même temps, assurez-vous que **Services From GL.iNet Use VPN** est désactivé. Cette option se trouve dans les [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) du VPN Dashboard.
 
 ## Vérifier si DDNS fonctionne
 

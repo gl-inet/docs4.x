@@ -1,8 +1,4 @@
-# Tableau de bord VPN
-
-**Remarque** : ce guide est basé sur le firmware v4.8. Pour les versions antérieures, veuillez consulter [cette page](vpn_dashboard_v4.7.md).
-
----
+# Tableau de bord VPN (firmware v4.8)
 
 Dans la partie gauche du panneau d'administration web, accédez à **VPN** -> **VPN Dashboard**.
 

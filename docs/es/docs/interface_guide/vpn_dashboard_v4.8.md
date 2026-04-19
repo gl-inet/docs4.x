@@ -1,18 +1,14 @@
-# VPN Dashboard
-
-**Nota**: Esta guía se basa en el firmware v4.8. Para versiones anteriores, consulte [aquí](vpn_dashboard_v4.7.md).
-
----
+# VPN Dashboard (Firmware v4.8)
 
 En el lado izquierdo del panel de administración web, vaya a **VPN** -> **VPN Dashboard**.
 
-La página VPN Dashboard muestra detalles de la conexión VPN, como reglas de túnel, dirección del servidor, estadísticas de tráfico, IP virtual del cliente y registro de conexión, y permite configurar ajustes avanzados como el Kill Switch de VPN, el enmascaramiento de IP y el MTU.
+La página VPN Dashboard muestra detalles de la conexión VPN, como reglas de túnel, dirección del servidor, estadísticas de tráfico, IP virtual del cliente y registro de conexión, y permite configurar ajustes avanzados como el Kill Switch de la VPN, el enmascaramiento de IP y el MTU.
 
 También puede activar varias conexiones VPN para escenarios con múltiples túneles.
 
 <a id="vpn-setup-wizard"></a>
 
-## Asistente de configuracion
+## Asistente de configuración
 
 Haga clic en el icono del libro en la esquina superior izquierda y siga el asistente de configuración de VPN para completar rápidamente la configuración de la VPN.
 
@@ -38,7 +34,7 @@ Se muestran el protocolo VPN utilizado actualmente, por ejemplo WireGuard, el ar
 
 Todos los clientes conectados accederán a Internet a través de este túnel VPN.
 
-Si quiere configurar una política VPN, consulte [Modo de politicas](#policy-mode).
+Si quiere configurar una política VPN, consulte [Modo de políticas](#policy-mode).
 
 ## Modo VPN
 
@@ -62,7 +58,7 @@ En el ejemplo siguiente, el router se conecta a un servidor australiano mediante
 
 <a id="policy-mode"></a>
 
-### Modo de politicas
+### Modo de políticas
 
 En este modo, el router puede conectarse a varios servidores VPN y usted puede personalizar reglas de enrutamiento para distintos clientes o destinos del tráfico.
 
@@ -84,7 +80,7 @@ Haga clic en la sección correspondiente para obtener más información.
 
 <a id="primary-tunnel"></a>
 
-#### Tunel principal
+#### Túnel principal
 
 El túnel principal es un túnel <u>predefinido</u> en Policy Mode. Tiene la prioridad más alta, y puede modificar la [prioridad de los túneles](#tunnel-priority) si hay más de un túnel.
 

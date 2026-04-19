@@ -10,9 +10,7 @@ Der Netzwerkmodus bezeichnet die verschiedenen Betriebsrollen und Funktionen, di
     
     2. **Wenn sich Ihr Router im Modus Access Point / WDS / Bridge befindet, können Sie nicht über die ursprüngliche LAN-IP-Adresse auf das Web-Admin-Panel zugreifen.** Stattdessen müssen Sie sich am Upstream-Router anmelden, um die IP-Adresse zu finden, die er diesem Router zugewiesen hat, und diese IP-Adresse anschließend für den Zugriff auf das Web-Admin-Panel verwenden. Wenn Sie keinen Zugriff auf den Upstream-Router haben, halten Sie die Reset-Taste 4 Sekunden lang gedrückt, um zum Standardmodus Router zurückzukehren.
 
-    3. **Im Extender-Modus** können Sie weiterhin über die ursprüngliche LAN-IP-Adresse auf das Web-Admin-Panel zugreifen.
-    
-    4. **Im Non-Router-Modus sind die folgenden Funktionen nicht verfügbar**: Access Control (Allowlist und Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
+    3. **Im Non-Router-Modus sind die folgenden Funktionen nicht verfügbar**: Access Control (Allowlist und Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
 ## Für Modelle mit Wi-Fi
 

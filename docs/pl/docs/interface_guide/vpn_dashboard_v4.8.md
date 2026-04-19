@@ -1,8 +1,4 @@
-# VPN Dashboard (Oprogramowanie v4.8)
-
-**Uwaga**: Ten przewodnik dotyczy oprogramowania v4.8. W przypadku wcześniejszych wersji zapoznaj się z dokumentacją [tutaj](vpn_dashboard_v4.7.md).
-
----
+# VPN Dashboard (Firmware v4.8)
 
 W panelu administracyjnym przejdź do **VPN** -> **VPN Dashboard**.
 

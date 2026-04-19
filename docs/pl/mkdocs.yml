@@ -121,6 +121,7 @@ nav:
   - Strona glowna: index.md
   - Przewodnik uzytkownika:
     - Przeglad: user_guide/index.md
+    - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md
     - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
     - GL-E5800 (Mudi 7): user_guide/gl-e5800/index.md
     - GL-MT5000 (Brume 3): user_guide/gl-mt5000/index.md
@@ -285,7 +286,7 @@ nav:
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:
-      - Panel VPN: interface_guide/vpn_dashboard.md
+      - Panel VPN: interface_guide/vpn_dashboard_v4.8.md
       - Klient OpenVPN: interface_guide/openvpn_client.md
       - Serwer OpenVPN: interface_guide/openvpn_server.md
       - Klient WireGuard: interface_guide/wireguard_client.md
@@ -317,7 +318,7 @@ nav:
       - Akceleracja sieciowa: interface_guide/network_acceleration.md
       - Ustawienia NAT: interface_guide/nat_settings.md
     - Kontrola przeplywu:
-      - Licencja DPI: interface_guide/dpi_license.md
+      - DPI Engine: interface_guide/dpi_engine.md
       - Statystyki danych: interface_guide/data_statistics.md
       - Filtr tresci: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md

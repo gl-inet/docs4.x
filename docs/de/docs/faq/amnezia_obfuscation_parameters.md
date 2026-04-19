@@ -20,8 +20,8 @@ So erkennen Sie die AmneziaWG-Version:
 | Parameter | Beschreibung | Einschränkungen | Automatisch generiert |
 | --------- | ------------ | --------------- | --------------------- |
 | Jc | Anzahl der Junk-Pakete, bevor der Client den Handshake initiiert (zur Störung der Erkennung von Verkehrsmustern) | 1~128 | 4~12 |
-| Jmin | Mindestgröße zufälliger Junk-Pakete (Bytes); muss zusammen mit Jmax konfiguriert werden, um die Größe der Junk-Pakete festzulegen | 0 ≤ Jmin < Jmax < 65535 | 0 <= jmin < jmax < 1280 |
-| Jmax | Maximale Größe zufälliger Junk-Pakete | 0 ≤ Jmin < Jmax < 65535 | 0≤ Jmin < Jmax < 1280 |
+| Jmin | Mindestgröße zufälliger Junk-Pakete (Bytes); muss zusammen mit Jmax konfiguriert werden, um die Größe der Junk-Pakete festzulegen | 0 ≤ Jmin < Jmax < 1280 | 0 <= jmin < jmax < 1280 |
+| Jmax | Maximale Größe zufälliger Junk-Pakete | 0 ≤ Jmin < Jmax < 1280 | 0≤ Jmin < Jmax < 1280 |
 | S1 | Zufällige Präfixe für Init-Pakete | 0 ≤ S1 ≤ 1132 | 15~150 |
 | S2 | Zufällige Präfixe für Response-Pakete | 0 ≤ S2 ≤ 1188 <br> S1 + 56 ≠ S2 | 15~150 |
 | S3 | Zufällige Präfixe für Cookie-Pakete | 0 ≤ S3 ≤ 1216 | 15~150 |

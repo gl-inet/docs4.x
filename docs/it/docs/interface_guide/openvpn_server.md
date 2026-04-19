@@ -84,7 +84,7 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
 4. Avvia OpenVPN server.
 
-    Fai clic sul pulsante **Start** nell'angolo superiore destro della pagina OpenVPN Server per avviare il server. Poi vai alla pagina [VPN Dashboard](vpn_dashboard.md) per verificarne lo stato e le altre impostazioni.
+    Fai clic sul pulsante **Start** nell'angolo superiore destro della pagina OpenVPN Server per avviare il server. Poi vai alla pagina VPN Dashboard per verificarne lo stato e le altre impostazioni.
 
     ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/start_ovpnserver.png){class="glboxshadow"}
 

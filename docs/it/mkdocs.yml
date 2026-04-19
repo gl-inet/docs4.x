@@ -43,6 +43,7 @@ plugins:
         'tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md': 'tutorials/eap.md'
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
+        'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
  
 extra:
@@ -121,6 +122,7 @@ nav:
   - Home: index.md
   - Guida utente:
     - Panoramica: user_guide/index.md
+    - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md
     - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
     - GL-E5800 (Mudi 7): user_guide/gl-e5800/index.md
     - GL-MT5000 (Brume 3): user_guide/gl-mt5000/index.md
@@ -285,7 +287,9 @@ nav:
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:
-      - VPN Dashboard: interface_guide/vpn_dashboard.md
+      - VPN Dashboard (v4.7): interface_guide/vpn_dashboard_v4.7.md
+      - VPN Dashboard (v4.8): interface_guide/vpn_dashboard_v4.8.md
+      - VPN Dashboard (v4.9): interface_guide/vpn_dashboard_v4.9.md
       - Client OpenVPN: interface_guide/openvpn_client.md
       - Server OpenVPN: interface_guide/openvpn_server.md
       - Client WireGuard: interface_guide/wireguard_client.md

@@ -51,7 +51,7 @@ Einige Internetdienstanbieter (ISPs) können VPN-Domains möglicherweise nicht a
 
 Einige Internetdienstanbieter (ISPs), insbesondere Mobilfunkanbieter, können die Größe von Datenpaketen begrenzen. Versuchen Sie, die standardmäßige MTU in den VPN-Client-Optionen von 1420 auf 1380 oder 1280 zu ändern.
 
-Für Firmware v4.8 und höher siehe bitte [hier](../interface_guide/vpn_dashboard.md/#tunnel-options).
+Für Firmware v4.8 und höher siehe bitte [hier](../interface_guide/vpn_dashboard_v4.8.md/#tunnel-options).
 
 Für Firmware v4.7 und früher siehe bitte [hier](../interface_guide/vpn_dashboard_v4.7.md#vpn-client-options).
 

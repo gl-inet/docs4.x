@@ -19,14 +19,16 @@ Gli utenti possono configurare una rete AstroWarp direttamente dal pannello di a
 
 ??? "Modelli supportati"
 
-    - GL-BE9300 (Flint 3), release v4.8.4
-    - GL-BE3600 (Slate 7), release v4.8.3
-    - GL-MT6000 (Flint 2), Beta v4.8.4
-    - GL-X3000 (Spitz AX), Beta v4.8.4
-    - GL-XE3000 (Puli AX), Beta v4.8.4
-    - GL-AX1800 (Flint), Beta v4.8.4
-    - GL-AXT1800 (Slate AX), Beta v4.8.3
-    - GL-MT3000 (Beryl AX), Beta v4.8.2
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint 2)
+    - ※GL-X3000 (Spitz AX)
+    - ※GL-XE3000 (Puli AX)
+    - ※GL-AX1800 (Flint)
+    - ※GL-AXT1800 (Slate AX)
+    - ※GL-MT3000 (Beryl AX)
+
+    **Nota**: i modelli contrassegnati con ※ supportano AstroWarp integrato nel firmware Beta.
 
 ??? "Modelli non supportati"
     - GL-E5800 (Mudi 7)

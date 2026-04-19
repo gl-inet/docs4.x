@@ -81,7 +81,7 @@ Inicie sesión en el panel de administración web y vaya a **VPN** -> **OpenVPN 
 
 4. Inicie el servidor OpenVPN.
 
-   Haga clic en el botón **Start** situado en la esquina superior derecha de la página **OpenVPN Server** para iniciar el servidor. Después, vaya a la página [VPN Dashboard](vpn_dashboard.md) para comprobar su estado y otros ajustes.
+   Haga clic en el botón **Start** situado en la esquina superior derecha de la página **OpenVPN Server** para iniciar el servidor. Después, vaya a la página VPN Dashboard para comprobar su estado y otros ajustes.
 
    ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/start_ovpnserver.png){class="glboxshadow"}
 

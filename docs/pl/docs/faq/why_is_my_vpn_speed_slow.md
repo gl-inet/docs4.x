@@ -51,7 +51,7 @@ Niektórzy dostawcy internetu (ISP) mogą nie rozwiązywać domen VPN. Spróbuj 
 
 Niektórzy dostawcy internetu (ISP), zwłaszcza operatorzy komórkowi, mogą ograniczać rozmiar pakietów danych. Spróbuj zmienić domyślne MTU z 1420 na 1380 lub 1280 w ustawieniach **VPN Client Options**.
 
-Dla firmware v4.8 i nowszego zobacz [tutaj](../interface_guide/vpn_dashboard.md/#tunnel-options).
+Dla firmware v4.8 i nowszego zobacz [tutaj](../interface_guide/vpn_dashboard_v4.8.md/#tunnel-options).
 
 Dla firmware v4.7 i wcześniejszego zobacz [tutaj](../interface_guide/vpn_dashboard_v4.7.md#vpn-client-options).
 

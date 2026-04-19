@@ -10,9 +10,7 @@ La modalita' di rete si riferisce ai diversi ruoli operativi e alle funzioni che
 
     2. **Quando il router e' in modalita' Access Point / WDS / Bridge, non potrai accedere al pannello di amministrazione web usando l'indirizzo IP LAN originale.** Dovrai invece accedere al router a monte per trovare l'indirizzo IP assegnato a questo router e poi usare tale indirizzo IP per accedere al pannello di amministrazione web. Se non hai accesso al router a monte, tieni premuto il pulsante di reset per 4 secondi per riportarlo alla modalita' Router predefinita.
 
-    3. **In modalita' Extender**, puoi comunque accedere al pannello di amministrazione web usando l'indirizzo IP LAN originale.
-
-    4. **In modalita' Non-Router, le seguenti funzioni non saranno disponibili**: Access Control (Allowlist and Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
+    3. **In modalita' Non-Router, le seguenti funzioni non saranno disponibili**: Access Control (Allowlist and Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
 ## Per i modelli con Wi-Fi
 

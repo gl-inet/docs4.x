@@ -1,9 +1,5 @@
 # Tableau de bord VPN (firmware v4.9)
 
-**Remarque** : ce guide est basé sur le firmware v4.9. Pour les versions antérieures, veuillez consulter [cette page](vpn_dashboard.md).
-
----
-
 Dans la partie gauche du panneau d’administration web, accédez à **VPN** -> **VPN Dashboard**.
 
 Le tableau de bord VPN affiche les détails de connexion VPN, comme les règles de routage, le serveur connecté, les statistiques de trafic, l’IP virtuelle du client et le journal de connexion. Il permet également de configurer des paramètres avancés comme le Kill Switch VPN, le masquage IP et le MTU.
@@ -16,7 +12,9 @@ Par rapport au firmware v4.8, la version v4.9 apporte les améliorations suivant
 
 ## Premiers pas
 
-Lors de votre première visite sur cette page, si aucun tunnel n’a encore été créé, elle s’affichera comme ci-dessous. Cliquez sur **Add VPN Tunnel** pour commencer.
+### Importer un profil VPN
+
+Lors de votre première visite sur cette page, si aucun tunnel n’a encore été créé, la page s’affichera comme ci-dessous. Cliquez sur **Add VPN Tunnel** pour commencer.
 
 ![getting started](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/getting_started.png){class="glboxshadow"}
 
@@ -36,11 +34,13 @@ Prenons **PureVPN** comme exemple. Cliquez sur PureVPN et connectez-vous avec de
 
 Vous obtiendrez une liste de profils VPN. Pour certains fournisseurs de services VPN, vous devrez peut-être d’abord sélectionner un protocole VPN ou des serveurs/villes préférés avant que la liste des profils n’apparaisse.
 
-Cliquez ensuite sur **Go to Dashboard** en bas de la page. Vous serez redirigé vers le tableau de bord VPN afin d’ajouter votre tunnel VPN et configurer la politique VPN.
+Cliquez ensuite sur **Go to Dashboard** en bas de la page. Vous serez redirigé vers le tableau de bord VPN afin d’ajouter votre tunnel VPN et de configurer la politique VPN.
 
 ![PureVPN3](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/purevpn3.png){class="glboxshadow"}
 
-??? "Qu’est-ce qu’une politique VPN ?"
+### Configurer la politique VPN
+
+!!! note "Qu’est-ce qu’une politique VPN ?"
 
     Une politique VPN définit la manière dont le trafic réseau est acheminé via les tunnels VPN, en déterminant quel trafic va vers des destinations cibles via le VPN et quel trafic accède directement à Internet via le WAN local.
 
@@ -87,6 +87,21 @@ Dans le tableau de bord VPN, suivez l’assistant de configuration pour définir
     - **Exclude specified Domain / IP List** : si cette option est sélectionnée, le trafic correspondant à cette règle ne sera pas acheminé vers les noms de domaine ou adresses IP spécifiés. Vous devez les saisir manuellement.
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
 
+
+### Kill Switch
+
+!!! note "Qu’est-ce que le Kill Switch ?"
+
+    Le Kill Switch est une fonction de sécurité pour les connexions VPN. Il coupe automatiquement tout accès à Internet sur votre réseau local si la connexion VPN se déconnecte de manière inattendue, afin d’empêcher l’exposition de votre véritable adresse IP et de vos données en ligne, et de garantir une confidentialité et une sécurité continues. Cette fonction est particulièrement utile pour conserver un accès Internet sécurisé et anonyme, par exemple lors de l’utilisation de réseaux publics, du traitement de données sensibles ou lorsque vous souhaitez masquer votre véritable adresse IP.
+
+    Lorsqu’il est activé, il bloque tout trafic client qui tente de contourner le tunnel VPN, ce qui empêche efficacement les fuites VPN causées par des problèmes de configuration DNS, des déconnexions inattendues, des requêtes IP directes et d’autres scénarios similaires.
+
+Depuis le firmware v4.8, les routeurs GL.iNet prennent en charge la configuration d’un Kill Switch pour chaque tunnel VPN individuel, ainsi que pour la connexion VPN globale.
+
+- Pour configurer le Kill Switch de chaque tunnel VPN individuel, consultez [cette section](#tunnel-options).
+
+- Pour configurer le Kill Switch de la connexion VPN globale (c’est-à-dire **Enhanced Kill Switch**), consultez [cette section](#all-other-traffic).
+
 ## Scénarios d’utilisation
 
 Voici deux scénarios avec instructions de configuration pas à pas à titre de référence.
@@ -121,7 +136,7 @@ Voici deux scénarios avec instructions de configuration pas à pas à titre de 
 
     Cliquez sur l’onglet **All Targets**, définissez-le comme destination du trafic, puis cliquez sur **Apply**.
 
-    ![scenario 1 select target](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/case1_target.png){class="glboxshadow"}
+    ![scenario 1 select target](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_all_targets.png){class="glboxshadow"}
 
 4. Vous serez redirigé vers le tableau de bord VPN, où un tunnel VPN aura été ajouté.
 
@@ -169,7 +184,7 @@ Voici deux scénarios avec instructions de configuration pas à pas à titre de 
 
     Cliquez sur l’onglet **All Clients**, définissez-le comme source cliente pour le Tunnel 1, puis cliquez sur **Apply**.
 
-    ![scenario 2 select source1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/case2_source.png){class="glboxshadow"}
+    ![scenario 2 select source1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_all_clients.png){class="glboxshadow"}
 
 3. Sélectionnez la destination cible.
 

@@ -20,8 +20,8 @@ Tak można rozpoznać wersję AmneziaWG:
 | Parameter    | Description                    | Constraints     | Auto-generated   |
 | ------------ | ------------------------------ | --------------- | ---------------- |
 | Jc           | Liczba pakietów śmieciowych wysyłanych przed rozpoczęciem handshake przez klienta (w celu zakłócenia wykrywania cech ruchu) | 1~128 | 4~12 |
-| Jmin         | Minimalny rozmiar losowych pakietów śmieciowych (bajty); musi być skonfigurowany razem z Jmax, aby określić rozmiar pakietów śmieciowych | 0 ≤ Jmin < Jmax < 65535 | 0 <= jmin < jmax < 1280 |
-| Jmax         | Maksymalny rozmiar losowych pakietów śmieciowych | 0 ≤ Jmin < Jmax < 65535        | 0≤ Jmin < Jmax < 1280 |
+| Jmin         | Minimalny rozmiar losowych pakietów śmieciowych (bajty); musi być skonfigurowany razem z Jmax, aby określić rozmiar pakietów śmieciowych | 0 ≤ Jmin < Jmax < 1280 | 0 <= jmin < jmax < 1280 |
+| Jmax         | Maksymalny rozmiar losowych pakietów śmieciowych | 0 ≤ Jmin < Jmax < 1280        | 0≤ Jmin < Jmax < 1280 |
 | S1           | Losowe prefiksy dla pakietów Init         | 0 ≤ S1 ≤ 1132                  | 15~150 |
 | S2           | Losowe prefiksy dla pakietów Response     | 0 ≤ S2 ≤ 1188 <br> S1 + 56 ≠ S2 | 15~150 |
 | S3           | Losowe prefiksy dla pakietów Cookie       | 0 ≤ S3 ≤ 1216                  | 15~150 |

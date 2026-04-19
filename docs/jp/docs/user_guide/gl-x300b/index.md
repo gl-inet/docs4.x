@@ -109,7 +109,7 @@ GL.iNet ルーターには、30 以上の VPN サービスに対応した OpenVP
 
 ### VPN Dashboard
 
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard.md)
+- [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
 ### OpenVPN
 

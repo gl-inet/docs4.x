@@ -46,6 +46,7 @@ plugins:
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
         'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
+        'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
 
 extra:
   social:

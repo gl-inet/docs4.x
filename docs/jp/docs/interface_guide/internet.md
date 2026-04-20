@@ -14,7 +14,7 @@ Web管理パネルにログインし、**INTERNET** に移動します。
 - 灰色の破線は、ネットワーク接続がないことを示します。
 - 黄色の感嘆符が付いた白い実線は、接続はされているもののインターネットにアクセスできないことを示します。
 
-**図の中央**には、現在のルーターモデルと、[AdGuard Home](adguardhome.md)、[IPv6](ipv6.md)、[VPN](vpn_dashboard.md)、[Tor](tor.md)、[5G メインWi-Fi](wireless.md)、[2.4G メインWi-Fi](wireless.md)、[5G ゲストWi-Fi](wireless.md)、[2.4G ゲストWi-Fi](wireless.md) の状態が表示されます。
+**図の中央**には、現在のルーターモデルと、[AdGuard Home](adguardhome.md)、[IPv6](ipv6.md)、[VPN](vpn_dashboard_v4.8.md)、[Tor](tor.md)、[5G メインWi-Fi](wireless.md)、[2.4G メインWi-Fi](wireless.md)、[5G ゲストWi-Fi](wireless.md)、[2.4G ゲストWi-Fi](wireless.md) の状態が表示されます。
 
 - 緑は有効、灰色は無効を示します。VPN と Tor では、白は接続中を示します。
 - 有効な Wi‑Fi アイコンにカーソルを合わせると、その Wi‑Fi の QR コードが表示されます。スマートフォンやタブレットで読み取ることで、対応する Wi‑Fi ネットワークにすばやく接続できます。

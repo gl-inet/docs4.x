@@ -33,13 +33,15 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 
 ## VPN
 
-* [VPN Dashboard](vpn_dashboard.md)
+* [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
+* [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
+* [VPN Dashboard (v4.9)](vpn_dashboard_v4.9.md)
 * [OpenVPN-Client einrichten](openvpn_client.md)
 * [OpenVPN-Server einrichten](openvpn_server.md)
 * [WireGuard-Client einrichten](wireguard_client.md)
 * [WireGuard-Server einrichten](wireguard_server.md)
 * [VPN-Richtlinie (für Firmware v4.7 und früher)](vpn_dashboard_v4.7.md#proxy-mode)
-* [VPN-Richtlinie (für Firmware v4.8 und später)](vpn_dashboard.md#policy-mode)
+* [VPN-Richtlinie (für Firmware v4.8 und später)](vpn_dashboard_v4.8.md#policy-mode)
 * [Wie richte ich NordVPN auf dem Router ein?](openvpn_client.md#set-up-nordvpn)
 * [Wie richte ich AzireVPN auf dem Router ein?](wireguard_client.md#set-up-azirevpn)
 * [Wie richte ich Mullvad VPN auf dem Router ein?](wireguard_client.md#set-up-mullvad)

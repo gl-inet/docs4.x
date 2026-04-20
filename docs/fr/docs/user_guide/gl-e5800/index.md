@@ -56,24 +56,59 @@ Suivez les instructions affichées à l'écran pour configurer les paramètres d
 
 Configurez votre Mudi 7 à l'aide de l'une des méthodes de connexion Internet prises en charge : Cellular, Ethernet, Repeater, Tethering et USB Ethernet. Si vous souhaitez utiliser la fonctionnalité [Multi-WAN](../../interface_guide/multi-wan.md), configurez plus d'une connexion Internet.
 
+
 === "Cellular"
 
     ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_cellular.jpg){class="glboxshadow"}
-    
-    Le Mudi 7 est équipé d'une **eSIM intégrée** et de **deux emplacements Nano‑SIM**. Vous pouvez vous connecter à Internet en achetant un forfait eSIM (sans carte SIM physique), ou en insérant vos cartes Nano‑SIM pour accéder au réseau mobile 5G.
-    
-    - eSIM : sur l'écran tactile, accédez à **Cellular** -> **Active SIM Card**, activez l'eSIM, puis importez votre profil eSIM via le panneau d'administration web, ou achetez-en un dans l'eSIM Profile Store.
 
-    - Nano‑SIM : retirez le couvercle arrière du Mudi 7, retirez la batterie, insérez votre carte Nano-SIM dans l'emplacement, puis remettez la batterie en place.
+    Le Mudi 7 est équipé d’une **eSIM intégrée** et de **deux emplacements Nano‑SIM**. Vous pouvez vous connecter à Internet en achetant un forfait eSIM (sans carte SIM physique), ou en insérant vos cartes Nano‑SIM pour accéder au réseau mobile 5G.
 
-    Une fois la connexion Internet établie, les barres de signal et l'état de la connexion cellulaire s'affichent dans l'angle supérieur droit de l'écran tactile. Vous pouvez également consulter les détails de la connexion dans le panneau d'administration web.
+    **Configurer l’eSIM** :
+
+    1. Sur l’écran tactile, accédez à **Cellular** -> **SIM Card Switch**, puis activez **enable eSIM**.
+
+        ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
+
+    2. Connectez-vous au panneau d’administration web, puis accédez à **INTERNET** -> **Cellular** -> **eSIM Management**.
+
+        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
+
+    3. Dans la fenêtre contextuelle, cliquez sur **Add eSIM Profile** en bas.
+
+        ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
+
+        Importez votre profil eSIM via un QR code ou un code d’activation, puis cliquez sur **Install**. Notez que la plupart des profils eSIM ne peuvent être téléchargés et ajoutés qu’une seule fois.
+
+        ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile2.png){class="glboxshadow"}
+
+        **Astuce** : si vous n’avez pas encore acheté de profil eSIM, vous pouvez en acheter un dans **eSIM Profile Recommended Store**.
+
+        ![recommended store](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
+
+    4. Une fois le profil importé, accédez à **Cellular** et cliquez sur **SIM Card Switch**.
+
+        ![sim card switch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/sim_card_switch.png){class="glboxshadow" width="590"}
+
+        Dans la fenêtre contextuelle, sélectionnez **eSIM** comme carte SIM active, puis cliquez sur **Apply**.
+
+        ![active sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/active_sim_card.png){class="glboxshadow"}
+
+    5. Le routeur commencera à se connecter via ce profil eSIM. Patientez, puis vérifiez que la connexion a réussi.
+
+    **Configurer une Nano‑SIM** :
+
+    1. Retirez le couvercle arrière, sortez la batterie, insérez votre carte Nano‑SIM dans l’emplacement prévu, puis remettez la batterie en place.
+
+    2. Le routeur commencera automatiquement à se connecter via cette carte Nano‑SIM. Patientez, puis vérifiez que la connexion a réussi.
+
+    Une fois la connexion Internet établie, les barres de signal et l’état de la connexion cellulaire s’affichent dans l’angle supérieur droit de l’écran tactile. Vous pouvez également consulter les détails de la connexion dans le panneau d’administration web.
 
     Pour des instructions détaillées, consultez [Se connecter à Internet via le réseau cellulaire](../../interface_guide/internet_cellular.md).
 
     !!! note
 
-        1. L'eSIM intégrée et la SIM 2 sont mutuellement exclusives et ne peuvent pas être activées en même temps. L'eSIM est désactivée par défaut. Si vous activez l'eSIM, la SIM 2 ne fonctionnera pas, même si une carte SIM est insérée.
-        2. Comme le Mudi 7 dispose d'une eSIM intégrée, une carte physique eSIM SIMPoYo sera reconnue comme une carte SIM classique, sans fonctionnalité eSIM, sur le Mudi 7.
+        1. L’eSIM intégrée et la SIM 2 sont mutuellement exclusives et ne peuvent pas être activées en même temps. L’eSIM est désactivée par défaut. Si vous activez l’eSIM, la SIM 2 ne fonctionnera pas, même si une carte SIM est insérée.
+        2. Comme le Mudi 7 dispose d’une eSIM intégrée, une carte eSIM physique SIMPoYo sera reconnue comme une carte SIM classique, sans fonctionnalité eSIM, sur le Mudi 7.
 
 === "Ethernet"
     
@@ -125,6 +160,43 @@ Configurez votre Mudi 7 à l'aide de l'une des méthodes de connexion Internet p
 
     3. Le Mudi 7 se connectera ensuite automatiquement à votre appareil. Si ce n'est pas le cas, répétez les étapes ci-dessus, ou connectez-vous au panneau d'administration web et vérifiez la connexion USB Ethernet sur la page INTERNET.
     3. Une fois la connexion Internet établie, une icône USB et une icône de port Ethernet s'affichent dans l'angle supérieur droit de l'écran tactile. Vous pouvez également consulter les détails de la connexion dans le panneau d'administration web.
+
+
+## Mise à niveau du firmware
+
+!!! note "Avant la mise à niveau, veuillez noter les points suivants :"
+
+    1. Pour conserver la configuration de votre Mudi 7, sélectionnez **Keep Settings** sur la page de mise à niveau.
+    2. Ne sélectionnez pas **Keep Settings** lors d'une rétrogradation du firmware, car des problèmes de compatibilité peuvent survenir.
+    3. La mise à niveau du firmware consomme un certain volume de données. Si votre forfait de données SIM est limité, il est recommandé de connecter le routeur à Internet par d’autres méthodes (comme Repeater, USB Tethering, etc.) pour éviter une consommation supplémentaire.
+
+Vous pouvez mettre à niveau le firmware du Mudi 7 via l’écran tactile ou le panneau d’administration web.
+
+### Mise à niveau via l’écran tactile
+
+1. Connectez votre Mudi 7 à Internet.
+
+2. Une fois connecté, le système vérifie automatiquement si des mises à jour du firmware sont disponibles. Si une nouvelle version est disponible, une invite s’affiche à l’écran. Dans cette fenêtre, cliquez sur **Go to Upgrade** pour continuer.
+
+    ![go to upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade1.png){class="glboxshadow" width="300"}
+
+3. Si la fenêtre contextuelle n’apparaît pas, cliquez sur **More** sur l’écran d’accueil -> **About Device** -> **Version & Upgrade** -> **Download & Upgrade**, puis suivez les instructions à l’écran pour mettre le firmware à niveau.
+
+    ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
+
+### Mise à niveau via l’interface web
+
+1. Mise à niveau en ligne
+
+    Connectez-vous au panneau d’administration web, puis accédez à **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade** pour mettre à jour le firmware de votre routeur.
+
+    Pour plus de détails, consultez [cette section](../../interface_guide/upgrade.md#online-upgrade).
+
+2. Mise à niveau locale
+
+    Connectez-vous au panneau d’administration web, puis accédez à **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade** pour mettre à jour le firmware de votre routeur.
+
+    Pour plus de détails, consultez [cette section](../../interface_guide/upgrade.md#local-upgrade).
 
 ## Réparation et réinitialisation
 

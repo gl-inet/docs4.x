@@ -15,18 +15,21 @@ Les utilisateurs peuvent configurer un réseau AstroWarp directement depuis le p
 1. Il n’est pas recommandé d’utiliser AstroWarp en même temps que les fonctionnalités suivantes, car cela peut provoquer des conflits de routage : GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
 2. Lorsque AstroWarp est activé, la fonction **Network Mode** ne peut pas être utilisée.
 
+
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
 
-    - GL-BE9300 (Flint 3), version v4.8.4
-    - GL-BE3600 (Slate 7), version v4.8.3
-    - GL-MT6000 (Flint 2), bêta v4.8.4
-    - GL-X3000 (Spitz AX), bêta v4.8.4
-    - GL-XE3000 (Puli AX), bêta v4.8.4
-    - GL-AX1800 (Flint), bêta v4.8.4
-    - GL-AXT1800 (Slate AX), bêta v4.8.3
-    - GL-MT3000 (Beryl AX), bêta v4.8.2
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint 2)
+    - ※GL-X3000 (Spitz AX)
+    - ※GL-XE3000 (Puli AX)
+    - ※GL-AX1800 (Flint)
+    - ※GL-AXT1800 (Slate AX)
+    - ※GL-MT3000 (Beryl AX)
+
+    **Remarque** : les modèles marqués d’un ※ prennent en charge l’intégration d’AstroWarp dans un firmware bêta.
 
 ??? "Modèles non pris en charge"
     - GL-E5800 (Mudi 7)

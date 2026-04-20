@@ -121,6 +121,7 @@ nav:
   - Inicio: index.md
   - Guía del usuario:
     - Información general: user_guide/index.md
+    - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md
     - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
     - GL-E5800 (Mudi 7): user_guide/gl-e5800/index.md
     - GL-MT5000 (Brume 3): user_guide/gl-mt5000/index.md
@@ -243,7 +244,6 @@ nav:
     - eSIM:
       - Usar tarjeta física eSIM con routers GL.iNet: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Usar tarjeta física eSIM con dispositivos Android: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
-      - Cómo usar SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
       - Sitio a sitio: tutorials/goodcloud_site_to_site.md
       - Acceder a LuCI mediante GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
@@ -284,7 +284,9 @@ nav:
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:
-      - Panel de VPN: interface_guide/vpn_dashboard.md
+      - VPN Dashboard (v4.7): interface_guide/vpn_dashboard_v4.7.md
+      - VPN Dashboard (v4.8): interface_guide/vpn_dashboard_v4.8.md
+      - VPN Dashboard (v4.9): interface_guide/vpn_dashboard_v4.9.md
       - Cliente OpenVPN: interface_guide/openvpn_client.md
       - Servidor OpenVPN: interface_guide/openvpn_server.md
       - Cliente WireGuard: interface_guide/wireguard_client.md
@@ -316,7 +318,7 @@ nav:
       - Aceleración de red: interface_guide/network_acceleration.md
       - Configuración de NAT: interface_guide/nat_settings.md
     - Control de flujo:
-      - Licencia DPI: interface_guide/dpi_license.md
+      - DPI Engine: interface_guide/dpi_engine.md
       - Estadísticas de datos: interface_guide/data_statistics.md
       - Filtro de contenido: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md

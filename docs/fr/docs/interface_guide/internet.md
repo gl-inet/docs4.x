@@ -14,7 +14,7 @@ La moitié supérieure présente un schéma indiquant l'état d'Internet, et la 
 - Une ligne grise en pointillés signifie qu'il n'y a pas de connexion réseau.
 - Une ligne blanche continue avec un point d'exclamation jaune signifie que la connexion est établie, mais qu'il n'y a pas d'accès à Internet.
 
-**La partie centrale** du schéma affiche le modèle actuel du routeur et l'état de [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard.md), [Tor](tor.md), [5G Main Wi-Fi](wireless.md), [2.4G Main Wi-Fi](wireless.md), [5G Guest Wi-Fi](wireless.md) et [2.4G Guest Wi-Fi](wireless.md). 
+**La partie centrale** du schéma affiche le modèle actuel du routeur et l'état de [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard_v4.8.md), [Tor](tor.md), [5G Main Wi-Fi](wireless.md), [2.4G Main Wi-Fi](wireless.md), [5G Guest Wi-Fi](wireless.md) et [2.4G Guest Wi-Fi](wireless.md).
 
 - Le vert indique que la fonctionnalité est activée, le gris qu'elle est désactivée. Pour VPN et Tor, le blanc signifie qu'une connexion est en cours.
 - Passez le curseur sur une icône Wi‑Fi activée pour afficher son QR code Wi‑Fi. Vous pouvez le scanner avec votre téléphone ou votre tablette pour vous connecter rapidement au réseau Wi‑Fi correspondant.

@@ -4,10 +4,10 @@ Les routeurs cellulaires GL.iNet prennent en charge le transfert de SMS, en envo
 
 **Remarque** : cette fonctionnalité ne fonctionne qu'avec les routeurs cellulaires GL.iNet équipés du module 4G LTE/5G NR d'origine, et n'est pas prise en charge avec d'autres modules ou modules USB.
 
+
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
-    - GL-E5800 (Mudi 7)
     - GL-X2000 (Spitz Plus)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -17,6 +17,7 @@ Les routeurs cellulaires GL.iNet prennent en charge le transfert de SMS, en envo
     - GL-X300B (Collie)
 
 ??? "Modèles non pris en charge"
+    - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)

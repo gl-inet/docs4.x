@@ -1,9 +1,5 @@
 # VPN Dashboard (Firmware v4.9)
 
-**Nota**: questa guida si basa sul firmware v4.9. Per le versioni precedenti, fai riferimento [qui](vpn_dashboard.md).
-
----
-
 Sul lato sinistro del pannello di amministrazione web, vai su **VPN** -> **VPN Dashboard**.
 
 Il VPN dashboard mostra i dettagli della connessione VPN, come regole di instradamento, server connesso, statistiche del traffico, IP virtuale del client e log di connessione, e consente di configurare impostazioni avanzate come VPN Kill Switch, IP Masquerading e MTU.
@@ -12,9 +8,11 @@ Rispetto al firmware v4.8, v4.9 include i seguenti miglioramenti al VPN Dashboar
 
 1. **Consente agli utenti di selezionare più profili all'interno di un gruppo di tunnel e di impostarne la priorità**. Il tunnel tenterà di connettersi usando ciascun profilo in ordine di priorità fino a stabilire correttamente una connessione.
 
-2. **Ogni gruppo di tunnel opera in modo indipendente e non esegue failover tra gruppi**. Se tutti i profili in un singolo tunnel non riescono a connettersi, il sistema determinerà se passare alla WAN locale in base allo stato del Tunnel Kill Switch e della policy All Other Traffic.
+2. **Ogni gruppo di tunnel opera in modo indipendente e non esegue failover tra gruppi**. Se tutti i profili in un singolo tunnel non riescono a connettersi, il sistema determinerà se passare alla WAN locale in base allo stato del Tunnel Kill Switch e del tunnel All Other Traffic.
 
 ## Primi passi
+
+### Caricare un profilo VPN
 
 Quando entri in questa pagina per la prima volta, se non è stato creato alcun tunnel, la pagina apparirà come mostrato di seguito. Fai clic su **Add VPN Tunnel** per iniziare.
 
@@ -40,11 +38,13 @@ Poi fai clic su **Go to Dashboard** in basso. Verrai indirizzato al VPN Dashboar
 
 ![PureVPN3](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/purevpn3.png){class="glboxshadow"}
 
-??? "Che cos'è una VPN policy?"
+### Configurare la VPN policy
 
-    Una VPN policy definisce come il traffico di rete viene instradato attraverso i tunnel VPN, determinando quale traffico raggiunge le destinazioni di destinazione tramite VPN e quale accede direttamente a Internet tramite WAN locale.
+!!! note "Che cos'è una VPN policy?"
 
-    Consente a tutti i client o a dispositivi specifici di accedere a siti web designati o all'intera Internet tramite una connessione VPN, permettendo una gestione di rete flessibile e sicura.
+    Una VPN policy definisce come il traffico di rete viene instradato attraverso i tunnel VPN, determinando quale traffico viene inviato alle destinazioni desiderate tramite VPN e quale accede direttamente a Internet tramite WAN locale.
+
+    Consente a tutti i client o a dispositivi specifici di accedere a siti web designati o all'intera Internet tramite una connessione VPN, offrendo una gestione della rete flessibile e sicura.
 
 Nel VPN Dashboard, segui la procedura guidata per configurare la VPN policy, inclusa la selezione del profilo VPN, dell'origine del traffico e della destinazione del traffico.
 
@@ -87,6 +87,20 @@ Nel VPN Dashboard, segui la procedura guidata per configurare la VPN policy, inc
     - **Exclude specified Domain / IP List**: se selezionato, il traffico che corrisponde a questa regola non verrà instradato verso domini o indirizzi IP specificati. Devi inserirli manualmente.
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
 
+### Kill Switch
+
+!!! note "Che cos'è il Kill Switch?"
+
+    Il Kill Switch è una funzione di sicurezza per le connessioni VPN. Interrompe automaticamente tutto l'accesso a Internet della rete locale se la connessione VPN cade in modo imprevisto, evitando l'esposizione del tuo vero indirizzo IP e dei dati online e garantendo privacy e sicurezza continue. Questa funzione è particolarmente utile per mantenere un accesso a Internet sicuro e anonimo, ad esempio quando usi reti pubbliche, gestisci dati sensibili o vuoi nascondere il tuo indirizzo IP reale.
+
+    Quando è abilitato, blocca qualsiasi traffico client che tenti di bypassare il tunnel VPN, impedendo efficacemente perdite VPN causate da problemi di configurazione DNS, disconnessioni impreviste, richieste IP dirette e scenari simili.
+
+Dalla versione firmware v4.8, i router GL.iNet consentono di configurare un Kill Switch per ogni singolo tunnel VPN, oltre che per la connessione VPN globale.
+
+- Per configurare il Kill Switch per ogni singolo tunnel VPN, fai riferimento [qui](#tunnel-options).
+
+- Per configurare il Kill Switch per la connessione VPN globale (cioè Enhanced Kill Switch), fai riferimento [qui](#all-other-traffic).
+
 ## Scenari di utilizzo
 
 Di seguito trovi due scenari con istruzioni passo passo.
@@ -121,7 +135,7 @@ Di seguito trovi due scenari con istruzioni passo passo.
 
     Fai clic sulla scheda **All Targets**, impostala come destinazione del traffico, quindi fai clic su **Apply**.
 
-    ![scenario 1 select target](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/case1_target.png){class="glboxshadow"}
+    ![scenario 1 select target](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_all_targets.png){class="glboxshadow"}
 
 4. Verrai indirizzato al VPN Dashboard, dove sarà stato aggiunto un tunnel VPN.
 
@@ -169,7 +183,7 @@ Di seguito trovi due scenari con istruzioni passo passo.
 
     Fai clic sulla scheda **All Clients**, impostala come origine client per Tunnel 1, quindi fai clic su **Apply**.
 
-    ![scenario 2 select source1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/case2_source.png){class="glboxshadow"}
+    ![scenario 2 select source1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_all_clients.png){class="glboxshadow"}
 
 3. Seleziona Target Destination.
 

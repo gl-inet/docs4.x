@@ -95,7 +95,7 @@ Les routeurs GL.iNet sont préinstallés avec OpenVPN et WireGuard® et prennent
 
 ### VPN Dashboard
 
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard.md)
+- [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
 ### OpenVPN
 

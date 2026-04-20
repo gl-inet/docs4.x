@@ -20,7 +20,7 @@ Wykonaj poniższe czynności, aby przejść do strony aktualizacji U-Boot.
 
     !!! note
 
-        W niektórych modelach wybrane porty LAN i port WAN są zamienne. Nie używaj tego portu LAN. Na przykład w modelu GL-MT6000 (Flint 2) nie używaj LAN 1. Zamiast tego użyj LAN 2, LAN 3 lub LAN 4.
+        W niektórych modelach wybrane pojedyncze porty LAN i port WAN są zamienne. Nie używaj tego portu LAN. Na przykład w modelu GL-MT6000 (Flint 2) nie używaj LAN 1. Zamiast tego użyj LAN 2, LAN 3 lub LAN 4.
 
 2. Mocno naciśnij i przytrzymaj przycisk Reset, a jednocześnie włącz zasilanie routera. Jeśli router nie ma przycisku zasilania, podłączenie zasilania włączy go automatycznie.
 
@@ -90,9 +90,9 @@ Wykonaj poniższe czynności, aby przejść do strony aktualizacji U-Boot.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-4. **Użyj Google Chrome/Microsoft Edge, aby otworzyć `http://192.168.1.1/uboot.html`**
+4. **Użyj Google Chrome lub Microsoft Edge, aby otworzyć `http://192.168.1.1/uboot.html`**. Upewnij się, że wpisujesz pełny adres URL, aby uniknąć zapisanych sugestii prowadzących pod niewłaściwy adres.
 
-    **NIE używaj Mozilla/Firefox, ponieważ może to uszkodzić router.**
+    **NIE używaj Mozilla Firefox, ponieważ może to uszkodzić router.**
 
     ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 

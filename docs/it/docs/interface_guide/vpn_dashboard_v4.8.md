@@ -1,14 +1,10 @@
-# VPN Dashboard
-
-**Nota**: questa guida si basa sul firmware v4.8. Per le versioni precedenti, fai riferimento [qui](vpn_dashboard_v4.7.md).
-
----
+# VPN Dashboard (Firmware v4.8)
 
 Sul lato sinistro del pannello di amministrazione web, vai su **VPN** -> **VPN Dashboard**.
 
 Il VPN dashboard mostra i dettagli della connessione VPN, come regole del tunnel, indirizzo del server, statistiche del traffico, IP virtuale del client e log di connessione, e consente di configurare impostazioni avanzate come VPN Kill Switch, IP Masquerading e MTU.
 
-Puoi anche attivare piu' connessioni VPN per scenari multi-tunnel.
+Puoi anche attivare più connessioni VPN per scenari multi-tunnel.
 
 ## Procedura guidata di configurazione
 

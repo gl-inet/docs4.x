@@ -181,7 +181,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     You can download all servers configs [here](https://downloads.nordcdn.com/configs/archives/servers/ovpn.zip).
 
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+    Tip: If the zip file is too large to upload, you can delete some .ovpn files from the .zip file or upload a single .ovpn file.
 
     [Refer link](https://support.nordvpn.com/Connectivity/Router/1047409122/GL-iNet-setup-with-NordVPN.htm){target="_blank"}
 
@@ -234,7 +234,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     Login in [Dashboard](https://users.bolehvpn.net/){target="_blank"}, download your configuration files and select the [Linux_iOS inline](https://users.bolehvpn.net/download/inline/6){target="_blank"} format. Extract the zip files after completing the download.
 
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+    Tip: If the zip file is too large to upload, you can delete some .ovpn files from the .zip file or upload a single .ovpn file.
 
     [Refer link](https://www.bolehvpn.net/clients-installations/#1487691248224-0c435dba-d612){target="_blank"}
 
@@ -333,9 +333,9 @@ If the service provider you subscribed to is not listed below, please contact th
 
     [Official Website](https://go.fastestvpn.com/affiliate/pap?a_aid=5ffd2a3e9d687){target="_blank"}
 
-    Download FastestVPN config files zip folder for OpenVPN TCP and UDP from [here](https://support.fastestvpn.com/download/fastestvpn_ovpn/)
+    Download FastestVPN config files (a ZIP file) for OpenVPN TCP and UDP from [here](https://support.fastestvpn.com/download/fastestvpn_ovpn/)
 
-    Tips: If the zip file is too large to upload, delete some .ovpn files in the .zip folder, or upload a single .ovpn file.
+    Tip: If the zip file is too large to upload, delete some .ovpn files from the .zip file, or upload a single .ovpn file.
 
     [Refer link](https://support.fastestvpn.com/tutorials/routers/gl-inet/openvpn){target="_blank"}
 
@@ -451,7 +451,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     2. Find the Account ID on [IVPN Client Area](https://www.ivpn.net/clientarea/login){target="_blank"}.
 
-    3. When drag the config file to Add a New OpenVPN Configuration, you will be asked to enter User Name and Password. The User Name is your Account ID that begins with letters **ivpn**. The password can be anything, like **ivpn**
+    3. When you drag the config file to Add a New OpenVPN Configuration, you will be asked to enter User Name and Password. The User Name is your Account ID that begins with letters **ivpn**. The password can be anything, like **ivpn**
 
         ![ivpn set up on gl.inet router](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ivpn/ivpn_set_up_openvpn_client.png){class="glboxshadow"}
 
@@ -483,7 +483,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     2. The username and password for OpenVPN connection are the same as the one you use to login OysterVPN.
 
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+    Tip: If the zip file is too large to upload, you can delete some .ovpn files from the .zip file or upload a single .ovpn file.
 
 ??? "PIA (Private Internet Access)"
     ### PIA
@@ -492,7 +492,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     [Download](https://www.privateinternetaccess.com/openvpn/openvpn.zip) directly.
 
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+    Tip: If the zip file is too large to upload, you can delete some .ovpn files from the .zip file or upload a single .ovpn file.
 
 ??? "PrivadoVPN"
     ### PrivadoVPN
@@ -503,7 +503,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     ![PrivadoVPN OpenVPN configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/privadovpn/privadovpn_openvpn_configuration.png){class="glboxshadow"}
 
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+    Tip: If the zip file is too large to upload, you can delete some .ovpn files from the .zip file or upload a single .ovpn file.
 
 ??? "PrivateVPN"
     ### PrivateVPN
@@ -514,7 +514,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     [Here](https://privatevpn.com/client/PrivateVPN-TUN.zip) is the official download link. Due to a bug encountered while importing the router, the file name inside contains special characters 'Bogotá'. We have renamed it and provided the download link above. We will fix this bug in future versions.
 
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+    Tip: If the zip file is too large to upload, you can delete some .ovpn files from the .zip file or upload a single .ovpn file.
 
 ??? "Proton VPN"
     ### Proton VPN
@@ -645,7 +645,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     You can download all configs [here](https://api.surfshark.com/v1/server/configurations) directly.
 
-    Tips: if the zip file is too big to upload, you can delete some .ovpn in .zip file or upload single .ovpn file.
+    Tip: If the zip file is too large to upload, you can delete some .ovpn files from the .zip file or upload a single .ovpn file.
 
     [Refer link](https://support.surfshark.com/hc/en-us/articles/360011856259-How-to-set-up-Surfshark-on-GL-iNet-router-3-x-firmware-){target="_blank"}
 

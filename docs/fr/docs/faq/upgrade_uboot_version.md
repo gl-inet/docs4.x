@@ -20,7 +20,7 @@ Veuillez suivre la procédure ci-dessous pour accéder à la page de mise à niv
 
     !!! note
 
-        Sur certains modèles, certains ports LAN individuels et le port WAN sont interchangeables. N'utilisez pas ce port LAN. Par exemple, sur le GL-MT6000 (Flint 2), n'utilisez pas LAN 1. Utilisez LAN 2, LAN 3 ou LAN 4 à la place.
+        Sur certains modèles, certains ports LAN individuels et le port WAN sont interchangeables. Veuillez ne pas utiliser ce port LAN. Par exemple, sur le GL-MT6000 (Flint 2), n'utilisez pas LAN 1. Utilisez plutôt LAN 2, LAN 3 ou LAN 4.
 
 2. Maintenez fermement le bouton Reset enfoncé et, en même temps, mettez le routeur sous tension. Si votre routeur n'a pas de bouton d'alimentation, le fait de brancher l'alimentation l'allumera automatiquement.
 

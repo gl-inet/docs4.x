@@ -20,8 +20,8 @@ Ecco come identificare la versione di AmneziaWG:
 | Parameter    | Description                    | Constraints     | Auto-generated   |
 | ------------ | ------------------------------ | --------------- | ---------------- |
 | Jc           | Il numero di pacchetti spazzatura prima che il client avvii l'handshake (per interferire con il rilevamento delle caratteristiche del traffico) | 1~128 | 4~12 |
-| Jmin         | Dimensione minima dei pacchetti spazzatura casuali (byte); deve essere configurata insieme a Jmax per definire la dimensione dei pacchetti spazzatura | 0 ≤ Jmin < Jmax < 65535 | 0 <= jmin < jmax < 1280 |
-| Jmax         | Dimensione massima dei pacchetti spazzatura casuali | 0 ≤ Jmin < Jmax < 65535 | 0≤ Jmin < Jmax < 1280 |
+| Jmin         | Dimensione minima dei pacchetti spazzatura casuali (byte); deve essere configurata insieme a Jmax per definire la dimensione dei pacchetti spazzatura | 0 ≤ Jmin < Jmax < 1280 | 0 <= jmin < jmax < 1280 |
+| Jmax         | Dimensione massima dei pacchetti spazzatura casuali | 0 ≤ Jmin < Jmax < 1280 | 0≤ Jmin < Jmax < 1280 |
 | S1           | Prefissi casuali per i pacchetti Init | 0 ≤ S1 ≤ 1132 | 15~150 |
 | S2           | Prefissi casuali per i pacchetti Response | 0 ≤ S2 ≤ 1188 <br> S1 + 56 ≠ S2 | 15~150 |
 | S3           | Prefissi casuali per i pacchetti Cookie | 0 ≤ S3 ≤ 1216 | 15~150 |

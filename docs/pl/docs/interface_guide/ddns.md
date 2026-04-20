@@ -26,7 +26,7 @@ Włącz wybrany protokół zdalnego dostępu i kliknij **Apply**.
 
 Synchronizacja rekordów między serwerami DNS może opóźnić się nawet o 10 minut. Z tego powodu dostęp przez nazwę domenową DDNS może nie działać od razu po włączeniu usługi lub po zmianie publicznego adresu IP.
 
-**Uwaga**: Jeśli jednocześnie włączysz DDNS i klient VPN, upewnij się, że opcja **Services From GL.iNet Use VPN** jest wyłączona. Tę funkcję znajdziesz w [VPN Client Options](vpn_dashboard.md#tunnel-options) na stronie VPN Dashboard.
+**Uwaga**: Jeśli jednocześnie włączysz DDNS i klient VPN, upewnij się, że opcja **Services From GL.iNet Use VPN** jest wyłączona. Tę funkcję znajdziesz w [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) na stronie VPN Dashboard.
 
 ## Sprawdzanie, czy DDNS działa
 

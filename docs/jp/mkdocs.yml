@@ -120,6 +120,7 @@ nav:
   - ホーム: index.md
   - ユーザーガイド:
       - 概要: user_guide/index.md
+      - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md
       - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
       - GL-E5800 (Mudi 7): user_guide/gl-e5800/index.md
       - GL-MT5000 (Brume 3): user_guide/gl-mt5000/index.md
@@ -283,7 +284,9 @@ nav:
           - GoodCloud: interface_guide/cloud.md
           - AstroWarp: interface_guide/astrowarp.md
       - VPN:
-          - VPN ダッシュボード: interface_guide/vpn_dashboard.md
+          - VPN ダッシュボード (v4.7): interface_guide/vpn_dashboard_v4.7.md
+          - VPN ダッシュボード (v4.8): interface_guide/vpn_dashboard_v4.8.md
+          - VPN ダッシュボード (v4.9): interface_guide/vpn_dashboard_v4.9.md
           - OpenVPN クライアント: interface_guide/openvpn_client.md
           - OpenVPN サーバー: interface_guide/openvpn_server.md
           - WireGuard クライアント: interface_guide/wireguard_client.md

@@ -1,8 +1,4 @@
-# VPN Dashboard
-
-**Hinweis**: Diese Anleitung basiert auf Firmware v4.8. Für frühere Versionen lesen Sie bitte [hier](vpn_dashboard_v4.7.md) weiter.
-
----
+# VPN Dashboard (Firmware v4.8)
 
 Gehen Sie auf der linken Seite des webbasierten Admin Panels zu **VPN** -> **VPN Dashboard**.
 

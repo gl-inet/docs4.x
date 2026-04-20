@@ -90,7 +90,7 @@ Bitte befolgen Sie die untenstehenden Schritte, um die U-Boot-Aktualisierungssei
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-4. **Verwenden Sie Google Chrome/Microsoft Edge, um `http://192.168.1.1/uboot.html` aufzurufen**
+4. **Verwenden Sie Google Chrome/Microsoft Edge, um `http://192.168.1.1/uboot.html` aufzurufen**. Achten Sie darauf, die vollständige URL einzugeben, damit keine zwischengespeicherten Vorschläge auf eine falsche Adresse verweisen.
 
     **Verwenden Sie NICHT Mozilla/Firefox, da Ihr Router dadurch unbrauchbar werden kann.**
 

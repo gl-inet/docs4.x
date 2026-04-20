@@ -54,32 +54,66 @@ Follow the on-screen instructions to configure basic settings, including **scree
 
 ### 4. Internet einrichten
 
-Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein: Cellular, Ethernet, Repeater, Tethering, and USB Ethernet. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
+Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein: Cellular, Ethernet, Repeater, Tethering und USB Ethernet. Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindung ein.
 
 === "Cellular"
 
     ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_cellular.jpg){class="glboxshadow"}
-    
-    Mudi 7 comes with a **built-in eSIM** and **dual Nano‑SIM** slots. You can connect to the Internet by purchasing an eSIM package (no physical SIM card required), or insert your Nano‑SIM cards to access the 5G mobile network.
-    
-    - eSIM: On the touchscreen, go to **Cellular** -> **Active SIM Card**, enable eSIM, then upload your eSIM profile through the web Admin Panel, or purchase it in the eSIM Profile Store. 
 
-    - Nano‑SIM: Remove the back cover of Mudi 7, take out the battery, insert your Nano-SIM card into the slot, then install the battery. 
+    Mudi 7 verfügt über eine **integrierte eSIM** und **zwei Nano-SIM-Steckplätze**. Sie können eine Internetverbindung herstellen, indem Sie ein eSIM-Paket kaufen (ohne physische SIM-Karte) oder Ihre Nano-SIM-Karten einsetzen, um das 5G-Mobilfunknetz zu nutzen.
 
-    Once successfully connected to the internet, the signal bars and cellular status will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
+    **eSIM einrichten**:
 
-    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
+    1. Gehen Sie auf dem Touchscreen zu **Cellular** -> **SIM Card Switch** und aktivieren Sie den Schalter, um die **eSIM** zu aktivieren.
+
+        ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
+
+    2. Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **INTERNET** -> **Cellular** -> **eSIM Management**.
+
+        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
+
+    3. Klicken Sie im Pop-up-Fenster unten auf **Add eSIM Profile**.
+
+        ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
+
+        Laden Sie Ihr eSIM-Profil per QR-Code oder Aktivierungscode hoch und klicken Sie auf **Install**. Beachten Sie, dass die meisten eSIM-Profile nur einmal heruntergeladen und hinzugefügt werden können.
+
+        ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile2.png){class="glboxshadow"}
+
+        **Tipp**: Wenn Sie noch kein eSIM-Profil gekauft haben, können Sie eines im **eSIM Profile Recommended Store** erwerben.
+
+        ![recommended store](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
+
+    4. Wechseln Sie nach dem Hochladen zu **Cellular** und klicken Sie auf **SIM Card Switch**.
+
+        ![sim card switch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/sim_card_switch.png){class="glboxshadow" width="590"}
+
+        Wählen Sie im Pop-up-Fenster **eSIM** als aktive SIM-Karte aus und klicken Sie dann auf **Apply**.
+
+        ![active sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/active_sim_card.png){class="glboxshadow"}
+
+    5. Der Router beginnt, sich über dieses eSIM-Profil zu verbinden. Bitte warten Sie und prüfen Sie, ob die Verbindung erfolgreich hergestellt wird.
+
+    **Nano-SIM einrichten**:
+
+    1. Entfernen Sie die Rückabdeckung, nehmen Sie den Akku heraus, setzen Sie Ihre Nano-SIM-Karte in den Steckplatz ein und installieren Sie anschließend den Akku wieder.
+
+    2. Der Router beginnt automatisch, sich über diese Nano-SIM-Karte zu verbinden. Bitte warten Sie und prüfen Sie, ob die Verbindung erfolgreich hergestellt wird.
+
+    Sobald die Internetverbindung erfolgreich hergestellt wurde, werden die Signalbalken und der Mobilfunkstatus oben rechts auf dem Touchscreen angezeigt. Sie können die Verbindungsdetails auch im Web-Admin-Panel prüfen.
+
+    Weitere Informationen finden Sie unter [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md).
 
     !!! note
 
-        1. The built-in eSIM and SIM 2 are mutually exclusive and cannot be activated at the same time. The eSIM is disabled by default. If you enable the eSIM, SIM 2 will not work even if a SIM card is inserted.
-        2. Since Mudi 7 comes with a built-in eSIM, a SIMPoYo eSIM physical card will be recognized as a regular SIM card without eSIM functionality on Mudi 7. 
+        1. Die integrierte eSIM und SIM 2 schließen sich gegenseitig aus und können nicht gleichzeitig aktiviert werden. Die eSIM ist standardmäßig deaktiviert. Wenn Sie die eSIM aktivieren, funktioniert SIM 2 nicht, selbst wenn eine SIM-Karte eingesetzt ist.
+        2. Da Mudi 7 über eine integrierte eSIM verfügt, wird eine SIMPoYo eSIM-Physikkarte auf dem Mudi 7 als normale SIM-Karte ohne eSIM-Funktion erkannt.
 
 === "Ethernet"
-    
+
     ![ethernet connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
 
-    1. Connect Mudi 7's Ethernet port to an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) via an Ethernet cable. 
+    1. Connect Mudi 7's Ethernet port to an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) via an Ethernet cable.
     2. On the touchscreen or web admin panel, go to **Network** -> **Ethernet Ports**, set the port role to **WAN**, and click **Apply**.
 
         ![touchscreen ethernet wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-ethernet-wan.png){class="glboxshadow"}
@@ -89,11 +123,11 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
     Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
 
 === "Repeater"
-    
+
     ![repeater connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_repeater.jpg){class="glboxshadow"}
 
     1. On the touchscreen or web admin panel, go to **Internet** -> **Repeater** and click **Connect**. Mudi 7 will start scanning for available Wi-Fi networks.
-    2. Select the Wi-Fi network you want Mudi 7 to extend. 
+    2. Select the Wi-Fi network you want Mudi 7 to extend.
     3. Enter the password and click **Apply**.
     4. Once successfully connected to the internet, a Wi-Fi icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 
@@ -103,8 +137,8 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
     ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_tethering.jpg){class="glboxshadow"}
 
-    1. Connect your mobile device (e.g., smartphone or USB dongle) to Mudi 7's USB-C port via a USB cable. 
-    2. On your mobile device, go to Settings and enable **USB Tethering**. If you use iPhone, tap **Trust This Device** if prompted. 
+    1. Connect your mobile device (e.g., smartphone or USB dongle) to Mudi 7's USB-C port via a USB cable.
+    2. On your mobile device, go to Settings and enable **USB Tethering**. If you use iPhone, tap **Trust This Device** if prompted.
     3. Mudi 7 will then automatically connect to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and check the Tethering connection on the INTERNET page.
     4. Once successfully connected to the internet, a chain link icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 
@@ -118,7 +152,7 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
     <small>*USB OTG (On-The-Go) is a USB standard that enables compatible devices like routers to switch between host and peripheral roles, allowing direct data transmission and power interaction without a separate host device.</small>
 
-    1. Connect an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) to Mudi 7's USB-C port via a USB C-to-Ethernet adapter. 
+    1. Connect an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) to Mudi 7's USB-C port via a USB C-to-Ethernet adapter.
     2. On the touchscreen or web admin panel, go to **Network** -> **Ethernet Ports** -> **USB Ethernet Port**, set the port role to **WAN**, and click **Apply**.
 
         ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
@@ -126,13 +160,49 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
     3. Mudi 7 will then automatically connect to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and check the USB Ethernet connection on the INTERNET page.
     3. Once successfully connected to the internet, a USB icon and an Ethernet port icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 
+## Firmware-Upgrade
+
+!!! note "Vor dem Upgrade bitte beachten:"
+
+    1. Um Ihre Mudi-7-Konfigurationen zu behalten, wählen Sie auf der Upgrade-Seite **Keep Settings**.
+    2. Wählen Sie **Keep Settings** nicht beim Downgrade, da es zu Kompatibilitätsproblemen kommen kann.
+    3. Für ein Firmware-Upgrade wird eine gewisse Datenmenge verbraucht. Wenn Ihr SIM-Kartentarif ein begrenztes Datenvolumen hat, empfehlen wir, den Router über andere Methoden mit dem Internet zu verbinden (z. B. Repeater, USB Tethering usw.), um zusätzlichen Datenverbrauch zu vermeiden.
+
+Sie können die Firmware von Mudi 7 über den Touchscreen oder das Web-Admin-Panel aktualisieren.
+
+### Upgrade über den Touchscreen
+
+1. Verbinden Sie Ihren Mudi 7 mit dem Internet.
+
+2. Sobald die Verbindung hergestellt ist, sucht das System automatisch nach verfügbaren Firmware-Updates. Wenn eine neue Firmware verfügbar ist, erscheint eine Meldung auf dem Bildschirm. Klicken Sie im Pop-up-Fenster auf **Go to Upgrade**, um fortzufahren.
+
+    ![go to upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade1.png){class="glboxshadow" width="300"}
+
+3. Wenn das Pop-up-Fenster nicht erscheint, tippen Sie auf dem Startbildschirm auf **More** -> **About Device** -> **Version & Upgrade** -> **Download & Upgrade** und folgen Sie dann den Anweisungen auf dem Bildschirm, um die Firmware zu aktualisieren.
+
+    ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
+
+### Upgrade über das Web
+
+1. Online-Upgrade
+
+    Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade**, um die Firmware Ihres Routers zu aktualisieren.
+
+    Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md#online-upgrade).
+
+2. Lokales Upgrade
+
+    Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade**, um die Firmware Ihres Routers zu aktualisieren.
+
+    Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md#local-upgrade).
+
 ## Reparatur und Zurücksetzen
 
 You can restore network connectivity or reset Mudi 7 to factory defaults by a physical reset button.
 
 **Note**: Before performing a reset, ensure Mudi 7 has fully booted up. Do NOT press the reset button immediately after power-up, as this may trigger U-Boot failsafe mode.
 
-Remove the back cover, and you will find the reset button as shown below. 
+Remove the back cover, and you will find the reset button as shown below.
 
 ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
@@ -151,7 +221,7 @@ Remove the back cover, and you will find the reset button as shown below.
 !!! note "Device Reset"
 
     Press and hold the reset button for **10 seconds**, then release to perform a hard reset. When holding the button, pay attention to the on-screen prompts and operate as instructed.
-    
+
     This will clear all your settings. Please proceed with caution.
 
 ## Anmeldung im Web-Admin-Panel
@@ -167,7 +237,7 @@ First, connect a device (e.g., computer, laptop or smartphone) to the Mudi 7 via
 
 - **Ethernet**
 
-    Connect your device to the Ethernet port (default LAN) of Mudi 7 via an Ethernet cable. 
+    Connect your device to the Ethernet port (default LAN) of Mudi 7 via an Ethernet cable.
 
 - **USB**
 
@@ -181,7 +251,7 @@ Below is an overview of the features in the Mudi 7 web Admin Panel.
 
 ## WLAN
 
-The Wireless page allows you to configure settings for the 6 GHz, 5 GHz, and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
+The Wireless page allows you to configure settings for the 6 GHz, 5 GHz, and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
 
 Informationen zur Einrichtung von Wireless finden Sie unter [Wireless](../../interface_guide/wireless.md).
 
@@ -189,7 +259,7 @@ Informationen zur Einrichtung von Wireless finden Sie unter [Wireless](../../int
 
 1. Due to chipset hardware constraints, the 5 GHz and 6 GHz Wi-Fi cannot be enabled simultaneously.
 2. When Repeater is enabled, the Guest Network will be automatically disabled.
-3. As required by regulations, switch Wi-Fi to Outdoor mode when using it outdoors. This may reduce the coverage range. You can switch the Usage Environment (Indoor or Outdoor) at the top of the Wireless page. 
+3. As required by regulations, switch Wi-Fi to Outdoor mode when using it outdoors. This may reduce the coverage range. You can switch the Usage Environment (Indoor or Outdoor) at the top of the Wireless page.
 
 ## Clients
 
@@ -201,29 +271,29 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers. 
-    
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers.
+
     To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
 
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
-    
+    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
+
     To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
 
-## VPN 
+## VPN
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Mudi 7 supports OpenVPN and WireGuard. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Mudi 7 supports OpenVPN and WireGuard.
 
-=== "OpenVPN" 
-    
+=== "OpenVPN"
+
     Mudi 7 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
-    
+
     Mudi 7 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
@@ -233,21 +303,21 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Multi-WAN"
 
-    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., ethernet, repeater, tethering, cellular, and USB ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., ethernet, repeater, tethering, cellular, and USB ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access.
 
-    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
+    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
-    
-    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
+    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently.
+
+    To set up LAN, refer to [Lan](../../interface_guide/lan.md).
 
 === "Gastnetzwerk"
 
     It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
-    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
+    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md).
 
 ---
 
@@ -267,39 +337,39 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "IPv6"
 
-    IPv6, short for Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
-    
+    IPv6, short for Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet.
+
     To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
 
 ---
 
 === "IGMP Snooping"
 
-    IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
-    
+    IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic.
+
     To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
 === "Network Mode"
 
-    Network mode refers to the configuration that determines how a device connects to a network and communicates with other devices. 
-    
+    Network mode refers to the configuration that determines how a device connects to a network and communicates with other devices.
+
     To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
 
     **Note**: Mudi 7 supports Router, Access Point, and Extender mode. It does not support WDS mode.
 
 === "Drop-in gateway"
 
-    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
-    
+    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client.
+
     To set up drop-in gateway, refer to these links:
-    
+
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Netzwerkbeschleunigung"
 
     Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
-    
+
     To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 ## Durchflusskontrolle
@@ -314,9 +384,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Port Forwarding"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
-    
-    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md). 
+    Port forwarding allows remote servers and devices on the internet to access devices on a private network.
+
+    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md).
 
 === "Management Control"
 
@@ -340,46 +410,46 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Plug-ins"
 
-    A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
-    
+    A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities.
+
     To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
-    
-    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network.
+
+    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md).
 
 === "Network Storage"
 
-    Network storage refers to a centralized data storage solution that allows multiple users and devices to access and share files over a network. 
-    
+    Network storage refers to a centralized data storage solution that allows multiple users and devices to access and share files over a network.
+
     To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
 
 ---
 
 === "AdGuard Home"
 
-    AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
-    
+    AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network.
+
     To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
 
 === "ZeroTier"
 
-    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
-    
+    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network.
+
     To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tailscale"
 
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
-    
+    Tailscale is a VPN service that allows you to access your devices and applications anywhere.
+
     To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
 
 === "Tor"
 
-    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
-    
+    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities.
+
     To set up Tor, refer to [Tor](../../interface_guide/tor.md).
 
 ## System
@@ -394,7 +464,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
     * Device Info: Access detailed information about your router's system, including uptime, hostname, model, architecture, OpenWrt version, kernel version, device ID, device MAC and device S/N.
     * External Storage: Check the status of any external storage devices connected to the router, such as USB drives or TF cards.
-    
+
     These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
 
     Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
@@ -433,7 +503,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 === "Display Management"
 
     The Display Management page lets you manage the touchscreen display and its related settings.
-    
+
     - Wallpaper: Customize the wallpaper and wake display style.
     - Brightness: Adjust the touchscreen brightness. Use the slider or enter a percentage to fit different lighting conditions.
     - Personalised Signature: Add a custom text to the touchscreen to show your unique style or for quick identification.
@@ -471,7 +541,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     * Crash Log: Records of system crashes and errors, useful for diagnosing critical issues.
     * Cloud Log: Logs of interactions and activities related to GoodCloud services integrated with the router.
     * Nginx Log: Logs from the Nginx web server, if used by the router, detailing web traffic and server operations.
-    
+
     Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
 
     Please refer to [Log](../../interface_guide/log.md) for detailed instructions.

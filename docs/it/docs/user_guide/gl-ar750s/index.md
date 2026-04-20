@@ -105,7 +105,7 @@ I router GL.iNet sono preinstallati con OpenVPN e WireGuard® e supportano oltre
 
 ### VPN Dashboard
 
-- [**VPN Dashboard**](../../interface_guide/vpn_dashboard.md)
+- [**VPN Dashboard**](../../interface_guide/vpn_dashboard_v4.7.md)
 
 ### OpenVPN
 

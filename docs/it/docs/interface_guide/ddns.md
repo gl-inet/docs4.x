@@ -26,7 +26,7 @@ Abilita il protocollo di accesso remoto desiderato e fai clic su **Apply**.
 
 Potrebbe esserci un ritardo fino a 10 minuti nella sincronizzazione dei record tra i server DNS. Questo puo' impedirti di accedere immediatamente tramite il nome di dominio DDNS dopo l'attivazione o quando cambia il tuo IP pubblico.
 
-**Nota**: se abiliti DDNS e VPN Client contemporaneamente, assicurati che **Services From GL.iNet Use VPN** sia disabilitato. Questa funzione si trova nelle [VPN Client Options](vpn_dashboard.md#tunnel-options) del VPN Dashboard.
+**Nota**: se abiliti DDNS e VPN Client contemporaneamente, assicurati che **Services From GL.iNet Use VPN** sia disabilitato. Questa funzione si trova nelle [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) del VPN Dashboard.
 
 ## Verificare se DDNS funziona
 

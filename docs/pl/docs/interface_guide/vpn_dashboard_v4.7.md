@@ -1,12 +1,8 @@
-# VPN Dashboard (Oprogramowanie v4.7 i wcześniejsze)
+# VPN Dashboard (Firmware v4.7 i wcześniejsze)
 
-**Uwaga**: Ten przewodnik dotyczy oprogramowania v4.7 i wcześniejszego. W przypadku nowszych wersji zapoznaj się z dokumentacją [tutaj](vpn_dashboard.md).
+Zaloguj się do webowego panelu administracyjnego i przejdź do **VPN** -> **VPN Dashboard**.
 
----
-
-Zaloguj się do panelu administracyjnego i przejdź do **VPN** -> **VPN Dashboard**.
-
-Strona VPN Dashboard przedstawia stan i ustawienia VPN. Zawiera dwie sekcje: [Klient VPN](#vpn-client) i [Serwer VPN](#vpn-server).
+Strona VPN Dashboard wyświetla stan połączenia VPN i jego ustawienia. Składa się z dwóch sekcji: [Klient VPN](#vpn-client) i [Serwer VPN](#vpn-server).
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
 

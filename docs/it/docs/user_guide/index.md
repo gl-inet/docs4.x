@@ -5,6 +5,13 @@
 <div class="gl-product-row">
   <div class="gl-product-row-box">
     <div class="gl-product-card">
+      <a href="gl-be10000/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-table/table_be10000.png" >
+        <div class="gl-product-model">GL-BE10000</div>
+        <div class="gl-product-model">(Slate 7 Pro)</div>
+      </a>
+    </div>
+    <div class="gl-product-card">
       <a href="gl-mt3600be/">
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt3600be.png" >
         <div class="gl-product-model">GL-MT3600BE</div>

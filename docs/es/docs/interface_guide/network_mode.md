@@ -10,9 +10,7 @@ El modo de red se refiere a los distintos roles y funciones operativas que un ro
 
     2. **Cuando el router esté en modo Access Point / WDS / Bridge, no podrá acceder al panel de administración web usando la dirección IP LAN original.** En su lugar, deberá iniciar sesión en el router ascendente para encontrar la dirección IP que le ha asignado a este router y, a continuación, usar esa dirección IP para acceder al panel de administración web. Si no tiene acceso al router ascendente, mantenga pulsado el botón de reinicio durante 4 segundos para volver al modo Router predeterminado.
 
-    3. **En el modo Extender**, aún puede acceder al panel de administración web usando su dirección IP LAN original.
-
-    4. **En el modo Non-Router, las siguientes funciones no estarán disponibles**: Access Control (Allowlist y Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
+    3. **En el modo Non-Router, las siguientes funciones no estarán disponibles**: Access Control (Allowlist y Blocklist), AstroWarp, VPN, AdGuard Home, Parental Control, ZeroTier, Tailscale, Port Forwarding, Multi-WAN, DHCP Server, Address Reservation, Guest Network, DNS, Port Management, IPv6, Drop-in Gateway, IGMP Snooping, Network Acceleration, NAT Settings.
 
 ## Para modelos con Wi-Fi
 

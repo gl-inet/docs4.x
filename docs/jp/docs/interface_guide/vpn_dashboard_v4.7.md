@@ -1,9 +1,5 @@
 # VPN Dashboard (Firmware v4.7 and earlier)
 
-**注意**: このガイドはファームウェア v4.7 以前を基準にしています。新しいバージョンについては [こちら](vpn_dashboard.md) を参照してください。
-
----
-
 Web管理パネルにログインし、**VPN** -> **VPN Dashboard** に移動します。
 
 VPN Dashboard ページでは、VPNの状態確認と設定を行います。セクションは [VPNクライアント](#vpn-client) と [VPNサーバー](#vpn-server) の2つです。

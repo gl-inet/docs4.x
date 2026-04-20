@@ -1,6 +1,6 @@
 # VPN Dashboard (Firmware v4.9)
 
-**Hinweis**: Diese Anleitung basiert auf Firmware v4.9. Für frühere Versionen siehe [hier](vpn_dashboard.md).
+**Hinweis**: Diese Anleitung basiert auf Firmware v4.9. Für frühere Versionen siehe [hier](vpn_dashboard_v4.8.md).
 
 ---
 
@@ -15,6 +15,8 @@ Im Vergleich zu Firmware v4.8 enthält v4.9 die folgenden Verbesserungen am VPN 
 2. **Jede Tunnel-Gruppe arbeitet unabhängig und führt kein Failover zwischen Gruppen durch**. Wenn alle Profile in einem einzelnen Tunnel keine Verbindung herstellen können, bestimmt das System basierend auf dem Status des Tunnel Kill Switch und des All Other Traffic Tunnels, ob auf das lokale WAN umgeschaltet werden soll.
 
 ## Erste Schritte
+
+### VPN-Profil hochladen
 
 Wenn Sie diese Seite zum ersten Mal aufrufen und noch keine Tunnel erstellt wurden, wird die Seite wie unten gezeigt angezeigt. Klicken Sie auf **Add VPN Tunnel**, um zu beginnen.
 
@@ -40,9 +42,11 @@ Klicken Sie dann unten auf **Go to Dashboard**. Sie werden zum VPN Dashboard wei
 
 ![PureVPN3](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/purevpn3.png){class="glboxshadow"}
 
-??? "Was ist eine VPN-Richtlinie?"
+### VPN-Richtlinie einrichten
 
-    Eine VPN-Richtlinie definiert, wie Netzwerkverkehr durch VPN-Tunnel geleitet wird, und bestimmt, welcher Datenverkehr über VPN zu Zielzielen geht und welcher direkt über das lokale WAN auf das Internet zugreift.
+!!! note "Was ist eine VPN-Richtlinie?"
+
+    Eine VPN-Richtlinie definiert, wie Netzwerkverkehr durch VPN-Tunnel geleitet wird, und bestimmt, welcher Datenverkehr über VPN zu Zielen geleitet wird und welcher direkt über das lokale WAN auf das Internet zugreift.
 
     Sie ermöglicht es allen Clients oder bestimmten Geräten, auf bestimmte Websites oder das gesamte Internet über eine VPN-Verbindung zuzugreifen, was eine flexible und sichere Netzwerkverwaltung ermöglicht.
 
@@ -62,30 +66,44 @@ Folgen Sie im VPN Dashboard dem Einrichtungsassistenten, um Ihre VPN-Richtlinie 
 
     Es gibt vier Optionen:
 
-    - **All Clients**: Falls ausgewählt, wird der Datenverkehr von allen Geräten dieser Regel entsprechen.
+    - **All Clients**: Wenn ausgewählt, entspricht der Datenverkehr aller Geräte dieser Regel.
     ![all clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/all_clients.png){class="glboxshadow"}
 
-    - **Specified Connection Types**: Falls ausgewählt, wird der Datenverkehr von bestimmten Verbindungstypen (z.B. LAN-Subnetz, Drop-in Gateway, Gastnetzwerk) dieser Regel entsprechen.
+    - **Specified Connection Types**: Wenn ausgewählt, entspricht der Datenverkehr bestimmter Verbindungstypen (z. B. LAN-Subnetz, Drop-in Gateway, Gastnetzwerk) dieser Regel.
     ![specified connection types](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/specified_connection.png){class="glboxshadow"}
 
-    - **Specified Devices**: Falls ausgewählt, wird der Datenverkehr von bestimmten Geräten (identifiziert durch MAC-Adresse) dieser Regel entsprechen.
+    - **Specified Devices**: Wenn ausgewählt, entspricht der Datenverkehr bestimmter Geräte (identifiziert über die MAC-Adresse) dieser Regel.
     ![specified devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/specified_device.png){class="glboxshadow"}
 
-    - **Exclude Specified Devices**: Falls ausgewählt, wird der Datenverkehr von bestimmten Geräten (identifiziert durch MAC-Adresse) dieser Regel nicht entsprechen.
+    - **Exclude Specified Devices**: Wenn ausgewählt, entspricht der Datenverkehr bestimmter Geräte (identifiziert über die MAC-Adresse) dieser Regel nicht.
     ![exclude specified devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_device.png){class="glboxshadow"}
 
-3. **Wählen Sie das Zielziel.**
+3. **Wählen Sie das Datenverkehrsziel.**
 
     Es gibt drei Optionen:
 
-    - **All Targets**: Falls ausgewählt, wird der Datenverkehr, der dieser Regel entspricht, zu allen Zielen geleitet.
+    - **All Targets**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, zu allen Zielen geleitet.
     ![all targets](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/all_targets.png){class="glboxshadow"}
 
-    - **Specified Domain / IP List**: Falls ausgewählt, wird der Datenverkehr, der dieser Regel entspricht, zu bestimmten Domains oder IP-Adressen geleitet. Sie müssen diese manuell eingeben.
+    - **Specified Domain / IP List**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, zu bestimmten Domains oder IP-Adressen geleitet. Sie müssen diese manuell eingeben.
     ![specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/specified_domain_ip.png){class="glboxshadow"}
 
-    - **Exclude specified Domain / IP List**: Falls ausgewählt, wird der Datenverkehr, der dieser Regel entspricht, nicht zu bestimmten Domains oder IP-Adressen geleitet. Sie müssen diese manuell eingeben.
+    - **Exclude specified Domain / IP List**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, nicht zu bestimmten Domains oder IP-Adressen geleitet. Sie müssen diese manuell eingeben.
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
+
+### Kill Switch
+
+!!! note "Was ist Kill Switch?"
+
+    Kill Switch ist eine Sicherheitsfunktion für VPN-Verbindungen. Sie kappt automatisch den gesamten Internetzugang Ihres lokalen Netzwerks, wenn die VPN-Verbindung unerwartet getrennt wird. Dadurch werden die Offenlegung Ihrer echten IP-Adresse und Ihrer Online-Daten verhindert und Privatsphäre sowie Sicherheit gewahrt. Diese Funktion ist besonders nützlich, wenn Sie öffentliche Netzwerke nutzen, sensible Daten verarbeiten oder Ihre echte IP-Adresse verbergen möchten.
+
+    Wenn aktiviert, blockiert sie jeglichen Client-Datenverkehr, der versucht, den VPN-Tunnel zu umgehen, und verhindert so wirksam VPN-Lecks durch DNS-Konfigurationsprobleme, unerwartete Verbindungsabbrüche, direkte IP-Anfragen und ähnliche Szenarien.
+
+Seit Firmware v4.8 unterstützen GL.iNet-Router einen Kill Switch für jeden einzelnen VPN-Tunnel sowie für die globale VPN-Verbindung.
+
+- Um den Kill Switch für einen einzelnen VPN-Tunnel einzurichten, siehe [hier](#tunnel-optionen).
+
+- Um den Kill Switch für die globale VPN-Verbindung (d. h. Enhanced Kill Switch) einzurichten, siehe [hier](#all-other-traffic).
 
 ## Verwendungsszenarien
 
@@ -117,7 +135,7 @@ Hier sind zwei Szenarien mit schrittweisen Einrichtungsanweisungen zur Orientier
 
     ![scenario 1 select source](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/1_specified_devices.png){class="glboxshadow"}
 
-3. Wählen Sie Target Destination.
+3. Wählen Sie das Datenverkehrsziel.
 
     Klicken Sie auf die Registerkarte **All Targets**, legen Sie sie als Datenverkehrsziel fest und klicken Sie dann auf **Apply**.
 
@@ -171,7 +189,7 @@ Hier sind zwei Szenarien mit schrittweisen Einrichtungsanweisungen zur Orientier
 
     ![scenario 2 select source1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/case2_source.png){class="glboxshadow"}
 
-3. Wählen Sie Target Destination.
+3. Wählen Sie das Datenverkehrsziel.
 
     Klicken Sie auf die Registerkarte **Specified Domain / IP List**, geben Sie Domains einiger gängiger sozialer Medien und Streaming-Dienste ein, wie unten gezeigt, und klicken Sie dann auf **Apply**.
 
@@ -199,13 +217,13 @@ Hier sind zwei Szenarien mit schrittweisen Einrichtungsanweisungen zur Orientier
 
     **Hinweis**: Wenn mehrere Profile ausgewählt werden, versucht der Tunnel, sich mit jedem Profil in Prioritätsreihenfolge zu verbinden, bis eine Verbindung erfolgreich hergestellt wurde. Wenn alle Profile innerhalb eines einzelnen Tunnels keine Verbindung herstellen können, bestimmt das System basierend auf dem Status des Tunnel Kill Switch und der [All Other Traffic](#all-other-traffic)-Richtlinie, ob auf das lokale WAN umgeschaltet werden soll.
 
-8. Wählen Sie Click Source.
+8. Wählen Sie die Client-Quelle.
 
     Klicken Sie auf die Registerkarte **All Clients**, legen Sie sie als Client-Quelle für Tunnel 2 fest und klicken Sie dann auf **Apply**.
 
     ![scenario 2 select source2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_all_clients.png){class="glboxshadow"}
 
-9. Wählen Sie Target Destination.
+9. Wählen Sie das Datenverkehrsziel.
 
     Klicken Sie auf die Registerkarte **All Targets**, legen Sie sie als Datenverkehrsziel für Tunnel 2 fest und klicken Sie dann auf **Apply**.
 

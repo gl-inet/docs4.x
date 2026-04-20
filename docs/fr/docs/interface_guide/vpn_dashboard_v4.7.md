@@ -1,12 +1,8 @@
 # Tableau de bord VPN (firmware v4.7 et antérieur)
 
-**Remarque** : ce guide est basé sur le firmware v4.7 et les versions antérieures. Pour les versions plus récentes, veuillez consulter [cette page](vpn_dashboard.md).
-
----
-
 Connectez-vous au panneau d'administration web, puis accédez à **VPN** -> **VPN Dashboard**.
 
-La page VPN Dashboard permet de consulter l'état et les paramètres du VPN. Elle comporte deux sections : [VPN Client](#vpn-client) et [VPN Server](#vpn-server).
+La page VPN Dashboard affiche l'état et les paramètres de la connexion VPN. Elle comporte deux sections : [VPN Client](#vpn-client) et [VPN Server](#vpn-server).
 
 ![glinet vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
 
@@ -62,25 +58,25 @@ Comme illustré ci-dessus, le mode proxy actuel est **Global Proxy**. Cliquez de
 
 2. Policy Mode
 
-    1. Based on the target domain or IP.
+    1. En fonction du domaine cible ou de l'adresse IP.
 
         Dans ce mode, seul le trafic de certains sites web définis par adresse IP ou nom de domaine passe par le VPN. Une seule instance de client VPN peut être activée.
 
-    2. Based on the client device.
+    2. En fonction de l'appareil client.
 
         Dans ce mode, seul le trafic de certains appareils clients locaux définis par adresse MAC passe par le VPN. Une seule instance de client VPN peut être activée.
 
-    3. Based on the VLAN.
+    3. En fonction du VLAN.
 
         Dans ce mode, seul le trafic de certains VLAN peut passer par le VPN. Une seule instance de client VPN peut être activée.
 
 3. Route Mode
 
-    1. Auto detect
+    1. Détection automatique
 
         Les règles de routage définies dans chaque fichier de configuration client VPN ou envoyées par le serveur VPN seront utilisées.
 
-    2. Customize routing rules
+    2. Personnaliser les règles de routage
 
         Vous pouvez configurer manuellement des règles de routage pour chaque instance de client VPN.
 

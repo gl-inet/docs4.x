@@ -26,7 +26,7 @@ Aktivieren Sie das gewünschte Fernzugriffsprotokoll und klicken Sie auf **Apply
 
 Bei der Synchronisierung der Einträge zwischen DNS-Servern kann es zu einer Verzögerung von bis zu 10 Minuten kommen. Dadurch ist der Zugriff über den DDNS-Domainnamen möglicherweise nicht sofort nach der Aktivierung oder nach einer Änderung Ihrer öffentlichen IP möglich.
 
-**Hinweis**: Wenn Sie DDNS und den VPN-Client gleichzeitig aktivieren, stellen Sie sicher, dass **Services From GL.iNet Use VPN** deaktiviert ist. Diese Option finden Sie in den [VPN Client Options](vpn_dashboard.md#tunnel-options) des VPN Dashboard.
+**Hinweis**: Wenn Sie DDNS und den VPN-Client gleichzeitig aktivieren, stellen Sie sicher, dass **Services From GL.iNet Use VPN** deaktiviert ist. Diese Option finden Sie in den [VPN Client Options](vpn_dashboard_v4.8.md#tunnel-options) des VPN Dashboard.
 
 ## Prüfen, ob DDNS funktioniert
 

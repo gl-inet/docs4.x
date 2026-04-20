@@ -1,6 +1,12 @@
 # AmneziaWG Obfuscation Parameters
 
-AmneziaWG is a WireGuard-based VPN protocol with built-in traffic obfuscation. Its obfuscation parameters control how traffic is disguised to avoid detection by strict network controls. Below is a detailed breakdown of AmneziaWG version differences, obfuscation parameters, their constraints, and recommended settings.
+AmneziaWG is a WireGuard-based VPN protocol with built-in traffic obfuscation. Its obfuscation parameters control how traffic is disguised to avoid detection by strict network enforcement mechanisms. Below is a detailed breakdown of the significance of AmneziaWG, version differences, and parameters overview (including their constraints and recommended settings).
+
+## Why AmneziaWG?
+
+The predecessor of AmneziaWG, WireGuard, has established itself as a fast and reliable VPN protocol thanks to its compact codebase and high efficiency. However, its fixed packet headers and predictable packet sizes create an easily recognizable signature. DPI systems can effortlessly identify these packets and immediately terminate connections — a critical issue in countries with strict internet censorship.
+
+AmneziaWG inherits the architectural simplicity and high performance of the original implementation, but eliminates the identifiable network signatures that make WireGuard easily detectable by Deep Packet Inspection (DPI) systems.
 
 ## AmneziaWG V2.0
 

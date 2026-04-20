@@ -45,6 +45,7 @@ plugins:
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
         'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
+        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
 
 extra:
   social:
@@ -195,7 +196,7 @@ nav:
       - How to Block Non-VPN Traffic: faq/block_non_vpn_traffic.md
       - VPN Kill Switch: faq/block_non_vpn_traffic.md
       - TCP or UDP: faq/openvpn_tcp_udp.md
-      - AmneziaWG Obfuscation Parameters: faq/amnezia_obfuscation_parameters.md
+      - AmneziaWG Obfuscation Parameters: faq/amneziawg_obfuscation_parameters.md
       - Do I have to configure Ethernet WAN when using VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Upgrade:
       - Download firmware: faq/how_to_download_firmware.md

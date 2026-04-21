@@ -123,4 +123,11 @@ Click **Export Log for Support** to view all eSIM-related logs. If you encounter
 
 ---
 
+Related Articles:
+
+- [How to use the eSIM Physical Card with GL.iNet routers?](../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
+- [How to use the eSIM Physical Card with Android devices?](../tutorials/how_to_use_the_esim_physical_card_with_android_devices.md)
+
+---
+
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

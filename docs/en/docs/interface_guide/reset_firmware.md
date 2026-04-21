@@ -12,9 +12,11 @@ If you can't access the web Admin Panel, watch the video below to reset using th
 
 ---
 
-Video guide: How to Reset GL.iNet Router to Factory Settings
+**Video guide: How to Reset GL.iNet Router to Factory Settings**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

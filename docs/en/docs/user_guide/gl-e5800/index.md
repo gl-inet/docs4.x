@@ -196,33 +196,59 @@ You can upgrade Mudi 7's firmware via the Touchscreen or web Admin Panel.
     
     Please refer to [here](../../interface_guide/upgrade.md#local-upgrade) for details.
 
-## Repair & Reset
+## Factory Reset
 
-You can restore network connectivity or reset Mudi 7 to factory defaults by a physical reset button.
+There are three ways to reset your Mudi 7: directly on the touchscreen, using the Reset button, and via the web Admin Panel.
 
 **Note**: Before performing a reset, ensure Mudi 7 has fully booted up. Do NOT press the reset button immediately after power-up, as this may trigger U-Boot failsafe mode.
 
-Remove the back cover, and you will find the reset button as shown below. 
+Watch this video or follow the steps below.
 
-![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! note "Network Repair"
+### Reset via Touchscreen
 
-    Press and hold the reset button for **4 seconds**, then release to repair your network. When holding the button, pay attention to the on-screen prompts and operate as instructed.
+1. On the homepage, tap **More**.
 
-    This will restart the network interface, while preserving Wi-Fi settings, VPN configurations (disabled), system settings, etc.
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset1.png){class="glboxshadow" width="300"}
 
-    **Note**:
+2. On the More page, scroll down to the bottom and tap **Reset**.
 
-    1. If Wi-Fi has been disabled, a soft reset will restore Wi-Fi to its default enabled state.
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset2.png){class="glboxshadow" width="300"}
 
-    2. A soft reset can also be used to quickly switch the device from non-router mode to router mode.
+3. Tap Reset again to confirm. The router will start resetting and then reboot.
 
-!!! note "Device Reset"
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
-    Press and hold the reset button for **10 seconds**, then release to perform a hard reset. When holding the button, pay attention to the on-screen prompts and operate as instructed.
+### Reset via Button
+
+1. Remove the back cover, and you will find the reset button as shown below. 
+
+    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+
+2. Press and hold the reset button for **10 seconds**, then release to perform a hard reset. When holding the button, pay attention to the on-screen prompts and operate as instructed.
     
     This will clear all your settings. Please proceed with caution.
+
+**Tip**: If you want to restore network connectivity without performing a factory reset, simply press and hold the reset button for **4 seconds** and then release it to repair your network. When holding the button, pay attention to the on-screen prompts and operate as instructed.
+
+This will restart the network interface while preserving your Wi-Fi settings, VPN configurations (disabled), system settings, etc.
+
+!!! note "Soft Reset"
+
+    1. A <u>soft reset</u> restarts the device without erasing data, while a <u>factory reset</u> restores it to default settings and deletes all user data.
+    
+    2. If Wi-Fi has been disabled, a soft reset will restore Wi-Fi to its default enabled state.
+
+    3. A soft reset can also be used to quickly switch the device from non-router mode to router mode.
+
+### Reset via Web
+
+1. Log in to the web Admin Panel, and go to **SYSTEM** -> **Reset Firmware**.
+
+2. Click **Delete All and Reboot**. The router will start resetting and then reboot.
+
+    ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
 
 ## Log in to web Admin Panel
 

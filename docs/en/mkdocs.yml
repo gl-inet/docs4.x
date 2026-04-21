@@ -176,6 +176,7 @@ nav:
       - Cannot Scan iPhone 5G Hotspot: faq/cannot_scan_iphone_5g_hotspot.md
       - iPhone tethering failed: faq/iphone_tethering_fail.md
       - Cellular Network Troubleshooting Guide: faq/cellular_network_troubleshooting_guide.md
+      - eSIM profile installation fails: faq/esim_profile_installation_failed.md
       - No internet after replacing the old router with GL.iNet: faq/no_internet_after_replacing_the_old_router_with_glinet.md
       - USB modem is not working: faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
       - Repair network or reset: faq/repair_network_or_reset_firmware.md

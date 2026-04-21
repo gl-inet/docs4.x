@@ -75,7 +75,7 @@ You can purchase eSIM profiles from our recommended stores, tested stores, or ot
     
     For after-sales support or refunds, please contact the corresponding eSIM provider.
 
-### Upload Regular Profile
+### Upload eSIM Profile
 
 After purchasing an eSIM profile, you will typically receive a QR code (or an activation code). Save this QR code locally, then follow the steps below to upload your eSIM profile.
 
@@ -92,6 +92,8 @@ After purchasing an eSIM profile, you will typically receive a QR code (or an ac
     1. Most eSIM profiles can only be downloaded and installed once. 
     
     2. A properly formatted QR code will display an activation code that starts with **LPA:**. However, some non-standard QR codes may only provide a raw activation code without the LPA prefix. In this case, manually add `LPA:` at the beginning of the code before clicking the Install button.
+
+        ![esim activation code](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/activation_code.jpg){class="glboxshadow" width="550"}
 
     3. If you haven't purchased any eSIM profile, you may purchase one from the eSIM Profile Recommended Store. Click [here](#purchase-esim-profile) for details.
 

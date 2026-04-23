@@ -236,23 +236,29 @@ In the web Admin Panel, go to **VPN** -> **WireGuard Client** -> **Mullvad**.
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} is an online VPN service that combines speed and security.
 
-1. Click [here](https://my.nordaccount.com/){target="_blank"} to log in with your NordVPN web account.
+1. Click [here](https://my.nordaccount.com/){target="_blank"} to log in to your NordVPN web account.
 
     ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_login.png){class="glboxshadow"}
     
-    After logging in to the Nord dashboard, click NordVPN on the left side, then click **Set up NordVPN manually**.
+    After logging in to the Nord dashboard, click **NordVPN** in the left menu, find the **Access Token** section, then click **Get Access token**.
 
-    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_dashboard.png){class="glboxshadow"}
+    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token1.png){class="glboxshadow"}
 
-    Then you will find the **Access token**.
+    On the next page, click **Generate new token**.
 
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/manual_setup.png){class="glboxshadow"}
+    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token2.png){class="glboxshadow"}
 
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/generate_new_token.png){class="glboxshadow"}
+    In the pop-up window, select token expiration date, then click **Generate token**.
 
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/copy_access_token.png){class="glboxshadow"}
+    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token3.png){class="glboxshadow"}
 
-2. Log in to the router's web Admin Panel, go to **VPN** -> **WireGuard Client** -> **NordVPN**. 
+    You will then get the access token, as shown below. Copy the token for later use. 
+    
+    **Note**: The access token is only displayed once. Make sure you copy and use it now. After closing this window, the token will no longer be visible. If you fail to save it, you will need to generate a new one.
+
+    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token4.png){class="glboxshadow"}
+
+2. Log in to the router's web Admin Panel, and go to **VPN** -> **WireGuard Client** -> **NordVPN**. 
 
     Input **Token**, then click **Save and Continue**. It will generate configuration files for each server.
 

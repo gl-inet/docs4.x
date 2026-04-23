@@ -32,17 +32,17 @@ NordVPN quick setup is integrated into the admin panel of GL.iNet routers. You c
 
     ![nord login](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_login.png){class="glboxshadow"}
 
-    After login, on the Nord Dashboard, click **NordVPN**, then click **Set up NordVPN manually**.
-
-    ![nord dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_dashboard.png){class="glboxshadow"}
+    After login, on the Nord Dashboard, click **NordVPN** on the left menu, then click **Set up NordVPN manually**.
 
     ![nord setup manually](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
 
-    You will find the **service credentials**. Copy them for later use.
+    You will find the **service credentials**. Verify your email first to get your credentials, then copy them for later use.
 
     ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
 
-2. Log in to your router's web admin panel, navigate to VPN -> OpenVPN Client -> NordVPN. Input the **service credentials** obtained in step 1 (Note: It is **NOT** the login account email/password), then click **Save and Continue**.
+2. Log in to your router's web admin panel, and go to **VPN** -> **OpenVPN Client** -> **NordVPN**. 
+
+    Input the **service credentials** obtained in step 1 (Note: The service credentials is **NOT** your login account email and password), then click **Save and Continue**.
    
     ![input nordvpn service credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn1.png){class="glboxshadow"}
 

@@ -59,19 +59,23 @@ If you're using the eSIM Physical card for the first time, please watch this set
 
 ![XE3000](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/xe3000-sim-card.jpg){class="glboxshadow"}
 
-**Step 2:** Open a browser and type "192.168.8.1" in the address bar to log in to the GL.iNet Admin Panel.
+**Step 2:** Open a browser and type `192.168.8.1` in the address bar to log in to the GL.iNet Admin Panel.
 
-![log in to the GL.iNet Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/login-admin-panel.jpg){class="glboxshadow"}
+![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/login-admin-panel.jpg){class="glboxshadow"}
 
-**Step 3:** Connect your device to the internet. 
+**Step 3:** Connect your device to the Internet. 
 
-Navigate to **INTERNET**, and click **Connect** (or **Auto Setup** in lower firmware version) to connect to the internet via Cellular.
+After login, go to **INTERNET** -> **Cellular**.
+
+For dual-SIM routers, make sure the physical eSIM card slot is set as the **Active SIM Card**. If not, click **SIM Card Switch** and select the SIM slot where the physical eSIM card is installed.
+
+Then click **Connect** (or **Auto Setup** in lower firmware version) to connect it to the internet via Cellular network.
 
 *This eSIM physical card comes with a seed profile that includes 1GB of free data for the U.S. and Europe, plus 100MB of Global Data, valid for 1 year from the activation date. Please note that this data is only for purchasing and downloading eSIM profiles and is not intended for general internet access.*
 
 ![initial setup connect](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connect.jpg){class="glboxshadow"}
 
-If the internet is connected successfully, the screen will appear as follows.
+Once connected successfully, the screen will appear as follows.
 
 ![initial setup connected](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connected.jpg){class="glboxshadow"}
 

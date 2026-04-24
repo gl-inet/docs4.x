@@ -2,9 +2,38 @@
 
 On the left side of the web Admin Panel, go to **APPLICATIONS** -> **eSIM Management**.
 
-This page allows you to check eSIM status and manage eSIM profiles. It consists of two parts: **Current eSIM Status** and **eSIM Profile List**.
+This page allows you to check eSIM physical card status and manage eSIM profiles. It consists of two parts: **Current eSIM Status** and **eSIM Profile List**.
 
 ![esim detected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_detected.png){class="glboxshadow"}
+
+## Supported Models
+
+| Router Model                   | Support   |
+| :----------------------------- | :-------: |
+| GL-X2000 (Spitz Plus)          | √         |
+| GL-X3000 (Spitz AX)            | √         |
+| GL-XE3000 (Puli AX)            | √         |
+| GL-E750V2 (Mudi V2)            | √         |
+| GL-E750 (Mudi)                 | √         |
+| GL-XE300 (Puli)                | ※        |
+| GL-X750 (Spitz)                | ※        |
+| GL-X300B (Collie)              | ※        |
+| GL-E750V2 vSIM                 | X         |
+| GL-E5800 (Mudi 7)              | X         |
+
+**For models marked with ※**:
+
+1. The current stable firmware does not support eSIM. To use the eSIM function, you need to install the eSIM-supported firmware. [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} for more instructions.
+    
+2. For the ※ models with EP06-A module, eSIM is not supported because the Qualcomm software lacks the required AT command support.
+    
+3. For GL-E750 (Mudi) and the ※ models with EP06-E module, please refer to this [link](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} to upgrade the module's firmware first, then install the eSIM-supported firmware to enable eSIM functionality.
+
+**For models marked with X**:
+
+1. GL-E750V2 vSIM does not support eSIM functionality.
+
+2. GL-E5800 (Mudi 7) comes with a built-in eSIM. Therefore, the eSIM physical card will be recognized as a regular SIM card without eSIM functionality on Mudi 7.
 
 ## Current eSIM Status
 

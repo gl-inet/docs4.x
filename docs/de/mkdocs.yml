@@ -44,6 +44,8 @@ plugins:
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
+        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
+        'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
         'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
 
 extra:
@@ -173,6 +175,7 @@ nav:
       - iPhone-5G-Hotspot kann nicht gescannt werden: faq/cannot_scan_iphone_5g_hotspot.md
       - iPhone-Tethering fehlgeschlagen: faq/iphone_tethering_fail.md
       - Leitfaden zur Fehlerbehebung bei Mobilfunknetzen: faq/cellular_network_troubleshooting_guide.md
+      - eSIM-Profilinstallation fehlgeschlagen: faq/esim_profile_installation_failed.md
       - Kein Internet nach dem Ersetzen des alten Routers durch einen GL.iNet-Router: faq/no_internet_after_replacing_the_old_router_with_glinet.md
       - USB-Modem funktioniert nicht: faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
       - Netzwerk reparieren oder zurücksetzen: faq/repair_network_or_reset_firmware.md
@@ -194,6 +197,7 @@ nav:
       - Nicht-VPN-Datenverkehr blockieren: faq/block_non_vpn_traffic.md
       - VPN Kill Switch: faq/block_non_vpn_traffic.md
       - TCP oder UDP: faq/openvpn_tcp_udp.md
+      - AmneziaWG-Verschleierungsparameter: faq/amneziawg_obfuscation_parameters.md
       - Muss ich Ethernet WAN bei Verwendung eines VPN konfigurieren?: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Upgrade:
       - Firmware herunterladen: faq/how_to_download_firmware.md
@@ -302,7 +306,7 @@ nav:
       - Parental Control: interface_guide/parental_control.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
-      - eSIM-Verwaltung: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
+      - eSIM-Verwaltung: interface_guide/esim_management.md
     - Network:
       - Firewall: interface_guide/firewall.md
       - Port Forwarding: interface_guide/port_forwarding.md
@@ -320,7 +324,7 @@ nav:
       - Netzwerkbeschleunigung: interface_guide/network_acceleration.md
       - NAT-Einstellungen: interface_guide/nat_settings.md
     - Verkehrssteuerung:
-      - DPI-Lizenz: interface_guide/dpi_license.md
+      - DPI-Lizenz: interface_guide/dpi_engine.md
       - Datenstatistiken: interface_guide/data_statistics.md
       - Inhaltsfilter: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md

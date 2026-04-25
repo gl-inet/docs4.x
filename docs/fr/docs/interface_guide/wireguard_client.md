@@ -240,17 +240,23 @@ Dans le panneau d'administration web, accédez à **VPN** -> **WireGuard Client*
 
     ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_login.png){class="glboxshadow"}
     
-    Après vous être connecté au tableau de bord Nord, cliquez sur NordVPN dans la partie gauche, puis sur **Set up NordVPN manually**.
+    Après vous être connecté au Nord Dashboard, cliquez sur **NordVPN** dans le menu de gauche, repérez la section **Access Token**, puis cliquez sur **Get Access token**.
 
-    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_dashboard.png){class="glboxshadow"}
+    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token1.png){class="glboxshadow"}
 
-    Vous y trouverez ensuite le **Access token**.
+    Sur la page suivante, cliquez sur **Generate new token**.
 
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/manual_setup.png){class="glboxshadow"}
+    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token2.png){class="glboxshadow"}
 
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/generate_new_token.png){class="glboxshadow"}
+    Dans la fenêtre pop-up, sélectionnez la date d'expiration du token, puis cliquez sur **Generate token**.
 
-    ![nordvpn get credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/copy_access_token.png){class="glboxshadow"}
+    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token3.png){class="glboxshadow"}
+
+    Le token d'accès s'affichera alors. Copiez-le pour l'utiliser plus tard.
+
+    **Remarque** : le token d'accès ne s'affiche qu'une seule fois. Assurez-vous de le copier et de l'utiliser maintenant. Après avoir fermé cette fenêtre, il ne sera plus visible. Si vous ne l'enregistrez pas, vous devrez générer un nouveau token.
+
+    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token4.png){class="glboxshadow"}
 
 2. Connectez-vous au panneau d'administration web du routeur, puis accédez à **VPN** -> **WireGuard Client** -> **NordVPN**. 
 

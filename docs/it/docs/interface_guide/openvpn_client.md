@@ -32,17 +32,17 @@ La configurazione rapida di NordVPN e' integrata nel pannello di amministrazione
 
     ![nord login](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_login.png){class="glboxshadow"}
 
-    Dopo l'accesso, nel Nord Dashboard fai clic su **NordVPN**, quindi su **Set up NordVPN manually**.
-
-    ![nord dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_dashboard.png){class="glboxshadow"}
+    Dopo l'accesso, nel Nord Dashboard fai clic su **NordVPN** nel menu a sinistra, quindi su **Set up NordVPN manually**.
 
     ![nord setup manually](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
 
-    Troverai le **service credentials**. Copiale per usarle piu' tardi.
+    Troverai le **service credentials**. Per ottenerle devi prima verificare il tuo indirizzo email, poi copiarle per usarle piu' tardi.
 
     ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
 
-2. Accedi al pannello di amministrazione web del router, vai su VPN -> OpenVPN Client -> NordVPN. Inserisci le **service credentials** ottenute al passaggio 1 (nota: **NON** sono email/password dell'account di login), quindi fai clic su **Save and Continue**.
+2. Accedi al pannello di amministrazione web del router e vai su **VPN** -> **OpenVPN Client** -> **NordVPN**.
+
+    Inserisci le **service credentials** ottenute al passaggio 1 (nota: **NON** sono l'email e la password del tuo account Nord), quindi fai clic su **Save and Continue**.
 
     ![input nordvpn service credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn1.png){class="glboxshadow"}
 
@@ -181,7 +181,7 @@ Se il provider a cui sei abbonato non e' elencato di seguito, contatta il relati
 
     Puoi scaricare le configurazioni di tutti i server [qui](https://downloads.nordcdn.com/configs/archives/servers/ovpn.zip).
 
-    Suggerimenti: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dallo zip oppure caricare un singolo file `.ovpn`.
+    Suggerimento: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dal file `.zip` oppure caricare un singolo file `.ovpn`.
 
     [Refer link](https://support.nordvpn.com/Connectivity/Router/1047409122/GL-iNet-setup-with-NordVPN.htm){target="_blank"}
 
@@ -234,7 +234,7 @@ Se il provider a cui sei abbonato non e' elencato di seguito, contatta il relati
 
     Accedi al [Dashboard](https://users.bolehvpn.net/){target="_blank"}, scarica i file di configurazione e seleziona il formato [Linux_iOS inline](https://users.bolehvpn.net/download/inline/6){target="_blank"}. Estrai i file zip dopo aver completato il download.
 
-    Suggerimenti: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dallo zip oppure caricare un singolo file `.ovpn`.
+    Suggerimento: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dal file `.zip` oppure caricare un singolo file `.ovpn`.
 
     [Refer link](https://www.bolehvpn.net/clients-installations/#1487691248224-0c435dba-d612){target="_blank"}
 
@@ -333,9 +333,9 @@ Se il provider a cui sei abbonato non e' elencato di seguito, contatta il relati
 
     [Official Website](https://go.fastestvpn.com/affiliate/pap?a_aid=5ffd2a3e9d687){target="_blank"}
 
-    Scarica il file zip delle configurazioni FastestVPN per OpenVPN TCP e UDP [qui](https://support.fastestvpn.com/download/fastestvpn_ovpn/)
+    Scarica i file di configurazione FastestVPN (un file ZIP) per OpenVPN TCP e UDP [qui](https://support.fastestvpn.com/download/fastestvpn_ovpn/)
 
-    Suggerimenti: se il file zip e' troppo grande da caricare, elimina alcuni file `.ovpn` dalla cartella zip oppure carica un singolo file `.ovpn`.
+    Suggerimento: se il file zip e' troppo grande da caricare, elimina alcuni file `.ovpn` dal file `.zip` oppure carica un singolo file `.ovpn`.
 
     [Refer link](https://support.fastestvpn.com/tutorials/routers/gl-inet/openvpn){target="_blank"}
 
@@ -483,7 +483,7 @@ Se il provider a cui sei abbonato non e' elencato di seguito, contatta il relati
 
     2. Lo username e la password per la connessione OpenVPN sono gli stessi che usi per accedere a OysterVPN.
 
-    Suggerimenti: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dallo zip oppure caricare un singolo file `.ovpn`.
+    Suggerimento: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dal file `.zip` oppure caricare un singolo file `.ovpn`.
 
 ??? "PIA (Private Internet Access)"
     ### PIA
@@ -492,7 +492,7 @@ Se il provider a cui sei abbonato non e' elencato di seguito, contatta il relati
 
     [Download](https://www.privateinternetaccess.com/openvpn/openvpn.zip) diretto.
 
-    Suggerimenti: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dallo zip oppure caricare un singolo file `.ovpn`.
+    Suggerimento: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dal file `.zip` oppure caricare un singolo file `.ovpn`.
 
 ??? "PrivadoVPN"
     ### PrivadoVPN
@@ -512,7 +512,7 @@ Se il provider a cui sei abbonato non e' elencato di seguito, contatta il relati
 
     [Qui](https://privatevpn.com/client/PrivateVPN-TUN.zip) trovi il link di download ufficiale. A causa di un bug riscontrato durante l'importazione nel router, il nome del file interno contiene caratteri speciali come 'Bogota'. Lo abbiamo rinominato e abbiamo fornito il link di download qui sopra. Correggeremo questo bug nelle versioni future.
 
-    Suggerimenti: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dallo zip oppure caricare un singolo file `.ovpn`.
+    Suggerimento: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dal file `.zip` oppure caricare un singolo file `.ovpn`.
 
 ??? "Proton VPN"
     ### Proton VPN
@@ -642,7 +642,7 @@ Se il provider a cui sei abbonato non e' elencato di seguito, contatta il relati
 
     Puoi scaricare tutte le configurazioni [qui](https://api.surfshark.com/v1/server/configurations) direttamente.
 
-    Suggerimenti: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dallo zip oppure caricare un singolo file `.ovpn`.
+    Suggerimento: se il file zip e' troppo grande da caricare, puoi eliminare alcuni file `.ovpn` dal file `.zip` oppure caricare un singolo file `.ovpn`.
 
     [Refer link](https://support.surfshark.com/hc/en-us/articles/360011856259-How-to-set-up-Surfshark-on-GL-iNet-router-3-x-firmware-){target="_blank"}
 

@@ -198,33 +198,59 @@ Vous pouvez mettre à niveau le firmware du Mudi 7 via l’écran tactile ou le 
 
     Pour plus de détails, consultez [cette section](../../interface_guide/upgrade.md#local-upgrade).
 
-## Réparation et réinitialisation
+## Réinitialisation d'usine
 
-Vous pouvez rétablir la connectivité réseau ou réinitialiser le Mudi 7 aux paramètres d'usine à l'aide du bouton physique de réinitialisation.
+Il existe trois façons de réinitialiser votre Mudi 7 : directement sur l’écran tactile, à l’aide du bouton Reset et via le panneau d’administration web.
 
-**Remarque** : avant d'effectuer une réinitialisation, assurez-vous que le Mudi 7 a complètement démarré. N'appuyez **PAS** sur le bouton de réinitialisation immédiatement après la mise sous tension, car cela pourrait déclencher le mode de secours U-Boot.
+**Remarque** : avant d’effectuer une réinitialisation, assurez-vous que le Mudi 7 a complètement démarré. N’appuyez **PAS** sur le bouton Reset immédiatement après la mise sous tension, car cela pourrait déclencher le mode de secours U-Boot.
 
-Retirez le couvercle arrière, puis localisez le bouton de réinitialisation comme illustré ci-dessous.
+Regardez cette vidéo ou suivez les étapes ci-dessous.
 
-![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! note "Réparation du réseau"
+### Réinitialiser via l’écran tactile
 
-    Maintenez le bouton de réinitialisation enfoncé pendant **4 secondes**, puis relâchez-le pour réparer votre réseau. Pendant que vous maintenez le bouton, suivez les indications affichées à l'écran.
+1. Sur la page d’accueil, appuyez sur **More**.
 
-    Cela redémarrera l'interface réseau tout en conservant les paramètres Wi‑Fi, les configurations VPN (désactivées), les paramètres système, etc.
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset1.png){class="glboxshadow" width="300"}
 
-    **Remarque** :
+2. Sur la page **More**, faites défiler vers le bas puis appuyez sur **Reset**.
 
-    1. Si le Wi‑Fi a été désactivé, une réinitialisation logicielle le réactivera avec son état par défaut.
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset2.png){class="glboxshadow" width="300"}
 
-    2. Une réinitialisation logicielle peut également être utilisée pour faire basculer rapidement l'appareil du mode non-routeur au mode routeur.
+3. Appuyez de nouveau sur **Reset** pour confirmer. Le routeur commencera la réinitialisation puis redémarrera.
 
-!!! note "Réinitialisation de l'appareil"
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
-    Maintenez le bouton de réinitialisation enfoncé pendant **10 secondes**, puis relâchez-le pour effectuer une réinitialisation complète. Pendant que vous maintenez le bouton, suivez les indications affichées à l'écran.
+### Réinitialiser via le bouton
+
+1. Retirez le couvercle arrière, puis localisez le bouton Reset comme illustré ci-dessous.
+
+    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+
+2. Maintenez le bouton Reset enfoncé pendant **10 secondes**, puis relâchez-le pour effectuer une réinitialisation complète. Pendant que vous maintenez le bouton, suivez les indications affichées à l’écran.
     
     Cette opération effacera tous vos paramètres. Procédez avec prudence.
+
+**Astuce** : si vous souhaitez rétablir la connectivité réseau sans effectuer de réinitialisation d’usine, maintenez simplement le bouton Reset enfoncé pendant **4 secondes**, puis relâchez-le pour réparer votre réseau. Pendant que vous maintenez le bouton, suivez les indications affichées à l’écran.
+
+Cela redémarrera l’interface réseau tout en conservant les paramètres Wi‑Fi, les configurations VPN (désactivées), les paramètres système, etc.
+
+!!! note "Soft Reset"
+
+    1. Une <u>réinitialisation logicielle</u> redémarre l’appareil sans effacer les données, tandis qu’une <u>réinitialisation d’usine</u> le restaure à ses paramètres par défaut et supprime toutes les données utilisateur.
+
+    2. Si le Wi‑Fi a été désactivé, une réinitialisation logicielle le réactivera avec son état par défaut.
+
+    3. Une réinitialisation logicielle peut également être utilisée pour faire basculer rapidement l’appareil du mode non-routeur au mode routeur.
+
+### Réinitialiser via le web
+
+1. Connectez-vous au panneau d’administration web, puis accédez à **SYSTEM** -> **Reset Firmware**.
+
+2. Cliquez sur **Delete All and Reboot**. Le routeur commencera la réinitialisation puis redémarrera.
+
+    ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
 
 ## Connexion au panneau d'administration web
 

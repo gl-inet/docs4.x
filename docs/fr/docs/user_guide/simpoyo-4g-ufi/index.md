@@ -126,6 +126,14 @@ Vous pouvez maintenant connecter vos appareils au routeur par câble ou par Wi-F
 
 - Se connecter au SIMPoYo uFi via Wi-Fi : recherchez le SSID et la Key Wi-Fi sur l’étiquette de l’appareil SIMPoYo uFi, puis connectez-y vos appareils (jusqu’à 8). Il fonctionne comme un point d’accès autonome en 2,4 GHz pour plus de flexibilité lorsque nécessaire.
 
+!!! note "Dépannage"
+
+    Si votre uFi n’est pas reconnu par un routeur GL.iNet, essayez les étapes ci-dessous :
+
+    1. Utilisez l’adaptateur secteur d’origine de votre routeur. **Une tension ou un courant insuffisant peut entraîner un dysfonctionnement du port USB, ce qui empêche la détection du uFi.**
+
+    2. Essayez un autre adaptateur secteur ayant les mêmes spécifications que l’original.
+
 ### Se connecter à un ordinateur
 
 **Étape 1**. Branchez le SIMPoYo uFi sur le port USB de votre ordinateur (par ex. un PC de bureau ou un ordinateur portable). Il sera automatiquement reconnu comme un périphérique USB Ethernet, ce qui mettra immédiatement votre appareil en ligne.

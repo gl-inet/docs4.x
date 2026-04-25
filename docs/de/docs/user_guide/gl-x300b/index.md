@@ -41,6 +41,68 @@ Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei h
 
 [GL-X300B specifications](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
 
+## Antenneninstallation
+
+!!! note "GL-X300B-RS485"
+
+    **Collie (GL-X300B-RS485)** wird mit den folgenden Antennen geliefert:
+
+    * 1 x externe 4G-Antenne
+    * 2 x externe Wi-Fi-Antennen (2.4GHz)
+
+    Gehen Sie zum Installieren der Antennen wie folgt vor:
+
+    1. Befestigen Sie die Antennen (in beliebiger Reihenfolge).
+
+        - Befestigen Sie die beiden identischen Wi-Fi-Antennen an den **2.4G**-Ports.
+        - Befestigen Sie die einzelne 4G-Antenne am **4G**-Port.
+
+        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
+
+    2. Richten Sie die Antennen für optimale Leistung nach oben aus.
+
+!!! note "GL-X300B-BLE"
+
+    **Collie (GL-X300B-BLE)** wird mit den folgenden Antennen geliefert:
+
+    * 1 x externe 4G-Antenne
+    * 1 x externe Wi-Fi-Antenne (2.4GHz)
+    * 1 x externe BLE-Antenne
+
+    Gehen Sie zum Installieren der Antennen wie folgt vor:
+
+    1. Befestigen Sie die Antennen (in beliebiger Reihenfolge).
+
+        - Befestigen Sie die einzelne Wi-Fi-Antenne am **2.4G**-Port.
+        - Befestigen Sie die einzelne 4G-Antenne am **4G**-Port.
+        - Befestigen Sie die einzelne BLE-Antenne am **BLE**-Port.
+
+        ![x300b ble antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
+
+    2. Richten Sie die Antennen für optimale Leistung nach oben aus.
+
+!!! note "GL-X300B-GPS"
+
+    **Collie (GL-X300B-GPS)** wird mit den folgenden Antennen geliefert:
+
+    * 2 x externe 4G-Antennen
+    * 2 x externe Wi-Fi-Antennen (2.4GHz)
+    * 1 x externe GPS-Antenne
+
+    Gehen Sie zum Installieren der Antennen wie folgt vor:
+
+    1. Befestigen Sie die Antennen (in beliebiger Reihenfolge).
+
+        - Befestigen Sie die beiden identischen Wi-Fi-Antennen an den **2.4G**-Ports.
+        - Befestigen Sie die beiden identischen 4G-Antennen an den **4G**-Ports.
+        - Befestigen Sie die einzelne GPS-Antenne am **GPS**-Port.
+
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
+
+    2. Positionieren Sie die Antennen korrekt und vermeiden Sie ein Verheddern, um optimale Leistung sicherzustellen.
+
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps.jpg){class="glboxshadow"}
+
 ## Erste Einrichtung
 
 Alle GL.iNet-Router haben einen ähnlichen Einrichtungsprozess. [Klicken Sie hier, um mehr über die erste Einrichtung zu erfahren](../../faq/first_time_setup.md/).

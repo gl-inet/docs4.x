@@ -32,17 +32,17 @@ La configuración rápida de NordVPN está integrada en el panel de administraci
 
    ![nord login](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_login.png){class="glboxshadow"}
 
-   Después de iniciar sesión, en el panel de Nord, haga clic en **NordVPN** y luego en **Set up NordVPN manually**.
-
-   ![nord dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_dashboard.png){class="glboxshadow"}
+   Después de iniciar sesión, en el panel de Nord, haga clic en **NordVPN** en el menú izquierdo y luego en **Set up NordVPN manually**.
 
    ![nord setup manually](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
 
-   Encontrará las **service credentials**. Cópielas para usarlas más adelante.
+   Encontrará las **service credentials**. Primero debe verificar su correo electrónico para obtenerlas; después, cópielas para usarlas más adelante.
 
    ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
 
-2. Inicie sesión en el panel de administración web del router, vaya a VPN -> OpenVPN Client -> NordVPN. Introduzca las **service credentials** obtenidas en el paso 1. Nota: **NO** son el correo electrónico ni la contraseña de su cuenta de inicio de sesión. Después, haga clic en **Save and Continue**.
+2. Inicie sesión en el panel de administración web del router y vaya a **VPN** -> **OpenVPN Client** -> **NordVPN**.
+
+   Introduzca las **service credentials** obtenidas en el paso 1 (nota: **NO** son el correo electrónico ni la contraseña de su cuenta de Nord), y luego haga clic en **Save and Continue**.
 
    ![input nordvpn service credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn1.png){class="glboxshadow"}
 

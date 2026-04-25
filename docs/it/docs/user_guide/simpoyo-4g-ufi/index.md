@@ -128,6 +128,14 @@ Ora puoi collegare i tuoi dispositivi al router via cavo o Wi-Fi, oppure collega
 
 - Collegamento a SIMPoYo uFi via Wi-Fi: trova SSID e chiave Wi-Fi sull'etichetta del dispositivo SIMPoYo uFi, quindi collega i tuoi dispositivi (fino a 8). Funziona come hotspot standalone a 2.4 GHz per offrire maggiore flessibilità quando necessario.
 
+!!! note "Risoluzione dei problemi"
+
+    Se il tuo uFi non viene riconosciuto da un router GL.iNet, prova i passaggi seguenti:
+
+    1. Usa l'alimentatore originale del router. **Una tensione o una corrente insufficienti possono causare il malfunzionamento della porta USB e impedire il rilevamento di uFi.**
+
+    2. Prova un altro alimentatore con le stesse specifiche di quello originale.
+
 ### Collegarsi a un computer
 
 **Passaggio 1**. Collega SIMPoYo uFi alla porta USB del computer (ad esempio desktop o laptop). Verrà riconosciuto automaticamente come dispositivo Ethernet USB, portando subito online il tuo dispositivo.

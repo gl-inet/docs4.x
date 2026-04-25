@@ -12,9 +12,11 @@ Jeśli nie możesz uzyskać dostępu do panelu administracyjnego, obejrzyj poni�
 
 ---
 
-Przewodnik wideo: How to Reset GL.iNet Router to Factory Settings
+**Przewodnik wideo: jak zresetować router GL.iNet do ustawień fabrycznych**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

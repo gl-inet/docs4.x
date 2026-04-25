@@ -115,115 +115,15 @@ Vai su **APPLICATIONS** > **eSIM Management**. Qui puoi vedere lo stato attuale 
 
 ![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-manage-status.jpg){class="glboxshadow"}
 
-Solo un profilo eSIM puo' essere attivo alla volta. Un punto verde indica che il profilo eSIM selezionato e' attualmente attivo.
+Qui puoi visualizzare lo stato della tua eSIM e gestire i profili eSIM.
 
-## Guida a eSIM Management
+Solo un profilo eSIM può essere attivo alla volta. Un punto verde indica che il profilo eSIM selezionato è attualmente attivo.
 
-![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-management-interface-guide.jpg){class="glboxshadow"}
+---
 
-**A. Current eSIM Status:**
+Articolo correlato:
 
-Questa sezione mostra le informazioni di base della eSIM e i dettagli del profilo attualmente attivo.
-
-- **EID:** identificatore globale univoco della eUICC, il chip eSIM, usato per identificazione e controllo del profilo.
-- **ICCID:** identificatore della scheda integrata del profilo eSIM attualmente attivo.
-- **IMSI:** International Mobile Subscriber Identity del profilo eSIM attualmente attivo.
-- **eSIM OS Version:** versione del sistema operativo della eUICC che ne definisce compatibilita' e capacita'.
-- **eSIM Storage (remain/total):** capacita' disponibile e totale della eUICC per memorizzare i profili eSIM.
-- **eSIM Profile Number:** numero di profili eSIM attualmente memorizzati sulla eUICC.
-
-**B. Seed Profile:**
-
-Questa sezione fornisce i dettagli del seed profile. Il seed profile e' precaricato con 1 GB di dati gratuiti per Stati Uniti ed Europa, piu' 100 MB di dati globali, validi per 1 anno dalla data di attivazione. Questi dati consentono di scaricare altri profili a livello globale. Puoi anche monitorarne l'uso, inclusi dati rimanenti, dati totali e data di scadenza.
-
-**C. Normal Profile:**
-
-Questa sezione mostra le informazioni sui profili normali. Se acquisti un profilo eSIM in uno store online e carichi il QR code tramite la funzione **Add eSIM Profile (QR Code Install)**, il profilo apparira' qui una volta completato il caricamento.
-
-**D. Add eSIM Profile (QR Code Install):**
-
-Questa e' la funzione principale per caricare e installare profili eSIM. Quando acquisti un profilo eSIM da uno store online, riceverai un QR code. Fai clic su questo pulsante per caricare il QR code, che scarichera' e installera' il profilo eSIM sul router.
-
-**E. Export Log for Support:**
-
-Questa sezione consente di visualizzare tutti i log relativi al funzionamento della eSIM. Se riscontri problemi e hai bisogno di supporto tecnico, puoi esportare questi log e condividerli con il nostro team di supporto via email all'indirizzo support@gl-inet.com.
-
-**F. Top-up:**
-
-Se esaurisci i dati omaggio e precaricati forniti da GL.iNet, oppure se i dati sono scaduti e vuoi continuare a usare il servizio, puoi fare clic sul pulsante **Top-up** per scansionare un QR code e acquistare dati aggiuntivi.
-
-**G. Recommended eSIM Profile Stores:**
-
-GL.iNet consiglia due store partner per la tua comodita': EIOTCLUB e Tuge. Puoi scansionare i QR code oppure fare clic sui link, [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} oppure [the Tuge eSIM Store](https://esim_store.gl-inet.com/){target="_blank"}, per effettuare l'acquisto in base alle tue esigenze. Puoi anche scegliere di acquistare pacchetti eSIM da altri provider terzi di tua scelta.
-
-**H. Actions:**
-
-Questa sezione consente di gestire facilmente i profili eSIM, inclusa l'abilitazione, il cambio o l'eliminazione.
-
-## Ricaricare il seed profile eSIM
-
-Per la configurazione iniziale o per acquistare un profilo eSIM, GL.iNet fornisce dati precaricati: 100 MB per uso globale e 1 GB per Europa e Stati Uniti. Questi piani sono pensati per essere piu' costosi e sono destinati a situazioni in cui hai bisogno di scaricare un nuovo profilo eSIM una volta arrivato in un luogo senza accesso a Internet.
-
-Per ricaricare il tuo seed profile eSIM, fai semplicemente clic sul pulsante **Top-up**, scansiona il QR code e segui le istruzioni.
-
-![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim_top-up.jpg){class="glboxshadow"}
-
-## Acquistare e installare un profilo eSIM
-
-Dopo aver configurato il router, segui i passaggi seguenti per acquistare e attivare il profilo eSIM.
-
-**Passaggio 1:** acquista un profilo eSIM dagli eSIM store.
-
-<u>Opzione 1</u>: acquista un profilo eSIM da uno dei nostri store consigliati, [the EIOTCLUB eSIM Store](https://www.eiotclub.com/pages/esim){target="_blank"} oppure [the Tuge eSIM Store](https://esim_store.gl-inet.com){target="_blank"}. Fai riferimento all'immagine seguente per i link diretti agli store.
-
-*Tutti i pacchetti di profili eSIM acquistati da questi due store sono pienamente compatibili con i nostri router. Se hai domande, contatta il nostro team di supporto all'indirizzo support@gl-inet.com.*
-
-![eSIM recommend store](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-profile-recommend-store-1.jpg){class="glboxshadow"}
-
-![eSIM recommend store](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-profile-recommend-store-2.jpg){class="glboxshadow"}
-
-<u>Opzione 2</u>: fai riferimento a [questo link](https://forum.gl-inet.com/t/carriers-supported-by-gl-inet-physical-esim/54164){target="_blank"} per ottenere un elenco di store testati da GL.iNet. Tieni presente che non possiamo garantire che tutti i pacchetti di questi store siano pienamente compatibili con i router GL.iNet.
-
-*Poiche' GL.iNet non ha partnership con questi store, non possiamo fornire assistenza post-vendita o rimborsi relativi a tali pacchetti.*
-
-<u>Opzione 3</u>: acquista un profilo eSIM da altri provider terzi a tua scelta.
-
-**Passaggio 2**: installa il tuo profilo eSIM
-
-Dopo aver acquistato il profilo eSIM, riceverai un QR code. Salvalo sul tuo computer. Poi fai clic sul pulsante **Add eSIM Profile (QR Code Install)** per caricare e installare il profilo eSIM acquistato.
-
-![add eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/add-esim-profile-1.jpg){class="glboxshadow"}
-
-![add eSIM profile](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/add-esim-profile-2.jpg){class="glboxshadow"}
-
-**Nota**: come indicato dalla freccia verde nell'immagine sopra, un QR code correttamente formattato mostrera' un codice di attivazione che inizia con **LPA:**.
-
-*Tuttavia, alcuni QR code non standard possono produrre solo un codice di attivazione grezzo senza il prefisso LPA.
-Se cio' accade, aggiungi manualmente `LPA:` all'inizio del codice prima di fare clic sul pulsante Download & Install.*
-
-**Passaggio 3:** abilita il nuovo profilo
-
-Dopo aver caricato correttamente il QR code, vedrai il nuovo profilo eSIM elencato nella sezione **Normal Profile**. Fai clic su **Enable** per attivare il nuovo profilo eSIM.
-
-![enable your new profile](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/enable-your-new-profile.jpg){class="glboxshadow"}
-
-**Passaggio 4:** applica il nuovo profilo eSIM e collegati a Internet
-
-Dopo aver abilitato il profilo eSIM, vai su **INTERNET** e fai clic su **Connect** per applicare il profilo eSIM e connetterti a Internet.
-
-![connect to internet](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/enable-your-new-profile-connect.jpg){class="glboxshadow"}
-
-*Nota: alcuni profili eSIM potrebbero richiedere impostazioni aggiuntive, come APN, PIN o TTL. Se necessario, fai clic su **Manual Setup** oppure **SIM Card Settings** per configurarle. In alcuni casi potrebbe essere necessario riavviare il dispositivo per stabilire la connessione Internet.*
-
-Una volta che il profilo eSIM e' stato configurato correttamente, lo schermo apparira' come segue:
-
-![eSIM profile is successfully set up](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/enable-your-new-profile-successfully.jpg){class="glboxshadow"}
-
-**Passaggio 5:** passa facilmente da un profilo eSIM all'altro oppure eliminalo
-
-Puoi passare facilmente tra i profili eSIM facendo clic su **Enable** accanto al profilo che vuoi attivare. Per rimuovere un profilo eSIM, fai semplicemente clic su **Delete**.
-
-![eSIM profile is successfully set up](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/switch-or-delete-esim-profile.jpg){class="glboxshadow"}
+- [eSIM Management](../interface_guide/esim_management.md){target="_blank"}
 
 ---
 

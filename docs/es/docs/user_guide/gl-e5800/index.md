@@ -198,32 +198,59 @@ Puede actualizar el firmware de Mudi 7 mediante la pantalla táctil o el panel d
 
     Consulte [aquí](../../interface_guide/upgrade.md#local-upgrade) para obtener más información.
 
-## Reparación y restablecimiento
+## Restablecimiento de fábrica
 
-Puede restaurar la conectividad de red o restablecer Mudi 7 a los valores de fábrica mediante el botón físico de reinicio.
+Hay tres formas de restablecer su Mudi 7: directamente desde la pantalla táctil, con el botón de reinicio y mediante el panel de administración web.
 
 **Nota**: antes de realizar un restablecimiento, asegúrese de que Mudi 7 haya terminado completamente el arranque. NO pulse el botón de reinicio inmediatamente después de encenderlo, ya que esto puede activar el modo U-Boot failsafe.
 
-Retire la tapa trasera y encontrará el botón de reinicio como se muestra a continuación.
+Vea este vídeo o siga los pasos que se indican a continuación.
 
-![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! note "Network Repair"
+### Restablecer desde la pantalla táctil
 
-    Mantenga pulsado el botón de reinicio durante **4 segundos** y suéltelo para reparar la red. Mientras mantiene pulsado el botón, preste atención a las indicaciones en pantalla y siga las instrucciones.
+1. En la página de inicio, pulse **More**.
 
-    Esto reiniciará la interfaz de red, conservando los ajustes de Wi-Fi, las configuraciones VPN (desactivadas), los ajustes del sistema, etc.
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset1.png){class="glboxshadow" width="300"}
 
-    **Nota**:
+2. En la página **More**, desplácese hasta la parte inferior y pulse **Reset**.
 
-    1. Si el Wi-Fi se ha desactivado, un reinicio suave restaurará el Wi-Fi a su estado predeterminado activado.
-    2. Un reinicio suave también puede utilizarse para cambiar rápidamente el dispositivo del modo no-router al modo router.
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset2.png){class="glboxshadow" width="300"}
 
-!!! note "Device Reset"
+3. Pulse **Reset** de nuevo para confirmar. El router iniciará el restablecimiento y después se reiniciará.
 
-    Mantenga pulsado el botón de reinicio durante **10 segundos** y suéltelo para realizar un reinicio completo. Mientras mantiene pulsado el botón, preste atención a las indicaciones en pantalla y siga las instrucciones.
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
-    Esto borrará toda su configuración. Proceda con precaución.
+### Restablecer con el botón
+
+1. Retire la tapa trasera y encontrará el botón de reinicio como se muestra a continuación.
+
+    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+
+2. Mantenga pulsado el botón de reinicio durante **10 segundos** y suéltelo para realizar un reinicio completo. Mientras mantiene pulsado el botón, preste atención a las indicaciones en pantalla y siga las instrucciones.
+
+    Esto borrará todos sus ajustes. Proceda con precaución.
+
+**Consejo**: si desea restaurar la conectividad de red sin realizar un restablecimiento de fábrica, mantenga pulsado el botón de reinicio durante **4 segundos** y suéltelo para reparar la red. Mientras mantiene pulsado el botón, preste atención a las indicaciones en pantalla y siga las instrucciones.
+
+Esto reiniciará la interfaz de red, conservando los ajustes de Wi-Fi, las configuraciones VPN (desactivadas), los ajustes del sistema, etc.
+
+!!! note "Soft Reset"
+
+    1. Un <u>reinicio suave</u> reinicia el dispositivo sin borrar datos, mientras que un <u>restablecimiento de fábrica</u> lo devuelve a la configuración predeterminada y elimina todos los datos del usuario.
+
+    2. Si el Wi-Fi se ha desactivado, un reinicio suave restaurará el Wi-Fi a su estado predeterminado activado.
+
+    3. Un reinicio suave también puede utilizarse para cambiar rápidamente el dispositivo del modo no router al modo router.
+
+### Restablecer desde la web
+
+1. Inicie sesión en el panel de administración web y vaya a **SYSTEM** -> **Reset Firmware**.
+
+2. Haga clic en **Delete All and Reboot**. El router iniciará el restablecimiento y después se reiniciará.
+
+    ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
 
 ## Iniciar sesión en el panel de administración web
 

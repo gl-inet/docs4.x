@@ -1,6 +1,12 @@
 # Paramètres d'obfuscation AmneziaWG
 
-AmneziaWG est un protocole VPN basé sur WireGuard avec une obfuscation du trafic intégrée. Ses paramètres d'obfuscation contrôlent la manière dont le trafic est déguisé afin d'éviter sa détection par des contrôles réseau stricts. Vous trouverez ci-dessous un aperçu détaillé des différences entre les versions d'AmneziaWG, des paramètres d'obfuscation, de leurs contraintes et des réglages recommandés.
+AmneziaWG est un protocole VPN basé sur WireGuard avec une obfuscation du trafic intégrée. Ses paramètres d'obfuscation contrôlent la manière dont le trafic est déguisé afin d'éviter sa détection par des mécanismes stricts d'application des politiques réseau. Vous trouverez ci-dessous une présentation détaillée de l'intérêt d'AmneziaWG, des différences entre les versions et des paramètres, y compris leurs contraintes et les réglages recommandés.
+
+## Pourquoi AmneziaWG ?
+
+Le prédécesseur d'AmneziaWG, WireGuard, s'est imposé comme un protocole VPN rapide et fiable grâce à sa base de code compacte et à sa grande efficacité. Cependant, ses en-têtes de paquets fixes et ses tailles de paquets prévisibles créent une signature facilement reconnaissable. Les systèmes DPI peuvent identifier ces paquets sans difficulté et interrompre immédiatement les connexions, ce qui constitue un problème critique dans les pays où la censure d'Internet est stricte.
+
+AmneziaWG reprend la simplicité architecturale et les hautes performances de l'implémentation d'origine, tout en supprimant les signatures réseau identifiables qui rendent WireGuard facile à détecter par les systèmes d'inspection approfondie des paquets (DPI).
 
 ## AmneziaWG V2.0
 
@@ -34,4 +40,3 @@ Référence : [Documentation officielle d'AmneziaWG](https://docs.amnezia.org/do
 ---
 
 Vous avez encore des questions ? Consultez notre [forum communautaire](https://forum.gl-inet.com){target="_blank"} ou [contactez-nous](https://www.gl-inet.com/contacts/){target="_blank"}.
-

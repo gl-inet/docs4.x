@@ -59,7 +59,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Parental Control](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
-* [Gestion de l'eSIM](../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
+* [Gestion de l'eSIM](esim_management.md)
 
 ## Réseau
 

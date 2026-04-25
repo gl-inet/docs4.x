@@ -12,9 +12,11 @@ Si no puede acceder al panel de administración web, vea el siguiente vídeo par
 
 ---
 
-Guía en vídeo: Cómo restablecer un router GL.iNet a la configuración de fábrica
+**Guía en vídeo: Cómo restablecer un router GL.iNet a la configuración de fábrica**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

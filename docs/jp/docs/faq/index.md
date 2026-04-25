@@ -29,6 +29,7 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 * [iPhone 5Gホットスポットをスキャンできない](cannot_scan_iphone_5g_hotspot.md)
 * [iPhoneテザリング失敗](iphone_tethering_fail.md)
 * [セルラネットワークトラブルシューティングガイド](cellular_network_troubleshooting_guide.md)
+* [eSIMプロファイルのインストールに失敗した場合はどうすればよいですか？](esim_profile_installation_failed.md)
 * [古いルーターをGL.iNetルーターに置き換えたがインターネットにアクセスできない](no_internet_after_replacing_the_old_router_with_glinet.md)
 * [USBモデムがGL.iNetルーターで正常に動作しない](usb_modem_is_not_working_properly_on_gl_inet_router.md)
 * [ネットワークを修復するか工場出荷時にリセットする方法は？](repair_network_or_reset_firmware.md)
@@ -52,7 +53,7 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 * [非VPNトラフィックをブロックする方法は？](block_non_vpn_traffic.md)
 * [VPNキルスイッチ](block_non_vpn_traffic.md)
 * [OpenVPNでは、TCPとUDPのどちらのプロトコルを選ぶべきですか？](openvpn_tcp_udp.md)
-* [AmneziaWG難読化パラメーター](amnezia_obfuscation_parameters.md)
+* [AmneziaWG難読化パラメーター](amneziawg_obfuscation_parameters.md)
 * [VPN使用時にイーサネットWANを設定する必要がありますか？](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## アップグレード

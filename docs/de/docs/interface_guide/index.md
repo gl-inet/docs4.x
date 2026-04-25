@@ -59,7 +59,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Kindersicherung](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
-* [eSIM-Verwaltung](../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
+* [eSIM-Verwaltung](esim_management.md)
 
 ## Netzwerk
 

@@ -1,6 +1,12 @@
 # Parametri di offuscamento di AmneziaWG
 
-AmneziaWG è un protocollo VPN basato su WireGuard con offuscamento del traffico integrato. I suoi parametri di offuscamento controllano il modo in cui il traffico viene camuffato per evitare il rilevamento da parte di reti con controlli rigidi. Di seguito trovi una panoramica dettagliata delle differenze tra le versioni di AmneziaWG, dei parametri di offuscamento, dei relativi vincoli e delle impostazioni consigliate.
+AmneziaWG è un protocollo VPN basato su WireGuard con offuscamento del traffico integrato. I suoi parametri di offuscamento controllano come il traffico viene mascherato per evitare il rilevamento da parte di rigidi meccanismi di controllo della rete. Di seguito trovi una panoramica dettagliata dell'importanza di AmneziaWG, delle differenze tra le versioni e dei parametri, inclusi i relativi vincoli e le impostazioni consigliate.
+
+## Perché AmneziaWG?
+
+Il predecessore di AmneziaWG, WireGuard, si è affermato come protocollo VPN veloce e affidabile grazie alla sua base di codice compatta e all'elevata efficienza. Tuttavia, i suoi header di pacchetto fissi e le dimensioni prevedibili dei pacchetti creano una firma facilmente riconoscibile. I sistemi DPI possono identificare questi pacchetti senza difficoltà e interrompere immediatamente le connessioni, un problema critico nei Paesi con una forte censura di Internet.
+
+AmneziaWG eredita la semplicità architetturale e le alte prestazioni dell'implementazione originale, ma elimina le firme di rete riconoscibili che rendono WireGuard facilmente rilevabile dai sistemi di Deep Packet Inspection (DPI).
 
 ## AmneziaWG V2.0
 

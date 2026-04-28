@@ -18,7 +18,9 @@ Users can set up an AstroWarp network directly through the GL.iNet router admin 
 ## Supported Models
 
 ??? "Supported Models"
-
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - ※GL-MT6000 (Flint 2)
@@ -31,9 +33,6 @@ Users can set up an AstroWarp network directly through the GL.iNet router admin 
     **Note**: Models marked with ※ support the integrated AstroWarp in Beta firmware.
 
 ??? "Unsupported Models"
-    - GL-E5800 (Mudi 7)
-    - GL-MT5000 (Brume 3)
-    - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)

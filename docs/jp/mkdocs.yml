@@ -44,6 +44,8 @@ plugins:
         "tutorials/how_to_access_server_lan_device_via_domain_name.md": "tutorials/how_to_access_wgserver_lan_via_domain_name.md"
         "interface_guide/dpi_license.md": "interface_guide/dpi_engine.md"
         "tutorials/how_to_change_x3000_and_xe3000_antennas.md": "tutorials/how_to_install_or_change_antennas.md"
+        "faq/amnezia_obfuscation_parameters.md": "faq/amneziawg_obfuscation_parameters.md"
+        "tutorials/how_to_use_simpoyo_ufi.md": "user_guide/simpoyo-4g-ufi/index.md"
 
 extra:
   social:
@@ -171,6 +173,7 @@ nav:
           - iPhone 5G ホットスポットのスキャンができない: faq/cannot_scan_iphone_5g_hotspot.md
           - iPhone テザリング失敗: faq/iphone_tethering_fail.md
           - セルラーネットワークのトラブルシューティングガイド: faq/cellular_network_troubleshooting_guide.md
+          - eSIMプロファイルのインストールに失敗する: faq/esim_profile_installation_failed.md
           - 古いルーターを GL.iNet に置き換えた後にインターネットがない: faq/no_internet_after_replacing_the_old_router_with_glinet.md
           - USB モデムが正常に動作しない: faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
           - 修復またはリセット: faq/repair_network_or_reset_firmware.md
@@ -192,6 +195,7 @@ nav:
           - VPN 以外のトラフィックをブロックする: faq/block_non_vpn_traffic.md
           - VPN キルスイッチ: faq/block_non_vpn_traffic.md
           - TCP または UDP: faq/openvpn_tcp_udp.md
+          - AmneziaWG難読化パラメーター: faq/amneziawg_obfuscation_parameters.md
           - VPN 使用時に Ethernet WAN の設定が必要か: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
       - アップグレード:
           - ファームウェアをダウンロード: faq/how_to_download_firmware.md
@@ -300,7 +304,7 @@ nav:
           - ペアレンタルコントロール: interface_guide/parental_control.md
           - ZeroTier: interface_guide/zerotier.md
           - Tailscale: interface_guide/tailscale.md
-          - eSIM 管理: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
+          - eSIM 管理: interface_guide/esim_management.md
       - ネットワーク:
           - ファイアウォール: interface_guide/firewall.md
           - ポート転送: interface_guide/port_forwarding.md
@@ -318,7 +322,7 @@ nav:
           - ネットワークアクセラレーション: interface_guide/network_acceleration.md
           - NAT 設定: interface_guide/nat_settings.md
       - フロー制御:
-          - DPI ライセンス: interface_guide/dpi_license.md
+          - DPI ライセンス: interface_guide/dpi_engine.md
           - データ統計: interface_guide/data_statistics.md
           - コンテンツフィルター: interface_guide/content_filter.md
           - QoS: interface_guide/qos.md

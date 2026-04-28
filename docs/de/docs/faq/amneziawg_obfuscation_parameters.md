@@ -1,6 +1,12 @@
 # AmneziaWG-Verschleierungsparameter
 
-AmneziaWG ist ein WireGuard-basiertes VPN-Protokoll mit integrierter Verschleierung des Datenverkehrs. Seine Verschleierungsparameter steuern, wie der Datenverkehr getarnt wird, um einer Erkennung durch strenge Netzwerkkontrollen zu entgehen. Nachfolgend finden Sie eine detaillierte Erläuterung der Versionsunterschiede von AmneziaWG, der Verschleierungsparameter, ihrer Einschränkungen und der empfohlenen Einstellungen.
+AmneziaWG ist ein WireGuard-basiertes VPN-Protokoll mit integrierter Verschleierung des Datenverkehrs. Seine Verschleierungsparameter steuern, wie der Datenverkehr getarnt wird, um einer Erkennung durch strenge Netzwerkdurchsetzungsmechanismen zu entgehen. Nachfolgend finden Sie eine detaillierte Erläuterung zur Bedeutung von AmneziaWG, zu den Versionsunterschieden und zu den Parametern im Überblick, einschließlich ihrer Einschränkungen und empfohlenen Einstellungen.
+
+## Warum AmneziaWG?
+
+Der Vorgänger von AmneziaWG, WireGuard, hat sich dank seines kompakten Codebestands und seiner hohen Effizienz als schnelles und zuverlässiges VPN-Protokoll etabliert. Seine festen Paket-Header und vorhersagbaren Paketgrößen erzeugen jedoch ein leicht erkennbares Signaturmuster. DPI-Systeme können diese Pakete mühelos identifizieren und Verbindungen sofort beenden - ein kritisches Problem in Ländern mit strenger Internetzensur.
+
+AmneziaWG übernimmt die architektonische Einfachheit und hohe Leistung der Originalimplementierung, beseitigt jedoch die erkennbaren Netzwerksignaturen, die WireGuard für Deep Packet Inspection (DPI)-Systeme leicht nachweisbar machen.
 
 ## AmneziaWG V2.0
 

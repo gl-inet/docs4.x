@@ -30,7 +30,7 @@ Erfahren Sie anhand detaillierter Schritte, wie Sie unsere Geräte korrekt verwe
 
 * [So richten Sie VPN-Verschleierung auf GL.iNet-Routern ein](vpn_obfuscation.md)
 
-* [So konfigurieren Sie die AmneziaWG-Verschleierungsparameter](../faq/amnezia_obfuscation_parameters.md#parameter-overview)
+* [So konfigurieren Sie die AmneziaWG-Verschleierungsparameter](../faq/amneziawg_obfuscation_parameters.md)
 
 * [So verbinden Sie NordVPN mit einer dedizierten IP auf GL.iNet-Routern](how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md)
 

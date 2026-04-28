@@ -44,6 +44,8 @@ plugins:
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
+        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
+        'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
  
 extra:
   social:
@@ -172,6 +174,7 @@ nav:
       - No se puede detectar el hotspot 5G del iPhone: faq/cannot_scan_iphone_5g_hotspot.md
       - Fallo del tethering del iPhone: faq/iphone_tethering_fail.md
       - Guía de solución de problemas de red celular: faq/cellular_network_troubleshooting_guide.md
+      - Falla la instalación del perfil eSIM: faq/esim_profile_installation_failed.md
       - No hay Internet después de sustituir el router antiguo por uno de GL.iNet: faq/no_internet_after_replacing_the_old_router_with_glinet.md
       - El módem USB no funciona: faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
       - Reparar la red o restablecer: faq/repair_network_or_reset_firmware.md
@@ -193,6 +196,7 @@ nav:
       - Cómo bloquear el tráfico fuera de la VPN: faq/block_non_vpn_traffic.md
       - Kill Switch de VPN: faq/block_non_vpn_traffic.md
       - TCP o UDP: faq/openvpn_tcp_udp.md
+      - Parámetros de ofuscación de AmneziaWG: faq/amneziawg_obfuscation_parameters.md
       - Tengo que configurar Ethernet WAN al usar VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Actualización:
       - Descargar firmware: faq/how_to_download_firmware.md
@@ -300,7 +304,7 @@ nav:
       - Control parental: interface_guide/parental_control.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
-      - Gestión de eSIM: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
+      - Gestión de eSIM: interface_guide/esim_management.md
     - Red:
       - Firewall: interface_guide/firewall.md
       - Reenvio de puertos: interface_guide/port_forwarding.md

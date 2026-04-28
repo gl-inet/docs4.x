@@ -196,33 +196,59 @@ Sie können die Firmware von Mudi 7 über den Touchscreen oder das Web-Admin-Pan
 
     Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md#local-upgrade).
 
-## Reparatur und Zurücksetzen
+## Werkseinstellungen wiederherstellen
 
-You can restore network connectivity or reset Mudi 7 to factory defaults by a physical reset button.
+Es gibt drei Möglichkeiten, Ihren Mudi 7 zurückzusetzen: direkt über den Touchscreen, mit der Reset-Taste und über das Web-Admin-Panel.
 
-**Note**: Before performing a reset, ensure Mudi 7 has fully booted up. Do NOT press the reset button immediately after power-up, as this may trigger U-Boot failsafe mode.
+**Hinweis**: Bevor Sie den Reset durchführen, stellen Sie sicher, dass Mudi 7 vollständig hochgefahren ist. Drücken Sie die Reset-Taste NICHT direkt nach dem Einschalten, da sonst der U-Boot-Failsafe-Modus ausgelöst werden kann.
 
-Remove the back cover, and you will find the reset button as shown below.
+Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
-![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-!!! note "Network Repair"
+### Über den Touchscreen zurücksetzen
 
-    Press and hold the reset button for **4 seconds**, then release to repair your network. When holding the button, pay attention to the on-screen prompts and operate as instructed.
+1. Tippen Sie auf der Startseite auf **More**.
 
-    This will restart the network interface, while preserving Wi-Fi settings, VPN configurations (disabled), system settings, etc.
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset1.png){class="glboxshadow" width="300"}
 
-    **Note**:
+2. Scrollen Sie auf der Seite **More** ganz nach unten und tippen Sie auf **Reset**.
 
-    1. If Wi-Fi has been disabled, a soft reset will restore Wi-Fi to its default enabled state.
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset2.png){class="glboxshadow" width="300"}
 
-    2. A soft reset can also be used to quickly switch the device from non-router mode to router mode.
+3. Tippen Sie zur Bestätigung erneut auf **Reset**. Der Router beginnt mit dem Zurücksetzen und startet anschließend neu.
 
-!!! note "Device Reset"
+    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
-    Press and hold the reset button for **10 seconds**, then release to perform a hard reset. When holding the button, pay attention to the on-screen prompts and operate as instructed.
+### Über die Taste zurücksetzen
 
-    This will clear all your settings. Please proceed with caution.
+1. Entfernen Sie die Rückabdeckung. Dort finden Sie die Reset-Taste wie unten gezeigt.
+
+    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+
+2. Halten Sie die Reset-Taste **10 Sekunden** lang gedrückt und lassen Sie sie dann los, um einen Hard Reset durchzuführen. Achten Sie währenddessen auf die Hinweise auf dem Bildschirm und folgen Sie den Anweisungen.
+
+    Dadurch werden alle Ihre Einstellungen gelöscht. Bitte gehen Sie vorsichtig vor.
+
+**Tipp**: Wenn Sie die Netzwerkverbindung wiederherstellen möchten, ohne einen Werksreset durchzuführen, halten Sie die Reset-Taste einfach **4 Sekunden** lang gedrückt und lassen Sie sie dann los, um Ihr Netzwerk zu reparieren. Achten Sie währenddessen auf die Hinweise auf dem Bildschirm und folgen Sie den Anweisungen.
+
+Dadurch wird die Netzwerkschnittstelle neu gestartet, während Wi-Fi-Einstellungen, VPN-Konfigurationen (deaktiviert), Systemeinstellungen usw. erhalten bleiben.
+
+!!! note "Soft Reset"
+
+    1. Ein <u>Soft Reset</u> startet das Gerät neu, ohne Daten zu löschen, während ein <u>Werksreset</u> die Standardeinstellungen wiederherstellt und alle Benutzerdaten löscht.
+
+    2. Wenn Wi-Fi deaktiviert wurde, stellt ein Soft Reset Wi-Fi wieder auf den standardmäßig aktivierten Zustand zurück.
+
+    3. Ein Soft Reset kann auch verwendet werden, um das Gerät schnell vom Nicht-Router-Modus in den Router-Modus zu wechseln.
+
+### Über das Web zurücksetzen
+
+1. Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Reset Firmware**.
+
+2. Klicken Sie auf **Delete All and Reboot**. Der Router beginnt mit dem Zurücksetzen und startet anschließend neu.
+
+    ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
 
 ## Anmeldung im Web-Admin-Panel
 

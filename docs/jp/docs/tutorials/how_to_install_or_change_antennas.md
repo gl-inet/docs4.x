@@ -64,23 +64,67 @@ Spitz（GL-X750/GL-X750V2）には、外部 4G アンテナ 2 本（SMA, 700M~27
 
 ### Collie
 
-Collie（GL-X300B-RS485）には、次のアンテナが付属しています。
+Collie には **GL-X300B-RS485**、**GL-X300B-BLE**、**GL-X300B-GPS** の 3 つのバージョンがあります。
 
-* 1 x External 4G antenna
-* 2 x External Wi‑Fi antennas
+!!! note "GL-X300B-RS485"
 
-アンテナを取り付けるには、次の手順に従ってください。
+    **Collie (GL-X300B-RS485)** には、次のアンテナが付属しています。
 
-1. アンテナを取り付けます（順不同）。
+    * 1 x 外部 4G アンテナ
+    * 2 x 外部 Wi‑Fi アンテナ（2.4GHz）
 
-    - 同じ Wi‑Fi アンテナ 2 本を **2.4G** ポートに取り付けます。
-    - 4G アンテナ 1 本を **4G** ポートに取り付けます。
+    アンテナを取り付けるには、次の手順に従ってください。
 
-    ![x300b antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485.png){class="gl-80-desktop glboxshadow"}
+    1. アンテナを取り付けます（順不同）。
 
-    ![x300b antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
+        - 同じ Wi‑Fi アンテナ 2 本を **2.4G** ポートに取り付けます。
+        - 4G アンテナ 1 本を **4G** ポートに取り付けます。
 
-2. 最適な性能を得るため、アンテナは上向きに配置してください。
+        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
+
+    2. 最適な性能を得るため、アンテナは上向きに配置してください。
+
+!!! note "GL-X300B-BLE"
+
+    **Collie (GL-X300B-BLE)** には、次のアンテナが付属しています。
+
+    * 1 x 外部 4G アンテナ
+    * 1 x 外部 Wi‑Fi アンテナ（2.4GHz）
+    * 1 x 外部 BLE アンテナ
+
+    アンテナを取り付けるには、次の手順に従ってください。
+
+    1. アンテナを取り付けます（順不同）。
+
+        - Wi‑Fi アンテナ 1 本を **2.4G** ポートに取り付けます。
+        - 4G アンテナ 1 本を **4G** ポートに取り付けます。
+        - BLE アンテナ 1 本を **BLE** ポートに取り付けます。
+
+        ![x300b ble antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
+
+    2. 最適な性能を得るため、アンテナは上向きに配置してください。
+
+!!! note "GL-X300B-GPS"
+
+    **Collie (GL-X300B-GPS)** には、次のアンテナが付属しています。
+
+    * 2 x 外部 4G アンテナ
+    * 2 x 外部 Wi‑Fi アンテナ（2.4GHz）
+    * 1 x 外部 GPS アンテナ
+
+    アンテナを取り付けるには、次の手順に従ってください。
+
+    1. アンテナを取り付けます（順不同）。
+
+        - 同じ Wi‑Fi アンテナ 2 本を **2.4G** ポートに取り付けます。
+        - 同じ 4G アンテナ 2 本を **4G** ポートに取り付けます。
+        - GPS アンテナ 1 本を **GPS** ポートに取り付けます。
+
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
+
+    2. アンテナは正しく配置し、絡まないようにして、最適な性能を確保してください。
+
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps.jpg){class="glboxshadow"}
 
 ## 外部アンテナを交換する
 

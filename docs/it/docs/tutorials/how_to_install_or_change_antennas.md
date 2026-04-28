@@ -64,23 +64,67 @@ Segui questi passaggi per installare le antenne esterne.
 
 ### Collie
 
-Collie (GL-X300B-RS485) include le seguenti antenne:
+Esistono tre versioni di Collie: **GL-X300B-RS485**, **GL-X300B-BLE** e **GL-X300B-GPS**.
 
-* 1 antenna esterna 4G
-* 2 antenne esterne Wi-Fi
+!!! note "GL-X300B-RS485"
 
-Segui questi passaggi per installare le antenne.
+    **Collie (GL-X300B-RS485)** include le seguenti antenne:
 
-1. Collega le antenne, in qualsiasi ordine.
+    * 1 antenna esterna 4G
+    * 2 antenne esterne Wi-Fi (2.4GHz)
 
-    - Collega le due antenne Wi-Fi identiche alle porte **2.4G**.
-    - Collega l'unica antenna 4G alla porta **4G**.
+    Segui questi passaggi per installare le antenne.
 
-    ![x300b antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485.png){class="gl-80-desktop glboxshadow"}
+    1. Collega le antenne, in qualsiasi ordine.
 
-    ![x300b antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
+        - Collega le due antenne Wi-Fi identiche alle porte **2.4G**.
+        - Collega l'unica antenna 4G alla porta **4G**.
 
-2. Posiziona le antenne verso l'alto per ottenere prestazioni ottimali.
+        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
+
+    2. Posiziona le antenne verso l'alto per ottenere prestazioni ottimali.
+
+!!! note "GL-X300B-BLE"
+
+    **Collie (GL-X300B-BLE)** include le seguenti antenne:
+
+    * 1 antenna esterna 4G
+    * 1 antenna esterna Wi-Fi (2.4GHz)
+    * 1 antenna esterna BLE
+
+    Segui questi passaggi per installare le antenne.
+
+    1. Collega le antenne, in qualsiasi ordine.
+
+        - Collega l'unica antenna Wi-Fi alla porta **2.4G**.
+        - Collega l'unica antenna 4G alla porta **4G**.
+        - Collega l'unica antenna BLE alla porta **BLE**.
+
+        ![x300b ble antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
+
+    2. Posiziona le antenne verso l'alto per ottenere prestazioni ottimali.
+
+!!! note "GL-X300B-GPS"
+
+    **Collie (GL-X300B-GPS)** include le seguenti antenne:
+
+    * 2 antenne esterne 4G
+    * 2 antenne esterne Wi-Fi (2.4GHz)
+    * 1 antenna esterna GPS
+
+    Segui questi passaggi per installare le antenne.
+
+    1. Collega le antenne, in qualsiasi ordine.
+
+        - Collega le due antenne Wi-Fi identiche alle porte **2.4G**.
+        - Collega le due antenne 4G identiche alle porte **4G**.
+        - Collega l'unica antenna GPS alla porta **GPS**.
+
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
+
+    2. Posiziona correttamente le antenne ed evita che si aggroviglino per garantire prestazioni ottimali.
+
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps.jpg){class="glboxshadow"}
 
 ## Sostituire le antenne esterne
 

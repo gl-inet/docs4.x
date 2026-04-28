@@ -12,9 +12,11 @@ Se non riesci ad accedere al pannello di amministrazione web, guarda il video qu
 
 ---
 
-Guida video: come ripristinare le impostazioni di fabbrica di un router GL.iNet
+**Guida video: come ripristinare un router GL.iNet alle impostazioni di fabbrica**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

@@ -29,6 +29,7 @@ Pour les appareils KVM GL.iNet, veuillez consulter la [documentation KVM GL.iNet
 * [Impossible de détecter le point d'accès 5G de l'iPhone](cannot_scan_iphone_5g_hotspot.md)
 * [Échec du partage de connexion de l'iPhone](iphone_tethering_fail.md)
 * [Guide de dépannage du réseau cellulaire](cellular_network_troubleshooting_guide.md)
+* [Que dois-je faire si l'installation du profil eSIM échoue ?](esim_profile_installation_failed.md)
 * [Pas d'accès à Internet après avoir remplacé l'ancien routeur par un routeur GL.iNet](no_internet_after_replacing_the_old_router_with_glinet.md)
 * [Le modem USB ne fonctionne pas correctement sur le routeur GL.iNet](usb_modem_is_not_working_properly_on_gl_inet_router.md)
 * [Comment réparer le réseau ou rétablir la configuration d'usine ?](repair_network_or_reset_firmware.md)
@@ -52,7 +53,7 @@ Pour les appareils KVM GL.iNet, veuillez consulter la [documentation KVM GL.iNet
 * [Comment bloquer le trafic hors VPN ?](block_non_vpn_traffic.md)
 * [Kill Switch VPN](block_non_vpn_traffic.md)
 * [Pour OpenVPN, quel protocole choisir : TCP ou UDP ?](openvpn_tcp_udp.md)
-* [Paramètres d'obfuscation AmneziaWG](amnezia_obfuscation_parameters.md)
+* [Paramètres d'obfuscation AmneziaWG](amneziawg_obfuscation_parameters.md)
 * [Dois-je configurer le WAN Ethernet lorsque j'utilise un VPN ?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## Mise à niveau

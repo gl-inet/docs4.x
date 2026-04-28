@@ -59,7 +59,7 @@ hide:
 * [ペアレンタルコントロール](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
-* [eSIM管理](../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
+* [eSIM管理](esim_management.md)
 
 ## ネットワーク
 

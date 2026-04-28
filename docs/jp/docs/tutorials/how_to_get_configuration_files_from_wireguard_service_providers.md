@@ -206,19 +206,25 @@
 
     [公式サイト](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-    WireGuard 設定ファイルを手動で取得するには、[このガイド](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}または以下の手順を参照してください。
+    PureVPN の設定ファイルを手動で取得するには、[このガイド](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}または以下の手順を参照してください。
 
-    1. [Member Area](https://my.puremember.com/){target="_blank"} にログインし、**Manual Configuration** をクリックします。
+    1. [PureVPN Member Area](https://my.puremember.com/){target="_blank"} にアカウントでログインします。ログイン後、左側メニューで **Manual Configuration** をクリックします。
 
-        ![purevpn wireguard manual configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/manual-purevpn1.png){class="glboxshadow"}
+        ![purevpn manual1](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-1.png){class="glboxshadow"}
 
-    2. Member Area に移動し、そこから WireGuard 設定ファイルをダウンロードします。
+    2. 接続先の都市を選択し、右側の **Download** をクリックします。
 
-        ![purevpn wireguard manual configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/manual-purevpn2.png){class="glboxshadow"}
+        ![purevpn manual2](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-2.png){class="glboxshadow"}
 
-    **Note**: プロファイルをダウンロードしたら、30 分以内にファイルをコピーして接続を有効にしてください。そうしないと設定が失効し、新しい設定ファイルを再度ダウンロードする必要があります。
+    3. ポップアップウィンドウで、プロトコルとして **WireGuard** を選択します。
 
-    次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
+        ![purevpn manual3](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-3.png){class="glboxshadow"}
+
+    4. デバイスタイプとして **Linux** を選択し、**Generate Configuration** をクリックします。設定ファイルがローカルデバイスにダウンロードされます。
+
+        ![purevpn manual4](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-4.png){class="glboxshadow"}
+
+    次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って設定を完了してください。
 
     [Refer link](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
 

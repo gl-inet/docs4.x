@@ -44,6 +44,8 @@ plugins:
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
+        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
+        'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
  
 extra:
   social:
@@ -172,6 +174,7 @@ nav:
       - Nie mozna wykryc hotspotu 5G iPhone'a: faq/cannot_scan_iphone_5g_hotspot.md
       - Udostepnianie internetu z iPhone'a nie powiodlo sie: faq/iphone_tethering_fail.md
       - Przewodnik rozwiazywania problemow z siecia komorkowa: faq/cellular_network_troubleshooting_guide.md
+      - Instalacja profilu eSIM nie powiodla sie: faq/esim_profile_installation_failed.md
       - Brak Internetu po zastapieniu starego routera urzadzeniem GL.iNet: faq/no_internet_after_replacing_the_old_router_with_glinet.md
       - Modem USB nie dziala: faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
       - Napraw siec lub zresetuj: faq/repair_network_or_reset_firmware.md
@@ -193,7 +196,7 @@ nav:
       - Jak blokowac ruch poza VPN: faq/block_non_vpn_traffic.md
       - Kill Switch VPN: faq/block_non_vpn_traffic.md
       - TCP czy UDP: faq/openvpn_tcp_udp.md
-      - Parametry zaciemniania AmneziaWG: faq/amnezia_obfuscation_parameters.md
+      - Parametry zaciemniania AmneziaWG: faq/amneziawg_obfuscation_parameters.md
       - Czy musze skonfigurowac Ethernet WAN podczas korzystania z VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Aktualizacja:
       - Pobierz firmware: faq/how_to_download_firmware.md
@@ -300,7 +303,7 @@ nav:
       - Kontrola rodzicielska: interface_guide/parental_control.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
-      - Zarzadzanie eSIM: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
+      - Zarzadzanie eSIM: interface_guide/esim_management.md
     - Siec:
       - Zapora sieciowa: interface_guide/firewall.md
       - Przekierowanie portow: interface_guide/port_forwarding.md

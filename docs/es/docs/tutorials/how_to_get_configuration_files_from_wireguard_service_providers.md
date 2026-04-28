@@ -192,19 +192,25 @@
 
     [Official Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-    Consulte [esta guía](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"} o siga los pasos indicados a continuación para obtener manualmente el archivo de configuración WireGuard.
+    Consulte [esta guía](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"} o siga los pasos indicados a continuación para obtener manualmente el archivo de configuración de PureVPN.
 
-    1. Inicie sesión en su [Member Area](https://my.puremember.com/){target="_blank"} y haga clic en **Manual Configuration**.
+    1. Inicie sesión con su cuenta en el [PureVPN Member Area](https://my.puremember.com/){target="_blank"}. Después de iniciar sesión, haga clic en **Manual Configuration** en el menú izquierdo.
 
-        ![purevpn wireguard manual configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/manual-purevpn1.png){class="glboxshadow"}
+        ![purevpn manual1](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-1.png){class="glboxshadow"}
 
-    2. Vaya a su Member Area y descargue desde allí el archivo de configuración WireGuard.
+    2. Seleccione la ciudad de destino y haga clic en **Download** a la derecha.
 
-        ![purevpn wireguard manual configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/manual-purevpn2.png){class="glboxshadow"}
+        ![purevpn manual2](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-2.png){class="glboxshadow"}
 
-    **Nota**: Asegúrese de copiar el archivo y activar la conexión dentro de los 30 minutos posteriores a la descarga del perfil; de lo contrario, la configuración caducará y tendrá que volver a descargar un archivo nuevo.
+    3. En la ventana emergente, seleccione **WireGuard** como protocolo.
 
-    Luego siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para continuar.
+        ![purevpn manual3](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-3.png){class="glboxshadow"}
+
+    4. Seleccione **Linux** como tipo de dispositivo y luego haga clic en **Generate Configuration**. El archivo de configuración se descargará en su dispositivo local.
+
+        ![purevpn manual4](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-4.png){class="glboxshadow"}
+
+    Luego siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para completar la configuración.
 
     [Refer link](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
 

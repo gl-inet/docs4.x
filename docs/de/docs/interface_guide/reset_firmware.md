@@ -12,9 +12,11 @@ Wenn Sie nicht auf das Web-Admin-Panel zugreifen können, sehen Sie sich das fol
 
 ---
 
-Videoanleitung: So setzen Sie einen GL.iNet-Router auf die Werkseinstellungen zurück
+**Videoanleitung: So setzen Sie einen GL.iNet-Router auf die Werkseinstellungen zurück**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

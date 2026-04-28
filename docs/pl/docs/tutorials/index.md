@@ -14,7 +14,7 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak skonfigurować serwer OpenVPN na routerach GL.iNet](how_to_set_up_openvpn_server.md)
 * [Zbuduj własny serwer domowy WireGuard z dwoma routerami GL.iNet](build_your_own_wireguard_home_server_with_two_glinet_routers.md)
 * [Jak skonfigurować zaciemnianie VPN na routerach GL.iNet](vpn_obfuscation.md)
-* [Jak skonfigurować parametry obfuskacji AmneziaWG](../faq/amnezia_obfuscation_parameters.md#parameter-overview)
+* [Jak skonfigurować parametry obfuskacji AmneziaWG](../faq/amneziawg_obfuscation_parameters.md)
 * [Jak połączyć się z NordVPN przy użyciu dedykowanego IP na routerach GL.iNet](how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md)
 * [Jak połączyć się z Surfshark przy użyciu dedykowanego IP na routerach GL.iNet](how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md)
 * [Jak skonfigurować serwer OpenVPN przez AstroRelay](how_to_set_up_openvpn_server_via_astrorelay.md)

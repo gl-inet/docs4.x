@@ -45,6 +45,8 @@ plugins:
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
+        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
+        'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
  
 extra:
   social:
@@ -173,6 +175,7 @@ nav:
       - Impossibile rilevare hotspot iPhone 5G: faq/cannot_scan_iphone_5g_hotspot.md
       - Tethering iPhone non riuscito: faq/iphone_tethering_fail.md
       - Guida alla risoluzione dei problemi della rete cellulare: faq/cellular_network_troubleshooting_guide.md
+      - Installazione del profilo eSIM non riuscita: faq/esim_profile_installation_failed.md
       - Nessuna connessione Internet dopo aver sostituito il vecchio router con GL.iNet: faq/no_internet_after_replacing_the_old_router_with_glinet.md
       - Il modem USB non funziona correttamente: faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
       - Ripristinare la rete o reimpostare: faq/repair_network_or_reset_firmware.md
@@ -194,7 +197,7 @@ nav:
       - Come bloccare il traffico non VPN: faq/block_non_vpn_traffic.md
       - Kill Switch VPN: faq/block_non_vpn_traffic.md
       - TCP o UDP: faq/openvpn_tcp_udp.md
-      - Parametri di offuscamento AmneziaWG: faq/amnezia_obfuscation_parameters.md
+      - Parametri di offuscamento AmneziaWG: faq/amneziawg_obfuscation_parameters.md
       - Devo configurare Ethernet WAN quando uso una VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Aggiornamento:
       - Scaricare il firmware: faq/how_to_download_firmware.md
@@ -242,7 +245,7 @@ nav:
       - Aggiornare il modulo Quectel: tutorials/upgrade_quectel_module_software.md
       - Verificare lo stato della carrier aggregation: tutorials/how_to_check_carrier_aggregation.md
       - Configurare Spitz AX per camper: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
-      - Installare o sostituire le antenne esterne: tutorials/how_to_change_x3000_and_xe3000_antennas.md
+      - Installare o sostituire le antenne esterne: tutorials/how_to_install_or_change_antennas.md
     - eSIM:
       - Usare la scheda eSIM fisica con i router GL.iNet: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Usare la scheda eSIM fisica con i dispositivi Android: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
@@ -303,7 +306,7 @@ nav:
       - Controllo genitori: interface_guide/parental_control.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
-      - Gestione eSIM: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
+      - Gestione eSIM: interface_guide/esim_management.md
     - Rete:
       - Firewall: interface_guide/firewall.md
       - Port forwarding: interface_guide/port_forwarding.md
@@ -321,7 +324,7 @@ nav:
       - Accelerazione di rete: interface_guide/network_acceleration.md
       - Impostazioni NAT: interface_guide/nat_settings.md
     - Controllo del traffico:
-      - Licenza DPI: interface_guide/dpi_license.md
+      - Licenza DPI: interface_guide/dpi_engine.md
       - Statistiche dati: interface_guide/data_statistics.md
       - Filtro contenuti: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md

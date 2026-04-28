@@ -12,9 +12,11 @@ Si vous ne pouvez pas accéder au panneau d'administration web, regardez la vid�
 
 ---
 
-Guide vidéo : Comment réinitialiser le routeur GL.iNet aux paramètres d'usine
+**Guide vidéo : Comment réinitialiser le routeur GL.iNet aux paramètres d'usine**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

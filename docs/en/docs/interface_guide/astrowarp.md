@@ -1,14 +1,12 @@
 # AstroWarp
 
-**Note**: This guide introduces the new version of AstroWarp, which is integrated into GL.iNet web Admin Panel.
+**Note**: This guide covers the new version of AstroWarp.
 
-For documentation on the legacy AstroWarp, please refer to [this link](https://docs.astrowarp.net/){target="_blank"}.
+The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalone AstroWarp platform to establish remote network connections. See [here](https://docs.astrowarp.net/){target="_blank"} for documentation on the legacy AstroWarp.
 
----
+By contrast, the new AstroWarp is integrated into the GL.iNet router SDK. It adopts the AmneziaWG protocol with built-in traffic obfuscation, delivering stable and secure connections for reliable remote access anytime, anywhere.
 
-AstroWarp is an advanced networking feature integrated into GL.iNet routers. It enables seamless remote access to your home network without registration or login. Using the AmneziaWG protocol with built-in traffic obfuscation, it keeps your connection stable and secure, making it ideal for reliable remote access wherever you go.
-
-Users can set up an AstroWarp network directly through the GL.iNet router admin panel. Simply pair your routers using an access code and you can securely connect your travel router to your home network in seconds.
+This feature enables seamless remote access to your home network. You can directly set up and pair devices via a dynamic access code in the web Admin Panel, quickly establishing a secure connection between your travel router and home network in just seconds, with no registration or login required.
 
 **Note:** 
 

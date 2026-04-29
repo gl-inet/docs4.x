@@ -2,7 +2,10 @@
 
 Data Statistics provides an intuitive traffic dashboard that identifies network usage by application and protocol. It supports viewing 1‑hour, 1‑day, and 7‑day historical trends, displays usage rankings, monitors per‑device traffic, and allows one‑click blocking of unwanted apps.
 
-**Note**: This feature cannot work with Network Acceleration. Enabling it will automatically disable Network Acceleration to ensure proper operation.
+**Note**:
+
+1. Data Statistics will not take effect when the router is in Drop-in Gateway mode.
+2. Data Statistics cannot work with Network Acceleration. Enabling Data Statistics will automatically disable Network Acceleration to ensure stable performance.
 
 ## Supported Models
 

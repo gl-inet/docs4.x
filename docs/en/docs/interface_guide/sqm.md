@@ -5,8 +5,10 @@ SQM (Smart Queue Management) intelligently manages your router's network traffic
 **Note**:
 
 1. This feature affects traffic passing through the router as a gateway (including local client traffic and VPN Client traffic) but not incoming traffic when the router acts as a VPN Server.
-
 2. Since SQM is resource-intensive, it works best for low-bandwidth or congested networks. Enabling it on high-speed connections may reduce peak throughput.
+3. SQM will not take effect when the router is in Drop-in Gateway mode.
+4. SQM and QoS cannot be enabled simultaneously.
+5. SQM cannot work with Network Acceleration. Enabling SQM will automatically disable Network Acceleration to ensure stable performance.
 
 ## Supported Models
 

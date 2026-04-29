@@ -8,9 +8,8 @@ Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI a
 
 **Note**: 
 
-1. DPI features will not take effect when the router is in Drop-in Gateway mode.
-
-2. When DPI is enabled, the Network Acceleration will be disabled automatically to ensure stable operation.
+1. When the router is in Drop-in Gateway mode, DPI features (including Data Statistics, Content Filter and QoS) and SQM will not take effect.
+2. When DPI is enabled, the Network Acceleration will be disabled automatically to ensure stable performance.
 
 ## Supported Models
 

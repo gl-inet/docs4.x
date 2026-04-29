@@ -2,7 +2,12 @@
 
 QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical activities (e.g., video calls, gaming) during network congestion, reducing latency and improving overall network performance. 
 
-**Note**: This feature affects traffic passing through the router as a gateway (including local client traffic and VPN Client traffic) but not incoming traffic when the router acts as a VPN Server.
+**Note**: 
+
+1. This feature affects traffic passing through the router as a gateway (including local client traffic and VPN Client traffic) but not incoming traffic when the router acts as a VPN Server.
+2. QoS will not take effect when the router is in Drop-in Gateway mode.
+3. QoS and SQM cannot be enabled simultaneously.
+4. QoS cannot work with Network Acceleration. Enabling QoS will automatically disable Network Acceleration to ensure stable performance.
 
 ## Supported Models
 

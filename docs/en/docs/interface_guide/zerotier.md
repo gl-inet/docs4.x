@@ -10,6 +10,8 @@ The ZeroTier feature on GL.iNet routers, available since firmware v4.2, allows t
 
 2. This feature is currently in beta, and may have some bugs.
 
+3. Some models, although running firmware v4.2 or higher, do not support ZeroTier due to insufficient memory.
+
 ## Supported Models
 
 ??? "Supported Models"

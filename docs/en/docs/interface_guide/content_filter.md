@@ -38,9 +38,9 @@ This page consists of two parts:
 
     ![edit app 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/edit_app3.png){class="glboxshadow" width="667"}
 
-    ![blocked app list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_app_list.jpg){class="glboxshadow"}
-
     You will then see the selected apps in the Blocked App List.
+
+    ![blocked app list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_app_list.jpg){class="glboxshadow"}
 
 - **Blocked Domain / IP List**: This section allows you to manually enter specific domains (e.g., google.com), CIDR range (e.g., 192.168.8.0/24), or IP addresses (e.g., 192.168.10.10) to block access to them. The list supports up to 10000 entries.
 

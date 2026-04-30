@@ -57,7 +57,7 @@ The time range you choose determines how the data is displayed:
 
 - **For a broad overview (e.g., Past Day or Past Week)**: The chart condenses the data into a longer timeline. The curves become smoother, showing the general traffic trend rather than every small change.
 
-    ![past day](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_day.png){class="glboxshadow"}
+    ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
 ## Clear Statistics
 

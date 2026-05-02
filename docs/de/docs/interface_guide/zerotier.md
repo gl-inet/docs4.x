@@ -10,6 +10,8 @@ Die ZeroTier-Funktion auf GL.iNet-Routern, verfügbar seit Firmware v4.2, ermög
 
 2. Diese Funktion befindet sich derzeit in der Beta-Phase und kann einige Fehler enthalten.
 
+3. Einige Modelle unterstützen ZeroTier trotz Firmware v4.2 oder höher aufgrund unzureichenden Arbeitsspeichers nicht.
+
 ## Unterstützte Modelle
 
 ??? "Unterstützte Modelle"

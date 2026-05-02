@@ -2,7 +2,10 @@
 
 Data Statistics fournit un tableau de bord de trafic intuitif qui identifie l’utilisation du réseau par application et par protocole. Il prend en charge l’affichage des tendances historiques sur 1 heure, 1 jour et 7 jours, présente les classements d’utilisation, surveille le trafic par appareil et permet de bloquer en un clic les applications indésirables.
 
-**Remarque** : cette fonctionnalité ne peut pas fonctionner avec Network Acceleration. Son activation désactivera automatiquement Network Acceleration afin de garantir un fonctionnement correct.
+**Remarque** :
+
+1. La fonctionnalité Statistiques de données ne prend pas effet lorsque le routeur est en mode Drop-in Gateway.
+2. La fonctionnalité Statistiques de données ne peut pas fonctionner avec Network Acceleration. Son activation désactivera automatiquement Network Acceleration afin de garantir des performances stables.
 
 ## Modèles pris en charge
 
@@ -54,7 +57,7 @@ La plage horaire choisie détermine la manière dont les données sont affichée
 
 - **Pour une vue d’ensemble (par ex. Past Day ou Past Week)** : le graphique condense les données sur une période plus longue. Les courbes deviennent plus lisses et montrent la tendance générale du trafic plutôt que chaque petite variation.
 
-    ![past day](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_day.png){class="glboxshadow"}
+    ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
 ## Effacer les statistiques
 

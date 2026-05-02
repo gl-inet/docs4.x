@@ -10,6 +10,8 @@ La fonctionnalité ZeroTier sur les routeurs GL.iNet, disponible depuis le firmw
 
 2. Cette fonctionnalité est actuellement en version bêta et peut comporter certains bugs.
 
+3. Certains modèles, bien qu'ils exécutent le firmware v4.2 ou une version ultérieure, ne prennent pas en charge ZeroTier en raison d'une mémoire insuffisante.
+
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"

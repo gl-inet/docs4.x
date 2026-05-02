@@ -74,7 +74,7 @@ Zaloguj się do panelu administracyjnego i przejdź do **VPN** -> **OpenVPN Serv
 
     Kliknij **Export Client Configuration** na dole karty Configuration (lub najpierw zastosuj zmodyfikowaną konfigurację), a następnie pojawi się okno jak poniżej.
 
-    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ovpnserver_export_configuration.png){class="glboxshadow"}
+    ![openvpn export config](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ovpnserver_export_config.png){class="glboxshadow"}
 
     - Jeśli publiczny adres IP Twojej sieci często się zmienia, możesz włączyć [DDNS](ddns.md), aby używać domeny DDNS jako adresu serwera.
 

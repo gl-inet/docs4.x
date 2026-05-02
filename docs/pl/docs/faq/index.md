@@ -48,8 +48,8 @@ Dla urządzeń GL.iNet KVM zobacz [GL.iNet KVM Docs](https://docs.gl-inet.com/kv
 
 ## VPN
 
-* [Jak skonfigurować OpenVPN?](../interface_guide/openvpn_client.md)
-* [Jak skonfigurować WireGuard?](../interface_guide/wireguard_client.md)
+* [Jak skonfigurować klienta OpenVPN?](../interface_guide/openvpn_client.md)
+* [Jak skonfigurować klienta WireGuard?](../interface_guide/wireguard_client.md)
 * [Jak blokować ruch spoza VPN?](block_non_vpn_traffic.md)
 * [VPN Kill Switch](block_non_vpn_traffic.md)
 * [W przypadku OpenVPN, który protokół wybrać: TCP czy UDP?](openvpn_tcp_udp.md)

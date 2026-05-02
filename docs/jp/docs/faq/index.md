@@ -48,8 +48,8 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 
 ## VPN
 
-* [OpenVPNを設定する方法は？](../interface_guide/openvpn_client.md)
-* [WireGuardを設定する方法は？](../interface_guide/wireguard_client.md)
+* [OpenVPNクライアントを設定する方法は？](../interface_guide/openvpn_client.md)
+* [WireGuardクライアントを設定する方法は？](../interface_guide/wireguard_client.md)
 * [非VPNトラフィックをブロックする方法は？](block_non_vpn_traffic.md)
 * [VPNキルスイッチ](block_non_vpn_traffic.md)
 * [OpenVPNでは、TCPとUDPのどちらのプロトコルを選ぶべきですか？](openvpn_tcp_udp.md)

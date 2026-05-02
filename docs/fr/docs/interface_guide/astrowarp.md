@@ -1,14 +1,12 @@
 # AstroWarp
 
-**Remarque** : ce guide présente la nouvelle version d’AstroWarp, intégrée au panneau d’administration web des routeurs GL.iNet.
+**Remarque** : ce guide couvre la nouvelle version d’AstroWarp.
 
-Pour la documentation de l’ancienne version d’AstroWarp, veuillez consulter [ce lien](https://docs.astrowarp.net/){target="_blank"}.
+L’ancienne version d’AstroWarp, bien que visible dans le panneau d’administration web, reposait sur une plateforme AstroWarp autonome pour établir des connexions réseau à distance. Consultez [ce lien](https://docs.astrowarp.net/){target="_blank"} pour la documentation de l’ancienne version d’AstroWarp.
 
----
+En revanche, la nouvelle version d’AstroWarp est intégrée au SDK des routeurs GL.iNet. Elle adopte le protocole AmneziaWG avec obfuscation de trafic intégrée, offrant des connexions stables et sécurisées pour un accès à distance fiable à tout moment, où que vous soyez.
 
-AstroWarp est une fonctionnalité réseau avancée intégrée aux routeurs GL.iNet. Elle permet un accès à distance fluide à votre réseau domestique sans inscription ni connexion. En utilisant le protocole AmneziaWG avec obfuscation de trafic intégrée, elle maintient une connexion stable et sécurisée, ce qui en fait une solution idéale pour un accès à distance fiable, où que vous soyez.
-
-Les utilisateurs peuvent configurer un réseau AstroWarp directement depuis le panneau d’administration du routeur GL.iNet. Il suffit d’appairer vos routeurs à l’aide d’un code d’accès pour connecter en toute sécurité votre routeur de voyage à votre réseau domestique en quelques secondes.
+Cette fonctionnalité permet un accès à distance fluide à votre réseau domestique. Vous pouvez configurer et appairer directement les appareils via un code d’accès dynamique dans le panneau d’administration web, afin d’établir rapidement une connexion sécurisée entre votre routeur de voyage et votre réseau domestique en quelques secondes, sans inscription ni connexion.
 
 **Remarque** :
 
@@ -22,7 +20,7 @@ Les utilisateurs peuvent configurer un réseau AstroWarp directement depuis le p
 
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint 2)
+    - ※GL-MT6000 (Flint 2)
     - ※GL-X3000 (Spitz AX)
     - ※GL-XE3000 (Puli AX)
     - ※GL-AX1800 (Flint)

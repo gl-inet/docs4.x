@@ -8,9 +8,9 @@ GL.iNet の DPI Engine はルーター上でローカルに動作し、プライ
 
 **注**:
 
-1. ルーターが Drop-in Gateway モードのときは、DPI 機能は動作しません。
+1. ルーターが Drop-in Gateway モードのときは、DPI 機能（Data Statistics、Content Filter、QoS を含む）および SQM は動作しません。
 
-2. DPI を有効にすると、安定した動作を確保するため **Network Acceleration** は自動的に無効になります。
+2. DPI を有効にすると、安定したパフォーマンスを確保するため **Network Acceleration** は自動的に無効になります。
 
 ## 対応モデル
 

@@ -2,7 +2,10 @@
 
 Statystyki danych udostępniają intuicyjny panel ruchu, który identyfikuje wykorzystanie sieci według aplikacji i protokołu. Umożliwiają przegląd trendów historycznych z 1 godziny, 1 dnia i 7 dni, pokazują rankingi wykorzystania, monitorują ruch dla poszczególnych urządzeń i pozwalają jednym kliknięciem blokować niechciane aplikacje.
 
-**Uwaga**: Ta funkcja nie działa z Network Acceleration. Jej włączenie automatycznie wyłączy Network Acceleration, aby zapewnić prawidłowe działanie.
+**Uwaga**:
+
+1. Statystyki danych nie działają, gdy router pracuje w trybie Drop-in Gateway.
+2. Statystyki danych nie współpracują z funkcją Network Acceleration. Włączenie statystyk danych automatycznie wyłączy Network Acceleration, aby zapewnić stabilną wydajność.
 
 ## Obsługiwane modele
 
@@ -54,7 +57,7 @@ Wybrany zakres czasu wpływa na sposób prezentacji danych:
 
 - **Dla szerszego przeglądu (np. Past Day lub Past Week)**: wykres kondensuje dane na dłuższej osi czasu. Krzywe stają się gładsze i pokazują ogólny trend ruchu zamiast każdej drobnej zmiany.
 
-    ![past day](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_day.png){class="glboxshadow"}
+    ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
 ## Czyszczenie statystyk
 

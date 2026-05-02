@@ -2,6 +2,11 @@
 
 Le filtre de contenu est une fonctionnalité de sécurité en ligne intelligente basée sur la classification DPI. Il bloque automatiquement les sites web nuisibles et malveillants afin de garder votre réseau propre et sécurisé, et prend également en charge des règles personnalisées pour bloquer des applications, domaines ou adresses IP spécifiques.
 
+**Remarque** :
+
+1. Le filtre de contenu ne prend pas effet lorsque le routeur est en mode Drop-in Gateway.
+2. Le filtre de contenu ne peut pas fonctionner avec Network Acceleration. Son activation désactivera automatiquement Network Acceleration afin de garantir des performances stables.
+
 ## Modèles pris en charge
 
 !!! note "Modèles pris en charge"
@@ -33,9 +38,9 @@ Cette page se compose de deux parties :
 
     ![edit app 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/edit_app3.png){class="glboxshadow" width="667"}
 
-    ![blocked app list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_app_list.jpg){class="glboxshadow"}
-
     Vous verrez ensuite les applications sélectionnées dans la liste **Blocked App List**.
+
+    ![blocked app list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_app_list.jpg){class="glboxshadow"}
 
 - **Blocked Domain / IP List** : cette section vous permet de saisir manuellement des domaines spécifiques (par ex. `google.com`), des plages CIDR (par ex. `192.168.8.0/24`) ou des adresses IP (par ex. `192.168.10.10`) afin d’en bloquer l’accès. La liste prend en charge jusqu’à 10000 entrées.
 

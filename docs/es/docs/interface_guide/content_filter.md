@@ -2,6 +2,11 @@
 
 Content Filter es una función de seguridad inteligente en línea basada en clasificación DPI. Bloquea automáticamente sitios web dañinos o maliciosos para mantener la red limpia y segura, y también permite crear reglas personalizadas para bloquear aplicaciones, dominios o direcciones IP concretos.
 
+**Nota**:
+
+1. Content Filter no surtirá efecto cuando el router esté en modo Drop-in Gateway.
+2. Content Filter no puede funcionar con Network Acceleration. Al habilitar Content Filter, Network Acceleration se desactivará automáticamente para garantizar un rendimiento estable.
+
 ## Modelos compatibles
 
 !!! note "Modelos compatibles"

@@ -2,7 +2,12 @@
 
 QoS (Quality of Service) optimiert die Bandbreitenzuweisung, indem kritische Aktivitäten (z. B. Videoanrufe oder Gaming) bei Netzwerküberlastung priorisiert werden. Dadurch werden Latenzen reduziert und die allgemeine Netzwerkleistung verbessert.
 
-**Hinweis**: Diese Funktion beeinflusst den Datenverkehr, der den Router als Gateway durchläuft (einschließlich lokalem Client-Datenverkehr und VPN-Client-Datenverkehr), jedoch nicht den eingehenden Datenverkehr, wenn der Router als VPN-Server arbeitet.
+**Hinweis**:
+
+1. Diese Funktion beeinflusst den Datenverkehr, der den Router als Gateway durchläuft (einschließlich lokalem Client-Datenverkehr und VPN-Client-Datenverkehr), jedoch nicht den eingehenden Datenverkehr, wenn der Router als VPN-Server arbeitet.
+2. QoS wirkt nicht, wenn sich der Router im Drop-in Gateway-Modus befindet.
+3. QoS und SQM können nicht gleichzeitig aktiviert werden.
+4. QoS kann nicht zusammen mit der Netzwerkbeschleunigung verwendet werden. Beim Aktivieren von QoS wird die Netzwerkbeschleunigung automatisch deaktiviert, um eine stabile Leistung sicherzustellen.
 
 ## Unterstützte Modelle
 

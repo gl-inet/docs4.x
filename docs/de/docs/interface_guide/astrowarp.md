@@ -1,14 +1,12 @@
 # AstroWarp
 
-**Hinweis**: Dieser Leitfaden beschreibt die neue Version von AstroWarp, die in das GL.iNet Web-Admin-Panel integriert ist.
+**Hinweis**: Dieser Leitfaden behandelt die neue Version von AstroWarp.
 
-Für die Dokumentation zur älteren AstroWarp-Version lesen Sie bitte [diesen Link](https://docs.astrowarp.net/){target="_blank"}.
+Das ältere AstroWarp war zwar im Web-Admin-Panel sichtbar, nutzte jedoch eine eigenständige AstroWarp-Plattform, um Remote-Netzwerkverbindungen herzustellen. Die Dokumentation zum älteren AstroWarp finden Sie [hier](https://docs.astrowarp.net/){target="_blank"}.
 
----
+Im Gegensatz dazu ist das neue AstroWarp in das GL.iNet Router SDK integriert. Es verwendet das AmneziaWG-Protokoll mit integrierter Datenverkehrsverschleierung und bietet dadurch stabile und sichere Verbindungen für zuverlässigen Fernzugriff jederzeit und überall.
 
-AstroWarp ist eine erweiterte Netzwerkfunktion, die in GL.iNet-Router integriert ist. Sie ermöglicht nahtlosen Fernzugriff auf Ihr Heimnetzwerk ohne Registrierung oder Anmeldung. Mit dem AmneziaWG-Protokoll und integrierter Datenverkehrsverschleierung bleibt Ihre Verbindung stabil und sicher, was AstroWarp ideal für zuverlässigen Fernzugriff unterwegs macht.
-
-Benutzer können ein AstroWarp-Netzwerk direkt über das Admin-Panel des GL.iNet-Routers einrichten. Koppeln Sie Ihre Router einfach mit einem Zugriffscode, und schon können Sie Ihren Reiserouter in wenigen Sekunden sicher mit Ihrem Heimnetzwerk verbinden.
+Diese Funktion ermöglicht nahtlosen Fernzugriff auf Ihr Heimnetzwerk. Sie können Geräte direkt im Web-Admin-Panel über einen dynamischen Zugriffscode einrichten und koppeln, sodass in nur wenigen Sekunden eine sichere Verbindung zwischen Ihrem Reiserouter und Ihrem Heimnetzwerk hergestellt wird – ganz ohne Registrierung oder Anmeldung.
 
 **Hinweis:**
 
@@ -21,7 +19,7 @@ Benutzer können ein AstroWarp-Netzwerk direkt über das Admin-Panel des GL.iNet
 
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint 2)
+    - ※GL-MT6000 (Flint 2)
     - ※GL-X3000 (Spitz AX)
     - ※GL-XE3000 (Puli AX)
     - ※GL-AX1800 (Flint)
@@ -47,7 +45,6 @@ Benutzer können ein AstroWarp-Netzwerk direkt über das Admin-Panel des GL.iNet
     - GL-XE300 (Puli)
     - GL-MT300N-V2 (Mango)
     - GL-AR300M Series (Shadow)
-    - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 

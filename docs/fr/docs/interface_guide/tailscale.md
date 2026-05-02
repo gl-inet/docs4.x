@@ -10,7 +10,7 @@ La fonctionnalité Tailscale des routeurs GL.iNet, disponible depuis le firmware
 
 2. Cette fonctionnalité est actuellement en version bêta et peut comporter certains bugs.
 
-3. Les routeurs GL.iNet ne peuvent **pas encore être utilisés comme nœuds de sortie**.
+3. Certains modèles, bien qu'ils exécutent le firmware v4.2 ou une version ultérieure, ne prennent pas en charge Tailscale en raison d'une mémoire insuffisante.
 
 ## Modèles pris en charge
 

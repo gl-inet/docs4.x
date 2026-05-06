@@ -72,7 +72,7 @@ Inicie sesión en el panel de administración web y vaya a **VPN** -> **OpenVPN 
 
    Haga clic en **Export Client Configuration** en la parte inferior de la pestaña **Configuration** o aplique la configuración modificada. A continuación, aparecerá una ventana como la que se muestra a continuación.
 
-   ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ovpnserver_export_configuration.png){class="glboxshadow"}
+   ![openvpn export config](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ovpnserver_export_config.png){class="glboxshadow"}
    - Si la IP pública de su red cambia con frecuencia, puede habilitar [DDNS](ddns.md) para usar un dominio DDNS como dirección del servidor.
 
    - Desde el firmware v4.8, puede especificar la dirección del servidor entre la IP pública, el dominio DDNS y la IP WAN actual. Cuando la cambie, la dirección del servidor en el archivo de configuración se actualizará al mismo tiempo.

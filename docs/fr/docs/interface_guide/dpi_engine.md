@@ -8,9 +8,9 @@ Intégré à [Netify](https://www.netify.ai/){target="_blank"}, le DPI de GL.iNe
 
 **Remarque** :
 
-1. Les fonctionnalités DPI ne prennent pas effet lorsque le routeur est en mode Drop-in Gateway.
+1. Lorsque le routeur est en mode Drop-in Gateway, les fonctionnalités DPI (notamment Statistiques de données, Filtre de contenu et QoS) ainsi que le SQM ne prennent pas effet.
 
-2. Lorsque le DPI est activé, la fonction Network Acceleration sera automatiquement désactivée afin de garantir un fonctionnement stable.
+2. Lorsque le DPI est activé, la fonction Network Acceleration sera automatiquement désactivée afin de garantir des performances stables.
 
 ## Modèles pris en charge
 

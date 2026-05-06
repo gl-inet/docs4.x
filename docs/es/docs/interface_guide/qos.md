@@ -2,7 +2,12 @@
 
 QoS (Quality of Service) optimiza la asignación del ancho de banda priorizando actividades críticas, como videollamadas y juegos, durante la congestión de la red, lo que reduce la latencia y mejora el rendimiento general.
 
-**Nota**: Esta función afecta al tráfico que pasa por el router cuando actúa como puerta de enlace, incluido el tráfico de los clientes locales y el del cliente VPN, pero no al tráfico entrante cuando el router actúa como servidor VPN.
+**Nota**:
+
+1. Esta función afecta al tráfico que pasa por el router cuando actúa como puerta de enlace, incluido el tráfico de los clientes locales y el del cliente VPN, pero no al tráfico entrante cuando el router actúa como servidor VPN.
+2. QoS no surtirá efecto cuando el router esté en modo Drop-in Gateway.
+3. QoS y SQM no pueden habilitarse al mismo tiempo.
+4. QoS no puede funcionar con Network Acceleration. Al habilitar QoS, Network Acceleration se desactivará automáticamente para garantizar un rendimiento estable.
 
 ## Modelos compatibles
 

@@ -2,7 +2,7 @@
 
 ## ハードウェア情報
 
-GL-AXT1800（Slate AX）は、GL.iNet初のWi-Fi 6対応トラベルルーターです。IPQ6000 1.2GHzクアッドコアプロセッサを搭載し、OpenWrt 21.02で動作します。最新のWi-Fi 6技術により、外出先でも自宅でも、より多くのデバイスを接続しながら高速なワイヤレス通信を利用できます。
+GL-AXT1800（Slate AX）は、GL.iNet初のWi-Fi 6対応トラベルルーターです。IPQ6000 1.2GHzクアッドコアプロセッサを搭載し、OpenWrt 23.05で動作します。最新のWi-Fi 6技術により、外出先でも自宅でも、より多くのデバイスを接続しながら高速なワイヤレス通信を利用できます。
 
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
 
@@ -266,4 +266,3 @@ GL.iNet は、性能向上、バグ修正、脆弱性対策のために、ルー
 ### 詳細設定
 
  [**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルにアクセスしてください。
-

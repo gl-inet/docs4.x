@@ -2,7 +2,10 @@
 
 Die Datenstatistiken bieten ein intuitives Dashboard für den Datenverkehr, das die Netzwerknutzung nach Anwendungen und Protokollen erkennt. Es unterstützt historische Trends für 1 Stunde, 1 Tag und 7 Tage, zeigt Nutzungsrankings an, überwacht den Datenverkehr pro Gerät und erlaubt das Blockieren unerwünschter Apps mit einem Klick.
 
-**Hinweis**: Diese Funktion kann nicht zusammen mit der Netzwerkbeschleunigung verwendet werden. Beim Aktivieren wird die Netzwerkbeschleunigung automatisch deaktiviert, um einen ordnungsgemäßen Betrieb sicherzustellen.
+**Hinweis**:
+
+1. Datenstatistiken wirken nicht, wenn sich der Router im Drop-in Gateway-Modus befindet.
+2. Datenstatistiken können nicht zusammen mit der Netzwerkbeschleunigung verwendet werden. Beim Aktivieren der Datenstatistiken wird die Netzwerkbeschleunigung automatisch deaktiviert, um eine stabile Leistung sicherzustellen.
 
 ## Unterstützte Modelle
 
@@ -54,7 +57,7 @@ Der gewählte Zeitbereich bestimmt, wie die Daten dargestellt werden:
 
 - **Für einen allgemeinen Überblick (z. B. Past Day oder Past Week)**: Das Diagramm verdichtet die Daten über einen längeren Zeitraum. Die Kurven werden glatter und zeigen eher den allgemeinen Verkehrstrend als jede kleine Änderung.
 
-    ![past day](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_day.png){class="glboxshadow"}
+    ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
 ## Statistiken löschen
 

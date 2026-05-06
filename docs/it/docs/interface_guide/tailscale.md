@@ -10,7 +10,7 @@ La funzione Tailscale sui router GL.iNet, disponibile dal firmware v4.2, consent
 
 2. Questa funzione e' attualmente in beta e potrebbe contenere alcuni bug.
 
-3. I router GL.iNet **non sono ancora disponibili come exit node**.
+3. Alcuni modelli, pur eseguendo il firmware v4.2 o versioni successive, non supportano Tailscale a causa della memoria insufficiente.
 
 ## Modelli supportati
 

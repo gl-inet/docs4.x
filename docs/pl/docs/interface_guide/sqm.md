@@ -8,6 +8,12 @@ SQM (Smart Queue Management) inteligentnie zarządza ruchem sieciowym routera, a
 
 2. Ponieważ SQM wymaga sporych zasobów, najlepiej sprawdza się w sieciach o niskiej przepustowości lub dużym obciążeniu. Włączenie go na szybkich łączach może obniżyć maksymalną przepustowość.
 
+3. SQM nie działa, gdy router pracuje w trybie Drop-in Gateway.
+
+4. SQM i QoS nie mogą być włączone jednocześnie.
+
+5. SQM nie współpracuje z funkcją Network Acceleration. Włączenie SQM automatycznie wyłączy Network Acceleration, aby zapewnić stabilną wydajność.
+
 ## Obsługiwane modele
 
 !!! note "Obsługiwane modele"

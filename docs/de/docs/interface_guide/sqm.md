@@ -8,6 +8,12 @@ SQM (Smart Queue Management) verwaltet den Netzwerkverkehr Ihres Routers intelli
 
 2. Da SQM ressourcenintensiv ist, eignet es sich am besten für Netzwerke mit geringer Bandbreite oder starker Auslastung. Auf Hochgeschwindigkeitsverbindungen kann die Aktivierung den maximalen Durchsatz verringern.
 
+3. SQM wirkt nicht, wenn sich der Router im Drop-in Gateway-Modus befindet.
+
+4. SQM und QoS können nicht gleichzeitig aktiviert werden.
+
+5. SQM kann nicht zusammen mit der Netzwerkbeschleunigung verwendet werden. Beim Aktivieren von SQM wird die Netzwerkbeschleunigung automatisch deaktiviert, um eine stabile Leistung sicherzustellen.
+
 ## Unterstützte Modelle
 
 !!! note "Unterstützte Modelle"

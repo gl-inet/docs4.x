@@ -1,14 +1,14 @@
 # AstroWarp
 
-**Nota**: questa guida presenta la nuova versione di AstroWarp, integrata nel pannello di amministrazione web GL.iNet.
+**Nota**: questa guida riguarda la nuova versione di AstroWarp.
 
-Per la documentazione relativa ad AstroWarp legacy, fai riferimento [a questo link](https://docs.astrowarp.net/){target="_blank"}.
+L'AstroWarp legacy, pur essendo visibile nel pannello di amministrazione web, si basava su una piattaforma AstroWarp standalone per stabilire connessioni di rete remote. Consulta [qui](https://docs.astrowarp.net/){target="_blank"} la documentazione relativa ad AstroWarp legacy.
 
 ---
 
-AstroWarp e' una funzione di rete avanzata integrata nei router GL.iNet. Consente l'accesso remoto senza interruzioni alla rete domestica senza registrazione ne' accesso. Utilizzando il protocollo AmneziaWG con offuscamento del traffico integrato, mantiene la connessione stabile e sicura, risultando ideale per un accesso remoto affidabile ovunque ti trovi.
+Il nuovo AstroWarp, invece, e' integrato nello SDK del router GL.iNet. Adotta il protocollo AmneziaWG con offuscamento del traffico integrato, offrendo connessioni stabili e sicure per un accesso remoto affidabile sempre e ovunque.
 
-Gli utenti possono configurare una rete AstroWarp direttamente dal pannello di amministrazione del router GL.iNet. Basta associare i router tramite un codice di accesso per collegare in modo sicuro il router da viaggio alla rete domestica in pochi secondi.
+Questa funzione consente un accesso remoto senza interruzioni alla rete domestica. Puoi configurare e associare direttamente i dispositivi tramite un codice di accesso dinamico nel pannello di amministrazione web, stabilendo rapidamente una connessione sicura tra il router da viaggio e la rete domestica in pochi secondi, senza necessita' di registrazione o login.
 
 **Nota:**
 
@@ -21,7 +21,7 @@ Gli utenti possono configurare una rete AstroWarp direttamente dal pannello di a
 
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint 2)
+    - ※GL-MT6000 (Flint 2)
     - ※GL-X3000 (Spitz AX)
     - ※GL-XE3000 (Puli AX)
     - ※GL-AX1800 (Flint)

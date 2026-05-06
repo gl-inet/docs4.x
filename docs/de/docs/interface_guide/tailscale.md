@@ -10,7 +10,7 @@ Die Tailscale-Funktion auf GL.iNet-Routern, verfügbar seit Firmware V4.2, ermö
 
 2. Diese Funktion befindet sich derzeit in der Beta-Phase und kann einige Fehler enthalten.
 
-3. GL.iNet-Router sind **noch nicht als Exit Nodes verfügbar**.
+3. Einige Modelle unterstützen Tailscale trotz Firmware v4.2 oder höher aufgrund unzureichenden Arbeitsspeichers nicht.
 
 ## Unterstützte Modelle
 

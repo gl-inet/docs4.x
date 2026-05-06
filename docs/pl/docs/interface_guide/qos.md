@@ -2,7 +2,12 @@
 
 QoS (Quality of Service) optymalizuje przydział przepustowości, nadając priorytet krytycznym działaniom (np. wideorozmowom, grom) podczas przeciążenia sieci, co zmniejsza opóźnienia i poprawia ogólną wydajność sieci.
 
-**Uwaga**: Ta funkcja wpływa na ruch przechodzący przez router działający jako brama (w tym ruch lokalnych klientów i ruch klienta VPN), ale nie na ruch przychodzący, gdy router działa jako serwer VPN.
+**Uwaga**:
+
+1. Ta funkcja wpływa na ruch przechodzący przez router działający jako brama (w tym ruch lokalnych klientów i ruch klienta VPN), ale nie na ruch przychodzący, gdy router działa jako serwer VPN.
+2. QoS nie działa, gdy router pracuje w trybie Drop-in Gateway.
+3. QoS i SQM nie mogą być włączone jednocześnie.
+4. QoS nie współpracuje z funkcją Network Acceleration. Włączenie QoS automatycznie wyłączy Network Acceleration, aby zapewnić stabilną wydajność.
 
 ## Obsługiwane modele
 

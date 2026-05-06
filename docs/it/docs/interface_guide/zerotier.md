@@ -10,6 +10,8 @@ La funzione ZeroTier sui router GL.iNet, disponibile dal firmware v4.2, consente
 
 2. Questa funzione e' attualmente in beta e potrebbe contenere alcuni bug.
 
+3. Alcuni modelli, pur eseguendo il firmware v4.2 o versioni successive, non supportano ZeroTier a causa della memoria insufficiente.
+
 ## Modelli supportati
 
 ??? "Modelli supportati"

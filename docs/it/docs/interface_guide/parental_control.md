@@ -2,9 +2,9 @@
 
 Il parental control e' un modo per proteggere i bambini online bloccando siti web inappropriati e limitando il tempo di utilizzo dei dispositivi. Aiuta a impedire l'accesso a contenuti dannosi, a gestire il tempo davanti allo schermo e a garantire un uso responsabile di Internet da parte dei bambini.
 
-Questa funzione e' disponibile dal firmware v4.2.
+Questa funzione e' disponibile dal firmware v4.2. **Nota**: alcuni modelli, pur eseguendo il firmware v4.2 o versioni successive, non supportano Parental Control a causa della memoria insufficiente.
 
-Guarda questo video oppure segui i passaggi qui sotto per saperne di piu' su Parental Control sui router GL.iNet.
+Guarda questo video oppure segui i passaggi qui sotto per configurare Parental Control sui router GL.iNet.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pOyDwQRc3io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -45,7 +45,7 @@ La versione locale e' fornita da GL.iNet. Al momento e' in beta e non ha costi a
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### Configurazione
+### Passaggi di configurazione
 
 Accedi al pannello di amministrazione web del router e vai su **APPLICATIONS** -> **Parental Control**.
 
@@ -61,9 +61,11 @@ Abilita Parental Control e fai clic su **Apply**.
 
 - **Block WAN for Unmanaged Devices**: viene usato per bloccare l'accesso a Internet dei dispositivi non gestiti.
 
-Poi segui la procedura guidata per configurare Parental Control.
+Poi segui la procedura guidata per impostare Parental Control.
 
-Di seguito trovi due casi d'uso di riferimento, che puoi adattare alla tua situazione.
+---
+
+Di seguito trovi due casi d'uso di riferimento. Puoi adattare le impostazioni alle tue esigenze.
 
 **Case 1**
 
@@ -71,75 +73,75 @@ Di seguito trovi due casi d'uso di riferimento, che puoi adattare alla tua situa
 
 Segui i passaggi qui sotto.
 
-1. Crea un profilo e assegnagli un nome.
+1. Crea un profilo e assegnagli un nome personalizzato.
 
-    ![create a profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_1.png){class="glboxshadow"}
+    ![create a profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_1_create_profile.png){class="glboxshadow"}
 
-2. Seleziona i dispositivi che vuoi gestire. Se non sono ancora stati collegati al router, aggiungili manualmente inserendo i loro indirizzi MAC.
+2. Seleziona i dispositivi che vuoi gestire. Devi prima collegarli al router. Se non sono ancora stati collegati al router, aggiungili manualmente inserendo i loro indirizzi MAC.
 
-    ![select devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_2.png){class="glboxshadow"}
+    ![select devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_2_select_device.png){class="glboxshadow"}
 
 3. Imposta il limite di accesso.
 
-    Esistono due ruleset predefiniti: **Block Internet Access** e **No Limit**. Crea qui altri due ruleset per usarli piu' avanti: **Learning** e **Play**.
+    Esistono due ruleset predefiniti: **Block Internet Access** e **No Limit**.
 
-    Fai clic su **Add a New Ruleset**.
+    ![default rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
 
-    ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_3.png){class="glboxshadow"}
+    Crea altri due ruleset da usare in seguito: **Learning** e **Play**. Fai clic su **Add a New Ruleset**.
 
-4. Specifica il nome del ruleset, ad esempio Learning, il colore e l'elenco dei siti da bloccare. Poi fai clic su **Apply**.
+    ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
 
-    ![create a ruleset 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_ruleset_4.png){class="glboxshadow"}
+    Specifica il nome del ruleset, ad esempio Learning, il colore e inserisci i siti che vuoi bloccare, quindi fai clic su **Apply**.
+
+    ![create a ruleset 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_5_add_ruleset_learning.png){class="glboxshadow"}
 
     **Nota**: i nomi di dominio inseriti nella blocklist devono includere anche i sottodomini. Ad esempio, se inserisci `example.com`, saranno inclusi anche eventuali sottodomini, come `subdomain.example.com`.
 
-    Allo stesso modo, crea un altro ruleset chiamato Play. Specifica un colore, i siti da bloccare e fai clic su **Apply**.
+    Allo stesso modo, crea un altro ruleset. Specifica il nome del ruleset, ad esempio Play, il colore e inserisci i siti che vuoi bloccare, quindi fai clic su **Apply**.
 
-    ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_ruleset_5.png){class="glboxshadow"}
+    ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
 
-5. Dopo l'applicazione, ci saranno in totale quattro ruleset, come mostrato di seguito.
+    Dopo l'applicazione, ci saranno in totale quattro ruleset, come mostrato di seguito. Assicurati di selezionare **Block Internet Access** come **Default Ruleset**, quindi fai clic su **Finish**.
 
-    Assicurati di selezionare **Block Internet Access** come **Default Ruleset**, quindi fai clic su **Finish**.
+    ![four rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
 
-    ![create a profile guide](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_6.png){class="glboxshadow"}
+4. Successivamente, imposta la pianificazione per il profilo. Fai clic su **Go to Set**.
 
-6. Poi vai su Set Schedule. Fai clic su **Go to Set**.
+    ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_8_set_schedule.png){class="glboxshadow"}
 
-    ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_schedule_7.png){class="glboxshadow"}
+    Aggiungi il ruleset **Learning** alla pianificazione. Imposta **Execution Time** dalle 8:00 alle 11:00 nei giorni feriali, quindi fai clic su **Apply**.
 
-7. Aggiungi il ruleset **Learning** alla pianificazione. Imposta **Execution Time** dalle 8:00 alle 11:00 nei giorni feriali. Fai clic su **Apply**.
+    ![add schedule learning](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_9_schedule_learning.png){class="glboxshadow"}
 
-    ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_schedule_8.png){class="glboxshadow"}
+5. Verrai quindi reindirizzato alla pagina di modifica del profilo appena creato.
 
-8. Verrai portato alla pagina di modifica del profilo appena creato.
+    ![profile created](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_10_profile_created.png){class="glboxshadow"}
 
-    ![modify profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/modify_profile.png){class="glboxshadow"}
+    Scorri verso il basso e vedrai che e' stata creata una pianificazione. Fai clic sull'icona dell'ingranaggio in alto a destra e seleziona **Add Schedule**.
 
-    Vedrai che e' stata creata una pianificazione. Fai clic su **Add Schedule** in alto a destra.
+    ![profile add schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_11_add_schedule.png){class="glboxshadow"}
 
-    ![add schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/add_schedule.png){class="glboxshadow"}
+6. Aggiungi un altro ruleset, **Play**, alla pianificazione. Imposta **Execution Time** dalle 18:00 alle 20:00 nei fine settimana, quindi fai clic su **Apply**.
 
-9. Aggiungi un altro ruleset, **Play**, alla pianificazione. Imposta **Execution Time** dalle 18:00 alle 20:00 nelle serate del fine settimana. Fai clic su **Apply**.
+    ![add schedule play](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_12_schedule_play.png){class="glboxshadow"}
 
-    ![add schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/create_schedule_2.png){class="glboxshadow"}
+    Il ruleset **Play** verra' quindi aggiunto alla pianificazione.
 
-10. Poi vedrai che anche il ruleset Play e' stato aggiunto alla pianificazione.
-
-    ![schedules](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/schedules_2.png){class="glboxshadow"}
+    ![schedules](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_13_schedules.png){class="glboxshadow"}
 
     **Nota**: la linea rossa tratteggiata indica l'ora corrente.
 
-    Puoi anche modificare il ruleset della pianificazione facendo clic su una determinata parte della pianificazione.
+    Puoi anche modificare il tempo di esecuzione facendo clic su un determinato ruleset nella pianificazione.
 
-    ![edit schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/schedule_edit.jpg){class="glboxshadow"}
+    ![edit schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_14_schedule_edit.jpg){class="glboxshadow"}
 
-11. Fai clic su **Parental Control** in alto per tornare alla pagina Parental Control.
+7. Fai clic su **Parental Control** in alto per tornare alla pagina Parental Control.
 
-    ![back to parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/back_to_parental_control_page.png){class="glboxshadow"}
+    ![parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_15_parental_control.png){class="glboxshadow"}
 
-    Vedrai la configurazione finale. Puoi modificare i profili e i ruleset esistenti oppure aggiungerne di nuovi.
+    Vedrai la configurazione finale. Il parental control e' ora attivo in base alla pianificazione. Puoi modificare i profili e i ruleset esistenti oppure aggiungerne di nuovi secondo necessita'.
 
-    ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/final_configuration.png){class="glboxshadow"}
+    ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
 **Case 2**
 
@@ -220,7 +222,7 @@ La funzione Bark Parental Control e' disponibile dal firmware v4.5 ed e' support
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### Configurazione
+### Passaggi di configurazione
 
 Accedi al pannello di amministrazione web del router e vai su **APPLICATIONS** -> **Parental Control**.
 

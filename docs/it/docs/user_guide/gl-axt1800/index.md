@@ -2,7 +2,7 @@
 
 ## Panoramica del prodotto
 
-Slate AX (GL-AXT1800) e un router Wi-Fi 6 dual-band con velocita di connessione fino a 600 Mbps (2,4 GHz) + 1200 Mbps (5 GHz). La velocita di crittografia VPN arriva fino a 667 Mbps e il dispositivo puo essere usato per ospitare server VPN. Slate AX e ideale per trasmissioni dati intensive, collegamento simultaneo di molti dispositivi o gaming a latenza ultra ridotta.
+Slate AX (GL-AXT1800) e un router Wi-Fi 6 dual-band con velocita di connessione fino a 600 Mbps (2,4 GHz) + 1200 Mbps (5 GHz). Esegue OpenWrt 23.05. La velocita di crittografia VPN arriva fino a 667 Mbps e il dispositivo puo essere usato per ospitare server VPN. Slate AX e ideale per trasmissioni dati intensive, collegamento simultaneo di molti dispositivi o gaming a latenza ultra ridotta.
 
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
 

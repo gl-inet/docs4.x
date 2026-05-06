@@ -2,6 +2,11 @@
 
 Der Inhaltsfilter ist eine intelligente Online-Sicherheitsfunktion auf Basis der DPI-Klassifizierung. Er blockiert automatisch schädliche und bösartige Websites, hält Ihr Netzwerk sauber und sicher und unterstützt außerdem benutzerdefinierte Regeln zum Blockieren bestimmter Apps, Domains oder IP-Adressen.
 
+**Hinweis**:
+
+1. Der Inhaltsfilter wirkt nicht, wenn sich der Router im Drop-in Gateway-Modus befindet.
+2. Der Inhaltsfilter kann nicht zusammen mit der Netzwerkbeschleunigung verwendet werden. Beim Aktivieren des Inhaltsfilters wird die Netzwerkbeschleunigung automatisch deaktiviert, um eine stabile Leistung sicherzustellen.
+
 ## Unterstützte Modelle
 
 !!! note "Unterstützte Modelle"
@@ -33,9 +38,9 @@ Diese Seite besteht aus zwei Bereichen:
 
     ![edit app 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/edit_app3.png){class="glboxshadow" width="667"}
 
-    ![blocked app list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_app_list.jpg){class="glboxshadow"}
-
     Danach sehen Sie die ausgewählten Apps in der Blocked Apps List.
+
+    ![blocked app list](https://static.gl-inet.com/docs/router/en/4/interface_guide/content_filter/blocked_app_list.jpg){class="glboxshadow"}
 
 - **Blocked Domain / IP List**: In diesem Abschnitt können Sie bestimmte Domains (z. B. google.com), CIDR-Bereiche (z. B. 192.168.8.0/24) oder IP-Adressen (z. B. 192.168.10.10) manuell eingeben, um den Zugriff darauf zu blockieren. Die Liste unterstützt bis zu 10000 Einträge.
 

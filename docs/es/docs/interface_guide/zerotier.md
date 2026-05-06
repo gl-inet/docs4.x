@@ -10,6 +10,8 @@ La función ZeroTier en los routers GL.iNet, disponible desde el firmware v4.2, 
 
 2. Esta función se encuentra actualmente en fase beta y puede contener algunos errores.
 
+3. Algunos modelos, aunque ejecuten el firmware v4.2 o superior, no admiten ZeroTier por memoria insuficiente.
+
 ## Modelos compatibles
 
 ??? "Modelos compatibles" - GL-E5800 (Mudi 7) - GL-MT5000 (Brume 3) - GL-MT3600BE (Beryl 7) - GL-BE6500 (Flint 3e) - GL-BE9300 (Flint 3) - GL-BE3600 (Slate 7) - GL-B3000 (Marble) - GL-MT6000 (Flint2) - GL-X3000 (Spitz AX) - GL-XE3000 (Puli AX) - GL-AX1800 (Flint) - GL-MT2500/GL-MT2500A (Brume 2) - GL-MT3000 (Beryl AX) - GL-AXT1800 (Slate AX) - GL-A1300 (Slate Plus)

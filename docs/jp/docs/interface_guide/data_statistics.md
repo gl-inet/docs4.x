@@ -2,7 +2,10 @@
 
 データ統計は、アプリケーションやプロトコルごとのネットワーク利用状況を把握できる、直感的なトラフィックダッシュボードです。過去 1 時間、1 日、7 日の履歴トレンド表示、利用ランキング、デバイスごとのトラフィック監視、不要なアプリのワンクリックブロックに対応しています。
 
-**Note**: この機能は **Network Acceleration** と同時には使用できません。有効にすると、正常に動作させるため **Network Acceleration** は自動的に無効になります。
+**Note**:
+
+1. データ統計は、ルーターが Drop-in Gateway モードのときは動作しません。
+2. データ統計は **Network Acceleration** と併用できません。有効にすると、安定したパフォーマンスを確保するため **Network Acceleration** は自動的に無効になります。
 
 ## 対応モデル
 
@@ -54,7 +57,7 @@ Web Admin Panel の左側で、**FLOW CONTROL** -> **Data Statistics** に移動
 
 - **全体像を確認したい場合（例: Past Day または Past Week）**: グラフはより長いタイムラインにデータを集約して表示します。曲線はなめらかになり、細かな変化よりも全体的なトラフィック傾向を把握しやすくなります。
 
-    ![past day](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_day.png){class="glboxshadow"}
+    ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
 ## 統計をクリアする
 

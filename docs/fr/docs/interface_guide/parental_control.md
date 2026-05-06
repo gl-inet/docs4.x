@@ -2,9 +2,9 @@
 
 Le contrôle parental permet d'aider les enfants à naviguer en ligne en toute sécurité en bloquant les sites inappropriés et en limitant la durée d'utilisation des appareils. Il permet d'empêcher l'accès aux contenus nuisibles, de gérer le temps d'écran et de favoriser une utilisation responsable d'Internet.
 
-Cette fonctionnalité est disponible depuis le firmware v4.2.
+Cette fonctionnalité est disponible depuis le firmware v4.2. **Remarque** : certains modèles, bien qu'ils exécutent le firmware v4.2 ou une version ultérieure, ne prennent pas en charge le contrôle parental en raison d'une mémoire insuffisante.
 
-Regardez cette vidéo ou suivez les étapes ci-dessous pour en savoir plus sur le contrôle parental sur les routeurs GL.iNet.
+Regardez cette vidéo ou suivez les étapes ci-dessous pour configurer le contrôle parental sur les routeurs GL.iNet.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pOyDwQRc3io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -45,7 +45,7 @@ La version locale est fournie par GL.iNet. Elle est actuellement en bêta et n'e
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### Configuration
+### Étapes de configuration
 
 Connectez-vous au panneau d'administration web du routeur, puis accédez à **APPLICATIONS** -> **Parental Control**. 
 
@@ -63,7 +63,9 @@ Activez Parental Control puis cliquez sur **Apply**.
 
 Suivez ensuite l'assistant de configuration pour configurer le contrôle parental.
 
-Voici deux cas d'usage à titre de référence, que vous pouvez adapter à votre propre situation.
+---
+
+Voici deux cas d'usage à titre de référence. Vous pouvez adapter les paramètres selon vos besoins.
 
 **Cas 1**
 
@@ -71,75 +73,75 @@ Voici deux cas d'usage à titre de référence, que vous pouvez adapter à votre
 
 Suivez les étapes ci-dessous.
 
-1. Créez un profil et donnez-lui un nom.
+1. Créez un profil et personnalisez son nom.
 
-    ![create a profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_1.png){class="glboxshadow"}
+    ![create a profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_1_create_profile.png){class="glboxshadow"}
 
-2. Sélectionnez les appareils que vous souhaitez gérer. S'ils ne se sont pas encore connectés au routeur, ajoutez-les manuellement en saisissant leurs adresses MAC. 
+2. Sélectionnez les appareils que vous souhaitez gérer. Vous devez d'abord les connecter au routeur. S'ils ne se sont pas encore connectés au routeur, ajoutez-les manuellement en saisissant leurs adresses MAC.
 
-    ![select devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_2.png){class="glboxshadow"}
+    ![select devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_2_select_device.png){class="glboxshadow"}
 
-3. Définissez les limites d'accès. 
+3. Définissez les limites d'accès.
 
-    Deux ensembles de règles sont fournis par défaut : **Block Internet Access** et **No Limit**. Créez ici deux ensembles de règles supplémentaires pour une utilisation ultérieure : **Learning** et **Play**. 
+    Deux ensembles de règles sont fournis par défaut : **Block Internet Access** et **No Limit**.
 
-    Cliquez sur **Add a New Ruleset**.
+    ![default rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
 
-    ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_3.png){class="glboxshadow"}
+    Créez ensuite deux ensembles de règles supplémentaires pour une utilisation ultérieure : **Learning** et **Play**. Cliquez sur **Add a New Ruleset**.
 
-4. Spécifiez le nom de l'ensemble de règles (par exemple, Learning), sa couleur et la liste des sites à bloquer. Cliquez ensuite sur **Apply**.
+    ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
 
-    ![create a ruleset 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_ruleset_4.png){class="glboxshadow"}
+    Spécifiez le nom de l'ensemble de règles (par exemple, Learning), sa couleur, puis saisissez les sites que vous souhaitez bloquer avant de cliquer sur **Apply**.
+
+    ![create a ruleset 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_5_add_ruleset_learning.png){class="glboxshadow"}
 
     **Note** : les noms de domaine saisis dans la liste de blocage doivent inclure leurs sous-domaines. Par exemple, si vous saisissez "example.com", cela inclut également tous les sous-domaines, tels que "subdomain.example.com".
 
-    Créez de la même manière un autre ensemble de règles nommé Play. Spécifiez une couleur, les sites à bloquer, puis cliquez sur **Apply**.
+    Créez de la même manière un autre ensemble de règles. Spécifiez le nom de l'ensemble de règles (par exemple, Play), sa couleur, puis saisissez les sites que vous souhaitez bloquer avant de cliquer sur **Apply**.
 
-    ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_ruleset_5.png){class="glboxshadow"}
+    ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
 
-5. Une fois appliqués, vous disposerez de quatre ensembles de règles au total, comme indiqué ci-dessous. 
+    Une fois l'opération appliquée, vous disposerez de quatre ensembles de règles au total, comme indiqué ci-dessous. Veillez à sélectionner **Block Internet Access** comme **Default Ruleset**, puis cliquez sur **Finish**.
 
-    Veillez à sélectionner **Block Internet Access** comme **Default Ruleset**, puis cliquez sur **Finish**.
+    ![four rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
 
-    ![create a profile guide](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_create_profile_6.png){class="glboxshadow"}
+4. Définissez ensuite l'horaire de votre profil. Cliquez sur **Go to Set**.
 
-6. Accédez ensuite à Set Schedule. Cliquez sur **Go to Set**.
+    ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_8_set_schedule.png){class="glboxshadow"}
 
-    ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_schedule_7.png){class="glboxshadow"}
+    Ajoutez l'ensemble de règles **Learning** à l'horaire. Réglez **Execution Time** de 8 h à 11 h en semaine, puis cliquez sur **Apply**.
 
-7. Ajoutez l'ensemble de règles **Learning** à l'horaire. Réglez **Execution Time** de 8 h à 11 h les jours de semaine. Cliquez sur **Apply**.
+    ![add schedule learning](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_9_schedule_learning.png){class="glboxshadow"}
 
-    ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_schedule_8.png){class="glboxshadow"}
+5. Vous serez ensuite redirigé vers la page de modification du profil nouvellement créé.
 
-8. Vous serez redirigé vers la page de modification du profil nouvellement créé.
+    ![profile created](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_10_profile_created.png){class="glboxshadow"}
 
-    ![modify profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/modify_profile.png){class="glboxshadow"}
+    Descendez en bas de la page ; vous verrez qu'un horaire a été créé. Cliquez sur l'icône d'engrenage en haut à droite, puis sélectionnez **Add Schedule**.
 
-    Vous verrez qu'un horaire a été créé. Cliquez sur **Add Schedule** en haut à droite.
+    ![profile add schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_11_add_schedule.png){class="glboxshadow"}
 
-    ![add schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/add_schedule.png){class="glboxshadow"}
+6. Ajoutez un autre ensemble de règles, **Play**, à l'horaire. Réglez **Execution Time** de 18 h à 20 h le week-end, puis cliquez sur **Apply**.
 
-9. Ajoutez un autre ensemble de règles, **Play**, à l'horaire. Réglez **Execution Time** de 18 h à 20 h le week-end. Cliquez sur **Apply**.
+    ![add schedule play](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_12_schedule_play.png){class="glboxshadow"}
 
-    ![add schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/create_schedule_2.png){class="glboxshadow"}
+    L'ensemble de règles **Play** sera alors ajouté à l'horaire.
 
-10. Vous verrez alors que l'ensemble de règles Play a également été ajouté à l'horaire.
-
-    ![schedules](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/schedules_2.png){class="glboxshadow"}
+    ![schedules](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_13_schedules.png){class="glboxshadow"}
 
     **Note** : la ligne rouge en pointillés indique l'heure actuelle.
 
-    Vous pouvez également modifier l'ensemble de règles de l'horaire en cliquant sur une section précise de l'horaire.
+    Vous pouvez également modifier la période d'exécution en cliquant sur un ensemble de règles dans l'horaire.
 
-    ![edit schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/schedule_edit.jpg){class="glboxshadow"}
+    ![edit schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_14_schedule_edit.jpg){class="glboxshadow"}
 
-11. Cliquez sur **Parental Control** en haut pour revenir à la page Parental Control.
+7. Cliquez sur **Parental Control** en haut pour revenir à la page Parental Control.
 
-    ![back to parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/back_to_parental_control_page.png){class="glboxshadow"}
+    ![parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_15_parental_control.png){class="glboxshadow"}
 
-    Vous verrez la configuration finale. Vous pouvez modifier les profils et ensembles de règles existants, ou en ajouter de nouveaux.
+    Vous verrez la configuration finale. Le contrôle parental est désormais appliqué selon l'horaire défini. Vous pouvez modifier les profils et ensembles de règles existants, ou en ajouter de nouveaux si nécessaire.
 
-    ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/final_configuration.png){class="glboxshadow"}
+    ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
 **Cas 2**
 
@@ -222,7 +224,7 @@ La fonction Bark Parental Control est disponible depuis le firmware v4.5 et n'es
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 
-### Configuration
+### Étapes de configuration
 
 Connectez-vous au panneau d'administration web du routeur, puis accédez à **APPLICATIONS** -> **Parental Control**. 
 

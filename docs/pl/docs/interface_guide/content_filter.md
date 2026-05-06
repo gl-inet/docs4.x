@@ -2,6 +2,11 @@
 
 Filtr treści to inteligentna funkcja bezpieczeństwa online oparta na klasyfikacji DPI. Automatycznie blokuje szkodliwe i złośliwe strony internetowe, pomagając utrzymać sieć w czystości i bezpieczeństwie, a także obsługuje własne reguły blokowania określonych aplikacji, domen lub adresów IP.
 
+**Uwaga**:
+
+1. Filtr treści nie działa, gdy router pracuje w trybie Drop-in Gateway.
+2. Filtr treści nie współpracuje z funkcją Network Acceleration. Włączenie filtra treści automatycznie wyłączy Network Acceleration, aby zapewnić stabilną wydajność.
+
 ## Obsługiwane modele
 
 !!! note "Obsługiwane modele"

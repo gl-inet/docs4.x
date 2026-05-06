@@ -2,7 +2,7 @@
 
 ## Descripción general del producto
 
-Slate AX (GL-AXT1800) es el primer router de viaje Wi-Fi 6 diseñado por GL.iNet. Incorpora un procesador de cuatro núcleos IPQ6000 a 1,2 GHz y funciona con OpenWrt 21.02. Gracias a la última tecnología Wi-Fi 6, puede disfrutar de mayor capacidad para dispositivos conectados y una velocidad inalámbrica más rápida tanto en viajes como en casa.
+Slate AX (GL-AXT1800) es el primer router de viaje Wi-Fi 6 diseñado por GL.iNet. Incorpora un procesador de cuatro núcleos IPQ6000 a 1,2 GHz y funciona con OpenWrt 23.05. Gracias a la última tecnología Wi-Fi 6, puede disfrutar de mayor capacidad para dispositivos conectados y una velocidad inalámbrica más rápida tanto en viajes como en casa.
 
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
 

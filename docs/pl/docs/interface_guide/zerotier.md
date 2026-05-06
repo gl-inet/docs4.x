@@ -10,6 +10,8 @@ Funkcja ZeroTier na routerach GL.iNet, dostępna od firmware v4.2, pozwala route
 
 2. Ta funkcja jest obecnie w fazie beta i może zawierać błędy.
 
+3. Niektóre modele, mimo że działają na oprogramowaniu v4.2 lub nowszym, nie obsługują ZeroTier z powodu niewystarczającej ilości pamięci.
+
 ## Obsługiwane modele
 
 ??? "Obsługiwane modele"

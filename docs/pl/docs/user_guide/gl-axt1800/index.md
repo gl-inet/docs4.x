@@ -2,7 +2,7 @@
 
 ## Przegląd produktu
 
-Slate AX (GL-AXT1800) to pierwszy przenośny router Wi-Fi 6 zaprojektowany przez GL.iNet. Jest wyposażony w czterordzeniowy procesor IPQ6000 1.2GHz i działa na OpenWrt 21.02. Dzięki najnowszej technologii Wi-Fi 6 możesz korzystać z większej przepustowości dla podłączonych urządzeń oraz szybszej łączności bezprzewodowej zarówno w podróży, jak i w domu.
+Slate AX (GL-AXT1800) to pierwszy przenośny router Wi-Fi 6 zaprojektowany przez GL.iNet. Jest wyposażony w czterordzeniowy procesor IPQ6000 1.2GHz i działa na OpenWrt 23.05. Dzięki najnowszej technologii Wi-Fi 6 możesz korzystać z większej przepustowości dla podłączonych urządzeń oraz szybszej łączności bezprzewodowej zarówno w podróży, jak i w domu.
 
 ![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
 

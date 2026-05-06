@@ -48,7 +48,6 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](../faq/openvpn_tcp_udp.md)
 * [VPN Kill Switch](../faq/block_non_vpn_traffic.md)
 * [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
-* [Tor](tor.md) - to protect the personal privacy.
 
 ## Applications
 
@@ -57,8 +56,9 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [AdGuard Home](adguardhome.md)
 * [Network Storage](network_storage.md)
 * [Parental Control](parental_control.md)
-* [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
+* [Tor](tor.md) - to protect the personal privacy.
 * [eSIM Management](esim_management.md)
 
 ## Network
@@ -84,6 +84,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [DPI Engine](dpi_engine.md)
 * [Data Statistics](data_statistics.md)
 * [Content Filter](content_filter.md)
+* [Parental Control](parental_control.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
 

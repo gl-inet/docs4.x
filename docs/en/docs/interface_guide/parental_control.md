@@ -49,7 +49,7 @@ The local version is provided by GL.iNet. It is currently in beta and has no add
 
 Log in to the router's web Admin Panel and go to **APPLICATIONS** -> **Parental Control**. 
 
-For firmware ver.4.8.4 and later, navigate to **Flow Control** -> **Parental Control**.
+For firmware ver.4.8.4 and later, navigate to **FLOW CONTROL** -> **Parental Control**.
 
 Ensure the router time is accurate. If not, go to **SYSTEM** -> **Time Zone** to synchronize it first.
 
@@ -59,25 +59,24 @@ Enable Parental Control and click **Apply**.
 
 ![parental control, enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
 
-- **Block WAN for Unmanaged Devices**: It is used to block unmanaged devices from accessing the Internet.
+- **Block WAN for Unmanaged Devices**: Blocks internet access for all devices that are not on the Parental Control list.
 
 Then follow the setup wizard to set up Parental Control.
 
 ---
 
-Here are two use cases for your reference. You can adjust the settings according to your need.
+Here is a use case for your reference. You can adjust the settings according to your need.
 
-**Case 1**
 
-**Scenario**: Devices in the profile can only access the Internet for study from 8 AM to 11 AM on weekdays, and for gaming from 6 PM to 8 PM on weekends. All other times, internet access is blocked by default.
+**Scenario**: Devices in the profile are only allowed to access the Internet for study from 8 AM to 11 AM on weekdays, and for gaming from 6 PM to 8 PM on weekends. Internet access is blocked by default at all other times.
 
-Follow the steps below.
+Follow the steps below to set up Parental Control.
 
 1. Create a profile and customize a name.
 
     ![create a profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_1_create_profile.png){class="glboxshadow"}
 
-2. Select the devices you want to manage. You should connect them to the router first. If they have not been connected to the router, add them manually by entering their MAC addresses. 
+2. Select the devices you want to manage. Connect them to the router first. If they have not been connected to the router, add them manually by entering their MAC addresses. 
 
     ![select devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_2_select_device.png){class="glboxshadow"}
 
@@ -87,21 +86,21 @@ Follow the steps below.
 
     ![default rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
     
-    Create two more rulesets for later use: **Learning** and **Play**. Click **Add a New Ruleset**.
+    Click **Add a New Ruleset** to create two more rulesets for later use: **Learning** and **Play**. 
 
     ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
     
-    Specify the ruleset name (e.g., Learning), color, and enter the sites you want to block, then click **Apply**.
+    Specify the ruleset name (e.g., Learning) and color, enter the websites to block, then click **Apply**.
 
     ![create a ruleset 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_5_add_ruleset_learning.png){class="glboxshadow"}
 
     **Note**: The domain names entered in the blocklist should include their subdomains. For example, if "example.com" is entered, it also includes any subdomain, such as "subdomain.example.com".
 
-    Similarly, create another ruleset. Specify the ruleset name (e.g., Play), color, and enter the sites you want to block, then click **Apply**.
+    Similarly, create another ruleset. Specify the ruleset name (e.g., Play) and color, enter the websites to block, then click **Apply**.
 
     ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
     
-    Upon applied, there will be a total of four rulesets, as shown below. Ensure to select **Block Internet Access** as **Default Ruleset**, and click **Finish**.
+    Upon applied, there will be a total of four rulesets. Select **Block Internet Access** as the **Default Ruleset**, and click **Finish**.
 
     ![four rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
 
@@ -139,39 +138,31 @@ Follow the steps below.
 
     ![parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_15_parental_control.png){class="glboxshadow"}
 
-    You will see the final configuration. The parental control has now taken effect according to the schedule. You can modify the existing profiles and rulesets, or add new ones as required.
+    You will see the final configuration. Parental Control is now taking effect as per the schedule. You can modify existing profiles and rulesets, or add new ones as required.
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-**Case 2**
-
-**Scenario**: Devices in the profile can only access the Internet for playing games and short videos from 6 PM to 8 PM on weekend evenings. All other times, including the bedtime from 9 PM to 7 AM the next morning, internet access is blocked by default.
-
-See the video tutorial below.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-EOWZ3WkeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Troubleshooting
 
-If your configured settings do not take effect, check the following possible reasons.
+If your configured settings fail to take effect, check the following possible causes.
 
-1. DNS cache.
+1. DNS cache issue.
   
-    Browsers and operating systems maintain DNS caches, so changes may take time to take effect. You can clear the cache to apply changes immediately.
+    Browsers and operating systems maintain DNS caches, which may delay the application of configuration changes. Clear the DNS cache to apply changes immediately.
   
-      * [Clear the cache in desktop Chrome](https://support.google.com/accounts/answer/32050){target="_blank"}
+      * [Clear DNS cache on desktop Chrome](https://support.google.com/accounts/answer/32050){target="_blank"}
       
-      * [Clear the cache in desktop Edge](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
+      * [Clear DNS cache on desktop Edge](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
-2. The profile schedule has not started.
+2. The profile schedule has not yet started.
 
-3. The domain name you entered may be incorrect.
+3. The entered domain name may be incorrect.
 
-    A website's domain is public, but the API domain used by an app is often not. To resolve this, use a tool such as Wireshark to capture packets or search for the relevant domain.
+    While a website's public domain is easy to find, the API domains used by apps are often not publicly available. To locate the correct domain, use a packet capture tool such as Wireshark or look up the relevant domain information.
+    
+    For example, when blocking `www.google.com`, entering `google.com` delivers better results than `www.google.com`.
 
-    For example, to block "www.google.com", using "google.com" is more effective than "www.google.com".
-
-4. The target device uses a random MAC address for each connection, which prevents rules from taking effect.
+4. The target device uses a randomized MAC address for each network connection, which prevents access rules from taking effect. Disable random MAC address on the target device, then re-add the device to your profile.
 
 ## Bark Version
 

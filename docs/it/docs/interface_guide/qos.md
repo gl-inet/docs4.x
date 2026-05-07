@@ -4,7 +4,7 @@ QoS, Quality of Service, ottimizza l'allocazione della larghezza di banda dando 
 
 **Nota**:
 
-1. Questa funzione influisce sul traffico che passa attraverso il router come gateway, incluso il traffico dei client locali e il traffico del client VPN, ma non sul traffico in ingresso quando il router agisce come VPN Server.
+1. Questa funzione influisce solo sul traffico che attraversa il router quando opera come gateway, incluso il traffico dei client locali e quello del client VPN. Non si applica al traffico in ingresso quando il router agisce come server VPN.
 2. QoS non ha effetto quando il router è in modalità Drop-in Gateway.
 3. QoS e SQM non possono essere abilitati contemporaneamente.
 4. QoS non può funzionare con Network Acceleration. L'abilitazione di QoS disattiva automaticamente Network Acceleration per garantire prestazioni stabili.
@@ -15,6 +15,12 @@ QoS, Quality of Service, ottimizza l'allocazione della larghezza di banda dando 
 
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Nota: i modelli contrassegnati con ※ supportano QoS a partire dal firmware v4.9.
 
 ## Configurazione rapida
 

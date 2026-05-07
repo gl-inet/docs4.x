@@ -13,6 +13,12 @@ Content Filter è una funzione intelligente di sicurezza online basata sulla cla
 
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Nota: i modelli contrassegnati con ※ supportano Content Filter a partire dal firmware v4.9.
 
 ## Configurazione rapida
 

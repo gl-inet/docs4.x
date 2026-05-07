@@ -48,7 +48,6 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 - [Para OpenVPN, ¿qué protocolo debo elegir, TCP o UDP?](../faq/openvpn_tcp_udp.md)
 - [VPN Kill Switch](../faq/block_non_vpn_traffic.md)
 - [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
-- [Tor](tor.md) - para proteger la privacidad personal.
 
 ## Aplicaciones
 
@@ -59,6 +58,7 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 - [Parental Control](parental_control.md)
 - [ZeroTier](zerotier.md)
 - [Tailscale](tailscale.md)
+- [Tor](tor.md) - para proteger la privacidad personal.
 - [eSIM Management](esim_management.md)
 
 ## Network
@@ -84,6 +84,7 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 - [DPI Engine](dpi_engine.md)
 - [Data Statistics](data_statistics.md)
 - [Content Filter](content_filter.md)
+- [Parental Control](parental_control.md)
 - [QoS (Quality of Service)](qos.md)
 - [SQM (Smart Queue Management)](sqm.md)
 

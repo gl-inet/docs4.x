@@ -20,11 +20,9 @@ Ta operacja uruchomi ponownie interfejs sieciowy i przywróci domyślne ustawien
 
 ## Przywracanie ustawień fabrycznych {#reset-to-factory}
 
-Obejrzyj ten film lub wykonaj poniższe kroki.
+**W modelach bez ekranu dotykowego** reset firmware można wykonać na dwa sposoby: za pomocą przycisku resetowania lub z poziomu panelu administracyjnego WWW. Obejrzyj ten film lub wykonaj poniższe kroki.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Są dwa sposoby na zresetowanie firmware.
 
 1. Korzystając z fizycznego mechanizmu resetowania (przycisku lub otworu na szpilkę).
 
@@ -39,6 +37,14 @@ Są dwa sposoby na zresetowanie firmware.
     **Uwaga:** Wszystkie bieżące ustawienia i dane zostaną utracone. Proces potrwa około 2 minut. NIE wyłączaj routera w trakcie tego procesu.
 
     ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+
+**W modelach z ekranem dotykowym** reset firmware można wykonać na trzy sposoby: za pomocą ekranu dotykowego, przycisku resetowania lub panelu administracyjnego WWW.
+
+Poniższy film pokazuje te metody na przykładzie Mudi 7 (GL-E5800). Te same kroki dotyczą wszystkich modeli z ekranem dotykowym.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<small></small>
 
 ---
 

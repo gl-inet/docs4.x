@@ -49,7 +49,7 @@ Die lokale Version wird von GL.iNet bereitgestellt. Sie befindet sich derzeit in
 
 Melden Sie sich am webbasierten Admin Panel des Routers an und gehen Sie zu **APPLICATIONS** -> **Parental Control**.
 
-Bei Firmware v4.8.4 und neuer navigieren Sie zu **Flow Control** -> **Parental Control**.
+Bei Firmware v4.8.4 und neuer navigieren Sie zu **FLOW CONTROL** -> **Parental Control**.
 
 Stellen Sie sicher, dass die Routerzeit korrekt ist. Falls nicht, gehen Sie zunächst zu **SYSTEM** -> **Time Zone**, um sie zu synchronisieren.
 
@@ -59,19 +59,17 @@ Aktivieren Sie Parental Control und klicken Sie auf **Apply**.
 
 ![parental control, enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
 
-- **Block WAN for Unmanaged Devices**: Diese Option wird verwendet, um nicht verwalteten Geräten den Internetzugang zu sperren.
+- **Block WAN for Unmanaged Devices**: Blockiert den Internetzugang für alle Geräte, die nicht in der Parental-Control-Liste enthalten sind.
 
 Folgen Sie anschließend dem Einrichtungsassistenten, um Parental Control einzurichten.
 
 ---
 
-Hier sind zwei Anwendungsfälle als Referenz. Sie können die Einstellungen an Ihre Anforderungen anpassen.
-
-**Fall 1**
+Hier ist ein Anwendungsfall als Referenz. Sie können die Einstellungen an Ihre Anforderungen anpassen.
 
 **Szenario**: Geräte in diesem Profil dürfen werktags nur von 8:00 bis 11:00 Uhr für Lernzwecke und am Wochenende von 18:00 bis 20:00 Uhr für Spiele auf das Internet zugreifen. Zu allen anderen Zeiten ist der Internetzugang standardmäßig blockiert.
 
-Gehen Sie wie folgt vor.
+Gehen Sie wie folgt vor, um Parental Control einzurichten.
 
 1. Erstellen Sie ein Profil und passen Sie den Namen an.
 
@@ -87,7 +85,7 @@ Gehen Sie wie folgt vor.
 
     ![default rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
 
-    Erstellen Sie zwei weitere Regelsätze für die spätere Verwendung: **Learning** und **Play**. Klicken Sie auf **Add a New Ruleset**.
+    Klicken Sie auf **Add a New Ruleset**, um zwei weitere Regelsätze für die spätere Verwendung zu erstellen: **Learning** und **Play**.
 
     ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
 
@@ -101,7 +99,7 @@ Gehen Sie wie folgt vor.
 
     ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
 
-    Nach dem Anwenden gibt es insgesamt vier Regelsätze, wie unten dargestellt. Stellen Sie sicher, dass **Block Internet Access** als **Default Ruleset** ausgewählt ist, und klicken Sie auf **Finish**.
+    Nach dem Anwenden gibt es insgesamt vier Regelsätze. Wählen Sie **Block Internet Access** als **Default Ruleset** aus und klicken Sie dann auf **Finish**.
 
     ![four rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
 
@@ -143,35 +141,27 @@ Gehen Sie wie folgt vor.
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-**Fall 2**
-
-**Szenario**: Geräte in diesem Profil dürfen am Wochenende abends nur von 18:00 bis 20:00 Uhr für Spiele und kurze Videos auf das Internet zugreifen. Zu allen anderen Zeiten, einschließlich der Schlafenszeit von 21:00 bis 7:00 Uhr am nächsten Morgen, ist der Internetzugang standardmäßig blockiert.
-
-Sehen Sie sich das folgende Video-Tutorial an.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-EOWZ3WkeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Fehlerbehebung
 
 Wenn Ihre konfigurierten Einstellungen nicht wirksam werden, prüfen Sie bitte die folgenden möglichen Ursachen.
 
-1. DNS-Cache.
+1. DNS-Cache-Problem.
   
-    Browser und Betriebssysteme verwenden DNS-Caches, daher können Änderungen etwas Zeit benötigen, bis sie wirksam werden. Sie können den Cache leeren, damit Änderungen sofort greifen.
+    Browser und Betriebssysteme verwenden DNS-Caches, daher kann es etwas dauern, bis Konfigurationsänderungen wirksam werden. Leeren Sie den DNS-Cache, damit Änderungen sofort greifen.
   
-      * [Clear the cache in desktop Chrome](https://support.google.com/accounts/answer/32050){target="_blank"}
+      * [DNS-Cache in Chrome auf dem Desktop löschen](https://support.google.com/accounts/answer/32050){target="_blank"}
       
-      * [Clear the cache in desktop Edge](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
+      * [DNS-Cache in Edge auf dem Desktop löschen](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
-2. Der Profil-Zeitplan wurde noch nicht gestartet.
+2. Der Profil-Zeitplan hat noch nicht begonnen.
 
-3. Der von Ihnen eingegebene Domainname ist möglicherweise falsch.
+3. Der eingegebene Domainname ist möglicherweise falsch.
 
-    Die Domain einer Website ist öffentlich, die von einer App verwendete API-Domain jedoch oft nicht. Um das zu lösen, verwenden Sie ein Werkzeug wie Wireshark, um Pakete mitzuschneiden, oder recherchieren Sie nach der betreffenden Domain.
+    Die öffentliche Domain einer Website lässt sich leicht finden, die von Apps verwendeten API-Domains sind jedoch oft nicht öffentlich dokumentiert. Verwenden Sie ein Paketmitschnitt-Tool wie Wireshark oder recherchieren Sie gezielt nach den relevanten Domain-Informationen.
 
     Um zum Beispiel `www.google.com` zu blockieren, ist `google.com` in der Regel wirksamer als `www.google.com`.
 
-4. Das Zielgerät verwendet für jede Verbindung eine zufällige MAC-Adresse, wodurch die Regeln nicht wirksam werden.
+4. Das Zielgerät verwendet für jede Netzwerkverbindung eine zufällige MAC-Adresse, wodurch Zugriffsregeln nicht wirksam werden. Deaktivieren Sie die zufällige MAC-Adresse auf dem Zielgerät und fügen Sie das Gerät anschließend erneut Ihrem Profil hinzu.
 
 ## Bark-Version
 

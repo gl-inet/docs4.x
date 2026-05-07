@@ -49,7 +49,7 @@ La versione locale e' fornita da GL.iNet. Al momento e' in beta e non ha costi a
 
 Accedi al pannello di amministrazione web del router e vai su **APPLICATIONS** -> **Parental Control**.
 
-Per il firmware ver.4.8.4 e successivi, vai su **Flow Control** -> **Parental Control**.
+Per il firmware ver.4.8.4 e successivi, vai su **FLOW CONTROL** -> **Parental Control**.
 
 Assicurati che l'orario del router sia corretto. In caso contrario, vai su **SYSTEM** -> **Time Zone** per sincronizzarlo prima.
 
@@ -59,19 +59,17 @@ Abilita Parental Control e fai clic su **Apply**.
 
 ![parental control, enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
 
-- **Block WAN for Unmanaged Devices**: viene usato per bloccare l'accesso a Internet dei dispositivi non gestiti.
+- **Block WAN for Unmanaged Devices**: blocca l'accesso a Internet per tutti i dispositivi che non sono presenti nell'elenco di Parental Control.
 
 Poi segui la procedura guidata per impostare Parental Control.
 
 ---
 
-Di seguito trovi due casi d'uso di riferimento. Puoi adattare le impostazioni alle tue esigenze.
-
-**Case 1**
+Di seguito trovi un caso d'uso di riferimento. Puoi adattare le impostazioni alle tue esigenze.
 
 **Scenario**: i dispositivi del profilo possono accedere a Internet solo per studio dalle 8:00 alle 11:00 nei giorni feriali e per il gaming dalle 18:00 alle 20:00 nei fine settimana. In tutti gli altri orari, l'accesso a Internet e' bloccato per impostazione predefinita.
 
-Segui i passaggi qui sotto.
+Segui i passaggi qui sotto per configurare Parental Control.
 
 1. Crea un profilo e assegnagli un nome personalizzato.
 
@@ -87,7 +85,7 @@ Segui i passaggi qui sotto.
 
     ![default rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
 
-    Crea altri due ruleset da usare in seguito: **Learning** e **Play**. Fai clic su **Add a New Ruleset**.
+    Fai clic su **Add a New Ruleset** per creare altri due ruleset da usare in seguito: **Learning** e **Play**.
 
     ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
 
@@ -101,7 +99,7 @@ Segui i passaggi qui sotto.
 
     ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
 
-    Dopo l'applicazione, ci saranno in totale quattro ruleset, come mostrato di seguito. Assicurati di selezionare **Block Internet Access** come **Default Ruleset**, quindi fai clic su **Finish**.
+    Dopo l'applicazione, ci saranno in totale quattro ruleset. Assicurati di selezionare **Block Internet Access** come **Default Ruleset**, quindi fai clic su **Finish**.
 
     ![four rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
 
@@ -143,35 +141,27 @@ Segui i passaggi qui sotto.
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-**Case 2**
-
-**Scenario**: i dispositivi del profilo possono accedere a Internet solo per giochi e video brevi dalle 18:00 alle 20:00 nelle serate del fine settimana. In tutti gli altri orari, compreso il tempo per dormire dalle 21:00 alle 7:00 del mattino successivo, l'accesso a Internet e' bloccato per impostazione predefinita.
-
-Guarda il video tutorial qui sotto.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-EOWZ3WkeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Risoluzione dei problemi
 
 Se le impostazioni configurate non hanno effetto, verifica le seguenti possibili cause.
 
-1. Cache DNS.
+1. Problema di cache DNS.
 
-    Browser e sistemi operativi mantengono una cache DNS, quindi le modifiche potrebbero richiedere del tempo per avere effetto. Puoi svuotare la cache per applicare subito le modifiche.
+    Browser e sistemi operativi mantengono una cache DNS, quindi le modifiche di configurazione potrebbero richiedere del tempo per avere effetto. Svuota la cache DNS per applicare subito le modifiche.
 
-      * [Svuotare la cache in Chrome desktop](https://support.google.com/accounts/answer/32050){target="_blank"}
+      * [Svuotare la cache DNS in Chrome desktop](https://support.google.com/accounts/answer/32050){target="_blank"}
 
-      * [Svuotare la cache in Edge desktop](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
+      * [Svuotare la cache DNS in Edge desktop](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. La pianificazione del profilo non e' ancora iniziata.
 
 3. Il nome di dominio inserito potrebbe essere errato.
 
-    Il dominio di un sito web e' pubblico, ma il dominio API usato da un'app spesso non lo e'. Per risolvere, usa uno strumento come Wireshark per catturare i pacchetti oppure cerca il dominio pertinente.
+    Il dominio pubblico di un sito web e' facile da trovare, ma i domini API usati dalle app spesso non sono pubblici. Per individuare il dominio corretto, usa uno strumento di cattura pacchetti come Wireshark oppure cerca le informazioni di dominio pertinenti.
 
     Ad esempio, per bloccare `www.google.com`, usare `google.com` e' piu' efficace che usare `www.google.com`.
 
-4. Il dispositivo di destinazione usa un indirizzo MAC casuale per ogni connessione, impedendo alle regole di avere effetto.
+4. Il dispositivo di destinazione usa un indirizzo MAC casuale per ogni connessione di rete, impedendo l'applicazione delle regole di accesso. Disattiva l'indirizzo MAC casuale sul dispositivo di destinazione, quindi aggiungi di nuovo il dispositivo al tuo profilo.
 
 ## Versione Bark
 

@@ -48,7 +48,6 @@ hide:
 * [OpenVPN では TCP と UDP のどちらを選ぶべきですか？](../faq/openvpn_tcp_udp.md)
 * [VPNキルスイッチ](../faq/block_non_vpn_traffic.md)
 * [VPNカスケード](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
-* [Tor](tor.md) - 個人のプライバシーを保護します。
 
 ## アプリケーション
 
@@ -59,6 +58,7 @@ hide:
 * [ペアレンタルコントロール](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [Tor](tor.md) - 個人のプライバシーを保護します。
 * [eSIM管理](esim_management.md)
 
 ## ネットワーク
@@ -84,6 +84,7 @@ hide:
 * [DPI Engine](dpi_engine.md)
 * [データ統計](data_statistics.md)
 * [コンテンツフィルター](content_filter.md)
+* [ペアレンタルコントロール](parental_control.md)
 * [QoS（Quality of Service）](qos.md)
 * [SQM（Smart Queue Management）](sqm.md)
 

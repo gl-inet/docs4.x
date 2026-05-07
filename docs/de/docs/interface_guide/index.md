@@ -48,7 +48,6 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Welches Protokoll sollte ich für OpenVPN wählen, TCP oder UDP?](../faq/openvpn_tcp_udp.md)
 * [VPN Kill Switch](../faq/block_non_vpn_traffic.md)
 * [VPN-Kaskadierung](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
-* [Tor](tor.md) - zum Schutz der Privatsphäre.
 
 ## Anwendungen
 
@@ -59,6 +58,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Kindersicherung](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [Tor](tor.md) - zum Schutz der Privatsphäre.
 * [eSIM-Verwaltung](esim_management.md)
 
 ## Netzwerk
@@ -84,6 +84,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [DPI Engine](dpi_engine.md)
 * [Datenstatistiken](data_statistics.md)
 * [Inhaltsfilter](content_filter.md)
+* [Kindersicherung](parental_control.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
 

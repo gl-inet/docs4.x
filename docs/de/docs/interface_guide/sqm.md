@@ -4,7 +4,7 @@ SQM (Smart Queue Management) verwaltet den Netzwerkverkehr Ihres Routers intelli
 
 **Hinweis**:
 
-1. Diese Funktion beeinflusst den Datenverkehr, der den Router als Gateway durchläuft (einschließlich lokalem Client-Datenverkehr und VPN-Client-Datenverkehr), jedoch nicht den eingehenden Datenverkehr, wenn der Router als VPN-Server arbeitet.
+1. Diese Funktion wirkt sich nur auf Datenverkehr aus, der den Router passiert, wenn er als Gateway arbeitet, einschließlich lokalem Client-Datenverkehr und VPN-Client-Datenverkehr. Auf eingehenden Datenverkehr wirkt sie nicht, wenn der Router als VPN-Server arbeitet.
 
 2. Da SQM ressourcenintensiv ist, eignet es sich am besten für Netzwerke mit geringer Bandbreite oder starker Auslastung. Auf Hochgeschwindigkeitsverbindungen kann die Aktivierung den maximalen Durchsatz verringern.
 
@@ -20,6 +20,12 @@ SQM (Smart Queue Management) verwaltet den Netzwerkverkehr Ihres Routers intelli
 
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Hinweis: Mit ※ gekennzeichnete Modelle unterstützen SQM ab Firmware v4.9.
 
 ## Schnelleinrichtung
 

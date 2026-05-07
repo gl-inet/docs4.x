@@ -295,7 +295,6 @@ nav:
           - OpenVPN サーバー: interface_guide/openvpn_server.md
           - WireGuard クライアント: interface_guide/wireguard_client.md
           - WireGuard サーバー: interface_guide/wireguard_server.md
-          - Tor: interface_guide/tor.md
       - アプリケーション:
           - プラグイン: interface_guide/plugins.md
           - ダイナミック DNS: interface_guide/ddns.md
@@ -304,6 +303,7 @@ nav:
           - ペアレンタルコントロール: interface_guide/parental_control.md
           - ZeroTier: interface_guide/zerotier.md
           - Tailscale: interface_guide/tailscale.md
+          - Tor: interface_guide/tor.md
           - eSIM 管理: interface_guide/esim_management.md
       - ネットワーク:
           - ファイアウォール: interface_guide/firewall.md
@@ -325,6 +325,7 @@ nav:
           - DPI ライセンス: interface_guide/dpi_engine.md
           - データ統計: interface_guide/data_statistics.md
           - コンテンツフィルター: interface_guide/content_filter.md
+          - ペアレンタルコントロール: interface_guide/parental_control.md
           - QoS: interface_guide/qos.md
           - SQM: interface_guide/sqm.md
       - システム:

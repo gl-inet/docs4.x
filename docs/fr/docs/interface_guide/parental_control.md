@@ -49,7 +49,7 @@ La version locale est fournie par GL.iNet. Elle est actuellement en bêta et n'e
 
 Connectez-vous au panneau d'administration web du routeur, puis accédez à **APPLICATIONS** -> **Parental Control**. 
 
-Pour le firmware ver.4.8.4 et les versions ultérieures, accédez à **Flow Control** -> **Parental Control**.
+Pour le firmware ver.4.8.4 et les versions ultérieures, accédez à **FLOW CONTROL** -> **Parental Control**.
 
 Assurez-vous que l'heure du routeur est correcte. Si ce n'est pas le cas, allez dans **SYSTEM** -> **Time Zone** pour la synchroniser d'abord.
 
@@ -59,19 +59,17 @@ Activez Parental Control puis cliquez sur **Apply**.
 
 ![parental control, enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
 
-- **Block WAN for Unmanaged Devices** : cette option sert à empêcher les appareils non gérés d'accéder à Internet.
+- **Block WAN for Unmanaged Devices** : bloque l’accès à Internet pour tous les appareils qui ne figurent pas dans la liste de Parental Control.
 
 Suivez ensuite l'assistant de configuration pour configurer le contrôle parental.
 
 ---
 
-Voici deux cas d'usage à titre de référence. Vous pouvez adapter les paramètres selon vos besoins.
-
-**Cas 1**
+Voici un cas d'usage à titre de référence. Vous pouvez adapter les paramètres selon vos besoins.
 
 **Scénario** : les appareils du profil peuvent accéder à Internet uniquement pour étudier de 8 h à 11 h les jours de semaine, et pour jouer de 18 h à 20 h le week-end. À tous les autres moments, l'accès à Internet est bloqué par défaut.
 
-Suivez les étapes ci-dessous.
+Suivez les étapes ci-dessous pour configurer Parental Control.
 
 1. Créez un profil et personnalisez son nom.
 
@@ -87,7 +85,7 @@ Suivez les étapes ci-dessous.
 
     ![default rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
 
-    Créez ensuite deux ensembles de règles supplémentaires pour une utilisation ultérieure : **Learning** et **Play**. Cliquez sur **Add a New Ruleset**.
+    Cliquez sur **Add a New Ruleset** pour créer ensuite deux ensembles de règles supplémentaires pour une utilisation ultérieure : **Learning** et **Play**.
 
     ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
 
@@ -101,7 +99,7 @@ Suivez les étapes ci-dessous.
 
     ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
 
-    Une fois l'opération appliquée, vous disposerez de quatre ensembles de règles au total, comme indiqué ci-dessous. Veillez à sélectionner **Block Internet Access** comme **Default Ruleset**, puis cliquez sur **Finish**.
+    Une fois l'opération appliquée, vous disposerez de quatre ensembles de règles au total. Veillez à sélectionner **Block Internet Access** comme **Default Ruleset**, puis cliquez sur **Finish**.
 
     ![four rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
 
@@ -143,35 +141,27 @@ Suivez les étapes ci-dessous.
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-**Cas 2**
-
-**Scénario** : les appareils du profil peuvent accéder à Internet uniquement pour jouer et regarder de courtes vidéos de 18 h à 20 h les soirées de week-end. À tous les autres moments, y compris pendant l'heure du coucher de 21 h à 7 h le lendemain matin, l'accès à Internet est bloqué par défaut.
-
-Consultez la vidéo tutorielle ci-dessous.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-EOWZ3WkeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Dépannage
 
 Si les paramètres que vous avez configurés ne prennent pas effet, vérifiez les causes possibles suivantes.
 
-1. Cache DNS.
+1. Problème de cache DNS.
   
-    Les navigateurs et les systèmes d'exploitation conservent des caches DNS ; les modifications peuvent donc mettre un certain temps à prendre effet. Vous pouvez vider le cache pour appliquer les changements immédiatement.
+    Les navigateurs et les systèmes d'exploitation conservent des caches DNS ; les modifications de configuration peuvent donc mettre un certain temps à prendre effet. Videz le cache DNS pour appliquer les changements immédiatement.
   
-      * [Vider le cache dans Chrome sur ordinateur](https://support.google.com/accounts/answer/32050){target="_blank"}
+      * [Vider le cache DNS dans Chrome sur ordinateur](https://support.google.com/accounts/answer/32050){target="_blank"}
       
-      * [Vider le cache dans Edge sur ordinateur](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
+      * [Vider le cache DNS dans Edge sur ordinateur](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. L'horaire du profil n'a pas encore démarré.
 
 3. Le nom de domaine saisi est peut-être incorrect.
 
-    Le domaine d'un site web est public, mais le domaine d'API utilisé par une application ne l'est souvent pas. Pour résoudre ce problème, utilisez un outil tel que Wireshark pour capturer les paquets ou recherchez le domaine concerné.
+    Le domaine public d'un site web est facile à trouver, mais les domaines d'API utilisés par les applications ne sont souvent pas publics. Pour identifier le bon domaine, utilisez un outil de capture de paquets comme Wireshark ou recherchez les informations de domaine concernées.
 
-    Par exemple, pour bloquer "www.google.com", il est plus efficace d'utiliser "google.com" que "www.google.com".
+    Par exemple, pour bloquer `www.google.com`, il est plus efficace d'utiliser `google.com` que `www.google.com`.
 
-4. L'appareil cible utilise une adresse MAC aléatoire pour chaque connexion, ce qui empêche les règles de s'appliquer.
+4. L'appareil cible utilise une adresse MAC aléatoire pour chaque connexion réseau, ce qui empêche l'application des règles d'accès. Désactivez l'adresse MAC aléatoire sur l'appareil cible, puis ajoutez-le de nouveau à votre profil.
 
 ## Version Bark
 

@@ -12,6 +12,12 @@ Statystyki danych udostępniają intuicyjny panel ruchu, który identyfikuje wyk
 !!! note "Obsługiwane modele"
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Uwaga: modele oznaczone symbolem ※ obsługują Data Statistics od firmware v4.9.
 
 ## Szybka konfiguracja
 

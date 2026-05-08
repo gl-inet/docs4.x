@@ -4,7 +4,7 @@ QoS (Quality of Service) optimiert die Bandbreitenzuweisung, indem kritische Akt
 
 **Hinweis**:
 
-1. Diese Funktion beeinflusst den Datenverkehr, der den Router als Gateway durchläuft (einschließlich lokalem Client-Datenverkehr und VPN-Client-Datenverkehr), jedoch nicht den eingehenden Datenverkehr, wenn der Router als VPN-Server arbeitet.
+1. Diese Funktion wirkt sich nur auf Datenverkehr aus, der den Router passiert, wenn er als Gateway arbeitet, einschließlich lokalem Client-Datenverkehr und VPN-Client-Datenverkehr. Auf eingehenden Datenverkehr wirkt sie nicht, wenn der Router als VPN-Server arbeitet.
 2. QoS wirkt nicht, wenn sich der Router im Drop-in Gateway-Modus befindet.
 3. QoS und SQM können nicht gleichzeitig aktiviert werden.
 4. QoS kann nicht zusammen mit der Netzwerkbeschleunigung verwendet werden. Beim Aktivieren von QoS wird die Netzwerkbeschleunigung automatisch deaktiviert, um eine stabile Leistung sicherzustellen.
@@ -15,6 +15,12 @@ QoS (Quality of Service) optimiert die Bandbreitenzuweisung, indem kritische Akt
 
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Hinweis: Mit ※ gekennzeichnete Modelle unterstützen QoS ab Firmware v4.9.
 
 ## Schnelleinrichtung
 

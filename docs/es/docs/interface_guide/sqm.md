@@ -4,7 +4,7 @@ SQM (Smart Queue Management) gestiona de forma inteligente el tráfico de red de
 
 **Nota**:
 
-1. Esta función afecta al tráfico que pasa por el router cuando actúa como puerta de enlace, incluido el tráfico de los clientes locales y el del cliente VPN, pero no al tráfico entrante cuando el router actúa como servidor VPN.
+1. Esta función solo afecta al tráfico que pasa por el router cuando opera como puerta de enlace, incluido el tráfico de los clientes locales y el tráfico del cliente VPN. No se aplica al tráfico entrante cuando el router actúa como servidor VPN.
 
 2. Como SQM consume bastantes recursos, funciona mejor en redes con poco ancho de banda o congestionadas. Habilitarlo en conexiones de alta velocidad puede reducir el rendimiento máximo.
 3. SQM no surtirá efecto cuando el router esté en modo Drop-in Gateway.
@@ -17,6 +17,12 @@ SQM (Smart Queue Management) gestiona de forma inteligente el tráfico de red de
 
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Nota: Los modelos marcados con ※ admiten SQM a partir del firmware v4.9.
 
 ## Configuración rápida
 

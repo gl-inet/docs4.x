@@ -22,7 +22,7 @@ La versión local es proporcionada por GL.iNet. Actualmente está en fase beta y
 
 Inicie sesión en el panel de administración web del router y vaya a **APPLICATIONS** -> **Parental Control**.
 
-En el firmware v4.8.4 y versiones posteriores, vaya a **Flow Control** -> **Parental Control**.
+En el firmware v4.8.4 y versiones posteriores, vaya a **FLOW CONTROL** -> **Parental Control**.
 
 Asegúrese de que la hora del router sea correcta. Si no es así, vaya primero a **SYSTEM** -> **Time Zone** para sincronizarla.
 
@@ -32,19 +32,17 @@ Active Parental Control y haga clic en **Apply**.
 
 ![parental control, enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
 
-- **Block WAN for Unmanaged Devices**: se utiliza para bloquear el acceso a Internet de los dispositivos no gestionados.
+- **Block WAN for Unmanaged Devices**: bloquea el acceso a Internet de todos los dispositivos que no están en la lista de Parental Control.
 
 Después, siga el asistente de configuración para configurar Parental Control.
 
 ---
 
-A continuación se muestran dos casos de uso como referencia. Puede ajustar la configuración según sus necesidades.
-
-**Caso 1**
+A continuación se muestra un caso de uso como referencia. Puede ajustar la configuración según sus necesidades.
 
 **Escenario**: Los dispositivos del perfil solo pueden acceder a Internet para estudiar de 8:00 a 11:00 de lunes a viernes, y para jugar de 18:00 a 20:00 los fines de semana. En cualquier otro momento, el acceso a Internet queda bloqueado de forma predeterminada.
 
-Siga los pasos que se indican a continuación.
+Siga los pasos que se indican a continuación para configurar Parental Control.
 
 1. Cree un perfil y personalice su nombre.
 
@@ -60,7 +58,7 @@ Siga los pasos que se indican a continuación.
 
    ![default rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
 
-   Cree otros dos conjuntos de reglas para usarlos más adelante: **Learning** y **Play**. Haga clic en **Add a New Ruleset**.
+   Haga clic en **Add a New Ruleset** para crear otros dos conjuntos de reglas para usarlos más adelante: **Learning** y **Play**.
 
    ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
 
@@ -74,7 +72,7 @@ Siga los pasos que se indican a continuación.
 
    ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
 
-   Una vez aplicado, habrá un total de cuatro conjuntos de reglas, como se muestra a continuación. Asegúrese de seleccionar **Block Internet Access** como **Default Ruleset** y haga clic en **Finish**.
+   Una vez aplicado, habrá un total de cuatro conjuntos de reglas. Asegúrese de seleccionar **Block Internet Access** como **Default Ruleset** y haga clic en **Finish**.
 
    ![four rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
 
@@ -116,33 +114,26 @@ Siga los pasos que se indican a continuación.
 
    ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-**Caso 2**
-
-**Escenario**: Los dispositivos del perfil solo pueden acceder a Internet para juegos y vídeos cortos entre las 18:00 y las 20:00 durante las noches del fin de semana. En cualquier otro momento, incluido el horario de descanso desde las 21:00 hasta las 7:00 de la mañana siguiente, el acceso a Internet queda bloqueado de forma predeterminada.
-
-Consulte el siguiente videotutorial.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-EOWZ3WkeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Solución de problemas
 
 Si la configuración que ha establecido no surte efecto, compruebe las siguientes posibles causas.
 
-1. Caché DNS.
+1. Problema de caché DNS.
 
-   Los navegadores y los sistemas operativos mantienen cachés DNS, por lo que los cambios pueden tardar en surtir efecto. Puede borrar la caché para aplicar los cambios de inmediato.
-   - [Borrar la caché en Chrome para escritorio](https://support.google.com/accounts/answer/32050){target="\_blank"}
-   - [Borrar la caché en Edge para escritorio](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="\_blank"}
+   Los navegadores y los sistemas operativos mantienen cachés DNS, por lo que los cambios de configuración pueden tardar en aplicarse. Borre la caché DNS para aplicar los cambios de inmediato.
+
+   - [Borrar la caché DNS en Chrome para escritorio](https://support.google.com/accounts/answer/32050){target="\_blank"}
+   - [Borrar la caché DNS en Edge para escritorio](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="\_blank"}
 
 2. La programación del perfil aún no ha comenzado.
 
 3. Es posible que el nombre de dominio introducido sea incorrecto.
 
-   El dominio de un sitio web es público, pero el dominio de la API que utiliza una aplicación muchas veces no lo es. Para resolverlo, use una herramienta como Wireshark para capturar paquetes o busque el dominio correspondiente.
+   Aunque el dominio público de un sitio web es fácil de encontrar, los dominios de API que utilizan las aplicaciones a menudo no están disponibles públicamente. Para localizar el dominio correcto, use una herramienta de captura de paquetes como Wireshark o busque la información de dominio correspondiente.
 
-   Por ejemplo, para bloquear "www.google.com", usar "google.com" es más eficaz que usar "www.google.com".
+   Por ejemplo, para bloquear `www.google.com`, usar `google.com` es más eficaz que usar `www.google.com`.
 
-4. El dispositivo de destino utiliza una dirección MAC aleatoria para cada conexión, lo que impide que las reglas surtan efecto.
+4. El dispositivo de destino utiliza una dirección MAC aleatoria para cada conexión de red, lo que impide que las reglas surtan efecto. Desactive la dirección MAC aleatoria en el dispositivo de destino y vuelva a añadirlo a su perfil.
 
 ## Versión Bark
 

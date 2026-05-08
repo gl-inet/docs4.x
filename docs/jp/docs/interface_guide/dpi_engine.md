@@ -17,6 +17,12 @@ GL.iNet の DPI Engine はルーター上でローカルに動作し、プライ
 !!! note "対応モデル"
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    ※ が付いたモデルは、ファームウェア v4.9 以降で DPI Engine をサポートします。
 
 ## クイックセットアップ
 

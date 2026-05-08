@@ -17,6 +17,12 @@ Integriert mit [Netify](https://www.netify.ai/){target="_blank"} nutzt GL.iNet D
 !!! note "Unterstützte Modelle"
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Hinweis: Mit ※ gekennzeichnete Modelle unterstützen die DPI Engine ab Firmware v4.9.
 
 ## Schnelleinrichtung
 

@@ -297,7 +297,6 @@ nav:
       - Serveur OpenVPN: interface_guide/openvpn_server.md
       - Client WireGuard: interface_guide/wireguard_client.md
       - Serveur WireGuard: interface_guide/wireguard_server.md
-      - Tor: interface_guide/tor.md
     - Applications:
       - Plug-ins: interface_guide/plugins.md
       - DNS dynamique: interface_guide/ddns.md
@@ -306,6 +305,7 @@ nav:
       - Controle parental: interface_guide/parental_control.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
+      - Tor: interface_guide/tor.md
       - Gestion eSIM: interface_guide/esim_management.md
     - Reseau:
       - Pare-feu: interface_guide/firewall.md
@@ -327,6 +327,7 @@ nav:
       - Licence DPI: interface_guide/dpi_engine.md
       - Statistiques des donnees: interface_guide/data_statistics.md
       - Filtre de contenu: interface_guide/content_filter.md
+      - Controle parental: interface_guide/parental_control.md
       - QoS: interface_guide/qos.md
       - SQM: interface_guide/sqm.md
     - Systeme:

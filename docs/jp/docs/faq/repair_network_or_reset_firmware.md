@@ -20,11 +20,9 @@
 
 ## 工場出荷状態に戻す
 
-このビデオを見るか、以下の手順に従ってください。
+**タッチスクリーンのないモデル**では、ファームウェアはリセットボタンまたは Web 管理画面の 2 つの方法でリセットできます。このビデオを見るか、以下の手順に従ってください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-ファームウェアをリセットするには2つのの方法があります。
 
 1. 物理のなリセット機構（ボタンまたはピン穴）を使用する
 
@@ -39,6 +37,14 @@
     **注意：**現にのすべての設定とデータが失われます。プロセスには約2分かかります。このプロセス中はルーターの電源を絶対切らないでください。
 
     ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+
+**タッチスクリーン搭載モデル**では、ファームウェアはタッチスクリーン、リセットボタン、Web 管理画面の 3 つの方法でリセットできます。
+
+次の動画では、Mudi 7（GL-E5800）を使ってこれらの方法を紹介しています。同じ手順は、すべてのタッチスクリーン搭載モデルに適用されます。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<small></small>
 
 ---
 

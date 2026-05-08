@@ -48,7 +48,6 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Który protokół wybrać dla OpenVPN: TCP czy UDP?](../faq/openvpn_tcp_udp.md)
 * [VPN Kill Switch](../faq/block_non_vpn_traffic.md)
 * [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
-* [Tor](tor.md) - aby chronić prywatność użytkownika.
 
 ## Aplikacje
 
@@ -59,6 +58,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Kontrola rodzicielska](parental_control.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [Tor](tor.md) - aby chronić prywatność użytkownika.
 * [Zarządzanie eSIM](esim_management.md)
 
 ## Sieć
@@ -84,6 +84,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [DPI Engine](dpi_engine.md)
 * [Statystyki danych](data_statistics.md)
 * [Filtr treści](content_filter.md)
+* [Kontrola rodzicielska](parental_control.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
 

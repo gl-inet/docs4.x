@@ -12,6 +12,12 @@ Data Statistics ofrece un panel intuitivo de tráfico que identifica el uso de l
 !!! note "Modelos compatibles"
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Nota: Los modelos marcados con ※ admiten Data Statistics a partir del firmware v4.9.
 
 ## Configuración rápida
 

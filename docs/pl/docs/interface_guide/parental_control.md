@@ -59,19 +59,17 @@ Włącz kontrolę rodzicielską i kliknij **Apply**.
 
 ![parental control, enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
 
-- **Block WAN for Unmanaged Devices**: Służy do blokowania niezarządzanym urządzeniom dostępu do Internetu.
+- **Block WAN for Unmanaged Devices**: Blokuje dostęp do Internetu dla wszystkich urządzeń, których nie ma na liście kontroli rodzicielskiej.
 
 Następnie postępuj zgodnie z kreatorem konfiguracji, aby skonfigurować kontrolę rodzicielską.
 
 ---
 
-Poniżej znajdują się dwa przykładowe zastosowania. Ustawienia możesz dostosować do własnych potrzeb.
-
-**Przypadek 1**
+Poniżej znajduje się przykładowe zastosowanie. Ustawienia możesz dostosować do własnych potrzeb.
 
 **Scenariusz**: Urządzenia w profilu mogą korzystać z Internetu tylko do nauki od godziny 8:00 do 11:00 w dni powszednie oraz do gier od godziny 18:00 do 20:00 w weekendy. W pozostałym czasie dostęp do Internetu jest domyślnie zablokowany.
 
-Wykonaj poniższe kroki.
+Wykonaj poniższe kroki, aby skonfigurować kontrolę rodzicielską.
 
 1. Utwórz profil i nadaj mu własną nazwę.
 
@@ -87,7 +85,7 @@ Wykonaj poniższe kroki.
 
     ![default rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
 
-    Utwórz jeszcze dwa zestawy reguł do późniejszego użycia: **Learning** i **Play**. Kliknij **Add a New Ruleset**.
+    Kliknij **Add a New Ruleset**, aby utworzyć jeszcze dwa zestawy reguł do późniejszego użycia: **Learning** i **Play**.
 
     ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
 
@@ -101,7 +99,7 @@ Wykonaj poniższe kroki.
 
     ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
 
-    Po zastosowaniu będą dostępne łącznie cztery zestawy reguł, jak pokazano poniżej. Upewnij się, że jako **Default Ruleset** wybrano **Block Internet Access**, a następnie kliknij **Finish**.
+    Po zastosowaniu będą dostępne łącznie cztery zestawy reguł. Upewnij się, że jako **Default Ruleset** wybrano **Block Internet Access**, a następnie kliknij **Finish**.
 
     ![four rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
 
@@ -143,35 +141,27 @@ Wykonaj poniższe kroki.
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-**Przypadek 2**
-
-**Scenariusz**: Urządzenia w profilu mogą korzystać z Internetu do gier i krótkich filmów tylko od godziny 18:00 do 20:00 w weekendowe wieczory. W pozostałym czasie, w tym w czasie nocnym od 21:00 do 7:00 następnego dnia rano, dostęp do Internetu jest domyślnie zablokowany.
-
-Zobacz poniższy samouczek wideo.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-EOWZ3WkeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Rozwiązywanie problemów
 
 Jeśli skonfigurowane ustawienia nie działają, sprawdź poniższe możliwe przyczyny.
 
-1. Pamięć podręczna DNS.
+1. Problem z pamięcią podręczną DNS.
   
-    Przeglądarki i systemy operacyjne utrzymują pamięć podręczną DNS, dlatego zmiany mogą potrzebować czasu, aby zaczęły obowiązywać. Możesz wyczyścić pamięć podręczną, aby natychmiast zastosować zmiany.
+    Przeglądarki i systemy operacyjne utrzymują pamięć podręczną DNS, dlatego zastosowanie zmian konfiguracji może zająć trochę czasu. Wyczyść pamięć podręczną DNS, aby zastosować zmiany od razu.
   
-      * [Wyczyść pamięć podręczną w Chrome na komputerze](https://support.google.com/accounts/answer/32050){target="_blank"}
+      * [Wyczyść pamięć podręczną DNS w Chrome na komputerze](https://support.google.com/accounts/answer/32050){target="_blank"}
       
-      * [Wyczyść pamięć podręczną w Edge na komputerze](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
+      * [Wyczyść pamięć podręczną DNS w Edge na komputerze](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. Harmonogram profilu jeszcze się nie rozpoczął.
 
 3. Wprowadzona nazwa domeny może być nieprawidłowa.
 
-    Domena strony internetowej jest publiczna, ale domena API używana przez aplikację często nie jest. Aby to rozwiązać, użyj narzędzia takiego jak Wireshark do przechwytywania pakietów lub poszukaj odpowiedniej domeny.
+    Publiczną domenę strony internetowej łatwo znaleźć, ale domeny API używane przez aplikacje często nie są publicznie dostępne. Aby ustalić właściwą domenę, użyj narzędzia do przechwytywania pakietów, takiego jak Wireshark, albo wyszukaj odpowiednie informacje o domenie.
 
-    Przykładowo, aby zablokować „www.google.com", użycie „google.com" jest skuteczniejsze niż „www.google.com".
+    Przykładowo, aby zablokować `www.google.com`, użycie `google.com` jest skuteczniejsze niż `www.google.com`.
 
-4. Docelowe urządzenie używa losowego adresu MAC dla każdego połączenia, co uniemożliwia działanie reguł.
+4. Docelowe urządzenie używa losowego adresu MAC dla każdego połączenia sieciowego, co uniemożliwia działanie reguł dostępu. Wyłącz losowy adres MAC na docelowym urządzeniu, a następnie ponownie dodaj to urządzenie do profilu.
 
 ## Wersja Bark
 

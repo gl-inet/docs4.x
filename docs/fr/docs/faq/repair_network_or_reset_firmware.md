@@ -20,11 +20,9 @@ Cette opération redémarre l'interface réseau et restaure l'interface Internet
 
 ## Réinitialiser aux paramètres d'usine {#reset-to-factory}
 
-Regardez cette vidéo ou suivez les étapes ci-dessous.
+**Pour les modèles sans écran tactile**, la réinitialisation du firmware peut être effectuée de deux façons : via le bouton Reset ou le panneau d’administration web. Regardez cette vidéo ou suivez les étapes ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Il existe deux façons de réinitialiser le firmware.
 
 1. Utiliser le mécanisme physique de réinitialisation (bouton ou trou de réinitialisation).
 
@@ -39,6 +37,14 @@ Il existe deux façons de réinitialiser le firmware.
     **Remarque :** Tous vos paramètres et données actuels seront perdus. Le processus prendra environ 2 minutes. N'éteignez PAS le routeur pendant ce processus.
 
     ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+
+**Pour les modèles avec écran tactile**, la réinitialisation du firmware peut être effectuée de trois façons : via l’écran tactile, le bouton Reset ou le panneau d’administration web.
+
+La vidéo suivante montre ces méthodes sur le Mudi 7 (GL-E5800). Les mêmes étapes s’appliquent à tous les modèles avec écran tactile.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<small></small>
 
 ---
 

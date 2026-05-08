@@ -20,11 +20,9 @@ Questa operazione riavvia l'interfaccia di rete e ripristina l'interfaccia Inter
 
 ## Ripristino di fabbrica
 
-Guarda questo video oppure segui i passaggi seguenti.
+**Per i modelli senza touchscreen**, il firmware può essere ripristinato in due modi: tramite il pulsante reset oppure dal pannello di amministrazione web. Guarda questo video oppure segui i passaggi seguenti.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Esistono due modi per ripristinare il firmware.
 
 1. Usando il meccanismo di reset fisico (pulsante o foro pinhole).
 
@@ -39,6 +37,14 @@ Esistono due modi per ripristinare il firmware.
     **Nota:** tutte le impostazioni e i dati attuali andranno persi. Il processo richiederà circa 2 minuti. **NON** spegnere il router durante il processo.
 
     ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+
+**Per i modelli con touchscreen**, il firmware può essere ripristinato in tre modi: tramite touchscreen, pulsante reset o pannello di amministrazione web.
+
+Il seguente video mostra questi metodi utilizzando il Mudi 7 (GL-E5800). Gli stessi passaggi si applicano a tutti i modelli con touchscreen.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<small></small>
 
 ---
 

@@ -17,6 +17,24 @@ Intégré à [Netify](https://www.netify.ai/){target="_blank"}, le DPI de GL.iNe
 !!! note "Modèles pris en charge"
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Remarque : les modèles marqués d’un ※ prennent en charge le DPI Engine à partir du firmware v4.9.
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Remarque : les modèles marqués d’un ※ prennent en charge le DPI Engine à partir du firmware v4.9.
+    - ※GL-BE9300 (Flint 3)
+    - ※GL-BE3600 (Slate 7)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+
+    Remarque : les modèles marqués d’un ※ prennent en charge le DPI Engine à partir du firmware v4.9.
 
 ## Configuration rapide
 

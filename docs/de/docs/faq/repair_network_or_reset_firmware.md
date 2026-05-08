@@ -20,11 +20,9 @@ Dabei wird die Netzwerkschnittstelle neu gestartet und die Internetschnittstelle
 
 ## Auf Werkseinstellungen zurücksetzen
 
-Sehen Sie sich dieses Video an oder folgen Sie den unten stehenden Schritten.
+**Bei Modellen ohne Touchscreen** kann die Firmware auf zwei Arten zurückgesetzt werden: über die Reset-Taste oder das Web-Admin-Panel. Sehen Sie sich dieses Video an oder folgen Sie den unten stehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Es gibt zwei Möglichkeiten, die Firmware zurückzusetzen.
 
 1. Über den physischen Zurücksetzmechanismus (Taste oder Pin-Öffnung).
 
@@ -39,6 +37,14 @@ Es gibt zwei Möglichkeiten, die Firmware zurückzusetzen.
     **Hinweis:** Alle Ihre aktuellen Einstellungen und Daten gehen verloren. Der Vorgang dauert etwa 2 Minuten. Schalten Sie den Router während dieses Vorgangs NICHT aus.
 
     ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+
+**Bei Modellen mit Touchscreen** kann die Firmware auf drei Arten zurückgesetzt werden: über den Touchscreen, die Reset-Taste oder das Web-Admin-Panel.
+
+Das folgende Video zeigt diese Methoden am Beispiel des Mudi 7 (GL-E5800). Dieselben Schritte gelten für alle Modelle mit Touchscreen.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<small></small>
 
 ---
 

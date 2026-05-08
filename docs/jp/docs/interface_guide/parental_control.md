@@ -49,7 +49,7 @@ GL.iNet ルーターの Parental Control については、以下の動画、ま
 
 ルーターの Web 管理画面にログインし、**APPLICATIONS** -> **Parental Control** に移動します。
 
-ファームウェア ver.4.8.4 以降では、**Flow Control** -> **Parental Control** に移動してください。
+ファームウェア ver.4.8.4 以降では、**FLOW CONTROL** -> **Parental Control** に移動してください。
 
 ルーターの時刻が正確であることを確認してください。正しくない場合は、先に **SYSTEM** -> **Time Zone** で同期します。
 
@@ -59,19 +59,17 @@ Parental Control を有効にして、**Apply** をクリックします。
 
 ![parental control, enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
 
-- **Block WAN for Unmanaged Devices**: 管理対象外のデバイスによるインターネットアクセスをブロックするための設定です。
+- **Block WAN for Unmanaged Devices**: Parental Control の一覧に含まれていないすべてのデバイスのインターネットアクセスをブロックします。
 
 その後、セットアップウィザードに従って Parental Control を設定します。
 
 ---
 
-以下に参考用の 2 つの利用例を示します。必要に応じて設定を調整してください。
-
-**Case 1**
+以下に参考用の利用例を 1 つ示します。必要に応じて設定を調整してください。
 
 **Scenario**: このプロファイル内のデバイスは、平日の午前 8 時から午前 11 時までは学習目的でのみインターネットにアクセスでき、週末の午後 6 時から午後 8 時まではゲーム目的で利用できます。それ以外の時間帯は、デフォルトでインターネットアクセスがブロックされます。
 
-以下の手順に従ってください。
+以下の手順に従って Parental Control を設定してください。
 
 1. プロファイルを作成し、名前をカスタマイズします。
 
@@ -87,7 +85,7 @@ Parental Control を有効にして、**Apply** をクリックします。
 
     ![default rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
 
-    後で使用するため、さらに **Learning** と **Play** の 2 つのルールセットを作成します。**Add a New Ruleset** をクリックします。
+    **Add a New Ruleset** をクリックして、後で使用する **Learning** と **Play** の 2 つのルールセットを作成します。
 
     ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
 
@@ -101,7 +99,7 @@ Parental Control を有効にして、**Apply** をクリックします。
 
     ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
 
-    適用後、以下のようにルールセットは合計 4 つになります。**Default Ruleset** には **Block Internet Access** を選択し、**Finish** をクリックします。
+    適用後、ルールセットは合計 4 つになります。**Default Ruleset** には **Block Internet Access** を選択し、**Finish** をクリックします。
 
     ![four rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
 
@@ -143,35 +141,27 @@ Parental Control を有効にして、**Apply** をクリックします。
 
     ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
-**Case 2**
-
-**Scenario**: このプロファイル内のデバイスは、週末の夕方 6 時から 8 時までの間だけ、ゲームや短い動画の視聴のためにインターネットへアクセスできます。それ以外の時間帯は、午後 9 時から翌朝 7 時までの就寝時間を含め、デフォルトでインターネットアクセスがブロックされます。
-
-以下の動画チュートリアルをご覧ください。
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5-EOWZ3WkeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Troubleshooting
 
 設定内容が反映されない場合は、以下の原因が考えられます。
 
-1. DNS キャッシュ。
+1. DNS キャッシュの問題。
   
-    ブラウザやオペレーティングシステムは DNS キャッシュを保持しているため、変更が反映されるまで時間がかかることがあります。すぐに反映させたい場合は、キャッシュを削除してください。
+    ブラウザやオペレーティングシステムは DNS キャッシュを保持しているため、設定変更の反映に時間がかかることがあります。すぐに反映させたい場合は、DNS キャッシュを削除してください。
   
-      * [Clear the cache in desktop Chrome](https://support.google.com/accounts/answer/32050){target="_blank"}
+      * [デスクトップ版 Chrome の DNS キャッシュをクリアする](https://support.google.com/accounts/answer/32050){target="_blank"}
       
-      * [Clear the cache in desktop Edge](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
+      * [デスクトップ版 Edge の DNS キャッシュをクリアする](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. プロファイルのスケジュールがまだ開始されていません。
 
 3. 入力したドメイン名が正しくない可能性があります。
 
-    Web サイトのドメインは公開されていますが、アプリで使用される API ドメインは公開されていないことがよくあります。その場合は、Wireshark などのツールでパケットをキャプチャするか、該当するドメインを調べてください。
+    Web サイトの公開ドメインは見つけやすい一方で、アプリが使用する API ドメインは公開されていないことがよくあります。正しいドメインを特定するには、Wireshark などのパケットキャプチャツールを使うか、関連するドメイン情報を調べてください。
 
     たとえば `www.google.com` をブロックしたい場合は、`www.google.com` よりも `google.com` を使用する方が効果的です。
 
-4. 対象デバイスが接続のたびにランダムな MAC アドレスを使用しているため、ルールが適用されていない可能性があります。
+4. 対象デバイスがネットワーク接続ごとにランダムな MAC アドレスを使用しているため、アクセスルールが適用されない可能性があります。対象デバイスでランダム MAC アドレスを無効にし、その後デバイスをプロファイルに再追加してください。
 
 ## Bark版
 

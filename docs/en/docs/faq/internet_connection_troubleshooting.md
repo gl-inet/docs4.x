@@ -28,17 +28,13 @@ Some ISPs bind your broadband connection to the MAC address of the first connect
 
 Follow the steps below to clone a MAC address to your GL.iNet router.
 
-1. Connect your old router (or the computer previously bound to your broadband) to the GL.iNet router via Wi-Fi or an Ethernet cable.
+1. Note down the MAC address of your old router (or the computer previously bound to your broadband).
 
-2. Log in to your router's web Admin Panel and go to **CLIENTS**. Make sure your old router or computer is listed as a connected client.
+2. Log in to your router's web Admin Panel and go to **NETWORK** -> **Ethernet Port** (named **Port Management** in some firmware versions). Set MAC Mode to **Clone** or **Manual**, enter the MAC address manually, then click **Apply**. 
 
-3. Go to **NETWORK** -> **Ethernet Port** (named **Port Management** in some firmware versions). Set MAC Mode to **Clone**, select the target MAC address from the drop-down list, then click **Apply**. 
+    ![mac clone](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/mac_clone.png){class="glboxshadow"}
 
-    Tip: On earlier firmware versions, you may need to select **Manual** mode and enter the MAC address manually.
-
-    ![mac clone](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/mac_clone.jpg){class="glboxshadow gl-80-desktop"}
-
-4. Reboot your modem (i.e., the upstreaming device).
+3. Reboot your modem (i.e., the upstreaming device).
 
 ## Q3. When do I need to configure a VLAN ID?
 
@@ -54,16 +50,16 @@ Follow the steps below to configure the VLAN ID.
 
 ## Q4. What if it still doesn't work?
 
-If the issue persists, try connecting a PC or laptop directly to your modem and check if you have Internet access.
+If the issue persists, try connecting a PC or laptop directly to your modem and check whether you have Internet access.
 
-If there's no Internet access, it could be the ISP issue. Contact your ISP for further assistance.
+If you do not have Internet access, the issue may be with your ISP. Contact your ISP for further assistance.
 
-If it has Internet access, it could be the configuration issue. Contact our technical support at [support@gl-inet.com](mailto:support@gl-inet.com) and provide the following information:
+If you do has Internet access, the issue may be related to your router configuration. Contact our technical support at [support@gl-inet.com](mailto:support@gl-inet.com) and provide the following information:
 
 - Router model
-- The troubleshooting steps you have tried
-- Your ISP
-- Other information that you think could be helpful for us to assist you
+- Troubleshooting steps you have tried
+- Your ISP name
+- Any other information you think may help us assist you
 
 ## ISP information
 

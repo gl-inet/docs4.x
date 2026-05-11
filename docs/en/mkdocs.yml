@@ -165,6 +165,7 @@ nav:
     - Internet:
       - First time setup: faq/first_time_setup.md
       - Warning from your browser: faq/warning_from_your_browser_during_setup.md
+      - Internet Connection Troubleshooting FAQ: faq/internet_connection_troubleshooting.md
       - Connect to public hotspot with Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
       - Connect Ethernet-only device to Wi-Fi: faq/produce_a_wired_connection.md
     - Problem Notification:

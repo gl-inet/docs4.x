@@ -14,6 +14,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 
 * [First time setup](first_time_setup.md)
 * [Warning from your browser](warning_from_your_browser_during_setup.md)
+* [Internet Connection Troubleshooting FAQ](internet_connection_troubleshooting.md)
 * [How to connect a GL.iNet router to public hotspots with a Captive Portal?](connect_to_a_hotspot_with_captive_portal.md)
 * [How to connect an Ethernet-only device to Wi-Fi with a GL.iNet router?](produce_a_wired_connection.md)
 

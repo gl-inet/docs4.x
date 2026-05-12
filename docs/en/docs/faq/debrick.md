@@ -170,7 +170,7 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-5. Use browser to visit **http://192.168.1.1**. This is the U-Boot Web UI.
+5. Use your web browser to visit **http://192.168.1.1**. This is the U-Boot Web UI.
 
     ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 

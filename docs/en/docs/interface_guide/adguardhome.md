@@ -44,20 +44,20 @@ Toggle the switch to enable AdGuard Home and click **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- AdGuard Home Handle Client Requests: If this option is enabled, DNS queries from client devices will be handled directly by AdGuard Home. AdGuard Home will show DNS query logs by clients, but this will cause VPN policies based on domain not to work.
+- **AdGuard Home Handle Client Requests**: If enabled, DNS queries from client devices will be processed directly by AdGuard Home. This will render domain-based VPN policies and parental control rules ineffective.
 
-This page displays statistics such as the DNS queries, blocked domains, etc, which is through the API provided by AdGuard Home. 
+Once enabled, the page shows statistics including DNS queries and blocked domains via the API provided by AdGuard Home.
 
 ![adguard home web panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_web_panel.png){class="glboxshadow"}
 
-Then please click **Settings Page**.
+Click **Settings Page** at the top of the page.
 
 ![adguard home started](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/settings_page.png){class="glboxshadow"}
 
-It will be re-directed to the AdGuard Home's official settings page, where you can perform advanced configuration for the filter rules, etc.
+You will be redirected to the official AdGuard Home settings page to configure advanced filter rules.
 
 ![adguard home settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_dashboard.png){class="glboxshadow"}
 
-If you have any questions, please visit [Adguard Home Support Center](https://adguard.com/en/support.html){target="_blank"} for further assistance.
+For any inquiries, please visit the [AdGuard Home Support Center](https://adguard.com/en/support.html){target="_blank"} for further assistance.
 
 ---

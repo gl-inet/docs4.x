@@ -4,7 +4,7 @@ Log in to the web Admin Panel and go to **VPN** -> **VPN Dashboard**.
 
 VPN Dashboard page displays the VPN connection details, such as server address, traffic statistics, client virtual IP, and connection log. It also allows users to configure advanced settings such as the VPN Kill Switch, VPN policy, IP Masquerading, MTU, and VPN Cascading. 
 
-This page is devided into two sections: [VPN Client](#vpn-client) and [VPN Server](#vpn-server).
+This page is divided into two sections: [VPN Client](#vpn-client) and [VPN Server](#vpn-server).
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_initial.png){class="glboxshadow"}
 

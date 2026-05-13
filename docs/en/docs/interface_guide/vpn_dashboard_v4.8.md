@@ -54,6 +54,26 @@ In the following example, the router connects to an Australian server using the 
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
+#### Tunnel Options
+
+You can configure advanced settings for your VPN tunnel, such as the VPN Kill Switch, IP Masquerading, and MTU.
+
+Click the gear icon in the upper right corner.
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options1.png){class="glboxshadow"}
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options2.png){class="glboxshadow"}
+
+- **Kill Switch**: If enabled, any traffic routed through this VPN tunnel will be automatically blocked when the VPN connection fails. If disabled, traffic will fall back to the local WAN and access the internet without going through the VPN tunnel.
+
+- **Services from GL.iNet Use VPN**: If enabled, GoodCloud, DDNS, and rtty services will transmit packets through VPN tunnels. This option is disabled by default, as these services normally require the device's real IP address to work properly.
+
+- **Allow Remote Access the LAN Subnet**: If enabled, remote access to this router and its LAN devices via VPN will be allowed. The VPN server must advertise a route to the LAN subnet of this router.
+
+- **IP Masquerading**: If enabled, the source IP addresses of LAN clients will be rewritten to the router's VPN tunnel IP. Disable this only for Site-to-Site setups where the remote peer knows your LAN subnets.
+
+- **MTU**: Short for Maximum Transmission Unit. The MTU value you set for the tunnel will override the value defined in the configuration file.
+
 ### Policy Mode
 
 In this mode, the router can connect to multiple VPN servers, and you can customize routing rules for different clients or traffic destinations.
@@ -256,15 +276,15 @@ Click the gear icon next to a tunnel name and select **Options**.
 
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
 
-- **Kill Switch**: If enabled, traffic matching this VPN tunnel will be blocked if the VPN connection fails unexpectedly. If disabled, such traffic will fail over to the next priority tunnel or local WAN.
+- **Kill Switch**: If enabled, any traffic routed through this VPN tunnel will be automatically blocked if the VPN connection fails. If disabled, traffic will fail over to the next priority tunnel or the local WAN.
 
 - **Services from GL.iNet Use VPN**: If enabled, GoodCloud, DDNS, and rtty services will transmit packets through VPN tunnels. This option is disabled by default, as these services normally require the device's real IP address to work properly.
 
-- **Allow Remote Access the LAN Subnet**: If enabled, remote access to this router and its LAN devices through the VPN will be allowed. It requires the VPN server to advertise a route back to its LAN subnet.
+- **Allow Remote Access the LAN Subnet**: If enabled, remote access to this router and its LAN devices via VPN will be allowed. The VPN server must advertise a route to the LAN subnet of this router.
 
 - **IP Masquerading**: If enabled, the source IP addresses of LAN clients will be rewritten to the router's VPN tunnel IP. Disable this only for Site-to-Site setups where the remote peer knows your LAN subnets.
 
-- **MTU**: The MTU value you set for the tunnel will override the MTU settings in the configuration file.
+- **MTU**: Short for Maximum Transmission Unit. The MTU value you set for the tunnel will override the value defined in the configuration file.
 
 ---
 

@@ -209,6 +209,7 @@ Podczas łączenia z nadrzędną siecią Wi‑Fi 5G sieć Wi‑Fi routera będzi
     - GL-XE3000 (Puli AX)
     - GL-MT3000 (Beryl AX)
     - GL-AXT1800 (Slate AX)
+    - GL-E750/E750V2 (Mudi)
 
 ??? "Nieobsługiwane modele"
 

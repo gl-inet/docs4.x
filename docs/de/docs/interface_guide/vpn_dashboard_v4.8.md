@@ -54,6 +54,26 @@ Im folgenden Beispiel verbindet sich der Router per WireGuard mit einem australi
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
+#### Tunnel Options
+
+Sie können für Ihren VPN-Tunnel erweiterte Einstellungen wie VPN Kill Switch, IP-Maskierung und MTU konfigurieren.
+
+Klicken Sie oben rechts auf das Zahnradsymbol.
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options1.png){class="glboxshadow"}
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options2.png){class="glboxshadow"}
+
+- **Kill Switch**: Wenn aktiviert, wird jeglicher Datenverkehr, der über diesen VPN-Tunnel geleitet wird, automatisch blockiert, wenn die VPN-Verbindung ausfällt. Wenn deaktiviert, fällt der Datenverkehr auf das lokale WAN zurück und greift ohne den VPN-Tunnel auf das Internet zu.
+
+- **Services from GL.iNet Use VPN**: Wenn aktiviert, übertragen GoodCloud, DDNS und rtty ihre Pakete über VPN-Tunnel. Diese Option ist standardmäßig deaktiviert, da diese Dienste normalerweise die echte IP-Adresse des Geräts benötigen, um ordnungsgemäß zu funktionieren.
+
+- **Allow Remote Access the LAN Subnet**: Wenn aktiviert, ist der Fernzugriff auf diesen Router und seine LAN-Geräte über VPN erlaubt. Der VPN-Server muss eine Route zum LAN-Subnetz dieses Routers bekanntgeben.
+
+- **IP Masquerading**: Wenn aktiviert, werden die Quell-IP-Adressen von LAN-Clients auf die VPN-Tunnel-IP des Routers umgeschrieben. Deaktivieren Sie dies nur bei Site-to-Site-Setups, in denen der entfernte Peer Ihre LAN-Subnetze kennt.
+
+- **MTU**: Kurz für Maximum Transmission Unit. Der MTU-Wert, den Sie für den Tunnel festlegen, überschreibt den in der Konfigurationsdatei definierten Wert.
+
 ### Policy Mode
 
 In diesem Modus kann sich der Router mit mehreren VPN-Servern verbinden, und Sie können benutzerdefinierte Routing-Regeln für verschiedene Clients oder Datenverkehrsziele festlegen.
@@ -256,15 +276,15 @@ Klicken Sie auf das Zahnradsymbol neben einem Tunnelnamen und wählen Sie **Opti
 
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
 
-- **Kill Switch**: Wenn aktiviert, wird Datenverkehr, der diesem VPN-Tunnel entspricht, blockiert, falls die VPN-Verbindung unerwartet ausfällt. Wenn deaktiviert, wird dieser Datenverkehr per Failover an den nächsten Prioritätstunnel oder das lokale WAN weitergegeben.
+- **Kill Switch**: Wenn aktiviert, wird jeglicher Datenverkehr, der über diesen VPN-Tunnel geleitet wird, automatisch blockiert, wenn die VPN-Verbindung ausfällt. Wenn deaktiviert, wird der Datenverkehr per Failover an den nächsten Prioritätstunnel oder das lokale WAN weitergegeben.
 
 - **Services from GL.iNet Use VPN**: Wenn aktiviert, übertragen GoodCloud, DDNS und rtty ihre Pakete über VPN-Tunnel. Diese Option ist standardmäßig deaktiviert, da diese Dienste normalerweise die echte IP-Adresse des Geräts benötigen, um ordnungsgemäß zu funktionieren.
 
-- **Allow Remote Access the LAN Subnet**: Wenn aktiviert, ist der Fernzugriff auf diesen Router und seine LAN-Geräte über das VPN erlaubt. Dafür muss der VPN-Server eine Rückroute zu seinem LAN-Subnetz bekanntgeben.
+- **Allow Remote Access the LAN Subnet**: Wenn aktiviert, ist der Fernzugriff auf diesen Router und seine LAN-Geräte über VPN erlaubt. Der VPN-Server muss eine Route zum LAN-Subnetz dieses Routers bekanntgeben.
 
 - **IP Masquerading**: Wenn aktiviert, werden die Quell-IP-Adressen von LAN-Clients auf die VPN-Tunnel-IP des Routers umgeschrieben. Deaktivieren Sie dies nur bei Site-to-Site-Setups, in denen der entfernte Peer Ihre LAN-Subnetze kennt.
 
-- **MTU**: Der MTU-Wert, den Sie für den Tunnel festlegen, überschreibt die MTU-Einstellungen in der Konfigurationsdatei.
+- **MTU**: Kurz für Maximum Transmission Unit. Der MTU-Wert, den Sie für den Tunnel festlegen, überschreibt den in der Konfigurationsdatei definierten Wert.
 
 ---
 

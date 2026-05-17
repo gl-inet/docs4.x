@@ -163,6 +163,7 @@ nav:
     - Internet:
       - Configuración inicial: faq/first_time_setup.md
       - Advertencia del navegador: faq/warning_from_your_browser_during_setup.md
+      - Preguntas frecuentes sobre la solución de problemas de conexión a Internet: faq/internet_connection_troubleshooting.md
       - Conectarse a un hotspot público con portal cautivo: faq/connect_to_a_hotspot_with_captive_portal.md
       - Conectar un dispositivo solo Ethernet a la red Wi-Fi: faq/produce_a_wired_connection.md
     - Avisos de problemas:

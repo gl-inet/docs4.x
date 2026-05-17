@@ -16,7 +16,7 @@ GL.iNetルーターをStarlink Dishに接続する必要がある場合は、以
 
     ![netacc](https://static.gl-inet.com/docs/router/en/4/faq/starlink/netacc.jpg){class="glboxshadow"}
 
-4. Starlinkアプリを開き、設定でバイパスモードを有効にします。
+4. Starlink アプリを開き、Settings に移動して **Bypass mode** を有効にします。
 
 ---
 

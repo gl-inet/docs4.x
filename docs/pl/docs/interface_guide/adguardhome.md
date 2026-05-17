@@ -44,20 +44,20 @@ Włącz przełącznik AdGuard Home i kliknij **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- **AdGuard Home Handle Client Requests**: jeśli ta opcja jest włączona, zapytania DNS z urządzeń klienckich będą obsługiwane bezpośrednio przez AdGuard Home. AdGuard Home będzie wtedy wyświetlać logi zapytań DNS klientów, ale zasady VPN oparte na domenach nie będą działać.
+- **AdGuard Home Handle Client Requests**: Jeśli ta opcja jest włączona, zapytania DNS z urządzeń klienckich będą przetwarzane bezpośrednio przez AdGuard Home. Spowoduje to, że zasady VPN oparte na domenach oraz reguły kontroli rodzicielskiej przestaną działać.
 
-Na tej stronie wyświetlane są statystyki, takie jak liczba zapytań DNS, zablokowane domeny itp., pobierane za pośrednictwem API udostępnianego przez AdGuard Home.
+Po włączeniu na stronie będą wyświetlane statystyki, w tym liczba zapytań DNS i zablokowane domeny, pobierane przez API udostępniane przez AdGuard Home.
 
 ![adguard home web panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_web_panel.png){class="glboxshadow"}
 
-Następnie kliknij **Settings Page**.
+Kliknij **Settings Page** u góry strony.
 
 ![adguard home started](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/settings_page.png){class="glboxshadow"}
 
-Nastąpi przekierowanie do oficjalnej strony ustawień AdGuard Home, gdzie można przeprowadzić zaawansowaną konfigurację, na przykład reguł filtrowania.
+Nastąpi przekierowanie do oficjalnej strony ustawień AdGuard Home, na której można skonfigurować zaawansowane reguły filtrowania.
 
 ![adguard home settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_dashboard.png){class="glboxshadow"}
 
-Jeśli masz pytania, odwiedź [centrum pomocy AdGuard Home](https://adguard.com/en/support.html){target="_blank"}, aby uzyskać dalszą pomoc.
+W razie pytań odwiedź [centrum pomocy AdGuard Home](https://adguard.com/en/support.html){target="_blank"}.
 
 ---

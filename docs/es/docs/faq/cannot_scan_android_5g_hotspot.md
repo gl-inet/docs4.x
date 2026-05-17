@@ -2,35 +2,31 @@
 
 Conectar el router GL.iNet como repetidor al hotspot 5G de un teléfono Android es una de las formas habituales de acceder a Internet.
 
-Sin embargo, si no puede detectar el hotspot 5G de su teléfono Android, el problema puede estar relacionado con el código de país de Wi-Fi.
+Sin embargo, si no puede detectar el hotspot 5G de su teléfono Android, el problema puede estar relacionado con el canal Wi-Fi.
 
 Algunos teléfonos Android configuran su hotspot 5G en un canal de EE. UU. de forma predeterminada. Si su router GL.iNet no se compró originalmente en EE. UU., es posible que experimente este problema.
 
-Puede cambiar el código de país del Wi-Fi de su router GL.iNet en la página LuCI siguiendo los pasos que se indican a continuación.
+Puede modificar el código de país del Wi-Fi de su router GL.iNet en la interfaz LuCI siguiendo los pasos que se indican a continuación.
 
-## Paso 1. Inicie sesión en LuCI
+1. Inicie sesión en su router GL.iNet y vaya a **SYSTEM** -> **Advanced Settings** -> **Go to LuCI**. Inicie sesión en LuCI con la misma contraseña de administrador.
 
-Inicie sesión en su router GL.iNet y, en la barra lateral izquierda, elija **SYSTEM -> Advanced Settings -> Go to LuCI**. Inicie sesión en LuCI con la misma contraseña de administrador.
+2. Edite la configuración de Wi-Fi.
 
-## Paso 2. Edite la configuración de Wi-Fi
+    Vaya a **Network** -> **Wireless**, localice el Wi-Fi de 5 GHz y haga clic en **Edit** a la derecha.
 
-Vaya a **Network -> Wireless**, seleccione el Wi-Fi de 5 GHz y edítelo. Si está usando un GL-MT3000, vaya a **Network -> MTK Wi-Fi**.
+    ![5gwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gwifi.jpg){class="glboxshadow"}
 
-![5gwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gwifi.jpg){class="glboxshadow"}
+3. Seleccione US como código de país.
 
-![mtkwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/mtkwifi.jpg){class="glboxshadow"}
+    En la página Wireless, haga clic en la pestaña **Advanced Settings** dentro de **Device Configuration**. Seleccione US (United States) como código de país para su Wi-Fi de 5 GHz.
 
-## Paso 3. Seleccione US como código de país
+    ![5gus](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gus.jpg){class="glboxshadow"}
 
-En **Device Configuration -> Advanced Settings**, seleccione US (United States) como código de país para su Wi-Fi de 5 GHz.
+4. Haga clic en **Save & Apply** antes de salir.
 
-![5gus](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gus.jpg){class="glboxshadow"}
+    ![saveapply](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/saveapply.jpg){class="glboxshadow"}
 
-Haga clic en **Save & Apply** antes de salir.
-
-![saveapply](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/saveapply.jpg){class="glboxshadow"}
-
-Después, intente detectar de nuevo el hotspot 5G de su teléfono Android.
+    Después, intente detectar de nuevo el hotspot 5G de su teléfono Android.
 
 ---
 

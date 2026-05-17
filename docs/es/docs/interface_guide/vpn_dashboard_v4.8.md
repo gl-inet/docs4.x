@@ -56,6 +56,26 @@ En el ejemplo siguiente, el router se conecta a un servidor australiano mediante
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
+#### Tunnel Options
+
+Puede configurar ajustes avanzados para su túnel VPN, como el Kill Switch de VPN, el enmascaramiento de IP y el MTU.
+
+Haga clic en el icono de engranaje de la esquina superior derecha.
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options1.png){class="glboxshadow"}
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options2.png){class="glboxshadow"}
+
+- **Kill Switch**: Si está habilitado, cualquier tráfico enrutado a través de este túnel VPN se bloqueará automáticamente cuando falle la conexión VPN. Si está deshabilitado, el tráfico volverá a la WAN local y accederá a Internet sin pasar por el túnel VPN.
+
+- **Services from GL.iNet Use VPN**: Si está habilitado, los servicios GoodCloud, DDNS y rtty transmitirán paquetes a través de los túneles VPN. Esta opción está deshabilitada de forma predeterminada, ya que estos servicios normalmente requieren la dirección IP real del dispositivo para funcionar correctamente.
+
+- **Allow Remote Access the LAN Subnet**: Si está habilitado, se permitirá el acceso remoto a este router y a sus dispositivos LAN a través de la VPN. El servidor VPN debe anunciar una ruta hacia la subred LAN de este router.
+
+- **IP Masquerading**: Si está habilitado, las direcciones IP de origen de los clientes LAN se reescribirán con la IP del túnel VPN del router. Deshabilite esta opción solo en configuraciones site-to-site donde el par remoto conozca sus subredes LAN.
+
+- **MTU**: Abreviatura de Maximum Transmission Unit. El valor MTU que establezca para el túnel sobrescribirá el valor definido en el archivo de configuración.
+
 <a id="policy-mode"></a>
 
 ### Modo de políticas
@@ -265,15 +285,15 @@ Haga clic en el icono de engranaje situado junto al nombre de un túnel y selecc
 
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
 
-- **Kill Switch**: Si está habilitado, el tráfico que coincida con este túnel VPN se bloqueará si la conexión VPN falla de forma inesperada. Si está deshabilitado, ese tráfico hará conmutación por error hacia el siguiente túnel por prioridad o hacia la WAN local.
+- **Kill Switch**: Si está habilitado, cualquier tráfico enrutado a través de este túnel VPN se bloqueará automáticamente si falla la conexión VPN. Si está deshabilitado, el tráfico hará conmutación por error hacia el siguiente túnel por prioridad o hacia la WAN local.
 
 - **Services from GL.iNet Use VPN**: Si está habilitado, los servicios GoodCloud, DDNS y rtty transmitirán paquetes a través de los túneles VPN. Esta opción está deshabilitada de forma predeterminada, ya que estos servicios normalmente requieren la dirección IP real del dispositivo para funcionar correctamente.
 
-- **Allow Remote Access the LAN Subnet**: Si está habilitado, se permitirá el acceso remoto a este router y a sus dispositivos LAN a través de la VPN. Requiere que el servidor VPN anuncie una ruta de retorno hacia su subred LAN.
+- **Allow Remote Access the LAN Subnet**: Si está habilitado, se permitirá el acceso remoto a este router y a sus dispositivos LAN a través de la VPN. El servidor VPN debe anunciar una ruta hacia la subred LAN de este router.
 
 - **IP Masquerading**: Si está habilitado, las direcciones IP de origen de los clientes LAN se reescribirán con la IP del túnel VPN del router. Deshabilite esta opción solo en configuraciones site-to-site donde el par remoto conozca sus subredes LAN.
 
-- **MTU**: El valor MTU que establezca para el túnel sobrescribirá los ajustes MTU del archivo de configuración.
+- **MTU**: Abreviatura de Maximum Transmission Unit. El valor MTU que establezca para el túnel sobrescribirá el valor definido en el archivo de configuración.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Descripción general del producto
 
-Brume 2 (GL-MT2500/GL-MT2500A) es una pasarela VPN ligera y potente que ejecuta el sistema operativo OpenWrt v21.02. Su diseño compacto permite alojar un servidor VPN en casa o ejecutar SD-WAN (Site-to-Site) para pequeñas y medianas empresas.
+Brume 2 (GL-MT2500/GL-MT2500A) es una pasarela VPN ligera y potente que ejecuta el sistema operativo OpenWrt v21.02. Su diseño compacto permite alojar un servidor VPN en casa o ejecutar SD-WAN (Site-to-Site) para pequeñas y medianas empresas. Está disponible en dos variantes: GL-MT2500 con carcasa de plástico y GL-MT2500A con carcasa de aluminio.
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
@@ -329,4 +329,3 @@ Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
     La página Advanced Settings ofrece acceso a opciones de configuración avanzada a través de la interfaz OpenWrt LuCI, lo que permite a los usuarios con experiencia ajustar con precisión la configuración y las funciones del router más allá de las opciones básicas de la interfaz. Esto incluye configuraciones detalladas de red, ajustes del firewall y otras personalizaciones avanzadas del sistema.
 
     Consulte [Advanced Settings](../../interface_guide/advanced_settings.md) para ver instrucciones detalladas.
-

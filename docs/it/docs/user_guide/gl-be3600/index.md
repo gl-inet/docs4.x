@@ -24,6 +24,23 @@ Guarda qui sotto il video di unboxing di Slate 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bEuwGm0hQ5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Touchscreen
+
+| Visualizzazione sullo schermo | Descrizione |
+| :---------------------------- | :---------- |
+| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png) | Avvio in corso |
+| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png) | Tipi di connessione di rete e stato<br>**Verde**: attiva / connessa<br>**Giallo**: connessione in corso / anomala<br>**Bianco**: connessione inattiva |
+| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png) | Dettagli Wi-Fi, inclusi SSID, password, codice QR e pulsante di accensione/spegnimento |
+| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="284"} | Stato VPN. Richiede la configurazione iniziale nel pannello di amministrazione web |
+| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png) | AdGuard Home |
+| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png) | Tor |
+| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png) | Statistiche del traffico<br>Si riferiscono alla velocita media di tutto il traffico che passa attraverso il router, calcolata ogni 3 secondi |
+| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png) | Utilizzo del sistema |
+| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png) | Fuso orario |
+| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png) | Menu di sistema<br>Scorri dall'alto verso il basso per accedere al menu di sistema |
+| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png) | Tocca lo schermo per riattivarlo e scorri da sinistra a destra per sbloccarlo |
+| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png) | Dopo aver toccato "Reboot", scorri da sinistra a destra per confermare |
+
 ## Come configurare Slate 7
 
 Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
@@ -35,87 +52,7 @@ Guarda questo video di configurazione oppure segui i passaggi riportati di segui
 
 Assembla l'alimentatore in due parti. Collegalo al router e inseriscilo in una presa di corrente. Il router si avviera automaticamente.
 
-### 2. Touchscreen
-
-??? "Accensione"
-
-    Quando il router viene acceso, il logo GL.iNet viene visualizzato sullo schermo, seguito dalla barra di avanzamento dell'avvio.
-
-    ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){class="glboxshadow"}
-    
-    Quando la barra di avanzamento e completamente caricata, l'avvio del dispositivo e terminato.
-
-??? "Rete"
-
-    La schermata iniziale mostra quattro icone che rappresentano quattro tipi di connessione di rete: Ethernet, Repeater, Tethering e Cellular.
-
-    ![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
-
-    | Colore | Stato |
-    | :-- | :-- |
-    | Verde | Attivo / Connesso a Internet |
-    | Giallo | Connessione in corso / Errore di rete |
-    | Bianco | Connessione inattiva |
-
-    Tocca una qualsiasi di queste icone per visualizzare lo stato della rete o informazioni dettagliate di configurazione.
-
-??? "Funzioni"
-
-    Puoi accedere alle funzioni scorrendo verso sinistra e verso destra.
-
-    Scorrendo da destra a sinistra, vengono visualizzati in sequenza gli elementi seguenti; alcuni richiedono una configurazione preliminare nel pannello di amministrazione. Scorrendo da sinistra a destra, l'ordine di visualizzazione si inverte.
-
-    - Connessione di rete
-
-        ![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
-
-    - Dettagli Wi-Fi tri-band (inclusi SSID, password, codice QR e pulsante di attivazione)
-
-        ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){class="glboxshadow"}
-
-    - OpenVPN
-
-        ![openvpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/nordvpn-4.7.jpg){class="glboxshadow"}
-
-    - WireGuard
-
-        ![wireguard](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wireguard.png){class="glboxshadow"}
-
-    - AdGuard Home
-
-        ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){class="glboxshadow"}
-
-    - Tor
-
-        ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png){class="glboxshadow"}
-
-    - Statistiche del traffico (si riferiscono alla velocita media di tutto il traffico che passa attraverso il router. La velocita viene calcolata ogni 3 secondi.)
-
-        ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){class="glboxshadow"}
-
-    - Panoramica CPU
-
-        ![CPU overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png){class="glboxshadow"}
-
-    - Ora
-
-        ![time](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png){class="glboxshadow"}
-
-??? "Sistema"
-
-    Scorri dall'alto verso il basso per accedere alle impostazioni di sistema: Reboot e Lock Screen.
-
-    ![system settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png){class="glboxshadow"}
-
-    - Reboot: toccando "Reboot" verra visualizzato il prompt "Slide To Reboot" (verifica in due passaggi), quindi il router avviera il processo di riavvio.
-
-        ![slide to reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){class="glboxshadow"}
-
-    - Lock Screen: lo schermo si spegnera toccando l'opzione "Lock Screen". Tocca lo schermo per riattivarlo: verra visualizzata la pagina funzione in cui era rimasto. Toccando di nuovo verra visualizzato il prompt "Slide To Unlock".
-
-        ![slide to unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){class="glboxshadow"}
-
-### 3. Collega un dispositivo
+### 2. Collega un dispositivo
 
 Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al router tramite Wi-Fi o Ethernet.
 
@@ -127,11 +64,11 @@ Collega un dispositivo, ad esempio un computer, un laptop o uno smartphone, al r
 
     Sul dispositivo, individua il nome della rete Wi-Fi del router nell'elenco delle reti disponibili e inserisci la password per collegarti. Il nome di rete e la password predefiniti sono stampati sull'etichetta del router.
 
-### 4. Accedi al pannello di amministrazione web
+### 3. Accedi al pannello di amministrazione web
 
 Apri un browser web, inserisci `192.168.8.1` nella barra degli indirizzi ed effettua l'accesso. Scegli una lingua e imposta la password di amministrazione, quindi fai clic su **Apply**.
 
-### 5. Configurazione della connessione Internet
+### 4. Configurazione della connessione Internet
 
 **Note:** Le istruzioni seguenti si applicano agli utenti che configurano il router tramite il pannello di amministrazione web GL.iNet. Se preferisci usare l'app GL.iNet, [scarica l'app](https://www.gl-inet.com/app/){target="_blank"} e segui le istruzioni mostrate sullo schermo.
 

@@ -16,7 +16,7 @@ Wenn Sie einen GL.iNet Router mit einer Starlink-Schüssel verbinden möchten, f
 
     ![netacc](https://static.gl-inet.com/docs/router/en/4/faq/starlink/netacc.jpg){class="glboxshadow"}
 
-4. Öffnen Sie die Starlink App, gehen Sie zu Settings und aktivieren Sie den **Bypass mode**.
+4. Öffnen Sie die Starlink-App, gehen Sie zu Settings und aktivieren Sie **Bypass mode**.
 
 ---
 

@@ -162,6 +162,7 @@ nav:
       - インターネット:
           - 初回セットアップ: faq/first_time_setup.md
           - ブラウザの警告について: faq/warning_from_your_browser_during_setup.md
+          - インターネット接続のトラブルシューティングFAQ: faq/internet_connection_troubleshooting.md
           - キャプティブポータルでホットスポットに接続する: faq/connect_to_a_hotspot_with_captive_portal.md
           - 有線接続を作成する: faq/produce_a_wired_connection.md
       - 問題通知:

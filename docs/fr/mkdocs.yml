@@ -164,6 +164,7 @@ nav:
     - Internet:
       - Premiere configuration: faq/first_time_setup.md
       - Avertissement de votre navigateur: faq/warning_from_your_browser_during_setup.md
+      - FAQ de depannage de la connexion Internet: faq/internet_connection_troubleshooting.md
       - Se connecter a un hotspot public avec portail captif: faq/connect_to_a_hotspot_with_captive_portal.md
       - Connecter un appareil Ethernet uniquement au Wi-Fi: faq/produce_a_wired_connection.md
     - Notification de probleme:

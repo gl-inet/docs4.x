@@ -14,6 +14,7 @@ Pour les appareils KVM GL.iNet, veuillez consulter la [documentation KVM GL.iNet
 
 * [Configuration initiale](first_time_setup.md)
 * [Avertissement de votre navigateur](warning_from_your_browser_during_setup.md)
+* [FAQ de dépannage de la connexion Internet](internet_connection_troubleshooting.md)
 * [Comment connecter un routeur GL.iNet à des points d'accès publics avec un portail captif ?](connect_to_a_hotspot_with_captive_portal.md)
 * [Comment connecter au Wi-Fi un appareil ne disposant que d'un port Ethernet avec un routeur GL.iNet ?](produce_a_wired_connection.md)
 
@@ -76,4 +77,3 @@ Pour les appareils KVM GL.iNet, veuillez consulter la [documentation KVM GL.iNet
 * [Comment trouver toutes les adresses MAC de mon appareil ?](how_can_i_know_the_lan_wifi_mac.md)
 * [Où trouver l'ID de l'appareil, l'adresse MAC et le SN ?](where_to_find_the_device_id_mac_sn.md)
 * [Qu'est-ce que LuCI ?](what_is_luci.md)
-

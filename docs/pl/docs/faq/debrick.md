@@ -170,7 +170,7 @@ Obejrzyj ten samouczek wideo lub wykonaj poniższe czynności, aby uzyskać dost
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-5. W przeglądarce odwiedź adres **http://192.168.1.1**. To jest interfejs U-Boot Web UI.
+5. Użyj przeglądarki internetowej, aby otworzyć adres **http://192.168.1.1**. To jest interfejs U-Boot Web UI.
 
     ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 

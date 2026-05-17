@@ -170,7 +170,7 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-5. Utilisez un navigateur pour accéder à **http://192.168.1.1**. Il s’agit de l’interface Web U-Boot.
+5. Utilisez votre navigateur web pour accéder à **http://192.168.1.1**. Il s’agit de l’interface Web U-Boot.
 
     ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 

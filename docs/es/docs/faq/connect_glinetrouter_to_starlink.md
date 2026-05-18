@@ -16,7 +16,7 @@ Si necesita conectar un router GL.iNet a una antena Starlink, siga los pasos que
 
    ![netacc](https://static.gl-inet.com/docs/router/en/4/faq/starlink/netacc.jpg){class="glboxshadow"}
 
-4. Abra la aplicación Starlink, vaya a Settings y habilite **Bypass mode**.
+4. Abra la aplicación de Starlink, vaya a Settings y active **Bypass mode**.
 
 ---
 

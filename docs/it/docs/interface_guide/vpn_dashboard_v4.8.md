@@ -54,6 +54,26 @@ Nell'esempio seguente, il router si connette a un server australiano usando il p
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
+#### Tunnel Options
+
+Puoi configurare impostazioni avanzate per il tunnel VPN, come VPN Kill Switch, IP Masquerading e MTU.
+
+Fai clic sull'icona dell'ingranaggio nell'angolo in alto a destra.
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options1.png){class="glboxshadow"}
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options2.png){class="glboxshadow"}
+
+- **Kill Switch**: se abilitato, tutto il traffico instradato attraverso questo tunnel VPN verra' bloccato automaticamente se la connessione VPN fallisce. Se disabilitato, il traffico tornera' alla WAN locale e accedera' a Internet senza passare attraverso il tunnel VPN.
+
+- **Services from GL.iNet Use VPN**: se abilitato, i servizi GoodCloud, DDNS e rtty trasmetteranno i pacchetti attraverso i tunnel VPN. Questa opzione e' disabilitata per impostazione predefinita, poiche' questi servizi di norma richiedono il reale indirizzo IP del dispositivo per funzionare correttamente.
+
+- **Allow Remote Access the LAN Subnet**: se abilitato, sara' consentito l'accesso remoto a questo router e ai suoi dispositivi LAN tramite VPN. Il server VPN deve pubblicizzare una route verso la subnet LAN di questo router.
+
+- **IP Masquerading**: se abilitato, gli indirizzi IP sorgente dei client LAN verranno riscritti con l'IP del tunnel VPN del router. Disabilita questa opzione solo per configurazioni Site-to-Site in cui il peer remoto conosce le tue subnet LAN.
+
+- **MTU**: abbreviazione di Maximum Transmission Unit. Il valore MTU impostato per il tunnel sovrascrivera' il valore definito nel file di configurazione.
+
 ### Policy Mode
 
 In questa modalita', il router puo' connettersi a piu' server VPN e puoi personalizzare le regole di instradamento per diversi client o destinazioni del traffico.
@@ -256,11 +276,15 @@ Fai clic sull'icona dell'ingranaggio accanto al nome del tunnel e seleziona **Op
 
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
 
-- **Kill Switch**: se abilitato, il traffico che corrisponde a questo tunnel VPN verra' bloccato se la connessione VPN fallisce inaspettatamente. Se disabilitato, tale traffico effettuera' failover verso il tunnel successivo in priorita' o verso la WAN locale.
+- **Kill Switch**: se abilitato, tutto il traffico instradato attraverso questo tunnel VPN verra' bloccato automaticamente se la connessione VPN fallisce. Se disabilitato, il traffico effettuera' failover verso il tunnel successivo in priorita' oppure verso la WAN locale.
 
 - **Services from GL.iNet Use VPN**: se abilitato, i servizi GoodCloud, DDNS e rtty trasmetteranno i pacchetti attraverso i tunnel VPN. Questa opzione e' disabilitata per impostazione predefinita, poiche' questi servizi di norma richiedono il reale indirizzo IP del dispositivo per funzionare correttamente.
 
-- **Allow Remote Access the LAN Subnet**: se abilitato, sara' consentito l'accesso remoto a questo router e ai suoi dispositivi LAN tramite la VPN. Richiede che il server VPN pubblichi una route di ritorno verso la propria subnet LAN.
+- **Allow Remote Access the LAN Subnet**: se abilitato, sara' consentito l'accesso remoto a questo router e ai suoi dispositivi LAN tramite VPN. Il server VPN deve pubblicizzare una route verso la subnet LAN di questo router.
+
+- **IP Masquerading**: se abilitato, gli indirizzi IP sorgente dei client LAN verranno riscritti con l'IP del tunnel VPN del router. Disabilita questa opzione solo per configurazioni Site-to-Site in cui il peer remoto conosce le tue subnet LAN.
+
+- **MTU**: abbreviazione di Maximum Transmission Unit. Il valore MTU impostato per il tunnel sovrascrivera' il valore definito nel file di configurazione.
 
 ---
 

@@ -2,35 +2,31 @@
 
 GL.iNetルーターをAndroidスマホの5Gホットスポットにリピーターとして接続することは、インターネットにアクセスする一般的な方法の1つです。
 
-ただし、Androidスマホの5Gホットスポットをスキャンできない場合、Wi-Fi国コードに関連する問題が発生している可能性があります。
+ただし、Androidスマホの5Gホットスポットをスキャンできない場合、Wi-Fiチャンネルが原因である可能性があります。
 
-一部のAndroid phoneはデフォルトで5Gホットスポットを米国のチャンネルに設定しています。GL.iNetルーターが米国へけに購入されていない場合、この問題が発生する可能性があります。
+一部の Android スマートフォンでは、5G ホットスポットがデフォルトで米国のチャンネルに設定されています。GL.iNet ルーターを米国以外で購入した場合、この問題が発生する可能性があります。
 
-以下の手順でLuCIページでGL.iNetルーターのWi-Fi国コードを変更できます。
+以下の手順で、LuCI インターフェースから GL.iNet ルーターの Wi-Fi 国コードを変更できます。
 
-## ステップ1. LuCIにログイン
+1. GL.iNetルーターにログインし、**SYSTEM** -> **Advanced Settings** -> **Go to LuCI** に移動します。同じ管理者パスワードで LuCI にログインします。
 
-GL.iNetルーターにログインし、左サイドバーから**システム → 詳細設定 → LuCIを開く**を選択します。同じ管理者パスワードでLuCIにログインします。
+2. Wi-Fi 設定を編集します。
 
-## ステップ2. Wi-Fi設定を編集
+    **Network** -> **Wireless** に移動し、5G Wi-Fi を見つけて右側の **Edit** をクリックします。
 
-**ネットワーク → 無線LAN**に移動し、5G Wi-Fiを選択して編集します。GL-MT3000を使用している場合は、**ネットワーク → MTK Wi-Fi**に移動します。
+    ![5gwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gwifi.jpg){class="glboxshadow"}
 
-![5gwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gwifi.jpg){class="glboxshadow"}
+3. 国コードとして US を選択します。
 
-![mtkwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/mtkwifi.jpg){class="glboxshadow"}
+    Wireless ページで、**Device Configuration** の **Advanced Settings** タブを開き、5GHz Wi-Fi の国コードとして US (United States) を選択します。
 
-## ステップ3. 国コードとして米国を選択
+    ![5gus](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gus.jpg){class="glboxshadow"}
 
-**デバイス設定 → 詳細設定**で、5GHz Wi-Fiの国コードとして米国（United States）を選択します。
+4. **Save & Apply** をクリックしてからログアウトします。
 
-![5gus](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gus.jpg){class="glboxshadow"}
+    ![saveapply](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/saveapply.jpg){class="glboxshadow"}
 
-ログアウトする前に**保存して適用**をクリックします。
-
-![saveapply](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/saveapply.jpg){class="glboxshadow"}
-
-その後、Androidスマホの5Gホットスポットを再度スキャンしてみてください。
+    その後、Androidスマホの5Gホットスポットを再度スキャンしてみてください。
 
 ---
 

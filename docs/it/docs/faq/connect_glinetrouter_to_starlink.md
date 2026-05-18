@@ -16,7 +16,7 @@ Se devi collegare un router GL.iNet alla parabola Starlink, segui i passaggi rip
 
     ![netacc](https://static.gl-inet.com/docs/router/en/4/faq/starlink/netacc.jpg){class="glboxshadow"}
 
-4. Apri l'app Starlink, vai su Settings e abilita **Bypass mode**.
+4. Apri l'app Starlink, vai su **Settings** e abilita **Bypass mode**.
 
 ---
 

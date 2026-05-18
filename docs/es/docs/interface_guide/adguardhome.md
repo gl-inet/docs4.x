@@ -16,20 +16,20 @@ Active el interruptor para habilitar AdGuard Home y haga clic en **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- AdGuard Home Handle Client Requests: Si esta opción está habilitada, las consultas DNS de los dispositivos cliente serán gestionadas directamente por AdGuard Home. AdGuard Home mostrará los registros de consultas DNS de los clientes, pero esto hará que las políticas VPN basadas en dominios no funcionen.
+- **AdGuard Home Handle Client Requests**: Si está habilitado, las consultas DNS de los dispositivos cliente se procesarán directamente en AdGuard Home. Esto hará que las políticas VPN basadas en dominios y las reglas de control parental no surtan efecto.
 
-Esta página muestra estadísticas como consultas DNS, dominios bloqueados, etc., a través de la API proporcionada por AdGuard Home.
+Una vez habilitado, la página muestra estadísticas como consultas DNS y dominios bloqueados mediante la API proporcionada por AdGuard Home.
 
 ![adguard home web panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_web_panel.png){class="glboxshadow"}
 
-Luego haga clic en **Settings Page**.
+Haga clic en **Settings Page** en la parte superior de la página.
 
 ![adguard home started](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/settings_page.png){class="glboxshadow"}
 
-Será redirigido a la página oficial de configuración de AdGuard Home, donde podrá realizar configuraciones avanzadas para las reglas de filtrado, entre otras opciones.
+Será redirigido a la página oficial de configuración de AdGuard Home para configurar reglas de filtrado avanzadas.
 
 ![adguard home settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_dashboard.png){class="glboxshadow"}
 
-Si tiene alguna pregunta, visite el [Centro de soporte de AdGuard Home](https://adguard.com/en/support.html){target="\_blank"} para obtener más ayuda.
+Si tiene alguna consulta, visite el [AdGuard Home Support Center](https://adguard.com/en/support.html){target="\_blank"} para obtener más ayuda.
 
 ---

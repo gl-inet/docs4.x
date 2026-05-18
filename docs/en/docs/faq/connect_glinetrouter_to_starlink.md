@@ -16,7 +16,7 @@ If you need to connect a GL.iNet router to Starlink Dish, follow the steps below
 
     ![netacc](https://static.gl-inet.com/docs/router/en/4/faq/starlink/netacc.jpg){class="glboxshadow"}
 
-4. Open Starlink App, go to Settings and enable the **Bypass mode**.
+4. Open the Starlink app, go to Settings, and enable **Bypass mode**.
 
 ---
 

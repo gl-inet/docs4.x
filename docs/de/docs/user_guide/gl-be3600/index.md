@@ -24,9 +24,26 @@ Sehen Sie sich unten das Unboxing-Video von Slate 7 an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bEuwGm0hQ5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Touchscreen
+
+| Bildschirmanzeige | Beschreibung |
+| :---------------- | :----------- |
+| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png) | Startvorgang |
+| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png) | Netzwerkverbindungstypen und -status<br>**Grün**: Aktiv / Verbunden<br>**Gelb**: Verbindung wird hergestellt / Fehler<br>**Weiß**: Inaktive Verbindung |
+| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png) | Wi-Fi-Details einschließlich SSID, Passwort, QR-Code und Ein-/Aus-Schaltfläche |
+| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="284"} | VPN-Status. Die erstmalige Einrichtung erfolgt im Web-Admin-Panel |
+| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png) | AdGuard Home |
+| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png) | Tor |
+| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png) | Datenverkehrsstatistiken<br>Dies ist die Durchschnittsgeschwindigkeit des gesamten Datenverkehrs, der durch den Router läuft; sie wird alle 3 Sekunden berechnet |
+| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png) | Systemauslastung |
+| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png) | Zeitzone |
+| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png) | Systemmenü<br>Wischen Sie von oben nach unten, um das Systemmenü zu öffnen |
+| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png) | Tippen Sie auf den Bildschirm, um ihn zu aktivieren, und wischen Sie von links nach rechts, um ihn zu entsperren |
+| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png) | Klicken Sie auf „Reboot“ und wischen Sie dann von links nach rechts, um zu bestätigen |
+
 ## So richten Sie Slate 7 ein
 
-Watch this setup video or follow the steps below. 
+Sehen Sie sich dieses Setup-Video an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMHQK8wSQGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <small>(In this video we demonstrate the setup by configuring Slate 7 as Repeater. If you need to configure Slate 7 by other Internet connetion methods, please refer to the steps below.)</small>
@@ -35,87 +52,7 @@ Watch this setup video or follow the steps below.
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-### 2. Touchscreen
-
-??? "Power on"
-
-    When the router is powered on, the GL.iNet logo will be displayed on the screen, followed by the startup progress bar.
-
-    ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){class="glboxshadow"}
-    
-    Once the progress bar is fully loaded, the device startup is completed.
-
-??? "Network"
-
-    The home screen displays four icons representing four network connection types: Ethernet, Repeater, Tethering, and Cellular.
-
-    ![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
-
-    | Color               | Status                           |
-    | :------------------ | :------------------------------- |
-    | Green               | Active / Connected to Internet   |
-    | Yellow              | Connecting / Network Failure     |
-    | White               | Inactive connection              |
-
-    Click on any of these icons to view the network status or detailed configuration information.
-
-??? "Functions"
-
-    You can access functions by swiping left and right.
-
-    When sliding from right to left, the following items are displayed in sequence, some of which require pre-configuration in the admin panel. When sliding from left to right, the display order is reversed.
-
-    - Network connection
-
-        ![network connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){class="glboxshadow"}
-
-    - Tri-band Wi-Fi details (including the SSID, password, QR code and the switch button)
-
-        ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){class="glboxshadow"}
-
-    - OpenVPN
-
-        ![openvpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/nordvpn-4.7.jpg){class="glboxshadow"}
-
-    - WireGuard
-
-        ![wireguard](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wireguard.png){class="glboxshadow"}
-
-    - AdGuard Home
-
-        ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){class="glboxshadow"}
-
-    - Tor
-
-        ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png){class="glboxshadow"}
-
-    - Traffic statistics (It refers to the average speed of all traffic passing through the router. The speed is calculated every 3 seconds.)
-
-        ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){class="glboxshadow"}
-
-    - CPU overview
-
-        ![CPU overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png){class="glboxshadow"}
-
-    - Time
-
-        ![time](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png){class="glboxshadow"}
-
-??? "System"
-
-    Swipe from top to bottom to access the system settings: Reboot and Lock Screen.
-
-    ![system settings](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png){class="glboxshadow"}
-
-    - Reboot: Clicking the "Reboot" will display the "Slide To Reboot" prompt (two-step verification), then the router will initiate a restart process.
-
-        ![slide to reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){class="glboxshadow"}
-
-    - Lock Screen: The screen will turn off when clicking the "Lock Screen" option. Tap the screen to wake it up, and the function page where it last stayed will be displayed. Clicking again will display the "Slide To Unlock" prompt.
-
-        ![slide to unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){class="glboxshadow"}
-
-### 3. Connect device
+### 2. Gerät verbinden
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -127,11 +64,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name and password printed on your router's label.
 
-### 4. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**. 
 
-### 5. Internet einrichten
+### 4. Internet einrichten
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 

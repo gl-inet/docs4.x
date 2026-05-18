@@ -44,20 +44,20 @@ Attiva l'interruttore per abilitare AdGuard Home e fai clic su **Apply**.
 
 ![adguard home apply](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/apply.png){class="glboxshadow"}
 
-- AdGuard Home Handle Client Requests: se questa opzione è abilitata, le query DNS dei dispositivi client verranno gestite direttamente da AdGuard Home. AdGuard Home mostrerà i log delle query DNS dei client, ma questo impedirà il funzionamento delle policy VPN basate sul dominio.
+- **AdGuard Home Handle Client Requests**: se abilitata, le query DNS dei dispositivi client verranno elaborate direttamente da AdGuard Home. Questo renderà inefficaci le policy VPN basate sul dominio e le regole di parental control.
 
-Questa pagina mostra statistiche come query DNS, domini bloccati e così via, tramite l'API fornita da AdGuard Home.
+Una volta abilitata, la pagina mostra statistiche come query DNS e domini bloccati tramite l'API fornita da AdGuard Home.
 
 ![adguard home web panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_web_panel.png){class="glboxshadow"}
 
-Poi fai clic su **Settings Page**.
+Fai clic su **Settings Page** nella parte superiore della pagina.
 
 ![adguard home started](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/settings_page.png){class="glboxshadow"}
 
-Verrai reindirizzato alla pagina ufficiale delle impostazioni di AdGuard Home, dove potrai eseguire configurazioni avanzate per regole di filtro e così via.
+Verrai reindirizzato alla pagina ufficiale delle impostazioni di AdGuard Home per configurare regole di filtro avanzate.
 
 ![adguard home settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_dashboard.png){class="glboxshadow"}
 
-Se hai domande, visita [Adguard Home Support Center](https://adguard.com/en/support.html){target="_blank"} per ulteriore assistenza.
+Per qualsiasi domanda, visita [AdGuard Home Support Center](https://adguard.com/en/support.html){target="_blank"} per ulteriore assistenza.
 
 ---

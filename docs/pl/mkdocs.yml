@@ -163,6 +163,7 @@ nav:
     - Internet:
       - Pierwsza konfiguracja: faq/first_time_setup.md
       - Ostrzezenie przegladarki: faq/warning_from_your_browser_during_setup.md
+      - FAQ rozwiazywania problemow z polaczeniem internetowym: faq/internet_connection_troubleshooting.md
       - Polacz z publicznym hotspotem z portalem uwierzytelniajacym: faq/connect_to_a_hotspot_with_captive_portal.md
       - Podlacz urzadzenie tylko z Ethernetem do Wi-Fi: faq/produce_a_wired_connection.md
     - Powiadomienia o problemach:

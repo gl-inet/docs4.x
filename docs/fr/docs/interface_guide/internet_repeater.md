@@ -218,6 +218,7 @@ Lors de la connexion à un Wi‑Fi 5G en amont, le Wi‑Fi du routeur suivra le 
     - GL-A1300 (Slate Plus)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
     - GL-AR300M Series (Shadow)

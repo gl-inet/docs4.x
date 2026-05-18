@@ -54,6 +54,26 @@ Dans l'exemple ci-dessous, le routeur se connecte à un serveur australien via l
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
+#### Options du tunnel
+
+Vous pouvez configurer des paramètres avancés pour votre tunnel VPN, tels que le Kill Switch VPN, le masquage IP et le MTU.
+
+Cliquez sur l'icône d'engrenage en haut à droite.
+
+![options du mode global](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options1.png){class="glboxshadow"}
+
+![options du mode global](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options2.png){class="glboxshadow"}
+
+- **Kill Switch** : s'il est activé, tout le trafic acheminé via ce tunnel VPN sera automatiquement bloqué si la connexion VPN échoue. S'il est désactivé, le trafic basculera vers le WAN local et accédera à Internet sans passer par le tunnel VPN.
+
+- **Services from GL.iNet Use VPN** : si cette option est activée, les services GoodCloud, DDNS et rtty transmettront leurs paquets via les tunnels VPN. Cette option est désactivée par défaut, car ces services ont normalement besoin de la véritable adresse IP de l'appareil pour fonctionner correctement.
+
+- **Allow Remote Access the LAN Subnet** : si cette option est activée, l'accès à distance à ce routeur et à ses appareils LAN via le VPN sera autorisé. Le serveur VPN doit annoncer une route vers le sous-réseau LAN de ce routeur.
+
+- **IP Masquerading** : si cette option est activée, les adresses IP source des clients LAN seront réécrites avec l'adresse IP du tunnel VPN du routeur. Désactivez cette option uniquement pour les configurations site à site où le pair distant connaît vos sous-réseaux LAN.
+
+- **MTU** : abréviation de Maximum Transmission Unit. La valeur MTU que vous définissez pour le tunnel remplacera la valeur définie dans le fichier de configuration.
+
 ### Mode de stratégie {#policy-mode}
 
 Dans ce mode, le routeur peut se connecter à plusieurs serveurs VPN, et vous pouvez personnaliser les règles de routage pour différents clients ou différentes destinations de trafic.
@@ -256,15 +276,15 @@ Cliquez sur l'icône d'engrenage à côté du nom d'un tunnel, puis sélectionne
 
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
 
-- **Kill Switch** : s'il est activé, le trafic correspondant à ce tunnel VPN sera bloqué si la connexion VPN échoue de manière inattendue. S'il est désactivé, ce trafic basculera vers le tunnel de priorité suivante ou vers le WAN local.
+- **Kill Switch** : s'il est activé, tout le trafic acheminé via ce tunnel VPN sera automatiquement bloqué si la connexion VPN échoue. S'il est désactivé, le trafic basculera vers le tunnel de priorité suivante ou vers le WAN local.
 
 - **Services from GL.iNet Use VPN** : si cette option est activée, les services GoodCloud, DDNS et rtty transmettront leurs paquets via les tunnels VPN. Cette option est désactivée par défaut, car ces services ont normalement besoin de la véritable adresse IP de l'appareil pour fonctionner correctement.
 
-- **Allow Remote Access the LAN Subnet** : si cette option est activée, l'accès à distance à ce routeur et à ses appareils LAN via le VPN sera autorisé. Cela nécessite que le serveur VPN annonce une route de retour vers son sous-réseau LAN.
+- **Allow Remote Access the LAN Subnet** : si cette option est activée, l'accès à distance à ce routeur et à ses appareils LAN via le VPN sera autorisé. Le serveur VPN doit annoncer une route vers le sous-réseau LAN de ce routeur.
 
 - **IP Masquerading** : si cette option est activée, les adresses IP source des clients LAN seront réécrites avec l'adresse IP du tunnel VPN du routeur. Désactivez cette option uniquement pour les configurations site à site où le pair distant connaît vos sous-réseaux LAN.
 
-- **MTU** : la valeur MTU que vous définissez pour le tunnel remplacera les paramètres MTU du fichier de configuration.
+- **MTU** : abréviation de Maximum Transmission Unit. La valeur MTU que vous définissez pour le tunnel remplacera la valeur définie dans le fichier de configuration.
 
 ---
 

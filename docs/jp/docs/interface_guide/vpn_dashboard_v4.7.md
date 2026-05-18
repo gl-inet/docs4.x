@@ -2,97 +2,95 @@
 
 Web管理パネルにログインし、**VPN** -> **VPN Dashboard** に移動します。
 
-VPN Dashboard ページでは、VPNの状態確認と設定を行います。セクションは [VPNクライアント](#vpn-client) と [VPNサーバー](#vpn-server) の2つです。
+VPN Dashboard ページでは、サーバーアドレス、トラフィック統計、クライアント仮想IP、接続ログなどのVPN接続情報を確認できるほか、VPNキルスイッチ、VPNポリシー、IPマスカレーディング、MTU、VPN Cascading などの詳細設定も行えます。
 
-![glinet vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_1.png){class="glboxshadow"}
+このページは、[VPNクライアント](#vpn-client) と [VPNサーバー](#vpn-server) の2つのセクションに分かれています。
+
+![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_initial.png){class="glboxshadow"}
 
 ## VPNクライアント {#vpn-client}
 
-初期状態では OpenVPN と WireGuard の設定はありません。**Set Up Now** をクリックすると、それぞれ [OpenVPN Client](openvpn_client.md) と [WireGuard Client](wireguard_client.md) のページへ移動します。
+このページを初めて開いたときに OpenVPN と WireGuard の設定ファイルがまだない場合は、以下のように表示されます。**Set Up Now** をクリックすると、[OpenVPN Client](openvpn_client.md) または [WireGuard Client](wireguard_client.md) のページに移動し、VPN設定ファイルをアップロードできます。
 
-![glinet vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_client_set_up_now.png){class="glboxshadow"}
+![vpn client set up](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnclient_setup.png){class="glboxshadow"}
 
-設定が完了すると、Configuration file 列で設定ファイルを選択できます。
+アップロード後、設定は **Configuration File** 列に表示されます。複数の設定ファイルをアップロードしている場合は、ボックスをクリックして切り替えられます。
 
-![glinet vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_client_configuration_file.png){class="glboxshadow"}
+![configuration files](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnclient_config.png){class="glboxshadow"}
 
-### VPNクライアントオプション {#vpn-client-options}
+### クライアントオプション
 
-OpenVPN または WireGuard の歯車アイコンをクリックします。
+右側の歯車アイコンをクリックすると、OpenVPN または WireGuard のクライアントオプションを開けます。
 
-![glinet vpn dashboard, vpn client options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_client_options.png){class="glboxshadow"}
+![vpn client options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnclient_options.png){class="glboxshadow"}
 
-OpenVPN client のオプション。
+OpenVPN Client Options は次のように表示されます。
 
-![glinet vpn dashboard, openvpn client options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/openvpn_client_options.png){class="glboxshadow"}
+![openvpn client options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnclient_options_ovpn.png){class="glboxshadow"}
 
-WireGuard client のオプション。
+WireGuard Client Options は次のように表示されます。
 
-![glinet vpn dashboard, wireguard client options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/wireguard_client_options.png){class="glboxshadow"}
+![wg client options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnclient_options_wg.png){class="glboxshadow"}
 
-* Allow Remote Access LAN
+- **Remote Access LAN**: 有効にすると、VPN経由でこのルーターおよびそのLAN側デバイスへリモートアクセスできるようになります。VPNサーバー側では、このルーターのLANサブネットへのルートを通知している必要があります。
 
-    このオプションを有効にすると、ルーター配下に接続されたデバイスが VPN Server 側のLANへアクセスできるようになります。VPN Server 側でも適切な設定が必要です。
+    たとえば下図のように、GL.iNet ルーターが VPN クライアントとして動作し、VPN トンネル経由で VPN サーバーに接続している場合、このオプションを有効にすると VPN サーバー側のデバイス（例: NAS）から GL.iNet ルーター本体とそのLAN側デバイスへアクセスできるようになります。そのためには、VPNサーバー側に GL.iNet ルーターのLANサブネットへ到達するためのルーティングルールを追加する必要があります。
 
-    たとえば下の図では、このオプションを有効にすると *Your Device* から *NAS* へアクセスできるようになります。ただし、VPN Server 側でも、そのサブネット内の NAS へのアクセスを許可している必要があります。
+    ![allow remote access LAN](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/allow_remote_access_lan_diagram.png){class="glboxshadow gl-80-desktop"}
 
-    ![allow remote access LAN](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/allow_remote_access_lan_diagram.png){class="glboxshadow"}
+- **IP Masquerading**: 有効にすると、LAN クライアントの送信元IPアドレスはルーターのVPNトンネルIPに書き換えられます。リモートピアがLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
 
-* IP Masquerading
-
-    このオプションを有効にすると、LAN上のクライアントデバイスがIPパケットを送信する際、ルーターが送信元IPアドレスを自分自身のアドレスに書き換えてからVPNトンネルへ転送します。
-
-* MTU
-
-    Maximum Transmission Unit の略です。ここで設定したMTUは、インスタンスの設定ファイル内にある MTU 項目を上書きします。
+- **MTU**: Maximum Transmission Unit の略です。このオプション設定ではVPNトンネルの MTU をカスタマイズでき、設定ファイル内で定義された値を上書きします。
 
 ### プロキシモード
 
-![vpn proxy](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_proxy.png){class="glboxshadow"}
+VPN接続の既定のプロキシモードは **Global Proxy** です。右上のボックスをクリックすると、別のプロキシモードへ切り替えられます。
 
-上図では現在のプロキシモードは Global Proxy です。Global Proxy をクリックすると、別のプロキシモードへ切り替えられます。種類は **Global Proxy**、**Policy Mode**、**Route Mode** の3つです。
+![vpn proxy](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnclient_proxy.png){class="glboxshadow"}
+
+利用できるプロキシモードは **Global Proxy**、**Policy Mode**、**Route Mode** の3種類です。
 
 1. Global Proxy
 
-    すべてのトラフィックがVPN経由になります。有効にできるVPNクライアントインスタンスは1つだけです。
+    このモードでは、すべてのトラフィックがVPN経由でルーティングされます。有効にできるVPNクライアントインスタンスは1つだけです。
 
 2. Policy Mode
 
-    1. Based on the target domain or IP.
+    このモードは、さらに3つのポリシーに分かれます。
 
-        このモードでは、IPアドレスまたはドメイン名で定義した特定のWebサイト向けのトラフィックだけがVPNを通ります。有効にできるVPNクライアントインスタンスは1つだけです。
+    - Based on the Target Domain or IP.
 
-    2. Based on the client device.
+        このモードでは、IPアドレスまたはドメイン名で識別される特定のWebサイト向けトラフィックだけがVPN経由でルーティングされます。有効にできるVPNクライアントインスタンスは1つだけです。
 
-        このモードでは、MACアドレスで定義した特定のローカルクライアントデバイスのトラフィックだけがVPNを通ります。有効にできるVPNクライアントインスタンスは1つだけです。
+    - Based on the Client Device.
 
-    3. Based on the VLAN.
+        このモードでは、MACアドレスで識別される特定のLANデバイスのトラフィックだけがVPN経由でルーティングされます。有効にできるVPNクライアントインスタンスは1つだけです。
 
-        このモードでは、特定のVLANのトラフィックだけがVPNを通ります。有効にできるVPNクライアントインスタンスは1つだけです。
+    - Based on the VLAN.
+
+        このモードでは、特定の VLAN のトラフィックだけがVPN経由でルーティングされます。有効にできるVPNクライアントインスタンスは1つだけです。
 
 3. Route Mode
 
-    1. Auto detect
+    - Auto Detect
 
-        各VPNクライアント設定ファイルで定義されたルーティングルール、またはVPNサーバーから配布されたルーティング設定が使用されます。
+        各VPNクライアント設定ファイルで定義されたルーティングルール、またはVPNサーバーから配布されたルーティングルールが使用されます。
 
-    2. Customize routing rules
+    - Customize Routing Rules
 
         各VPNクライアントインスタンスごとに、ルーティングルールを手動で設定できます。
 
-### VPNクライアントのグローバルオプション
+### グローバルオプション
 
-**Global Options** をクリックすると、グローバルオプションのダイアログが表示されます。
+右上の **Global Options** をクリックすると、VPNクライアントの詳細設定を行えます。
 
-![global options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/global_options_of_vpn_client_1.png){class="glboxshadow"}
+![vpnclient global options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnclient_global_options_1.png){class="glboxshadow"}
 
-![global options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/global_options_of_vpn_client_2.png){class="glboxshadow"}
+![global options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnclient_global_options_2.png){class="glboxshadow"}
 
-1. Block Non-VPN Traffic
+- **Block Non-VPN Traffic**: 有効にすると、すべてのインターネットトラフィックはVPNトンネルのみを通過するよう強制され、ローカルISPのWANなど他のインターフェース経由ではルーティングされません。VPN接続が予期せず切断された場合も、通常のWANへのフォールバックを防ぐため、すべてのインターネットトラフィックが完全にブロックされます。これにより、VPN障害やクライアントのDNS設定ミスなどに起因するVPNリークを防げます。
 
-    このオプションを有効にすると、VPNトンネルをバイパスしようとするすべてのクライアントデバイスのトラフィックがブロックされます。これにより、クライアントのDNS設定、VPN接続の切断、IP直接指定のアプリ通信などによるVPNリークを効果的に防げます。
-
-    この機能は [VPN Kill Switch](https://cybernews.com/what-is-vpn/vpn-kill-switch/){target="_blank"} とも呼ばれます。データがインターネットへ漏れるのを防ぐための機能です。多くのVPNプロバイダーは、VPN接続が切断された場合にコンピューター、スマートフォン、タブレットを自動的にインターネットから切断する Kill Switch 機能を提供しています。GL.iNet ルーターの Block Non-VPN Traffic 機能は、さらに多くの漏えい経路に対応しており、以下の6つのシナリオを防ぎます。
+    この機能は [VPN Kill Switch](https://cybernews.com/what-is-vpn/vpn-kill-switch/){target="_blank"} とも呼ばれます。ユーザーデータがオンライン上に漏れるのを防ぐ機能です。一般的な Kill Switch は、VPN接続が失敗した際にインターネット接続を自動的に遮断します。GL.iNet ルーターの Block Non-VPN Traffic 機能は、より広範なリーク保護を提供し、次のシナリオに対応します。
 
     1. DNS Leak
 
@@ -100,109 +98,79 @@ WireGuard client のオプション。
 
     3. WebRTC Leak
 
-    4. Dropped VPN Connection
+    4. VPN Connection Drop
 
-    5. Programs Started Before VPN
+    5. Applications Launched Before VPN Establishment
 
-    6. Application Specific Leaks
+    6. Per-Application Traffic Leaks
 
-2. Allow Access WAN
+- **Allow Access WAN**: 有効にすると、VPN接続中でもローカルクライアントデバイスは WAN 側のサービス（上位サブネット内のプリンター、NAS など）へアクセスできます。
 
-    このオプションを有効にすると、VPN接続中でもクライアントデバイスは WAN にアクセスできます。たとえば上位サブネット内のプリンターや NAS にアクセスできます。
+    ![vpn client allow access wan](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
 
-    ![vpn dashboard allow acdess wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
+    上図のように、この機能を有効にすると、ローカルデバイスから上位サブネット内のプリンターやNASなどへアクセスできます。
 
-    上図のように、この機能をオンにすると、デバイスは上流サブネット内のプリンターや NAS などの機器にアクセスできます。
+    このオプションは主に、クライアントが上位サブネット内の機器へアクセスできるようにするためのものです。ただし、ルーターは上位サブネット向けトラフィックと通常のインターネットトラフィックを区別できません。クライアントデバイスがパブリックIPへ直接アクセスした場合は、トラフィックリークの可能性があります。そのため、**Allow Access WAN** と **Block Non-VPN Traffic** は相互排他的で、同時に有効化できません。
 
-    主な用途は、クライアントが上流サブネット内の機器へアクセスできるようにすることです。ただし、ルーターは上流サブネットとインターネットを区別できないため、クライアントデバイスのトラフィックがIPで直接アクセスされた場合はリークのリスクがあります。そのため、このオプションと Block Non-VPN Traffic は相互排他的です。
-
-3. Services From GL.iNet Use VPN
-
-    このオプションを有効にすると、通常は実IPアドレスが必要なルーター上のサービスもVPNを使用します。対象は GoodCloud、DDNS、rtty です。rtty には [GoodCloud ページ](cloud.md#enable-goodcloud) の **Remote SSH** と **Remote Web Access** が含まれます。
-
-    主な目的は、VPN Client と [GoodCloud](cloud.md) / [DDNS](ddns.md) を同時に使えるようにすることです。GoodCloud を使う場合は、このオプションをオフにすることを推奨します。オンのままだと GoodCloud の安定性がVPNの状態に影響されます。DDNS を使う場合は、このオプションを必ずオフにしてください。オンのままだと DDNS は VPN Server のIPアドレスを指すようになります。
+- **Services From GL.iNet Use VPN**: 有効にすると、GoodCloud、DDNS、rtty の各サービスはVPNトンネル経由でパケットを送信します。これらのサービスは通常デバイスの実IPアドレスを必要とするため、このオプションはデフォルトで無効です。
 
 ## VPNサーバー {#vpn-server}
 
-初期状態では、どちらの VPN Server もまだ初期化されていません。**Set Up Now** をクリックすると、それぞれ [OpenVPN Server](openvpn_server.md) と [WireGuard Server](wireguard_server.md) のページへ移動します。
+ルーターが OpenVPN サーバーまたは WireGuard サーバーとしてまだ設定されたことがない場合、ページは以下のように表示されます。**Set Up Now** をクリックすると、**OpenVPN Server** または **WireGuard Server** ページに移動し、VPNサーバーを初期設定できます。
 
-![vpn dashboard vpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server.png){class="glboxshadow"}
+![vpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnserver_setup.png){class="glboxshadow"}
 
-OpenVPN Server と WireGuard Server を起動した後の状態です。
+OpenVPN Server または WireGuard Server を有効にすると、ページには次のようにサーバー状態が表示されます。
 
-![vpn dashboard vpn server started](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpn_dashboard_vpn_server_started.png){class="glboxshadow"}
+![vpn server enabled](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnserver_connected.png){class="glboxshadow"}
 
-### OpenVPNサーバーオプション
+### サーバーオプション
 
-OpenVPN server の歯車アイコンをクリックします。
+右側の歯車アイコンをクリックすると、OpenVPN または WireGuard のサーバーオプションを開けます。
 
-![openvpn server options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/openvpn_server_options_btn.png){class="glboxshadow"}
+![vpn server options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnserver_options.png){class="glboxshadow"}
 
-![openvpn server options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/openvpn_server_options.png){class="glboxshadow"}
+OpenVPN Server Options は次のように表示されます。
 
-* **Allow Remote Access LAN**
+![openvpn server options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnserver_options_ovpn.png){class="glboxshadow"}
 
-    このオプションを有効にすると、LANサブネット内のリソースへVPNトンネル経由でアクセスできるようになります。
+WireGuard Server Options は次のように表示されます。
 
-* **IP Masquerading**
+![wg server options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnserver_options_wg.png){class="glboxshadow"}
 
-    このオプションを有効にすると、LAN上のクライアントデバイスがIPパケットを送信する際、ルーターが送信元IPアドレスを自分自身のアドレスに書き換えてからVPNトンネルへ転送します。
+* **Remote Access LAN**: 有効にすると、サーバー側LANサブネット内のリソースへVPNトンネル経由でアクセスできるようになります。
 
-* **MTU**
+* **IP Masquerading**: 有効にすると、LAN クライアントの送信元IPアドレスはルーターのVPNトンネルIPに書き換えられます。リモートピアがLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
 
-    ここで設定したMTUは、インスタンスの設定ファイル内にある MTU 項目を上書きします。
+* **MTU**: Maximum Transmission Unit の略です。ここで設定したトンネルの MTU 値は、設定ファイル内の MTU 設定を上書きします。
 
-### OpenVPNサーバーのルートルール
+* **Client to Client**: 有効にすると、このサーバーに接続した VPN クライアント同士がVPNトンネルIP経由で相互にアクセスできます。さらに互いのLANサブネットにもアクセスさせたい場合は、VPNサーバー側でそれらのリモートLANサブネットへのルートを通知する必要があります。
 
-OpenVPN server のネットワークアイコンをクリックします。
+### サーバールートルール
 
-![openvpn server route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/openvpn_server_route_rule_btn.png){class="glboxshadow"}
+右側のルートアイコンをクリックすると、必要に応じて OpenVPN または WireGuard のルートルールをカスタマイズできます。
 
-Customize routes mode では、VPNクライアントは設定ファイルおよびサーバーから配布されたルーティング設定を無視します。任意のネットワークセグメントにアクセスする際に、VPNが提供する暗号化トンネルを使うかどうかは、手動で設定したルーティングルールによって決まります。
+![server route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnserver_route_rule.png){class="glboxshadow"}
 
-![openvpn server route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/openvpn_server_route_rule.png){class="glboxshadow"}
+OpenVPN Server Route Rule は次のように表示されます。**Add Route Rule** をクリックし、**Target Address** と **Gateway** を入力して、緑色のチェックアイコンをクリックして適用します。
 
-### WireGuardサーバーオプション
+![openvpn server route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnserver_route_rule_ovpn.png){class="glboxshadow"}
 
-WireGuard server の歯車アイコンをクリックします。
+WireGuard Server Route Rule は次のように表示されます。**Add Route Rule** をクリックし、**Target Address** と **Gateway** を入力して、緑色のチェックアイコンをクリックして適用します。
 
-![wireguard server options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/wireguard_server_options_btn.png){class="glboxshadow"}
+![wg server route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
-![wireguard server options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/wireguard_server_options.png){class="glboxshadow"}
+**Note**: カスタムルートモードでは、VPNクライアントは設定ファイルおよびサーバーから配布されたルーティング設定を無視します。任意のネットワークセグメントへアクセスする際にVPN暗号化トンネルを使用するかどうかは、手動で設定したルートルールによって決まります。
 
-* **Allow Remote Access LAN**
+### グローバルオプション
 
-    このオプションを有効にすると、LANサブネット内のリソースへVPNトンネル経由でアクセスできるようになります。
+右上の **Global Options** をクリックすると、VPNサーバーの詳細設定を行えます。
 
-* **IP Masquerading**
+![vpn server global options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnserver_global_options_1.png){class="glboxshadow"}
 
-    このオプションを有効にすると、LAN上のクライアントデバイスがIPパケットを送信する際、ルーターが送信元IPアドレスを自分自身のアドレスに書き換えてからVPNトンネルへ転送します。
+![vpn server global options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/vpnserver_global_options_2.png){class="glboxshadow"}
 
-* **MTU**
-
-    ここで設定したMTUは、インスタンスの設定ファイル内にある MTU 項目を上書きします。
-
-* **Client to Client**
-
-    WireGuard クライアント同士が相互に通信できるようになります。拠点間接続ではなく、外出先から自宅やオフィスの内部ネットワーク機器にアクセスしたい場合に便利です。また、暗号化処理により、ポートフォワーディングより安全で、接続後の動作もより安定して高速になります。
-
-### WireGuardサーバーのルートルール
-
-WireGuard server のネットワークアイコンをクリックします。
-
-![wireguard server route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/wireguard_server_route_rule_btn.png){class="glboxshadow"}
-
-Customize routes mode では、VPNクライアントは設定ファイルおよびサーバーから配布されたルーティング設定を無視します。任意のネットワークセグメントにアクセスする際に、VPNが提供する暗号化トンネルを使うかどうかは、手動で設定したルーティングルールによって決まります。
-
-![wireguard server route rule](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/wireguard_server_route_rule.png){class="glboxshadow"}
-
-### VPNサーバーのグローバルオプション
-
-![Global Options of VPN Server](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/global_options_of_vpn_server_1.png){class="glboxshadow"}
-
-![Global Options of VPN Server](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/global_options_of_vpn_server_2.png){class="glboxshadow"}
-
-- **VPN Cascading**: このオプションを有効にすると、このルーター上で VPN server と VPN Client の両方を実行している場合に、VPN server へ接続したクライアントのトラフィックはさらに VPN client トンネルへルーティングされます。[VPN Cascading の詳細はこちら](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)。
+- **VPN Cascading**: 有効にすると、このルーターが VPN サーバーと VPN クライアントを同時に実行している場合、このルーターのVPNサーバーに接続したリモートVPNクライアントのトラフィックは、このルーターがVPNクライアントとして使用している上流VPNトンネル経由でルーティングされます。[VPN Cascading の詳細はこちら](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)。
 
 ---
 

@@ -54,6 +54,26 @@ W poniższym przykładzie router łączy się z serwerem australijskim za pomoc�
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
+#### Opcje tunelu
+
+Możesz skonfigurować zaawansowane ustawienia tunelu VPN, takie jak VPN Kill Switch, maskowanie IP i MTU.
+
+Kliknij ikonę koła zębatego w prawym górnym rogu.
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options1.png){class="glboxshadow"}
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options2.png){class="glboxshadow"}
+
+- **Kill Switch**: Jeśli opcja jest włączona, każdy ruch kierowany przez ten tunel VPN zostanie automatycznie zablokowany, gdy połączenie VPN przestanie działać. Jeśli opcja jest wyłączona, ruch wróci do lokalnego WAN i uzyska dostęp do Internetu bez przechodzenia przez tunel VPN.
+
+- **Services from GL.iNet Use VPN**: Jeśli opcja jest włączona, usługi GoodCloud, DDNS i rtty będą przesyłać pakiety przez tunele VPN. Ta opcja jest domyślnie wyłączona, ponieważ usługi te zwykle wymagają prawdziwego adresu IP urządzenia do prawidłowego działania.
+
+- **Allow Remote Access the LAN Subnet**: Jeśli opcja jest włączona, zdalny dostęp do tego routera i jego urządzeń LAN przez VPN będzie dozwolony. Serwer VPN musi rozgłaszać trasę do podsieci LAN tego routera.
+
+- **Maskowanie IP**: Jeśli opcja jest włączona, źródłowe adresy IP klientów LAN zostaną przepisane na adres IP tunelu VPN routera. Wyłącz tę opcję tylko w konfiguracjach site-to-site, w których zdalny węzeł zna Twoje podsieci LAN.
+
+- **MTU**: Skrót od Maximum Transmission Unit. Wartość MTU ustawiona dla tunelu nadpisze wartość zdefiniowaną w pliku konfiguracyjnym.
+
 ### Tryb polityk {#policy-mode}
 
 W tym trybie router może łączyć się z wieloma serwerami VPN, a użytkownik może definiować niestandardowe reguły routingu dla różnych klientów lub celów ruchu.
@@ -256,15 +276,15 @@ Kliknij ikonę koła zębatego obok nazwy tunelu i wybierz **Options**.
 
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
 
-- **Kill Switch**: jeśli włączony, ruch pasujący do tego tunelu VPN zostanie zablokowany w przypadku niespodziewanego zerwania połączenia VPN. Jeśli wyłączony, taki ruch zostanie przekierowany do tunelu o kolejnym priorytecie lub przez lokalny WAN.
+- **Kill Switch**: Jeśli opcja jest włączona, każdy ruch kierowany przez ten tunel VPN zostanie automatycznie zablokowany, gdy połączenie VPN przestanie działać. Jeśli opcja jest wyłączona, ruch zostanie przełączony awaryjnie do tunelu o następnym priorytecie lub do lokalnego WAN.
 
-- **Services from GL.iNet Use VPN**: jeśli włączony, usługi GoodCloud, DDNS i rtty będą przesyłać pakiety przez tunele VPN. Opcja jest domyślnie wyłączona, ponieważ usługi te zazwyczaj wymagają prawdziwego adresu IP urządzenia do prawidłowego działania.
+- **Services from GL.iNet Use VPN**: Jeśli opcja jest włączona, usługi GoodCloud, DDNS i rtty będą przesyłać pakiety przez tunele VPN. Ta opcja jest domyślnie wyłączona, ponieważ usługi te zwykle wymagają prawdziwego adresu IP urządzenia do prawidłowego działania.
 
-- **Allow Remote Access the LAN Subnet**: jeśli włączony, zdalny dostęp do tego routera i jego urządzeń LAN przez VPN będzie dozwolony. Wymaga, aby serwer VPN rozgłaszał trasę powrotną do swojej podsieci LAN.
+- **Allow Remote Access the LAN Subnet**: Jeśli opcja jest włączona, zdalny dostęp do tego routera i jego urządzeń LAN przez VPN będzie dozwolony. Serwer VPN musi rozgłaszać trasę do podsieci LAN tego routera.
 
-- **Maskowanie IP**: jeśli włączone, źródłowe adresy IP klientów LAN zostaną przepisane na adres IP tunelu VPN routera. Wyłącz tę opcję tylko w konfiguracjach site-to-site, gdzie zdalny węzeł zna Twoje podsieci LAN.
+- **Maskowanie IP**: Jeśli opcja jest włączona, źródłowe adresy IP klientów LAN zostaną przepisane na adres IP tunelu VPN routera. Wyłącz tę opcję tylko w konfiguracjach site-to-site, w których zdalny węzeł zna Twoje podsieci LAN.
 
-- **MTU**: wartość MTU ustawiona dla tunelu nadpisuje ustawienia MTU zawarte w pliku konfiguracyjnym.
+- **MTU**: Skrót od Maximum Transmission Unit. Wartość MTU ustawiona dla tunelu nadpisze wartość zdefiniowaną w pliku konfiguracyjnym.
 
 ---
 

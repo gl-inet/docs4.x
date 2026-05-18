@@ -54,6 +54,26 @@ VPN Dashboard で、右上のボタンをクリックしてVPNモードを切り
 
 ![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
+#### トンネルオプション {#global-tunnel-options}
+
+このVPNトンネルでは、VPNキルスイッチ、IPマスカレーディング、MTU などの詳細設定を構成できます。
+
+右上の歯車アイコンをクリックします。
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options1.png){class="glboxshadow"}
+
+![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options2.png){class="glboxshadow"}
+
+- **Kill Switch**: 有効にすると、このVPNトンネルを経由するすべてのトラフィックは、VPN接続が失敗したときに自動的にブロックされます。無効にすると、トラフィックはローカルWANへフォールバックし、VPNトンネルを通らずにインターネットへアクセスします。
+
+- **Services from GL.iNet Use VPN**: 有効にすると、GoodCloud、DDNS、rtty の各サービスはVPNトンネル経由でパケットを送信します。これらのサービスは通常デバイスの実IPアドレスを必要とするため、このオプションはデフォルトで無効です。
+
+- **Allow Remote Access the LAN Subnet**: 有効にすると、VPN経由でこのルーターおよびそのLANデバイスへリモートアクセスできるようになります。VPNサーバー側では、このルーターのLANサブネットへのルートを通知している必要があります。
+
+- **IP Masquerading**: 有効にすると、LAN クライアントの送信元IPアドレスはルーターのVPNトンネルIPに書き換えられます。リモートピアがLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
+
+- **MTU**: Maximum Transmission Unit の略です。ここで設定したトンネルの MTU 値は、設定ファイルで定義された値を上書きします。
+
 ### ポリシーモード {#policy-mode}
 
 このモードでは、ルーターは複数のVPNサーバーに接続でき、クライアントやトラフィック宛先ごとにルーティングルールをカスタマイズできます。
@@ -256,15 +276,14 @@ Policy Mode では、VPN Dashboard の下部に<u>あらかじめ有効になっ
 
 ![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
 
-- **Kill Switch**: 有効にすると、このVPNトンネルに一致するトラフィックは、VPN接続が予期せず切断された場合にブロックされます。無効にすると、そのトラフィックは次順位のトンネルまたはローカルWANへフェイルオーバーします。
-
+- **Kill Switch**: 有効にすると、このVPNトンネルを経由するすべてのトラフィックは、VPN接続が失敗すると自動的にブロックされます。無効にすると、トラフィックは次順位のトンネルまたはローカルWANへフェイルオーバーします。
 - **Services from GL.iNet Use VPN**: 有効にすると、GoodCloud、DDNS、rtty の各サービスはVPNトンネル経由でパケットを送信します。これらのサービスは通常デバイスの実IPアドレスを必要とするため、このオプションはデフォルトで無効です。
 
 - **Allow Remote Access the LAN Subnet**: 有効にすると、VPN経由でこのルーターおよびそのLANデバイスにリモートアクセスできます。VPNサーバー側で、そのLANサブネットへの戻りルートが通知されている必要があります。
 
 - **IP Masquerading**: 有効にすると、LANクライアントの送信元IPアドレスはルーターのVPNトンネルIPに書き換えられます。リモートピアがLANサブネットを認識している Site-to-Site 構成の場合にのみ無効にしてください。
 
-- **MTU**: ここで設定したMTU値は、設定ファイル内のMTU設定を上書きします。
+- **MTU**: Maximum Transmission Unit の略です。ここで設定したトンネルの MTU 値は、設定ファイルで定義された値を上書きします。
 
 ---
 

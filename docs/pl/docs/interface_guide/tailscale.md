@@ -124,7 +124,7 @@ Kroki konfiguracji są następujące.
 
 3. Włącz trasy podsieci.
 
-    ![tailcale, enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+    ![tailcale enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
 4. Teraz możesz uzyskać dostęp do GL-AXT1800 za pośrednictwem jego adresu IP (`192.168.29.1`) z innych urządzeń. W praktyce możesz uzyskać dostęp do wszystkich urządzeń w podsieci `192.168.29.0/24`.
 
@@ -186,27 +186,35 @@ W poniższym przykładzie router GL.iNet **GL-MT2500** i **Leo-Desktop** znajduj
 
     W wyskakującym oknie włącz trasy podsieci.
 
-    ![tailcale, enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+    ![tailcale enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
 2. Na urządzeniu, które ma pełnić rolę Exit Node, takim jak Leo-Desktop w tym przykładzie, wybierz **Run exit node**. Poniżej przykład dla systemu Windows.
 
-    ![tailscale windows, run exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node.png){class="glboxshadow"}
+    ![tailscale windows run exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node.png){class="glboxshadow"}
 
     Następnie kliknij **Yes**.
 
-    ![tailscale windows, run exit ndoe alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
+    ![tailscale windows run exit ndoe](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
 
 3. W konsoli administracyjnej Tailscale skonfiguruj Leo-Desktop jako Exit Node.
 
-    ![tailscale exit node alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_exit_node_alert.png){class="glboxshadow"}
+    ![tailscale edit route settings](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_exit_node_alert.png){class="glboxshadow"}
 
     ![tailscale use as exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_use_as_exit_node.png){class="glboxshadow"}
 
 4. Zaloguj się do panelu administracyjnego GL-MT2500, przejdź do **APPLICATIONS** -> **Tailscale** i włącz **Custom Exit Nodes**. Kliknij przycisk odświeżania, wybierz adres IP Leo-Desktop z menu rozwijanego, a następnie kliknij **Apply**.
 
-    ![glinet tailscale, custom exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow"}
+    ![glinet tailscale custom exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow"}
 
     Urządzenia podłączone do routera będą wtedy kierować swój ruch przez Exit Node, aby uzyskać dostęp do Internetu, a cały ruch internetowy będzie wyglądał tak, jakby pochodził z lokalizacji Exit Node.
+
+5. **Rozwiązywanie problemów**: Jeśli po włączeniu **Custom Exit Node** urządzenia podłączone do routera GL.iNet nie mają dostępu do Internetu, sprawdź, czy w konsoli administracyjnej Tailscale włączono trasy podsieci routera.
+
+    W panelu administracyjnym routera może pojawić się odpowiedni komunikat, jak pokazano poniżej.
+
+    ![exit node troubleshooting](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/troubleshooting.jpg){class="glboxshadow"}
+
+    Aby rozwiązać problem, włącz trasy podsieci routera w konsoli administracyjnej Tailscale zgodnie z **Krokiem 1** powyżej.
 
 Odniesienia: [Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/){target="_blank"}
 

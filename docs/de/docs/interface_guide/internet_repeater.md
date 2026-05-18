@@ -218,6 +218,7 @@ Wenn eine Verbindung zu einem Upstream-5G-Wi-Fi hergestellt wird, übernimmt das
     - GL-A1300 (Slate Plus)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
     - GL-AR300M Series (Shadow)

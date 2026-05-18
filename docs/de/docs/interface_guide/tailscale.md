@@ -106,7 +106,7 @@ Wenn diese Option aktiviert ist, kann über das virtuelle Tailscale-Netzwerk auf
 
 Wie in der folgenden Topologie gezeigt, können Sie bei aktivierter Funktion beispielsweise vom `leo-phone` über seine IP-Adresse (`192.168.29.1`) auf den `GL-AXT1800` zugreifen. Der Grund ist, dass der GL-AXT1800 das übergeordnete Gerät des `GL-MT2500` ist und letzterer mit demselben Tailscale-Netzwerk wie leo-phone verbunden ist.
 
-![tailscale, remote access wan topology](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_wan_topology.png){class="glboxshadow"}
+![remote access wan topology](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_wan_topology.png){class="glboxshadow"}
 
 Die Schritte sind wie folgt.
 
@@ -114,7 +114,7 @@ Die Schritte sind wie folgt.
 
     Aktivieren Sie **Allow Remote Access WAN** und klicken Sie auf **Apply**.
 
-    ![enable allow remote access wan](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/enable_allow_remote_access_wan.png){class="glboxshadow"}
+    ![enable remote access wan](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/enable_allow_remote_access_wan.png){class="glboxshadow"}
 
 2. Gehen Sie zur Tailscale Admin Console. Dort wird ein Hinweis angezeigt, dass der GL-MT2500 Subnetze hat.
 
@@ -124,11 +124,11 @@ Die Schritte sind wie folgt.
 
 3. Aktivieren Sie die Subnetzrouten.
 
-    ![tailcale, enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+    ![tailcale enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
 4. Jetzt können Sie auf anderen Geräten über seine IP-Adresse (`192.168.29.1`) auf den GL-AXT1800 zugreifen. Tatsächlich können Sie auf alle Geräte innerhalb des Subnetzes `192.168.29.0/24` zugreifen.
 
-    ![tailscale, access axt1800](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
+    ![tailscale access axt1800](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
 ## Fernzugriff auf LAN erlauben
 
@@ -136,7 +136,7 @@ Wenn diese Option aktiviert ist, kann über das virtuelle Tailscale-Netzwerk auf
 
 Wie in der folgenden Topologie gezeigt, können Sie bei aktivierter Funktion beispielsweise vom `leo-phone` aus per SSH über die IP-Adresse (`192.168.8.110`) eine Anmeldung bei `Ubuntu` durchführen. Der Grund ist, dass `Ubuntu` das untergeordnete Gerät des `GL-MT2500` ist und letzterer mit demselben Tailscale-Netzwerk wie leo-phone verbunden ist.
 
-![tailscale, remote access lan topology](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_lan_topology.png){class="glboxshadow"}
+![remote access lan topology](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_lan_topology.png){class="glboxshadow"}
 
 Die Schritte sind wie folgt.
 
@@ -154,11 +154,11 @@ Die Schritte sind wie folgt.
 
 3. Aktivieren Sie die Subnetzrouten.
 
-    ![tailscale, enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes_lan.png){class="glboxshadow"}
+    ![tailscale enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes_lan.png){class="glboxshadow"}
 
 4. Jetzt können Sie auf anderen Geräten `ping` an Ubuntu senden oder sich per SSH über dessen IP-Adresse (`192.168.8.110`) bei Ubuntu anmelden. Tatsächlich können Sie auf alle Geräte innerhalb des Subnetzes `192.168.8.0/24` zugreifen.
 
-    ![tailscale, access ubuntu](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_ubuntu.png){class="glboxshadow gl-80-desktop"}
+    ![tailscale access ubuntu](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_ubuntu.png){class="glboxshadow gl-80-desktop"}
 
 ## Benutzerdefinierte Exit Nodes
 
@@ -186,27 +186,35 @@ Im folgenden Beispiel befinden sich ein GL.iNet-Router **GL-MT2500** und ein **L
 
     Aktivieren Sie im Pop-up-Fenster die Subnetzrouten.
 
-    ![tailcale, enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
+    ![tailcale enable subnet route](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_enable_subnet_routes.png){class="glboxshadow"}
 
 2. Wählen Sie auf dem Gerät, das Sie als Exit Node verwenden möchten – in diesem Beispiel Leo-Desktop – **Run exit node** aus. Nachfolgend sehen Sie ein Beispiel unter Windows.
 
-    ![tailscale windows, run exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node.png){class="glboxshadow"}
+    ![tailscale windows run exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node.png){class="glboxshadow"}
 
     Klicken Sie dann auf **Yes**.
 
-    ![tailscale windows, run exit ndoe alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
+    ![tailscale windows run exit ndoe](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_run_exit_node_alert.png){class="glboxshadow"}
 
 3. Richten Sie Leo-Desktop in der Tailscale Admin Console als Exit Node ein.
 
-    ![tailscale exit node alert](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_exit_node_alert.png){class="glboxshadow"}
+    ![tailscale edit route settings](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_exit_node_alert.png){class="glboxshadow"}
 
     ![tailscale use as exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/tailscale_use_as_exit_node.png){class="glboxshadow"}
 
 4. Melden Sie sich im Web-Admin-Panel des GL-MT2500 an, gehen Sie zu **APPLICATIONS** -> **Tailscale** und aktivieren Sie **Custom Exit Nodes**. Klicken Sie auf die Schaltfläche zum Aktualisieren, wählen Sie im Dropdown-Menü die IP-Adresse des Leo-Desktop aus und klicken Sie dann auf **Apply**.
 
-    ![glinet tailscale, custom exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow"}
+    ![glinet tailscale custom exit node](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/custom_exit_node.png){class="glboxshadow"}
 
     Geräte, die mit dem Router verbunden sind, leiten ihren Datenverkehr dann über die Exit Node ins Internet, und Ihr gesamter Internetverkehr scheint vom Standort der Exit Node aus zu stammen.
+
+5. **Fehlerbehebung**: Wenn Geräte, die mit dem GL.iNet-Router verbunden sind, nach dem Aktivieren von **Custom Exit Node** nicht auf das Internet zugreifen können, prüfen Sie in der Tailscale Admin Console, ob die Subnetzrouten des Routers aktiviert sind.
+
+    Im Web-Admin-Panel des Routers kann ein entsprechender Hinweis wie unten dargestellt erscheinen.
+
+    ![exit node troubleshooting](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/custom_exit_nodes/troubleshooting.jpg){class="glboxshadow"}
+
+    Aktivieren Sie zur Behebung die Subnetzrouten des Routers in der Tailscale Admin Console wie in **Schritt 1** oben beschrieben.
 
 [Weiterführender Link: Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/)
 

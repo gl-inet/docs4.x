@@ -32,7 +32,7 @@ Watch this setup video or follow the steps below.
 
 Install Nano-SIM card(s) on your Mudi 7. If you prefer using eSIM, skip this and turn to step 2.
 
-First, remove the battery cover, then take out Mudi 7's battery.
+First, use the small notch at the bottom-right corner of the device's back cover as a leverage point. Pry along the seam to create a gap, then open the back cover and remove the Mudi 7 battery.
 
 Second, insert the Nano-SIM card(s). If using only one card, prioritize SIM 1.
 

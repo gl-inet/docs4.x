@@ -136,6 +136,51 @@ You can upgrade to the **AstroWarp+** plan for unlimited data as needed.
 
 ![upgrade plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/upgrade_plan.png){class="glboxshadow"}
 
+## FAQ
+
+1. **Q: What is the format of the dynamic access code, and how long is it valid?**
+
+    A: It is an 8-character code combining numbers and uppercase letters, valid for 10 minutes.
+
+2. **Q: What happens to the travel router if I terminate the connection on the home router?**
+
+    A: The travel router will disconnect and be pending with no network access. Once the home router resumes connection, the travel router can reconnect automatically without entering the access code again.
+
+3. **Q: What if the free data runs out or the AstroWarp+ plan expires on the home router?**
+
+    A: The travel router will enter pending state with no network access and will not switch to the local network automatically.
+
+4. **Q: In what scenarios will the travel router enter pending state?**
+    
+    A: The travel router will enter pending state when the home router meets any of the following conditions:
+    
+    - Terminates the AstroWarp connection
+    - Runs out of free data quota
+    - Reaches the expiry date of the AstroWarp+ plan (if applicable)
+    - Loses internet access
+
+5. **Q: What does the Reset button in the top right corner do?**
+
+    A: It will clear all authorized devices and revert to the router role selection page for re-selection.
+
+6. **Q: What happens to the travel router if I reset the AstroWarp on the home router?**
+
+    A: Once the home router is reset, the remotely connected devices will be disconnected from the AstroWarp network and revert to their local network for internet access.
+
+7. **Q: If I upgrade the home router to the AstroWarp+ plan and switch its role to travel router while the plan is still valid, can the remaining plan duration be retained?**
+
+    A: Remaining valid period cannot be retained and will expire when it reaches the due date. To avoid unnecessary losses, switch the device role after your current plan expires.
+
+8. **Q: If I have enabled the new AstroWarp in the router's web Admin Panel, how do I disable it and switch back to the legacy AstroWarp?**
+
+    A: In the router's web Admin Panel, go to **CLOUD SERVICES** -> **AstroWarp** and click **Reset** in the top right corner. 
+    
+    ![reset](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/reset.png){class="glboxshadow"}
+    
+    Then log in to [astrowarp.net](https://my.astrowarp.net/#/login){target="_blank"} using your cloud account. After login, click the **"+"** button to add the router to your AstroWarp network.
+
+    ![add device](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/add_device.png){class="glboxshadow"}
+
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

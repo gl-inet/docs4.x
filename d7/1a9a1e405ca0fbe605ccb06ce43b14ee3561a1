@@ -1,0 +1,25 @@
+docs/en/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+  s_7a34ae867a2ca2::t_9b37283e8ca245 3,19,39,49,57,85,103,111,121,129,151,169,183,191,219,233,247,264,278,288,302,340,345,352-357,360-370
+  h_dd47ed8a860c1a 146,156,158,160,162,164,248,252,260,269,271,273,283,293,295,297,307,309,311,313,315,335,344,358-359,380
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.9",
+  "base_commit_sha": "d71a9a1e405ca0fbe605ccb06ce43b14ee3561a1",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_7a34ae867a2ca2": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "f7b18390-acaf-41f6-b380-6bdad9fefe05",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

@@ -36,7 +36,7 @@ If you don't have a public IP address, here are some methods for your reference.
 
 1. If you have a main router, login to it and check if it gets the public IP from your ISP.
 2. Ask your ISP for a public IP address. It may require an extra fee.
-3. If the above two ways don't work, for example, if you are in a CGNAT, you can use a reverse proxy solution. Alternatively, you may try an SD-WAN solution - [AstroWarp](https://www.astrowarp.net/). 
+3. If the above two methods don't work (e.g., if your network is behind CGNAT), you may try our SD-WAN solution [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}. 
 
 ### Check if Port Forwarding is required
 

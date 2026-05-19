@@ -2,11 +2,11 @@
 
 **Note**: This guide covers the new version of AstroWarp.
 
-The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalone AstroWarp platform to establish remote network connections. See [here](https://docs.astrowarp.net/){target="_blank"} for documentation on the legacy AstroWarp.
-
-By contrast, the new AstroWarp is integrated into the GL.iNet router SDK. It adopts the AmneziaWG protocol with built-in traffic obfuscation, delivering stable and secure connections for reliable remote access anytime, anywhere.
+The new AstroWarp is integrated into the GL.iNet router SDK. It adopts the AmneziaWG protocol with built-in traffic obfuscation, delivering stable and secure connections for reliable remote access anytime, anywhere.
 
 This feature enables seamless remote access to your home network. You can directly set up and pair devices via a dynamic access code in the web Admin Panel, quickly establishing a secure connection between your travel router and home network in just seconds, with no registration or login required.
+
+The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalone AstroWarp platform to establish remote network connections. See [here](https://docs.astrowarp.net/){target="_blank"} for documentation on the legacy AstroWarp.
 
 **Note:** 
 
@@ -16,6 +16,8 @@ This feature enables seamless remote access to your home network. You can direct
 ## Supported Models
 
 ??? "Supported Models"
+
+    These models are compatible with the new AstroWarp. To view the supported model list for the legacy AstroWarp, click [here](https://docs.astrowarp.net/en/quick_start/){target="_blank"}.
 
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
@@ -29,6 +31,9 @@ This feature enables seamless remote access to your home network. You can direct
     **Note**: Models marked with ※ support the integrated AstroWarp in Beta firmware.
 
 ??? "Unsupported Models"
+
+    These devices are incompatible with the new AstroWarp, while certain models still work with the legacy AstroWarp. Refer to [here](https://docs.astrowarp.net/en/quick_start/){target="_blank"} for details.
+
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)

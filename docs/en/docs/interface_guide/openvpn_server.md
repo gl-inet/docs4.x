@@ -16,7 +16,7 @@ Alternative methods:
 
 1. If you have a primary router, log in to it and check if it gets a public IP from your ISP.
 2. Ask your ISP for a public IP address. This may incur an extra fee.
-3. If the above two methods don't work (e.g., if your network is behind CGNAT), you may try our SD-WAN solution [AstroWarp](https://www.astrowarp.net/){target="_blank"}. 
+3. If the above two methods don't work (e.g., if your network is behind CGNAT), you may try our SD-WAN solution [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}. 
 
 ## Confirm if Port Forwarding is required
 

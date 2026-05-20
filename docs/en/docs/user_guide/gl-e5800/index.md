@@ -113,7 +113,7 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
     
     ![ethernet connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
 
-    1. Connect Mudi 7's Ethernet port to an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) via an Ethernet cable. 
+    1. Connect your Mudi 7's Ethernet port to an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) via an Ethernet cable. 
     2. On the touchscreen or web admin panel, go to **Network** -> **Ethernet Ports**, set the port role to **WAN**, and click **Apply**.
 
         ![touchscreen ethernet wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-ethernet-wan.png){class="glboxshadow"}

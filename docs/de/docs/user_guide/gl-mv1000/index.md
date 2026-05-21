@@ -2,9 +2,9 @@
 
 ## Produktübersicht
 
-Brume (GL-MV1000) and Brume-W (GL-MV1000W) are powerful and stable networking products designed to do cutting-edge computing. With the Marvell high-performance chipset, the Brume and Brume-W* can run state-of-the-art cryptography at impressive speeds for an excellent VPN routing experience. Pre-installed OpenWrt and supported Ubuntu, Brume and Brume-W* allows in-depth developments for commercial IoT projects.
+Brume (GL-MV1000) und Brume-W (GL-MV1000W) sind leistungsstarke und stabile Netzwerkprodukte für anspruchsvolle Rechenaufgaben. Mit dem leistungsfähigen Marvell-Chipsatz können Brume und Brume-W moderne Kryptografie mit beeindruckender Geschwindigkeit ausführen und bieten dadurch ein hervorragendes VPN-Routing-Erlebnis. Dank vorinstalliertem OpenWrt und unterstütztem Ubuntu ermöglichen Brume und Brume-W zudem eine tiefgehende Entwicklung für kommerzielle IoT-Projekte.
 
-Brume-W (GL-MV1000W) is the special edition of Brume (GL-MV1000) that comes with an embedded Wi-Fi module, which delivers high-speed Wi-Fi performance on 2.4GHz Wi-Fi with up to 300Mbps Wi-Fi speed.
+Brume-W (GL-MV1000W) ist die Sonderedition von Brume (GL-MV1000) mit integriertem Wi-Fi-Modul, das im 2,4-GHz-Wi-Fi Geschwindigkeiten von bis zu 300 Mbit/s ermöglicht.
 
 ## Technische Daten
 
@@ -14,7 +14,7 @@ Brume-W (GL-MV1000W) is the special edition of Brume (GL-MV1000) that comes with
 
 ## Erste Einrichtung
 
-All GL.iNet routers have a similar setup process. [Click here to learn about the first time-setup](../../faq/first_time_setup.md/).
+Alle GL.iNet-Router haben einen ähnlichen Einrichtungsprozess. [Klicken Sie hier, um mehr über die erste Einrichtung zu erfahren](../../faq/first_time_setup.md/).
 
 ---
 
@@ -24,11 +24,11 @@ Melden Sie sich im Web-Admin-Panel des Routers an und wechseln Sie im linken Men
 
 Auf dieser Seite können Sie je nach Modell Ihre Internetverbindungsart auswählen, z. B. Ethernet, Repeater, Tethering und Cellular.
 
-For Brume (GL-MV1000), it supports three types of connection type: Ethernet, Tethering, and Cellular.
+Brume (GL-MV1000) unterstützt drei Verbindungsarten: Ethernet, Tethering und Cellular.
 
 ### Ethernet
 
-Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
+Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem aktiven Netzwerkgerät, um eine Internetverbindung herzustellen. Diese Methode bietet in der Regel die schnellste und zuverlässigste Internetverbindung.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
@@ -36,7 +36,7 @@ Connect your router to an active modem or an active network device via an Ethern
 
 ### Tethering
 
-Connect the router's USB port to a smartphone with active mobile data via a USB cable to access the Internet. This method enables multiple devices connected to the router to access the internet using the smartphone's mobile data.
+Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit aktiver mobiler Datenverbindung, um auf das Internet zuzugreifen. Mit dieser Methode können mehrere mit dem Router verbundene Geräte die mobile Datenverbindung des Smartphones nutzen.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
@@ -44,7 +44,7 @@ Connect the router's USB port to a smartphone with active mobile data via a USB 
 
 ### Cellular
  
-Connect the router to the internet by plugging a cellular-enabled USB modem into the router's USB port. This method is useful for sharing internet from a USB modem to all connected devices.
+Verbinden Sie den Router mit dem Internet, indem Sie ein mobilfunkfähiges USB-Modem an den USB-Port des Routers anschließen. Diese Methode eignet sich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein USB-Modem eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 

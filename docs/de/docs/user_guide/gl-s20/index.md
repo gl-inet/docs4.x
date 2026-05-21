@@ -59,16 +59,16 @@
 
 ## Erste Einrichtung
 
-Please refer to [GL-S20](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/){target="_blank"} on IoT docs.
+Bitte lesen Sie in der IoT-Dokumentation die Seite [GL-S20](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/){target="_blank"}.
 
 ---
 
 ## Benutzerhandbuch
 
-Please refer to [User Manual](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/user_manual/){target="_blank"} on IoT docs.
+Bitte lesen Sie in der IoT-Dokumentation das [Benutzerhandbuch](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/user_manual/){target="_blank"}.
 
 ---
 
 ## Anleitung zur Firmware-Kompilierung
 
-Please refer to [Firmware Compilation Guide](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/user_manual/gl-s20-tbr_firmware_compilation_guide/){target="_blank"} on IoT docs.
+Bitte lesen Sie in der IoT-Dokumentation die [Anleitung zur Firmware-Kompilierung](https://docs.gl-inet.com/iot/en/thread_board_router/gl-s20/user_manual/gl-s20-tbr_firmware_compilation_guide/){target="_blank"}.

@@ -2,7 +2,7 @@
 
 ## Produktübersicht
 
-Brume 3 (GL-MT5000) is a high-performance security gateway running OpenWrt v21.02, equipped with a MediaTek Quad-core Cortex-A53 CPU, 1GB RAM, and 8GB eMMC storage for plugin expansion. It features a compact design, ideal for space-constrained deployments, and supports home VPN hosting, site-to-site SD-WAN, as well as over 30 VPN services for secure, cross-location connectivity. What's more, it comes with GL.iNet's DPI feature, as well as Parental Control and AdGuard Home, meeting the diverse needs of tech enthusiasts and business users.
+Brume 3 (GL-MT5000) ist ein leistungsstarkes Security Gateway mit OpenWrt v21.02. Es ist mit einer MediaTek Quad-Core-Cortex-A53-CPU, 1 GB RAM und 8 GB eMMC-Speicher für die Erweiterung per Plug-ins ausgestattet. Dank seines kompakten Designs eignet es sich ideal für Installationen mit begrenztem Platzangebot und unterstützt VPN-Hosting zu Hause, Site-to-Site-SD-WAN sowie mehr als 30 VPN-Dienste für sichere standortübergreifende Verbindungen. Darüber hinaus verfügt es über die DPI-Funktion von GL.iNet sowie Kindersicherung und AdGuard Home und deckt damit die unterschiedlichen Anforderungen von Technikbegeisterten und Geschäftsanwendern ab.
 
 ![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
 
@@ -27,57 +27,57 @@ Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Sc
 
 ### 1. Einschalten
 
-Put the two-piece power adapter together. Connect it to your Brume 3 and plug it into an outlet. It will start up automatically.
+Setzen Sie den zweiteiligen Netzadapter zusammen. Schließen Sie ihn an Ihren Brume 3 an und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
 ### 2. Gerät verbinden
 
-Connect a wired device (e.g., a computer or laptop) to the Brume 3's LAN port via an Ethernet cable.
+Verbinden Sie ein kabelgebundenes Gerät, z. B. einen Computer oder Laptop, per Ethernet-Kabel mit dem LAN-Port des Brume 3.
 
 ### 3. Im Web-Admin-Panel anmelden
 
-**Note:** The following instructions apply to users configuring the router via the GL.iNet Web Admin Panel.
+**Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren.
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
 ### 4. Internet einrichten
 
-Richten Sie Brume 3 mit einer der unterstützten Internetverbindungsmethoden ein: Ethernet, Tethering, and Cellular (optional). If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
+Richten Sie Brume 3 mit einer der unterstützten Internetverbindungsmethoden ein: Ethernet, Tethering und Cellular (optional). Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindung ein.
 
 === "Ethernet"
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_ethernet.png){class="glboxshadow"}
 
-    Connect the Brume 3's WAN port to an upstream device (such as a modem) via an ethernet cable.
+    Verbinden Sie den WAN-Port des Brume 3 per Ethernet-Kabel mit einem vorgelagerten Gerät, beispielsweise einem Modem.
 
-    Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Ethernet" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
+    Sobald Brume 3 erfolgreich mit dem Internet verbunden ist, erscheint auf der Seite INTERNET des Web-Admin-Panels neben "Ethernet" ein grüner Punkt und die physische LED des Brume 3 leuchtet dauerhaft weiß.
 
-    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über ein Ethernet-Kabel eine Verbindung zum Internet herstellen](../../interface_guide/internet_ethernet.md).
 
 === "Tethering"
 
     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device to the USB Type-C port of Brume 3 via a USB 3.0 data cable.
-    2. In your mobile device's settings, enable USB tethering.
-    3. On the INTERNET page of the web Admin Panel, click **Connect** in the "Tethering" section.
+    1. Verbinden Sie Ihr Mobilgerät über ein USB-3.0-Datenkabel mit dem USB-Type-C-Port des Brume 3.
+    2. Aktivieren Sie in den Einstellungen Ihres Mobilgeräts USB-Tethering.
+    3. Klicken Sie auf der Seite INTERNET des Web-Admin-Panels im Abschnitt "Tethering" auf **Connect**.
 
-    Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Tethering" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
+    Sobald Brume 3 erfolgreich mit dem Internet verbunden ist, erscheint auf der Seite INTERNET des Web-Admin-Panels neben "Tethering" ein grüner Punkt und die physische LED des Brume 3 leuchtet dauerhaft weiß.
 
-    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über USB-Tethering eine Verbindung zum Internet herstellen](../../interface_guide/internet_tethering.md).
 
 === "Cellular"
 
-    An additional USB-C to USB-A adapter cable is required for this connection method.
+    Für diese Verbindungsmethode wird zusätzlich ein Adapterkabel von USB-C auf USB-A benötigt.
 
-    Plug a cellular USB modem into the USB Type-C port of Brume 3 via an additional USB-C to USB-A adapter cable. This is useful for sharing internet from a USB modem to all connected client devices.
+    Schließen Sie ein Mobilfunk-USB-Modem über ein zusätzliches USB-C-auf-USB-A-Adapterkabel an den USB-Type-C-Port des Brume 3 an. Dies ist nützlich, um die Internetverbindung eines USB-Modems mit allen verbundenen Client-Geräten zu teilen.
 
-    Once Brume 3 is successfully connected to the internet, a green dot will appear next to "Cellular" on the INTERNET page of the Web Admin Panel, and the physical LED on the Brume 3 will turn to solid white.
+    Sobald Brume 3 erfolgreich mit dem Internet verbunden ist, erscheint auf der Seite INTERNET des Web-Admin-Panels neben "Cellular" ein grüner Punkt und die physische LED des Brume 3 leuchtet dauerhaft weiß.
 
-    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über Mobilfunk eine Verbindung zum Internet herstellen](../../interface_guide/internet_cellular.md).
 
 ---
 
-Below is an overview of the features in the Brume 3 web Admin Panel.
+Im Folgenden finden Sie einen Überblick über die Funktionen im Web-Admin-Panel von Brume 3.
 
 ## Clients
 

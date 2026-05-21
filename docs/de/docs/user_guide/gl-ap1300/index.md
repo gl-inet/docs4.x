@@ -2,7 +2,7 @@
 
 ## Produktübersicht
 
-Cirrus (GL-AP1300) ceiling wireless access point is an elite business-class level gateway with MU-MIMO Wi-Fi solution. PoE power supply and Watchdog timer built-in function are implemented in order to fulfill most enterprise-level user cases. With well-developed Goodcloud management system, managing the device is very easy and convenient. You can enable a remote and secure access wherever you are and whenever you want.
+Cirrus (GL-AP1300) ist ein Wireless Access Point zur Deckenmontage der gehobenen Business-Klasse mit MU-MIMO-Wi-Fi-Lösung. Zur Abdeckung typischer Unternehmensszenarien verfügt er über PoE-Stromversorgung und eine integrierte Watchdog-Timer-Funktion. Mit dem ausgereiften GoodCloud-Verwaltungssystem lässt sich das Gerät einfach und komfortabel verwalten. So können Sie jederzeit und von überall einen sicheren Fernzugriff aktivieren.
 
 ![gl-ap1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ap1300/hardware_info/ap1300_interface.jpg){class="glboxshadow"}
 
@@ -24,17 +24,17 @@ Melden Sie sich im Web-Admin-Panel des Routers an und wechseln Sie im linken Men
 
 Auf dieser Seite können Sie je nach Modell Ihre Internetverbindungsart auswählen, z. B. Ethernet, Repeater, Tethering und Cellular.
 
-For Cirrus (GL-AP1300), it supports two types of connection type: Ethernet and Repeater.
+Cirrus (GL-AP1300) unterstützt zwei Verbindungsarten: Ethernet und Repeater.
 
 ### Ethernet
 
-Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
+Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem aktiven Netzwerkgerät, um eine Internetverbindung herzustellen. Diese Methode bietet in der Regel die schnellste und zuverlässigste Internetverbindung.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
 ### Repeater
 
-Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
+Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehenden Wi-Fi-Netzwerks zu erweitern. Als Repeater empfängt und sendet er Funksignale innerhalb seiner Reichweite erneut aus und vergrößert damit die Abdeckung. Diese Methode ist nützlich, wenn ein einzelner Router den gesamten Einsatzbereich nicht abdecken kann.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 

@@ -1,0 +1,51 @@
+docs/de/docs/user_guide/gl-ar750s/index.md
+  s_9fdeb76af3279b::t_72e6518598e5f1 5,46,54,62,70
+docs/de/docs/user_guide/gl-mt1300/index.md
+  s_9fdeb76af3279b::t_c64ad2d8888353 5,42,50,58,66,100,108,115,186,188
+docs/de/docs/user_guide/gl-s1300/index.md
+  s_9fdeb76af3279b::t_c64ad2d8888353 5,29,35,41,47,175,177
+docs/de/docs/user_guide/gl-x750/index.md
+  s_9fdeb76af3279b::t_c64ad2d8888353 5,7,31,39,47,55,57,63
+docs/de/docs/user_guide/gl-mv1000/index.md
+  s_9fdeb76af3279b::t_5cd9893532e0c9 5,7,17,27,31,39,47
+docs/de/docs/user_guide/gl-ap1300/index.md
+  s_9fdeb76af3279b::t_5cd9893532e0c9 5,27,31,37
+docs/de/docs/user_guide/gl-m2/index.md
+  s_9fdeb76af3279b::t_5cd9893532e0c9 5,34,44
+docs/de/docs/user_guide/gl-s200/index.md
+  s_9fdeb76af3279b::t_c64ad2d8888353 5,62,70
+docs/de/docs/user_guide/gl-b1300/index.md
+  s_9fdeb76af3279b::t_5cd9893532e0c9 5,44,50,56,62
+docs/de/docs/user_guide/gl-xe300/index.md
+  s_9fdeb76af3279b::t_c64ad2d8888353 5,24,46,54,62,70,72
+docs/de/docs/user_guide/gl-s20/index.md
+  s_9fdeb76af3279b::t_5cd9893532e0c9 62,68,74
+docs/de/docs/user_guide/gl-mt5000/index.md
+  s_9fdeb76af3279b::t_5cd9893532e0c9 5,30,34,38,44,50,52,54,60-62,64,66,70,72,74,76,80
+docs/de/docs/user_guide/gl-x300b/index.md
+  s_9fdeb76af3279b::t_c64ad2d8888353 116,120,128,136,138,144
+docs/de/docs/user_guide/gl-mt2500/index.md
+  s_9fdeb76af3279b::t_5b7f3cea26a3b8 223
+  s_9fdeb76af3279b::t_72e6518598e5f1 19,25,35,47,49,51,57-59,61,63,69,71,73,75,79,83,85-86,90,92-93,97,99,103,111,113,117,119,125,127,131,133,137,139,145,147,151,153,157,159,165,167,173,177,179,183,185,191,193,197,199,203,209,211,215,217,221,229,231,235,237,241,243,249,251-256,258,260,264,266-267,269,271,275,277-278,280,282,288,290,294,296-300,302,304,308,310-313,315,317,323,325,329,331
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "26fab3373ae1085529bae494d5d6a1676ebd79f2",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_9fdeb76af3279b": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "c06f3a1d-6012-4045-95af-7a965597cf75",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

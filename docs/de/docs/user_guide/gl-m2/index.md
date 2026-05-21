@@ -2,7 +2,7 @@
 
 ## Hardwareinformationen
 
-GL-M2 is a 5G development board for DIY enthusiasts who would like to build their own routers and modems. With GL-M2's 5G Module and 5G antennas, it provides a quality 5G cellular network.
+GL-M2 ist ein 5G-Entwicklungsboard für DIY-Enthusiasten, die ihre eigenen Router und Modems bauen möchten. Mit dem 5G-Modul und den 5G-Antennen des GL-M2 stellt es eine hochwertige 5G-Mobilfunkverbindung bereit.
 
 ![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
@@ -31,7 +31,7 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
 1. Installieren Sie das Modul und die Antenne.
 
-    Use an RF conversion extension cable or an SMA antenna connection cable to connect the antenna to the IPEX interface on the module. 
+    Verwenden Sie ein HF-Konverter-Verlängerungskabel oder ein SMA-Antennenkabel, um die Antenne mit der IPEX-Schnittstelle des Moduls zu verbinden.
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_1.jpg){class="glboxshadow"}
 
@@ -41,7 +41,7 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
 3. Einschalten.
 
-    Connect to a DC power supply and use a Type-C to USB 3.0 data cable to [connect to the router](#connect-gl-m2-to-glinet-routers) or other device.
+    Schließen Sie das Board an eine Gleichstromversorgung an und verwenden Sie ein Type-C-auf-USB-3.0-Datenkabel, um es mit dem [Router](#connect-gl-m2-to-glinet-routers) oder einem anderen Gerät zu verbinden.
 
     ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
 

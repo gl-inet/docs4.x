@@ -2,9 +2,9 @@
 
 ## Produktübersicht
 
-Spitz is a 3G/4G dual-band wireless router, widely used for smart home and IoT area. Running OpenWRT OS, you can compile your own firmware to fit for different application scenarios. It has built-in mini PCIe 3G/4G module to support different operators and can be used all over the world.
+Spitz ist ein 3G/4G-Dualband-Wireless-Router, der häufig im Smart-Home- und IoT-Bereich eingesetzt wird. Mit dem Betriebssystem OpenWrt können Sie Ihre eigene Firmware für verschiedene Anwendungsszenarien kompilieren. Er verfügt über ein integriertes Mini-PCIe-3G/4G-Modul, unterstützt unterschiedliche Betreiber und kann weltweit verwendet werden.
 
-Spitz V2 (GL-X750V2) is the advanced version of Spitz (GL-X750). It comes with the redesigned PCBA and optimized antennas to improve the 4G performance.
+Spitz V2 (GL-X750V2) ist die weiterentwickelte Version von Spitz (GL-X750). Sie verfügt über ein neu gestaltetes PCBA und optimierte Antennen, um die 4G-Leistung zu verbessern.
 
 ![gl-x750 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/hardware_info/x750v2_interface.jpg){class="glboxshadow"}
 
@@ -28,7 +28,7 @@ Auf dieser Seite können Sie Ihre Internetverbindungsart auswählen, z. B. Ether
 
 ### Ethernet
 
-Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
+Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem aktiven Netzwerkgerät, um eine Internetverbindung herzustellen. Diese Methode bietet in der Regel die schnellste und zuverlässigste Internetverbindung.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
@@ -36,7 +36,7 @@ Connect your router to an active modem or an active network device via an Ethern
 
 ### Repeater
 
-Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
+Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehenden Wi-Fi-Netzwerks zu erweitern. Als Repeater empfängt und sendet er Funksignale innerhalb seiner Reichweite erneut aus und vergrößert damit die Abdeckung. Diese Methode ist nützlich, wenn ein einzelner Router den gesamten Einsatzbereich nicht abdecken kann.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
@@ -44,7 +44,7 @@ Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-
 
 ### Tethering
 
-Connect the router's USB port to a smartphone with active mobile data via a USB cable to access the Internet. This method enables multiple devices connected to the router to access the internet using the smartphone's mobile data.
+Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit aktiver mobiler Datenverbindung, um auf das Internet zuzugreifen. Mit dieser Methode können mehrere mit dem Router verbundene Geräte die mobile Datenverbindung des Smartphones nutzen.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
@@ -52,15 +52,15 @@ Connect the router's USB port to a smartphone with active mobile data via a USB 
 
 ### Cellular
  
-Insert a SIM card into the router's SIM card slot to connect it to the internet. This method is useful for sharing internet access from a single SIM card to all connected devices.
+Setzen Sie eine SIM-Karte in den SIM-Kartenslot des Routers ein, um eine Internetverbindung herzustellen. Diese Methode eignet sich, um den Internetzugang einer einzelnen SIM-Karte mit allen verbundenen Geräten zu teilen.
 
-[Click here to learn how to connect to the internet via callular](../../interface_guide/internet_cellular.md)
+[Klicken Sie hier, um zu erfahren, wie Sie über Mobilfunk eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_cellular.png){class="glboxshadow"}
 
 ### Multi-WAN
 
-Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., Ethernet, Repeater, and Cellular) at the same time. If the top-priority internet connection fails, the router will automatically switch to another internet connection. This is also called Failover, ensuring smooth and uninterrupted internet access.
+Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen, z. B. Ethernet, Repeater und Cellular, einrichten können. Wenn die Internetverbindung mit der höchsten Priorität ausfällt, wechselt der Router automatisch zu einer anderen Internetverbindung. Dies wird auch als Failover bezeichnet und sorgt für einen reibungslosen und unterbrechungsfreien Internetzugang.
 
 Wechseln Sie zu [Multi-WAN](../../interface_guide/multi-wan.md), um die Priorität jeder Internetverbindung festzulegen.
 

@@ -2,7 +2,7 @@
 
 ## Produktübersicht
 
-GL-S200 is a miniaturized Thread gateway supporting BLE protocol that runs on a highly customizable OpenWrt operating system and supports cloud device management. It has a versatile design for connecting to various smart home devices, or mass device connectivity for smart buildings.
+GL-S200 ist ein miniaturisiertes Thread-Gateway mit Unterstützung für das BLE-Protokoll. Es läuft auf dem hochgradig anpassbaren Betriebssystem OpenWrt und unterstützt Cloud-Geräteverwaltung. Das vielseitige Design eignet sich für die Anbindung verschiedenster Smart-Home-Geräte oder für die Massengerätevernetzung in intelligenten Gebäuden.
 
 ![gl-s200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl-s200_interface.jpg){class="glboxshadow"}
 
@@ -59,7 +59,7 @@ Beim GL-S200 werden zwei Verbindungsarten unterstützt: Ethernet und Repeater.
 
 ### Ethernet
 
-Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
+Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem aktiven Netzwerkgerät, um eine Internetverbindung herzustellen. Diese Methode bietet in der Regel die schnellste und zuverlässigste Internetverbindung.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
@@ -67,7 +67,7 @@ Connect your router to an active modem or an active network device via an Ethern
 
 ### Repeater
 
-Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
+Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehenden Wi-Fi-Netzwerks zu erweitern. Als Repeater empfängt und sendet er Funksignale innerhalb seiner Reichweite erneut aus und vergrößert damit die Abdeckung. Diese Methode ist nützlich, wenn ein einzelner Router den gesamten Einsatzbereich nicht abdecken kann.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 

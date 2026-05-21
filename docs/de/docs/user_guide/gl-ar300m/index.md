@@ -2,304 +2,304 @@
 
 ## Produktübersicht
 
-Shadow (GL-AR300M series) is a pocket-size mini router, designed to be Portable and Travel-Friendly, supporting up to 300Mbps wireless transmission rate. Shadow offers advanced security features, including support for OpenVPN, WireGuard®, and a DNS server. It not only allows you to convert a public network to a private Wi-Fi for secure surfing, but also allows you to upload vpn configuration files from over 30 VPN service providers, set it as vpn client, providing an added layer of privacy and security to create an encrypted traffic between your device and the VPN server.
+Shadow (GL-AR300M Series) ist ein Mini-Router im Taschenformat, der für den mobilen Einsatz und Reisen entwickelt wurde und drahtlose Übertragungsraten von bis zu 300 Mbit/s unterstützt. Shadow bietet erweiterte Sicherheitsfunktionen, darunter Unterstützung für OpenVPN, WireGuard® und einen DNS-Server. Sie können damit nicht nur ein öffentliches Netzwerk in ein privates Wi-Fi für sicheres Surfen umwandeln, sondern auch VPN-Konfigurationsdateien von mehr als 30 VPN-Dienstanbietern hochladen und den Router als VPN-Client verwenden, um eine zusätzliche Ebene für Datenschutz und Sicherheit durch verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server bereitzustellen.
 
 ![ar300m illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n_v2_overview.png){class="glboxshadow"}
 
 ## So richten Sie Shadow ein
 
-To set up Shadow, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Follow the steps below. 
+Um Shadow einzurichten, verwenden Sie eine der vier unterstützten Internetverbindungsmethoden: Ethernet, Repeater, Tethering und Cellular. Folgen Sie den untenstehenden Schritten.
 
 ### 1. Einschalten
 
-Plug the Micro USB power cable into the router's power port, then connect the other end to a 5V/2A power adapter (not included) and plug it into a power outlet. 
+Stecken Sie das Micro-USB-Stromkabel in den Stromanschluss des Routers, verbinden Sie das andere Ende mit einem 5V/2A-Netzadapter (nicht im Lieferumfang enthalten) und stecken Sie ihn in eine Steckdose.
 
 ### 2. Gerät verbinden
 
-Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
+Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per Wi-Fi oder Ethernet mit dem Router.
 
 - Ethernet
 
-    Connect your device to the router's LAN port using an Ethernet cable. 
+    Verbinden Sie Ihr Gerät per Ethernet-Kabel mit dem LAN-Port des Routers.
 
 - Wi-Fi
 
-    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on the router's bottom label.
+    Öffnen Sie auf Ihrem Gerät Einstellungen -> WLAN, suchen Sie in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett an der Unterseite des Routers.
 
 ### 3. Im Web-Admin-Panel anmelden
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie Ihre Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
-Please note that if you change the Wi‑Fi information, you will need to reconnect your device to the router's Wi‑Fi using the updated credentials.
+Bitte beachten Sie: Wenn Sie die Wi-Fi-Daten ändern, müssen Sie Ihr Gerät mit den aktualisierten Zugangsdaten erneut mit dem Wi-Fi des Routers verbinden.
 
 ### 4. Internet einrichten
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
-Richten Sie Shadow mit einer der unterstützten Internetverbindungsmethoden ein: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
+Richten Sie Shadow mit einer der unterstützten Internetverbindungsmethoden ein: Ethernet, Repeater, Tethering und Cellular. Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindung ein.
 
 === "Ethernet"
 
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/ethernet.png){class="glboxshadow"}
     
-    Connect an ethernet cable between your router's WAN port and an upstream device such as a modem. 
+    Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, beispielsweise einem Modem.
     
-    Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page.
+    Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint im Ethernet-Bereich auf der Seite INTERNET ein grüner Punkt.
 
-    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über ein Ethernet-Kabel eine Verbindung zum Internet herstellen](../../interface_guide/internet_ethernet.md).
 
 === "Repeater"
 
     ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/repeater.png){class="glboxshadow"}
 
-    1. On the INTERNET page of the web Admin Panel, locate the Repeater section and click **Connect**.
-    2. Select a Wi-Fi network from the available networks. 
-    3. Enter the password, then click **Apply**.
+    1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
+    2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
+    3. Geben Sie das Passwort ein und klicken Sie dann auf **Apply**.
     
-    Once successfully connected to the internet, a green dot will appear in the Repeater section on the INTERNET page.
+    Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint im Repeater-Bereich auf der Seite INTERNET ein grüner Punkt.
 
-    Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über ein vorhandenes Wi-Fi-Netzwerk eine Verbindung zum Internet herstellen](../../interface_guide/internet_repeater.md).
 
 === "Tethering"
 
     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port via a USB cable. 
-    2. On your mobile device, go to Settings and enable USB Tethering. 
-    3. On the INTERNET page of the web Admin Panel, click **Connect** in the Tethering section. 
+    1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder einen USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
+    2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
+    3. Klicken Sie auf der Seite INTERNET des Web-Admin-Panels im Abschnitt Tethering auf **Connect**.
     
-    Once successfully connected to the internet, a green dot will appear in the Tethering section on the INTERNET page.
+    Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint im Tethering-Bereich auf der Seite INTERNET ein grüner Punkt.
 
-    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über USB-Tethering eine Verbindung zum Internet herstellen](../../interface_guide/internet_tethering.md).
 
 === "Cellular"
 
     ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/usb_modem.png){class="glboxshadow"}
 
-    This method is useful for sharing internet from a USB modem to all connected devices.
+    Diese Methode eignet sich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 
-    1. Insert a cellular-enabled USB modem into the router's USB port.
-    2. On the INTERNET page of the web admin panel, locate the Cellular section and click **Connect**.
-    3. Once successfully connected to the internet, a green dot will appear in the Cellular section on the INTERNET page.
+    1. Schließen Sie ein mobilfunkfähiges USB-Modem an den USB-Port des Routers an.
+    2. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Cellular und klicken Sie auf **Connect**.
+    3. Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint im Cellular-Bereich auf der Seite INTERNET ein grüner Punkt.
 
-    Please refer to [Connect to the Internet via a USB modem](../../interface_guide/internet_cellular.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über ein USB-Modem eine Verbindung zum Internet herstellen](../../interface_guide/internet_cellular.md).
 
 ## So richten Sie ein VPN ein
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Shadow (and other GL.iNet routers) supports OpenVPN and WireGuard.
+Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Shadow und andere GL.iNet-Router unterstützen OpenVPN und WireGuard.
 
 === "OpenVPN" 
 
-    Shadow (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Shadow und andere GL.iNet-Router unterstützen das OpenVPN-Protokoll, das hohe Sicherheit bietet. Folgen Sie zum Einrichten von OpenVPN diesen Anleitungen:
 
-    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
-    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
+    * [So richten Sie einen OpenVPN-Client ein](../../interface_guide/openvpn_client.md)
+    * [So richten Sie einen OpenVPN-Server ein](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Shadow (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Shadow und andere GL.iNet-Router unterstützen das WireGuard-Protokoll, das hohe Geschwindigkeiten und eine komfortable Nutzung bietet. Folgen Sie zum Einrichten von WireGuard diesen Anleitungen:
 
-    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
-    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+    * [So richten Sie einen WireGuard-Client ein](../../interface_guide/wireguard_client.md)
+    * [So richten Sie einen WireGuard-Server ein](../../interface_guide/wireguard_server.md)
 
 ## Anwendungen
 
 === "Plug-ins"
 
-    Plug-ins are add-on features that enhance the functionality of your router. 
+    Plug-ins sind Zusatzfunktionen, die den Funktionsumfang Ihres Routers erweitern.
     
-    To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
+    Zum Einrichten von Plug-ins lesen Sie bitte [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
+    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dies ist besonders nützlich für Benutzer, die für den Zugriff auf ein entferntes Netzwerk eine statische IP-Adresse benötigen.
     
-    To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    Zum Einrichten von Dynamic DNS lesen Sie bitte [Dynamic DNS](../../interface_guide/ddns.md).
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provide an easy and simple way to remotely access and manage GL.iNet routers. 
+    Der Cloud-Management-Dienst GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} bietet eine einfache Möglichkeit, aus der Ferne auf GL.iNet-Router zuzugreifen und sie zu verwalten.
     
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+    Zum Einrichten von GoodCloud lesen Sie bitte [GoodCloud](../../interface_guide/cloud.md).
 
 ## Netzwerkeinstellungen
 
 === "Firewall"
 
-    The Firewall page provides essential security enhancements for your network. It includes features such as Port Forwarding, Open Ports, and DMZ. These tools allow you to manage and customize your network's traffic flow and enhance its security.
+    Die Seite Firewall bietet wichtige Sicherheitsfunktionen für Ihr Netzwerk. Sie enthält Funktionen wie Port Forwarding, Open Ports und DMZ. Mit diesen Werkzeugen können Sie den Datenverkehr Ihres Netzwerks steuern, anpassen und seine Sicherheit erhöhen.
 
-    * Port Forwarding: Redirect specific traffic from the internet to designated devices within your network, enabling access to services like gaming servers or web servers.
-    * Open Ports: Monitor and control which ports on your router are open, helping to prevent unauthorized access and potential security threats.
-    * DMZ (Demilitarized Zone): Place a device outside the main firewall, allowing it to have unrestricted access to the internet while protecting the rest of your network from potential threats.
+    * Port Forwarding: Leiten Sie bestimmten Datenverkehr aus dem Internet an festgelegte Geräte in Ihrem Netzwerk weiter, um den Zugriff auf Dienste wie Spieleserver oder Webserver zu ermöglichen.
+    * Open Ports: Überwachen und steuern Sie, welche Ports auf Ihrem Router offen sind, um unbefugten Zugriff und potenzielle Sicherheitsbedrohungen zu vermeiden.
+    * DMZ (Demilitarized Zone): Platzieren Sie ein Gerät außerhalb der Haupt-Firewall, damit es uneingeschränkt auf das Internet zugreifen kann, während der Rest Ihres Netzwerks weiterhin geschützt bleibt.
 
-    To set up firewall-related settings, refer to [Firewall](../../interface_guide/firewall.md).
+    Zum Konfigurieren der Firewall-Einstellungen lesen Sie bitte [Firewall](../../interface_guide/firewall.md).
 
 === "Multi-WAN"
 
-    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+    Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen, z. B. Cellular, Repeater und Ethernet, konfigurieren können. Fällt Ihre aktuelle Internetverbindung aus, wechselt der Router automatisch zu einer anderen Internetverbindung. So bleibt Ihr Internetzugang stabil und unterbrechungsfrei.
 
-    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
+    Zum Einrichten von Multi-WAN lesen Sie bitte [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    The LAN page allows you to manage and configure your router's local area network settings. Key features available on this page include:
+    Auf der Seite LAN können Sie die Einstellungen des lokalen Netzwerks Ihres Routers verwalten und konfigurieren. Zu den wichtigsten Funktionen auf dieser Seite gehören:
 
-    * Router IP Address: Modify the IP address of your router to better fit your network configuration.
-    * Netmask: Set the subnet mask for your network, which determines the network's size and range of IP addresses.
-    * DHCP: Enable or configure the Dynamic Host Configuration Protocol, which automatically assigns IP addresses to devices on your network.
-    * Address Reservation: Reserve specific IP addresses for particular devices, ensuring they always receive the same IP address from the DHCP server.
+    * Router IP Address: Ändern Sie die IP-Adresse Ihres Routers, damit sie besser zu Ihrer Netzwerkkonfiguration passt.
+    * Netmask: Legen Sie die Subnetzmaske Ihres Netzwerks fest, die Größe und Adressbereich des Netzwerks bestimmt.
+    * DHCP: Aktivieren oder konfigurieren Sie das Dynamic Host Configuration Protocol, das Geräten in Ihrem Netzwerk automatisch IP-Adressen zuweist.
+    * Address Reservation: Reservieren Sie bestimmte IP-Adressen für einzelne Geräte, damit diese vom DHCP-Server immer dieselbe IP-Adresse erhalten.
 
-    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
+    Zum Einrichten von LAN lesen Sie bitte [Lan](../../interface_guide/lan.md).
 
 ---
 
 === "DNS"
 
-    The DNS page provides options to customize your router's Domain Name System settings, enhancing both security and performance. Key features available on this page include:
+    Die Seite DNS bietet Optionen zum Anpassen der Domain-Name-System-Einstellungen Ihres Routers und verbessert sowohl Sicherheit als auch Leistung. Zu den wichtigsten Funktionen auf dieser Seite gehören:
 
-    * Encrypted DNS: Configure encrypted DNS to protect your browsing data from being monitored or tampered with, ensuring privacy and security.
-    * Manual DNS: Manually set DNS servers of your choice, allowing for customized control over DNS queries and potentially faster resolution times.
-    * DNS Proxy: Enable DNS proxy to route DNS requests from your devices through a specified DNS server, providing an additional layer of control over DNS traffic.
+    * Encrypted DNS: Konfigurieren Sie verschlüsseltes DNS, um Ihre Browserdaten vor Überwachung oder Manipulation zu schützen und so Privatsphäre und Sicherheit zu gewährleisten.
+    * Manual DNS: Legen Sie DNS-Server Ihrer Wahl manuell fest, um DNS-Abfragen gezielt zu steuern und möglicherweise schnellere Auflösungszeiten zu erreichen.
+    * DNS Proxy: Aktivieren Sie DNS Proxy, um DNS-Anfragen Ihrer Geräte über einen bestimmten DNS-Server zu leiten und so eine zusätzliche Kontrolle über den DNS-Datenverkehr zu erhalten.
 
-    These settings allow you to optimize your network's DNS performance and security according to your specific needs.
+    Mit diesen Einstellungen können Sie die DNS-Leistung und Sicherheit Ihres Netzwerks an Ihre Anforderungen anpassen.
 
-    To set up DNS, refer to [DNS](../../interface_guide/dns.md).
+    Zum Einrichten von DNS lesen Sie bitte [DNS](../../interface_guide/dns.md).
 
 === "Network Mode"
 
-    The Network Mode page allows you to configure your router to operate in different modes, providing flexibility to meet various networking needs. The available modes include:
+    Auf der Seite Network Mode können Sie Ihren Router für verschiedene Betriebsarten konfigurieren, um unterschiedliche Netzwerkanforderungen flexibel abzudecken. Verfügbare Modi sind:
 
-    * Router: Operate as a standard router, managing traffic between your local network and the internet, and providing features like NAT, firewall, and DHCP.
-    * Access Point: Function as an access point, extending your existing wired network by providing wireless connectivity without routing traffic.
-    * Extender: Work as a range extender, boosting the signal of your existing wireless network to cover a larger area and eliminate dead zones.
-    * WDS (Wireless Distribution System): Similar to Extender, please choose WDS if your main router supports WDS mode.
+    * Router: Arbeiten Sie als Standardrouter, verwalten Sie den Datenverkehr zwischen lokalem Netzwerk und Internet und nutzen Sie Funktionen wie NAT, Firewall und DHCP.
+    * Access Point: Nutzen Sie den Router als Access Point, um Ihr bestehendes kabelgebundenes Netzwerk mit drahtloser Konnektivität zu erweitern, ohne Routing durchzuführen.
+    * Extender: Verwenden Sie den Router als Reichweitenverlängerer, um das Signal Ihres bestehenden drahtlosen Netzwerks zu verstärken, größere Bereiche abzudecken und Funklöcher zu vermeiden.
+    * WDS (Wireless Distribution System): Ähnlich wie Extender; wählen Sie WDS, wenn Ihr Hauptrouter den WDS-Modus unterstützt.
 
-    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
+    Zum Einrichten des Network Mode lesen Sie bitte [Network Mode](../../interface_guide/network_mode.md).
 
 === "IPv6"
 
-    The IPv6 page enables you to configure IPv6 settings for your network, providing support for the latest internet protocol. On this page, you can enable IPv6 and select from four different modes to suit your network requirements:
+    Auf der Seite IPv6 können Sie IPv6-Einstellungen für Ihr Netzwerk konfigurieren und Unterstützung für das neueste Internetprotokoll bereitstellen. Auf dieser Seite können Sie IPv6 aktivieren und aus vier verschiedenen Modi wählen, die zu Ihren Netzwerkanforderungen passen:
 
-    * Native: Obtain an IPv6 address directly from your ISP, allowing for straightforward and efficient native IPv6 connectivity.
-    * Passthrough: Allow IPv6 traffic to pass through the router to the devices on your network, effectively bridging the connection without the router handling IPv6 routing itself.
-    * NAT6: Utilize Network Address Translation for IPv6 (NAT6) to translate between internal and external IPv6 addresses, similar to how NAT works for IPv4.
-    * Static IPv6: Manually configure a static IPv6 address for your router, providing a fixed address for consistent connectivity and easier management of network services.
+    * Native: Beziehen Sie eine IPv6-Adresse direkt von Ihrem ISP, um eine einfache und effiziente native IPv6-Konnektivität zu nutzen.
+    * Passthrough: Lassen Sie IPv6-Datenverkehr durch den Router zu den Geräten in Ihrem Netzwerk weiterleiten, wobei die Verbindung effektiv durchgereicht wird, ohne dass der Router selbst IPv6-Routing übernimmt.
+    * NAT6: Verwenden Sie Network Address Translation für IPv6 (NAT6), um zwischen internen und externen IPv6-Adressen zu übersetzen, ähnlich wie NAT bei IPv4 funktioniert.
+    * Static IPv6: Konfigurieren Sie manuell eine statische IPv6-Adresse für Ihren Router, um eine feste Adresse für stabile Konnektivität und einfachere Verwaltung von Netzwerkdiensten bereitzustellen.
 
-    These settings help you leverage the benefits of IPv6, including improved address space, enhanced security features, and better performance.
+    Diese Einstellungen helfen Ihnen, die Vorteile von IPv6 zu nutzen, darunter ein größerer Adressraum, verbesserte Sicherheitsfunktionen und bessere Leistung.
 
-    To set up IPv6, refer to [IPv6](../../interface_guide/network_mode.md).
+    Zum Einrichten von IPv6 lesen Sie bitte [IPv6](../../interface_guide/network_mode.md).
 
 ---
 
 === "MAC Address"
 
-    The MAC Address page allows you to view and manage the Media Access Control (MAC) addresses associated with your router. Key features available on this page include:
+    Auf der Seite MAC Address können Sie die mit Ihrem Router verbundenen Media-Access-Control-(MAC-)Adressen anzeigen und verwalten. Zu den wichtigsten Funktionen auf dieser Seite gehören:
 
-    * Factory Default: Display the default MAC addresses for the router’s Ethernet and Repeater modes, providing a reference for original hardware settings.
-    * Clone: Clone the MAC address of a specific client device. This is particularly useful in scenarios where network access is restricted to certain devices.
-    * Manual: Manually specify a custom MAC address for your router. Additionally, you can use the Random button to generate a random MAC address, providing flexibility and enhanced privacy.
+    * Factory Default: Zeigen Sie die Standard-MAC-Adressen für die Ethernet- und Repeater-Modi des Routers an, um die ursprünglichen Hardware-Einstellungen nachzuvollziehen.
+    * Clone: Klonen Sie die MAC-Adresse eines bestimmten Client-Geräts. Dies ist besonders nützlich, wenn der Netzwerkzugang auf bestimmte Geräte beschränkt ist.
+    * Manual: Legen Sie manuell eine benutzerdefinierte MAC-Adresse für Ihren Router fest. Zusätzlich können Sie mit der Schaltfläche Random eine zufällige MAC-Adresse erzeugen, was mehr Flexibilität und Privatsphäre bietet.
 
-    These features enable you to manage your router's MAC addresses effectively, ensuring compatibility and flexibility within various network environments.
+    Mit diesen Funktionen können Sie die MAC-Adressen Ihres Routers effektiv verwalten und so Kompatibilität und Flexibilität in unterschiedlichen Netzwerkumgebungen sicherstellen.
 
-    To manage MAC address, refer to [MAC Address](../../interface_guide/mac_address.md).
+    Zum Verwalten der MAC-Adresse lesen Sie bitte [MAC Address](../../interface_guide/mac_address.md).
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway extends the functionality of your main router with features it may not have, including AdGuard Home, encrypted DNS, and VPN. 
+    Drop-in Gateway erweitert die Funktionalität Ihres Hauptrouters um Funktionen, die er möglicherweise nicht besitzt, darunter AdGuard Home, verschlüsseltes DNS und VPN.
     
-    To set up Drop-in Gateway, refer to [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
+    Zum Einrichten von Drop-in Gateway lesen Sie bitte [So richten Sie Drop-in Gateway ein](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 === "IGMP Snooping"
 
-    The IGMP Snooping page allows you to configure settings that optimize multicast traffic management within your network. IGMP Snooping listens to and extracts information from IGMP protocol packets, establishing and maintaining Layer 2 multicast forwarding tables. This ensures that multicast group data is forwarded only to hosts that have joined the multicast group, preventing unwanted multicast traffic from reaching other hosts.
+    Auf der Seite IGMP Snooping können Sie Einstellungen konfigurieren, die das Multicast-Verkehrsmanagement in Ihrem Netzwerk optimieren. IGMP Snooping überwacht IGMP-Protokollpakete und extrahiert Informationen daraus, um Multicast-Weiterleitungstabellen auf Layer 2 aufzubauen und zu pflegen. So wird sichergestellt, dass Multicast-Gruppendaten nur an Hosts weitergeleitet werden, die der Multicast-Gruppe beigetreten sind, und unerwünschter Multicast-Verkehr andere Hosts nicht erreicht.
 
-    These settings help optimize network performance and efficiency, particularly in environments with significant multicast traffic, such as streaming video or online gaming.
+    Diese Einstellungen helfen, Netzwerkleistung und Effizienz zu optimieren, insbesondere in Umgebungen mit hohem Multicast-Aufkommen, etwa bei Video-Streaming oder Online-Gaming.
 
-    To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+    Zum Einrichten von IGMP Snooping lesen Sie bitte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
 ## Systemeinstellungen
 
 === "Overview"
 
-    The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
+    Die Seite Overview bietet einen umfassenden Überblick über den aktuellen Status und die Leistungskennzahlen Ihres Routers. Auf dieser Seite können Sie Folgendes anzeigen:
 
-    * CPU Average Load: Monitor the average load on your router’s CPU, helping to assess performance and identify potential bottlenecks.
-    * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
-    * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
-    * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
-    * System Info: Access detailed information about your router's system, including firmware version, uptime, and network status.
+    * CPU Average Load: Überwachen Sie die durchschnittliche CPU-Auslastung Ihres Routers, um die Leistung zu beurteilen und mögliche Engpässe zu erkennen.
+    * Memory Usage: Prüfen Sie, wie viel Arbeitsspeicher Ihres Routers verwendet wird, um die Ressourcennutzung besser zu verwalten.
+    * Flash Usage: Sehen Sie die Auslastung des Flash-Speichers des Routers ein, damit ausreichend Platz für Firmware- und Konfigurationsdaten vorhanden ist.
+    * LED Control: Schalten Sie die LED-Leuchten des Routers ein oder aus, um die visuellen Anzeigen des Geräts anzupassen.
+    * System Info: Greifen Sie auf detaillierte Informationen zum System Ihres Routers zu, einschließlich Firmware-Version, Uptime und Netzwerkstatus.
     
-    These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
+    Diese Funktionen liefern wichtige Einblicke und Steuerungsmöglichkeiten, damit Sie den Betrieb Ihres Routers effektiv verwalten und überwachen können.
 
-    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Overview](../../interface_guide/system_overview.md).
 
 === "Upgrade"
 
-    The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
+    Die Seite Upgrade dient dazu, die Firmware Ihres Routers auf die neueste Version zu aktualisieren, um Leistung, Sicherheit und neue Funktionen bereitzustellen. Diese Seite bietet zwei Upgrade-Optionen:
 
-    * Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
-    * Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
+    * Online Upgrade: Prüfen und installieren Sie automatisch die neueste Firmware-Version direkt vom Server des Herstellers, um den Aktualisierungsprozess zu vereinfachen.
+    * Local Upgrade: Laden Sie manuell eine Firmware-Datei von Ihrem Computer hoch, um den Router zu aktualisieren und dabei Version und Zeitpunkt des Upgrades selbst zu bestimmen.
 
-    These options allow you to keep your router up-to-date with the latest improvements and fixes.
+    Mit diesen Optionen halten Sie Ihren Router mit den neuesten Verbesserungen und Fehlerbehebungen aktuell.
 
-    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Upgrade](../../interface_guide/upgrade.md).
 
 === "Scheduled Tasks"
 
-    The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
+    Auf der Seite Scheduled Tasks können Sie verschiedene Router-Funktionen anhand eines vordefinierten Zeitplans automatisieren, was Komfort und Effizienz erhöht. Zu den wichtigsten Funktionen auf dieser Seite gehören:
 
-    * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
-    * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    * 2.4GHz Wi-Fi Status Schedule: Set a schedule to control the 2.4GHz Wi-Fi band, allowing for better management of network availability and power consumption.
+    * LED Display Schedule: Legen Sie einen Zeitplan fest, um die LED-Leuchten des Routers automatisch ein- oder auszuschalten und so zu bestimmten Zeiten Lichtemissionen zu reduzieren.
+    * Schedule Reboot: Konfigurieren Sie Ihren Router so, dass er in festgelegten Intervallen automatisch neu startet, um optimale Leistung und Stabilität zu erhalten.
+    * 2.4GHz Wi-Fi Status Schedule: Legen Sie einen Zeitplan zur Steuerung des 2.4GHz-Wi-Fi-Bands fest, um Netzwerkverfügbarkeit und Stromverbrauch besser zu verwalten.
     
-    These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
+    Diese Planungsoptionen geben Ihnen mehr Kontrolle über den Betrieb Ihres Routers, damit er Ihren Anforderungen und Vorlieben besser entspricht.
 
-    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 ---
 
 === "Admin Password"
 
-    The Admin Password page allows you to set or change the password for your router's administrative interface, ensuring that only authorized users can access and modify the router's settings. This password is crucial for maintaining the security and integrity of your network, protecting against unauthorized access and configuration changes.
+    Auf der Seite Admin Password können Sie das Passwort für die Administrationsoberfläche Ihres Routers festlegen oder ändern. So wird sichergestellt, dass nur autorisierte Benutzer auf die Router-Einstellungen zugreifen und sie ändern können. Dieses Passwort ist entscheidend, um Sicherheit und Integrität Ihres Netzwerks zu wahren und unbefugten Zugriff sowie Konfigurationsänderungen zu verhindern.
 
-    Please refer to [Admin Password](../../interface_guide/admin_password.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Admin Password](../../interface_guide/admin_password.md).
 
 === "Time Zone"
 
-    The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
+    Auf der Seite Time Zone können Sie die korrekte Zeitzone für Ihren Router festlegen, damit alle geplanten Aufgaben, Protokolle und Systemereignisse gemäß Ihrer Ortszeit korrekt mit Zeitstempeln versehen werden. Diese Einstellung ist wichtig für eine präzise Protokollierung und die ordnungsgemäße Ausführung zeitbasierter Konfigurationen.
 
-    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Time Zone](../../interface_guide/time_zone.md).
 
 === "Toggle Button Settings"
 
-    The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
+    Auf der Seite Toggle Button Settings können Sie den physischen Kippschalter Ihres Routers konfigurieren und ihm bestimmte Funktionen für schnellen Zugriff und einfache Steuerung zuweisen. Diese Funktion bietet praktische Schnellzugriffe für häufige Aufgaben und Einstellungen, verbessert die Benutzererfahrung und vereinfacht die Router-Verwaltung.
 
-    Please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
 
 ---
 
 === "Log"
 
-    The Log page provides access to various logs that record the router's activities and events, aiding in troubleshooting and performance monitoring. This page includes:
+    Die Seite Log bietet Zugriff auf verschiedene Protokolle, die Aktivitäten und Ereignisse des Routers aufzeichnen und so bei Fehlersuche und Leistungsüberwachung helfen. Diese Seite umfasst:
 
-    * System Log: Detailed logs of system-level events and activities.
-    * Kernel Log: Logs related to the kernel's operations and events.
-    * Crash Log: Records of system crashes and errors, useful for diagnosing critical issues.
-    * Cloud Log: Logs of interactions and activities related to GoodCloud services integrated with the router.
-    * Nginx Log: Logs from the Nginx web server, if used by the router, detailing web traffic and server operations.
+    * System Log: Detaillierte Protokolle zu Ereignissen und Aktivitäten auf Systemebene.
+    * Kernel Log: Protokolle zu Vorgängen und Ereignissen des Kernels.
+    * Crash Log: Aufzeichnungen über Systemabstürze und Fehler, hilfreich bei der Diagnose kritischer Probleme.
+    * Cloud Log: Protokolle über Interaktionen und Aktivitäten im Zusammenhang mit den in den Router integrierten GoodCloud-Diensten.
+    * Nginx Log: Protokolle des Nginx-Webservers, falls dieser auf dem Router verwendet wird, mit Details zu Webverkehr und Serveroperationen.
     
-    Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
+    Zusätzlich verfügt die Seite über eine Schaltfläche Export Log, mit der Sie alle gesammelten Protokolle zur Analyse durch den technischen Support exportieren können. Diese Funktion ist besonders wertvoll bei der Diagnose komplexer Probleme und wenn professionelle Unterstützung erforderlich ist.
 
-    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Log](../../interface_guide/log.md).
 
 === "Reset Firmware"
 
-    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
+    Auf der Seite Reset Firmware können Sie die aktuell installierte Firmware-Version Ihres Routers auf die Werkseinstellungen zurücksetzen, wobei alle benutzerdefinierten Konfigurationen gelöscht werden. Dieser Vorgang stellt die Standardeinstellungen der derzeit installierten Firmware-Version wieder her. Das kann hilfreich sein, um hartnäckige Probleme zu beheben oder mit einer sauberen Standardkonfiguration der aktuellen Firmware neu zu beginnen.
 
-    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 
-    The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
+    Die Seite Advanced Settings bietet Zugriff auf erweiterte Konfigurationsoptionen über die OpenWrt-LuCI-Oberfläche. Damit können erfahrene Benutzer die Einstellungen und Funktionen ihres Routers über die grundlegenden Oberflächenoptionen hinaus fein abstimmen. Dazu gehören detaillierte Netzwerkkonfigurationen, Firewall-Einstellungen und weitere erweiterte Systemanpassungen.
 
-    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).

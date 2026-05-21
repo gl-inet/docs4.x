@@ -69,7 +69,6 @@ Richten Sie Opal mit einer der unterstützten Internetverbindungsmethoden ein: E
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
-    3. Enter the password, then click **Apply**.
     3. Geben Sie das Passwort ein und klicken Sie dann auf **Apply**.
 
     Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint im Repeater-Bereich auf der Seite INTERNET ein grüner Punkt.

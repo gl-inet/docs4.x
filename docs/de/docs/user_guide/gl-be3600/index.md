@@ -89,7 +89,7 @@ Richten Sie Slate 7 mit einer der unterstützten Internetverbindungsmethoden ein
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_repeater.jpg){class="glboxshadow"}
 
     1. Suchen Sie auf der INTERNET-Seite des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
-    2. Select a Wi-Fi network from the available networks.
+    2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
     3. Geben Sie das Passwort ein und klicken Sie dann auf **Apply**.
 
     Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint im Repeater-Bereich auf der Seite INTERNET ein grüner Punkt.
@@ -120,7 +120,7 @@ Richten Sie Slate 7 mit einer der unterstützten Internetverbindungsmethoden ein
 
 ---
 
-Below is an overview of the features in the Slate 7 web Admin Panel.
+Nachfolgend finden Sie einen Überblick über die Funktionen im Web-Admin-Panel von Slate 7.
 
 ## WLAN
 

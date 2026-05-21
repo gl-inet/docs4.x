@@ -78,6 +78,32 @@ mkdocs serve -f docs/jp/mkdocs.yml
 
 If you are reviewing or translating localized content, open the English source page and the matching localized page side by side in VS Code.
 
+## Automated Translation
+
+This repo includes an automation workflow for machine translation:
+
+- Workflow: `.github/workflows/auto-translate.yml`
+- Script: `scripts/auto_translate_docs.py`
+
+What it does:
+
+- On push to `master` when files under `docs/en/docs/**/*.md` change, it translates the changed English pages into `de`, `es`, `fr`, `it`, `jp`, and `pl`.
+- On schedule (daily at 01:10 China time), it runs again and only re-translates files whose English source hash changed (tracked in `.translation-cache.json`).
+- On manual trigger (`workflow_dispatch`), you can force full translation and optionally limit file count.
+
+Required repository secrets:
+
+- `LLM_API_KEY` (required)
+- `LLM_BASE_URL` (optional; default: `https://models.inference.ai.azure.com`)
+- `LLM_MODEL` (optional; default: `gpt-4.1-mini`)
+
+Notes:
+
+- The script uses an OpenAI-compatible Chat Completions endpoint.
+- The script automatically injects `.github/copilot-instructions.md` and matching language rules under `.github/instructions/*.instructions.md` into the LLM prompt.
+- If no translated files changed, the workflow exits without a commit.
+- Translation commits only touch localized docs and `.translation-cache.json`.
+
 ## Online View
 
 Published documentation:

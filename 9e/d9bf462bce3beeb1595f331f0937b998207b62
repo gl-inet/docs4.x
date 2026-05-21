@@ -1,0 +1,19 @@
+docs/de/docs/user_guide/gl-mt3600be/index.md
+  s_9a608bf63b55e5::t_8111d7651d0444 40,44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "9ed9bf462bce3beeb1595f331f0937b998207b62",
+  "prompts": {},
+  "sessions": {
+    "s_9a608bf63b55e5": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "226b4ab9-5205-4405-8853-291448604213",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

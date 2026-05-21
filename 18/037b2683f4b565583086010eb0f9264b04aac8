@@ -1,0 +1,30 @@
+docs/de/docs/user_guide/gl-a1300/index.md
+  s_860adba3af48de::t_06eb5ef297c462 5,35,43,45,47,51,59,67,75
+docs/de/docs/user_guide/gl-s10/index.md
+  s_860adba3af48de::t_06eb5ef297c462 58,64,70
+docs/de/docs/user_guide/gl-xe3000/index.md
+  s_860adba3af48de::t_06eb5ef297c462 36
+docs/de/docs/user_guide/gl-be3600/index.md
+  s_860adba3af48de::t_06eb5ef297c462 92,123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "18037b2683f4b565583086010eb0f9264b04aac8",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_860adba3af48de": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "b67e3cba-690a-4d17-b289-1905af35646f",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

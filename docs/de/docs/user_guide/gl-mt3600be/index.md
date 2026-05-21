@@ -37,11 +37,11 @@ Verbinden Sie Ihren Computer oder Ihr Mobilgerät per Wi-Fi oder Ethernet mit de
 
 - Ethernet
 
-  Verbinden Sie Ihr Gerät per Ethernet-Kabel mit dem LAN-Port des Routers.
+    Verbinden Sie Ihr Gerät per Ethernet-Kabel mit dem LAN-Port des Routers.
 
 - Wi-Fi
 
-  Öffnen Sie auf Ihrem Gerät **Einstellungen** -> **WLAN**, suchen Sie den Wi-Fi-Netzwerknamen des Routers in der Liste der verfügbaren Netzwerke und geben Sie das Passwort ein, um die Verbindung herzustellen. Den standardmäßigen Netzwerknamen und das Passwort finden Sie auf dem Geräteetikett.
+    Öffnen Sie auf Ihrem Gerät **Einstellungen** -> **WLAN**, suchen Sie den Wi-Fi-Netzwerknamen des Routers in der Liste der verfügbaren Netzwerke und geben Sie das Passwort ein, um die Verbindung herzustellen. Den standardmäßigen Netzwerknamen und das Passwort finden Sie auf dem Geräteetikett.
 
 ### 3. Im Web-Admin-Panel anmelden
 

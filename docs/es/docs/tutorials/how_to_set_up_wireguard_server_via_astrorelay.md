@@ -2,7 +2,7 @@
 
 Este tutorial presenta los pasos para configurar un servidor WireGuard mediante AstroRelay en un router GL.iNet. Es ideal para quienes necesitan acceder de forma remota a servicios locales de su casa u oficina, pero no disponen de una dirección IP pública proporcionada por su ISP.
 
-[AstroRelay](https://www.astrorelay.com){target="\_blank"} proporciona un túnel seguro de proxy inverso, mediante el cual puede acceder de forma segura a recursos situados detrás de NAT y firewalls.
+[AstroRelay](https://www.astrorelay.com){target="_blank"} proporciona un túnel seguro de proxy inverso, mediante el cual puede acceder de forma segura a recursos situados detrás de NAT y firewalls.
 
 1. Siga [esta guía](../interface_guide/wireguard_server.md) para configurar un servidor WireGuard en su router GL.iNet, aunque no tenga una dirección IP pública.
 
@@ -38,7 +38,7 @@ Este tutorial presenta los pasos para configurar un servidor WireGuard mediante 
 
    **Cuando esta opción está habilitada, se puede acceder de forma remota a este router y a los dispositivos de la LAN a través de la VPN.**
 
-3. Registre una cuenta en AstroRelay y siga este [tutorial](https://www.astrorelay.com/tutorial.html){target="\_blank"} para completar la configuración inicial.
+3. Registre una cuenta en AstroRelay y siga este [tutorial](https://www.astrorelay.com/tutorial.html){target="_blank"} para completar la configuración inicial.
 
    Al añadir un nuevo dominio, elija el servidor más cercano a su router.
 
@@ -56,10 +56,10 @@ Este tutorial presenta los pasos para configurar un servidor WireGuard mediante 
 
    ![replace link in wireguard config](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/replace_endpoint_in_wireguard_config.png){class="glboxshadow"}
 
-5. Instale la [aplicación WireGuard](https://www.wireguard.com/install/){target="\_blank"} en el dispositivo que quiera usar como cliente WireGuard. Después cargue el archivo de configuración modificado en la aplicación e inicie la conexión. Como alternativa, también puede subirlo a otro router GL.iNet para configurarlo como cliente WireGuard.
+5. Instale la [aplicación WireGuard](https://www.wireguard.com/install/){target="_blank"} en el dispositivo que quiera usar como cliente WireGuard. Después cargue el archivo de configuración modificado en la aplicación e inicie la conexión. Como alternativa, también puede subirlo a otro router GL.iNet para configurarlo como cliente WireGuard.
 
    Una vez conectado, podrá acceder de forma remota a sus servicios locales de casa u oficina.
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

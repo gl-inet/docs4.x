@@ -60,11 +60,11 @@ Inicie sesión en el router principal para deshabilitar el servidor DHCP. Puede 
 
 Siga estas guías para habilitar las funciones que desee en su router GL.iNet.
 
-- [AdGuard Home](../interface_guide/adguardhome.md){target="\_blank"}
-- [Encrypted DNS](../interface_guide/dns.md){target="\_blank"}
-- [Parental Control](../interface_guide/parental_control.md){target="\_blank"}
-- [WireGuard Client](../interface_guide/wireguard_client.md){target="\_blank"}
-- [OpenVPN Client](../interface_guide/openvpn_client.md){target="\_blank"}
+- [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
+- [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
+- [Parental Control](../interface_guide/parental_control.md){target="_blank"}
+- [WireGuard Client](../interface_guide/wireguard_client.md){target="_blank"}
+- [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---
 
@@ -149,11 +149,11 @@ _ **Subnet mask:** introduzca la máscara de subred obtenida en el paso 6. \* **
 
 Siga estas guías para habilitar las funciones que desee en su router GL.iNet.
 
-- [AdGuard Home](../interface_guide/adguardhome.md){target="\_blank"}
-- [Encrypted DNS](../interface_guide/dns.md){target="\_blank"}
-- [Parental Control](../interface_guide/parental_control.md){target="\_blank"}
-- [WireGuard Client](../interface_guide/wireguard_client.md){target="\_blank"}
-- [OpenVPN Client](../interface_guide/openvpn_client.md){target="\_blank"}
+- [AdGuard Home](../interface_guide/adguardhome.md){target="_blank"}
+- [Encrypted DNS](../interface_guide/dns.md){target="_blank"}
+- [Parental Control](../interface_guide/parental_control.md){target="_blank"}
+- [WireGuard Client](../interface_guide/wireguard_client.md){target="_blank"}
+- [OpenVPN Client](../interface_guide/openvpn_client.md){target="_blank"}
 
 ---
 
@@ -163,4 +163,4 @@ Artículo relacionado:
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

@@ -150,7 +150,7 @@ En la configuración de **Security**, hay dos o tres opciones, según el modelo.
 
   ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_eap.jpg){class="glboxshadow"}
 
-  Para obtener una guía detallada sobre cómo repetir redes EAP, haga clic [aquí](../tutorials/eap.md){target="\_blank"}.
+  Para obtener una guía detallada sobre cómo repetir redes EAP, haga clic [aquí](../tutorials/eap.md){target="_blank"}.
 
 ## Reconexión
 
@@ -240,4 +240,4 @@ Artículos relacionados
 
 ---
 
-¿Aún tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Aún tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

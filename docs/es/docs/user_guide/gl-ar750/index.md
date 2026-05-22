@@ -8,7 +8,7 @@ Creta (GL-AR750) es un router AC de doble banda para viajes. La compatibilidad s
 
 ### Especificaciones
 
-[Especificaciones del GL-AR750](https://www.gl-inet.com/products/gl-ar750/#specs){target="\_blank"}
+[Especificaciones del GL-AR750](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}
 
 ## Cómo configurar Creta
 
@@ -39,7 +39,7 @@ Conecte su ordenador o dispositivo móvil al router mediante Wi-Fi o Ethernet.
 
 ### 3. Conectar Creta a Internet
 
-**Nota:** Las siguientes instrucciones están dirigidas a quienes conectan el router a Internet mediante el panel de administración web. Si prefiere usar la aplicación GL.iNet en lugar del panel de administración web, [descargue la aplicación](https://www.gl-inet.com/app/){target="\_blank"} y siga las instrucciones que aparecen en pantalla.
+**Nota:** Las siguientes instrucciones están dirigidas a quienes conectan el router a Internet mediante el panel de administración web. Si prefiere usar la aplicación GL.iNet en lugar del panel de administración web, [descargue la aplicación](https://www.gl-inet.com/app/){target="_blank"} y siga las instrucciones que aparecen en pantalla.
 
 #### 1. Iniciar sesión en el panel de administración web del router
 

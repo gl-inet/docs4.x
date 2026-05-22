@@ -47,8 +47,8 @@ Siga el asistente de configuración para configurar el router y obtener acceso a
 
 ![setup wizard 2](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/setup_wizard2.png){class="glboxshadow"}
 
-Si utiliza la [app de GL.iNet](https://www.gl-inet.com/app/#download-app-glinet){target="\_blank"}, siga las instrucciones en pantalla para configurar el acceso a Internet.
+Si utiliza la [app de GL.iNet](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}, siga las instrucciones en pantalla para configurar el acceso a Internet.
 
 ---
 
-¿Aún tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Aún tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

@@ -26,7 +26,7 @@ El paquete incluye:
 
 ## Especificaciones
 
-[Especificaciones del GL-A1300](https://www.gl-inet.com/products/gl-a1300/#specs){target="\_blank"}
+[Especificaciones del GL-A1300](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
 
 ## Configuración inicial
 

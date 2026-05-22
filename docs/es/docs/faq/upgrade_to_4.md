@@ -18,7 +18,7 @@ Puede actualizar el firmware a través del panel de administración web.
 
 1. Actualice el firmware a la última versión estable 3.x.
 
-2. Descargue el firmware 4.x [aquí](https://dl.gl-inet.com){target="\_blank"}. Asegúrese de **descargar el destinado a common upgrade**.
+2. Descargue el firmware 4.x [aquí](https://dl.gl-inet.com){target="_blank"}. Asegúrese de **descargar el destinado a common upgrade**.
 
 3. Inicie sesión en el panel de administración web, vaya a **Upgrade** -> **Local Upgrade**. Cargue el archivo de firmware que acaba de descargar.
 
@@ -28,10 +28,10 @@ Puede actualizar el firmware a través del panel de administración web.
 
 ## Método 2. Actualización mediante U-Boot
 
-1. Descargue el firmware 4.x [aquí](https://dl.gl-inet.com){target="\_blank"}. Asegúrese de **descargar el destinado a U-Boot**.
+1. Descargue el firmware 4.x [aquí](https://dl.gl-inet.com){target="_blank"}. Asegúrese de **descargar el destinado a U-Boot**.
 
 2. Consulte esta guía de [U-Boot](debrick.md) para flashear el firmware.
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

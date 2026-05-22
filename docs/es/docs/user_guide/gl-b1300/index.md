@@ -23,7 +23,7 @@ El paquete incluye:
 
 ## Especificaciones
 
-[Especificaciones del GL-B1300](https://www.gl-inet.com/products/gl-b1300/#specs){target="\_blank"}
+[Especificaciones del GL-B1300](https://www.gl-inet.com/products/gl-b1300/#specs){target="_blank"}
 
 ---
 

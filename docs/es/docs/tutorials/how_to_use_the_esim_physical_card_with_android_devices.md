@@ -32,7 +32,7 @@ Inserte la eSIM Physical Card en la ranura para tarjeta SIM de su dispositivo An
 
 #### 3. Descargue la aplicación EIOTCLUB
 
-Descargue la aplicación EIOTCLUB desde este enlace: [https://sim.eiotclub.com/eshop/download](https://sim.eiotclub.com/eshop/download){target="\_blank"}.
+Descargue la aplicación EIOTCLUB desde este enlace: [https://sim.eiotclub.com/eshop/download](https://sim.eiotclub.com/eshop/download){target="_blank"}.
 
 !!! note
 
@@ -210,4 +210,4 @@ Toque el botón **Submit** para eliminar la ranura eSIM.
 
 ---
 
-¿Aún tiene preguntas? Visite nuestro [Community Forum](https://forum.gl-inet.com){target="\_blank"} o [Contact us](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Aún tiene preguntas? Visite nuestro [Community Forum](https://forum.gl-inet.com){target="_blank"} o [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

@@ -122,8 +122,8 @@ Si la configuración que ha establecido no surte efecto, compruebe las siguiente
 
    Los navegadores y los sistemas operativos mantienen cachés DNS, por lo que los cambios de configuración pueden tardar en aplicarse. Borre la caché DNS para aplicar los cambios de inmediato.
 
-   - [Borrar la caché DNS en Chrome para escritorio](https://support.google.com/accounts/answer/32050){target="\_blank"}
-   - [Borrar la caché DNS en Edge para escritorio](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="\_blank"}
+   - [Borrar la caché DNS en Chrome para escritorio](https://support.google.com/accounts/answer/32050){target="_blank"}
+   - [Borrar la caché DNS en Edge para escritorio](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. La programación del perfil aún no ha comenzado.
 
@@ -137,7 +137,7 @@ Si la configuración que ha establecido no surte efecto, compruebe las siguiente
 
 ## Versión Bark
 
-La versión [Bark](https://www.bark.us/){target="\_blank"}, proporcionada y gestionada por Bark en su propia plataforma, ofrece la opción de filtrar aplicaciones y sitios web con un solo clic y supervisar el historial de solicitudes.
+La versión [Bark](https://www.bark.us/){target="_blank"}, proporcionada y gestionada por Bark en su propia plataforma, ofrece la opción de filtrar aplicaciones y sitios web con un solo clic y supervisar el historial de solicitudes.
 
 Ofrece funciones de supervisión para más de 24 aplicaciones populares y plataformas de redes sociales, incluidas en la lista preestablecida de nuestra función local de control parental.
 
@@ -147,7 +147,7 @@ La función Bark Parental Control está disponible desde el firmware v4.5 y solo
 
 **Nota**:
 
-1. El servicio Bark está disponible **solo en Estados Unidos, Australia y Sudáfrica**. Haga clic [aquí](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="\_blank"} para ver los detalles.
+1. El servicio Bark está disponible **solo en Estados Unidos, Australia y Sudáfrica**. Haga clic [aquí](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"} para ver los detalles.
 
 2. El servicio Bark normalmente requiere una suscripción de pago. Sin embargo, como parte de nuestra colaboración con Bark, GL.iNet ofrece el plan Bark Home de forma gratuita en determinados modelos de router, con supervisión avanzada y alertas sin coste adicional.
 
@@ -185,4 +185,4 @@ Su dispositivo ahora está conectado a Bark Cloud Services y vinculado a su cuen
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

@@ -8,7 +8,7 @@ Creta (GL-AR750) ist ein Dual-Band-AC-Reiserouter. Das gleichzeitige Dual-Band u
 
 ### Technische Daten
 
-[Technische Daten des GL-AR750](https://www.gl-inet.com/products/gl-ar750/#specs){target="\_blank"}
+[Technische Daten des GL-AR750](https://www.gl-inet.com/products/gl-ar750/#specs){target="_blank"}
 
 ## So richten Sie Creta ein
 
@@ -39,7 +39,7 @@ Verbinden Sie Ihren Computer oder Ihr Mobilgerät per Wi-Fi oder Ethernet mit de
 
 ### 3. Creta mit dem Internet verbinden
 
-**Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das Web-Admin-Panel mit dem Internet verbinden. Wenn Sie statt des Web-Admin-Panels lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="\_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
+**Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das Web-Admin-Panel mit dem Internet verbinden. Wenn Sie statt des Web-Admin-Panels lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
 #### 1. Im Web-Admin-Panel des Routers anmelden
 

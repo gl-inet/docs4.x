@@ -26,7 +26,7 @@ Si tiene una suscripción a **AzireVPN** o **Mullvad**, puede iniciar sesión di
 
 ## Configurar AzireVPN
 
-[AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="\_blank"} es un servicio VPN orientado a la privacidad que proporciona túneles seguros, modernos y robustos, como WireGuard.
+[AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} es un servicio VPN orientado a la privacidad que proporciona túneles seguros, modernos y robustos, como WireGuard.
 
 ![azirevpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn.png){class="glboxshadow"}
 
@@ -56,7 +56,7 @@ Si tiene una suscripción a **AzireVPN** o **Mullvad**, puede iniciar sesión di
 
 ## Configurar Mullvad
 
-[Mullvad](https://mullvad.net/){target="\_blank"} es un servicio VPN que ayuda a mantener privadas su actividad en línea, su identidad y su ubicación.
+[Mullvad](https://mullvad.net/){target="_blank"} es un servicio VPN que ayuda a mantener privadas su actividad en línea, su identidad y su ubicación.
 
 El firmware 4.x integra el servicio Mullvad WireGuard.
 
@@ -72,7 +72,7 @@ El firmware 4.x integra el servicio Mullvad WireGuard.
 
    A continuación, se generarán los archivos de configuración del servidor de la ubicación seleccionada.
 
-   La **Public Key** es la clave pública de WireGuard que debe enviarse al servidor de Mullvad. Puede tener hasta cinco claves al mismo tiempo y gestionar las claves de WireGuard en la [página de Mullvad](https://mullvad.net/en/account/#/ports){target="\_blank"}.
+   La **Public Key** es la clave pública de WireGuard que debe enviarse al servidor de Mullvad. Puede tener hasta cinco claves al mismo tiempo y gestionar las claves de WireGuard en la [página de Mullvad](https://mullvad.net/en/account/#/ports){target="_blank"}.
 
    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/mullvad_generated_profiles.png){class="glboxshadow"}
 
@@ -157,4 +157,4 @@ WireGuard® es una marca registrada de Jason A.Donenfeld.
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

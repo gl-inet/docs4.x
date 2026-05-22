@@ -20,7 +20,7 @@ Puli AX (GL-XE3000) ist ein leistungsstarker Wi-Fi-6-5G-Cellular-Router, der Ihr
 
 ## LED-Anzeigen
 
-[LED-Statusanzeige](../../faq/led.md#gl-xe3000){target="\_blank"}
+[LED-Statusanzeige](../../faq/led.md#gl-xe3000){target="_blank"}
 
 ## So richten Sie Puli AX ein
 
@@ -60,7 +60,7 @@ Beachten Sie beim Bestätigen der Wi‑Fi-Daten: Wenn Sie die Wi‑Fi-Informatio
 
 ### 4. Internet einrichten
 
-**Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="\_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
+**Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
 Richten Sie Puli AX mit einer der unterstützten Internetverbindungsmethoden ein: Cellular, Ethernet, Repeater und Tethering. Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindung ein.
 

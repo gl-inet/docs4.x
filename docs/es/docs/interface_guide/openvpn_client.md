@@ -8,7 +8,7 @@ Para configurar el cliente OpenVPN en un router GL.iNet, vea este vídeo o siga 
 
 ---
 
-Antes de empezar, asegúrese de tener una suscripción activa con un proveedor de servicios VPN que admita la configuración manual de OpenVPN. Haga clic [aquí](https://www.gl-inet.com/solutions/vpn/){target="\_blank"} para consultar los proveedores OpenVPN compatibles con GL.iNet.
+Antes de empezar, asegúrese de tener una suscripción activa con un proveedor de servicios VPN que admita la configuración manual de OpenVPN. Haga clic [aquí](https://www.gl-inet.com/solutions/vpn/){target="_blank"} para consultar los proveedores OpenVPN compatibles con GL.iNet.
 
 Por lo general, primero debe visitar el sitio web oficial del proveedor de servicios VPN al que está suscrito, obtener el archivo de configuración y subirlo al router para configurarlo como cliente OpenVPN. Si no sabe cómo obtener el archivo de configuración, consulte [este enlace](#obtener-archivos-de-configuración-de-proveedores-de-servicios-openvpn) o póngase en contacto con su soporte.
 
@@ -24,11 +24,11 @@ Si tiene una suscripción a NordVPN, haga clic en **NordVPN** para iniciar sesi�
 
 ## Configurar NordVPN {#set-up-nordvpn}
 
-[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902){target="\_blank"} es un servicio VPN en línea popular por su velocidad y seguridad.
+[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902){target="_blank"} es un servicio VPN en línea popular por su velocidad y seguridad.
 
 La configuración rápida de NordVPN está integrada en el panel de administración de los routers GL.iNet. Puede obtener en línea los archivos de configuración de todos los servidores NordVPN introduciendo las credenciales de su cuenta, obtenidas desde el panel de NordVPN, en el panel de administración web del router o en la aplicación móvil, lo que elimina la necesidad de subir archivos manualmente.
 
-1. Inicie sesión en su cuenta web de NordVPN [aquí](https://my.nordaccount.com/){target="\_blank"}.
+1. Inicie sesión en su cuenta web de NordVPN [aquí](https://my.nordaccount.com/){target="_blank"}.
 
    ![nord login](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_login.png){class="glboxshadow"}
 
@@ -90,7 +90,7 @@ La configuración rápida de NordVPN está integrada en el panel de administraci
 
 Si su proveedor de servicios OpenVPN no está integrado en nuestro panel de administración, visite primero el sitio web oficial del proveedor al que está suscrito para obtener el archivo de configuración. Después, súbalo al router para configurar un cliente OpenVPN.
 
-En los pasos siguientes, usaremos [PIA (Private Internet Access)](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="\_blank"} como ejemplo.
+En los pasos siguientes, usaremos [PIA (Private Internet Access)](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"} como ejemplo.
 
 1. Descargue un archivo de configuración desde el sitio web oficial de Private Internet Access.
 
@@ -702,4 +702,4 @@ Si el proveedor de servicios al que está suscrito no aparece en la lista siguie
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

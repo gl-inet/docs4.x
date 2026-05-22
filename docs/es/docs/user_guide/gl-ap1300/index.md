@@ -8,7 +8,7 @@ Cirrus (GL-AP1300) es un punto de acceso inalámbrico de techo de nivel empresar
 
 ## Especificaciones
 
-[Especificaciones del GL-AP1300](https://www.gl-inet.com/products/gl-ap1300/#specs){target="\_blank"}
+[Especificaciones del GL-AP1300](https://www.gl-inet.com/products/gl-ap1300/#specs){target="_blank"}
 
 ---
 

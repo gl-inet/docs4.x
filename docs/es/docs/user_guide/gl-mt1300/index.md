@@ -25,7 +25,7 @@ Vea el [video de unboxing](../../video_library/unboxing_first_set_up.md/#gl-mt13
 
 ## Especificaciones
 
-[Especificaciones del GL-MT1300](https://www.gl-inet.com/products/gl-mt1300/#specs){target="\_blank"}
+[Especificaciones del GL-MT1300](https://www.gl-inet.com/products/gl-mt1300/#specs){target="_blank"}
 
 ## Configuración inicial
 

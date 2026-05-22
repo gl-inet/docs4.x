@@ -142,4 +142,4 @@ Con este ajuste, el dispositivo utiliza un BSSID generado aleatoriamente y lo re
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"}.

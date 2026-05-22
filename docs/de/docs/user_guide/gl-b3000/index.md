@@ -51,7 +51,7 @@ Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per 
 
 ### 4. Internet einrichten
 
-**Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="\_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
+**Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
 Richten Sie Marble mit einer der unterstützten Internetverbindungsmethoden ein: Ethernet oder Repeater. Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte zwei Internetverbindungen ein.
 

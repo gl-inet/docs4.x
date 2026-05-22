@@ -364,7 +364,7 @@ Conecte el televisor inteligente al router y encontrará el servidor DLNA.
 
 ## Uso de la aplicación móvil
 
-El panel de administración web solo le permite administrar carpetas compartidas. Para administrar archivos en el dispositivo de almacenamiento, utilice la [aplicación móvil](https://www.gl-inet.com/app/#download-app-glinet){target="\_blank"}.
+El panel de administración web solo le permite administrar carpetas compartidas. Para administrar archivos en el dispositivo de almacenamiento, utilice la [aplicación móvil](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}.
 
 - Cuando accede a la aplicación a través de la **red local**, se muestra el dispositivo de almacenamiento y su capacidad, y se admite acceso de lectura y escritura.
 
@@ -372,4 +372,4 @@ El panel de administración web solo le permite administrar carpetas compartidas
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

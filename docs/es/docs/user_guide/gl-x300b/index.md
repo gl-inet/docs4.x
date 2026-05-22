@@ -39,7 +39,7 @@ Collie (GL-X300B) es una pasarela celular industrial diseñada para funcionar a 
 
 ## Especificaciones
 
-[Especificaciones del GL-X300B](https://www.gl-inet.com/products/gl-x300b/#specs){target="\_blank"}
+[Especificaciones del GL-X300B](https://www.gl-inet.com/products/gl-x300b/#specs){target="_blank"}
 
 ## Instalación de antenas
 

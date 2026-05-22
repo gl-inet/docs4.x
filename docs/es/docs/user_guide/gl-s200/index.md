@@ -25,7 +25,7 @@ Vea el [video de unboxing](../../video_library/unboxing_first_set_up.md#gl-s200)
 
 ## Especificaciones
 
-[Especificaciones del GL-S200](https://www.gl-inet.com/products/gl-s200/#specs){target="\_blank"}
+[Especificaciones del GL-S200](https://www.gl-inet.com/products/gl-s200/#specs){target="_blank"}
 
 ## Distribución de pines de la PCB
 

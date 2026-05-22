@@ -34,7 +34,7 @@ Tenga en cuenta que, si cambia la información de Wi‑Fi, deberá volver a cone
 
 ### 4. Configuración de Internet
 
-**Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router a través del panel de administración web de GL.iNet. Si prefiere usar la aplicación GL.iNet, [descargue la aplicación](https://www.gl-inet.com/app/){target="\_blank"} y siga las instrucciones que aparecen en pantalla.
+**Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router a través del panel de administración web de GL.iNet. Si prefiere usar la aplicación GL.iNet, [descargue la aplicación](https://www.gl-inet.com/app/){target="_blank"} y siga las instrucciones que aparecen en pantalla.
 
 Configure su Shadow utilizando uno de los métodos de conexión a Internet compatibles: Ethernet, Repeater, Tethering y Cellular. Si desea usar la función [Multi-WAN](../../interface_guide/multi-wan.md), configure más de una conexión a Internet.
 

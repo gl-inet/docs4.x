@@ -2,7 +2,7 @@
 
 ## Actualizar el firmware
 
-En el panel de administración web, vaya a SYSTEM -> Upgrade y actualice el firmware a la versión más reciente. Consulte el [centro de descarga de firmware](https://dl.gl-inet.com/){target="\_blank"} para comprobar cuál es la última versión.
+En el panel de administración web, vaya a SYSTEM -> Upgrade y actualice el firmware a la versión más reciente. Consulte el [centro de descarga de firmware](https://dl.gl-inet.com/){target="_blank"} para comprobar cuál es la última versión.
 
 ![opal4317](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/opal4317.jpg){class="glboxshadow"}
 
@@ -16,4 +16,4 @@ Después de actualizar el firmware, inicie sesión en el panel de administració
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

@@ -23,11 +23,11 @@ Cette page permet de vérifier l'état de la carte physique eSIM et de gérer le
 
 **Pour les modèles marqués ※** :
 
-1. Le firmware stable actuel ne prend pas en charge l'eSIM. Pour utiliser cette fonction, vous devez installer un firmware compatible eSIM. [Contactez-nous](https://www.gl-inet.com/contacts/){target="\_blank"} pour plus d'instructions.
+1. Le firmware stable actuel ne prend pas en charge l'eSIM. Pour utiliser cette fonction, vous devez installer un firmware compatible eSIM. [Contactez-nous](https://www.gl-inet.com/contacts/){target="_blank"} pour plus d'instructions.
 
 2. Pour les modèles marqués ※ équipés d'un module EP06-A, l'eSIM n'est pas prise en charge, car le logiciel Qualcomm ne prend pas en charge les commandes AT nécessaires.
 
-3. Pour le GL-E750 (Mudi) et les modèles marqués ※ équipés d'un module EP06-E, consultez ce [lien](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="\_blank"} pour d'abord mettre à niveau le firmware du module, puis installer le firmware compatible eSIM afin d'activer la fonction eSIM.
+3. Pour le GL-E750 (Mudi) et les modèles marqués ※ équipés d'un module EP06-E, consultez ce [lien](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} pour d'abord mettre à niveau le firmware du module, puis installer le firmware compatible eSIM afin d'activer la fonction eSIM.
 
 **Pour les modèles marqués X** :
 
@@ -159,4 +159,4 @@ Articles associés :
 
 ---
 
-Vous avez encore des questions ? Visitez notre [Community Forum](https://forum.gl-inet.com){target="\_blank"} ou [Contactez-nous](https://www.gl-inet.com/contacts/){target="\_blank"}.
+Vous avez encore des questions ? Visitez notre [Community Forum](https://forum.gl-inet.com){target="_blank"} ou [Contactez-nous](https://www.gl-inet.com/contacts/){target="_blank"}.

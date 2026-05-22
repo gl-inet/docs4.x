@@ -8,7 +8,7 @@ Brume-W (GL-MV1000W) es la edición especial de Brume (GL-MV1000) que incorpora 
 
 ## Especificaciones
 
-[Especificaciones del GL-MV1000](https://www.gl-inet.com/products/gl-mv1000/#specs){target="\_blank"}
+[Especificaciones del GL-MV1000](https://www.gl-inet.com/products/gl-mv1000/#specs){target="_blank"}
 
 ---
 

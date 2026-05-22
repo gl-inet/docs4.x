@@ -33,11 +33,11 @@ Los puntos destacados de la eSIM Physical Card son los siguientes:
 
 **Para los modelos marcados con ※**:
 
-1. El firmware estable actual no admite eSIM. Para usar la función eSIM, debe instalar firmware compatible con eSIM. [Contact us](https://www.gl-inet.com/contacts/){target="\_blank"} para obtener más instrucciones.
+1. El firmware estable actual no admite eSIM. Para usar la función eSIM, debe instalar firmware compatible con eSIM. [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} para obtener más instrucciones.
 
 2. Si usa un modelo marcado con ※ equipado con el módulo EP06-A, la eSIM no es compatible porque el software de Qualcomm no admite determinados comandos AT.
 
-3. Si usa un modelo marcado con ※ equipado con el módulo EP06-E, consulte [este enlace](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="\_blank"} para actualizar el firmware del módulo e instalar firmware compatible con eSIM a fin de habilitar esta función.
+3. Si usa un modelo marcado con ※ equipado con el módulo EP06-E, consulte [este enlace](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} para actualizar el firmware del módulo e instalar firmware compatible con eSIM a fin de habilitar esta función.
 
 **Para los modelos marcados con X**:
 
@@ -95,7 +95,7 @@ Si su firmware **no está actualizado**, puede actualizarlo automáticamente en 
 
 <u>Opción 2</u>: Actualización manual del firmware
 
-1. Descargue desde [aquí](https://dl.gl-inet.com/){target="\_blank"} el firmware correspondiente al modelo compatible con la función eSIM.
+1. Descargue desde [aquí](https://dl.gl-inet.com/){target="_blank"} el firmware correspondiente al modelo compatible con la función eSIM.
 
 2. En el panel de administración web, vaya a **SYSTEM** > **Upgrade** > **Local Upgrade**. Seleccione el archivo de firmware o arrástrelo al área designada para actualizar a la versión más reciente.
 

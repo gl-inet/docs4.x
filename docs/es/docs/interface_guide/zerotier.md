@@ -34,7 +34,7 @@ Seleccione la versión adecuada para continuar.
 
 El siguiente ejemplo utiliza el GL-MT3600BE.
 
-1. Visite el [sitio web oficial de ZeroTier](https://www.zerotier.com/){target="\_blank"} e inicie sesión con su cuenta.
+1. Visite el [sitio web oficial de ZeroTier](https://www.zerotier.com/){target="_blank"} e inicie sesión con su cuenta.
 
    ![create organization](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/zerotier_login.jpg){class="glboxshadow"}
 
@@ -72,10 +72,10 @@ El siguiente ejemplo utiliza el GL-MT3600BE.
 
    ![authorized 1](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/authorized1.png){class="glboxshadow"}
 
-7. Añada otro dispositivo, como un ordenador o un smartphone, a la misma red ZeroTier siguiendo [esta guía](https://docs.zerotier.com/platforms/){target="\_blank"}.
+7. Añada otro dispositivo, como un ordenador o un smartphone, a la misma red ZeroTier siguiendo [esta guía](https://docs.zerotier.com/platforms/){target="_blank"}.
 
    A continuación se muestra un ejemplo con un portátil con Windows 10 Pro.
-   1. Instale ZeroTier en el portátil desde [aquí](https://www.zerotier.com/download/){target="\_blank"}.
+   1. Instale ZeroTier en el portátil desde [aquí](https://www.zerotier.com/download/){target="_blank"}.
 
    2. Inicie ZeroTier. El icono de ZeroTier aparecerá en la bandeja del sistema, en la esquina inferior derecha del escritorio.
 
@@ -115,7 +115,7 @@ El siguiente ejemplo utiliza el GL-MT2500.
 
 1. Cree su primera red ZeroTier.
 
-   Consulte la [guía oficial de inicio](https://docs.zerotier.com/getting-started/getting-started/){target="\_blank"} de ZeroTier para crear una cuenta y una red ZeroTier. Recuerde tomar nota del Network ID, que es una combinación alfanumérica de 16 caracteres, ya que será necesaria al conectar otros dispositivos más adelante.
+   Consulte la [guía oficial de inicio](https://docs.zerotier.com/getting-started/getting-started/){target="_blank"} de ZeroTier para crear una cuenta y una red ZeroTier. Recuerde tomar nota del Network ID, que es una combinación alfanumérica de 16 caracteres, ya que será necesaria al conectar otros dispositivos más adelante.
 
    ![zerotier network id](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_network_id.png){class="glboxshadow"}
 
@@ -143,7 +143,7 @@ El siguiente ejemplo utiliza el GL-MT2500.
 
    ![zerotier managed ip](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/managed_ip.png){class="glboxshadow"}
 
-4. Añada otro dispositivo, como un ordenador o un smartphone, a la misma red ZeroTier siguiendo [esta guía](https://docs.zerotier.com/platforms/){target="\_blank"}.
+4. Añada otro dispositivo, como un ordenador o un smartphone, a la misma red ZeroTier siguiendo [esta guía](https://docs.zerotier.com/platforms/){target="_blank"}.
 
 5. Compruebe la conectividad.
 
@@ -153,7 +153,7 @@ El siguiente ejemplo utiliza el GL-MT2500.
 
    ![web admin panel](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/web_admin_panel.png)
 
-   También puede usar el comando `ping` para comprobar la conectividad. Consulte la [guía rápida](https://docs.zerotier.com/quickstart/#6-test-your-connection){target="\_blank"} de ZeroTier.
+   También puede usar el comando `ping` para comprobar la conectividad. Consulte la [guía rápida](https://docs.zerotier.com/quickstart/#6-test-your-connection){target="_blank"} de ZeroTier.
 
 ## Allow Remote Access WAN
 
@@ -229,4 +229,4 @@ Los pasos siguientes usan Legacy Central como ejemplo.
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

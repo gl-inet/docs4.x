@@ -25,7 +25,7 @@ Vea el [video de unboxing](../../video_library/unboxing_first_set_up.md#slategl-
 
 ## Especificaciones
 
-[Especificaciones del GL-AR750S](https://www.gl-inet.com/products/gl-ar750s/#specs){target="\_blank"}
+[Especificaciones del GL-AR750S](https://www.gl-inet.com/products/gl-ar750s/#specs){target="_blank"}
 
 ---
 

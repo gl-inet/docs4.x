@@ -2,7 +2,7 @@
 
 ## Información del hardware
 
-[Especificaciones del GL-S10](https://www.gl-inet.com/products/gl-s10/#specs){target="\_blank"}
+[Especificaciones del GL-S10](https://www.gl-inet.com/products/gl-s10/#specs){target="_blank"}
 
 ## Lista de GPIO
 
@@ -55,16 +55,16 @@
 
 ## Configuración inicial
 
-Consulte [GL-S10](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/){target="\_blank"} en la documentación IoT.
+Consulte [GL-S10](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/){target="_blank"} en la documentación IoT.
 
 ---
 
 ## Manual de usuario
 
-Consulte [User Manual](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/user_manual/){target="\_blank"} en la documentación IoT.
+Consulte [User Manual](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/user_manual/){target="_blank"} en la documentación IoT.
 
 ---
 
 ## Guía de compilación del firmware
 
-Consulte [Firmware Compilation Guide](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/firmware_compilation_guide/){target="\_blank"} en la documentación IoT.
+Consulte [Firmware Compilation Guide](https://docs.gl-inet.com/iot/en/ble_proxy/gl-s10/firmware_compilation_guide/){target="_blank"} en la documentación IoT.

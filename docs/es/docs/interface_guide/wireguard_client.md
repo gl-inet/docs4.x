@@ -12,7 +12,7 @@ Para configurar un cliente WireGuard en un router GL.iNet, vea este video o siga
 
 ---
 
-Antes de comenzar, asegúrese de tener una suscripción activa con un proveedor de servicios VPN que admita la configuración manual de WireGuard. Haga clic [aquí](https://www.gl-inet.com/solutions/vpn/){target="\_blank"} para consultar los proveedores de WireGuard compatibles con GL.iNet.
+Antes de comenzar, asegúrese de tener una suscripción activa con un proveedor de servicios VPN que admita la configuración manual de WireGuard. Haga clic [aquí](https://www.gl-inet.com/solutions/vpn/){target="_blank"} para consultar los proveedores de WireGuard compatibles con GL.iNet.
 
 Por lo general, primero debe visitar el sitio web oficial del proveedor del servicio VPN al que está suscrito, obtener el archivo de configuración y subirlo al router para configurarlo como cliente WireGuard. Si no sabe cómo obtener el archivo de configuración, consulte [este enlace](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) o contacte con el soporte del proveedor.
 
@@ -36,7 +36,7 @@ A continuación se indican los pasos para configurarlo mediante el panel de admi
 
 ## Configurar AzireVPN {#set-up-azirevpn}
 
-[AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="\_blank"} es un servicio VPN orientado a la privacidad que ofrece túneles seguros, modernos y robustos como WireGuard.
+[AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} es un servicio VPN orientado a la privacidad que ofrece túneles seguros, modernos y robustos como WireGuard.
 
 Vea este video para configurar AzireVPN en routers GL.iNet mediante el panel de administración web o la app móvil.
 
@@ -90,7 +90,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 ## Configurar Hide.me {#set-up-hideme}
 
-[Sitio web oficial](https://www.hideipvpn.com/){target="\_blank"}
+[Sitio web oficial](https://www.hideipvpn.com/){target="_blank"}
 
 En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **Hide.me**.
 
@@ -132,7 +132,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 ## Configurar IPVanish {#set-up-ipvanish}
 
-[Sitio web oficial](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="\_blank"}
+[Sitio web oficial](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="_blank"}
 
 En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **IPVanish**.
 
@@ -180,7 +180,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 ## Configurar Mullvad {#set-up-mullvad}
 
-[Mullvad](https://mullvad.net/){target="\_blank"} es un servicio VPN que ayuda a mantener privadas su actividad en línea, identidad y ubicación.
+[Mullvad](https://mullvad.net/){target="_blank"} es un servicio VPN que ayuda a mantener privadas su actividad en línea, identidad y ubicación.
 
 En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **Mullvad**.
 
@@ -234,9 +234,9 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 ## Configurar NordVPN {#set-up-nordvpn}
 
-[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902){target="\_blank"} es un servicio VPN en línea que combina velocidad y seguridad.
+[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902){target="_blank"} es un servicio VPN en línea que combina velocidad y seguridad.
 
-1. Haga clic [aquí](https://my.nordaccount.com/){target="\_blank"} para iniciar sesión con su cuenta web de NordVPN.
+1. Haga clic [aquí](https://my.nordaccount.com/){target="_blank"} para iniciar sesión con su cuenta web de NordVPN.
 
    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_login.png){class="glboxshadow"}
 
@@ -304,7 +304,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 ## Configurar PIA (Private Internet Access) {#set-up-pia-private-internet-access}
 
-[Sitio web oficial](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="\_blank"}
+[Sitio web oficial](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
 En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **PIA**.
 
@@ -352,7 +352,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 ## Configurar PureVPN {#set-up-purevpn}
 
-[Sitio web oficial](https://billing.purevpn.com/aff.php?aff=35535){target="\_blank"}
+[Sitio web oficial](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
 En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **PureVPN**.
 
@@ -398,7 +398,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 ## Configurar Surfshark {#set-up-surfshark}
 
-[Sitio web oficial](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="\_blank"}
+[Sitio web oficial](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
 En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **Surfshark**.
 
@@ -452,7 +452,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 ## Configurar Windscribe {#set-up-windscribe}
 
-[Sitio web oficial](https://windscribe.com/yo/1u2h9ndl){target="\_blank"}
+[Sitio web oficial](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
 En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **Windscribe**.
 
@@ -571,4 +571,4 @@ WireGuard® es una marca registrada de Jason A.Donenfeld.
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

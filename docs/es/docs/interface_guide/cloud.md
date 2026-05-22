@@ -34,7 +34,7 @@
 
 ## Introducción
 
-GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="\_blank"} es una plataforma diseñada para simplificar el despliegue y la gestión remotos de dispositivos conectados. Proporciona una forma sencilla de acceder y gestionar routers GL.iNet a distancia. Al centralizar los dispositivos de red en la nube, los usuarios pueden realizar de forma eficiente tareas de gestión por lotes, como desplegar configuraciones de red y realizar actualizaciones de software. También pueden acceder de forma remota al panel de administración web del router o conectarse al terminal del router por SSH, logrando una gestión de dispositivos de red entre regiones y de extremo a extremo.
+GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} es una plataforma diseñada para simplificar el despliegue y la gestión remotos de dispositivos conectados. Proporciona una forma sencilla de acceder y gestionar routers GL.iNet a distancia. Al centralizar los dispositivos de red en la nube, los usuarios pueden realizar de forma eficiente tareas de gestión por lotes, como desplegar configuraciones de red y realizar actualizaciones de software. También pueden acceder de forma remota al panel de administración web del router o conectarse al terminal del router por SSH, logrando una gestión de dispositivos de red entre regiones y de extremo a extremo.
 
 Con GoodCloud, puede:
 
@@ -63,7 +63,7 @@ Con GoodCloud, puede:
    - Viajes de negocios: acceder remotamente a los sistemas de oficina, por ejemplo, OA, CRM o MySQL
    - Hogar inteligente: acceder remotamente a dispositivos domésticos, por ejemplo, cámaras IP o NAS
 
-Si necesita gestionar varios dispositivos y desbloquear funciones avanzadas como operaciones masivas, gestión de múltiples cuentas y soluciones personalizadas, elija nuestros planes de valor añadido. Haga clic [aquí](https://www.gl-inet.com/solutions/goodcloud/){target="\_blank"} para ver más detalles y no dude en escribir a [support@glinet.biz](mailto:support@glinet.biz).
+Si necesita gestionar varios dispositivos y desbloquear funciones avanzadas como operaciones masivas, gestión de múltiples cuentas y soluciones personalizadas, elija nuestros planes de valor añadido. Haga clic [aquí](https://www.gl-inet.com/solutions/goodcloud/){target="_blank"} para ver más detalles y no dude en escribir a [support@glinet.biz](mailto:support@glinet.biz).
 
 ## Vincular dispositivos a GoodCloud
 
@@ -89,7 +89,7 @@ Habilite **Remote SSH** y **Remote Web Access** según sea necesario, seleccione
 
 #### Registrar una cuenta
 
-Visite el [sitio web de GoodCloud](https://www.goodcloud.xyz){target="\_blank"} para registrar una cuenta e iniciar sesión.
+Visite el [sitio web de GoodCloud](https://www.goodcloud.xyz){target="_blank"} para registrar una cuenta e iniciar sesión.
 
 Si no recibe el correo de verificación, revise la carpeta de spam o espere unos minutos e inténtelo de nuevo. Si tiene dificultades durante el registro, escriba a [support@glinet.biz](mailto:support@glinet.biz) para obtener ayuda.
 
@@ -189,7 +189,7 @@ Si tiene cualquier dificultad, escriba a [support@glinet.biz](mailto:support@gli
 
 ### Información del sistema y acciones
 
-En [GoodCloud](https://www.goodcloud.xyz){target="\_blank"} -> **Bound Devices**, puede ver la información del sistema, por ejemplo, modelo, versión, dirección MAC o dirección IP, y el estado, por ejemplo, en línea o fuera de línea, de todos los dispositivos vinculados a su cuenta.
+En [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices**, puede ver la información del sistema, por ejemplo, modelo, versión, dirección MAC o dirección IP, y el estado, por ejemplo, en línea o fuera de línea, de todos los dispositivos vinculados a su cuenta.
 
 ![devices info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/devices_info.png){class="glboxshadow"}
 
@@ -205,7 +205,7 @@ Haga clic en el icono de engranaje situado en el extremo derecho de la cabecera 
 
 ### Detalles del dispositivo
 
-En [GoodCloud](https://www.goodcloud.xyz){target="\_blank"} -> **Bound Devices**, haga clic en el nombre de un dispositivo y será redirigido a la página de detalles del dispositivo, donde se muestra la información básica del router, datos estadísticos, ajustes de red, lista de clientes, etc.
+En [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices**, haga clic en el nombre de un dispositivo y será redirigido a la página de detalles del dispositivo, donde se muestra la información básica del router, datos estadísticos, ajustes de red, lista de clientes, etc.
 
 ![Device detail info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/device_details.png){class="glboxshadow"}
 
@@ -229,7 +229,7 @@ Esta página muestra las configuraciones de red y los ajustes Wi-Fi de su router
 
 ## Acceso remoto
 
-En [GoodCloud](https://www.goodcloud.xyz){target="\_blank"} -> **Bound Devices**, haga clic en el nombre del dispositivo al que desea acceder para entrar en la página de detalles, donde verá acciones remotas en la esquina superior derecha.
+En [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices**, haga clic en el nombre del dispositivo al que desea acceder para entrar en la página de detalles, donde verá acciones remotas en la esquina superior derecha.
 
 ![remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/remote_access.png){class="glboxshadow"}
 
@@ -257,7 +257,7 @@ Si esta opción se puede pulsar, pero no responde, pruebe a usar el modo incógn
 
 Puede configurar múltiples parámetros para un solo dispositivo o para varios dispositivos.
 
-En [GoodCloud](https://www.goodcloud.xyz){target="\_blank"} -> **Bound Devices**, seleccione el dispositivo que desea configurar y, en la esquina superior derecha, haga clic en **Settings** -> **Modify Settings**.
+En [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices**, seleccione el dispositivo que desea configurar y, en la esquina superior derecha, haga clic en **Settings** -> **Modify Settings**.
 
 ![device settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/modify_settings_1.png){class="glboxshadow"}
 
@@ -269,7 +269,7 @@ Aquí puede consultar y modificar los ajustes de red del router, incluidos los d
 
 Puede configurar una alarma por correo electrónico cuando cambie el estado del dispositivo, en línea o fuera de línea, o cuando se conecten nuevos clientes.
 
-En [GoodCloud](https://www.goodcloud.xyz){target="\_blank"} -> **Notifications**, haga clic en el botón **Add Rule** en la esquina superior derecha.
+En [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Notifications**, haga clic en el botón **Add Rule** en la esquina superior derecha.
 
 ![notifications 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/notifications1.png){class="glboxshadow"}
 
@@ -315,7 +315,7 @@ En general, se recomienda mantener la configuración predeterminada en la que Go
 
 Puede ver los registros de GoodCloud cuando lo necesite, incluidos Activity Logs, Device Logs, Upgrade Logs, Alert Logs y Device Settings Logs.
 
-En [GoodCloud](https://www.goodcloud.xyz){target="\_blank"} -> **Logs**, seleccione los registros que desea ver en la lista desplegable.
+En [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Logs**, seleccione los registros que desea ver en la lista desplegable.
 
 ![View Logs](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/view_logs.png){class="glboxshadow"}
 
@@ -347,7 +347,7 @@ Si ya no desea que su dispositivo esté conectado a la plataforma en la nube, pu
 
 Por razones de seguridad, puede eliminar su cuenta si ya no está en uso.
 
-En la plataforma [GoodCloud](https://www.goodcloud.xyz){target="\_blank"}, haga clic en el nombre de usuario en la esquina superior derecha y seleccione **Personal Center**. Desplácese hasta la parte inferior de la página y haga clic en **Delete Account**.
+En la plataforma [GoodCloud](https://www.goodcloud.xyz){target="_blank"}, haga clic en el nombre de usuario en la esquina superior derecha y seleccione **Personal Center**. Desplácese hasta la parte inferior de la página y haga clic en **Delete Account**.
 
 ![delete account](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/delete_account.png){class="glboxshadow"}
 
@@ -359,4 +359,4 @@ En la plataforma [GoodCloud](https://www.goodcloud.xyz){target="\_blank"}, haga 
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

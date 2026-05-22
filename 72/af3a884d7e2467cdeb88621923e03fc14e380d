@@ -1,0 +1,30 @@
+docs/fr/docs/interface_guide/esim_management.md
+  s_7c1b6f8d264cbc::t_dcc3b1652f8d91 121,123,127,131,137,141
+  h_dd47ed8a860c1a 26,30,162
+  s_7c1b6f8d264cbc::t_562915ecb4089f 1,5,9,11-22,24,28,32,34,36,38,40,44-49,51,53,57,59,63,65,67,71,77,79,81,83,91,93,95,97,99,101,103,105,107,109,115,135,143,149,155
+docs/fr/docs/interface_guide/wireguard_client.md
+  s_7c1b6f8d264cbc::t_b732dc2165c340 530,532,534,536,538,540,542,544-545,547,549-550
+  h_dd47ed8a860c1a 15,39,135,183,237,239,261,307,355,381,387,393,401,455,574
+  s_7c1b6f8d264cbc::t_562915ecb4089f 19,62,202,242,515,537
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "72af3a884d7e2467cdeb88621923e03fc14e380d",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_7c1b6f8d264cbc": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "c222ae69-f945-4962-b49f-877c99e48121",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

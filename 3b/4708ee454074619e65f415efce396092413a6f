@@ -1,0 +1,342 @@
+docs/es/docs/faq/use_https_for_adh.md
+  h_dd47ed8a860c1a 43
+docs/es/docs/faq/how_to_add_brume2_into_app.md
+  h_dd47ed8a860c1a 91
+docs/es/docs/user_guide/gl-mt300n-v2/index.md
+  h_dd47ed8a860c1a 37
+docs/es/docs/faq/why_do_I_get_a_message_from_ddns_test.md
+  h_dd47ed8a860c1a 21
+docs/es/docs/interface_guide/log.md
+  h_dd47ed8a860c1a 21
+docs/es/docs/interface_guide/vpn_dashboard_v4.7.md
+  h_dd47ed8a860c1a 179
+docs/es/docs/interface_guide/display_management.md
+  h_dd47ed8a860c1a 44
+docs/de/docs/user_guide/gl-x2000/index.md
+  h_dd47ed8a860c1a 71
+docs/es/docs/user_guide/gl-ar300m/index.md
+  h_dd47ed8a860c1a 37
+docs/es/docs/tutorials/how_to_set_up_openvpn_client.md
+  h_dd47ed8a860c1a 11,76
+docs/es/docs/interface_guide/ipv6.md
+  h_dd47ed8a860c1a 37
+docs/es/docs/interface_guide/upgrade.md
+  h_dd47ed8a860c1a 21,35,67
+docs/es/docs/tutorials/how_to_set_up_port_forwarding.md
+  h_dd47ed8a860c1a 19,37-39,43,47-48,52,56,60,64
+docs/es/docs/interface_guide/vpn_dashboard_v4.8.md
+  h_dd47ed8a860c1a 19,300
+docs/es/docs/faq/warning_from_your_browser_during_setup.md
+  h_dd47ed8a860c1a 47
+docs/es/docs/faq/upgrade_to_4.md
+  h_dd47ed8a860c1a 21,31,37
+docs/es/docs/faq/how_to_resolve_a_subnet_conflict.md
+  h_dd47ed8a860c1a 35
+docs/es/docs/interface_guide/wireless.md
+  h_dd47ed8a860c1a 145
+docs/es/docs/faq/cannot_scan_iphone_5g_hotspot.md
+  h_dd47ed8a860c1a 9
+docs/es/docs/interface_guide/drop-in_gateway.md
+  h_dd47ed8a860c1a 214
+docs/es/docs/faq/how_can_i_know_the_lan_wifi_mac.md
+  h_dd47ed8a860c1a 51
+docs/es/docs/faq/problem_notification_for_mt2500_x3000_xe3000.md
+  h_dd47ed8a860c1a 15,21,27
+docs/es/docs/tutorials/wireguard_server_access_to_client_lan_side.md
+  h_dd47ed8a860c1a 93
+docs/es/docs/interface_guide/time_zone.md
+  h_dd47ed8a860c1a 17
+docs/es/docs/interface_guide/plugins.md
+  h_dd47ed8a860c1a 15
+docs/es/docs/faq/connect_to_a_hotspot_with_captive_portal.md
+  h_dd47ed8a860c1a 123
+docs/es/docs/faq/mobile_app.md
+  h_dd47ed8a860c1a 5,7,11
+docs/es/docs/tutorials/winscp_share_file.md
+  h_dd47ed8a860c1a 27
+docs/es/docs/interface_guide/internet_repeater.md
+  h_dd47ed8a860c1a 153,243
+docs/es/docs/tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
+  h_dd47ed8a860c1a 36,40,98
+docs/es/docs/faq/block_non_vpn_traffic.md
+  h_dd47ed8a860c1a 61
+docs/es/docs/interface_guide/network_acceleration.md
+  h_dd47ed8a860c1a 39
+docs/de/docs/user_guide/gl-b3000/index.md
+  h_dd47ed8a860c1a 54
+docs/es/docs/user_guide/gl-ap1300/index.md
+  h_dd47ed8a860c1a 11
+docs/es/docs/faq/repair_network_or_reset_firmware.md
+  h_dd47ed8a860c1a 51
+docs/es/docs/faq/no_internet_after_replacing_the_old_router_with_glinet.md
+  h_dd47ed8a860c1a 15
+docs/de/docs/user_guide/gl-be6500/index.md
+  h_dd47ed8a860c1a 54
+docs/es/docs/user_guide/gl-s20/index.md
+  h_dd47ed8a860c1a 5,62,68,74
+docs/es/docs/faq/what_is_luci.md
+  h_dd47ed8a860c1a 23
+docs/es/docs/faq/iphone_tethering_fail.md
+  h_dd47ed8a860c1a 25
+docs/de/docs/tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
+  h_dd47ed8a860c1a 5,41,59,65
+docs/es/docs/faq/stuck_on_rebooting_during_firmware_reboot.md
+  h_dd47ed8a860c1a 23
+docs/es/docs/user_guide/gl-mt1300/index.md
+  h_dd47ed8a860c1a 28
+docs/es/docs/faq/what_is_the_wireless_coverage_of_my_router.md
+  h_dd47ed8a860c1a 41
+docs/es/docs/tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
+  h_dd47ed8a860c1a 118
+docs/es/docs/interface_guide/openvpn_server.md
+  h_dd47ed8a860c1a 19,106,131,135
+docs/es/docs/tutorials/route_vpn_client_dns_to_server_upstream_dns.md
+  h_dd47ed8a860c1a 65
+docs/es/docs/user_guide/gl-x750/index.md
+  h_dd47ed8a860c1a 13
+docs/es/docs/interface_guide/internet.md
+  h_dd47ed8a860c1a 50,54
+docs/es/docs/interface_guide/firewall.md
+  h_dd47ed8a860c1a 71
+docs/es/docs/faq/usb_modem_is_not_working_properly_on_gl_inet_router.md
+  h_dd47ed8a860c1a 35
+docs/es/docs/interface_guide/internet_tethering.md
+  h_dd47ed8a860c1a 104
+docs/es/docs/tutorials/ssh_log_in_to_the_router.md
+  h_dd47ed8a860c1a 217
+docs/es/docs/interface_guide/adguardhome.md
+  h_dd47ed8a860c1a 33
+docs/es/docs/tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
+  h_dd47ed8a860c1a 35,213
+docs/es/docs/faq/stuck_on_installing_during_firmware_update.md
+  h_dd47ed8a860c1a 21
+docs/es/docs/interface_guide/sms.md
+  h_dd47ed8a860c1a 57
+docs/es/docs/tutorials/manually_configure_static_ip.md
+  h_dd47ed8a860c1a 196
+docs/es/docs/interface_guide/wireguard_client.md
+  h_dd47ed8a860c1a 15,39,93,135,183,237,239,307,355,401,455,574
+docs/es/docs/user_guide/gl-s10/index.md
+  h_dd47ed8a860c1a 5,58,64,70
+docs/es/docs/faq/cannot_access_web_admin_panel.md
+  h_dd47ed8a860c1a 119
+docs/es/docs/interface_guide/admin_password.md
+  h_dd47ed8a860c1a 23
+docs/es/docs/interface_guide/help.md
+  h_dd47ed8a860c1a 7,23
+docs/es/docs/interface_guide/clients.md
+  h_dd47ed8a860c1a 182
+docs/es/docs/interface_guide/lan.md
+  h_dd47ed8a860c1a 79
+docs/es/docs/user_guide/gl-mt3600be/index.md
+  h_dd47ed8a860c1a 52
+docs/es/docs/interface_guide/network_mode.md
+  h_dd47ed8a860c1a 71
+docs/es/docs/interface_guide/mac_address.md
+  h_dd47ed8a860c1a 39
+docs/es/docs/faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
+  h_dd47ed8a860c1a 25
+docs/es/docs/tutorials/how_to_set_up_drop_in_gateway.md
+  h_dd47ed8a860c1a 63-67,152-156,166
+docs/es/docs/interface_guide/nat_settings.md
+  h_dd47ed8a860c1a 37
+docs/es/docs/interface_guide/network_storage.md
+  h_dd47ed8a860c1a 367,375
+docs/es/docs/faq/produce_a_wired_connection.md
+  h_dd47ed8a860c1a 13
+docs/es/docs/tutorials/openvpn_server_access_client_lan_side.md
+  h_dd47ed8a860c1a 91
+docs/es/docs/tutorials/how_to_update_openvpn_server_certificates.md
+  h_dd47ed8a860c1a 31
+docs/de/docs/user_guide/gl-x3000/index.md
+  h_dd47ed8a860c1a 72
+docs/es/docs/user_guide/gl-ar750s/index.md
+  h_dd47ed8a860c1a 28
+docs/es/docs/interface_guide/multi-wan.md
+  h_dd47ed8a860c1a 104
+docs/es/docs/user_guide/gl-mv1000/index.md
+  h_dd47ed8a860c1a 11
+docs/es/docs/user_guide/gl-s200/index.md
+  h_dd47ed8a860c1a 28
+docs/es/docs/user_guide/gl-ax1800/index.md
+  h_dd47ed8a860c1a 52
+docs/es/docs/user_guide/gl-axt1800/index.md
+  h_dd47ed8a860c1a 51
+docs/es/docs/tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
+  h_dd47ed8a860c1a 5,33,53,61
+docs/es/docs/user_guide/gl-m2/index.md
+  h_dd47ed8a860c1a 9
+docs/es/docs/faq/stuck_on_reverting_during_firmware_reset.md
+  h_dd47ed8a860c1a 23
+docs/es/docs/user_guide/gl-x300b/index.md
+  h_dd47ed8a860c1a 42
+docs/es/docs/interface_guide/openvpn_client.md
+  h_dd47ed8a860c1a 11,27,31,93,705
+docs/es/docs/interface_guide/internet_cellular.md
+  h_dd47ed8a860c1a 503
+docs/es/docs/tutorials/upgrade_quectel_module_software.md
+  h_dd47ed8a860c1a 133
+docs/es/docs/interface_guide/parental_control.md
+  h_dd47ed8a860c1a 125-126,140,150,188
+docs/jp/docs/faq/block_non_vpn_traffic.md
+  h_dd47ed8a860c1a 61
+docs/es/docs/interface_guide/ddns.md
+  h_dd47ed8a860c1a 141
+docs/es/docs/user_guide/gl-be6500/index.md
+  h_dd47ed8a860c1a 54
+docs/es/docs/community/index.md
+  h_dd47ed8a860c1a 11,13,15,17,19
+docs/es/docs/user_guide/gl-mt3000/index.md
+  h_dd47ed8a860c1a 51
+docs/es/docs/faq/connect_glinetrouter_to_starlink.md
+  h_dd47ed8a860c1a 23
+docs/es/docs/faq/remote_access_web_admin_panel.md
+  h_dd47ed8a860c1a 4-6,10
+docs/de/docs/user_guide/gl-mt3600be/index.md
+  h_dd47ed8a860c1a 52
+docs/es/docs/faq/what_is_the_device_capacity_of_my_router.md
+  h_dd47ed8a860c1a 33
+docs/es/docs/user_guide/gl-be9300/index.md
+  h_dd47ed8a860c1a 52
+docs/es/docs/user_guide/gl-ar750/index.md
+  h_dd47ed8a860c1a 11,42
+docs/es/docs/faq/remote_ssh_to_router.md
+  h_dd47ed8a860c1a 4-6,10
+docs/es/docs/faq/macos_cannot_write_samba.md
+  h_dd47ed8a860c1a 71
+docs/es/docs/tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
+  h_dd47ed8a860c1a 5,41,59,65
+docs/es/docs/interface_guide/internet_cellular_v4.7.md
+  h_dd47ed8a860c1a 384
+docs/es/docs/interface_guide/cloud.md
+  h_dd47ed8a860c1a 37,66,92,192,208,232,260,272,318,350,362
+docs/de/docs/user_guide/gl-be3600/index.md
+  h_dd47ed8a860c1a 73
+docs/de/docs/user_guide/gl-be9300/index.md
+  h_dd47ed8a860c1a 52
+docs/de/docs/user_guide/gl-ar750/index.md
+  h_dd47ed8a860c1a 11,42
+docs/fr/docs/interface_guide/wireguard_client.md
+  h_dd47ed8a860c1a 15,39,135,183,237,239,307,355,401,455,574
+docs/es/docs/faq/why_is_my_vpn_speed_slow.md
+  h_dd47ed8a860c1a 60
+docs/es/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+  h_dd47ed8a860c1a 360
+docs/es/docs/faq/debrick.md
+  h_dd47ed8a860c1a 195
+docs/de/docs/user_guide/gl-axt1800/index.md
+  h_dd47ed8a860c1a 51
+docs/de/docs/user_guide/gl-mt6000/index.md
+  h_dd47ed8a860c1a 55
+docs/es/docs/interface_guide/security.md
+  h_dd47ed8a860c1a 186
+docs/es/docs/tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
+  h_dd47ed8a860c1a 19,23,41,45,87,95
+docs/es/docs/tutorials/how_to_upgrade_downgrade_router.md
+  h_dd47ed8a860c1a 57
+docs/es/docs/interface_guide/zerotier.md
+  h_dd47ed8a860c1a 37,75,78,118,146,156,232
+docs/es/docs/faq/cannot_scan_android_5g_hotspot.md
+  h_dd47ed8a860c1a 33
+docs/es/docs/faq/first_time_setup.md
+  h_dd47ed8a860c1a 129
+docs/es/docs/interface_guide/how_to_set_up_urban_shield_vpn_on_glinet_router.md
+  h_dd47ed8a860c1a 23
+docs/es/docs/interface_guide/ethernet_port.md
+  h_dd47ed8a860c1a 37
+docs/es/docs/interface_guide/system_overview.md
+  h_dd47ed8a860c1a 84
+docs/es/docs/faq/where_to_find_the_device_id_mac_sn.md
+  h_dd47ed8a860c1a 23
+docs/es/docs/faq/upgrade_uboot_version.md
+  h_dd47ed8a860c1a 109
+docs/es/docs/faq/how_to_download_firmware.md
+  h_dd47ed8a860c1a 14
+docs/es/docs/interface_guide/reset_firmware.md
+  h_dd47ed8a860c1a 23
+docs/es/docs/interface_guide/scheduled_tasks.md
+  h_dd47ed8a860c1a 116
+docs/fr/docs/interface_guide/esim_management.md
+  h_dd47ed8a860c1a 26,30,162
+docs/es/docs/interface_guide/dual-ethernet_wan.md
+  h_dd47ed8a860c1a 29
+docs/es/docs/interface_guide/ui_languages.md
+  h_dd47ed8a860c1a 21
+docs/es/docs/interface_guide/dns.md
+  h_dd47ed8a860c1a 52
+docs/de/docs/tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
+  h_dd47ed8a860c1a 5,35,55,63
+docs/es/docs/interface_guide/port_forwarding.md
+  h_dd47ed8a860c1a 53
+docs/de/docs/user_guide/gl-mt3000/index.md
+  h_dd47ed8a860c1a 51
+docs/es/docs/tutorials/vpn_obfuscation.md
+  h_dd47ed8a860c1a 210
+docs/es/docs/user_guide/gl-s1300/index.md
+  h_dd47ed8a860c1a 11
+docs/es/docs/user_guide/gl-a1300/index.md
+  h_dd47ed8a860c1a 29
+docs/es/docs/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+  h_dd47ed8a860c1a 29,207
+docs/es/docs/tutorials/technical_support_via_goodcloud.md
+  h_dd47ed8a860c1a 35,41,69,72,86
+docs/es/docs/tutorials/reserve_fixed_IP_for_ovpn_client.md
+  h_dd47ed8a860c1a 54
+docs/es/docs/faq/my_wireguard_server_is_not_working.md
+  h_dd47ed8a860c1a 163
+docs/es/docs/tutorials/eap.md
+  h_dd47ed8a860c1a 165
+docs/es/docs/faq/change_wan_to_lan.md
+  h_dd47ed8a860c1a 61
+docs/es/docs/interface_guide/guest_network.md
+  h_dd47ed8a860c1a 73
+docs/es/docs/interface_guide/igmp_snooping.md
+  h_dd47ed8a860c1a 15
+docs/es/docs/interface_guide/advanced_settings.md
+  h_dd47ed8a860c1a 23
+docs/es/docs/faq/openvpn_tcp_udp.md
+  h_dd47ed8a860c1a 15
+docs/es/docs/tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
+  h_dd47ed8a860c1a 7,35
+docs/es/docs/interface_guide/internet_ethernet.md
+  h_dd47ed8a860c1a 93
+docs/es/docs/tutorials/how_to_set_up_openvpn_server.md
+  h_dd47ed8a860c1a 116
+docs/es/docs/interface_guide/wireguard_client_v4.6.md
+  h_dd47ed8a860c1a 29,59,75,160
+docs/es/docs/faq/how_to_make_wifi_calling_work_on_opal.md
+  h_dd47ed8a860c1a 5,19
+docs/de/docs/user_guide/gl-xe3000/index.md
+  h_dd47ed8a860c1a 23,63
+docs/es/docs/interface_guide/wireguard_server.md
+  h_dd47ed8a860c1a 19,134,145,153
+docs/es/docs/interface_guide/usb_power.md
+  h_dd47ed8a860c1a 43
+docs/es/docs/interface_guide/hardware_acceleration.md
+  h_dd47ed8a860c1a 35
+docs/de/docs/user_guide/gl-ax1800/index.md
+  h_dd47ed8a860c1a 52
+docs/es/docs/user_guide/gl-be3600/index.md
+  h_dd47ed8a860c1a 73
+docs/es/docs/user_guide/gl-xe300/index.md
+  h_dd47ed8a860c1a 28
+docs/es/docs/interface_guide/tailscale.md
+  h_dd47ed8a860c1a 196
+docs/es/docs/user_guide/gl-b1300/index.md
+  h_dd47ed8a860c1a 26
+docs/es/docs/interface_guide/tor.md
+  h_dd47ed8a860c1a 3,48
+docs/es/docs/tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
+  h_dd47ed8a860c1a 40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "3b4708ee454074619e65f415efce396092413a6f",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

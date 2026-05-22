@@ -263,73 +263,73 @@
 
     [Official Website](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
 
-    1. If you are using [StrongVPN](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}, sign in at [https://wg.strongvpn.com](https://wg.strongvpn.com){target="_blank"}
+    1. Si utiliza [StrongVPN](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}, inicie sesión en [https://wg.strongvpn.com](https://wg.strongvpn.com){target="_blank"}.
 
-    2. Select a location from the drop down menu, click **GENERATE**, open the downloaded text file.
+    2. Seleccione una ubicación en el menú desplegable, haga clic en **GENERATE** y abra el archivo de texto descargado.
 
         ![strongvpn wireguard configuration generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/strongvpn/strongvpn_wireguard_configuration_generator.png){class="glboxshadow"}
 
-    3. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
+    3. Luego siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para continuar.
 
-    4. You can also use [mobile app](../faq/mobile_app.md) to setup StrongVPN.
+    4. También puede usar la [app móvil](../faq/mobile_app.md) para configurar StrongVPN.
 
 ??? "TRUST.ZONE" ### TRUST.ZONE
 
     [Official Website](https://trustzonevpn.info/r.php?RID=B-byr1v-MDAxNzE3NjgxMjM4){target="_blank"}
 
-    1. Access [https://trust.zone/setup](https://trust.zone/setup) and login.
+    1. Acceda a [https://trust.zone/setup](https://trust.zone/setup) e inicie sesión.
 
-    2. Scroll down to the WireGuard section, choose the port you want, then download a config of specific server or a zip file of all configs.
+    2. Desplácese hasta la sección WireGuard, elija el puerto que desee y descargue la configuración de un servidor específico o un archivo zip con todas las configuraciones.
 
-    3. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
+    3. Luego siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para continuar.
 
 ??? "VPN.AC" ### VPN.AC
 
     [Official Website](https://vpn.ac/aff.php?aff=1424){target="_blank"}
 
-    1. If you are using [VPN.AC](https://vpn.ac/aff.php?aff=1424){target="_blank"}, you need to login the control panel and find WireGuard Manager from the "Services" menu.
+    1. Si utiliza [VPN.AC](https://vpn.ac/aff.php?aff=1424){target="_blank"}, debe iniciar sesión en el panel de control y buscar WireGuard Manager en el menú "Services".
 
         ![VPN.AC WireGuard Manager](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnac/vpn.ac_wireguard_manager.jpg){class="glboxshadow"}
 
-    2. Create the config and download.
+    2. Cree la configuración y descárguela.
 
         ![VPN.AC create wireguard profiles](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnac/vpn.ac_create_wireguard_profiles.jpg){class="glboxshadow"}
 
-    3. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
+    3. Luego siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para continuar.
 
 ??? "VPN Unlimited(KeepSolid)" ### VPN Unlimited(KeepSolid)
 
     [Official Website](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}
 
-    1. If you are using [VPN Unlimited](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}, sign in to your [User Office](https://my.keepsolid.com/){target="_blank"} > select the VPN Unlimited® application > click **Manage**.
+    1. Si utiliza [VPN Unlimited](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}, inicie sesión en su [User Office](https://my.keepsolid.com/){target="_blank"} > seleccione la aplicación VPN Unlimited® > haga clic en **Manage**.
 
         ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnunlimited/01.jpg){class="glboxshadow"}
 
-    2. Press the field under **Device** and click **Manually create a new device…** > set it's custom name, for example WireGuard > choose appropriate location of the **Server** > select the **WireGuard**® protocol from the dropdown menu > click **Generate**.
+    2. Pulse el campo situado bajo **Device** y haga clic en **Manually create a new device…** > establezca un nombre personalizado, por ejemplo WireGuard > elija la ubicación adecuada en **Server** > seleccione el protocolo **WireGuard**® en el menú desplegable > haga clic en **Generate**.
 
         ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnunlimited/02.jpg){class="glboxshadow"}
 
-    3. The configuration parameters will then appear below in the text format.
+    3. Los parámetros de configuración aparecerán a continuación en formato de texto.
 
         ![vpn unlimited setup on gl.inet router](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/vpnunlimited/03.jpg){class="glboxshadow"}
 
-        Combine the configuration as below.
+        Combine la configuración como se muestra a continuación.
 
         <p>
         [Interface]</br>
-        PrivateKey = <i>paste the PrivateKey from your User Office</i></br>
-        ListenPort = <i>paste the ListenPort details</i></br>
-        Address = <i>paste Address information</i></br>
-        DNS = <i>paste DNS details from the User Office</i></br>
+        PrivateKey = <i>pegue la PrivateKey desde su User Office</i></br>
+        ListenPort = <i>pegue los datos de ListenPort</i></br>
+        Address = <i>pegue la información de Address</i></br>
+        DNS = <i>pegue los datos de DNS desde su User Office</i></br>
         </br>
         [Peer]</br>
-        PublicKey = <i>paste PublicKey from the User Office</i></br>
-        PresharedKey = <i>paste PresharedKey details</i></br>
-        AllowedIPs = <i>paste AllowedIPs details</i></br>
-        Endpoint = <i>paste Endpoint information</i></br>
+        PublicKey = <i>pegue la PublicKey desde su User Office</i></br>
+        PresharedKey = <i>pegue los datos de PresharedKey</i></br>
+        AllowedIPs = <i>pegue los datos de AllowedIPs</i></br>
+        Endpoint = <i>pegue la información de Endpoint</i></br>
         </p>
 
-    4. Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
+    4. Luego siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para continuar.
 
     [Refer link 1](https://www.vpnunlimited.com/help/manuals/wireguard-setup-on-glinet-router){target="_blank"}
 
@@ -339,22 +339,22 @@
 
     [Official Website](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
-    1. Log in to your Windscribe membership account [here](https://windscribe.com/login?auth_required){target="_blank"}, then access the [WireGuard Config Generator](https://windscribe.com/getconfig/wireguard){target="_blank"}.
+    1. Inicie sesión en su cuenta de miembro de Windscribe [aquí](https://windscribe.com/login?auth_required){target="_blank"} y luego acceda al [WireGuard Config Generator](https://windscribe.com/getconfig/wireguard){target="_blank"}.
 
-    2. Select the server location and port you'd like to use, then click **Download Config**.
+    2. Seleccione la ubicación del servidor y el puerto que desea usar, y luego haga clic en **Download Config**.
 
         ![windscribe WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/wireguard_client/windscribe/windscribe_01.jpg){class="glboxshadow"}
 
-    3. Follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
+    3. Siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para continuar.
 
 ??? "12VPX" ### 12VPX
 
     [Official Website](https://12vpx.com/?aff=1174){target="_blank"}
 
-    If you are using [12VPX](https://12vpx.com/?aff=1174){target="_blank"}, login then access [this page](https://12vpx.com/setup/wireguard){target="_blank"}, you will see the configs of all servers.
+    Si utiliza [12VPX](https://12vpx.com/?aff=1174){target="_blank"}, inicie sesión y acceda a [esta página](https://12vpx.com/setup/wireguard){target="_blank"}; allí verá las configuraciones de todos los servidores.
 
-    Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
+    Luego siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para continuar.
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="\_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.

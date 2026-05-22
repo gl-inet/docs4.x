@@ -34,11 +34,11 @@ Conecte un dispositivo, por ejemplo un ordenador, un portátil o un smartphone, 
 
 - Ethernet
 
-    Conecte su dispositivo al puerto LAN del router mediante un cable Ethernet.
+  Conecte su dispositivo al puerto LAN del router mediante un cable Ethernet.
 
 - Wi-Fi
 
-    En su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña. Puede encontrar el nombre de red y la contraseña predeterminados impresos en la etiqueta del router.
+  En su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña. Puede encontrar el nombre de red y la contraseña predeterminados impresos en la etiqueta del router.
 
 ### 3. Iniciar sesión en el panel de administración web
 
@@ -48,7 +48,7 @@ Al confirmar los datos de Wi‑Fi, tenga en cuenta que, si cambia la informació
 
 ### 4. Configuración de Internet
 
-**Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router desde el panel de administración web de GL.iNet. Si prefiere usar la aplicación de GL.iNet, [descargue la aplicación](https://www.gl-inet.com/app/){target="_blank"} y siga las instrucciones que aparecen en pantalla.
+**Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router desde el panel de administración web de GL.iNet. Si prefiere usar la aplicación de GL.iNet, [descargue la aplicación](https://www.gl-inet.com/app/){target="\_blank"} y siga las instrucciones que aparecen en pantalla.
 
 Configure su Beryl AX con uno de los métodos de conexión a Internet compatibles: Ethernet, Repeater, Tethering y Cellular. Si desea utilizar la función [Multi-WAN](../../interface_guide/multi-wan.md), configure más de una conexión a Internet.
 
@@ -255,7 +255,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     Para configurar drop-in gateway, consulte estos enlaces:
 
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
-    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
+    - [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 ---
 
@@ -371,4 +371,3 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     La página Advanced Settings ofrece acceso a opciones de configuración avanzada a través de la interfaz OpenWrt LuCI, lo que permite a los usuarios con experiencia ajustar con precisión la configuración y las funciones del router más allá de las opciones básicas de la interfaz. Esto incluye configuraciones detalladas de red, ajustes del firewall y otras personalizaciones avanzadas del sistema.
 
     Consulte [Advanced Settings](../../interface_guide/advanced_settings.md) para ver instrucciones detalladas.
-

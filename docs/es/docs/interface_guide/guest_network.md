@@ -66,7 +66,7 @@ Haga clic en **Advanced** si necesita una configuración adicional.
 
 Artículos relacionados:
 
-- [How to set up a guest Wi-Fi network on GL.iNet routers](../tutorials/how_to_set_up_a_guest_network.md)
+- [Cómo configurar una red Wi-Fi para invitados en routers GL.iNet](../tutorials/how_to_set_up_a_guest_network.md)
 
 ---
 

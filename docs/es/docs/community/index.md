@@ -8,12 +8,12 @@
 
 A continuación se muestran algunos de los debates más comunes del foro de GL.iNet.
 
-- [How to upgrade Adguard on the Flint, auto and manual?](https://forum.gl-inet.com/t/how-to-upgrade-adguard-on-the-flint-auto-and-manual/21556){target="\_blank"}
+- [Cómo actualizar AdGuard en Flint, de forma automática y manual](https://forum.gl-inet.com/t/how-to-upgrade-adguard-on-the-flint-auto-and-manual/21556){target="\_blank"}
 
-- [OpenVPN and WireGuard Compatibility Report](https://forum.gl-inet.com/t/openvpn-and-wireguard-compatibility-report/15621){target="\_blank"}
+- [Informe de compatibilidad de OpenVPN y WireGuard](https://forum.gl-inet.com/t/openvpn-and-wireguard-compatibility-report/15621){target="\_blank"}
 
-- [Building a Site-2-Site network manually using two GL.iNet routers](https://forum.gl-inet.com/t/building-a-site-2-site-network-manually-using-two-gl-inet-routers/18294){target="\_blank"}
+- [Cómo crear manualmente una red site-to-site con dos routers GL.iNet](https://forum.gl-inet.com/t/building-a-site-2-site-network-manually-using-two-gl-inet-routers/18294){target="\_blank"}
 
-- [AdGuard Home on GL.iNet routers](https://forum.gl-inet.com/t/adguardhome-on-gl-routers/10664){target="\_blank"}
+- [AdGuard Home en routers GL.iNet](https://forum.gl-inet.com/t/adguardhome-on-gl-routers/10664){target="\_blank"}
 
 O haga clic [aquí](https://forum.gl-inet.com/){target="\_blank"} para visitar el foro de GL.iNet.

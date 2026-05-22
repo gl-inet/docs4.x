@@ -56,11 +56,11 @@ Conecte un dispositivo, por ejemplo un ordenador, portátil o smartphone, al rou
 
 - Ethernet
 
-    Conecte su dispositivo al puerto LAN del router mediante un cable Ethernet.
+  Conecte su dispositivo al puerto LAN del router mediante un cable Ethernet.
 
 - Wi-Fi
 
-    En su dispositivo, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña para conectarse. Puede encontrar el nombre de red predeterminado (SSID) y la contraseña impresos en la etiqueta del router.
+  En su dispositivo, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña para conectarse. Puede encontrar el nombre de red predeterminado (SSID) y la contraseña impresos en la etiqueta del router.
 
 ### 4. Inicie sesión en el panel de administración web
 
@@ -216,7 +216,7 @@ Una VPN, red privada virtual, crea tráfico seguro y cifrado entre su dispositiv
     Para configurar drop-in gateway, consulte estos enlaces:
 
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
-    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
+    - [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Network Acceleration"
 

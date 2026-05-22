@@ -220,8 +220,8 @@ Visite el tutorial [**Security**](../../interface_guide/security.md).
 
 ### Reset Firmware
 
-Please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
+Visite el tutorial [**Restablecer firmware**](../../interface_guide/reset_firmware.md).
 
 ### Advanced Settings
 
-Please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
+Visite el tutorial [**Configuración avanzada**](../../interface_guide/advanced_settings.md).

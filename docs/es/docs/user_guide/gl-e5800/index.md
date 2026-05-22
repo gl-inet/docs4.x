@@ -56,7 +56,6 @@ Siga las instrucciones que aparecen en pantalla para configurar los ajustes bás
 
 Configure su Mudi 7 con uno de los métodos de conexión a Internet compatibles: Cellular, Ethernet, Repeater, Tethering y USB Ethernet. Si desea utilizar la función [Multi-WAN](../../interface_guide/multi-wan.md), configure más de una conexión a Internet.
 
-
 === "Cellular"
 
     ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_cellular.jpg){class="glboxshadow"}
@@ -161,7 +160,6 @@ Configure su Mudi 7 con uno de los métodos de conexión a Internet compatibles:
     3. Mudi 7 se conectará automáticamente a su dispositivo. Si no se conecta, repita los pasos anteriores o inicie sesión en el panel de administración web y compruebe la conexión USB Ethernet en la página INTERNET.
     4. Cuando la conexión a Internet se establezca correctamente, aparecerán un icono USB y un icono de puerto Ethernet en la esquina superior derecha de la pantalla táctil. También puede comprobar los detalles de la conexión en el panel de administración web.
 
-
 ## Actualización del firmware
 
 !!! note "Antes de actualizar, tenga en cuenta lo siguiente:"
@@ -178,25 +176,25 @@ Puede actualizar el firmware de Mudi 7 mediante la pantalla táctil o el panel d
 
 2. Una vez conectado, el sistema comprobará automáticamente si hay actualizaciones de firmware disponibles. Si hay una nueva versión, aparecerá un aviso en pantalla. En la ventana emergente, haga clic en **Go to Upgrade** para continuar.
 
-    ![go to upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade1.png){class="glboxshadow" width="300"}
+   ![go to upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade1.png){class="glboxshadow" width="300"}
 
 3. Si no aparece la ventana emergente, haga clic en **More** en la pantalla de inicio -> **About Device** -> **Version & Upgrade** -> **Download & Upgrade**, y siga las instrucciones en pantalla para actualizar el firmware.
 
-    ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
+   ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
 
 ### Actualizar mediante la Web
 
 1. Actualización en línea
 
-    Inicie sesión en el panel de administración web y vaya a **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade** para actualizar el firmware del router.
+   Inicie sesión en el panel de administración web y vaya a **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade** para actualizar el firmware del router.
 
-    Consulte [aquí](../../interface_guide/upgrade.md#online-upgrade) para obtener más información.
+   Consulte [aquí](../../interface_guide/upgrade.md#online-upgrade) para obtener más información.
 
 2. Actualización local
 
-    Inicie sesión en el panel de administración web y vaya a **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade** para actualizar el firmware del router.
+   Inicie sesión en el panel de administración web y vaya a **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade** para actualizar el firmware del router.
 
-    Consulte [aquí](../../interface_guide/upgrade.md#local-upgrade) para obtener más información.
+   Consulte [aquí](../../interface_guide/upgrade.md#local-upgrade) para obtener más información.
 
 ## Restablecimiento de fábrica
 
@@ -212,25 +210,25 @@ Vea este vídeo o siga los pasos que se indican a continuación.
 
 1. En la página de inicio, pulse **More**.
 
-    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset1.png){class="glboxshadow" width="300"}
+   ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset1.png){class="glboxshadow" width="300"}
 
 2. En la página **More**, desplácese hasta la parte inferior y pulse **Reset**.
 
-    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset2.png){class="glboxshadow" width="300"}
+   ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset2.png){class="glboxshadow" width="300"}
 
 3. Pulse **Reset** de nuevo para confirmar. El router iniciará el restablecimiento y después se reiniciará.
 
-    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
+   ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
 ### Restablecer con el botón
 
 1. Retire la tapa trasera y encontrará el botón de reinicio como se muestra a continuación.
 
-    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+   ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
 2. Mantenga pulsado el botón de reinicio durante **10 segundos** y suéltelo para realizar un reinicio completo. Mientras mantiene pulsado el botón, preste atención a las indicaciones en pantalla y siga las instrucciones.
 
-    Esto borrará todos sus ajustes. Proceda con precaución.
+   Esto borrará todos sus ajustes. Proceda con precaución.
 
 **Consejo**: si desea restaurar la conectividad de red sin realizar un restablecimiento de fábrica, mantenga pulsado el botón de reinicio durante **4 segundos** y suéltelo para reparar la red. Mientras mantiene pulsado el botón, preste atención a las indicaciones en pantalla y siga las instrucciones.
 
@@ -250,7 +248,7 @@ Esto reiniciará la interfaz de red, conservando los ajustes de Wi-Fi, las confi
 
 2. Haga clic en **Delete All and Reboot**. El router iniciará el restablecimiento y después se reiniciará.
 
-    ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
+   ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
 
 ## Iniciar sesión en el panel de administración web
 
@@ -259,17 +257,16 @@ Puede iniciar sesión en el panel de administración web de Mudi 7 para configur
 Primero, conecte un dispositivo, por ejemplo un ordenador, un portátil o un smartphone, a Mudi 7 mediante Wi-Fi, un cable Ethernet o un cable USB.
 
 - **Wi-Fi**
-
-    - <u>QR code</u>: use su dispositivo para escanear el código QR en la pantalla de Mudi 7. Después pulse "Join" en su dispositivo para conectarse.
-    - <u>Manual Connect</u>: en su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi de Mudi 7 en la lista de redes disponibles e introduzca la contraseña para unirse a la red. (Puede encontrar el nombre de red y la contraseña predeterminados impresos en la etiqueta).
+  - <u>QR code</u>: use su dispositivo para escanear el código QR en la pantalla de Mudi 7. Después pulse "Join" en su dispositivo para conectarse.
+  - <u>Manual Connect</u>: en su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi de Mudi 7 en la lista de redes disponibles e introduzca la contraseña para unirse a la red. (Puede encontrar el nombre de red y la contraseña predeterminados impresos en la etiqueta).
 
 - **Ethernet**
 
-    Conecte su dispositivo al puerto Ethernet (LAN por defecto) de Mudi 7 mediante un cable Ethernet.
+  Conecte su dispositivo al puerto Ethernet (LAN por defecto) de Mudi 7 mediante un cable Ethernet.
 
 - **USB**
 
-    Conecte su dispositivo al puerto USB-C de Mudi 7 mediante un cable USB. El puerto USB-C compatible con OTG le permite acceder a la WebGUI de Mudi 7 en el siguiente paso.
+  Conecte su dispositivo al puerto USB-C de Mudi 7 mediante un cable USB. El puerto USB-C compatible con OTG le permite acceder a la WebGUI de Mudi 7 en el siguiente paso.
 
 Después, abra un navegador web e introduzca `192.168.8.1` en la barra de direcciones para acceder a la página de inicio de sesión. Seleccione su idioma, establezca la contraseña de administrador y haga clic en **Apply**.
 
@@ -392,7 +389,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     Para configurar drop-in gateway, consulte estos enlaces:
 
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
-    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
+    - [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Network Acceleration"
 
@@ -579,4 +576,3 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     La página Advanced Settings ofrece acceso a opciones de configuración avanzada a través de la interfaz OpenWrt LuCI, lo que permite a los usuarios con experiencia ajustar con precisión la configuración y las funciones del router más allá de las opciones básicas de la interfaz. Esto incluye configuraciones detalladas de red, ajustes del firewall y otras personalizaciones avanzadas del sistema.
 
     Consulte [Advanced Settings](../../interface_guide/advanced_settings.md) para ver instrucciones detalladas.
-

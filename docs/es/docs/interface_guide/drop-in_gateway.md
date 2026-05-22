@@ -207,7 +207,7 @@ En el siguiente ejemplo, la dirección de gateway del router principal es `192.1
 
 Artículo relacionado:
 
-- [How to set up drop-in gateway on a GL.iNet router](../tutorials/how_to_set_up_drop_in_gateway.md)
+- [Cómo configurar Drop-in Gateway en un router GL.iNet](../tutorials/how_to_set_up_drop_in_gateway.md)
 
 ---
 

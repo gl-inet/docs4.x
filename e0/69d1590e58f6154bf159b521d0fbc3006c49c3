@@ -1,0 +1,72 @@
+docs/es/docs/user_guide/gl-ax1800/index.md
+  h_dd47ed8a860c1a 52,61,73,85,121,143,157,163,169,177,189,195,203,215,243,249,255,263,284,308,330
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 38,42,104,108-109,115-116,122,256
+docs/es/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 266,268,272,274,280,282,284,290,294,298,304,308,312,316,320-323,326-329,332,342,344,348,354,356,360
+docs/es/docs/user_guide/gl-ar750/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 98,102-103,109-110,213
+  h_dd47ed8a860c1a 11,42,53,65,234,258,294
+docs/es/docs/user_guide/gl-mv1000/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 223,227
+docs/es/docs/user_guide/gl-be10000/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 59,63,219
+docs/es/docs/interface_guide/drop-in_gateway.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 210
+docs/es/docs/user_guide/gl-ar300m/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 23,27,91,95-96,102-103,210
+  h_dd47ed8a860c1a 37,44,46,58,70,110,116,122,209,231,254,290
+docs/es/docs/interface_guide/guest_network.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 69
+docs/es/docs/user_guide/gl-be6500/index.md
+  h_dd47ed8a860c1a 54
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 42,46,265
+docs/es/docs/user_guide/gl-s1300/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 223
+docs/es/docs/user_guide/gl-b1300/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 224
+docs/es/docs/user_guide/gl-a1300/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 223,227,229,233,237,241,245,247,251,255
+docs/es/docs/user_guide/gl-mt3600be/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 40,44,263
+  h_dd47ed8a860c1a 52
+docs/es/docs/user_guide/gl-mt3000/index.md
+  h_dd47ed8a860c1a 51
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 37,41,258
+docs/es/docs/user_guide/gl-axt1800/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 37,41,103,107-108,114-115,121,260
+  h_dd47ed8a860c1a 51,60,72,84,88,120,144,158,164,170,178,190,196,204,216,244,250,256,258,267,288,311,339
+docs/es/docs/user_guide/gl-be9300/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 40,44,263
+  h_dd47ed8a860c1a 52
+docs/es/docs/community/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 11,13,15,17
+docs/es/docs/user_guide/gl-be3600/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 29,31-42,61,65,284
+  h_dd47ed8a860c1a 30,73
+docs/es/docs/user_guide/gl-e5800/index.md
+  h_dd47ed8a860c1a 260-261
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 179,183,189,191,195,197,213,217,221,227,231,251,265,269,392
+docs/es/docs/user_guide/gl-mt300n-v2/index.md
+  s_1dafdaaea52289::t_e4ea4b80ab4d90 95-96,102-103,210
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "e069d1590e58f6154bf159b521d0fbc3006c49c3",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_1dafdaaea52289": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "a0c73898-163e-48bf-8756-2fc8e5505873",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

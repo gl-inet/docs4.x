@@ -1,0 +1,48 @@
+docs/pl/docs/interface_guide/internet_cellular_v4.7.md
+  s_d57710e8053524::t_8c7e394856fe78 320,332
+docs/pl/docs/tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+  s_d57710e8053524::t_8c7e394856fe78 5-6,37,46
+docs/pl/docs/user_guide/gl-mt6000/index.md
+  s_d57710e8053524::t_8c7e394856fe78 113-114,120-121
+docs/pl/docs/user_guide/gl-be9300/index.md
+  s_d57710e8053524::t_8c7e394856fe78 140-141,147-148
+docs/pl/docs/user_guide/gl-mt3600be/index.md
+  s_d57710e8053524::t_8c7e394856fe78 140-141,147-148
+docs/pl/docs/interface_guide/hardware_acceleration.md
+  s_d57710e8053524::t_2f93ed1cf33e07 53
+docs/pl/docs/user_guide/gl-mt300n-v2/index.md
+  s_d57710e8053524::t_8c7e394856fe78 95-96,102-103
+docs/pl/docs/user_guide/gl-mt2500/index.md
+  s_d57710e8053524::t_8c7e394856fe78 85-86,92-93
+docs/pl/docs/tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
+  s_d57710e8053524::t_8c7e394856fe78 63
+docs/pl/docs/user_guide/gl-mt5000/index.md
+  s_d57710e8053524::t_8c7e394856fe78 110-111,117-118
+docs/pl/docs/interface_guide/internet_cellular.md
+  s_d57710e8053524::t_8c7e394856fe78 413,429
+docs/pl/docs/user_guide/gl-mt3000/index.md
+  s_d57710e8053524::t_8c7e394856fe78 107-108,114-115
+docs/pl/docs/faq/internet_connection_troubleshooting.md
+  s_d57710e8053524::t_8c7e394856fe78 68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "dd8767dcc3f8ff17ab328b15ef1bc29044fd6986",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_d57710e8053524": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "54d3f1f3-9298-40c8-80eb-f10105d79dcc",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

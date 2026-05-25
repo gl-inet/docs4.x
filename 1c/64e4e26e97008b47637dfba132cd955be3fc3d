@@ -1,0 +1,14 @@
+.gitignore
+  h_dd47ed8a860c1a 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "1c64e4e26e97008b47637dfba132cd955be3fc3d",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

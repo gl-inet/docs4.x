@@ -50,7 +50,7 @@ Tieni premuto il pulsante di accensione per **3 secondi**, oppure collega un ali
 
 Segui le istruzioni sullo schermo per configurare le impostazioni di base, inclusi **screen passcode**, **admin password**, **Wi-Fi name**, **Wi-Fi password** e **frequency bands**.
 
-**Tip**: La password amministratore predefinita corrisponde agli ultimi 9 caratteri del numero di serie del dispositivo, seguiti dal carattere `#`. Puoi usare la password predefinita oppure impostarne una personalizzata.
+**Suggerimento**: La password amministratore predefinita corrisponde agli ultimi 9 caratteri del numero di serie del dispositivo, seguiti dal carattere `#`. Puoi usare la password predefinita oppure impostarne una personalizzata.
 
 ### 4. Configurazione della connessione Internet
 
@@ -281,7 +281,7 @@ La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 6 
 
 Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
-**Note**: ci sono alcune differenze tra le impostazioni wireless di Mudi 7 e quelle degli altri router GL.iNet Wi-Fi 7.
+**Nota**: ci sono alcune differenze tra le impostazioni wireless di Mudi 7 e quelle degli altri router GL.iNet Wi-Fi 7.
 
 1. A causa dei vincoli hardware del chipset, il Wi-Fi a 5 GHz e quello a 6 GHz non possono essere abilitati contemporaneamente.
 2. Quando il Repeater e abilitato, la Guest Network verra disabilitata automaticamente.
@@ -381,7 +381,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [Network Mode](../../interface_guide/network_mode.md).
 
-    **Note**: Mudi 7 supporta le modalita Router, Access Point ed Extender. Non supporta la modalita WDS.
+    **Nota**: Mudi 7 supporta le modalita Router, Access Point ed Extender. Non supporta la modalita WDS.
 
 === "Drop-in gateway"
 
@@ -524,7 +524,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per istruzioni dettagliate, fai riferimento a [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
-    **Note**: Mudi 7 non supporta la pianificazione del display LED e la pianificazione dello stato Wi-Fi.
+    **Nota**: Mudi 7 non supporta la pianificazione del display LED e la pianificazione dello stato Wi-Fi.
 
 === "Display Management"
 

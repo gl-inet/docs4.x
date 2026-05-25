@@ -36,7 +36,7 @@
 
 1. メインルーターがある場合は、その管理画面にログインし、ISP からパブリックIPを取得しているか確認します。
 2. ISP にパブリックIPアドレスの提供を依頼します。追加料金が必要な場合があります。
-3. 上記の2つが利用できない場合、たとえば CGNAT 環境では、[Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md) のようなリバースプロキシ方式を利用できます。あるいは、SDWAN ソリューションの [AstroWarp](https://www.astrowarp.net/){target="_blank"} を試すこともできます。
+3. 上記 2 つの方法が使えない場合（ネットワークが CGNAT 配下にある場合など）は、SD-WAN ソリューション [AstroWarp](../interface_guide/astrowarp.md){target="_blank"} の利用をご検討ください。
 
 ### Port Forwarding が必要か確認する
 

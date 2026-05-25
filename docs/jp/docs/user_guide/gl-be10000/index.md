@@ -2,7 +2,7 @@
 
 ## 製品概要
 
-Slate 7 Pro (GL-BE10000) は、トライバンド Wi-Fi 7 対応のポータブルトラベルルーターです。Slate 7 (GL-BE3600) の上位モデルとして、上面に大型タッチスクリーンを搭載し、1GB DDR4 RAM と 8GB eMMC フラッシュストレージにより、安定した動作とプラグイン互換性を実現します。WireGuard® は最大 1,100 Mbps、OpenVPN-DCO は最大 1,000 Mbps の高速 VPN に対応し、2× 2.5G Ethernet ポート（1 WAN + 1 LAN）、1× USB-C 3.0 ポート、PD 給電を備えているため、旅行やモバイル用途でも高い接続性と利便性を提供します。
+Slate 7 Pro (GL-BE10000) は、トライバンド Wi-Fi 7 対応のポータブルトラベルルーターです。Slate 7 (GL-BE3600) の上位モデルとして、上面に大型タッチスクリーンを搭載し、1GB DDR4 RAM と 512MB NAND フラッシュストレージにより、安定した動作とプラグイン互換性を実現します。WireGuard® は最大 1,100 Mbps、OpenVPN-DCO は最大 1,000 Mbps の高速 VPN に対応し、2× 2.5G Ethernet ポート（1 WAN + 1 LAN）、1× USB-C 3.0 ポート、PD 給電を備えているため、旅行やモバイル用途でも高い接続性と利便性を提供します。
 
 ![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 

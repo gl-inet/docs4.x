@@ -16,7 +16,7 @@ Méthodes alternatives :
 
 1. Si vous disposez d'un routeur principal, connectez-vous à celui-ci et vérifiez s'il reçoit une adresse IP publique de votre FAI.
 2. Demandez une adresse IP publique à votre FAI. Cela peut entraîner des frais supplémentaires.
-3. Si les deux méthodes ci-dessus ne fonctionnent pas (par exemple si votre réseau est derrière un CGNAT), vous pouvez essayer notre solution SD-WAN [AstroWarp](https://www.astrowarp.net/){target="_blank"}. 
+3. Si les deux méthodes ci-dessus ne fonctionnent pas (par exemple si votre réseau est derrière un CGNAT), vous pouvez essayer notre solution SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}. 
 
 ## Vérifiez si la redirection de port est nécessaire {#confirm-if-port-forwarding-is-required}
 

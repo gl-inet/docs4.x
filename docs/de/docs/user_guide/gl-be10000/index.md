@@ -2,7 +2,7 @@
 
 ## Produktübersicht
 
-Slate 7 Pro (GL-BE10000) ist ein tragbarer Tri-Band-Wi-Fi-7-Reiserouter. Als aufgerüstete Version des Slate 7 (GL-BE3600) verfügt er über einen größeren Touchscreen auf der Oberseite sowie über 1 GB DDR4-RAM und 8 GB eMMC-Flash-Speicher für stabile Leistung und Plug-in-Kompatibilität. Er erreicht hohe VPN-Geschwindigkeiten von bis zu 1.100 Mbit/s mit WireGuard® und 1.000 Mbit/s mit OpenVPN-DCO. Mit 2 × 2,5G-Ethernet-Ports (1 WAN + 1 LAN), 1 × USB-C-3.0-Port und Unterstützung für PD-Stromversorgung bietet er starke Konnektivität und hohen Komfort für Reisen und den mobilen Einsatz.
+Slate 7 Pro (GL-BE10000) ist ein tragbarer Tri-Band-Wi-Fi-7-Reiserouter. Als aufgerüstete Version des Slate 7 (GL-BE3600) verfügt er über einen größeren Touchscreen auf der Oberseite sowie über 1 GB DDR4-RAM und 512 MB NAND-Flash-Speicher für stabile Leistung und Plug-in-Kompatibilität. Er erreicht hohe VPN-Geschwindigkeiten von bis zu 1.100 Mbit/s mit WireGuard® und 1.000 Mbit/s mit OpenVPN-DCO. Mit 2 × 2,5G-Ethernet-Ports (1 WAN + 1 LAN), 1 × USB-C-3.0-Port und Unterstützung für PD-Stromversorgung bietet er starke Konnektivität und hohen Komfort für Reisen und den mobilen Einsatz.
 
 ![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 

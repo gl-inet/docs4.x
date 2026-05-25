@@ -36,7 +36,7 @@ Wenn Sie keine öffentliche IP-Adresse haben, finden Sie hier einige mögliche L
 
 1. Wenn Sie einen Hauptrouter haben, melden Sie sich dort an und prüfen Sie, ob er die öffentliche IP von Ihrem ISP erhält.
 2. Fragen Sie Ihren ISP nach einer öffentlichen IP-Adresse. Dies kann zusätzliche Kosten verursachen.
-3. Wenn die beiden oben genannten Wege nicht funktionieren, z. B. wenn Sie sich hinter CGNAT befinden, können Sie eine Reverse-Proxy-Methode wie [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md) verwenden. Alternativ können Sie auch eine SD-WAN-Lösung wie [AstroWarp](https://www.astrowarp.net/) ausprobieren.
+3. Wenn die beiden oben genannten Methoden nicht funktionieren (z. B. wenn sich Ihr Netzwerk hinter CGNAT befindet), können Sie unsere SD-WAN-Lösung [AstroWarp](../interface_guide/astrowarp.md){target="_blank"} ausprobieren.
 
 ### Prüfen, ob eine Portweiterleitung erforderlich ist
 

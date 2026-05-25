@@ -36,7 +36,7 @@ Jeśli nie masz publicznego adresu IP, oto kilka metod dla Ciebie.
 
 1. Jeśli masz router główny, zaloguj się do niego i sprawdź, czy otrzymuje publiczny adres IP od dostawcy internetu.
 2. Poproś swojego dostawcę internetu o publiczny adres IP. Może to wymagać dodatkowej opłaty.
-3. Jeśli powyższe dwie metody nie działają, na przykład jeśli jesteś w CGNAT, możesz skorzystać z metody odwrotnego proxy, takiej jak [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md). Alternatywnie możesz wypróbować rozwiązanie SDWAN - [AstroWarp](https://www.astrowarp.net/). 
+3. Jeśli powyższe dwie metody nie działają (np. sieć znajduje się za CGNAT), możesz wypróbować nasze rozwiązanie SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
 
 ### Sprawdź, czy wymagane jest przekierowanie portów
 

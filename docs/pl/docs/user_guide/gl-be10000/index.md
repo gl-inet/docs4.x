@@ -2,7 +2,7 @@
 
 ## Przegląd produktu
 
-Slate 7 Pro (GL-BE10000) to przenośny, trójpasmowy router podróżny Wi‑Fi 7. Jako ulepszona wersja Slate 7 (GL-BE3600) ma większy ekran dotykowy na górze obudowy oraz 1 GB pamięci DDR4 RAM i 8 GB pamięci eMMC, co zapewnia stabilną pracę i zgodność z wtyczkami. Oferuje wysoką wydajność VPN — do 1100 Mb/s dla WireGuard® i 1000 Mb/s dla OpenVPN-DCO. Dzięki 2 portom Ethernet 2.5G (1 WAN + 1 LAN), 1 portowi USB-C 3.0 i obsłudze zasilania PD zapewnia wygodną i niezawodną łączność w podróży i zastosowaniach mobilnych.
+Slate 7 Pro (GL-BE10000) to przenośny, trójpasmowy router podróżny Wi‑Fi 7. Jako ulepszona wersja Slate 7 (GL-BE3600) ma większy ekran dotykowy na górze obudowy oraz 1 GB pamięci DDR4 RAM i 512 MB pamięci flash NAND, co zapewnia stabilną pracę i zgodność z wtyczkami. Oferuje wysoką wydajność VPN — do 1100 Mb/s dla WireGuard® i 1000 Mb/s dla OpenVPN-DCO. Dzięki 2 portom Ethernet 2.5G (1 WAN + 1 LAN), 1 portowi USB-C 3.0 i obsłudze zasilania PD zapewnia wygodną i niezawodną łączność w podróży i zastosowaniach mobilnych.
 
 ![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 

@@ -32,7 +32,7 @@ Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
 
 Włóż kartę Nano-SIM lub karty Nano-SIM do Mudi 7. Jeśli wolisz korzystać z eSIM, pomiń ten krok i przejdź do kroku 2.
 
-Najpierw zdejmij pokrywę baterii, a następnie wyjmij akumulator Mudi 7.
+Najpierw wykorzystaj małe wcięcie w prawym dolnym rogu tylnej pokrywy jako punkt podważenia. Podważaj wzdłuż szczeliny, aby utworzyć przerwę, a następnie otwórz tylną pokrywę i wyjmij akumulator Mudi 7.
 
 Następnie włóż kartę Nano-SIM lub karty Nano-SIM. Jeśli używasz tylko jednej karty, włóż ją do gniazda SIM 1.
 

@@ -16,7 +16,7 @@ Metodi alternativi:
 
 1. Se hai un router principale, accedi e verifica se riceve un IP pubblico dal tuo ISP.
 2. Chiedi al tuo ISP un indirizzo IP pubblico. Potrebbe comportare un costo aggiuntivo.
-3. Se i due metodi sopra non funzionano, ad esempio se la tua rete e' dietro CGNAT, puoi provare la nostra soluzione SD-WAN [AstroWarp](https://www.astrowarp.net/){target="_blank"}.
+3. Se i due metodi sopra non funzionano, ad esempio se la tua rete e' dietro CGNAT, puoi provare la nostra soluzione SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
 
 ## Verifica se e' necessario il Port Forwarding {#confirm-if-port-forwarding-is-required}
 

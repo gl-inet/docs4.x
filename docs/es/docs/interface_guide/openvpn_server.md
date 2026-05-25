@@ -16,7 +16,7 @@ Métodos alternativos:
 
 1. Si tiene un router principal, inicie sesión en él y compruebe si recibe una IP pública de su ISP.
 2. Solicite a su ISP una dirección IP pública. Esto puede implicar un coste adicional.
-3. Si los dos métodos anteriores no funcionan, por ejemplo, si su red está detrás de CGNAT, puede probar nuestra solución SD-WAN [AstroWarp](https://www.astrowarp.net/){target="_blank"}.
+3. Si los dos métodos anteriores no funcionan, por ejemplo, si su red está detrás de CGNAT, puede probar nuestra solución SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
 
 ## Confirme si es necesario configurar el reenvío de puertos
 

@@ -32,7 +32,7 @@ Vea este vídeo de configuración o siga los pasos que se indican a continuació
 
 Instale una o dos tarjetas Nano-SIM en su Mudi 7. Si prefiere usar eSIM, omita este paso y vaya al paso 2.
 
-Primero, retire la tapa de la batería y saque la batería de Mudi 7.
+Primero, use la pequeña muesca situada en la esquina inferior derecha de la tapa trasera como punto de apoyo. Haga palanca a lo largo de la unión para crear una abertura, luego abra la tapa trasera y retire la batería de Mudi 7.
 
 Después, inserte la(s) tarjeta(s) Nano-SIM. Si usa solo una tarjeta, dé prioridad a SIM 1.
 
@@ -113,7 +113,7 @@ Configure su Mudi 7 con uno de los métodos de conexión a Internet compatibles:
 
     ![ethernet connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
 
-    1. Conecte el puerto Ethernet de Mudi 7 a una fuente de red aguas arriba (por ejemplo, un módem del ISP, un switch de red o una toma Ethernet de pared) mediante un cable Ethernet.
+    1. Conecte el puerto Ethernet de su Mudi 7 a una fuente de red aguas arriba (por ejemplo, un módem del ISP, un switch de red o una toma Ethernet de pared) mediante un cable Ethernet.
     2. En la pantalla táctil o en el panel de administración web, vaya a **Network** -> **Ethernet Ports**, establezca la función del puerto en **WAN** y haga clic en **Apply**.
 
         ![touchscreen ethernet wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-ethernet-wan.png){class="glboxshadow"}

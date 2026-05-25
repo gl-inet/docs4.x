@@ -1,0 +1,68 @@
+docs/jp/docs/interface_guide/internet_cellular.md
+  s_c89e3ad1d141ef::t_c1b4a057218e33 51,53,115,117,413,429
+docs/jp/docs/interface_guide/security.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 27,61
+docs/jp/docs/interface_guide/ddns.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 95
+docs/jp/docs/interface_guide/zerotier.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 17,34,195,231,261
+docs/jp/docs/interface_guide/vpn_dashboard_v4.8.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 205,225
+docs/jp/docs/tutorials/how_to_use_simpoyo_ufi.md
+  s_c89e3ad1d141ef::t_3291bdd55bc42b 37-39,45-46,49-50
+  s_c89e3ad1d141ef::t_cc57e1715f3dab 53-54,58-59,62-63,66-67,70-71,74-75,155,159,163
+docs/jp/docs/interface_guide/cloud.md
+  s_c89e3ad1d141ef::t_cc57e1715f3dab 102,104,114,120,294,326,336
+docs/jp/docs/interface_guide/astrowarp.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 3,31,64
+docs/jp/docs/tutorials/eap.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 176
+docs/jp/docs/tutorials/ssh_log_in_to_the_router.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 29,63
+docs/jp/docs/interface_guide/esim_management.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 79,91,93,97,99,141
+docs/jp/docs/interface_guide/hardware_acceleration.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 3
+docs/jp/docs/interface_guide/vpn_dashboard_v4.9.md
+  s_c89e3ad1d141ef::t_cc57e1715f3dab 59,127,181,215,255
+docs/jp/docs/tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
+  s_c89e3ad1d141ef::t_cc57e1715f3dab 75
+docs/jp/docs/interface_guide/tor.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 5,36,64
+docs/jp/docs/tutorials/sms_forwarding.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 5,9,18,79
+docs/jp/docs/tutorials/how_to_set_up_drop_in_gateway.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 7,21,39,41,81,99,101,103,117
+docs/jp/docs/interface_guide/nat_settings.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 34,52,60
+docs/jp/docs/tutorials/upgrade_quectel_module_software.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 45,99
+docs/jp/docs/interface_guide/parental_control.md
+  s_c89e3ad1d141ef::t_c54d7189495f9c 5,17,35,96,130,186,192
+docs/jp/docs/faq/internet_connection_troubleshooting.md
+  s_c89e3ad1d141ef::t_cc57e1715f3dab 64,68,70-125
+docs/jp/docs/interface_guide/internet_cellular_v4.7.md
+  s_c89e3ad1d141ef::t_cc57e1715f3dab 320,332
+  s_c89e3ad1d141ef::t_3291bdd55bc42b 55,136,310,342,350
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "3fbd7de5efe3ec67af11dc63b4a2a514e424cea1",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_c89e3ad1d141ef": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "a55e5563-41ab-40ac-8f84-05a46ed9b977",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

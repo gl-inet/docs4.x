@@ -1,0 +1,24 @@
+.vscode/settings.json
+  s_7c1b6f8d264cbc::t_6ebcb55356987b 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "103514b85cc8416554bdcaa55b35326af6b99094",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_7c1b6f8d264cbc": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "c222ae69-f945-4962-b49f-877c99e48121",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

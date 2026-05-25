@@ -2,8 +2,8 @@
 
 Od firmware v4.7 następujące funkcje obsługują import reguł z adresu URL pliku tekstowego online:
 
-- VPN Policy Based on Target Domains or IP Addresses (w sekcji VPN)
-- Add a New Ruleset (w sekcji Parental Control)
+- Polityka VPN oparta na docelowych domenach lub adresach IP (w sekcji VPN)
+- Dodaj nowy zestaw reguł (w sekcji Parental Control)
 
 Ten poradnik wyjaśnia, jak używać internetowego pliku tekstowego do importowania reguł filtrowania domen i adresów IP dla routerów GL.iNet.
 
@@ -34,7 +34,7 @@ Dzięki temu router będzie mógł pobrać zwykłą tekstową zawartość pliku.
 
 ## Formaty filtrów dla VPN Policy (domena/IP)
 
-Funkcja **VPN Policy Based on Target Domain or IP Address** obsługuje w internetowym pliku tekstowym następujące formaty filtrów:
+Funkcja polityki VPN opartej na docelowej domenie lub adresie IP obsługuje w internetowym pliku tekstowym następujące formaty filtrów:
 
 * Nazwa domeny: użyj nazwy domeny, np. `netflix.com` (dopasowuje wszystkie subdomeny).
 * Subdomena: podaj pełną subdomenę, np. `www.netflix.com` (dopasowuje tylko tę subdomenę).
@@ -43,7 +43,7 @@ Funkcja **VPN Policy Based on Target Domain or IP Address** obsługuje w interne
 
 ## Formaty filtrów dla Parental Control (Ruleset)
 
-Funkcja **Add a New Ruleset** w Parental Control obsługuje w internetowym pliku tekstowym następujące formaty filtrów:
+Funkcja dodawania nowego zestawu reguł w Parental Control obsługuje w internetowym pliku tekstowym następujące formaty filtrów:
 
 * Nazwa domeny: użyj nazwy domeny, np. `instagram.com` (dopasowuje wszystkie subdomeny).
 * Subdomena: podaj pełną subdomenę, np. `www.instagram.com` (dopasowuje tylko tę subdomenę).

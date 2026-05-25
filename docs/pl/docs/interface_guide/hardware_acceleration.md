@@ -50,7 +50,7 @@ Włącz przełącznik i kliknij **Apply**.
 
 ---
 
-## Hardware NAT a Software NAT
+## Sprzętowy NAT a programowy NAT
 
 * Jeśli najbardziej zależy Ci na przepustowości (np. przy wielogigabitowym łączu szerokopasmowym) i nie potrzebujesz SQM na routerze ani kształtowania ruchu dla poszczególnych klientów → włącz Hardware NAT / Network Acceleration. Zapewnia to najwyższą przepustowość i najniższe użycie CPU.
 

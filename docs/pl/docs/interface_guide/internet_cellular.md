@@ -410,7 +410,7 @@ W prawym dolnym rogu możesz kliknąć **Export Debug Info**, aby pobrać plik .
 
 Jeśli nie możesz nawiązać połączenia komórkowego, kliknij poniższy komunikat o błędzie, aby zobaczyć odpowiednie rozwiązania.
 
-??? note "No SIM / Your SIM card has not been detected"
+??? note "Brak karty SIM / Karta SIM nie została wykryta"
 
     ![no sim](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/no_sim.png){class="glboxshadow"}
 
@@ -426,7 +426,7 @@ Jeśli nie możesz nawiązać połączenia komórkowego, kliknij poniższy komun
 
     Jeśli problem będzie się utrzymywał, pobierz logi i wyślij je na adres [support@gl-inet.com](mailto:support@gl-inet.com).
 
-??? note "SIM card not registered / The interface is connected, but the Internet can't be accessed"
+??? note "Karta SIM nie jest zarejestrowana / Interfejs jest połączony, ale nie można uzyskać dostępu do Internetu"
 
     Ten problem ma dwa rodzaje komunikatów o błędzie:
 

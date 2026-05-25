@@ -65,7 +65,7 @@ Jeśli masz dostęp do Internetu, problem może być związany z konfiguracją r
 
 Poniżej znajduje się zestawienie informacji o dostawcach Internetu według regionów, opracowane przez GL.iNet na podstawie opinii klientów, forów i zasobów OpenWrt. Materiał ma wyłącznie charakter informacyjny.
 
-| Kraj/region   | ISP   | Connection Type | VLAN ID | MAC Clone Required | Additional Requirements |
+| Kraj/region   | ISP   | Typ połączenia | VLAN ID | Wymagane klonowanie MAC | Dodatkowe wymagania |
 | :--------------- | :---- | :-------------- | :------ | :-------- | :---------------------- |
 | United States    | AT&T Fiber | DHCP (IP Passthrough) | N/A | No | Must enable IP Passthrough; EAP authentication bypass needed |
 | United States | Spectrum | DHCP | N/A | Yes (in some areas) | Strong MAC binding (modem reboot required) |

@@ -60,7 +60,7 @@ Po zakończeniu konfiguracji aplikacja wyświetli następujące sekcje:
 
 ![Check and Manage Profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/06-check-and-manage-profiles.jpg){class="glboxshadow"}
 
-a. **eSIM Card Slot 1**: Nazwa karty eSIM.
+a. **Gniazdo karty eSIM 1**: Nazwa karty eSIM.
 
 b. **eSIM Profiles**: Lista profili eSIM pomyślnie dodanych do karty eSIM.
 

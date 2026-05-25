@@ -317,7 +317,7 @@ Wybierz **Masking Mode** (Block lub Open), a następnie wybierz LTE Bands, 5G NS
 
 Jeśli nie uda się nawiązać połączenia komórkowego, kliknij poniższy komunikat o błędzie, aby zobaczyć odpowiednie rozwiązania.
 
-??? note "No SIM / Your SIM card has not been detected"
+??? note "Brak karty SIM / Karta SIM nie została wykryta"
     
     1. Odśwież stronę i odczekaj kilka minut, aby sprawdzić, czy karta SIM zostanie wykryta.
     
@@ -329,7 +329,7 @@ Jeśli nie uda się nawiązać połączenia komórkowego, kliknij poniższy komu
 
     Jeśli problem nadal występuje, pobierz logi i wyślij je na adres [support@gl-inet.com](mailto:support@gl-inet.com).
 
-??? note "SIM card not registered / The interface is connected, but the Internet can't be accessed"
+??? note "Karta SIM nie jest zarejestrowana / Interfejs jest połączony, ale nie można uzyskać dostępu do Internetu"
 
     1. Odśwież stronę i odczekaj kilka minut, aby sprawdzić, czy komunikat błędu zniknie.
     

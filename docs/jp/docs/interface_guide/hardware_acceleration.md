@@ -1,6 +1,6 @@
 # ハードウェアアクセラレーション
 
-**Note**: このガイドはファームウェア v4.2 以前に適用されます。新しいバージョンについては、[Network Acceleration](network_acceleration.md) を参照してください。
+**注意**: このガイドはファームウェア v4.2 以前に適用されます。新しいバージョンについては、[Network Acceleration](network_acceleration.md) を参照してください。
 
 ---
 

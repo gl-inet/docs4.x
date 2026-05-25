@@ -1,0 +1,34 @@
+docs/it/docs/user_guide/gl-e5800/index.md
+  s_d5a937c121e4cc::t_3120d7c584d462 53,284,384,527
+docs/it/docs/faq/internet_connection_troubleshooting.md
+  s_d5a937c121e4cc::t_3120d7c584d462 70-71,73-74,76,78-80,83-86,88,91-92,94-95,106,119-125
+docs/it/docs/interface_guide/network_storage.md
+  s_d5a937c121e4cc::t_3120d7c584d462 67,107,151
+docs/it/docs/user_guide/gl-m2/index.md
+  s_d5a937c121e4cc::t_3120d7c584d462 69
+docs/it/docs/interface_guide/wireguard_client.md
+  s_d5a937c121e4cc::t_3120d7c584d462 27-37,91,133,181,235,305,353,399,453,511
+docs/it/docs/user_guide/gl-be6500/index.md
+  s_d5a937c121e4cc::t_3120d7c584d462 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.1",
+  "base_commit_sha": "f29e8adae94b4fd05d91367436b7207d711ee02a",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_d5a937c121e4cc": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "7e61e524-a3f2-4087-bab6-cc2e1dcc65d6",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

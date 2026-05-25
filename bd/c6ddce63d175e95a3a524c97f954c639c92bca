@@ -1,0 +1,94 @@
+docs/es/docs/interface_guide/astrowarp.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 5,9-10,21-22,35-36,139-183
+docs/jp/docs/user_guide/gl-be10000/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 5
+docs/jp/docs/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 39
+docs/jp/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+  s_b4f38dd04ac846::t_ad650ac90fc5cf 371-389
+docs/jp/docs/interface_guide/openvpn_server.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 19
+docs/es/docs/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 39
+docs/pl/docs/interface_guide/astrowarp.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 5,9-10,20-21,34-35,138-182
+docs/es/docs/user_guide/gl-e5800/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 35,116
+docs/de/docs/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 39
+docs/it/docs/interface_guide/astrowarp.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 5,9-10,20-21,34-35,138-182
+docs/pl/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+  s_b4f38dd04ac846::t_ad650ac90fc5cf 370-388
+docs/it/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+  s_b4f38dd04ac846::t_ad650ac90fc5cf 371-389
+docs/es/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+  s_b4f38dd04ac846::t_ad650ac90fc5cf 350-367
+docs/pl/docs/user_guide/gl-be10000/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 5
+docs/de/docs/user_guide/gl-e5800/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 35,116
+docs/fr/docs/user_guide/gl-be10000/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 5
+docs/fr/docs/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 39
+docs/it/docs/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 39
+docs/fr/docs/user_guide/gl-e5800/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 35,117
+docs/it/docs/user_guide/gl-e5800/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 35,116
+docs/jp/docs/user_guide/gl-e5800/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 28,127
+docs/de/docs/interface_guide/openvpn_server.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 19
+docs/pl/docs/interface_guide/openvpn_server.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 19
+docs/pl/docs/user_guide/gl-e5800/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 35
+docs/it/docs/interface_guide/openvpn_server.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 19
+docs/es/docs/user_guide/gl-be10000/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 5
+docs/pl/docs/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 39
+docs/fr/docs/interface_guide/astrowarp.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 5,9-10,21-22,35-36,139-183
+docs/fr/docs/interface_guide/openvpn_server.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 19
+docs/es/docs/interface_guide/openvpn_server.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 19
+docs/de/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+  s_b4f38dd04ac846::t_ad650ac90fc5cf 371-389
+docs/it/docs/user_guide/gl-be10000/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 5
+docs/jp/docs/interface_guide/astrowarp.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 5,9-10,20-21,34-35,138-182
+docs/de/docs/user_guide/gl-be10000/index.md
+  s_b4f38dd04ac846::t_3ca93db6e51103 5
+docs/fr/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
+  s_b4f38dd04ac846::t_ad650ac90fc5cf 371-389
+docs/de/docs/interface_guide/astrowarp.md
+  s_b4f38dd04ac846::t_fdf4c89ef94763 5,9-10,20-21,34-35,137-181
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "bdc6ddce63d175e95a3a524c97f954c639c92bca",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_b4f38dd04ac846": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "cddd723e-47d8-4aa5-8f3f-3b56f3adab6e",
+        "model": "gpt-5.4"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

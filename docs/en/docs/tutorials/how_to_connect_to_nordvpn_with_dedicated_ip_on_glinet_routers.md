@@ -22,7 +22,7 @@ We use the GL-AXT1800 as an example.
 
     ![set up nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/set_up_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
-    1 valid configuration file has been detected. Please enter your username and password. If these configurations use different passwords, you will need to enter the corresponding password for each configuration file.
+    Once a valid configuration file has been detected. Please enter your username and password. If these configurations use different passwords, you will need to enter the corresponding password for each configuration file.
 
 5. Click the three-dot icon on the right to connect. You may also go to **VPN Dashboard**, select the configuration file and click **Apply** to establish a connection.
 

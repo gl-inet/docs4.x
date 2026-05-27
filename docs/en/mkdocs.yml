@@ -285,6 +285,7 @@ nav:
       - Dual-Ethernet WAN: interface_guide/dual-ethernet_wan.md
     - Wireless:
       - Wireless: interface_guide/wireless.md
+      - Wireless (v4.9): interface_guide/wireless_v4.9.md
     - Clients:
       - Clients: interface_guide/clients.md
     - Cloud Services:

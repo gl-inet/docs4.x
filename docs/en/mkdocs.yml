@@ -315,6 +315,7 @@ nav:
       - Multi-WAN: interface_guide/multi-wan.md
       - LAN: interface_guide/lan.md
       - Guest Network: interface_guide/guest_network.md
+      - IoT Network: interface_guide/iot_network.md
       - DNS: interface_guide/dns.md
       - Ethernet Port: interface_guide/ethernet_port.md
       - Network Mode: interface_guide/network_mode.md

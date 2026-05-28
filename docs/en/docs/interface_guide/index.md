@@ -69,6 +69,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Multi-WAN](multi-wan.md) - enables failover to another Internet connection or simultaneous use of multiple interfaces to increase total bandwidth.
 * [LAN](lan.md)
 * [Guest Network](guest_network.md)
+* [IoT Network](iot_network.md)
 * [DNS](dns.md)
 * [Ethernet Port](ethernet_port.md)
 * [Network Mode](network_mode.md)

@@ -4,17 +4,17 @@ The guest network settings have been separated from [LAN](lan.md) since firmware
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **Guest Network**. 
 
-It includes Guest Network basic settings and DHCP server settings.
+This page lets you create a dedicated Wi-Fi network for visitors. Isolated from the primary network, it enhances security while providing convenient internet access.
+
+**Note**: Some models (e.g., GL-MT5000, GL-MT2500/GL-MT2500A) do not have Wi-Fi functionality, thus the Guest Network settings are not available on their web Admin Panel.
+
+It includes two sections: Basic Settings and DHCP Server Settings.
 
 ## Basic Settings
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
 ![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_1.png){class="glboxshadow"}
-
-You can set a separate, isolated network designed for temporary users, providing limited access and enhanced security by being segregated from the primary network.
-
-**Note**: Some models (e.g., GL-MT5000, GL-MT2500/GL-MT2500A) do not support Wi-Fi, thus the Guest Network settings are not available on their web Admin Panel.
 
 - **Gateway**
 
@@ -38,7 +38,7 @@ You can set a separate, isolated network designed for temporary users, providing
 
 ## DHCP Server
 
-If the Guest Network is enabled, the DHCP Server will be enabled by default.
+If Guest Network is enabled, its DHCP server will be enabled accordingly.
 
 The DHCP server automatically assigns IP addresses and other communication parameters to each client devices connected to Guest Network. If the DHCP server is disabled, you will need to configure network settings for client devices manually. Click [here](../tutorials/manually_configure_static_ip.md) to learn how to manually configure a static IP.
 
@@ -46,7 +46,7 @@ You can change the starting and ending IP addresses to suit your needs — for e
 
 ![guest network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_2.png){class="glboxshadow"}
 
-Click **Advanced** for further configuration if needed.
+Click **Advanced** for further configuration as needed.
 
 ![dhcp advanced 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/dhcp_advanced1.png){class="glboxshadow"}
 

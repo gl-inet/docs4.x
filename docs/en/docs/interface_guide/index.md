@@ -57,6 +57,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [AdGuard Home](adguardhome.md)
 * [Network Storage](network_storage.md)
 * [Parental Control](parental_control.md)
+* [Bark](bark.md)
 * [Tailscale](tailscale.md)
 * [ZeroTier](zerotier.md)
 * [Tor](tor.md) - to protect the personal privacy.
@@ -86,9 +87,9 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [DPI Engine](dpi_engine.md)
 * [Data Statistics](data_statistics.md)
 * [Content Filter](content_filter.md)
-* [Parental Control](parental_control.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
+* [Parental Control](parental_control.md)
 
 ## System
 

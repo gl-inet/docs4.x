@@ -305,6 +305,7 @@ nav:
       - Network Storage: interface_guide/network_storage.md
       - AdGuard Home: interface_guide/adguardhome.md
       - Parental Control: interface_guide/parental_control.md
+      - Bark: interface_guide/bark.md
       - Tailscale: interface_guide/tailscale.md
       - ZeroTier: interface_guide/zerotier.md
       - Tor: interface_guide/tor.md
@@ -330,9 +331,9 @@ nav:
       - DPI Engine: interface_guide/dpi_engine.md
       - Data Statistics: interface_guide/data_statistics.md
       - Content Filter: interface_guide/content_filter.md
-      - Parental Control: interface_guide/parental_control.md
       - QoS: interface_guide/qos.md
       - SQM: interface_guide/sqm.md
+      - Parental Control: interface_guide/parental_control.md
     - System:
       - Overview: interface_guide/system_overview.md
       - Upgrade: interface_guide/upgrade.md

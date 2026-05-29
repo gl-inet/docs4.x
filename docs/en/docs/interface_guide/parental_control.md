@@ -166,21 +166,15 @@ If your configured settings fail to take effect, check the following possible ca
 
 ## Bark Version
 
-The [Bark](https://www.bark.us/){target="_blank"} version, which is provided and managed by Bark on their own platform, offers the option to filter applications and websites with a single click and monitor request history. 
+> This guide applies to firmware v4.8 and earlier. For newer versions, please click [here](bark.md).
 
-It offers monitoring functionality for more than 24 popular apps and social media platforms, which are included in the preset list for our local parental control feature.
-
-With its logging function, it records which client accessed which website and at what time. This allows parents to easily view the logs, identify websites not on the blacklist, and quickly add them to the management scope.
-
-The Bark Parental Control feature has been available since firmware v4.5, and is supported only on selected GL.iNet routers.
+The [Bark](https://www.bark.us/){target="_blank"} service can help protect your child's digital world and provide comprehensive online protection. It typically requires a paid subscription. However, as part of our partnership with Bark, GL.iNet offers the Bark Home plan for free **on select router models**, providing advanced monitoring and alerts at no extra cost.
 
 **Note**: 
 
 1. The Bark service is available **only in the United States, Australia, and South Africa**. Click [here](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"} for details.
 
-2. The Bark service typically requires a paid subscription. However, as part of our partnership with Bark, GL.iNet offers the Bark Home plan for free on select router models, providing advanced monitoring and alerts at no extra cost.
-
-3. The two Parental Control versions cannot be enabled at the same time. Enabling one will automatically disable the other.
+2. The two Parental Control versions cannot be enabled at the same time. Enabling one will automatically disable the other.
 
 ### Supported Models
 
@@ -247,7 +241,7 @@ Once your device connects to Bark Cloud services and is paired with your account
 
 ![bark_paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
 
-Click **Go to Bark** or [here](https://www.bark.us/app/children/?ref=glinet&home=glinet) to log in to your account and set up customized parental control rules.
+Click **Go to Bark** or [here](https://www.bark.us/app/children/?ref=glinet&home=glinet) to log in to the Bark dashboard and set up your parental control rules.
 
 Since GL.iNet is not the provider of this service, should you encounter any issues while using Bark, kindly reach out directly to [Bark's Technical Support](https://www.bark.us/contact-us/?ref=glinet&home=glinet) for assistance.
 

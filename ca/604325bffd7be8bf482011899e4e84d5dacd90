@@ -1,0 +1,226 @@
+docs/es/docs/interface_guide/openvpn_client.md
+  s_2d057ae6d06dca::t_4bcc0197743294 67,129
+docs/de/docs/interface_guide/bark.md
+  s_e15c3430e4ae4c::t_422feec5cc528e 1-82
+docs/it/docs/user_guide/gl-e5800/index.md
+  s_e0911fac70ba36::t_124c19a317da5e 33,37-43,47,53
+docs/es/docs/interface_guide/dns.md
+  s_2d057ae6d06dca::t_4bcc0197743294 21,23,25,27,29,31-33,35,37,39,41,43-99,103-107,109
+docs/fr/docs/tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 15,21,25
+docs/it/docs/interface_guide/iot_network.md
+  s_e0911fac70ba36::t_124c19a317da5e 1-65
+docs/it/docs/interface_guide/dns.md
+  s_e0911fac70ba36::t_98f9ec8d81cefe 21,23,25-35,39,43,47-67,69,71,73-99,103-107,109
+docs/it/docs/tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
+  s_e0911fac70ba36::t_124c19a317da5e 15,21,25
+docs/es/docs/interface_guide/wireless_v4.9.md
+  s_2d057ae6d06dca::t_4bcc0197743294 1-113
+docs/it/docs/interface_guide/wireguard_client.md
+  s_e0911fac70ba36::t_98f9ec8d81cefe 15,17,27-30,59,105,151,197,271,317,361,363,369,375,407,463,491,535-543,545
+docs/de/docs/interface_guide/wireguard_client.md
+  s_e15c3430e4ae4c::t_bbda80297c54b9 15,17,19-27,29,31,59,105,151,197,271,317,361,363,369,375,407,463,536
+  s_e15c3430e4ae4c::t_99b21aa9619104 491,535,537-543,545
+docs/pl/docs/interface_guide/wireguard_client.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 15,17,27-30,59,105,151,197,271,317,361,363,369,375,407,463,491,535-543,545
+docs/fr/docs/interface_guide/index.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 24,40,61,74,93
+docs/it/docs/interface_guide/openvpn_client.md
+  s_e0911fac70ba36::t_124c19a317da5e 67,133
+docs/es/docs/interface_guide/wireguard_client.md
+  s_2d057ae6d06dca::t_4bcc0197743294 15,17,27-30,59,105,151,197,271,317,361,407,463,534-542,544
+docs/fr/docs/interface_guide/scheduled_tasks.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 43-44,60-61
+docs/jp/docs/interface_guide/vpn_client_profile.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 1-93
+docs/pl/docs/interface_guide/index.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 24,40,60,73,92
+docs/pl/mkdocs.yml
+  s_c220acf37ef05f::t_ce3873e17f7a64 287,295,305,316,333
+docs/pl/docs/interface_guide/parental_control.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 5,166,168,170,174,176,213,217,219,221,225-239,243,245
+docs/pl/docs/interface_guide/wireless_v4.9.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 1-113
+docs/it/docs/interface_guide/vpn_client_profile.md
+  s_e0911fac70ba36::t_124c19a317da5e 1-93
+docs/jp/docs/interface_guide/dns.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 21,23,25-35,39,43,47-67,69,71,73-99,103-107,109
+docs/es/docs/interface_guide/guest_network.md
+  s_2d057ae6d06dca::t_4bcc0197743294 7-11,41,43
+docs/es/docs/interface_guide/parental_control.md
+  s_2d057ae6d06dca::t_4bcc0197743294 5,17-46,165,167,169,175,179-208,212,216,218,220,224-238,242,244
+docs/pl/docs/interface_guide/scheduled_tasks.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 43-44,60-61
+docs/jp/docs/interface_guide/wireless_v4.9.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 1-113
+docs/pl/docs/interface_guide/vpn_client_profile.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 1-93
+docs/fr/docs/interface_guide/parental_control.md
+  s_e8db5a5fb2f7b6::t_0f34aea78a5bde 166
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 5,168,170,176,213,217,219,221,225-239,243,245
+docs/fr/docs/interface_guide/wireless_v4.9.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 1-113
+docs/jp/docs/interface_guide/scheduled_tasks.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 43-44,60-61
+docs/jp/docs/interface_guide/wireguard_client.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 15,17,56,76,102,148,156,194,268,314,358,360,404,460,488,532-540,542
+  s_b1c3a5f8db4979::t_d139b59cb44cd7 366
+  s_b1c3a5f8db4979::t_4a9e3fbe48155f 322,372
+  s_b1c3a5f8db4979::t_3f6ba66d908594 27,202,328
+docs/pl/docs/interface_guide/guest_network.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 7-11,41
+docs/fr/docs/interface_guide/openvpn_client.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 13,67,133
+docs/it/docs/interface_guide/wireless_v4.9.md
+  s_e0911fac70ba36::t_124c19a317da5e 1-113
+docs/jp/docs/interface_guide/guest_network.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 7-11,41
+docs/fr/docs/interface_guide/bark.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 1-82
+docs/es/docs/interface_guide/index.md
+  s_2d057ae6d06dca::t_4bcc0197743294 24,40,61,74,93
+docs/fr/mkdocs.yml
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 288,298,309,320,337
+docs/jp/docs/interface_guide/bark.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 1-82
+docs/de/docs/interface_guide/iot_network.md
+  s_e15c3430e4ae4c::t_422feec5cc528e 1-65
+docs/de/docs/interface_guide/openvpn_client.md
+  s_e15c3430e4ae4c::t_c81a19590e84c0 67,133
+docs/it/docs/interface_guide/guest_network.md
+  s_e0911fac70ba36::t_124c19a317da5e 7-11,41,57
+docs/es/docs/interface_guide/scheduled_tasks.md
+  s_2d057ae6d06dca::t_4bcc0197743294 41-48,58-63
+docs/de/docs/interface_guide/parental_control.md
+  s_e15c3430e4ae4c::t_c81a19590e84c0 5,168,170,176,213,217,219,221,225-239,243,245
+docs/jp/docs/tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 15,21,25
+docs/it/docs/interface_guide/parental_control.md
+  s_e0911fac70ba36::t_98f9ec8d81cefe 5,168,170,175-176,215,219,221,223,227-241,245,247
+docs/es/docs/tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
+  s_2d057ae6d06dca::t_4bcc0197743294 15,21,25
+docs/jp/docs/user_guide/gl-e5800/index.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 28,30,32,34-42,48
+docs/es/docs/interface_guide/vpn_client_profile.md
+  s_2d057ae6d06dca::t_4bcc0197743294 1-93
+docs/jp/docs/interface_guide/iot_network.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 1-65
+docs/de/docs/interface_guide/wireless_v4.9.md
+  s_e15c3430e4ae4c::t_422feec5cc528e 1-113
+docs/fr/docs/interface_guide/iot_network.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 1-65
+docs/de/mkdocs.yml
+  s_e15c3430e4ae4c::t_13bb66cb5da001 308-309,320,337
+docs/it/mkdocs.yml
+  s_e0911fac70ba36::t_124c19a317da5e 288,298,309,320,337
+docs/pl/docs/interface_guide/iot_network.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 1-65
+docs/it/docs/interface_guide/bark.md
+  s_e0911fac70ba36::t_124c19a317da5e 1-82
+docs/it/docs/interface_guide/scheduled_tasks.md
+  s_e0911fac70ba36::t_124c19a317da5e 43-44,60-61
+docs/pl/docs/tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 15,21,25
+docs/pl/docs/user_guide/gl-e5800/index.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 33,37-43,47,53
+docs/pl/docs/interface_guide/bark.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 1-83
+docs/pl/docs/interface_guide/openvpn_client.md
+  s_c220acf37ef05f::t_dc1468f7c934c7 13,15,19
+  s_c220acf37ef05f::t_ce3873e17f7a64 67,133
+docs/de/docs/interface_guide/vpn_client_profile.md
+  s_e15c3430e4ae4c::t_422feec5cc528e 1-93
+docs/es/docs/interface_guide/iot_network.md
+  s_2d057ae6d06dca::t_4bcc0197743294 1-65
+docs/es/docs/user_guide/gl-e5800/index.md
+  s_2d057ae6d06dca::t_4bcc0197743294 33,37-40,43-44,47,53
+docs/es/docs/interface_guide/bark.md
+  s_2d057ae6d06dca::t_4bcc0197743294 1-82
+docs/jp/docs/interface_guide/openvpn_client.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 5,67,133
+docs/jp/docs/interface_guide/parental_control.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 5,168,170,176,213,217,219,221,225-239,243,245
+docs/de/docs/interface_guide/dns.md
+  s_e15c3430e4ae4c::t_29c5b3fa82d1f9 32-35,39,43,47-67,69,71,73-78
+docs/fr/docs/user_guide/gl-e5800/index.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 33,37-40,43-44,47,53
+docs/fr/docs/interface_guide/vpn_client_profile.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 1-78,80-93
+  s_e8db5a5fb2f7b6::t_0f34aea78a5bde 79
+docs/de/docs/user_guide/gl-e5800/index.md
+  s_e15c3430e4ae4c::t_422feec5cc528e 37-40,43-44,47,53
+docs/es/mkdocs.yml
+  s_2d057ae6d06dca::t_4bcc0197743294 286,296,307,318,335
+docs/it/docs/interface_guide/index.md
+  s_e0911fac70ba36::t_124c19a317da5e 24,40,61,74,93
+docs/jp/docs/interface_guide/index.md
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 24,40,61,74,93
+docs/fr/docs/interface_guide/guest_network.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 7-11,41,49
+docs/fr/docs/interface_guide/wireguard_client.md
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 15,17,27-30,59,105,151,197,225,255,271,317,343,361,407,463,491,534,536-542,544
+  s_e8db5a5fb2f7b6::t_d6f8366e5d36a8 535
+docs/pl/docs/interface_guide/dns.md
+  s_c220acf37ef05f::t_ce3873e17f7a64 19,21,23,25-35,39,43,47-67,69,71,73-99,103-107,109
+docs/fr/docs/interface_guide/dns.md
+  s_e8db5a5fb2f7b6::t_d6f8366e5d36a8 32,78
+  s_e8db5a5fb2f7b6::t_8f5da5f1efc080 21,23,25-31,33-35,39,43,47-67,69,71,73-77,79-99,103-107,109
+docs/jp/mkdocs.yml
+  s_b1c3a5f8db4979::t_36b2f80f3d824d 286,296,307,318,335
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "ca604325bffd7be8bf482011899e4e84d5dacd90",
+  "prompts": {},
+  "sessions": {
+    "s_2d057ae6d06dca": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "call_iwaX9Co7EWuEo907hxdjdx8b",
+        "model": "unknown"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    },
+    "s_b1c3a5f8db4979": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "call_uuHtySE1Y94XTftuXGINZ3Gy",
+        "model": "unknown"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    },
+    "s_c220acf37ef05f": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "call_peFjkBaCpKKVlE4Xf4X7GABh",
+        "model": "unknown"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    },
+    "s_e0911fac70ba36": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "call_RR6vpCBjtt6cisNdNQVsKlom",
+        "model": "unknown"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    },
+    "s_e15c3430e4ae4c": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "call_op4XVupAgEHKK1AgIRjOtN1Z",
+        "model": "unknown"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    },
+    "s_e8db5a5fb2f7b6": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "call_ngnLWawm2nXPsTNwkMyRWZbu",
+        "model": "unknown"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

@@ -12,17 +12,9 @@ Aby skonfigurować klienta WireGuard na routerze GL.iNet, obejrzyj poniższy fil
 
 ---
 
-Przed rozpoczęciem upewnij się, że masz aktywną subskrypcję u dostawcy usług VPN obsługującego ręczną konfigurację WireGuard. Kliknij [tutaj](https://www.gl-inet.com/solutions/vpn/){target="_blank"}, aby sprawdzić dostawców WireGuard kompatybilnych z routerami GL.iNet.
+Routery GL.iNet oferują wbudowaną obsługę WireGuard dla następujących dostawców VPN. Jeśli masz aktywną subskrypcję, wystarczy wprowadzić dane logowania do usługi na stronie **WireGuard Client**, aby szybko zakończyć konfigurację.
 
-Zazwyczaj musisz najpierw odwiedzić oficjalną stronę subskrybowanego dostawcy VPN, pobrać plik konfiguracyjny i przesłać go do routera, aby skonfigurować go jako klienta WireGuard. Jeśli nie wiesz, jak pobrać plik konfiguracyjny, zapoznaj się z [tym przewodnikiem](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) lub skontaktuj się z pomocą techniczną dostawcy.
-
-Klienta WireGuard możesz skonfigurować za pomocą panelu administracyjnego lub [aplikacji mobilnej](../faq/mobile_app.md).
-
-- **Aplikacja mobilna** jest zintegrowana z niektórymi dostawcami usług WireGuard, takimi jak AzireVPN, Mullvad VPN, OVPN, StrongVPN, PIA VPN itp., co oznacza, że możesz łatwo przeprowadzić konfigurację, podając jedynie dane logowania subskrybowanej usługi WireGuard. Otwórz aplikację i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
-
-- **Panel administracyjny** nie tylko obsługuje wybrane usługi WireGuard, ale także udostępnia możliwość ręcznej konfiguracji. Możesz wprowadzić dane logowania subskrybowanej usługi WireGuard, aby szybko zakończyć konfigurację, lub ręcznie przesłać plik konfiguracyjny.
-
-Poniżej opisano kroki konfiguracji za pomocą panelu administracyjnego. Wybierz odpowiedniego dostawcę usług WireGuard, aby szybko przejść do instrukcji krok po kroku.
+Wybierz poniżej odpowiedniego dostawcę usług WireGuard, aby szybko znaleźć instrukcje krok po kroku.
 
 * [Konfiguracja AzireVPN](#set-up-azirevpn)
 * [Konfiguracja Hide.me](#set-up-hideme)
@@ -32,6 +24,10 @@ Poniżej opisano kroki konfiguracji za pomocą panelu administracyjnego. Wybierz
 * [Konfiguracja PIA (Private Internet Access)](#set-up-pia-private-internet-access)
 * [Konfiguracja PureVPN](#set-up-purevpn)
 * [Konfiguracja Surfshark](#set-up-surfshark)
+* [Konfiguracja Windscribe](#set-up-windscribe)
+
+Jeśli korzystasz z innego dostawcy usług WireGuard, pobierz plik konfiguracyjny z jego strony internetowej, a następnie prześlij go do routera, aby nawiązać połączenie VPN.
+
 * [Ręczna konfiguracja klienta WireGuard (dla innych dostawców)](#set-up-wireguard-client-manually-for-other-providers)
 
 ## Konfiguracja AzireVPN {#set-up-azirevpn}
@@ -59,10 +55,8 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **Azire
     Po nawiązaniu połączenia obok pliku konfiguracyjnego pojawi się zielona kropka.
 
     ![azirevpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn3.png){class="glboxshadow"}
-    
-    Szczegóły połączenia VPN będą wyświetlane na **VPN Dashboard**.
 
-    ![azirevpn connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn4.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
 3. Aktualizacja serwerów.
 
@@ -108,9 +102,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **Hide.
 
     ![hideme connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme3.png){class="glboxshadow"}
 
-    Szczegóły połączenia VPN będą wyświetlane na **VPN Dashboard**.
-
-    ![hideme connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme4.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
 3. Aktualizacja serwerów.
 
@@ -156,9 +148,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **IPVan
 
     ![ipvanish connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish4.png){class="glboxshadow"}
 
-    Szczegóły połączenia VPN będą wyświetlane na **VPN Dashboard**.
-
-    ![ipvanish connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish5.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
 4. Aktualizacja serwerów.
 
@@ -204,9 +194,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **Mullv
 
     ![mullvad connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad4.png){class="glboxshadow"}
 
-    Szczegóły połączenia VPN będą wyświetlane na **VPN Dashboard**.
-
-    ![mullvad connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad5.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
 4. Aktualizacja serwerów.
 
@@ -280,9 +268,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **Mullv
 
     ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn4.png){class="glboxshadow"}
 
-    Szczegóły połączenia VPN będą wyświetlane na **VPN Dashboard**.
-
-    ![nordvpn connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn5.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
 5. Aktualizacja serwerów.
 
@@ -328,9 +314,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **PIA**
 
     ![pia connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia4.png){class="glboxshadow"}
 
-    Szczegóły połączenia VPN będą wyświetlane na **VPN Dashboard**.
-
-    ![pia connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia5.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
 4. Aktualizacja serwerów.
 
@@ -374,23 +358,21 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **PureV
 
     ![purevpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn4.png){class="glboxshadow"}
 
-    Szczegóły połączenia VPN będą wyświetlane na **VPN Dashboard**.
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
-    ![purevpn connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn5.png){class="glboxshadow"}
-
-4. Aktualizacja serwerów.
+3. Aktualizacja serwerów.
 
     Możesz kliknąć **Update Servers**, aby pobrać najnowszą listę dostępnych serwerów, unikając błędów połączenia spowodowanych konserwacją lub wyłączeniem serwerów.
 
     ![purevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn6.png){class="glboxshadow"}
 
-5. Edycja danych logowania lub wylogowanie.
+4. Edycja danych logowania lub wylogowanie.
 
     Kliknij ikonę koła zębatego, aby edytować dane logowania lub się wylogować.
 
     ![purevpn edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn7.png){class="glboxshadow"}
 
-6. Usuń wszystko.
+5. Usuń wszystko.
 
     Możesz kliknąć **Delete All**, aby usunąć wszystkie pliki konfiguracyjne jednym kliknięciem, i wybrać, czy jednocześnie usunąć klucz prywatny i klucz publiczny.
 
@@ -422,9 +404,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **Surfs
 
     ![surfshark connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark4.png){class="glboxshadow"}
 
-    Szczegóły połączenia VPN będą wyświetlane na **VPN Dashboard**.
-
-    ![surfshark connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark5.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
 4. Aktualizacja serwerów.
 
@@ -480,9 +460,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **Winds
 
     ![windscribe connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe5.png){class="glboxshadow"}
 
-    Szczegóły połączenia VPN będą wyświetlane na **VPN Dashboard**.
-
-    ![windscribe connection status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe6.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
 4. Aktualizacja serwerów.
 
@@ -510,7 +488,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **Winds
 
 ## Ręczna konfiguracja klienta WireGuard (dla innych dostawców) {#set-up-wireguard-client-manually-for-other-providers}
 
-Jeśli korzystasz z innego dostawcy usług WireGuard, możesz pobrać pliki konfiguracyjne WireGuard i wykonać poniższe kroki, aby skonfigurować klienta WireGuard. Jeśli nie wiesz, jak pobrać pliki konfiguracyjne, zapoznaj się z [tym przewodnikiem](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) lub skontaktuj się z pomocą techniczną dostawcy.
+Jeśli korzystasz z innego dostawcy usług WireGuard, pobierz plik konfiguracyjny z jego strony internetowej, a następnie wykonaj poniższe kroki, aby skonfigurować klienta WireGuard. Jeśli nie wiesz, jak pobrać pliki konfiguracyjne, zapoznaj się z [tym przewodnikiem](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) lub skontaktuj się z pomocą techniczną dostawcy.
 
 W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client**.
 
@@ -554,9 +532,17 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client**.
 
     ![start the profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/start_edit_delete.png){class="glboxshadow"}
 
-5. Po nawiązaniu połączenia możesz sprawdzić jego stan na stronie **VPN Dashboard**.
+    Po nawiązaniu połączenia obok pliku konfiguracyjnego pojawi się zielona kropka.
 
-    ![vpn dashboard page](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/vpn_dashboard_wireguard_status.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
+
+## Konfiguracja klienta WireGuard przez aplikację mobilną
+
+Możesz też skonfigurować klienta WireGuard za pomocą [aplikacji mobilnej](https://www.gl-inet.com/app/#download-app-glinet).
+
+Aplikacja mobilna integruje niektórych dostawców usług WireGuard, takich jak AzireVPN, Mullvad VPN, OVPN, StrongVPN i PIA VPN. Możesz łatwo skonfigurować klienta WireGuard, wprowadzając dane logowania do subskrybowanej usługi WireGuard.
+
+Zainstaluj aplikację i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie.
 
 ## Konfiguracja serwera WireGuard na routerze GL.iNet
 

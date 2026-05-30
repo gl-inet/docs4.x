@@ -4,17 +4,17 @@ Guest Network の設定は、ファームウェア v4.5 以降 [LAN](lan.md) か
 
 Web Admin Panel の左側で、**NETWORK** -> **Guest Network** に移動します。
 
-このページには Guest Network の基本設定と DHCP サーバー設定が含まれます。
+このページでは、来訪者向けの専用 Wi-Fi ネットワークを作成できます。メインネットワークから分離されるため、利便性を保ちながらセキュリティを高められます。
+
+**Note**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi 機能を備えていないため、Web Admin Panel に Guest Network の設定は表示されません。
+
+基本設定と DHCP サーバー設定の 2 つのセクションがあります。
 
 ## 基本設定
 
 IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`10.0.0.0/8` の中でサブネットを設定できます。
 
 ![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_1.png){class="glboxshadow"}
-
-一時的な利用者向けに、メインネットワークから分離された独立ネットワークを設定できます。これにより、アクセスを制限しつつセキュリティを高められます。
-
-**Note**: 一部のモデル（例: GL-MT5000、GL-MT2500/GL-MT2500A）は Wi-Fi をサポートしていないため、Web Admin Panel に Guest Network の設定は表示されません。
 
 - **Gateway**
 
@@ -38,7 +38,7 @@ IPv4 プライベートアドレス範囲 `192.168.0.0/16`、`172.16.0.0/12`、`
 
 ## DHCPサーバー
 
-Guest Network を有効にすると、DHCP Server もデフォルトで有効になります。
+Guest Network を有効にすると、それに応じて DHCP サーバーも有効になります。
 
 DHCP サーバーは Guest Network に接続した各クライアントデバイスに、IP アドレスやそのほかの通信パラメーターを自動的に割り当てます。DHCP サーバーを無効にした場合は、クライアントデバイス側でネットワーク設定を手動で行う必要があります。静的 IP を手動で設定する方法については、[こちら](../tutorials/manually_configure_static_ip.md) を参照してください。
 

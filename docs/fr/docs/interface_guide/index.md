@@ -21,6 +21,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 ## Sans fil
 
 * [Sans fil](wireless.md)
+* [Sans fil (v4.9)](wireless_v4.9.md)
 
 ## Clients
 
@@ -36,6 +37,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Tableau de bord VPN (v4.7)](vpn_dashboard_v4.7.md)
 * [Tableau de bord VPN (v4.8)](vpn_dashboard_v4.8.md)
 * [Tableau de bord VPN (v4.9)](vpn_dashboard_v4.9.md)
+* [Profil client VPN](vpn_client_profile.md)
 * [Configurer OpenVPN Client](openvpn_client.md)
 * [Configurer OpenVPN Server](openvpn_server.md)
 * [Configurer WireGuard Client](wireguard_client.md)
@@ -56,6 +58,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [AdGuard Home](adguardhome.md)
 * [Stockage réseau](network_storage.md)
 * [Parental Control](parental_control.md)
+* [Bark](bark.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
 * [Tor](tor.md) - pour protéger la vie privée.
@@ -68,6 +71,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Multi-WAN](multi-wan.md) - permet le basculement vers une autre connexion Internet ou l'utilisation simultanée de plusieurs interfaces pour augmenter la bande passante totale.
 * [LAN](lan.md)
 * [Réseau invité](guest_network.md)
+* [Réseau IoT](iot_network.md)
 * [DNS](dns.md)
 * [Port Ethernet](ethernet_port.md)
 * [Mode réseau](network_mode.md)
@@ -84,9 +88,9 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [DPI Engine](dpi_engine.md)
 * [Statistiques des données](data_statistics.md)
 * [Filtre de contenu](content_filter.md)
-* [Parental Control](parental_control.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
+* [Parental Control](parental_control.md)
 
 ## Système
 

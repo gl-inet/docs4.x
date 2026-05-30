@@ -34,17 +34,23 @@ Setzen Sie Nano-SIM-Karte(n) in Ihren Mudi 7 ein. Wenn Sie lieber eSIM verwenden
 
 Nutzen Sie zuerst die kleine Kerbe unten rechts an der Rückabdeckung als Hebelpunkt. Hebeln Sie entlang der Fuge, um einen Spalt zu schaffen, öffnen Sie dann die Rückabdeckung und nehmen Sie den Akku des Mudi 7 heraus.
 
+![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
+
+![remove battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery1.png){class="glboxshadow"}
+
 Setzen Sie als Nächstes die Nano-SIM-Karte(n) ein. Wenn Sie nur eine Karte verwenden, nutzen Sie bevorzugt SIM 1.
+
+![sim slots](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/sim-slots.png){class="glboxshadow"}
 
 Setzen Sie abschließend den Akku wieder ein und bringen Sie die Abdeckung wieder an.
 
-![install nano-sim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/install_nano-sim.png){class="glboxshadow"}
+![restore battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery2.png){class="glboxshadow"}
 
 ### 2. Einschalten
 
 Halten Sie die Ein-/Aus-Taste **3 Sekunden** lang gedrückt oder schließen Sie ein Netzteil an.
 
-![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power_on.png){class="glboxshadow"}
+![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
 
 ### 3. Grundeinstellungen
 

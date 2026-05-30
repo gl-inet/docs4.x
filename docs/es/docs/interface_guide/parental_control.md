@@ -2,7 +2,7 @@
 
 El control parental es una forma de mantener a los menores seguros en Internet bloqueando sitios web inapropiados y limitando el tiempo que usan los dispositivos. Ayuda a evitar el acceso a contenido perjudicial, gestionar el tiempo de pantalla y garantizar un uso responsable de Internet.
 
-Esta función está disponible desde el firmware v4.2. **Nota**: Algunos modelos, aunque ejecuten el firmware v4.2 o superior, no admiten Parental Control por memoria insuficiente.
+> Nota: Algunos modelos no son compatibles con Parental Control por memoria insuficiente, como Mango (GL-MT300N-V2) y Shadow (GL-AR300M series).
 
 Vea este vídeo o siga los pasos que se indican a continuación para configurar Parental Control en los routers GL.iNet.
 
@@ -14,9 +14,36 @@ La versión local es proporcionada por GL.iNet. Actualmente está en fase beta y
 
 ### Modelos compatibles
 
-??? "Modelos compatibles" - GL-E5800 (Mudi 7) - GL-MT5000 (Brume 3) - GL-MT3600BE (Beryl 7) - GL-BE6500 (Flint 3e) - GL-BE9300 (Flint 3) - GL-BE3600 (Slate 7) - GL-X2000 (Spitz Plus) - GL-B3000 (Marble) - GL-MT6000 (Flint2) - GL-AX1800 (Flint) - GL-X3000 (Spitz AX) - GL-XE3000 (Puli AX) - GL-MT2500/GL-MT2500A (Brume 2) - GL-MT3000 (Beryl AX) - GL-AXT1800 (Slate AX) - GL-A1300 (Slate Plus)
+??? "Modelos compatibles"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-X2000 (Spitz Plus)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint2)
+    - GL-AX1800 (Flint)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
+    - GL-A1300 (Slate Plus)
 
-??? "Modelos no compatibles" - GL-SFT1200 (Opal) - GL-MT1300 (Beryl) - GL-E750/E750V2 (Mudi) - GL-X750/GL-X750V2 (Spitz) - GL-AR750S (Slate) - GL-XE300 (Puli) - GL-MT300N-V2 (Mango) - GL-AR300M Series (Shadow) - GL-B1300 (Convexa-B) - GL-AP1300 (Cirrus) - GL-X300B (Collie)
+??? "Modelos no compatibles"
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
+    - GL-X300B (Collie)
 
 ### Pasos de configuración
 
@@ -135,53 +162,86 @@ Si la configuración que ha establecido no surte efecto, compruebe las siguiente
 
 4. El dispositivo de destino utiliza una dirección MAC aleatoria para cada conexión de red, lo que impide que las reglas surtan efecto. Desactive la dirección MAC aleatoria en el dispositivo de destino y vuelva a añadirlo a su perfil.
 
-## Versión Bark
+## Versión Bark {#bark-version}
 
-La versión [Bark](https://www.bark.us/){target="_blank"}, proporcionada y gestionada por Bark en su propia plataforma, ofrece la opción de filtrar aplicaciones y sitios web con un solo clic y supervisar el historial de solicitudes.
+> Esta guía se aplica al firmware v4.8 y anteriores. Para versiones más recientes, haga clic [aquí](bark.md).
 
-Ofrece funciones de supervisión para más de 24 aplicaciones populares y plataformas de redes sociales, incluidas en la lista preestablecida de nuestra función local de control parental.
-
-Con su función de registros, anota qué cliente ha accedido a qué sitio web y en qué momento. Esto permite a los padres ver fácilmente los registros, identificar sitios web que no están en la lista negra y añadirlos rápidamente al ámbito de gestión.
-
-La función Bark Parental Control está disponible desde el firmware v4.5 y solo es compatible con determinados routers GL.iNet.
+El servicio [Bark](https://www.bark.us/){target="_blank"} puede ayudar a proteger el entorno digital de sus hijos y ofrecer una protección integral en línea. Normalmente requiere una suscripción de pago. Sin embargo, como parte de nuestra colaboración con Bark, GL.iNet ofrece el plan Bark Home de forma gratuita **en determinados modelos de router**, con supervisión avanzada y alertas sin coste adicional.
 
 **Nota**:
 
 1. El servicio Bark está disponible **solo en Estados Unidos, Australia y Sudáfrica**. Haga clic [aquí](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"} para ver los detalles.
 
-2. El servicio Bark normalmente requiere una suscripción de pago. Sin embargo, como parte de nuestra colaboración con Bark, GL.iNet ofrece el plan Bark Home de forma gratuita en determinados modelos de router, con supervisión avanzada y alertas sin coste adicional.
-
-3. Las dos versiones de Parental Control no pueden habilitarse al mismo tiempo. Al cambiar entre versiones, la otra se desactivará automáticamente.
+2. Las dos versiones de Parental Control no pueden habilitarse al mismo tiempo. Al activar una, la otra se desactivará automáticamente.
 
 ### Modelos compatibles
 
-??? "Modelos compatibles" - GL-BE6500 (Flint 3e) - GL-BE9300 (Flint 3) - GL-B3000 (Marble) - GL-MT6000 (Flint2)
+??? "Modelos compatibles"
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint2)
 
-??? "Modelos no compatibles" - GL-E5800 (Mudi 7) - GL-MT5000 (Brume 3) - GL-MT3600BE (Beryl 7) - GL-BE3600 (Slate 7) - GL-X2000 (Spitz Plus) - GL-X3000 (Spitz AX) - GL-XE3000 (Puli AX) - GL-AX1800 (Flint) - GL-MT2500/GL-MT2500A (Brume 2) - GL-MT3000 (Beryl AX) - GL-AXT1800 (Slate AX) - GL-A1300 (Slate Plus) - GL-SFT1200 (Opal) - GL-MT1300 (Beryl) - GL-E750/E750V2 (Mudi) - GL-X750/GL-X750V2 (Spitz) - GL-AR750S (Slate) - GL-XE300 (Puli) - GL-MT300N-V2 (Mango) - GL-AR300M Series (Shadow) - GL-B1300 (Convexa-B) - GL-AP1300 (Cirrus) - GL-X300B (Collie)
+??? "Modelos no compatibles"
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE3600 (Slate 7)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-AX1800 (Flint)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
+    - GL-A1300 (Slate Plus)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
+    - GL-X300B (Collie)
 
 ### Pasos de configuración
 
-Inicie sesión en el panel de administración web del router y vaya a **APPLICATIONS** -> **Parental Control**.
-
-Seleccione la versión Bark, active el interruptor y haga clic en **Apply**.
+Inicie sesión en el panel de administración web del router y vaya a **APPLICATIONS** -> **Parental Control**. Seleccione la versión Bark.
 
 ![switch_versions](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
 
+Active el interruptor para habilitar Bark y luego haga clic en **Apply**.
+
 ![bark_enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_enable.png){class="glboxshadow"}
 
-**Nota:** Es posible que el servicio Bark no esté disponible en determinados países. Como GL.iNet no es el proveedor de este servicio, si encuentra algún problema al usar Bark, póngase en contacto directamente con el [soporte técnico de Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet) para obtener ayuda.
-
-El servicio Bark está habilitado, pero este dispositivo todavía no está vinculado a ninguna cuenta. Utilice el [enlace de vinculación del dispositivo](https://www.bark.us/app/signup/?ref=glinet&home=glinet) para vincular este dispositivo con su cuenta de Bark.
+Después, vincule el dispositivo con su cuenta de Bark. Haga clic en **Device Pairing Link** o [aquí](https://www.bark.us/app/signup/?ref=glinet&home=glinet) para vincular este router con su cuenta de Bark.
 
 ![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_pairing.png){class="glboxshadow"}
 
-Una vez vinculado, la página se mostrará como se indica a continuación.
+Se le redirigirá al sitio web de Bark. Siga las instrucciones en pantalla para iniciar sesión, vincular el dispositivo, crear un perfil y completar la configuración inicial.
+
+![bark_welcome_page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_welcome.png){class="glboxshadow"}
+<small>(Inicio de sesión en Bark)</small>
+
+![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_setup.png){class="glboxshadow"}
+<small>(Dispositivo vinculado)</small>
+
+![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_create_profile.png){class="glboxshadow"}
+<small>(Crear un perfil)</small>
+
+![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_get_started.png){class="glboxshadow"}
+<small>(Configuración inicial)</small>
+
+Cuando el dispositivo se conecte a Bark Cloud Services y quede vinculado a su cuenta, el panel de administración web del router se mostrará de la siguiente manera.
 
 ![bark_paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
 
-Su dispositivo ahora está conectado a Bark Cloud Services y vinculado a su cuenta. [Vaya a Bark](https://www.bark.us/app/children/?ref=glinet&home=glinet) e inicie sesión en su cuenta para crear un perfil de control de red.
+Haga clic en **Go to Bark** o [aquí](https://www.bark.us/app/children/?ref=glinet&home=glinet) para iniciar sesión en el panel de Bark y configurar sus reglas de control parental.
 
-![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_setup.png){class="glboxshadow gl-90-desktop"}
+Como GL.iNet no es el proveedor de este servicio, si encuentra algún problema al usar Bark, póngase en contacto directamente con el [soporte técnico de Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet) para obtener ayuda.
 
 ---
 

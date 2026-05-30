@@ -4,17 +4,17 @@ Les paramètres du réseau invité sont séparés de [LAN](lan.md) depuis le fir
 
 Dans le panneau d'administration web, accédez à **NETWORK** -> **Guest Network**. 
 
-Cette page comprend les paramètres de base du réseau invité et les paramètres du serveur DHCP.
+Cette page vous permet de créer un réseau Wi‑Fi dédié pour les visiteurs. Isolé du réseau principal, il améliore la sécurité tout en offrant un accès Internet pratique.
+
+**Note**: Certains modèles (par exemple GL-MT5000, GL-MT2500/GL-MT2500A) ne disposent pas de fonctionnalité Wi‑Fi ; les paramètres **Guest Network** ne sont donc pas disponibles dans leur panneau d'administration web.
+
+Cette page comprend deux sections : les paramètres de base et les paramètres du serveur DHCP.
 
 ## Paramètres de base
 
 Vous pouvez définir le sous-réseau dans les plages d'adresses privées IPv4 suivantes : `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
 ![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_1.png){class="glboxshadow"}
-
-Vous pouvez configurer un réseau séparé et isolé, conçu pour les utilisateurs temporaires, afin de fournir un accès limité et une sécurité renforcée grâce à sa séparation du réseau principal.
-
-**Note**: Certains modèles (par exemple GL-MT5000, GL-MT2500/GL-MT2500A) ne prennent pas en charge le Wi-Fi ; les paramètres du réseau invité ne sont donc pas disponibles dans leur panneau d'administration web.
 
 - **Gateway**
 
@@ -38,7 +38,7 @@ Vous pouvez configurer un réseau séparé et isolé, conçu pour les utilisateu
 
 ## Serveur DHCP
 
-Si le réseau invité est activé, le serveur DHCP est activé par défaut.
+Si **Guest Network** est activé, son serveur DHCP sera activé en conséquence.
 
 Le serveur DHCP attribue automatiquement des adresses IP et d'autres paramètres de communication à chaque appareil client connecté au réseau invité. Si le serveur DHCP est désactivé, vous devrez configurer manuellement les paramètres réseau des appareils clients. Cliquez [ici](../tutorials/manually_configure_static_ip.md) pour savoir comment configurer manuellement une adresse IP statique.
 
@@ -46,7 +46,7 @@ Vous pouvez modifier les adresses IP de début et de fin selon vos besoins, par 
 
 ![guest network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_2.png){class="glboxshadow"}
 
-Cliquez sur **Advanced** pour effectuer une configuration supplémentaire si nécessaire.
+Cliquez sur **Advanced** pour effectuer une configuration supplémentaire selon vos besoins.
 
 ![dhcp advanced 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/dhcp_advanced1.png){class="glboxshadow"}
 

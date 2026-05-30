@@ -40,7 +40,8 @@ Z wyjątkiem MLO Wi‑Fi, które obsługuje wyłącznie tryb planowania włącza
 
 | Obsługiwane modele       |         |
 | :----------------------- | :-----: |
-| GL-E5800 (Mudi 7)        |    √    |
+| GL-BE14000 (Flint 4)     |    √    |
+| GL-BE10000 (Slate 7 Pro) |    √    |
 | GL-MT3600BE (Beryl 7)    |    √    |
 | GL-BE6500 (Flint 3e)     |    √    |
 | GL-BE9300 (Flint 3)      |    √    |
@@ -56,6 +57,8 @@ Włącz harmonogram dla głównej sieci Wi‑Fi lub sieci dla gości, ustaw godz
 
 | Obsługiwane modele       |         |
 | :----------------------- | :-----: |
+| GL-BE14000 (Flint 4)     |    √    |
+| GL-BE10000 (Slate 7 Pro) |    √    |
 | GL-E5800 (Mudi 7)        |    √    |
 | GL-BE9300 (Flint 3)      |    √    |
 

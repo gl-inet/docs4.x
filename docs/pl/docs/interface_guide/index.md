@@ -21,6 +21,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 ## Sieć bezprzewodowa
 
 * [Sieć bezprzewodowa](wireless.md)
+* [Sieć bezprzewodowa (v4.9)](wireless_v4.9.md)
 
 ## Klienci
 
@@ -36,6 +37,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
 * [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
 * [VPN Dashboard (v4.9)](vpn_dashboard_v4.9.md)
+* [Profil klienta VPN](vpn_client_profile.md)
 * [Konfiguracja OpenVPN Client](openvpn_client.md)
 * [Konfiguracja OpenVPN Server](openvpn_server.md)
 * [Konfiguracja WireGuard Client](wireguard_client.md)
@@ -55,7 +57,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [DDNS](ddns.md) - aby rozwiązać problemy związane z dynamicznymi adresami IP.
 * [AdGuard Home](adguardhome.md)
 * [Pamięć sieciowa](network_storage.md)
-* [Kontrola rodzicielska](parental_control.md)
+* [Bark](bark.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
 * [Tor](tor.md) - aby chronić prywatność użytkownika.
@@ -68,6 +70,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Multi-WAN](multi-wan.md) - umożliwia przełączenie awaryjne na inne połączenie internetowe lub jednoczesne użycie wielu interfejsów w celu zwiększenia łącznej przepustowości.
 * [LAN](lan.md)
 * [Sieć gościnna](guest_network.md)
+* [Sieć IoT](iot_network.md)
 * [DNS](dns.md)
 * [Port Ethernet](ethernet_port.md)
 * [Tryb sieci](network_mode.md)
@@ -84,9 +87,9 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [DPI Engine](dpi_engine.md)
 * [Statystyki danych](data_statistics.md)
 * [Filtr treści](content_filter.md)
-* [Kontrola rodzicielska](parental_control.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
+* [Kontrola rodzicielska](parental_control.md)
 
 ## System
 

@@ -2,7 +2,7 @@
 
 ## Produktübersicht
 
-Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi 6 protocol. It is an upgraded version of Beryl (GL-MT1300). It runs on MT7981B 1.3GHz dual-core processor, offering more than double the total Wi-Fi speed. It is designed to support families with heavy Wi-Fi usage, and it's also compactly designed for travel use.
+Beryl AX (GL-MT3000) ist ein kompakter AX3000-Reiserouter im Taschenformat, der das Wi-Fi-6-Protokoll nutzt. Er ist eine verbesserte Version des Beryl (GL-MT1300). Ausgestattet mit einem MT7981B-Dual-Core-Prozessor mit 1,3 GHz bietet er mehr als die doppelte gesamte Wi-Fi-Geschwindigkeit. Er wurde für Familien mit intensiver Wi-Fi-Nutzung entwickelt und ist zugleich kompakt genug für den Einsatz auf Reisen.
 
 ![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
 
@@ -20,7 +20,7 @@ Beryl AX (GL-MT3000) is an AX3000 pocket-sized travel router that uses the Wi-Fi
 
 ## So richten Sie Beryl AX ein
 
-Watch this setup video or follow the steps below. 
+Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVn92F5RV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -34,11 +34,11 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder
 
 - Ethernet
 
-    Connect your device to the router's LAN port using an Ethernet cable. 
+  Verbinden Sie Ihr Gerät per Ethernet-Kabel mit dem LAN-Port des Routers.
 
 - Wi-Fi
 
-    On your device, go to Settings -> WLAN, locate your router's Wi-Fi network name in the available networks list and enter the password. You can find the default network name and password printed on your router's label.
+  Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett Ihres Routers.
 
 ### 3. Im Web-Admin-Panel anmelden
 
@@ -50,322 +50,321 @@ Beachten Sie beim Bestätigen der Wi‑Fi-Daten: Wenn Sie die Wi‑Fi-Informatio
 
 **Hinweis:** Die folgenden Anweisungen gelten für Benutzer, die den Router über das GL.iNet Web-Admin-Panel konfigurieren. Wenn Sie lieber die GL.iNet-App verwenden möchten, [laden Sie die App herunter](https://www.gl-inet.com/app/){target="_blank"} und folgen Sie den Anweisungen auf dem Bildschirm.
 
-Richten Sie Beryl AX mit einer der unterstützten Internetverbindungsmethoden ein: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
+Richten Sie Beryl AX mit einer der unterstützten Internetverbindungsmethoden ein: Ethernet, Repeater, Tethering und Cellular. Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindung ein.
 
 === "Ethernet"
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_ethernet.png){class="glboxshadow"}
 
-    Connect an ethernet cable between your router's WAN port and an upstream device (e.g., a modem). 
-    
-    Once successfully connected to the internet, a green dot will appear in the Ethernet section on the INTERNET page.
+    Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
-    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
+    Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint im Ethernet-Bereich auf der Seite INTERNET ein grüner Punkt.
+
+    Detaillierte Anweisungen finden Sie unter [Über ein Ethernet-Kabel eine Verbindung zum Internet herstellen](../../interface_guide/internet_ethernet.md).
 
 === "Repeater"
 
     ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_repeater.png){class="glboxshadow"}
 
-    1. On the INTERNET page of the web Admin Panel, locate the Repeater section and click **Connect**.
-    2. Select a Wi-Fi network from the available networks. 
-    3. Enter the password, then click **Apply**.
-    
-    Once successfully connected to the internet, a green dot will appear in the Repeater section on the INTERNET page.
+    1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
+    2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
+    3. Geben Sie das Passwort ein und klicken Sie dann auf **Apply**.
 
-    Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
+    Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint im Repeater-Bereich auf der Seite INTERNET ein grüner Punkt.
+
+    Detaillierte Anweisungen finden Sie unter [Über ein vorhandenes Wi-Fi-Netzwerk eine Verbindung zum Internet herstellen](../../interface_guide/internet_repeater.md).
 
 === "Tethering"
 
     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port using a USB cable. 
-    2. On your mobile device, go to Settings and enable USB Tethering. 
-    3. On the INTERNET page of the web Admin Panel, click **Connect** in the Tethering section. 
-    
-    Once successfully connected to the internet, a green dot will appear in the Tethering section on the INTERNET page.
+    1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
+    2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
+    3. Klicken Sie auf der Seite INTERNET des Web-Admin-Panels im Bereich Tethering auf **Connect**.
 
-    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
+    Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint im Tethering-Bereich auf der Seite INTERNET ein grüner Punkt.
+
+    Detaillierte Anweisungen finden Sie unter [Über USB-Tethering eine Verbindung zum Internet herstellen](../../interface_guide/internet_tethering.md).
 
 === "Cellular"
 
     ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_cellular.png){class="glboxshadow"}
 
-    Plug a cellular USB modem into the router's USB port. This is useful for sharing internet from a USB modem to all connected devices.
+    Schließen Sie ein Mobilfunk-USB-Modem an den USB-Port des Routers an. Das ist nützlich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 
-    Once successfully connected to the internet, a green dot will appear in the Cellular section on the INTERNET page.
+    Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint im Cellular-Bereich auf der Seite INTERNET ein grüner Punkt.
 
-    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über Cellular eine Verbindung zum Internet herstellen](../../interface_guide/internet_cellular.md).
 
 ## So richten Sie ein VPN ein
 
 Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene an Datenschutz und Sicherheit (VPN-Client) und ermöglicht den Zugriff auf ein entferntes Netzwerk (VPN-Server). Beryl AX (und andere GL.iNet-Router) unterstützt OpenVPN und WireGuard. Zusätzlich wird Tor unterstützt.
 
-=== "OpenVPN" 
+=== "OpenVPN"
 
-    Beryl AX (and other GL.iNet routers) supports the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Beryl AX und andere GL.iNet-Router unterstützen das OpenVPN-Protokoll, das hohe Sicherheit bietet. Folgen Sie zum Einrichten von OpenVPN diesen Anleitungen:
 
-    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
-    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
+    * [So richten Sie einen OpenVPN-Client ein](../../interface_guide/openvpn_client.md)
+    * [So richten Sie einen OpenVPN-Server ein](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Beryl AX (and other GL.iNet routers) supports the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Beryl AX und andere GL.iNet-Router unterstützen das WireGuard-Protokoll, das hohe Geschwindigkeiten und eine komfortable Nutzung bietet. Folgen Sie zum Einrichten von WireGuard diesen Anleitungen:
 
-    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
-    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+    * [So richten Sie einen WireGuard-Client ein](../../interface_guide/wireguard_client.md)
+    * [So richten Sie einen WireGuard-Server ein](../../interface_guide/wireguard_server.md)
 
 === "Tor"
 
-    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities.
-    
-    *[How to set up Tor](../../interface_guide/tor.md)
+    Tor, kurz für The Onion Router, ist ein auf Privatsphäre ausgerichtetes Netzwerk, das anonyme Kommunikation über das Internet ermöglicht. Es leitet den Internetverkehr über eine Reihe von freiwillig betriebenen Servern (Nodes), um den Standort und die Nutzung des Benutzers zu verschleiern und Online-Aktivitäten nur schwer nachvollziehbar zu machen.
+
+    * [So richten Sie Tor ein](../../interface_guide/tor.md)
 
 ## WLAN und Clients
 
 === "Wireless"
 
-    The Wireless page allows you to configure settings for both 5 GHz and 2.4 GHz Wi-Fi networks, including enabling/disabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling/disabling randomized BSSID, selecting Wi-Fi security mode, setting Wi-Fi password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+    Auf der Seite Wireless können Sie Einstellungen für die 5-GHz- und 2.4-GHz-Wi-Fi-Netzwerke konfigurieren, darunter das Aktivieren oder Deaktivieren von Wi-Fi, das Festlegen der TX-Leistung, das Definieren des Wi-Fi-Namens (SSID), das Aktivieren oder Deaktivieren randomisierter BSSID, die Auswahl des Wi-Fi-Sicherheitsmodus, das Festlegen des Wi-Fi-Passworts sowie die Konfiguration von SSID-Sichtbarkeit, Wi-Fi-Modus, Bandbreite und Kanal.
 
-    To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+    Zum Einrichten von Wireless lesen Sie bitte [Wireless](../../interface_guide/wireless.md).
 
 === "Clients"
 
-    The Clients page displays information about connected devices. For each client, it shows the device name, connection type (i.e., via ethernet or Wi-Fi), IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to reserve IP, block the client or perform other actions.
+    Auf der Seite Clients werden Informationen zu verbundenen Geräten angezeigt. Für jeden Client sehen Sie den Gerätenamen, den Verbindungstyp (also über Ethernet oder Wi-Fi), IP- und MAC-Adressen, Download- und Upload-Geschwindigkeiten, das gesamte Datenvolumen sowie die Möglichkeit, eine IP zu reservieren, den Client zu blockieren oder weitere Aktionen auszuführen.
 
-    To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+    Zum Einrichten von Clients lesen Sie bitte [Clients](../../interface_guide/clients.md).
 
 ## Cloud-Dienste
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} service provides an easy and simple way to remotely access and manage GL.iNet routers. 
-    
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+    Der Dienst GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} bietet eine einfache Möglichkeit, aus der Ferne auf GL.iNet-Router zuzugreifen und sie zu verwalten.
+
+    Zum Einrichten von GoodCloud lesen Sie bitte [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
 
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
+    AstroWarp ist eine fortschrittliche Netzwerkplattform für nahtlose Remote-Vernetzung und Fernverwaltung von Geräten. AstroWarp wurde speziell für die Integration mit GL.iNet-Routern entwickelt und unterstützt ein umfassendes Gerätemanagement über ganze Netzwerke hinweg, einschließlich der Verwaltung über- und untergeordneter Geräte. Mit seinem Fokus auf netzwerkweites Management und zukünftiger Unterstützung für Hardware-Steuerung bietet AstroWarp eine robuste und verlässliche Lösung für die Geräteverwaltung sowie für sichere und stabile Netzwerke.
 
-    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+    Zum Einrichten von AstroWarp lesen Sie bitte [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## Anwendungen
 
 === "Plug-ins"
 
-    A plugin is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
-    
-    To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
+    Ein Plug-in ist eine Softwarekomponente, die einem bestehenden Computerprogramm bestimmte Funktionen oder Erweiterungen hinzufügt und so dessen Anpassung und Erweiterung ermöglicht.
+
+    Zum Einrichten von Plug-ins lesen Sie bitte [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
-    
-    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dies ist nützlich für Benutzer, die für den Zugriff auf ein entferntes Netzwerk eine statische IP-Adresse benötigen.
+
+    Zum Einrichten von Dynamic DNS lesen Sie bitte [Dynamic DNS](../../interface_guide/ddns.md).
 
 === "Network Storage"
 
-    Network storage refers to a centralized data storage solution that allows multiple users and devices to access and share files over a network. 
-    
-    To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
+    Network Storage bezeichnet eine zentrale Datenspeicherlösung, die es mehreren Benutzern und Geräten ermöglicht, über ein Netzwerk auf Dateien zuzugreifen und sie gemeinsam zu nutzen.
+
+    Zum Einrichten von Network Storage lesen Sie bitte [Network Storage](../../interface_guide/network_storage.md).
 
 ---
 
 === "AdGuard Home"
 
-    AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
-    
-    To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
+    AdGuard Home ist eine netzwerkweite Lösung zum Blockieren von Werbung und Trackern, die als DNS-Server fungiert, um unerwünschte Inhalte auf allen Geräten eines Heimnetzwerks zu filtern.
+
+    Zum Einrichten von AdGuard Home lesen Sie bitte [AdGuard Home](../../interface_guide/adguardhome.md).
 
 === "Parental Control"
 
-    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
+    Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu steuern. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
 
-    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control.md).
+    Zum Einrichten von Parental Control lesen Sie bitte [Parental Control](../../interface_guide/parental_control.md).
 
 === "ZeroTier"
 
-    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
-    
-    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
+    ZeroTier ist eine Software-defined-Networking-Lösung, mit der Benutzer sichere virtuelle Netzwerke über das Internet erstellen können, sodass Geräte miteinander verbunden werden, als befänden sie sich im selben lokalen Netzwerk.
+
+    Zum Einrichten von ZeroTier lesen Sie bitte [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tailscale"
 
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
-    
-    To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md). 
+    Tailscale ist ein VPN-Dienst, mit dem Sie von überall auf Ihre Geräte und Anwendungen zugreifen können.
+
+    Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/tailscale.md).
 
 ## Netzwerkeinstellungen
 
 === "Portweiterleitung"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
-    
-    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md). 
+    Port forwarding ermöglicht es entfernten Servern und Geräten im Internet, auf Geräte in einem privaten Netzwerk zuzugreifen.
+
+    Zum Einrichten der Portweiterleitung lesen Sie bitte [Port Forwarding](../../interface_guide/port_forwarding.md).
 
 === "Multi-WAN"
 
-    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+    Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen einrichten können, z. B. Cellular, Repeater und Ethernet. Wenn Ihre aktuelle Internetverbindung ausfällt, wechselt der Router automatisch zu einer anderen Internetverbindung. So bleibt der Internetzugang stabil und unterbrechungsfrei.
 
-    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
+    Zum Einrichten von Multi-WAN lesen Sie bitte [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
-    
-    To set up LAN, refer to [Lan](../../interface_guide/lan.md). 
+    LAN, kurz für Local Area Network, ist ein Netzwerk, das Computer und Geräte in einem begrenzten geografischen Bereich wie einem Zuhause oder Büro verbindet. Es ermöglicht schnelle Datenübertragung und gemeinsame Ressourcennutzung, sodass Geräte effizient miteinander kommunizieren können.
+
+    Zum Einrichten von LAN lesen Sie bitte [Lan](../../interface_guide/lan.md).
 
 ---
 
 === "Gastnetzwerk"
 
-    It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
+    Hier können Sie ein Subnetz innerhalb der privaten IPv4-Adressbereiche 192.168.0.0/16, 172.16.0.0/12 oder 10.0.0.0/8 festlegen, Gateway- und Netmasken-IP-Adressen angeben und Sicherheitseinstellungen wie AP Isolation für das Gastnetzwerk konfigurieren.
 
-    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
+    Zum Einrichten des Gastnetzwerks lesen Sie bitte [Guest Network](../../interface_guide/guest_network.md).
 
 === "DNS"
 
-    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
+    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren und die DNS-Einstellungen aller Clients überschreiben. Außerdem können Sie erlauben, dass benutzerdefiniertes DNS VPN-DNS überschreibt, und den DNS-Servermodus auf automatisch setzen oder DNS-Server der Ethernet-Verbindung manuell angeben.
 
-    To set up DNS, refer to [DNS](../../interface_guide/dns.md).
+    Zum Einrichten von DNS lesen Sie bitte [DNS](../../interface_guide/dns.md).
 
 === "Portverwaltung"
 
-    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+    Auf der Seite Port Management können Sie die WAN- und LAN-Ports konfigurieren, die WAN/LAN-Schnittstelle auf Ethernet setzen, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle festlegen und die ausgehandelte Portgeschwindigkeit anzeigen.
 
-    To manage Ethernet ports, refer to [Port Management](../../interface_guide/ethernet_port.md).
+    Zum Verwalten der Ethernet-Ports lesen Sie bitte [Port Management](../../interface_guide/ethernet_port.md).
 
 ---
 
 === "Network Mode"
 
-    Network mode refers to the configuration settings that determine how a device connects to a network and communicates with other devices. 
-    
-    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
+    Der Netzwerkmodus bezeichnet die Konfigurationseinstellungen, die festlegen, wie sich ein Gerät mit einem Netzwerk verbindet und mit anderen Geräten kommuniziert.
+
+    Zum Einrichten des Netzwerkmodus lesen Sie bitte [Network Mode](../../interface_guide/network_mode.md).
 
 === "IPv6"
 
-    IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
-    
-    To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
+    IPv6, kurz für Internet Protocol Version 6, ist die neueste Version des Internetprotokolls und wurde als Nachfolger von IPv4 entwickelt. Es bietet einen wesentlich größeren Adressraum und damit nahezu unbegrenzt viele eindeutige IP-Adressen, was für die stetig wachsende Zahl internetfähiger Geräte entscheidend ist.
+
+    Zum Einrichten von IPv6 lesen Sie bitte [IPv6](../../interface_guide/network_mode.md).
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client. 
-    
-    To set up drop-in gateway, refer to [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md). 
+    Drop-in Gateway erweitert die Funktionalität Ihres Hauptrouters um Funktionen wie AdGuard Home, verschlüsseltes DNS und VPN-Client.
+
+    Zum Einrichten von Drop-in Gateway lesen Sie bitte [So richten Sie Drop-in Gateway ein](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 ---
 
 === "IGMP Snooping"
 
-    IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
-    
-    To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+    IGMP Snooping ist eine Netzwerkoptimierungstechnik, die in Ethernet-Switches eingesetzt wird, um Multicast-Datenverkehr zu verwalten und zu steuern.
+
+    Zum Einrichten von IGMP Snooping lesen Sie bitte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
 === "Netzwerkbeschleunigung"
 
-    Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
-    
-    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
+    Netzwerkbeschleunigung kann die CPU-Last reduzieren und die Weiterleitung von Datenpaketen beschleunigen.
+
+    Zum Einrichten der Netzwerkbeschleunigung lesen Sie bitte [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 === "NAT-Einstellungen"
 
-    The NAT Settings page allows you to enable or disable Full Cone NAT and SIP ALG (Application Layer Gateway) functionality.
+    Auf der Seite NAT Settings können Sie die Funktionen Full Cone NAT und SIP ALG (Application Layer Gateway) aktivieren oder deaktivieren.
 
-    To set up NAT settings, refer to [NAT Settings](../../interface_guide/nat_settings.md).
+    Zum Einrichten der NAT-Einstellungen lesen Sie bitte [NAT Settings](../../interface_guide/nat_settings.md).
 
 ## Systemeinstellungen
 
 === "Overview"
 
-    The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
+    Die Seite Overview bietet einen umfassenden Überblick über den aktuellen Status und die Leistungsdaten Ihres Routers. Auf dieser Seite können Sie Folgendes anzeigen:
 
-    * CPU Average Load: Monitor the average load on your router's CPU, helping to assess performance and identify potential bottlenecks.
-    * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
-    * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
-    * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
-    * Device Info: Access detailed information about your router's system, including uptime, hostname, model, architecture, OpenWrt version, kernel version, device ID, device MAC and device S/N.
-    * External Storage: Check the status of any external storage devices connected to the router, such as USB drives or TF cards.
-    
-    These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
+    * CPU Average Load: Überwachen Sie die durchschnittliche Auslastung der Router-CPU, um die Leistung zu bewerten und mögliche Engpässe zu erkennen.
+    * Memory Usage: Prüfen Sie, wie viel Arbeitsspeicher Ihres Routers aktuell genutzt wird, um Ressourcen besser zu verwalten.
+    * LED Control: Schalten Sie die LED-Anzeigen des Routers ein oder aus, um die optischen Signale des Geräts anzupassen.
+    * Flash Usage: Sehen Sie die Auslastung des Flash-Speichers Ihres Routers ein, damit ausreichend Platz für Firmware- und Konfigurationsdaten verfügbar bleibt.
+    * Device Info: Greifen Sie auf detaillierte Systeminformationen Ihres Routers zu, darunter Uptime, Hostname, Modell, Architektur, OpenWrt-Version, Kernel-Version, Geräte-ID, Geräte-MAC und Geräte-S/N.
+    * External Storage: Prüfen Sie den Status externer Speichergeräte, die mit dem Router verbunden sind, z. B. USB-Laufwerke oder TF-Karten.
 
-    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
+    Diese Funktionen liefern wichtige Einblicke und Steuerungsmöglichkeiten, damit Sie den Betrieb Ihres Routers effektiv verwalten und überwachen können.
+
+    Detaillierte Anweisungen finden Sie unter [Overview](../../interface_guide/system_overview.md).
 
 === "Upgrade"
 
-    The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
+    Auf der Seite Upgrade können Sie die Firmware Ihres Routers auf die neueste Version aktualisieren, um bessere Leistung, mehr Sicherheit und neue Funktionen zu erhalten. Diese Seite bietet mehrere Upgrade-Optionen:
 
-    * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
-    * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
+    * Firmware Online Upgrade: Prüfen Sie automatisch auf die neueste Firmware-Version und installieren Sie sie direkt vom Server des Herstellers, um den Aktualisierungsprozess zu vereinfachen.
+    * Firmware Local Upgrade: Laden Sie manuell eine Firmware-Datei von Ihrem Computer hoch, um den Router zu aktualisieren, und behalten Sie dabei die Kontrolle über Version und Zeitpunkt des Upgrades.
 
-    These options allow you to keep your router up-to-date with the latest improvements and fixes.
+    Mit diesen Optionen halten Sie Ihren Router auf dem neuesten Stand und profitieren von aktuellen Verbesserungen und Fehlerbehebungen.
 
-    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Upgrade](../../interface_guide/upgrade.md).
 
 === "Scheduled Tasks"
 
-    The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
+    Auf der Seite Scheduled Tasks können Sie verschiedene Routerfunktionen anhand eines festgelegten Zeitplans automatisieren und so Komfort und Effizienz erhöhen. Zu den wichtigsten Funktionen auf dieser Seite gehören:
 
-    * LED Display Schedule: Set a schedule to automatically turn the router's LED lights on or off, reducing light pollution during specific times.
-    * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    * Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz Wi-Fi band, allowing for better management of network availability and power consumption.
-    
-    These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
+    * LED Display Schedule: Legen Sie einen Zeitplan fest, um die LED-Anzeigen des Routers automatisch ein- oder auszuschalten und so die Lichtemission zu bestimmten Zeiten zu reduzieren.
+    * Schedule Reboot: Konfigurieren Sie Ihren Router so, dass er in festgelegten Intervallen automatisch neu startet, um Leistung und Stabilität aufrechtzuerhalten.
+    * Wi-Fi Status Schedule: Legen Sie einen Zeitplan fest, um das 5GHz-/2.4GHz-Wi-Fi-Band zu steuern und Verfügbarkeit sowie Stromverbrauch besser zu verwalten.
 
-    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
+    Diese Zeitplanoptionen geben Ihnen mehr Kontrolle über den Betrieb Ihres Routers und helfen dabei, ihn an Ihre Anforderungen und Vorlieben anzupassen.
+
+    Detaillierte Anweisungen finden Sie unter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 ---
 
 === "Time Zone"
 
-    The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
+    Auf der Seite Time Zone können Sie die korrekte Zeitzone für Ihren Router festlegen, damit alle Zeitpläne, Protokolle und Systemereignisse präzise mit Ihrer Ortszeit versehen werden. Diese Einstellung ist wichtig für genaue Aufzeichnungen und die korrekte Ausführung zeitbasierter Konfigurationen.
 
-    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Time Zone](../../interface_guide/time_zone.md).
 
 === "Toggle Button Settings"
 
-    The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
+    Auf der Seite Toggle Button Settings können Sie den physischen Umschalter Ihres Routers konfigurieren und ihm bestimmte Funktionen für schnellen Zugriff und einfache Steuerung zuweisen. Diese Funktion bietet praktische Kurzbefehle für häufige Aufgaben und Einstellungen, verbessert die Benutzererfahrung und vereinfacht die Routerverwaltung.
 
-    Please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
 
 === "Log"
 
-    The Log page provides access to various logs that record the router's activities and events, aiding in troubleshooting and performance monitoring. This page includes:
+    Auf der Seite Log erhalten Sie Zugriff auf verschiedene Protokolle, die die Aktivitäten und Ereignisse des Routers aufzeichnen und so die Fehlerbehebung sowie Leistungsüberwachung unterstützen. Diese Seite umfasst:
 
-    * System Log: Detailed logs of system-level events and activities.
-    * Kernel Log: Logs related to the kernel's operations and events.
-    * Crash Log: Records of system crashes and errors, useful for diagnosing critical issues.
-    * Cloud Log: Logs of interactions and activities related to GoodCloud services integrated with the router.
-    * Nginx Log: Logs from the Nginx web server, if used by the router, detailing web traffic and server operations.
-    
-    Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
+    * System Log: Detaillierte Protokolle von Systemereignissen und -aktivitäten.
+    * Kernel Log: Protokolle zu Vorgängen und Ereignissen des Kernels.
+    * Crash Log: Aufzeichnungen von Systemabstürzen und Fehlern, die bei der Diagnose kritischer Probleme helfen.
+    * Cloud Log: Protokolle zu Interaktionen und Aktivitäten im Zusammenhang mit den in den Router integrierten GoodCloud-Diensten.
+    * Nginx Log: Protokolle des Nginx-Webservers, sofern dieser vom Router genutzt wird, mit Informationen zu Webverkehr und Serverbetrieb.
 
-    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
+    Zusätzlich verfügt die Seite über die Schaltfläche Export Log, mit der Sie alle gesammelten Protokolle zur Analyse durch den technischen Support exportieren können. Diese Funktion ist besonders hilfreich bei der Diagnose komplexer Probleme und beim Einholen professioneller Unterstützung.
+
+    Detaillierte Anweisungen finden Sie unter [Log](../../interface_guide/log.md).
 
 ---
 
 === "Security"
 
-    The Security page allows you to configure various security settings to protect your network and router from unauthorized access. This page includes options for:
+    Auf der Seite Security können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen. Diese Seite enthält Optionen für:
 
-    * Admin Password: Set or change the password for the router's administrative interface to ensure only authorized users can modify settings.
-    * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
-    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
-    * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
+    * Admin Password: Legen Sie das Passwort für die Administrationsoberfläche des Routers fest oder ändern Sie es, damit nur autorisierte Benutzer Einstellungen ändern können.
+    * Local Access Control: Verwalten und beschränken Sie den Zugriff auf die Routeroberfläche von Geräten in Ihrem lokalen Netzwerk.
+    * Remote Access Control: Konfigurieren und beschränken Sie den Zugriff auf die Routeroberfläche aus entfernten Standorten über das Internet, um die Sicherheit vor externen Bedrohungen zu erhöhen.
+    * Open Ports on Router: Steuern Sie, welche Ports am Router geöffnet sind, um potenzielle Schwachstellen und unbefugten Zugriff zu begrenzen.
 
-    These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
+    Diese Einstellungen helfen Ihnen, eine sichere Netzwerkumgebung aufrechtzuerhalten und sowohl Ihren Router als auch verbundene Geräte zu schützen.
 
-    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Security](../../interface_guide/security.md).
 
 === "Reset Firmware"
 
-    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
+    Auf der Seite Reset Firmware können Sie die aktuell installierte Firmware-Version Ihres Routers auf ihre Standardeinstellungen zurücksetzen, wodurch alle benutzerdefinierten Konfigurationen gelöscht werden. Dabei wird der Router auf die Standardeinstellungen der derzeit installierten Firmware-Version zurückgesetzt. Das ist hilfreich, um hartnäckige Probleme zu beheben oder mit der Standardkonfiguration der aktuellen Firmware neu zu beginnen.
 
-    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Advanced Settings"
 
-    The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
+    Auf der Seite Advanced Settings erhalten erfahrene Benutzer über die OpenWrt-LuCI-Oberfläche Zugriff auf erweiterte Konfigurationsoptionen, um Routereinstellungen und Funktionen über die grundlegenden Oberflächenoptionen hinaus fein abzustimmen. Dazu gehören detaillierte Netzwerkkonfigurationen, Firewall-Einstellungen und weitere erweiterte Systemanpassungen.
 
-    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
-
+    Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).

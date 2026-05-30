@@ -66,7 +66,7 @@ GL-M2, con modulo 5G RM520N-GL installato, e compatibile con i seguenti modelli:
 - Slate AX (GL-AXT1800)
 - Brume 2 (GL-MT2500)
 
-**Note**: l'elenco sopra e stato verificato con il modulo 5G **RM520N-GL**. La compatibilita con altri moduli non e garantita.
+**Nota**: l'elenco sopra e stato verificato con il modulo 5G **RM520N-GL**. La compatibilita con altri moduli non e garantita.
 
 Segui i passaggi riportati di seguito per collegare M2 al tuo router GL.iNet.
 

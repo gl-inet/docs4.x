@@ -16,7 +16,7 @@ Alternative Möglichkeiten:
 
 1. Wenn Sie einen Hauptrouter haben, melden Sie sich dort an und prüfen Sie, ob er eine öffentliche IP von Ihrem ISP erhält.
 2. Fragen Sie Ihren ISP nach einer öffentlichen IP-Adresse. Dies kann zusätzliche Kosten verursachen.
-3. Wenn die beiden oben genannten Methoden nicht funktionieren (z. B. wenn sich Ihr Netzwerk hinter CGNAT befindet), können Sie unsere SD-WAN-Lösung [AstroWarp](https://www.astrowarp.net/){target="_blank"} ausprobieren.
+3. Wenn die beiden oben genannten Methoden nicht funktionieren (z. B. wenn sich Ihr Netzwerk hinter CGNAT befindet), können Sie unsere SD-WAN-Lösung [AstroWarp](../interface_guide/astrowarp.md){target="_blank"} ausprobieren.
 
 ## Prüfen, ob eine Portweiterleitung erforderlich ist
 

@@ -367,6 +367,25 @@
 
     3. Następnie postępuj zgodnie z [tym przewodnikiem](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers).
 
+??? "xvpn"
+    ### xvpn
+
+    [Oficjalna strona](https://xvpn.io){target="_blank"}
+
+    Jeśli korzystasz z [xvpn](https://xvpn.io){target="_blank"}, zaloguj się i wykonaj poniższe kroki, aby pobrać pliki konfiguracyjne WireGuard.
+
+    ![xvpn WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn_vpn_on_router.png){class="glboxshadow"}
+
+    1. W menu po lewej stronie przejdź do **VPN** -> **VPN on Router**.
+
+    2. Po prawej stronie znajdź **Step 1** i wybierz **WireGuard** jako protokół.
+
+    3. W **Step 2** wybierz preferowane **Region** i **State/City**, a następnie kliknij przycisk **Search**.
+
+    4. W wynikach wyszukiwania kliknij przycisk pobierania, aby pobrać plik konfiguracyjny dla wybranego serwera.
+
+    Następnie postępuj zgodnie z [tym przewodnikiem](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers).
+
 ??? "12VPX"
     ### 12VPX
 

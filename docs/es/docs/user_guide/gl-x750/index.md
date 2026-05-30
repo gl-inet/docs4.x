@@ -10,7 +10,7 @@ Spitz V2 (GL-X750V2) es la versión avanzada de Spitz (GL-X750). Incluye una PCB
 
 ## Especificaciones
 
-[Especificaciones del GL-X750](https://www.gl-inet.com/products/gl-x750/#specs){target="\_blank"}
+[Especificaciones del GL-X750](https://www.gl-inet.com/products/gl-x750/#specs){target="_blank"}
 
 ---
 

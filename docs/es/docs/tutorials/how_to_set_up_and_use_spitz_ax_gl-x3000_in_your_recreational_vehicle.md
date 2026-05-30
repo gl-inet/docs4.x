@@ -115,4 +115,4 @@ Para configurar el failover, consulte la sección [Failover](https://docs.gl-ine
 
 ---
 
-¿Aún tiene preguntas? Visite nuestro [Community Forum](https://forum.gl-inet.com){target="\_blank"} o [Contact us](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Aún tiene preguntas? Visite nuestro [Community Forum](https://forum.gl-inet.com){target="_blank"} o [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

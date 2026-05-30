@@ -34,7 +34,7 @@ Tenga en cuenta que, si cambia la información de Wi‑Fi, deberá volver a cone
 
 ### 4. Configuración de Internet
 
-**Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router a través del panel de administración web de GL.iNet. Si prefiere usar la aplicación GL.iNet, [descargue la aplicación](https://www.gl-inet.com/app/){target="\_blank"} y siga las instrucciones que aparecen en pantalla.
+**Nota:** Las siguientes instrucciones se aplican a los usuarios que configuran el router a través del panel de administración web de GL.iNet. Si prefiere usar la aplicación GL.iNet, [descargue la aplicación](https://www.gl-inet.com/app/){target="_blank"} y siga las instrucciones que aparecen en pantalla.
 
 Configure su Mango utilizando uno de los métodos de conexión a Internet compatibles: Ethernet, Repeater, Tethering y Cellular. Si desea usar la función [Multi-WAN](../../interface_guide/multi-wan.md), configure más de una conexión a Internet.
 
@@ -92,15 +92,15 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Mango, al igual que otros routers GL.iNet, es compatible con el protocolo OpenVPN, que ofrece una seguridad sólida. Para configurar OpenVPN, siga estos tutoriales:
 
-    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
-    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
+    * [Cómo configurar un cliente OpenVPN](../../interface_guide/openvpn_client.md)
+    * [Cómo configurar un servidor OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
     Mango, al igual que otros routers GL.iNet, es compatible con el protocolo WireGuard, que ofrece gran velocidad y comodidad. Para configurar WireGuard, siga estos tutoriales:
 
-    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
-    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+    * [Cómo configurar un cliente WireGuard](../../interface_guide/wireguard_client.md)
+    * [Cómo configurar un servidor WireGuard](../../interface_guide/wireguard_server.md)
 
 ## Aplicaciones
 
@@ -207,7 +207,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Drop-in Gateway amplía la funcionalidad del router principal con funciones que podría no tener, incluidas AdGuard Home, DNS cifrado y VPN.
 
-    Para configurar Drop-in Gateway, consulte [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
+    Para configurar Drop-in Gateway, consulte [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 === "IGMP Snooping"
 

@@ -2,7 +2,7 @@
 
 ## Descripción general del producto
 
-Slate 7 Pro (GL-BE10000) es un router de viaje portátil tribanda con Wi-Fi 7. Como versión mejorada de Slate 7 (GL-BE3600), incorpora una pantalla táctil más grande en la parte superior y está equipado con 1 GB de RAM DDR4 y 8 GB de almacenamiento flash eMMC para un rendimiento estable y compatibilidad con complementos. Ofrece velocidades VPN de hasta 1100 Mbps con WireGuard® y 1000 Mbps con OpenVPN-DCO. Con 2 puertos Ethernet 2.5G (1 WAN + 1 LAN), 1 puerto USB-C 3.0 y compatibilidad con alimentación PD, proporciona una conectividad sólida y gran comodidad para viajes y uso móvil.
+Slate 7 Pro (GL-BE10000) es un router de viaje portátil tribanda con Wi-Fi 7. Como versión mejorada de Slate 7 (GL-BE3600), incorpora una pantalla táctil más grande en la parte superior y está equipado con 1 GB de RAM DDR4 y 512 MB de almacenamiento flash NAND para un rendimiento estable y compatibilidad con complementos. Ofrece velocidades VPN de hasta 1100 Mbps con WireGuard® y 1000 Mbps con OpenVPN-DCO. Con 2 puertos Ethernet 2.5G (1 WAN + 1 LAN), 1 puerto USB-C 3.0 y compatibilidad con alimentación PD, proporciona una conectividad sólida y gran comodidad para viajes y uso móvil.
 
 ![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 
@@ -56,11 +56,11 @@ Conecte un dispositivo, por ejemplo un ordenador, portátil o smartphone, al rou
 
 - Ethernet
 
-    Conecte su dispositivo al puerto LAN del router mediante un cable Ethernet.
+  Conecte su dispositivo al puerto LAN del router mediante un cable Ethernet.
 
 - Wi-Fi
 
-    En su dispositivo, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña para conectarse. Puede encontrar el nombre de red predeterminado (SSID) y la contraseña impresos en la etiqueta del router.
+  En su dispositivo, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña para conectarse. Puede encontrar el nombre de red predeterminado (SSID) y la contraseña impresos en la etiqueta del router.
 
 ### 4. Inicie sesión en el panel de administración web
 
@@ -216,7 +216,7 @@ Una VPN, red privada virtual, crea tráfico seguro y cifrado entre su dispositiv
     Para configurar drop-in gateway, consulte estos enlaces:
 
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
-    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
+    - [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Network Acceleration"
 

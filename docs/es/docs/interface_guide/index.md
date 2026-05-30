@@ -21,6 +21,7 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 ## Inalámbrico
 
 - [Wireless](wireless.md)
+- [Wireless (v4.9)](wireless_v4.9.md)
 
 ## Clientes
 
@@ -36,6 +37,7 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 - [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
 - [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
 - [VPN Dashboard (v4.9)](vpn_dashboard_v4.9.md)
+- [VPN Client Profile](vpn_client_profile.md)
 - [Configurar OpenVPN Client](openvpn_client.md)
 - [Configurar OpenVPN Server](openvpn_server.md)
 - [Configurar WireGuard Client](wireguard_client.md)
@@ -56,6 +58,7 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 - [AdGuard Home](adguardhome.md)
 - [Network Storage](network_storage.md)
 - [Parental Control](parental_control.md)
+- [Bark](bark.md)
 - [ZeroTier](zerotier.md)
 - [Tailscale](tailscale.md)
 - [Tor](tor.md) - para proteger la privacidad personal.
@@ -68,6 +71,7 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 - [Multi-WAN](multi-wan.md) - permite la conmutación por error a otra conexión a Internet o el uso simultáneo de varias interfaces para aumentar el ancho de banda total.
 - [LAN](lan.md)
 - [Red de invitados](guest_network.md)
+- [IoT Network](iot_network.md)
 - [DNS](dns.md)
 - [Puerto Ethernet](ethernet_port.md)
 - [Modo de red](network_mode.md)
@@ -84,9 +88,9 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 - [DPI Engine](dpi_engine.md)
 - [Data Statistics](data_statistics.md)
 - [Content Filter](content_filter.md)
-- [Parental Control](parental_control.md)
 - [QoS (Quality of Service)](qos.md)
 - [SQM (Smart Queue Management)](sqm.md)
+- [Parental Control](parental_control.md)
 
 ## Sistema
 

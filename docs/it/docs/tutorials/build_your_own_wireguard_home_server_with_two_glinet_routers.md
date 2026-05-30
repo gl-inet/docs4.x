@@ -36,7 +36,7 @@ Se non hai un IP pubblico, ecco alcuni metodi di riferimento.
 
 1. Se hai un router principale, accedi a esso e controlla se riceve l'IP pubblico dal tuo ISP.
 2. Chiedi al tuo ISP un indirizzo IP pubblico. Potrebbe essere previsto un costo aggiuntivo.
-3. Se i due metodi precedenti non funzionano, ad esempio se sei dietro CGNAT, puoi usare un metodo reverse proxy come [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md). In alternativa puoi provare una soluzione SD-WAN, [AstroWarp](https://www.astrowarp.net/).
+3. Se i due metodi precedenti non funzionano, ad esempio se la tua rete e' dietro CGNAT, puoi provare la nostra soluzione SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
 
 ### Verifica se e' necessario il Port Forwarding
 

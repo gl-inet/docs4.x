@@ -8,7 +8,7 @@ Convexa-S (GL-S1300) es una pasarela doméstica inteligente única con Wi-Fi bea
 
 ## Especificaciones
 
-[Especificaciones del GL-S1300](https://www.gl-inet.com/products/gl-s1300/#specs){target="\_blank"}
+[Especificaciones del GL-S1300](https://www.gl-inet.com/products/gl-s1300/#specs){target="_blank"}
 
 ---
 
@@ -220,4 +220,4 @@ Visite el tutorial [**Reset Firmware**](../../interface_guide/reset_firmware.md)
 
 ### Advanced Settings
 
-Please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
+Visite el tutorial [**Configuración avanzada**](../../interface_guide/advanced_settings.md).

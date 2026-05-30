@@ -2,7 +2,7 @@
 
 ## Produktübersicht
 
-Puli (GL-XE300) is a portable 4G smart router that is perfect for home, travel, business and IoT solution. With its OpenWrt supported feature and large storage compatibility, it is designed for you to develop DIY IoT project. It also comes with a rechargeable battery, enabling portable use in various environments.
+Puli (GL-XE300) ist ein tragbarer 4G-Smart-Router, der sich ideal für Zuhause, Reisen, den geschäftlichen Einsatz und IoT-Lösungen eignet. Dank OpenWrt-Unterstützung und Kompatibilität mit großem Speicher ist er für die Entwicklung eigener DIY-IoT-Projekte ausgelegt. Außerdem verfügt er über einen wiederaufladbaren Akku, sodass er in verschiedensten Umgebungen mobil eingesetzt werden kann.
 
 ![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_interface.jpg){class="glboxshadow"}
 
@@ -21,7 +21,7 @@ Der Lieferumfang umfasst:
 
 ![gl-xe300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/first_time_setup/xe300_unboxing.jpg){class="glboxshadow"}
 
-Check out Puli's [unboxing video](../../video_library/unboxing_first_set_up.md/#gl-xe300-puli). 
+Sehen Sie sich das [Unboxing-Video](../../video_library/unboxing_first_set_up.md/#gl-xe300-puli) von Puli an.
 
 ## Technische Daten
 
@@ -43,7 +43,7 @@ Auf dieser Seite können Sie Ihre Internetverbindungsart auswählen, z. B. Ether
 
 ### Ethernet
 
-Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
+Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem aktiven Netzwerkgerät, um eine Internetverbindung herzustellen. Diese Methode bietet in der Regel die schnellste und zuverlässigste Internetverbindung.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
@@ -51,7 +51,7 @@ Connect your router to an active modem or an active network device via an Ethern
 
 ### Repeater
 
-Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
+Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehenden Wi-Fi-Netzwerks zu erweitern. Als Repeater empfängt und sendet er Funksignale innerhalb seiner Reichweite erneut aus und vergrößert damit die Abdeckung. Diese Methode ist nützlich, wenn ein einzelner Router den gesamten Einsatzbereich nicht abdecken kann.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
@@ -59,7 +59,7 @@ Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-
 
 ### Tethering
 
-Connect the router's USB port to a smartphone with active mobile data via a USB cable to access the Internet. This method enables multiple devices connected to the router to access the internet using the smartphone's mobile data.
+Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit aktiver mobiler Datenverbindung, um auf das Internet zuzugreifen. Mit dieser Methode können mehrere mit dem Router verbundene Geräte die mobile Datenverbindung des Smartphones nutzen.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
@@ -67,9 +67,9 @@ Connect the router's USB port to a smartphone with active mobile data via a USB 
 
 ### Cellular
  
-Insert a SIM card into the SIM card slot to connect it to the internet. This method is useful for sharing internet access from a single SIM card to all connected devices.
+Setzen Sie eine SIM-Karte in den SIM-Kartenslot ein, um eine Internetverbindung herzustellen. Diese Methode eignet sich, um den Internetzugang einer einzelnen SIM-Karte mit allen verbundenen Geräten zu teilen.
 
-[Click here to learn how to connect to the internet via cellular or usb modem](../../interface_guide/internet_cellular.md)
+[Klicken Sie hier, um zu erfahren, wie Sie über Mobilfunk oder ein USB-Modem eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_cellular.png){class="glboxshadow"}
 

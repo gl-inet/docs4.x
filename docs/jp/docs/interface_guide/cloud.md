@@ -99,9 +99,9 @@ GoodCloud では、次のことが可能です。
 
 ![add device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/add_devices_1.png){class="glboxshadow"}
 
-デバイスを GoodCloud アカウントにバインドする方法は 3 つあります。Auto Discover、Manually Add、Bulk Import です。
+デバイスを GoodCloud アカウントにバインドする方法は 3 つあります。自動検出、手動追加、一括インポートです。
 
-??? "Auto Discover"
+??? "自動検出"
 
     ルーターと [GoodCloud の Web サイト](https://www.goodcloud.xyz){target="_blank"} にアクセスしている端末が同じネットワーク上にある場合は、**Auto discover** をお試しください。
 
@@ -111,13 +111,13 @@ GoodCloud では、次のことが可能です。
 
     Device ID の確認方法については、[こちらのリンク](../faq/where_to_find_the_device_id_mac_sn.md) を参照してください。
 
-??? "Manually Add"
+??? "手動追加"
 
     デバイスが一覧に表示されない場合は、**Manually add** をクリックし、ルーターの情報を入力してください。必要な情報はすべて、ルーター本体の底面、または Web 管理画面の GoodCloud ページで確認できます。
 
     ![manually add device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/add_devices_manual.jpg){class="glboxshadow"}
 
-??? "Bulk Import"
+??? "一括インポート"
 
     **Bulk Import** は、多数のデバイスを管理するユーザー向けの機能です。Microsoft Excel ファイルを使用して複数のデバイスをまとめてインポートできます。
 
@@ -291,7 +291,7 @@ Notifications 一覧では、作成したアラートルールを確認できま
 
 ![notifications 6](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/notifications6.png){class="glboxshadow"}
 
-## Site to Site {#site-to-site}
+## サイトツーサイト {#site-to-site}
 
 [GoodCloud Site to Site](../tutorials/goodcloud_site_to_site.md) を参照してください。
 
@@ -323,7 +323,7 @@ Notifications 一覧では、作成したアラートルールを確認できま
 
 デバイスをクラウドプラットフォームへ接続したくない場合は、ルーターの Web 管理画面で Cloud Service を無効にできます。
 
-??? "For firmware v4.6 or earlier"
+??? "ファームウェア v4.6 以前の場合"
 
     ルーターの Web 管理画面にログインし、**APPLICATIONS** -> **GoodCloud** に移動して、スイッチを切り替えて GoodCloud を無効にし、**Apply** をクリックします。
 
@@ -333,7 +333,7 @@ Notifications 一覧では、作成したアラートルールを確認できま
 
     ![disabled cloud 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/disabled_cloud.png){class="glboxshadow"}
 
-??? "For firmware v4.7 or later"
+??? "ファームウェア v4.7 以降の場合"
 
     ルーターの Web 管理画面にログインし、右上のクラウドアイコンをクリックします。
 

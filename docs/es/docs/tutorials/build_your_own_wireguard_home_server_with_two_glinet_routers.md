@@ -26,7 +26,7 @@ En los siguientes pasos, tomamos como ejemplo GL-MT6000 (Flint 2) y GL-MT3000 (B
 
 Primero, asegúrese de que el GL-MT6000 tenga una dirección IP pública en el lado WAN, para que pueda accederse a él globalmente. De lo contrario, su router de viaje no podrá establecer una conexión VPN con él mientras esté de viaje.
 
-Para comprobar si dispone de una dirección IP pública, abra un navegador web y escriba [what is my ip](https://whatismyipaddress.com/){target="\_blank"} en la barra de direcciones.
+Para comprobar si dispone de una dirección IP pública, abra un navegador web y escriba [what is my ip](https://whatismyipaddress.com/){target="_blank"} en la barra de direcciones.
 
 ![whatismyip](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/whatismyip.jpg){class="glboxshadow"}
 
@@ -36,7 +36,7 @@ Si no dispone de una IP pública, aquí tiene algunos métodos de referencia.
 
 1. Si tiene un router principal, inicie sesión en él y compruebe si recibe la IP pública de su ISP.
 2. Solicite a su ISP una dirección IP pública. Puede requerir un coste adicional.
-3. Si las dos opciones anteriores no funcionan, por ejemplo si está detrás de CGNAT, puede utilizar un método de proxy inverso como [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md). Como alternativa, puede probar una solución SDWAN, como [AstroWarp](https://www.astrowarp.net/).
+3. Si los dos métodos anteriores no funcionan, por ejemplo, si su red está detrás de CGNAT, puede probar nuestra solución SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
 
 ### Compruebe si necesita Port Forwarding
 
@@ -204,4 +204,4 @@ Artículos relacionados
 
 ---
 
-¿Aún tiene preguntas? Visite nuestro [Community Forum](https://forum.gl-inet.com){target="\_blank"} o [Contact us](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Aún tiene preguntas? Visite nuestro [Community Forum](https://forum.gl-inet.com){target="_blank"} o [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

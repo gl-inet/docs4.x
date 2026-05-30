@@ -36,7 +36,7 @@ Si vous ne disposez pas d'une adresse IP publique, voici quelques méthodes poss
 
 1. Si vous avez un routeur principal, connectez-vous-y et vérifiez s'il reçoit l'adresse IP publique de votre FAI.
 2. Demandez une adresse IP publique à votre FAI. Cela peut entraîner des frais supplémentaires.
-3. Si les deux solutions ci-dessus ne fonctionnent pas, par exemple si vous êtes derrière un CGNAT, vous pouvez utiliser une méthode de proxy inverse comme [Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md). Vous pouvez également essayer une solution SDWAN : [AstroWarp](https://www.astrowarp.net/).
+3. Si les deux méthodes ci-dessus ne fonctionnent pas (par exemple si votre réseau est derrière un CGNAT), vous pouvez essayer notre solution SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
 
 ### Vérifier si une redirection de port est nécessaire
 

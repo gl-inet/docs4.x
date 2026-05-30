@@ -30,27 +30,33 @@ Guarda questo video di configurazione oppure segui i passaggi riportati di segui
 
 ### 1. Installa la scheda SIM
 
-Installa una o piu Nano-SIM su Mudi 7. Se preferisci usare eSIM, salta questo passaggio e passa al passaggio 2.
+Installa una o piu' Nano-SIM su Mudi 7. Se preferisci usare eSIM, salta questo passaggio e passa al passaggio 2.
 
-Per prima cosa, rimuovi il coperchio della batteria, quindi estrai la batteria di Mudi 7.
+Per prima cosa, usa la piccola tacca nell'angolo inferiore destro del coperchio posteriore come punto di leva. Fai leva lungo la giunzione per creare un'apertura, quindi apri il coperchio posteriore e rimuovi la batteria di Mudi 7.
 
-Successivamente, inserisci la o le Nano-SIM. Se usi una sola scheda, dai priorita alla SIM 1.
+![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
+
+![remove battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery1.png){class="glboxshadow"}
+
+Successivamente, inserisci la o le Nano-SIM. Se usi una sola scheda, dai priorita' alla SIM 1.
+
+![sim slots](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/sim-slots.png){class="glboxshadow"}
 
 Infine, rimetti la batteria e richiudi il coperchio.
 
-![install nano-sim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/install_nano-sim.png){class="glboxshadow"}
+![restore battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery2.png){class="glboxshadow"}
 
 ### 2. Accendi il dispositivo
 
 Tieni premuto il pulsante di accensione per **3 secondi**, oppure collega un alimentatore.
 
-![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power_on.png){class="glboxshadow"}
+![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
 
 ### 3. Impostazioni di base
 
 Segui le istruzioni sullo schermo per configurare le impostazioni di base, inclusi **screen passcode**, **admin password**, **Wi-Fi name**, **Wi-Fi password** e **frequency bands**.
 
-**Tip**: La password amministratore predefinita corrisponde agli ultimi 9 caratteri del numero di serie del dispositivo, seguiti dal carattere `#`. Puoi usare la password predefinita oppure impostarne una personalizzata.
+**Suggerimento**: La password amministratore predefinita corrisponde agli ultimi 9 caratteri del numero di serie del dispositivo, seguiti dal carattere `#`. Puoi usare la password predefinita oppure impostarne una personalizzata.
 
 ### 4. Configurazione della connessione Internet
 
@@ -113,7 +119,7 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
 
     ![ethernet connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
 
-    1. Collega la porta Ethernet di Mudi 7 a una sorgente di rete upstream, ad esempio un modem ISP, uno switch di rete o una presa Ethernet a muro, tramite un cavo Ethernet.
+    1. Collega la porta Ethernet del tuo Mudi 7 a una sorgente di rete upstream, ad esempio un modem ISP, uno switch di rete o una presa Ethernet a muro, tramite un cavo Ethernet.
     2. Sul touchscreen oppure nel pannello di amministrazione web, vai su **Network** -> **Ethernet Ports**, imposta il ruolo della porta su **WAN** e fai clic su **Apply**.
 
         ![touchscreen ethernet wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-ethernet-wan.png){class="glboxshadow"}
@@ -281,7 +287,7 @@ La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 6 
 
 Per configurarla, fai riferimento a [Wireless](../../interface_guide/wireless.md).
 
-**Note**: ci sono alcune differenze tra le impostazioni wireless di Mudi 7 e quelle degli altri router GL.iNet Wi-Fi 7.
+**Nota**: ci sono alcune differenze tra le impostazioni wireless di Mudi 7 e quelle degli altri router GL.iNet Wi-Fi 7.
 
 1. A causa dei vincoli hardware del chipset, il Wi-Fi a 5 GHz e quello a 6 GHz non possono essere abilitati contemporaneamente.
 2. Quando il Repeater e abilitato, la Guest Network verra disabilitata automaticamente.
@@ -381,7 +387,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per configurarlo, fai riferimento a [Network Mode](../../interface_guide/network_mode.md).
 
-    **Note**: Mudi 7 supporta le modalita Router, Access Point ed Extender. Non supporta la modalita WDS.
+    **Nota**: Mudi 7 supporta le modalita Router, Access Point ed Extender. Non supporta la modalita WDS.
 
 === "Drop-in gateway"
 
@@ -524,7 +530,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per istruzioni dettagliate, fai riferimento a [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
-    **Note**: Mudi 7 non supporta la pianificazione del display LED e la pianificazione dello stato Wi-Fi.
+    **Nota**: Mudi 7 non supporta la pianificazione del display LED e la pianificazione dello stato Wi-Fi.
 
 === "Display Management"
 

@@ -2,7 +2,7 @@
 
 ## Produktübersicht
 
-Slate Plus (GL-A1300) is a pocket-sized travel router with a powerful CPU optimized for network stability and processing VPN encryption efficiently. It includes our latest security features and runs on the latest OpenWrt operating system. It is designed for frequent travelers who have a heavy demand on using VPN networks.
+Slate Plus (GL-A1300) ist ein kompakter Reiserouter im Taschenformat mit einer leistungsstarken CPU, die auf Netzwerkstabilität optimiert ist und VPN-Verschlüsselung effizient verarbeitet. Er verfügt über unsere neuesten Sicherheitsfunktionen und läuft mit dem aktuellen OpenWrt-Betriebssystem. Er wurde für Vielreisende entwickelt, die hohe Anforderungen an die Nutzung von VPN-Netzwerken haben.
 
 ![GL-A1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){class="glboxshadow"}
 
@@ -32,7 +32,7 @@ Der Lieferumfang umfasst:
 
 Alle GL.iNet-Router haben einen einfachen und nahezu identischen Einrichtungsprozess. [Klicken Sie hier, um mehr über die erste Einrichtung zu erfahren](../../faq/first_time_setup.md/).
 
-Um Slate Plus einzurichten, verwenden Sie eine der vier unterstützten Internetverbindungsmethoden: Ethernet, Repeater, Tethering, and Cellular. Sehen Sie sich dazu dieses Einrichtungsvideo an.
+Um Slate Plus einzurichten, verwenden Sie eine der vier unterstützten Internetverbindungsmethoden: Ethernet, Repeater, Tethering und Cellular. Sehen Sie sich dazu dieses Einrichtungsvideo an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zhY7AqmKJAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -40,15 +40,15 @@ Um Slate Plus einzurichten, verwenden Sie eine der vier unterstützten Internetv
 
 ## INTERNET
 
-The internet configuration interface lets users choose to establish the type of internet connection supported by the router.
+Über die Internetkonfigurationsoberfläche können Benutzer die vom Router unterstützte Art der Internetverbindung einrichten.
 
-Configure the internet network by selecting **INTERNET** in the side menu within the router's web Admin Panel. 
+Konfigurieren Sie das Internet, indem Sie im Seitenmenü des Web-Admin-Panels des Routers **INTERNET** auswählen.
 
-It supports four ways to connect to the internet as listed below:
+Es unterstützt die folgenden vier Möglichkeiten, eine Verbindung zum Internet herzustellen:
 
 ### Ethernet
 
-Transmit data over an Ethernet cable using an Ethernet cable to connect the router to an active modem or an active network device. This method usually provides the fastest and most reliable Internet connection. 
+Verbinden Sie den Router per Ethernet-Kabel mit einem aktiven Modem oder einem aktiven Netzwerkgerät, um Daten über Ethernet zu übertragen. Diese Methode bietet in der Regel die schnellste und zuverlässigste Internetverbindung.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
@@ -56,7 +56,7 @@ Transmit data over an Ethernet cable using an Ethernet cable to connect the rout
 
 ### Repeater
 
-Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to receive wireless signals within range and forwarding the signals to a further distance. This method is most useful when a single router does not have enough range to cover the entire usage area.
+Erweitern Sie die Wi-Fi-Abdeckung eines bestehenden Wi-Fi-Netzwerks, indem der Router drahtlose Signale innerhalb seiner Reichweite empfängt und über eine größere Distanz weiterleitet. Diese Methode ist besonders nützlich, wenn ein einzelner Router nicht ausreicht, um den gesamten Nutzungsbereich abzudecken.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
@@ -64,7 +64,7 @@ Extend the Wi-Fi coverage area of an existing Wi-Fi network by using a router to
 
 ### Tethering
 
-Establish internet access with connected devices by sharing a smartphone's mobile data to the router via cable. This method is most useful when users wants to use the phone's data to access the internet.
+Stellen Sie den verbundenen Geräten einen Internetzugang bereit, indem Sie die mobilen Daten eines Smartphones per Kabel mit dem Router teilen. Diese Methode ist besonders nützlich, wenn Benutzer die mobilen Daten ihres Telefons für den Internetzugang verwenden möchten.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
@@ -72,7 +72,7 @@ Establish internet access with connected devices by sharing a smartphone's mobil
 
 ### Cellular
 
-Connect the router to the internet by inserting a cellular enabled USB modem into the router's USB port. This method is most useful for sharing internet access from a USB modem to all connected devices.
+Verbinden Sie den Router mit dem Internet, indem Sie ein mobilfunkfähiges USB-Modem in den USB-Port des Routers einstecken. Diese Methode ist besonders nützlich, um den Internetzugang eines USB-Modems für alle verbundenen Geräte freizugeben.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein USB-Modem eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 

@@ -12,17 +12,17 @@ We use the GL-AXT1800 as an example.
 
     ![download nordvpn dedicated ip info](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/download_dedicated_ip_config.png){class="glboxshadow"}
 
-3. Return to your Nord Account page, go to **Manual Setup** and click **Set up NordVPN Manually** to get your service credentials.
+3. Return to your Nord Account page, go to **Manual Setup** and click **Set up NordVPN Manually** to get your **service credentials**.
 
     ![nordvpn manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup.png){class="glboxshadow"}
 
     ![nordvpn manual setup service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup_service_credential.png){class="glboxshadow"}
 
-4. Log in to your router's web Admin Panel and go to **VPN** > **OpenVPN Client**. Create a new group to upload the configuration file you downloaded in Step 2. Then enter the service credentials you obtained in Step 3.
+4. Log in to your router's web Admin Panel and go to **VPN** > **OpenVPN Client**. Create a new group and upload the configuration file downloaded in Step 2, then enter the service credentials obtained in Step 3.
 
     ![set up nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/set_up_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
-    1 valid configuration file has been detected. Please enter your username and password. If these configurations use different passwords, you will need to enter the corresponding password for each configuration file.
+    As shown above, a valid configuration file has been detected. Enter your NordVPN service credentials. 
 
 5. Click the three-dot icon on the right to connect. You may also go to **VPN Dashboard**, select the configuration file and click **Apply** to establish a connection.
 

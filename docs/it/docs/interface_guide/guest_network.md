@@ -4,17 +4,17 @@ Le impostazioni della rete ospite sono state separate da [LAN](lan.md) a partire
 
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **Guest Network**.
 
-Include le impostazioni di base della rete ospite e le impostazioni del server DHCP.
+Questa pagina ti consente di creare una rete Wi-Fi dedicata agli ospiti. Isolata dalla rete principale, migliora la sicurezza offrendo al tempo stesso un comodo accesso a Internet.
+
+**Nota**: alcuni modelli, ad esempio GL-MT5000 e GL-MT2500/GL-MT2500A, non dispongono della funzione Wi-Fi; per questo motivo le impostazioni della Guest Network non sono disponibili nel loro pannello di amministrazione web.
+
+Include due sezioni: Impostazioni di base e Impostazioni del server DHCP.
 
 ## Impostazioni di base
 
 Puoi impostare la subnet all'interno degli intervalli di indirizzi privati IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
 ![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_1.png){class="glboxshadow"}
-
-Puoi configurare una rete separata e isolata, progettata per utenti temporanei, offrendo accesso limitato e maggiore sicurezza grazie alla separazione dalla rete principale.
-
-**Nota**: alcuni modelli, ad esempio GL-MT5000 e GL-MT2500/GL-MT2500A, non supportano il Wi-Fi; per questo motivo le impostazioni della Guest Network non sono disponibili nel loro pannello di amministrazione web.
 
 - **Gateway**
 
@@ -38,7 +38,7 @@ Puoi configurare una rete separata e isolata, progettata per utenti temporanei, 
 
 ## Server DHCP
 
-Se la Guest Network e' abilitata, il server DHCP verra' abilitato per impostazione predefinita.
+Se la Guest Network e' abilitata, verra' abilitato di conseguenza anche il relativo server DHCP.
 
 Il server DHCP assegna automaticamente indirizzi IP e altri parametri di comunicazione a ciascun dispositivo client connesso alla Guest Network. Se il server DHCP e' disabilitato, dovrai configurare manualmente le impostazioni di rete dei dispositivi client. Fai clic [qui](../tutorials/manually_configure_static_ip.md) per sapere come configurare manualmente un IP statico.
 
@@ -54,7 +54,7 @@ Fai clic su **Advanced** per ulteriori configurazioni, se necessario.
 
 - **Lease Time**: il periodo di validita' di un indirizzo IP assegnato tramite DHCP a un dispositivo.
 
-- **Gateway**: il dispositivo che instrada il traffico tra la rete ospite e le reti esterne, come Internet.
+- **Gateway**: il dispositivo che instrada il traffico tra la rete ospite e le reti esterne come Internet.
 
 - **DNS Server 1**: il server primario che traduce i nomi di dominio in indirizzi IP.
 

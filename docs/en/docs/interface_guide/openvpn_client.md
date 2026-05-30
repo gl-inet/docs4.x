@@ -10,7 +10,7 @@ To set up OpenVPN client on a GL.iNet router, watch this video or refer to the s
 
 Before you start, ensure you have an active subscription with a VPN service provider that supports OpenVPN manual configuration. Click [here](https://www.gl-inet.com/solutions/vpn/){target="_blank"} to check the OpenVPN providers compatible with GL.iNet.
 
-Generally, you need to visit the official website of the VPN service provider you subscribed first, obtain the configuration file, and upload it to the router to set it as an OpenVPN client. If you don't know how to get the configuration file, refer to [this link](#get-configuration-files-from-openvpn-service-providers) or contact their support.
+Generally, you need to visit the official website of the VPN service provider you subscribed to first, download the configuration file, then upload it to your router to set it up as an OpenVPN client. If you don't know how to get the configuration file, refer to [this link](#get-configuration-files-from-openvpn-service-providers) or contact their support.
 
 You can set up an OpenVPN client via the web admin panel or [mobile app](../faq/mobile_app.md). Below are steps to set up via the web admin panel.
 
@@ -64,9 +64,7 @@ NordVPN quick setup is integrated into the admin panel of GL.iNet routers. You c
 
     ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn5.png){class="glboxshadow"}
 
-    And the VPN connection details will be displayed on the **VPN Dashboard**.
-
-    ![vpn dashboard nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn6.png){class="glboxshadow"}
+    You can also check the VPN connection details on the **VPN Dashboard**.
 
 6. Update servers.
 
@@ -132,9 +130,7 @@ In the following steps, we will use [PIA (Private Internet Access)](https://priv
 
     ![openvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual7.png){class="glboxshadow"}
 
-    And the VPN connection details will be displayed on the **VPN Dashboard**.
-
-    ![vpn dashboard openvpn status](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual8.png){class="glboxshadow"}
+    You can also check the VPN connection details on the **VPN Dashboard**.
 
 ## Set Up OpenVPN Server on GL.iNet Router
 

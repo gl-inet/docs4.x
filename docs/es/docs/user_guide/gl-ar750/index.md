@@ -50,7 +50,7 @@ En la barra de direcciones del navegador web, introduzca `192.168.8.1`. Elija su
 === "Ethernet"
 
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/ethernet.png){class="glboxshadow"}
-    
+
     Conecte un cable Ethernet al puerto WAN del router y a un dispositivo ascendente, como un módem. Si se conecta a Internet correctamente, aparecerá un punto verde junto a "Ethernet."
 
     Consulte [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) para ver instrucciones detalladas.
@@ -62,7 +62,7 @@ En la barra de direcciones del navegador web, introduzca `192.168.8.1`. Elija su
     1. En la pantalla principal del panel de administración web, localice la sección "Repeater" y haga clic en **Connect**.
     2. Seleccione una red Wi-Fi.
     3. Introduzca la contraseña de la red y haga clic en **Apply**.
-    
+
     Si se conecta a Internet correctamente, aparecerá un punto verde junto al nombre de la red Wi-Fi.
 
     Consulte [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) para ver instrucciones detalladas.
@@ -95,19 +95,19 @@ En la barra de direcciones del navegador web, introduzca `192.168.8.1`. Elija su
 
 Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad, como cliente VPN, y permite acceder a una red remota, como servidor VPN. Creta, al igual que otros routers GL.iNet, es compatible con OpenVPN y WireGuard.
 
-=== "OpenVPN" 
+=== "OpenVPN"
 
     Creta, al igual que otros routers GL.iNet, es compatible con el protocolo OpenVPN, que ofrece una seguridad sólida. Para configurar OpenVPN, siga estos tutoriales:
 
-    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
-    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
+    * [Cómo configurar un cliente OpenVPN](../../interface_guide/openvpn_client.md)
+    * [Cómo configurar un servidor OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
     Creta, al igual que otros routers GL.iNet, es compatible con el protocolo WireGuard, que ofrece gran velocidad y comodidad. Para configurar WireGuard, siga estos tutoriales:
 
-    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
-    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+    * [Cómo configurar un cliente WireGuard](../../interface_guide/wireguard_client.md)
+    * [Cómo configurar un servidor WireGuard](../../interface_guide/wireguard_server.md)
 
 ---
 
@@ -210,7 +210,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway amplía la funcionalidad del router principal con funciones que podría no tener, incluidas AdGuard Home, DNS cifrado y VPN. Para configurar Drop-in Gateway, consulte [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
+    Drop-in Gateway amplía la funcionalidad del router principal con funciones que podría no tener, incluidas AdGuard Home, DNS cifrado y VPN. Para configurar Drop-in Gateway, consulte [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 === "IGMP Snooping"
 
@@ -231,7 +231,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * Flash Usage: Consulte el uso del almacenamiento flash del router, asegurándose de que haya espacio suficiente para firmware y datos de configuración.
     * LED Control: Active o desactive las luces LED del router, lo que permite personalizar los indicadores visuales del dispositivo.
     * System Info: Acceda a información detallada sobre el sistema del router, incluida la versión del firmware, el tiempo de actividad y el estado de la red.
-    
+
     Estas funciones proporcionan información y controles esenciales, ayudándole a gestionar y supervisar eficazmente el funcionamiento del router.
 
     Para ver instrucciones detalladas y más información, consulte [Overview](../../interface_guide/system_overview.md).
@@ -255,7 +255,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * Schedule Reboot: Configure el router para reiniciarse automáticamente a intervalos especificados, lo que ayuda a mantener un rendimiento y una estabilidad óptimos.
     * 5GHz Wi-Fi Status Schedule: Establezca una programación para activar o desactivar la banda Wi-Fi de 5 GHz en determinados momentos, optimizando el uso de la red y la eficiencia energética.
     * 2.4GHz Wi-Fi Status Schedule: Establezca una programación para controlar la banda Wi-Fi de 2,4 GHz, lo que permite una mejor gestión de la disponibilidad de la red y del consumo energético.
-    
+
     Estas opciones de programación le proporcionan un mayor control sobre el funcionamiento del router, garantizando que se adapte a sus necesidades y preferencias específicas.
 
     Para ver instrucciones detalladas y más información, consulte [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
@@ -291,7 +291,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * Crash Log: Registros de fallos del sistema y errores, útiles para diagnosticar problemas críticos.
     * Cloud Log: Registros de interacciones y actividades relacionadas con los servicios GoodCloud integrados en el router.
     * Nginx Log: Registros del servidor web Nginx, si lo utiliza el router, que detallan el tráfico web y las operaciones del servidor.
-    
+
     Además, la página incluye un botón Export Log, que le permite exportar todos los registros recopilados para que el soporte técnico los analice. Esta función es muy valiosa para diagnosticar problemas complejos y obtener asistencia profesional.
 
     Para ver instrucciones detalladas y más información, consulte [Log](../../interface_guide/log.md).

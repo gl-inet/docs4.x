@@ -26,7 +26,7 @@ El paquete incluye:
 
 ## Especificaciones
 
-[Especificaciones del GL-A1300](https://www.gl-inet.com/products/gl-a1300/#specs){target="\_blank"}
+[Especificaciones del GL-A1300](https://www.gl-inet.com/products/gl-a1300/#specs){target="_blank"}
 
 ## Configuración inicial
 
@@ -220,36 +220,36 @@ Visite el tutorial [**Upgrade**](../../interface_guide/upgrade.md).
 
 ### Scheduled Tasks
 
-Please visit the [**Scheduled Tasks**](../../interface_guide/scheduled_tasks.md) tutorial.
+Visite el tutorial [**Tareas programadas**](../../interface_guide/scheduled_tasks.md).
 
 ### Admin Password
 
-This feature has been moved to [**Security**](../../interface_guide/security.md) since v4.5.
+Esta función se ha trasladado a [**Seguridad**](../../interface_guide/security.md) desde la versión 4.5.
 
-Please visit the [**Admin Password**](../../interface_guide/admin_password.md) tutorial.
+Visite el tutorial [**Contraseña de administrador**](../../interface_guide/admin_password.md).
 
 ### Time Zone
 
-Please visit the [**Time Zone**](../../interface_guide/time_zone.md) tutorial.
+Visite el tutorial [**Zona horaria**](../../interface_guide/time_zone.md).
 
 ### Toggle Button Settings
 
-Please visit the [**Toggle Button Settings**](../../interface_guide/toggle_button_settings.md) tutorial.
+Visite el tutorial [**Configuración del botón de alternancia**](../../interface_guide/toggle_button_settings.md).
 
 ### Log
 
-Please visit the [**Log**](../../interface_guide/log.md) tutorial.
+Visite el tutorial [**Registro**](../../interface_guide/log.md).
 
 ### Security
 
-This feature is available since v4.5.
+Esta función está disponible desde la versión 4.5.
 
-Please visit the [**Security**](../../interface_guide/security.md) tutorial.
+Visite el tutorial [**Seguridad**](../../interface_guide/security.md).
 
 ### Reset Firmware
 
-Please visit the [**Reset Firmware**](../../interface_guide/reset_firmware.md) tutorial.
+Visite el tutorial [**Restablecer firmware**](../../interface_guide/reset_firmware.md).
 
 ### Advanced Settings
 
-Please visit the [**Advanced Settings**](../../interface_guide/advanced_settings.md) tutorial.
+Visite el tutorial [**Configuración avanzada**](../../interface_guide/advanced_settings.md).

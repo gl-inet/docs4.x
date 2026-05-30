@@ -2,11 +2,11 @@
 
 **Hinweis**: Dieser Leitfaden behandelt die neue Version von AstroWarp.
 
-Das ältere AstroWarp war zwar im Web-Admin-Panel sichtbar, nutzte jedoch eine eigenständige AstroWarp-Plattform, um Remote-Netzwerkverbindungen herzustellen. Die Dokumentation zum älteren AstroWarp finden Sie [hier](https://docs.astrowarp.net/){target="_blank"}.
-
-Im Gegensatz dazu ist das neue AstroWarp in das GL.iNet Router SDK integriert. Es verwendet das AmneziaWG-Protokoll mit integrierter Datenverkehrsverschleierung und bietet dadurch stabile und sichere Verbindungen für zuverlässigen Fernzugriff jederzeit und überall.
+Das neue AstroWarp ist in das GL.iNet Router SDK integriert. Es verwendet das AmneziaWG-Protokoll mit integrierter Datenverkehrsverschleierung und bietet dadurch stabile und sichere Verbindungen für zuverlässigen Fernzugriff jederzeit und überall.
 
 Diese Funktion ermöglicht nahtlosen Fernzugriff auf Ihr Heimnetzwerk. Sie können Geräte direkt im Web-Admin-Panel über einen dynamischen Zugriffscode einrichten und koppeln, sodass in nur wenigen Sekunden eine sichere Verbindung zwischen Ihrem Reiserouter und Ihrem Heimnetzwerk hergestellt wird – ganz ohne Registrierung oder Anmeldung.
+
+Das ältere AstroWarp war zwar im Web-Admin-Panel sichtbar, nutzte jedoch eine eigenständige AstroWarp-Plattform, um Remote-Netzwerkverbindungen herzustellen. Die Dokumentation zum älteren AstroWarp finden Sie [hier](https://docs.astrowarp.net/){target="_blank"}.
 
 **Hinweis:**
 
@@ -16,6 +16,8 @@ Diese Funktion ermöglicht nahtlosen Fernzugriff auf Ihr Heimnetzwerk. Sie könn
 ## Unterstützte Modelle
 
 ??? "Unterstützte Modelle"
+
+    Diese Modelle sind mit dem neuen AstroWarp kompatibel. Die Liste der von der älteren AstroWarp-Version unterstützten Modelle finden Sie [hier](https://docs.astrowarp.net/en/quick_start/){target="_blank"}.
 
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
@@ -29,6 +31,8 @@ Diese Funktion ermöglicht nahtlosen Fernzugriff auf Ihr Heimnetzwerk. Sie könn
     **Hinweis**: Mit ※ gekennzeichnete Modelle unterstützen das integrierte AstroWarp in Beta-Firmware.
 
 ??? "Nicht unterstützte Modelle"
+    Diese Geräte sind mit dem neuen AstroWarp nicht kompatibel, während bestimmte Modelle weiterhin mit dem älteren AstroWarp funktionieren. Details finden Sie [hier](https://docs.astrowarp.net/en/quick_start/){target="_blank"}.
+
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
@@ -129,6 +133,51 @@ Jeder GL.iNet-Router verfügt für AstroWarp-Netzwerke über **10 GB kostenlose 
 Bei Bedarf können Sie auf den Tarif **AstroWarp+** mit unbegrenztem Datenvolumen upgraden.
 
 ![upgrade plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/upgrade_plan.png){class="glboxshadow"}
+
+## FAQ
+
+1. **F: Welches Format hat der dynamische Zugriffscode und wie lange ist er gültig?**
+
+    A: Es handelt sich um einen 8-stelligen Code aus Zahlen und Großbuchstaben, der 10 Minuten lang gültig ist.
+
+2. **F: Was passiert mit dem Reiserouter, wenn ich die Verbindung auf dem Heimrouter beende?**
+
+    A: Der Reiserouter wird getrennt und bleibt ohne Netzwerkzugang im Status „Ausstehend“. Sobald der Heimrouter die Verbindung wieder aufnimmt, kann sich der Reiserouter automatisch erneut verbinden, ohne dass der Zugriffscode noch einmal eingegeben werden muss.
+
+3. **F: Was passiert, wenn das kostenlose Datenvolumen aufgebraucht ist oder der AstroWarp+-Tarif auf dem Heimrouter abläuft?**
+
+    A: Der Reiserouter wechselt in den Status „Ausstehend“, hat keinen Netzwerkzugang und schaltet nicht automatisch auf das lokale Netzwerk um.
+
+4. **F: In welchen Situationen wechselt der Reiserouter in den Status „Ausstehend“?**
+
+    A: Der Reiserouter wechselt in den Status „Ausstehend“, wenn beim Heimrouter eine der folgenden Bedingungen eintritt:
+
+    - Die AstroWarp-Verbindung wird beendet.
+    - Das kostenlose Datenkontingent ist aufgebraucht.
+    - Das Ablaufdatum des AstroWarp+-Tarifs wird erreicht (falls zutreffend).
+    - Die Internetverbindung fällt aus.
+
+5. **F: Was bewirkt die Schaltfläche Reset oben rechts?**
+
+    A: Sie löscht alle autorisierten Geräte und setzt die Seite auf die Router-Rollenauswahl zurück, damit die Rolle erneut gewählt werden kann.
+
+6. **F: Was passiert mit dem Reiserouter, wenn ich AstroWarp auf dem Heimrouter zurücksetze?**
+
+    A: Sobald AstroWarp auf dem Heimrouter zurückgesetzt wird, werden die aus der Ferne verbundenen Geräte vom AstroWarp-Netzwerk getrennt und wechseln für den Internetzugang wieder auf ihr lokales Netzwerk.
+
+7. **F: Wenn ich den Heimrouter auf den AstroWarp+-Tarif upgrade und seine Rolle bei noch gültigem Tarif auf Reiserouter ändere, bleibt die verbleibende Laufzeit erhalten?**
+
+    A: Die verbleibende Gültigkeitsdauer kann nicht übernommen werden und läuft zum Fälligkeitsdatum ab. Um unnötige Verluste zu vermeiden, sollten Sie die Geräterolle erst nach Ablauf Ihres aktuellen Tarifs ändern.
+
+8. **F: Wenn ich das neue AstroWarp im Web-Admin-Panel des Routers aktiviert habe, wie deaktiviere ich es und wechsle zurück zum älteren AstroWarp?**
+
+    A: Gehen Sie im Web-Admin-Panel des Routers zu **CLOUD SERVICES** -> **AstroWarp** und klicken Sie oben rechts auf **Reset**.
+
+    ![reset](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/reset.png){class="glboxshadow"}
+
+    Melden Sie sich dann mit Ihrem Cloud-Konto bei [astrowarp.net](https://my.astrowarp.net/#/login){target="_blank"} an. Klicken Sie nach der Anmeldung auf die Schaltfläche **"+"**, um den Router zu Ihrem AstroWarp-Netzwerk hinzuzufügen.
+
+    ![add device](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/add_device.png){class="glboxshadow"}
 
 ---
 

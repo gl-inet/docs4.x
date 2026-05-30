@@ -2,7 +2,7 @@
 
 ## Produktübersicht
 
-Slate (GL-AR750S) is our first dual-band Gigabit AC travel router. With 3 x Gigabit Ethernet ports, it can provide faster speed in your travel. Additionally, the 128MB Flash provides dual flash for more storage and faster operation speed. It has a MicroSD (TF) slot which increases the storage space up to 128GB.
+Slate (GL-AR750S) ist unser erster Dualband-Gigabit-AC-Reiserouter. Mit drei Gigabit-Ethernet-Ports bietet er unterwegs höhere Geschwindigkeiten. Darüber hinaus sorgt der 128-MB-Flash-Speicher mit Dual-Flash für mehr Speicherplatz und schnellere Betriebsabläufe. Außerdem verfügt er über einen MicroSD-(TF)-Kartenslot, mit dem sich der Speicher auf bis zu 128 GB erweitern lässt.
 
 ![gl-ar750sinterface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/hardware_info/ar750s_interface.jpg){class="glboxshadow"}
 
@@ -43,7 +43,7 @@ Auf dieser Seite können Sie Ihre Internetverbindungsart auswählen, z. B. Ether
 
 ### Ethernet
 
-Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
+Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem aktiven Netzwerkgerät, um eine Internetverbindung herzustellen. Diese Methode bietet in der Regel die schnellste und zuverlässigste Internetverbindung.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
@@ -51,7 +51,7 @@ Connect your router to an active modem or an active network device via an Ethern
 
 ### Repeater
 
-Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
+Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehenden Wi-Fi-Netzwerks zu erweitern. Als Repeater empfängt und sendet er Funksignale innerhalb seiner Reichweite erneut aus und vergrößert damit die Abdeckung. Diese Methode ist nützlich, wenn ein einzelner Router den gesamten Einsatzbereich nicht abdecken kann.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
@@ -59,7 +59,7 @@ Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-
 
 ### Tethering
 
-Connect the router's USB port to a smartphone with active mobile data via a USB cable to access the Internet. This method enables multiple devices connected to the router to access the internet using the smartphone's mobile data.
+Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit aktiver mobiler Datenverbindung, um auf das Internet zuzugreifen. Mit dieser Methode können mehrere mit dem Router verbundene Geräte die mobile Datenverbindung des Smartphones nutzen.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
@@ -67,7 +67,7 @@ Connect the router's USB port to a smartphone with active mobile data via a USB 
 
 ### Cellular
  
-Connect the router to the internet by plugging a cellular-enabled USB modem into the router's USB port. This method is useful for sharing internet from a USB modem to all connected devices.
+Verbinden Sie den Router mit dem Internet, indem Sie ein mobilfunkfähiges USB-Modem an den USB-Port des Routers anschließen. Diese Methode eignet sich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein USB-Modem eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 

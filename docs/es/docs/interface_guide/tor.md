@@ -1,6 +1,6 @@
 # Tor
 
-Tor, derivado de **The Onion Router**, es un software gratuito y de código abierto que permite la comunicación anónima. Ayuda a los usuarios a explorar Internet con mayor privacidad. [Más información sobre Tor](https://www.torproject.org/){target="\_blank"}.
+Tor, derivado de **The Onion Router**, es un software gratuito y de código abierto que permite la comunicación anónima. Ayuda a los usuarios a explorar Internet con mayor privacidad. [Más información sobre Tor](https://www.torproject.org/){target="_blank"}.
 
 **Nota**: Esta función se encuentra actualmente en fase beta y puede presentar problemas en algunos países. Cuando Tor está habilitado, las siguientes funciones no funcionarán correctamente:
 
@@ -45,4 +45,4 @@ Busque **gl-sdk4-ui-torview** e instálelo.
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

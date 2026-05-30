@@ -64,7 +64,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 ![network storage, disk found](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
 
-## Set Up Samba {#set-up-samba}
+## Configurare Samba {#set-up-samba}
 
 1. Attiva **Enable Samba** e fai clic su **Apply**.
 
@@ -104,7 +104,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 ---
 
-## Set Up WebDAV {#set-up-webdav}
+## Configurare WebDAV {#set-up-webdav}
 
 1. Attiva **Enable WebDAV** e fai clic su **Apply**.
 
@@ -148,7 +148,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 ---
 
-## Set Up DLNA {#set-up-dlna}
+## Configurare DLNA {#set-up-dlna}
 
 Attiva **Enable DLNA** e fai clic su **Apply**.
 

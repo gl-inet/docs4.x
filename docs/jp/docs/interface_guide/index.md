@@ -21,6 +21,7 @@ hide:
 ## ワイヤレス
 
 * [ワイヤレス](wireless.md)
+* [ワイヤレス（v4.9）](wireless_v4.9.md)
 
 ## クライアント
 
@@ -36,6 +37,7 @@ hide:
 * [VPNダッシュボード（v4.7）](vpn_dashboard_v4.7.md)
 * [VPNダッシュボード（v4.8）](vpn_dashboard_v4.8.md)
 * [VPNダッシュボード（v4.9）](vpn_dashboard_v4.9.md)
+* [VPNクライアントプロフィール](vpn_client_profile.md)
 * [OpenVPNクライアントを設定する](openvpn_client.md)
 * [OpenVPNサーバーを設定する](openvpn_server.md)
 * [WireGuardクライアントを設定する](wireguard_client.md)
@@ -56,6 +58,7 @@ hide:
 * [AdGuard Home](adguardhome.md)
 * [ネットワークストレージ](network_storage.md)
 * [ペアレンタルコントロール](parental_control.md)
+* [Bark](bark.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
 * [Tor](tor.md) - 個人のプライバシーを保護します。
@@ -68,6 +71,7 @@ hide:
 * [マルチWAN](multi-wan.md) - 別のインターネット接続へのフェイルオーバーや、複数インターフェースの同時利用による総帯域幅の拡張を行います。
 * [LAN](lan.md)
 * [ゲストネットワーク](guest_network.md)
+* [IoTネットワーク](iot_network.md)
 * [DNS](dns.md)
 * [イーサネットポート](ethernet_port.md)
 * [ネットワークモード](network_mode.md)
@@ -84,9 +88,9 @@ hide:
 * [DPI Engine](dpi_engine.md)
 * [データ統計](data_statistics.md)
 * [コンテンツフィルター](content_filter.md)
-* [ペアレンタルコントロール](parental_control.md)
 * [QoS（Quality of Service）](qos.md)
 * [SQM（Smart Queue Management）](sqm.md)
+* [ペアレンタルコントロール](parental_control.md)
 
 ## システム
 

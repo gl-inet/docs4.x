@@ -6,7 +6,7 @@ GL-M2 es una placa de desarrollo 5G para entusiastas del DIY que desean construi
 
 ![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
-[Especificaciones del GL-M2](https://www.gl-inet.com/products/gl-m2/#specs){target="\_blank"}
+[Especificaciones del GL-M2](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 
 ## Contenido del paquete
 

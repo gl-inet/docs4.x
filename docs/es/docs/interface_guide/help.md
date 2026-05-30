@@ -4,7 +4,7 @@ En el panel de administración web, haga clic en el icono de signo de interrogac
 
 ![help](https://static.gl-inet.com/docs/router/en/4/interface_guide/help/help.png){class="glboxshadow"}
 
-Allí puede consultar la [documentación de soporte del router](https://docs.gl-inet.com/router/en/4){target="\_blank"}.
+Allí puede consultar la [documentación de soporte del router](https://docs.gl-inet.com/router/en/4){target="_blank"}.
 
 Desde el firmware v4.8, puede ponerse en contacto con Tech Support con un solo clic, lo que facilita la obtención de asistencia.
 
@@ -20,4 +20,4 @@ Rellene la información requerida y haga clic en **Send** para solicitar asisten
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

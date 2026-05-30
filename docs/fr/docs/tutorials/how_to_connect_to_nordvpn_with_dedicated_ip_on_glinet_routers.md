@@ -12,17 +12,17 @@ Nous utilisons le GL-AXT1800 comme exemple.
 
     ![download nordvpn dedicated ip info](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/download_dedicated_ip_config.png){class="glboxshadow"}
 
-3. Revenez sur la page de votre Nord Account, allez dans **Manual Setup** et cliquez sur **Set up NordVPN Manually** pour obtenir vos identifiants de service.
+3. Revenez sur la page de votre Nord Account, allez dans **Manual Setup** et cliquez sur **Set up NordVPN Manually** pour obtenir vos **identifiants de service**.
 
     ![nordvpn manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup.png){class="glboxshadow"}
 
     ![nordvpn manual setup service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup_service_credential.png){class="glboxshadow"}
 
-4. Connectez-vous au panneau d'administration web de votre routeur, puis allez dans **VPN** > **OpenVPN Client**. Créez un nouveau groupe pour téléverser le fichier de configuration téléchargé à l'étape 2. Saisissez ensuite les identifiants de service obtenus à l'étape 3.
+4. Connectez-vous au panneau d'administration web de votre routeur, puis allez dans **VPN** > **OpenVPN Client**. Créez un nouveau groupe et téléversez le fichier de configuration téléchargé à l'étape 2, puis saisissez les identifiants de service obtenus à l'étape 3.
 
     ![set up nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/set_up_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
-    1 fichier de configuration valide a été détecté. Veuillez saisir votre nom d'utilisateur et votre mot de passe. Si ces configurations utilisent des mots de passe différents, vous devrez saisir le mot de passe correspondant pour chaque fichier de configuration.
+    Comme indiqué ci-dessus, un fichier de configuration valide a été détecté. Saisissez vos identifiants de service NordVPN.
 
 5. Cliquez sur l'icône à trois points à droite pour vous connecter. Vous pouvez également aller dans **VPN Dashboard**, sélectionner le fichier de configuration et cliquer sur **Apply** pour établir la connexion.
 

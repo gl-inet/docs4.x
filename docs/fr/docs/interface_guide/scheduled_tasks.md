@@ -40,7 +40,8 @@ Cette fonction vous permet de définir des horaires Wi-Fi en fonction des bandes
 
 | Modèles pris en charge   |         |
 | :----------------------- | :-----: |
-| GL-E5800 (Mudi 7)        |    √    |
+| GL-BE14000 (Flint 4)     |    √    |
+| GL-BE10000 (Slate 7 Pro) |    √    |
 | GL-MT3600BE (Beryl 7)    |    √    |
 | GL-BE6500 (Flint 3e)     |    √    |
 | GL-BE9300 (Flint 3)      |    √    |
@@ -56,6 +57,8 @@ Activez la planification Main ou Guest Wi-Fi, définissez les heures d'activatio
 
 | Modèles pris en charge   |         |
 | :----------------------- | :-----: |
+| GL-BE14000 (Flint 4)     |    √    |
+| GL-BE10000 (Slate 7 Pro) |    √    |
 | GL-E5800 (Mudi 7)        |    √    |
 | GL-BE9300 (Flint 3)      |    √    |
 

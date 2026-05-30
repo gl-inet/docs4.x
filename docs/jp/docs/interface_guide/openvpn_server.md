@@ -16,7 +16,7 @@ GL.iNet ルーターで OpenVPN サーバーを設定するには、以下の動
 
 1. メインルーターがある場合は、そのルーターにログインして、ISP からパブリック IP を取得しているか確認します。
 2. ISP にパブリック IP アドレスの提供を依頼します。追加料金が発生する場合があります。
-3. 上記 2 つの方法が使えない場合（ネットワークが CGNAT 配下にある場合など）は、SD-WAN ソリューション [AstroWarp](https://www.astrowarp.net/){target="_blank"} の利用をご検討ください。
+3. 上記 2 つの方法が使えない場合（ネットワークが CGNAT 配下にある場合など）は、SD-WAN ソリューション [AstroWarp](../interface_guide/astrowarp.md){target="_blank"} の利用をご検討ください。
 
 ## ポートフォワーディングが必要か確認する {#confirm-if-port-forwarding-is-required}
 

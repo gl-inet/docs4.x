@@ -40,7 +40,8 @@ Except for MLO Wi-Fi, which only supports the on/off schedule mode, all other Wi
 
 | Supported Models         |         |
 | :----------------------- | :-----: |
-| GL-E5800 (Mudi 7)        |    √    |
+| GL-BE14000 (Flint 4)     |    √    |
+| GL-BE10000 (Slate 7 Pro) |    √    |
 | GL-MT3600BE (Beryl 7)    |    √    |
 | GL-BE6500 (Flint 3e)     |    √    |
 | GL-BE9300 (Flint 3)      |    √    |
@@ -56,6 +57,8 @@ Enable the Main or Guest Wi-Fi Schedule, set the on and off times, select the we
 
 | Supported Models         |         |
 | :----------------------- | :-----: |
+| GL-BE14000 (Flint 4)     |    √    |
+| GL-BE10000 (Slate 7 Pro) |    √    |
 | GL-E5800 (Mudi 7)        |    √    |
 | GL-BE9300 (Flint 3)      |    √    |
 

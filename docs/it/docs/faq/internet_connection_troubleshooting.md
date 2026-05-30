@@ -67,32 +67,32 @@ Di seguito trovi informazioni specifiche per area geografica sugli ISP, raccolte
 
 | Country/Region   | ISP   | Connection Type | VLAN ID | MAC Clone Required | Additional Requirements |
 | :--------------- | :---- | :-------------- | :------ | :-------- | :---------------------- |
-| United States    | AT&T Fiber | DHCP (IP Passthrough) | N/A | No | Must enable IP Passthrough; EAP authentication bypass needed |
-| United States | Spectrum | DHCP | N/A | Yes (in some areas) | Strong MAC binding (modem reboot required) |
+| United States    | AT&T Fiber | DHCP (IP Passthrough) | N/A | No | E' necessario abilitare IP Passthrough; richiesto il bypass dell'autenticazione EAP |
+| United States | Spectrum | DHCP | N/A | Yes (in some areas) | Associazione MAC rigorosa (riavvio del modem necessario) |
 | United States | Verizon Fios | DHCP | N/A | No | |
-| United States | Comcast Xfinity | DHCP | N/A | Yes (common) | Must reboot modem when changing router (MAC release) |
-| United States | Cox Communications | DHCP | N/A | Yes | Must reboot modem when changing router (MAC release) |
+| United States | Comcast Xfinity | DHCP | N/A | Yes (common) | E' necessario riavviare il modem quando si cambia router (rilascio MAC) |
+| United States | Cox Communications | DHCP | N/A | Yes | E' necessario riavviare il modem quando si cambia router (rilascio MAC) |
 | United States | Frontier Fiber | DHCP | N/A | No | |
-| United States | CenturyLink / Lumen | PPPoE | 201 | No | VLANs are required in certain areas. |
+| United States | CenturyLink / Lumen | PPPoE | 201 | No | Le VLAN sono richieste in alcune aree. |
 | Canada | Bell Canada Fibe | PPPoE | 35 | No | |
-| Germany | Deutsche Telekom | PPPoE | 7 | No | VLAN 7 mandatory for internet; PPPoE credentials required |
-| Germany | Vodafone (Kabel) | DHCP | N/A | Yes (sometimes) | MAC binding may apply; reboot modem after router change |
-| Germany | 1&1 / O2 (Telekom line) | PPPoE | 7 | No | VLAN 7 mandatory for internet |
+| Germany | Deutsche Telekom | PPPoE | 7 | No | VLAN 7 obbligatoria per internet; credenziali PPPoE richieste |
+| Germany | Vodafone (Kabel) | DHCP | N/A | Yes (sometimes) | Potrebbe essere applicata l'associazione MAC; riavviare il modem dopo il cambio del router |
+| Germany | 1&1 / O2 (Telekom line) | PPPoE | 7 | No | VLAN 7 obbligatoria per internet |
 | Germany | DNS:NET | PPPoE | 37 | No | |
 | Germany | o2(UGG) | PPPoE | 7 | No | |
-| United Kingdom | BT Broadband | PPPoE | 101 | No | VLAN 101 required; PPPoE login needed |
-| United Kingdom | Sky Broadband | DHCP (Option 61) | 101 | No | Requires DHCP Option 61 (client identifier) |
-| United Kingdom | Virgin | DHCP | N/A | Yes | The modem is in bridged mode and requires MAC cloning. |
-| France | Orange | DHCP / PPPoE | 832 | No | VLAN 832 required; may require Option 90 authentication |
+| United Kingdom | BT Broadband | PPPoE | 101 | No | VLAN 101 richiesta; accesso PPPoE necessario |
+| United Kingdom | Sky Broadband | DHCP (Option 61) | 101 | No | Richiede DHCP Option 61 (identificatore client) |
+| United Kingdom | Virgin | DHCP | N/A | Yes | Il modem e' in modalita bridge e richiede la clonazione MAC. |
+| France | Orange | DHCP / PPPoE | 832 | No | VLAN 832 richiesta; potrebbe richiedere l'autenticazione Option 90 |
 | France | Free (Freebox) | DHCP | N/A | No | |
-| France | Bouygues Telecom | DHCP | 100 | Yes | Clone Bbox MAC |
+| France | Bouygues Telecom | DHCP | 100 | Yes | Clonare il MAC del Bbox |
 | Spain | Movistar | PPPoE | 6 | No | VLAN 6 (internet), VLAN 2 (IPTV), VLAN 3 (VoIP) |
 | Spain | DIGI | PPPoE | 20 | No | |
-| Spain | Orange | DHCP | 832/835 | No | VLANs may vary by region |
-| Italy | TIM | PPPoE | 835 | No | VLAN 835 required |
+| Spain | Orange | DHCP | 832/835 | No | Le VLAN possono variare in base alla regione |
+| Italy | TIM | PPPoE | 835 | No | VLAN 835 richiesta |
 | Italy | Aruba | PPPoE | 835 | No | |
-| Netherlands | KPN | DHCP | 6 | No | VLAN 6 required for internet |
-| Netherlands | Tweak | DHCP | 34 | Yes | Cloning Experia Box MAC |
+| Netherlands | KPN | DHCP | 6 | No | VLAN 6 richiesta per internet |
+| Netherlands | Tweak | DHCP | 34 | Yes | Clonazione del MAC di Experia Box |
 | Netherlands | Telfort / Oxxio / Tweak | DHCP (IPoE) | 34 | No | |
 | Netherlands | Odido | DHCP | 300 | No | |
 | Belgium | EDPnet | PPPoE | 10 | No | |
@@ -103,7 +103,7 @@ Di seguito trovi informazioni specifiche per area geografica sugli ISP, raccolte
 | Cyprus | Cyta | PPPoE | 42 | No | |
 | Cyprus | Cablenet | PPPoE | 42 | No | |
 | Cyprus | Primetel | PPPoE | 42 | No | |
-| Poland | Orange Polska | PPPoE | 35 | No | VLAN 35 required |
+| Poland | Orange Polska | PPPoE | 35 | No | VLAN 35 richiesta |
 | Poland | T-mobile | PPPoE | 35 | No | |
 | Ireland | Vodafone SIRO | PPPoE | 10 | No | |
 | Ireland | Pure Telecom | PPPoE | 10 | No | |
@@ -116,10 +116,10 @@ Di seguito trovi informazioni specifiche per area geografica sugli ISP, raccolte
 | Greece | Cosmote | PPPoE | 835 | No | |
 | Greece | Nova | PPPoE | 835 | Yes | |
 | Greece | DEI/PPC | DHCP | 835 | No | |
-| Japan | NTT (FLET'S) | PPPoE / IPoE (MAP-E) | N/A | No | IPoE requires MAP-E/DS-Lite compatible router |
-| Japan | SoftBank Hikari | PPPoE / IPoE | N/A | No | BBIX IPoE service commonly used |
-| India | Airtel | PPPoE / DHCP | N/A | No | Some regions require PPPoE |
-| India | JioFiber | DHCP | N/A | No | Locked ONT in many cases |
-| Singapore | Singtel | PPPoE | 10 | No | VLAN 10 required; IPTV separate VLAN |
-| Singapore | StarHub | DHCP | N/A | No | DHCP-based connection |
-| Australia | NBN (various ISPs) | PPPoE / DHCP | 2 (common) | Yes | VLAN 2 common but ISP-dependent |
+| Japan | NTT (FLET'S) | PPPoE / IPoE (MAP-E) | N/A | No | IPoE richiede un router compatibile con MAP-E/DS-Lite |
+| Japan | SoftBank Hikari | PPPoE / IPoE | N/A | No | Servizio BBIX IPoE comunemente utilizzato |
+| India | Airtel | PPPoE / DHCP | N/A | No | In alcune regioni e' richiesto PPPoE |
+| India | JioFiber | DHCP | N/A | No | ONT bloccato in molti casi |
+| Singapore | Singtel | PPPoE | 10 | No | VLAN 10 richiesta; IPTV su VLAN separata |
+| Singapore | StarHub | DHCP | N/A | No | Connessione basata su DHCP |
+| Australia | NBN (various ISPs) | PPPoE / DHCP | 2 (common) | Yes | VLAN 2 comune ma dipendente dall'ISP |

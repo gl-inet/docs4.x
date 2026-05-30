@@ -40,7 +40,8 @@ Tranne MLO Wi-Fi, che supporta solo la modalita' di pianificazione accensione/sp
 
 | Supported Models         |         |
 | :----------------------- | :-----: |
-| GL-E5800 (Mudi 7)        |    √    |
+| GL-BE14000 (Flint 4)     |    √    |
+| GL-BE10000 (Slate 7 Pro) |    √    |
 | GL-MT3600BE (Beryl 7)    |    √    |
 | GL-BE6500 (Flint 3e)     |    √    |
 | GL-BE9300 (Flint 3)      |    √    |
@@ -56,6 +57,8 @@ Abilita la pianificazione Main o Guest Wi-Fi, imposta gli orari di accensione e 
 
 | Supported Models         |         |
 | :----------------------- | :-----: |
+| GL-BE14000 (Flint 4)     |    √    |
+| GL-BE10000 (Slate 7 Pro) |    √    |
 | GL-E5800 (Mudi 7)        |    √    |
 | GL-BE9300 (Flint 3)      |    √    |
 

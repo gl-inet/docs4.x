@@ -20,11 +20,11 @@ Conecte un dispositivo, por ejemplo un ordenador, portátil o smartphone, al rou
 
 - Ethernet
 
-    Conecte su dispositivo al puerto LAN del router mediante un cable Ethernet.
+  Conecte su dispositivo al puerto LAN del router mediante un cable Ethernet.
 
 - Wi-Fi
 
-    En su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña. Puede encontrar el nombre y la contraseña predeterminados impresos en la etiqueta inferior del router.
+  En su dispositivo, vaya a Settings -> WLAN, localice el nombre de la red Wi-Fi del router en la lista de redes disponibles e introduzca la contraseña. Puede encontrar el nombre y la contraseña predeterminados impresos en la etiqueta inferior del router.
 
 ### 3. Iniciar sesión en el panel de administración web
 
@@ -41,9 +41,9 @@ Configure su Shadow utilizando uno de los métodos de conexión a Internet compa
 === "Ethernet"
 
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/ethernet.png){class="glboxshadow"}
-    
+
     Conecte un cable Ethernet entre el puerto WAN del router y un dispositivo ascendente, como un módem.
-    
+
     Una vez conectado correctamente a Internet, aparecerá un punto verde en la sección Ethernet de la página INTERNET.
 
     Consulte [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) para ver instrucciones detalladas.
@@ -55,7 +55,7 @@ Configure su Shadow utilizando uno de los métodos de conexión a Internet compa
     1. En la página INTERNET del panel de administración web, localice la sección Repeater y haga clic en **Connect**.
     2. Seleccione una red Wi-Fi de entre las redes disponibles.
     3. Introduzca la contraseña y haga clic en **Apply**.
-    
+
     Una vez conectado correctamente a Internet, aparecerá un punto verde en la sección Repeater de la página INTERNET.
 
     Consulte [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) para ver instrucciones detalladas.
@@ -67,7 +67,7 @@ Configure su Shadow utilizando uno de los métodos de conexión a Internet compa
     1. Conecte su dispositivo móvil, por ejemplo un smartphone o un dongle USB, al puerto USB del router mediante un cable USB.
     2. En su dispositivo móvil, vaya a Settings y active USB Tethering.
     3. En la página INTERNET del panel de administración web, haga clic en **Connect** en la sección Tethering.
-    
+
     Una vez conectado correctamente a Internet, aparecerá un punto verde en la sección Tethering de la página INTERNET.
 
     Consulte [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) para ver instrucciones detalladas.
@@ -88,38 +88,38 @@ Configure su Shadow utilizando uno de los métodos de conexión a Internet compa
 
 Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositivo y el servidor VPN. Proporciona una capa adicional de privacidad y seguridad, como cliente VPN, y permite acceder a una red remota, como servidor VPN. Shadow, al igual que otros routers GL.iNet, es compatible con OpenVPN y WireGuard.
 
-=== "OpenVPN" 
+=== "OpenVPN"
 
     Shadow, al igual que otros routers GL.iNet, es compatible con el protocolo OpenVPN, que ofrece una seguridad sólida. Para configurar OpenVPN, siga estos tutoriales:
 
-    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
-    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
+    * [Cómo configurar un cliente OpenVPN](../../interface_guide/openvpn_client.md)
+    * [Cómo configurar un servidor OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
     Shadow, al igual que otros routers GL.iNet, es compatible con el protocolo WireGuard, que ofrece gran velocidad y comodidad. Para configurar WireGuard, siga estos tutoriales:
 
-    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
-    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+    * [Cómo configurar un cliente WireGuard](../../interface_guide/wireguard_client.md)
+    * [Cómo configurar un servidor WireGuard](../../interface_guide/wireguard_server.md)
 
 ## Aplicaciones
 
 === "Plug-ins"
 
     Plug-ins son funciones adicionales que amplían la funcionalidad del router.
-    
+
     Para configurar los plug-ins, consulte [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
     Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Resulta especialmente útil para los usuarios que necesitan una dirección IP estática para acceder a una red remota.
-    
+
     Para configurar Dynamic DNS, consulte [Dynamic DNS](../../interface_guide/ddns.md).
 
 === "GoodCloud"
 
     El servicio de gestión en la nube [GoodCloud](https://www.goodcloud.xyz){target="_blank"} de GL.iNet proporciona una forma sencilla de acceder y gestionar remotamente routers GL.iNet.
-    
+
     Para configurar GoodCloud, consulte [GoodCloud](../../interface_guide/cloud.md).
 
 ## Configuración de red
@@ -206,8 +206,8 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 === "Drop-in Gateway"
 
     Drop-in Gateway amplía la funcionalidad del router principal con funciones que podría no tener, incluidas AdGuard Home, DNS cifrado y VPN.
-    
-    Para configurar Drop-in Gateway, consulte [How to set up Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
+
+    Para configurar Drop-in Gateway, consulte [Cómo configurar Drop-in Gateway](../../tutorials/how_to_set_up_drop_in_gateway.md).
 
 === "IGMP Snooping"
 
@@ -228,7 +228,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * Flash Usage: Consulte el uso del almacenamiento flash del router, asegurándose de que haya espacio suficiente para firmware y datos de configuración.
     * LED Control: Active o desactive las luces LED del router, lo que permite personalizar los indicadores visuales del dispositivo.
     * System Info: Acceda a información detallada sobre el sistema del router, incluida la versión del firmware, el tiempo de actividad y el estado de la red.
-    
+
     Estas funciones proporcionan información y controles esenciales, ayudándole a gestionar y supervisar eficazmente el funcionamiento del router.
 
     Consulte [Overview](../../interface_guide/system_overview.md) para ver instrucciones detalladas.
@@ -251,7 +251,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * LED Display Schedule: Establezca una programación para encender o apagar automáticamente las luces LED del router, reduciendo la contaminación lumínica en determinadas horas.
     * Schedule Reboot: Configure el router para reiniciarse automáticamente a intervalos especificados, lo que ayuda a mantener un rendimiento y una estabilidad óptimos.
     * 2.4GHz Wi-Fi Status Schedule: Establezca una programación para controlar la banda Wi-Fi de 2,4 GHz, lo que permite una mejor gestión de la disponibilidad de la red y del consumo energético.
-    
+
     Estas opciones de programación le proporcionan un mayor control sobre el funcionamiento del router, garantizando que se adapte a sus necesidades y preferencias específicas.
 
     Consulte [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) para ver instrucciones detalladas.
@@ -287,7 +287,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     * Crash Log: Registros de fallos del sistema y errores, útiles para diagnosticar problemas críticos.
     * Cloud Log: Registros de interacciones y actividades relacionadas con los servicios GoodCloud integrados en el router.
     * Nginx Log: Registros del servidor web Nginx, si lo utiliza el router, que detallan el tráfico web y las operaciones del servidor.
-    
+
     Además, la página incluye un botón Export Log, que le permite exportar todos los registros recopilados para que el soporte técnico los analice. Esta función es muy valiosa para diagnosticar problemas complejos y obtener asistencia profesional.
 
     Consulte [Log](../../interface_guide/log.md) para ver instrucciones detalladas.

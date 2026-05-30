@@ -4,17 +4,17 @@ Ustawienia sieci gościnnej są oddzielone od [LAN](lan.md) od wersji firmware v
 
 Po lewej stronie webowego panelu administracyjnego przejdź do **NETWORK** -> **Guest Network**.
 
-Strona ta obejmuje podstawowe ustawienia sieci gościnnej oraz ustawienia serwera DHCP.
+Ta strona umożliwia utworzenie dedykowanej sieci Wi‑Fi dla gości. Odizolowana od sieci głównej zwiększa bezpieczeństwo, a jednocześnie zapewnia wygodny dostęp do Internetu.
+
+**Uwaga**: Niektóre modele (np. GL-MT5000, GL-MT2500/GL-MT2500A) nie obsługują Wi‑Fi, dlatego ustawienia **Guest Network** nie są dostępne w ich webowym panelu administracyjnym.
+
+Strona obejmuje dwie sekcje: ustawienia podstawowe i ustawienia serwera DHCP.
 
 ## Ustawienia podstawowe
 
 Możesz ustawić podsieć w zakresie prywatnych adresów IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
 ![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_1.png){class="glboxshadow"}
-
-Możesz skonfigurować oddzielną, odizolowaną sieć przeznaczoną dla użytkowników tymczasowych, która zapewnia ograniczony dostęp i wyższy poziom bezpieczeństwa dzięki odseparowaniu od sieci głównej.
-
-**Uwaga**: Niektóre modele (np. GL-MT5000, GL-MT2500/GL-MT2500A) nie obsługują Wi-Fi, dlatego ustawienia **Guest Network** nie są dostępne w ich webowym panelu administracyjnym.
 
 - **Gateway**
 
@@ -38,7 +38,7 @@ Możesz skonfigurować oddzielną, odizolowaną sieć przeznaczoną dla użytkow
 
 ## Serwer DHCP
 
-Jeśli **Guest Network** jest włączona, **DHCP Server** będzie domyślnie również włączony.
+Jeśli **Guest Network** jest włączona, jej serwer DHCP również zostanie włączony.
 
 Serwer DHCP automatycznie przypisuje adresy IP i inne parametry komunikacyjne każdemu urządzeniu klienckiemu połączonemu z siecią gościnną. Jeśli serwer DHCP jest wyłączony, musisz ręcznie skonfigurować ustawienia sieciowe urządzeń klienckich. Kliknij [tutaj](../tutorials/manually_configure_static_ip.md), aby dowiedzieć się, jak ręcznie skonfigurować statyczny adres IP.
 

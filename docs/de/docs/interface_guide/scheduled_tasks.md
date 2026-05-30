@@ -40,7 +40,8 @@ Mit Ausnahme von MLO Wi‑Fi, das nur den Modus für Ein-/Ausschaltzeitpläne un
 
 | Unterstützte Modelle      |         |
 | :------------------------ | :-----: |
-| GL-E5800 (Mudi 7)         |    √    |
+| GL-BE14000 (Flint 4)      |    √    |
+| GL-BE10000 (Slate 7 Pro)  |    √    |
 | GL-MT3600BE (Beryl 7)     |    √    |
 | GL-BE6500 (Flint 3e)      |    √    |
 | GL-BE9300 (Flint 3)       |    √    |
@@ -56,6 +57,8 @@ Aktivieren Sie den Zeitplan für Main oder Guest Wi‑Fi, stellen Sie die Ein- u
 
 | Unterstützte Modelle      |         |
 | :------------------------ | :-----: |
+| GL-BE14000 (Flint 4)      |    √    |
+| GL-BE10000 (Slate 7 Pro)  |    √    |
 | GL-E5800 (Mudi 7)         |    √    |
 | GL-BE9300 (Flint 3)       |    √    |
 

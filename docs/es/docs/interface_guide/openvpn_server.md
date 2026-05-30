@@ -16,7 +16,7 @@ Métodos alternativos:
 
 1. Si tiene un router principal, inicie sesión en él y compruebe si recibe una IP pública de su ISP.
 2. Solicite a su ISP una dirección IP pública. Esto puede implicar un coste adicional.
-3. Si los dos métodos anteriores no funcionan, por ejemplo, si su red está detrás de CGNAT, puede probar nuestra solución SD-WAN [AstroWarp](https://www.astrowarp.net/){target="\_blank"}.
+3. Si los dos métodos anteriores no funcionan, por ejemplo, si su red está detrás de CGNAT, puede probar nuestra solución SD-WAN [AstroWarp](../interface_guide/astrowarp.md){target="_blank"}.
 
 ## Confirme si es necesario configurar el reenvío de puertos
 
@@ -103,7 +103,7 @@ En el firmware v4.7 y versiones anteriores, consulte el estado de conexión del 
 
 Para verificar que la conexión al servidor se haya realizado correctamente, importe la configuración de OpenVPN exportada anteriormente en un dispositivo de otra red, es decir, que no esté en la misma red local que el servidor. Luego abra un navegador web y busque su dirección IP y ubicación. Si coinciden con la IP y la ubicación del servidor VPN, en lugar de las de su proveedor de servicios de Internet, la conexión VPN se ha realizado correctamente.
 
-El método más sencillo es usar un smartphone con la [OpenVPN App](https://openvpn.net/vpn-client/){target="\_blank"} oficial instalada. Primero, desactive la conexión Wi-Fi del smartphone y conéctelo a Internet exclusivamente mediante datos móviles 4G o 5G. Después, abra la aplicación OpenVPN, importe el archivo de configuración e inicie la conexión. Compruebe si el smartphone puede acceder a Internet y si su dirección IP coincide con la IP del servidor OpenVPN.
+El método más sencillo es usar un smartphone con la [OpenVPN App](https://openvpn.net/vpn-client/){target="_blank"} oficial instalada. Primero, desactive la conexión Wi-Fi del smartphone y conéctelo a Internet exclusivamente mediante datos móviles 4G o 5G. Después, abra la aplicación OpenVPN, importe el archivo de configuración e inicie la conexión. Compruebe si el smartphone puede acceder a Internet y si su dirección IP coincide con la IP del servidor OpenVPN.
 
 Al importar el archivo de configuración en la aplicación OpenVPN, puede aparecer un aviso como el que se muestra a continuación. Haga clic en **CONTINUE** para continuar, ya que el certificado ya está integrado en el archivo de configuración.
 
@@ -128,8 +128,8 @@ Active la opción client to client y exporte una nueva configuración para los c
 
 ## Instalar la OpenVPN App
 
-Descargue la OpenVPN App desde el [sitio web oficial de OpenVPN](https://openvpn.net/vpn-client/){target="\_blank"}.
+Descargue la OpenVPN App desde el [sitio web oficial de OpenVPN](https://openvpn.net/vpn-client/){target="_blank"}.
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

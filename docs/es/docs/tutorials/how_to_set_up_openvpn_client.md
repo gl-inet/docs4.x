@@ -8,7 +8,7 @@ Vea este vídeo o siga los pasos que se indican a continuación.
 
 ---
 
-Antes de empezar, asegúrese de tener una suscripción activa con un proveedor de servicios VPN que admita la configuración manual de OpenVPN. Haga clic [aquí](https://www.gl-inet.com/solutions/vpn/){target="\_blank"} para consultar los proveedores OpenVPN compatibles con GL.iNet.
+Antes de empezar, asegúrese de tener una suscripción activa con un proveedor de servicios VPN que admita la configuración manual de OpenVPN. Haga clic [aquí](https://www.gl-inet.com/solutions/vpn/){target="_blank"} para consultar los proveedores OpenVPN compatibles con GL.iNet.
 
 A continuación se indican los pasos para configurar un cliente OpenVPN mediante el panel de administración web del router.
 
@@ -73,4 +73,4 @@ Abra un navegador web y busque su dirección IP y su ubicación. Si coinciden co
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

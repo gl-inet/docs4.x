@@ -2,18 +2,18 @@
 
 ## Produktübersicht
 
-Mudi 7 is a portable 5G NR Wi-Fi 7 travel router built for road warriors and business travelers, delivering reliable, private networks to secure data against cyber threats. It features 5G hyper-speed, dual SIM auto-switching (failover), and Wi-Fi 7 (320MHz channels and 4K QAM) for stable, fast connectivity, supporting fast downloads, 4K streaming, lag-free video conferencing even in crowded areas.
+Mudi 7 ist ein tragbarer 5G-NR-Wi-Fi-7-Reiserouter für Vielreisende und Geschäftsanwender, der zuverlässige private Netzwerke bereitstellt, um Daten vor Cyberbedrohungen zu schützen. Er bietet 5G-Hochgeschwindigkeit, automatisches Umschalten zwischen zwei SIM-Karten (Failover) sowie Wi-Fi 7 mit 320-MHz-Kanälen und 4K QAM für stabile und schnelle Verbindungen. So werden schnelle Downloads, 4K-Streaming und verzögerungsfreie Videokonferenzen auch in stark frequentierten Bereichen unterstützt.
 
-Equipped with a touchscreen, the Mudi 7 allows you to monitor real-time data usage, signal strength, connected devices, and client speed, and adjust settings with simple taps for intuitive, hassle-free control.
+Dank des Touchscreens können Sie mit dem Mudi 7 die Datennutzung in Echtzeit, die Signalstärke, verbundene Geräte und Client-Geschwindigkeiten überwachen und Einstellungen per Fingertipp anpassen, für eine intuitive und unkomplizierte Bedienung.
 
 ![gl-e5800 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/gl-e5800_overview.png){class="glboxshadow"}
 
 ## Lieferumfang
 
 - 1 x Mudi 7 (GL-E5800)
-- 1 x Battery Pack
-- 1 x 10Gbps USB-C Cable
-- 1 x Travel Pouch
+- 1 x Akkupack
+- 1 x 10-Gbit/s-USB-C-Kabel
+- 1 x Reisetasche
 - 1 x Benutzerhandbuch
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/unboxing.png){class="glboxshadow"}
@@ -30,27 +30,33 @@ Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Sc
 
 ### 1. SIM-Karte einsetzen
 
-Install Nano-SIM card(s) on your Mudi 7. If you prefer using eSIM, skip this and turn to step 2.
+Setzen Sie Nano-SIM-Karte(n) in Ihren Mudi 7 ein. Wenn Sie lieber eSIM verwenden möchten, überspringen Sie diesen Schritt und fahren Sie mit Schritt 2 fort.
 
-First, remove the battery cover, then take out Mudi 7's battery.
+Nutzen Sie zuerst die kleine Kerbe unten rechts an der Rückabdeckung als Hebelpunkt. Hebeln Sie entlang der Fuge, um einen Spalt zu schaffen, öffnen Sie dann die Rückabdeckung und nehmen Sie den Akku des Mudi 7 heraus.
 
-Second, insert the Nano-SIM card(s). If using only one card, prioritize SIM 1.
+![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
-Finally, put the battery and the cover back.
+![remove battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery1.png){class="glboxshadow"}
 
-![install nano-sim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/install_nano-sim.png){class="glboxshadow"}
+Setzen Sie als Nächstes die Nano-SIM-Karte(n) ein. Wenn Sie nur eine Karte verwenden, nutzen Sie bevorzugt SIM 1.
+
+![sim slots](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/sim-slots.png){class="glboxshadow"}
+
+Setzen Sie abschließend den Akku wieder ein und bringen Sie die Abdeckung wieder an.
+
+![restore battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery2.png){class="glboxshadow"}
 
 ### 2. Einschalten
 
-Press and hold the Power button for **3 seconds**, or plug in a power adapter.
+Halten Sie die Ein-/Aus-Taste **3 Sekunden** lang gedrückt oder schließen Sie ein Netzteil an.
 
-![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power_on.png){class="glboxshadow"}
+![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
 
 ### 3. Grundeinstellungen
 
-Follow the on-screen instructions to configure basic settings, including **screen passcode**, **admin password**, **Wi-Fi name**, **Wi-Fi password** and **frequency bands**.
+Folgen Sie den Anweisungen auf dem Bildschirm, um die Grundeinstellungen zu konfigurieren, darunter **Bildschirm-Passcode**, **Admin-Passwort**, **Wi-Fi-Name**, **Wi-Fi-Passwort** und **Frequenzbänder**.
 
-**Tip**: The default admin password is the last 9 characters of the device's S/N, followed by a # character. You may use the default password or set a custom one.
+**Tipp:** Das Standard-Admin-Passwort besteht aus den letzten 9 Zeichen der S/N des Geräts, gefolgt von einem `#`. Sie können dieses Standard-Passwort verwenden oder ein eigenes festlegen.
 
 ### 4. Internet einrichten
 
@@ -113,52 +119,52 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
     ![ethernet connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
 
-    1. Connect Mudi 7's Ethernet port to an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) via an Ethernet cable.
-    2. On the touchscreen or web admin panel, go to **Network** -> **Ethernet Ports**, set the port role to **WAN**, and click **Apply**.
+    1. Verbinden Sie den Ethernet-Port Ihres Mudi 7 per Ethernet-Kabel mit einer vorgelagerten Netzwerkquelle, z. B. einem ISP-Modem, Netzwerkswitch oder einer Ethernet-Wanddose.
+    2. Gehen Sie auf dem Touchscreen oder im Web-Admin-Panel zu **Network** -> **Ethernet Ports**, setzen Sie die Portrolle auf **WAN** und klicken Sie auf **Apply**.
 
         ![touchscreen ethernet wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-ethernet-wan.png){class="glboxshadow"}
 
-    3. Once successfully connected to the internet, an Ethernet port icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
+    3. Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint oben rechts auf dem Touchscreen ein Ethernet-Port-Symbol. Die Verbindungsdetails können Sie auch im Web-Admin-Panel prüfen.
 
-    Please refer to [Connect to the Internet via an Ethernet cable](../../interface_guide/internet_ethernet.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über ein Ethernet-Kabel eine Verbindung zum Internet herstellen](../../interface_guide/internet_ethernet.md).
 
 === "Repeater"
 
     ![repeater connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_repeater.jpg){class="glboxshadow"}
 
-    1. On the touchscreen or web admin panel, go to **Internet** -> **Repeater** and click **Connect**. Mudi 7 will start scanning for available Wi-Fi networks.
-    2. Select the Wi-Fi network you want Mudi 7 to extend.
-    3. Enter the password and click **Apply**.
-    4. Once successfully connected to the internet, a Wi-Fi icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
+    1. Gehen Sie auf dem Touchscreen oder im Web-Admin-Panel zu **Internet** -> **Repeater** und klicken Sie auf **Connect**. Mudi 7 beginnt dann mit der Suche nach verfügbaren Wi-Fi-Netzwerken.
+    2. Wählen Sie das Wi-Fi-Netzwerk aus, das Mudi 7 erweitern soll.
+    3. Geben Sie das Passwort ein und klicken Sie auf **Apply**.
+    4. Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint oben rechts auf dem Touchscreen ein Wi-Fi-Symbol. Die Verbindungsdetails können Sie auch im Web-Admin-Panel prüfen.
 
-    Please refer to [Connect to the Internet via an existing Wi-Fi network](../../interface_guide/internet_repeater.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über ein vorhandenes Wi-Fi-Netzwerk eine Verbindung zum Internet herstellen](../../interface_guide/internet_repeater.md).
 
 === "Tethering"
 
     ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_tethering.jpg){class="glboxshadow"}
 
-    1. Connect your mobile device (e.g., smartphone or USB dongle) to Mudi 7's USB-C port via a USB cable.
-    2. On your mobile device, go to Settings and enable **USB Tethering**. If you use iPhone, tap **Trust This Device** if prompted.
-    3. Mudi 7 will then automatically connect to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and check the Tethering connection on the INTERNET page.
-    4. Once successfully connected to the internet, a chain link icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
+    1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-C-Port des Mudi 7.
+    2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie **USB Tethering**. Wenn Sie ein iPhone verwenden, tippen Sie bei entsprechender Aufforderung auf **Trust This Device**.
+    3. Mudi 7 verbindet sich anschließend automatisch mit Ihrem Gerät. Falls keine Verbindung hergestellt wird, wiederholen Sie die obigen Schritte oder melden Sie sich im Web-Admin-Panel an und prüfen Sie die Tethering-Verbindung auf der Seite INTERNET.
+    4. Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint oben rechts auf dem Touchscreen ein Kettensymbol. Die Verbindungsdetails können Sie auch im Web-Admin-Panel prüfen.
 
-    Please refer to [Connect to the Internet via USB tethering](../../interface_guide/internet_tethering.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Über USB-Tethering eine Verbindung zum Internet herstellen](../../interface_guide/internet_tethering.md).
 
 === "USB Ethernet"
 
     ![usb ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_usb_ethernet.png){class="glboxshadow"}
 
-    Mudi 7 is equipped with an **OTG-enabled** USB-C port, allowing you to add a second Ethernet port for Dual-Ethernet WAN. This requires a **separately sold USB‑C‑to‑Ethernet adapter**.
+    Mudi 7 ist mit einem **OTG-fähigen** USB-C-Port ausgestattet, sodass Sie für Dual-Ethernet-WAN einen zweiten Ethernet-Port hinzufügen können. Dafür wird ein **separat erhältlicher USB-C-auf-Ethernet-Adapter** benötigt.
 
-    <small>*USB OTG (On-The-Go) is a USB standard that enables compatible devices like routers to switch between host and peripheral roles, allowing direct data transmission and power interaction without a separate host device.</small>
+    <small>*USB OTG (On-The-Go) ist ein USB-Standard, der kompatiblen Geräten wie Routern erlaubt, zwischen Host- und Peripherierolle zu wechseln, sodass direkte Datenübertragung und Stromversorgung ohne separates Host-Gerät möglich sind.</small>
 
-    1. Connect an upstream network source (e.g., ISP modem, network switch, or Ethernet jack on the wall) to Mudi 7's USB-C port via a USB C-to-Ethernet adapter.
-    2. On the touchscreen or web admin panel, go to **Network** -> **Ethernet Ports** -> **USB Ethernet Port**, set the port role to **WAN**, and click **Apply**.
+    1. Verbinden Sie eine vorgelagerte Netzwerkquelle, z. B. ein ISP-Modem, einen Netzwerkswitch oder eine Ethernet-Wanddose, über einen USB-C-auf-Ethernet-Adapter mit dem USB-C-Port des Mudi 7.
+    2. Gehen Sie auf dem Touchscreen oder im Web-Admin-Panel zu **Network** -> **Ethernet Ports** -> **USB Ethernet Port**, setzen Sie die Portrolle auf **WAN** und klicken Sie auf **Apply**.
 
         ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
 
-    3. Mudi 7 will then automatically connect to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and check the USB Ethernet connection on the INTERNET page.
-    3. Once successfully connected to the internet, a USB icon and an Ethernet port icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
+    3. Mudi 7 verbindet sich anschließend automatisch mit Ihrem Gerät. Falls keine Verbindung hergestellt wird, wiederholen Sie die obigen Schritte oder melden Sie sich im Web-Admin-Panel an und prüfen Sie die USB-Ethernet-Verbindung auf der Seite INTERNET.
+    4. Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheinen oben rechts auf dem Touchscreen ein USB-Symbol und ein Ethernet-Port-Symbol. Die Verbindungsdetails können Sie auch im Web-Admin-Panel prüfen.
 
 ## Firmware-Upgrade
 
@@ -176,25 +182,25 @@ Sie können die Firmware von Mudi 7 über den Touchscreen oder das Web-Admin-Pan
 
 2. Sobald die Verbindung hergestellt ist, sucht das System automatisch nach verfügbaren Firmware-Updates. Wenn eine neue Firmware verfügbar ist, erscheint eine Meldung auf dem Bildschirm. Klicken Sie im Pop-up-Fenster auf **Go to Upgrade**, um fortzufahren.
 
-    ![go to upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade1.png){class="glboxshadow" width="300"}
+   ![go to upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade1.png){class="glboxshadow" width="300"}
 
 3. Wenn das Pop-up-Fenster nicht erscheint, tippen Sie auf dem Startbildschirm auf **More** -> **About Device** -> **Version & Upgrade** -> **Download & Upgrade** und folgen Sie dann den Anweisungen auf dem Bildschirm, um die Firmware zu aktualisieren.
 
-    ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
+   ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
 
 ### Upgrade über das Web
 
 1. Online-Upgrade
 
-    Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade**, um die Firmware Ihres Routers zu aktualisieren.
+   Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade**, um die Firmware Ihres Routers zu aktualisieren.
 
-    Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md#online-upgrade).
+   Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md#online-upgrade).
 
 2. Lokales Upgrade
 
-    Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade**, um die Firmware Ihres Routers zu aktualisieren.
+   Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade**, um die Firmware Ihres Routers zu aktualisieren.
 
-    Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md#local-upgrade).
+   Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md#local-upgrade).
 
 ## Werkseinstellungen wiederherstellen
 
@@ -210,25 +216,25 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
 1. Tippen Sie auf der Startseite auf **More**.
 
-    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset1.png){class="glboxshadow" width="300"}
+   ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset1.png){class="glboxshadow" width="300"}
 
 2. Scrollen Sie auf der Seite **More** ganz nach unten und tippen Sie auf **Reset**.
 
-    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset2.png){class="glboxshadow" width="300"}
+   ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset2.png){class="glboxshadow" width="300"}
 
 3. Tippen Sie zur Bestätigung erneut auf **Reset**. Der Router beginnt mit dem Zurücksetzen und startet anschließend neu.
 
-    ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
+   ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
 ### Über die Taste zurücksetzen
 
 1. Entfernen Sie die Rückabdeckung. Dort finden Sie die Reset-Taste wie unten gezeigt.
 
-    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+   ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
 2. Halten Sie die Reset-Taste **10 Sekunden** lang gedrückt und lassen Sie sie dann los, um einen Hard Reset durchzuführen. Achten Sie währenddessen auf die Hinweise auf dem Bildschirm und folgen Sie den Anweisungen.
 
-    Dadurch werden alle Ihre Einstellungen gelöscht. Bitte gehen Sie vorsichtig vor.
+   Dadurch werden alle Ihre Einstellungen gelöscht. Bitte gehen Sie vorsichtig vor.
 
 **Tipp**: Wenn Sie die Netzwerkverbindung wiederherstellen möchten, ohne einen Werksreset durchzuführen, halten Sie die Reset-Taste einfach **4 Sekunden** lang gedrückt und lassen Sie sie dann los, um Ihr Netzwerk zu reparieren. Achten Sie währenddessen auf die Hinweise auf dem Bildschirm und folgen Sie den Anweisungen.
 
@@ -248,44 +254,43 @@ Dadurch wird die Netzwerkschnittstelle neu gestartet, während Wi-Fi-Einstellung
 
 2. Klicken Sie auf **Delete All and Reboot**. Der Router beginnt mit dem Zurücksetzen und startet anschließend neu.
 
-    ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
+   ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
 
 ## Anmeldung im Web-Admin-Panel
 
-You can log into the Mudi 7 web Admin Panel to configure or check more settings.
+Sie können sich im Web-Admin-Panel des Mudi 7 anmelden, um weitere Einstellungen zu konfigurieren oder zu prüfen.
 
-First, connect a device (e.g., computer, laptop or smartphone) to the Mudi 7 via Wi-Fi, an Ethernet cable, or a USB cable.
+Verbinden Sie zunächst ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per Wi-Fi, Ethernet-Kabel oder USB-Kabel mit dem Mudi 7.
 
 - **Wi-Fi**
-
-    - <u>QR code</u>: Use your device to scan the QR code on the Mudi 7 screen. Then click "Join" on your device to connect.
-    - <u>Manual Connect</u>: On your device, go to Settings -> WLAN, locate the Wi-Fi network name of Mudi 7 in the available networks list, and enter the password to join the network. (You can find the default network name and password printed on the label.)
+  - <u>QR-Code</u>: Scannen Sie mit Ihrem Gerät den QR-Code auf dem Bildschirm des Mudi 7. Klicken Sie anschließend auf Ihrem Gerät auf „Join“, um die Verbindung herzustellen.
+  - <u>Manuell verbinden</u>: Öffnen Sie auf Ihrem Gerät Einstellungen -> WLAN, suchen Sie den Wi-Fi-Netzwerknamen des Mudi 7 in der Liste der verfügbaren Netzwerke und geben Sie das Passwort ein, um sich zu verbinden. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett.
 
 - **Ethernet**
 
-    Connect your device to the Ethernet port (default LAN) of Mudi 7 via an Ethernet cable.
+  Verbinden Sie Ihr Gerät per Ethernet-Kabel mit dem Ethernet-Port des Mudi 7 (standardmäßig LAN).
 
 - **USB**
 
-    Connect your device to the USB-C port of Mudi 7 via a USB cable. The OTG-enabled USB-C port allows you to access the Mudi 7's WebGUI in the next step.
+  Verbinden Sie Ihr Gerät per USB-Kabel mit dem USB-C-Port des Mudi 7. Über den OTG-fähigen USB-C-Port können Sie im nächsten Schritt auf die WebGUI des Mudi 7 zugreifen.
 
-Then open a web browser and enter `192.168.8.1` in the address bar to access the login page. Select your language, set your admin password, and click **Apply**.
+Öffnen Sie dann einen Webbrowser und geben Sie `192.168.8.1` in die Adressleiste ein, um die Anmeldeseite aufzurufen. Wählen Sie Ihre Sprache aus, legen Sie Ihr Admin-Passwort fest und klicken Sie auf **Apply**.
 
-You will then be logged into the Mudi 7 web Admin Panel.
+Anschließend sind Sie im Web-Admin-Panel des Mudi 7 angemeldet.
 
-Below is an overview of the features in the Mudi 7 web Admin Panel.
+Im Folgenden finden Sie einen Überblick über die Funktionen im Web-Admin-Panel des Mudi 7.
 
 ## WLAN
 
-The Wireless page allows you to configure settings for the 6 GHz, 5 GHz, and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+Auf der Seite Wireless können Sie Einstellungen für die 6-GHz-, 5-GHz- und 2.4-GHz-Wi-Fi-Netzwerke konfigurieren, darunter das Aktivieren von Wi-Fi, das Festlegen der TX-Leistung, das Definieren des Wi-Fi-Namens (SSID), das Aktivieren randomisierter BSSID, die Auswahl des Wi-Fi-Sicherheitsmodus und Passworts sowie die Konfiguration von SSID-Sichtbarkeit, Wi-Fi-Modus, Bandbreite und Kanal.
 
 Informationen zur Einrichtung von Wireless finden Sie unter [Wireless](../../interface_guide/wireless.md).
 
-**Note**: There are some differences in the wireless settings of the Mudi 7 compared with those of other GL.iNet Wi-Fi 7 routers.
+**Hinweis:** Bei den Wireless-Einstellungen des Mudi 7 gibt es einige Unterschiede im Vergleich zu anderen GL.iNet-Wi-Fi-7-Routern.
 
-1. Due to chipset hardware constraints, the 5 GHz and 6 GHz Wi-Fi cannot be enabled simultaneously.
-2. When Repeater is enabled, the Guest Network will be automatically disabled.
-3. As required by regulations, switch Wi-Fi to Outdoor mode when using it outdoors. This may reduce the coverage range. You can switch the Usage Environment (Indoor or Outdoor) at the top of the Wireless page.
+1. Aufgrund von Hardware-Beschränkungen des Chipsatzes können 5-GHz- und 6-GHz-Wi-Fi nicht gleichzeitig aktiviert werden.
+2. Wenn Repeater aktiviert ist, wird das Gastnetzwerk automatisch deaktiviert.
+3. Wie gesetzlich vorgeschrieben, sollten Sie Wi-Fi bei Verwendung im Außenbereich auf den Outdoor-Modus umstellen. Dadurch kann sich die Reichweite verringern. Die Nutzungsumgebung (Indoor oder Outdoor) können Sie oben auf der Seite Wireless umschalten.
 
 ## Clients
 
@@ -297,283 +302,283 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
 === "GoodCloud"
 
-    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} cloud management service provides an easy and simple way to remotely access and manage GL.iNet routers.
+    Der Cloud-Management-Dienst GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} bietet eine einfache Möglichkeit, per Fernzugriff auf GL.iNet-Router zuzugreifen und sie zu verwalten.
 
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+    Zum Einrichten von GoodCloud lesen Sie bitte [GoodCloud](../../interface_guide/cloud.md).
 
 === "AstroWarp"
 
-    AstroWarp is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroWarp supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroWarp offers a more robust and dependable solution for managing devices and maintaining secure, stable networks.
+    AstroWarp ist eine fortschrittliche Netzwerkplattform für nahtlose Remote-Vernetzung und Fernverwaltung von Geräten. AstroWarp wurde speziell für die Integration mit GL.iNet-Routern entwickelt und unterstützt ein umfassendes Gerätemanagement über ganze Netzwerke hinweg, einschließlich der Verwaltung über- und untergeordneter Geräte. Mit seinem Fokus auf netzwerkweites Management und zukünftiger Unterstützung für Hardware-Steuerung bietet AstroWarp eine robuste und verlässliche Lösung für die Geräteverwaltung sowie für sichere und stabile Netzwerke.
 
-    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+    Zum Einrichten von AstroWarp lesen Sie bitte [AstroWarp](../../interface_guide/astrowarp.md).
 
 ## VPN
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Mudi 7 supports OpenVPN and WireGuard.
+Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten Datenverkehr zwischen Ihrem Gerät und dem VPN-Server. Es bietet eine zusätzliche Ebene für Datenschutz und Sicherheit (VPN-Client) und ermöglicht Ihnen den Zugriff auf ein entferntes Netzwerk (VPN-Server). Mudi 7 unterstützt OpenVPN und WireGuard.
 
 === "OpenVPN"
 
-    Mudi 7 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Mudi 7 und andere GL.iNet-Router unterstützen das OpenVPN-Protokoll, das hohe Sicherheit bietet. Folgen Sie zum Einrichten von OpenVPN diesen Anleitungen:
 
-    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
-    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
+    * [So richten Sie einen OpenVPN-Client ein](../../interface_guide/openvpn_client.md)
+    * [So richten Sie einen OpenVPN-Server ein](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Mudi 7 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Mudi 7 und andere GL.iNet-Router unterstützen das WireGuard-Protokoll, das hohe Geschwindigkeiten und eine komfortable Nutzung bietet. Folgen Sie zum Einrichten von WireGuard diesen Anleitungen:
 
-    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
-    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+    * [So richten Sie einen WireGuard-Client ein](../../interface_guide/wireguard_client.md)
+    * [So richten Sie einen WireGuard-Server ein](../../interface_guide/wireguard_server.md)
 
 ## Netzwerk
 
 === "Multi-WAN"
 
-    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., ethernet, repeater, tethering, cellular, and USB ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access.
+    Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen einrichten können, z. B. Ethernet, Repeater, Tethering, Cellular und USB Ethernet. Wenn Ihre aktuelle Internetverbindung ausfällt, wechselt der Router automatisch zu einer anderen Internetverbindung. So bleibt der Internetzugang stabil und unterbrechungsfrei.
 
-    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md).
+    Zum Einrichten von Multi-WAN lesen Sie bitte [Multi-WAN](../../interface_guide/multi-wan.md).
 
 === "LAN"
 
-    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently.
+    LAN, kurz für Local Area Network, ist ein Netzwerk, das Computer und Geräte in einem begrenzten geografischen Bereich wie einem Zuhause oder Büro verbindet. Es ermöglicht schnelle Datenübertragung und gemeinsame Ressourcennutzung, sodass Geräte effizient miteinander kommunizieren können.
 
-    To set up LAN, refer to [Lan](../../interface_guide/lan.md).
+    Zum Einrichten von LAN lesen Sie bitte [Lan](../../interface_guide/lan.md).
 
 === "Gastnetzwerk"
 
-    It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
+    Hier können Sie ein Subnetz innerhalb der privaten IPv4-Adressbereiche 192.168.0.0/16, 172.16.0.0/12 oder 10.0.0.0/8 festlegen, Gateway- und Netmasken-IP-Adressen angeben und Sicherheitseinstellungen wie AP Isolation für das Gastnetzwerk konfigurieren.
 
-    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md).
+    Zum Einrichten des Gastnetzwerks lesen Sie bitte [Guest Network](../../interface_guide/guest_network.md).
 
 ---
 
 === "DNS"
 
-    The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
+    Auf der Seite DNS können Sie benutzerdefinierte DNS-Server festlegen, den Schutz vor DNS-Rebinding-Angriffen aktivieren und die DNS-Einstellungen aller Clients überschreiben. Außerdem können Sie erlauben, dass benutzerdefiniertes DNS VPN-DNS überschreibt, und den DNS-Servermodus auf automatisch setzen oder DNS-Server der Ethernet-Verbindung manuell angeben.
 
-    To set up DNS, refer to [DNS](../../interface_guide/dns.md).
+    Zum Einrichten von DNS lesen Sie bitte [DNS](../../interface_guide/dns.md).
 
 === "Ethernet Port"
 
-    The Ethernet Port page allows you to set the Ethernet port role (i.e., using it as WAN/LAN), switch the MAC mode and MAC address for the WAN interface, and display the negotiated port rate.
+    Auf der Seite Ethernet Port können Sie die Portrolle des Ethernet-Ports festlegen, also ihn als WAN oder LAN verwenden, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle ändern und die ausgehandelte Portgeschwindigkeit anzeigen.
 
-    Mudi 7 comes with a single Ethernet port, default to LAN. You can switch it to WAN port on the touchscreen or the web admin panel if required.
+    Mudi 7 verfügt über einen einzelnen Ethernet-Port, der standardmäßig als LAN konfiguriert ist. Bei Bedarf können Sie ihn über den Touchscreen oder das Web-Admin-Panel auf WAN umstellen.
 
-    To manage Ethernet ports, refer to [Ethernet Port](../../interface_guide/ethernet_port.md).
+    Zum Verwalten der Ethernet-Ports lesen Sie bitte [Ethernet Port](../../interface_guide/ethernet_port.md).
 
 === "IPv6"
 
-    IPv6, short for Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet.
+    IPv6, kurz für Internet Protocol Version 6, ist die neueste Version des Internetprotokolls und wurde als Nachfolger von IPv4 entwickelt. Es bietet einen wesentlich größeren Adressraum und damit nahezu unbegrenzt viele eindeutige IP-Adressen, was für die stetig wachsende Zahl internetfähiger Geräte entscheidend ist.
 
-    To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
+    Zum Einrichten von IPv6 lesen Sie bitte [IPV6](../../interface_guide/network_mode.md).
 
 ---
 
 === "IGMP Snooping"
 
-    IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic.
+    IGMP Snooping ist eine Netzwerkoptimierungstechnik, die in Ethernet-Switches eingesetzt wird, um Multicast-Datenverkehr zu verwalten und zu steuern.
 
-    To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+    Zum Einrichten von IGMP Snooping lesen Sie bitte [IGMP Snooping](../../interface_guide/igmp_snooping.md).
 
 === "Network Mode"
 
-    Network mode refers to the configuration that determines how a device connects to a network and communicates with other devices.
+    Der Netzwerkmodus bezeichnet die Konfiguration, die festlegt, wie sich ein Gerät mit einem Netzwerk verbindet und mit anderen Geräten kommuniziert.
 
-    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
+    Zum Einrichten des Netzwerkmodus lesen Sie bitte [Network Mode](../../interface_guide/network_mode.md).
 
-    **Note**: Mudi 7 supports Router, Access Point, and Extender mode. It does not support WDS mode.
+    **Hinweis:** Mudi 7 unterstützt Router-, Access-Point- und Extender-Modus. Der WDS-Modus wird nicht unterstützt.
 
 === "Drop-in gateway"
 
-    Drop-in gateway extends the functionality of your main router, including AdGuard Home, encrypted DNS, and VPN client.
+    Drop-in Gateway erweitert die Funktionalität Ihres Hauptrouters um Funktionen wie AdGuard Home, verschlüsseltes DNS und VPN-Client.
 
-    To set up drop-in gateway, refer to these links:
+    Zum Einrichten von Drop-in Gateway lesen Sie bitte diese Links:
 
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
-    - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
+    - [So richten Sie Drop-in Gateway ein](../../tutorials/how_to_set_up_drop_in_gateway.md)
 
 === "Netzwerkbeschleunigung"
 
-    Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
+    Netzwerkbeschleunigung kann die CPU-Last reduzieren und die Weiterleitung von Datenpaketen beschleunigen.
 
-    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
+    Zum Einrichten der Netzwerkbeschleunigung lesen Sie bitte [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 ## Durchflusskontrolle
 
 === "Parental Control"
 
-    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
+    Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu steuern. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
 
-    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control.md).
+    Zum Einrichten von Parental Control lesen Sie bitte [Parental Control](../../interface_guide/parental_control.md).
 
 ## Sicherheit
 
 === "Port Forwarding"
 
-    Port forwarding allows remote servers and devices on the internet to access devices on a private network.
+    Port forwarding ermöglicht es entfernten Servern und Geräten im Internet, auf Geräte in einem privaten Netzwerk zuzugreifen.
 
-    To set up port forwarding, refer to [Port Forwarding](../../interface_guide/port_forwarding.md).
+    Zum Einrichten der Portweiterleitung lesen Sie bitte [Port Forwarding](../../interface_guide/port_forwarding.md).
 
 === "Management Control"
 
-    The Management Control allows you to configure various security settings to protect your network and router from unauthorized access. This page includes the following options:
+    Mit Management Control können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen. Diese Seite enthält die folgenden Optionen:
 
-    * Local Access Control: Manage and restrict access to the router's interface from devices connected to your local network.
-    * Remote Access Control: Configure and restrict access to the router's interface from remote locations over the internet, enhancing security against external threats.
-    * Open Ports on Router: Control which ports are open on the router, limiting potential vulnerabilities and unauthorized access.
+    * Local Access Control: Verwalten und beschränken Sie den Zugriff auf die Routeroberfläche von Geräten in Ihrem lokalen Netzwerk.
+    * Remote Access Control: Konfigurieren und beschränken Sie den Zugriff auf die Routeroberfläche aus entfernten Standorten über das Internet, um die Sicherheit vor externen Bedrohungen zu erhöhen.
+    * Open Ports on Router: Steuern Sie, welche Ports am Router geöffnet sind, um potenzielle Schwachstellen und unbefugten Zugriff zu begrenzen.
 
-    These settings help you maintain a secure network environment, safeguarding both your router and connected devices.
+    Diese Einstellungen helfen Ihnen, eine sichere Netzwerkumgebung aufrechtzuerhalten und sowohl Ihren Router als auch verbundene Geräte zu schützen.
 
-    Please refer to [Security](../../interface_guide/security.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Security](../../interface_guide/security.md).
 
 === "NAT Mode"
 
-    The NAT Mode page allows you to enable or disable Full Cone NAT and SIP ALG functionality.
+    Auf der Seite NAT Mode können Sie die Funktionen Full Cone NAT und SIP ALG aktivieren oder deaktivieren.
 
-    To set up NAT settings, refer to [NAT Mode](../../interface_guide/nat_settings.md).
+    Zum Einrichten der NAT-Einstellungen lesen Sie bitte [NAT Mode](../../interface_guide/nat_settings.md).
 
 ## Anwendungen
 
 === "Plug-ins"
 
-    A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities.
+    Ein Plug-in ist eine Softwarekomponente, die einem bestehenden Computerprogramm bestimmte Funktionen oder Erweiterungen hinzufügt und so dessen Anpassung und Erweiterung ermöglicht.
 
-    To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
+    Zum Einrichten von Plug-ins lesen Sie bitte [Plug-ins](../../interface_guide/plugins.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network.
+    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dies ist besonders nützlich für Benutzer, die für den Zugriff auf ein entferntes Netzwerk eine statische IP-Adresse benötigen.
 
-    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md).
+    Zum Einrichten von Dynamic DNS lesen Sie bitte [Dynamic DNS](../../interface_guide/ddns.md).
 
 === "Network Storage"
 
-    Network storage refers to a centralized data storage solution that allows multiple users and devices to access and share files over a network.
+    Network Storage bezeichnet eine zentrale Datenspeicherlösung, die es mehreren Benutzern und Geräten ermöglicht, über ein Netzwerk auf Dateien zuzugreifen und sie gemeinsam zu nutzen.
 
-    To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
+    Zum Einrichten von Network Storage lesen Sie bitte [Network Storage](../../interface_guide/network_storage.md).
 
 ---
 
 === "AdGuard Home"
 
-    AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network.
+    AdGuard Home ist eine netzwerkweite Lösung zum Blockieren von Werbung und Trackern, die als DNS-Server fungiert, um unerwünschte Inhalte auf allen Geräten eines Heimnetzwerks zu filtern.
 
-    To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
+    Zum Einrichten von AdGuard Home lesen Sie bitte [AdGuard Home](../../interface_guide/adguardhome.md).
 
 === "ZeroTier"
 
-    ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network.
+    ZeroTier ist eine Software-defined-Networking-Lösung, mit der Benutzer sichere virtuelle Netzwerke über das Internet erstellen können, sodass Geräte miteinander verbunden werden, als befänden sie sich im selben lokalen Netzwerk.
 
-    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
+    Zum Einrichten von ZeroTier lesen Sie bitte [ZeroTier](../../interface_guide/zerotier.md).
 
 === "Tailscale"
 
-    Tailscale is a VPN service that allows you to access your devices and applications anywhere.
+    Tailscale ist ein VPN-Dienst, mit dem Sie von überall auf Ihre Geräte und Anwendungen zugreifen können.
 
-    To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
+    Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/tailscale.md).
 
 === "Tor"
 
-    Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities.
+    Tor, kurz für The Onion Router, ist ein auf Privatsphäre ausgerichtetes Netzwerk, das anonyme Kommunikation über das Internet ermöglicht. Es leitet den Internetverkehr über eine Reihe von freiwillig betriebenen Servern (Nodes), um den Standort und die Nutzung des Benutzers zu verschleiern und Online-Aktivitäten nur schwer nachvollziehbar zu machen.
 
-    To set up Tor, refer to [Tor](../../interface_guide/tor.md).
+    Zum Einrichten von Tor lesen Sie bitte [Tor](../../interface_guide/tor.md).
 
 ## System
 
 === "Overview"
 
-    The Overview page provides a comprehensive snapshot of your router's current status and performance metrics. On this page, you can view:
+    Die Seite Overview bietet einen umfassenden Überblick über den aktuellen Status und die Leistungsdaten Ihres Routers. Auf dieser Seite können Sie Folgendes anzeigen:
 
-    * CPU Average Load: Monitor the average load on your router's CPU, helping to assess performance and identify potential bottlenecks.
-    * Memory Usage: Check how much of your router's memory is in use, aiding in the management of resources.
-    * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
-    * Flash Usage: View the utilization of the router's flash storage, ensuring there's sufficient space for firmware and configuration data.
-    * Device Info: Access detailed information about your router's system, including uptime, hostname, model, architecture, OpenWrt version, kernel version, device ID, device MAC and device S/N.
-    * External Storage: Check the status of any external storage devices connected to the router, such as USB drives or TF cards.
+    * CPU Average Load: Überwachen Sie die durchschnittliche Auslastung der Router-CPU, um die Leistung zu bewerten und mögliche Engpässe zu erkennen.
+    * Memory Usage: Prüfen Sie, wie viel Arbeitsspeicher Ihres Routers aktuell genutzt wird, um Ressourcen besser zu verwalten.
+    * LED Control: Schalten Sie die LED-Anzeigen des Routers ein oder aus, um die optischen Signale des Geräts anzupassen.
+    * Flash Usage: Sehen Sie die Auslastung des Flash-Speichers Ihres Routers ein, damit ausreichend Platz für Firmware- und Konfigurationsdaten verfügbar bleibt.
+    * Device Info: Greifen Sie auf detaillierte Systeminformationen Ihres Routers zu, darunter Uptime, Hostname, Modell, Architektur, OpenWrt-Version, Kernel-Version, Geräte-ID, Geräte-MAC und Geräte-S/N.
+    * External Storage: Prüfen Sie den Status externer Speichergeräte, die mit dem Router verbunden sind, z. B. USB-Laufwerke oder TF-Karten.
 
-    These features provide essential insights and controls, helping you to effectively manage and monitor your router's operation.
+    Diese Funktionen liefern wichtige Einblicke und Steuerungsmöglichkeiten, damit Sie den Betrieb Ihres Routers effektiv verwalten und überwachen können.
 
-    Please refer to [Overview](../../interface_guide/system_overview.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Overview](../../interface_guide/system_overview.md).
 
 === "Admin Password"
 
-    The Admin Password page allows you to set or change the password for the router's administrative interface.
+    Auf der Seite Admin Password können Sie das Passwort für die Administrationsoberfläche des Routers festlegen oder ändern.
 
-    The admin password must meet the following requirements:
+    Das Admin-Passwort muss die folgenden Anforderungen erfüllen:
 
-    * Minimum 10 characters and maximum 63 characters.
-    * Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
-    * At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
+    * Mindestens 10 und höchstens 63 Zeichen.
+    * Buchstaben (Groß- und Kleinschreibung wird unterschieden), Zahlen und Symbole ``! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~`` sind zulässig.
+    * Mindestens zwei der folgenden Kategorien sind erforderlich: Großbuchstaben, Kleinbuchstaben, Zahlen und Symbole.
 
 === "Upgrade"
 
-    The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
+    Auf der Seite Upgrade können Sie die Firmware Ihres Routers auf die neueste Version aktualisieren, um bessere Leistung, mehr Sicherheit und neue Funktionen zu erhalten. Diese Seite bietet zwei Upgrade-Optionen:
 
-    * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
-    * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
+    * Firmware Online Upgrade: Prüfen Sie automatisch auf die neueste Firmware-Version und installieren Sie sie direkt vom Server des Herstellers, um den Aktualisierungsprozess zu vereinfachen.
+    * Firmware Local Upgrade: Laden Sie manuell eine Firmware-Datei von Ihrem Computer hoch, um den Router zu aktualisieren, und behalten Sie dabei die Kontrolle über Version und Zeitpunkt des Upgrades.
 
-    These options allow you to keep your router up-to-date with the latest improvements and fixes.
+    Mit diesen Optionen halten Sie Ihren Router auf dem neuesten Stand und profitieren von aktuellen Verbesserungen und Fehlerbehebungen.
 
-    Please refer to [Upgrade](../../interface_guide/upgrade.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Upgrade](../../interface_guide/upgrade.md).
 
 ---
 
 === "Scheduled Tasks"
 
-    The Scheduled Tasks page allows you to configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
+    Auf der Seite Scheduled Tasks können Sie Ihren Router so konfigurieren, dass er in festgelegten Intervallen automatisch neu startet, um Leistung und Stabilität aufrechtzuerhalten.
 
-    Please refer to [Scheduled Tasks](../../interface_guide/scheduled_tasks.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
-    **Note**: Mudi 7 does not support LED display schedule and Wi-Fi status schedule.
+    **Hinweis:** Mudi 7 unterstützt weder einen Zeitplan für die LED-Anzeige noch einen Zeitplan für den Wi-Fi-Status.
 
 === "Display Management"
 
-    The Display Management page lets you manage the touchscreen display and its related settings.
+    Auf der Seite Display Management können Sie das Touchscreen-Display und die zugehörigen Einstellungen verwalten.
 
-    - Wallpaper: Customize the wallpaper and wake display style.
-    - Brightness: Adjust the touchscreen brightness. Use the slider or enter a percentage to fit different lighting conditions.
-    - Personalised Signature: Add a custom text to the touchscreen to show your unique style or for quick identification.
-    - Auto Lock: Set the time delay for the screen to auto-lock when there is no activity. The range is 15 seconds to 5 minutes.
-    - Passcode: Set a passcode for the touchscreen for an extra layer of security.
+    - Wallpaper: Passen Sie Hintergrundbild und Stil des Wake-Displays an.
+    - Brightness: Stellen Sie die Helligkeit des Touchscreens ein. Verwenden Sie den Schieberegler oder geben Sie einen Prozentwert ein, um sie an unterschiedliche Lichtverhältnisse anzupassen.
+    - Personalised Signature: Fügen Sie dem Touchscreen einen benutzerdefinierten Text hinzu, um Ihren eigenen Stil zu zeigen oder das Gerät schnell zu identifizieren.
+    - Auto Lock: Legen Sie die Verzögerung fest, nach der sich der Bildschirm bei Inaktivität automatisch sperrt. Der Bereich reicht von 15 Sekunden bis 5 Minuten.
+    - Passcode: Legen Sie einen Passcode für den Touchscreen fest, um eine zusätzliche Sicherheitsebene hinzuzufügen.
 
-    Please refer to [Display Management](../../interface_guide/display_management.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Display Management](../../interface_guide/display_management.md).
 
 === "USB & Power"
 
-    The USB & Power page allows you to configure USB-related settings and power management for your router, such as USB protocol, power direction, idle timeouts, and standby behavior.
+    Auf der Seite USB & Power können Sie USB-bezogene Einstellungen und die Energieverwaltung Ihres Routers konfigurieren, z. B. USB-Protokoll, Stromrichtung, Leerlauf-Timeouts und Standby-Verhalten.
 
-    Please refer to [USB & Power](../../interface_guide/usb_power.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [USB & Power](../../interface_guide/usb_power.md).
 
 ---
 
 === "Time Zone"
 
-    The Time Zone page allows you to set the correct time zone for your router, ensuring that all scheduled tasks, logs, and system events are accurately timestamped according to your local time. This setting is crucial for maintaining precise records and for the proper execution of time-based configurations.
+    Auf der Seite Time Zone können Sie die korrekte Zeitzone für Ihren Router festlegen, damit alle Zeitpläne, Protokolle und Systemereignisse präzise mit Ihrer Ortszeit versehen werden. Diese Einstellung ist wichtig für genaue Aufzeichnungen und die korrekte Ausführung zeitbasierter Konfigurationen.
 
-    Please refer to [Time Zone](../../interface_guide/time_zone.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Time Zone](../../interface_guide/time_zone.md).
 
 === "Reset Firmware"
 
-    The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
+    Auf der Seite Reset Firmware können Sie die aktuell installierte Firmware-Version Ihres Routers auf ihre Standardeinstellungen zurücksetzen, wodurch alle benutzerdefinierten Konfigurationen gelöscht werden. Dabei wird der Router auf die Standardeinstellungen der derzeit installierten Firmware-Version zurückgesetzt. Das ist hilfreich, um hartnäckige Probleme zu beheben oder mit der Standardkonfiguration der aktuellen Firmware neu zu beginnen.
 
-    Please refer to [Reset Firmware](../../interface_guide/reset_firmware.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Log"
 
-    The Log page provides access to various logs that record the router's activities and events, aiding in troubleshooting and performance monitoring. This page includes:
+    Auf der Seite Log erhalten Sie Zugriff auf verschiedene Protokolle, die die Aktivitäten und Ereignisse des Routers aufzeichnen und so die Fehlerbehebung sowie Leistungsüberwachung unterstützen. Diese Seite umfasst:
 
-    * System Log: Detailed logs of system-level events and activities.
-    * Kernel Log: Logs related to the kernel's operations and events.
-    * Crash Log: Records of system crashes and errors, useful for diagnosing critical issues.
-    * Cloud Log: Logs of interactions and activities related to GoodCloud services integrated with the router.
-    * Nginx Log: Logs from the Nginx web server, if used by the router, detailing web traffic and server operations.
+    * System Log: Detaillierte Protokolle von Systemereignissen und -aktivitäten.
+    * Kernel Log: Protokolle zu Vorgängen und Ereignissen des Kernels.
+    * Crash Log: Aufzeichnungen von Systemabstürzen und Fehlern, die bei der Diagnose kritischer Probleme helfen.
+    * Cloud Log: Protokolle zu Interaktionen und Aktivitäten im Zusammenhang mit den in den Router integrierten GoodCloud-Diensten.
+    * Nginx Log: Protokolle des Nginx-Webservers, sofern dieser vom Router genutzt wird, mit Informationen zu Webverkehr und Serverbetrieb.
 
-    Additionally, the page features an Export Log button, allowing you to export all collected logs for technical support analysis. This function is invaluable for diagnosing complex issues and obtaining professional assistance.
+    Zusätzlich verfügt die Seite über die Schaltfläche Export Log, mit der Sie alle gesammelten Protokolle zur Analyse durch den technischen Support exportieren können. Diese Funktion ist besonders hilfreich bei der Diagnose komplexer Probleme und beim Einholen professioneller Unterstützung.
 
-    Please refer to [Log](../../interface_guide/log.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Log](../../interface_guide/log.md).
 
 === "Advanced Settings"
 
-    The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
+    Auf der Seite Advanced Settings erhalten erfahrene Benutzer über die OpenWrt-LuCI-Oberfläche Zugriff auf erweiterte Konfigurationsoptionen, um Routereinstellungen und Funktionen über die grundlegenden Oberflächenoptionen hinaus fein abzustimmen. Dazu gehören detaillierte Netzwerkkonfigurationen, Firewall-Einstellungen und weitere erweiterte Systemanpassungen.
 
-    Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
+    Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).

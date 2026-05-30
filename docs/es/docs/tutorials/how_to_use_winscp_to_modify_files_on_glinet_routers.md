@@ -4,7 +4,7 @@ WinSCP es una herramienta sencilla para editar, copiar y descargar archivos o di
 
 ---
 
-1. Descargue WinSCP desde [aquí](https://winscp.net/eng/download.php){target="\_blank"} e instálelo en Windows.
+1. Descargue WinSCP desde [aquí](https://winscp.net/eng/download.php){target="_blank"} e instálelo en Windows.
 
 2. Conéctese al router y luego ejecute WinSCP.
 
@@ -32,4 +32,4 @@ WinSCP es una herramienta sencilla para editar, copiar y descargar archivos o di
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

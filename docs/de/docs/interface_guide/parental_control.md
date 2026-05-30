@@ -2,7 +2,7 @@
 
 Parental Control hilft dabei, Kinder online zu schützen, indem ungeeignete Websites blockiert und die Nutzungsdauer von Geräten begrenzt wird. So lässt sich der Zugriff auf schädliche Inhalte verhindern, die Bildschirmzeit steuern und eine verantwortungsvolle Internetnutzung fördern.
 
-Diese Funktion ist seit Firmware v4.2 verfügbar. **Hinweis**: Einige Modelle unterstützen Parental Control trotz Firmware v4.2 oder höher aufgrund unzureichenden Arbeitsspeichers nicht.
+> Hinweis: Einige Modelle unterstützen Parental Control aufgrund unzureichenden Arbeitsspeichers nicht, zum Beispiel Mango (GL-MT300N-V2) und Shadow (GL-AR300M series).
 
 Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten, um Parental Control auf GL.iNet-Routern einzurichten.
 
@@ -165,21 +165,15 @@ Wenn Ihre konfigurierten Einstellungen nicht wirksam werden, prüfen Sie bitte d
 
 ## Bark-Version
 
-Die [Bark](https://www.bark.us/){target="_blank"}-Version, die von Bark auf ihrer eigenen Plattform bereitgestellt und verwaltet wird, bietet die Möglichkeit, Anwendungen und Websites mit einem Klick zu filtern und die Historie der Anfragen zu überwachen.
+> Diese Anleitung gilt für Firmware v4.8 und früher. Für neuere Versionen klicken Sie bitte [hier](bark.md).
 
-Sie bietet Überwachungsfunktionen für mehr als 24 beliebte Apps und Social-Media-Plattformen, die in der voreingestellten Liste unserer lokalen Parental-Control-Funktion enthalten sind.
-
-Mit der Protokollfunktion wird aufgezeichnet, welcher Client wann auf welche Website zugegriffen hat. So können Eltern die Protokolle einfach prüfen, nicht blockierte Websites erkennen und sie schnell in den Verwaltungsbereich aufnehmen.
-
-Die Bark-Parental-Control-Funktion ist seit Firmware v4.5 verfügbar und wird nur von ausgewählten GL.iNet-Routern unterstützt.
+Der Dienst [Bark](https://www.bark.us/){target="_blank"} kann helfen, die digitale Welt Ihres Kindes zu schützen und umfassenden Online-Schutz zu bieten. In der Regel ist dafür ein kostenpflichtiges Abonnement erforderlich. Im Rahmen unserer Partnerschaft mit Bark bietet GL.iNet jedoch den Bark-Home-Plan **auf ausgewählten Routermodellen** kostenlos an und ermöglicht so erweiterte Überwachung und Warnmeldungen ohne zusätzliche Kosten.
 
 **Hinweis**:
 
 1. Der Bark-Dienst ist **nur in den Vereinigten Staaten, Australien und Südafrika** verfügbar. Details finden Sie [hier](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"}.
 
-2. Der Bark-Dienst erfordert in der Regel ein kostenpflichtiges Abonnement. Im Rahmen unserer Partnerschaft mit Bark bietet GL.iNet jedoch den Bark-Home-Plan auf ausgewählten Routermodellen kostenlos an, einschließlich erweiterter Überwachung und Benachrichtigungen ohne Zusatzkosten.
-
-3. Die beiden Parental-Control-Versionen können nicht gleichzeitig aktiviert werden. Beim Wechsel zwischen den Versionen wird die jeweils andere automatisch deaktiviert.
+2. Die beiden Parental-Control-Versionen können nicht gleichzeitig aktiviert werden. Wenn Sie eine aktivieren, wird die andere automatisch deaktiviert.
 
 ### Unterstützte Modelle
 
@@ -216,27 +210,39 @@ Die Bark-Parental-Control-Funktion ist seit Firmware v4.5 verfügbar und wird nu
 
 ### Einrichtungsschritte
 
-Melden Sie sich am webbasierten Admin Panel des Routers an und navigieren Sie zu **APPLICATIONS** -> **Parental Control**.
-
-Wählen Sie die Bark-Version aus, schalten Sie den Schalter ein und klicken Sie auf **Apply**.
+Melden Sie sich am webbasierten Admin Panel des Routers an und navigieren Sie zu **APPLICATIONS** -> **Parental Control**. Wählen Sie die Bark-Version aus.
 
 ![switch_versions](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
 
+Aktivieren Sie den Schalter für Bark und klicken Sie dann auf **Apply**.
+
 ![bark_enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_enable.png){class="glboxshadow"}
 
-**Hinweis:** Der Bark-Dienst ist möglicherweise in bestimmten Ländern nicht verfügbar. Da GL.iNet nicht der Anbieter dieses Dienstes ist, wenden Sie sich bei Problemen mit Bark bitte direkt an den [technischen Support von Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet).
-
-Der Bark-Dienst ist aktiviert, aber dieses Gerät ist noch keinem Konto zugeordnet. Verwenden Sie bitte den [Device Pairing Link](https://www.bark.us/app/signup/?ref=glinet&home=glinet), um dieses Gerät mit Ihrem Bark-Konto zu koppeln.
+Koppeln Sie anschließend Ihr Gerät mit Ihrem Bark-Konto. Klicken Sie auf **Device Pairing Link** oder [hier](https://www.bark.us/app/signup/?ref=glinet&home=glinet), um diesen Router mit Ihrem Bark-Konto zu koppeln.
 
 ![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_pairing.png){class="glboxshadow"}
 
-Nach der Kopplung wird die Seite wie folgt angezeigt.
+Sie werden zur Bark-Website weitergeleitet. Folgen Sie den Anweisungen auf dem Bildschirm, um sich anzumelden, Ihr Gerät zu koppeln, ein Profil zu erstellen und die Ersteinrichtung abzuschließen.
+
+![bark_welcome_page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_welcome.png){class="glboxshadow"}
+<small>(Bark-Anmeldung)</small>
+
+![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_setup.png){class="glboxshadow"}
+<small>(Gerät gekoppelt)</small>
+
+![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_create_profile.png){class="glboxshadow"}
+<small>(Ein Profil erstellen)</small>
+
+![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_get_started.png){class="glboxshadow"}
+<small>(Ersteinrichtung)</small>
+
+Sobald Ihr Gerät mit den Bark Cloud Services verbunden und mit Ihrem Konto gekoppelt ist, wird das webbasierte Admin Panel des Routers wie folgt angezeigt.
 
 ![bark_paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
 
-Ihr Gerät ist jetzt mit den Bark Cloud Services verbunden und mit Ihrem Konto gekoppelt. Bitte [gehen Sie zu Bark](https://www.bark.us/app/children/?ref=glinet&home=glinet) und melden Sie sich dort an, um ein Profil für die Netzwerksteuerung zu erstellen.
+Klicken Sie auf **Go to Bark** oder [hier](https://www.bark.us/app/children/?ref=glinet&home=glinet), um sich beim Bark-Dashboard anzumelden und Ihre Regeln für die Kindersicherung einzurichten.
 
-![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_setup.png){class="glboxshadow gl-90-desktop"}
+Da GL.iNet nicht der Anbieter dieses Dienstes ist, wenden Sie sich bei Problemen mit Bark bitte direkt an den [technischen Support von Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet).
 
 ---
 

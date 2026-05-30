@@ -1,77 +1,78 @@
 # Mudi V2 (GL-E750V2) Benutzerhandbuch
 
-**Note:** Mudi V2 (GL-E750V2) and Mudi (GL-E750) run on the same firmware. If you are using Mudi (GL-E750), [upgrade your firmware](https://dl.gl-inet.com/?model=e750) to use the latest features and functionality.
+**Hinweis:** Mudi V2 (GL-E750V2) und Mudi (GL-E750) verwenden dieselbe Firmware. Wenn Sie Mudi (GL-E750) nutzen, [aktualisieren Sie Ihre Firmware](https://dl.gl-inet.com/?model=e750), um die neuesten Funktionen und Verbesserungen zu verwenden.
 
 ## Produktübersicht
 
-Mudi V2 (GL-E750V2) is a portable 4G LTE travel router compatible with global carriers. It runs fully open source on OpenWrt and GL.iNet's SDK 4.0, providing customization capabilities and a suite of features. Mudi V2 (GL-E750V2) supports 300Mbps (2.4GHz) and 433Mbps (5GHz) Wi-Fi speeds and a MicroSD card of up to 1TB. It has a built-in 7000mAh battery. It also supports multi-WAN (failover and load balance) to ensure a smooth connection for all your devices. 
+Mudi V2 (GL-E750V2) ist ein tragbarer 4G-LTE-Reiserouter, der mit Netzbetreibern weltweit kompatibel ist. Er läuft vollständig Open Source auf OpenWrt und GL.iNet SDK 4.0 und bietet dadurch umfassende Anpassungsmöglichkeiten sowie eine Vielzahl an Funktionen. Mudi V2 (GL-E750V2) unterstützt Wi-Fi-Geschwindigkeiten von 300 Mbit/s (2.4GHz) und 433 Mbit/s (5GHz) sowie MicroSD-Karten mit bis zu 1 TB. Er verfügt über einen integrierten 7000-mAh-Akku. Außerdem unterstützt er Multi-WAN (Failover und Load Balance), um für all Ihre Geräte eine stabile Verbindung sicherzustellen.
 
 ![gl-e750v2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/hardware_info/e750_interface.jpg){class="glboxshadow"}
 
 ## Taste
 
-- Press the power button for **3 seconds**: Turn on the device.
+- Drücken Sie die Einschalttaste **3 Sekunden lang**: Das Gerät wird eingeschaltet.
 
-- Press the power button for **3-5 seconds**: Enter Standby Mode.
+- Drücken Sie die Einschalttaste **3 bis 5 Sekunden lang**: Das Gerät wechselt in den Standby-Modus.
 
-- Press the power button for **more than 5 seconds**: Turn off the device. 
+- Drücken Sie die Einschalttaste **länger als 5 Sekunden**: Das Gerät wird ausgeschaltet.
 
-    (When pressing for 3 seconds, the OLED screen will show “Standby Mode On” first. KEEP PRESSING the power button until you see "Shut Down" under the "Standby Mode On". It will count down 3 seconds and turn off the device.)
+  (Wenn Sie die Taste 3 Sekunden lang drücken, zeigt der OLED-Bildschirm zunächst „Standby Mode On“ an. HALTEN SIE die Einschalttaste weiter gedrückt, bis unter „Standby Mode On“ der Hinweis „Shut Down“ erscheint. Anschließend wird 3 Sekunden heruntergezählt und das Gerät ausgeschaltet.)
 
 ## Standby-Modus
 
-In Standby Mode, the Mudi V2 (GL-E750V2) will turn off Wi-Fi and 4G to save power. You can't connect to Mudi V2 (GL-E750V2) in this mode.
+Im Standby-Modus schaltet Mudi V2 (GL-E750V2) Wi-Fi und 4G aus, um Strom zu sparen. In diesem Modus können Sie keine Verbindung zu Mudi V2 (GL-E750V2) herstellen.
 
-To turn on or off the Standby Mode, press the power button for 3 seconds. You will see “Standby Mode On” or “Standby Mode Off” on the OLED screen.
+Um den Standby-Modus ein- oder auszuschalten, drücken Sie die Einschalttaste 3 Sekunden lang. Auf dem OLED-Bildschirm wird dann „Standby Mode On“ oder „Standby Mode Off“ angezeigt.
 
 ## Lieferumfang
 
 ![gl-e750v2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/first_time_setup/e750v2_unboxing.jpg){class="glboxshadow"}
 
-- 1 x Mudi V2 (GL-E750V2) portable 4G LTE router
-- 1 x Power adapter 
-- 4 x Converters (US, EU, UK & AU plugs)
-- 1 X User manual
+- 1 x tragbarer 4G-LTE-Router Mudi V2 (GL-E750V2)
+- 1 x tragbarer 4G-LTE-Router Mudi V2 (GL-E750V2)
+- 1 x Netzadapter
+- 4 x Adapter (US-, EU-, UK- und AU-Stecker)
+- 1 x Benutzerhandbuch
 - 1 x Garantiekarte
 - 1 x Ethernet-Kabel
-- 1 x USB-C port replicator 
-- 1 x USB-C to USB-C cable
-- 1 x USB-A to USB-C cable
-- 1 x Pouch bag
-- 1 x Thank-you card
+- 1 x USB-C-Port-Replikator
+- 1 x USB-C-auf-USB-C-Kabel
+- 1 x USB-A-auf-USB-C-Kabel
+- 1 x Transportbeutel
+- 1 x Dankeskarte
 
 ---
 
 ## Ersteinrichtung
 
-Watch this video or follow the steps to set up Mudi V2.
+Sehen Sie sich dieses Video an oder folgen Sie den Schritten, um Mudi V2 einzurichten.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4FzEgmYyy7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. SIM-Karte einsetzen
 
-Insert a SIM Card and an optional MicroSD card into Mudi V2 (GL-E750V2).
+Setzen Sie eine SIM-Karte und optional eine MicroSD-Karte in Mudi V2 (GL-E750V2) ein.
 
-Note: If you are using a SIM card, you must insert it into your device before powering it on. 
+Hinweis: Wenn Sie eine SIM-Karte verwenden, müssen Sie diese vor dem Einschalten in das Gerät einsetzen.
 
-1. Turn to the backside of Mudi V2 (GL-E750V2).
-2. Poke your finger into the hole near the edge of the lid.
-3. Slide along the edge.
-4. When the lid slightly goes up (from around 25 degrees to 30 degrees or so), pull it up for the opening.
-5. Insert the card into the card slot as suggested by the symbol near the corner.
-6. Press the lid down to close the cover plate.
+1. Drehen Sie Mudi V2 (GL-E750V2) auf die Rückseite.
+2. Stecken Sie Ihren Finger in die Öffnung nahe am Rand der Abdeckung.
+3. Fahren Sie entlang des Randes.
+4. Wenn sich die Abdeckung leicht anhebt (auf etwa 25 bis 30 Grad), ziehen Sie sie zum Öffnen nach oben.
+5. Setzen Sie die Karte entsprechend dem Symbol in der Ecke in den Kartenslot ein.
+6. Drücken Sie die Abdeckung nach unten, um sie wieder zu schließen.
 
 ### 2. Einschalten
 
-Press the power button to turn on the device.
+Drücken Sie die Einschalttaste, um das Gerät einzuschalten.
 
 ![gl-e750v2 poweron](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_power-on.png){class="glboxshadow"}
 
-When Mudi V2 (GL-E750V2)'s power is off, you can still check the battery status by pressing the power button. The LED screen will show the battery status when you click the power button.
+Wenn Mudi V2 (GL-E750V2) ausgeschaltet ist, können Sie den Akkustand trotzdem überprüfen, indem Sie die Einschalttaste drücken. Der LED-Bildschirm zeigt den Akkustatus an, wenn Sie die Taste drücken.
 
 ![gl-e750v2 battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_battery.png){class="glboxshadow"}
 
-Make sure you are using a standard 5V/2A power adapter. Otherwise, it may cause malfunction.
+Stellen Sie sicher, dass Sie einen Standard-5V/2A-Netzadapter verwenden. Andernfalls kann es zu Fehlfunktionen kommen.
 
 ![gl-e750v2 battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_charge.png){class="glboxshadow"}
 
@@ -85,7 +86,7 @@ Auf dieser Seite können Sie Ihre Internetverbindungsart auswählen, z. B. Ether
 
 ### Ethernet
 
-Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
+Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem aktiven Netzwerkgerät, um auf das Internet zuzugreifen. Diese Methode bietet in der Regel die schnellste und zuverlässigste Internetverbindung.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
@@ -93,7 +94,7 @@ Connect your router to an active modem or an active network device via an Ethern
 
 ### Repeater
 
-Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
+Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines vorhandenen Wi-Fi-Netzwerks zu erweitern. Als Repeater empfängt und sendet er Funksignale innerhalb seiner Reichweite erneut und vergrößert so die Abdeckung. Diese Methode ist nützlich, wenn ein einzelner Router den gesamten Einsatzbereich nicht abdecken kann.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
@@ -101,21 +102,21 @@ Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-
 
 ### Tethering
 
-Connect the router's USB port to a smartphone with active mobile data via a USB cable to access the Internet. This method enables multiple devices connected to the router to access the internet using the smartphone's mobile data.
+Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit aktiver mobiler Datenverbindung, um auf das Internet zuzugreifen. Mit dieser Methode können mehrere mit dem Router verbundene Geräte über die mobile Datenverbindung des Smartphones auf das Internet zugreifen.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
 ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_tethering.png){class="glboxshadow"}
 
 ### Cellular
- 
-Remove the back cover from Mudi V2, and insert a SIM card into the SIM card slot to connect it to the internet. This method is useful for sharing internet access from a single SIM card to all connected devices.
 
-[Click here to learn how to connect to the internet via cellular](../../interface_guide/internet_cellular.md)
+Entfernen Sie die rückseitige Abdeckung von Mudi V2 und setzen Sie eine SIM-Karte in den SIM-Kartenslot ein, um eine Verbindung zum Internet herzustellen. Diese Methode ist nützlich, um den Internetzugang einer einzelnen SIM-Karte mit allen verbundenen Geräten zu teilen.
+
+[Klicken Sie hier, um zu erfahren, wie Sie über Cellular eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_cellular.png){class="glboxshadow"}
 
-To use eSIM physical card on your GL.iNet router, please click here: [How to use the eSIM Physical Card with GL.iNet routers?](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
+Wenn Sie eine physische eSIM-Karte auf Ihrem GL.iNet-Router verwenden möchten, klicken Sie bitte hier: [Wie verwendet man die physische eSIM-Karte mit GL.iNet-Routern?](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
 ---
 
@@ -233,10 +234,9 @@ GL.iNet stellt regelmäßig Updates für die Firmware unserer Router bereit, um 
 
 Lesen Sie das Tutorial [**Upgrade**](../../interface_guide/upgrade.md).
 
-### OLED Screen Settings
+### OLED-Bildschirmeinstellungen
 
-On this page, you can adjust what information is displayed on your Mudi V2 (GL-E750V2)'s OLED screen. 
-
+Auf dieser Seite können Sie festlegen, welche Informationen auf dem OLED-Bildschirm Ihres Mudi V2 (GL-E750V2) angezeigt werden.
 
 ### Scheduled Tasks
 
@@ -267,4 +267,3 @@ Lesen Sie das Tutorial [**Reset Firmware**](../../interface_guide/reset_firmware
 ### Advanced Settings
 
 Lesen Sie das Tutorial [**Advanced Settings**](../../interface_guide/advanced_settings.md).
-

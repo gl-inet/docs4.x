@@ -16,7 +16,7 @@ Los pasos para configurar el reenvío de puertos varían según la marca y el mo
 
 ## Uso de un router GL.iNet como router principal
 
-Consulte [este enlace](../interface_guide/port_forwarding.md){target="\_blank"}.
+Consulte [este enlace](../interface_guide/port_forwarding.md){target="_blank"}.
 
 ## Uso de otra marca de router como router principal
 
@@ -34,31 +34,31 @@ Si la marca o el modelo de su router principal no aparece a continuación, consu
 
 ### AT&T
 
-- [NVG589](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010280/){target="\_blank"}
-- [Pace 5031](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010292/){target="\_blank"}
-- [Peace 5268](https://www.att.com/support/article/u-verse-high-speed-internet/KM1123072/){target="\_blank"}
+- [NVG589](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010280/){target="_blank"}
+- [Pace 5031](https://www.att.com/support/article/u-verse-high-speed-internet/KM1010292/){target="_blank"}
+- [Peace 5268](https://www.att.com/support/article/u-verse-high-speed-internet/KM1123072/){target="_blank"}
 
 ### Comcast (Xfinity)
 
-- [Xfinity Gateway](https://www.xfinity.com/support/articles/xfi-port-forwarding){target="\_blank"}
+- [Xfinity Gateway](https://www.xfinity.com/support/articles/xfi-port-forwarding){target="_blank"}
 
 ### TP-Link
 
-- [Deco series](https://www.tp-link.com/us/support/faq/1797/){target="\_blank"}
-- [Wireless router series](https://www.tp-link.com/us/support/faq/1379/){target="\_blank"}
+- [Deco series](https://www.tp-link.com/us/support/faq/1797/){target="_blank"}
+- [Wireless router series](https://www.tp-link.com/us/support/faq/1379/){target="_blank"}
 
 ### Eero
 
-Consulte [este enlace](https://support.eero.com/hc/en-us/articles/207908443-How-do-I-configure-port-forwarding){target="\_blank"}.
+Consulte [este enlace](https://support.eero.com/hc/en-us/articles/207908443-How-do-I-configure-port-forwarding){target="_blank"}.
 
 ### Linksys
 
-Consulte [este enlace](https://support.linksys.com/kb/article/318-en/){target="\_blank"}.
+Consulte [este enlace](https://support.linksys.com/kb/article/318-en/){target="_blank"}.
 
 ### Netgear
 
-Consulte [este enlace](https://kb.netgear.com/24290/How-do-I-add-a-custom-port-forwarding-service-on-my-NETGEAR-router){target="\_blank"}.
+Consulte [este enlace](https://kb.netgear.com/24290/How-do-I-add-a-custom-port-forwarding-service-on-my-NETGEAR-router){target="_blank"}.
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

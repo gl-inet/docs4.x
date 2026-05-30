@@ -2,7 +2,7 @@
 
 Diese Anleitung beschreibt die Schritte zum Einrichten eines OpenVPN-Servers über AstroRelay auf einem GL.iNet-Router. Sie eignet sich besonders für Benutzer, die aus der Ferne auf lokale Dienste zu Hause oder im Büro zugreifen möchten, aber von ihrem Internetanbieter keine öffentliche IP-Adresse erhalten.
 
-[AstroRelay](https://www.astrorelay.com){target="\_blank"} bietet einen sicheren Reverse-Proxy-Tunnel, über den Sie sicher auf Ressourcen hinter NAT und Firewalls zugreifen können.
+[AstroRelay](https://www.astrorelay.com){target="_blank"} bietet einen sicheren Reverse-Proxy-Tunnel, über den Sie sicher auf Ressourcen hinter NAT und Firewalls zugreifen können.
 
 1.  Folgen Sie [dieser Anleitung](../interface_guide/openvpn_server.md), um einen OpenVPN-Server auf Ihrem GL.iNet-Router einzurichten, auch wenn Sie keine öffentliche IP-Adresse haben.
 
@@ -32,7 +32,7 @@ Diese Anleitung beschreibt die Schritte zum Einrichten eines OpenVPN-Servers üb
 
             ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/enable-remote-access-lan-4.8.png){class="glboxshadow"}
 
-3.  Registrieren Sie ein AstroRelay-Konto und folgen Sie dieser [Anleitung](https://www.astrorelay.com/tutorial.html){target="\_blank"}, um die Ersteinrichtung abzuschließen.
+3.  Registrieren Sie ein AstroRelay-Konto und folgen Sie dieser [Anleitung](https://www.astrorelay.com/tutorial.html){target="_blank"}, um die Ersteinrichtung abzuschließen.
 
     Wählen Sie beim Hinzufügen einer neuen Domain den Server aus, der Ihrem Router am nächsten ist.
 
@@ -52,7 +52,7 @@ Diese Anleitung beschreibt die Schritte zum Einrichten eines OpenVPN-Servers üb
 
     ![replace link](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnconfig.jpg){class="glboxshadow"}
 
-5.  Installieren Sie die [OpenVPN Connect App](https://openvpn.net/client/){target="\_blank"} auf dem Gerät, das Sie als OpenVPN-Client verwenden möchten. Laden Sie dann die geänderte Konfigurationsdatei in die App hoch und starten Sie die Verbindung. Alternativ können Sie die Datei auch auf einen anderen GL.iNet-Router hochladen und ihn als OpenVPN-Client einrichten.
+5.  Installieren Sie die [OpenVPN Connect App](https://openvpn.net/client/){target="_blank"} auf dem Gerät, das Sie als OpenVPN-Client verwenden möchten. Laden Sie dann die geänderte Konfigurationsdatei in die App hoch und starten Sie die Verbindung. Alternativ können Sie die Datei auch auf einen anderen GL.iNet-Router hochladen und ihn als OpenVPN-Client einrichten.
 
     Nach erfolgreicher Verbindung können Sie aus der Ferne auf Ihre lokalen Dienste zu Hause oder im Büro zugreifen.
 
@@ -60,4 +60,4 @@ Diese Anleitung beschreibt die Schritte zum Einrichten eines OpenVPN-Servers üb
 
 ---
 
-Haben Sie noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="\_blank"} oder [kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="\_blank"}.
+Haben Sie noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"} oder [kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"}.

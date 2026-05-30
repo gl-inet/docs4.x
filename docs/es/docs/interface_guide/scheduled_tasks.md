@@ -38,13 +38,14 @@ Excepto MLO Wi-Fi, que solo admite el modo de programación de encendido y apaga
 
 ### Programación de MLO Wi-Fi
 
-| Modelos compatibles   |     |
-| :-------------------- | :-: |
-| GL-E5800 (Mudi 7)     |  √  |
-| GL-MT3600BE (Beryl 7) |  √  |
-| GL-BE6500 (Flint 3e)  |  √  |
-| GL-BE9300 (Flint 3)   |  √  |
-| GL-BE3600 (Slate 7)   |  √  |
+| Modelos compatibles         |         |
+| :-------------------------- | :-----: |
+| GL-BE14000 (Flint 4)        |    √    |
+| GL-BE10000 (Slate 7 Pro)    |    √    |
+| GL-MT3600BE (Beryl 7)       |    √    |
+| GL-BE6500 (Flint 3e)        |    √    |
+| GL-BE9300 (Flint 3)         |    √    |
+| GL-BE3600 (Slate 7)         |    √    |
 
 Puede establecer una programación de encendido y apagado tanto para el MLO Main Wi-Fi como para el Guest Wi-Fi.
 
@@ -54,10 +55,12 @@ Habilite la programación del Main o Guest Wi-Fi, establezca las horas de encend
 
 ### Programación de Wi-Fi de 6 GHz
 
-| Modelos compatibles |     |
-| :------------------ | :-: |
-| GL-E5800 (Mudi 7)   |  √  |
-| GL-BE9300 (Flint 3) |  √  |
+| Modelos compatibles         |         |
+| :-------------------------- | :-----: |
+| GL-BE14000 (Flint 4)        |    √    |
+| GL-BE10000 (Slate 7 Pro)    |    √    |
+| GL-E5800 (Mudi 7)           |    √    |
+| GL-BE9300 (Flint 3)         |    √    |
 
 Cuando el modo de programación del Wi-Fi es **Turn On/Off**, puede establecer un horario de encendido y apagado tanto para el 6 GHz Main Wi-Fi como para el Guest Wi-Fi.
 
@@ -113,4 +116,4 @@ Habilite la programación del Main Wi-Fi, establezca dos acciones temporizadas p
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

@@ -107,15 +107,15 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Brume 3 (i inne routery GL.iNet) obsługuje protokół OpenVPN, który zapewnia wysoki poziom bezpieczeństwa. Aby skonfigurować OpenVPN, skorzystaj z poniższych poradników:
 
-    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
-    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
+    * [Jak skonfigurować klienta OpenVPN](../../interface_guide/openvpn_client.md)
+    * [Jak skonfigurować serwer OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
     Brume 3 (i inne routery GL.iNet) obsługuje protokół WireGuard, który oferuje wysoką prędkość i wygodę użytkowania. Aby skonfigurować WireGuard, skorzystaj z poniższych poradników:
 
-    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
-    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+    * [Jak skonfigurować klienta WireGuard](../../interface_guide/wireguard_client.md)
+    * [Jak skonfigurować serwer WireGuard](../../interface_guide/wireguard_server.md)
 
 ## NETWORK
 

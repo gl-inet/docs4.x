@@ -12,17 +12,17 @@ Używamy GL-AXT1800 jako przykładu.
 
     ![download nordvpn dedicated ip info](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/download_dedicated_ip_config.png){class="glboxshadow"}
 
-3. Wróć do strony swojego konta Nord, przejdź do **Manual Setup** i kliknij **Set up NordVPN Manually**, aby uzyskać dane logowania do usługi.
+3. Wróć do strony swojego konta Nord, przejdź do **Manual Setup** i kliknij **Set up NordVPN Manually**, aby uzyskać **dane logowania do usługi**.
 
     ![nordvpn manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup.png){class="glboxshadow"}
 
     ![nordvpn manual setup service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup_service_credential.png){class="glboxshadow"}
 
-4. Zaloguj się do panelu administracyjnego routera i przejdź do **VPN** > **OpenVPN Client**. Utwórz nową grupę, aby przesłać plik konfiguracyjny pobrany w kroku 2. Następnie wprowadź dane logowania do usługi, które uzyskałeś w kroku 3.
+4. Zaloguj się do webowego panelu administracyjnego routera i przejdź do **VPN** > **OpenVPN Client**. Utwórz nową grupę i prześlij plik konfiguracyjny pobrany w kroku 2, a następnie wprowadź **dane logowania do usługi** uzyskane w kroku 3.
 
     ![set up nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/set_up_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
-    Wykryto 1 prawidłowy plik konfiguracyjny. Wprowadź nazwę użytkownika i hasło. Jeśli te konfiguracje używają różnych haseł, musisz wprowadzić odpowiednie hasło dla każdego pliku konfiguracyjnego.
+    Jak pokazano powyżej, wykryto prawidłowy plik konfiguracyjny. Wprowadź dane logowania do usługi NordVPN.
 
 5. Kliknij ikonę trzech kropek po prawej stronie, aby się połączyć. Możesz również przejść do **VPN Dashboard**, wybrać plik konfiguracyjny i kliknąć **Apply**, aby nawiązać połączenie.
 

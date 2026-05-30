@@ -110,15 +110,15 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel dla ruchu mi�
 
     Flint 2 (oraz inne routery GL.iNet) obsługuje protokół OpenVPN, który zapewnia wysoki poziom bezpieczeństwa. Aby skonfigurować OpenVPN, skorzystaj z poniższych poradników:
 
-    * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
-    * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
+    * [Jak skonfigurować klienta OpenVPN](../../interface_guide/openvpn_client.md)
+    * [Jak skonfigurować serwer OpenVPN](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
     Flint 2 (oraz inne routery GL.iNet) obsługuje protokół WireGuard, który zapewnia wysoką prędkość i wygodę użytkowania. Aby skonfigurować WireGuard, skorzystaj z poniższych poradników:
 
-    * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
-    * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
+    * [Jak skonfigurować klienta WireGuard](../../interface_guide/wireguard_client.md)
+    * [Jak skonfigurować serwer WireGuard](../../interface_guide/wireguard_server.md)
 
 === "Tor"
 

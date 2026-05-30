@@ -64,9 +64,7 @@ Die NordVPN-Schnelleinrichtung ist in das Admin Panel der GL.iNet-Router integri
 
     ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn5.png){class="glboxshadow"}
 
-    Außerdem werden die Details der VPN-Verbindung im **VPN Dashboard** angezeigt.
-
-    ![vpn dashboard nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn6.png){class="glboxshadow"}
+    Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
 6. Server aktualisieren.
 
@@ -132,9 +130,7 @@ In den folgenden Schritten verwenden wir [PIA (Private Internet Access)](https:/
 
     ![openvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual7.png){class="glboxshadow"}
 
-    Außerdem werden die Details der VPN-Verbindung im **VPN Dashboard** angezeigt.
-
-    ![vpn dashboard openvpn status](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual8.png){class="glboxshadow"}
+    Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
 ## OpenVPN-Server auf dem GL.iNet-Router einrichten
 

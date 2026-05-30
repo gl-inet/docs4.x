@@ -16,11 +16,11 @@ VPN Cascading suele denominarse "Double VPN" en algunos contextos, aunque puede 
 
 ### Para firmware v4.7 y anteriores
 
-1. Primero, configure su router como servidor VPN. Se recomienda el protocolo WireGuard por ofrecer mayor velocidad. Consulte [este enlace](../interface_guide/wireguard_server.md){target="\_blank"}.
+1. Primero, configure su router como servidor VPN. Se recomienda el protocolo WireGuard por ofrecer mayor velocidad. Consulte [este enlace](../interface_guide/wireguard_server.md){target="_blank"}.
 
 2. Exporte un archivo de configuración desde su router y súbalo a un dispositivo cliente, que será el que se conectará al router por VPN.
 
-3. Configure su router como cliente VPN, conectándolo a un servicio VPN de terceros. Se recomienda el protocolo WireGuard por ofrecer mayor velocidad. Consulte [este enlace](../interface_guide/wireguard_client.md){target="\_blank"}.
+3. Configure su router como cliente VPN, conectándolo a un servicio VPN de terceros. Se recomienda el protocolo WireGuard por ofrecer mayor velocidad. Consulte [este enlace](../interface_guide/wireguard_client.md){target="_blank"}.
 
 4. Una vez conectado, la página **VPN Dashboard** se mostrará como a continuación, donde el router está configurado al mismo tiempo como servidor VPN y como cliente VPN.
 
@@ -38,11 +38,11 @@ VPN Cascading suele denominarse "Double VPN" en algunos contextos, aunque puede 
 
 ### Para firmware v4.8 y posteriores
 
-1.  Primero, configure su router como servidor VPN. Se recomienda el protocolo WireGuard por ofrecer mayor velocidad. Consulte [este enlace](../interface_guide/wireguard_server.md){target="\_blank"}.
+1.  Primero, configure su router como servidor VPN. Se recomienda el protocolo WireGuard por ofrecer mayor velocidad. Consulte [este enlace](../interface_guide/wireguard_server.md){target="_blank"}.
 
 2.  Exporte un archivo de configuración desde su router y súbalo a un dispositivo cliente, que será el que se conectará al router por VPN.
 
-3.  Configure su router como cliente VPN, conectándolo a un servicio VPN de terceros. Se recomienda el protocolo WireGuard por ofrecer mayor velocidad. Consulte [este enlace](../interface_guide/wireguard_client.md){target="\_blank"}.
+3.  Configure su router como cliente VPN, conectándolo a un servicio VPN de terceros. Se recomienda el protocolo WireGuard por ofrecer mayor velocidad. Consulte [este enlace](../interface_guide/wireguard_client.md){target="_blank"}.
 
 4.  En el panel de administración web, vaya a **VPN Dashboard**. Elija las instrucciones correspondientes a continuación según su modo VPN.
 
@@ -84,7 +84,7 @@ VPN Cascading suele denominarse "Double VPN" en algunos contextos, aunque puede 
 
 5.  VPN Cascading ya está habilitado. Los dispositivos conectados a su router mediante VPN accederán a Internet a través del servicio VPN de terceros, en lugar de la red ISP del router.
 
-6.  **Prueba de conexión**: en un portátil conectado al router mediante VPN, abra un navegador y visite [What Is My IP](https://whatismyipaddress.com/){target="\_blank"} para comprobar su IP pública.
+6.  **Prueba de conexión**: en un portátil conectado al router mediante VPN, abra un navegador y visite [What Is My IP](https://whatismyipaddress.com/){target="_blank"} para comprobar su IP pública.
 
     Si muestra que la dirección IP del portátil está en la región del servidor VPN de terceros, que en este ejemplo es Buenos Aires, significa que VPN Cascading está funcionando.
 
@@ -92,4 +92,4 @@ VPN Cascading suele denominarse "Double VPN" en algunos contextos, aunque puede 
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

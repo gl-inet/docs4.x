@@ -20,7 +20,7 @@ Encienda el router. Conecte un dispositivo al router mediante un cable Ethernet 
 
 Siga los pasos siguientes para acceder al panel de administración web. Si ya ha iniciado sesión, vaya a la [siguiente parte](#4-network-setup).
 
-Abra un navegador web, se recomienda Chrome, Edge o Safari, y visite [192.168.8.1](http://192.168.8.1){target="\_blank"}. Se le dirigirá a la configuración inicial del panel de administración web, como se muestra a continuación. Configure la contraseña de administrador y haga clic en **Next** para continuar.
+Abra un navegador web, se recomienda Chrome, Edge o Safari, y visite [192.168.8.1](http://192.168.8.1){target="_blank"}. Se le dirigirá a la configuración inicial del panel de administración web, como se muestra a continuación. Configure la contraseña de administrador y haga clic en **Next** para continuar.
 
 ![set up admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/web_panel_signup.png){class="glboxshadow"}
 

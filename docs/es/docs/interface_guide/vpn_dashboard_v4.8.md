@@ -16,7 +16,7 @@ Haga clic en el icono del libro en la esquina superior izquierda y siga el asist
 
 ![vpn wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_wizard_2.png){class="glboxshadow"}
 
-**Nota**: El asistente de configuración de VPN solo está disponible para los servicios VPN integrados, incluidos AzireVPN, Hide.me, IPVanish, Mullvad, NordVPN, PIA y Surfshark. Para otros servicios VPN, omita el asistente y vaya a [OpenVPN Client](openvpn_client.md){target="\_blank"} o [WireGuard Client](wireguard_client.md){target="\_blank"} para configurar la VPN manualmente.
+**Nota**: El asistente de configuración de VPN solo está disponible para los servicios VPN integrados, incluidos AzireVPN, Hide.me, IPVanish, Mullvad, NordVPN, PIA y Surfshark. Para otros servicios VPN, omita el asistente y vaya a [OpenVPN Client](openvpn_client.md){target="_blank"} o [WireGuard Client](wireguard_client.md){target="_blank"} para configurar la VPN manualmente.
 
 Aquí se usa **Hide.me** como ejemplo. Inicie sesión con las credenciales de Hide.me.
 
@@ -297,4 +297,4 @@ Haga clic en el icono de engranaje situado junto al nombre de un túnel y selecc
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

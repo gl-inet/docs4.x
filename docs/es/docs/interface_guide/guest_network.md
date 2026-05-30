@@ -4,17 +4,17 @@ La configuración de la red de invitados se separó de [LAN](lan.md) a partir de
 
 En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **Guest Network**.
 
-Incluye la configuración básica de Guest Network y la configuración del servidor DHCP.
+Esta página le permite crear una red Wi‑Fi dedicada para visitantes. Aislada de la red principal, mejora la seguridad mientras proporciona un cómodo acceso a Internet.
+
+**Nota**: Algunos modelos, por ejemplo GL-MT5000 y GL-MT2500/GL-MT2500A, no admiten Wi-Fi, por lo que la configuración de Guest Network no está disponible en su panel de administración web.
+
+Incluye dos secciones: Configuración básica y configuración del servidor DHCP.
 
 ## Configuración básica
 
 Puede configurar la subred dentro de estos rangos privados de direcciones IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
 ![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_1.png){class="glboxshadow"}
-
-Puede crear una red separada y aislada para usuarios temporales, con acceso limitado y mayor seguridad al estar segregada de la red principal.
-
-**Nota**: Algunos modelos, por ejemplo GL-MT5000 y GL-MT2500/GL-MT2500A, no admiten Wi-Fi, por lo que la configuración de Guest Network no está disponible en su panel de administración web.
 
 - **Gateway**
 
@@ -38,9 +38,9 @@ Puede crear una red separada y aislada para usuarios temporales, con acceso limi
 
 ## Servidor DHCP
 
-Si Guest Network está habilitada, el servidor DHCP se activará de forma predeterminada.
+Si Guest Network está habilitada, su servidor DHCP se habilitará en consecuencia.
 
-El servidor DHCP asigna automáticamente direcciones IP y otros parámetros de comunicación a cada dispositivo cliente conectado a Guest Network. Si el servidor DHCP está deshabilitado, deberá configurar manualmente los ajustes de red de los dispositivos cliente. Haga clic [aquí](../tutorials/manually_configure_static_ip.md) para aprender a configurar manualmente una IP estática.
+El servidor DHCP asigna automáticamente direcciones IP y otros parámetros de comunicación a cada dispositivo cliente conectado a Guest Network. Si el servidor DHCP está deshabilitado, tendrá que configurar manualmente los ajustes de red de los dispositivos cliente. Haga clic [aquí](../tutorials/manually_configure_static_ip.md) para aprender a configurar manualmente una IP estática.
 
 Puede cambiar las direcciones IP inicial y final según sus necesidades. Por ejemplo, si la red se amplía o se reduce, si se producen conflictos de direcciones IP o si se modifica el rango de la máscara de subred.
 
@@ -66,8 +66,8 @@ Haga clic en **Advanced** si necesita una configuración adicional.
 
 Artículos relacionados:
 
-- [How to set up a guest Wi-Fi network on GL.iNet routers](../tutorials/how_to_set_up_a_guest_network.md)
+- [Cómo configurar una red Wi-Fi para invitados en routers GL.iNet](../tutorials/how_to_set_up_a_guest_network.md)
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

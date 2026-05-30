@@ -30,6 +30,6 @@ Será redirigido a la página oficial de configuración de AdGuard Home para con
 
 ![adguard home settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/adguard_home/adguardhome_dashboard.png){class="glboxshadow"}
 
-Si tiene alguna consulta, visite el [AdGuard Home Support Center](https://adguard.com/en/support.html){target="\_blank"} para obtener más ayuda.
+Si tiene alguna consulta, visite el [AdGuard Home Support Center](https://adguard.com/en/support.html){target="_blank"} para obtener más ayuda.
 
 ---

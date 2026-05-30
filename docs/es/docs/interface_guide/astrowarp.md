@@ -2,13 +2,11 @@
 
 **Nota**: Esta guía cubre la nueva versión de AstroWarp.
 
-Aunque AstroWarp heredado sigue apareciendo en el panel de administración web, dependía de una plataforma AstroWarp independiente para establecer conexiones remotas de red. Consulte [este enlace](https://docs.astrowarp.net/){target="_blank"} para ver la documentación de AstroWarp heredado.
-
----
-
-En cambio, la nueva versión de AstroWarp está integrada en el SDK del router GL.iNet. Adopta el protocolo AmneziaWG con ofuscación de tráfico integrada para ofrecer conexiones estables y seguras, ideales para un acceso remoto fiable en cualquier momento y desde cualquier lugar.
+La nueva versión de AstroWarp está integrada en el SDK del router GL.iNet. Adopta el protocolo AmneziaWG con ofuscación de tráfico integrada para ofrecer conexiones estables y seguras, ideales para un acceso remoto fiable en cualquier momento y desde cualquier lugar.
 
 Esta función permite acceder de forma remota y sin interrupciones a su red doméstica. Puede configurarla y emparejar los dispositivos directamente mediante un código de acceso dinámico en el panel de administración web, estableciendo rápidamente una conexión segura entre su router de viaje y su red doméstica en solo unos segundos, sin necesidad de registrarse ni iniciar sesión.
+
+Aunque AstroWarp heredado sigue apareciendo en el panel de administración web, dependía de una plataforma AstroWarp independiente para establecer conexiones remotas de red. Consulte [este enlace](https://docs.astrowarp.net/){target="_blank"} para ver la documentación de AstroWarp heredado.
 
 **Nota:**
 
@@ -19,6 +17,8 @@ Esta función permite acceder de forma remota y sin interrupciones a su red dom�
 ## Modelos compatibles
 
 ??? "Modelos compatibles"
+
+    Estos modelos son compatibles con la nueva versión de AstroWarp. Para consultar la lista de modelos compatibles con AstroWarp heredado, haga clic [aquí](https://docs.astrowarp.net/en/quick_start/){target="_blank"}.
 
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
@@ -32,6 +32,8 @@ Esta función permite acceder de forma remota y sin interrupciones a su red dom�
     **Nota**: Los modelos marcados con ※ admiten AstroWarp integrado en firmware beta.
 
 ??? "Modelos no compatibles"
+    Estos dispositivos no son compatibles con la nueva versión de AstroWarp, aunque algunos modelos siguen funcionando con AstroWarp heredado. Consulte [este enlace](https://docs.astrowarp.net/en/quick_start/){target="_blank"} para ver los detalles.
+
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
@@ -133,6 +135,51 @@ Cada router GL.iNet incluye **10 GB de datos gratuitos al mes** para redes Astro
 Puede actualizar al plan **AstroWarp+** para disponer de datos ilimitados según sea necesario.
 
 ![upgrade plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/upgrade_plan.png){class="glboxshadow"}
+
+## FAQ
+
+1. **P: ¿Cuál es el formato del código de acceso dinámico y cuánto tiempo es válido?**
+
+    R: Es un código de 8 caracteres que combina números y letras mayúsculas, válido durante 10 minutos.
+
+2. **P: ¿Qué ocurre con el router de viaje si finalizo la conexión en el router doméstico?**
+
+    R: El router de viaje se desconectará y quedará en estado pendiente, sin acceso a la red. Cuando el router doméstico reanude la conexión, el router de viaje podrá reconectarse automáticamente sin volver a introducir el código de acceso.
+
+3. **P: ¿Qué ocurre si se agotan los datos gratuitos o caduca el plan AstroWarp+ en el router doméstico?**
+
+    R: El router de viaje pasará al estado pendiente, sin acceso a la red, y no cambiará automáticamente a la red local.
+
+4. **P: ¿En qué situaciones entra el router de viaje en estado pendiente?**
+
+    R: El router de viaje entrará en estado pendiente cuando el router doméstico cumpla cualquiera de las siguientes condiciones:
+
+    - Finaliza la conexión de AstroWarp.
+    - Agota la cuota de datos gratuitos.
+    - Llega a la fecha de vencimiento del plan AstroWarp+ (si corresponde).
+    - Pierde el acceso a Internet.
+
+5. **P: ¿Qué hace el botón Reset en la esquina superior derecha?**
+
+    R: Borra todos los dispositivos autorizados y vuelve a la página de selección de la función del router para que pueda volver a elegirla.
+
+6. **P: ¿Qué ocurre con el router de viaje si restablezco AstroWarp en el router doméstico?**
+
+    R: Una vez restablecido AstroWarp en el router doméstico, los dispositivos conectados de forma remota se desconectarán de la red AstroWarp y volverán a su red local para acceder a Internet.
+
+7. **P: Si actualizo el router doméstico al plan AstroWarp+ y cambio su función a router de viaje mientras el plan sigue vigente, ¿se conserva el tiempo restante del plan?**
+
+    R: El periodo restante no se conserva y caducará en la fecha prevista. Para evitar pérdidas innecesarias, cambie la función del dispositivo después de que venza su plan actual.
+
+8. **P: Si he habilitado la nueva versión de AstroWarp en el panel de administración web del router, ¿cómo la desactivo y vuelvo a AstroWarp heredado?**
+
+    R: En el panel de administración web del router, vaya a **CLOUD SERVICES** -> **AstroWarp** y haga clic en **Reset** en la esquina superior derecha.
+
+    ![reset](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/reset.png){class="glboxshadow"}
+
+    Luego inicie sesión en [astrowarp.net](https://my.astrowarp.net/#/login){target="_blank"} con su cuenta en la nube. Después de iniciar sesión, haga clic en el botón **"+"** para añadir el router a su red AstroWarp.
+
+    ![add device](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/add_device.png){class="glboxshadow"}
 
 ---
 

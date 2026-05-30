@@ -32,13 +32,13 @@ Si su router ejecuta el firmware v4.7 o superior, puede registrar una cuenta en 
 
 Si su router ejecuta el firmware v4.6 o anterior, siga los pasos siguientes para iniciar sesión en su cuenta y vincular su dispositivo.
 
-1. Visite [GoodCloud](https://www.goodcloud.xyz){target="\_blank"} e inicie sesión en su cuenta. Si no tiene una cuenta, regístrela primero.
+1. Visite [GoodCloud](https://www.goodcloud.xyz){target="_blank"} e inicie sesión en su cuenta. Si no tiene una cuenta, regístrela primero.
 
 2. Vincule su dispositivo a GoodCloud. Consulte [este enlace](../interface_guide/cloud.md#add-device-in-your-account).
 
 ## Compartir el dispositivo con el soporte técnico de GL.iNet
 
-1. Visite [GoodCloud](https://www.goodcloud.xyz){target="\_blank"} e inicie sesión.
+1. Visite [GoodCloud](https://www.goodcloud.xyz){target="_blank"} e inicie sesión.
 
 2. Vaya a **Devices** -> **Bound Devices** y haga clic en el dispositivo que desea compartir.
 
@@ -66,10 +66,10 @@ Después de compartir el dispositivo, proporcione la **dirección MAC** y la **c
 
 - **Por correo electrónico**: envíe esta información al miembro correspondiente del soporte técnico de GL.iNet a [support@gl-inet.com](mailto:support@gl-inet.com).
 
-- **Por mensaje privado del foro oficial**: envíe un PM, es decir, un mensaje privado, al miembro correspondiente del soporte técnico de GL.iNet en el [foro oficial](https://forum.gl-inet.com){target="\_blank"}.
+- **Por mensaje privado del foro oficial**: envíe un PM, es decir, un mensaje privado, al miembro correspondiente del soporte técnico de GL.iNet en el [foro oficial](https://forum.gl-inet.com){target="_blank"}.
 
   Estos son los pasos para enviar un mensaje privado en el foro.
-  1. Vaya al [foro oficial](https://forum.gl-inet.com){target="\_blank"}.
+  1. Vaya al [foro oficial](https://forum.gl-inet.com){target="_blank"}.
   2. Haga clic en el nombre de usuario del miembro del soporte de GL.iNet con el que esté en contacto.
   3. Haga clic en el botón **Message** para enviar un mensaje privado.
 
@@ -83,4 +83,4 @@ Después de que el problema se resuelva, cancele el uso compartido y cambie la c
 
 ---
 
-¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="\_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="\_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [Foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

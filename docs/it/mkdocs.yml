@@ -285,6 +285,7 @@ nav:
       - Dual-Ethernet WAN: interface_guide/dual-ethernet_wan.md
     - Wi-Fi:
       - Wi-Fi: interface_guide/wireless.md
+      - Wi-Fi (v4.9): interface_guide/wireless_v4.9.md
     - Client:
       - Client: interface_guide/clients.md
     - Servizi cloud:
@@ -294,6 +295,7 @@ nav:
       - VPN Dashboard (v4.7): interface_guide/vpn_dashboard_v4.7.md
       - VPN Dashboard (v4.8): interface_guide/vpn_dashboard_v4.8.md
       - VPN Dashboard (v4.9): interface_guide/vpn_dashboard_v4.9.md
+      - Profilo client VPN: interface_guide/vpn_client_profile.md
       - Client OpenVPN: interface_guide/openvpn_client.md
       - Server OpenVPN: interface_guide/openvpn_server.md
       - Client WireGuard: interface_guide/wireguard_client.md
@@ -304,6 +306,7 @@ nav:
       - Archiviazione di rete: interface_guide/network_storage.md
       - AdGuard Home: interface_guide/adguardhome.md
       - Controllo genitori: interface_guide/parental_control.md
+      - Bark: interface_guide/bark.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
       - Tor: interface_guide/tor.md
@@ -314,6 +317,7 @@ nav:
       - Multi-WAN: interface_guide/multi-wan.md
       - LAN: interface_guide/lan.md
       - Rete ospite: interface_guide/guest_network.md
+      - Rete IoT: interface_guide/iot_network.md
       - DNS: interface_guide/dns.md
       - Porta Ethernet: interface_guide/ethernet_port.md
       - Modalita di rete: interface_guide/network_mode.md
@@ -328,9 +332,9 @@ nav:
       - Licenza DPI: interface_guide/dpi_engine.md
       - Statistiche dati: interface_guide/data_statistics.md
       - Filtro contenuti: interface_guide/content_filter.md
-      - Controllo genitori: interface_guide/parental_control.md
       - QoS: interface_guide/qos.md
       - SQM: interface_guide/sqm.md
+      - Controllo genitori: interface_guide/parental_control.md
     - Sistema:
       - Panoramica: interface_guide/system_overview.md
       - Aggiornamento: interface_guide/upgrade.md

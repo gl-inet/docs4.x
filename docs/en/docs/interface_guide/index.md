@@ -21,6 +21,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 ## Wireless
 
 * [Wireless](wireless.md)
+* [Wireless (v4.9)](wireless_v4.9.md)
 
 ## Clients
 
@@ -36,6 +37,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
 * [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
 * [VPN Dashboard (v4.9)](vpn_dashboard_v4.9.md)
+* [VPN Client Profile](vpn_client_profile.md)
 * [Set up OpenVPN Client](openvpn_client.md)
 * [Set up OpenVPN Server](openvpn_server.md)
 * [Set up WireGuard Client](wireguard_client.md)
@@ -56,6 +58,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [AdGuard Home](adguardhome.md)
 * [Network Storage](network_storage.md)
 * [Parental Control](parental_control.md)
+* [Bark](bark.md)
 * [Tailscale](tailscale.md)
 * [ZeroTier](zerotier.md)
 * [Tor](tor.md) - to protect the personal privacy.
@@ -68,6 +71,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Multi-WAN](multi-wan.md) - enables failover to another Internet connection or simultaneous use of multiple interfaces to increase total bandwidth.
 * [LAN](lan.md)
 * [Guest Network](guest_network.md)
+* [IoT Network](iot_network.md)
 * [DNS](dns.md)
 * [Ethernet Port](ethernet_port.md)
 * [Network Mode](network_mode.md)
@@ -84,9 +88,9 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [DPI Engine](dpi_engine.md)
 * [Data Statistics](data_statistics.md)
 * [Content Filter](content_filter.md)
-* [Parental Control](parental_control.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
+* [Parental Control](parental_control.md)
 
 ## System
 

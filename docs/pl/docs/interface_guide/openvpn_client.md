@@ -10,13 +10,13 @@ Aby skonfigurować klienta OpenVPN na routerze GL.iNet, obejrzyj poniższy film 
 
 Przed rozpoczęciem upewnij się, że masz aktywną subskrypcję u dostawcy usług VPN obsługującego ręczną konfigurację OpenVPN. Kliknij [tutaj](https://www.gl-inet.com/solutions/vpn/){target="_blank"}, aby sprawdzić dostawców OpenVPN kompatybilnych z GL.iNet.
 
-Zazwyczaj musisz najpierw odwiedzić oficjalną stronę subskrybowanego dostawcy usług VPN, uzyskać plik konfiguracyjny i przesłać go do routera, aby skonfigurować go jako klienta OpenVPN. Jeśli nie wiesz, jak uzyskać plik konfiguracyjny, skorzystaj z [poniższego łącza](#get-configuration-files-from-openvpn-service-providers) lub skontaktuj się z pomocą techniczną dostawcy.
+Zazwyczaj trzeba najpierw odwiedzić oficjalną stronę dostawcy usług VPN, którego subskrypcję posiadasz, pobrać plik konfiguracyjny, a następnie przesłać go do routera, aby skonfigurować go jako klienta OpenVPN. Jeśli nie wiesz, jak uzyskać plik konfiguracyjny, skorzystaj z [poniższego łącza](#get-configuration-files-from-openvpn-service-providers) lub skontaktuj się z pomocą techniczną dostawcy.
 
-Klienta OpenVPN możesz skonfigurować za pomocą panelu administratora lub [aplikacji mobilnej](../faq/mobile_app.md). Poniżej przedstawiono kroki konfiguracji za pomocą panelu administratora.
+Klienta OpenVPN możesz skonfigurować za pomocą webowego panelu administracyjnego lub [aplikacji mobilnej](../faq/mobile_app.md). Poniżej przedstawiono kroki konfiguracji za pomocą webowego panelu administracyjnego.
 
 ---
 
-W panelu administratora przejdź do **VPN** -> **OpenVPN Client**.
+W webowym panelu administracyjnym przejdź do **VPN** -> **OpenVPN Client**.
 
 Jeśli masz subskrypcję NordVPN, kliknij **NordVPN**, aby się zalogować; w przeciwnym razie kliknij **Add Manually**, aby przesłać pliki konfiguracyjne OpenVPN.
 
@@ -64,9 +64,7 @@ Szybka konfiguracja NordVPN jest zintegrowana z panelem administracyjnym router�
 
     ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn5.png){class="glboxshadow"}
 
-    Szczegóły połączenia VPN zostaną wyświetlone na **VPN Dashboard**.
-
-    ![vpn dashboard nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn6.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
 6. Aktualizuj serwery.
 
@@ -132,9 +130,7 @@ W poniższych krokach jako przykładu używamy [PIA (Private Internet Access)](h
 
     ![openvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual7.png){class="glboxshadow"}
 
-    Szczegóły połączenia VPN zostaną wyświetlone na **VPN Dashboard**.
-
-    ![vpn dashboard openvpn status](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual8.png){class="glboxshadow"}
+    Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
 ## Konfiguracja serwera OpenVPN na routerze GL.iNet
 

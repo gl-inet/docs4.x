@@ -113,11 +113,11 @@ Melden Sie sich im Web-Admin-Panel des Routers an und wechseln Sie im linken Men
 
 Auf dieser Seite können Sie je nach Modell Ihre Internetverbindungsart auswählen, z. B. Ethernet, Repeater, Tethering und Cellular.
 
-For Collie (GL-X300B), it supports three types of connection type: Ethernet, Repeater, and Cellular.
+Collie (GL-X300B) unterstützt drei Verbindungsarten: Ethernet, Repeater und Cellular.
 
 ### Ethernet
 
-Connect your router to an active modem or an active network device via an Ethernet cable to access the Internet. This method usually provides the fastest and most reliable Internet connection.
+Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem aktiven Netzwerkgerät, um eine Internetverbindung herzustellen. Diese Methode bietet in der Regel die schnellste und zuverlässigste Internetverbindung.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
@@ -125,7 +125,7 @@ Connect your router to an active modem or an active network device via an Ethern
 
 ### Repeater
 
-Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-Fi network. As a repeater, it receives and retransmits wireless signals within its range, thereby extending its coverage. This method is useful when a single router cannot cover the entire usage area.
+Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehenden Wi-Fi-Netzwerks zu erweitern. Als Repeater empfängt und sendet er Funksignale innerhalb seiner Reichweite erneut aus und vergrößert damit die Abdeckung. Diese Methode ist nützlich, wenn ein einzelner Router den gesamten Einsatzbereich nicht abdecken kann.
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
@@ -133,15 +133,15 @@ Set up your router as a repeater to extend the Wi-Fi coverage of an existing Wi-
 
 ### Cellular
 
-Insert a SIM card into the router's SIM card slot to connect it to the internet. This method is useful for sharing internet access from a single SIM card to all connected devices.
+Setzen Sie eine SIM-Karte in den SIM-Kartenslot des Routers ein, um eine Internetverbindung herzustellen. Diese Methode eignet sich, um den Internetzugang einer einzelnen SIM-Karte mit allen verbundenen Geräten zu teilen.
 
-[Click here to learn how to connect to the internet via cellular](../../interface_guide/internet_cellular.md)
+[Klicken Sie hier, um zu erfahren, wie Sie über Mobilfunk eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
 ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_cellular.png){class="glboxshadow"}
 
 ### Multi-WAN
 
-Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., Ethernet, Repeater, and Cellular) at the same time. If the top-priority internet connection fails, the router will automatically switch to another internet connection. This is also called Failover, ensuring smooth and uninterrupted internet access.
+Multi-WAN ist eine Netzwerkfunktion, mit der Sie Ihren Router gleichzeitig mit mehreren Internetverbindungen, z. B. Ethernet, Repeater und Cellular, einrichten können. Wenn die Internetverbindung mit der höchsten Priorität ausfällt, wechselt der Router automatisch zu einer anderen Internetverbindung. Dies wird auch als Failover bezeichnet und sorgt für einen reibungslosen und unterbrechungsfreien Internetzugang.
 
 Wechseln Sie zu [Multi-WAN](../../interface_guide/multi-wan.md), um die Priorität jeder Internetverbindung festzulegen.
 

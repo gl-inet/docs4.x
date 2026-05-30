@@ -18,35 +18,95 @@ Si vous définissez un ou plusieurs serveurs DNS personnalisés, toutes les requ
 
 Il existe quatre modes : Automatic, Encrypted DNS, Manual DNS et DNS Proxy.
 
-- **Automatic** : le routeur utilisera automatiquement le serveur DNS fourni par l’appareil en amont (par exemple le modem du FAI ou le routeur principal), ou les paramètres DNS correspondant à chaque interface réseau.
+### Automatic
 
-    ![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
+Dans ce mode, le routeur utilisera automatiquement le serveur DNS fourni par l’appareil en amont (par exemple, le modem du FAI ou le routeur principal), ou les paramètres DNS correspondant à chaque interface réseau.
 
-- **Encrypted DNS** : quatre types de chiffrement sont disponibles : DNS over TLS, DNSCrypt-Proxy, DNS over HTTPS et Oblivious DNS over HTTPS.
+![automatic](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_auto.png){class="glboxshadow"}
+
+### Encrypted DNS
+
+Veuillez suivre les instructions ci-dessous selon votre version du firmware.
+
+!!! note "Pour le firmware v4.8 et antérieur"
+
+    Quatre types de chiffrement sont disponibles : DNS over TLS, DNSCrypt-Proxy, DNS over HTTPS et Oblivious DNS over HTTPS.
+
+    Sélectionnez d’abord **Encryption Type**. Les autres options changeront en fonction de votre choix.
 
     ![encrypted dns types](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_types.png){class="glboxshadow"}
 
-    - Pour DNS over TLS, sélectionnez un fournisseur DNS parmi Control D, NextDNS et Cloudflare.
+    - **Pour DNS over TLS (DoT)**, choisissez un fournisseur DNS parmi **Control D**, **NextDNS** et **Cloudflare**.
 
         ![dns over tls](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_tls.png){class="glboxshadow"}
 
-    - Pour les trois autres modes (DNSCrypt-Proxy, DNS over HTTPS et Oblivious DNS over HTTPS), sélectionnez au moins un DNS Server depuis le dépôt.
+    - **Pour les trois autres options (DNSCrypt-Proxy, DNS over HTTPS et Oblivious DNS over HTTPS)**, sélectionnez au moins un serveur DNS depuis le dépôt.
 
         ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
 
-- **Manual DNS** : sélectionnez au moins un DNS Server pour votre routeur dans la liste déroulante.
+!!! note "Pour le firmware v4.9 et ultérieur"
 
-    ![manual dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/manual_dns.png){class="glboxshadow"}
+    En plus de Control D, NextDNS et Cloudflare, davantage de fournisseurs DNS sont désormais disponibles pour le mode Encrypted DNS, notamment **Quad9**, **CleanBrowsing**, **AdGuard DNS**, **Google DNS** et **OpenDNS**. Vous pouvez également spécifier manuellement un serveur DNS chiffré si nécessaire.
 
-- **DNS Proxy** : le routeur acheminera toutes les requêtes DNS du LAN vers l’adresse du serveur proxy que vous indiquez (par exemple `8.8.8.8#53`). Cela peut être utile si vous exécutez un autre serveur DNS ou Pi-hole sur votre réseau.
+    Sélectionnez d’abord **DNS Provider**. Les autres options changeront en fonction de votre choix.
 
-    ![dns proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_proxy.png){class="glboxshadow"}
+    ![encrypted dns providers](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_providers.png){class="glboxshadow"}
+
+    - Si vous sélectionnez un fournisseur DNS spécifique (par exemple NextDNS), choisissez un type de chiffrement parmi **DNS over TLS (DoT)**, **DNS over HTTPS (DoH)** et **DNS over QUIC (DoQ)**. Notez que DNS over QUIC (DoQ) a été introduit dans le firmware v4.9 et n’est disponible que lorsque vous utilisez Control D, NextDNS ou AdGuard DNS comme fournisseur DNS.
+
+        ![nextdns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/nextdns.png){class="glboxshadow"}
+
+    - Si vous sélectionnez **Manual** comme fournisseur DNS, choisissez un type de chiffrement parmi **DNS over TLS (DoT)**, **DNS over HTTPS (DoH)**, **DNS over QUIC (DoQ)**, **Oblivious DNS over HTTPS** et **DNSCrypt**.
+
+        ![encrypted manual1](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_manual1.png){class="glboxshadow"}
+
+        Cliquez ensuite sur **Add a Server** pour ajouter au moins un serveur DNS. Vous pouvez saisir directement l’URL ou le format stamp du DNS chiffré. Pour une liste des serveurs publics, consultez [https://dnscrypt.info/public-servers](https://dnscrypt.info/public-servers){target="_blank"}.
+
+        ![encrypted manual2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_manual2.png){class="glboxshadow"}
+
+#### Comparaison des types de chiffrement
+
+1. **DNS over TLS (DoT)**
+
+    Chiffre les requêtes DNS via un port TLS dédié. Il isole le trafic DNS du trafic web classique et reste facile à identifier pour les opérateurs réseau.
+
+2. **DNS over HTTPS (DoH)**
+
+    Transporte les données DNS dans le trafic HTTPS standard. Il mélange les requêtes DNS au trafic web normal pour une meilleure confidentialité et contourne les filtrages de trafic les plus simples.
+
+3. **DNS over QUIC (DoQ)**
+
+    Encapsule le DNS dans le protocole QUIC. Il offre une faible latence, une reconnexion rapide et des performances stables sur les réseaux instables.
+
+4. **Oblivious DNS over HTTPS (ODoH)**
+
+    Version améliorée de DoH. Il sépare l’adresse IP de l’utilisateur de ses requêtes DNS, empêchant à la fois le serveur et les fournisseurs de réseau de suivre votre activité de navigation.
+
+5. **DNSCrypt**
+
+    Protocole de chiffrement mature pour le DNS. Il authentifie et chiffre le trafic DNS, en mettant l’accent sur la protection contre la falsification et la compatibilité avec les environnements réseau plus anciens.
+
+### Manual DNS
+
+Dans ce mode, vous pouvez personnaliser le serveur DNS de votre routeur. Sélectionnez au moins un **DNS Server** pour votre routeur dans la liste déroulante.
+
+![manual dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/manual_dns.png){class="glboxshadow"}
+
+### DNS Proxy
+
+Dans ce mode, le routeur acheminera toutes les requêtes DNS du LAN vers l’adresse du serveur proxy que vous indiquez (par exemple `8.8.8.8#53`). Cela peut être utile si vous exécutez un autre serveur DNS ou Pi-hole sur votre réseau.
+
+![dns proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_proxy.png){class="glboxshadow"}
 
 ## Modifier Hosts
 
-Les requêtes des clients seront résolues en priorité à l’aide des règles DNS statiques que vous écrivez dans Hosts.
+Vous pouvez cliquer sur le bouton **Edit Hosts** en haut à droite pour personnaliser les règles d’hôtes statiques.
 
-![hosts](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/edit_hosts.png){class="glboxshadow"}
+![edit hosts1](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/edit_hosts1.png){class="glboxshadow"}
+
+Le routeur applique ces règles d’hôtes en priorité lors de la résolution des requêtes des clients connectés.
+
+![edit hosts2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/edit_hosts2.png){class="glboxshadow"}
 
 ---
 

@@ -8,7 +8,7 @@ Dotato di 5 porte Ethernet da 2,5G e 1 porta USB 3.0, supporta connettivita cabl
 
 ![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/hardware_info/be6500_interface.jpg){class="glboxshadow"}
 
-**Note**: la differenza estetica tra Flint 3e e Flint 3 riguarda la serigrafia: quella di Flint 3e e blu, mentre quella di Flint 3 e bianca.
+**Nota**: la differenza estetica tra Flint 3e e Flint 3 riguarda la serigrafia: quella di Flint 3e e blu, mentre quella di Flint 3 e bianca.
 
 ## Contenuto della confezione
 

@@ -2,7 +2,7 @@
 
 Kontrola rodzicielska to sposób na zapewnienie dzieciom bezpieczeństwa w sieci poprzez blokowanie nieodpowiednich stron internetowych i ograniczanie czasu korzystania z urządzeń. Pomaga zapobiegać dostępowi do szkodliwych treści, zarządzać czasem ekranowym i dbać o odpowiedzialne korzystanie z Internetu.
 
-Ta funkcja jest dostępna od wersji oprogramowania v4.2. **Uwaga**: Niektóre modele, mimo że korzystają z oprogramowania v4.2 lub nowszego, nie obsługują kontroli rodzicielskiej z powodu niewystarczającej ilości pamięci.
+> Uwaga: Niektóre modele nie obsługują kontroli rodzicielskiej z powodu niewystarczającej ilości pamięci, np. Mango (GL-MT300N-V2) i Shadow (GL-AR300M series).
 
 Obejrzyj ten film lub wykonaj poniższe kroki, aby skonfigurować kontrolę rodzicielską na routerach GL.iNet.
 
@@ -163,23 +163,17 @@ Jeśli skonfigurowane ustawienia nie działają, sprawdź poniższe możliwe prz
 
 4. Docelowe urządzenie używa losowego adresu MAC dla każdego połączenia sieciowego, co uniemożliwia działanie reguł dostępu. Wyłącz losowy adres MAC na docelowym urządzeniu, a następnie ponownie dodaj to urządzenie do profilu.
 
-## Wersja Bark
+## Wersja Bark {#bark-version}
 
-Wersja [Bark](https://www.bark.us/){target="_blank"}, dostarczana i zarządzana przez Bark na ich własnej platformie, umożliwia filtrowanie aplikacji i stron internetowych jednym kliknięciem oraz monitorowanie historii żądań.
+> Ten przewodnik dotyczy firmware v4.8 i wcześniejszych. W przypadku nowszych wersji kliknij [tutaj](bark.md).
 
-Oferuje funkcję monitorowania ponad 24 popularnych aplikacji i platform mediów społecznościowych, które są uwzględnione na liście ustawień wstępnych naszej lokalnej funkcji kontroli rodzicielskiej.
-
-Dzięki funkcji rejestrowania zapisuje, które urządzenie klienta odwiedziło jaką stronę i o której godzinie. Umożliwia to rodzicom łatwe przeglądanie dzienników, identyfikowanie stron nieznajdujących się na liście blokowanych i szybkie dodawanie ich do zakresu zarządzania.
-
-Funkcja Bark Parental Control jest dostępna od wersji oprogramowania v4.5 i obsługiwana tylko na wybranych routerach GL.iNet.
+Usługa [Bark](https://www.bark.us/){target="_blank"} pomaga chronić cyfrowy świat dziecka i zapewnia kompleksową ochronę online. Zwykle wymaga płatnej subskrypcji. Jednak w ramach partnerstwa z Bark, GL.iNet oferuje plan Bark Home bezpłatnie **na wybranych modelach routerów**, zapewniając zaawansowane monitorowanie i alerty bez dodatkowych kosztów.
 
 **Uwaga**:
 
-1. Usługa Bark jest dostępna **wyłącznie w Stanach Zjednoczonych, Australii i Republice Południowej Afryki**. Kliknij [tutaj](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"}, aby uzyskać szczegółowe informacje.
+1. Usługa Bark jest dostępna **tylko w Stanach Zjednoczonych, Australii i Republice Południowej Afryki**. Kliknij [tutaj](https://support.bark.us/hc/en-us/articles/360049965072-International-availability){target="_blank"}, aby uzyskać szczegóły.
 
-2. Usługa Bark zazwyczaj wymaga płatnej subskrypcji. Jednak w ramach naszego partnerstwa z Bark, GL.iNet oferuje plan Bark Home bezpłatnie na wybranych modelach routerów, zapewniając zaawansowane monitorowanie i alerty bez dodatkowych kosztów.
-
-3. Obie wersje kontroli rodzicielskiej nie mogą być włączone jednocześnie. Przełączenie między wersjami automatycznie wyłącza drugą.
+2. Obie wersje kontroli rodzicielskiej nie mogą być włączone jednocześnie. Włączenie jednej automatycznie wyłączy drugą.
 
 ### Obsługiwane modele
 
@@ -216,27 +210,39 @@ Funkcja Bark Parental Control jest dostępna od wersji oprogramowania v4.5 i obs
 
 ### Kroki konfiguracji
 
-Zaloguj się do panelu administratora routera i przejdź do **APPLICATIONS** -> **Parental Control**.
-
-Wybierz wersję Bark, przełącz przełącznik i kliknij **Apply**.
+Zaloguj się do webowego panelu administracyjnego routera i przejdź do **APPLICATIONS** -> **Parental Control**. Wybierz wersję Bark.
 
 ![switch_versions](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
 
+Włącz przełącznik Bark, a następnie kliknij **Apply**.
+
 ![bark_enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_enable.png){class="glboxshadow"}
 
-**Uwaga:** Usługa Bark może być niedostępna w niektórych krajach. Ponieważ GL.iNet nie jest dostawcą tej usługi, w przypadku problemów z jej używaniem prosimy o bezpośredni kontakt z [Działem wsparcia technicznego Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet).
-
-Usługa Bark jest włączona, ale to urządzenie nie jest jeszcze sparowane z żadnym kontem. Użyj [linku do parowania urządzenia](https://www.bark.us/app/signup/?ref=glinet&home=glinet), aby sparować urządzenie ze swoim kontem Bark.
+Następnie sparuj urządzenie ze swoim kontem Bark. Kliknij **Device Pairing Link** lub [tutaj](https://www.bark.us/app/signup/?ref=glinet&home=glinet), aby sparować ten router z kontem Bark.
 
 ![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_pairing.png){class="glboxshadow"}
 
-Po sparowaniu strona wyświetla się jak poniżej.
+Zostaniesz przekierowany na stronę Bark. Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby się zalogować, sparować urządzenie, utworzyć profil i zakończyć konfigurację początkową.
+
+![bark_welcome_page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_welcome.png){class="glboxshadow"}
+<small>(Logowanie do Bark)</small>
+
+![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_setup.png){class="glboxshadow"}
+<small>(Urządzenie sparowane)</small>
+
+![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_create_profile.png){class="glboxshadow"}
+<small>(Tworzenie profilu)</small>
+
+![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_get_started.png){class="glboxshadow"}
+<small>(Konfiguracja początkowa)</small>
+
+Gdy urządzenie połączy się z usługami Bark Cloud i zostanie sparowane z Twoim kontem, webowy panel administracyjny routera będzie wyglądał następująco.
 
 ![bark_paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
 
-Twoje urządzenie jest teraz połączone z usługami Bark Cloud i sparowane z Twoim kontem. Przejdź do [Bark](https://www.bark.us/app/children/?ref=glinet&home=glinet) i zaloguj się na swoje konto, aby utworzyć profil do kontroli sieci.
+Kliknij **Go to Bark** lub [tutaj](https://www.bark.us/app/children/?ref=glinet&home=glinet), aby zalogować się do pulpitu Bark i skonfigurować reguły kontroli rodzicielskiej.
 
-![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_setup.png){class="glboxshadow gl-90-desktop"}
+Ponieważ GL.iNet nie jest dostawcą tej usługi, w razie problemów podczas korzystania z Bark skontaktuj się bezpośrednio z [pomocą techniczną Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet).
 
 ---
 

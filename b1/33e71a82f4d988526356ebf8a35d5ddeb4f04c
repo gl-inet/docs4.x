@@ -1,0 +1,116 @@
+docs/it/docs/interface_guide/parental_control.md
+  h_dd47ed8a860c1a 5
+docs/de/mkdocs.yml
+  h_dd47ed8a860c1a 309,338
+docs/fr/docs/interface_guide/iot_network.md
+  h_dd47ed8a860c1a 3-4
+docs/fr/docs/interface_guide/parental_control.md
+  h_dd47ed8a860c1a 5
+docs/pl/docs/interface_guide/parental_control.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 5
+docs/it/docs/interface_guide/parental_control_v4.9.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 1-93
+docs/es/docs/interface_guide/wireless_v4.9.md
+  h_dd47ed8a860c1a 3,5
+docs/es/docs/interface_guide/astrowarp.md
+  h_dd47ed8a860c1a 9
+docs/de/docs/tutorials/eap.md
+  h_dd47ed8a860c1a 77-80
+docs/it/docs/interface_guide/index.md
+  h_dd47ed8a860c1a 93
+docs/es/mkdocs.yml
+  h_dd47ed8a860c1a 307,336
+docs/fr/mkdocs.yml
+  h_dd47ed8a860c1a 309,338
+docs/pl/docs/interface_guide/astrowarp.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 9
+docs/it/docs/interface_guide/astrowarp.md
+  h_dd47ed8a860c1a 9
+docs/jp/docs/interface_guide/index.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 93
+docs/pl/docs/interface_guide/parental_control_v4.9.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 1-93
+docs/de/docs/interface_guide/parental_control_v4.9.md
+  h_dd47ed8a860c1a 1-93
+docs/jp/mkdocs.yml
+  s_50d4bf48bb46e4::t_0a2359fee979da 307
+  s_50d4bf48bb46e4::t_836a9b17a61e54 337
+docs/de/docs/interface_guide/astrowarp.md
+  h_dd47ed8a860c1a 9
+docs/es/docs/interface_guide/parental_control_v4.9.md
+  h_dd47ed8a860c1a 1-93
+docs/pl/docs/interface_guide/wireless_v4.9.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 3,5
+docs/de/docs/interface_guide/index.md
+  h_dd47ed8a860c1a 93
+docs/es/docs/interface_guide/parental_control.md
+  h_dd47ed8a860c1a 5
+docs/it/docs/interface_guide/wireless_v4.9.md
+  h_dd47ed8a860c1a 3,5
+docs/pl/docs/tutorials/eap.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 7
+docs/pl/mkdocs.yml
+  s_50d4bf48bb46e4::t_0a2359fee979da 334
+  s_50d4bf48bb46e4::t_f9d8a490e9100b 305
+docs/jp/docs/tutorials/eap.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 7
+docs/es/docs/interface_guide/index.md
+  h_dd47ed8a860c1a 93
+docs/jp/docs/interface_guide/iot_network.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 3-4
+docs/pl/docs/interface_guide/index.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 92
+docs/jp/docs/interface_guide/wireless_v4.9.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 3,5
+docs/fr/docs/interface_guide/parental_control_v4.9.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 1-93
+docs/jp/docs/interface_guide/parental_control.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 5
+docs/es/docs/interface_guide/iot_network.md
+  h_dd47ed8a860c1a 3-4
+docs/fr/docs/interface_guide/index.md
+  h_dd47ed8a860c1a 93
+docs/pl/docs/interface_guide/iot_network.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 3-4
+docs/it/mkdocs.yml
+  s_50d4bf48bb46e4::t_0a2359fee979da 309,338
+docs/it/docs/interface_guide/iot_network.md
+  h_dd47ed8a860c1a 3-4
+docs/jp/docs/interface_guide/astrowarp.md
+  h_dd47ed8a860c1a 9
+docs/it/docs/tutorials/eap.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 7
+docs/fr/docs/interface_guide/astrowarp.md
+  h_dd47ed8a860c1a 9
+docs/jp/docs/interface_guide/parental_control_v4.9.md
+  s_50d4bf48bb46e4::t_0a2359fee979da 1-93
+docs/fr/docs/interface_guide/wireless_v4.9.md
+  h_dd47ed8a860c1a 3,5
+docs/de/docs/interface_guide/parental_control.md
+  h_dd47ed8a860c1a 5
+docs/de/docs/interface_guide/wireless_v4.9.md
+  h_dd47ed8a860c1a 3,5
+docs/de/docs/interface_guide/iot_network.md
+  h_dd47ed8a860c1a 3-4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b133e71a82f4d988526356ebf8a35d5ddeb4f04c",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_50d4bf48bb46e4": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "a98b9f0f-9770-4f05-8818-e2eb334bb946",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

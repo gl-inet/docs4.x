@@ -4,7 +4,7 @@ Certains routeurs GL.iNet prennent en charge la connexion aux réseaux Wi-Fi EAP
 
 EAP est un cadre d'authentification couramment utilisé avec l'**authentification 802.1X** pour les réseaux **WPA2‑Enterprise / WPA3‑Enterprise**. Un exemple typique est **eduroam**, un service mondial d'itinérance Wi-Fi pour l'enseignement et la recherche qui repose sur 802.1X et EAP.
 
-Ce guide présente deux méthodes pour connecter les routeurs GL.iNet à un réseau Wi-Fi EAP : via le panneau d'administration et via LuCI.
+Ce guide présente deux méthodes pour connecter les routeurs GL.iNet à un réseau Wi-Fi EAP : via le panneau d'administration Web GL.iNet et via LuCI.
 
 ## Modèles pris en charge
 
@@ -77,6 +77,8 @@ Ce guide présente deux méthodes pour connecter les routeurs GL.iNet à un rés
 Le panneau d'administration Web GL.iNet ne prend en charge qu'un nombre limité de types EAP.
 
 Si le réseau EAP cible ne peut pas être rejoint via le panneau d'administration Web, essayez de vous connecter via l'interface LuCI.
+
+> Remarque : Les étapes suivantes sont données à titre indicatif uniquement, veuillez vous référer à la page LuCI réelle de votre appareil.
 
 1. Connectez-vous au panneau d'administration Web, allez dans **SYSTEM** -> **Advanced Settings**. Installez LuCI puis cliquez sur **Go to LuCI**.
 

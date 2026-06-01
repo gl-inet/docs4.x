@@ -3509,31 +3509,31 @@
     }
   },
   "docs/en/docs/tutorials/eap.md": {
-    "source_hash": "1260b6995537559d665f06925506c393976cc42474de285746176cf0e1c82091",
+    "source_hash": "100fa0e42ba2f805ce0e83a44a4b240ce7fb6b58b65cf181314c72387fded340",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780310097
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780310178
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780310291
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775092437
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780310341
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780310448
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606395
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780310524
       }
     }
   },

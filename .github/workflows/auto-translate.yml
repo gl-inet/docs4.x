@@ -32,6 +32,7 @@ concurrency:
 jobs:
   translate:
     runs-on: ubuntu-latest
+    timeout-minutes: 300
     steps:
       - name: Checkout docs4.x
         uses: actions/checkout@v6
@@ -73,7 +74,7 @@ jobs:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
           FORCE_FULL: ${{ github.event_name == 'workflow_dispatch' && inputs.force_full || 'false' }}
-          MAX_FILES: ${{ github.event_name == 'workflow_dispatch' && inputs.max_files || 0 }}
+          MAX_FILES: ${{ github.event_name == 'schedule' && '50' || (github.event_name == 'workflow_dispatch' && inputs.max_files || '0') }}
           CHANGED_EN_FILES: ${{ steps.changed.outputs.files }}
           RENAMED_EN_FILES: ${{ steps.changed.outputs.renamed }}
           DELETED_EN_FILES: ${{ steps.changed.outputs.deleted }}

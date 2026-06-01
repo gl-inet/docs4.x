@@ -7,6 +7,7 @@ import hashlib
 import json
 import os
 import pathlib
+import re
 import sys
 import time
 from functools import lru_cache
@@ -53,6 +54,22 @@ LANGUAGE_NAMES = {
     "pl": "Polish",
 }
 
+EN_ROOT_PREFIX = "docs/en/"
+EN_EXTRA_FILES = [
+    "docs/en/mkdocs.yml",
+    "docs/en/overrides/home.html",
+    "docs/en/overrides/main.html",
+]
+# MkDocs material language codes differ from our directory names for JP
+MKDOCS_LANG_CODES = {
+    "de": "de",
+    "es": "es",
+    "fr": "fr",
+    "it": "it",
+    "jp": "ja",
+    "pl": "pl",
+}
+
 
 @dataclass
 class TranslationTask:
@@ -68,6 +85,10 @@ def normalize_repo_path(path: str) -> str:
 
 def is_en_markdown_path(path: str) -> bool:
     return path.startswith(EN_DOCS_PREFIX) and path.endswith(".md")
+
+
+def is_en_tracked_path(path: str) -> bool:
+    return is_en_markdown_path(path) or path in EN_EXTRA_FILES
 
 
 def sha256_text(text: str) -> str:
@@ -157,7 +178,9 @@ def collect_english_files() -> list[pathlib.Path]:
     en_root = DOCS_ROOT / "en" / "docs"
     if not en_root.exists():
         raise FileNotFoundError(f"English docs root not found: {en_root}")
-    return sorted(en_root.rglob("*.md"))
+    md_files = sorted(en_root.rglob("*.md"))
+    extra_files = [p for rel in EN_EXTRA_FILES if (p := pathlib.Path(rel)).exists()]
+    return extra_files + md_files
 
 
 def source_rel_path(source_path: pathlib.Path) -> str:
@@ -166,9 +189,11 @@ def source_rel_path(source_path: pathlib.Path) -> str:
 
 def target_path_for_lang(source_path: pathlib.Path, lang: str) -> pathlib.Path:
     src = source_path.as_posix()
-    if not src.startswith(EN_DOCS_PREFIX):
-        raise ValueError(f"Unexpected source path: {src}")
-    return pathlib.Path(src.replace(EN_DOCS_PREFIX, f"docs/{lang}/docs/", 1))
+    if src.startswith(EN_DOCS_PREFIX):
+        return pathlib.Path(src.replace(EN_DOCS_PREFIX, f"docs/{lang}/docs/", 1))
+    if src.startswith(EN_ROOT_PREFIX):
+        return pathlib.Path(src.replace(EN_ROOT_PREFIX, f"docs/{lang}/", 1))
+    raise ValueError(f"Unexpected source path: {src}")
 
 
 def lang_docs_root(lang: str) -> pathlib.Path:
@@ -206,7 +231,7 @@ def migrate_renamed_files_and_cache(
         return
 
     for old_rel, new_rel in renamed_pairs:
-        if not (is_en_markdown_path(old_rel) and is_en_markdown_path(new_rel)):
+        if not (is_en_tracked_path(old_rel) and is_en_tracked_path(new_rel)):
             continue
 
         moved_any = False
@@ -269,7 +294,7 @@ def remove_deleted_targets_and_cache(
         return
 
     for deleted_rel in deleted_paths:
-        if not is_en_markdown_path(deleted_rel):
+        if not is_en_tracked_path(deleted_rel):
             continue
 
         removed_any = False
@@ -367,7 +392,13 @@ def translate_markdown(
         )
 
     prompt_parts.extend(["Markdown to translate:", source_markdown])
-    user_prompt = "\n\n".join(prompt_parts)
+    return _call_llm("\n\n".join(prompt_parts))
+
+
+def _call_llm(user_prompt: str) -> str:
+    """Send a prompt to the LLM and return the response text, with retries."""
+    if not API_KEY:
+        raise RuntimeError("Missing LLM_API_KEY environment variable")
 
     payload = {
         "model": MODEL,
@@ -405,6 +436,109 @@ def translate_markdown(
     raise RuntimeError(f"translation failed after retries: {last_error}")
 
 
+def translate_html(
+    source_html: str,
+    target_lang: str,
+    existing_translation: str | None,
+) -> str:
+    if not API_KEY:
+        raise RuntimeError("Missing LLM_API_KEY environment variable")
+
+    target_language = LANGUAGE_NAMES.get(target_lang, target_lang)
+    instruction_bundle = get_instruction_bundle(target_lang)
+    prompt_parts = [
+        f"Translate the HTML template below into {target_language}.",
+        "Rules:",
+        "1. Translate ONLY user-visible text content inside HTML tags.",
+        "2. Do NOT translate: CSS, HTML attributes (class, id, href, src, alt), Jinja2 template tags ({% %} {{ }}), JavaScript, or HTML comments.",
+        "3. Preserve all HTML structure, tags, attributes, and indentation exactly.",
+        "4. Preserve all URLs, file paths, and technical values unchanged.",
+        "5. Output only the final HTML with no explanation.",
+    ]
+
+    if instruction_bundle:
+        prompt_parts.extend(
+            [
+                "Apply these project instructions strictly:",
+                instruction_bundle,
+            ]
+        )
+
+    if existing_translation:
+        prompt_parts.extend(
+            [
+                "There is an existing translation. Update only what is needed to sync with the latest English source.",
+                "Keep unchanged lines untouched when they are already correct.",
+                "Existing translation:",
+                existing_translation,
+            ]
+        )
+
+    prompt_parts.extend(["HTML to translate:", source_html])
+    return _call_llm("\n\n".join(prompt_parts))
+
+
+def _fix_mkdocs_lang_fields(yaml_text: str, target_lang: str) -> str:
+    """Post-process translated mkdocs.yml to set the correct theme.language and site_url."""
+    lang_code = MKDOCS_LANG_CODES.get(target_lang, target_lang)
+    # Fix theme.language (indented under theme:)
+    yaml_text = re.sub(r"(\s{2}language:\s*)[\w-]+", rf"\g<1>{lang_code}", yaml_text)
+    # Fix site_url — replace the language segment in the GL.iNet docs URL
+    yaml_text = re.sub(
+        r"(site_url:\s*https://docs\.gl-inet\.com/router/)[a-z]+(/)",
+        rf"\g<1>{target_lang}\2",
+        yaml_text,
+    )
+    return yaml_text
+
+
+def translate_yaml_config(
+    source_yaml: str,
+    target_lang: str,
+    existing_translation: str | None,
+) -> str:
+    if not API_KEY:
+        raise RuntimeError("Missing LLM_API_KEY environment variable")
+
+    target_language = LANGUAGE_NAMES.get(target_lang, target_lang)
+    prompt_parts = [
+        f"Translate the MkDocs YAML configuration below into {target_language}.",
+        "Rules:",
+        "1. Translate ONLY: the value of 'site_name', the value of 'site_description', and navigation label text (human-readable page titles on the left of colons in the nav: section).",
+        "2. Do NOT change: 'site_url', 'theme.language', file paths, YAML keys, plugin settings, URLs, social links, or any technical values.",
+        "3. Keep all YAML structure and indentation exactly as in the source.",
+        "4. Output only the final YAML with no explanation.",
+    ]
+
+    if existing_translation:
+        prompt_parts.extend(
+            [
+                "There is an existing translation. Update only what is needed to sync with the latest English source.",
+                "Keep unchanged lines untouched when they are already correct.",
+                "Existing translation:",
+                existing_translation,
+            ]
+        )
+
+    prompt_parts.extend(["YAML to translate:", source_yaml])
+    translated = _call_llm("\n\n".join(prompt_parts))
+    return _fix_mkdocs_lang_fields(translated, target_lang)
+
+
+def translate_content(
+    source_text: str,
+    source_rel: str,
+    target_lang: str,
+    existing_translation: str | None,
+) -> str:
+    """Dispatch to the appropriate translation function based on file type."""
+    if source_rel.endswith(".html"):
+        return translate_html(source_text, target_lang, existing_translation)
+    if source_rel.endswith(".yml"):
+        return translate_yaml_config(source_text, target_lang, existing_translation)
+    return translate_markdown(source_text, target_lang, existing_translation)
+
+
 def main() -> int:
     changed_raw = os.getenv("CHANGED_EN_FILES", "")
     renamed_raw = os.getenv("RENAMED_EN_FILES", "")
@@ -434,8 +568,9 @@ def main() -> int:
 
         print(f"[translate] {task.source_rel} -> {task.target_lang}")
         current_text = task.target_path.read_text(encoding="utf-8") if task.target_path.exists() else None
-        translated_text = translate_markdown(
+        translated_text = translate_content(
             source_text,
+            task.source_rel,
             task.target_lang,
             current_text,
         )

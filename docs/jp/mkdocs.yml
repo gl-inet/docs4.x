@@ -335,6 +335,11 @@ nav:
           - SQM: interface_guide/sqm.md
           - ペアレンタルコントロール: interface_guide/parental_control.md
           - ペアレンタルコントロール（v4.9）: interface_guide/parental_control_v4.9.md
+      - セキュリティ:
+          - ポートフォワーディング: interface_guide/port_forwarding.md
+          - ACL: interface_guide/acl.md
+          - 管理者アクセス: interface_guide/admin_access.md
+          - NATモード: interface_guide/nat_settings.md
       - システム:
           - 概要: interface_guide/system_overview.md
           - アップグレード: interface_guide/upgrade.md

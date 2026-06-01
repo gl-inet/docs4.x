@@ -2,7 +2,7 @@
 
 Diese Funktion ist seit v4.5.16 verfügbar.
 
-Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **NAT Settings**.
+Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **NAT Settings** (ab Firmware v4.9 in **NAT Mode** umbenannt).
 
 Auf dieser Seite können Sie **Full Cone NAT** aktivieren, um die Stabilität von Peer-to-Peer-Verbindungen für Anwendungen wie Gaming oder Streaming zu verbessern, sowie **SIP ALG**, um Kompatibilitätsprobleme mit VoIP-/SIP-basierten Telefondiensten zu beheben.
 

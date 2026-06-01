@@ -1,68 +1,56 @@
-# Sécurité
+# Acceso de administrador
 
-Cette fonctionnalité est disponible depuis le firmware v4.5.
+> Esta página se introdujo en el firmware v4.9.
 
-Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Security**.
+En el lado izquierdo del panel de administración web, vaya a **SECURITY** -> **Admin Access**.
 
-Cette page vous permet de configurer divers paramètres de sécurité afin de protéger votre réseau et votre routeur contre les accès non autorisés.
+Esta página le permite configurar varios ajustes de seguridad para proteger su red y su router frente a accesos no autorizados.
 
-## Mot de passe administrateur
+## Control de acceso
 
-Vous pouvez modifier ici le mot de passe de connexion du panneau d'administration web.
+Access Control, también llamado Local Access Control en el firmware v4.7 y anteriores, gestiona el acceso a las distintas interfaces de administración del router.
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/admin_password.jpg){class="glboxshadow"}
+Puede evitar intentos de escaneo e intrusión en el puerto predeterminado, así como problemas de red causados por conflictos de puertos.
 
-Le mot de passe administrateur doit respecter les exigences suivantes :
-
-- Au minimum 10 caractères et au maximum 63 caractères.
-- Les lettres (distinction majuscules/minuscules), les chiffres et les symboles `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sont autorisés.
-- Au moins deux catégories parmi les lettres majuscules, les lettres minuscules, les chiffres et les symboles sont requises.
-
-## Contrôle d'accès
-
-Le contrôle d'accès, également appelé **Local Access Control** dans le firmware v4.7 et les versions antérieures, gère l'accès aux différentes interfaces de gestion du routeur.
-
-Il permet d'éviter les tentatives de scan et d'intrusion sur les ports par défaut, ainsi que les problèmes réseau causés par des conflits de ports.
-
-**Remarque** : si le numéro de port est modifié dans le firmware, vous devez saisir le numéro correct pour accéder au panneau d'administration. Si vous l'avez oublié, réinitialisez le routeur afin de restaurer le numéro de port par défaut.
+**Nota**: Si el número de puerto se ha modificado en el firmware, deberá introducir el puerto correcto para acceder al panel de administración. Si olvidó el número de puerto, restablezca el router al puerto predeterminado.
 
 ![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/access_control_4.8.png){class="glboxshadow"}
 
-### Panneau d'administration
+### Panel de administración
 
-- **HTTP Port** : 80 par défaut ; utilisé pour l'accès HTTP non chiffré au panneau d'administration web.
+- **HTTP Port**: El valor predeterminado es 80 y se utiliza para el acceso HTTP sin cifrar al panel de administración web.
 
-- **HTTPS Port** : 443 par défaut ; utilisé pour l'accès HTTPS sécurisé au panneau d'administration web.
+- **HTTPS Port**: El valor predeterminado es 443 y se utiliza para el acceso HTTPS seguro al panel de administración web.
 
-- **Force HTTPS** : lorsqu'il est activé, l'accès au panneau d'administration web est forcé en HTTPS.
+- **Force HTTPS**: Cuando está habilitado, el acceso al panel de administración web se fuerza a utilizar una conexión HTTPS segura.
 
-- **Auto-Logout Time** : réglé sur 5 minutes par défaut ; déconnecte automatiquement les sessions administrateur inactives après ce délai pour renforcer la sécurité. Vous pouvez le personnaliser de 1 minute à 3 heures.
+- **Auto-Logout Time**: El valor predeterminado es 5 minutos. Por motivos de seguridad, cierra automáticamente las sesiones de administración inactivas una vez transcurrido ese tiempo. Puede personalizar el tiempo de cierre automático, desde 1 minuto hasta 3 horas.
 
 ### LuCI
 
-> Remarque : installez LuCI dans **Advanced Settings** avant de configurer le contrôle d'accès correspondant.
+> Nota: Instale LuCI en **Advanced Settings** antes de configurar su control de acceso.
 
-- **HTTP Port** : 8080 par défaut, pour l'accès HTTP non chiffré à l'interface LuCI.
+- **HTTP Port**: El valor predeterminado es 8080 y se usa para el acceso HTTP sin cifrar a la interfaz LuCI.
 
-- **HTTPS Port** : 8443 par défaut, pour l'accès HTTPS sécurisé à l'interface LuCI.
+- **HTTPS Port**: El valor predeterminado es 8443 y se usa para el acceso HTTPS seguro a la interfaz LuCI.
 
-- **Force HTTPS** : lorsqu'il est activé, l'accès à l'interface LuCI est forcé en HTTPS.
+- **Force HTTPS**: Cuando está habilitado, el acceso a la interfaz LuCI se fuerza a utilizar una conexión HTTPS segura.
 
 ### SSH
 
-- **Enable SSH** : contrôle si l'accès SSH au routeur est autorisé. Cette option est activée par défaut.
+- **Enable SSH**: Controla si se permite el acceso SSH al router. Está habilitado de forma predeterminada.
 
-- **SSH Port** : 22 par défaut ; port utilisé pour l'accès SSH au routeur.
+- **SSH Port**: El valor predeterminado es 22, el puerto utilizado para el acceso SSH al router.
 
-### Port interdit {#prohibited-port}
+### Puerto prohibido {#prohibited-port}
 
-Si vous attribuez un numéro de port en conflit avec un port réservé (ou réservé à certains services par les navigateurs ou conventions réseau), un message s'affichera indiquant : "This port is forbidden by the browser".
+Si asigna un número de puerto que entra en conflicto con un puerto reservado, o con uno reservado para servicios específicos por los navegadores o las convenciones de red, aparecerá un aviso indicando "This port is forbidden by the browser".
 
 ![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/http_https_port_forbidden.png){class="glboxshadow"}
 
-??? "Liste des numéros de ports interdits par le navigateur"
+??? "Lista de números de puerto prohibidos por el navegador"
 
-    | Port  | Description                              |
+    | Port  | Descripción                              |
     | :-----| :--------------------------------------: |
     | 1     | tcpmux                                   |
     | 7     | echo                                     |
@@ -145,44 +133,44 @@ Si vous attribuez un numéro de port en conflit avec un port réservé (ou rése
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## Contrôle d'accès à distance
+## Control de acceso remoto
 
-Après activation de l'accès à distance, il est possible d'autoriser uniquement certains emplacements, par exemple permettre l'accès aux appareils domestiques uniquement depuis le bureau, au prix d'un peu moins de confort mais avec une meilleure sécurité.
+Después de habilitar el acceso remoto, se pueden definir ubicaciones específicas desde las que se permitirá el acceso. Por ejemplo, puede habilitar el acceso remoto a dispositivos del hogar solo desde la oficina, sacrificando comodidad a cambio de mayor seguridad.
 
 ![security_remote_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/security_remote_access_control.png){class="glboxshadow"}
 
-- **Allow Ping from WAN** : en cas de problème réseau, autoriser Ping depuis le port WAN peut aider les utilisateurs ou administrateurs réseau à vérifier si le routeur est correctement connecté, ainsi qu'à évaluer la latence et la perte de paquets.
+- **Allow Ping from WAN**: Cuando hay un problema de red, permitir Ping desde el puerto WAN puede ayudar a los usuarios o a los administradores de red a comprobar si el router está conectado correctamente, así como a determinar la latencia y la pérdida de paquetes.
 
-- **HTTPS Remote Access** : le protocole HTTPS est principalement utilisé pour la communication entre navigateurs web et serveurs web, afin d'assurer une transmission sécurisée des données.
+- **HTTPS Remote Access**: El protocolo HTTPS se utiliza principalmente para la comunicación entre navegadores web y servidores web, proporcionando una garantía de transmisión segura de datos. Por tanto, cuando los usuarios necesiten administrar servidores de forma remota o acceder a aplicaciones web desde el navegador, pueden usar HTTPS para garantizar la seguridad y la fiabilidad de la transmisión de datos.
 
-- **SSH Remote Access** : le protocole SSH sert principalement à accéder en toute sécurité à des ordinateurs et serveurs distants et à les administrer, ainsi qu'à effectuer des transferts de fichiers.
+- **SSH Remote Access**: El protocolo SSH se utiliza principalmente para acceder y administrar de forma segura equipos y servidores remotos, así como para realizar operaciones de transferencia de archivos. Cuando los usuarios necesiten iniciar sesión remotamente en servidores mediante líneas de comandos o scripts para administración del sistema, transferencia de archivos u otras operaciones, pueden usar SSH para establecer un túnel seguro que garantice la seguridad y la privacidad de la transmisión de datos.
 
-- **Allow Remote Access from Specific IPs** : cette fonction s'utilise avec **Allow Ping from WAN**, **HTTPS Remote Access** ou **SSH Remote Access**. Vous pouvez ajouter plusieurs adresses IP spécifiques pour gérer le routeur à distance depuis ces adresses.
+- **Allow Remote Access from Specific IPs**: Esta función se utiliza junto con **Allow Ping from WAN**, **HTTPS Remote Access** o **SSH Remote Access**. Puede añadir varias direcciones IP específicas para gestionar routers de forma remota desde dispositivos con esas direcciones IP.
 
 ![add_ip_address_1](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_1.png){class="glboxshadow"}
 
 ![add_ip_address_2](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_2.png){class="glboxshadow"}
 
-## Ports ouverts sur le routeur
+---
 
-Les services du routeur, comme le Web et le FTP, nécessitent que leurs ports respectifs soient ouverts sur le routeur pour être accessibles publiquement.
+## Open Ports on Router
 
-Pour ouvrir un port, cliquez sur **Add**.
+Los servicios del router, como web y FTP, requieren que sus respectivos puertos estén abiertos en el router para poder ser accesibles públicamente.
+
+Para abrir un puerto, haga clic en **Add**.
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/open_ports_on_router.png){class="glboxshadow"}
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_new_open_port.png){class="glboxshadow"}
 
-- **Protocol:** Sélectionnez un protocole parmi `TCP/UDP`, `TCP` et `UDP`.
+- **Protocol:** Seleccione un protocolo entre `TCP/UDP`, `TCP` y `UDP`.
 
-- **Port:** Saisissez le numéro du port que vous voulez ouvrir.
+- **Port:** Introduzca el número de puerto que desea abrir.
 
-- **Description:** Ajoutez une description à cette règle (facultatif).
+- **Description:** Añada una descripción a esta regla (opcional).
 
-- **Enable:** Activez ou désactivez cette règle.
-
----
+- **Enable:** Active o desactive esta regla.
 
 ---
 
-Vous avez encore des questions ? Consultez notre [forum communautaire](https://forum.gl-inet.com){target="_blank"} ou [contactez-nous](https://www.gl-inet.com/contacts/){target="_blank"}.
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

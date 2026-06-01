@@ -40,6 +40,8 @@ Puede evitar intentos de escaneo e intrusión en el puerto predeterminado, así 
 
 ### LuCI
 
+> Nota: Instale LuCI en **Advanced Settings** antes de configurar su control de acceso.
+
 - **HTTP Port**: El valor predeterminado es 8080 y se usa para el acceso HTTP sin cifrar a la interfaz LuCI.
 
 - **HTTPS Port**: El valor predeterminado es 8443 y se usa para el acceso HTTPS seguro a la interfaz LuCI.
@@ -173,13 +175,13 @@ Para abrir un puerto, haga clic en **Add**.
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_new_open_port.png){class="glboxshadow"}
 
-**Name:** El nombre de la regla, que puede ser especificado por el usuario.
+- **Protocol:** Seleccione un protocolo entre `TCP/UDP`, `TCP` y `UDP`.
 
-**Protocol:** El protocolo utilizado. Puede elegir TCP, UDP o ambos, TCP y UDP.
+- **Port:** Introduzca el número de puerto que desea abrir.
 
-**Port:** El número de puerto que desea abrir.
+- **Description:** Añada una descripción a esta regla (opcional).
 
-**Enable:** Habilita o deshabilita la regla.
+- **Enable:** Active o desactive esta regla.
 
 ---
 

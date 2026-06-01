@@ -92,6 +92,13 @@ hide:
 * [SQM（Smart Queue Management）](sqm.md)
 * [ペアレンタルコントロール（v4.9）](parental_control_v4.9.md)
 
+## セキュリティ
+
+* [ポートフォワーディング](port_forwarding.md)
+* [ACL（アクセス制御リスト）](acl.md)
+* [管理者アクセス](admin_access.md)
+* [NATモード](nat_settings.md)
+
 ## システム
 
 * [UI言語](ui_languages.md)

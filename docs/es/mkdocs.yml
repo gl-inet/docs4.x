@@ -334,6 +334,11 @@ nav:
       - QoS: interface_guide/qos.md
       - SQM: interface_guide/sqm.md
       - Control parental (v4.9): interface_guide/parental_control_v4.9.md
+    - Seguridad:
+      - Port Forwarding: interface_guide/port_forwarding.md
+      - ACL: interface_guide/acl.md
+      - Acceso de administrador: interface_guide/admin_access.md
+      - Modo NAT: interface_guide/nat_settings.md
     - Sistema:
       - Información general: interface_guide/system_overview.md
       - Actualización: interface_guide/upgrade.md

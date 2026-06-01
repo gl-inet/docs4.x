@@ -92,6 +92,13 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [SQM (Smart Queue Management)](sqm.md)
 * [Contrôle parental (v4.9)](parental_control_v4.9.md)
 
+## Sécurité
+
+* [Redirection de port](port_forwarding.md)
+* [ACL (liste de contrôle d'accès)](acl.md)
+* [Accès administrateur](admin_access.md)
+* [Mode NAT](nat_settings.md)
+
 ## Système
 
 * [Langues de l'interface](ui_languages.md)

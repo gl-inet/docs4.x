@@ -2,7 +2,7 @@
 
 この機能は v4.5.16 以降で利用できます。
 
-Web Admin Panel の左側で、**NETWORK** -> **NAT Settings** に移動します。
+Web Admin Panel の左側で、**NETWORK** -> **NAT Settings** に移動します（firmware v4.9 以降では **NAT Mode** に名称変更されています）。
 
 このページでは、**Full Cone NAT** を有効にしてゲームやストリーミングなどのアプリでのピアツーピア接続の安定性を高めたり、**SIP ALG** を有効にして VoIP/SIP ベースの電話サービスとの互換性問題を改善したりできます。
 

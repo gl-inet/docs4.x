@@ -92,6 +92,13 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [SQM (Smart Queue Management)](sqm.md)
 * [Controllo genitori (v4.9)](parental_control_v4.9.md)
 
+## Sicurezza
+
+* [Port Forwarding](port_forwarding.md)
+* [ACL (lista di controllo accessi)](acl.md)
+* [Accesso amministratore](admin_access.md)
+* [Modalita' NAT](nat_settings.md)
+
 ## Sistema
 
 * [Lingue dell'interfaccia](ui_languages.md)

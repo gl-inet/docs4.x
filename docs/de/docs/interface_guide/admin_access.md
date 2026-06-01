@@ -1,22 +1,10 @@
-# Sicherheit
+# Admin-Zugriff
 
-Diese Funktion ist seit Firmware v4.5 verfügbar.
+> Diese Seite wurde mit Firmware v4.9 eingeführt.
 
-Gehen Sie in der Web-Adminoberfläche auf der linken Seite zu **SYSTEM** -> **Security**.
+Gehen Sie in der Web-Adminoberfläche auf der linken Seite zu **SECURITY** -> **Admin Access**.
 
 Auf dieser Seite können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen.
-
-## Admin-Passwort
-
-Hier können Sie das Anmeldepasswort der Web-Adminoberfläche ändern.
-
-![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/admin_password.jpg){class="glboxshadow"}
-
-Das Admin-Passwort muss die folgenden Anforderungen erfüllen:
-
-- Mindestens 10 und höchstens 63 Zeichen.
-- Buchstaben (Groß-/Kleinschreibung wird unterschieden), Zahlen und Symbole `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sind erlaubt.
-- Mindestens zwei der folgenden Kategorien sind erforderlich: Großbuchstaben, Kleinbuchstaben, Zahlen und Symbole.
 
 ## Zugriffskontrolle
 

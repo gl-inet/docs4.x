@@ -1,22 +1,10 @@
-# Sécurité
+# Accès administrateur
 
-Cette fonctionnalité est disponible depuis le firmware v4.5.
+> Cette page a été introduite dans le firmware v4.9.
 
-Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Security**.
+Dans la partie gauche du panneau d'administration web, accédez à **SECURITY** -> **Admin Access**.
 
 Cette page vous permet de configurer divers paramètres de sécurité afin de protéger votre réseau et votre routeur contre les accès non autorisés.
-
-## Mot de passe administrateur
-
-Vous pouvez modifier ici le mot de passe de connexion du panneau d'administration web.
-
-![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/admin_password.jpg){class="glboxshadow"}
-
-Le mot de passe administrateur doit respecter les exigences suivantes :
-
-- Au minimum 10 caractères et au maximum 63 caractères.
-- Les lettres (distinction majuscules/minuscules), les chiffres et les symboles `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sont autorisés.
-- Au moins deux catégories parmi les lettres majuscules, les lettres minuscules, les chiffres et les symboles sont requises.
 
 ## Contrôle d'accès
 
@@ -153,15 +141,17 @@ Après activation de l'accès à distance, il est possible d'autoriser uniquemen
 
 - **Allow Ping from WAN** : en cas de problème réseau, autoriser Ping depuis le port WAN peut aider les utilisateurs ou administrateurs réseau à vérifier si le routeur est correctement connecté, ainsi qu'à évaluer la latence et la perte de paquets.
 
-- **HTTPS Remote Access** : le protocole HTTPS est principalement utilisé pour la communication entre navigateurs web et serveurs web, afin d'assurer une transmission sécurisée des données.
+- **HTTPS Remote Access** : le protocole HTTPS est principalement utilisé pour la communication entre navigateurs web et serveurs web, afin d'assurer une transmission sécurisée des données. Lorsque les utilisateurs doivent administrer des serveurs à distance ou accéder à des applications web depuis un navigateur, HTTPS permet d'assurer la sécurité et la fiabilité du transfert des données.
 
-- **SSH Remote Access** : le protocole SSH sert principalement à accéder en toute sécurité à des ordinateurs et serveurs distants et à les administrer, ainsi qu'à effectuer des transferts de fichiers.
+- **SSH Remote Access** : le protocole SSH sert principalement à accéder en toute sécurité à des ordinateurs et serveurs distants, à les administrer et à effectuer des transferts de fichiers. Lorsqu'un utilisateur doit se connecter à distance à un serveur via une ligne de commande ou un script pour de l'administration système, des transferts de fichiers ou d'autres opérations, SSH permet d'établir un tunnel sécurisé afin de protéger la transmission et la confidentialité des données.
 
 - **Allow Remote Access from Specific IPs** : cette fonction s'utilise avec **Allow Ping from WAN**, **HTTPS Remote Access** ou **SSH Remote Access**. Vous pouvez ajouter plusieurs adresses IP spécifiques pour gérer le routeur à distance depuis ces adresses.
 
 ![add_ip_address_1](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_1.png){class="glboxshadow"}
 
 ![add_ip_address_2](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_2.png){class="glboxshadow"}
+
+---
 
 ## Ports ouverts sur le routeur
 
@@ -180,8 +170,6 @@ Pour ouvrir un port, cliquez sur **Add**.
 - **Description:** Ajoutez une description à cette règle (facultatif).
 
 - **Enable:** Activez ou désactivez cette règle.
-
----
 
 ---
 

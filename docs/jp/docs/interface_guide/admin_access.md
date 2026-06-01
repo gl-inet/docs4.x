@@ -1,66 +1,54 @@
-# Sécurité
+# 管理者アクセス
 
-Cette fonctionnalité est disponible depuis le firmware v4.5.
+> このページは firmware v4.9 で追加されました。
 
-Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Security**.
+Web Admin Panel の左側で、**SECURITY** -> **Admin Access** に移動します。
 
-Cette page vous permet de configurer divers paramètres de sécurité afin de protéger votre réseau et votre routeur contre les accès non autorisés.
+このページでは、不正アクセスからネットワークとルーターを保護するための各種セキュリティ設定を構成できます。
 
-## Mot de passe administrateur
+## アクセス制御
 
-Vous pouvez modifier ici le mot de passe de connexion du panneau d'administration web.
+Access Control は、firmware v4.7 以前では Local Access Control とも呼ばれ、ルーターの各種管理インターフェースへのアクセスを管理します。
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/admin_password.jpg){class="glboxshadow"}
+これにより、デフォルトポートへのスキャンや侵入の試みを防ぎ、ポート競合によるネットワーク問題を回避できます。
 
-Le mot de passe administrateur doit respecter les exigences suivantes :
-
-- Au minimum 10 caractères et au maximum 63 caractères.
-- Les lettres (distinction majuscules/minuscules), les chiffres et les symboles `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sont autorisés.
-- Au moins deux catégories parmi les lettres majuscules, les lettres minuscules, les chiffres et les symboles sont requises.
-
-## Contrôle d'accès
-
-Le contrôle d'accès, également appelé **Local Access Control** dans le firmware v4.7 et les versions antérieures, gère l'accès aux différentes interfaces de gestion du routeur.
-
-Il permet d'éviter les tentatives de scan et d'intrusion sur les ports par défaut, ainsi que les problèmes réseau causés par des conflits de ports.
-
-**Remarque** : si le numéro de port est modifié dans le firmware, vous devez saisir le numéro correct pour accéder au panneau d'administration. Si vous l'avez oublié, réinitialisez le routeur afin de restaurer le numéro de port par défaut.
+**注意**: ファームウェアでポート番号を変更した場合、管理パネルへアクセスするには正しいポート番号を入力する必要があります。ポート番号を忘れた場合は、ルーターをデフォルトのポート番号に戻してください。
 
 ![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/access_control_4.8.png){class="glboxshadow"}
 
-### Panneau d'administration
+### 管理パネル
 
-- **HTTP Port** : 80 par défaut ; utilisé pour l'accès HTTP non chiffré au panneau d'administration web.
+- **HTTP Port**: デフォルトは 80 で、Web 管理パネルへの暗号化されていない HTTP アクセスに使用します。
 
-- **HTTPS Port** : 443 par défaut ; utilisé pour l'accès HTTPS sécurisé au panneau d'administration web.
+- **HTTPS Port**: デフォルトは 443 で、Web 管理パネルへの安全な HTTPS アクセスに使用します。
 
-- **Force HTTPS** : lorsqu'il est activé, l'accès au panneau d'administration web est forcé en HTTPS.
+- **Force HTTPS**: 有効にすると、Web 管理パネルへのアクセスは必ず安全な HTTPS 接続になります。
 
-- **Auto-Logout Time** : réglé sur 5 minutes par défaut ; déconnecte automatiquement les sessions administrateur inactives après ce délai pour renforcer la sécurité. Vous pouvez le personnaliser de 1 minute à 3 heures.
+- **Auto-Logout Time**: デフォルトは 5 分で、セキュリティのため、この時間アイドル状態が続くと管理者セッションが自動的にログアウトします。1 分〜3 時間の範囲で変更できます。
 
 ### LuCI
 
-> Remarque : installez LuCI dans **Advanced Settings** avant de configurer le contrôle d'accès correspondant.
+> 注意: LuCI のアクセス制御を設定する前に、**Advanced Settings** で LuCI をインストールしてください。
 
-- **HTTP Port** : 8080 par défaut, pour l'accès HTTP non chiffré à l'interface LuCI.
+- **HTTP Port**: デフォルトは 8080 で、LuCI インターフェースへの暗号化されていない HTTP アクセスに使用します。
 
-- **HTTPS Port** : 8443 par défaut, pour l'accès HTTPS sécurisé à l'interface LuCI.
+- **HTTPS Port**: デフォルトは 8443 で、LuCI インターフェースへの安全な HTTPS アクセスに使用します。
 
-- **Force HTTPS** : lorsqu'il est activé, l'accès à l'interface LuCI est forcé en HTTPS.
+- **Force HTTPS**: 有効にすると、LuCI インターフェースへのアクセスは必ず安全な HTTPS 接続になります。
 
 ### SSH
 
-- **Enable SSH** : contrôle si l'accès SSH au routeur est autorisé. Cette option est activée par défaut.
+- **Enable SSH**: ルーターへの SSH アクセスを許可するかどうかを制御します。デフォルトで有効です。
 
-- **SSH Port** : 22 par défaut ; port utilisé pour l'accès SSH au routeur.
+- **SSH Port**: デフォルトは 22 で、ルーターへの SSH アクセスに使用するポートです。
 
-### Port interdit {#prohibited-port}
+### Prohibited Port {#prohibited-port}
 
-Si vous attribuez un numéro de port en conflit avec un port réservé (ou réservé à certains services par les navigateurs ou conventions réseau), un message s'affichera indiquant : "This port is forbidden by the browser".
+予約済みポート、またはブラウザやネットワーク慣例で特定サービス向けに予約されているポートと競合する番号を割り当てると、"This port is forbidden by the browser" というメッセージが表示されます。
 
 ![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/http_https_port_forbidden.png){class="glboxshadow"}
 
-??? "Liste des numéros de ports interdits par le navigateur"
+??? "ブラウザーで使用が禁止されているポート番号一覧"
 
     | Port  | Description                              |
     | :-----| :--------------------------------------: |
@@ -145,44 +133,44 @@ Si vous attribuez un numéro de port en conflit avec un port réservé (ou rése
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## Contrôle d'accès à distance
+## リモートアクセス制御
 
-Après activation de l'accès à distance, il est possible d'autoriser uniquement certains emplacements, par exemple permettre l'accès aux appareils domestiques uniquement depuis le bureau, au prix d'un peu moins de confort mais avec une meilleure sécurité.
+リモートアクセスを有効にすると、アクセスを許可する接続元を限定できます。たとえば、利便性と引き換えにセキュリティを高めるため、オフィスからのみ自宅のデバイスへのリモートアクセスを許可する、といった設定が可能です。
 
 ![security_remote_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/security_remote_access_control.png){class="glboxshadow"}
 
-- **Allow Ping from WAN** : en cas de problème réseau, autoriser Ping depuis le port WAN peut aider les utilisateurs ou administrateurs réseau à vérifier si le routeur est correctement connecté, ainsi qu'à évaluer la latence et la perte de paquets.
+- **Allow Ping from WAN**: ネットワークに問題がある場合、WAN ポートからの Ping を許可すると、ユーザーやネットワーク管理者がルーターの接続状態を確認し、ネットワーク遅延やパケット損失を判断しやすくなります。
 
-- **HTTPS Remote Access** : le protocole HTTPS est principalement utilisé pour la communication entre navigateurs web et serveurs web, afin d'assurer une transmission sécurisée des données.
+- **HTTPS Remote Access**: HTTPS プロトコルは主に Web ブラウザと Web サーバー間の通信に使われ、安全なデータ転送を提供します。Web ブラウザ経由でサーバーをリモート管理したり、Web アプリケーションへアクセスしたりする場合に、データ転送の安全性と信頼性を確保できます。
 
-- **SSH Remote Access** : le protocole SSH sert principalement à accéder en toute sécurité à des ordinateurs et serveurs distants et à les administrer, ainsi qu'à effectuer des transferts de fichiers.
+- **SSH Remote Access**: SSH プロトコルは主に、リモートコンピューターやサーバーへの安全なアクセスと管理、およびファイル転送に使われます。コマンドラインやスクリプトでサーバーにリモートログインし、システム管理やファイル転送を行う場合、SSH を使って安全なトンネルを確立し、データ転送の安全性とプライバシーを確保できます。
 
-- **Allow Remote Access from Specific IPs** : cette fonction s'utilise avec **Allow Ping from WAN**, **HTTPS Remote Access** ou **SSH Remote Access**. Vous pouvez ajouter plusieurs adresses IP spécifiques pour gérer le routeur à distance depuis ces adresses.
+- **Allow Remote Access from Specific IPs**: この機能は **Allow Ping from WAN**、**HTTPS Remote Access**、**SSH Remote Access** と組み合わせて使用します。複数の指定 IP アドレスを追加して、それらの IP を持つデバイスからルーターをリモート管理できます。
 
 ![add_ip_address_1](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_1.png){class="glboxshadow"}
 
 ![add_ip_address_2](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_2.png){class="glboxshadow"}
 
-## Ports ouverts sur le routeur
+---
 
-Les services du routeur, comme le Web et le FTP, nécessitent que leurs ports respectifs soient ouverts sur le routeur pour être accessibles publiquement.
+## ルーターで開いているポート
 
-Pour ouvrir un port, cliquez sur **Add**.
+Web や FTP などのルーターサービスをインターネット上から利用可能にするには、それぞれのポートをルーター上で開放する必要があります。
+
+ポートを開くには、**Add** をクリックします。
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/open_ports_on_router.png){class="glboxshadow"}
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_new_open_port.png){class="glboxshadow"}
 
-- **Protocol:** Sélectionnez un protocole parmi `TCP/UDP`, `TCP` et `UDP`.
+- **Protocol:** `TCP/UDP`、`TCP`、`UDP` からプロトコルを選択します。
 
-- **Port:** Saisissez le numéro du port que vous voulez ouvrir.
+- **Port:** 開放したいポート番号を入力します。
 
-- **Description:** Ajoutez une description à cette règle (facultatif).
+- **Description:** このルールの説明を追加します（任意）。
 
-- **Enable:** Activez ou désactivez cette règle.
-
----
+- **Enable:** このルールを有効または無効にします。
 
 ---
 
-Vous avez encore des questions ? Consultez notre [forum communautaire](https://forum.gl-inet.com){target="_blank"} ou [contactez-nous](https://www.gl-inet.com/contacts/){target="_blank"}.
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} または [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

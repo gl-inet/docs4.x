@@ -4,11 +4,11 @@ Ta strona jest dostępna od wersji firmware v4.6. W przypadku wcześniejszych we
 
 ---
 
-W lewym panelu bocznym panelu administracyjnego przejdź do **NETWORK** -> **Port Forwarding**.
+W lewym panelu bocznym panelu administracyjnego przejdź do **NETWORK** -> **Port Forwarding**. W firmware v4.9 przejdź do **SECURITY** -> **Port Forwarding**.
 
-Ta strona umożliwia konfigurację reguł zapory sieciowej, takich jak **DMZ** i **Port Forwarding**.
+Ta strona umożliwia konfigurację reguł zapory sieciowej, w tym **DMZ** i **Port Forwarding**.
 
-Aby skonfigurować ustawienia **Open Ports on Router**, przejdź do SYSTEM -> Security.
+Uwaga: Jeśli chcesz otworzyć porty na routerze, przejdź do **SYSTEM** -> **Security** lub **SECURITY** -> **Admin Access**.
 
 ## DMZ
 
@@ -32,21 +32,21 @@ W wyświetlonym oknie dodaj nową regułę przekierowania portów i kliknij **Ap
 
 ![add new port forwarding rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/port_forwarding_add2.png){class="glboxshadow"}
 
-**Protocol:** Używany protokół – możesz wybrać TCP, UDP lub oba jednocześnie.
+- **Protocol:** Wybierz dla tej reguły `TCP`, `UDP` albo `TCP and UDP`.
 
-**External Zone:** Dostępne opcje strefy zewnętrznej: `WAN`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `LAN`, `Guest`.
+- **External Zone:** Dostępne opcje strefy zewnętrznej: `WAN`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `LAN` i `Guest`.
 
-**External Port:** Numery portów zewnętrznych. Możesz podać konkretny numer portu. Zakres portów wynosi od 1 do 65535. Możesz podać pojedynczy port lub zakres portów, łącząc pierwszy i ostatni numer portu znakiem - (np. 501-510).
+- **External Port:** Numery portów zewnętrznych. Możesz podać konkretny numer portu. Zakres portów wynosi od 1 do 65535. Możesz podać pojedynczy port lub zakres portów, łącząc pierwszy i ostatni numer portu znakiem `-`, np. `501-510`.
 
-**Internal Zone:** Dostępne opcje strefy wewnętrznej: `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `WAN`.
+- **Internal Zone:** Dostępne opcje strefy wewnętrznej: `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server` i `WAN`.
 
-**Internal IP:** Adres IP przypisany przez router urządzeniu, do którego ma odbywać się zdalny dostęp. Jeśli w polu **External Port** podano pojedynczy port, tu również podaj pojedynczy port. Jeśli podano zakres portów, tu podaj odpowiadający zakres portów.
+- **Internal IP:** Adres IP przypisany przez router urządzeniu, do którego ma odbywać się zdalny dostęp. Jeśli w polu **External Port** podano pojedynczy port, tu również podaj ten sam pojedynczy port. Jeśli podano zakres portów, tu podaj odpowiadający zakres portów.
 
-**Internal Port:** Numer portu wewnętrznego urządzenia. Możesz podać konkretny numer portu. Pozostaw puste, jeśli jest taki sam jak port zewnętrzny.
+- **Internal Port:** Numer portu wewnętrznego urządzenia. Możesz podać konkretny numer portu. Pozostaw puste, jeśli jest taki sam jak port zewnętrzny.
 
-**Description:** Nadaj nazwę lub dodaj opis reguły przekierowania portów (opcjonalne).
+- **Description:** Nadaj własną nazwę lub dodaj opis tej reguły (opcjonalne).
 
-**Enable:** Włącz lub wyłącz regułę.
+- **Enable:** Włącz lub wyłącz tę regułę.
 
 ---
 

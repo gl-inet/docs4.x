@@ -1,66 +1,54 @@
-# Sécurité
+# Dostęp administratora
 
-Cette fonctionnalité est disponible depuis le firmware v4.5.
+> Ta strona została wprowadzona w firmware v4.9.
 
-Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Security**.
+W lewym panelu bocznym panelu administracyjnego przejdź do **SECURITY** -> **Admin Access**.
 
-Cette page vous permet de configurer divers paramètres de sécurité afin de protéger votre réseau et votre routeur contre les accès non autorisés.
+Ta strona umożliwia konfigurację różnych ustawień zabezpieczeń chroniących sieć i router przed nieautoryzowanym dostępem.
 
-## Mot de passe administrateur
+## Kontrola dostępu
 
-Vous pouvez modifier ici le mot de passe de connexion du panneau d'administration web.
+Kontrola dostępu, nazywana **Local Access Control** w firmware v4.7 i starszym, zarządza dostępem do różnych interfejsów zarządzania routerem.
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/admin_password.jpg){class="glboxshadow"}
+Pomaga zapobiegać skanowaniu i próbom włamania na domyślne porty oraz unikać problemów sieciowych spowodowanych konfliktami portów.
 
-Le mot de passe administrateur doit respecter les exigences suivantes :
-
-- Au minimum 10 caractères et au maximum 63 caractères.
-- Les lettres (distinction majuscules/minuscules), les chiffres et les symboles `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sont autorisés.
-- Au moins deux catégories parmi les lettres majuscules, les lettres minuscules, les chiffres et les symboles sont requises.
-
-## Contrôle d'accès
-
-Le contrôle d'accès, également appelé **Local Access Control** dans le firmware v4.7 et les versions antérieures, gère l'accès aux différentes interfaces de gestion du routeur.
-
-Il permet d'éviter les tentatives de scan et d'intrusion sur les ports par défaut, ainsi que les problèmes réseau causés par des conflits de ports.
-
-**Remarque** : si le numéro de port est modifié dans le firmware, vous devez saisir le numéro correct pour accéder au panneau d'administration. Si vous l'avez oublié, réinitialisez le routeur afin de restaurer le numéro de port par défaut.
+**Uwaga**: Jeśli numer portu zostanie zmieniony w firmware, aby uzyskać dostęp do panelu administracyjnego, musisz wpisać prawidłowy numer portu. Jeśli go nie pamiętasz, przywróć router do domyślnego numeru portu.
 
 ![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/access_control_4.8.png){class="glboxshadow"}
 
-### Panneau d'administration
+### Admin Panel
 
-- **HTTP Port** : 80 par défaut ; utilisé pour l'accès HTTP non chiffré au panneau d'administration web.
+- **HTTP Port**: Domyślnie 80; używany do niezaszyfrowanego dostępu HTTP do panelu administracyjnego.
 
-- **HTTPS Port** : 443 par défaut ; utilisé pour l'accès HTTPS sécurisé au panneau d'administration web.
+- **HTTPS Port**: Domyślnie 443; używany do bezpiecznego dostępu HTTPS do panelu administracyjnego.
 
-- **Force HTTPS** : lorsqu'il est activé, l'accès au panneau d'administration web est forcé en HTTPS.
+- **Force HTTPS**: Po włączeniu dostęp do panelu administracyjnego będzie wymuszony przez bezpieczne połączenie HTTPS.
 
-- **Auto-Logout Time** : réglé sur 5 minutes par défaut ; déconnecte automatiquement les sessions administrateur inactives après ce délai pour renforcer la sécurité. Vous pouvez le personnaliser de 1 minute à 3 heures.
+- **Auto-Logout Time**: Domyślnie ustawione na 5 minut; automatycznie wylogowuje nieaktywne sesje administratora po upływie tego czasu. Możesz dostosować czas automatycznego wylogowania w zakresie od 1 minuty do 3 godzin.
 
 ### LuCI
 
-> Remarque : installez LuCI dans **Advanced Settings** avant de configurer le contrôle d'accès correspondant.
+> Uwaga: Zainstaluj LuCI w **Advanced Settings** przed skonfigurowaniem kontroli dostępu dla tego interfejsu.
 
-- **HTTP Port** : 8080 par défaut, pour l'accès HTTP non chiffré à l'interface LuCI.
+- **HTTP Port**: Domyślnie 8080; używany do niezaszyfrowanego dostępu HTTP do interfejsu LuCI.
 
-- **HTTPS Port** : 8443 par défaut, pour l'accès HTTPS sécurisé à l'interface LuCI.
+- **HTTPS Port**: Domyślnie 8443; używany do bezpiecznego dostępu HTTPS do interfejsu LuCI.
 
-- **Force HTTPS** : lorsqu'il est activé, l'accès à l'interface LuCI est forcé en HTTPS.
+- **Force HTTPS**: Po włączeniu dostęp do interfejsu LuCI będzie wymuszony przez bezpieczne połączenie HTTPS.
 
 ### SSH
 
-- **Enable SSH** : contrôle si l'accès SSH au routeur est autorisé. Cette option est activée par défaut.
+- **Enable SSH**: Określa, czy dostęp SSH do routera jest dozwolony. Domyślnie jest włączony.
 
-- **SSH Port** : 22 par défaut ; port utilisé pour l'accès SSH au routeur.
+- **SSH Port**: Domyślnie 22; port używany do dostępu SSH do routera.
 
-### Port interdit {#prohibited-port}
+### Niedozwolone porty {#prohibited-port}
 
-Si vous attribuez un numéro de port en conflit avec un port réservé (ou réservé à certains services par les navigateurs ou conventions réseau), un message s'affichera indiquant : "This port is forbidden by the browser".
+Jeśli przypiszesz numer portu, który koliduje z portem zarezerwowanym (lub z portem zarezerwowanym dla określonych usług przez przeglądarki albo konwencje sieciowe), pojawi się komunikat „This port is forbidden by the browser”.
 
 ![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/http_https_port_forbidden.png){class="glboxshadow"}
 
-??? "Liste des numéros de ports interdits par le navigateur"
+??? "Lista numerów portów niedozwolonych przez przeglądarkę"
 
     | Port  | Description                              |
     | :-----| :--------------------------------------: |
@@ -145,44 +133,44 @@ Si vous attribuez un numéro de port en conflit avec un port réservé (ou rése
     | 6697  | IRC + TLS                                |
     | 10080 | Amanda                                   |
 
-## Contrôle d'accès à distance
+## Kontrola zdalnego dostępu
 
-Après activation de l'accès à distance, il est possible d'autoriser uniquement certains emplacements, par exemple permettre l'accès aux appareils domestiques uniquement depuis le bureau, au prix d'un peu moins de confort mais avec une meilleure sécurité.
+Po włączeniu zdalnego dostępu możesz określić, z jakich lokalizacji będzie on dozwolony. Na przykład możesz zezwolić na zdalny dostęp do urządzeń domowych tylko z biura, rezygnując z części wygody na rzecz większego bezpieczeństwa.
 
 ![security_remote_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/security_remote_access_control.png){class="glboxshadow"}
 
-- **Allow Ping from WAN** : en cas de problème réseau, autoriser Ping depuis le port WAN peut aider les utilisateurs ou administrateurs réseau à vérifier si le routeur est correctement connecté, ainsi qu'à évaluer la latence et la perte de paquets.
+- **Allow Ping from WAN**: W przypadku problemów z siecią zezwolenie na Ping z portu WAN pomaga użytkownikom lub administratorom sieci sprawdzić, czy router jest prawidłowo podłączony, a także ocenić opóźnienia sieci i utratę pakietów.
 
-- **HTTPS Remote Access** : le protocole HTTPS est principalement utilisé pour la communication entre navigateurs web et serveurs web, afin d'assurer une transmission sécurisée des données.
+- **HTTPS Remote Access**: Protokół HTTPS służy głównie do komunikacji między przeglądarkami internetowymi a serwerami WWW, zapewniając bezpieczną transmisję danych. Gdy użytkownik musi zdalnie zarządzać serwerem lub uzyskać dostęp do aplikacji webowej przez przeglądarkę, HTTPS pomaga zapewnić bezpieczeństwo i niezawodność transmisji danych.
 
-- **SSH Remote Access** : le protocole SSH sert principalement à accéder en toute sécurité à des ordinateurs et serveurs distants et à les administrer, ainsi qu'à effectuer des transferts de fichiers.
+- **SSH Remote Access**: Protokół SSH służy głównie do bezpiecznego dostępu do zdalnych komputerów i serwerów oraz do ich zarządzania, a także do transferu plików. Gdy użytkownik musi zdalnie logować się do serwera z poziomu wiersza poleceń lub skryptu w celu zarządzania systemem, transferu plików lub wykonania innych operacji, SSH tworzy bezpieczny tunel chroniący transmisję danych i prywatność.
 
-- **Allow Remote Access from Specific IPs** : cette fonction s'utilise avec **Allow Ping from WAN**, **HTTPS Remote Access** ou **SSH Remote Access**. Vous pouvez ajouter plusieurs adresses IP spécifiques pour gérer le routeur à distance depuis ces adresses.
+- **Allow Remote Access from Specific IPs**: Ta funkcja działa razem z **Allow Ping from WAN**, **HTTPS Remote Access** lub **SSH Remote Access**. Możesz dodać wiele konkretnych adresów IP, aby umożliwić zdalne zarządzanie routerem tylko z urządzeń korzystających z tych adresów.
 
 ![add_ip_address_1](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_1.png){class="glboxshadow"}
 
 ![add_ip_address_2](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_2.png){class="glboxshadow"}
 
-## Ports ouverts sur le routeur
+---
 
-Les services du routeur, comme le Web et le FTP, nécessitent que leurs ports respectifs soient ouverts sur le routeur pour être accessibles publiquement.
+## Otwarte porty na routerze
 
-Pour ouvrir un port, cliquez sur **Add**.
+Aby usługi routera, takie jak WWW i FTP, były publicznie dostępne, odpowiednie porty muszą być otwarte na routerze.
+
+Aby otworzyć port, kliknij **Add**.
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/open_ports_on_router.png){class="glboxshadow"}
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_new_open_port.png){class="glboxshadow"}
 
-- **Protocol:** Sélectionnez un protocole parmi `TCP/UDP`, `TCP` et `UDP`.
+- **Protocol:** Wybierz protokół spośród `TCP/UDP`, `TCP` i `UDP`.
 
-- **Port:** Saisissez le numéro du port que vous voulez ouvrir.
+- **Port:** Wpisz numer portu, który chcesz otworzyć.
 
-- **Description:** Ajoutez une description à cette règle (facultatif).
+- **Description:** Dodaj opis do tej reguły (opcjonalnie).
 
-- **Enable:** Activez ou désactivez cette règle.
-
----
+- **Enable:** Włącz lub wyłącz tę regułę.
 
 ---
 
-Vous avez encore des questions ? Consultez notre [forum communautaire](https://forum.gl-inet.com){target="_blank"} ou [contactez-nous](https://www.gl-inet.com/contacts/){target="_blank"}.
+Masz pytania? Odwiedź nasze [Forum społeczności](https://forum.gl-inet.com){target="_blank"} lub [Skontaktuj się z nami](https://www.gl-inet.com/contacts/){target="_blank"}.

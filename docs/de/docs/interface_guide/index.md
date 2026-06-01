@@ -92,6 +92,13 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [SQM (Smart Queue Management)](sqm.md)
 * [Kindersicherung (v4.9)](parental_control_v4.9.md)
 
+## Sicherheit
+
+* [Portweiterleitung](port_forwarding.md)
+* [ACL (Access Control List)](acl.md)
+* [Admin-Zugriff](admin_access.md)
+* [NAT-Modus](nat_settings.md)
+
 ## System
 
 * [UI-Sprachen](ui_languages.md)

@@ -4,17 +4,17 @@ Die Einstellungen für das Gastnetzwerk wurden seit Firmware v4.5 von [LAN](lan.
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **Guest Network**. 
 
-Diese Seite enthält die Grundeinstellungen des Gastnetzwerks sowie die DHCP-Server-Einstellungen.
+Diese Seite ermöglicht es Ihnen, ein dediziertes Wi-Fi-Netzwerk für Besucher zu erstellen. Es ist vom primären Netzwerk getrennt, erhöht dadurch die Sicherheit und bietet gleichzeitig einen bequemen Internetzugang.
+
+**Hinweis**: Einige Modelle (z. B. GL-MT5000, GL-MT2500/GL-MT2500A) verfügen über keine Wi-Fi-Funktion. Daher sind die Einstellungen für das Gastnetzwerk in deren Web-Admin-Panel nicht verfügbar.
+
+Es gibt zwei Bereiche: Grundeinstellungen und DHCP-Server-Einstellungen.
 
 ## Grundeinstellungen
 
 Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche festlegen: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
 ![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_1.png){class="glboxshadow"}
-
-Sie können ein separates, isoliertes Netzwerk für temporäre Benutzer einrichten, das nur eingeschränkten Zugriff bietet und die Sicherheit erhöht, da es vom primären Netzwerk getrennt ist.
-
-**Hinweis**: Einige Modelle (z. B. GL-MT5000, GL-MT2500/GL-MT2500A) unterstützen kein Wi-Fi. Daher sind die Einstellungen für das Gastnetzwerk in deren Web-Admin-Panel nicht verfügbar.
 
 - **Gateway**
 
@@ -38,9 +38,9 @@ Sie können ein separates, isoliertes Netzwerk für temporäre Benutzer einricht
 
 ## DHCP-Server
 
-Wenn das Gastnetzwerk aktiviert ist, wird der DHCP-Server standardmäßig ebenfalls aktiviert.
+Wenn das Gastnetzwerk aktiviert ist, wird dessen DHCP-Server entsprechend ebenfalls aktiviert.
 
-Der DHCP-Server weist allen mit dem Gastnetzwerk verbundenen Client-Geräten automatisch IP-Adressen und andere Kommunikationsparameter zu. Wenn der DHCP-Server deaktiviert ist, müssen Sie die Netzwerkeinstellungen für Client-Geräte manuell konfigurieren. Klicken Sie [hier](../tutorials/manually_configure_static_ip.md), um zu erfahren, wie Sie manuell eine statische IP konfigurieren.
+Der DHCP-Server weist jedem mit dem Gastnetzwerk verbundenen Client-Gerät automatisch IP-Adressen und andere Kommunikationsparameter zu. Wenn der DHCP-Server deaktiviert ist, müssen Sie die Netzwerkeinstellungen für Client-Geräte manuell konfigurieren. Klicken Sie [hier](../tutorials/manually_configure_static_ip.md), um zu erfahren, wie Sie manuell eine statische IP konfigurieren.
 
 Sie können die Start- und End-IP-Adressen an Ihre Anforderungen anpassen – zum Beispiel, wenn Ihr Netzwerk wächst oder kleiner wird, IP-Adresskonflikte auftreten oder der Bereich der Subnetzmaske geändert wird.
 

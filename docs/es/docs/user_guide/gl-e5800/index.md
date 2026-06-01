@@ -30,21 +30,27 @@ Vea este vídeo de configuración o siga los pasos que se indican a continuació
 
 ### 1. Instalar la tarjeta SIM
 
-Instale una o dos tarjetas Nano-SIM en su Mudi 7. Si prefiere usar eSIM, omita este paso y vaya al paso 2.
+Instale la(s) tarjeta(s) Nano-SIM en su Mudi 7. Si prefiere usar eSIM, omita este paso y vaya al paso 2.
 
 Primero, use la pequeña muesca situada en la esquina inferior derecha de la tapa trasera como punto de apoyo. Haga palanca a lo largo de la unión para crear una abertura, luego abra la tapa trasera y retire la batería de Mudi 7.
 
+![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
+
+![remove battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery1.png){class="glboxshadow"}
+
 Después, inserte la(s) tarjeta(s) Nano-SIM. Si usa solo una tarjeta, dé prioridad a SIM 1.
+
+![sim slots](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/sim-slots.png){class="glboxshadow"}
 
 Por último, vuelva a colocar la batería y la tapa.
 
-![install nano-sim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/install_nano-sim.png){class="glboxshadow"}
+![restore battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery2.png){class="glboxshadow"}
 
 ### 2. Encender
 
 Mantenga pulsado el botón de encendido durante **3 segundos** o conecte un adaptador de corriente.
 
-![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power_on.png){class="glboxshadow"}
+![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
 
 ### 3. Ajustes básicos
 

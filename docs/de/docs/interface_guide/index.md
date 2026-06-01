@@ -21,6 +21,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 ## WLAN
 
 * [WLAN](wireless.md)
+* [WLAN (v4.9)](wireless_v4.9.md)
 
 ## Clients
 
@@ -36,6 +37,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
 * [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
 * [VPN Dashboard (v4.9)](vpn_dashboard_v4.9.md)
+* [VPN-Client-Profil](vpn_client_profile.md)
 * [OpenVPN-Client einrichten](openvpn_client.md)
 * [OpenVPN-Server einrichten](openvpn_server.md)
 * [WireGuard-Client einrichten](wireguard_client.md)
@@ -56,6 +58,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [AdGuard Home](adguardhome.md)
 * [Netzwerkspeicher](network_storage.md)
 * [Kindersicherung](parental_control.md)
+* [Bark](bark.md)
 * [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
 * [Tor](tor.md) - zum Schutz der Privatsphäre.
@@ -68,6 +71,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Multi-WAN](multi-wan.md) - ermöglicht Failover auf eine andere Internetverbindung oder die gleichzeitige Nutzung mehrerer Schnittstellen zur Erhöhung der Gesamtbandbreite.
 * [LAN](lan.md)
 * [Gastnetzwerk](guest_network.md)
+* [IoT-Netzwerk](iot_network.md)
 * [DNS](dns.md)
 * [Ethernet-Port](ethernet_port.md)
 * [Netzwerkmodus](network_mode.md)
@@ -84,9 +88,9 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [DPI Engine](dpi_engine.md)
 * [Datenstatistiken](data_statistics.md)
 * [Inhaltsfilter](content_filter.md)
-* [Kindersicherung](parental_control.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
+* [Kindersicherung](parental_control.md)
 
 ## System
 

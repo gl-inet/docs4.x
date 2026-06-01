@@ -64,9 +64,7 @@ La configurazione rapida di NordVPN e' integrata nel pannello di amministrazione
 
     ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn5.png){class="glboxshadow"}
 
-    Inoltre, i dettagli della connessione VPN verranno mostrati nel **VPN Dashboard**.
-
-    ![vpn dashboard nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn6.png){class="glboxshadow"}
+    Puoi anche controllare i dettagli della connessione VPN nella pagina **VPN Dashboard**.
 
 6. Aggiorna i server.
 
@@ -132,9 +130,7 @@ Nei passaggi seguenti useremo [PIA (Private Internet Access)](https://privateint
 
     ![openvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual7.png){class="glboxshadow"}
 
-    Inoltre, i dettagli della connessione VPN verranno mostrati nel **VPN Dashboard**.
-
-    ![vpn dashboard openvpn status](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual8.png){class="glboxshadow"}
+    Puoi anche controllare i dettagli della connessione VPN nella pagina **VPN Dashboard**.
 
 ## Configurare OpenVPN Server su un router GL.iNet
 

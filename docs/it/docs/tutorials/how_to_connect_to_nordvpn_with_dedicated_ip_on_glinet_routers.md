@@ -12,17 +12,17 @@ Usiamo GL-AXT1800 come esempio.
 
     ![download nordvpn dedicated ip info](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/download_dedicated_ip_config.png){class="glboxshadow"}
 
-3. Torna alla pagina del tuo account Nord, vai su **Manual Setup** e fai clic su **Set up NordVPN Manually** per ottenere le credenziali del servizio.
+3. Torna alla pagina del tuo account Nord, vai su **Manual Setup** e fai clic su **Set up NordVPN Manually** per ottenere le **service credentials**.
 
     ![nordvpn manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup.png){class="glboxshadow"}
 
     ![nordvpn manual setup service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup_service_credential.png){class="glboxshadow"}
 
-4. Accedi al pannello di amministrazione web del router e vai su **VPN** > **OpenVPN Client**. Crea un nuovo gruppo per caricare il file di configurazione scaricato al passaggio 2. Poi inserisci le credenziali del servizio ottenute al passaggio 3.
+4. Accedi al pannello di amministrazione web del router e vai su **VPN** > **OpenVPN Client**. Crea un nuovo gruppo e carica il file di configurazione scaricato al passaggio 2, quindi inserisci le service credentials ottenute al passaggio 3.
 
     ![set up nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/set_up_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
-    E' stato rilevato 1 file di configurazione valido. Inserisci nome utente e password. Se queste configurazioni usano password diverse, dovrai inserire la password corrispondente per ciascun file di configurazione.
+    Come mostrato sopra, e' stato rilevato un file di configurazione valido. Inserisci le service credentials di NordVPN.
 
 5. Fai clic sull'icona con tre puntini a destra per connetterti. In alternativa puoi andare su **VPN Dashboard**, selezionare il file di configurazione e fare clic su **Apply** per stabilire la connessione.
 

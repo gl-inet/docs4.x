@@ -283,6 +283,7 @@ nav:
           - デュアルイーサネット WAN: interface_guide/dual-ethernet_wan.md
       - ワイヤレス:
           - ワイヤレス: interface_guide/wireless.md
+          - ワイヤレス（v4.9）: interface_guide/wireless_v4.9.md
       - クライアント:
           - クライアント: interface_guide/clients.md
       - クラウドサービス:
@@ -292,6 +293,7 @@ nav:
           - VPN ダッシュボード (v4.7): interface_guide/vpn_dashboard_v4.7.md
           - VPN ダッシュボード (v4.8): interface_guide/vpn_dashboard_v4.8.md
           - VPN ダッシュボード (v4.9): interface_guide/vpn_dashboard_v4.9.md
+          - VPN クライアントプロフィール: interface_guide/vpn_client_profile.md
           - OpenVPN クライアント: interface_guide/openvpn_client.md
           - OpenVPN サーバー: interface_guide/openvpn_server.md
           - WireGuard クライアント: interface_guide/wireguard_client.md
@@ -302,6 +304,7 @@ nav:
           - ネットワークストレージ: interface_guide/network_storage.md
           - AdGuard Home: interface_guide/adguardhome.md
           - ペアレンタルコントロール: interface_guide/parental_control.md
+          - Bark: interface_guide/bark.md
           - ZeroTier: interface_guide/zerotier.md
           - Tailscale: interface_guide/tailscale.md
           - Tor: interface_guide/tor.md
@@ -312,6 +315,7 @@ nav:
           - マルチ WAN: interface_guide/multi-wan.md
           - LAN: interface_guide/lan.md
           - ゲストネットワーク: interface_guide/guest_network.md
+          - IoT ネットワーク: interface_guide/iot_network.md
           - DNS: interface_guide/dns.md
           - Ethernet ポート: interface_guide/ethernet_port.md
           - ネットワークモード: interface_guide/network_mode.md
@@ -326,9 +330,9 @@ nav:
           - DPI ライセンス: interface_guide/dpi_engine.md
           - データ統計: interface_guide/data_statistics.md
           - コンテンツフィルター: interface_guide/content_filter.md
-          - ペアレンタルコントロール: interface_guide/parental_control.md
           - QoS: interface_guide/qos.md
           - SQM: interface_guide/sqm.md
+          - ペアレンタルコントロール: interface_guide/parental_control.md
       - システム:
           - 概要: interface_guide/system_overview.md
           - アップグレード: interface_guide/upgrade.md

@@ -12,17 +12,17 @@
 
     ![download nordvpn dedicated ip info](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/download_dedicated_ip_config.png){class="glboxshadow"}
 
-3. Nord Account ページに戻り、**Manual Setup** に進んで **Set up NordVPN Manually** をクリックし、サービス認証情報を取得します。
+3. Nord Account ページに戻り、**Manual Setup** に進んで **Set up NordVPN Manually** をクリックし、**service credentials** を取得します。
 
     ![nordvpn manual setup](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup.png){class="glboxshadow"}
 
     ![nordvpn manual setup service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/nordvpn_manual_setup_service_credential.png){class="glboxshadow"}
 
-4. ルーターの Web 管理画面にログインし、**VPN** > **OpenVPN Client** に移動します。新しいグループを作成して、手順 2 でダウンロードした設定ファイルをアップロードします。続いて、手順 3 で取得したサービス認証情報を入力します。
+4. ルーターの Web 管理画面にログインし、**VPN** > **OpenVPN Client** に移動します。新しいグループを作成し、手順 2 でダウンロードした設定ファイルをアップロードしてから、手順 3 で取得した service credentials を入力します。
 
     ![set up nordvpn on glinet router](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/set_up_nordvpn_on_glinet_router.png){class="glboxshadow"}
 
-    有効な設定ファイルが 1 つ検出されました。ユーザー名とパスワードを入力してください。これらの設定で異なるパスワードを使用している場合は、それぞれの設定ファイルに対応するパスワードを入力する必要があります。
+    上図のように、有効な設定ファイルが検出されます。NordVPN の service credentials を入力してください。
 
 5. 右側の三点アイコンをクリックして接続します。あるいは **VPN Dashboard** に移動し、設定ファイルを選択して **Apply** をクリックして接続することもできます。
 

@@ -2,7 +2,7 @@
 
 OpenVPN は、仮想プライベートネットワーク技術を用いて安全な site-to-site 接続または point-to-point 接続を確立する、オープンソースの VPN プロトコルです。
 
-GL.iNet ルーターで OpenVPN クライアントを設定するには、以下の動画を見るか、下記の手順に従ってください。
+GL.iNet ルーターで OpenVPN クライアントを設定するには、以下の動画を見るか、下記の手順を参照してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/04sW3l6_rDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -64,9 +64,7 @@ GL.iNet ルーターの管理パネルには NordVPN のクイック設定が統
 
     ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn5.png){class="glboxshadow"}
 
-    VPN 接続の詳細は **VPN Dashboard** に表示されます。
-
-    ![vpn dashboard nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn6.png){class="glboxshadow"}
+    接続の詳細は **VPN Dashboard** でも確認できます。
 
 6. サーバー一覧を更新します。
 
@@ -132,9 +130,7 @@ GL.iNet ルーターの管理パネルには NordVPN のクイック設定が統
 
     ![openvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual7.png){class="glboxshadow"}
 
-    VPN 接続の詳細は **VPN Dashboard** に表示されます。
-
-    ![vpn dashboard openvpn status](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual8.png){class="glboxshadow"}
+    接続の詳細は **VPN Dashboard** でも確認できます。
 
 ## GL.iNet ルーターで OpenVPN サーバーを設定する
 

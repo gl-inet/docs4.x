@@ -78,6 +78,8 @@ Panel administracyjny GL.iNet obsługuje tylko ograniczoną liczbę typów EAP.
 
 Jeśli nie możesz połączyć się z docelową siecią EAP przez panel administracyjny, spróbuj skorzystać z interfejsu LuCI.
 
+> Uwaga: Poniższe kroki mają charakter poglądowy. Prosimy odnosić się do rzeczywistej strony LuCI na Twoim urządzeniu.
+
 1. Zaloguj się do panelu administracyjnego, przejdź do **SYSTEM** -> **Advanced Settings**. Zainstaluj LuCI i kliknij **Go to LuCI**.
 
     ![gotoluci](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/gotoluci.png){class="glboxshadow"}
@@ -192,4 +194,3 @@ Wykonaj poniższe kroki, aby połączyć router GL.iNet z siecią EAP, która wy
 ---
 
 Masz więcej pytań? Odwiedź nasze [Forum społeczności](https://forum.gl-inet.com){target="_blank"} lub [Skontaktuj się z nami](https://www.gl-inet.com/contacts/){target="_blank"}.
-

@@ -4,11 +4,33 @@ Algunos routers GL.iNet admiten la conexión a redes Wi-Fi EAP, Extensible Authe
 
 EAP es un marco de autenticación utilizado habitualmente con **autenticación 802.1X** para redes **WPA2‑Enterprise / WPA3‑Enterprise**. Un ejemplo típico es **eduroam**, un servicio global de itinerancia Wi-Fi para educación e investigación que se basa en 802.1X y EAP.
 
-Esta guía presenta dos formas de conectar routers GL.iNet a una red Wi-Fi EAP: mediante el Admin Panel y mediante LuCI.
+Esta guía presenta dos formas de conectar routers GL.iNet a una red Wi-Fi EAP: mediante el panel de administración web de GL.iNet y mediante LuCI.
 
 ## Modelos compatibles
 
-??? "Modelos compatibles" - GL-MT3600BE (Beryl 7) - GL-E5800 (Mudi 7) - GL-BE6500 (Flint 3e) - GL-BE9300 (Flint 3) - GL-BE3600 (Slate 7) - GL-X2000 (Spitz Plus) - GL-B3000 (Marble) - GL-AX1800 (Flint) - GL-AXT1800 (Slate AX) - GL-A1300 (Slate Plus) - GL-XE300 (Puli) - GL-E750/GL-E750V2 (Mudi) - GL-X750/GL-X750V2 (Spitz) - GL-AR750S (Slate) - GL-AR750 (Creta) - GL-AR300M Series (Shadow) - GL-B1300 (Convexa-B) - GL-AP1300 (Cirrus) - GL-X300B (Collie) - ※GL-MT6000 (Flint 2) - ※GL-MT3000 (Beryl AX) - ※GL-SFT1200 (Opal)
+??? "Modelos compatibles"
+    - GL-MT3600BE (Beryl 7)
+    - GL-E5800 (Mudi 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-X2000 (Spitz Plus)
+    - GL-B3000 (Marble)
+    - GL-AX1800 (Flint)
+    - GL-AXT1800 (Slate AX)
+    - GL-A1300 (Slate Plus)
+    - GL-XE300 (Puli)
+    - GL-E750/GL-E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-AR750S (Slate)
+    - GL-AR750 (Creta)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
+    - GL-X300B (Collie)
+    - ※GL-MT6000 (Flint 2)
+    - ※GL-MT3000 (Beryl AX)
+    - ※GL-SFT1200 (Opal)
 
     **Nota:**
 
@@ -16,7 +38,13 @@ Esta guía presenta dos formas de conectar routers GL.iNet a una red Wi-Fi EAP: 
 
     2. GL-SFT1200 (Opal) admite la conexión a redes EAP con firmware v4.8.
 
-??? "Modelos no compatibles" - GL-MT5000 (Brume 3) - GL-X3000 (Spitz AX) - GL-XE3000 (Puli AX) - GL-MT2500/GL-MT2500A (Brume 2) - GL-MT1300 (Beryl) - GL-MT300N-V2 (Mango)
+??? "Modelos no compatibles"
+    - GL-MT5000 (Brume 3)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-MT1300 (Beryl)
+    - GL-MT300N-V2 (Mango)
 
 ## Conectar mediante el panel de administración web
 
@@ -49,6 +77,8 @@ Esta guía presenta dos formas de conectar routers GL.iNet a una red Wi-Fi EAP: 
 El panel de administración web de GL.iNet solo admite un número limitado de tipos EAP.
 
 Si la red EAP de destino no puede conectarse mediante el panel de administración web, intente conectarse mediante la interfaz LuCI.
+
+> Nota: Los siguientes pasos son solo de referencia; consulte la página LuCI real de su dispositivo.
 
 1. Inicie sesión en el panel de administración web y vaya a **SYSTEM** -> **Advanced Settings**. Instale LuCI y haga clic en **Go to LuCI**.
 

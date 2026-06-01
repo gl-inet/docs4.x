@@ -1,0 +1,107 @@
+docs/es/docs/interface_guide/admin_access.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 1-176
+docs/pl/mkdocs.yml
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 335-339
+docs/jp/docs/interface_guide/security.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 43-44,178,180,182,184
+docs/de/docs/interface_guide/nat_settings.md
+  s_f1ed52fa9de7e3::t_847feb616ab39b 5
+docs/fr/docs/interface_guide/acl.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 1-41
+docs/de/docs/interface_guide/acl.md
+  s_f1ed52fa9de7e3::t_847feb616ab39b 1-41
+docs/fr/docs/interface_guide/security.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 43-44,168-176,178-184
+docs/pl/docs/interface_guide/admin_access.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 1-176
+docs/es/docs/interface_guide/index.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 95-101
+docs/it/docs/interface_guide/acl.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 1-41
+docs/pl/docs/interface_guide/security.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 43-44,178,180,182,184
+docs/de/docs/interface_guide/port_forwarding.md
+  s_f1ed52fa9de7e3::t_847feb616ab39b 7,9,11,35,37,39,41,43,45,47,49
+docs/fr/docs/interface_guide/index.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 95-101
+docs/de/mkdocs.yml
+  s_f1ed52fa9de7e3::t_847feb616ab39b 339-343
+docs/it/docs/interface_guide/port_forwarding.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 7,9,11,35,37,39,41,43,45,47,49
+docs/es/docs/interface_guide/port_forwarding.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 7,9,11,35,37,39,41,43,45,47,49
+docs/pl/docs/interface_guide/port_forwarding.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 7,9,11,35,37,39,41,43,45,47,49
+docs/de/docs/interface_guide/index.md
+  s_f1ed52fa9de7e3::t_847feb616ab39b 95-101
+docs/jp/docs/interface_guide/port_forwarding.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 7,9,11,35,37,39,41,43,45,47,49
+docs/es/docs/interface_guide/security.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 43-44,178,180,182,184
+docs/de/docs/interface_guide/admin_access.md
+  s_f1ed52fa9de7e3::t_847feb616ab39b 1-176
+docs/it/docs/interface_guide/index.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 95-101
+docs/fr/docs/interface_guide/admin_access.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 1-176
+docs/fr/docs/interface_guide/port_forwarding.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 7,9,11,35,37,39,41,43,45,47,49
+docs/fr/mkdocs.yml
+  s_f1ed52fa9de7e3::t_660a9c844f1445 339-343
+docs/es/docs/interface_guide/nat_settings.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 5
+docs/it/docs/interface_guide/nat_settings.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 5
+docs/it/docs/interface_guide/security.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 43-44,178,180,182,184
+docs/jp/docs/interface_guide/index.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 95-101
+docs/es/mkdocs.yml
+  s_f1ed52fa9de7e3::t_660a9c844f1445 337-341
+docs/pl/docs/interface_guide/acl.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 1-41
+docs/jp/docs/interface_guide/nat_settings.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 5
+docs/es/docs/interface_guide/acl.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 1-41
+docs/pl/docs/interface_guide/nat_settings.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 5
+docs/fr/docs/interface_guide/nat_settings.md
+  s_f1ed52fa9de7e3::t_660a9c844f1445 5
+docs/it/mkdocs.yml
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 339-343
+docs/jp/docs/interface_guide/acl.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 1-41
+docs/pl/docs/interface_guide/index.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 94-100
+docs/it/docs/interface_guide/admin_access.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 1-176
+docs/jp/mkdocs.yml
+  s_f1ed52fa9de7e3::t_ea142a38387c93 338
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 339-342
+docs/de/docs/interface_guide/security.md
+  s_f1ed52fa9de7e3::t_847feb616ab39b 43-44,178,180,182,184
+docs/jp/docs/interface_guide/admin_access.md
+  s_f1ed52fa9de7e3::t_4fe6ea030a2d82 1-176
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "fcd8b9b15ec65e59f29c303d4cc61ac83b63ae06",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_f1ed52fa9de7e3": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "b7213d70-5cd1-43e1-b325-39b596ae2d24",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

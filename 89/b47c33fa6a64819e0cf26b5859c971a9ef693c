@@ -1,0 +1,26 @@
+scripts/auto_translate_docs.py
+  s_855fcd057e2ae0::t_841eb73b3523d6 571,573
+  s_855fcd057e2ae0::t_104569ad541927 181-183
+  s_855fcd057e2ae0::t_ca876fab954d1b 395,397-401,439-539
+  s_855fcd057e2ae0::t_a0ed31fe6073ed 192-196
+  s_855fcd057e2ae0::t_64d26bbc41b901 234,297
+  s_855fcd057e2ae0::t_903df47af6766f 10,57-72,90-93,396,540-541
+.github/workflows/auto-translate.yml
+  s_855fcd057e2ae0::t_4fcdbc2ab22c16 9-10,58,90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "89b47c33fa6a64819e0cf26b5859c971a9ef693c",
+  "prompts": {},
+  "sessions": {
+    "s_855fcd057e2ae0": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "c85e228f-d952-4d83-90a6-3cc5a21c88d3",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

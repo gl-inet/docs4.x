@@ -2,7 +2,7 @@
 
 Parental control is a way to keep children safe online by blocking inappropriate websites and limiting how long they use devices. It helps prevent access to harmful content, manage screen time, and ensure children use the internet responsibly.
 
-> Note: Some models do not support Parental Control due to insufficient memory, such as Mango (GL-MT300N-V2) and Shadow (GL-AR300M series).
+**Note**: Some models do not support Parental Control due to insufficient memory, such as Mango (GL-MT300N-V2) and Shadow (GL-AR300M series).
 
 Watch this video or follow the steps below to set up Parental Control on GL.iNet routers.
 

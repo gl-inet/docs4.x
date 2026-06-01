@@ -1,8 +1,8 @@
 # Wireless (Firmware v4.9)
 
-> Note: This guide applies to firmware v4.9 and later. For earlier versions, please see [here](wireless.md).
+> This guide applies to firmware v4.9 and later. For earlier versions, please click [here](wireless.md).
 
-Log in to the web Admin Panel and go to **WIRELESS**.
+On the left side of the web Admin Panel, go to **WIRELESS**.
 
 The Wireless page lets you configure various Wi-Fi networks, including MLO Wi-Fi (available on selected models), Main Network, Guest Network and IoT Network. The supported Wi-Fi bands vary by model.
 

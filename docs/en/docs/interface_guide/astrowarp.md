@@ -6,7 +6,7 @@ The new AstroWarp is integrated into the GL.iNet router SDK. It adopts the Amnez
 
 This feature enables seamless remote access to your home network. You can directly set up and pair devices via a dynamic access code in the web Admin Panel, quickly establishing a secure connection between your travel router and home network in just seconds, with no registration or login required.
 
-The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalone AstroWarp platform to establish remote network connections. See [here](https://docs.astrowarp.net/){target="_blank"} for documentation on the legacy AstroWarp.
+The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalone AstroWarp platform to establish remote network connections. Click [here](https://docs.astrowarp.net/){target="_blank"} for documentation on the legacy AstroWarp.
 
 **Note:** 
 

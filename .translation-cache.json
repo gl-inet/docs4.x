@@ -1,0 +1,6063 @@
+{
+  "docs/en/docs/community/index.md": {
+    "source_hash": "7173f3a9dfc60656cae2e855e9bfc64d8203f50f9d52f094518c2e590db9e17c",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774573541
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569440
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605489
+      }
+    }
+  },
+  "docs/en/docs/faq/amneziawg_obfuscation_parameters.md": {
+    "source_hash": "b1e0d7ae595d6c23d825ce15cff9a05a9d801ebbb432e2ab88a7a7766fda154b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      }
+    }
+  },
+  "docs/en/docs/faq/block_non_vpn_traffic.md": {
+    "source_hash": "ba072a2ff5a6f604d5ca92fb2dd22253fb1c088e5bc087de75f5720139166b29",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576317
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605489
+      }
+    }
+  },
+  "docs/en/docs/faq/cannot_access_web_admin_panel.md": {
+    "source_hash": "51dff7817ecdecb80cf68ffed0d071fdcf205074d11f57888918f6b0f7eedcc1",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576317
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603792
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605756
+      }
+    }
+  },
+  "docs/en/docs/faq/cannot_scan_android_5g_hotspot.md": {
+    "source_hash": "96750f3b261f941674723edaa8bdd1c2073b7313f022c22b1e32a97f530d680f",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1779027549
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027523
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1779027510
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1779027970
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1779027845
+      }
+    }
+  },
+  "docs/en/docs/faq/cannot_scan_iphone_5g_hotspot.md": {
+    "source_hash": "6eba0a26530171ecd070022c7547f83e438d7689a1625f5c7e49e93b6d8e15bc",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576317
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605489
+      }
+    }
+  },
+  "docs/en/docs/faq/cellular_network_troubleshooting_guide.md": {
+    "source_hash": "dd708f6ae4d0a893eed86d9c1d0d4178d85cbe4f5524af498e1129405025ca00",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576317
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775604025
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605901
+      }
+    }
+  },
+  "docs/en/docs/faq/change_wan_to_lan.md": {
+    "source_hash": "1255abcae62de14fa016b6e5ccf029a093d6c7e8e567d2d6db4db70966c72674",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576317
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605901
+      }
+    }
+  },
+  "docs/en/docs/faq/connect_glinetrouter_to_starlink.md": {
+    "source_hash": "836a5aa2d62893936ba096263c958781003793c12acb167fad978bba95be2bb1",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1779027549
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027523
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1779027510
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1779027869
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1779027845
+      }
+    }
+  },
+  "docs/en/docs/faq/connect_to_a_hotspot_with_captive_portal.md": {
+    "source_hash": "98f065b04f7c99ffb1d5e6d2b56e4dc9fa0ebe690c654ce3c6467cd40bc10922",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576317
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603792
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605901
+      }
+    }
+  },
+  "docs/en/docs/faq/debrick.md": {
+    "source_hash": "11fa8f5dc2028b6bd6d7065c1a254cb71e0af2539da1c6ccc782f332a6bec819",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1779027549
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027523
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1779027510
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1779027869
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1779027845
+      }
+    }
+  },
+  "docs/en/docs/faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md": {
+    "source_hash": "0c218fb825fe32e250c071c794d1ebbcd6b58877ca79d9abcb80a7a9275c284d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576317
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605937
+      }
+    }
+  },
+  "docs/en/docs/faq/esim_profile_installation_failed.md": {
+    "source_hash": "464f3acb8682439fc40f95aeee8fd739a2da8a7c67b58acbce16fcac2708d546",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1777158682
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1777158682
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1777158682
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777158682
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1777158682
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777158682
+      }
+    }
+  },
+  "docs/en/docs/faq/first_time_setup.md": {
+    "source_hash": "459e5c593e921ede14d15475ba9330ac12588d491f0b7ebbfa3577ed26a73054",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576476
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605793
+      }
+    }
+  },
+  "docs/en/docs/faq/how_can_i_know_the_lan_wifi_mac.md": {
+    "source_hash": "9395682268aa07e4d6b97880b4fad728811b5d6f5b5798f6c12fa941fcd79a37",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576476
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605851
+      }
+    }
+  },
+  "docs/en/docs/faq/how_to_add_brume2_into_app.md": {
+    "source_hash": "28b8bffc3b10e42436346670b948a3d5138f2e5923560a39315780ee7a03253b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576476
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605806
+      }
+    }
+  },
+  "docs/en/docs/faq/how_to_download_firmware.md": {
+    "source_hash": "98f0eb116d5545d75076976199bbb1556967a88c392fe3fbc630c467600a79ce",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576476
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603329
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605721
+      }
+    }
+  },
+  "docs/en/docs/faq/how_to_make_wifi_calling_work_on_opal.md": {
+    "source_hash": "1beffc25b57b2da6d679bf0cf2974ab92e22bc471026f7226586d0e91e0dff22",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576476
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603329
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605852
+      }
+    }
+  },
+  "docs/en/docs/faq/how_to_resolve_a_subnet_conflict.md": {
+    "source_hash": "68fb29a1f7736e7a3dc060760a2a01a90d6c0f0aa6cd11cb2a60376928b2b966",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576476
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605807
+      }
+    }
+  },
+  "docs/en/docs/faq/index.md": {
+    "source_hash": "162d1c5adfdcb35f27525b8389322adc33ca1831cc87aeba4f455d0dcb2fb96b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1779027549
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1779027567
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027523
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1779027510
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1779027869
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1779027845
+      }
+    }
+  },
+  "docs/en/docs/faq/internet_connection_troubleshooting.md": {
+    "source_hash": "22599f5fe7d11f1a5dddd6d8ff5e1d2683d2bd412c92dcdc0e0f8599b53d7d41",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1779027549
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1779027567
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027523
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/faq/iphone_tethering_fail.md": {
+    "source_hash": "b7a74076697e1662bb7dbd06a438da2ed6e439a54094ff72d61c08aea73cb123",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576476
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605722
+      }
+    }
+  },
+  "docs/en/docs/faq/led.md": {
+    "source_hash": "a321145d74815c2315baa6c4238f3abfb6dfbe2c5e74e3decadf40f3278ccd83",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576476
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603131
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605721
+      }
+    }
+  },
+  "docs/en/docs/faq/macos_cannot_write_samba.md": {
+    "source_hash": "513f30a2543564ee2e5e022653eb11b83d7397c61d46fb07dda85d929bb0cf99",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576476
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605852
+      }
+    }
+  },
+  "docs/en/docs/faq/mobile_app.md": {
+    "source_hash": "fec6fe1c1c49143871fc908a52f8a910e3a97059dad057a3d6bb03053d5a6457",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576476
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605808
+      }
+    }
+  },
+  "docs/en/docs/faq/my_wireguard_server_is_not_working.md": {
+    "source_hash": "76ad6a954a8384367e90e24d5d42a0ade2f7d33c451fd9fe31f235ce3ecf4f2d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576580
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775604025
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605806
+      }
+    }
+  },
+  "docs/en/docs/faq/no_internet_after_replacing_the_old_router_with_glinet.md": {
+    "source_hash": "250da11aed618d628a69ff9c66340de34703f7eb412c5b388c53fbe6c4e3376b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576580
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605808
+      }
+    }
+  },
+  "docs/en/docs/faq/openvpn_tcp_udp.md": {
+    "source_hash": "70564ff1f36936b4b4d4618af23222217f49c647368b579296f1b05615ebe62e",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576580
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605808
+      }
+    }
+  },
+  "docs/en/docs/faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md": {
+    "source_hash": "fb051f0e14698031700050c95667f037f28e492ce889f2ca818ef5fd429dcc55",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576580
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603428
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605515
+      }
+    }
+  },
+  "docs/en/docs/faq/problem_notification_for_mt2500_x3000_xe3000.md": {
+    "source_hash": "8aa9719a8992b48bf1c62e4a3a76a89bf02f337e213160d8a4e85bf180bca2bd",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576580
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603372
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605515
+      }
+    }
+  },
+  "docs/en/docs/faq/produce_a_wired_connection.md": {
+    "source_hash": "b2da607dcfe2cca8370a1ef6e46e63791d0dbb0e13df65d0611c970480040b48",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576580
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605937
+      }
+    }
+  },
+  "docs/en/docs/faq/remote_access_web_admin_panel.md": {
+    "source_hash": "eb73c607cb4dc0bfbf5ffbb685868f5279485fe1533dd9b9e81a46ef2031faa6",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576580
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603247
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605565
+      }
+    }
+  },
+  "docs/en/docs/faq/remote_ssh_to_router.md": {
+    "source_hash": "f5912bc02525e332c1c7dac87176d33f1830e8939721b2fd66ae30e17b04d01a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576580
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603247
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605565
+      }
+    }
+  },
+  "docs/en/docs/faq/repair_network_or_reset_firmware.md": {
+    "source_hash": "af26c22311489d92a5e3424063ca1023c8cfa2d38799356382edba361079b4e3",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1778145594
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1778145594
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1778145594
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1778145594
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1778145594
+      }
+    }
+  },
+  "docs/en/docs/faq/stuck_on_installing_during_firmware_update.md": {
+    "source_hash": "f8c16cdbd177a3f6d2c60e37866952c1547762d3032267604393b892f2208898",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605515
+      }
+    }
+  },
+  "docs/en/docs/faq/stuck_on_rebooting_during_firmware_reboot.md": {
+    "source_hash": "186b5525a7681f9bed84a6eb3b6741a210a0325c04dd48aa89e79f23e9d0728f",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605984
+      }
+    }
+  },
+  "docs/en/docs/faq/stuck_on_reverting_during_firmware_reset.md": {
+    "source_hash": "09eaad1e209d733f86cae4b15edbb7b23ad52f39a06040708ff45413f0790b35",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605985
+      }
+    }
+  },
+  "docs/en/docs/faq/upgrade_to_4.md": {
+    "source_hash": "d3519aff1a191ce28b926be37def271ef6998084ea03d1f053e0973c09762be7",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603164
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605515
+      }
+    }
+  },
+  "docs/en/docs/faq/upgrade_uboot_version.md": {
+    "source_hash": "fa90ef0c5609c6fd79a356b62f3c5c04dccf5a23c390f6d7e50e703c1fa86a5b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776635437
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/faq/usb_modem_is_not_working_properly_on_gl_inet_router.md": {
+    "source_hash": "d6d00a19a18926a32b4319005d50f77d503a09e73c31eb37376c4bb81c31c1d8",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603428
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605515
+      }
+    }
+  },
+  "docs/en/docs/faq/use_https_for_adh.md": {
+    "source_hash": "5d5c3f707e928d4b267ac80c540fd4a40d6f73d244727c85aa641a24b8bd5b1b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605515
+      }
+    }
+  },
+  "docs/en/docs/faq/warning_from_your_browser_during_setup.md": {
+    "source_hash": "1ee17736b4a285458fc46d81e49c0ef6e011dfa92748c2c179d7424f79a7bdd7",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605588
+      }
+    }
+  },
+  "docs/en/docs/faq/what_is_luci.md": {
+    "source_hash": "606bccc35ada01e5fb481418166978042709294fe6ecc0b28044150f5c7081bc",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605620
+      }
+    }
+  },
+  "docs/en/docs/faq/what_is_the_device_capacity_of_my_router.md": {
+    "source_hash": "cbad9e8e99dc1420a4d6c49c7c09ddbad53d7f7ed30904e3e17afb2dac0dad03",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605767
+      }
+    }
+  },
+  "docs/en/docs/faq/what_is_the_wireless_coverage_of_my_router.md": {
+    "source_hash": "eb1c3be18c46c10c0952c10f4b3025d621e5c8f828c3bbb384cb607cac64fb74",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603470
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605620
+      }
+    }
+  },
+  "docs/en/docs/faq/where_to_find_the_device_id_mac_sn.md": {
+    "source_hash": "9820e48fc490910b56271b4b4c8e47967f55577b29ff313232831401e3910e8a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605620
+      }
+    }
+  },
+  "docs/en/docs/faq/why_do_I_get_a_message_from_ddns_test.md": {
+    "source_hash": "ef18311d1d7419a112a0734ca91e955f54408412569c4a156c8e78fde2d2df8b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576711
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567637
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605620
+      }
+    }
+  },
+  "docs/en/docs/faq/why_is_my_vpn_speed_slow.md": {
+    "source_hash": "a59b45c30ab9f1ede92058f902174e303efc020c19d441c24e5997db2e86978f",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776635437
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/index.md": {
+    "source_hash": "0cecb20f9b89e3815e4f1a10e106c07fd66e7bb63e7384dc51ed6ac899596281",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774573541
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1773819423
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605652
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/adguardhome.md": {
+    "source_hash": "31eddbaa8b30aa8bad7d3a85b2d4a189478fae0e1e5efbde612e8924d51650dc",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1779027549
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027523
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1779027510
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1779027869
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1779027845
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/admin_password.md": {
+    "source_hash": "9db1196dd1d54ec92cb88ec4f023010d27378362b5aa6392790da83080fad320",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774576832
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566331
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605840
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/advanced_settings.md": {
+    "source_hash": "574b1b23307d4a4b8d2371ebf2721a403aefa190f5270207344cd36296124172",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775012846
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566331
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605895
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/astrowarp.md": {
+    "source_hash": "d04e25e932d1496ecfe53ee545ac0c9379fd10f09b947c9301b80d1dd4fb16ef",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/bark.md": {
+    "source_hash": "d87d821580ad51aded834cf4915b8517bb686bf538da7ae7a56343988c0a1393",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/clients.md": {
+    "source_hash": "c673ade76bc7b570137aff6edf7e9a34aea766af7042c2cd3f925e440abc59e6",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1774248915
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775012846
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567767
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606040
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/cloud.md": {
+    "source_hash": "3fdff2cd3ff186eb7a48ccae543e80606bd3681b12108395e41676461317fbf5",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775013052
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605629
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/content_filter.md": {
+    "source_hash": "0cbfee19a2515b8be2a185404dbd0220e62e3e19ff788d327cd1d162d36ae68c",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1778145084
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1778145084
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/data_statistics.md": {
+    "source_hash": "63aed3795521584e2be47a58113c653e22e59f549eb3c819e47f2469f015201a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1778145084
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1778145084
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/ddns.md": {
+    "source_hash": "f54d508858becef9880f78bda89cebdd8d831496261bb3f47d7b072c7510b08a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776635437
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/display_management.md": {
+    "source_hash": "d7e2eaf35b2c2686a1eac3a6617dc0b17c0b4e29c56962dec5c6d76c8f3e5238",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775013191
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566378
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605953
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/dns.md": {
+    "source_hash": "504f4e7054803c418608ad5424092aada3cf07448fbd1fed5e8555b6d38686e0",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/dpi_engine.md": {
+    "source_hash": "285858a65d36336b050c9ad18abd6a64270e0e67b054118fd784d508b5f2ba92",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1778145084
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1778145084
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1778145466
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/drop-in_gateway.md": {
+    "source_hash": "32d826576f1cfa51de124f59aac5ca688d63ecabd2061a2a4cd1ad6ea521f935",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1774248915
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775308782
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566601
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605831
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/dual-ethernet_wan.md": {
+    "source_hash": "8bd5aee479c526be1a3403f62cf5efc94d6e55e85b44c5b982cbf89b92acdbdf",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775013439
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566542
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605792
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/esim_management.md": {
+    "source_hash": "963da5d4771e85a067a01e42b299de4a7923a402fb5e8b5bf62edc434889aba0",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1777158682
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1777158682
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777158682
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777158682
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/ethernet_port.md": {
+    "source_hash": "4bf2dee19a552bcef04d2d29821a9f16a82704f9aa200c7bdac99abb463b9acb",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775013439
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566601
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605792
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/firewall.md": {
+    "source_hash": "519df0f51f1be830bd7d23c7aca3db9b5f455fb25d6611871d19a7ac45c79c3f",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775013480
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567791
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605792
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/guest_network.md": {
+    "source_hash": "fe5a7a1124401afb15c7bdf032dda0ecdc1d2e44a9bfc907f1c78c52928df139",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/hardware_acceleration.md": {
+    "source_hash": "35a4d2eb066119f1f25f98db9bea9152db748ff36e1d6a1384fc38901a3da0dd",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775013553
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/help.md": {
+    "source_hash": "3cfb9a521fe779763bda2c977deda418b1982cdc8eb8910151e7d8374e552d8f",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775013553
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566332
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605495
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/how_to_set_up_urban_shield_vpn_on_glinet_router.md": {
+    "source_hash": "91854dd67e28c566ec9ed9541657c4b19634ad1818008e08aa17097964dec1d0",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775015828
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567767
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605495
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/igmp_snooping.md": {
+    "source_hash": "e2a7be3bd46ab8f699eebd105862b9c96e0f483080c636186498d175cec07e55",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775015828
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566511
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605495
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/index.md": {
+    "source_hash": "37ca32975d7695a435d9d3fbc599ea226eef40b39731bca1dae7da953495c8a7",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/internet.md": {
+    "source_hash": "6657d2c0ba66cd931324c02e7947ba18cdc91d799f9869ff0128f1c96c3322e6",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776635437
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776636289
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/internet_cellular.md": {
+    "source_hash": "de1d7f4aa5842314bd4c24e91a639d176653f80bd5a8c8c5375ad675adf52e97",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1774248915
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775025080
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/internet_cellular_v4.7.md": {
+    "source_hash": "9ccceb47d2803c62c2e17cd5d03c360828be6fec7995666103b26f59be3031ca",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775025080
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/internet_ethernet.md": {
+    "source_hash": "6267afaf578a9a488f21be27d2a0814b429b7452652af90e5dca3e83a05e702c",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775025080
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566168
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605435
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/internet_repeater.md": {
+    "source_hash": "c7b5e5d68c7121c76454c86d1f1a659d39ec3425046803d662037b7ab79e4972",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1779027549
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027523
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775026330
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1779027869
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1779027993
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/internet_tethering.md": {
+    "source_hash": "f3002e4bc6a3b29443939e3d20457981e1b2ce8ed96ce4c7e719ce3a15865807",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775026260
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566168
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605840
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/iot_network.md": {
+    "source_hash": "d22b806401934707bda203f7555fb9050910fb94412775aa8969aca6ee961789",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/ipv6.md": {
+    "source_hash": "60e02acc26c6ac46810dcd1835686ac7d19f24ce16e24d14a2068432576f2daa",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775026260
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566601
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605840
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/lan.md": {
+    "source_hash": "e7a8d3d137d196aa811c2774b56e060cdfbdce76461180003081210ff39bbd17",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775026330
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567791
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605840
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/log.md": {
+    "source_hash": "c10f347a242c5073156c562eb695b0dbc0b938980083f25e60f485edf7160fdb",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775026330
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566332
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605840
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/mac_address.md": {
+    "source_hash": "a3ed1333a846f1929693d6edff5c9781ea065788dfd0d68e7a0884688e9fa105",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775026330
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566388
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605840
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/multi-wan.md": {
+    "source_hash": "535974cf0d61595355e2fe48274ce5287fbd6806f057f8408ccf8d3bba30d474",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775026887
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567816
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606069
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/nat_settings.md": {
+    "source_hash": "e5d3ed37339416edae865d8365d955cac9829ab813d5e053186975790685d6f2",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775026887
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606077
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/network_acceleration.md": {
+    "source_hash": "7be6753cb33144fd2033df4b1706843b733d23a51c9be1362818210736d7e58e",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775026887
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566601
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606077
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/network_mode.md": {
+    "source_hash": "3830fdd8bd84491bc57e1f3ec44ab139fc0a47370173a559b01bba28b4107cc7",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776635437
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635496
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635496
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/network_storage.md": {
+    "source_hash": "2e48afd6cda43ff960de725768409abec5ffdc046e230011d10aca9905e07e71",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1774248915
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567134
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606463
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/openvpn_client.md": {
+    "source_hash": "e1f83c9ad31e860d0a19d03c0282b98ae25ae7b449a0ba6fb9a8c996cccbd4f2",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/openvpn_server.md": {
+    "source_hash": "1f800e105580dcfce0f2191fd41fd17ccb73a43f9cf333ab6d46b1795f40db3d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/parental_control.md": {
+    "source_hash": "b35d51ec7b8eceec98e05c17b2c818ca59b38689da385b627fc1ac4e7e36349d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/plugins.md": {
+    "source_hash": "649e2a81706c0c66c87b643695d4832d07172d69328c9c1c52d13288441ed62d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775091704
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566728
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605450
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/port_forwarding.md": {
+    "source_hash": "dac99dc8d7b4d1a830b56f927226703ebc7c24f0ecd22847ddddcf6133fb8134",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775091704
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567816
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605450
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/qos.md": {
+    "source_hash": "2ccdc1d73adc1d685ccae568278e6909eecc96f48eef0cd43383976b4c890776",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1778145084
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1778145084
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1778145206
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1778145541
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1778145541
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1778145541
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/reset_firmware.md": {
+    "source_hash": "d59985e2da106cf2ccb51e9125ac41f6544ad48da6f22d65ea86288b2c7d004b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/scheduled_tasks.md": {
+    "source_hash": "fca581b21f929e56329df1b97f09d8714fccc56c6851b3f824f0f8db3d6045f3",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/security.md": {
+    "source_hash": "1c87bb395205c1a67df3332a41a0e8708fe3d5cd8d161f040342afe74114cd69",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1774248915
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775091803
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605809
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/sms.md": {
+    "source_hash": "db09e5d350ddb32e3d3213299523ec8f5d8eaca79c9ea5b68530ee945eda4ec0",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775091803
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566625
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605450
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/sqm.md": {
+    "source_hash": "b201c4b8450b394aa9f28fd8f386bbf2bb11e3367cb9d85e79896bcab3b36bb5",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1778145084
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1778145084
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1778145206
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1778145541
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1778145541
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1778145541
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/system_overview.md": {
+    "source_hash": "d451bbb42d70f0af89062d3b6aa02dd3833ca0342b4681a650b26c89e4b747a2",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775091803
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567791
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605809
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/tailscale.md": {
+    "source_hash": "b23e59463710865ed44247020f18fac1a793f518a8ef8a013e5fce44d43c9460",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1779027549
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027523
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1779027510
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1779027869
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1779028031
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/time_zone.md": {
+    "source_hash": "e5b70c2f2efa54f1600c8a54c0a9b27e0d76623d11a38d02ef892e15691b88b1",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775091803
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566332
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605583
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/toggle_button_settings.md": {
+    "source_hash": "40faf2375b2937324b36ce3f6d4046b40757e79af03c5d47e9a6131553cee509",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776045274
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1776046827
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776046577
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776047176
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776046485
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776046645
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/tor.md": {
+    "source_hash": "9d9500091ee18f039e4b5a7b1985263802bf9c7895880a7a051c249efe330baa",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775091887
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606041
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/ui_languages.md": {
+    "source_hash": "495cf8f0cdc63253fa7b1286b673f41c308b6bcd83f6af7800a9c8e811203b3d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775091887
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566459
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605583
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/upgrade.md": {
+    "source_hash": "dd373876bf8c4180e6578ca8c134ddff89ae0380dc9fc2d02f68c558f4070f63",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775091887
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567791
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605809
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/usb_power.md": {
+    "source_hash": "0cbce93137d9c47d7c8744ab557b8e78ddbe741b811ea01a5a5418556564887b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775091887
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567791
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605583
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/vpn_client_profile.md": {
+    "source_hash": "d8da074099014eb6d43f5211351908c932adf6783ad3fb390360cc5fd6c9fbf7",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/vpn_dashboard_v4.7.md": {
+    "source_hash": "1e5f0f36a47e58c4479684c7981d69c28a103bbae5ef3d70621d56497f653736",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1779027549
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027607
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1779027689
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1779027914
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1779027909
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/vpn_dashboard_v4.8.md": {
+    "source_hash": "c0f5132adc0dfd9f327c0ab8819a051fa728d77f289097e9a6b1f5db569c762a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1779027549
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027523
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1779027605
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1779027944
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/vpn_dashboard_v4.9.md": {
+    "source_hash": "b3a5bef87130934bb7f1f4b376b2c346512fbacbf7fd716344be49564e1a7c67",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776635520
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1776635552
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635545
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776636076
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/wireguard_client.md": {
+    "source_hash": "e54a1285d4b0c24e13b6aafb782dc752d07527058caf1b15622013525a42eedf",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/wireguard_client_v4.6.md": {
+    "source_hash": "2012c96e64c4a9541403e9f150116cadd41bf12acda89c1fab558350b600a427",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775092297
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566890
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606290
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/wireguard_server.md": {
+    "source_hash": "10c051a5e0b96ad797c1725edd6437dd5de12de7b83066a8df1eabe3365df52e",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775092297
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566890
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606291
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/wireless.md": {
+    "source_hash": "8069bbea64db143eeb163500d2ff75dd0c4e90e9d540f825605c0082abd79ec4",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1774248915
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775092297
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775566168
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606141
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/wireless_v4.9.md": {
+    "source_hash": "d4da59049400787f9eb969870dc411565696ff24154fac8d1569148d3bd6ac37",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/zerotier.md": {
+    "source_hash": "2c246afae035a61773e4f60cbd92612b1700ffe1f0d9368e82d470468361a785",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1777603793
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1777603823
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777603818
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777604055
+      }
+    }
+  },
+  "docs/en/docs/remote_support_disclaimer.md": {
+    "source_hash": "2736a7dbc5ef4a21cbbb8bca9ab8eb824569d2fc05c5ded075f2667c9970db4e",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1774573541
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775601901
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605767
+      }
+    }
+  },
+  "docs/en/docs/tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md": {
+    "source_hash": "cce0ed0344d2cf9a6cbb2fb87e274e1a9685820d830c659d24decdb92fa3ce44",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/tutorials/configure_dual_ethernet_wan.md": {
+    "source_hash": "6aa201c2fc9abffd79c93f254d047cca25ba58cde700a22b84b833f267090122",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775092437
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/eap.md": {
+    "source_hash": "1260b6995537559d665f06925506c393976cc42474de285746176cf0e1c82091",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775092437
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606395
+      }
+    }
+  },
+  "docs/en/docs/tutorials/get_module_logs.md": {
+    "source_hash": "7a3b0fba2f9c8121ad39ee6376e0819d673d44c295344d8a8e2648fd788c82e2",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775092437
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605389
+      }
+    }
+  },
+  "docs/en/docs/tutorials/goodcloud_site_to_site.md": {
+    "source_hash": "74ec0c57b0e6051cbe0e17fb3d70b47e047cb149dc38222a0eefd4f3e9f5027b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775092437
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605360
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_access_ovpnserver_lan_via_domain_name.md": {
+    "source_hash": "2fe40fa97d41367ee7c2cafa70ae14c310a68f6c24e61d31f5e4b2a3bab23c6d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093023
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606395
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_access_the_luci_interface_via_goodcloud.md": {
+    "source_hash": "e54266533a4b0c727a1dc9c98216d7047e170fb8337f982120041b574f5317a5",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093023
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605584
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_access_wgserver_lan_via_domain_name.md": {
+    "source_hash": "b9692c9dcf4d60a95268f3774990f988267a55ba376e56c383ab3c559a49bc5a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093023
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606395
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_activate_top_up_sim_cards.md": {
+    "source_hash": "5bdef2ddd91520e5d456ad70a9084e8a3e56de61ab3e28b9a9210d9a29472b35",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093023
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md": {
+    "source_hash": "510638c3a2fc005a9faba0567bd0088b7b90c1990c4cb06e9ca419c985e41331",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093023
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605499
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_block_client_devices.md": {
+    "source_hash": "93fdc6b3ca11969d62310e06c334c86b983acd7c6493cbbaa1acfa104c213b9d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093544
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606395
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_change_the_nat_type_on_gaming.md": {
+    "source_hash": "31a4cf28938f8adfd2492ac0645e8a8e5809600215725aa859e5c089d09cf806",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093544
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_check_carrier_aggregation.md": {
+    "source_hash": "797287f1d8789ea94d83b18575b23b60efdbdca28ec746f92262251f0848746a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093544
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md": {
+    "source_hash": "7e7ffb55f6d09bf2d405af518abad27e59437882d15602ba3e9847e408af45e9",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093544
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606395
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md": {
+    "source_hash": "dcff7dbe9019584fae32ffcdb52e9923b1c0b659b9bee3d28d4cb50e4f5f35d0",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776045274
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1776046827
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776046577
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776046906
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776046613
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md": {
+    "source_hash": "ed5b1e45eaa16a33ec1920437d9d1412bef2bdf4e3c98c6756f8d6eda9855fdd",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md": {
+    "source_hash": "a26a97c0f9332717400856bbd27112d0c4a3ddaccf797ba695e9fc71b5aa055b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1774249135
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1774249135
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093686
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md": {
+    "source_hash": "4fd899f3f8439255e0ac414c21e4a5783f300c3768689028024cdd9ea9a05492",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775093686
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md": {
+    "source_hash": "a09d603e6c149a668916e81fb15e093728ea266bec0fc85194af0d52fdd8d48a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_install_or_change_antennas.md": {
+    "source_hash": "34e2ac3ca45676cb5ca9027c771051c2e2c2be3ccb0d4fb5b98da4d1ccccf8fa",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1777158886
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1777158886
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1777158886
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777158886
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1777158886
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777158886
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_obtain_technical_support_via_anydesk.md": {
+    "source_hash": "9861e4032d8029e4041052ce9ae470b3304ba02fabe4fb4b41a48719d34af01e",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775094261
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605564
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_retrieve_the_mobile_app_log.md": {
+    "source_hash": "05c032c7d74e21d6bbdcad50f78dba349c283174dcb67ced7c59f6b69a83df78",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775094261
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606329
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_set_up_a_guest_network.md": {
+    "source_hash": "5bbe055b520ac5c0fc5c97b202947d58577b34319cec2dd26c11440da881d8eb",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775095657
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606329
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md": {
+    "source_hash": "71d51fd8161d95ac2c7e119158774a42d55e03d6dbd243553d09d46ba327546f",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776047605
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776046906
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569647
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606387
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_set_up_drop_in_gateway.md": {
+    "source_hash": "4eb9235dde510836eeeb2b271ed6c7da36e7b11dcd13c62b1341fc1be31d0368",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775095657
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606405
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_set_up_openvpn_client.md": {
+    "source_hash": "22f1a83933442b64f289fe4409e9b03c1d095ac06e736829777f00c757a06a40",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775095657
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775568476
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605445
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_set_up_openvpn_server.md": {
+    "source_hash": "ec6b2e39ba2e4521ca51c664bb1eabb08deb2ed35de4e5b9a9c578de0e7aca28",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775095657
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775568476
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605968
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_set_up_openvpn_server_via_astrorelay.md": {
+    "source_hash": "1b0179c00922f43f23056917825a8d1d255ba2446c0703db482adc7afe2840d7",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775095657
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775568476
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605663
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_set_up_port_forwarding.md": {
+    "source_hash": "e1fce97d1f2fa05fcd8847d2c3360b224fc76a683cfee90d76fd4929f2b17f9c",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775097764
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569647
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605619
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_set_up_wireguard_server_via_astrorelay.md": {
+    "source_hash": "d7f548fa4f2b4d065ab4a4e768fcdb8966ccafa83b55d1b240064944f9855305",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775097764
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775568476
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605552
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_update_openvpn_server_certificates.md": {
+    "source_hash": "6e81444edb1c2a5279fbee04f63073859c7f889fb0c7a95794528dd419de444b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775097764
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606386
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_upgrade_downgrade_router.md": {
+    "source_hash": "47f987a26a43e20e4cefe67399a4d5cf7cba6f3a61b1cf67777a6e8fda2ee96a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775097764
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_use_esim_physical_card_with_glinet_routers.md": {
+    "source_hash": "ef6be1f3792fb8989f215bbb6dfbec77eab0c72bc5f3919e7c7fe325f7174f13",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_use_the_esim_physical_card_with_android_devices.md": {
+    "source_hash": "b870ae41a18ca143688954ec347e0c71509d669c08fbaba89da597afd1fbb865",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775099974
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_use_vpn_cascading_on_glinet_routers.md": {
+    "source_hash": "8611792ff3564b70f8187e7bdb8ee21bbe31b2e780cb5ad16a07b726c9a408f8",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775099974
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605570
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md": {
+    "source_hash": "9901ee3eb84df0ce20004f99e51b6aafea0b644e7a309c01b69753bc18d66c37",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775099974
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/index.md": {
+    "source_hash": "84b979f5cb64598d2388206d9cf3e5c0504934749ffca14213ff2a4d6c31174a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777158166
+      }
+    }
+  },
+  "docs/en/docs/tutorials/manually_configure_static_ip.md": {
+    "source_hash": "baeac74b3777585b10d880d5ba9585dcf0ee8118efda5399a5869daa40948792",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775105946
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775568476
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/openvpn_server_access_client_lan_side.md": {
+    "source_hash": "113118c5ffa008dd55c547469c6ce07ac9be28ed47476ef66c3494428b23aa16",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775105946
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605692
+      }
+    }
+  },
+  "docs/en/docs/tutorials/reserve_fixed_IP_for_ovpn_client.md": {
+    "source_hash": "499b7572dd0a36045de11bd8827a311f1e8e7c4683a0a92b0ee86fccd6db5141",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775105946
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775568476
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/route_vpn_client_dns_to_server_upstream_dns.md": {
+    "source_hash": "0a5400d5e41d2311c939d4246162417dca1e5c7377518aea27bf7b4a4cf0de8b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775109975
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775568476
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605480
+      }
+    }
+  },
+  "docs/en/docs/tutorials/sms_forwarding.md": {
+    "source_hash": "cf7e71196fff2e622cb47006851df245ec950bc7f71641f6ff4a29775f2d7b3b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776635437
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1776635552
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635992
+      }
+    }
+  },
+  "docs/en/docs/tutorials/ssh_log_in_to_the_router.md": {
+    "source_hash": "3f286e505b639c1c550d4aa128ebc02d426554f7c8389d28e6379aba03aa7529",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775109975
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/technical_support_via_goodcloud.md": {
+    "source_hash": "e4701b0f1be2acb56cf10646ef70c2e8d7c995ea7b0e049e1cc15b19daf64de8",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775308827
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775568476
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/upgrade_quectel_module_software.md": {
+    "source_hash": "aff94a6e83cbee4983cef94ee3ef1ef76666dadf87a3f199ceab3ca145e4ab8d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775111745
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605337
+      }
+    }
+  },
+  "docs/en/docs/tutorials/use_wireguard_to_secure_rdp_from_outside_network.md": {
+    "source_hash": "7a2964e03b3ffddff9c43174a172cabda06b1b311e1c34603d1e9b18f2f84191",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775111745
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605513
+      }
+    }
+  },
+  "docs/en/docs/tutorials/vpn_obfuscation.md": {
+    "source_hash": "65a55676ecf0478b0815ee60f4044145df437f51f1cfb4be1ae187046a7c2eca",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776050161
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776046810
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775111745
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606750
+      }
+    }
+  },
+  "docs/en/docs/tutorials/winscp_share_file.md": {
+    "source_hash": "501d65b612a64cd73df94d33aa4edc05b81682dae8bba8ac8a4be901111a87b5",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775111745
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569415
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775606455
+      }
+    }
+  },
+  "docs/en/docs/tutorials/wireguard_server_access_to_client_lan_side.md": {
+    "source_hash": "7b8faa418ad7747c30eb117fe4582c6f90374f6424a1cd881c22859bc267ac0e",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775111745
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775568476
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605633
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-a1300/index.md": {
+    "source_hash": "5cb0b0deeb927ba7d4155cea1bf92af94fbab6d30e3ebded7956c986bc2b5ba2",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-ap1300/index.md": {
+    "source_hash": "9f25473de4f50d13edfb14f100439faae9b4ba34787210d97c2e571acbbc2396",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-ar300m/index.md": {
+    "source_hash": "bc740bb4933a59a904d55312bd7f9db605b0d0a1b403f2babcea20d8720f870c",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775114113
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567859
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775607075
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-ar750/index.md": {
+    "source_hash": "7b922c5a5c66be2f5d39242a165a0e035daf62d2773fcf28c53ade36e18776a6",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775114113
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567859
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775607075
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-ar750s/index.md": {
+    "source_hash": "d77389e0c2b6ae271f5c8c7f44cdfa48c9d6838c0789c56bead41e0b604177cc",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-ax1800/index.md": {
+    "source_hash": "18fe1f004ecea64bbd4c7f89d442724347c4c579338f8308e303bceecfb097e5",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775308782
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775607091
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-axt1800/index.md": {
+    "source_hash": "17c065a7cddf4c97e9fbbdec096aaa769f453a43f39024f282f9c95ed06893b4",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1777603823
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777603818
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1777604086
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777604055
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-b1300/index.md": {
+    "source_hash": "5dc040e68c71c477961e18e9121560e34117a95650d2fe5121ca6a7cc0fbbc41",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-b3000/index.md": {
+    "source_hash": "6300d7cb47f2fd8ee83d08cd3bcc59c85894aa95d4ce4bc19063322b0d831cfa",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775114675
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775604540
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775607171
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-be10000/index.md": {
+    "source_hash": "b50dd615b8f115772b6f8bfddf0151f218907c6a09d078601fdca016cdf68f6d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-be3600/index.md": {
+    "source_hash": "794ca00f517bc3b869724df87fc0cd74e852f6b0f1eaf741a21058e16e9b8733",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027607
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1779027605
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1779027949
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1779028031
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-be6500/index.md": {
+    "source_hash": "6c4976bc5a9efb3f58e37d4f0b58d58f5f3ff15583061a9e08b0338288b0a8dd",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775604308
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775607249
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-be9300/index.md": {
+    "source_hash": "f1a2ea9038dc9452bcfa301c8f3cbcd7a695e3fcecf05efb5919c9fc7a48b54b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775116824
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775604339
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-e5800/index.md": {
+    "source_hash": "3c1a7be750bb14e8fff2089663aaf076952e0b103204d169e46ce0400301d59b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-e750/index.md": {
+    "source_hash": "4bd319207d4ebd7755cdfcd71d77e0eb1c5d3a0d183f059a53f43870973460fb",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1776635552
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-m2/index.md": {
+    "source_hash": "ee53d7c7101d511bb8f158fb4eda76efa3c54b9e996996bb66798626c172d02d",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775603846
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605401
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-mt1300/index.md": {
+    "source_hash": "747791ef8f7cf5cff0729c13e90b98b1ed541a484cdbfcea44166ed79d6466bb",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-mt2500/index.md": {
+    "source_hash": "65a1016f77d40f1ab89492b4e44392f69d6b156c4bc647d13a20a7280272c69c",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1779027567
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1779027523
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1779027510
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1779027869
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-mt3000/index.md": {
+    "source_hash": "1774c9a1d810e9f5ca480055b61517394658c6b015b6b575f5818138d0289165",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775123280
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-mt300n-v2/index.md": {
+    "source_hash": "b7d37243269cdcbc2880a124a84b538610189ccdbe6acd837b9732b74d9caf90",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775123239
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567859
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-mt3600be/index.md": {
+    "source_hash": "29af836e07b469b29e43617d1ae9c0abfc6fc9d2ac951fe8ab2a874aac2d2efc",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775123239
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775604165
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-mt5000/index.md": {
+    "source_hash": "45ec2c07963c27786a162e8b545841339466b3667ef4665a943e7a4770f7c947",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1776046617
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776047605
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776047605
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776047605
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-mt6000/index.md": {
+    "source_hash": "8c4217e3c5dbe18b81a9e87b949095e52fb0571c6cbd3c7015b11ba0d02113cf",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775305547
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775568381
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-mv1000/index.md": {
+    "source_hash": "e462301ef24942b2bc63abc79a2a388074af7290b8f79cffac31df43aecaad5f",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-s10/index.md": {
+    "source_hash": "90f4d8f2fb1687b3ee0dd1a322cc11156e82463a2b2eab224918ca0d7d0b79e5",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775305671
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567859
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605401
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-s1300/index.md": {
+    "source_hash": "532197bb3b71f91953fe5dc86e1257025ce2ae2ff44da379ba304f81251243e4",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-s20/index.md": {
+    "source_hash": "c8e8dae44555c56f25a454c097a8a084e69517c6a0efb75190ad8d278f3f1cb1",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775305671
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775567859
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605401
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-s200/index.md": {
+    "source_hash": "4ecd005f6efe0516c6126abe4e326f1ebe871d63cd783c1cca49c148405ec659",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-sft1200/index.md": {
+    "source_hash": "c1a21d5bc22934ad2d620ac3b3cc70d5139898f423982200f3d0f171f9a7714e",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775305918
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775607301
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-x2000/index.md": {
+    "source_hash": "e3982aa11a0a65e5cdb67d0737e0da83cdf262c72dfca23f1e2a9ba00d69f341",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775308782
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775604254
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775607363
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-x3000/index.md": {
+    "source_hash": "796f0ce75ae37423af6edb0bc28b5e388bf37def6c56ac8cb457bc22bbada898",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775307158
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775607379
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-x300b/index.md": {
+    "source_hash": "76f82c5d174b8d2928db2c2c5256fc6e4d47019b7fe8345385d6e2c4ac1a34a4",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1777158886
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777158886
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1777158886
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777158886
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-x750/index.md": {
+    "source_hash": "d1a6fb7de1250b33c03c032d96a43cfd9ed98fb0596390aba2f1d706805eeee1",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-xe300/index.md": {
+    "source_hash": "d0d609a1db98d5bad706e741fc0b8b227c7adef3f76d4a0d63be75da2ea9333a",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776635991
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-xe3000/index.md": {
+    "source_hash": "5e376003922045631d61d1296f6b132f5bddf8d8e5f85d8d3246cd4f925289bd",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1780110246
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775308429
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776635972
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775607363
+      }
+    }
+  },
+  "docs/en/docs/user_guide/index.md": {
+    "source_hash": "661552d95201d40a9236d5ceb20f30469c3f13699d88838b54eb3facbc786cf1",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1776635437
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1776635629
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1776635405
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1776635474
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1776636028
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1776636076
+      }
+    }
+  },
+  "docs/en/docs/user_guide/simpoyo-4g-ufi/index.md": {
+    "source_hash": "617ecd0f9b2642bfb2db67f848baab2e2886c008a68e2d1cf76f23386c6c16b3",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1777159046
+      }
+    }
+  },
+  "docs/en/docs/video_library/index.md": {
+    "source_hash": "2ce0dfe6cda8296f29838c8ebae2beb55ed66f6c943dea496f01a645f6375b7b",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775308748
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569440
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605711
+      }
+    }
+  },
+  "docs/en/docs/video_library/products.md": {
+    "source_hash": "23b99a72c2dfe01fed2a68c60161021c01678af6b6e5d446918bfb0a4d6fde67",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775308748
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569440
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605846
+      }
+    }
+  },
+  "docs/en/docs/video_library/tutorials.md": {
+    "source_hash": "ba247fb9bf81ccf9c891edfb35d6495a43d9ccee2f540aa9d4628f638860b672",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775308748
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569440
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605808
+      }
+    }
+  },
+  "docs/en/docs/video_library/unboxing_first_set_up.md": {
+    "source_hash": "17f1e4553d2e80220adc34b2701456a8cce4c79fd41c4de0a3c12f0e80259e99",
+    "targets": {
+      "de": {
+        "model": "pre-existing",
+        "updated_at": 1773981801
+      },
+      "es": {
+        "model": "pre-existing",
+        "updated_at": 1773902571
+      },
+      "fr": {
+        "model": "pre-existing",
+        "updated_at": 1774324141
+      },
+      "it": {
+        "model": "pre-existing",
+        "updated_at": 1775308827
+      },
+      "jp": {
+        "model": "pre-existing",
+        "updated_at": 1775569440
+      },
+      "pl": {
+        "model": "pre-existing",
+        "updated_at": 1775605846
+      }
+    }
+  }
+}

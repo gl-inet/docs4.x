@@ -1,0 +1,19 @@
+.github/workflows/auto-translate.yml
+  s_1190cb5239494b::t_05180de241c76b 93-97
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "b438a9fcc522c9f8065b4609f4b2f684fa3bb203",
+  "prompts": {},
+  "sessions": {
+    "s_1190cb5239494b": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "7644a2dc-6436-43fe-a31a-08763b5ae36a",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

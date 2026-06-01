@@ -43,11 +43,11 @@ plugins:
         'tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md': 'tutorials/eap.md'
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
-        'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
+        'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
- 
+
 extra:
   social:
     - icon: fontawesome/solid/globe
@@ -67,9 +67,6 @@ extra:
   version:
     provider: mike
   alternate:
-    - name: Italiano
-      link: /router/it/4/
-      lang: it
     - name: English
       link: /router/en/4/
       lang: en
@@ -82,6 +79,9 @@ extra:
     - name: Français
       link: /router/fr/4/
       lang: fr
+    - name: Italiano
+      link: /router/it/4/
+      lang: it
     - name: 日本語
       link: /router/jp/4/
       lang: ja
@@ -144,6 +144,7 @@ nav:
     - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
     - GL-MT300N-V2 (Mango): user_guide/gl-mt300n-v2/index.md
     - GL-AR300M (Shadow): user_guide/gl-ar300m/index.md
+    - SIMPoYo 4G uFi: user_guide/simpoyo-4g-ufi/index.md
     - GL-M2: user_guide/gl-m2/index.md
     - GL-S200: user_guide/gl-s200/index.md
     - GL-S20: user_guide/gl-s20/index.md
@@ -250,7 +251,6 @@ nav:
     - eSIM:
       - Usare la scheda eSIM fisica con i router GL.iNet: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Usare la scheda eSIM fisica con i dispositivi Android: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
-      - Come usare SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
       - Site-to-Site: tutorials/goodcloud_site_to_site.md
       - Accedere a LuCI tramite GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
@@ -271,7 +271,7 @@ nav:
       - Attivare o ricaricare le SIM T-Mobile: tutorials/how_to_activate_top_up_sim_cards.md
       - Cambiare il tipo di NAT per il gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
       - Recuperare il log dell'app mobile: tutorials/how_to_retrieve_the_mobile_app_log.md
-      - Configurare regole di filtraggio di dominio e IP per VPN: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+      - Configurare regole di filtraggio di dominio e IP: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
       - Supporto tecnico tramite GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Guida all'interfaccia:
     - Panoramica: interface_guide/index.md
@@ -306,10 +306,9 @@ nav:
       - Archiviazione di rete: interface_guide/network_storage.md
       - AdGuard Home: interface_guide/adguardhome.md
       - Controllo genitori: interface_guide/parental_control.md
-      - Controllo genitori (v4.9): interface_guide/parental_control_v4.9.md
       - Bark: interface_guide/bark.md
-      - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
+      - ZeroTier: interface_guide/zerotier.md
       - Tor: interface_guide/tor.md
       - Gestione eSIM: interface_guide/esim_management.md
     - Rete:
@@ -330,7 +329,7 @@ nav:
       - Accelerazione di rete: interface_guide/network_acceleration.md
       - Impostazioni NAT: interface_guide/nat_settings.md
     - Controllo del traffico:
-      - Licenza DPI: interface_guide/dpi_engine.md
+      - Motore DPI: interface_guide/dpi_engine.md
       - Statistiche dati: interface_guide/data_statistics.md
       - Filtro contenuti: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md

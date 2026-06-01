@@ -59,8 +59,8 @@ hide:
 * [ネットワークストレージ](network_storage.md)
 * [ペアレンタルコントロール](parental_control.md)
 * [Bark](bark.md)
-* [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
 * [Tor](tor.md) - 個人のプライバシーを保護します。
 * [eSIM管理](esim_management.md)
 

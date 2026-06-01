@@ -57,9 +57,10 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [DDNS](ddns.md) - aby rozwiązać problemy związane z dynamicznymi adresami IP.
 * [AdGuard Home](adguardhome.md)
 * [Pamięć sieciowa](network_storage.md)
+* [Kontrola rodzicielska](parental_control.md)
 * [Bark](bark.md)
-* [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
 * [Tor](tor.md) - aby chronić prywatność użytkownika.
 * [Zarządzanie eSIM](esim_management.md)
 

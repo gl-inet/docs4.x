@@ -8,7 +8,7 @@ ACL fonctionne différemment de Port Forwarding : ACL autorise ou bloque princip
 
 ---
 
-Dans le panneau d'administration web, accédez à **SECURITY** -> **ACL**.
+Sur le côté gauche du panneau d'administration web, allez dans **SECURITY** -> **ACL**.
 
 Cliquez sur le bouton **Add Rule** à droite.
 

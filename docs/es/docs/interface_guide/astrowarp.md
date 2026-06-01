@@ -13,7 +13,6 @@ Aunque AstroWarp heredado sigue apareciendo en el panel de administración web, 
 1. No se recomienda usar AstroWarp al mismo tiempo que las siguientes funciones, ya que puede causar conflictos de enrutamiento: GoodCloud Site to Site, ZeroTier, Tailscale y Tor.
 2. Cuando AstroWarp está habilitado, no se puede usar Network Mode.
 
-
 ## Modelos compatibles
 
 ??? "Modelos compatibles"
@@ -66,7 +65,7 @@ Flint 3 actuará como router doméstico, mientras que Slate 7 actuará como rout
 
 1. Configure Flint 3 para Internet.
 
-    Inicie sesión en el panel de administración web de Flint 3 y vaya a la página **INTERNET**. Conéctelo a Internet usando uno de los métodos compatibles: Ethernet, Repeater, Tethering o Cellular.
+    Inicie sesión en el panel de administración web de Flint 3 y vaya a la página **INTERNET**. Conéctelo a Internet usando uno de los métodos compatibles: Ethernet, Repeater, Tethering y Cellular.
 
     Como se muestra a continuación, el router doméstico Flint 3 está conectado al módem del ISP (Hong Kong Broadband Network Ltd) mediante un cable Ethernet.
 
@@ -84,7 +83,7 @@ Flint 3 actuará como router doméstico, mientras que Slate 7 actuará como rout
 
 3. Configure Slate 7 para Internet.
 
-    Inicie sesión en el panel de administración web de Slate 7 y vaya a la página **INTERNET**. Conéctelo a Internet usando uno de los métodos compatibles: Ethernet, Repeater, Tethering o Cellular.
+    Inicie sesión en el panel de administración web de Slate 7 y vaya a la página **INTERNET**. Conéctelo a Internet usando uno de los métodos compatibles: Ethernet, Repeater, Tethering y Cellular.
 
     Como se muestra a continuación, el router de viaje Slate 7 está conectado al hotspot personal de un iPhone 15 Pro, situado en Shenzhen y usando la red China Unicom Guangdong Province.
 

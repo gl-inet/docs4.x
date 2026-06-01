@@ -59,8 +59,8 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Network Storage](network_storage.md)
 * [Parental Control](parental_control.md)
 * [Bark](bark.md)
-* [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
 * [Tor](tor.md) - per proteggere la privacy personale.
 * [Gestione eSIM](esim_management.md)
 

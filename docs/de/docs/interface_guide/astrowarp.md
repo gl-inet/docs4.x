@@ -49,6 +49,7 @@ Das ältere AstroWarp war zwar im Web-Admin-Panel sichtbar, nutzte jedoch eine e
     - GL-XE300 (Puli)
     - GL-MT300N-V2 (Mango)
     - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 

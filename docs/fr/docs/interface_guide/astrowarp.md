@@ -13,7 +13,6 @@ L’ancienne version d’AstroWarp, bien que visible dans le panneau d’adminis
 1. Il n’est pas recommandé d’utiliser AstroWarp en même temps que les fonctionnalités suivantes, car cela peut provoquer des conflits de routage : GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
 2. Lorsque AstroWarp est activé, la fonction **Network Mode** ne peut pas être utilisée.
 
-
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"

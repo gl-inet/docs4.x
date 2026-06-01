@@ -24,28 +24,29 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        "faq/block_no_vpn_traffic.md": "faq/block_non_vpn_traffic.md"
-        "faq/i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md": "faq/no_internet_after_replacing_the_old_router_with_glinet.md"
-        "tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md": "tutorials/eap.md"
-        "interface_guide/network_port_management.md": "interface_guide/ethernet_port.md"
-        "tutorials/vpn_cascading.md": "tutorials/how_to_use_vpn_cascading_on_glinet_routers.md"
-        "tutorials/how_to_set_up_esim.md": "tutorials/how_to_use_esim_physical_card_with_glinet_routers.md"
-        "tutorials/tap_s2s_vs_tun.md": "tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md"
-        "tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md": "tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md"
-        "tutorials/can_i_use_multiwan_wired_input.md": "tutorials/configure_dual_ethernet_wan.md"
-        "interface_guide/firmware_upgrade.md": "interface_guide/upgrade.md"
-        "faq/i_must_use_ethernet_wan_when_use_vpn.md": "faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md"
-        "faq/gl-ax1800_upgrade_to_4.md": "faq/upgrade_to_4.md"
-        "faq/gl-x3000_gl-xe3000_connection_optimization.md": "faq/cellular_network_troubleshooting_guide.md"
-        "faq/where_to_download_firmware.md": "faq/how_to_download_firmware.md"
-        "faq/can_i_add_brume2_into_app.md": "faq/how_to_add_brume2_into_app.md"
-        "tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md": "tutorials/how_to_use_esim_physical_card_with_glinet_routers.md"
-        "tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md": "tutorials/how_to_use_the_esim_physical_card_with_android_devices.md"
-        "tutorials/how_to_access_server_lan_device_via_domain_name.md": "tutorials/how_to_access_wgserver_lan_via_domain_name.md"
-        "interface_guide/dpi_license.md": "interface_guide/dpi_engine.md"
-        "tutorials/how_to_change_x3000_and_xe3000_antennas.md": "tutorials/how_to_install_or_change_antennas.md"
-        "faq/amnezia_obfuscation_parameters.md": "faq/amneziawg_obfuscation_parameters.md"
-        "tutorials/how_to_use_simpoyo_ufi.md": "user_guide/simpoyo-4g-ufi/index.md"
+        'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
+        'tutorials/how_to_set_up_esim.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
+        'tutorials/tap_s2s_vs_tun.md': 'tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md'
+        'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
+        'tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md': 'tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md'
+        'tutorials/can_i_use_multiwan_wired_input.md': 'tutorials/configure_dual_ethernet_wan.md'
+        'interface_guide/firmware_upgrade.md': 'interface_guide/upgrade.md'
+        'faq/i_must_use_ethernet_wan_when_use_vpn.md': 'faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md'
+        'faq/gl-ax1800_upgrade_to_4.md': 'faq/upgrade_to_4.md'
+        'faq/gl-x3000_gl-xe3000_connection_optimization.md': 'faq/cellular_network_troubleshooting_guide.md'
+        'faq/where_to_download_firmware.md': 'faq/how_to_download_firmware.md'
+        'faq/can_i_add_brume2_into_app.md': 'faq/how_to_add_brume2_into_app.md'
+        'faq/i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md': 'faq/no_internet_after_replacing_the_old_router_with_glinet.md'
+        'tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
+        'tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md': 'tutorials/how_to_use_the_esim_physical_card_with_android_devices.md'
+        'tutorials/how_to_access_server_lan_device_via_domain_name.md': 'tutorials/how_to_access_wgserver_lan_via_domain_name.md'
+        'tutorials/how_to_connect_glinet_router_to_an_eap_network_with_advanced_settings.md': 'tutorials/eap.md'
+        'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
+        'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
+        'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
+        'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
+        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
+        'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
 
 extra:
   social:
@@ -101,11 +102,8 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
   - javascripts/analytics.js
-  - https://www.gl-inet.com/js/cookieconsent.js
-  # we can use the cdn or files
-  # - javascripts/photoswipe.min.js
-  # - javascripts/photoswipe-ui-default.min.js
   - javascripts/extra.js
+  - javascripts/cookieconsent.js
 
 markdown_extensions:
   - attr_list
@@ -142,6 +140,7 @@ nav:
       - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
       - GL-MT300N-V2 (Mango): user_guide/gl-mt300n-v2/index.md
       - GL-AR300M (Shadow): user_guide/gl-ar300m/index.md
+      - SIMPoYo 4G uFi: user_guide/simpoyo-4g-ufi/index.md
       - GL-M2: user_guide/gl-m2/index.md
       - GL-S200: user_guide/gl-s200/index.md
       - GL-S20: user_guide/gl-s20/index.md
@@ -220,7 +219,7 @@ nav:
       - VPN:
           - OpenVPN クライアントの設定: tutorials/how_to_set_up_openvpn_client.md
           - OpenVPN サーバーの設定: tutorials/how_to_set_up_openvpn_server.md
-          - 2台のGL.iNetルーターで独自のWireGuardホームサーバーを構築: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
+          - WireGuard ホームサーバーを構築する: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
           - VPN 難読化の設定: tutorials/vpn_obfuscation.md
           - NordVPN に Dedicated IP で接続する: tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
           - Surfshark に Dedicated IP で接続する: tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md
@@ -248,7 +247,6 @@ nav:
       - eSIM:
           - GL.iNet ルーターで eSIM 物理カードを使用する: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
           - Android デバイスで eSIM 物理カードを使用する: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
-          - SIMPoYo uFi の使い方: tutorials/how_to_use_simpoyo_ufi.md
       - GoodCloud:
           - Site to Site: tutorials/goodcloud_site_to_site.md
           - GoodCloud 経由で LuCI にアクセスする: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
@@ -269,7 +267,7 @@ nav:
           - T-Mobile SIM カードを有効化またはチャージする: tutorials/how_to_activate_top_up_sim_cards.md
           - ゲーミング NAT タイプを変更する: tutorials/how_to_change_the_nat_type_on_gaming.md
           - モバイルアプリのログを取得する: tutorials/how_to_retrieve_the_mobile_app_log.md
-          - VPN ドメインおよび IP フィルタリングルールの設定: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+          - ドメインおよび IP フィルタリングルールの設定: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
           - GoodCloud 経由でテクニカルサポートを受ける: tutorials/technical_support_via_goodcloud.md
   - インターフェースガイド:
       - 概要: interface_guide/index.md
@@ -304,10 +302,9 @@ nav:
           - ネットワークストレージ: interface_guide/network_storage.md
           - AdGuard Home: interface_guide/adguardhome.md
           - ペアレンタルコントロール: interface_guide/parental_control.md
-          - ペアレンタルコントロール（v4.9）: interface_guide/parental_control_v4.9.md
           - Bark: interface_guide/bark.md
-          - ZeroTier: interface_guide/zerotier.md
           - Tailscale: interface_guide/tailscale.md
+          - ZeroTier: interface_guide/zerotier.md
           - Tor: interface_guide/tor.md
           - eSIM 管理: interface_guide/esim_management.md
       - ネットワーク:
@@ -328,12 +325,11 @@ nav:
           - ネットワークアクセラレーション: interface_guide/network_acceleration.md
           - NAT 設定: interface_guide/nat_settings.md
       - フロー制御:
-          - DPI ライセンス: interface_guide/dpi_engine.md
+          - DPI エンジン: interface_guide/dpi_engine.md
           - データ統計: interface_guide/data_statistics.md
           - コンテンツフィルター: interface_guide/content_filter.md
           - QoS: interface_guide/qos.md
           - SQM: interface_guide/sqm.md
-          - ペアレンタルコントロール: interface_guide/parental_control.md
           - ペアレンタルコントロール（v4.9）: interface_guide/parental_control_v4.9.md
       - セキュリティ:
           - ポートフォワーディング: interface_guide/port_forwarding.md

@@ -59,8 +59,8 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Stockage réseau](network_storage.md)
 * [Parental Control](parental_control.md)
 * [Bark](bark.md)
-* [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
 * [Tor](tor.md) - pour protéger la vie privée.
 * [Gestion de l'eSIM](esim_management.md)
 

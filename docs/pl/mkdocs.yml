@@ -44,9 +44,10 @@ plugins:
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
+        'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
- 
+
 extra:
   social:
     - icon: fontawesome/solid/globe
@@ -143,6 +144,7 @@ nav:
     - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
     - GL-MT300N-V2 (Mango): user_guide/gl-mt300n-v2/index.md
     - GL-AR300M (Shadow): user_guide/gl-ar300m/index.md
+    - SIMPoYo 4G uFi: user_guide/simpoyo-4g-ufi/index.md
     - GL-M2: user_guide/gl-m2/index.md
     - GL-S200: user_guide/gl-s200/index.md
     - GL-S20: user_guide/gl-s20/index.md
@@ -249,7 +251,6 @@ nav:
     - eSIM:
       - Uzyj fizycznej karty eSIM z routerami GL.iNet: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Uzyj fizycznej karty eSIM z urzadzeniami Android: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
-      - Jak uzywac SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
       - Połączenie site-to-site: tutorials/goodcloud_site_to_site.md
       - Uzyskaj dostep do LuCI przez GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
@@ -270,7 +271,7 @@ nav:
       - Aktywuj lub doladuj karty SIM T-Mobile: tutorials/how_to_activate_top_up_sim_cards.md
       - Zmien typ NAT do gier: tutorials/how_to_change_the_nat_type_on_gaming.md
       - Pobierz log aplikacji mobilnej: tutorials/how_to_retrieve_the_mobile_app_log.md
-      - Skonfiguruj reguly filtrowania domen i IP dla VPN: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+      - Skonfiguruj reguly filtrowania domen i IP: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
       - Pomoc techniczna przez GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Przewodnik po interfejsie:
     - Przeglad: interface_guide/index.md
@@ -291,7 +292,9 @@ nav:
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:
-      - Panel VPN: interface_guide/vpn_dashboard_v4.8.md
+      - Panel VPN (v4.7): interface_guide/vpn_dashboard_v4.7.md
+      - Panel VPN (v4.8): interface_guide/vpn_dashboard_v4.8.md
+      - Panel VPN (v4.9): interface_guide/vpn_dashboard_v4.9.md
       - Profil klienta VPN: interface_guide/vpn_client_profile.md
       - Klient OpenVPN: interface_guide/openvpn_client.md
       - Serwer OpenVPN: interface_guide/openvpn_server.md
@@ -304,8 +307,8 @@ nav:
       - AdGuard Home: interface_guide/adguardhome.md
       - Kontrola rodzicielska: interface_guide/parental_control.md
       - Bark: interface_guide/bark.md
-      - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
+      - ZeroTier: interface_guide/zerotier.md
       - Tor: interface_guide/tor.md
       - Zarzadzanie eSIM: interface_guide/esim_management.md
     - Siec:

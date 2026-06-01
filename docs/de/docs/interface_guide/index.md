@@ -59,8 +59,8 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Netzwerkspeicher](network_storage.md)
 * [Kindersicherung](parental_control.md)
 * [Bark](bark.md)
-* [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
 * [Tor](tor.md) - zum Schutz der Privatsphäre.
 * [eSIM-Verwaltung](esim_management.md)
 

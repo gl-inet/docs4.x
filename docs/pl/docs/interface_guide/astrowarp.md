@@ -127,7 +127,7 @@ Flint 3 będzie pełnił rolę routera domowego, a Slate 7 — routera podróżn
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
 
-## Zmiana planu
+## Uaktualnienie planu
 
 Każdy router GL.iNet otrzymuje **10 GB darmowych danych miesięcznie** na potrzeby sieci AstroWarp. Urządzenia w sieci AstroWarp korzystają z transferu danych routera domowego, aby uzyskać dostęp do Internetu. 
 

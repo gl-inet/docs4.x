@@ -69,11 +69,11 @@ Wenn Sie eine Portnummer zuweisen, die mit einem reservierten Port kollidiert (o
     | 42    | name                                    |
     | 43    | nicname                                 |
     | 53    | domain                                  |
-    | 69    | tftp                                    |
+    | 69    | tftp                                     |
     | 77    | priv-rjs                                |
-    | 79    | finger                                  |
-    | 87    | ttylink                                 |
-    | 95    | supdup                                  |
+    | 79    | finger                                   |
+    | 87    | ttylink                                  |
+    | 95    | supdup                                   |
     | 101   | hostriame                               |
     | 102   | iso-tsap                                |
     | 103   | gppitnp                                 |

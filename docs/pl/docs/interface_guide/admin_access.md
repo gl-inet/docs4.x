@@ -2,7 +2,7 @@
 
 > Ta strona została wprowadzona w firmware v4.9.
 
-W lewym panelu bocznym panelu administracyjnego przejdź do **SECURITY** -> **Admin Access**.
+Po lewej stronie panelu administracyjnego przejdź do **SECURITY** -> **Admin Access**.
 
 Ta strona umożliwia konfigurację różnych ustawień zabezpieczeń chroniących sieć i router przed nieautoryzowanym dostępem.
 
@@ -10,7 +10,7 @@ Ta strona umożliwia konfigurację różnych ustawień zabezpieczeń chroniącyc
 
 Kontrola dostępu, nazywana **Local Access Control** w firmware v4.7 i starszym, zarządza dostępem do różnych interfejsów zarządzania routerem.
 
-Pomaga zapobiegać skanowaniu i próbom włamania na domyślne porty oraz unikać problemów sieciowych spowodowanych konfliktami portów.
+Pomaga zapobiegać skanowaniu i próbom włamania na domyślny port oraz unikać problemów sieciowych spowodowanych konfliktami portów.
 
 **Uwaga**: Jeśli numer portu zostanie zmieniony w firmware, aby uzyskać dostęp do panelu administracyjnego, musisz wpisać prawidłowy numer portu. Jeśli go nie pamiętasz, przywróć router do domyślnego numeru portu.
 
@@ -24,7 +24,7 @@ Pomaga zapobiegać skanowaniu i próbom włamania na domyślne porty oraz unika�
 
 - **Force HTTPS**: Po włączeniu dostęp do panelu administracyjnego będzie wymuszony przez bezpieczne połączenie HTTPS.
 
-- **Auto-Logout Time**: Domyślnie ustawione na 5 minut; automatycznie wylogowuje nieaktywne sesje administratora po upływie tego czasu. Możesz dostosować czas automatycznego wylogowania w zakresie od 1 minuty do 3 godzin.
+- **Auto-Logout Time**: Domyślnie ustawiony na 5 minut; automatycznie wylogowuje nieaktywne sesje administratora po upływie tego czasu ze względów bezpieczeństwa. Możesz dostosować czas automatycznego wylogowania w zakresie od 1 minuty do 3 godzin.
 
 ### LuCI
 

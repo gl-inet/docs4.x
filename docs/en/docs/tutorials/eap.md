@@ -4,7 +4,7 @@ Some GL.iNet routers support connecting to EAP (Extensible Authentication Protoc
 
 EAP is an authentication framework commonly used with **802.1X authentication** for **WPA2‑Enterprise / WPA3‑Enterprise** networks. A typical example is **eduroam**, a global Wi‑Fi roaming service for education and research that relies on 802.1X and EAP.
 
-This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi network: via Admin Panel and via LuCI.
+This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi network: via GL.iNet Web Admin Panel and via LuCI.
 
 ## Supported Models
 
@@ -46,7 +46,7 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
     - GL-MT1300 (Beryl)
     - GL-MT300N-V2 (Mango)
 
-## Connect via web Admin Panel
+## Connect via Web Admin Panel
 
 1. Log in to the web Admin Panel, go to **INTERNET** -> **Repeater** section, then click **Connect**.
 
@@ -77,6 +77,8 @@ This guide will introduce two ways to connect GL.iNet routers to an EAP Wi-Fi ne
 The GL.iNet web Admin Panel supports only a limited number of EAP types.
 
 If your target EAP network cannot be connected via the web Admin Panel, please try connecting via the LuCI interface.
+
+> Note: The following steps are for reference only, please refer to the actual LuCI page of your device.
 
 1. Log in to the web Admin Panel, go to **SYSTEM** -> **Advanced Settings**. Install LuCI and click **Go to LuCI**.
 

@@ -6,7 +6,7 @@ Nowa wersja AstroWarp jest zintegrowana z SDK routerów GL.iNet. Korzysta z prot
 
 Ta funkcja umożliwia płynny zdalny dostęp do sieci domowej. Urządzenia można bezpośrednio skonfigurować i sparować w webowym panelu administracyjnym za pomocą dynamicznego kodu dostępu, dzięki czemu bez rejestracji i logowania w kilka sekund zestawisz bezpieczne połączenie między routerem podróżnym a siecią domową.
 
-Starsza wersja AstroWarp, choć nadal widoczna w webowym panelu administracyjnym, opierała się na osobnej platformie AstroWarp do zestawiania zdalnych połączeń sieciowych. Dokumentację starszej wersji AstroWarp znajdziesz [tutaj](https://docs.astrowarp.net/){target="_blank"}.
+Starsza wersja AstroWarp, choć nadal widoczna w webowym panelu administracyjnym, opierała się na osobnej platformie AstroWarp do zestawiania zdalnych połączeń sieciowych. Kliknij [tutaj](https://docs.astrowarp.net/){target="_blank"}, aby wyświetlić dokumentację starszej wersji AstroWarp.
 
 **Uwaga:**
 

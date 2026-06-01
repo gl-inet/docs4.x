@@ -90,7 +90,7 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 - [Content Filter](content_filter.md)
 - [QoS (Quality of Service)](qos.md)
 - [SQM (Smart Queue Management)](sqm.md)
-- [Parental Control](parental_control.md)
+- [Control parental (v4.9)](parental_control_v4.9.md)
 
 ## Sistema
 

@@ -6,7 +6,7 @@ La nueva versión de AstroWarp está integrada en el SDK del router GL.iNet. Ado
 
 Esta función permite acceder de forma remota y sin interrupciones a su red doméstica. Puede configurarla y emparejar los dispositivos directamente mediante un código de acceso dinámico en el panel de administración web, estableciendo rápidamente una conexión segura entre su router de viaje y su red doméstica en solo unos segundos, sin necesidad de registrarse ni iniciar sesión.
 
-Aunque AstroWarp heredado sigue apareciendo en el panel de administración web, dependía de una plataforma AstroWarp independiente para establecer conexiones remotas de red. Consulte [este enlace](https://docs.astrowarp.net/){target="_blank"} para ver la documentación de AstroWarp heredado.
+Aunque AstroWarp heredado sigue apareciendo en el panel de administración web, dependía de una plataforma AstroWarp independiente para establecer conexiones remotas de red. Haga clic [aquí](https://docs.astrowarp.net/){target="_blank"} para consultar la documentación de AstroWarp heredado.
 
 **Nota:**
 

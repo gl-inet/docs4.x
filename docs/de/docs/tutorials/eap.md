@@ -74,6 +74,10 @@ In dieser Anleitung werden zwei Möglichkeiten beschrieben, wie Sie GL.iNet-Rout
 
 ## Verbindung über LuCI
 
+Das GL.iNet Web-Admin-Panel unterstützt nur eine begrenzte Anzahl von EAP-Typen.
+
+Wenn sich Ihr gewünschtes EAP-Netzwerk nicht über das Web-Admin-Panel verbinden lässt, versuchen Sie bitte die Verbindung über die LuCI-Oberfläche.
+
 > Hinweis: Die folgenden Schritte dienen nur als Referenz. Bitte beziehen Sie sich auf die tatsächliche LuCI-Seite Ihres Geräts.
 
 1. Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Advanced Settings**. Installieren Sie LuCI und klicken Sie auf **Go to LuCI**.

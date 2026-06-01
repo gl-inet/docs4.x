@@ -4,7 +4,7 @@ Niektóre routery GL.iNet obsługują łączenie z sieciami Wi-Fi EAP (Extensibl
 
 EAP to framework uwierzytelniania powszechnie używany z **uwierzytelnianiem 802.1X** w sieciach **WPA2‑Enterprise / WPA3‑Enterprise**. Typowym przykładem jest **eduroam** — globalna usługa roamingu Wi-Fi dla edukacji i badań, która opiera się na 802.1X oraz EAP.
 
-W tym przewodniku przedstawiamy dwa sposoby połączenia routerów GL.iNet z siecią Wi-Fi EAP: przez Panel Administracyjny oraz przez LuCI.
+W tym przewodniku przedstawiamy dwa sposoby połączenia routerów GL.iNet z siecią Wi-Fi EAP: przez webowy Panel Administracyjny GL.iNet oraz przez LuCI.
 
 ## Obsługiwane modele
 

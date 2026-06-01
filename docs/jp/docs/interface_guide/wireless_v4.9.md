@@ -1,8 +1,8 @@
 # ワイヤレス（ファームウェア v4.9）
 
-> Note: このガイドはファームウェア v4.9 以降に適用されます。以前のバージョンについては [こちら](wireless.md) を参照してください。
+> このガイドはファームウェア v4.9 以降に適用されます。以前のバージョンについては [こちら](wireless.md) をクリックしてください。
 
-Web Admin Panel にログインし、**WIRELESS** に移動します。
+Web Admin Panel の左側で、**WIRELESS** に移動します。
 
 Wireless ページでは、MLO Wi-Fi（対応モデルのみ）、Main Network、Guest Network、IoT Network など、各種 Wi-Fi ネットワークを設定できます。対応する Wi-Fi バンドはモデルによって異なります。
 

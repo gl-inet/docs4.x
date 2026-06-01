@@ -2,7 +2,7 @@
 
 Kontrola rodzicielska to sposób na zapewnienie dzieciom bezpieczeństwa w sieci poprzez blokowanie nieodpowiednich stron internetowych i ograniczanie czasu korzystania z urządzeń. Pomaga zapobiegać dostępowi do szkodliwych treści, zarządzać czasem ekranowym i dbać o odpowiedzialne korzystanie z Internetu.
 
-> Uwaga: Niektóre modele nie obsługują kontroli rodzicielskiej z powodu niewystarczającej ilości pamięci, np. Mango (GL-MT300N-V2) i Shadow (GL-AR300M series).
+**Uwaga**: Niektóre modele nie obsługują kontroli rodzicielskiej z powodu niewystarczającej ilości pamięci, np. Mango (GL-MT300N-V2) i Shadow (GL-AR300M series).
 
 Obejrzyj ten film lub wykonaj poniższe kroki, aby skonfigurować kontrolę rodzicielską na routerach GL.iNet.
 

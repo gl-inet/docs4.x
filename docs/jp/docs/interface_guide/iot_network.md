@@ -1,5 +1,7 @@
 # IoT Network
 
+> IoT Network 機能は、ファームウェア v4.9 で導入されました。
+
 Web Admin Panel の左側で、**NETWORK** -> **IoT Network** に移動します。
 
 このページでは、IoT デバイス専用の Wi-Fi ネットワークを作成できます。メインネットワークから分離されるため、互換性とセキュリティの向上に役立ちます。

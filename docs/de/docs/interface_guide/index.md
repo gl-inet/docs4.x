@@ -90,7 +90,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Inhaltsfilter](content_filter.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
-* [Kindersicherung](parental_control.md)
+* [Kindersicherung (v4.9)](parental_control_v4.9.md)
 
 ## System
 

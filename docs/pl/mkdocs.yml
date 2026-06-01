@@ -302,6 +302,7 @@ nav:
       - Dynamiczny DNS: interface_guide/ddns.md
       - Pamiec sieciowa: interface_guide/network_storage.md
       - AdGuard Home: interface_guide/adguardhome.md
+      - Kontrola rodzicielska: interface_guide/parental_control.md
       - Bark: interface_guide/bark.md
       - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
@@ -330,7 +331,7 @@ nav:
       - Filtr tresci: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md
       - SQM: interface_guide/sqm.md
-      - Kontrola rodzicielska: interface_guide/parental_control.md
+      - Kontrola rodzicielska (v4.9): interface_guide/parental_control_v4.9.md
     - System:
       - Przeglad: interface_guide/system_overview.md
       - Aktualizacja: interface_guide/upgrade.md

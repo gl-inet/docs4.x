@@ -6,7 +6,7 @@
 
 この機能により、自宅ネットワークへシームレスにリモートアクセスできます。Web Admin Panel からダイナミックアクセスコードを使ってデバイスを直接設定・ペアリングでき、登録やログインなしで、旅行用ルーターと自宅ネットワークの安全な接続を数秒で確立できます。
 
-従来の AstroWarp は Web Admin Panel 上に表示されていましたが、リモートネットワーク接続を確立するには独立した AstroWarp プラットフォームが必要でした。従来版 AstroWarp のドキュメントについては、[こちら](https://docs.astrowarp.net/){target="_blank"} を参照してください。
+従来の AstroWarp は Web Admin Panel 上に表示されていましたが、リモートネットワーク接続を確立するには独立した AstroWarp プラットフォームが必要でした。従来版 AstroWarp のドキュメントについては、[こちら](https://docs.astrowarp.net/){target="_blank"} をクリックしてください。
 
 **Note:**
 

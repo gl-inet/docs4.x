@@ -89,7 +89,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Filtr treści](content_filter.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
-* [Kontrola rodzicielska](parental_control.md)
+* [Kontrola rodzicielska (v4.9)](parental_control_v4.9.md)
 
 ## System
 

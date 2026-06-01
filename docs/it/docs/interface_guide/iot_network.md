@@ -1,5 +1,7 @@
 # Rete IoT
 
+> La funzione IoT Network è stata introdotta nel firmware v4.9.
+
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **IoT Network**.
 
 Questa pagina ti consente di creare una rete Wi-Fi dedicata ai dispositivi IoT. Isolata dalla rete principale, offre maggiore compatibilita' e una sicurezza migliorata.

@@ -90,7 +90,7 @@ hide:
 * [コンテンツフィルター](content_filter.md)
 * [QoS（Quality of Service）](qos.md)
 * [SQM（Smart Queue Management）](sqm.md)
-* [ペアレンタルコントロール](parental_control.md)
+* [ペアレンタルコントロール（v4.9）](parental_control_v4.9.md)
 
 ## システム
 

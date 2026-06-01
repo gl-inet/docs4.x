@@ -4,7 +4,7 @@
 
 EAP は、**802.1X authentication** を使用する **WPA2‑Enterprise / WPA3‑Enterprise** ネットワークで一般的に利用される認証フレームワークです。代表的な例として、802.1X と EAP に基づく教育・研究向けのグローバル Wi‑Fi ローミングサービス **eduroam** があります。
 
-このガイドでは、GL.iNet ルーターを EAP Wi-Fi ネットワークに接続する 2 つの方法を紹介します。1 つは Admin Panel、もう 1 つは LuCI を使用する方法です。
+このガイドでは、GL.iNet ルーターを EAP Wi-Fi ネットワークに接続する 2 つの方法を紹介します。1 つは GL.iNet Web Admin Panel、もう 1 つは LuCI を使用する方法です。
 
 ## 対応モデル
 

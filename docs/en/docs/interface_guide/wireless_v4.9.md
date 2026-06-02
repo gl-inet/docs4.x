@@ -1,6 +1,6 @@
 # Wireless (Firmware v4.9)
 
-> This guide applies to firmware v4.9 and later. For earlier versions, please click [here](wireless.md).
+> This guide applies to firmware v4.9 and above. For earlier versions, please click [here](wireless.md).
 
 On the left side of the web Admin Panel, go to **WIRELESS**.
 
@@ -56,7 +56,7 @@ Click **Add** to set up an MLO Wi-Fi network, then click **Apply**. Note that th
 - Wi-Fi Security: If the 6 GHz band is selected, WPA3-SAE is the only available option and recommended. It works best with most MLO-supported devices.
 - Enable Randomized BSSID: When the 6 GHz band is selected, the 6 GHz BSSID of the MLO Wi-Fi will be synchronized with the Main Wi-Fi.
 
-Once enabled, the page displays as follows.
+Once enabled, the page appears as shown below.
 
 ![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/mlo3.png){class="glboxshadow"}
 
@@ -90,7 +90,7 @@ Click **Add** to set up a Guest Wi-Fi network, then click **Apply**. Note that t
 
 ![guest2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/guest2.png){class="glboxshadow"}
 
-Once enabled, the page displays as follows.
+Once enabled, the page appears as shown below.
 
 ![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/guest3.png){class="glboxshadow"}
 
@@ -104,7 +104,7 @@ Click **Add** to set up an IoT Wi-Fi network, then click **Apply**. Note that th
 
 ![iot2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/iot2.png){class="glboxshadow"}
 
-Once enabled, the page displays as follows.
+Once enabled, the page appears as shown below.
 
 ![iot3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/iot3.png){class="glboxshadow"}
 

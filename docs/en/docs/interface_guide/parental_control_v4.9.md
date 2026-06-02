@@ -1,6 +1,6 @@
 # Parental Control (Firmware v4.9)
 
-> This guide applies to firmware v4.9 and later. For earlier versions, please click [here](parental_control.md).
+> This guide applies to firmware v4.9 and above. For earlier versions, please click [here](parental_control.md).
 
 On the left side of the web Admin Panel, go to **FLOW CONTROL** -> **Parental Control**.
 

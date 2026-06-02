@@ -1,5 +1,9 @@
 # Parental Control
 
+> This guide applies to firmware v4.8 and earlier. For newer versions, please click [here](parental_control_v4.9.md).
+
+On the left side of the web Admin Panel, go to **APPLICATIONS** -> **Parental Control**.
+
 Parental control is a way to keep children safe online by blocking inappropriate websites and limiting how long they use devices. It helps prevent access to harmful content, manage screen time, and ensure children use the internet responsibly.
 
 **Note**: Some models do not support Parental Control due to insufficient memory, such as Mango (GL-MT300N-V2) and Shadow (GL-AR300M series).
@@ -47,9 +51,7 @@ The local version is provided by GL.iNet. It is currently in beta and has no add
 
 ### Setup Steps
 
-Log in to the router's web Admin Panel and go to **APPLICATIONS** -> **Parental Control**. 
-
-For firmware ver.4.8.4 and later, navigate to **FLOW CONTROL** -> **Parental Control**.
+Log in to the router's web Admin Panel and go to **APPLICATIONS** -> **Parental Control**.
 
 Ensure the router time is accurate. If not, go to **SYSTEM** -> **Time Zone** to synchronize it first.
 

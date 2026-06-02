@@ -1,10 +1,10 @@
 # VPN Client Profile
 
-> This guide applies to firmware v4.9 and later. 
-
-Since firmware v4.9, the [OpenVPN Client](openvpn_client.md) and [WireGuard Client](wireguard_client.md) have been merged into a single **VPN Client Profile** page for more streamlined management. While the layout has been slightly adjusted, core functionality remains unchanged. You may still refer to the separate guides if needed.
+> This guide applies to firmware v4.9 and above. 
 
 On the left side of the web Admin Panel, go to **VPN** -> **VPN Client Profile**.
+
+Since firmware v4.9, the [OpenVPN Client](openvpn_client.md) and [WireGuard Client](wireguard_client.md) have been merged into a single **VPN Client Profile** page for more streamlined management. While the layout has been slightly adjusted, core functionality remains unchanged. You may still refer to the separate guides if needed.
 
 This page allows you to log in to some integrated VPN services and download their profiles easily for VPN connection, or manually upload your configuration files exported from other VPN provider's website. You may switch VPN protocols in the upper-right corner if needed.
 
@@ -59,6 +59,12 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
             ![azirevpn4](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn4.png){class="glboxshadow"}
 
             Now the VPN connection has been activated, and all clients connected to this router should use VPN for secured internet access.
+
+        3. (Optional) If you want the system to automatically cuts off all internet access for your local network when the VPN connection fails unexpectedly, preventing your real IP address and online data from being exposed and ensuring continuous privacy and security, go to **VPN Dashboard** to enable **Kill Switch**.
+
+            * To set up Kill Switch for each individual VPN tunnel, refer to [here](vpn_dashboard_v4.9.md#tunnel-options).
+            
+            * To set up Kill Switch for the global VPN connection (i.e., Enhanced Kill Switch), refer to [here](vpn_dashboard_v4.9.md#all-other-traffic).
 
     !!! note "Case 2. If you prefer to customize VPN policy instead, follow these steps."
     

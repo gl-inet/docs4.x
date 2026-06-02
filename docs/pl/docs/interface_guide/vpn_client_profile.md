@@ -2,9 +2,9 @@
 
 > Ten przewodnik dotyczy firmware v4.9 i nowszego.
 
-Od firmware v4.9 strony [OpenVPN Client](openvpn_client.md) i [WireGuard Client](wireguard_client.md) zostały połączone w jedną stronę **VPN Client Profile**, aby usprawnić zarządzanie. Układ został nieznacznie zmieniony, ale podstawowa funkcjonalność pozostaje bez zmian. W razie potrzeby możesz nadal korzystać z osobnych przewodników.
-
 Po lewej stronie webowego panelu administracyjnego przejdź do **VPN** -> **VPN Client Profile**.
+
+Od firmware v4.9 strony [OpenVPN Client](openvpn_client.md) i [WireGuard Client](wireguard_client.md) zostały połączone w jedną stronę **VPN Client Profile**, aby usprawnić zarządzanie. Układ został nieznacznie zmieniony, ale podstawowa funkcjonalność pozostaje bez zmian. W razie potrzeby możesz nadal korzystać z osobnych przewodników.
 
 Ta strona umożliwia logowanie do niektórych zintegrowanych usług VPN i łatwe pobieranie ich profili do połączeń VPN albo ręczne przesyłanie plików konfiguracyjnych wyeksportowanych ze strony innego dostawcy VPN. W razie potrzeby możesz przełączać protokoły VPN w prawym górnym rogu.
 
@@ -59,6 +59,12 @@ Weźmy [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} jako p
             ![azirevpn4](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn4.png){class="glboxshadow"}
 
             Teraz połączenie VPN jest aktywne, a wszyscy klienci podłączeni do tego routera powinni korzystać z VPN, aby uzyskać bezpieczny dostęp do Internetu.
+
+        3. (Opcjonalnie) Jeśli chcesz, aby system automatycznie odcinał cały dostęp do Internetu dla Twojej sieci lokalnej w przypadku nieoczekiwanego zerwania połączenia VPN, zapobiegając ujawnieniu prawdziwego adresu IP i danych online oraz zapewniając ciągłą prywatność i bezpieczeństwo, przejdź do **VPN Dashboard**, aby włączyć **Kill Switch**.
+
+            * Aby skonfigurować Kill Switch dla pojedynczego tunelu VPN, zapoznaj się z [tym](vpn_dashboard_v4.9.md#tunnel-options).
+            
+            * Aby skonfigurować Kill Switch dla globalnego połączenia VPN (czyli rozszerzonego Kill Switch), zapoznaj się z [tym](vpn_dashboard_v4.9.md#all-other-traffic).
 
     !!! note "Przypadek 2. Jeśli wolisz zamiast tego dostosować politykę VPN, wykonaj poniższe kroki."
 

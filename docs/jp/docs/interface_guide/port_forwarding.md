@@ -1,14 +1,12 @@
 # ポートフォワーディング
 
-このページはファームウェア v4.6 以降で利用できます。古いバージョンについては、[Firewall](firewall.md) を参照してください。
+> このガイドはファームウェア v4.6 以降を対象としています。古いバージョンについては、[Firewall](firewall.md) を参照してください。
 
----
-
-Web Admin Panel の左側で、**NETWORK** -> **Port Forwarding** に移動します。firmware v4.9 では **SECURITY** -> **Port Forwarding** に移動してください。
+Web Admin Panel の左側で、**NETWORK** -> **Port Forwarding**、または (ファームウェア v4.9 以降では) **SECURITY** -> **Port Forwarding** に移動します。
 
 このページでは、**DMZ** や **Port Forwarding** を含むファイアウォールルールを設定できます。
 
-注: ルーターでポートを開放する必要がある場合は、**SYSTEM** -> **Security** または **SECURITY** -> **Admin Access** に移動してください。
+注: ルーターでポートを開放する必要がある場合は、SYSTEM -> [Security](security.md)、または SECURITY -> [Admin Access](admin_access.md)（ファームウェア v4.9 以降）に移動してください。
 
 ## DMZ
 

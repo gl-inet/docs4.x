@@ -1,14 +1,12 @@
 # Przekierowanie portów
 
-Ta strona jest dostępna od wersji firmware v4.6. W przypadku wcześniejszych wersji zapoznaj się z sekcją [Zapora sieciowa](firewall.md).
+Ten przewodnik dotyczy firmware v4.6 i nowszych. W przypadku wcześniejszych wersji zapoznaj się z [Firewall](firewall.md).
 
----
-
-W lewym panelu bocznym panelu administracyjnego przejdź do **NETWORK** -> **Port Forwarding**. W firmware v4.9 przejdź do **SECURITY** -> **Port Forwarding**.
+W lewym panelu administracyjnym przejdź do **NETWORK** -> **Port Forwarding** lub **SECURITY** -> **Port Forwarding** (dla firmware v4.9 i nowszych).
 
 Ta strona umożliwia konfigurację reguł zapory sieciowej, w tym **DMZ** i **Port Forwarding**.
 
-Uwaga: Jeśli chcesz otworzyć porty na routerze, przejdź do **SYSTEM** -> **Security** lub **SECURITY** -> **Admin Access**.
+Uwaga: Aby otworzyć porty routera, przejdź do SYSTEM -> [Security](security.md) lub SECURITY -> [Admin Access](admin_access.md) (dla firmware v4.9 i nowszych).
 
 ## DMZ
 

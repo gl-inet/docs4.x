@@ -46,7 +46,7 @@ Siga los pasos que se indican a continuación para configurar el control parenta
 
     ![bedtime1](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/4.9/bedtime1.png){class="glboxshadow gl-90-desktop"}
 
-    Si desea configurar distintas horas de dormir para cada día de la semana, seleccione **Customize Days**, ajuste los horarios y luego haga clic en **Next**.
+    Si desea configurar distintas horas de dormir para cada día de la semana, seleccione **Customize Days** y establezca diferentes horas de dormir, luego haga clic en **Next**.
 
     ![bedtime2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/4.9/bedtime2.png){class="glboxshadow gl-90-desktop"}
 
@@ -80,11 +80,11 @@ Siga los pasos que se indican a continuación para configurar el control parenta
 
     ![action](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/4.9/action.png){class="glboxshadow"}
 
-    - **Modify**: Cambia los dispositivos seleccionados, el horario de descanso y las reglas del filtro de contenido.
+    - **Modify**: Cambie los dispositivos seleccionados, el horario de descanso y las reglas del filtro de contenido.
 
         ![action modify](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/4.9/action_modify.png){class="glboxshadow"}
 
-    - **Copy**: Crea una copia de una regla existente para no tener que volver a configurarla manualmente.
+    - **Copy**: Cree una copia de una regla existente para no tener que volver a configurarla manualmente.
 
         ![action copy](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/4.9/action_copy.png){class="glboxshadow"}
 

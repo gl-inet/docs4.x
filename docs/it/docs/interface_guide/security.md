@@ -1,6 +1,6 @@
 # Security
 
-Questa funzione e' disponibile dal firmware v4.5.
+> Questa pagina è stata introdotta nel firmware v4.5.
 
 Sul lato sinistro del pannello di amministrazione web, vai su **SYSTEM** -> **Security**.
 

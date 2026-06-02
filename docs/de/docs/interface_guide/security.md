@@ -1,14 +1,14 @@
 # Sicherheit
 
-Diese Funktion ist seit Firmware v4.5 verfügbar.
+> Diese Seite wurde mit Firmware v4.5 eingeführt.
 
-Gehen Sie in der Web-Adminoberfläche auf der linken Seite zu **SYSTEM** -> **Security**.
+Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Security**.
 
 Auf dieser Seite können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen.
 
 ## Admin-Passwort
 
-Hier können Sie das Anmeldepasswort der Web-Adminoberfläche ändern.
+Hier können Sie das Anmeldepasswort des Web-Admin-Panels ändern.
 
 ![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/admin_password.jpg){class="glboxshadow"}
 

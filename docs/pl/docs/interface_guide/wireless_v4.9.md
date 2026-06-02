@@ -52,9 +52,9 @@ Kliknij **Add**, aby skonfigurować sieć MLO Wi‑Fi, a następnie kliknij **Ap
 
 ![mlo2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/mlo2.png){class="glboxshadow"}
 
-- **Wi-Fi Band**: Wybierz co najmniej dwa pasma radiowe.
-- **Wi-Fi Security**: Jeśli wybrane jest pasmo 6 GHz, jedyną dostępną i zalecaną opcją jest WPA3-SAE. Działa najlepiej z większością urządzeń obsługujących MLO.
-- **Enable Randomized BSSID**: Jeśli wybrane jest pasmo 6 GHz, identyfikator BSSID 6 GHz dla MLO Wi‑Fi zostanie zsynchronizowany z główną siecią Wi‑Fi.
+- Wi-Fi Band: Wybierz co najmniej dwa pasma radiowe.
+- Wi-Fi Security: Jeśli wybrane jest pasmo 6 GHz, jedyną dostępną i zalecaną opcją jest WPA3-SAE. Działa najlepiej z większością urządzeń obsługujących MLO.
+- Enable Randomized BSSID: Jeśli wybrane jest pasmo 6 GHz, identyfikator BSSID 6 GHz dla MLO Wi‑Fi zostanie zsynchronizowany z główną siecią Wi‑Fi.
 
 Po włączeniu strona będzie wyglądać następująco.
 
@@ -62,7 +62,7 @@ Po włączeniu strona będzie wyglądać następująco.
 
 ## Sieć główna
 
-Sieć główna to podstawowa sieć Wi‑Fi, która domyślnie obsługuje jednoczesne nadawanie w różnych pasmach radiowych. Dla każdego pasma możesz skonfigurować osobne ustawienia, takie jak SSID Wi‑Fi, tryb zabezpieczeń, hasło, Randomized BSSID, moc TX, szerokość pasma i kanał.
+Sieć główna to podstawowa sieć Wi‑Fi, która obsługuje jednoczesne nadawanie w różnych pasmach radiowych, przy czym wszystkie są domyślnie włączone. Dla każdego pasma możesz skonfigurować osobne ustawienia, takie jak SSID Wi‑Fi, tryb zabezpieczeń, hasło, Randomized BSSID, moc TX, szerokość pasma i kanał.
 
 ![main](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/main.png){class="glboxshadow"}
 

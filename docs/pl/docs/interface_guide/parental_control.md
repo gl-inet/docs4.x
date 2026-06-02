@@ -1,4 +1,8 @@
-﻿# Kontrola rodzicielska
+# Kontrola rodzicielska
+
+> Ten przewodnik dotyczy firmware v4.8 i wcześniejszych. W przypadku nowszych wersji kliknij [tutaj](parental_control_v4.9.md).
+
+Po lewej stronie webowego panelu administracyjnego przejdź do **APPLICATIONS** -> **Parental Control**.
 
 Kontrola rodzicielska to sposób na zapewnienie dzieciom bezpieczeństwa w sieci poprzez blokowanie nieodpowiednich stron internetowych i ograniczanie czasu korzystania z urządzeń. Pomaga zapobiegać dostępowi do szkodliwych treści, zarządzać czasem ekranowym i dbać o odpowiedzialne korzystanie z Internetu.
 
@@ -48,8 +52,6 @@ Wersja lokalna jest dostarczana przez GL.iNet. Aktualnie jest w fazie beta i nie
 ### Kroki konfiguracji
 
 Zaloguj się do panelu administratora routera i przejdź do **APPLICATIONS** -> **Parental Control**.
-
-W oprogramowaniu w wersji 4.8.4 i nowszej przejdź do **FLOW CONTROL** -> **Parental Control**.
 
 Upewnij się, że czas routera jest dokładny. Jeśli nie, przejdź do **SYSTEM** -> **Time Zone**, aby go zsynchronizować.
 

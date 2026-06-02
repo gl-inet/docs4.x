@@ -1,6 +1,6 @@
 # Bezpieczeństwo
 
-Ta funkcja jest dostępna od wersji firmware v4.5.
+> Ta strona została wprowadzona w firmware v4.5.
 
 W lewym panelu bocznym panelu administracyjnego przejdź do **SYSTEM** -> **Security**.
 

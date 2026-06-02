@@ -1,14 +1,14 @@
 # Reenvío de puertos
 
-Esta página está disponible desde el firmware v4.6. Para versiones anteriores, consulte [Firewall](firewall.md).
+> Esta guía se aplica al firmware v4.6 y versiones posteriores. Para versiones anteriores, consulte [Firewall](firewall.md).
 
 ---
 
-En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **Port Forwarding**. En el firmware v4.9, vaya a **SECURITY** -> **Port Forwarding**.
+En el lado izquierdo del Panel de administración web, vaya a **NETWORK** -> **Port Forwarding**, o a **SECURITY** -> **Port Forwarding** (para firmware v4.9 y versiones posteriores).
 
 Esta página le permite configurar reglas de firewall, incluidas **DMZ** y **Port Forwarding**.
 
-Nota: Si necesita abrir puertos en su router, vaya a **SYSTEM** -> **Security**, o a **SECURITY** -> **Admin Access**.
+Nota: Para abrir puertos del router, vaya a SYSTEM -> [Security](security.md), o a SECURITY -> [Admin Access](admin_access.md) (para firmware v4.9 y versiones posteriores).
 
 ## DMZ
 
@@ -40,7 +40,7 @@ En la ventana emergente, añada una nueva regla de reenvío de puertos y haga cl
 
 - **Internal Zone:** Las opciones de la zona interna son `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server` y `WAN`.
 
-- **Internal IP:** La dirección IP que el router asigna al dispositivo al que se necesita acceder de forma remota. Si configura un único puerto en **External Port**, debe indicar aquí ese mismo puerto. Si configura un rango de puertos en **External Port**, debe indicar aquí el rango correspondiente.
+- **Internal IP:** La dirección IP que el router asigna al dispositivo al que se necesita acceder de forma remota. Si configura un único puerto en **External Port**, debe configurar aquí ese único puerto. Si configura un rango de puertos en **External Port**, debe configurar aquí el rango de puertos correspondiente.
 
 - **Internal Port:** El número de puerto interno del dispositivo. Puede introducir un número de puerto concreto. Déjelo en blanco si es el mismo que el puerto externo.
 

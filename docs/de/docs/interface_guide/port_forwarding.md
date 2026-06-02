@@ -1,14 +1,12 @@
-# Portweiterleitung
+# Port Forwarding
 
-Diese Seite ist seit Firmware v4.6 verfügbar. Für frühere Versionen lesen Sie bitte [Firewall](firewall.md).
+> Diese Anleitung gilt für Firmware v4.6 und höher. Für frühere Versionen lesen Sie bitte [Firewall](firewall.md).
 
----
+Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **Port Forwarding**, oder zu **SECURITY** -> **Port Forwarding** (für Firmware v4.9 und höher).
 
-Gehen Sie in der Web-Adminoberfläche auf der linken Seite zu **NETWORK** -> **Port Forwarding**. In Firmware v4.9 finden Sie dies unter **SECURITY** -> **Port Forwarding**.
+Auf dieser Seite können Sie Firewall-Regeln konfigurieren, darunter DMZ und Portweiterleitung.
 
-Auf dieser Seite können Sie Firewall-Regeln konfigurieren, darunter **DMZ** und **Port Forwarding**.
-
-Hinweis: Wenn Sie Ports auf Ihrem Router öffnen möchten, gehen Sie bitte zu **SYSTEM** -> **Security** oder zu **SECURITY** -> **Admin Access**.
+Hinweis: Um Router-Ports zu öffnen, navigieren Sie zu SYSTEM -> [Security](security.md), oder zu SECURITY -> [Admin Access](admin_access.md) (für Firmware v4.9 und höher).
 
 ## DMZ
 
@@ -32,7 +30,7 @@ Fügen Sie im Pop-up-Fenster eine neue Regel für die Portweiterleitung hinzu un
 
 ![add new port forwarding rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/port_forwarding_add2.png){class="glboxshadow"}
 
-- **Protocol:** Wählen Sie für diese Regel `TCP`, `UDP` oder `TCP and UDP`.
+- **Protocol:** Wählen Sie `TCP`, `UDP` oder `TCP and UDP` für diese Regel.
 
 - **External Zone:** Für die externe Zone stehen `WAN`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `LAN` und `Guest` zur Verfügung.
 

@@ -4,11 +4,11 @@ Esta página está disponible desde el firmware v4.6. Para versiones anteriores,
 
 ---
 
-En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **Port Forwarding**.
+En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **Port Forwarding**. En el firmware v4.9, vaya a **SECURITY** -> **Port Forwarding**.
 
-Esta página le permite configurar reglas de firewall como **DMZ** y **Port Forwarding**.
+Esta página le permite configurar reglas de firewall, incluidas **DMZ** y **Port Forwarding**.
 
-Para la configuración de **Open Ports on Router**, vaya a **SYSTEM** -> **Security**.
+Nota: Si necesita abrir puertos en su router, vaya a **SYSTEM** -> **Security**, o a **SECURITY** -> **Admin Access**.
 
 ## DMZ
 
@@ -32,21 +32,21 @@ En la ventana emergente, añada una nueva regla de reenvío de puertos y haga cl
 
 ![add new port forwarding rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/port_forwarding_add2.png){class="glboxshadow"}
 
-**Protocol:** El protocolo utilizado. Puede elegir TCP, UDP o ambos, TCP y UDP.
+- **Protocol:** Elija `TCP`, `UDP` o `TCP and UDP` para esta regla.
 
-**External Zone:** Las opciones de zona externa son `WAN`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `LAN`, `Guest`.
+- **External Zone:** Las opciones de la zona externa son `WAN`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `LAN` y `Guest`.
 
-**External Port:** Los números de los puertos externos. Puede introducir aquí un número de puerto concreto. El rango de puertos va de 1 a 65535. Puede establecer un único puerto o un rango uniendo el primer y el último puerto con el símbolo `-`, por ejemplo `501-510`.
+- **External Port:** Los números de los puertos externos. Puede introducir aquí un número de puerto concreto. El rango de puertos va de 1 a 65535. Puede configurar un único puerto o un rango uniendo el primero y el último con el símbolo `-`, por ejemplo `501-510`.
 
-**Internal Zone:** Las opciones de zona interna son `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `WAN`.
+- **Internal Zone:** Las opciones de la zona interna son `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server` y `WAN`.
 
-**Internal IP:** La dirección IP que el router asigna al dispositivo al que se necesita acceder de forma remota.
+- **Internal IP:** La dirección IP que el router asigna al dispositivo al que se necesita acceder de forma remota. Si configura un único puerto en **External Port**, debe indicar aquí ese mismo puerto. Si configura un rango de puertos en **External Port**, debe indicar aquí el rango correspondiente.
 
-**Internal Port:** El número de puerto interno del dispositivo. Puede introducir un número de puerto concreto. Déjelo en blanco si es el mismo que el puerto externo.
+- **Internal Port:** El número de puerto interno del dispositivo. Puede introducir un número de puerto concreto. Déjelo en blanco si es el mismo que el puerto externo.
 
-**Description:** Establezca un nombre o añada una descripción para la regla de reenvío de puertos, de forma opcional.
+- **Description:** Defina un nombre personalizado o añada una descripción para esta regla (opcional).
 
-**Enable:** Habilita o deshabilita la regla.
+- **Enable:** Activa o desactiva esta regla.
 
 ---
 

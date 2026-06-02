@@ -1,8 +1,8 @@
 # Sieć bezprzewodowa (Firmware v4.9)
 
-> Uwaga: Ten przewodnik dotyczy firmware v4.9 i nowszego. W przypadku wcześniejszych wersji zobacz [tutaj](wireless.md).
+> Ten przewodnik dotyczy firmware v4.9 i nowszego. W przypadku wcześniejszych wersji kliknij [tutaj](wireless.md).
 
-Zaloguj się do webowego panelu administracyjnego i przejdź do **WIRELESS**.
+Po lewej stronie webowego panelu administracyjnego przejdź do **WIRELESS**.
 
 Strona Wireless umożliwia konfigurację różnych sieci Wi‑Fi, w tym MLO Wi‑Fi (dostępne w wybranych modelach), sieci głównej, sieci gościnnej i sieci IoT. Obsługiwane pasma Wi‑Fi różnią się w zależności od modelu.
 

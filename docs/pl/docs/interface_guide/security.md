@@ -40,6 +40,8 @@ Pomaga zapobiegać skanowaniu i próbom włamania na domyślne porty oraz unika�
 
 ### LuCI
 
+> Uwaga: Zainstaluj LuCI w **Advanced Settings** przed skonfigurowaniem kontroli dostępu dla tego interfejsu.
+
 - **HTTP Port**: Domyślnie 8080; używany do niezaszyfrowanego dostępu HTTP do interfejsu LuCI.
 
 - **HTTPS Port**: Domyślnie 8443; używany do bezpiecznego dostępu HTTPS do interfejsu LuCI.
@@ -173,13 +175,13 @@ Aby otworzyć port, kliknij **Add**.
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_new_open_port.png){class="glboxshadow"}
 
-**Name:** Nazwa reguły nadawana przez użytkownika.
+- **Protocol:** Wybierz protokół spośród `TCP/UDP`, `TCP` i `UDP`.
 
-**Protocol:** Używany protokół. Możesz wybrać TCP, UDP albo jednocześnie TCP i UDP.
+- **Port:** Wpisz numer portu, który chcesz otworzyć.
 
-**Port:** Numer portu, który chcesz otworzyć.
+- **Description:** Dodaj opis do tej reguły (opcjonalnie).
 
-**Enable:** Włącza lub wyłącza regułę.
+- **Enable:** Włącz lub wyłącz tę regułę.
 
 ---
 

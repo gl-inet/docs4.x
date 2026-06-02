@@ -1,20 +1,17 @@
 {% extends "main.html" %}
 
 <!-- Render hero under tabs -->
-{% block tabs %} {{ super() }}
+{% block tabs %}
+  {{ super() }}
 
-<!-- Additional styles for landing page -->
-<style>
+  <!-- Additional styles for landing page -->
+  <style>
+
   /* Apply box shadow on smaller screens that don't display tabs */
   @media only screen and (max-width: 1220px) {
     .md-header {
-      box-shadow:
-        0 0 0.2rem rgba(0, 0, 0, 0.1),
-        0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
-      transition:
-        color 250ms,
-        background-color 250ms,
-        box-shadow 250ms;
+      box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+      transition: color 250ms,background-color 250ms,box-shadow 250ms;
     }
   }
 
@@ -40,13 +37,13 @@
   /* ======== taiwindcss begin =========== */
 
   /*
-! tailwindcss v3.1.3 | MIT License | https://tailwindcss.com
-*/
+  ! tailwindcss v3.1.3 | MIT License | https://tailwindcss.com
+  */
 
   /*
-1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
-2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
-*/
+  1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+  2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+  */
 
   *,
   ::before,
@@ -63,15 +60,15 @@
 
   ::before,
   ::after {
-    --tw-content: "";
+    --tw-content: '';
   }
 
   /*
-1. Use a consistent sensible line-height in all browsers.
-2. Prevent adjustments of font size after orientation changes in iOS.
-3. Use a more readable tab size.
-4. Use the user's configured `sans` font-family by default.
-*/
+  1. Use a consistent sensible line-height in all browsers.
+  2. Prevent adjustments of font size after orientation changes in iOS.
+  3. Use a more readable tab size.
+  4. Use the user's configured `sans` font-family by default.
+  */
 
   html {
     line-height: 1.5;
@@ -81,23 +78,16 @@
     -moz-tab-size: 4;
     /* 3 */
     -o-tab-size: 4;
-    tab-size: 4;
+       tab-size: 4;
     /* 3 */
-    font-family:
-      Roboto,
-      --apple-system,
-      BlinkMacSystemFont,
-      Segoe UI,
-      Helvetica Neue,
-      Arial,
-      sans-serif;
+    font-family: Roboto, --apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
     /* 4 */
   }
 
   /*
-1. Remove the margin in all browsers.
-2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
-*/
+  1. Remove the margin in all browsers.
+  2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+  */
 
   body {
     margin: 0;
@@ -107,10 +97,10 @@
   }
 
   /*
-1. Add the correct height in Firefox.
-2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
-3. Ensure horizontal rules are visible by default.
-*/
+  1. Add the correct height in Firefox.
+  2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+  3. Ensure horizontal rules are visible by default.
+  */
 
   hr {
     height: 0;
@@ -122,17 +112,17 @@
   }
 
   /*
-Add the correct text decoration in Chrome, Edge, and Safari.
-*/
+  Add the correct text decoration in Chrome, Edge, and Safari.
+  */
 
   abbr:where([title]) {
     -webkit-text-decoration: underline dotted;
-    text-decoration: underline dotted;
+            text-decoration: underline dotted;
   }
 
   /*
-Remove the default font size and weight for headings.
-*/
+  Remove the default font size and weight for headings.
+  */
 
   h1,
   h2,
@@ -145,8 +135,8 @@ Remove the default font size and weight for headings.
   }
 
   /*
-Reset links to optimize for opt-in styling instead of opt-out.
-*/
+  Reset links to optimize for opt-in styling instead of opt-out.
+  */
 
   a {
     color: inherit;
@@ -154,8 +144,8 @@ Reset links to optimize for opt-in styling instead of opt-out.
   }
 
   /*
-Add the correct font weight in Edge and Safari.
-*/
+  Add the correct font weight in Edge and Safari.
+  */
 
   b,
   strong {
@@ -163,33 +153,31 @@ Add the correct font weight in Edge and Safari.
   }
 
   /*
-1. Use the user's configured `mono` font family by default.
-2. Correct the odd `em` font sizing in all browsers.
-*/
+  1. Use the user's configured `mono` font family by default.
+  2. Correct the odd `em` font sizing in all browsers.
+  */
 
   code,
   kbd,
   samp,
   pre {
-    font-family:
-      ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-      "Courier New", monospace;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     /* 1 */
     font-size: 1em;
     /* 2 */
   }
 
   /*
-Add the correct font size in all browsers.
-*/
+  Add the correct font size in all browsers.
+  */
 
   small {
     font-size: 80%;
   }
 
   /*
-Prevent `sub` and `sup` elements from affecting the line height in all browsers.
-*/
+  Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+  */
 
   sub,
   sup {
@@ -208,10 +196,10 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
   }
 
   /*
-1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
-2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
-3. Remove gaps between table borders by default.
-*/
+  1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+  2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+  3. Remove gaps between table borders by default.
+  */
 
   table {
     text-indent: 0;
@@ -223,10 +211,10 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
   }
 
   /*
-1. Change the font styles in all browsers.
-2. Remove the margin in Firefox and Safari.
-3. Remove default padding in all browsers.
-*/
+  1. Change the font styles in all browsers.
+  2. Remove the margin in Firefox and Safari.
+  3. Remove default padding in all browsers.
+  */
 
   button,
   input,
@@ -250,8 +238,8 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
   }
 
   /*
-Remove the inheritance of text transform in Edge and Firefox.
-*/
+  Remove the inheritance of text transform in Edge and Firefox.
+  */
 
   button,
   select {
@@ -259,14 +247,14 @@ Remove the inheritance of text transform in Edge and Firefox.
   }
 
   /*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Remove default button styles.
-*/
+  1. Correct the inability to style clickable types in iOS and Safari.
+  2. Remove default button styles.
+  */
 
   button,
-  [type="button"],
-  [type="reset"],
-  [type="submit"] {
+  [type='button'],
+  [type='reset'],
+  [type='submit'] {
     -webkit-appearance: button;
     /* 1 */
     background-color: transparent;
@@ -276,32 +264,32 @@ Remove the inheritance of text transform in Edge and Firefox.
   }
 
   /*
-Use the modern Firefox focus style for all focusable elements.
-*/
+  Use the modern Firefox focus style for all focusable elements.
+  */
 
   :-moz-focusring {
     outline: auto;
   }
 
   /*
-Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
-*/
+  Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+  */
 
   :-moz-ui-invalid {
     box-shadow: none;
   }
 
   /*
-Add the correct vertical alignment in Chrome and Firefox.
-*/
+  Add the correct vertical alignment in Chrome and Firefox.
+  */
 
   progress {
     vertical-align: baseline;
   }
 
   /*
-Correct the cursor style of increment and decrement buttons in Safari.
-*/
+  Correct the cursor style of increment and decrement buttons in Safari.
+  */
 
   ::-webkit-inner-spin-button,
   ::-webkit-outer-spin-button {
@@ -309,11 +297,11 @@ Correct the cursor style of increment and decrement buttons in Safari.
   }
 
   /*
-1. Correct the odd appearance in Chrome and Safari.
-2. Correct the outline style in Safari.
-*/
+  1. Correct the odd appearance in Chrome and Safari.
+  2. Correct the outline style in Safari.
+  */
 
-  [type="search"] {
+  [type='search'] {
     -webkit-appearance: textfield;
     /* 1 */
     outline-offset: -2px;
@@ -321,17 +309,17 @@ Correct the cursor style of increment and decrement buttons in Safari.
   }
 
   /*
-Remove the inner padding in Chrome and Safari on macOS.
-*/
+  Remove the inner padding in Chrome and Safari on macOS.
+  */
 
   ::-webkit-search-decoration {
     -webkit-appearance: none;
   }
 
   /*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Change font properties to `inherit` in Safari.
-*/
+  1. Correct the inability to style clickable types in iOS and Safari.
+  2. Change font properties to `inherit` in Safari.
+  */
 
   ::-webkit-file-upload-button {
     -webkit-appearance: button;
@@ -341,16 +329,16 @@ Remove the inner padding in Chrome and Safari on macOS.
   }
 
   /*
-Add the correct display in Chrome and Safari.
-*/
+  Add the correct display in Chrome and Safari.
+  */
 
   summary {
     display: list-item;
   }
 
   /*
-Removes the default spacing and border for appropriate elements.
-*/
+  Removes the default spacing and border for appropriate elements.
+  */
 
   blockquote,
   dl,
@@ -386,28 +374,26 @@ Removes the default spacing and border for appropriate elements.
   }
 
   /*
-Prevent resizing textareas horizontally by default.
-*/
+  Prevent resizing textareas horizontally by default.
+  */
 
   textarea {
     resize: vertical;
   }
 
   /*
-1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
-2. Set the default placeholder color to the user's configured gray 400 color.
-*/
+  1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+  2. Set the default placeholder color to the user's configured gray 400 color.
+  */
 
-  input::-moz-placeholder,
-  textarea::-moz-placeholder {
+  input::-moz-placeholder, textarea::-moz-placeholder {
     opacity: 1;
     /* 1 */
     color: #9ca3af;
     /* 2 */
   }
 
-  input:-ms-input-placeholder,
-  textarea:-ms-input-placeholder {
+  input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     opacity: 1;
     /* 1 */
     color: #9ca3af;
@@ -423,8 +409,8 @@ Prevent resizing textareas horizontally by default.
   }
 
   /*
-Set the default cursor for buttons.
-*/
+  Set the default cursor for buttons.
+  */
 
   button,
   [role="button"] {
@@ -432,18 +418,18 @@ Set the default cursor for buttons.
   }
 
   /*
-Make sure disabled buttons don't get the pointer cursor.
-*/
+  Make sure disabled buttons don't get the pointer cursor.
+  */
 
   :disabled {
     cursor: default;
   }
 
   /*
-1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
-2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
-   This can trigger a poorly considered lint error in some tools but is included by design.
-*/
+  1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+  2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+     This can trigger a poorly considered lint error in some tools but is included by design.
+  */
 
   img,
   svg,
@@ -460,8 +446,8 @@ Make sure disabled buttons don't get the pointer cursor.
   }
 
   /*
-Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
-*/
+  Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+  */
 
   img,
   video {
@@ -469,9 +455,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
     height: auto;
   }
 
-  *,
-  ::before,
-  ::after {
+  *, ::before, ::after {
     --tw-border-spacing-x: 0;
     --tw-border-spacing-y: 0;
     --tw-translate-x: 0;
@@ -736,11 +720,11 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   }
 
   .h-5 {
-    height: 0.9rem;
+    height: 0.90rem;
   }
 
   .h-16 {
-    height: 2.9rem;
+    height: 2.90rem;
   }
 
   .w-full {
@@ -1044,369 +1028,183 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
   }
 
   /* ======== taiwindcss end =========== */
-</style>
 
-<div class="container mx-auto text-gl-black text-base px-3">
-  <!--  Welcome  -->
-  <section class="max-w-xl py-16 text-center mx-auto">
-    <h2 class="text-3xl font-bold mb-4">
-      Bienvenue dans la documentation des routeurs GL.iNet
-    </h2>
-    <p class="mb-6">
-      La documentation des routeurs GL.iNet offre un acces rapide et simple aux
-      guides les plus complets sur les routeurs GL.iNet. Des manuels
-      d'utilisation detailles et des tutoriels sont disponibles pour tous les
-      utilisateurs de GL.iNet, des debutants aux plus avances.
-    </p>
+  </style>
 
-    <a
-      type="button"
-      class="text-white font-bold bg-gl-cyan py-3 px-8 rounded-lg hover:bg-gl-black"
-      href="faq/first_time_setup/"
-      >Commencer</a
-    >
-  </section>
+  <div class="container mx-auto text-gl-black text-base px-3">
+      <!--  Welcome  -->
+      <section class="max-w-xl py-16 text-center mx-auto">
+          <h2 class="text-3xl font-bold mb-4">Bienvenue dans la documentation des routeurs GL.iNet</h2>
+          <p class="mb-6">
+              La documentation des routeurs GL.iNet offre un accès rapide et simple aux guides les plus complets sur les routeurs GL.iNet. Des manuels d'utilisation détaillés et des tutoriels sont disponibles pour tous les utilisateurs de GL.iNet, des débutants aux plus avancés.
+          </p>
 
-  <!--  Find your docs  -->
-  <section class="container py-16 text-center">
-    <h2 class="text-3xl font-bold mb-4">Trouvez votre documentation</h2>
-    <p class="mb-8">
-      Recherchez par categorie ou par sujet pour trouver la documentation dont
-      vous avez besoin
-    </p>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-3 lg:gap-8">
-      <!-- box 1 -->
-      <a
-        href="faq/first_time_setup/"
-        class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100"
-      >
-        <div
-          class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20"
-        >
-          <img
-            src="https://static.gl-inet.com/docs/router/en/4/home/icon_1.png"
-            alt=""
-            class="w-10 h-auto"
-          />
-        </div>
+          <a type="button" class="text-white font-bold bg-gl-cyan py-3 px-8 rounded-lg hover:bg-gl-black" href="faq/first_time_setup/">Commencer</a>
+      </section>
 
-        <div class="text-left">
-          <h3 class="font-bold text-lg mb-2">Premiers pas</h3>
-          <p>Guide rapide pour configurer vos appareils</p>
-        </div>
-      </a>
-      <!-- box 2 -->
-      <a
-        href="https://dl.gl-inet.com"
-        target="_blank"
-        class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100"
-      >
-        <div
-          class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20"
-        >
-          <img
-            src="https://static.gl-inet.com/docs/router/en/4/home/icon_2.png"
-            alt=""
-            class="w-10 h-auto"
-          />
-        </div>
+      <!--  Find your docs  -->
+      <section class="container py-16 text-center">
+          <h2 class="text-3xl font-bold mb-4">Trouvez votre documentation</h2>
+          <p class="mb-8">Recherchez par catégorie ou par sujet pour trouver la documentation dont vous avez besoin</p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-3 lg:gap-8">
+              <!-- box 1 -->
+              <a href="faq/first_time_setup/" class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100">
+                  <div class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20">
+                      <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_1.png" alt="" class="w-10 h-auto" />
+                  </div>
 
-        <div class="text-left">
-          <h3 class="font-bold text-lg mb-2">Firmware</h3>
-          <p>Gardez vos appareils a jour</p>
-        </div>
-      </a>
-      <!-- box 3 -->
-      <a
-        href="faq/"
-        class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100"
-      >
-        <div
-          class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20"
-        >
-          <img
-            src="https://static.gl-inet.com/docs/router/en/4/home/icon_3.png"
-            alt=""
-            class="w-10 h-auto"
-          />
-        </div>
+                  <div class="text-left">
+                      <h3 class="font-bold text-lg mb-2">Premiers pas</h3>
+                      <p>Guide rapide pour configurer vos appareils</p>
+                  </div>
+              </a>
+              <!-- box 2 -->
+              <a href="https://dl.gl-inet.com" target="_blank" class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100">
+                  <div class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20">
+                      <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_2.png" alt="" class="w-10 h-auto" />
+                  </div>
 
-        <div class="text-left">
-          <h3 class="font-bold text-lg mb-2">FAQ</h3>
-          <p>Reponses completes aux problemes courants</p>
-        </div>
-      </a>
-      <!-- box 4 -->
-      <a
-        href="tutorials/"
-        class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100"
-      >
-        <div
-          class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20"
-        >
-          <img
-            src="https://static.gl-inet.com/docs/router/en/4/home/icon_4.png"
-            alt=""
-            class="w-10 h-auto"
-          />
-        </div>
+                  <div class="text-left">
+                      <h3 class="font-bold text-lg mb-2">Firmware</h3>
+                      <p>Gardez vos appareils à jour</p>
+                  </div>
+              </a>
+              <!-- box 3 -->
+              <a href="faq/" class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100">
+                  <div class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20">
+                      <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_3.png" alt="" class="w-10 h-auto" />
+                  </div>
 
-        <div class="text-left">
-          <h3 class="font-bold text-lg mb-2">Tutoriels</h3>
-          <p>Guides detailles pour les problemes complexes</p>
-        </div>
-      </a>
-      <!-- box 5 -->
-      <a
-        href="interface_guide/"
-        class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100"
-      >
-        <div
-          class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20"
-        >
-          <img
-            src="https://static.gl-inet.com/docs/router/en/4/home/icon_5.png"
-            alt=""
-            class="w-10 h-auto"
-          />
-        </div>
+                  <div class="text-left">
+                      <h3 class="font-bold text-lg mb-2">FAQ</h3>
+                      <p>Réponses rapides aux problèmes courants</p>
+                  </div>
+              </a>
+              <!-- box 4 -->
+              <a href="tutorials/" class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100">
+                  <div class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20">
+                      <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_4.png" alt="" class="w-10 h-auto" />
+                  </div>
 
-        <div class="text-left">
-          <h3 class="font-bold text-lg mb-2">Guide de l'interface</h3>
-          <p>Presentation des fonctions de l'interface</p>
-        </div>
-      </a>
-      <!-- box 6 -->
-      <a
-        href="interface_guide/cloud/"
-        class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100"
-      >
-        <div
-          class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20"
-        >
-          <img
-            src="https://static.gl-inet.com/docs/router/en/4/home/icon_6.png"
-            alt=""
-            class="w-10 h-auto"
-          />
-        </div>
+                  <div class="text-left">
+                      <h3 class="font-bold text-lg mb-2">Tutoriels</h3>
+                      <p>Guide détaillé des fonctionnalités avancées</p>
+                  </div>
+              </a>
+              <!-- box 5 -->
+              <a href="interface_guide/" class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100">
+                  <div class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20">
+                      <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_5.png" alt="" class="w-10 h-auto" />
+                  </div>
 
-        <div class="text-left">
-          <h3 class="font-bold text-lg mb-2">Cloud</h3>
-          <p>Accedez a vos appareils a distance</p>
-        </div>
-      </a>
-      <!-- box 7 -->
-      <a
-        href="https://github.com/gl-inet/openwrt"
-        target="_blank"
-        class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100"
-      >
-        <div
-          class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20"
-        >
-          <img
-            src="https://static.gl-inet.com/docs/router/en/4/home/icon_8.png"
-            alt=""
-            class="w-10 h-auto"
-          />
-        </div>
+                  <div class="text-left">
+                      <h3 class="font-bold text-lg mb-2">Guide de l'interface</h3>
+                      <p>Présentation des fonctions de l'interface</p>
+                  </div>
+              </a>
+              <!-- box 6 -->
+              <a href="interface_guide/cloud/" class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100">
+                  <div class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20">
+                      <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_9.png" alt="" class="w-10 h-auto" />
+                  </div>
 
-        <div class="text-left">
-          <h3 class="font-bold text-lg mb-2">Code source</h3>
-          <p>Retrouvez notre code source sur GitHub</p>
-        </div>
-      </a>
-      <!-- box 8 -->
-      <a
-        href="https://docs.gl-inet.com/iot/"
-        target="_blank"
-        class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100"
-      >
-        <div
-          class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20"
-        >
-          <img
-            src="https://static.gl-inet.com/docs/router/en/4/home/icon_9.png"
-            alt=""
-            class="w-10 h-auto"
-          />
-        </div>
+                  <div class="text-left">
+                      <h3 class="font-bold text-lg mb-2">Cloud</h3>
+                      <p>Accédez à vos appareils à distance via Cloud</p>
+                  </div>
+              </a>
+              <!-- box 7 -->
+              <a href="https://github.com/gl-inet/openwrt" target="_blank" class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100">
+                  <div class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20">
+                      <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_8.png" alt="" class="w-10 h-auto" />
+                  </div>
 
-        <div class="text-left">
-          <h3 class="font-bold text-lg mb-2">Appareils IoT</h3>
-          <p>Apprenez a les configurer et a les utiliser</p>
-        </div>
-      </a>
-    </div>
-  </section>
+                  <div class="text-left">
+                      <h3 class="font-bold text-lg mb-2">Code source</h3>
+                      <p>Retrouvez notre code source sur GitHub</p>
+                  </div>
+              </a>
+              <!-- box 8 -->
+              <a href="https://docs.gl-inet.com/iot/" target="_blank" class="gl-purple-light flex flex-nowrap items-center bg-gl-purple-light px-8 py-8 hover:bg-gray-100">
+              <div class="rounded-full bg-white flex items-center justify-around p-2 mr-6 w-20 h-20">
+                  <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_6.png" alt="" class="w-10 h-auto" />
+              </div>
 
-  <!--  Q&A  -->
-  <section class="container py-16 text-center">
-    <h2 class="text-3xl font-bold mb-4">Questions frequentes</h2>
-    <p class="mb-6">
-      Trouvez rapidement des reponses aux questions populaires posees dans la
-      communaute GL.iNet
-    </p>
-    <div class="max-w-2xl mx-auto">
-      <a
-        href="faq/debrick/"
-        class="flex justify-between items-center max-w-xl mx-auto border border-gray-300 rounded-lg py-3 px-4 mb-3 text-gl-cyan hover:bg-gray-100 hover:text-gl-black"
-      >
-        <span>Comment utiliser U-Boot pour remettre en etat vos routeurs ?</span
-        ><img
-          class="w-5 h-5"
-          src="https://static.gl-inet.com/docs/router/en/4/home/arrow-right.png"
-          alt="Voir la reponse"
-        />
-      </a>
-      <a
-        href="faq/connect_to_a_hotspot_with_captive_portal/"
-        class="flex justify-between items-center max-w-xl mx-auto border border-gray-300 rounded-lg py-3 px-4 mb-3 text-gl-cyan hover:bg-gray-100 hover:text-gl-black"
-      >
-        <span>Comment se connecter a un hotspot avec portail captif ?</span
-        ><img
-          class="w-5 h-5"
-          src="https://static.gl-inet.com/docs/router/en/4/home/arrow-right.png"
-          alt="Voir la reponse"
-        />
-      </a>
-      <a
-        href="faq/remote_access_web_admin_panel/"
-        class="flex justify-between items-center max-w-xl mx-auto border border-gray-300 rounded-lg py-3 px-4 mb-3 text-gl-cyan hover:bg-gray-100 hover:text-gl-black"
-      >
-        <span
-          >Comment acceder a distance au panneau d'administration web du routeur
-          ?</span
-        ><img
-          class="w-5 h-5"
-          src="https://static.gl-inet.com/docs/router/en/4/home/arrow-right.png"
-          alt="Voir la reponse"
-        />
-      </a>
-      <a
-        href="interface_guide/openvpn_client/"
-        class="flex justify-between items-center max-w-xl mx-auto border border-gray-300 rounded-lg py-3 px-4 mb-3 text-gl-cyan hover:bg-gray-100 hover:text-gl-black"
-      >
-        <span>Comment configurer OpenVPN ?</span
-        ><img
-          class="w-5 h-5"
-          src="https://static.gl-inet.com/docs/router/en/4/home/arrow-right.png"
-          alt="Voir la reponse"
-        />
-      </a>
-      <a
-        href="interface_guide/wireguard_client/"
-        class="flex justify-between items-center max-w-xl mx-auto border border-gray-300 rounded-lg py-3 px-4 mb-3 text-gl-cyan hover:bg-gray-100 hover:text-gl-black"
-      >
-        <span>Comment configurer WireGuard ?</span
-        ><img
-          class="w-5 h-5"
-          src="https://static.gl-inet.com/docs/router/en/4/home/arrow-right.png"
-          alt="Voir la reponse"
-        />
-      </a>
-    </div>
-    <a
-      type="button"
-      class="text-white font-bold bg-gl-cyan mt-8 py-3 px-8 rounded-lg hover:bg-gl-black"
-      href="faq/"
-      >En savoir plus</a
-    >
-  </section>
+              <div class="text-left">
+                  <h3 class="font-bold text-lg mb-2">Appareils IoT</h3>
+                  <p>Apprenez à les configurer et à les utiliser</p>
+              </div>
+              </a>
+          </div>
+      </section>
 
-  <!--  Did you find  -->
-  <section class="container py-16 text-center">
-    <h2 class="text-3xl font-bold mb-4">
-      Avez-vous trouve ce que vous cherchiez ?
-    </h2>
-    <div
-      class="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
-    >
-      <!-- box 1-->
-      <a
-        href="https://forum.gl-inet.com/"
-        target="_blank"
-        class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100"
-      >
-        <img
-          src="https://static.gl-inet.com/docs/router/en/4/home/icon_d1.png"
-          alt=""
-          class="w-16 h-auto mr-4 md:mr-0"
-        />
-        <p class="font-bold">Poser une question a la communaute GL.iNet</p>
-      </a>
-      <!-- box 2-->
-      <a
-        href="mailto:support@glinet.biz"
-        class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100"
-      >
-        <img
-          src="https://static.gl-inet.com/docs/router/en/4/home/icon_d2.png"
-          alt=""
-          class="w-16 h-auto mr-4 md:mr-0"
-        />
-        <p class="font-bold">Contacter le support technique</p>
-      </a>
-      <!-- box 3-->
-      <a
-        href="video_library/tutorials/"
-        class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100"
-      >
-        <img
-          src="https://static.gl-inet.com/docs/router/en/4/home/icon_d3.png"
-          alt=""
-          class="w-16 h-auto mr-4 md:mr-0"
-        />
-        <p class="font-bold">Voir les tutoriels video</p>
-      </a>
-      <!-- box 4-->
-      <a
-        href="https://www.gl-inet.com/blog/"
-        target="_blank"
-        class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100"
-      >
-        <img
-          src="https://static.gl-inet.com/docs/router/en/4/home/icon_d4.png"
-          alt=""
-          class="w-16 h-auto mr-4 md:mr-0"
-        />
-        <p class="font-bold">Rechercher des articles de blog</p>
-      </a>
-      <!-- box 5-->
-      <a
-        href="https://www.gl-inet.com/psti"
-        class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100"
-      >
-        <img
-          src="https://static.gl-inet.com/docs/router/en/4/home/icon_d5.png"
-          alt=""
-          class="w-16 h-auto mr-4 md:mr-0"
-        />
-        <p class="font-bold">Declaration PSTI</p>
-      </a>
-      <!-- box 6-->
-      <a
-        href="https://www.gl-inet.com/support/firmware-versions/"
-        target="_blank"
-        class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100"
-      >
-        <img
-          src="https://static.gl-inet.com/docs/router/en/4/home/icon_d6.png"
-          alt=""
-          class="w-16 h-auto mr-4 md:mr-0"
-        />
-        <p class="font-bold">
-          Mises a jour du firmware et des versions OpenWrt
-        </p>
-      </a>
-    </div>
-  </section>
-</div>
+      <!--  Q&A  -->
+      <section class="container py-16 text-center">
+          <h2 class="text-3xl font-bold mb-4">Questions fréquentes</h2>
+          <p class="mb-6">Trouvez rapidement des réponses aux questions populaires posées dans la communauté GL.iNet</p>
+          <div class="max-w-2xl mx-auto">
+              <a href="faq/debrick/" class="flex justify-between items-center max-w-xl mx-auto border border-gray-300 rounded-lg py-3 px-4 mb-3 text-gl-cyan hover:bg-gray-100 hover:text-gl-black">
+                  <span>Comment utiliser U-Boot pour remettre en état vos routeurs ?</span><img class="w-5 h-5" src="https://static.gl-inet.com/docs/router/en/4/home/arrow-right.png" alt="Voir la réponse" />
+              </a>
+              <a href="faq/connect_to_a_hotspot_with_captive_portal/" class="flex justify-between items-center max-w-xl mx-auto border border-gray-300 rounded-lg py-3 px-4 mb-3 text-gl-cyan hover:bg-gray-100 hover:text-gl-black">
+                  <span>Comment se connecter à un hotspot avec portail captif ?</span><img class="w-5 h-5" src="https://static.gl-inet.com/docs/router/en/4/home/arrow-right.png" alt="Voir la réponse" />
+              </a>
+              <a href="faq/remote_access_web_admin_panel/" class="flex justify-between items-center max-w-xl mx-auto border border-gray-300 rounded-lg py-3 px-4 mb-3 text-gl-cyan hover:bg-gray-100 hover:text-gl-black">
+                  <span>Comment accéder à distance au panneau d'administration web du routeur ?</span><img class="w-5 h-5" src="https://static.gl-inet.com/docs/router/en/4/home/arrow-right.png" alt="Voir la réponse" />
+              </a>
+              <a href="interface_guide/openvpn_client/" class="flex justify-between items-center max-w-xl mx-auto border border-gray-300 rounded-lg py-3 px-4 mb-3 text-gl-cyan hover:bg-gray-100 hover:text-gl-black">
+                  <span>Comment configurer OpenVPN ?</span><img class="w-5 h-5" src="https://static.gl-inet.com/docs/router/en/4/home/arrow-right.png" alt="Voir la réponse" />
+              </a>
+              <a href="interface_guide/wireguard_client/" class="flex justify-between items-center max-w-xl mx-auto border border-gray-300 rounded-lg py-3 px-4 mb-3 text-gl-cyan hover:bg-gray-100 hover:text-gl-black">
+                  <span>Comment configurer WireGuard ?</span><img class="w-5 h-5" src="https://static.gl-inet.com/docs/router/en/4/home/arrow-right.png" alt="Voir la réponse" />
+              </a>
+          </div>
+          <a type="button" class="text-white font-bold bg-gl-cyan mt-8 py-3 px-8 rounded-lg hover:bg-gl-black" href="faq/">En savoir plus</a>
+      </section>
+
+      <!--  Did you find  -->
+      <section class="container py-16 text-center">
+          <h2 class="text-3xl font-bold mb-4">Avez-vous trouvé ce que vous cherchiez ?</h2>
+          <div class="max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <!-- box 1-->
+              <a href="https://forum.gl-inet.com/" target="_blank" class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100">
+                  <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_d1.png" alt="" class="w-16 h-auto mr-4 md:mr-0" />
+                  <p class="font-bold">Poser une question à la communauté GL.iNet</p>
+              </a>
+              <!-- box 2-->
+              <a href="mailto:support@glinet.biz" class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100">
+                  <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_d2.png" alt="" class="w-16 h-auto mr-4 md:mr-0" />
+                  <p class="font-bold">Contacter le support technique</p>
+              </a>
+              <!-- box 3-->
+              <a href="video_library/tutorials/" class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100">
+                  <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_d3.png" alt="" class="w-16 h-auto mr-4 md:mr-0" />
+                  <p class="font-bold">Regarder les tutoriels vidéo</p>
+              </a>
+              <!-- box 4-->
+              <a href="https://www.gl-inet.com/blog/" target="_blank" class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100">
+                  <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_d4.png" alt="" class="w-16 h-auto mr-4 md:mr-0" />
+                  <p class="font-bold">Rechercher des articles de blog</p>
+              </a>
+              <!-- box 5-->
+              <a href="https://www.gl-inet.com/psti" class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100">
+                  <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_d5.png" alt="" class="w-16 h-auto mr-4 md:mr-0" />
+                  <p class="font-bold">Déclaration PSTI</p>
+              </a>
+              <!-- box 6-->
+              <a href="https://www.gl-inet.com/support/firmware-versions/" target="_blank" class="text-left md:text-center flex flex-row md:flex-col items-center justify-items-start border border-gray-300 rounded-lg py-4 px-3 w-full md:w-auto hover:bg-gray-100">
+                  <img src="https://static.gl-inet.com/docs/router/en/4/home/icon_d6.png" alt="" class="w-16 h-auto mr-4 md:mr-0" />
+                  <p class="font-bold">Mises à jour du firmware et des versions OpenWrt</p>
+              </a>
+          </div>
+      </section>
+  </div>
 {% endblock %}
 
 <!-- Content -->
 {% block content %}{% endblock %}
 
 <!-- Application footer -->
-{% block footer %} {{ super() }} {% endblock %}
+{% block footer %}
+  {{ super() }}
+{% endblock %}

@@ -40,6 +40,8 @@ Il permet d'éviter les tentatives de scan et d'intrusion sur les ports par déf
 
 ### LuCI
 
+> Remarque : installez LuCI dans **Advanced Settings** avant de configurer le contrôle d'accès correspondant.
+
 - **HTTP Port** : 8080 par défaut, pour l'accès HTTP non chiffré à l'interface LuCI.
 
 - **HTTPS Port** : 8443 par défaut, pour l'accès HTTPS sécurisé à l'interface LuCI.
@@ -163,9 +165,23 @@ Après activation de l'accès à distance, il est possible d'autoriser uniquemen
 
 ## Ports ouverts sur le routeur
 
-Cette section affiche les ports actuellement ouverts sur le routeur et vous permet d'en ouvrir ou fermer selon vos besoins.
+Les services du routeur, comme le Web et le FTP, nécessitent que leurs ports respectifs soient ouverts sur le routeur pour être accessibles publiquement.
 
-![open_ports](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/open_ports.png){class="glboxshadow"}
+Pour ouvrir un port, cliquez sur **Add**.
+
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/open_ports_on_router.png){class="glboxshadow"}
+
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_new_open_port.png){class="glboxshadow"}
+
+- **Protocol:** Sélectionnez un protocole parmi `TCP/UDP`, `TCP` et `UDP`.
+
+- **Port:** Saisissez le numéro du port que vous voulez ouvrir.
+
+- **Description:** Ajoutez une description à cette règle (facultatif).
+
+- **Enable:** Activez ou désactivez cette règle.
+
+---
 
 ---
 

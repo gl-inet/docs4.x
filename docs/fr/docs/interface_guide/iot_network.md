@@ -1,6 +1,8 @@
 # Réseau IoT
 
-Dans le panneau d'administration web, accédez à **NETWORK** -> **IoT Network**. 
+> La fonction IoT Network a été introduite dans le firmware v4.9.
+
+Sur la gauche du panneau d'administration web, accédez à **NETWORK** -> **IoT Network**. 
 
 Cette page vous permet de créer un réseau Wi‑Fi dédié aux appareils IoT. Isolé du réseau principal, il offre une meilleure compatibilité et une sécurité renforcée.
 

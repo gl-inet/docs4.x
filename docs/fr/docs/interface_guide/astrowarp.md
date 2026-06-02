@@ -6,13 +6,12 @@ La nouvelle version d’AstroWarp est intégrée au SDK des routeurs GL.iNet. El
 
 Cette fonctionnalité permet un accès à distance fluide à votre réseau domestique. Vous pouvez configurer et appairer directement les appareils via un code d’accès dynamique dans le panneau d’administration web, afin d’établir rapidement une connexion sécurisée entre votre routeur de voyage et votre réseau domestique en quelques secondes, sans inscription ni connexion.
 
-L’ancienne version d’AstroWarp, bien que visible dans le panneau d’administration web, reposait sur une plateforme AstroWarp autonome pour établir des connexions réseau à distance. Consultez [ce lien](https://docs.astrowarp.net/){target="_blank"} pour la documentation de l’ancienne version d’AstroWarp.
+L’ancienne version d’AstroWarp, bien que visible dans le panneau d’administration web, reposait sur une plateforme AstroWarp autonome pour établir des connexions réseau à distance. Cliquez [ici](https://docs.astrowarp.net/){target="_blank"} pour consulter la documentation de l’ancienne version d’AstroWarp.
 
 **Remarque** :
 
 1. Il n’est pas recommandé d’utiliser AstroWarp en même temps que les fonctionnalités suivantes, car cela peut provoquer des conflits de routage : GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
 2. Lorsque AstroWarp est activé, la fonction **Network Mode** ne peut pas être utilisée.
-
 
 ## Modèles pris en charge
 

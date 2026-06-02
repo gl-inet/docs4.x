@@ -59,8 +59,8 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Netzwerkspeicher](network_storage.md)
 * [Kindersicherung](parental_control.md)
 * [Bark](bark.md)
-* [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
 * [Tor](tor.md) - zum Schutz der Privatsphäre.
 * [eSIM-Verwaltung](esim_management.md)
 
@@ -90,7 +90,14 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Inhaltsfilter](content_filter.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
-* [Kindersicherung](parental_control.md)
+* [Kindersicherung (v4.9)](parental_control_v4.9.md)
+
+## Sicherheit
+
+* [Portweiterleitung](port_forwarding.md)
+* [ACL (Access Control List)](acl.md)
+* [Admin-Zugriff](admin_access.md)
+* [NAT-Modus](nat_settings.md)
 
 ## System
 

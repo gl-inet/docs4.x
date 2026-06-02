@@ -1,8 +1,8 @@
 # WLAN (Firmware v4.9)
 
-> Hinweis: Diese Anleitung gilt für Firmware v4.9 und höher. Für frühere Versionen lesen Sie bitte [hier](wireless.md) weiter.
+> Diese Anleitung gilt für Firmware v4.9 und höher. Für frühere Versionen klicken Sie bitte [hier](wireless.md).
 
-Melden Sie sich am Web-Admin-Panel an und gehen Sie zu **WIRELESS**.
+Gehen Sie auf der linken Seite des Web-Admin-Panels zu **WIRELESS**.
 
 Auf der Wireless-Seite können Sie verschiedene Wi-Fi-Netzwerke konfigurieren, darunter MLO Wi-Fi (bei ausgewählten Modellen verfügbar), Main Network, Guest Network und IoT Network. Die unterstützten Wi-Fi-Bänder variieren je nach Modell.
 

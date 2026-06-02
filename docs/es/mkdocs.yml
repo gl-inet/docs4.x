@@ -3,7 +3,7 @@ repo_url: https://github.com/gl-inet/docs4.x
 edit_uri: ""
 
 site_name: Documentación de routers GL.iNet 4
-site_description: Documentación de routers GL.iNet
+site_description: Documentación de productos de routers GL.iNet
 site_author: GL.iNet
 site_url: https://docs.gl-inet.com/router/es/4/
 site_dir: site
@@ -44,9 +44,10 @@ plugins:
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
+        'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
- 
+
 extra:
   social:
     - icon: fontawesome/solid/globe
@@ -143,6 +144,7 @@ nav:
     - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
     - GL-MT300N-V2 (Mango): user_guide/gl-mt300n-v2/index.md
     - GL-AR300M (Shadow): user_guide/gl-ar300m/index.md
+    - SIMPoYo 4G uFi: user_guide/simpoyo-4g-ufi/index.md
     - GL-M2: user_guide/gl-m2/index.md
     - GL-S200: user_guide/gl-s200/index.md
     - GL-S20: user_guide/gl-s20/index.md
@@ -269,7 +271,7 @@ nav:
       - Activar o recargar tarjetas SIM de T-Mobile: tutorials/how_to_activate_top_up_sim_cards.md
       - Cambiar el tipo de NAT para juegos: tutorials/how_to_change_the_nat_type_on_gaming.md
       - Obtener el registro de la app móvil: tutorials/how_to_retrieve_the_mobile_app_log.md
-      - Configurar reglas de filtrado de dominios e IP para VPN: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+      - Configurar reglas de filtrado de dominios e IP: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
       - Soporte técnico mediante GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Guía de la interfaz:
     - Información general: interface_guide/index.md
@@ -305,13 +307,13 @@ nav:
       - AdGuard Home: interface_guide/adguardhome.md
       - Control parental: interface_guide/parental_control.md
       - Bark: interface_guide/bark.md
-      - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
+      - ZeroTier: interface_guide/zerotier.md
       - Tor: interface_guide/tor.md
       - Gestión de eSIM: interface_guide/esim_management.md
     - Red:
       - Firewall: interface_guide/firewall.md
-      - Reenvio de puertos: interface_guide/port_forwarding.md
+      - Reenvío de puertos: interface_guide/port_forwarding.md
       - Multi-WAN: interface_guide/multi-wan.md
       - LAN: interface_guide/lan.md
       - Red de invitados: interface_guide/guest_network.md
@@ -332,7 +334,12 @@ nav:
       - Filtro de contenido: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md
       - SQM: interface_guide/sqm.md
-      - Control parental: interface_guide/parental_control.md
+      - Control parental (v4.9): interface_guide/parental_control_v4.9.md
+    - Seguridad:
+      - Port Forwarding: interface_guide/port_forwarding.md
+      - ACL: interface_guide/acl.md
+      - Acceso de administrador: interface_guide/admin_access.md
+      - Modo NAT: interface_guide/nat_settings.md
     - Sistema:
       - Información general: interface_guide/system_overview.md
       - Actualización: interface_guide/upgrade.md

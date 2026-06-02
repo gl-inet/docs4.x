@@ -57,9 +57,10 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [DDNS](ddns.md) - aby rozwiązać problemy związane z dynamicznymi adresami IP.
 * [AdGuard Home](adguardhome.md)
 * [Pamięć sieciowa](network_storage.md)
+* [Kontrola rodzicielska](parental_control.md)
 * [Bark](bark.md)
-* [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
 * [Tor](tor.md) - aby chronić prywatność użytkownika.
 * [Zarządzanie eSIM](esim_management.md)
 
@@ -89,7 +90,14 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Filtr treści](content_filter.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
-* [Kontrola rodzicielska](parental_control.md)
+* [Kontrola rodzicielska (v4.9)](parental_control_v4.9.md)
+
+## Bezpieczeństwo
+
+* [Przekierowanie portów](port_forwarding.md)
+* [ACL (lista kontroli dostępu)](acl.md)
+* [Dostęp administratora](admin_access.md)
+* [Tryb NAT](nat_settings.md)
 
 ## System
 

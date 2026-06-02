@@ -6,7 +6,7 @@ Das neue AstroWarp ist in das GL.iNet Router SDK integriert. Es verwendet das Am
 
 Diese Funktion ermöglicht nahtlosen Fernzugriff auf Ihr Heimnetzwerk. Sie können Geräte direkt im Web-Admin-Panel über einen dynamischen Zugriffscode einrichten und koppeln, sodass in nur wenigen Sekunden eine sichere Verbindung zwischen Ihrem Reiserouter und Ihrem Heimnetzwerk hergestellt wird – ganz ohne Registrierung oder Anmeldung.
 
-Das ältere AstroWarp war zwar im Web-Admin-Panel sichtbar, nutzte jedoch eine eigenständige AstroWarp-Plattform, um Remote-Netzwerkverbindungen herzustellen. Die Dokumentation zum älteren AstroWarp finden Sie [hier](https://docs.astrowarp.net/){target="_blank"}.
+Das ältere AstroWarp war zwar im Web-Admin-Panel sichtbar, nutzte jedoch eine eigenständige AstroWarp-Plattform, um Remote-Netzwerkverbindungen herzustellen. Klicken Sie [hier](https://docs.astrowarp.net/){target="_blank"}, um die Dokumentation zum älteren AstroWarp aufzurufen.
 
 **Hinweis:**
 
@@ -49,6 +49,7 @@ Das ältere AstroWarp war zwar im Web-Admin-Panel sichtbar, nutzte jedoch eine e
     - GL-XE300 (Puli)
     - GL-MT300N-V2 (Mango)
     - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
 

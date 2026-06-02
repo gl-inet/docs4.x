@@ -59,8 +59,8 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Network Storage](network_storage.md)
 * [Parental Control](parental_control.md)
 * [Bark](bark.md)
-* [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
 * [Tor](tor.md) - per proteggere la privacy personale.
 * [Gestione eSIM](esim_management.md)
 
@@ -90,7 +90,14 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Content Filter](content_filter.md)
 * [QoS (Quality of Service)](qos.md)
 * [SQM (Smart Queue Management)](sqm.md)
-* [Parental Control](parental_control.md)
+* [Controllo genitori (v4.9)](parental_control_v4.9.md)
+
+## Sicurezza
+
+* [Port Forwarding](port_forwarding.md)
+* [ACL (lista di controllo accessi)](acl.md)
+* [Accesso amministratore](admin_access.md)
+* [Modalita' NAT](nat_settings.md)
 
 ## Sistema
 

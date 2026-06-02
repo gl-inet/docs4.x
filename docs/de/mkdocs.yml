@@ -3,7 +3,7 @@ repo_url: https://github.com/gl-inet/docs4.x
 edit_uri: ""
 
 site_name: GL.iNet Router-Dokumentation 4
-site_description: Dokumentation für GL.iNet-Routerprodukte
+site_description: Dokumentation für GL.iNet-Routerproduktionen
 site_author: GL.iNet
 site_url: https://docs.gl-inet.com/router/de/4/
 site_dir: site
@@ -144,6 +144,7 @@ nav:
     - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
     - GL-MT300N-V2 (Mango): user_guide/gl-mt300n-v2/index.md
     - GL-AR300M (Shadow): user_guide/gl-ar300m/index.md
+    - SIMPoYo 4G uFi: user_guide/simpoyo-4g-ufi/index.md
     - GL-M2: user_guide/gl-m2/index.md
     - GL-S200: user_guide/gl-s200/index.md
     - GL-S20: user_guide/gl-s20/index.md
@@ -250,7 +251,6 @@ nav:
     - eSIM:
       - eSIM-Physikkarte mit GL.iNet-Routern verwenden: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - eSIM-Physikkarte mit Android-Geräten verwenden: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
-      - SIMPoYo uFi verwenden: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
       - Site-to-Site: tutorials/goodcloud_site_to_site.md
       - Über GoodCloud auf LuCI zugreifen: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
@@ -307,8 +307,8 @@ nav:
       - AdGuard Home: interface_guide/adguardhome.md
       - Kindersicherung: interface_guide/parental_control.md
       - Bark: interface_guide/bark.md
-      - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
+      - ZeroTier: interface_guide/zerotier.md
       - Tor: interface_guide/tor.md
       - eSIM-Verwaltung: interface_guide/esim_management.md
     - Network:
@@ -329,12 +329,17 @@ nav:
       - Netzwerkbeschleunigung: interface_guide/network_acceleration.md
       - NAT-Einstellungen: interface_guide/nat_settings.md
     - Verkehrssteuerung:
-      - DPI-Lizenz: interface_guide/dpi_engine.md
+      - DPI-Engine: interface_guide/dpi_engine.md
       - Datenstatistiken: interface_guide/data_statistics.md
       - Inhaltsfilter: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md
       - SQM: interface_guide/sqm.md
-      - Kindersicherung: interface_guide/parental_control.md
+      - Kindersicherung (v4.9): interface_guide/parental_control_v4.9.md
+    - Sicherheit:
+      - Portweiterleitung: interface_guide/port_forwarding.md
+      - ACL: interface_guide/acl.md
+      - Admin-Zugriff: interface_guide/admin_access.md
+      - NAT-Modus: interface_guide/nat_settings.md
     - System:
       - Übersicht: interface_guide/system_overview.md
       - Upgrade: interface_guide/upgrade.md

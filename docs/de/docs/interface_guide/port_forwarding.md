@@ -4,11 +4,11 @@ Diese Seite ist seit Firmware v4.6 verfügbar. Für frühere Versionen lesen Sie
 
 ---
 
-Gehen Sie in der Web-Adminoberfläche auf der linken Seite zu **NETWORK** -> **Port Forwarding**.
+Gehen Sie in der Web-Adminoberfläche auf der linken Seite zu **NETWORK** -> **Port Forwarding**. In Firmware v4.9 finden Sie dies unter **SECURITY** -> **Port Forwarding**.
 
-Auf dieser Seite können Sie Firewall-Regeln wie **DMZ** und **Port Forwarding** festlegen.
+Auf dieser Seite können Sie Firewall-Regeln konfigurieren, darunter **DMZ** und **Port Forwarding**.
 
-Für die Einstellungen von **Open Ports on Router** gehen Sie bitte zu SYSTEM -> Security.
+Hinweis: Wenn Sie Ports auf Ihrem Router öffnen möchten, gehen Sie bitte zu **SYSTEM** -> **Security** oder zu **SECURITY** -> **Admin Access**.
 
 ## DMZ
 
@@ -32,21 +32,21 @@ Fügen Sie im Pop-up-Fenster eine neue Regel für die Portweiterleitung hinzu un
 
 ![add new port forwarding rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/port_forwarding_add2.png){class="glboxshadow"}
 
-**Protocol:** Das verwendete Protokoll. Sie können TCP, UDP oder sowohl TCP als auch UDP wählen.
+- **Protocol:** Wählen Sie für diese Regel `TCP`, `UDP` oder `TCP and UDP`.
 
-**External Zone:** Die Optionen für die externe Zone sind `WAN`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `LAN`, `Guest`.
+- **External Zone:** Für die externe Zone stehen `WAN`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `LAN` und `Guest` zur Verfügung.
 
-**External Port:** Die Nummern der externen Ports. Sie können hier eine bestimmte Portnummer eingeben. Der Portbereich reicht von 1 bis 65535. Sie können einen einzelnen Port festlegen oder einen Portbereich angeben, indem Sie die erste und die letzte Portnummer mit dem Symbol `-` verbinden (z. B. 501-510).
+- **External Port:** Die Nummern der externen Ports. Sie können hier eine bestimmte Portnummer eingeben. Der Portbereich reicht von 1 bis 65535. Sie können einen einzelnen Port festlegen oder einen Portbereich angeben, indem Sie die erste und die letzte Portnummer mit dem Symbol `-` verbinden, z. B. `501-510`.
 
-**Internal Zone:** Die Optionen für die interne Zone sind `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `WAN`.
+- **Internal Zone:** Für die interne Zone stehen `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server` und `WAN` zur Verfügung.
 
-**Internal IP:** Die vom Router dem Gerät zugewiesene IP-Adresse, auf das per Fernzugriff zugegriffen werden soll. Wenn Sie unter **External Port** einen einzelnen Port festlegen, sollten Sie hier den einzelnen Port angeben. Wenn Sie unter **External Port** einen Portbereich festlegen, sollten Sie hier den entsprechenden Portbereich angeben.
+- **Internal IP:** Die vom Router dem Gerät zugewiesene IP-Adresse, auf das per Fernzugriff zugegriffen werden soll. Wenn Sie unter **External Port** einen einzelnen Port festlegen, sollten Sie hier den einzelnen Port angeben. Wenn Sie unter **External Port** einen Portbereich festlegen, sollten Sie hier den entsprechenden Portbereich angeben.
 
-**Internal Port:** Die interne Portnummer des Geräts. Sie können eine bestimmte Portnummer eingeben. Lassen Sie das Feld leer, wenn sie mit dem externen Port identisch ist.
+- **Internal Port:** Die interne Portnummer des Geräts. Sie können eine bestimmte Portnummer eingeben. Lassen Sie das Feld leer, wenn sie mit dem externen Port identisch ist.
 
-**Description:** Legen Sie einen Namen fest oder fügen Sie eine Beschreibung für die Regel der Portweiterleitung hinzu (optional).
+- **Description:** Legen Sie einen benutzerdefinierten Namen fest oder fügen Sie eine Beschreibung für diese Regel hinzu (optional).
 
-**Enable:** Aktivieren oder deaktivieren Sie die Regel.
+- **Enable:** Aktivieren oder deaktivieren Sie diese Regel.
 
 ---
 

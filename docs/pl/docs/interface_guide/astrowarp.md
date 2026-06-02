@@ -6,7 +6,7 @@ Nowa wersja AstroWarp jest zintegrowana z SDK routerów GL.iNet. Korzysta z prot
 
 Ta funkcja umożliwia płynny zdalny dostęp do sieci domowej. Urządzenia można bezpośrednio skonfigurować i sparować w webowym panelu administracyjnym za pomocą dynamicznego kodu dostępu, dzięki czemu bez rejestracji i logowania w kilka sekund zestawisz bezpieczne połączenie między routerem podróżnym a siecią domową.
 
-Starsza wersja AstroWarp, choć nadal widoczna w webowym panelu administracyjnym, opierała się na osobnej platformie AstroWarp do zestawiania zdalnych połączeń sieciowych. Dokumentację starszej wersji AstroWarp znajdziesz [tutaj](https://docs.astrowarp.net/){target="_blank"}.
+Starsza wersja AstroWarp, choć nadal widoczna w webowym panelu administracyjnym, opierała się na osobnej platformie AstroWarp do zestawiania zdalnych połączeń sieciowych. Kliknij [tutaj](https://docs.astrowarp.net/){target="_blank"}, aby wyświetlić dokumentację starszej wersji AstroWarp.
 
 **Uwaga:**
 
@@ -127,7 +127,7 @@ Flint 3 będzie pełnił rolę routera domowego, a Slate 7 — routera podróżn
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
 
-## Zmiana planu
+## Uaktualnienie planu
 
 Każdy router GL.iNet otrzymuje **10 GB darmowych danych miesięcznie** na potrzeby sieci AstroWarp. Urządzenia w sieci AstroWarp korzystają z transferu danych routera domowego, aby uzyskać dostęp do Internetu. 
 

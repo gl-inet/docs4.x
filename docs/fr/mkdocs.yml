@@ -47,7 +47,7 @@ plugins:
         'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
- 
+
 extra:
   social:
     - icon: fontawesome/solid/globe
@@ -144,6 +144,7 @@ nav:
     - GL-SFT1200 (Opal): user_guide/gl-sft1200/index.md
     - GL-MT300N-V2 (Mango): user_guide/gl-mt300n-v2/index.md
     - GL-AR300M (Shadow): user_guide/gl-ar300m/index.md
+    - SIMPoYo 4G uFi: user_guide/simpoyo-4g-ufi/index.md
     - GL-M2: user_guide/gl-m2/index.md
     - GL-S200: user_guide/gl-s200/index.md
     - GL-S20: user_guide/gl-s20/index.md
@@ -250,7 +251,6 @@ nav:
     - eSIM:
       - Utiliser une carte eSIM physique avec les routeurs GL.iNet: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Utiliser une carte eSIM physique avec les appareils Android: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md
-      - Comment utiliser SIMPoYo uFi: tutorials/how_to_use_simpoyo_ufi.md
     - GoodCloud:
       - Site a site: tutorials/goodcloud_site_to_site.md
       - Acceder a LuCI via GoodCloud: tutorials/how_to_access_the_luci_interface_via_goodcloud.md
@@ -271,7 +271,7 @@ nav:
       - Activer ou recharger des cartes SIM T-Mobile: tutorials/how_to_activate_top_up_sim_cards.md
       - Changer le type de NAT pour les jeux: tutorials/how_to_change_the_nat_type_on_gaming.md
       - Recuperer le journal de l'application mobile: tutorials/how_to_retrieve_the_mobile_app_log.md
-      - Configurer les regles de filtrage de domaine et d'IP pour le VPN: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+      - Configurer les règles de filtrage de domaine et d'IP: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
       - Support technique via GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Guide de l'interface:
     - Apercu: interface_guide/index.md
@@ -307,8 +307,8 @@ nav:
       - AdGuard Home: interface_guide/adguardhome.md
       - Controle parental: interface_guide/parental_control.md
       - Bark: interface_guide/bark.md
-      - ZeroTier: interface_guide/zerotier.md
       - Tailscale: interface_guide/tailscale.md
+      - ZeroTier: interface_guide/zerotier.md
       - Tor: interface_guide/tor.md
       - Gestion eSIM: interface_guide/esim_management.md
     - Reseau:
@@ -329,12 +329,17 @@ nav:
       - Acceleration reseau: interface_guide/network_acceleration.md
       - Parametres NAT: interface_guide/nat_settings.md
     - Controle du flux:
-      - Licence DPI: interface_guide/dpi_engine.md
+      - Moteur DPI: interface_guide/dpi_engine.md
       - Statistiques des donnees: interface_guide/data_statistics.md
       - Filtre de contenu: interface_guide/content_filter.md
       - QoS: interface_guide/qos.md
       - SQM: interface_guide/sqm.md
-      - Controle parental: interface_guide/parental_control.md
+      - Controle parental (v4.9): interface_guide/parental_control_v4.9.md
+    - Securite:
+      - Redirection de port: interface_guide/port_forwarding.md
+      - ACL: interface_guide/acl.md
+      - Acces administrateur: interface_guide/admin_access.md
+      - Mode NAT: interface_guide/nat_settings.md
     - Systeme:
       - Apercu: interface_guide/system_overview.md
       - Mise a jour: interface_guide/upgrade.md

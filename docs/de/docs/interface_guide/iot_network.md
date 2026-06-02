@@ -1,5 +1,7 @@
 # IoT-Netzwerk
 
+> Die Funktion IoT-Netzwerk wurde mit Firmware v4.9 eingeführt.
+
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **IoT Network**.
 
 Diese Seite ermöglicht es Ihnen, ein dediziertes Wi-Fi-Netzwerk für IoT-Geräte zu erstellen. Es ist vom primären Netzwerk getrennt und sorgt für bessere Kompatibilität sowie höhere Sicherheit.

@@ -90,7 +90,11 @@ jobs:
           git add docs/de docs/es docs/fr docs/it docs/jp docs/pl .translation-cache.json
           if [ -n "$(git diff --cached --name-only)" ]; then
             git commit -m "chore(i18n): auto-translate from English"
-            git push
+            for i in 1 2 3; do
+              git pull --rebase origin master && git push && break
+              echo "Push attempt $i failed, retrying..."
+              sleep 5
+            done
             echo "Translated changes pushed"
           else
             echo "No translation changes"

@@ -40,6 +40,8 @@ Sie kann Scan- und Eindringversuche auf dem Standardport verhindern und Netzwerk
 
 ### LuCI
 
+> Hinweis: Bitte installieren Sie LuCI unter **Erweiterte Einstellungen**, bevor Sie die Zugriffskontrolle dafür konfigurieren.
+
 - **HTTP Port**: Standardmäßig 8080; für unverschlüsselten HTTP-Zugriff auf die LuCI-Oberfläche.
 
 - **HTTPS Port**: Standardmäßig 8443; für sicheren HTTPS-Zugriff auf die LuCI-Oberfläche.
@@ -173,13 +175,13 @@ Um einen Port zu öffnen, klicken Sie auf **Add**.
 
 ![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_new_open_port.png){class="glboxshadow"}
 
-**Name:** Der Name der Regel, der vom Benutzer festgelegt werden kann.
+- **Protocol:** Wählen Sie ein Protokoll aus `TCP/UDP`, `TCP` und `UDP`.
 
-**Protocol:** Das verwendete Protokoll. Sie können TCP, UDP oder sowohl TCP als auch UDP wählen.
+- **Port:** Geben Sie die Portnummer ein, die Sie öffnen möchten.
 
-**Port:** Die Portnummer, die Sie öffnen möchten.
+- **Description:** Fügen Sie dieser Regel eine Beschreibung hinzu (optional).
 
-**Enable:** Aktivieren oder deaktivieren Sie die Regel.
+- **Enable:** Aktivieren oder deaktivieren Sie diese Regel.
 
 ---
 

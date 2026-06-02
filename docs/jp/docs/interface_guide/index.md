@@ -59,8 +59,8 @@ hide:
 * [ネットワークストレージ](network_storage.md)
 * [ペアレンタルコントロール](parental_control.md)
 * [Bark](bark.md)
-* [ZeroTier](zerotier.md)
 * [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
 * [Tor](tor.md) - 個人のプライバシーを保護します。
 * [eSIM管理](esim_management.md)
 
@@ -90,7 +90,14 @@ hide:
 * [コンテンツフィルター](content_filter.md)
 * [QoS（Quality of Service）](qos.md)
 * [SQM（Smart Queue Management）](sqm.md)
-* [ペアレンタルコントロール](parental_control.md)
+* [ペアレンタルコントロール（v4.9）](parental_control_v4.9.md)
+
+## セキュリティ
+
+* [ポートフォワーディング](port_forwarding.md)
+* [ACL（アクセス制御リスト）](acl.md)
+* [管理者アクセス](admin_access.md)
+* [NATモード](nat_settings.md)
 
 ## システム
 

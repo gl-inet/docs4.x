@@ -1,8 +1,8 @@
 # Sans fil (firmware v4.9)
 
-> Remarque : ce guide s'applique au firmware v4.9 et aux versions ultérieures. Pour les versions antérieures, veuillez consulter [cette page](wireless.md).
+> Ce guide s'applique au firmware v4.9 et aux versions ultérieures. Pour les versions antérieures, veuillez cliquer [ici](wireless.md).
 
-Connectez-vous au panneau d'administration web et accédez à **WIRELESS**.
+Dans le panneau d'administration web, accédez à **WIRELESS**.
 
 La page Wireless vous permet de configurer différents réseaux Wi‑Fi, notamment le Wi‑Fi MLO (disponible sur certains modèles), le réseau principal, le réseau invité et le réseau IoT. Les bandes Wi‑Fi prises en charge varient selon le modèle.
 

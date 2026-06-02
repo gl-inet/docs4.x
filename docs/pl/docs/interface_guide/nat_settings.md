@@ -2,7 +2,7 @@
 
 Funkcja dostępna od wersji v4.5.16.
 
-W lewym panelu administratora przejdź do **NETWORK** -> **NAT Settings**.
+W lewym panelu administratora przejdź do **NETWORK** -> **NAT Settings** (w firmware v4.9 i nowszym nazwa została zmieniona na **NAT Mode**).
 
 Ta strona umożliwia włączenie **Full Cone NAT** w celu poprawy stabilności połączeń peer-to-peer w aplikacjach takich jak gry czy transmisje strumieniowe, oraz **SIP ALG** w celu rozwiązania problemów ze zgodnością usług telefonicznych VoIP/SIP.
 

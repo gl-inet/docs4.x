@@ -4,11 +4,11 @@
 
 ---
 
-Web Admin Panel の左側で、**NETWORK** -> **Port Forwarding** に移動します。
+Web Admin Panel の左側で、**NETWORK** -> **Port Forwarding** に移動します。firmware v4.9 では **SECURITY** -> **Port Forwarding** に移動してください。
 
-このページでは、**DMZ** や **Port Forwarding** などのファイアウォールルールを設定できます。
+このページでは、**DMZ** や **Port Forwarding** を含むファイアウォールルールを設定できます。
 
-**Open Ports on Router** の設定については、**SYSTEM** -> **Security** に移動してください。
+注: ルーターでポートを開放する必要がある場合は、**SYSTEM** -> **Security** または **SECURITY** -> **Admin Access** に移動してください。
 
 ## DMZ
 
@@ -32,21 +32,21 @@ Port Forwarding を設定するには、Port Forwarding セクションで **Add
 
 ![add new port forwarding rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/port_forwarding_add2.png){class="glboxshadow"}
 
-**Protocol:** 使用するプロトコルです。TCP、UDP、または TCP と UDP の両方を選択できます。
+- **Protocol:** このルールに対して `TCP`、`UDP`、または `TCP and UDP` を選択します。
 
-**External Zone:** 外部ゾーンの選択肢は `WAN`、`WireGuard Client`、`WireGuard Server`、`OpenVPN Client`、`OpenVPN Server`、`LAN`、`Guest` です。
+- **External Zone:** 外部ゾーンの選択肢は `WAN`、`WireGuard Client`、`WireGuard Server`、`OpenVPN Client`、`OpenVPN Server`、`LAN`、`Guest` です。
 
-**External Port:** 外部ポート番号です。特定のポート番号を入力できます。ポート範囲は 1 から 65535 です。単一ポートを指定することも、先頭と末尾のポート番号を `-` でつないでポート範囲を指定することもできます（例: `501-510`）。
+- **External Port:** 外部ポート番号です。特定のポート番号を入力できます。ポート範囲は 1 から 65535 です。単一ポートを指定することも、先頭と末尾のポート番号を `-` でつないでポート範囲を指定することもできます（例: `501-510`）。
 
-**Internal Zone:** 内部ゾーンの選択肢は `LAN`、`Guest`、`WireGuard Client`、`WireGuard Server`、`OpenVPN Client`、`OpenVPN Server`、`WAN` です。
+- **Internal Zone:** 内部ゾーンの選択肢は `LAN`、`Guest`、`WireGuard Client`、`WireGuard Server`、`OpenVPN Client`、`OpenVPN Server`、`WAN` です。
 
-**Internal IP:** リモートアクセスする対象デバイスにルーターが割り当てた IP アドレスです。**External Port** で単一ポートを設定した場合は、ここでも単一ポートを設定してください。**External Port** でポート範囲を設定した場合は、ここでも対応するポート範囲を設定してください。
+- **Internal IP:** リモートアクセスする対象デバイスにルーターが割り当てた IP アドレスです。**External Port** で単一ポートを設定した場合は、ここでもその単一ポートを設定してください。**External Port** でポート範囲を設定した場合は、ここでも対応するポート範囲を設定してください。
 
-**Internal Port:** デバイスの内部ポート番号です。特定のポート番号を入力できます。External Port と同じ場合は空欄のままにしてください。
+- **Internal Port:** デバイスの内部ポート番号です。特定のポート番号を入力できます。External Port と同じ場合は空欄のままにしてください。
 
-**Description:** Port Forwarding ルールの名前または説明を設定します（任意）。
+- **Description:** このルールのカスタム名または説明を設定します（任意）。
 
-**Enable:** ルールを有効または無効にします。
+- **Enable:** このルールを有効または無効にします。
 
 ---
 

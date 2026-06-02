@@ -1,8 +1,8 @@
 # Wireless (Firmware v4.9)
 
-> Nota: questa guida si applica al firmware v4.9 e successivi. Per le versioni precedenti, consulta [qui](wireless.md).
+> Questa guida si applica al firmware v4.9 e successivi. Per le versioni precedenti, fai clic [qui](wireless.md).
 
-Accedi al pannello di amministrazione web e vai su **WIRELESS**.
+Sul lato sinistro del pannello di amministrazione web, vai su **WIRELESS**.
 
 La pagina Wireless ti consente di configurare varie reti Wi-Fi, tra cui MLO Wi-Fi, disponibile su alcuni modelli selezionati, Rete principale, Rete ospite e Rete IoT. Le bande Wi-Fi supportate variano a seconda del modello.
 

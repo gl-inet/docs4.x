@@ -1508,31 +1508,31 @@
     }
   },
   "docs/en/docs/interface_guide/astrowarp.md": {
-    "source_hash": "d04e25e932d1496ecfe53ee545ac0c9379fd10f09b947c9301b80d1dd4fb16ef",
+    "source_hash": "7e193bb166b585077d1d50ae51cccdffadf138dd5a51c11538a130da7c499223",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344025
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344118
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344282
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344377
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344494
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344581
       }
     }
   },
@@ -2088,31 +2088,31 @@
     }
   },
   "docs/en/docs/interface_guide/index.md": {
-    "source_hash": "37ca32975d7695a435d9d3fbc599ea226eef40b39731bca1dae7da953495c8a7",
+    "source_hash": "46a50294ae13f9ad134ab2425dea06c8b5805564e64e85a9fcb2e678f072fa02",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344620
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344732
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344800
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344871
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780344942
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780345037
       }
     }
   },
@@ -2291,31 +2291,31 @@
     }
   },
   "docs/en/docs/interface_guide/iot_network.md": {
-    "source_hash": "d22b806401934707bda203f7555fb9050910fb94412775aa8969aca6ee961789",
+    "source_hash": "07c59f0262821533641a85bdf1ce4c764a81619679b2082ceefcc039d8a9272d",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780345093
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780345149
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780345199
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780345241
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780345312
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780345338
       }
     }
   },
@@ -2465,15 +2465,15 @@
     }
   },
   "docs/en/docs/interface_guide/nat_settings.md": {
-    "source_hash": "e5d3ed37339416edae865d8365d955cac9829ab813d5e053186975790685d6f2",
+    "source_hash": "c79ed7cb42289b621b2c55ee5f3b8c053647a537d0ee65340307452de4ea4235",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780345414
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780345486
       },
       "fr": {
         "model": "pre-existing",
@@ -6057,6 +6057,151 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605846
+      }
+    }
+  },
+  "docs/en/mkdocs.yml": {
+    "source_hash": "5e6e2626a0a980f484a208f573b278a7a2b611249fb8601cbb2f52a8855ffea8",
+    "targets": {
+      "de": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780340869
+      },
+      "es": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780341054
+      },
+      "fr": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780341255
+      },
+      "it": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780341560
+      },
+      "jp": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780341812
+      },
+      "pl": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780341992
+      }
+    }
+  },
+  "docs/en/overrides/home.html": {
+    "source_hash": "667d3a67ef72f89ace15a227cd61e57b7fa22c720cd02b31633b5da68904401d",
+    "targets": {
+      "de": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780342166
+      },
+      "es": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780342311
+      },
+      "fr": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780342483
+      },
+      "it": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780342644
+      },
+      "jp": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780342814
+      },
+      "pl": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780342981
+      }
+    }
+  },
+  "docs/en/overrides/main.html": {
+    "source_hash": "427fb716ed424a006dd7d03c707c54333f1ab57c26dceea4e2ce440abadaa021",
+    "targets": {
+      "de": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343003
+      },
+      "es": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343026
+      },
+      "fr": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343062
+      },
+      "it": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343079
+      },
+      "jp": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343103
+      },
+      "pl": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343164
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/acl.md": {
+    "source_hash": "27a3382431d78258440c12d5e19be31dca1eb21871da919b23f0aee3b139b90f",
+    "targets": {
+      "de": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343222
+      },
+      "es": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343267
+      },
+      "fr": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343320
+      },
+      "it": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343360
+      },
+      "jp": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343415
+      },
+      "pl": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343458
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/admin_access.md": {
+    "source_hash": "166393aa28a6f7b9a4f15baa6bc7e07f9d0e8b59bb75f6276da65c3c779df5b4",
+    "targets": {
+      "de": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343556
+      },
+      "es": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343617
+      },
+      "fr": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343710
+      },
+      "it": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343800
+      },
+      "jp": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343869
+      },
+      "pl": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780343958
       }
     }
   }

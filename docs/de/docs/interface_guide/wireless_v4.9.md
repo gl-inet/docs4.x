@@ -82,7 +82,7 @@ Klicken Sie rechts auf das Zahnradsymbol, um die Wi-Fi-Einstellungen für jedes 
 
 ## Guest Network
 
-Das Guest Network ist ein dediziertes Wi-Fi-Netzwerk für Besucher; standardmäßig sind alle Bänder deaktiviert. Sie können für jedes Band grundlegende Netzwerkeinstellungen aktivieren und konfigurieren, z. B. Wi-Fi-SSID, Sicherheitsmodus, Passwort und Randomized BSSID.
+Das Guest Network ist ein dediziertes Wi-Fi-Netzwerk für Besucher; standardmäßig sind alle Bänder deaktiviert. Sie können für jedes Band grundlegende Netzwerkeinstellungen aktivieren und konfigurieren, z. B. Wi-Fi-SSID, Sicherheitsmodus, Passwort und Enable Randomized BSSID.
 
 Klicken Sie auf **Add**, um ein Guest-Wi-Fi-Netzwerk einzurichten, und anschließend auf **Apply**. Beachten Sie, dass die verfügbaren Wi-Fi-Bänder je nach Modell variieren.
 
@@ -96,7 +96,7 @@ Nach der Aktivierung wird die Seite wie folgt angezeigt.
 
 ## IoT Network
 
-Das IoT Network ist ein dediziertes Wi-Fi-Netzwerk für Smart-Home-Geräte; standardmäßig sind alle Bänder deaktiviert. Sie können für jedes Band grundlegende Netzwerkeinstellungen aktivieren und konfigurieren, z. B. Wi-Fi-SSID, Sicherheitsmodus, Passwort und Randomized BSSID.
+Das IoT Network ist ein dediziertes Wi-Fi-Netzwerk für Smart-Home-Geräte; standardmäßig sind alle Bänder deaktiviert. Sie können für jedes Band grundlegende Netzwerkeinstellungen aktivieren und konfigurieren, z. B. Wi-Fi-SSID, Sicherheitsmodus, Passwort und Enable Randomized BSSID.
 
 Klicken Sie auf **Add**, um ein IoT-Wi-Fi-Netzwerk einzurichten, und anschließend auf **Apply**. Beachten Sie, dass dieses Netzwerk kein 6-GHz-Band umfasst und die verfügbaren Wi-Fi-Bänder je nach Modell variieren.
 

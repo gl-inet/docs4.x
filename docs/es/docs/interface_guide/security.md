@@ -1,6 +1,6 @@
 # Seguridad
 
-Esta función está disponible desde el firmware v4.5.
+> Esta página se introdujo en el firmware v4.5.
 
 En el lado izquierdo del panel de administración web, vaya a **SYSTEM** -> **Security**.
 
@@ -15,7 +15,7 @@ Aquí puede cambiar la contraseña de inicio de sesión del panel de administrac
 La contraseña de administrador debe cumplir los siguientes requisitos:
 
 - Mínimo 10 caracteres y máximo 63 caracteres.
-- Se permiten letras, distinguiendo entre mayúsculas y minúsculas, números y los símbolos ``! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~``.
+- Se permiten letras (distinguiendo entre mayúsculas y minúsculas), números y los símbolos `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``.
 - Se requieren al menos dos de estos tipos: letras mayúsculas, letras minúsculas, números y símbolos.
 
 ## Control de acceso

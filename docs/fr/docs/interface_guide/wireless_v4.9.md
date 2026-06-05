@@ -2,7 +2,7 @@
 
 > Ce guide s'applique au firmware v4.9 et aux versions ultérieures. Pour les versions antérieures, veuillez cliquer [ici](wireless.md).
 
-Dans le panneau d'administration web, accédez à **WIRELESS**.
+Sur la gauche du panneau d'administration web, accédez à **WIRELESS**.
 
 La page Wireless vous permet de configurer différents réseaux Wi‑Fi, notamment le Wi‑Fi MLO (disponible sur certains modèles), le réseau principal, le réseau invité et le réseau IoT. Les bandes Wi‑Fi prises en charge varient selon le modèle.
 
@@ -82,7 +82,7 @@ Cliquez sur l'icône d'engrenage à droite pour afficher ou modifier les paramè
 
 ## Réseau invité
 
-Le réseau invité est un réseau Wi‑Fi dédié aux visiteurs, avec toutes les bandes désactivées par défaut. Vous pouvez activer et configurer les paramètres réseau de base pour chaque bande, comme le SSID Wi‑Fi, le mode de sécurité, le mot de passe et l'activation du BSSID aléatoire. 
+Le réseau invité est un réseau Wi‑Fi dédié aux visiteurs, avec toutes les bandes désactivées par défaut. Vous pouvez activer et configurer les paramètres réseau de base pour chaque bande, comme le SSID Wi‑Fi, le mode de sécurité, le mot de passe et l'activation du BSSID aléatoire.
 
 Cliquez sur **Add** pour configurer un réseau Wi‑Fi invité, puis sur **Apply**. Notez que les bandes Wi‑Fi disponibles varient selon le modèle.
 

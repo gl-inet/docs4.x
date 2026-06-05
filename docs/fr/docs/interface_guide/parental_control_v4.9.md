@@ -2,7 +2,7 @@
 
 > Ce guide s'applique au firmware v4.9 et aux versions ultérieures. Pour les versions antérieures, veuillez cliquer [ici](parental_control.md).
 
-Dans le panneau d'administration web, accédez à **FLOW CONTROL** -> **Parental Control**.
+Sur le côté gauche du panneau d'administration web, accédez à **FLOW CONTROL** -> **Parental Control**.
 
 Le contrôle parental protège les enfants en ligne en bloquant les sites inappropriés et en limitant le temps d'écran. Il filtre les contenus nuisibles et favorise une utilisation responsable d'Internet.
 

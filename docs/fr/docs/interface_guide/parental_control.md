@@ -1,5 +1,9 @@
 # Contrôle parental
 
+> Ce guide s’applique au firmware v4.8 et antérieur. Pour les versions plus récentes, veuillez cliquer [ici](parental_control_v4.8.md).
+
+Dans le panneau d’administration web, sur la gauche, accédez à **APPLICATIONS** -> **Parental Control**.
+
 Le contrôle parental permet d'aider les enfants à naviguer en ligne en toute sécurité en bloquant les sites inappropriés et en limitant la durée d'utilisation des appareils. Il permet d'empêcher l'accès aux contenus nuisibles, de gérer le temps d'écran et de favoriser une utilisation responsable d'Internet.
 
 **Remarque** : certains modèles ne prennent pas en charge Parental Control en raison d'une mémoire insuffisante, comme Mango (GL-MT300N-V2) et Shadow (série GL-AR300M).
@@ -23,7 +27,7 @@ La version locale est fournie par GL.iNet. Elle est actuellement en bêta et n'e
     - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint 2)
+    - GL-MT6000 (Flint2)
     - GL-AX1800 (Flint)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -47,9 +51,7 @@ La version locale est fournie par GL.iNet. Elle est actuellement en bêta et n'e
 
 ### Étapes de configuration
 
-Connectez-vous au panneau d'administration web du routeur, puis accédez à **APPLICATIONS** -> **Parental Control**. 
-
-Pour le firmware ver.4.8.4 et les versions ultérieures, accédez à **FLOW CONTROL** -> **Parental Control**.
+Connectez-vous au panneau d'administration web du routeur, puis accédez à **APPLICATIONS** -> **Parental Control**.
 
 Assurez-vous que l'heure du routeur est correcte. Si ce n'est pas le cas, allez dans **SYSTEM** -> **Time Zone** pour la synchroniser d'abord.
 
@@ -181,7 +183,7 @@ Le service [Bark](https://www.bark.us/){target="_blank"} peut aider à protéger
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint 2)
+    - GL-MT6000 (Flint2)
 
 ??? "Modèles non pris en charge"
     - GL-E5800 (Mudi 7)

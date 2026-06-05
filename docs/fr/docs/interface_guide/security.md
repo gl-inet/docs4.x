@@ -1,6 +1,6 @@
 # Sécurité
 
-Cette fonctionnalité est disponible depuis le firmware v4.5.
+> Cette page a été introduite avec le firmware v4.5.
 
 Dans la partie gauche du panneau d'administration web, accédez à **SYSTEM** -> **Security**.
 
@@ -60,7 +60,7 @@ Si vous attribuez un numéro de port en conflit avec un port réservé (ou rése
 
 ![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/http_https_port_forbidden.png){class="glboxshadow"}
 
-??? "Liste des numéros de ports interdits par le navigateur"
+??? "List of port numbers prohibited by the browser"
 
     | Port  | Description                              |
     | :-----| :--------------------------------------: |
@@ -153,15 +153,17 @@ Après activation de l'accès à distance, il est possible d'autoriser uniquemen
 
 - **Allow Ping from WAN** : en cas de problème réseau, autoriser Ping depuis le port WAN peut aider les utilisateurs ou administrateurs réseau à vérifier si le routeur est correctement connecté, ainsi qu'à évaluer la latence et la perte de paquets.
 
-- **HTTPS Remote Access** : le protocole HTTPS est principalement utilisé pour la communication entre navigateurs web et serveurs web, afin d'assurer une transmission sécurisée des données.
+- **HTTPS Remote Access** : le protocole HTTPS est principalement utilisé pour la communication entre navigateurs web et serveurs web, garantissant une transmission sécurisée des données. Ainsi, lorsque les utilisateurs ont besoin de gérer à distance des serveurs ou d'accéder à des applications web via un navigateur, le protocole HTTPS peut être utilisé pour assurer la sécurité et la fiabilité de la transmission des données.
 
-- **SSH Remote Access** : le protocole SSH sert principalement à accéder en toute sécurité à des ordinateurs et serveurs distants et à les administrer, ainsi qu'à effectuer des transferts de fichiers.
+- **SSH Remote Access** : le protocole SSH est principalement utilisé pour accéder en toute sécurité à des ordinateurs et serveurs distants et pour les administrer, ainsi que pour effectuer des opérations de transfert de fichiers. Lorsque les utilisateurs doivent se connecter à distance à des serveurs via des lignes de commande ou des scripts pour la gestion système, le transfert de fichiers et d'autres opérations, le protocole SSH peut être utilisé pour établir un tunnel sécurisé garantissant la sécurité et la confidentialité de la transmission des données.
 
-- **Allow Remote Access from Specific IPs** : cette fonction s'utilise avec **Allow Ping from WAN**, **HTTPS Remote Access** ou **SSH Remote Access**. Vous pouvez ajouter plusieurs adresses IP spécifiques pour gérer le routeur à distance depuis ces adresses.
+- **Allow Remote Access from Specific IPs** : cette fonction s'utilise avec **Allow Ping from WAN**, **HTTPS Remote Access** ou **SSH Remote Access**. Vous pouvez ajouter plusieurs adresses IP spécifiques pour gérer le routeur à distance depuis des périphériques disposant de ces adresses IP.
 
 ![add_ip_address_1](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_1.png){class="glboxshadow"}
 
 ![add_ip_address_2](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_2.png){class="glboxshadow"}
+
+---
 
 ## Ports ouverts sur le routeur
 
@@ -180,8 +182,6 @@ Pour ouvrir un port, cliquez sur **Add**.
 - **Description:** Ajoutez une description à cette règle (facultatif).
 
 - **Enable:** Activez ou désactivez cette règle.
-
----
 
 ---
 

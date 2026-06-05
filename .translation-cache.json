@@ -2639,31 +2639,31 @@
     }
   },
   "docs/en/docs/interface_guide/parental_control.md": {
-    "source_hash": "b35d51ec7b8eceec98e05c17b2c818ca59b38689da385b627fc1ac4e7e36349d",
+    "source_hash": "4b53286f393d47eb233fe23cbf6ae003a2eab3096aa48dcb2a0df919a35c84ac",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780365172
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780365327
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780365435
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780365528
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780365623
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780365742
       }
     }
   },
@@ -2697,31 +2697,31 @@
     }
   },
   "docs/en/docs/interface_guide/port_forwarding.md": {
-    "source_hash": "dac99dc8d7b4d1a830b56f927226703ebc7c24f0ecd22847ddddcf6133fb8134",
+    "source_hash": "41aa771033d8ae95981afe2e38adaab8fe6a0670feca3c91b30c4369d97363c9",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366207
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366276
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366340
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775091704
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366392
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567816
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366506
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605450
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366569
       }
     }
   },
@@ -2813,31 +2813,31 @@
     }
   },
   "docs/en/docs/interface_guide/security.md": {
-    "source_hash": "1c87bb395205c1a67df3332a41a0e8708fe3d5cd8d161f040342afe74114cd69",
+    "source_hash": "0d22a9445a9de23f297238dfcf672ef04ed320cdab40e168dc23fcf59c7f3347",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1774248915
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366673
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366787
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366888
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775091803
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366976
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367063
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605809
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367155
       }
     }
   },
@@ -3132,31 +3132,31 @@
     }
   },
   "docs/en/docs/interface_guide/vpn_client_profile.md": {
-    "source_hash": "d8da074099014eb6d43f5211351908c932adf6783ad3fb390360cc5fd6c9fbf7",
+    "source_hash": "f82e2f18d0d5e3a70fc4ef2c9496975310b9c8be84922514befb9469bb040051",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367232
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367283
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367390
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367497
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367613
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367698
       }
     }
   },
@@ -3364,31 +3364,31 @@
     }
   },
   "docs/en/docs/interface_guide/wireless_v4.9.md": {
-    "source_hash": "d4da59049400787f9eb969870dc411565696ff24154fac8d1569148d3bd6ac37",
+    "source_hash": "f6813f0907abb67848d1c05c7a7ef920887b6714694190cbad4b8f43854aa3af",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367761
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367842
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780367929
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780368005
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780368113
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780368207
       }
     }
   },
@@ -6202,6 +6202,35 @@
       "pl": {
         "model": "deepseek-v4-pro",
         "updated_at": 1780343958
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/parental_control_v4.9.md": {
+    "source_hash": "d93a815611d05861ffa3f7e3ad89faf83f93206d7f06551aac63108ac7379aab",
+    "targets": {
+      "de": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780365803
+      },
+      "es": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780365897
+      },
+      "fr": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780365954
+      },
+      "it": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366015
+      },
+      "jp": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366063
+      },
+      "pl": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780366128
       }
     }
   }

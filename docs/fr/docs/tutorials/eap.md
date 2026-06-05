@@ -9,11 +9,12 @@ Ce guide présente deux méthodes pour connecter les routeurs GL.iNet à un rés
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
-    - GL-MT3600BE (Beryl 7)
+    - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
+    - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
-    - GL-BE3600 (Slate 7)
+    - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
     - GL-AX1800 (Flint)
@@ -28,15 +29,19 @@ Ce guide présente deux méthodes pour connecter les routeurs GL.iNet à un rés
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
-    - ※GL-MT6000 (Flint 2)
-    - ※GL-MT3000 (Beryl AX)
-    - ※GL-SFT1200 (Opal)
+    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
+    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
+    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
 
-    **Remarque :** 
-    
-    1. Les GL-MT6000 (Flint 2) et GL-MT3000 (Beryl AX) ne prennent pas en charge la connexion aux réseaux EAP avec le firmware par défaut. Cependant, GL.iNet fournit un firmware OpenWrt 24 natif pour ces modèles, qui peut être installé afin de prendre en charge les réseaux EAP. Recherchez votre modèle dans le [Download Center](https://dl.gl-inet.com/){target="_blank"} puis ouvrez l'onglet OPENWRT 24 pour plus de détails.
+    ---
 
-    2. Le GL-SFT1200 (Opal) prend en charge la connexion aux réseaux EAP à partir du firmware v4.8.
+    **Note de bas de page :** 
+
+    1. Lors de la connexion aux réseaux WPA/WPA2/WPA3-Enterprise, les GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7) et GL-BE3600 (Slate 7) ne prennent en charge que les réseaux authentifiés par PEAP. Les autres méthodes EAP (EAP-TLS, EAP-TTLS, EAP-MD5, etc.) ne sont pas prises en charge.
+
+    2. Les GL-MT6000 (Flint 2) et GL-MT3000 (Beryl AX) ne prennent pas en charge la connexion aux réseaux EAP avec le firmware par défaut. Cependant, GL.iNet fournit un firmware OpenWrt 24 natif pour ces modèles, qui ajoute la prise en charge EAP. Veuillez rechercher le modèle dans le [Download Center](https://dl.gl-inet.com/){target="_blank"} et consultez l'onglet OPENWRT 24 pour plus de détails.
+
+    3. Le GL-SFT1200 (Opal) prend en charge la connexion aux réseaux EAP à partir du firmware v4.8.
 
 ??? "Modèles non pris en charge"
     - GL-MT5000 (Brume 3)

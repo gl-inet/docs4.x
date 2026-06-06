@@ -9,11 +9,12 @@ Questa guida presenta due modi per collegare i router GL.iNet a una rete Wi-Fi E
 ## Modelli supportati
 
 ??? "Modelli supportati"
-    - GL-MT3600BE (Beryl 7)
+    - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
+    - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
-    - GL-BE3600 (Slate 7)
+    - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
     - GL-AX1800 (Flint)
@@ -28,15 +29,17 @@ Questa guida presenta due modi per collegare i router GL.iNet a una rete Wi-Fi E
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
-    - ※GL-MT6000 (Flint 2)
-    - ※GL-MT3000 (Beryl AX)
-    - ※GL-SFT1200 (Opal)
+    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
+    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
+    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
 
-    **Nota**:
+    ---
 
-    1. GL-MT6000 (Flint 2) e GL-MT3000 (Beryl AX) non supportano la connessione a reti EAP con il firmware predefinito, ma GL.iNet fornisce un firmware OpenWrt 24 nativo per questi modelli che può essere installato per supportare la connessione a reti EAP. Cerca il modello nel [Download Center](https://dl.gl-inet.com/){target="_blank"} e vai alla scheda OPENWRT 24 per maggiori dettagli.
+    **Nota:**
 
-    2. GL-SFT1200 (Opal) supporta la connessione a reti EAP con firmware v4.8.
+    1. Quando ci si connette a reti WPA/WPA2/WPA3-Enterprise, GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7) e GL-BE3600 (Slate 7) supportano solo reti con autenticazione PEAP. Altri metodi EAP (EAP-TLS, EAP-TTLS, EAP-MD5, ecc.) non sono supportati.
+    2. GL-MT6000 (Flint 2) e GL-MT3000 (Beryl AX) non supportano la connessione a reti EAP con il firmware predefinito. Tuttavia, GL.iNet fornisce un firmware nativo OpenWrt 24 per questi modelli, che aggiunge il supporto EAP. Cerca il modello nel [Download Center](https://dl.gl-inet.com/){target="_blank"} e fai riferimento alla scheda OPENWRT 24 per i dettagli.
+    3. GL-SFT1200 (Opal) supporta la connessione a reti EAP a partire dal firmware v4.8.
 
 ??? "Modelli non supportati"
     - GL-MT5000 (Brume 3)

@@ -9,11 +9,12 @@ In dieser Anleitung werden zwei Möglichkeiten beschrieben, wie Sie GL.iNet-Rout
 ## Unterstützte Modelle
 
 ??? "Unterstützte Modelle"
-    - GL-MT3600BE (Beryl 7)
+    - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
+    - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
-    - GL-BE3600 (Slate 7)
+    - <u>GL-BE3600 (Slate 7)</u><sup>1</sup>
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
     - GL-AX1800 (Flint)
@@ -28,15 +29,19 @@ In dieser Anleitung werden zwei Möglichkeiten beschrieben, wie Sie GL.iNet-Rout
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
     - GL-X300B (Collie)
-    - ※GL-MT6000 (Flint 2)
-    - ※GL-MT3000 (Beryl AX)
-    - ※GL-SFT1200 (Opal)
+    - <u>GL-MT6000 (Flint 2)</u><sup>2</sup>
+    - <u>GL-MT3000 (Beryl AX)</u><sup>2</sup>
+    - <u>GL-SFT1200 (Opal)</u><sup>3</sup>
 
-    **Hinweis:** 
+    ---
+
+    **Fußnote:** 
     
-    1. GL-MT6000 (Flint 2) und GL-MT3000 (Beryl AX) unterstützen mit der Standard-Firmware keine Verbindung zu EAP-Netzwerken. GL.iNet stellt jedoch native OpenWrt-24-Firmware für diese Modelle bereit, die installiert werden kann, um EAP-Verbindungen zu unterstützen. Suchen Sie im [Download Center](https://dl.gl-inet.com/){target="_blank"} nach dem Modell und wechseln Sie zur Registerkarte **OPENWRT 24**, um weitere Details zu erhalten.
+    1. Bei der Verbindung mit WPA/WPA2/WPA3-Enterprise-Netzwerken unterstützen GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7) und GL-BE3600 (Slate 7) nur PEAP-authentifizierte Netzwerke. Andere EAP-Methoden (EAP-TLS, EAP-TTLS, EAP-MD5 usw.) werden nicht unterstützt.
+    
+    2. GL-MT6000 (Flint 2) und GL-MT3000 (Beryl AX) unterstützen mit der Standard-Firmware keine Verbindung zu EAP-Netzwerken. GL.iNet stellt jedoch native OpenWrt-24-Firmware für diese Modelle bereit, die EAP-Unterstützung hinzufügt. Suchen Sie im [Download Center](https://dl.gl-inet.com/){target="_blank"} nach dem Modell und wechseln Sie zur Registerkarte **OPENWRT 24**, um weitere Details zu erhalten.
 
-    2. GL-SFT1200 (Opal) unterstützt mit Firmware v4.8 die Verbindung zu EAP-Netzwerken.
+    3. GL-SFT1200 (Opal) unterstützt ab Firmware v4.8 die Verbindung zu EAP-Netzwerken.
 
 ??? "Nicht unterstützte Modelle"
     - GL-MT5000 (Brume 3)
@@ -131,7 +136,7 @@ Befolgen Sie die folgenden Schritte, um Ihren GL.iNet-Router über die LuCI-Ober
 
 3. Repeater in LuCI konfigurieren.
 
-    Gehen Sie in der LuCI-Oberfläche zu **Network** -> **Wireless**.
+    Gehen Sie in der LuCI-Oberfläche zu Network -> Wireless.
 
     ![xfinity wifi configs](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/wireless.png){class="glboxshadow"}
 

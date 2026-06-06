@@ -1,20 +1,20 @@
 # Come configurare l'offuscamento VPN sui router GL.iNet
 
-## Che cos'e l'offuscamento VPN
+## Che cos'è l'offuscamento VPN
 
-L'offuscamento VPN e una tecnica che maschera il traffico VPN facendolo sembrare normale traffico Internet. Questo aiuta gli utenti ad aggirare restrizioni di rete e censura, soprattutto in aree con politiche Internet rigide.
+L'offuscamento VPN è una tecnica che maschera il traffico VPN facendolo sembrare normale traffico Internet. Questo aiuta gli utenti ad aggirare restrizioni di rete e censura, soprattutto in aree con politiche Internet rigide.
 
-- Nasconde le caratteristiche della VPN per evitare il rilevamento da parte di ISP, firewall o Deep Packet Inspection, DPI.
+- Nasconde le caratteristiche della VPN per evitare il rilevamento da parte di ISP, firewall o Deep Packet Inspection (DPI).
 
-- Fa apparire la connessione VPN come traffico web standard, migliorando stabilita della connessione e probabilita di successo in reti con restrizioni.
+- Fa apparire la connessione VPN come traffico web standard, migliorando la stabilità della connessione e la probabilità di successo in reti con restrizioni.
 
-## Che cos'e AmneziaWG
+## Che cos'è AmneziaWG
 
-AmneziaWG e un protocollo VPN basato su WireGuard, con offuscamento del traffico integrato. Mantiene i vantaggi principali di WireGuard, come alta velocita, design leggero e bassa latenza, aggiungendo al tempo stesso un modulo dedicato all'offuscamento. Questo modulo nasconde efficacemente i modelli di traffico VPN, consentendo sia agli utenti individuali sia alle aziende di proteggere la privacy online, aggirare restrizioni regionali ed evitare interruzioni della connessione causate da controlli di rete severi.
+AmneziaWG è un protocollo VPN basato su WireGuard, con offuscamento del traffico integrato. Mantiene i vantaggi principali di WireGuard, come alta velocità, design leggero e bassa latenza, aggiungendo al tempo stesso un modulo dedicato all'offuscamento. Questo modulo nasconde efficacemente i modelli di traffico VPN, consentendo sia agli utenti individuali sia alle aziende di proteggere la privacy online, aggirare restrizioni regionali ed evitare interruzioni della connessione causate da controlli di rete severi.
 
-AmneziaWG e compatibile con un'ampia gamma di dispositivi, inclusi Windows, macOS, iOS, Android, Linux e router, offrendo connessioni VPN offuscate affidabili in ogni scenario.
+AmneziaWG è compatibile con un'ampia gamma di dispositivi, inclusi Windows, macOS, iOS, Android, Linux e router, offrendo connessioni VPN offuscate affidabili in ogni scenario.
 
-Attualmente, diversi router GL.iNet, ad esempio **Brume 3**, **Flint 3**, **Flint 2** e **Beryl AX**, supportano il protocollo AmneziaWG in alcune versioni firmware selezionate. Il supporto ufficiale completo sara disponibile nel firmware ver.4.9 e verra gradualmente esteso ad altri modelli.
+Attualmente, diversi router GL.iNet, ad esempio **Brume 3**, **Flint 3**, **Flint 2** e **Beryl AX**, supportano il protocollo AmneziaWG in alcune versioni firmware selezionate. Il supporto ufficiale completo sarà disponibile nel firmware ver.4.9 e verrà gradualmente esteso ad altri modelli.
 
 ## Configurazione rapida
 
@@ -37,11 +37,11 @@ Questo scenario usa due router GL.iNet per stabilire una connessione VPN offusca
 
     Se Brume 3 viene usato come router principale, collega la sua porta WAN alla rete upstream, ad esempio un modem ISP.
 
-    Se non e il router principale, vale a dire se esiste un altro dispositivo upstream, come un router ISP, che agisce come router principale, e necessaria una configurazione di **port forwarding** sul router principale. Fai riferimento a [questo link](how_to_set_up_port_forwarding.md).
+    Se non è il router principale, vale a dire se esiste un altro dispositivo upstream, come un router ISP, che agisce come router principale, è necessaria una configurazione di **port forwarding** sul router principale. Fai riferimento a [questo link](how_to_set_up_port_forwarding.md).
 
 3. Abilita DDNS, facoltativo.
 
-    Abilita la funzione DDNS se il tuo IP pubblico non e statico ma dinamico.
+    Abilita la funzione DDNS se il tuo IP pubblico non è statico ma dinamico.
 
     Dalla barra laterale sinistra, vai su **APPLICATIONS** -> **Dynamic DNS**. Attiva **Enable DDNS**, accetta **Terms of Service & Privacy Policy**, quindi fai clic su **Apply**.
 
@@ -53,13 +53,13 @@ Questo scenario usa due router GL.iNet per stabilire una connessione VPN offusca
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Puoi personalizzare i parametri di offuscamento secondo le tue esigenze. Ti consigliamo di mantenere le impostazioni predefinite.
+    Puoi personalizzare i [parametri di offuscamento](../faq/amneziawg_obfuscation_parameters.md) secondo le tue esigenze. Ti consigliamo di mantenere le impostazioni predefinite.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
 
 5. Esporta il file di configurazione.
 
-    Nella pagina **WireGuard Server**, passa alla scheda **Profiles** e fai clic sul pulsante **Add** per creare un file di configurazione con cui Beryl AX potra collegarsi.
+    Nella pagina **WireGuard Server**, passa alla scheda **Profiles** e fai clic sul pulsante **Add** per creare un file di configurazione con cui Beryl AX potrà collegarsi.
 
     ![add profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/add_profiles1.png){class="glboxshadow"}
 
@@ -67,7 +67,7 @@ Questo scenario usa due router GL.iNet per stabilire una connessione VPN offusca
 
     ![add profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/add_profiles2.png){class="glboxshadow"}
 
-    Nella finestra pop-up, fai clic su **Export** per scaricare la configurazione in locale, che verra usata successivamente.
+    Nella finestra pop-up, fai clic su **Export** per scaricare la configurazione in locale, che verrà usata successivamente.
 
     ![add profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/wg_config_qrcode.png){class="glboxshadow"}
 
@@ -77,7 +77,7 @@ Questo scenario usa due router GL.iNet per stabilire una connessione VPN offusca
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start1.png){class="glboxshadow"}
 
-    A questo punto il server VPN con offuscamento AmneziaWG e abilitato. Ora puoi collegarti a questo server VPN Brume 3 tramite l'app AmneziaWG oppure con un router GL.iNet che esegue un firmware che supporta l'offuscamento AmneziaWG.
+    A questo punto il server VPN con offuscamento AmneziaWG è abilitato. Ora puoi collegarti a questo server VPN Brume 3 tramite l'app AmneziaWG oppure con un router GL.iNet che esegue un firmware che supporta l'offuscamento AmneziaWG.
 
     **Nota: i client che non supportano l'offuscamento AmneziaWG non riusciranno a collegarsi.**
 
@@ -107,7 +107,7 @@ Questo scenario usa due router GL.iNet per stabilire una connessione VPN offusca
 
     ![client uploaded](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_uploaded.png){class="glboxshadow"}
 
-    La pagina verra aggiornata e vedrai un file di configurazione nell'elenco.
+    La pagina verrà aggiornata e vedrai un file di configurazione nell'elenco.
 
 4. Avvia la connessione VPN.
 
@@ -115,31 +115,31 @@ Questo scenario usa due router GL.iNet per stabilire una connessione VPN offusca
 
     ![client start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_start.png){class="glboxshadow"}
 
-    Attendi circa 1 minuto. Se l'indicatore di stato diventa verde, significa che la connessione VPN e riuscita.
+    Attendi circa 1 minuto. Se l'indicatore di stato diventa verde, significa che la connessione VPN è riuscita.
 
     ![client connected](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_connected.png){class="glboxshadow"}
 
-    Vai su **VPN Dashboard** e vedrai che Beryl AX e connesso al router domestico Brume 3.
+    Vai su **VPN Dashboard** e vedrai che Beryl AX è connesso al router domestico Brume 3.
 
     ![client dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_dashboard_home.png){class="glboxshadow"}
 
 5. Doppio controllo, facoltativo.
 
-    Accedi al pannello di amministrazione web di Brume 3 e vai su **VPN** -> **WireGuard Server**. Vedrai anche un client online, cioe Beryl AX, attualmente connesso a questo server VPN Brume 3.
+    Accedi al pannello di amministrazione web di Brume 3 e vai su **VPN** -> **WireGuard Server**. Vedrai anche un client online, cioè Beryl AX, attualmente connesso a questo server VPN Brume 3.
 
     ![server online client](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_online_client.png){class="glboxshadow"}
 
-    La connessione VPN e completa. Tutti i dispositivi collegati a Beryl AX ora accedono a Internet tramite il gateway di Brume 3, ottenendo cosi una connessione VPN offuscata.
+    La connessione VPN è completa. Tutti i dispositivi collegati a Beryl AX ora accedono a Internet tramite il gateway di Brume 3, ottenendo così una connessione VPN offuscata.
 
 ### Scenario 2. Usare un singolo router GL.iNet
 
 Questo scenario usa un singolo router GL.iNet **Brume 3 (GL-MT5000)** come client VPN per collegarsi a un server AmneziaVPN.
 
-In questo caso non e necessario distribuire un server personale. Basta scaricare un file di configurazione AmneziaWG dal [sito ufficiale di Amnezia](https://amnezia.org/){target="_blank"} o da qualsiasi provider VPN che integri AmneziaWG, quindi caricare il file sul router GL.iNet. Potrai cosi stabilire una connessione VPN con offuscamento abilitato.
+In questo caso non è necessario distribuire un server personale. Basta scaricare un file di configurazione AmneziaWG dal [sito ufficiale di Amnezia](https://amnezia.org/){target="_blank"} o da qualsiasi provider VPN che integri AmneziaWG, quindi caricare il file sul router GL.iNet. Potrai così stabilire una connessione VPN con offuscamento abilitato.
 
 #### Scaricare la configurazione
 
-<u>Opzione 1</u>: scarica una configurazione da Amnezia Official, e richiesto un abbonamento Premium.
+<u>Opzione 1</u>: scarica una configurazione da Amnezia Official, è richiesto un abbonamento Premium.
 
 1. Accedi alla [Amnezia Premium Dashboard](https://cp.amnezia.org/en/login){target="_blank"} con la tua Subscription Key.
 
@@ -153,13 +153,13 @@ In questo caso non e necessario distribuire un server personale. Basta scaricare
 
 Prendiamo come esempio StarVPN.
 
-1. Vai ai [piani tariffari](https://www.starvpn.com/#pricing){target="_blank"} di StarVPN e scegli il piano VPN piu adatto alle tue esigenze. Puoi registrare un account StarVPN durante il checkout oppure direttamente [qui](https://www.starvpn.com/dashboard/register.php){target="_blank"}.
+1. Vai ai [piani tariffari](https://www.starvpn.com/#pricing){target="_blank"} di StarVPN e scegli il piano VPN più adatto alle tue esigenze. Puoi registrare un account StarVPN durante il checkout oppure direttamente [qui](https://www.starvpn.com/dashboard/register.php){target="_blank"}.
 
 2. Accedi alla [StarVPN Dashboard](https://www.starvpn.com/dashboard){target="_blank"}, individua **VPN Configuration** e fai clic su **AmneziaWG Config** per scaricare il file di configurazione.
 
     ![starvpn amneziawg config download](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/awg_starvpn.png){class="glboxshadow"}
 
-3. La configurazione puo contenere un indirizzo IPv6. Per evitare problemi di compatibilita e connettivita, apri il file `.conf` e rimuovi l'indirizzo IPv6, come mostrato sotto.
+3. La configurazione può contenere un indirizzo IPv6. Per evitare problemi di compatibilità e connettività, apri il file `.conf` e rimuovi l'indirizzo IPv6, come mostrato sotto.
 
     ![starvpn remove ipv6](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/awg_remove_ipv6.png){class="glboxshadow"}
 
@@ -187,7 +187,7 @@ Prendiamo come esempio StarVPN.
 
     ![client amnezia uploaded](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_amnezia_uploaded.png){class="glboxshadow"}
 
-    La pagina verra aggiornata e vedrai un file di configurazione nell'elenco.
+    La pagina verrà aggiornata e vedrai un file di configurazione nell'elenco.
 
 4. Avvia la connessione VPN.
 
@@ -195,15 +195,15 @@ Prendiamo come esempio StarVPN.
 
     ![client amnezia start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_amnezia_start.png){class="glboxshadow"}
 
-    Attendi circa 1 minuto. Se l'indicatore di stato diventa verde, significa che la connessione VPN e riuscita.
+    Attendi circa 1 minuto. Se l'indicatore di stato diventa verde, significa che la connessione VPN è riuscita.
 
     ![client amnezia connected](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_amnezia_connected.png){class="glboxshadow"}
 
-    Vai su **VPN Dashboard** e vedrai che Brume 3 e connesso a un server AmneziaVPN.
+    Vai su **VPN Dashboard** e vedrai che Brume 3 è connesso a un server AmneziaVPN.
 
     ![client amnezia dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_dashboard_amnezia.png){class="glboxshadow"}
 
-    La connessione VPN e completa. Tutti i dispositivi collegati a Brume 3 ora accedono a Internet tramite il server AmneziaVPN, ottenendo cosi una connessione VPN offuscata.
+    La connessione VPN è completa. Tutti i dispositivi collegati a Brume 3 ora accedono a Internet tramite il server AmneziaVPN, ottenendo così una connessione VPN offuscata.
 
 ---
 

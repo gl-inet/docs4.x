@@ -12,6 +12,8 @@ AmneziaWG übernimmt die architektonische Einfachheit und hohe Leistung der Orig
 
 Im Vergleich zu AmneziaWG v1.0 bietet v2.0 eine stärkere Verschleierung, indem neue Parameter (**S3~S4**) hinzugefügt und dynamische Header für Pakettypen verwendet werden (**H1~H4** als Bereiche statt als feste Werte). Darüber hinaus unterstützt AmneziaWG 2.0 die Parameter **I1~I5**, die vor jedem Handshake formatierte UDP-Pakete senden, um AmneziaWG-Datenverkehr als gewöhnlichen Nicht-VPN-Datenverkehr zu tarnen. So lässt sich Deep Packet Inspection wirksam umgehen und die Konnektivität in eingeschränkten Netzwerken verbessern.
 
+![parameters](https://static.gl-inet.com/docs/router/en/4/faq/amneziawg_obfuscation_parameters/parameters222.png){class="glboxshadow"}
+
 Diese Erweiterungen erschweren die Erkennung des VPN-Datenverkehrs und bewahren gleichzeitig die hohe Geschwindigkeit und geringe Latenz von WireGuard.
 
 So erkennen Sie die AmneziaWG-Version:
@@ -33,7 +35,7 @@ So erkennen Sie die AmneziaWG-Version:
 | S3 | Zufällige Präfixe für Cookie-Pakete | 0 ≤ S3 ≤ 1216 | 15~150 |
 | S4 | Zufällige Präfixe für Datenpakete | 0 ≤ S4 ≤ 32 | 0~32 |
 | H1~H4 | Dynamische Header für Pakettypen; Zufallswerte (v1.0) oder Bereiche (v2.0) | 5~2147483647; H1, H2, H3 und H4 müssen unterschiedlich sein | 5~2147483647 |
-| I1~I5 | Signaturpakete zur Protokollimitierung | beliebiger Hex-Blob | N/A |
+| I1~I5 | Signaturpakete zur Protokollnachahmung | beliebiger Hex-Blob | N/A |
 
 Referenzen: [Offizielle AmneziaWG-Dokumentation](https://docs.amnezia.org/documentation/amnezia-wg){target="_blank"}
 

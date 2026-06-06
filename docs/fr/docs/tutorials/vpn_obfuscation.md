@@ -53,7 +53,7 @@ Ce scénario utilise deux routeurs GL.iNet pour établir une connexion VPN obfus
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Vous pouvez personnaliser les paramètres d’obfuscation selon vos besoins. Nous vous recommandons de conserver les réglages par défaut.
+    Vous pouvez personnaliser les [paramètres d’obfuscation](../faq/amneziawg_obfuscation_parameters.md) selon vos besoins. Nous vous recommandons de conserver les réglages par défaut.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
 

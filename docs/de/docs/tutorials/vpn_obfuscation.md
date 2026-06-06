@@ -54,7 +54,7 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Sie können die Verschleierungsparameter bei Bedarf anpassen. Wir empfehlen, die Standardeinstellungen beizubehalten.
+    Sie können die [Verschleierungsparameter](../faq/amneziawg_obfuscation_parameters.md) nach Bedarf anpassen. Wir empfehlen, die Standardeinstellungen beizubehalten.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
 
@@ -124,13 +124,13 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
     ![client dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_dashboard_home.png){class="glboxshadow"}
 
-5. Gegenprüfung (optional).
+#### Gegenprüfung (optional)
 
-    Melden Sie sich am Web-Admin-Panel des Brume 3 an und navigieren Sie zu **VPN** -> **WireGuard Server**. Dort sehen Sie ebenfalls einen Online-Client, nämlich den Beryl AX, der aktuell mit diesem VPN-Server auf dem Brume 3 verbunden ist.
+Melden Sie sich am Web-Admin-Panel des Brume 3 an und navigieren Sie zu **VPN** -> **WireGuard Server**. Dort sehen Sie ebenfalls einen Online-Client, nämlich den Beryl AX, der aktuell mit diesem VPN-Server auf dem Brume 3 verbunden ist.
 
-    ![server online client](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_online_client.png){class="glboxshadow"}
+![server online client](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_online_client.png){class="glboxshadow"}
 
-    Die VPN-Verbindung ist damit abgeschlossen. Alle Geräte am Beryl AX greifen jetzt über das Gateway des Brume 3 auf das Internet zu, wodurch eine VPN-Verschleierungsverbindung ermöglicht wird.
+Die VPN-Verbindung ist damit abgeschlossen. Alle Geräte am Beryl AX greifen jetzt über das Gateway des Brume 3 auf das Internet zu, wodurch eine VPN-Verschleierungsverbindung ermöglicht wird.
 
 ### Szenario 2. Verwendung eines einzelnen GL.iNet-Routers
 

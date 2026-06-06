@@ -1,12 +1,20 @@
-# AmneziaWG Obfuscation Parameters
+# AmneziaWG Obfuscation
 
-AmneziaWG is a WireGuard-based VPN protocol with built-in traffic obfuscation. Its obfuscation parameters control how traffic is disguised to avoid detection by strict network enforcement mechanisms. Below is a detailed breakdown of the significance of AmneziaWG, version differences, and parameters overview (including their constraints and recommended settings).
+AmneziaWG is a WireGuard-based VPN protocol featuring built-in traffic obfuscation. Its obfuscation parameters control how traffic is disguised to evade detection under restrictive network inspection.
+
+Below is a detailed breakdown of AmneziaWG, version differences, AmneziaWG on GL.iNet routers, and parameters overview.
 
 ## Why AmneziaWG?
 
 The predecessor of AmneziaWG, WireGuard, has established itself as a fast and reliable VPN protocol thanks to its compact codebase and high efficiency. However, its fixed packet headers and predictable packet sizes create an easily recognizable signature. DPI systems can effortlessly identify these packets and immediately terminate connections — a critical issue in countries with strict internet censorship.
 
 AmneziaWG inherits the architectural simplicity and high performance of the original implementation, but eliminates the identifiable network signatures that make WireGuard easily detectable by Deep Packet Inspection (DPI) systems.
+
+In short:
+
+- It masks VPN characteristics to prevent detection by ISPs, firewalls, or Deep Packet Inspection (DPI).
+
+- It makes your VPN connection appear as standard web traffic, improving connection stability and success rate in restricted networks.
 
 ## AmneziaWG V2.0
 
@@ -21,7 +29,13 @@ Here is how to identify the AmneziaWG version:
 - **V1.0**: No S3~S4 parameters; H1~H4 are single fixed integers.
 - **V2.0**: Includes **S3~S4** parameters; **H1~H4** are defined as numeric ranges; supports **I1~I5** parameters.
 
-**Note**: The parameters I1-I5 are not auto-generated. Users can manually add them as extra lines in the VPN configuration file to make AmneziaWG traffic look like other common protocols, such as QUIC or WebRTC.
+> Note: The parameters I1-I5 are not auto-generated. Users can manually add them as extra lines in the VPN configuration file to make AmneziaWG traffic look like other common protocols, such as QUIC or WebRTC.
+
+## AmneziaWG on GL.iNet routers
+
+Currently, several GL.iNet routers (e.g., Brume 3, Flint 3, Flint 2, and Beryl AX) support the AmneziaWG protocol in select firmware versions. Full official support will be available in firmware ver.4.9 and gradually roll out to more models.
+
+To set up VPN obfuscation on GL.iNet routers, please refer to [here](../tutorials/vpn_obfuscation.md).
 
 ## Parameter Overview
 
@@ -38,6 +52,12 @@ Here is how to identify the AmneziaWG version:
 | I1~I5        | Signature packets for protocol imitation | arbitrary hex-blob             | N/A |
 
 References: [AmneziaWG Official Documentation](https://docs.amnezia.org/documentation/amnezia-wg){target="_blank"}
+
+---
+
+Related Article:
+
+- [How to set up VPN Obfuscation on GL.iNet routers](../tutorials/vpn_obfuscation.md){target="_blank"}
 
 ---
 

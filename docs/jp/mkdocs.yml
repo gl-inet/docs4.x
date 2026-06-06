@@ -45,7 +45,8 @@ plugins:
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
         'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
-        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
+        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
+        'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
 
 extra:
@@ -101,6 +102,9 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
+  # we can use the cdn or files
+  # - javascripts/photoswipe.min.js
+  # - javascripts/photoswipe-ui-default.min.js
   - javascripts/analytics.js
   - javascripts/extra.js
   - javascripts/cookieconsent.js
@@ -160,13 +164,13 @@ nav:
       - 概要: faq/index.md
       - インターネット:
           - 初回セットアップ: faq/first_time_setup.md
-          - ブラウザの警告について: faq/warning_from_your_browser_during_setup.md
+          - ブラウザからの警告: faq/warning_from_your_browser_during_setup.md
           - インターネット接続のトラブルシューティングFAQ: faq/internet_connection_troubleshooting.md
           - キャプティブポータルでホットスポットに接続する: faq/connect_to_a_hotspot_with_captive_portal.md
-          - 有線接続を作成する: faq/produce_a_wired_connection.md
+          - Ethernet専用デバイスをWi-Fiに接続する: faq/produce_a_wired_connection.md
       - 問題通知:
           - GL-MT2500/GL-X3000/GL-XE3000 の問題通知: faq/problem_notification_for_mt2500_x3000_xe3000.md
-          - GL-X3000/GL-X2000 と EE SIM カードの問題通知と解決策: faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md
+          - GL-X3000/GL-X2000のEE SIMカード動作不能の通知と解決策: faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md
       - トラブルシューティング:
           - ウェブ管理パネルにアクセスできません: faq/cannot_access_web_admin_panel.md
           - Android 5G ホットスポットのスキャンができない: faq/cannot_scan_android_5g_hotspot.md
@@ -195,7 +199,7 @@ nav:
           - VPN 以外のトラフィックをブロックする: faq/block_non_vpn_traffic.md
           - VPN キルスイッチ: faq/block_non_vpn_traffic.md
           - TCP または UDP: faq/openvpn_tcp_udp.md
-          - AmneziaWG難読化パラメーター: faq/amneziawg_obfuscation_parameters.md
+          - AmneziaWG難読化: faq/amneziawg_obfuscation.md
           - VPN 使用時に Ethernet WAN の設定が必要か: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
       - アップグレード:
           - ファームウェアをダウンロード: faq/how_to_download_firmware.md

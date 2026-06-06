@@ -1,12 +1,16 @@
-# AmneziaWG難読化パラメーター
+# AmneziaWG 難読化
 
-AmneziaWG は、トラフィック難読化機能を内蔵した WireGuard ベースの VPN プロトコルです。難読化パラメーターは、厳しいネットワーク検閲や制御による検出を避けるために、トラフィックをどのように偽装するかを制御します。以下では、AmneziaWG の意義、バージョン差異、および各パラメーターの概要（制約条件と推奨設定を含む）を詳しく説明します。
+AmneziaWG は、トラフィック難読化機能を内蔵した WireGuard ベースの VPN プロトコルです。難読化パラメーターは、厳しいネットワーク検査下での検出を回避するために、トラフィックをどのように偽装するかを制御します。以下では、AmneziaWG の概要、バージョン間の違い、GL.iNet ルーターでの AmneziaWG、およびパラメーターの概要を詳しく説明します。
 
 ## なぜ AmneziaWG なのか？
 
 AmneziaWG の前身である WireGuard は、コンパクトなコードベースと高い効率により、高速で信頼性の高い VPN プロトコルとして広く利用されています。しかし、固定されたパケットヘッダーと予測しやすいパケットサイズにより、識別しやすいシグネチャが生まれます。DPI システムはこれらのパケットを容易に特定し、直ちに接続を遮断できます。これは、インターネット検閲が厳しい国では重大な問題です。
 
 AmneziaWG は、元の実装の設計のシンプルさと高い性能を引き継ぎつつ、WireGuard が Deep Packet Inspection（DPI）システムに容易に検出される原因となる識別可能なネットワークシグネチャを取り除いています。
+
+簡単に言うと:
+- VPN の特徴を隠し、ISP、ファイアウォール、またはディープパケットインスペクション（DPI）による検出を防ぎます。
+- VPN 接続を通常の Web トラフィックのように見せかけることで、制限されたネットワークでの接続安定性と成功率を向上させます。
 
 ## AmneziaWG V2.0
 
@@ -21,7 +25,13 @@ AmneziaWG のバージョンの見分け方は次のとおりです。
 - **V1.0**: S3~S4 パラメーターがなく、H1~H4 は単一の固定整数です。
 - **V2.0**: **S3~S4** パラメーターを含み、**H1~H4** は数値範囲として定義され、**I1~I5** パラメーターをサポートします。
 
-**注意**: I1-I5 パラメーターは自動生成されません。ユーザーは VPN 設定ファイルに追加行として手動で記述し、AmneziaWG のトラフィックを QUIC や WebRTC などの一般的なプロトコルのように見せることができます。
+> **注意**: I1-I5 パラメーターは自動生成されません。ユーザーは VPN 設定ファイルに追加行として手動で記述し、AmneziaWG のトラフィックを QUIC や WebRTC などの一般的なプロトコルのように見せることができます。
+
+## GL.iNet ルーターでの AmneziaWG
+
+現在、いくつかの GL.iNet ルーター（例：Brume 3、Flint 3、Flint 2、Beryl AX）が、特定のファームウェアバージョンで AmneziaWG プロトコルをサポートしています。正式なサポートはファームウェア ver.4.9 で提供され、順次より多くのモデルに展開される予定です。
+
+GL.iNet ルーターで VPN 難読化を設定するには、[こちら](../tutorials/vpn_obfuscation.md) を参照してください。
 
 ## パラメーター概要
 
@@ -39,6 +49,10 @@ AmneziaWG のバージョンの見分け方は次のとおりです。
 
 参考資料: [AmneziaWG 公式ドキュメント](https://docs.amnezia.org/documentation/amnezia-wg){target="_blank"}
 
+関連記事:
+
+- [GL.iNet ルーターで VPN 難読化を設定する方法](../tutorials/vpn_obfuscation.md){target="_blank"}
+
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+まだ質問がありますか？[Community Forum](https://forum.gl-inet.com){target="_blank"} をご覧いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。

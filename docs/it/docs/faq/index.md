@@ -34,7 +34,7 @@ Per i dispositivi GL.iNet KVM, fai riferimento a [GL.iNet KVM Docs](https://docs
 * [Nessuna connessione Internet dopo aver sostituito il vecchio router con un router GL.iNet](no_internet_after_replacing_the_old_router_with_glinet.md)
 * [Il modem USB non funziona correttamente sul router GL.iNet](usb_modem_is_not_working_properly_on_gl_inet_router.md)
 * [Come riparare la rete o ripristinare le impostazioni di fabbrica?](repair_network_or_reset_firmware.md)
-* [Cosa devo fare se il mio router è bloccato?](debrick.md)
+* [Cosa devo fare se il mio router è brickato?](debrick.md)
 * [macOS non riesce a scrivere su una condivisione Samba](macos_cannot_write_samba.md)
 * [Il server WireGuard non funziona correttamente](my_wireguard_server_is_not_working.md)
 * [Bloccato su "Installing" durante l'aggiornamento del firmware](stuck_on_installing_during_firmware_update.md)
@@ -54,7 +54,7 @@ Per i dispositivi GL.iNet KVM, fai riferimento a [GL.iNet KVM Docs](https://docs
 * [Come bloccare il traffico non VPN?](block_non_vpn_traffic.md)
 * [VPN Kill Switch](block_non_vpn_traffic.md)
 * [Per OpenVPN, quale protocollo dovrei scegliere: TCP o UDP?](openvpn_tcp_udp.md)
-* [Parametri di offuscamento di AmneziaWG](amneziawg_obfuscation_parameters.md)
+* [Offuscamento AmneziaWG](amneziawg_obfuscation.md)
 * [Devo configurare Ethernet WAN quando uso la VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## Aggiornamento

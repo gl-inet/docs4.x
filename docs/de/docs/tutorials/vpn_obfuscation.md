@@ -54,7 +54,7 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Sie können die [Verschleierungsparameter](../faq/amneziawg_obfuscation_parameters.md) nach Bedarf anpassen. Wir empfehlen, die Standardeinstellungen beizubehalten.
+    Sie können die Verschleierungsparameter nach Bedarf anpassen. Klicken Sie [hier](../faq/amneziawg_obfuscation.md#parameter-overview) für Details. Wir empfehlen, die Standardeinstellungen beizubehalten.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
 
@@ -88,7 +88,7 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
 1. Melden Sie sich am Web-Admin-Panel des Beryl AX an.
 
-    Verbinden Sie ein Gerät (z. B. Ihren Laptop oder PC) per Ethernet-Kabel mit dem WLAN oder LAN-Port des Beryl AX. Öffnen Sie einen Browser und geben Sie die Standard-Admin-Adresse ein (in der Regel `192.168.8.1`). Melden Sie sich anschließend mit Ihrem Admin-Passwort an.
+    Verbinden Sie ein Gerät (z. B. Ihren Laptop oder PC) mit dem WLAN des Beryl AX oder per Ethernet-Kabel mit dessen LAN-Port. Öffnen Sie einen Browser und geben Sie die Standard-Admin-Adresse ein (in der Regel `192.168.8.1`). Melden Sie sich anschließend mit Ihrem Admin-Passwort an.
 
 2. Schließen Sie die Ersteinrichtung des Beryl AX für den Internetzugang ab.
 
@@ -124,11 +124,11 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
     ![client dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_dashboard_home.png){class="glboxshadow"}
 
-#### Gegenprüfung (optional)
+5. Gegenprüfung (optional).
 
-Melden Sie sich am Web-Admin-Panel des Brume 3 an und navigieren Sie zu **VPN** -> **WireGuard Server**. Dort sehen Sie ebenfalls einen Online-Client, nämlich den Beryl AX, der aktuell mit diesem VPN-Server auf dem Brume 3 verbunden ist.
+    Melden Sie sich am Web-Admin-Panel des Brume 3 an und navigieren Sie zu **VPN** -> **WireGuard Server**. Dort sehen Sie ebenfalls einen Online-Client, nämlich den Beryl AX, der aktuell mit diesem VPN-Server auf dem Brume 3 verbunden ist.
 
-![server online client](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_online_client.png){class="glboxshadow"}
+    ![server online client](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_online_client.png){class="glboxshadow"}
 
 Die VPN-Verbindung ist damit abgeschlossen. Alle Geräte am Beryl AX greifen jetzt über das Gateway des Brume 3 auf das Internet zu, wodurch eine VPN-Verschleierungsverbindung ermöglicht wird.
 

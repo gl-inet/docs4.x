@@ -45,7 +45,8 @@ plugins:
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
         'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
-        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
+        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
+        'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
 
 extra:
@@ -199,7 +200,7 @@ nav:
       - Cómo bloquear el tráfico fuera de la VPN: faq/block_non_vpn_traffic.md
       - Kill Switch de VPN: faq/block_non_vpn_traffic.md
       - TCP o UDP: faq/openvpn_tcp_udp.md
-      - Parámetros de ofuscación de AmneziaWG: faq/amneziawg_obfuscation_parameters.md
+      - Parámetros de ofuscación de AmneziaWG: faq/amneziawg_obfuscation.md
       - Tengo que configurar Ethernet WAN al usar VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Actualización:
       - Descargar firmware: faq/how_to_download_firmware.md

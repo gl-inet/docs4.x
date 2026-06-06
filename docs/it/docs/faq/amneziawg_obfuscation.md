@@ -1,12 +1,17 @@
-# Parametri di offuscamento di AmneziaWG
+# Offuscamento AmneziaWG
 
-AmneziaWG è un protocollo VPN basato su WireGuard con offuscamento del traffico integrato. I suoi parametri di offuscamento controllano come il traffico viene mascherato per evitare il rilevamento da parte di rigidi meccanismi di controllo della rete. Di seguito trovi una panoramica dettagliata dell'importanza di AmneziaWG, delle differenze tra le versioni e dei parametri, inclusi i relativi vincoli e le impostazioni consigliate.
+AmneziaWG è un protocollo VPN basato su WireGuard con offuscamento del traffico integrato. I suoi parametri di offuscamento controllano come il traffico viene mascherato per evitare il rilevamento in reti con ispezione restrittiva. Di seguito una panoramica dettagliata di AmneziaWG, delle differenze tra le versioni, del supporto sui router GL.iNet e dei parametri.
 
 ## Perché AmneziaWG?
 
 Il predecessore di AmneziaWG, WireGuard, si è affermato come protocollo VPN veloce e affidabile grazie alla sua base di codice compatta e all'elevata efficienza. Tuttavia, i suoi header di pacchetto fissi e le dimensioni prevedibili dei pacchetti creano una firma facilmente riconoscibile. I sistemi DPI possono identificare questi pacchetti senza difficoltà e interrompere immediatamente le connessioni, un problema critico nei Paesi con una forte censura di Internet.
 
 AmneziaWG eredita la semplicità architetturale e le alte prestazioni dell'implementazione originale, ma elimina le firme di rete riconoscibili che rendono WireGuard facilmente rilevabile dai sistemi di Deep Packet Inspection (DPI).
+
+In breve:
+
+- Maschera le caratteristiche VPN per impedire il rilevamento da parte di ISP, firewall o Deep Packet Inspection (DPI).
+- Fa apparire la connessione VPN come normale traffico web, migliorando stabilità e probabilità di successo nelle reti con restrizioni.
 
 ## AmneziaWG V2.0
 
@@ -21,7 +26,13 @@ Ecco come identificare la versione di AmneziaWG:
 - **V1.0**: nessun parametro S3~S4; H1~H4 sono singoli numeri interi fissi.
 - **V2.0**: include i parametri **S3~S4**; **H1~H4** sono definiti come intervalli numerici; supporta i parametri **I1~I5**.
 
-**Nota**: i parametri I1-I5 non vengono generati automaticamente. Gli utenti possono aggiungerli manualmente come righe extra nel file di configurazione VPN per far sembrare il traffico AmneziaWG simile ad altri protocolli comuni, come QUIC o WebRTC.
+> Nota: i parametri I1-I5 non vengono generati automaticamente. Gli utenti possono aggiungerli manualmente come righe extra nel file di configurazione VPN per far sembrare il traffico AmneziaWG simile ad altri protocolli comuni, come QUIC o WebRTC.
+
+## AmneziaWG sui router GL.iNet
+
+Attualmente, diversi router GL.iNet (ad esempio Brume 3, Flint 3, Flint 2 e Beryl AX) supportano il protocollo AmneziaWG in versioni firmware selezionate. Il supporto ufficiale completo sarà disponibile con il firmware ver.4.9 e verrà gradualmente esteso ad altri modelli.
+
+Per configurare l'offuscamento VPN sui router GL.iNet, consulta [qui](../tutorials/vpn_obfuscation.md).
 
 ## Panoramica dei parametri
 
@@ -41,4 +52,10 @@ Riferimenti: [Documentazione ufficiale di AmneziaWG](https://docs.amnezia.org/do
 
 ---
 
-Hai ancora domande? Visita il nostro [Community Forum](https://forum.gl-inet.com){target="_blank"} o [contattaci](https://www.gl-inet.com/contacts/){target="_blank"}.
+Articolo correlato:
+
+- [Come configurare l'offuscamento VPN sui router GL.iNet](../tutorials/vpn_obfuscation.md){target="_blank"}
+
+---
+
+Hai ancora domande? Visita il nostro [Community Forum](https://forum.gl-inet.com){target="_blank"} o [Contattaci](https://www.gl-inet.com/contacts/){target="_blank"}.

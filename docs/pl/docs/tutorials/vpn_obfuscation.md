@@ -2,7 +2,7 @@
 
 ## Czym jest zaciemnianie VPN
 
-Zaciemnianie VPN to technika maskująca ruch VPN tak, aby wyglądał jak zwykły ruch internetowy. Pomaga ona użytkownikom omijać ograniczenia sieciowe i censurę, szczególnie w regionach o rygorystycznych przepisach internetowych.
+Zaciemnianie VPN to technika maskująca ruch VPN tak, aby wyglądał jak zwykły ruch internetowy. Pomaga ona użytkownikom omijać ograniczenia sieciowe i cenzurę, szczególnie w regionach o rygorystycznych przepisach internetowych.
 
 - Maskuje charakterystykę VPN, aby zapobiec wykryciu przez dostawców internetu, zapory sieciowe lub Deep Packet Inspection (DPI).
 
@@ -53,7 +53,7 @@ W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia 
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    Możesz dostosować [parametry zaciemniania](../faq/amneziawg_obfuscation_parameters.md) według potrzeb. Zalecamy pozostawienie ustawień domyślnych.
+    Możesz dostosować parametry zaciemniania według potrzeb. Kliknij [tutaj](../faq/amneziawg_obfuscation.md#parameter-overview), aby uzyskać szczegółowe informacje. Zalecamy pozostawienie ustawień domyślnych.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
 

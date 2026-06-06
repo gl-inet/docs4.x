@@ -24,8 +24,8 @@ Below are two typical scenarios for setting up AmneziaWG VPN obfuscation on GL.i
 
 This scenario uses two GL.iNet routers to establish a VPN obfuscation connection via the AmneziaWG protocol.
 
-- **Brume 3 (GL-MT5000)**: Acting as a VPN Server for home use.
-- **Beryl AX (GL-MT3000)**: Acting as a portable VPN Client for on-the-go use. 
+- **Brume 3 (GL-MT5000)**: A VPN Server for home use.
+- **Beryl AX (GL-MT3000)**: A portable VPN Client for on-the-go use. 
 
 #### Set up VPN Server
 
@@ -53,7 +53,7 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-    You can customize the obfuscation parameters as needed. We recommend keeping the default settings.
+    You can customize the [obfuscation parameters](../faq/amneziawg_obfuscation_parameters.md) as needed. We recommend keeping the default settings.
 
     ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
 

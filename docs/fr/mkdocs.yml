@@ -242,6 +242,7 @@ nav:
       - Autoriser l'acces au WAN lorsque le client VPN est active: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
       - Acheminer le DNS du client VPN vers le DNS amont du serveur: tutorials/route_vpn_client_dns_to_server_upstream_dns.md
       - Mettre a jour les certificats du serveur OpenVPN: tutorials/how_to_update_openvpn_server_certificates.md
+      - Contourner le VPN pour le DNS AdGuard Home: tutorials/how_to_make_adguard_home_dns_bypass_vpn.md
     - Cellulaire:
       - Transfert SMS: tutorials/sms_forwarding.md
       - Obtenir les journaux du module: tutorials/get_module_logs.md

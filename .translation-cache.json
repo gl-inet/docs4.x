@@ -4466,31 +4466,31 @@
     }
   },
   "docs/en/docs/tutorials/index.md": {
-    "source_hash": "95ca48d37c48e68150ebb2c81fabc557d62d865c73ef3c3243be47821d157878",
+    "source_hash": "73c7c5d8a21853400da1fe93b30f261deb97fd36228d7400a88dd5b69e43f988",
     "targets": {
       "de": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780722675
+        "updated_at": 1780918213
       },
       "es": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780722777
+        "updated_at": 1780918246
       },
       "fr": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780722861
+        "updated_at": 1780918276
       },
       "it": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780722917
+        "updated_at": 1780918322
       },
       "jp": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780722964
+        "updated_at": 1780918353
       },
       "pl": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780723036
+        "updated_at": 1780918424
       }
     }
   },
@@ -6032,31 +6032,31 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "d24813ed1b5fd15dc35f13b7fe44ccda6ec82fe10b54e2d9ac7435e7efb016f0",
+    "source_hash": "1ece1ba24db7f7f85d7b6283cfc808d8804859aa2ea0cbc589498699d8a2e141",
     "targets": {
       "de": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780720404
+        "updated_at": 1780916947
       },
       "es": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780720660
+        "updated_at": 1780917125
       },
       "fr": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780720855
+        "updated_at": 1780917336
       },
       "it": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780721115
+        "updated_at": 1780917502
       },
       "jp": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780721344
+        "updated_at": 1780917614
       },
       "pl": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780721499
+        "updated_at": 1780917779
       }
     }
   },
@@ -6233,5 +6233,34 @@
       }
     },
     "source_hash": "1e3c4d14fedb2219698add8ca113cdeb348c9208efa4cba7bdc068784a4ce1d7"
+  },
+  "docs/en/docs/tutorials/how_to_make_adguard_home_dns_bypass_vpn.md": {
+    "source_hash": "dd75e25e958d0fcfa63697dd32fddcb91df8ca6d514ae375b2bf0a6813d73366",
+    "targets": {
+      "de": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780917850
+      },
+      "es": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780917907
+      },
+      "fr": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780917968
+      },
+      "it": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780918031
+      },
+      "jp": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780918088
+      },
+      "pl": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780918150
+      }
+    }
   }
 }

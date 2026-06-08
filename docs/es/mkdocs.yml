@@ -1,3 +1,4 @@
+```yaml
 repo_name: gl-inet/docs4.x
 repo_url: https://github.com/gl-inet/docs4.x
 edit_uri: ""
@@ -242,6 +243,7 @@ nav:
       - Permitir acceso a la WAN cuando el cliente VPN está habilitado: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
       - Enrutar el DNS del cliente VPN al DNS ascendente del servidor: tutorials/route_vpn_client_dns_to_server_upstream_dns.md
       - Actualizar los certificados del servidor OpenVPN: tutorials/how_to_update_openvpn_server_certificates.md
+      - Hacer que el DNS de AdGuard Home evite la VPN: tutorials/how_to_make_adguard_home_dns_bypass_vpn.md
     - Celular:
       - Reenvío de SMS: tutorials/sms_forwarding.md
       - Obtener registros del módulo: tutorials/get_module_logs.md
@@ -363,3 +365,4 @@ nav:
     - Tutoriales: video_library/tutorials.md
   - Comunidad:
     - Información general: community/index.md
+```

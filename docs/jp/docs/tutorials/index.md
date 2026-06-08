@@ -31,6 +31,7 @@ hide:
 * [VPNクライアントが有効なときにWANへのアクセスを許可する方法](how_to_allow_access_to_wan_when_vpn_client_enabled.md)
 * [VPNクライアントのDNSクエリをVPNサーバーの上流DNSにルーティングする方法](route_vpn_client_dns_to_server_upstream_dns.md)
 * [OpenVPNサーバー証明書を更新する方法](how_to_update_openvpn_server_certificates.md)
+* [AdGuard Home DNSがVPNをバイパスするように設定する方法](how_to_make_adguard_home_dns_bypass_vpn.md)
 
 ## セルラー
 

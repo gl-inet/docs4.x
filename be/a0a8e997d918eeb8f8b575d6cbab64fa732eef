@@ -1,0 +1,33 @@
+docs/en/docs/faq/mobile_app.md
+  s_007acd2f427853::t_780b39ee9d92ce 3
+docs/en/docs/faq/debrick.md
+  s_007acd2f427853::t_43019c5fde145a 123
+docs/en/docs/faq/cannot_access_web_admin_panel.md
+  s_007acd2f427853::t_425a9ab51c0783 49,53,57,61,71,79,83,90
+  h_dd47ed8a860c1a 5
+docs/en/docs/interface_guide/internet_tethering.md
+  s_007acd2f427853::t_f4d0370ceda57e 13,17,33
+docs/en/docs/faq/upgrade_uboot_version.md
+  s_007acd2f427853::t_f99863aa46183d 43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "bea0a8e997d918eeb8f8b575d6cbab64fa732eef",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_007acd2f427853": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6c4512bd-e5c4-41dc-8fd8-d2812c230821",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

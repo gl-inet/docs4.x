@@ -54,7 +54,7 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 * [非VPNトラフィックをブロックする方法は？](block_non_vpn_traffic.md)
 * [VPNキルスイッチ](block_non_vpn_traffic.md)
 * [OpenVPNでは、TCPとUDPのどちらのプロトコルを選ぶべきですか？](openvpn_tcp_udp.md)
-* [AmneziaWG難読化パラメーター](amneziawg_obfuscation_parameters.md)
+* [AmneziaWG難読化](amneziawg_obfuscation.md)
 * [VPN使用時にイーサネットWANを設定する必要がありますか？](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## アップグレード
@@ -64,12 +64,12 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 
 ## その他
 
-* [LEDインジケーター](led.md)
+* [LEDインジケーターの状態](led.md)
 * [GL.iNetモバイルアプリ](mobile_app.md)
 * [モバイルアプリにBrume 2を追加する方法は？](how_to_add_brume2_into_app.md)
 * [WANポートをLANポートに変更する方法は？](change_wan_to_lan.md)
-* [HTTPSを使用してGL-iNetルーターとAdguard Homeにアクセスする方法は？](use_https_for_adh.md)
-* [GL-iNetルーターをStarlink Dishに接続する方法は？](connect_glinetrouter_to_starlink.md)
+* [HTTPSを使用してGL.iNetルーターとAdguard Homeにアクセスする方法は？](use_https_for_adh.md)
+* [GL.iNetルーターをStarlink Dishに接続する方法は？](connect_glinetrouter_to_starlink.md)
 * [ルーターのウェブ管理パネルにリモートアクセスする方法は？](remote_access_web_admin_panel.md)
 * [ルーターにリモートSSHする方法は？](remote_ssh_to_router.md)
 * [ISPがパブリックIPアドレスを割り当てているかどうかを確認する方法は？](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)

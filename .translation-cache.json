@@ -28,35 +28,6 @@
       }
     }
   },
-  "docs/en/docs/faq/amneziawg_obfuscation_parameters.md": {
-    "source_hash": "6848f4b2408a3dbf36ba3a3759b5b28baf29fe382243e87955d448af01044767",
-    "targets": {
-      "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780717079
-      },
-      "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780717126
-      },
-      "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780717223
-      },
-      "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780717271
-      },
-      "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780717366
-      },
-      "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780717420
-      }
-    }
-  },
   "docs/en/docs/faq/block_non_vpn_traffic.md": {
     "source_hash": "ba072a2ff5a6f604d5ca92fb2dd22253fb1c088e5bc087de75f5720139166b29",
     "targets": {
@@ -87,31 +58,31 @@
     }
   },
   "docs/en/docs/faq/cannot_access_web_admin_panel.md": {
-    "source_hash": "51dff7817ecdecb80cf68ffed0d071fdcf205074d11f57888918f6b0f7eedcc1",
+    "source_hash": "626076ad5fae023025e8a7684ac688d75487ff57cfcaedd17a1e0ce4106f98d2",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780888025
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780888141
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780888248
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576317
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780888361
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775603792
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780888500
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605756
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780888608
       }
     }
   },
@@ -290,31 +261,31 @@
     }
   },
   "docs/en/docs/faq/debrick.md": {
-    "source_hash": "11fa8f5dc2028b6bd6d7065c1a254cb71e0af2539da1c6ccc782f332a6bec819",
+    "source_hash": "94a69a3c6c9be1efc48ae4a9fc7ab2a953c3dc43501153a2b435e18721e26a05",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1779027549
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780888707
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780888819
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1779027523
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780888944
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1779027510
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889054
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1779027869
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889212
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1779027845
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889309
       }
     }
   },
@@ -551,31 +522,31 @@
     }
   },
   "docs/en/docs/faq/index.md": {
-    "source_hash": "162d1c5adfdcb35f27525b8389322adc33ca1831cc87aeba4f455d0dcb2fb96b",
+    "source_hash": "443830d45255dc297f79e99bbbbe99041acd9263fb57cc5b32b6d664f4c8535c",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1779027549
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722156
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1779027567
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722250
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1779027523
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722320
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1779027510
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722436
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1779027869
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722545
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1779027845
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722627
       }
     }
   },
@@ -696,31 +667,31 @@
     }
   },
   "docs/en/docs/faq/mobile_app.md": {
-    "source_hash": "fec6fe1c1c49143871fc908a52f8a910e3a97059dad057a3d6bb03053d5a6457",
+    "source_hash": "916f20945205d966f28806c8cbd060bd04c0058b2ee0631c0ce96ea36acae979",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889338
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889360
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889379
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576476
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889399
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889417
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605808
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889702
       }
     }
   },
@@ -1102,31 +1073,31 @@
     }
   },
   "docs/en/docs/faq/upgrade_uboot_version.md": {
-    "source_hash": "fa90ef0c5609c6fd79a356b62f3c5c04dccf5a23c390f6d7e50e703c1fa86a5b",
+    "source_hash": "1f9377375fe616a45bc7ead95dd115b85474d3d79938aa9578d6f7f812ad68cf",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1776635437
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889795
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889855
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889919
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780889977
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780890070
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780890165
       }
     }
   },
@@ -2262,31 +2233,31 @@
     }
   },
   "docs/en/docs/interface_guide/internet_tethering.md": {
-    "source_hash": "f3002e4bc6a3b29443939e3d20457981e1b2ce8ed96ce4c7e719ce3a15865807",
+    "source_hash": "ab5bd9ef2d26b8a62cdc2bf9e4809a4f07d2df2a6956569e9c1386633d69621a",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780890212
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780890291
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780890384
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775026260
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780890474
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566168
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780890538
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605840
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780890592
       }
     }
   },
@@ -4495,31 +4466,31 @@
     }
   },
   "docs/en/docs/tutorials/index.md": {
-    "source_hash": "84b979f5cb64598d2388206d9cf3e5c0504934749ffca14213ff2a4d6c31174a",
+    "source_hash": "95ca48d37c48e68150ebb2c81fabc557d62d865c73ef3c3243be47821d157878",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1777158166
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722675
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1777158166
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722777
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1777158166
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722861
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1777158166
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722917
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1777158166
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722964
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1777158166
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780723036
       }
     }
   },
@@ -4785,31 +4756,31 @@
     }
   },
   "docs/en/docs/tutorials/vpn_obfuscation.md": {
-    "source_hash": "c1556f20ee14a00dc2c7298790805fc8b76181310bb6af686e3aa17fe71cb255",
+    "source_hash": "369b2dd0a8bbfa07f548f243aea8acc3fd805ba9b9831336cf05c3dc1efbce51",
     "targets": {
       "de": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780717578
+        "updated_at": 1780723160
       },
       "es": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780717655
+        "updated_at": 1780723272
       },
       "fr": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780717722
+        "updated_at": 1780723354
       },
       "it": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780717806
+        "updated_at": 1780723484
       },
       "jp": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780717920
+        "updated_at": 1780723609
       },
       "pl": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780717981
+        "updated_at": 1780723699
       }
     }
   },
@@ -6061,31 +6032,31 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "5e6e2626a0a980f484a208f573b278a7a2b611249fb8601cbb2f52a8855ffea8",
+    "source_hash": "d24813ed1b5fd15dc35f13b7fe44ccda6ec82fe10b54e2d9ac7435e7efb016f0",
     "targets": {
       "de": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780340869
+        "updated_at": 1780720404
       },
       "es": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780341054
+        "updated_at": 1780720660
       },
       "fr": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780341255
+        "updated_at": 1780720855
       },
       "it": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780341560
+        "updated_at": 1780721115
       },
       "jp": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780341812
+        "updated_at": 1780721344
       },
       "pl": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780341992
+        "updated_at": 1780721499
       }
     }
   },
@@ -6233,5 +6204,34 @@
         "updated_at": 1780366128
       }
     }
+  },
+  "docs/en/docs/faq/amneziawg_obfuscation.md": {
+    "targets": {
+      "de": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780721575
+      },
+      "es": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780721638
+      },
+      "fr": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780721724
+      },
+      "it": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780721835
+      },
+      "jp": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780721914
+      },
+      "pl": {
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780722018
+      }
+    },
+    "source_hash": "1e3c4d14fedb2219698add8ca113cdeb348c9208efa4cba7bdc068784a4ce1d7"
   }
 }

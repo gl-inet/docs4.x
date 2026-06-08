@@ -1,6 +1,6 @@
 # Application GL.iNet
 
-![GL.iNet app icon](https://static.gl-inet.com/docs/router/en/3/tutorials/mobile_app/app-icon_v2_256x256.png){class="glboxshadow" width="128" style="border-radius:15px"}
+![GL.iNet app icon](https://static.gl-inet.com/docs/router/en/4/faq/mobile_app/app-icon_v2_256x256.png){class="glboxshadow" width="128" style="border-radius:15px"}
 
 Pour les utilisateurs iOS, téléchargez l'application depuis l'[App Store](https://apps.apple.com/us/app/gl-inet/id1523245996){target="_blank"}
 

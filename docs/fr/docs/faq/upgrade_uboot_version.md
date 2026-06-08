@@ -40,7 +40,7 @@ Veuillez suivre la procédure ci-dessous pour accéder à la page de mise à niv
 
         5. Définissez le **Subnet mask** sur `255.255.255.0`.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
 
         6. Cliquez sur le bouton **OK**.
 
@@ -90,9 +90,9 @@ Veuillez suivre la procédure ci-dessous pour accéder à la page de mise à niv
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-4. **Utilisez Google Chrome/Microsoft Edge pour ouvrir `http://192.168.1.1/uboot.html`**
+4. **Utilisez Google Chrome ou Microsoft Edge pour accéder à `http://192.168.1.1/uboot.html`**. Assurez-vous de saisir l'URL complète pour éviter les suggestions en cache qui mènent à une mauvaise adresse.
 
-    **N'utilisez PAS Mozilla/Firefox, car cela peut briquer votre routeur.**
+    **N'utilisez PAS Mozilla Firefox, car cela peut briquer votre routeur.**
 
     ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 

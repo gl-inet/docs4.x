@@ -40,7 +40,7 @@ Please follow the procedures below to access the U-Boot upgrade page.
 
         5. Set the **Subnet mask** to `255.255.255.0`.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
 
         6. Click the **OK** button.
 

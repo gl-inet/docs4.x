@@ -120,7 +120,7 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
         5. Définissez le **Subnet mask** sur `255.255.255.0`.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
 
         6. Cliquez sur le bouton **OK**.
 

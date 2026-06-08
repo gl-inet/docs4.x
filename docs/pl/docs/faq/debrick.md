@@ -8,7 +8,7 @@ Jeśli router został uszkodzony po własnych modyfikacjach lub wgraniu niewła�
 
 ## Przygotowanie
 
-Przygotuj komputer stacjonarny lub laptop z portem Ethernet. Jeśli komputer nie ma portu Ethernet, potrzebny będzie dodatkowy adapter USB-Ethernet.
+Przygotuj komputer lub laptop z portem Ethernet. Jeśli komputer nie ma portu Ethernet, potrzebny będzie dodatkowy adapter USB-Ethernet.
 
 **Uwaga**: GL-E5800 (Mudi 7) obecnie nie obsługuje wgrywania firmware przez U-Boot.
 
@@ -120,7 +120,7 @@ Obejrzyj ten samouczek wideo lub wykonaj poniższe czynności, aby uzyskać dost
 
         5. Ustaw **Subnet mask** na `255.255.255.0`.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
 
         6. Kliknij przycisk **OK**.
 

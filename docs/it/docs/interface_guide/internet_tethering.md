@@ -8,13 +8,13 @@ Usare un cavo USB per condividere la rete dallo smartphone al router si chiama T
 
 === "iPhone"
 
-    1. Collega un iPhone alla porta USB del router tramite un cavo USB. Apparira' una finestra di sistema che chiede se fidarsi del dispositivo. Tocca **Trust** per procedere.
+    1. Collega un iPhone alla porta USB del router tramite un cavo USB. Apparira' una finestra di sistema che chiede se fidarsi del dispositivo. Tocca **Trust** per procedere. 
 
-        ![ios trust device](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_trust_this_computer.png){class="glboxshadow"}
+        ![ios trust device](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_trust_this_computer.png){class="glboxshadow"}
 
     2. Vai su **Settings** -> **Personal Hotspot** dell'iPhone. Abilita **Allow Others to Join**.
 
-        ![ios allow others to join](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow" width=400}
+        ![ios allow others to join](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow" width=400}
 
     3. Collega un computer o un altro telefono al router, quindi accedi al pannello di amministrazione web del router, vai alla sezione **INTERNET** -> **Tethering** e fai clic su **Connect**.
 
@@ -30,7 +30,7 @@ Usare un cavo USB per condividere la rete dallo smartphone al router si chiama T
 
     4. Una volta connesso, lo stato dell'hotspot personale, ad esempio il numero di dispositivi collegati, appare nella barra di stato nella parte superiore dello schermo del telefono.
 
-        ![personal hotspot status](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
+        ![personal hotspot status](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
 
         Anche il pannello di amministrazione web mostrera' lo stato della connessione Tethering.
 
@@ -44,7 +44,7 @@ Usare un cavo USB per condividere la rete dallo smartphone al router si chiama T
 
     2. Vai su **Settings** -> **Network & Internet** -> **Personal Hotspot** del telefono. Abilita **Personal Hotspot** oppure **USB Tethering**.
 
-        I passaggi per abilitare USB Tethering variano in base alla marca. Controlla le impostazioni del dispositivo per la posizione esatta e contatta il supporto del produttore se necessario.
+        (I passaggi per abilitare USB Tethering variano in base alla marca. Controlla le impostazioni del dispositivo per la posizione esatta e contatta il supporto del produttore se necessario.)
 
         ![android personal hotspot](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/android_personal_hotspot.png){class="glboxshadow"}
 
@@ -87,8 +87,8 @@ Se la connessione non riesce, prova questi passaggi di risoluzione dei problemi:
 - Usa l'alimentatore originale del router.
 - Scollega e ricollega il cavo USB.
 - Usa un altro cavo USB. Assicurati che supporti il trasferimento dati, non solo la ricarica.
-- Disattiva e riattiva "USB Tethering" alcune volte, per telefoni Android.
-- Disattiva e riattiva "Allow Others to Join" alcune volte, per iPhone.
+- Disattiva e riattiva "USB Tethering" alcune volte (per telefoni Android).
+- Disattiva e riattiva "Allow Others to Join" alcune volte (per iPhone).
 - Riavvia lo smartphone e riprova.
 
 ---

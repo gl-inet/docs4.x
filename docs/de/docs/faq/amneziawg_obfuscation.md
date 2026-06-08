@@ -1,12 +1,17 @@
 # AmneziaWG-Verschleierungsparameter
 
-AmneziaWG ist ein WireGuard-basiertes VPN-Protokoll mit integrierter Verschleierung des Datenverkehrs. Seine Verschleierungsparameter steuern, wie der Datenverkehr getarnt wird, um einer Erkennung durch strenge Netzwerkdurchsetzungsmechanismen zu entgehen. Nachfolgend finden Sie eine detaillierte Erläuterung zur Bedeutung von AmneziaWG, zu den Versionsunterschieden und zu den Parametern im Überblick, einschließlich ihrer Einschränkungen und empfohlenen Einstellungen.
+AmneziaWG ist ein WireGuard-basiertes VPN-Protokoll mit integrierter Verschleierung des Datenverkehrs. Seine Verschleierungsparameter steuern, wie der Datenverkehr getarnt wird, um einer Erkennung durch strenge Netzwerkinspektion zu entgehen. Nachfolgend finden Sie eine detaillierte Erläuterung von AmneziaWG, den Versionsunterschieden, AmneziaWG auf GL.iNet-Routern sowie den Parametern im Überblick.
 
 ## Warum AmneziaWG?
 
-Der Vorgänger von AmneziaWG, WireGuard, hat sich dank seines kompakten Codebestands und seiner hohen Effizienz als schnelles und zuverlässiges VPN-Protokoll etabliert. Seine festen Paket-Header und vorhersagbaren Paketgrößen erzeugen jedoch ein leicht erkennbares Signaturmuster. DPI-Systeme können diese Pakete mühelos identifizieren und Verbindungen sofort beenden - ein kritisches Problem in Ländern mit strenger Internetzensur.
+Der Vorgänger von AmneziaWG, WireGuard, hat sich dank seines kompakten Codebestands und seiner hohen Effizienz als schnelles und zuverlässiges VPN-Protokoll etabliert. Seine festen Paket-Header und vorhersagbaren Paketgrößen erzeugen jedoch ein leicht erkennbares Signaturmuster. DPI-Systeme können diese Pakete mühelos identifizieren und Verbindungen sofort beenden – ein kritisches Problem in Ländern mit strenger Internetzensur.
 
 AmneziaWG übernimmt die architektonische Einfachheit und hohe Leistung der Originalimplementierung, beseitigt jedoch die erkennbaren Netzwerksignaturen, die WireGuard für Deep Packet Inspection (DPI)-Systeme leicht nachweisbar machen.
+
+Kurz gesagt:
+
+- Es maskiert VPN-Merkmale, um eine Erkennung durch ISPs, Firewalls oder Deep Packet Inspection (DPI) zu verhindern.
+- Es lässt Ihre VPN-Verbindung wie gewöhnlichen Web-Datenverkehr erscheinen, was die Verbindungsstabilität und Erfolgsquote in eingeschränkten Netzwerken verbessert.
 
 ## AmneziaWG V2.0
 
@@ -23,6 +28,12 @@ So erkennen Sie die AmneziaWG-Version:
 
 **Hinweis**: Die Parameter I1-I5 werden nicht automatisch generiert. Benutzer können sie manuell als zusätzliche Zeilen in der VPN-Konfigurationsdatei ergänzen, damit AmneziaWG-Datenverkehr wie andere gängige Protokolle wie QUIC oder WebRTC aussieht.
 
+## AmneziaWG auf GL.iNet-Routern
+
+Derzeit unterstützen mehrere GL.iNet-Router (z.B. Brume 3, Flint 3, Flint 2 und Beryl AX) das AmneziaWG-Protokoll in ausgewählten Firmware-Versionen. Die vollständige offizielle Unterstützung wird in Firmware-Version 4.9 verfügbar sein und schrittweise auf weitere Modelle ausgeweitet.
+
+Um die VPN-Verschleierung auf GL.iNet-Routern einzurichten, lesen Sie bitte [hier](../tutorials/vpn_obfuscation.md).
+
 ## Überblick über die Parameter {#parameter-overview}
 
 | Parameter | Beschreibung | Einschränkungen | Automatisch generiert |
@@ -38,6 +49,12 @@ So erkennen Sie die AmneziaWG-Version:
 | I1~I5 | Signaturpakete zur Protokollnachahmung | beliebiger Hex-Blob | N/A |
 
 Referenzen: [Offizielle AmneziaWG-Dokumentation](https://docs.amnezia.org/documentation/amnezia-wg){target="_blank"}
+
+---
+
+Verwandter Artikel:
+
+- [VPN-Verschleierung auf GL.iNet-Routern einrichten](../tutorials/vpn_obfuscation.md){target="_blank"}
 
 ---
 

@@ -44,9 +44,10 @@ plugins:
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
-        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation_parameters.md'
-        'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
         'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
+        'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
+        'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
+        'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
 
 extra:
   social:
@@ -199,7 +200,7 @@ nav:
       - Nicht-VPN-Datenverkehr blockieren: faq/block_non_vpn_traffic.md
       - VPN Kill Switch: faq/block_non_vpn_traffic.md
       - TCP oder UDP: faq/openvpn_tcp_udp.md
-      - AmneziaWG-Verschleierungsparameter: faq/amneziawg_obfuscation_parameters.md
+      - AmneziaWG-Verschleierung: faq/amneziawg_obfuscation.md
       - Muss ich Ethernet WAN bei Verwendung eines VPN konfigurieren?: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Upgrade:
       - Firmware herunterladen: faq/how_to_download_firmware.md
@@ -271,7 +272,7 @@ nav:
       - T-Mobile-SIM-Karten aktivieren oder aufladen: tutorials/how_to_activate_top_up_sim_cards.md
       - NAT-Typ beim Gaming ändern: tutorials/how_to_change_the_nat_type_on_gaming.md
       - Protokoll der mobilen App abrufen: tutorials/how_to_retrieve_the_mobile_app_log.md
-      - Domain- und IP-Filterregeln für VPN konfigurieren: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
+      - Domain- und IP-Filterregeln konfigurieren: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
       - Technischer Support über GoodCloud: tutorials/technical_support_via_goodcloud.md
   - Oberflächenleitfaden:
     - Übersicht: interface_guide/index.md
@@ -311,9 +312,9 @@ nav:
       - ZeroTier: interface_guide/zerotier.md
       - Tor: interface_guide/tor.md
       - eSIM-Verwaltung: interface_guide/esim_management.md
-    - Network:
+    - Netzwerk:
       - Firewall: interface_guide/firewall.md
-      - Port Forwarding: interface_guide/port_forwarding.md
+      - Portweiterleitung: interface_guide/port_forwarding.md
       - Multi-WAN: interface_guide/multi-wan.md
       - LAN: interface_guide/lan.md
       - Gastnetzwerk: interface_guide/guest_network.md

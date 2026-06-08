@@ -14,7 +14,7 @@ AmneziaWG es un protocolo VPN basado en WireGuard, con ofuscación de tráfico i
 
 AmneziaWG es compatible con una amplia gama de dispositivos, incluidos Windows, macOS, iOS, Android, Linux y routers, y ofrece conexiones VPN ofuscadas fiables en distintos escenarios.
 
-Actualmente, varios routers GL.iNet, por ejemplo **Brume 3**, **Flint 3**, **Flint 2** y **Beryl AX**, admiten el protocolo AmneziaWG en determinadas versiones de firmware. La compatibilidad oficial completa estará disponible en el firmware ver. 4.9 y se extenderá gradualmente a más modelos.
+Actualmente, varios routers GL.iNet, por ejemplo **Brume 3**, **Flint 3**, **Flint 2** y **Beryl AX**, admiten el protocolo AmneziaWG en determinadas versiones de firmware. La compatibilidad oficial completa estará disponible en el firmware ver.4.9 y se extenderá gradualmente a más modelos.
 
 ## Configuración rápida
 
@@ -49,11 +49,11 @@ Este escenario utiliza dos routers GL.iNet para establecer una conexión VPN ofu
 
 4. Habilite VPN Obfuscation.
 
-   En la barra lateral izquierda, vaya a **VPN** -> **WireGuard Server** -> pestaña **Configurations**, active **Enable Obfuscation** y haga clic en **Apply**.
+   En la barra lateral izquierda, vaya a **VPN** > **WireGuard Server** -> **Configurations** tab, active **Enable Obfuscation** y haga clic en **Apply**.
 
    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation1.png){class="glboxshadow"}
 
-   Puede personalizar los [parámetros de ofuscación](../faq/amneziawg_obfuscation_parameters.md) según sus necesidades. Recomendamos mantener la configuración predeterminada.
+   Puede personalizar los parámetros de ofuscación según sea necesario. Haga clic [aquí](../faq/amneziawg_obfuscation.md#parameter-overview) para obtener más detalles. Recomendamos mantener la configuración predeterminada.
 
    ![enable obfuscation](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_obfuscation2.png){class="glboxshadow"}
 
@@ -95,7 +95,7 @@ Este escenario utiliza dos routers GL.iNet para establecer una conexión VPN ofu
 
 3. Suba el archivo de configuración.
 
-   En la barra lateral izquierda, vaya a **VPN** -> **WireGuard Client**. Añada un grupo nuevo y establezca un nombre descriptivo, por ejemplo Home Router.
+   En la barra lateral izquierda, vaya a **VPN** > **WireGuard Client**. Añada un grupo nuevo y establezca un nombre descriptivo, por ejemplo Home Router.
 
    ![client add a group](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_add_group.png){class="glboxshadow"}
 
@@ -175,7 +175,7 @@ Tomemos StarVPN como ejemplo.
 
 3. Suba el archivo de configuración.
 
-   En la barra lateral izquierda, vaya a **VPN** -> **WireGuard Client**. Añada un grupo nuevo y establezca un nombre descriptivo, por ejemplo AmneziaVPN.
+   En la barra lateral izquierda, vaya a **VPN** > **WireGuard Client**. Añada un grupo nuevo y establezca un nombre descriptivo, por ejemplo AmneziaVPN.
 
    ![client amnezia add a group](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_amnezia_add_group.png){class="glboxshadow"}
 

@@ -18,7 +18,7 @@ Para los dispositivos KVM de GL.iNet, consulte [GL.iNet KVM Docs](https://docs.g
 - [¿Cómo conectar un router GL.iNet a puntos de acceso públicos con portal cautivo?](connect_to_a_hotspot_with_captive_portal.md)
 - [¿Cómo conectar a Wi-Fi un dispositivo solo con Ethernet mediante un router GL.iNet?](produce_a_wired_connection.md)
 
-## Notificaciones de problemas
+## Notificación de problemas
 
 - [Notificación de problema para GL-MT2500/GL-X3000/GL-XE3000](problem_notification_for_mt2500_x3000_xe3000.md)
 - [Notificación de problema y soluciones para el fallo de GL-X3000/GL-X2000 al funcionar con tarjetas SIM de EE](problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md)
@@ -54,7 +54,7 @@ Para los dispositivos KVM de GL.iNet, consulte [GL.iNet KVM Docs](https://docs.g
 - [¿Cómo bloquear el tráfico que no pasa por la VPN?](block_non_vpn_traffic.md)
 - [Kill Switch de la VPN](block_non_vpn_traffic.md)
 - [Para OpenVPN, ¿qué protocolo debo elegir, TCP o UDP?](openvpn_tcp_udp.md)
-- [Parámetros de ofuscación de AmneziaWG](amneziawg_obfuscation_parameters.md)
+- [Ofuscación de AmneziaWG](amneziawg_obfuscation.md)
 - [¿Tengo que configurar Ethernet WAN al usar VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## Actualización
@@ -68,7 +68,7 @@ Para los dispositivos KVM de GL.iNet, consulte [GL.iNet KVM Docs](https://docs.g
 - [Aplicación móvil de GL.iNet](mobile_app.md)
 - [¿Cómo agregar Brume 2 a la aplicación móvil?](how_to_add_brume2_into_app.md)
 - [¿Cómo cambiar un puerto WAN a un puerto LAN?](change_wan_to_lan.md)
-- [¿Cómo usar HTTPS para acceder al router GL.iNet y a AdGuard Home?](use_https_for_adh.md)
+- [¿Cómo usar HTTPS para acceder al router GL.iNet y a Adguard Home?](use_https_for_adh.md)
 - [¿Cómo conectar un router GL.iNet a una antena Starlink?](connect_glinetrouter_to_starlink.md)
 - [¿Cómo acceder de forma remota al panel de administración web del router?](remote_access_web_admin_panel.md)
 - [¿Cómo acceder por SSH al router de forma remota?](remote_ssh_to_router.md)

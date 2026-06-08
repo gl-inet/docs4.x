@@ -10,11 +10,11 @@ Compartir la red desde su smartphone al router mediante un cable USB se denomina
 
     1. Conecte un iPhone al puerto USB del router mediante un cable USB. Aparecerá un cuadro de diálogo del sistema preguntando si confía en el dispositivo. Toque **Trust** para continuar.
 
-        ![ios trust device](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_trust_this_computer.png){class="glboxshadow"}
+        ![ios trust device](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_trust_this_computer.png){class="glboxshadow"}
 
     2. Vaya a **Settings** -> **Personal Hotspot** del iPhone. Habilite **Allow Others to Join**.
 
-        ![ios allow others to join](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow" width=400}
+        ![ios allow others to join](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow" width=400}
 
     3. Conecte un ordenador u otro teléfono al router y, a continuación, inicie sesión en el panel web de administración del router. Vaya a la sección **INTERNET** -> **Tethering** y haga clic en **Connect**.
 
@@ -30,7 +30,7 @@ Compartir la red desde su smartphone al router mediante un cable USB se denomina
 
     4. Una vez conectado, el estado del hotspot personal, como el número de dispositivos conectados, aparecerá en la barra de estado de la parte superior de la pantalla del teléfono.
 
-        ![personal hotspot status](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
+        ![personal hotspot status](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
 
         El panel web de administración también mostrará el estado de la conexión Tethering.
 

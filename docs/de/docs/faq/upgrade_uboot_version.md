@@ -2,7 +2,7 @@
 
 ## Warnung
 
-**Das Aktualisieren von U-Boot ist sehr gefährlich und wird im Allgemeinen nicht empfohlen. Wenn dabei etwas schiefgeht, wird Ihr Gerät unbrauchbar und kann nicht wiederhergestellt werden. Führen Sie dies nur durch, wenn es notwendig ist oder Sie vom GL.iNet-Support dazu aufgefordert wurden**.
+**Das Aktualisieren von U-Boot ist sehr gefährlich und wird im Allgemeinen nicht empfohlen. Wenn es fehlschlägt, wird Ihr Gerät unbrauchbar und es gibt keine Möglichkeit, es wiederherzustellen. Führen Sie dies nur durch, wenn es notwendig ist oder Sie vom GL.iNet-Support dazu aufgefordert wurden**.
 
 **Schalten Sie die Stromversorgung während des Aktualisierungsvorgangs NICHT aus, da das Upgrade sonst fehlschlagen und das Gerät unbrauchbar werden kann**.
 
@@ -40,13 +40,13 @@ Bitte befolgen Sie die untenstehenden Schritte, um die U-Boot-Aktualisierungssei
 
         5. Stellen Sie die **Subnet mask** auf `255.255.255.0` ein.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
 
         6. Klicken Sie auf die Schaltfläche **OK**.
 
     ??? "Windows 11"
 
-        7. Öffnen Sie **Settings**.
+        7. Öffnen Sie Settings.
 
         8. Klicken Sie auf **Network & Internet**.
 
@@ -90,9 +90,9 @@ Bitte befolgen Sie die untenstehenden Schritte, um die U-Boot-Aktualisierungssei
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
-4. **Verwenden Sie Google Chrome/Microsoft Edge, um `http://192.168.1.1/uboot.html` aufzurufen**. Achten Sie darauf, die vollständige URL einzugeben, damit keine zwischengespeicherten Vorschläge auf eine falsche Adresse verweisen.
+4. **Verwenden Sie Google Chrome oder Microsoft Edge, um `http://192.168.1.1/uboot.html` aufzurufen**. Achten Sie darauf, die vollständige URL einzugeben, damit keine zwischengespeicherten Vorschläge auf eine falsche Adresse verweisen.
 
-    **Verwenden Sie NICHT Mozilla/Firefox, da Ihr Router dadurch unbrauchbar werden kann.**
+    **Verwenden Sie NICHT Mozilla Firefox, da Ihr Router dadurch unbrauchbar werden kann.**
 
     ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 

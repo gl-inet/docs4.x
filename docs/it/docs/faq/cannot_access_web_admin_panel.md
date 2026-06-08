@@ -2,7 +2,7 @@
 
 A volte potresti non riuscire ad accedere a [http://192.168.8.1](http://192.168.8.1) e quindi non riuscire ad accedere al pannello di amministrazione web. Le cause possibili possono essere diverse.
 
-![can't access admin](https://static.gl-inet.com/docs/router/en/4/tutorials/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
+![can't access admin](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/cantaccessadmin.jpg){class="glboxshadow"}
 
 ## Possibili cause
 
@@ -46,19 +46,19 @@ Segui i passaggi seguenti per controllare l'indirizzo IP del router.
 
     Accedi al Pannello di controllo e assicurati che nell'angolo in alto a destra sia selezionata la visualizzazione con icone grandi o piccole.
 
-    ![control panel](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/control_panel_view_by.png){class="glboxshadow"}
+    ![control panel](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/control_panel_view_by.png){class="glboxshadow"}
 
     Pannello di controllo -> Centro connessioni di rete e condivisione -> fai clic sulla connessione. Potresti avere più connessioni: scegli quella corrispondente al router che vuoi controllare.
 
-    ![network and sharing center, connections](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/network_and_sharing_center_connections.png){class="glboxshadow"}
+    ![network and sharing center, connections](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/network_and_sharing_center_connections.png){class="glboxshadow"}
 
     Si aprirà una finestra con lo stato della connessione. Fai clic sul pulsante dei dettagli.
 
-    ![network and sharing center, connections status](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/network_and_sharing_center_connections_status.png){class="glboxshadow"}
+    ![network and sharing center, connections status](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/network_and_sharing_center_connections_status.png){class="glboxshadow"}
 
     Si aprirà una finestra con i dettagli della connessione di rete: l'indirizzo IP del router corrisponde a **IPv4 Default Gateway**.
 
-    ![network and sharing center, connections status detail](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/network_and_sharing_center_connections_status_detail.png){class="glboxshadow"}
+    ![network and sharing center, connections status detail](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/network_and_sharing_center_connections_status_detail.png){class="glboxshadow"}
 
 === "Windows 7"
 
@@ -68,7 +68,7 @@ Segui i passaggi seguenti per controllare l'indirizzo IP del router.
 
     L'indirizzo IP del router corrisponde a **IPv4 Default Gateway**
 
-    ![property of network on windows 7](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/property_of_network_win7.jpg){class="glboxshadow"}
+    ![property of network on windows 7](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/property_of_network_win7.jpg){class="glboxshadow"}
 
 === "macOS"
 
@@ -76,18 +76,18 @@ Segui i passaggi seguenti per controllare l'indirizzo IP del router.
 
     2. Nella colonna di sinistra, fai clic sulla connessione di rete. Per una connessione Ethernet, verrà mostrato l'indirizzo IP del router.
 
-    ![router ip of ethernet on mac os](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/router_ip_of_ethernet_on_mac_os.jpg){class="glboxshadow"}
+    ![router ip of ethernet on mac os](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/router_ip_of_ethernet_on_mac_os.jpg){class="glboxshadow"}
 
     Per una connessione Wi-Fi, fai clic sul pulsante "Advanced..." e poi sulla scheda "TCP/IP" nella parte superiore della finestra. Verrà mostrato l'indirizzo IP del router.
 
-    ![router ip of Wi-Fi on mac os](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/router_ip_of_wifi_on_mac_os.jpg){class="glboxshadow"}
+    ![router ip of Wi-Fi on mac os](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/router_ip_of_wifi_on_mac_os.jpg){class="glboxshadow"}
 
 === "iOS"
 
     1. Impostazioni -> Wi-Fi
     2. Tocca l'icona delle informazioni (i blu in un cerchio) della rete Wi-Fi a cui sei attualmente connesso. Verrà mostrato l'indirizzo IP del router.
 
-    ![router ip address on iphone](https://static.gl-inet.com/docs/router/en/3/tutorials/cannot_access_web_panel/router_ip_address_on_iphone.jpg){class="glboxshadow"}
+    ![router ip address on iphone](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/router_ip_address_on_iphone.jpg){class="glboxshadow"}
 
 === "Android"
 

@@ -10,11 +10,11 @@ L'utilisation d'un câble USB pour partager le réseau de votre smartphone avec 
 
     1. Connectez un iPhone au port USB du routeur à l'aide d'un câble USB. Une boîte de dialogue système s'affichera pour vous demander si vous faites confiance à l'appareil. Appuyez sur **Trust** pour continuer. 
 
-        ![ios trust device](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_trust_this_computer.png){class="glboxshadow"}
+        ![ios trust device](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_trust_this_computer.png){class="glboxshadow"}
 
     2. Accédez à **Settings** -> **Personal Hotspot** sur l'iPhone. Activez **Allow Others to Join**.
 
-        ![ios allow others to join](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow" width=400}
+        ![ios allow others to join](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow" width=400}
 
     3. Connectez un ordinateur ou un autre téléphone au routeur, puis connectez-vous au panneau d'administration web de votre routeur, accédez à la section **INTERNET** -> **Tethering**, puis cliquez sur **Connect**.
 
@@ -30,7 +30,7 @@ L'utilisation d'un câble USB pour partager le réseau de votre smartphone avec 
 
     4. Une fois connecté, l'état du partage de connexion personnel (par exemple le nombre d'appareils connectés) apparaît dans la barre d'état en haut de l'écran du téléphone.
 
-        ![personal hotspot status](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
+        ![personal hotspot status](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
 
         Le panneau d'administration web affichera également l'état de la connexion Tethering.
 

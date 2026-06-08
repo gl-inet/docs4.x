@@ -2,9 +2,9 @@
 
 ## Ostrzeżenie
 
-**Aktualizacja U-Boot jest bardzo ryzykowna i zasadniczo nie jest zalecana. Jeśli się nie powiedzie, urządzenie zostanie uszkodzone i nie będzie możliwości jego przywrócenia. Wykonuj ją tylko wtedy, gdy jest to konieczne lub gdy zaleci to wsparcie GL.iNet**.
+**Aktualizacja U-Boot jest bardzo ryzykowna i zasadniczo nie jest zalecana. Jeśli się nie powiedzie, urządzenie zostanie trwale uszkodzone i nie będzie możliwości jego przywrócenia. Wykonuj ją tylko wtedy, gdy jest to konieczne lub gdy zaleci to wsparcie GL.iNet**.
 
-**NIE wyłączaj zasilania podczas procesu aktualizacji, ponieważ może to spowodować niepowodzenie aktualizacji i uszkodzenie urządzenia**.
+**NIE wyłączaj zasilania podczas procesu aktualizacji, ponieważ może to spowodować niepowodzenie aktualizacji i trwałe uszkodzenie urządzenia**.
 
 ## Przygotowanie
 
@@ -40,7 +40,7 @@ Wykonaj poniższe czynności, aby przejść do strony aktualizacji U-Boot.
 
         5. Ustaw **Subnet mask** na `255.255.255.0`.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
 
         6. Kliknij przycisk **OK**.
 
@@ -92,7 +92,7 @@ Wykonaj poniższe czynności, aby przejść do strony aktualizacji U-Boot.
 
 4. **Użyj Google Chrome lub Microsoft Edge, aby otworzyć `http://192.168.1.1/uboot.html`**. Upewnij się, że wpisujesz pełny adres URL, aby uniknąć zapisanych sugestii prowadzących pod niewłaściwy adres.
 
-    **NIE używaj Mozilla Firefox, ponieważ może to uszkodzić router.**
+    **NIE używaj Mozilla Firefox, ponieważ może to spowodować trwałe uszkodzenie routera.**
 
     ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 

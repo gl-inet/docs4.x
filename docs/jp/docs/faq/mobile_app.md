@@ -1,10 +1,10 @@
 # GL.iNet アプリ
 
-![GL.iNet app icon](https://static.gl-inet.com/docs/router/en/3/tutorials/mobile_app/app-icon_v2_256x256.png){class="glboxshadow" width="128" style="border-radius:15px"}
+![GL.iNet app icon](https://static.gl-inet.com/docs/router/en/4/faq/mobile_app/app-icon_v2_256x256.png){class="glboxshadow" width="128" style="border-radius:15px"}
 
-iOSユーザーの方は、[App Store](https://apps.apple.com/us/app/gl-inet/id1523245996)からダウンロードしてください。
+iOSユーザーの方は、[App Store](https://apps.apple.com/us/app/gl-inet/id1523245996){target="_blank"}からダウンロードしてください。
 
-Androidユーザーの方は、[Google Play](https://play.google.com/store/apps/details?id=xyz.goodcloud.glinet)からダウンロードしてください。
+Androidユーザーの方は、[Google Play](https://play.google.com/store/apps/details?id=xyz.goodcloud.glinet){target="_blank"}からダウンロードしてください。
 
 ---
 

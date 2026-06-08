@@ -120,7 +120,7 @@ Sehen Sie sich dieses Video-Tutorial an oder folgen Sie den nachstehenden Schrit
 
         5. Setzen Sie die **Subnetzmaske** auf `255.255.255.0`.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
 
         6. Klicken Sie auf die Schaltfläche **OK**.
 

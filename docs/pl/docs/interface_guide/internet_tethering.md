@@ -10,11 +10,11 @@ Udostępnianie połączenia sieciowego ze smartfona do routera za pomocą kabla 
 
     1. Podłącz iPhone'a do portu USB routera za pomocą kabla USB. Pojawi się okno systemowe z pytaniem, czy zaufać urządzeniu. Stuknij **Trust**, aby kontynuować.
 
-        ![ios trust device](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_trust_this_computer.png){class="glboxshadow"}
+        ![ios trust device](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_trust_this_computer.png){class="glboxshadow"}
 
     2. Na iPhonie przejdź do **Settings** -> **Personal Hotspot**. Włącz **Allow Others to Join**.
 
-        ![ios allow others to join](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow" width=400}
+        ![ios allow others to join](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow" width=400}
 
     3. Podłącz komputer lub inny telefon do routera, a następnie zaloguj się do panelu administracyjnego WWW routera, przejdź do **INTERNET** -> **Tethering** i kliknij **Connect**.
 
@@ -30,7 +30,7 @@ Udostępnianie połączenia sieciowego ze smartfona do routera za pomocą kabla 
 
     4. Po nawiązaniu połączenia stan hotspotu osobistego, na przykład liczba podłączonych urządzeń, będzie widoczny na pasku stanu u góry ekranu telefonu.
 
-        ![personal hotspot status](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
+        ![personal hotspot status](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
 
         Panel administracyjny WWW również wyświetli stan połączenia Tethering.
 

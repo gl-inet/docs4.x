@@ -36,11 +36,11 @@ Siga los procedimientos que se indican a continuación para acceder a la página
 
         3. Haga clic en **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
 
-        4. Configure manualmente **IP adress** como `192.168.1.2`.
+        4. Configure manualmente la **dirección IP** como `192.168.1.2`.
 
-        5. Configure **Subnet mask** como `255.255.255.0`.
+        5. Configure la **máscara de subred** como `255.255.255.0`.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
 
         6. Haga clic en el botón **OK**.
 
@@ -64,11 +64,11 @@ Siga los procedimientos que se indican a continuación para acceder a la página
 
         12. Active el interruptor **IPv4 toggle**.
 
-        13. Configure la **IP address** estática como **192.168.1.2**.
+        13. Configure la **dirección IP** estática como **192.168.1.2**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        14. Especifique **Subnet mask** como **255.255.255.0**.
+        14. Especifique la **máscara de subred** como **255.255.255.0**.
 
         15. Haga clic en el botón **Save**.
 
@@ -92,7 +92,7 @@ Siga los procedimientos que se indican a continuación para acceder a la página
 
 4.  **Use Google Chrome o Microsoft Edge para visitar `http://192.168.1.1/uboot.html`**. Asegúrese de introducir la URL completa para evitar sugerencias almacenadas en caché que lleven a una dirección incorrecta.
 
-    **NO use Mozilla/Firefox, ya que podría bloquear su router.**
+    **NO use Mozilla Firefox, ya que podría bloquear su router.**
 
     ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
 

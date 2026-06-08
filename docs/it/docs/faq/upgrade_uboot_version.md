@@ -40,7 +40,7 @@ Segui la procedura riportata di seguito per accedere alla pagina di aggiornament
 
         5. Imposta **Subnet mask** su `255.255.255.0`.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
 
         6. Fai clic sul pulsante **OK**.
 

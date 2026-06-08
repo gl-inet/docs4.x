@@ -28,11 +28,11 @@ Fai riferimento a questo video tutorial oppure segui la procedura riportata di s
 
     !!! note
 
-        Per alcuni modelli, alcune singole porte LAN e la porta WAN sono intercambiabili. Non usare questa porta LAN. Ad esempio, su GL-MT6000 (Flint 2), non usare LAN 1. Usa invece LAN 2, LAN 3 o LAN 4.
+        Su alcuni modelli, una specifica porta LAN può essere commutata in WAN. Non utilizzare questa porta LAN per il flashing del firmware. Ad esempio, su GL-MT6000 (Flint 2), non usare la LAN 1. Usa invece LAN 2, LAN 3 o LAN 4.
 
 3. Tieni premuto con decisione il pulsante Reset e **allo stesso tempo accendi il router**. Se il router non ha un pulsante di alimentazione, collegare l'alimentazione lo accenderà automaticamente.
 
-    Vedrai quindi il LED lampeggiare in una sequenza regolare alcune volte; rilascia il dito **dopo** che la sequenza cambia.
+    Vedrai quindi il LED lampeggiare in una sequenza regolare alcune volte; rilascia il pulsante Reset **dopo** che la sequenza cambia.
 
     !!! note "Sequenze di lampeggiamento LED per modello"
 
@@ -120,7 +120,7 @@ Fai riferimento a questo video tutorial oppure segui la procedura riportata di s
 
         5. Imposta **Subnet mask** su `255.255.255.0`.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/2/troubleshooting/src/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
 
         6. Fai clic sul pulsante **OK**.
 

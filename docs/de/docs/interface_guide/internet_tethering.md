@@ -10,11 +10,11 @@ Wenn Sie die Netzwerkverbindung Ihres Smartphones per USB-Kabel mit dem Router t
 
     1. Schließen Sie ein iPhone mit einem USB-Kabel an den USB-Port des Routers an. Ein Systemdialog fragt, ob dem Gerät vertraut werden soll. Tippen Sie auf **Trust**, um fortzufahren.
 
-        ![ios trust device](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_trust_this_computer.png){class="glboxshadow"}
+        ![ios trust device](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_trust_this_computer.png){class="glboxshadow"}
 
     2. Gehen Sie auf dem iPhone zu **Settings** -> **Personal Hotspot**. Aktivieren Sie **Allow Others to Join**.
 
-        ![ios allow others to join](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow" width=400}
+        ![ios allow others to join](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_allow_others_to_join.png){class="glboxshadow" width=400}
 
     3. Verbinden Sie einen Computer oder ein anderes Telefon mit dem Router, melden Sie sich dann am webbasierten Admin Panel Ihres Routers an, gehen Sie zum Abschnitt **INTERNET** -> **Tethering** und klicken Sie auf **Connect**.
 
@@ -30,7 +30,7 @@ Wenn Sie die Netzwerkverbindung Ihres Smartphones per USB-Kabel mit dem Router t
 
     4. Sobald die Verbindung hergestellt ist, wird der Status des persönlichen Hotspots (z. B. die Anzahl verbundener Geräte) in der Statusleiste oben auf dem Telefon angezeigt.
 
-        ![personal hotspot status](https://static.gl-inet.com/docs/router/en/3/setup/share/internet/tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
+        ![personal hotspot status](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/iphone_hotspot_1_connection.png){class="glboxshadow" width=400}
 
         Das webbasierte Admin Panel zeigt ebenfalls den Status der Tethering-Verbindung an.
 

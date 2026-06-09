@@ -4,11 +4,11 @@ Normally, VPN and AdGuard Home can run simultaneously on GL.iNet routers. No pro
 
 However, if you configure AdGuard Home to manage all DNS traffic and forward queries to **public upstream DNS servers**, enabling VPN will trigger DNS resolution failures.
 
-![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/adguardhome.png){class="glboxshadow" width="660"}
+![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguardhome.jpg){class="glboxshadow"}
 <br><small>(AdGuard Home enabled and handles DNS requests)</small>
 
-![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/adguard_dns.png){class="glboxshadow" width="600"}
-<br><small>(AdGuard Home DNS settings)</small>
+![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/upstream_dns.png){class="glboxshadow"}
+<br><small>(AdGuard Home upstream DNS settings)</small>
 
 By default, all outbound traffic is routed through the VPN tunnel. This forces AdGuard Home's upstream DNS traffic onto the VPN, which cannot reach your public upstream DNS servers. As a result, all connected clients will fail to resolve domain names.
 
@@ -16,19 +16,19 @@ To keep AdGuard Home functional while VPN is active, you can add a static route 
 
 1. Log in to your router's web Admin Panel and go to **SYSTEM** -> **Advanced Settings** ->** Go to LuCI**.
 
-    ![luci login 1](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/luci_login1.png){class="glboxshadow"}
+    ![luci login 1](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/luci1.png){class="glboxshadow"}
 
     Log in with the same admin password.
 
-    ![luci login 2](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/luci_login2.png){class="glboxshadow"}
+    ![luci login 2](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/luci2.png){class="glboxshadow"}
 
 2. In the LuCI, navigate to **Network** -> **Routing**, then click **Add**.
 
-    ![routing 1](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/routing1.png){class="glboxshadow"}
+    ![routing 1](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/routing1.png){class="glboxshadow"}
 
 3. Create a new static route for your upstream DNS addresses.
 
-    ![routing 2](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/routing2.jpg){class="glboxshadow"}
+    ![routing 2](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/routing2.png){class="glboxshadow"}
 
     - Interface: Select the physical WAN interface **wan**.
     
@@ -45,6 +45,18 @@ To keep AdGuard Home functional while VPN is active, you can add a static route 
     This route ensures AdGuard Home's upstream DNS queries bypass the VPN tunnel and go directly through your WAN connection.
 
 4. Save and apply the settings. AdGuard Home will then resume normal DNS resolution.
+
+5. Test upstream DNS servers.
+
+    You can verify your upstream DNS servers directly in the AdGuard Home interface.
+    
+    On your router's web Admin Panel, go to **APPLICATIONS** -> **AdGuard Home**, then click **Settings Page** to open the AdGuard Home dashboard.
+
+    ![adguard settings](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguard_settings.png){class="glboxshadow"}
+
+    On the AdGuard Home dashboard, go to **Settings** -> **DNS settings** -> **Upstream DNS servers** and click **Test upstreams**. Results will appear on the right.
+
+    ![test upstreams](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/test_upstreams.png){class="glboxshadow"}
 
 ---
 

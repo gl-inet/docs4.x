@@ -4,17 +4,17 @@
 
 ## Przewodnik konfiguracji
 
-Poniżej pokazano przykład aktywacji Urban Shield VPN na modelu GL-B3000 poprzez ustawienie go jako klienta WireGuard. 
+Poniżej pokazano przykład aktywacji Urban Shield VPN na modelu GL-B3000 poprzez ustawienie go jako klienta WireGuard.
 
 ### 1. Rejestracja w Urban Shield VPN
 
-Wejdź na [oficjalną stronę Urban Shield VPN](https://urbanshieldvpn.com/){class="_blank"} lub kliknij [tutaj](https://payment.urbanshieldvpn.com/sign-up), aby utworzyć konto Urban Shield VPN.
+Wejdź na [oficjalną stronę Urban Shield VPN](https://urbanshieldvpn.com/){target="_blank"}, aby utworzyć konto Urban Shield VPN.
 
 ![Urban Shield VPN signup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/sign_in.png){class="glboxshadow"}
 
 ### 2. Włącz router i połącz urządzenie
 
-Włącz router. Podłącz urządzenie do routera za pomocą kabla Ethernet lub przez Wi-Fi.
+Włącz router. Podłącz urządzenie (np. laptop lub smartfon) do routera za pomocą kabla Ethernet lub przez Wi-Fi.
 
 ### 3. Otwórz panel administracyjny WWW
 
@@ -38,7 +38,7 @@ W prawym górnym rogu znajduje się **Network Setup Wizard** (dostępny od firmw
 
 ### 5. Aktywacja Urban Shield VPN
 
-Wybierz z menu po lewej stronie **VPN** -> **WireGuard Client**. Zobaczysz wbudowaną stronę logowania Urban Shield VPN.
+Wybierz z menu po lewej stronie **VPN** -> **WireGuard Client**. Zobaczysz stronę logowania Urban Shield VPN.
 
 ![log in 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_1.png){class="glboxshadow"}
 
@@ -46,7 +46,7 @@ Wpisz **Email** i **Password**, a następnie kliknij **Save And Continue**. Zost
 
 ![log in 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_2.png){class="glboxshadow"}
 
-Wybierz preferowany serwer i kliknij **Apply**. 
+Wybierz preferowany serwer i kliknij **Apply**.
 
 ![select server](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/select_server.png){class="glboxshadow"}
 
@@ -74,13 +74,13 @@ Kliknij ikonę koła zębatego, aby edytować informacje o koncie lub się wylog
 
 ![edit account or logout 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/edit_account_or_logout_2.jpg){class="glboxshadow"}
 
-## Go Renew
+## Go renew
 
 Jeśli klikniesz **Go Renew**, zostaniesz przeniesiony na oficjalną stronę, aby odnowić subskrypcję.
 
 ![go renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/go_renew.jpg){class="glboxshadow"}
 
-## Delete 
+## Delete
 
 Jednym kliknięciem możesz usunąć wszystkie pliki konfiguracyjne, a także klucz prywatny i klucz publiczny.
 

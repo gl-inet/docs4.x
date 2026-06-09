@@ -1,6 +1,6 @@
 # Come configurare Urban Shield VPN su un router GL.iNet
 
-[Urban Shield VPN](https://urbanshieldvpn.com/) e' un provider VPN dedicato a offrire soluzioni VPN ad alta sicurezza e alte prestazioni agli utenti di tutto il mondo. Fornisce router VPN GL.iNet preconfigurati e piani di abbonamento flessibili, garantendo una navigazione sicura e privata. Basta attivare Urban Shield VPN sul router per essere protetti e ottenere accesso ai loro server globali, cosi' da navigare e guardare contenuti in streaming in tutta tranquillita'.
+[Urban Shield VPN](https://urbanshieldvpn.com/){target="_blank"} è un provider VPN dedicato a offrire soluzioni VPN ad alta sicurezza e alte prestazioni agli utenti di tutto il mondo. Fornisce router VPN GL.iNet preconfigurati e piani di abbonamento flessibili, garantendo una navigazione sicura e privata. Basta attivare Urban Shield VPN sul router per essere protetti e ottenere accesso ai loro server globali, così da navigare e guardare contenuti in streaming in tutta tranquillità.
 
 ## Guida alla configurazione
 
@@ -8,17 +8,17 @@ Ecco un esempio con GL-B3000 per attivare Urban Shield VPN impostandolo come Wir
 
 ### 1. Registrare Urban Shield VPN
 
-Visita il [sito ufficiale di Urban Shield VPN](https://urbanshieldvpn.com/){class="_blank"} oppure fai clic [qui](https://payment.urbanshieldvpn.com/sign-up) per registrare un account Urban Shield VPN.
+Visita il [sito ufficiale di Urban Shield VPN](https://urbanshieldvpn.com/){target="_blank"} per registrare un account Urban Shield VPN.
 
 ![Urban Shield VPN signup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/sign_in.png){class="glboxshadow"}
 
 ### 2. Accendere e collegare
 
-Accendi il router. Collega un dispositivo al router tramite cavo Ethernet oppure tramite Wi-Fi.
+Accendi il router, quindi collega un dispositivo (ad esempio un laptop o uno smartphone) al router tramite cavo Ethernet o tramite Wi-Fi.
 
 ### 3. Accedere al pannello di amministrazione web
 
-Segui i passaggi sotto per accedere al pannello di amministrazione web. Se hai gia' effettuato l'accesso, passa alla [parte successiva](#4-network-setup).
+Segui i passaggi sotto per accedere al pannello di amministrazione web. Se hai già effettuato l'accesso, passa alla [parte successiva](#4-network-setup).
 
 Apri un browser web, si consigliano Chrome, Edge o Safari, e visita [192.168.8.1](http://192.168.8.1){target="_blank"}. Verrai indirizzato alla configurazione iniziale del pannello di amministrazione web, come mostrato di seguito. Imposta la password amministratore e fai clic su **Next** per continuare.
 
@@ -32,17 +32,17 @@ Poi fai clic su **Next** per accedere con la password amministratore.
 
 ### 4. Configurazione della rete {#4-network-setup}
 
-Nell'angolo superiore destro e' presente un **Network Setup Wizard**, disponibile dal firmware v4.7 in poi. Segui la procedura guidata per configurare il router per l'accesso a Internet prima di configurare la VPN.
+Nell'angolo superiore destro è presente un **Network Setup Wizard**, disponibile dal firmware v4.7 in poi. Segui la procedura guidata per configurare il router per l'accesso a Internet prima di configurare la VPN.
 
 ![network setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/network_setup_wizard.jpg){class="glboxshadow"}
 
 ### 5. Attivare Urban Shield VPN
 
-Seleziona **VPN** dal menu a sinistra -> **WireGuard Client**. Vedrai una pagina di accesso Urban Shield VPN integrata.
+Seleziona **VPN** dal menu a sinistra -> **WireGuard Client**. Vedrai la pagina di accesso di Urban Shield VPN.
 
 ![log in 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_1.png){class="glboxshadow"}
 
-Inserisci **Email** e **Password**, quindi fai clic su **Save And Continue**. Verranno generati i file di configurazione per ciascun server.
+Inserisci le tue credenziali Urban Shield VPN (**Email** e **Password**), quindi fai clic su **Save And Continue**. Verranno generati i file di configurazione per ciascun server.
 
 ![log in 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_2.png){class="glboxshadow"}
 
@@ -58,7 +58,7 @@ Fai clic sull'icona con i tre puntini per avviare la connessione.
 
 ![start server](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/start_server.jpg){class="glboxshadow"}
 
-Una volta connesso, apparira' un punto blu a indicare che la connessione e' stata stabilita correttamente.
+Una volta connesso, apparirà un punto blu a indicare che la connessione è stata stabilita correttamente.
 
 ![server started](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/server_started.jpg){class="glboxshadow"}
 

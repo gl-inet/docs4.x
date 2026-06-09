@@ -4,17 +4,17 @@
 
 ## Einrichtungsanleitung
 
-Im folgenden Beispiel wird gezeigt, wie Urban Shield VPN auf einem GL-B3000 aktiviert wird, indem er als WireGuard-Client eingerichtet wird.
+Hier ein Beispiel: Der GL-B3000 wird als WireGuard-Client eingerichtet, um eine Verbindung zu Urban Shield VPN herzustellen.
 
 ### 1. Bei Urban Shield VPN registrieren
 
-Besuchen Sie die [offizielle Website von Urban Shield VPN](https://urbanshieldvpn.com/){class="_blank"} oder klicken Sie [hier](https://payment.urbanshieldvpn.com/sign-up), um ein Urban-Shield-VPN-Konto zu erstellen.
+Besuchen Sie die [offizielle Website von Urban Shield VPN](https://urbanshieldvpn.com/){target="_blank"}, um ein Urban-Shield-VPN-Konto zu erstellen.
 
 ![Urban Shield VPN signup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/sign_in.png){class="glboxshadow"}
 
-### 2. Einschalten und verbinden
+### 2. Router einschalten
 
-Schalten Sie Ihren Router ein. Verbinden Sie ein Gerät per Ethernet-Kabel oder über Wi-Fi mit dem Router.
+Schalten Sie Ihren Router ein und verbinden Sie ein Gerät (z. B. Laptop oder Smartphone) per Ethernet-Kabel oder über WLAN mit dem Router.
 
 ### 3. Auf das webbasierte Admin Panel zugreifen
 
@@ -38,7 +38,7 @@ Oben rechts befindet sich ein **Network Setup Wizard** (verfügbar ab Firmware v
 
 ### 5. Urban Shield VPN aktivieren
 
-Wählen Sie im linken Menü **VPN** -> **WireGuard Client**. Dort wird eine integrierte Urban-Shield-VPN-Anmeldeseite angezeigt.
+Wählen Sie im linken Menü **VPN** -> **WireGuard Client**. Sie sehen dann die Urban-Shield-VPN-Anmeldeseite.
 
 ![log in 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_1.png){class="glboxshadow"}
 

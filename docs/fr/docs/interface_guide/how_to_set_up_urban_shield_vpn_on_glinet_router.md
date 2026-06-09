@@ -8,7 +8,7 @@ L'exemple ci-dessous utilise un GL-B3000 pour activer Urban Shield VPN en le con
 
 ### 1. Créer un compte Urban Shield VPN
 
-Rendez-vous sur le [site officiel d'Urban Shield VPN](https://urbanshieldvpn.com/){class="_blank"} ou cliquez [ici](https://payment.urbanshieldvpn.com/sign-up) pour créer un compte Urban Shield VPN.
+Rendez-vous sur le [site officiel d'Urban Shield VPN](https://urbanshieldvpn.com/){target="_blank"} pour créer un compte Urban Shield VPN.
 
 ![Urban Shield VPN signup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/sign_in.png){class="glboxshadow"}
 
@@ -38,7 +38,7 @@ Un **Network Setup Wizard** est disponible dans l'angle supérieur droit (à par
 
 ### 5. Activer Urban Shield VPN
 
-Dans le menu de gauche, sélectionnez **VPN** -> **WireGuard Client**. Vous verrez alors une page de connexion intégrée à Urban Shield VPN.
+Dans le menu de gauche, sélectionnez **VPN** -> **WireGuard Client**. Vous verrez alors la page de connexion Urban Shield VPN.
 
 ![log in 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_1.png){class="glboxshadow"}
 

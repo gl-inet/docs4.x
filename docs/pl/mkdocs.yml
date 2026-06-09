@@ -3,7 +3,7 @@ repo_url: https://github.com/gl-inet/docs4.x
 edit_uri: ""
 
 site_name: Dokumentacja routerów GL.iNet 4
-site_description: Dokumentacja produktów routerów GL.iNet
+site_description: Dokumentacja produkcji routerów GL.iNet
 site_author: GL.iNet
 site_url: https://docs.gl-inet.com/router/pl/4/
 site_dir: site
@@ -200,11 +200,11 @@ nav:
       - Jak blokowac ruch poza VPN: faq/block_non_vpn_traffic.md
       - Kill Switch VPN: faq/block_non_vpn_traffic.md
       - TCP czy UDP: faq/openvpn_tcp_udp.md
-      - Parametry zaciemniania AmneziaWG: faq/amneziawg_obfuscation.md
+      - Zaciemnianie AmneziaWG: faq/amneziawg_obfuscation.md
       - Czy musze skonfigurowac Ethernet WAN podczas korzystania z VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Aktualizacja:
       - Pobierz firmware: faq/how_to_download_firmware.md
-      - Ręcznie zaktualizuj lub cofnij wersje: tutorials/how_to_upgrade_downgrade_router.md
+      - Recznie zaktualizuj lub cofnij wersje: tutorials/how_to_upgrade_downgrade_router.md
     - Inne:
       - Stan wskaznika LED: faq/led.md
       - Aplikacja mobilna GL.iNet: faq/mobile_app.md
@@ -242,6 +242,7 @@ nav:
       - Zezwol na dostep do WAN, gdy klient VPN jest wlaczony: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
       - Skieruj DNS klienta VPN do nadrzednego DNS serwera: tutorials/route_vpn_client_dns_to_server_upstream_dns.md
       - Zaktualizuj certyfikaty serwera OpenVPN: tutorials/how_to_update_openvpn_server_certificates.md
+      - Jak sprawić, by DNS AdGuard Home omijał VPN: tutorials/how_to_make_adguard_home_dns_bypass_vpn.md
     - Komorkowe:
       - Przekazywanie SMS: tutorials/sms_forwarding.md
       - Pobierz logi modulu: tutorials/get_module_logs.md

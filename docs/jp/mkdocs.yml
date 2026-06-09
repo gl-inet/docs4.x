@@ -94,6 +94,7 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
+
   # we can use the cdn or files
   # - stylesheets/photoswipe.min.css
   # - stylesheets/default-skin.min.css
@@ -241,6 +242,7 @@ nav:
           - VPN クライアント有効時に WAN アクセスを許可する: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
           - VPN クライアント DNS をサーバー上流 DNS にルーティングする: tutorials/route_vpn_client_dns_to_server_upstream_dns.md
           - OpenVPN サーバー証明書を更新する: tutorials/how_to_update_openvpn_server_certificates.md
+          - AdGuard Home DNS で VPN をバイパスする方法: tutorials/how_to_make_adguard_home_dns_bypass_vpn.md
       - セルラー:
           - SMS 転送: tutorials/sms_forwarding.md
           - モジュールログを取得する: tutorials/get_module_logs.md

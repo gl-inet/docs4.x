@@ -31,6 +31,7 @@ Erfahren Sie anhand detaillierter Schritte, wie Sie unsere Geräte korrekt verwe
 * [Wie erlauben Sie den Zugriff auf WAN, wenn der VPN-Client aktiviert ist?](how_to_allow_access_to_wan_when_vpn_client_enabled.md)
 * [So leiten Sie DNS-Abfragen des VPN-Clients an den Upstream-DNS des VPN-Servers weiter](route_vpn_client_dns_to_server_upstream_dns.md)
 * [So aktualisieren Sie OpenVPN-Serverzertifikate](how_to_update_openvpn_server_certificates.md)
+* [So umgehen Sie mit AdGuard Home DNS das VPN](how_to_make_adguard_home_dns_bypass_vpn.md)
 
 ## Mobilfunk
 
@@ -48,13 +49,13 @@ Erfahren Sie anhand detaillierter Schritte, wie Sie unsere Geräte korrekt verwe
 
 ## GoodCloud
 
-* [GoodCloud Site-to-Site](goodcloud_site_to_site.md)
+* [GoodCloud Site to Site](goodcloud_site_to_site.md)
 * [So greifen Sie über GoodCloud auf die LuCI-Oberfläche zu](how_to_access_the_luci_interface_via_goodcloud.md)
 
 ## Netzwerk
 
 * [So verbinden Sie sich mit einem EAP-Netzwerk (Extensible Authentication Protocol)](eap.md)
-* [So richten Sie ein Gastnetzwerk auf GL.iNet-Routern ein](how_to_set_up_a_guest_network.md)
+* [So richten Sie ein Gast-WLAN auf GL.iNet-Routern ein](how_to_set_up_a_guest_network.md)
 * [So richten Sie Drop-in Gateway auf GL.iNet-Routern ein](how_to_set_up_drop_in_gateway.md)
 * [So richten Sie Portweiterleitung auf Ihrem primären Router ein](how_to_set_up_port_forwarding.md)
 * [So konfigurieren Sie Dual-WAN-Zugriff über Kabel auf einem Router mit nur einem WAN-Port](configure_dual_ethernet_wan.md)

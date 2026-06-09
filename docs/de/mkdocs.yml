@@ -242,6 +242,7 @@ nav:
       - Zugriff auf WAN erlauben, wenn VPN-Client aktiviert ist: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md
       - DNS des VPN-Clients zum Upstream-DNS des Servers leiten: tutorials/route_vpn_client_dns_to_server_upstream_dns.md
       - OpenVPN-Server-Zertifikate aktualisieren: tutorials/how_to_update_openvpn_server_certificates.md
+      - AdGuard Home DNS am VPN vorbeileiten: tutorials/how_to_make_adguard_home_dns_bypass_vpn.md
     - Mobilfunk:
       - SMS-Weiterleitung: tutorials/sms_forwarding.md
       - Modulprotokolle abrufen: tutorials/get_module_logs.md

@@ -31,6 +31,7 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak zezwolić na dostęp do WAN, gdy klient VPN jest włączony?](how_to_allow_access_to_wan_when_vpn_client_enabled.md)
 * [Jak przekierować zapytania DNS klienta VPN do nadrzędnego DNS serwera VPN?](route_vpn_client_dns_to_server_upstream_dns.md)
 * [Jak zaktualizować certyfikaty serwera OpenVPN](how_to_update_openvpn_server_certificates.md)
+* [Jak sprawić, by AdGuard Home DNS omijał VPN](how_to_make_adguard_home_dns_bypass_vpn.md)
 
 ## Łączność komórkowa
 

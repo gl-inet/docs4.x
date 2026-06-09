@@ -31,6 +31,7 @@ Aprenda a usar correctamente nuestros dispositivos con pasos detallados.
 * [¿Cómo permitir acceso a WAN cuando el cliente VPN está habilitado?](how_to_allow_access_to_wan_when_vpn_client_enabled.md)
 * [¿Cómo enrutar las consultas DNS del cliente VPN al DNS ascendente del servidor VPN?](route_vpn_client_dns_to_server_upstream_dns.md)
 * [Cómo actualizar los certificados del servidor OpenVPN](how_to_update_openvpn_server_certificates.md)
+* [Cómo hacer que el DNS de AdGuard Home omita la VPN](how_to_make_adguard_home_dns_bypass_vpn.md)
 
 ## Celular
 

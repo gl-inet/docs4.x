@@ -1,14 +1,14 @@
-# Jak skonfigurować DNS AdGuard Home z pominięciem tunelu VPN
+# Jak sprawić, aby DNS AdGuard Home omijał tunel VPN
 
 Zazwyczaj VPN i AdGuard Home mogą działać jednocześnie na routerach GL.iNet. Problemy nie występują, gdy AdGuard Home nie jest skonfigurowany do obsługi zapytań DNS.
 
 Jeśli jednak skonfigurujesz AdGuard Home do zarządzania całym ruchem DNS i przekazywania zapytań do **publicznych serwerów DNS nadrzędnych**, włączenie VPN spowoduje błędy w rozwiązywaniu nazw DNS.
 
-![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/adguardhome.png){class="glboxshadow" width="660"}
+![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguardhome.jpg){class="glboxshadow"}
 <br><small>(AdGuard Home włączony i obsługuje zapytania DNS)</small>
 
-![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/adguard_dns.png){class="glboxshadow" width="600"}
-<br><small>(Ustawienia DNS AdGuard Home)</small>
+![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/upstream_dns.png){class="glboxshadow"}
+<br><small>(Ustawienia DNS nadrzędnych AdGuard Home)</small>
 
 Domyślnie cały ruch wychodzący jest kierowany przez tunel VPN. Wymusza to, że ruch DNS AdGuard Home do serwerów nadrzędnych przechodzi przez VPN, który nie może dotrzeć do Twoich publicznych serwerów DNS nadrzędnych. W rezultacie wszyscy podłączeni klienci nie będą mogli rozwiązywać nazw domen.
 
@@ -16,19 +16,19 @@ Aby AdGuard Home działał poprawnie, gdy VPN jest aktywny, możesz dodać tras�
 
 1. Zaloguj się do panelu administracyjnego routera przez przeglądarkę i przejdź do **SYSTEM** -> **Advanced Settings** ->** Go to LuCI**.
 
-    ![luci login 1](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/luci_login1.png){class="glboxshadow"}
+    ![luci login 1](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/luci1.png){class="glboxshadow"}
 
     Zaloguj się przy użyciu tego samego hasła administratora.
 
-    ![luci login 2](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/luci_login2.png){class="glboxshadow"}
+    ![luci login 2](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/luci2.png){class="glboxshadow"}
 
 2. W LuCI przejdź do **Network** -> **Routing**, a następnie kliknij **Add**.
 
-    ![routing 1](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/routing1.png){class="glboxshadow"}
+    ![routing 1](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/routing1.png){class="glboxshadow"}
 
 3. Utwórz nową trasę statyczną dla adresów swoich serwerów DNS nadrzędnych.
 
-    ![routing 2](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/routing2.jpg){class="glboxshadow"}
+    ![routing 2](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/routing2.png){class="glboxshadow"}
 
     - Interfejs: Wybierz fizyczny interfejs WAN **wan**.
     
@@ -45,6 +45,18 @@ Aby AdGuard Home działał poprawnie, gdy VPN jest aktywny, możesz dodać tras�
     Ta trasa zapewnia, że zapytania DNS AdGuard Home do serwerów nadrzędnych omijają tunel VPN i przechodzą bezpośrednio przez połączenie WAN.
 
 4. Zapisz i zastosuj ustawienia. AdGuard Home wznowi normalne rozwiązywanie nazw DNS.
+
+5. Przetestuj serwery DNS nadrzędne.
+
+    Możesz zweryfikować swoje serwery DNS nadrzędne bezpośrednio w interfejsie AdGuard Home.
+    
+    W panelu administracyjnym routera przejdź do **APPLICATIONS** -> **AdGuard Home**, a następnie kliknij **Settings Page**, aby otworzyć panel AdGuard Home.
+
+    ![adguard settings](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguard_settings.png){class="glboxshadow"}
+
+    W panelu AdGuard Home przejdź do **Settings** -> **DNS settings** -> **Upstream DNS servers** i kliknij **Test upstreams**. Wyniki pojawią się po prawej stronie.
+
+    ![test upstreams](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/test_upstreams.png){class="glboxshadow"}
 
 ---
 

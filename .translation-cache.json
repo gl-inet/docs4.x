@@ -6235,31 +6235,31 @@
     "source_hash": "1e3c4d14fedb2219698add8ca113cdeb348c9208efa4cba7bdc068784a4ce1d7"
   },
   "docs/en/docs/tutorials/how_to_make_adguard_home_dns_bypass_vpn.md": {
-    "source_hash": "dd75e25e958d0fcfa63697dd32fddcb91df8ca6d514ae375b2bf0a6813d73366",
+    "source_hash": "2b8b6c3069d82d515bb1799cd479f0456bac3efcba0c2db9ae1353df7b00e096",
     "targets": {
       "de": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917850
+        "updated_at": 1780970091
       },
       "es": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917907
+        "updated_at": 1780970146
       },
       "fr": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917968
+        "updated_at": 1780970194
       },
       "it": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780918031
+        "updated_at": 1780970267
       },
       "jp": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780918088
+        "updated_at": 1780970319
       },
       "pl": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780918150
+        "updated_at": 1780970386
       }
     }
   }

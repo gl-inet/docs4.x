@@ -16,19 +16,19 @@ Los routers GL.iNet ofrecen compatibilidad integrada con WireGuard para los sigu
 
 Seleccione a continuación el proveedor de servicios WireGuard correspondiente para localizar rápidamente las instrucciones paso a paso.
 
-- [Configurar AzireVPN](#configurar-azirevpn)
-- [Configurar Hide.me](#configurar-hideme)
-- [Configurar IPVanish](#configurar-ipvanish)
-- [Configurar Mullvad](#configurar-mullvad)
-- [Configurar NordVPN](#configurar-nordvpn)
-- [Configurar PIA (Private Internet Access)](#configurar-pia-private-internet-access)
-- [Configurar PureVPN](#configurar-purevpn)
-- [Configurar Surfshark](#configurar-surfshark)
-- [Configurar Windscribe](#configurar-windscribe)
+* [Configurar AzireVPN](#set-up-azirevpn)
+* [Configurar Hide.me](#set-up-hideme)
+* [Configurar IPVanish](#set-up-ipvanish)
+* [Configurar Mullvad](#set-up-mullvad)
+* [Configurar NordVPN](#set-up-nordvpn)
+* [Configurar PIA (Private Internet Access)](#set-up-pia-private-internet-access)
+* [Configurar PureVPN](#set-up-purevpn)
+* [Configurar Surfshark](#set-up-surfshark)
+* [Configurar Windscribe](#set-up-windscribe)
 
 Si está suscrito a otro proveedor de servicios WireGuard, descargue un archivo de configuración desde su sitio web y luego súbalo al router para la conexión VPN.
 
-- [Configurar el cliente WireGuard manualmente (para otros proveedores)](#configurar-el-cliente-wireguard-manualmente-para-otros-proveedores)
+* [Configurar el cliente WireGuard manualmente (para otros proveedores)](#set-up-wireguard-client-manually-for-other-providers)
 
 ## Configurar AzireVPN {#set-up-azirevpn}
 
@@ -84,7 +84,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 ## Configurar Hide.me {#set-up-hideme}
 
-[Sitio web oficial](https://www.hideipvpn.com/){target="_blank"}
+[Sitio web oficial](https://hide.me/en/){target="_blank"}
 
 En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **Hide.me**.
 
@@ -174,7 +174,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **Mullvad**.
 
-1. Introduzca **Account**, luego haga clic en **Save and Continue**. Se generarán archivos de configuración para cada servidor.
+1. Introduzca su **Account** (número de 16 dígitos) de Mullvad, luego haga clic en **Save and Continue**. Se generarán archivos de configuración para cada servidor.
 
    ![mullvad login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad1.png){class="glboxshadow"}
 
@@ -338,9 +338,19 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
 [Sitio web oficial](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **PureVPN**.
+[Prueba gratuita de 15 días de PureVPN](https://purevpn.com/refer-a-friend-v2?referrer=bEZTci9KcmtQSTFPbXlPak03NWtENWZaL1BHNENlR0JOMzV6RURhWFhSOD0=){target="_blank"}
 
-1. Introduzca **Username** y **Password**, luego haga clic en **Save and Continue**.
+1. Haga clic [aquí](https://www.purevpn.com/){target="_blank"} para iniciar sesión en su panel de PureVPN.
+
+   ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_login.png){class="glboxshadow"}
+
+   Después de iniciar sesión, haga clic en **Subscriptions** en el menú izquierdo, desplácese hasta la parte inferior para encontrar sus **credenciales**. Copie el nombre de usuario y la contraseña para usarlos más adelante.
+
+   ![purevpn credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_credentials.png){class="glboxshadow"}
+
+2. Inicie sesión en el panel de administración web del router y vaya a **VPN** -> **WireGuard Client** -> **PureVPN**.
+
+   Introduzca el **Username** y **Password** copiados, luego haga clic en **Save and Continue**.
 
    ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn1.png){class="glboxshadow"}
 
@@ -348,7 +358,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
    ![purevpn config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn2.png){class="glboxshadow"}
 
-2. Inicie una conexión.
+3. Inicie una conexión.
 
    Seleccione el servidor de su preferencia y haga clic en el icono de tres puntos de la derecha para iniciar la conexión.
 
@@ -360,19 +370,19 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client** -> **
 
    También puede consultar los detalles de la conexión VPN en el **VPN Dashboard**.
 
-3. Actualice los servidores.
+4. Actualice los servidores.
 
    Puede hacer clic en **Update Servers** para obtener la lista más reciente de servidores disponibles y evitar fallos de conexión provocados por mantenimiento o cierre de servidores.
 
    ![purevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn6.png){class="glboxshadow"}
 
-4. Edite las credenciales o cierre sesión.
+5. Edite las credenciales o cierre sesión.
 
    Haga clic en el icono de engranaje para editar sus credenciales de inicio de sesión o cerrar sesión.
 
    ![purevpn edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn7.png){class="glboxshadow"}
 
-5. Elimine todo.
+6. Elimine todo.
 
    Puede hacer clic en **Delete All** para eliminar todos los archivos de configuración con un solo clic y elegir si desea eliminar también las claves privada y pública.
 
@@ -503,6 +513,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client**.
 3. Establezca un nombre descriptivo para el grupo, por ejemplo, azirevpn. Luego suba un archivo de configuración (formatos compatibles: zip, tar, gz, conf, txt) o añada manualmente los detalles de configuración en formato de texto.
 
    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/set_a_name.png){class="glboxshadow"}
+
    1. **Subir un archivo de configuración**.
 
       Haga clic en el área de carga para subir su archivo de configuración de WireGuard y, a continuación, haga clic en **Apply**.
@@ -531,7 +542,7 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client**.
 
    ![start the profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/start_edit_delete.png){class="glboxshadow"}
 
-5. Una vez conectado, aparecerá un punto verde junto al archivo de configuración.
+   Una vez conectado, aparecerá un punto verde junto al archivo de configuración.
 
    También puede consultar los detalles de la conexión VPN en el **VPN Dashboard**.
 

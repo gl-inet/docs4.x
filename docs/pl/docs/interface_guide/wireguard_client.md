@@ -84,7 +84,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **Azire
 
 ## Konfiguracja Hide.me {#set-up-hideme}
 
-[Oficjalna strona](https://www.hideipvpn.com/){target="_blank"}
+[Oficjalna strona](https://hide.me/en/){target="_blank"}
 
 W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **Hide.me**.
 
@@ -174,7 +174,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **IPVan
 
 W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **Mullvad**.
 
-1. Wprowadź **Account**, a następnie kliknij **Save and Continue**. Zostaną wygenerowane pliki konfiguracyjne dla każdego serwera.
+1. Wprowadź swój numer konta Mullvad (**Account**, 16-cyfrowy numer), a następnie kliknij **Save and Continue**. Zostaną wygenerowane pliki konfiguracyjne dla każdego serwera.
 
     ![mullvad login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad1.png){class="glboxshadow"}
 
@@ -338,9 +338,19 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **PIA**
 
 [Oficjalna strona](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **PureVPN**.
+[PureVPN – 15-dniowy okres próbny](https://purevpn.com/refer-a-friend-v2?referrer=bEZTci9KcmtQSTFPbXlPak03NWtENWZaL1BHNENlR0JOMzV6RURhWFhSOD0=){target="_blank"}
 
-1. Wprowadź **Username** i **Password**, a następnie kliknij **Save and Continue**.
+1. Kliknij [tutaj](https://www.purevpn.com/){target="_blank"}, aby zalogować się do panelu PureVPN.
+
+    ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_login.png){class="glboxshadow"}
+    
+    Po zalogowaniu kliknij **Subscriptions** w menu po lewej stronie, przewiń na dół, aby znaleźć swoje **dane logowania**. Skopiuj nazwę użytkownika i hasło — będą potrzebne później.
+
+    ![purevpn credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_credentials.png){class="glboxshadow"}
+
+2. Zaloguj się do panelu administracyjnego routera i przejdź do **VPN** -> **WireGuard Client** -> **PureVPN**. 
+
+    Wprowadź skopiowane **Username** i **Password**, a następnie kliknij **Save and Continue**.
 
     ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn1.png){class="glboxshadow"}
 
@@ -348,7 +358,7 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **PureV
 
     ![purevpn config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn2.png){class="glboxshadow"}
 
-2. Uruchom połączenie.
+3. Uruchom połączenie.
 
     Wybierz preferowany serwer i kliknij ikonę trzech kropek po prawej stronie, aby uruchomić połączenie.
 
@@ -360,19 +370,19 @@ W panelu administracyjnym przejdź do **VPN** -> **WireGuard Client** -> **PureV
 
     Możesz też sprawdzić szczegóły połączenia VPN na stronie **VPN Dashboard**.
 
-3. Aktualizacja serwerów.
+4. Aktualizacja serwerów.
 
     Możesz kliknąć **Update Servers**, aby pobrać najnowszą listę dostępnych serwerów, unikając błędów połączenia spowodowanych konserwacją lub wyłączeniem serwerów.
 
     ![purevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn6.png){class="glboxshadow"}
 
-4. Edycja danych logowania lub wylogowanie.
+5. Edycja danych logowania lub wylogowanie.
 
     Kliknij ikonę koła zębatego, aby edytować dane logowania lub się wylogować.
 
     ![purevpn edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn7.png){class="glboxshadow"}
 
-5. Usuń wszystko.
+6. Usuń wszystko.
 
     Możesz kliknąć **Delete All**, aby usunąć wszystkie pliki konfiguracyjne jednym kliknięciem, i wybrać, czy jednocześnie usunąć klucz prywatny i klucz publiczny.
 

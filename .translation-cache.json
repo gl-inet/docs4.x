@@ -3219,31 +3219,31 @@
     }
   },
   "docs/en/docs/interface_guide/wireguard_client.md": {
-    "source_hash": "e54a1285d4b0c24e13b6aafb782dc752d07527058caf1b15622013525a42eedf",
+    "source_hash": "2dd443c56852d35bdf22a61dedb37c386642210db397f9fab7f5c4eebadd2161",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780979064
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780979210
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780979378
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780979550
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780979756
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1780979933
       }
     }
   },

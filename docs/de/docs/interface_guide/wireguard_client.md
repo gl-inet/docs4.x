@@ -42,7 +42,7 @@ Oder folgen Sie den nachstehenden Schritten, um AzireVPN über das webbasierte A
 
 Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **AzireVPN**.
 
-1. Geben Sie **Username** und **Password** ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für alle Server erstellt.
+1. Geben Sie Ihren AzireVPN-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei AzireVPN anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
     ![azirevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn1.png){class="glboxshadow"}
 
@@ -84,11 +84,11 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Az
 
 ## Hide.me einrichten {#set-up-hideme}
 
-[Offizielle Website](https://www.hideipvpn.com/){target="_blank"}
+[Offizielle Website](https://hide.me/en/){target="_blank"}
 
 Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Hide.me**.
 
-1. Geben Sie **Username** und **Password** ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für alle Server erstellt.
+1. Geben Sie Ihren Hide.me-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei Hide.me anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
     ![hideme login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme1.png){class="glboxshadow"}
 
@@ -128,7 +128,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Hi
 
 Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **IPVanish**.
 
-1. Geben Sie **Username** und **Password** ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für alle Server erstellt.
+1. Geben Sie Ihren IPVanish-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei IPVanish anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
     ![ipvanish login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish1.png){class="glboxshadow"}
 
@@ -174,7 +174,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **IP
 
 Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Mullvad**.
 
-1. Geben Sie **Account** ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für alle Server erstellt.
+1. Geben Sie Ihren Mullvad-**Account** (16-stellige Nummer) ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
     ![mullvad login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad1.png){class="glboxshadow"}
 
@@ -248,7 +248,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Mu
 
 2. Melden Sie sich im webbasierten Admin Panel des Routers an und wechseln Sie zu **VPN** -> **WireGuard Client** -> **NordVPN**. 
 
-    Geben Sie **Token** ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für alle Server erstellt.
+    Geben Sie **Token** ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
     ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn1.png){class="glboxshadow"}
 
@@ -294,7 +294,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Mu
 
 Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **PIA**.
 
-1. Geben Sie **Username** und **Password** ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für alle Server erstellt.
+1. Geben Sie Ihren PIA-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei PIA anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
     ![pia login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia1.png){class="glboxshadow"}
 
@@ -338,9 +338,19 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **PI
 
 [Offizielle Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **PureVPN**.
+[PureVPN 15 Tage kostenlos testen](https://purevpn.com/refer-a-friend-v2?referrer=bEZTci9KcmtQSTFPbXlPak03NWtENWZaL1BHNENlR0JOMzV6RURhWFhSOD0=){target="_blank"}
 
-1. Geben Sie **Username** und **Password** ein und klicken Sie dann auf **Save and Continue**.
+1. Klicken Sie [hier](https://www.purevpn.com/){target="_blank"}, um sich in Ihrem PureVPN-Dashboard anzumelden.
+
+    ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_login.png){class="glboxshadow"}
+    
+    Klicken Sie nach der Anmeldung im linken Menü auf **Subscriptions**, scrollen Sie nach unten, um Ihre **credentials** zu finden. Kopieren Sie Benutzernamen und Passwort für die spätere Verwendung.
+
+    ![purevpn credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_credentials.png){class="glboxshadow"}
+
+2. Melden Sie sich im webbasierten Admin Panel des Routers an und gehen Sie zu **VPN** -> **WireGuard Client** -> **PureVPN**. 
+
+    Geben Sie den kopierten **Username** und das kopierte **Password** ein und klicken Sie dann auf **Save and Continue**.
 
     ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn1.png){class="glboxshadow"}
 
@@ -348,7 +358,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Pu
 
     ![purevpn config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn2.png){class="glboxshadow"}
 
-2. Starten Sie eine Verbindung.
+3. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
@@ -360,19 +370,19 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Pu
 
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
-3. Server aktualisieren.
+4. Server aktualisieren.
 
     Sie können auf **Update Servers** klicken, um die aktuelle Liste verfügbarer Server abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltung zu vermeiden.
 
     ![purevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn6.png){class="glboxshadow"}
 
-4. Zugangsdaten bearbeiten oder abmelden.
+5. Zugangsdaten bearbeiten oder abmelden.
 
     Klicken Sie auf das Zahnradsymbol, um Ihre Anmeldedaten zu bearbeiten oder sich abzumelden.
 
     ![purevpn edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn7.png){class="glboxshadow"}
 
-5. Alles löschen.
+6. Alles löschen.
 
     Sie können auf **Delete All** klicken, um alle Konfigurationsdateien mit einem Klick zu löschen, und auswählen, ob die privaten und öffentlichen Schlüssel gleichzeitig gelöscht werden sollen.
 
@@ -384,7 +394,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Pu
 
 Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Surfshark**.
 
-1. Geben Sie **Username** und **Password** ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für alle Server erstellt.
+1. Geben Sie Ihren Surfshark-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei Surfshark anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
     ![surfshark login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark1.png){class="glboxshadow"}
 
@@ -436,7 +446,7 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Su
 
 Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Windscribe**.
 
-1. Geben Sie **Username** und **Password** ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für alle Server erstellt.
+1. Geben Sie Ihren Windscribe-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei Windscribe anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
     ![windscribe login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe1.png){class="glboxshadow"}
 

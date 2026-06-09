@@ -84,7 +84,7 @@ Dans le panneau d'administration web, accédez à **VPN** -> **WireGuard Client*
 
 ## Configurer Hide.me {#set-up-hideme}
 
-[Site officiel](https://www.hideipvpn.com/){target="_blank"}
+[Site officiel](https://hide.me/en/){target="_blank"}
 
 Dans le panneau d'administration web, accédez à **VPN** -> **WireGuard Client** -> **Hide.me**.
 
@@ -174,7 +174,7 @@ Dans le panneau d'administration web, accédez à **VPN** -> **WireGuard Client*
 
 Dans le panneau d'administration web, accédez à **VPN** -> **WireGuard Client** -> **Mullvad**.
 
-1. Saisissez **Account**, puis cliquez sur **Save and Continue**. Le système générera des fichiers de configuration pour chaque serveur.
+1. Saisissez votre **Account** Mullvad (numéro à 16 chiffres), puis cliquez sur **Save and Continue**. Le système générera des fichiers de configuration pour chaque serveur.
 
     ![mullvad login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad1.png){class="glboxshadow"}
 
@@ -338,9 +338,19 @@ Dans le panneau d'administration web, accédez à **VPN** -> **WireGuard Client*
 
 [Site officiel](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
-Dans le panneau d'administration web, accédez à **VPN** -> **WireGuard Client** -> **PureVPN**.
+[Essai gratuit PureVPN de 15 jours](https://purevpn.com/refer-a-friend-v2?referrer=bEZTci9KcmtQSTFPbXlPak03NWtENWZaL1BHNENlR0JOMzV6RURhWFhSOD0=){target="_blank"}
 
-1. Saisissez **Username** et **Password**, puis cliquez sur **Save and Continue**.
+1. Cliquez [ici](https://www.purevpn.com/){target="_blank"} pour vous connecter à votre tableau de bord PureVPN.
+
+    ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_login.png){class="glboxshadow"}
+    
+    Après vous être connecté, cliquez sur **Subscriptions** dans le menu de gauche, faites défiler vers le bas pour trouver vos **credentials**. Copiez le nom d'utilisateur et le mot de passe pour une utilisation ultérieure.
+
+    ![purevpn credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_credentials.png){class="glboxshadow"}
+
+2. Connectez-vous au panneau d'administration web du routeur, puis accédez à **VPN** -> **WireGuard Client** -> **PureVPN**.
+
+    Saisissez le **Username** et le **Password** copiés, puis cliquez sur **Save and Continue**.
 
     ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn1.png){class="glboxshadow"}
 
@@ -348,7 +358,7 @@ Dans le panneau d'administration web, accédez à **VPN** -> **WireGuard Client*
 
     ![purevpn config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn2.png){class="glboxshadow"}
 
-2. Démarrer une connexion.
+3. Démarrer une connexion.
 
     Sélectionnez votre serveur préféré, puis cliquez sur l'icône à trois points à droite pour démarrer la connexion.
 
@@ -360,19 +370,19 @@ Dans le panneau d'administration web, accédez à **VPN** -> **WireGuard Client*
 
     Vous pouvez également vérifier les détails de la connexion VPN dans **VPN Dashboard**.
 
-3. Mettre à jour les serveurs.
+4. Mettre à jour les serveurs.
 
     Vous pouvez cliquer sur **Update Servers** pour obtenir la liste la plus récente des serveurs disponibles et éviter les échecs de connexion dus à une maintenance ou à l'arrêt de certains serveurs.
 
     ![purevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn6.png){class="glboxshadow"}
 
-4. Modifier les identifiants ou se déconnecter.
+5. Modifier les identifiants ou se déconnecter.
 
     Cliquez sur l'icône d'engrenage pour modifier vos identifiants de connexion ou vous déconnecter.
 
     ![purevpn edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn7.png){class="glboxshadow"}
 
-5. Tout supprimer.
+6. Tout supprimer.
 
     Vous pouvez cliquer sur **Delete All** pour supprimer tous les fichiers de configuration en un clic, et choisir si vous souhaitez également supprimer simultanément les clés privée et publique.
 

@@ -4,11 +4,11 @@ Normalmente, la VPN y AdGuard Home pueden funcionar simultáneamente en los rout
 
 Sin embargo, si configura AdGuard Home para gestionar todo el tráfico DNS y reenviar consultas a **servidores DNS ascendentes públicos**, al activar la VPN se producirán fallos en la resolución DNS.
 
-![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/adguardhome.png){class="glboxshadow" width="660"}
+![adguardhome](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguardhome.jpg){class="glboxshadow"}
 <br><small>(AdGuard Home habilitado y gestiona las solicitudes DNS)</small>
 
-![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/adguard_dns.png){class="glboxshadow" width="600"}
-<br><small>(Configuración DNS de AdGuard Home)</small>
+![adguard dns](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/upstream_dns.png){class="glboxshadow"}
+<br><small>(Configuración de DNS ascendente de AdGuard Home)</small>
 
 De forma predeterminada, todo el tráfico saliente se enruta a través del túnel VPN. Esto obliga a que el tráfico DNS ascendente de AdGuard Home pase por la VPN, la cual no puede alcanzar sus servidores DNS ascendentes públicos. Como resultado, todos los clientes conectados no podrán resolver nombres de dominio.
 
@@ -16,19 +16,19 @@ Para mantener AdGuard Home funcional mientras la VPN está activa, puede añadir
 
 1. Inicie sesión en el Panel de Administración web de su router y vaya a **SYSTEM** -> **Advanced Settings** -> **Go to LuCI**.
 
-    ![luci login 1](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/luci_login1.png){class="glboxshadow"}
+    ![luci login 1](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/luci1.png){class="glboxshadow"}
 
     Inicie sesión con la misma contraseña de administrador.
 
-    ![luci login 2](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/luci_login2.png){class="glboxshadow"}
+    ![luci login 2](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/luci2.png){class="glboxshadow"}
 
 2. En LuCI, navegue hasta **Network** -> **Routing**, luego haga clic en **Add**.
 
-    ![routing 1](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/routing1.png){class="glboxshadow"}
+    ![routing 1](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/routing1.png){class="glboxshadow"}
 
 3. Cree una nueva ruta estática para sus direcciones DNS ascendentes.
 
-    ![routing 2](https://static.gl-inet.com/docs/router/en/4/tutorials/adguard_dns_failure/routing2.jpg){class="glboxshadow"}
+    ![routing 2](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/routing2.png){class="glboxshadow"}
 
     - Interface: seleccione la interfaz WAN física **wan**.
     
@@ -45,6 +45,18 @@ Para mantener AdGuard Home funcional mientras la VPN está activa, puede añadir
     Esta ruta garantiza que las consultas DNS ascendentes de AdGuard Home eviten el túnel VPN y pasen directamente a través de su conexión WAN.
 
 4. Guarde y aplique los ajustes. AdGuard Home reanudará entonces la resolución DNS normal.
+
+5. Pruebe los servidores DNS ascendentes.
+
+    Puede verificar sus servidores DNS ascendentes directamente en la interfaz de AdGuard Home.
+    
+    En el Panel de Administración web de su router, vaya a **APPLICATIONS** -> **AdGuard Home**, luego haga clic en **Settings Page** para abrir el panel de AdGuard Home.
+
+    ![adguard settings](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/adguard_settings.png){class="glboxshadow"}
+
+    En el panel de AdGuard Home, vaya a **Settings** -> **DNS settings** -> **Upstream DNS servers** y haga clic en **Test upstreams**. Los resultados aparecerán a la derecha.
+
+    ![test upstreams](https://static.gl-inet.com/docs/router/en/4/tutorials/make_adguard_home_dns_bypass_vpn/test_upstreams.png){class="glboxshadow"}
 
 ---
 

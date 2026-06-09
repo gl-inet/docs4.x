@@ -2,9 +2,9 @@
 
 ## Produktübersicht
 
-Slate 7 (GL-BE3600) ist der erste tragbare Dualband-Wi-Fi-7-Reiserouter von GL.iNet und basiert auf führenden Wi-Fi-7-Technologien wie Multi-Link Operation und 4K QAM. Er erreicht theoretische Dualband-Geschwindigkeiten von 688 Mbit/s (2.4GHz) und 2882 Mbit/s (5GHz) und ermöglicht damit nahtloses 8K-Streaming und mobile Gaming-Erlebnisse. Über den Touchscreen können Sie den Netzwerkstatus auf einen Blick prüfen und grundlegende Funktionen intuitiv bedienen.
+Slate 7 (GL-BE3600) ist der erste tragbare Dualband-Wi-Fi-7-Reiserouter von GL.iNet und basiert auf führenden Wi-Fi-7-Technologien wie Multi-Link Operation und 4K QAM. Er erreicht theoretische Dualband-Geschwindigkeiten von 688 Mbit/s (2,4 GHz) und 2882 Mbit/s (5 GHz) und ermöglicht damit nahtloses 8K-Streaming und mobile Gaming-Erlebnisse. Über den Touchscreen können Sie den Netzwerkstatus auf einen Blick prüfen und grundlegende Funktionen intuitiv bedienen.
 
-Ausgestattet mit 2 × 2.5G-Ethernet-Ports (1 WAN + 1 LAN) und 1 × USB-3.0-Port erfüllt der Router die Anforderungen an schnelle kabelgebundene Verbindungen und flexible Speichererweiterung. Er unterstützt außerdem die Stromversorgung über Type-C PD (5V/3A, 9V/3A, 12V/2.5A) und verfügt über ein kompaktes, leichtes Design für hohe Mobilität. Mit vorinstalliertem AdGuard Home und Unterstützung für mehr als 30 VPN-Dienste bietet er zuverlässige Sicherheit für Ihr Netzwerk. Durch die Kombination aus mobiler Flexibilität und professioneller Leistung ist Slate 7 eine ideale Wahl für Remote-Arbeit und Internetfreigabe unterwegs.
+Ausgestattet mit 2 × 2.5G-Ethernet-Ports (1 WAN + 1 LAN) und 1 × USB-3.0-Port erfüllt der Router die Anforderungen an schnelle kabelgebundene Verbindungen und flexible Speichererweiterung. Er unterstützt außerdem die Stromversorgung über Type-C PD (5V/3A, 9V/3A, 12V/2.5A) und verfügt über ein kompaktes, leichtes Design für hohe Mobilität. Mit vorinstalliertem AdGuard Home und kompatibel mit mehr als 30 VPN-Diensten bietet er zuverlässige Sicherheit für Ihr Netzwerk. Durch die Kombination aus mobilem Komfort und professioneller Leistung ist Slate 7 die ideale Wahl für Remote-Arbeit und die gemeinsame Nutzung von Netzwerken unterwegs.
 
 ![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 
@@ -16,7 +16,7 @@ Ausgestattet mit 2 × 2.5G-Ethernet-Ports (1 WAN + 1 LAN) und 1 × USB-3.0-Port 
 - 1 x Ethernet-Kabel
 - 1 x Stromkabel
 - 1 x US-Netzadapter
-- 3 x Adapter (EU-, UK- und AU-Stecker)
+- 3 x Steckeradapter (EU-, UK- und AU-Stecker)
 
 ![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/first_time_setup/be3600_unboxing.jpg){class="glboxshadow"}
 
@@ -26,20 +26,20 @@ Sehen Sie sich unten das Unboxing-Video von Slate 7 an.
 
 ## Touchscreen
 
-| Bildschirmanzeige                                                                                                          | Beschreibung                                                                                                                                                     |
-| :------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png)                       | Startvorgang                                                                                                                                                     |
-| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png)                       | Netzwerkverbindungstypen und -status<br>**Grün**: Aktiv / Verbunden<br>**Gelb**: Verbindung wird hergestellt / Fehler<br>**Weiß**: Inaktive Verbindung           |
-| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png)                     | Wi-Fi-Details einschließlich SSID, Passwort, QR-Code und Ein-/Aus-Schaltfläche                                                                                   |
-| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="284"}           | VPN-Status. Die erstmalige Einrichtung erfolgt im Web-Admin-Panel                                                                                                |
-| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png)             | AdGuard Home                                                                                                                                                     |
-| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png)                               | Tor                                                                                                                                                              |
-| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png) | Datenverkehrsstatistiken<br>Dies ist die Durchschnittsgeschwindigkeit des gesamten Datenverkehrs, der durch den Router läuft; sie wird alle 3 Sekunden berechnet |
-| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png)                 | Systemauslastung                                                                                                                                                 |
-| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png)                        | Zeitzone                                                                                                                                                         |
-| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png)           | Systemmenü<br>Wischen Sie von oben nach unten, um das Systemmenü zu öffnen                                                                                       |
-| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png)                | Tippen Sie auf den Bildschirm, um ihn zu aktivieren, und wischen Sie von links nach rechts, um ihn zu entsperren                                                 |
-| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png)                | Klicken Sie auf „Reboot“ und wischen Sie dann von links nach rechts, um zu bestätigen                                                                            |
+| Bildschirmanzeige | Beschreibung |
+| :--- | :--- |
+| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){width="400"} | Startvorgang |
+| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){width="400"} | Netzwerkverbindungstypen und -status<br>**Grün**: Aktiv / Verbunden<br>**Gelb**: Verbindung wird hergestellt / Fehler<br>**Weiß**: Inaktive Verbindung |
+| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){width="400"} | Wi-Fi-Details, einschließlich SSID, Passwort, QR-Code und der Ein-/Aus-Schaltfläche |
+| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="400"} | VPN-Status. Die Ersteinrichtung erfolgt im Web-Admin-Panel |
+| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){width="400"} | AdGuard Home |
+| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png){width="400"} | Tor |
+| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){width="400"} | Datenverkehrsstatistiken<br>Dies ist die Durchschnittsgeschwindigkeit des gesamten Datenverkehrs, der durch den Router läuft; sie wird alle 3 Sekunden berechnet |
+| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png){width="400"} | Systemauslastung |
+| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png){width="400"} | Zeitzone |
+| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png){width="400"} | Systemmenü<br>Wischen Sie von oben nach unten, um das Systemmenü zu öffnen |
+| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | Tippen Sie auf den Bildschirm, um ihn zu aktivieren, und wischen Sie von links nach rechts, um ihn zu entsperren |
+| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | Klicken Sie auf „Reboot“ und wischen Sie dann von links nach rechts, um zu bestätigen |
 
 ## So richten Sie Slate 7 ein
 
@@ -58,11 +58,11 @@ Verbinden Sie ein Gerät, z. B. einen Computer, Laptop oder ein Smartphone, per 
 
 - Ethernet
 
-  Verbinden Sie Ihr Gerät per Ethernet-Kabel mit dem LAN-Port des Routers.
+    Verbinden Sie Ihr Gerät per Ethernet-Kabel mit dem LAN-Port des Routers.
 
 - Wi-Fi
 
-  Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein, um dem Netzwerk beizutreten. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett Ihres Routers.
+    Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke den Wi-Fi-Netzwerknamen Ihres Routers und geben Sie das Passwort ein, um dem Netzwerk beizutreten. Den Standard-Netzwerknamen und das Standard-Passwort finden Sie auf dem Etikett Ihres Routers.
 
 ### 3. Im Web-Admin-Panel anmelden
 
@@ -303,7 +303,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Zum Einrichten der NAT-Einstellungen lesen Sie bitte [NAT Settings](../../interface_guide/nat_settings.md).
 
-## Systemeinstellungen
+## System
 
 === "Overview"
 

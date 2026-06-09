@@ -5133,31 +5133,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-be3600/index.md": {
-    "source_hash": "794ca00f517bc3b869724df87fc0cd74e852f6b0f1eaf741a21058e16e9b8733",
+    "source_hash": "c86698b8529c04468735adfdbe5574a1b5b089d6747de1c1dd235d454339416a",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781005292
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781005442
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1779027607
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781005580
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1779027605
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781005760
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1779027949
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781005984
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1779028031
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781006211
       }
     }
   },

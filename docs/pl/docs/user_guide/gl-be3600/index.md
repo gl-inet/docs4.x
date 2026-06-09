@@ -28,18 +28,18 @@ Poniżej znajdziesz film z rozpakowania Slate 7.
 
 | Widok na ekranie                    | Opis         |
 | :---------------------------------- | :----------- |
-| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png) | Uruchamianie |
-| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png) | Typy połączeń sieciowych i ich stan<br>**Zielony**: aktywne / połączone<br>**Żółty**: łączenie / nieprawidłowy stan<br>**Biały**: nieaktywne połączenie |
-| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png) | Szczegóły Wi‑Fi, w tym SSID, hasło, kod QR i przycisk włączania/wyłączania |
-| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="284"} | Stan VPN. Wymaga wstępnej konfiguracji w panelu administracyjnym |
-| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png) | AdGuard Home |
-| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png) | Tor |
-| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png) | Statystyki ruchu<br>Średnia prędkość całego ruchu przechodzącego przez router, obliczana co 3 sekundy |
-| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png) | Użycie systemu |
-| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png) | Strefa czasowa |
-| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png) | Menu systemowe<br>Przesuń od góry do dołu, aby otworzyć menu systemowe |
-| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png) | Dotknij ekranu, aby go wybudzić, a następnie przesuń od lewej do prawej, aby odblokować |
-| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png) | Po kliknięciu „Reboot” przesuń od lewej do prawej, aby potwierdzić |
+| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){width="400"} | Uruchamianie |
+| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){width="400"} | Typy połączeń sieciowych i ich stan<br>**Zielony**: aktywne / połączone<br>**Żółty**: łączenie / nieprawidłowy stan<br>**Biały**: nieaktywne połączenie |
+| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){width="400"} | Szczegóły Wi‑Fi, w tym SSID, hasło, kod QR i przycisk włączania/wyłączania |
+| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="400"} | Stan VPN. Wymaga wstępnej konfiguracji w panelu administracyjnym |
+| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){width="400"} | AdGuard Home |
+| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png){width="400"} | Tor |
+| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){width="400"} | Statystyki ruchu<br>Średnia prędkość całego ruchu przechodzącego przez router, obliczana co 3 sekundy |
+| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png){width="400"} | Użycie systemu |
+| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png){width="400"} | Strefa czasowa |
+| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png){width="400"} | Menu systemowe<br>Przesuń od góry do dołu, aby otworzyć menu systemowe |
+| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | Dotknij ekranu, aby go wybudzić, a następnie przesuń od lewej do prawej, aby odblokować |
+| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | Po kliknięciu „Reboot” przesuń od lewej do prawej, aby potwierdzić |
 
 ## Jak skonfigurować Slate 7
 
@@ -256,7 +256,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 === "Ethernet Port"
 
-    Strona Ethernet Port umożliwia konfigurację portów WAN i LAN, ustawienie interfejsu WAN/LAN na Ethernet, określenie trybu MAC i adresu MAC dla interfejsu WAN oraz wyświetlanie negocjowanej prędkości portu sieciowego.
+    Strona Ethernet Port umożliwia konfigurację portów WAN i LAN, ustawienie interfejsu WAN/LAN na Ethernet, określenie trybu MAC i adresu MAC dla interfejsu WAN oraz wyświetlanie wynegocjowanej prędkości portu sieciowego.
 
     Aby zarządzać portami Ethernet, zapoznaj się z [Ethernet Port](../../interface_guide/ethernet_port.md).
 

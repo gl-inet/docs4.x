@@ -28,18 +28,18 @@ Découvrez la vidéo de déballage du Slate 7 ci-dessous.
 
 | Affichage à l'écran                    | Description         |
 | :------------------------------------- | :------------------ |
-| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png) | Démarrage |
-| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png) | Types et état des connexions réseau<br>**Vert** : actif / connecté<br>**Jaune** : connexion en cours / anormal <br>**Blanc** : connexion inactive |
-| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png) | Détails du Wi-Fi, y compris le SSID, le mot de passe, le code QR et le bouton marche/arrêt |
-| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="284"} | État du VPN. Une configuration initiale dans le panneau d'administration web est requise |
-| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png) | AdGuard Home |
-| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png) | Tor |
-| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png) | Statistiques du trafic<br>Il s'agit de la vitesse moyenne de l'ensemble du trafic transitant par le routeur, calculée toutes les 3 secondes |
-| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png) | Utilisation du système |
-| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png) | Fuseau horaire |
-| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png) | Menu système<br>Balayez de haut en bas pour accéder au menu système |
-| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png) | Touchez l'écran pour le réveiller, puis faites glisser de gauche à droite pour le déverrouiller |
-| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png) | Après avoir appuyé sur « Reboot », faites glisser de gauche à droite pour confirmer |
+| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){width="400"} | Démarrage |
+| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){width="400"} | Types et état des connexions réseau<br>**Vert** : actif / connecté<br>**Jaune** : connexion en cours / anormal <br>**Blanc** : connexion inactive |
+| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){width="400"} | Détails du Wi-Fi, y compris le SSID, le mot de passe, le code QR et le bouton marche/arrêt |
+| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="400"} | État du VPN. Une configuration initiale dans le panneau d'administration web est requise |
+| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){width="400"} | AdGuard Home |
+| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png){width="400"} | Tor |
+| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){width="400"} | Statistiques du trafic<br>Il s'agit de la vitesse moyenne de l'ensemble du trafic transitant par le routeur, calculée toutes les 3 secondes |
+| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png){width="400"} | Utilisation du système |
+| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png){width="400"} | Fuseau horaire |
+| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png){width="400"} | Menu système<br>Balayez de haut en bas pour accéder au menu système |
+| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | Touchez l'écran pour le réveiller, puis faites glisser de gauche à droite pour le déverrouiller |
+| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | Après avoir appuyé sur « Reboot », faites glisser de gauche à droite pour confirmer |
 
 ## Configuration initiale du Slate 7
 

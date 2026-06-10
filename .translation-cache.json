@@ -3944,7 +3944,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md": {
-    "source_hash": "a09d603e6c149a668916e81fb15e093728ea266bec0fc85194af0d52fdd8d48a",
+    "source_hash": "c43297579f8538901d389d91b2a620d3a490c703c352049f9ccd04f0631cdfa5",
     "targets": {
       "de": {
         "model": "pre-existing",

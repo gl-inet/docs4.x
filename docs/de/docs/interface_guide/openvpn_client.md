@@ -10,9 +10,9 @@ Um einen OpenVPN-Client auf einem GL.iNet-Router einzurichten, sehen Sie sich di
 
 Bevor Sie beginnen, stellen Sie sicher, dass Sie ein aktives Abonnement bei einem VPN-Anbieter haben, der die manuelle OpenVPN-Konfiguration unterstützt. Klicken Sie [hier](https://www.gl-inet.com/solutions/vpn/){target="_blank"}, um die mit GL.iNet kompatiblen OpenVPN-Anbieter zu prüfen.
 
-In der Regel müssen Sie zuerst die offizielle Website Ihres VPN-Anbieters besuchen, die Konfigurationsdatei abrufen und sie auf den Router hochladen, um ihn als OpenVPN-Client einzurichten. Wenn Sie nicht wissen, wie Sie die Konfigurationsdatei erhalten, lesen Sie [diesen Abschnitt](#konfigurationsdateien-von-openvpn-anbietern-abrufen) oder wenden Sie sich an den Support Ihres Anbieters.
+In der Regel müssen Sie zuerst die offizielle Website Ihres VPN-Anbieters besuchen, die Konfigurationsdatei abrufen und sie auf den Router hochladen, um ihn als OpenVPN-Client einzurichten. Wenn Sie nicht wissen, wie Sie die Konfigurationsdatei erhalten, lesen Sie [diesen Abschnitt](#get-configuration-files-from-openvpn-service-providers) oder wenden Sie sich an den Support Ihres Anbieters.
 
-Sie können einen OpenVPN-Client über das webbasierte Admin Panel oder die [GL.iNet App](../faq/mobile_app.md) einrichten. Nachfolgend finden Sie die Schritte für die Einrichtung über das webbasierte Admin Panel.
+Sie können einen OpenVPN-Client über das webbasierte Admin Panel oder die [mobile App](../faq/mobile_app.md) einrichten. Nachfolgend finden Sie die Schritte für die Einrichtung über das webbasierte Admin Panel.
 
 ---
 
@@ -26,7 +26,7 @@ Wenn Sie ein NordVPN-Abonnement haben, klicken Sie auf **NordVPN**, um sich anzu
 
 [NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} ist ein beliebter Online-VPN-Dienst für Geschwindigkeit und Sicherheit.
 
-Die NordVPN-Schnelleinrichtung ist in das Admin Panel der GL.iNet-Router integriert. Sie können Konfigurationsdateien für alle NordVPN-Server online abrufen, indem Sie Ihre Kontodaten aus dem NordVPN-Dashboard im webbasierten Admin Panel oder in der GL.iNet App des Routers eingeben. So entfällt das manuelle Hochladen von Dateien.
+Die NordVPN-Schnelleinrichtung ist in das Admin Panel der GL.iNet-Router integriert. Sie können Konfigurationsdateien für alle NordVPN-Server online abrufen, indem Sie Ihre Kontodaten (die Sie im NordVPN-Dashboard abrufen) im webbasierten Admin Panel des Routers oder in der mobilen App eingeben. So entfällt das manuelle Hochladen von Dateien.
 
 1. Melden Sie sich [hier](https://my.nordaccount.com/){target="_blank"} bei Ihrem NordVPN-Webkonto an.
 
@@ -147,11 +147,11 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "NordVPN"
     ### NordVPN
 
-    [Offizielle Website](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"}
+    [Official Website](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"}
 
     1. **Bei Ihrem NordVPN-Konto anmelden**
 
-        Melden Sie sich auf der [offiziellen Website](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} an und öffnen Sie das Nord-Account-Dashboard. Dort finden Sie die Service-Zugangsdaten.
+        Melden Sie sich auf der [Official Website](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"} an und öffnen Sie das Nord-Account-Dashboard. Dort finden Sie die Service-Zugangsdaten.
 
         ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_login.png){class="glboxshadow"}
 
@@ -181,12 +181,12 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     [Referenzlink](https://support.nordvpn.com/Connectivity/Router/1047409122/GL-iNet-setup-with-NordVPN.htm){target="_blank"}
 
-    Sie können NordVPN auch mit der [GL.iNet App](../faq/mobile_app.md) einrichten.
+    Sie können NordVPN auch mit der [mobile App](../faq/mobile_app.md) einrichten.
 
 ??? "AirVPN"
     ### AirVPN
 
-    [Offizielle Website](https://airvpn.org/?referred_by=402389){target="_blank"}
+    [Official Website](https://airvpn.org/?referred_by=402389){target="_blank"}
 
     1. Melden Sie sich bei Ihrem AirVPN-Konto an.
 
@@ -203,7 +203,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "Astrill"
     ### Astrill
 
-    [Offizielle Website](https://www.astrill.com/a/dik2masnw6ig){target="_blank"}
+    [Official Website](https://www.astrill.com/a/dik2masnw6ig){target="_blank"}
 
     Informationen zitiert aus der [Astrill official instruction](https://wiki.astrill.com/Astrill_Setup_Manual:How_to_configure_OpenVPN_with_OpenVPN_application_on_Windows){target="_blank"}
 
@@ -226,7 +226,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "BolehVPN"
     ### BolehVPN
 
-    [Offizielle Website](https://www.bolehvpn.net/){target="_blank"}
+    [Official Website](https://www.bolehvpn.net/){target="_blank"}
 
     Melden Sie sich im [Dashboard](https://users.bolehvpn.net/){target="_blank"} an, laden Sie Ihre Konfigurationsdateien herunter und wählen Sie das Format [Linux_iOS inline](https://users.bolehvpn.net/download/inline/6){target="_blank"}. Entpacken Sie die ZIP-Dateien nach dem Download.
 
@@ -237,7 +237,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "CactusVPN"
     ### CactusVPN
 
-    [Offizielle Website](https://billing.cactusvpn.com/aff.php?aff=2310){target="_blank"}
+    [Official Website](https://billing.cactusvpn.com/aff.php?aff=2310){target="_blank"}
 
     [Download](https://www.cactusvpn.com/downloads/){target="_blank"} direkt.
 
@@ -246,14 +246,14 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "Cryptostorm"
     ### Cryptostorm
 
-    [Offizielle Website](https://cryptostorm.is/){target="_blank"}
+    [Official Website](https://cryptostorm.is/){target="_blank"}
 
     [Download](https://cryptostorm.is/configs/ecc/){target="_blank"} direkt.
 
 ??? "CyberGhost"
     ### CyberGhost
 
-    [Offizielle Website](https://www.cyberghostvpn.com/offer/GLiNet_rem6fdij){target="_blank"}
+    [Official Website](https://www.cyberghostvpn.com/offer/GLiNet_rem6fdij){target="_blank"}
 
     Informationen zitiert aus der [CyberGhost official instruction](https://support.cyberghostvpn.com/hc/en-us/articles/213811885-Router-How-to-configure-OpenVPN-for-flashed-DD-WRT-routers){target="_blank"}
 
@@ -296,7 +296,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "ExpressVPN"
     ### ExpressVPN
 
-    [Offizielle Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"}
+    [Official Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"}
 
     Informationen zitiert aus der [offiziellen ExpressVPN-Anleitung](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
 
@@ -327,7 +327,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "FastestVPN"
     ### FastestVPN
 
-    [Offizielle Website](https://go.fastestvpn.com/affiliate/pap?a_aid=5ffd2a3e9d687){target="_blank"}
+    [Official Website](https://go.fastestvpn.com/affiliate/pap?a_aid=5ffd2a3e9d687){target="_blank"}
 
     Laden Sie die FastestVPN-Konfigurationsdateien für OpenVPN TCP und UDP als ZIP [hier](https://support.fastestvpn.com/download/fastestvpn_ovpn/) herunter.
 
@@ -338,7 +338,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "FinchVPN"
     ### FinchVPN
 
-    [Offizielle Website](https://www.finchvpn.com/){target="_blank"}
+    [Official Website](https://www.finchvpn.com/){target="_blank"}
 
     1. Melden Sie sich bei Ihrem FinchVPN-Konto an.
 
@@ -363,7 +363,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "HideIPVPN"
     ### HideIPVPN
 
-    [Offizielle Website](https://www.hideipvpn.com/){target="_blank"}
+    [Official Website](https://www.hideipvpn.com/){target="_blank"}
 
     1. Melden Sie sich bei Ihrem HideIPVPN-Konto an.
 
@@ -382,7 +382,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "Hide.me VPN"
     ### Hide.me VPN
 
-    [Offizielle Website](https://hide.me/?friend=glinet){target="_blank"}
+    [Official Website](https://hide.me/?friend=glinet){target="_blank"}
 
     1. Melden Sie sich bei Ihrem Hide.me-Konto an und suchen Sie links die **Server Locations**.
 
@@ -393,7 +393,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "Hotspot Shield"
     ### Hotspot Shield
 
-    [Offizielle Website](https://trk.aclktrkr.com/aff_c?offer_id=59&aff_id=3722){target="_blank"}
+    [Official Website](https://trk.aclktrkr.com/aff_c?offer_id=59&aff_id=3722){target="_blank"}
 
     **Hinweis: Die Router-Konfigurationsdateien von Hotspot Shield sind nicht mehr verfügbar bzw. werden nicht mehr unterstützt. Die folgenden Schritte dienen nur noch als Altanleitung für Benutzer, die diese Dateien bereits installiert haben.**
 
@@ -412,7 +412,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "IPVANISH"
     ### IPVANISH
 
-    [Offizielle Website](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="_blank"}
+    [Official Website](https://affiliate.ipvanish.com/aff_c?offer_id=1&aff_id=3073){target="_blank"}
 
     - Sie können alle Konfigurationsdateien für sämtliche Server [hier](https://configs.ipvanish.com/configs/configs.zip) herunterladen. Die ZIP-Datei enthält alle Server-Konfigurationsdateien (`.ovpn`) sowie eine Zertifikatsdatei (`.crt`). Die ZIP-Datei ist für einige Modelle möglicherweise etwas groß. Löschen Sie daher bitte die Server-Konfigurationen (`.ovpn`), die Sie nicht verwenden werden.
 
@@ -427,7 +427,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "IVACY"
     ### IVACY
 
-    [Offizielle Website](https://billing.ivacy.com/page/22852){target="_blank"}
+    [Official Website](https://billing.ivacy.com/page/22852){target="_blank"}
 
     Für die Einrichtung eines OpenVPN-Clients mit Ivacy benötigen Sie Folgendes:
 
@@ -441,7 +441,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "IVPN"
     ### IVPN
 
-    [Offizielle Website](https://www.ivpn.net/){target="_blank"}
+    [Official Website](https://www.ivpn.net/){target="_blank"}
 
     1. Laden Sie die [OpenVPN-Konfigurationsdateien](https://www.ivpn.net/releases/config/ivpn-openvpn-config.zip) herunter.
 
@@ -456,7 +456,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "OVPN"
     ### OVPN
 
-    [Offizielle Website](https://www.ovpn.com/en?ref=glinet){target="_blank"}
+    [Official Website](https://www.ovpn.com/en?ref=glinet){target="_blank"}
 
     Melden Sie sich einfach an. Anschließend können Sie die OpenVPN-Konfigurationsdatei über das unten gezeigte Menü abrufen.
 
@@ -471,7 +471,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "OysterVPN"
     ### OysterVPN
 
-    [Offizielle Website](https://go.oystervpn.net?a_aid=glinet){target="_blank"}
+    [Official Website](https://go.oystervpn.net?a_aid=glinet){target="_blank"}
 
     1. Öffnen Sie [die OysterVPN-Serverlistenseite](https://support.oystervpn.com/server-list/){target="_blank"} und klicken Sie auf **Download .ovpn file**, um die Konfigurationsdatei herunterzuladen.
 
@@ -484,7 +484,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "PIA (Private Internet Access)"
     ### PIA
 
-    [Offizielle Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
+    [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
     [Download](https://www.privateinternetaccess.com/openvpn/openvpn.zip) direkt.
 
@@ -493,7 +493,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "PrivadoVPN"
     ### PrivadoVPN
 
-    [Offizielle Website](https://privadovpn.com/#a_aid=GLINET){target="_blank"}
+    [Official Website](https://privadovpn.com/#a_aid=GLINET){target="_blank"}
 
     Melden Sie sich einfach an. Anschließend finden Sie problemlos **Download VPN Configuration**.
 
@@ -504,7 +504,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "PrivateVPN"
     ### PrivateVPN
 
-    [Offizielle Website](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
+    [Official Website](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
 
     [Download](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/privatevpn/PrivateVPN-TUN.zip){target="_blank} direkt.
 
@@ -515,7 +515,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "Proton VPN"
     ### Proton VPN
 
-    [Offizielle Website](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
+    [Official Website](https://go.getproton.me/aff_c?offer_id=26&aff_id=1612){target="_blank"}
 
     **Proton VPN bietet WireGuard an. Wir empfehlen daher die Verwendung von WireGuard. Mehr dazu [hier](wireguard_client.md#wireguard-providers).**
 
@@ -534,7 +534,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "PureVPN"
     ### PureVPN
 
-    [Offizielle Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
+    [Official Website](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"}
 
     Für die Einrichtung eines OpenVPN-Clients mit PureVPN benötigen Sie Ihren OpenVPN-Benutzernamen, Ihr Passwort und eine Konfigurationsdatei, die Sie in Ihrem PureVPN-Konto finden.
 
@@ -552,7 +552,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "SaferVPN"
     ### SaferVPN
 
-    [Offizielle Website](https://safervpn.com/?a_aid=563){target="_blank"}
+    [Official Website](https://safervpn.com/?a_aid=563){target="_blank"}
 
     Klicken Sie [hier](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup), um die Konfigurationsdateien direkt herunterzuladen.
 
@@ -561,7 +561,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "StarVPN"
     ### StarVPN
 
-    [Offizielle Website](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
+    [Official Website](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
     StarVPN bietet VPN-Dienste mit den Protokollen OpenVPN und WireGuard an. Wir empfehlen WireGuard, da es in der Regel schneller als OpenVPN ist. Weitere Informationen finden Sie [hier](wireguard_client.md#starvpn).
 
@@ -590,7 +590,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "StreamVPN"
     ### StreamVPN
 
-    [Offizielle Website](https://billing.streamvpn.com/account/signup?aff_t=aaf341756f7b94ed3f040f78292b80f1db1adf3318eacb87dd9c4ad4e08fde11a%3A2%3A%7Bs%3A6%3A%22aff_id%22%3Bs%3A6%3A%22645311%22%3Bs%3A6%3A%22off_id%22%3Bi%3A10%3B%7D){target="_blank"}
+    [Official Website](https://billing.streamvpn.com/account/signup?aff_t=aaf341756f7b94ed3f040f78292b80f1db1adf3318eacb87dd9c4ad4e08fde11a%3A2%3A%7Bs%3A6%3A%22aff_id%22%3Bs%3A6%3A%22645311%22%3Bs%3A6%3A%22off_id%22%3Bi%3A10%3B%7D){target="_blank"}
 
     1. Melden Sie sich mit Ihrem [StreamVPN](https://billing.streamvpn.com/account/signup?aff_t=aaf341756f7b94ed3f040f78292b80f1db1adf3318eacb87dd9c4ad4e08fde11a%3A2%3A%7Bs%3A6%3A%22aff_id%22%3Bs%3A6%3A%22645311%22%3Bs%3A6%3A%22off_id%22%3Bi%3A10%3B%7D){target="_blank"}-Konto an. Dort sehen Sie dann Ihre Abonnementinformationen. Klicken Sie auf **Install & Guides**.
 
@@ -605,7 +605,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "StrongVPN"
     ### StrongVPN
 
-    [Offizielle Website](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
+    [Official Website](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}
 
     1. Melden Sie sich mit Ihrem [StrongVPN](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"}-Konto an. Anschließend wird die Übersicht **VPN Accounts Summary** angezeigt. Klicken Sie auf **Account Setup Instructions**.
 
@@ -618,13 +618,13 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "Surfshark"
     ### Surfshark
 
-    [Offizielle Website](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
+    [Official Website](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}
 
     1. **Anmeldedaten finden**
 
         Die Surfshark-Service-Zugangsdaten unterscheiden sich von Ihren Surfshark-Kontodaten, also Ihrer E-Mail-Adresse und Ihrem Passwort. Für die manuelle OpenVPN-Konfiguration auf dem Router benötigen Sie die Surfshark-Service-Zugangsdaten.
 
-        Melden Sie sich auf der [offiziellen Website](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"} an und gehen Sie zu [dieser Seite](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}. Dort finden Sie alle Details, die für eine manuelle Verbindung erforderlich sind.
+        Melden Sie sich auf der [Official Website](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"} an und gehen Sie zu [dieser Seite](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}. Dort finden Sie alle Details, die für eine manuelle Verbindung erforderlich sind.
 
         ![surfshark service credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_service_credential.png){class="glboxshadow"}
 
@@ -647,7 +647,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "VPN.AC"
     ### VPN.AC
 
-    [Offizielle Website](https://vpn.ac/aff.php?aff=1424){target="_blank"}
+    [Official Website](https://vpn.ac/aff.php?aff=1424){target="_blank"}
 
     [Download](https://vpn.ac/ovpn/).
 
@@ -656,7 +656,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "VPNGate"
     ### VPNGate
 
-    [Offizielle Website](https://www.vpngate.net/en/){target="_blank"}
+    [Official Website](https://www.vpngate.net/en/){target="_blank"}
 
     Die OpenVPN-Konfigurationsdateien werden auf der [VPN Gate-Website](https://www.vpngate.net/en/) entsprechend dem Serverstandort aufgeführt.
 
@@ -671,7 +671,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "VPN Unlimited(KeepSolid)"
     ### VPN Unlimited(KeepSolid)
 
-    [Offizielle Website](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}
+    [Official Website](https://keepsolid.g2afse.com/click?pid=270&offer_id=7){target="_blank"}
 
     Informationen zitiert aus der [VPN unlimited official instruction](https://www.vpnunlimitedapp.com/en/info/manuals/how-to-manually-create-vpn-conf){target="_blank"}
 
@@ -709,7 +709,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "Windscribe"
     ### Windscribe
 
-    [Offizielle Website](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
+    [Official Website](https://windscribe.com/yo/1u2h9ndl){target="_blank"}
 
     1. Melden Sie sich [hier](https://windscribe.com/login?auth_required){target="_blank"} bei Ihrem Windscribe-Mitgliedskonto an und öffnen Sie dann den [OpenVPN Config Generator](https://windscribe.com/getconfig/openvpn){target="_blank"}.
 
@@ -724,9 +724,9 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "ZoogVPN"
     ### ZoogVPN
 
-    [Offizielle Website](https://zoogvpn.com/pricing?ref=xrsyzx){target="_blank"}
+    [Official Website](https://zoogvpn.com/pricing?ref=xrsyzx){target="_blank"}
 
-    Melden Sie sich auf der [offiziellen Website](https://zoogvpn.com/pricing?ref=xrsyzx){target="_blank"} an und öffnen Sie anschließend die [Seite für OpenVPN-Konfigurationsdateien](https://app.zoogvpn.com/setup/configuration-files){target="_blank"}. Dort finden Sie alle Server. Laden Sie die Konfigurationsdatei in der TCP- oder UDP-Spalte herunter.
+    Melden Sie sich auf der [Official Website](https://zoogvpn.com/pricing?ref=xrsyzx){target="_blank"} an und öffnen Sie anschließend die [Seite für OpenVPN-Konfigurationsdateien](https://app.zoogvpn.com/setup/configuration-files){target="_blank"}. Dort finden Sie alle Server. Laden Sie die Konfigurationsdatei in der TCP- oder UDP-Spalte herunter.
 
     ![zoogvpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/zoogvpn/zoogvpn_openvpn_config_files.png)
 

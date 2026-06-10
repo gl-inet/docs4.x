@@ -42,7 +42,7 @@ Szybka konfiguracja NordVPN jest zintegrowana z panelem administracyjnym router�
 
 2. Zaloguj się do panelu administracyjnego routera i przejdź do **VPN** -> **OpenVPN Client** -> **NordVPN**.
 
-    Wprowadź **dane logowania do usługi** uzyskane w kroku 1 (uwaga: to **NIE** jest adres e-mail i hasło do Twojego konta Nord), a następnie kliknij **Save and Continue**.
+    Wprowadź **dane logowania do usługi** uzyskane w kroku 1 (uwaga: to **NIE** jest adres e-mail i hasło do Twojego konta NordVPN), a następnie kliknij **Save and Continue**.
 
     ![input nordvpn service credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn1.png){class="glboxshadow"}
 
@@ -88,7 +88,7 @@ Szybka konfiguracja NordVPN jest zintegrowana z panelem administracyjnym router�
 
 Jeśli Twój dostawca usług OpenVPN nie jest zintegrowany z naszym panelem administracyjnym, odwiedź najpierw oficjalną stronę subskrybowanego dostawcy, aby uzyskać plik konfiguracyjny. Następnie prześlij go do routera, aby skonfigurować klienta OpenVPN.
 
-W poniższych krokach jako przykładu używamy [PIA (Private Internet Access)](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}.
+W poniższych krokach jako przykładu użyjemy [PIA (Private Internet Access)](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}.
 
 1. Pobierz plik konfiguracyjny z oficjalnej strony Private Internet Access.
 

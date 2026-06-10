@@ -277,7 +277,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
         **OpenVPN TCP** offre des connexions plus stables que la version UDP, mais il est un peu plus lent. Choisissez cette version si vous rencontrez des problèmes de connexion récurrents, comme des déconnexions soudaines.
 
-        Une fois les paramètres souhaités choisis, enregistrez-les avec **Save Configuration**.
+        Une fois les paramètres souhaités choisis, enregistrez-les avec **Save Configuration**
 
     4. Pour afficher les identifiants **OpenVPN** générés pour vous sur le tableau de bord de configuration, cliquez sur **View Configuration**.
 
@@ -460,7 +460,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     1. Accédez au site [Mullvad](https://mullvad.net/en){rel="sponsored" target="_blank"} et connectez-vous avec vos identifiants Mullvad.
 
-    2. Choisissez OpenVPN Configuration
+    2. Choisissez **OpenVPN Configuration**
 
     ![ovpnconfig](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ovpnconfig.jpg){class="glboxshadow"}
 

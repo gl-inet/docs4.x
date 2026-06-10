@@ -188,7 +188,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     [Official Website](https://airvpn.org/?referred_by=402389){target="_blank"}
 
-    1. Login your AirVPN acoount
+    1. Login your AirVPN account
 
         ![airvpn client detail](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/airvpn/airvpn1.png){class="glboxshadow"}
 

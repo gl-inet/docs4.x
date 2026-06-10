@@ -4,27 +4,27 @@
 
 ## Guía de configuración
 
-A continuación se usa un GL-B3000 como ejemplo para activar Urban Shield VPN configurándolo como WireGuard Client.
+A continuación se usa un GL-B3000 como ejemplo, configurado como cliente WireGuard para conectarse a Urban Shield VPN.
 
 ### 1. Registrar una cuenta de Urban Shield VPN
 
-Visite el [sitio web oficial de Urban Shield VPN](https://urbanshieldvpn.com/){class="\_blank"} o haga clic [aquí](https://payment.urbanshieldvpn.com/sign-up) para registrar una cuenta de Urban Shield VPN.
+Visite el [sitio web oficial de Urban Shield VPN](https://urbanshieldvpn.com/){target="_blank"} para registrar una cuenta de Urban Shield VPN.
 
 ![Urban Shield VPN signup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/sign_in.png){class="glboxshadow"}
 
-### 2. Encender y conectar
+### 2. Encender el router
 
-Encienda el router. Conecte un dispositivo al router mediante un cable Ethernet o por Wi-Fi.
+Encienda el router y conecte un dispositivo (como un portátil o un teléfono inteligente) al router mediante un cable Ethernet o por Wi-Fi.
 
 ### 3. Acceder al panel de administración web
 
 Siga los pasos siguientes para acceder al panel de administración web. Si ya ha iniciado sesión, vaya a la [siguiente parte](#4-network-setup).
 
-Abra un navegador web, se recomienda Chrome, Edge o Safari, y visite [192.168.8.1](http://192.168.8.1){target="_blank"}. Se le dirigirá a la configuración inicial del panel de administración web, como se muestra a continuación. Configure la contraseña de administrador y haga clic en **Next** para continuar.
+Abra un navegador web (se recomienda Chrome, Edge o Safari) y visite [192.168.8.1](http://192.168.8.1){target="_blank"}. Se le dirigirá a la configuración inicial del panel de administración web, como se muestra a continuación. Configure la contraseña de administrador y haga clic en **Next** para continuar.
 
 ![set up admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/web_panel_signup.png){class="glboxshadow"}
 
-Configure la red Wi-Fi. La página muestra los datos Wi-Fi de fábrica, incluidos el nombre de Wi-Fi, SSID, y la contraseña, que puede cambiar o mantener. Si cambia cualquier dato del Wi-Fi, vuelva a conectar su dispositivo a la red Wi-Fi actualizada.
+Configure la red Wi-Fi. La página muestra los datos Wi-Fi de fábrica, incluidos el nombre de Wi-Fi (SSID) y la contraseña, que puede cambiar o mantener. Si cambia cualquier dato del Wi-Fi, vuelva a conectar su dispositivo a la red Wi-Fi actualizada.
 
 ![set up wifi](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/set_up_wifi.png){class="glboxshadow"}
 
@@ -32,17 +32,17 @@ Después, haga clic en **Next** para iniciar sesión con la contraseña de admin
 
 ### 4. Configuración de red
 
-Hay un **Network Setup Wizard** en la esquina superior derecha, disponible en firmware v4.7 y superiores. Siga el asistente para configurar el acceso a Internet del router antes de configurar la VPN.
+Hay un **Network Setup Wizard** en la esquina superior derecha (disponible en firmware v4.7 y superiores). Siga el asistente para configurar el acceso a Internet del router antes de configurar la VPN.
 
 ![network setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/network_setup_wizard.jpg){class="glboxshadow"}
 
 ### 5. Activar Urban Shield VPN
 
-Seleccione **VPN** en el menú izquierdo -> **WireGuard Client**. Verá una página integrada de inicio de sesión de Urban Shield VPN.
+En el menú izquierdo, vaya a **VPN** -> **WireGuard Client**. Verá la página de inicio de sesión de Urban Shield VPN.
 
 ![log in 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_1.png){class="glboxshadow"}
 
-Introduzca su **Email** y **Password**, y luego haga clic en **Save And Continue**. El sistema generará archivos de configuración para cada servidor.
+Introduzca sus credenciales de Urban Shield VPN (**Email** y **Password**) y, a continuación, haga clic en **Save And Continue**. El sistema generará archivos de configuración para cada servidor.
 
 ![log in 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_2.png){class="glboxshadow"}
 

@@ -1,0 +1,14 @@
+docs/en/docs/interface_guide/openvpn_client.md
+  h_dd47ed8a860c1a 191
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "c74b73e0e205523f69787339a9f21912bbc5f01e",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

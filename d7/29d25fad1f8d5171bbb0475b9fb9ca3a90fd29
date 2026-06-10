@@ -1,0 +1,25 @@
+requirements.txt
+  h_dd47ed8a860c1a 14
+  s_d481ed8c634747::t_2cc56bb34b2ef8 15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "d729d25fad1f8d5171bbb0475b9fb9ca3a90fd29",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_d481ed8c634747": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "4313417e-fe96-4423-9c6f-762bd9d1fe07",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

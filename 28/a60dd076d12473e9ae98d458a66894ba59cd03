@@ -1,0 +1,47 @@
+docs/en/docs/interface_guide/vpn_dashboard_v4.9.md
+  s_a211c09e08c4a1::t_dbe4847b14bd94 5-8
+  h_dd47ed8a860c1a 9-11
+  s_a211c09e08c4a1::t_3a8c5bbe30bcdf 3-4
+docs/en/docs/interface_guide/vpn_dashboard_tab.md
+  s_ed1d385526d0ac::t_b04b0db3b64e27 1-789
+docs/en/docs/interface_guide/vpn_dashboard_v4.8.md
+  s_a211c09e08c4a1::t_dbe4847b14bd94 8-12
+  h_dd47ed8a860c1a 13-14
+  s_a211c09e08c4a1::t_7dca89d733952f 7
+  s_a211c09e08c4a1::t_3a8c5bbe30bcdf 3-6
+docs/en/docs/interface_guide/index.md
+  s_ed1d385526d0ac::t_5bcf56f2e93895 37
+docs/en/docs/interface_guide/vpn_dashboard_v4.7.md
+  h_dd47ed8a860c1a 8-9
+  s_a211c09e08c4a1::t_7dca89d733952f 7
+  s_a211c09e08c4a1::t_3a8c5bbe30bcdf 3-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "28a60dd076d12473e9ae98d458a66894ba59cd03",
+  "prompts": {},
+  "humans": {
+    "h_dd47ed8a860c1a": {
+      "author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  },
+  "sessions": {
+    "s_a211c09e08c4a1": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "2384089b-0c2b-4c1b-9f06-9f7f5262227c",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    },
+    "s_ed1d385526d0ac": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "7faf3f69-0101-4f9d-9847-98c24fa107f0",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "GL-iNet-Leo.Lin <leo.lin@gl-inet.com>"
+    }
+  }
+}

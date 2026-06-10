@@ -2552,31 +2552,31 @@
     }
   },
   "docs/en/docs/interface_guide/openvpn_client.md": {
-    "source_hash": "e1f83c9ad31e860d0a19d03c0282b98ae25ae7b449a0ba6fb9a8c996cccbd4f2",
+    "source_hash": "97438a369fd48e3f515f8f8fbd0489bd0b8c295d79cf486855d68c2d3b447ca2",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       }
     }
   },

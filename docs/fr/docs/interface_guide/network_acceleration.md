@@ -40,7 +40,7 @@ Lorsque l'accélération réseau est activée, les fonctions suivantes ne foncti
 
 Dans la partie gauche du panneau d'administration Web, allez dans **NETWORK** -> **Network Acceleration**.
 
-![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/network_acceleration/network_acceleration.png){class="glboxshadow"}
+![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_acceleration/network_acceleration.png){class="glboxshadow"}
 
 Trois modes sont disponibles.
 

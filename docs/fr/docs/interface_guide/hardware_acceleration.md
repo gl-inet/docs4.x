@@ -44,7 +44,7 @@ Lorsque l'accélération matérielle est activée, les fonctions suivantes ne fo
 
 Dans le panneau d'administration web, accédez à **NETWORK** -> **Hardware Acceleration**.
 
-![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
+![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
 
 Activez l'interrupteur, puis cliquez sur **Apply**.
 

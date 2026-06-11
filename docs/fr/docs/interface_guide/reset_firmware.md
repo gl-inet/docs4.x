@@ -6,7 +6,7 @@ Si le routeur dysfonctionne, vous pouvez tenter de résoudre le problème en ré
 
 **Remarque :** Tous vos paramètres actuels, applications et données seront perdus. Le processus prendra environ 2 minutes. NE coupez PAS l'alimentation du routeur pendant ce processus.
 
-![reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+![reset firmware](https://static.gl-inet.com/docs/router/en/4/interface_guide/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
 
 Si vous ne pouvez pas accéder au panneau d'administration web, regardez la vidéo ci-dessous pour réinitialiser en utilisant le bouton de réinitialisation.
 

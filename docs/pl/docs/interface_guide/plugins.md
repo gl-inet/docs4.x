@@ -6,7 +6,7 @@ Ta strona umożliwia zarządzanie pakietami OpenWrt. Możesz instalować lub usu
 
 Przed użyciem wtyczek innych firm zaleca się kliknięcie przycisku **Update**. Jednak **nie aktualizuj wstępnie zainstalowanych wtyczek z oryginalnego oprogramowania GL.iNet**, takich jak `nginx`, `adguard home`, `tailscale` itp.
 
-![Plug-ins](https://static.gl-inet.com/docs/router/en/4/tutorials/plug-ins/plug-ins.png){class="glboxshadow"}
+![Plug-ins](https://static.gl-inet.com/docs/router/en/4/interface_guide/plug-ins/plug-ins.png){class="glboxshadow"}
 
 Wtyczki innych firm zainstalowane ręcznie przez użytkowników mogą być aktualizowane; GL.iNet nie ponosi jednak odpowiedzialności za problemy z bezpieczeństwem wynikające z używania wtyczek innych firm. W przypadku pytań prosimy o kontakt z odpowiednimi autorami tych wtyczek.
 

@@ -14,7 +14,7 @@ Cuando la aceleración de red está habilitada, las siguientes funciones no func
 
 En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **Network Acceleration**.
 
-![Aceleración de red](https://static.gl-inet.com/docs/router/en/4/tutorials/network_acceleration/network_acceleration.png){class="glboxshadow"}
+![Aceleración de red](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_acceleration/network_acceleration.png){class="glboxshadow"}
 
 Hay tres modos.
 

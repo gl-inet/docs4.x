@@ -8,7 +8,7 @@ IGMP Snooping は IGMP プロトコルパケットを監視し、対応する情
 
 **Note**: IGMPv3 は v1 および v2 と互換性があります。デフォルトでは v3 を使用し、問題が発生した場合は切り替えてください。
 
-![IGMP Snooping](https://static.gl-inet.com/docs/router/en/4/tutorials/igmp_snooping/igmp_snooping.png){class="glboxshadow"}
+![IGMP Snooping](https://static.gl-inet.com/docs/router/en/4/interface_guide/igmp_snooping/igmp_snooping.png){class="glboxshadow"}
 
 ---
 

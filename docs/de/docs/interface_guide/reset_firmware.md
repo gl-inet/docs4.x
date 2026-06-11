@@ -6,7 +6,7 @@ Wenn der Router nicht ordnungsgemäß funktioniert, können Sie versuchen, das P
 
 **Hinweis:** Alle aktuellen Einstellungen, Anwendungen und Daten gehen verloren. Der Vorgang dauert etwa 2 Minuten. Schalten Sie den Router während dieses Vorgangs **NICHT** aus.
 
-![reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+![reset firmware](https://static.gl-inet.com/docs/router/en/4/interface_guide/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
 
 Wenn Sie nicht auf das Web-Admin-Panel zugreifen können, sehen Sie sich das folgende Video an, um das Zurücksetzen mit der Reset-Taste durchzuführen.
 

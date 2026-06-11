@@ -44,7 +44,7 @@ Quando l'accelerazione hardware e' abilitata, le seguenti funzioni non funzioner
 
 Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **Hardware Acceleration**.
 
-![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
+![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
 
 Attiva l'interruttore per abilitarla, quindi fai clic su Apply.
 

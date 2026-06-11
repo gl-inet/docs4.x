@@ -6,7 +6,7 @@ Jeśli router działa nieprawidłowo, możesz spróbować rozwiązać problem, r
 
 **Uwaga:** Wszystkie bieżące ustawienia, aplikacje i dane zostaną utracone. Proces zajmie około 2 minut. NIE wyłączaj routera podczas tego procesu.
 
-![reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+![reset firmware](https://static.gl-inet.com/docs/router/en/4/interface_guide/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
 
 Jeśli nie możesz uzyskać dostępu do panelu administracyjnego, obejrzyj poniższy film, aby dowiedzieć się, jak zresetować router za pomocą przycisku resetowania.
 

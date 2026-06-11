@@ -6,11 +6,11 @@ Le routeur enregistre les horodatages d'activité selon son heure système, et c
 
 Le fuseau horaire n'est pas synchronisé automatiquement. Cliquez sur **Sync** pour le mettre à jour.
 
-![time zone no sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_no_sync.png){class="glboxshadow"}
+![time zone no sync](https://static.gl-inet.com/docs/router/en/4/interface_guide/time_zone/time_zone_no_sync.png){class="glboxshadow"}
 
 Après la synchronisation, la page s'affichera comme ci-dessous.
 
-![time zone sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_sync.png){class="glboxshadow"}
+![time zone sync](https://static.gl-inet.com/docs/router/en/4/interface_guide/time_zone/time_zone_sync.png){class="glboxshadow"}
 
 ---
 

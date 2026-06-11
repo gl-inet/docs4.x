@@ -6,11 +6,11 @@ Der Router protokolliert Aktivitätszeitstempel entsprechend seiner Systemzeit, 
 
 Die Zeitzone wird nicht automatisch synchronisiert. Klicken Sie auf **Sync**, um sie zu aktualisieren.
 
-![time zone no sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_no_sync.png){class="glboxshadow"}
+![time zone no sync](https://static.gl-inet.com/docs/router/en/4/interface_guide/time_zone/time_zone_no_sync.png){class="glboxshadow"}
 
 Nach der Synchronisierung sieht die Seite wie unten gezeigt aus.
 
-![time zone sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_sync.png){class="glboxshadow"}
+![time zone sync](https://static.gl-inet.com/docs/router/en/4/interface_guide/time_zone/time_zone_sync.png){class="glboxshadow"}
 
 ---
 

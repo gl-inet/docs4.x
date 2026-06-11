@@ -6,11 +6,11 @@ Router rejestruje znaczniki czasu zdarzeń zgodnie z czasem systemowym, a niekt�
 
 Strefa czasowa nie jest synchronizowana automatycznie. Kliknij przycisk **Sync**, aby ją zaktualizować.
 
-![time zone no sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_no_sync.png){class="glboxshadow"}
+![time zone no sync](https://static.gl-inet.com/docs/router/en/4/interface_guide/time_zone/time_zone_no_sync.png){class="glboxshadow"}
 
 Po synchronizacji strona będzie wyglądać jak poniżej.
 
-![time zone sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_sync.png){class="glboxshadow"}
+![time zone sync](https://static.gl-inet.com/docs/router/en/4/interface_guide/time_zone/time_zone_sync.png){class="glboxshadow"}
 
 ---
 

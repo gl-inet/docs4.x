@@ -8,7 +8,7 @@ La page Mot de passe administrateur vous permet de définir ou de modifier le mo
 
 Sur le côté gauche du panneau d’administration web, allez à **SYSTEM** > **Admin Password**.
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
+![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_password/admin_password.png){class="glboxshadow"}
 
 Modifiez le mot de passe de connexion du panneau d’administration web de votre routeur. Votre mot de passe actuel est requis pour effectuer des changements.
 

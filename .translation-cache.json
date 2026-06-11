@@ -2552,7 +2552,7 @@
     }
   },
   "docs/en/docs/interface_guide/openvpn_client.md": {
-    "source_hash": "97438a369fd48e3f515f8f8fbd0489bd0b8c295d79cf486855d68c2d3b447ca2",
+    "source_hash": "962dd1e72f8c544b49c400f1a3f849f83ad9d901fef438f4fde477dbba0a699c",
     "targets": {
       "de": {
         "model": "gpt-5.4",

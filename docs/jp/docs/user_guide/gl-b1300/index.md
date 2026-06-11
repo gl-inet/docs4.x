@@ -4,7 +4,7 @@
 
 Convexa-B (GL-B1300)は、商用およびホームユーザーの無線インターネットアクセスニーズを満たすための優れた製品です。ワイヤレスインターネットを快適に利用するための最良の選択肢です。
 
-![gl-b1300 interface](https://static.gl-inet.com/docs/router/en/3/setup/gl-b1300/first_time_setup/router.jpg){class="glboxshadow"}
+![gl-b1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b1300/first_time_setup/router.jpg){class="glboxshadow"}
 
 [GL-B1300 仕様](https://www.gl-inet.com/products/gl-b1300/#specs){target="_blank"}
 

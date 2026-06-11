@@ -5046,7 +5046,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-b1300/index.md": {
-    "source_hash": "5dc040e68c71c477961e18e9121560e34117a95650d2fe5121ca6a7cc0fbbc41",
+    "source_hash": "a6005636961274e84bb3887933e26e8b32ec1348650418a8b85f2c9e4fc4d901",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -5655,7 +5655,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-sft1200/index.md": {
-    "source_hash": "c1a21d5bc22934ad2d620ac3b3cc70d5139898f423982200f3d0f171f9a7714e",
+    "source_hash": "476f6c0ce50fbce382e9ef7cb37d09a241bb31b29b4f146de892790be2bc09f1",
     "targets": {
       "de": {
         "model": "pre-existing",

@@ -108,7 +108,7 @@ Click on the tabs below to learn about 2.4 GHz Main Wi-Fi and 2.4 GHz Guest Wi-F
 
 * When switching the Channel to a DFS one from non-DFS channel, a caution will appear as follows.
 
-    ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
+    ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
 * When the **Bandwidth** is set to **160 MHz** (Only available on some models), the Wi-Fi will always use the DFS channel, even if you choose a non-DFS channel or Auto for Channel settings.
 

@@ -47,19 +47,19 @@ W lewym panelu bocznym panelu administracyjnego przejdź do sekcji **INTERNET** 
 
 Kliknij ikonę koperty w prawym górnym rogu.
 
-![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow gl-90-desktop"}
+![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms2.png){class="glboxshadow gl-90-desktop"}
 
 Zostaniesz przekierowany na stronę SMS, gdzie możesz przeglądać odebrane wiadomości lub wysyłać nowe.
 
-![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
+![sms receive](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
 
 Kliknij wiadomość, aby wyświetlić jej szczegóły.
 
-![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
+![sms detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_detail.png){class="glboxshadow"}
 
 Kliknij przycisk **Send Message** w prawym górnym rogu, aby napisać nową wiadomość.
 
-![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message.jpg){class="glboxshadow"}
+![sms new message](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_new_message.jpg){class="glboxshadow"}
 
 * Odbiorca
 

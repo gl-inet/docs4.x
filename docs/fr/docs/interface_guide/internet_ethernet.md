@@ -58,11 +58,11 @@ Cliquez sur l'icône en forme d'engrenage en haut à droite pour accéder à [Po
 
 La page **WAN** affiche le rôle du port (c'est-à-dire son utilisation en WAN ou en LAN), le mode MAC et l'adresse MAC, ainsi que la vitesse négociée du port réseau. 
 
-![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
+![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
 
 La page **LAN** affiche le rôle du port et la vitesse négociée du port réseau.
 
-![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/lan.png){class="glboxshadow"}
+![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
 Veuillez consulter ce [lien](ethernet_port.md) pour plus de détails. 
 

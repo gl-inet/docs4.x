@@ -58,11 +58,11 @@ Haga clic en el icono de engranaje de la esquina superior derecha para acceder a
 
 La página **WAN** muestra la función del puerto, es decir, si se usa como WAN o LAN, el modo MAC, la dirección MAC y la velocidad negociada del puerto de red.
 
-![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
+![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
 
 La página **LAN** muestra la función del puerto y la velocidad negociada del puerto de red.
 
-![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/lan.png){class="glboxshadow"}
+![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
 Consulte este [enlace](ethernet_port.md) para más detalles.
 

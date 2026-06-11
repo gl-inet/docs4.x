@@ -47,19 +47,19 @@ Dans la partie gauche du panneau d''administration web, accédez à **INTERNET**
 
 Cliquez sur l''icône d''enveloppe en haut à droite.
 
-![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow gl-90-desktop"}
+![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms2.png){class="glboxshadow gl-90-desktop"}
 
 Vous serez redirigé vers la page SMS, où vous pourrez consulter les messages reçus ou envoyer de nouveaux messages.
 
-![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
+![sms receive](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
 
 Cliquez sur un message pour en afficher les détails.
 
-![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
+![sms detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_detail.png){class="glboxshadow"}
 
 Cliquez sur le bouton **Send Message** en haut à droite pour rédiger un nouveau message.
 
-![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message.jpg){class="glboxshadow"}
+![sms new message](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_new_message.jpg){class="glboxshadow"}
 
 * Destinataire
 

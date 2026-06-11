@@ -108,7 +108,7 @@ Klicken Sie auf die folgenden Tabs, um mehr über die Einstellungen für 2,4 GHz
 
 * Wenn **Channel** von einem Nicht-DFS-Kanal auf einen DFS-Kanal umgestellt wird, erscheint die folgende Warnung.
 
-    ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
+    ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
 * Wenn **Bandwidth** auf **160 MHz** eingestellt ist (nur bei einigen Modellen verfügbar), verwendet das Wi‑Fi immer den DFS-Kanal, selbst wenn Sie für **Channel** einen Nicht-DFS-Kanal oder **Auto** auswählen.
 

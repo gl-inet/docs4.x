@@ -20,19 +20,19 @@ En el lado izquierdo del panel de administración web, vaya a la sección **INTE
 
 Haga clic en el icono del sobre situado en la esquina superior derecha.
 
-![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow gl-90-desktop"}
+![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms2.png){class="glboxshadow gl-90-desktop"}
 
 Se le dirigirá a la página de SMS, donde podrá ver los mensajes entrantes o enviar mensajes nuevos.
 
-![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
+![sms receive](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
 
 Haga clic en un mensaje para ver los detalles.
 
-![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
+![sms detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_detail.png){class="glboxshadow"}
 
 Haga clic en el botón **Send Message** situado en la esquina superior derecha para redactar un mensaje nuevo.
 
-![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message.jpg){class="glboxshadow"}
+![sms new message](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_new_message.jpg){class="glboxshadow"}
 
 - Recepient
 

@@ -32,15 +32,15 @@ Recently we noticed that some customers come across connectivity failures with G
 
         1. In the web admin panel, navigate to INTERNET -> Cellular section, click the three-dot icon in the upper-right corner and select **Modem AT Command**.
         
-            ![modem AT command](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_0.jpg){class="glboxshadow"}
+            ![modem AT command](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/at_command_0.jpg){class="glboxshadow"}
         
             For older firmware, click the tool button in the upper-right corner to enter the modem management page.
 
-            ![modem management](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/modem_management_button.png){class="glboxshadow"}
+            ![modem management](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/modem_management_button.png){class="glboxshadow"}
         
         2. Locate the AT command, as shown below.
 
-            ![AT command](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_1.png){class="glboxshadow"}
+            ![AT command](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/at_command_1.png){class="glboxshadow"}
 
 If you encounter further issues, please contact our support team at [support@gl-inet.com](mailto:support@gl-inet.com).
 

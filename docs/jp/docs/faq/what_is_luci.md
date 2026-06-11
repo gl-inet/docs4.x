@@ -6,17 +6,17 @@ LuCIはOpenWrtのウェブユーザーインターフェースで、高度な設
 
 LuCIにアクセスするには、ウェブ管理画面の左側から**システム** -> **詳細設定**をクリックします。
 
-![詳細設定](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/go_to_luci.png){class="glboxshadow"}
+![詳細設定](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/go_to_luci.png){class="glboxshadow"}
 
 **LuCIへ移動**ボタンをクリックすると、LuCIログインページにリダイレクトされます。
 
-![luci login](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_login.jpg){class="glboxshadow"}
+![luci login](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/luci_login.jpg){class="glboxshadow"}
 
 ログインパスワードを入力してください。パスワードはウェブ管理パネルと同じです。
 
 LuCIページへログインします。以下はGL-AX1800 (Flint)のLuCIページの例です。
 
-![luci logged in](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_logged_in.jpg){class="glboxshadow"}
+![luci logged in](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/luci_logged_in.jpg){class="glboxshadow"}
 
 ---
 

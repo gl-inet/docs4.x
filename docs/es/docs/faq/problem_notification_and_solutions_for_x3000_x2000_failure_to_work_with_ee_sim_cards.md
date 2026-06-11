@@ -32,15 +32,15 @@ Recientemente hemos detectado que algunos clientes experimentan fallos de conect
 
         1. En el panel de administración web, vaya a la sección INTERNET -> Cellular, haga clic en el icono de tres puntos de la esquina superior derecha y seleccione **Modem AT Command**.
 
-            ![modem AT command](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_0.jpg){class="glboxshadow"}
+            ![modem AT command](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/at_command_0.jpg){class="glboxshadow"}
 
             En versiones antiguas del firmware, haga clic en el botón de herramientas de la esquina superior derecha para acceder a la página de gestión del módem.
 
-            ![modem management](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/modem_management_button.png){class="glboxshadow"}
+            ![modem management](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/modem_management_button.png){class="glboxshadow"}
 
         2. Localice el comando AT, como se muestra a continuación.
 
-            ![AT command](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_1.png){class="glboxshadow"}
+            ![AT command](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/at_command_1.png){class="glboxshadow"}
 
 Si encuentra más problemas, póngase en contacto con nuestro equipo de soporte en [support@gl-inet.com](mailto:support@gl-inet.com).
 

@@ -6,17 +6,17 @@ Jest to otwarty i niezależny projekt rozwijany przez OpenWrt. GL.iNet nie odpow
 
 Aby uzyskać dostęp do LuCI, w lewym panelu administracyjnym WWW przejdź do **SYSTEM** -> **Advanced Settings**.
 
-![advanced settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/go_to_luci.png){class="glboxshadow"}
+![advanced settings](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/go_to_luci.png){class="glboxshadow"}
 
 Kliknij przycisk **Go To LuCI**, a zostaniesz przekierowany na stronę logowania LuCI.
 
-![luci login](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_login.jpg){class="glboxshadow"}
+![luci login](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/luci_login.jpg){class="glboxshadow"}
 
 Wprowadź hasło logowania, takie samo jak hasło do panelu administracyjnego WWW.
 
 Po zalogowaniu zobaczysz stronę LuCI. Poniżej znajduje się przykład strony LuCI dla GL-AX1800 (Flint).
 
-![luci logged in](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_logged_in.jpg){class="glboxshadow"}
+![luci logged in](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/luci_logged_in.jpg){class="glboxshadow"}
 
 ---
 

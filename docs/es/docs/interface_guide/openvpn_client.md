@@ -20,7 +20,7 @@ En el panel de administración web, vaya a **VPN** -> **OpenVPN Client**.
 
 Si tiene una suscripción a NordVPN, haga clic en **NordVPN** para iniciar sesión; de lo contrario, haga clic en **Add Manually** para subir los archivos de configuración de OpenVPN.
 
-![openvpn client](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/openvpn_client_initial.png){class="glboxshadow"}
+![openvpn client](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/openvpn_client_initial.png){class="glboxshadow"}
 
 ## Configurar NordVPN {#set-up-nordvpn}
 
@@ -30,39 +30,39 @@ La configuración rápida de NordVPN está integrada en el panel de administraci
 
 1. Inicie sesión en su cuenta web de NordVPN [aquí](https://my.nordaccount.com/){target="_blank"}.
 
-   ![nord login](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_login.png){class="glboxshadow"}
+   ![nord login](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_login.png){class="glboxshadow"}
 
    Después de iniciar sesión, en el panel de Nord, haga clic en **NordVPN** en el menú izquierdo y luego en **Set up NordVPN manually**.
 
-   ![nord setup manually](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
+   ![nord setup manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
 
    Encontrará las **service credentials**. Primero debe verificar su correo electrónico para obtenerlas; después, cópielas para usarlas más adelante.
 
-   ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
+   ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
 
 2. Inicie sesión en el panel de administración web del router y vaya a **VPN** -> **OpenVPN Client** -> **NordVPN**.
 
    Introduzca las **service credentials** obtenidas en el paso 1 (nota: **NO** son el correo electrónico ni la contraseña de su cuenta de Nord), y luego haga clic en **Save and Continue**.
 
-   ![input nordvpn service credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn1.png){class="glboxshadow"}
+   ![input nordvpn service credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn1.png){class="glboxshadow"}
 
 3. Seleccione el protocolo, el número máximo de servidores de cada ubicación y las ubicaciones, y haga clic en **Apply**.
 
-   ![select nordvpn servers](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn2.png){class="glboxshadow"}
+   ![select nordvpn servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn2.png){class="glboxshadow"}
 
    Se descargarán los archivos de configuración.
 
-   ![nordvpn configuration files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn3.png){class="glboxshadow"}
+   ![nordvpn configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn3.png){class="glboxshadow"}
 
 4. Inicie una conexión.
 
    Seleccione el servidor que prefiera y haga clic en el icono de tres puntos de la derecha para iniciar la conexión.
 
-   ![nordvpn start connect](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn4.png){class="glboxshadow"}
+   ![nordvpn start connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn4.png){class="glboxshadow"}
 
 5. Una vez conectado, aparecerá un punto verde junto al archivo de configuración.
 
-   ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn5.png){class="glboxshadow"}
+   ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn5.png){class="glboxshadow"}
 
    También puede consultar los detalles de la conexión VPN en el **VPN Dashboard**.
 
@@ -70,19 +70,19 @@ La configuración rápida de NordVPN está integrada en el panel de administraci
 
    Puede hacer clic en **Update Servers** para obtener la lista más reciente de servidores disponibles y evitar fallos de conexión causados por mantenimiento o cierre de servidores.
 
-   ![nordvpn update servers](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn7.png){class="glboxshadow"}
+   ![nordvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn7.png){class="glboxshadow"}
 
 7. Editar credenciales.
 
    Haga clic en el icono de engranaje para editar sus credenciales de inicio de sesión.
 
-   ![nordvpn edit credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn8.png){class="glboxshadow"}
+   ![nordvpn edit credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn8.png){class="glboxshadow"}
 
 8. Eliminar todos los archivos.
 
    Puede hacer clic en **Delete All** para eliminar todos los archivos de configuración con un solo clic.
 
-   ![nordvpn delete all](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn9.png){class="glboxshadow"}
+   ![nordvpn delete all](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn9.png){class="glboxshadow"}
 
 ## Configurar manualmente el cliente OpenVPN (para otros proveedores)
 
@@ -94,19 +94,19 @@ En los pasos siguientes, usaremos [PIA (Private Internet Access)](https://privat
 
 2. Inicie sesión en el panel de administración web del router, vaya a VPN -> OpenVPN Client y haga clic en **Add Manually**.
 
-   ![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual1.png){class="glboxshadow"}
+   ![add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual1.png){class="glboxshadow"}
 
 3. Se creará un grupo en la barra lateral izquierda.
 
-   ![add a new group](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual2.png){class="glboxshadow"}
+   ![add a new group](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual2.png){class="glboxshadow"}
 
 4. Asigne un nombre descriptivo al grupo, por ejemplo, private internet access.
 
-   ![set the new group name](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual3.png){class="glboxshadow"}
+   ![set the new group name](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual3.png){class="glboxshadow"}
 
 5. Suba su archivo de configuración de OpenVPN. Introduzca las credenciales si se requieren y haga clic en **Apply**.
 
-   ![manual upload files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual4.png){class="glboxshadow"}
+   ![manual upload files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual4.png){class="glboxshadow"}
 
     - Hay 4 tipos de credenciales para la autenticación:
 
@@ -120,15 +120,15 @@ En los pasos siguientes, usaremos [PIA (Private Internet Access)](https://privat
 
     Después verá el archivo de configuración cargado.
 
-   ![manual upload files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual5.png){class="glboxshadow"}
+   ![manual upload files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual5.png){class="glboxshadow"}
 
 6. Haga clic en el icono de tres puntos de la derecha para iniciar una conexión.
 
-   ![start connect](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual6.png){class="glboxshadow"}
+   ![start connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual6.png){class="glboxshadow"}
 
 7. Una vez conectado, aparecerá un punto verde junto al archivo de configuración.
 
-   ![openvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual7.png){class="glboxshadow"}
+   ![openvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual7.png){class="glboxshadow"}
 
    También puede consultar los detalles de la conexión VPN en el **VPN Dashboard**.
 
@@ -153,27 +153,27 @@ Si el proveedor de servicios al que está suscrito no aparece en la lista siguie
 
         Inicie sesión en el [sitio web oficial](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902){target="_blank"} y vaya al panel de cuenta de Nord, donde encontrará las service credentials.
 
-        ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_login.png){class="glboxshadow"}
+        ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_login.png){class="glboxshadow"}
 
         Después de iniciar sesión en el panel de Nord, haga clic en NordVPN en el lado izquierdo y luego en **Set up NordVPN manually**.
 
-        ![nordvpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_dashboard.png){class="glboxshadow"}
+        ![nordvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_dashboard.png){class="glboxshadow"}
 
-        ![nordvpn setup manually](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
+        ![nordvpn setup manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
 
         Busque las **Service credentials**. Cópielas por si necesita usarlas al subir configuraciones.
 
-        ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
+        ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
 
     2. **Elija un servidor NordVPN y descargue el archivo de configuración**
 
         Vaya a la pestaña **Server recommendation**. Le recomendará un servidor según su red y le ofrecerá protocolos disponibles para descargar. Haga clic en **Get setup configuration** para continuar.
 
-        ![nordvpn config download](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_config_download.png){class="glboxshadow"}
+        ![nordvpn config download](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_config_download.png){class="glboxshadow"}
 
         En la ventana emergente, seleccione el protocolo **OpenVPN** y descargue la configuración UDP o TCP.
 
-        ![nordvpn select protocol](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_select_protocol.png){class="glboxshadow"}
+        ![nordvpn select protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_select_protocol.png){class="glboxshadow"}
 
     Puede descargar aquí todas las configuraciones de servidores: [aquí](https://downloads.nordcdn.com/configs/archives/servers/ovpn.zip).
 

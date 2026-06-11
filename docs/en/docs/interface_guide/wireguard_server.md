@@ -38,37 +38,37 @@ Log in to the web Admin Panel, and navigate to **VPN** -> **WireGuard Server**.
 
 1. Click **Generate Configuration** (for vpn server initial setup only).
 
-    ![generate configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/generate_configuration.png){class="glboxshadow"}
+    ![generate configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/generate_configuration.png){class="glboxshadow"}
 
 2. Check the configuration.
 
     The default configuration works for most cases, as shown below. No need to modify the IPv4 address if it does not conflict with your upstream router's gateway.
 
-    ![check configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/check_configuration.png){class="glboxshadow"}
+    ![check configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/check_configuration.png){class="glboxshadow"}
 
     (The IPv6 on GL.iNet is disabled by default. If you want to use IPv6 address, please enable IPv6 on your router.)
     
     If you notice that the IPv4 address conflicts with your upstream router's gateway, modify the address to another one such as **10.1.0.1/24** and click **Apply**. Ensure the "/24" CIDR notation is included to avoid connectivity issues.
 
-    ![modify configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/modify_configuration.png){class="glboxshadow"}
+    ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_configuration.png){class="glboxshadow"}
 
     For example, if there's an Xfinity router in the upstream of a GL.iNet router, the Xfinity router's IP might be 10.0.0.1, which will conflict with the WireGuard Server's Tunnel IP when the GL.iNet router is set up as a WireGuard server, so you need to make the above changes.
     
-    ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
+    ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
 3. Add a profile.
 
     Switch to **Profiles** tab, click the **Add** button to generate a profile for your device.
 
-    ![add profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/add_profiles.png){class="glboxshadow"}
+    ![add profiles](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/add_profiles.png){class="glboxshadow"}
 
     Set a descriptive name and click **Apply** to continue.
 
-    ![profile name](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/add_profiles_name.png){class="glboxshadow"}
+    ![profile name](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/add_profiles_name.png){class="glboxshadow"}
     
     If you need to set advanced settings, click **Set More**. Then click **Apply** to continue.
 
-    ![profile settings](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/add_profiles_set_more.png){class="glboxshadow"}
+    ![profile settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/add_profiles_set_more.png){class="glboxshadow"}
 
     ??? "Add route rules if needed"
 
@@ -76,7 +76,7 @@ Log in to the web Admin Panel, and navigate to **VPN** -> **WireGuard Server**.
         
         If you want to access WireGuard client's LAN devices from server, please switch to the **Route Rules** tab on the **WireGuard Server** page to set the route rules. Click [here](../tutorials/wireguard_server_access_to_client_lan_side.md) for more instructions.
 
-        ![route rules](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/route_rules.png){class="glboxshadow"}
+        ![route rules](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/route_rules.png){class="glboxshadow"}
 
         Otherwise, turn to Step 4 to download a client configuration.
 
@@ -86,31 +86,31 @@ Log in to the web Admin Panel, and navigate to **VPN** -> **WireGuard Server**.
 
     - **QR code**: Suitable for end devices (e.g., smartphone, tablet, laptop) with the WireGuard App installed. If you want to set a certain device as a WireGuard client, simply open the WireGuard App, scan the QR code, and the configuration will be automatically imported.
     
-        ![client configuration qrcode](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/download_config_qrcode.png){class="glboxshadow"}
+        ![client configuration qrcode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/download_config_qrcode.png){class="glboxshadow"}
 
     - **Plain text**: In plain text format, you can review configuration details and conveniently copy-paste them elsewhere for manual configuration, such as the WireGuard App or a GL.iNet router.
 
-        ![client configuration plain text](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/download_config_text.png){class="glboxshadow"}
+        ![client configuration plain text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/download_config_text.png){class="glboxshadow"}
 
     - **.conf file**: Click the **Download** button to save the .conf file to your local device. It is also convenient and can be directly uploaded to the WireGuard app or a GL.iNet router.
 
-        ![client configuration file](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/download_config_file.png){class="glboxshadow"}
+        ![client configuration file](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/download_config_file.png){class="glboxshadow"}
 
     If required, you can specify the server address from among the public IP, DDNS domain, and current WAN IP. This feature has been available since firmware v4.8. Once changed, the server address in the configuration file will be updated simultaneously.
     
     For example, it is recommended to enable [DDNS](ddns.md) and use DDNS domain as the server address if your network's public IP changes frequently. 
     
-    ![change server address](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/change_server_address.png){class="glboxshadow"}
+    ![change server address](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/change_server_address.png){class="glboxshadow"}
 
 5. Start WireGuard server.
 
     Click the **Start** button in the upper right corner to start WireGuard server.
 
-    ![start wireguard server](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/start_wgserver.png){class="glboxshadow"}
+    ![start wireguard server](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/start_wgserver.png){class="glboxshadow"}
 
     The connection status will be displayed on the same page.
 
-    ![wireguard server status](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wgserver_status.png){class="glboxshadow"}
+    ![wireguard server status](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
 ## Check if WireGuard Server is working properly
 
@@ -120,11 +120,11 @@ Since firmware v4.8, you can check the server connection status on the **WireGua
 
 If it shows upload/download traffic statistics and online connected devices, it means the WireGuard server is running and there are WireGuard clients connected to it.
 
-![wireguard server connected](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wgserver_status.png){class="glboxshadow"}
+![wireguard server connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status.png){class="glboxshadow"}
 
 If it shows 0 traffic and 0 client, it means that there's no WireGuard client connected.
 
-![wireguard server no client](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_server/wgserver_status_no_client.png){class="glboxshadow"}
+![wireguard server no client](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_status_no_client.png){class="glboxshadow"}
 
 For firmware v4.7 and earlier, please check the server connection status on the **VPN Dashboard** page.
 

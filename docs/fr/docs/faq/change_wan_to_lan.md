@@ -42,17 +42,17 @@ Suivez les étapes ci-dessous pour changer le port WAN en port LAN.
 
 3. Dans le panneau d'administration web, allez à la section **INTERNET** -> **Ethernet**, où l'état du port WAN est affiché comme **Using as WAN**. Cliquez sur **Change to LAN**.
 
-	![internet page](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
+	![internet page](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
 
 4. Cliquez sur **Apply** pour confirmer.
 
-	![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
+	![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
 
 	**Remarque** : le Wi-Fi peut se déconnecter temporairement pendant ce processus. Reconnectez-vous au routeur une fois l'opération terminée.
 
 5. De retour dans la section Ethernet, l'état affiché devient `Using as LAN`.
 
-	![using as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
+	![using as lan](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
 
 	Vous pouvez simplement revenir au réglage précédent en répétant la procédure ci-dessus.
 

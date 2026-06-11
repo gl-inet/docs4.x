@@ -40,7 +40,7 @@ Bitte befolgen Sie die untenstehenden Schritte, um die U-Boot-Aktualisierungssei
 
         5. Stellen Sie die **Subnet mask** auf `255.255.255.0` ein.
 
-            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/debrick/set_ip.jpg){class="glboxshadow"}
+            ![ipv4 properties](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/set_ip.jpg){class="glboxshadow"}
 
         6. Klicken Sie auf die Schaltfläche **OK**.
 
@@ -52,21 +52,21 @@ Bitte befolgen Sie die untenstehenden Schritte, um die U-Boot-Aktualisierungssei
 
         9. Klicken Sie auf die Registerkarte **Ethernet**.
 
-            ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
+            ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windwos11_ethernet.png){class="glboxshadow"}
 
         10. Klicken Sie im Abschnitt "IP assignment" auf die Schaltfläche **Edit**.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
         11. Wählen Sie die Option **Manual**.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
         12. Aktivieren Sie den Schalter **IPv4 toggle**.
 
         13. Stellen Sie die statische **IP address** auf **192.168.1.2** ein.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
         14. Geben Sie als **Subnet mask** **255.255.255.0** an.
 
@@ -76,25 +76,25 @@ Bitte befolgen Sie die untenstehenden Schritte, um die U-Boot-Aktualisierungssei
 
         16. Klicken Sie oben links auf dem Bildschirm auf das **Apple**-Symbol und wählen Sie **System Preferences**.
 
-            ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences.png){class="glboxshadow"}
+            ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_system_preferences.png){class="glboxshadow"}
 
         17. Klicken Sie auf **Network**.
 
-            ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences_network.png){class="glboxshadow"}
+            ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_system_preferences_network.png){class="glboxshadow"}
 
         18. Klicken Sie links auf **Ethernet**, klicken Sie dann auf das Dropdown-Menü neben **Configure IPv4** und wählen Sie **Manually**. Wenn Sie einen USB-Ethernet-Adapter verwenden, wird Ethernet möglicherweise nicht angezeigt; stattdessen kann dort der Name des USB-Ethernet-Adapters erscheinen.
 
-            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_1.png){class="glboxshadow"}
+            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_ip_manually_1.png){class="glboxshadow"}
 
         19. Geben Sie bei **IPv4 Address** `192.168.1.2`, bei **Subnet Mask** `255.255.255.0` und bei **Router** `192.168.1.1` ein und klicken Sie dann rechts unten auf die Schaltfläche Apply.
 
-            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
+            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_ip_manually_2.png){class="glboxshadow"}
 
 4. **Verwenden Sie Google Chrome oder Microsoft Edge, um `http://192.168.1.1/uboot.html` aufzurufen**. Achten Sie darauf, die vollständige URL einzugeben, damit keine zwischengespeicherten Vorschläge auf eine falsche Adresse verweisen.
 
     **Verwenden Sie NICHT Mozilla Firefox, da Ihr Router dadurch unbrauchbar werden kann.**
 
-    ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/u-boot_update.png){class="glboxshadow" width="700"}
+    ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/u-boot_update.png){class="glboxshadow" width="700"}
 
 5. Klicken Sie auf die Schaltfläche **Choose file** und wählen Sie die heruntergeladene Uboot-Datei aus.
 

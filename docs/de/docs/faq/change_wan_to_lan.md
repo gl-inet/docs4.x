@@ -42,17 +42,17 @@ Sie können ihn auf der Seite **Port Management** wieder auf WAN zurückstellen 
 
 3. Navigieren Sie im Web-Admin-Panel zum Abschnitt **INTERNET** -> **Ethernet**. Dort wird der Status des WAN-Ports als **Using as WAN** angezeigt. Klicken Sie auf **Change to LAN**.
 
-![internet page](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
+![internet page](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
 
 4. Klicken Sie zur Bestätigung auf **Apply**.
 
-![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
+![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
 
 **Hinweis**: Während dieses Vorgangs kann die Wi-Fi-Verbindung vorübergehend getrennt werden. Verbinden Sie sich nach Abschluss bitte erneut mit dem Router.
 
 5. Zurück im Abschnitt Ethernet wird `Using as LAN` angezeigt.
 
-![using as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
+![using as lan](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
 
 Sie können die Einstellung einfach rückgängig machen, indem Sie die obigen Schritte erneut ausführen.
 

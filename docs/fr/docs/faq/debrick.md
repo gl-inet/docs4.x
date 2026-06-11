@@ -132,21 +132,21 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
         9. Cliquez sur l’onglet **Ethernet**.
 
-            ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
+            ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
         10. Dans la section "IP assignment", cliquez sur le bouton **Edit**.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
         11. Sélectionnez l’option **Manual**.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
         12. Activez l’interrupteur **IPv4**.
 
         13. Définissez l’**IP address** statique sur **192.168.1.2**.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
         14. Indiquez le **Subnet mask** comme **255.255.255.0**.
 
@@ -156,23 +156,23 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
         16. Cliquez sur l’icône **Apple** en haut à gauche de l’écran, puis sélectionnez **System Preferences**.
 
-            ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences.png){class="glboxshadow"}
+            ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}
 
         17. Cliquez sur **Network**.
 
-            ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences_network.png){class="glboxshadow"}
+            ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences_network.png){class="glboxshadow"}
 
         18. Cliquez sur **Ethernet** à gauche, puis cliquez sur la liste déroulante à côté de **Configure IPv4** et sélectionnez **Manually**. Si vous utilisez un adaptateur USB-Ethernet, **Ethernet** peut ne pas apparaître et le nom de l’adaptateur peut s’afficher à la place.
 
-            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_1.png){class="glboxshadow"}
+            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_1.png){class="glboxshadow"}
 
         19. Saisissez **IPv4 Address** = `192.168.1.2`, **Subnet Mask** = `255.255.255.0`, **Router** = `192.168.1.1`, puis cliquez sur le bouton Apply en bas à droite.
 
-            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
+            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
 5. Utilisez votre navigateur web pour accéder à **http://192.168.1.1**. Il s’agit de l’interface Web U-Boot.
 
-    ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
+    ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/faq/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
     !!! Note
 

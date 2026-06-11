@@ -48,9 +48,9 @@ Klientom Wi‑Fi 7 zaleca się łączenie z MLO Wi‑Fi, co znacząco poprawia p
 
 Kliknij **Add**, aby skonfigurować sieć MLO Wi‑Fi, a następnie kliknij **Apply**. Pamiętaj, że dostępne pasma Wi‑Fi różnią się w zależności od modelu.
 
-![mlo1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/mlo1.png){class="glboxshadow"}
+![mlo1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo1.png){class="glboxshadow"}
 
-![mlo2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/mlo2.png){class="glboxshadow"}
+![mlo2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo2.png){class="glboxshadow"}
 
 - Wi-Fi Band: Wybierz co najmniej dwa pasma radiowe.
 - Wi-Fi Security: Jeśli wybrane jest pasmo 6 GHz, jedyną dostępną i zalecaną opcją jest WPA3-SAE. Działa najlepiej z większością urządzeń obsługujących MLO.
@@ -58,27 +58,27 @@ Kliknij **Add**, aby skonfigurować sieć MLO Wi‑Fi, a następnie kliknij **Ap
 
 Po włączeniu strona będzie wyglądać następująco.
 
-![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/mlo3.png){class="glboxshadow"}
+![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
 
 ## Sieć główna
 
 Sieć główna to podstawowa sieć Wi‑Fi, która obsługuje jednoczesne nadawanie w różnych pasmach radiowych, przy czym wszystkie są domyślnie włączone. Dla każdego pasma możesz skonfigurować osobne ustawienia, takie jak SSID Wi‑Fi, tryb zabezpieczeń, hasło, Randomized BSSID, moc TX, szerokość pasma i kanał.
 
-![main](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/main.png){class="glboxshadow"}
+![main](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main.png){class="glboxshadow"}
 
 Kliknij ikonę koła zębatego po prawej stronie, aby wyświetlić lub zmodyfikować ustawienia Wi‑Fi dla każdego pasma. Pamiętaj, że dostępne pasma Wi‑Fi różnią się w zależności od modelu.
 
 - 6 GHz
 
-    ![main 6g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/main_6g.png){class="glboxshadow"}
+    ![main 6g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_6g.png){class="glboxshadow"}
 
 - 5 GHz
 
-    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/main_5g.png){class="glboxshadow"}
+    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_5g.png){class="glboxshadow"}
 
 - 2.4 GHz
 
-    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/main_2.4g.png){class="glboxshadow"}
+    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
 ## Sieć gościnna
 
@@ -86,13 +86,13 @@ Sieć gościnna to dedykowana sieć Wi‑Fi dla odwiedzających, z wszystkimi pa
 
 Kliknij **Add**, aby skonfigurować sieć Guest Wi‑Fi, a następnie kliknij **Apply**. Pamiętaj, że dostępne pasma Wi‑Fi różnią się w zależności od modelu.
 
-![guest1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/guest1.png){class="glboxshadow"}
+![guest1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest1.png){class="glboxshadow"}
 
-![guest2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/guest2.png){class="glboxshadow"}
+![guest2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest2.png){class="glboxshadow"}
 
 Po włączeniu strona będzie wyglądać następująco.
 
-![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/guest3.png){class="glboxshadow"}
+![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
 
 ## Sieć IoT
 
@@ -100,13 +100,13 @@ Sieć IoT to dedykowana sieć Wi‑Fi dla urządzeń inteligentnych, z wszystkim
 
 Kliknij **Add**, aby skonfigurować sieć IoT Wi‑Fi, a następnie kliknij **Apply**. Pamiętaj, że ta sieć nie obejmuje pasma 6 GHz, a dostępne pasma Wi‑Fi różnią się w zależności od modelu.
 
-![iot1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/iot1.png){class="glboxshadow"}
+![iot1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot1.png){class="glboxshadow"}
 
-![iot2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/iot2.png){class="glboxshadow"}
+![iot2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot2.png){class="glboxshadow"}
 
 Po włączeniu strona będzie wyglądać następująco.
 
-![iot3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/iot3.png){class="glboxshadow"}
+![iot3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot3.png){class="glboxshadow"}
 
 ---
 

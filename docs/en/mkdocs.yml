@@ -95,17 +95,11 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
 
-  # we can use the cdn or files
-  # - stylesheets/photoswipe.min.css
-  # - stylesheets/default-skin.min.css
   - stylesheets/extra.css
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
-  # we can use the cdn or files
-  # - javascripts/photoswipe.min.js
-  # - javascripts/photoswipe-ui-default.min.js
   - javascripts/analytics.js
   - javascripts/extra.js
   - javascripts/cookieconsent.js

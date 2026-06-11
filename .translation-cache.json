@@ -6032,31 +6032,31 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "1ece1ba24db7f7f85d7b6283cfc808d8804859aa2ea0cbc589498699d8a2e141",
+    "source_hash": "81d305db4af0b6699ce16e4692545c5bd338ff988703c1c36188deb410aa6ba7",
     "targets": {
       "de": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780916947
+        "updated_at": 1781144181
       },
       "es": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917125
+        "updated_at": 1781144181
       },
       "fr": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917336
+        "updated_at": 1781144181
       },
       "it": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917502
+        "updated_at": 1781144181
       },
       "jp": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917614
+        "updated_at": 1781144181
       },
       "pl": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917779
+        "updated_at": 1781144181
       }
     }
   },

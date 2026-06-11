@@ -18,15 +18,15 @@ Udostępnianie połączenia sieciowego ze smartfona do routera za pomocą kabla 
 
     3. Podłącz komputer lub inny telefon do routera, a następnie zaloguj się do panelu administracyjnego WWW routera, przejdź do **INTERNET** -> **Tethering** i kliknij **Connect**.
 
-        ![ios connect](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/ios_connect.png){class="glboxshadow"}
+        ![ios connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/ios_connect.png){class="glboxshadow"}
 
         Jeśli chcesz skonfigurować ustawienia zaawansowane, takie jak TTL, HL i MTU, kliknij **Advanced**, dostosuj te ustawienia, a następnie kliknij **Connect**.
 
-        ![ios advanced](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/ios_advanced.png){class="glboxshadow"}
+        ![ios advanced](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/ios_advanced.png){class="glboxshadow"}
 
         Rozpocznie się nawiązywanie połączenia.
 
-        ![ios connecting](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/ios_connecting.png){class="glboxshadow"}
+        ![ios connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/ios_connecting.png){class="glboxshadow"}
 
     4. Po nawiązaniu połączenia stan hotspotu osobistego, na przykład liczba podłączonych urządzeń, będzie widoczny na pasku stanu u góry ekranu telefonu.
 
@@ -34,37 +34,37 @@ Udostępnianie połączenia sieciowego ze smartfona do routera za pomocą kabla 
 
         Panel administracyjny WWW również wyświetli stan połączenia Tethering.
 
-        ![ios tethering connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/ios_connected.png){class="glboxshadow"}
+        ![ios tethering connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/ios_connected.png){class="glboxshadow"}
 
 === "Android"
 
     1. Podłącz telefon z Androidem do portu USB routera za pomocą kabla USB. Może pojawić się okno systemowe z pytaniem o preferencje USB. Jeśli zostaniesz o to poproszony, wybierz **USB Tethering** lub **File Transfer**.
 
-        ![android usb purpose](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/android_usb_preference.png){class="glboxshadow" width=400}
+        ![android usb purpose](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/android_usb_preference.png){class="glboxshadow" width=400}
 
     2. W telefonie przejdź do **Settings** -> **Network & Internet** -> **Personal Hotspot**. Włącz **Personal Hotspot** lub **USB Tethering**.
 
         (Kroki włączania USB Tethering różnią się w zależności od marki. Sprawdź dokładną lokalizację tej opcji w ustawieniach urządzenia, a w razie potrzeby skontaktuj się ze wsparciem producenta.)
 
-        ![android personal hotspot](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/android_personal_hotspot.png){class="glboxshadow"}
+        ![android personal hotspot](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/android_personal_hotspot.png){class="glboxshadow"}
 
     3. Podłącz komputer lub inny telefon do routera, a następnie zaloguj się do panelu administracyjnego WWW routera, przejdź do **INTERNET** -> **Tethering** i kliknij **Connect**.
 
-        ![android connect](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/android_connect.png){class="glboxshadow"}
+        ![android connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/android_connect.png){class="glboxshadow"}
 
         Jeśli chcesz skonfigurować ustawienia zaawansowane, takie jak TTL, HL i MTU, kliknij **Advanced**, dostosuj te ustawienia, a następnie kliknij **Connect**.
 
-        ![android advanced](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/android_advanced.png){class="glboxshadow"}
+        ![android advanced](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/android_advanced.png){class="glboxshadow"}
 
         Rozpocznie się nawiązywanie połączenia.
 
-        ![android connecting](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/android_connecting.png){class="glboxshadow"}
+        ![android connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/android_connecting.png){class="glboxshadow"}
 
     4. Po nawiązaniu połączenia stan hotspotu osobistego, na przykład liczba podłączonych urządzeń, będzie widoczny na pasku stanu u góry ekranu telefonu.
 
         Panel administracyjny WWW również wyświetli stan połączenia Tethering.
 
-        ![android connected](https://static.gl-inet.com/docs/router/en/4/tutorials/internet_tethering/android_connected.png){class="glboxshadow"}
+        ![android connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_tethering/android_connected.png){class="glboxshadow"}
 
     Oficjalną dokumentację Androida znajdziesz tutaj: [Share a mobile connection by hotspot or tethering on Android](https://support.google.com/android/answer/9059108?hl=en#zippy=%2Ctether-by-usb-cable){target="_blank"}
 

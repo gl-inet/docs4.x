@@ -16,11 +16,11 @@ Port Forwarding consente ai computer remoti di collegarsi a un computer locale o
 
 Per configurare il port forwarding, fai clic sulla scheda **Port Forwards**, quindi su **Add**.
 
-![firewall page](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/firewall.png){class="glboxshadow"}
+![firewall page](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/firewall.png){class="glboxshadow"}
 
 Nella finestra pop-up, aggiungi una nuova regola di port forwarding e fai clic su **Apply**.
 
-![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
+![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
 
 **Name:** il nome della regola.
 
@@ -44,11 +44,11 @@ I servizi del router, come web e FTP, richiedono che le relative porte siano ape
 
 Per aprire una porta, passa alla scheda **Open Ports on Router**, quindi fai clic su **Add**.
 
-![open Ports on router](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/open_ports_on_router.png){class="glboxshadow"}
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/open_ports_on_router.png){class="glboxshadow"}
 
 Nella finestra pop-up, apri una nuova porta e fai clic su **Apply**.
 
-![open Ports on router](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/add_new_open_port.png){class="glboxshadow"}
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/add_new_open_port.png){class="glboxshadow"}
 
 **Name:** il nome della regola, specificabile dall'utente.
 
@@ -64,7 +64,7 @@ DMZ consente di esporre un computer a Internet, quindi tutti i pacchetti in ingr
 
 Attiva **Enable DMZ**. Seleziona l'indirizzo IP interno del dispositivo host che dovra' ricevere tutti i pacchetti in ingresso.
 
-![Port Forwards](https://static.gl-inet.com/docs/router/en/4/tutorials/firewall/dmz.png){class="glboxshadow"}
+![Port Forwards](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/dmz.png){class="glboxshadow"}
 
 ---
 

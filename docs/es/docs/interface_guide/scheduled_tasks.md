@@ -12,11 +12,11 @@ Esta función le permite establecer una programación de encendido y apagado par
 
 Cuando esté habilitada, establezca las horas de encendido y apagado, seleccione los días de la semana en los que se aplicará y luego haga clic en Apply.
 
-![LED display schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/led_display_schedule.png){class="glboxshadow gl-90-desktop"}
+![LED display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/led_display_schedule.png){class="glboxshadow gl-90-desktop"}
 
 En los modelos con pantalla táctil, como el GL-BE3600 Slate 7, la programación de la pantalla LCD permite establecer un horario de encendido y apagado para la pantalla táctil.
 
-![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
+![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
 
 ## Reinicio programado
 
@@ -24,7 +24,7 @@ Esta función le permite establecer una programación para reiniciar automática
 
 Cuando esté habilitada, establezca las horas de reinicio, seleccione los días de la semana en los que se aplicará y luego haga clic en Apply.
 
-![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
+![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
 
 ## Programación del Wi-Fi
 
@@ -51,7 +51,7 @@ Puede establecer una programación de encendido y apagado tanto para el MLO Main
 
 Habilite la programación del Main o Guest Wi-Fi, establezca las horas de encendido y apagado, seleccione los días de la semana en los que se aplicará y luego haga clic en Apply.
 
-![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
+![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
 
 ### Programación de Wi-Fi de 6 GHz
 
@@ -66,13 +66,13 @@ Cuando el modo de programación del Wi-Fi es **Turn On/Off**, puede establecer u
 
 Habilite la programación del Main o Guest Wi-Fi, establezca las horas de encendido y apagado, seleccione los días de la semana en los que se aplicará y luego haga clic en Apply.
 
-![6GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/6g_turn_on_off.png){class="glboxshadow"}
+![6GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/6g_turn_on_off.png){class="glboxshadow"}
 
 Cuando el modo de programación del Wi-Fi es **Switch TX Power**, puede establecer una programación de cambio de potencia TX para el 6 GHz Main Wi-Fi. Tenga en cuenta que el 6 GHz Guest Wi-Fi no es compatible con este modo de programación.
 
 Habilite la programación del Main Wi-Fi, establezca dos acciones temporizadas para cambiar la potencia TX, seleccione los días de la semana en los que se aplicará y luego haga clic en Apply.
 
-![6GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/6g_switch_tx_power.png){class="glboxshadow"}
+![6GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/6g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: Establece la potencia TX en un nivel determinado, por ejemplo Low, a una hora concreta, por ejemplo 22:00.
 - **Restore**: Restaura la potencia TX a otro nivel, por ejemplo Max, en otra hora, por ejemplo 07:00.
@@ -84,13 +84,13 @@ Cuando el modo de programación del Wi-Fi es **Turn On/Off**, puede establecer u
 
 Habilite la programación del Main o Guest Wi-Fi, establezca las horas de encendido y apagado, seleccione los días de la semana en los que se aplicará y luego haga clic en Apply.
 
-![5GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/5g_turn_on_off.png){class="glboxshadow"}
+![5GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/5g_turn_on_off.png){class="glboxshadow"}
 
 Cuando el modo de programación del Wi-Fi es **Switch TX Power**, puede establecer una programación de cambio de potencia TX para el 5 GHz Main Wi-Fi. Tenga en cuenta que el 5 GHz Guest Wi-Fi no es compatible con este modo de programación.
 
 Habilite la programación del Main Wi-Fi, establezca dos acciones temporizadas para cambiar la potencia TX, seleccione los días de la semana en los que se aplicará y luego haga clic en Apply.
 
-![5GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/5g_switch_tx_power.png){class="glboxshadow"}
+![5GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/5g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: Establece la potencia TX en un nivel determinado, por ejemplo Low, a una hora concreta, por ejemplo 22:00.
 - **Restore**: Restaura la potencia TX a otro nivel, por ejemplo Max, en otra hora, por ejemplo 07:00.
@@ -102,13 +102,13 @@ Cuando el modo de programación del Wi-Fi es **Turn On/Off**, puede establecer u
 
 Habilite la programación del Main o Guest Wi-Fi, establezca las horas de encendido y apagado, seleccione los días de la semana en los que se aplicará y luego haga clic en Apply.
 
-![2.4GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/2.4g_turn_on_off.png){class="glboxshadow"}
+![2.4GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/2.4g_turn_on_off.png){class="glboxshadow"}
 
 Cuando el modo de programación del Wi-Fi es **Switch TX Power**, puede establecer una programación de cambio de potencia TX para el 2.4 GHz Main Wi-Fi. Tenga en cuenta que el 2.4 GHz Guest Wi-Fi no es compatible con este modo de programación.
 
 Habilite la programación del Main Wi-Fi, establezca dos acciones temporizadas para cambiar la potencia TX, seleccione los días de la semana en los que se aplicará y luego haga clic en Apply.
 
-![2.4GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/2.4g_switch_tx_power.png){class="glboxshadow"}
+![2.4GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/2.4g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: Establece la potencia TX en un nivel determinado, por ejemplo Low, a una hora concreta, por ejemplo 22:00.
 - **Restore**: Restaura la potencia TX a otro nivel, por ejemplo Max, en otra hora, por ejemplo 07:00.

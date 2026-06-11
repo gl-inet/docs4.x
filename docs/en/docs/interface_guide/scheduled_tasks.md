@@ -12,11 +12,11 @@ This feature allows you to set an on/off schedule for your router's LED light.
 
 When enabled, set the on and off times, select the weekly effective dates, and then click Apply.
 
-![LED display schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/led_display_schedule.png){class="glboxshadow gl-90-desktop"}
+![LED display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/led_display_schedule.png){class="glboxshadow gl-90-desktop"}
 
 For models with a touchscreen (e.g., GL-BE3600 Slate 7), the LCD display schedule allows you to set an on/off schedule for the touchscreen. 
 
-![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
+![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
 
 ## Schedule Reboot
 
@@ -24,7 +24,7 @@ This feature allows you to set a schedule for automatically restarting your rout
 
 When enabled, set the reboot times, select the weekly effective dates, and then click Apply.
 
-![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
+![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
 
 ## Wi-Fi Schedule
 
@@ -51,7 +51,7 @@ You can set an on/off schedule for both the MLO Main Wi-Fi and Guest Wi-Fi.
 
 Enable the Main or Guest Wi-Fi Schedule, set the on and off times, select the weekly effective dates, and then click Apply.
 
-![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
+![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
 
 ### 6 GHz Wi-Fi Schedule
 
@@ -66,13 +66,13 @@ When the Wi-Fi schedule mode is **Turn On/Off**, you can set an on/off schedule 
 
 Enable the Main or Guest Wi-Fi Schedule, set the on and off times, select the weekly effective dates, and then click Apply.
 
-![6GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/6g_turn_on_off.png){class="glboxshadow"}
+![6GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/6g_turn_on_off.png){class="glboxshadow"}
 
 When the Wi-Fi schedule mode is **Switch TX Power**, you can set a TX power switching schedule for the 6 GHz Main Wi-Fi. Note that 6 GHz Guest Wi-Fi is not supported for this schedule mode.
 
 Enable the Main Wi-Fi Schedule, set two timed actions to switch TX power, select the weekly effective dates, and then click Apply.
 
-![6GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/6g_switch_tx_power.png){class="glboxshadow"}
+![6GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/6g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: Set TX Power to a certain level (e.g., Low) at a specific time (e.g., 22:00).
 - **Restore**: Restore TX Power to another level (e.g., Max) at another time (e.g., 07:00).
@@ -84,13 +84,13 @@ When the Wi-Fi schedule mode is **Turn On/Off**, you can set an on/off schedule 
 
 Enable the Main or Guest Wi-Fi Schedule, set the on and off times, select the weekly effective dates, and then click Apply.
 
-![5GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/5g_turn_on_off.png){class="glboxshadow"}
+![5GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/5g_turn_on_off.png){class="glboxshadow"}
 
 When the Wi-Fi schedule mode is **Switch TX Power**, you can set a TX power switching schedule for the 5 GHz Main Wi-Fi. Note that 5 GHz Guest Wi-Fi is not supported for this schedule mode.
 
 Enable the Main Wi-Fi Schedule, set two timed actions to switch TX power, select the weekly effective dates, and then click Apply.
 
-![5GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/5g_switch_tx_power.png){class="glboxshadow"}
+![5GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/5g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: Set TX Power to a certain level (e.g., Low) at a specific time (e.g., 22:00).
 - **Restore**: Restore TX Power to another level (e.g., Max) at another time (e.g., 07:00).
@@ -102,13 +102,13 @@ When the Wi-Fi schedule mode is **Turn On/Off**, you can set an on/off schedule 
 
 Enable the Main or Guest Wi-Fi Schedule, set the on and off times, select the weekly effective dates, and then click Apply.
 
-![2.4GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/2.4g_turn_on_off.png){class="glboxshadow"}
+![2.4GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/2.4g_turn_on_off.png){class="glboxshadow"}
 
 When the Wi-Fi schedule mode is **Switch TX Power**, you can set a TX power switching schedule for the 2.4 GHz Main Wi-Fi. Note that 2.4 GHz Guest Wi-Fi is not supported for this schedule mode.
 
 Enable the Main Wi-Fi Schedule, set two timed actions to switch TX power, select the weekly effective dates, and then click Apply.
 
-![2.4GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/2.4g_switch_tx_power.png){class="glboxshadow"}
+![2.4GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/2.4g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: Set TX Power to a certain level (e.g., Low) at a specific time (e.g., 22:00).
 - **Restore**: Restore TX Power to another level (e.g., Max) at another time (e.g., 07:00).

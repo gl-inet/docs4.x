@@ -12,11 +12,11 @@ Schedule Tasks では、LED のオン/オフ、ルーターの再起動、Wi-Fi 
 
 有効にしたら、オンとオフの時刻を設定し、毎週の有効日を選択して、**Apply** をクリックします。
 
-![LED display schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/led_display_schedule.png){class="glboxshadow gl-90-desktop"}
+![LED display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/led_display_schedule.png){class="glboxshadow gl-90-desktop"}
 
 タッチスクリーン搭載モデル（例: GL-BE3600 Slate 7）では、LCD display schedule でタッチスクリーンのオン/オフスケジュールを設定できます。
 
-![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
+![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
 
 ## 再起動スケジュール
 
@@ -24,7 +24,7 @@ Schedule Tasks では、LED のオン/オフ、ルーターの再起動、Wi-Fi 
 
 有効にしたら、再起動時刻を設定し、毎週の有効日を選択して、**Apply** をクリックします。
 
-![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
+![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
 
 ## Wi-Fiスケジュール
 
@@ -51,7 +51,7 @@ MLO Main Wi-Fi と Guest Wi-Fi の両方について、オン/オフスケジュ
 
 Main または Guest Wi-Fi Schedule を有効にし、オンとオフの時刻を設定し、毎週の有効日を選択して、**Apply** をクリックします。
 
-![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
+![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
 
 ### 6 GHz Wi-Fi Schedule
 
@@ -66,13 +66,13 @@ Wi-Fi スケジュールモードが **Turn On/Off** の場合、6 GHz Main Wi-F
 
 Main または Guest Wi-Fi Schedule を有効にし、オンとオフの時刻を設定し、毎週の有効日を選択して、**Apply** をクリックします。
 
-![6GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/6g_turn_on_off.png){class="glboxshadow"}
+![6GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/6g_turn_on_off.png){class="glboxshadow"}
 
 Wi-Fi スケジュールモードが **Switch TX Power** の場合、6 GHz Main Wi-Fi の TX power 切り替えスケジュールを設定できます。このスケジュールモードでは 6 GHz Guest Wi-Fi はサポートされません。
 
 Main Wi-Fi Schedule を有効にし、TX power を切り替える 2 つの時刻指定アクションを設定し、毎週の有効日を選択して、**Apply** をクリックします。
 
-![6GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/6g_switch_tx_power.png){class="glboxshadow"}
+![6GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/6g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: 特定の時刻（例: 22:00）に、TX Power を指定レベル（例: Low）へ設定します。
 - **Restore**: 別の時刻（例: 07:00）に、TX Power を別のレベル（例: Max）へ戻します。
@@ -84,13 +84,13 @@ Wi-Fi スケジュールモードが **Turn On/Off** の場合、5 GHz Main Wi-F
 
 Main または Guest Wi-Fi Schedule を有効にし、オンとオフの時刻を設定し、毎週の有効日を選択して、**Apply** をクリックします。
 
-![5GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/5g_turn_on_off.png){class="glboxshadow"}
+![5GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/5g_turn_on_off.png){class="glboxshadow"}
 
 Wi-Fi スケジュールモードが **Switch TX Power** の場合、5 GHz Main Wi-Fi の TX power 切り替えスケジュールを設定できます。このスケジュールモードでは 5 GHz Guest Wi-Fi はサポートされません。
 
 Main Wi-Fi Schedule を有効にし、TX power を切り替える 2 つの時刻指定アクションを設定し、毎週の有効日を選択して、**Apply** をクリックします。
 
-![5GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/5g_switch_tx_power.png){class="glboxshadow"}
+![5GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/5g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: 特定の時刻（例: 22:00）に、TX Power を指定レベル（例: Low）へ設定します。
 - **Restore**: 別の時刻（例: 07:00）に、TX Power を別のレベル（例: Max）へ戻します。
@@ -102,13 +102,13 @@ Wi-Fi スケジュールモードが **Turn On/Off** の場合、2.4 GHz Main Wi
 
 Main または Guest Wi-Fi Schedule を有効にし、オンとオフの時刻を設定し、毎週の有効日を選択して、**Apply** をクリックします。
 
-![2.4GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/2.4g_turn_on_off.png){class="glboxshadow"}
+![2.4GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/2.4g_turn_on_off.png){class="glboxshadow"}
 
 Wi-Fi スケジュールモードが **Switch TX Power** の場合、2.4 GHz Main Wi-Fi の TX power 切り替えスケジュールを設定できます。このスケジュールモードでは 2.4 GHz Guest Wi-Fi はサポートされません。
 
 Main Wi-Fi Schedule を有効にし、TX power を切り替える 2 つの時刻指定アクションを設定し、毎週の有効日を選択して、**Apply** をクリックします。
 
-![2.4GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/2.4g_switch_tx_power.png){class="glboxshadow"}
+![2.4GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/2.4g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: 特定の時刻（例: 22:00）に、TX Power を指定レベル（例: Low）へ設定します。
 - **Restore**: 別の時刻（例: 07:00）に、TX Power を別のレベル（例: Max）へ戻します。

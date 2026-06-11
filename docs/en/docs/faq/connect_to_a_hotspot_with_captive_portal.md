@@ -42,7 +42,7 @@ If you fail to enter the captive portal, your router may be unable to access the
 
 When connecting the router to a public hotspot, on the **Join Network** page, enabling the following features can help improve the connection success rate.
 
-![hotspot login mode & camouflage](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/hotspot_login_mode_camouflage.png){class="glboxshadow"}
+![hotspot login mode & camouflage](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/hotspot_login_mode_camouflage.png){class="glboxshadow"}
 
 - Auto-Enable Login Mode for Public Hotspots
 
@@ -58,27 +58,27 @@ When connecting the router to a public hotspot, on the **Join Network** page, en
 
 1. Log in to the web Admin Panel, navigate to NETWORK -> DNS. Make sure the **DNS Rebinding Attack Protection** is disabled and the **Mode** is set to **Automatic**.
 
-    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
+    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
 
 2. In the web Admin Panel, navigate to VPN -> VPN Dashboard. Make sure all VPN connections are disabled.
 
     **For firmware v4.7 and earlier**, the page is displayed as below. 
     
-    ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
+    ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
     
     **For firmware v4.8 and higher**, the page is displayed as below.
 
-    ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
+    ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
 
 3. In the web Admin Panel, navigate to APPLICATIONS -> AdGuard Home. Make sure the AdGuard Home is disabled.
 
-    ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
+    ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
 
 4. Open a web browser, re-enter or refresh the webpage of captive portal. Wait a minute and check if it will be redirected to the captive portal authentication page automatically.
 
     If you are using a smartphone and your web browser doesn't redirect to the captive portal, please turn off your smartphone's Wi-Fi and turn it on, then reconnect to the router's Wi-Fi. The captive portal should pop up directly after you enter the Wi-Fi password.
 
-    ![connected](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
+    ![connected](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
 
 ---
 
@@ -90,7 +90,7 @@ Some hotels limit the number of devices each customer can connect to the hotel's
 
     Here is an example for iPhone (iOS 16.1.2): go to Settings -> Wi-Fi -> Select the hotel Wi-Fi and you will find the Wi-Fi Address. Write down this address.
 
-    ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
+    ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
 
     For some older models, the MAC address may not be available in the Wi-Fi settings. In this case, the device may use its real MAC address when connecting to public Wi-Fi, which can be found in your phone's Settings > About (or "About Phone").
 
@@ -100,15 +100,15 @@ Some hotels limit the number of devices each customer can connect to the hotel's
 
     Select Manual Mode, enter the MAC address obtained in Step 1 and click Apply.
 
-    ![MAC manual](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
+    ![MAC manual](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
 
     **For firmware v4.6 and higher**, please select INTERNET from the left side -> Repeater section, click Modify.
 
-    ![repeater modify](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
+    ![repeater modify](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
 
     In the pop-up window, switch the MAC Mode to Clone, manually input the MAC address and click Apply.
 
-    ![repeater clone mac](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_clone_mac.png){class="glboxshadow gl-90-desktop"}
+    ![repeater clone mac](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/repeater_clone_mac.png){class="glboxshadow gl-90-desktop"}
 
 3. It may be necessary to reboot the router to take effect.
 

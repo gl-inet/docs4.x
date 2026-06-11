@@ -24,7 +24,7 @@ Vous pouvez mettre à niveau le firmware via le panneau d'administration web.
 
     **Remarque :** le firmware 4.x n'est pas compatible avec le firmware 3.x. Lors d'une mise à niveau depuis le firmware 3.x, ne conservez **PAS** les paramètres.
 
-    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
+    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
 ## Méthode 2. Mise à niveau via U-Boot
 

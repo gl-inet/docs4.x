@@ -174,7 +174,7 @@ Wenn Sie den Router mit einem öffentlichen Hotspot verbinden, kann das Aktivier
 
 
 
-![hotspot login mode & camouflage](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/hotspot_login_mode_camouflage.png){class="glboxshadow"}
+![hotspot login mode & camouflage](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/hotspot_login_mode_camouflage.png){class="glboxshadow"}
 
 
 
@@ -238,7 +238,7 @@ Wenn Sie den Router mit einem öffentlichen Hotspot verbinden, kann das Aktivier
 
 
 
-    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
+    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
 
 
 
@@ -262,7 +262,7 @@ Wenn Sie den Router mit einem öffentlichen Hotspot verbinden, kann das Aktivier
 
 
 
-    ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
+    ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
 
 
 
@@ -278,7 +278,7 @@ Wenn Sie den Router mit einem öffentlichen Hotspot verbinden, kann das Aktivier
 
 
 
-    ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
+    ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
 
 
 
@@ -294,7 +294,7 @@ Wenn Sie den Router mit einem öffentlichen Hotspot verbinden, kann das Aktivier
 
 
 
-    ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
+    ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
 
 
 
@@ -318,7 +318,7 @@ Wenn Sie den Router mit einem öffentlichen Hotspot verbinden, kann das Aktivier
 
 
 
-    ![connected](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
+    ![connected](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
 
 
 
@@ -366,7 +366,7 @@ Einige Hotels begrenzen die Anzahl der Geräte, die jeder Gast mit dem Hotel-Wi-
 
 
 
-    ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
+    ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
 
 
 
@@ -406,7 +406,7 @@ Einige Hotels begrenzen die Anzahl der Geräte, die jeder Gast mit dem Hotel-Wi-
 
 
 
-    ![MAC manual](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
+    ![MAC manual](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
 
 
 
@@ -422,7 +422,7 @@ Einige Hotels begrenzen die Anzahl der Geräte, die jeder Gast mit dem Hotel-Wi-
 
 
 
-    ![repeater modify](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
+    ![repeater modify](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
 
 
 
@@ -438,7 +438,7 @@ Einige Hotels begrenzen die Anzahl der Geräte, die jeder Gast mit dem Hotel-Wi-
 
 
 
-    ![repeater clone mac](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_clone_mac.png){class="glboxshadow gl-90-desktop"}
+    ![repeater clone mac](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/repeater_clone_mac.png){class="glboxshadow gl-90-desktop"}
 
 
 

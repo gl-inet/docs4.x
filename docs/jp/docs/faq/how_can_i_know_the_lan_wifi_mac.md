@@ -6,7 +6,7 @@
 
 ## WAN Mac アドレスの検索
 
-![wan_lan_wifi](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/wan_lan_wifi.png){class="glboxshadow"}
+![wan_lan_wifi](https://static.gl-inet.com/docs/router/en/4/faq/how_can_i_know_the_lan_wifi_mac/wan_lan_wifi.png){class="glboxshadow"}
 
 WAN アドレスはデバイスの背面ラベルで確認できます。 たとえば、WAN Mac はここでは E4:95:6E:40:DB:A9 です。
 

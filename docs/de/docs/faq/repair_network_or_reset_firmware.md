@@ -36,7 +36,7 @@ Dabei wird die Netzwerkschnittstelle neu gestartet und die Internetschnittstelle
 
     **Hinweis:** Alle Ihre aktuellen Einstellungen und Daten gehen verloren. Der Vorgang dauert etwa 2 Minuten. Schalten Sie den Router während dieses Vorgangs NICHT aus.
 
-    ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+    ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/faq/repair_network_or_reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
 
 **Bei Modellen mit Touchscreen** kann die Firmware auf drei Arten zurückgesetzt werden: über den Touchscreen, die Reset-Taste oder das Web-Admin-Panel.
 

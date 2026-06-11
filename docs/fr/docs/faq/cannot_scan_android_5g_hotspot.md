@@ -14,17 +14,17 @@ Vous pouvez modifier le code pays Wi-Fi de votre routeur GL.iNet dans l'interfac
 
     Accédez à **Network** -> **Wireless**, repérez le Wi-Fi 5G et cliquez sur **Edit** à droite.
 
-    ![5gwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gwifi.jpg){class="glboxshadow"}
+    ![5gwifi](https://static.gl-inet.com/docs/router/en/4/faq/cannot_scan_android_5g_hotspot/5gwifi.jpg){class="glboxshadow"}
 
 3. Sélectionnez US comme code pays.
 
     Sur la page Wireless, cliquez sur l'onglet **Advanced Settings** sous **Device Configuration**. Sélectionnez US (United States) comme code pays pour votre Wi-Fi 5 GHz.
 
-    ![5gus](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gus.jpg){class="glboxshadow"}
+    ![5gus](https://static.gl-inet.com/docs/router/en/4/faq/cannot_scan_android_5g_hotspot/5gus.jpg){class="glboxshadow"}
 
 4. Cliquez sur **Save & Apply** avant de vous déconnecter.
 
-    ![saveapply](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/saveapply.jpg){class="glboxshadow"}
+    ![saveapply](https://static.gl-inet.com/docs/router/en/4/faq/cannot_scan_android_5g_hotspot/saveapply.jpg){class="glboxshadow"}
 
     Essayez ensuite de détecter à nouveau le point d'accès 5G de votre téléphone Android.
 

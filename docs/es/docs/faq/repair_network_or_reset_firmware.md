@@ -36,7 +36,7 @@ Esta operación reiniciará la interfaz de red y restaurará la interfaz de Inte
 
    **Nota:** Se perderán todos sus ajustes y datos actuales. El proceso tardará unos 2 minutos. NO apague el router durante este proceso.
 
-   ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+   ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/faq/repair_network_or_reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
 
 **Para los modelos con pantalla táctil**, el firmware se puede restablecer de tres formas: mediante la pantalla táctil, el botón de reset o el panel de administración web.
 

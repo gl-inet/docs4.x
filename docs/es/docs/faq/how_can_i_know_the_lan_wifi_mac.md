@@ -14,7 +14,7 @@ Busque la **dirección MAC WAN** en la etiqueta inferior.
 
 Por ejemplo, la MAC WAN es E4:95:6E:40:DB:A9 en la imagen siguiente.
 
-![wan_lan_wifi](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/wan_lan_wifi.png){class="glboxshadow"}
+![wan_lan_wifi](https://static.gl-inet.com/docs/router/en/4/faq/how_can_i_know_the_lan_wifi_mac/wan_lan_wifi.png){class="glboxshadow"}
 
 ## Método 2. Mediante SSH
 
@@ -26,7 +26,7 @@ Introduzca **ifconfig** en SSH y obtendrá una salida de datos que mostrará int
 
 Tome como ejemplo la siguiente imagen.
 
-![ifconfigwan](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/ifcongwan.jpg){class="glboxshadow"}
+![ifconfigwan](https://static.gl-inet.com/docs/router/en/4/faq/how_can_i_know_the_lan_wifi_mac/ifcongwan.jpg){class="glboxshadow"}
 
 - **eth0** es el puerto WAN, con la dirección MAC **94:83:C4:19:19:08**.
 
@@ -40,7 +40,7 @@ Tome como ejemplo la siguiente imagen.
 
 Tome como ejemplo la siguiente imagen.
 
-![ifconfigwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/where_to_find_the_device_id_mac_sn/ifcongwifi.jpg){class="glboxshadow"}
+![ifconfigwifi](https://static.gl-inet.com/docs/router/en/4/faq/how_can_i_know_the_lan_wifi_mac/ifcongwifi.jpg){class="glboxshadow"}
 
 - **wlan0-1** es el Wi-Fi de 2.4G, con la dirección MAC **96:83:C4:19:19:0B**.
 

@@ -2,7 +2,7 @@
 
 Revise la configuración del hotspot de su iPhone y desactive **Maximise Compatibility**.
 
-![maxcompat](https://static.gl-inet.com/docs/router/en/4/tutorials/iphone_tethering_fail/maxcompat.PNG){class="glboxshadow gl-50-desktop" }
+![maxcompat](https://static.gl-inet.com/docs/router/en/4/faq/cannot_scan_iphone_5g_hotspot/maxcompat.PNG){class="glboxshadow gl-50-desktop" }
 
 ---
 

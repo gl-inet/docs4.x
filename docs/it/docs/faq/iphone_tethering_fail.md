@@ -4,11 +4,11 @@ Se riscontri un problema con il tethering di iPhone, puoi provare i passaggi seg
 
 1. Assicurati che **Maximise Compatibility** sia **Enabled** (iPhone 8 o successivo).
 
-    ![maxcompat](https://static.gl-inet.com/docs/router/en/4/tutorials/iphone_tethering_fail/maxcompat.PNG){class="glboxshadow gl-50-desktop" }
+    ![maxcompat](https://static.gl-inet.com/docs/router/en/4/faq/iphone_tethering_fail/maxcompat.PNG){class="glboxshadow gl-50-desktop" }
 
 2. Disattiva l'hotspot sul telefono, attendi 5 secondi, quindi riattivalo.
 
-    ![hotspot](https://static.gl-inet.com/docs/router/en/4/tutorials/iphone_tethering_fail/hotspot.PNG){class="glboxshadow gl-50-desktop"}
+    ![hotspot](https://static.gl-inet.com/docs/router/en/4/faq/iphone_tethering_fail/hotspot.PNG){class="glboxshadow gl-50-desktop"}
 
 3. Assicurati che la versione di iOS sia 15 o successiva.
 

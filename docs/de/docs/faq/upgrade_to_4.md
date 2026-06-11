@@ -24,7 +24,7 @@ Sie können die Firmware über das Web-Admin-Panel aktualisieren.
 
     **Hinweis:** Die 4.x-Firmware ist nicht mit der 3.x-Firmware kompatibel. Wenn Sie von einer 3.x-Firmware aktualisieren, behalten Sie die Einstellungen **NICHT** bei.
 
-    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
+    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
 ## Methode 2: U-Boot-Upgrade
 

@@ -45,7 +45,7 @@ Ce scénario utilise deux routeurs GL.iNet pour établir une connexion VPN obfus
 
     Dans la barre latérale gauche, accédez à **APPLICATIONS** -> **Dynamic DNS**. Activez **Enable DDNS**, acceptez les **Terms of Service & Privacy Policy**, puis cliquez sur **Apply**.
 
-    ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
+    ![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
 4. Activez l’obfuscation VPN.
 

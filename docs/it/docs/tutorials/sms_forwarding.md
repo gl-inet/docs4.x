@@ -45,7 +45,7 @@ Nel lato sinistro del pannello di amministrazione web, vai alla sezione **INTERN
 
 Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, dove troverai le impostazioni di inoltro SMS.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow"}
+![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Inoltrare via email
 

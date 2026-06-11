@@ -45,7 +45,7 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zum Bereich **INTERNET** -> 
 
 Klicken Sie oben rechts auf das Umschlag-Symbol, um die SMS-Seite zu öffnen. Dort finden Sie die Einstellungen für SMS Forwarding.
 
-![SMS-Einstellung](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow"}
+![SMS-Einstellung](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Über E-Mail weiterleiten
 

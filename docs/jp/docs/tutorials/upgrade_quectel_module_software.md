@@ -16,7 +16,7 @@
 
 2. ルーターのWeb管理パネルにログインし、**SYSTEM** -> **Upgrade** -> **Modem Local Upgrade** に移動して、モジュールファームウェア（.zip形式）をアップロードします。
 
-    ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
+    ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/modem_local_upgrade.png){class="glboxshadow"}
 
 **方法2. SSH経由でアップグレードする**
 

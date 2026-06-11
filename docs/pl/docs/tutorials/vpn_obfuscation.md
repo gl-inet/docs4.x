@@ -45,7 +45,7 @@ W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia 
     
     Z lewego paska bocznego przejdź do **APPLICATIONS** -> **Dynamic DNS**. Włącz **Enable DDNS**, zaakceptuj **Terms of Service & Privacy Policy**, następnie kliknij **Apply**.
 
-    ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
+    ![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
 4. Włącz zaciemnianie VPN. 
 

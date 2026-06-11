@@ -18,7 +18,7 @@ Except for specific models, most GL.iNet wireless routers have Wi-Fi functionali
 
 Models with Wi-Fi functionality usually support four network modes: Router, Access Point, Extender, and WDS modes. Note that some models do not support WDS mode.
 
-![network mode](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
+![network mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page.png){class="glboxshadow"}
 
 - **Router**: This is the default operational mode for most home and small office routers, designed to create a private local area network and act as a dedicated gateway between the public internet and connected devices.
 
@@ -52,7 +52,7 @@ Models with Wi-Fi functionality usually support four network modes: Router, Acce
 
 GL-MT2500/GL-MT2500A does not support Access Point, Extender, or WDS modes, as it lacks Wi-Fi functionality. But it supports Router mode and Bridge mode.
 
-![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
+![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
 
 - **Router**: This is the default operational mode for most home and small office routers, designed to create a private local area network (LAN) and act as a dedicated gateway between the public internet and connected devices.
 

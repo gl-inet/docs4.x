@@ -42,11 +42,11 @@ Dual-Ethernet WAN feature allows switching the default LAN1 to a second WAN port
 
 2. Navigate to **NETWORK** -> **Port Management** -> **LAN** tab, switch the port property to WAN, and click **Apply**.
 
-    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/tutorials/dual-ethernet_wan/dual_ethernet_1.png){class="glboxshadow"}
+    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/dual-ethernet_wan/dual_ethernet_1.png){class="glboxshadow"}
 
 3. In the pop-up window, click **Apply**.
 
-    ![dual ethernet wan 2](https://static.gl-inet.com/docs/router/en/4/tutorials/dual-ethernet_wan/dual_ethernet_2.png){class="glboxshadow"}
+    ![dual ethernet wan 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dual-ethernet_wan/dual_ethernet_2.png){class="glboxshadow"}
 
 4. After you enable Dual-Ethernet WAN, you can configure multi-wan functions [here](../interface_guide/multi-wan.md).
 

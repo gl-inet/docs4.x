@@ -18,7 +18,7 @@ Le mode réseau désigne les différents rôles et fonctions opérationnels qu'u
 
 Les modèles équipés du Wi-Fi prennent généralement en charge quatre modes réseau : Router, Access Point, Extender et WDS. Notez que certains modèles ne prennent pas en charge le mode WDS.
 
-![network mode](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
+![network mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page.png){class="glboxshadow"}
 
 - **Router** : il s'agit du mode de fonctionnement par défaut de la plupart des routeurs domestiques et de petit bureau, conçu pour créer un réseau local privé et agir comme une passerelle dédiée entre l'Internet public et les appareils connectés.
 
@@ -52,7 +52,7 @@ Les modèles équipés du Wi-Fi prennent généralement en charge quatre modes r
 
 Le GL-MT2500/GL-MT2500A ne prend pas en charge les modes Access Point, Extender ni WDS, car il ne dispose pas de la fonctionnalité Wi-Fi. En revanche, il prend en charge les modes Router et Bridge.
 
-![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
+![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
 
 - **Router** : il s'agit du mode de fonctionnement par défaut de la plupart des routeurs domestiques et de petit bureau, conçu pour créer un réseau local privé (LAN) et agir comme une passerelle dédiée entre l'Internet public et les appareils connectés.
 

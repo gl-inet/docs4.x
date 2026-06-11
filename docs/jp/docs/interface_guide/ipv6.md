@@ -6,7 +6,7 @@ Web Admin Panel の左側で、**NETWORK** -> **IPv6** に移動します。
 
 このページでは、ルーターで IPv6 を有効にして設定できます。
 
-![ipv6](https://static.gl-inet.com/docs/router/en/4/tutorials/ipv6/ipv6.png){class="glboxshadow"}
+![ipv6](https://static.gl-inet.com/docs/router/en/4/interface_guide/ipv6/ipv6.png){class="glboxshadow"}
 
 IPv6 を有効にすると、Ethernet などの WAN インターフェースは DHCPv6 経由で IPv6 アドレスを取得します。Ethernet の設定ページで IPv6 アドレスを手動変更することもできます。
 
@@ -14,7 +14,7 @@ IPv6 を有効にすると、Ethernet などの WAN インターフェースは 
 
 **Enable IPv6** をオンにし、メインネットワークのモードと DNS acquisition method を選択して、**Apply** をクリックします。
 
-![ipv6 enabled](https://static.gl-inet.com/docs/router/en/4/tutorials/ipv6/ipv6_enabled.png){class="glboxshadow"}
+![ipv6 enabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/ipv6/ipv6_enabled.png){class="glboxshadow"}
 
 **Mode**: 4 つのモードが利用できます。**Native**、**Passthrough**、**NAT6**、**Static IPv6** です。
 

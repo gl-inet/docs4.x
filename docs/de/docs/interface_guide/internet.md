@@ -6,7 +6,7 @@ Die obere Hälfte zeigt ein Diagramm mit dem Internetstatus, und die untere Häl
 
 ## Statusdiagramm
 
-![status diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/status_diagram.png){class="glboxshadow"}
+![status diagram](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
 **Die linke Seite** des Diagramms zeigt den aktuellen Internetstatus.
 
@@ -19,7 +19,7 @@ Die obere Hälfte zeigt ein Diagramm mit dem Internetstatus, und die untere Häl
 - Grün bedeutet, dass die Funktion aktiviert ist, Grau bedeutet deaktiviert. Bei VPN und Tor bedeutet Weiß, dass gerade eine Verbindung aufgebaut wird.
 - Bewegen Sie den Mauszeiger über ein aktiviertes Wi‑Fi-Symbol, um den zugehörigen Wi‑Fi-QR-Code anzuzeigen. Sie können ihn mit Ihrem Smartphone oder Tablet scannen, um sich schnell mit dem entsprechenden Wi‑Fi-Netzwerk zu verbinden.
 
-    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/wifi_qrcode.png){class="glboxshadow"}
+    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/wifi_qrcode.png){class="glboxshadow"}
 
 **Die rechte Seite** des Diagramms zeigt die mit dem Router verbundenen Geräte ([Clients](clients.md)).
 
@@ -41,11 +41,11 @@ Der Einrichtungsassistent ist seit Firmware v4.7 verfügbar.
 
 Klicken Sie auf der Seite **INTERNET** oben rechts auf das Buchsymbol.
 
-![setup wizard 1](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/setup_wizard1.png){class="glboxshadow"}
+![setup wizard 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/setup_wizard1.png){class="glboxshadow"}
 
 Folgen Sie dem Einrichtungsassistenten, um Ihren Router für den Internetzugang zu konfigurieren.
 
-![setup wizard 2](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/setup_wizard2.png){class="glboxshadow"}
+![setup wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/setup_wizard2.png){class="glboxshadow"}
 
 Wenn Sie die [GL.iNet App](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"} verwenden, folgen Sie bitte den Anweisungen auf dem Bildschirm, um den Internetzugang einzurichten.
 

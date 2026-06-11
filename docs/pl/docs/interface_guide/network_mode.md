@@ -1,4 +1,4 @@
-﻿# Tryb sieciowy
+# Tryb sieciowy
 
 W lewym panelu administratora przejdź do **NETWORK** -> **Network Mode**.
 
@@ -18,7 +18,7 @@ Z wyjątkiem określonych modeli większość bezprzewodowych routerów GL.iNet 
 
 Modele z funkcją Wi-Fi zazwyczaj obsługują cztery tryby sieciowe: Router, Access Point, Extender i WDS. Należy pamiętać, że niektóre modele nie obsługują trybu WDS.
 
-![network mode](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
+![network mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page.png){class="glboxshadow"}
 
 - **Router**: Jest to domyślny tryb pracy większości routerów domowych i biurowych, zaprojektowany do tworzenia prywatnej sieci lokalnej i działania jako dedykowana brama między publicznym Internetem a podłączonymi urządzeniami.
 
@@ -52,7 +52,7 @@ Modele z funkcją Wi-Fi zazwyczaj obsługują cztery tryby sieciowe: Router, Acc
 
 GL-MT2500/GL-MT2500A nie obsługuje trybów Access Point, Extender ani WDS, ponieważ nie posiada funkcji Wi-Fi. Obsługuje jednak tryb Router i tryb Bridge.
 
-![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
+![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
 
 - **Router**: Jest to domyślny tryb pracy większości routerów domowych i biurowych, zaprojektowany do tworzenia prywatnej sieci lokalnej (LAN) i działania jako dedykowana brama między publicznym Internetem a podłączonymi urządzeniami.
 

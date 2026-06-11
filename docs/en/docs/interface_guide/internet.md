@@ -6,7 +6,7 @@ The top half features a diagram showing the Internet status, and the bottom half
 
 ## Status Diagram
 
-![status diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/status_diagram.png){class="glboxshadow"}
+![status diagram](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
 **The left side** of the diagram shows the current Internet status.
 
@@ -19,7 +19,7 @@ The top half features a diagram showing the Internet status, and the bottom half
 - Green indicates the feature is enabled, gray indicates disabled. For VPN and Tor, white means connecting.
 - Hover your cursor over an enabled Wi‑Fi icon to display its Wi‑Fi QR code. You can scan it with your phone or tablet to connect to the corresponding Wi‑Fi network quickly.
 
-    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/wifi_qrcode.png){class="glboxshadow"}
+    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/wifi_qrcode.png){class="glboxshadow"}
 
 **The right side** of the diagram shows the devices ([Clients](clients.md)) connected to the router. 
 
@@ -41,11 +41,11 @@ The setup wizard has been available since firmware v4.7
 
 On the INTERNET page, click the book icon in the top right corner.
 
-![setup wizard 1](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/setup_wizard1.png){class="glboxshadow"}
+![setup wizard 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/setup_wizard1.png){class="glboxshadow"}
 
 Follow the setup wizard to configure your router to get internet access.
 
-![setup wizard 2](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/setup_wizard2.png){class="glboxshadow"}
+![setup wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/setup_wizard2.png){class="glboxshadow"}
 
 If using the [GL.iNet app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}, please follow the on-screen prompts to set up internet access.
 

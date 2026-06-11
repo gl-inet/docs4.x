@@ -2,8 +2,6 @@
 
 > Esta guía se aplica al firmware v4.6 y versiones posteriores. Para versiones anteriores, consulte [Firewall](firewall.md).
 
----
-
 En el lado izquierdo del Panel de administración web, vaya a **NETWORK** -> **Port Forwarding**, o a **SECURITY** -> **Port Forwarding** (para firmware v4.9 y versiones posteriores).
 
 Esta página le permite configurar reglas de firewall, incluidas **DMZ** y **Port Forwarding**.

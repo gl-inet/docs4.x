@@ -514,29 +514,29 @@ En el panel de administración web, vaya a **VPN** -> **WireGuard Client**.
 
    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/set_a_name.png){class="glboxshadow"}
 
-   1. **Subir un archivo de configuración**.
+    1. **Subir un archivo de configuración**.
 
-      Haga clic en el área de carga para subir su archivo de configuración de WireGuard y, a continuación, haga clic en **Apply**.
+        Haga clic en el área de carga para subir su archivo de configuración de WireGuard y, a continuación, haga clic en **Apply**.
 
-      ![upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/upload_configuration_file.png){class="glboxshadow"}
+        ![upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/upload_configuration_file.png){class="glboxshadow"}
 
-      ![after upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/upload_configuration_file_apply.png){class="glboxshadow"}
+        ![after upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/upload_configuration_file_apply.png){class="glboxshadow"}
 
-   2. **Añadir configuración manualmente**.
+    2. **Añadir configuración manualmente**.
 
-      Haga clic en **Manually Add Configuration** en la parte inferior del área de carga.
+        Haga clic en **Manually Add Configuration** en la parte inferior del área de carga.
 
-      ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/manually_add_configuration.png){class="glboxshadow"}
+        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/manually_add_configuration.png){class="glboxshadow"}
 
-      Establezca un nombre descriptivo y pegue la configuración en el cuadro de texto. Luego haga clic en **Apply**.
+        Establezca un nombre descriptivo y pegue la configuración en el cuadro de texto. Luego haga clic en **Apply**.
 
-      ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/text_mode.png){class="glboxshadow"}
-      <small>(Text Mode)</small>
+        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/text_mode.png){class="glboxshadow"}
+        <small>(Text Mode)</small>
 
-      Si desea verificar cada elemento, puede cambiar al modo Item y revisar los detalles de configuración. Luego haga clic en **Apply**.
+        Si desea verificar cada elemento, puede cambiar al modo Item y revisar los detalles de configuración. Luego haga clic en **Apply**.
 
-      ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/item_mode.png){class="glboxshadow"}
-      <small>(Item Mode)</small>
+        ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/item_mode.png){class="glboxshadow"}
+        <small>(Item Mode)</small>
 
 4. Haga clic en el icono de tres puntos de la derecha para iniciar la conexión.
 

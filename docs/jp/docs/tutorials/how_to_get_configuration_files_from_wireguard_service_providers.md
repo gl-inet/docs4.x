@@ -36,7 +36,7 @@
 
     **Note:** Hide.me VPN の設定ファイル内のキーは接続のたびに再生成され、切断後は無効になります。そのため、この設定ファイルを他のデバイスにコピーしても正常に接続できません。
 
-    [Refer link](https://github.com/eventure/hide.client.routers){target="_blank"}
+    [参考リンク](https://github.com/eventure/hide.client.routers){target="_blank"}
 
 ??? "Mullvad"
     ### Mullvad
@@ -85,7 +85,7 @@
 
     6. 次に[このガイド](../interface_guide/wireguard_client.md#set-up-surfshark)に従って続行してください。
 
-    [Refer link](https://support.surfshark.com/hc/en-us/articles/6585805139474-How-to-set-up-a-manual-WireGuard-connection-on-Android-){target="_blank"}
+    [参考リンク](https://support.surfshark.com/hc/en-us/articles/6585805139474-How-to-set-up-a-manual-WireGuard-connection-on-Android-){target="_blank"}
 
 ??? "AirVPN"
     ### AirVPN
@@ -226,7 +226,7 @@
 
     次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って設定を完了してください。
 
-    [Refer link](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
+    [参考リンク](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}
 
 ??? "SpiderVPN"
     ### SpiderVPN
@@ -351,9 +351,9 @@
 
     4. 次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。
 
-    [Refer link 1](https://www.vpnunlimited.com/help/manuals/wireguard-setup-on-glinet-router){target="_blank"}
+    [参考リンク 1](https://www.vpnunlimited.com/help/manuals/wireguard-setup-on-glinet-router){target="_blank"}
 
-    [Refer link 2](https://www.vpnunlimited.com/help/manuals/wireguard/windows){target="_blank"}
+    [参考リンク 2](https://www.vpnunlimited.com/help/manuals/wireguard/windows){target="_blank"}
 
 ??? "Windscribe"
     ### Windscribe
@@ -398,4 +398,4 @@
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+ご不明な点がある場合は、[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。

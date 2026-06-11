@@ -108,7 +108,7 @@ En los pasos siguientes, usaremos [PIA (Private Internet Access)](https://privat
 
    ![manual upload files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual4.png){class="glboxshadow"}
 
-   - Hay 4 tipos de credenciales para la autenticación:
+    - Hay 4 tipos de credenciales para la autenticación:
 
         1. Sin autenticación.
 
@@ -118,7 +118,7 @@ En los pasos siguientes, usaremos [PIA (Private Internet Access)](https://privat
 
         4. Nombre de usuario, contraseña y frase de contraseña.
 
-   Después verá el archivo de configuración cargado.
+    Después verá el archivo de configuración cargado.
 
    ![manual upload files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual5.png){class="glboxshadow"}
 

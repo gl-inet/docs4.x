@@ -49,10 +49,12 @@ GL.iNet ルーターで VPN 難読化を設定するには、[こちら](../tuto
 
 参考資料: [AmneziaWG 公式ドキュメント](https://docs.amnezia.org/documentation/amnezia-wg){target="_blank"}
 
+---
+
 関連記事:
 
 - [GL.iNet ルーターで VPN 難読化を設定する方法](../tutorials/vpn_obfuscation.md){target="_blank"}
 
 ---
 
-まだ質問がありますか？[Community Forum](https://forum.gl-inet.com){target="_blank"} をご覧いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+まだ質問がありますか？[コミュニティフォーラム](https://forum.gl-inet.com){target="_blank"} をご覧いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。

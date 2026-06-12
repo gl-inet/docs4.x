@@ -6,7 +6,7 @@ This tutorial introduces the steps to set up an OpenVPN server via AstroRelay on
 
 1. Follow [this guide](../interface_guide/openvpn_server.md) to set up an OpenVPN server on your GL.iNet router, even if you don't have a public IP address. 
 
-    ![set up openvpnd server](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/start_ovpn_server4x.jpg){class="glboxshadow"}
+    ![set up openvpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/start_ovpn_server4x.jpg){class="glboxshadow"}
 
     Then export the OpenVPN configuration. Here is an example config file.
 

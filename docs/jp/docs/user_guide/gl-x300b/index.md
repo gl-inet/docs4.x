@@ -57,7 +57,7 @@ Collie（GL-X300B）は、高温環境や物理的リスクのある環境での
         - 同じ Wi‑Fi アンテナ 2 本を **2.4G** ポートに取り付けます。
         - 4G アンテナ 1 本を **4G** ポートに取り付けます。
 
-        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
 
     2. 最適な性能を得るため、アンテナは上向きに配置してください。
 
@@ -77,7 +77,7 @@ Collie（GL-X300B）は、高温環境や物理的リスクのある環境での
         - 4G アンテナ 1 本を **4G** ポートに取り付けます。
         - BLE アンテナ 1 本を **BLE** ポートに取り付けます。
 
-        ![x300b ble antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b ble antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
 
     2. 最適な性能を得るため、アンテナは上向きに配置してください。
 
@@ -97,11 +97,11 @@ Collie（GL-X300B）は、高温環境や物理的リスクのある環境での
         - 同じ 4G アンテナ 2 本を **4G** ポートに取り付けます。
         - GPS アンテナ 1 本を **GPS** ポートに取り付けます。
 
-        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
 
     2. アンテナは正しく配置し、絡まないようにして、最適な性能を確保してください。
 
-        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps.jpg){class="glboxshadow"}
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-gps.jpg){class="glboxshadow"}
 
 ## 初回設定
 

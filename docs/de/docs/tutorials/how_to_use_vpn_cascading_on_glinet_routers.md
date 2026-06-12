@@ -60,7 +60,7 @@ VPN Cascading wird in manchen Zusammenhängen auch als „Double VPN“ bezeichn
         
         Klicken Sie auf das ausgegraute Feld links.
 
-        ![traffic from](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_from_1.png){class="glboxshadow"}
+        ![traffic from](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/4.8-traffic_from_1.png){class="glboxshadow"}
 
         Wählen Sie die Datenverkehrsquelle aus, auf die diese Regel angewendet werden soll. Um VPN Cascading zu aktivieren, wählen Sie **All Clients**, oder wählen Sie **Specified Connection Types** und anschließend **WireGuard/OpenVPN Server**.
 

@@ -8,7 +8,7 @@ Se non riesci a stabilire una connessione cellulare, controlla i seguenti possib
 
     **1.2** Assicurati che **Modem name**, **IMEI** e **SIM ICCID** siano visualizzati nel pannello di amministrazione web.
 
-    ![modem name](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/no_sim.png){class="glboxshadow"}
+    ![modem name](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/no_sim.png){class="glboxshadow"}
 
     Per firmware ver.4.8 e successivi, fai clic su **View More Information** per trovare il SIM ICCID.
 
@@ -16,35 +16,35 @@ Se non riesci a stabilire una connessione cellulare, controlla i seguenti possib
 
     **1.3** Fai clic su **View More** per controllare **Cells Info** e confermare che il segnale sia stabile. Se il segnale è molto debole, assicurati che le antenne siano installate correttamente oppure sposta il router in un'area con un buon segnale e riprova.
 
-    ![cells info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/cells_info.png){class="glboxshadow"}
+    ![cells info](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/cells_info.png){class="glboxshadow"}
 
     **1.4** Fai clic su **View More** per verificare se la banda di frequenza supportata dal dispositivo è compatibile con la tua area geografica.
 
-    ![frequency band](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/frequency_band.png){class="glboxshadow"}
+    ![frequency band](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/frequency_band.png){class="glboxshadow"}
 
 ??? "Controlla le impostazioni software"
 
     **2.1** Accedi al pannello di amministrazione web e assicurati che il programma di connessione cellulare sia stato avviato. Puoi anche fare clic su **Abort** e poi su **Connect**.
 
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/2.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/2.png){class="glboxshadow gl-90-desktop"}
 
     **2.2** Alcuni operatori di rete potrebbero richiedere il **protocollo 3G** per stabilire la connessione. Passa al protocollo 3G e riprova.
 
     Per firmware ver.4.7 e precedenti, vai a **Manual Setup** -> **Protocol**, seleziona **3G**, quindi fai clic su **Apply**.
 
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/3.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/3.png){class="glboxshadow gl-90-desktop"}
 
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/4.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/4.png){class="glboxshadow gl-90-desktop"}
 
     Per firmware ver.4.8 e successivi, vai a **SIM Card Settings** -> **Protocol**, seleziona **3G**, quindi fai clic su **Apply**.
 
-    ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
 
     Il dispositivo si ricollegherà automaticamente. Attendi qualche minuto per verificare se la connessione è riuscita.
 
     **2.3** Alcune schede SIM richiedono un APN specifico. Se la tua SIM non riesce a registrarsi, contatta il tuo operatore per verificare eventuali restrizioni. Se necessario, configura l'APN corretto sul router, quindi fai clic su **Apply**.
 
-    ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
 
     **2.4** Abilita **Band Masking** e riprova. Per firmware ver.4.7 e precedenti, fai riferimento a [questo link](../interface_guide/internet_cellular_v4.7.md/#band-masking). Per firmware ver.4.8 e successivi, fai riferimento a [questo link](../interface_guide/internet_cellular.md/#band-masking).
 
@@ -80,9 +80,9 @@ Se non riesci a stabilire una connessione cellulare, controlla i seguenti possib
 
     **3.6** Se la scheda SIM riesce a registrarsi e a ottenere un indirizzo IP ma non può accedere a Internet (l'upload funziona ma il download no), molto probabilmente la SIM è soggetta a restrizioni da parte del tuo operatore. Contatta l'operatore per rimuovere la restrizione oppure imposta TTL a 65 e riprova come mostrato di seguito.
 
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/5.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/5.png){class="glboxshadow gl-90-desktop"}
 
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/6.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/6.png){class="glboxshadow gl-90-desktop"}
 
     Quando contatti il tuo operatore di rete, fornisci il nome del modem del dispositivo, l'IMEI, il SIM ICCID e il modello del router.
 

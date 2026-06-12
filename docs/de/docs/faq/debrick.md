@@ -132,21 +132,21 @@ Sehen Sie sich dieses Video-Tutorial an oder folgen Sie den nachstehenden Schrit
 
         9. Klicken Sie auf die Registerkarte **Ethernet**.
 
-            ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windwos11_ethernet.png){class="glboxshadow"}
+            ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
         10. Klicken Sie unter dem Abschnitt „IP-Zuweisung" auf die Schaltfläche **Bearbeiten**.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
         11. Wählen Sie die Option **Manuell**.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
         12. Schalten Sie den **IPv4-Schalter** ein.
 
         13. Setzen Sie die statische **IP-Adresse** auf **192.168.1.2**.
 
-            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
+            ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
         14. Geben Sie die **Subnetzmaske** als **255.255.255.0** an.
 
@@ -156,23 +156,23 @@ Sehen Sie sich dieses Video-Tutorial an oder folgen Sie den nachstehenden Schrit
 
         16. Klicken Sie auf das **Apple**-Symbol in der oberen linken Ecke des Bildschirms und wählen Sie **Systemeinstellungen**.
 
-            ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences.png){class="glboxshadow"}
+            ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}
 
         17. Klicken Sie auf **Netzwerk**.
 
-            ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_system_preferences_network.png){class="glboxshadow"}
+            ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences_network.png){class="glboxshadow"}
 
         18. Klicken Sie links auf **Ethernet** und dann auf die Dropdown-Box neben **IPv4 konfigurieren** und wählen Sie **Manuell**. Falls Sie einen USB-Ethernet-Adapter verwenden, wird Ethernet möglicherweise nicht gefunden und es kann unter dem Namen des USB-Ethernet-Adapters angezeigt werden.
 
-            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_1.png){class="glboxshadow"}
+            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_1.png){class="glboxshadow"}
 
         19. Geben Sie die **IPv4-Adresse** mit `192.168.1.2`, **Subnetzmaske** mit `255.255.255.0`, **Router** mit `192.168.1.1` ein und klicken Sie dann auf die Schaltfläche „Anwenden" in der unteren rechten Ecke.
 
-            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/macos_ip_manually_2.png){class="glboxshadow"}
+            ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 
 5. Verwenden Sie Ihren Webbrowser, um **http://192.168.1.1** aufzurufen. Dies ist die U-Boot-Web-Oberfläche.
 
-    ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/tutorials/debrick/uboot_ui.png){class="glboxshadow" width="700"}
+    ![Uboot web ui](https://static.gl-inet.com/docs/router/en/4/faq/debrick/uboot_ui.png){class="glboxshadow" width="700"}
 
     !!! Note
 

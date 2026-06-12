@@ -18,7 +18,7 @@ Cuando la aceleración por hardware está habilitada, las siguientes funciones n
 
 En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **Hardware Acceleration**.
 
-![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
+![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
 
 Active el interruptor para habilitar la función y haga clic en Apply.
 

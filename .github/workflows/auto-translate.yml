@@ -33,6 +33,7 @@ concurrency:
 
 jobs:
   translate:
+    if: ${{ false }} # Temporarily disabled; remove this line to resume auto-translate.
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:

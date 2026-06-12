@@ -2,7 +2,7 @@
 
 Ce guide fournit des instructions pas à pas pour configurer et activer la carte physique eSIM achetée dans la boutique en ligne GL.iNet. La carte physique eSIM est compatible avec la plupart des appareils Android et offre une connectivité Internet simple et des performances fluides.
 
-![eSIM Physical Card officially endorsed by GL.iNet](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_simpoyo_esim_physical_card_with_android_devices/simpoyo-esim-physical-card.png){class="glboxshadow"}
+![eSIM Physical Card officially endorsed by GL.iNet](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/simpoyo-esim-physical-card.png){class="glboxshadow"}
 
 ## Caractéristiques
 

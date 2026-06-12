@@ -2,7 +2,7 @@
 
 ## 製品概要
 
-Spitz Plus (GL-X2000) は、特に遠隔地域やロードトリップで高速で信頼性の高い接続を提供するように設計された dual-SIM 4G LTE Wi-Fi 6 cellular gatewayです。3-Carrier Aggregation機能を搭載し、ルーターは3つのキャリアバンドで同時にデータをストリーミングし、3倍の利用可能帯域幅を提供して輻輳を回避します。4つのインターネットアクセス方法（Cellular（SIMカード）、Ethernet、Repeater、Tethering）をサポートしています。Multi-WAN（フェイルオーバーとロードバランシング）、VPN（OpenVPNとWireguard）、ペアレンタルコントロール、AdGuard Home、ポート転送、Tailscaleなどをサポートします。
+Spitz Plus (GL-X2000) は、特に遠隔地域やロードトリップで高速で信頼性の高い接続を提供するように設計された dual-SIM 4G LTE Wi-Fi 6 cellular gatewayです。3-Carrier Aggregation機能を搭載し、ルーターは3つのキャリアバンドで同時にデータをストリーミングし、3倍の利用可能帯域幅を提供して輻輳を回避します。4つのインターネットアクセス方法（Cellular（SIMカード）、Ethernet、Repeater、Tethering）をサポートしています。Multi-WAN（フェイルオーバーとロードバランシング）、VPN（OpenVPNとWireGuard）、ペアレンタルコントロール、AdGuard Home、ポート転送、Tailscaleなどをサポートします。
 
 ![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 

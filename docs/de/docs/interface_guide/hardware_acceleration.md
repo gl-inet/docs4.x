@@ -44,7 +44,7 @@ Wenn die Hardware-Beschleunigung aktiviert ist, funktionieren die folgenden Funk
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **Hardware Acceleration**.
 
-![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
+![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
 
 Aktivieren Sie den Schalter und klicken Sie auf Apply.
 

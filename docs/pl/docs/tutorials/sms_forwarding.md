@@ -45,7 +45,7 @@ Po lewej stronie panelu administracyjnego przejdź do sekcji **INTERNET** -> **C
 
 Kliknij ikonę koperty w prawym górnym rogu, aby wejść na stronę SMS, gdzie znajdziesz ustawienia przekazywania SMS.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow"}
+![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Przekazywanie przez e-mail
 

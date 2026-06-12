@@ -44,7 +44,7 @@ Po włączeniu akceleracji sprzętowej następujące funkcje nie będą działa�
 
 Po lewej stronie webowego panelu administracyjnego przejdź do **NETWORK** -> **Hardware Acceleration**.
 
-![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
+![Hardware Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/hardware_acceleration/hardware_acceleration.png){class="glboxshadow"}
 
 Włącz przełącznik i kliknij **Apply**.
 

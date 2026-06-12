@@ -58,11 +58,11 @@ Click the gear icon in the upper right corner to enter [Ethernet Port](ethernet_
 
 The **WAN** page displays the port role (i.e., using as WAN or LAN), MAC mode & MAC address, and the negotiated network port rate. 
 
-![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
+![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
 
 The **LAN** page displays the port role and negotiated network port rate.
 
-![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/lan.png){class="glboxshadow"}
+![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
 Please refer to this [link](ethernet_port.md) for details. 
 

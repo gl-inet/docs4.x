@@ -58,11 +58,11 @@ Klicken Sie oben rechts auf das Zahnradsymbol, um zu [Ethernet Port](ethernet_po
 
 Auf der Seite **WAN** werden die Portrolle (also WAN oder LAN), MAC-Modus und MAC-Adresse sowie die ausgehandelte Geschwindigkeit des Netzwerkports angezeigt. 
 
-![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
+![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
 
 Auf der Seite **LAN** werden die Portrolle und die ausgehandelte Geschwindigkeit des Netzwerkports angezeigt.
 
-![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/lan.png){class="glboxshadow"}
+![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
 Weitere Details finden Sie unter diesem [Link](ethernet_port.md). 
 

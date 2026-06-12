@@ -18,7 +18,7 @@ Fatta eccezione per modelli specifici, la maggior parte dei router wireless GL.i
 
 I modelli con funzionalita' Wi-Fi di solito supportano quattro modalita' di rete: Router, Access Point, Extender e WDS. Tieni presente che alcuni modelli non supportano la modalita' WDS.
 
-![network mode](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
+![network mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page.png){class="glboxshadow"}
 
 - **Router**: e' la modalita' operativa predefinita per la maggior parte dei router domestici e per piccoli uffici, progettata per creare una rete locale privata e fungere da gateway dedicato tra Internet pubblico e i dispositivi connessi.
 
@@ -52,7 +52,7 @@ I modelli con funzionalita' Wi-Fi di solito supportano quattro modalita' di rete
 
 GL-MT2500/GL-MT2500A non supporta le modalita' Access Point, Extender o WDS, poiche' non dispone della funzionalita' Wi-Fi. Supporta pero' la modalita' Router e la modalita' Bridge.
 
-![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
+![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
 
 - **Router**: e' la modalita' operativa predefinita per la maggior parte dei router domestici e per piccoli uffici, progettata per creare una rete locale privata (LAN) e fungere da gateway dedicato tra Internet pubblico e i dispositivi connessi.
 

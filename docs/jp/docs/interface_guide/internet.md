@@ -6,7 +6,7 @@ Web管理パネルにログインし、**INTERNET** に移動します。
 
 ## ステータス図
 
-![status diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/status_diagram.png){class="glboxshadow"}
+![status diagram](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
 **図の左側**には、現在のインターネットの状態が表示されます。
 
@@ -19,7 +19,7 @@ Web管理パネルにログインし、**INTERNET** に移動します。
 - 緑は有効、灰色は無効を示します。VPN と Tor では、白は接続中を示します。
 - 有効な Wi‑Fi アイコンにカーソルを合わせると、その Wi‑Fi の QR コードが表示されます。スマートフォンやタブレットで読み取ることで、対応する Wi‑Fi ネットワークにすばやく接続できます。
 
-    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/wifi_qrcode.png){class="glboxshadow"}
+    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/wifi_qrcode.png){class="glboxshadow"}
 
 **図の右側**には、ルーターに接続されているデバイス（[クライアント](clients.md)）が表示されます。
 
@@ -41,11 +41,11 @@ Web管理パネルにログインし、**INTERNET** に移動します。
 
 **INTERNET** ページで、右上の本のアイコンをクリックします。
 
-![setup wizard 1](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/setup_wizard1.png){class="glboxshadow"}
+![setup wizard 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/setup_wizard1.png){class="glboxshadow"}
 
 セットアップウィザードに従って、ルーターがインターネットに接続できるよう設定します。
 
-![setup wizard 2](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/setup_wizard2.png){class="glboxshadow"}
+![setup wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/setup_wizard2.png){class="glboxshadow"}
 
 [GL.iNet app](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"} を使用する場合は、画面の案内に従ってインターネット接続を設定してください。
 

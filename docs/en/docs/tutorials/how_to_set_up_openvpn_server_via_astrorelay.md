@@ -6,7 +6,7 @@ This tutorial introduces the steps to set up an OpenVPN server via AstroRelay on
 
 1. Follow [this guide](../interface_guide/openvpn_server.md) to set up an OpenVPN server on your GL.iNet router, even if you don't have a public IP address. 
 
-    ![set up openvpnd server](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/start_ovpn_server4x.jpg){class="glboxshadow"}
+    ![set up openvpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/start_ovpn_server4x.jpg){class="glboxshadow"}
 
     Then export the OpenVPN configuration. Here is an example config file.
 
@@ -21,7 +21,7 @@ This tutorial introduces the steps to set up an OpenVPN server via AstroRelay on
         3. Toggle the switch to on for **Remote Access LAN**.
         4. Click **Apply**.
 
-            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/toggle-enable-remote-access-lan.png){class="glboxshadow"}
+            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/toggle-enable-remote-access-lan.png){class="glboxshadow"}
 
     ??? "For firmware v4.8 and later"
 
@@ -30,7 +30,7 @@ This tutorial introduces the steps to set up an OpenVPN server via AstroRelay on
         3. Toggle the switch to on for **Allow Remote Access the LAN Subnet**.
         4. Click **Apply**.
 
-            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/enable-remote-access-lan-4.8.png){class="glboxshadow"}
+            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/enable-remote-access-lan-4.8.png){class="glboxshadow"}
 
 3. Sign up an AstroRelay account and follow this [tutorial](https://www.astrorelay.com/tutorial.html){target="_blank"} to complete first-time setup.
 
@@ -52,7 +52,7 @@ This tutorial introduces the steps to set up an OpenVPN server via AstroRelay on
 
     ![replace link](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/astroovpnconfig.jpg){class="glboxshadow"}
 
-5. Install the [OpenVPN Connect app](https://openvpn.net/client/){target="_blank"} on the device you want to use as an OpenVPN client. Then upload the modified configuration file to the app and start the conneciton. Alternatively, upload it to another GL.iNet router so as to set it up as an OpenVPN client.
+5. Install the [OpenVPN Connect app](https://openvpn.net/client/){target="_blank"} on the device you want to use as an OpenVPN client. Then upload the modified configuration file to the app and start the connection. Alternatively, upload it to another GL.iNet router so as to set it up as an OpenVPN client.
 
     Once connected, you will be able to access your home or office local services remotely.
 

@@ -6,7 +6,7 @@ On the left side of the web Admin Panel, go to **NETWORK** -> **IPv6**.
 
 This page allows you to enable and configure IPv6 on your router.
 
-![ipv6](https://static.gl-inet.com/docs/router/en/4/tutorials/ipv6/ipv6.png){class="glboxshadow"}
+![ipv6](https://static.gl-inet.com/docs/router/en/4/interface_guide/ipv6/ipv6.png){class="glboxshadow"}
 
 When IPv6 is enabled, WAN interfaces such as Ethernet will get their IPv6 addresses via DHCPv6. You can also modify the IPv6 address manually in the Ethernet settings page.
 
@@ -14,7 +14,7 @@ When IPv6 is enabled, WAN interfaces such as Ethernet will get their IPv6 addres
 
 Toggle on **Enable IPv6**, select the mode for your main network and DNS acquisition method, then click **Apply**.
 
-![ipv6 enabled](https://static.gl-inet.com/docs/router/en/4/tutorials/ipv6/ipv6_enabled.png){class="glboxshadow"}
+![ipv6 enabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/ipv6/ipv6_enabled.png){class="glboxshadow"}
 
 **Mode**: Four modes are available: **Native**, **Passthrough**, **NAT6** and **Static IPv6**.
 

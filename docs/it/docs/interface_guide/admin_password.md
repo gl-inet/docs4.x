@@ -8,7 +8,7 @@ La pagina Admin Password consente di impostare o modificare la password dell'int
 
 Sul lato sinistro del pannello di amministrazione web, vai a **SYSTEM** > **Admin Password**.
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
+![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_password/admin_password.png){class="glboxshadow"}
 
 Modifica la password di accesso del pannello di amministrazione web del router. Per apportare modifiche è richiesta la password attuale.
 

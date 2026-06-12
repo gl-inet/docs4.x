@@ -8,7 +8,7 @@ The Admin Password page allows you to set or change the password for the router'
 
 On the left side of the web Admin Panel, go to **SYSTEM** > **Admin Password**.
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
+![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_password/admin_password.png){class="glboxshadow"}
 
 Change the login password for your router's web Admin Panel. Your current password is required to make changes.
 

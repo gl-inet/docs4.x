@@ -14,7 +14,7 @@ Puede evitar intentos de escaneo e intrusión en el puerto predeterminado, así 
 
 **Nota**: Si el número de puerto se ha modificado en el firmware, deberá introducir el puerto correcto para acceder al panel de administración. Si olvidó el número de puerto, restablezca el router al puerto predeterminado.
 
-![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/access_control_4.8.png){class="glboxshadow"}
+![security_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/access_control_4.8.png){class="glboxshadow"}
 
 ### Panel de administración
 
@@ -46,7 +46,7 @@ Puede evitar intentos de escaneo e intrusión en el puerto predeterminado, así 
 
 Si asigna un número de puerto que entra en conflicto con un puerto reservado, o con uno reservado para servicios específicos por los navegadores o las convenciones de red, aparecerá un aviso indicando "This port is forbidden by the browser".
 
-![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/http_https_port_forbidden.png){class="glboxshadow"}
+![http_https_port_forbidden](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/http_https_port_forbidden.png){class="glboxshadow"}
 
 ??? "Lista de números de puerto prohibidos por el navegador"
 
@@ -137,7 +137,7 @@ Si asigna un número de puerto que entra en conflicto con un puerto reservado, o
 
 Después de habilitar el acceso remoto, se pueden definir ubicaciones específicas desde las que se permitirá el acceso. Por ejemplo, puede habilitar el acceso remoto a dispositivos del hogar solo desde la oficina, sacrificando comodidad a cambio de mayor seguridad.
 
-![security_remote_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/security_remote_access_control.png){class="glboxshadow"}
+![security_remote_access_control](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/security_remote_access_control.png){class="glboxshadow"}
 
 - **Allow Ping from WAN**: Cuando hay un problema de red, permitir Ping desde el puerto WAN puede ayudar a los usuarios o a los administradores de red a comprobar si el router está conectado correctamente, así como a determinar la latencia y la pérdida de paquetes.
 
@@ -147,9 +147,9 @@ Después de habilitar el acceso remoto, se pueden definir ubicaciones específic
 
 - **Allow Remote Access from Specific IPs**: Esta función se utiliza junto con **Allow Ping from WAN**, **HTTPS Remote Access** o **SSH Remote Access**. Puede añadir varias direcciones IP específicas para gestionar routers de forma remota desde dispositivos con esas direcciones IP.
 
-![add_ip_address_1](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_1.png){class="glboxshadow"}
+![add_ip_address_1](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/add_ip_address_1.png){class="glboxshadow"}
 
-![add_ip_address_2](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_ip_address_2.png){class="glboxshadow"}
+![add_ip_address_2](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/add_ip_address_2.png){class="glboxshadow"}
 
 ---
 
@@ -159,9 +159,9 @@ Los servicios del router, como web y FTP, requieren que sus respectivos puertos 
 
 Para abrir un puerto, haga clic en **Add**.
 
-![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/open_ports_on_router.png){class="glboxshadow"}
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/open_ports_on_router.png){class="glboxshadow"}
 
-![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/security/add_new_open_port.png){class="glboxshadow"}
+![open Ports on router](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_access/add_new_open_port.png){class="glboxshadow"}
 
 - **Protocol:** Seleccione un protocolo entre `TCP/UDP`, `TCP` y `UDP`.
 

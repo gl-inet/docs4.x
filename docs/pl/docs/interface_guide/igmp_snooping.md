@@ -8,7 +8,7 @@ IGMP Snooping nasłuchuje pakietów protokołu IGMP, wyodrębnia odpowiednie inf
 
 **Uwaga**: IGMPv3 jest zgodny z v1 i v2. Domyślnie używaj v3 i zmień wersję tylko wtedy, gdy wystąpi problem.
 
-![IGMP Snooping](https://static.gl-inet.com/docs/router/en/4/tutorials/igmp_snooping/igmp_snooping.png){class="glboxshadow"}
+![IGMP Snooping](https://static.gl-inet.com/docs/router/en/4/interface_guide/igmp_snooping/igmp_snooping.png){class="glboxshadow"}
 
 ---
 

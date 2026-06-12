@@ -36,7 +36,7 @@ Ta operacja uruchomi ponownie interfejs sieciowy i przywróci domyślne ustawien
 
     **Uwaga:** Wszystkie bieżące ustawienia i dane zostaną utracone. Proces potrwa około 2 minut. NIE wyłączaj routera w trakcie tego procesu.
 
-    ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+    ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/faq/repair_network_or_reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
 
 **W modelach z ekranem dotykowym** reset firmware można wykonać na trzy sposoby: za pomocą ekranu dotykowego, przycisku resetowania lub panelu administracyjnego WWW.
 

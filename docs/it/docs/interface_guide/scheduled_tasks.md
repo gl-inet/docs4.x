@@ -12,11 +12,11 @@ Questa funzione consente di impostare un orario di accensione e spegnimento per 
 
 Quando e' abilitata, imposta gli orari di accensione e spegnimento, seleziona i giorni della settimana in cui devono avere effetto e poi fai clic su Apply.
 
-![LED display schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/led_display_schedule.png){class="glboxshadow gl-90-desktop"}
+![LED display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/led_display_schedule.png){class="glboxshadow gl-90-desktop"}
 
 Per i modelli con touchscreen, ad esempio GL-BE3600 Slate 7, la pianificazione del display LCD consente di impostare un orario di accensione e spegnimento per il touchscreen.
 
-![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
+![LCD display schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/lcd_display_schedule.png){class="glboxshadow"}
 
 ## Pianificazione del riavvio
 
@@ -24,7 +24,7 @@ Questa funzione consente di impostare una pianificazione per riavviare automatic
 
 Quando e' abilitata, imposta gli orari di riavvio, seleziona i giorni della settimana in cui devono avere effetto e poi fai clic su Apply.
 
-![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
+![Schedule Reboot](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/schedule_reboot.png){class="glboxshadow gl-90-desktop"}
 
 ## Pianificazione Wi-Fi
 
@@ -51,7 +51,7 @@ Puoi impostare una pianificazione di accensione e spegnimento sia per MLO Main W
 
 Abilita la pianificazione Main o Guest Wi-Fi, imposta gli orari di accensione e spegnimento, seleziona i giorni della settimana in cui devono avere effetto e poi fai clic su Apply.
 
-![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
+![MLO Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/mlo_turn_on_off.png){class="glboxshadow"}
 
 ### Pianificazione Wi-Fi 6 GHz
 
@@ -66,13 +66,13 @@ Quando la modalita' di pianificazione Wi-Fi e' **Turn On/Off**, puoi impostare u
 
 Abilita la pianificazione Main o Guest Wi-Fi, imposta gli orari di accensione e spegnimento, seleziona i giorni della settimana in cui devono avere effetto e poi fai clic su Apply.
 
-![6GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/6g_turn_on_off.png){class="glboxshadow"}
+![6GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/6g_turn_on_off.png){class="glboxshadow"}
 
 Quando la modalita' di pianificazione Wi-Fi e' **Switch TX Power**, puoi impostare una pianificazione di commutazione della potenza TX per il 6 GHz Main Wi-Fi. Tieni presente che il 6 GHz Guest Wi-Fi non e' supportato in questa modalita' di pianificazione.
 
 Abilita la pianificazione Main Wi-Fi, imposta due azioni temporizzate per cambiare la potenza TX, seleziona i giorni della settimana in cui devono avere effetto e poi fai clic su Apply.
 
-![6GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/6g_switch_tx_power.png){class="glboxshadow"}
+![6GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/6g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: imposta la potenza TX a un determinato livello, ad esempio Low, a un orario specifico, ad esempio 22:00.
 - **Restore**: ripristina la potenza TX a un altro livello, ad esempio Max, a un altro orario, ad esempio 07:00.
@@ -84,13 +84,13 @@ Quando la modalita' di pianificazione Wi-Fi e' **Turn On/Off**, puoi impostare u
 
 Abilita la pianificazione Main o Guest Wi-Fi, imposta gli orari di accensione e spegnimento, seleziona i giorni della settimana in cui devono avere effetto e poi fai clic su Apply.
 
-![5GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/5g_turn_on_off.png){class="glboxshadow"}
+![5GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/5g_turn_on_off.png){class="glboxshadow"}
 
 Quando la modalita' di pianificazione Wi-Fi e' **Switch TX Power**, puoi impostare una pianificazione di commutazione della potenza TX per il 5 GHz Main Wi-Fi. Tieni presente che il 5 GHz Guest Wi-Fi non e' supportato in questa modalita' di pianificazione.
 
 Abilita la pianificazione Main Wi-Fi, imposta due azioni temporizzate per cambiare la potenza TX, seleziona i giorni della settimana in cui devono avere effetto e poi fai clic su Apply.
 
-![5GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/5g_switch_tx_power.png){class="glboxshadow"}
+![5GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/5g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: imposta la potenza TX a un determinato livello, ad esempio Low, a un orario specifico, ad esempio 22:00.
 - **Restore**: ripristina la potenza TX a un altro livello, ad esempio Max, a un altro orario, ad esempio 07:00.
@@ -102,13 +102,13 @@ Quando la modalita' di pianificazione Wi-Fi e' **Turn On/Off**, puoi impostare u
 
 Abilita la pianificazione Main o Guest Wi-Fi, imposta gli orari di accensione e spegnimento, seleziona i giorni della settimana in cui devono avere effetto e poi fai clic su Apply.
 
-![2.4GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/2.4g_turn_on_off.png){class="glboxshadow"}
+![2.4GHz Wi-Fi turn on/off](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/2.4g_turn_on_off.png){class="glboxshadow"}
 
 Quando la modalita' di pianificazione Wi-Fi e' **Switch TX Power**, puoi impostare una pianificazione di commutazione della potenza TX per il 2.4 GHz Main Wi-Fi. Tieni presente che il 2.4 GHz Guest Wi-Fi non e' supportato in questa modalita' di pianificazione.
 
 Abilita la pianificazione Main Wi-Fi, imposta due azioni temporizzate per cambiare la potenza TX, seleziona i giorni della settimana in cui devono avere effetto e poi fai clic su Apply.
 
-![2.4GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/tutorials/scheduled_tasks/2.4g_switch_tx_power.png){class="glboxshadow"}
+![2.4GHz Wi-Fi switch TX power](https://static.gl-inet.com/docs/router/en/4/interface_guide/scheduled_tasks/2.4g_switch_tx_power.png){class="glboxshadow"}
 
 - **Switch**: imposta la potenza TX a un determinato livello, ad esempio Low, a un orario specifico, ad esempio 22:00.
 - **Restore**: ripristina la potenza TX a un altro livello, ad esempio Max, a un altro orario, ad esempio 07:00.

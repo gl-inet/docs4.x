@@ -14,17 +14,17 @@ You can modify your GL.iNet router's Wi-Fi country code in the LuCI interface as
 
     Go to **Network** -> **Wireless**, locate the 5G Wi-Fi and click **Edit** on the right.
 
-    ![5gwifi](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gwifi.jpg){class="glboxshadow"}
+    ![5gwifi](https://static.gl-inet.com/docs/router/en/4/faq/cannot_scan_android_5g_hotspot/5gwifi.jpg){class="glboxshadow"}
 
 3. Select US as the country code.
 
     On the Wireless page, click the **Advanced Settings** tab under **Device Configuration**. Select US (United States) as the country code for your 5GHz Wi-Fi. 
 
-    ![5gus](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/5gus.jpg){class="glboxshadow"}
+    ![5gus](https://static.gl-inet.com/docs/router/en/4/faq/cannot_scan_android_5g_hotspot/5gus.jpg){class="glboxshadow"}
 
 4. Click **Save & Apply** before logging out.
 
-    ![saveapply](https://static.gl-inet.com/docs/router/en/4/tutorials/5ghotspot/saveapply.jpg){class="glboxshadow"}
+    ![saveapply](https://static.gl-inet.com/docs/router/en/4/faq/cannot_scan_android_5g_hotspot/saveapply.jpg){class="glboxshadow"}
 
     Then try scanning your Android phone 5G hotspot again.
 

@@ -8,7 +8,7 @@ La página Admin Password le permite establecer o cambiar la contraseña de la i
 
 En el lado izquierdo del panel de administración web, vaya a **SYSTEM** > **Admin Password**.
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
+![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_password/admin_password.png){class="glboxshadow"}
 
 Cambie la contraseña de inicio de sesión del panel de administración web de su router. Se requiere la contraseña actual para realizar cambios.
 

@@ -108,7 +108,7 @@ Haga clic en las pestañas siguientes para consultar la configuración de la Wi-
 
 - Al cambiar **Channel** de un canal no DFS a uno DFS, aparecerá la siguiente advertencia.
 
-  ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
+  ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
 - Cuando **Bandwidth** se configura en **160 MHz** (solo disponible en algunos modelos), la Wi-Fi siempre utilizará un canal DFS, aunque elija un canal no DFS o **Auto** en la configuración de **Channel**.
 

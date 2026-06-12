@@ -58,11 +58,11 @@ Kliknij ikonę koła zębatego w prawym górnym rogu, aby przejść do [Ethernet
 
 Na stronie **WAN** są wyświetlane funkcja portu (czyli użycie jako WAN lub LAN), tryb MAC i adres MAC oraz wynegocjowana prędkość portu sieciowego. 
 
-![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
+![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
 
 Na stronie **LAN** są wyświetlane funkcja portu oraz wynegocjowana prędkość portu sieciowego.
 
-![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/lan.png){class="glboxshadow"}
+![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
 Szczegółowe informacje znajdziesz pod tym [linkiem](ethernet_port.md). 
 

@@ -151,8 +151,9 @@ Si la configuración que ha establecido no surte efecto, compruebe las siguiente
 
    Los navegadores y los sistemas operativos mantienen cachés DNS, por lo que los cambios de configuración pueden tardar en aplicarse. Borre la caché DNS para aplicar los cambios de inmediato.
 
-   - [Borrar la caché DNS en Chrome para escritorio](https://support.google.com/accounts/answer/32050){target="_blank"}
-   - [Borrar la caché DNS en Edge para escritorio](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
+      * [Borrar la caché DNS en Chrome para escritorio](https://support.google.com/accounts/answer/32050){target="_blank"}
+
+      * [Borrar la caché DNS en Edge para escritorio](https://www.microsoft.com/en-us/edge/learning-center/how-to-manage-and-clear-your-cache-and-cookies?form=MA13I2){target="_blank"}
 
 2. La programación del perfil aún no ha comenzado.
 

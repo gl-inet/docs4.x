@@ -205,7 +205,7 @@ Click the gear icon on the far right of the list header, and you can customize t
 
 ### Device details
 
-On the [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices**, click a device name, and you will be re-directed to the device details page, where it displays the router's basic info, statistical data, network settings, clients list, etc. 
+On the [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Bound Devices**, click a device name, and you will be redirected to the device details page, where it displays the router's basic info, statistical data, network settings, clients list, etc. 
 
 ![Device detail info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/device_details.png){class="glboxshadow"}
 
@@ -269,7 +269,7 @@ Here you can check and modify the router's network settings, including wireless,
 
 You can set up an email alarm when the device status changes (online/offline) or new clients connect.
 
-On the [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Notifications**, click the **Add Rule** button in the upeer right corner.
+On the [GoodCloud](https://www.goodcloud.xyz){target="_blank"} -> **Notifications**, click the **Add Rule** button in the upper right corner.
 
 ![notifications 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/notifications1.png){class="glboxshadow"}
 

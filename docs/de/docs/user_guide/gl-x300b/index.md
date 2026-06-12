@@ -57,7 +57,7 @@ Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei h
         - Befestigen Sie die beiden identischen Wi-Fi-Antennen an den **2.4G**-Ports.
         - Befestigen Sie die einzelne 4G-Antenne am **4G**-Port.
 
-        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
 
     2. Richten Sie die Antennen für optimale Leistung nach oben aus.
 
@@ -77,7 +77,7 @@ Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei h
         - Befestigen Sie die einzelne 4G-Antenne am **4G**-Port.
         - Befestigen Sie die einzelne BLE-Antenne am **BLE**-Port.
 
-        ![x300b ble antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b ble antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
 
     2. Richten Sie die Antennen für optimale Leistung nach oben aus.
 
@@ -97,11 +97,11 @@ Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei h
         - Befestigen Sie die beiden identischen 4G-Antennen an den **4G**-Ports.
         - Befestigen Sie die einzelne GPS-Antenne am **GPS**-Port.
 
-        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
 
     2. Positionieren Sie die Antennen korrekt und vermeiden Sie ein Verheddern, um optimale Leistung sicherzustellen.
 
-        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps.jpg){class="glboxshadow"}
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-gps.jpg){class="glboxshadow"}
 
 ## Erste Einrichtung
 

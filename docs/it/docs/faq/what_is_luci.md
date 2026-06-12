@@ -6,17 +6,17 @@ LuCI è l'interfaccia utente web di OpenWrt, dalla quale puoi eseguire alcune im
 
 Per accedere a LuCI, vai su SYSTEM dal lato sinistro del pannello di amministrazione web -> Advanced Settings.
 
-![advanced settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/go_to_luci.png){class="glboxshadow"}
+![advanced settings](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/go_to_luci.png){class="glboxshadow"}
 
 Fai clic sul pulsante **Go To LuCI** e verrai reindirizzato alla pagina di accesso di LuCI.
 
-![luci login](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_login.jpg){class="glboxshadow"}
+![luci login](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/luci_login.jpg){class="glboxshadow"}
 
 Inserisci la password di accesso, che è la stessa password del pannello di amministrazione web.
 
 Verrai autenticato nella pagina LuCI. Questo è un esempio della pagina LuCI per GL-AX1800 (Flint).
 
-![luci logged in](https://static.gl-inet.com/docs/router/en/4/interface_guide/advanced_settings/luci_logged_in.jpg){class="glboxshadow"}
+![luci logged in](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/luci_logged_in.jpg){class="glboxshadow"}
 
 ---
 

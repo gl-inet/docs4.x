@@ -53,11 +53,11 @@ Bei Firmware-Version 4.8.4 und höher gehen Sie zu **APPLICATIONS** -> **Tor**.
 
 Klicken Sie auf den Umschalter, um Tor zu aktivieren, aktivieren Sie bei Bedarf **Custom Exit Nodes**, und klicken Sie dann auf **Apply**.
 
-![enable tor](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/enable_tor.png){class="glboxshadow"}
+![enable tor](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/enable_tor.png){class="glboxshadow"}
 
 Der Verbindungsaufbau startet anschließend. Wenn Ihr Netzwerk die Anforderungen erfüllt, wird „connected“ angezeigt.
 
-![tor connected](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/connected.png){class="glboxshadow" width="672"}
+![tor connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/connected.png){class="glboxshadow" width="672"}
 
 ## Manuelle Installation
 
@@ -67,9 +67,9 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zu **APPLICATIONS** -> **Plu
 
 Suchen Sie nach **gl-sdk4-ui-torview** und installieren Sie es.
 
-![torview](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/torview.jpg){class="glboxshadow"}
+![torview](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/torview.jpg){class="glboxshadow"}
 
-![torpage](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/torpage.jpg){class="glboxshadow"}
+![torpage](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/torpage.jpg){class="glboxshadow"}
 
 ---
 

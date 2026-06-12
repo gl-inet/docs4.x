@@ -8,7 +8,7 @@ Auf der Seite „Admin Password“ können Sie das Passwort für die Administrat
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** > **Admin Password**.
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
+![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_password/admin_password.png){class="glboxshadow"}
 
 Ändern Sie das Anmeldepasswort für das Web-Admin-Panel Ihres Routers. Für Änderungen ist Ihr aktuelles Passwort erforderlich.
 

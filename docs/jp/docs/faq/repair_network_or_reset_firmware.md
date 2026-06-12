@@ -36,7 +36,7 @@
 
     **注意：**現にのすべての設定とデータが失われます。プロセスには約2分かかります。このプロセス中はルーターの電源を絶対切らないでください。
 
-    ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+    ![glinet reset firmware](https://static.gl-inet.com/docs/router/en/4/faq/repair_network_or_reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
 
 **タッチスクリーン搭載モデル**では、ファームウェアはタッチスクリーン、リセットボタン、Web 管理画面の 3 つの方法でリセットできます。
 

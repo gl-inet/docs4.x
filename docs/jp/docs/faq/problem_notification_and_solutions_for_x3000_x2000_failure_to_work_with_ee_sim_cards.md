@@ -32,15 +32,15 @@
 
         1. Web管理パネルで、INTERNET -> Cellularセクションに移動し、右上の3つのドットアイコンをクリックして**Modem AT Command**を選択します。
         
-            ![modem AT command](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_0.jpg){class="glboxshadow"}
+            ![modem AT command](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/at_command_0.jpg){class="glboxshadow"}
         
             古いファームウェアの場合は、右上のツールボタンをクリックしてモデム管理ページに入ります。
 
-            ![modem management](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/modem_management_button.png){class="glboxshadow"}
+            ![modem management](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/modem_management_button.png){class="glboxshadow"}
         
         2. 以下に示すように、ATコマンドを見つけます。
 
-            ![AT command](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_1.png){class="glboxshadow"}
+            ![AT command](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/at_command_1.png){class="glboxshadow"}
 
 さらに問題が発生した場合は、[support@gl-inet.com](mailto:support@gl-inet.com)までサポートチームにご連絡ください。
 

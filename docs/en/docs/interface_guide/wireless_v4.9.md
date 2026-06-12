@@ -48,9 +48,9 @@ Wi-Fi 7 clients are recommended to connect to MLO Wi-Fi, which greatly improves 
 
 Click **Add** to set up an MLO Wi-Fi network, then click **Apply**. Note that the available Wi-Fi bands vary by model.
 
-![mlo1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/mlo1.png){class="glboxshadow"}
+![mlo1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo1.png){class="glboxshadow"}
 
-![mlo2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/mlo2.png){class="glboxshadow"}
+![mlo2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo2.png){class="glboxshadow"}
 
 - Wi-Fi Band: Select at least two radio bands.
 - Wi-Fi Security: If the 6 GHz band is selected, WPA3-SAE is the only available option and recommended. It works best with most MLO-supported devices.
@@ -58,27 +58,27 @@ Click **Add** to set up an MLO Wi-Fi network, then click **Apply**. Note that th
 
 Once enabled, the page appears as shown below.
 
-![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/mlo3.png){class="glboxshadow"}
+![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
 
 ## Main Network
 
 The Main Network is your primary Wi-Fi network, supporting simultaneous broadcasts across different radio bands, all enabled by default. You can configure separate settings for each band, such as the Wi-Fi SSID, security mode, password, randomized BSSID, TX power, bandwidth, and channel.
 
-![main](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/main.png){class="glboxshadow"}
+![main](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main.png){class="glboxshadow"}
 
 Click the gear icon on the right to view or modify Wi-Fi settings for each band. Note that the available Wi-Fi bands vary by model.
 
 - 6 GHz
 
-    ![main 6g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/main_6g.png){class="glboxshadow"}
+    ![main 6g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_6g.png){class="glboxshadow"}
 
 - 5 GHz
 
-    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/main_5g.png){class="glboxshadow"}
+    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_5g.png){class="glboxshadow"}
 
 - 2.4 GHz
 
-    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/main_2.4g.png){class="glboxshadow"}
+    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
 ## Guest Network
 
@@ -86,13 +86,13 @@ The Guest Network is a dedicated Wi-Fi network for visitors, with all bands disa
 
 Click **Add** to set up a Guest Wi-Fi network, then click **Apply**. Note that the available Wi-Fi bands vary by model.
 
-![guest1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/guest1.png){class="glboxshadow"}
+![guest1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest1.png){class="glboxshadow"}
 
-![guest2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/guest2.png){class="glboxshadow"}
+![guest2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest2.png){class="glboxshadow"}
 
 Once enabled, the page appears as shown below.
 
-![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/guest3.png){class="glboxshadow"}
+![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
 
 ## IoT Network
 
@@ -100,13 +100,13 @@ The IoT Network is a dedicated Wi-Fi network for smart devices, with all bands d
 
 Click **Add** to set up an IoT Wi-Fi network, then click **Apply**. Note that this network does not include the 6 GHz band, and the available Wi-Fi bands vary by model.
 
-![iot1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/iot1.png){class="glboxshadow"}
+![iot1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot1.png){class="glboxshadow"}
 
-![iot2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/iot2.png){class="glboxshadow"}
+![iot2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot2.png){class="glboxshadow"}
 
 Once enabled, the page appears as shown below.
 
-![iot3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/4.9/iot3.png){class="glboxshadow"}
+![iot3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot3.png){class="glboxshadow"}
 
 ---
 

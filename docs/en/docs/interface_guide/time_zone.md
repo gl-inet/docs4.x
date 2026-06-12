@@ -6,11 +6,11 @@ The router logs activity timestamps according to its system time, and some funct
 
 The time zone is not synchronized automatically. Click the **Sync** button to update it.
 
-![time zone no sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_no_sync.png){class="glboxshadow"}
+![time zone no sync](https://static.gl-inet.com/docs/router/en/4/interface_guide/time_zone/time_zone_no_sync.png){class="glboxshadow"}
 
 After synchronization, the page will appear as shown below.
 
-![time zone sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_sync.png){class="glboxshadow"}
+![time zone sync](https://static.gl-inet.com/docs/router/en/4/interface_guide/time_zone/time_zone_sync.png){class="glboxshadow"}
 
 ---
 

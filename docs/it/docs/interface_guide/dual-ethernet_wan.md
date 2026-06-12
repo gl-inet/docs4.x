@@ -42,11 +42,11 @@ La funzione Dual-Ethernet WAN consente di trasformare la LAN1 predefinita in una
 
 2. Vai su **NETWORK** -> **Port Management** -> scheda **LAN**, cambia la funzione della porta in WAN e fai clic su **Apply**.
 
-    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/tutorials/dual-ethernet_wan/dual_ethernet_1.png){class="glboxshadow"}
+    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/dual-ethernet_wan/dual_ethernet_1.png){class="glboxshadow"}
 
 3. Nella finestra pop-up, fai clic su **Apply**.
 
-    ![dual ethernet wan 2](https://static.gl-inet.com/docs/router/en/4/tutorials/dual-ethernet_wan/dual_ethernet_2.png){class="glboxshadow"}
+    ![dual ethernet wan 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dual-ethernet_wan/dual_ethernet_2.png){class="glboxshadow"}
 
 4. Dopo aver abilitato Dual-Ethernet WAN, puoi configurare qui le funzioni multi-wan [qui](../interface_guide/multi-wan.md).
 

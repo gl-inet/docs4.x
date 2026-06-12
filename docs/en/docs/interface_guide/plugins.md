@@ -6,7 +6,7 @@ This page allows you to manage OpenWrt packages. You can install or remove packa
 
 It is recommended to click the **Update** button before using third-party plug-ins. However, **do not update pre-installed plug-ins from the official GL.iNet firmware**, such as `nginx`, `adguard home`, `tailscale`, etc.
 
-![Plug-ins](https://static.gl-inet.com/docs/router/en/4/tutorials/plug-ins/plug-ins.png){class="glboxshadow"}
+![Plug-ins](https://static.gl-inet.com/docs/router/en/4/interface_guide/plug-ins/plug-ins.png){class="glboxshadow"}
 
 Third-party plug-ins manually installed by users can be updated; however, GL.iNet is not liable for any security issues from third-party plug-ins. For inquiries, please contact the respective third-party plug-in authors.
 

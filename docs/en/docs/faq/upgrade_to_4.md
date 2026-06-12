@@ -24,7 +24,7 @@ You can upgrade the firmware via web Admin Panel.
 
     **Note:** 4.x firmware is not compatible with 3.x firmware. When upgrading from 3.x firmware, do **NOT** keep settings.
 
-    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
+    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
 ## Method 2. U-Boot Upgrade
 

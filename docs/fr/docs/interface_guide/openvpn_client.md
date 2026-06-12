@@ -20,7 +20,7 @@ Dans le panneau d'administration web, accédez à **VPN** -> **OpenVPN Client**.
 
 Si vous avez un abonnement NordVPN, cliquez sur **NordVPN** pour vous connecter ; sinon, cliquez sur **Add Manually** pour importer les fichiers de configuration OpenVPN.
 
-![openvpn client](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/openvpn_client_initial.png){class="glboxshadow"}
+![openvpn client](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/openvpn_client_initial.png){class="glboxshadow"}
 
 ## Configurer NordVPN {#set-up-nordvpn}
 
@@ -30,39 +30,39 @@ La configuration rapide de NordVPN est intégrée au panneau d'administration de
 
 1. Connectez-vous à votre compte web NordVPN [ici](https://my.nordaccount.com/){target="_blank"}.
 
-    ![nord login](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_login.png){class="glboxshadow"}
+    ![nord login](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_login.png){class="glboxshadow"}
 
     Après la connexion, dans le Nord Dashboard, cliquez sur **NordVPN** dans le menu de gauche, puis sur **Set up NordVPN manually**.
 
-    ![nord setup manually](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
+    ![nord setup manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
 
     Vous y trouverez les **service credentials**. Vérifiez d'abord votre adresse e-mail pour obtenir ces identifiants, puis copiez-les pour les utiliser plus tard.
 
-    ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
+    ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
 
 2. Connectez-vous au panneau d'administration web de votre routeur, puis accédez à **VPN** -> **OpenVPN Client** -> **NordVPN**.
 
     Saisissez les **service credentials** obtenus à l'étape 1 (remarque : ce ne sont **PAS** l'adresse e-mail et le mot de passe de votre compte Nord), puis cliquez sur **Save and Continue**.
 
-    ![input nordvpn service credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn1.png){class="glboxshadow"}
+    ![input nordvpn service credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn1.png){class="glboxshadow"}
 
 3. Sélectionnez le protocole, le nombre maximal de serveurs pour chaque emplacement ainsi que les emplacements, puis cliquez sur **Apply**.
 
-    ![select nordvpn servers](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn2.png){class="glboxshadow"}
+    ![select nordvpn servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn2.png){class="glboxshadow"}
 
     Les fichiers de configuration seront téléchargés.
 
-    ![nordvpn configuration files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn3.png){class="glboxshadow"}
+    ![nordvpn configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn3.png){class="glboxshadow"}
 
 4. Démarrez une connexion.
 
     Sélectionnez le serveur souhaité, puis cliquez sur l'icône à trois points à droite pour lancer la connexion.
 
-    ![nordvpn start connect](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn4.png){class="glboxshadow"}
+    ![nordvpn start connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn4.png){class="glboxshadow"}
 
 5. Une fois connecté, un point vert apparaît à côté du fichier de configuration.
 
-    ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn5.png){class="glboxshadow"}
+    ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn5.png){class="glboxshadow"}
 
     Vous pouvez également vérifier les détails de la connexion VPN dans **VPN Dashboard**.
 
@@ -70,19 +70,19 @@ La configuration rapide de NordVPN est intégrée au panneau d'administration de
 
     Vous pouvez cliquer sur **Update Servers** pour récupérer la liste la plus récente des serveurs disponibles et éviter les échecs de connexion dus à la maintenance ou à l'arrêt de certains serveurs.
 
-    ![nordvpn update servers](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn7.png){class="glboxshadow"}
+    ![nordvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn7.png){class="glboxshadow"}
 
 7. Modifier les identifiants.
 
     Cliquez sur l'icône d'engrenage pour modifier vos identifiants de connexion.
 
-    ![nordvpn edit credentials](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn8.png){class="glboxshadow"}
+    ![nordvpn edit credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn8.png){class="glboxshadow"}
 
 8. Supprimer tous les fichiers.
 
     Vous pouvez cliquer sur **Delete All** pour supprimer tous les fichiers de configuration en un seul clic.
 
-    ![nordvpn delete all](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nordvpn9.png){class="glboxshadow"}
+    ![nordvpn delete all](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nordvpn9.png){class="glboxshadow"}
 
 ## Configurer manuellement le client OpenVPN (pour les autres fournisseurs) {#set-up-openvpn-client-manually-for-other-providers}
 
@@ -94,19 +94,19 @@ Dans les étapes suivantes, nous utiliserons [PIA (Private Internet Access)](htt
 
 2. Connectez-vous au panneau d'administration web de votre routeur, accédez à VPN -> OpenVPN Client, puis cliquez sur **Add Manually**.
 
-    ![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual1.png){class="glboxshadow"}
+    ![add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual1.png){class="glboxshadow"}
 
 3. Cela créera un groupe dans la barre latérale gauche.
 
-    ![add a new group](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual2.png){class="glboxshadow"}
+    ![add a new group](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual2.png){class="glboxshadow"}
 
 4. Définissez un nom descriptif pour le groupe (par exemple, private internet access).
 
-    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual3.png){class="glboxshadow"}
+    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual3.png){class="glboxshadow"}
 
 5. Importez votre fichier de configuration OpenVPN. Saisissez les identifiants si nécessaire, puis cliquez sur **Apply**.
 
-    ![manual upload files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual4.png){class="glboxshadow"}
+    ![manual upload files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual4.png){class="glboxshadow"}
 
     - Il existe 4 types d'identifiants pour l'authentification :
 
@@ -120,15 +120,15 @@ Dans les étapes suivantes, nous utiliserons [PIA (Private Internet Access)](htt
 
     Le fichier de configuration importé s'affichera ensuite.
 
-    ![manual upload files](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual5.png){class="glboxshadow"}
+    ![manual upload files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual5.png){class="glboxshadow"}
 
 6. Cliquez sur l'icône à trois points à droite pour démarrer une connexion.
 
-    ![start connect](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual6.png){class="glboxshadow"}
+    ![start connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual6.png){class="glboxshadow"}
 
 7. Une fois connecté, un point vert apparaît à côté du fichier de configuration.
 
-    ![openvpn connected](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/manual7.png){class="glboxshadow"}
+    ![openvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manual7.png){class="glboxshadow"}
 
     Vous pouvez également vérifier les détails de la connexion VPN dans **VPN Dashboard**.
 
@@ -153,27 +153,27 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
         Connectez-vous au [site officiel](https://go.nordvpn.net/aff_c?offer_id=15&amp;aff_id=12016&amp;url_id=902){target="_blank"}, puis accédez au Nord Account Dashboard, où vous trouverez les service credentials.
 
-        ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_login.png){class="glboxshadow"}
+        ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_login.png){class="glboxshadow"}
 
         Après vous être connecté au Nord Dashboard, cliquez sur NordVPN à gauche, puis sur **Set up NordVPN manually**.
 
-        ![nordvpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_dashboard.png){class="glboxshadow"}
+        ![nordvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_dashboard.png){class="glboxshadow"}
 
-        ![nordvpn setup manually](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
+        ![nordvpn setup manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_setup_manually.png){class="glboxshadow"}
 
         Recherchez les **Service credentials**. Copiez-les si vous devez les utiliser pour importer la configuration.
 
-        ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
+        ![nordvpn service credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_service_credentials.jpg){class="glboxshadow"}
 
     2. **Choisissez un serveur NordVPN et téléchargez le fichier de configuration**
 
         Accédez à l'onglet **Server recommendation**. Il recommandera un serveur en fonction de votre réseau et proposera les protocoles disponibles au téléchargement. Cliquez sur **Get setup configuration** pour continuer.
 
-        ![nordvpn config download](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_config_download.png){class="glboxshadow"}
+        ![nordvpn config download](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_config_download.png){class="glboxshadow"}
 
         Dans la fenêtre contextuelle, sélectionnez le protocole **OpenVPN** et téléchargez la configuration UDP ou TCP.
 
-        ![nordvpn select protocol](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_client/nord_select_protocol.png){class="glboxshadow"}
+        ![nordvpn select protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/nord_select_protocol.png){class="glboxshadow"}
 
     Vous pouvez télécharger les configurations de tous les serveurs [ici](https://downloads.nordcdn.com/configs/archives/servers/ovpn.zip).
 
@@ -190,15 +190,15 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     1. Connectez-vous à votre compte AirVPN
 
-        ![airvpn client detail](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/airvpn/airvpn1.png){class="glboxshadow"}
+        ![airvpn client detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/airvpn/airvpn1.png){class="glboxshadow"}
 
     2. Choisissez Config Generator dans la colonne de gauche, puis sélectionnez Linux comme système d'exploitation. Ensuite, choisissez le serveur de votre choix.
 
-        ![openvpn config generator](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/airvpn/airvpn2.png){class="glboxshadow"}
+        ![openvpn config generator](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/airvpn/airvpn2.png){class="glboxshadow"}
 
     3. Vous accéderez à la page de téléchargement du fichier de configuration.
 
-        ![download config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/airvpn/airvpn3.png){class="glboxshadow"}
+        ![download config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/airvpn/airvpn3.png){class="glboxshadow"}
 
 ??? "Astrill"
     ### Astrill
@@ -209,19 +209,19 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     1. Générez et téléchargez le fichier ZIP de configuration OpenVPN d'Astrill
 
-        ![astrill vpn tools](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/astrillvpn/astrill1.png){class="glboxshadow"}
+        ![astrill vpn tools](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/astrillvpn/astrill1.png){class="glboxshadow"}
 
-        ![create new certificate](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/astrillvpn/astrill2.png){class="glboxshadow"}
+        ![create new certificate](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/astrillvpn/astrill2.png){class="glboxshadow"}
 
     2. Saisissez une description, par exemple OPENVPN_GUI.
 
     3. Cliquez sur le bouton ADD to my certificates.
 
-        ![create new certificate](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/astrillvpn/astrill3.png){class="glboxshadow"}
+        ![create new certificate](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/astrillvpn/astrill3.png){class="glboxshadow"}
 
     4. Une fois le certificat OpenVPN ajouté, cliquez sur le bouton Download.
 
-        ![download certificate](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/astrillvpn/astrill4.png){class="glboxshadow"}
+        ![download certificate](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/astrillvpn/astrill4.png){class="glboxshadow"}
 
 ??? "BolehVPN"
     ### BolehVPN
@@ -241,7 +241,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     [Téléchargement direct](https://www.cactusvpn.com/downloads/).
 
-    ![download cactusvpn openvpn profiles](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cactusvpn/cactusvpn1.jpg){class="glboxshadow"}
+    ![download cactusvpn openvpn profiles](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/cactusvpn/cactusvpn1.jpg){class="glboxshadow"}
 
 ??? "Cryptostorm"
     ### Cryptostorm
@@ -259,13 +259,13 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     1. Connectez-vous à votre compte CyberGhost VPN en ligne.
 
-        ![login](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost1.png){class="glboxshadow"}
+        ![login](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/cyberghost/cyberghost1.png){class="glboxshadow"}
 
     2. Sélectionnez "**VPN**" dans le menu de gauche, puis cliquez sur "**Configure Device**" et créez votre configuration de serveur comme indiqué ci-dessous :
 
-        ![config device](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost2.jpg){class="glboxshadow"}
+        ![config device](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/cyberghost/cyberghost2.jpg){class="glboxshadow"}
 
-        ![save config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost3.jpg){class="glboxshadow"}
+        ![save config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/cyberghost/cyberghost3.jpg){class="glboxshadow"}
 
     3. Créez ensuite votre configuration de serveur comme indiqué ci-dessous :
 
@@ -277,11 +277,11 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
         **OpenVPN TCP** offre des connexions plus stables que la version UDP, mais il est un peu plus lent. Choisissez cette version si vous rencontrez des problèmes de connexion récurrents, comme des déconnexions soudaines.
 
-        Une fois les paramètres souhaités choisis, enregistrez-les avec **Save Configuration**.
+        Une fois les paramètres souhaités choisis, enregistrez-les avec **Save Configuration**
 
     4. Pour afficher les identifiants **OpenVPN** générés pour vous sur le tableau de bord de configuration, cliquez sur **View Configuration**.
 
-        ![view configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost4.png){class="glboxshadow"}
+        ![view configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/cyberghost/cyberghost4.png){class="glboxshadow"}
 
     5. Après avoir défini vos préférences de connexion, veuillez prendre note des points suivants :
 
@@ -291,7 +291,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
         Une fois cela fait, téléchargez le fichier de configuration. Pour cela, cliquez sur *Download Configuration* afin de télécharger le fichier de configuration sur votre ordinateur.
 
-        ![save config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/cyberghost/cyberghost5.png){class="glboxshadow"}
+        ![save config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/cyberghost/cyberghost5.png){class="glboxshadow"}
 
 ??? "ExpressVPN"
     ### ExpressVPN
@@ -302,21 +302,21 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     1. Accédez au site [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"} et connectez-vous avec vos identifiants ExpressVPN.
 
-        ![expressvpn account click sign in](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/expressvpn-account-click-sign-in.jpg){target="_blank"}
+        ![expressvpn account click sign in](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/expressvpn/expressvpn-account-click-sign-in.jpg){target="_blank"}
 
         **Saisissez le code de vérification** envoyé à votre adresse e-mail.
 
     2. Dans la section "Set up your devices", cliquez sur **More**.
 
-        ![expressvpn, set up your devices, more](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/set_up_your_devices_more.png){class="glboxshadow"}
+        ![expressvpn, set up your devices, more](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/expressvpn/set_up_your_devices_more.png){class="glboxshadow"}
 
     3. Cliquez sur **Manual Configuration**.
 
-        ![expressvpn, set up your devices, manual configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/set_up_your_devices_manual_configuration.png){class="glboxshadow"}
+        ![expressvpn, set up your devices, manual configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/expressvpn/set_up_your_devices_manual_configuration.png){class="glboxshadow"}
 
     4. Vous verrez votre **username**, votre **password** et une liste de **OpenVPN configuration files**.
 
-        ![expressvpn, setup info](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/expressvpn/setup_info.png){class="glboxshadow"}
+        ![expressvpn, setup info](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/expressvpn/setup_info.png){class="glboxshadow"}
 
         Cliquez sur l'emplacement ou les emplacements souhaités afin de télécharger le ou les fichiers .ovpn.
 
@@ -342,23 +342,23 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     1. Connectez-vous à votre compte FinchVPN.
 
-        ![finchvpn login](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/finchvpn/finchvpn1.jpg){class="glboxshadow"}
+        ![finchvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/finchvpn/finchvpn1.jpg){class="glboxshadow"}
 
     2. Accédez à la page Download, puis cliquez sur Download sous FinchVPN OpenVPN Config.
 
-        ![finchvpn download page](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/finchvpn/finchvpn2.jpg){class="glboxshadow"}
+        ![finchvpn download page](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/finchvpn/finchvpn2.jpg){class="glboxshadow"}
 
     3. Choisissez Linux.
 
-        ![finchvpn](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/finchvpn/finchvpn3.jpg){class="glboxshadow"}
+        ![finchvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/finchvpn/finchvpn3.jpg){class="glboxshadow"}
 
     4. Choisissez le protocole selon vos préférences. En général, vous pouvez choisir la première option : **Port 8484 over UDP**
 
-        ![finchvpn](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/finchvpn/finchvpn4.jpg){class="glboxshadow"}
+        ![finchvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/finchvpn/finchvpn4.jpg){class="glboxshadow"}
 
     5. N'oubliez pas de cocher la case permettant d'inclure votre nom d'utilisateur et votre mot de passe avant de télécharger le fichier.
 
-        ![finchvpn](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/finchvpn/finchvpn5.jpg){class="glboxshadow"}
+        ![finchvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/finchvpn/finchvpn5.jpg){class="glboxshadow"}
 
 ??? "HideIPVPN"
     ### HideIPVPN
@@ -369,15 +369,15 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     2. Accédez à Package dans la colonne de gauche, cliquez sur votre forfait et assurez-vous qu'il est actif.
 
-        ![hideipvpn client area](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/hideipvpn/package.jpg){class="glboxshadow"}
+        ![hideipvpn client area](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hideipvpn/package.jpg){class="glboxshadow"}
 
     3. Dans l'onglet VPN, vous trouverez les VPN Login Details, c'est-à-dire le nom d'utilisateur et le mot de passe utilisés lors de la connexion OpenVPN
 
-        ![hideipvpn client area](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/hideipvpn/vpn_username_password.jpg){class="glboxshadow"}
+        ![hideipvpn client area](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hideipvpn/vpn_username_password.jpg){class="glboxshadow"}
 
     4. Faites défiler la page vers le bas pour télécharger les fichiers de configuration OpenVPN.
 
-        ![hideipvpn client area](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/hideipvpn/openvpn_config_files.jpg){class="glboxshadow"}
+        ![hideipvpn client area](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hideipvpn/openvpn_config_files.jpg){class="glboxshadow"}
 
 ??? "Hide.me VPN"
     ### Hide.me VPN
@@ -388,7 +388,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     2. Téléchargez la configuration OpenVPN pour Windows.
 
-        ![hide.me vpn dashboard](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/hideme/hideme_dashboard.jpg){class="glboxshadow"}
+        ![hide.me vpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hideme/hideme_dashboard.jpg){class="glboxshadow"}
 
 ??? "Hotspot Shield"
     ### Hotspot Shield
@@ -416,11 +416,11 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     - Vous pouvez télécharger tous les fichiers de configuration de tous les serveurs [ici](https://configs.ipvanish.com/configs/configs.zip), il contient tous les fichiers de configuration serveur (.ovpn) ainsi qu'un fichier certificat (.crt). Le fichier .zip peut être un peu volumineux pour certains modèles ; veuillez supprimer les configurations (.ovpn) des serveurs que vous n'utiliserez pas.
 
-        ![ipvanish all openvpn configs](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ipvanish/ipvanish_all_openvpn_configs.png){class="glboxshadow"}
+        ![ipvanish all openvpn configs](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ipvanish/ipvanish_all_openvpn_configs.png){class="glboxshadow"}
 
     - Vous pouvez également télécharger des fichiers de configuration serveur individuels [ici](https://www.ipvanish.com/software/configs/), mais vous devrez aussi télécharger **ca.ipvanish.com.crt**. Avant de les importer dans le routeur, vous devez compresser **ca.ipvanish.com.crt** et les fichiers de configuration .ovpn dans une archive .zip.
 
-        ![ipvanish openvpn config file with certificate file](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ipvanish/ipvanish_openvpn_config_file_with_certificate_file.png){class="glboxshadow"}
+        ![ipvanish openvpn config file with certificate file](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ipvanish/ipvanish_openvpn_config_file_with_certificate_file.png){class="glboxshadow"}
 
     [Lien de référence](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup)
 
@@ -449,24 +449,9 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     3. Lorsque vous faites glisser le fichier de configuration dans Add a New OpenVPN Configuration, il vous sera demandé de saisir un User Name et un Password. Le User Name correspond à votre Account ID qui commence par les lettres **ivpn**. Le mot de passe peut être n'importe quoi, par exemple **ivpn**
 
-        ![ivpn set up on gl.inet router](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ivpn/ivpn_set_up_openvpn_client.png){class="glboxshadow"}
+        ![ivpn set up on gl.inet router](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ivpn/ivpn_set_up_openvpn_client.png){class="glboxshadow"}
 
     [Lien de référence](https://www.ivpn.net/setup/gnu-linux-terminal.html)
-
-??? "Mullvad"
-    ### Mullvad
-
-    [Site officiel](https://mullvad.net/en){target="_blank"}
-
-    1. Accédez au site [Mullvad](https://mullvad.net/en){rel="sponsored" target="_blank"} et connectez-vous avec vos identifiants Mullvad.
-
-    2. Choisissez OpenVPN Configuration
-
-    ![ovpnconfig](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ovpnconfig.jpg){class="glboxshadow"}
-
-    3. Choisissez **Linux** et sélectionnez l'emplacement de votre serveur
-
-    ![linux](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/linux.jpg){class="glboxshadow"}
 
 ??? "OVPN"
     ### OVPN
@@ -475,11 +460,11 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     Connectez-vous simplement, puis vous pourrez facilement obtenir le fichier de configuration OpenVPN en cliquant sur le menu ci-dessous.
 
-    ![get ovpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/get_ovpn_configuration_files.jpg){class="glboxshadow"}
+    ![get ovpn configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ovpn/get_ovpn_configuration_files.jpg){class="glboxshadow"}
 
     Choisissez ensuite le serveur et téléchargez-le.
 
-    ![download ovpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/ovpn/download_configuration_files.jpg){class="glboxshadow"}
+    ![download ovpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ovpn/download_configuration_files.jpg){class="glboxshadow"}
 
     Le nom d'utilisateur et le mot de passe sont les mêmes que ceux utilisés pour vous connecter à OVPN.
 
@@ -512,7 +497,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     Connectez-vous simplement, puis vous trouverez facilement l'option **Download VPN Configuration**.
 
-    ![PrivadoVPN OpenVPN configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/privadovpn/privadovpn_openvpn_configuration.png){class="glboxshadow"}
+    ![PrivadoVPN OpenVPN configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/privadovpn/privadovpn_openvpn_configuration.png){class="glboxshadow"}
 
     Conseil : si le fichier zip est trop volumineux à importer, vous pouvez supprimer certains fichiers .ovpn du fichier .zip ou importer un seul fichier .ovpn.
 
@@ -521,7 +506,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     [Site officiel](https://affiliate.privatevpn.com/scripts/click.php?a_aid=5e3a511658bc3){target="_blank"}
 
-    [Téléchargement](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/privatevpn/PrivateVPN-TUN.zip){target="_blank} direct.
+    [Téléchargement](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/privatevpn/PrivateVPN-TUN.zip){target="_blank"} direct.
 
     [Ici](https://privatevpn.com/client/PrivateVPN-TUN.zip) se trouve le lien de téléchargement officiel. En raison d'un bug rencontré lors de l'importation sur le routeur, le nom de fichier interne contient des caractères spéciaux comme 'Bogotá'. Nous l'avons renommé et fourni le lien de téléchargement ci-dessus. Nous corrigerons ce bug dans les versions futures.
 
@@ -540,11 +525,11 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     3. Choisissez la plateforme Router, le protocole, etc., puis trouvez le pays cible pour télécharger le fichier de configuration.
 
-        ![protonvpn openvpn configuration file](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/proton_openvpn_configuration_file.jpg){class="glboxshadow"}
+        ![protonvpn openvpn configuration file](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/protonvpn/proton_openvpn_configuration_file.jpg){class="glboxshadow"}
 
     4. Les identifiants utilisés pour la connexion OpenVPN ne sont pas ceux du tableau de bord du site Proton. Vous trouverez ces identifiants dans **Account -> OpenVPN/IKEv2 username**
 
-        ![protonvpn openvpn credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
+        ![protonvpn openvpn credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
 
 ??? "PureVPN"
     ### PureVPN
@@ -571,7 +556,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     [Téléchargement direct](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup).
 
-    ![safervpn openvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
+    ![safervpn openvpn config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
 
 ??? "StarVPN"
     ### StarVPN
@@ -588,17 +573,17 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
         Connectez-vous à l’espace membre StarVPN [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. Dans le tableau de bord, repérez la section **VPN Configuration** puis cliquez sur **OpenVPN Config**. Copiez le nom d’utilisateur et le mot de passe OVPN. Vous aurez besoin de ces identifiants pour l’authentification lors du téléversement du fichier sur votre routeur GL.iNet.
 
-        ![download starvpn ovpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/ovpnconfigdl.png){class="glboxshadow"}
+        ![download starvpn ovpn config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/starvpn/ovpnconfigdl.png){class="glboxshadow"}
 
         Sélectionnez UDP ou TCP, puis téléchargez un fichier de configuration.
 
-        ![select udp or tcp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/udp_tcp.png){class="glboxshadow"}
+        ![select udp or tcp](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/starvpn/udp_tcp.png){class="glboxshadow"}
 
     3. **Modifier le fichier de configuration**
 
         Certains routeurs GL.iNet ne prennent pas en charge IPv6. Pour éviter les problèmes de compatibilité et de connectivité, ouvrez le fichier de configuration `.ovpn` et supprimez le contenu lié à IPv6, comme ci-dessous.
 
-        ![remove ipv6](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/starvpn/remove_ipv6.png){class="glboxshadow"}
+        ![remove ipv6](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/starvpn/remove_ipv6.png){class="glboxshadow"}
 
 ??? "StreamVPN"
     ### StreamVPN
@@ -607,11 +592,11 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     1. Connectez-vous à votre compte [StreamVPN](https://billing.streamvpn.com/account/signup?aff_t=aaf341756f7b94ed3f040f78292b80f1db1adf3318eacb87dd9c4ad4e08fde11a%3A2%3A%7Bs%3A6%3A%22aff_id%22%3Bs%3A6%3A%22645311%22%3Bs%3A6%3A%22off_id%22%3Bi%3A10%3B%7D){target="_blank"} puis vous pourrez voir les informations liées à votre abonnement. Cliquez sur **Install & Guides**.
 
-        ![streamvpn subscription info](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/streamvpn/streamvpn_subscription.png){class="glboxshadow"}
+        ![streamvpn subscription info](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/streamvpn/streamvpn_subscription.png){class="glboxshadow"}
 
     2. Cliquez sur **VPN Router** ; une archive .zip nommée `StreamVPN.zip` sera téléchargée.
 
-        ![streamvpn guide, vpn router](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/streamvpn/streamvpn_guide_router.png){class="glboxshadow"}
+        ![streamvpn guide, vpn router](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/streamvpn/streamvpn_guide_router.png){class="glboxshadow"}
 
     **Remarque :** seules les configurations dont le nom de fichier contient "Primary" fonctionnent.
 
@@ -622,11 +607,11 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     1. Connectez-vous à votre compte [StrongVPN](https://strongvpn.com/?tr_aid=5ac44bd241ca7){target="_blank"} puis vous verrez le récapitulatif des comptes VPN. Cliquez sur **Account Setup Instructions**.
 
-        ![strongvpn setup 1](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_01.jpg){class="glboxshadow"}
+        ![strongvpn setup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/strongvpn/strong_vpn_setup_01.jpg){class="glboxshadow"}
 
     2. Recherchez la section de configuration manuelle et suivez les étapes pour obtenir la configuration.
 
-        ![strongvpn get config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/strongvpn/strong_vpn_setup_02.jpg){class="glboxshadow"}
+        ![strongvpn get config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/strongvpn/strong_vpn_setup_02.jpg){class="glboxshadow"}
 
 ??? "Surfshark"
     ### Surfshark
@@ -639,17 +624,17 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
         Connectez-vous au [site officiel](https://get.surfshark.net/aff_c?offer_id=926&aff_id=1400){target="_blank"}, puis accédez à [cette page](https://my.surfshark.com/vpn/manual-setup/router){target="_blank"}, où vous trouverez toutes les informations nécessaires pour une connexion manuelle.
 
-        ![surfshark service credential](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_service_credential.png){class="glboxshadow"}
+        ![surfshark service credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/surfshark/surfshark_service_credential.png){class="glboxshadow"}
 
     2. **Choisissez un serveur Surfshark**
 
         Sélectionnez l'onglet **Locations**, où vous verrez tous les serveurs Surfshark.
 
-        ![surfshark locations](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_locations.png){class="glboxshadow"}
+        ![surfshark locations](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/surfshark/surfshark_locations.png){class="glboxshadow"}
 
         Il vous sera demandé de choisir TCP ou UDP. Cliquez [ici](../faq/openvpn_tcp_udp.md) pour voir la différence.
 
-        ![surfshark tcp udp](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/surfshark/surfshark_udp_tcp.png){class="glboxshadow" width="400"}
+        ![surfshark tcp udp](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/surfshark/surfshark_udp_tcp.png){class="glboxshadow" width="400"}
 
 
     Vous pouvez télécharger toutes les configurations [ici](https://api.surfshark.com/v1/server/configurations) directement.
@@ -665,7 +650,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     [Téléchargement](https://vpn.ac/ovpn/).
 
-    <img class="glboxshadow" alt="vpn.ac donwoad configuration" src="https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/vpn.ac/vpn.ac1.png" />
+    <img class="glboxshadow" alt="vpn.ac donwoad configuration" src="https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpn.ac/vpn.ac1.png" />
 
 ??? "VPNGate"
     ### VPNGate
@@ -676,11 +661,11 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     1. Cliquez sur OpenVPN Config file dans la colonne **OpenVPN**.
 
-        ![VPNGate server list](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/vpngate/vpngate1.png){class="glboxshadow"}
+        ![VPNGate server list](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpngate/vpngate1.png){class="glboxshadow"}
 
     2. Vous verrez alors la page de téléchargement.
 
-        ![VPNGate download page](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/vpngate/vpngate2.png){class="glboxshadow"}
+        ![VPNGate download page](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpngate/vpngate2.png){class="glboxshadow"}
 
 ??? "VPN Unlimited(KeepSolid)"
     ### VPN Unlimited(KeepSolid)
@@ -695,7 +680,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
         Choisissez un appareil dans la liste ou créez-en un nouveau. Si vous n'avez plus de slots disponibles, supprimez un ancien appareil ou achetez des slots supplémentaires.
 
-        ![vpn unlimited openvpn config](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/vpnunlimited/keepsolid1.png){class="glboxshadow"}
+        ![vpn unlimited openvpn config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnunlimited/keepsolid1.png){class="glboxshadow"}
 
     2. Choisir l'emplacement du serveur souhaité
 
@@ -705,13 +690,13 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
         Sélectionnez le protocole OpenVPN.
 
-        ![vpn unlimited select protocol](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/vpnunlimited/keepsolid2.png){class="glboxshadow"}
+        ![vpn unlimited select protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnunlimited/keepsolid2.png){class="glboxshadow"}
 
     4. Créer une configuration
 
         Cliquez sur Generate et vous obtiendrez toutes les données nécessaires pour configurer une connexion VPN.
 
-        ![vpn unlimited generate configuration](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/vpnunlimited/keepsolid3.png){class="glboxshadow"}
+        ![vpn unlimited generate configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnunlimited/keepsolid3.png){class="glboxshadow"}
 
 ??? "VyprVPN"
     ### VyprVPN
@@ -729,7 +714,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     2. Sélectionnez l'emplacement du serveur, le protocole (UDP/TCP), le port (par exemple 1194) que vous souhaitez utiliser, ainsi que la version OpenVPN (de préférence la plus récente), puis cliquez sur **Download Config**. Un fichier avec le suffixe ".ovpn" sera alors téléchargé sur votre appareil local.
 
-        ![windscribe OpenVPN Config Generator](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/windscribe/ovpn-config-generator.png){class="glboxshadow"}
+        ![windscribe OpenVPN Config Generator](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/windscribe/ovpn-config-generator.png){class="glboxshadow"}
 
     3. Cliquez sur le bouton **Get Credentials** sur la même page. Vous recevrez alors les identifiants correspondants, qui seront ensuite utilisés dans le panneau d'administration web du routeur lors de l'importation du fichier de configuration dans le routeur pour l'authentification. Copiez les identifiants ou laissez cette page web ouverte.
 
@@ -742,7 +727,7 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
     Connectez-vous à son [site officiel](https://zoogvpn.com/pricing?ref=xrsyzx){target="_blank"}, puis accédez à la [page des fichiers de configuration OpenVPN](https://app.zoogvpn.com/setup/configuration-files){target="_blank"}. Vous y trouverez tous les serveurs. Téléchargez le fichier de configuration dans la colonne TCP ou UDP.
 
-    ![zoogvpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/3/tutorials/openvpn_client/zoogvpn/zoogvpn_openvpn_config_files.png)
+    ![zoogvpn openvpn configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/zoogvpn/zoogvpn_openvpn_config_files.png)
 
     Suivez ensuite le [guide de configuration du client OpenVPN sur le routeur GL.iNet](#setup-openvpn-client) ; le nom d'utilisateur et le mot de passe sont les mêmes que ceux utilisés pour vous connecter au site web ZoogVPN.
 

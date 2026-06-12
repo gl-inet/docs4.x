@@ -42,17 +42,17 @@ Segui i passaggi seguenti per cambiare WAN in LAN.
 
 3. Nel pannello di amministrazione web, vai a **INTERNET** -> sezione **Ethernet**, dove lo stato della porta WAN viene mostrato come **Using as WAN**. Fai clic su **Change to LAN**.
 
-    ![internet page](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
+    ![internet page](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
 
 4. Fai clic su **Apply** per confermare.
 
-    ![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
+    ![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
 
     **Nota**: durante questo processo il Wi-Fi potrebbe disconnettersi temporaneamente. Ricollegati al router al termine dell'operazione.
 
 5. Tornando alla sezione Ethernet, verrà mostrato `Using as LAN`.
 
-    ![using as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
+    ![using as lan](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
 
     Puoi semplicemente ripristinare l'impostazione ripetendo la procedura sopra.
 

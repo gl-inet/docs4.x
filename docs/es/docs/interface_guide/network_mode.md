@@ -18,7 +18,7 @@ Salvo algunos modelos específicos, la mayoría de los routers inalámbricos GL.
 
 Los modelos con funcionalidad Wi-Fi suelen admitir cuatro modos de red: Router, Access Point, Extender y WDS. Tenga en cuenta que algunos modelos no admiten el modo WDS.
 
-![modo de red](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page.png){class="glboxshadow"}
+![modo de red](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page.png){class="glboxshadow"}
 
 - **Router**: Es el modo de funcionamiento predeterminado para la mayoría de los routers domésticos y de pequeñas oficinas, diseñado para crear una red de área local privada y actuar como una puerta de enlace dedicada entre Internet pública y los dispositivos conectados.
 
@@ -52,7 +52,7 @@ Los modelos con funcionalidad Wi-Fi suelen admitir cuatro modos de red: Router, 
 
 GL-MT2500/GL-MT2500A no admite los modos Access Point, Extender ni WDS, ya que no dispone de funcionalidad Wi-Fi. Pero sí admite el modo Router y el modo Bridge.
 
-![modo de red de gl-mt2500](https://static.gl-inet.com/docs/router/en/4/tutorials/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
+![modo de red de gl-mt2500](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
 
 - **Router**: Es el modo de funcionamiento predeterminado para la mayoría de los routers domésticos y de pequeñas oficinas, diseñado para crear una red de área local privada (LAN) y actuar como una puerta de enlace dedicada entre Internet pública y los dispositivos conectados.
 

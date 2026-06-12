@@ -42,7 +42,7 @@
 
 ルーターをパブリックホットスポットに接続する場合、**ネットワークに参加**ページで以下の機能を有効にすると、接続成功率を改善できます。
 
-![hotspot login mode & camouflage](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/hotspot_login_mode_camouflage.png){class="glboxshadow"}
+![hotspot login mode & camouflage](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/hotspot_login_mode_camouflage.png){class="glboxshadow"}
 
 - パブリックホットスポットのログインモードを自動的に有効にする
 
@@ -58,27 +58,27 @@
 
 1. Web管理パネルにログインし、NETWORK -> DNSに移動します。**DNSリバインディング攻撃保護**が無効になっていることと、**モード**が**自動**に設定されていることを確認してください。
 
-    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
+    ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
 
 2. Web管理パネルで、VPN -> VPNダッシュボードに移動します。すべてのVPN接続が無効になっていることを確認してください。
 
     **ファームウェアv4.7以前**の場合、ページは以下のように表示されます。
     
-    ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
+    ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
     
     **ファームウェアv4.8以上**の場合、ページは以下のように表示されます。
 
-    ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
+    ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
 
 3. Web管理パネルで、APPLICATIONS -> AdGuard Homeに移動します。AdGuard Homeが無効になっていることを確認してください。
 
-    ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
+    ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
 
 4. Webブラウザを開き、キャプティブポータルのWebページを再度入力するかアップデートします。1分待って、自動的にキャプティブポータル認証ページにリダイレクトされるかどうかを確認します。
 
     スマートフォンを使用しており、Webブラウザがキャプティブポータルにリダイレクトされない場合は、スマートフォンのWi-Fiをオフにし、再びオンにしてルーターのWi-Fiに再接続してください。Wi-Fiパスワードを入力すると、キャプティブポータルが直接ポップアップ表示されます。
 
-    ![connected](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
+    ![connected](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
 
 ---
 
@@ -90,7 +90,7 @@
 
     以下はiPhone（iOS 16.1.2）の例です：設定 → Wi-Fi → ホテルのWi-Fiを選択すると、Wi-Fiアドレスが見つかります。このアドレスをメモしてください。
 
-    ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
+    ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
 
     一部の古いモデルでは、MACアドレスがWi-Fi設定で利用できない場合があります。この場合、デバイスはパブリックWi-Fiに接続する際に実際のMACアドレスを使用する場合があります。これはスマートフォンの設定 → 一般（または「電話について」）で見つけることができます。
 
@@ -100,15 +100,15 @@
 
     手動モードを選択し、ステップ1で取得したMACアドレスを入力し、適用をクリックします。
 
-    ![MAC manual](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
+    ![MAC manual](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
 
     **ファームウェアv4.6以上**の場合、左側からINTERNET → リピーターセクションを選択し、修正をクリックします。
 
-    ![repeater modify](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
+    ![repeater modify](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
 
     ポップアップウィンドウで、MACモードをクローンに切り替え、MACアドレスを入力し、適用をクリックします。
 
-    ![repeater clone mac](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_clone_mac.png){class="glboxshadow gl-90-desktop"}
+    ![repeater clone mac](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/repeater_clone_mac.png){class="glboxshadow gl-90-desktop"}
 
 3. 有効にするにはルーターを再起動する必要がある場合があります。
 

@@ -53,11 +53,11 @@ Web 管理パネル左側の **VPN** -> **Tor** を開きます。
 
 トグルスイッチをクリックして有効にし、必要に応じて **Custom Exit Nodes** を有効にしてから **Apply** をクリックします。
 
-![enable tor](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/enable_tor.png){class="glboxshadow"}
+![enable tor](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/enable_tor.png){class="glboxshadow"}
 
 接続が開始されます。ネットワークが要件を満たしていれば、接続済みと表示されます。
 
-![tor connected](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/connected.png){class="glboxshadow" width="672"}
+![tor connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/connected.png){class="glboxshadow" width="672"}
 
 ## 手動インストール {#manual-install}
 
@@ -67,9 +67,9 @@ Web 管理パネル左側の **APPLICATIONS** -> **Plug-ins** を開きます。
 
 **gl-sdk4-ui-torview** を検索してインストールします。
 
-![torview](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/torview.jpg){class="glboxshadow"}
+![torview](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/torview.jpg){class="glboxshadow"}
 
-![torpage](https://static.gl-inet.com/docs/router/en/4/tutorials/tor/torpage.jpg){class="glboxshadow"}
+![torpage](https://static.gl-inet.com/docs/router/en/4/interface_guide/tor/torpage.jpg){class="glboxshadow"}
 
 ---
 

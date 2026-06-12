@@ -32,15 +32,15 @@ Vor Kurzem haben wir festgestellt, dass bei einigen Kunden mit GL-X3000/GL-XE300
 
         1. Navigieren Sie im Web-Admin-Panel zum Abschnitt INTERNET -> Cellular, klicken Sie oben rechts auf das Drei-Punkte-Symbol und wählen Sie **Modem AT Command**.
         
-            ![modem AT command](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_0.jpg){class="glboxshadow"}
+            ![modem AT command](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/at_command_0.jpg){class="glboxshadow"}
         
             Bei älterer Firmware klicken Sie oben rechts auf die Werkzeugschaltfläche, um die Modemverwaltungsseite zu öffnen.
 
-            ![modem management](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/modem_management_button.png){class="glboxshadow"}
+            ![modem management](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/modem_management_button.png){class="glboxshadow"}
         
         2. Suchen Sie den Bereich für AT-Befehle wie unten dargestellt.
 
-            ![AT command](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/at_command_1.png){class="glboxshadow"}
+            ![AT command](https://static.gl-inet.com/docs/router/en/4/faq/ee_sim_failure/at_command_1.png){class="glboxshadow"}
 
 Wenn Sie weitere Probleme haben, kontaktieren Sie bitte unser Support-Team unter [support@gl-inet.com](mailto:support@gl-inet.com).
 

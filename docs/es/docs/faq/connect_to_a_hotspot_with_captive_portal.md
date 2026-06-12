@@ -42,7 +42,7 @@ Si no puede entrar en el portal cautivo, es posible que el router no pueda acced
 
 Al conectar el router a un punto de acceso público, en la página **Join Network**, habilitar las siguientes funciones puede ayudar a mejorar la tasa de éxito de la conexión.
 
-![hotspot login mode & camouflage](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/hotspot_login_mode_camouflage.png){class="glboxshadow"}
+![hotspot login mode & camouflage](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/hotspot_login_mode_camouflage.png){class="glboxshadow"}
 
 - Auto-Enable Login Mode for Public Hotspots
 
@@ -58,27 +58,27 @@ Al conectar el router a un punto de acceso público, en la página **Join Networ
 
 1. Inicie sesión en el panel de administración web y vaya a NETWORK -> DNS. Asegúrese de que **DNS Rebinding Attack Protection** esté desactivado y de que **Mode** esté configurado en **Automatic**.
 
-   ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
+   ![dns rebinding attack protection](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/dns_rebinding_attack_protection.png){class="glboxshadow" width="600"}
 
 2. En el panel de administración web, vaya a VPN -> VPN Dashboard. Asegúrese de que todas las conexiones VPN estén desactivadas.
 
    **Para firmware v4.7 y anteriores**, la página se muestra como se indica a continuación.
 
-   ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
+   ![vpn client disabled v4.7](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/vpn_client_is_disable.png){class="glboxshadow" width="600"}
 
    **Para firmware v4.8 y superior**, la página se muestra como se indica a continuación.
 
-   ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
+   ![vpn client disabled v4.8](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/vpn_disabled_4.8.png){class="glboxshadow" width="600"}
 
 3. En el panel de administración web, vaya a APPLICATIONS -> AdGuard Home. Asegúrese de que AdGuard Home esté desactivado.
 
-   ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
+   ![adguard home is stopped](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/adguardhome_init.png){class="glboxshadow"}
 
 4. Abra un navegador web y vuelva a introducir o actualizar la página del portal cautivo. Espere un minuto y compruebe si se redirige automáticamente a la página de autenticación del portal cautivo.
 
    Si está usando un teléfono inteligente y el navegador no redirige al portal cautivo, apague el Wi-Fi del teléfono y vuelva a encenderlo; después, vuelva a conectarse al Wi-Fi del router. El portal cautivo debería aparecer directamente después de introducir la contraseña Wi-Fi.
 
-   ![connected](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
+   ![connected](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/connected.png){class="glboxshadow"}
 
 ---
 
@@ -90,7 +90,7 @@ Algunos hoteles limitan la cantidad de dispositivos que cada cliente puede conec
 
    Aquí tiene un ejemplo para iPhone, iOS 16.1.2: vaya a Settings -> Wi-Fi -> seleccione el Wi-Fi del hotel y encontrará la Wi-Fi Address. Anote esta dirección.
 
-   ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
+   ![iphone wifi private address](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/iphone_wifi_private_address.png){class="glboxshadow" width="350"}
 
    En algunos modelos antiguos, la dirección MAC puede no estar disponible en la configuración de Wi-Fi. En ese caso, el dispositivo puede usar su dirección MAC real al conectarse a redes Wi-Fi públicas, que puede encontrarse en Settings > About de su teléfono, o "About Phone".
 
@@ -100,15 +100,15 @@ Algunos hoteles limitan la cantidad de dispositivos que cada cliente puede conec
 
    Seleccione Manual Mode, introduzca la dirección MAC obtenida en el paso 1 y haga clic en Apply.
 
-   ![MAC manual](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
+   ![MAC manual](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/mac_address_manual.png){class="glboxshadow"}
 
    **Para firmware v4.6 y superior**, seleccione INTERNET en el lado izquierdo -> sección Repeater y haga clic en Modify.
 
-   ![repeater modify](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
+   ![repeater modify](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/repeater_modify.png){class="glboxshadow gl-90-desktop"}
 
    En la ventana emergente, cambie MAC Mode a Clone, introduzca manualmente la dirección MAC y haga clic en Apply.
 
-   ![repeater clone mac](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_a_hotspot_with_captive_portal/repeater_clone_mac.png){class="glboxshadow gl-90-desktop"}
+   ![repeater clone mac](https://static.gl-inet.com/docs/router/en/4/faq/connect_to_a_hotspot_with_captive_portal/repeater_clone_mac.png){class="glboxshadow gl-90-desktop"}
 
 3. Puede ser necesario reiniciar el router para que los cambios surtan efecto.
 

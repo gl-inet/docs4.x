@@ -24,7 +24,7 @@ Możesz zaktualizować firmware przez panel administracyjny WWW.
 
     **Uwaga:** Firmware 4.x nie jest zgodny z firmware 3.x. Podczas aktualizacji z firmware 3.x **NIE** zachowuj ustawień.
 
-    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/gl-ax1800_upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
+    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_to_4/ax1800_upgrade_4.png){class="glboxshadow gl-90-desktop"}
 
 ## Metoda 2. Aktualizacja przez U-Boot
 

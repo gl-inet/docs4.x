@@ -18,11 +18,11 @@ Ce tutoriel présente les étapes pour configurer un serveur WireGuard via Astro
 
         Sur le panneau d'administration web du serveur, allez dans **VPN** -> **VPN Dashboard** -> section **VPN Server**. Cliquez sur l'icône d'engrenage à droite du serveur WireGuard.
 
-        ![server options 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server_options_4.7.png){class="glboxshadow gl-90-desktop"}
+        ![server options 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/server_options_4.7.png){class="glboxshadow gl-90-desktop"}
 
         Activez **Remote Access LAN**, puis cliquez sur **Apply**.
 
-        ![server allow access lan 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server-allow-access-lan-4.7.png){class="glboxshadow"}
+        ![server allow access lan 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/server-allow-access-lan-4.7.png){class="glboxshadow"}
 
         **Lorsque cette option est activée, ce routeur et les périphériques du LAN sont accessibles à distance via le VPN.**
 
@@ -30,11 +30,11 @@ Ce tutoriel présente les étapes pour configurer un serveur WireGuard via Astro
 
         Sur le panneau d'administration web du serveur, allez dans **VPN** -> **WireGuard Server**. Cliquez sur **Options** dans le coin supérieur droit.
 
-        ![server options 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server_options_4.8.png){class="glboxshadow gl-90-desktop"}
+        ![server options 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/server_options_4.8.png){class="glboxshadow gl-90-desktop"}
 
         Activez **Allow Remote Access the LAN Subnet**, puis cliquez sur **Apply**.
 
-        ![server allow access lan 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/server-allow-access-lan-4.8.png){class="glboxshadow"}
+        ![server allow access lan 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/server-allow-access-lan-4.8.png){class="glboxshadow"}
 
         **Lorsque cette option est activée, ce routeur et les périphériques du LAN sont accessibles à distance via le VPN.**
 

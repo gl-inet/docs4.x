@@ -24,7 +24,7 @@ Starting from v4.7, users can directly access the LuCI page from the GoodCloud p
 
     ![change port](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/change_port.png){class="glboxshadow"}
 
-3. You will be re-directed to the LuCI login page. Enter your admin password to log in.
+3. You will be redirected to the LuCI login page. Enter your admin password to log in.
 
     ![log in luci](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci.png){class="glboxshadow gl-80-desktop"}
 
@@ -44,7 +44,7 @@ Starting from v4.7, users can directly access the LuCI page from the GoodCloud p
 
     ![vist web apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/visit_web_apply.png){class="glboxshadow"}
 
-3. You will then be re-directed to the GL.iNet Admin Panel login page. Enter your admin password to log in.
+3. You will then be redirected to the GL.iNet Admin Panel login page. Enter your admin password to log in.
 
     ![admin panel login](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/admin_panel_login.png){class="glboxshadow"}
 
@@ -52,7 +52,7 @@ Starting from v4.7, users can directly access the LuCI page from the GoodCloud p
 
     ![advanced settings](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/advanced_settings.png){class="glboxshadow"}
 
-    You will be re-directed to the LuCI login page. Enter the same admin password to log in.
+    You will be redirected to the LuCI login page. Enter the same admin password to log in.
 
     ![log in luci](https://static.gl-inet.com/docs/router/en/4/tutorials/access_luci_via_goodcloud/log_in_luci.png){class="glboxshadow gl-80-desktop"}
 

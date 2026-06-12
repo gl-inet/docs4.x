@@ -46,7 +46,7 @@ Dans le panneau d'administration web, dans la barre latérale gauche, accédez �
 
 Cliquez sur l'icône d'enveloppe en haut à droite pour accéder à la page SMS, où vous trouverez les paramètres de transfert de SMS (**SMS Forwarding**).
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow"}
+![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Transfert par e-mail
 

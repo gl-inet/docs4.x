@@ -2552,31 +2552,31 @@
     }
   },
   "docs/en/docs/interface_guide/openvpn_client.md": {
-    "source_hash": "e1f83c9ad31e860d0a19d03c0282b98ae25ae7b449a0ba6fb9a8c996cccbd4f2",
+    "source_hash": "962dd1e72f8c544b49c400f1a3f849f83ad9d901fef438f4fde477dbba0a699c",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "gpt-5.4",
+        "updated_at": 1781082966
       }
     }
   },
@@ -3944,7 +3944,7 @@
     }
   },
   "docs/en/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md": {
-    "source_hash": "a09d603e6c149a668916e81fb15e093728ea266bec0fc85194af0d52fdd8d48a",
+    "source_hash": "c43297579f8538901d389d91b2a620d3a490c703c352049f9ccd04f0631cdfa5",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -5046,7 +5046,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-b1300/index.md": {
-    "source_hash": "5dc040e68c71c477961e18e9121560e34117a95650d2fe5121ca6a7cc0fbbc41",
+    "source_hash": "a6005636961274e84bb3887933e26e8b32ec1348650418a8b85f2c9e4fc4d901",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -5133,31 +5133,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-be3600/index.md": {
-    "source_hash": "794ca00f517bc3b869724df87fc0cd74e852f6b0f1eaf741a21058e16e9b8733",
+    "source_hash": "c86698b8529c04468735adfdbe5574a1b5b089d6747de1c1dd235d454339416a",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781005292
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781005442
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1779027607
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781005580
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1779027605
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781005760
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1779027949
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781005984
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1779028031
+        "model": "deepseek-v4-pro",
+        "updated_at": 1781006211
       }
     }
   },
@@ -5655,7 +5655,7 @@
     }
   },
   "docs/en/docs/user_guide/gl-sft1200/index.md": {
-    "source_hash": "c1a21d5bc22934ad2d620ac3b3cc70d5139898f423982200f3d0f171f9a7714e",
+    "source_hash": "476f6c0ce50fbce382e9ef7cb37d09a241bb31b29b4f146de892790be2bc09f1",
     "targets": {
       "de": {
         "model": "pre-existing",
@@ -6032,31 +6032,31 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "1ece1ba24db7f7f85d7b6283cfc808d8804859aa2ea0cbc589498699d8a2e141",
+    "source_hash": "81d305db4af0b6699ce16e4692545c5bd338ff988703c1c36188deb410aa6ba7",
     "targets": {
       "de": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780916947
+        "updated_at": 1781144181
       },
       "es": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917125
+        "updated_at": 1781144181
       },
       "fr": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917336
+        "updated_at": 1781144181
       },
       "it": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917502
+        "updated_at": 1781144181
       },
       "jp": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917614
+        "updated_at": 1781144181
       },
       "pl": {
         "model": "deepseek-v4-pro",
-        "updated_at": 1780917779
+        "updated_at": 1781144181
       }
     }
   },

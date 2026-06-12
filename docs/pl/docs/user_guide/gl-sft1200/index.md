@@ -4,7 +4,7 @@
 
 Opal (GL-SFT1200) to kieszonkowy router podróżny obsługujący bezprzewodową prędkość transmisji 1200 Mb/s. Został zaprojektowany w kompaktowej formie do użytku przenośnego i może spełnić potrzeby bezprzewodowego dostępu do Internetu małych firm, małych mieszkań lub podróżujących służbowo.
 
-![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/3/setup/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
+![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
 ## Zawartość opakowania
 

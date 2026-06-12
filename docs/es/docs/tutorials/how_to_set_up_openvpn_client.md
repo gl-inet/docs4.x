@@ -16,7 +16,7 @@ A continuación se indican los pasos para configurar un cliente OpenVPN mediante
 
 Abra un navegador web y acceda al panel de administración web del router, con IP predeterminada `192.168.8.1`. Inicie sesión con su contraseña de administrador.
 
-![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/router-login.jpeg){class="glboxshadow"}
+![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/router-login.jpeg){class="glboxshadow"}
 
 ## 2. Configura el cliente VPN
 

@@ -4,11 +4,11 @@ Si vous rencontrez un échec du partage de connexion avec un iPhone, essayez les
 
 1. Assurez-vous que **Maximise Compatibility** est **Enabled** (iPhone 8 ou version ultérieure).
 
-    ![maxcompat](https://static.gl-inet.com/docs/router/en/4/tutorials/iphone_tethering_fail/maxcompat.PNG){class="glboxshadow gl-50-desktop" }
+    ![maxcompat](https://static.gl-inet.com/docs/router/en/4/faq/iphone_tethering_fail/maxcompat.png){class="glboxshadow gl-50-desktop" }
 
 2. Désactivez le point d'accès sur votre téléphone, attendez 5 secondes, puis réactivez-le.
 
-    ![hotspot](https://static.gl-inet.com/docs/router/en/4/tutorials/iphone_tethering_fail/hotspot.PNG){class="glboxshadow gl-50-desktop"}
+    ![hotspot](https://static.gl-inet.com/docs/router/en/4/faq/iphone_tethering_fail/hotspot.png){class="glboxshadow gl-50-desktop"}
 
 3. Assurez-vous que la version d'iOS est 15 ou supérieure.
 

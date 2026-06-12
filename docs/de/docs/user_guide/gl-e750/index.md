@@ -6,7 +6,7 @@
 
 Mudi V2 (GL-E750V2) ist ein tragbarer 4G-LTE-Reiserouter, der mit Netzbetreibern weltweit kompatibel ist. Er läuft vollständig Open Source auf OpenWrt und GL.iNet SDK 4.0 und bietet dadurch umfassende Anpassungsmöglichkeiten sowie eine Vielzahl an Funktionen. Mudi V2 (GL-E750V2) unterstützt Wi-Fi-Geschwindigkeiten von 300 Mbit/s (2.4GHz) und 433 Mbit/s (5GHz) sowie MicroSD-Karten mit bis zu 1 TB. Er verfügt über einen integrierten 7000-mAh-Akku. Außerdem unterstützt er Multi-WAN (Failover und Load Balance), um für all Ihre Geräte eine stabile Verbindung sicherzustellen.
 
-![gl-e750v2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/hardware_info/e750_interface.jpg){class="glboxshadow"}
+![gl-e750v2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/hardware_info/e750_interface.jpg){class="glboxshadow"}
 
 ## Taste
 
@@ -26,7 +26,7 @@ Um den Standby-Modus ein- oder auszuschalten, drücken Sie die Einschalttaste 3 
 
 ## Lieferumfang
 
-![gl-e750v2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/first_time_setup/e750v2_unboxing.jpg){class="glboxshadow"}
+![gl-e750v2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/first_time_setup/e750v2_unboxing.jpg){class="glboxshadow"}
 
 - 1 x tragbarer 4G-LTE-Router Mudi V2 (GL-E750V2)
 - 1 x tragbarer 4G-LTE-Router Mudi V2 (GL-E750V2)
@@ -66,15 +66,15 @@ Hinweis: Wenn Sie eine SIM-Karte verwenden, müssen Sie diese vor dem Einschalte
 
 Drücken Sie die Einschalttaste, um das Gerät einzuschalten.
 
-![gl-e750v2 poweron](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_power-on.png){class="glboxshadow"}
+![gl-e750v2 poweron](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_power-on.png){class="glboxshadow"}
 
 Wenn Mudi V2 (GL-E750V2) ausgeschaltet ist, können Sie den Akkustand trotzdem überprüfen, indem Sie die Einschalttaste drücken. Der LED-Bildschirm zeigt den Akkustatus an, wenn Sie die Taste drücken.
 
-![gl-e750v2 battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_battery.png){class="glboxshadow"}
+![gl-e750v2 battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_battery.png){class="glboxshadow"}
 
 Stellen Sie sicher, dass Sie einen Standard-5V/2A-Netzadapter verwenden. Andernfalls kann es zu Fehlfunktionen kommen.
 
-![gl-e750v2 battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_charge.png){class="glboxshadow"}
+![gl-e750v2 battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_charge.png){class="glboxshadow"}
 
 ---
 
@@ -90,7 +90,7 @@ Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -98,7 +98,7 @@ Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines vorhande
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -106,7 +106,7 @@ Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit ak
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_tethering.png){class="glboxshadow"}
 
 ### Cellular
 
@@ -114,7 +114,7 @@ Entfernen Sie die rückseitige Abdeckung von Mudi V2 und setzen Sie eine SIM-Kar
 
 [Klicken Sie hier, um zu erfahren, wie Sie über Cellular eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750v2/internet/e750v2_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_cellular.png){class="glboxshadow"}
 
 Wenn Sie eine physische eSIM-Karte auf Ihrem GL.iNet-Router verwenden möchten, klicken Sie bitte hier: [Wie verwendet man die physische eSIM-Karte mit GL.iNet-Routern?](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 

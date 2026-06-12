@@ -45,7 +45,7 @@ On the left side of the web Admin Panel, go to **INTERNET** -> **Cellular** sect
 
 Click the envelope icon in the upper right to enter the SMS page, and you will find the SMS Forwarding settings.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow"}
+![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Forward via Email
 

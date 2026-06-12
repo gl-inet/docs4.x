@@ -2,7 +2,7 @@
 
 ## Panoramica del prodotto
 
-Slate 7 (GL-BE3600) e il primo router da viaggio portatile Wi-Fi 7 dual-band di GL.iNet, realizzato con tecnologie Wi-Fi 7 di fascia alta come Multi-Link Operation e 4K QAM. Offre velocita teoriche dual-band di 688 Mbps (2,4 GHz) e 2882 Mbps (5 GHz), consentendo streaming 8K fluido ed esperienze di gioco mobile di alto livello. Il touchscreen permette di controllare a colpo d'occhio lo stato della rete ed eseguire operazioni di base in modo intuitivo.
+Slate 7 (GL-BE3600) e il primo router da viaggio portatile Wi-Fi 7 dual-band di GL.iNet, realizzato con tecnologie Wi-Fi 7 di fascia alta come Multi-Link Operation e 4K QAM. Offre velocita teoriche dual-band di 688Mbps (2.4GHz) e 2882Mbps (5GHz), consentendo streaming 8K fluido ed esperienze di gioco mobile di alto livello. Il touchscreen permette di controllare a colpo d'occhio lo stato della rete ed eseguire operazioni di base in modo intuitivo.
 
 Dotato di 2 porte Ethernet da 2,5G (1 WAN + 1 LAN) e 1 porta USB 3.0, il router soddisfa le esigenze di connessioni cablate ad alta velocita e di espansione flessibile dello storage. Supporta inoltre l'alimentazione Type-C PD (5V/3A, 9V/3A, 12V/2,5A) e presenta un design compatto e leggero, ideale da portare con sé. Preinstallato con AdGuard Home e compatibile con oltre 30 servizi VPN, offre una protezione robusta per la rete. Combinando praticita mobile e prestazioni di livello professionale, Slate 7 e la scelta ideale per il lavoro da remoto e la condivisione della rete in mobilita.
 
@@ -28,18 +28,18 @@ Guarda qui sotto il video di unboxing di Slate 7.
 
 | Visualizzazione sullo schermo | Descrizione |
 | :---------------------------- | :---------- |
-| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png) | Avvio in corso |
-| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png) | Tipi di connessione di rete e stato<br>**Verde**: attiva / connessa<br>**Giallo**: connessione in corso / anomala<br>**Bianco**: connessione inattiva |
-| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png) | Dettagli Wi-Fi, inclusi SSID, password, codice QR e pulsante di accensione/spegnimento |
-| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="284"} | Stato VPN. Richiede la configurazione iniziale nel pannello di amministrazione web |
-| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png) | AdGuard Home |
-| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png) | Tor |
-| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png) | Statistiche del traffico<br>Si riferiscono alla velocita media di tutto il traffico che passa attraverso il router, calcolata ogni 3 secondi |
-| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png) | Utilizzo del sistema |
-| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png) | Fuso orario |
-| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png) | Menu di sistema<br>Scorri dall'alto verso il basso per accedere al menu di sistema |
-| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png) | Tocca lo schermo per riattivarlo e scorri da sinistra a destra per sbloccarlo |
-| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png) | Dopo aver toccato "Reboot", scorri da sinistra a destra per confermare |
+| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){width="400"} | Avvio in corso |
+| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){width="400"} | Tipi di connessione di rete e stato<br>**Verde**: attiva / connessa<br>**Giallo**: connessione in corso / anomala<br>**Bianco**: connessione inattiva |
+| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){width="400"} | Dettagli Wi-Fi, inclusi SSID, password, codice QR e pulsante di accensione/spegnimento |
+| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="400"} | Stato VPN. Richiede la configurazione iniziale nel pannello di amministrazione web |
+| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){width="400"} | AdGuard Home |
+| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png){width="400"} | Tor |
+| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){width="400"} | Statistiche del traffico<br>Si riferiscono alla velocita media di tutto il traffico che passa attraverso il router, calcolata ogni 3 secondi |
+| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png){width="400"} | Utilizzo del sistema |
+| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png){width="400"} | Fuso orario |
+| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png){width="400"} | Menu di sistema<br>Scorri dall'alto verso il basso per accedere al menu di sistema |
+| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | Tocca lo schermo per riattivarlo e scorri da sinistra a destra per sbloccarlo |
+| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | Dopo aver toccato "Reboot", scorri da sinistra a destra per confermare |
 
 ## Come configurare Slate 7
 
@@ -124,7 +124,7 @@ Di seguito trovi una panoramica delle funzioni presenti nel pannello di amminist
 
 ## Wireless
 
-La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 5 GHz e 2,4 GHz, tra cui attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalita di sicurezza Wi-Fi e password, visibilita dell'SSID, modalita Wi-Fi, larghezza di banda e canale.
+La pagina Wireless consente di configurare le impostazioni delle reti Wi-Fi a 5 GHz e 2.4 GHz, tra cui attivazione del Wi-Fi, potenza TX, nome della rete Wi-Fi (SSID), BSSID casuale, modalita di sicurezza Wi-Fi e password, visibilita dell'SSID, modalita Wi-Fi, larghezza di banda e canale.
 
 Inoltre, Slate 7 supporta il Wi-Fi MLO, cioe Multi-Link Operation, che combina simultaneamente piu reti wireless per ottenere maggiore larghezza di banda e connessioni piu affidabili.
 
@@ -337,7 +337,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     * LED Display Schedule: imposta una pianificazione per accendere o spegnere automaticamente i LED del router, riducendo l'inquinamento luminoso in determinati orari.
     * Schedule Reboot: configura il riavvio automatico del router a intervalli specifici per mantenere prestazioni e stabilita ottimali.
-    * Wi-Fi Status Schedule: imposta una pianificazione per controllare la banda Wi-Fi 5 GHz / 2,4 GHz / MLO, gestendo meglio disponibilita della rete e consumo energetico.
+    * Wi-Fi Status Schedule: imposta una pianificazione per controllare la banda Wi-Fi 5 GHz / 2.4 GHz / MLO, gestendo meglio disponibilita della rete e consumo energetico.
     
     Queste opzioni di pianificazione offrono maggiore controllo sul funzionamento del router, garantendo che soddisfi esigenze e preferenze specifiche.
 

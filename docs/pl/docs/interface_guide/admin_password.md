@@ -8,7 +8,7 @@ Strona **Admin Password** umożliwia ustawienie lub zmianę hasła do interfejsu
 
 Po lewej stronie panelu administracyjnego WWW przejdź do **SYSTEM** > **Admin Password**.
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
+![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_password/admin_password.png){class="glboxshadow"}
 
 Tutaj możesz zmienić hasło logowania do panelu administracyjnego WWW routera. Aby wprowadzić zmiany, musisz podać aktualne hasło.
 

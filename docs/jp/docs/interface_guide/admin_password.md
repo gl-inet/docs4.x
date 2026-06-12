@@ -8,7 +8,7 @@
 
 Web管理パネルの左側で、**SYSTEM** > **Admin Password** に移動します。
 
-![admin password](https://static.gl-inet.com/docs/router/en/4/tutorials/admin_password/admin_password.png){class="glboxshadow"}
+![admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/admin_password/admin_password.png){class="glboxshadow"}
 
 ルーターのWeb管理パネルのログインパスワードを変更できます。変更するには現在のパスワードが必要です。
 

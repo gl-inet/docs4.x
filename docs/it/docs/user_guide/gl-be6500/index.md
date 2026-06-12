@@ -57,7 +57,7 @@ Configura Flint 3e usando uno dei metodi di connessione Internet supportati: Eth
 
 === "Ethernet"
     
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_ethernet.jpg){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_ethernet.jpg){class="glboxshadow"}
 
     Collega la porta WAN di Flint 3e a un dispositivo upstream, ad esempio un modem, tramite un cavo Ethernet.
     
@@ -67,7 +67,7 @@ Configura Flint 3e usando uno dei metodi di connessione Internet supportati: Eth
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_repeater.jpg){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_repeater.jpg){class="glboxshadow"}
 
     1. Nella pagina INTERNET del pannello di amministrazione web, individua la sezione Repeater e fai clic su **Connect**.
     2. Seleziona una rete Wi-Fi tra quelle disponibili.
@@ -79,7 +79,7 @@ Configura Flint 3e usando uno dei metodi di connessione Internet supportati: Eth
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_tethering.jpg){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_tethering.jpg){class="glboxshadow"}
 
     1. Collega il dispositivo mobile, ad esempio uno smartphone o un dongle USB, alla porta USB del router tramite un cavo USB.
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita USB Tethering.
@@ -91,7 +91,7 @@ Configura Flint 3e usando uno dei metodi di connessione Internet supportati: Eth
 
 === "Cellular"
 
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_cellular.jpg){class="glboxshadow"}
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_cellular.jpg){class="glboxshadow"}
 
     Inserisci un modem USB cellulare nella porta USB di Flint 3e. Questo metodo e utile per condividere la connessione Internet di un modem USB con tutti i dispositivi collegati.
 

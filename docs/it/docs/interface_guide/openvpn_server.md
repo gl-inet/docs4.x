@@ -38,7 +38,7 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
 1. Fai clic su **Generate Configuration** solo per la configurazione iniziale del server VPN.
 
-    ![ovpn server generate configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ovpnserver_generate_config.png){class="glboxshadow"}
+    ![ovpn server generate configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_generate_config.png){class="glboxshadow"}
 
 2. Applica la configurazione.
 
@@ -48,7 +48,7 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
     Se hai modificato la configurazione, fai clic su **Apply** prima di esportare la configurazione client.
 
-    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
+    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
     * **Device Mode:** TAP-S2S oppure Tun. Fai clic [qui](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md/#tap-s2s-vs-tun-mode) per vedere le differenze.
 
@@ -64,17 +64,17 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
         Ecco un esempio di creazione di un utente.
 
-        ![openvpn server add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ovpnserver_add_a_user.png){class="glboxshadow"}
+        ![openvpn server add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_add_a_user.png){class="glboxshadow"}
 
     * **Advanced Configuration**: se necessario, puoi modificare ulteriori impostazioni del server.
 
-        ![openvpn server advancd configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ovpnserver_advanced_config.png){class="glboxshadow"}
+        ![openvpn server advancd configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_advanced_config.png){class="glboxshadow"}
 
 3. Esporta la configurazione client.
 
     Fai clic su **Export Client Configuration** in fondo alla scheda Configuration, oppure applica prima la configurazione modificata, quindi comparira' una finestra come mostrato di seguito.
 
-    ![openvpn export config](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ovpnserver_export_config.png){class="glboxshadow"}
+    ![openvpn export config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_export_config.png){class="glboxshadow"}
 
     - Se l'IP pubblico della tua rete cambia spesso, puoi abilitare [DDNS](ddns.md) per usare il dominio DDNS come indirizzo del server.
 
@@ -86,7 +86,7 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
     Fai clic sul pulsante **Start** nell'angolo superiore destro della pagina OpenVPN Server per avviare il server. Poi vai alla pagina VPN Dashboard per verificarne lo stato e le altre impostazioni.
 
-    ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/start_ovpnserver.png){class="glboxshadow"}
+    ![start openvpn server](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/start_ovpnserver.png){class="glboxshadow"}
 
 ## Verificare se OpenVPN Server funziona correttamente
 
@@ -96,11 +96,11 @@ Dal firmware v4.8 puoi controllare lo stato della connessione server nella pagin
 
 Se vengono mostrate le statistiche di traffico upload/download, significa che OpenVPN server e' in esecuzione.
 
-![openvpn server connected v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ovpnserver_status.jpg){class="glboxshadow"}
+![openvpn server connected v4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_status.jpg){class="glboxshadow"}
 
 Per il firmware v4.7 e precedenti, controlla lo stato della connessione server nella pagina **VPN Dashboard**.
 
-![openvpn server connected v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/openserverup.jpg){class="glboxshadow"}
+![openvpn server connected v4.7](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/openserverup.jpg){class="glboxshadow"}
 
 ### Verificare l'IP del client
 
@@ -110,7 +110,7 @@ Il metodo piu' semplice e' usare uno smartphone con l'[app OpenVPN ufficiale](ht
 
 Quando importi il file di configurazione nell'app OpenVPN, potrebbe comparire un promemoria come mostrato di seguito. Fai clic su **CONTINUE** per procedere, poiche' il certificato e' gia' incorporato nel file di configurazione.
 
-![openvpn app select certificate](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/select_certificate.png){class="glboxshadow" width="360"}
+![openvpn app select certificate](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/select_certificate.png){class="glboxshadow" width="360"}
 
 Se la connessione non riesce, esistono diverse cause comuni:
 
@@ -123,11 +123,11 @@ Se la connessione non riesce, esistono diverse cause comuni:
 
 **Topologia di rete**
 
-![ptptopology](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/ptptopology.jpg){class="glboxshadow"}
+![ptptopology](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ptptopology.jpg){class="glboxshadow"}
 
 Abilita l'opzione client to client ed esporta una nuova configurazione verso i client; in questo modo i client potranno accedere l'uno all'altro.
 
-![peertopeer](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server/peertopeer.jpg){class="glboxshadow"}
+![peertopeer](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/peertopeer.jpg){class="glboxshadow"}
 
 ## Installazione dell'app OpenVPN
 

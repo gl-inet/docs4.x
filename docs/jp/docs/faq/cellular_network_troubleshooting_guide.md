@@ -8,7 +8,7 @@
     
     **1.2** Web管理パネルに**Modem名**、**IMEI**、**SIM ICCID**が表示されていることを確認してください。
 
-    ![modem name](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/no_sim.png){class="glboxshadow"}
+    ![modem name](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/no_sim.png){class="glboxshadow"}
     
     ファームウェアver.4.8以降では、**View More Information**をクリックしてSIM ICCIDを確認できます。
 
@@ -16,35 +16,35 @@
     
     **1.3** **View More**をクリックして**Cells Info**を確認し、シグナルが安定していることを確認してください。シグナルが非常に弱い場合は、アンテナが正しく設置されていることを確認するか、シグナルの良い場所にルーターを移動して再テストしてください。
 
-    ![cells info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/cells_info.png){class="glboxshadow"}
+    ![cells info](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/cells_info.png){class="glboxshadow"}
     
     **1.4** **View More**をクリックして、お使いのデバイスが対応する周波数帯が地域と互換性があるかどうかを確認してください。
 
-    ![frequency band](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/frequency_band.png){class="glboxshadow"}
+    ![frequency band](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/frequency_band.png){class="glboxshadow"}
 
 ??? "ソフトウェア設定を確認"
 
     **2.1** Web管理パネルにログインし、モバイルネットワーク接続プログラムが開始されていることを確認してください。**中止**をクリックしてから**接続**をクリックすることもできます。
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/2.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/2.png){class="glboxshadow gl-90-desktop"}
     
     **2.2** 一部の通信事業者では**3Gプロトコル**での接続が必要な場合があります。3Gプロトコルに切り替え、再テストしてください。
 
     ファームウェアver.4.7以前では、**Manual Setup** -> **Protocol**に移動し、**3G**を選択して**Apply**をクリックしてください。
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/3.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/3.png){class="glboxshadow gl-90-desktop"}
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/4.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/4.png){class="glboxshadow gl-90-desktop"}
 
     ファームウェアver.4.8以降では、**SIM Card Settings** -> **Protocol**に移動し、**3G**を選択して**Apply**をクリックしてください。
 
-    ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_protocol.png){class="glboxshadow gl-90-desktop"}
 
     デバイスは自動的に再接続されます。接続が成功したかどうかを確認するために数分お待ちください。
 
     **2.3** 一部のSIMカードには特定のAPNが必要です。SIMカードが登録できない場合は、通信事業者に制限がないかどうかを確認してください。必要な場合は、ルーター上で正しいAPNを設定し、**Apply**をクリックしてください。
 
-    ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
     **2.4** **Band Masking**を有効にして再テストしてください。ファームウェアver.4.7以前については、[このリンク](../interface_guide/internet_cellular_v4.7.md/#band-masking)を参照してください。ファームウェアver.4.8以降については、[このリンク](../interface_guide/internet_cellular.md/#band-masking)を参照してください。
 
@@ -80,9 +80,9 @@
 
     **3.6** SIMカードが登録されてIPアドレスを取得できるが、インターネットにアクセスできない場合（アップロードは動作するがダウンロードは動作しない）、SIMカードがキャリアによって制限されている可能性があります。キャリアに連絡して制限を解除するか、下図のようにTTLを65に設定して再テストしてください。
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/5.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/5.png){class="glboxshadow gl-90-desktop"}
     
-    ![](https://static.gl-inet.com/docs/router/en/4/faq/x3000_xe3000_connection/6.png){class="glboxshadow gl-90-desktop"}
+    ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/6.png){class="glboxshadow gl-90-desktop"}
 
     ネットワークキャリアに連絡する際は、デバイスのモデム名、IMEI、SIM ICCID、およびルーター型番を提供してください。
     

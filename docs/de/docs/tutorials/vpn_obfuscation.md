@@ -46,7 +46,7 @@ In diesem Szenario werden zwei GL.iNet-Router verwendet, um über das AmneziaWG-
 
     Navigieren Sie in der linken Seitenleiste zu **APPLICATIONS** -> **Dynamic DNS**. Aktivieren Sie **Enable DDNS**, stimmen Sie den **Terms of Service & Privacy Policy** zu und klicken Sie dann auf **Apply**.
 
-    ![enable ddns](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ddns.png){class="glboxshadow"}
+    ![enable ddns](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/enable_ddns.png){class="glboxshadow"}
 
 4. VPN-Verschleierung aktivieren.
 

@@ -5,7 +5,7 @@ SIMPoYo 4G uFi è la nostra serie di dongle USB Plug & Play compatti con hotspot
 
 Questa guida mostra come utilizzare il dongle USB SIMPoYo uFi (SP-N150C4), incluse le indicazioni LED, l'attivazione della SIM integrata, l'uso del dongle su diversi dispositivi, la ricarica del traffico dati e la gestione delle impostazioni uFi.
 
-![SIMPoYo uFi](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/sp-n150c4.jpg){class="glboxshadow"}
+![SIMPoYo uFi](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/sp-n150c4.jpg){class="glboxshadow"}
 
 ## Indicazioni LED
 
@@ -106,19 +106,19 @@ Guarda questo video oppure segui i passaggi sotto per collegare SIMPoYo uFi a un
 
 **Passaggio 1**. Collega SIMPoYo uFi alla porta USB del router GL.iNet.
 
-![setup1](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/setup1.png){class="glboxshadow"}
+![setup1](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/setup1.png){class="glboxshadow"}
 
 **Passaggio 2**. Collega un dispositivo al router, quindi apri il browser e visita `192.168.8.1` per accedere al pannello di amministrazione web del router. Se hai cambiato l'indirizzo IP del router, accedi usando quello nuovo.
 
-![setup2](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/setup2.png){class="glboxshadow"}
+![setup2](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/setup2.png){class="glboxshadow"}
 
 **Passaggio 3**. Nel pannello di amministrazione, vai su **INTERNET** -> **Tethering** e fai clic su **Connect**.
 
-![setup3](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/setup3.png){class="glboxshadow"}
+![setup3](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/setup3.png){class="glboxshadow"}
 
 **Passaggio 4**. Una volta connesso, vedrai i dettagli della rete, con un punto blu nell'angolo in alto a sinistra.
 
-![setup4](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/setup4.png){class="glboxshadow"}
+![setup4](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/setup4.png){class="glboxshadow"}
 
 Ora puoi collegare i tuoi dispositivi al router via cavo o Wi-Fi, oppure collegarti direttamente al Wi-Fi di SIMPoYo uFi per accedere a Internet.
 
@@ -142,7 +142,7 @@ Ora puoi collegare i tuoi dispositivi al router via cavo o Wi-Fi, oppure collega
 
 **Passaggio 2**. Altri dispositivi (ad esempio smartphone, tablet e così via) possono collegarsi contemporaneamente alla rete Wi-Fi a 2.4 GHz di SIMPoYo uFi per accedere a Internet.
 
-![multi-device](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/multi-device.jpg){class="glboxshadow"}
+![multi-device](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/multi-device.jpg){class="glboxshadow"}
 
 ### Collegarsi a una fonte di alimentazione USB
 
@@ -184,7 +184,7 @@ Puoi accedere al pannello di amministrazione di SIMPoYo uFi per gestire le impos
 
 3. Accedi con la password amministratore, che per impostazione predefinita coincide con la password Wi-Fi di SIMPoYo uFi.
 
-    ![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/0-simpoyo-login.png){class="glboxshadow"}
+    ![log in](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/0-simpoyo-login.png){class="glboxshadow"}
 
 **Suggerimento**: se hai dimenticato la password amministratore di SIMPoYo uFi, segui i passaggi sotto per reimpostarla:
 
@@ -196,17 +196,17 @@ Puoi accedere al pannello di amministrazione di SIMPoYo uFi per gestire le impos
 
 1. Seleziona **Status** dal menu superiore e vai su **Device & Network**. Entrerai nella home page dove viene mostrato lo stato della rete del dispositivo.
 
-    ![network status](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/1.1-device-network.png){class="glboxshadow"}
+    ![network status](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/1.1-device-network.png){class="glboxshadow"}
 
 2. Passa a **Cellular Network** dalla barra laterale sinistra per controllare i dettagli della rete cellulare, come la potenza del segnale.
 
-    ![cellular network](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/1.2-cellular-network.png){class="glboxshadow"}
+    ![cellular network](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/1.2-cellular-network.png){class="glboxshadow"}
 
 ### Controllare l'utilizzo dei dati
 
 1. Seleziona **Data Usage** dal menu superiore e vedrai download, upload, consumo totale di dati e durata.
 
-    ![data usage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/2-data-usage.png){class="glboxshadow"}
+    ![data usage](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/2-data-usage.png){class="glboxshadow"}
 
     Nota: i dati sono solo di riferimento. Per i valori esatti fai riferimento alla tua fattura.
 
@@ -216,7 +216,7 @@ Puoi accedere al pannello di amministrazione di SIMPoYo uFi per gestire le impos
 
 1. Seleziona **Settings** dal menu superiore e vai su **Wi-Fi Settings**.
 
-    ![wifi settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.1-wifi-settings.png){class="glboxshadow"}
+    ![wifi settings](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/3.1-wifi-settings.png){class="glboxshadow"}
 
 2. Personalizza nome e password della rete Wi-Fi di SIMPoYo uFi, quindi fai clic su **Apply**.
 
@@ -226,7 +226,7 @@ Se la tua scheda SIM richiede una configurazione manuale dell'APN, segui i passa
 
 1. Seleziona **Settings** dal menu superiore e vai su **Cellular Settings**.
 
-    ![cellular settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.2-cellular-settings.png){class="glboxshadow"}
+    ![cellular settings](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/3.2-cellular-settings.png){class="glboxshadow"}
 
 2. Imposta **APN Mode** su **Manual**.
 
@@ -240,7 +240,7 @@ Segui i passaggi sotto per abilitare il roaming.
 
 1. Seleziona **Settings** dal menu superiore e vai su **Roaming**.
 
-    ![roaming](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.3-roaming.png){class="glboxshadow"}
+    ![roaming](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/3.3-roaming.png){class="glboxshadow"}
 
 2. Seleziona **Enable** e fai clic su **Apply**.
 
@@ -252,7 +252,7 @@ Segui i passaggi sotto per abilitare il codice PIN.
 
 1. Seleziona **Settings** dal menu superiore e vai su **PIN Settings**.
 
-    ![pin settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.4-pin-settings.png){class="glboxshadow"}
+    ![pin settings](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/3.4-pin-settings.png){class="glboxshadow"}
 
 2. Seleziona **Enable**, imposta il codice PIN e fai clic su **Apply**.
 
@@ -262,7 +262,7 @@ La password amministratore predefinita è uguale alla password Wi-Fi. Per motivi
 
 1. Seleziona **Settings** dal menu superiore e vai su **Admin Settings**.
 
-    ![admin settings](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.5-admin-settings.png){class="glboxshadow"}
+    ![admin settings](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/3.5-admin-settings.png){class="glboxshadow"}
 
 2. Personalizza **Admin Password** e **Login Timeout**, quindi fai clic su **Apply**.
 
@@ -284,7 +284,7 @@ Se vuoi cambiare l'indirizzo IP o personalizzare le impostazioni DHCP, segui i p
 
 1. Seleziona **Settings** dal menu superiore e vai su **Advanced** -> **DHCP**.
 
-    ![dhcp](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.6-dhcp.jpg){class="glboxshadow"}
+    ![dhcp](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/3.6-dhcp.jpg){class="glboxshadow"}
 
 2. Qui puoi cambiare l'indirizzo IP del dispositivo, abilitare o disabilitare il server DHCP e impostare l'intervallo IP e la durata del lease. Configura le impostazioni DHCP e fai clic su **Apply**.
 
@@ -296,13 +296,13 @@ Il filtro MAC è disattivato per impostazione predefinita. Se vuoi abilitarlo, s
 
 1. Seleziona **Settings** dal menu superiore e vai su **Advanced** -> **MAC Filter**.
 
-    ![mac filter](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.6-mac-filter-1.png){class="glboxshadow"}
+    ![mac filter](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/3.6-mac-filter-1.png){class="glboxshadow"}
 
     L'elenco **User list** in alto mostra i dettagli dei dispositivi connessi. Verifica che il dispositivo che vuoi controllare sia presente nell'elenco. In caso contrario, ricollegalo al Wi-Fi di SIMPoYo uFi.
 
 2. Imposta **MAC Filter Mode** su **Black List** / **White List**.
 
-    ![mac filter](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/3.6-mac-filter-2.png){class="glboxshadow"}
+    ![mac filter](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/3.6-mac-filter-2.png){class="glboxshadow"}
 
 3. Copia l'indirizzo MAC del dispositivo che vuoi bloccare o consentire nell'elenco e fai clic su **Apply**.
 
@@ -314,17 +314,17 @@ Il filtro MAC è disattivato per impostazione predefinita. Se vuoi abilitarlo, s
     - Informazioni software (ad esempio versione software)
     - Informazioni WebUI (ad esempio versione WebUI)
 
-    ![upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/4.1-upgrade.jpg){class="glboxshadow"}
+    ![upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/4.1-upgrade.jpg){class="glboxshadow"}
 
 2. Se disponibile, puoi aggiornare la versione software.
 
     Passa a **Online Update** dalla barra laterale sinistra e fai clic sul pulsante **Check New Update** per verificare se è disponibile una nuova versione.
 
-    ![online upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/4.2-online-update.png){class="glboxshadow"}
+    ![online upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/4.2-online-update.png){class="glboxshadow"}
 
     Oppure passa a **Local Update** dalla barra laterale sinistra, carica un file e fai clic su **Apply** per eseguire l'aggiornamento manualmente.
 
-    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_simpoyo_ufi/4.3-local-update.png){class="glboxshadow"}
+    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/4.3-local-update.png){class="glboxshadow"}
 
 ## Guida agli accessori
 

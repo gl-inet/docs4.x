@@ -45,7 +45,7 @@ En el lado izquierdo del panel de administración web, vaya a **INTERNET** -> **
 
 Haga clic en el icono del sobre situado en la esquina superior derecha para entrar en la página de SMS. Allí encontrará la configuración de **SMS Forwarding**.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow"}
+![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Reenviar por correo electrónico
 

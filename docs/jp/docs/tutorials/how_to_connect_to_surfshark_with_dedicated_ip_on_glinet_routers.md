@@ -6,23 +6,23 @@
 
 1. Surfshark アカウントにログインし、**Dedicated IP** を選択します。
 
-    ![manualdip](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manualdip.jpg){calss="glboxshadow"}
+    ![manualdip](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/manualdip.jpg){calss="glboxshadow"}
 
 2. Dedicated IP セクションで **Settings** をクリックします。
 
-    ![setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark_dip/setting.jpg){calss="glboxshadow"}
+    ![setting](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/setting.jpg){calss="glboxshadow"}
 
 3. プロトコル（WireGuard または OpenVPN）を選択し、手動接続用の設定ファイルをダウンロードします。
 
-    ![protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/protocol.jpg){calss="glboxshadow"}
+    ![protocol](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/protocol.jpg){calss="glboxshadow"}
 
     WireGuard 設定では、ダウンロードページに Server IP と Server Public Key が表示されます。以下を参照してください。
 
-    ![loadwg](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark_dip/loadwg.jpg){calss="glboxshadow"}
+    ![loadwg](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadwg.jpg){calss="glboxshadow"}
 
     OpenVPN 設定では、ダウンロードページに Server IP と認証情報（Username & Password）が表示されます。以下を参照し、後で使うために認証情報をコピーしてください。
 
-    ![loadovpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/loadovpn.jpg){calss="glboxshadow"}
+    ![loadovpn](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadovpn.jpg){calss="glboxshadow"}
 
 4. 以下のリンクを参照して、設定ファイルを GL.iNet ルーターにアップロードします。必要に応じて認証情報を入力してください。
 

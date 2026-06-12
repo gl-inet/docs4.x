@@ -21,7 +21,7 @@ Questo tutorial presenta i passaggi per configurare un server OpenVPN tramite As
         3. Attiva l'interruttore per **Remote Access LAN**.
         4. Fai clic su **Apply**.
 
-            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/toggle-enable-remote-access-lan.png){class="glboxshadow"}
+            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/toggle-enable-remote-access-lan.png){class="glboxshadow"}
 
     ??? "Per firmware v4.8 e successivi"
 
@@ -30,7 +30,7 @@ Questo tutorial presenta i passaggi per configurare un server OpenVPN tramite As
         3. Attiva l'interruttore per **Allow Remote Access the LAN Subnet**.
         4. Fai clic su **Apply**.
 
-            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/enable-remote-access-lan-4.8.png){class="glboxshadow"}
+            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/enable-remote-access-lan-4.8.png){class="glboxshadow"}
 
 3. Registra un account AstroRelay e segui questo [tutorial](https://www.astrorelay.com/tutorial.html){target="_blank"} per completare la configurazione iniziale.
 

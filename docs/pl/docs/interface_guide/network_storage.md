@@ -58,11 +58,11 @@ W przypadku pamięci USB możesz ją bezpośrednio podłączyć do portu USB. W 
 
 Zaloguj się do panelu administratora routera i przejdź do **APPLICATIONS** -> **Network Storage**.
 
-![network storage](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/network_storage_init.png){class="glboxshadow"}
+![network storage](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/network_storage_init.png){class="glboxshadow"}
 
 Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się jak poniżej.
 
-![network storage, disk found](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/disk_found.png){class="glboxshadow"}
+![network storage, disk found](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/disk_found.png){class="glboxshadow"}
 
 ## Konfiguracja Samba {#set-up-samba}
 
@@ -70,19 +70,19 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
     * Allow Access Samba from WAN: Włącz, jeśli chcesz, aby urządzenia nadrzędne miały dostęp do Samba.
 
-    ![enable samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
+    ![enable samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
 
 2. Kliknij **Quick Setup Share**, aby ustawić łącze udostępniania.
 
-    ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow"}
+    ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow"}
 
 3. Dodaj użytkownika i kliknij **Next**. Ten krok zostanie pominięty, jeśli masz już konto.
 
-    ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
+    ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
 
 4. Kliknij ikonę trójkąta, aby wyświetlić wszystkie foldery. Wybierz folder do udostępnienia lub kliknij nazwę dysku (disk1_part1), jeśli chcesz udostępnić cały dysk. Następnie kliknij **Next**.
 
-    ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
+    ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
 
 5. Skonfiguruj folder udostępniony.
 
@@ -90,7 +90,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
     Użytkownik utworzony w poprzednim kroku zostanie domyślnie dodany do grupy **Read-Only User**. Jeśli chcesz, aby ten użytkownik mógł zapisywać lub usuwać pliki, usuń go z grupy Read-Only User i dodaj do grupy **Writable User**, a następnie kliknij **Apply**.
 
-    ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
+    ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
 
 6. Uzyskaj łącze dostępu do folderu.
 
@@ -98,7 +98,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
     
     Teraz możesz uzyskać dostęp do udostępnionego folderu za pośrednictwem usługi Samba za pomocą tych łączy. Kliknij [tutaj](#samba-client), aby uzyskać szczegóły.
 
-    ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+    ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_folder_access_link.png){class="glboxshadow"}
 
     **Uwaga:** Jeśli włączysz opcję **Allow Access Samba from WAN** i uzyskasz dostęp do folderu udostępnionego z sieci nadrzędnej, zastąp adres IP routera (domyślnie 192.168.8.1) w łączu dostępu adresem IP WAN routera, który znajdziesz na stronie INTERNET w panelu administratora.
 
@@ -114,19 +114,19 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
     * WebDAV Port: Nie ma potrzeby modyfikowania numeru portu, chyba że wystąpi konflikt. Zalecany zakres numerów portów to 1024–65535.
 
-    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow"}
+    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow"}
 
 2. Kliknij **Quick Setup Share**, aby ustawić łącze udostępniania.
 
-    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share.png){class="glboxshadow"}
+    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share.png){class="glboxshadow"}
 
 3. Dodaj użytkownika i kliknij **Next**. Ten krok zostanie pominięty, jeśli masz już konto.
 
-    ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
+    ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
 
 4. Kliknij ikonę trójkąta, aby wyświetlić wszystkie foldery. Wybierz folder do udostępnienia lub kliknij nazwę dysku (disk1_part1), aby udostępnić cały dysk. Następnie kliknij **Next**.
 
-    ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
+    ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
 
 5. Skonfiguruj folder udostępniony.
 
@@ -134,7 +134,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
     Użytkownik utworzony w poprzednim kroku zostanie domyślnie dodany do grupy **Read-Only User**. Jeśli chcesz, aby ten użytkownik mógł zapisywać lub usuwać pliki, usuń go z grupy Read-Only User i dodaj do grupy **Writable User**, a następnie kliknij **Apply**.
 
-    ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
+    ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
 
 6. Uzyskaj łącze dostępu do folderu.
 
@@ -142,7 +142,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
     
     Teraz możesz uzyskać dostęp do udostępnionego folderu za pośrednictwem usługi WebDAV za pomocą tych łączy. Kliknij [tutaj](#webdav-client), aby uzyskać szczegóły.
 
-    ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+    ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow"}
 
     **Uwaga:** Jeśli włączysz opcję **Allow Access WebDAV from WAN** i uzyskasz dostęp do folderu udostępnionego z sieci nadrzędnej, zastąp adres IP routera (domyślnie 192.168.8.1) w łączu dostępu adresem IP WAN routera, który znajdziesz na stronie INTERNET w panelu administratora.
 
@@ -152,7 +152,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
 Włącz przełącznik **Enable DLNA** i kliknij **Apply**.
 
-![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/enable_dlna.jpg){class="glboxshadow"}
+![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/enable_dlna.jpg){class="glboxshadow"}
 
 Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
 
@@ -166,27 +166,27 @@ Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
 
     Otwórz Eksplorator plików i kliknij prawym przyciskiem myszy **Ten komputer** (w lewym panelu). Z wyświetlonego menu kontekstowego wybierz **Pokaż więcej opcji** -> **Dodaj lokalizację sieciową**.
 
-    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location.png){class="glboxshadow"}
+    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/windows11_add_network_location.png){class="glboxshadow"}
 
     Kliknij **Wybierz niestandardową lokalizację sieciową**, a następnie kliknij **Dalej**.
 
-    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_2.png){class="glboxshadow"}
+    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/windows11_add_network_location_2.png){class="glboxshadow"}
 
     Wprowadź łącze dostępu do Samba. Następnie kliknij **Dalej**.
 
-    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_3.png){class="glboxshadow"}
+    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/windows11_add_network_location_3.png){class="glboxshadow"}
 
     Nadaj nazwę tej lokalizacji. Kliknij **Dalej**.
 
-    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_4.png){class="glboxshadow"}
+    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/windows11_add_network_location_4.png){class="glboxshadow"}
 
     Kliknij **Zakończ**.
 
-    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_5.png){class="glboxshadow"}
+    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/windows11_add_network_location_5.png){class="glboxshadow"}
 
     Jeśli wymagana jest nazwa użytkownika i hasło, zostaniesz poproszony o ich podanie. Następnie kliknij **OK**.
 
-    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/windows11_add_network_location_6.png){class="glboxshadow"}
+    ![windows 11 add network location](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/windows11_add_network_location_6.png){class="glboxshadow"}
 
 === "macOS"
 
@@ -194,17 +194,17 @@ Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
 
     Otwórz Findera i kliknij Idź -> Połącz z serwerem w menu. Skopiuj i wklej łącze dostępu do Samba.
 
-    ![network storage, mac os finder connect to server](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/finder_connect_to_server.png){class="glboxshadow"}
+    ![network storage, mac os finder connect to server](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/finder_connect_to_server.png){class="glboxshadow"}
 
     System poprosi o podanie nazwy użytkownika i hasła; nazwa użytkownika pochodzi z ustawień **Shared Folder Settings**.
     
     Jeśli skonfigurowałeś dostęp anonimowy, wybierz opcję **Guest** na poniższym zrzucie ekranu.
 
-    ![network storage, mac os finder connect to server username password](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/finder_username_password.png){class="glboxshadow"}
+    ![network storage, mac os finder connect to server username password](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/finder_username_password.png){class="glboxshadow"}
 
     Kliknij **Continue** – Samba pojawi się na pasku bocznym Findera.
 
-    ![network storage, mac os finder samba connected](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/finder_samba_connected.png){class="glboxshadow"}
+    ![network storage, mac os finder samba connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/finder_samba_connected.png){class="glboxshadow"}
 
 === "Android"
 
@@ -212,19 +212,19 @@ Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
 
     Na stronie głównej kliknij **NETWORK**.
 
-    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_home.png){class="glboxshadow" width="400"}
+    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/cx_file_explorer_home.png){class="glboxshadow" width="400"}
 
     Kliknij **New Location**.
     
-    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_new_location.png){class="glboxshadow" width="400"}
+    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/cx_file_explorer_new_location.png){class="glboxshadow" width="400"}
 
     Kliknij **SMB**.
 
-    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_remote.png){class="glboxshadow" width="350"}
+    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/cx_file_explorer_remote.png){class="glboxshadow" width="350"}
 
     Wprowadź **Host**, **Username**, **Password**. W przypadku **Anonymous Access** zaznacz opcję **Anonymous**.
 
-    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_smb.png){class="glboxshadow" width="350"}
+    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/cx_file_explorer_smb.png){class="glboxshadow" width="350"}
 
 === "iOS"
 
@@ -236,47 +236,47 @@ Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
 
         Otwórz aplikację **Files**. Jest ona zainstalowana domyślnie, więc powinna być widoczna na ekranie głównym. Ponieważ Files jest teraz aplikacją usuwalną, może być konieczne jej ponowne zainstalowanie z App Store, jeśli nie jest widoczna.
 
-        ![search files on iphone](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width=300"}
+        ![search files on iphone](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width=300"}
 
         Upewnij się, że jesteś na karcie **Browse** na dole ekranu. Stuknij ikonę „…" (trzy kropki) w prawym górnym rogu, aby wyświetlić menu kontekstowe aplikacji.
         
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width=560"}
 
         Stuknij opcję **Connect to Server** przy górze menu. Na następnym ekranie wprowadź adres URL połączenia z serwerem. Adres URL znajdziesz w sekcji [Shared Link](#shared-link). Stuknij przycisk **Next** w prawym górnym rogu, aby kontynuować.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width=560"}
 
         Na następnym ekranie możesz wprowadzić dane uwierzytelniające, jeśli łączysz się z chronionym udziałem sieciowym. Stuknij **Registered User** i wypełnij pola **Name** i **Password** nazwą użytkownika i hasłem Samba. Możesz stuknąć „Guest", jeśli włączyłeś opcję **Anonymous Access**.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios_files_smb_3.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_3.png){class="glboxshadow" width=560"}
 
         Naciśnij przycisk **Next** w prawym górnym rogu, aby zakończyć połączenie. Urządzenie iOS powinno pomyślnie połączyć się z serwerem i wyświetlić listę dostępnych udziałów.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios_files_smb_4.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_4.png){class="glboxshadow" width=560"}
 
         Udział Samba zostanie wyświetlony na dole menu, pod nagłówkiem **Shared**.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width=560"}
 
     - Przewodnik połączenia z serwerem Samba za pomocą aplikacji [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
 
         Kliknij przycisk plus w prawym dolnym rogu.
 
-        ![documents samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_1.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_1.png){class="glboxshadow" width="560"}
 
         Kliknij **Add Connection**.
 
-        ![documents samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_2.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_2.png){class="glboxshadow" width="560"}
 
         Kliknij **Windows SMB**.
 
-        ![documents samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_3.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_3.png){class="glboxshadow" width="560"}
 
         Pole **Title** służy jako nazwa tego połączenia. **URL** to łącze dostępu. **Login** to nazwa użytkownika. W przypadku dostępu anonimowego pozostaw pola **Login** i **Password** puste.
 
         Kliknij **Done**, aby zakończyć konfigurację.
 
-        ![documents samba](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/documents_4_samba.png){class="glboxshadow" width="560"}
+        ![documents samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/documents_4_samba.png){class="glboxshadow" width="560"}
 
 ## Klient WebDAV
 
@@ -288,7 +288,7 @@ Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
 
     Kliknij **Add**.
 
-    ![RaiDrive WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/raidrive_add.png){class="glboxshadow"}
+    ![RaiDrive WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/raidrive_add.png){class="glboxshadow"}
 
     W obszarze **Storage** kliknij **NAS** -> **WebDAV**.
 
@@ -298,7 +298,7 @@ Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
 
     Na koniec kliknij **Connect** – w Eksploratorze plików pojawi się dysk X.
 
-    ![RaiDrive WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/raidrive_new_drive_webdav.png){class="glboxshadow"}
+    ![RaiDrive WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/raidrive_new_drive_webdav.png){class="glboxshadow"}
 
 === "macOS"
 
@@ -308,15 +308,15 @@ Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
 
     Kliknij przycisk Add.
 
-    ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/fe_file_explorer_add.png){class="glboxshadow"}
+    ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/fe_file_explorer_add.png){class="glboxshadow"}
 
     Wybierz **WebDAV**.
 
-    ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/fe_file_explorer_webdav.png){class="glboxshadow"}
+    ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/fe_file_explorer_webdav.png){class="glboxshadow"}
 
     Wprowadź ustawienia połączenia. W przypadku dostępu anonimowego pozostaw pola **User Name** i **Password** puste. Następnie kliknij **Save & Connect**.
 
-    ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/fe_file_explorer_webdav_connection_setting.png){class="glboxshadow"}
+    ![FE File Explorer WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/fe_file_explorer_webdav_connection_setting.png){class="glboxshadow"}
 
     Może pojawić się ostrzeżenie: *The following secure server (null) uses an untrusted certificate. Trust this server?* – wynika to z używania certyfikatu z podpisem własnym; zaakceptuj go.
 
@@ -328,19 +328,19 @@ Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
 
     Na stronie głównej kliknij **NETWORK**.
 
-    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_home.png){class="glboxshadow" width="400"}
+    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/cx_file_explorer_home.png){class="glboxshadow" width="400"}
 
     Kliknij **New Location**.
     
-    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_new_location.png){class="glboxshadow" width="400"}
+    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/cx_file_explorer_new_location.png){class="glboxshadow" width="400"}
 
     Kliknij **WebDAV**.
 
-    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/samba_client/cx_file_explorer_remote.png){class="glboxshadow" width="350"}
+    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/cx_file_explorer_remote.png){class="glboxshadow" width="350"}
 
     Wprowadź **Host**, **Port**, **Username**, **Password**.
 
-    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/cx_file_explorer_webdav.png){class="glboxshadow" width="350"}
+    ![cx file explorer home page](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/cx_file_explorer_webdav.png){class="glboxshadow" width="350"}
 
 === "iOS"
 
@@ -348,21 +348,21 @@ Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
 
     Kliknij przycisk plus w prawym dolnym rogu.
 
-    ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_1.png){class="glboxshadow" width="560"}
+    ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_1.png){class="glboxshadow" width="560"}
 
     Kliknij **Add Connection**.
 
-    ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_2.png){class="glboxshadow" width="560"}
+    ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_2.png){class="glboxshadow" width="560"}
 
     Kliknij **WebDAV Server**.
 
-    ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_3.png){class="glboxshadow" width="560"}
+    ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_3.png){class="glboxshadow" width="560"}
 
     Pole **Title** służy jako nazwa tego połączenia. **URL** to łącze dostępu. **Login** to nazwa użytkownika.
 
     Kliknij **Done**, aby zakończyć konfigurację.
 
-    ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
+    ![documents WebDAV](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_client/documents_4_webdav.png){class="glboxshadow" width="560"}
 
 ## Korzystanie z aplikacji mobilnej
 

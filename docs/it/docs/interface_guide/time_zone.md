@@ -6,11 +6,11 @@ Il router registra i timestamp delle attivita' in base al proprio orario di sist
 
 Il fuso orario non viene sincronizzato automaticamente. Fai clic sul pulsante **Sync** per aggiornarlo.
 
-![time zone no sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_no_sync.png){class="glboxshadow"}
+![time zone no sync](https://static.gl-inet.com/docs/router/en/4/interface_guide/time_zone/time_zone_no_sync.png){class="glboxshadow"}
 
 Dopo la sincronizzazione, la pagina apparira' come mostrato di seguito.
 
-![time zone sync](https://static.gl-inet.com/docs/router/en/4/tutorials/time_zone/time_zone_sync.png){class="glboxshadow"}
+![time zone sync](https://static.gl-inet.com/docs/router/en/4/interface_guide/time_zone/time_zone_sync.png){class="glboxshadow"}
 
 ---
 

@@ -4,11 +4,11 @@ Al utilizar un dispositivo de almacenamiento formateado en exFAT para un recurso
 
 - "The operation can't be completed because an unexpected error occurred, error code 100093."
 
-  ![error code 100093](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/macos_cannot_write_samba/macopyerror.jpg){class="glboxshadow"}
+  ![error code 100093](https://static.gl-inet.com/docs/router/en/4/faq/macos_cannot_write_samba/macopyerror.jpg){class="glboxshadow"}
 
 - "The operation can't be completed because an unexpected error occurred, error code -50."
 
-  ![error code -50](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/macos_cannot_write_samba/error-code-50.jpg){class="glboxshadow"}
+  ![error code -50](https://static.gl-inet.com/docs/router/en/4/faq/macos_cannot_write_samba/error-code-50.jpg){class="glboxshadow"}
 
 Intente resolver este problema con los siguientes métodos.
 
@@ -20,11 +20,11 @@ Intente resolver este problema con los siguientes métodos.
 
     Como Finder añade automáticamente atributos extendidos, por ejemplo, resource forks y metadata, durante las transferencias, lo que puede entrar en conflicto con el manejo de exFAT por parte de Samba, pruebe a usar el comando **cp -X file-name** para copiar el archivo.
 
-    ![macopyfile](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/macos_cannot_write_samba/macopyfile.png){class="glboxshadow"}
+    ![macopyfile](https://static.gl-inet.com/docs/router/en/4/faq/macos_cannot_write_samba/macopyfile.png){class="glboxshadow"}
 
     O use el comando **cp -rX folder-name** para copiar la carpeta.
 
-    ![macopyfolder](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/macos_cannot_write_samba/macopyfolder.png){class="glboxshadow"}
+    ![macopyfolder](https://static.gl-inet.com/docs/router/en/4/faq/macos_cannot_write_samba/macopyfolder.png){class="glboxshadow"}
 
 3.  **Reinicie su Mac.**
 

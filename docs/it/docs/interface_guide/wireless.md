@@ -108,7 +108,7 @@ Fai clic sulle schede qui sotto per conoscere le impostazioni di 2.4 GHz Main Wi
 
 * Quando si cambia **Channel** da un canale non-DFS a un canale DFS, verra' visualizzato un avviso come segue.
 
-    ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/tutorials/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
+    ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
 * Quando **Bandwidth** e' impostata su **160 MHz**, disponibile solo su alcuni modelli, il Wi-Fi utilizzera' sempre un canale DFS, anche se nelle impostazioni del canale scegli un canale non-DFS oppure Auto.
 

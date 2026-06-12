@@ -6,7 +6,7 @@ Si el router presenta fallos, puede intentar resolver el problema restableciendo
 
 **Nota:** Se perderán todos sus ajustes, aplicaciones y datos actuales. El proceso tardará unos 2 minutos. NO apague el router durante este proceso.
 
-![reset firmware](https://static.gl-inet.com/docs/router/en/4/tutorials/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
+![reset firmware](https://static.gl-inet.com/docs/router/en/4/interface_guide/reset_firmware/reset_firmware_4.8.png){class="glboxshadow"}
 
 Si no puede acceder al panel de administración web, vea el siguiente vídeo para restablecerlo usando el botón de reinicio.
 

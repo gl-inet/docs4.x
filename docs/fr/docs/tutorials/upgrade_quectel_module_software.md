@@ -16,7 +16,7 @@
 
 2. Connectez-vous au panneau d’administration Web de votre routeur, puis accédez à **SYSTEM** -> **Upgrade** -> **Modem Local Upgrade**, et téléversez le firmware du module (au format .zip).
     
-    ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
+    ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/modem_local_upgrade.png){class="glboxshadow"}
 
 **Méthode 2. Mise à niveau via SSH**
 

@@ -6,7 +6,7 @@
 
 以下のように、クライアント側 LAN 上の PC から、それぞれのドメイン名を使って OpenVPN サーバー側 LAN にある NAS や IP カメラへアクセスできます。
 
-![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/topology_be9300_be3600.png){class="glboxshadow"}
+![topology](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/topology_be9300_be3600.png){class="glboxshadow"}
 
 ## 設定手順
 
@@ -26,11 +26,11 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 サーバーの Web 管理画面で、**VPN** -> **OpenVPN Server** に移動します。右上の **Options** をクリックします。
 
-![ovpnserver options 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnserver_options.png){class="glboxshadow"}
+![ovpnserver options 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/ovpnserver_options.png){class="glboxshadow"}
 
 **Allow Remote Access the LAN Subnet** を有効にし、**Apply** をクリックします。
 
-![ovpnserver allow access lan 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/allow_remote_access_lan.png){class="glboxshadow"}
+![ovpnserver allow access lan 4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/allow_remote_access_lan.png){class="glboxshadow"}
 
 有効にすると、VPN 経由でルーターおよび LAN 上の機器にリモートアクセスできるようになります。
 
@@ -38,17 +38,17 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 サーバーの管理画面で、**VPN** -> **OpenVPN Server** -> **Configuration** タブに移動し、下部の **Export Client Configuration** をクリックします。
 
-![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/export1.png){class="glboxshadow"}
+![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/export1.png){class="glboxshadow"}
 
 ポップアップウィンドウで **Export** をクリックします。
 
 **Note**: サーバーのパブリックIPアドレスが動的で時々変わる場合は、クライアント設定をエクスポートする前に **APPLICATIONS** -> **Dynamic DNS** に移動して **DDNS** を有効にしてください。
 
-![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/export2.png){class="glboxshadow"}
+![export config](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/export2.png){class="glboxshadow"}
 
 その後、以下のような **.ovpn** ファイルが取得されます。
 
-![downloads](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/download.png){class="glboxshadow"}
+![downloads](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/download.png){class="glboxshadow"}
 
 サーバールーターのファームウェアが v4.8 以降の場合は、設定ファイルを編集する必要はありません。そのまま次の手順へ進んでください。
 
@@ -56,49 +56,49 @@ VPN サーバールーターの Web 管理画面にログインし、**NETWORK**
 
 `dns server 1 address 10.8.0.1`
 
-![edit config](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/edit_config.png){class="glboxshadow"}
+![edit config](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/edit_config.png){class="glboxshadow"}
 
 ヒント: OpenVPN サーバーのトンネル IPv4 サブネットは、下図のように OpenVPN Server ページの **Configuration** タブで確認できます。ファームウェアバージョンによって異なるため、実際の OpenVPN サーバーのトンネル IP を確認してください。
 
-![ovpnserver tunnel ip](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnserver_tunnel_ip.png){class="glboxshadow"}
+![ovpnserver tunnel ip](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/ovpnserver_tunnel_ip.png){class="glboxshadow"}
 
 ### 4. VPNサーバーを有効にする
 
 **OpenVPN Server** ページで、右上の **Start** ボタンをクリックしてサーバーを起動します。
 
-![start server](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnserver_start.png){class="glboxshadow"}
+![start server](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/ovpnserver_start.png){class="glboxshadow"}
 
 ### 5. VPN設定をアップロードする
 
 VPN クライアントルーターの Web 管理画面にログインし、**VPN** -> **OpenVPN Client** に移動して **Add Manually** をクリックします。
 
-![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_upload1.png){class="glboxshadow"}
+![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/ovpnclient_upload1.png){class="glboxshadow"}
 
 このグループの名前を作成し、設定ファイルをアップロードします。
 
-![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_upload2.png){class="glboxshadow"}
+![add manually](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/ovpnclient_upload2.png){class="glboxshadow"}
 
 アップロードが成功したら、**Apply** をクリックします。
 
-![apply](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_upload3.png){class="glboxshadow"}
+![apply](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/ovpnclient_upload3.png){class="glboxshadow"}
 
 設定ファイルがここに表示されます。
 
-![applied](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_upload4.png){class="glboxshadow"}
+![applied](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/ovpnclient_upload4.png){class="glboxshadow"}
 
 ### 6. VPNクライアント接続を開始する
 
 三点アイコンをクリックして VPN 接続を開始します。
 
-![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_start.png){class="glboxshadow"}
+![start client](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/ovpnclient_start.png){class="glboxshadow"}
 
 灰色のドットが緑色に変われば、OpenVPN クライアントはサーバーに正常に接続されています。
 
-![ovpnclient connected](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ovpnclient_connected.png){class="glboxshadow"}
+![ovpnclient connected](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/ovpnclient_connected.png){class="glboxshadow"}
 
 これで、クライアント側 LAN の PC から、ドメイン名を使ってサーバー側 LAN 上の家庭内機器（NAS など）へアクセスできます。
 
-![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/ping_test.png){class="glboxshadow"}
+![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_access_ovpnserver_lan_via_domain_name/ping_test.png){class="glboxshadow"}
 
 ---
 

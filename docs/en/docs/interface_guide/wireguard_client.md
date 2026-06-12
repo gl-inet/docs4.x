@@ -72,7 +72,7 @@ In the web Admin Panel, go to **VPN** -> **WireGuard Client** -> **AzireVPN**.
 
 5. Go renew.
 
-    If you click **Go Renew**, you will be re-directed to the official website to renew your subscription.
+    If you click **Go Renew**, you will be redirected to the official website to renew your subscription.
 
     ![azirevpn go renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn7.png){class="glboxshadow"}
 
@@ -210,7 +210,7 @@ In the web Admin Panel, go to **VPN** -> **WireGuard Client** -> **Mullvad**.
 
 6. Go renew.
 
-    If you click **Go Renew**, you will be re-directed to the official website to renew your subscription.
+    If you click **Go Renew**, you will be redirected to the official website to renew your subscription.
 
     ![mullvad go renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad8.png){class="glboxshadow"}
 

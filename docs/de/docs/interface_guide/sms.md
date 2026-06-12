@@ -47,19 +47,19 @@ Gehen Sie in der Web-Adminoberfläche auf der linken Seite zum Abschnitt **INTER
 
 Klicken Sie oben rechts auf das Umschlagsymbol.
 
-![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/sms.png){class="glboxshadow gl-90-desktop"}
+![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms2.png){class="glboxshadow gl-90-desktop"}
 
 Sie werden zur SMS-Seite weitergeleitet, auf der Sie eingehende Nachrichten ansehen oder neue Nachrichten senden können.
 
-![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
+![sms receive](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
 
 Klicken Sie auf eine Nachricht, um die Details anzuzeigen.
 
-![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
+![sms detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_detail.png){class="glboxshadow"}
 
 Klicken Sie oben rechts auf die Schaltfläche **Send Message**, um eine neue Nachricht zu verfassen.
 
-![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message.jpg){class="glboxshadow"}
+![sms new message](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_new_message.jpg){class="glboxshadow"}
 
 * Recepient
 

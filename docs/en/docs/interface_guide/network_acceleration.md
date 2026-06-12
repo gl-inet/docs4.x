@@ -40,7 +40,7 @@ When Network acceleration is enabled, the following functions will not work prop
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **Network Acceleration**.
 
-![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/network_acceleration/network_acceleration.png){class="glboxshadow"}
+![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_acceleration/network_acceleration.png){class="glboxshadow"}
 
 There are three modes.
 

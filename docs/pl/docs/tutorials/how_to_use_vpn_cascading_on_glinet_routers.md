@@ -60,7 +60,7 @@ Kaskadowanie VPN jest często określane jako „podwójny VPN" w niektórych ko
         
         Kliknij wyszarzone pole po lewej stronie.
 
-        ![traffic from](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_from_1.png){class="glboxshadow"}
+        ![traffic from](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/4.8-traffic_from_1.png){class="glboxshadow"}
 
         Wybierz źródło ruchu, do którego ma być zastosowana ta reguła. Aby włączyć kaskadowanie VPN, wybierz **All Clients** lub wybierz **Specified Connection Types**, a następnie **WireGuard/OpenVPN Server**.
 

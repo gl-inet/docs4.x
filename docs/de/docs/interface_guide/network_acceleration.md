@@ -40,7 +40,7 @@ Wenn die Netzwerkbeschleunigung aktiviert ist, funktionieren die folgenden Funkt
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **Network Acceleration**.
 
-![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/tutorials/network_acceleration/network_acceleration.png){class="glboxshadow"}
+![Network Acceleration](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_acceleration/network_acceleration.png){class="glboxshadow"}
 
 Es gibt drei Modi.
 

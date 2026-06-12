@@ -64,19 +64,19 @@ Im Folgenden wird der GL-MT3600BE als Beispiel verwendet.
 
 1. Besuchen Sie die [offizielle ZeroTier-Website](https://www.zerotier.com/){target="_blank"} und melden Sie sich mit Ihrem Konto an.
 
-    ![create organization](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/zerotier_login.jpg){class="glboxshadow"}
+    ![create organization](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/zerotier_login.jpg){class="glboxshadow"}
 
 2. Erstellen Sie eine Organisation.
 
-    ![create organization](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/create_org.png){class="glboxshadow"}
+    ![create organization](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/create_org.png){class="glboxshadow"}
 
 3. Wählen Sie einen Tarif aus. Hier verwenden wir als Beispiel den Personal-Plan, der 10 Geräte, 1 Netzwerkadministrator und 1 Netzwerk umfasst. Wenn Sie mehr Netzwerke erstellen, zusätzliche Geräte hinzufügen oder benutzerdefinierte Routen und DNS hinzufügen müssen, wählen Sie den Essential- oder Scale-Plan.
 
-    ![select plan](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/select_plan.png){class="glboxshadow"}
+    ![select plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/select_plan.png){class="glboxshadow"}
 
 4. Jetzt wurde Ihr ZeroTier-Netzwerk erstellt. Notieren Sie sich die **Network ID**, eine 16-stellige alphanumerische Kombination oben rechts, da sie später benötigt wird, wenn Sie weitere Geräte verbinden.
 
-    ![network id](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/zt_network_id.png){class="glboxshadow"}
+    ![network id](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/zt_network_id.png){class="glboxshadow"}
 
 5. Aktivieren Sie ZeroTier auf dem GL.iNet-Router.
 
@@ -84,21 +84,21 @@ Im Folgenden wird der GL-MT3600BE als Beispiel verwendet.
 
     Aktivieren Sie ZeroTier, geben Sie auf derselben Seite die Network ID ein und klicken Sie auf **Apply**.
 
-    ![enable zerotier](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/enable_zerotier.png){class="glboxshadow"}
+    ![enable zerotier](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/enable_zerotier.png){class="glboxshadow"}
 
     Nach kurzer Zeit zeigt die Oberfläche an, dass eine Autorisierung erforderlich ist. Klicken Sie auf den Hyperlink **ZeroTier Central**, um zu ZeroTier Central weitergeleitet zu werden.
 
-    ![authorize 1](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/authorize1.png){class="glboxshadow"}
+    ![authorize 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/authorize1.png){class="glboxshadow"}
 
 6. Autorisieren Sie Ihr Gerät in ZeroTier Central.
 
     Suchen Sie in ZeroTier Central das ausstehende Gerät und autorisieren Sie es.
 
-    ![authorize 2](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/authorize2.png){class="glboxshadow"}
+    ![authorize 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/authorize2.png){class="glboxshadow"}
 
     Nach der Autorisierung wird die Seite wie folgt angezeigt.
 
-    ![authorized 1](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/authorized1.png){class="glboxshadow"}
+    ![authorized 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/authorized1.png){class="glboxshadow"}
 
 7. Fügen Sie ein weiteres Gerät (z. B. einen Computer oder ein Smartphone) demselben ZeroTier-Netzwerk hinzu, indem Sie [dieser Anleitung](https://docs.zerotier.com/platforms/){target="_blank"} folgen.
 
@@ -110,21 +110,21 @@ Im Folgenden wird der GL-MT3600BE als Beispiel verwendet.
 
     3. Klicken Sie mit der rechten Maustaste auf das Symbol, wählen Sie **Join New Network** und geben Sie im Pop-up-Fenster die **Network ID** ein, die Sie in Schritt 4 erhalten haben.
 
-        ![laptop join network](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/laptop_join_network.png){class="glboxshadow"}
+        ![laptop join network](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/laptop_join_network.png){class="glboxshadow"}
 
         Wechseln Sie anschließend zu ZeroTier Central, suchen Sie das ausstehende Gerät und autorisieren Sie es.
 
-        ![authorize 3](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/authorize3.png){class="glboxshadow"}
+        ![authorize 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/authorize3.png){class="glboxshadow"}
 
     4. Nach der Autorisierung wird die Seite wie folgt angezeigt. Sie sehen die Details der Mitgliedsgeräte, z. B. **Device ID**, **Name**, **Status**, **Managed IP** und **Public IP**.
 
-        ![authorized 2](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/authorized2.png){class="glboxshadow"}
+        ![authorized 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/authorized2.png){class="glboxshadow"}
 
         **Tipps**: Sie können rechts auf das Dreipunkt-Symbol klicken, um die Einstellungen des Mitgliedsgeräts zu bearbeiten, einschließlich Gerätename, Managed IP(s) und erweiterter Einstellungen.
 
 8. Klicken Sie auf die **Managed IP** des Routers, um sie zu kopieren. Anschließend können Sie diese Managed IP verwenden, um von Ihrem Laptop aus auf den Router zuzugreifen, der sich im selben ZeroTier-Netzwerk befindet.
 
-    ![zerotier virtual ip](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/zerotier_virtual_ip.png){class="glboxshadow"}
+    ![zerotier virtual ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/zerotier_virtual_ip.png){class="glboxshadow"}
 
 9. Testen Sie die Konnektivität.
 
@@ -132,11 +132,11 @@ Im Folgenden wird der GL-MT3600BE als Beispiel verwendet.
 
     Wenn Sie auf die Web-Adminoberfläche des Routers zugreifen können, ist die ZeroTier-Verbindung erfolgreich.
 
-    ![web admin panel](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/connectivity_test1.png){class="glboxshadow"}
+    ![web admin panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/connectivity_test1.png){class="glboxshadow"}
 
     Sie können auch die Managed IP des Routers von Ihrem Laptop aus mit `ping` testen. Wenn Sie eine erfolgreiche Antwort erhalten, wurde die ZeroTier-Verbindung erfolgreich hergestellt.
 
-    ![ping test](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/new_central/connectivity_test2.png){class="glboxshadow"}
+    ![ping test](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/connectivity_test2.png){class="glboxshadow"}
 
 ### Legacy Central
 
@@ -146,7 +146,7 @@ Im Folgenden wird der GL-MT2500 als Beispiel verwendet.
 
     Lesen Sie die offizielle ZeroTier-[Getting Started Guide](https://docs.zerotier.com/getting-started/getting-started/){target="_blank"}, um ein ZeroTier-Konto und ein Netzwerk zu erstellen. Denken Sie daran, sich die Network ID zu notieren, eine 16-stellige alphanumerische Kombination, da sie später benötigt wird, wenn Sie weitere Geräte verbinden.
 
-    ![zerotier network id](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_network_id.png){class="glboxshadow"}
+    ![zerotier network id](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_network_id.png){class="glboxshadow"}
 
 2. Aktivieren Sie ZeroTier auf dem GL.iNet-Router.
 
@@ -154,23 +154,23 @@ Im Folgenden wird der GL-MT2500 als Beispiel verwendet.
 
     Aktivieren Sie ZeroTier, geben Sie auf derselben Seite die Network ID ein und klicken Sie auf **Apply**.
 
-    ![enable zerotier](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_enable.png){class="glboxshadow"}
+    ![enable zerotier](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_enable.png){class="glboxshadow"}
 
     Nach kurzer Zeit zeigt die Oberfläche an, dass eine Autorisierung erforderlich ist.
 
     Klicken Sie auf den Hyperlink **ZeroTier Central**, um zu ZeroTier Central weitergeleitet zu werden.
 
-    ![zerotier central](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_central.png){class="glboxshadow"}
+    ![zerotier central](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_central.png){class="glboxshadow"}
 
 3. Autorisieren Sie Ihr Gerät in ZeroTier Central.
 
     Gehen Sie in ZeroTier Central zum Abschnitt **Members**. Suchen Sie das neue Gerät und klicken Sie auf das Kontrollkästchen **Auth**, um es zu autorisieren. Wenn gewünscht, können Sie den Namen des Geräts anpassen.
 
-    ![zerotier members, auth](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_members_auth.png){class="glboxshadow"}
+    ![zerotier members, auth](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_members_auth.png){class="glboxshadow"}
 
     Nach kurzer Zeit weist ZeroTier dem Gerät eine **Managed IP** zu. Notieren Sie sich diese IP-Adresse, da sie im Testschritt benötigt wird.
 
-    ![zerotier managed ip](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/managed_ip.png){class="glboxshadow"}
+    ![zerotier managed ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/managed_ip.png){class="glboxshadow"}
 
 4. Fügen Sie ein weiteres Gerät (z. B. einen Computer oder ein Smartphone) demselben ZeroTier-Netzwerk hinzu, indem Sie [dieser Anleitung](https://docs.zerotier.com/platforms/){target="_blank"} folgen.
 
@@ -180,7 +180,7 @@ Im Folgenden wird der GL-MT2500 als Beispiel verwendet.
 
     Sie können auf die Web-Adminoberfläche des Routers zugreifen.
 
-    ![web admin panel](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/web_admin_panel.png)
+    ![web admin panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/web_admin_panel.png)
 
     Sie können die Konnektivität auch mit dem Befehl `ping` testen. Lesen Sie dazu bitte die ZeroTier-[Quickstart Guide](https://docs.zerotier.com/quickstart/#6-test-your-connection){target="_blank"}.
 
@@ -190,7 +190,7 @@ Wenn diese Option aktiviert ist, kann über das virtuelle ZeroTier-Netzwerk auf 
 
 Wie in der folgenden Topologie gezeigt, können Sie bei aktivierter Funktion beispielsweise vom `leo-phone` über seine IP-Adresse (`192.168.29.1`) auf den `GL-AXT1800` zugreifen. Der Grund ist, dass der GL-AXT1800 das übergeordnete Gerät des `GL-MT2500` ist und letzterer mit demselben ZeroTier-Netzwerk wie leo-phone verbunden ist.
 
-![remote access wan topology](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_access_wan_topology.png){class="glboxshadow"}
+![remote access wan topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_access_wan_topology.png){class="glboxshadow"}
 
 **Hinweis**: Damit diese Funktion wirksam wird, müssen dem ZeroTier-Netzwerk Routing-Regeln hinzugefügt werden. In Legacy Central kann kostenlos eine benutzerdefinierte Route hinzugefügt werden, während Sie in New Central benutzerdefinierte Routen nur mit einem Essential-Plan oder höher konfigurieren können. Klicken Sie [hier](https://www.zerotier.com/pricing/) für Details.
 
@@ -200,25 +200,25 @@ Die folgenden Schritte verwenden Legacy Central als Beispiel.
 
     Aktivieren Sie **Allow Remote Access WAN** und klicken Sie auf **Apply**.
 
-    ![enable allow remote access wan](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/enable_allow_remote_access_wan_1.png){class="glboxshadow"}
+    ![enable allow remote access wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/enable_allow_remote_access_wan_1.png){class="glboxshadow"}
 
     Es erscheint eine Aufforderung, Routing-Regeln zu konfigurieren. Lassen Sie diese Webseite geöffnet oder notieren Sie sich die Routendetails (Destination und Via), da diese im nächsten Schritt benötigt werden.
 
-    ![enable allow remote access wan](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/enable_allow_remote_access_wan_2.png){class="glboxshadow"}
+    ![enable allow remote access wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/enable_allow_remote_access_wan_2.png){class="glboxshadow"}
 
 2. Gehen Sie zu **ZeroTier Central** und suchen Sie den Abschnitt **Advanced**.
 
     Geben Sie die Routendetails (Destination und Via) aus dem vorherigen Schritt ein und klicken Sie dann auf **Submit**.
 
-    ![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_1.png){class="glboxshadow"}
+    ![add route](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/add_routes_1.png){class="glboxshadow"}
 
     Nach dem Hinzufügen der Route wird der Abschnitt **Managed Routes** wie unten gezeigt angezeigt.
 
-    ![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_2.png){class="glboxshadow"}
+    ![add route](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/add_routes_2.png){class="glboxshadow"}
 
 3. Sie können nun auf anderen Geräten über seine IP-Adresse (`192.168.29.1`) auf den `GL-AXT1800` zugreifen. Tatsächlich können Sie auf alle Geräte innerhalb des Subnetzes `192.168.29.0/24` zugreifen.
 
-    ![access axt1800](https://static.gl-inet.com/docs/router/en/4/tutorials/tailscale/tailscale_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
+    ![access axt1800](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/tailscale_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
 ## Fernzugriff auf LAN erlauben
 
@@ -226,7 +226,7 @@ Wenn diese Option aktiviert ist, kann über das virtuelle ZeroTier-Netzwerk auf 
 
 Wie in der folgenden Topologie gezeigt, können Sie bei aktivierter Funktion beispielsweise vom `leo-phone` aus per SSH über seine IP-Adresse (`192.168.8.110`) eine Anmeldung bei `Ubuntu` durchführen. Der Grund ist, dass `Ubuntu` das untergeordnete Gerät des `GL-MT2500` ist und letzterer mit demselben ZeroTier-Netzwerk wie leo-phone verbunden ist.
 
-![remote access lan topology](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_access_lan_topology.png){class="glboxshadow"}
+![remote access lan topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_access_lan_topology.png){class="glboxshadow"}
 
 **Hinweis**: Damit diese Funktion wirksam wird, müssen dem ZeroTier-Netzwerk Routing-Regeln hinzugefügt werden. In Legacy Central kann kostenlos eine benutzerdefinierte Route hinzugefügt werden, während Sie in New Central benutzerdefinierte Routen nur mit einem Essential-Plan oder höher konfigurieren können. Klicken Sie [hier](https://www.zerotier.com/pricing/) für Details.
 
@@ -236,25 +236,25 @@ Die folgenden Schritte verwenden Legacy Central als Beispiel.
 
     Aktivieren Sie **Allow Remote Access LAN** und klicken Sie auf **Apply**.
 
-    ![enable allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/enable_allow_remote_access_lan_1.png){class="glboxshadow"}
+    ![enable allow remote access lan](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/enable_allow_remote_access_lan_1.png){class="glboxshadow"}
 
     Es erscheint eine Aufforderung, Routing-Regeln zu konfigurieren. Lassen Sie diese Webseite geöffnet oder notieren Sie sich die Routendetails (Destination und Via), da diese im nächsten Schritt benötigt werden.
 
-    ![enable allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/enable_allow_remote_access_lan_2.png){class="glboxshadow"}
+    ![enable allow remote access lan](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/enable_allow_remote_access_lan_2.png){class="glboxshadow"}
 
 2. Gehen Sie zu **ZeroTier Central** und suchen Sie den Abschnitt **Advanced**.
 
     Geben Sie die Routendetails (Destination und Via) aus dem vorherigen Schritt ein und klicken Sie dann auf **Submit**.
 
-    ![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_3.png){class="glboxshadow"}
+    ![add route](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/add_routes_3.png){class="glboxshadow"}
 
     Nach dem Hinzufügen der Route wird der Abschnitt **Managed Routes** wie unten gezeigt angezeigt.
 
-    ![add route](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/add_routes_4.png){class="glboxshadow"}
+    ![add route](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/add_routes_4.png){class="glboxshadow"}
 
 3. Sie können nun auf anderen Geräten per `ping` oder SSH über die IP-Adresse (`192.168.8.110`) auf `Ubuntu` zugreifen. Tatsächlich können Sie auf alle Geräte innerhalb des Subnetzes `192.168.8.0/24` zugreifen.
 
-    ![access ubuntu](https://static.gl-inet.com/docs/router/en/4/tutorials/zerotier/zerotier_access_ubuntu.jpg){class="glboxshadow gl-80-desktop"}
+    ![access ubuntu](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_access_ubuntu.jpg){class="glboxshadow gl-80-desktop"}
 
 ---
 

@@ -11,17 +11,17 @@ La página Overview muestra el estado de algunos componentes de hardware y admit
 
 Aquí se muestra un ejemplo del GL-MT3000.
 
-![system overview](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/overview.png){class="glboxshadow"}
+![system overview](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/overview.png){class="glboxshadow"}
 
 ## Carga media de la CPU
 
 En la mayoría de los modelos sin ventilador, la carga media de la CPU se muestra como se indica a continuación.
 
-![system overview, cpu average load, no fan](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/cpu_average_load_no_fan.jpg){class="glboxshadow"}
+![system overview, cpu average load, no fan](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/cpu_average_load_no_fan.jpg){class="glboxshadow"}
 
 En algunos modelos con ventilador integrado, la carga media de la CPU se muestra como se indica a continuación.
 
-![system overview, cpu average load, with fan](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/cpu_average_load.png){class="glboxshadow gl-70-desktop"}
+![system overview, cpu average load, with fan](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/cpu_average_load.png){class="glboxshadow gl-70-desktop"}
 
 Pase el cursor sobre el gráfico para mostrar valores concretos.
 
@@ -29,7 +29,7 @@ Haga clic en la temperatura de la derecha para alternar entre Celsius y Fahrenhe
 
 Haga clic en el icono del ventilador, situado en la esquina superior derecha, para acceder a Fan Settings.
 
-![system overview, fan settings](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/fan_settings.png){class="glboxshadow gl-70-desktop"}
+![system overview, fan settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/fan_settings.png){class="glboxshadow gl-70-desktop"}
 
 !!! note "Modelos con ventiladores integrados"
 
@@ -49,19 +49,19 @@ Pase el cursor sobre el gráfico para mostrar valores concretos.
 
 **Nota**: La memoria que se muestra aquí es la memoria disponible para el sistema Linux. La memoria total será inferior a la memoria física porque parte de ella se asigna al subsistema Wi-Fi o a otras áreas de arranque.
 
-![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
+![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/memory_usage.png){class="glboxshadow gl-70-desktop"}
 
 ## LED
 
 Al hacer clic en el icono de engranaje, irá a [Scheduled Tasks](scheduled_tasks.md) del LED.
 
-![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/led.png){class="glboxshadow gl-70-desktop"}
+![system overview, memory usage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/led.png){class="glboxshadow gl-70-desktop"}
 
 ## Flash
 
 Muestra la memoria flash total, incluida la utilizada por el sistema, la utilizada por las aplicaciones y la disponible restante.
 
-![system overview, flash](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/flash.png){class="glboxshadow"}
+![system overview, flash](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/flash.png){class="glboxshadow"}
 
 ## Información del dispositivo
 
@@ -69,7 +69,7 @@ Esta sección muestra la información básica del dispositivo.
 
 Device ID, device MAC y device S/N se añadieron en el firmware v4.7 y versiones posteriores.
 
-![system overview, device info](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/device_info.jpg){class="glboxshadow gl-80-desktop"}
+![system overview, device info](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/device_info.jpg){class="glboxshadow gl-80-desktop"}
 
 ## Almacenamiento externo
 
@@ -77,7 +77,7 @@ Esta sección, disponible desde la versión v4.5, muestra la capacidad total y d
 
 Algunos modelos con firmware v4.7 y versiones posteriores admiten el cambio del protocolo USB.
 
-![system overview, external storage](https://static.gl-inet.com/docs/router/en/4/tutorials/system_overview/external_storage.jpg){class="glboxshadow"}
+![system overview, external storage](https://static.gl-inet.com/docs/router/en/4/interface_guide/system_overview/external_storage.jpg){class="glboxshadow"}
 
 ---
 

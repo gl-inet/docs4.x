@@ -6,7 +6,7 @@ W górnej połowie strony znajduje się diagram pokazujący stan połączenia z 
 
 ## Diagram stanu
 
-![status diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/status_diagram.png){class="glboxshadow"}
+![status diagram](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/status_diagram.png){class="glboxshadow"}
 
 **Lewa strona** diagramu pokazuje bieżący stan połączenia z Internetem.
 
@@ -19,7 +19,7 @@ W górnej połowie strony znajduje się diagram pokazujący stan połączenia z 
 - Zielony oznacza, że funkcja jest włączona, a szary — że jest wyłączona. W przypadku VPN i Tor biały oznacza nawiązywanie połączenia.
 - Najedź kursorem na włączoną ikonę Wi‑Fi, aby wyświetlić kod QR tej sieci. Możesz zeskanować go telefonem lub tabletem, aby szybko połączyć się z odpowiednią siecią Wi‑Fi.
 
-    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/wifi_qrcode.png){class="glboxshadow"}
+    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/wifi_qrcode.png){class="glboxshadow"}
 
 **Prawa strona** diagramu pokazuje urządzenia ([Clients](clients.md)) podłączone do routera.
 
@@ -41,11 +41,11 @@ Kreator konfiguracji jest dostępny od wersji firmware v4.7.
 
 Na stronie **INTERNET** kliknij ikonę książki w prawym górnym rogu.
 
-![setup wizard 1](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/setup_wizard1.png){class="glboxshadow"}
+![setup wizard 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/setup_wizard1.png){class="glboxshadow"}
 
 Postępuj zgodnie z instrukcjami kreatora, aby skonfigurować router i uzyskać dostęp do Internetu.
 
-![setup wizard 2](https://static.gl-inet.com/docs/router/en/4/tutorials/internet/setup_wizard2.png){class="glboxshadow"}
+![setup wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet/setup_wizard2.png){class="glboxshadow"}
 
 Jeśli używasz [aplikacji GL.iNet](https://www.gl-inet.com/app/#download-app-glinet){target="_blank"}, postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby skonfigurować dostęp do Internetu.
 

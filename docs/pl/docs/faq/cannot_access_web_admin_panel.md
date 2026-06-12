@@ -112,7 +112,7 @@ Wykonaj poniższe kroki, aby sprawdzić adres IP routera.
 
 5. Jeśli powyższe kroki nie pomogły, spróbuj [zresetować](repair_network_or_reset_firmware.md#reset-to-factory) router do ustawień fabrycznych.
 
-6. Jeśli reset nie pomoże, spróbuj opcji [Unbrick via uboot](debrick.md).
+6. Jeśli reset nie pomoże, spróbuj opcji [Unbrick via U-Boot](debrick.md).
 
 ---
 

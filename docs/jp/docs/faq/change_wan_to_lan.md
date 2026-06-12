@@ -42,17 +42,17 @@
 
 3. ウェブ管理パネルで、**インターネット** → **イーサネット**セクションに移動すると、WANポートの状態が**WANとして使用中**と表示されます。**LANに変更**をクリックします。
 
-	![internet page](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
+	![internet page](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_no_cable.png){class="glboxshadow"}
 
 4. **適用**をクリックして確定します。
 
-	![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
+	![caution change wan as lan](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_change_to_lan_caution.png){class="glboxshadow"}
 
 	**注意**: このプロセス中にWi-Fiが一時的に切断される場合があります。完了したら、必ずルーターに再接続してください。
 
 5. イーサネットセクションに戻ると、`LANとして使用中`と表示されます。
 
-	![using as lan](https://static.gl-inet.com/docs/router/en/4/tutorials/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
+	![using as lan](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_using_as_lan.png){class="glboxshadow"}
 
 	上記の手順を繰り返すだけで設定を元に戻すことができます。
 

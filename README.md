@@ -152,12 +152,12 @@ Use PhotoSwipe when the image width is larger than 1021 px.
     itemtype="http://schema.org/ImageObject"
   >
     <a
-      href="https://static.gl-inet.com/docs/router/en/3/setup/gl-b2200/hardware/hardware_1.jpg"
+      href="https://static.gl-inet.com/docs/router/en/4/setup/gl-b2200/hardware/hardware_1.jpg"
       itemprop="contentUrl"
       data-size="3167x2480"
     >
       <img
-        src="https://static.gl-inet.com/docs/router/en/3/setup/gl-b2200/hardware/hardware_1.jpg"
+        src="https://static.gl-inet.com/docs/router/en/4/setup/gl-b2200/hardware/hardware_1.jpg"
         itemprop="thumbnail"
         alt="gl-b2200 pcb pinout"
       />

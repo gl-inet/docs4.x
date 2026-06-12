@@ -16,7 +16,7 @@
 
 Webブラウザを開き、ルーターのWeb管理パネル（デフォルトIP: 192.168.8.1）にアクセスします。管理者パスワードでログインしてください。
 
-![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/router-login.jpeg){class="glboxshadow"}
+![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/router-login.jpeg){class="glboxshadow"}
 
 ## 2. VPNクライアントを設定する
 

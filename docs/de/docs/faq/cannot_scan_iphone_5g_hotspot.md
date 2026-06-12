@@ -2,7 +2,7 @@
 
 Bitte überprüfen Sie die Hotspot-Einstellungen Ihres iPhones und deaktivieren Sie Maximise Compatibility.
 
-![maxcompat](https://static.gl-inet.com/docs/router/en/4/faq/cannot_scan_iphone_5g_hotspot/maxcompat.PNG){class="glboxshadow gl-50-desktop" }
+![maxcompat](https://static.gl-inet.com/docs/router/en/4/faq/cannot_scan_iphone_5g_hotspot/maxcompat.png){class="glboxshadow gl-50-desktop" }
 
 ---
 

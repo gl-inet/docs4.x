@@ -16,7 +16,7 @@ Below are steps to set up an OpenVPN client via the router's web admin panel.
 
 Open a web browser and access the router's web admin panel (default IP: 192.168.8.1). Log in with your admin password.
 
-![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/router-login.jpeg){class="glboxshadow"}
+![log in](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_client/router-login.jpeg){class="glboxshadow"}
 
 ## 2. Set up VPN client
 

@@ -6,7 +6,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-MT3600BE
 
-![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
+![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3600be_interface.png){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -15,7 +15,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-MT3000
 
-![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
+![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3000_interface.jpg){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -24,7 +24,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-AXT1800
 
-![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/hardware_info/gl-axt1800_interface.jpg){class="glboxshadow"}
+![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-axt1800_interface.jpg){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -33,7 +33,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-SFT1200
 
-![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/hardware_info/sft1200_interface.jpg){class="glboxshadow"}
+![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/sft1200_interface.jpg){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -42,7 +42,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-MT1300
 
-![gl-mt1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/hardware_info/mt1300_interface.jpg){class="glboxshadow"}
+![gl-mt1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt1300_interface.jpg){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -51,7 +51,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-A1300
 
-![gl-a1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){class="glboxshadow"}
+![gl-a1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-a1300_interface.jpg){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -62,7 +62,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-XE3000
 
-![gl-xe3000 led](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000led.jpg){class="glboxshadow gl-70-desktop"}
+![gl-xe3000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/xe3000led.jpg){class="glboxshadow gl-70-desktop"}
 
 * LED d'alimentation
 	* Vert : sous tension
@@ -99,7 +99,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-X3000
 
-![gl-x3000 led](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_led.png){class="glboxshadow"}
+![gl-x3000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-x3000_led.png){class="glboxshadow"}
 
 * LED d'alimentation
 	* Vert : sous tension
@@ -122,7 +122,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-X2000
 
-![gl-x2000 led](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/gl-x2000_led.jpg){class="glboxshadow"}
+![gl-x2000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-x2000_led.jpg){class="glboxshadow"}
 
 * LED d'alimentation
 	* Vert : sous tension
@@ -145,7 +145,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-X750-V2
 
-![gl-x750v2 led](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/hardware_info/x750v2_led.jpg){class="glboxshadow"}
+![gl-x750v2 led](https://static.gl-inet.com/docs/router/en/4/faq/led/x750v2_led.jpg){class="glboxshadow"}
 
 * LED d'alimentation
 	* Vert : sous tension
@@ -168,7 +168,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-XE300
 
-![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_led.png){class="glboxshadow gl-70-desktop"}
+![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-xe300_led.png){class="glboxshadow gl-70-desktop"}
 
 * LED de batterie (pendant la charge)
 	* 1/4 clignotant : niveau de batterie 0 %-25 %
@@ -211,7 +211,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-BE9300
 
-![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
+![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/be9300_interface.jpg){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -220,7 +220,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-BE6500
 
-![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/hardware_info/be6500_interface.jpg){class="glboxshadow"}
+![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/be6500_interface.jpg){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -229,7 +229,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-MT6000
 
-![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
+![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-mt6000_interface.jpg){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -238,7 +238,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-AX1800
 
-![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
+![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-ax1800_interface.jpg){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -247,7 +247,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-B3000
 
-![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/hardware_info/b3000_interface.jpg){class="glboxshadow"}
+![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/b3000_interface.jpg){class="glboxshadow"}
 
 - Bleu fixe : démarrage du système
 - Bleu clignotant lentement : recherche du réseau
@@ -258,7 +258,7 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ### GL-MT5000
 
-![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
+![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt5000_interface.png){class="glboxshadow"}
 
 * LED système
 	* Bleu : démarrage du système
@@ -273,7 +273,7 @@ Remarque : l'état du serveur VPN n'est pas affiché sur la LED.
 
 ### GL-MT2500/GL-MT2500A
 
-![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
+![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt2500_interface.jpg){class="glboxshadow"}
 
 * LED système
 	* Bleu : démarrage du système
@@ -288,7 +288,7 @@ Remarque : l'état du serveur VPN n'est pas affiché sur la LED.
 
 ### GL-MT300N-V2
 
-![gl-mt300n-v2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n-v2_interface.png){class="glboxshadow"}
+![gl-mt300n-v2 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt300n-v2_interface.png){class="glboxshadow"}
 
 - LED d'alimentation
 	- Allumée : sous tension
@@ -306,7 +306,7 @@ Remarque : l'état du serveur VPN n'est pas affiché sur la LED.
 
 ### Série GL-AR300M
 
-![gl-ar300m interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/ar300m_interface.png){class="glboxshadow"}
+![gl-ar300m interface](https://static.gl-inet.com/docs/router/en/4/faq/led/ar300m_interface.png){class="glboxshadow"}
 
 - LED d'alimentation
 	- Allumée : sous tension

@@ -2,7 +2,7 @@
 
 This guide will show you how to use the eSIM physical card purchased from the GL.iNet online store with GL.iNet routers. 
 
-![eSIM Physical Card](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_simpoyo_esim_physical_card_with_android_devices/simpoyo-esim-physical-card.png){class="glboxshadow"}
+![eSIM Physical Card](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/simpoyo-esim-physical-card.png){class="glboxshadow"}
 
 ## Features
 

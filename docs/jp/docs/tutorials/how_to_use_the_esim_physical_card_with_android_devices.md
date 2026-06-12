@@ -2,7 +2,7 @@
 
 このガイドでは、GL.iNetオンラインストアで購入したeSIM Physical Cardを設定して有効化する手順を、順を追って説明します。eSIM Physical CardはほとんどのAndroidデバイスに対応しており、簡単にインターネットへ接続でき、安定した動作を提供します。
 
-![eSIM Physical Card officially endorsed by GL.iNet](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_simpoyo_esim_physical_card_with_android_devices/simpoyo-esim-physical-card.png){class="glboxshadow"}
+![eSIM Physical Card officially endorsed by GL.iNet](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/simpoyo-esim-physical-card.png){class="glboxshadow"}
 
 ## 特長
 

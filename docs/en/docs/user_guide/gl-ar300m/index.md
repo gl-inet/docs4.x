@@ -4,7 +4,7 @@
 
 Shadow (GL-AR300M series) is a pocket-size mini router, designed to be Portable and Travel-Friendly, supporting up to 300Mbps wireless transmission rate. Shadow offers advanced security features, including support for OpenVPN, WireGuard®, and a DNS server. It not only allows you to convert a public network to a private Wi-Fi for secure surfing, but also allows you to upload vpn configuration files from over 30 VPN service providers, set it as vpn client, providing an added layer of privacy and security to create an encrypted traffic between your device and the VPN server.
 
-![ar300m illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/product_info/mt300n_v2_overview.png){class="glboxshadow"}
+![ar300m illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/product_info/mt300n_v2_overview.png){class="glboxshadow"}
 
 ## How to set up Shadow
 
@@ -40,7 +40,7 @@ Configure your Shadow using one of the supported internet connection methods: Et
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/ethernet.png){class="glboxshadow"}
+    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/internet_setup/ethernet.png){class="glboxshadow"}
     
     Connect an ethernet cable between your router's WAN port and an upstream device such as a modem. 
     
@@ -50,7 +50,7 @@ Configure your Shadow using one of the supported internet connection methods: Et
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/repeater.png){class="glboxshadow"}
+    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/internet_setup/repeater.png){class="glboxshadow"}
 
     1. On the INTERNET page of the web Admin Panel, locate the Repeater section and click **Connect**.
     2. Select a Wi-Fi network from the available networks. 
@@ -62,7 +62,7 @@ Configure your Shadow using one of the supported internet connection methods: Et
 
 === "Tethering"
 
-    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/tethering.png){class="glboxshadow"}
+    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/internet_setup/tethering.png){class="glboxshadow"}
 
     1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port via a USB cable. 
     2. On your mobile device, go to Settings and enable USB Tethering. 
@@ -74,7 +74,7 @@ Configure your Shadow using one of the supported internet connection methods: Et
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt300n-v2/internet_setup/usb_modem.png){class="glboxshadow"}
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/internet_setup/usb_modem.png){class="glboxshadow"}
 
     This method is useful for sharing internet from a USB modem to all connected devices.
 

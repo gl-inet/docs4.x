@@ -105,7 +105,7 @@ Wenn sich Ihr gewünschtes EAP-Netzwerk nicht über das Web-Admin-Panel verbinde
 
 Wenn das gewünschte EAP-Netzwerk zusätzliche Parameter erfordert, etwa den EAP-Typ (z. B. PEAP, TTLS), eine Domain-Suffix-Übereinstimmung, die Identität, die anonyme Identität usw., kann die EAP-Verbindung über das Web-Admin-Panel fehlschlagen.
 
-![connection failed](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/connection_failed.png){class="glboxshadow"}
+![connection failed](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/connection_failed.png){class="glboxshadow"}
 
 Befolgen Sie die folgenden Schritte, um Ihren GL.iNet-Router über die LuCI-Oberfläche mit EAP-Netzwerken zu verbinden, die erweiterte Einstellungen erfordern.
 
@@ -122,53 +122,53 @@ Befolgen Sie die folgenden Schritte, um Ihren GL.iNet-Router über die LuCI-Ober
 
     Dies ist ein Beispiel für Xfinity Mobile Wi-Fi als Referenz.
 
-    ![xfinity wifi configs](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/xfinity_mobile_config.png){class="glboxshadow gl-50-desktop"}
+    ![xfinity wifi configs](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/xfinity_mobile_config.png){class="glboxshadow gl-50-desktop"}
 
 2. Bei LuCI anmelden.
 
     Melden Sie sich am Web-Adminbereich des Routers an. Falls Sie zuvor versucht haben, sich über die WebGUI mit dem gewünschten EAP-Netzwerk zu verbinden und dies fehlgeschlagen ist, brechen Sie die Verbindung bitte ab.
 
-    ![abort connection](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/abort_connection.png){class="glboxshadow"}
+    ![abort connection](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/abort_connection.png){class="glboxshadow"}
 
     Gehen Sie dann zu **SYSTEM** -> **Advanced Settings** -> **Go to LuCI**. Melden Sie sich mit demselben Admin-Passwort bei LuCI an.
 
-    ![luci login](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/luci_login.jpg){class="glboxshadow gl-70-desktop"}
+    ![luci login](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/luci_login.jpg){class="glboxshadow gl-70-desktop"}
 
 3. Repeater in LuCI konfigurieren.
 
     Gehen Sie in der LuCI-Oberfläche zu Network -> Wireless.
 
-    ![xfinity wifi configs](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/wireless.png){class="glboxshadow"}
+    ![xfinity wifi configs](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/wireless.png){class="glboxshadow"}
 
     Klicken Sie im 5G- oder 2.4G-Bereich auf die Schaltfläche **Scan**, um nach verfügbaren WLAN-Netzwerken zu suchen.
 
-    ![wireless scan](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/wireless_scan.png){class="glboxshadow"}
+    ![wireless scan](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/wireless_scan.png){class="glboxshadow"}
 
     Suchen Sie in den Scan-Ergebnissen das gewünschte EAP-Netzwerk und klicken Sie auf **Join Network**.
 
-    ![scan results](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/scan_results.png){class="glboxshadow"}
+    ![scan results](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/scan_results.png){class="glboxshadow"}
 
     Geben Sie auf der Seite "Joining Network" die **WPA passphrase** ein und klicken Sie auf **Submit**.
 
-    ![joining network](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/joining_network.png){class="glboxshadow"}
+    ![joining network](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/joining_network.png){class="glboxshadow"}
 
     Sie werden zur Konfiguration des Wireless Clients weitergeleitet.
 
 4. Suchen Sie **Interface Configuration** -> **Wireless Security**.
 
-    ![wireless security](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/wireless_security.jpg){class="glboxshadow"}
+    ![wireless security](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/wireless_security.jpg){class="glboxshadow"}
 
     Wählen bzw. geben Sie die korrekten Konfigurationsparameter entsprechend Ihrem Ziel-EAP-Netzwerk ein, wie unten gezeigt. **Klicken Sie noch nicht auf Save**.
 
-    ![wireless security example](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/wireless_security_example.png){class="glboxshadow"}
+    ![wireless security example](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/wireless_security_example.png){class="glboxshadow"}
 
 5. Wechseln Sie zur Registerkarte **Advanced Settings**, geben Sie einen Schnittstellennamen wie **wlan0** an und klicken Sie dann unten rechts auf **Save**.
 
-    ![advanced settings](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/advanced_settings.png){class="glboxshadow"}
+    ![advanced settings](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/advanced_settings.png){class="glboxshadow"}
 
 6. Sie kehren zur Seite **Wireless** zurück, auf der ausstehende Änderungen angezeigt werden. Klicken Sie unten rechts auf **Save & Apply**.
 
-    ![save abd apply](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/save_apply.png){class="glboxshadow"}
+    ![save abd apply](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/save_apply.png){class="glboxshadow"}
 
     Ihr Router wird nun erfolgreich mit dem gewünschten EAP-Netzwerk verbunden.
 
@@ -178,7 +178,7 @@ Befolgen Sie die folgenden Schritte, um Ihren GL.iNet-Router über die LuCI-Ober
 
         Sobald der Router erfolgreich mit dem gewünschten EAP-Netzwerk verbunden ist, leuchtet in der WebGUI ein Repeater-Symbol auf, wie unten dargestellt.
 
-        ![connected status](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/connected_status.png){class="glboxshadow"}
+        ![connected status](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/connected_status.png){class="glboxshadow"}
 
         **Hinweis**: Da die Konfiguration in LuCI nicht mit der in der WebGUI synchronisiert wird, erscheinen Details der Repeater-Schnittstelle (z. B. verbundene IP, Gateway usw.) nicht in der WebGUI.
         
@@ -190,11 +190,11 @@ Befolgen Sie die folgenden Schritte, um Ihren GL.iNet-Router über die LuCI-Ober
 
         2. Geben Sie **ifconfig** ein und drücken Sie die Eingabetaste.
 
-            ![ifconfig](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/ifconfig.png){class="glboxshadow"}
+            ![ifconfig](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/ifconfig.png){class="glboxshadow"}
 
             Sie können dann den Status der Schnittstelle **wlan0** prüfen.
 
-            ![ifconfig](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_eap_network_with_advanced_settings/ifconfig_2.png){class="glboxshadow"}
+            ![ifconfig](https://static.gl-inet.com/docs/router/en/4/tutorials/eap/ifconfig_2.png){class="glboxshadow"}
 
 ---
 

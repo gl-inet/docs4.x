@@ -527,7 +527,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
         ![protonvpn openvpn configuration file](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/protonvpn/proton_openvpn_configuration_file.jpg){class="glboxshadow"}
 
-    4. The credential for connect OpenVPN is not the one that login Proton website's dashboard. You can find the crdential at **Account -> OpenVPN/IKEv2 username**
+    4. The credential for connect OpenVPN is not the one that login Proton website's dashboard. You can find the credential at **Account -> OpenVPN/IKEv2 username**
 
         ![protonvpn openvpn credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/protonvpn/protonvpn_openvpn_credential.jpg){class="glboxshadow"}
 
@@ -563,7 +563,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     [Official Website](https://www.starvpn.com/dashboard/aff.php?aff=91){target="_blank"}
 
-    StarVPN offers VPN service with OpenVPN and WireGuard protocols. We recommend WireGuard as it is ususlly faster than OpenVPN. Check out [here](wireguard_client.md#starvpn).
+    StarVPN offers VPN service with OpenVPN and WireGuard protocols. We recommend WireGuard as it is usually faster than OpenVPN. Check out [here](wireguard_client.md#starvpn).
 
     If you prefer using OpenVPN protocol, follow the steps below to download the configuration file.
 
@@ -690,7 +690,7 @@ If the service provider you subscribed to is not listed below, please contact th
 
     3. Select the VPN protocol
 
-        selece OpenVPN protocol.
+        select OpenVPN protocol.
 
         ![vpn unlimited select protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/vpnunlimited/keepsolid2.png){class="glboxshadow"}
 

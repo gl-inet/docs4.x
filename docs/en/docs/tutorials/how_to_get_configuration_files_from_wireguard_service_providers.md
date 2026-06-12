@@ -54,7 +54,7 @@
 
     [Official Website](https://privateinternetaccess.com/offer/GLiNET_71dx4t8bl){target="_blank"}
 
-    It can't downlaod the WireGuard configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
+    It can't download the WireGuard configs from its website, please use [mobile app](../faq/mobile_app.md) to setup PIA VPN.
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc7NTdQ9QFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -131,7 +131,7 @@
 
     [Official Website](https://www.nvpn.net/){target="_blank"}
 
-    Fellow the guide [here](https://support.nvpn.net/Knowledgebase/Article/View/428/0/how-to-use-our-wireguard#windows){target="_blank"} to create the config.
+    Follow the guide [here](https://support.nvpn.net/Knowledgebase/Article/View/428/0/how-to-use-our-wireguard#windows){target="_blank"} to create the config.
 
     Then follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
@@ -184,7 +184,7 @@
 
     Access PrivadoVPN website and log in.
 
-    At the dashboard, find the Manual Configuration section, click WireGuard. Select the server you want to connect to, then click Download Configration.
+    At the dashboard, find the Manual Configuration section, click WireGuard. Select the server you want to connect to, then click Download Configuration.
 
     ![privadovpn wireguard manual configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/privadovpn/privadovpn_wireguard_manual_configuration.png){class="glboxshadow"}
 
@@ -254,9 +254,9 @@
 
         Head on over to their [pricing plan](https://www.starvpn.com/#pricing){target="_blank"} options and choose a VPN plan that suits your needs. You can register on checkout or directly [here](https://www.starvpn.com/dashboard/register.php){target="_blank"}.
 
-    2. **Download Wireguard Configuration**
+    2. **Download WireGuard Configuration**
 
-        Log in to the StarVPN member area [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. Click on **Wireguard Config** to download the configuration file. Each slot will contain a unique wireguard configuration file.
+        Log in to the StarVPN member area [dashboard](https://www.starvpn.com/dashboard){target="_blank"}. Click on **WireGuard Config** to download the configuration file. Each slot will contain a unique wireguard configuration file.
 
         ![starvpn wireguard config download](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/starvpn/wgconfigdl.png){class="glboxshadow"}
 

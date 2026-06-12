@@ -31,7 +31,7 @@ Or you can use [the app](mobile_app.md) to access the router.
 
 ### Check the connection
 
-If connected by ethernet cable, make sure the router's WAN/LAN port connection is correct:
+If connected by Ethernet cable, make sure the router's WAN/LAN port connection is correct:
 
 - The WAN port is connected to an Internet source, such as a modem or a primary router.
 - The LAN port is connected to the terminal device, such as your laptop.
@@ -112,7 +112,7 @@ Follow the steps below to check the router's IP address.
 
 5. If above steps failed, try [Reset](repair_network_or_reset_firmware.md#reset-to-factory) the router to factory default.
 
-6. If the reset doesn't work, try [Unbrick via uboot](debrick.md).
+6. If the reset doesn't work, try [Unbrick via U-Boot](debrick.md).
 
 ---
 

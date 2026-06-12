@@ -18,7 +18,7 @@ Log in to the GL.inet web Admin Panel -> APPLICATIONS -> AdGuard Home, enable Ad
 
 ![enableadh](https://static.gl-inet.com/docs/router/en/4/faq/SSL/enableadh.jpg){class="glboxshadow"}
 
-Then click the **Settings Page** at the top of this page, you will be re-directed to Adguard Home Settings Page.
+Then click the **Settings Page** at the top of this page, you will be redirected to Adguard Home Settings Page.
 
 ![gosettings](https://static.gl-inet.com/docs/router/en/4/faq/SSL/gosettings.jpg){class="glboxshadow"}
 

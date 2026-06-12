@@ -26,7 +26,7 @@ We use the GL-AXT1800 as an example.
 
 4. Refer to the links below to upload the configuration files to your GL.iNet router. Enter the credentials if required.
 
-    - [Upload Wireguard configuration](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)
+    - [Upload WireGuard configuration](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)
 
     - [Upload OpenVPN configuration](../interface_guide/openvpn_client.md#set-up-openvpn-client-manually-for-other-providers)
 

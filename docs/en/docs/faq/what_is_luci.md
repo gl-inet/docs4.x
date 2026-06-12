@@ -8,7 +8,7 @@ To access LuCI, navigate to SYSTEM from the left side of web Admin Panel -> Adva
 
 ![advanced settings](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/go_to_luci.png){class="glboxshadow"}
 
-Click on **Go To LuCI** button, you will be re-directed to the LuCI login page. 
+Click on **Go To LuCI** button, you will be redirected to the LuCI login page. 
 
 ![luci login](https://static.gl-inet.com/docs/router/en/4/faq/what_is_luci/luci_login.jpg){class="glboxshadow"}
 

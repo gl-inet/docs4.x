@@ -24,7 +24,7 @@ Please try upgrading with Chrome or Microsoft Edge. DO NOT use Mozilla/Firefox.
 
 ## GL-XE3000
 
-1. Download upgrade the U-Boot bootloader to [version 2025-02-25 19:07:14](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-xe3000-20250225-md5-05fadd9da27314d41dbadc6fbd239b3d.bin){target="_blank"}
+1. Download and upgrade the U-Boot bootloader to [version 2025-02-25 19:07:14](https://github.com/gl-inet/mt798x-boot/blob/main/bin/uboot-xe3000-20250225-md5-05fadd9da27314d41dbadc6fbd239b3d.bin){target="_blank"}
 
 2. Download and upgrade the firmware to [version 4.7.4](https://fw.gl-inet.com/firmware/xe3000/release/openwrt-xe3000-4.7.4-0317-1742206184.bin)
 

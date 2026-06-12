@@ -41,7 +41,7 @@ This section displays basic information and details about the currently active e
 
 ![esim status](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_status.png){class="glboxshadow"}
 
-- **EID:** The globally unique identifier of the eUICC (eSIM chip), used for identification and profile managament.
+- **EID:** The globally unique identifier of the eUICC (eSIM chip), used for identification and profile management.
 - **ICCID:** The Integrated Circuit Card Identifier of the currently active eSIM profile.
 - **IMSI:** The International Mobile Subscriber Identity of the currently active eSIM profile.
 - **eSIM OS Version:** The operating system version of the eUICC, which defines its compatibility and supported capabilities.

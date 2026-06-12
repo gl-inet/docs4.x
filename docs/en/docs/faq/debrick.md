@@ -8,7 +8,7 @@ If you bricked your router due to some DIY projects or flashing a wrong firmware
 
 ## Preparation
 
-Please prepare a computer or laptop with an Ethernet port. If your computer does not have an ethernet port, an additional USB-Ethernet adapter is required.
+Please prepare a computer or laptop with an Ethernet port. If your computer does not have an Ethernet port, an additional USB-Ethernet adapter is required.
 
 **Note**: GL-E5800 (Mudi 7) currently does not support firmware flashing via U-Boot.
 

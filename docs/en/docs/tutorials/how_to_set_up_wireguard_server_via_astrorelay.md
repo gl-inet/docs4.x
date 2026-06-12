@@ -56,7 +56,7 @@ This tutorial introduces the steps to set up a WireGuard server via AstroRelay o
 
     ![replace link in wireguard config](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_wireguard_server_via_astrorelay/replace_endpoint_in_wireguard_config.png){class="glboxshadow"}
 
-5. Install the [WireGuard app](https://www.wireguard.com/install/){target="_blank"} on the device you want to use as a WireGuard client. Then upload the modified configuration file to the app and start the conneciton. Alternatively, upload it to another GL.iNet router so as to set it up a WireGuard client.
+5. Install the [WireGuard app](https://www.wireguard.com/install/){target="_blank"} on the device you want to use as a WireGuard client. Then upload the modified configuration file to the app and start the connection. Alternatively, upload it to another GL.iNet router so as to set it up as a WireGuard client.
 
     Once connected, you will be able to access your home or office local services remotely.
 

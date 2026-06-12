@@ -254,7 +254,7 @@
 
     2. **WireGuard設定をダウンロードする**
 
-        StarVPN のメンバーエリア [dashboard](https://www.starvpn.com/dashboard){target="_blank"} にログインします。**Wireguard Config** をクリックして設定ファイルをダウンロードします。各スロットには固有の WireGuard 設定ファイルが含まれます。
+        StarVPN のメンバーエリア [dashboard](https://www.starvpn.com/dashboard){target="_blank"} にログインします。**WireGuard Config** をクリックして設定ファイルをダウンロードします。各スロットには固有の WireGuard 設定ファイルが含まれます。
 
         ![starvpn wireguard config download](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/starvpn/wgconfigdl.png){class="glboxshadow"}
 

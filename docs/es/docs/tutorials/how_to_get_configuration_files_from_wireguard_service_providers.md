@@ -252,9 +252,9 @@
 
         Vaya a sus opciones de [pricing plan](https://www.starvpn.com/#pricing){target="_blank"} y elija un plan VPN que se ajuste a sus necesidades. Puede registrarse durante el proceso de compra o directamente [aquí](https://www.starvpn.com/dashboard/register.php){target="_blank"}.
 
-    2. **Descargue la configuración Wireguard**
+    2. **Descargue la configuración WireGuard**
 
-        Inicie sesión en el [dashboard](https://www.starvpn.com/dashboard){target="_blank"} del área de miembros de StarVPN. Haga clic en **Wireguard Config** para descargar el archivo de configuración. Cada slot contendrá un archivo de configuración WireGuard único.
+        Inicie sesión en el [dashboard](https://www.starvpn.com/dashboard){target="_blank"} del área de miembros de StarVPN. Haga clic en **WireGuard Config** para descargar el archivo de configuración. Cada slot contendrá un archivo de configuración WireGuard único.
 
         ![starvpn wireguard config download](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/starvpn/wgconfigdl.png){class="glboxshadow"}
 

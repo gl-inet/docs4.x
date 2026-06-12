@@ -1,4 +1,4 @@
-# Actualizar la versión de Uboot
+# Actualizar la versión de U-Boot
 
 ## Advertencia
 
@@ -10,7 +10,7 @@
 
 - Un ordenador con puerto Ethernet. Si no lo tiene, prepare un adaptador USB a Ethernet adicional.
 - Un cable Ethernet.
-- Descargue el archivo Uboot según las instrucciones del personal de soporte de GL.iNet. Asegúrese de estar usando el archivo Uboot correcto. Si no sabe cómo descargarlo, contáctenos por correo electrónico en support@gl-inet.com.
+- Descargue el archivo U-Boot según las instrucciones del personal de soporte de GL.iNet. Asegúrese de estar usando el archivo U-Boot correcto. Si no sabe cómo descargarlo, contáctenos por correo electrónico en support@gl-inet.com.
 
 ## Pasos de actualización
 
@@ -96,7 +96,7 @@ Siga los procedimientos que se indican a continuación para acceder a la página
 
     ![gl-ar750s u-boot update page](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/u-boot_update.png){class="glboxshadow" width="700"}
 
-5.  Haga clic en el botón **Choose file** y seleccione el archivo Uboot que descargó.
+5.  Haga clic en el botón **Choose file** y seleccione el archivo U-Boot que descargó.
 
 6.  Haga clic en el botón **Update U-Boot**. NO apague el equipo durante el proceso de actualización. La actualización tardará varios minutos.
 

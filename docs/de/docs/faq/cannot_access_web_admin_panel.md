@@ -112,7 +112,7 @@ Befolgen Sie die folgenden Schritte, um die IP-Adresse des Routers zu prüfen.
 
 5. Wenn die oben genannten Schritte fehlschlagen, versuchen Sie, den Router über [Reset](repair_network_or_reset_firmware.md#reset-to-factory) auf die Werkseinstellungen zurückzusetzen.
 
-6. Wenn das Zurücksetzen nicht funktioniert, versuchen Sie [Unbrick via uboot](debrick.md).
+6. Wenn das Zurücksetzen nicht funktioniert, versuchen Sie [Unbrick via U-Boot](debrick.md).
 
 ---
 

@@ -112,7 +112,7 @@ Siga los pasos que se indican a continuación para comprobar la dirección IP de
 
 5. Si los pasos anteriores no funcionan, intente [restablecer](repair_network_or_reset_firmware.md#reset-to-factory) el router a los valores predeterminados de fábrica.
 
-6. Si el restablecimiento no funciona, pruebe [Desbloqueo mediante uboot](debrick.md).
+6. Si el restablecimiento no funciona, pruebe [Desbloqueo mediante U-Boot](debrick.md).
 
 ---
 

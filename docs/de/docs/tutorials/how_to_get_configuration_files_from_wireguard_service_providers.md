@@ -254,7 +254,7 @@
 
     2. **WireGuard-Konfiguration herunterladen**
 
-        Melden Sie sich im StarVPN-Mitgliederbereich [dashboard](https://www.starvpn.com/dashboard){target="_blank"} an. Klicken Sie auf **Wireguard Config**, um die Konfigurationsdatei herunterzuladen. Jeder Slot enthält eine eindeutige WireGuard-Konfigurationsdatei.
+        Melden Sie sich im StarVPN-Mitgliederbereich [dashboard](https://www.starvpn.com/dashboard){target="_blank"} an. Klicken Sie auf **WireGuard Config**, um die Konfigurationsdatei herunterzuladen. Jeder Slot enthält eine eindeutige WireGuard-Konfigurationsdatei.
 
         ![starvpn wireguard config download](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/starvpn/wgconfigdl.png){class="glboxshadow"}
 

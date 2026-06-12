@@ -21,7 +21,7 @@ Diese Anleitung beschreibt die Schritte zum Einrichten eines OpenVPN-Servers üb
         3. Aktivieren Sie den Schalter für **Remote Access LAN**.
         4. Klicken Sie auf **Apply**.
 
-            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/toggle-enable-remote-access-lan.png){class="glboxshadow"}
+            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/toggle-enable-remote-access-lan.png){class="glboxshadow"}
 
     ??? "Für Firmware v4.8 und neuer"
 
@@ -30,7 +30,7 @@ Diese Anleitung beschreibt die Schritte zum Einrichten eines OpenVPN-Servers üb
         3. Aktivieren Sie den Schalter für **Allow Remote Access the LAN Subnet**.
         4. Klicken Sie auf **Apply**.
 
-            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_openvpn_server/enable-remote-access-lan-4.8.png){class="glboxshadow"}
+            ![remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_openvpn_server_via_astrorelay/enable-remote-access-lan-4.8.png){class="glboxshadow"}
 
 3.  Registrieren Sie ein AstroRelay-Konto und folgen Sie dieser [Anleitung](https://www.astrorelay.com/tutorial.html){target="_blank"}, um die Ersteinrichtung abzuschließen.
 

@@ -6,23 +6,23 @@ We use the GL-AXT1800 as an example.
 
 1. Log in to your Surfshark account, then select **Dedicated IP**.
 
-    ![manualdip](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/manualdip.jpg){calss="glboxshadow"}
+    ![manualdip](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/manualdip.jpg){class="glboxshadow"}
 
 2. Under the Dedicated IP section, click **Settings**.
 
-    ![setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark_dip/setting.jpg){calss="glboxshadow"}
+    ![setting](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/setting.jpg){class="glboxshadow"}
 
 3. Select a protocol (WireGuard or OpenVPN) and download configuration files for manual connection.
 
-    ![protocol](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/protocol.jpg){calss="glboxshadow"}
+    ![protocol](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/protocol.jpg){class="glboxshadow"}
     
     For WireGuard configuration, the download page displays the Server IP and Server Public Key, as shown below.
     
-    ![loadwg](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark_dip/loadwg.jpg){calss="glboxshadow"}
+    ![loadwg](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadwg.jpg){class="glboxshadow"}
 
     For OpenVPN configuration, the download page displays the Server IP and credentials (Username & Password), as shown below. Copy the credentials for later use.
     
-    ![loadovpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/loadovpn.jpg){calss="glboxshadow"}
+    ![loadovpn](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadovpn.jpg){class="glboxshadow"}
 
 4. Refer to the links below to upload the configuration files to your GL.iNet router. Enter the credentials if required.
 

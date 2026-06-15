@@ -37,6 +37,7 @@ plugins:
         'faq/where_to_download_firmware.md': 'faq/how_to_download_firmware.md'
         'faq/can_i_add_brume2_into_app.md': 'faq/how_to_add_brume2_into_app.md'
         'faq/i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md': 'faq/no_internet_after_replacing_the_old_router_with_glinet.md'
+        'faq/my_wireguard_server_is_not_working.md': 'faq/wireguard_server_is_not_working.md'
         'tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
         'tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md': 'tutorials/how_to_use_the_esim_physical_card_with_android_devices.md'
         'tutorials/how_to_access_server_lan_device_via_domain_name.md': 'tutorials/how_to_access_wgserver_lan_via_domain_name.md'
@@ -178,7 +179,7 @@ nav:
       - Repair network or reset: faq/repair_network_or_reset_firmware.md
       - What should I do if my router is bricked: faq/debrick.md
       - MacOS cannot write to a Samba share: faq/macos_cannot_write_samba.md
-      - WireGuard server is not working properly: faq/my_wireguard_server_is_not_working.md
+      - WireGuard server is not working properly: faq/wireguard_server_is_not_working.md
       - Stuck on "Installing" during firmware update: faq/stuck_on_installing_during_firmware_update.md
       - Stuck on "Reverting" during firmware reset: faq/stuck_on_reverting_during_firmware_reset.md
       - Stuck on "Rebooting" during firmware reboot: faq/stuck_on_rebooting_during_firmware_reboot.md

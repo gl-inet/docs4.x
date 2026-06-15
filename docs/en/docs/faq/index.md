@@ -8,8 +8,6 @@ hide:
 
 Learn how to use our devices and how to solve some common problems.
 
-For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet.com/kvm/en/).
-
 ## Network Connection
 
 * [First time setup](first_time_setup.md)
@@ -36,7 +34,7 @@ For GL.iNet KVM devices, please refer to [GL.iNet KVM Docs](https://docs.gl-inet
 * [How to repair network or factory reset?](repair_network_or_reset_firmware.md)
 * [What should I do if my router is bricked?](debrick.md)
 * [MacOS cannot write to a Samba share](macos_cannot_write_samba.md)
-* [WireGuard server is not working properly](my_wireguard_server_is_not_working.md)
+* [WireGuard server is not working properly](wireguard_server_is_not_working.md)
 * [Stuck on "Installing" during firmware update](stuck_on_installing_during_firmware_update.md)
 * [Stuck on "Reverting" during firmware reset](stuck_on_reverting_during_firmware_reset.md)
 * [Stuck on "Rebooting" during firmware reboot](stuck_on_rebooting_during_firmware_reboot.md)

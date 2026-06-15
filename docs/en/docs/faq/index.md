@@ -53,6 +53,7 @@ Learn how to use our devices and how to solve some common problems.
 * [VPN Kill Switch](block_non_vpn_traffic.md)
 * [For OpenVPN, which protocol should I choose, TCP or UDP?](openvpn_tcp_udp.md)
 * [AmneziaWG Obfuscation](amneziawg_obfuscation.md)
+* [Cannot connect to a WireGuard server with obfuscation enabled](cannot_connect_to_wireguard_server_with_obfuscation_enabled.md)
 * [Do I have to configure Ethernet WAN when using VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## Upgrade

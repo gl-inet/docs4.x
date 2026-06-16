@@ -196,7 +196,7 @@ nav:
       - VPN Kill Switch: faq/block_non_vpn_traffic.md
       - TCP or UDP: faq/openvpn_tcp_udp.md
       - AmneziaWG Obfuscation: faq/amneziawg_obfuscation.md
-      - Cannot connect to a WireGuard server with obfuscation: faq/cannot_connect_to_wireguard_server_with_obfuscation_enabled.md
+      - Cannot connect to an obfuscated WireGuard server: faq/cannot_connect_to_obfuscated_wireguard_server.md
       - Do I have to configure Ethernet WAN when using VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Upgrade:
       - Download firmware: faq/how_to_download_firmware.md

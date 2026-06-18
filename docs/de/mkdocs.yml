@@ -37,6 +37,7 @@ plugins:
         'faq/where_to_download_firmware.md': 'faq/how_to_download_firmware.md'
         'faq/can_i_add_brume2_into_app.md': 'faq/how_to_add_brume2_into_app.md'
         'faq/i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md': 'faq/no_internet_after_replacing_the_old_router_with_glinet.md'
+        'faq/my_wireguard_server_is_not_working.md': 'faq/wireguard_server_is_not_working.md'
         'tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
         'tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md': 'tutorials/how_to_use_the_esim_physical_card_with_android_devices.md'
         'tutorials/how_to_access_server_lan_device_via_domain_name.md': 'tutorials/how_to_access_wgserver_lan_via_domain_name.md'
@@ -178,7 +179,7 @@ nav:
       - Netzwerk reparieren oder zurücksetzen: faq/repair_network_or_reset_firmware.md
       - Was tun, wenn der Router beschädigt ist?: faq/debrick.md
       - macOS kann nicht auf eine Samba-Freigabe schreiben: faq/macos_cannot_write_samba.md
-      - WireGuard-Server funktioniert nicht ordnungsgemäß: faq/my_wireguard_server_is_not_working.md
+      - WireGuard-Server funktioniert nicht ordnungsgemäß: faq/wireguard_server_is_not_working.md
       - Hängt bei „Installing“ während des Firmware-Updates: faq/stuck_on_installing_during_firmware_update.md
       - Hängt bei „Reverting“ während des Firmware-Resets: faq/stuck_on_reverting_during_firmware_reset.md
       - Hängt bei „Rebooting“ während des Firmware-Neustarts: faq/stuck_on_rebooting_during_firmware_reboot.md
@@ -195,6 +196,7 @@ nav:
       - VPN Kill Switch: faq/block_non_vpn_traffic.md
       - TCP oder UDP: faq/openvpn_tcp_udp.md
       - AmneziaWG-Verschleierung: faq/amneziawg_obfuscation.md
+      - Keine Verbindung zu einem verschleierten WireGuard-Server möglich: faq/cannot_connect_to_obfuscated_wireguard_server.md
       - Muss ich Ethernet WAN bei Verwendung eines VPN konfigurieren?: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Upgrade:
       - Firmware herunterladen: faq/how_to_download_firmware.md

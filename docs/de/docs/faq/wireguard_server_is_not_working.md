@@ -1,28 +1,10 @@
-# Der WireGuard-Server auf meinem GL.iNet-Router funktioniert nicht richtig
+# Was tun, wenn der WireGuard-Server nicht ordnungsgemäß funktioniert
 
+Es gibt mehrere mögliche Ursachen, wenn der WireGuard-Server auf Ihrem GL.iNet-Router nicht ordnungsgemäß funktioniert.
 
+Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkreten Problem.
 
-
-
-
-
-Es gibt verschiedene Gründe, warum der WireGuard-Server, den Sie auf Ihrem GL.iNet-Router eingerichtet haben, nicht richtig funktioniert.
-
-
-
-
-
-
-
-Wenn Probleme auftreten, folgen Sie diesen Schritten zur Fehlerbehebung entsprechend Ihrer jeweiligen Situation.
-
-
-
-
-
-
-
-#### Situation 1: Der WireGuard-Server startet, es kann aber keine Verbindung hergestellt werden
+## Situation 1. Der WireGuard-Server startet, es kann aber keine Verbindung hergestellt werden
 
 
 
@@ -206,7 +188,7 @@ Wenn Probleme auftreten, folgen Sie diesen Schritten zur Fehlerbehebung entsprec
 
 
 
-#### Situation 2: Der WireGuard-Server zeigt an, dass mein VPN-Client verbunden ist, aber der VPN-Client kann nicht auf das Internet zugreifen
+## Situation 2. Der WireGuard-Server zeigt verbundene Clients an, aber der VPN-Client kann nicht auf das Internet zugreifen
 
 
 
@@ -378,7 +360,7 @@ Wenn Probleme auftreten, folgen Sie diesen Schritten zur Fehlerbehebung entsprec
 
 
 
-#### Situation 3: Der WireGuard-Server läuft, aber ich kann meinen VPN-Client nicht damit verbinden
+## Situation 3. Der WireGuard-Server läuft, aber der VPN-Client kann keine Verbindung herstellen
 
 
 
@@ -502,7 +484,7 @@ Wenn Probleme auftreten, folgen Sie diesen Schritten zur Fehlerbehebung entsprec
 
 
 
-#### Situation 4: Der WireGuard-Server ist verbunden, aber die Verbindung ist nicht stabil
+## Situation 4. Der WireGuard-Server ist verbunden, aber die Verbindung ist nicht stabil
 
 
 
@@ -562,7 +544,7 @@ Wenn Probleme auftreten, folgen Sie diesen Schritten zur Fehlerbehebung entsprec
 
 
 
-#### Situation 5: Der WireGuard-Server hat plötzlich aufgehört zu funktionieren
+## Situation 5. Der WireGuard-Server hat plötzlich aufgehört zu funktionieren
 
 
 

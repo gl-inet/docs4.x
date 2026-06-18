@@ -8,8 +8,6 @@ hide:
 
 デバイスの使い方と、一般的な問題の解決方法について学びましょう。
 
-GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet.com/kvm/en/)をご覧ください。
-
 ## ネットワーク接続
 
 * [初回セットアップ](first_time_setup.md)
@@ -36,7 +34,7 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 * [ネットワークを修復するか工場出荷時にリセットする方法は？](repair_network_or_reset_firmware.md)
 * [ルーターがレンガ化した場合はどうすればよいですか？](debrick.md)
 * [MacOSはSamba共有に書き込めない](macos_cannot_write_samba.md)
-* [WireGuardサーバーが正常に動作しない](my_wireguard_server_is_not_working.md)
+* [WireGuardサーバーが正常に動作しない](wireguard_server_is_not_working.md)
 * [ファームウェアアップデート中に「インストール」で固まる](stuck_on_installing_during_firmware_update.md)
 * [ファームウェアリセット中に「元に戻す」で固まる](stuck_on_reverting_during_firmware_reset.md)
 * [ファームウェア再起動中に「再起動」で固まる](stuck_on_rebooting_during_firmware_reboot.md)
@@ -55,6 +53,7 @@ GL.iNet KVMデバイスについては、[GL.iNet KVM Docs](https://docs.gl-inet
 * [VPNキルスイッチ](block_non_vpn_traffic.md)
 * [OpenVPNでは、TCPとUDPのどちらのプロトコルを選ぶべきですか？](openvpn_tcp_udp.md)
 * [AmneziaWG難読化](amneziawg_obfuscation.md)
+* [難読化された WireGuard サーバーに接続できない](cannot_connect_to_obfuscated_wireguard_server.md)
 * [VPN使用時にイーサネットWANを設定する必要がありますか？](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## アップグレード

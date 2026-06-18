@@ -1,8 +1,8 @@
 # Admin Password
 
-**Nota**: Esta página se ha movido a [Security](security.md) desde la versión v4.3.
+**Nota**: La página Admin Password se integró en [Security](security.md) a partir del firmware v4.3 y se ha restaurado como página independiente desde el firmware v4.9.
 
-La página Admin Password le permite establecer o cambiar la contraseña de la interfaz administrativa del router.
+Esta página permite establecer o cambiar la contraseña de la interfaz administrativa del router.
 
 ---
 

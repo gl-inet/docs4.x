@@ -13,8 +13,6 @@ Funkcja Tailscale w routerach GL.iNet, dostępna od wersji oprogramowania v4.2, 
 3. Niektóre modele, mimo że działają na oprogramowaniu v4.2 lub nowszym, nie obsługują Tailscale z powodu niewystarczającej ilości pamięci.
 
 ## Obsługiwane modele
-
-??? "Obsługiwane modele"
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
@@ -102,7 +100,9 @@ Poniżej pokazano przykład z użyciem modelu GL-MT2500.
 
 ## Zezwalanie na zdalny dostęp do WAN
 
-Jeśli ta opcja jest włączona, zasoby po stronie WAN urządzenia można udostępniać przez wirtualną sieć Tailscale.
+> W firmware v4.9 i nowszych funkcja ta została przemianowana na **Advertise WAN Subnets**.
+
+Po włączeniu tej opcji zasoby po stronie WAN urządzenia są dostępne przez wirtualną sieć Tailscale. Trasy zaczynają działać dopiero po zatwierdzeniu w Tailscale Admin Console.
 
 Na przykład, jak pokazano w topologii poniżej, po włączeniu tej funkcji możesz uzyskać dostęp do `GL-AXT1800` za pośrednictwem jego adresu IP (`192.168.29.1`) z urządzenia `leo-phone`. Wynika to z tego, że GL-AXT1800 jest urządzeniem nadrzędnym względem `GL-MT2500`, a ten ostatni jest podłączony do tej samej sieci Tailscale co leo-phone.
 
@@ -132,7 +132,9 @@ Kroki konfiguracji są następujące.
 
 ## Zezwalanie na zdalny dostęp do LAN
 
-Jeśli ta opcja jest włączona, zasoby po stronie LAN urządzenia można udostępniać przez wirtualną sieć Tailscale.
+> W firmware v4.9 i nowszych funkcja ta została przemianowana na **Advertise LAN Subnets**.
+
+Po włączeniu tej opcji zasoby po stronie LAN urządzenia są dostępne przez wirtualną sieć Tailscale. Trasy zaczynają działać dopiero po zatwierdzeniu w Tailscale Admin Console.
 
 Na przykład, jak pokazano w topologii poniżej, po włączeniu tej funkcji możesz zalogować się przez SSH do `Ubuntu` za pośrednictwem jego adresu IP (`192.168.8.110`) z urządzenia `leo-phone`. Wynika to z tego, że `Ubuntu` jest urządzeniem podrzędnym względem `GL-MT2500`, a ten ostatni jest podłączony do tej samej sieci Tailscale co leo-phone.
 
@@ -215,6 +217,84 @@ W poniższym przykładzie router GL.iNet **GL-MT2500** i **Leo-Desktop** znajduj
     ![exit node troubleshooting](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/troubleshooting.jpg){class="glboxshadow"}
 
     Aby rozwiązać problem, włącz trasy podsieci routera w konsoli administracyjnej Tailscale zgodnie z **Krokiem 1** powyżej.
+
+## Run Exit Node
+
+> Ta funkcja została wprowadzona w firmware v4.9.
+
+Uruchomienie węzła wyjściowego na routerze pozwala innym urządzeniom w tailnet kierować cały wychodzący ruch internetowy przez publiczny adres IP tego routera.
+
+W poniższej topologii laptop znajduje się w Bostonie, a router GL-BE9300 w Hongkongu. Oba urządzenia zostały dodane do tego samego tailnet Tailscale. Po ustawieniu GL-BE9300 jako węzła wyjściowego cały ruch wychodzący laptopa będzie wychodził do Internetu przez ten router w Hongkongu, a zewnętrzny publiczny adres IP laptopa będzie rozpoznawany jako adres IP z Hongkongu, a nie z Bostonu.
+
+![topology run exit node](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/topology.png){class="glboxshadow"}
+
+***Wskazówka**: Zalecamy wyłączenie wygasania klucza dla węzła wyjściowego, aby uniknąć przerw w łączności po wygaśnięciu klucza uwierzytelniania.*
+
+Wykonaj te kroki, aby skonfigurować GL-BE9300 jako Exit Node.
+
+1. Dodaj GL-BE9300 i laptop podróżny do tego samego tailnet Tailscale.
+
+    ![tailnet](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/tailnet.png){class="glboxshadow"}
+
+2. W Web Admin Panel urządzenia GL-BE9300 włącz **Run Exit Node** i kliknij **Apply**.
+
+    ![run exit node1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node1.png){class="glboxshadow"}
+
+3. W Tailscale Admin Console pod GL-BE9300 pojawi się etykieta "Exit Node".
+
+    ![run exit node2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node2.png){class="glboxshadow"}
+
+4. Kliknij ikonę trzech kropek obok GL-BE9300 i wybierz **Edit route settings**.
+
+    ![run exit node3](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node3.png){class="glboxshadow"}
+
+5. Zaznacz **Use as exit node** i kliknij **Save**.
+
+    ![run exit node4](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node4.png){class="glboxshadow"}
+
+6. Wyłącz wygasanie klucza.
+
+    Ze względów bezpieczeństwa użytkownicy muszą okresowo ponownie uwierzytelniać się na każdym ze swoich urządzeń. Aby uniknąć przerw w łączności po wygaśnięciu klucza uwierzytelniania węzła wyjściowego, zalecamy wyłączenie wygasania klucza dla węzła wyjściowego. Kliknij [tutaj](https://tailscale.com/docs/features/access-control/key-expiry){target="_blank"}, aby dowiedzieć się więcej o wygasaniu kluczy.
+
+    Kliknij ikonę trzech kropek po prawej stronie GL-BE9300 i wybierz **Disable key expiry**.
+
+    ![disable key expiry1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/disable_key_expiry1.png){class="glboxshadow"}
+
+    Następnie pojawi się etykieta "Expiry disabled".
+
+    ![disable key expiry2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/disable_key_expiry2.png){class="glboxshadow"}
+
+7. Wybierz GL-BE9300 jako węzeł wyjściowy dla laptopa podróżnego.
+
+    Uruchom Tailscale na laptopie podróżnym. Ikona Tailscale pojawi się w zasobniku systemowym w prawym dolnym rogu.
+
+    Kliknij ikonę prawym przyciskiem myszy, kliknij **Exit nodes** i wybierz **gl-be9300**.
+
+    ![run exit node5](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node5.png){class="glboxshadow"}
+
+    Od tej chwili cały ruch wychodzący z tego laptopa podróżnego będzie wychodził do Internetu przez GL-BE9300.
+
+8. Przetestuj łączność.
+
+    1. Na laptopie podróżnym otwórz przeglądarkę i odwiedź [ipcheck.ing](https://ipcheck.ing/){target="_blank"} lub inną stronę do sprawdzania IP. Strona wyświetli publiczny adres IP należący do węzła wyjściowego Tailscale, potwierdzając, że laptop uzyskuje dostęp do Internetu przez ten węzeł wyjściowy, w tym przykładzie przez GL-BE9300 w Hongkongu.
+
+        ![ip hk](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/ip_hk.png){class="glboxshadow"}
+
+    2. Naciśnij `Win+R`, wpisz `cmd`, aby uruchomić Wiersz polecenia, a następnie uruchom `tracert google.com`, aby prześledzić trasy ruchu wychodzącego. Wynik polecenia pokazuje wszystkie przeskoki routingu dla ruchu internetowego. Jeśli konfiguracja jest poprawna, pierwszy zewnętrzny przeskok będzie prowadził przez węzeł wyjściowy, jak pokazano poniżej.
+
+        ![tracert](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/tracert.png){class="glboxshadow"}
+
+    3. Odłącz węzeł wyjściowy, aby wykonać test porównawczy.
+
+        Kliknij prawym przyciskiem myszy ikonę Tailscale w zasobniku systemowym w prawym dolnym rogu, kliknij **Exit nodes**, a następnie wybierz **None**, aby przestać używać węzła wyjściowego.
+
+        ![comparative test](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/comparison_test.png){class="glboxshadow"}
+
+        Otwórz nową kartę przeglądarki i odwiedź [ipcheck.ing](https://ipcheck.ing/){target="_blank"} lub inny serwis sprawdzania IP. Teraz zostanie pokazany natywny publiczny adres IP laptopa, co dowodzi, że urządzenie używa lokalnego połączenia internetowego, w tym przykładzie z Bostonu.
+
+        ![ip boston](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/ip_boston.png){class="glboxshadow"}
+
+---
 
 Odniesienia: [Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/){target="_blank"}
 

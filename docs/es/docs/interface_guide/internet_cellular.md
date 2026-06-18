@@ -218,7 +218,6 @@ Aquí se muestra una lista de módems compatibles que hemos probado anteriorment
 
 | Modelo                                                                      | Red celular | Probado | Probado por     | Comentarios\* |
 | --------------------------------------------------------------------------- | ----------- | ------- | --------------- | ------------- |
-| [SIMPoYo 5G uFi](https://www.gl-inet.com/campaign/simpoyo-5g-ufi/)          | 5G          | Sí      | GL.iNet         |               |
 | [SIMPoYo 4G uFi (SP-N150C4)](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G          | Sí      | GL.iNet         |               |
 | Quectel EC20-E, EC20-A, EC20-C                                              | 4G          | Sí      | GL.iNet         |               |
 | Quectel EC25-E, EC25-A, EC25-V, EC25-C                                      | 4G          | Sí      | GL.iNet         |               |

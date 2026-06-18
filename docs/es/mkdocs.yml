@@ -37,6 +37,7 @@ plugins:
         'faq/where_to_download_firmware.md': 'faq/how_to_download_firmware.md'
         'faq/can_i_add_brume2_into_app.md': 'faq/how_to_add_brume2_into_app.md'
         'faq/i_replaced_my_old_router_with_gl_inet_router_but_no_internet.md': 'faq/no_internet_after_replacing_the_old_router_with_glinet.md'
+        'faq/my_wireguard_server_is_not_working.md': 'faq/wireguard_server_is_not_working.md'
         'tutorials/how_to_use_simpoyo_esim_physical_card_with_glinet_routers.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
         'tutorials/how_to_use_the_simpoyo_esim_physical_card_with_android_devices.md': 'tutorials/how_to_use_the_esim_physical_card_with_android_devices.md'
         'tutorials/how_to_access_server_lan_device_via_domain_name.md': 'tutorials/how_to_access_wgserver_lan_via_domain_name.md'
@@ -178,7 +179,7 @@ nav:
       - Reparar la red o restablecer: faq/repair_network_or_reset_firmware.md
       - Qué hacer si el router queda inutilizado: faq/debrick.md
       - macOS no puede escribir en un recurso compartido Samba: faq/macos_cannot_write_samba.md
-      - El servidor WireGuard no funciona correctamente: faq/my_wireguard_server_is_not_working.md
+      - El servidor WireGuard no funciona correctamente: faq/wireguard_server_is_not_working.md
       - Se queda en "Installing" durante la actualización del firmware: faq/stuck_on_installing_during_firmware_update.md
       - Se queda en "Reverting" durante el restablecimiento del firmware: faq/stuck_on_reverting_during_firmware_reset.md
       - Se queda en "Rebooting" durante el reinicio del firmware: faq/stuck_on_rebooting_during_firmware_reboot.md
@@ -195,6 +196,7 @@ nav:
       - Kill Switch de VPN: faq/block_non_vpn_traffic.md
       - TCP o UDP: faq/openvpn_tcp_udp.md
       - Parámetros de ofuscación de AmneziaWG: faq/amneziawg_obfuscation.md
+      - No se puede conectar a un servidor WireGuard ofuscado: faq/cannot_connect_to_obfuscated_wireguard_server.md
       - Tengo que configurar Ethernet WAN al usar VPN: faq/do_i_have_to_configure_ethernet_wan_when_using_vpn.md
     - Actualización:
       - Descargar firmware: faq/how_to_download_firmware.md

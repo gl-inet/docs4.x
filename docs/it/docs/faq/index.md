@@ -8,8 +8,6 @@ hide:
 
 Scopri come utilizzare i nostri dispositivi e come risolvere alcuni problemi comuni.
 
-Per i dispositivi GL.iNet KVM, fai riferimento a [GL.iNet KVM Docs](https://docs.gl-inet.com/kvm/en/).
-
 ## Connessione di rete
 
 * [Configurazione iniziale](first_time_setup.md)
@@ -36,7 +34,7 @@ Per i dispositivi GL.iNet KVM, fai riferimento a [GL.iNet KVM Docs](https://docs
 * [Come riparare la rete o ripristinare le impostazioni di fabbrica?](repair_network_or_reset_firmware.md)
 * [Cosa devo fare se il mio router è brickato?](debrick.md)
 * [macOS non riesce a scrivere su una condivisione Samba](macos_cannot_write_samba.md)
-* [Il server WireGuard non funziona correttamente](my_wireguard_server_is_not_working.md)
+* [Il server WireGuard non funziona correttamente](wireguard_server_is_not_working.md)
 * [Bloccato su "Installing" durante l'aggiornamento del firmware](stuck_on_installing_during_firmware_update.md)
 * [Bloccato su "Reverting" durante il ripristino del firmware](stuck_on_reverting_during_firmware_reset.md)
 * [Bloccato su "Rebooting" durante il riavvio del firmware](stuck_on_rebooting_during_firmware_reboot.md)
@@ -55,6 +53,7 @@ Per i dispositivi GL.iNet KVM, fai riferimento a [GL.iNet KVM Docs](https://docs
 * [VPN Kill Switch](block_non_vpn_traffic.md)
 * [Per OpenVPN, quale protocollo dovrei scegliere: TCP o UDP?](openvpn_tcp_udp.md)
 * [Offuscamento AmneziaWG](amneziawg_obfuscation.md)
+* [Impossibile connettersi a un server WireGuard offuscato](cannot_connect_to_obfuscated_wireguard_server.md)
 * [Devo configurare Ethernet WAN quando uso la VPN?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## Aggiornamento

@@ -134,7 +134,7 @@ You will be redirected to the Mesh Node login page at the IP address assigned by
 
 ![mesh admin login](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_node_admin.png){class="glboxshadow"}
 
-After logging in, go to **ASTROMESH** to view the connection status.
+After logging in, go to **ASTROMESH** to view connection status.
 
 ![mesh node status](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_node_status.png){class="glboxshadow"}
 
@@ -164,13 +164,13 @@ Use this IP address to log in to your Astro Node.
 
 ![astro node admin](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/astro_node_admin.png){class="glboxshadow"}
 
-After logging in, go to **ASTROMESH** to view the connection status. The default connection mode is **Exit Node Mode**. You can switch it to **Traffic Split Mode** as needed.
+After logging in, go to **ASTROMESH** to view connection status. The default connection mode is **Exit Node Mode**. You may switch to **Traffic Split Mode** as needed.
 
 ![astro node exit](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/astro_node_exit.png){class="glboxshadow"}
 
-- **Exit Node Mode**: In this mode, all traffic from the Astro Node will be routed through your home network for Internet access. The Astro Node's IP address will be shown as your home IP address.
+- **Exit Node Mode**: In this mode, all traffic from the Astro Node will be routed through your home network to access the internet. The Astro Node's public IP will match your home network's public IP address.
 
-- **Traffic Split Mode**: In this mode, only traffic heading to your home network will be routed back to the Main Router, while other Internet traffic will go directly through the local WAN interface of your Astro Node. Please make sure the Astro Node is connectd to a local network.
+- **Traffic Split Mode**: In this mode, only traffic heading to your home network is forwarded back to the Main Router, while other internet traffic passes directly through the Astro Node's local WAN. Ensure the Astro Node is connected to a local internet network.
 
 ---
 

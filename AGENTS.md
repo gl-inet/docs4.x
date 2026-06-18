@@ -1,4 +1,4 @@
-# Copilot Instructions for Documentation Translation
+# Agent Instructions for Documentation Translation
 
 This repository contains localized GL.iNet router documentation. When translating documentation from English into another language, follow the rules below.
 
@@ -79,7 +79,7 @@ This repository contains localized GL.iNet router documentation. When translatin
 
 ## Language-Specific Rules
 
-- Follow any file-specific instructions under `.github/instructions/` when they apply to the target language or target folder.
+- Follow the language-specific `AGENTS.md` file under `docs/<language>/` when editing localized documentation for that language.
 - Keep language-specific terminology, style, and localization rules out of this file. Put them in scoped instruction files instead.
 
 ## Final Quality Check

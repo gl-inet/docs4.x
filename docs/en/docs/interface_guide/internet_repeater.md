@@ -22,7 +22,7 @@ Enter the correct Wi-Fi password and click **Apply**.
 
 ![join wifi 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_2.png){class="glboxshadow"}
 
-If the Wi-Fi SSID you want to connect to is not in the Available Network list, click **Join Other Network** in the upper-right corner, manually input the Wi-Fi SSID and other information required. Refer to [here](#join-other-network) for detailed steps.
+If the Wi-Fi SSID you want to connect to is not in the Available Network list, click **Join Other Network** in the upper-right corner, manually enter the Wi-Fi SSID and other information required. Refer to [here](#join-other-network) for detailed steps.
 
 ![join other network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
 
@@ -30,7 +30,7 @@ For connecting to a public hotspot, such as those provided by hotels/airports/ma
 
 For other settings, please refer to [Advanced Settings](#advanced-settings).
 
-After a while, if the password input is correct, the connection will be successful.
+After a while, if the password is correct, the connection will be successful.
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
@@ -92,41 +92,25 @@ When joining the network, there are some additional options.
 
 ## Repeater Options
 
-To view repeater options, click the gear icon in the upper-right corner of the connected Repeater section.
+Click the gear icon in the upper-right corner of the connected Repeater section.
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-**For firmware v4.8**, the Repeater Options page is displayed as follows.
-
-![v4.8 repeater options 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/4.8/repeater_options_1.png){class="glboxshadow"}
-
-- **Allow Switching to Other Networks Mode**: 
-
-    - No Switching mode: When No Switching mode is enabled, other saved networks will not be automatically connected when the current Wi-Fi is disconnected.
-  
-    - Auto Switching mode: When Auto Switching mode is enabled, the router will try to connect to other saved networks when the current Wi-Fi is disconnected.
-  
-    - Auto Switching Without Network: When Auto-switching Without Network mode is enabled, the router will not automatically scan for networks when it is successfully networked in the non-repeater mode, and will only try to automatically switch to other saved networks when the router is without a network, which can avoid communication packet loss. 
-
-- **Band Selection**: you can select from three options: Auto, 5 GHz and 2.4 GHz.
-
-    If you manually select a band, the router will not scan or connect to any Wi-Fi that is using another band.
-
-**For firmware v4.7 and earlier**, the Repeater Options page is displayed as below.
+The Repeater Options are displayed as follows.
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 
-* **Allow Switching To Other Saved Networks**. If the option is enabled, the router will automatically connect to other saved networks when it is unable to connect to the current Wi-Fi network.
+* **Allow Switching to Other Saved Networks**: If enabled, the router will automatically connect to other saved networks when the current connected Wi-Fi network is unavailable.
 
-* **Band Selection**. If you manually select a band, the router will not scan or connect to any Wi-Fi with another band.
+* **Band Selection**: If you manually select a band, the router will only scan and connect to the Wi-Fi networks in this frequency band.
 
 ## Manage Known Network
 
-To delete known network, click **Switch Network**.
+To manage known networks, click **Switch Network**.
 
 ![switch network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-Or click **Connect** in the Repeater section if there's no any network connected.
+You can also click **Connect** in the Repeater section if no network is currently connected.
 
 ![repeater section](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
 
@@ -140,7 +124,7 @@ If the SSID is not in the Available Networks list, or if the SSID is hidden, you
 
 ![join other network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
 
-Input the SSID, select the Security and enter the password (if required).
+Enter the SSID, select the Security and enter the password (if required).
 
 ![join other network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_2.png){class="glboxshadow"}
 

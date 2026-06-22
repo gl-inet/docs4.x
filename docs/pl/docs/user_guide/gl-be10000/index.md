@@ -18,58 +18,43 @@ W opakowaniu znajdują się:
 - 1 x zasilacz
 - 4 x przejściówki (wtyki US, EU, UK i AU)
 
+## Ekran dotykowy
+
+| Ekran | Opis |
+| :---- | :--- |
+| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){width="500"} | Uruchamianie |
+| ![set up admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){width="400"} | Ustawienie hasła administratora |
+| ![set up wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){width="400"} | Konfiguracja Wi-Fi |
+| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Ekran główny<br></br>**Lewa strona**: czas systemowy, prędkość sieci oraz skróty do Wi-Fi, Clients, VPN i innych funkcji.<br>**Prawa strona**: cztery tryby połączenia: Ethernet, Repeater, Tethering i Cellular |
+| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Stan sieci<br></br>**Niebieski**: aktywne / połączono z internetem<br>**Żółty**: łączenie / błąd sieci<br>**Biały**: połączenie nieaktywne |
+
 ## Jak skonfigurować Slate 7 Pro
 
-Aby skonfigurować Slate 7 Pro, skorzystaj z jednej z czterech obsługiwanych metod połączenia z internetem: Ethernet, Repeater, Tethering i Cellular. Wykonaj poniższe kroki.
+Aby skonfigurować Slate 7 Pro, użyj jednej z czterech obsługiwanych metod połączenia z internetem: Ethernet, Repeater, Tethering albo Cellular. Wykonaj poniższe kroki.
 
 ### 1. Włącz zasilanie
 
-Połącz dwie części zasilacza. Podłącz go do routera i do gniazdka elektrycznego. Urządzenie uruchomi się automatycznie.
+Złóż dwuczęściowy zasilacz. Podłącz go do routera i do gniazdka. Router uruchomi się automatycznie.
 
-### 2. Ekran dotykowy
+### 2. Podłącz urządzenie
 
-Po włączeniu routera na ekranie pojawi się logo GL.iNet, a następnie pasek postępu uruchamiania.
-
-![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){class="glboxshadow" width="360"}
-
-Gdy pasek postępu zostanie całkowicie wypełniony, urządzenie zakończy uruchamianie i wyświetli ekran powitalny. Postępuj zgodnie z komunikatami, aby ustawić hasło administratora i sieć Wi‑Fi.
-
-![set admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){class="glboxshadow" width="360"}
-
-![set WiFi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){class="glboxshadow" width="360"}
-
-Następnie przejdziesz do ekranu głównego. Po lewej stronie wyświetlane są informacje systemowe w czasie rzeczywistym, w tym czas systemowy i prędkość sieci, a także kafelki skrótów do Wi‑Fi, Clients, VPN i innych funkcji. Po prawej stronie znajdują się kafelki skrótów do czterech trybów połączenia: Ethernet, Repeater, Tethering i Cellular.
-
-![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){class="glboxshadow" width="360"}
-
-Różne kolory czterech kafelków skrótów oznaczają różny stan sieci.
-
-![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){class="glboxshadow" width="360"}
-
-- **Niebieski**: aktywne / połączone z internetem
-- **Żółty**: łączenie / problem z siecią
-- **Biały**: połączenie nieaktywne
-
-### 3. Podłącz urządzenie
-
-Połącz urządzenie (np. komputer, laptop lub smartfon) z routerem przez Wi‑Fi albo Ethernet.
+Podłącz urządzenie (np. komputer, laptop lub smartfon) do routera przez Wi-Fi albo Ethernet.
 
 - Ethernet
 
     Podłącz urządzenie do portu LAN routera za pomocą kabla Ethernet.
 
-- Wi‑Fi
+- Wi-Fi
 
-    Na swoim urządzeniu znajdź nazwę sieci Wi‑Fi routera na liście dostępnych sieci i wpisz hasło, aby do niej dołączyć. Domyślna nazwa sieci (SSID) i hasło są wydrukowane na etykiecie routera.
+    Na urządzeniu znajdź nazwę sieci Wi-Fi routera na liście dostępnych sieci i wprowadź hasło, aby połączyć się z siecią. Domyślna nazwa sieci (SSID) i hasło są wydrukowane na etykiecie routera.
 
-### 4. Zaloguj się do web Admin Panel
+### 3. Zaloguj się do web Admin Panel
 
 Otwórz przeglądarkę internetową, wpisz `192.168.8.1` w pasku adresu i zaloguj się. Wybierz język i ustaw hasło administratora, a następnie kliknij **Apply**.
 
-### 5. Konfiguracja internetu
+### 4. Konfiguracja internetu
 
-Skonfiguruj Slate 7 Pro, korzystając z jednej z obsługiwanych metod połączenia z internetem: Ethernet, Repeater, Tethering i Cellular. Jeśli chcesz korzystać z funkcji [Multi-WAN](../../interface_guide/multi-wan.md), skonfiguruj więcej niż jedno połączenie internetowe.
-
+Skonfiguruj Slate 7 Pro, używając jednej z obsługiwanych metod połączenia z internetem: Ethernet, Repeater, Tethering albo Cellular. Jeśli chcesz używać funkcji [Multi-WAN](../../interface_guide/multi-wan.md), skonfiguruj więcej niż jedno połączenie internetowe.
 === "Ethernet"
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_ethernet.jpg){class="glboxshadow"}

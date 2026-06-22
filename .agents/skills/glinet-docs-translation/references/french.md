@@ -1,9 +1,3 @@
----
-description: "Use when translating English GL.iNet router documentation into French or editing files under docs/fr/docs/**. Covers French terminology, style, and common translation pitfalls."
-name: "French Docs Translation Rules"
-applyTo: "docs/fr/docs/**/*.md"
----
-
 # French Translation Rules
 
 - Write natural, professional French suitable for official technical support documentation.

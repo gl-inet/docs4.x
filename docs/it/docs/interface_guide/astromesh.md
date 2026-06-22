@@ -8,21 +8,24 @@ A casa, il router da viaggio agisce come un normale Mesh Node per estendere la c
 
 ## Configurazione rapida
 
-In questo esempio vengono utilizzati Flint 3 (GL-BE9300) e Slate 7 (GL-BE3600) per creare una rete AstroMesh.
+In questo esempio utilizziamo Flint 3 (GL-BE9300) e Slate 7 (GL-BE3600) per creare una rete AstroMesh.
 
-- **Flint 3**: Main Node, gateway Internet, gestore dei Mesh Nodes e uscita di rete per Astro Nodes remoti.
-- **Slate 7**: Mesh Node per estendere la copertura locale con EasyMesh o la rete remota tramite AstroWarp.
+- **Flint 3**: funge da Main Router, si connette a Internet e gestisce tutti i Mesh Nodes. Inoltre agisce come uscita di rete per tutti gli Astro Nodes remoti.
+- **Slate 7**: funziona come Mesh Node che estende localmente la copertura Wi-Fi del Main Router tramite EasyMesh oppure estende la rete domestica a siti remoti tramite AstroWarp.
 
-Segui i passaggi riportati di seguito per completare la configurazione.
+Segui i passaggi seguenti per completare la configurazione.
 
-1. Accedi al Web Admin Panel di Flint 3 e vai su **INTERNET**. Collegalo a Internet tramite Ethernet, Repeater, Tethering o Cellular.
-2. Vai su **ASTROMESH** e fai clic su **Main Node**.
+1. Accedi al Web Admin Panel di Flint 3 e vai su **INTERNET**. Connettilo a Internet tramite uno dei tipi di connessione supportati: Ethernet, Repeater, Tethering o Cellular.
+
+2. Vai su **ASTROMESH** e fai clic su **Main Router**.
 
     ![main node](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/main_node.png){class="glboxshadow"}
 
 3. Aggiungi nodi tramite **Wi-Fi Scan** o **Pairing Code**.
 
     ![main add node](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/main_add_nodes.png){class="glboxshadow"}
+
+    Consulta le istruzioni corrispondenti di seguito.
 
     ??? note "Wi-Fi Scan"
 
@@ -40,7 +43,7 @@ Segui i passaggi riportati di seguito per completare la configurazione.
 
         ![wifi scan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scan1.png){class="glboxshadow"}
 
-        Il router cerca i Mesh Nodes vicini tramite Wi-Fi.
+        Il router avvierà la scansione dei Mesh Nodes vicini tramite Wi-Fi.
 
         ![wifi scanning](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scanning.png){class="glboxshadow"}
 
@@ -48,11 +51,11 @@ Segui i passaggi riportati di seguito per completare la configurazione.
 
         ![wifi scan 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scan2.jpg){class="glboxshadow"}
 
-        Il Mesh Node viene aggiunto ad AstroMesh. Fai clic su **Finish**.
+        Il Mesh Node verrà aggiunto alla rete AstroMesh. Fai clic su **Finish**.
 
         ![wifi scan added](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scan_added.png){class="glboxshadow"}
 
-        **Nota**: una volta connesso, questo Mesh Node non sarà più accessibile tramite il suo indirizzo IP originale. Usa il nuovo indirizzo IP assegnato dal Main Node e gestisci tutti i nodi dall’Admin Panel del Main Node. Vedi [qui](#manage-nodes).
+        **Nota**: quando un nodo entra nella rete AstroMesh, non sarà più accessibile tramite il suo indirizzo IP originale. Tutti i nodi possono essere gestiti dal Admin Panel del Main Router. Consulta [Gestire i Mesh Nodes](#manage-mesh-nodes) per i dettagli.
 
     ??? note "Pairing Code"
 
@@ -60,47 +63,39 @@ Segui i passaggi riportati di seguito per completare la configurazione.
 
         ![add nodes pairing code](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/add_nodes_pairing.png){class="glboxshadow"}
 
-        Copia il codice di associazione generato dal Main Node.
+        Il Main Router genererà un codice di associazione. Copia questo codice.
 
         ![pairing code mesh mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/pairing_code_mesh.png){class="glboxshadow"}
 
-        Accedi al Web Admin Panel di Slate 7, vai su **AstroMesh** e fai clic su **Mesh/Astro Node**.
+        Accedi al Web Admin Panel di Slate 7, vai su **ASTROMESH** e fai clic su **Mesh/Astro Node**.
 
         ![mesh node](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/sub_node.png){class="glboxshadow"}
 
-        Inserisci il codice di associazione e fai clic su **Apply**.
+        Inserisci il codice di associazione copiato e fai clic su **Apply**. *Il codice di associazione ha una validità limitata. Inseriscilo prima che scada.*
 
         ![enter pairing code](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/enter_pairing_code.png){class="glboxshadow"}
 
-        Il Mesh Node inizia a connettersi al Main Node. Fai clic su **Done**.
+        Il Mesh Node inizierà a connettersi al Main Router. Fai clic su **Done**.
 
         ![mesh node pairing](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_pairing.png){class="glboxshadow"}
 
-        **Nota**: una volta connesso, questo Mesh Node non sarà più accessibile tramite il suo indirizzo IP originale. Usa il nuovo indirizzo IP assegnato dal Main Node e gestisci tutti i nodi dall’Admin Panel del Main Node. Vedi [qui](#manage-nodes).
+        **Nota**: quando un nodo entra nella rete AstroMesh, non sarà più accessibile tramite il suo indirizzo IP originale. Tutti i nodi possono essere gestiti dal Admin Panel del Main Router. Consulta [Gestire i Mesh Nodes](#manage-mesh-nodes) per i dettagli.
 
-4. Una volta aggiunto il nodo alla rete AstroMesh, l’Admin Panel del Main Node mostra la topologia di rete, come illustrato di seguito.
+4. Dopo che i nodi sono stati aggiunti correttamente ad AstroMesh, nel Admin Panel del Main Router verrà visualizzata una topologia, come mostrato di seguito.
 
     ![main topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/main_topology.png){class="glboxshadow"}
 
-    Anche l’Admin Panel del Mesh Node mostra lo stato della connessione, come illustrato di seguito.
+## Gestire i Mesh Nodes {#manage-mesh-nodes}
 
-    ![mesh node status](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_node_status.png){class="glboxshadow"}
-
-    **Nota**: una volta aggiunto alla rete AstroMesh, il Mesh Node non sarà più accessibile tramite il suo indirizzo IP originale. Per accedervi di nuovo, usa il nuovo indirizzo IP assegnato dal Main Node. Gestisci tutti i nodi dall’Admin Panel del Main Node. Vedi [qui](#manage-nodes).
-
-5. Quando porti il Mesh Node fuori casa, passa automaticamente alla modalità Astro Node.
-
-## Gestire i nodi {#manage-nodes}
-
-Gestisci AstroMesh dall’Admin Panel del Main Node.
+Gestisci i Mesh Nodes dal Admin Panel del Main Router.
 
 ### Visualizzare le informazioni del nodo
 
-Fai clic su **Main Node** nella topologia AstroMesh.
+Nel Admin Panel del Main Router, vai su **ASTROMESH** e fai clic su **Main Router** nella topologia AstroMesh.
 
 ![main node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/main_node_info1.png){class="glboxshadow"}
 
-Puoi visualizzare i dettagli del Main Node, inclusi modello, indirizzi IP e MAC, tempo di attività e client connessi.
+Puoi visualizzare i dettagli del Main Router, inclusi modello, indirizzi IP e MAC, tempo di attività e client connessi.
 
 ![main node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/main_node_info2.png){class="glboxshadow"}
 
@@ -114,11 +109,11 @@ Puoi visualizzare i dettagli del Mesh Node, inclusi modello, indirizzi IP e MAC,
 
 ### Modificare il Mesh Node
 
-Fai clic su **Mesh Node** nella topologia AstroMesh.
+Nel Admin Panel del Main Router, vai su **ASTROMESH** e fai clic su **Mesh Node** nella topologia AstroMesh.
 
 ![mesh node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_node_info1.png){class="glboxshadow"}
 
-Per impostazione predefinita, ogni Mesh Node viene chiamato "Node" seguito dalle ultime quattro cifre del suo indirizzo MAC. Fai clic sull’icona di modifica per rinominarlo.
+Per impostazione predefinita, ogni Mesh Node viene chiamato "Node" seguito dalle ultime quattro cifre del suo indirizzo MAC. Fai clic sull’icona di modifica per rinominare il Mesh Node.
 
 ![edit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/edit_node1.png){class="glboxshadow"}
 
@@ -126,7 +121,7 @@ Per impostazione predefinita, ogni Mesh Node viene chiamato "Node" seguito dalle
 
 ### Accedere al Mesh Node
 
-Fai clic su **Mesh Node** nella topologia AstroMesh.
+Nel Admin Panel del Main Router, vai su **ASTROMESH** e fai clic su **Mesh Node** nella topologia AstroMesh.
 
 ![mesh node info](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_node_info1.png){class="glboxshadow"}
 
@@ -134,9 +129,47 @@ Fai clic sull’icona a forma di ingranaggio in alto a destra e seleziona **Open
 
 ![mesh node actions](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/node_actions.png){class="glboxshadow"}
 
-Verrai reindirizzato alla pagina di accesso del Mesh Node. Inserisci la password amministratore per accedere al suo Admin Panel tramite l’indirizzo IP assegnato dal Main Node.
+Verrai reindirizzato alla pagina di accesso del Mesh Node all’indirizzo IP assegnato dal Main Router. Inserisci la password amministratore per accedere.
 
-![mesh admin panel](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_node_admin.png){class="glboxshadow"}
+![mesh admin login](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_node_admin.png){class="glboxshadow"}
+
+Dopo l’accesso, vai su **ASTROMESH** per visualizzare lo stato della connessione.
+
+![mesh node status](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_node_status.png){class="glboxshadow"}
+
+### Aggiungere altri nodi
+
+Per aggiungere altri nodi, fai clic su **Add** nell’angolo in alto a destra della topologia AstroMesh.
+
+![add more nodes](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/add_more_nodes.png){class="glboxshadow"}
+
+## Gestire gli Astro Nodes
+
+Quando sposti un Mesh Node fuori dalla rete domestica, passerà automaticamente alla modalità **Astro Node**.
+
+Ad esempio, porta Slate 7 in un’altra posizione. Accendilo e seleziona la modalità **Mesh Node** sul touchscreen.
+
+![select mesh node](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/be3600/select_mode.png){class="glboxshadow" width="360"}
+
+Rileverà l’ambiente di rete corrente, passerà automaticamente alla modalità **Astro Node** e avvierà la connessione.
+
+![astro node connecting](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/be3600/astro_node_connecting.png){class="glboxshadow" width="360"}
+
+Una volta connesso, mostrerà il suo indirizzo IP originale, che può essere utilizzato per accedere al suo Web Admin Panel.
+
+![astro node connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/be3600/astro_node_connected.png){class="glboxshadow" width="360"}
+
+Usa questo indirizzo IP per accedere al tuo Astro Node.
+
+![astro node admin](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/astro_node_admin.png){class="glboxshadow"}
+
+Dopo l’accesso, vai su **ASTROMESH** per visualizzare lo stato della connessione. La modalità di connessione predefinita è **Exit Node Mode**. Puoi passare a **Traffic Split Mode** secondo necessità.
+
+![astro node exit](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/astro_node_exit.png){class="glboxshadow"}
+
+- **Exit Node Mode**: in questa modalità, tutto il traffico dell’Astro Node viene instradato attraverso la rete domestica per accedere a Internet. L’IP pubblico dell’Astro Node corrisponderà all’indirizzo IP pubblico della rete domestica.
+
+- **Traffic Split Mode**: in questa modalità, solo il traffico diretto alla rete domestica viene inoltrato al Main Router, mentre l’altro traffico Internet passa direttamente attraverso la WAN locale dell’Astro Node. Assicurati che l’Astro Node sia connesso a una rete Internet locale.
 
 ---
 

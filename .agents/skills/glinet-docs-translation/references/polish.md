@@ -1,9 +1,3 @@
----
-description: "Use when translating English GL.iNet router documentation into Polish or editing files under docs/pl/docs/**. Covers Polish terminology, style, and common translation pitfalls."
-name: "Polish Docs Translation Rules"
-applyTo: "docs/pl/docs/**/*.md"
----
-
 # Polish Translation Rules
 
 - Write natural, professional Polish suitable for official technical support documentation.

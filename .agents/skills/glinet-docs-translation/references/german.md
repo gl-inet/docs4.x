@@ -1,9 +1,3 @@
----
-description: "Use when translating English GL.iNet router documentation into German or editing files under docs/de/docs/**. Covers German terminology, style, and common translation pitfalls."
-name: "German Docs Translation Rules"
-applyTo: "docs/de/docs/**/*.md"
----
-
 # German Translation Rules
 
 - Write natural, professional German suitable for official technical support documentation.

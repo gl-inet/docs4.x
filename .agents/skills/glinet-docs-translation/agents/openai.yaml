@@ -1,0 +1,4 @@
+interface:
+  display_name: "GL.iNet Docs Translation"
+  short_description: "Translate and review localized GL.iNet docs"
+  default_prompt: "Use $glinet-docs-translation to translate GL.iNet documentation changes into localized docs."

@@ -1,9 +1,3 @@
----
-description: "Use when translating English GL.iNet router documentation into Italian or editing files under docs/it/docs/**. Covers Italian terminology, style, and common translation pitfalls."
-name: "Italian Docs Translation Rules"
-applyTo: "docs/it/docs/**/*.md"
----
-
 # Italian Translation Rules
 
 - Write natural, professional Italian suitable for official technical support documentation.

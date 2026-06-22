@@ -18,58 +18,43 @@ Le colis comprend :
 - 1 x Adaptateur secteur
 - 4 x Convertisseurs (prises US, EU, UK et AU)
 
+## Écran tactile
+
+| Affichage à l’écran | Description |
+| :------------------ | :---------- |
+| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){width="500"} | Démarrage |
+| ![set up admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){width="400"} | Définir le mot de passe administrateur |
+| ![set up wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){width="400"} | Configurer le Wi-Fi |
+| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Écran d’accueil<br></br>**Gauche** : heure système, vitesse du réseau et raccourcis vers Wi-Fi, Clients, VPN et d’autres fonctions.<br>**Droite** : quatre modes de connexion : Ethernet, Repeater, Tethering et Cellular |
+| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | État du réseau<br></br>**Bleu** : actif / connecté à Internet<br>**Jaune** : connexion en cours / échec réseau<br>**Blanc** : connexion inactive |
+
 ## Comment configurer le Slate 7 Pro
 
 Pour configurer le Slate 7 Pro, vous utiliserez l’une des quatre méthodes de connexion Internet prises en charge : Ethernet, Repeater, Tethering et Cellular. Suivez les étapes ci-dessous.
 
 ### 1. Mise sous tension
 
-Assemblez les deux parties de l’adaptateur secteur. Connectez-le à votre routeur, puis branchez-le sur une prise électrique. Il démarre automatiquement.
+Assemblez les deux parties de l’adaptateur secteur. Connectez-le au routeur et branchez-le à une prise. Le routeur démarre automatiquement.
 
-### 2. Écran tactile
+### 2. Connecter un appareil
 
-Lorsque le routeur est mis sous tension, le logo GL.iNet s’affiche à l’écran, suivi de la barre de progression du démarrage.
-
-![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){class="glboxshadow" width="360"}
-
-Une fois la barre de progression entièrement chargée, l’appareil termine son démarrage et affiche l’écran de bienvenue. Suivez les instructions pour définir votre mot de passe administrateur et votre réseau Wi‑Fi.
-
-![set admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){class="glboxshadow" width="360"}
-
-![set WiFi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){class="glboxshadow" width="360"}
-
-Vous accéderez ensuite à l’écran d’accueil. La partie gauche affiche les informations système en temps réel, notamment l’heure système et la vitesse du réseau, et fournit des raccourcis vers le Wi‑Fi, les Clients, le VPN et d’autres fonctions. La partie droite propose des raccourcis vers les quatre modes de connexion : Ethernet, Repeater, Tethering et Cellular.
-
-![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){class="glboxshadow" width="360"}
-
-Les différentes couleurs des quatre raccourcis indiquent des états réseau différents.
-
-![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){class="glboxshadow" width="360"}
-
-- **Bleu** : actif / connecté à Internet
-- **Jaune** : connexion en cours / échec réseau
-- **Blanc** : connexion inactive
-
-### 3. Connecter un appareil
-
-Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via le Wi‑Fi ou Ethernet.
+Connectez un appareil (par exemple un ordinateur, un ordinateur portable ou un smartphone) au routeur via Wi-Fi ou Ethernet.
 
 - Ethernet
 
     Connectez votre appareil au port LAN du routeur à l’aide d’un câble Ethernet.
 
-- Wi‑Fi
+- Wi-Fi
 
-    Sur votre appareil, repérez le nom du réseau Wi‑Fi du routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe pour vous y connecter. Vous trouverez le nom du réseau par défaut (SSID) et le mot de passe sur l’étiquette du routeur.
+    Sur votre appareil, trouvez le nom du réseau Wi-Fi du routeur dans la liste des réseaux disponibles, puis saisissez le mot de passe pour rejoindre le réseau. Le nom de réseau (SSID) et le mot de passe par défaut sont indiqués sur l’étiquette du routeur.
 
-### 4. Se connecter au panneau d’administration web
+### 3. Se connecter au panneau d’administration web
 
-Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d’adresse, puis connectez-vous. Choisissez une langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
+Ouvrez un navigateur web, saisissez `192.168.8.1` dans la barre d’adresse et connectez-vous. Choisissez une langue et définissez votre mot de passe administrateur, puis cliquez sur **Apply**.
 
-### 5. Configuration Internet
+### 4. Configuration Internet
 
-Configurez votre Slate 7 Pro à l’aide de l’une des méthodes de connexion Internet prises en charge : Ethernet, Repeater, Tethering et Cellular. Si vous souhaitez utiliser la fonctionnalité [Multi-WAN](../../interface_guide/multi-wan.md), configurez plus d’une connexion Internet.
-
+Configurez votre Slate 7 Pro avec l’une des méthodes de connexion Internet prises en charge : Ethernet, Repeater, Tethering et Cellular. Si vous souhaitez utiliser la fonction [Multi-WAN](../../interface_guide/multi-wan.md), configurez plusieurs connexions Internet.
 === "Ethernet"
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_ethernet.jpg){class="glboxshadow"}

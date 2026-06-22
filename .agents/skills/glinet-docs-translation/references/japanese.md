@@ -1,9 +1,3 @@
----
-description: "Use when translating English GL.iNet router documentation into Japanese or editing files under docs/jp/docs/**. Covers Japanese terminology, style, and common translation pitfalls."
-name: "Japanese Docs Translation Rules"
-applyTo: "docs/jp/docs/**/*.md"
----
-
 # Japanese Translation Rules
 
 - Write natural, professional Japanese suitable for official support documentation.

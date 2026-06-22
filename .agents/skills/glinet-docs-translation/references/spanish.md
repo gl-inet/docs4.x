@@ -1,9 +1,3 @@
----
-description: "Use when translating English GL.iNet router documentation into Spanish or editing files under docs/es/docs/**. Covers Spanish terminology, style, and common translation pitfalls."
-name: "Spanish Docs Translation Rules"
-applyTo: "docs/es/docs/**/*.md"
----
-
 # Spanish Translation Rules
 
 - Write natural, professional Spanish suitable for official technical support documentation.

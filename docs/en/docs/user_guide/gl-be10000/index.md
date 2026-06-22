@@ -18,6 +18,16 @@ The package includes:
 - 1 x Power Adapter
 - 4 x Converters (US, EU, UK, and AU Plugs)
 
+## Touchscreen
+
+| Screen Display                    | Description         |
+| :-------------------------------- | :------------------ |
+| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){width="500"} | Starting up |
+| ![set up admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){width="400"} | Set admin password |
+| ![set up wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){width="400"} | Set Wi-Fi |
+| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Home screen<br></br>**Left**: System time, network speed, and shortcuts for Wi-Fi, Clients, VPN, and other functions.<br>**Right**: Four connection modes: Ethernet, Repeater, Tethering, and Cellular |
+| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Network status<br></br>**Blue**: Active / Connected to Internet<br>**Yellow**: Connecting / Network Failure<br>**White**: Inactive connection
+
 ## How to set up Slate 7 Pro
 
 To set up Slate 7 Pro, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Follow the steps below.
@@ -26,31 +36,7 @@ To set up Slate 7 Pro, you will use one of the four supported internet connectio
 
 Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
 
-### 2. Touchscreen
-
-When the router is powered on, the GL.iNet logo will be displayed on the screen, followed by the startup progress bar.
-
-![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){class="glboxshadow" width="360"}
-
-Once the progress bar is fully loaded, the device completes startup and enters the welcome screen. Follow the prompts to set your admin password and Wi-Fi network.
-
-![set admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){class="glboxshadow" width="360"}
-
-![set WiFi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){class="glboxshadow" width="360"}
-
-You will then enter the home screen. The left side shows real-time system info, including system time and network speed, and provides shortcut tiles for Wi-Fi, Clients, VPN, and other functions. The right side provides shortcut tiles for the four connection modes: Ethernet, Repeater, Tethering, and Cellular.
-
-![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){class="glboxshadow" width="360"}
-
-Different colors on the four shortcut tiles indicate different network status.
-
-![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){class="glboxshadow" width="360"}
-
-- **Blue**: Active / Connected to Internet
-- **Yellow**: Connecting / Network Failure
-- **White**: Inactive connection
-
-### 3. Connect device
+### 2. Connect device
 
 Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-Fi or Ethernet.
 
@@ -62,11 +48,11 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
     On your device, locate your router's Wi-Fi network name in the available networks list, and enter the password to join the network. You can find the default network name (SSID) and password printed on the router's label.
 
-### 4. Log in to web Admin Panel
+### 3. Log in to web Admin Panel
 
 Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**. 
 
-### 5. Internet setup
+### 4. Internet setup
 
 Configure your Slate 7 Pro using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 

@@ -5,6 +5,7 @@ This repository contains localized GL.iNet router documentation. When translatin
 ## Scope
 
 - These instructions apply to translation work across localized docs in this repository.
+- Treat `docs/en/` as the English source root, including `mkdocs.yml`, homepage overrides, and page content under `docs/en/docs/`.
 - Prefer updating the matching localized file instead of creating a different structure unless the English source introduces a new page.
 - Keep the translated document functionally equivalent to the English source.
 

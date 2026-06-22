@@ -1,6 +1,6 @@
 ---
 name: glinet-docs-translation
-description: Translate, sync, or review GL.iNet router documentation between English source files and localized docs. Use when Codex is asked to translate English docs into German, Spanish, French, Italian, Japanese, or Polish; update localized docs after changes under docs/en/docs/**; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
+description: Translate, sync, or review GL.iNet router documentation between English source files and localized docs. Use when Codex is asked to translate English docs into German, Spanish, French, Italian, Japanese, or Polish; update localized docs after changes under docs/en/**; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
 ---
 
 # GL.iNet Docs Translation
@@ -35,9 +35,10 @@ If a task touches multiple languages, read `references/common.md` once and then 
 
 ## Path Conventions
 
-- English source docs live under `docs/en/docs/`.
-- Localized docs live under `docs/de/docs/`, `docs/es/docs/`, `docs/fr/docs/`, `docs/it/docs/`, `docs/jp/docs/`, and `docs/pl/docs/`.
-- Prefer updating the matching localized path. Create a new localized page only when the English source introduces a page that does not yet exist.
+- English source docs live under the language root `docs/en/`, including `mkdocs.yml`, homepage overrides, and page content under `docs/en/docs/`.
+- Localized docs live under the language roots `docs/de/`, `docs/es/`, `docs/fr/`, `docs/it/`, `docs/jp/`, and `docs/pl/`.
+- For page content, prefer updating the matching localized path under the target language's `docs/` subdirectory. Create a new localized page only when the English source introduces a page that does not yet exist.
+- For language-level files such as `mkdocs.yml` or homepage overrides, update the matching file under the target language root when it exists.
 
 ## Final Check
 

@@ -1,8 +1,8 @@
 # Hasło administratora
 
-**Uwaga**: Od wersji v4.3 ta strona została przeniesiona do [Security](security.md).
+**Uwaga**: Strona Admin Password została od firmware v4.3 zintegrowana z [Security](security.md), a od firmware v4.9 została przywrócona jako osobna strona.
 
-Strona **Admin Password** umożliwia ustawienie lub zmianę hasła do interfejsu administracyjnego routera.
+Ta strona umożliwia ustawienie lub zmianę hasła do interfejsu administracyjnego routera.
 
 ---
 

@@ -1,10 +1,10 @@
-# Le serveur WireGuard sur mon routeur GL.iNet ne fonctionne pas correctement
+# Que faire si le serveur WireGuard ne fonctionne pas correctement
 
-Il existe plusieurs raisons pour lesquelles le serveur WireGuard que vous avez configuré sur votre routeur GL.iNet peut ne pas fonctionner correctement.
+Plusieurs causes peuvent expliquer pourquoi le serveur WireGuard de votre routeur GL.iNet ne fonctionne pas correctement.
 
-Si vous rencontrez des problèmes, suivez ces étapes de dépannage en fonction de votre situation.
+Suivez les étapes de dépannage ci-dessous selon le problème rencontré.
 
-#### Situation 1 : le serveur WireGuard démarre, mais la connexion n'aboutit pas
+## Situation 1. Le serveur WireGuard démarre, mais aucune connexion ne peut être établie
 
 ??? "Suivez ces étapes"
 
@@ -51,7 +51,7 @@ Si vous rencontrez des problèmes, suivez ces étapes de dépannage en fonction 
 
     Si vous ne voyez pas l'écran de connexion de votre routeur GL.iNet (routeur secondaire), la redirection de port ne fonctionne pas correctement. Configurez à nouveau la redirection de port ou assurez-vous d'utiliser comme routeur principal un routeur dont la fonction de redirection de port fonctionne correctement.
 
-#### Situation 2 : le serveur WireGuard indique que mon client VPN est connecté, mais le client VPN ne peut pas accéder à Internet
+## Situation 2. Le serveur WireGuard affiche un client connecté, mais le client VPN ne peut pas accéder à Internet
 
 ??? "Suivez ces étapes"
 
@@ -94,7 +94,7 @@ Si vous rencontrez des problèmes, suivez ces étapes de dépannage en fonction 
     3. Dans l'onglet **Configuration**, pour le champ **IPv4 Address**, ajoutez **/24** après **10.0.0.1**.
     4. Cliquez sur **Apply**.
 
-#### Situation 3 : le serveur WireGuard fonctionne, mais je ne parviens pas à y connecter mon client VPN
+## Situation 3. Le serveur WireGuard fonctionne, mais le client VPN ne peut pas s'y connecter
 
 ??? "Suivez ces étapes"
 
@@ -125,7 +125,7 @@ Si vous rencontrez des problèmes, suivez ces étapes de dépannage en fonction 
 
     Téléversez de nouveau vos informations de configuration.
 
-#### Situation 4 : le serveur WireGuard est connecté, mais la connexion n'est pas stable
+## Situation 4. Le serveur WireGuard est connecté, mais la connexion n'est pas stable
 
 ??? "Suivez ces étapes"
 
@@ -140,7 +140,7 @@ Si vous rencontrez des problèmes, suivez ces étapes de dépannage en fonction 
         4. Pour **DNS Server 1**, sélectionnez **Google Public DNS**.
         5. Cliquez sur **Apply**.
 
-#### Situation 5 : le serveur WireGuard a soudainement cessé de fonctionner
+## Situation 5. Le serveur WireGuard a soudainement cessé de fonctionner
 
 ??? "Suivez ces étapes"
 

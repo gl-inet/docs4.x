@@ -1,8 +1,8 @@
 # Admin-Passwort
 
-**Hinweis**: Diese Seite wurde seit v4.3 nach [Sicherheit](security.md) verschoben.
+**Hinweis**: Die Seite "Admin Password" wurde ab Firmware v4.3 in [Security](security.md) integriert und ist seit Firmware v4.9 wieder als eigenständige Seite verfügbar.
 
-Auf der Seite „Admin Password“ können Sie das Passwort für die Administrationsoberfläche des Routers festlegen oder ändern.
+Diese Seite ermöglicht das Festlegen oder Ändern des Passworts für die Administrationsoberfläche des Routers.
 
 ---
 

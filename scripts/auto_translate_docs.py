@@ -30,14 +30,14 @@ MODEL = (os.getenv("LLM_MODEL", "") or "gpt-4.1-mini").strip()
 FORCE_FULL = os.getenv("FORCE_FULL", "false").lower() in {"1", "true", "yes", "on"}
 MAX_FILES = int(os.getenv("MAX_FILES", "0") or "0")
 
-REPO_INSTRUCTION_FILE = pathlib.Path(".github/copilot-instructions.md")
+REPO_INSTRUCTION_FILE = pathlib.Path("AGENTS.md")
 LANGUAGE_INSTRUCTION_FILES = {
-    "de": pathlib.Path(".github/instructions/german-docs.instructions.md"),
-    "es": pathlib.Path(".github/instructions/spanish-docs.instructions.md"),
-    "fr": pathlib.Path(".github/instructions/french-docs.instructions.md"),
-    "it": pathlib.Path(".github/instructions/italian-docs.instructions.md"),
-    "jp": pathlib.Path(".github/instructions/japanese-docs.instructions.md"),
-    "pl": pathlib.Path(".github/instructions/polish-docs.instructions.md"),
+    "de": pathlib.Path("docs/de/AGENTS.md"),
+    "es": pathlib.Path("docs/es/AGENTS.md"),
+    "fr": pathlib.Path("docs/fr/AGENTS.md"),
+    "it": pathlib.Path("docs/it/AGENTS.md"),
+    "jp": pathlib.Path("docs/jp/AGENTS.md"),
+    "pl": pathlib.Path("docs/pl/AGENTS.md"),
 }
 
 SYSTEM_PROMPT = (

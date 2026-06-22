@@ -1,6 +1,6 @@
 # Contrôle parental
 
-> Ce guide s’applique au firmware v4.8 et antérieur. Pour les versions plus récentes, veuillez cliquer [ici](parental_control_v4.8.md).
+> Ce guide s’applique au firmware v4.8 et antérieur. Pour les versions plus récentes, veuillez cliquer [ici](parental_control_v4.9.md).
 
 Dans le panneau d’administration web, sur la gauche, accédez à **APPLICATIONS** -> **Parental Control**.
 

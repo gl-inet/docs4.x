@@ -102,7 +102,9 @@ Di seguito un esempio con GL-MT2500.
 
 ## Allow Remote Access WAN
 
-Se questa opzione e' abilitata, le risorse sul lato WAN del dispositivo possono essere accessibili tramite la rete virtuale Tailscale.
+> Questa funzione è stata rinominata **Advertise WAN Subnets** nel firmware v4.9 e versioni successive.
+
+Se questa opzione è abilitata, le risorse lato WAN del dispositivo sono accessibili tramite la rete virtuale Tailscale. Le route hanno effetto solo dopo l’approvazione nella Tailscale Admin Console.
 
 Ad esempio, come mostrato nella topologia seguente, se questa funzione e' abilitata, puoi accedere al `GL-AXT1800` tramite il suo indirizzo IP, `192.168.29.1`, da `leo-phone`. Questo perche' GL-AXT1800 e' il dispositivo di livello superiore del `GL-MT2500` e quest'ultimo e' collegato alla stessa rete Tailscale di leo-phone.
 
@@ -132,7 +134,9 @@ I passaggi operativi sono i seguenti.
 
 ## Allow Remote Access LAN
 
-Se questa opzione e' abilitata, le risorse sul lato LAN del dispositivo possono essere accessibili tramite la rete virtuale Tailscale.
+> Questa funzione è stata rinominata **Advertise LAN Subnets** nel firmware v4.9 e versioni successive.
+
+Se questa opzione è abilitata, le risorse lato LAN del dispositivo sono accessibili tramite la rete virtuale Tailscale. Le route hanno effetto solo dopo l’approvazione nella Tailscale Admin Console.
 
 Ad esempio, come mostrato nella topologia seguente, se questa funzione e' abilitata, puoi accedere via SSH a `Ubuntu` tramite il suo indirizzo IP, `192.168.8.110`, da `leo-phone`. Questo perche' `Ubuntu` e' il dispositivo di livello inferiore del `GL-MT2500` e quest'ultimo e' collegato alla stessa rete Tailscale di leo-phone.
 
@@ -215,6 +219,82 @@ Nell'esempio seguente, un router GL.iNet **GL-MT2500** e **Leo-Desktop** si trov
     ![exit node troubleshooting](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes/troubleshooting.jpg){class="glboxshadow"}
 
     Per risolvere il problema, abilita le subnet routes del router nella console Tailscale Admin come indicato nel **Passaggio 1** sopra.
+
+## Run Exit Node
+
+> Questa funzione è stata introdotta nel firmware v4.9.
+
+Eseguire un nodo di uscita sul router consente agli altri dispositivi del tailnet di instradare tutto il traffico Internet in uscita tramite l’IP pubblico di questo router.
+
+Nella topologia seguente, un laptop si trova a Boston mentre il router GL-BE9300 è installato a Hong Kong. Entrambi sono stati aggiunti allo stesso tailnet Tailscale. Se configuri il GL-BE9300 come nodo di uscita, tutto il traffico in uscita del laptop uscirà su Internet tramite questo router a Hong Kong e l’IP pubblico esterno del laptop verrà risolto come indirizzo IP di Hong Kong invece che di Boston.
+
+![topology run exit node](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/topology.png){class="glboxshadow"}
+
+***Suggerimento**: consigliamo di disabilitare la scadenza della chiave del nodo di uscita per evitare interruzioni quando la chiave di autenticazione scade.*
+
+Segui questi passaggi per configurare il GL-BE9300 come Exit Node.
+
+1. Aggiungi GL-BE9300 e il laptop da viaggio allo stesso tailnet Tailscale.
+
+    ![tailnet](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/tailnet.png){class="glboxshadow"}
+
+2. Nel Web Admin Panel del GL-BE9300, abilita **Run Exit Node** e fai clic su **Apply**.
+
+    ![run exit node1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node1.png){class="glboxshadow"}
+
+3. Nella Tailscale Admin Console apparirà l’etichetta "Exit Node" sotto GL-BE9300.
+
+    ![run exit node2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node2.png){class="glboxshadow"}
+
+4. Fai clic sull’icona a tre punti accanto a GL-BE9300 e seleziona **Edit route settings**.
+
+    ![run exit node3](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node3.png){class="glboxshadow"}
+
+5. Seleziona **Use as exit node** e fai clic su **Save**.
+
+    ![run exit node4](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node4.png){class="glboxshadow"}
+
+6. Disabilita la scadenza della chiave.
+
+    Come funzione di sicurezza, gli utenti devono riautenticarsi periodicamente su ciascun dispositivo. Per evitare interruzioni della connessione quando la chiave di autenticazione del nodo di uscita scade, consigliamo di disabilitare la scadenza della chiave per il nodo di uscita. Fai clic [qui](https://tailscale.com/docs/features/access-control/key-expiry){target="_blank"} per maggiori dettagli sulla scadenza delle chiavi.
+
+    Fai clic sull’icona a tre punti a destra di GL-BE9300 e seleziona **Disable key expiry**.
+
+    ![disable key expiry1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/disable_key_expiry1.png){class="glboxshadow"}
+
+    In seguito apparirà l’etichetta "Expiry disabled".
+
+    ![disable key expiry2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/disable_key_expiry2.png){class="glboxshadow"}
+
+7. Seleziona GL-BE9300 come nodo di uscita per il laptop da viaggio.
+
+    Avvia Tailscale sul laptop da viaggio. L’icona Tailscale apparirà nell’area di notifica in basso a destra.
+
+    Fai clic con il tasto destro sull’icona, fai clic su **Exit nodes** e seleziona **gl-be9300**.
+
+    ![run exit node5](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/run_exit_node5.png){class="glboxshadow"}
+
+    Ora tutto il traffico in uscita da questo laptop da viaggio passerà tramite GL-BE9300 per accedere a Internet.
+
+8. Testa la connettività.
+
+    1. Sul laptop da viaggio, apri un browser web e visita [ipcheck.ing](https://ipcheck.ing/){target="_blank"} o un altro sito di controllo IP. La pagina mostrerà l’indirizzo IP pubblico appartenente al tuo nodo di uscita Tailscale, confermando che il laptop accede a Internet tramite quel nodo di uscita, in questo esempio il GL-BE9300 situato a Hong Kong.
+
+        ![ip hk](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/ip_hk.png){class="glboxshadow"}
+
+    2. Premi `Win+R`, digita `cmd` per aprire il Prompt dei comandi, quindi esegui `tracert google.com` per tracciare le route del traffico in uscita. L’output del comando elenca tutti gli hop di routing del traffico Internet. Se la configurazione è corretta, il primo hop esterno passerà tramite il nodo di uscita, come mostrato sotto.
+
+        ![tracert](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/tracert.png){class="glboxshadow"}
+
+    3. Disconnetti il nodo di uscita per un test comparativo.
+
+        Fai clic con il tasto destro sull’icona Tailscale nell’area di notifica in basso a destra, fai clic su **Exit nodes** e seleziona **None** per smettere di usare il nodo di uscita.
+
+        ![comparative test](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/comparison_test.png){class="glboxshadow"}
+
+        Apri una nuova scheda del browser e visita [ipcheck.ing](https://ipcheck.ing/){target="_blank"} o un altro servizio di controllo IP. Ora verrà mostrato l’IP pubblico nativo del laptop, dimostrando che il dispositivo sta usando la connessione Internet locale, Boston in questo esempio.
+
+        ![ip boston](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/ip_boston.png){class="glboxshadow"}
 
 ---
 

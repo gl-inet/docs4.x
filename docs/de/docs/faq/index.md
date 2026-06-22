@@ -8,8 +8,6 @@ hide:
 
 Erfahren Sie, wie Sie unsere Geräte verwenden und einige häufige Probleme lösen.
 
-Für GL.iNet-KVM-Geräte lesen Sie bitte die [GL.iNet KVM Docs](https://docs.gl-inet.com/kvm/en/).
-
 ## Netzwerkverbindung
 
 * [Ersteinrichtung](first_time_setup.md)
@@ -36,7 +34,7 @@ Für GL.iNet-KVM-Geräte lesen Sie bitte die [GL.iNet KVM Docs](https://docs.gl-
 * [Wie repariere ich das Netzwerk oder setze die Firmware auf Werkseinstellungen zurück?](repair_network_or_reset_firmware.md)
 * [Was soll ich tun, wenn mein Router unbrauchbar ist?](debrick.md)
 * [macOS kann nicht auf eine Samba-Freigabe schreiben](macos_cannot_write_samba.md)
-* [WireGuard-Server funktioniert nicht ordnungsgemäß](my_wireguard_server_is_not_working.md)
+* [WireGuard-Server funktioniert nicht ordnungsgemäß](wireguard_server_is_not_working.md)
 * [Hängt bei "Installing" während des Firmware-Updates](stuck_on_installing_during_firmware_update.md)
 * [Hängt bei "Reverting" während des Zurücksetzens der Firmware](stuck_on_reverting_during_firmware_reset.md)
 * [Hängt bei "Rebooting" während des Firmware-Neustarts](stuck_on_rebooting_during_firmware_reboot.md)
@@ -55,6 +53,7 @@ Für GL.iNet-KVM-Geräte lesen Sie bitte die [GL.iNet KVM Docs](https://docs.gl-
 * [VPN Kill Switch](block_non_vpn_traffic.md)
 * [Welches Protokoll soll ich für OpenVPN wählen, TCP oder UDP?](openvpn_tcp_udp.md)
 * [AmneziaWG-Verschleierung](amneziawg_obfuscation.md)
+* [Verbindung zu einem verschleierten WireGuard-Server nicht möglich](cannot_connect_to_obfuscated_wireguard_server.md)
 * [Muss ich Ethernet WAN konfigurieren, wenn ich VPN verwende?](do_i_have_to_configure_ethernet_wan_when_using_vpn.md)
 
 ## Aktualisierung

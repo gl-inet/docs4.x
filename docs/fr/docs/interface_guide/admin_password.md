@@ -1,8 +1,8 @@
 # Mot de passe administrateur
 
-**Note** : Cette page a été déplacée vers [Security](security.md) à partir de la v4.3.
+**Note** : La page Admin Password a été intégrée à [Security](security.md) à partir du firmware v4.3 et a été rétablie comme page autonome depuis le firmware v4.9.
 
-La page Mot de passe administrateur vous permet de définir ou de modifier le mot de passe de l’interface d’administration du routeur.
+Cette page permet de définir ou de modifier le mot de passe de l’interface d’administration du routeur.
 
 ---
 

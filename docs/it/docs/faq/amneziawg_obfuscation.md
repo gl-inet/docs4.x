@@ -17,7 +17,7 @@ In breve:
 
 Rispetto ad AmneziaWG v1.0, la versione v2.0 offre un offuscamento più efficace grazie all'aggiunta di nuovi parametri (**S3~S4**) e all'uso di intestazioni dinamiche per i tipi di pacchetto (**H1~H4** come intervalli invece di valori fissi). Inoltre, AmneziaWG 2.0 supporta i parametri **I1~I5**, che inviano pacchetti UDP formattati prima di ogni handshake per far sembrare il traffico AmneziaWG un normale traffico non VPN, aggirando efficacemente l'ispezione approfondita dei pacchetti e migliorando la connettività nelle reti con restrizioni.
 
-![parameters](https://static.gl-inet.com/docs/router/en/4/faq/amneziawg_obfuscation_parameters/parameters222.png){class="glboxshadow"}
+![parameters](https://static.gl-inet.com/docs/router/en/4/faq/amneziawg_obfuscation_parameters/parameters.png){class="glboxshadow"}
 
 Questi miglioramenti rendono il traffico VPN più difficile da rilevare, mantenendo al tempo stesso l'elevata velocità e la bassa latenza di WireGuard.
 

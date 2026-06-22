@@ -18,6 +18,16 @@ Im Lieferumfang enthalten sind:
 - 1 x Netzadapter
 - 4 x Steckeraufsätze (US, EU, UK und AU)
 
+## Touchscreen
+
+| Bildschirmanzeige | Beschreibung |
+| :---------------- | :----------- |
+| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){width="500"} | Startvorgang |
+| ![set up admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){width="400"} | Admin-Passwort festlegen |
+| ![set up wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){width="400"} | Wi-Fi einrichten |
+| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Startbildschirm<br></br>**Links**: Systemzeit, Netzwerkgeschwindigkeit und Schnellzugriffe für Wi-Fi, Clients, VPN und weitere Funktionen.<br>**Rechts**: Vier Verbindungsmodi: Ethernet, Repeater, Tethering und Cellular |
+| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Netzwerkstatus<br></br>**Blau**: Aktiv / mit dem Internet verbunden<br>**Gelb**: Verbindung wird hergestellt / Netzwerkfehler<br>**Weiß**: Inaktive Verbindung |
+
 ## So richten Sie Slate 7 Pro ein
 
 Für die Einrichtung von Slate 7 Pro verwenden Sie eine der vier unterstützten Methoden für den Internetzugang: Ethernet, Repeater, Tethering und Cellular. Folgen Sie den untenstehenden Schritten.
@@ -26,31 +36,7 @@ Für die Einrichtung von Slate 7 Pro verwenden Sie eine der vier unterstützten 
 
 Setzen Sie die beiden Teile des Netzadapters zusammen. Verbinden Sie ihn mit Ihrem Router und stecken Sie ihn in eine Steckdose. Das Gerät startet automatisch.
 
-### 2. Touchscreen
-
-Wenn der Router eingeschaltet wird, erscheint auf dem Bildschirm das GL.iNet-Logo, gefolgt von einer Startfortschrittsanzeige.
-
-![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){class="glboxshadow" width="360"}
-
-Sobald der Fortschrittsbalken vollständig geladen ist, ist der Startvorgang abgeschlossen und das Gerät wechselt zum Begrüßungsbildschirm. Folgen Sie den Anweisungen, um Ihr Admin-Passwort und das Wi-Fi-Netzwerk einzurichten.
-
-![set admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){class="glboxshadow" width="360"}
-
-![set WiFi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){class="glboxshadow" width="360"}
-
-Anschließend gelangen Sie zum Startbildschirm. Auf der linken Seite werden Systeminformationen in Echtzeit angezeigt, darunter Systemzeit und Netzwerkgeschwindigkeit, sowie Schnellzugriffskacheln für Wi-Fi, Clients, VPN und weitere Funktionen. Auf der rechten Seite befinden sich Schnellzugriffskacheln für die vier Verbindungsmodi Ethernet, Repeater, Tethering und Cellular.
-
-![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){class="glboxshadow" width="360"}
-
-Die unterschiedlichen Farben der vier Schnellzugriffskacheln zeigen verschiedene Netzwerkstatus an.
-
-![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){class="glboxshadow" width="360"}
-
-- **Blau**: Aktiv / mit dem Internet verbunden
-- **Gelb**: Verbindung wird hergestellt / Netzwerkfehler
-- **Weiß**: Inaktive Verbindung
-
-### 3. Gerät verbinden
+### 2. Gerät verbinden
 
 Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder Ethernet mit dem Router.
 
@@ -62,14 +48,13 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder
 
     Suchen Sie auf Ihrem Gerät in der Liste der verfügbaren Netzwerke nach dem Wi-Fi-Namen Ihres Routers und geben Sie das Passwort ein, um sich zu verbinden. Den Standardnetzwerknamen (SSID) und das Passwort finden Sie auf dem Etikett des Routers.
 
-### 4. Im Web-Admin-Panel anmelden
+### 3. Im Web-Admin-Panel anmelden
 
 Öffnen Sie einen Webbrowser, geben Sie `192.168.8.1` in die Adressleiste ein und melden Sie sich an. Wählen Sie eine Sprache aus und legen Sie Ihr Admin-Passwort fest. Klicken Sie anschließend auf **Apply**.
 
-### 5. Internet einrichten
+### 4. Internet einrichten
 
 Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Internetzugang ein: Ethernet, Repeater, Tethering und Cellular. Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindung ein.
-
 === "Ethernet"
 
     ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_ethernet.jpg){class="glboxshadow"}

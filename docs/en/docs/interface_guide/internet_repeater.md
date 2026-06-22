@@ -16,7 +16,11 @@ Choose the Wi-Fi network you want to connect to from the available network list.
 
 ![join wifi 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_1.png){class="glboxshadow"}
 
-**Note**: The page displays the Wi-Fi channels your router supports. Please ensure that the Wi-Fi network you're connecting to uses one of these channels, otherwise it may not be displayed in the available network list.
+!!! note
+    
+    1. The page displays the Wi-Fi channels your router supports. Please ensure that the Wi-Fi network you're connecting to uses one of these channels, otherwise it may not be displayed in the available network list.
+
+    2. When searching for an iPhone Personal Hotspot, keep the iPhone screen unlocked to maintain constant Wi-Fi beacon transmission. Otherwise, the router may fail to detect this hotspot.
 
 Enter the correct Wi-Fi password and click **Apply**.
 

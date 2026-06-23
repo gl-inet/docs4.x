@@ -5075,31 +5075,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-be10000/index.md": {
-    "source_hash": "b50dd615b8f115772b6f8bfddf0151f218907c6a09d078601fdca016cdf68f6d",
+    "source_hash": "96523e989595cf98ba02380a369fd2aad67a289d4fa3f06dd36f3236b1a7addf",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782116761
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782116761
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782116761
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782116761
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782116761
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782116761
       }
     }
   },
@@ -6293,31 +6293,31 @@
     }
   },
   "docs/en/docs/interface_guide/astromesh.md": {
-    "source_hash": "52c0c0e63ff470447bb4ecacfb27fc72dbd577b0e5f6db14af770fe1ba029a78",
+    "source_hash": "b89674f996153ce8c59f4698e41f87d4a99c89bc516f8ee6af6cf23c0afb9bad",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782116761
       },
       "es": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782116761
       },
       "fr": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782116761
       },
       "it": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782116761
       },
       "jp": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782116761
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782116761
       }
     }
   }

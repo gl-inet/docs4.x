@@ -2,7 +2,7 @@
 
 > This feature is introduced in firmware v4.10.
 
-AstroMesh is GL.iNet's proprietary global mesh technology, combining EasyMesh and AstroWarp. Unlike conventional wireless mesh systems that only work within a single local network, AstroMesh eliminates geographical restrictions to connect you to your home network anywhere.
+AstroMesh is GL.iNet's proprietary global mesh technology based on EasyMesh. Unlike conventional wireless mesh systems that only work within a single local network, AstroMesh eliminates geographical restrictions to connect you to your home network anywhere.
 
 At home, your travel router acts as a regular Mesh Node to extend household Wi-Fi coverage with seamless device roaming. When you head out, it can be automatically switched to Astro Node mode and sync all your home Wi-Fi settings via cloud, letting you access your home LAN devices remotely while routing traffic through your home network exit. Plug-and-play with zero complicated configuration, AstroMesh delivers a seamless internet experience whether you are relaxing at home or traveling on the road.
 
@@ -12,7 +12,7 @@ In the following example, we'll use Flint 3 (GL-BE9300) and Slate 7 (GL-BE3600) 
 
 - **Flint 3**: serves as the Main Router that connects to the Internet and manages all Mesh Nodes. It also acts as the network exit for all remote Astro Nodes.
 
-- **Slate 7**: functions as the Mesh Node that extends the Main Router's Wi-Fi coverage locally via EasyMesh, or extends the home network to remote sites via AstroWarp.
+- **Slate 7**: functions as the Mesh Node that extends the Main Router's Wi-Fi coverage locally, or extends the home network to remote sites.
 
 Follow the steps below to complete setup.
 

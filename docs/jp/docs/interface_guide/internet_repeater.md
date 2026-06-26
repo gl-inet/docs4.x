@@ -16,7 +16,11 @@
 
 ![join wifi 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_1.png){class="glboxshadow"}
 
-**注意**: このページには、ルーターがサポートしている Wi-Fi チャネルが表示されます。接続先 Wi-Fi がそのいずれかのチャネルを使用していることを確認してください。対応していないチャネルを使っている場合、利用可能なネットワークリストに表示されないことがあります。
+!!! note
+    
+    1. このページには、ルーターがサポートしている Wi-Fi チャネルが表示されます。接続先 Wi-Fi がそのいずれかのチャネルを使用していることを確認してください。対応していないチャネルを使っている場合、利用可能なネットワークリストに表示されないことがあります。
+
+    2. iPhone Personal Hotspot を検索する場合は、Wi-Fi ビーコン送信を継続するため、iPhone の画面をロック解除したままにしてください。そうしないと、ルーターがこのホットスポットを検出できない場合があります。
 
 正しい Wi-Fi パスワードを入力して **Apply** をクリックします。
 
@@ -30,7 +34,7 @@
 
 その他の設定については、[詳細設定](#advanced-settings) を参照してください。
 
-しばらく待ち、パスワード入力が正しければ接続が完了します。
+しばらく待ち、パスワードが正しければ接続が完了します。
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
@@ -92,41 +96,25 @@
 
 ## リピーターオプション
 
-リピーターのオプションを表示するには、接続済みの Repeater セクション右上にある歯車アイコンをクリックします。
+接続済みの Repeater セクション右上にある歯車アイコンをクリックします。
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-**ファームウェア v4.8** では、Repeater Options ページは次のように表示されます。
-
-![v4.8 repeater options 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/4.8/repeater_options_1.png){class="glboxshadow"}
-
-- **Allow Switching to Other Networks Mode**:
-
-    - No Switching mode: 有効にすると、現在の Wi-Fi が切断されても、他の保存済みネットワークへ自動接続しません。
-
-    - Auto Switching mode: 有効にすると、現在の Wi-Fi が切断されたときに、他の保存済みネットワークへの接続を試みます。
-
-    - Auto Switching Without Network: 有効にすると、ルーターが非リピーターモードで正常にネットワーク接続されている間は自動スキャンを行わず、ルーターがネットワーク未接続のときだけ他の保存済みネットワークへの自動切り替えを試みます。これにより通信パケットの損失を避けられます。
-
-- **Band Selection**: Auto、5 GHz、2.4 GHz の3つから選択できます。
-
-    手動でバンドを選択した場合、ルーターは別のバンドを使用する Wi-Fi をスキャンしたり接続したりしません。
-
-**ファームウェア v4.7 以前** では、Repeater Options ページは次のように表示されます。
+Repeater Options は次のように表示されます。
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 
-* **Allow Switching To Other Saved Networks**. このオプションを有効にすると、現在の Wi-Fi ネットワークへ接続できなくなった際に、他の保存済みネットワークへ自動的に接続します。
+* **Allow Switching to Other Saved Networks**: 有効にすると、現在接続中の Wi-Fi ネットワークが利用できない場合に、他の保存済みネットワークへ自動的に接続します。
 
-* **Band Selection**. 手動でバンドを選択した場合、別のバンドを使用する Wi-Fi はスキャンも接続もしません。
+* **Band Selection**: 手動でバンドを選択した場合、ルーターはその周波数帯の Wi-Fi ネットワークのみをスキャンし、接続します。
 
 ## 既知のネットワークの管理
 
-既知のネットワークを削除するには、**Switch Network** をクリックします。
+既知のネットワークを管理するには、**Switch Network** をクリックします。
 
 ![switch network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-または、ネットワークが接続されていない場合は Repeater セクションの **Connect** をクリックします。
+現在接続中のネットワークがない場合は、Repeater セクションの **Connect** をクリックすることもできます。
 
 ![repeater section](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
 

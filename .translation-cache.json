@@ -2175,31 +2175,31 @@
     }
   },
   "docs/en/docs/interface_guide/internet_repeater.md": {
-    "source_hash": "c7b5e5d68c7121c76454c86d1f1a659d39ec3425046803d662037b7ab79e4972",
+    "source_hash": "45b82ac83f9ed458aa6e202045e3c679b72f7df9a83d538f108462473931ed9a",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1779027549
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782483597
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782483597
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1779027523
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782483597
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775026330
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782483597
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1779027869
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782483597
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1779027993
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782483597
       }
     }
   },
@@ -6003,31 +6003,31 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "4a8edb51ab779a0c7e1277896dd8eb89fa07817bcf45e8ba884ae20954b4c27a",
+    "source_hash": "9c0220e352a0b780fae45eb97044d4b4be122c3719bc91427ac5aded3c94fac6",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782483597
       },
       "es": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782483597
       },
       "fr": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782483597
       },
       "it": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782483597
       },
       "jp": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782483597
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "updated_at": 1782483597
       }
     }
   },
@@ -6293,31 +6293,31 @@
     }
   },
   "docs/en/docs/interface_guide/astromesh.md": {
-    "source_hash": "b89674f996153ce8c59f4698e41f87d4a99c89bc516f8ee6af6cf23c0afb9bad",
+    "source_hash": "f8164d6ebb6ab3466b91ec7a9872bcce817c2944c3096cefe70e7b9fde892c17",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "updated_at": 1782483597
       },
       "es": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "updated_at": 1782483597
       },
       "fr": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "updated_at": 1782483597
       },
       "it": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "updated_at": 1782483597
       },
       "jp": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "updated_at": 1782483597
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "updated_at": 1782483597
       }
     }
   }

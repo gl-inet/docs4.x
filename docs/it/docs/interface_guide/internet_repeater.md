@@ -16,7 +16,11 @@ Scegli la rete Wi-Fi a cui vuoi connetterti dall'elenco delle reti disponibili.
 
 ![join wifi 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_1.png){class="glboxshadow"}
 
-**Nota**: la pagina mostra i canali Wi-Fi supportati dal router. Assicurati che la rete Wi-Fi a cui ti stai collegando usi uno di questi canali, altrimenti potrebbe non essere visualizzata nell'elenco delle reti disponibili.
+!!! note
+    
+    1. La pagina mostra i canali Wi-Fi supportati dal router. Assicurati che la rete Wi-Fi a cui ti stai collegando usi uno di questi canali, altrimenti potrebbe non essere visualizzata nell'elenco delle reti disponibili.
+
+    2. Quando cerchi un iPhone Personal Hotspot, mantieni lo schermo dell'iPhone sbloccato per conservare la trasmissione costante dei beacon Wi-Fi. In caso contrario, il router potrebbe non rilevare questo hotspot.
 
 Inserisci la password Wi-Fi corretta e fai clic su **Apply**.
 
@@ -30,7 +34,7 @@ Per connetterti a un hotspot pubblico, ad esempio quelli forniti da hotel, aerop
 
 Per altre impostazioni, fai riferimento a [Advanced Settings](#advanced-settings).
 
-Dopo un po', se la password inserita e' corretta, la connessione avra' successo.
+Dopo un po', se la password e' corretta, la connessione avra' successo.
 
 ![repeater connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
@@ -92,41 +96,25 @@ Quando ti unisci alla rete, sono disponibili alcune opzioni aggiuntive.
 
 ## Opzioni Repeater
 
-Per visualizzare le opzioni Repeater, fai clic sull'icona a forma di ingranaggio nell'angolo superiore destro della sezione Repeater connessa.
+Fai clic sull'icona a forma di ingranaggio nell'angolo superiore destro della sezione Repeater connessa.
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-**Per firmware v4.8**, la pagina Repeater Options e' visualizzata come segue.
-
-![v4.8 repeater options 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/4.8/repeater_options_1.png){class="glboxshadow"}
-
-- **Allow Switching to Other Networks Mode**:
-
-    - Modalita' No Switching: quando la modalita' No Switching e' abilitata, le altre reti salvate non verranno collegate automaticamente quando la rete Wi-Fi attuale viene disconnessa.
-
-    - Modalita' Auto Switching: quando la modalita' Auto Switching e' abilitata, il router cerchera' di collegarsi ad altre reti salvate quando la rete Wi-Fi attuale viene disconnessa.
-
-    - Auto Switching Without Network: quando la modalita' Auto-switching Without Network e' abilitata, il router non eseguira' automaticamente la scansione delle reti quando e' connesso con successo in modalita' diversa da repeater e tentera' di passare automaticamente ad altre reti salvate solo quando il router e' senza rete, evitando la perdita di pacchetti di comunicazione.
-
-- **Band Selection**: puoi selezionare tra tre opzioni: Auto, 5 GHz e 2.4 GHz.
-
-    Se selezioni manualmente una banda, il router non eseguira' la scansione e non si connettera' ad alcuna rete Wi-Fi che usa un'altra banda.
-
-**Per firmware v4.7 e precedenti**, la pagina Repeater Options e' visualizzata come segue.
+Le Repeater Options sono visualizzate come segue.
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 
-* **Allow Switching To Other Saved Networks**. Se questa opzione e' abilitata, il router si connettera' automaticamente ad altre reti salvate quando non riesce a connettersi alla rete Wi-Fi attuale.
+* **Allow Switching to Other Saved Networks**: se abilitata, il router si connettera' automaticamente ad altre reti salvate quando la rete Wi-Fi attualmente connessa non e' disponibile.
 
-* **Band Selection**. Se selezioni manualmente una banda, il router non eseguira' la scansione e non si connettera' ad alcuna rete Wi-Fi su un'altra banda.
+* **Band Selection**: se selezioni manualmente una banda, il router eseguira' la scansione e si connettera' solo alle reti Wi-Fi in quella banda di frequenza.
 
 ## Gestire le reti note
 
-Per eliminare una rete nota, fai clic su **Switch Network**.
+Per gestire le reti note, fai clic su **Switch Network**.
 
 ![switch network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-Oppure fai clic su **Connect** nella sezione Repeater se non c'e' alcuna rete connessa.
+Puoi anche fare clic su **Connect** nella sezione Repeater se al momento non e' connessa alcuna rete.
 
 ![repeater section](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
 

@@ -22,6 +22,7 @@ theme:
 
 plugins:
   - search
+  - git-revision-date-localized
   - redirects:
       redirect_maps:
         'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'

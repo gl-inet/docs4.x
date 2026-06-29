@@ -2,7 +2,7 @@
 
 > Diese Funktion wurde mit Firmware v4.10 eingeführt.
 
-AstroMesh ist GL.iNets proprietäre globale Mesh-Technologie und kombiniert EasyMesh mit AstroWarp. Im Gegensatz zu herkömmlichen WLAN-Mesh-Systemen, die nur in einem lokalen Netzwerk funktionieren, kann AstroMesh geografische Grenzen überbrücken und Sie auch unterwegs mit Ihrem Heimnetzwerk verbinden.
+AstroMesh ist GL.iNets proprietäre globale Mesh-Technologie auf Basis von EasyMesh. Im Gegensatz zu herkömmlichen WLAN-Mesh-Systemen, die nur in einem lokalen Netzwerk funktionieren, kann AstroMesh geografische Grenzen überbrücken und Sie auch unterwegs mit Ihrem Heimnetzwerk verbinden.
 
 Zu Hause arbeitet Ihr Reiserouter als normaler Mesh Node und erweitert die WLAN-Abdeckung mit nahtlosem Roaming. Unterwegs kann er automatisch in den Astro Node-Modus wechseln und die WLAN-Einstellungen Ihres Heimnetzwerks über die Cloud synchronisieren. So können Sie aus der Ferne auf Geräte im Heim-LAN zugreifen und den Datenverkehr über den Heimnetzwerk-Ausgang leiten. Plug-and-play ohne komplizierte Konfiguration: AstroMesh bietet ein nahtloses Interneterlebnis, egal ob Sie zu Hause entspannen oder unterwegs sind.
 
@@ -11,9 +11,11 @@ Zu Hause arbeitet Ihr Reiserouter als normaler Mesh Node und erweitert die WLAN-
 Im folgenden Beispiel verwenden wir Flint 3 (GL-BE9300) und Slate 7 (GL-BE3600), um ein AstroMesh-Netzwerk aufzubauen.
 
 - **Flint 3**: dient als Main Router, verbindet sich mit dem Internet, verwaltet alle Mesh Nodes und stellt den Netzwerk-Ausgang für alle entfernten Astro Nodes bereit.
-- **Slate 7**: dient als Mesh Node, der die WLAN-Abdeckung des Main Routers lokal per EasyMesh erweitert oder das Heimnetzwerk über AstroWarp an entfernte Standorte bringt.
+- **Slate 7**: dient als Mesh Node, der die WLAN-Abdeckung des Main Routers lokal erweitert oder das Heimnetzwerk an entfernte Standorte bringt.
 
 Führen Sie die folgenden Schritte aus.
+
+### Main Router einrichten
 
 1. Melden Sie sich am Web Admin Panel von Flint 3 an und gehen Sie zu **INTERNET**. Verbinden Sie ihn über eine unterstützte Verbindungsart mit dem Internet: Ethernet, Repeater, Tethering oder Cellular.
 
@@ -21,69 +23,75 @@ Führen Sie die folgenden Schritte aus.
 
     ![main node](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/main_node.png){class="glboxshadow"}
 
-3. Fügen Sie Nodes über **Wi-Fi Scan** oder **Pairing Code** hinzu.
+### Mesh Node einrichten
 
-    ![main add node](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/main_add_nodes.png){class="glboxshadow"}
+Melden Sie sich am Web Admin Panel von Slate 7 an. Gehen Sie zu **ASTROMESH** und klicken Sie auf **Mesh/Astro Node**.
 
-    Befolgen Sie die passenden Anweisungen unten.
+![mesh node](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/sub_node.png){class="glboxshadow"}
 
-    ??? note "Wi-Fi Scan"
+### Pairing
 
-        Stellen Sie vor dem Scan sicher, dass:
+Fügen Sie Mesh Nodes über **Wi-Fi Scan** oder **Pairing Code** zu Ihrem AstroMesh-Netzwerk hinzu.
 
-        1. Der hinzuzufügende Router eingeschaltet ist und sich in der Nähe des Main Routers befindet.
-        2. AstroMesh auf dem hinzuzufügenden Router aktiviert ist und dieser im Modus **Mesh Node** arbeitet.
-        ---
+![main add node](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/main_add_nodes.png){class="glboxshadow"}
 
-        Klicken Sie auf **Add nodes via Wi-Fi Scan**.
+Befolgen Sie die passenden Anweisungen unten.
 
-        ![add nodes wifi scan](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/add_nodes_wifiscan.png){class="glboxshadow"}
+??? note "Wi-Fi Scan"
 
-        Klicken Sie im Pop-up-Fenster auf **Scan**.
+    Stellen Sie vor dem Scan sicher, dass:
 
-        ![wifi scan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scan1.png){class="glboxshadow"}
+    1. Der Mesh Node eingeschaltet ist und sich in der Nähe des Main Routers befindet.
+    2. Auf dem Mesh Node AstroMesh aktiviert ist und er im Modus **Mesh Node** arbeitet.
+     ---
 
-        Der Scan nach nahegelegenen Mesh Nodes über WLAN beginnt.
+    Melden Sie sich am Web Admin Panel von Flint 3 an und gehen Sie zu **ASTROMESH**. Klicken Sie auf **Add nodes via Wi-Fi Scan**.
 
-        ![wifi scanning](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scanning.png){class="glboxshadow"}
+    ![add nodes wifi scan](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/add_nodes_wifiscan.png){class="glboxshadow"}
 
-        Wählen Sie einen Node aus und klicken Sie auf **Add**.
+    Klicken Sie im Pop-up-Fenster auf **Scan**.
 
-        ![wifi scan 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scan2.jpg){class="glboxshadow"}
+    ![wifi scan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scan1.png){class="glboxshadow"}
 
-        Der Mesh Node wird dem AstroMesh-Netzwerk hinzugefügt. Klicken Sie auf **Finish**.
+    Der Scan nach nahegelegenen Mesh Nodes über WLAN beginnt.
 
-        ![wifi scan added](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scan_added.png){class="glboxshadow"}
+    ![wifi scanning](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scanning.png){class="glboxshadow"}
 
-        **Hinweis**: Sobald ein Node dem AstroMesh-Netzwerk beitritt, ist er nicht mehr über seine ursprüngliche IP-Adresse erreichbar. Alle Nodes können über das Admin Panel des Main Routers verwaltet werden. Details finden Sie unter [Mesh Nodes verwalten](#manage-mesh-nodes).
+    Wählen Sie einen Node aus und klicken Sie auf **Add**.
 
-    ??? note "Pairing Code"
+    ![wifi scan 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scan2.jpg){class="glboxshadow"}
 
-        Klicken Sie auf **Add nodes via Pairing Code**.
+    Der Mesh Node wird dem AstroMesh-Netzwerk hinzugefügt. Klicken Sie auf **Finish**.
 
-        ![add nodes pairing code](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/add_nodes_pairing.png){class="glboxshadow"}
+    ![wifi scan added](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/wifi_scan_added.png){class="glboxshadow"}
 
-        Der Main Router erzeugt einen Pairing Code. Kopieren Sie diesen Code.
+    **Hinweis**: Sobald ein Node dem AstroMesh-Netzwerk beitritt, ist er nicht mehr über seine ursprüngliche IP-Adresse erreichbar. Alle Nodes können über das Admin Panel des Main Routers verwaltet werden. Details finden Sie unter [Mesh Nodes verwalten](#manage-mesh-nodes).
 
-        ![pairing code mesh mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/pairing_code_mesh.png){class="glboxshadow"}
+??? note "Pairing Code"
 
-        Melden Sie sich am Web Admin Panel von Slate 7 an, gehen Sie zu **ASTROMESH** und klicken Sie auf **Mesh/Astro Node**.
+    Melden Sie sich am Web Admin Panel von Flint 3 an und gehen Sie zu **ASTROMESH**. Klicken Sie auf **Add nodes via Pairing Code**.
 
-        ![mesh node](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/sub_node.png){class="glboxshadow"}
+    ![add nodes pairing code](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/add_nodes_pairing.png){class="glboxshadow"}
 
-        Geben Sie den kopierten Pairing Code ein und klicken Sie auf **Apply**. *Der Pairing Code ist zeitlich begrenzt. Geben Sie ihn ein, bevor er abläuft.*
+    Der Main Router erzeugt einen Pairing Code. Kopieren Sie diesen Code.
 
-        ![enter pairing code](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/enter_pairing_code.png){class="glboxshadow"}
+    ![pairing code mesh mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/pairing_code_mesh.png){class="glboxshadow"}
 
-        Der Mesh Node beginnt, sich mit dem Main Router zu verbinden. Klicken Sie auf **Done**.
+    Melden Sie sich am Web Admin Panel von Slate 7 an und gehen Sie zu **ASTROMESH**. Geben Sie den kopierten Pairing Code ein und klicken Sie auf **Apply**.
 
-        ![mesh node pairing](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_pairing.png){class="glboxshadow"}
+    ![enter pairing code](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/enter_pairing_code.png){class="glboxshadow"}
 
-        **Hinweis**: Sobald ein Node dem AstroMesh-Netzwerk beitritt, ist er nicht mehr über seine ursprüngliche IP-Adresse erreichbar. Alle Nodes können über das Admin Panel des Main Routers verwaltet werden. Details finden Sie unter [Mesh Nodes verwalten](#manage-mesh-nodes).
+    ***Hinweis**: Der Pairing Code ist zeitlich begrenzt. Geben Sie ihn ein, bevor er abläuft.*
 
-4. Nachdem Nodes erfolgreich zu AstroMesh hinzugefügt wurden, erscheint im Admin Panel des Main Routers die folgende Topologie.
+    Der Mesh Node beginnt, sich mit dem Main Router zu verbinden. Klicken Sie auf **Done**.
 
-    ![main topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/main_topology.png){class="glboxshadow"}
+    ![mesh node pairing](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/mesh_pairing.png){class="glboxshadow"}
+
+    **Hinweis**: Sobald ein Node dem AstroMesh-Netzwerk beitritt, ist er nicht mehr über seine ursprüngliche IP-Adresse erreichbar. Alle Nodes können über das Admin Panel des Main Routers verwaltet werden. Details finden Sie unter [Mesh Nodes verwalten](#manage-mesh-nodes).
+
+Nachdem Nodes erfolgreich zu AstroMesh hinzugefügt wurden, erscheint im Admin Panel des Main Routers die folgende Topologie.
+
+![main topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/astromesh/main_topology.png){class="glboxshadow"}
 
 ## Mesh Nodes verwalten {#manage-mesh-nodes}
 

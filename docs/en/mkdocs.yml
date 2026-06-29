@@ -209,8 +209,7 @@ nav:
       - Change WAN to LAN: faq/change_wan_to_lan.md
       - Access GL.iNet and Adguard Home via HTTPS: faq/use_https_for_adh.md
       - Connect to Starlink Dish: faq/connect_glinetrouter_to_starlink.md
-      - Remote Web Admin: faq/remote_access_web_admin_panel.md
-      - Remote SSH to router: faq/remote_ssh_to_router.md
+      - Remote access to Web Admin: faq/remote_access_web_admin_panel.md
       - Public IP checking: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
       - Make WiFi Calling work on Opal: faq/how_to_make_wifi_calling_work_on_opal.md
       - Find all MAC addresses: faq/how_can_i_know_the_lan_wifi_mac.md

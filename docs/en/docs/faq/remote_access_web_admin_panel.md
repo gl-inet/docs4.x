@@ -1,9 +1,30 @@
-# How to remote access the web Admin Panel of GL.iNet router?
+# How to remotely access the web Admin Panel of a GL.iNet Router?
 
-- **Method 1**: If your router's network has a [public IP](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md), please set up a [WireGuard Server](../interface_guide/wireguard_server.md) and use WireGuard to access the router's web Admin Panel. If you don't have a public IP, try other methods below.
-- **Method 2**: Please [bind your device to GoodCloud](../interface_guide/cloud.md#setup), then you can [access the router's web Admin Panel remotely](../interface_guide/cloud.md#remote-access-web-admin-panel) by logging into the [GoodCloud website](https://www.goodcloud.xyz){target="_blank"}.
-- **Method 3**: To use a SDWAN solution, we suggest [AstroWarp](https://www.astrowarp.net){target="_blank"}.
-- **Method 4**: To use a reverse proxy solution, we suggest [AstroRelay](https://www.astrorelay.com){target="_blank"}.
+The following method requires pre-configuration while you are still physically beside the router.
+
+## Method 1. GoodCloud
+
+[GL.iNet GoodCloud](https://www.goodcloud.xyz){target="_blank"} is a platform designed to simplify the remote deployment and management of connected devices. It provides an easy way to remotely access and manage GL.iNet routers. Simply bind your GL.iNet router to GoodCloud, then you can remotely access the router's web Admin Panel anytime, anywhere. 
+
+Please refer to [this guide](../interface_guide/cloud.md){target="_blank"} for details.
+
+## Method 2. VPN
+
+If your router has a **public IP**, you can remotely access its web Admin Panel through a VPN tunnel. Note that this method involves advanced configurations and will take extra time to set up.
+
+1. Ensure your router has a public IP. [How can I check if I have a public IP address?](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md){target="_blank"}
+    
+2. Set your router as a WireGuard Server. See [here](../interface_guide/wireguard_server.md){target="_blank"} for details.
+
+3. Export a configuration file from your WireGuard Server for later use.
+
+4. On the router's web Admin Panel, go to **VPN** -> **WireGuard Server** and click **Options** in the upper-right corner. Enable **Allow Remote Access to the LAN Subnet** then click **Apply**.
+
+5. Set the device from which you want to remotely access your router as a WireGuard Client by importing the configuration file manually. 
+    
+    - If your WireGuard Client is a terminal device, such as smartphone or laptop, [install WireGuard App](https://www.wireguard.com/install){target="_blank"}, then import the file to start a connection.
+
+    - If your WireGuard Client is another GL.iNet router, such as a GL.iNet travel router, refer to [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers){target="_blank"} to import the configuration file to it and start a connection.
 
 ---
 

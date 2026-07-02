@@ -1,6 +1,6 @@
 # How to remotely access the web Admin Panel of a GL.iNet Router?
 
-The following method requires pre-configuration while you are still physically beside the router.
+The following methods require pre-configuration while you are still physically beside the router.
 
 ## Method 1. GoodCloud
 

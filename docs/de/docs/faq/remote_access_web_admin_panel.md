@@ -1,6 +1,6 @@
 # Wie greife ich aus der Ferne auf das Web-Admin-Panel eines GL.iNet-Routers zu?
 
-Die folgende Methode erfordert eine Vorkonfiguration, während Sie sich noch physisch in der Nähe des Routers befinden.
+Die folgenden Methoden erfordern eine Vorkonfiguration, während Sie sich noch physisch in der Nähe des Routers befinden.
 
 ## Methode 1. GoodCloud
 

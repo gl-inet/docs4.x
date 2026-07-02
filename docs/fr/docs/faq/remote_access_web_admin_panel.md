@@ -1,6 +1,6 @@
 # Comment accéder à distance au panneau d'administration web d'un routeur GL.iNet ?
 
-La méthode suivante nécessite une préconfiguration lorsque vous êtes encore physiquement à proximité du routeur.
+Les méthodes suivantes nécessitent une préconfiguration lorsque vous êtes encore physiquement à proximité du routeur.
 
 ## Méthode 1. GoodCloud
 

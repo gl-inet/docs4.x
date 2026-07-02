@@ -1,6 +1,6 @@
 # Come accedere da remoto al pannello di amministrazione web di un router GL.iNet?
 
-Il metodo seguente richiede una preconfigurazione mentre ci si trova ancora fisicamente vicino al router.
+I metodi seguenti richiedono una preconfigurazione mentre ci si trova ancora fisicamente vicino al router.
 
 ## Metodo 1. GoodCloud
 

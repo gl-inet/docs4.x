@@ -1,6 +1,6 @@
 # Jak uzyskać zdalny dostęp do panelu administracyjnego WWW routera GL.iNet?
 
-Poniższa metoda wymaga wstępnej konfiguracji, gdy nadal znajdujesz się fizycznie przy routerze.
+Poniższe metody wymagają wstępnej konfiguracji, gdy nadal znajdujesz się fizycznie przy routerze.
 
 ## Metoda 1. GoodCloud
 

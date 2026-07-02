@@ -348,31 +348,31 @@
     }
   },
   "docs/en/docs/faq/first_time_setup.md": {
-    "source_hash": "459e5c593e921ede14d15475ba9330ac12588d491f0b7ebbfa3577ed26a73054",
+    "source_hash": "8d591bcda4d1e47468dc6873c3cbc46cf0e93c7a7a739075ceba3103ba33c3c5",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576476
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605793
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
       }
     }
   },
@@ -841,31 +841,31 @@
     }
   },
   "docs/en/docs/faq/remote_access_web_admin_panel.md": {
-    "source_hash": "2a6a6396af4690d6148b68081297113e5b566fd2354f91d90193b7cae5a58c0e",
+    "source_hash": "aa6b2ac70b383da907e4e43ef1b7baa86ef0daa949771a0699e0a50202ba60a7",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "updated_at": 1782960913
       },
       "es": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "updated_at": 1782960913
       },
       "fr": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "updated_at": 1782960913
       },
       "it": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "updated_at": 1782960913
       },
       "jp": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "updated_at": 1782960913
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "updated_at": 1782960913
       }
     }
   },
@@ -1823,6 +1823,35 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605792
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/expressvpn_dashboard.md": {
+    "source_hash": "813289e55fe4b3137bb091e5e5141aac057cfa2050f33809fa76170c39f6992d",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
+      },
+      "jp": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1782960913
       }
     }
   },

@@ -70,7 +70,6 @@ Dowiedz się, jak korzystać z naszych urządzeń i jak rozwiązywać typowe pro
 * [Jak używać HTTPS do dostępu do routera GL-iNet i AdGuard Home?](use_https_for_adh.md)
 * [Jak podłączyć router GL-iNet do anteny Starlink?](connect_glinetrouter_to_starlink.md)
 * [Jak uzyskać zdalny dostęp do panelu administracyjnego routera?](remote_access_web_admin_panel.md)
-* [Jak połączyć się z routerem przez SSH zdalnie?](remote_ssh_to_router.md)
 * [Jak sprawdzić, czy ISP przydziela publiczny adres IP?](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [Jak sprawić, aby Wi-Fi Calling działało na modelu Opal?](how_to_make_wifi_calling_work_on_opal.md)
 * [Jak znaleźć wszystkie adresy MAC mojego urządzenia?](how_can_i_know_the_lan_wifi_mac.md)

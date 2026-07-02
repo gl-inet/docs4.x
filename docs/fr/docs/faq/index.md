@@ -70,7 +70,6 @@ Découvrez comment utiliser nos appareils et résoudre certains problèmes coura
 * [Comment utiliser HTTPS pour accéder au routeur GL.iNet et à AdGuard Home ?](use_https_for_adh.md)
 * [Comment connecter un routeur GL.iNet à une parabole Starlink ?](connect_glinetrouter_to_starlink.md)
 * [Comment accéder à distance au panneau d'administration web du routeur ?](remote_access_web_admin_panel.md)
-* [Comment se connecter en SSH à distance au routeur ?](remote_ssh_to_router.md)
 * [Comment vérifier si votre FAI vous attribue une adresse IP publique ?](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [Comment faire fonctionner le Wi-Fi Calling sur Opal ?](how_to_make_wifi_calling_work_on_opal.md)
 * [Comment trouver toutes les adresses MAC de mon appareil ?](how_can_i_know_the_lan_wifi_mac.md)

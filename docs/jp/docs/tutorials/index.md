@@ -17,8 +17,6 @@ hide:
 * [AmneziaWG Obfuscation Parametersを設定する方法](../faq/amneziawg_obfuscation.md)
 * [GL.iNetルーターでDedicated IPを使ってNordVPNに接続する方法](how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md)
 * [GL.iNetルーターでDedicated IPを使ってSurfsharkに接続する方法](how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md)
-* [Astrorelay経由でOpenVPNサーバーを設定する方法](how_to_set_up_openvpn_server_via_astrorelay.md)
-* [Astrorelay経由でWireGuardサーバーを設定する方法](how_to_set_up_wireguard_server_via_astrorelay.md)
 * [サーバー側からOpenVPNクライアントのLANサブネットにアクセスする方法](openvpn_server_access_client_lan_side.md)
 * [サーバー側からWireGuardクライアントのLANサブネットにアクセスする方法](wireguard_server_access_to_client_lan_side.md)
 * [ドメイン名を使ってクライアントからOpenVPNサーバーのLANサブネットにアクセスする方法](how_to_access_ovpnserver_lan_via_domain_name.md)

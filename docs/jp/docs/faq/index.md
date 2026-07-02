@@ -70,7 +70,6 @@ hide:
 * [HTTPSを使用してGL.iNetルーターとAdguard Homeにアクセスする方法は？](use_https_for_adh.md)
 * [GL.iNetルーターをStarlink Dishに接続する方法は？](connect_glinetrouter_to_starlink.md)
 * [ルーターのウェブ管理パネルにリモートアクセスする方法は？](remote_access_web_admin_panel.md)
-* [ルーターにリモートSSHする方法は？](remote_ssh_to_router.md)
 * [ISPがパブリックIPアドレスを割り当てているかどうかを確認する方法は？](../tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md)
 * [OpalでWi-Fi通話を動作させる方法は？](how_to_make_wifi_calling_work_on_opal.md)
 * [デバイスのすべてのMACアドレスを見つける方法は？](how_can_i_know_the_lan_wifi_mac.md)

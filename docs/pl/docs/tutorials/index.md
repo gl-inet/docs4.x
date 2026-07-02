@@ -17,8 +17,6 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak skonfigurować parametry obfuskacji AmneziaWG](../faq/amneziawg_obfuscation.md)
 * [Jak połączyć się z NordVPN przy użyciu dedykowanego IP na routerach GL.iNet](how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md)
 * [Jak połączyć się z Surfshark przy użyciu dedykowanego IP na routerach GL.iNet](how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md)
-* [Jak skonfigurować serwer OpenVPN przez Astrorelay](how_to_set_up_openvpn_server_via_astrorelay.md)
-* [Jak skonfigurować serwer WireGuard przez Astrorelay](how_to_set_up_wireguard_server_via_astrorelay.md)
 * [Jak uzyskać dostęp do podsieci LAN klienta OpenVPN z serwera](openvpn_server_access_client_lan_side.md)
 * [Jak uzyskać dostęp do podsieci LAN klienta WireGuard z serwera](wireguard_server_access_to_client_lan_side.md)
 * [Jak uzyskać dostęp do podsieci LAN serwera OpenVPN z klienta przez nazwę domenową](how_to_access_ovpnserver_lan_via_domain_name.md)

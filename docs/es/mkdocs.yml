@@ -209,8 +209,7 @@ nav:
       - Cambiar WAN a LAN: faq/change_wan_to_lan.md
       - Acceder a GL.iNet y AdGuard Home mediante HTTPS: faq/use_https_for_adh.md
       - Conectarse a la antena Starlink: faq/connect_glinetrouter_to_starlink.md
-      - Administración web remota: faq/remote_access_web_admin_panel.md
-      - SSH remoto al router: faq/remote_ssh_to_router.md
+      - Acceso remoto a Web Admin: faq/remote_access_web_admin_panel.md
       - Comprobar IP pública: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
       - Hacer que Wi-Fi Calling funcione en Opal: faq/how_to_make_wifi_calling_work_on_opal.md
       - Encontrar todas las direcciones MAC: faq/how_can_i_know_the_lan_wifi_mac.md
@@ -225,8 +224,6 @@ nav:
       - Configurar la ofuscación de VPN: tutorials/vpn_obfuscation.md
       - Conectarse a NordVPN con una IP dedicada: tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
       - Conectarse a Surfshark con una IP dedicada: tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md
-      - Configurar servidor OpenVPN mediante AstroRelay: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
-      - Configurar servidor WireGuard mediante AstroRelay: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
       - Acceder a la LAN del cliente OpenVPN desde el servidor: tutorials/openvpn_server_access_client_lan_side.md
       - Acceder a la LAN del cliente WireGuard desde el servidor: tutorials/wireguard_server_access_to_client_lan_side.md
       - Acceder a la LAN del servidor OpenVPN desde el cliente mediante nombre de dominio: tutorials/how_to_access_ovpnserver_lan_via_domain_name.md

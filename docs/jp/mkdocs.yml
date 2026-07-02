@@ -209,8 +209,7 @@ nav:
           - WAN を LAN に変更: faq/change_wan_to_lan.md
           - HTTPS で GL.iNet と AdGuard Home にアクセス: faq/use_https_for_adh.md
           - Starlink への接続: faq/connect_glinetrouter_to_starlink.md
-          - リモート Web 管理: faq/remote_access_web_admin_panel.md
-          - ルーターへのリモート SSH: faq/remote_ssh_to_router.md
+          - Web Admin へのリモートアクセス: faq/remote_access_web_admin_panel.md
           - パブリック IP 確認: tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address.md
           - Opal で Wi-Fi 通話を機能させる方法: faq/how_to_make_wifi_calling_work_on_opal.md
           - すべての MAC アドレスを確認する: faq/how_can_i_know_the_lan_wifi_mac.md
@@ -225,8 +224,6 @@ nav:
           - VPN 難読化の設定: tutorials/vpn_obfuscation.md
           - NordVPN に Dedicated IP で接続する: tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
           - Surfshark に Dedicated IP で接続する: tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md
-          - Astrorelay 経由で OpenVPN サーバーを設定する: tutorials/how_to_set_up_openvpn_server_via_astrorelay.md
-          - Astrorelay 経由で WireGuard サーバーを設定する: tutorials/how_to_set_up_wireguard_server_via_astrorelay.md
           - サーバーから OpenVPN クライアント LAN にアクセスする: tutorials/openvpn_server_access_client_lan_side.md
           - サーバーから WireGuard クライアント LAN にアクセスする: tutorials/wireguard_server_access_to_client_lan_side.md
           - ドメイン名で OpenVPN サーバー LAN にアクセスする: tutorials/how_to_access_ovpnserver_lan_via_domain_name.md

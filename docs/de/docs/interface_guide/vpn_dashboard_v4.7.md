@@ -6,37 +6,37 @@ Die Seite VPN Dashboard zeigt Details zur VPN-Verbindung an, z. B. Serveradresse
 
 Diese Seite ist in zwei Bereiche unterteilt: [VPN-Client](#vpn-client) und [VPN-Server](#vpn-server).
 
-![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpn_dashboard_initial.png){class="glboxshadow"}
+![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpn_dashboard_initial.png){class="glboxshadow"}
 
 ## VPN-Client
 
 Wenn Sie diese Seite zum ersten Mal aufrufen und noch keine Konfigurationsdatei für OpenVPN und WireGuard vorhanden ist, wird die Seite wie folgt angezeigt. Klicken Sie auf **Set Up Now**. Sie werden dann zur Seite [OpenVPN Client](openvpn_client.md) oder [WireGuard Client](wireguard_client.md) weitergeleitet, um Ihre VPN-Konfigurationsdatei hochzuladen.
 
-![vpn client set up](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnclient_setup.png){class="glboxshadow"}
+![vpn client set up](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_setup.png){class="glboxshadow"}
 
 Nach dem Hochladen wird Ihre Konfiguration in der Spalte **Configuration File** angezeigt. Wenn Sie mehrere Konfigurationsdateien hochgeladen haben, können Sie durch Klicken auf das Feld zwischen ihnen wechseln.
 
-![configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnclient_config.png){class="glboxshadow"}
+![configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_config.png){class="glboxshadow"}
 
 ### Client-Optionen
 
 Klicken Sie rechts auf das Zahnradsymbol, um die Optionen des OpenVPN- oder WireGuard-Clients aufzurufen.
 
-![vpn client options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnclient_options.png){class="glboxshadow"}
+![vpn client options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_options.png){class="glboxshadow"}
 
 Die Optionen des OpenVPN-Clients werden wie folgt angezeigt.
 
-![openvpn client options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnclient_options_ovpn.png){class="glboxshadow"}
+![openvpn client options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_options_ovpn.png){class="glboxshadow"}
 
 Die Optionen des WireGuard-Clients werden wie folgt angezeigt.
 
-![wg client options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnclient_options_wg.png){class="glboxshadow"}
+![wg client options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_options_wg.png){class="glboxshadow"}
 
 - **Remote Access LAN**: Wenn aktiviert, ist der Fernzugriff auf diesen Router und seine LAN-Geräte über VPN erlaubt. Der VPN-Server muss eine Route zum LAN-Subnetz dieses Routers bekanntgeben.
 
     Wie im Diagramm unten gezeigt, arbeitet der GL.iNet-Router als VPN-Client und verbindet sich über den VPN-Tunnel mit einem VPN-Server. Wenn diese Option aktiviert ist, können sowohl der GL.iNet-Router als auch seine LAN-seitigen Geräte von Geräten auf der VPN-Server-Seite (z. B. einem NAS) erreicht werden. Dafür müssen Sie auf dem VPN-Server eine Routing-Regel hinzufügen, damit das LAN-Subnetz des GL.iNet-Routers erreichbar ist.
 
-    ![allow remote access LAN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/allow_remote_access_lan_diagram.png){class="glboxshadow gl-80-desktop"}
+    ![allow remote access LAN](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/allow_remote_access_lan_diagram.png){class="glboxshadow gl-80-desktop"}
 
 - **IP Masquerading**: Wenn aktiviert, werden die Quell-IP-Adressen von LAN-Clients auf die VPN-Tunnel-IP des Routers umgeschrieben. Deaktivieren Sie dies nur bei Site-to-Site-Setups, in denen der entfernte Peer Ihre LAN-Subnetze kennt.
 
@@ -46,7 +46,7 @@ Die Optionen des WireGuard-Clients werden wie folgt angezeigt.
 
 Der Standard-Proxy-Modus für die VPN-Verbindung ist **Global Proxy**. Sie können oben rechts auf das Feld klicken, um zu anderen Proxy-Modi zu wechseln.
 
-![vpn proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnclient_proxy.png){class="glboxshadow"}
+![vpn proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_proxy.png){class="glboxshadow"}
 
 Es stehen drei Proxy-Modi zur Verfügung: **Global Proxy**, **Policy Mode** und **Route Mode**.
 
@@ -84,9 +84,9 @@ Es stehen drei Proxy-Modi zur Verfügung: **Global Proxy**, **Policy Mode** und 
 
 Klicken Sie oben rechts auf **Global Options**, um erweiterte Einstellungen für Ihren VPN-Client zu konfigurieren.
 
-![vpnclient global options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnclient_global_options_1.png){class="glboxshadow"}
+![vpnclient global options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_global_options_1.png){class="glboxshadow"}
 
-![global options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnclient_global_options_2.png){class="glboxshadow"}
+![global options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnclient_global_options_2.png){class="glboxshadow"}
 
 - **Block Non-VPN Traffic**: Wenn aktiviert, wird der gesamte Internetverkehr gezwungen, ausschließlich durch den VPN-Tunnel zu laufen, und kann nicht über andere Schnittstellen wie das lokale ISP-WAN geleitet werden. Wenn die VPN-Verbindung unerwartet abbricht, wird der gesamte Internetverkehr vollständig blockiert, damit kein Rückfall auf das normale WAN erfolgt. So werden VPN-Lecks durch VPN-Ausfälle, falsche DNS-Einstellungen auf Client-Geräten und ähnliche Probleme vermieden.
 
@@ -106,7 +106,7 @@ Klicken Sie oben rechts auf **Global Options**, um erweiterte Einstellungen für
 
 - **Allow Access WAN**: Wenn aktiviert, können lokale Client-Geräte auch bei aktivem VPN weiterhin auf WAN-seitige Dienste zugreifen (z. B. auf Drucker, NAS und andere Geräte im vorgelagerten Subnetz).
 
-    ![vpn client allow access wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
+    ![vpn client allow access wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
 
     Wie im obigen Diagramm gezeigt, können Ihre lokalen Geräte mit dieser Funktion Hosts im vorgelagerten Subnetz erreichen, z. B. Drucker und NAS.
 
@@ -118,25 +118,25 @@ Klicken Sie oben rechts auf **Global Options**, um erweiterte Einstellungen für
 
 Wenn der Router noch nie als OpenVPN- oder WireGuard-Server konfiguriert wurde, wird die Seite wie unten gezeigt angezeigt. Klicken Sie auf **Set Up Now**. Sie werden dann zur Seite **OpenVPN Server** oder **WireGuard Server** weitergeleitet, um Ihren VPN-Server zu initialisieren.
 
-![vpn server](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnserver_setup.png){class="glboxshadow"}
+![vpn server](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_setup.png){class="glboxshadow"}
 
 Sobald der OpenVPN-Server oder WireGuard-Server aktiviert ist, zeigt die Seite den Serverstatus wie folgt an.
 
-![vpn server enabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnserver_connected.png){class="glboxshadow"}
+![vpn server enabled](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_connected.png){class="glboxshadow"}
 
 ### Server-Optionen
 
 Klicken Sie rechts auf das Zahnradsymbol, um die Optionen des OpenVPN- oder WireGuard-Servers aufzurufen.
 
-![vpn server options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnserver_options.png){class="glboxshadow"}
+![vpn server options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_options.png){class="glboxshadow"}
 
 Die Optionen des OpenVPN-Servers werden wie folgt angezeigt.
 
-![openvpn server options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnserver_options_ovpn.png){class="glboxshadow"}
+![openvpn server options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_options_ovpn.png){class="glboxshadow"}
 
 Die Optionen des WireGuard-Servers werden wie folgt angezeigt.
 
-![wg server options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnserver_options_wg.png){class="glboxshadow"}
+![wg server options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_options_wg.png){class="glboxshadow"}
 
 * **Remote Access LAN**: Wenn aktiviert, kann über den VPN-Tunnel auf Ressourcen innerhalb des LAN-Subnetzes des Servers zugegriffen werden.
 
@@ -152,15 +152,15 @@ Die Optionen des WireGuard-Servers werden wie folgt angezeigt.
 
 Klicken Sie rechts auf das Routensymbol, um die OpenVPN- oder WireGuard-Routenregeln nach Bedarf anzupassen.
 
-![server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnserver_route_rule.png){class="glboxshadow"}
+![server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule.png){class="glboxshadow"}
 
 Die OpenVPN-Server-Routenregel wird wie folgt angezeigt. Klicken Sie auf **Add Route Rule**, geben Sie **Target Address** und **Gateway** ein und klicken Sie dann zum Übernehmen auf das grüne Häkchen-Symbol.
 
-![openvpn server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnserver_route_rule_ovpn.png){class="glboxshadow"}
+![openvpn server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_ovpn.png){class="glboxshadow"}
 
 Die WireGuard-Server-Routenregel wird wie folgt angezeigt. Klicken Sie auf **Add Route Rule**, geben Sie **Target Address** und **Gateway** ein und klicken Sie dann zum Übernehmen auf das grüne Häkchen-Symbol.
 
-![wg server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
+![wg server route rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_route_rule_wg.png){class="glboxshadow"}
 
 **Hinweis**: Im Modus für benutzerdefinierte Routen ignoriert der VPN-Client die Konfigurationsdatei und die vom Server bereitgestellte Routing-Konfiguration. Ob beim Zugriff auf ein beliebiges Netzwerksegment der vom VPN bereitgestellte verschlüsselte Tunnel verwendet wird, wird durch die von Ihnen manuell festgelegten Routing-Regeln bestimmt.
 
@@ -168,9 +168,9 @@ Die WireGuard-Server-Routenregel wird wie folgt angezeigt. Klicken Sie auf **Add
 
 Klicken Sie oben rechts auf **Global Options**, um erweiterte Einstellungen für Ihren VPN-Server zu konfigurieren.
 
-![vpn server global options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnserver_global_options_1.png){class="glboxshadow"}
+![vpn server global options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_global_options_1.png){class="glboxshadow"}
 
-![vpn server global options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard_v4.7/vpnserver_global_options_2.png){class="glboxshadow"}
+![vpn server global options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/vpnserver_global_options_2.png){class="glboxshadow"}
 
 - **VPN Cascading**: Wenn aktiviert und dieser Router gleichzeitig als VPN-Server und VPN-Client arbeitet, wird der Datenverkehr entfernter VPN-Clients, die mit dem VPN-Server dieses Routers verbunden sind, durch den vorgelagerten VPN-Tunnel geleitet, den dieser Router als VPN-Client verwendet. [Mehr über VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md).
 

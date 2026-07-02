@@ -8,9 +8,7 @@
 
 This guide walks you through redeeming the 12-month ExpressVPN plan within the router's web Admin Panel. It also covers customizing VPN policies based on your usage scenarios and requirements, helping you effortlessly enjoy encrypted, secure and high-speed internet connectivity.
 
-## Getting Started
-
-### Redeem ExpressVPN Plan
+## Redeem ExpressVPN Plan
 
 Log in to the Fortify's web Admin Panel, and navigate to **VPN** -> **VPN Client Profile**.
 
@@ -36,27 +34,59 @@ Enter your email address on the top, and add payment method to ensure uninterrup
 
 ![expressvpn checkout1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/4-expressvpn_checkout1.png){class="glboxshadow"}
 
-An **Activation Link** will be sent to your email address. Go to your inbox and follow the instructions to activate your ExpressVPN account.
+An **Activation Link** will be sent to your email address. Go to your inbox to activate your ExpressVPN account. 
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/4-expressvpn_checkout2.png){class="glboxshadow"}
 
-Click the activation link in the email, then create your password to activate your account.
+Click the **Activate Subscription** button in the email.
 
-![create password](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/5-create_password.png){class="glboxshadow"}
+![activate subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/5-activate_subscription.png){class="glboxshadow" width="600"}
 
-Install ExpressVPN apps on your devices as needed.
+You will be directed to create your account password, then click **Set Password**.
 
-![install apps](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/6-install_apps.png){class="glboxshadow"}
+![create password](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/6-create_password.png){class="glboxshadow" width="600"}
 
-Your account is activated successfully. Please go back to your Fortify router's web Admin Panel to add your VPN tunnel.
+Your account is activated successfully. Please go back to your Fortify router's web Admin Panel to log in with your account.
 
 ![my account](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/7-my_account.png){class="glboxshadow"}
 
-### Add VPN Tunnel
+## Log in to ExpressVPN
 
-Follow the steps below to add your VPN tunnel and configure the VPN policies. See [Case Reference](#case-reference) if necessary.
+On your Fortify's web Admin Panel, go to **VPN** -> **VPN Client Profile**. Click **Log in to ExpressVPN**.
 
-1. Log in to your Fortify's web Admin Panel, and go to **VPN** -> **ExpressVPN Dashboard**. Click **Add VPN Tunnel**.
+![expressvpn login 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login1.png){class="glboxshadow"}
+
+Enter your email and click **Send Code**. A 6-digit verification code will be sent to your email.
+
+![expressvpn login 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login2.png){class="glboxshadow"}
+
+Enter the verification code and click **Continue**.
+
+![expressvpn login 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login3.png){class="glboxshadow"}
+
+Click **Yes** to authorize access to ExpressVPN on your router.
+
+![expressvpn login 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login4.png){class="glboxshadow"}
+
+Login successful. You may close this window.
+
+![expressvpn login 5](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login5.png){class="glboxshadow"}
+
+On your Fortify's web Admin Panel, go to **VPN** -> **VPN Client Profile**. You are signed in ExpressVPN on this router. Click **Go to ExpressVPN Dashboard**. 
+
+![expressvpn signed in](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_signed_in.png){class="glboxshadow"}
+
+Now you can add VPN tunnels and configure VPN policies according to your needs.
+
+![expressvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_dashboard.png){class="glboxshadow"}
+
+## Add VPN Tunnel
+
+### General Steps
+
+Follow the steps below to add your VPN tunnel and configure VPN policies. See [Case Reference](#case-reference) if necessary.
+
+1. On your Fortify's web Admin Panel, go to **VPN** -> **ExpressVPN Dashboard**. Click **Add VPN Tunnel**.
 
     ![dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/1-dashboard_initial.png){class="glboxshadow"}
 
@@ -103,145 +133,145 @@ Follow the steps below to add your VPN tunnel and configure the VPN policies. Se
 
 ### Case Reference
 
-Two typical configuration cases with step-by-step setup instructions are provided for your reference.
+Here are two typical VPN policy configuration cases with step-by-step setup instructions for your reference.
 
-**Case 1**: Route only specified devices over VPN.
+??? note "Case 1: Route only specified devices over VPN."
 
-<u>Requirements</u>:
+    **Requirements:**
 
-1. Only specific devices connected to this router access the Internet through the VPN. All other devices access the Internet through the local WAN.
+    1. Only specific devices connected to this router access the Internet through the VPN. All other devices access the Internet through the local WAN.
 
-2. The selected devices must use the VPN connection only. If the VPN disconnects unexpectedly, Internet access for these devices will be blocked to prevent DNS leaks and IP tracking.
+    2. The selected devices must use the VPN connection only. If the VPN disconnects unexpectedly, Internet access for these devices will be blocked to prevent DNS leaks and IP tracking.
 
-<u>Configuration Steps</u>:
+    **Configuration Steps:**
 
-1. Select VPN profile. 
+    1. Select VPN profile. 
 
-    Select one or multiple profiles, and adjust their priority on the right as needed, then click **Next**. 
+        Select one or multiple profiles, and adjust their priority on the right as needed, then click **Next**. 
 
-    ![case 1 select profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-select-profiles.png){class="glboxshadow"}
+        ![case 1 select profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-select-profiles.png){class="glboxshadow"}
 
-2. Select client source.
+    2. Select client source.
 
-    Click the **Specified Devices** tab, select the devices that you want to use the VPN, then click **Next**.
+        Click the **Specified Devices** tab, select the devices that you want to use the VPN, then click **Next**.
 
-    ![case 1 source](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-specified-devices.png){class="glboxshadow"}
+        ![case 1 source](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-specified-devices.png){class="glboxshadow"}
 
-3. Select target destination.
+    3. Select target destination.
 
-    Click the **All Targets** tab, set it as the traffic destination, then click **Apply**.
+        Click the **All Targets** tab, set it as the traffic destination, then click **Apply**.
 
-    ![case 1 target](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-all-targets.png){class="glboxshadow"}
+        ![case 1 target](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-all-targets.png){class="glboxshadow"}
 
-4. You will be directed to the ExpressVPN Dashboard. Now a VPN tunnel has been added successfully, as shown below. 
+    4. You will be directed to the ExpressVPN Dashboard. Now a VPN tunnel has been added successfully, as shown below. 
 
-    ![case 1 dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-tunnel-apply.png){class="glboxshadow"}
+        ![case 1 dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-tunnel-apply.png){class="glboxshadow"}
 
-5. Make sure the **Kill Switch** for this tunnel is enabled. If the VPN disconnects unexpectedly, Internet access for traffic matching this tunnel will be blocked to prevent DNS leaks and IP tracking.
+    5. Make sure the **Kill Switch** for this tunnel is enabled. If the VPN disconnects unexpectedly, Internet access for traffic matching this tunnel will be blocked to prevent DNS leaks and IP tracking.
 
-    ![case 1 kill switch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-killswitch1.png){class="glboxshadow"}
+        ![case 1 kill switch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-killswitch1.png){class="glboxshadow"}
 
-    ![case 1 kill switch2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-killswitch2.png){class="glboxshadow"}
-    
-6. Make sure the **Allow Non-VPN Traffic** is enabled. This is enabled by default to ensure that traffic not matching the VPN tunnel can still access the Internet through the local WAN network.
+        ![case 1 kill switch2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-killswitch2.png){class="glboxshadow"}
+        
+    6. Make sure the **Allow Non-VPN Traffic** is enabled. This is enabled by default to ensure that traffic not matching the VPN tunnel can still access the Internet through the local WAN network.
 
-    ![case 1 allow non-vpn traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-allow-non-vpn.png){class="glboxshadow"}
+        ![case 1 allow non-vpn traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-allow-non-vpn.png){class="glboxshadow"}
 
-7. Click the middle button to activate this tunnel.
+    7. Click the middle button to activate this tunnel.
 
-    ![case 1 connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-start-vpn.png){class="glboxshadow"}
+        ![case 1 connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-start-vpn.png){class="glboxshadow"}
 
-8. Once connected, the page will display the VPN connection details, including VPN policy, client virtual IP, server address, listen port, and traffic statistics.
+    8. Once connected, the page will display the VPN connection details, including VPN policy, client virtual IP, server address, listen port, and traffic statistics.
 
-    ![case 1 connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-connected.png){class="glboxshadow"}
+        ![case 1 connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-connected.png){class="glboxshadow"}
 
-    Now, only two specified devices access the Internet through VPN. If the VPN disconnects unexpectedly, Internet access for these devices will be blocked to prevent DNS leaks and IP tracking. All other devices will access the Internet through the local WAN network instead.
+        Now, only two specified devices access the Internet through VPN. If the VPN disconnects unexpectedly, Internet access for these devices will be blocked to prevent DNS leaks and IP tracking. All other devices will access the Internet through the local WAN network instead.
 
-**Case 2**: Route all devices over VPN 1 for specific websites, and route all remaining internet traffic over VPN 2.
+??? note "Case 2: Route all devices over VPN 1 for specific websites, and route all remaining traffic over VPN 2."
 
-<u>Requirements</u>:
+    **Requirements:**
 
-1. All devices use VPN Tunnel 1 when accessing websites of specific social media and streaming services, and use VPN Tunnel 2 for all remaining Internet access.
+    1. All devices use VPN Tunnel 1 when accessing websites of specific social media and streaming services, and use VPN Tunnel 2 for all remaining Internet access.
 
-2. If the VPN tunnels disconnect unexpectedly, Internet access for all devices will be blocked to prevent DNS leaks and IP tracking.
+    2. If the VPN tunnels disconnect unexpectedly, Internet access for all devices will be blocked to prevent DNS leaks and IP tracking.
 
-<u>Configuration Steps</u>:
+    **Configuration Steps:**
 
-1. Select VPN profile for Tunnel 1.
+    1. Select VPN profile for Tunnel 1.
 
-    Select one or multiple profiles, and adjust their priority on the right as needed, then click **Next**. 
+        Select one or multiple profiles, and adjust their priority on the right as needed, then click **Next**. 
 
-    ![case 2 profile1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-select-profiles1.png){class="glboxshadow"}
+        ![case 2 profile1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-select-profiles1.png){class="glboxshadow"}
 
-2. Select client source.
+    2. Select client source.
 
-    Click the **All Clients** tab, set it as the client source for Tunnel 1, then click **Next**.
+        Click the **All Clients** tab, set it as the client source for Tunnel 1, then click **Next**.
 
-    ![case 2 source1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-all-clients.png){class="glboxshadow"}
+        ![case 2 source1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-all-clients.png){class="glboxshadow"}
 
-3. Select target destination.
+    3. Select target destination.
 
-    Click the **Specified Domain / IP List** tab, enter domains of specific social media and streaming services, as shown below, then click **Apply**.
+        Click the **Specified Domain / IP List** tab, enter domains of specific social media and streaming services, as shown below, then click **Apply**.
 
-    ![case 2 target1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-specified-domain.png){class="glboxshadow"}
+        ![case 2 target1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-specified-domain.png){class="glboxshadow"}
 
-4. You will be directed to the ExpressVPN Dashboard. Now the VPN tunnel 1 has been added successfully. 
+    4. You will be directed to the ExpressVPN Dashboard. Now the VPN tunnel 1 has been added successfully. 
 
-    ![case 2 tunnel 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-tunnel1.png){class="glboxshadow"}
+        ![case 2 tunnel 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-tunnel1.png){class="glboxshadow"}
 
-5. Make sure the **Kill Switch** for Tunnel 1 is enabled. If the VPN disconnects unexpectedly, Internet access for traffic matching this tunnel will be blocked to prevent DNS leaks and IP tracking.
+    5. Make sure the **Kill Switch** for Tunnel 1 is enabled. If the VPN disconnects unexpectedly, Internet access for traffic matching this tunnel will be blocked to prevent DNS leaks and IP tracking.
 
-    ![kill switch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch1.png){class="glboxshadow"}
+        ![kill switch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch1.png){class="glboxshadow"}
 
-    ![kill switch2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch2.png){class="glboxshadow"}
-    
-6. Click **Add New Tunnel** to add Tunnel 2.
+        ![kill switch2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch2.png){class="glboxshadow"}
+        
+    6. Click **Add New Tunnel** to add Tunnel 2.
 
-    ![case 2 add tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-add-tunnel2.png){class="glboxshadow"}
+        ![case 2 add tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-add-tunnel2.png){class="glboxshadow"}
 
-7. Select VPN profile for Tunnel 2. 
+    7. Select VPN profile for Tunnel 2. 
 
-    Select one or multiple profiles, and adjust their priority on the right as needed, then click **Next**. 
+        Select one or multiple profiles, and adjust their priority on the right as needed, then click **Next**. 
 
-    ![case 2 profile2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-select-profiles2.png){class="glboxshadow"}
+        ![case 2 profile2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-select-profiles2.png){class="glboxshadow"}
 
-8. Select client source.
+    8. Select client source.
 
-    Click the **All Clients** tab, set it as the client source for Tunnel 2, then click **Next**.
+        Click the **All Clients** tab, set it as the client source for Tunnel 2, then click **Next**.
 
-    ![case 2 source2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-all-clients.png){class="glboxshadow"}
+        ![case 2 source2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-all-clients.png){class="glboxshadow"}
 
-9. Select target destination.
+    9. Select target destination.
 
-    Click the **All Targets** tab, set it as the traffic destination for Tunnel 2, then click **Apply**.
+        Click the **All Targets** tab, set it as the traffic destination for Tunnel 2, then click **Apply**.
 
-    ![case 2 target2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-all-targets.png){class="glboxshadow"}
+        ![case 2 target2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-all-targets.png){class="glboxshadow"}
 
-10. You will be directed to the VPN Dashboard. Now the VPN tunnel 2 has been added successfully.  
+    10. You will be directed to the VPN Dashboard. Now the VPN tunnel 2 has been added successfully.  
 
-    ![case 2 tunnel 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-tunnel2.png){class="glboxshadow"}
+        ![case 2 tunnel 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-tunnel2.png){class="glboxshadow"}
 
-11. Make sure the **Kill Switch** for Tunnel 2 is enabled. If the VPN disconnects unexpectedly, Internet access for traffic matching this tunnel will be blocked to prevent DNS leaks and IP tracking.
+    11. Make sure the **Kill Switch** for Tunnel 2 is enabled. If the VPN disconnects unexpectedly, Internet access for traffic matching this tunnel will be blocked to prevent DNS leaks and IP tracking.
 
-    ![kill switch3](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch3.png){class="glboxshadow"}
+        ![kill switch3](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch3.png){class="glboxshadow"}
 
-    ![kill switch4](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch4.png){class="glboxshadow"}
+        ![kill switch4](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch4.png){class="glboxshadow"}
 
-12. Click the gear icon at the upper right, enable **Enhanced Kill Switch** and click **Apply**. This ensures that all traffic must access Internet via the VPN.
+    12. Click the gear icon at the upper right, enable **Enhanced Kill Switch** and click **Apply**. This ensures that all traffic must access Internet via the VPN.
 
-    ![enhanced killswitch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-enhanced-killswitch1.png){class="glboxshadow"}
+        ![enhanced killswitch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-enhanced-killswitch1.png){class="glboxshadow"}
 
-    ![enhanced killswitch2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-enhanced-killswitch2.png){class="glboxshadow"}
+        ![enhanced killswitch2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-enhanced-killswitch2.png){class="glboxshadow"}
 
-13. Click the middle button to activate Tunnel 1 and Tunnel 2.
+    13. Click the middle button to activate Tunnel 1 and Tunnel 2.
 
-    ![case 2 connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-start-vpn.png){class="glboxshadow"}
+        ![case 2 connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-start-vpn.png){class="glboxshadow"}
 
-14. Once connected, the page will display the VPN connection details, including VPN policy, client virtual IP, server address, listen port, and traffic statistics.
+    14. Once connected, the page will display the VPN connection details, including VPN policy, client virtual IP, server address, listen port, and traffic statistics.
 
-    ![case 2 connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-connected.png){class="glboxshadow"}
+        ![case 2 connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-connected.png){class="glboxshadow"}
 
-    Now, all devices will use **VPN Tunnel 1** when accessing specified domains, and use **VPN Tunnel 2** for all remaining Internet access. If the VPN tunnels disconnect unexpectedly, Internet access for all devices will be blocked to prevent DNS leaks and IP tracking.
+        Now, all devices will use **VPN Tunnel 1** when accessing specified domains, and use **VPN Tunnel 2** for all remaining Internet access. If the VPN tunnels disconnect unexpectedly, Internet access for all devices will be blocked to prevent DNS leaks and IP tracking.
 
 ## Kill Switch
 

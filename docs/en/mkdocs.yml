@@ -50,6 +50,7 @@ plugins:
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
+        'interface_guide/dual-ethernet_wan.md': 'interface_guide/ethernet_port.md'
 
 extra:
   social:
@@ -278,7 +279,6 @@ nav:
       - Tethering: interface_guide/internet_tethering.md
       - Cellular: interface_guide/internet_cellular.md
       - SMS: interface_guide/sms.md
-      - Dual-Ethernet WAN: interface_guide/dual-ethernet_wan.md
     - Wireless:
       - Wireless: interface_guide/wireless.md
       - Wireless (v4.9): interface_guide/wireless_v4.9.md

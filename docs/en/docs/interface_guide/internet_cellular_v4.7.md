@@ -191,11 +191,11 @@ You will enter the Traffic Statistics page.
 
 ## SMS
 
-Please refer to the [SMS tutorial](sms.md).
+Please refer to [SMS](../tutorials/sms.md).
 
 ## SMS Forwarding
 
-Please refer to the [SMS Forwarding tutorial](../tutorials/sms_forwarding.md).
+Please refer to [SMS Forwarding](../tutorials/sms_forwarding.md).
 
 ## Modem Management
 

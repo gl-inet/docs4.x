@@ -37,15 +37,15 @@ GL.iNet cellular routers support SMS forwarding, automatically pushing incoming 
     - GL-B1300 (Convexa-B)
     - GL-AP1300 (Cirrus)
 
-## Setup
+## Quick Setup
 
 Take the GL-XE3000 (Puli AX) as an example.
 
-On the left side of the web Admin Panel, go to **INTERNET** -> **Cellular** section. 
+1. Refer to [this link](../interface_guide/internet_cellular.md) to configure your cellular router first.
 
-Click the envelope icon in the upper right to enter the SMS page, and you will find the SMS Forwarding settings.
+2. Log in to the router's web Admin Panel and go to **INTERNET** -> **Cellular**. Click the envelope icon in the upper right to enter the SMS page, and you will find the SMS Forwarding settings.
 
-![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+    ![sms setting](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Forward via Email
 
@@ -92,7 +92,7 @@ You can add up to 10 cell phone numbers.
 
 Related Articles
 
-- [SMS](../interface_guide/sms.md)
+- [SMS](sms.md)
 
 ---
 

@@ -306,11 +306,11 @@ Select the **Masking Mode** (Block or Open), then select the LTE Bands, 5G NSA B
 
 ## SMS
 
-Please refer to the [SMS tutorial](sms.md).
+Please refer to [SMS](../tutorials/sms.md).
 
 ## SMS Forwarding
 
-Please refer to the [SMS Forwarding tutorial](../tutorials/sms_forwarding.md).
+Please refer to [SMS Forwarding](../tutorials/sms_forwarding.md).
 
 ## Lock Tower
 

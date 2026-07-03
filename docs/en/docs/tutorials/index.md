@@ -33,6 +33,7 @@ Learn how to use our devices correctly with detailed steps.
 
 ## Cellular
 
+* [SMS](sms.md)
 * [SMS Forwarding](sms_forwarding.md)
 * [How to use qlog to capture module logs](get_module_logs.md)
 * [How to upgrade quectel module firmware](upgrade_quectel_module_software.md)

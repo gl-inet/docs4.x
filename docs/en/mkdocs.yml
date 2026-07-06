@@ -51,7 +51,6 @@ plugins:
         'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
         'interface_guide/dual-ethernet_wan.md': 'interface_guide/ethernet_port.md'
-        'interface_guide/sms.md': 'tutorials/sms.md'
 
 extra:
   social:

@@ -1,10 +1,10 @@
 # ExpressVPN Dashboard
 
-> **Note:** This guide is only applicable to GL.iNet x ExpressVPN co-branded router **Fortify**. 
+> **Note:** This guide is only applicable to GL.iNet x ExpressVPN co-branded router **Fortify (GL-MT6000)**. 
 
 [ExpressVPN](https://www.expressvpn.com/){target="_blank"} is one of the world's leading premium VPN services designed to protect your online privacy, secure your internet connection, and unlock global content. It offers lightning-fast speeds, military-grade encryption, and access to servers in over 100+ countries. Whether you want to stream, browse privately, or protect your data on public Wi-Fi, ExpressVPN gives you a fast & secure experience.
 
-**Fortify** is a co-branded router jointly released by GL.iNet and ExpressVPN. Every unit comes with a complimentary one-year ExpressVPN subscription. Users can redeem the subscription and bind their accounts directly on the router's web Admin Panel. Once activated, all traffic passing through the router will leverage ExpressVPN's high-speed network and robust encryption to protect your entire network connection and online privacy.
+**Fortify (GL-MT6000)** is a co-branded router jointly released by GL.iNet and ExpressVPN. Every unit comes with a complimentary one-year ExpressVPN subscription. Users can redeem the subscription and bind their accounts directly on the router's web Admin Panel. Once activated, all traffic passing through the router will leverage ExpressVPN's high-speed network and robust encryption to protect your entire network connection and online privacy.
 
 This guide walks you through redeeming the 12-month ExpressVPN plan within the router's web Admin Panel. It also covers customizing VPN policies based on your usage scenarios and requirements, helping you effortlessly enjoy encrypted, secure and high-speed internet connectivity.
 

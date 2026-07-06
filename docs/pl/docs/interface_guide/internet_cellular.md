@@ -306,11 +306,11 @@ Wybierz **Masking Mode** (Block lub Open), a następnie pasma LTE Bands, 5G NSA 
 
 ## SMS
 
-Zapoznaj się z [samouczkiem SMS](sms.md).
+Zapoznaj się z [SMS](../tutorials/sms.md).
 
 ## Przekazywanie SMS
 
-Zapoznaj się z [samouczkiem SMS Forwarding](../tutorials/sms_forwarding.md).
+Zapoznaj się z [SMS Forwarding](../tutorials/sms_forwarding.md).
 
 ## Blokada stacji bazowej
 

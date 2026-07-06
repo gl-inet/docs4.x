@@ -33,6 +33,7 @@ Erfahren Sie anhand detaillierter Schritte, wie Sie unsere Geräte korrekt verwe
 
 ## Mobilfunk
 
+* [SMS](sms.md)
 * [SMS-Weiterleitung](sms_forwarding.md)
 * [So verwenden Sie qlog zum Erfassen von Modulprotokollen](get_module_logs.md)
 * [So aktualisieren Sie die Firmware des Quectel-Moduls](upgrade_quectel_module_software.md)

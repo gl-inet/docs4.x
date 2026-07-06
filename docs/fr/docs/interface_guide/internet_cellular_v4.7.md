@@ -191,11 +191,11 @@ Vous accéderez à la page Traffic Statistics.
 
 ## SMS
 
-Veuillez consulter le [tutoriel SMS](sms.md).
+Veuillez consulter [SMS](../tutorials/sms.md).
 
 ## SMS Forwarding
 
-Veuillez consulter le [tutoriel SMS Forwarding](../tutorials/sms_forwarding.md).
+Veuillez consulter [SMS Forwarding](../tutorials/sms_forwarding.md).
 
 ## Modem Management
 

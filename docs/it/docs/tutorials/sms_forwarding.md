@@ -92,7 +92,7 @@ Puoi aggiungere fino a 10 numeri di cellulare.
 
 Articoli correlati
 
-- [SMS](../interface_guide/sms.md)
+- [SMS](sms.md)
 
 ---
 

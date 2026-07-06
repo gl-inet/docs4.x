@@ -93,7 +93,7 @@ Vous pouvez ajouter jusqu'à 10 numéros de téléphone mobile.
 
 Articles connexes
 
-- [SMS](../interface_guide/sms.md)
+- [SMS](sms.md)
 
 ---
 

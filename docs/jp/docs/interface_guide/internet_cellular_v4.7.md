@@ -191,11 +191,11 @@ Traffic Statistics ページが開きます。
 
 ## SMS
 
-[SMS チュートリアル](sms.md) を参照してください。
+[SMS](../tutorials/sms.md) を参照してください。
 
 ## SMS転送
 
-[SMS Forwarding チュートリアル](../tutorials/sms_forwarding.md) を参照してください。
+[SMS Forwarding](../tutorials/sms_forwarding.md) を参照してください。
 
 ## モデム管理
 

@@ -15,7 +15,6 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Jak połączyć się z Internetem przez Repeater](internet_repeater.md)
 * [Jak połączyć się z Internetem przez tethering USB](internet_tethering.md)
 * [Jak połączyć się z Internetem przez sieć komórkową](internet_cellular.md)
-* [SMS](sms.md)
 * [Dual-Ethernet WAN](dual-ethernet_wan.md)
 
 ## Sieć bezprzewodowa

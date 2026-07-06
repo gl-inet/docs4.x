@@ -92,7 +92,7 @@ Możesz dodać maksymalnie 10 numerów telefonów komórkowych.
 
 Powiązane artykuły
 
-- [SMS](../interface_guide/sms.md)
+- [SMS](sms.md)
 
 ---
 

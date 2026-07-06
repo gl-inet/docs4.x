@@ -92,7 +92,7 @@ Sie können bis zu 10 Mobiltelefonnummern hinzufügen.
 
 Verwandte Artikel
 
-- [SMS](../interface_guide/sms.md)
+- [SMS](sms.md)
 
 ---
 

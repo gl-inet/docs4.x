@@ -41,37 +41,37 @@ GL.iNet-Mobilfunkrouter sind mit einem integrierten Modem ausgestattet, das nach
 
 Nehmen Sie den GL-X3000 (Spitz AX) als Beispiel.
 
-Richten Sie die SIM-Karte zunächst über [diesen Link](internet_cellular.md) ein.
+1. Konfigurieren Sie zuerst den Mobilfunkrouter über [diesen Link](../interface_guide/internet_cellular.md).
 
-Gehen Sie in der Web-Adminoberfläche auf der linken Seite zum Abschnitt **INTERNET** -> **Cellular**.
+2. Melden Sie sich in der Web-Adminoberfläche des Routers an und gehen Sie zu **INTERNET** -> **Cellular**. Klicken Sie oben rechts auf das Umschlagsymbol.
 
-Klicken Sie oben rechts auf das Umschlagsymbol.
+    ![sms](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms.png){class="glboxshadow gl-90-desktop"}
 
-![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms2.png){class="glboxshadow gl-90-desktop"}
+3. Sie werden zur SMS-Seite weitergeleitet, auf der Sie empfangene Nachrichten ansehen oder neue Nachrichten verfassen können.
 
-Sie werden zur SMS-Seite weitergeleitet, auf der Sie eingehende Nachrichten ansehen oder neue Nachrichten senden können.
+    ![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.png){class="glboxshadow gl-90-desktop"}
 
-![sms receive](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
+    Klicken Sie auf eine Nachricht, um die Details anzuzeigen.
 
-Klicken Sie auf eine Nachricht, um die Details anzuzeigen.
+    ![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
 
-![sms detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_detail.png){class="glboxshadow"}
+    Klicken Sie oben rechts auf die Schaltfläche **Send Message**, um eine neue Nachricht zu verfassen.
 
-Klicken Sie oben rechts auf die Schaltfläche **Send Message**, um eine neue Nachricht zu verfassen.
+    ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message1.png){class="glboxshadow"}
 
-![sms new message](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_new_message.jpg){class="glboxshadow"}
+    ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message2.png){class="glboxshadow"}
 
-* Recepient
+    * Recepient
 
-    Sie müssen die internationale Vorwahl auswählen und die Nummer eingeben.
+        Sie müssen die internationale Vorwahl auswählen und die Nummer eingeben.
 
-* From modem (SIM)
+    * From modem (SIM)
 
-    Wählen Sie aus, von welcher SIM-Karte gesendet werden soll.
+        Wählen Sie aus, von welcher SIM-Karte gesendet werden soll.
 
-* SMS Content
+    * SMS Content
 
-    Jede SMS kann bis zu 160 Zeichen enthalten.
+        Jede SMS kann bis zu 160 Zeichen enthalten.
 
 ---
 

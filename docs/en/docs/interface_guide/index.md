@@ -40,14 +40,6 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Set up OpenVPN Server](openvpn_server.md)
 * [Set up WireGuard Client](wireguard_client.md)
 * [Set up WireGuard Server](wireguard_server.md)
-* [VPN Policy (for firmware v4.7 and earlier)](vpn_dashboard_v4.7.md#proxy-mode)
-* [VPN Policy (for firmware v4.8 and later)](vpn_dashboard_v4.8.md#policy-mode)
-* [How to set up NordVPN on router?](openvpn_client.md#set-up-nordvpn)
-* [How to set up AzireVPN on router?](wireguard_client.md#set-up-azirevpn)
-* [How to set up Mullvad VPN on router?](wireguard_client.md#set-up-mullvad)
-* [For OpenVPN, which protocol should I choose, TCP or UDP?](../faq/openvpn_tcp_udp.md)
-* [VPN Kill Switch](../faq/block_non_vpn_traffic.md)
-* [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md)
 
 ## Applications
 
@@ -101,10 +93,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 * [UI Languages](ui_languages.md)
 * [System Overview](system_overview.md) - displays some hardware status and system info.
-* Upgrade
-    * [Upgrade](upgrade.md)
-    * [How to download official firmware?](../faq/how_to_download_firmware.md)
-    * [How to upgrade from 3.x to firmware 4.x?](../faq/upgrade_to_4.md)
+* [Upgrade](upgrade.md)
 * [Scheduled Tasks](scheduled_tasks.md) - to set schedules for LED display, Wi-Fi status and reboot.
 * [Change Admin password](admin_password.md)
 * [Display Management](display_management.md)

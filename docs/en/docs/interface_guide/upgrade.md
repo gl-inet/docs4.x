@@ -4,7 +4,7 @@ On the left side of the web Admin Panel, go to **SYSTEM** -> **Upgrade** to upda
 
 For some cellular models, you can also upgrade the module version if needed.
 
-!!! Note
+!!! Warning
 
     Please keep the power on during the upgrade. Do **NOT** power off the router. The device will automatically reboot after upgrade, which may take a few minutes.
 
@@ -12,7 +12,9 @@ For some cellular models, you can also upgrade the module version if needed.
 
 ### Online Upgrade
 
-You can find the current firmware version here.
+Online Upgrade automatically checks for the latest official firmware over the internet and completes downloading and flashing directly on the router, which is convenient for one-click official firmware updates as long as the router is connected to the Internet.
+
+You can find the current firmware version in the **Firmware Online Upgrade**.
 
 ![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
@@ -32,11 +34,13 @@ If your router is connected to the Internet, it will check for available firmwar
 
 ### Local Upgrade
 
-Select a firmware file or drag and drop it to upgrade. You can download the firmware from our [download center](https://dl.gl-inet.com){target="_blank"}.
+Local Upgrade supports manual firmware file upload for flashing, enabling users to upgrade, downgrade, or install beta firmware of specific versions to test newly added features.
+
+Download the firmware file from our [download center](https://dl.gl-inet.com){target="_blank"} first, then go to **Firmware Local Upgrade**.
 
 ![local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 
-After uploaded, it will verify the firmware.
+Select the file or drag and drop it into the upload area. The system will verify the firmware.
 
 ![local upgrade uploaded](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
 

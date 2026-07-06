@@ -15,7 +15,6 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Come connettersi a Internet tramite Repeater](internet_repeater.md)
 * [Come connettersi a Internet tramite USB tethering](internet_tethering.md)
 * [Come connettersi a Internet tramite rete cellulare](internet_cellular.md)
-* [SMS](sms.md)
 * [Dual-Ethernet WAN](dual-ethernet_wan.md)
 
 ## Wireless

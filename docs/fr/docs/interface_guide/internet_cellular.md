@@ -306,11 +306,11 @@ Sélectionnez le **Masking Mode** (Block ou Open), puis choisissez les bandes LT
 
 ## SMS
 
-Veuillez consulter le [tutoriel SMS](sms.md).
+Veuillez consulter [SMS](../tutorials/sms.md).
 
 ## SMS Forwarding
 
-Veuillez consulter le [tutoriel SMS Forwarding](../tutorials/sms_forwarding.md).
+Veuillez consulter [SMS Forwarding](../tutorials/sms_forwarding.md).
 
 ## Verrouillage d'antenne relais
 

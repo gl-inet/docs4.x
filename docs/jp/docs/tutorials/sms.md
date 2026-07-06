@@ -41,37 +41,37 @@ GL.iNet のセルラールーターにはモデムが内蔵されており、SIM
 
 ここでは **GL-X3000 (Spitz AX)** を例に説明します。
 
-まず [このリンク](internet_cellular.md) を参照して、SIM カードを設定してください。
+1. まず [このリンク](../interface_guide/internet_cellular.md) を参照して、セルラールーターを設定してください。
 
-Web 管理パネルの左側で、**INTERNET** -> **Cellular** に移動します。
+2. ルーターの Web 管理パネルにログインし、**INTERNET** -> **Cellular** に移動します。右上の封筒アイコンをクリックします。
 
-右上の封筒アイコンをクリックします。
+    ![sms](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms.png){class="glboxshadow gl-90-desktop"}
 
-![sms](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms2.png){class="glboxshadow gl-90-desktop"}
+3. SMS ページに移動し、受信メッセージを確認したり、新しいメッセージを作成したりできます。
 
-SMS ページに移動し、受信メッセージを確認したり、新しいメッセージを送信したりできます。
+    ![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.png){class="glboxshadow gl-90-desktop"}
 
-![sms receive](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_receive.jpg){class="glboxshadow gl-90-desktop"}
+    メッセージをクリックすると詳細を表示できます。
 
-メッセージをクリックすると詳細を表示できます。
+    ![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
 
-![sms detail](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_detail.png){class="glboxshadow"}
+    右上の **Send Message** ボタンをクリックすると、新しいメッセージを作成できます。
 
-右上の **Send Message** ボタンをクリックすると、新しいメッセージを作成できます。
+    ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message1.png){class="glboxshadow"}
 
-![sms new message](https://static.gl-inet.com/docs/router/en/4/interface_guide/sms/sms_new_message.jpg){class="glboxshadow"}
+    ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message2.png){class="glboxshadow"}
 
-* Recipient
+    * Recepient
 
-    国番号を選択し、電話番号を入力する必要があります。
+        国番号を選択し、電話番号を入力する必要があります。
 
-* From modem (SIM)
+    * From modem (SIM)
 
-    どの SIM カードから送信するかを選択します。
+        どの SIM カードから送信するかを選択します。
 
-* SMS Content
+    * SMS Content
 
-    1通の SMS に入力できる文字数は最大 160 文字です。
+        1通の SMS に入力できる文字数は最大 160 文字です。
 
 ---
 

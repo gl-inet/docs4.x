@@ -15,7 +15,6 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Comment se connecter à Internet via Repeater](internet_repeater.md)
 * [Comment se connecter à Internet via le partage de connexion USB](internet_tethering.md)
 * [Comment se connecter à Internet via le réseau cellulaire](internet_cellular.md)
-* [SMS](sms.md)
 * [Dual-Ethernet WAN](dual-ethernet_wan.md)
 
 ## Sans fil

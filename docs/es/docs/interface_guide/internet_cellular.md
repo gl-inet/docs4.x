@@ -306,11 +306,11 @@ Seleccione **Masking Mode** (Block u Open) y, a continuación, seleccione las ba
 
 ## SMS
 
-Consulte el [tutorial de SMS](sms.md).
+Consulte [SMS](../tutorials/sms.md).
 
 ## Reenvío de SMS
 
-Consulte el [tutorial de reenvío de SMS](../tutorials/sms_forwarding.md).
+Consulte [SMS Forwarding](../tutorials/sms_forwarding.md).
 
 ## Bloqueo de torre
 

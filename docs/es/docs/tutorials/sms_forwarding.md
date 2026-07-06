@@ -91,7 +91,7 @@ Puede añadir hasta 10 números de teléfono móvil.
 
 Artículos relacionados
 
-- [SMS](../interface_guide/sms.md)
+- [SMS](sms.md)
 
 ---
 

@@ -15,7 +15,6 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 * [Cómo conectarse a Internet mediante Repeater](internet_repeater.md)
 * [Cómo conectarse a Internet mediante anclaje USB](internet_tethering.md)
 * [Cómo conectarse a Internet mediante red celular](internet_cellular.md)
-* [SMS](sms.md)
 * [WAN Ethernet dual](dual-ethernet_wan.md)
 
 ## Wireless

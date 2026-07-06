@@ -33,6 +33,7 @@ Aprenda a usar correctamente nuestros dispositivos con pasos detallados.
 
 ## Celular
 
+* [SMS](sms.md)
 * [Reenvío de SMS](sms_forwarding.md)
 * [Cómo usar qlog para capturar registros del módulo](get_module_logs.md)
 * [Cómo actualizar el firmware del módulo Quectel](upgrade_quectel_module_software.md)

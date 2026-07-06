@@ -33,6 +33,7 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 
 ## Łączność komórkowa
 
+* [SMS](sms.md)
 * [Przekazywanie SMS-ów](sms_forwarding.md)
 * [Jak używać qlog do przechwytywania logów modułu](get_module_logs.md)
 * [Jak zaktualizować firmware modułu quectel](upgrade_quectel_module_software.md)

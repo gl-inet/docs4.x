@@ -15,7 +15,6 @@ hide:
 * [リピーターでインターネットに接続する方法](internet_repeater.md)
 * [USBテザリングでインターネットに接続する方法](internet_tethering.md)
 * [セルラーでインターネットに接続する方法](internet_cellular.md)
-* [SMS](sms.md)
 * [デュアルイーサネットWAN](dual-ethernet_wan.md)
 
 ## ワイヤレス

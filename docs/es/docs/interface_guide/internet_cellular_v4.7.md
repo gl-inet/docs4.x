@@ -191,11 +191,11 @@ Entrará en la página **Traffic Statistics**.
 
 ## SMS
 
-Consulte el [tutorial de SMS](sms.md).
+Consulte [SMS](../tutorials/sms.md).
 
 ## Reenvío de SMS
 
-Consulte el [tutorial de reenvío de SMS](../tutorials/sms_forwarding.md).
+Consulte [SMS Forwarding](../tutorials/sms_forwarding.md).
 
 ## Gestión del módem
 

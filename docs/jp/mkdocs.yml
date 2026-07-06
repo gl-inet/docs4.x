@@ -50,6 +50,7 @@ plugins:
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
+        'interface_guide/sms.md': 'tutorials/sms.md'
 
 extra:
   social:
@@ -238,6 +239,7 @@ nav:
           - OpenVPN サーバー証明書を更新する: tutorials/how_to_update_openvpn_server_certificates.md
           - AdGuard Home DNS で VPN をバイパスする方法: tutorials/how_to_make_adguard_home_dns_bypass_vpn.md
       - セルラー:
+          - SMS: tutorials/sms.md
           - SMS 転送: tutorials/sms_forwarding.md
           - モジュールログを取得する: tutorials/get_module_logs.md
           - Quectel モジュールのアップグレード: tutorials/upgrade_quectel_module_software.md
@@ -277,7 +279,6 @@ nav:
           - リピータ: interface_guide/internet_repeater.md
           - テザリング: interface_guide/internet_tethering.md
           - セルラー: interface_guide/internet_cellular.md
-          - SMS: interface_guide/sms.md
           - デュアルイーサネット WAN: interface_guide/dual-ethernet_wan.md
       - ワイヤレス:
           - ワイヤレス: interface_guide/wireless.md

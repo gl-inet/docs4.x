@@ -306,11 +306,11 @@ Wählen Sie den **Masking Mode** (Block oder Open) und anschließend die LTE-Bä
 
 ## SMS
 
-Bitte lesen Sie das [SMS-Tutorial](sms.md).
+Bitte lesen Sie [SMS](../tutorials/sms.md).
 
 ## SMS Forwarding
 
-Bitte lesen Sie das Tutorial [SMS Forwarding](../tutorials/sms_forwarding.md).
+Bitte lesen Sie [SMS Forwarding](../tutorials/sms_forwarding.md).
 
 ## Lock Tower
 

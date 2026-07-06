@@ -50,6 +50,7 @@ plugins:
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
+        'interface_guide/sms.md': 'tutorials/sms.md'
 
 extra:
   social:
@@ -238,6 +239,7 @@ nav:
       - Actualizar los certificados del servidor OpenVPN: tutorials/how_to_update_openvpn_server_certificates.md
       - Hacer que el DNS de AdGuard Home evite la VPN: tutorials/how_to_make_adguard_home_dns_bypass_vpn.md
     - Celular:
+      - SMS: tutorials/sms.md
       - Reenvío de SMS: tutorials/sms_forwarding.md
       - Obtener registros del módulo: tutorials/get_module_logs.md
       - Actualizar módulo Quectel: tutorials/upgrade_quectel_module_software.md
@@ -277,7 +279,6 @@ nav:
       - Repetidor: interface_guide/internet_repeater.md
       - Tethering: interface_guide/internet_tethering.md
       - Celular: interface_guide/internet_cellular.md
-      - SMS: interface_guide/sms.md
       - WAN dual por Ethernet: interface_guide/dual-ethernet_wan.md
     - Inalámbrico:
       - Inalámbrico: interface_guide/wireless.md

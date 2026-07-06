@@ -33,6 +33,7 @@ hide:
 
 ## セルラー
 
+* [SMS](sms.md)
 * [SMS Forwarding](sms_forwarding.md)
 * [qlogを使ってモジュールログを取得する方法](get_module_logs.md)
 * [Quectelモジュールのファームウェアをアップグレードする方法](upgrade_quectel_module_software.md)

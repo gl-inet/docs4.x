@@ -53,6 +53,18 @@ plugins:
         'interface_guide/dual-ethernet_wan.md': 'interface_guide/ethernet_port.md'
 
 extra:
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: Thanks for your feedback! We will use it to improve this page.
   social:
     - icon: fontawesome/solid/globe
       link: https://www.gl-inet.com

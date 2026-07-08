@@ -9,6 +9,8 @@ The content on this page is based on firmware version v4.9.x. If your device is 
 
 </div>
 
+---
+
 On the left side of the web Admin Panel, go to **VPN** -> **VPN Dashboard**. 
 
 The VPN dashboard displays VPN connection details, such as routing rules, connected server, traffic statistics, client virtual IP, and connection log, and allows users to configure advanced settings such as the VPN Kill Switch, IP Masquerading, and MTU.

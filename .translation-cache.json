@@ -1,33 +1,4 @@
 {
-  "docs/en/docs/community/index.md": {
-    "source_hash": "7173f3a9dfc60656cae2e855e9bfc64d8203f50f9d52f094518c2e590db9e17c",
-    "targets": {
-      "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
-      },
-      "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
-      },
-      "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
-      },
-      "it": {
-        "model": "pre-existing",
-        "updated_at": 1774573541
-      },
-      "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775569440
-      },
-      "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605489
-      }
-    }
-  },
   "docs/en/docs/faq/block_non_vpn_traffic.md": {
     "source_hash": "ba072a2ff5a6f604d5ca92fb2dd22253fb1c088e5bc087de75f5720139166b29",
     "targets": {
@@ -5916,60 +5887,60 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "bf5e542df1ac45216db9889bb2cd67a024bae73bf8933171cf4302f66ab34896",
+    "source_hash": "4a5c57a2b9519ea67cf8e218a641f6d506a4688122729eee0831e86b99c2be58",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "updated_at": 1783473031
       },
       "es": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "updated_at": 1783473031
       },
       "fr": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "updated_at": 1783473031
       },
       "it": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "updated_at": 1783473031
       },
       "jp": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "updated_at": 1783473031
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "updated_at": 1783473031
       }
     }
   },
   "docs/en/overrides/home.html": {
-    "source_hash": "667d3a67ef72f89ace15a227cd61e57b7fa22c720cd02b31633b5da68904401d",
+    "source_hash": "d019afdf7bdfbf4dcb313f95dfda0cc39a4ec0195485c6e8900d802a9b0498c2",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780342166
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780342311
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780342483
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780342644
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780342814
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780342981
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
       }
     }
   },
@@ -6260,6 +6231,35 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1783295154
+      }
+    }
+  },
+  "docs/en/docs/downloads/index.md": {
+    "source_hash": "1da027bf1a8025a5185dec3729ea6882f0c489298ed0d120d040b36b161fbe7c",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
+      },
+      "jp": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783473031
       }
     }
   }

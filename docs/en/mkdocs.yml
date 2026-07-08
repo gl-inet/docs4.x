@@ -351,7 +351,7 @@ nav:
       - Help: interface_guide/help.md
   - Features Update:
     - Overview: features_update/index.md
-    - Firmware Features v4.9: features_update/firmware_features_v4.9.md
+    - Firmware v4.9: features_update/firmware_v4.9.md
   - Video Library:
     - Overview: video_library/index.md
     - Meet Our New Products: video_library/products.md

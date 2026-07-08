@@ -1,4 +1,6 @@
-# Firmware Features v4.9
+# Firmware v4.9
+
+This release focuses on more precise network control, improved traffic management, enhanced network security, and a revamped user interface — all designed to deliver a better overall user experience. [Firmware Download Center](https://dl.gl-inet.com/){target="_blank"}
 
 ## Flow Control
 

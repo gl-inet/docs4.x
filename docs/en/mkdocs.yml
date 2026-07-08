@@ -288,9 +288,7 @@ nav:
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:
-      - VPN Dashboard (v4.9): interface_guide/vpn_dashboard.md
-      - VPN Dashboard (v4.8): interface_guide/vpn_dashboard_v4.8.md
-      - VPN Dashboard (v4.7 and earlier): interface_guide/vpn_dashboard_v4.7.md
+      - VPN Dashboard: interface_guide/vpn_dashboard.md
       - VPN Client Profile: interface_guide/vpn_client_profile.md
       - OpenVPN Client: interface_guide/openvpn_client.md
       - OpenVPN Server: interface_guide/openvpn_server.md

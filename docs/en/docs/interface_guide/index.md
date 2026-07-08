@@ -32,9 +32,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## VPN
 
-* [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
-* [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
-* [VPN Dashboard (v4.9)](vpn_dashboard.md)
+* [VPN Dashboard](vpn_dashboard.md)
 * [VPN Client Profile](vpn_client_profile.md)
 * [Set up OpenVPN Client](openvpn_client.md)
 * [Set up OpenVPN Server](openvpn_server.md)

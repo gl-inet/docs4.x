@@ -62,9 +62,9 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
 
         3. (Optional) If you want the system to automatically cuts off all internet access for your local network when the VPN connection fails unexpectedly, preventing your real IP address and online data from being exposed and ensuring continuous privacy and security, go to **VPN Dashboard** to enable **Kill Switch**.
 
-            * To set up Kill Switch for each individual VPN tunnel, refer to [here](vpn_dashboard_v4.9.md#tunnel-options).
+            * To set up Kill Switch for each individual VPN tunnel, refer to [here](vpn_dashboard.md#tunnel-options).
             
-            * To set up Kill Switch for the global VPN connection (i.e., Enhanced Kill Switch), refer to [here](vpn_dashboard_v4.9.md#all-other-traffic).
+            * To set up Kill Switch for the global VPN connection (i.e., Enhanced Kill Switch), refer to [here](vpn_dashboard.md#all-other-traffic).
 
     !!! note "Case 2. If you prefer to customize VPN policy instead, follow these steps."
     
@@ -72,7 +72,7 @@ Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an ex
 
             ![azirevpn5](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. You will then be redirected to the **VPN Dashboard** to configure VPN policy. Click [here](vpn_dashboard_v4.9.md#set-up-vpn-policy) for details.
+        2. You will then be redirected to the **VPN Dashboard** to configure VPN policy. Click [here](vpn_dashboard.md#set-up-vpn-policy) for details.
 
 ## OpenVPN
 
@@ -90,7 +90,7 @@ If you subscribe to other OpenVPN service provider, download a configuration fil
 
 Related Articles
 
-- [VPN Dashboard (Firmware v4.9)](vpn_dashboard_v4.9.md)
+- [VPN Dashboard (Firmware v4.9)](vpn_dashboard.md)
 - [Set Up WireGuard Client on GL.iNet Routers](wireguard_client.md)
 - [Set Up OpenVPN Client on GL.iNet Routers](openvpn_client.md)
 

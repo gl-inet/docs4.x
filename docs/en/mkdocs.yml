@@ -351,8 +351,12 @@ nav:
       - Advanced Settings: interface_guide/advanced_settings.md
       - Language: interface_guide/ui_languages.md
       - Help: interface_guide/help.md
+  - Features Update:
+    - Features Update: features_update/index.md
   - Video Library:
     - Overview: video_library/index.md
     - Meet Our New Products: video_library/products.md
     - Unboxing & First Time Setup: video_library/unboxing_first_set_up.md
     - Tutorials: video_library/tutorials.md
+  - Downloads:
+    - User Manual: downloads/index.md

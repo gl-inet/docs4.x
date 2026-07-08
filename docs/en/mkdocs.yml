@@ -350,11 +350,12 @@ nav:
       - Language: interface_guide/ui_languages.md
       - Help: interface_guide/help.md
   - Features Update:
-    - Features Update: features_update/index.md
+    - Overview: features_update/index.md
+    - Firmware Features v4.9: features_update/firmware_features_v4.9.md
   - Video Library:
     - Overview: video_library/index.md
     - Meet Our New Products: video_library/products.md
     - Unboxing & First Time Setup: video_library/unboxing_first_set_up.md
     - Tutorials: video_library/tutorials.md
   - Downloads:
-    - User Manual: downloads/index.md
+    - Overview: downloads/index.md

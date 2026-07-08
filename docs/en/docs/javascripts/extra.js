@@ -203,3 +203,136 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 // execute above function
 initPhotoSwipeFromDOM('.gl-lightbox');
+
+(function () {
+    var selectors = document.querySelectorAll('.gl-link-select');
+
+    if (!selectors.length) {
+        return;
+    }
+
+    var forEachSelector = function(callback) {
+        Array.prototype.forEach.call(selectors, callback);
+    };
+
+    var closeMenus = function(currentRoot) {
+        forEachSelector(function(container) {
+            if (container === currentRoot) {
+                return;
+            }
+
+            var trigger = container.querySelector('.gl-link-select__trigger');
+            var menu = container.querySelector('.gl-link-select__menu');
+
+            if (!trigger || !menu) {
+                return;
+            }
+
+            trigger.setAttribute('aria-expanded', 'false');
+            menu.hidden = true;
+        });
+    };
+
+    forEachSelector(function(container, index) {
+        if (container.getAttribute('data-enhanced') === 'true') {
+            return;
+        }
+
+        var links = Array.prototype.slice.call(container.querySelectorAll('a'));
+
+        if (!links.length) {
+            return;
+        }
+
+        var labelText = container.getAttribute('data-label') || 'Select an option';
+        var placeholderText = container.getAttribute('data-placeholder') || 'Select an option';
+        var listId = 'gl-link-select-menu-' + index;
+
+        var wrapper = document.createElement('div');
+        wrapper.className = 'gl-link-select__control';
+
+        var label = document.createElement('label');
+        label.className = 'gl-link-select__label';
+        label.textContent = labelText;
+
+        var trigger = document.createElement('button');
+        trigger.type = 'button';
+        trigger.className = 'gl-link-select__trigger';
+        trigger.setAttribute('aria-haspopup', 'listbox');
+        trigger.setAttribute('aria-expanded', 'false');
+        trigger.setAttribute('aria-controls', listId);
+
+        var triggerText = document.createElement('span');
+        triggerText.className = 'gl-link-select__value';
+        triggerText.textContent = placeholderText;
+
+        var triggerIcon = document.createElement('span');
+        triggerIcon.className = 'gl-link-select__icon';
+        triggerIcon.setAttribute('aria-hidden', 'true');
+        triggerIcon.innerHTML = '&#9662;';
+
+        trigger.appendChild(triggerText);
+        trigger.appendChild(triggerIcon);
+
+        var menu = document.createElement('div');
+        menu.className = 'gl-link-select__menu';
+        menu.id = listId;
+        menu.setAttribute('role', 'listbox');
+        menu.hidden = true;
+
+        links.forEach(function(link) {
+            var option = document.createElement('a');
+            option.className = 'gl-link-select__option';
+            option.href = link.href;
+            option.textContent = link.textContent.trim();
+            option.setAttribute('role', 'option');
+            menu.appendChild(option);
+        });
+
+        wrapper.appendChild(label);
+        wrapper.appendChild(trigger);
+        wrapper.appendChild(menu);
+        container.insertBefore(wrapper, container.firstChild);
+
+        var fallbackList = container.querySelector('ul, ol');
+        if (fallbackList) {
+            fallbackList.classList.add('gl-link-select__fallback');
+        }
+
+        container.setAttribute('data-enhanced', 'true');
+
+        trigger.addEventListener('click', function () {
+            var isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+
+            closeMenus(container);
+            trigger.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
+            menu.hidden = isExpanded;
+        });
+    });
+
+    document.addEventListener('click', function (event) {
+        forEachSelector(function(container) {
+            if (container.contains(event.target)) {
+                return;
+            }
+
+            var trigger = container.querySelector('.gl-link-select__trigger');
+            var menu = container.querySelector('.gl-link-select__menu');
+
+            if (!trigger || !menu) {
+                return;
+            }
+
+            trigger.setAttribute('aria-expanded', 'false');
+            menu.hidden = true;
+        });
+    });
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key !== 'Escape') {
+            return;
+        }
+
+        closeMenus(null);
+    });
+})();

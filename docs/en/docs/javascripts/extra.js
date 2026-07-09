@@ -336,3 +336,52 @@ initPhotoSwipeFromDOM('.gl-lightbox');
         closeMenus(null);
     });
 })();
+
+(function () {
+    var initFeedback = function () {
+        var form = document.forms.feedback;
+
+        if (!form || form.getAttribute('data-gl-feedback-ready') === 'true') {
+            return;
+        }
+
+        var buttons = form.querySelectorAll('[type="submit"]');
+        var fieldset = form.querySelector('fieldset');
+
+        Array.prototype.forEach.call(buttons, function (button) {
+            button.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                var value = button.getAttribute('data-md-value');
+                var note = form.querySelector('.md-feedback__note [data-md-value="' + value + '"]');
+
+                if (typeof window.gtag === 'function') {
+                    window.gtag('event', 'feedback', {
+                        page_path: document.location.pathname,
+                        page_title: document.title,
+                        data: value
+                    });
+                }
+
+                if (fieldset) {
+                    fieldset.disabled = true;
+                }
+
+                if (note) {
+                    note.hidden = false;
+                }
+            });
+        });
+
+        form.hidden = false;
+        form.setAttribute('data-gl-feedback-ready', 'true');
+    };
+
+    if (typeof document$ !== 'undefined' && document$.subscribe) {
+        document$.subscribe(initFeedback);
+    } else if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initFeedback);
+    } else {
+        initFeedback();
+    }
+})();

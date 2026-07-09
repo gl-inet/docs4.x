@@ -1,4 +1,17 @@
-CookieConsent.run({
+(function () {
+    const host = window.location.hostname;
+    const isLocalPreview = window.location.protocol === 'file:' ||
+        host === 'localhost' ||
+        host === '127.0.0.1' ||
+        host === '0.0.0.0' ||
+        host === '::1' ||
+        host === '[::1]';
+
+    if (isLocalPreview) {
+        return;
+    }
+
+    CookieConsent.run({
     guiOptions: {
         consentModal: {
             layout: "box",
@@ -105,4 +118,5 @@ CookieConsent.run({
             'security_storage': 'granted',
         });
     }
-});
+    });
+})();

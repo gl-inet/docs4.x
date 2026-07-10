@@ -352,6 +352,8 @@ nav:
       - Parametres avances: interface_guide/advanced_settings.md
       - Langue: interface_guide/ui_languages.md
       - Aide: interface_guide/help.md
+  - Mises à jour des fonctionnalités:
+    - Firmware v4.9: features_update/firmware_v4.9.md
   - Bibliotheque video:
     - Apercu: video_library/index.md
     - Decouvrez nos nouveaux produits: video_library/products.md

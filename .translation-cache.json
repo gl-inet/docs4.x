@@ -5915,32 +5915,90 @@
       }
     }
   },
-  "docs/en/overrides/home.html": {
-    "source_hash": "d019afdf7bdfbf4dcb313f95dfda0cc39a4ec0195485c6e8900d802a9b0498c2",
+  "docs/en/docs/features_update/index.md": {
+    "source_hash": "1450677b19501d9fca33a5b34dbf0337187dc7a4544da3f0dc9e856c58805926",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783473031
+        "updated_at": 1783684521
       },
       "es": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783473031
+        "updated_at": 1783684521
       },
       "fr": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783473031
+        "updated_at": 1783684521
       },
       "it": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783473031
+        "updated_at": 1783684521
       },
       "jp": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783473031
+        "updated_at": 1783684521
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783473031
+        "updated_at": 1783684521
+      }
+    }
+  },
+  "docs/en/docs/features_update/firmware_v4.9.md": {
+    "source_hash": "f4f93b827c1e7e47435ecdb87c79b0d916dd46850c2e0897b4c7b00d472a37dd",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      },
+      "jp": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      }
+    }
+  },
+  "docs/en/overrides/home.html": {
+    "source_hash": "bd16e3bd1ce292a25864f1d09d7eb1bb792858feba0f2fa19fc594bf1f854831",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      },
+      "jp": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1783684521
       }
     }
   },

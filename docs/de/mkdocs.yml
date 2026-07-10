@@ -352,6 +352,8 @@ nav:
       - Erweiterte Einstellungen: interface_guide/advanced_settings.md
       - Sprache: interface_guide/ui_languages.md
       - Hilfe: interface_guide/help.md
+  - Funktionsupdates:
+    - Firmware v4.9: features_update/firmware_v4.9.md
   - Videobibliothek:
     - Übersicht: video_library/index.md
     - Unsere neuen Produkte kennenlernen: video_library/products.md

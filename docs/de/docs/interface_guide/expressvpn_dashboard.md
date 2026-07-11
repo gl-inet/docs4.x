@@ -8,9 +8,7 @@
 
 Diese Anleitung führt Sie durch das Einlösen des 12-monatigen ExpressVPN-Tarifs im web Admin Panel des Routers. Außerdem wird erläutert, wie Sie VPN-Richtlinien an Ihre Nutzungsszenarien und Anforderungen anpassen, damit Sie verschlüsselte, sichere und schnelle Internetverbindungen nutzen können.
 
-## Erste Schritte
-
-### ExpressVPN-Tarif einlösen
+## ExpressVPN-Tarif einlösen
 
 Melden Sie sich am web Admin Panel Ihres Fortify an und navigieren Sie zu **VPN** -> **VPN Client Profile**.
 
@@ -36,25 +34,62 @@ Geben Sie oben Ihre E-Mail-Adresse ein und fügen Sie eine Zahlungsmethode hinzu
 
 ![expressvpn checkout1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/4-expressvpn_checkout1.png){class="glboxshadow"}
 
-Ein **Activation Link** wird an Ihre E-Mail-Adresse gesendet. Öffnen Sie Ihren Posteingang und folgen Sie den Anweisungen, um Ihr ExpressVPN-Konto zu aktivieren.
+Ein **Activation Link** wird an Ihre E-Mail-Adresse gesendet. Öffnen Sie Ihren Posteingang, um Ihr ExpressVPN-Konto zu aktivieren.
 
 ![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/4-expressvpn_checkout2.png){class="glboxshadow"}
 
-Klicken Sie auf den Aktivierungslink in der E-Mail und erstellen Sie anschließend Ihr Passwort, um Ihr Konto zu aktivieren.
+Klicken Sie in der E-Mail auf **Activate Subscription**.
 
-![create password](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/5-create_password(1).png){class="glboxshadow"}
+![activate subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/5-activate_subscription.png){class="glboxshadow" width="600"}
 
-Ihr Konto wurde erfolgreich aktiviert. Kehren Sie zum web Admin Panel Ihres Fortify-Routers zurück, um Ihren VPN-Tunnel hinzuzufügen.
+Sie werden zur Seite zum Erstellen Ihres Kontopassworts weitergeleitet. Klicken Sie anschließend auf **Set Password**.
 
-![my account](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/7-my_account(1).png){class="glboxshadow"}
+![create password](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/6-create_password.png){class="glboxshadow" width="600"}
 
-### VPN-Tunnel hinzufügen
+Ihr Konto wurde erfolgreich aktiviert. Kehren Sie zum web Admin Panel Ihres Fortify-Routers zurück, um sich mit Ihrem Konto anzumelden.
+
+![my account](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/7-my_account.png){class="glboxshadow"}
+
+## Bei ExpressVPN anmelden
+
+Gehen Sie im web Admin Panel Ihres Fortify zu **VPN** -> **VPN Client Profile**. Klicken Sie auf **Log in to ExpressVPN**.
+
+![expressvpn login 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login1.png){class="glboxshadow"}
+
+Geben Sie Ihre E-Mail-Adresse ein und klicken Sie auf **Send Code**. Ein 6-stelliger Bestätigungscode wird an Ihre E-Mail-Adresse gesendet.
+
+![expressvpn login 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login2.png){class="glboxshadow"}
+
+Geben Sie den Bestätigungscode ein und klicken Sie auf **Continue**.
+
+![expressvpn login 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login3.png){class="glboxshadow"}
+
+Klicken Sie auf **Yes**, um ExpressVPN auf Ihrem Router zu autorisieren.
+
+![expressvpn login 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login4.png){class="glboxshadow"}
+
+Die Anmeldung war erfolgreich. Sie können dieses Fenster schließen.
+
+![expressvpn login 5](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login5.png){class="glboxshadow"}
+
+Gehen Sie im web Admin Panel Ihres Fortify zu **VPN** -> **VPN Client Profile**. Sie sind auf diesem Router bei ExpressVPN angemeldet. Klicken Sie auf **Go to ExpressVPN Dashboard**.
+
+![expressvpn signed in](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_signed_in.png){class="glboxshadow"}
+
+Jetzt können Sie VPN-Tunnel hinzufügen und VPN-Richtlinien nach Bedarf konfigurieren.
+
+![expressvpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_dashboard.png){class="glboxshadow"}
+
+
+## VPN-Tunnel hinzufügen
 
 Folgen Sie den nachstehenden Schritten, um Ihren VPN-Tunnel hinzuzufügen und die VPN-Richtlinien zu konfigurieren. Lesen Sie bei Bedarf die [Fallbeispiele](#fallbeispiele).
 
+### Allgemeine Schritte
+
 1. Melden Sie sich am web Admin Panel Ihres Fortify an und gehen Sie zu **VPN** -> **ExpressVPN Dashboard**. Klicken Sie auf **Add VPN Tunnel**.
 
-    ![dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/dashboard_initial.png){class="glboxshadow"}
+    ![dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/1-dashboard_initial.png){class="glboxshadow"}
 
 2. Wählen Sie ein VPN-Profil aus und klicken Sie anschließend auf **Next**.
 

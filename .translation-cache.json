@@ -29,147 +29,147 @@
     }
   },
   "docs/en/docs/faq/cannot_access_web_admin_panel.md": {
-    "source_hash": "626076ad5fae023025e8a7684ac688d75487ff57cfcaedd17a1e0ce4106f98d2",
+    "source_hash": "f541749c8a831d67becd0249f9bf44ef8b9295149067cb89bb4de3050b6eb47b",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780888025
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780888141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780888248
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780888361
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780888500
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780888608
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/cannot_scan_android_5g_hotspot.md": {
-    "source_hash": "96750f3b261f941674723edaa8bdd1c2073b7313f022c22b1e32a97f530d680f",
+    "source_hash": "af4eec44e9956aa11b13aafb6782c8699cb71ada5cdd196d5d5dfa159e268d35",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1779027549
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1779027523
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1779027510
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1779027970
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1779027845
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/cannot_scan_iphone_5g_hotspot.md": {
-    "source_hash": "6eba0a26530171ecd070022c7547f83e438d7689a1625f5c7e49e93b6d8e15bc",
+    "source_hash": "95512c9e1e29861272f9f7b45216391cc37f17782586dd2748f569ca0cea5960",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576317
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605489
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/cellular_network_troubleshooting_guide.md": {
-    "source_hash": "dd708f6ae4d0a893eed86d9c1d0d4178d85cbe4f5524af498e1129405025ca00",
+    "source_hash": "c72d10a39979110d2e1e3452aef3082ab277322eab782669a9c40dcaaf5d3867",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576317
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775604025
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605901
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/change_wan_to_lan.md": {
-    "source_hash": "1255abcae62de14fa016b6e5ccf029a093d6c7e8e567d2d6db4db70966c72674",
+    "source_hash": "97756ec500c3948d32fba4c62b2a8f9428dce09a58b9af5017d644a01bc05170",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576317
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605901
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -203,60 +203,60 @@
     }
   },
   "docs/en/docs/faq/connect_to_a_hotspot_with_captive_portal.md": {
-    "source_hash": "98f065b04f7c99ffb1d5e6d2b56e4dc9fa0ebe690c654ce3c6467cd40bc10922",
+    "source_hash": "348936d67f8cdb541db9e111d41f4449d0eda00500c9f608c55d6216d32de435",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576317
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775603792
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605901
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/debrick.md": {
-    "source_hash": "94a69a3c6c9be1efc48ae4a9fc7ab2a953c3dc43501153a2b435e18721e26a05",
+    "source_hash": "28e19308507791a19699534ba6121569e57ae393c69f349efb0f9cfd98b2099c",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780888707
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780888819
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780888944
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780889054
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780889212
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780889309
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -319,89 +319,89 @@
     }
   },
   "docs/en/docs/faq/first_time_setup.md": {
-    "source_hash": "8d591bcda4d1e47468dc6873c3cbc46cf0e93c7a7a739075ceba3103ba33c3c5",
+    "source_hash": "461487bb0e79853048da7ec313e26692b71fd590d62dc35fa167b075fd888f2f",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/how_can_i_know_the_lan_wifi_mac.md": {
-    "source_hash": "9395682268aa07e4d6b97880b4fad728811b5d6f5b5798f6c12fa941fcd79a37",
+    "source_hash": "371f135b99cfe8962b060214ef9b058767879baa172d6982491f0e67dea1ab05",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576476
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605851
+        "model": "manual-sync",
+        "updated_at": 1783760915
       }
     }
   },
   "docs/en/docs/faq/how_to_add_brume2_into_app.md": {
-    "source_hash": "28b8bffc3b10e42436346670b948a3d5138f2e5923560a39315780ee7a03253b",
+    "source_hash": "93a54be86d0df49e3449ff27081adcdaf990fd636c4f88f6612e1b362139aebd",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576476
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605806
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -493,31 +493,31 @@
     }
   },
   "docs/en/docs/faq/index.md": {
-    "source_hash": "982edb7c79fcc2431ed61d3e6c044edeb56f2c9ad043b7717026fabc8200ca7a",
+    "source_hash": "68f956b205b768eb29674517c414e7f3f7ba72049c9069763a73bdc61accb364",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782792245
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -551,89 +551,89 @@
     }
   },
   "docs/en/docs/faq/iphone_tethering_fail.md": {
-    "source_hash": "b7a74076697e1662bb7dbd06a438da2ed6e439a54094ff72d61c08aea73cb123",
+    "source_hash": "0691a6c71c506d575263a3376c1d2a99790f388c76a2e9722944f9ad60eb406f",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576476
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605722
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/led.md": {
-    "source_hash": "a321145d74815c2315baa6c4238f3abfb6dfbe2c5e74e3decadf40f3278ccd83",
+    "source_hash": "73fa0eb0b53f4c7b5ad1a21114114644da4f168671e497b7b3095edb0b3bcbd2",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576476
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775603131
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605721
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/macos_cannot_write_samba.md": {
-    "source_hash": "513f30a2543564ee2e5e022653eb11b83d7397c61d46fb07dda85d929bb0cf99",
+    "source_hash": "721612ec0f9f7af45693a9fbc691f683c742acb4fc6259bf0aa0c8f693f8af5e",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576476
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605852
+        "model": "manual-sync",
+        "updated_at": 1783760915
       }
     }
   },
@@ -725,60 +725,60 @@
     }
   },
   "docs/en/docs/faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md": {
-    "source_hash": "fb051f0e14698031700050c95667f037f28e492ce889f2ca818ef5fd429dcc55",
+    "source_hash": "8763f79e76f00f048515f5b4aea7e50f9205c41b7c852d540c0052f2d46ac67a",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576580
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775603428
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605515
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/problem_notification_for_mt2500_x3000_xe3000.md": {
-    "source_hash": "8aa9719a8992b48bf1c62e4a3a76a89bf02f337e213160d8a4e85bf180bca2bd",
+    "source_hash": "710e430576fa9a742d467e21d4e9810f4c52fe21b1ce3e5c38599fbcd07ea15b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576580
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775603372
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605515
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -812,60 +812,60 @@
     }
   },
   "docs/en/docs/faq/remote_access_web_admin_panel.md": {
-    "source_hash": "aa6b2ac70b383da907e4e43ef1b7baa86ef0daa949771a0699e0a50202ba60a7",
+    "source_hash": "fd1248595be9ad44f43206fa717c528e3cc2cad3ae05d0b1624698a683584a5d",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/repair_network_or_reset_firmware.md": {
-    "source_hash": "af26c22311489d92a5e3424063ca1023c8cfa2d38799356382edba361079b4e3",
+    "source_hash": "c0282bb026bd260021ec77c11ed7a74d8b3a41f8e84076db2c2686cc7f2dd9a6",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1778145594
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1778145594
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1778145594
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1778145594
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1778145594
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -957,60 +957,60 @@
     }
   },
   "docs/en/docs/faq/upgrade_to_4.md": {
-    "source_hash": "d3519aff1a191ce28b926be37def271ef6998084ea03d1f053e0973c09762be7",
+    "source_hash": "e272496321c51d7df2a48bddf1c4dc48e8e5fea5b81fa019f63ad324307f5965",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576711
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775603164
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605515
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/faq/upgrade_uboot_version.md": {
-    "source_hash": "1f9377375fe616a45bc7ead95dd115b85474d3d79938aa9578d6f7f812ad68cf",
+    "source_hash": "ba29f846f961dc37e3cf9ca8af728d219350395d596e850f4d7f1e13aaaa67e3",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780889795
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780889855
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780889919
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780889977
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780890070
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780890165
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -1044,31 +1044,31 @@
     }
   },
   "docs/en/docs/faq/use_https_for_adh.md": {
-    "source_hash": "5d5c3f707e928d4b267ac80c540fd4a40d6f73d244727c85aa641a24b8bd5b1b",
+    "source_hash": "d5807320a9e06a0a4d97dd674a710be7cb33bb0696eba6e57b172c1fab0d8d2c",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576711
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605515
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -1102,31 +1102,31 @@
     }
   },
   "docs/en/docs/faq/what_is_luci.md": {
-    "source_hash": "606bccc35ada01e5fb481418166978042709294fe6ecc0b28044150f5c7081bc",
+    "source_hash": "d9d0273d18e88786b50f9b01250d04dfd770fc277604c562aec441ede7f67107",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576711
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605620
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -1189,31 +1189,31 @@
     }
   },
   "docs/en/docs/faq/where_to_find_the_device_id_mac_sn.md": {
-    "source_hash": "9820e48fc490910b56271b4b4c8e47967f55577b29ff313232831401e3910e8a",
+    "source_hash": "1d52d694d83f16f7de0244ce5611905caa755cb2e31612764bc37424b7da8e1b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576711
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605620
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -1363,31 +1363,31 @@
     }
   },
   "docs/en/docs/interface_guide/advanced_settings.md": {
-    "source_hash": "574b1b23307d4a4b8d2371ebf2721a403aefa190f5270207344cd36296124172",
+    "source_hash": "e1e806a7b385f76ac5b3af51f8ab9ada33c9b64497c0cac06187209cc39417f9",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775012846
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566331
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605895
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -1479,31 +1479,31 @@
     }
   },
   "docs/en/docs/interface_guide/cloud.md": {
-    "source_hash": "3fdff2cd3ff186eb7a48ccae543e80606bd3681b12108395e41676461317fbf5",
+    "source_hash": "97998a471b24ba04703a10ae13a123b8585d42ba87ddd5e8d7122ccfd86b5b79",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775013052
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605629
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -1682,60 +1682,60 @@
     }
   },
   "docs/en/docs/interface_guide/drop-in_gateway.md": {
-    "source_hash": "32d826576f1cfa51de124f59aac5ca688d63ecabd2061a2a4cd1ad6ea521f935",
+    "source_hash": "aa266c85d1e4c4c86793a71e67d579886098b578967a9bae57c79d9532436358",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1774248915
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775308782
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566601
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605831
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/esim_management.md": {
-    "source_hash": "963da5d4771e85a067a01e42b299de4a7923a402fb5e8b5bf62edc434889aba0",
+    "source_hash": "31885e97de1eb7854c66c004e3ec360ebbb5fa436a5dd649188e7250ee065005",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1777158682
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1777158682
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1777158682
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1777158682
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -1769,60 +1769,60 @@
     }
   },
   "docs/en/docs/interface_guide/expressvpn_dashboard.md": {
-    "source_hash": "813289e55fe4b3137bb091e5e5141aac057cfa2050f33809fa76170c39f6992d",
+    "source_hash": "1761954571eb62740d16ab06155b4743178afdbd7d2fa7f5c8b581ffef3de934",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782960913
+        "model": "manual-sync",
+        "updated_at": 1783760915
       }
     }
   },
   "docs/en/docs/interface_guide/firewall.md": {
-    "source_hash": "519df0f51f1be830bd7d23c7aca3db9b5f455fb25d6611871d19a7ac45c79c3f",
+    "source_hash": "3f092ed60ded830c8b05fff032d4fff40fa6a18bb6b4e5dc2fe10300eccb5d84",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775013480
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567791
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605792
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -1856,31 +1856,31 @@
     }
   },
   "docs/en/docs/interface_guide/hardware_acceleration.md": {
-    "source_hash": "35a4d2eb066119f1f25f98db9bea9152db748ff36e1d6a1384fc38901a3da0dd",
+    "source_hash": "e3d4bb8f12f50d01b313ba674ab8eaa6785bf4094a9e9d450bae1f1463a2b6a9",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775013553
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -1943,31 +1943,31 @@
     }
   },
   "docs/en/docs/interface_guide/igmp_snooping.md": {
-    "source_hash": "e2a7be3bd46ab8f699eebd105862b9c96e0f483080c636186498d175cec07e55",
+    "source_hash": "bcf6b326b1448a641b9da66f4e08ef89e437ffb09f256b377cf3d625e5fc923b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775015828
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566511
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605495
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -2001,176 +2001,176 @@
     }
   },
   "docs/en/docs/interface_guide/internet.md": {
-    "source_hash": "6657d2c0ba66cd931324c02e7947ba18cdc91d799f9869ff0128f1c96c3322e6",
+    "source_hash": "70aae412571cc74b637ed8e6d605efbdd330687dcf92ec92cb75ccbcf6ee60e2",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1776635437
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776636289
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/internet_cellular.md": {
-    "source_hash": "96e807b3433f5430694d0e2b61c671563e7f414848e0a2dc4c9662f755aef96d",
+    "source_hash": "34d5a5d62356a200f997b944a193b8dd01c24c7893b03582d16ab40de883be17",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/internet_cellular_v4.7.md": {
-    "source_hash": "e5384abd55896c020f2a004d0f50c49c92e5da5d948fb70cb57f38745f2fc128",
+    "source_hash": "4aa8e8703232c0c9a5c4c6134de1483fdf4c4a4e36ccbcf691c4a13659ec6295",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/internet_ethernet.md": {
-    "source_hash": "6267afaf578a9a488f21be27d2a0814b429b7452652af90e5dca3e83a05e702c",
+    "source_hash": "fc75616e676c02609062f149a7898ae36bd41dda31ac80a2afba859bed1280ad",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775025080
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566168
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605435
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/internet_repeater.md": {
-    "source_hash": "45b82ac83f9ed458aa6e202045e3c679b72f7df9a83d538f108462473931ed9a",
+    "source_hash": "d398ed9511788b86834406d2897a53d6d1775b1faadb46c96507796b5617af01",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/internet_tethering.md": {
-    "source_hash": "ab5bd9ef2d26b8a62cdc2bf9e4809a4f07d2df2a6956569e9c1386633d69621a",
+    "source_hash": "4c4612322d8b6f6fcecc2bbcbc63ed2374f6a45fdbb3edcb3a964d542d0fc5de",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780890212
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780890291
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780890384
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780890474
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780890538
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780890592
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -2204,31 +2204,31 @@
     }
   },
   "docs/en/docs/interface_guide/ipv6.md": {
-    "source_hash": "60e02acc26c6ac46810dcd1835686ac7d19f24ce16e24d14a2068432576f2daa",
+    "source_hash": "e4c90a019d0fd31cf70e11a7eb028f79ef485481563b52e128e0ef3df006d632",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775026260
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566601
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605840
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -2378,147 +2378,147 @@
     }
   },
   "docs/en/docs/interface_guide/network_acceleration.md": {
-    "source_hash": "7be6753cb33144fd2033df4b1706843b733d23a51c9be1362818210736d7e58e",
+    "source_hash": "18b22cbf1fa224b351a89a5fc6f7418cb9eefb4d1b8f48ebad01a49cd8ed9fd3",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775026887
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566601
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606077
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/network_mode.md": {
-    "source_hash": "3830fdd8bd84491bc57e1f3ec44ab139fc0a47370173a559b01bba28b4107cc7",
+    "source_hash": "3b9f50889677ab180aaa787fa4b7a65b75d96546a59e7d6627e30e44d3a60031",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1776635437
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1776635496
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635496
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/network_storage.md": {
-    "source_hash": "2e48afd6cda43ff960de725768409abec5ffdc046e230011d10aca9905e07e71",
+    "source_hash": "0522376ed9c2b2b70f3149abd6586728e5d4b1fc8d83d1e2ef9c90769e136732",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1774248915
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567134
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606463
+        "model": "manual-sync",
+        "updated_at": 1783760915
       }
     }
   },
   "docs/en/docs/interface_guide/openvpn_client.md": {
-    "source_hash": "962dd1e72f8c544b49c400f1a3f849f83ad9d901fef438f4fde477dbba0a699c",
+    "source_hash": "7abf8e0744b8436689bf83d2c4cb51e9f124aaeb11b94a231b734e114fbb0e89",
     "targets": {
       "de": {
-        "model": "gpt-5.4",
-        "updated_at": 1781082966
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "gpt-5.4",
-        "updated_at": 1781082966
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "gpt-5.4",
-        "updated_at": 1781082966
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "gpt-5.4",
-        "updated_at": 1781082966
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "gpt-5.4",
-        "updated_at": 1781082966
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "gpt-5.4",
-        "updated_at": 1781082966
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/openvpn_server.md": {
-    "source_hash": "1f800e105580dcfce0f2191fd41fd17ccb73a43f9cf333ab6d46b1795f40db3d",
+    "source_hash": "d8e7ce8ff1742a440148b368a5ede33ffab31b9751bac06699fed54159f41b27",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -2552,31 +2552,31 @@
     }
   },
   "docs/en/docs/interface_guide/plugins.md": {
-    "source_hash": "649e2a81706c0c66c87b643695d4832d07172d69328c9c1c52d13288441ed62d",
+    "source_hash": "a1288cf656c26196b038766d833a67c674fbcac614ccc0b3159e13bfe3b77337",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775091704
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566728
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605450
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -2639,60 +2639,60 @@
     }
   },
   "docs/en/docs/interface_guide/reset_firmware.md": {
-    "source_hash": "d59985e2da106cf2ccb51e9125ac41f6544ad48da6f22d65ea86288b2c7d004b",
+    "source_hash": "f21cc5dbfa5810712daa1c6f22d9bc041a5d08e65c36b6139b011a5bf74dae41",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/scheduled_tasks.md": {
-    "source_hash": "fca581b21f929e56329df1b97f09d8714fccc56c6851b3f824f0f8db3d6045f3",
+    "source_hash": "2b6396c01331ed8bf4f434ab1112559f2f8280b9fd4f8f77e278fe94e86ecdeb",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -2755,31 +2755,31 @@
     }
   },
   "docs/en/docs/interface_guide/system_overview.md": {
-    "source_hash": "d451bbb42d70f0af89062d3b6aa02dd3833ca0342b4681a650b26c89e4b747a2",
+    "source_hash": "e05ec712d99432df681b510f2f9cc6d2c9b54fdc594fa6d0ca405d277bf9c416",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775091803
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567791
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605809
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -2813,31 +2813,31 @@
     }
   },
   "docs/en/docs/interface_guide/time_zone.md": {
-    "source_hash": "e5b70c2f2efa54f1600c8a54c0a9b27e0d76623d11a38d02ef892e15691b88b1",
+    "source_hash": "435dac270da7d853a7081ed37293da3748d123abe69a7f266583afc253e8f9a9",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775091803
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566332
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605583
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -2871,31 +2871,31 @@
     }
   },
   "docs/en/docs/interface_guide/tor.md": {
-    "source_hash": "9d9500091ee18f039e4b5a7b1985263802bf9c7895880a7a051c249efe330baa",
+    "source_hash": "77c1c2f5dbb563f4c71cfd10216382c21ee8e7bbd02609eaef11b36adc500513",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775091887
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606041
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -2929,31 +2929,31 @@
     }
   },
   "docs/en/docs/interface_guide/upgrade.md": {
-    "source_hash": "dd373876bf8c4180e6578ca8c134ddff89ae0380dc9fc2d02f68c558f4070f63",
+    "source_hash": "813b45af035f819bcb38df9fd3963b00e2c382f2ebc0182b2f361b11d2779021",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775091887
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567791
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605809
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -3074,31 +3074,31 @@
     }
   },
   "docs/en/docs/interface_guide/wireguard_client.md": {
-    "source_hash": "2dd443c56852d35bdf22a61dedb37c386642210db397f9fab7f5c4eebadd2161",
+    "source_hash": "33ddab7bb93fdba3f26eaa93de717e570a5830449b8f9d56d2a5999211716570",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780979064
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780979210
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780979378
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780979550
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780979756
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780979933
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -3132,118 +3132,118 @@
     }
   },
   "docs/en/docs/interface_guide/wireguard_server.md": {
-    "source_hash": "10c051a5e0b96ad797c1725edd6437dd5de12de7b83066a8df1eabe3365df52e",
+    "source_hash": "251a8b904d43b25b5da4386b6bf2577a8c31fea4d34bd49c36f5afca5f0ab167",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775092297
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566890
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606291
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/wireless.md": {
-    "source_hash": "8069bbea64db143eeb163500d2ff75dd0c4e90e9d540f825605c0082abd79ec4",
+    "source_hash": "64f22d457d967fc249dd438b5622d25f5d0740b4b95b8f27e8a092486d508169",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1774248915
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775092297
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566168
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/wireless_v4.9.md": {
-    "source_hash": "f6813f0907abb67848d1c05c7a7ef920887b6714694190cbad4b8f43854aa3af",
+    "source_hash": "c7ff1fa5332220bb8401c0fa716a2c065205d7dc907082c378ae47beadf95a8d",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780367761
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780367842
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780367929
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780368005
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780368113
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780368207
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/zerotier.md": {
-    "source_hash": "2c246afae035a61773e4f60cbd92612b1700ffe1f0d9368e82d470468361a785",
+    "source_hash": "c004f6bae7fbac1e784073086d0c84fc221bff37052bc55efa261b99c4e375e1",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1777603793
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1777603823
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1777603818
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1777604055
+        "model": "manual-sync",
+        "updated_at": 1783760915
       }
     }
   },
@@ -3335,31 +3335,31 @@
     }
   },
   "docs/en/docs/tutorials/eap.md": {
-    "source_hash": "24502b846ceb3afd42be9ff8e4558a88bbfe5d38336bae5ee1440636454f4926",
+    "source_hash": "4ff8fc6b4e1fc0b260fe275be5267792147d60908071a041c18a124eebb1d771",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780643225
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780643316
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780643442
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780643618
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780643773
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780643918
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -3393,89 +3393,89 @@
     }
   },
   "docs/en/docs/tutorials/goodcloud_site_to_site.md": {
-    "source_hash": "74ec0c57b0e6051cbe0e17fb3d70b47e047cb149dc38222a0eefd4f3e9f5027b",
+    "source_hash": "4f18c8252b188de677efb426271d82be6c932c7d34c178b12c8e8c0cc9b702ea",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775092437
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605360
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/tutorials/how_to_access_ovpnserver_lan_via_domain_name.md": {
-    "source_hash": "2fe40fa97d41367ee7c2cafa70ae14c310a68f6c24e61d31f5e4b2a3bab23c6d",
+    "source_hash": "601818dd0e9737cd1ec433c85f52136667ce1c03598501315c97351c9cde01d8",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775093023
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606395
+        "model": "manual-sync",
+        "updated_at": 1783760121
       }
     }
   },
   "docs/en/docs/tutorials/how_to_access_the_luci_interface_via_goodcloud.md": {
-    "source_hash": "e54266533a4b0c727a1dc9c98216d7047e170fb8337f982120041b574f5317a5",
+    "source_hash": "d4208da245033f6e0fe1dc0f25a1c45fbaa87781308f023da8d547501a88e5b7",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775093023
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605584
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -3538,31 +3538,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md": {
-    "source_hash": "510638c3a2fc005a9faba0567bd0088b7b90c1990c4cb06e9ca419c985e41331",
+    "source_hash": "55754c82021315a6846581ab3fa682994cecd8fc2f74ce90be1207b0bf5e793d",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775093023
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605499
+        "model": "manual-sync",
+        "updated_at": 1783760121
       }
     }
   },
@@ -3741,31 +3741,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md": {
-    "source_hash": "a26a97c0f9332717400856bbd27112d0c4a3ddaccf797ba695e9fc71b5aa055b",
+    "source_hash": "eb85cf320cd99f0b375c742a49cb6d0b226c4a001e1c7f891eae5cdbc3e642d4",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1774249135
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1774249135
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775093686
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606750
+        "model": "manual-sync",
+        "updated_at": 1783760121
       }
     }
   },
@@ -3799,31 +3799,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md": {
-    "source_hash": "c43297579f8538901d389d91b2a620d3a490c703c352049f9ccd04f0631cdfa5",
+    "source_hash": "432edcdce68d17ae0e4a138c0abb3e10aa8a21523d2ea5f13a7f5440a6280b47",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760121
       }
     }
   },
@@ -4002,31 +4002,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_openvpn_client.md": {
-    "source_hash": "22f1a83933442b64f289fe4409e9b03c1d095ac06e736829777f00c757a06a40",
+    "source_hash": "960826cb9087c3592fd0eaaf7f4841a41ea0e1053a7290ffb855b66c6d24877e",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775095657
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775568476
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605445
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -4118,118 +4118,118 @@
     }
   },
   "docs/en/docs/tutorials/how_to_upgrade_downgrade_router.md": {
-    "source_hash": "47f987a26a43e20e4cefe67399a4d5cf7cba6f3a61b1cf67777a6e8fda2ee96a",
+    "source_hash": "8d23dc8594080b5bb70b63ca6f68753fa68583e650d547d469b6e125c8a36845",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775097764
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606750
+        "model": "manual-sync",
+        "updated_at": 1783760121
       }
     }
   },
   "docs/en/docs/tutorials/how_to_use_esim_physical_card_with_glinet_routers.md": {
-    "source_hash": "ef6be1f3792fb8989f215bbb6dfbec77eab0c72bc5f3919e7c7fe325f7174f13",
+    "source_hash": "d60243a00971e4035f4f98c9c3979c9d74c5f68f654479ad398e4cc3759197b1",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-sync",
+        "updated_at": 1783760915
       }
     }
   },
   "docs/en/docs/tutorials/how_to_use_the_esim_physical_card_with_android_devices.md": {
-    "source_hash": "b870ae41a18ca143688954ec347e0c71509d669c08fbaba89da597afd1fbb865",
+    "source_hash": "73c83d5c71cdb98d2321f07c2cad4eeff3fef09f852b788cf12c8e2608aa7d4f",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775099974
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/tutorials/how_to_use_vpn_cascading_on_glinet_routers.md": {
-    "source_hash": "8611792ff3564b70f8187e7bdb8ee21bbe31b2e780cb5ad16a07b726c9a408f8",
+    "source_hash": "d33fa202bb11f06fe39e76935032f83756f2b29c8755041d1af14a01f2f4ccbb",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775099974
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605570
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -4263,31 +4263,31 @@
     }
   },
   "docs/en/docs/tutorials/index.md": {
-    "source_hash": "2dcc9e5ec10ac2b75155260212385d898bf8a02175a2c81c779b3a93b9d06dea",
+    "source_hash": "6ee0b5a3dca0aa9ed0c593299e4f19a4fd160f0f289b05c9025948e1f6bb5af4",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -4408,31 +4408,31 @@
     }
   },
   "docs/en/docs/tutorials/sms_forwarding.md": {
-    "source_hash": "3119bb7dfedfe499645df568b7d2b8ea93136050631be1d7c7aaf1c0dc4836e4",
+    "source_hash": "0cc6cd7139d25ddb79dc3d434d90ef5038a5adf08942d4759e4dd3022271462a",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -4495,89 +4495,89 @@
     }
   },
   "docs/en/docs/tutorials/upgrade_quectel_module_software.md": {
-    "source_hash": "aff94a6e83cbee4983cef94ee3ef1ef76666dadf87a3f199ceab3ca145e4ab8d",
+    "source_hash": "0fedbaa3346adfd2a0630437e847212e23ded642474c7ac46a08c76749e217fe",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775111745
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605337
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/tutorials/use_wireguard_to_secure_rdp_from_outside_network.md": {
-    "source_hash": "7a2964e03b3ffddff9c43174a172cabda06b1b311e1c34603d1e9b18f2f84191",
+    "source_hash": "e34f24abfbe768c3c8422b49e1681aa9a1d9a1bef4dc31802d6707fd52609312",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775111745
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605513
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/tutorials/vpn_obfuscation.md": {
-    "source_hash": "369b2dd0a8bbfa07f548f243aea8acc3fd805ba9b9831336cf05c3dc1efbce51",
+    "source_hash": "84a5d19f091f3203e290276033ac0a04fc150f8ef9b7ded9eb39b025de603b89",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780723160
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780723272
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780723354
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780723484
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780723609
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780723699
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -4669,60 +4669,60 @@
     }
   },
   "docs/en/docs/user_guide/gl-ap1300/index.md": {
-    "source_hash": "9f25473de4f50d13edfb14f100439faae9b4ba34787210d97c2e571acbbc2396",
+    "source_hash": "edce6a851dcd1938fc4cd59e694a52453d67310a1810a05a298fcdcde66daec8",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/user_guide/gl-ar300m/index.md": {
-    "source_hash": "bc740bb4933a59a904d55312bd7f9db605b0d0a1b403f2babcea20d8720f870c",
+    "source_hash": "eb85f7a56b8a772cc60a7d47234d92b23444d8bdec63dbb8210cc78e1bc97764",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775114113
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567859
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775607075
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -4901,31 +4901,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-be10000/index.md": {
-    "source_hash": "96523e989595cf98ba02380a369fd2aad67a289d4fa3f06dd36f3236b1a7addf",
+    "source_hash": "a3d8749251df9f156e8156b003e8c4e4e9ae5fe2a7ecac38495bd1d36cbfc606",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782116761
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -4959,31 +4959,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-be6500/index.md": {
-    "source_hash": "6c4976bc5a9efb3f58e37d4f0b58d58f5f3ff15583061a9e08b0338288b0a8dd",
+    "source_hash": "c42d8f0c6d766d042acb4ee2ae12e425a2867a35916742bf1ebf61b17b8708b2",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775604308
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775607249
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -5046,31 +5046,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-e750/index.md": {
-    "source_hash": "4bd319207d4ebd7755cdfcd71d77e0eb1c5d3a0d183f059a53f43870973460fb",
+    "source_hash": "31078be0c5259b13f334810590337097b60869e624bb8fe6160e214f5d0532f6",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1776635552
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -5481,89 +5481,89 @@
     }
   },
   "docs/en/docs/user_guide/gl-x2000/index.md": {
-    "source_hash": "e3982aa11a0a65e5cdb67d0737e0da83cdf262c72dfca23f1e2a9ba00d69f341",
+    "source_hash": "44ac5060fffae7642d6370506a373790d0ae7d755163777d678ac4647cf44ffe",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775308782
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775604254
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775607363
+        "model": "manual-sync",
+        "updated_at": 1783760915
       }
     }
   },
   "docs/en/docs/user_guide/gl-x3000/index.md": {
-    "source_hash": "796f0ce75ae37423af6edb0bc28b5e388bf37def6c56ac8cb457bc22bbada898",
+    "source_hash": "e1e9731735c035e00555cb664fc9685b9f198823ab03c60f56f09fcc4797e3a3",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775307158
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "manual-sync",
+        "updated_at": 1783760915
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775607379
+        "model": "manual-sync",
+        "updated_at": 1783760915
       }
     }
   },
   "docs/en/docs/user_guide/gl-x300b/index.md": {
-    "source_hash": "76f82c5d174b8d2928db2c2c5256fc6e4d47019b7fe8345385d6e2c4ac1a34a4",
+    "source_hash": "ebe7bccea3e14aa6d133c8e2c632c74a9acb4d70e93ef28cc9f5cab8418ef0ef",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1777158886
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1777158886
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1777158886
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1777158886
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -5684,31 +5684,31 @@
     }
   },
   "docs/en/docs/user_guide/simpoyo-4g-ufi/index.md": {
-    "source_hash": "617ecd0f9b2642bfb2db67f848baab2e2886c008a68e2d1cf76f23386c6c16b3",
+    "source_hash": "7e84046d35e8890488648accc8419e5d88fd0359050bca6e93b064bca2f59570",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1777159046
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -6003,60 +6003,60 @@
     }
   },
   "docs/en/docs/interface_guide/admin_access.md": {
-    "source_hash": "166393aa28a6f7b9a4f15baa6bc7e07f9d0e8b59bb75f6276da65c3c779df5b4",
+    "source_hash": "8b3d98d9d24ab3babe5f6fa967ac157403482d22bdac09a229470ee405d3e34f",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343556
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343617
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343710
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343800
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343869
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343958
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/interface_guide/parental_control_v4.9.md": {
-    "source_hash": "d93a815611d05861ffa3f7e3ad89faf83f93206d7f06551aac63108ac7379aab",
+    "source_hash": "a1215faa4a0f83f00ca256e59a28855582d5de3c84d837f42c0008d6960c92bf",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780365803
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780365897
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780365954
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780366015
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780366063
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780366128
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
@@ -6148,89 +6148,89 @@
     "source_hash": "74610e402b7e95fbdb518996de629aabb44d56b7cd8a8a4b5b4207bb052a2dfb"
   },
   "docs/en/docs/faq/cannot_connect_to_obfuscated_wireguard_server.md": {
-    "source_hash": "1ac8f4b79d2a78762627c1afcb97627b56af250cf2a23a10f5e1f1f7158ef33c",
+    "source_hash": "cfa86f807c9d880a724f88fa820c9788bc5759a7442882b8c264f089b172fb71",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "model": "manual-sync",
+        "updated_at": 1783760121
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1781778005
+        "model": "manual-sync",
+        "updated_at": 1783760121
       }
     }
   },
   "docs/en/docs/interface_guide/astromesh.md": {
-    "source_hash": "f8164d6ebb6ab3466b91ec7a9872bcce817c2944c3096cefe70e7b9fde892c17",
+    "source_hash": "67ea53b679ae02b7552a3cc4e52c0a97acfdc83f2d6dbe0b3b44fb619de8e6d2",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1782483597
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },
   "docs/en/docs/tutorials/sms.md": {
-    "source_hash": "e64c7e96501468b78e8f956f274e324929fcc54f5f580cf7bed1c45c6b0f3bcf",
+    "source_hash": "feff8a889e20bf7804bb092162bce59b9206c16f595ca634bbeba3276abfdb9c",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "jp": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783295154
+        "model": "manual-structural-sync",
+        "updated_at": 1783760220
       }
     }
   },

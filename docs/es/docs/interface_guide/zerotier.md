@@ -189,7 +189,7 @@ Los pasos siguientes usan Legacy Central como ejemplo.
 
 3. Ahora puede acceder al `GL-AXT1800` mediante su dirección IP (`192.168.29.1`) desde otros dispositivos. De hecho, puede acceder a todos los dispositivos dentro de la subred `192.168.29.0/24`.
 
-   ![access axt1800](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/tailscale_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
+   ![access axt1800](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/zerotier_access_axt1800.jpg){class="glboxshadow gl-50-desktop"}
 
 ## Allow Remote Access LAN
 

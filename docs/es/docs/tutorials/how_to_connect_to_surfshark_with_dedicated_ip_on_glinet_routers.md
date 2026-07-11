@@ -6,23 +6,23 @@ Usamos el GL-AXT1800 como ejemplo.
 
 1. Inicie sesión en su cuenta de Surfshark y luego seleccione **Dedicated IP**.
 
-    ![manualdip](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/manualdip.jpg){calss="glboxshadow"}
+    ![manualdip](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/manualdip.jpg){class="glboxshadow"}
 
 2. En la sección Dedicated IP, haga clic en **Settings**.
 
-    ![setting](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/setting.jpg){calss="glboxshadow"}
+    ![setting](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/setting.jpg){class="glboxshadow"}
 
 3. Seleccione un protocolo (WireGuard u OpenVPN) y descargue los archivos de configuración para la conexión manual.
 
-    ![protocol](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/protocol.jpg){calss="glboxshadow"}
+    ![protocol](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/protocol.jpg){class="glboxshadow"}
 
     Para la configuración de WireGuard, la página de descarga muestra la IP del servidor y la clave pública del servidor, como se muestra a continuación.
 
-    ![loadwg](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadwg.jpg){calss="glboxshadow"}
+    ![loadwg](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadwg.jpg){class="glboxshadow"}
 
     Para la configuración de OpenVPN, la página de descarga muestra la IP del servidor y las credenciales (nombre de usuario y contraseña), como se muestra a continuación. Copie las credenciales para usarlas más adelante.
 
-    ![loadovpn](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadovpn.jpg){calss="glboxshadow"}
+    ![loadovpn](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadovpn.jpg){class="glboxshadow"}
 
 4. Consulte los enlaces siguientes para cargar los archivos de configuración en su router GL.iNet. Introduzca las credenciales si es necesario.
 

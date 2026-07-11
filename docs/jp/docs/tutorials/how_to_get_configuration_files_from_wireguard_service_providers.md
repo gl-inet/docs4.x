@@ -184,7 +184,7 @@
 
     PrivadoVPN の Web サイトにアクセスしてログインします。
 
-    ダッシュボードで Manual Configuration セクションを見つけて WireGuard をクリックします。接続したいサーバーを選択し、**Download Configration** をクリックします。
+    ダッシュボードで Manual Configuration セクションを見つけて WireGuard をクリックします。接続したいサーバーを選択し、**Download Configuration** をクリックします。
 
     ![privadovpn wireguard manual configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/privadovpn/privadovpn_wireguard_manual_configuration.png){class="glboxshadow"}
 

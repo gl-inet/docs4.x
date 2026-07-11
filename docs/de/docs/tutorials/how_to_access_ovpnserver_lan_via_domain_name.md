@@ -16,11 +16,11 @@ Dieser Schritt gilt, wenn Ihr VPN-Server lokale Domainnamen nicht korrekt auflö
 
 Melden Sie sich am webbasierten Admin Panel Ihres VPN-Server-Routers an und navigieren Sie zu **NETWORK** -> **DNS** -> **Edit Hosts**.
 
-![edit hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/edit_hosts.png){class="glboxshadow"}
+![edit hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/edit_hosts.png){class="glboxshadow"}
 
 Geben Sie die IP-Adresse und den Domainnamen der Heimgeräte ein, auf die Sie zugreifen möchten, und klicken Sie anschließend auf **Apply**.
 
-![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
+![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
 
 ### 2. Fernzugriff auf das LAN auf dem Server erlauben
 

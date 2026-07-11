@@ -14,7 +14,7 @@ GL.iNet ルーターは、[Ethernet](internet_ethernet.md)、[Repeater](internet
 
     2. USB ポートのないモデル（例: GL-B3000）は、Ethernet と Repeater のみをサポートします。
 
-    3. 一部モデルは [Dual-Ethernet WAN](dual-ethernet_wan.md) をサポートしており、UI 上に追加の Ethernet インターフェースが表示されます。
+    3. 一部モデルは [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan) をサポートしており、UI 上に追加の Ethernet インターフェースが表示されます。
 
 ## インターフェース状態追跡
 

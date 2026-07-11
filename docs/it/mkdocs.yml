@@ -46,7 +46,8 @@ plugins:
         'interface_guide/network_port_management.md': 'interface_guide/ethernet_port.md'
         'interface_guide/dpi_license.md': 'interface_guide/dpi_engine.md'
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
-        'interface_guide/vpn_dashboard.md': 'interface_guide/vpn_dashboard_v4.8.md'
+        'interface_guide/vpn_dashboard_v4.9.md': 'interface_guide/vpn_dashboard.md'
+        'interface_guide/dual-ethernet_wan.md': 'interface_guide/ethernet_port.md'
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
@@ -279,7 +280,6 @@ nav:
       - Repeater: interface_guide/internet_repeater.md
       - Tethering: interface_guide/internet_tethering.md
       - Cellulare: interface_guide/internet_cellular.md
-      - Dual-Ethernet WAN: interface_guide/dual-ethernet_wan.md
     - Wi-Fi:
       - Wi-Fi: interface_guide/wireless.md
       - Wi-Fi (v4.9): interface_guide/wireless_v4.9.md
@@ -289,9 +289,7 @@ nav:
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:
-      - VPN Dashboard (v4.7): interface_guide/vpn_dashboard_v4.7.md
-      - VPN Dashboard (v4.8): interface_guide/vpn_dashboard_v4.8.md
-      - VPN Dashboard (v4.9): interface_guide/vpn_dashboard_v4.9.md
+      - VPN Dashboard: interface_guide/vpn_dashboard.md
       - Profilo client VPN: interface_guide/vpn_client_profile.md
       - Client OpenVPN: interface_guide/openvpn_client.md
       - Server OpenVPN: interface_guide/openvpn_server.md

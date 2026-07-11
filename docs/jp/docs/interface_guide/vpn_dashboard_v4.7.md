@@ -1,5 +1,15 @@
 # VPN Dashboard (Firmware v4.7 and earlier)
 
+このページの内容は、ファームウェア v4.7.x 以前に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
+
+<div class="gl-link-select" data-label="ファームウェアバージョン" data-placeholder="ファームウェア v4.7 以前" markdown="1">
+
+- [ファームウェア v4.8](vpn_dashboard_v4.8.md)
+- [ファームウェア v4.9](vpn_dashboard.md)
+
+</div>
+
+---
 Web管理パネルにログインし、**VPN** -> **VPN Dashboard** に移動します。
 
 VPN Dashboard ページでは、サーバーアドレス、トラフィック統計、クライアント仮想IP、接続ログなどのVPN接続情報を確認できるほか、VPNキルスイッチ、VPNポリシー、IPマスカレーディング、MTU、VPN Cascading などの詳細設定も行えます。

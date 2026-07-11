@@ -18,7 +18,7 @@
 ## 2. ファームウェアファイルをダウンロードする
 
 1. [firmware download center](https://dl.gl-inet.com/) の検索バーでルーターモデルを検索して選択します。
-2. **Stable** タブまたは他のタブで、ダウンロードしたいファームウェアバージョンの横にある **Download for common upgrade and uboot** を選択します。
+2. **Stable** タブまたは他のタブで、ダウンロードしたいファームウェアバージョンの横にある **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** を選択します。
 
 ## 3. ファームウェアをアップロードする
 

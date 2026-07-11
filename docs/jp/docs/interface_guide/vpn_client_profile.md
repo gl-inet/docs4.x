@@ -62,9 +62,9 @@ GL.iNet ルーターでは、以下の VPN プロバイダー向けに WireGuard
 
         3. （オプション）VPN 接続が予期せず失敗した場合に、ローカルネットワークのすべてのインターネットアクセスを自動的に遮断し、実際の IP アドレスやオンラインデータが漏洩するのを防ぎ、継続的なプライバシーとセキュリティを確保したい場合は、**VPN Dashboard** に移動して **Kill Switch** を有効にします。
 
-            * 個々の VPN トンネルごとに Kill Switch を設定する方法については、[こちら](vpn_dashboard_v4.9.md#tunnel-options) を参照してください。
+            * 個々の VPN トンネルごとに Kill Switch を設定する方法については、[こちら](vpn_dashboard.md#tunnel-options) を参照してください。
 
-            * グローバル VPN 接続（拡張 Kill Switch）の Kill Switch を設定する方法については、[こちら](vpn_dashboard_v4.9.md#all-other-traffic) を参照してください。
+            * グローバル VPN 接続（拡張 Kill Switch）の Kill Switch を設定する方法については、[こちら](vpn_dashboard.md#all-other-traffic) を参照してください。
 
     !!! note "Case 2. 代わりに VPN ポリシーをカスタマイズしたい場合は、以下の手順を実行してください。"
 
@@ -72,7 +72,7 @@ GL.iNet ルーターでは、以下の VPN プロバイダー向けに WireGuard
 
             ![azirevpn5](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. **VPN Dashboard** に移動して VPN ポリシーを設定します。詳細は [こちら](vpn_dashboard_v4.9.md#set-up-vpn-policy) を参照してください。
+        2. **VPN Dashboard** に移動して VPN ポリシーを設定します。詳細は [こちら](vpn_dashboard.md#set-up-vpn-policy) を参照してください。
 
 ## OpenVPN
 
@@ -90,7 +90,7 @@ GL.iNet ルーターでは、[NordVPN](https://go.nordvpn.net/aff_c?offer_id=15&
 
 関連記事
 
-- [VPN Dashboard（ファームウェア v4.9）](vpn_dashboard_v4.9.md)
+- [VPN Dashboard（ファームウェア v4.9）](vpn_dashboard.md)
 - [GL.iNet ルーターで WireGuard クライアントを設定する](wireguard_client.md)
 - [GL.iNet ルーターで OpenVPN クライアントを設定する](openvpn_client.md)
 

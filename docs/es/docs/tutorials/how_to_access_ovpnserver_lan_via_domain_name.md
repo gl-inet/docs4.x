@@ -13,9 +13,9 @@ Como se muestra a continuación, puede acceder desde un PC de la LAN del cliente
 
 Este paso se aplica cuando el servidor VPN no puede resolver correctamente los nombres de dominio locales. Si no está seguro, omita este paso.
 Inicie sesión en el panel de administración web del router que actúa como servidor VPN y vaya a **NETWORK** -> **DNS** -> **Edit Hosts**.
-![edit hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/edit_hosts.png){class="glboxshadow"}
+![edit hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/edit_hosts.png){class="glboxshadow"}
 Introduzca la IP y el nombre de dominio de los dispositivos domésticos a los que desea acceder y luego haga clic en **Apply**.
-![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
+![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
 
 ### 2. Permitir acceso remoto a la LAN en el servidor
 

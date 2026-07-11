@@ -62,9 +62,9 @@ Prenons [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} comme
 
         3. (Facultatif) Si vous souhaitez que le système coupe automatiquement tout accès Internet pour votre réseau local en cas d'échec inattendu de la connexion VPN, empêchant ainsi l'exposition de votre véritable adresse IP et de vos données en ligne, et garantissant une confidentialité et une sécurité continues, accédez à **VPN Dashboard** pour activer le **Kill Switch**.
 
-            * Pour configurer le Kill Switch pour chaque tunnel VPN individuel, référez-vous à [cette section](vpn_dashboard_v4.9.md#tunnel-options).
+            * Pour configurer le Kill Switch pour chaque tunnel VPN individuel, référez-vous à [cette section](vpn_dashboard.md#tunnel-options).
 
-            * Pour configurer le Kill Switch pour la connexion VPN globale (c'est-à-dire le Kill Switch amélioré), référez-vous à [cette section](vpn_dashboard_v4.9.md#all-other-traffic).
+            * Pour configurer le Kill Switch pour la connexion VPN globale (c'est-à-dire le Kill Switch amélioré), référez-vous à [cette section](vpn_dashboard.md#all-other-traffic).
 
     !!! note "Cas 2. Si vous préférez personnaliser la politique VPN, suivez ces étapes."
     
@@ -72,7 +72,7 @@ Prenons [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} comme
 
             ![azirevpn5](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. Vous serez alors redirigé vers **VPN Dashboard** pour configurer la politique VPN. Cliquez [ici](vpn_dashboard_v4.9.md#set-up-vpn-policy) pour plus de détails.
+        2. Vous serez alors redirigé vers **VPN Dashboard** pour configurer la politique VPN. Cliquez [ici](vpn_dashboard.md#set-up-vpn-policy) pour plus de détails.
 
 ## OpenVPN
 
@@ -90,7 +90,7 @@ Si vous êtes abonné à un autre fournisseur de services OpenVPN, téléchargez
 
 Articles connexes
 
-- [VPN Dashboard (Firmware v4.9)](vpn_dashboard_v4.9.md)
+- [VPN Dashboard (Firmware v4.9)](vpn_dashboard.md)
 - [Configurer le client WireGuard sur les routeurs GL.iNet](wireguard_client.md)
 - [Configurer le client OpenVPN sur les routeurs GL.iNet](openvpn_client.md)
 

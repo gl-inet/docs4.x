@@ -1,4 +1,15 @@
-# VPN Dashboard (Firmware v4.9)
+# VPN Dashboard
+
+Treść tej strony dotyczy wersji firmware v4.9.x. Jeśli urządzenie używa innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
+
+<div class="gl-link-select" data-label="Wersja firmware" data-placeholder="Firmware v4.9" markdown="1">
+
+- [Firmware v4.7 i wcześniejsze](vpn_dashboard_v4.7.md)
+- [Firmware v4.8](vpn_dashboard_v4.8.md)
+
+</div>
+
+---
 
 W lewym panelu webowego panelu administracyjnego przejdź do **VPN** -> **VPN Dashboard**.
 
@@ -16,7 +27,7 @@ W porównaniu z firmware v4.8 wersja v4.9 wprowadza następujące ulepszenia w V
 
 Przy pierwszym wejściu na tę stronę, jeśli nie utworzono jeszcze żadnych tuneli, strona będzie wyglądać jak poniżej. Kliknij **Add VPN Tunnel**, aby rozpocząć.
 
-![getting started](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/getting_started.png){class="glboxshadow"}
+![add vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/add_vpn_tunnel.png){class="glboxshadow"}
 
 Zostaniesz przeniesiony na stronę **VPN Client Profile**. Wybierz dostawcę VPN i zaloguj się.
 

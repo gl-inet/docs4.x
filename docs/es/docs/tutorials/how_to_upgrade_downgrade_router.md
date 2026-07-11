@@ -18,7 +18,7 @@ Este tutorial le mostrará **cómo actualizar o degradar manualmente el firmware
 ## 2. Descargar el archivo de firmware
 
 1. En la barra de búsqueda del [centro de descarga de firmware](https://dl.gl-inet.com/), busque y seleccione el modelo de su router.
-2. En la pestaña **Stable** o en otra pestaña, seleccione **Download for common upgrade and uboot** junto a la versión de firmware que quiera descargar.
+2. En la pestaña **Stable** o en otra pestaña, seleccione **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** junto a la versión de firmware que quiera descargar.
 
 ## 3. Cargar el firmware
 

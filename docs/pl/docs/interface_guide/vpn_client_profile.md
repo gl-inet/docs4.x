@@ -62,9 +62,9 @@ Weźmy [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} jako p
 
         3. (Opcjonalnie) Jeśli chcesz, aby system automatycznie odcinał cały dostęp do Internetu dla Twojej sieci lokalnej w przypadku nieoczekiwanego zerwania połączenia VPN, zapobiegając ujawnieniu prawdziwego adresu IP i danych online oraz zapewniając ciągłą prywatność i bezpieczeństwo, przejdź do **VPN Dashboard**, aby włączyć **Kill Switch**.
 
-            * Aby skonfigurować Kill Switch dla pojedynczego tunelu VPN, zapoznaj się z [tym](vpn_dashboard_v4.9.md#tunnel-options).
+            * Aby skonfigurować Kill Switch dla pojedynczego tunelu VPN, zapoznaj się z [tym](vpn_dashboard.md#tunnel-options).
             
-            * Aby skonfigurować Kill Switch dla globalnego połączenia VPN (czyli rozszerzonego Kill Switch), zapoznaj się z [tym](vpn_dashboard_v4.9.md#all-other-traffic).
+            * Aby skonfigurować Kill Switch dla globalnego połączenia VPN (czyli rozszerzonego Kill Switch), zapoznaj się z [tym](vpn_dashboard.md#all-other-traffic).
 
     !!! note "Przypadek 2. Jeśli wolisz zamiast tego dostosować politykę VPN, wykonaj poniższe kroki."
 
@@ -72,7 +72,7 @@ Weźmy [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} jako p
 
             ![azirevpn5](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/azirevpn5.png){class="glboxshadow"}
 
-        2. Zostaniesz przekierowany do **VPN Dashboard**, aby skonfigurować politykę VPN. Szczegóły znajdziesz [tutaj](vpn_dashboard_v4.9.md#set-up-vpn-policy).
+        2. Zostaniesz przekierowany do **VPN Dashboard**, aby skonfigurować politykę VPN. Szczegóły znajdziesz [tutaj](vpn_dashboard.md#set-up-vpn-policy).
 
 ## OpenVPN
 
@@ -90,7 +90,7 @@ Jeśli korzystasz z innego dostawcy usług OpenVPN, pobierz plik konfiguracyjny 
 
 Powiązane artykuły
 
-- [VPN Dashboard (Firmware v4.9)](vpn_dashboard_v4.9.md)
+- [VPN Dashboard (Firmware v4.9)](vpn_dashboard.md)
 - [Konfiguracja klienta WireGuard na routerach GL.iNet](wireguard_client.md)
 - [Konfiguracja klienta OpenVPN na routerach GL.iNet](openvpn_client.md)
 

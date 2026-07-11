@@ -18,7 +18,7 @@ Ce tutoriel vous montre **comment mettre à niveau ou rétrograder manuellement 
 ## 2. Télécharger le fichier de firmware
 
 1. Dans la barre de recherche du [centre de téléchargement de firmware](https://dl.gl-inet.com/), recherchez et sélectionnez le modèle de votre routeur.
-2. Dans l'onglet **Stable** ou d'autres onglets, sélectionnez **Download for common upgrade and uboot** à côté de la version de firmware que vous souhaitez télécharger. 
+2. Dans l'onglet **Stable** ou d'autres onglets, sélectionnez **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** à côté de la version de firmware que vous souhaitez télécharger. 
 
 ## 3. Téléverser le firmware
 

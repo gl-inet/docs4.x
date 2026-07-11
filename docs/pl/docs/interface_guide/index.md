@@ -15,7 +15,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Jak połączyć się z Internetem przez Repeater](internet_repeater.md)
 * [Jak połączyć się z Internetem przez tethering USB](internet_tethering.md)
 * [Jak połączyć się z Internetem przez sieć komórkową](internet_cellular.md)
-* [Dual-Ethernet WAN](dual-ethernet_wan.md)
+* [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
 ## Sieć bezprzewodowa
 
@@ -35,7 +35,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 
 * [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
 * [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
-* [VPN Dashboard (v4.9)](vpn_dashboard_v4.9.md)
+* [VPN Dashboard (v4.9)](vpn_dashboard.md)
 * [Profil klienta VPN](vpn_client_profile.md)
 * [Konfiguracja OpenVPN Client](openvpn_client.md)
 * [Konfiguracja OpenVPN Server](openvpn_server.md)

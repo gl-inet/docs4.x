@@ -18,7 +18,7 @@ Ten przewodnik pokaże, **jak ręcznie zaktualizować lub cofnąć wersję firmw
 ## 2. Pobierz plik firmware
 
 1. W pasku wyszukiwania [centrum pobierania firmware](https://dl.gl-inet.com/) wyszukaj i wybierz model swojego routera.
-2. W zakładce **Stable** lub innych zakładkach wybierz **Download for common upgrade and uboot** obok wersji firmware, którą chcesz pobrać. 
+2. W zakładce **Stable** lub innych zakładkach wybierz **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** obok wersji firmware, którą chcesz pobrać. 
 
 ## 3. Wgraj firmware
 

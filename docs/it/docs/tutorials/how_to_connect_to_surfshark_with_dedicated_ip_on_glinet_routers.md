@@ -6,23 +6,23 @@ Usiamo GL-AXT1800 come esempio.
 
 1. Accedi al tuo account Surfshark, poi seleziona **Dedicated IP**.
 
-    ![manualdip](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/manualdip.jpg){calss="glboxshadow"}
+    ![manualdip](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/manualdip.jpg){class="glboxshadow"}
 
 2. Nella sezione Dedicated IP, fai clic su **Settings**.
 
-    ![setting](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/setting.jpg){calss="glboxshadow"}
+    ![setting](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/setting.jpg){class="glboxshadow"}
 
 3. Seleziona un protocollo, WireGuard oppure OpenVPN, e scarica i file di configurazione per la connessione manuale.
 
-    ![protocol](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/protocol.jpg){calss="glboxshadow"}
+    ![protocol](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/protocol.jpg){class="glboxshadow"}
 
     Per la configurazione WireGuard, la pagina di download mostra il Server IP e la Server Public Key, come illustrato di seguito.
 
-    ![loadwg](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadwg.jpg){calss="glboxshadow"}
+    ![loadwg](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadwg.jpg){class="glboxshadow"}
 
     Per la configurazione OpenVPN, la pagina di download mostra il Server IP e le credenziali, Username e Password, come illustrato di seguito. Copia le credenziali per usarle in seguito.
 
-    ![loadovpn](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadovpn.jpg){calss="glboxshadow"}
+    ![loadovpn](https://static.gl-inet.com/docs/router/en/4/tutorials/surfshark_dedicated_ip/loadovpn.jpg){class="glboxshadow"}
 
 4. Fai riferimento ai link seguenti per caricare i file di configurazione sul router GL.iNet. Inserisci le credenziali se richiesto.
 

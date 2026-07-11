@@ -16,11 +16,11 @@ Cette étape s’applique lorsque votre serveur VPN ne peut pas résoudre correc
 
 Connectez-vous au panneau d’administration web de votre routeur serveur VPN, puis accédez à **NETWORK** -> **DNS** -> **Edit Hosts**.
 
-![edit hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/edit_hosts.png){class="glboxshadow"}
+![edit hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/edit_hosts.png){class="glboxshadow"}
 
 Saisissez l’adresse IP et le nom de domaine des appareils du domicile auxquels vous souhaitez accéder, puis cliquez sur **Apply**.
 
-![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_server_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
+![input ip domain](https://static.gl-inet.com/docs/router/en/4/tutorials/access_ovpnserver_lan_via_domain_names/input_ip_domain.png){class="glboxshadow gl-80-desktop"}
 
 ### 2. Autoriser l’accès à distance au LAN sur le serveur
 

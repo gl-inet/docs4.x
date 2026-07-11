@@ -26,6 +26,11 @@ If a task touches multiple languages, read `references/common.md` once and then 
 
 Use this workflow when syncing English changes into localized docs, especially when the user asks to translate changes after a commit.
 
+0. Preflight before building the change set:
+   - Run `python scripts/translation_delta.py` first when the script exists, and use its cache-delta report as the primary input for the source-change set.
+   - Report the current branch and working tree status.
+   - If the branch is not `master`, or the branch appears behind its upstream, report that before continuing.
+   - Do not run `git pull` automatically unless the user explicitly requests it. If the user asks to update from `master`, pull only when the working tree is clean; otherwise stop and report the local changes first.
 1. Establish the source-change set before translating:
    - Prefer `.translation-cache.json` to identify English source files whose current hash differs from the cached `source_hash`.
    - If the user gives a commit, diff `commit..HEAD` and use it as the explicit source-change set.

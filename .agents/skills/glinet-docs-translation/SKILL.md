@@ -74,6 +74,12 @@ Use this workflow when syncing English changes into localized docs, especially w
 
 Use the parent virtual environment for MkDocs in this repository. Do not install `requirements.txt` unless the virtual environment is missing or lacks required dependencies.
 
+Full six-language strict builds can take more than 120 seconds on Windows. When running the complete validation loop, use a command timeout of at least 600 seconds.
+
+`mkdocs.fast.yml` is for local preview or quick smoke checks only because it disables plugins. Do not use it as a substitute for final validation.
+
+For small edits, optionally run touched-language builds or fast smoke checks during iteration. Before finishing a translation sync, all six localized docs must pass `docs/<lang>/mkdocs.yml --strict`.
+
 ```powershell
 # Run from repository root: docs4.x
 $mkdocs="..\Scripts\mkdocs.exe"

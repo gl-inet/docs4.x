@@ -2,3 +2,5 @@ run_docs4.cmd
 run.sh
 .claude/settings.local.json
 TUTORIAL_FOR_COLLEAGUE.md
+.env
+.vscode/settings.json

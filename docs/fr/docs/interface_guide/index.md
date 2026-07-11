@@ -33,9 +33,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 
 ## VPN
 
-* [Tableau de bord VPN (v4.7)](vpn_dashboard_v4.7.md)
-* [Tableau de bord VPN (v4.8)](vpn_dashboard_v4.8.md)
-* [Tableau de bord VPN (v4.9)](vpn_dashboard.md)
+* [Tableau de bord VPN](vpn_dashboard.md)
 * [Profil client VPN](vpn_client_profile.md)
 * [Configurer OpenVPN Client](openvpn_client.md)
 * [Configurer OpenVPN Server](openvpn_server.md)

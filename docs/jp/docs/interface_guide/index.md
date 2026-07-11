@@ -33,9 +33,7 @@ hide:
 
 ## VPN
 
-* [VPNダッシュボード（v4.7）](vpn_dashboard_v4.7.md)
-* [VPNダッシュボード（v4.8）](vpn_dashboard_v4.8.md)
-* [VPNダッシュボード（v4.9）](vpn_dashboard.md)
+* [VPNダッシュボード](vpn_dashboard.md)
 * [VPNクライアントプロフィール](vpn_client_profile.md)
 * [OpenVPNクライアントを設定する](openvpn_client.md)
 * [OpenVPNサーバーを設定する](openvpn_server.md)

@@ -33,9 +33,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 
 ## VPN
 
-* [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
-* [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
-* [VPN Dashboard (v4.9)](vpn_dashboard.md)
+* [VPN Dashboard](vpn_dashboard.md)
 * [Profil klienta VPN](vpn_client_profile.md)
 * [Konfiguracja OpenVPN Client](openvpn_client.md)
 * [Konfiguracja OpenVPN Server](openvpn_server.md)

@@ -1976,27 +1976,27 @@
     "targets": {
       "de": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1783763308
       },
       "es": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1783763308
       },
       "fr": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1783763308
       },
       "it": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1783763308
       },
       "jp": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1783763308
       },
       "pl": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1783763308
       }
     }
   },
@@ -6318,6 +6318,64 @@
       "pl": {
         "model": "manual-sync",
         "updated_at": 1783759579
+      }
+    }
+  },
+  "docs/en/docs/javascripts/extra.js": {
+    "source_hash": "85cc8f40dbc7ee8fe5b115bf5bc93a950a47a06fe11415ab1069a91a5fefba95",
+    "targets": {
+      "de": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      },
+      "es": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      },
+      "fr": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      },
+      "it": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      },
+      "jp": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      },
+      "pl": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      }
+    }
+  },
+  "docs/en/docs/stylesheets/extra.css": {
+    "source_hash": "dd619efeff84c3f621cd7d04e3cfdf8c51644a4b2efe2c27323998f721e0b2cb",
+    "targets": {
+      "de": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      },
+      "es": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      },
+      "fr": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      },
+      "it": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      },
+      "jp": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
+      },
+      "pl": {
+        "model": "manual-sync",
+        "updated_at": 1783763308
       }
     }
   }

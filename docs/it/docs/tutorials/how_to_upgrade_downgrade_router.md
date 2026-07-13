@@ -18,7 +18,7 @@ Questo tutorial mostra **come aggiornare o eseguire manualmente il downgrade del
 ## 2. Scarica il file firmware
 
 1. Nella barra di ricerca del [firmware download center](https://dl.gl-inet.com/), cerca e seleziona il modello del tuo router.
-2. Nella scheda **Stable** o in altre schede, seleziona **Download for common upgrade and uboot** accanto alla versione firmware che vuoi scaricare.
+2. Nella scheda **Stable** o in altre schede, seleziona **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** accanto alla versione firmware che vuoi scaricare.
 
 ## 3. Carica il firmware
 

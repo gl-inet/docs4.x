@@ -23,12 +23,17 @@ En comparación con AmneziaWG v1.0, la versión 2.0 proporciona una ofuscación 
 
 Estas mejoras hacen que el tráfico VPN sea más difícil de detectar y, al mismo tiempo, conservan la alta velocidad y la baja latencia de WireGuard.
 
-Así puede identificar la versión de AmneziaWG:
+!!! Tip "¿Cómo identificar la versión de AmneziaWG?"
 
-- **V1.0**: No hay parámetros S3~S4; H1~H4 son enteros fijos individuales.
-- **V2.0**: Incluye los parámetros **S3~S4**; **H1~H4** se definen como rangos numéricos; admite los parámetros **I1~I5**.
-
-> Nota: Los parámetros I1-I5 no se generan automáticamente. Los usuarios pueden añadirlos manualmente como líneas extra en el archivo de configuración VPN para que el tráfico de AmneziaWG se parezca a otros protocolos comunes, como QUIC o WebRTC.
+    **V1.0**: No hay parámetros S3-S4; H1-H4 son enteros fijos individuales.
+    
+    **V2.0**: Es V2.0 si se cumple cualquiera de las condiciones siguientes:
+            
+    - Incluye parámetros S3-S4
+    - H1-H4 están configurados como rangos numéricos
+    - Incluye parámetros I1-I5 personalizados.
+            
+    > Nota: I1-I5 no se generan automáticamente. Los usuarios pueden añadirlos manualmente como líneas adicionales en el archivo de configuración para que el tráfico de AmneziaWG se parezca a otros protocolos comunes, como QUIC o WebRTC.
 
 ## AmneziaWG en routers GL.iNet
 

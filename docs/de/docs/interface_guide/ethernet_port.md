@@ -12,7 +12,7 @@ Hier können Sie Ethernet-Portrollen (WAN/LAN) verwalten und Portdetails wie MAC
 
 In diesem Abschnitt werden die Portrolle (WAN oder LAN), die MAC-Adresse und die ausgehandelte Geschwindigkeit angezeigt. 
 
-![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
 
 - **WAN/LAN**: Der aktuelle Betriebsmodus des physischen WAN-Ports. Sie können ihn bei Bedarf auf LAN einstellen.
 
@@ -28,9 +28,55 @@ In diesem Abschnitt wird die ausgehandelte Geschwindigkeit des LAN-Ports angezei
 
 ![lan1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/lan1.png){class="glboxshadow"}
 
-Einige Modelle unterstützen das Umschalten von LAN 1 auf einen WAN-Port für Dual-Ethernet-WAN-Szenarien. Sie können die Portrolle des LAN-Ports wie unten gezeigt ändern. Klicken Sie [hier](dual-ethernet_wan.md) für Details.
+Einige Modelle unterstützen das Umschalten von LAN 1 auf einen WAN-Port für Dual-Ethernet-WAN-Szenarien. Klicken Sie für Details auf [Dual-Ethernet WAN](#dual-ethernet-wan).
 
-![lan2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/lan2.png){class="glboxshadow"}
+## Dual-Ethernet WAN
+
+Mit der Funktion Dual-Ethernet WAN kann ein standardmäßiger LAN-Ethernet-Port in einen zweiten WAN-Port für Dual-Ethernet-Internetzugang umgeschaltet werden. Das sorgt für zuverlässige Backup-Konnektivität und unterstützt, sofern kompatibel, die Bandbreitenbündelung für bandbreitenintensive Workloads. Außerdem können Sie gleichzeitig zwei unabhängige Netzwerke, z. B. beruflich und privat, verwenden, ohne zusätzliche Hardware zu benötigen.
+
+??? "Unterstützte Modelle"
+    - ※GL-E5800 (Mudi 7)
+    - GL-MT3600BE (Beryl 7)
+    - GL-MT5000 (Brume 3)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-X2000 (Spitz Plus)
+    - GL-MT6000 (Flint2)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+
+    **Hinweis**: GL-E5800 (Mudi 7) ist mit einem Ethernet-Port ausgestattet (standardmäßig LAN, auf WAN umschaltbar) sowie mit einem **OTG-fähigen USB-C-Port**. Um einen zweiten Ethernet-Port für Dual-Ethernet WAN hinzuzufügen, schließen Sie bitte einen separat erhältlichen USB-C-zu-Ethernet-Adapter an den USB-C-Port an.
+
+??? "Nicht unterstützte Modelle"
+    - GL-B3000 (Marble)
+    - GL-AX1800 (Flint)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
+    - GL-SFT1200 (Opal)
+    - GL-A1300 (Slate Plus)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
+
+Führen Sie die folgenden Schritte aus, um einen LAN-Port in einen WAN-Port umzuschalten.
+
+1. Klicken Sie auf der Seite **Port Management** oder **Ethernet Port** auf die Registerkarte **LAN**, ändern Sie die Portrolle in WAN und klicken Sie dann auf **Apply**.
+
+    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/dual_ethernet_1.png){class="glboxshadow"}
+
+2. Klicken Sie im Pop-up-Fenster auf **Apply**.
+
+    ![dual ethernet wan 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/dual_ethernet_2.png){class="glboxshadow"}
+
+3. Der ausgewählte Port arbeitet nun als WAN-Port. Sie können anschließend [hier](multi-wan.md) Multi-WAN konfigurieren.
 
 ---
 

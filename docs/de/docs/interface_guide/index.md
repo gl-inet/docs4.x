@@ -15,7 +15,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [So verbinden Sie sich über Repeater mit dem Internet](internet_repeater.md)
 * [So verbinden Sie sich über USB-Tethering mit dem Internet](internet_tethering.md)
 * [So verbinden Sie sich über Mobilfunk mit dem Internet](internet_cellular.md)
-* [Dual-Ethernet WAN](dual-ethernet_wan.md)
+* [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
 ## WLAN
 
@@ -33,9 +33,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 
 ## VPN
 
-* [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
-* [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
-* [VPN Dashboard (v4.9)](vpn_dashboard_v4.9.md)
+* [VPN Dashboard](vpn_dashboard.md)
 * [VPN-Client-Profil](vpn_client_profile.md)
 * [OpenVPN-Client einrichten](openvpn_client.md)
 * [OpenVPN-Server einrichten](openvpn_server.md)

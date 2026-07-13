@@ -1,4 +1,15 @@
-# VPN Dashboard (Firmware v4.9)
+# VPN Dashboard
+
+Der Inhalt dieser Seite basiert auf Firmwareversion v4.9.x. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
+
+<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.9" markdown="1">
+
+- [Firmware v4.7 und früher](vpn_dashboard_v4.7.md)
+- [Firmware v4.8](vpn_dashboard_v4.8.md)
+
+</div>
+
+---
 
 **Hinweis**: Diese Anleitung basiert auf Firmware v4.9. Für frühere Versionen siehe [hier](vpn_dashboard_v4.8.md).
 
@@ -20,7 +31,7 @@ Im Vergleich zu Firmware v4.8 enthält v4.9 die folgenden Verbesserungen am VPN 
 
 Wenn Sie diese Seite zum ersten Mal aufrufen und noch keine Tunnel erstellt wurden, wird die Seite wie unten gezeigt angezeigt. Klicken Sie auf **Add VPN Tunnel**, um zu beginnen.
 
-![getting started](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/getting_started.png){class="glboxshadow"}
+![add vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/add_vpn_tunnel.png){class="glboxshadow"}
 
 Sie werden zur Seite **VPN Client Profile** weitergeleitet. Wählen Sie einen VPN-Anbieter aus und melden Sie sich an.
 

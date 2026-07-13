@@ -15,7 +15,7 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 * [Cómo conectarse a Internet mediante Repeater](internet_repeater.md)
 * [Cómo conectarse a Internet mediante anclaje USB](internet_tethering.md)
 * [Cómo conectarse a Internet mediante red celular](internet_cellular.md)
-* [WAN Ethernet dual](dual-ethernet_wan.md)
+* [WAN Ethernet dual](ethernet_port.md#dual-ethernet-wan)
 
 ## Wireless
 
@@ -33,9 +33,7 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 
 ## VPN
 
-* [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
-* [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
-* [VPN Dashboard (v4.9)](vpn_dashboard_v4.9.md)
+* [VPN Dashboard](vpn_dashboard.md)
 * [VPN Client Profile](vpn_client_profile.md)
 * [Configurar OpenVPN Client](openvpn_client.md)
 * [Configurar OpenVPN Server](openvpn_server.md)

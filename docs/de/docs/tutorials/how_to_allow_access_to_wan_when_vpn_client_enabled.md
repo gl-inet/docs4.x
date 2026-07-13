@@ -4,7 +4,7 @@ Wenn auf GL.iNet-Routern der VPN-Client aktiviert ist, können LAN-Geräte im st
 
 Dieses Tutorial beschreibt die Schritte, mit denen lokale WAN-Dienste (z. B. Drucker, NAS usw.) für die LAN-Geräte des VPN-Clients erreichbar werden.
 
-![allow acdess wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
+![allow access wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
 
 ## Für Firmware v4.7 und früher
 

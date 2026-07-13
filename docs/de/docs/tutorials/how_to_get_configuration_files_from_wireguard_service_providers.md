@@ -184,7 +184,7 @@
 
     Rufen Sie die Website von PrivadoVPN auf und melden Sie sich an.
 
-    Suchen Sie im Dashboard den Abschnitt Manual Configuration, klicken Sie auf WireGuard, wählen Sie den Server aus, mit dem Sie sich verbinden möchten, und klicken Sie dann auf Download Configration.
+    Suchen Sie im Dashboard den Abschnitt Manual Configuration, klicken Sie auf WireGuard, wählen Sie den Server aus, mit dem Sie sich verbinden möchten, und klicken Sie dann auf Download Configuration.
 
     ![privadovpn wireguard manual configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/privadovpn/privadovpn_wireguard_manual_configuration.png){class="glboxshadow"}
 

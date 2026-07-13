@@ -1,5 +1,15 @@
-# Tableau de bord VPN (firmware v4.8)
+# VPN Dashboard (Firmware v4.8)
 
+Le contenu de cette page est basé sur la version de firmware v4.8.x. Si votre appareil utilise une autre version du firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
+
+<div class="gl-link-select" data-label="Version du firmware" data-placeholder="Firmware v4.8" markdown="1">
+
+- [Firmware v4.7 et antérieur](vpn_dashboard_v4.7.md)
+- [Firmware v4.9](vpn_dashboard.md)
+
+</div>
+
+---
 Dans la partie gauche du panneau d'administration web, accédez à **VPN** -> **VPN Dashboard**.
 
 Le tableau de bord VPN affiche les détails de connexion VPN, tels que les règles de tunnel, l'adresse du serveur, les statistiques de trafic, l'IP virtuelle du client et le journal de connexion. Il permet également de configurer des paramètres avancés comme le Kill Switch VPN, le masquage IP et le MTU.

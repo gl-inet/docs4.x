@@ -1,5 +1,15 @@
 # VPN Dashboard (Firmware v4.7 und früher)
 
+Der Inhalt dieser Seite basiert auf Firmwareversion v4.7.x und früher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
+
+<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.7 und früher" markdown="1">
+
+- [Firmware v4.8](vpn_dashboard_v4.8.md)
+- [Firmware v4.9](vpn_dashboard.md)
+
+</div>
+
+---
 Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **VPN** -> **VPN Dashboard**.
 
 Die Seite VPN Dashboard zeigt Details zur VPN-Verbindung an, z. B. Serveradresse, Datenverkehrsstatistiken, virtuelle Client-IP und Verbindungsprotokoll. Außerdem können Sie dort erweiterte Einstellungen wie VPN Kill Switch, VPN-Richtlinie, IP-Maskierung, MTU und VPN Cascading konfigurieren.

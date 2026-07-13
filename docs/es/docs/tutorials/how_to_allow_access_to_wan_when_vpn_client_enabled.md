@@ -2,7 +2,7 @@
 
 Cuando el cliente VPN está habilitado en los routers GL.iNet, en el modo global predeterminado los dispositivos LAN no pueden acceder a los dispositivos o servicios de la WAN local, porque todo el tráfico de la LAN se enruta por el túnel VPN en lugar de por su red ascendente (WAN), con el fin de evitar fugas de DNS.
 Este tutorial presenta los pasos para hacer accesibles los servicios de la WAN local, como una impresora, un NAS, etc., a los dispositivos LAN del cliente VPN.
-![allow acdess wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
+![allow access wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
 
 ## Para firmware v4.7 y anteriores
 

@@ -1,4 +1,15 @@
-# VPN Dashboard (Firmware v4.9)
+# VPN Dashboard
+
+このページの内容は、ファームウェア v4.9.x に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
+
+<div class="gl-link-select" data-label="ファームウェアバージョン" data-placeholder="ファームウェア v4.9" markdown="1">
+
+- [ファームウェア v4.7 以前](vpn_dashboard_v4.7.md)
+- [ファームウェア v4.8](vpn_dashboard_v4.8.md)
+
+</div>
+
+---
 
 Web Admin Panel の左側で、**VPN** -> **VPN Dashboard** に移動します。
 
@@ -16,7 +27,7 @@ VPN Dashboard では、ルーティングルール、接続中のサーバー、
 
 このページを初めて開いたとき、まだトンネルが作成されていない場合は、以下のような画面が表示されます。**Add VPN Tunnel** をクリックして開始します。
 
-![getting started](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/getting_started.png){class="glboxshadow"}
+![add vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/add_vpn_tunnel.png){class="glboxshadow"}
 
 **VPN Client Profile** ページに移動し、VPN プロバイダーを選択してログインします。
 

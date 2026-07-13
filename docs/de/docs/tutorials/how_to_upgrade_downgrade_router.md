@@ -18,7 +18,7 @@ In diesem Tutorial erfahren Sie, **wie Sie die Firmware Ihres Routers manuell ak
 ## 2. Die Firmware-Datei herunterladen
 
 1. Suchen Sie in der Suchleiste des [Firmware Download Center](https://dl.gl-inet.com/) nach Ihrem Router-Modell und wählen Sie es aus.
-2. Wählen Sie im Reiter **Stable** oder in einem anderen Reiter neben der Firmware-Version, die Sie herunterladen möchten, **Download for common upgrade and uboot** aus.
+2. Wählen Sie im Reiter **Stable** oder in einem anderen Reiter neben der Firmware-Version, die Sie herunterladen möchten, **DOWNLOAD FOR COMMON UPGRADE AND U-BOOT** aus.
 
 ## 3. Die Firmware hochladen
 

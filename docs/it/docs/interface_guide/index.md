@@ -15,7 +15,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Come connettersi a Internet tramite Repeater](internet_repeater.md)
 * [Come connettersi a Internet tramite USB tethering](internet_tethering.md)
 * [Come connettersi a Internet tramite rete cellulare](internet_cellular.md)
-* [Dual-Ethernet WAN](dual-ethernet_wan.md)
+* [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
 ## Wireless
 
@@ -33,9 +33,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 
 ## VPN
 
-* [VPN Dashboard (v4.7)](vpn_dashboard_v4.7.md)
-* [VPN Dashboard (v4.8)](vpn_dashboard_v4.8.md)
-* [VPN Dashboard (v4.9)](vpn_dashboard_v4.9.md)
+* [VPN Dashboard](vpn_dashboard.md)
 * [Profilo client VPN](vpn_client_profile.md)
 * [Configurare OpenVPN Client](openvpn_client.md)
 * [Configurare OpenVPN Server](openvpn_server.md)

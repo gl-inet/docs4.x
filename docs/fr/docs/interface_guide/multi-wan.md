@@ -14,7 +14,7 @@ Les routeurs GL.iNet peuvent se connecter à Internet de plusieurs façons, par 
 
     2. Les modèles sans port USB (par exemple GL-B3000) prennent uniquement en charge l'accès réseau par Ethernet et Repeater.
 
-    3. Certains modèles prennent en charge [Dual-Ethernet WAN](dual-ethernet_wan.md), ce qui ajoute une interface Ethernet supplémentaire dans l'interface utilisateur.
+    3. Certains modèles prennent en charge [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan), ce qui ajoute une interface Ethernet supplémentaire dans l'interface utilisateur.
 
 ## Suivi de l'état des interfaces
 

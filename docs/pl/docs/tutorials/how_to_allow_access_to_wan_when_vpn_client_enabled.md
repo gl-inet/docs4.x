@@ -4,7 +4,7 @@ Gdy klient VPN jest włączony na routerach GL.iNet, w domyślnym trybie globaln
 
 Ten samouczek wprowadza kroki umożliwiające udostępnienie lokalnych usług WAN (np. drukarki, NAS itp.) dla urządzeń LAN klienta VPN.
 
-![allow acdess wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
+![allow access wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
 
 ## Dla firmware v4.7 i wcześniejszych
 

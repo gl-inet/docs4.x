@@ -4,7 +4,7 @@ L'offuscamento VPN è una tecnica che maschera il traffico VPN facendolo apparir
 
 Se non riesci a stabilire una connessione a un server WireGuard offuscato, segui i passaggi di risoluzione dei problemi qui sotto.
 
-1. **Assicurati che il file di configurazione WireGuard importato nel client sia esattamente il file esportato dal server WireGuard GL.iNet.**
+1. **Assicurati che la configurazione WireGuard importata in ogni client sia dedicata.**
 
     Ogni client richiede un file di configurazione peer esclusivo. Condividere la stessa configurazione tra più client causerà errori di connessione.
 
@@ -12,11 +12,25 @@ Se non riesci a stabilire una connessione a un server WireGuard offuscato, segui
 
     ![wg profiles](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/wg_profiles.png){class="glboxshadow"}
 
-2. **Allinea le versioni del protocollo AmneziaWG su server e client.**
+2. **Assicurati che i parametri offuscati possano essere verificati dal client.**
 
-    AmneziaWG 1.0 e 2.0 sono incompatibili tra loro. Server e client devono eseguire la stessa versione del protocollo AmneziaWG per stabilire una connessione valida.
+    Il protocollo AmneziaWG è retrocompatibile. Se il server WireGuard supporta solo AmneziaWG v1.0, il file di configurazione supererà comunque la verifica quando viene importato in un client che supporta v2.0.
+        
+    Tuttavia, se il file di configurazione include parametri di offuscamento di AmneziaWG v2.0, assicurati che il client WireGuard supporti AmneziaWG v2.0. In caso contrario, la verifica dei parametri potrebbe non riuscire.
 
-    Se il dispositivo client è un router GL.iNet, puoi controllare la versione del protocollo con i due metodi seguenti.
+    !!! tip "Come identificare la versione di AmneziaWG?"
+
+        **V1.0**: nessun parametro S3-S4; H1-H4 sono singoli numeri interi fissi.
+        
+        **V2.0**: è V2.0 se viene soddisfatta una delle condizioni seguenti:
+        
+        - Include parametri S3-S4
+        - H1-H4 sono impostati come intervalli numerici
+        - Include parametri I1-I5 personalizzati.
+        
+        > Nota: I1-I5 non vengono generati automaticamente. Gli utenti possono aggiungerli manualmente come righe aggiuntive nel file di configurazione per far sembrare il traffico AmneziaWG simile ad altri protocolli comuni, come QUIC o WebRTC.
+
+    Se il client WireGuard è un router GL.iNet, controlla la sua versione di AmneziaWG con i due metodi seguenti.
 
     ??? note "Controllare dal Router Web Admin Panel"
 

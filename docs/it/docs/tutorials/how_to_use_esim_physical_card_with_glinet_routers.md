@@ -2,7 +2,7 @@
 
 Questa guida mostra come usare la eSIM Physical Card acquistata nello store online GL.iNet con i router GL.iNet.
 
-![eSIM Physical Card](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/simpoyo-esim-physical-card.png){class="glboxshadow"}
+![eSIM Physical Card](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/simpoyo-esim-physical-card.png){class="glboxshadow"}
 
 ## Caratteristiche
 
@@ -53,15 +53,15 @@ Se usi la eSIM Physical Card per la prima volta, guarda questo video di configur
 
 **Passaggio 1:** inserisci la eSIM Physical Card nel router. Fai riferimento alle immagini seguenti per una guida dettagliata.
 
-![E750V2](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/e750v2-sim-card.jpg){class="glboxshadow"}
+![E750V2](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/e750v2-sim-card.jpg){class="glboxshadow"}
 
-![X3000](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/x3000-sim-card.jpg){class="glboxshadow"}
+![X3000](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/x3000-sim-card.jpg){class="glboxshadow"}
 
-![XE3000](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/xe3000-sim-card.jpg){class="glboxshadow"}
+![XE3000](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/xe3000-sim-card.jpg){class="glboxshadow"}
 
 **Passaggio 2:** apri un browser e digita `192.168.8.1` nella barra degli indirizzi per accedere al GL.iNet Admin Panel.
 
-![log in to the GL.iNet Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/login-admin-panel.jpg){class="glboxshadow"}
+![log in to the GL.iNet Admin Panel](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/login-admin-panel.jpg){class="glboxshadow"}
 
 **Passaggio 3:** collega il dispositivo a Internet.
 
@@ -69,11 +69,11 @@ Vai su **INTERNET** e fai clic su **Connect**, oppure **Auto Setup** nelle versi
 
 *Questa scheda eSIM fisica include un seed profile con 1 GB di dati gratuiti per Stati Uniti ed Europa, piu' 100 MB di dati globali, validi per 1 anno dalla data di attivazione. Tieni presente che questi dati servono solo per acquistare e scaricare profili eSIM e non sono destinati al normale accesso Internet.*
 
-![initial setup connect](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/initial-setup-connect.jpg){class="glboxshadow"}
+![initial setup connect](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connect.jpg){class="glboxshadow"}
 
 Se la connessione Internet va a buon fine, lo schermo apparira' come segue.
 
-![initial setup connected](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/initial-setup-connected.jpg){class="glboxshadow"}
+![initial setup connected](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/initial-setup-connected.jpg){class="glboxshadow"}
 
 ## Gestire il profilo eSIM
 
@@ -81,7 +81,7 @@ Se la connessione Internet va a buon fine, lo schermo apparira' come segue.
 
 Assicurati che la Version sia 4.0 o superiore e che il numero Firmware Type sia 0319 o maggiore.
 
-![auto setup successfully](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/latest-firmware.png){class="glboxshadow"}
+![auto setup successfully](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/latest-firmware.png){class="glboxshadow"}
 
 Se il firmware **non e' aggiornato**, puoi aggiornarlo automaticamente online oppure manualmente.
 
@@ -91,7 +91,7 @@ Se il firmware **non e' aggiornato**, puoi aggiornarlo automaticamente online op
 
 2. Nel pannello di amministrazione web, vai su **SYSTEM** > **Upgrade** > **Online Upgrade** e fai clic sul pulsante **Install** per aggiornare automaticamente all'ultima versione firmware.
 
-    ![online upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/online-upgrade.png){class="glboxshadow"}
+    ![online upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/online-upgrade.png){class="glboxshadow"}
 
 <u>Opzione 2</u>: aggiornamento firmware manuale
 
@@ -99,7 +99,7 @@ Se il firmware **non e' aggiornato**, puoi aggiornarlo automaticamente online op
 
 2. Nel pannello di amministrazione web, vai su **SYSTEM** > **Upgrade** > **Local Upgrade**. Seleziona il file firmware oppure trascinalo nell'area dedicata per aggiornare all'ultima versione.
 
-    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/local-upgrade.png){class="glboxshadow"}
+    ![local upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/local-upgrade.png){class="glboxshadow"}
 
 !!! Note
 
@@ -113,7 +113,7 @@ Dopo l'aggiornamento del firmware, attendi il riavvio del dispositivo e poi acce
 
 Vai su **APPLICATIONS** > **eSIM Management**. Qui puoi vedere lo stato attuale della tua eSIM.
 
-![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_use_esim_physical_card_with_glinet_routers/esim-manage-status.jpg){class="glboxshadow"}
+![eSIM manage](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_the_esim/esim-manage-status.jpg){class="glboxshadow"}
 
 Qui puoi visualizzare lo stato della tua eSIM e gestire i profili eSIM.
 

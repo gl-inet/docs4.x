@@ -1,0 +1,6 @@
+INHERIT: mkdocs.yml
+
+# Local preview config. Keep publish builds on mkdocs.yml.
+# Disabling plugins avoids Git revision-date lookups and redirect generation
+# during local editing.
+plugins: []

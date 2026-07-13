@@ -4,7 +4,7 @@ VPN-Verschleierung ist eine Technik, bei der VPN-Datenverkehr wie normaler Inter
 
 Wenn keine Verbindung zu einem verschleierten WireGuard-Server hergestellt werden kann, führen Sie die folgenden Schritte zur Fehlerbehebung aus.
 
-1. **Stellen Sie sicher, dass die in den Client importierte WireGuard-Konfigurationsdatei exakt die Datei ist, die von Ihrem GL.iNet WireGuard-Server exportiert wurde.**
+1. **Stellen Sie sicher, dass die in jeden Client importierte WireGuard-Konfiguration dediziert ist.**
 
     Jeder Client benötigt eine eigene Peer-Konfigurationsdatei. Wenn mehrere Clients dieselbe Konfiguration verwenden, schlägt die Verbindung fehl.
 
@@ -12,11 +12,25 @@ Wenn keine Verbindung zu einem verschleierten WireGuard-Server hergestellt werde
 
     ![wg profiles](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/wg_profiles.png){class="glboxshadow"}
 
-2. **Gleichen Sie die AmneziaWG-Protokollversionen auf Server und Client ab.**
+2. **Stellen Sie sicher, dass die verschleierten Parameter vom Client verifiziert werden können.**
 
-    AmneziaWG 1.0 und 2.0 sind nicht miteinander kompatibel. Server und Client müssen dieselbe AmneziaWG-Protokollversion verwenden, um eine gültige Verbindung herzustellen.
+    Das AmneziaWG-Protokoll ist abwärtskompatibel. Wenn Ihr WireGuard-Server nur AmneziaWG v1.0 unterstützt, besteht die Konfigurationsdatei beim Import in einen Client mit v2.0-Unterstützung trotzdem die Verifizierung.
+        
+    Wenn Ihre Konfigurationsdatei jedoch Verschleierungsparameter von AmneziaWG v2.0 enthält, stellen Sie sicher, dass Ihr WireGuard-Client AmneziaWG v2.0 unterstützt. Andernfalls kann die Parameterverifizierung fehlschlagen.
 
-    Wenn Ihr Client-Gerät ein GL.iNet-Router ist, können Sie die Protokollversion mit den folgenden zwei Methoden prüfen.
+    !!! tip "Wie erkennt man die AmneziaWG-Version?"
+
+        **V1.0**: Keine S3-S4-Parameter; H1-H4 sind feste einzelne Ganzzahlen.
+        
+        **V2.0**: Es handelt sich um V2.0, wenn eine der folgenden Bedingungen erfüllt ist:
+        
+        - Enthält S3-S4-Parameter
+        - H1-H4 sind als Zahlenbereiche festgelegt
+        - Enthält angepasste I1-I5-Parameter.
+        
+        > Hinweis: I1-I5 werden nicht automatisch generiert. Benutzer können sie manuell als zusätzliche Zeilen in der Konfigurationsdatei ergänzen, damit AmneziaWG-Datenverkehr wie andere gängige Protokolle wie QUIC oder WebRTC aussieht.
+
+    Wenn Ihr WireGuard-Client ein GL.iNet-Router ist, prüfen Sie dessen AmneziaWG-Version mit den folgenden zwei Methoden.
 
     ??? note "Über das Router Web Admin Panel prüfen"
 

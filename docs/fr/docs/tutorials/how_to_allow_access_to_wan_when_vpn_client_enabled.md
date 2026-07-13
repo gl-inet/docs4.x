@@ -4,7 +4,7 @@ Lorsque le client VPN est activé sur les routeurs GL.iNet, en mode global par d
 
 Ce tutoriel présente les étapes permettant de rendre les services WAN locaux (par ex. imprimante, NAS, etc.) accessibles aux appareils du LAN du client VPN.
 
-![allow acdess wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_dashboard/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
+![allow access wan diagram](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/allow_access_wan_diagram.jpg){class="glboxshadow gl-90-desktop"}
 
 ## Pour le firmware v4.7 et les versions antérieures
 

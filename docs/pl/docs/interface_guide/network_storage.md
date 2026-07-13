@@ -1,4 +1,4 @@
-﻿# Magazyn sieciowy
+# Magazyn sieciowy
 
 ## Spis treści
 

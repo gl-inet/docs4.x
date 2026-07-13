@@ -4,7 +4,7 @@ Maskowanie VPN to technika, która sprawia, że ruch VPN wygląda jak zwykły ru
 
 Jeśli nie możesz nawiązać połączenia z maskowanym serwerem WireGuard, wykonaj poniższe kroki rozwiązywania problemów.
 
-1. **Upewnij się, że plik konfiguracyjny WireGuard zaimportowany do klienta jest dokładnie tym plikiem, który został wyeksportowany z serwera WireGuard GL.iNet.**
+1. **Upewnij się, że konfiguracja WireGuard zaimportowana do każdego klienta jest dedykowana.**
 
     Każdy klient wymaga osobnego pliku konfiguracji peer. Udostępnienie jednej konfiguracji wielu klientom spowoduje błędy połączenia.
 
@@ -12,11 +12,25 @@ Jeśli nie możesz nawiązać połączenia z maskowanym serwerem WireGuard, wyko
 
     ![wg profiles](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/wg_profiles.png){class="glboxshadow"}
 
-2. **Dopasuj wersje protokołu AmneziaWG na serwerze i kliencie.**
+2. **Upewnij się, że klient może zweryfikować parametry maskowania.**
 
-    AmneziaWG 1.0 i 2.0 nie są ze sobą zgodne. Serwer i klient muszą używać tej samej wersji protokołu AmneziaWG, aby nawiązać poprawne połączenie.
+    Protokół AmneziaWG jest zgodny wstecz. Jeśli serwer WireGuard obsługuje tylko AmneziaWG v1.0, plik konfiguracji nadal przejdzie weryfikację po zaimportowaniu do klienta obsługującego v2.0.
+        
+    Jeśli jednak plik konfiguracji zawiera parametry maskowania AmneziaWG v2.0, upewnij się, że klient WireGuard obsługuje AmneziaWG v2.0. W przeciwnym razie weryfikacja parametrów może się nie powieść.
 
-    Jeśli urządzeniem klienckim jest router GL.iNet, wersję protokołu można sprawdzić na dwa sposoby.
+    !!! tip "Jak rozpoznać wersję AmneziaWG?"
+
+        **V1.0**: Brak parametrów S3-S4; H1-H4 to pojedyncze stałe liczby całkowite.
+        
+        **V2.0**: Jest to V2.0, jeśli spełniony jest dowolny z poniższych warunków:
+        
+        - Zawiera parametry S3-S4
+        - H1-H4 są ustawione jako zakresy liczbowe
+        - Zawiera niestandardowe parametry I1-I5.
+        
+        > Uwaga: I1-I5 nie są generowane automatycznie. Użytkownicy mogą ręcznie dodać je jako dodatkowe linie w pliku konfiguracji, aby ruch AmneziaWG wyglądał jak inne popularne protokoły, takie jak QUIC lub WebRTC.
+
+    Jeśli klient WireGuard jest routerem GL.iNet, sprawdź jego wersję AmneziaWG na dwa sposoby.
 
     ??? note "Sprawdzenie przez Router Web Admin Panel"
 

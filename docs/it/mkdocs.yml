@@ -54,6 +54,18 @@ plugins:
         'interface_guide/sms.md': 'tutorials/sms.md'
 
 extra:
+  analytics:
+    feedback:
+      title: Questa pagina ti è stata utile?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Questa pagina è stata utile
+          data: 1
+          note: Grazie per il tuo feedback!
+        - icon: material/emoticon-sad-outline
+          name: Questa pagina potrebbe essere migliorata
+          data: 0
+          note: Grazie per il tuo feedback! Lo useremo per migliorare questa pagina.
   social:
     - icon: fontawesome/solid/globe
       link: https://www.gl-inet.com

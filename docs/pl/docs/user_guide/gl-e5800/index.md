@@ -233,21 +233,11 @@ Obejrzyj ten film lub wykonaj poniższe kroki.
 
     ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
-2. Naciśnij i przytrzymaj przycisk Reset przez **10 sekund**, a następnie zwolnij go, aby wykonać twardy reset. Podczas przytrzymywania przycisku zwracaj uwagę na komunikaty na ekranie i postępuj zgodnie z instrukcjami.
+2. Wykonaj soft reset albo reset do ustawień fabrycznych, zależnie od potrzeb.
 
-    Spowoduje to usunięcie wszystkich ustawień. Zachowaj ostrożność.
+    - **Soft reset**: Jeśli chcesz ponownie uruchomić łączność sieciową bez kasowania danych, naciśnij i przytrzymaj przycisk Reset przez **4 sekundy**, a następnie zwolnij go, aby naprawić sieć. Podczas przytrzymywania przycisku zwracaj uwagę na komunikaty na ekranie i postępuj zgodnie z instrukcjami. Spowoduje to ponowne uruchomienie interfejsu sieciowego z zachowaniem ustawień Wi-Fi, konfiguracji VPN (wyłączonych), ustawień systemowych itp. Jeśli Wi-Fi zostało wyłączone, soft reset przywróci domyślny stan włączonego Wi-Fi. Soft reset można też wykorzystać do szybkiego przełączenia urządzenia z trybu innego niż router do trybu routera.
 
-**Wskazówka**: Jeśli chcesz przywrócić łączność sieciową bez resetowania do ustawień fabrycznych, po prostu naciśnij i przytrzymaj przycisk Reset przez **4 sekundy**, a następnie zwolnij go, aby naprawić sieć. Podczas przytrzymywania przycisku zwracaj uwagę na komunikaty na ekranie i postępuj zgodnie z instrukcjami.
-
-Spowoduje to ponowne uruchomienie interfejsu sieciowego z zachowaniem ustawień Wi-Fi, konfiguracji VPN (wyłączonych), ustawień systemowych itp.
-
-!!! note "Soft Reset"
-
-    1. <u>Soft reset</u> uruchamia urządzenie ponownie bez kasowania danych, natomiast <u>reset do ustawień fabrycznych</u> przywraca ustawienia domyślne i usuwa wszystkie dane użytkownika.
-
-    2. Jeśli Wi-Fi zostało wyłączone, soft reset przywróci domyślny stan włączonego Wi-Fi.
-
-    3. Soft reset można też wykorzystać do szybkiego przełączenia urządzenia z trybu innego niż router do trybu routera.
+    - **Reset do ustawień fabrycznych**: Naciśnij i przytrzymaj przycisk Reset przez **10 sekund**, a następnie zwolnij go, aby wykonać twardy reset. Podczas przytrzymywania przycisku zwracaj uwagę na komunikaty na ekranie i postępuj zgodnie z instrukcjami. Spowoduje to usunięcie wszystkich ustawień. Zachowaj ostrożność.
 
 ### Reset z poziomu web
 

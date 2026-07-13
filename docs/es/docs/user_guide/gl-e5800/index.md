@@ -232,21 +232,11 @@ Vea este vídeo o siga los pasos que se indican a continuación.
 
    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
-2. Mantenga pulsado el botón de reinicio durante **10 segundos** y suéltelo para realizar un reinicio completo. Mientras mantiene pulsado el botón, preste atención a las indicaciones en pantalla y siga las instrucciones.
+2. Realice un reinicio suave o un restablecimiento de fábrica según sea necesario.
 
-   Esto borrará todos sus ajustes. Proceda con precaución.
+   - **Reinicio suave**: Si desea reiniciar la conectividad de red sin borrar datos, mantenga pulsado el botón de reinicio durante **4 segundos** y suéltelo para reparar la red. Mientras mantiene pulsado el botón, preste atención a las indicaciones en pantalla y siga las instrucciones. Esto reiniciará la interfaz de red conservando los ajustes de Wi-Fi, las configuraciones VPN (desactivadas), los ajustes del sistema, etc. Si el Wi-Fi se ha desactivado, un reinicio suave restaurará el Wi-Fi a su estado predeterminado activado. Un reinicio suave también puede utilizarse para cambiar rápidamente el dispositivo del modo no router al modo router.
 
-**Consejo**: si desea restaurar la conectividad de red sin realizar un restablecimiento de fábrica, mantenga pulsado el botón de reinicio durante **4 segundos** y suéltelo para reparar la red. Mientras mantiene pulsado el botón, preste atención a las indicaciones en pantalla y siga las instrucciones.
-
-Esto reiniciará la interfaz de red, conservando los ajustes de Wi-Fi, las configuraciones VPN (desactivadas), los ajustes del sistema, etc.
-
-!!! note "Soft Reset"
-
-    1. Un <u>reinicio suave</u> reinicia el dispositivo sin borrar datos, mientras que un <u>restablecimiento de fábrica</u> lo devuelve a la configuración predeterminada y elimina todos los datos del usuario.
-
-    2. Si el Wi-Fi se ha desactivado, un reinicio suave restaurará el Wi-Fi a su estado predeterminado activado.
-
-    3. Un reinicio suave también puede utilizarse para cambiar rápidamente el dispositivo del modo no router al modo router.
+   - **Restablecimiento de fábrica**: Mantenga pulsado el botón de reinicio durante **10 segundos** y suéltelo para realizar un reinicio completo. Mientras mantiene pulsado el botón, preste atención a las indicaciones en pantalla y siga las instrucciones. Esto borrará todos sus ajustes. Proceda con precaución.
 
 ### Restablecer desde la web
 

@@ -234,21 +234,11 @@ Regardez cette vidéo ou suivez les étapes ci-dessous.
 
     ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
-2. Maintenez le bouton Reset enfoncé pendant **10 secondes**, puis relâchez-le pour effectuer une réinitialisation complète. Pendant que vous maintenez le bouton, suivez les indications affichées à l’écran.
-    
-    Cette opération effacera tous vos paramètres. Procédez avec prudence.
+2. Effectuez une réinitialisation logicielle ou une réinitialisation d’usine selon vos besoins.
 
-**Astuce** : si vous souhaitez rétablir la connectivité réseau sans effectuer de réinitialisation d’usine, maintenez simplement le bouton Reset enfoncé pendant **4 secondes**, puis relâchez-le pour réparer votre réseau. Pendant que vous maintenez le bouton, suivez les indications affichées à l’écran.
+    - **Réinitialisation logicielle** : si vous souhaitez redémarrer la connectivité réseau sans effacer les données, maintenez le bouton Reset enfoncé pendant **4 secondes**, puis relâchez-le pour réparer votre réseau. Pendant que vous maintenez le bouton, suivez les indications affichées à l’écran. Cela redémarrera l’interface réseau tout en conservant les paramètres Wi‑Fi, les configurations VPN (désactivées), les paramètres système, etc. Si le Wi‑Fi a été désactivé, une réinitialisation logicielle le réactivera avec son état par défaut. Une réinitialisation logicielle peut également être utilisée pour faire basculer rapidement l’appareil du mode non-routeur au mode routeur.
 
-Cela redémarrera l’interface réseau tout en conservant les paramètres Wi‑Fi, les configurations VPN (désactivées), les paramètres système, etc.
-
-!!! note "Soft Reset"
-
-    1. Une <u>réinitialisation logicielle</u> redémarre l’appareil sans effacer les données, tandis qu’une <u>réinitialisation d’usine</u> le restaure à ses paramètres par défaut et supprime toutes les données utilisateur.
-
-    2. Si le Wi‑Fi a été désactivé, une réinitialisation logicielle le réactivera avec son état par défaut.
-
-    3. Une réinitialisation logicielle peut également être utilisée pour faire basculer rapidement l’appareil du mode non-routeur au mode routeur.
+    - **Réinitialisation d’usine** : maintenez le bouton Reset enfoncé pendant **10 secondes**, puis relâchez-le pour effectuer une réinitialisation complète. Pendant que vous maintenez le bouton, suivez les indications affichées à l’écran. Cette opération effacera tous vos paramètres. Procédez avec prudence.
 
 ### Réinitialiser via le web
 

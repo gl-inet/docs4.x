@@ -232,21 +232,11 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
-2. Halten Sie die Reset-Taste **10 Sekunden** lang gedrückt und lassen Sie sie dann los, um einen Hard Reset durchzuführen. Achten Sie währenddessen auf die Hinweise auf dem Bildschirm und folgen Sie den Anweisungen.
+2. Führen Sie je nach Bedarf einen Soft Reset oder einen Werksreset durch.
 
-   Dadurch werden alle Ihre Einstellungen gelöscht. Bitte gehen Sie vorsichtig vor.
+   - **Soft Reset**: Wenn Sie die Netzwerkverbindung neu starten möchten, ohne Daten zu löschen, halten Sie die Reset-Taste **4 Sekunden** lang gedrückt und lassen Sie sie dann los, um Ihr Netzwerk zu reparieren. Achten Sie währenddessen auf die Hinweise auf dem Bildschirm und folgen Sie den Anweisungen. Dadurch wird die Netzwerkschnittstelle neu gestartet, während Wi-Fi-Einstellungen, VPN-Konfigurationen (deaktiviert), Systemeinstellungen usw. erhalten bleiben. Wenn Wi-Fi deaktiviert wurde, stellt ein Soft Reset Wi-Fi wieder auf den standardmäßig aktivierten Zustand zurück. Ein Soft Reset kann auch verwendet werden, um das Gerät schnell vom Nicht-Router-Modus in den Router-Modus zu wechseln.
 
-**Tipp**: Wenn Sie die Netzwerkverbindung wiederherstellen möchten, ohne einen Werksreset durchzuführen, halten Sie die Reset-Taste einfach **4 Sekunden** lang gedrückt und lassen Sie sie dann los, um Ihr Netzwerk zu reparieren. Achten Sie währenddessen auf die Hinweise auf dem Bildschirm und folgen Sie den Anweisungen.
-
-Dadurch wird die Netzwerkschnittstelle neu gestartet, während Wi-Fi-Einstellungen, VPN-Konfigurationen (deaktiviert), Systemeinstellungen usw. erhalten bleiben.
-
-!!! note "Soft Reset"
-
-    1. Ein <u>Soft Reset</u> startet das Gerät neu, ohne Daten zu löschen, während ein <u>Werksreset</u> die Standardeinstellungen wiederherstellt und alle Benutzerdaten löscht.
-
-    2. Wenn Wi-Fi deaktiviert wurde, stellt ein Soft Reset Wi-Fi wieder auf den standardmäßig aktivierten Zustand zurück.
-
-    3. Ein Soft Reset kann auch verwendet werden, um das Gerät schnell vom Nicht-Router-Modus in den Router-Modus zu wechseln.
+   - **Werksreset**: Halten Sie die Reset-Taste **10 Sekunden** lang gedrückt und lassen Sie sie dann los, um einen Hard Reset durchzuführen. Achten Sie währenddessen auf die Hinweise auf dem Bildschirm und folgen Sie den Anweisungen. Dadurch werden alle Ihre Einstellungen gelöscht. Bitte gehen Sie vorsichtig vor.
 
 ### Über das Web zurücksetzen
 

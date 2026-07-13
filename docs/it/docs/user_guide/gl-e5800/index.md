@@ -232,21 +232,11 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
     ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
-2. Tieni premuto il pulsante Reset per **10 secondi**, quindi rilascialo per eseguire un hard reset. Durante la pressione, presta attenzione ai messaggi sullo schermo e segui le istruzioni.
+2. Esegui un soft reset o un ripristino delle impostazioni di fabbrica in base alle tue esigenze.
 
-    Questa operazione cancellerà tutte le impostazioni. Procedi con cautela.
+    - **Soft reset**: se desideri riavviare la connettività di rete senza cancellare i dati, tieni premuto il pulsante Reset per **4 secondi** e poi rilascialo per riparare la rete. Durante la pressione, presta attenzione ai messaggi sullo schermo e segui le istruzioni. Questa operazione riavvierà l'interfaccia di rete mantenendo impostazioni Wi-Fi, configurazioni VPN (disabilitate), impostazioni di sistema e così via. Se il Wi-Fi è stato disabilitato, un soft reset ripristinerà il Wi-Fi al suo stato predefinito attivo. Un soft reset può essere usato anche per riportare rapidamente il dispositivo dalla modalità non-router alla modalità router.
 
-**Suggerimento**: se desideri ripristinare la connettività di rete senza eseguire un ripristino alle impostazioni di fabbrica, tieni semplicemente premuto il pulsante Reset per **4 secondi** e poi rilascialo per riparare la rete. Durante la pressione, presta attenzione ai messaggi sullo schermo e segui le istruzioni.
-
-Questa operazione riavvierà l'interfaccia di rete mantenendo impostazioni Wi-Fi, configurazioni VPN (disabilitate), impostazioni di sistema e così via.
-
-!!! note "Soft Reset"
-
-    1. Un <u>soft reset</u> riavvia il dispositivo senza cancellare i dati, mentre un <u>ripristino delle impostazioni di fabbrica</u> lo riporta alle impostazioni predefinite ed elimina tutti i dati utente.
-
-    2. Se il Wi-Fi è stato disabilitato, un soft reset ripristinerà il Wi-Fi al suo stato predefinito attivo.
-
-    3. Un soft reset può essere usato anche per riportare rapidamente il dispositivo dalla modalità non-router alla modalità router.
+    - **Ripristino delle impostazioni di fabbrica**: tieni premuto il pulsante Reset per **10 secondi**, quindi rilascialo per eseguire un hard reset. Durante la pressione, presta attenzione ai messaggi sullo schermo e segui le istruzioni. Questa operazione cancellerà tutte le impostazioni. Procedi con cautela.
 
 ### Ripristino tramite web
 

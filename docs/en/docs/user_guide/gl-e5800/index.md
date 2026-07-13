@@ -232,21 +232,11 @@ Watch this video or follow the steps below.
 
     ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
-2. Press and hold the reset button for **10 seconds**, then release to perform a hard reset. When holding the button, pay attention to the on-screen prompts and operate as instructed.
+2. Perform a soft reset or factory reset as needed.
+
+    - **Soft Reset**: If you want to restart network connectivity without erasing data, press and hold the reset button for **4 seconds** and then release it to repair your network. When holding the button, pay attention to the on-screen prompts and operate as instructed. This will restart the network interface while preserving your Wi-Fi settings, VPN configurations (disabled), system settings, etc. If Wi-Fi has been disabled, a soft reset will restore Wi-Fi to the default enabled state. A soft reset can also be used to quickly switch the device from non-router mode to router mode.
     
-    This will clear all your settings. Please proceed with caution.
-
-**Tip**: If you want to restore network connectivity without performing a factory reset, simply press and hold the reset button for **4 seconds** and then release it to repair your network. When holding the button, pay attention to the on-screen prompts and operate as instructed.
-
-This will restart the network interface while preserving your Wi-Fi settings, VPN configurations (disabled), system settings, etc.
-
-!!! note "Soft Reset"
-
-    1. A <u>soft reset</u> restarts the device without erasing data, while a <u>factory reset</u> restores it to default settings and deletes all user data.
-    
-    2. If Wi-Fi has been disabled, a soft reset will restore Wi-Fi to its default enabled state.
-
-    3. A soft reset can also be used to quickly switch the device from non-router mode to router mode.
+    - **Factory Reset**: Press and hold the reset button for **10 seconds**, then release to perform a hard reset. When holding the button, pay attention to the on-screen prompts and operate as instructed. This will clear all your settings. Please proceed with caution.
 
 ### Reset via Web
 

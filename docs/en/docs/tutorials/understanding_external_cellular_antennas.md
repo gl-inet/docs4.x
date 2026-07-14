@@ -162,4 +162,4 @@ Wi-Fi and cellular antennas are designed for different radio systems and are not
 
 ---
 
-Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/en-us/pages/contact-us){target="_blank"}.
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com) or [Contact us](https://www.gl-inet.com/contact-us).

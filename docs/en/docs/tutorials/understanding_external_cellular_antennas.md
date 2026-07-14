@@ -158,7 +158,7 @@ Wi-Fi and cellular antennas are designed for different radio systems and are not
 ## Related tutorials
 
 - [Install or change external antennas](how_to_install_or_change_antennas.md)
-- [Check carrier aggregation status](check_carrier_aggregation_status.md)
+- [Check carrier aggregation status](how_to_check_carrier_aggregation.md)
 
 ---
 

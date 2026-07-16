@@ -40,6 +40,7 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak sprawdzić stan agregacji pasm w routerze komórkowym](how_to_check_carrier_aggregation.md)
 * [Jak skonfigurować i używać Spitz AX (GL-X3000) w pojeździe rekreacyjnym](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
 * [Jak zainstalować lub wymienić zewnętrzne anteny w routerach komórkowych](how_to_install_or_change_antennas.md)
+* [Zrozumienie zewnętrznych anten komórkowych](understanding_external_cellular_antennas.md)
 
 ## eSIM
 

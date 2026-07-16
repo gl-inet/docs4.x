@@ -259,6 +259,7 @@ nav:
       - Verifier l'etat de l'agregation de porteuses: tutorials/how_to_check_carrier_aggregation.md
       - Configurer Spitz AX pour un camping-car: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md
       - Installer ou changer les antennes externes: tutorials/how_to_install_or_change_antennas.md
+      - Comprendre les antennes cellulaires externes: tutorials/understanding_external_cellular_antennas.md
     - eSIM:
       - Utiliser une carte eSIM physique avec les routeurs GL.iNet: tutorials/how_to_use_esim_physical_card_with_glinet_routers.md
       - Utiliser une carte eSIM physique avec les appareils Android: tutorials/how_to_use_the_esim_physical_card_with_android_devices.md

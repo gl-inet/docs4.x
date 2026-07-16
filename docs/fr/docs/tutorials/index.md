@@ -40,6 +40,7 @@ Découvrez comment utiliser correctement nos appareils grâce à des étapes dé
 * [Comment vérifier l’état de l’agrégation de porteuses sur votre routeur cellulaire](how_to_check_carrier_aggregation.md)
 * [Comment configurer et utiliser Spitz AX (GL-X3000) dans votre véhicule de loisirs](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
 * [Comment installer ou remplacer des antennes externes pour les routeurs cellulaires](how_to_install_or_change_antennas.md)
+* [Comprendre les antennes cellulaires externes](understanding_external_cellular_antennas.md)
 
 ## eSIM
 

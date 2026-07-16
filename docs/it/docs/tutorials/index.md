@@ -40,6 +40,7 @@ Scopri come usare correttamente i nostri dispositivi con istruzioni dettagliate.
 * [Come controllare lo stato dell'aggregazione di portante sul router cellulare](how_to_check_carrier_aggregation.md)
 * [Come configurare e utilizzare Spitz AX (GL-X3000) nel tuo veicolo ricreazionale](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
 * [Come installare o sostituire le antenne esterne per router cellulari](how_to_install_or_change_antennas.md)
+* [Comprendere le antenne cellulari esterne](understanding_external_cellular_antennas.md)
 
 ## eSIM
 

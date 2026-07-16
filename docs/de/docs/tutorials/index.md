@@ -40,6 +40,7 @@ Erfahren Sie anhand detaillierter Schritte, wie Sie unsere Geräte korrekt verwe
 * [So überprüfen Sie den Carrier-Aggregation-Status auf Ihrem Mobilfunkrouter](how_to_check_carrier_aggregation.md)
 * [So richten Sie Spitz AX (GL-X3000) in Ihrem Wohnmobil ein und verwenden ihn](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
 * [So installieren oder wechseln Sie externe Antennen für Mobilfunkrouter](how_to_install_or_change_antennas.md)
+* [Externe Mobilfunkantennen verstehen](understanding_external_cellular_antennas.md)
 
 ## eSIM
 

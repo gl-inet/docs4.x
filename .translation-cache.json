@@ -3856,6 +3856,35 @@
       }
     }
   },
+  "docs/en/docs/tutorials/understanding_external_cellular_antennas.md": {
+    "source_hash": "fde566633c972691ebe84f4e524a520da2d5cd7ade79c7070caed920dc101b25",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1784131200
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1784131200
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1784131200
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1784131200
+      },
+      "jp": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1784131200
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1784131200
+      }
+    }
+  },
   "docs/en/docs/tutorials/how_to_obtain_technical_support_via_anydesk.md": {
     "source_hash": "9861e4032d8029e4041052ce9ae470b3304ba02fabe4fb4b41a48719d34af01e",
     "targets": {
@@ -4263,31 +4292,31 @@
     }
   },
   "docs/en/docs/tutorials/index.md": {
-    "source_hash": "6ee0b5a3dca0aa9ed0c593299e4f19a4fd160f0f289b05c9025948e1f6bb5af4",
+    "source_hash": "68df22921bed0df3929c6fb12c77a001492820bd21c63ee11b5f55c4b233fc2d",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "updated_at": 1784131200
       },
       "es": {
         "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "updated_at": 1784131200
       },
       "fr": {
         "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "updated_at": 1784131200
       },
       "it": {
         "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "updated_at": 1784131200
       },
       "jp": {
         "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "updated_at": 1784131200
       },
       "pl": {
         "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "updated_at": 1784131200
       }
     }
   },
@@ -5829,31 +5858,31 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "7650a7c90efa99ab8d9d9e55ba0b967d8dd45e347cdcde8975b7d4e27abea393",
+    "source_hash": "597a406ebe955158f6b2ad9582e721ebbcb6dda6ad1981bbde9d0ad6e3a87c75",
     "targets": {
       "de": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1784131200
       },
       "es": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1784131200
       },
       "fr": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1784131200
       },
       "it": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1784131200
       },
       "jp": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1784131200
       },
       "pl": {
         "model": "manual-sync",
-        "updated_at": 1783759579
+        "updated_at": 1784131200
       }
     }
   },

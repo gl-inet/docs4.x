@@ -40,6 +40,7 @@ hide:
 * [セルラールーターでキャリアアグリゲーションの状態を確認する方法](how_to_check_carrier_aggregation.md)
 * [Spitz AX (GL-X3000) をRVでセットアップして使用する方法](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)
 * [セルラールーター用の外部アンテナを取り付けまたは交換する方法](how_to_install_or_change_antennas.md)
+* [外部セルラーアンテナについて](understanding_external_cellular_antennas.md)
 
 ## eSIM
 

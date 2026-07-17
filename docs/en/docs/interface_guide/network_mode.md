@@ -32,6 +32,10 @@ Models with Wi-Fi functionality usually support four network modes: Router, Acce
 
     After switching to Access Point mode, you will not be able to access the web admin panel using the original LAN IP address. Instead, you need to log in to the upstream router to find the IP address it has assigned to this AP, then use this IP address to access the web admin panel. If you do not have access to the upstream router, press and hold the reset button for 4 seconds to revert it to the default Router mode.
 
+    !!! tip
+
+        When deploying multiple access points, AP placement, channel selection, coverage overlap, and transmit power can affect roaming and performance. See [Understanding Wi-Fi Coverage, Access Points, and Transmit Power](../tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md) for deployment guidance.
+
     ---
 
 - **Extender**: This mode is designed to extend the Wi-Fi coverage of an existing wireless network and eliminate signal dead zones in areas with poor connectivity.

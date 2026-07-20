@@ -40,7 +40,7 @@ document$.subscribe(function () {
         e.preventDefault()
         var page = document.location.pathname
         var value = this.getAttribute('data-md-value')
-        gtag('event', 'feedback', { page: page, data: value })
+        gtag('event', 'feedback_docs4', { page: page, data: value })
         form.firstElementChild.disabled = true
         var note = form.querySelector(".md-feedback__note [data-md-value='" + value + "']")
         if (note) note.hidden = false

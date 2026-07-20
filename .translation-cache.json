@@ -2407,31 +2407,31 @@
     }
   },
   "docs/en/docs/interface_guide/network_mode.md": {
-    "source_hash": "3b9f50889677ab180aaa787fa4b7a65b75d96546a59e7d6627e30e44d3a60031",
+    "source_hash": "437cf1d2a57c3f56d26b0babc45b44782cf106af16a7db791e81f83c3c51ee1c",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       }
     }
   },
@@ -4292,31 +4292,31 @@
     }
   },
   "docs/en/docs/tutorials/index.md": {
-    "source_hash": "68df22921bed0df3929c6fb12c77a001492820bd21c63ee11b5f55c4b233fc2d",
+    "source_hash": "049e3593731e57697d80c859dcc933a260b5062799274d25e76a5fc3dbae80ba",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       }
     }
   },
@@ -5858,31 +5858,31 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "597a406ebe955158f6b2ad9582e721ebbcb6dda6ad1981bbde9d0ad6e3a87c75",
+    "source_hash": "d0b625ea74c67860d16d99ec9ab20d148445361daeefb4144b17d28f08939657",
     "targets": {
       "de": {
-        "model": "manual-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "es": {
-        "model": "manual-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "fr": {
-        "model": "manual-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "it": {
-        "model": "manual-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "jp": {
-        "model": "manual-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       },
       "pl": {
-        "model": "manual-sync",
-        "updated_at": 1784131200
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       }
     }
   },
@@ -6405,6 +6405,35 @@
       "pl": {
         "model": "manual-sync",
         "updated_at": 1783763308
+      }
+    }
+  },
+  "docs/en/docs/tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md": {
+    "source_hash": "ee183d2b4cc965b8d2a7b7b6d603fcf05eaa3104fdd4c43543ac46a8b5c2d46f",
+    "targets": {
+      "de": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
+      },
+      "es": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
+      },
+      "fr": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
+      },
+      "it": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
+      },
+      "jp": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
+      },
+      "pl": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1784522575
       }
     }
   }

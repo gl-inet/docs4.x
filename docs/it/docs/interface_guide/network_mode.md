@@ -32,6 +32,10 @@ I modelli con funzionalita' Wi-Fi di solito supportano quattro modalita' di rete
 
     Dopo il passaggio alla modalita' Access Point, non potrai accedere al pannello di amministrazione web usando l'indirizzo IP LAN originale. Dovrai invece accedere al router a monte per trovare l'indirizzo IP assegnato a questo AP e poi usare tale indirizzo IP per accedere al pannello di amministrazione web. Se non hai accesso al router a monte, tieni premuto il pulsante di reset per 4 secondi per riportarlo alla modalita' Router predefinita.
 
+    !!! tip
+
+        Quando distribuisci piu' access point, posizionamento degli AP, selezione dei canali, sovrapposizione della copertura e potenza di trasmissione possono influire su roaming e prestazioni. Consulta [Comprendere copertura Wi-Fi, access point e potenza di trasmissione](../tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md) per indicazioni sulla distribuzione.
+
     ---
 
 - **Extender**: questa modalita' e' progettata per estendere la copertura Wi-Fi di una rete wireless esistente ed eliminare le zone d'ombra del segnale nelle aree con scarsa connettivita'.

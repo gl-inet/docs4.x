@@ -56,6 +56,7 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 
 * [Jak połączyć się z siecią EAP (Extensible Authentication Protocol)](eap.md)
 * [Jak skonfigurować sieć gościnną Wi-Fi na routerach GL.iNet](how_to_set_up_a_guest_network.md)
+* [Zrozumienie zasięgu Wi-Fi, punktów dostępowych i mocy nadawania](understanding_wifi_coverage_access_points_and_transmit_power.md)
 * [Jak skonfigurować bramę drop-in na routerach GL.iNet](how_to_set_up_drop_in_gateway.md)
 * [Jak skonfigurować przekierowanie portów na routerze głównym](how_to_set_up_port_forwarding.md)
 * [Jak skonfigurować podwójne przewodowe połączenie WAN na routerze z jednym portem WAN](configure_dual_ethernet_wan.md)

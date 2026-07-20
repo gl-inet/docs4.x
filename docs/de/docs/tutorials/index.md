@@ -56,6 +56,7 @@ Erfahren Sie anhand detaillierter Schritte, wie Sie unsere Geräte korrekt verwe
 
 * [So verbinden Sie sich mit einem EAP-Netzwerk (Extensible Authentication Protocol)](eap.md)
 * [So richten Sie ein Gast-WLAN auf GL.iNet-Routern ein](how_to_set_up_a_guest_network.md)
+* [Wi-Fi-Abdeckung, Access Points und Sendeleistung verstehen](understanding_wifi_coverage_access_points_and_transmit_power.md)
 * [So richten Sie Drop-in Gateway auf GL.iNet-Routern ein](how_to_set_up_drop_in_gateway.md)
 * [So richten Sie Portweiterleitung auf Ihrem primären Router ein](how_to_set_up_port_forwarding.md)
 * [So konfigurieren Sie Dual-WAN-Zugriff über Kabel auf einem Router mit nur einem WAN-Port](configure_dual_ethernet_wan.md)

@@ -32,6 +32,10 @@ Modelle mit Wi-Fi-Funktion unterstützen in der Regel vier Netzwerkmodi: Router,
 
     Nach dem Wechsel in den Access-Point-Modus können Sie nicht mehr über die ursprüngliche LAN-IP-Adresse auf das Web-Admin-Panel zugreifen. Stattdessen müssen Sie sich am Upstream-Router anmelden, um die IP-Adresse zu finden, die er diesem AP zugewiesen hat, und diese IP-Adresse anschließend für den Zugriff auf das Web-Admin-Panel verwenden. Wenn Sie keinen Zugriff auf den Upstream-Router haben, halten Sie die Reset-Taste 4 Sekunden lang gedrückt, um zum Standardmodus Router zurückzukehren.
 
+    !!! tip
+
+        Wenn Sie mehrere Access Points bereitstellen, können AP-Positionierung, Kanalauswahl, Abdeckungsüberlappung und Sendeleistung Roaming und Leistung beeinflussen. Weitere Hinweise zur Bereitstellung finden Sie unter [Wi-Fi-Abdeckung, Access Points und Sendeleistung verstehen](../tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md).
+
     ---
 
 - **Extender**: Dieser Modus wurde entwickelt, um die Wi-Fi-Abdeckung eines bestehenden Drahtlosnetzwerks zu erweitern und Funklöcher in Bereichen mit schlechter Verbindung zu beseitigen.

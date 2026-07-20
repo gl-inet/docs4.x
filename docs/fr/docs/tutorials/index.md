@@ -56,6 +56,7 @@ Découvrez comment utiliser correctement nos appareils grâce à des étapes dé
 
 * [Comment se connecter à un réseau EAP (Extensible Authentication Protocol)](eap.md)
 * [Comment configurer un réseau Wi-Fi invité sur les routeurs GL.iNet](how_to_set_up_a_guest_network.md)
+* [Comprendre la couverture Wi-Fi, les points d'accès et la puissance d'émission](understanding_wifi_coverage_access_points_and_transmit_power.md)
 * [Comment configurer une passerelle Drop-in sur les routeurs GL.iNet](how_to_set_up_drop_in_gateway.md)
 * [Comment configurer le transfert de port sur votre routeur principal](how_to_set_up_port_forwarding.md)
 * [Comment configurer un accès WAN double filaire sur un routeur à port WAN unique](configure_dual_ethernet_wan.md)

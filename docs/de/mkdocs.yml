@@ -269,6 +269,7 @@ nav:
     - Network:
       - Verbindung mit EAP-Netzwerk: tutorials/eap.md
       - Gastnetzwerk einrichten: tutorials/how_to_set_up_a_guest_network.md
+      - Wi-Fi-Abdeckung, Access Points und Sendeleistung verstehen: tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md
       - Drop-in Gateway einrichten: tutorials/how_to_set_up_drop_in_gateway.md
       - Portweiterleitung auf dem Hauptrouter einrichten: tutorials/how_to_set_up_port_forwarding.md
       - Dualen kabelgebundenen WAN-Zugang konfigurieren: tutorials/configure_dual_ethernet_wan.md

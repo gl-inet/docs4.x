@@ -32,6 +32,10 @@ Modele z funkcją Wi-Fi zazwyczaj obsługują cztery tryby sieciowe: Router, Acc
 
     Po przełączeniu w tryb Access Point dostęp do panelu administratora za pomocą oryginalnego adresu IP sieci LAN nie będzie możliwy. Zamiast tego należy zalogować się do routera nadrzędnego, aby znaleźć adres IP przypisany temu punktowi dostępowemu, a następnie użyć go do uzyskania dostępu do panelu administratora. Jeśli nie masz dostępu do routera nadrzędnego, naciśnij i przytrzymaj przycisk reset przez 4 sekundy, aby przywrócić domyślny tryb Router.
 
+    !!! tip
+
+        Podczas wdrażania wielu punktów dostępowych rozmieszczenie AP, dobór kanałów, nakładanie się zasięgu i moc nadawania mogą wpływać na roaming oraz wydajność. Wskazówki dotyczące wdrożenia znajdziesz w artykule [Zrozumienie zasięgu Wi-Fi, punktów dostępowych i mocy nadawania](../tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md).
+
     ---
 
 - **Extender**: Tryb ten jest przeznaczony do rozszerzania zasięgu Wi-Fi istniejącej sieci bezprzewodowej i eliminowania martwych stref sygnału w obszarach o słabej łączności.

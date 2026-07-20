@@ -269,6 +269,7 @@ nav:
     - Rete:
       - Connettersi a una rete EAP: tutorials/eap.md
       - Configurare una rete ospite: tutorials/how_to_set_up_a_guest_network.md
+      - Comprendere copertura Wi-Fi, access point e potenza di trasmissione: tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md
       - Configurare Drop-in Gateway: tutorials/how_to_set_up_drop_in_gateway.md
       - Configurare il port forwarding sul router principale: tutorials/how_to_set_up_port_forwarding.md
       - Configurare l'accesso WAN cablato duale: tutorials/configure_dual_ethernet_wan.md

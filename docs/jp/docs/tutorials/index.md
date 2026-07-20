@@ -56,6 +56,7 @@ hide:
 
 * [EAP (Extensible Authentication Protocol) ネットワークに接続する方法](eap.md)
 * [GL.iNetルーターでゲストWi-Fiネットワークを設定する方法](how_to_set_up_a_guest_network.md)
+* [Wi-Fi カバレッジ、アクセスポイント、送信出力を理解する](understanding_wifi_coverage_access_points_and_transmit_power.md)
 * [GL.iNetルーターでDrop-in Gatewayを設定する方法](how_to_set_up_drop_in_gateway.md)
 * [プライマリルーターでポートフォワーディングを設定する方法](how_to_set_up_port_forwarding.md)
 * [WANポートが1つのルーターでデュアル有線WANアクセスを設定する方法](configure_dual_ethernet_wan.md)

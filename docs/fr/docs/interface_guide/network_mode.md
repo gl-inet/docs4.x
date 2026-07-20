@@ -32,6 +32,10 @@ Les modèles équipés du Wi-Fi prennent généralement en charge quatre modes r
 
     Après être passé en mode Access Point, vous ne pourrez plus accéder au panneau d'administration Web en utilisant l'adresse IP LAN d'origine. Vous devez à la place vous connecter au routeur en amont pour trouver l'adresse IP qu'il a attribuée à cet AP, puis utiliser cette adresse IP pour accéder au panneau d'administration Web. Si vous n'avez pas accès au routeur en amont, maintenez le bouton de réinitialisation enfoncé pendant 4 secondes pour revenir au mode Router par défaut.
 
+    !!! tip
+
+        Lors du déploiement de plusieurs points d'accès, l'emplacement des AP, le choix des canaux, le chevauchement de couverture et la puissance d'émission peuvent affecter le roaming et les performances. Consultez [Comprendre la couverture Wi-Fi, les points d'accès et la puissance d'émission](../tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md) pour obtenir des conseils de déploiement.
+
     ---
 
 - **Extender** : ce mode est conçu pour étendre la couverture Wi-Fi d'un réseau sans fil existant et éliminer les zones mortes dans les endroits où la connectivité est faible.

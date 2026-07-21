@@ -373,9 +373,9 @@
 ??? "xvpn"
     ### xvpn
 
-    [Official Website](https://xvpn.io){target="_blank"}
+    [Official Website](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}
 
-    If you are using [xvpn](https://xvpn.io){target="_blank"}, log in and follow the steps below to download the WireGuard configuration files.
+    If you are using [xvpn](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}, log in and follow the steps below to download the WireGuard configuration files.
 
     ![xvpn WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn_vpn_on_router.png){class="glboxshadow"}
 

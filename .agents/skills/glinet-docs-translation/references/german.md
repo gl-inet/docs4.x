@@ -46,6 +46,12 @@
 - Do not confuse `remote peer`, `server`, `client`, `device`, and `router`.
 - Prefer concise technical German over overly literal sentence structures copied from English.
 
+## German User Guide Safety Information
+
+- In `docs/de/docs/user_guide/*/index.md`, preserve the `## Sicherheitshinweise` section near the top of German user guides.
+- Do not delete, rewrite, deduplicate, or move this section during German translation syncs, even when the matching English source page does not contain the same section.
+- Keep this safety section unchanged unless the user explicitly asks to update the German safety text.
+
 ## VPN and Routing Accuracy Check
 
 - Preserve the distinction between traffic that is matched by a rule and traffic that is excluded from a rule.

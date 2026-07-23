@@ -3799,31 +3799,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md": {
-    "source_hash": "432edcdce68d17ae0e4a138c0abb3e10aa8a21523d2ea5f13a7f5440a6280b47",
+    "source_hash": "b9ac05aecaa4bc65274568b60c74f8639a1760c4f8ffcad1beed40213833eab4",
     "targets": {
       "de": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "manual-incremental-sync",
+        "updated_at": 1784782206
       },
       "es": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "manual-incremental-sync",
+        "updated_at": 1784782206
       },
       "fr": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "manual-incremental-sync",
+        "updated_at": 1784782206
       },
       "it": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "manual-incremental-sync",
+        "updated_at": 1784782206
       },
       "jp": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "manual-incremental-sync",
+        "updated_at": 1784782206
       },
       "pl": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "manual-incremental-sync",
+        "updated_at": 1784782206
       }
     }
   },

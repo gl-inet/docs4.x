@@ -224,6 +224,8 @@
 
         ![purevpn manual4](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/purevpn/purevpn-manual-4.png){class="glboxshadow"}
 
+        **Nota**: La configurazione WireGuard scade dopo 30 minuti. Attiva la connessione entro il periodo di validità. In caso contrario, dovrai generarne una nuova.
+
     Poi continua seguendo [questa guida](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) per completare la configurazione.
 
     [Link di riferimento](https://support.purevpn.com/router/how-to-setup-purevpn-on-glinet-router){target="_blank"}

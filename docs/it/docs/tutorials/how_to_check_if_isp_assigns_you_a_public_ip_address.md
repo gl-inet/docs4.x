@@ -13,7 +13,7 @@ Se non sei sicuro di avere un indirizzo IP pubblico, segui uno di questi metodi 
     * Se nella tua configurazione hai piu' di un router, accedi al pannello di amministrazione del router principale.
 2. Nel pannello di amministrazione del router, individua il tuo indirizzo WAN IP, ad esempio `42.XXX.XX.`.
 ![locate ip address](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/locate-ip-address.png){class="glboxshadow"}
-3. In un browser web, cerca "what is my ip".
+3. In un browser web, cerca `what is my ip`.
 ![what is my ip](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/search-what-is-my-ip.png){class="glboxshadow"}
 
 Se i due indirizzi IP coincidono, allora hai un indirizzo IP pubblico.

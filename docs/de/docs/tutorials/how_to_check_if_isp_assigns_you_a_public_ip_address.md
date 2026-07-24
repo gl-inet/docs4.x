@@ -13,7 +13,7 @@ Wenn Sie nicht sicher sind, ob Sie eine öffentliche IP-Adresse haben, können S
     * Wenn Sie in Ihrer Einrichtung mehr als einen Router verwenden, melden Sie sich im Admin-Panel des primären Routers an.
 2. Suchen Sie im Admin-Panel des Routers nach Ihrer WAN-IP-Adresse (z. B. 42.XXX.XX.)
 ![locate ip address](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/locate-ip-address.png){class="glboxshadow"}
-3. Suchen Sie in einem Webbrowser nach „what is my ip“.
+3. Suchen Sie in einem Webbrowser nach `what is my ip`.
 ![what is my ip](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_check_if_isp_assigns_you_a_public_ip_address/search-what-is-my-ip.png){class="glboxshadow"}
 
 Wenn die beiden IP-Adressen übereinstimmen, haben Sie eine öffentliche IP-Adresse.

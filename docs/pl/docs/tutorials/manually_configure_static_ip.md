@@ -12,11 +12,11 @@
 
     2. W sekcji "IP settings" kliknij przycisk Edit.
 
-        ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Windows_11_edit_IP_address.webp){class=`"glboxshadow`"}
+        ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Windows_11_edit_IP_address.png){class=`"glboxshadow`"}
 
     3. Wykonaj poniższe kroki, aby skonfigurować:
 
-        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.webp){class=`"glboxshadow`"}
+        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class=`"glboxshadow`"}
 
         - Wybierz opcję Manual, włącz przełącznik IPv4.
 
@@ -55,11 +55,11 @@
     
     2. W sekcji "IP settings" kliknij przycisk Edit.
 
-        ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.webp){class=`"glboxshadow`"}
+        ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.png){class=`"glboxshadow`"}
 
     3. Wykonaj poniższe kroki, aby skonfigurować:
 
-        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.webp){class=`"glboxshadow`"}
+        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class=`"glboxshadow`"}
         
         - Wybierz opcję Manual.
 
@@ -100,7 +100,7 @@
 
     Wybierz Network. Pojawi się okno pokazane poniżej.
 
-    ![Mac_network_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_network_settings.webp){class=`"glboxshadow`"}
+    ![Mac_network_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_network_settings.png){class=`"glboxshadow`"}
 
     Z paska bocznego wybierz aktywny interfejs sieciowy. W tym przykładzie jestem połączony z siecią bezprzewodową, więc wybiorę Wi-Fi.
 
@@ -110,7 +110,7 @@
 
     Wybierz TCP/IP. Pojawi się okno pokazane poniżej.
     
-    ![Mac_Wi-Fi_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_Wi-Fi_settings.webp){class=`"glboxshadow`"}
+    ![Mac_Wi-Fi_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_Wi-Fi_settings.png){class=`"glboxshadow`"}
 
     Z menu Configure IPv4 wybierz Manually.
 

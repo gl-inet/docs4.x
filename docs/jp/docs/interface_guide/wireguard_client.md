@@ -25,6 +25,7 @@ GL.iNet ルーターでは、以下の VPN プロバイダー向けに WireGuard
 * [PureVPN を設定する](#set-up-purevpn)
 * [Surfshark を設定する](#set-up-surfshark)
 * [Windscribe を設定する](#set-up-windscribe)
+* [X-VPN を設定する](#set-up-x-vpn)
 
 他の WireGuard サービスプロバイダーを契約している場合は、プロバイダーの Web サイトから設定ファイルをダウンロードし、ルーターにアップロードして VPN 接続を確立してください。
 
@@ -495,6 +496,86 @@ Web 管理パネルで **VPN** -> **WireGuard Client** -> **Windscribe** を開�
     **Delete All** をクリックすると、すべての設定ファイルをワンクリックで削除でき、秘密鍵と公開鍵も同時に削除するか選択できます。
 
     ![windscribe delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe10.png){class="glboxshadow"}
+
+## X-VPN を設定する {#set-up-x-vpn}
+
+[公式サイト](https://xvpn.io/){target="_blank"}
+
+**Note**: X-VPN はファームウェア v4.11 以降の GL.iNet ルーターに統合されています。
+
+1. まず、公式サイトで X-VPN トークンを取得します。
+
+    [こちら](https://xvpn.io/login){target="_blank"}をクリックして、X-VPN の Web アカウントにログインします。
+
+    ![xvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn1.png){class="glboxshadow"}
+
+    ログイン後、左メニューの **Settings** をクリックします。**Login Token** を探し、**Generate** をクリックします。
+
+    ![xvpn settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn2.png){class="glboxshadow"}
+
+    ページで 15 分間有効なトークンが生成されます。後で使用するため、トークンをコピーします。
+
+    ![xvpn generate token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn3.png){class="glboxshadow"}
+
+2. GL.iNet ルーターの Web Admin Panel にログインし、**VPN** -> **VPN Client Profile** に移動します。**X-VPN** をクリックします。
+
+    ![xvpn enter token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn4.png){class="glboxshadow"}
+
+    トークンを入力し、**Save and Continue** をクリックします。
+
+    ![xvpn enter token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn5.png){class="glboxshadow"}
+
+3. 接続したいサーバーを選択し、**Apply** をクリックします。
+
+    ![xvpn select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn6.png){class="glboxshadow"}
+
+    選択したサーバーに対応する設定ファイルの一覧が表示されます。
+
+    ![xvpn config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn7.png){class="glboxshadow"}
+
+4. 接続を開始します。
+
+    使用するサーバーを選択し、右側の三点アイコンをクリックして接続を開始します。
+
+    ![xvpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn8.png){class="glboxshadow"}
+
+    接続されると、設定ファイルの横に緑色の点が表示されます。
+
+    ![xvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn9.png){class="glboxshadow"}
+
+    **VPN Dashboard** では、VPN 接続の詳細確認、VPN トンネルやポリシーの作成と管理もできます。
+
+5. サーバーを更新します。
+
+    **Update Servers** をクリックすると、利用可能な最新のサーバーリストを取得し、サーバーメンテナンスや停止による接続失敗を避けられます。
+
+    ![xvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn10.png){class="glboxshadow"}
+
+6. 更新します。
+
+    **Go Renew** をクリックすると、サブスクリプション更新のため公式サイトに移動します。
+
+    ![xvpn renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn11.png){class="glboxshadow"}
+
+7. 設定を削除します。
+
+    右側の歯車アイコンをクリックし、**Delete Configurations** を選択すると、特定またはすべての設定ファイルを一括で削除できます。
+
+    ![xvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn12.png){class="glboxshadow"}
+
+8. 認証情報を変更します。
+
+    右側の歯車アイコンをクリックし、**Modify Authentication Information** を選択すると、必要に応じてログイントークンを編集できます。
+
+    ![xvpn edit credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn13.png){class="glboxshadow"}
+
+    ![xvpn edit credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn14.png){class="glboxshadow" width="600"}
+
+9. ログアウトします。
+
+    右側の歯車アイコンをクリックし、必要に応じて **Logout** を選択してサインアウトします。ルーターに保存されているアカウント認証情報、関連する公開鍵、秘密鍵、設定ファイルが削除されます。慎重に操作してください。
+
+    ![xvpn logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn15.png){class="glboxshadow"}
 
 ## WireGuard クライアントを手動で設定する（その他のプロバイダー向け） {#set-up-wireguard-client-manually-for-other-providers}
 

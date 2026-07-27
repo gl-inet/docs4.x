@@ -25,6 +25,7 @@ Sélectionnez ci-dessous le fournisseur WireGuard correspondant pour accéder ra
 * [Configurer PureVPN](#set-up-purevpn)
 * [Configurer Surfshark](#set-up-surfshark)
 * [Configurer Windscribe](#set-up-windscribe)
+* [Configurer X-VPN](#set-up-x-vpn)
 
 Si vous êtes abonné à un autre fournisseur de services WireGuard, téléchargez un fichier de configuration depuis son site web, puis importez-le dans votre routeur pour établir la connexion VPN.
 
@@ -495,6 +496,86 @@ Dans le panneau d'administration web, accédez à **VPN** -> **WireGuard Client*
     Vous pouvez cliquer sur **Delete All** pour supprimer tous les fichiers de configuration en un clic, et choisir si vous souhaitez également supprimer simultanément les clés privée et publique.
 
     ![windscribe delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe10.png){class="glboxshadow"}
+
+## Configurer X-VPN {#set-up-x-vpn}
+
+[Site officiel](https://xvpn.io/){target="_blank"}
+
+**Note** : X-VPN est intégré aux routeurs GL.iNet à partir du firmware v4.11.
+
+1. Obtenez d'abord le token X-VPN sur le site officiel.
+
+    Cliquez [ici](https://xvpn.io/login){target="_blank"} pour vous connecter à votre compte web X-VPN.
+
+    ![xvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn1.png){class="glboxshadow"}
+
+    Après connexion, cliquez sur **Settings** dans le menu de gauche. Recherchez **Login Token**, puis cliquez sur **Generate**.
+
+    ![xvpn settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn2.png){class="glboxshadow"}
+
+    La page génère un token valable 15 minutes. Copiez le token pour l'utiliser plus tard.
+
+    ![xvpn generate token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn3.png){class="glboxshadow"}
+
+2. Connectez-vous au panneau d'administration web de votre routeur GL.iNet, puis accédez à **VPN** -> **VPN Client Profile**. Cliquez sur **X-VPN**.
+
+    ![xvpn enter token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn4.png){class="glboxshadow"}
+
+    Saisissez le token et cliquez sur **Save and Continue**.
+
+    ![xvpn enter token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn5.png){class="glboxshadow"}
+
+3. Sélectionnez les serveurs auxquels vous souhaitez vous connecter, puis cliquez sur **Apply**.
+
+    ![xvpn select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn6.png){class="glboxshadow"}
+
+    Vous obtenez ensuite la liste des fichiers de configuration correspondant aux serveurs sélectionnés.
+
+    ![xvpn config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn7.png){class="glboxshadow"}
+
+4. Démarrez une connexion.
+
+    Sélectionnez le serveur souhaité, puis cliquez sur l'icône à trois points à droite pour démarrer une connexion.
+
+    ![xvpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn8.png){class="glboxshadow"}
+
+    Une fois la connexion établie, un point vert apparaît à côté du fichier de configuration.
+
+    ![xvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn9.png){class="glboxshadow"}
+
+    Vous pouvez également consulter les détails de la connexion VPN, créer et gérer les tunnels VPN et les stratégies dans le **VPN Dashboard**.
+
+5. Mettez à jour les serveurs.
+
+    Cliquez sur **Update Servers** pour obtenir la dernière liste de serveurs disponibles et éviter les échecs de connexion dus à une maintenance ou à l'arrêt de serveurs.
+
+    ![xvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn10.png){class="glboxshadow"}
+
+6. Renouvelez l'abonnement.
+
+    Si vous cliquez sur **Go Renew**, vous êtes redirigé vers le site officiel pour renouveler votre abonnement.
+
+    ![xvpn renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn11.png){class="glboxshadow"}
+
+7. Supprimez des configurations.
+
+    Cliquez sur l'icône d'engrenage à droite et sélectionnez **Delete Configurations** pour supprimer des fichiers de configuration spécifiques ou tous les fichiers en un clic.
+
+    ![xvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn12.png){class="glboxshadow"}
+
+8. Modifiez les informations d'authentification.
+
+    Cliquez sur l'icône d'engrenage à droite et sélectionnez **Modify Authentication Information** pour modifier votre token de connexion si nécessaire.
+
+    ![xvpn edit credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn13.png){class="glboxshadow"}
+
+    ![xvpn edit credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn14.png){class="glboxshadow" width="600"}
+
+9. Déconnectez-vous.
+
+    Cliquez sur l'icône d'engrenage à droite et sélectionnez **Logout** pour vous déconnecter si nécessaire. Les identifiants du compte, la clé publique associée, la clé privée et les fichiers de configuration stockés sur le routeur seront supprimés. Procédez avec prudence.
+
+    ![xvpn logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn15.png){class="glboxshadow"}
 
 ## Configurer manuellement le client WireGuard (autres fournisseurs) {#set-up-wireguard-client-manually-for-other-providers}
 

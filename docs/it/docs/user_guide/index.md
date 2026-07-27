@@ -153,9 +153,16 @@
   </div>
     <div class="gl-product-card">
       <a href="gl-mt6000/">
-       <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt6000.jpg" >
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt6000.jpg" >
         <div class="gl-product-model">GL-MT6000</div>
         <div class="gl-product-model">(Flint 2)</div>
+    </a>
+  </div>
+    <div class="gl-product-card">
+      <a href="gl-mt6000-fortify/">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt6000_fortify.jpg" >
+        <div class="gl-product-model">GL-MT6000</div>
+        <div class="gl-product-model">(Fortify)</div>
     </a>
   </div>
     <div class="gl-product-card">

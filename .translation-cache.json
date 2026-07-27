@@ -3074,31 +3074,31 @@
     }
   },
   "docs/en/docs/interface_guide/wireguard_client.md": {
-    "source_hash": "fc8a418433c81f14c3c124f3b8f9fdc9d3ff34a8e2ffcb1805f04b5fb50e8b13",
+    "source_hash": "ae115fc01335864274e99e496cb583dd887029f2efd63d24423e43b979067b00",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785140703
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785140703
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785140703
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785140703
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785140703
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785140703
       }
     }
   },

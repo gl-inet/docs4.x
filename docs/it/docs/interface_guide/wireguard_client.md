@@ -637,7 +637,7 @@ Installa l'app e segui le istruzioni mostrate sullo schermo per completare la co
 
 ## Configurare WireGuard Server su router GL.iNet
 
-Non vuoi abbonarti a servizi VPN di terze parti? Puoi acquistare due router GL.iNet: impostarne uno come WireGuard server e l'altro come WireGuard server.
+Non vuoi abbonarti a servizi VPN di terze parti? Puoi acquistare due router GL.iNet: impostarne uno come server WireGuard e l'altro come client WireGuard.
 
 Questo scenario e' particolarmente adatto quando il tuo ISP domestico fornisce un IP pubblico e vuoi collegarti alla rete di casa tramite VPN quando sei fuori casa, per garantire sicurezza e accesso alle risorse della rete interna. In questo modo elimini costi e complicazioni dovuti ad abbonamenti continui a servizi VPN commerciali.
 

@@ -25,6 +25,7 @@ Select the corresponding WireGuard service provider below to quickly locate the 
 * [Set up PureVPN](#set-up-purevpn)
 * [Set Up Surfshark](#set-up-surfshark)
 * [Set Up Windscribe](#set-up-windscribe)
+* [Set Up X-VPN](#set-up-x-vpn)
 
 If you subscribe to other WireGuard service provider, download a configuration file from their website, then upload the file to your router for VPN connection.
 
@@ -72,7 +73,7 @@ In the web Admin Panel, go to **VPN** -> **WireGuard Client** -> **AzireVPN**.
 
 5. Go renew.
 
-    If you click **Go Renew**, you will be redirected to the official website to renew your subscription.
+    If you click **Go Renew**, you will be directed to the official website to renew your subscription.
 
     ![azirevpn go renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn7.png){class="glboxshadow"}
 
@@ -210,7 +211,7 @@ In the web Admin Panel, go to **VPN** -> **WireGuard Client** -> **Mullvad**.
 
 6. Go renew.
 
-    If you click **Go Renew**, you will be redirected to the official website to renew your subscription.
+    If you click **Go Renew**, you will be directed to the official website to renew your subscription.
 
     ![mullvad go renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad8.png){class="glboxshadow"}
 
@@ -495,6 +496,86 @@ In the web Admin Panel, go to **VPN** -> **WireGuard Client** -> **Windscribe**.
     You can click **Delete All** to delete all configuration files with one click, and choose whether to delete the private and public keys simultaneously.
 
     ![windscribe delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe10.png){class="glboxshadow"}
+
+## Set Up X-VPN {#set-up-x-vpn}
+
+[Official Website](https://xvpn.io/){target="_blank"}
+
+**Note**: X-VPN is integrated into GL.iNet routers starting from firmware v4.11.
+
+1. First, obtain X-VPN token on the official website.
+
+    Click [here](https://xvpn.io/login){target="_blank"} to log in to your X-VPN web account.
+
+    ![xvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn1.png){class="glboxshadow"}
+
+    After logging in, click **Settings** in the left menu. Find **Login Token** and click **Generate**.
+
+    ![xvpn settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn2.png){class="glboxshadow"}
+
+    The page will generate a token that is valid for 15 minutes. Copy the token for later use.
+
+    ![xvpn generate token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn3.png){class="glboxshadow"}
+
+2. Log in to your GL.iNet router's web Admin Panel, and go to **VPN** -> **VPN Client Profile**. Click **X-VPN**.
+
+    ![xvpn enter token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn4.png){class="glboxshadow"}
+
+    Enter the token and click **Save and Continue**.
+
+    ![xvpn enter token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn5.png){class="glboxshadow"}
+
+3. Select the server(s) you want to connect to, and click **Apply**.
+
+    ![xvpn select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn6.png){class="glboxshadow"}
+
+    Then you will get a list of configuration files corresponding to the selected server.
+
+    ![xvpn config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn7.png){class="glboxshadow"}
+
+4. Start a connection.
+
+    Select your preferred server, and click the three-dot icon on the right to start a connection.
+
+    ![xvpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn8.png){class="glboxshadow"}
+
+    Once connected, a green dot will appear next to the configuration file.
+
+    ![xvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn9.png){class="glboxshadow"}
+
+    You can also check the VPN connection details, create and manage VPN tunnels and policies on the **VPN Dashboard**.
+
+5. Update servers.
+
+    You can click **Update Servers** to obtain the latest available server list, avoiding connection failures caused by server maintenance or shutdown.
+
+    ![xvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn10.png){class="glboxshadow"}
+
+6. Go renew.
+
+    If you click **Go Renew**, you will be directed to the official website to renew your subscription.
+
+    ![xvpn renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn11.png){class="glboxshadow"}
+
+7. Delete configurations.
+
+    Click the gear icon on the right and select **Delete Configurations** to delete specific or all configuration files with one click.
+
+    ![xvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn12.png){class="glboxshadow"}
+
+8. Modify authentication information.
+
+    Click the gear icon on the right and select **Modify Authentication Information** to edit your login token if necessary.
+
+    ![xvpn edit credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn13.png){class="glboxshadow"}
+
+    ![xvpn edit credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn14.png){class="glboxshadow" width="600"}
+
+9. Log out.
+
+    Click the gear icon on the right and select **Logout** to sign out if necessary. It will delete the account credential, associated public key, private key and configuration files stored on the router. Please proceed with caution.
+
+    ![xvpn logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn15.png){class="glboxshadow"}
 
 ## Set Up WireGuard Client Manually (for other providers) {#set-up-wireguard-client-manually-for-other-providers}
 

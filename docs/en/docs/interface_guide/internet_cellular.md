@@ -232,7 +232,6 @@ Here is a list of supported modems that we had tested before.
 | Huawei E3372h-320 (Ukraine)            | 4G       | Yes    | anonymous       | Host-less |
 | Huawei E3372h-607                      | 4G       | Yes    | GL.iNet         |           |
 | Huawei K5161h                          | 4G       | Yes    | anonymous       |           |
-| ZTE ME909s-821                         | 4G       | Yes    | GL.iNet         |           |
 | ZTE MF833U1                            | 4G       | Yes    | anonymous       | Host-less |
 | ZTE MF79U                              | 4G       | Yes    | GL.iNet         | Host-less |
 | ZTE M823                               | 4G       | Yes    | Arnas Risqianto |           |

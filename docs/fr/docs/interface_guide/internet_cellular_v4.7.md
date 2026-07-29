@@ -84,28 +84,29 @@ L'application des modifications déclenchera une reconnexion.
 
 Voici la liste des modems pris en charge que nous avons déjà testés.
 
-| Modèle                                 | 3G/4G | Testé | Testé par       | Commentaires* |
-| -------------------------------------- | ----- | ----- | --------------- | ------------- |
+**SIMPoYo uFi** est une clé USB plug & play compacte avec hotspot Wi‑Fi intégrée, conçue pour offrir une connectivité rapide et fiable partout. Elle fonctionne de manière transparente avec la plupart des routeurs GL.iNet, ainsi qu'avec les ordinateurs portables, batteries externes, ports USB de voiture et autres sources d'alimentation USB. Elle comprend 10 Go de données gratuites pendant 30 jours, valables au Royaume-Uni et dans 34 pays européens.
+
+| Modèle                                 | Cellulaire | Testé | Testé par       | Commentaires* |
+| -------------------------------------- | ---------- | ----- | --------------- | ------------- |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G    | Oui   | GL.iNet         |           |
+| Quectel RM520N-GL                      | 5G    | Oui   | GL.iNet         |           |
 | Quectel EC20-E, EC20-A, EC20-C         | 4G    | Oui   | GL.iNet         |           |
 | Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Oui   | GL.iNet         |           |
 | Quectel EC200A series                  | 4G    | Oui   | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G    | Oui   | akw2312         |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G    | Oui   | akw2312         |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G    | Oui   | akw2312         |           |
-| Quectel RM520N-GL                      | 5G    | Oui   | akw2312         |           |
-| Quectel UC20-E                         | 3G    | Oui   | GL.iNet         |           |
-| ZTE ME909s-821                         | 4G    | Oui   | GL.iNet         |           |
-| Huawei E1550                           | 3G    | Oui   | GL.iNet         |           |
+| Quectel EP06-E, EP06-A                 | 4G    | Oui   | anonymous       |           |
+| Quectel EM060K-GL, EM120K-GL           | 4G    | Oui   | anonymous       |           |
+| Quectel EM120R-GL, EM160R-GL           | 4G    | Oui   | anonymous       |           |
 | Huawei E3276                           | 4G    | Oui   | GL.iNet         |           |
-| TP-Link MA260                          | 3G    | Oui   | GL.iNet         |           |
-| ZTE M823                               | 4G    | Oui   | Arnas Risqianto |           |
-| ZTE MF190                              | 3G    | Oui   | Arnas Risqianto |           |
 | Huawei E3372                           | 4G    | Oui   | anonymous       |           |
-| Pantech UML290VW (Verizon)             | 4G    | Oui   | GL.iNet/steven  | QMI       |
-| Pantech UML295 (Verizon)               | 4G    | Oui   | GL.iNet/steven  | Host-less |
-| Novatel USB551L (Verizon)              | 4G    | Oui   | GL.iNet/steven  | QMI       |
-| Verizon U620L (Verizon)                | 4G    | Oui   | anonymous       | Host-less |
+| Huawei E3372h-153                      | 4G    | Oui   | GL.iNet         | Host-less |
 | Huawei E3372h-320 (Ukraine)            | 4G    | Oui   | anonymous       | Host-less |
+| Huawei E3372h-607                      | 4G    | Oui   | GL.iNet         |           |
+| Huawei K5161h                          | 4G    | Oui   | anonymous       |           |
+| ZTE MF833U1                            | 4G    | Oui   | anonymous       | Host-less |
+| ZTE MF79U                              | 4G    | Oui   | GL.iNet         | Host-less |
+| ZTE M823                               | 4G    | Oui   | Arnas Risqianto |           |
+| MeiG O4H13 (Qualcomm MDM9207)          | 4G    | Oui   | GL.iNet         | Host-less |
+| XTRONS 4G LTE USB Dongle               | 4G    | Oui   | GL.iNet         | Host-less |
 
 - **QMI** : ce modem prend en charge le mode QMI. Veuillez sélectionner QMI comme protocole et **/dev/cdc-wdm0** comme port série sur votre routeur cellulaire.
 

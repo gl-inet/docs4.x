@@ -297,8 +297,9 @@ Nota: El estado del servidor VPN no se muestra en el LED.
   - Apagado: este LED no ha sido personalizado, modo predeterminado
 
 - LED inalámbrico
-  - Encendido: Wi-Fi 2.4G conectado
-  - Apagado: Wi-Fi 2.4G desconectado
+  - Encendido: Wi-Fi 2.4G activado
+  - Apagado: Wi-Fi 2.4G desactivado
+  - Intermitente: Wi-Fi 2.4G conectado
 
   En lotes anteriores, el LED inalámbrico puede mostrarse en rojo en lugar de blanco durante el funcionamiento normal.
 

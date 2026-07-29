@@ -218,27 +218,25 @@ Aquí se muestra una lista de módems compatibles que hemos probado anteriorment
 
 | Modelo                                                                      | Red celular | Probado | Probado por     | Comentarios\* |
 | --------------------------------------------------------------------------- | ----------- | ------- | --------------- | ------------- |
-| [SIMPoYo 4G uFi (SP-N150C4)](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G          | Sí      | GL.iNet         |               |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/)          | 4G          | Sí      | GL.iNet         |               |
+| Quectel RM520N-GL                                                           | 5G          | Sí      | GL.iNet         |               |
 | Quectel EC20-E, EC20-A, EC20-C                                              | 4G          | Sí      | GL.iNet         |               |
 | Quectel EC25-E, EC25-A, EC25-V, EC25-C                                      | 4G          | Sí      | GL.iNet         |               |
-| Serie Quectel EC200A                                                        | 4G          | Sí      | akw2312         | Host-less     |
-| Quectel EP06-E, EP06-A                                                      | 4G          | Sí      | akw2312         |               |
-| Quectel EM060K-GL, EM120K-GL                                                | 4G          | Sí      | akw2312         |               |
-| Quectel EM120R-GL, EM160R-GL                                                | 4G          | Sí      | akw2312         |               |
-| Quectel RM520N-GL                                                           | 5G          | Sí      | akw2312         |               |
-| Quectel UC20-E                                                              | 3G          | Sí      | GL.iNet         |               |
-| ZTE ME909s-821                                                              | 4G          | Sí      | GL.iNet         |               |
-| Huawei E1550                                                                | 3G          | Sí      | GL.iNet         |               |
+| Quectel EC200A series                                                       | 4G          | Sí      | akw2312         | Host-less     |
+| Quectel EP06-E, EP06-A                                                      | 4G          | Sí      | anónimo         |               |
+| Quectel EM060K-GL, EM120K-GL                                                | 4G          | Sí      | anónimo         |               |
+| Quectel EM120R-GL, EM160R-GL                                                | 4G          | Sí      | anónimo         |               |
 | Huawei E3276                                                                | 4G          | Sí      | GL.iNet         |               |
 | Huawei E3372                                                                | 4G          | Sí      | anónimo         |               |
+| Huawei E3372h-153                                                           | 4G          | Sí      | GL.iNet         | Host-less     |
 | Huawei E3372h-320 (Ukraine)                                                 | 4G          | Sí      | anónimo         | Host-less     |
-| TP-Link MA260                                                               | 3G          | Sí      | GL.iNet         |               |
+| Huawei E3372h-607                                                           | 4G          | Sí      | GL.iNet         |               |
+| Huawei K5161h                                                               | 4G          | Sí      | anónimo         |               |
+| ZTE MF833U1                                                                 | 4G          | Sí      | anónimo         | Host-less     |
+| ZTE MF79U                                                                   | 4G          | Sí      | GL.iNet         | Host-less     |
 | ZTE M823                                                                    | 4G          | Sí      | Arnas Risqianto |               |
-| ZTE MF190                                                                   | 3G          | Sí      | Arnas Risqianto |               |
-| Pantech UML290VW (Verizon)                                                  | 4G          | Sí      | GL.iNet/steven  | QMI           |
-| Pantech UML295 (Verizon)                                                    | 4G          | Sí      | GL.iNet/steven  | Host-less     |
-| Novatel USB551L (Verizon)                                                   | 4G          | Sí      | GL.iNet/steven  | QMI           |
-| Verizon U620L (Verizon)                                                     | 4G          | Sí      | anónimo         | Host-less     |
+| MeiG O4H13 (Qualcomm MDM9207)                                               | 4G          | Sí      | GL.iNet         | Host-less     |
+| XTRONS 4G LTE USB Dongle                                                    | 4G          | Sí      | GL.iNet         | Host-less     |
 
 - **QMI**: Este módem admite el modo QMI. Seleccione QMI como protocolo de comunicación celular y **/dev/cdc-wdm0** como puerto serie en la configuración de la tarjeta SIM.
 

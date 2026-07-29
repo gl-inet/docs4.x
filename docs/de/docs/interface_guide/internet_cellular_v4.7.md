@@ -84,28 +84,29 @@ Durch das Anwenden der Änderungen wird die Verbindung neu aufgebaut.
 
 Hier ist eine Liste unterstützter Modems, die wir bereits getestet haben.
 
-| Modell                                 | 3G/4G | Getestet | Getestet von    | Hinweise* |
-| -------------------------------------- | ----- | -------- | --------------- | --------- |
+**SIMPoYo uFi** ist ein kompakter Plug-and-Play-USB-Dongle mit Wi-Fi-Hotspot, der für schnelle und zuverlässige Konnektivität unterwegs entwickelt wurde. Er funktioniert nahtlos mit den meisten GL.iNet-Routern sowie mit Laptops, Powerbanks, USB-Anschlüssen im Auto und anderen USB-Stromquellen. Er enthält 10 GB kostenloses Datenvolumen für 30 Tage, gültig im Vereinigten Königreich und in 34 europäischen Ländern.
+
+| Modell                                 | Mobilfunk | Getestet | Getestet von    | Hinweise* |
+| -------------------------------------- | --------- | -------- | --------------- | --------- |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G        | Ja       | GL.iNet         |           |
+| Quectel RM520N-GL                      | 5G        | Ja       | GL.iNet         |           |
 | Quectel EC20-E, EC20-A, EC20-C         | 4G    | Ja       | GL.iNet         |           |
 | Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Ja       | GL.iNet         |           |
 | Quectel EC200A series                  | 4G    | Ja       | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G    | Ja       | akw2312         |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G    | Ja       | akw2312         |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G    | Ja       | akw2312         |           |
-| Quectel RM520N-GL                      | 5G    | Ja       | akw2312         |           |
-| Quectel UC20-E                         | 3G    | Ja       | GL.iNet         |           |
-| ZTE ME909s-821                         | 4G    | Ja       | GL.iNet         |           |
-| Huawei E1550                           | 3G    | Ja       | GL.iNet         |           |
+| Quectel EP06-E, EP06-A                 | 4G    | Ja       | anonymous       |           |
+| Quectel EM060K-GL, EM120K-GL           | 4G    | Ja       | anonymous       |           |
+| Quectel EM120R-GL, EM160R-GL           | 4G    | Ja       | anonymous       |           |
 | Huawei E3276                           | 4G    | Ja       | GL.iNet         |           |
-| TP-Link MA260                          | 3G    | Ja       | GL.iNet         |           |
-| ZTE M823                               | 4G    | Ja       | Arnas Risqianto |           |
-| ZTE MF190                              | 3G    | Ja       | Arnas Risqianto |           |
 | Huawei E3372                           | 4G    | Ja       | anonymous       |           |
-| Pantech UML290VW (Verizon)             | 4G    | Ja       | GL.iNet/steven  | QMI       |
-| Pantech UML295 (Verizon)               | 4G    | Ja       | GL.iNet/steven  | Host-less |
-| Novatel USB551L (Verizon)              | 4G    | Ja       | GL.iNet/steven  | QMI       |
-| Verizon U620L (Verizon)                | 4G    | Ja       | anonymous       | Host-less |
+| Huawei E3372h-153                      | 4G    | Ja       | GL.iNet         | Host-less |
 | Huawei E3372h-320 (Ukraine)            | 4G    | Ja       | anonymous       | Host-less |
+| Huawei E3372h-607                      | 4G    | Ja       | GL.iNet         |           |
+| Huawei K5161h                          | 4G    | Ja       | anonymous       |           |
+| ZTE MF833U1                            | 4G    | Ja       | anonymous       | Host-less |
+| ZTE MF79U                              | 4G    | Ja       | GL.iNet         | Host-less |
+| ZTE M823                               | 4G    | Ja       | Arnas Risqianto |           |
+| MeiG O4H13 (Qualcomm MDM9207)          | 4G    | Ja       | GL.iNet         | Host-less |
+| XTRONS 4G LTE USB Dongle               | 4G    | Ja       | GL.iNet         | Host-less |
 
 - **QMI**: Dieses Modem unterstützt den QMI-Modus. Wählen Sie bitte QMI als Protokoll und **/dev/cdc-wdm0** als seriellen Port für Ihren Mobilfunkrouter.
 

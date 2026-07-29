@@ -1202,11 +1202,15 @@ Hinweis: Der Status des VPN-Servers wird nicht auf der LED angezeigt.
 
 
 
-- An: 2.4G Wi-Fi ist verbunden
+- An: 2.4G Wi-Fi ist aktiviert
 
 
 
-- Aus: 2.4G Wi-Fi ist getrennt
+- Aus: 2.4G Wi-Fi ist deaktiviert
+
+
+
+- Blinkend: 2.4G Wi-Fi ist verbunden
 
 
 

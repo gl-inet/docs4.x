@@ -299,8 +299,9 @@ Remarque : l'état du serveur VPN n'est pas affiché sur la LED.
 	- Éteinte : cette LED n'a pas été personnalisée (mode par défaut)
 
 - LED sans fil
-	- Allumée : le Wi-Fi 2.4G est connecté
-	- Éteinte : le Wi-Fi 2.4G est déconnecté
+	- Allumée : le Wi-Fi 2.4G est activé
+	- Éteinte : le Wi-Fi 2.4G est désactivé
+	- Clignotante : le Wi-Fi 2.4G est connecté
 
 	Pour les premiers lots, la LED sans fil peut s'afficher en rouge au lieu de blanc en fonctionnement normal.
 

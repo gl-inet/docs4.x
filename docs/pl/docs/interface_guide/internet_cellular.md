@@ -218,27 +218,25 @@ Poniżej znajduje się lista obsługiwanych modemów, które zostały wcześniej
 
 | Model                                  | Sieć komórkowa | Przetestowano | Testował        | Uwagi*    |
 | -------------------------------------- | --------------- | ------------- | --------------- | --------- |
-| [SIMPoYo 4G uFi (SP-N150C4)](https://www.gl-inet.com/campaign/simpoyo-ufi/)               | 4G              | Tak           | GL.iNet         |           |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G              | Tak           | GL.iNet         |           |
+| Quectel RM520N-GL                      | 5G              | Tak           | GL.iNet         |           |
 | Quectel EC20-E, EC20-A, EC20-C         | 4G              | Tak           | GL.iNet         |           |
 | Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G              | Tak           | GL.iNet         |           |
 | Quectel EC200A series                  | 4G              | Tak           | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G              | Tak           | akw2312         |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G              | Tak           | akw2312         |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G              | Tak           | akw2312         |           |
-| Quectel RM520N-GL                      | 5G              | Tak           | akw2312         |           |
-| Quectel UC20-E                         | 3G              | Tak           | GL.iNet         |           |
-| ZTE ME909s-821                         | 4G              | Tak           | GL.iNet         |           |
-| Huawei E1550                           | 3G              | Tak           | GL.iNet         |           |
+| Quectel EP06-E, EP06-A                 | 4G              | Tak           | anonymous       |           |
+| Quectel EM060K-GL, EM120K-GL           | 4G              | Tak           | anonymous       |           |
+| Quectel EM120R-GL, EM160R-GL           | 4G              | Tak           | anonymous       |           |
 | Huawei E3276                           | 4G              | Tak           | GL.iNet         |           |
 | Huawei E3372                           | 4G              | Tak           | anonymous       |           |
+| Huawei E3372h-153                      | 4G              | Tak           | GL.iNet         | Host-less |
 | Huawei E3372h-320 (Ukraine)            | 4G              | Tak           | anonymous       | Host-less |
-| TP-Link MA260                          | 3G              | Tak           | GL.iNet         |           |
+| Huawei E3372h-607                      | 4G              | Tak           | GL.iNet         |           |
+| Huawei K5161h                          | 4G              | Tak           | anonymous       |           |
+| ZTE MF833U1                            | 4G              | Tak           | anonymous       | Host-less |
+| ZTE MF79U                              | 4G              | Tak           | GL.iNet         | Host-less |
 | ZTE M823                               | 4G              | Tak           | Arnas Risqianto |           |
-| ZTE MF190                              | 3G              | Tak           | Arnas Risqianto |           |
-| Pantech UML290VW (Verizon)             | 4G              | Tak           | GL.iNet/steven  | QMI       |
-| Pantech UML295 (Verizon)               | 4G              | Tak           | GL.iNet/steven  | Host-less |
-| Novatel USB551L (Verizon)              | 4G              | Tak           | GL.iNet/steven  | QMI       |
-| Verizon U620L (Verizon)                | 4G              | Tak           | anonymous       | Host-less |
+| MeiG O4H13 (Qualcomm MDM9207)          | 4G              | Tak           | GL.iNet         | Host-less |
+| XTRONS 4G LTE USB Dongle               | 4G              | Tak           | GL.iNet         | Host-less |
 
 - **QMI**: Ten modem obsługuje tryb QMI. Wybierz QMI jako protokół komunikacji komórkowej oraz **/dev/cdc-wdm0** jako port szeregowy w ustawieniach karty SIM.
 

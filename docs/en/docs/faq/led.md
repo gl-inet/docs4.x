@@ -299,8 +299,9 @@ Note: The VPN server status is not displayed on the LED.
 	- Off: This LED has not been customized (default mode)
 
 - Wireless LED
-	- On: 2.4G Wi-Fi is connected
-	- Off: 2.4G Wi-Fi is disconnected
+	- On: 2.4G Wi-Fi is enabled
+	- Off: 2.4G Wi-Fi is disabled
+	- Flashing: 2.4G Wi-Fi is connected
 
 	For earlier batches, the Wireless LED may display red instead of white in normal working state.
 

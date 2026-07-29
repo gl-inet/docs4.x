@@ -1,6 +1,6 @@
 # ExpressVPN Dashboard
 
-> **Note:** This guide is only applicable to GL.iNet x ExpressVPN co-branded router **Fortify (GL-MT6000)**. 
+> **Note:** This guide only applies to GL.iNet x ExpressVPN co-branded router **Fortify (GL-MT6000)**. 
 
 [ExpressVPN](https://www.expressvpn.com/){target="_blank"} is one of the world's leading premium VPN services designed to protect your online privacy, secure your internet connection, and unlock global content. It offers lightning-fast speeds, military-grade encryption, and access to servers in over 100+ countries. Whether you want to stream, browse privately, or protect your data on public Wi-Fi, ExpressVPN gives you a fast & secure experience.
 
@@ -12,47 +12,37 @@ This guide walks you through redeeming the 12-month ExpressVPN plan within the r
 
 Log in to the Fortify's web Admin Panel, and navigate to **VPN** -> **VPN Client Profile**.
 
-![vpn client profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/2-vpn_client_profile.png){class="glboxshadow"}
+![vpn client profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/vpn_client_profile.png){class="glboxshadow"}
 
 Read and agree **Terms of Service** & **Privacy Policy**, then click **Get Started**.
 
-![get started](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/2-get_started.png){class="glboxshadow"}
+![get started](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/get_started.png){class="glboxshadow"}
 
 Click **Claim 12-Month Plan**.
 
-![claim 12-month plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/2-claim_plan.png){class="glboxshadow"}
+![claim 12-month plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/claim_plan.png){class="glboxshadow"}
 
 In the pop-up window, enter your **Order ID**. If you bought this router from GL.iNet Store, **Order Email** is additionally required. Then click **Continue to ExpressVPN**.
 
-![claim 12-month plan amazon](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/3-amazon_order.png){class="glboxshadow"}
+![claim 12-month plan amazon](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/amazon_order.png){class="glboxshadow"}
 
-![claim 12-month plan store](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/3-store_order_email.png){class="glboxshadow"}
+![claim 12-month plan store](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/store_order_email.png){class="glboxshadow"}
 
-You will be redirected to the ExpressVPN Checkout. A redemption code has been applied on the right to activate 12 Months subscription at no extra charge. 
+You will be directed to the ExpressVPN Checkout. A redemption code has been applied on the right to activate 12 Months subscription at no extra charge. 
 
 Enter your email address on the top, and add payment method to ensure uninterrupted VPN access at end of initial term. Then click **Subscribe with Card**.
 
-![expressvpn checkout1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/4-expressvpn_checkout1.png){class="glboxshadow"}
+![expressvpn checkout1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout1.png){class="glboxshadow"}
 
-An **Activation Link** will be sent to your email address. Go to your inbox to activate your ExpressVPN account. 
+Your plan has been activated. Return to your Fortify router's web Admin Panel to log in with your account.
 
-![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/4-expressvpn_checkout2.png){class="glboxshadow"}
-
-Click the **Activate Subscription** button in the email.
-
-![activate subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/5-activate_subscription.png){class="glboxshadow" width="600"}
-
-You will be directed to create your account password, then click **Set Password**.
-
-![create password](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/6-create_password.png){class="glboxshadow" width="600"}
-
-Your account is activated successfully. Please go back to your Fortify router's web Admin Panel to log in with your account.
-
-![my account](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/7-my_account.png){class="glboxshadow"}
+![expressvpn checkout2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_checkout2.png){class="glboxshadow"}
 
 ## Log in to ExpressVPN
 
-On your Fortify's web Admin Panel, go to **VPN** -> **VPN Client Profile**. Click **Log in to ExpressVPN**.
+On your Fortify's web Admin Panel, go to **VPN** -> **VPN Client Profile**. 
+
+Click **Log in to ExpressVPN**, and you will be directed to ExpressVPN secure sign-in page.
 
 ![expressvpn login 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login1.png){class="glboxshadow"}
 
@@ -64,15 +54,21 @@ Enter the verification code and click **Continue**.
 
 ![expressvpn login 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login3.png){class="glboxshadow"}
 
-Click **Yes** to authorize access to ExpressVPN on your router.
+Change your password to activate your account.
 
 ![expressvpn login 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login4.png){class="glboxshadow"}
 
-Login successful. You may close this window.
+In the next step, click **Yes** to authorize access to ExpressVPN on your router.
 
 ![expressvpn login 5](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login5.png){class="glboxshadow"}
 
-On your Fortify's web Admin Panel, go to **VPN** -> **VPN Client Profile**. You are signed in ExpressVPN on this router. Click **Go to ExpressVPN Dashboard**. 
+Login successful. You may close this browser window and go back to your device.
+
+![expressvpn login 6](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_login6.png){class="glboxshadow"}
+
+On your Fortify's web Admin Panel, go to **VPN** -> **VPN Client Profile**. 
+
+You are signed in ExpressVPN on this router. Click **Go to ExpressVPN Dashboard**. 
 
 ![expressvpn signed in](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/expressvpn_signed_in.png){class="glboxshadow"}
 
@@ -88,7 +84,7 @@ Follow the steps below to add your VPN tunnel and configure VPN policies. See [C
 
 1. On your Fortify's web Admin Panel, go to **VPN** -> **ExpressVPN Dashboard**. Click **Add VPN Tunnel**.
 
-    ![dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/1-dashboard_initial.png){class="glboxshadow"}
+    ![dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/dashboard_initial.png){class="glboxshadow"}
 
 2. Select VPN profile, then click **Next**.
 
@@ -163,7 +159,7 @@ Here are two typical VPN policy configuration cases with step-by-step setup inst
 
         ![case 1 target](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-all-targets.png){class="glboxshadow"}
 
-    4. You will be directed to the ExpressVPN Dashboard. Now a VPN tunnel has been added successfully, as shown below. 
+    4. You will be directed to the ExpressVPN Dashboard. Now a VPN tunnel has been added successfully. 
 
         ![case 1 dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case1-tunnel-apply.png){class="glboxshadow"}
 
@@ -257,11 +253,15 @@ Here are two typical VPN policy configuration cases with step-by-step setup inst
 
         ![kill switch4](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-killswitch4.png){class="glboxshadow"}
 
-    12. Click the gear icon at the upper right, enable **Enhanced Kill Switch** and click **Apply**. This ensures that all traffic must access Internet via the VPN.
+    12. Click the gear icon at the upper right, enable **Enhanced Kill Switch**, then click **Apply**. This ensures all traffic can only reach the internet via VPN.
 
         ![enhanced killswitch1](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-enhanced-killswitch1.png){class="glboxshadow"}
 
         ![enhanced killswitch2](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-enhanced-killswitch2.png){class="glboxshadow"}
+
+        Once applied, **Enhanced Kill Switch** will appear at the top of the page.
+
+        ![enhanced killswitch3](https://static.gl-inet.com/docs/router/en/4/interface_guide/expressvpn_dashboard/case2-enhanced-killswitch3.png){class="glboxshadow"}
 
     13. Click the middle button to activate Tunnel 1 and Tunnel 2.
 

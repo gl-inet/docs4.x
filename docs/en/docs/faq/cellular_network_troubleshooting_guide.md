@@ -54,7 +54,9 @@ If you cannot establish a cellular connection, please check for the following is
     
     However, once a tower is locked, the router will keep trying to reconnect to it after rebooting even if moved to a new location. This may prevent the router from connecting to the cellular network automatically. If this happens, you can either unlock the current tower via the router's web admin panel or manually lock it to a new tower.
 
-    **Note:** The locked tower must match the frequency bands supported by your carrier and device; otherwise, the connection may fail.
+    **Note:**   
+    1. The locked tower must match the frequency bands supported by your carrier and device; otherwise, the connection may fail.  
+    2. The router has International Data Roaming enabled by default on the cellular module; disabling this option may cause the SIM card to lose internet access, please keep this function enabled.
 
 ??? "Check SIM compatibility"
     

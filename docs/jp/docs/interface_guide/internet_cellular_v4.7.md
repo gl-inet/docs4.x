@@ -84,28 +84,29 @@ Cellular セクションで **Manual Setup** をクリックすると、現在�
 
 これまでにテスト済みの対応モデム一覧です。
 
-| Model                                  | 3G/4G | Tested | Tested by       | Comments* |
-| -------------------------------------- | ----- | ------ | --------------- | --------- |
+**SIMPoYo uFi** は、Wi-Fi ホットスポット機能を備えたコンパクトなプラグアンドプレイ USB ドングルで、どこでも高速で安定した接続を実現できるよう設計されています。ほとんどの GL.iNet ルーターに加え、ノートPC、モバイルバッテリー、車載 USB ポートなどの USB 電源でも問題なく利用できます。英国およびヨーロッパ34か国で使える 10GB の無料データが 30 日間付属します。
+
+| Model                                  | Cellular | Tested | Tested by       | Comments* |
+| -------------------------------------- | -------- | ------ | --------------- | --------- |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G    | Yes    | GL.iNet         |           |
+| Quectel RM520N-GL                      | 5G    | Yes    | GL.iNet         |           |
 | Quectel EC20-E, EC20-A, EC20-C         | 4G    | Yes    | GL.iNet         |           |
 | Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Yes    | GL.iNet         |           |
 | Quectel EC200A series                  | 4G    | Yes    | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G    | Yes    | akw2312         |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G    | Yes    | akw2312         |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G    | Yes    | akw2312         |           |
-| Quectel RM520N-GL                      | 5G    | Yes    | akw2312         |           |
-| Quectel UC20-E                         | 3G    | Yes    | GL.iNet         |           |
-| ZTE ME909s-821                         | 4G    | Yes    | GL.iNet         |           |
-| Huawei E1550                           | 3G    | Yes    | GL.iNet         |           |
+| Quectel EP06-E, EP06-A                 | 4G    | Yes    | anonymous       |           |
+| Quectel EM060K-GL, EM120K-GL           | 4G    | Yes    | anonymous       |           |
+| Quectel EM120R-GL, EM160R-GL           | 4G    | Yes    | anonymous       |           |
 | Huawei E3276                           | 4G    | Yes    | GL.iNet         |           |
-| TP-Link MA260                          | 3G    | Yes    | GL.iNet         |           |
-| ZTE M823                               | 4G    | Yes    | Arnas Risqianto |           |
-| ZTE MF190                              | 3G    | Yes    | Arnas Risqianto |           |
 | Huawei E3372                           | 4G    | Yes    | anonymous       |           |
-| Pantech UML290VW (Verizon)             | 4G    | Yes    | GL.iNet/steven  | QMI       |
-| Pantech UML295 (Verizon)               | 4G    | Yes    | GL.iNet/steven  | Host-less |
-| Novatel USB551L (Verizon)              | 4G    | Yes    | GL.iNet/steven  | QMI       |
-| Verizon U620L (Verizon)                | 4G    | Yes    | anonymous       | Host-less |
+| Huawei E3372h-153                      | 4G    | Yes    | GL.iNet         | Host-less |
 | Huawei E3372h-320 (Ukraine)            | 4G    | Yes    | anonymous       | Host-less |
+| Huawei E3372h-607                      | 4G    | Yes    | GL.iNet         |           |
+| Huawei K5161h                          | 4G    | Yes    | anonymous       |           |
+| ZTE MF833U1                            | 4G    | Yes    | anonymous       | Host-less |
+| ZTE MF79U                              | 4G    | Yes    | GL.iNet         | Host-less |
+| ZTE M823                               | 4G    | Yes    | Arnas Risqianto |           |
+| MeiG O4H13 (Qualcomm MDM9207)          | 4G    | Yes    | GL.iNet         | Host-less |
+| XTRONS 4G LTE USB Dongle               | 4G    | Yes    | GL.iNet         | Host-less |
 
 - **QMI**: このモデムは QMI モードに対応しています。セルラールーターでは、プロトコルに QMI、シリアルポートに **/dev/cdc-wdm0** を選択してください。
 

@@ -84,28 +84,29 @@ Zastosowanie zmian spowoduje ponowne nawiązanie połączenia.
 
 Poniżej znajduje się lista obsługiwanych modemów, które zostały wcześniej przetestowane.
 
-| Model                                  | 3G/4G | Tested | Tested by       | Comments* |
-| -------------------------------------- | ----- | ------ | --------------- | --------- |
-| Quectel EC20-E, EC20-A, EC20-C         | 4G    | Yes    | GL.iNet         |           |
-| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Yes    | GL.iNet         |           |
-| Quectel EC200A series                  | 4G    | Yes    | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G    | Yes    | akw2312         |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G    | Yes    | akw2312         |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G    | Yes    | akw2312         |           |
-| Quectel RM520N-GL                      | 5G    | Yes    | akw2312         |           |
-| Quectel UC20-E                         | 3G    | Yes    | GL.iNet         |           |
-| ZTE ME909s-821                         | 4G    | Yes    | GL.iNet         |           |
-| Huawei E1550                           | 3G    | Yes    | GL.iNet         |           |
-| Huawei E3276                           | 4G    | Yes    | GL.iNet         |           |
-| TP-Link MA260                          | 3G    | Yes    | GL.iNet         |           |
-| ZTE M823                               | 4G    | Yes    | Arnas Risqianto |           |
-| ZTE MF190                              | 3G    | Yes    | Arnas Risqianto |           |
-| Huawei E3372                           | 4G    | Yes    | anonymous       |           |
-| Pantech UML290VW (Verizon)             | 4G    | Yes    | GL.iNet/steven  | QMI       |
-| Pantech UML295 (Verizon)               | 4G    | Yes    | GL.iNet/steven  | Host-less |
-| Novatel USB551L (Verizon)              | 4G    | Yes    | GL.iNet/steven  | QMI       |
-| Verizon U620L (Verizon)                | 4G    | Yes    | anonymous       | Host-less |
-| Huawei E3372h-320 (Ukraine)            | 4G    | Yes    | anonymous       | Host-less |
+**SIMPoYo uFi** to kompaktowy modem USB typu plug & play z hotspotem Wi-Fi, zaprojektowany z myślą o szybkiej i niezawodnej łączności w dowolnym miejscu. Działa bezproblemowo z większością routerów GL.iNet, a także z laptopami, powerbankami, portami USB w samochodach i innymi źródłami zasilania USB. W zestawie znajduje się 10 GB darmowych danych na 30 dni, ważnych w Wielkiej Brytanii i 34 krajach Europy.
+
+| Model                                  | Sieć komórkowa | Przetestowano | Testował        | Uwagi*    |
+| -------------------------------------- | --------------- | ------------- | --------------- | --------- |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G    | Tak    | GL.iNet         |           |
+| Quectel RM520N-GL                      | 5G    | Tak    | GL.iNet         |           |
+| Quectel EC20-E, EC20-A, EC20-C         | 4G    | Tak    | GL.iNet         |           |
+| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Tak    | GL.iNet         |           |
+| Quectel EC200A series                  | 4G    | Tak    | akw2312         | Host-less |
+| Quectel EP06-E, EP06-A                 | 4G    | Tak    | anonymous       |           |
+| Quectel EM060K-GL, EM120K-GL           | 4G    | Tak    | anonymous       |           |
+| Quectel EM120R-GL, EM160R-GL           | 4G    | Tak    | anonymous       |           |
+| Huawei E3276                           | 4G    | Tak    | GL.iNet         |           |
+| Huawei E3372                           | 4G    | Tak    | anonymous       |           |
+| Huawei E3372h-153                      | 4G    | Tak    | GL.iNet         | Host-less |
+| Huawei E3372h-320 (Ukraine)            | 4G    | Tak    | anonymous       | Host-less |
+| Huawei E3372h-607                      | 4G    | Tak    | GL.iNet         |           |
+| Huawei K5161h                          | 4G    | Tak    | anonymous       |           |
+| ZTE MF833U1                            | 4G    | Tak    | anonymous       | Host-less |
+| ZTE MF79U                              | 4G    | Tak    | GL.iNet         | Host-less |
+| ZTE M823                               | 4G    | Tak    | Arnas Risqianto |           |
+| MeiG O4H13 (Qualcomm MDM9207)          | 4G    | Tak    | GL.iNet         | Host-less |
+| XTRONS 4G LTE USB Dongle               | 4G    | Tak    | GL.iNet         | Host-less |
 
 - **QMI**: Ten modem obsługuje tryb QMI. Wybierz QMI jako protokół i **/dev/cdc-wdm0** jako port szeregowy dla routera komórkowego.
 

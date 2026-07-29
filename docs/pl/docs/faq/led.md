@@ -299,8 +299,9 @@ Uwaga: stan serwera VPN nie jest wyświetlany na diodzie LED.
 	- Zgaszona: ta dioda LED nie została dostosowana (tryb domyślny)
 
 - Dioda sieci bezprzewodowej
-	- Włączona: Wi-Fi 2.4G jest połączone
-	- Zgaszona: Wi-Fi 2.4G jest rozłączone
+	- Włączona: Wi-Fi 2.4G jest włączone
+	- Zgaszona: Wi-Fi 2.4G jest wyłączone
+	- Miga: Wi-Fi 2.4G jest połączone
 
 	We wcześniejszych partiach dioda sieci bezprzewodowej może świecić na czerwono zamiast na biało podczas normalnej pracy.
 

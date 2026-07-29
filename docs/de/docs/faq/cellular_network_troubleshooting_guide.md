@@ -46,7 +46,7 @@ Wenn Sie keine Mobilfunkverbindung herstellen können, prüfen Sie bitte die fol
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** Aktivieren Sie **Band Maksing** und testen Sie erneut. Informationen für Firmware ver.4.7 und früher finden Sie [unter diesem Link](../interface_guide/internet_cellular_v4.7.md/#band-masking). Informationen für Firmware ver.4.8 und höher finden Sie [unter diesem Link](../interface_guide/internet_cellular.md/#band-masking).
+    **2.4** Aktivieren Sie **Band Masking** und testen Sie erneut. Informationen für Firmware ver.4.7 und früher finden Sie [unter diesem Link](../interface_guide/internet_cellular_v4.7.md/#band-masking). Informationen für Firmware ver.4.8 und höher finden Sie [unter diesem Link](../interface_guide/internet_cellular.md/#band-masking).
 
     **2.5** Sperren oder entsperren Sie einen Sendemast und testen Sie erneut. Diese Funktion ist nur auf GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) und GL-X2000 (Spitz Plus) verfügbar. Klicken Sie [hier](../interface_guide/internet_cellular.md/#lock-tower) für weitere Anweisungen.
     

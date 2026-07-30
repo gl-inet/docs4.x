@@ -54,7 +54,9 @@ Jeśli nie możesz nawiązać połączenia komórkowego, sprawdź poniższe kwes
     
     Jednak po zablokowaniu stacji bazowej router będzie nadal próbował łączyć się z nią po ponownym uruchomieniu, nawet jeśli zostanie przeniesiony do nowej lokalizacji. Może to uniemożliwić routerowi automatyczne połączenie z siecią komórkową. Jeśli tak się stanie, możesz odblokować bieżącą stację bazową w panelu administracyjnym WWW routera albo ręcznie zablokować nową.
 
-    **Uwaga:** Zablokowana stacja bazowa musi odpowiadać pasmom częstotliwości obsługiwanym przez operatora i urządzenie, w przeciwnym razie połączenie może się nie udać.
+    **Uwaga:**   
+    1. Zablokowana stacja bazowa musi odpowiadać pasmom częstotliwości obsługiwanym przez operatora i urządzenie, w przeciwnym razie połączenie może się nie udać.  
+    2. Router ma domyślnie włączoną opcję **International Data Roaming** w module komórkowym. Wyłączenie tej opcji może spowodować utratę dostępu do internetu przez kartę SIM. Pozostaw tę funkcję włączoną.
 
 ??? "Sprawdź zgodność karty SIM"
     

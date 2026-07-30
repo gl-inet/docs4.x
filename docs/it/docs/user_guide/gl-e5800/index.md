@@ -74,13 +74,15 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
 
         ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
 
-    2. Accedi al pannello di amministrazione web e vai su **INTERNET** -> **Cellular** -> **eSIM Management**.
+    2. Accedi al [pannello di amministrazione web](./index.md#accedi-al-pannello-di-amministrazione-web) e vai su **INTERNET** -> **Cellular** -> **eSIM Management**.
 
         ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
 
     3. Nella finestra popup, fai clic su **Add eSIM Profile** in basso.
 
         ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
+
+        **Nota**: prima di caricare il file, assicurati che il dispositivo sia connesso a Internet. Un errore di rete causerà il mancato caricamento del file di configurazione eSIM.
 
         Carica il tuo profilo eSIM tramite codice QR o codice di attivazione, quindi fai clic su **Install**. Tieni presente che la maggior parte dei profili eSIM può essere scaricata e aggiunta una sola volta.
 
@@ -102,9 +104,9 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
 
     **Configurare la Nano-SIM**:
 
-    1. Rimuovi il coperchio posteriore, estrai la batteria, inserisci la Nano-SIM nello slot, quindi reinstalla la batteria.
+    6. Rimuovi il coperchio posteriore, estrai la batteria, inserisci la Nano-SIM nello slot, quindi reinstalla la batteria.
 
-    2. Il router inizierà automaticamente a connettersi tramite questa Nano-SIM. Attendi e verifica che la connessione vada a buon fine.
+    7. Il router inizierà automaticamente a connettersi tramite questa Nano-SIM. Attendi e verifica che la connessione vada a buon fine.
 
     Quando la connessione a Internet va a buon fine, le barre del segnale e lo stato della rete cellulare compariranno nell'angolo superiore destro del touchscreen. Puoi anche controllare i dettagli della connessione nel pannello di amministrazione web.
 

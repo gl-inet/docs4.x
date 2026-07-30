@@ -52,6 +52,14 @@ Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei h
 
     Die BLE- und GPS-Versionen sind nur ab einer Mindestbestellmenge erhältlich.
 
+    Wählen Sie den passenden Antennenanschluss entsprechend Ihrer Geräteversion aus. Inkompatible Anschlüsse können zu Antennenfehlfunktionen oder ungewöhnlicher Signalqualität führen. Die Antennenschnittstellen der einzelnen Versionen sind unten aufgeführt:
+
+    - X300B‑GPS: 5 x SMB-Stecker  
+    - X300B‑RS485: 2 x RP‑SMA-Buchsen, 1 x SMA-Buchse   
+    - X300B‑BLE: 3 x RP‑SMA-Buchsen
+   
+    Die Antenne muss einen passenden Gegenstecker verwenden. Verwenden Sie eine Antenne mit Buchse, wenn der Geräteanschluss ein Stecker ist, und eine Antenne mit Stecker, wenn der Geräteanschluss eine Buchse ist.
+
 ## Lieferumfang
 
 - 1 x Benutzerhandbuch

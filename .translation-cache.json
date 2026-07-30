@@ -116,31 +116,31 @@
     }
   },
   "docs/en/docs/faq/cellular_network_troubleshooting_guide.md": {
-    "source_hash": "d6ae14cd97398f4efa4ff3cb6c0aae44dc1910de3e3f6a3bacd202372d567adc",
+    "source_hash": "742974084e30c97bb7f31c2923561a06c8274bcf90082fcb8f9c32ecde7fa4fa",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "updated_at": 1785379941
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "updated_at": 1785379941
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "updated_at": 1785379941
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "updated_at": 1785379941
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "updated_at": 1785379941
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "updated_at": 1785379941
       }
     }
   },
@@ -1765,35 +1765,6 @@
       "pl": {
         "model": "manual-sync",
         "updated_at": 1783759579
-      }
-    }
-  },
-  "docs/en/docs/interface_guide/expressvpn_dashboard.md": {
-    "source_hash": "1761954571eb62740d16ab06155b4743178afdbd7d2fa7f5c8b581ffef3de934",
-    "targets": {
-      "de": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
-      },
-      "es": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
-      },
-      "fr": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
-      },
-      "it": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
-      },
-      "jp": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
-      },
-      "pl": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
       }
     }
   },
@@ -5046,31 +5017,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-e5800/index.md": {
-    "source_hash": "57facd2e552482e62e611a1c7bc066f5e9e7e9080abe039cf87b8221d310d409",
+    "source_hash": "fc141e5bd1849cfc4b11c723e0e67248147c8975fbd2b188a5aac02654fc7b75",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1783948691
+        "updated_at": 1785379941
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1783948691
+        "updated_at": 1785379941
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1783948691
+        "updated_at": 1785379941
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1783948691
+        "updated_at": 1785379941
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1783948691
+        "updated_at": 1785379941
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1783948691
+        "updated_at": 1785379941
       }
     }
   },
@@ -5568,31 +5539,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-x300b/index.md": {
-    "source_hash": "ebe7bccea3e14aa6d133c8e2c632c74a9acb4d70e93ef28cc9f5cab8418ef0ef",
+    "source_hash": "634d5f12fabf8ecc03bb5af0fbfff7dcaf8fb773bf102bfa2dd101f16bb9de02",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1785379941
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1785379941
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1785379941
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1785379941
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1785379941
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1785379941
       }
     }
   },
@@ -5684,31 +5655,31 @@
     }
   },
   "docs/en/docs/user_guide/index.md": {
-    "source_hash": "1c9606d1bdc0f88e31074dd2e7745ebdc6069bebbc073caa69256f4e662e82cc",
+    "source_hash": "661552d95201d40a9236d5ceb20f30469c3f13699d88838b54eb3facbc786cf1",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       }
     }
   },
@@ -5858,31 +5829,31 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "39b5c43733216190760f368fb7fec1a2df8146da86f8726febf3eb401c2edb9b",
+    "source_hash": "d0b625ea74c67860d16d99ec9ab20d148445361daeefb4144b17d28f08939657",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785139971
+        "updated_at": 1785379941
       }
     }
   },
@@ -6434,35 +6405,6 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1784522575
-      }
-    }
-  },
-  "docs/en/docs/user_guide/gl-mt6000-fortify/index.md": {
-    "source_hash": "bca3eebcd809a8cd872d23f8e5961d9e89e3a32ea138f35782fde2f1c6116584",
-    "targets": {
-      "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785139971
-      },
-      "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785139971
-      },
-      "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785139971
-      },
-      "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785139971
-      },
-      "jp": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785139971
-      },
-      "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785139971
       }
     }
   }

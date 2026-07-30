@@ -54,7 +54,9 @@ Si no puede establecer una conexión celular, compruebe los siguientes puntos.
 
     Sin embargo, una vez que se bloquea una torre, el router seguirá intentando volver a conectarse a ella después de reiniciarse, incluso si se traslada a una nueva ubicación. Esto puede impedir que el router se conecte automáticamente a la red celular. Si esto ocurre, puede desbloquear la torre actual desde el panel de administración web del router o bloquearla manualmente en una nueva torre.
 
-    **Nota:** La torre bloqueada debe coincidir con las bandas de frecuencia compatibles con su operador y su dispositivo; de lo contrario, la conexión puede fallar.
+    **Nota:**   
+    1. La torre bloqueada debe coincidir con las bandas de frecuencia compatibles con su operador y su dispositivo; de lo contrario, la conexión puede fallar.  
+    2. El router tiene **International Data Roaming** activado de forma predeterminada en el módulo celular. Si se desactiva esta opción, la tarjeta SIM puede perder el acceso a Internet. Mantenga esta función activada.
 
 ??? "Comprobar la compatibilidad de la SIM"
 

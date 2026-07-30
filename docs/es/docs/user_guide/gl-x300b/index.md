@@ -22,6 +22,14 @@ Collie (GL-X300B) es una pasarela celular industrial diseñada para funcionar a 
 
     Las versiones BLE y GPS están disponibles con una cantidad mínima de pedido.
 
+    Seleccione el conector de antena correcto según la versión del dispositivo. Los conectores incompatibles pueden provocar fallos de la antena o un rendimiento anómalo de la señal. Las interfaces de antena de cada versión se indican a continuación:
+
+    - X300B‑GPS: 5 conectores SMB macho  
+    - X300B‑RS485: 2 conectores RP‑SMA hembra, 1 conector SMA hembra   
+    - X300B‑BLE: 3 conectores RP‑SMA hembra
+   
+    La antena debe usar un conector complementario. Use una antena con conector hembra cuando el puerto del dispositivo sea macho, y una antena con conector macho cuando el puerto del dispositivo sea hembra.
+
 ## Contenido del paquete
 
 - 1 x Manual del usuario

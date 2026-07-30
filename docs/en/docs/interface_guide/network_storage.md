@@ -46,9 +46,9 @@ For devices with flash storage of 32MB or less, the Network Storage function is 
 | GL-AX1800 (Flint)                      | √     | √     | √     | √        | -            |
 | GL-A1300 (Slate Plus)                  | √     | √     | √     | √        | -            |
 | GL-S1300 (Convexa-S)                   | √     | √     | √     | √        | -            |
-| GL-SFT1200 (Opal)</br>***FW 4.7.2**    | √     | -     | -     | √        | -            |
-| GL-E750V2 (Mudi V2)</br>***FW 4.7.2**  | √     | -     | -     | √        | √            |
-| GL-AR750S-EXT (Slate)</br>***FW 4.7.2**| √     | -     | -     | √        | √            |
+| GL-SFT1200 (Opal)</br>***FW 4.8+**     | √     | -     | -     | √        | -            |
+| GL-E750V2 (Mudi V2)</br>***FW 4.8+**   | √     | -     | -     | √        | √            |
+| GL-AR750S-EXT (Slate)</br>***FW 4.7+** | √     | -     | -     | √        | √            |
 
 ## Insert Storage Device
 

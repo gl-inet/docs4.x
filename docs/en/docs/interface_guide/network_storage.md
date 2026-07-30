@@ -33,8 +33,12 @@ For devices with flash storage of 32MB or less, the Network Storage function is 
 
 | Router Model                           | Samba | Webdav | DLNA | USB Port | MicroSD Card |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
+| GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
+| GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-E5800 (Mudi 7)                      | √     | √     | √     | √        | -            |
 | GL-MT5000 (Brume 3)                    | √     | √     | √     | √        | -            |
+| GL-BE9300 (Flint 3)                    | √     | √     | √     | √        | -            |
+| GL-BE6500 (Flint 3e)                   | √     | √     | √     | √        | -            |
 | GL-BE3600 (Slate 7)                    | √     | √     | √     | √        | -            |
 | GL-X2000 (Spitz Plus)                  | √     | √     | √     | √        | -            |
 | GL-MT6000 (Flint 2)                    | √     | √     | √     | √        | -            |

@@ -54,7 +54,9 @@ Wenn Sie keine Mobilfunkverbindung herstellen können, prüfen Sie bitte die fol
     
     Sobald ein Sendemast jedoch gesperrt ist, versucht der Router nach einem Neustart weiterhin, sich erneut mit diesem Mast zu verbinden, selbst wenn er an einen neuen Standort gebracht wurde. Dadurch kann verhindert werden, dass sich der Router automatisch mit dem Mobilfunknetz verbindet. In diesem Fall können Sie entweder den aktuellen Sendemast über das web Admin Panel des Routers entsperren oder ihn manuell auf einen neuen Sendemast festlegen.
 
-    **Hinweis:** Der gesperrte Sendemast muss zu den von Ihrem Netzbetreiber und Ihrem Gerät unterstützten Frequenzbändern passen, andernfalls kann die Verbindung fehlschlagen.
+    **Hinweis:**   
+    1. Der gesperrte Sendemast muss zu den von Ihrem Netzbetreiber und Ihrem Gerät unterstützten Frequenzbändern passen, andernfalls kann die Verbindung fehlschlagen.  
+    2. Auf dem Mobilfunkmodul des Routers ist **International Data Roaming** standardmäßig aktiviert. Wenn diese Option deaktiviert wird, kann die SIM-Karte den Internetzugang verlieren. Lassen Sie diese Funktion aktiviert.
 
 ??? "SIM-Kompatibilität prüfen"
     

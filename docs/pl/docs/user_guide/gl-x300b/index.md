@@ -22,6 +22,14 @@ Collie (GL-X300B) to przemysłowa brama komórkowa zaprojektowana do pracy w wys
 
     Wersje BLE i GPS są dostępne przy minimalnej ilości zamówienia.
 
+    Wybierz właściwe złącze anteny odpowiednio do wersji urządzenia. Niezgodne złącza mogą spowodować nieprawidłowe działanie anteny lub nietypową jakość sygnału. Interfejsy antenowe poszczególnych wersji są wymienione poniżej:
+
+    - X300B‑GPS: 5 x złącze SMB męskie  
+    - X300B‑RS485: 2 x złącze RP‑SMA żeńskie, 1 x złącze SMA żeńskie   
+    - X300B‑BLE: 3 x złącze RP‑SMA żeńskie
+   
+    Antena musi używać pasującego typu złącza. Użyj anteny ze złączem żeńskim, gdy port urządzenia jest męski, oraz anteny ze złączem męskim, gdy port urządzenia jest żeński.
+
 ## Zawartość opakowania
 
 - 1 x Instrukcja obsługi

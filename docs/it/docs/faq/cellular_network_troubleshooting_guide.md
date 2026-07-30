@@ -54,7 +54,9 @@ Se non riesci a stabilire una connessione cellulare, controlla i seguenti possib
 
     Tuttavia, una volta bloccata una torre, il router continuerà a provare a riconnettersi a quella torre dopo il riavvio, anche se viene spostato in una nuova posizione. Questo può impedire al router di connettersi automaticamente alla rete cellulare. In questo caso, puoi sbloccare la torre corrente dal pannello di amministrazione web del router oppure bloccarlo manualmente su una nuova torre.
 
-    **Nota:** la torre bloccata deve corrispondere alle bande di frequenza supportate dal tuo operatore e dal dispositivo; in caso contrario, la connessione potrebbe non riuscire.
+    **Nota:**   
+    1. La torre bloccata deve corrispondere alle bande di frequenza supportate dal tuo operatore e dal dispositivo; in caso contrario, la connessione potrebbe non riuscire.  
+    2. Sul modulo cellulare del router, **International Data Roaming** è abilitato per impostazione predefinita. Disabilitare questa opzione può far perdere alla SIM l'accesso a Internet. Mantieni questa funzione abilitata.
 
 ??? "Controlla la compatibilità della SIM"
 

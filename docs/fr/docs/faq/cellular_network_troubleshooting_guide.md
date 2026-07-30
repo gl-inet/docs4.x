@@ -54,7 +54,9 @@ Si vous ne parvenez pas à établir une connexion cellulaire, veuillez vérifier
     
     Cependant, une fois qu'une antenne relais est verrouillée, le routeur continuera d'essayer de s'y reconnecter après un redémarrage, même s'il est déplacé vers un nouvel emplacement. Cela peut empêcher le routeur de se connecter automatiquement au réseau cellulaire. Dans ce cas, vous pouvez soit déverrouiller l'antenne relais actuelle via le panneau d'administration Web du routeur, soit la verrouiller manuellement sur une nouvelle antenne relais.
 
-    **Remarque :** L'antenne relais verrouillée doit correspondre aux bandes de fréquences prises en charge par votre opérateur et votre appareil ; sinon, la connexion peut échouer.
+    **Remarque :**   
+    1. L'antenne relais verrouillée doit correspondre aux bandes de fréquences prises en charge par votre opérateur et votre appareil ; sinon, la connexion peut échouer.  
+    2. Le routeur a **International Data Roaming** activé par défaut sur le module cellulaire. La désactivation de cette option peut faire perdre l'accès Internet à la carte SIM. Gardez cette fonction activée.
 
 ??? "Vérifier la compatibilité de la carte SIM"
     

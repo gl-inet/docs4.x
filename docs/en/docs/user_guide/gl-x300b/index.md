@@ -22,6 +22,14 @@ Collie (GL-X300B) is an industrial cellular gateway designed to operate under hi
 
     The BLE and GPS versions are available with a minimum order quantity.
 
+    Select the correct antenna connector according to your device version. Incompatible connectors may cause antenna malfunction or abnormal signal performance. Antenna interfaces for each version are listed below:
+
+    - X300B‑GPS: 5 x SMB male connectors  
+    - X300B‑RS485: 2 x RP‑SMA female connectors, 1 x SMA female connector   
+    - X300B‑BLE: 3 x RP‑SMA female connectors
+   
+    The antenna must use a mating‑type connector. Use a female‑connector antenna when the device port is male, and a male‑connector antenna when the device port is female.
+
 ## Package contents
 
 - 1 x User manual

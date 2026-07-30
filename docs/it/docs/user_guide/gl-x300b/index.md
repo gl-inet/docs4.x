@@ -22,6 +22,14 @@ Collie (GL-X300B) è un gateway cellulare industriale progettato per funzionare 
 
     Le versioni BLE e GPS sono disponibili con quantitativo minimo d'ordine.
 
+    Seleziona il connettore dell'antenna corretto in base alla versione del dispositivo. Connettori incompatibili possono causare malfunzionamenti dell'antenna o prestazioni anomale del segnale. Le interfacce antenna di ciascuna versione sono elencate di seguito:
+
+    - X300B‑GPS: 5 connettori SMB maschio  
+    - X300B‑RS485: 2 connettori RP‑SMA femmina, 1 connettore SMA femmina   
+    - X300B‑BLE: 3 connettori RP‑SMA femmina
+   
+    L'antenna deve usare un connettore complementare. Usa un'antenna con connettore femmina quando la porta del dispositivo è maschio e un'antenna con connettore maschio quando la porta del dispositivo è femmina.
+
 ## Contenuto della confezione
 
 La confezione include:

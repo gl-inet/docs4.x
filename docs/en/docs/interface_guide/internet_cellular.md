@@ -235,9 +235,8 @@ Here is a list of supported modems that we had tested before.
 | ZTE MF833U1                            | 4G       | Yes    | anonymous       | Host-less |
 | ZTE MF79U                              | 4G       | Yes    | GL.iNet         | Host-less |
 | ZTE M823                               | 4G       | Yes    | Arnas Risqianto |           |
-| Pantech UML290VW (Verizon)             | 4G       | Yes    | GL.iNet/steven  | QMI       |
-| Pantech UML295 (Verizon)               | 4G       | Yes    | GL.iNet/steven  | Host-less |
 | MeiG O4H13 (Qualcomm MDM9207)          | 4G       | Yes    | GL.iNet         | Host-less |
+| XTRONS 4G LTE USB Dongle               | 4G       | Yes    | GL.iNet         | Host-less |
 
 - **QMI**: This modem supports QMI mode. Please select QMI as the cellular communication protocol, and **/dev/cdc-wdm0** as the serial port in the SIM card settings.
 

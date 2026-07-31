@@ -46,7 +46,7 @@ Jeśli nie możesz nawiązać połączenia komórkowego, sprawdź poniższe kwes
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** Włącz **Band Maksing** i sprawdź ponownie. W przypadku firmware ver.4.7 i starszego zobacz [ten link](../interface_guide/internet_cellular_v4.7.md/#band-masking). W przypadku firmware ver.4.8 i nowszego zobacz [ten link](../interface_guide/internet_cellular.md/#band-masking).
+    **2.4** Włącz **Band Masking** i sprawdź ponownie. W przypadku firmware ver.4.7 i starszego zobacz [ten link](../interface_guide/internet_cellular_v4.7.md/#band-masking). W przypadku firmware ver.4.8 i nowszego zobacz [ten link](../interface_guide/internet_cellular.md/#band-masking).
 
     **2.5** Zablokuj lub odblokuj stację bazową i sprawdź ponownie. Ta funkcja jest dostępna tylko w GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) i GL-X2000 (Spitz Plus). Kliknij [tutaj](../interface_guide/internet_cellular.md/#lock-tower), aby uzyskać więcej instrukcji.
     
@@ -54,7 +54,9 @@ Jeśli nie możesz nawiązać połączenia komórkowego, sprawdź poniższe kwes
     
     Jednak po zablokowaniu stacji bazowej router będzie nadal próbował łączyć się z nią po ponownym uruchomieniu, nawet jeśli zostanie przeniesiony do nowej lokalizacji. Może to uniemożliwić routerowi automatyczne połączenie z siecią komórkową. Jeśli tak się stanie, możesz odblokować bieżącą stację bazową w panelu administracyjnym WWW routera albo ręcznie zablokować nową.
 
-    **Uwaga:** Zablokowana stacja bazowa musi odpowiadać pasmom częstotliwości obsługiwanym przez operatora i urządzenie, w przeciwnym razie połączenie może się nie udać.
+    **Uwaga:**   
+    1. Zablokowana stacja bazowa musi odpowiadać pasmom częstotliwości obsługiwanym przez operatora i urządzenie, w przeciwnym razie połączenie może się nie udać.  
+    2. Router ma domyślnie włączoną opcję **International Data Roaming** w module komórkowym. Wyłączenie tej opcji może spowodować utratę dostępu do internetu przez kartę SIM. Pozostaw tę funkcję włączoną.
 
 ??? "Sprawdź zgodność karty SIM"
     

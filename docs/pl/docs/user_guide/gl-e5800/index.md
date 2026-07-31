@@ -74,13 +74,15 @@ Skonfiguruj Mudi 7, korzystając z jednej z obsługiwanych metod połączenia z 
 
         ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
 
-    2. Zaloguj się do web Admin Panel i przejdź do **INTERNET** -> **Cellular** -> **eSIM Management**.
+    2. Zaloguj się do [web Admin Panel](./index.md#zaloguj-sie-do-web-admin-panel) i przejdź do **INTERNET** -> **Cellular** -> **eSIM Management**.
 
         ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
 
     3. W wyskakującym oknie kliknij na dole **Add eSIM Profile**.
 
         ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
+
+        **Uwaga**: Przed przesłaniem pliku upewnij się, że urządzenie jest połączone z internetem. Błąd sieci spowoduje niepowodzenie przesyłania pliku konfiguracji eSIM.
 
         Prześlij profil eSIM za pomocą kodu QR albo kodu aktywacyjnego, a następnie kliknij **Install**. Pamiętaj, że większość profili eSIM można pobrać i dodać tylko raz.
 
@@ -102,9 +104,9 @@ Skonfiguruj Mudi 7, korzystając z jednej z obsługiwanych metod połączenia z 
 
     **Konfiguracja Nano-SIM**:
 
-    1. Zdejmij tylną pokrywę, wyjmij akumulator, włóż kartę Nano-SIM do gniazda, a następnie ponownie zamontuj akumulator.
+    6. Zdejmij tylną pokrywę, wyjmij akumulator, włóż kartę Nano-SIM do gniazda, a następnie ponownie zamontuj akumulator.
 
-    2. Router automatycznie rozpocznie łączenie z internetem za pośrednictwem tej karty Nano-SIM. Poczekaj chwilę i sprawdź, czy połączenie zostało nawiązane pomyślnie.
+    7. Router automatycznie rozpocznie łączenie z internetem za pośrednictwem tej karty Nano-SIM. Poczekaj chwilę i sprawdź, czy połączenie zostało nawiązane pomyślnie.
 
     Po pomyślnym połączeniu z internetem paski siły sygnału i stan połączenia komórkowego pojawią się w prawym górnym rogu ekranu dotykowego. Szczegóły połączenia możesz też sprawdzić w web Admin Panel.
 

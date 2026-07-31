@@ -75,13 +75,15 @@ Configurez votre Mudi 7 à l'aide de l'une des méthodes de connexion Internet p
 
         ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
 
-    2. Connectez-vous au panneau d’administration web, puis accédez à **INTERNET** -> **Cellular** -> **eSIM Management**.
+    2. Connectez-vous au [panneau d’administration web](./index.md#connexion-au-panneau-dadministration-web), puis accédez à **INTERNET** -> **Cellular** -> **eSIM Management**.
 
         ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
 
     3. Dans la fenêtre contextuelle, cliquez sur **Add eSIM Profile** en bas.
 
         ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
+
+        **Remarque** : avant d'importer le fichier, assurez-vous que votre appareil est connecté à Internet. Une erreur réseau entraînera l'échec de l'importation du fichier de configuration eSIM.
 
         Importez votre profil eSIM via un QR code ou un code d’activation, puis cliquez sur **Install**. Notez que la plupart des profils eSIM ne peuvent être téléchargés et ajoutés qu’une seule fois.
 
@@ -103,9 +105,9 @@ Configurez votre Mudi 7 à l'aide de l'une des méthodes de connexion Internet p
 
     **Configurer une Nano‑SIM** :
 
-    1. Retirez le couvercle arrière, sortez la batterie, insérez votre carte Nano‑SIM dans l’emplacement prévu, puis remettez la batterie en place.
+    6. Retirez le couvercle arrière, sortez la batterie, insérez votre carte Nano‑SIM dans l’emplacement prévu, puis remettez la batterie en place.
 
-    2. Le routeur commencera automatiquement à se connecter via cette carte Nano‑SIM. Patientez, puis vérifiez que la connexion a réussi.
+    7. Le routeur commencera automatiquement à se connecter via cette carte Nano‑SIM. Patientez, puis vérifiez que la connexion a réussi.
 
     Une fois la connexion Internet établie, les barres de signal et l’état de la connexion cellulaire s’affichent dans l’angle supérieur droit de l’écran tactile. Vous pouvez également consulter les détails de la connexion dans le panneau d’administration web.
 

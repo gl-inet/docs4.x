@@ -74,13 +74,15 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
 
         ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
 
-    2. Log in to the web Admin Panel, go to **INTERNET** -> **Cellular** -> **eSIM Management**.
+    2. Log in to the [web Admin Panel](./index.md#log-in-to-web-admin-panel), go to **INTERNET** -> **Cellular** -> **eSIM Management**.
 
-        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
+        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}   
     
     3. In the pop-up window, click **Add eSIM Profile** at the bottom.
 
-        ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
+        ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}  
+
+        **Note**: Before performing the upload operation, please ensure that your device is connected to the internet. A network error will cause the eSIM configuration file upload to fail.
 
         Upload your eSIM profile via a QR code or activation code, and click **Install**. Note that most eSIM profiles can only be downloaded and added once.
 
@@ -102,9 +104,9 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
 
     **Set up Nano‑SIM**: 
     
-    1. Remove the back cover, take out the battery, insert your Nano-SIM card into the slot, then install the battery. 
+    6. Remove the back cover, take out the battery, insert your Nano-SIM card into the slot, then install the battery. 
 
-    2. The router will start connecting automatically via this Nano‑SIM card. Please wait and check if the connection is successful.
+    7. The router will start connecting automatically via this Nano‑SIM card. Please wait and check if the connection is successful.
 
     Once successfully connected to the internet, the signal bars and cellular status will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
 

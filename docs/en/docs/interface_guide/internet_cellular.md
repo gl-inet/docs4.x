@@ -152,7 +152,7 @@ In the router's web Admin Panel, navigate to **INTERNET** -> **Cellular**, then 
 
 ![sim card switch](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/slot_settings_0.png){class="glboxshadow"}
 
-It will display the auto switch button, the activa SIM card, the ICCID and Network Operator.
+It will display the auto switch button, the active SIM card, the ICCID and Network Operator.
 
 ![slot_settings_1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.8/slot_settings_1.png){class="glboxshadow"}
 

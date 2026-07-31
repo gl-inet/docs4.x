@@ -1,6 +1,6 @@
 # AstroWarp
 
-**Note**: This guide covers the new version of AstroWarp.
+**Note**: This guide applies to the new version of AstroWarp.
 
 The new AstroWarp is integrated into the GL.iNet router SDK. It adopts the AmneziaWG protocol with built-in traffic obfuscation, delivering stable and secure connections for reliable remote access anytime, anywhere.
 
@@ -21,12 +21,16 @@ The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalo
 
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
-    - ※GL-MT6000 (Flint 2)
+    - GL-MT6000 (Flint 2)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
     - ※GL-X3000 (Spitz AX)
     - ※GL-XE3000 (Puli AX)
+    - ※GL-X2000 (Spitz Plus)
     - ※GL-AX1800 (Flint)
     - ※GL-AXT1800 (Slate AX)
     - ※GL-MT3000 (Beryl AX)
+    - ※GL-MT2500/GL-MT2500A (Brume 2)
 
     **Note**: Models marked with ※ support the integrated AstroWarp in Beta firmware.
 
@@ -35,12 +39,8 @@ The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalo
     These devices are incompatible with the new AstroWarp, while certain models still work with the legacy AstroWarp. Refer to [here](https://docs.astrowarp.net/en/quick_start/){target="_blank"} for details.
 
     - GL-E5800 (Mudi 7)
-    - GL-MT5000 (Brume 3)
-    - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
-    - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT2500/GL-MT2500A (Brume 2)
     - GL-A1300 (Slate Plus)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)

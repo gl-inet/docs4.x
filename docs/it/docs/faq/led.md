@@ -299,8 +299,9 @@ Nota: lo stato del server VPN non viene visualizzato sul LED.
 - Spento: questo LED non è stato personalizzato (modalità predefinita)
 
 - Wireless LED
-- Acceso: il Wi-Fi 2.4G è connesso
-- Spento: il Wi-Fi 2.4G è disconnesso
+- Acceso: il Wi-Fi 2.4G è abilitato
+- Spento: il Wi-Fi 2.4G è disabilitato
+- Lampeggiante: il Wi-Fi 2.4G è connesso
 
 Per i lotti precedenti, il Wireless LED può apparire rosso invece che bianco durante il normale funzionamento.
 

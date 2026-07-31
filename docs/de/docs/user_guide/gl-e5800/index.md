@@ -104,13 +104,15 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
         ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
 
-    2. Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **INTERNET** -> **Cellular** -> **eSIM Management**.
+    2. Melden Sie sich im [Web-Admin-Panel](./index.md#anmeldung-im-web-admin-panel) an und gehen Sie zu **INTERNET** -> **Cellular** -> **eSIM Management**.
 
         ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
 
     3. Klicken Sie im Pop-up-Fenster unten auf **Add eSIM Profile**.
 
         ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
+
+        **Hinweis**: Stellen Sie vor dem Hochladen sicher, dass Ihr Gerät mit dem Internet verbunden ist. Ein Netzwerkfehler führt dazu, dass das Hochladen der eSIM-Konfigurationsdatei fehlschlägt.
 
         Laden Sie Ihr eSIM-Profil per QR-Code oder Aktivierungscode hoch und klicken Sie auf **Install**. Beachten Sie, dass die meisten eSIM-Profile nur einmal heruntergeladen und hinzugefügt werden können.
 
@@ -132,9 +134,9 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
     **Nano-SIM einrichten**:
 
-    1. Entfernen Sie die Rückabdeckung, nehmen Sie den Akku heraus, setzen Sie Ihre Nano-SIM-Karte in den Steckplatz ein und installieren Sie anschließend den Akku wieder.
+    6. Entfernen Sie die Rückabdeckung, nehmen Sie den Akku heraus, setzen Sie Ihre Nano-SIM-Karte in den Steckplatz ein und installieren Sie anschließend den Akku wieder.
 
-    2. Der Router beginnt automatisch, sich über diese Nano-SIM-Karte zu verbinden. Bitte warten Sie und prüfen Sie, ob die Verbindung erfolgreich hergestellt wird.
+    7. Der Router beginnt automatisch, sich über diese Nano-SIM-Karte zu verbinden. Bitte warten Sie und prüfen Sie, ob die Verbindung erfolgreich hergestellt wird.
 
     Sobald die Internetverbindung erfolgreich hergestellt wurde, werden die Signalbalken und der Mobilfunkstatus oben rechts auf dem Touchscreen angezeigt. Sie können die Verbindungsdetails auch im Web-Admin-Panel prüfen.
 

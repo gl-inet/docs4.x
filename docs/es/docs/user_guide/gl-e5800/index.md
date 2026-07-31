@@ -74,13 +74,15 @@ Configure su Mudi 7 con uno de los métodos de conexión a Internet compatibles:
 
         ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
 
-    2. Inicie sesión en el panel de administración web y vaya a **INTERNET** -> **Cellular** -> **eSIM Management**.
+    2. Inicie sesión en el [panel de administración web](./index.md#iniciar-sesion-en-el-panel-de-administracion-web) y vaya a **INTERNET** -> **Cellular** -> **eSIM Management**.
 
         ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
 
     3. En la ventana emergente, haga clic en **Add eSIM Profile** en la parte inferior.
 
         ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
+
+        **Nota**: Antes de cargar el archivo, asegúrese de que el dispositivo esté conectado a Internet. Un error de red hará que falle la carga del archivo de configuración eSIM.
 
         Cargue su perfil eSIM mediante un código QR o un código de activación y haga clic en **Install**. Tenga en cuenta que la mayoría de los perfiles eSIM solo pueden descargarse y añadirse una vez.
 
@@ -102,9 +104,9 @@ Configure su Mudi 7 con uno de los métodos de conexión a Internet compatibles:
 
     **Configurar Nano-SIM**:
 
-    1. Retire la tapa trasera, saque la batería, inserte su tarjeta Nano-SIM en la ranura y vuelva a colocar la batería.
+    6. Retire la tapa trasera, saque la batería, inserte su tarjeta Nano-SIM en la ranura y vuelva a colocar la batería.
 
-    2. El router empezará a conectarse automáticamente a través de esta tarjeta Nano-SIM. Espere y compruebe si la conexión se realiza correctamente.
+    7. El router empezará a conectarse automáticamente a través de esta tarjeta Nano-SIM. Espere y compruebe si la conexión se realiza correctamente.
 
     Cuando la conexión a Internet se establezca correctamente, las barras de señal y el estado de la conexión celular aparecerán en la esquina superior derecha de la pantalla táctil. También puede comprobar los detalles de la conexión en el panel de administración web.
 

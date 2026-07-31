@@ -22,6 +22,14 @@ Collie (GL-X300B) est une passerelle cellulaire industrielle conçue pour foncti
 
     Les versions BLE et GPS sont disponibles avec une quantité minimale de commande.
 
+    Sélectionnez le connecteur d'antenne adapté à la version de votre appareil. Des connecteurs incompatibles peuvent provoquer un dysfonctionnement de l'antenne ou des performances de signal anormales. Les interfaces d'antenne de chaque version sont indiquées ci-dessous :
+
+    - X300B‑GPS : 5 connecteurs SMB mâles  
+    - X300B‑RS485 : 2 connecteurs RP‑SMA femelles, 1 connecteur SMA femelle   
+    - X300B‑BLE : 3 connecteurs RP‑SMA femelles
+   
+    L'antenne doit utiliser un connecteur complémentaire. Utilisez une antenne avec connecteur femelle lorsque le port de l'appareil est mâle, et une antenne avec connecteur mâle lorsque le port de l'appareil est femelle.
+
 ## Contenu du colis
 
 - 1 x Manuel de l’utilisateur

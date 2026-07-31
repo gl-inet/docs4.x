@@ -46,7 +46,7 @@ Si vous ne parvenez pas à établir une connexion cellulaire, veuillez vérifier
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** Activez **Band Maksing** et réessayez. Pour le firmware version 4.7 et antérieure, reportez-vous à [ce lien](../interface_guide/internet_cellular_v4.7.md/#band-masking). Pour le firmware version 4.8 et ultérieure, reportez-vous à [ce lien](../interface_guide/internet_cellular.md/#band-masking).
+    **2.4** Activez **Band Masking** et réessayez. Pour le firmware version 4.7 et antérieure, reportez-vous à [ce lien](../interface_guide/internet_cellular_v4.7.md/#band-masking). Pour le firmware version 4.8 et ultérieure, reportez-vous à [ce lien](../interface_guide/internet_cellular.md/#band-masking).
 
     **2.5** Verrouillez ou déverrouillez une antenne relais et réessayez. Cette fonctionnalité est disponible uniquement sur les GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) et GL-X2000 (Spitz Plus). Cliquez [ici](../interface_guide/internet_cellular.md/#lock-tower) pour plus d'instructions.
     
@@ -54,7 +54,9 @@ Si vous ne parvenez pas à établir une connexion cellulaire, veuillez vérifier
     
     Cependant, une fois qu'une antenne relais est verrouillée, le routeur continuera d'essayer de s'y reconnecter après un redémarrage, même s'il est déplacé vers un nouvel emplacement. Cela peut empêcher le routeur de se connecter automatiquement au réseau cellulaire. Dans ce cas, vous pouvez soit déverrouiller l'antenne relais actuelle via le panneau d'administration Web du routeur, soit la verrouiller manuellement sur une nouvelle antenne relais.
 
-    **Remarque :** L'antenne relais verrouillée doit correspondre aux bandes de fréquences prises en charge par votre opérateur et votre appareil ; sinon, la connexion peut échouer.
+    **Remarque :**   
+    1. L'antenne relais verrouillée doit correspondre aux bandes de fréquences prises en charge par votre opérateur et votre appareil ; sinon, la connexion peut échouer.  
+    2. Le routeur a **International Data Roaming** activé par défaut sur le module cellulaire. La désactivation de cette option peut faire perdre l'accès Internet à la carte SIM. Gardez cette fonction activée.
 
 ??? "Vérifier la compatibilité de la carte SIM"
     

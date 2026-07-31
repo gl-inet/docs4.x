@@ -70,7 +70,9 @@ Applying the changes will trigger a reconnection.
 
 - **Port**: The serial port used to communicate with the cellular modem. This is usually auto-detected and does not require manual adjustment.
 
-- **TTL**: TTL (Time To Live) defines the maximum time packets can survive in the network. By default, the router decrements the TTL of incoming packets from client devices by 1 before forwarding them. If you need to override it, you can set a fixed value here. The TTL setting is valid only for IPv4.
+- **TTL**: TTL (Time To Live) defines the maximum time packets can survive in the network. By default, the router decrements the TTL of incoming packets from client devices by 1 before forwarding them. The TTL setting is valid only for IPv4.
+
+    **Note**: If you need to camouflage, you can set a fixed value here. For most models, enter the desired effective TTL plus 1 to compensate for the automatic decrement. The Mudi 7 (GL‑E5800) applies the entered value unchanged.
 
 - **HL**: In IPv6, HL (Hop Limit) limits the number of transmission hops for data packets in the network and serves as the equivalent of TTL in IPv4.
 

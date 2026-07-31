@@ -88,7 +88,9 @@ When joining the network, there are some additional options.
 
     ![set static ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/manually_set_static_ip.png){class="glboxshadow"}
 
-* **TTL**: TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator. By default, the router forwards the TTL of the incoming client device minus one. If you need to camouflage, you can set a fixed value here. the TTL is valid only for IPv4.
+* **TTL**: TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator. By default, the router forwards the TTL of the incoming client device minus one. The TTL is valid only for IPv4.    
+  
+    **Note**: If you need to camouflage, you can set a fixed value here. For most models, enter the desired effective TTL plus 1 to compensate for the automatic decrement. The Mudi 7 (GL‑E5800) applies the entered value unchanged.
 
 * **HL**: In IPv6, the HL (Hop Limit) field is used to limit the number of transmission hops of data packets in the network, which is equivalent to the TTL in IPv4.
 

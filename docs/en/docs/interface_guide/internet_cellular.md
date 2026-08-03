@@ -231,7 +231,6 @@ Here is a list of supported modems that we had tested before.
 | Quectel EM060K-GL, EM120K-GL           | 4G       | Yes    | anonymous       |           |
 | Quectel EM120R-GL, EM160R-GL           | 4G       | Yes    | anonymous       |           |
 | Huawei E3276                           | 4G       | Yes    | GL.iNet         |           |
-| Huawei E3372                           | 4G       | Yes    | anonymous       |           |
 | Huawei E3372h-153                      | 4G       | Yes    | GL.iNet         | Host-less |
 | Huawei E3372h-320 (Ukraine)            | 4G       | Yes    | anonymous       | Host-less |
 | Huawei E3372h-607                      | 4G       | Yes    | GL.iNet         |           |

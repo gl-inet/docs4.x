@@ -64,6 +64,13 @@ Use this workflow when syncing English changes into localized docs, especially w
 - For page content, prefer updating the matching localized path under the target language's `docs/` subdirectory. Create a new localized page only when the English source introduces a page that does not yet exist.
 - For language-level files such as `mkdocs.yml` or homepage overrides, update the matching file under the target language root when it exists.
 
+## Excluded Pages
+
+- Skip `docs/en/docs/downloads/index.md` (the English Downloads / user manual page, `https://docs.gl-inet.com/router/en/4/downloads/`) when building the source-change set or syncing localized docs. Localized docs do not need this page for now.
+- Do not create, update, or flag the matching localized `downloads/index.md` files for this page during sync workflows, even if the English version changes.
+- Do not report this page's localized copies as out of sync or missing in the final summary while this exclusion is in effect.
+- This exclusion is temporary; remove it once the user asks to resume translating this page.
+
 ## Commit Baseline Guidance
 
 - Do not hard-code a specific commit hash in the skill. It becomes stale immediately after the next translation run.

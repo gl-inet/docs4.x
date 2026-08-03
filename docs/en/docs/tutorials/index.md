@@ -60,7 +60,7 @@ Learn how to use our devices correctly with detailed steps.
 * [How to set up drop-in gateway on GL.iNet routers](how_to_set_up_drop_in_gateway.md)
 * [How to set up port forwarding on your primary router](how_to_set_up_port_forwarding.md)
 * [How to configure dual wired WAN access on a single-WAN-port router](configure_dual_ethernet_wan.md)
-* [How to share your Network via USB-C OTG](how_to_share_your_Network_via_USB-C_OTG.md)
+* [What is USB-C OTG and How to share your Network via USB-C OTG](what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)
 
 ## Others
 

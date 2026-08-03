@@ -167,37 +167,9 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
 
     3. Mudi 7 will then automatically connect to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and check the USB Ethernet connection on the INTERNET page.
     3. Once successfully connected to the internet, a USB icon and an Ethernet port icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
-
-### 5. Network Sharing via USB‑C OTG
-
-Mudi 7's  OTG-enabled USB-C port switches between **Device** / **Host** modes for flexible network sharing with external devices. Detailed scenarios are as follows: 
-
-1. Connect to a Computer  
-
-    The computer lacks OTG. When connected via USB, the router shows a mode selection window. Select any mode to auto-negotiate the role. The computer then recognizes it as a USB adapter for direct internet access, no extra drivers needed.
-
-2. Connect to a Smartphone
-   
-    - **Device Mode**: The Mudi 7 acts as a USB device, sharing its network with the phone.
-  
-    - **Host Mode**: After enabling USB Tethering on the phone, it can share its cellular network with the Mudi 7 via USB. This USB link can serve as an independent WAN interface, enabling Multi-WAN connectivity.
-
-!!! Note
-    1. Before using OTG, ensure the phone supports OTG and use a data-capable USB cable. Charge-only cables cannot transmit network signals.   
     
-    2. When Device Mode is enabled, the phone will not display a network connection notification. To verify functionality, check the network status in the phone's settings or run a connectivity test.   
-   
-        For example, share the Mudi 7's network to your phone via Device Mode, e.g. iPhone 17 Pro：  
+    For detailed instructions on how to use USB-C OTG for network sharing, please click [here](../../tutorials/how_to_share_your_Network_via_USB-C_OTG.md).
 
-        1. Use a USB cable that supports OTG to connect the USB 3.1 port on the Mudi 7 to your iPhone 17 Pro.  
-   
-        2. On the Mudi 7, select **Device Mode**.    
-   
-            ![usb mode selection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_usb_mode_selection.png){class="glboxshadow" width="250"} 
-
-        3. In your phone's settings, you will see that the Mudi 7 is providing network access to your phone, as shown in the screenshot below.   
-   
-            ![usb device mode](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_usb_device_mode.png){class="glboxshadow" width="600"}
 ## Firmware Upgrade
 
 !!! Note "Before upgrading, please note:"

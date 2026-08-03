@@ -575,3 +575,97 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
+
+## Regulatory Statements
+
+**FCC ID: 2AFIW-E5800**
+
+1. This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions:  
+    (1) This device may not cause harmful interference, and  
+    (2) This device must accept any interference received, including interference that may cause undesired operation.  
+
+2. Changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment.  
+
+3. Note: This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, and the user is encouraged to try to correct the interference by one or more of the following measures:  
+    - Reorient or relocate the receiving antenna.  
+    - Increase the separation between the equipment and receiver.  
+    - Connect the equipment into an outlet on a circuit different from that to which the receiver is connected.  
+    - Consult the dealer or an experienced radio/TV technician for help important announcement.
+
+**FCC Radiation Exposure Statement**  
+This equipment complies with FCC radiation exposure limits set forth for an uncontrolled environment. This equipment should be installed and operated with minimum distance 20cm between the radiator and your body. This transmitter must not be co-located oroperating in conjunction with any other antenna or transmitter.
+
+For 6ID:  
+
+- FCC regulations restrict the operation of this device to indoor use only.  
+- The operation of this device is prohibited on oil platforms, cars, trains, boats, and aircraft, except that operation of this device is permitted in large aircraft while flying above 10,000 feet in the 5.925-6.425 GHz band.  
+- Operation of transmitters in the 5.925-7.125 GHz band is prohibited for control of or communications with unmanned aircraft systems.  
+
+---
+
+**Canadian Compliance Statement**
+
+This device contains licence-exempt transmitter(s)/receiver(s) that comply with Innovation, Science and Economic Development Canada's licence-exempt RSS(s).  
+Operation is subject to the following two conditions:  
+(1) This device may not cause interference.  
+(2) This device must accept any interference, including interference that may cause undesired operation of the device.  
+
+L'émetteur/récepteur exempt de licence contenu dans le présent appareil est conforme aux CNR d'Innovation, Sciences et Développement économique Canada applicables aux appareils radio exempts de licence. 
+L'exploitation est autorisée aux deux conditions suivantes:  
+(1) L'appareil ne doit pas produire de brouillage;  
+(2) L'appareil doit accepter tout brouillage radioélectrique subi, même si le brouillage est susceptible d'en compromettre le fonctionnement.  
+
+This equipment complies with IC RSS-102 radiation exposure limits set forth for an uncontrolled environment. This equipment should be installed and operated with minimum distance 20cm between the radiator and your body.  
+
+Cet équipement est conforme aux limites d'exposition aux radiations IC CNR-102 établies pour un environnement non contrôlé. Cet équipement doit être installé et utilisé avec une distance minimale de 20 cm entre le radiateur et votre corps.
+
+Caution:  
+The device for operation in the band 5150–5250 MHz is only for indoor use to reduce the potential for harmful interference to co-channel mobile satellite systems; DFS (Dynamic Frequency Selection) products that operate in the bands 5250-5350 MHz, 5470-5600MHz, and 5650-5725MHz.
+
+Avertissement:  
+Le dispositif fonctionnant dans la bande 5150-5250 MHz est réservé uniquement pour une utilisation à l'intérieur afin de réduire les risques de brouillage préjudiciable aux systèmes de satellites mobiles utilisant les mêmes canaux; Les produits utilisant la technique d'atténuation DFS (sélection dynamique des fréquences) sur les bandes 5250-5350 MHz, 5470-5600MHz et 5650-5725MHz.
+
+Devices shall not be used for control of or communications with unmanned aircraft systems.  
+Les appareils ne doivent pas être utilisés pour le contrôle ou la communication avec des systèmes d'aéronefs sans pilote.
+
+for low-power indoor access points:  
+Devices shall not be used for control of or communications with unmanned aircraft systems.  
+Operation shall be limited to indoor use only.  
+Operation on oil platforms, automobiles, trains, maritime vessels and aircraft shall be prohibited except for on large aircraft flying above 3,048 m (10,000 ft).  
+
+Les appareils ne doivent pas être utilisés pour le contrôle ou la communication avec des systèmes d'aéronefs sans pilote.  
+Le fonctionnement doit être limité à une utilisation en intérieur uniquement.  
+L'opération sur les plates-formes pétrolières, les automobiles, les trains, les navires maritimes et les avions est interdite, sauf sur les gros avions volant au-dessus de 3,048 m (10,000 ft).  
+
+for very low-power devices:  
+Devices shall not be used on automobiles.  
+Devices shall not be used on trains.  
+Devices shall not be used on maritime vessels.  
+Operation shall be limited to indoor use only.  
+
+Pour les appareils très basse puissance:  
+Les appareils ne doivent pas être utilisés à bord de véhicules automobiles.  
+Les appareils ne doivent pas être utilisés à bord de trains.  
+Les appareils ne doivent pas être utilisés à bord de navires maritimes.  
+L'utilisation doit être limitée à l'usage en intérieur uniquement.  
+
+**Radiation Exposure Statement**:  
+
+This EUT is compliance with SAR for general population/uncontrolled exposure limits in RSS-102 and had been tested in accordance with the measurement methods and procedures specified in IEEE 1528 and IEC 62209. This equipment should be installed and operated with minimum distance 1.0cm between the radiator and your body. This device and its antenna(s) must not be co-located or operating in conjunction with any other antenna or transmitter.
+
+Déclaration d'exposition aux radiations:
+
+Cet adaptateur est conforme au SAR pour la population générale/limites d'exposition non contrôlées dans RSS-102 et a été testé conformément aux méthodes et procédures de mesure spécifiées dans IEEE 1528 et CEI 62209. Cet équipement doit être installé et utilisé avec une distance minimale de 5 mm entre le radiateur et votre corps. Cet appareil et ses antennes ne doivent pas être situés ou fonctionner en conjonction avec une autre antenne ou un autre émetteur.
+
+---
+
+**Declaration of conformity**
+
+Hereby, GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment type [5G NR Tri-band Wi-Fi 7 Portable Router, GL-E5800EU] is in compliance with the essential requirements and other relevant provisions of Directive 2014/53/EU. The full text of the EU declaration of conformity is available at [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
+
+Frequency bands:  
+2.4G Wi-Fi: 2400-2483.5MHz;  
+5G Wi-Fi: 5150-5250MHz, 5250-5350MHz, 5470-5725MHz, 5725-5895MHz;  
+6G Wi-Fi: 5925-7125MHz  
+
+Maximum output power: CE: 2.4G 19.27dBm(EIRP), 5G 22.44dBm(EIRP), 6G Wi-Fi 22.49dBm-LPI(EIRP), 13.49dBm-VLP(EIRP)

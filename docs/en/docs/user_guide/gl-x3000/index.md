@@ -396,3 +396,59 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
+
+## Regulatory Statements
+
+**FCC ID: 2AFIW-X3000NR | 2AFIW-X3000C16**  
+
+1. This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions:   
+    
+    (1) This device may not cause harmful interference, and  
+    (2) This device must accept any interference received, including interference that may cause undesired operation.  
+
+2. Changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment.  
+
+3. Note: This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, and the user is encouraged to try to correct the interference by one or more of the following measures:  
+    - Reorient or relocate the receiving antenna.  
+    - Increase the separation between the equipment and receiver.  
+    - Connect the equipment into an outlet on a circuit different from that to which the receiver is connected.  
+    - Consult the dealer or an experienced radio/TV technician for help important announcement.
+
+**FCC Radiation Exposure Statement**  
+This equipment complies with FCC radiation exposure limits set forth for an uncontrolled environment. This equipment should be installed and operated with minimum distance 20cm between the radiator and your body. This transmitter must not be co-located oroperating in conjunction with any other antenna or transmitter.
+
+---
+
+**Canadian Compliance Statement**
+
+This device contains licence-exempt transmitter(s)/receiver(s) that comply with Innovation, Science and Economic Development Canada's licence-exempt RSS(s).  
+Operation is subject to the following two conditions:  
+(1) This device may not cause interference.  
+(2) This device must accept any interference, including interference that may cause undesired operation of the device.  
+
+L'émetteur/récepteur exempt de licence contenu dans le présent appareil est conforme aux CNR d'Innovation, Sciences et Développement économique Canada applicables aux appareils radio exempts de licence. 
+L'exploitation est autorisée aux deux conditions suivantes:  
+(1) L'appareil ne doit pas produire de brouillage;  
+(2) L'appareil doit accepter tout brouillage radioélectrique subi, même si le brouillage est susceptible d'en compromettre le fonctionnement.  
+
+This equipment complies with IC RSS-102 radiation exposure limits set forth for an uncontrolled environment. This equipment should be installed and operated with minimum distance 20cm between the radiator and your body.  
+
+Cet équipement est conforme aux limites d'exposition aux radiations IC CNR-102 établies pour un environnement non contrôlé. Cet équipement doit être installé et utilisé avec une distance minimale de 20 cm entre le radiateur et votre corps.
+
+---
+
+The user manual for LE-LAN devices shall contain instructions related to the restrictions mentioned in the above sections, namely that:  
+i. the device for operation in the band 5150-5250 MHz is only for indoor use to reduce the potential for harmful interference to co-channel mobile satellite systems;  
+i. le dispositif utilisé dans la bande 5150-5250 MHz est réservé à une utilisation en intérieur afin de réduire le risque de brouillage préjudiciable aux systèmes mobiles par satellite dans le même canal;  
+ii. for devices with detachable antenna(s), the maximum antenna gain permitted for devices in the bands 5250-5350 MHz and 5470-5725 MHz shall be such that the equipment still complies with the e.i.r.p. limit;  
+ii. pour les dispositifs à antenne(s) détachable(s), le gain d'antenne maximal autorisé pour les dispositifs dans les bandes 5250-5350 MHz et 5470-5725 MHz doit être tel que l'équipement soit toujours conforme à la norme e.i.r.p. limite;  
+iii. for devices with detachable antenna(s), the maximum antenna gain permitted for devices in the band 5725-5850 MHz shall be such that the equipment still complies with the e.i.r.p. limits as appropriate;  
+iii. pour les dispositifs à antenne(s) détachable(s), le gain d'antenne maximal autorisé pour les dispositifs de la bande 5725-5850 MHz doit être tel que l'équipement soit toujours conforme à la norme e.i.r.p. les limites, le cas échéant;  
+
+The functions of Wireless Access Systems including Radio Local Area Networks(WAS/RLANs) within the band 5150-5350 MHz for this device are restricted to indoor use only within all European Union countries.
+
+Hereby, GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment type [5G NR Wi-Fi 6 Router, GL-X3000NR / 4G LTE Wi-Fi 6 Router, GL-X3000C16] is in compliance with the essential requirements and other relevant provisions of Directive 2014/53/EU. The full text of the EU declaration of conformity is available at [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
+
+Maximum output power:
+CE: ≤20dBm EIRP (2.412GHz~2.472GHz); ≤23dBm EIRP (5.15GHz~5.35GHz); ≤30dBm EIRP (5.47GHz~5.725GHz); ≤13.98dBm (5.725GHz~5.85GHz);  
+Power supply: ICP30A-120-2500

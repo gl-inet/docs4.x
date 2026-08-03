@@ -432,3 +432,58 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
+
+## Regulatory Statements
+
+**Canadian Compliance Statement**
+
+This device contains licence-exempt transmitter(s)/receiver(s) that comply with Innovation, Science and Economic Development Canada's licence-exempt RSS(s).  
+Operation is subject to the following two conditions:  
+(1) This device may not cause interference.  
+(2) This device must accept any interference, including interference that may cause undesired operation of the device.  
+
+IC Statement:  
+Devices shall not be used for control of or communications with unmanned aircraft systems.  
+Devices shall not be used on oil platforms.  
+Devices shall not be used on aircraft, except for the low-power indoor access points, indoor subordinate devices, low-power client devices, and very low-power devices operating in the 5925-6425 MHz band, that may be used on large aircraft as defined in the Canadian Aviation Regulations, while flying above 3,048 metres (10,000 feet).  
+Devices shall not be used on automobiles.  
+Devices shall not be used on trains.  
+Devices shall not be used on maritime vessels.  
+Low-power indoor access points and indoor subordinate devices shall bear a statement acknowledging the following restriction in the user manual and, where feasible, in a conspicuous location on the device: Operation shall be limited to indoor use only.
+
+Déclaration d'IC:  
+L'équipement ne doit pas être utilisé pour contrôler ou communiquer avec les systèmes d'aéronefs sans pilote.  
+L'équipement ne doit pas être utilisé sur une plate-forme pétrolière.  
+L'équipement ne doit pas être utilisé à bord d'un aéronef, à l'exception des points d'accès intérieurs de faible puissance, de l'équipement esclave intérieur, de l'équipement client de faible puissance et de l'équipement de très faible puissance fonctionnant dans la bande 5925 - 6425 MHz qui peuvent être utilisés sur de gros aéronefs tels que définis dans le règlement de l'aviation canadien et volant à des altitudes supérieures à 3,048 m (10,000 FT).  
+L'équipement ne doit pas être utilisé dans la voiture.  
+L'équipement ne doit pas être utilisé à bord du train.  
+L'équipement ne doit pas être utilisé à bord des navires en mer.  
+Les points d'accès intérieurs de faible consommation d'énergie et les dispositifs d'asservissement intérieurs doivent indiquer les limites suivantes dans le manuel de l'utilisateur et, si possible, à un endroit bien en vue de l'appareil: le fonctionnement doit être limité à un usage intérieur.
+
+The functions of Wireless Access Systems including Radio Local Area Networks(WAS/RLANs) within the band 5150-5350 MHz and 5945-6425 MHz for this device are restricted to indoor use only within all European Union countries.
+
+---
+
+L'émetteur/récepteur exempt de licence contenu dans le présent appareil est conforme aux CNR d'Innovation, Sciences et Développement économique Canada applicables aux appareils radio exempts de licence.  
+L'exploitation est autorisée aux deux conditions suivantes:  
+(1) L'appareil ne doit pas produire de brouillage;  
+(2) L'appareil doit accepter tout brouillage radioélectrique subi, même si le brouillage est susceptible d'en compromettre le fonctionnement.
+
+This equipment complies with IC RSS-102 radiation exposure limits set forth for an uncontrolled environment.  
+This equipment should be installed and operated with minimum distance 20 cm between the radiator and your body.
+
+Cet équipement est conforme aux limites d'exposition aux radiations IC CNR-102 établies pour un environnement non contrôlé.  
+Cet équipement doit être installé et utilisé avec une distance minimale de 20 cm entre le radiateur et votre corps.
+
+---
+
+The user manual for LE-LAN devices shall contain instructions related to the restrictions mentioned in the above sections, namely that:  
+i. the device for operation in the band 5150-5250 MHz is only for indoor use to reduce the potential for harmful interference to co-channel mobile satellite systems;  
+i. le dispositif utilisé dans la bande 5150-5250 MHz est réservé à une utilisation en intérieur afin de réduire le risque de brouillage préjudiciable aux systèmes mobiles par satellite dans le même canal.
+
+Hereby, GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment type [BE10000 Wi-Fi 7 Router, GL-BE10000] is in compliance with the essential requirements and other relevant provisions of Directive 2014/53/EU. The full text of the EU declaration of conformity is available at [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
+
+For EU:  
+Maximum output power:  
+CE: ≤20dBm EIRP (2.412GHz-2.472GHz); ≤23dBm EIRP (5.15GHz~5.35GHz); ≤30dBm EIRP (5.47GHz~5.725GHz); ≤13.98dBm (5.725GHz~5.85GHz); ≤23dBm EIRP (5.925GHz~6.425 GHz)  
+Indoor Client 6ID&6PP statement

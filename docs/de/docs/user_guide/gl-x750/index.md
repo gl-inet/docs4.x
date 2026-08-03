@@ -36,7 +36,7 @@ Spitz ist ein 3G/4G-Dualband-Wireless-Router, der häufig im Smart-Home- und IoT
 
 Spitz V2 (GL-X750V2) ist die weiterentwickelte Version von Spitz (GL-X750). Sie verfügt über ein neu gestaltetes PCBA und optimierte Antennen, um die 4G-Leistung zu verbessern.
 
-![gl-x750 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/hardware_info/x750v2_interface.jpg){class="glboxshadow"}
+![gl-x750 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x750/hardware_info/x750v2_interface.jpg){class="glboxshadow"}
 
 ## Technische Daten
 
@@ -62,7 +62,7 @@ Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x750/internet/x750_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -70,7 +70,7 @@ Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehen
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x750/internet/x750_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -78,7 +78,7 @@ Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit ak
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x750/internet/x750_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -86,7 +86,7 @@ Setzen Sie eine SIM-Karte in den SIM-Kartenslot des Routers ein, um eine Interne
 
 [Klicken Sie hier, um zu erfahren, wie Sie über Mobilfunk eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x750/internet/x750_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x750/internet/x750_cellular.png){class="glboxshadow"}
 
 ### Multi-WAN
 

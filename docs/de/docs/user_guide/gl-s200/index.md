@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 GL-S200 ist ein miniaturisiertes Thread-Gateway mit Unterstützung für das BLE-Protokoll. Es läuft auf dem hochgradig anpassbaren Betriebssystem OpenWrt und unterstützt Cloud-Geräteverwaltung. Das vielseitige Design eignet sich für die Anbindung verschiedenster Smart-Home-Geräte oder für die Massengerätevernetzung in intelligenten Gebäuden.
 
-![gl-s200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl-s200_interface.jpg){class="glboxshadow"}
+![gl-s200 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-s200/hardware_info/gl-s200_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -49,7 +49,7 @@ Der Lieferumfang umfasst:
 - 1 x Garantiekarte
 - 1 x Netzadapter (ausgewählter Steckertyp)
 
-![gl-s200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/first_time_setup/s200_unboxing.jpg){class="glboxshadow"}
+![gl-s200 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-s200/first_time_setup/s200_unboxing.jpg){class="glboxshadow"}
 
 Sehen Sie sich das [Unboxing-Video](../../video_library/unboxing_first_set_up.md#gl-s200) von GL-S200 an.
 
@@ -61,15 +61,15 @@ Sehen Sie sich das [Unboxing-Video](../../video_library/unboxing_first_set_up.md
 
 <div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
   <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl-s200_pinout.jpg" itemprop="contentUrl" data-size="1500x1235">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl-s200_pinout.jpg" itemprop="thumbnail" alt="gl-s200 pinout" loading="lazy" />
+    <a href="https://static.gl-inet.com/docs/router/de/4/user_guide/gl-s200/hardware_info/gl-s200_pinout.jpg" itemprop="contentUrl" data-size="1500x1235">
+      <img src="https://static.gl-inet.com/docs/router/de/4/user_guide/gl-s200/hardware_info/gl-s200_pinout.jpg" itemprop="thumbnail" alt="gl-s200 pinout" loading="lazy" />
     </a>
   </figure>
 </div>
 
 ## GL Thread Dev Board Pinbelegung
 
-![gl thread dev board pinout](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/hardware_info/gl_thread_dev_board_pinout.jpg){class="glboxshadow"}
+![gl thread dev board pinout](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-s200/hardware_info/gl_thread_dev_board_pinout.jpg){class="glboxshadow"}
 
 ---
 
@@ -93,7 +93,7 @@ Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/internet/s200_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-s200/internet/s200_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -101,7 +101,7 @@ Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehen
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s200/internet/s200_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-s200/internet/s200_repeater.png){class="glboxshadow"}
 
 ### Multi-WAN
 

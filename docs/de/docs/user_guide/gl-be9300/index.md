@@ -36,7 +36,7 @@ Flint 3 (GL-BE9300) ist ein Tri-Band-Wi-Fi-7-Desktop-Router für Heimanwender, k
 
 Er verfügt über 5× 2.5G-Ethernet-Ports (1 dedizierter WAN-Port, 1 umschaltbarer WAN/LAN-Port, 3 LAN-Ports), unterstützt Dual-WAN-Setups mit bis zu 5 Gbit/s gemeinsam genutzter maximaler Bandbreite und bietet zusätzlich 1× USB-3.0-Port für erweiterte Funktionen. Darüber hinaus ist AdGuard Home zur Werbe- und Tracking-Blockierung vorinstalliert, Bark Parental Control sowie über 30 VPN-Dienste werden unterstützt, und GoodCloud ermöglicht die Fernverwaltung. Damit vereint er Leistung, Praxistauglichkeit und Sicherheit.
 
-![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
+![gl-be9300 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be9300/hardware_info/be9300_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -85,7 +85,7 @@ Richten Sie Flint 3 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Ethernet"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_ethernet.jpg){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be9300/internet/be9300_ethernet.jpg){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port von Flint 3 per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
@@ -95,7 +95,7 @@ Richten Sie Flint 3 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_repeater.jpg){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be9300/internet/be9300_repeater.jpg){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -107,7 +107,7 @@ Richten Sie Flint 3 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_tethering.jpg){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be9300/internet/be9300_tethering.jpg){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
@@ -119,7 +119,7 @@ Richten Sie Flint 3 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Cellular"
 
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be9300/internet/be9300_cellular.jpg){class="glboxshadow"}
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be9300/internet/be9300_cellular.jpg){class="glboxshadow"}
 
     Schließen Sie ein Cellular-USB-Modem an den USB-Port von Flint 3 an. Das ist nützlich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 

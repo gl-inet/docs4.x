@@ -24,7 +24,7 @@ Klicken Sie auf die folgenden Tabs, um mehr über die Einstellungen für MLO Mai
 
     Das MLO Main Wi‑Fi ermöglicht die Konfiguration verschiedener Einstellungen, darunter das Aktivieren/Deaktivieren von Wi‑Fi, die Auswahl von Funkbändern (mindestens zwei), das Aktivieren/Deaktivieren von **Randomized BSSID**, das Festlegen des Wi‑Fi-Namens (SSID), der Wi‑Fi-Sicherheit, des Wi‑Fi-Passworts und der SSID-Sichtbarkeit.
 
-    ![MLO Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_mlo.png){class="glboxshadow"}
+    ![MLO Main Wi-Fi](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/main_wifi_mlo.png){class="glboxshadow"}
 
     - Wenn die Funkbänder des MLO Wi‑Fi 6 GHz enthalten, wird die MLO-Wi‑Fi-BSSID synchronisiert, wenn sich die 6GHz-Wi‑Fi-BSSID ändert.
 
@@ -34,7 +34,7 @@ Klicken Sie auf die folgenden Tabs, um mehr über die Einstellungen für MLO Mai
 
     Das MLO Guest Wi‑Fi ermöglicht die Konfiguration vereinfachter Einstellungen, darunter das Aktivieren/Deaktivieren von Wi‑Fi, die Auswahl von Funkbändern (mindestens zwei), das Festlegen des Wi‑Fi-Namens (SSID), der Wi‑Fi-Sicherheit, des Passworts und der SSID-Sichtbarkeit.
 
-    ![MLO Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
+    ![MLO Guest Wi-Fi](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
 
 ## 6-GHz-Wi‑Fi
 
@@ -52,7 +52,7 @@ Klicken Sie auf die folgenden Tabs, um mehr über die Einstellungen für 6 GHz M
 
     Das 6 GHz Main Wi‑Fi ermöglicht die Konfiguration verschiedener Einstellungen, darunter das Aktivieren/Deaktivieren von Wi‑Fi, das Festlegen der TX-Leistung, das Aktivieren/Deaktivieren von **Randomized BSSID**, das Festlegen des Wi‑Fi-Namens (SSID), der Wi‑Fi-Sicherheit, des Wi‑Fi-Passworts, der SSID-Sichtbarkeit, des Wi‑Fi-Modus, der **Bandwidth** und des **Channel**.
 
-    ![6G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_6g.png){class="glboxshadow"}
+    ![6G Main Wi-Fi](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/main_wifi_6g.png){class="glboxshadow"}
 
     - **Enable PSC**: Wenn PSC (Preferred Scanning Channel) aktiviert ist, werden nur Kanäle mit besserer Konnektivität reserviert, um Verbindungen von 6-GHz-Geräten sicherzustellen.
 
@@ -60,7 +60,7 @@ Klicken Sie auf die folgenden Tabs, um mehr über die Einstellungen für 6 GHz M
 
     Das 6 GHz Guest Wi‑Fi ermöglicht die Konfiguration vereinfachter Einstellungen, darunter das Aktivieren/Deaktivieren von Wi‑Fi, das Festlegen des Wi‑Fi-Namens (SSID), der Wi‑Fi-Sicherheit, des Passworts und der SSID-Sichtbarkeit.
 
-    ![6G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
+    ![6G Guest Wi-Fi](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
 
 ## 5-GHz-Wi‑Fi
 
@@ -70,13 +70,13 @@ Klicken Sie auf die folgenden Tabs, um mehr über die Einstellungen für 5 GHz M
 
     Das 5 GHz Main Wi‑Fi ermöglicht die Konfiguration verschiedener Einstellungen, darunter das Aktivieren/Deaktivieren von Wi‑Fi, das Festlegen der TX-Leistung, das Aktivieren/Deaktivieren von **Randomized BSSID**, das Festlegen des Wi‑Fi-Namens (SSID), der Wi‑Fi-Sicherheit, des Wi‑Fi-Passworts, der SSID-Sichtbarkeit, des Wi‑Fi-Modus, der **Bandwidth** und des **Channel**.
 
-    ![5G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_5g.jpg){class="glboxshadow"}
+    ![5G Main Wi-Fi](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/main_wifi_5g.jpg){class="glboxshadow"}
 
 === "5 GHz Guest Wi‑Fi"
 
     Das 5 GHz Guest Wi‑Fi ermöglicht die Konfiguration vereinfachter Einstellungen, darunter das Aktivieren/Deaktivieren von Wi‑Fi, das Festlegen des Wi‑Fi-Namens (SSID), der Wi‑Fi-Sicherheit, des Passworts und der SSID-Sichtbarkeit.
 
-    ![5G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
+    ![5G Guest Wi-Fi](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
 
 ## 2,4-GHz-Wi‑Fi
 
@@ -86,19 +86,19 @@ Klicken Sie auf die folgenden Tabs, um mehr über die Einstellungen für 2,4 GHz
 
     Das 2,4 GHz Main Wi‑Fi ermöglicht die Konfiguration verschiedener Einstellungen, darunter das Aktivieren/Deaktivieren von Wi‑Fi, das Festlegen der TX-Leistung, das Aktivieren/Deaktivieren von **Randomized BSSID**, das Festlegen des Wi‑Fi-Namens (SSID), der Wi‑Fi-Sicherheit, des Wi‑Fi-Passworts, der SSID-Sichtbarkeit, des Wi‑Fi-Modus, der **Bandwidth** und des **Channel**.
 
-    ![2.4G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_2.4g.png){class="glboxshadow"}
+    ![2.4G Main Wi-Fi](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/main_wifi_2.4g.png){class="glboxshadow"}
 
 === "2.4 GHz Guest Wi‑Fi"
 
     Das 2,4 GHz Guest Wi‑Fi ermöglicht die Konfiguration vereinfachter Einstellungen, darunter das Aktivieren/Deaktivieren von Wi‑Fi, das Festlegen des Wi‑Fi-Namens (SSID), der Wi‑Fi-Sicherheit, des Passworts und der SSID-Sichtbarkeit.
 
-    ![2.4G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
+    ![2.4G Guest Wi-Fi](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
 
 ## Allgemeine Wi‑Fi-Einstellungen
 
 * Bewegen Sie den Mauszeiger über das QR-Code-Symbol neben der Wi‑Fi-SSID, um den zugehörigen Wi‑Fi-QR-Code anzuzeigen. Sie können ihn mit Ihrem Telefon oder Tablet scannen, um sich schnell mit dem entsprechenden Wi‑Fi-Netzwerk zu verbinden.
 
-    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_ssid_qr_code.png){class="glboxshadow"}
+    ![wifi qr code](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/wifi_ssid_qr_code.png){class="glboxshadow"}
 
 * **Randomized BSSID**: Diese Funktion ist standardmäßig aktiviert. Sie soll verhindern, dass Gerätehersteller Wi‑Fi-BSSIDs in der Nähe und die GPS-Koordinaten von Client-Geräten auf ihren Servern sammeln. Klicken Sie [hier](#randomized-bssid), um weitere Details zu erfahren.
 
@@ -108,7 +108,7 @@ Klicken Sie auf die folgenden Tabs, um mehr über die Einstellungen für 2,4 GHz
 
 * Wenn **Channel** von einem Nicht-DFS-Kanal auf einen DFS-Kanal umgestellt wird, erscheint die folgende Warnung.
 
-    ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
+    ![dfs channel caution](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
 
 * Wenn **Bandwidth** auf **160 MHz** eingestellt ist (nur bei einigen Modellen verfügbar), verwendet das Wi‑Fi immer den DFS-Kanal, selbst wenn Sie für **Channel** einen Nicht-DFS-Kanal oder **Auto** auswählen.
 
@@ -124,7 +124,7 @@ Gerätehersteller erfassen in der Regel geografische Standortdaten von Wi‑Fi-A
 
 - Wenn ein Gerät GPS zur Positionsbestimmung verwendet, lädt es regelmäßig nahegelegene Wi‑Fi-BSSIDs und die entsprechenden GPS-Koordinaten auf den Server des Herstellers hoch.
 
-![randomized bssid](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/randomized-bssid-new.jpg){class="glboxshadow"}
+![randomized bssid](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless/randomized-bssid-new.jpg){class="glboxshadow"}
 
 **Sicherheitsrisiken des Crowdsourcing-Trackings**
 

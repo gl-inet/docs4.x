@@ -45,17 +45,17 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Az
 
 1. Geben Sie Ihren AzireVPN-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei AzireVPN anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
-    ![azirevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn1.png){class="glboxshadow"}
+    ![azirevpn login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn1.png){class="glboxshadow"}
 
 2. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
-    ![azirevpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn2.png){class="glboxshadow"}
+    ![azirevpn start](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn2.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung erscheint neben der Konfigurationsdatei ein grüner Punkt.
 
-    ![azirevpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn3.png){class="glboxshadow"}
+    ![azirevpn connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn3.png){class="glboxshadow"}
     
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
@@ -63,25 +63,25 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Az
 
     Sie können auf **Update Servers** klicken, um die aktuelle Liste verfügbarer Server abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltung zu vermeiden.
 
-    ![azirevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn5.png){class="glboxshadow"}
+    ![azirevpn update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn5.png){class="glboxshadow"}
 
 4. Zugangsdaten bearbeiten oder abmelden.
 
     Klicken Sie auf das Zahnradsymbol, um Ihre Anmeldedaten zu bearbeiten oder sich abzumelden.
 
-    ![azirevpn edit credentials or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn6.png){class="glboxshadow"}
+    ![azirevpn edit credentials or logout](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn6.png){class="glboxshadow"}
 
 5. Verlängern.
 
     Wenn Sie auf **Go Renew** klicken, werden Sie zur offiziellen Website weitergeleitet, um Ihr Abonnement zu verlängern.
 
-    ![azirevpn go renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn7.png){class="glboxshadow"}
+    ![azirevpn go renew](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn7.png){class="glboxshadow"}
 
 6. Alles löschen.
 
     Sie können auf **Delete All** klicken, um alle Konfigurationsdateien mit einem Klick zu löschen, und auswählen, ob die privaten und öffentlichen Schlüssel gleichzeitig gelöscht werden sollen.
 
-    ![azirevpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn8.png){class="glboxshadow"}
+    ![azirevpn delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_azirevpn/azirevpn8.png){class="glboxshadow"}
 
 ## Hide.me einrichten {#set-up-hideme}
 
@@ -91,17 +91,17 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Hi
 
 1. Geben Sie Ihren Hide.me-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei Hide.me anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
-    ![hideme login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme1.png){class="glboxshadow"}
+    ![hideme login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme1.png){class="glboxshadow"}
 
 2. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
-    ![hideme start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme2.png){class="glboxshadow"}
+    ![hideme start](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme2.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung erscheint neben der Konfigurationsdatei ein grüner Punkt.
 
-    ![hideme connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme3.png){class="glboxshadow"}
+    ![hideme connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme3.png){class="glboxshadow"}
 
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
@@ -109,19 +109,19 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Hi
 
     Sie können auf **Update Servers** klicken, um die aktuelle Liste verfügbarer Server abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltung zu vermeiden.
 
-    ![hideme update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme5.png){class="glboxshadow"}
+    ![hideme update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme5.png){class="glboxshadow"}
 
 4. Zugangsdaten bearbeiten oder abmelden.
 
     Klicken Sie auf das Zahnradsymbol, um Ihre Anmeldedaten zu bearbeiten oder sich abzumelden.
 
-    ![hideme edit credentials or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme6.png){class="glboxshadow"}
+    ![hideme edit credentials or logout](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme6.png){class="glboxshadow"}
 
 5. Alles löschen.
 
     Sie können auf **Delete All** klicken, um alle Konfigurationsdateien mit einem Klick zu löschen, und auswählen, ob die privaten und öffentlichen Schlüssel gleichzeitig gelöscht werden sollen.
 
-    ![hide.me delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme7.png){class="glboxshadow"}
+    ![hide.me delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_hidemevpn/hideme7.png){class="glboxshadow"}
 
 ## IPVanish einrichten {#set-up-ipvanish}
 
@@ -131,23 +131,23 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **IP
 
 1. Geben Sie Ihren IPVanish-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei IPVanish anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
-    ![ipvanish login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish1.png){class="glboxshadow"}
+    ![ipvanish login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish1.png){class="glboxshadow"}
 
 2. Server auswählen.
 
     Wählen Sie die Server aus, mit denen Sie sich verbinden möchten, und klicken Sie auf **Apply**.
 
-    ![ipvanish select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish2.png){class="glboxshadow"}
+    ![ipvanish select servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish2.png){class="glboxshadow"}
 
 3. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
-    ![ipvanish start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish3.png){class="glboxshadow"}
+    ![ipvanish start](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish3.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung erscheint neben der Konfigurationsdatei ein grüner Punkt.
 
-    ![ipvanish connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish4.png){class="glboxshadow"}
+    ![ipvanish connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish4.png){class="glboxshadow"}
 
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
@@ -155,19 +155,19 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **IP
 
     Sie können auf **Update Servers** klicken, um die aktuelle Liste verfügbarer Server abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltung zu vermeiden.
 
-    ![ipvanish update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish6.png){class="glboxshadow"}
+    ![ipvanish update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish6.png){class="glboxshadow"}
 
 5. Zugangsdaten bearbeiten oder abmelden.
 
     Klicken Sie auf das Zahnradsymbol, um Ihre Anmeldedaten zu bearbeiten oder sich abzumelden.
 
-    ![ipvanish edit credentials or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish7.png){class="glboxshadow"}
+    ![ipvanish edit credentials or logout](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish7.png){class="glboxshadow"}
 
 6. Alles löschen.
 
     Sie können auf **Delete All** klicken, um alle Konfigurationsdateien mit einem Klick zu löschen, und auswählen, ob die privaten und öffentlichen Schlüssel gleichzeitig gelöscht werden sollen.
 
-    ![ipvanish delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish8.png){class="glboxshadow"}
+    ![ipvanish delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_ipvanish/ipvanish8.png){class="glboxshadow"}
 
 ## Mullvad einrichten {#set-up-mullvad}
 
@@ -177,23 +177,23 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Mu
 
 1. Geben Sie Ihren Mullvad-**Account** (16-stellige Nummer) ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
-    ![mullvad login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad1.png){class="glboxshadow"}
+    ![mullvad login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_mullvad/mullvad1.png){class="glboxshadow"}
 
 2. Server auswählen.
 
     Wählen Sie die Server aus, mit denen Sie sich verbinden möchten, und klicken Sie auf **Apply**.
 
-    ![mullvad select server](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad2.png){class="glboxshadow"}
+    ![mullvad select server](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_mullvad/mullvad2.png){class="glboxshadow"}
 
 3. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
-    ![mullvad start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad3.png){class="glboxshadow"}
+    ![mullvad start](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_mullvad/mullvad3.png){class="glboxshadow"}
     
     Nach erfolgreicher Verbindung erscheint neben der Konfigurationsdatei ein grüner Punkt.
 
-    ![mullvad connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad4.png){class="glboxshadow"}
+    ![mullvad connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_mullvad/mullvad4.png){class="glboxshadow"}
 
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
@@ -201,25 +201,25 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Mu
 
     Sie können auf **Update Servers** klicken, um die aktuelle Liste verfügbarer Server abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltung zu vermeiden.
 
-    ![mullvad update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad6.png){class="glboxshadow"}
+    ![mullvad update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_mullvad/mullvad6.png){class="glboxshadow"}
 
 5. Zugangsdaten bearbeiten oder abmelden.
 
     Klicken Sie auf das Zahnradsymbol, um Ihre Anmeldedaten zu bearbeiten oder sich abzumelden.
 
-    ![mullvad edit credentials or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad7.png){class="glboxshadow"}
+    ![mullvad edit credentials or logout](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_mullvad/mullvad7.png){class="glboxshadow"}
 
 6. Verlängern.
 
     Wenn Sie auf **Go Renew** klicken, werden Sie zur offiziellen Website weitergeleitet, um Ihr Abonnement zu verlängern.
 
-    ![mullvad go renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad8.png){class="glboxshadow"}
+    ![mullvad go renew](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_mullvad/mullvad8.png){class="glboxshadow"}
 
 7. Alles löschen.
 
     Sie können auf **Delete All** klicken, um alle Konfigurationsdateien mit einem Klick zu löschen, und auswählen, ob die privaten und öffentlichen Schlüssel gleichzeitig gelöscht werden sollen.
 
-    ![mullvad delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_mullvad/mullvad9.png){class="glboxshadow"}
+    ![mullvad delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_mullvad/mullvad9.png){class="glboxshadow"}
 
 ## NordVPN einrichten {#set-up-nordvpn}
 
@@ -227,47 +227,47 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Mu
 
 1. Klicken Sie [hier](https://my.nordaccount.com/){target="_blank"}, um sich mit Ihrem NordVPN-Webkonto anzumelden.
 
-    ![nordvpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_login.png){class="glboxshadow"}
+    ![nordvpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn_login.png){class="glboxshadow"}
     
     Klicken Sie nach der Anmeldung im Nord Dashboard im linken Menü auf **NordVPN**, suchen Sie den Abschnitt **Access Token** und klicken Sie dann auf **Get Access token**.
 
-    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token1.png){class="glboxshadow"}
+    ![nordvpn token](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token1.png){class="glboxshadow"}
 
     Klicken Sie auf der nächsten Seite auf **Generate new token**.
 
-    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token2.png){class="glboxshadow"}
+    ![nordvpn token](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token2.png){class="glboxshadow"}
 
     Wählen Sie im Pop-up-Fenster das Ablaufdatum des Tokens aus und klicken Sie dann auf **Generate token**.
 
-    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token3.png){class="glboxshadow"}
+    ![nordvpn token](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token3.png){class="glboxshadow"}
 
     Anschließend wird Ihnen das Access Token angezeigt. Kopieren Sie das Token für die spätere Verwendung.
 
     **Hinweis**: Das Access Token wird nur einmal angezeigt. Stellen Sie sicher, dass Sie es jetzt kopieren und verwenden. Nach dem Schließen dieses Fensters ist das Token nicht mehr sichtbar. Wenn Sie es nicht speichern, müssen Sie ein neues Token generieren.
 
-    ![nordvpn token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token4.png){class="glboxshadow"}
+    ![nordvpn token](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nord_token4.png){class="glboxshadow"}
 
 2. Melden Sie sich im webbasierten Admin Panel des Routers an und wechseln Sie zu **VPN** -> **WireGuard Client** -> **NordVPN**. 
 
     Geben Sie **Token** ein und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
-    ![nordvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn1.png){class="glboxshadow"}
+    ![nordvpn login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn1.png){class="glboxshadow"}
 
 3. Server auswählen.
 
     Wählen Sie die Server aus, mit denen Sie sich verbinden möchten, und klicken Sie auf **Apply**.
 
-    ![nordvpn select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn2.png){class="glboxshadow"}
+    ![nordvpn select servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn2.png){class="glboxshadow"}
 
 4. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
-    ![nordvpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn3.png){class="glboxshadow"}
+    ![nordvpn start](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn3.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung erscheint neben der Konfigurationsdatei ein grüner Punkt.
 
-    ![nordvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn4.png){class="glboxshadow"}
+    ![nordvpn connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn4.png){class="glboxshadow"}
 
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
@@ -275,19 +275,19 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Mu
 
     Sie können auf **Update Servers** klicken, um die aktuelle Liste verfügbarer Server abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltung zu vermeiden.
 
-    ![nordvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn6.png){class="glboxshadow"}
+    ![nordvpn update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn6.png){class="glboxshadow"}
 
 6. Zugangsdaten bearbeiten oder abmelden.
 
     Klicken Sie auf das Zahnradsymbol, um Ihre Anmeldedaten zu bearbeiten oder sich abzumelden.
 
-    ![nordvpn edit credentials or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn7.png){class="glboxshadow"}
+    ![nordvpn edit credentials or logout](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn7.png){class="glboxshadow"}
 
 7. Alles löschen.
 
     Sie können auf **Delete All** klicken, um alle Konfigurationsdateien mit einem Klick zu löschen, und auswählen, ob die privaten und öffentlichen Schlüssel gleichzeitig gelöscht werden sollen.
 
-    ![nordvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn8.png){class="glboxshadow"}
+    ![nordvpn delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_nordvpn/nordvpn8.png){class="glboxshadow"}
 
 ## PIA (Private Internet Access) einrichten {#set-up-pia-private-internet-access}
 
@@ -297,23 +297,23 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **PI
 
 1. Geben Sie Ihren PIA-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei PIA anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
-    ![pia login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia1.png){class="glboxshadow"}
+    ![pia login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_pia/pia1.png){class="glboxshadow"}
 
 2. Server auswählen.
 
     Wählen Sie die Server aus, mit denen Sie sich verbinden möchten, und klicken Sie auf **Apply**.
 
-    ![pia select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia2.png){class="glboxshadow"}
+    ![pia select servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_pia/pia2.png){class="glboxshadow"}
 
 3. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
-    ![pia start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia3.png){class="glboxshadow"}
+    ![pia start](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_pia/pia3.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung erscheint neben der Konfigurationsdatei ein grüner Punkt.
 
-    ![pia connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia4.png){class="glboxshadow"}
+    ![pia connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_pia/pia4.png){class="glboxshadow"}
 
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
@@ -321,19 +321,19 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **PI
 
     Sie können auf **Update Servers** klicken, um die aktuelle Liste verfügbarer Server abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltung zu vermeiden.
 
-    ![pia update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia6.png){class="glboxshadow"}
+    ![pia update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_pia/pia6.png){class="glboxshadow"}
 
 5. Zugangsdaten bearbeiten oder abmelden.
 
     Klicken Sie auf das Zahnradsymbol, um Ihre Anmeldedaten zu bearbeiten oder sich abzumelden.
 
-    ![pia edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia7.png){class="glboxshadow"}
+    ![pia edit credential or logout](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_pia/pia7.png){class="glboxshadow"}
 
 6. Alles löschen.
 
     Sie können auf **Delete All** klicken, um alle Konfigurationsdateien mit einem Klick zu löschen, und auswählen, ob die privaten und öffentlichen Schlüssel gleichzeitig gelöscht werden sollen.
 
-    ![pia delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_pia/pia8.png){class="glboxshadow"}
+    ![pia delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_pia/pia8.png){class="glboxshadow"}
 
 ## PureVPN einrichten {#set-up-purevpn}
 
@@ -343,31 +343,31 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **PI
 
 1. Klicken Sie [hier](https://www.purevpn.com/){target="_blank"}, um sich in Ihrem PureVPN-Dashboard anzumelden.
 
-    ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_login.png){class="glboxshadow"}
+    ![purevpn login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_login.png){class="glboxshadow"}
     
     Klicken Sie nach der Anmeldung im linken Menü auf **Subscriptions**, scrollen Sie nach unten, um Ihre **credentials** zu finden. Kopieren Sie Benutzernamen und Passwort für die spätere Verwendung.
 
-    ![purevpn credentials](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_credentials.png){class="glboxshadow"}
+    ![purevpn credentials](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_purevpn/purevpn_credentials.png){class="glboxshadow"}
 
 2. Melden Sie sich im webbasierten Admin Panel des Routers an und gehen Sie zu **VPN** -> **WireGuard Client** -> **PureVPN**. 
 
     Geben Sie den kopierten **Username** und das kopierte **Password** ein und klicken Sie dann auf **Save and Continue**.
 
-    ![purevpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn1.png){class="glboxshadow"}
+    ![purevpn login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_purevpn/purevpn1.png){class="glboxshadow"}
 
     Dadurch werden alle verfügbaren Konfigurationsdateien erstellt.
 
-    ![purevpn config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn2.png){class="glboxshadow"}
+    ![purevpn config files](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_purevpn/purevpn2.png){class="glboxshadow"}
 
 3. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
-    ![purevpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn3.png){class="glboxshadow"}
+    ![purevpn start](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_purevpn/purevpn3.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung erscheint neben der Konfigurationsdatei ein grüner Punkt.
 
-    ![purevpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn4.png){class="glboxshadow"}
+    ![purevpn connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_purevpn/purevpn4.png){class="glboxshadow"}
 
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
@@ -375,19 +375,19 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **PI
 
     Sie können auf **Update Servers** klicken, um die aktuelle Liste verfügbarer Server abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltung zu vermeiden.
 
-    ![purevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn6.png){class="glboxshadow"}
+    ![purevpn update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_purevpn/purevpn6.png){class="glboxshadow"}
 
 5. Zugangsdaten bearbeiten oder abmelden.
 
     Klicken Sie auf das Zahnradsymbol, um Ihre Anmeldedaten zu bearbeiten oder sich abzumelden.
 
-    ![purevpn edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn7.png){class="glboxshadow"}
+    ![purevpn edit credential or logout](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_purevpn/purevpn7.png){class="glboxshadow"}
 
 6. Alles löschen.
 
     Sie können auf **Delete All** klicken, um alle Konfigurationsdateien mit einem Klick zu löschen, und auswählen, ob die privaten und öffentlichen Schlüssel gleichzeitig gelöscht werden sollen.
 
-    ![purevpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_purevpn/purevpn8.png){class="glboxshadow"}
+    ![purevpn delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_purevpn/purevpn8.png){class="glboxshadow"}
 
 ## Surfshark einrichten {#set-up-surfshark}
 
@@ -397,23 +397,23 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Su
 
 1. Geben Sie Ihren Surfshark-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei Surfshark anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
-    ![surfshark login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark1.png){class="glboxshadow"}
+    ![surfshark login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_surfshark/surfshark1.png){class="glboxshadow"}
 
 2. Server auswählen.
 
     Wählen Sie die Server aus, mit denen Sie sich verbinden möchten, und klicken Sie auf **Apply**.
 
-    ![surfshark select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark2.png){class="glboxshadow"}
+    ![surfshark select servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_surfshark/surfshark2.png){class="glboxshadow"}
 
 3. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
-    ![surfshark start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark3.png){class="glboxshadow"}
+    ![surfshark start](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_surfshark/surfshark3.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung erscheint neben der Konfigurationsdatei ein grüner Punkt.
 
-    ![surfshark connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark4.png){class="glboxshadow"}
+    ![surfshark connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_surfshark/surfshark4.png){class="glboxshadow"}
 
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
@@ -421,25 +421,25 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Su
 
     Sie können auf **Update Servers** klicken, um die aktuelle Liste verfügbarer Server abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltung zu vermeiden.
 
-    ![surfshark update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark6.png){class="glboxshadow"}
+    ![surfshark update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_surfshark/surfshark6.png){class="glboxshadow"}
 
 5. Zugangsdaten bearbeiten oder abmelden.
 
     Klicken Sie auf das Zahnradsymbol, um Ihre Anmeldedaten zu bearbeiten oder sich abzumelden.
 
-    ![surfshark edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark7.png){class="glboxshadow"}
+    ![surfshark edit credential or logout](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_surfshark/surfshark7.png){class="glboxshadow"}
 
 6. Aktualisieren.
 
     Sie können auf **Refresh** klicken, um den öffentlichen Schlüssel zu aktualisieren, wenn keine Verbindung zum VPN-Server hergestellt werden kann.
 
-    ![surfshark refresh](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark8.png){class="glboxshadow"}
+    ![surfshark refresh](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_surfshark/surfshark8.png){class="glboxshadow"}
 
 7. Alles löschen.
 
     Sie können auf **Delete All** klicken, um alle Konfigurationsdateien mit einem Klick zu löschen, und auswählen, ob die privaten und öffentlichen Schlüssel gleichzeitig gelöscht werden sollen.
 
-    ![surfshark delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_surfshark/surfshark9.png){class="glboxshadow"}
+    ![surfshark delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_surfshark/surfshark9.png){class="glboxshadow"}
 
 ## Windscribe einrichten {#set-up-windscribe}
 
@@ -449,27 +449,27 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Wi
 
 1. Geben Sie Ihren Windscribe-**Username** und Ihr **Password** ein (also die Anmeldedaten, mit denen Sie sich bei Windscribe anmelden) und klicken Sie dann auf **Save and Continue**. Dadurch werden Konfigurationsdateien für jeden Server erstellt.
 
-    ![windscribe login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe1.png){class="glboxshadow"}
+    ![windscribe login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_windscribe/windscribe1.png){class="glboxshadow"}
 
 2. Server auswählen.
 
     Wählen Sie die Server aus, mit denen Sie sich verbinden möchten, und klicken Sie auf **Apply**.
 
-    ![windscribe select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe2.png){class="glboxshadow"}
+    ![windscribe select servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_windscribe/windscribe2.png){class="glboxshadow"}
 
     Anschließend erhalten Sie eine Liste mit Konfigurationsdateien, die den ausgewählten Servern entsprechen.
 
-    ![windscribe config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe3.png){class="glboxshadow"}
+    ![windscribe config files](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_windscribe/windscribe3.png){class="glboxshadow"}
 
 3. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
-    ![windscribe start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe4.png){class="glboxshadow"}
+    ![windscribe start](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_windscribe/windscribe4.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung erscheint neben der Konfigurationsdatei ein grüner Punkt.
 
-    ![windscribe connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe5.png){class="glboxshadow"}
+    ![windscribe connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_windscribe/windscribe5.png){class="glboxshadow"}
 
     Sie können die Details der VPN-Verbindung auch im **VPN Dashboard** prüfen.
 
@@ -477,25 +477,25 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Wi
 
     Sie können auf **Update Servers** klicken, um die aktuelle Liste verfügbarer Server abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltung zu vermeiden.
 
-    ![windscribe update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe7.png){class="glboxshadow"}
+    ![windscribe update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_windscribe/windscribe7.png){class="glboxshadow"}
 
 5. Zugangsdaten bearbeiten oder abmelden.
 
     Klicken Sie auf das Zahnradsymbol, um Ihre Anmeldedaten zu bearbeiten oder sich abzumelden.
 
-    ![windscribe edit credential or logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe8.png){class="glboxshadow"}
+    ![windscribe edit credential or logout](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_windscribe/windscribe8.png){class="glboxshadow"}
 
 6. Aktualisieren.
 
     Sie können auf **Refresh** klicken, um den öffentlichen Schlüssel zu aktualisieren, wenn keine Verbindung zum VPN-Server hergestellt werden kann.
 
-    ![windscribe refresh](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe9.png){class="glboxshadow"}
+    ![windscribe refresh](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_windscribe/windscribe9.png){class="glboxshadow"}
 
 7. Alles löschen.
 
     Sie können auf **Delete All** klicken, um alle Konfigurationsdateien mit einem Klick zu löschen, und auswählen, ob die privaten und öffentlichen Schlüssel gleichzeitig gelöscht werden sollen.
 
-    ![windscribe delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_windscribe/windscribe10.png){class="glboxshadow"}
+    ![windscribe delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_windscribe/windscribe10.png){class="glboxshadow"}
 
 ## X-VPN einrichten {#set-up-x-vpn}
 
@@ -507,41 +507,41 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Wi
 
     Klicken Sie [hier](https://xvpn.io/login){target="_blank"}, um sich bei Ihrem X-VPN-Webkonto anzumelden.
 
-    ![xvpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn1.png){class="glboxshadow"}
+    ![xvpn login](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn1.png){class="glboxshadow"}
 
     Klicken Sie nach der Anmeldung im linken Menü auf **Settings**. Suchen Sie **Login Token** und klicken Sie auf **Generate**.
 
-    ![xvpn settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn2.png){class="glboxshadow"}
+    ![xvpn settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn2.png){class="glboxshadow"}
 
     Die Seite erzeugt ein Token, das 15 Minuten gültig ist. Kopieren Sie das Token für die spätere Verwendung.
 
-    ![xvpn generate token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn3.png){class="glboxshadow"}
+    ![xvpn generate token](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn3.png){class="glboxshadow"}
 
 2. Melden Sie sich am web Admin Panel Ihres GL.iNet-Routers an und gehen Sie zu **VPN** -> **VPN Client Profile**. Klicken Sie auf **X-VPN**.
 
-    ![xvpn enter token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn4.png){class="glboxshadow"}
+    ![xvpn enter token](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn4.png){class="glboxshadow"}
 
     Geben Sie das Token ein und klicken Sie auf **Save and Continue**.
 
-    ![xvpn enter token](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn5.png){class="glboxshadow"}
+    ![xvpn enter token](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn5.png){class="glboxshadow"}
 
 3. Wählen Sie die Server aus, mit denen Sie sich verbinden möchten, und klicken Sie auf **Apply**.
 
-    ![xvpn select servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn6.png){class="glboxshadow"}
+    ![xvpn select servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn6.png){class="glboxshadow"}
 
     Anschließend erhalten Sie eine Liste der Konfigurationsdateien für die ausgewählten Server.
 
-    ![xvpn config files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn7.png){class="glboxshadow"}
+    ![xvpn config files](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn7.png){class="glboxshadow"}
 
 4. Starten Sie eine Verbindung.
 
     Wählen Sie Ihren bevorzugten Server aus und klicken Sie rechts auf das Drei-Punkte-Symbol, um eine Verbindung zu starten.
 
-    ![xvpn start](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn8.png){class="glboxshadow"}
+    ![xvpn start](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn8.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung erscheint ein grüner Punkt neben der Konfigurationsdatei.
 
-    ![xvpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn9.png){class="glboxshadow"}
+    ![xvpn connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn9.png){class="glboxshadow"}
 
     Sie können die VPN-Verbindungsdetails auch im **VPN Dashboard** prüfen sowie VPN-Tunnel und Richtlinien erstellen und verwalten.
 
@@ -549,33 +549,33 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client** -> **Wi
 
     Klicken Sie auf **Update Servers**, um die neueste verfügbare Serverliste abzurufen und Verbindungsfehler durch Serverwartung oder Abschaltungen zu vermeiden.
 
-    ![xvpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn10.png){class="glboxshadow"}
+    ![xvpn update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn10.png){class="glboxshadow"}
 
 6. Abo verlängern.
 
     Wenn Sie auf **Go Renew** klicken, werden Sie zur offiziellen Website weitergeleitet, um Ihr Abonnement zu verlängern.
 
-    ![xvpn renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn11.png){class="glboxshadow"}
+    ![xvpn renew](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn11.png){class="glboxshadow"}
 
 7. Konfigurationen löschen.
 
     Klicken Sie rechts auf das Zahnradsymbol und wählen Sie **Delete Configurations**, um bestimmte oder alle Konfigurationsdateien mit einem Klick zu löschen.
 
-    ![xvpn delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn12.png){class="glboxshadow"}
+    ![xvpn delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn12.png){class="glboxshadow"}
 
 8. Authentifizierungsinformationen ändern.
 
     Klicken Sie rechts auf das Zahnradsymbol und wählen Sie **Modify Authentication Information**, um Ihr Login-Token bei Bedarf zu bearbeiten.
 
-    ![xvpn edit credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn13.png){class="glboxshadow"}
+    ![xvpn edit credential](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn13.png){class="glboxshadow"}
 
-    ![xvpn edit credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn14.png){class="glboxshadow" width="600"}
+    ![xvpn edit credential](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn14.png){class="glboxshadow" width="600"}
 
 9. Abmelden.
 
     Klicken Sie rechts auf das Zahnradsymbol und wählen Sie **Logout**, um sich bei Bedarf abzumelden. Dadurch werden die auf dem Router gespeicherten Kontodaten, der zugehörige öffentliche Schlüssel, der private Schlüssel und die Konfigurationsdateien gelöscht. Gehen Sie mit Vorsicht vor.
 
-    ![xvpn logout](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_xvpn/xvpn15.png){class="glboxshadow"}
+    ![xvpn logout](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_xvpn/xvpn15.png){class="glboxshadow"}
 
 ## WireGuard-Client manuell einrichten (andere Anbieter) {#set-up-wireguard-client-manually-for-other-providers}
 
@@ -585,43 +585,43 @@ Gehen Sie im webbasierten Admin Panel zu **VPN** -> **WireGuard Client**.
 
 1. Klicken Sie auf **Add Manually**.
 
-    ![add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/add_manually.png){class="glboxshadow"}
+    ![add manually](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_wireguard_client/add_manually.png){class="glboxshadow"}
 
 2. Dadurch wird in der linken Seitenleiste eine Gruppe erstellt.
 
-    ![add a new group](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/create_a_group.png){class="glboxshadow"}
+    ![add a new group](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_wireguard_client/create_a_group.png){class="glboxshadow"}
 
 3. Legen Sie einen aussagekräftigen Namen für die Gruppe fest (z. B. azirevpn). Laden Sie dann eine Konfigurationsdatei hoch (unterstützte Formate: zip, tar, gz, conf, txt) oder fügen Sie die Konfigurationsdetails manuell hinzu (in Textform).
 
-    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/set_a_name.png){class="glboxshadow"}
+    ![set the new group name](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_wireguard_client/set_a_name.png){class="glboxshadow"}
 
     1. **Eine Konfigurationsdatei hochladen**.
 
         Klicken Sie in den Upload-Bereich, um Ihre WireGuard-Konfigurationsdatei hochzuladen, und klicken Sie anschließend auf **Apply**.
 
-        ![upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/upload_configuration_file.png){class="glboxshadow"}
+        ![upload profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_wireguard_client/upload_configuration_file.png){class="glboxshadow"}
 
-        ![after upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/upload_configuration_file_apply.png){class="glboxshadow"}
+        ![after upload profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_wireguard_client/upload_configuration_file_apply.png){class="glboxshadow"}
 
     2. **Konfiguration manuell hinzufügen**.
     
         Klicken Sie unten im Upload-Bereich auf **Manually Add Configuration**.
 
-        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/manually_add_configuration.png){class="glboxshadow"}
+        ![add wireguard by text](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_wireguard_client/manually_add_configuration.png){class="glboxshadow"}
 
         Legen Sie einen aussagekräftigen Namen fest und fügen Sie die Konfiguration in das Textfeld ein. Klicken Sie dann auf **Apply**.
 
-        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/text_mode.png){class="glboxshadow"}
+        ![add wireguard by text](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_wireguard_client/text_mode.png){class="glboxshadow"}
         <small>(Text Mode)</small>
 
         Wenn Sie jeden Eintrag einzeln prüfen möchten, können Sie in den **Item mode** wechseln und die Konfigurationsdetails kontrollieren. Klicken Sie danach auf **Apply**.
 
-        ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/item_mode.png){class="glboxshadow"}
+        ![add wireguard by item mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_wireguard_client/item_mode.png){class="glboxshadow"}
         <small>(Item Mode)</small>
 
 4. Klicken Sie rechts auf das Symbol mit den drei Punkten, um die Verbindung zu starten.
 
-    ![start the profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client/set_up_wireguard_client/start_edit_delete.png){class="glboxshadow"}
+    ![start the profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client/set_up_wireguard_client/start_edit_delete.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung erscheint neben der Konfigurationsdatei ein grüner Punkt.
 

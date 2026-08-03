@@ -16,7 +16,7 @@ Melden Sie sich im Web-Admin-Panel des Routers an und gehen Sie zu **FLOW CONTRO
 
 Starten Sie die **30-Day Trial**, um DPI-Funktionen wie **Data Statistics**, **Content Filter** und **QoS** zu nutzen.
 
-![dpi license](https://static.gl-inet.com/docs/router/en/4/interface_guide/dpi_license/dpi-license.png){class="glboxshadow"}
+![dpi license](https://static.gl-inet.com/docs/router/de/4/interface_guide/dpi_license/dpi-license.png){class="glboxshadow"}
 
 ---
 

@@ -16,7 +16,7 @@ Wir empfehlen, Ihren Computer sowohl per WLAN als auch per kabelgebundener Verbi
 
 Besuchen Sie die offizielle [AnyDesk-Website](https://anydesk.com/), um die für Ihr Betriebssystem passende Version herunterzuladen.
 
-![download anydesk](https://static.gl-inet.com/docs/router/en/4/tutorials/remote_support_via_anydesk/install_anydesk.png){class="glboxshadow"}
+![download anydesk](https://static.gl-inet.com/docs/router/de/4/tutorials/remote_support_via_anydesk/install_anydesk.png){class="glboxshadow"}
 
 Starten Sie AnyDesk nach der Installation.
 
@@ -24,7 +24,7 @@ Starten Sie AnyDesk nach der Installation.
 
 Sobald AnyDesk läuft, sehen Sie eine numerische Adresse (normalerweise im Format „123 456 789“). Diese Adresse müssen Sie dem Support-Techniker mitteilen.
 
-![get anydesk address](https://static.gl-inet.com/docs/router/en/4/tutorials/remote_support_via_anydesk/anydesk_address.png){class="glboxshadow"}
+![get anydesk address](https://static.gl-inet.com/docs/router/de/4/tutorials/remote_support_via_anydesk/anydesk_address.png){class="glboxshadow"}
 
 ## 5. AnyDesk-Adresse weitergeben
 
@@ -36,7 +36,7 @@ Wenn der Techniker versucht, eine Verbindung herzustellen, erhalten Sie eine Ver
 
 Vergewissern Sie sich bitte, dass Sie dem Techniker vertrauen, und klicken Sie dann auf „Accept“, um den Zugriff auf Ihr Gerät zu erlauben.
 
-![accept request](https://static.gl-inet.com/docs/router/en/4/tutorials/remote_support_via_anydesk/accept_request.png){class="glboxshadow"}
+![accept request](https://static.gl-inet.com/docs/router/de/4/tutorials/remote_support_via_anydesk/accept_request.png){class="glboxshadow"}
 
 ## 7. Während der Sitzung kommunizieren
 

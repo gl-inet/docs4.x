@@ -8,19 +8,19 @@ Richten Sie Ihre **WebDAV**-Links bitte im Reiter für den Netzwerkspeicher ein.
 
 Nachdem Sie WebDAV eingerichtet haben, können Sie zur Seite **Share Folders** des Netzwerkspeichers zurückkehren.
 
-![webdav1](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/webdav1.png){class="glboxshadow gl-80-desktop"}
+![webdav1](https://static.gl-inet.com/docs/router/de/4/tutorials/network_storage/webdav_client/webdav1.png){class="glboxshadow gl-80-desktop"}
 
 Klicken Sie mit der rechten Maustaste auf das Symbol **"..."** und kopieren Sie den HTTPS-Link.
 
-![webdav2](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/webdav2.png){class="glboxshadow"}
+![webdav2](https://static.gl-inet.com/docs/router/de/4/tutorials/network_storage/webdav_client/webdav2.png){class="glboxshadow"}
 
 Starten Sie WinSCP, wählen Sie **WebDAV** und aktivieren Sie außerdem die Verschlüsselung **TLS/SSL**. Fügen Sie dann den Link in **Host name** ein; die Portnummer wird automatisch auf 6008 geändert.
 
-![webdav3](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/webdav3.png){class="glboxshadow"}
+![webdav3](https://static.gl-inet.com/docs/router/de/4/tutorials/network_storage/webdav_client/webdav3.png){class="glboxshadow"}
 
 Geben Sie Ihren Benutzernamen und Ihr Passwort ein, klicken Sie dann auf **Save** und **Login**. Danach wird der freigegebene Ordner geöffnet.
 
-![webdav4](https://static.gl-inet.com/docs/router/en/4/tutorials/network_storage/webdav_client/webdav4.png){class="glboxshadow"}
+![webdav4](https://static.gl-inet.com/docs/router/de/4/tutorials/network_storage/webdav_client/webdav4.png){class="glboxshadow"}
 
 ---
 

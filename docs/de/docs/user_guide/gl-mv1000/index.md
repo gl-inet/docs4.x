@@ -62,7 +62,7 @@ Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mv1000/internet/mv1000_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mv1000/internet/mv1000_ethernet.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -70,7 +70,7 @@ Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit ak
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mv1000/internet/mv1000_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mv1000/internet/mv1000_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -78,7 +78,7 @@ Verbinden Sie den Router mit dem Internet, indem Sie ein mobilfunkfähiges USB-M
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein USB-Modem eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mv1000/internet/mv1000_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mv1000/internet/mv1000_cellular.png){class="glboxshadow"}
 
 ### Multi-WAN
 

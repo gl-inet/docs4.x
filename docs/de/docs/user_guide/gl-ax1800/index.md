@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Flint (GL-AX1800) ist ein Dualband-Wi-Fi-6-Router mit Verbindungsgeschwindigkeiten von bis zu 600 Mbit/s (2.4GHz) + 1200 Mbit/s (5GHz). Seine VPN-Verschlüsselungsgeschwindigkeit erreicht bis zu 667 Mbit/s, und er kann zum Hosten von VPN-Servern verwendet werden. Flint eignet sich ideal für datenintensive Übertragungen, viele gleichzeitig verbundene Geräte und Gaming mit extrem niedriger Latenz.
 
-![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
+![gl-ax1800 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ax1800/hardware_info/gl-ax1800_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -46,7 +46,7 @@ Flint (GL-AX1800) ist ein Dualband-Wi-Fi-6-Router mit Verbindungsgeschwindigkeit
 - 1 x Netzadapter
 - 1 x Adapter (abhängig von Ihrem Zielland)
 
-![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
+![gl-ax1800 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ax1800/first_time_setup/ax1800_unboxing.jpg){class="glboxshadow"}
 
 ## So richten Sie Flint ein
 
@@ -85,7 +85,7 @@ Richten Sie Flint mit einer der unterstützten Internetverbindungsmethoden ein: 
 
 === "Ethernet"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
@@ -95,7 +95,7 @@ Richten Sie Flint mit einer der unterstützten Internetverbindungsmethoden ein: 
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_repeater.png){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ax1800/internet/ax1800_repeater.png){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -107,7 +107,7 @@ Richten Sie Flint mit einer der unterstützten Internetverbindungsmethoden ein: 
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_tethering.png){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ax1800/internet/ax1800_tethering.png){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
@@ -119,7 +119,7 @@ Richten Sie Flint mit einer der unterstützten Internetverbindungsmethoden ein: 
 
 === "Cellular"
 
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_cellular.png){class="glboxshadow"}
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ax1800/internet/ax1800_cellular.png){class="glboxshadow"}
 
     Schließen Sie ein Cellular-USB-Modem an den USB-Port des Routers an. Das ist nützlich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 

@@ -59,7 +59,7 @@ Im folgenden Beispiel verwenden wir **Flint 3 (GL-BE9300)** und **Slate 7 (GL-BE
 
 Flint 3 fungiert als Heimrouter, während Slate 7 als Reiserouter arbeitet, der den Netzwerkverkehr für den Internetzugang zurück zu Flint 3 leitet.
 
-![topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/aw_topology.png){class="glboxshadow"}
+![topology](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/aw_topology.png){class="glboxshadow"}
 
 **Hinweis**: Jeder GL.iNet-Router verfügt für AstroWarp-Netzwerke über **10 GB kostenlose Daten pro Monat**. Geräte in einem AstroWarp-Netzwerk verwenden die Daten des Heimrouters für den Internetzugang. Bei Bedarf können Sie auf den Tarif AstroWarp+ mit unbegrenztem Datenvolumen upgraden.
 
@@ -69,17 +69,17 @@ Flint 3 fungiert als Heimrouter, während Slate 7 als Reiserouter arbeitet, der 
 
     Wie unten gezeigt, ist der Heimrouter Flint 3 per Ethernet-Kabel mit dem ISP-Modem (Hong Kong Broadband Network Ltd) verbunden.
 
-    ![home internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/home_internet.png){class="glboxshadow"}
+    ![home internet](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/home_internet.png){class="glboxshadow"}
 
 2. Generieren Sie einen Zugriffscode.
 
     Navigieren Sie im Web-Admin-Panel von Flint 3 zu **CLOUD SERVICES** -> **AstroWarp**. Klicken Sie auf **Use At Home**.
 
-    ![use as home](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/use_at_home.png){class="glboxshadow"}
+    ![use as home](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/use_at_home.png){class="glboxshadow"}
 
     Dadurch wird ein **Access Code** generiert. Kopieren Sie diesen Code für die spätere Verwendung.
 
-    ![generate access code](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/home_generate_code.png){class="glboxshadow"}
+    ![generate access code](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/home_generate_code.png){class="glboxshadow"}
 
 3. Konfigurieren Sie Slate 7 für den Internetzugang.
 
@@ -87,29 +87,29 @@ Flint 3 fungiert als Heimrouter, während Slate 7 als Reiserouter arbeitet, der 
 
     Wie unten gezeigt, ist der Reiserouter Slate 7 mit dem persönlichen Hotspot eines iPhone 15 Pro verbunden (Standort Shenzhen, über das Netz von China Unicom Guangdong Province).
 
-    ![travel internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/travel_internet.png){class="glboxshadow"}
+    ![travel internet](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/travel_internet.png){class="glboxshadow"}
 
 4. Geben Sie den Zugriffscode ein.
 
     Navigieren Sie im Web-Admin-Panel von Slate 7 zu **CLOUD SERVICES** -> **AstroWarp**. Klicken Sie auf **Use While Travelling**.
 
-    ![use for travel](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/use_for_travel.png){class="glboxshadow"}
+    ![use for travel](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/use_for_travel.png){class="glboxshadow"}
 
     Geben Sie den in Schritt 2 erhaltenen Zugriffscode ein.
 
-    ![enter access code](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/enter_access_code.png){class="glboxshadow"}
+    ![enter access code](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/enter_access_code.png){class="glboxshadow"}
 
     Warten Sie, bis die Verifizierung abgeschlossen ist.
 
-    ![verifying](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/verifying.png){class="glboxshadow"}
+    ![verifying](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/verifying.png){class="glboxshadow"}
 
     Anschließend wird erfolgreich eine Verbindung mit dem Heimrouter Flint 3 hergestellt. Sie können nun sicher über Ihr Heimnetzwerk im Internet surfen.
 
-    ![connected travel](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/connected_travel.png){class="glboxshadow"}
+    ![connected travel](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/connected_travel.png){class="glboxshadow"}
 
     Im Web-Admin-Panel von Flint 3 wird ebenfalls der Verbindungsstatus angezeigt, wie unten dargestellt.
 
-    ![connected home](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/connected_home.png){class="glboxshadow"}
+    ![connected home](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/connected_home.png){class="glboxshadow"}
 
 ## Konnektivität testen
 
@@ -119,13 +119,13 @@ Flint 3 fungiert als Heimrouter, während Slate 7 als Reiserouter arbeitet, der 
 
     Es wird die öffentliche IP-Adresse von Flint 3 angezeigt. Das bedeutet, dass Slate 7 über Ihren Heimrouter Flint 3 auf das Internet zugreift.
 
-    ![ipcheck hk](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_hk.png){class="glboxshadow"}
+    ![ipcheck hk](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/ipcheck_hk.png){class="glboxshadow"}
 
 3. Trennen Sie die AstroWarp-Verbindung auf Slate 7 und aktualisieren Sie anschließend die Webseite, um die IP-Abfrage erneut auszuführen.
 
     Es wird die öffentliche IP-Adresse von Slate 7 angezeigt. Das bedeutet, dass Slate 7 über sein lokales Netzwerk auf das Internet zugreift.
 
-    ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
+    ![ipcheck sz](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
 
 ## Tarif upgraden
 
@@ -133,7 +133,7 @@ Jeder GL.iNet-Router verfügt für AstroWarp-Netzwerke über **10 GB kostenlose 
 
 Bei Bedarf können Sie auf den Tarif **AstroWarp+** mit unbegrenztem Datenvolumen upgraden.
 
-![upgrade plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/upgrade_plan.png){class="glboxshadow"}
+![upgrade plan](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/upgrade_plan.png){class="glboxshadow"}
 
 ## FAQ
 
@@ -174,11 +174,11 @@ Bei Bedarf können Sie auf den Tarif **AstroWarp+** mit unbegrenztem Datenvolume
 
     A: Gehen Sie im Web-Admin-Panel des Routers zu **CLOUD SERVICES** -> **AstroWarp** und klicken Sie oben rechts auf **Reset**.
 
-    ![reset](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/reset.png){class="glboxshadow"}
+    ![reset](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/reset.png){class="glboxshadow"}
 
     Melden Sie sich dann mit Ihrem Cloud-Konto bei [astrowarp.net](https://my.astrowarp.net/#/login){target="_blank"} an. Klicken Sie nach der Anmeldung auf die Schaltfläche **"+"**, um den Router zu Ihrem AstroWarp-Netzwerk hinzuzufügen.
 
-    ![add device](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/add_device.png){class="glboxshadow"}
+    ![add device](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/add_device.png){class="glboxshadow"}
 
 ---
 

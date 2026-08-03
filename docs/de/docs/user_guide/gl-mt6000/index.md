@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Flint 2 (GL-MT6000) ist ein Wi-Fi-6-Router für Zuhause und Büro, der sich ideal für datenintensive Übertragungen, viele gleichzeitig verbundene Geräte oder Gaming-Umgebungen mit extrem geringer Latenz eignet. Flint 2 bietet besonders schnelle WireGuard-VPN-Geschwindigkeiten von bis zu 900 Mbit/s. Darüber hinaus unterstützt er erweiterte Netzwerkredundanzen wie Multi-WAN, Failover und Lastverteilung, um ein unterbrechungsfreies Netzwerk sicherzustellen.
 
-![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
+![gl-mt6000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt6000/hardware_info/gl-mt6000_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -45,7 +45,7 @@ Flint 2 (GL-MT6000) ist ein Wi-Fi-6-Router für Zuhause und Büro, der sich idea
 - 1 x Netzadapter
 - 1 x Adapter (je nach Versandland)
 
-![gl-mt6000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/first_time_setup/gl-mt6000_unboxing.jpg){class="glboxshadow"}
+![gl-mt6000 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt6000/first_time_setup/gl-mt6000_unboxing.jpg){class="glboxshadow"}
 
 Sehen Sie sich unten das Unboxing-Video von Flint 2 an.
 
@@ -88,7 +88,7 @@ Richten Sie Flint 2 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Ethernet"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt6000/internet/mt6000_ethernet.png){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
@@ -98,7 +98,7 @@ Richten Sie Flint 2 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_repeater.png){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt6000/internet/mt6000_repeater.png){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -110,7 +110,7 @@ Richten Sie Flint 2 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_tethering.png){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt6000/internet/mt6000_tethering.png){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
@@ -122,7 +122,7 @@ Richten Sie Flint 2 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Cellular"
 
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000/internet/mt6000_cellular.png){class="glboxshadow"}
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt6000/internet/mt6000_cellular.png){class="glboxshadow"}
 
     Schließen Sie ein Mobilfunk-USB-Modem an den USB-Port des Routers an. Das ist nützlich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 

@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Der Router Marble (GL-B3000) ist ein eigenständiges Designobjekt und kann geschickt als Bilderrahmen genutzt werden, um Ihr Lieblingsmotiv zu präsentieren und Ihren Wohnraum aufzuwerten. Marble (GL-B3000) ist nicht nur optisch ansprechend, sondern bietet dank Wi-Fi 6 und Unterstützung für VPN-Funktionen auch erstklassige Leistung.
 
-![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
+![gl-b3000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-b3000/hardware_info/b3000_interface.png){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -49,7 +49,7 @@ Der Router Marble (GL-B3000) ist ein eigenständiges Designobjekt und kann gesch
 - 1 x Netzadapter
 - 1 x Adapter (abhängig von Ihrem Zielland)
 
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-b3000/first_time_setup/b3000_unboxing.jpg){class="glboxshadow"}
 
 ## So richten Sie Marble ein
 
@@ -87,7 +87,7 @@ Richten Sie Marble mit einer der unterstützten Internetverbindungsmethoden ein:
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_ethernet.jpg){class="glboxshadow"}
+    ![ethernet](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-b3000/internet/b3000_ethernet.jpg){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
@@ -97,7 +97,7 @@ Richten Sie Marble mit einer der unterstützten Internetverbindungsmethoden ein:
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b3000/internet/b3000_repeater.jpg){class="glboxshadow"}
+    ![repeater](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-b3000/internet/b3000_repeater.jpg){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.

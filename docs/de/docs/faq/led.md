@@ -30,7 +30,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3600be_interface.png){class="glboxshadow"}
+![gl-mt3600be interface](https://static.gl-inet.com/docs/router/de/4/faq/led/mt3600be_interface.png){class="glboxshadow"}
 
 
 
@@ -66,7 +66,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3000_interface.jpg){class="glboxshadow"}
+![gl-mt3000 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/mt3000_interface.jpg){class="glboxshadow"}
 
 
 
@@ -102,7 +102,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-![gl-axt1800 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-axt1800_interface.jpg){class="glboxshadow"}
+![gl-axt1800 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/gl-axt1800_interface.jpg){class="glboxshadow"}
 
 
 
@@ -138,7 +138,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/sft1200_interface.jpg){class="glboxshadow"}
+![gl-sft1200 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/sft1200_interface.jpg){class="glboxshadow"}
 
 
 
@@ -174,7 +174,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-![gl-mt1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt1300_interface.jpg){class="glboxshadow"}
+![gl-mt1300 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/mt1300_interface.jpg){class="glboxshadow"}
 
 
 
@@ -210,7 +210,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-![gl-a1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-a1300_interface.jpg){class="glboxshadow"}
+![gl-a1300 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/gl-a1300_interface.jpg){class="glboxshadow"}
 
 
 
@@ -254,7 +254,7 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 
 
-![gl-xe3000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/xe3000led.jpg){class="glboxshadow gl-70-desktop"}
+![gl-xe3000 led](https://static.gl-inet.com/docs/router/de/4/faq/led/xe3000led.jpg){class="glboxshadow gl-70-desktop"}
 
 
 
@@ -402,7 +402,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-![gl-x3000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-x3000_led.png){class="glboxshadow"}
+![gl-x3000 led](https://static.gl-inet.com/docs/router/de/4/faq/led/gl-x3000_led.png){class="glboxshadow"}
 
 
 
@@ -494,7 +494,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-![gl-x2000 led](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-x2000_led.jpg){class="glboxshadow"}
+![gl-x2000 led](https://static.gl-inet.com/docs/router/de/4/faq/led/gl-x2000_led.jpg){class="glboxshadow"}
 
 
 
@@ -586,7 +586,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-![gl-x750v2 led](https://static.gl-inet.com/docs/router/en/4/faq/led/x750v2_led.jpg){class="glboxshadow"}
+![gl-x750v2 led](https://static.gl-inet.com/docs/router/de/4/faq/led/x750v2_led.jpg){class="glboxshadow"}
 
 
 
@@ -678,7 +678,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-xe300_led.png){class="glboxshadow gl-70-desktop"}
+![gl-xe300 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/gl-xe300_led.png){class="glboxshadow gl-70-desktop"}
 
 
 
@@ -850,7 +850,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-![gl-be9300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/be9300_interface.jpg){class="glboxshadow"}
+![gl-be9300 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/be9300_interface.jpg){class="glboxshadow"}
 
 
 
@@ -886,7 +886,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/be6500_interface.jpg){class="glboxshadow"}
+![gl-be6500 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/be6500_interface.jpg){class="glboxshadow"}
 
 
 
@@ -922,7 +922,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-![gl-mt6000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-mt6000_interface.jpg){class="glboxshadow"}
+![gl-mt6000 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/gl-mt6000_interface.jpg){class="glboxshadow"}
 
 
 
@@ -958,7 +958,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-![gl-ax1800 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/gl-ax1800_interface.jpg){class="glboxshadow"}
+![gl-ax1800 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/gl-ax1800_interface.jpg){class="glboxshadow"}
 
 
 
@@ -994,7 +994,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-![gl-b3000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/b3000_interface.jpg){class="glboxshadow"}
+![gl-b3000 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/b3000_interface.jpg){class="glboxshadow"}
 
 
 
@@ -1038,7 +1038,7 @@ Wenn nicht geladen wird, leuchtet die Batterie-LED nach dem Drücken der Ein-/Au
 
 
 
-![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt5000_interface.png){class="glboxshadow"}
+![gl-mt5000 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/mt5000_interface.png){class="glboxshadow"}
 
 
 
@@ -1098,7 +1098,7 @@ Hinweis: Der Status des VPN-Servers wird nicht auf der LED angezeigt.
 
 
 
-![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt2500_interface.jpg){class="glboxshadow"}
+![gl-mt2500 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/mt2500_interface.jpg){class="glboxshadow"}
 
 
 
@@ -1158,7 +1158,7 @@ Hinweis: Der Status des VPN-Servers wird nicht auf der LED angezeigt.
 
 
 
-![gl-mt300n-v2 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt300n-v2_interface.png){class="glboxshadow"}
+![gl-mt300n-v2 interface](https://static.gl-inet.com/docs/router/de/4/faq/led/mt300n-v2_interface.png){class="glboxshadow"}
 
 
 
@@ -1234,7 +1234,7 @@ Bei früheren Chargen kann die WLAN-LED im normalen Betriebszustand rot statt we
 
 
 
-![gl-ar300m interface](https://static.gl-inet.com/docs/router/en/4/faq/led/ar300m_interface.png){class="glboxshadow"}
+![gl-ar300m interface](https://static.gl-inet.com/docs/router/de/4/faq/led/ar300m_interface.png){class="glboxshadow"}
 
 
 

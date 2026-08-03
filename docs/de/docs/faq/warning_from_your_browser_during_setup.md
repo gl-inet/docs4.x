@@ -2,7 +2,7 @@
 
 Möglicherweise wird Ihnen bei der ersten Einrichtung Ihres GL.iNet-Routers diese Browserwarnung angezeigt: Ihre Verbindung ist nicht privat.
 
-![alert](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/alert.jpg){class="glboxshadow"}
+![alert](https://static.gl-inet.com/docs/router/de/4/faq/warning_from_your_browser/alert.jpg){class="glboxshadow"}
 
 Dies ist eine standardmäßige Sicherheitswarnung des Browsers, wenn er eine Website ohne vertrauenswürdiges SSL/TLS-Zertifikat erkennt.
 
@@ -14,7 +14,7 @@ Die Sicherheit Ihres Netzwerks hat für uns oberste Priorität. Während der Ers
 
 Wenn Sie sich während der Einrichtung mit dem Wi-Fi des GL.iNet-Routers verbinden, sehen Sie möglicherweise **"Connected, No internet"**. Das ist zu erwarten, da der Router während der Konfiguration in einem eigenständigen lokalen Netzwerk arbeitet.
 
-![nointernet](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/nointernet.jpg){class="glboxshadow"}
+![nointernet](https://static.gl-inet.com/docs/router/de/4/faq/warning_from_your_browser/nointernet.jpg){class="glboxshadow"}
 
 Ebenso ist die IP **192.168.8.1** eine private lokale IP-Adresse, die dem Router selbst zugewiesen ist. Sie wird verwendet, um auf das lokale Admin Panel des Geräts zuzugreifen, nicht auf eine öffentliche Website.
 
@@ -30,11 +30,11 @@ GL.iNet-Router verwenden zwar SSL/TLS-Zertifikate, diese sind jedoch selbstsigni
 
 Klicken Sie bitte auf **Advanced** und **Continue to 192.168.8.1**.
 
-![continue](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/continue.jpg){class="glboxshadow"}
+![continue](https://static.gl-inet.com/docs/router/de/4/faq/warning_from_your_browser/continue.jpg){class="glboxshadow"}
 
 Anschließend werden Sie zum Web-Admin-Panel weitergeleitet.
 
-![setup](https://static.gl-inet.com/docs/router/en/4/faq/warning_from_your_browser/setup.jpg){class="glboxshadow"}
+![setup](https://static.gl-inet.com/docs/router/de/4/faq/warning_from_your_browser/setup.jpg){class="glboxshadow"}
 
 ## Kann ich dem Router ein SSL-Zertifikat hinzufügen?
 

@@ -36,7 +36,7 @@ Flint 3e (GL-BE6500) ist ein Dualband-Wi-Fi-7-Desktop-Router für Heimanwender u
 
 Ausgestattet mit 5× 2.5G-Ethernet-Ports und 1× USB-3.0-Port unterstützt er schnelle kabelgebundene Verbindungen und eine Speichererweiterung. Darüber hinaus ist er mit über 30 VPN-Diensten kompatibel und erreicht auf WireGuard® und OpenVPN-DCO eine starke VPN-Leistung von bis zu 680 Mbit/s. Außerdem ist Bark Parental Control kostenlos enthalten. Damit vereint er Leistung, Praxistauglichkeit und Sicherheit.
 
-![gl-be6500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/hardware_info/be6500_interface.jpg){class="glboxshadow"}
+![gl-be6500 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be6500/hardware_info/be6500_interface.jpg){class="glboxshadow"}
 
 **Hinweis**: Der Unterschied im Erscheinungsbild zwischen Flint 3e und Flint 3 liegt im Siebdruck: Der Siebdruck auf Flint 3e ist blau, der auf Flint 3 ist weiß.
 
@@ -87,7 +87,7 @@ Richten Sie Flint 3e mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Ethernet"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_ethernet.jpg){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be6500/internet/be6500_ethernet.jpg){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port von Flint 3e per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
@@ -97,7 +97,7 @@ Richten Sie Flint 3e mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_repeater.jpg){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be6500/internet/be6500_repeater.jpg){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -109,7 +109,7 @@ Richten Sie Flint 3e mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_tethering.jpg){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be6500/internet/be6500_tethering.jpg){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
@@ -121,7 +121,7 @@ Richten Sie Flint 3e mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Cellular"
 
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be6500/internet/be6500_cellular.jpg){class="glboxshadow"}
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be6500/internet/be6500_cellular.jpg){class="glboxshadow"}
 
     Schließen Sie ein Cellular-USB-Modem an den USB-Port von Flint 3e an. Das ist nützlich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 

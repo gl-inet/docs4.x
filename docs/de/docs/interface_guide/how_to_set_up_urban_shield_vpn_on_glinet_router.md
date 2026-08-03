@@ -10,7 +10,7 @@ Hier ein Beispiel: Der GL-B3000 wird als WireGuard-Client eingerichtet, um eine 
 
 Besuchen Sie die [offizielle Website von Urban Shield VPN](https://urbanshieldvpn.com/){target="_blank"}, um ein Urban-Shield-VPN-Konto zu erstellen.
 
-![Urban Shield VPN signup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/sign_in.png){class="glboxshadow"}
+![Urban Shield VPN signup](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/sign_in.png){class="glboxshadow"}
 
 ### 2. Router einschalten
 
@@ -22,11 +22,11 @@ Folgen Sie den nachstehenden Schritten, um auf das webbasierte Admin Panel zuzug
 
 Öffnen Sie einen Webbrowser (Chrome, Edge oder Safari werden empfohlen) und rufen Sie [192.168.8.1](http://192.168.8.1){target="_blank"} auf. Sie werden zur Ersteinrichtung des webbasierten Admin Panels weitergeleitet, wie unten gezeigt. Legen Sie Ihr Admin-Passwort fest und klicken Sie auf **Next**, um fortzufahren.
 
-![set up admin password](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/web_panel_signup.png){class="glboxshadow"}
+![set up admin password](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/web_panel_signup.png){class="glboxshadow"}
 
 Richten Sie Ihr Wi-Fi-Netzwerk ein. Auf der Seite werden die werkseitigen Wi-Fi-Daten angezeigt, einschließlich Wi-Fi-Name (SSID) und Passwort. Sie können diese übernehmen oder ändern. Wenn Sie Wi-Fi-Daten ändern, verbinden Sie Ihr Gerät bitte erneut mit dem aktualisierten Wi-Fi.
 
-![set up wifi](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/set_up_wifi.png){class="glboxshadow"}
+![set up wifi](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/set_up_wifi.png){class="glboxshadow"}
 
 Klicken Sie anschließend auf **Next**, um sich mit Ihrem Admin-Passwort anzumelden.
 
@@ -34,56 +34,56 @@ Klicken Sie anschließend auf **Next**, um sich mit Ihrem Admin-Passwort anzumel
 
 Oben rechts befindet sich ein **Network Setup Wizard** (verfügbar ab Firmware v4.7). Folgen Sie bitte diesem Assistenten, um Ihren Router vor der VPN-Einrichtung für den Internetzugang zu konfigurieren.
 
-![network setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/network_setup_wizard.jpg){class="glboxshadow"}
+![network setup](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/network_setup_wizard.jpg){class="glboxshadow"}
 
 ### 5. Urban Shield VPN aktivieren
 
 Wählen Sie im linken Menü **VPN** -> **WireGuard Client**. Sie sehen dann die Urban-Shield-VPN-Anmeldeseite.
 
-![log in 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_1.png){class="glboxshadow"}
+![log in 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_1.png){class="glboxshadow"}
 
 Geben Sie Ihre **Email** und Ihr **Password** ein und klicken Sie dann auf **Save And Continue**. Dadurch werden Konfigurationsdateien für die einzelnen Server erzeugt.
 
-![log in 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_2.png){class="glboxshadow"}
+![log in 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/urban_shield_login_2.png){class="glboxshadow"}
 
 Wählen Sie Ihren bevorzugten Server und klicken Sie auf **Apply**.
 
-![select server](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/select_server.png){class="glboxshadow"}
+![select server](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/select_server.png){class="glboxshadow"}
 
 Die verfügbaren Server erscheinen anschließend in der Liste.
 
-![get server](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/get_servers.png){class="glboxshadow"}
+![get server](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/get_servers.png){class="glboxshadow"}
 
 Klicken Sie auf das Drei-Punkte-Symbol, um die Verbindung zu starten.
 
-![start server](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/start_server.jpg){class="glboxshadow"}
+![start server](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/start_server.jpg){class="glboxshadow"}
 
 Sobald die Verbindung hergestellt ist, erscheint ein blauer Punkt als Hinweis auf eine erfolgreiche Verbindung.
 
-![server started](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/server_started.jpg){class="glboxshadow"}
+![server started](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/server_started.jpg){class="glboxshadow"}
 
 Sie können den Verbindungsstatus auch im VPN Dashboard prüfen.
 
-![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/vpn_dashboard.png){class="glboxshadow"}
+![vpn dashboard](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/vpn_dashboard.png){class="glboxshadow"}
 
 ## Kontoinformationen bearbeiten oder abmelden
 
 Klicken Sie auf das Zahnradsymbol, um die Kontoinformationen zu bearbeiten oder sich abzumelden.
 
-![edit account or logout 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/edit_account_or_logout_1.jpg){class="glboxshadow"}
+![edit account or logout 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/edit_account_or_logout_1.jpg){class="glboxshadow"}
 
-![edit account or logout 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/edit_account_or_logout_2.jpg){class="glboxshadow"}
+![edit account or logout 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/edit_account_or_logout_2.jpg){class="glboxshadow"}
 
 ## Abo verlängern
 
 Wenn Sie auf **Go Renew** klicken, werden Sie zur offiziellen Website weitergeleitet, um Ihr Abonnement zu verlängern.
 
-![go renew](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/go_renew.jpg){class="glboxshadow"}
+![go renew](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/go_renew.jpg){class="glboxshadow"}
 
 ## Löschen
 
 Sie können alle Konfigurationsdateien sowie den privaten und den öffentlichen Schlüssel mit einem Klick löschen.
 
-![delete](https://static.gl-inet.com/docs/router/en/4/interface_guide/setup_urban_shield_vpn/delete_all.jpg){class="glboxshadow"}
+![delete](https://static.gl-inet.com/docs/router/de/4/interface_guide/setup_urban_shield_vpn/delete_all.jpg){class="glboxshadow"}
 
 ---

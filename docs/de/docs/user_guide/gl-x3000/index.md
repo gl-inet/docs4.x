@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Spitz AX (GL-X3000) ist ein Dual-SIM-Wi-Fi-6-Cellular-Gateway, das besonders in abgelegenen Gebieten und auf Reisen schnelle und zuverlässige Verbindungen bietet. Es unterstützt vier Methoden für den Internetzugang: Cellular (SIM-Karten), Ethernet, Repeater und Tethering. Darüber hinaus werden Multi-WAN (Failover und Lastverteilung), VPN (OpenVPN und WireGuard), Parental Control, AdGuard Home, Portweiterleitung, Tailscale und weitere Funktionen unterstützt.
 
-![x3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/hardware_info/gl-x3000_interface.jpg){class="glboxshadow"}
+![x3000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x3000/hardware_info/gl-x3000_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -46,7 +46,7 @@ Spitz AX (GL-X3000) ist ein Dual-SIM-Wi-Fi-6-Cellular-Gateway, das besonders in 
 - 1 x Netzadapter
 - 4 x Adapter
 
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x3000/first_time_setup/x3000_unboxing.jpg){class="glboxshadow"}
 
 ## LED-Anzeigen
 
@@ -105,7 +105,7 @@ Richten Sie Spitz AX mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_cellular.jpg){class="glboxshadow"}
+    ![cellular](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x3000/internet/x3000_cellular.jpg){class="glboxshadow"}
 
     Wenn Sie die SIM-Karte bereits in Ihren Router eingesetzt haben, sollte die Internetverbindung automatisch hergestellt werden. Im Cellular-Bereich sollten der Name Ihres Mobilfunkanbieters und ein grüner Punkt angezeigt werden.
 
@@ -119,7 +119,7 @@ Richten Sie Spitz AX mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Ethernet"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_ethernet.jpg){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x3000/internet/x3000_ethernet.jpg){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
@@ -129,7 +129,7 @@ Richten Sie Spitz AX mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_repeater.jpg){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x3000/internet/x3000_repeater.jpg){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -141,7 +141,7 @@ Richten Sie Spitz AX mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Tethering"
 
-     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x3000/internet/x3000_tethering.jpg){class="glboxshadow"}
+     ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x3000/internet/x3000_tethering.jpg){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.

@@ -14,27 +14,27 @@ Unter Windows gibt es mehrere Möglichkeiten, auf das Router-Terminal zuzugreife
 
     Drücken Sie **Win** + **R** (Windows-Taste + R-Taste), um das Ausführen-Fenster zu öffnen. Geben Sie **cmd** ein und drücken Sie **Enter**.
 
-    ![cmd](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/cmd_1.png){class="glboxshadow gl-60-desktop"}
+    ![cmd](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/cmd_1.png){class="glboxshadow gl-60-desktop"}
 
     Ein schwarzes Eingabeaufforderungsfenster wird angezeigt.
 
-    ![cmd](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/cmd_2.jpg){class="glboxshadow"}
+    ![cmd](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/cmd_2.jpg){class="glboxshadow"}
 
 2. Am Router anmelden
 
     Geben Sie im Eingabeaufforderungsfenster `ssh root@192.168.8.1` ein und drücken Sie **Enter**.
 
-    ![cmd ssh root](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/cmd_ssh_root.jpg){class="glboxshadow"}
+    ![cmd ssh root](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/cmd_ssh_root.jpg){class="glboxshadow"}
 
     **Hinweis**: 192.168.8.1 ist die Standard-IP-Adresse des Routers. Wenn Sie sie zuvor geändert haben, verwenden Sie stattdessen Ihre eigene IP-Adresse.
 
     Geben Sie anschließend das Admin-Passwort Ihres Routers ein und drücken Sie **Enter**. **Aus Sicherheitsgründen wird das Passwort nicht auf dem Bildschirm angezeigt**.
 
-    ![cmd psw](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/cmd_psw.jpg){class="glboxshadow"}
+    ![cmd psw](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/cmd_psw.jpg){class="glboxshadow"}
 
     Wenn das Passwort korrekt ist, melden Sie sich erfolgreich an Ihrem Router an.
 
-    ![cmd login](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/cmd_login.png){class="glboxshadow"}
+    ![cmd login](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/cmd_login.png){class="glboxshadow"}
 
 ??? "Fehlerbehebung"
 
@@ -52,27 +52,27 @@ Unter Windows gibt es mehrere Möglichkeiten, auf das Router-Terminal zuzugreife
 
     Klicken Sie auf das Suchsymbol in der Taskleiste, geben Sie **PowerShell** ein, wählen Sie **Windows PowerShell** aus und **führen Sie sie als Administrator aus**.
 
-    ![run powershell](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/run_as_administrator.png){class="glboxshadow gl-90-desktop"}
+    ![run powershell](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/run_as_administrator.png){class="glboxshadow gl-90-desktop"}
 
 2. Am Router anmelden
 
     Geben Sie im PowerShell-Fenster `ssh root@192.168.8.1` ein und drücken Sie **Enter**.
 
-    ![powershell ssh root](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/powershell_ssh_root.jpg){class="glboxshadow gl-90-desktop"}
+    ![powershell ssh root](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/powershell_ssh_root.jpg){class="glboxshadow gl-90-desktop"}
 
     **Hinweis**: 192.168.8.1 ist die Standard-IP-Adresse des Routers. Wenn Sie sie zuvor geändert haben, verwenden Sie stattdessen Ihre eigene IP-Adresse.
 
     Das System fordert Sie auf, die Verbindung zu bestätigen. Geben Sie `yes` ein und drücken Sie **Enter**.
 
-    ![powershell confirm](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/powershell_confirm.png){class="glboxshadow gl-90-desktop"}
+    ![powershell confirm](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/powershell_confirm.png){class="glboxshadow gl-90-desktop"}
 
     Anschließend werden Sie aufgefordert, das Admin-Passwort des Routers einzugeben. Geben Sie das korrekte Admin-Passwort ein und drücken Sie **Enter**. **Aus Sicherheitsgründen wird das Passwort nicht auf dem Bildschirm angezeigt**.
 
-    ![powershell psw](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/powershell_psw.png){class="glboxshadow gl-90-desktop"}
+    ![powershell psw](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/powershell_psw.png){class="glboxshadow gl-90-desktop"}
 
     Danach melden Sie sich erfolgreich am Terminal Ihres Routers an.
 
-    ![powershell login](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/powershell_login.png){class="glboxshadow gl-90-desktop"}
+    ![powershell login](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/powershell_login.png){class="glboxshadow gl-90-desktop"}
 
 ??? "Fehlerbehebung"
 
@@ -80,19 +80,19 @@ Unter Windows gibt es mehrere Möglichkeiten, auf das Router-Terminal zuzugreife
 
         Dies tritt auf, wenn sich der Sicherheitsschlüssel des Routers geändert hat (z. B. nach einem Zurücksetzen auf Werkseinstellungen oder einem Firmware-Update) oder wenn Sie zuvor eine Verbindung zu einem anderen Router hergestellt haben, wodurch die Host-Key-Prüfung fehlschlägt.
 
-        ![warning](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/powershell_warning.jpg){class="glboxshadow gl-90-desktop"}
+        ![warning](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/powershell_warning.jpg){class="glboxshadow gl-90-desktop"}
 
         Öffnen Sie zur Behebung bitte den Datei-Explorer, wechseln Sie zu `C:\Users\Administrator\.ssh` und suchen Sie nach einer Datei mit dem Namen **known_hosts**.
 
-        ![known hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/known_hosts.png){class="glboxshadow gl-90-desktop"}
+        ![known hosts](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/known_hosts.png){class="glboxshadow gl-90-desktop"}
 
         Doppelklicken Sie auf die Datei **known_hosts** und öffnen Sie sie mit dem Editor.
 
-        ![open with notepad](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/open_notepad.png){class="glboxshadow"}
+        ![open with notepad](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/open_notepad.png){class="glboxshadow"}
 
         Löschen Sie den Eintrag, der zur IP-Adresse des Routers gehört (z. B. 192.168.8.1), und speichern Sie die Datei. Schließen Sie danach den Datei-Explorer.
 
-        ![delete known hosts](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/delete_known_hosts.png){class="glboxshadow gl-90-desktop"}
+        ![delete known hosts](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/delete_known_hosts.png){class="glboxshadow gl-90-desktop"}
 
         Wechseln Sie zurück zu PowerShell und verwenden Sie erneut den Befehl `ssh root@192.168.8.1`, um sich mit dem Router zu verbinden. Sie werden aufgefordert, die Verbindung zu bestätigen. Geben Sie `yes` ein und drücken Sie **Enter**, geben Sie dann das Anmeldepasswort des Routers ein. Danach melden Sie sich erfolgreich am Terminal Ihres Routers an.
 
@@ -116,23 +116,23 @@ Sehen Sie sich dieses Video an, um sich per Bitvise an Ihrem Router anzumelden.
 
 2. PuTTY installieren
 
-    ![Putty Install 1](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/putty_install_1.png){class="glboxshadow"}
+    ![Putty Install 1](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/putty_install_1.png){class="glboxshadow"}
 
-    ![Putty Install 2](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/putty_install_2.png){class="glboxshadow"}
+    ![Putty Install 2](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/putty_install_2.png){class="glboxshadow"}
 
-    ![Putty Install 3](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/putty_install_3.png){class="glboxshadow"}
+    ![Putty Install 3](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/putty_install_3.png){class="glboxshadow"}
 
-    ![Putty Install 4](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/putty_install_4.png){class="glboxshadow"}
+    ![Putty Install 4](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/putty_install_4.png){class="glboxshadow"}
 
 3. PuTTY starten
 
     Klicken Sie im Startmenü auf **PuTTY**.
 
-    ![Launch Putty](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/launch_putty.png){class="glboxshadow"}
+    ![Launch Putty](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/launch_putty.png){class="glboxshadow"}
 
     Das folgende Konfigurationsfenster wird angezeigt.
 
-    ![Setup Putty 1](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/setup_putty_1.png){class="glboxshadow"}
+    ![Setup Putty 1](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/setup_putty_1.png){class="glboxshadow"}
 
     Geben Sie bei **Host Name (or IP address)** `192.168.8.1` ein, belassen Sie **Port** auf dem Standardwert `22` und wählen Sie als Verbindungstyp **SSH** aus.
 
@@ -140,17 +140,17 @@ Sehen Sie sich dieses Video an, um sich per Bitvise an Ihrem Router anzumelden.
 
     Klicken Sie dann unten auf **Open**.
 
-    ![Setup Putty 2](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/setup_putty_2.png){class="glboxshadow"}
+    ![Setup Putty 2](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/setup_putty_2.png){class="glboxshadow"}
 
     Es erscheint ein Sicherheitshinweis wie unten gezeigt. Klicken Sie auf **Yes**.
 
-    ![Setup Putty 3](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/setup_putty_3.png){class="glboxshadow"}
+    ![Setup Putty 3](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/setup_putty_3.png){class="glboxshadow"}
 
     login as: `root`
 
     Geben Sie dann Ihr Admin-Passwort ein. **Aus Sicherheitsgründen wird das Passwort nicht auf dem Bildschirm angezeigt**.
 
-    ![SSH login successfully](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ar750s_ssh_successfully.jpg){class="glboxshadow"}
+    ![SSH login successfully](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/ar750s_ssh_successfully.jpg){class="glboxshadow"}
 
     Wenn Sie das oben gezeigte Bild sehen, bedeutet das, dass Sie sich erfolgreich per SSH am Router angemeldet haben.
 
@@ -166,21 +166,21 @@ Der Ablauf unter Linux und macOS ist im Allgemeinen gleich. Im Folgenden verwend
 
     Starten Sie Ubuntu. Doppelklicken Sie auf das Terminal-Symbol, um das Terminal zu öffnen.
 
-    ![Run Ubuntu](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ubuntu_login.png){class="glboxshadow"}
+    ![Run Ubuntu](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/ubuntu_login.png){class="glboxshadow"}
 
 2. Am Router anmelden.
 
     Geben Sie den SSH-Anmeldebefehl ein: `ssh root@192.168.8.1`
 
-    ![Ubuntu sshin router 1](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ubuntu_sshin_router_1.png){class="glboxshadow"}
+    ![Ubuntu sshin router 1](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/ubuntu_sshin_router_1.png){class="glboxshadow"}
 
     Das System fordert Sie auf, die Verbindung zu bestätigen. Geben Sie `yes` ein und drücken Sie **Enter**.
 
-    ![Ubuntu sshin router 2](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ubuntu_sshin_router_2.png){class="glboxshadow"}
+    ![Ubuntu sshin router 2](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/ubuntu_sshin_router_2.png){class="glboxshadow"}
 
     Geben Sie anschließend das Admin-Passwort Ihres Routers ein. **Aus Sicherheitsgründen wird das Passwort nicht auf dem Bildschirm angezeigt**.
 
-    ![Ubuntu sshin router 3](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/ubuntu_sshin_router_3.png){class="glboxshadow"}
+    ![Ubuntu sshin router 3](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/ubuntu_sshin_router_3.png){class="glboxshadow"}
 
     Wenn Sie das oben gezeigte Bild sehen, bedeutet das, dass Sie sich erfolgreich am Router angemeldet haben.
 
@@ -190,13 +190,13 @@ Der Ablauf unter Linux und macOS ist im Allgemeinen gleich. Im Folgenden verwend
 
         Dies tritt auf, wenn sich der Sicherheitsschlüssel des Routers geändert hat (z. B. nach einem Zurücksetzen auf Werkseinstellungen oder einem Firmware-Update) oder wenn Sie zuvor eine Verbindung zu einem anderen Router hergestellt haben, wodurch die Host-Key-Prüfung fehlschlägt.
 
-        ![remove_ssh_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/remove_ssh_keygen.png){class="glboxshadow gl-90-desktop"}
+        ![remove_ssh_keygen](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/remove_ssh_keygen.png){class="glboxshadow gl-90-desktop"}
 
         Führen Sie in diesem Fall den Befehl aus, der oben im roten Kasten angezeigt wird. Kopieren Sie bitte genau den Befehl, der in Ihrem Terminal angezeigt wird.
 
         `ssh-keygen -f "~/.ssh/known_hosts" -R "192.168.8.1"`
 
-        ![removed_host_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/removed_host_keygen.png){class="glboxshadow gl-90-desktop"}
+        ![removed_host_keygen](https://static.gl-inet.com/docs/router/de/4/tutorials/ssh_log_in_to_the_router/removed_host_keygen.png){class="glboxshadow gl-90-desktop"}
 
         Versuchen Sie anschließend erneut, die Verbindung herzustellen.
 

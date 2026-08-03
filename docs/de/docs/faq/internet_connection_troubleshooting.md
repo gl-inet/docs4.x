@@ -16,7 +16,7 @@ Führen Sie die folgenden Schritte zur grundlegenden Fehlerbehebung aus.
 
     Melden Sie sich im Web-Admin-Panel Ihres Routers an und gehen Sie zu **INTERNET** -> **Ethernet**. Wenn der Status wie unten gezeigt bei „connecting“ hängen bleibt, kann dies an DHCP, MAC-Bindung oder einer erforderlichen VLAN-ID liegen.
 
-    ![connecting](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/connecting.png){class="glboxshadow"}
+    ![connecting](https://static.gl-inet.com/docs/router/de/4/faq/internet_connection_troubleshooting_faq/connecting.png){class="glboxshadow"}
 
     Erkundigen Sie sich bei Ihrem ISP, ob Sie für den Internetzugang einen **PPPoE username**, ein **PPPoE password** und eine **VLAN ID** benötigen.
 
@@ -32,7 +32,7 @@ Führen Sie die folgenden Schritte aus, um eine MAC-Adresse auf Ihren GL.iNet-Ro
 
 2. Melden Sie sich im Web-Admin-Panel Ihres Routers an und gehen Sie zu **NETWORK** -> **Ethernet Port** (in manchen Firmware-Versionen **Port Management** genannt). Stellen Sie **MAC Mode** auf **Clone** oder **Manual**, geben Sie die MAC-Adresse manuell ein und klicken Sie dann auf **Apply**.
 
-    ![mac clone](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/mac_clone.png){class="glboxshadow"}
+    ![mac clone](https://static.gl-inet.com/docs/router/de/4/faq/internet_connection_troubleshooting_faq/mac_clone.png){class="glboxshadow"}
 
 3. Starten Sie Ihr Modem (also das vorgeschaltete Gerät) neu.
 
@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um die VLAN-ID zu konfigurieren.
 
 2. Geben Sie die von Ihrem ISP bereitgestellte VLAN-ID ein und klicken Sie dann auf **Apply**.
 
-    ![vlan id](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/vlan_id.png){class="glboxshadow"}
+    ![vlan id](https://static.gl-inet.com/docs/router/de/4/faq/internet_connection_troubleshooting_faq/vlan_id.png){class="glboxshadow"}
 
 ## Q4. Was ist, wenn es weiterhin nicht funktioniert?
 

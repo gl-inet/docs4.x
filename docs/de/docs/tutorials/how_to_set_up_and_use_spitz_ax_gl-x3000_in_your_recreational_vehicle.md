@@ -16,7 +16,7 @@ Richten Sie Ihren Spitz AX vor Reisebeginn mit den folgenden Schritten ein.
 
 Es wird empfohlen, einen zentralen und freien Standort zu wählen, um eine maximale Abdeckung zu erzielen. Stellen Sie sicher, dass sich der Standort innerhalb von 1 Meter von der Stromquelle befindet, da dies der Länge des Netzkabels entspricht.
 
-![Standort](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-power-source.jpg){class="glboxshadow"}
+![Standort](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-power-source.jpg){class="glboxshadow"}
 
 Sie können Ihren Spitz AX auf einer ebenen Fläche platzieren oder an der Wand montieren. Wenn Sie ihn an der Wand montieren möchten, folgen Sie dem nächsten Schritt.
 
@@ -31,18 +31,18 @@ Wandhalterungen sind im Lieferumfang enthalten. Um Ihren Spitz AX an der Wand zu
 1.	Befestigen Sie die Halterung mit Schrauben an der Wand.
 2.	Rasten Sie Ihren Spitz AX in die Halterung ein.
 
-![Wandhalterung](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-screws.jpg){class="glboxshadow"}
+![Wandhalterung](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-screws.jpg){class="glboxshadow"}
 
 ### (Optional) Schritt 3: Installieren Sie die Wohnmobil-Dachantenne
 
-![Dachantenne](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
+![Dachantenne](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
 Für ein besseres Signal verwenden Sie eine Dachantenne für Ihren Spitz AX. Empfohlen wird die [LTMG942-Multibandantenne von MobileMark](https://www.mobilemark.com/product/ltmg942-4xlte-2xwifi-gnss/), die optimale Netzwerksignale bietet. Wenn Sie Dachantennen anderer Marken verwenden möchten, achten Sie darauf, dass sie die folgenden Anforderungen erfüllen:
 
 - 4 Mobilfunkantennen, Empfangsfrequenzbereich 600M~6GHz.
 - 2 Wi-Fi-Antennen, Empfangsfrequenzbereich: 2.4G~2.5GHz, 5.15~5.84GHz
 
-![Antennen](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-six-antennas.jpg){class="glboxshadow"}
+![Antennen](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-six-antennas.jpg){class="glboxshadow"}
 
 **Hinweis:** Sie können eine 7-in-1-Antenne verwenden (einschließlich GPS-Antenne), müssen an Ihrem Spitz AX jedoch nur sechs Antennen anschließen. Die DIV/GNSS-Schnittstelle des Spitz AX unterstützt GPS-Signale, da die Mobilfunkantenne (Empfangsfrequenz 600M~6GHz) auch den GPS-Frequenzbereich abdeckt. Spitz AX unterstützt die Anzeige Ihres GPS-Standorts über die Befehlszeile, zeigt Ihren Standort derzeit jedoch nicht auf der Karte an.
 
@@ -61,7 +61,7 @@ Spitz AX verfügt über ein integriertes 5GNR-Modul und unterstützt Dual-SIM-Ka
 Gehen Sie wie folgt vor, um Ihre SIM-Karten einzurichten:
 
 1. Setzen Sie Ihre SIM-Karte(n) ein.
-![SIM einsetzen](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-sim-card.jpg){class="glboxshadow"}
+![SIM einsetzen](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-sim-card.jpg){class="glboxshadow"}
 2. Schließen Sie das Netzteil an und schalten Sie den Router ein.
 
 Gehen Sie wie folgt vor, um Ihren APN einzugeben:
@@ -79,13 +79,13 @@ Wenn Sie zwei SIM-Karten verwenden, beachten Sie bitte, dass immer nur eine SIM-
 
 ### Unterwegs
 
-![Unterwegs](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
+![Unterwegs](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_rv-antennas.png){class="glboxshadow"}
 
 Während der Fahrt sollten Sie über die SIM-Karte(n), die Sie im vorherigen Schritt eingerichtet haben, eine Internetverbindung herstellen können.
 
 ### Auf dem Campingplatz
 
-![Campingplatz](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
+![Campingplatz](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_repeater.png){class="glboxshadow"}
 
 Wenn Sie während Ihrer Reise auf einem Campingplatz anhalten, können Sie das dort bereitgestellte öffentliche WLAN nutzen und Ihre Mobilfunkdaten sparen. [Erfahren Sie, wie Sie sich mit einem vorhandenen WLAN-Netzwerk verbinden.](https://docs.gl-inet.com/router/en/4/interface_guide/internet_repeater/)
 
@@ -93,7 +93,7 @@ Nachdem Sie sich einmal mit dem WLAN verbunden haben, kann Spitz AX den Netzwerk
 
 ### In Gebieten ohne Mobilfunkabdeckung
 
-![Mobilfunk](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
+![Mobilfunk](https://static.gl-inet.com/docs/router/de/4/tutorials/set_up_and_use_in_recreational_vehicle/rv-connectivity_scene_starlink.png){class="glboxshadow"}
 
 Wenn Sie in ein Gebiet ohne Mobilfunkabdeckung fahren (z. B. in eine dünn besiedelte Wüstenregion), verwenden Sie Starlink, einen satellitengestützten Internetdienst. So nutzen Sie in Gebieten mit guter Mobilfunkabdeckung das vom Spitz AX empfangene 5G-Signal und in Gebieten ohne Mobilfunkabdeckung Starlink.
 

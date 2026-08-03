@@ -12,11 +12,11 @@
 
     2. Klicken Sie im Abschnitt „IP settings“ auf die Schaltfläche **Edit**.
 
-        ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Windows_11_edit_IP_address.png){class="glboxshadow"}
+        ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/Windows_11_edit_IP_address.png){class="glboxshadow"}
 
     3. Führen Sie zum Einrichten die folgenden Schritte aus:
 
-        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class="glboxshadow"}
+        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class="glboxshadow"}
 
         - Wählen Sie die Option **Manual** aus und schalten Sie den Schalter **IPv4** ein.
 
@@ -55,11 +55,11 @@
 
     2. Klicken Sie im Abschnitt „IP settings“ auf die Schaltfläche **Edit**.
 
-        ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.png){class="glboxshadow"}
+        ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.png){class="glboxshadow"}
 
     3. Führen Sie zum Einrichten die folgenden Schritte aus:
 
-        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class="glboxshadow"}
+        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class="glboxshadow"}
 
         - Wählen Sie die Option **Manual** aus.
 
@@ -100,7 +100,7 @@
 
     Wählen Sie **Network**. Das unten gezeigte Fenster wird angezeigt.
 
-    ![Mac_network_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_network_settings.png){class="glboxshadow"}
+    ![Mac_network_settings](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/Mac_network_settings.png){class="glboxshadow"}
 
     Wählen Sie in der Seitenleiste eine aktive Netzwerkschnittstelle aus. In diesem Beispiel bin ich mit einem drahtlosen Netzwerk verbunden, daher wähle ich **Wi-Fi** aus.
 
@@ -110,7 +110,7 @@
 
     Wählen Sie **TCP/IP**. Das unten gezeigte Fenster wird angezeigt.
 
-    ![Mac_Wi-Fi_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_Wi-Fi_settings.png){class="glboxshadow"}
+    ![Mac_Wi-Fi_settings](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/Mac_Wi-Fi_settings.png){class="glboxshadow"}
 
     Wählen Sie im Menü **Configure IPv4** die Option **Manually**.
 
@@ -125,26 +125,26 @@
 
     1. Gehen Sie zu **Settings** -> wählen Sie **Network & Internet**, dann **Wi-Fi** -> tippen Sie auf das aktuell verbundene Netzwerk, um das Einstellungsmenü zu öffnen.
 
-    ![list_available_networks](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/list_available_networks.png){class="gl-50-desktop"}
+    ![list_available_networks](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/list_available_networks.png){class="gl-50-desktop"}
     {class="glboxshadow"}
 
     2. Um eine statische IP-Adresse festzulegen, gehen Sie wie folgt vor:
 
     - Wählen Sie oben rechts das Stiftsymbol aus, um auf die Netzwerkeinstellungen zuzugreifen.
 
-        ![pencil_icon](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/pencil_icon.png){class="gl-50-desktop"}
+        ![pencil_icon](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/pencil_icon.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
     - Wählen Sie **Advanced Options**.
 
-        ![advanced_options](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/advanced_options.png){class="gl-50-desktop"}
+        ![advanced_options](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/advanced_options.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
     - Wählen Sie **IP Settings**.
 
     - Ändern Sie die Einstellung von **DHCP** auf **Static**.
 
-        ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
+        ![DHCP_to_Static](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
     - Wenn Sie statische IP-Adressen in Heimnetzwerken und anderen privaten Netzwerken verwenden, sollten diese aus den folgenden Standardbereichen für private IP-Adressen gewählt werden:
@@ -180,7 +180,7 @@
 
     - Wechseln Sie zum Reiter **Static**, wie unten dargestellt.
 
-    ![IP_Settings_Screen_iOS](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/IP_Settings_Screen_iOS.png){class="glboxshadow"}
+    ![IP_Settings_Screen_iOS](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/IP_Settings_Screen_iOS.png){class="glboxshadow"}
 
     - Tippen Sie auf das Feld **IP Address**.
 

@@ -4,7 +4,7 @@ Gehen Sie im webbasierten Admin Panel links zu **APPLICATIONS** -> **eSIM Manage
 
 Auf dieser Seite können Sie den Status der eSIM Physical Card prüfen und eSIM-Profile verwalten. Sie besteht aus zwei Bereichen: **Current eSIM Status** und **eSIM Profile List**.
 
-![esim detected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_detected.png){class="glboxshadow"}
+![esim detected](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/esim_detected.png){class="glboxshadow"}
 
 ## Unterstützte Modelle
 
@@ -39,7 +39,7 @@ Auf dieser Seite können Sie den Status der eSIM Physical Card prüfen und eSIM-
 
 Dieser Bereich zeigt grundlegende Informationen und Details zum aktuell aktiven eSIM-Profil an.
 
-![esim status](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_status.png){class="glboxshadow"}
+![esim status](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/esim_status.png){class="glboxshadow"}
 
 - **EID:** Die weltweit eindeutige Kennung der eUICC (eSIM-Chip), die zur Identifizierung und Profilverwaltung verwendet wird.
 - **ICCID:** Die Integrated Circuit Card Identifier des aktuell aktiven eSIM-Profils.
@@ -52,7 +52,7 @@ Dieser Bereich zeigt grundlegende Informationen und Details zum aktuell aktiven 
 
 Dieser Bereich zeigt Informationen zum Seed-Profil und zu normalen Profilen an.
 
-![esim profile list](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_profile_list.png){class="glboxshadow"}
+![esim profile list](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/esim_profile_list.png){class="glboxshadow"}
 
 - **Seed Profile**: Das Seed-Profil ist mit 1 GB kostenlosen Daten für die USA und Europa sowie 100 MB Global Data vorinstalliert und ab Aktivierungsdatum 1 Jahr gültig. Mit diesen Daten können Sie weltweit weitere Profile herunterladen. Außerdem können Sie die Nutzung des Seed-Profils überwachen, einschließlich verbleibender Daten, Gesamtdatenvolumen und Ablaufdatum.
 
@@ -66,11 +66,11 @@ Wenn Sie die vorinstallierten kostenlosen Daten aufgebraucht haben oder diese ab
 
 Klicken Sie im Bereich **Seed Profile** rechts auf die Schaltfläche **Top-up**.
 
-![top-up seed profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/top-up_seed1.png){class="glboxshadow"}
+![top-up seed profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/top-up_seed1.png){class="glboxshadow"}
 
 Scannen Sie im Pop-up-Fenster den QR-Code und folgen Sie den Anweisungen, um das Aufladen abzuschließen.
 
-![top-up seed profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/top-up_seed2.png){class="glboxshadow" width="400"}
+![top-up seed profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/top-up_seed2.png){class="glboxshadow" width="400"}
 
 ### eSIM-Profil kaufen
 
@@ -82,11 +82,11 @@ Sie können eSIM-Profile in unseren empfohlenen Stores, in getesteten Stores ode
 
     Klicken Sie im Bereich **Normal Profile** rechts auf **eSIM Profile Recommended Store**.
 
-    ![esim recommended store](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/recommended_store1.png){class="glboxshadow"}
+    ![esim recommended store](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/recommended_store1.png){class="glboxshadow"}
 
     Scannen Sie den QR-Code oder klicken Sie auf die Links, um eSIM-Profile zu kaufen.
 
-    ![esim recommended store](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/recommended_store2.png){class="glboxshadow"}
+    ![esim recommended store](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/recommended_store2.png){class="glboxshadow"}
 
     **Hinweis**: Alle in diesen beiden Stores gekauften eSIM-Profilpakete sind vollständig mit GL.iNet-Routern kompatibel. Bei Fragen wenden Sie sich bitte an unser Support-Team unter [support@gl-inet.com](mailto:support@gl-inet.com).
 
@@ -110,11 +110,11 @@ Nach dem Kauf eines eSIM-Profils erhalten Sie in der Regel einen QR-Code oder ei
 
 1. Klicken Sie im Bereich **Normal Profile** unten auf **Add eSIM Profile**.
 
-    ![add esim profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/add_esim_profile1.png){class="glboxshadow"}
+    ![add esim profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/add_esim_profile1.png){class="glboxshadow"}
 
 2. Laden Sie Ihren eSIM-QR-Code hoch oder geben Sie den Aktivierungscode ein und klicken Sie dann auf **Install**. Das Profil wird anschließend heruntergeladen und auf Ihrem Router installiert.
 
-    ![add esim profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/add_esim_profile2.png){class="glboxshadow"}
+    ![add esim profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/add_esim_profile2.png){class="glboxshadow"}
 
     **Hinweis:**
 
@@ -122,7 +122,7 @@ Nach dem Kauf eines eSIM-Profils erhalten Sie in der Regel einen QR-Code oder ei
 
     2. Ein korrekt formatierter QR-Code zeigt einen Aktivierungscode an, der mit **LPA:** beginnt. Einige nicht standardisierte QR-Codes liefern jedoch möglicherweise nur einen rohen Aktivierungscode ohne LPA-Präfix. Fügen Sie in diesem Fall vor dem Klicken auf **Install** manuell `LPA:` am Anfang des Codes hinzu.
 
-        ![esim activation code](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/activation_code.jpg){class="glboxshadow" width="550"}
+        ![esim activation code](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/activation_code.jpg){class="glboxshadow" width="550"}
 
     3. Wenn Sie noch kein eSIM-Profil gekauft haben, können Sie eines im **eSIM Profile Recommended Store** kaufen. Details finden Sie [hier](#esim-profil-kaufen).
 
@@ -130,25 +130,25 @@ Nach dem Kauf eines eSIM-Profils erhalten Sie in der Regel einen QR-Code oder ei
 
     Nach erfolgreichem Upload erscheint Ihr neues eSIM-Profil in der Liste **Normal Profile**. Klicken Sie auf **Enable**, um es zu aktivieren.
 
-    ![enable profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/enable_profile.jpg){class="glboxshadow"}
+    ![enable profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/enable_profile.jpg){class="glboxshadow"}
 
 4. Verbinden Sie sich mit dem Internet.
 
     Gehen Sie nach dem Aktivieren Ihres eSIM-Profils zu **INTERNET** -> **Cellular**. Klicken Sie auf **Connect**, um über Ihr eSIM-Profil eine Internetverbindung herzustellen.
 
-    ![esim connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_connect.png){class="glboxshadow"}
+    ![esim connect](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/esim_connect.png){class="glboxshadow"}
 
     **Hinweis**: Einige eSIM-Profile erfordern möglicherweise zusätzliche Konfigurationen, z. B. APN-, PIN- oder TTL-Einstellungen. Klicken Sie bei Bedarf auf **Manual Setup** oder **SIM Card Settings**, um diese Parameter anzupassen. In manchen Fällen müssen Sie das Gerät neu starten, um eine Internetverbindung herzustellen.*
 
 5. Sobald der Router erfolgreich über das eSIM-Profil verbunden ist, wird die Seite wie folgt angezeigt:
 
-    ![esim connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_connected.png){class="glboxshadow"}
+    ![esim connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/esim_connected.png){class="glboxshadow"}
 
 ### Log für den Support exportieren
 
 Klicken Sie auf **Export Log for Support**, um alle eSIM-bezogenen Protokolle anzuzeigen. Wenn Probleme auftreten und Sie technischen Support benötigen, exportieren Sie die eSIM-Logs und senden Sie sie per E-Mail an unser Support-Team unter [support@gl-inet.com](mailto:support@gl-inet.com).
 
-![export log](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/export_log.png){class="glboxshadow"}
+![export log](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/export_log.png){class="glboxshadow"}
 
 ---
 

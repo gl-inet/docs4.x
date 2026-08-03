@@ -4,7 +4,7 @@ Wenn Sie ein Ethernet-Kabel von Ihrem Heimrouter mit dem WAN-Port eines GL.iNet-
 
 **"LAN subnet is in conflict with the WAN subnet. Please Change LAN Subnet to a different address."**
 
-![conflict](https://static.gl-inet.com/docs/router/en/4/faq/what_should_i_do_with_subnet_conflict/conflict.jpg){class="glboxshadow"}
+![conflict](https://static.gl-inet.com/docs/router/de/4/faq/what_should_i_do_with_subnet_conflict/conflict.jpg){class="glboxshadow"}
 
 Das liegt daran, dass Ihr Heimrouter dieselbe LAN-IP wie der GL.iNet-Router verwendet. Das wird als LAN-Konflikt bezeichnet.
 
@@ -14,7 +14,7 @@ Befolgen Sie die folgenden Schritte, um das LAN-Subnetz zu ändern.
 
 Klicken Sie bitte auf den Link **Change LAN Subnet**. Sie werden dann zur Einrichtungsseite **LAN** weitergeleitet.
 
-![change lan ip](https://static.gl-inet.com/docs/router/en/4/faq/what_should_i_do_with_subnet_conflict/change_lan_ip.png){class="glboxshadow"}
+![change lan ip](https://static.gl-inet.com/docs/router/de/4/faq/what_should_i_do_with_subnet_conflict/change_lan_ip.png){class="glboxshadow"}
 
 Ändern Sie die Zahl nach dem zweiten Punkt (standardmäßig **8**) in eine andere Zahl, zum Beispiel 192.168.10.1, und klicken Sie dann auf **Apply**.
 
@@ -26,7 +26,7 @@ Wenn die Seite nicht umgeleitet wird, fahren Sie mit dem nächsten Schritt fort.
 
 Geben Sie die geänderte LAN-IP manuell in die Adressleiste ein und drücken Sie die Eingabetaste.
 
-![login](https://static.gl-inet.com/docs/router/en/4/faq/what_should_i_do_with_subnet_conflict/login.png){class="glboxshadow gl-90-desktop"}
+![login](https://static.gl-inet.com/docs/router/de/4/faq/what_should_i_do_with_subnet_conflict/login.png){class="glboxshadow gl-90-desktop"}
 
 Melden Sie sich mit Ihrem Admin-Passwort an. Danach verschwindet der Hinweis zum Subnetzkonflikt.
 

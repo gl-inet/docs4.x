@@ -26,13 +26,13 @@ Es gibt zwei Methoden, um Drop-in Gateway zu aktivieren: über das Router-Admin-
 
     3. Klicken Sie in der linken Seitenleiste auf **Network** > **Drop-in Gateway**.
 
-        ![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
+        ![click drop-in gateway](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
 
     4. Schalten Sie den Schalter neben **Enable Drop-in Gateway Mode** ein.
 
     5. Wählen Sie **All devices are networked through drop-in gateway**.
 
-        ![click all devices](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/select-all-devices.jpeg){class="glboxshadow"}
+        ![click all devices](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_drop_in_gateway/select-all-devices.jpeg){class="glboxshadow"}
 
     6. Klicken Sie auf **Apply**.
 
@@ -42,13 +42,13 @@ Es gibt zwei Methoden, um Drop-in Gateway zu aktivieren: über das Router-Admin-
 
     1. Tippen Sie auf dem Hauptbildschirm der App auf die Registerkarte **System** > **Drop-in Gateway**.
 
-        ![tap drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
+        ![tap drop-in gateway](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
 
     2. Tippen Sie auf **Enable**.
 
     3. Tippen Sie bei **Devices are networked via drop-in gateway** auf **All**.
 
-        ![tap all](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-all.jpeg){class="glboxshadow"}
+        ![tap all](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-all.jpeg){class="glboxshadow"}
 
     4. Tippen Sie auf **Done**.
 
@@ -86,13 +86,13 @@ Es gibt zwei Methoden, um Drop-in Gateway zu aktivieren: über das Router-Admin-
 
     3. Klicken Sie in der linken Seitenleiste auf **Network** > **Drop-in Gateway**.
 
-        ![click drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
+        ![click drop-in gateway](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_drop_in_gateway/click-drop-in-gateway.jpeg){class="glboxshadow"}
 
     4. Schalten Sie den Schalter neben **Enable Drop-in Gateway Mode** ein.
     
     5. Wählen Sie **Some devices select their own networking gateway**.
 
-        ![click some devices](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/select-some-devices.jpeg){class="glboxshadow"}
+        ![click some devices](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_drop_in_gateway/select-some-devices.jpeg){class="glboxshadow"}
 
     6. Klicken Sie auf **Apply**.
 
@@ -104,13 +104,13 @@ Es gibt zwei Methoden, um Drop-in Gateway zu aktivieren: über das Router-Admin-
 
     1. Tippen Sie auf dem Hauptbildschirm der App auf die Registerkarte **System** > **Drop-in Gateway**.
     
-        ![tap drop-in gateway](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
+        ![tap drop-in gateway](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_drop_in_gateway/tap-drop-in-gateway.jpeg){class="glboxshadow"}
     
     2. Tippen Sie auf **Enable**.
     
     3. Tippen Sie bei **Devices are networked via drop-in gateway** auf **part**.
     
-        ![tap part](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-part.jpeg){class="glboxshadow"}
+        ![tap part](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_drop_in_gateway/drop-in-gateway-tap-part.jpeg){class="glboxshadow"}
 
     4. Tippen Sie auf **Done**.
 

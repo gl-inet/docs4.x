@@ -13,9 +13,9 @@ Es gibt zwei Methoden, mit denen Sie auf Ihrem GL.iNet-Router ein Gast-WLAN einr
 1. Geben Sie in einem Webbrowser `192.168.8.1` ein.
 2. Geben Sie Ihr Passwort ein und klicken Sie dann auf **Login**.
 3. Klicken Sie in der linken Seitenleiste auf **Wireless**.
-![click wireless](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-wireless.jpeg){class="glboxshadow"}
+![click wireless](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_a_guest_network/click-wireless.jpeg){class="glboxshadow"}
 4. Klicken Sie im Abschnitt Ihres 5GHz- oder 2.4GHz-WLANs auf die Registerkarte **Guest Wi-Fi**.
-![click guest](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-guest-wifi.jpeg){class="glboxshadow"}
+![click guest](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_a_guest_network/click-guest-wifi.jpeg){class="glboxshadow"}
 5. Schalten Sie den Schalter neben **Enable Wi-Fi** ein.
 
 ### 2. Ein neues Passwort für das Gast-WLAN festlegen
@@ -23,7 +23,7 @@ Es gibt zwei Methoden, mit denen Sie auf Ihrem GL.iNet-Router ein Gast-WLAN einr
 Zu Ihrer Sicherheit wird empfohlen, ein neues Passwort für Ihr Gast-WLAN festzulegen. Gehen Sie wie folgt vor:
 
 1. Klicken Sie auf **Modify**.
-![click modify](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/click-modify.jpeg){class="glboxshadow"}
+![click modify](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_a_guest_network/click-modify.jpeg){class="glboxshadow"}
 2. Geben Sie neben **Wi-Fi Password** ein neues Passwort ein. (Sie können auch neben **Wi-Fi Name** einen neuen Netzwerknamen eingeben.)
 3. Klicken Sie anschließend auf **Apply**.
 
@@ -38,7 +38,7 @@ Sie haben nun ein Gast-WLAN eingerichtet. Um Ihre Geräte damit zu verbinden, su
 1. Tippen Sie auf dem Hauptbildschirm der App auf die Registerkarte **Network** > **Wireless**.
 2. Suchen Sie **Guest Network**.
 3. Schalten Sie bei dem Netzwerk, für das Sie ein Gast-WLAN einrichten möchten, den Schalter ein.
-![toggle the switch](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/toggle-on-guest-network.jpeg){class="glboxshadow"}
+![toggle the switch](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_a_guest_network/toggle-on-guest-network.jpeg){class="glboxshadow"}
 
 ### 2. Ein neues Passwort für das Gast-WLAN festlegen
 
@@ -46,7 +46,7 @@ Zu Ihrer Sicherheit wird empfohlen, ein neues Passwort für Ihr Gast-WLAN festzu
 
 1. Tippen Sie auf die Option **SSID** des Netzwerks, für das Sie ein Gast-WLAN eingerichtet haben.
 2. Geben Sie neben **Password** ein neues Passwort ein. (Sie können auch im Feld **SSID** einen neuen Netzwerknamen eingeben.)
-![enter a new password](https://static.gl-inet.com/docs/router/en/4/tutorials/how_to_set_up_a_guest_network/tap-password.jpeg){class="glboxshadow"}
+![enter a new password](https://static.gl-inet.com/docs/router/de/4/tutorials/how_to_set_up_a_guest_network/tap-password.jpeg){class="glboxshadow"}
 3. Tippen Sie auf **Done**.
 
 Sie haben nun ein Gast-WLAN eingerichtet. Um Ihre Geräte damit zu verbinden, suchen Sie den Namen des Gastnetzwerks in der Liste der verfügbaren Netzwerke und geben Sie das Passwort ein.

@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Spitz Plus (GL-X2000) ist ein Dual-SIM-4G-LTE-Wi-Fi-6-Cellular-Gateway, das besonders in abgelegenen Gebieten und auf Reisen schnelle und zuverlässige Verbindungen bietet. Dank 3-Carrier Aggregation überträgt der Router Daten gleichzeitig über drei Mobilfunkbänder und stellt so die dreifache verfügbare Bandbreite bereit, um Engpässe zu vermeiden. Er unterstützt vier Methoden für den Internetzugang: Cellular (SIM-Karten), Ethernet, Repeater und Tethering. Darüber hinaus werden Multi-WAN (Failover und Lastverteilung), VPN (OpenVPN und WireGuard), Parental Control, AdGuard Home, Portweiterleitung, Tailscale und weitere Funktionen unterstützt.
 
-![gl-x2000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
+![gl-x2000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/hardware_info/x2000_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -49,7 +49,7 @@ Spitz Plus (GL-X2000) ist ein Dual-SIM-4G-LTE-Wi-Fi-6-Cellular-Gateway, das beso
 - 1 x Netzadapter
 - 1 x Adapter (je nach Versandland)
 
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_unboxing.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/first_time_setup/x2000_unboxing.jpg){class="glboxshadow"}
 
 ## LED-Anzeigen
 
@@ -104,7 +104,7 @@ Richten Sie Spitz Plus mit einer der unterstützten Internetverbindungsmethoden 
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_cellular.jpg){class="glboxshadow"}
+    ![cellular](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/internet/x2000_cellular.jpg){class="glboxshadow"}
 
     Wenn Sie die SIM-Karte in Ihren Router eingesetzt haben, sollte die Internetverbindung automatisch hergestellt werden. Im Cellular-Bereich sollten der Name Ihres Mobilfunkanbieters und ein grüner Punkt angezeigt werden.
 
@@ -118,7 +118,7 @@ Richten Sie Spitz Plus mit einer der unterstützten Internetverbindungsmethoden 
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_ethernet.jpg){class="glboxshadow"}
+    ![ethernet](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/internet/x2000_ethernet.jpg){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port von Spitz Plus per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
@@ -128,7 +128,7 @@ Richten Sie Spitz Plus mit einer der unterstützten Internetverbindungsmethoden 
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_repeater.jpg){class="glboxshadow"}
+    ![repeater](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/internet/x2000_repeater.jpg){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -140,7 +140,7 @@ Richten Sie Spitz Plus mit einer der unterstützten Internetverbindungsmethoden 
 
 === "Tethering"
 
-     ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/internet/x2000_tethering.jpg){class="glboxshadow"}
+     ![tethering](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/internet/x2000_tethering.jpg){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.

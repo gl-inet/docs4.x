@@ -24,7 +24,7 @@ Die Router verwenden den Befehl **ping** oder **httping** (nur für v4.3 und äl
 
 Wenn die Schnittstelle verfügbar ist, wird links ein grüner Punkt angezeigt, andernfalls ein grauer.
 
-![interface status track 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_1.jpg){class="glboxshadow"}
+![interface status track 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/multi-wan/interface_status_track_1.jpg){class="glboxshadow"}
 
 ### Einstellungen für die Statusüberwachung
 
@@ -32,7 +32,7 @@ Klicken Sie auf das Zahnradsymbol, um die Einstellungen für die Statusüberwach
 
 Dies ist beispielsweise die Einstellung für die Statusüberwachung der Ethernet-Schnittstelle; für andere Schnittstellen gilt dasselbe.
 
-![interface status track 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/interface_status_track_2.png){class="glboxshadow"}
+![interface status track 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/multi-wan/interface_status_track_2.png){class="glboxshadow"}
 
 - **Enable Interface Status Track**: Diese Option ist standardmäßig aktiviert. Sie können die Schnittstellen-Statusüberwachung deaktivieren. In diesem Fall bestimmt der Router den Schnittstellenstatus anhand des physischen Status, z. B. ob das Netzwerkkabel eingesteckt ist oder nicht.
 
@@ -54,7 +54,7 @@ Dies ist beispielsweise die Einstellung für die Statusüberwachung der Ethernet
 
 Diese Funktion ist seit v4.5 verfügbar.
 
-![Sensitivity Options](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/sensitivity_options.jpg){class="glboxshadow"}
+![Sensitivity Options](https://static.gl-inet.com/docs/router/de/4/interface_guide/multi-wan/sensitivity_options.jpg){class="glboxshadow"}
 
 Diese Empfindlichkeit bestimmt das Zeitintervall für die Erkennung des Internetstatus.
 
@@ -71,7 +71,7 @@ Es gibt zwei Methoden: **Failover** und **Load Balance**. Wenn Multi-WAN-Verbind
 
 ### Failover
 
-![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/failover.png){class="glboxshadow"}
+![multi-wan failover](https://static.gl-inet.com/docs/router/de/4/interface_guide/multi-wan/failover.png){class="glboxshadow"}
 
 Sie können die Priorität jeder Schnittstelle festlegen. Fällt die aktuell verwendete Schnittstelle aus, schaltet der Router automatisch auf die andere verfügbare Schnittstelle mit der höchsten Priorität um.
 
@@ -91,7 +91,7 @@ Sie können das Lastverhältnis auch individuell anpassen. Wenn die Ethernet-Ban
 
 **Hinweis:** Bereits bestehende Verbindungen oder laufender Datenverkehr entsprechen nicht zwingend exakt dem Lastverhältnis. Über einen längeren Nutzungszeitraum nähert sich die Verteilung diesem Verhältnis an.
 
-![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/load_balance.png){class="glboxshadow"}
+![multi-wan load balance](https://static.gl-inet.com/docs/router/de/4/interface_guide/multi-wan/load_balance.png){class="glboxshadow"}
 
 ## Anwendungsszenarien
 

@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Brume 2 (GL-MT2500/GL-MT2500A) ist ein leichtes und leistungsstarkes VPN-Gateway mit dem Betriebssystem OpenWrt v21.02. Es ist kompakt konzipiert, um zu Hause einen VPN-Server zu hosten oder SD-WAN (Site-to-Site) für kleine und mittlere Unternehmen zu betreiben. Es ist in zwei Varianten erhältlich: GL-MT2500 mit Kunststoffgehäuse und GL-MT2500A mit Aluminiumgehäuse.
 
-![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
+![gl-mt2500 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -48,7 +48,7 @@ Brume 2 (GL-MT2500/GL-MT2500A) ist ein leichtes und leistungsstarkes VPN-Gateway
 
 Die folgende Abbildung zeigt den GL-MT2500A als Beispiel.
 
-![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
+![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
 ## So richten Sie Brume 2 ein
 
@@ -72,7 +72,7 @@ Verbinden Sie Ihr Gerät, z. B. einen Computer oder Laptop, per Ethernet-Kabel m
 
 === "Ethernet"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
     
     Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, beispielsweise einem Modem.
     
@@ -82,7 +82,7 @@ Verbinden Sie Ihr Gerät, z. B. einen Computer oder Laptop, per Ethernet-Kabel m
 
 === "Tethering"
 
-     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
+     ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder einen USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
@@ -94,7 +94,7 @@ Verbinden Sie Ihr Gerät, z. B. einen Computer oder Laptop, per Ethernet-Kabel m
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
+    ![cellular](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
 
     Schließen Sie ein Mobilfunk-USB-Modem an den USB-Port des Routers an. Dies ist nützlich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 

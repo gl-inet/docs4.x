@@ -12,7 +12,7 @@ Hier können Sie Ethernet-Portrollen (WAN/LAN) verwalten und Portdetails wie MAC
 
 In diesem Abschnitt werden die Portrolle (WAN oder LAN), die MAC-Adresse und die ausgehandelte Geschwindigkeit angezeigt. 
 
-![wan](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![wan](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
 
 - **WAN/LAN**: Der aktuelle Betriebsmodus des physischen WAN-Ports. Sie können ihn bei Bedarf auf LAN einstellen.
 
@@ -26,7 +26,7 @@ In diesem Abschnitt werden die Portrolle (WAN oder LAN), die MAC-Adresse und die
 
 In diesem Abschnitt wird die ausgehandelte Geschwindigkeit des LAN-Ports angezeigt. Sie wird nur eingeblendet, wenn eine gültige Verbindung erkannt wurde.
 
-![lan1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/lan1.png){class="glboxshadow"}
+![lan1](https://static.gl-inet.com/docs/router/de/4/interface_guide/ethernet_port/lan1.png){class="glboxshadow"}
 
 Einige Modelle unterstützen das Umschalten von LAN 1 auf einen WAN-Port für Dual-Ethernet-WAN-Szenarien. Klicken Sie für Details auf [Dual-Ethernet WAN](#dual-ethernet-wan).
 
@@ -70,11 +70,11 @@ Führen Sie die folgenden Schritte aus, um einen LAN-Port in einen WAN-Port umzu
 
 1. Klicken Sie auf der Seite **Port Management** oder **Ethernet Port** auf die Registerkarte **LAN**, ändern Sie die Portrolle in WAN und klicken Sie dann auf **Apply**.
 
-    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/dual_ethernet_1.png){class="glboxshadow"}
+    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/ethernet_port/dual_ethernet_1.png){class="glboxshadow"}
 
 2. Klicken Sie im Pop-up-Fenster auf **Apply**.
 
-    ![dual ethernet wan 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ethernet_port/dual_ethernet_2.png){class="glboxshadow"}
+    ![dual ethernet wan 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/ethernet_port/dual_ethernet_2.png){class="glboxshadow"}
 
 3. Der ausgewählte Port arbeitet nun als WAN-Port. Sie können anschließend [hier](multi-wan.md) Multi-WAN konfigurieren.
 

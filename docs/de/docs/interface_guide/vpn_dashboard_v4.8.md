@@ -20,23 +20,23 @@ Sie können außerdem mehrere VPN-Verbindungen für Multi-Tunnel-Szenarien aktiv
 
 Klicken Sie oben links auf das Buchsymbol und folgen Sie dem VPN Setup Wizard, um die VPN-Konfiguration schnell abzuschließen.
 
-![vpn wizard 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_wizard_1.png){class="glboxshadow"}
+![vpn wizard 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/vpn_wizard_1.png){class="glboxshadow"}
 
-![vpn wizard 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_wizard_2.png){class="glboxshadow"}
+![vpn wizard 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/vpn_wizard_2.png){class="glboxshadow"}
 
 **Hinweis**: Der VPN Setup Wizard ist nur für die integrierten VPN-Dienste vorgesehen, darunter AzireVPN, Hide.me, IPVanish, Mullvad, NordVPN, PIA und Surfshark. Für andere VPN-Dienste überspringen Sie den Assistenten und richten das VPN manuell unter [OpenVPN Client](openvpn_client.md){target="_blank"} oder [WireGuard Client](wireguard_client.md){target="_blank"} ein.
 
 Hier ein Beispiel mit **Hide.me**. Melden Sie sich mit Ihren Hide.me-Zugangsdaten an.
 
-![vpn login](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_login.png){class="glboxshadow"}
+![vpn login](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/vpn_login.png){class="glboxshadow"}
 
 Wählen Sie einen VPN-Server aus und klicken Sie auf **Apply**. Dies ist der Server, mit dem sich dieser VPN-Tunnel verbindet. Ihre öffentliche IP-Adresse erscheint dann so, als stamme sie vom Standort des ausgewählten Servers.
 
-![select server](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/select_server.png){class="glboxshadow"}
+![select server](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/select_server.png){class="glboxshadow"}
 
 Die Verbindung wird automatisch aufgebaut. Nach erfolgreicher Verbindung sehen Sie im VPN Dashboard, dass ein VPN-Tunnel aktiviert wurde.
 
-![vpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected.png){class="glboxshadow"}
+![vpn connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/connected.png){class="glboxshadow"}
 
 Angezeigt werden das aktuell verwendete VPN-Protokoll (z. B. WireGuard), die Konfigurationsdatei, Serveradresse, Listening-Port des Servers, Datenverkehrsstatistiken und die virtuelle Client-IP. Unten rechts können Benutzer das Verbindungsprotokoll einsehen.
 
@@ -48,11 +48,11 @@ Wenn Sie VPN-Richtlinien konfigurieren möchten, lesen Sie bitte [Policy Mode](#
 
 Klicken Sie im VPN Dashboard oben rechts auf die Schaltfläche, um zwischen den VPN-Modi zu wechseln.
 
-![vpn mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/vpn_mode.png){class="glboxshadow"}
+![vpn mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/vpn_mode.png){class="glboxshadow"}
 
 Es stehen zwei Modi zur Verfügung: **Global Mode** und **Policy Mode**.
 
-![vpn mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode.png){class="glboxshadow"}
+![vpn mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/global_mode.png){class="glboxshadow"}
 
 ### Global Mode
 
@@ -62,7 +62,7 @@ Er eignet sich ideal für Szenarien, in denen der gesamte Client-Datenverkehr ü
 
 Im folgenden Beispiel verbindet sich der Router per WireGuard mit einem australischen Server. Der gesamte Datenverkehr verbundener Clients wird durch diesen VPN-Tunnel geleitet.
 
-![connected global mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
+![connected global mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/connected-global-mode.png){class="glboxshadow"}
 
 #### Tunnel Options
 
@@ -70,9 +70,9 @@ Sie können für Ihren VPN-Tunnel erweiterte Einstellungen wie VPN Kill Switch, 
 
 Klicken Sie oben rechts auf das Zahnradsymbol.
 
-![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options1.png){class="glboxshadow"}
+![global mode options](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/global_mode_options1.png){class="glboxshadow"}
 
-![global mode options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/global_mode_options2.png){class="glboxshadow"}
+![global mode options](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/global_mode_options2.png){class="glboxshadow"}
 
 - **Kill Switch**: Wenn aktiviert, wird jeglicher Datenverkehr, der über diesen VPN-Tunnel geleitet wird, automatisch blockiert, wenn die VPN-Verbindung ausfällt. Wenn deaktiviert, fällt der Datenverkehr auf das lokale WAN zurück und greift ohne den VPN-Tunnel auf das Internet zu.
 
@@ -92,11 +92,11 @@ Er eignet sich für Anwendungsfälle, die ein flexibles Datenverkehrsmanagement 
 
 Wechseln Sie den VPN Mode zu Policy Mode und klicken Sie auf **Apply**.
 
-![policy mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/policy_mode.png){class="glboxshadow"}
+![policy mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/policy_mode.png){class="glboxshadow"}
 
 Nach dem Umschalten wird, falls das VPN noch nicht aktiviert ist, die Seite wie unten dargestellt angezeigt. Sie enthält die drei Bereiche Primary Tunnel, Add Tunnel und All Other Traffic.
 
-![policy mode no vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/policy_no_vpn_file.png){class="glboxshadow"}
+![policy mode no vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/policy_no_vpn_file.png){class="glboxshadow"}
 
 Klicken Sie auf den entsprechenden Bereich, um mehr zu erfahren.
 
@@ -114,51 +114,51 @@ In diesem Tunnel können Sie die Tunnel-Regel über drei Faktoren anpassen:
 
     Klicken Sie auf das ausgegraute Feld, um die Datenverkehrsquelle auszuwählen.
 
-    ![traffic source](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_from_1.png){class="glboxshadow"}
+    ![traffic source](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/traffic_from_1.png){class="glboxshadow"}
 
-    ![traffic source](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_from_2.jpg){class="glboxshadow"}
+    ![traffic source](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/traffic_from_2.jpg){class="glboxshadow"}
 
     - **All Clients**: Wenn ausgewählt, entspricht der Datenverkehr aller Geräte dieser Regel.
 
-        ![all clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_clients.jpg){class="glboxshadow"}
+        ![all clients](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/all_clients.jpg){class="glboxshadow"}
 
     - **Specified Connection Types**: Wenn ausgewählt, entspricht Datenverkehr bestimmter Verbindungstypen (z. B. LAN-Subnetz, Drop-in Gateway, Guest Network) dieser Regel.
 
-        ![specified connection](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_connection_types_1.jpg){class="glboxshadow"}
+        ![specified connection](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/specified_connection_types_1.jpg){class="glboxshadow"}
 
         Wenn Sie auf diesem Router den OpenVPN-Server oder WireGuard-Server aktiviert haben, erscheinen unter Specified Connection Types zusätzliche Optionen. Das ist nützlich für [VPN Cascading](../tutorials/how_to_use_vpn_cascading_on_glinet_routers.md).
 
-        ![specified connection](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_connection_types_2.png){class="glboxshadow"}
+        ![specified connection](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/specified_connection_types_2.png){class="glboxshadow"}
 
     - **Specified Devices**: Wenn ausgewählt, entspricht der Datenverkehr bestimmter Geräte (identifiziert über die MAC-Adresse) dieser Regel.
 
-        ![specified devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_devices.jpg){class="glboxshadow"}
+        ![specified devices](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/specified_devices.jpg){class="glboxshadow"}
 
     - **Exclude Specified Devices**: Wenn ausgewählt, entspricht der Datenverkehr bestimmter Geräte (identifiziert über die MAC-Adresse) dieser Regel **NICHT**.
 
-        ![exclude devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_devices.jpg){class="glboxshadow"}
+        ![exclude devices](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/exclude_devices.jpg){class="glboxshadow"}
 
 2. **To**: Bezieht sich auf die Datenverkehrsziele.
 
     Klicken Sie auf das ausgegraute Feld, um die Datenverkehrsziele auszuwählen.
 
-    ![traffic destination](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_to_1.png){class="glboxshadow"}
+    ![traffic destination](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/traffic_to_1.png){class="glboxshadow"}
 
-    ![traffic destination](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_to_2.png){class="glboxshadow"}
+    ![traffic destination](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/traffic_to_2.png){class="glboxshadow"}
 
     - **All Targets**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, zu allen Zielen geleitet.
 
-        ![all targets](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_targets.png){class="glboxshadow"}
+        ![all targets](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/all_targets.png){class="glboxshadow"}
 
     - **Specified Domain / IP List**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, zu den angegebenen Domains oder IP-Adressen geleitet. Diese müssen manuell eingegeben werden.
 
         Bitte beachten Sie, dass die Angabe einer <u>Root-Domain</u> alle ihre Subdomains abdeckt. Wenn Sie beispielsweise `archive.ubuntu.com`, `security.ubuntu.com` und `old-releases.ubuntu.com` in einem Tunnel angeben möchten, müssen Sie nur die Root-Domain `ubuntu.com` angeben.
 
-        ![specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_manual.png){class="glboxshadow"}
+        ![specified domain/IP manual](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_manual.png){class="glboxshadow"}
 
         Oder wechseln Sie den **Input Mode** von Manual zu Subscription URL und geben Sie einen URL-Link ein.
 
-        ![specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_subscription.png){class="glboxshadow"}
+        ![specified domain/IP subscription](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/specified_domain_ip_subscription.png){class="glboxshadow"}
 
         !!! Note
 
@@ -172,11 +172,11 @@ In diesem Tunnel können Sie die Tunnel-Regel über drei Faktoren anpassen:
 
         Bitte beachten Sie, dass die Angabe einer <u>Root-Domain</u> alle ihre Subdomains abdeckt. Wenn Sie beispielsweise `archive.ubuntu.com`, `security.ubuntu.com` und `old-releases.ubuntu.com` in einem Tunnel angeben möchten, müssen Sie nur die Root-Domain `ubuntu.com` angeben.
 
-        ![exclude specified domain/IP manual](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_manual.png){class="glboxshadow"}
+        ![exclude specified domain/IP manual](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_manual.png){class="glboxshadow"}
 
         Oder wechseln Sie den **Input Mode** von Manual zu Subscription URL und geben Sie einen URL-Link ein.
 
-        ![exclude specified domain/IP subscription](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_subscription.png){class="glboxshadow"}
+        ![exclude specified domain/IP subscription](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/exclude_domain_ip_subscription.png){class="glboxshadow"}
 
         !!! Note
 
@@ -190,9 +190,9 @@ In diesem Tunnel können Sie die Tunnel-Regel über drei Faktoren anpassen:
 
     Klicken Sie auf das ausgegraute Feld, um die Routing-Methode auszuwählen.
 
-    ![via](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_via_1.png){class="glboxshadow"}
+    ![via](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/traffic_via_1.png){class="glboxshadow"}
 
-    ![via](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/traffic_via_2.png){class="glboxshadow"}
+    ![via](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/traffic_via_2.png){class="glboxshadow"}
 
     - **Use VPN**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, über das VPN zu den ausgewählten Zielen geleitet.
 
@@ -200,17 +200,17 @@ In diesem Tunnel können Sie die Tunnel-Regel über drei Faktoren anpassen:
 
         Sobald der Router als VPN-Client eingerichtet ist, wählen Sie eine VPN-Konfigurationsdatei für diesen Tunnel aus und klicken Sie auf **Apply**.
 
-        ![use vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/use_vpn_2.png){class="glboxshadow"}
+        ![use vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/use_vpn_2.png){class="glboxshadow"}
 
     - **Not Use VPN**: Wenn ausgewählt, wird Datenverkehr, der dieser Regel entspricht, über das lokale WAN statt über das VPN zu den ausgewählten Zielen geleitet.
 
-        ![not use vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/not_use_vpn.png){class="glboxshadow"}
+        ![not use vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/not_use_vpn.png){class="glboxshadow"}
 
 4. Nachdem Datenverkehrsquelle, Ziel und Routing-Methode ausgewählt wurden, ist die Einrichtung der Primary-Tunnel-Regel abgeschlossen.
 
 Im folgenden Beispiel lautet die Primary-Tunnel-Regel: Alle Clients verwenden das VPN, um auf angegebene Domains zuzugreifen. Ihr Datenverkehr wird über den australischen Server geleitet und verlässt über diesen Tunnel das Internet zu den ausgewählten Domains.
 
-![connected policy mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-policy-mode.jpg){class="glboxshadow"}
+![connected policy mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/connected-policy-mode.jpg){class="glboxshadow"}
 
 **Hinweis**: Prüfen Sie aus Sicherheitsgründen vor dem Aktivieren der Tunnel bitte die Einstellungen unter [All Other Traffic](#all-other-traffic) und [Tunnel Options](#tunnel-options).
 
@@ -218,15 +218,15 @@ Im folgenden Beispiel lautet die Primary-Tunnel-Regel: Alle Clients verwenden da
 
 Um zusätzliche Tunnel für mehrere VPN-Instanzen zu erstellen, klicken Sie unter dem Primary Tunnel auf **Add Tunnel** und konfigurieren benutzerdefinierte Regeln.
 
-![add tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/add_tunnel.jpg){class="glboxshadow"}
+![add tunnel](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/add_tunnel.jpg){class="glboxshadow"}
 
 Geben Sie dem Tunnel einen Namen.
 
-![name tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/name_tunnel.png){class="glboxshadow"}
+![name tunnel](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/name_tunnel.png){class="glboxshadow"}
 
 Im VPN Dashboard erscheint ein weiterer Tunnel.
 
-![two tunnels](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/two_tunnels.png){class="glboxshadow"}
+![two tunnels](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/two_tunnels.png){class="glboxshadow"}
 
 Bei Bedarf können Sie weitere Tunnel hinzufügen. Es können bis zu 5 Tunnel erstellt werden (einschließlich des voreingestellten Primary Tunnel).
 
@@ -238,17 +238,17 @@ Passen Sie die Tunnel-Regeln an, indem Sie Datenverkehrsquelle, Ziele und Routin
 
 Im Policy Mode wird am unteren Rand des VPN Dashboard ein <u>voraktivierter</u> Tunnel angezeigt.
 
-![all other traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/all_other_traffic.png){class="glboxshadow"}
+![all other traffic](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/all_other_traffic.png){class="glboxshadow"}
 
 Dieser Tunnel steuert, ob Datenverkehr, der keiner der oben genannten VPN-Tunnelgruppen entspricht, auf das Internet zugreifen kann. Er ist standardmäßig aktiviert, um normalen Internetzugang für Datenverkehr sicherzustellen, der nicht über ein VPN geleitet wird.
 
 - Wenn aktiviert, kann nicht zugeordneter Datenverkehr weiterhin auf das Internet zugreifen.
 
-    ![all other traffic on](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/all_other_traffic_on.png){class="glboxshadow"}
+    ![all other traffic on](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.9/all_other_traffic_on.png){class="glboxshadow"}
 
 - Wenn deaktiviert, darf nur über VPN geleiteter Datenverkehr auf das Internet zugreifen. Jeglicher Nicht-VPN-Datenverkehr sowie Datenverkehr, der von VPN-Verbindungen per Failover übernommen wird, wird blockiert. Diese Option überschreibt nicht den individuellen Kill Switch jedes VPN-Tunnels.
 
-    ![all other traffic off](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/all_other_traffic_off.png){class="glboxshadow"}
+    ![all other traffic off](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.9/all_other_traffic_off.png){class="glboxshadow"}
 
 #### Tunnel Priority
 
@@ -256,11 +256,11 @@ Standardmäßig hat der voreingestellte Primary Tunnel die höchste Priorität, 
 
 Um die Tunnel-Priorität zu ändern, klicken Sie in der oberen Infoleiste auf **Modify Priority** oder auf das **Prioritäts-Label** oben links an einem beliebigen Tunnel (z. B. Priority 1 / Priority 2).
 
-![modify priority](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/modify_priority_1.png){class="glboxshadow"}
+![modify priority](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/modify_priority_1.png){class="glboxshadow"}
 
 Klicken Sie rechts auf das Symbol mit den drei Linien und halten Sie es gedrückt, um die Tunnel neu anzuordnen. Klicken Sie anschließend auf **Apply**.
 
-![modify priority](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/modify_priority_2.png){class="glboxshadow"}
+![modify priority](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/modify_priority_2.png){class="glboxshadow"}
 
 **Wenn mehrere Tunnel aktiviert sind, leitet der Router den Datenverkehr in der folgenden Reihenfolge weiter**:
 
@@ -282,9 +282,9 @@ Sie können für jeden VPN-Tunnel erweiterte Einstellungen wie VPN Kill Switch, 
 
 Klicken Sie auf das Zahnradsymbol neben einem Tunnelnamen und wählen Sie **Options**.
 
-![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_1.png){class="glboxshadow"}
+![tunnel options](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/tunnel_options_1.png){class="glboxshadow"}
 
-![tunnel options](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
+![tunnel options](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/tunnel_options_2.png){class="glboxshadow"}
 
 - **Kill Switch**: Wenn aktiviert, wird jeglicher Datenverkehr, der über diesen VPN-Tunnel geleitet wird, automatisch blockiert, wenn die VPN-Verbindung ausfällt. Wenn deaktiviert, wird der Datenverkehr per Failover an den nächsten Prioritätstunnel oder das lokale WAN weitergegeben.
 

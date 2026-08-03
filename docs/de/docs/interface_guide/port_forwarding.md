@@ -16,7 +16,7 @@ Aktivieren Sie **Enable DMZ**. Wählen Sie die interne IP-Adresse Ihres Host-Ger
 
 Sie können die Priorität für DMZ festlegen. Wenn die DMZ-Priorität höher ist als die Regeln für die Portweiterleitung, werden alle Regeln für die Portweiterleitung ungültig. Andernfalls werden Anfragen nur dann an das DMZ-Host-Gerät weitergeleitet, wenn für den aufgerufenen Port keine entsprechende Regel für die Portweiterleitung vorhanden ist.
 
-![dmz](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/dmz.png){class="glboxshadow"}
+![dmz](https://static.gl-inet.com/docs/router/de/4/interface_guide/port_forwarding/dmz.png){class="glboxshadow"}
 
 ## Portweiterleitung
 
@@ -24,11 +24,11 @@ Mit der Portweiterleitung können entfernte Computer eine Verbindung zu einem lo
 
 Um eine Portweiterleitung einzurichten, klicken Sie im Abschnitt **Port Forwarding** auf **Add**.
 
-![port forwarding add](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/port_forwarding_add1.png){class="glboxshadow"}
+![port forwarding add](https://static.gl-inet.com/docs/router/de/4/interface_guide/port_forwarding/port_forwarding_add1.png){class="glboxshadow"}
 
 Fügen Sie im Pop-up-Fenster eine neue Regel für die Portweiterleitung hinzu und klicken Sie auf **Apply**.
 
-![add new port forwarding rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/port_forwarding/port_forwarding_add2.png){class="glboxshadow"}
+![add new port forwarding rule](https://static.gl-inet.com/docs/router/de/4/interface_guide/port_forwarding/port_forwarding_add2.png){class="glboxshadow"}
 
 - **Protocol:** Wählen Sie `TCP`, `UDP` oder `TCP and UDP` für diese Regel.
 

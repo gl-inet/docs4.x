@@ -28,23 +28,23 @@ Integriert mit [Netify](https://www.netify.ai/){target="_blank"} nutzt GL.iNet D
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **FLOW CONTROL** -> **DPI Engine** und klicken Sie auf **Enable DPI Engine**.
 
-![dpi engine initial](https://static.gl-inet.com/docs/router/en/4/interface_guide/dpi_engine/dpi_engine_initial.png){class="glboxshadow"}
+![dpi engine initial](https://static.gl-inet.com/docs/router/de/4/interface_guide/dpi_engine/dpi_engine_initial.png){class="glboxshadow"}
 
 Lesen Sie im Pop-up-Fenster die Nutzungsbedingungen und die Datenschutzrichtlinie, stimmen Sie ihnen zu und klicken Sie dann auf **Apply**.
 
-![activate 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/dpi_engine/activate1.png){class="glboxshadow"}
+![activate 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/dpi_engine/activate1.png){class="glboxshadow"}
 
 Bitte warten Sie, während der Router Systemvorgänge ausführt. Dabei werden die Netzwerkbeschleunigung deaktiviert sowie Datenstatistiken und Inhaltsfilter aktiviert.
 
-![activate 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dpi_engine/activate2.png){class="glboxshadow"}
+![activate 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/dpi_engine/activate2.png){class="glboxshadow"}
 
 Klicken Sie nach der Aktivierung auf **Done**.
 
-![activated](https://static.gl-inet.com/docs/router/en/4/interface_guide/dpi_engine/activated_success.png){class="glboxshadow"}
+![activated](https://static.gl-inet.com/docs/router/de/4/interface_guide/dpi_engine/activated_success.png){class="glboxshadow"}
 
 Sie werden zum **DPI Engine Version Center** weitergeleitet, wo Sie die DPI-Programmversion und die Datenbankversion einsehen können.
 
-![dpi version center](https://static.gl-inet.com/docs/router/en/4/interface_guide/dpi_engine/dpi_version_center.png){class="glboxshadow"}
+![dpi version center](https://static.gl-inet.com/docs/router/de/4/interface_guide/dpi_engine/dpi_version_center.png){class="glboxshadow"}
 
 **Hinweis**: Diese Seite zeigt nur Statusindikatoren des Kernsystems an. Die Verkehrsverarbeitung beginnt erst, wenn die jeweiligen Funktionen aktiviert werden.
 
@@ -52,7 +52,7 @@ Sie werden zum **DPI Engine Version Center** weitergeleitet, wo Sie die DPI-Prog
 
 Wenn eine neuere Datenbankversion verfügbar ist, klicken Sie einfach auf **Upgrade**, um die Datenbank zu aktualisieren.
 
-![database upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/dpi_engine/database_upgrade.png){class="glboxshadow"}
+![database upgrade](https://static.gl-inet.com/docs/router/de/4/interface_guide/dpi_engine/database_upgrade.png){class="glboxshadow"}
 
 ---
 

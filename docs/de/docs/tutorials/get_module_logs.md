@@ -26,13 +26,13 @@ Bitte beachten Sie [diesen Link](https://docs.gl-inet.com/router/en/4/tutorials/
     chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
     ```
 
-    ![Qlog abrufen](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_get_qlog.png){class="glboxshadow"}
+    ![Qlog abrufen](https://static.gl-inet.com/docs/router/de/4/tutorials/get_module_logs/ar9531_get_qlog.png){class="glboxshadow"}
 
 2. Stecken Sie einen USB-Stick ein und verwenden Sie den Befehl `df`, um den Einhängepfad zu ermitteln. Merken Sie sich diesen Pfad.
 
     Der Einhängepfad meines USB-Sticks ist `/tmp/mountd/disk1_part1`
 
-    ![Pfad des USB-Sticks](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_u_flash_drive_path.png){class="glboxshadow"}
+    ![Pfad des USB-Sticks](https://static.gl-inet.com/docs/router/de/4/tutorials/get_module_logs/ar9531_u_flash_drive_path.png){class="glboxshadow"}
 
 3. Verwenden Sie den folgenden Befehl, um den Debug-Modus des Moduls zu aktivieren.
 
@@ -60,11 +60,11 @@ Bitte beachten Sie [diesen Link](https://docs.gl-inet.com/router/en/4/tutorials/
     ps  | grep qlog | grep -v grep | awk '{print $1}' | xargs kill -9
     ```
 
-    ![Qlog starten und stoppen](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_start_and_stop_qlog.png){class="glboxshadow"}
+    ![Qlog starten und stoppen](https://static.gl-inet.com/docs/router/de/4/tutorials/get_module_logs/ar9531_start_and_stop_qlog.png){class="glboxshadow"}
 
 7. Auf dem USB-Stick finden Sie anschließend ein Verzeichnis mit mehreren Dateien. Diese Dateien sind die von qlog erfassten Daten und müssen mit einem Quectel-Tool decodiert werden. Senden Sie diese Dateien daher bitte an den technischen Support von GL.iNet oder Quectel.
 
-    ![Qlogs-Dateien](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
+    ![Qlogs-Dateien](https://static.gl-inet.com/docs/router/de/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
 ### Für GL-X3000/GL-XE3000
 
@@ -72,7 +72,7 @@ Bitte beachten Sie [diesen Link](https://docs.gl-inet.com/router/en/4/tutorials/
 
     Der Einhängepfad meines USB-Sticks ist `/tmp/mountd/disk1_part1`
 
-    ![Pfad des USB-Sticks](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_u_flash_drive_path.png){class="glboxshadow"}
+    ![Pfad des USB-Sticks](https://static.gl-inet.com/docs/router/de/4/tutorials/get_module_logs/mtk7981a_u_flash_drive_path.png){class="glboxshadow"}
 
 2. Laden Sie qlog vom GL.iNet-Server herunter und prüfen Sie, ob die SHA256-Prüfsumme der qlog-Datei korrekt ist.
 
@@ -90,7 +90,7 @@ Bitte beachten Sie [diesen Link](https://docs.gl-inet.com/router/en/4/tutorials/
     chmod 775 qlog-mtk7981a-sha256-78dda4  && sha256sum qlog-mtk7981a-sha256-78dda4 && sha256sum /etc/default_v15.cfg
     ```
 
-    ![Qlog abrufen](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_get_qlog.png){class="glboxshadow"}
+    ![Qlog abrufen](https://static.gl-inet.com/docs/router/de/4/tutorials/get_module_logs/mtk7981a_get_qlog.png){class="glboxshadow"}
 
 3. Verwenden Sie den folgenden Befehl, um qlog zu starten.
 
@@ -110,11 +110,11 @@ Bitte beachten Sie [diesen Link](https://docs.gl-inet.com/router/en/4/tutorials/
     ps  | grep qlog | grep -v grep | awk '{print $1}' | xargs kill -9
     ```
 
-    ![Qlog starten und stoppen](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_start_and_stop_qlog.png){class="glboxshadow"}
+    ![Qlog starten und stoppen](https://static.gl-inet.com/docs/router/de/4/tutorials/get_module_logs/mtk7981a_start_and_stop_qlog.png){class="glboxshadow"}
 
 6. Auf dem USB-Stick finden Sie anschließend ein Verzeichnis mit mehreren Dateien. Diese Dateien sind die von qlog erfassten Daten und müssen mit einem Quectel-Tool decodiert werden. Senden Sie diese Dateien daher bitte an den technischen Support von GL.iNet oder Quectel.
 
-    ![Qlogs-Dateien](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_qlogs_files.png){class="glboxshadow"}
+    ![Qlogs-Dateien](https://static.gl-inet.com/docs/router/de/4/tutorials/get_module_logs/mtk7981a_qlogs_files.png){class="glboxshadow"}
 
 ---
 

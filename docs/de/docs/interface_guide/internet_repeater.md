@@ -10,11 +10,11 @@ Standardmäßig arbeitet dies im WISP-Modus (Wireless Internet Service Provider)
 
 Melden Sie sich im Web-Admin-Panel des Routers an, öffnen Sie den Bereich **INTERNET** -> **Repeater** und klicken Sie auf **Connect**.
 
-![repeater section](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
+![repeater section](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
 
 Wählen Sie das Wi-Fi-Netzwerk, mit dem Sie sich verbinden möchten, aus der Liste der verfügbaren Netzwerke aus.
 
-![join wifi 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_1.png){class="glboxshadow"}
+![join wifi 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/join_wifi_1.png){class="glboxshadow"}
 
 !!! note
     
@@ -24,11 +24,11 @@ Wählen Sie das Wi-Fi-Netzwerk, mit dem Sie sich verbinden möchten, aus der Lis
 
 Geben Sie das richtige Wi-Fi-Passwort ein und klicken Sie auf **Apply**.
 
-![join wifi 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_wifi_2.png){class="glboxshadow"}
+![join wifi 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/join_wifi_2.png){class="glboxshadow"}
 
 Wenn die Wi-Fi-SSID, mit der Sie sich verbinden möchten, nicht in der Liste **Available Network** enthalten ist, klicken Sie oben rechts auf **Join Other Network** und geben Sie die Wi-Fi-SSID sowie die weiteren erforderlichen Informationen manuell ein. Detaillierte Schritte finden Sie [hier](#join-other-network).
 
-![join other network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
+![join other network](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
 
 Informationen zur Verbindung mit einem öffentlichen Hotspot, z. B. in Hotels, Flughäfen oder Einkaufszentren, finden Sie unter [Für öffentliche Hotspots](#for-public-hotspot).
 
@@ -36,13 +36,13 @@ Weitere Einstellungen finden Sie unter [Erweiterte Einstellungen](#advanced-sett
 
 Nach kurzer Zeit ist die Verbindung erfolgreich, wenn das Passwort korrekt ist.
 
-![repeater connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![repeater connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
 ## Für öffentliche Hotspots {#for-public-hotspot}
 
 Wenn Sie den Router mit einem öffentlichen Hotspot mit Captive Portal verbinden, können die folgenden Funktionen helfen, die Erfolgsquote der Verbindung zu verbessern.
 
-![repeater settings for public hotspot](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_settings_for_public_hotspot.png){class="glboxshadow"}
+![repeater settings for public hotspot](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/repeater_settings_for_public_hotspot.png){class="glboxshadow"}
 
 - **Auto-Enable Login Mode for Public Hotspots**
 
@@ -52,7 +52,7 @@ Wenn Sie den Router mit einem öffentlichen Hotspot mit Captive Portal verbinden
 
     Auch wenn diese Option nicht aktiviert ist, fordert der Router Sie zum Wechsel in diesen Modus auf, wenn er in einem Hotspot ein Captive Portal erkennt und die Anmeldung nicht erfolgreich abschließen kann.
 
-    ![login mode for public hotspots](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/login_mode_for_public_hotspots.png){class="glboxshadow"}
+    ![login mode for public hotspots](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/login_mode_for_public_hotspots.png){class="glboxshadow"}
 
 - **Enable Camouflage**
 
@@ -78,7 +78,7 @@ Wenn Sie den Router mit einem öffentlichen Hotspot mit Captive Portal verbinden
 
 Beim Verbinden mit dem Netzwerk stehen einige zusätzliche Optionen zur Verfügung.
 
-![advanced settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_advanced_settings.png){class="glboxshadow"}
+![advanced settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/repeater_advanced_settings.png){class="glboxshadow"}
 
 * **Remember**: Aktivieren Sie diese Option, um sich das aktuell wiederholte Wi-Fi-Netzwerk zu merken.
 
@@ -86,7 +86,7 @@ Beim Verbinden mit dem Netzwerk stehen einige zusätzliche Optionen zur Verfügu
 
 * **Manually Set Static IP**: Wenn diese Option aktiviert ist, können Sie für die Repeater-Verbindung des Routers manuell eine feste IPv4-Adresse, Netzmaske, ein Gateway und DNS-Server konfigurieren, anstatt diese Einstellungen automatisch beziehen zu lassen.
 
-    ![set static ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/manually_set_static_ip.png){class="glboxshadow"}
+    ![set static ip](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/manually_set_static_ip.png){class="glboxshadow"}
 
 * **TTL**: TTL (Time To Live) legt fest, wie lange Pakete maximal im Netzwerk bestehen bleiben dürfen, und wird entsprechend den Anforderungen des Betreibers eingetragen. Standardmäßig leitet der Router die TTL des eingehenden Client-Geräts minus eins weiter. TTL ist nur für IPv4 gültig.
 
@@ -100,11 +100,11 @@ Beim Verbinden mit dem Netzwerk stehen einige zusätzliche Optionen zur Verfügu
 
 Klicken Sie oben rechts im verbundenen Repeater-Bereich auf das Zahnradsymbol.
 
-![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![repeater options](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
 Die Repeater Options werden wie folgt angezeigt.
 
-![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
+![repeater options](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 
 * **Allow Switching to Other Saved Networks**: Wenn diese Option aktiviert ist, verbindet sich der Router automatisch mit anderen gespeicherten Netzwerken, wenn das aktuell verbundene Wi-Fi-Netzwerk nicht verfügbar ist.
 
@@ -114,25 +114,25 @@ Die Repeater Options werden wie folgt angezeigt.
 
 Um bekannte Netzwerke zu verwalten, klicken Sie auf **Switch Network**.
 
-![switch network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
+![switch network](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
 Sie können auch im Bereich Repeater auf **Connect** klicken, wenn aktuell kein Netzwerk verbunden ist.
 
-![repeater section](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
+![repeater section](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/repeater_section.png){class="glboxshadow"}
 
 Klicken Sie im Bereich **Known Networks** auf das Papierkorbsymbol, um ein bekanntes Netzwerk zu löschen, oder auf das Zahnradsymbol, um das Netzwerk zu konfigurieren.
 
-![manage known network](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/manage_known_networks.png){class="glboxshadow"}
+![manage known network](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/manage_known_networks.png){class="glboxshadow"}
 
 ## Anderes Netzwerk hinzufügen {#join-other-network}
 
 Wenn die SSID nicht in der Liste **Available Networks** enthalten ist oder wenn die SSID verborgen ist, können Sie auf **Join Other Network** klicken.
 
-![join other network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
+![join other network 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/join_other_network_1.png){class="glboxshadow"}
 
 Geben Sie die SSID ein, wählen Sie **Security** und geben Sie das Passwort ein (falls erforderlich).
 
-![join other network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_2.png){class="glboxshadow"}
+![join other network 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/join_other_network_2.png){class="glboxshadow"}
 
 Für die **Security**-Einstellungen gibt es je nach Modell zwei oder drei Optionen.
 
@@ -140,7 +140,7 @@ Für die **Security**-Einstellungen gibt es je nach Modell zwei oder drei Option
 * **WPA/WPA2/WPA3**, dies ist üblich und wird von nahezu allen Wi-Fi-Netzwerken unterstützt.
 * **WPA/WPA2/WPA3 Enterprise**, hierfür ist das Extensible Authentication Protocol (EAP) zur Authentifizierung erforderlich. Für die Verbindung werden ein gültiger Benutzername und ein Passwort benötigt (typischerweise in Unternehmens- oder Campus-Netzwerken).
 
-    ![join other network, eap](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/join_other_network_eap.jpg){class="glboxshadow"}
+    ![join other network, eap](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/join_other_network_eap.jpg){class="glboxshadow"}
 
     Eine ausführliche Anleitung zum Repeater-Betrieb in EAP-Netzwerken finden Sie [hier](../tutorials/eap.md){target="_blank"}.
 
@@ -170,7 +170,7 @@ Wenn der Router als Repeater mit einem Wi-Fi-Netzwerk verbunden ist, aber kein I
 
 **"The interface is connected, but the Internet can't be accessed."**
 
-![connect but no internet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/interface_connected_no_internet.png){class="glboxshadow"}
+![connect but no internet](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_repeater/interface_connected_no_internet.png){class="glboxshadow"}
 
 So beheben Sie dieses Problem:
 

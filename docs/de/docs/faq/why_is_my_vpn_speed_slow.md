@@ -21,9 +21,9 @@ Wenn der VPN-Server weit von Ihrem physischen Standort entfernt ist, müssen die
 
 Unten sehen Sie ein Beispiel, das die Client-Geschwindigkeiten bei Verbindungen zu verschiedenen Serverstandorten zur gleichen Tageszeit zeigt.
 
-![hk](https://static.gl-inet.com/docs/router/en/4/faq/vpn_speed/hkserver.jpg){class="glboxshadow"}
+![hk](https://static.gl-inet.com/docs/router/de/4/faq/vpn_speed/hkserver.jpg){class="glboxshadow"}
 
-![canada](https://static.gl-inet.com/docs/router/en/4/faq/vpn_speed/canadaserver.jpg){class="glboxshadow"}
+![canada](https://static.gl-inet.com/docs/router/de/4/faq/vpn_speed/canadaserver.jpg){class="glboxshadow"}
 
 ## Serverauslastung
 
@@ -33,7 +33,7 @@ Wenn viele Benutzer mit demselben VPN-Server verbunden sind, kann dieser überla
 
 Wenn Sie einen privaten VPN-Tunnel verwenden, ist die Upload-Geschwindigkeit des Internetdienstanbieters (ISP) auf der Serverseite der Engpass für die Download-Geschwindigkeit auf der Client-Seite, da der VPN-Client die Daten über den Server herunterlädt.
 
-![tunnel](https://static.gl-inet.com/docs/router/en/4/faq/vpn_speed/tunnel.png){class="glboxshadow"}
+![tunnel](https://static.gl-inet.com/docs/router/de/4/faq/vpn_speed/tunnel.png){class="glboxshadow"}
 
 ## Unterschiede zwischen Protokollen
 

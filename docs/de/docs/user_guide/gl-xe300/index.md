@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Puli (GL-XE300) ist ein tragbarer 4G-Smart-Router, der sich ideal für Zuhause, Reisen, den geschäftlichen Einsatz und IoT-Lösungen eignet. Dank OpenWrt-Unterstützung und Kompatibilität mit großem Speicher ist er für die Entwicklung eigener DIY-IoT-Projekte ausgelegt. Außerdem verfügt er über einen wiederaufladbaren Akku, sodass er in verschiedensten Umgebungen mobil eingesetzt werden kann.
 
-![gl-xe300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/hardware_info/gl-xe300_interface.jpg){class="glboxshadow"}
+![gl-xe300 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe300/hardware_info/gl-xe300_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -49,7 +49,7 @@ Der Lieferumfang umfasst:
 - 1 x Garantiekarte
 - 1 x Netzadapter (ausgewählter Steckertyp)
 
-![gl-xe300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/first_time_setup/xe300_unboxing.jpg){class="glboxshadow"}
+![gl-xe300 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe300/first_time_setup/xe300_unboxing.jpg){class="glboxshadow"}
 
 Sehen Sie sich das [Unboxing-Video](../../video_library/unboxing_first_set_up.md/#gl-xe300-puli) von Puli an.
 
@@ -77,7 +77,7 @@ Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe300/internet/xe300_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -85,7 +85,7 @@ Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehen
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe300/internet/xe300_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -93,7 +93,7 @@ Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit ak
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe300/internet/xe300_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -101,7 +101,7 @@ Setzen Sie eine SIM-Karte in den SIM-Kartenslot ein, um eine Internetverbindung 
 
 [Klicken Sie hier, um zu erfahren, wie Sie über Mobilfunk oder ein USB-Modem eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/internet/xe300_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe300/internet/xe300_cellular.png){class="glboxshadow"}
 
 ### Multi-WAN
 

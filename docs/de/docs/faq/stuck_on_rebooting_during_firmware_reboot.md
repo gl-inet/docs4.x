@@ -2,7 +2,7 @@
 
 Wenn Ihr Router während eines Firmware-Neustarts bei „Rebooting“ hängen bleibt, befolgen Sie die folgenden Schritte, um das Problem zu beheben.
 
-![stuck on rebooting](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_rebooting/rebooting.png){class="glboxshadow"}
+![stuck on rebooting](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/stuck_on_rebooting/rebooting.png){class="glboxshadow"}
 
 Prüfen Sie nach jedem Schritt, ob das Problem behoben ist. Wenn ja, überspringen Sie die verbleibenden Schritte.
 

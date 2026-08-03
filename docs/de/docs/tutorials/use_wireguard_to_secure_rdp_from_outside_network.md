@@ -4,7 +4,7 @@ Möglicherweise möchten Sie von außerhalb Ihres Netzwerks auf Ihren PC zugreif
 
 ## Topologie
 
-![wgrdp](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/wgrdp.jpg){class="glboxshadow"}
+![wgrdp](https://static.gl-inet.com/docs/router/de/4/tutorials/wireguard_rdp/wgrdp.jpg){class="glboxshadow"}
 
 ## Eigenes WireGuard-Netzwerk einrichten
 
@@ -23,15 +23,15 @@ Aktivieren Sie danach auf den VPN Dashboards sowohl des Servers als auch des Cli
 
 Wenn Sie auf den PC zugreifen möchten, der mit der Server-LAN-Seite verbunden ist und die IP **192.168.29.123** hat, öffnen Sie bitte die Windows-Einstellungen dieses PCs und klicken Sie auf **Remote Desktop**.
 
-![rdp1](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/rdp1.jpg){class="glboxshadow"}
+![rdp1](https://static.gl-inet.com/docs/router/de/4/tutorials/wireguard_rdp/rdp1.jpg){class="glboxshadow"}
 
 Aktivieren Sie die Funktion.
 
-![rdp2](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/rdp2.jpg){class="glboxshadow"}
+![rdp2](https://static.gl-inet.com/docs/router/de/4/tutorials/wireguard_rdp/rdp2.jpg){class="glboxshadow"}
 
 Klicken Sie auf **Confirm**.
 
-![rdp3](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/rdp3.jpg){class="glboxshadow"}
+![rdp3](https://static.gl-inet.com/docs/router/de/4/tutorials/wireguard_rdp/rdp3.jpg){class="glboxshadow"}
 
 ## Remote-App auf dem Client-Laptop starten
 
@@ -39,15 +39,15 @@ Klicken Sie auf **Confirm**.
 
 Suchen Sie die **Remote Desktop Connection App**.
 
-![rdp4](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/rdp4.jpg){class="glboxshadow"}
+![rdp4](https://static.gl-inet.com/docs/router/de/4/tutorials/wireguard_rdp/rdp4.jpg){class="glboxshadow"}
 
 Starten Sie sie und geben Sie die IP des PCs auf der Serverseite **192.168.29.123** in das Feld ein.
 
-![rdp5](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/rdp5.jpg){class="glboxshadow"}
+![rdp5](https://static.gl-inet.com/docs/router/de/4/tutorials/wireguard_rdp/rdp5.jpg){class="glboxshadow"}
 
 Geben Sie die Anmeldedaten Ihres PCs auf der Serverseite ein.
 
-![rdp6](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/rdp6.jpg){class="glboxshadow"}
+![rdp6](https://static.gl-inet.com/docs/router/de/4/tutorials/wireguard_rdp/rdp6.jpg){class="glboxshadow"}
 
 Sie steuern dann sofort Ihren PC auf der Serverseite per Fernzugriff.
 

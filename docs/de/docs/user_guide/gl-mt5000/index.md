@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Brume 3 (GL-MT5000) ist ein leistungsstarkes Security Gateway mit OpenWrt v21.02. Es ist mit einer MediaTek Quad-Core-Cortex-A53-CPU, 1 GB RAM und 8 GB eMMC-Speicher für die Erweiterung per Plug-ins ausgestattet. Dank seines kompakten Designs eignet es sich ideal für Installationen mit begrenztem Platzangebot und unterstützt VPN-Hosting zu Hause, Site-to-Site-SD-WAN sowie mehr als 30 VPN-Dienste für sichere standortübergreifende Verbindungen. Darüber hinaus verfügt es über die DPI-Funktion von GL.iNet sowie Kindersicherung und AdGuard Home und deckt damit die unterschiedlichen Anforderungen von Technikbegeisterten und Geschäftsanwendern ab.
 
-![gl-mt5000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
+![gl-mt5000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt5000/hardware_info/mt5000_interface.png){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -75,7 +75,7 @@ Richten Sie Brume 3 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Ethernet"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt5000/internet/mt5000_ethernet.png){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port des Brume 3 per Ethernet-Kabel mit einem vorgelagerten Gerät, beispielsweise einem Modem.
 
@@ -85,7 +85,7 @@ Richten Sie Brume 3 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/internet/mt5000_tethering.png){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt5000/internet/mt5000_tethering.png){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät über ein USB-3.0-Datenkabel mit dem USB-Type-C-Port des Brume 3.
     2. Aktivieren Sie in den Einstellungen Ihres Mobilgeräts USB-Tethering.

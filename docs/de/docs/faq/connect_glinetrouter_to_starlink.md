@@ -4,7 +4,7 @@ Wenn Sie einen GL.iNet Router mit einer Starlink-Schüssel verbinden möchten, f
 
 **Topologie**
 
-![starlinkgl](https://static.gl-inet.com/docs/router/en/4/faq/starlink/starlinkgl.jpg){class="glboxshadow"}
+![starlinkgl](https://static.gl-inet.com/docs/router/de/4/faq/starlink/starlinkgl.jpg){class="glboxshadow"}
 
 1. Schließen Sie die Stromversorgung Ihres Starlink-Routers an die Starlink-Schüssel an.
 
@@ -14,7 +14,7 @@ Wenn Sie einen GL.iNet Router mit einer Starlink-Schüssel verbinden möchten, f
 
     **Hinweis**: Wenn Ihr GL.iNet Router [Network Acceleration](../interface_guide/network_acceleration.md) unterstützt, gehen Sie bitte im Web-Admin-Panel zu **NETWORK** -> **Network Acceleration** und deaktivieren Sie diese Funktion.
 
-    ![netacc](https://static.gl-inet.com/docs/router/en/4/faq/starlink/netacc.jpg){class="glboxshadow"}
+    ![netacc](https://static.gl-inet.com/docs/router/de/4/faq/starlink/netacc.jpg){class="glboxshadow"}
 
 4. Öffnen Sie die Starlink-App, gehen Sie zu Settings und aktivieren Sie **Bypass mode**.
 

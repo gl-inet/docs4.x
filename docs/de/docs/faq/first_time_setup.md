@@ -48,19 +48,19 @@ Sehen Sie sich diese Videoanleitung an oder folgen Sie den nachstehenden Schritt
 
     Richten Sie Ihr Admin-Passwort ein und klicken Sie anschließend auf **Next**.
 
-    ![mt3000 set up admin password](https://static.gl-inet.com/docs/router/en/4/faq/first_time_setup/mt3000_admin_password.png){class="glboxshadow"}
+    ![mt3000 set up admin password](https://static.gl-inet.com/docs/router/de/4/faq/first_time_setup/mt3000_admin_password.png){class="glboxshadow"}
 
     Richten Sie Ihr Wi-Fi ein. Wenn Sie die Wi-Fi-Informationen ändern, stellen Sie sicher, dass Sie sich erneut mit dem aktualisierten Wi-Fi verbinden, und klicken Sie dann auf **Next**
 
-    ![mt3000 set up wifi](https://static.gl-inet.com/docs/router/en/4/faq/first_time_setup/mt3000_set_up_wifi.png){class="glboxshadow"}
+    ![mt3000 set up wifi](https://static.gl-inet.com/docs/router/de/4/faq/first_time_setup/mt3000_set_up_wifi.png){class="glboxshadow"}
 
     Warten Sie, bis der Router die Initialisierung abgeschlossen hat.
 
-    ![mt3000 initializing](https://static.gl-inet.com/docs/router/en/4/faq/first_time_setup/mt3000_initializing.png){class="glboxshadow"}
+    ![mt3000 initializing](https://static.gl-inet.com/docs/router/de/4/faq/first_time_setup/mt3000_initializing.png){class="glboxshadow"}
 
     Anschließend greifen Sie auf das web Admin Panel Ihres Routers zu.
 
-    ![mt3000 admin panel](https://static.gl-inet.com/docs/router/en/4/faq/first_time_setup/mt3000_admin_panel.png){class="glboxshadow"}
+    ![mt3000 admin panel](https://static.gl-inet.com/docs/router/de/4/faq/first_time_setup/mt3000_admin_panel.png){class="glboxshadow"}
 
 4. **Mit dem Internet verbinden**
 
@@ -87,15 +87,15 @@ Die folgenden Schritte verwenden den GL-MT5000 (Brume 3) als Beispiel.
 
     Richten Sie Ihr Admin-Passwort ein und klicken Sie anschließend auf **Next**.
 
-    ![mt5000 set up admin password](https://static.gl-inet.com/docs/router/en/4/faq/first_time_setup/mt5000_admin_password.png){class="glboxshadow"}
+    ![mt5000 set up admin password](https://static.gl-inet.com/docs/router/de/4/faq/first_time_setup/mt5000_admin_password.png){class="glboxshadow"}
 
     Warten Sie, bis der Router die Initialisierung abgeschlossen hat.
 
-    ![mt5000 initializing](https://static.gl-inet.com/docs/router/en/4/faq/first_time_setup/mt5000_initializing.png){class="glboxshadow"}
+    ![mt5000 initializing](https://static.gl-inet.com/docs/router/de/4/faq/first_time_setup/mt5000_initializing.png){class="glboxshadow"}
 
     Anschließend greifen Sie auf das web Admin Panel Ihres Routers zu.
 
-    ![mt5000 admin panel](https://static.gl-inet.com/docs/router/en/4/faq/first_time_setup/mt5000_admin_panel.png){class="glboxshadow"}
+    ![mt5000 admin panel](https://static.gl-inet.com/docs/router/de/4/faq/first_time_setup/mt5000_admin_panel.png){class="glboxshadow"}
 
 4. **Mit dem Internet verbinden**
 

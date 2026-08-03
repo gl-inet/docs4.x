@@ -6,7 +6,7 @@ GL.iNet-Router unterstützen gängige Ethernet-auf-USB-A-Adapter. Damit können 
 
 ## Topologie
 
-![Topology](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/adaptor.png){class="glboxshadow"}
+![Topology](https://static.gl-inet.com/docs/router/de/4/tutorials/multiwan_wire/adaptor.png){class="glboxshadow"}
 
 ## Einrichtungsschritte
 
@@ -18,11 +18,11 @@ GL.iNet-Router unterstützen gängige Ethernet-auf-USB-A-Adapter. Damit können 
 
     Wenn Sie beispielsweise einen Realtek-Adapter verwenden, installieren Sie bitte den Treiber **kmod-usb-net-rtl8152**.
 
-    ![plugins](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/plugins_usb.png){class="glboxshadow"}
+    ![plugins](https://static.gl-inet.com/docs/router/de/4/tutorials/multiwan_wire/plugins_usb.png){class="glboxshadow"}
 
     Warten Sie, bis die Installation abgeschlossen ist.
 
-    ![installation suceeded](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
+    ![installation suceeded](https://static.gl-inet.com/docs/router/de/4/tutorials/multiwan_wire/suceeded.png){class="glboxshadow"}
 
 3. Über USB Tethering verbinden.
 
@@ -30,11 +30,11 @@ GL.iNet-Router unterstützen gängige Ethernet-auf-USB-A-Adapter. Damit können 
     
     Die USB-Verbindung wird erkannt, sodass Sie eine Verbindung zu Ihrem ISP-Router herstellen können.
 
-    ![detected](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/detected.png){class="glboxshadow"}
+    ![detected](https://static.gl-inet.com/docs/router/de/4/tutorials/multiwan_wire/detected.png){class="glboxshadow"}
 
     Klicken Sie auf **Connect** und warten Sie etwa eine Minute. Wenn ein grüner Punkt aufleuchtet und auf der Seite Informationen wie die IP-Adresse angezeigt werden, wurde die USB-Tethering-Verbindung erfolgreich hergestellt.
 
-    ![tether](https://static.gl-inet.com/docs/router/en/4/tutorials/multiwan_wire/tether.png){class="glboxshadow"}
+    ![tether](https://static.gl-inet.com/docs/router/de/4/tutorials/multiwan_wire/tether.png){class="glboxshadow"}
 
 ---
 

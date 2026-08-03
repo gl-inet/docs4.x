@@ -6,21 +6,21 @@ Wenn bei der Verwendung unserer GL.iNet-App Fehlfunktionen auftreten und Sie das
 
 Tippen Sie unten links auf das Zahnradsymbol.
 
-![applog1](https://static.gl-inet.com/docs/router/en/4/tutorials/app_log/Applog1.jpg){class="glboxshadow gl-50-desktop"}
+![applog1](https://static.gl-inet.com/docs/router/de/4/tutorials/app_log/Applog1.jpg){class="glboxshadow gl-50-desktop"}
 
 ## Bei APP LOG(BETA) auf **Enable** tippen
 
-![applog2](https://static.gl-inet.com/docs/router/en/4/tutorials/app_log/Applog2.jpg){class="glboxshadow gl-50-desktop"}
+![applog2](https://static.gl-inet.com/docs/router/de/4/tutorials/app_log/Applog2.jpg){class="glboxshadow gl-50-desktop"}
 
 ## Auf **Show Log-Window** tippen
 
-![applog3](https://static.gl-inet.com/docs/router/en/4/tutorials/app_log/Applog3.jpg){class="glboxshadow gl-50-desktop"}
+![applog3](https://static.gl-inet.com/docs/router/de/4/tutorials/app_log/Applog3.jpg){class="glboxshadow gl-50-desktop"}
 
 ## Auf der linken Seite erscheint ein blaues **L**-Symbol
 
 Wenn Sie auf das Symbol **L** tippen, wird das Protokoll der Funktion angezeigt, die Sie gerade in der App verwendet haben.
 
-![applog4](https://static.gl-inet.com/docs/router/en/4/tutorials/app_log/Applog4.jpg){class="glboxshadow gl-50-desktop"}
+![applog4](https://static.gl-inet.com/docs/router/de/4/tutorials/app_log/Applog4.jpg){class="glboxshadow gl-50-desktop"}
 
 ---
 

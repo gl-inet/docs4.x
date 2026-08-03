@@ -3,7 +3,7 @@
 Diese Anleitung zeigt Ihnen, **wie Sie die T-Mobile 5G-SIM-Karte aktivieren oder aufladen**, die Sie im GL.iNet-Onlineshop gekauft haben. Die SIM-Karte ist mit Spitz AX (GL-X3000) und Puli AX (GL-XE3000) kompatibel, sodass Sie sich nahtlos mit dem Internet verbinden können.
 
 ![T-Mobile-SIM-Karte](
-https://static.gl-inet.com/docs/router/en/4/tutorials/activate_top_up_sim_card/t-mobile-sim-card.jpg){class="glboxshadow"}
+https://static.gl-inet.com/docs/router/de/4/tutorials/activate_top_up_sim_card/t-mobile-sim-card.jpg){class="glboxshadow"}
 
 
 ## Details zum SIM-Karten-Tarif
@@ -22,7 +22,7 @@ Wenn Sie die SIM-Karte zum ersten Mal verwenden, müssen Sie sie mit den folgend
 1. Setzen Sie die SIM-Karte in den Router ein.
 2. Scannen Sie den QR-Code auf dem Etikett in der Verpackung der SIM-Karte.
 3. Geben Sie in den Feldern Ihre E-Mail-Adresse und die ICCID-Nummer ein (auf der Rückseite der SIM-Karte als "SIM Card Number" angegeben). ![SIM-Kartennummer](
-https://static.gl-inet.com/docs/router/en/4/tutorials/activate_top_up_sim_card/sim-card-number.jpg){class="glboxshadow"}
+https://static.gl-inet.com/docs/router/de/4/tutorials/activate_top_up_sim_card/sim-card-number.jpg){class="glboxshadow"}
 4. (Optional) Laden Sie ein Foto der SIM-Karte hoch, auf dem die ICCID sichtbar ist.
 5. Tippen Sie auf **Submit**.
 
@@ -36,7 +36,7 @@ Nach 30 Tagen können Sie Ihre SIM-Karte für 80 USD/Monat mit den folgenden Sch
 2. Öffnen Sie die Seite [Global Data Wi-Fi](https://portal.globaldatawifi.com/binding_iccid).
 3. Geben Sie Ihre E-Mail-Adresse und die ICCID-Nummer ein (auf der Rückseite der SIM-Karte als "SIM Card Number" angegeben).
 ![SIM-Kartennummer](
-https://static.gl-inet.com/docs/router/en/4/tutorials/activate_top_up_sim_card/sim-card-number.jpg){class="glboxshadow"}
+https://static.gl-inet.com/docs/router/de/4/tutorials/activate_top_up_sim_card/sim-card-number.jpg){class="glboxshadow"}
 4. Wählen Sie **Search**.
 5. Geben Sie Ihre E-Mail-Adresse ein und wählen Sie dann **Bind & Pay**.
 6. Geben Sie Ihre Kreditkarteninformationen ein und wählen Sie dann **Save card**.

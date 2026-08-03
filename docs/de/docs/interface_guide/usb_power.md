@@ -10,13 +10,13 @@ Auf dieser Seite können Sie USB-bezogene Einstellungen und die Energieverwaltun
 
 In diesem Abschnitt können Sie das Verhalten der USB-Ports Ihres Routers anpassen.
 
-![usb settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/usb_power/e5800_usb.png){class="glboxshadow"}
+![usb settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/usb_power/e5800_usb.png){class="glboxshadow"}
 
 - **USB Protocol Switch**: Wechseln Sie für den USB-Port zwischen den Protokollen USB 2.0 und USB 3.1.
 
 - **Dual Role USB Mode**: Wählen Sie den Betriebsmodus des USB-Anschlusses im Dropdown-Menü aus. Sie können ihn auf Device oder Host setzen.
 
-    ![usb role](https://static.gl-inet.com/docs/router/en/4/interface_guide/usb_power/usb_role.png){class="glboxshadow"}
+    ![usb role](https://static.gl-inet.com/docs/router/de/4/interface_guide/usb_power/usb_role.png){class="glboxshadow"}
 
 - **Power Direction**: Wählen Sie im Dropdown-Menü die Strompriorität für den USB-Port. Sie können zwischen Input Priority und Output Priority wählen.
 
@@ -26,7 +26,7 @@ In diesem Abschnitt können Sie das Verhalten der USB-Ports Ihres Routers anpass
 
 Dieser Abschnitt hilft Ihnen dabei, Stromverbrauch und Geräteverhalten zu optimieren.
 
-![power settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/usb_power/e5800_power.png){class="glboxshadow"}
+![power settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/usb_power/e5800_power.png){class="glboxshadow"}
 
 - **Wi-Fi Idle Timeout**: Legen Sie die Leerlaufdauer fest (von 10 Minuten bis 2 Stunden oder nie), nach der Wi‑Fi in den Standby wechselt.
 

@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Beryl AX (GL-MT3000) ist ein kompakter AX3000-Reiserouter im Taschenformat, der das Wi-Fi-6-Protokoll nutzt. Er ist eine verbesserte Version des Beryl (GL-MT1300). Ausgestattet mit einem MT7981B-Dual-Core-Prozessor mit 1,3 GHz bietet er mehr als die doppelte gesamte Wi-Fi-Geschwindigkeit. Er wurde für Familien mit intensiver Wi-Fi-Nutzung entwickelt und ist zugleich kompakt genug für den Einsatz auf Reisen.
 
-![gl-mt3000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
+![gl-mt3000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3000/hardware_info/mt3000_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -46,7 +46,7 @@ Beryl AX (GL-MT3000) ist ein kompakter AX3000-Reiserouter im Taschenformat, der 
 - 1 x Netzadapter
 - 1 x Adapter (abhängig von Ihrem Zielland)
 
-![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
+![gl-MT3000 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3000/first_time_setup/mt3000_unboxing.jpg){class="glboxshadow"}
 
 ## So richten Sie Beryl AX ein
 
@@ -84,7 +84,7 @@ Richten Sie Beryl AX mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Ethernet"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3000/internet/mt3000_ethernet.png){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
@@ -94,7 +94,7 @@ Richten Sie Beryl AX mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_repeater.png){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3000/internet/mt3000_repeater.png){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -106,7 +106,7 @@ Richten Sie Beryl AX mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_tethering.png){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3000/internet/mt3000_tethering.png){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
@@ -118,7 +118,7 @@ Richten Sie Beryl AX mit einer der unterstützten Internetverbindungsmethoden ei
 
 === "Cellular"
 
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3000/internet/mt3000_cellular.png){class="glboxshadow"}
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3000/internet/mt3000_cellular.png){class="glboxshadow"}
 
     Schließen Sie ein Mobilfunk-USB-Modem an den USB-Port des Routers an. Das ist nützlich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 

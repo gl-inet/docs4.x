@@ -2,7 +2,7 @@
 
 Wenn Ihr Router während eines Firmware-Zurücksetzens bei „Reverting“ hängen bleibt, befolgen Sie die folgenden Schritte, um das Problem zu beheben.
 
-![stuck on reverting](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_reverting/reverting.png){class="glboxshadow"}
+![stuck on reverting](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/stuck_on_reverting/reverting.png){class="glboxshadow"}
 
 Prüfen Sie nach jedem Schritt, ob das Problem behoben ist. Wenn ja, überspringen Sie die verbleibenden Schritte.
 

@@ -12,19 +12,19 @@ Melden Sie sich dann im Web-Admin-Panel des Routers an, um GoodCloud und den Fer
 
     Gehen Sie bitte zu **CLOUD SERVICES** -> **GoodCloud**, klicken Sie auf **Get Started** und melden Sie sich oben rechts bei Ihrem Cloud-Konto an. Wenn Sie noch kein Konto haben, registrieren Sie zuerst eines.
 
-    ![get started log in](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/get_started_v4.7.x.png){class="glboxshadow"}
+    ![get started log in](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/get_started_v4.7.x.png){class="glboxshadow"}
 
     Sobald Sie angemeldet sind, wird Ihr Gerät automatisch mit Ihrem Cloud-Konto verknüpft.
 
     Wechseln Sie zur Seite **GoodCloud**, aktivieren Sie **Remote SSH** und **Remote Web Access** und klicken Sie auf **Apply**.
 
-    ![enable remote access 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.7.x.png){class="glboxshadow"}
+    ![enable remote access 4.7](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.7.x.png){class="glboxshadow"}
 
 - **Für Firmware-Version 4.6.x oder früher**
 
     Gehen Sie bitte zu **APPLICATIONS** -> **GoodCloud**, aktivieren Sie **GoodCloud**, **Remote SSH** und **Remote Web Access**, markieren Sie **Terms of Service & Privacy Policy** und klicken Sie dann auf **Apply**.
 
-    ![enable GoodCloud 4.6](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.6.x.png){class="glboxshadow"}
+    ![enable GoodCloud 4.6](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.6.x.png){class="glboxshadow"}
 
 ## Im Cloud-Konto anmelden und Gerät verknüpfen
 
@@ -42,15 +42,15 @@ Wenn auf Ihrem Router Firmware v4.6 oder früher läuft, folgen Sie den unten st
 
 2. Navigieren Sie zu **Devices** -> **Bound Devices** und klicken Sie auf das Gerät, das Sie teilen möchten.
 
-    ![bound devices](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/bound_devices.png){class="glboxshadow"}
+    ![bound devices](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/bound_devices.png){class="glboxshadow"}
 
 3. Sie gelangen auf die Detailseite des Geräts. Klicken Sie wie unten gezeigt auf den Reiter **SHARE** und anschließend auf **Share Device**.
 
-    ![share device](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
+    ![share device](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/share_device.png){class="glboxshadow"}
 
     Teilen Sie Ihr Gerät dann mit dem technischen Support von GL.iNet. Um Ihr persönliches Netzwerk zu schützen, aktivieren Sie bitte **Auto Expire Sharing** und legen Sie als Ablaufzeit 7 Tage fest. Klicken Sie anschließend auf **Confirm**.
 
-    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
+    ![share device with GL.iNet support](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/share_device_confirm.png){class="glboxshadow"}
 
 **Erklärung zum Datenschutz**
 
@@ -74,7 +74,7 @@ Nachdem Sie das Gerät geteilt haben, teilen Sie dem zuständigen Mitarbeiter de
     2. Klicken Sie auf den Benutzernamen des GL.iNet-Support-Mitarbeiters, mit dem Sie in Kontakt stehen.
     3. Klicken Sie auf die Schaltfläche **Message**, um eine private Nachricht zu senden.
 
-        ![How to send a private message](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/PM_via_forum.gif){class="glboxshadow"}
+        ![How to send a private message](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/PM_via_forum.gif){class="glboxshadow"}
 
 Manchmal können neue Nutzer dem technischen Support von GL.iNet keine private Nachricht senden. In diesem Fall können Sie im gleichen Thread antworten, in dem Sie gerade kommunizieren, und den Support-Mitarbeiter bitten, Ihnen zuerst eine private Nachricht zu schicken.
 

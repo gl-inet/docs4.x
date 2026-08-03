@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Slate 7 Pro (GL-BE10000) ist ein tragbarer Tri-Band-Wi-Fi-7-Reiserouter. Als aufgerüstete Version des Slate 7 (GL-BE3600) verfügt er über einen größeren Touchscreen auf der Oberseite sowie über 1 GB DDR4-RAM und 512 MB NAND-Flash-Speicher für stabile Leistung und Plug-in-Kompatibilität. Er erreicht hohe VPN-Geschwindigkeiten von bis zu 1.100 Mbit/s mit WireGuard® und 1.000 Mbit/s mit OpenVPN-DCO. Mit 2 × 2,5G-Ethernet-Ports (1 WAN + 1 LAN), 1 × USB-C-3.0-Port und Unterstützung für PD-Stromversorgung bietet er starke Konnektivität und hohen Komfort für Reisen und den mobilen Einsatz.
 
-![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
+![gl-be10000 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -52,11 +52,11 @@ Im Lieferumfang enthalten sind:
 
 | Bildschirmanzeige | Beschreibung |
 | :---------------- | :----------- |
-| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){width="500"} | Startvorgang |
-| ![set up admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){width="400"} | Admin-Passwort festlegen |
-| ![set up wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){width="400"} | Wi-Fi einrichten |
-| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Startbildschirm<br></br>**Links**: Systemzeit, Netzwerkgeschwindigkeit und Schnellzugriffe für Wi-Fi, Clients, VPN und weitere Funktionen.<br>**Rechts**: Vier Verbindungsmodi: Ethernet, Repeater, Tethering und Cellular |
-| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Netzwerkstatus<br></br>**Blau**: Aktiv / mit dem Internet verbunden<br>**Gelb**: Verbindung wird hergestellt / Netzwerkfehler<br>**Weiß**: Inaktive Verbindung |
+| ![booting](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/touchscreen/power_on.png){width="500"} | Startvorgang |
+| ![set up admin password](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/touchscreen/set_admin.png){width="400"} | Admin-Passwort festlegen |
+| ![set up wifi](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/touchscreen/set_wifi.png){width="400"} | Wi-Fi einrichten |
+| ![home](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Startbildschirm<br></br>**Links**: Systemzeit, Netzwerkgeschwindigkeit und Schnellzugriffe für Wi-Fi, Clients, VPN und weitere Funktionen.<br>**Rechts**: Vier Verbindungsmodi: Ethernet, Repeater, Tethering und Cellular |
+| ![internet](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Netzwerkstatus<br></br>**Blau**: Aktiv / mit dem Internet verbunden<br>**Gelb**: Verbindung wird hergestellt / Netzwerkfehler<br>**Weiß**: Inaktive Verbindung |
 
 ## So richten Sie Slate 7 Pro ein
 
@@ -87,7 +87,7 @@ Verbinden Sie ein Gerät (z. B. Computer, Laptop oder Smartphone) per Wi-Fi oder
 Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Internetzugang ein: Ethernet, Repeater, Tethering und Cellular. Wenn Sie die Funktion [Multi-WAN](../../interface_guide/multi-wan.md) verwenden möchten, richten Sie bitte mehr als eine Internetverbindung ein.
 === "Ethernet"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_ethernet.jpg){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/internet/be10000_ethernet.jpg){class="glboxshadow"}
     
     1. Verbinden Sie den WAN-Port des Slate 7 Pro per Ethernet-Kabel mit einem Upstream-Gerät (z. B. ISP-Modem, Netzwerkswitch oder Ethernet-Wandanschluss).
     2. Slate 7 Pro versucht automatisch, Netzwerkparameter wie IP-Adresse, Gateway und DNS-Server abzurufen, um eine Ethernet-Verbindung herzustellen.
@@ -95,7 +95,7 @@ Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Int
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_repeater.jpg){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/internet/be10000_repeater.jpg){class="glboxshadow"}
 
     1. Tippen Sie auf dem Touchscreen auf **Repeater**. Das Gerät beginnt dann mit der Suche nach verfügbaren Wi-Fi-Netzwerken.
     2. Wählen Sie das Wi-Fi-Netzwerk aus, das Slate 7 Pro erweitern soll.
@@ -104,7 +104,7 @@ Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Int
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_tethering.jpg){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/internet/be10000_tethering.jpg){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät (z. B. Smartphone oder USB-Dongle) über ein USB-Kabel mit dem USB-Port des Routers.
     2. Gehen Sie auf Ihrem Mobilgerät zu den Einstellungen und aktivieren Sie **USB Tethering** oder **Personal Hotspot**. Beim iPhone tippen Sie bei Bedarf auf **Trust This Device**.
@@ -115,7 +115,7 @@ Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Int
 
 === "Cellular"
 
-    ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_cellular.jpg){class="glboxshadow"}
+    ![cellular connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/internet/be10000_cellular.jpg){class="glboxshadow"}
 
     1. Stecken Sie ein Mobilfunk-USB-Modem in den USB-Port des Slate 7 Pro. Das ist nützlich, wenn Sie die Internetverbindung eines USB-Modems mit allen verbundenen Geräten teilen möchten.
     2. Sobald die Internetverbindung erfolgreich hergestellt wurde, wird der Cellular-Bereich auf der Touchscreen-Startseite blau angezeigt (aktiv). Sie können entweder auf der Touchscreen-Startseite auf Cellular tippen oder sich im Web-Admin-Panel anmelden, um die Verbindungsdetails zu prüfen.

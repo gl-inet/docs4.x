@@ -36,7 +36,7 @@ Mudi 7 ist ein tragbarer 5G-NR-Wi-Fi-7-Reiserouter für Vielreisende und Geschä
 
 Dank des Touchscreens können Sie mit dem Mudi 7 die Datennutzung in Echtzeit, die Signalstärke, verbundene Geräte und Client-Geschwindigkeiten überwachen und Einstellungen per Fingertipp anpassen, für eine intuitive und unkomplizierte Bedienung.
 
-![gl-e5800 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/gl-e5800_overview.png){class="glboxshadow"}
+![gl-e5800 overview](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/hardware_info/gl-e5800_overview.png){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -46,7 +46,7 @@ Dank des Touchscreens können Sie mit dem Mudi 7 die Datennutzung in Echtzeit, d
 - 1 x Reisetasche
 - 1 x Benutzerhandbuch
 
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/unboxing.png){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/first_time_setup/unboxing.png){class="glboxshadow"}
 
 Sehen Sie sich unten das Unboxing-Video von Mudi 7 an.
 
@@ -64,23 +64,23 @@ Setzen Sie Nano-SIM-Karte(n) in Ihren Mudi 7 ein. Wenn Sie lieber eSIM verwenden
 
 Nutzen Sie zuerst die kleine Kerbe unten rechts an der Rückabdeckung als Hebelpunkt. Hebeln Sie entlang der Fuge, um einen Spalt zu schaffen, öffnen Sie dann die Rückabdeckung und nehmen Sie den Akku des Mudi 7 heraus.
 
-![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
+![small notch](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
-![remove battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery1.png){class="glboxshadow"}
+![remove battery](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/first_time_setup/battery1.png){class="glboxshadow"}
 
 Setzen Sie als Nächstes die Nano-SIM-Karte(n) ein. Wenn Sie nur eine Karte verwenden, nutzen Sie bevorzugt SIM 1.
 
-![sim slots](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/sim-slots.png){class="glboxshadow"}
+![sim slots](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/first_time_setup/sim-slots.png){class="glboxshadow"}
 
 Setzen Sie abschließend den Akku wieder ein und bringen Sie die Abdeckung wieder an.
 
-![restore battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/battery2.png){class="glboxshadow"}
+![restore battery](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/first_time_setup/battery2.png){class="glboxshadow"}
 
 ### 2. Einschalten
 
 Halten Sie die Ein-/Aus-Taste **3 Sekunden** lang gedrückt oder schließen Sie ein Netzteil an.
 
-![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
+![power on](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
 
 ### 3. Grundeinstellungen
 
@@ -94,7 +94,7 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
 === "Cellular"
 
-    ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_cellular.jpg){class="glboxshadow"}
+    ![cellular connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/internet/e5800_cellular.jpg){class="glboxshadow"}
 
     Mudi 7 verfügt über eine **integrierte eSIM** und **zwei Nano-SIM-Steckplätze**. Sie können eine Internetverbindung herstellen, indem Sie ein eSIM-Paket kaufen (ohne physische SIM-Karte) oder Ihre Nano-SIM-Karten einsetzen, um das 5G-Mobilfunknetz zu nutzen.
 
@@ -102,33 +102,33 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
     1. Gehen Sie auf dem Touchscreen zu **Cellular** -> **SIM Card Switch** und aktivieren Sie den Schalter, um die **eSIM** zu aktivieren.
 
-        ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
+        ![enable esim](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
 
     2. Melden Sie sich im [Web-Admin-Panel](./index.md#anmeldung-im-web-admin-panel) an und gehen Sie zu **INTERNET** -> **Cellular** -> **eSIM Management**.
 
-        ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
+        ![esim management](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
 
     3. Klicken Sie im Pop-up-Fenster unten auf **Add eSIM Profile**.
 
-        ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
+        ![add esim profile](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/esim/add_esim_profile1.png){class="glboxshadow" width="590"}
 
         **Hinweis**: Stellen Sie vor dem Hochladen sicher, dass Ihr Gerät mit dem Internet verbunden ist. Ein Netzwerkfehler führt dazu, dass das Hochladen der eSIM-Konfigurationsdatei fehlschlägt.
 
         Laden Sie Ihr eSIM-Profil per QR-Code oder Aktivierungscode hoch und klicken Sie auf **Install**. Beachten Sie, dass die meisten eSIM-Profile nur einmal heruntergeladen und hinzugefügt werden können.
 
-        ![add esim profile](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/add_esim_profile2.png){class="glboxshadow"}
+        ![add esim profile](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/esim/add_esim_profile2.png){class="glboxshadow"}
 
         **Tipp**: Wenn Sie noch kein eSIM-Profil gekauft haben, können Sie eines im **eSIM Profile Recommended Store** erwerben.
 
-        ![recommended store](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
+        ![recommended store](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/esim/recommended_store.png){class="glboxshadow" width="590"}
 
     4. Wechseln Sie nach dem Hochladen zu **Cellular** und klicken Sie auf **SIM Card Switch**.
 
-        ![sim card switch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/sim_card_switch.png){class="glboxshadow" width="590"}
+        ![sim card switch](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/esim/sim_card_switch.png){class="glboxshadow" width="590"}
 
         Wählen Sie im Pop-up-Fenster **eSIM** als aktive SIM-Karte aus und klicken Sie dann auf **Apply**.
 
-        ![active sim card](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/active_sim_card.png){class="glboxshadow"}
+        ![active sim card](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/esim/active_sim_card.png){class="glboxshadow"}
 
     5. Der Router beginnt, sich über dieses eSIM-Profil zu verbinden. Bitte warten Sie und prüfen Sie, ob die Verbindung erfolgreich hergestellt wird.
 
@@ -149,12 +149,12 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
 === "Ethernet"
 
-    ![ethernet connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
+    ![ethernet connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/internet/e5800_ethernet.jpg){class="glboxshadow"}
 
     1. Verbinden Sie den Ethernet-Port Ihres Mudi 7 per Ethernet-Kabel mit einer vorgelagerten Netzwerkquelle, z. B. einem ISP-Modem, Netzwerkswitch oder einer Ethernet-Wanddose.
     2. Gehen Sie auf dem Touchscreen oder im Web-Admin-Panel zu **Network** -> **Ethernet Ports**, setzen Sie die Portrolle auf **WAN** und klicken Sie auf **Apply**.
 
-        ![touchscreen ethernet wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-ethernet-wan.png){class="glboxshadow"}
+        ![touchscreen ethernet wan](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/internet/ts-ethernet-wan.png){class="glboxshadow"}
 
     3. Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint oben rechts auf dem Touchscreen ein Ethernet-Port-Symbol. Die Verbindungsdetails können Sie auch im Web-Admin-Panel prüfen.
 
@@ -162,7 +162,7 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
 === "Repeater"
 
-    ![repeater connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_repeater.jpg){class="glboxshadow"}
+    ![repeater connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/internet/e5800_repeater.jpg){class="glboxshadow"}
 
     1. Gehen Sie auf dem Touchscreen oder im Web-Admin-Panel zu **Internet** -> **Repeater** und klicken Sie auf **Connect**. Mudi 7 beginnt dann mit der Suche nach verfügbaren Wi-Fi-Netzwerken.
     2. Wählen Sie das Wi-Fi-Netzwerk aus, das Mudi 7 erweitern soll.
@@ -173,7 +173,7 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
 === "Tethering"
 
-    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_tethering.jpg){class="glboxshadow"}
+    ![tethering connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/internet/e5800_tethering.jpg){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-C-Port des Mudi 7.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie **USB Tethering**. Wenn Sie ein iPhone verwenden, tippen Sie bei entsprechender Aufforderung auf **Trust This Device**.
@@ -184,7 +184,7 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
 === "USB Ethernet"
 
-    ![usb ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/e5800_usb_ethernet.png){class="glboxshadow"}
+    ![usb ethernet](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/internet/e5800_usb_ethernet.png){class="glboxshadow"}
 
     Mudi 7 ist mit einem **OTG-fähigen** USB-C-Port ausgestattet, sodass Sie für Dual-Ethernet-WAN einen zweiten Ethernet-Port hinzufügen können. Dafür wird ein **separat erhältlicher USB-C-auf-Ethernet-Adapter** benötigt.
 
@@ -193,7 +193,7 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
     1. Verbinden Sie eine vorgelagerte Netzwerkquelle, z. B. ein ISP-Modem, einen Netzwerkswitch oder eine Ethernet-Wanddose, über einen USB-C-auf-Ethernet-Adapter mit dem USB-C-Port des Mudi 7.
     2. Gehen Sie auf dem Touchscreen oder im Web-Admin-Panel zu **Network** -> **Ethernet Ports** -> **USB Ethernet Port**, setzen Sie die Portrolle auf **WAN** und klicken Sie auf **Apply**.
 
-        ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
+        ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
 
     3. Mudi 7 verbindet sich anschließend automatisch mit Ihrem Gerät. Falls keine Verbindung hergestellt wird, wiederholen Sie die obigen Schritte oder melden Sie sich im Web-Admin-Panel an und prüfen Sie die USB-Ethernet-Verbindung auf der Seite INTERNET.
     4. Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheinen oben rechts auf dem Touchscreen ein USB-Symbol und ein Ethernet-Port-Symbol. Die Verbindungsdetails können Sie auch im Web-Admin-Panel prüfen.
@@ -214,11 +214,11 @@ Sie können die Firmware von Mudi 7 über den Touchscreen oder das Web-Admin-Pan
 
 2. Sobald die Verbindung hergestellt ist, sucht das System automatisch nach verfügbaren Firmware-Updates. Wenn eine neue Firmware verfügbar ist, erscheint eine Meldung auf dem Bildschirm. Klicken Sie im Pop-up-Fenster auf **Go to Upgrade**, um fortzufahren.
 
-   ![go to upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade1.png){class="glboxshadow" width="300"}
+   ![go to upgrade](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/internet/screen_upgrade1.png){class="glboxshadow" width="300"}
 
 3. Wenn das Pop-up-Fenster nicht erscheint, tippen Sie auf dem Startbildschirm auf **More** -> **About Device** -> **Version & Upgrade** -> **Download & Upgrade** und folgen Sie dann den Anweisungen auf dem Bildschirm, um die Firmware zu aktualisieren.
 
-   ![download & upgrade](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
+   ![download & upgrade](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/internet/screen_upgrade2.png){class="glboxshadow" width="300"}
 
 ### Upgrade über das Web
 
@@ -248,21 +248,21 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
 1. Tippen Sie auf der Startseite auf **More**.
 
-   ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset1.png){class="glboxshadow" width="300"}
+   ![LCD reset](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/hardware_info/lcd_reset1.png){class="glboxshadow" width="300"}
 
 2. Scrollen Sie auf der Seite **More** ganz nach unten und tippen Sie auf **Reset**.
 
-   ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset2.png){class="glboxshadow" width="300"}
+   ![LCD reset](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/hardware_info/lcd_reset2.png){class="glboxshadow" width="300"}
 
 3. Tippen Sie zur Bestätigung erneut auf **Reset**. Der Router beginnt mit dem Zurücksetzen und startet anschließend neu.
 
-   ![LCD reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
+   ![LCD reset](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/hardware_info/lcd_reset3.png){class="glboxshadow" width="300"}
 
 ### Über die Taste zurücksetzen
 
 1. Entfernen Sie die Rückabdeckung. Dort finden Sie die Reset-Taste wie unten gezeigt.
 
-   ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+   ![tethering connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
 2. Führen Sie je nach Bedarf einen Soft Reset oder einen Werksreset durch.
 
@@ -276,7 +276,7 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
 2. Klicken Sie auf **Delete All and Reboot**. Der Router beginnt mit dem Zurücksetzen und startet anschließend neu.
 
-   ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
+   ![web reset](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
 
 ## Anmeldung im Web-Admin-Panel
 

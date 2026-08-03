@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Cirrus (GL-AP1300) ist ein Wireless Access Point zur Deckenmontage der gehobenen Business-Klasse mit MU-MIMO-Wi-Fi-Lösung. Zur Abdeckung typischer Unternehmensszenarien verfügt er über PoE-Stromversorgung und eine integrierte Watchdog-Timer-Funktion. Mit dem ausgereiften GoodCloud-Verwaltungssystem lässt sich das Gerät einfach und komfortabel verwalten. So können Sie jederzeit und von überall einen sicheren Fernzugriff aktivieren.
 
-![gl-ap1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ap1300/hardware_info/ap1300_interface.jpg){class="glboxshadow"}
+![gl-ap1300 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ap1300/hardware_info/ap1300_interface.jpg){class="glboxshadow"}
 
 ## Technische Daten
 

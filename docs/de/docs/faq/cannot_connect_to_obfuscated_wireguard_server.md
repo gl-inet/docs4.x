@@ -10,7 +10,7 @@ Wenn keine Verbindung zu einem verschleierten WireGuard-Server hergestellt werde
 
     Falls erforderlich, gehen Sie zu **VPN** -> **WireGuard Server** -> **Profiles**, um Ihre exportierten Profile anzuzeigen.
 
-    ![wg profiles](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/wg_profiles.png){class="glboxshadow"}
+    ![wg profiles](https://static.gl-inet.com/docs/router/de/4/faq/cannot_connect_to_obfuscated_wgserver/wg_profiles.png){class="glboxshadow"}
 
 2. **Stellen Sie sicher, dass die verschleierten Parameter vom Client verifiziert werden können.**
 
@@ -38,11 +38,11 @@ Wenn keine Verbindung zu einem verschleierten WireGuard-Server hergestellt werde
 
         2. Gehen Sie zu **VPN** -> **WireGuard Server** -> **Configuration** und prüfen Sie die Verschleierungsparameter. Wenn die Konfiguration **S3-S4** und **H1-H4** als variable Bereiche enthält, statt fester Werte, läuft auf dem Router AmneziaWG 2.0, wie unten gezeigt.
 
-            ![awg 2.0 web](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_web.png){class="glboxshadow"}
+            ![awg 2.0 web](https://static.gl-inet.com/docs/router/de/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_web.png){class="glboxshadow"}
 
             Andernfalls wird AmneziaWG 1.0 verwendet, wie unten gezeigt.
 
-            ![awg 1.0 web](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_1.0_web.png){class="glboxshadow"}
+            ![awg 1.0 web](https://static.gl-inet.com/docs/router/de/4/faq/cannot_connect_to_obfuscated_wgserver/awg_1.0_web.png){class="glboxshadow"}
 
     ??? note "Über SSH-Befehl prüfen"
 
@@ -50,11 +50,11 @@ Wenn keine Verbindung zu einem verschleierten WireGuard-Server hergestellt werde
 
         2. Führen Sie `opkg list|grep awg` aus und prüfen Sie das Suffix des Pakets **kmod-amneziawg** in der Ausgabe. Wenn es mit **2.0** gekennzeichnet ist, unterstützt der Router AmneziaWG 2.0, wie unten gezeigt.
 
-            ![awg 2.0 ssh](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_ssh.png){class="glboxshadow"}
+            ![awg 2.0 ssh](https://static.gl-inet.com/docs/router/de/4/faq/cannot_connect_to_obfuscated_wgserver/awg_2.0_ssh.png){class="glboxshadow"}
 
             Andernfalls wird AmneziaWG 1.0 ausgeführt, wie unten gezeigt.
 
-            ![awg 1.0 ssh](https://static.gl-inet.com/docs/router/en/4/faq/cannot_connect_to_obfuscated_wgserver/awg_1.0_ssh.png){class="glboxshadow"}
+            ![awg 1.0 ssh](https://static.gl-inet.com/docs/router/de/4/faq/cannot_connect_to_obfuscated_wgserver/awg_1.0_ssh.png){class="glboxshadow"}
 
 3. **Passen Sie die Verschleierungsparameter an.**
 

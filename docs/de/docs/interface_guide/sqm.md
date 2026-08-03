@@ -33,11 +33,11 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zu **FLOW CONTROL** -> **SQM
 
 Schalten Sie den Schalter um, um SQM zu aktivieren, und legen Sie Ihre maximale Upload- und Download-Geschwindigkeit fest (Eingabebereich: 1 - 10000), damit der Datenverkehr geplant werden kann. Stimmen Sie die Werte für optimale Ergebnisse auf Ihre tatsächliche Internetbandbreite ab.
 
-![sqm](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/sqm.png){class="glboxshadow"}
+![sqm](https://static.gl-inet.com/docs/router/de/4/interface_guide/sqm/sqm.png){class="glboxshadow"}
 
 **Hinweis**: Die im Eingabefeld eingegebenen Werte sind in **Mbps** (Megabit pro Sekunde) angegeben. Der entsprechende Wert in **MB/s** (Megabyte pro Sekunde) wird als Referenz angezeigt.
 
-![up down speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/up_down_speed.jpg){class="glboxshadow"}
+![up down speed](https://static.gl-inet.com/docs/router/de/4/interface_guide/sqm/up_down_speed.jpg){class="glboxshadow"}
 
 Für **Queue Rule** stehen zwei Optionen zur Verfügung:
 

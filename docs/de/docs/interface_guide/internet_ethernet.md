@@ -10,7 +10,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Router über ein Ethernet-Kabel
 
     Wenn die Verbindung erfolgreich ist, zeigt der Abschnitt Ethernet Netzwerkdetails an, darunter Protocol, IP Address, Gateway und DNS Server.
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_1.png){class="glboxshadow"}
+    ![ethernet](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/ethernet_1.png){class="glboxshadow"}
 
 **Tipps**: Bevor Sie das Ethernet-Kabel in den WAN-Port des Routers einstecken, können Sie auf **Change to LAN** klicken, um [den WAN-Port als LAN-Port festzulegen](../faq/change_wan_to_lan.md). Das ist nützlich, wenn Sie den Router als [Repeater](internet_repeater.md) verwenden, da der physische WAN-Port dann ungenutzt bleibt. So können Sie den ungenutzten WAN-Port als LAN-Port umfunktionieren und erhalten einen zusätzlichen LAN-Port.
 
@@ -18,25 +18,25 @@ Führen Sie die folgenden Schritte aus, um Ihren Router über ein Ethernet-Kabel
 
 Es gibt 3 Protokolltypen: DHCP, Static und PPPoE. Klicken Sie auf **Modify**, um den Typ zu ändern.
 
-![modify](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_2.png){class="glboxshadow"}
+![modify](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/ethernet_2.png){class="glboxshadow"}
 
 * DHCP
 
     DHCP ist das Standardprotokoll und am weitesten verbreitet. Es weist Netzwerkgeräten in IP-Netzwerken über eine Client-Server-Architektur automatisch IP-Adressen und andere Kommunikationsparameter zu.
 
-    ![ethernet dhcp](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_3.png){class="glboxshadow"}
+    ![ethernet dhcp](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/ethernet_3.png){class="glboxshadow"}
 
 * Static
 
     Static wird benötigt, wenn Ihr ISP (Internet Service Provider) eine feste IP-Adresse bereitstellt oder Sie Netzwerkinformationen wie IP-Adresse, Gateway und Netmask manuell konfigurieren möchten.
 
-    ![ethernet static](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_4.png){class="glboxshadow"}
+    ![ethernet static](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/ethernet_4.png){class="glboxshadow"}
 
 * PPPoE
 
     PPPoE ist ein Protokoll, das von den meisten ISPs verwendet wird. Typischerweise stellen sie ein Modem sowie einen Benutzernamen und ein Passwort bereit, die für die Interneteinrichtung erforderlich sind.
 
-    ![ethernet pppoe](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_5.png){class="glboxshadow"}
+    ![ethernet pppoe](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/ethernet_5.png){class="glboxshadow"}
 
 ## Erweitert
 
@@ -56,15 +56,15 @@ Zusätzlich zu den grundlegenden Einstellungen gibt es für die drei oben genann
 
 Klicken Sie oben rechts auf das Zahnradsymbol, um zu [Ethernet Port](ethernet_port.md) zu gelangen.
 
-![ethernet port 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_6.png){class="glboxshadow"}
+![ethernet port 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/ethernet_6.png){class="glboxshadow"}
 
 Auf der Seite **WAN** werden die Portrolle (also WAN oder LAN), MAC-Modus und MAC-Adresse sowie die ausgehandelte Geschwindigkeit des Netzwerkports angezeigt. 
 
-![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
+![ethernet port 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/wan.png){class="glboxshadow"}
 
 Auf der Seite **LAN** werden die Portrolle und die ausgehandelte Geschwindigkeit des Netzwerkports angezeigt.
 
-![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
+![ethernet port 3](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
 Weitere Details finden Sie unter diesem [Link](ethernet_port.md). 
 
@@ -74,7 +74,7 @@ Wenn ein Ethernet-Kabel am WAN-Port angeschlossen ist, aber kein Internet verfü
 
 **"The interface is connected, but the Internet can't be accessed."**
 
-![ethernet caution](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_9.jpg){class="glboxshadow gl-90-desktop"}
+![ethernet caution](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/ethernet_9.jpg){class="glboxshadow gl-90-desktop"}
 
 So beheben Sie das Problem:
 

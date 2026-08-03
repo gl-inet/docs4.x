@@ -34,13 +34,13 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei hohen Temperaturen und in Umgebungen mit potenziellen physischen Gefahren. Es gibt drei Versionen von Collie, die entweder für stationäre Innenanlagen (GL-X300B-RS485 / GL-X300B-BLE) oder für Fahrzeuge (GL-X300B-GPS) entwickelt wurden. Collie eignet sich ideal für die Maschine-zu-Maschine-Kommunikation zwischen elektrischen Geräten in Umgebungen mit starker elektrischer Störbelastung.
 
-![gl-x300b interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
+![gl-x300b interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/hardware_info/gl-x300b_interface.jpg){class="glboxshadow"}
 
 **Was ist der Unterschied zwischen GL-X300B-RS485, GL-X300B-BLE und GL-X300B-GPS?**
 
-![gl-x300b series](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b_series.png){class="glboxshadow"}
+![gl-x300b series](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/hardware_info/x300b_series.png){class="glboxshadow"}
 
-![gl-x300b comparison](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/model_comparison.png){class="glboxshadow"}
+![gl-x300b comparison](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/hardware_info/model_comparison.png){class="glboxshadow"}
 
 - **GL-X300B-RS485** enthält einen RS485-Chip mit RS485-Schnittstelle. Das Modul unterstützt die bidirektionale Datenübertragung verschiedener Geräte im Bereich der industriellen Automatisierung und des IoT und ermöglicht so Datenerfassung, Steuerung und Überwachung.
 
@@ -73,7 +73,7 @@ Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei h
 - 1 x Netzadapter
 - 4 x Adapter (US-, UK-, EU- und AU-Stecker) (3 Monate Garantie)
 
-![gl-x300b package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/hardware_info/x300b-rs485_package.jpg){class="glboxshadow"}
+![gl-x300b package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/hardware_info/x300b-rs485_package.jpg){class="glboxshadow"}
 
 ## Technische Daten
 
@@ -95,7 +95,7 @@ Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei h
         - Befestigen Sie die beiden identischen Wi-Fi-Antennen an den **2.4G**-Ports.
         - Befestigen Sie die einzelne 4G-Antenne am **4G**-Port.
 
-        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/antenna_installation/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
 
     2. Richten Sie die Antennen für optimale Leistung nach oben aus.
 
@@ -115,7 +115,7 @@ Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei h
         - Befestigen Sie die einzelne 4G-Antenne am **4G**-Port.
         - Befestigen Sie die einzelne BLE-Antenne am **BLE**-Port.
 
-        ![x300b ble antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b ble antennas](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/antenna_installation/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
 
     2. Richten Sie die Antennen für optimale Leistung nach oben aus.
 
@@ -135,11 +135,11 @@ Collie (GL-X300B) ist ein industrielles Mobilfunk-Gateway für den Einsatz bei h
         - Befestigen Sie die beiden identischen 4G-Antennen an den **4G**-Ports.
         - Befestigen Sie die einzelne GPS-Antenne am **GPS**-Port.
 
-        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/antenna_installation/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
 
     2. Positionieren Sie die Antennen korrekt und vermeiden Sie ein Verheddern, um optimale Leistung sicherzustellen.
 
-        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/antenna_installation/x300b-gps.jpg){class="glboxshadow"}
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/antenna_installation/x300b-gps.jpg){class="glboxshadow"}
 
 ## Erste Einrichtung
 
@@ -159,7 +159,7 @@ Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/internet/x300b_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -167,7 +167,7 @@ Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehen
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/internet/x300b_repeater.png){class="glboxshadow"}
 
 ### Cellular
 
@@ -175,7 +175,7 @@ Setzen Sie eine SIM-Karte in den SIM-Kartenslot des Routers ein, um eine Interne
 
 [Klicken Sie hier, um zu erfahren, wie Sie über Mobilfunk eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x300b/internet/x300b_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x300b/internet/x300b_cellular.png){class="glboxshadow"}
 
 ### Multi-WAN
 

@@ -16,25 +16,25 @@ Melden Sie sich dann per SSH an Ihrem GL.iNet Router an oder verwenden Sie WinSC
 
 Melden Sie sich im Web-Admin-Panel von GL.iNet an und gehen Sie zu **APPLICATIONS -> AdGuard Home**. Aktivieren Sie AdGuard Home.
 
-![enableadh](https://static.gl-inet.com/docs/router/en/4/faq/SSL/enableadh.jpg){class="glboxshadow"}
+![enableadh](https://static.gl-inet.com/docs/router/de/4/faq/SSL/enableadh.jpg){class="glboxshadow"}
 
 Klicken Sie anschließend oben auf dieser Seite auf **Settings Page**. Sie werden dann zur Einstellungsseite von AdGuard Home weitergeleitet.
 
-![gosettings](https://static.gl-inet.com/docs/router/en/4/faq/SSL/gosettings.jpg){class="glboxshadow"}
+![gosettings](https://static.gl-inet.com/docs/router/de/4/faq/SSL/gosettings.jpg){class="glboxshadow"}
 
 ## 3. Encryption settings bearbeiten
 
 Navigieren Sie auf der Einstellungsseite von AdGuard Home zu Settings -> Encryption settings.
 
-![encryption](https://static.gl-inet.com/docs/router/en/4/faq/SSL/encryption.jpg){class="glboxshadow"}
+![encryption](https://static.gl-inet.com/docs/router/de/4/faq/SSL/encryption.jpg){class="glboxshadow"}
 
 Aktivieren Sie oben links das Kontrollkästchen Enable Encryption und tragen Sie bei HTTPS port den Wert 3001 ein.
 
-![3001](https://static.gl-inet.com/docs/router/en/4/faq/SSL/3001.jpg){class="glboxshadow"}
+![3001](https://static.gl-inet.com/docs/router/de/4/faq/SSL/3001.jpg){class="glboxshadow"}
 
 Fügen Sie die Pfade zu Ihrem aktualisierten Zertifikat und Schlüssel hinzu und klicken Sie auf Save.
 
-![addcertpath](https://static.gl-inet.com/docs/router/en/4/faq/SSL/addcertpath.jpg){class="glboxshadow"}
+![addcertpath](https://static.gl-inet.com/docs/router/de/4/faq/SSL/addcertpath.jpg){class="glboxshadow"}
 
 Anschließend können Sie **192.168.8.1** oder **192.168.8.1:3001** über HTTPS aufrufen.
 

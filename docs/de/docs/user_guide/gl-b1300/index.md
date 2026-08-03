@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Convexa-B (GL-B1300) ist ein leistungsfähiges Produkt, das den Bedarf an drahtlosem Internetzugang sowohl im gewerblichen als auch im privaten Umfeld erfüllt. Es ist eine ausgezeichnete Wahl für komfortables kabelloses Surfen im Internet.
 
-![gl-b1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b1300/first_time_setup/router.jpg){class="glboxshadow"}
+![gl-b1300 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-b1300/first_time_setup/router.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -49,7 +49,7 @@ Der Lieferumfang umfasst:
 - 1 x Garantiekarte
 - 1 x Netzadapter (ausgewählter Steckertyp)
 
-![gl-b1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-b1300/first_time_setup/b1300_unboxing.jpg){class="glboxshadow"}
+![gl-b1300 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-b1300/first_time_setup/b1300_unboxing.jpg){class="glboxshadow"}
 
 ## Technische Daten
 

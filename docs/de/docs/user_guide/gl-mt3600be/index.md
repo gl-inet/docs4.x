@@ -36,7 +36,7 @@ Beryl 7 (GL-MT3600BE) ist ein tragbarer Dualband-Wi-Fi-7-Reiserouter, der spezie
 
 Angetrieben von einem MediaTek-Quad-Core-Prozessor und ausgestattet mit 512 MB NAND-Flashspeicher gewährleistet er stabiles Multitasking und die Kompatibilität mit verschiedenen OpenWrt-Plug-ins. Er verfügt über 2 x 2,5G-Ethernet-Ports und 1 x USB-3.0-Port und eignet sich damit sowohl für schnelle kabelgebundene Verbindungen als auch für Speichererweiterungen. Dank PD-Kompatibilität kann er mit einem gewöhnlichen Handy-Ladekabel betrieben werden, wodurch Gewicht und Kabelsalat im Gepäck reduziert werden. Mit Unterstützung für mehr als 120 Geräte gleichzeitig und einem schlanken, tragbaren Design ist er ideal für unterwegs.
 
-![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
+![gl-mt3600be interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3600be/hardware_info/mt3600be_interface.png){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -85,7 +85,7 @@ Richten Sie Ihren Beryl 7 mit einer der unterstützten Internetverbindungsmethod
 
 === "Ethernet"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/internet/mt3600be_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3600be/internet/mt3600be_ethernet.png){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port des Beryl 7 per Ethernet-Kabel mit einem vorgeschalteten Gerät, zum Beispiel einem Modem.
 
@@ -95,7 +95,7 @@ Richten Sie Ihren Beryl 7 mit einer der unterstützten Internetverbindungsmethod
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/internet/mt3600be_repeater.png){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3600be/internet/mt3600be_repeater.png){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -107,7 +107,7 @@ Richten Sie Ihren Beryl 7 mit einer der unterstützten Internetverbindungsmethod
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/internet/mt3600be_tethering.png){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3600be/internet/mt3600be_tethering.png){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, zum Beispiel ein Smartphone oder einen USB-Dongle, per USB-Kabel mit dem USB-Port des Beryl 7.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
@@ -119,7 +119,7 @@ Richten Sie Ihren Beryl 7 mit einer der unterstützten Internetverbindungsmethod
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt3600be/internet/mt3600be_cellular.png){class="glboxshadow"}
+    ![cellular](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt3600be/internet/mt3600be_cellular.png){class="glboxshadow"}
 
     Schließen Sie ein Mobilfunk-USB-Modem an den USB-Port des Beryl 7 an. Das ist nützlich, wenn Sie die Internetverbindung eines USB-Modems mit allen verbundenen Geräten teilen möchten.
 

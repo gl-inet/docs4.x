@@ -20,7 +20,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-    ![client](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/client.jpg){class="glboxshadow"}
+    ![client](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/my_wireguard_server_is_not_working/client.jpg){class="glboxshadow"}
 
 
 
@@ -76,7 +76,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-            ![DDNS1](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns1.jpg){class="glboxshadow"}
+            ![DDNS1](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns1.jpg){class="glboxshadow"}
 
 
 
@@ -104,7 +104,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-            ![DDNS2](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns2.jpg){class="glboxshadow"}
+            ![DDNS2](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns2.jpg){class="glboxshadow"}
 
 
 
@@ -120,7 +120,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-            ![DDNS3](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns3.jpg){class="glboxshadow"}
+            ![DDNS3](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns3.jpg){class="glboxshadow"}
 
 
 
@@ -150,7 +150,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-            ![DDNS4](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns4.jpg){class="glboxshadow"}
+            ![DDNS4](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns4.jpg){class="glboxshadow"}
 
 
 
@@ -158,7 +158,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-            ![DDNS5](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns5.jpg){class="glboxshadow"}
+            ![DDNS5](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns5.jpg){class="glboxshadow"}
 
 
 
@@ -174,7 +174,7 @@ Folgen Sie den folgenden Schritten zur Fehlerbehebung entsprechend Ihrem konkret
 
 
 
-    ![DDNS6](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns6.jpg){class="glboxshadow"}
+    ![DDNS6](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/my_wireguard_server_is_not_working/ddns6.jpg){class="glboxshadow"}
 
 
 

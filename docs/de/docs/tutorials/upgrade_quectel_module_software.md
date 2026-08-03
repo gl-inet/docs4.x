@@ -16,7 +16,7 @@
 
 2. Melden Sie sich im Web-Admin-Panel Ihres Routers an, gehen Sie zu **SYSTEM** -> **Upgrade** -> **Module Local Upgrade** und laden Sie die Modul-Firmware (im `.zip`-Format) hoch.
     
-    ![Lokales Modul-Upgrade](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/modem_local_upgrade.png){class="glboxshadow"}
+    ![Lokales Modul-Upgrade](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/modem_local_upgrade.png){class="glboxshadow"}
 
 **Methode 2. Upgrade per SSH**
 
@@ -30,7 +30,7 @@ Das Upgrade des RM520N-Moduls wird hier als Beispiel verwendet.
     wget https://fw.gl-inet.com/download/RM520GL-modem_firmware/RM520NGLAAR03A03M4G_01.201.01.201.zip -P /
     ```
 
-    ![Modul-Firmware herunterladen](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/download_firmware.png){class="glboxshadow"}
+    ![Modul-Firmware herunterladen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/download_firmware.png){class="glboxshadow"}
 
 3. Geben Sie den folgenden Befehl ein, um die Modul-Firmware zu entpacken.
 
@@ -38,7 +38,7 @@ Das Upgrade des RM520N-Moduls wird hier als Beispiel verwendet.
     unzip /RM520NGLAAR03A03M4G_01.201.01.201.zip -d /RM520NGLAAR03A03M4G_01.201.01.201
     ```
 
-    ![Modul-Firmware entpacken](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/unzip_firmware.png){class="glboxshadow"}
+    ![Modul-Firmware entpacken](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/unzip_firmware.png){class="glboxshadow"}
 
 4. Aktualisieren Sie die Modul-Firmware mit dem Befehl `QFirehose`, wie unten gezeigt.
 
@@ -48,11 +48,11 @@ Das Upgrade des RM520N-Moduls wird hier als Beispiel verwendet.
     QFirehose-mtk7981a-sha256-c0b944 -f /RM520NGLAAR03A03M4G_01.201.01.201
     ```
 
-    ![Upgrade über QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/upgrade_via_qfirehose.png){class="glboxshadow"}
+    ![Upgrade über QFirehose](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/upgrade_via_qfirehose.png){class="glboxshadow"}
 
 5. Warten Sie einige Minuten. Nach Abschluss des Upgrades zeigt das System "Upgrade module successfully" an.
 
-    ![Upgrade erfolgreich](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/upgrade_success.png){class="glboxshadow"}
+    ![Upgrade erfolgreich](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/upgrade_success.png){class="glboxshadow"}
 
 6. Starten Sie Ihren Router neu und melden Sie sich anschließend erneut per SSH am Router an.
 
@@ -62,7 +62,7 @@ Das Upgrade des RM520N-Moduls wird hier als Beispiel verwendet.
     gl_modem -B 0001:01:00.0 AT AT+QGMR
     ```
 
-    ![Version prüfen](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
+    ![Version prüfen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/x3000_xe3000/check_module_version.png){class="glboxshadow"}
 
 ### Für GL-MiFi/GL-XE300/GL-X750/GL-E750
 
@@ -74,11 +74,11 @@ Das Upgrade des EM060K-Moduls wird hier als Beispiel verwendet.
 
 3. Geben Sie den Befehl `df - h` ein, um den Einhängepfad des USB-Sticks zu prüfen, und notieren Sie sich den Pfad.
 
-    ![Einhängepfad prüfen](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_mounting_path.png){class="glboxshadow"}
+    ![Einhängepfad prüfen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/other_model/check_mounting_path.png){class="glboxshadow"}
 
 4. Geben Sie den Befehl `ls -l` ein, um den Ordner der Modul-Firmware zu prüfen.
 
-    ![Firmware-Ordner prüfen](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_firmware_folder.png){class="glboxshadow"}
+    ![Firmware-Ordner prüfen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/other_model/check_firmware_folder.png){class="glboxshadow"}
 
 5. Geben Sie den folgenden Befehl ein, um `QFirehose` vom GL.iNet-Server abzurufen.
 
@@ -92,7 +92,7 @@ Das Upgrade des EM060K-Moduls wird hier als Beispiel verwendet.
     chmod 775 /usr/bin/QFirehose-ar9531
     ```
 
-    ![QFirehose abrufen](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/obtain_qfirehose.jpg){class="glboxshadow"}
+    ![QFirehose abrufen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/other_model/obtain_qfirehose.jpg){class="glboxshadow"}
 
 6. Aktualisieren Sie die Modul-Firmware mit dem Befehl `QFirehose`, wie unten gezeigt.
 
@@ -102,11 +102,11 @@ Das Upgrade des EM060K-Moduls wird hier als Beispiel verwendet.
     /usr/bin/QFirehose-ar9531 -f /mnt/sdb1/EM060KGLAAR01A12M2GA
     ```
 
-    ![Upgrade über QFirehose](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/upgrade_via_qfirehose.png){class="glboxshadow"}
+    ![Upgrade über QFirehose](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/other_model/upgrade_via_qfirehose.png){class="glboxshadow"}
 
 7. Warten Sie einige Minuten. Nach Abschluss des Upgrades zeigt das System "Upgrade module successfully" an.
 
-    ![Upgrade erfolgreich](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/upgrade_success.png){class="glboxshadow"}
+    ![Upgrade erfolgreich](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/other_model/upgrade_success.png){class="glboxshadow"}
 
 8. Starten Sie Ihren Router neu und melden Sie sich anschließend erneut per SSH an Ihrem Router an.
 
@@ -115,7 +115,7 @@ Das Upgrade des EM060K-Moduls wird hier als Beispiel verwendet.
     ```
     gl_modem AT AT+QGMR
     ```
-    ![Modulversion prüfen](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
+    ![Modulversion prüfen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/other_model/check_module_version.png){class="glboxshadow"}
 
 ## Download-URLs für Quectel-Modul-Firmware
 

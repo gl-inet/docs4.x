@@ -47,33 +47,33 @@ Der Dienst [Bark](https://www.bark.us/){target="_blank"} kann helfen, die digita
 
 Melden Sie sich am webbasierten Admin Panel des Routers an und navigieren Sie zu **APPLICATIONS** -> **Bark**.
 
-![bark](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark1.png){class="glboxshadow"}
+![bark](https://static.gl-inet.com/docs/router/de/4/interface_guide/bark/bark1.png){class="glboxshadow"}
 
 Aktivieren Sie den Schalter für Bark und klicken Sie dann auf **Apply**.
 
-![bark enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark2.png){class="glboxshadow"}
+![bark enable](https://static.gl-inet.com/docs/router/de/4/interface_guide/bark/bark2.png){class="glboxshadow"}
 
 Koppeln Sie anschließend Ihr Gerät mit Ihrem Bark-Konto. Klicken Sie auf **Device Pairing Link**, um diesen Router mit Ihrem Bark-Konto zu koppeln.
 
-![bark pairing link](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark3.png){class="glboxshadow"}
+![bark pairing link](https://static.gl-inet.com/docs/router/de/4/interface_guide/bark/bark3.png){class="glboxshadow"}
 
 Sie werden zur Bark-Website weitergeleitet. Folgen Sie den Anweisungen auf dem Bildschirm, um sich anzumelden, Ihr Gerät zu koppeln, ein Profil zu erstellen und die Ersteinrichtung abzuschließen.
 
-![bark login](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark4.png){class="glboxshadow"}
+![bark login](https://static.gl-inet.com/docs/router/de/4/interface_guide/bark/bark4.png){class="glboxshadow"}
 <small>(Bark-Anmeldung)</small>
 
-![bark paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark5.png){class="glboxshadow"}
+![bark paired](https://static.gl-inet.com/docs/router/de/4/interface_guide/bark/bark5.png){class="glboxshadow"}
 <small>(Gerät gekoppelt)</small>
 
-![bark profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark6.png){class="glboxshadow"}
+![bark profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/bark/bark6.png){class="glboxshadow"}
 <small>(Ersteinrichtung)</small>
 
-![bark setup](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark7.png){class="glboxshadow"}
+![bark setup](https://static.gl-inet.com/docs/router/de/4/interface_guide/bark/bark7.png){class="glboxshadow"}
 <small>(Ein Profil erstellen)</small>
 
 Sobald Ihr Gerät mit den Bark Cloud Services verbunden und mit Ihrem Konto gekoppelt ist, wird das webbasierte Admin Panel des Routers wie folgt angezeigt.
 
-![bark status](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark8.png){class="glboxshadow"}
+![bark status](https://static.gl-inet.com/docs/router/de/4/interface_guide/bark/bark8.png){class="glboxshadow"}
 
 Klicken Sie auf **Go to Bark** oder [hier](https://www.bark.us/app/children/?ref=glinet&home=glinet), um sich beim Bark-Dashboard anzumelden und Ihre Regeln für die Kindersicherung einzurichten.
 

@@ -2,7 +2,7 @@
 
 Wenn Ihr Router während einer Firmware-Aktualisierung bei „Installing“ hängen bleibt, befolgen Sie die folgenden Schritte, um das Problem zu beheben.
 
-![stuck on installing](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/stuck_on_installing/installing.png){class="glboxshadow"}
+![stuck on installing](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/stuck_on_installing/installing.png){class="glboxshadow"}
 
 Prüfen Sie nach jedem Schritt, ob das Problem behoben ist. Wenn ja, überspringen Sie die verbleibenden Schritte.
 

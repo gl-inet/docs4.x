@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Slate (GL-AR750S) ist unser erster Dualband-Gigabit-AC-Reiserouter. Mit drei Gigabit-Ethernet-Ports bietet er unterwegs höhere Geschwindigkeiten. Darüber hinaus sorgt der 128-MB-Flash-Speicher mit Dual-Flash für mehr Speicherplatz und schnellere Betriebsabläufe. Außerdem verfügt er über einen MicroSD-(TF)-Kartenslot, mit dem sich der Speicher auf bis zu 128 GB erweitern lässt.
 
-![gl-ar750sinterface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/hardware_info/ar750s_interface.jpg){class="glboxshadow"}
+![gl-ar750sinterface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750s/hardware_info/ar750s_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -49,7 +49,7 @@ Der Lieferumfang umfasst:
 - 1 x Garantiekarte
 - 1 x Netzadapter (ausgewählter Steckertyp)
 
-![gl-ar750s unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/first_time_setup/ar750s_unboxing.jpg){class="glboxshadow"}
+![gl-ar750s unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750s/first_time_setup/ar750s_unboxing.jpg){class="glboxshadow"}
 
 Sehen Sie sich das [Unboxing-Video](../../video_library/unboxing_first_set_up.md#slategl-ar750s-ext) von Slate an.
 
@@ -77,7 +77,7 @@ Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750s/internet/ar750s_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -85,7 +85,7 @@ Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehen
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750s/internet/ar750s_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -93,7 +93,7 @@ Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit ak
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750s/internet/ar750s_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -101,7 +101,7 @@ Verbinden Sie den Router mit dem Internet, indem Sie ein mobilfunkfähiges USB-M
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein USB-Modem eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/internet/ar750s_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750s/internet/ar750s_cellular.png){class="glboxshadow"}
 
 ### Multi-WAN
 

@@ -36,7 +36,7 @@ Slate 7 (GL-BE3600) ist der erste tragbare Dualband-Wi-Fi-7-Reiserouter von GL.i
 
 Ausgestattet mit 2 × 2.5G-Ethernet-Ports (1 WAN + 1 LAN) und 1 × USB-3.0-Port erfüllt der Router die Anforderungen an schnelle kabelgebundene Verbindungen und flexible Speichererweiterung. Er unterstützt außerdem die Stromversorgung über Type-C PD (5V/3A, 9V/3A, 12V/2.5A) und verfügt über ein kompaktes, leichtes Design für hohe Mobilität. Mit vorinstalliertem AdGuard Home und kompatibel mit mehr als 30 VPN-Diensten bietet er zuverlässige Sicherheit für Ihr Netzwerk. Durch die Kombination aus mobilem Komfort und professioneller Leistung ist Slate 7 die ideale Wahl für Remote-Arbeit und die gemeinsame Nutzung von Netzwerken unterwegs.
 
-![gl-be3600 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
+![gl-be3600 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/hardware_info/be3600_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -48,7 +48,7 @@ Ausgestattet mit 2 × 2.5G-Ethernet-Ports (1 WAN + 1 LAN) und 1 × USB-3.0-Port 
 - 1 x US-Netzadapter
 - 3 x Steckeradapter (EU-, UK- und AU-Stecker)
 
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/first_time_setup/be3600_unboxing.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/first_time_setup/be3600_unboxing.jpg){class="glboxshadow"}
 
 Sehen Sie sich unten das Unboxing-Video von Slate 7 an.
 
@@ -58,18 +58,18 @@ Sehen Sie sich unten das Unboxing-Video von Slate 7 an.
 
 | Bildschirmanzeige | Beschreibung |
 | :--- | :--- |
-| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/booting.png){width="400"} | Startvorgang |
-| ![network](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/network.png){width="400"} | Netzwerkverbindungstypen und -status<br>**Grün**: Aktiv / Verbunden<br>**Gelb**: Verbindung wird hergestellt / Fehler<br>**Weiß**: Inaktive Verbindung |
-| ![wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/wifi-details.png){width="400"} | Wi-Fi-Details, einschließlich SSID, Passwort, QR-Code und der Ein-/Aus-Schaltfläche |
-| ![vpn](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="400"} | VPN-Status. Die Ersteinrichtung erfolgt im Web-Admin-Panel |
-| ![adguard home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/adguard_home.png){width="400"} | AdGuard Home |
-| ![tor](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/tor.png){width="400"} | Tor |
-| ![traffic statistics](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){width="400"} | Datenverkehrsstatistiken<br>Dies ist die Durchschnittsgeschwindigkeit des gesamten Datenverkehrs, der durch den Router läuft; sie wird alle 3 Sekunden berechnet |
-| ![system usage](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/overview.png){width="400"} | Systemauslastung |
-| ![time zone](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/time.png){width="400"} | Zeitzone |
-| ![system menu](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/system_settings.png){width="400"} | Systemmenü<br>Wischen Sie von oben nach unten, um das Systemmenü zu öffnen |
-| ![unlock](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | Tippen Sie auf den Bildschirm, um ihn zu aktivieren, und wischen Sie von links nach rechts, um ihn zu entsperren |
-| ![reboot](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | Klicken Sie auf „Reboot“ und wischen Sie dann von links nach rechts, um zu bestätigen |
+| ![booting](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/booting.png){width="400"} | Startvorgang |
+| ![network](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/network.png){width="400"} | Netzwerkverbindungstypen und -status<br>**Grün**: Aktiv / Verbunden<br>**Gelb**: Verbindung wird hergestellt / Fehler<br>**Weiß**: Inaktive Verbindung |
+| ![wifi](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/wifi-details.png){width="400"} | Wi-Fi-Details, einschließlich SSID, Passwort, QR-Code und der Ein-/Aus-Schaltfläche |
+| ![vpn](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/vpn_client.png){width="400"} | VPN-Status. Die Ersteinrichtung erfolgt im Web-Admin-Panel |
+| ![adguard home](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/adguard_home.png){width="400"} | AdGuard Home |
+| ![tor](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/tor.png){width="400"} | Tor |
+| ![traffic statistics](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/traffic_statistics.png){width="400"} | Datenverkehrsstatistiken<br>Dies ist die Durchschnittsgeschwindigkeit des gesamten Datenverkehrs, der durch den Router läuft; sie wird alle 3 Sekunden berechnet |
+| ![system usage](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/overview.png){width="400"} | Systemauslastung |
+| ![time zone](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/time.png){width="400"} | Zeitzone |
+| ![system menu](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/system_settings.png){width="400"} | Systemmenü<br>Wischen Sie von oben nach unten, um das Systemmenü zu öffnen |
+| ![unlock](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/slide-to-unlock.png){width="400"} | Tippen Sie auf den Bildschirm, um ihn zu aktivieren, und wischen Sie von links nach rechts, um ihn zu entsperren |
+| ![reboot](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/touchscreen/slide-to-reboot.png){width="400"} | Klicken Sie auf „Reboot“ und wischen Sie dann von links nach rechts, um zu bestätigen |
 
 ## So richten Sie Slate 7 ein
 
@@ -106,7 +106,7 @@ Richten Sie Slate 7 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Ethernet"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_ethernet.jpg){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/internet/be3600_ethernet.jpg){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port von Slate 7 per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
@@ -116,7 +116,7 @@ Richten Sie Slate 7 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_repeater.jpg){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/internet/be3600_repeater.jpg){class="glboxshadow"}
 
     1. Suchen Sie auf der INTERNET-Seite des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -128,7 +128,7 @@ Richten Sie Slate 7 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Tethering"
 
-     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_tethering.jpg){class="glboxshadow"}
+     ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/internet/be3600_tethering.jpg){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder einen USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
@@ -140,7 +140,7 @@ Richten Sie Slate 7 mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be3600/internet/be3600_cellular.jpg){class="glboxshadow"}
+    ![cellular](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be3600/internet/be3600_cellular.jpg){class="glboxshadow"}
 
     Schließen Sie ein Cellular-USB-Modem an den USB-Port von Slate 7 an. Das ist nützlich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 

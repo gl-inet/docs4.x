@@ -22,10 +22,10 @@ Je nachdem, ob Ihnen die MAC-Adressen vorliegen, gibt es zwei Möglichkeiten, Cl
 #### Methode 1: Geräte ohne ihre MAC-Adressen blockieren {#method-1-block-devices-without-their-mac-addresses}
 
 1. Klicken Sie in der linken Seitenleiste auf **Clients**.
-![click clients](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-clients.jpeg){class="glboxshadow"}
+![click clients](https://static.gl-inet.com/docs/router/de/4/tutorials/how-to-block-client-devices/click-clients.jpeg){class="glboxshadow"}
 
 2. Schalten Sie den Schalter neben dem Gerät ein.
-![toggle switch](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/toggle-block.jpeg){class="glboxshadow"}
+![toggle switch](https://static.gl-inet.com/docs/router/de/4/tutorials/how-to-block-client-devices/toggle-block.jpeg){class="glboxshadow"}
 
 Wenn die Geräte, die Sie blockieren möchten, nicht in den Listen angezeigt werden, müssen Sie sie blockieren, indem Sie [ihre MAC-Adressen zur Blocklist hinzufügen](#method-2-block-devices-with-their-mac-addresses).
 
@@ -36,12 +36,12 @@ Sobald Sie die MAC-Adresse des Geräts haben, gehen Sie wie folgt vor:
 
 1. Klicken Sie in der linken Seitenleiste auf **Clients**.
 2. Klicken Sie oben auf **Blocklist**.
-![click blocklist](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-blocklist.jpeg){class="glboxshadow"}
+![click blocklist](https://static.gl-inet.com/docs/router/de/4/tutorials/how-to-block-client-devices/click-blocklist.jpeg){class="glboxshadow"}
 3. Verwenden Sie eine der folgenden Methoden, um Geräte zu blockieren:
     - Um die MAC-Adressen einzeln einzugeben: Geben Sie sie in das leere Feld ein.
     - Um eine Liste mit MAC-Adressen zu importieren: Klicken Sie auf **Import Clients**. Importieren Sie eine Datei und klicken Sie dann auf **Import**.
 4. Klicken Sie auf **Apply**.
-![click apply](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/click-apply.jpeg){class="glboxshadow"}
+![click apply](https://static.gl-inet.com/docs/router/de/4/tutorials/how-to-block-client-devices/click-apply.jpeg){class="glboxshadow"}
 
 ## Client-Geräte über die GL.iNet-App blockieren {#block-client-devices-via-the-glinet-mobile-app}
 
@@ -55,10 +55,10 @@ Je nachdem, ob Ihnen die MAC-Adressen vorliegen, gibt es zwei Möglichkeiten, Cl
 ### Methode 1: Geräte ohne ihre MAC-Adressen blockieren {#mobile-1}
 
 1. Tippen Sie im Hauptbildschirm der App unter **Connected Clients** und **Office Clients** auf das Gerät, das Sie blockieren möchten.
-![tap a device](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-a-device.jpeg){class="glboxshadow"}
+![tap a device](https://static.gl-inet.com/docs/router/de/4/tutorials/how-to-block-client-devices/tap-a-device.jpeg){class="glboxshadow"}
 
 2. Schalten Sie unter **Settings** den Schalter **Block** ein.
-![toggle block](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/settings-toggle-block-to-on.jpeg){class="glboxshadow"}
+![toggle block](https://static.gl-inet.com/docs/router/de/4/tutorials/how-to-block-client-devices/settings-toggle-block-to-on.jpeg){class="glboxshadow"}
 
 Wenn die Geräte, die Sie blockieren möchten, nicht in den Listen angezeigt werden, müssen Sie sie blockieren, indem Sie [ihre MAC-Adressen zur Blocklist hinzufügen](#mobile-2).
 
@@ -68,10 +68,10 @@ Für diese Methode müssen Sie die MAC-Adresse des Geräts ermitteln, das Sie bl
 Sobald Sie die MAC-Adresse des Geräts haben, gehen Sie wie folgt vor:
 
 1. Tippen Sie im Hauptbildschirm der App auf das Symbol **Settings** > **Access Control**.
-![tap access control](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-access-control.jpeg){class="glboxshadow"}
+![tap access control](https://static.gl-inet.com/docs/router/de/4/tutorials/how-to-block-client-devices/tap-access-control.jpeg){class="glboxshadow"}
 
 2. Tippen Sie auf **Block**.
-![tap block](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-block.jpeg){class="glboxshadow"}
+![tap block](https://static.gl-inet.com/docs/router/de/4/tutorials/how-to-block-client-devices/tap-block.jpeg){class="glboxshadow"}
 
 3. Verwenden Sie eine der folgenden Methoden, um Geräte zu blockieren:
     - Um die MAC-Adressen einzeln einzugeben: Tippen Sie auf **Add MAC address**. Geben Sie die MAC-Adresse ein und tippen Sie dann auf **Done**.

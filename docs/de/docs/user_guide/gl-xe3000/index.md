@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Puli AX (GL-XE3000) ist ein leistungsstarker Wi-Fi-6-5G-Cellular-Router, der Ihre Internetgeschwindigkeit auf ein neues Niveau hebt. Mit dem integrierten 6400mAh-/7.4V-/47.4Wh-Akku profitieren Sie noch länger von einer unterbrechungsfreien Internetverbindung. Erleben Sie Wi-Fi-Geschwindigkeiten von bis zu 574 Mbit/s (2.4GHz) und 2402 Mbit/s (5GHz), mit einer kombinierten maximalen Wi-Fi-Geschwindigkeit von 3000 Mbit/s. Das Gerät ist mit einer 5G-NR-Cellular-Verbindung ausgestattet und sorgt so auch bei einem Ausfall von Ethernet für unterbrechungsfreien Internetzugang.
 
-![xe3000_interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
+![xe3000_interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe3000/hardware_info/xe3000_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -46,7 +46,7 @@ Puli AX (GL-XE3000) ist ein leistungsstarker Wi-Fi-6-5G-Cellular-Router, der Ihr
 - 1 x Netzadapter
 - 4 x Adapter
 
-![xe3000_unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
+![xe3000_unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe3000/first_time_setup/xe3000_unboxing.jpg){class="glboxshadow"}
 
 ## LED-Anzeigen
 
@@ -96,7 +96,7 @@ Richten Sie Puli AX mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Cellular"
 
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_cellular.png){class="glboxshadow"}
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe3000/internet/xe3000_cellular.png){class="glboxshadow"}
 
     Wenn Sie die SIM-Karte bereits in Ihren Router eingesetzt haben, sollte die Internetverbindung automatisch hergestellt werden. Im Cellular-Bereich sollten der Name Ihres Mobilfunkanbieters und ein grüner Punkt angezeigt werden.
 
@@ -110,7 +110,7 @@ Richten Sie Puli AX mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_ethernet.png){class="glboxshadow"}
+    ![ethernet](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe3000/internet/xe3000_ethernet.png){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem.
 
@@ -120,7 +120,7 @@ Richten Sie Puli AX mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_repeater.png){class="glboxshadow"}
+    ![repeater](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe3000/internet/xe3000_repeater.png){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -132,7 +132,7 @@ Richten Sie Puli AX mit einer der unterstützten Internetverbindungsmethoden ein
 
 === "Tethering"
 
-    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe3000/internet/xe3000_tethering.png){class="glboxshadow"}
+    ![tethering](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-xe3000/internet/xe3000_tethering.png){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.

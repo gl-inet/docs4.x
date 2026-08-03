@@ -45,11 +45,11 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zum Bereich **INTERNET** -> 
 
 Klicken Sie oben rechts auf das Umschlag-Symbol, um die SMS-Seite zu öffnen. Dort finden Sie die Einstellungen für SMS Forwarding.
 
-![SMS-Einstellung](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
+![SMS-Einstellung](https://static.gl-inet.com/docs/router/de/4/tutorials/sms_forwarding/sms.png){class="glboxshadow"}
 
 ### Über E-Mail weiterleiten
 
-![SMS-Weiterleitung per E-Mail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
+![SMS-Weiterleitung per E-Mail](https://static.gl-inet.com/docs/router/de/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
 - **SMTP Server Address**: Voreingestellte Serveradressen für Gmail, Outlook, iCloud und Yahoo sind in der Dropdown-Liste verfügbar. Informationen zu anderen E-Mail-Anbietern finden Sie in deren Dokumentation oder beim jeweiligen Support.
 
@@ -82,7 +82,7 @@ Sie können bis zu 10 E-Mail-Adressen hinzufügen.
 
 ### Per SMS weiterleiten
 
-![SMS-Weiterleitung per Telefon](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
+![SMS-Weiterleitung per Telefon](https://static.gl-inet.com/docs/router/de/4/tutorials/sms_forwarding/sms_forward_phone.png){class="glboxshadow"}
 
 Wählen Sie die Landesvorwahl aus, geben Sie die Telefonnummer ein und klicken Sie auf **Apply**.
 

@@ -6,11 +6,11 @@ Dieses Tutorial zeigt Ihnen, wie Sie für Ihren OpenVPN-Client, der sich mit Ihr
 
     Notieren Sie sich auf der Registerkarte **Configuration** das **IPv4-Subnetz** (z. B. 10.8.0.0/24 wie im folgenden Bild) und stellen Sie den Authentication Mode auf **Username and Password Only** um.
 
-    ![ovpn configuration](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_config.png){class="glboxshadow"}
+    ![ovpn configuration](https://static.gl-inet.com/docs/router/de/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_config.png){class="glboxshadow"}
 
 2. Wechseln Sie zur Registerkarte **Users** und erstellen Sie einen Benutzernamen sowie ein Passwort, wie unten gezeigt.
 
-    ![ovpn users](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_users.png){class="glboxshadow"}
+    ![ovpn users](https://static.gl-inet.com/docs/router/de/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_server_users.png){class="glboxshadow"}
 
 3. Melden Sie sich per SSH am Router an und führen Sie den folgenden Befehl aus, um die Konfigurationsskriptdatei des OpenVPN-Servers zu öffnen:
 
@@ -18,19 +18,19 @@ Dieses Tutorial zeigt Ihnen, wie Sie für Ihren OpenVPN-Client, der sich mit Ihr
 
     Prüfen Sie in der geöffneten Datei, ob die Zeile "*client-config-dir /etc/openvpn/ccd*" im Skript vorhanden ist.
 
-    ![check config line](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/check_config_line.png){class="glboxshadow"}
+    ![check config line](https://static.gl-inet.com/docs/router/de/4/tutorials/reserve_fixed_ip_for_ovpn_client/check_config_line.png){class="glboxshadow"}
 
     Falls nicht, fügen Sie sie manuell hinzu, speichern Sie die Datei und schließen Sie sie.
 
 4. Wechseln Sie nach `/etc/openvpn/` und erstellen Sie einen Ordner namens `ccd` mit `mkdir ccd`.
 
-    ![add ccd folder](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
+    ![add ccd folder](https://static.gl-inet.com/docs/router/de/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
 
 5. Erstellen Sie eine Datei mit dem Namen `GLsupport`, tragen Sie `ifconfig-push 10.8.0.10 255.255.255.0` ein und speichern bzw. schließen Sie die Datei.
 
     Prüfen Sie den Inhalt mit `cat GLsupport`.
 
-    ![ifconfig-push](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ifconfig-push.png){class="glboxshadow"}
+    ![ifconfig-push](https://static.gl-inet.com/docs/router/de/4/tutorials/reserve_fixed_ip_for_ovpn_client/ifconfig-push.png){class="glboxshadow"}
 
     - Wenn Sie `GLsupport` verwenden, um sich mit Ihrem OpenVPN-Server zu verbinden, wird diesem Benutzer `GLsupport` die feste IP `10.8.0.10` zugewiesen.
 
@@ -44,10 +44,10 @@ Dieses Tutorial zeigt Ihnen, wie Sie für Ihren OpenVPN-Client, der sich mit Ihr
 
     Wenn Ihr OpenVPN-Client zum Beispiel ein GL.iNet-Router ist, können Sie sich am webbasierten Admin Panel des OpenVPN-Client-Routers anmelden und zum VPN Dashboard navigieren, um die virtuelle Client-IP (IPv4) zu prüfen.
 
-    ![ovpn client test v4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.7.png){class="glboxshadow"}
+    ![ovpn client test v4.7](https://static.gl-inet.com/docs/router/de/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.7.png){class="glboxshadow"}
     <small>(VPN Dashboard in Firmware v4.7 und früher)</small>
 
-    ![ovpn client test v4.8](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.8.png){class="glboxshadow"}
+    ![ovpn client test v4.8](https://static.gl-inet.com/docs/router/de/4/tutorials/reserve_fixed_ip_for_ovpn_client/ovpn_client_test_4.8.png){class="glboxshadow"}
     <small>(VPN Dashboard in Firmware v4.8)</small>
 
 ---

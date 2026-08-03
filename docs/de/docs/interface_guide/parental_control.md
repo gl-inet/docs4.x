@@ -55,11 +55,11 @@ Melden Sie sich am webbasierten Admin Panel des Routers an und gehen Sie zu **AP
 
 Stellen Sie sicher, dass die Routerzeit korrekt ist. Falls nicht, gehen Sie zunächst zu **SYSTEM** -> **Time Zone**, um sie zu synchronisieren.
 
-![router time](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_time.png){class="glboxshadow"}
+![router time](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/parental_control_time.png){class="glboxshadow"}
 
 Aktivieren Sie Parental Control und klicken Sie auf **Apply**.
 
-![parental control, enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
+![parental control, enable](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/parental_control_enable.png){class="glboxshadow"}
 
 - **Block WAN for Unmanaged Devices**: Blockiert den Internetzugang für alle Geräte, die nicht in der Parental-Control-Liste enthalten sind.
 
@@ -75,73 +75,73 @@ Gehen Sie wie folgt vor, um Parental Control einzurichten.
 
 1. Erstellen Sie ein Profil und passen Sie den Namen an.
 
-    ![create a profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_1_create_profile.png){class="glboxshadow"}
+    ![create a profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_1_create_profile.png){class="glboxshadow"}
 
 2. Wählen Sie die Geräte aus, die Sie verwalten möchten. Sie sollten diese zuerst mit dem Router verbinden. Wenn sie noch nicht mit dem Router verbunden wurden, fügen Sie sie manuell über ihre MAC-Adressen hinzu.
 
-    ![select devices](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_2_select_device.png){class="glboxshadow"}
+    ![select devices](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_2_select_device.png){class="glboxshadow"}
 
 3. Legen Sie die Zugriffsbegrenzung fest.
 
     Es gibt zwei Standard-Regelsätze: **Block Internet Access** und **No Limit**.
 
-    ![default rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
+    ![default rulesets](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_3_default_rulesets.png){class="glboxshadow"}
 
     Klicken Sie auf **Add a New Ruleset**, um zwei weitere Regelsätze für die spätere Verwendung zu erstellen: **Learning** und **Play**.
 
-    ![add new ruleset](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
+    ![add new ruleset](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_4_add_ruleset.png){class="glboxshadow"}
 
     Legen Sie den Namen des Regelsatzes fest (z. B. Learning), wählen Sie eine Farbe und geben Sie die Websites ein, die Sie blockieren möchten. Klicken Sie dann auf **Apply**.
 
-    ![create a ruleset 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_5_add_ruleset_learning.png){class="glboxshadow"}
+    ![create a ruleset 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_5_add_ruleset_learning.png){class="glboxshadow"}
 
     **Hinweis**: Die in die Blockliste eingetragenen Domainnamen sollten ihre Subdomains mit einschließen. Wenn Sie zum Beispiel `example.com` eintragen, werden auch Subdomains wie `subdomain.example.com` erfasst.
 
     Erstellen Sie auf dieselbe Weise einen weiteren Regelsatz. Legen Sie den Namen des Regelsatzes fest (z. B. Play), wählen Sie eine Farbe und geben Sie die Websites ein, die Sie blockieren möchten. Klicken Sie dann auf **Apply**.
 
-    ![create a ruleset 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
+    ![create a ruleset 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_6_add_ruleset_play.png){class="glboxshadow"}
 
     Nach dem Anwenden gibt es insgesamt vier Regelsätze. Wählen Sie **Block Internet Access** als **Default Ruleset** aus und klicken Sie dann auf **Finish**.
 
-    ![four rulesets](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
+    ![four rulesets](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_7_four_rulesets.png){class="glboxshadow"}
 
 4. Legen Sie als Nächstes den Zeitplan für Ihr Profil fest. Klicken Sie auf **Go to Set**.
 
-    ![set schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_8_set_schedule.png){class="glboxshadow"}
+    ![set schedule](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_8_set_schedule.png){class="glboxshadow"}
 
     Fügen Sie den Regelsatz **Learning** dem Zeitplan hinzu. Setzen Sie **Execution Time** werktags auf 8:00 bis 11:00 Uhr und klicken Sie dann auf **Apply**.
 
-    ![add schedule learning](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_9_schedule_learning.png){class="glboxshadow"}
+    ![add schedule learning](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_9_schedule_learning.png){class="glboxshadow"}
 
 5. Sie werden dann zur Bearbeitungsseite des neu erstellten Profils weitergeleitet.
 
-    ![profile created](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_10_profile_created.png){class="glboxshadow"}
+    ![profile created](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_10_profile_created.png){class="glboxshadow"}
 
     Gehen Sie nach unten. Dort sehen Sie, dass bereits ein Zeitplan erstellt wurde. Klicken Sie oben rechts auf das Zahnradsymbol und wählen Sie **Add Schedule**.
 
-    ![profile add schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_11_add_schedule.png){class="glboxshadow"}
+    ![profile add schedule](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_11_add_schedule.png){class="glboxshadow"}
 
 6. Fügen Sie dem Zeitplan einen weiteren Regelsatz **Play** hinzu. Setzen Sie **Execution Time** am Wochenende auf 18:00 bis 20:00 Uhr und klicken Sie dann auf **Apply**.
 
-    ![add schedule play](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_12_schedule_play.png){class="glboxshadow"}
+    ![add schedule play](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_12_schedule_play.png){class="glboxshadow"}
 
     Der Regelsatz **Play** wird dann dem Zeitplan hinzugefügt.
 
-    ![schedules](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_13_schedules.png){class="glboxshadow"}
+    ![schedules](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_13_schedules.png){class="glboxshadow"}
 
     **Hinweis**: Die rote gestrichelte Linie zeigt die aktuelle Uhrzeit an.
 
     Sie können die Ausführungszeit auch ändern, indem Sie im Zeitplan auf einen bestimmten Regelsatz klicken.
 
-    ![edit schedule](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_14_schedule_edit.jpg){class="glboxshadow"}
+    ![edit schedule](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_14_schedule_edit.jpg){class="glboxshadow"}
 
 7. Klicken Sie oben auf **Parental Control**, um zur Seite Parental Control zurückzukehren.
 
-    ![parental control page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_15_parental_control.png){class="glboxshadow"}
+    ![parental control page](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_15_parental_control.png){class="glboxshadow"}
 
     Dort sehen Sie die endgültige Konfiguration. Parental Control ist nun gemäß dem Zeitplan wirksam. Sie können bestehende Profile und Regelsätze ändern oder bei Bedarf neue hinzufügen.
 
-    ![final configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
+    ![final configuration](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/guide/guide_16_final_config.png){class="glboxshadow"}
 
 ### Fehlerbehebung
 
@@ -214,33 +214,33 @@ Der Dienst [Bark](https://www.bark.us/){target="_blank"} kann helfen, die digita
 
 Melden Sie sich am webbasierten Admin Panel des Routers an und navigieren Sie zu **APPLICATIONS** -> **Parental Control**. Wählen Sie die Bark-Version aus.
 
-![switch_versions](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
+![switch_versions](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/switch_versions.png){class="glboxshadow"}
 
 Aktivieren Sie den Schalter für Bark und klicken Sie dann auf **Apply**.
 
-![bark_enable](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_enable.png){class="glboxshadow"}
+![bark_enable](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/bark_enable.png){class="glboxshadow"}
 
 Koppeln Sie anschließend Ihr Gerät mit Ihrem Bark-Konto. Klicken Sie auf **Device Pairing Link** oder [hier](https://www.bark.us/app/signup/?ref=glinet&home=glinet), um diesen Router mit Ihrem Bark-Konto zu koppeln.
 
-![bark_pairing_link](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_pairing.png){class="glboxshadow"}
+![bark_pairing_link](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/bark_pairing.png){class="glboxshadow"}
 
 Sie werden zur Bark-Website weitergeleitet. Folgen Sie den Anweisungen auf dem Bildschirm, um sich anzumelden, Ihr Gerät zu koppeln, ein Profil zu erstellen und die Ersteinrichtung abzuschließen.
 
-![bark_welcome_page](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_welcome.png){class="glboxshadow"}
+![bark_welcome_page](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/bark_welcome.png){class="glboxshadow"}
 <small>(Bark-Anmeldung)</small>
 
-![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_setup.png){class="glboxshadow"}
+![bark_set_up](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/bark_setup.png){class="glboxshadow"}
 <small>(Gerät gekoppelt)</small>
 
-![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_create_profile.png){class="glboxshadow"}
+![bark_set_up](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/bark_create_profile.png){class="glboxshadow"}
 <small>(Ein Profil erstellen)</small>
 
-![bark_set_up](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_get_started.png){class="glboxshadow"}
+![bark_set_up](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/bark_get_started.png){class="glboxshadow"}
 <small>(Ersteinrichtung)</small>
 
 Sobald Ihr Gerät mit den Bark Cloud Services verbunden und mit Ihrem Konto gekoppelt ist, wird das webbasierte Admin Panel des Routers wie folgt angezeigt.
 
-![bark_paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
+![bark_paired](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
 
 Klicken Sie auf **Go to Bark** oder [hier](https://www.bark.us/app/children/?ref=glinet&home=glinet), um sich beim Bark-Dashboard anzumelden und Ihre Regeln für die Kindersicherung einzurichten.
 

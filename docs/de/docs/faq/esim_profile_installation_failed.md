@@ -16,7 +16,7 @@ Wenn Sie versuchen, auf Ihrem GL.iNet-Router ein eSIM-Profil hinzuzufügen, die 
 
     Klicken Sie auf **Apply**, um die Änderungen zu speichern, und versuchen Sie dann erneut, Ihr eSIM-Profil hochzuladen.
 
-    ![manual dns](https://static.gl-inet.com/docs/router/en/4/faq/esim_profile_installation_failed/manual_dns.jpg){class="glboxshadow"}
+    ![manual dns](https://static.gl-inet.com/docs/router/de/4/faq/esim_profile_installation_failed/manual_dns.jpg){class="glboxshadow"}
 
 3. AdGuard Home deaktivieren.
 
@@ -32,17 +32,17 @@ Wenn Sie versuchen, auf Ihrem GL.iNet-Router ein eSIM-Profil hinzuzufügen, die 
 
     Ein korrekt formatierter QR-Code zeigt einen Aktivierungscode an, der mit **LPA:** beginnt. Einige nicht standardisierte QR-Codes liefern jedoch möglicherweise nur einen rohen Aktivierungscode ohne LPA-Präfix. Fügen Sie in diesem Fall vor dem Klicken auf **Install** manuell `LPA:` am Anfang des Codes hinzu.
 
-    ![activation code](https://static.gl-inet.com/docs/router/en/4/faq/esim_profile_installation_failed/activation_code.jpg){class="glboxshadow" width="600"}
+    ![activation code](https://static.gl-inet.com/docs/router/de/4/faq/esim_profile_installation_failed/activation_code.jpg){class="glboxshadow" width="600"}
 
 6. Prüfen, ob ein Bestätigungscode erforderlich ist.
 
     Einige eSIM-Profile erfordern während der Installation die Eingabe eines Bestätigungscodes, z. B. Smarty eSIM. Prüfen Sie Ihr eSIM-Paket oder die Installationsanleitung, um festzustellen, ob ein Bestätigungscode benötigt wird. Falls ja, geben Sie den richtigen Code ein.
 
-    ![confirmation code](https://static.gl-inet.com/docs/router/en/4/faq/esim_profile_installation_failed/confirmation_code.jpg){class="glboxshadow" width="600"}
+    ![confirmation code](https://static.gl-inet.com/docs/router/de/4/faq/esim_profile_installation_failed/confirmation_code.jpg){class="glboxshadow" width="600"}
 
 7. Wenn die oben genannten Schritte das Problem nicht lösen, exportieren Sie bitte das eSIM-Log auf der Seite **eSIM Management**.
 
-    ![export log](https://static.gl-inet.com/docs/router/en/4/faq/esim_profile_installation_failed/export_log.png){class="glboxshadow"}
+    ![export log](https://static.gl-inet.com/docs/router/de/4/faq/esim_profile_installation_failed/export_log.png){class="glboxshadow"}
 
     Senden Sie das Log anschließend zusammen mit den folgenden wichtigen Informationen an [support@gl-inet.com](mailto:support@gl-inet.com), um weitere Unterstützung zu erhalten.
 

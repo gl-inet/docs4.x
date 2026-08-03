@@ -4,7 +4,7 @@
 
 VPN Cascading wird in manchen Zusammenhängen auch als „Double VPN“ bezeichnet, kann sich auf GL.iNet-Routern jedoch leicht unterscheiden. Das Grundprinzip ist unten dargestellt.
 
-![gl.inet vpn cascading](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/mt2500_vpn-cascading.jpg){class="glboxshadow"}
+![gl.inet vpn cascading](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/mt2500_vpn-cascading.jpg){class="glboxshadow"}
 
 **VPN 1 (Router als VPN-Server)**: Wenn der Router als VPN-Server fungiert, greifen Clients, die mit diesem Server verbunden sind, standardmäßig über das ISP-Netzwerk des Routers auf das Internet zu.
 
@@ -24,15 +24,15 @@ VPN Cascading wird in manchen Zusammenhängen auch als „Double VPN“ bezeichn
 
 4. Nach der Verbindung wird die Seite **VPN Dashboard** wie unten dargestellt angezeigt. Der Router ist dann gleichzeitig als VPN-Server und als VPN-Client eingerichtet.
 
-    ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/4.7-vpn-dashboard.png){class="glboxshadow"}
+    ![vpn dashboard](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/4.7-vpn-dashboard.png){class="glboxshadow"}
 
     Wechseln Sie auf derselben Seite zum Abschnitt VPN Server und klicken Sie auf **Global Options**.
 
-    ![global options](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/4.7-global-options.png){class="glboxshadow"}
+    ![global options](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/4.7-global-options.png){class="glboxshadow"}
 
     Aktivieren Sie **VPN Cascading** und klicken Sie auf **Apply**.
 
-    ![enable vpn cascading](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/enable_vpn_cascading.png){class="glboxshadow gl-80-desktop"}
+    ![enable vpn cascading](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/enable_vpn_cascading.png){class="glboxshadow gl-80-desktop"}
 
 5. VPN Cascading ist nun aktiviert. Geräte, die per VPN mit Ihrem Router verbunden sind, greifen jetzt über den VPN-Dienst des Drittanbieters auf das Internet zu, statt über das ISP-Netzwerk des Routers.
 
@@ -52,7 +52,7 @@ VPN Cascading wird in manchen Zusammenhängen auch als „Double VPN“ bezeichn
         
         Geräte, die per VPN mit Ihrem Router verbunden sind, greifen dann über den VPN-Dienst des Drittanbieters auf das Internet zu, statt über das ISP-Netzwerk des Routers.
 
-        ![vpn connected global mode](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/4.8-global-mode.png){class="glboxshadow"}
+        ![vpn connected global mode](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/4.8-global-mode.png){class="glboxshadow"}
 
     ??? "Policy Mode"
     
@@ -60,27 +60,27 @@ VPN Cascading wird in manchen Zusammenhängen auch als „Double VPN“ bezeichn
         
         Klicken Sie auf das ausgegraute Feld links.
 
-        ![traffic from](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/4.8-traffic_from_1.png){class="glboxshadow"}
+        ![traffic from](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/4.8-traffic_from_1.png){class="glboxshadow"}
 
         Wählen Sie die Datenverkehrsquelle aus, auf die diese Regel angewendet werden soll. Um VPN Cascading zu aktivieren, wählen Sie **All Clients**, oder wählen Sie **Specified Connection Types** und anschließend **WireGuard/OpenVPN Server**.
 
-        ![select traffic source](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/select_traffic.jpg){class="glboxshadow"}
+        ![select traffic source](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/select_traffic.jpg){class="glboxshadow"}
 
         - **All Clients**: Dazu gehören alle LAN-Geräte, Geräte von Drop-in Gateway, Geräte aus dem Gastnetzwerk und Geräte, die per VPN mit Ihrem Router verbunden sind.
         
             Wenn der Datenverkehr aller Geräte derselben Tunnelregel folgen soll, wählen Sie **All Clients** und klicken Sie auf **Apply**.
 
-            ![all clients](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/all_clients.png){class="glboxshadow"}
+            ![all clients](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/all_clients.png){class="glboxshadow"}
 
         - **Specified Connection Types**: Damit können Sie festlegen, dass Geräte, die über eine bestimmte Methode mit dem Router verbunden sind (z. B. per VPN), dieser Tunnelregel folgen.
 
             Wenn die VPN-Clients Ihres Routers einer anderen Regel als andere Geräte folgen sollen, wählen Sie **WireGuard/OpenVPN Server** und klicken Sie auf **Apply**.
         
-            ![specified connection](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/specified_connection_types.png){class="glboxshadow"}
+            ![specified connection](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/specified_connection_types.png){class="glboxshadow"}
             
             Dies ist ein Beispiel für VPN-Tunnelregeln im Policy Mode.
             
-            ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/4.8-vpn-dashboard.png){class="glboxshadow"}
+            ![vpn dashboard](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/4.8-vpn-dashboard.png){class="glboxshadow"}
 
 5. VPN Cascading ist nun aktiviert. Geräte, die per VPN mit Ihrem Router verbunden sind, greifen jetzt über den VPN-Dienst des Drittanbieters auf das Internet zu, statt über das ISP-Netzwerk des Routers.
 
@@ -88,7 +88,7 @@ VPN Cascading wird in manchen Zusammenhängen auch als „Double VPN“ bezeichn
 
     Wenn dort angezeigt wird, dass sich die IP-Adresse des Laptops in der Region des VPN-Servers des Drittanbieters befindet (in dieser Anleitung Buenos Aires), zeigt dies, dass VPN Cascading wirksam ist.
 
-    ![vpn test](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_cascading/4.8-ipcheck.png){class="glboxshadow"}
+    ![vpn test](https://static.gl-inet.com/docs/router/de/4/tutorials/vpn_cascading/4.8-ipcheck.png){class="glboxshadow"}
 
 ---
 

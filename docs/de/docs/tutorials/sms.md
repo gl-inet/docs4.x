@@ -45,21 +45,21 @@ Nehmen Sie den GL-X3000 (Spitz AX) als Beispiel.
 
 2. Melden Sie sich in der Web-Adminoberfläche des Routers an und gehen Sie zu **INTERNET** -> **Cellular**. Klicken Sie oben rechts auf das Umschlagsymbol.
 
-    ![sms](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms.png){class="glboxshadow gl-90-desktop"}
+    ![sms](https://static.gl-inet.com/docs/router/de/4/tutorials/sms/sms.png){class="glboxshadow gl-90-desktop"}
 
 3. Sie werden zur SMS-Seite weitergeleitet, auf der Sie empfangene Nachrichten ansehen oder neue Nachrichten verfassen können.
 
-    ![sms receive](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_receive.png){class="glboxshadow gl-90-desktop"}
+    ![sms receive](https://static.gl-inet.com/docs/router/de/4/tutorials/sms/sms_receive.png){class="glboxshadow gl-90-desktop"}
 
     Klicken Sie auf eine Nachricht, um die Details anzuzeigen.
 
-    ![sms detail](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
+    ![sms detail](https://static.gl-inet.com/docs/router/de/4/tutorials/sms/sms_detail.png){class="glboxshadow"}
 
     Klicken Sie oben rechts auf die Schaltfläche **Send Message**, um eine neue Nachricht zu verfassen.
 
-    ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message1.png){class="glboxshadow"}
+    ![sms new message](https://static.gl-inet.com/docs/router/de/4/tutorials/sms/sms_new_message1.png){class="glboxshadow"}
 
-    ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message2.png){class="glboxshadow"}
+    ![sms new message](https://static.gl-inet.com/docs/router/de/4/tutorials/sms/sms_new_message2.png){class="glboxshadow"}
 
     * Recepient
 

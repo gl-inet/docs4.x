@@ -6,7 +6,7 @@ Ein GL.iNet Router kann für Geräte mit ausschließlich kabelgebundener Verbind
 
 Bitte verbinden Sie Ihr Gerät mit dem LAN-Port des Routers und richten Sie dann den [Repeater](../interface_guide/internet_repeater.md) ein.
 
-![repeatertop](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/produce_a_wired_connection/repeatertop.jpg){class="glboxshadow"}
+![repeatertop](https://static.gl-inet.com/docs/router/de/4/faq/troubleshooting/produce_a_wired_connection/repeatertop.jpg){class="glboxshadow"}
 
 ---
 

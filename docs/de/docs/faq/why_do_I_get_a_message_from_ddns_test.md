@@ -6,7 +6,7 @@ Wenn Sie den DDNS-Test auf der Seite Dynamic DNS ausführen, erhalten Sie mögli
 
 **"You need an Internet Public IP address to use Dynamic DNS."**
 
-![ddnstest](https://static.gl-inet.com/docs/router/en/4/faq/warning_on_ddns_test/ddnstest.jpg){class="glboxshadow"}
+![ddnstest](https://static.gl-inet.com/docs/router/de/4/faq/warning_on_ddns_test/ddnstest.jpg){class="glboxshadow"}
 
 Es handelt sich nicht um eine **Warnung** oder einen **Fehler**, sondern um einen Hinweis auf den Netzwerkstatus Ihres Routers.
 

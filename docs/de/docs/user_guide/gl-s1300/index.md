@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Convexa-S (GL-S1300) ist ein einzigartiges Smart-Home-Gateway mit Beamforming-Wi-Fi und optionalem Bluetooth, das all Ihre IoT-Geräte verbindet. Es bietet eine kombinierte Wi-Fi-Geschwindigkeit von 1267 Mbit/s, drei Gigabit-Ports und unterstützt MU-MIMO sowie Wi-Fi SON, um Funklöcher zu beseitigen. Mit 8 GB Speicher und OpenWrt ermöglicht es VPN, Netzwerkspeicher, anpassbare Lösungen sowie die Fernverwaltung über GoodCloud.
 
-![gl-s1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-s1300/hardware_info/s1300_interface.jpg){class="glboxshadow"}
+![gl-s1300 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-s1300/hardware_info/s1300_interface.jpg){class="glboxshadow"}
 
 ## Technische Daten
 

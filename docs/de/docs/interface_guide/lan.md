@@ -10,7 +10,7 @@ Es umfasst die Basic Settings, die DHCP-Server-Einstellungen und die Address Res
 
 Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche `192.168.0.0/16`, `172.16.0.0/12` und `10.0.0.0/8` festlegen.
 
-![lan basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/basic_settings.jpg){class="glboxshadow"}
+![lan basic settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/lan/basic_settings.jpg){class="glboxshadow"}
 
 - **Router IP Address**
 
@@ -34,13 +34,13 @@ Wenn der DHCP-Server deaktiviert ist, müssen Sie die Netzwerkeinstellungen für
 
 Sie können die Start- und End-IP-Adresse an Ihre Anforderungen anpassen, zum Beispiel wenn Ihr Netzwerk wächst oder kleiner wird, wenn IP-Adresskonflikte auftreten oder wenn sich der Bereich der Subnetzmaske ändert.
 
-![dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_server.png){class="glboxshadow"}
+![dhcp simple settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/lan/dhcp_server.png){class="glboxshadow"}
 
 Klicken Sie bei Bedarf auf **Advanced**, um weitere Einstellungen vorzunehmen.
 
-![dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_advanced_1.png){class="glboxshadow"}
+![dhcp advanced settings 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/lan/dhcp_advanced_1.png){class="glboxshadow"}
 
-![dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/dhcp_advanced_2.png){class="glboxshadow"}
+![dhcp advanced settings 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/lan/dhcp_advanced_2.png){class="glboxshadow"}
 
 - **Lease Time**: Der Zeitraum, für den eine vom DHCP zugewiesene IP-Adresse für ein Gerät gültig ist.
 
@@ -60,19 +60,19 @@ Wenn Sie für einen Client im LAN eine reservierte IP-Adresse festlegen, erhält
 
 Klicken Sie auf **Add**, um eine IP zu reservieren.
 
-![Address Reservation 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_1.png){class="glboxshadow"}
+![Address Reservation 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/lan/address_reservation_1.png){class="glboxshadow"}
 
 Es erscheint ein Pop-up-Fenster.
 
-![Address Reservation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_2.png){class="glboxshadow"}
+![Address Reservation 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/lan/address_reservation_2.png){class="glboxshadow"}
 
 Wählen Sie die **MAC** aus der Dropdown-Liste aus; die zur ausgewählten MAC gehörende **IP** wird automatisch eingetragen. Vergeben Sie einen aussagekräftigen Namen und klicken Sie dann auf **Submit**.
 
-![Address Reservation 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_3.png){class="glboxshadow"}
+![Address Reservation 3](https://static.gl-inet.com/docs/router/de/4/interface_guide/lan/address_reservation_3.png){class="glboxshadow"}
 
 Nach dem Hinzufügen einer neuen IP-Adressreservierung wird die unten gezeigte Seite angezeigt. Das bedeutet, dass die Einrichtung erfolgreich war.
 
-![Address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/address_reservation_4.jpg){class="glboxshadow"}
+![Address Reservation 4](https://static.gl-inet.com/docs/router/de/4/interface_guide/lan/address_reservation_4.jpg){class="glboxshadow"}
 
 ---
 

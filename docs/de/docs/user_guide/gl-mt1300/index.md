@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Beryl (GL-MT1300) ist ein leistungsstarker Router im Taschenformat, der starke Hardware, erstklassige Cybersicherheitsprotokolle sowie ein einzigartiges und modernes Design bietet. Als weiterentwickelte Version unseres Bestsellers Slate (GL-AR750S) läutet Beryl eine neue Ära der Reiserouter ein.
 
-![gl-mt1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/hardware_info/mt1300_interface.jpg){class="glboxshadow"}
+![gl-mt1300 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt1300/hardware_info/mt1300_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -49,7 +49,7 @@ Der Lieferumfang umfasst:
 - 1 x Garantiekarte
 - 1 x Netzadapter (ausgewählter Steckertyp)
 
-![gl-mt1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
+![gl-mt1300 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
 
 Sehen Sie sich das [Unboxing-Video](../../video_library/unboxing_first_set_up.md/#gl-mt1300-beryl) von Beryl an.
 
@@ -73,7 +73,7 @@ Verbinden Sie Ihren Router per Ethernet-Kabel mit einem aktiven Modem oder einem
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt1300/internet/mt1300_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -81,7 +81,7 @@ Richten Sie Ihren Router als Repeater ein, um die Wi-Fi-Abdeckung eines bestehen
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt1300/internet/mt1300_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -89,7 +89,7 @@ Verbinden Sie den USB-Port des Routers per USB-Kabel mit einem Smartphone mit ak
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt1300/internet/mt1300_tethering.png){class="glboxshadow"}
 
 ### Cellular
  
@@ -97,7 +97,7 @@ Verbinden Sie den Router mit dem Internet, indem Sie ein mobilfunkfähiges USB-M
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein USB-Modem eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/internet/mt1300_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-mt1300/internet/mt1300_cellular.png){class="glboxshadow"}
 
 ### Multi-WAN
 

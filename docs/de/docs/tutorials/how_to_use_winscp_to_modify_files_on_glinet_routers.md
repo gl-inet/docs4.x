@@ -8,7 +8,7 @@ WinSCP ist ein einfaches Werkzeug zum Bearbeiten, Kopieren und Herunterladen von
 
 2. Verbinden Sie sich mit dem Router und starten Sie dann WinSCP.
 
-    ![WinSCP login](https://static.gl-inet.com/docs/router/en/4/tutorials/winscp/login.png){class="glboxshadow"}
+    ![WinSCP login](https://static.gl-inet.com/docs/router/de/4/tutorials/winscp/login.png){class="glboxshadow"}
 
     * **File protocol**: Wählen Sie `SCP` als Protokoll.
     * **Host name**: Geben Sie die IP-Adresse des Routers ein. Wenn Sie die IP Ihres Routers nicht geändert haben, sollte sie `192.168.8.1` lauten.
@@ -21,15 +21,15 @@ WinSCP ist ein einfaches Werkzeug zum Bearbeiten, Kopieren und Herunterladen von
 
     Sie können Dateien und Verzeichnisse auf dem Router auswählen, anzeigen, bearbeiten oder vom/zum Router übertragen.
 
-    ![WinSCP panel](https://static.gl-inet.com/docs/router/en/4/tutorials/winscp/winscp_panel_marked.png){class="glboxshadow"}
+    ![WinSCP panel](https://static.gl-inet.com/docs/router/de/4/tutorials/winscp/winscp_panel_marked.png){class="glboxshadow"}
 
     Wenn Sie zum Beispiel die Firewall-Konfiguration bearbeiten möchten, können Sie zu /etc/config gehen, die Datei `firewall` suchen, mit der rechten Maustaste darauf klicken und dann **Edit** wählen.
 
-    ![WinSCP edit 1](https://static.gl-inet.com/docs/router/en/4/tutorials/winscp/edit_1.png){class="glboxshadow"}
+    ![WinSCP edit 1](https://static.gl-inet.com/docs/router/de/4/tutorials/winscp/edit_1.png){class="glboxshadow"}
 
     Jetzt können Sie den Dateiinhalt frei bearbeiten. Achten Sie darauf, die Einstellungen nicht zu beschädigen.
 
-    ![WinSCP edit 2](https://static.gl-inet.com/docs/router/en/4/tutorials/winscp/edit_2.png){class="glboxshadow"}
+    ![WinSCP edit 2](https://static.gl-inet.com/docs/router/de/4/tutorials/winscp/edit_2.png){class="glboxshadow"}
 
 ---
 

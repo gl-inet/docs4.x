@@ -8,11 +8,11 @@ Dieses Tutorial beschreibt die Installation und den Austausch externer Antennen 
 
 Mudi 7 (GL-E5800) ist mit zwei TS‑9-Antennenports ausgestattet, die Mobilfunkfrequenzen von 600 MHz bis 6 GHz unterstützen. Sie können externe Antennen (nicht im Lieferumfang enthalten) anschließen, um das Mobilfunksignal in Bereichen mit schwacher Abdeckung zu verbessern. Das Gerät eignet sich ideal für Wohnmobile, Keller und Innenräume, um die Reichweite zu erweitern und eine stabile Verbindung sicherzustellen.
 
-![e5800 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/e5800-antenna.png){class="glboxshadow"}
+![e5800 antennas](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/e5800-antenna.png){class="glboxshadow"}
 
 Die TS‑9-Ports am Mudi 7 sind Buchsenanschlüsse (Innenöffnung). Sie benötigen Antennen mit einem TS‑9-Stecker (Innenstift).
 
-![ts-9 connector](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/ts9_connector.png){class="glboxshadow" width="328"}
+![ts-9 connector](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/ts9_connector.png){class="glboxshadow" width="328"}
 
 ### Spitz AX / Puli AX
 
@@ -28,7 +28,7 @@ Gehen Sie zum Installieren der externen Antennen wie folgt vor:
     * Befestigen Sie die beiden identischen Wi-Fi-6-Antennen an den Ports **Wi-Fi 1** und **Wi-Fi 2**.
     * Befestigen Sie die vier identischen 5G-NR-Antennen an den Ports **MAIN**, **DIV**, **MIMO 1** und **MIMO2**.
 
-    ![x3000 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x3000-antennas.jpg){class="gl-80-desktop glboxshadow"}
+    ![x3000 antennas](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/x3000-antennas.jpg){class="gl-80-desktop glboxshadow"}
 
 2. Richten Sie die Antennen für optimale Leistung nach oben aus.
 
@@ -46,7 +46,7 @@ Gehen Sie zum Installieren der externen Antennen wie folgt vor:
     - Befestigen Sie die beiden identischen Wi-Fi-Antennen an den **Wi-Fi 6**-Ports.
     - Befestigen Sie die beiden identischen 4G-Antennen am **4G**-Port.
 
-    ![x2000 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x2000-back.png){class="gl-80-desktop glboxshadow"}
+    ![x2000 antennas](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/x2000-back.png){class="gl-80-desktop glboxshadow"}
 
 2. Richten Sie die Antennen für optimale Leistung nach oben aus.
 
@@ -58,7 +58,7 @@ Gehen Sie zum Installieren der externen Antennen wie folgt vor:
 
 1. Befestigen Sie die beiden identischen 4G-Antennen an den Antennenports.
 
-    ![x750v2 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x750v2_back.png){class="gl-80-desktop glboxshadow"}
+    ![x750v2 antennas](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/x750v2_back.png){class="gl-80-desktop glboxshadow"}
 
 2. Richten Sie die Antennen für optimale Leistung nach oben aus.
 
@@ -80,7 +80,7 @@ Es gibt drei Versionen von Collie: **GL-X300B-RS485**, **GL-X300B-BLE** und **GL
         - Befestigen Sie die beiden identischen Wi-Fi-Antennen an den **2.4G**-Ports.
         - Befestigen Sie die einzelne 4G-Antenne am **4G**-Port.
 
-        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b rs485 antennas](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/x300b-rs485-back.png){class="gl-80-desktop glboxshadow"}
 
     2. Richten Sie die Antennen für optimale Leistung nach oben aus.
 
@@ -100,7 +100,7 @@ Es gibt drei Versionen von Collie: **GL-X300B-RS485**, **GL-X300B-BLE** und **GL
         - Befestigen Sie die einzelne 4G-Antenne am **4G**-Port.
         - Befestigen Sie die einzelne BLE-Antenne am **BLE**-Port.
 
-        ![x300b ble antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b ble antennas](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/x300b-ble-back.png){class="gl-80-desktop glboxshadow"}
 
     2. Richten Sie die Antennen für optimale Leistung nach oben aus.
 
@@ -120,11 +120,11 @@ Es gibt drei Versionen von Collie: **GL-X300B-RS485**, **GL-X300B-BLE** und **GL
         - Befestigen Sie die beiden identischen 4G-Antennen an den **4G**-Ports.
         - Befestigen Sie die einzelne GPS-Antenne am **GPS**-Port.
 
-        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/x300b-gps-back.png){class="gl-80-desktop glboxshadow"}
 
     2. Positionieren Sie die Antennen korrekt und vermeiden Sie ein Verheddern, um optimale Leistung sicherzustellen.
 
-        ![x300b gps antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/x300b-gps.jpg){class="glboxshadow"}
+        ![x300b gps antennas](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/x300b-gps.jpg){class="glboxshadow"}
 
 ## Externe Antennen wechseln
 
@@ -142,13 +142,13 @@ Wenn Sie lieber Antennen von Drittanbietern verwenden möchten, lesen Sie die fo
 
 Die Basis der Wi-Fi-Antenne verwendet einen **RP-SMA-Buchsenanschluss** (Außengewinde und Innenstift). Erforderlich ist eine Wi-Fi-Antenne mit einem **RP-SMA-Stecker** (Innengewinde und Innenöffnung).
 
-![rp-sma connectors](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/rp-sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
+![rp-sma connectors](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/rp-sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
 
 ### 5G-NR-Antennen
 
 Die Basis der 5G-NR-Antenne verwendet einen **SMA-Buchsenanschluss** (Außengewinde und Innenöffnung). Erforderlich ist eine 5G-NR-Antenne mit einem **SMA-Stecker** (Innengewinde und Innenstift).
 
-![sma connectors](https://static.gl-inet.com/docs/router/en/4/tutorials/change_x3000_xe3000_antennas/sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
+![sma connectors](https://static.gl-inet.com/docs/router/de/4/tutorials/change_x3000_xe3000_antennas/sma-connectors.jpg){class="gl-80-desktop glboxshadow"}
 
 ---
 

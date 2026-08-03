@@ -6,7 +6,7 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **NAT Sett
 
 Auf dieser Seite können Sie **Full Cone NAT** aktivieren, um die Stabilität von Peer-to-Peer-Verbindungen für Anwendungen wie Gaming oder Streaming zu verbessern, sowie **SIP ALG**, um Kompatibilitätsprobleme mit VoIP-/SIP-basierten Telefondiensten zu beheben.
 
-![nat settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/nat_settings/nat_settings.png){class="glboxshadow"}
+![nat settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/nat_settings/nat_settings.png){class="glboxshadow"}
 
 ## Unterstützte Modelle
 

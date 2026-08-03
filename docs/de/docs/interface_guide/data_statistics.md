@@ -25,7 +25,7 @@ Gehen Sie auf der linken Seite des Web-Admin-Panels zu **FLOW CONTROL** -> **Dat
 
 Schalten Sie den Schalter oben rechts ein, um **Application Total Data** anzuzeigen.
 
-![data statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/data_stat.png){class="glboxshadow"}
+![data statistics](https://static.gl-inet.com/docs/router/de/4/interface_guide/data_statistics/data_stat.png){class="glboxshadow"}
 
 Diese Seite besteht aus zwei Bereichen:
 
@@ -33,13 +33,13 @@ Diese Seite besteht aus zwei Bereichen:
 
     Bewegen Sie den Mauszeiger über das Diagramm, um den Datenverbrauch der 10 bandbreitenintensivsten Apps zu einem bestimmten Zeitpunkt anzuzeigen.
 
-    ![top10 apps chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/top10_apps_chart.png){class="glboxshadow"}
+    ![top10 apps chart](https://static.gl-inet.com/docs/router/de/4/interface_guide/data_statistics/top10_apps_chart.png){class="glboxshadow"}
 
 - **App Traffic Statistics**: Dieser Bereich zeigt detaillierte Verkehrsmetriken für jede Anwendung an, einschließlich Download, Upload und Total Bandwidth. Suchen Sie bei Bedarf über die Suchleiste nach bestimmten Apps.
 
     Klicken Sie auf den Sortierpfeil neben der Spaltenüberschrift, um die Liste auf- oder absteigend zu sortieren.
 
-    ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat1.png){class="glboxshadow"}
+    ![app traffic stat](https://static.gl-inet.com/docs/router/de/4/interface_guide/data_statistics/app_traffic_stat1.png){class="glboxshadow"}
 
 ## Regeln zur Datenspeicherung
 
@@ -53,27 +53,27 @@ Diese Seite besteht aus zwei Bereichen:
 
 Sie können den Zeitbereich je nach Bedarf zwischen Past Hour, Past Day und Past Week umschalten.
 
-![select time range](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/select_time_range.jpg){class="glboxshadow"}
+![select time range](https://static.gl-inet.com/docs/router/de/4/interface_guide/data_statistics/select_time_range.jpg){class="glboxshadow"}
 
 Der gewählte Zeitbereich bestimmt, wie die Daten dargestellt werden:
 
 - **Für eine detaillierte Ansicht (z. B. Past Hour)**: Das Diagramm zeigt feingranulare Schwankungen nahezu in Echtzeit. Spitzen wirken höher und Einbrüche steiler, sodass plötzliche Bandbreitenspitzen leichter zu erkennen sind.
 
-    ![past hour](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_hour.png){class="glboxshadow"}
+    ![past hour](https://static.gl-inet.com/docs/router/de/4/interface_guide/data_statistics/past_hour.png){class="glboxshadow"}
 
 - **Für einen allgemeinen Überblick (z. B. Past Day oder Past Week)**: Das Diagramm verdichtet die Daten über einen längeren Zeitraum. Die Kurven werden glatter und zeigen eher den allgemeinen Verkehrstrend als jede kleine Änderung.
 
-    ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
+    ![past week](https://static.gl-inet.com/docs/router/de/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
 ## Statistiken löschen
 
 Klicken Sie oben links auf das Besensymbol, um die Statistiken bei Bedarf zu löschen.
 
-![clear data](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data1.png){class="glboxshadow"}
+![clear data](https://static.gl-inet.com/docs/router/de/4/interface_guide/data_statistics/clear_data1.png){class="glboxshadow"}
 
 Nach dem Löschen wird die Seite wie unten gezeigt aktualisiert. Möglicherweise müssen Sie einen Moment warten, bis neue Statistiken geladen werden.
 
-![clear data](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data2.png){class="glboxshadow"}
+![clear data](https://static.gl-inet.com/docs/router/de/4/interface_guide/data_statistics/clear_data2.png){class="glboxshadow"}
 
 ---
 

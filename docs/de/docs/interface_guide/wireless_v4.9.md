@@ -48,9 +48,9 @@ Es wird empfohlen, Wi-Fi-7-Clients mit MLO Wi-Fi zu verbinden, da dies den Netzw
 
 Klicken Sie auf **Add**, um ein MLO-Wi-Fi-Netzwerk einzurichten, und anschließend auf **Apply**. Beachten Sie, dass die verfügbaren Wi-Fi-Bänder je nach Modell variieren.
 
-![mlo1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo1.png){class="glboxshadow"}
+![mlo1](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/mlo1.png){class="glboxshadow"}
 
-![mlo2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo2.png){class="glboxshadow"}
+![mlo2](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/mlo2.png){class="glboxshadow"}
 
 - Wi-Fi Band: Wählen Sie mindestens zwei Funkbänder aus.
 - Wi-Fi Security: Wenn das 6-GHz-Band ausgewählt ist, ist WPA3-SAE die einzige verfügbare und empfohlene Option. Sie funktioniert mit den meisten MLO-fähigen Geräten am besten.
@@ -58,27 +58,27 @@ Klicken Sie auf **Add**, um ein MLO-Wi-Fi-Netzwerk einzurichten, und anschließe
 
 Nach der Aktivierung wird die Seite wie folgt angezeigt.
 
-![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
+![mlo3](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
 
 ## Main Network
 
 Das Main Network ist Ihr primäres Wi-Fi-Netzwerk und unterstützt die gleichzeitige Ausstrahlung über verschiedene Funkbänder, die standardmäßig alle aktiviert sind. Sie können für jedes Band separate Einstellungen konfigurieren, z. B. Wi-Fi-SSID, Sicherheitsmodus, Passwort, Randomized BSSID, TX-Leistung, Bandbreite und Kanal.
 
-![main](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main.png){class="glboxshadow"}
+![main](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/main.png){class="glboxshadow"}
 
 Klicken Sie rechts auf das Zahnradsymbol, um die Wi-Fi-Einstellungen für jedes Band anzuzeigen oder zu ändern. Beachten Sie, dass die verfügbaren Wi-Fi-Bänder je nach Modell variieren.
 
 - 6 GHz
 
-    ![main 6g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_6g.png){class="glboxshadow"}
+    ![main 6g](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/main_6g.png){class="glboxshadow"}
 
 - 5 GHz
 
-    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_5g.png){class="glboxshadow"}
+    ![main 5g](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/main_5g.png){class="glboxshadow"}
 
 - 2.4 GHz
 
-    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
+    ![main 5g](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
 ## Guest Network
 
@@ -86,13 +86,13 @@ Das Guest Network ist ein dediziertes Wi-Fi-Netzwerk für Besucher; standardmä�
 
 Klicken Sie auf **Add**, um ein Guest-Wi-Fi-Netzwerk einzurichten, und anschließend auf **Apply**. Beachten Sie, dass die verfügbaren Wi-Fi-Bänder je nach Modell variieren.
 
-![guest1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest1.png){class="glboxshadow"}
+![guest1](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/guest1.png){class="glboxshadow"}
 
-![guest2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest2.png){class="glboxshadow"}
+![guest2](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/guest2.png){class="glboxshadow"}
 
 Nach der Aktivierung wird die Seite wie folgt angezeigt.
 
-![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
+![guest3](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
 
 ## IoT Network
 
@@ -100,13 +100,13 @@ Das IoT Network ist ein dediziertes Wi-Fi-Netzwerk für Smart-Home-Geräte; stan
 
 Klicken Sie auf **Add**, um ein IoT-Wi-Fi-Netzwerk einzurichten, und anschließend auf **Apply**. Beachten Sie, dass dieses Netzwerk kein 6-GHz-Band umfasst und die verfügbaren Wi-Fi-Bänder je nach Modell variieren.
 
-![iot1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot1.png){class="glboxshadow"}
+![iot1](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/iot1.png){class="glboxshadow"}
 
-![iot2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot2.png){class="glboxshadow"}
+![iot2](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/iot2.png){class="glboxshadow"}
 
 Nach der Aktivierung wird die Seite wie folgt angezeigt.
 
-![iot3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot3.png){class="glboxshadow"}
+![iot3](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/iot3.png){class="glboxshadow"}
 
 ---
 

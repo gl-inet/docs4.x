@@ -12,11 +12,11 @@ Gehen Sie in der Web-Adminoberfläche auf der linken Seite zu **SECURITY** -> **
 
 Klicken Sie rechts auf die Schaltfläche **Add Rule**.
 
-![acl add rule 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/acl/add_rule1.png){class="glboxshadow"}
+![acl add rule 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/acl/add_rule1.png){class="glboxshadow"}
 
 Erstellen Sie im Pop-up-Fenster Ihre ACL-Regel und klicken Sie dann auf **Apply**.
 
-![acl add rule 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/acl/add_rule2.png){class="glboxshadow"}
+![acl add rule 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/acl/add_rule2.png){class="glboxshadow"}
 
 - **Name**: Geben Sie einen benutzerdefinierten Namen für die Regel ein.
 

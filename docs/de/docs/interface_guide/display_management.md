@@ -8,30 +8,30 @@ Auf dieser Seite können Sie das Touchscreen-Display und die dazugehörigen Eins
 
 ## GL-BE3600
 
-![display management](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_display.png){class="glboxshadow"}
+![display management](https://static.gl-inet.com/docs/router/de/4/interface_guide/display_management/be3600_display.png){class="glboxshadow"}
 
 - **Function Management**: Legen Sie fest, welche Funktionen auf dem Touchscreen angezeigt werden.
 
-    ![function](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_function.png){class="glboxshadow"}
+    ![function](https://static.gl-inet.com/docs/router/de/4/interface_guide/display_management/be3600_function.png){class="glboxshadow"}
     
 - **Lock Screen**: Passen Sie die Sperrbildschirm-Einstellungen an, einschließlich Wake Display und Hintergrundbild.
 
-    ![lock screen](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_lockscreen.png){class="glboxshadow"}
+    ![lock screen](https://static.gl-inet.com/docs/router/de/4/interface_guide/display_management/be3600_lockscreen.png){class="glboxshadow"}
 
     Stellen Sie das Hintergrundbild auf **Customize**, dann können Sie ein Bild mit einer Größe von maximal 5 MB hochladen.
 
-    ![wallpaper customize](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_wallpaper_custom.png){class="glboxshadow"}
+    ![wallpaper customize](https://static.gl-inet.com/docs/router/de/4/interface_guide/display_management/be3600_wallpaper_custom.png){class="glboxshadow"}
 
 - **Brightness**: Passen Sie die Helligkeit des Touchscreens an. Verwenden Sie den Schieberegler oder geben Sie eine bestimmte Stufe ein (Bereich 1 bis 10), um sie an verschiedene Lichtverhältnisse anzupassen.  
 - **Auto Lock**: Legen Sie die Verzögerung fest, nach der sich der Bildschirm bei Inaktivität automatisch sperrt. Der Bereich liegt zwischen 1 und 30 Minuten.
 - **Screen Always On**: Aktivieren oder deaktivieren Sie diese Option, um festzulegen, ob der Touchscreen dauerhaft eingeschaltet bleibt oder sich nach Inaktivität ausschaltet.
 - **Enable Screen Passcode**: Aktivieren Sie einen Passcode für den Touchscreen als zusätzliche Sicherheitsebene (nur 4-stellige Zahlen).
 
-    ![screen passcode](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_passcode.png){class="glboxshadow"}
+    ![screen passcode](https://static.gl-inet.com/docs/router/de/4/interface_guide/display_management/be3600_passcode.png){class="glboxshadow"}
 
 ## GL-E5800
 
-![display management](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/e5800_display.png){class="glboxshadow"}
+![display management](https://static.gl-inet.com/docs/router/de/4/interface_guide/display_management/e5800_display.png){class="glboxshadow"}
 
 - **Wallpaper**: Passen Sie das Hintergrundbild und die Darstellung beim Aktivieren des Displays an.
 - **Brightness**: Passen Sie die Helligkeit des Touchscreens an. Verwenden Sie den Schieberegler oder geben Sie einen Prozentwert ein, um sie an verschiedene Lichtverhältnisse anzupassen.

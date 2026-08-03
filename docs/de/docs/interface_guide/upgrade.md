@@ -14,7 +14,7 @@ Bei einigen Mobilfunkmodellen können Sie bei Bedarf auch die Modulversion aktua
 
 Hier finden Sie die aktuelle Firmware-Version.
 
-![upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
+![upgrade](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/online_upgrade.png){class="glboxshadow"}
 
 - **Accept Preview Plan**
 
@@ -22,23 +22,23 @@ Hier finden Sie die aktuelle Firmware-Version.
 
 Wenn Ihr Router mit dem Internet verbunden ist, sucht er nach verfügbaren Firmware-Updates.
 
-![upgrade reminder](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/upgrade_reminder.png){class="glboxshadow"}
+![upgrade reminder](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/upgrade_reminder.png){class="glboxshadow"}
 
 **Hinweis**: Wenn Sie ein Online-Upgrade durchführen möchten und **Download Failed** angezeigt wird, gehen Sie bitte zu System -> Time Zone und beheben Sie den Fehler bei der Zeitzone (mit dem Browser synchronisieren).
 
-![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow gl-50-desktop"}
+![online download failed](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow gl-50-desktop"}
 
-![time zone](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
+![time zone](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 
 ### Lokales Upgrade
 
 Wählen Sie eine Firmware-Datei aus oder ziehen Sie sie per Drag-and-drop hinein, um das Upgrade durchzuführen. Sie können die Firmware aus unserem [Download-Center](https://dl.gl-inet.com){target="_blank"} herunterladen.
 
-![local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
+![local upgrade](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/local_upgrade.png){class="glboxshadow"}
 
 Nach dem Hochladen wird die Firmware verifiziert.
 
-![local upgrade uploaded](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
+![local upgrade uploaded](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/local_upgrade_uploaded.png){class="glboxshadow"}
 
 - **Keep Settings:** Wenn diese Option aktiviert ist, bleiben die aktuellen Einstellungen erhalten, und Sie werden nach Abschluss des Upgrades aufgefordert, alle vom Benutzer installierten Pakete erneut zu installieren. Aktivieren Sie diese Option **NICHT**, wenn Sie die Firmware auf eine ältere Version zurücksetzen.
 
@@ -54,13 +54,13 @@ Sie können ein Upgrade des Mobilfunkmoduls versuchen, wenn die Mobilfunkverbind
 
 Hier finden Sie die aktuelle Version des Mobilfunkmodems. Wenn Ihr Router mit dem Internet verbunden ist, sucht er automatisch auf dem Server des Herstellers nach der neuesten Version des Mobilfunkmodems und vereinfacht dadurch den Update-Prozess.
 
-![modem online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
+![modem online upgrade](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/modem_online_upgrade.png){class="glboxshadow"}
 
 ### Lokales Upgrade
 
 Laden Sie bei Bedarf manuell eine Modem-Firmware-Datei von Ihrem Computer hoch, um das Mobilfunkmodem zu aktualisieren.
 
-![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
+![modem local upgrade](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
 ---
 

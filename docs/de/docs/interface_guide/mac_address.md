@@ -14,21 +14,21 @@ Auf dieser Seite können Sie die Standard-MAC-Adresse des Routers einsehen, die 
 
 Wenn das Gerät unterstützt, dass mehrere Ethernet-Ports als WAN-Ports verwendet werden, können Sie die MAC-Adresse für jeden Port separat festlegen. Beachten Sie, dass die MAC-Adresseneinstellung nur dann wirksam ist, wenn der Ethernet-Port als WAN-Port verwendet wird.
 
-![default mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/mac_address.png){class="glboxshadow"}
+![default mac address](https://static.gl-inet.com/docs/router/de/4/interface_guide/mac_address/mac_address.png){class="glboxshadow"}
 
 * Die werkseitige Standard-MAC-Adresse.
 
-    ![default mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/factory_default.png){class="glboxshadow"}
+    ![default mac address](https://static.gl-inet.com/docs/router/de/4/interface_guide/mac_address/factory_default.png){class="glboxshadow"}
 
 * Die MAC-Adresse eines Clients klonen.
 
-    ![clone mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/clone.png){class="glboxshadow"}
+    ![clone mac address](https://static.gl-inet.com/docs/router/de/4/interface_guide/mac_address/clone.png){class="glboxshadow"}
 
     **Hinweis:** Viele neue Geräte verwenden inzwischen unterschiedliche zufällige MAC-Adressen, um sich mit verschiedenen Wi-Fi-Netzwerken zu verbinden. Daher entspricht die hier angezeigte MAC-Adresse möglicherweise nicht der tatsächlichen MAC-Adresse des Geräts. Diese zufällige MAC kann je nach Gerät auch als „Private Wi-Fi Address“ oder „random hardware address“ bezeichnet werden.
 
 * Eine MAC-Adresse manuell eingeben oder eine zufällige MAC-Adresse erzeugen.
 
-    ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/router/en/4/interface_guide/mac_address/manual.png){class="glboxshadow"}
+    ![Manual input or generate a random mac address](https://static.gl-inet.com/docs/router/de/4/interface_guide/mac_address/manual.png){class="glboxshadow"}
 
 ## Anwendungsszenarien
 

@@ -42,7 +42,7 @@ Sie können das Verhalten dieses Schalters im Web-Admin-Panel anpassen.
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **SYSTEM** -> **Toggle Button Settings**.
 
-![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
+![toggle button settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
 
 Vor Firmware v4.8 standen die folgenden Optionen zur Verfügung, mit denen Benutzer die Funktion des Toggle-Buttons anpassen konnten.
 
@@ -62,7 +62,7 @@ Seit Firmware v4.8 wurden weitere Optionen hinzugefügt: Repeater, Wi‑Fi und L
 - AdGuard Home
 - LED
 
-![toggle button 4.8](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_4.8.png){class="glboxshadow"}
+![toggle button 4.8](https://static.gl-inet.com/docs/router/de/4/interface_guide/toggle_button_settings/toggle_button_4.8.png){class="glboxshadow"}
 
 Beim Anwenden der Einstellungen können Sie festlegen, ob die ausgewählte Funktion sofort entsprechend der Ein-/Aus-Position (links/rechts) des physischen Schalters aktiviert bzw. deaktiviert werden soll.
 

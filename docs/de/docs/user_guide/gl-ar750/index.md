@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Creta (GL-AR750) ist ein Dual-Band-AC-Reiserouter. Das gleichzeitige Dual-Band unterstützt eine drahtlose Übertragungsrate von bis zu 733 Mbit/s (2.4 GHz: 300 Mbit/s + 5 GHz: 433 Mbit/s). Creta kann ein öffentliches Netzwerk in ein privates Wi-Fi für sicheres Surfen umwandeln. Der externe Speicher unterstützt MicroSD-Karten bis 128 GB. OpenWrt/LEDE und OpenVPN sind vorinstalliert. Dadurch bietet Creta datenschutzbewussten Benutzern ein schnelles und einfaches VPN mit moderner Kryptografie.
 
-![ar750 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/product_info/ar750_overview.png){class="glboxshadow"}
+![ar750 overview](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750/product_info/ar750_overview.png){class="glboxshadow"}
 
 ### Technische Daten
 
@@ -79,7 +79,7 @@ Geben Sie in einem Webbrowser `192.168.8.1` in die Adressleiste ein. Wählen Sie
 
 === "Ethernet"
 
-    ![ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/ethernet.png){class="glboxshadow"}
+    ![ethernet](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750/internet_setup/ethernet.png){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, z. B. einem Modem. Wenn die Internetverbindung erfolgreich hergestellt wurde, erscheint neben „Ethernet“ ein grüner Punkt.
 
@@ -87,7 +87,7 @@ Geben Sie in einem Webbrowser `192.168.8.1` in die Adressleiste ein. Wählen Sie
 
 === "Repeater"
 
-    ![repeater](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/repeater.png){class="glboxshadow"}
+    ![repeater](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750/internet_setup/repeater.png){class="glboxshadow"}
 
     1. Suchen Sie auf der Hauptseite des Web-Admin-Panels den Bereich „Repeater“ und klicken Sie dann auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus.
@@ -99,7 +99,7 @@ Geben Sie in einem Webbrowser `192.168.8.1` in die Adressleiste ein. Wählen Sie
 
 === "Tethering"
 
-    ![tethering](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/tethering.png){class="glboxshadow"}
+    ![tethering](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750/internet_setup/tethering.png){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Smartphone per USB-Kabel mit dem Router und aktivieren Sie in den Einstellungen des persönlichen Hotspots die Netzwerkfreigabe.
     2. Suchen Sie auf der Hauptseite des Web-Admin-Panels den Bereich „Tethering“ und klicken Sie dann auf **Connect**.
@@ -109,7 +109,7 @@ Geben Sie in einem Webbrowser `192.168.8.1` in die Adressleiste ein. Wählen Sie
 
 === "Cellular"
 
-    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750/internet_setup/usb_modem.png){class="glboxshadow"}
+    ![cellular](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-ar750/internet_setup/usb_modem.png){class="glboxshadow"}
 
     1. Stecken Sie ein Mobilfunk-USB-Modem in den USB-Port des Routers.
     2. Suchen Sie auf der Hauptseite des Web-Admin-Panels den Bereich „Cellular“ und klicken Sie dann auf **Connect**.

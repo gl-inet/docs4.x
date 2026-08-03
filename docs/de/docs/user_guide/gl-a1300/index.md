@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Slate Plus (GL-A1300) ist ein kompakter Reiserouter im Taschenformat mit einer leistungsstarken CPU, die auf Netzwerkstabilität optimiert ist und VPN-Verschlüsselung effizient verarbeitet. Er verfügt über unsere neuesten Sicherheitsfunktionen und läuft mit dem aktuellen OpenWrt-Betriebssystem. Er wurde für Vielreisende entwickelt, die hohe Anforderungen an die Nutzung von VPN-Netzwerken haben.
 
-![GL-A1300 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){class="glboxshadow"}
+![GL-A1300 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-a1300/hardware_info/gl-a1300_interface.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -48,7 +48,7 @@ Der Lieferumfang umfasst:
 - 1 x Garantiekarte
 - 1 x Netzadapter (ausgewählter Steckertyp)
 
-![gl-a1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/first_time_setup/gl-a1300_unboxing.jpg){class="glboxshadow"}
+![gl-a1300 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-a1300/first_time_setup/gl-a1300_unboxing.jpg){class="glboxshadow"}
 
 ## LED-Anzeige
 
@@ -82,7 +82,7 @@ Verbinden Sie den Router per Ethernet-Kabel mit einem aktiven Modem oder einem a
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein Ethernet-Kabel eine Internetverbindung herstellen](../../interface_guide/internet_ethernet.md)
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_ethernet.png){class="glboxshadow"}
+![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-a1300/internet/a1300_ethernet.png){class="glboxshadow"}
 
 ### Repeater
 
@@ -90,7 +90,7 @@ Erweitern Sie die Wi-Fi-Abdeckung eines bestehenden Wi-Fi-Netzwerks, indem der R
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein vorhandenes Wi-Fi eine Internetverbindung herstellen](../../interface_guide/internet_repeater.md)
 
-![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_repeater.png){class="glboxshadow"}
+![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-a1300/internet/a1300_repeater.png){class="glboxshadow"}
 
 ### Tethering
 
@@ -98,7 +98,7 @@ Stellen Sie den verbundenen Geräten einen Internetzugang bereit, indem Sie die 
 
 [Klicken Sie hier, um zu erfahren, wie Sie über USB-Tethering eine Internetverbindung herstellen](../../interface_guide/internet_tethering.md)
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_tethering.png){class="glboxshadow"}
+![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-a1300/internet/a1300_tethering.png){class="glboxshadow"}
 
 ### Cellular
 
@@ -106,7 +106,7 @@ Verbinden Sie den Router mit dem Internet, indem Sie ein mobilfunkfähiges USB-M
 
 [Klicken Sie hier, um zu erfahren, wie Sie über ein USB-Modem eine Internetverbindung herstellen](../../interface_guide/internet_cellular.md)
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
+![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-a1300/internet/a1300_cellular.png){class="glboxshadow"}
 
 ### Priority and load balance
 

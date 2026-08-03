@@ -34,7 +34,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 Opal (GL-SFT1200) ist ein Reiserouter im Taschenformat mit Unterstützung für drahtlose Übertragungsgeschwindigkeiten von 1200 Mbit/s. Er ist kompakt für den mobilen Einsatz konzipiert und deckt die Anforderungen an drahtlosen Internetzugang für kleine Unternehmen, kleine Wohnungen oder Geschäftsreisende ab.
 
-![gl-sft1200 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
+![gl-sft1200 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-sft1200/first_time_setup/gl-sft1200.jpg){class="glboxshadow"}
 
 ## Lieferumfang
 
@@ -46,7 +46,7 @@ Opal (GL-SFT1200) ist ein Reiserouter im Taschenformat mit Unterstützung für d
 - 1 x Netzadapter
 - 1 x Adapter (abhängig von Ihrem Zielland)
 
-![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
+![gl-sft1200 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-sft1200/first_time_setup/sft1200_unboxing.jpg){class="glboxshadow"}
 
 ## So richten Sie Opal ein
 
@@ -85,7 +85,7 @@ Richten Sie Opal mit einer der unterstützten Internetverbindungsmethoden ein: E
 
 === "Ethernet"
     
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/internet/sft1200_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-sft1200/internet/sft1200_ethernet.png){class="glboxshadow"}
 
     Verbinden Sie den WAN-Port Ihres Routers per Ethernet-Kabel mit einem vorgelagerten Gerät, beispielsweise einem Modem.
     
@@ -95,7 +95,7 @@ Richten Sie Opal mit einer der unterstützten Internetverbindungsmethoden ein: E
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/internet/sft1200_repeater.png){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-sft1200/internet/sft1200_repeater.png){class="glboxshadow"}
 
     1. Suchen Sie auf der Seite INTERNET des Web-Admin-Panels den Bereich Repeater und klicken Sie auf **Connect**.
     2. Wählen Sie ein Wi-Fi-Netzwerk aus den verfügbaren Netzwerken aus.
@@ -107,7 +107,7 @@ Richten Sie Opal mit einer der unterstützten Internetverbindungsmethoden ein: E
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/internet/sft1200_tethering.png){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-sft1200/internet/sft1200_tethering.png){class="glboxshadow"}
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder einen USB-Dongle, per USB-Kabel mit dem USB-Port des Routers.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie USB Tethering.
@@ -119,7 +119,7 @@ Richten Sie Opal mit einer der unterstützten Internetverbindungsmethoden ein: E
 
 === "Cellular"
 
-    ![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-sft1200/internet/sft1200_cellular.png){class="glboxshadow"}
+    ![Cellular Connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-sft1200/internet/sft1200_cellular.png){class="glboxshadow"}
 
     Schließen Sie ein Mobilfunk-USB-Modem an den USB-Port des Routers an. Dies ist nützlich, um die Internetverbindung eines USB-Modems mit allen verbundenen Geräten zu teilen.
 

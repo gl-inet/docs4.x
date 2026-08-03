@@ -8,13 +8,13 @@ Auf der Seite Clients werden Informationen über verbundene Geräte angezeigt, d
 
 In der ersten Spalte werden der Gerätename und der Gerätetyp angezeigt. Diese hängen vom Hostnamen des Geräts ab.
 
-![device name](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/device_name.png){class="glboxshadow"}
+![device name](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/device_name.png){class="glboxshadow"}
 
 Um den Gerätenamen und den Gerätetyp zu ändern, klicken Sie in der Spalte Action auf das Drei-Punkte-Symbol und im Dropdown-Menü auf **Modify**.
 
-![modify](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify.png){class="glboxshadow"}
+![modify](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/modify.png){class="glboxshadow"}
 
-![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
+![modify client device](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
 ## Verbindungstyp
 
@@ -22,17 +22,17 @@ Das blaue Symbol rechts neben dem Gerätenamen steht für den Verbindungstyp bzw
 
 Es zeigt an, wie das Gerät mit dem Netzwerk verbunden ist – entweder über Wi-Fi oder über ein Ethernet-Kabel.
 
-![connection type](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/connection_type.png){class="glboxshadow"}
+![connection type](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/connection_type.png){class="glboxshadow"}
 
 ## IP- und MAC-Adresse
 
 In der zweiten Spalte werden die IP- und MAC-Adressen des verbundenen Geräts aufgeführt.
 
-![ip and mac](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/ip_mac.png){class="glboxshadow"}
+![ip and mac](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/ip_mac.png){class="glboxshadow"}
 
 Viele Geräte verwenden zufällig generierte MAC-Adressen. Wenn verbundene Geräte zufällige MAC-Adressen verwenden, erscheint der folgende Hinweis.
 
-![random mac prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/randomized_mac.png){class="glboxshadow"}
+![random mac prompt](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/randomized_mac.png){class="glboxshadow"}
 
 **Hinweis**: Hier gilt die Regel, dass eine MAC-Adresse als zufällig generiert betrachtet wird, wenn das zweite Zeichen 2, 6, A oder E ist (Groß-/Kleinschreibung wird ignoriert). Manche Geräte verwenden jedoch andere Regeln zur Generierung zufälliger MAC-Adressen, daher ist diese Erkennungsmethode möglicherweise nicht immer genau.
 
@@ -40,7 +40,7 @@ Viele Geräte verwenden zufällig generierte MAC-Adressen. Wenn verbundene Gerä
 
 In der dritten Spalte wird die Internetgeschwindigkeit des verbundenen Geräts angezeigt.
 
-![speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/speed.png){class="glboxshadow"}
+![speed](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/speed.png){class="glboxshadow"}
 
 Die hier angezeigte Geschwindigkeit ist die Durchschnittsgeschwindigkeit über 3 Minuten.
 
@@ -54,7 +54,7 @@ Die hier angezeigte Geschwindigkeit ist die Durchschnittsgeschwindigkeit über 3
 
 In der vierten Spalte wird der Internetdatenverkehr des verbundenen Geräts angezeigt.
 
-![traffic](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/traffic.png){class="glboxshadow"}
+![traffic](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/traffic.png){class="glboxshadow"}
 
 ## Reservierte IP
 
@@ -66,7 +66,7 @@ Wenn Sie einem Client im LAN eine reservierte IP-Adresse zuweisen, erhält diese
 
 Sie können reservierte IP-Adressen für Computer oder Server vergeben, die dauerhaft feste IP-Einstellungen benötigen.
 
-![reserved ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/reserved_ip.png){class="glboxshadow"}
+![reserved ip](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/reserved_ip.png){class="glboxshadow"}
 
 ## Sperrliste {#blocklist}
 
@@ -74,9 +74,9 @@ In der sechsten Spalte können Sie bestimmte verbundene Geräte mit nur einem Kl
 
 Standardmäßig ist die Zugriffskontrollregel auf Blocklist eingestellt. Bei Bedarf können Sie sie oben auf Allowlist umstellen.
 
-![blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist.jpg){class="glboxshadow"}
+![blocklist](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/blocklist.jpg){class="glboxshadow"}
 
-![access control](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/blocklist_allowlist.jpg){class="glboxshadow"}
+![access control](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/blocklist_allowlist.jpg){class="glboxshadow"}
 
 - **Blocklist**: Geräte mit MAC-Adressen auf der Sperrliste dürfen sich nicht mit diesem Router verbinden.
 
@@ -84,35 +84,35 @@ Standardmäßig ist die Zugriffskontrollregel auf Blocklist eingestellt. Bei Bed
 
 Um eine Blocklist zu erstellen, können Sie bei **(1)** eine Sperrliste im Excel-Format hochladen oder bei **(2)** MAC-Adressen manuell eingeben.
 
-![create blocklist](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/create_blocklist.png){class="glboxshadow"}
+![create blocklist](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/create_blocklist.png){class="glboxshadow"}
 
 **Methode 1. Clients importieren**
 
 Klicken Sie auf der Seite Access Control auf **Import Clients**.
 
-![import clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/import_clients.png){class="glboxshadow"}
+![import clients](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/import_clients.png){class="glboxshadow"}
 
 Klicken Sie auf **Download Import Template**. Dadurch laden Sie ein XLS-Arbeitsblatt mit dem Namen "mac-template.csv" herunter.
 
-![download template](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/download_template.png){class="glboxshadow"}
+![download template](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/download_template.png){class="glboxshadow"}
 
 Öffnen Sie die Datei, tragen Sie die MAC-Adressen ein und speichern Sie sie.
 
-![import csv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/importcsv.jpg){class="glboxshadow gl-80-desktop"}
+![import csv](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/importcsv.jpg){class="glboxshadow gl-80-desktop"}
 
 Wählen Sie die gespeicherte Datei aus oder ziehen Sie sie in den Upload-Bereich.
 
-![upload csv](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/dragcsv.jpg){class="glboxshadow  gl-80-desktop"}
+![upload csv](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/dragcsv.jpg){class="glboxshadow  gl-80-desktop"}
 
 Sobald der Upload erfolgreich war, klicken Sie auf **Import**, um den Massenimport der MAC-Adressen abzuschließen.
 
-![upload successful](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/upload_successful.png){class="glboxshadow"}
+![upload successful](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/upload_successful.png){class="glboxshadow"}
 
 **Methode 2. Manuell eingeben**
 
 Geben Sie auf der Seite Access Control die MAC-Adresse der Geräte, die Sie blockieren möchten, manuell ein und klicken Sie auf **Apply**.
 
-![input mac manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/input_mac_manually.png){class="glboxshadow"}
+![input mac manually](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/input_mac_manually.png){class="glboxshadow"}
 
 **Hinweis**: Das Blockieren eines Clients basiert auf der MAC-Adresse des Geräts. Wenn das blockierte Gerät beim nächsten Mal eine andere MAC-Adresse verwendet, kann es sich weiterhin mit dem Router verbinden.
 
@@ -125,7 +125,7 @@ Der Standardsortiertyp ist wie folgt:
 - Das aktuelle Gerät steht immer ganz oben.
 - Im Abschnitt der Online-Clients gilt: Je später sich ein Gerät verbindet, desto weiter oben erscheint es in der Liste.
 
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.png){class="glboxshadow"}
+![sort](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/sort.png){class="glboxshadow"}
 
 ## Aktion
 
@@ -133,31 +133,31 @@ Der Standardsortiertyp ist wie folgt:
 
 Wenn Sie die Details eines Client-Geräts anzeigen möchten, klicken Sie in der rechten Spalte Action auf das Drei-Punkte-Symbol und anschließend im Dropdown-Menü auf **View Details**.
 
-![view details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/details.png){class="glboxshadow"}
+![view details](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/details.png){class="glboxshadow"}
 
 Auf der geöffneten Unterseite sehen Sie alle Informationen zum Client-Gerät, einschließlich aller IPv6-Adressen des Geräts, sofern vorhanden.
 
-![client details](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
+![client details](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/client_detail.png){class="glboxshadow"}
 
 ### Modify
 
 Klicken Sie in der Spalte Action auf das Drei-Punkte-Symbol und im Dropdown-Menü auf **Modify**.
 
-![modify](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify.png){class="glboxshadow"}
+![modify](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/modify.png){class="glboxshadow"}
 
-![modify client device](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
+![modify client device](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/modify_client_device.png){class="glboxshadow"}
 
 ### Geschwindigkeit begrenzen
 
 Klicken Sie in der Spalte Action auf das Drei-Punkte-Symbol und im Dropdown-Menü auf **Limit Speed**.
 
-![limit speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.png){class="glboxshadow"}
+![limit speed](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/limit_speed.png){class="glboxshadow"}
 
-![limit speed settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
+![limit speed settings](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/clients_limit_speed_settings.png){class="glboxshadow"}
 
 Wenn für einen Client eine Geschwindigkeitsbegrenzung angewendet wurde, werden die Aufwärts- und Abwärtspfeile bei der Geschwindigkeit gelb dargestellt.
 
-![limited speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/limit_speed.jpg){class="glboxshadow"}
+![limited speed](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/limit_speed.jpg){class="glboxshadow"}
 
 Klicken Sie in der Spalte Action auf das Drei-Punkte-Symbol, um die Geschwindigkeitsbegrenzung zu deaktivieren.
 
@@ -167,7 +167,7 @@ Klicken Sie in der Spalte Action auf das Drei-Punkte-Symbol, um die Geschwindigk
 
 Fügen Sie einen Client mit einer MAC-basierten Richtlinie zur Liste der VPN-Tunnel hinzu. Wenn Sie detaillierte Anpassungen an den Tunneln vornehmen müssen, gehen Sie zum VPN Dashboard, um sie dort zu verwalten.
 
-![use vpn tunnel](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
+![use vpn tunnel](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/use-vpn-tunnel.png){class="glboxshadow"}
 
 ## Offline-Clients entfernen
 
@@ -175,7 +175,7 @@ Im Abschnitt der Offline-Clients können Sie oben rechts auf **Delete All** klic
 
 Wenn Sie einen bestimmten Client entfernen möchten, klicken Sie in der Spalte Action auf das Drei-Punkte-Symbol und anschließend im Dropdown-Menü auf **Remove Client**.
 
-![remove offline clients](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/remove_offline.png){class="glboxshadow"}
+![remove offline clients](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/remove_offline.png){class="glboxshadow"}
 
 ---
 

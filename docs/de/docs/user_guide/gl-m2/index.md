@@ -4,13 +4,13 @@
 
 GL-M2 ist ein 5G-Entwicklungsboard für DIY-Enthusiasten, die ihre eigenen Router und Modems bauen möchten. Mit dem 5G-Modul und den 5G-Antennen des GL-M2 stellt es eine hochwertige 5G-Mobilfunkverbindung bereit.
 
-![gl-2 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
+![gl-2 interface](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/hardware_info/gl-m2_interface.jpg){class="glboxshadow"}
 
 [GL-M2 specifications](https://www.gl-inet.com/products/gl-m2/#specs){target="_blank"}
 
 ## Lieferumfang
 
-![gl-m2 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
+![gl-m2 unboxing](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/first_time_setup/m2_unboxing.jpg){class="glboxshadow"}
 
 Der Lieferumfang umfasst:
 
@@ -33,17 +33,17 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
     Verwenden Sie ein HF-Konverter-Verlängerungskabel oder ein SMA-Antennenkabel, um die Antenne mit der IPEX-Schnittstelle des Moduls zu verbinden.
 
-    ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_1.jpg){class="glboxshadow"}
+    ![gl-m2 setup](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/first_time_setup/m2_setup_1.jpg){class="glboxshadow"}
 
 2. Setzen Sie die Nano-SIM-Karte ein.
 
-    ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_2.jpg){class="glboxshadow"}
+    ![gl-m2 setup](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/first_time_setup/m2_setup_2.jpg){class="glboxshadow"}
 
 3. Einschalten.
 
     Schließen Sie das Board an eine Gleichstromversorgung an und verwenden Sie ein Type-C-auf-USB-3.0-Datenkabel, um es mit dem [Router](#connect-gl-m2-to-glinet-routers) oder einem anderen Gerät zu verbinden.
 
-    ![gl-m2 setup](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
+    ![gl-m2 setup](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/first_time_setup/m2_setup_3.jpg){class="glboxshadow"}
 
 **Hinweis:**
 
@@ -77,12 +77,12 @@ Führen Sie die folgenden Schritte aus, um das M2 mit Ihrem GL.iNet-Router zu ve
 
 3. Öffnen Sie auf Ihrem Gerät einen Webbrowser, rufen Sie [http://192.168.8.1](http://192.168.8.1) auf und melden Sie sich im Web-Admin-Panel an.
 
-    ![Connect GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_1.png){class="glboxshadow"}
+    ![Connect GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_1.png){class="glboxshadow"}
 
 4. Klicken Sie auf der Seite **INTERNET** im Abschnitt Cellular auf **Auto Setup**, um eine Internetverbindung herzustellen.
 
-    ![Connect GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_2.png){class="glboxshadow"}
+    ![Connect GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_2.png){class="glboxshadow"}
 
 5. Nach erfolgreicher Verbindung zeigt die Seite die Verbindungsdetails wie unten dargestellt an.
 
-    ![Connect GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_3.png){class="glboxshadow"}
+    ![Connect GL-M2 to GL.iNet Routers](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-m2/first_time_setup/m2_with-mt3000_3.png){class="glboxshadow"}

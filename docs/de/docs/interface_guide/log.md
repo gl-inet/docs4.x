@@ -8,7 +8,7 @@ Einige Mobilfunkmodelle mit eSIM-Unterstützung stellen zusätzlich ein eSIM-Pro
 
 Hier sehen Sie ein Beispiel für den GL-X3000.
 
-![log page](https://static.gl-inet.com/docs/router/en/4/interface_guide/log/log.png){class="glboxshadow"}
+![log page](https://static.gl-inet.com/docs/router/de/4/interface_guide/log/log.png){class="glboxshadow"}
 
 Die **Filterfunktion** ist auf der Seite „System Log“ ab Firmware v4.8 verfügbar. Sie können nach Ebene oder Modul filtern oder Schlüsselwörter eingeben, um Protokolle schnell zu durchsuchen.
 

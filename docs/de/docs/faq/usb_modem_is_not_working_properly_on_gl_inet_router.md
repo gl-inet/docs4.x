@@ -12,15 +12,15 @@ Um dieses Problem zu beheben, können Sie die USB-Port-Spezifikation von USB 3.0
 
 Dort sehen Sie eine Option für den USB Protocol Switch.
 
-![External Storage 1](https://static.gl-inet.com/docs/router/en/4/faq/usb_modem_not_working_properly/external_storage_1.png){class="glboxshadow"}
+![External Storage 1](https://static.gl-inet.com/docs/router/de/4/faq/usb_modem_not_working_properly/external_storage_1.png){class="glboxshadow"}
 
 Schalten Sie auf USB 2.0 um. Anschließend wird der folgende Hinweis angezeigt. Klicken Sie auf Switch, um fortzufahren.
 
-![External Storage 2](https://static.gl-inet.com/docs/router/en/4/faq/usb_modem_not_working_properly/external_storage_2.png){class="glboxshadow"}
+![External Storage 2](https://static.gl-inet.com/docs/router/de/4/faq/usb_modem_not_working_properly/external_storage_2.png){class="glboxshadow"}
 
 Wenn als USB-Protokoll USB 2.0 angezeigt wird, wurde die Umstellung erfolgreich durchgeführt.
 
-![External Storage 3](https://static.gl-inet.com/docs/router/en/4/faq/usb_modem_not_working_properly/external_storage_3.png){class="glboxshadow"}
+![External Storage 3](https://static.gl-inet.com/docs/router/de/4/faq/usb_modem_not_working_properly/external_storage_3.png){class="glboxshadow"}
 
 Prüfen Sie anschließend, ob sich die Internetverbindung verbessert hat.
 

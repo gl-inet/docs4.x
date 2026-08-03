@@ -14,7 +14,7 @@ Es gibt zwei Bereiche: Grundeinstellungen und DHCP-Server-Einstellungen.
 
 Sie können das Subnetz innerhalb der privaten IPv4-Adressbereiche festlegen: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
-![iot network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/iot_network/iot1.png){class="glboxshadow"}
+![iot network 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/iot_network/iot1.png){class="glboxshadow"}
 
 - **Gateway**
 
@@ -44,13 +44,13 @@ Der DHCP-Server weist jedem mit dem IoT-Netzwerk verbundenen Client-Gerät autom
 
 Sie können die Start- und End-IP-Adressen an Ihre Anforderungen anpassen – zum Beispiel, wenn Ihr Netzwerk wächst oder kleiner wird, IP-Adresskonflikte auftreten oder der Bereich der Subnetzmaske geändert wird.
 
-![iot network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/iot_network/iot2.png){class="glboxshadow"}
+![iot network 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/iot_network/iot2.png){class="glboxshadow"}
 
 Klicken Sie bei Bedarf auf **Advanced** für weitere Konfigurationen.
 
-![iot network 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/iot_network/iot3.png){class="glboxshadow"}
+![iot network 3](https://static.gl-inet.com/docs/router/de/4/interface_guide/iot_network/iot3.png){class="glboxshadow"}
 
-![iot network 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/iot_network/iot4.png){class="glboxshadow"}
+![iot network 4](https://static.gl-inet.com/docs/router/de/4/interface_guide/iot_network/iot4.png){class="glboxshadow"}
 
 - **Lease Time**: Der Zeitraum, für den eine per DHCP zugewiesene IP-Adresse für ein Gerät gültig ist.
 

@@ -22,37 +22,37 @@ Melden Sie sich im web Admin Panel an und wechseln Sie zu **VPN** -> **WireGuard
 
 Wenn Sie ein Abonnement bei **AzireVPN** oder **Mullvad** haben, können Sie sich direkt mit Ihren Zugangsdaten anmelden. Alternativ klicken Sie auf **Add Manually**, um die WireGuard-Profile manuell hochzuladen.
 
-![wireguard client no initialized](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/wireguard_client_no_initialized.png){class="glboxshadow"}
+![wireguard client no initialized](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/wireguard_client_no_initialized.png){class="glboxshadow"}
 
 ## AzireVPN einrichten
 
 [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} ist ein datenschutzorientierter VPN-Dienst, der sichere, moderne und robuste Tunnel wie WireGuard bereitstellt.
 
-![azirevpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn.png){class="glboxshadow"}
+![azirevpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/azirevpn.png){class="glboxshadow"}
 
 1. Geben Sie **Username** und **Password** ein und klicken Sie dann auf **Save Credentials & Get Servers**. Dadurch werden Konfigurationsdateien für alle Server erstellt.
 
-    ![azirevpn profiles](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn_generated_profiles.png){class="glboxshadow"}
+    ![azirevpn profiles](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/azirevpn_generated_profiles.png){class="glboxshadow"}
 
 2. Wechseln Sie zum VPN Dashboard, um die Verbindung zu aktivieren.
 
-    ![vpn dashboard azirevpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/vpn_dashboard_azirevpn.png){class="glboxshadow"}
+    ![vpn dashboard azirevpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/vpn_dashboard_azirevpn.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung werden Ihre Benutzer-IP-Adresse und die Anzahl der gesendeten/empfangenen Bytes angezeigt.
 
-    ![vpn dashboard azirevpn connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/vpn_dashboard_azirevpn_connected.png){class="glboxshadow"}
+    ![vpn dashboard azirevpn connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/vpn_dashboard_azirevpn_connected.png){class="glboxshadow"}
 
 3. Server aktualisieren
 
     AzireVPN kann Server warten oder abschalten, wodurch Verbindungen fehlschlagen können. Mit **Update Servers** rufen Sie die aktuell verfügbaren Server ab.
 
-    ![azirevpn update servers](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn_update_servers.png){class="glboxshadow"}
+    ![azirevpn update servers](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/azirevpn_update_servers.png){class="glboxshadow"}
 
 4. Zugangsdaten bearbeiten
 
     Klicken Sie auf das Zahnradsymbol, um die Zugangsdaten zu bearbeiten.
 
-    ![azirevpn edit credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn_edit_credential.png){class="glboxshadow"}
+    ![azirevpn edit credential](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/azirevpn_edit_credential.png){class="glboxshadow"}
 
 ## Mullvad einrichten
 
@@ -60,7 +60,7 @@ Wenn Sie ein Abonnement bei **AzireVPN** oder **Mullvad** haben, können Sie sic
 
 Die Firmware 4.x hat den Mullvad-WireGuard-Dienst integriert.
 
-![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/mullvad.png){class="glboxshadow"}
+![mullvad vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/mullvad.png){class="glboxshadow"}
 
 1. Geben Sie **Account** ein und klicken Sie dann auf **Save Credentials & Get Servers**.
 
@@ -68,43 +68,43 @@ Die Firmware 4.x hat den Mullvad-WireGuard-Dienst integriert.
 
     Daraufhin wird ein Dialog zur Auswahl eines Standorts geöffnet.
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/mullvad_select_servers.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/mullvad_select_servers.png){class="glboxshadow"}
 
     Anschließend werden die Konfigurationsdateien des Servers am ausgewählten Standort erstellt.
     
     Der **Public Key** ist der öffentliche WireGuard-Schlüssel, der an den Mullvad-Server gesendet wird. Sie können bis zu fünf Schlüssel gleichzeitig haben. Verwalten können Sie die WireGuard-Schlüssel auf [der Seite von Mullvad](https://mullvad.net/en/account/#/ports){target="_blank"}.
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/mullvad_generated_profiles.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/mullvad_generated_profiles.png){class="glboxshadow"}
 
 2. Wechseln Sie zum VPN Dashboard, um die Verbindung zu aktivieren.
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/vpn_dashboard_mullvadvpn.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/vpn_dashboard_mullvadvpn.png){class="glboxshadow"}
 
     Nach erfolgreicher Verbindung werden Ihre Benutzer-IP-Adresse und die Anzahl der gesendeten/empfangenen Bytes angezeigt.
 
-    ![vpn dashboard mullvad connected](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/vpn_dashboard_mullvad_connected.png){class="glboxshadow"}
+    ![vpn dashboard mullvad connected](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/vpn_dashboard_mullvad_connected.png){class="glboxshadow"}
 
 3. Server aktualisieren
 
     Mullvad kann Server warten oder abschalten, wodurch Verbindungen fehlschlagen können. Mit **Update Servers** rufen Sie die aktuell verfügbaren Server ab.
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/mullvad_update_servers.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/mullvad_update_servers.png){class="glboxshadow"}
 
 4. Zugangsdaten bearbeiten
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/mullvad_edit_credential.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/mullvad_edit_credential.png){class="glboxshadow"}
 
 5. Kontoinformationen löschen
 
     Wenn Sie auf **Delete** klicken, werden die Kontozugangsdaten, der private Schlüssel, der öffentliche Schlüssel und die Konfigurationsdateien **auf dem Router** gelöscht.
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/wgclient_delete_all.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/wgclient_delete_all.png){class="glboxshadow"}
 
 6. Löschen
 
     Damit können Sie alle Konfigurationsdateien mit einem Klick löschen. Zusätzlich erscheint eine Abfrage, ob auch der private und der öffentliche Schlüssel gelöscht werden sollen.
 
-    ![mullvad vpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/wgclient_delete_all_configuration_file.png){class="glboxshadow"}
+    ![mullvad vpn](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/wgclient_delete_all_configuration_file.png){class="glboxshadow"}
 
 ## WireGuard-Client einrichten
 
@@ -112,45 +112,45 @@ Seit Firmware 4.0 gibt es eine Gruppierung zum Verwalten von WireGuard-Profilen.
 
 1. Klicken Sie auf **Add Manually**.
 
-    ![add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/wireguard_client_add_manually.png){class="glboxshadow"}
+    ![add manually](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/wireguard_client_add_manually.png){class="glboxshadow"}
 
 2. Dadurch wird eine Gruppe erstellt.
 
-    ![add a new group](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/add_a_new_group.png){class="glboxshadow"}
+    ![add a new group](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/add_a_new_group.png){class="glboxshadow"}
 
 3. Geben Sie der Gruppe einen aussagekräftigen Namen, z. B. azirevpn. Anschließend können Sie Konfigurationsdateien hochladen oder die Konfiguration manuell hinzufügen.
 
-    ![set the new group name](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/set_new_group_name.png){class="glboxshadow"}
+    ![set the new group name](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/set_new_group_name.png){class="glboxshadow"}
 
     1. **Konfigurationsdateien hochladen**
 
         Laden Sie Ihre WireGuard-Konfigurationsdatei hoch und klicken Sie auf **Apply**.
 
-        ![upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/upload_profile.png){class="glboxshadow"}
+        ![upload profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/upload_profile.png){class="glboxshadow"}
 
-        ![after upload profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/after_upload_profile.png){class="glboxshadow"}
+        ![after upload profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/after_upload_profile.png){class="glboxshadow"}
 
     2. **Manually Add Configuration** – diese Option ist dafür gedacht, die WireGuard-Konfiguration einzufügen oder die einzelnen Einträge manuell auszufüllen.
 
-        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/manually_add_configuration.png){class="glboxshadow"}
+        ![add wireguard by text](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/manually_add_configuration.png){class="glboxshadow"}
 
         Geben Sie einen aussagekräftigen Namen ein, fügen Sie die Konfiguration ein und klicken Sie auf **Apply**, um fortzufahren.
 
-        ![add wireguard by text](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/add_wg_by_text.png){class="glboxshadow"}
+        ![add wireguard by text](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/add_wg_by_text.png){class="glboxshadow"}
 
         Oder Sie fügen die Konfiguration hinzu, indem Sie jeden Eintrag einzeln ausfüllen. Klicken Sie dazu auf **Item Mode**.
 
-        ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/add_wg_item_mode_1.png){class="glboxshadow"}
+        ![add wireguard by item mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/add_wg_item_mode_1.png){class="glboxshadow"}
 
-        ![add wireguard by item mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/add_wg_item_mode_2.png){class="glboxshadow"}
+        ![add wireguard by item mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/add_wg_item_mode_2.png){class="glboxshadow"}
 
 4. Klicken Sie auf das Symbol mit den drei Punkten, um das Profil zu starten, zu bearbeiten oder zu löschen.
 
-    ![start the profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/start_the_profile.png){class="glboxshadow"}
+    ![start the profile](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/start_the_profile.png){class="glboxshadow"}
 
 5. Prüfen Sie den Verbindungsstatus auf der Seite [VPN Dashboard](vpn_dashboard_v4.7.md).
 
-    ![vpn dashboard page](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/vpn_dashboard_wireguard_status.png){class="glboxshadow"}
+    ![vpn dashboard page](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireguard_client_v4.6/set_up_wireguard_client/vpn_dashboard_wireguard_status.png){class="glboxshadow"}
 
 ---
 

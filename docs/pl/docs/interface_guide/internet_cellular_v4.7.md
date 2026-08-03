@@ -72,7 +72,9 @@ Zastosowanie zmian spowoduje ponowne nawiązanie połączenia.
 
 - **PIN**: Jeśli karta SIM jest chroniona kodem PIN, wprowadź go tutaj. To pole jest opcjonalne, jeśli PIN nie jest ustawiony.
 
-- **TTL**: TTL (Time To Live) określa maksymalny czas, przez jaki pakiety mogą istnieć w sieci. Domyślnie router zmniejsza TTL przychodzących pakietów z urządzeń klienckich o 1 przed ich przekazaniem. Jeśli chcesz to nadpisać, możesz ustawić tutaj stałą wartość. Ustawienie TTL dotyczy tylko IPv4.
+- **TTL**: TTL (Time To Live) określa maksymalny czas, przez jaki pakiety mogą istnieć w sieci. Domyślnie router zmniejsza TTL pakietów przychodzących z urządzeń klienckich o 1 przed ich przekazaniem dalej. Ustawienie TTL jest ważne tylko dla IPv4.
+
+    **Uwaga**: Jeśli musisz zamaskować połączenie, możesz ustawić tutaj wartość stałą. W większości modeli wpisz docelowy efektywny TTL powiększony o 1, aby skompensować automatyczne zmniejszenie. Mudi 7 (GL-E5800) stosuje wpisaną wartość bez zmian.
 
 - **Service**: Wybierz typ usługi komórkowej, aby określić technologie sieciowe używane przez modem.
 

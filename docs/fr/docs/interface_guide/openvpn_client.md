@@ -306,11 +306,11 @@ Si le fournisseur auquel vous êtes abonné n'est pas listé ci-dessous, veuille
 
         **Saisissez le code de vérification** envoyé à votre adresse e-mail.
 
-    2. Dans la section "Set up your devices", cliquez sur **More**.
+    2. Dans la barre de navigation de gauche, cliquez sur **Set up your devices**.
 
         ![expressvpn, set up your devices, more](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/expressvpn/set_up_your_devices_more.png){class="glboxshadow"}
 
-    3. Cliquez sur **Manual Configuration**.
+    3. Sous **Applications**, développez **Advanced setup** et cliquez sur **Manual Configuration**.
 
         ![expressvpn, set up your devices, manual configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/expressvpn/set_up_your_devices_manual_configuration.png){class="glboxshadow"}
 

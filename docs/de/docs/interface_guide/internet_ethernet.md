@@ -44,7 +44,9 @@ Zusätzlich zu den grundlegenden Einstellungen gibt es für die drei oben genann
 
 * **VLAN ID**: Dieser Einstellungseintrag ist nur erforderlich, wenn der Server des Anbieters verlangt, dass die Schnittstelle eine bestimmte getaggte VLAN-ID verwendet.
 
-* **TTL**: TTL (Time To Live) definiert die maximale Zeit, die Pakete im Netzwerk überleben können. Standardmäßig verringert der Router den TTL-Wert eingehender Pakete von Client-Geräten vor der Weiterleitung um 1. Wenn Sie ihn überschreiben müssen, können Sie hier einen festen Wert festlegen. Die TTL-Einstellung gilt nur für IPv4.
+* **TTL**: TTL (Time To Live) definiert, wie lange Pakete maximal im Netzwerk überleben können. Standardmäßig verringert der Router die TTL eingehender Pakete von Client-Geräten vor der Weiterleitung um 1. Die TTL-Einstellung gilt nur für IPv4.
+
+    **Hinweis**: Wenn Sie die Verbindung tarnen müssen, können Sie hier einen festen Wert festlegen. Geben Sie bei den meisten Modellen die gewünschte effektive TTL plus 1 ein, um die automatische Verringerung auszugleichen. Beim Mudi 7 (GL-E5800) wird der eingegebene Wert unverändert angewendet.
 
 * **HL**: In IPv6 begrenzt das Feld HL (Hop Limit) die Anzahl der Übertragungssprünge für Datenpakete im Netzwerk und ist das Gegenstück zu TTL in IPv4.
 

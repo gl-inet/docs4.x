@@ -21,12 +21,16 @@ Starsza wersja AstroWarp, choć nadal widoczna w webowym panelu administracyjnym
 
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
-    - ※GL-MT6000 (Flint 2)
+    - GL-MT6000 (Flint 2)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
     - ※GL-X3000 (Spitz AX)
     - ※GL-XE3000 (Puli AX)
+    - ※GL-X2000 (Spitz Plus)
     - ※GL-AX1800 (Flint)
     - ※GL-AXT1800 (Slate AX)
     - ※GL-MT3000 (Beryl AX)
+    - ※GL-MT2500/GL-MT2500A (Brume 2)
 
     **Uwaga**: Modele oznaczone symbolem ※ obsługują zintegrowany AstroWarp w wersji beta firmware.
 
@@ -34,12 +38,8 @@ Starsza wersja AstroWarp, choć nadal widoczna w webowym panelu administracyjnym
     Te urządzenia nie są zgodne z nową wersją AstroWarp, choć niektóre modele nadal działają ze starszą wersją AstroWarp. Szczegóły znajdziesz [tutaj](https://docs.astrowarp.net/en/quick_start/){target="_blank"}.
 
     - GL-E5800 (Mudi 7)
-    - GL-MT5000 (Brume 3)
-    - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
-    - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT2500/GL-MT2500A (Brume 2)
     - GL-A1300 (Slate Plus)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)

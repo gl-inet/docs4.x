@@ -72,7 +72,9 @@ L'application des modifications déclenchera une reconnexion.
 
 - **PIN** : si votre carte SIM est protégée par un code PIN, saisissez-le ici. Ce champ est facultatif si aucun code PIN n'est défini.
 
-- **TTL** : TTL (Time To Live) définit la durée maximale pendant laquelle les paquets peuvent survivre dans le réseau. Par défaut, le routeur décrémente de 1 le TTL des paquets entrants provenant des appareils clients avant de les transférer. Si vous devez le forcer, vous pouvez définir ici une valeur fixe. Le paramètre TTL n'est valable que pour IPv4.
+- **TTL** : TTL (Time To Live) définit la durée maximale pendant laquelle les paquets peuvent rester dans le réseau. Par défaut, le routeur décrémente de 1 le TTL des paquets entrants provenant des appareils clients avant de les transférer. Le paramètre TTL est valide uniquement pour IPv4.
+
+    **Remarque** : si vous devez camoufler la connexion, vous pouvez définir ici une valeur fixe. Pour la plupart des modèles, saisissez le TTL effectif souhaité plus 1 afin de compenser la décrémentation automatique. Le Mudi 7 (GL-E5800) applique la valeur saisie sans modification.
 
 - **Service** : sélectionnez le type de service cellulaire afin de définir les technologies réseau que le modem utilisera.
 

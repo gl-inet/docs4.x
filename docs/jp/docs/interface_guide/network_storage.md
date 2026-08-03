@@ -33,22 +33,26 @@ GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、�
 
 | ルーターモデル                           | Samba | WebDAV | DLNA | USBポート | MicroSDカード |
 | :--------------------------------------- | :---: | :----: | :--: | :-------: | :-----------: |
-| GL-E5800 (Mudi 7)                        |   √   |   √    |  √   |     √     |       -       |
-| GL-MT5000 (Brume 3)                      |   √   |   √    |  √   |     √     |       -       |
-| GL-BE3600 (Slate 7)                      |   √   |   √    |  √   |     √     |       -       |
-| GL-X2000 (Spitz Plus)                    |   √   |   √    |  √   |     √     |       -       |
-| GL-MT6000 (Flint 2)                      |   √   |   √    |  √   |     √     |       -       |
-| GL-XE3000 (Puli AX)                      |   √   |   √    |  √   |     √     |       √       |
-| GL-X3000 (Spitz AX)                      |   √   |   √    |  √   |     √     |       √       |
-| GL-MT3000 (Beryl AX)                     |   √   |   √    |  √   |     √     |       -       |
-| GL-MT2500/GL-MT2500A (Brume 2)           |   √   |   √    |  √   |     √     |       -       |
-| GL-AXT1800 (Slate AX)                    |   √   |   √    |  √   |     √     |       √       |
-| GL-AX1800 (Flint)                        |   √   |   √    |  √   |     √     |       -       |
-| GL-A1300 (Slate Plus)                    |   √   |   √    |  √   |     √     |       -       |
-| GL-S1300 (Convexa-S)                     |   √   |   √    |  √   |     √     |       -       |
-| GL-SFT1200 (Opal)</br>***FW 4.7.2**      |   √   |   -    |  -   |     √     |       -       |
-| GL-E750V2 (Mudi V2)</br>***FW 4.7.2**    |   √   |   -    |  -   |     √     |       √       |
-| GL-AR750S-EXT (Slate)</br>***FW 4.7.2**  |   √   |   -    |  -   |     √     |       √       |
+| GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
+| GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
+| GL-E5800 (Mudi 7)                      | √     | √     | √     | √        | -            |
+| GL-MT5000 (Brume 3)                    | √     | √     | √     | √        | -            |
+| GL-BE9300 (Flint 3)                    | √     | √     | √     | √        | -            |
+| GL-BE6500 (Flint 3e)                   | √     | √     | √     | √        | -            |
+| GL-BE3600 (Slate 7)                    | √     | √     | √     | √        | -            |
+| GL-X2000 (Spitz Plus)                  | √     | √     | √     | √        | -            |
+| GL-MT6000 (Flint 2)                    | √     | √     | √     | √        | -            |
+| GL-XE3000 (Puli AX)                    | √     | √     | √     | √        | √            |
+| GL-X3000 (Spitz AX)                    | √     | √     | √     | √        | √            |
+| GL-MT3000 (Beryl AX)                   | √     | √     | √     | √        | -            |
+| GL-MT2500/GL-MT2500A (Brume 2)         | √     | √     | √     | √        | -            |
+| GL-AXT1800 (Slate AX)                  | √     | √     | √     | √        | √            |
+| GL-AX1800 (Flint)                      | √     | √     | √     | √        | -            |
+| GL-A1300 (Slate Plus)                  | √     | √     | √     | √        | -            |
+| GL-S1300 (Convexa-S)                   | √     | √     | √     | √        | -            |
+| GL-SFT1200 (Opal)</br>***FW 4.8+**     | √     | -     | -     | √        | -            |
+| GL-E750V2 (Mudi V2)</br>***FW 4.8+**   | √     | -     | -     | √        | √            |
+| GL-AR750S-EXT (Slate)</br>***FW 4.7+** | √     | -     | -     | √        | √            |
 
 ## ストレージデバイスを挿入する {#insert-storage-device}
 

@@ -306,11 +306,11 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
         メールで送信された **verification code** を入力します。
 
-    2. "Set up your devices" セクションで **More** をクリックします。
+    2. 左側のナビゲーションバーで **Set up your devices** をクリックします。
 
         ![expressvpn, set up your devices, more](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/expressvpn/set_up_your_devices_more.png){class="glboxshadow"}
 
-    3. **Manual Configuration** をクリックします。
+    3. **Applications** で **Advanced setup** を展開し、**Manual Configuration** をクリックします。
 
         ![expressvpn, set up your devices, manual configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/expressvpn/set_up_your_devices_manual_configuration.png){class="glboxshadow"}
 

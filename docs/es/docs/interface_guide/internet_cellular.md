@@ -70,7 +70,9 @@ Aplicar los cambios provocará una nueva conexión.
 
 - **Port**: El puerto serie utilizado para comunicarse con el módem celular. Normalmente se detecta automáticamente y no requiere ajuste manual.
 
-- **TTL**: TTL (Time To Live) define el tiempo máximo que los paquetes pueden permanecer en la red. De forma predeterminada, el router reduce en 1 el TTL de los paquetes entrantes desde los dispositivos cliente antes de reenviarlos. Si necesita sobrescribirlo, puede establecer aquí un valor fijo. La configuración de TTL solo es válida para IPv4.
+- **TTL**: TTL (Time To Live) define el tiempo máximo que los paquetes pueden permanecer en la red. De forma predeterminada, el router reduce en 1 el TTL de los paquetes entrantes de los dispositivos cliente antes de reenviarlos. La configuración de TTL solo es válida para IPv4.
+
+    **Nota**: Si necesita sobrescribirlo, puede establecer aquí un valor fijo. En la mayoría de los modelos, introduzca el TTL efectivo deseado más 1 para compensar la reducción automática. El Mudi 7 (GL-E5800) aplica el valor introducido sin cambios.
 
 - **HL**: En IPv6, HL (Hop Limit) limita el número de saltos de transmisión de los paquetes de datos en la red y equivale al TTL en IPv4.
 
@@ -134,7 +136,9 @@ Aplicar los cambios provocará una nueva conexión.
 
 - **Port**: El puerto serie detectado automáticamente para comunicarse con el módem celular.
 
-- **TTL**: TTL (Time To Live) define el tiempo máximo que los paquetes pueden permanecer en la red. De forma predeterminada, el router reduce en 1 el TTL de los paquetes entrantes desde los dispositivos cliente antes de reenviarlos. Si necesita sobrescribirlo, puede establecer aquí un valor fijo. La configuración de TTL solo es válida para IPv4.
+- **TTL**: TTL (Time To Live) define el tiempo máximo que los paquetes pueden permanecer en la red. De forma predeterminada, el router reduce en 1 el TTL de los paquetes entrantes de los dispositivos cliente antes de reenviarlos. La configuración de TTL solo es válida para IPv4.
+
+    **Nota**: Si necesita sobrescribirlo, puede establecer aquí un valor fijo. En la mayoría de los modelos, introduzca el TTL efectivo deseado más 1 para compensar la reducción automática. El Mudi 7 (GL-E5800) aplica el valor introducido sin cambios.
 
 - **HL**: En IPv6, HL (Hop Limit) limita el número de saltos de transmisión de los paquetes de datos en la red y equivale al TTL en IPv4.
 

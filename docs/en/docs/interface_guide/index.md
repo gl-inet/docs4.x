@@ -19,7 +19,6 @@ Learn how to use our devices and add-on features with our step to step guides.
 ## Wireless
 
 * [Wireless](wireless.md)
-* [Wireless (v4.9)](wireless_v4.9.md)
 
 ## Clients
 

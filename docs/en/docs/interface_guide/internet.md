@@ -14,7 +14,10 @@ The top half features a diagram showing the Internet status, and the bottom half
 - A dashed gray line means no network connection.
 - A solid white line with a yellow exclamation mark means connected but no Internet access.
 
-**The middle** of the diagram displays the current router model and the status of [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard_v4.8.md), [Tor](tor.md), [5G Main Wi-Fi](wireless.md), [2.4G Main Wi-Fi](wireless.md), [5G Guest Wi-Fi](wireless.md) and [2.4G Guest Wi-Fi](wireless.md). 
+**The middle** of the diagram displays the current router model and the status of [AdGuard Home](adguardhome.md), [IPv6](ipv6.md), [VPN](vpn_dashboard_v4.8.md), [Tor](tor.md), [5G Main Wi-Fi](wireless.md#5-ghz-wi-fi), [2.4G Main Wi-Fi](wireless.md#24-ghz-wi-fi), [5G Guest Wi-Fi](wireless.md#5-ghz-wi-fi) and [2.4G Guest Wi-Fi](wireless.md#24-ghz-wi-fi).  
+
+!!! note
+    Since firmware v4.9, this page displays only the Main Wi‑Fi status and a unified Guest Wi‑Fi status by default; Guest Wi‑Fi status for different bands is no longer displayed separately. On models that support the 6 GHz band, the [6 GHz Wi‑Fi](wireless.md#6-ghz-wi-fi) status is additionally displayed separately. 
 
 - Green indicates the feature is enabled, gray indicates disabled. For VPN and Tor, white means connecting.
 - Hover your cursor over an enabled Wi‑Fi icon to display its Wi‑Fi QR code. You can scan it with your phone or tablet to connect to the corresponding Wi‑Fi network quickly.

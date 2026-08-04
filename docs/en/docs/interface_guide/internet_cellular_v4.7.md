@@ -1,6 +1,12 @@
 # Connect to the Internet via cellular (Firmware v4.7 and earlier)
 
-**Note**: This guide is based on firmware v4.7 and earlier. For newer versions, please refer to [here](internet_cellular.md).
+The content on this page is based on firmware versions v4.7.x and earlier. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.7 and earlier" markdown="1">
+
+- [Firmware v4.8 and above](internet_cellular.md)
+
+</div>
 
 ---
 

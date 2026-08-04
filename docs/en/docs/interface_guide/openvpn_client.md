@@ -296,9 +296,7 @@ If the service provider you subscribed to is not listed below, please contact th
 ??? "ExpressVPN"
     ### ExpressVPN
 
-    [Official Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"}
-
-    Information quoted from [Expressvpn official instruction](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
+    [Official Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"} | [Get 30 days free](https://www.expressvpn.com/refer-a-friend/30-days-free?referrer_id=97477587){rel="sponsored" target="_blank"}
 
     1. Go to [ExpressVPN](https://go.expressvpn.com/c/4130682/1645813/16063){rel="sponsored" target="_blank"} website, and log in with your ExpressVPN credentials.
 

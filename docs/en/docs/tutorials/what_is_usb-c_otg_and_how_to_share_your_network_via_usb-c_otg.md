@@ -5,9 +5,9 @@
 
 The following two modes can be switched via **USB OTG**:
 
-- When a device switches to **Host mode** via USB OTG, it acts as the bus master, initiating data transmission, supplying power, and governing all read and write operations between the two connected devices. 
+- When a device switches to **Host mode** via USB OTG, it acts as the USB host, initiating data transmission, supplying power, and governing all read and write operations between the two connected devices. 
 
-- In **Device mode**, the device serves as a peripheral, drawing power from the host and responding passively to its commands, without the ability to initiate communication on its own.
+- When operating in **Device mode**, the device serves as a peripheral, drawing power from the host and responding passively to its commands, without the ability to initiate communication on its own.
 
 ## Network sharing via USB‑C OTG on Mudi 7
 
@@ -15,7 +15,7 @@ The OTG-enabled USB‑C port of the Mudi 7 operates in either **Device** or **Ho
 
 ### Connect to a Computer  
 
-Most computers operate as hosts only and do not support OTG. When connected via USB, the router shows a mode selection window. Select any mode to auto-negotiate the role. The computer then recognizes it as a USB adapter for direct internet access, no extra drivers needed.
+Most computers operate as hosts only and do not support OTG. When a computer is connected to the router via USB, the router shows a mode selection window. You can select any mode, and the Mudi 7 will auto-negotiate the role. The computer then recognizes it as a USB adapter for direct internet access, no extra drivers needed.
 
 ### Connect to a Smartphone
    

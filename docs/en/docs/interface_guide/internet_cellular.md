@@ -226,26 +226,26 @@ Here is a list of supported modems that we had tested before.
 
 **SIMPoYo uFi** is a compact plug & play USB dongle with the Wi-Fi hotspot, designed for fast, reliable connectivity anywhere. It works seamlessly with most GL.iNet routers, as well as laptops, power banks, car USB ports, and other USB power sources. It comes with 10GB of free data for 30 days, valid in the UK, and 34 European countries.
 
-| Model                                  | Cellular | Tested | Tested by       | Comments* |
-| -------------------------------------- | -------- | ------ | --------------- | --------- |
-| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/)  | 4G    | Yes   | GL.iNet |           |
-| Quectel RM520N-GL                      | 5G       | Yes    | GL.iNet         |           |
-| Quectel EC20-E, EC20-A, EC20-C         | 4G       | Yes    | GL.iNet         |           |
-| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G       | Yes    | GL.iNet         |           |
-| Quectel EC200A series                  | 4G       | Yes    | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G       | Yes    | anonymous       |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G       | Yes    | anonymous       |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G       | Yes    | anonymous       |           |
-| Huawei E3276                           | 4G       | Yes    | GL.iNet         |           |
-| Huawei E3372h-153                      | 4G       | Yes    | GL.iNet         | Host-less |
-| Huawei E3372h-320 (Ukraine)            | 4G       | Yes    | anonymous       | Host-less |
-| Huawei E3372h-607                      | 4G       | Yes    | GL.iNet         |           |
-| Huawei K5161h                          | 4G       | Yes    | anonymous       |           |
-| ZTE MF833U1                            | 4G       | Yes    | anonymous       | Host-less |
-| ZTE MF79U                              | 4G       | Yes    | GL.iNet         | Host-less |
-| ZTE M823                               | 4G       | Yes    | Arnas Risqianto |           |
-| MeiG O4H13 (Qualcomm MDM9207)          | 4G       | Yes    | GL.iNet         | Host-less |
-| XTRONS 4G LTE USB Dongle               | 4G       | Yes    | GL.iNet         | Host-less |
+| Model                                  | Cellular | Type       | Tested by       | Comments* |
+| -------------------------------------- | -------- | ---------- | --------------- | --------- |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/)  | 4G    | USB Dongle | GL.iNet |           |
+| Quectel RM520N-GL                      | 5G       | Module     | GL.iNet         |           |
+| Quectel EC20-E, EC20-A, EC20-C         | 4G       | Module     | GL.iNet         |           |
+| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G       | Module     | GL.iNet         |           |
+| Quectel EC200A series                  | 4G       | Module     | akw2312         | Host-less |
+| Quectel EP06-E, EP06-A                 | 4G       | Module     | anonymous       |           |
+| Quectel EM060K-GL, EM120K-GL           | 4G       | Module     | anonymous       |           |
+| Quectel EM120R-GL, EM160R-GL           | 4G       | Module     | anonymous       |           |
+| Huawei E3276                           | 4G       | USB Dongle | GL.iNet         |           |
+| Huawei E3372h-153                      | 4G       | USB Dongle | GL.iNet         | Host-less |
+| Huawei E3372h-320 (Ukraine)            | 4G       | USB Dongle | anonymous       | Host-less |
+| Huawei E3372h-607                      | 4G       | USB Dongle | GL.iNet         |           |
+| Huawei K5161h                          | 4G       | USB Dongle | anonymous       |           |
+| ZTE MF833U1                            | 4G       | USB Dongle | anonymous       | Host-less |
+| ZTE MF79U                              | 4G       | USB Dongle | GL.iNet         | Host-less |
+| ZTE M823                               | 4G       | USB Dongle | Arnas Risqianto |           |
+| MeiG O4H13 (Qualcomm MDM9207)          | 4G       | USB Dongle | GL.iNet         | Host-less |
+| XTRONS 4G LTE USB Dongle               | 4G       | USB Dongle | GL.iNet         | Host-less |
 
 - **QMI**: This modem supports QMI mode. Please select QMI as the cellular communication protocol, and **/dev/cdc-wdm0** as the serial port in the SIM card settings.
 

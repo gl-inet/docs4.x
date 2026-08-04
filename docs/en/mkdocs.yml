@@ -272,7 +272,7 @@ nav:
       - Set up drop-in gateway: tutorials/how_to_set_up_drop_in_gateway.md
       - Set up port forwarding on primary router: tutorials/how_to_set_up_port_forwarding.md
       - Configure dual wired WAN access: tutorials/configure_dual_ethernet_wan.md
-      - USB-C OTG and share network via USB-C OTG: tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md
+      - What is USB-C OTG & How to use it: tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md
     - Others:
       - Block client devices: tutorials/how_to_block_client_devices.md
       - Manually configure static IP on client devices: tutorials/manually_configure_static_ip.md

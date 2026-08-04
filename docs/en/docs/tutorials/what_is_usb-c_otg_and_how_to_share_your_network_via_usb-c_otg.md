@@ -1,4 +1,4 @@
-# What is USB-C OTG and How to share your Network via USB-C OTG
+# What is USB-C OTG and how to share your network via USB-C OTG
 
 ## USB OTG
 **USB OTG** (On-The-Go) is a USB standard that enables compatible devices like routers to switch between **Host** and **Device** roles, allowing direct data transmission and power interaction without a separate host device. 

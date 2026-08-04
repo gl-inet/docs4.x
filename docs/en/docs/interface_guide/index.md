@@ -39,19 +39,6 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Set up WireGuard Client](wireguard_client.md)
 * [Set up WireGuard Server](wireguard_server.md)
 
-## Applications
-
-* [Plug-ins](plugins.md)
-* [DDNS](ddns.md) - to overcome the issues related to Dynamic IP Addresses.
-* [AdGuard Home](adguardhome.md)
-* [Network Storage](network_storage.md)
-* [Parental Control](parental_control.md)
-* [Bark](bark.md)
-* [Tailscale](tailscale.md)
-* [ZeroTier](zerotier.md)
-* [Tor](tor.md) - to protect the personal privacy.
-* [eSIM Management](esim_management.md)
-
 ## Network
 
 * [Firewall](firewall.md)
@@ -62,11 +49,11 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [IoT Network](iot_network.md)
 * [DNS](dns.md)
 * [Ethernet Port](ethernet_port.md)
-* [Network Mode](network_mode.md)
 * [IPv6](ipv6.md)
 * [MAC Address](mac_address.md)
+* [IGMP Snooping](igmp_snooping.md) - to use the multicast function on the router.
+* [Network Mode](network_mode.md)
 * [Drop-in Gateway](drop-in_gateway.md)
-* [IGMP Snooping](igmp_snooping.md) - to use the multicast function on the router
 * [Hardware Acceleration](hardware_acceleration.md)
 * [Network Acceleration](network_acceleration.md)
 * [NAT Settings](nat_settings.md)
@@ -87,19 +74,32 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Admin Access](admin_access.md)
 * [NAT Mode](nat_settings.md)
 
+## Applications
+
+* [Plug-ins](plugins.md)
+* [DDNS](ddns.md) - to overcome the issues related to Dynamic IP Addresses.
+* [AdGuard Home](adguardhome.md)
+* [Network Storage](network_storage.md)
+* [Parental Control](parental_control.md)
+* [Bark](bark.md)
+* [Tailscale](tailscale.md)
+* [ZeroTier](zerotier.md)
+* [Tor](tor.md) - to protect the personal privacy.
+* [eSIM Management](esim_management.md)
+
 ## System
 
-* [UI Languages](ui_languages.md)
-* [System Overview](system_overview.md) - displays some hardware status and system info.
+* [Overview](system_overview.md) - displays some hardware status and system info.
+* [Admin password](admin_password.md)
 * [Upgrade](upgrade.md)
 * [Scheduled Tasks](scheduled_tasks.md) - to set schedules for LED display, Wi-Fi status and reboot.
-* [Change Admin password](admin_password.md)
 * [Display Management](display_management.md)
 * [USB & Power](usb_power.md)
 * [Time Zone](time_zone.md)
 * [Toggle Button Settings](toggle_button_settings.md)
-* [Log](log.md)
 * [Security](security.md)
 * [Reset Firmware](reset_firmware.md)
+* [Log](log.md)
 * [Advanced Settings](advanced_settings.md)
+* [UI Languages](ui_languages.md)
 * [Help](help.md)

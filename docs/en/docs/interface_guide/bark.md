@@ -75,8 +75,8 @@ Once your device connects to Bark Cloud services and is paired with your account
 
 ![bark status](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark8.png){class="glboxshadow"}
 
-Click **Go to Bark** or [here](https://www.bark.us/app/children/?ref=glinet&home=glinet) to log in to the Bark dashboard and set up your parental control rules.
+Click **Go to Bark** or [here](https://www.bark.us/app/children/?ref=glinet&home=glinet){target="_blank"} to log in to the Bark dashboard and set up your parental control rules.
 
-Since GL.iNet is not the provider of this service, should you encounter any issues while using Bark, kindly reach out directly to [Bark's Technical Support](https://www.bark.us/contact-us/?ref=glinet&home=glinet) for assistance.
+Since GL.iNet is not the provider of this service, should you encounter any issues while using Bark, kindly reach out directly to [Bark's Technical Support](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} for assistance.
 
 ---

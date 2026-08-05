@@ -54,7 +54,7 @@ Models with Wi-Fi functionality usually support four network modes: Router, Acce
 
 ## For models without Wi-Fi
 
-GL-MT2500/GL-MT2500A does not support Access Point, Extender, or WDS modes, as it lacks Wi-Fi functionality. But it supports Router mode and Bridge mode.
+Models lacking Wi-Fi functionality (e.g., GL-MT5000, GL-MT2500, and GL-MT2500A) do not support Access Point, Extender, or WDS modes; but they support Router mode and Bridge mode.
 
 ![network mode of gl-mt2500](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_mode/network_mode_page_mt2500.png){class="glboxshadow"}
 

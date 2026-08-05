@@ -190,6 +190,7 @@ To fix this issue:
 
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)
@@ -204,7 +205,6 @@ To fix this issue:
 
 ??? "Unsupported Models"
 
-    - GL-MG1300 (Mango 2)
     - GL-MT5000 (Brume 3)
     - GL-MT2500/GL-MT2500A (Brume 2)
     - GL-AX1800 (Flint)

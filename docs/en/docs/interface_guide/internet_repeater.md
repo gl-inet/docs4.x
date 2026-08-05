@@ -64,9 +64,9 @@ When connecting the router to a public hotspot with a captive portal, enabling t
 
     - **Factory**: Uses the device's original factory-assigned MAC address.
 
-    - **Clone**: Clones a client device’s MAC address for connection. If the desired MAC isn’t listed, manually enter the address you want to clone. 
+    - **Clone**: Clones a client device's MAC address for connection. If the desired MAC isn't listed, manually enter the address you want to clone. 
     
-        Note: Many modern devices use randomized MAC addresses (often called Private Wi-Fi Address or random hardware address) when connecting to Wi-Fi networks. Because of this, the MAC address displayed here may not match the device’s actual physical MAC.
+        **Note**: Many modern devices use randomized MAC addresses (often called Private Wi-Fi Address or random hardware address) when connecting to Wi-Fi networks. Because of this, the MAC address displayed here may not match the device's actual physical MAC.
   
     - **Random**: Automatically generates a random MAC address for connection.
 
@@ -180,7 +180,7 @@ To fix this issue:
 
 ## DFS
 
-When connecting to an upstream 5G Wi-Fi, the router's Wi-Fi will follow the upstream Wi-Fi to use or not use the DFS channel.
+**DFS** (Dynamic Frequency Selection) is a mechanism that automatically switches Wi‑Fi channels to avoid interference with radar signals. When connecting to an upstream 5G Wi-Fi, the router's Wi-Fi will follow the upstream Wi-Fi to use or not use the DFS channel.
 
 * If the upstream Wi-Fi uses a DFS channel and is scannable, the router's 5G Wi-Fi will use the same channel.
 

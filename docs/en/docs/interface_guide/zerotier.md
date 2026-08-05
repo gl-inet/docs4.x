@@ -15,6 +15,8 @@ The ZeroTier feature on GL.iNet routers, available since firmware v4.2, allows t
 ## Supported Models
 
 ??? "Supported Models"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
@@ -32,6 +34,7 @@ The ZeroTier feature on GL.iNet routers, available since firmware v4.2, allows t
     - GL-A1300 (Slate Plus)
 
 ??? "Unsupported Models"
+    - GL-MG1300 (Mango 2)
     - GL-X2000 (Spitz Plus)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)

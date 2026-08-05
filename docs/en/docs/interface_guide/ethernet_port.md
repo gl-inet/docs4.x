@@ -35,6 +35,10 @@ Some models support switching LAN 1 to a WAN port for dual-Ethernet WAN scenario
 The Dual-Ethernet WAN feature lets you switch a default LAN Ethernet port to a secondary WAN port for dual Ethernet internet access, providing reliable backup connectivity and supporting bandwidth aggregation (where compatible) for bandwidth-heavy workloads. It also lets you connect to two independent networks (e.g., work and personal) simultaneously, enhancing flexibility without extra hardware.
 
 ??? "Supported Models"
+
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - ※GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)

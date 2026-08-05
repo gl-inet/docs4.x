@@ -21,9 +21,7 @@ Compared to firmware v4.8, v4.9 includes the following improvements to the VPN D
 
 2. **Each tunnel group operates independently and does not perform failover between groups**. If all profiles in a single tunnel fail to connect, the system will determine whether to switch to the local WAN based on the status of the Tunnel Kill Switch and the All Other Traffic tunnel.
 
-## Getting Started
-
-### Upload VPN Profile
+## Upload VPN Profile
 
 When entering this page for the first time, if no tunnels have been created, the page appears as follows. Click **Add VPN Tunnel** to get started.
 
@@ -31,13 +29,15 @@ When entering this page for the first time, if no tunnels have been created, the
 
 You will be directed to the **VPN Client Profile** page. Select a VPN provider and log in. 
 
-The VPN providers listed are integrated into the GL.iNet router web Admin Panel. With an active subscription, users simply enter their credentials to log in instantly and obtain configuration files for VPN connections.
-
 ![select vpn provider](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/vpn_client_profile.png){class="glboxshadow"}
 
-If you have subscribed to other VPN providers, or if you want to upload your personal VPN configurations, click **Add Manually** and upload your configurations.
+!!! Tip
 
-Take **PureVPN** as an example. Click PureVPN and log in with valid credentials.
+    1. The VPN providers listed in the image above are integrated into the GL.iNet router web Admin Panel. With an active subscription, users simply enter their credentials to log in instantly and obtain configuration files for VPN connections.
+    
+    2. If you have subscribed to other VPN providers, or if you want to upload your personal VPN configurations, click **Add Manually** and upload your configurations.
+
+Take [PureVPN](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"} as an example. Click PureVPN and log in with valid credentials.
 
 ![PureVPN1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/purevpn1.png){class="glboxshadow"}
 
@@ -45,19 +45,15 @@ Take **PureVPN** as an example. Click PureVPN and log in with valid credentials.
 
 You will obtain a list of VPN profiles. For some VPN service providers, you may need to select a VPN protocol or preferred servers/cities before the list of profiles appears.
 
-Then click **Go to Dashboard** at the bottom. You will be directed to the VPN Dashboard to add your VPN tunnel and set up VPN policy.
-
 ![PureVPN3](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/purevpn3.png){class="glboxshadow"}
 
-### Set Up VPN Policy
+Click **Go to Dashboard** at the bottom. You will be directed to the VPN Dashboard to add your VPN tunnel and configure VPN policies.
 
-!!! Tip "What is VPN policy?"
+## Add VPN Tunnel
 
-    A VPN policy defines how network traffic is routed through VPN tunnels, determining which traffic goes to target destinations via VPN and which accesses the Internet directly through the local WAN.
+### General Steps
 
-    It allows all clients or specific devices to access designated websites or the entire Internet over a VPN connection, enabling flexible and secure network management.
-
-Follow the setup wizard to configure your VPN policy, including selecting VPN profile, traffic source, and traffic destination. See [Case Reference](#case-reference) if necessary.
+Follow the steps below to add your VPN tunnel and configure VPN policies. See [Case Reference](#case-reference) if necessary.
 
 1. On the VPN Dashboard, click **Add VPN Tunnel**. A VPN setup wizard will pop up on the right.
 
@@ -65,9 +61,7 @@ Follow the setup wizard to configure your VPN policy, including selecting VPN pr
 
 2. Select VPN profile.
 
-    If you have previously logged in with any integrated VPN service credentials or uploaded a configuration file, the available profiles will be listed here. Otherwise, go to **VPN Client Profile** to log in with your credentials or upload a configuration file manually.
-
-    Take [PureVPN](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"} as an example. Select one or multiple profiles, and adjust their priority on the right as needed, then click **Next**. 
+    Select one or multiple profiles, and adjust their priority on the right as needed, then click **Next**. 
 
     ![select profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/select_profile.png){class="glboxshadow"}
 
@@ -102,7 +96,7 @@ Follow the setup wizard to configure your VPN policy, including selecting VPN pr
     - **Exclude specified Domain / IP List**: If selected, traffic matching this rule will not be routed to specified domains or IP addresses. You need to enter them manually.
     ![exclude specified domain ip](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/exclude_specified_domain_ip.png){class="glboxshadow"}
 
-5. A VPN tunnel is added successfully. You will be directed to the **ExpressVPN Dashboard**. Add more VPN tunnels if needed.
+5. A VPN tunnel is added successfully. You will be directed to the **VPN Dashboard**. Add more VPN tunnels if needed.
 
     For security, please go to [All Other Traffic](#all-other-traffic) and [Tunnel Options](#tunnel-options) to check **Kill Switch** status before enabling your VPN tunnel.
 
@@ -176,6 +170,8 @@ Here are two typical VPN policy configuration cases with step-by-step setup inst
 
     1. Select the VPN profile for Tunnel 1. 
 
+        If you have logged in with any integrated VPN service credentials or uploaded a configuration file, the available profiles will be listed here. Otherwise, go to **VPN Client Profile** to log in with your credentials or upload a configuration file manually.
+        
         Take [PureVPN](https://billing.purevpn.com/aff.php?aff=35535){target="_blank"} as an example. Select one or multiple profiles, and adjust their priority on the right as needed, then click **Next**.
 
         ![case 2 profile1](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/2_profiles1.png){class="glboxshadow"}
@@ -260,7 +256,7 @@ Here are two typical VPN policy configuration cases with step-by-step setup inst
 
 Since firmware v4.8, GL.iNet routers supports Kill Switch configuration for the global VPN connection, as well as for each individual VPN tunnel.
 
-- To set up Kill Switch for the global VPN connection, refer to [All Other Traffic](#all-other-traffic).
+- To set up Kill Switch for the global VPN connection (i.e., Enhanced Kill Switch), refer to [All Other Traffic](#all-other-traffic).
 
 - To set up Kill Switch for each individual VPN tunnel, refer to [Tunnel Options](#tunnel-options).
 

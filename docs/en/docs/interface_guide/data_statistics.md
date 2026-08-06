@@ -1,5 +1,9 @@
 # Data Statistics
 
+**Note**: This feature was introduced in firmware v4.9.
+
+---
+
 Data Statistics provides an intuitive traffic dashboard that identifies network usage by application and protocol. It supports viewing 1‑hour, 1‑day, and 7‑day historical trends, displays usage rankings, monitors per‑device traffic, and allows one‑click blocking of unwanted apps.
 
 **Note**:
@@ -14,12 +18,10 @@ Data Statistics provides an intuitive traffic dashboard that identifies network 
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
-    - ※GL-BE9300 (Flint 3)
-    - ※GL-BE3600 (Slate 7)
-    - ※GL-MT6000 (Flint 2)
-    - ※GL-MT3000 (Beryl AX)
-
-    Note: Models marked with ※ support Data Statistics in firmware v4.9 and later.
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint 2)
+    - GL-MT3000 (Beryl AX)
 
 ## Quick Setup
 

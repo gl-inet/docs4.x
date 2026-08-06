@@ -1,5 +1,9 @@
 # Content Filter
 
+**Note**: This feature was introduced in firmware v4.9.
+
+---
+
 Content Filter is an intelligent online safety feature powered by DPI classification. It automatically blocks harmful and malicious websites to keep your network clean and secure, and also supports custom rules to block specific apps, domains, or IP addresses.
 
 **Note**:
@@ -13,13 +17,12 @@ Content Filter is an intelligent online safety feature powered by DPI classifica
 
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
+    - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)
-    - ※GL-BE9300 (Flint 3)
-    - ※GL-BE3600 (Slate 7)
-    - ※GL-MT6000 (Flint 2)
-    - ※GL-MT3000 (Beryl AX)
-
-    Note: Models marked with ※ support Content Filter in firmware v4.9 and later.
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint 2)
+    - GL-MT3000 (Beryl AX)
     
 ## Quick Setup
 

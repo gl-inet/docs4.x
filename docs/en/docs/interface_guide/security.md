@@ -1,6 +1,6 @@
 # Security
 
-> This page was introduced in firmware v4.5.
+**Note**: This page was introduced in firmware v4.5.
 
 On the left side of the web Admin Panel, go to **SYSTEM** -> **Security**.
 

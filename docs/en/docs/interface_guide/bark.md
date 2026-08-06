@@ -1,6 +1,8 @@
 # Bark
 
-> This guide applies to firmware v4.9 and later. For earlier versions, please click [here](parental_control.md#bark-version).
+This guide applies to firmware v4.9 and later. For earlier versions, please click [here](parental_control.md#bark-version).
+
+---
 
 The [Bark](https://www.bark.us/){target="_blank"} service can help protect your child's digital world and provide comprehensive online protection. It typically requires a paid subscription. However, as part of our partnership with Bark, GL.iNet offers the Bark Home plan for free **on select router models**, providing advanced monitoring and alerts at no extra cost.
 

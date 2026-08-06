@@ -105,7 +105,7 @@ The following is an example of the GL-MT2500.
 
 ## Allow Remote Access WAN
 
-> This feature was renamed to **Advertise WAN Subnets** in firmware v4.9 and later.
+**Note**: This feature was renamed to **Advertise WAN Subnets** in firmware v4.9 and later.
 
 If this option is enabled, resources on the device's WAN side can be accessed through the Tailscale virtual network. Routes take effect only after approval in the Tailscale Admin Console.
 
@@ -137,7 +137,7 @@ Here are the steps to set up this feature.
 
 ## Allow Remote Access LAN
 
-> This feature was renamed to **Advertise LAN Subnets** in firmware v4.9 and later.
+**Note**: This feature was renamed to **Advertise LAN Subnets** in firmware v4.9 and later.
 
 If this option is enabled, resources on the device's LAN side can be accessed through the Tailscale virtual network. Routes take effect only after approval in the Tailscale Admin Console.
 
@@ -227,7 +227,7 @@ Here are the steps to set Leo-Desktop as an Exit Node.
 
 ## Run Exit Node
 
-> This feature was introduced in firmware v4.9.
+**Note**: This feature was introduced in firmware v4.9.
 
 Running an exit node on your router allows other devices within your tailnet to route all outbound internet traffic via this router's public IP.
 

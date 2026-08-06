@@ -1,6 +1,8 @@
 # ACL
 
-> The ACL feature was introduced in firmware v4.9.
+**Note**: The ACL feature was introduced in firmware v4.9.
+
+---
 
 ACL, short for Access Control List, lets you create rules to manage network traffic based on connection protocols, device addresses and ports. It controls whether to allow or block network access. If multiple ACL rules conflict, the system applies the one with higher priority.
 

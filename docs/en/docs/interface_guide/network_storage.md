@@ -2,17 +2,15 @@
 
 ## Contents
 
-- [Network Storage](#network-storage)
-  - [Contents](#contents)
-  - [Introduction](#introduction)
-  - [Supported Models](#supported-models)
-  - [Insert Storage Device](#insert-storage-device)
-  - [Set Up Samba](#set-up-samba)
-  - [Set Up WebDAV](#set-up-webdav)
-  - [Set Up DLNA](#set-up-dlna)
-  - [Samba Client](#samba-client)
-  - [WebDAV Client](#webdav-client)
-  - [Using Mobile App](#using-mobile-app)
+- [Introduction](#introduction)
+- [Supported Models](#supported-models)
+- [Insert Storage Device](#insert-storage-device)
+- [Set Up Samba](#set-up-samba)
+- [Set Up WebDAV](#set-up-webdav)
+- [Set Up DLNA](#set-up-dlna)
+- [Samba Client](#samba-client)
+- [WebDAV Client](#webdav-client)
+- [Using Mobile App](#using-mobile-app)
 
 ## Introduction
 
@@ -73,7 +71,7 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
 ![network storage, disk found](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/disk_found.png){class="glboxshadow"}
 
-## Set Up Samba
+## Set Up Samba {#set-up-samba}
 
 1. Toggle on **Enable Samba** and click **Apply**.
 
@@ -113,7 +111,7 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
 ---
 
-## Set Up WebDAV
+## Set Up WebDAV {#set-up-webdav}
 
 1. Toggle on **Enable WebDAV**, and click **Apply**.
 
@@ -157,7 +155,7 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
 ---
 
-## Set Up DLNA
+## Set Up DLNA {#set-up-dlna}
 
 Toggle on **Enable DLNA**, and click **Apply**.
 

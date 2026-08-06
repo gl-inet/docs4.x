@@ -397,17 +397,17 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
     **Note: Hotspot Shield のルーター用設定ファイルは現在提供・サポートされていません。以下の手順は、すでにファイルを保持している方向けの参考情報です。**
 
-    1. [https://www.hotspotshield.com/](https://www.hotspotshield.com/) を開き、Account をクリックします。必要に応じてサインインしてください。
+    1. [https://www.hotspotshield.com/](https://www.hotspotshield.com/){target="_blank"} を開き、Account をクリックします。必要に応じてサインインしてください。
 
         ![hotspot shield login](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hotspot_shield/hotspotshield_front_page.png){class="glboxshadow"}
 
-    2. [https://app.hotspotshield.com/app/hotspotshield/router](https://app.hotspotshield.com/app/hotspotshield/router) を開きます。
+    2. [https://app.hotspotshield.com/app/hotspotshield/router](https://app.hotspotshield.com/app/hotspotshield/router){target="_blank"} を開きます。
 
         Select location のドロップダウンから、ルーターで使用する仮想ロケーションを選びます。その後 "Download file" をクリックすると、設定ファイル（`config.ovpn`）が PC にダウンロードされます。ルーターで OpenVPN クライアントを設定する際に、ユーザー名とパスワードの入力が必要です。
 
         ![hotspot shield link router](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hotspot_shield/link_router.png){class="glboxshadow"}
 
-    [参考リンク](https://support.hotspotshield.com/hc/en-us/articles/360038538012-How-do-I-install-Hotspot-Shield-on-my-GL-iNet-router)
+    [参考リンク](https://support.hotspotshield.com/hc/en-us/articles/360038538012-How-do-I-install-Hotspot-Shield-on-my-GL-iNet-router){target="_blank"}
 
 ??? "IPVANISH"
     ### IPVANISH
@@ -418,11 +418,11 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
         ![ipvanish all openvpn configs](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ipvanish/ipvanish_all_openvpn_configs.png){class="glboxshadow"}
 
-    - [こちら](https://www.ipvanish.com/software/configs/) から個別のサーバー設定ファイルをダウンロードすることもできますが、**ca.ipvanish.com.crt** もあわせてダウンロードする必要があります。ルーターへアップロードする前に、**ca.ipvanish.com.crt** と `.ovpn` 設定ファイルを zip アーカイブにまとめてください。
+    - [こちら](https://www.ipvanish.com/software/configs/){target="_blank"} から個別のサーバー設定ファイルをダウンロードすることもできますが、**ca.ipvanish.com.crt** もあわせてダウンロードする必要があります。ルーターへアップロードする前に、**ca.ipvanish.com.crt** と `.ovpn` 設定ファイルを zip アーカイブにまとめてください。
 
         ![ipvanish openvpn config file with certificate file](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ipvanish/ipvanish_openvpn_config_file_with_certificate_file.png){class="glboxshadow"}
 
-    [参考リンク](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup)
+    [参考リンク](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup){target="_blank"}
 
 ??? "IVACY"
     ### IVACY
@@ -436,7 +436,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
     - パスワード（Ivacy アカウントへのサインインに使うものと同じ）
     - OpenVPN 設定ファイル
 
-    [参考リンク](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/)
+    [参考リンク](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/){target="_blank"}
 
 ??? "IVPN"
     ### IVPN
@@ -451,7 +451,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
         ![ivpn set up on gl.inet router](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ivpn/ivpn_set_up_openvpn_client.png){class="glboxshadow"}
 
-    [参考リンク](https://www.ivpn.net/setup/gnu-linux-terminal.html)
+    [参考リンク](https://www.ivpn.net/setup/gnu-linux-terminal.html){target="_blank"}
 
 ??? "OVPN"
     ### OVPN
@@ -538,14 +538,14 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
     PureVPN で OpenVPN クライアントを設定するには、OpenVPN 用ユーザー名、パスワード、設定ファイルが必要です。これらは PureVPN アカウントで確認できます。
 
-    1. [PureVPN アカウントにサインインします。](https://my.purevpn.com/)
+    1. [PureVPN アカウントにサインインします。](https://my.purevpn.com/){target="_blank"}
     2. 左側サイドバーで **Subscriptions** をクリックします。
     3. 下へスクロールして OpenVPN 用ユーザー名とパスワードを確認します。
         ![purevpn username and password](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/purevpn-vpn-username-vpn-password.png){class="glboxshadow"}
     4. 左側サイドバーで **Manual Configuration** をクリックします。
     5. VPN ロケーションを選択し、**Download** をクリックして設定ファイルをダウンロードします。
 
-    [参考リンク](https://support.purevpn.com/openvpn-files)
+    [参考リンク](https://support.purevpn.com/openvpn-files){target="_blank"}
 
     GL.iNet ルーターは PureVPN の [dedicated IP](https://www.purevpn.com/dedicated-ip){target="_blank"} 機能をサポートしていません。これは PPTP を必要とするためです。
 
@@ -554,7 +554,7 @@ OpenVPN サーバーの設定方法は [こちら](openvpn_server.md) を参照�
 
     [公式サイト](https://safervpn.com/?a_aid=563){target="_blank"}
 
-    [こちら](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup) をクリックして設定ファイルを直接ダウンロードします。
+    [こちら](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup){target="_blank"} をクリックして設定ファイルを直接ダウンロードします。
 
     ![safervpn openvpn config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
 

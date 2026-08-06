@@ -188,6 +188,9 @@ SSID を入力し、Security を選択して、必要に応じてパスワード
 
 ??? "対応モデル"
 
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)

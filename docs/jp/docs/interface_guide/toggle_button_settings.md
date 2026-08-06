@@ -7,6 +7,8 @@ Toggle Button Settings では、ルーター本体の物理トグルスイッチ
 ## 対応モデル
 
 ??? "Supported Models"
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-MT3600BE (Beryl 7)
     - GL-BE3600 (Slate 7)
     - GL-MT3000 (Beryl AX)
@@ -21,6 +23,7 @@ Toggle Button Settings では、ルーター本体の物理トグルスイッチ
     - GL-AR750 (Creta)
 
 ??? "Unsupported Models"
+    - GL-BE14000 (Flint 4)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-BE6500 (Flint 3e)

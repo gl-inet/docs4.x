@@ -20,7 +20,6 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 ## Sieć bezprzewodowa
 
 * [Sieć bezprzewodowa](wireless.md)
-* [Sieć bezprzewodowa (v4.9)](wireless_v4.9.md)
 
 ## Klienci
 

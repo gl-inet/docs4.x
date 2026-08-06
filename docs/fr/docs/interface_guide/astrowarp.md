@@ -37,10 +37,13 @@ L’ancienne version d’AstroWarp, bien que visible dans le panneau d’adminis
 ??? "Modèles non pris en charge"
     Ces appareils sont incompatibles avec la nouvelle version d’AstroWarp, tandis que certains modèles fonctionnent encore avec l’ancienne version. Consultez [ce lien](https://docs.astrowarp.net/en/quick_start/){target="_blank"} pour plus de détails.
 
+    - GL-BE14000 (Flint 4)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-BE6500 (Flint 3e)
     - GL-B3000 (Marble)
     - GL-A1300 (Slate Plus)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)
     - GL-E750/E750V2 (Mudi)

@@ -35,6 +35,9 @@ Certains modèles permettent de basculer LAN 1 vers un port WAN pour les scénar
 La fonctionnalité Dual-Ethernet WAN permet de transformer un port Ethernet LAN par défaut en port WAN secondaire pour un accès Internet Ethernet double. Elle offre une connectivité de secours fiable et prend en charge l'agrégation de bande passante lorsque celle-ci est compatible, pour les charges de travail gourmandes en bande passante. Elle permet également de se connecter simultanément à deux réseaux indépendants, par exemple un réseau professionnel et un réseau personnel, ce qui améliore la flexibilité sans matériel supplémentaire.
 
 ??? "Modèles pris en charge"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - ※GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)

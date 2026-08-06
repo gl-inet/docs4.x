@@ -1,6 +1,12 @@
 # Verbindung mit dem Internet über Mobilfunk
 
-**Hinweis**: Diese Anleitung basiert auf Firmware v4.8. Für frühere Versionen lesen Sie bitte [hier](internet_cellular_v4.7.md) weiter.
+Der Inhalt dieser Seite basiert auf Firmwareversion v4.8.x und höher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
+
+<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.8 und höher" markdown="1">
+
+- [Firmware v4.7 und früher](internet_cellular_v4.7.md)
+
+</div>
 
 ---
 
@@ -487,7 +493,7 @@ Klicken Sie auf den Link [att device certification](https://iotdevices.att.com/c
 
 ### T-Mobile-Zertifizierung
 
-Klicken Sie auf den Link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification) und wählen Sie bei **Filter** die Option **5G** aus; dort können Sie das Gerät finden.
+Klicken Sie auf den Link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} und wählen Sie bei **Filter** die Option **5G** aus; dort können Sie das Gerät finden.
 
 ![bandmasking](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_cellular/certification/t-mobile_certification.png){class="glboxshadow"}
 

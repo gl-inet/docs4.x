@@ -48,6 +48,7 @@ plugins:
         'tutorials/how_to_change_x3000_and_xe3000_antennas.md': 'tutorials/how_to_install_or_change_antennas.md'
         'interface_guide/vpn_dashboard_v4.9.md': 'interface_guide/vpn_dashboard.md'
         'interface_guide/dual-ethernet_wan.md': 'interface_guide/ethernet_port.md'
+        'interface_guide/wireless_v4.9.md': 'interface_guide/wireless.md'
         'faq/amnezia_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'faq/amneziawg_obfuscation_parameters.md': 'faq/amneziawg_obfuscation.md'
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
@@ -273,6 +274,7 @@ nav:
           - ドロップインゲートウェイの設定方法: tutorials/how_to_set_up_drop_in_gateway.md
           - プライマリルーターでポート転送を設定する方法: tutorials/how_to_set_up_port_forwarding.md
           - デュアル有線 WAN アクセスの設定: tutorials/configure_dual_ethernet_wan.md
+          - USB-C OTG とは何か、使い方: tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md
       - その他:
           - クライアントデバイスをブロックする方法: tutorials/how_to_block_client_devices.md
           - クライアントデバイスに静的 IP を手動で設定する: tutorials/manually_configure_static_ip.md
@@ -296,7 +298,6 @@ nav:
           - セルラー: interface_guide/internet_cellular.md
       - ワイヤレス:
           - ワイヤレス: interface_guide/wireless.md
-          - ワイヤレス（v4.9）: interface_guide/wireless_v4.9.md
       - クライアント:
           - クライアント: interface_guide/clients.md
       - クラウドサービス:

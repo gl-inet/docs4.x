@@ -35,6 +35,9 @@ Einige Modelle unterstützen das Umschalten von LAN 1 auf einen WAN-Port für Du
 Mit der Funktion Dual-Ethernet WAN kann ein standardmäßiger LAN-Ethernet-Port in einen zweiten WAN-Port für Dual-Ethernet-Internetzugang umgeschaltet werden. Das sorgt für zuverlässige Backup-Konnektivität und unterstützt, sofern kompatibel, die Bandbreitenbündelung für bandbreitenintensive Workloads. Außerdem können Sie gleichzeitig zwei unabhängige Netzwerke, z. B. beruflich und privat, verwenden, ohne zusätzliche Hardware zu benötigen.
 
 ??? "Unterstützte Modelle"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - ※GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)

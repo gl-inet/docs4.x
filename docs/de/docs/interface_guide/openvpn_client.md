@@ -296,7 +296,8 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 ??? "ExpressVPN"
     ### ExpressVPN
 
-    [Official Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"}
+    [Official Website](https://go.expressvpn.com/c/4130682/1645813/16063){target="_blank"} | [Get 30 days free](https://www.expressvpn.com/refer-a-friend/30-days-free?referrer_id=97477587){rel="sponsored" target="_blank"}
+
 
     Informationen zitiert aus der [offiziellen ExpressVPN-Anleitung](https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/#download){rel="sponsored" target="_blank"}
 
@@ -397,17 +398,17 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     **Hinweis: Die Router-Konfigurationsdateien von Hotspot Shield sind nicht mehr verfügbar bzw. werden nicht mehr unterstützt. Die folgenden Schritte dienen nur noch als Altanleitung für Benutzer, die diese Dateien bereits installiert haben.**
 
-    1. Gehen Sie zu [https://www.hotspotshield.com/](https://www.hotspotshield.com/) und klicken Sie auf **Account**. Melden Sie sich an, falls Sie dazu aufgefordert werden.
+    1. Gehen Sie zu [https://www.hotspotshield.com/](https://www.hotspotshield.com/){target="_blank"} und klicken Sie auf **Account**. Melden Sie sich an, falls Sie dazu aufgefordert werden.
 
         ![hotspot shield login](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/hotspot_shield/hotspotshield_front_page.png){class="glboxshadow"}
 
-    2. Gehen Sie zu [https://app.hotspotshield.com/app/hotspotshield/router](https://app.hotspotshield.com/app/hotspotshield/router)
+    2. Gehen Sie zu [https://app.hotspotshield.com/app/hotspotshield/router](https://app.hotspotshield.com/app/hotspotshield/router){target="_blank"}
 
         Wählen Sie im Dropdown **Select location** den virtuellen Standort aus, den der Router verwenden soll. Klicken Sie anschließend auf **Download file**. Die Konfigurationsdatei (`config.ovpn`) wird auf Ihren Computer heruntergeladen. Benutzername und Passwort müssen bei der Einrichtung des OpenVPN-Clients auf dem Router eingegeben werden.
 
         ![hotspot shield link router](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/hotspot_shield/link_router.png){class="glboxshadow"}
 
-    [Referenzlink](https://support.hotspotshield.com/hc/en-us/articles/360038538012-How-do-I-install-Hotspot-Shield-on-my-GL-iNet-router)
+    [Referenzlink](https://support.hotspotshield.com/hc/en-us/articles/360038538012-How-do-I-install-Hotspot-Shield-on-my-GL-iNet-router){target="_blank"}
 
 ??? "IPVANISH"
     ### IPVANISH
@@ -418,11 +419,11 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
         ![ipvanish all openvpn configs](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/ipvanish/ipvanish_all_openvpn_configs.png){class="glboxshadow"}
 
-    - Sie können einzelne Server-Konfigurationsdateien auch [hier](https://www.ipvanish.com/software/configs/) herunterladen, müssen dann aber zusätzlich **ca.ipvanish.com.crt** herunterladen. Bevor Sie die Dateien auf den Router hochladen, müssen Sie **ca.ipvanish.com.crt** und die `.ovpn`-Dateien zusammen in ein `.zip`-Archiv packen.
+    - Sie können einzelne Server-Konfigurationsdateien auch [hier](https://www.ipvanish.com/software/configs/){target="_blank"} herunterladen, müssen dann aber zusätzlich **ca.ipvanish.com.crt** herunterladen. Bevor Sie die Dateien auf den Router hochladen, müssen Sie **ca.ipvanish.com.crt** und die `.ovpn`-Dateien zusammen in ein `.zip`-Archiv packen.
 
         ![ipvanish openvpn config file with certificate file](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/ipvanish/ipvanish_openvpn_config_file_with_certificate_file.png){class="glboxshadow"}
 
-    [Referenzlink](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup)
+    [Referenzlink](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup){target="_blank"}
 
 ??? "IVACY"
     ### IVACY
@@ -436,7 +437,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
     - Ihr Passwort (dasselbe, das Sie für die Anmeldung bei Ihrem Ivacy-Konto verwenden)
     - Eine OpenVPN-Konfigurationsdatei
 
-    [Referenzlink](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/)
+    [Referenzlink](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/){target="_blank"}
 
 ??? "IVPN"
     ### IVPN
@@ -451,7 +452,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
         ![ivpn set up on gl.inet router](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/ivpn/ivpn_set_up_openvpn_client.png){class="glboxshadow"}
 
-    [Referenzlink](https://www.ivpn.net/setup/gnu-linux-terminal.html)
+    [Referenzlink](https://www.ivpn.net/setup/gnu-linux-terminal.html){target="_blank"}
 
 ??? "OVPN"
     ### OVPN
@@ -538,14 +539,14 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     Für die Einrichtung eines OpenVPN-Clients mit PureVPN benötigen Sie Ihren OpenVPN-Benutzernamen, Ihr Passwort und eine Konfigurationsdatei, die Sie in Ihrem PureVPN-Konto finden.
 
-    1. [Melden Sie sich bei Ihrem PureVPN-Konto an.](https://my.purevpn.com/)
+    1. [Melden Sie sich bei Ihrem PureVPN-Konto an.](https://my.purevpn.com/){target="_blank"}
     2. Klicken Sie in der linken Seitenleiste auf **Subscriptions**.
     3. Scrollen Sie nach unten, um Ihren OpenVPN-Benutzernamen und Ihr Passwort zu finden.
         ![purevpn username and password](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/purevpn-vpn-username-vpn-password.png){class="glboxshadow"}
     4. Klicken Sie in der linken Seitenleiste auf **Manual Configuration**.
     5. Wählen Sie einen VPN-Standort und klicken Sie auf **Download**, um die Konfigurationsdatei herunterzuladen.
 
-    [Referenzlink](https://support.purevpn.com/openvpn-files)
+    [Referenzlink](https://support.purevpn.com/openvpn-files){target="_blank"}
 
     GL.iNet-Router unterstützen die [dedicated IP](https://www.purevpn.com/dedicated-ip){target="_blank"}-Funktion von PureVPN nicht, da sie PPTP benötigt.
 
@@ -554,7 +555,7 @@ Wenn Ihr abonnierter Anbieter unten nicht aufgeführt ist, wenden Sie sich bitte
 
     [Official Website](https://safervpn.com/?a_aid=563){target="_blank"}
 
-    Klicken Sie [hier](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup), um die Konfigurationsdateien direkt herunterzuladen.
+    Klicken Sie [hier](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup){target="_blank"}, um die Konfigurationsdateien direkt herunterzuladen.
 
     ![safervpn openvpn config](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
 

@@ -180,7 +180,7 @@ Aby rozwiązać ten problem:
 
 ## DFS
 
-Podczas łączenia z nadrzędną siecią Wi‑Fi 5G sieć Wi‑Fi routera będzie podążać za siecią nadrzędną i korzystać albo nie korzystać z kanału DFS.
+**DFS** (Dynamic Frequency Selection) to mechanizm, który automatycznie przełącza kanały Wi‑Fi, aby unikać zakłóceń z sygnałami radarowymi. Podczas łączenia z nadrzędną siecią Wi-Fi 5G sieć Wi-Fi routera będzie podążać za siecią nadrzędną w zakresie używania kanału DFS.
 
 * Jeśli nadrzędna sieć Wi‑Fi korzysta z kanału DFS i można ją zeskanować, sieć Wi‑Fi 5G routera użyje tego samego kanału.
 
@@ -188,6 +188,9 @@ Podczas łączenia z nadrzędną siecią Wi‑Fi 5G sieć Wi‑Fi routera będzi
 
 ??? "Obsługiwane modele"
 
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)

@@ -188,6 +188,9 @@ Quando ti colleghi a una rete Wi-Fi 5G a monte, il Wi-Fi del router seguira' la 
 
 ??? "Modelli supportati"
 
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)

@@ -45,6 +45,10 @@ For Queue Rule, two options are available:
 
 - **fq_codel**: Simple, efficient fair queueing with basic latency reduction.
 
+!!! Tip
+
+    A difference between QoS and SQM settings is that the QoS allows you set the application priorities, with the router allocating bandwidth accordingly; while the SQM allows you to select a queue rule.
+
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

@@ -60,6 +60,7 @@ Découvrez comment utiliser correctement nos appareils grâce à des étapes dé
 * [Comment configurer une passerelle Drop-in sur les routeurs GL.iNet](how_to_set_up_drop_in_gateway.md)
 * [Comment configurer le transfert de port sur votre routeur principal](how_to_set_up_port_forwarding.md)
 * [Comment configurer un accès WAN double filaire sur un routeur à port WAN unique](configure_dual_ethernet_wan.md)
+* [Qu'est-ce que l'USB-C OTG et comment partager votre réseau via USB-C OTG](what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)
 
 ## Autres
 

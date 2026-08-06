@@ -397,17 +397,17 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
 
     **Uwaga: Pliki konfiguracyjne routera Hotspot Shield nie są już dostępne ani obsługiwane. Poniższe kroki zachowano wyłącznie dla użytkowników, którzy nadal mają zainstalowane te pliki.**
 
-    1. Przejdź na stronę [https://www.hotspotshield.com/](https://www.hotspotshield.com/) i kliknij Account. Zaloguj się, jeśli zostaniesz o to poproszony.
+    1. Przejdź na stronę [https://www.hotspotshield.com/](https://www.hotspotshield.com/){target="_blank"} i kliknij Account. Zaloguj się, jeśli zostaniesz o to poproszony.
 
         ![hotspot shield login](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hotspot_shield/hotspotshield_front_page.png){class="glboxshadow"}
 
-    2. Przejdź na stronę [https://app.hotspotshield.com/app/hotspotshield/router](https://app.hotspotshield.com/app/hotspotshield/router).
+    2. Przejdź na stronę [https://app.hotspotshield.com/app/hotspotshield/router](https://app.hotspotshield.com/app/hotspotshield/router){target="_blank"}.
 
         W menu Select location wybierz lokalizację wirtualną, której będzie używał router. Następnie kliknij "Download file". Plik konfiguracyjny (config.ovpn) zostanie pobrany na Twój komputer. Nazwa użytkownika i hasło będą potrzebne podczas konfigurowania klienta OpenVPN na routerze.
 
         ![hotspot shield link router](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/hotspot_shield/link_router.png){class="glboxshadow"}
 
-    [Link do instrukcji](https://support.hotspotshield.com/hc/en-us/articles/360038538012-How-do-I-install-Hotspot-Shield-on-my-GL-iNet-router)
+    [Link do instrukcji](https://support.hotspotshield.com/hc/en-us/articles/360038538012-How-do-I-install-Hotspot-Shield-on-my-GL-iNet-router){target="_blank"}
 
 ??? "IPVANISH"
     ### IPVANISH
@@ -418,11 +418,11 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
 
         ![ipvanish all openvpn configs](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ipvanish/ipvanish_all_openvpn_configs.png){class="glboxshadow"}
 
-    - Możesz też pobrać pliki konfiguracyjne poszczególnych serwerów [tutaj](https://www.ipvanish.com/software/configs/), ale będziesz musiał również pobrać plik **ca.ipvanish.com.crt**. Przed przesłaniem do routera skompresuj plik **ca.ipvanish.com.crt** i plik .ovpn do archiwum .zip.
+    - Możesz też pobrać pliki konfiguracyjne poszczególnych serwerów [tutaj](https://www.ipvanish.com/software/configs/){target="_blank"}, ale będziesz musiał również pobrać plik **ca.ipvanish.com.crt**. Przed przesłaniem do routera skompresuj plik **ca.ipvanish.com.crt** i plik .ovpn do archiwum .zip.
 
         ![ipvanish openvpn config file with certificate file](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ipvanish/ipvanish_openvpn_config_file_with_certificate_file.png){class="glboxshadow"}
 
-    [Link do instrukcji](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup)
+    [Link do instrukcji](https://support.ipvanish.com/hc/en-us/articles/360001329813-Android-OpenVPN-Setup){target="_blank"}
 
 ??? "IVACY"
     ### IVACY
@@ -436,7 +436,7 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
     - Twoje hasło (to samo, które używasz do logowania do konta Ivacy).
     - Plik konfiguracyjny OpenVPN.
 
-    [Link do instrukcji](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/)
+    [Link do instrukcji](https://support.ivacy.com/setup_guide/how-to-setup-ivacy-on-gl-inet-router/){target="_blank"}
 
 ??? "IVPN"
     ### IVPN
@@ -451,7 +451,7 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
 
         ![ivpn set up on gl.inet router](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/ivpn/ivpn_set_up_openvpn_client.png){class="glboxshadow"}
 
-    [Link do instrukcji](https://www.ivpn.net/setup/gnu-linux-terminal.html)
+    [Link do instrukcji](https://www.ivpn.net/setup/gnu-linux-terminal.html){target="_blank"}
 
 ??? "OVPN"
     ### OVPN
@@ -538,14 +538,14 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
 
     Aby skonfigurować klienta OpenVPN za pomocą PureVPN, potrzebna będzie nazwa użytkownika i hasło OpenVPN oraz plik konfiguracyjny, które możesz znaleźć na swoim koncie PureVPN.
 
-    1. [Zaloguj się do swojego konta PureVPN](https://my.purevpn.com/).
+    1. [Zaloguj się do swojego konta PureVPN](https://my.purevpn.com/){target="_blank"}.
     2. Z lewego paska bocznego kliknij **Subscriptions**.
     3. Przewiń w dół, aby znaleźć swoją nazwę użytkownika i hasło OpenVPN.
         ![purevpn username and password](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/purevpn-vpn-username-vpn-password.png){class="glboxshadow"}
     4. Z lewego paska bocznego kliknij **Manual Configuration**.
     5. Wybierz lokalizację VPN i kliknij **Download**, aby pobrać plik konfiguracyjny.
 
-    [Link do instrukcji](https://support.purevpn.com/openvpn-files)
+    [Link do instrukcji](https://support.purevpn.com/openvpn-files){target="_blank"}
 
     Routery GL.iNet nie obsługują funkcji [dedykowanego adresu IP](https://www.purevpn.com/dedicated-ip){target="_blank"} PureVPN, ponieważ wymaga ona protokołu PPTP.
 
@@ -554,7 +554,7 @@ Jeśli subskrybowany dostawca nie znajduje się na poniższej liście, skontaktu
 
     [Oficjalna strona](https://safervpn.com/?a_aid=563){target="_blank"}
 
-    Kliknij [tutaj](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup), aby bezpośrednio pobrać pliki konfiguracyjne.
+    Kliknij [tutaj](https://support.safervpn.com/hc/en-us/articles/360035425314-What-are-SaferVPN-s-OpenVPN-configuration-ovpn-files-for-manual-setup){target="_blank"}, aby bezpośrednio pobrać pliki konfiguracyjne.
 
     ![safervpn openvpn config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_client/safervpn/safervpn1.png){class="glboxshadow"}
 

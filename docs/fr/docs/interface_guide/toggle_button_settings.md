@@ -7,6 +7,8 @@ Vous pouvez personnaliser le comportement de cet interrupteur dans le panneau d‚
 ## Mod√®les pris en charge
 
 ??? "Mod√®les pris en charge"
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-MT3600BE (Beryl 7)
     - GL-BE3600 (Slate 7)
     - GL-MT3000 (Beryl AX)
@@ -21,6 +23,7 @@ Vous pouvez personnaliser le comportement de cet interrupteur dans le panneau d‚
     - GL-AR750 (Creta)
 
 ??? "Mod√®les non pris en charge"
+    - GL-BE14000 (Flint 4)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-BE6500 (Flint 3e)

@@ -33,6 +33,8 @@ Pour les appareils dotés d'une mémoire flash de 32MB ou moins, la fonction Net
 
 | Modèle de routeur                       | Samba | WebDAV | DLNA | Port USB | Carte MicroSD |
 | :------------------------------------- | :---: | :----: | :--: | :------: | :-----------: |
+| GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
+| GL-MG1300 (Mango 2) | √ | - | - | √ | - |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
 | GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-E5800 (Mudi 7)                      | √     | √     | √     | √        | -            |

@@ -12,6 +12,8 @@ Tor (abgeleitet von **The Onion Router**) ist eine kostenlose Open-Source-Softwa
 ## Unterstützte Modelle
 
 ??? "Unterstützte Modelle"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-MT3600BE (Beryl 7)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
@@ -36,6 +38,7 @@ Tor (abgeleitet von **The Onion Router**) ist eine kostenlose Open-Source-Softwa
     **Hinweis**: Mit * markierte Modelle unterstützen Tor nicht nativ, Benutzer können Tor jedoch manuell über ein Plug-in installieren. Klicken Sie [hier](#manuelle-installation) für Details.
 
 ??? "Nicht unterstützte Modelle"
+    - GL-MG1300 (Mango 2)
     - GL-X2000 (Spitz Plus)
     - GL-AR750S (Slate)
     - GL-X750/GL-X750V2 (Spitz)

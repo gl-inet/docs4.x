@@ -13,12 +13,15 @@ Usługa [Bark](https://www.bark.us/){target="_blank"} pomaga chronić cyfrowy ś
 ## Obsługiwane modele
 
 ??? "Obsługiwane modele"
+    - GL-BE14000 (Flint 4)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-B3000 (Marble)
     - GL-MT6000 (Flint2)
 
 ??? "Nieobsługiwane modele"
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
@@ -75,9 +78,9 @@ Gdy urządzenie połączy się z usługami Bark Cloud i zostanie sparowane z Two
 
 ![bark status](https://static.gl-inet.com/docs/router/en/4/interface_guide/bark/bark8.png){class="glboxshadow"}
 
-Kliknij **Go to Bark** lub [tutaj](https://www.bark.us/app/children/?ref=glinet&home=glinet), aby zalogować się do pulpitu Bark i skonfigurować reguły kontroli rodzicielskiej.
+Kliknij **Go to Bark** lub [tutaj](https://www.bark.us/app/children/?ref=glinet&home=glinet){target="_blank"}, aby zalogować się do pulpitu Bark i skonfigurować reguły kontroli rodzicielskiej.
 
-Ponieważ GL.iNet nie jest dostawcą tej usługi, w razie problemów podczas korzystania z Bark skontaktuj się bezpośrednio z [pomocą techniczną Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet).
+Ponieważ GL.iNet nie jest dostawcą tej usługi, w razie problemów podczas korzystania z Bark skontaktuj się bezpośrednio z [pomocą techniczną Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"}.
 
 ---
 

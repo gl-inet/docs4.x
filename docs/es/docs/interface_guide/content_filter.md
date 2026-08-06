@@ -11,6 +11,7 @@ Content Filter es una función de seguridad inteligente en línea basada en clas
 
 !!! note "Modelos compatibles"
 
+    - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
     - ※GL-BE9300 (Flint 3)

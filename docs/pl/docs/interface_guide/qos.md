@@ -13,6 +13,7 @@ QoS (Quality of Service) optymalizuje przydział przepustowości, nadając prior
 
 !!! note "Obsługiwane modele"
 
+    - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
     - ※GL-BE9300 (Flint 3)

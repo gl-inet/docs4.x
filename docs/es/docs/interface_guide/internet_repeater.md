@@ -187,6 +187,9 @@ Al conectarse a una red Wi-Fi ascendente de 5 GHz, la Wi-Fi del router seguirá 
 
 ??? "Modelos compatibles"
 
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)

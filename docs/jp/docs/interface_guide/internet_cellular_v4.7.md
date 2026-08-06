@@ -1,6 +1,12 @@
-# セルラーでインターネットに接続する（ファームウェア v4.7 以前）
+# セルラーでインターネットに接続する
 
-**注意**: このガイドはファームウェア v4.7 以前に基づいています。新しいバージョンについては、[こちら](internet_cellular.md)を参照してください。
+このページの内容は、ファームウェア v4.7.x 以前に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
+
+<div class="gl-link-select" data-label="ファームウェアバージョン" data-placeholder="ファームウェア v4.7 以前" markdown="1">
+
+- [ファームウェア v4.8 以降](internet_cellular.md)
+
+</div>
 
 ---
 
@@ -88,27 +94,26 @@ Cellular セクションで **Manual Setup** をクリックすると、現在�
 
 **SIMPoYo uFi** は、Wi-Fi ホットスポット機能を備えたコンパクトなプラグアンドプレイ USB ドングルで、どこでも高速で安定した接続を実現できるよう設計されています。ほとんどの GL.iNet ルーターに加え、ノートPC、モバイルバッテリー、車載 USB ポートなどの USB 電源でも問題なく利用できます。英国およびヨーロッパ34か国で使える 10GB の無料データが 30 日間付属します。
 
-| Model                                  | Cellular | Tested | Tested by       | Comments* |
-| -------------------------------------- | -------- | ------ | --------------- | --------- |
-| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G    | Yes    | GL.iNet         |           |
-| Quectel RM520N-GL                      | 5G    | Yes    | GL.iNet         |           |
-| Quectel EC20-E, EC20-A, EC20-C         | 4G    | Yes    | GL.iNet         |           |
-| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G    | Yes    | GL.iNet         |           |
-| Quectel EC200A series                  | 4G    | Yes    | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G    | Yes    | anonymous       |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G    | Yes    | anonymous       |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G    | Yes    | anonymous       |           |
-| Huawei E3276                           | 4G    | Yes    | GL.iNet         |           |
-| Huawei E3372                           | 4G    | Yes    | anonymous       |           |
-| Huawei E3372h-153                      | 4G    | Yes    | GL.iNet         | Host-less |
-| Huawei E3372h-320 (Ukraine)            | 4G    | Yes    | anonymous       | Host-less |
-| Huawei E3372h-607                      | 4G    | Yes    | GL.iNet         |           |
-| Huawei K5161h                          | 4G    | Yes    | anonymous       |           |
-| ZTE MF833U1                            | 4G    | Yes    | anonymous       | Host-less |
-| ZTE MF79U                              | 4G    | Yes    | GL.iNet         | Host-less |
-| ZTE M823                               | 4G    | Yes    | Arnas Risqianto |           |
-| MeiG O4H13 (Qualcomm MDM9207)          | 4G    | Yes    | GL.iNet         | Host-less |
-| XTRONS 4G LTE USB Dongle               | 4G    | Yes    | GL.iNet         | Host-less |
+| Model | Cellular | Type | Tested by | Comments* |
+| --- | --- | --- | --- | --- |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G | USBドングル | GL.iNet |  |
+| Quectel RM520N-GL | 5G | モジュール | GL.iNet |  |
+| Quectel EC20-E, EC20-A, EC20-C | 4G | モジュール | GL.iNet |  |
+| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G | モジュール | GL.iNet |  |
+| Quectel EC200A series | 4G | モジュール | akw2312 | Host-less |
+| Quectel EP06-E, EP06-A | 4G | モジュール | anonymous |  |
+| Quectel EM060K-GL, EM120K-GL | 4G | モジュール | anonymous |  |
+| Quectel EM120R-GL, EM160R-GL | 4G | モジュール | anonymous |  |
+| Huawei E3276 | 4G | USBドングル | GL.iNet |  |
+| Huawei E3372h-153 | 4G | USBドングル | GL.iNet | Host-less |
+| Huawei E3372h-320 (Ukraine) | 4G | USBドングル | anonymous | Host-less |
+| Huawei E3372h-607 | 4G | USBドングル | GL.iNet |  |
+| Huawei K5161h | 4G | USBドングル | anonymous |  |
+| ZTE MF833U1 | 4G | USBドングル | anonymous | Host-less |
+| ZTE MF79U | 4G | USBドングル | GL.iNet | Host-less |
+| ZTE M823 | 4G | USBドングル | Arnas Risqianto |  |
+| MeiG O4H13 (Qualcomm MDM9207) | 4G | USBドングル | GL.iNet | Host-less |
+| XTRONS 4G LTE USB Dongle | 4G | USBドングル | GL.iNet | Host-less |
 
 - **QMI**: このモデムは QMI モードに対応しています。セルラールーターでは、プロトコルに QMI、シリアルポートに **/dev/cdc-wdm0** を選択してください。
 
@@ -370,7 +375,7 @@ Cellular セクションで **View More** をクリックし、**Cells Info** �
 
 ### T-Mobile認証
 
-リンク [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification) を開き、**Filter** で 5G を選択すると確認できます。
+リンク [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} を開き、**Filter** で 5G を選択すると確認できます。
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/t-mobile_certification.png){class="glboxshadow"}
 

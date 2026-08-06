@@ -33,6 +33,8 @@ Fai clic sull'icona della ventola nell'angolo in alto a destra per entrare in Fa
 
 !!! note "Modelli con ventola integrata"
 
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-BE9300 (Flint 3)
     - GL-BE6500 (Flint 3e)
     - GL-MT3600BE (Beryl 7)

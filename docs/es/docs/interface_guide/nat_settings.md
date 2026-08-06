@@ -2,7 +2,7 @@
 
 Esta función está disponible desde la versión v4.5.16.
 
-En el lado izquierdo del panel web de administración, vaya a **NETWORK** -> **NAT Settings** (renombrado a **NAT Mode** en el firmware v4.9 y versiones posteriores).
+En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **NAT Settings**, o a **SECURITY** -> **NAT Mode** (para firmware v4.9 y posteriores).
 
 Esta página le permite habilitar **Full Cone NAT** para mejorar la estabilidad de las conexiones peer-to-peer en aplicaciones como juegos o streaming, y **SIP ALG** para corregir problemas de compatibilidad con servicios telefónicos basados en VoIP/SIP.
 
@@ -11,6 +11,9 @@ Esta página le permite habilitar **Full Cone NAT** para mejorar la estabilidad 
 ## Modelos compatibles
 
 ??? "Supported Models"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)

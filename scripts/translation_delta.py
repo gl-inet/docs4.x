@@ -16,6 +16,7 @@ from typing import Iterable
 DEFAULT_LANGS = ("de", "es", "fr", "it", "jp", "pl")
 DEFAULT_EXTENSIONS = (".md", ".yml", ".yaml", ".html")
 DEFAULT_EXCLUDE_DIRS = {"site", ".git", "__pycache__"}
+EXCLUDED_TRAILING_MARKDOWN_SECTIONS = {"Regulatory Statements"}
 
 
 @dataclass(frozen=True)
@@ -33,6 +34,40 @@ def repo_path(path: pathlib.Path) -> str:
 
 def sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def markdown_heading(line: str) -> tuple[int, str] | None:
+    stripped = line.strip()
+    if not stripped.startswith("#"):
+        return None
+    level = len(stripped) - len(stripped.lstrip("#"))
+    if level == 0 or level > 6:
+        return None
+    if len(stripped) <= level or stripped[level] != " ":
+        return None
+    return level, stripped[level + 1 :].strip()
+
+
+def translation_sync_texts(path: pathlib.Path, text: str) -> list[str]:
+    if path.suffix.lower() != ".md":
+        return [text]
+
+    output: list[str] = []
+    lines = text.splitlines(keepends=True)
+    index = 0
+    while index < len(lines):
+        heading = markdown_heading(lines[index])
+        if heading and heading[1] in EXCLUDED_TRAILING_MARKDOWN_SECTIONS:
+            break
+
+        output.append(lines[index])
+        index += 1
+
+    sync_text = "".join(output)
+    variants = [sync_text]
+    if sync_text != text and sync_text.endswith("\n"):
+        variants.append(sync_text[:-1])
+    return variants
 
 
 def read_json(path: pathlib.Path) -> dict:
@@ -126,9 +161,11 @@ def analyze_sources(
     results: list[SourceStatus] = []
     for path in source_files:
         source_rel = repo_path(path)
-        current_hash = sha256_text(path.read_text(encoding="utf-8"))
+        source_text = path.read_text(encoding="utf-8")
         cache_entry = cache.get(source_rel, {})
         cached_hash = cache_entry.get("source_hash", "") if isinstance(cache_entry, dict) else ""
+        current_hashes = [sha256_text(value) for value in translation_sync_texts(path, source_text)]
+        current_hash = cached_hash if cached_hash in current_hashes else current_hashes[0]
         if not cached_hash:
             status = "cache-missing"
         elif cached_hash != current_hash:

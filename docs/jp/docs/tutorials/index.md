@@ -60,6 +60,7 @@ hide:
 * [GL.iNetルーターでDrop-in Gatewayを設定する方法](how_to_set_up_drop_in_gateway.md)
 * [プライマリルーターでポートフォワーディングを設定する方法](how_to_set_up_port_forwarding.md)
 * [WANポートが1つのルーターでデュアル有線WANアクセスを設定する方法](configure_dual_ethernet_wan.md)
+* [USB-C OTG とは何か、USB-C OTG でネットワークを共有する方法](what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)
 
 ## その他
 

@@ -166,6 +166,8 @@ Configure su Mudi 7 con uno de los métodos de conexión a Internet compatibles:
         ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
 
     3. Mudi 7 se conectará automáticamente a su dispositivo. Si no se conecta, repita los pasos anteriores o inicie sesión en el panel de administración web y compruebe la conexión USB Ethernet en la página INTERNET.
+
+    Para obtener detalles sobre USB-C OTG en Mudi 7, haga clic [aquí](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md).
     4. Cuando la conexión a Internet se establezca correctamente, aparecerán un icono USB y un icono de puerto Ethernet en la esquina superior derecha de la pantalla táctil. También puede comprobar los detalles de la conexión en el panel de administración web.
 
 ## Actualización del firmware

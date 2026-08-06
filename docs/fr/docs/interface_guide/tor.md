@@ -12,6 +12,8 @@ Tor (abréviation de **The Onion Router**) est un logiciel libre et open source 
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-MT3600BE (Beryl 7)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
@@ -36,6 +38,7 @@ Tor (abréviation de **The Onion Router**) est un logiciel libre et open source 
     **Remarque** : les modèles marqués d'un * ne prennent pas en charge Tor nativement, mais les utilisateurs peuvent l'installer manuellement via un plug-in. Cliquez [ici](#installation-manuelle) pour plus de détails.
 
 ??? "Modèles non pris en charge"
+    - GL-MG1300 (Mango 2)
     - GL-X2000 (Spitz Plus)
     - GL-AR750S (Slate)
     - GL-X750/GL-X750V2 (Spitz)

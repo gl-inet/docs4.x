@@ -12,6 +12,8 @@ Tor（**The Onion Router** の略）は、匿名通信を実現するための�
 ## 対応モデル
 
 ??? "対応モデル"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-MT3600BE (Beryl 7)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
@@ -36,6 +38,7 @@ Tor（**The Onion Router** の略）は、匿名通信を実現するための�
     **注意**: * が付いたモデルは Tor をネイティブではサポートしていませんが、プラグインを使って手動でインストールできます。詳しくは [こちら](#manual-install) をご覧ください。
 
 ??? "非対応モデル"
+    - GL-MG1300 (Mango 2)
     - GL-X2000 (Spitz Plus)
     - GL-AR750S (Slate)
     - GL-X750/GL-X750V2 (Spitz)

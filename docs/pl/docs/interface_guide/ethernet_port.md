@@ -35,6 +35,9 @@ Niektóre modele obsługują przełączenie LAN 1 na port WAN w scenariuszu Dual
 Funkcja Dual-Ethernet WAN pozwala przełączyć domyślny port Ethernet LAN na dodatkowy port WAN, aby korzystać z podwójnego dostępu do Internetu przez Ethernet. Zapewnia to niezawodne łącze zapasowe i obsługuje agregację przepustowości (jeśli jest obsługiwana) w zastosowaniach wymagających dużej przepustowości. Pozwala też jednocześnie połączyć się z dwiema niezależnymi sieciami, np. służbową i prywatną, zwiększając elastyczność bez dodatkowego sprzętu.
 
 ??? "Obsługiwane modele"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - ※GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)

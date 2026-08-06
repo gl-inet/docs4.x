@@ -10,6 +10,7 @@
 - [Configurar DLNA](#configurar-dlna)
 - [Cliente Samba](#cliente-samba)
 - [Cliente WebDAV](#cliente-webdav)
+- [Uso de la app móvil](#using-mobile-app)
 
 ## Introducción
 
@@ -33,6 +34,8 @@ En los dispositivos con almacenamiento flash de 32 MB o menos, la función Netwo
 
 | Modelo de router                         | Samba | WebDAV | DLNA | Puerto USB | Tarjeta MicroSD |
 | :--------------------------------------- | :---: | :----: | :--: | :--------: | :-------------: |
+| GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
+| GL-MG1300 (Mango 2) | √ | - | - | √ | - |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
 | GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-E5800 (Mudi 7)                      | √     | √     | √     | √        | -            |

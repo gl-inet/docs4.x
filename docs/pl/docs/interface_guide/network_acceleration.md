@@ -7,6 +7,9 @@ Po włączeniu akceleracji sieci następujące funkcje przestają działać praw
 ## Obsługiwane modele
 
 ??? "Obsługiwane modele"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)

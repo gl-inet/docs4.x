@@ -179,6 +179,8 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力し、Mudi 7の�
         ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
 
     3. Mudi 7は自動的にデバイスに接続します。接続しない場合は、上記の手順を繰り返すか、Web管理パネルにログインしてINTERNETページでUSB Ethernet接続を確認します。
+
+    Mudi 7 の USB-C OTG の詳細については、[こちら](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)をクリックしてください。
     3. インターネットに正常に接続されると、タッチスクレンの右上にUSBアイコンとEthernetポートアイコンが表示されます。Web管理パネルで接続の詳細を確認することもできます。
 
 

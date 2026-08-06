@@ -198,6 +198,8 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
     3. Mudi 7 verbindet sich anschließend automatisch mit Ihrem Gerät. Falls keine Verbindung hergestellt wird, wiederholen Sie die obigen Schritte oder melden Sie sich im Web-Admin-Panel an und prüfen Sie die USB-Ethernet-Verbindung auf der Seite INTERNET.
     4. Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheinen oben rechts auf dem Touchscreen ein USB-Symbol und ein Ethernet-Port-Symbol. Die Verbindungsdetails können Sie auch im Web-Admin-Panel prüfen.
 
+    Weitere Informationen zu USB-C OTG auf dem Mudi 7 finden Sie [hier](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md).
+
 ## Firmware-Upgrade
 
 !!! note "Vor dem Upgrade bitte beachten:"

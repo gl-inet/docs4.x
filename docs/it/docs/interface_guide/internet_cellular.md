@@ -1,6 +1,12 @@
 # Connettersi a Internet tramite rete cellulare
 
-**Nota**: questa guida si basa sul firmware v4.8. Per le versioni precedenti, fai riferimento [qui](internet_cellular_v4.7.md).
+Il contenuto di questa pagina si basa sulla versione firmware v4.8.x e successive. Se il dispositivo usa una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
+
+<div class="gl-link-select" data-label="Versione firmware" data-placeholder="Firmware v4.8 e successivi" markdown="1">
+
+- [Firmware v4.7 e precedenti](internet_cellular_v4.7.md)
+
+</div>
 
 ---
 
@@ -220,27 +226,26 @@ Ecco un elenco dei modem supportati che sono stati testati in precedenza.
 
 **SIMPoYo uFi** e' un dongle USB plug-and-play compatto con hotspot Wi-Fi, progettato per una connettivita' rapida e affidabile ovunque. Funziona perfettamente con la maggior parte dei router GL.iNet, cosi' come con laptop, power bank, porte USB per auto e altre fonti di alimentazione USB. Include 10 GB di dati gratuiti per 30 giorni, validi nel Regno Unito e in 34 paesi europei.
 
-| Model                                  | Cellular | Tested | Tested by       | Comments* |
-| -------------------------------------- | -------- | ------ | --------------- | --------- |
-| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G       | Yes    | GL.iNet         |           |
-| Quectel RM520N-GL                      | 5G       | Yes    | GL.iNet         |           |
-| Quectel EC20-E, EC20-A, EC20-C         | 4G       | Yes    | GL.iNet         |           |
-| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G       | Yes    | GL.iNet         |           |
-| Quectel EC200A series                  | 4G       | Yes    | akw2312         | Host-less |
-| Quectel EP06-E, EP06-A                 | 4G       | Yes    | anonymous       |           |
-| Quectel EM060K-GL, EM120K-GL           | 4G       | Yes    | anonymous       |           |
-| Quectel EM120R-GL, EM160R-GL           | 4G       | Yes    | anonymous       |           |
-| Huawei E3276                           | 4G       | Yes    | GL.iNet         |           |
-| Huawei E3372                           | 4G       | Yes    | anonymous       |           |
-| Huawei E3372h-153                      | 4G       | Yes    | GL.iNet         | Host-less |
-| Huawei E3372h-320 (Ukraine)            | 4G       | Yes    | anonymous       | Host-less |
-| Huawei E3372h-607                      | 4G       | Yes    | GL.iNet         |           |
-| Huawei K5161h                          | 4G       | Yes    | anonymous       |           |
-| ZTE MF833U1                            | 4G       | Yes    | anonymous       | Host-less |
-| ZTE MF79U                              | 4G       | Yes    | GL.iNet         | Host-less |
-| ZTE M823                               | 4G       | Yes    | Arnas Risqianto |           |
-| MeiG O4H13 (Qualcomm MDM9207)          | 4G       | Yes    | GL.iNet         | Host-less |
-| XTRONS 4G LTE USB Dongle               | 4G       | Yes    | GL.iNet         | Host-less |
+| Model | Cellular | Type | Tested by | Comments* |
+| --- | --- | --- | --- | --- |
+| [SIMPoYo SP-N150C4](https://www.gl-inet.com/campaign/simpoyo-ufi/) | 4G | USB Dongle | GL.iNet |  |
+| Quectel RM520N-GL | 5G | Module | GL.iNet |  |
+| Quectel EC20-E, EC20-A, EC20-C | 4G | Module | GL.iNet |  |
+| Quectel EC25-E, EC25-A, EC25-V, EC25-C | 4G | Module | GL.iNet |  |
+| Quectel EC200A series | 4G | Module | akw2312 | Host-less |
+| Quectel EP06-E, EP06-A | 4G | Module | anonymous |  |
+| Quectel EM060K-GL, EM120K-GL | 4G | Module | anonymous |  |
+| Quectel EM120R-GL, EM160R-GL | 4G | Module | anonymous |  |
+| Huawei E3276 | 4G | USB Dongle | GL.iNet |  |
+| Huawei E3372h-153 | 4G | USB Dongle | GL.iNet | Host-less |
+| Huawei E3372h-320 (Ukraine) | 4G | USB Dongle | anonymous | Host-less |
+| Huawei E3372h-607 | 4G | USB Dongle | GL.iNet |  |
+| Huawei K5161h | 4G | USB Dongle | anonymous |  |
+| ZTE MF833U1 | 4G | USB Dongle | anonymous | Host-less |
+| ZTE MF79U | 4G | USB Dongle | GL.iNet | Host-less |
+| ZTE M823 | 4G | USB Dongle | Arnas Risqianto |  |
+| MeiG O4H13 (Qualcomm MDM9207) | 4G | USB Dongle | GL.iNet | Host-less |
+| XTRONS 4G LTE USB Dongle | 4G | USB Dongle | GL.iNet | Host-less |
 
 - **QMI**: questo modem supporta la modalita' QMI. Seleziona QMI come protocollo di comunicazione cellulare e **/dev/cdc-wdm0** come porta seriale nelle impostazioni della SIM.
 
@@ -487,7 +492,7 @@ Fai clic sul link [att device certification](https://iotdevices.att.com/certifie
 
 ### Certificazione T-Mobile
 
-Fai clic sul link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification) e scegli 5G in **Filter** per trovarlo.
+Fai clic sul link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} e scegli 5G in **Filter** per trovarlo.
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/t-mobile_certification.png){class="glboxshadow"}
 

@@ -1,6 +1,12 @@
-# Conectarse a Internet mediante red celular (firmware v4.7 y anteriores)
+# Conectarse a Internet mediante red celular
 
-**Nota**: Esta guía se basa en el firmware v4.7 y versiones anteriores. Para versiones más recientes, consulte [aquí](internet_cellular.md).
+El contenido de esta página se basa en las versiones de firmware v4.7.x y anteriores. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
+
+<div class="gl-link-select" data-label="Versión de firmware" data-placeholder="Firmware v4.7 y anteriores" markdown="1">
+
+- [Firmware v4.8 y posteriores](internet_cellular.md)
+
+</div>
 
 ---
 
@@ -370,7 +376,7 @@ Haga clic en el enlace [att device certification](https://iotdevices.att.com/cer
 
 ### Certificación de T-Mobile
 
-Haga clic en el enlace [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification) y elija 5G en **Filter** para encontrarlo.
+Haga clic en el enlace [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} y elija 5G en **Filter** para encontrarlo.
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/t-mobile_certification.png){class="glboxshadow"}
 

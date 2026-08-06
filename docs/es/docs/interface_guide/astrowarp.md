@@ -37,10 +37,13 @@ Aunque AstroWarp heredado sigue apareciendo en el panel de administración web, 
 ??? "Modelos no compatibles"
     Estos dispositivos no son compatibles con la nueva versión de AstroWarp, aunque algunos modelos siguen funcionando con AstroWarp heredado. Consulte [este enlace](https://docs.astrowarp.net/en/quick_start/){target="_blank"} para ver los detalles.
 
+    - GL-BE14000 (Flint 4)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-BE6500 (Flint 3e)
     - GL-B3000 (Marble)
     - GL-A1300 (Slate Plus)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)
     - GL-E750/E750V2 (Mudi)

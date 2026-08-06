@@ -14,7 +14,7 @@ On the left side of the web Admin Panel, go to **WIRELESS**.
 
 The Wireless page supports configuring separate Wi-Fi networks, including 2.4 GHz, 5 GHz, 6 GHz, and MLO Wi-Fi (availability varies by model). Each band can be set up as a Main Wi‑Fi or Guest Wi‑Fi network for flexible wireless management.
 
-**Note**: Some models do not support 5 GHz Wi-Fi, such as GL-MT300N-V2 (Mango) and GL-X300B (Collie); some have no Wi‑Fi function, such as GL-MT5000 (Brume 3) and GL-MT2500/GL-MT2500A (Brume 2).
+**Note**: Some models do not support 5 GHz Wi-Fi, such as GL-MT300N-V2 (Mango) , GL-X300B (Collie), and GL-XE300 (Puli) ; some have no Wi‑Fi function, such as GL-MT5000 (Brume 3) and GL-MT2500/GL-MT2500A (Brume 2).
 
 ## MLO Wi-Fi
 

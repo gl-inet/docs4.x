@@ -14,6 +14,8 @@ Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI a
 ## Supported Models
 
 !!! note "Supported Models"
+
+    - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
     - ※GL-BE9300 (Flint 3)

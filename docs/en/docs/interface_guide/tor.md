@@ -12,6 +12,9 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
 ## Supported models
 
 ??? "Supported Models"
+
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-MT3600BE (Beryl 7)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
@@ -36,6 +39,7 @@ Tor (derived from **The Onion Router**) is a free and open-source software for e
     **Note**: Models marked with * do not support Tor natively, but users can manually install Tor via a plug-in. Click [here](#manual-install) for details.
 
 ??? "Unsupported Models"
+    - GL-MG1300 (Mango 2)
     - GL-X2000 (Spitz Plus)
     - GL-AR750S (Slate)
     - GL-X750/GL-X750V2 (Spitz)

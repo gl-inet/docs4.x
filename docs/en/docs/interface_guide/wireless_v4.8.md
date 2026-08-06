@@ -20,6 +20,7 @@ The Wireless page supports configuring separate Wi-Fi networks, including 2.4 GH
 
 | Supported Models               |           |
 | :----------------------------- | :-------: |
+| Flint 4 (GL-BE14000)           | √         |
 | Slate 7 Pro (GL-BE10000)       | √         |
 | Beryl 7 (GL-MT3600BE)          | √         |
 | Flint 3e (GL-BE6500)           | √         |
@@ -50,6 +51,7 @@ Click on the tabs below to learn about MLO Main Wi-Fi and MLO Guest Wi-Fi settin
 
 | Supported Models               |           |
 | :----------------------------- | :-------: |
+| Flint 4 (GL-BE14000)           | √         |
 | Slate 7 Pro (GL-BE10000)       | √         |
 | Mudi 7 (GL-E5800)              | √         |
 | Flint 3 (GL-BE9300)            | √         |

@@ -3,13 +3,14 @@
 ## Contents
 
 - [Introduction](#introduction)
-- [Supported models](#supported-models)
-- [Insert storage device](#insert-storage-device)
-- [Set up Samba](#set-up-samba)
-- [Set up WebDAV](#set-up-webdav)
-- [Set up DLNA](#set-up-dlna)
+- [Supported Models](#supported-models)
+- [Insert Storage Device](#insert-storage-device)
+- [Set Up Samba](#set-up-samba)
+- [Set Up WebDAV](#set-up-webdav)
+- [Set Up DLNA](#set-up-dlna)
 - [Samba Client](#samba-client)
 - [WebDAV Client](#webdav-client)
+- [Using Mobile App](#using-mobile-app)
 
 ## Introduction
 
@@ -33,6 +34,8 @@ For devices with flash storage of 32MB or less, the Network Storage function is 
 
 | Router Model                           | Samba | Webdav | DLNA | USB Port | MicroSD Card |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
+| GL-BE14000 (Flint 4)                   | √     | √     | √     | √        | -            |
+| GL-MG1300 (Mango 2)                    | √     | -     | -     | √        | -            |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
 | GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-E5800 (Mudi 7)                      | √     | √     | √     | √        | -            |

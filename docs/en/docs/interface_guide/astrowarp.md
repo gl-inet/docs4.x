@@ -19,6 +19,8 @@ The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalo
 
     These models are compatible with the new AstroWarp. To view the supported model list for the legacy AstroWarp, click [here](https://docs.astrowarp.net/en/quick_start/){target="_blank"}.
 
+    - GL-BE14000 (Flint 4)
+    - GL-MG1300 (Mango 2)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-MT6000 (Flint 2)
@@ -38,6 +40,7 @@ The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalo
 
     These devices are incompatible with the new AstroWarp, while certain models still work with the legacy AstroWarp. Refer to [here](https://docs.astrowarp.net/en/quick_start/){target="_blank"} for details.
 
+    - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
     - GL-BE6500 (Flint 3e)
     - GL-B3000 (Marble)

@@ -1,5 +1,9 @@
 # eSIM Management
 
+**Note**: This guide applies to models supporting the GL.iNet physical eSIM card; the eSIM Management page will only appear once the router detects this card.
+
+---
+
 On the left side of the web Admin Panel, go to **APPLICATIONS** -> **eSIM Management**.
 
 This page allows you to check eSIM physical card status and manage eSIM profiles. It consists of two parts: **Current eSIM Status** and **eSIM Profile List**.
@@ -31,7 +35,7 @@ This page allows you to check eSIM physical card status and manage eSIM profiles
 
 **For models marked with X**:
 
-1. GL-E750V2 vSIM does not support eSIM functionality.
+1. GL-E750V2 vSIM does not support eSIM physical card.
 
 2. GL-E5800 (Mudi 7) comes with a built-in eSIM. Therefore, the eSIM physical card will be recognized as a regular SIM card without eSIM functionality on Mudi 7.
 

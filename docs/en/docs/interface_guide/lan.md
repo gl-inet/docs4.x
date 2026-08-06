@@ -50,7 +50,7 @@ Click **Advanced** for further configuration if needed.
 
 - **DNS Server 2**: The secondary server used for domain name resolution if the primary DNS server is unavailable.
 
-- **LPR Server**: (Line Printer Remote Server) A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured.
+- **LPR Server** (Line Printer Remote Server): A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured.
 
 ## Address Reservation
 

@@ -312,7 +312,8 @@ nav:
     - Network:
       - Firewall: interface_guide/firewall.md
       - Port Forwarding: interface_guide/port_forwarding.md
-      - Multi-WAN: interface_guide/multi-wan.md
+      - Multi-WAN: interface_guide/multi-wan.md  
+      - Subnet: interface_guide/subnet.md
       - LAN: interface_guide/lan.md
       - Guest Network: interface_guide/guest_network.md
       - IoT Network: interface_guide/iot_network.md

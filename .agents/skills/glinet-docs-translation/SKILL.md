@@ -71,6 +71,12 @@ Use this workflow when syncing English changes into localized docs, especially w
 - Do not report this page's localized copies as out of sync or missing in the final summary while this exclusion is in effect.
 - This exclusion is temporary; remove it once the user asks to resume translating this page.
 
+## Excluded Sections
+
+- Skip English trailing `## Regulatory Statements` sections when building the source-change set or syncing localized docs. These regulatory statements are intended to appear only in `docs/en/` pages and do not need localized copies.
+- Do not create, update, or flag matching localized content for `## Regulatory Statements`, even when an English commit adds or changes these sections in user guide pages.
+- Do not translate, rewrite, or localize the regulatory statement text. It may already contain required English and French legal wording that should remain confined to the English documentation.
+
 ## Commit Baseline Guidance
 
 - Do not hard-code a specific commit hash in the skill. It becomes stale immediately after the next translation run.

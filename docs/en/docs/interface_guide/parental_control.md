@@ -1,6 +1,8 @@
 # Parental Control
 
-> This guide applies to firmware v4.8 and earlier. For newer versions, please click [here](parental_control_v4.9.md).
+**Note**: This guide applies to firmware v4.8 and earlier. For newer versions, please click [here](parental_control_v4.9.md).
+
+---
 
 On the left side of the web Admin Panel, go to **APPLICATIONS** -> **Parental Control**.
 
@@ -172,7 +174,7 @@ If your configured settings fail to take effect, check the following possible ca
 
 ## Bark Version
 
-> This guide applies to firmware v4.8 and earlier. For newer versions, please click [here](bark.md).
+This guide applies to firmware v4.8 and earlier. For newer versions, please click [here](bark.md).
 
 The [Bark](https://www.bark.us/){target="_blank"} service can help protect your child's digital world and provide comprehensive online protection. It typically requires a paid subscription. However, as part of our partnership with Bark, GL.iNet offers the Bark Home plan for free **on select router models**, providing advanced monitoring and alerts at no extra cost.
 

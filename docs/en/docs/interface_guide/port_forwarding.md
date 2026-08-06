@@ -1,6 +1,8 @@
 # Port Forwarding
 
-> This guide applies to firmware v4.6 and above. For earlier versions, please refer to [Firewall](firewall.md).
+**Note**: This guide applies to firmware v4.6 and above. For earlier versions, please refer to [Firewall](firewall.md).
+
+---
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **Port Forwarding**, or **SECURITY** -> **Port Forwarding** (for firmware v4.9 and above).
 

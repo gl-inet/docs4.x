@@ -1,14 +1,14 @@
 # Parental Control (Firmware v4.9)
 
-> This guide applies to firmware v4.9 and above. For earlier versions, please click [here](parental_control.md).
+**Note**: This guide applies to firmware v4.9 and above. For earlier versions, please click [here](parental_control.md).
+
+---
 
 On the left side of the web Admin Panel, go to **FLOW CONTROL** -> **Parental Control**.
 
 Parental control protects children online by blocking inappropriate websites and limiting screen time. It filters harmful content and encourages responsible internet usage.
 
 GL.iNet Parental Control provides flexible scheduling to restrict internet access on your children's commonly used devices. You can block inappropriate apps and websites in one click. Additionally, you may enter domains manually as needed to achieve full online protection.
-
-The page layout and workflow for Parental Control have been improved in firmware v4.9, simplifying setup and offering a more intuitive view of rules.
 
 ---
 

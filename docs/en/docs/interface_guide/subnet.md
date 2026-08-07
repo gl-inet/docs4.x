@@ -266,11 +266,11 @@ You can configure the basic **VLAN Networks** information on this page.
 
 - **Name**
     
-    Customize a **Name** for your newly created subnet for identification.
+    Customize a name for your newly created subnet for identification.
   
 - **Gateway**
 
-    Manually configure the **Gateway** for the new subnet. Replace this Gateway if it conflicts with your existing LAN segment.
+    Manually configure the gateway for the new subnet. Replace this gateway if it conflicts with your existing LAN segment.
 
 - **Netmask**
     

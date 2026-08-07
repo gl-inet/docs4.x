@@ -1,24 +1,24 @@
 # Subnet  
 
-**Note**: This guide applies to firmware v4.9.1 and above.
+**Note**: This page is currently available on Flint 4 (GL-BE14000), and will be rolled out to other models with firmware v4.10.
 
 ---
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **Subnet**. 
 
-The configuration pages for **LAN**, **Guest Network**, **IoT Network**, and custom **VLAN Networks** have been consolidated into this single page. It provides a centralized management interface for all subnet-related settings, allowing you to create and manage multiple subnets to isolate different types of devices or traffic.
+The page consolidates the configuration of **LAN**, **Guest Network**, **IoT Network**, and custom **VLAN Networks** into a single unified view. It provides a centralized management interface for all subnet-related settings, allowing you to create and manage multiple subnets to isolate different types of devices or traffic.
 
 ## Main Network
 
-**Main Network** is the network that your device is connected to when it is connected via the main Wi-Fi or via an Ethernet cable.
+**Main Network** is the network that your device is connected to via the main Wi-Fi or via an Ethernet cable.
 
-In the Main Network card, you can directly view all interface statuses, VLAN ID, router IP address, and DHCP Range.
+In the Main Network, you can directly view all interface statuses, VLAN ID, router IP address, and DHCP Range.
 
-![main network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-1.png){class="glboxshadow" width=300}
+![main network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-1 .png){class="glboxshadow"}
 
-Click **Edit** in the lower-right corner, and the Main Network configuration panel will open on the right side of the page.
+Click **Edit** in the lower-right corner to configure the Main Network.
 
-![main network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-2.png){class="glboxshadow" width=300}
+![main network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-2.png){class="glboxshadow"}
 
 The configuration page includes Basic settings, DHCP server settings and Address Reservation.
 
@@ -26,7 +26,7 @@ The configuration page includes Basic settings, DHCP server settings and Address
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
-![main network basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-basic-settings.png){class="glboxshadow" width=600}
+![main network basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-basic.png){class="glboxshadow"}
 
 - **Router IP Address**
 
@@ -54,13 +54,13 @@ If the DHCP server is disabled, you will need to configure network settings for 
 
 You can change the starting and ending IP addresses to suit your needs — for example, if your network expands or shrinks, if IP address conflicts occur, or if the subnet mask range is modified.
 
-![main network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-simple-settings.png){class="glboxshadow" width=600}
+![main network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-1.png){class="glboxshadow"}
 
 Click **Advanced** for further configuration if needed.
 
-![main network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-advanced-settings-1.png){class="glboxshadow" width=600}
+![main network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-2.png){class="glboxshadow"}
 
-![main network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-advanced-settings-2.png){class="glboxshadow" width=600}
+![main network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-dhcp-server-3.png){class="glboxshadow"}
 
 - **Lease Time**: The period for which a DHCP-assigned IP address is valid for a device.
 
@@ -80,19 +80,19 @@ When you specify a reserved IP address for a client within the LAN, the client a
 
 Click **Add** to reserve an IP.
 
-![main network address Reservation 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-1.png){class="glboxshadow" width=600}
+![main network address Reservation 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-1.png){class="glboxshadow"}
 
 You will see a pop-up window.
 
-![main network address Reservation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-2.png){class="glboxshadow" width=600}
+![main network address Reservation 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-2.png){class="glboxshadow"}
 
 Select **MAC** from the dropdown list. The corresponding available **IP** will be auto-filled. You can optionally enter a **hostname** and a custom **name** for easy identification. Then click **Submit**.
 
-![main network address Reservation 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-3.png){class="glboxshadow" width=600}
+![main network address Reservation 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-3.png){class="glboxshadow"}
 
 After adding a new IP address reservation, you will get the page as shown below, which means you have set it up successfully.
 
-![main network address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow" width=600}
+![main network address Reservation 4](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/address-reservation-4.png){class="glboxshadow"}
 
 ## Guest Network
 
@@ -100,13 +100,13 @@ The **Guest Network** provides a dedicated Wi-Fi network for visitors. Isolated 
 
 **Note**: Some models (e.g., GL-MT5000, GL-MT2500/GL-MT2500A) do not have Wi-Fi functionality, thus the Guest Network settings are not available on their web Admin Panel.
 
-In the Guest Network card, you can directly view the interface status, VLAN ID, Gateway, and DHCP Range.
+In the Guest Network, you can directly view the interface status, VLAN ID, Gateway, and DHCP Range.
 
-![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-work-1.png){class="glboxshadow" width=300}
+![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-1.png){class="glboxshadow"}
 
 Click **Edit** in the lower-right corner, and the Guest Network configuration panel will open on the right side of the page.
 
-![guest network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-work-2.png){class="glboxshadow" width=300}
+![guest network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-2.png){class="glboxshadow"}
 
 The configuration page includes Basic settings and DHCP server settings.
 
@@ -114,7 +114,7 @@ The configuration page includes Basic settings and DHCP server settings.
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
-![guest network basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-basic-settings.png){class="glboxshadow" width=600}
+![guest network basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/gest-network-basic.png){class="glboxshadow"}
 
 - **Gateway**
 
@@ -154,13 +154,13 @@ If the DHCP server is disabled, you will need to configure network settings for 
 
 You can change the starting and ending IP addresses to suit your needs — for example, if your network expands or shrinks, if IP address conflicts occur, or if the subnet mask range is modified.
 
-![guest network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-simple-settings.png){class="glboxshadow" width=600}
+![guest network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-1.png){class="glboxshadow"}
 
 Click **Advanced** for further configuration if needed.
 
-![guest network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-advanced-settings-1.png){class="glboxshadow" width=600}
+![guest network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-2.png){class="glboxshadow"}
 
-![guest network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-advanced-settings-2.png){class="glboxshadow" width=600}
+![guest network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-dhcp-server-3.png){class="glboxshadow"}
 
 - **Lease Time**: The period for which a DHCP-assigned IP address is valid for a device.
 
@@ -178,19 +178,19 @@ The IoT Network creates a dedicated Wi-Fi network for IoT devices. Isolated from
 
 **Note**: Some models (e.g., GL-MT5000, GL-MT2500/GL-MT2500A) do not have Wi-Fi functionality, thus the IoT Network settings are not available on their web Admin Panel.
 
-In the IoT Network card, you can directly view the interface status, VLAN ID, Gateway, and DHCP Range.
+In the IoT Network, you can directly view the interface status, VLAN ID, Gateway, and DHCP Range.
 
-![iot network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-1.png){class="glboxshadow" width=300}
+![iot network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-1.png){class="glboxshadow"}
 
 Click **Edit** in the lower-right corner, and the IoT Network configuration panel will open on the right side of the page. You can configure Basic Settings and DHCP Server Settings in this panel.
 
-![iot network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network2.png){class="glboxshadow" width=300}
+![iot network 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-2.png){class="glboxshadow"}
 
 ### Basic Settings
 
 You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
 
-![iot network basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-basic-settings.png){class="glboxshadow" width=600}
+![iot network basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-basic.png){class="glboxshadow"}
 
 - **Gateway**
 
@@ -230,13 +230,13 @@ If the DHCP server is disabled, you will need to configure network settings for 
 
 You can change the starting and ending IP addresses to suit your needs — for example, if your network expands or shrinks, if IP address conflicts occur, or if the subnet mask range is modified.
 
-![iot network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-simple-settings.png){class="glboxshadow" width=600}
+![iot network dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-1.png){class="glboxshadow"}
 
 Click **Advanced** for further configuration if needed.
 
-![iot network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-advanced-settings-1.png){class="glboxshadow" width=600}
+![iot network dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-2.png){class="glboxshadow"}
 
-![iot network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-advanced-settings-2.png){class="glboxshadow" width=600}
+![iot network dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-dhcp-server-3.png){class="glboxshadow"}
 
 - **Lease Time**: The period for which a DHCP-assigned IP address is valid for a device.
 
@@ -252,21 +252,21 @@ Click **Advanced** for further configuration if needed.
  
 At the top of the main page, you can create additional **VLAN networks** as needed to isolate different types of devices or visitor traffic.
 
-![vlan networks 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/van-networks-1.png){class="glboxshadow" width=700}
+![vlan networks 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-1.png){class="glboxshadow"}
 
-Click the **+ Add** button on the right side of the page. The **Add A New Network** configuration panel will open, where you can configure Basic Settings and DHCP Server Settings.
+Click the **+ Add** button on the right side of the page to configure a new network.
 
-![vlan networks 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/van-networks-2.png){class="glboxshadow" width=700}
+![vlan networks 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-2.png){class="glboxshadow"}
 
 ### Basic Settings
 
 You can configure the basic **VLAN Networks** information on this page.
 
-![vlan networks basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-basic-settings.png){class="glboxshadow" width=600}
+![vlan networks basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-basic-settings.png){class="glboxshadow"}
 
-- **name**
+- **Name**
     
-    Customize a **name** for your newly created subnet for identification.
+    Customize a **Name** for your newly created subnet for identification.
   
 - **Gateway**
 
@@ -306,13 +306,13 @@ If the DHCP server is disabled, you will need to configure network settings for 
 
 You can change the starting and ending IP addresses to suit your needs — for example, if your network expands or shrinks, if IP address conflicts occur, or if the subnet mask range is modified.
 
-![vlan networks dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-simple-settings.png){class="glboxshadow" width=600}
+![vlan networks dhcp simple settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-1.png){class="glboxshadow"}
 
 Click **Advanced** for further configuration if needed.
 
-![vlan networks dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-advanced-settings-1.png){class="glboxshadow" width=600}
+![vlan networks dhcp advanced settings 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-2.png){class="glboxshadow"}
 
-![vlan networks dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/dhcp-advanced-settings-2.png){class="glboxshadow" width=600}
+![vlan networks dhcp advanced settings 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/vlan-networks-dhcp-server-3.png){class="glboxshadow"}
 
 - **Lease Time**: The period for which a DHCP-assigned IP address is valid for a device.
 
@@ -323,6 +323,8 @@ Click **Advanced** for further configuration if needed.
     **Note**: The primary DNS is entered in the upper field, and the secondary in the lower field. In the event of primary server unavailability, client devices will automatically failover to the secondary resolver, ensuring domain name resolution continuity.
 
 - **LPR Server** (Line Printer Remote Server): A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured.
+
+Once configured, you can see the new VLAN network appear on the current page, showing the subnet information.
 
 ---
 

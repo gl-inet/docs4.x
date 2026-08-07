@@ -19,6 +19,9 @@ GL.iNet ルーターの Parental Control については、以下の動画、ま
 ### 対応モデル
 
 ??? "対応モデル"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
@@ -242,9 +245,9 @@ Bark の Web サイトにリダイレクトされます。画面の案内に従�
 
 ![bark_paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
 
-**Go to Bark** または [こちら](https://www.bark.us/app/children/?ref=glinet&home=glinet) をクリックして Bark ダッシュボードにログインし、ペアレンタルコントロールのルールを設定してください。
+**Go to Bark** または [こちら](https://www.bark.us/app/children/?ref=glinet&home=glinet){target="_blank"} をクリックして Bark ダッシュボードにログインし、ペアレンタルコントロールのルールを設定してください。
 
-GL.iNet はこのサービスの提供元ではないため、Bark の利用中に問題が発生した場合は、[Bark's Technical Support](https://www.bark.us/contact-us/?ref=glinet&home=glinet) へ直接お問い合わせください。
+GL.iNet はこのサービスの提供元ではないため、Bark の利用中に問題が発生した場合は、[Bark's Technical Support](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} へ直接お問い合わせください。
 
 ---
 

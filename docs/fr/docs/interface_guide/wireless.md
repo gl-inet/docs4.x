@@ -1,145 +1,122 @@
-# Réseau sans fil
+# Sans fil
 
-Sur le côté gauche du panneau d’administration web, accédez à **WIRELESS**.
+Le contenu de cette page est basé sur la version de firmware v4.9.x. Si votre appareil utilise une autre version de firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
 
-La page Wireless permet de configurer des réseaux Wi‑Fi distincts, notamment en 2.4 GHz, 5 GHz, 6 GHz et en Wi‑Fi MLO (la disponibilité varie selon le modèle). Chaque bande peut être configurée en Main Wi‑Fi ou Guest Wi‑Fi pour une gestion sans fil plus flexible.
+<div class="gl-link-select" data-label="Version du firmware" data-placeholder="Firmware v4.9" markdown="1">
 
-**Note** : Certains modèles ne prennent pas en charge le Wi-Fi 5 GHz, comme le GL-MT300N-V2 (Mango) et le GL-X300B (Collie) ; certains n’ont pas de fonction Wi‑Fi, comme le GL-MT5000 (Brume 3) et le GL-MT2500/GL-MT2500A (Brume 2).
+- [Firmware v4.8 et versions antérieures](wireless_v4.8.md)
 
-## Wi-Fi MLO
-
-| Modèles pris en charge          |           |
-| :----------------------------- | :-------: |
-| Slate 7 Pro (GL-BE10000)       | √         |
-| Beryl 7 (GL-MT3600BE)          | √         |
-| Flint 3e (GL-BE6500)           | √         |
-| Flint 3 (GL-BE9300)            | √         |
-| Slate 7 (GL-BE3600)            | √         |
-
-Le MLO (Multi-Link Operation) est l’une des fonctionnalités essentielles du Wi-Fi 7 (802.11be). Il est conçu pour améliorer les performances du réseau, réduire sensiblement la latence et renforcer la stabilité de la connexion en utilisant simultanément plusieurs bandes de fréquences, comme 2.4 GHz, 5 GHz et 6 GHz.
-
-Cliquez sur les onglets ci-dessous pour en savoir plus sur les paramètres de Main Wi-Fi MLO et de Guest Wi-Fi MLO.
-
-=== "Wi-Fi MLO"
-
-    Main Wi-Fi MLO vous permet de configurer plusieurs paramètres, notamment l’activation/la désactivation du Wi-Fi, la sélection des bandes radio (au moins deux), l’activation/la désactivation du BSSID aléatoire, la définition du nom du Wi-Fi (SSID), de la sécurité Wi-Fi, du mot de passe Wi-Fi et de la visibilité du SSID.
-
-    ![MLO Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_mlo.png){class="glboxshadow"}
-
-    - Si les bandes radio du Wi-Fi MLO incluent le 6 GHz, le BSSID du Wi-Fi MLO se synchronisera lorsque le BSSID du Wi-Fi 6GHz changera.
-
-    - La sécurité Wi-Fi par défaut du Wi-Fi MLO est WPA3-SAE, qui convient à la plupart des appareils prenant en charge le MLO.
-
-=== "Guest Wi-Fi MLO"
-
-    Guest Wi-Fi MLO vous permet de configurer des paramètres simplifiés, notamment l’activation/la désactivation du Wi-Fi, la sélection des bandes radio (au moins deux), la définition du nom du Wi-Fi (SSID), de la sécurité Wi-Fi, du mot de passe et de la visibilité du SSID.
-
-    ![MLO Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_mlo.png){class="glboxshadow"}
-
-## Wi-Fi 6 GHz
-
-| Modèles pris en charge          |           |
-| :----------------------------- | :-------: |
-| Slate 7 Pro (GL-BE10000)       | √         |
-| Mudi 7 (GL-E5800)              | √         |
-| Flint 3 (GL-BE9300)            | √         |
-
-Le Wi-Fi 6 GHz offre une connectivité sans fil plus rapide et plus stable, avec moins de congestion que les bandes 2.4 GHz et 5 GHz.
-
-Cliquez sur les onglets ci-dessous pour en savoir plus sur les paramètres de Main Wi-Fi 6 GHz et de Guest Wi-Fi 6 GHz.
-
-=== "Wi-Fi 6 GHz"
-
-    Main Wi-Fi 6 GHz vous permet de configurer plusieurs paramètres, notamment l’activation/la désactivation du Wi-Fi, le réglage de la puissance TX, l’activation/la désactivation du BSSID aléatoire, la définition du nom du Wi-Fi (SSID), de la sécurité Wi-Fi, du mot de passe Wi-Fi, de la visibilité du SSID, du mode Wi-Fi, de la bande passante et du canal.
-
-    ![6G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_6g.png){class="glboxshadow"}
-
-    - Activer PSC : lorsque PSC (Preferred Scanning Channel) est activé, seuls les canaux offrant une meilleure connectivité seront réservés afin de garantir la connexion des appareils 6 GHz.
-
-=== "Guest Wi-Fi 6 GHz"
-
-    Guest Wi-Fi 6 GHz vous permet de configurer des paramètres simplifiés, notamment l’activation/la désactivation du Wi-Fi, la définition du nom du Wi-Fi (SSID), de la sécurité Wi-Fi, du mot de passe et de la visibilité du SSID.
-
-    ![6G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_6g.png){class="glboxshadow"}
-
-## Wi-Fi 5 GHz
-
-Cliquez sur les onglets ci-dessous pour en savoir plus sur les paramètres de Main Wi-Fi 5 GHz et de Guest Wi-Fi 5 GHz.
-
-=== "Wi-Fi 5 GHz"
-
-    Main Wi-Fi 5 GHz vous permet de configurer plusieurs paramètres, notamment l’activation/la désactivation du Wi-Fi, le réglage de la puissance TX, l’activation/la désactivation du BSSID aléatoire, la définition du nom du Wi-Fi (SSID), de la sécurité Wi-Fi, du mot de passe Wi-Fi, de la visibilité du SSID, du mode Wi-Fi, de la bande passante et du canal.
-
-    ![5G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_5g.jpg){class="glboxshadow"}
-
-=== "Guest Wi-Fi 5 GHz"
-
-    Guest Wi-Fi 5 GHz vous permet de configurer des paramètres simplifiés, notamment l’activation/la désactivation du Wi-Fi, la définition du nom du Wi-Fi (SSID), de la sécurité Wi-Fi, du mot de passe et de la visibilité du SSID.
-
-    ![5G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_5g.png){class="glboxshadow"}
-
-## Wi-Fi 2.4 GHz
-
-Cliquez sur les onglets ci-dessous pour en savoir plus sur les paramètres de Main Wi-Fi 2.4 GHz et de Guest Wi-Fi 2.4 GHz.
-
-=== "Wi-Fi 2.4 GHz"
-
-    Main Wi-Fi 2.4 GHz vous permet de configurer plusieurs paramètres, notamment l’activation/la désactivation du Wi-Fi, le réglage de la puissance TX, l’activation/la désactivation du BSSID aléatoire, la définition du nom du Wi-Fi (SSID), de la sécurité Wi-Fi, du mot de passe Wi-Fi, de la visibilité du SSID, du mode Wi-Fi, de la bande passante et du canal.
-
-    ![2.4G Main Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/main_wifi_2.4g.png){class="glboxshadow"}
-
-=== "Guest Wi-Fi 2.4 GHz"
-
-    Guest Wi-Fi 2.4 GHz vous permet de configurer des paramètres simplifiés, notamment l’activation/la désactivation du Wi-Fi, la définition du nom du Wi-Fi (SSID), de la sécurité Wi-Fi, du mot de passe et de la visibilité du SSID.
-
-    ![2.4G Guest Wi-Fi](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/guest_wifi_2.4g.png){class="glboxshadow"}
-
-## Paramètres Wi-Fi généraux
-
-* Survolez l’icône du code QR à côté du SSID Wi-Fi pour afficher son code QR Wi‑Fi. Vous pouvez le scanner avec votre téléphone ou votre tablette afin de vous connecter rapidement au réseau Wi‑Fi correspondant.
-
-    ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_ssid_qr_code.png){class="glboxshadow"}
-
-* **Randomized BSSID** : cette fonctionnalité est activée par défaut. Elle vise à empêcher les fournisseurs d’appareils clients de collecter sur leurs serveurs les BSSID Wi-Fi à proximité ainsi que les coordonnées GPS des appareils clients. Cliquez [ici](#randomized-bssid) pour plus de détails.
-
-* **Bandwidth** et **Channel** ne peuvent pas être modifiés lorsque le routeur agit comme [répéteur](internet_repeater.md), car ils suivent ceux du réseau répété.
-
-* Lorsque **Channel** est défini sur **Auto**, le Wi-Fi du routeur ne bascule pas automatiquement vers un canal DFS.
-
-* Lorsque vous basculez **Channel** d’un canal non-DFS vers un canal DFS, un avertissement s’affiche comme ci-dessous.
-
-    ![dfs channel caution](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/switch_to_dfs_caution.png){class="glboxshadow"}
-
-* Lorsque **Bandwidth** est défini sur **160 MHz** (disponible uniquement sur certains modèles), le Wi-Fi utilisera toujours un canal DFS, même si vous choisissez un canal non-DFS ou Auto pour les paramètres de Channel.
-
-## BSSID aléatoire {#randomized-bssid}
-
-Randomized BSSID est disponible depuis le firmware v4.6. Il vise à empêcher les fournisseurs d’appareils clients de collecter sur leurs serveurs les BSSID Wi-Fi à proximité ainsi que les coordonnées GPS des appareils clients.
-
-**Comment les fournisseurs d’appareils clients collectent les données de localisation**
-
-Les fournisseurs d’appareils clients collectent généralement les données de localisation géographique des points d’accès Wi-Fi en exploitant leurs BSSID uniques pour localiser les appareils. Lorsque les appareils clients (par exemple, les téléphones mobiles et les ordinateurs) analysent les réseaux Wi-Fi ou se connectent à un routeur :
-
-- Si d’autres appareils se trouvent dans la zone de couverture du signal Wi-Fi du routeur, leur localisation et leurs trajectoires de déplacement peuvent être exposées.
-
-- Si un appareil utilise le GPS pour son positionnement, il envoie périodiquement vers le serveur du fournisseur les BSSID Wi-Fi à proximité ainsi que les coordonnées GPS correspondantes.
-
-![randomized bssid](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/randomized-bssid-new.jpg){class="glboxshadow"}
-
-**Risques de sécurité liés au suivi participatif**
-
-Même les appareils sans GPS (ou avec le GPS désactivé) peuvent estimer leur position en interrogeant les informations BSSID visibles. Cependant, ce système de suivi de localisation participatif présente des vulnérabilités de sécurité. Des attaquants peuvent l’utiliser pour constituer une base de données mondiale des emplacements des points d’accès Wi-Fi et suivre en continu les trajectoires de déplacement des appareils, ce qui menace la confidentialité et la sécurité des utilisateurs.
-
-**Comment Randomized BSSID protège votre confidentialité**
-
-Pour remédier à ces vulnérabilités, les routeurs GL.iNet mettent en œuvre la fonctionnalité Randomized BSSID comme mesure de protection de la confidentialité.
-
-Dans le panneau d’administration web du routeur, accédez à WIRELESS -> 5GHz Wi-Fi ou 2.4GHz Wi-Fi ; l’option BSSID est activée par défaut.
-
-Avec ce paramètre, l’appareil utilise un BSSID généré aléatoirement et le renouvelle à chaque démarrage. Si vous désactivez le BSSID aléatoire, le routeur recommence à utiliser sa véritable adresse MAC.
-
-**Note** : pour Guest Wi-Fi, le BSSID reste identique au BSSID de Main Wi-Fi dans la même bande de fréquences.
+</div>
 
 ---
 
-Vous avez encore des questions ? Visitez notre [forum communautaire](https://forum.gl-inet.com){target="_blank"}.
+Sur la gauche du panneau d'administration web, accédez à **WIRELESS**.
+
+La page Wireless vous permet de configurer différents réseaux Wi‑Fi, notamment le Wi‑Fi MLO (disponible sur certains modèles), le réseau principal, le réseau invité et le réseau IoT. Les bandes Wi‑Fi prises en charge varient selon le modèle.
+
+## Multi-Link Operation (MLO)
+
+??? "Modèles pris en charge"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+
+??? "Modèles non pris en charge"
+    - GL-MG1300 (Mango 2)
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-X2000 (Spitz Plus)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint2)
+    - GL-AX1800 (Flint)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
+    - GL-A1300 (Slate Plus)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
+
+MLO (Multi-Link Operation) est l'une des fonctionnalités principales du Wi‑Fi 7 (802.11be). Elle est conçue pour améliorer les performances du réseau, réduire significativement la latence et renforcer la stabilité de la connexion en utilisant simultanément plusieurs bandes de fréquences, telles que 2.4 GHz, 5 GHz et 6 GHz.
+
+Il est recommandé aux clients Wi‑Fi 7 de se connecter au Wi‑Fi MLO, qui améliore fortement le débit et la fiabilité du réseau grâce aux connexions multi-bandes.
+
+Cliquez sur **Add** pour configurer un réseau Wi‑Fi MLO, puis sur **Apply**. Notez que les bandes Wi‑Fi disponibles varient selon le modèle.
+
+![mlo1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo1.png){class="glboxshadow"}
+
+![mlo2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo2.png){class="glboxshadow"}
+
+- Wi-Fi Band : sélectionnez au moins deux bandes radio.
+- Wi-Fi Security : si la bande 6 GHz est sélectionnée, WPA3-SAE est la seule option disponible et recommandée. Elle fonctionne au mieux avec la plupart des appareils compatibles MLO.
+- Enable Randomized BSSID : lorsque la bande 6 GHz est sélectionnée, le BSSID 6 GHz du Wi‑Fi MLO sera synchronisé avec le Wi‑Fi principal.
+
+Une fois activé, la page s'affiche comme suit.
+
+![mlo3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/mlo3.png){class="glboxshadow"}
+
+## Réseau principal
+
+Le réseau principal est votre réseau Wi‑Fi principal. Il prend en charge la diffusion simultanée sur différentes bandes radio, toutes activées par défaut. Vous pouvez configurer des paramètres distincts pour chaque bande, comme le SSID Wi‑Fi, le mode de sécurité, le mot de passe, le BSSID aléatoire, la puissance TX, la bande passante et le canal.
+
+![main](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main.png){class="glboxshadow"}
+
+Cliquez sur l'icône d'engrenage à droite pour afficher ou modifier les paramètres Wi‑Fi de chaque bande. Notez que les bandes Wi‑Fi disponibles varient selon le modèle.
+
+- 6 GHz
+
+    ![main 6g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_6g.png){class="glboxshadow"}
+
+- 5 GHz
+
+    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_5g.png){class="glboxshadow"}
+
+- 2.4 GHz
+
+    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
+
+## Réseau invité
+
+Le réseau invité est un réseau Wi‑Fi dédié aux visiteurs, avec toutes les bandes désactivées par défaut. Vous pouvez activer et configurer les paramètres réseau de base pour chaque bande, comme le SSID Wi‑Fi, le mode de sécurité, le mot de passe et l'activation du BSSID aléatoire.
+
+Cliquez sur **Add** pour configurer un réseau Wi‑Fi invité, puis sur **Apply**. Notez que les bandes Wi‑Fi disponibles varient selon le modèle.
+
+![guest1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest1.png){class="glboxshadow"}
+
+![guest2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest2.png){class="glboxshadow"}
+
+Une fois activé, la page s'affiche comme suit.
+
+![guest3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/guest3.png){class="glboxshadow"}
+
+## Réseau IoT
+
+Le réseau IoT est un réseau Wi‑Fi dédié aux appareils intelligents, avec toutes les bandes désactivées par défaut. Vous pouvez activer et configurer les paramètres réseau de base pour chaque bande, comme le SSID Wi‑Fi, le mode de sécurité, le mot de passe et l'activation du BSSID aléatoire.
+
+Cliquez sur **Add** pour configurer un réseau Wi‑Fi IoT, puis sur **Apply**. Notez que ce réseau n'inclut pas la bande 6 GHz et que les bandes Wi‑Fi disponibles varient selon le modèle.
+
+![iot1](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot1.png){class="glboxshadow"}
+
+![iot2](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot2.png){class="glboxshadow"}
+
+Une fois activé, la page s'affiche comme suit.
+
+![iot3](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/iot3.png){class="glboxshadow"}
+
+---
+
+Vous avez encore des questions ? Consultez notre [forum communautaire](https://forum.gl-inet.com){target="_blank"}.

@@ -10,6 +10,7 @@ Data Statistics ofrece un panel intuitivo de tráfico que identifica el uso de l
 ## Modelos compatibles
 
 !!! note "Modelos compatibles"
+    - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
     - ※GL-BE9300 (Flint 3)

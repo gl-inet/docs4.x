@@ -1,8 +1,8 @@
 # NAT設定
 
-この機能は v4.5.16 以降で利用できます。
+この機能は v4.5 以降で利用できます。
 
-Web Admin Panel の左側で、**NETWORK** -> **NAT Settings** に移動します（firmware v4.9 以降では **NAT Mode** に名称変更されています）。
+Web Admin Panel の左側で、**NETWORK** -> **NAT Settings**、または **SECURITY** -> **NAT Mode**（ファームウェア v4.9 以降）に移動します。
 
 このページでは、**Full Cone NAT** を有効にしてゲームやストリーミングなどのアプリでのピアツーピア接続の安定性を高めたり、**SIP ALG** を有効にして VoIP/SIP ベースの電話サービスとの互換性問題を改善したりできます。
 
@@ -11,6 +11,9 @@ Web Admin Panel の左側で、**NETWORK** -> **NAT Settings** に移動しま�
 ## 対応モデル
 
 ??? "対応モデル"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)

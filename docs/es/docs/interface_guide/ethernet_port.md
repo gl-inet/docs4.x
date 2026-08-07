@@ -35,6 +35,9 @@ Algunos modelos admiten cambiar LAN 1 a un puerto WAN para escenarios de WAN dua
 La función Dual-Ethernet WAN permite cambiar un puerto Ethernet LAN predeterminado a un puerto WAN secundario para acceder a Internet mediante Ethernet dual. Esto proporciona conectividad de respaldo fiable y, cuando es compatible, admite agregación de ancho de banda para cargas de trabajo que requieren mucho ancho de banda. También permite conectarse simultáneamente a dos redes independientes, por ejemplo una de trabajo y otra personal, lo que aporta mayor flexibilidad sin hardware adicional.
 
 ??? "Modelos compatibles"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - ※GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)

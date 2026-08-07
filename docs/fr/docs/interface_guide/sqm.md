@@ -15,6 +15,7 @@ Le SQM (Smart Queue Management) gère intelligemment le trafic réseau de votre 
 
 !!! note "Modèles pris en charge"
 
+    - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
     - ※GL-BE9300 (Flint 3)

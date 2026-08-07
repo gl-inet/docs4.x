@@ -1,6 +1,6 @@
 # Tailscale
 
-Tailscale ist ein VPN-Dienst, mit dem die Geräte und Anwendungen, die Ihnen gehören, überall auf der Welt sicher und mühelos erreichbar werden. Weitere Informationen zu Tailscale finden Sie auf der [offiziellen Tailscale-Website](https://tailscale.com/).
+Tailscale ist ein VPN-Dienst, mit dem die Geräte und Anwendungen, die Ihnen gehören, überall auf der Welt sicher und mühelos erreichbar werden. Weitere Informationen zu Tailscale finden Sie auf der [offiziellen Tailscale-Website](https://tailscale.com/){target="_blank"}.
 
 Die Tailscale-Funktion auf GL.iNet-Routern, verfügbar seit Firmware V4.2, ermöglicht es dem Router, einem virtuellen Tailscale-Netzwerk beizutreten. Sobald die Verbindung hergestellt ist, können Sie per Fernzugriff auf den Router zugreifen, einschließlich seiner WAN- und LAN-Ressourcen.
 
@@ -15,6 +15,9 @@ Die Tailscale-Funktion auf GL.iNet-Routern, verfügbar seit Firmware V4.2, ermö
 ## Unterstützte Modelle
 
 ??? "Unterstützte Modelle"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)

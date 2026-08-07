@@ -1,6 +1,6 @@
 # Display Management
 
-**Note**: This feature is only available for **GL-BE3600 (Slate 7)** and **GL-E5800 (Mudi 7)**.
+**Note**: This page is only available on models equipped with touchscreen.
 
 On the left side of the web Admin Panel, go to **SYSTEM** -> **Display Management**.
 

@@ -5,6 +5,8 @@ AdGuard Home est un logiciel de blocage des publicités et du pistage à l’éc
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
@@ -25,6 +27,7 @@ AdGuard Home est un logiciel de blocage des publicités et du pistage à l’éc
     - GL-S1300 (Convexa-S)
 
 ??? "Modèles non pris en charge"
+    - GL-MG1300 (Mango 2)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)
     - GL-E750/E750V2 (Mudi)

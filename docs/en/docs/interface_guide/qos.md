@@ -1,5 +1,9 @@
 # QoS (Quality of Service)
 
+**Note**: This feature was introduced in firmware v4.9.
+
+---
+
 QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical activities (e.g., video calls, gaming) during network congestion, reducing latency and improving overall network performance. 
 
 **Note**: 
@@ -15,13 +19,12 @@ QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical
 
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
+    - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)
-    - ※GL-BE9300 (Flint 3)
-    - ※GL-BE3600 (Slate 7)
-    - ※GL-MT6000 (Flint 2)
-    - ※GL-MT3000 (Beryl AX)
-
-    Note: Models marked with ※ support QoS in firmware v4.9 and later.
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint 2)
+    - GL-MT3000 (Beryl AX)
 
 ## Quick Setup
 

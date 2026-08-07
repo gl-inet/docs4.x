@@ -180,7 +180,7 @@ Pour résoudre ce problème :
 
 ## DFS
 
-Lors de la connexion à un Wi‑Fi 5G en amont, le Wi‑Fi du routeur suivra le Wi‑Fi en amont afin d'utiliser ou non le canal DFS.
+**DFS** (Dynamic Frequency Selection) est un mécanisme qui change automatiquement de canal Wi‑Fi afin d'éviter les interférences avec les signaux radar. Lors de la connexion à un Wi‑Fi 5G en amont, le Wi‑Fi du routeur suivra le Wi‑Fi en amont pour utiliser ou non le canal DFS.
 
 * Si le Wi‑Fi en amont utilise un canal DFS et peut être analysé, le Wi‑Fi 5G du routeur utilisera le même canal.
 
@@ -188,6 +188,9 @@ Lors de la connexion à un Wi‑Fi 5G en amont, le Wi‑Fi du routeur suivra le 
 
 ??? "Modèles pris en charge"
 
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)

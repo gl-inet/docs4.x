@@ -10,6 +10,7 @@
 - [Konfiguracja DLNA](#set-up-dlna)
 - [Klient Samba](#samba-client)
 - [Klient WebDAV](#webdav-client)
+- [Korzystanie z aplikacji mobilnej](#using-mobile-app)
 
 ## Wprowadzenie
 
@@ -33,6 +34,8 @@ W przypadku urządzeń z pamięcią flash o pojemności 32 MB lub mniejszej funk
 
 | Model routera                          | Samba | Webdav | DLNA | Port USB | Karta MicroSD |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
+| GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
+| GL-MG1300 (Mango 2) | √ | - | - | √ | - |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
 | GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-E5800 (Mudi 7)                      | √     | √     | √     | √        | -            |

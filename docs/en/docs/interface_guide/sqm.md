@@ -1,5 +1,9 @@
 # SQM (Smart Queue Management)
 
+**Note**: This feature was introduced in firmware v4.9.
+
+---
+
 SQM (Smart Queue Management) intelligently manages your router's network traffic to minimize latency and "bufferbloat", ensuring smoother gaming and voice calls. 
 
 **Note**:
@@ -16,13 +20,12 @@ SQM (Smart Queue Management) intelligently manages your router's network traffic
 
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
+    - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)
-    - ※GL-BE9300 (Flint 3)
-    - ※GL-BE3600 (Slate 7)
-    - ※GL-MT6000 (Flint 2)
-    - ※GL-MT3000 (Beryl AX)
-
-    Note: Models marked with ※ support SQM in firmware v4.9 and later.
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint 2)
+    - GL-MT3000 (Beryl AX)
 
 ## Quick Setup
 
@@ -41,6 +44,10 @@ For Queue Rule, two options are available:
 - **cake**: Smart, automatic traffic shaping with superior overall latency control (recommended).
 
 - **fq_codel**: Simple, efficient fair queueing with basic latency reduction.
+
+!!! Tip
+
+    A difference between QoS and SQM settings is that the QoS allows you set the application priorities, with the router allocating bandwidth accordingly; while the SQM allows you to select a queue rule.
 
 ---
 

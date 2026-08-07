@@ -1,6 +1,8 @@
 # IoT Network
 
-> The IoT Network feature was introduced in firmware v4.9.
+**Note**: The IoT Network feature was introduced in firmware v4.9.
+
+---
 
 On the left side of the web Admin Panel, go to **NETWORK** -> **IoT Network**. 
 

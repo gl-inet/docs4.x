@@ -19,6 +19,9 @@ La versione locale e' fornita da GL.iNet. Al momento e' in beta e non ha costi a
 ### Modelli supportati
 
 ??? "Modelli supportati"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
@@ -244,9 +247,9 @@ Una volta che il dispositivo si connette ai servizi Bark Cloud ed e' associato a
 
 ![bark_paired](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control/bark_paired.png){class="glboxshadow"}
 
-Fai clic su **Go to Bark** oppure [qui](https://www.bark.us/app/children/?ref=glinet&home=glinet) per accedere alla dashboard di Bark e configurare le regole di parental control.
+Fai clic su **Go to Bark** oppure [qui](https://www.bark.us/app/children/?ref=glinet&home=glinet){target="_blank"} per accedere alla dashboard di Bark e configurare le regole di parental control.
 
-Poiche' GL.iNet non e' il fornitore di questo servizio, se riscontri problemi durante l'uso di Bark, contatta direttamente il [supporto tecnico di Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet) per assistenza.
+Poiche' GL.iNet non e' il fornitore di questo servizio, se riscontri problemi durante l'uso di Bark, contatta direttamente il [supporto tecnico di Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"} per assistenza.
 
 ---
 

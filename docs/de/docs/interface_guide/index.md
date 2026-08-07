@@ -20,7 +20,6 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 ## WLAN
 
 * [WLAN](wireless.md)
-* [WLAN (v4.9)](wireless_v4.9.md)
 
 ## Clients
 

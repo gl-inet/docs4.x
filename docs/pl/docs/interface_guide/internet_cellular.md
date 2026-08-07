@@ -1,6 +1,12 @@
 # Połączenie z Internetem przez sieć komórkową
 
-**Uwaga**: Ten przewodnik opiera się na firmware v4.8. W przypadku wcześniejszych wersji zapoznaj się z [tym przewodnikiem](internet_cellular_v4.7.md).
+Treść tej strony dotyczy wersji firmware v4.8.x i nowszych. Jeśli urządzenie używa innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
+
+<div class="gl-link-select" data-label="Wersja firmware" data-placeholder="Firmware v4.8 i nowsze" markdown="1">
+
+- [Firmware v4.7 i wcześniejsze](internet_cellular_v4.7.md)
+
+</div>
 
 ---
 
@@ -487,7 +493,7 @@ Kliknij link [att device certification](https://iotdevices.att.com/certified-dev
 
 ### Certyfikacja T-Mobile
 
-Kliknij link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification) i wybierz 5G w polu **Filter**, aby znaleźć urządzenie. 
+Kliknij link [t-mobile device certification](https://www.t-mobile.com/business/solutions/iot/device-certification){target="_blank"} i wybierz 5G w polu **Filter**, aby znaleźć urządzenie.
 
 ![bandmasking](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/certification/t-mobile_certification.png){class="glboxshadow"}
 

@@ -1,5 +1,9 @@
 # DPI Engine
 
+**Note**: This feature was introduced in firmware v4.9.
+
+---
+
 DPI (Deep Packet Inspection) is a core technology for intelligent network management. Unlike traditional routers that only identify source and destination addresses, DPI performs in-depth analysis of packet payloads and accurately identifies applications and websites using a feature-matching library, enabling fine-grained traffic classification and control.
 
 The GL.iNet DPI Engine runs locally on your router to deliver intelligent network management with complete privacy. It provides full access to traffic statistics, content filtering, and QoS for comprehensive traffic control.
@@ -17,13 +21,12 @@ Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI a
 
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
+    - GL-MT3600BE (Beryl 7)
     - GL-MT5000 (Brume 3)
-    - ※GL-BE9300 (Flint 3)
-    - ※GL-BE3600 (Slate 7)
-    - ※GL-MT6000 (Flint 2)
-    - ※GL-MT3000 (Beryl AX)
-
-    Note: Models marked with ※ support DPI Engine in firmware v4.9 and later.
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint 2)
+    - GL-MT3000 (Beryl AX)
 
 ## Quick Setup
 

@@ -20,7 +20,6 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 ## Sans fil
 
 * [Sans fil](wireless.md)
-* [Sans fil (v4.9)](wireless_v4.9.md)
 
 ## Clients
 

@@ -60,6 +60,7 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak skonfigurować bramę drop-in na routerach GL.iNet](how_to_set_up_drop_in_gateway.md)
 * [Jak skonfigurować przekierowanie portów na routerze głównym](how_to_set_up_port_forwarding.md)
 * [Jak skonfigurować podwójne przewodowe połączenie WAN na routerze z jednym portem WAN](configure_dual_ethernet_wan.md)
+* [Czym jest USB-C OTG i jak udostępnić sieć przez USB-C OTG](what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md)
 
 ## Inne
 

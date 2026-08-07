@@ -1,6 +1,8 @@
 # Admin Access
 
-> This page was introduced in firmware v4.9.
+**Note**: This page was introduced in firmware v4.9.
+
+---
 
 On the left side of the web Admin Panel, go to **SECURITY** -> **Admin Access**.
 

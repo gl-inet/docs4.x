@@ -33,6 +33,8 @@ Haga clic en el icono del ventilador, situado en la esquina superior derecha, pa
 
 !!! note "Modelos con ventiladores integrados"
 
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-BE9300 (Flint 3)
     - GL-BE6500 (Flint 3e)
     - GL-MT3600BE (Beryl 7)

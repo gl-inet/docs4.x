@@ -13,12 +13,15 @@ Der Dienst [Bark](https://www.bark.us/){target="_blank"} kann helfen, die digita
 ## Unterstützte Modelle
 
 ??? "Unterstützte Modelle"
+    - GL-BE14000 (Flint 4)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-B3000 (Marble)
     - GL-MT6000 (Flint2)
 
 ??? "Nicht unterstützte Modelle"
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
@@ -75,8 +78,8 @@ Sobald Ihr Gerät mit den Bark Cloud Services verbunden und mit Ihrem Konto geko
 
 ![bark status](https://static.gl-inet.com/docs/router/de/4/interface_guide/bark/bark8.png){class="glboxshadow"}
 
-Klicken Sie auf **Go to Bark** oder [hier](https://www.bark.us/app/children/?ref=glinet&home=glinet), um sich beim Bark-Dashboard anzumelden und Ihre Regeln für die Kindersicherung einzurichten.
+Klicken Sie auf **Go to Bark** oder [hier](https://www.bark.us/app/children/?ref=glinet&home=glinet){target="_blank"}, um sich beim Bark-Dashboard anzumelden und Ihre Regeln für die Kindersicherung einzurichten.
 
-Da GL.iNet nicht der Anbieter dieses Dienstes ist, wenden Sie sich bei Problemen mit Bark bitte direkt an den [technischen Support von Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet).
+Da GL.iNet nicht der Anbieter dieses Dienstes ist, wenden Sie sich bei Problemen mit Bark bitte direkt an den [technischen Support von Bark](https://www.bark.us/contact-us/?ref=glinet&home=glinet){target="_blank"}.
 
 ---

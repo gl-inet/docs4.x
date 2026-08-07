@@ -20,7 +20,6 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 ## Wireless
 
 * [Wireless](wireless.md)
-* [Wireless (v4.9)](wireless_v4.9.md)
 
 ## Client
 

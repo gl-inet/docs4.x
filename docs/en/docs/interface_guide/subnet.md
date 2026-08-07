@@ -14,7 +14,7 @@ The page consolidates the configuration of **LAN**, **Guest Network**, **IoT Net
 
 In the Main Network, you can directly view all interface statuses, VLAN ID, router IP address, and DHCP Range.
 
-![main network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-1.pang){class="glboxshadow"}
+![main network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-1.png){class="glboxshadow"}
 
 Click **Edit** in the lower-right corner to configure the Main Network.
 

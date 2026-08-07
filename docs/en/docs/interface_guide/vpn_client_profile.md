@@ -1,6 +1,8 @@
 # VPN Client Profile
 
-> This guide applies to firmware v4.9 and above. 
+**Note**: This page was introduced in firmware v4.9.
+
+---
 
 On the left side of the web Admin Panel, go to **VPN** -> **VPN Client Profile**.
 
@@ -26,15 +28,17 @@ GL.iNet routers offer built-in WireGuard support for the following VPN providers
 
 ![wireguard](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg.png){class="glboxshadow"}
 
-If you subscribe to other WireGuard service provider, download a configuration file from their website, then click **Add Manually** to upload the file to your router for VPN connection. If you don't know how to download the configuration files, refer to [here](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or contact their support. 
+If you subscribe to other WireGuard service provider, download a configuration file from their website, then click **Add Manually** to upload the file to your router for VPN connection. 
 
 ![wireguard add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg_manual.png){class="glboxshadow"}
+
+If you don't know how to download the configuration files, refer to [here](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md) or contact their support. 
 
 ---
 
 Take [AzireVPN](https://www.azirevpn.com/aff/9x7wisg4){target="_blank"} as an example. 
 
-1. Click **AzireVPN**.
+1. On the **VPN Client Profile** page, click **AzireVPN**.
 
     ![wg azirevpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/wg_azirevpn.png){class="glboxshadow"}
 
@@ -82,9 +86,11 @@ GL.iNet routers offer built-in OpenVPN support for [NordVPN](https://go.nordvpn.
 
 ![ovpn](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn.png){class="glboxshadow"}
 
-If you subscribe to other OpenVPN service provider, download a configuration file from their website, then click **Add Manually** to upload the file to your router for VPN connection. If you don't know how to download the configuration files, refer to [here](openvpn_client.md#get-configuration-files-from-openvpn-service-providers-get-configuration-files-from-openvpn-service-providers) or contact their support. 
+If you subscribe to other OpenVPN service provider, download a configuration file from their website, then click **Add Manually** to upload the file to your router for VPN connection. 
 
 ![ovpn add manually](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_client_profile/ovpn_manual.png){class="glboxshadow"}
+
+If you don't know how to download the configuration files, refer to [here](openvpn_client.md#get-configuration-files-from-openvpn-service-providers-get-configuration-files-from-openvpn-service-providers) or contact their support.
 
 ---
 

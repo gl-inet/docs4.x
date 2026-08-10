@@ -72,7 +72,7 @@ Multiple VLANs mode allows multiple VLANs (Tagged) on one port, typically for co
 
 - **Negotiated Network Port Rate**: The negotiated link speed of the LAN interface, displayed only when a valid link is detected.
 
-- **Ethernet Mode**: : To switch to Multiple VLANs mode, click the Multiple VLANs tab.
+- **VLAN Mode**: : To switch to Multiple VLANs mode, click the Multiple VLANs tab.
 
 - **Untagged Traffic Handling**: Configure untagged packet handling for the port. You can select to either drop such packets directly or forward them to another subnet as the native PVID network.
 
@@ -122,13 +122,15 @@ The Dual-Ethernet WAN feature lets you switch a default LAN Ethernet port to a s
     - GL-B1300 (Convexa-B)
     - GL-X300B (Collie)
 
-Follow the steps below to switch a LAN port to a WAN port.
+Follow the steps below to switch a LAN port to a WAN port, using the Flint 3 (GL-BE9300) as an example.
 
-1. On the **Ethernet Port** page, click the **LAN** tab and switch the port role to WAN, then click **Apply**.
+1. On the **Ethernet Port** page, click the **LAN1** setting to enter the Configuration page. Then, switch the port role to WAN and click **Apply**.
+   
+    ![dual ethernet wan ](https://static.gl-inet.com/docs/router/en/4/interface_guide/ehternet_port_v4.10/dual_ethernet _wan.png){class="glboxshadow"}
 
-    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ehternet_port_v4.10/dual ethernet wan 1.png){class="glboxshadow" width=600}
+    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ehternet_port_v4.10/dual_ethernet _wan_1.png){class="glboxshadow" width=600}
 
-2. After you click **Apply**, an **Applied!** confirmation appears, indicating the configuration has taken effect. You can return to the Ethernet Port page to verify that the port role has switched to WAN.
+2.  You can return to the Ethernet Port page to verify that the port role has switched to WAN.
    
     ![dual ethernet wan 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ehternet_port_v4.10/dual_ethernet_wan_2.png){class="glboxshadow"}
 

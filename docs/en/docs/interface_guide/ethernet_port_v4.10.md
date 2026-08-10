@@ -126,9 +126,9 @@ Follow the steps below to switch a LAN port to a WAN port, using the Flint 3 (GL
 
 1. On the **Ethernet Port** page, click the **LAN1** setting to enter the Configuration page. Then, switch the port role to WAN and click **Apply**.
    
-    ![dual ethernet wan ](https://static.gl-inet.com/docs/router/en/4/interface_guide/ehternet_port_v4.10/dual_ethernet _wan.png){class="glboxshadow"}
+    ![dual ethernet wan ](https://static.gl-inet.com/docs/router/en/4/interface_guide/ehternet_port_v4.10/dual_ethernet_wan.png){class="glboxshadow"}
 
-    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ehternet_port_v4.10/dual_ethernet _wan_1.png){class="glboxshadow" width=600}
+    ![dual ethernet wan 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ehternet_port_v4.10/dual_ethernet_wan_1.png){class="glboxshadow" width=600}
 
 2.  You can return to the Ethernet Port page to verify that the port role has switched to WAN.
    

@@ -119,7 +119,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 === "AstroLink"
 
-    AstroLink is an advanced networking platform designed to provide seamless remote networking and remote device management. Built specifically for GL.iNet router integration, AstroLink supports comprehensive device management across entire networks, enabling both upper and lower device control. With a focus on network-wide management and future support for hardware-level control, AstroLink offers a more robust and dependable solution for managing devices and maintaining secure, stable networks. 
+    AstroLink is an advanced networking platform designed for seamless remote networking and device management. Built specifically for GL.iNet router integration, AstroLink employs the AmneziaWG protocol with built-in traffic obfuscation to ensure secure and stable connections. By securely extending your home network globally, it allows you to access remote resources using your home IP address.  
 
 ## VPN 
 
@@ -198,7 +198,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
 
-    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control.md).
+    To set up parental control, refer to [Parental Control](../../interface_guide/parental_control_v4.9.md).
 
 ## Security
 

@@ -119,39 +119,29 @@ Useful measurements include:
 
 Run several speed tests under similar conditions, as cellular performance naturally changes throughout the day.
 
-## Frequently asked questions
+## FAQ
 
-### Can I use any cellular antenna?
+1. **Q: Can I use any cellular antenna?**
 
-No.
+    A: No. The antenna must use the correct connector type and support the cellular frequency bands used by your router and mobile carrier.
 
-The antenna must use the correct connector type and support the cellular frequency bands used by your router and mobile carrier.
+2. **Q: Should I buy the highest-gain antenna available?**
 
-### Should I buy the highest-gain antenna available?
+    A: Not necessarily. Choose an antenna that is appropriate for your installation rather than selecting one based only on its advertised gain.
 
-Not necessarily.
+3. **Q: Will an external antenna always increase my internet speed?**
 
-Choose an antenna that is appropriate for your installation rather than selecting one based only on its advertised gain.
+    A: No. Performance depends on many factors, including signal quality, carrier aggregation, tower congestion, network conditions, and your mobile carrier.
 
-### Will an external antenna always increase my internet speed?
+4. **Q: Will the internal cellular antennas still be used when external antennas are connected?**
 
-No.
+    A: No. On GL.iNet cellular routers with external cellular antenna ports, connecting compatible external antennas disables the corresponding internal cellular antennas. 
+    
+    **Note**: For the best performance, connect all required external antenna leads. Connecting only one lead to a router designed for multiple cellular antennas may reduce MIMO performance and overall connection quality.
 
-Performance depends on many factors, including signal quality, carrier aggregation, tower congestion, network conditions, and your mobile carrier.
+5. **Q: Can I connect a Wi-Fi antenna to a cellular antenna port?**
 
-### Will the internal cellular antennas still be used when external antennas are connected?
-
-No.
-
-On GL.iNet cellular routers with external cellular antenna ports, connecting compatible external antennas disables the corresponding internal cellular antennas.
-
-For the best performance, connect all required external antenna leads. Connecting only one lead to a router designed for multiple cellular antennas may reduce MIMO performance and overall connection quality.
-
-### Can I connect a Wi-Fi antenna to a cellular antenna port?
-
-No.
-
-Wi-Fi and cellular antennas are designed for different radio systems and are not interchangeable.
+    A: No. Wi-Fi and cellular antennas are designed for different radio systems and are not interchangeable.
 
 ---
 

@@ -4,7 +4,7 @@ This guide shows you how to set up and use Spitz AX in your recreational vehicle
 
 - SIM card(s) or USB cable (for tethering), depending on which internet connection method you use. If you are using SIM card(s), ask your operator for the APN. 
 - A roof antenna if you want better coverage. 
-- [A subscription to Starlink](https://www.starlink.com/roam), if you go to areas without cellular coverage. 
+- [A subscription to Starlink](https://www.starlink.com/roam){target="_blank"}, if you go to areas without cellular coverage. 
 
 ---
 
@@ -23,6 +23,7 @@ You can place your Spitz AX on a flat surface or mount it to the wall. If you ch
 ### (Optional) Step 2: Install your Spitz AX on the wall 
 
 There are two ways to install your Spitz AX on the wall:
+
 - Use the supplied adhesive pad
 - Use the wall mounts
 
@@ -37,10 +38,10 @@ Wall mounts are provided in the package. To mount your Spitz AX to the wall, fol
 
 ![roof](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-roof-antenna.jpg){class="glboxshadow"}
 
-To get a better signal, use a roof antenna for your Spitz AX. You are recommended to use [MobileMark's LTMG942 multi-band antenna](https://www.mobilemark.com/product/ltmg942-4xlte-2xwifi-gnss/) which provides optimal network signals. If you want to use roof antennas from other brands, make sure they fulfill the following requirements: 
+To get a better signal, use a roof antenna for your Spitz AX. You are recommended to use [MobileMark's LTMG942 multi-band antenna](https://www.mobilemark.com/product/ltmg942-4xlte-2xwifi-gnss/){target="_blank"} which provides optimal network signals. If you want to use roof antennas from other brands, make sure they fulfill the following requirements: 
 
 - 4 cellular antennas, receiving frequency range 600M~6GHz.
-- 2 Wi-Fi antennas, receiving frequency range: 2.4G~2.5GHz, 5.15~5.84GHz
+- 2 Wi-Fi antennas, receiving frequency range: 2.4G~2.5GHz, 5.15~5.84GHz.
 
 ![antennas](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_and_use_in_recreational_vehicle/x3000-with-six-antennas.jpg){class="glboxshadow"}
 
@@ -56,7 +57,7 @@ To avoid signal attenuation, the radio frequency cable from the roof antenna to 
 
 To ensure you have internet access during your journey, set up the internet using SIM cards. 
 
-Spitz AX has a built-in 5GNR module and supports dual SIM cards. Different mobile network carriers offer different cellular packages for the SIM card and use different APNs. You will need to enter the APN in the settings, so confirm with your operator what the VPN is. 
+Spitz AX has a built-in 5G NR module and supports dual SIM cards. Different mobile network carriers offer different cellular packages for the SIM card and use different APNs. You will need to enter the APN in the settings, so confirm with your operator what the VPN is. 
 
 To set up your SIM cards, follow these steps: 
 
@@ -102,7 +103,7 @@ When you set up the Starlink antenna, make sure it is unobstructed. Obstructions
 ---
 
 ## 4. Set failover priorities 
-Spitz AX supports multi-WAN (failover and load balancing). You can set failover priorities for different networks based on your scenario. 
+Spitz AX supports Multi-WAN (failover and load balance). You can set failover priorities for different networks based on your scenario. 
 
 | Scenario| Priority |
 | --------| ------- |

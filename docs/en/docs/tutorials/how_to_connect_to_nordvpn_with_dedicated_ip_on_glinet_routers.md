@@ -8,7 +8,7 @@ We use the GL-AXT1800 as an example.
 
     ![nordvpn dedicated ip info](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/dedicated_ip_info.png){class="glboxshadow"}
 
-2. Go to [https://nordvpn.com/ovpn/](https://nordvpn.com/ovpn/) and find the configuration file for **United Kingdom #1625**. Download the UDP or TCP configuration file.
+2. Go to [https://nordvpn.com/ovpn/](https://nordvpn.com/ovpn/){target="_blank"} and find the configuration file for **United Kingdom #1625**. Download the UDP or TCP configuration file.
 
     ![download nordvpn dedicated ip info](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/download_dedicated_ip_config.png){class="glboxshadow"}
 
@@ -26,7 +26,7 @@ We use the GL-AXT1800 as an example.
 
 5. Click the three-dot icon on the right to connect. You may also go to **VPN Dashboard**, select the configuration file and click **Apply** to establish a connection.
 
-6. Once connected, check your public IP [here](https://whatismyipaddress.com/) and confirm if it matches your dedicated IP from NordVPN.
+6. Once connected, check your public IP [here](https://whatismyipaddress.com/){target="_blank"} and confirm if it matches your dedicated IP from NordVPN.
 
     ![check ip after connected](https://static.gl-inet.com/docs/router/en/4/tutorials/connect_to_nordvpn_dedicated_ip/check_ip_after_connected.png){class="glboxshadow"}
 

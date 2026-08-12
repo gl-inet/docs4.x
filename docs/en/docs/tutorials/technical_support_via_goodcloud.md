@@ -8,7 +8,23 @@ Before sharing your device with GL.iNet technical support, please ensure your ro
 
 Then log in to the router's web Admin Panel to enable GoodCloud and remote access.
 
-- **For firmware version 4.7.x or higher**
+Please select the tutorial that matches your device's firmware version to enable GoodCloud and remote access.
+
+??? "For firmware version 4.10"
+
+    Please go to **CLOUD SERVICES** -> **GoodCloud**, click **Get Started**. 
+
+    ![GoodCloud 4.10 1](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_1.png){class="glboxshadow"}
+
+    A URL will then be displayed on the page. Click the **link** to log in via the GL.iNet Account page, or copy it for remote binding.  If you don't have an account, register one first.
+
+    ![GoodCloud 4.10 2](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_2.png){class="glboxshadow"}
+
+    Once logged in, your device will be bound to your Cloud account automatically. You can view the **Device Identity** and **Recent Cloud Logs** on the GoodCloud page. **Remote Web Access** and **Remote SSH** are also enabled by default.
+    
+    ![GoodCloud 4.10 3](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_3.png){class="glboxshadow"}
+
+??? "For firmware version 4.7.x–4.9.x"
 
     Please go to **CLOUD SERVICES** -> **GoodCloud**, click **Get Started** and log in to your Cloud account in the upper right corner. If you don't have an account, register one first.
 
@@ -20,7 +36,7 @@ Then log in to the router's web Admin Panel to enable GoodCloud and remote acces
 
     ![enable remote access 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.7.x.png){class="glboxshadow"}
 
-- **For firmware version 4.6.x or earlier**
+??? "For firmware version 4.6.x or earlier"
 
     Please go to **APPLICATIONS** -> **GoodCloud**, enable **GoodCloud**, **Remote SSH** and **Remote Web Access**, check the **Terms of Service & Privacy Policy**, then click **Apply**.
 

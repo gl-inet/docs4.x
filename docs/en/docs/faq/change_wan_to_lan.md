@@ -14,7 +14,7 @@ Follow the steps below to change WAN to LAN.
     
 	![ethernet port 1](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_port_1.png){class="glboxshadow"}
 
-4. You will be directed to the **Ethernet Port** page, and click the gear icon to WAN Settings.
+4. You will be directed to the **Ethernet Port** page. Click the gear icon under the WAN port.
 
     ![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_port_2.png){class="glboxshadow"}
 

@@ -65,6 +65,7 @@ hide:
 * [ファイアウォール](firewall.md)
 * [ポートフォワーディング](port_forwarding.md)
 * [マルチWAN](multi-wan.md) - 別のインターネット接続へのフェイルオーバーや、複数インターフェースの同時利用による総帯域幅の拡張を行います。
+* [サブネット](subnet.md)
 * [LAN](lan.md)
 * [ゲストネットワーク](guest_network.md)
 * [IoTネットワーク](iot_network.md)

@@ -6,9 +6,39 @@ Los routers celulares GL.iNet están equipados con un módem integrado que admit
 
 ## Modelos compatibles
 
-??? "Modelos compatibles" - GL-E5800 (Mudi 7) - GL-X2000 (Spitz Plus) - GL-X3000 (Spitz AX) - GL-XE3000 (Puli AX) - GL-E750/E750V2 (Mudi) - GL-X750/GL-X750V2 (Spitz) - GL-XE300 (Puli) - GL-X300B (Collie)
+??? "Modelos compatibles"
+    - GL-E5800 (Mudi 7)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-E750/E750V2 (Mudi)
+    - GL-X750/GL-X750V2 (Spitz)
+    - GL-XE300 (Puli)
+    - GL-X300B (Collie)
 
-??? "Modelos no compatibles" - GL-MT5000 (Brume 3) - GL-MT3600BE (Beryl 7) - GL-BE6500 (Flint 3e) - GL-BE9300 (Flint 3) - GL-BE3600 (Slate 7) - GL-B3000 (Marble) - GL-MT6000 (Flint2) - GL-AX1800 (Flint) - GL-MT2500/GL-MT2500A (Brume 2) - GL-MT3000 (Beryl AX) - GL-AXT1800 (Slate AX) - GL-SFT1200 (Opal) - GL-A1300 (Slate Plus) - GL-MT1300 (Beryl) - GL-AR750S (Slate) - GL-MT300N-V2 (Mango) - GL-AR300M Series (Shadow) - GL-B1300 (Convexa-B) - GL-AP1300 (Cirrus)
+??? "Modelos no compatibles"
+    - GL-MG1300 (Mango 2)
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint2)
+    - GL-AX1800 (Flint)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-MT3000 (Beryl AX)
+    - GL-AXT1800 (Slate AX)
+    - GL-SFT1200 (Opal)
+    - GL-A1300 (Slate Plus)
+    - GL-MT1300 (Beryl)
+    - GL-AR750S (Slate)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-AP1300 (Cirrus)
 
 ## Configuración rápida
 

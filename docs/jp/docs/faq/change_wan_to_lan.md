@@ -4,7 +4,33 @@
 
 以下の手順に従って、WANをLANに変更してください。
 
-## ファームウェア4.7で上
+## ファームウェア 4.10
+
+1. WANポートは未接続のままにしておきます。
+
+2. デバイスをルーターに接続し、ルーターのWeb Admin Panelにアクセスします。
+
+3. Web Admin Panelで、**INTERNET** -> **Ethernet 1** セクションに移動し、右上のギアアイコンをクリックします。
+
+	![ethernet port 1](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_port_1.png){class="glboxshadow"}
+
+4. **Ethernet Port** ページに移動します。WANポートの下にあるギアアイコンをクリックします。
+
+	![ethernet port 2](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_port_2.png){class="glboxshadow"}
+
+5. **LAN** をクリックしてEthernetポートのプロパティを変更し、**Apply** をクリックします。
+
+	![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_port_3.png){class="glboxshadow"}
+
+6. Ethernet PortページまたはEthernetセクションに戻ると、WANポートがLANポートとして使用されていることが表示されます。
+
+	![ethernet port 4](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_port_4.png){class="glboxshadow"}
+
+	![ethernet port 5](https://static.gl-inet.com/docs/router/en/4/faq/change_wan_to_lan/ethernet_port_5.png){class="glboxshadow"}
+
+Ethernet PortページでWANに戻すことも、RESETボタンを4秒押してWANインターフェースを再起動することもできます。
+
+## ファームウェア 4.7-4.9
 
 1. WANポートは未接続のままにしておきます。
 

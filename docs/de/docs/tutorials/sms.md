@@ -17,6 +17,9 @@ GL.iNet-Mobilfunkrouter sind mit einem integrierten Modem ausgestattet, das nach
     - GL-X300B (Collie)
 
 ??? "Nicht unterstützte Modelle"
+    - GL-MG1300 (Mango 2)
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)

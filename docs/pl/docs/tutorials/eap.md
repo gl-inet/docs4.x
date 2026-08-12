@@ -9,6 +9,8 @@ W tym przewodniku przedstawiamy dwa sposoby połączenia routerów GL.iNet z sie
 ## Obsługiwane modele
 
 ??? "Obsługiwane modele"
+    - GL-MG1300 (Mango 2)
+    - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
     - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
     - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)

@@ -8,7 +8,23 @@ Bevor Sie Ihr Gerät mit dem technischen Support von GL.iNet teilen, stellen Sie
 
 Melden Sie sich dann im Web-Admin-Panel des Routers an, um GoodCloud und den Fernzugriff zu aktivieren.
 
-- **Für Firmware-Version 4.7.x oder höher**
+Bitte wählen Sie die Anleitung aus, die zur Firmware-Version Ihres Geräts passt, um GoodCloud und den Fernzugriff zu aktivieren.
+
+??? "Für Firmware-Version 4.10"
+
+    Gehen Sie bitte zu **CLOUD SERVICES** -> **GoodCloud** und klicken Sie auf **Get Started**.
+
+    ![GoodCloud 4.10 1](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_1.png){class="glboxshadow"}
+
+    Auf der Seite wird anschließend eine URL angezeigt. Klicken Sie auf den **link**, um sich über die GL.iNet Account-Seite anzumelden, oder kopieren Sie ihn für die Remote-Verknüpfung. Wenn Sie noch kein Konto haben, registrieren Sie zuerst eines.
+
+    ![GoodCloud 4.10 2](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_2.png){class="glboxshadow"}
+
+    Sobald Sie angemeldet sind, wird Ihr Gerät automatisch mit Ihrem Cloud-Konto verknüpft. Sie können die **Device Identity** und **Recent Cloud Logs** auf der GoodCloud-Seite anzeigen. **Remote Web Access** und **Remote SSH** sind ebenfalls standardmäßig aktiviert.
+
+    ![GoodCloud 4.10 3](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_3.png){class="glboxshadow"}
+
+??? "Für Firmware-Version 4.7.x-4.9.x"
 
     Gehen Sie bitte zu **CLOUD SERVICES** -> **GoodCloud**, klicken Sie auf **Get Started** und melden Sie sich oben rechts bei Ihrem Cloud-Konto an. Wenn Sie noch kein Konto haben, registrieren Sie zuerst eines.
 
@@ -20,7 +36,7 @@ Melden Sie sich dann im Web-Admin-Panel des Routers an, um GoodCloud und den Fer
 
     ![enable remote access 4.7](https://static.gl-inet.com/docs/router/de/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.7.x.png){class="glboxshadow"}
 
-- **Für Firmware-Version 4.6.x oder früher**
+??? "Für Firmware-Version 4.6.x oder früher"
 
     Gehen Sie bitte zu **APPLICATIONS** -> **GoodCloud**, aktivieren Sie **GoodCloud**, **Remote SSH** und **Remote Web Access**, markieren Sie **Terms of Service & Privacy Policy** und klicken Sie dann auf **Apply**.
 

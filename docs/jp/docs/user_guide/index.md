@@ -5,6 +5,13 @@
 <div class="gl-product-row">
   <div class="gl-product-row-box">
     <div class="gl-product-card">
+      <a href="https://www.gl-inet.com/products/gl-mg1300">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mg1300.png" >
+        <div class="gl-product-model">GL-MG1300</div>
+        <div class="gl-product-model">(Mango 2)</div>
+      </a>
+    </div>
+    <div class="gl-product-card">
       <a href="gl-be10000/">
         <img src="https://static.gl-inet.com/www/images/products/general/product-table/table_be10000.png" >
         <div class="gl-product-model">GL-BE10000</div>

@@ -7,6 +7,7 @@ GL.iNet-Mobilfunkrouter unterstützen die SMS-Weiterleitung und leiten eingehend
 ## Unterstützte Modelle
 
 ??? "Unterstützte Modelle"
+    - GL-E5800 (Mudi 7)
     - GL-X2000 (Spitz Plus)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -16,7 +17,9 @@ GL.iNet-Mobilfunkrouter unterstützen die SMS-Weiterleitung und leiten eingehend
     - GL-X300B (Collie)
 
 ??? "Nicht unterstützte Modelle"
-    - GL-E5800 (Mudi 7)
+    - GL-MG1300 (Mango 2)
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)

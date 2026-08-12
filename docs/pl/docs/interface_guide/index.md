@@ -65,6 +65,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Firewall](firewall.md)
 * [Port Forwarding](port_forwarding.md)
 * [Multi-WAN](multi-wan.md) - umożliwia przełączenie awaryjne na inne połączenie internetowe lub jednoczesne użycie wielu interfejsów w celu zwiększenia łącznej przepustowości.
+* [Podsieć](subnet.md)
 * [LAN](lan.md)
 * [Sieć gościnna](guest_network.md)
 * [Sieć IoT](iot_network.md)

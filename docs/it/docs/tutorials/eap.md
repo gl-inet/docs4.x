@@ -9,6 +9,8 @@ Questa guida presenta due modi per collegare i router GL.iNet a una rete Wi-Fi E
 ## Modelli supportati
 
 ??? "Modelli supportati"
+    - GL-MG1300 (Mango 2)
+    - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
     - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
     - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)

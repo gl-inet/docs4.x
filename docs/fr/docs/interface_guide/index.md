@@ -65,6 +65,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Pare-feu](firewall.md)
 * [Redirection de port](port_forwarding.md)
 * [Multi-WAN](multi-wan.md) - permet le basculement vers une autre connexion Internet ou l'utilisation simultanée de plusieurs interfaces pour augmenter la bande passante totale.
+* [Sous-réseau](subnet.md)
 * [LAN](lan.md)
 * [Réseau invité](guest_network.md)
 * [Réseau IoT](iot_network.md)

@@ -65,6 +65,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Firewall](firewall.md)
 * [Port Forwarding](port_forwarding.md)
 * [Multi-WAN](multi-wan.md) - abilita il failover verso un'altra connessione Internet oppure l'uso simultaneo di più interfacce per aumentare la larghezza di banda totale.
+* [Sottorete](subnet.md)
 * [LAN](lan.md)
 * [Guest Network](guest_network.md)
 * [Rete IoT](iot_network.md)

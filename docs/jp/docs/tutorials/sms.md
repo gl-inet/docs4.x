@@ -17,6 +17,9 @@ GL.iNet のセルラールーターにはモデムが内蔵されており、SIM
     - GL-X300B (Collie)
 
 ??? "非対応モデル"
+    - GL-MG1300 (Mango 2)
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)
     - GL-BE6500 (Flint 3e)

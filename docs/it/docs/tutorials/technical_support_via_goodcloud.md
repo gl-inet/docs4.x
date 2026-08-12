@@ -8,7 +8,23 @@ Prima di condividere il dispositivo con il supporto tecnico GL.iNet, assicurati 
 
 Quindi accedi al pannello di amministrazione web del router per abilitare GoodCloud e l'accesso remoto.
 
-- **Per firmware versione 4.7.x o successiva**
+Selezionare il tutorial corrispondente alla versione firmware del dispositivo per abilitare GoodCloud e l'accesso remoto.
+
+??? "Per firmware versione 4.10"
+
+    Vai a **CLOUD SERVICES** -> **GoodCloud** e fai clic su **Get Started**.
+
+    ![GoodCloud 4.10 1](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_1.png){class="glboxshadow"}
+
+    Verrà quindi visualizzato un URL nella pagina. Fai clic sul **link** per accedere tramite la pagina GL.iNet Account, oppure copialo per l'associazione remota. Se non hai un account, registrane prima uno.
+
+    ![GoodCloud 4.10 2](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_2.png){class="glboxshadow"}
+
+    Dopo l'accesso, il dispositivo verrà associato automaticamente al tuo account Cloud. Puoi visualizzare **Device Identity** e **Recent Cloud Logs** nella pagina GoodCloud. Anche **Remote Web Access** e **Remote SSH** sono abilitati per impostazione predefinita.
+
+    ![GoodCloud 4.10 3](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_3.png){class="glboxshadow"}
+
+??? "Per firmware versione 4.7.x-4.9.x"
 
     Vai su **CLOUD SERVICES** -> **GoodCloud**, fai clic su **Get Started** e accedi al tuo account Cloud nell'angolo in alto a destra. Se non hai un account, registrane prima uno.
 
@@ -20,7 +36,7 @@ Quindi accedi al pannello di amministrazione web del router per abilitare GoodCl
 
     ![enable remote access 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.7.x.png){class="glboxshadow"}
 
-- **Per firmware versione 4.6.x o precedente**
+??? "Per firmware versione 4.6.x o precedente"
 
     Vai su **APPLICATIONS** -> **GoodCloud**, abilita **GoodCloud**, **Remote SSH** e **Remote Web Access**, seleziona **Terms of Service & Privacy Policy**, quindi fai clic su **Apply**.
 

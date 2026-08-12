@@ -65,6 +65,7 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 * [Firewall](firewall.md)
 * [Port Forwarding](port_forwarding.md)
 * [Multi-WAN](multi-wan.md) - permite la conmutación por error a otra conexión a Internet o el uso simultáneo de varias interfaces para aumentar el ancho de banda total.
+* [Subred](subnet.md)
 * [LAN](lan.md)
 * [Red de invitados](guest_network.md)
 * [IoT Network](iot_network.md)

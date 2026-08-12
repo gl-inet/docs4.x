@@ -8,19 +8,35 @@ Avant de partager votre appareil avec l’assistance technique GL.iNet, assurez-
 
 Connectez-vous ensuite au panneau d’administration Web du routeur pour activer GoodCloud et l’accès à distance.
 
-- **Pour la version de firmware 4.7.x ou supérieure**
+Veuillez sélectionner le tutoriel qui correspond à la version du firmware de votre appareil pour activer GoodCloud et l'accès à distance.
+
+??? "Pour le firmware version 4.10"
+
+    Accédez à **CLOUD SERVICES** -> **GoodCloud**, puis cliquez sur **Get Started**.
+
+    ![GoodCloud 4.10 1](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_1.png){class="glboxshadow"}
+
+    Une URL s'affichera ensuite sur la page. Cliquez sur le **link** pour vous connecter via la page GL.iNet Account, ou copiez-le pour une association à distance. Si vous n'avez pas de compte, créez-en d'abord un.
+
+    ![GoodCloud 4.10 2](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_2.png){class="glboxshadow"}
+
+    Une fois connecté, votre appareil sera automatiquement associé à votre compte Cloud. Vous pouvez consulter **Device Identity** et **Recent Cloud Logs** sur la page GoodCloud. **Remote Web Access** et **Remote SSH** sont également activés par défaut.
+
+    ![GoodCloud 4.10 3](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_3.png){class="glboxshadow"}
+
+??? "Pour le firmware version 4.7.x-4.9.x"
 
     Accédez à **CLOUD SERVICES** -> **GoodCloud**, cliquez sur **Get Started** et connectez-vous à votre compte Cloud en haut à droite. Si vous n’avez pas de compte, créez-en un d’abord.
 
     ![get started log in](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/get_started_v4.7.x.png){class="glboxshadow"}
-    
+
     Une fois connecté, votre appareil sera automatiquement lié à votre compte Cloud.
-    
+
     Revenez à la page **GoodCloud**, activez **Remote SSH** et **Remote Web Access**, puis cliquez sur **Apply**.
 
     ![enable remote access 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.7.x.png){class="glboxshadow"}
 
-- **Pour la version de firmware 4.6.x ou antérieure**
+??? "Pour le firmware version 4.6.x ou antérieure"
 
     Accédez à **APPLICATIONS** -> **GoodCloud**, activez **GoodCloud**, **Remote SSH** et **Remote Web Access**, cochez **Terms of Service & Privacy Policy**, puis cliquez sur **Apply**.
 

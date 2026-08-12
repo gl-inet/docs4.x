@@ -9,6 +9,8 @@ Ce guide présente deux méthodes pour connecter les routeurs GL.iNet à un rés
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
+    - GL-MG1300 (Mango 2)
+    - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
     - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
     - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)

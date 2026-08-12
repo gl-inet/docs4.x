@@ -8,7 +8,23 @@ GL.iNet技術サポートへデバイスを共有する前に、安定性のた�
 
 その後、ルーターのWeb管理パネルにログインして、GoodCloud とリモートアクセスを有効にします。
 
-- **ファームウェアバージョン 4.7.x 以降**
+GoodCloud とリモートアクセスを有効にするには、デバイスのファームウェアバージョンに合った手順を選択してください。
+
+??? "ファームウェアバージョン 4.10"
+
+    **CLOUD SERVICES** -> **GoodCloud** に移動し、**Get Started** をクリックします。
+
+    ![GoodCloud 4.10 1](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_1.png){class="glboxshadow"}
+
+    ページに URL が表示されます。**link** をクリックして GL.iNet Account ページからログインするか、リモートバインド用にコピーします。アカウントがない場合は、先に登録してください。
+
+    ![GoodCloud 4.10 2](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_2.png){class="glboxshadow"}
+
+    ログインすると、デバイスは自動的に Cloud アカウントに紐付けられます。GoodCloud ページで **Device Identity** と **Recent Cloud Logs** を確認できます。**Remote Web Access** と **Remote SSH** もデフォルトで有効になります。
+
+    ![GoodCloud 4.10 3](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/goodcloud_v4.10_3.png){class="glboxshadow"}
+
+??? "ファームウェアバージョン 4.7.x-4.9.x"
 
     **CLOUD SERVICES** -> **GoodCloud** に移動し、**Get Started** をクリックして右上からCloudアカウントへログインしてください。アカウントがない場合は、先に登録してください。
 
@@ -20,7 +36,7 @@ GL.iNet技術サポートへデバイスを共有する前に、安定性のた�
 
     ![enable remote access 4.7](https://static.gl-inet.com/docs/router/en/4/tutorials/technical_support_via_goodcloud/enable_goodcloud_v4.7.x.png){class="glboxshadow"}
 
-- **ファームウェアバージョン 4.6.x 以前**
+??? "ファームウェアバージョン 4.6.x 以前"
 
     **APPLICATIONS** -> **GoodCloud** に移動し、**GoodCloud**、**Remote SSH**、**Remote Web Access** を有効にします。**Terms of Service & Privacy Policy** を確認してチェックし、**Apply** をクリックします。
 

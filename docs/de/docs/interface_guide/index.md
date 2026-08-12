@@ -65,6 +65,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [Firewall](firewall.md)
 * [Portweiterleitung](port_forwarding.md)
 * [Multi-WAN](multi-wan.md) - ermöglicht Failover auf eine andere Internetverbindung oder die gleichzeitige Nutzung mehrerer Schnittstellen zur Erhöhung der Gesamtbandbreite.
+* [Subnetz](subnet.md)
 * [LAN](lan.md)
 * [Gastnetzwerk](guest_network.md)
 * [IoT-Netzwerk](iot_network.md)

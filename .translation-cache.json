@@ -145,31 +145,31 @@
     }
   },
   "docs/en/docs/faq/change_wan_to_lan.md": {
-    "source_hash": "97756ec500c3948d32fba4c62b2a8f9428dce09a58b9af5017d644a01bc05170",
+    "source_hash": "7226c8fe9b8d53e483c37226dbe714bb16af9c43461b24e22d2d17989140ea5b",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -232,31 +232,31 @@
     }
   },
   "docs/en/docs/faq/debrick.md": {
-    "source_hash": "28e19308507791a19699534ba6121569e57ae393c69f349efb0f9cfd98b2099c",
+    "source_hash": "2d08860028c53679c938e41704ecb8016b5547379c92b2dc772b933095ee0a5d",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -1421,60 +1421,60 @@
     }
   },
   "docs/en/docs/interface_guide/bark.md": {
-    "source_hash": "a0620511da3482e6406689749210177de70adeb8a8dab7b8b06fd9b2d90a5617",
+    "source_hash": "ee68194b62c7fd38086812bf4f6eb92690a762c6e7766402fe8649bf75d02b76",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
   "docs/en/docs/interface_guide/clients.md": {
-    "source_hash": "c673ade76bc7b570137aff6edf7e9a34aea766af7042c2cd3f925e440abc59e6",
+    "source_hash": "320ec23112bca2546f1ce122a15ab8bcdab560f94ce7aa465846b3c659ad79b8",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1774248915
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775012846
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567767
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606040
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -1508,60 +1508,60 @@
     }
   },
   "docs/en/docs/interface_guide/content_filter.md": {
-    "source_hash": "e4ffc1e455a6f4858a053464dedf957a0ce6847a8e017c983766ff4d55df89f3",
+    "source_hash": "afeac7d708a7ab0dc82afbffb6ce8762a56dd19e40515aaf978f63515cb42e61",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
   "docs/en/docs/interface_guide/data_statistics.md": {
-    "source_hash": "00abea027fb5f52ba46aea3bf55613457ea6fcfae4017092daafd71959e2eeb3",
+    "source_hash": "f3aa7fab80e2103e3d113e9f633866e87b1efd3a8a945ceca4525bee8f991bfe",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
@@ -1595,31 +1595,31 @@
     }
   },
   "docs/en/docs/interface_guide/display_management.md": {
-    "source_hash": "d7e2eaf35b2c2686a1eac3a6617dc0b17c0b4e29c56962dec5c6d76c8f3e5238",
+    "source_hash": "4acd7a14d8295996b781ae5fd462dea20a27ae259358eef9315752de78efbb89",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775013191
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775566378
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605953
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -1653,31 +1653,31 @@
     }
   },
   "docs/en/docs/interface_guide/dpi_engine.md": {
-    "source_hash": "6697d6bc2c730e9c4e1e3e960979fa6cc9187a8b04763f45b0cc2433269b2ab9",
+    "source_hash": "124b287b3e04fdfad57a2cfc85851f5e63d9c3bb2ea2b8057517259f0b25d7f6",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
@@ -1711,31 +1711,31 @@
     }
   },
   "docs/en/docs/interface_guide/esim_management.md": {
-    "source_hash": "31885e97de1eb7854c66c004e3ec360ebbb5fa436a5dd649188e7250ee065005",
+    "source_hash": "69ff91a648ee75e38ada49d66be1bb0f572949f75d904ede374e31aa4a10d11b",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -1943,31 +1943,31 @@
     }
   },
   "docs/en/docs/interface_guide/index.md": {
-    "source_hash": "3e39583727e732b3b454e272ac9df05e6e1c6241ae8d4e5a147e5ee5ff55cc27",
+    "source_hash": "aed502f294061c2f96e52ca6048898443af63208d37d82507bc06481a6a9267b",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
@@ -2146,31 +2146,31 @@
     }
   },
   "docs/en/docs/interface_guide/iot_network.md": {
-    "source_hash": "07c59f0262821533641a85bdf1ce4c764a81619679b2082ceefcc039d8a9272d",
+    "source_hash": "4afeae7610470331870bacb03d3204c4fb4a274be8826a51fa40adcb51f8c965",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780345093
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780345149
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780345199
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780345241
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780345312
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780345338
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -2204,31 +2204,31 @@
     }
   },
   "docs/en/docs/interface_guide/lan.md": {
-    "source_hash": "e7a8d3d137d196aa811c2774b56e060cdfbdce76461180003081210ff39bbd17",
+    "source_hash": "fe724abfa88f84db4ac646a312a4b580a4db2563e65be8b51f2b53bb12d2b997",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775026330
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775567791
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605840
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -2320,31 +2320,31 @@
     }
   },
   "docs/en/docs/interface_guide/nat_settings.md": {
-    "source_hash": "b5065d549d71cea719b9d846378c7e831cfd814398c09ec11f43f42292d9dfe1",
+    "source_hash": "2b6a06afdb8c15dd3b8ee38801749d3b5c0c5900578f7ecd5954bc9c40f36f08",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
@@ -2494,31 +2494,31 @@
     }
   },
   "docs/en/docs/interface_guide/parental_control.md": {
-    "source_hash": "15e00db81f3e10953e9dc04470e4f8441ca26718a5f4d21aa58e9006f6f8e6bf",
+    "source_hash": "661599deea5f73914a24c03c8d5d50160e0d968ed1d77a3327a8f8a08464492c",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
@@ -2552,60 +2552,60 @@
     }
   },
   "docs/en/docs/interface_guide/port_forwarding.md": {
-    "source_hash": "bc7c214fd0f2bb2366b9f0f2f7a535ec8312955ae46b2316955970a5cd5ecd0d",
+    "source_hash": "f8606269dda019309c2feffe69093bc6ef31faa8751ad0eec6925143d962e6e9",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
   "docs/en/docs/interface_guide/qos.md": {
-    "source_hash": "f43aa86894efad456f6bde40573f3fbd49ee433478d2ff21382baa9cb60b0311",
+    "source_hash": "907db78763a842876db0c5780aefb6cf2671ec5d7ef50d58b3e13b055fc72f9e",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
@@ -2668,60 +2668,60 @@
     }
   },
   "docs/en/docs/interface_guide/security.md": {
-    "source_hash": "0d22a9445a9de23f297238dfcf672ef04ed320cdab40e168dc23fcf59c7f3347",
+    "source_hash": "15e7a7ab9f94aa4691879511e7ddc34a3cccd5a02c68931c3be7032b28f06a57",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780366673
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780366787
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780366888
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780366976
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780367063
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780367155
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
   "docs/en/docs/interface_guide/sqm.md": {
-    "source_hash": "4248ae5bacccd374e59060359ae3e1a8a0592bfb90f6a6b4284ca1b0be0cd517",
+    "source_hash": "e3af29ecb4a589f145fe445f5666245a2540a9afa205ff8bc1af3a45380595a4",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
@@ -2755,31 +2755,31 @@
     }
   },
   "docs/en/docs/interface_guide/tailscale.md": {
-    "source_hash": "a71c999eda9caa8174924dbc670615c54b0fa54c12fac304126350eea94176bd",
+    "source_hash": "5b1daebbb112ff318f10cf3ee14526db6989a5182fe6091ffcffb22a0b732c5b",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
@@ -2958,31 +2958,31 @@
     }
   },
   "docs/en/docs/interface_guide/vpn_client_profile.md": {
-    "source_hash": "bccde3d82d59345a67eebfb3745d96f3d1eba1b487ec6fe1ee76c1266566a3dc",
+    "source_hash": "225fe66a9299f351a3992f5e1f06afe54e7c9b06925b2d7c92284d5007c91faf",
     "targets": {
       "de": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -3277,31 +3277,31 @@
     }
   },
   "docs/en/docs/tutorials/eap.md": {
-    "source_hash": "4ff8fc6b4e1fc0b260fe275be5267792147d60908071a041c18a124eebb1d771",
+    "source_hash": "119626d5914b70c575c3c66a2b734621ba56e69ee288b67e26e5f5f21f92d5f3",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -3335,31 +3335,31 @@
     }
   },
   "docs/en/docs/tutorials/goodcloud_site_to_site.md": {
-    "source_hash": "4f18c8252b188de677efb426271d82be6c932c7d34c178b12c8e8c0cc9b702ea",
+    "source_hash": "c812790828e2862c3a9e7577f22da0bf7bf3725badef67bf3b45dd81f1d4a173",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -3654,31 +3654,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md": {
-    "source_hash": "ed5b1e45eaa16a33ec1920437d9d1412bef2bdf4e3c98c6756f8d6eda9855fdd",
+    "source_hash": "06e2e4c3fcb053d0aa3164e37b30a3f8f2d4a126a04b8f26008bd7b057a3d5f0",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -3915,31 +3915,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md": {
-    "source_hash": "71d51fd8161d95ac2c7e119158774a42d55e03d6dbd243553d09d46ba327546f",
+    "source_hash": "a2c9f91c4d7ef591274dc4358c0009e3b0b834faed3548868355178e5a2a31cc",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776047605
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776046906
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775569647
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606387
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -4379,31 +4379,31 @@
     }
   },
   "docs/en/docs/tutorials/sms_forwarding.md": {
-    "source_hash": "0cc6cd7139d25ddb79dc3d434d90ef5038a5adf08942d4759e4dd3022271462a",
+    "source_hash": "61bd24000ebf5947ad4d7394b1112b70e3e116ad9ba3a70e49c4690008db9270",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -4437,31 +4437,31 @@
     }
   },
   "docs/en/docs/tutorials/technical_support_via_goodcloud.md": {
-    "source_hash": "e4701b0f1be2acb56cf10646ef70c2e8d7c995ea7b0e049e1cc15b19daf64de8",
+    "source_hash": "81d9f5d56a8a20fb0a905260c15cd345b6767d064625fe1441ab19d82caa4abc",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775308827
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "pre-existing",
-        "updated_at": 1775568476
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606750
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -5626,31 +5626,31 @@
     }
   },
   "docs/en/docs/user_guide/index.md": {
-    "source_hash": "661552d95201d40a9236d5ceb20f30469c3f13699d88838b54eb3facbc786cf1",
+    "source_hash": "54ef3748b7e45163e89fd4b4afcd3816984abd3279a223421f3b3d346b043c51",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "updated_at": 1786528033
       }
     }
   },
@@ -5800,31 +5800,31 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "8859c0c10f81d3d6ff0533b7bf4836da35e2003c311fe18f3c56bebf1e2d06bf",
+    "source_hash": "571dc8cac692b136f10614f702dd3b0208eeb0d287ca2d370f97c7e89d572628",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1786528033
       }
     }
   },
@@ -5945,89 +5945,89 @@
     }
   },
   "docs/en/docs/interface_guide/acl.md": {
-    "source_hash": "27a3382431d78258440c12d5e19be31dca1eb21871da919b23f0aee3b139b90f",
+    "source_hash": "c1a68550b758a81d3786df687cea25d57ebaa7a9288e74737bd6466701690992",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343222
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343267
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343320
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343360
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343415
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1780343458
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
   "docs/en/docs/interface_guide/admin_access.md": {
-    "source_hash": "8b3d98d9d24ab3babe5f6fa967ac157403482d22bdac09a229470ee405d3e34f",
+    "source_hash": "f741ccb5715c44546734e4a1aac862afbb9c2c42921ffeade01998bffad2f457",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
   "docs/en/docs/interface_guide/parental_control_v4.9.md": {
-    "source_hash": "a1215faa4a0f83f00ca256e59a28855582d5de3c84d837f42c0008d6960c92bf",
+    "source_hash": "e3bc600df7f411c046d6d23614f60d1c1138bdc379a2198a5de7fd1e205fa129",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -6148,31 +6148,31 @@
     }
   },
   "docs/en/docs/tutorials/sms.md": {
-    "source_hash": "feff8a889e20bf7804bb092162bce59b9206c16f595ca634bbeba3276abfdb9c",
+    "source_hash": "5b925b1839ff4b24ddb9b97668d9a78978fb8f64a15bef42bdce2e5d7ca5cdce",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "jp": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   },
@@ -6405,6 +6405,35 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1785992036
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/subnet.md": {
+    "source_hash": "e879978ebb67ee3b80a24664c345445f1a70dd9633180f0ac38d7072a113e276",
+    "targets": {
+      "de": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
+      },
+      "es": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
+      },
+      "fr": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
+      },
+      "it": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
+      },
+      "jp": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
+      },
+      "pl": {
+        "model": "manual-incremental-sync",
+        "updated_at": 1786528033
       }
     }
   }

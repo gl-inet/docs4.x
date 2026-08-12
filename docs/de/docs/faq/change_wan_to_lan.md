@@ -4,7 +4,33 @@ Sie können den WAN-Port Ihres Routers in einen LAN-Port umwandeln. Das ist beso
 
 Führen Sie die folgenden Schritte aus, um WAN zu LAN zu ändern.
 
-## Für Firmware 4.7 und höher
+## Für Firmware 4.10
+
+1. Lassen Sie den WAN-Port unverbunden.
+
+2. Verbinden Sie ein Gerät mit dem Router und öffnen Sie das Web-Admin-Panel des Routers.
+
+3. Navigieren Sie im Web-Admin-Panel zum Abschnitt **INTERNET** -> **Ethernet 1** und klicken Sie oben rechts auf das Zahnradsymbol.
+
+![ethernet port 1](https://static.gl-inet.com/docs/router/de/4/faq/change_wan_to_lan/ethernet_port_1.png){class="glboxshadow"}
+
+4. Sie werden zur Seite **Ethernet Port** weitergeleitet. Klicken Sie auf das Zahnradsymbol unter dem WAN-Port.
+
+![ethernet port 2](https://static.gl-inet.com/docs/router/de/4/faq/change_wan_to_lan/ethernet_port_2.png){class="glboxshadow"}
+
+5. Klicken Sie auf **LAN**, um die Eigenschaften des Ethernet-Ports zu ändern, und klicken Sie anschließend auf **Apply**.
+
+![ethernet port 3](https://static.gl-inet.com/docs/router/de/4/faq/change_wan_to_lan/ethernet_port_3.png){class="glboxshadow"}
+
+6. Zurück auf der Seite Ethernet Port oder im Abschnitt Ethernet wird angezeigt, dass der WAN-Port jetzt als LAN-Port verwendet wird.
+
+![ethernet port 4](https://static.gl-inet.com/docs/router/de/4/faq/change_wan_to_lan/ethernet_port_4.png){class="glboxshadow"}
+
+![ethernet port 5](https://static.gl-inet.com/docs/router/de/4/faq/change_wan_to_lan/ethernet_port_5.png){class="glboxshadow"}
+
+Sie können ihn auf der Seite Ethernet Port wieder auf WAN zurückstellen oder die RESET-Taste 4 Sekunden lang drücken, um die WAN-Schnittstelle neu zu starten.
+
+## Für Firmware 4.7-4.9
 
 1. Lassen Sie den WAN-Port unverbunden.
 
@@ -59,4 +85,3 @@ Sie können die Einstellung einfach rückgängig machen, indem Sie die obigen Sc
 ---
 
 Haben Sie noch Fragen? Besuchen Sie unser [Community Forum](https://forum.gl-inet.com){target="_blank"} oder [kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"}.
-

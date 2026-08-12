@@ -9,6 +9,8 @@ EAP は、**802.1X authentication** を使用する **WPA2‑Enterprise / WPA3�
 ## 対応モデル
 
 ??? "対応モデル"
+    - GL-MG1300 (Mango 2)
+    - <u>GL-BE14000 (Flint 4)</u><sup>1</sup>
     - <u>GL-BE10000 (Slate 7 Pro)</u><sup>1</sup>
     - <u>GL-MT3600BE (Beryl 7)</u><sup>1</sup>
     - GL-E5800 (Mudi 7)

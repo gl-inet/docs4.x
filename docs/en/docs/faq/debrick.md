@@ -37,6 +37,10 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
     !!! note "LED Flashing Patterns by Device Model"
 
         **Note:** Identical router models from different production batches may have different LED colors or flashing sequences. This does not affect the U-Boot recovery process. Please focus on the change of the LED flashing state.
+
+        - For **GL-MG1300 (Mango 2)**: The blue LED flashes rapidly for 3 times, pauses briefly, then flashes slowly for 5 times, and finally stays on.
+
+        - For **GL-BE14000 (Flint 4)，GL-BE10000 (Slate 7 Pro)， and GL-BE3600 (Slate 7)**: After holding down the Reset button for about 5 seconds, a 5-second countdown will appear on the touchscreen. Keep pressing the Reset button until the next prompt appears on the screen, e.g., manually set the IP address of your computer to 192.168.1.2, and use browser to visit http://192.168.1.1. Turn to Step 4 for further instruction.
         
         - For **GL-MT3600BE (Beryl 7)**: The blue LED flashes 7 times, then turns solid white.
         
@@ -45,8 +49,6 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
         - For **GL-BE6500 (Flint 3e)**: The blue LED flashes 6 times, then turns solid white.
         
         - For **GL-BE9300 (Flint 3)**: The blue LED flashes 6 times, then turns solid white.
-        
-        - For **GL-BE3600 (Slate 7)**: After holding down the Reset button for about 5 seconds, a 5-second countdown will appear on the touchscreen. Keep pressing the Reset button until the next prompt appears on the screen, e.g., manually set the IP address of your computer to 192.168.1.2, and use browser to visit http://192.168.1.1. Turn to Step 4 for further instruction.
 
         - For **GL-X2000 (Spitz Plus)**: The Internet LED flashes 5 times, then the Wi-Fi LED stays on.
 

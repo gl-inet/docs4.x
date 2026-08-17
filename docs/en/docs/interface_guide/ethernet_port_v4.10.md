@@ -4,7 +4,7 @@
 
 <div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.10" markdown="1">
 
-- [Firmware v4.9 and earlier](wireless.md)
+- [Firmware v4.9 and earlier](ethernet_port.md)
 
 </div>
 

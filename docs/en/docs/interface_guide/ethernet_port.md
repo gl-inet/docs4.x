@@ -1,10 +1,16 @@
 # Ethernet Port
 
-**Note**: This page has been available as **Port Management** since firmware v4.7, and was renamed to **Ethernet Port** in firmware v4.8.3.
+The content on this page is based on firmware version v4.7-4.9. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.9 and earlier" markdown="1">
+
+- [Firmware v4.10](ethernet_port_v4.10.md)
+
+</div>
 
 ---
 
-On the left side of the web Admin Panel, go to **NETWORK** -> **Port Management** or **Ethernet Port**.
+On the left side of the web Admin Panel, go to **NETWORK** -> **Ethernet Port** or **Port Management**.
 
 It allows you to manage Ethernet port roles (WAN/LAN) and view port details such as MAC address and negotiated speed.
 
@@ -18,7 +24,7 @@ This section displays the port role (WAN or LAN), MAC address, and negotiated ra
 
 - **MAC Mode**: Defaults to Factory Mode. You can switch it to Clone Mode or Random Mode.
 
-- **Mac Address**: The MAC address of the WAN interface.
+- **MAC Address**: The MAC address of the WAN interface.
 
 - **Negotiated Network Port Rate**: The negotiated link speed of the WAN interface, displayed only when a valid link is detected.
 

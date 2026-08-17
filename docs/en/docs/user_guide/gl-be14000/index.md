@@ -143,6 +143,8 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Ethernet Port page allows you to manage Ethernet port role (WAN/LAN) and VLAN segmentation, as well as viewing port details such as MAC address and negotiated speed.
 
+    Please refer to [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md) for details.
+
 ---
 
 === "DNS"

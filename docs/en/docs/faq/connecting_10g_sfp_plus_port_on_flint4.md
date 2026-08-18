@@ -17,7 +17,7 @@ This solution applies to long-distance, high-stability 10G Ethernet networking s
 
 Flint 4 10G SFP+ port → Standard 10G SFP+ optical transceiver (SR/MR/LR) → Optical fiber cable → Remote 10G network switch / ISP fiber‑Ethernet terminal
 
-![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology111.png){class="glboxshadow"}
+![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology1.png){class="glboxshadow"}
 
 ### 1.3 Pros & Cons
 
@@ -80,7 +80,7 @@ The SFP‑10G‑T module converts the SFP+ optical slot into a standard RJ45 twi
 
 Flint 4 10G SFP+ port → SFP+ to RJ45 Module (SFP‑10G‑T) → CAT6A/CAT7 twisted-pair cable → 10G switch / 10G wired terminal device
 
-![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology222.png){class="glboxshadow"}
+![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology2.png){class="glboxshadow"}
 
 ### 2.3 Pros & Cons
 
@@ -129,7 +129,7 @@ The PON‑ONU SFP+ stick integrates complete ONU optical modem functions, enabli
 
 Flint 4 10G SFP+ port → PON‑ONU SFP+ stick → ISP GPON/XGS-PON fiber line (including drop cable, PON splitter, and ISP OLT)
 
-![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology333.png){class="glboxshadow"}
+![](https://static.gl-inet.com/docs/router/en/4/faq/connecting_10g_sfp+_port_on_flint4/topology3.png){class="glboxshadow"}
 
 ### 3.3 Pros & Cons
 

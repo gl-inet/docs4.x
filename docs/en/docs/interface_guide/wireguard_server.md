@@ -48,11 +48,11 @@ Log in to the web Admin Panel, and navigate to **VPN** -> **WireGuard Server**.
 
     (The IPv6 on GL.iNet is disabled by default. If you want to use IPv6 address, please enable IPv6 on your router.)
     
-    If you notice that the IPv4 address conflicts with your upstream router's gateway, modify the address to another one such as **10.1.0.1/24** and click **Apply**. Ensure the "/24" CIDR notation is included to avoid connectivity issues.
+    The IPv4 address is the WireGuard server's Tunnel IP. If it conflicts with your upstream router's gateway, modify the address to another one, such as **10.1.0.1/24**, then click **Apply**. Ensure the "/24" CIDR notation is included to avoid connectivity issues.
 
     ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_configuration.png){class="glboxshadow"}
 
-    For example, if there's an Xfinity router in the upstream of a GL.iNet router, the Xfinity router's IP might be 10.0.0.1, which will conflict with the WireGuard Server's Tunnel IP when the GL.iNet router is set up as a WireGuard server, so you need to make the above changes.
+    For example, if an Xfinity router is in the upstream of a GL.iNet router, the Xfinity router's IP might be 10.0.0.1, which may conflict with the WireGuard Server's Tunnel IP when the GL.iNet router is set as a WireGuard server, thus you may need to make the above changes. Skip this if there's no conflict.
     
     ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
@@ -140,6 +140,32 @@ If the connection fails, there are several common reasons:
 * You may need to set up port forwarding. Please check [here](#confirm-if-port-forwarding-is-required).
 * The port used for the WireGuard Server is blocked by your Internet Service Provider. Change to another port, or contact the Internet Service Provider for further assistance.
 * Some countries/regions may block the VPN connection.
+
+## Server Options
+
+Server Options include some advanced settings on the server side, such as remote access server's LAN, IP Masquerading, etc. Configure these settings according to your needs.
+
+For firmware v4.8 and higher, go to **WireGuard Server** and click **Options** in the upper-right corner.
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options1.png){class="glboxshadow"}
+
+For firmware v4.7 and earlier, go to **VPN Dashboard** -> **VPN Server** and click the gear icon to access the WireGuard Options.
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options2.png){class="glboxshadow"}
+
+In the pop-up window, you will see the following features.
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options3.png){class="glboxshadow"}
+
+- **Allow Remote Access to the LAN Subnet**: If enabled, resources inside the server's LAN subnet can be accessed through the VPN tunnel.
+
+- **IP Masquerading**: If enabled, the source IP addresses of LAN clients will be rewritten to the router's VPN tunnel IP. Disable this only for Site-to-Site setups where the remote peer knows your LAN subnets.
+
+- **MTU**: Short for Maximum Transmission Unit. The MTU value you set for the tunnel will override the MTU settings in the configuration file.
+
+- **Client to Client**: If enabled, VPN clients connected to this server can access each other via their respective VPN tunnel IPs. 
+
+    Note that Client‑to‑Client only advertises each client's tunnel IP address. It does not automatically expose the local LAN subnets behind each VPN client. If you need to grant clients access to each other's LAN subnets, please add routing rules on the VPN server to advertise those remote LAN subnets.
 
 ## WireGuard App Install
 

@@ -131,7 +131,7 @@ For firmware v4.7 and earlier, go to **VPN Dashboard** -> **VPN Server** and cli
 
 ![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options2.jpg){class="glboxshadow"}
 
-In the pop-up window, you will see some features as follows.
+In the pop-up window, you will see the following features.
 
 ![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options3.png){class="glboxshadow"}
 

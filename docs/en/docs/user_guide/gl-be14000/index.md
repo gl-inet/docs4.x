@@ -38,6 +38,8 @@ Configure your Flint 4 using one of the supported internet connection methods: E
     
     Flint 4 comes with a 10G SFP+ WAN/LAN port, designed for fiber uplinks, high‑speed switch backhaul, and high‑performance network expansion. This port is set to WAN by default and can be switched to LAN if needed.
 
+    Below is an example of connecting the Flint 4's 10G SFP+ port to ISP fiber uplink via an optical transceiver and fiber cable for internet access. Please refer to [Connecting the 10G SFP+ port on Flint 4](../../faq/connecting_10g_sfp_plus_port_on_flint4.md) for more solutions.
+
     1. Insert a compatible 10G SFP+ transceiver into Flint 4's SFP+ port, then connect it to your ISP fiber uplink.  
     2. Flint 4 will attempt to obtain network parameters (IP address, gateway, DNS) automatically via DHCP. If your ISP requires PPPoE or static IP addressing, adjust the WAN connection settings in the web Admin Panel accordingly.
     3. Once successfully connected to the internet, the Ethernet section on the touchscreen homepage will turn blue (active). You can either tap Ethernet on the touchscreen or log in to the web admin panel to check connection details.

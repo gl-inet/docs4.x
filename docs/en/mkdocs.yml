@@ -300,6 +300,8 @@ nav:
       - Cellular: interface_guide/internet_cellular.md
     - Wireless:
       - Wireless: interface_guide/wireless.md
+    - Mesh:
+      - Mesh: interface_guide/mesh.md
     - Clients:
       - Clients: interface_guide/clients.md
     - Cloud Services:

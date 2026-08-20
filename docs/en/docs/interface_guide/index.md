@@ -20,6 +20,10 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 * [Wireless](wireless.md)
 
+## Mesh
+
+* [Mesh](mesh.md)
+
 ## Clients
 
 * [Clients](clients.md)

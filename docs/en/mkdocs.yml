@@ -305,6 +305,7 @@ nav:
     - Clients:
       - Clients: interface_guide/clients.md
     - Cloud Services:
+      - GL.iNet Account: interface_guide/glinet_account.md
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:

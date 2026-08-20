@@ -18,7 +18,7 @@ The following example uses Flint 3 (GL‑BE9300) and Slate 7 (GL‑BE3600) to bu
 
 1. Power on your Mesh node and place it near the main router. 
 
-    During first‑time setup, keep the Mesh node next to the main router for quick scanning. After setup completes, you may relocate it midway between the main router and the Wi‑Fi dead zone to extend Wi‑Fi coverage.
+    During first-time setup, keep the Mesh node next to the main router for quick scanning. After setup completes, you may relocate it midway between the main router and the Wi-Fi dead zone to extend Wi-Fi coverage.
 
 2. Log in to the Mesh node's web Admin Panel and go to **MESH**. Click **Mesh Node**.
 

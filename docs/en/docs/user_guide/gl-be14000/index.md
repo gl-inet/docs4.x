@@ -6,7 +6,24 @@ Flint 4 (GL‑BE14000) redefines what a home router can be. It features tri‑ba
 
 ![be14000 interfaces](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/hardware/be14000_interfaces.png){class="glboxshadow"}
 
+## Package contents
+
+- 1 x Flint 4 (GL-BE14000)
+- 1 x Power adapter
+- 1 x Ethernet cable
+- 1 x User Manual
+- 1 x Thank you card
+- 1 x Converter (Based on your shipping country)
+
+Check out Flint 4's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x48iKZaLaN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## How to set up Flint 4
+
+Watch this setup video or follow the steps below. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N3zw02XGFSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Power on
 

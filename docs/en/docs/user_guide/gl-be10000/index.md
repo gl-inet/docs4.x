@@ -18,6 +18,10 @@ The package includes:
 - 1 x Power Adapter
 - 4 x Converters (US, EU, UK, and AU Plugs)
 
+Check out Slate 7 Pro's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Touchscreen
 
 | Screen Display                    | Description         |

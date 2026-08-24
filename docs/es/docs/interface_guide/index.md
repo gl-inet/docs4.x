@@ -21,12 +21,17 @@ Aprenda a usar nuestros dispositivos y funciones adicionales con nuestras guías
 
 * [Wireless](wireless.md)
 
+## Mesh
+
+* [Mesh](mesh.md)
+
 ## Clients
 
 * [Clients](clients.md)
 
 ## Cloud Services
 
+* [Cuenta de GL.iNet](glinet_account.md)
 * [GoodCloud](cloud.md) - el servicio oficial en la nube.
 * [AstroWarp](astrowarp.md) - una plataforma avanzada de red diseñada para ofrecer redes remotas sin interrupciones y gestión remota de dispositivos.
 

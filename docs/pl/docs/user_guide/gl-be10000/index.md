@@ -18,6 +18,10 @@ W opakowaniu znajdują się:
 - 1 x zasilacz
 - 4 x przejściówki (wtyki US, EU, UK i AU)
 
+Poniżej możesz obejrzeć film z rozpakowania Slate 7 Pro.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Ekran dotykowy
 
 | Ekran | Opis |
@@ -29,8 +33,6 @@ W opakowaniu znajdują się:
 | ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Stan sieci<br></br>**Niebieski**: aktywne / połączono z internetem<br>**Żółty**: łączenie / błąd sieci<br>**Biały**: połączenie nieaktywne |
 
 ## Jak skonfigurować Slate 7 Pro
-
-Aby skonfigurować Slate 7 Pro, użyj jednej z czterech obsługiwanych metod połączenia z internetem: Ethernet, Repeater, Tethering albo Cellular. Wykonaj poniższe kroki.
 
 ### 1. Włącz zasilanie
 
@@ -61,7 +63,7 @@ Skonfiguruj Slate 7 Pro, używając jednej z obsługiwanych metod połączenia z
 
     1. Podłącz port WAN urządzenia Slate 7 Pro do urządzenia nadrzędnego (np. modemu operatora, przełącznika sieciowego albo gniazda Ethernet w ścianie) za pomocą kabla Ethernet.
     2. Slate 7 Pro automatycznie spróbuje pobrać parametry sieciowe, takie jak adres IP, brama i serwer DNS, aby nawiązać połączenie Ethernet.
-    3. Po pomyślnym połączeniu z internetem sekcja Ethernet na ekranie głównym stanie się niebieska (aktywna). Możesz dotknąć pozycji Ethernet na ekranie głównym albo zalogować się do web Admin Panel, aby sprawdzić szczegóły połączenia.
+    3. Po pomyślnym połączeniu z internetem sekcja Ethernet na ekranie głównym stanie się niebieska (aktywna). Możesz dotknąć pozycji Ethernet na ekranie dotykowym albo zalogować się do web Admin Panel, aby sprawdzić szczegóły połączenia.
 
 === "Repeater"
 
@@ -70,7 +72,7 @@ Skonfiguruj Slate 7 Pro, używając jednej z obsługiwanych metod połączenia z
     1. Dotknij **Repeater** na ekranie dotykowym. Router rozpocznie skanowanie dostępnych sieci Wi‑Fi.
     2. Wybierz sieć Wi‑Fi, której zasięg ma rozszerzać Slate 7 Pro.
     3. Wpisz hasło i dotknij **Apply**.
-    4. Po pomyślnym połączeniu z internetem sekcja Repeater na ekranie głównym stanie się niebieska (aktywna). Możesz dotknąć pozycji Repeater na ekranie głównym albo zalogować się do web Admin Panel, aby sprawdzić szczegóły połączenia.
+    4. Po pomyślnym połączeniu z internetem sekcja Repeater na ekranie głównym stanie się niebieska (aktywna). Możesz dotknąć pozycji Repeater na ekranie dotykowym albo zalogować się do web Admin Panel, aby sprawdzić szczegóły połączenia.
 
 === "Tethering"
 
@@ -78,8 +80,8 @@ Skonfiguruj Slate 7 Pro, używając jednej z obsługiwanych metod połączenia z
 
     1. Podłącz urządzenie mobilne (np. smartfon albo modem USB) do portu USB routera za pomocą kabla USB.
     2. Na urządzeniu mobilnym przejdź do Ustawień i włącz **USB Tethering** albo **Personal Hotspot**. W przypadku iPhone'a stuknij **Trust This Device**, jeśli pojawi się taki komunikat.
-    3. Na ekranie dotykowym wybierz **Tethering** i dotknij **Connect**. Router połączy się z Twoim urządzeniem.
-    4. Po pomyślnym połączeniu z internetem sekcja Tethering na ekranie głównym stanie się niebieska (aktywna). Możesz dotknąć pozycji Tethering na ekranie głównym albo zalogować się do web Admin Panel, aby sprawdzić szczegóły połączenia.
+    3. Na ekranie dotykowym Slate 7 Pro wybierz **Tethering** i dotknij **Connect**. Router połączy się z Twoim urządzeniem.
+    4. Po pomyślnym połączeniu z internetem sekcja Tethering na ekranie głównym stanie się niebieska (aktywna). Możesz dotknąć pozycji Tethering na ekranie dotykowym albo zalogować się do web Admin Panel, aby sprawdzić szczegóły połączenia.
 
     **Uwaga**: Jeśli połączenie się nie powiedzie, upewnij się, że napięcie zasilania wynosi co najmniej 9V 3A, ponieważ zbyt niskie zasilanie może uniemożliwić uruchomienie portu USB. Powtórz powyższe kroki albo zaloguj się do web Admin Panel, aby sprawdzić stan połączenia Tethering.
 
@@ -88,7 +90,7 @@ Skonfiguruj Slate 7 Pro, używając jednej z obsługiwanych metod połączenia z
     ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_cellular.jpg){class="glboxshadow"}
 
     1. Podłącz modem USB sieci komórkowej do portu USB Slate 7 Pro. To przydatne rozwiązanie, jeśli chcesz udostępnić internet z modemu USB wszystkim podłączonym urządzeniom.
-    2. Po pomyślnym połączeniu z internetem sekcja Cellular na ekranie głównym stanie się niebieska (aktywna). Możesz dotknąć pozycji Cellular na ekranie głównym albo zalogować się do web Admin Panel, aby sprawdzić szczegóły połączenia.
+    2. Po pomyślnym połączeniu z internetem sekcja Cellular na ekranie głównym stanie się niebieska (aktywna). Możesz dotknąć pozycji Cellular na ekranie dotykowym albo zalogować się do web Admin Panel, aby sprawdzić szczegóły połączenia.
 
 ---
 
@@ -152,7 +154,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     LAN, czyli Local Area Network, to sieć łącząca komputery i urządzenia na ograniczonym obszarze geograficznym, takim jak dom lub biuro. Umożliwia szybki transfer danych i współdzielenie zasobów, dzięki czemu urządzenia mogą sprawnie komunikować się ze sobą.
 
-    Aby skonfigurować LAN, zapoznaj się z [Lan](../../interface_guide/lan.md).
+    Aby skonfigurować LAN, zapoznaj się z [LAN](../../interface_guide/lan.md).
 
 === "Guest Network"
 
@@ -170,7 +172,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
 === "Ethernet Port"
 
-    Strona Ethernet Port umożliwia konfigurację portów WAN i LAN, ustawienie interfejsu WAN/LAN na Ethernet, określenie trybu MAC i adresu MAC dla interfejsu WAN oraz wyświetlenie wynegocjowanej prędkości portu sieciowego.
+    Strona Ethernet Port umożliwia zarządzanie rolą portu Ethernet (WAN/LAN), określenie trybu MAC i adresu MAC interfejsu WAN oraz sprawdzenie wynegocjowanej prędkości portu sieciowego.
 
     Aby zarządzać portami Ethernet, zapoznaj się z [Ethernet Port](../../interface_guide/ethernet_port.md).
 
@@ -190,13 +192,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
 === "Network Mode"
 
-    Tryb sieciowy odnosi się do ustawień konfiguracji określających sposób, w jaki urządzenie łączy się z siecią i komunikuje się z innymi urządzeniami.
+    Tryb sieciowy określa role i funkcje operacyjne, które router może pełnić w zależności od potrzeb danego wdrożenia sieciowego. Typowe tryby obejmują tryb routera, wzmacniacza sygnału i punktu dostępowego.
 
     Aby skonfigurować tryb sieciowy, zapoznaj się z [Network Mode](../../interface_guide/network_mode.md).
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway rozszerza funkcjonalność głównego routera, oferując m.in. AdGuard Home, szyfrowany DNS i klienta VPN.
+    Drop-in Gateway to elastyczna funkcja, która pozwala rozszerzyć możliwości istniejącego routera głównego bez jego wymiany ani ponownej konfiguracji. Ustawiając router GL.iNet jako Drop-in Gateway, możesz dodać do istniejącej infrastruktury sieciowej zaawansowane funkcje, takie jak AdGuard Home, VPN i szyfrowany DNS.
 
     Aby skonfigurować Drop-in Gateway, skorzystaj z poniższych linków:
 
@@ -217,19 +219,19 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Zintegrowana z [Netify](https://www.netify.ai/){target="_blank"}, funkcja DPI GL.iNet wykorzystuje lekką wbudowaną wtyczkę, co pozwala na efektywne wdrożenie. Dzięki internetowo aktualizowanej bazie sygnatur Netify zapewnia niezawodne zarządzanie, sprawiając, że kontrola sieci jest dokładniejsza i bardziej efektywna.
 
-    Szczegółowe instrukcje znajdziesz w [DPI Engine](../../interface_guide/dpi_engine.md).
+    Szczegółowe informacje znajdziesz w [DPI Engine](../../interface_guide/dpi_engine.md).
 
 === "Data Statistics"
 
     Data Statistics oferuje inteligentny pulpit analityczny ruchu, który kategoryzuje i wizualizuje wykorzystanie sieci według aplikacji, pomagając monitorować ruch w czasie rzeczywistym i historyczny, aby lepiej rozumieć oraz kontrolować działanie sieci.
 
-    Szczegółowe instrukcje znajdziesz w [Data Statistics](../../interface_guide/data_statistics.md).
+    Szczegółowe informacje znajdziesz w [Data Statistics](../../interface_guide/data_statistics.md).
 
 === "Content Filter"
 
     Content Filter zapewnia inteligentną ochronę online dzięki klasyfikacji opartej na DPI, automatycznie blokując szkodliwe lub złośliwe strony internetowe, aby utrzymać sieć w czystości i bezpieczeństwie.
 
-    Szczegółowe instrukcje znajdziesz w [Content Filter](../../interface_guide/content_filter.md).
+    Szczegółowe informacje znajdziesz w [Content Filter](../../interface_guide/content_filter.md).
 
 ---
 
@@ -237,19 +239,19 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Parental Control pomaga zarządzać urządzeniami dzieci i kontrolować ich działanie. Obejmuje ograniczanie czasu spędzanego przed ekranem oraz blokowanie dostępu do określonych treści.
 
-    Aby skonfigurować kontrolę rodzicielską, zapoznaj się z [Parental Control](../../interface_guide/parental_control.md).
+    Szczegółowe informacje znajdziesz w [Parental Control](../../interface_guide/parental_control.md).
 
 === "QoS"
 
     QoS (Quality of Service) optymalizuje przydział przepustowości, nadając priorytet krytycznym aktywnościom (np. połączeniom wideo, grom) podczas przeciążenia sieci, zmniejszając opóźnienia i poprawiając ogólną wydajność sieci. Pamiętaj, że dotyczy to lokalnego ruchu urządzeń klienckich oraz ruchu tunelu klienta VPN, ale nie ruchu odbieranego, gdy router działa jako serwer VPN.
 
-    Szczegółowe instrukcje znajdziesz w [QoS](../../interface_guide/qos.md).
+    Szczegółowe informacje znajdziesz w [QoS](../../interface_guide/qos.md).
 
 === "SQM"
 
     SQM (Smart Queue Management) inteligentnie zarządza ruchem sieciowym routera, aby zminimalizować opóźnienia i „bufferbloat”, zapewniając płynniejsze granie i połączenia głosowe.
 
-    Szczegółowe instrukcje znajdziesz w [SQM](../../interface_guide/sqm.md).
+    Szczegółowe informacje znajdziesz w [SQM](../../interface_guide/sqm.md).
 
 ## Security
 
@@ -257,25 +259,23 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Port forwarding umożliwia zdalnym serwerom i urządzeniom w internecie dostęp do urządzeń w sieci prywatnej.
 
-    Aby skonfigurować port forwarding, zapoznaj się z [Port Forwarding](../../interface_guide/port_forwarding.md).
+    Szczegółowe informacje znajdziesz w [Port Forwarding](../../interface_guide/port_forwarding.md).
 
-=== "Management Control"
+=== "Admin Access"
 
-    Management Control umożliwia konfigurację różnych ustawień bezpieczeństwa w celu ochrony sieci i routera przed nieautoryzowanym dostępem. Ta strona obejmuje następujące opcje:
+    Admin Access umożliwia konfigurację różnych ustawień bezpieczeństwa w celu ochrony sieci i routera przed nieautoryzowanym dostępem. Ta strona obejmuje następujące opcje:
 
     * Local Access Control: Zarządzanie dostępem do interfejsu routera z urządzeń podłączonych do sieci lokalnej oraz jego ograniczanie.
     * Remote Access Control: Konfigurowanie i ograniczanie dostępu do interfejsu routera ze zdalnych lokalizacji przez internet, co zwiększa ochronę przed zagrożeniami zewnętrznymi.
     * Open Ports on Router: Kontrola tego, które porty są otwarte na routerze, co ogranicza potencjalne podatności i nieautoryzowany dostęp.
 
-    Ustawienia te pomagają utrzymać bezpieczne środowisko sieciowe, chroniąc zarówno router, jak i podłączone urządzenia.
-
-    Szczegółowe instrukcje znajdziesz w [Security](../../interface_guide/security.md).
+    Szczegółowe informacje znajdziesz w [Admin Access](../../interface_guide/admin_access.md).
 
 === "NAT Mode"
 
     Strona NAT Mode umożliwia włączanie lub wyłączanie funkcji Full Cone NAT i SIP ALG (Application Layer Gateway).
 
-    Aby skonfigurować ustawienia NAT, zapoznaj się z [NAT Mode](../../interface_guide/nat_settings.md).
+    Szczegółowe informacje znajdziesz w [NAT Mode](../../interface_guide/nat_settings.md).
 
 ## Applications
 
@@ -321,7 +321,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Tor, skrót od The Onion Router, to sieć ukierunkowana na prywatność, umożliwiająca anonimową komunikację przez internet. Przekierowuje ruch internetowy przez serię serwerów (węzłów) obsługiwanych przez wolontariuszy, aby ukryć lokalizację i sposób korzystania użytkownika, co utrudnia śledzenie aktywności online.
 
-    * [Jak skonfigurować Tor](../../interface_guide/tor.md)
+    Aby skonfigurować Tor, zapoznaj się z [Tor](../../interface_guide/tor.md).
 
 ## System
 
@@ -331,39 +331,28 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     * CPU Average Load: Monitorowanie średniego obciążenia CPU routera, co pomaga ocenić wydajność i wykryć potencjalne wąskie gardła.
     * Memory Usage: Sprawdzenie, jaka część pamięci routera jest wykorzystywana, co ułatwia zarządzanie zasobami.
-    * LED Control: Włączanie i wyłączanie diod LED routera, co pozwala dostosować wizualne wskaźniki urządzenia.
     * Flash Usage: Wyświetlanie wykorzystania pamięci flash routera, aby upewnić się, że jest wystarczająco dużo miejsca na firmware i dane konfiguracyjne.
     * Device Info: Dostęp do szczegółowych informacji o systemie routera, w tym czasu działania, nazwy hosta, modelu, architektury, wersji OpenWrt, wersji jądra, identyfikatora urządzenia, adresu MAC urządzenia i numeru seryjnego.
     * External Storage: Sprawdzenie stanu zewnętrznych urządzeń pamięci podłączonych do routera, takich jak dyski USB.
 
     Funkcje te zapewniają najważniejsze informacje i elementy sterowania, pomagając skutecznie zarządzać pracą routera i ją monitorować.
 
-    Szczegółowe instrukcje znajdziesz w [Overview](../../interface_guide/system_overview.md).
+    Szczegółowe informacje znajdziesz w [Overview](../../interface_guide/system_overview.md).
 
 === "Admin Password"
 
-    Strona Admin Password umożliwia ustawienie lub zmianę hasła interfejsu administracyjnego routera, aby tylko uprawnieni użytkownicy mogli modyfikować ustawienia.
+    Strona Admin Password umożliwia zarządzanie hasłem interfejsu administracyjnego routera, aby tylko uprawnieni użytkownicy mogli modyfikować ustawienia.
 
-    Ze względów bezpieczeństwa zalecamy włączenie opcji **Prevent Weak Password**.
-
-    Gdy opcja **Prevent Weak Password** jest włączona, nowe hasła muszą spełniać następujące wymagania.
-
-    * Co najmniej 5 znaków i maksymalnie 63 znaki.
-    * Dozwolone są litery (z rozróżnieniem wielkości), cyfry i symbole `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``.
-    * Wymagane są co najmniej dwie z następujących kategorii: wielkie litery, małe litery, cyfry i symbole.
-
-    Szczegółowe instrukcje znajdziesz w [Admin Password](../../interface_guide/admin_password.md).
+    Szczegółowe informacje znajdziesz w [Admin Password](../../interface_guide/admin_password.md).
 
 === "Upgrade"
 
     Strona Upgrade służy do aktualizacji firmware routera do najnowszej wersji, aby zapewnić lepszą wydajność, bezpieczeństwo i nowe funkcje. Ta strona oferuje dwie opcje aktualizacji:
 
-    * Firmware Online Upgrade: Automatyczne sprawdzanie i instalowanie najnowszej wersji firmware bezpośrednio z serwera producenta, co upraszcza proces aktualizacji.
+    * Firmware Online Upgrade: Automatyczne sprawdzanie dostępności najnowszej wersji firmware na serwerze producenta. Jeśli jest dostępna online, możesz ją zainstalować.
     * Firmware Local Upgrade: Ręczne przesłanie pliku firmware z komputera w celu aktualizacji routera, co daje większą kontrolę nad wersją i czasem aktualizacji.
 
-    Dzięki tym opcjom możesz utrzymywać router na bieżąco z najnowszymi ulepszeniami i poprawkami.
-
-    Szczegółowe instrukcje znajdziesz w [Upgrade](../../interface_guide/upgrade.md).
+    Szczegółowe informacje znajdziesz w [Upgrade](../../interface_guide/upgrade.md).
 
 ---
 
@@ -373,11 +362,11 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     * LCD Display Schedule: Ustawienie harmonogramu automatycznego włączania lub wyłączania ekranu LCD routera, co ogranicza emisję światła w określonych porach.
     * Schedule Reboot: Skonfigurowanie automatycznego restartu routera w określonych odstępach czasu, co pomaga utrzymać optymalną wydajność i stabilność.
-    * Wi‑Fi Status Schedule: Ustawienie harmonogramu sterowania pasmami Wi‑Fi 6GHz / 5GHz / 2.4GHz / MLO, co pozwala lepiej zarządzać dostępnością sieci i zużyciem energii.
+    * Wi‑Fi Status Schedule: Ustawienie harmonogramu sterowania pasmami Wi‑Fi 6GHz / 5GHz / 2.4GHz / MLO, co umożliwia zarządzanie dostępnością sieci i ograniczenie zużycia energii.
 
     Te opcje harmonogramu zapewniają większą kontrolę nad działaniem routera i pozwalają dopasować je do konkretnych potrzeb i preferencji.
 
-    Szczegółowe instrukcje znajdziesz w [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+    Szczegółowe informacje znajdziesz w [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 === "Display Management"
 
@@ -389,13 +378,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
     ‒ Screen Always On: Włączenie lub wyłączenie opcji, czy ekran dotykowy ma pozostawać stale włączony, czy wyłączać się po okresie bezczynności.
     ‒ Enable Screen Passcode: Ustawienie kodu blokady ekranu dotykowego jako dodatkowej warstwy zabezpieczeń.
 
-    Szczegółowe instrukcje znajdziesz w [Display Management](../../interface_guide/display_management.md).
+    Szczegółowe informacje znajdziesz w [Display Management](../../interface_guide/display_management.md).
 
 === "Time Zone"
 
     Strona Time Zone umożliwia ustawienie prawidłowej strefy czasowej routera, dzięki czemu wszystkie zaplanowane zadania, logi i zdarzenia systemowe są oznaczane zgodnie z czasem lokalnym. To ustawienie ma kluczowe znaczenie dla zachowania dokładnych zapisów i prawidłowego działania konfiguracji zależnych od czasu.
 
-    Szczegółowe instrukcje znajdziesz w [Time Zone](../../interface_guide/time_zone.md).
+    Szczegółowe informacje znajdziesz w [Time Zone](../../interface_guide/time_zone.md).
 
 ---
 
@@ -403,13 +392,13 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Strona Toggle Button Settings umożliwia skonfigurowanie fizycznego przycisku przełączania w routerze, dzięki czemu możesz przypisać mu konkretne funkcje i korzystać z nich szybko oraz wygodnie. To rozwiązanie zapewnia praktyczne skróty do typowych zadań i ustawień, poprawiając komfort użytkowania i upraszczając zarządzanie routerem.
 
-    Szczegółowe instrukcje znajdziesz w [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
+    Szczegółowe informacje znajdziesz w [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
 
 === "Reset Firmware"
 
     Strona Reset Firmware umożliwia przywrócenie bieżącej wersji firmware routera do ustawień domyślnych, usuwając wszystkie niestandardowe konfiguracje. Proces ten przywraca domyślne ustawienia aktualnie zainstalowanej wersji firmware. Może to być przydatne przy rozwiązywaniu uporczywych problemów albo gdy chcesz rozpocząć od nowa z domyślną konfiguracją bieżącego firmware.
 
-    Szczegółowe instrukcje znajdziesz w [Reset Firmware](../../interface_guide/reset_firmware.md).
+    Szczegółowe informacje znajdziesz w [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Log"
 
@@ -423,10 +412,10 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między urząd
 
     Dodatkowo strona oferuje przycisk Export Log, który pozwala wyeksportować wszystkie zebrane logi do analizy przez pomoc techniczną. Ta funkcja jest bardzo przydatna przy diagnozowaniu złożonych problemów i uzyskiwaniu profesjonalnego wsparcia.
 
-    Szczegółowe instrukcje znajdziesz w [Log](../../interface_guide/log.md).
+    Szczegółowe informacje znajdziesz w [Log](../../interface_guide/log.md).
 
 === "Advanced Settings"
 
     Strona Advanced Settings zapewnia dostęp do zaawansowanych opcji konfiguracji przez interfejs OpenWrt LuCI, umożliwiając doświadczonym użytkownikom szczegółowe dostrojenie ustawień i funkcji routera poza podstawowymi opcjami interfejsu. Obejmuje to szczegółową konfigurację sieci, ustawienia zapory i inne zaawansowane dostosowania systemu.
 
-    Szczegółowe instrukcje znajdziesz w [Advanced Settings](../../interface_guide/advanced_settings.md).
+    Szczegółowe informacje znajdziesz w [Advanced Settings](../../interface_guide/advanced_settings.md).

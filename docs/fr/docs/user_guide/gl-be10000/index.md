@@ -18,6 +18,10 @@ Le colis comprend :
 - 1 x Adaptateur secteur
 - 4 x Convertisseurs (prises US, EU, UK et AU)
 
+Regardez ci-dessous la vidéo de déballage de Slate 7 Pro.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Écran tactile
 
 | Affichage à l’écran | Description |
@@ -29,8 +33,6 @@ Le colis comprend :
 | ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | État du réseau<br></br>**Bleu** : actif / connecté à Internet<br>**Jaune** : connexion en cours / échec réseau<br>**Blanc** : connexion inactive |
 
 ## Comment configurer le Slate 7 Pro
-
-Pour configurer le Slate 7 Pro, vous utiliserez l’une des quatre méthodes de connexion Internet prises en charge : Ethernet, Repeater, Tethering et Cellular. Suivez les étapes ci-dessous.
 
 ### 1. Mise sous tension
 
@@ -61,7 +63,7 @@ Configurez votre Slate 7 Pro avec l’une des méthodes de connexion Internet pr
     
     1. Connectez le port WAN du Slate 7 Pro à un appareil en amont (par exemple un modem FAI, un commutateur réseau ou une prise Ethernet murale) à l’aide d’un câble Ethernet.
     2. Le Slate 7 Pro tentera automatiquement d’obtenir les paramètres réseau, tels que l’adresse IP, la passerelle et le serveur DNS, afin d’établir une connexion Ethernet.
-    3. Une fois la connexion Internet établie, la section Ethernet de l’écran d’accueil devient bleue (active). Vous pouvez soit toucher Ethernet sur l’écran d’accueil, soit vous connecter au panneau d’administration web pour consulter les détails de la connexion.
+    3. Une fois la connexion Internet établie, la section Ethernet de la page d’accueil de l’écran tactile devient bleue (active). Vous pouvez toucher Ethernet sur l’écran tactile ou vous connecter au panneau d’administration Web pour consulter les informations de connexion.
 
 === "Repeater"
 
@@ -70,7 +72,7 @@ Configurez votre Slate 7 Pro avec l’une des méthodes de connexion Internet pr
     1. Touchez **Repeater** sur l’écran tactile. Le routeur commence à rechercher les réseaux Wi‑Fi disponibles.
     2. Sélectionnez le réseau Wi‑Fi que vous souhaitez étendre avec le Slate 7 Pro.
     3. Saisissez le mot de passe, puis touchez **Apply**.
-    4. Une fois la connexion Internet établie, la section Repeater de l’écran d’accueil devient bleue (active). Vous pouvez soit toucher Repeater sur l’écran d’accueil, soit vous connecter au panneau d’administration web pour consulter les détails de la connexion.
+    4. Une fois la connexion Internet établie, la section Repeater de la page d’accueil de l’écran tactile devient bleue (active). Vous pouvez toucher Repeater sur l’écran tactile ou vous connecter au panneau d’administration Web pour consulter les informations de connexion.
 
 === "Tethering"
 
@@ -78,8 +80,8 @@ Configurez votre Slate 7 Pro avec l’une des méthodes de connexion Internet pr
 
     1. Connectez votre appareil mobile (par exemple un smartphone ou un dongle USB) au port USB du routeur à l’aide d’un câble USB.
     2. Sur votre appareil mobile, accédez aux réglages et activez **USB Tethering** ou **Personal Hotspot**. Si vous utilisez un iPhone, touchez **Trust This Device** si cela vous est demandé.
-    3. Sur l’écran tactile, sélectionnez **Tethering**, puis touchez **Connect**. Le routeur se connectera à votre appareil.
-    4. Une fois la connexion Internet établie, la section Tethering de l’écran d’accueil devient bleue (active). Vous pouvez soit toucher Tethering sur l’écran d’accueil, soit vous connecter au panneau d’administration web pour consulter les détails de la connexion.
+    3. Sur l’écran tactile de Slate 7 Pro, sélectionnez **Tethering**, puis touchez **Connect**. Le routeur se connecte alors à votre appareil.
+    4. Une fois la connexion Internet établie, la section Tethering de la page d’accueil de l’écran tactile devient bleue (active). Vous pouvez toucher Tethering sur l’écran tactile ou vous connecter au panneau d’administration Web pour consulter les informations de connexion.
 
     **Remarque** : si la connexion échoue, assurez-vous que la tension d’alimentation est supérieure à 9V 3A, car une alimentation insuffisante peut empêcher l’alimentation du port USB. Répétez les étapes ci-dessus, ou connectez-vous au panneau d’administration web pour vérifier l’état de la connexion Tethering.
 
@@ -88,7 +90,7 @@ Configurez votre Slate 7 Pro avec l’une des méthodes de connexion Internet pr
     ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_cellular.jpg){class="glboxshadow"}
 
     1. Branchez un modem USB cellulaire sur le port USB du Slate 7 Pro. Cela permet de partager la connexion Internet du modem USB avec tous les appareils connectés.
-    2. Une fois la connexion Internet établie, la section Cellular de l’écran d’accueil devient bleue (active). Vous pouvez soit toucher Cellular sur l’écran d’accueil, soit vous connecter au panneau d’administration web pour consulter les détails de la connexion.
+    2. Une fois la connexion Internet établie, la section Cellular de la page d’accueil de l’écran tactile devient bleue (active). Vous pouvez toucher Cellular sur l’écran tactile ou vous connecter au panneau d’administration Web pour consulter les informations de connexion.
 
 ---
 
@@ -170,7 +172,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Port Ethernet"
 
-    La page Ethernet Port vous permet de configurer les ports WAN et LAN, de définir l’interface WAN/LAN sur Ethernet, de spécifier le mode MAC et l’adresse MAC de l’interface WAN, et d’afficher la vitesse négociée du port réseau.
+    La page Ethernet Port permet de gérer le rôle des ports (WAN/LAN), de définir le mode MAC et l’adresse MAC de l’interface WAN et d’afficher le débit négocié du port.
 
     Pour gérer les ports Ethernet, consultez [Port Ethernet](../../interface_guide/ethernet_port.md).
 
@@ -190,13 +192,13 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Mode réseau"
 
-    Le mode réseau désigne les paramètres de configuration qui déterminent comment un appareil se connecte à un réseau et communique avec d’autres appareils.
+    Le mode réseau désigne les différents rôles et fonctions que le routeur peut adopter pour répondre aux besoins de déploiement. Les modes courants comprennent le mode routeur, le mode répéteur et le mode point d’accès.
     
     Pour configurer le mode réseau, consultez [Mode réseau](../../interface_guide/network_mode.md).
 
 === "Passerelle Drop-in"
 
-    Drop-in Gateway étend les fonctionnalités de votre routeur principal, notamment avec AdGuard Home, le DNS chiffré et le client VPN.
+    Drop-in Gateway permet d’étendre les fonctions d’un routeur principal existant sans le remplacer ni le reconfigurer. En configurant un routeur GL.iNet comme Drop-in Gateway, vous pouvez ajouter à l’infrastructure réseau existante des fonctions avancées telles qu’AdGuard Home, un VPN ou un DNS chiffré.
     
     Pour configurer Drop-in Gateway, consultez les liens suivants :
     
@@ -259,17 +261,15 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer la redirection de port, consultez [Port Forwarding](../../interface_guide/port_forwarding.md).
 
-=== "Contrôle de gestion"
+=== "Admin Access"
 
-    Le contrôle de gestion vous permet de configurer divers paramètres de sécurité afin de protéger votre réseau et votre routeur contre les accès non autorisés. Cette page comprend les options suivantes :
+    Admin Access permet de configurer différents paramètres de sécurité afin de protéger le réseau et le routeur contre les accès non autorisés. Cette page comprend les options suivantes :
 
     * Contrôle d’accès local : gérez et limitez l’accès à l’interface du routeur depuis les appareils connectés à votre réseau local.
     * Contrôle d’accès à distance : configurez et limitez l’accès à l’interface du routeur depuis des emplacements distants sur Internet, afin de renforcer la sécurité contre les menaces externes.
     * Open Ports on Router : contrôlez quels ports sont ouverts sur le routeur afin de limiter les vulnérabilités potentielles et les accès non autorisés.
 
-    Ces paramètres vous aident à maintenir un environnement réseau sécurisé, en protégeant à la fois votre routeur et les appareils qui y sont connectés.
-
-    Veuillez consulter [Security](../../interface_guide/security.md) pour des instructions détaillées.
+    Pour plus de détails, consultez [Admin Access](../../interface_guide/admin_access.md).
 
 === "Mode NAT"
 
@@ -321,7 +321,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Tor, abréviation de The Onion Router, est un réseau axé sur la confidentialité qui permet une communication anonyme sur Internet. Il achemine le trafic Internet à travers une série de serveurs bénévoles (nœuds) afin de masquer la localisation et l’utilisation de l’utilisateur, ce qui rend les activités en ligne difficiles à retracer.
     
-    * [Comment configurer Tor](../../interface_guide/tor.md)
+    Pour plus de détails, consultez [Tor](../../interface_guide/tor.md).
 
 ## Système
 
@@ -331,7 +331,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     * Charge moyenne du CPU : surveillez la charge moyenne du processeur de votre routeur pour évaluer les performances et identifier d’éventuels goulots d’étranglement.
     * Utilisation de la mémoire : vérifiez la quantité de mémoire utilisée afin de mieux gérer les ressources.
-    * Contrôle des LED : activez ou désactivez les voyants LED du routeur pour personnaliser les indicateurs visuels de l’appareil.
     * Utilisation de la mémoire flash : affichez l’occupation du stockage flash du routeur afin de vérifier qu’il reste suffisamment d’espace pour le firmware et les données de configuration.
     * Informations sur l’appareil : accédez aux informations détaillées du système, notamment la durée de fonctionnement, le nom d’hôte, le modèle, l’architecture, la version d’OpenWrt, la version du noyau, l’ID de l’appareil, la MAC de l’appareil et le S/N de l’appareil.
     * Stockage externe : vérifiez l’état des périphériques de stockage externes connectés au routeur, comme les clés USB ou les cartes TF.
@@ -342,15 +341,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Mot de passe administrateur"
 
-    La page Admin Password vous permet de définir ou de modifier le mot de passe de l’interface d’administration du routeur afin que seuls les utilisateurs autorisés puissent modifier les paramètres.
-
-    Pour des raisons de sécurité, nous vous recommandons d’activer **Prevent Weak Password**.
-
-    Lorsque **Prevent Weak Password** est activé, les exigences pour les nouveaux mots de passe sont les suivantes.
-
-    * 5 caractères minimum et 63 caractères maximum.
-    * Les lettres (sensibles à la casse), les chiffres et les symboles `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sont autorisés.
-    * Au moins deux des catégories suivantes sont requises : lettres majuscules, lettres minuscules, chiffres et symboles.
+    La page Admin Password permet de gérer le mot de passe de l’interface d’administration du routeur afin que seuls les utilisateurs autorisés puissent modifier les paramètres.
 
     Veuillez consulter [Admin Password](../../interface_guide/admin_password.md) pour des instructions détaillées.
 
@@ -358,10 +349,8 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     La page Upgrade permet de mettre à jour le firmware de votre routeur vers la dernière version afin d’améliorer les performances, la sécurité et les fonctionnalités. Cette page propose deux options de mise à niveau :
 
-    * Firmware Online Upgrade : vérifie et installe automatiquement la dernière version du firmware directement depuis le serveur du fabricant, ce qui simplifie le processus de mise à jour.
+    * Firmware Online Upgrade : recherche automatiquement la dernière version du micrologiciel sur le serveur du fabricant. Vous pouvez l’installer si elle est disponible en ligne.
     * Firmware Local Upgrade : permet de téléverser manuellement un fichier firmware depuis votre ordinateur pour mettre à jour le routeur, ce qui vous donne plus de contrôle sur la version et le moment de la mise à niveau.
-
-    Ces options vous permettent de garder votre routeur à jour avec les dernières améliorations et correctifs.
 
     Veuillez consulter [Upgrade](../../interface_guide/upgrade.md) pour des instructions détaillées.
 
@@ -373,7 +362,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     * Planification de l’écran LCD : définissez une plage horaire pour allumer ou éteindre automatiquement l’écran LCD du routeur, afin de réduire la pollution lumineuse à certains moments.
     * Redémarrage planifié : configurez le routeur pour qu’il redémarre automatiquement à des intervalles définis, afin de maintenir des performances et une stabilité optimales.
-    * Planification de l’état du Wi‑Fi : définissez une plage horaire pour contrôler les bandes Wi‑Fi 6 GHz / 5 GHz / 2,4 GHz / MLO, afin de mieux gérer la disponibilité du réseau et la consommation d’énergie.
+    * Planification de l’état du Wi‑Fi : définissez une plage horaire pour contrôler les bandes Wi‑Fi 6 GHz / 5 GHz / 2,4 GHz / MLO, afin de gérer la disponibilité du réseau et de réduire la consommation d’énergie.
     
     Ces options de planification vous offrent un contrôle accru sur le fonctionnement de votre routeur afin qu’il réponde mieux à vos besoins et à vos préférences.
 

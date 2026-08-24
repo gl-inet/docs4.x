@@ -21,12 +21,17 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 
 * [WLAN](wireless.md)
 
+## Mesh
+
+* [Mesh](mesh.md)
+
 ## Clients
 
 * [Clients](clients.md)
 
 ## Cloud-Dienste
 
+* [GL.iNet-Konto](glinet_account.md)
 * [GoodCloud](cloud.md) - der offizielle Cloud-Dienst.
 * [AstroWarp](astrowarp.md) - eine fortschrittliche Netzwerkplattform für nahtlose Fernvernetzung und Fernverwaltung von Geräten.
 

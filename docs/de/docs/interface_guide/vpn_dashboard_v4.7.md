@@ -154,8 +154,6 @@ Die Optionen des WireGuard-Servers werden wie folgt angezeigt.
 
 * **MTU**: Kurz für Maximum Transmission Unit. Der MTU-Wert, den Sie für den Tunnel festlegen, überschreibt die MTU-Einstellungen in der Konfigurationsdatei.
 
-* **Client to Client**: Wenn aktiviert, können VPN-Clients, die mit diesem Server verbunden sind, über ihre VPN-Tunnel-IPs aufeinander zugreifen. Wenn Sie möchten, dass Clients zusätzlich auf die LAN-Subnetze der jeweils anderen zugreifen können, muss der VPN-Server entsprechende Routen zu diesen entfernten LAN-Subnetzen bekanntgeben.
-
 * **Client to Client**: Wenn aktiviert, können VPN-Clients, die mit diesem Server verbunden sind, über ihre VPN-Tunnel-IPs aufeinander zugreifen. Wenn Sie möchten, dass Clients zusätzlich auf die LAN-Subnetze der jeweils anderen zugreifen können, müssen Sie auf dem VPN-Server Routing-Regeln hinzufügen, die Routen zu diesen entfernten LAN-Subnetzen bekanntgeben.
 
 ### Server-Routenregel

@@ -118,18 +118,19 @@ Geben Sie auf der Seite Access Control die MAC-Adresse der Geräte, die Sie bloc
 
 ## Sortierung
 
-Der aktuelle Sortiertyp wird oben rechts angezeigt, und Sie können zu anderen Sortiertypen wechseln.
+Die aktuelle Sortierreihenfolge wird oben rechts angezeigt und kann dort geändert werden.
+
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
 
 Der Standardsortiertyp ist wie folgt:
 
-- Das aktuelle Gerät steht immer ganz oben.
-- Im Abschnitt der Online-Clients gilt: Je später sich ein Gerät verbindet, desto weiter oben erscheint es in der Liste.
-
-![sort](https://static.gl-inet.com/docs/router/de/4/interface_guide/clients/sort.png){class="glboxshadow"}
+- Das eigene Gerät (das Gerät, mit dem Sie auf das Admin Panel zugreifen) wird immer ganz oben angezeigt.
+- Im Abschnitt Online Clients werden Geräte weiter oben angezeigt, wenn sie sich früher verbunden haben.
+- Im Abschnitt Offline Clients werden Geräte weiter oben angezeigt, wenn ihre Verbindung früher getrennt wurde.
 
 ## Aktion
 
-### Client-Details
+### Details anzeigen
 
 Wenn Sie die Details eines Client-Geräts anzeigen möchten, klicken Sie in der rechten Spalte Action auf das Drei-Punkte-Symbol und anschließend im Dropdown-Menü auf **View Details**.
 

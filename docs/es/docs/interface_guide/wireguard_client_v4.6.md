@@ -1,6 +1,12 @@
-# Configurar el cliente WireGuard en routers GL.iNet, firmware v4.6 y anteriores
+# Configurar el cliente WireGuard en routers GL.iNet
 
-**Nota**: Esta guía se aplica al firmware v4.6 y anteriores. Para versiones más recientes, consulte [aquí](wireguard_client.md).
+El contenido de esta página se basa en el firmware v4.6 y anteriores. Si el dispositivo utiliza otra versión del firmware, use el selector siguiente para cambiar a la guía correspondiente.
+
+<div class="gl-link-select" data-label="Versión de firmware" data-placeholder="Firmware v4.6 y anteriores" markdown="1">
+
+- [Firmware v4.7 y posteriores](wireguard_client.md)
+
+</div>
 
 ---
 

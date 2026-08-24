@@ -140,6 +140,7 @@ nav:
   - Guida utente:
     - Panoramica: user_guide/index.md
     - GL-MG1300 (Mango 2): https://www.gl-inet.com/products/gl-mg1300
+    - GL-BE14000 (Flint 4): user_guide/gl-be14000/index.md
     - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md
     - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
     - GL-E5800 (Mudi 7): user_guide/gl-e5800/index.md
@@ -184,6 +185,7 @@ nav:
       - FAQ sulla risoluzione dei problemi di connessione Internet: faq/internet_connection_troubleshooting.md
       - Connessione a hotspot pubblico con Captive Portal: faq/connect_to_a_hotspot_with_captive_portal.md
       - Collegare un dispositivo solo Ethernet al Wi-Fi: faq/produce_a_wired_connection.md
+      - Collegare la porta 10G SFP+ di Flint 4: faq/connecting_10g_sfp_plus_port_on_flint4.md
     - Notifiche di problemi:
       - Notifica di problemi per GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification_for_mt2500_x3000_xe3000.md
       - Notifica di problemi e soluzioni per il mancato funzionamento di GL-X3000/GL-X2000 con SIM EE: faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md
@@ -302,9 +304,12 @@ nav:
       - Cellulare: interface_guide/internet_cellular.md
     - Wi-Fi:
       - Wi-Fi: interface_guide/wireless.md
+    - Mesh:
+      - Mesh: interface_guide/mesh.md
     - Client:
       - Client: interface_guide/clients.md
     - Servizi cloud:
+      - Account GL.iNet: interface_guide/glinet_account.md
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:

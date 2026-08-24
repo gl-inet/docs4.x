@@ -38,7 +38,7 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
 1. Fai clic su **Generate Configuration** solo per la configurazione iniziale del server VPN.
 
-    ![ovpn server generate configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_generate_config.png){class="glboxshadow"}
+    ![ovpnserver generate config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_generate.png){class="glboxshadow"}
 
 2. Applica la configurazione.
 
@@ -48,7 +48,7 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
     Se hai modificato la configurazione, fai clic su **Apply** prima di esportare la configurazione client.
 
-    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
+    ![openvpnserver configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
     * **Device Mode:** TAP-S2S oppure Tun. Fai clic [qui](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md/#tap-s2s-vs-tun-mode) per vedere le differenze.
 
@@ -119,15 +119,47 @@ Se la connessione non riesce, esistono diverse cause comuni:
 * La porta usata per OpenVPN Server e' bloccata dal tuo provider Internet. Cambia porta oppure contatta il provider per ulteriore assistenza.
 * Alcuni paesi o regioni potrebbero bloccare la connessione VPN.
 
-## Accesso client-to-client
+## Opzioni del server
 
-**Topologia di rete**
+Le opzioni del server includono impostazioni avanzate lato server, quali l'accesso remoto alla LAN del server e il mascheramento IP. Configurarle in base alle proprie esigenze.
 
-![ptptopology](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ptptopology.jpg){class="glboxshadow"}
+Con il firmware v4.8 e versioni successive, andare su **OpenVPN Server** e fare clic su **Options** nell'angolo superiore destro.
 
-Abilita l'opzione client to client ed esporta una nuova configurazione verso i client; in questo modo i client potranno accedere l'uno all'altro.
+![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options1.png){class="glboxshadow"}
 
-![peertopeer](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/peertopeer.jpg){class="glboxshadow"}
+Con il firmware v4.7 e versioni precedenti, andare su **VPN Dashboard** -> **VPN Server** e fare clic sull'icona a forma di ingranaggio per accedere a OpenVPN Options.
+
+![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options2.jpg){class="glboxshadow"}
+
+Nella finestra popup sono disponibili le funzioni seguenti.
+
+![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options3.png){class="glboxshadow"}
+
+- **Allow Remote Access to the LAN Subnet**: se abilitata, le risorse nella sottorete LAN del server sono accessibili tramite il tunnel VPN.
+
+- **IP Masquerading**: se abilitato, gli indirizzi IP di origine dei client LAN vengono riscritti con l'IP del tunnel VPN del router. Disabilitare questa opzione solo nelle configurazioni site-to-site in cui il peer remoto conosce le sottoreti LAN del router.
+
+- **MTU**: abbreviazione di Maximum Transmission Unit. Il valore MTU impostato per il tunnel sostituisce l'impostazione MTU contenuta nel file di configurazione.
+
+## Client to Client
+
+Client to Client è una funzione VPN lato server. Quando è abilitata, i client VPN connessi possono comunicare tra loro utilizzando i rispettivi indirizzi IP del tunnel VPN.
+
+La topologia di rete è la seguente.
+
+![client-to-client topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ptptopology.jpg){class="glboxshadow"}
+
+Se necessario, procedere come segue per abilitare Client to Client sul server OpenVPN.
+
+1. Nella pagina **OpenVPN Server**, fare clic su **Advanced Configuration** nell'angolo inferiore destro.
+
+    ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_config_advanced.png){class="glboxshadow"}
+
+2. Abilitare **Client to Client** e fare clic su **Apply**. Esportare quindi una nuova configurazione e caricarla nei client OpenVPN.
+
+    ![client to client](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/client-to-client.png){class="glboxshadow"}
+
+**Suggerimento**: Client to Client pubblicizza esclusivamente l'indirizzo IP del tunnel di ciascun client. Non rende automaticamente accessibili le sottoreti LAN locali dietro ogni client VPN. Per consentire ai client di accedere alle sottoreti LAN reciproche, aggiungere sul server VPN regole di instradamento che pubblicizzino tali sottoreti LAN remote.
 
 ## Installazione dell'app OpenVPN
 

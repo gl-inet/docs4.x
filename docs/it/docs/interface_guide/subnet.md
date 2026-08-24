@@ -114,7 +114,7 @@ La pagina di configurazione include impostazioni di base e impostazioni del serv
 
 È possibile impostare la sottorete entro gli intervalli di indirizzi IPv4 privati: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
-![guest network basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/gest-network-basic.png){class="glboxshadow" width=650}
+![guest network basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-basic.png){class="glboxshadow" width=650}
 
 - **Gateway**
 

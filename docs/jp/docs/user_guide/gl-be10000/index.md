@@ -18,6 +18,10 @@ Slate 7 Pro (GL-BE10000) は、トライバンド Wi-Fi 7 対応のポータブ�
 - 1 x 電源アダプター
 - 4 x 変換プラグ（US / EU / UK / AU）
 
+Slate 7 Proの開封動画を以下でご覧いただけます。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## タッチスクリーン
 
 | 画面表示 | 説明 |
@@ -29,8 +33,6 @@ Slate 7 Pro (GL-BE10000) は、トライバンド Wi-Fi 7 対応のポータブ�
 | ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | ネットワーク状態<br></br>**青**: アクティブ / インターネットに接続済み<br>**黄**: 接続中 / ネットワーク障害<br>**白**: 非アクティブな接続 |
 
 ## Slate 7 Pro の設定方法
-
-Slate 7 Pro を設定するには、対応している 4 つのインターネット接続方式（Ethernet、Repeater、Tethering、Cellular）のいずれかを使用します。以下の手順に従ってください。
 
 ### 1. 電源を入れる
 
@@ -61,7 +63,7 @@ Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力し�
 
     1. Slate 7 Pro の WAN ポートを Ethernet ケーブルで上位機器（ISP モデム、ネットワークスイッチ、壁面 Ethernet ジャックなど）に接続します。
     2. Slate 7 Pro は IP アドレス、ゲートウェイ、DNS サーバーなどのネットワークパラメーターを自動取得し、Ethernet 接続を確立します。
-    3. インターネット接続に成功すると、タッチスクリーンのホーム画面にある Ethernet セクションが青色（アクティブ）になります。タッチスクリーンの Ethernet をタップするか、Web 管理パネルにログインして接続の詳細を確認できます。
+    3. インターネット接続に成功すると、タッチスクリーンのホーム画面にあるEthernetセクションが青色（アクティブ）になります。タッチスクリーンでEthernetをタップするか、Web管理パネルにログインして接続の詳細を確認できます。
 
 === "Repeater"
 
@@ -70,7 +72,7 @@ Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力し�
     1. タッチスクリーンで **Repeater** をタップします。利用可能な Wi-Fi ネットワークのスキャンが始まります。
     2. Slate 7 Pro で中継したい Wi-Fi ネットワークを選択します。
     3. パスワードを入力して **Apply** をタップします。
-    4. インターネット接続に成功すると、タッチスクリーンのホーム画面にある Repeater セクションが青色（アクティブ）になります。タッチスクリーンの Repeater をタップするか、Web 管理パネルにログインして接続の詳細を確認できます。
+    4. インターネット接続に成功すると、タッチスクリーンのホーム画面にあるRepeaterセクションが青色（アクティブ）になります。タッチスクリーンでRepeaterをタップするか、Web管理パネルにログインして接続の詳細を確認できます。
 
 === "Tethering"
 
@@ -78,8 +80,8 @@ Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力し�
 
     1. モバイルデバイス（スマートフォンや USB ドングルなど）を USB ケーブルでルーターの USB ポートに接続します。
     2. モバイルデバイスの設定で **USB Tethering** または **Personal Hotspot** を有効にします。iPhone を使用している場合は、表示されたら **Trust This Device** をタップしてください。
-    3. タッチスクリーンで **Tethering** を選択し、**Connect** をタップします。ルーターがデバイスへ接続します。
-    4. インターネット接続に成功すると、タッチスクリーンのホーム画面にある Tethering セクションが青色（アクティブ）になります。タッチスクリーンの Tethering をタップするか、Web 管理パネルにログインして接続の詳細を確認できます。
+    3. Slate 7 Proのタッチスクリーンで**Tethering**を選択し、**Connect**をタップします。ルーターがデバイスへ接続します。
+    4. インターネット接続に成功すると、タッチスクリーンのホーム画面にあるTetheringセクションが青色（アクティブ）になります。タッチスクリーンでTetheringをタップするか、Web管理パネルにログインして接続の詳細を確認できます。
 
     **Note**: 接続に失敗する場合は、電源の供給電圧が 9V 3A を上回っていることを確認してください。電力が不足していると、USB ポートへ給電できないことがあります。上記の手順をやり直すか、Web 管理パネルにログインして Tethering の接続状態を確認してください。
 
@@ -88,7 +90,7 @@ Web ブラウザーを開き、アドレスバーに `192.168.8.1` を入力し�
     ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_cellular.jpg){class="glboxshadow"}
 
     1. セルラー USB モデムを Slate 7 Pro の USB ポートに接続します。USB モデムの回線を、接続されているすべてのデバイスで共有したい場合に便利です。
-    2. インターネット接続に成功すると、タッチスクリーンのホーム画面にある Cellular セクションが青色（アクティブ）になります。タッチスクリーンの Cellular をタップするか、Web 管理パネルにログインして接続の詳細を確認できます。
+    2. インターネット接続に成功すると、タッチスクリーンのホーム画面にあるCellularセクションが青色（アクティブ）になります。タッチスクリーンでCellularをタップするか、Web管理パネルにログインして接続の詳細を確認できます。
 
 ---
 
@@ -152,7 +154,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     LAN（Local Area Network）は、自宅やオフィスなどの限られた範囲内でコンピューターやデバイスを接続するネットワークです。高速なデータ転送とリソース共有を可能にし、デバイス同士が効率的に通信できます。
 
-    LAN の設定については、[Lan](../../interface_guide/lan.md) を参照してください。
+    LANの設定については、[LAN](../../interface_guide/lan.md)を参照してください。
 
 === "Guest Network"
 
@@ -170,7 +172,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Ethernet Port"
 
-    Ethernet Port ページでは、WAN と LAN ポートの設定、WAN/LAN インターフェースを Ethernet に設定する操作、WAN インターフェースの MAC モードと MAC アドレスの指定、ネゴシエートされたネットワークポート速度の表示が行えます。
+    Ethernet Portページでは、Ethernetポートの役割（WAN/LAN）を管理し、WANインターフェースのMACモードとMACアドレスを指定して、ネゴシエートされたネットワークポート速度を確認できます。
 
     Ethernet ポートの管理については、[Ethernet Port](../../interface_guide/ethernet_port.md) を参照してください。
 
@@ -190,13 +192,13 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Network Mode"
 
-    ネットワークモードは、デバイスがネットワークへどのように接続し、他のデバイスと通信するかを決定する構成設定です。
+    Network Modeは、ネットワークの導入要件に応じてルーターが担う各種の動作上の役割と機能を指します。一般的なモードには、Router Mode、Extender Mode、Access Point Modeがあります。
 
     ネットワークモードの設定については、[Network Mode](../../interface_guide/network_mode.md) を参照してください。
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway は、AdGuard Home、暗号化 DNS、VPN クライアントなど、メインルーターの機能を拡張します。
+    Drop-in Gatewayは、既存のメインルーターを交換または再設定せずに機能を拡張できる柔軟な機能です。GL.iNetルーターをDrop-in Gatewayとして設定することで、既存のネットワークへAdGuard Home、VPN、暗号化DNSなどの高度な機能を追加できます。
 
     ドロップインゲートウェイの設定については、以下のリンクを参照してください。
 
@@ -217,19 +219,19 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     [Netify](https://www.netify.ai/){target="_blank"} と統合された GL.iNet の DPI 機能は、軽量な組み込みプラグインを採用して効率的な展開を実現しています。Netify のオンライン更新シグネチャデータベースにより、より正確かつ効率的なネットワーク管理を行えます。
 
-    詳細な手順については、[DPI Engine](../../interface_guide/dpi_engine.md) を参照してください。
+    詳細は[DPI Engine](../../interface_guide/dpi_engine.md)を参照してください。
 
 === "Data Statistics"
 
     Data Statistics は、アプリケーション別にネットワーク使用量を分類して可視化するインテリジェントなトラフィック分析ダッシュボードです。リアルタイムおよび履歴トラフィックを監視し、ネットワークの状況把握と制御に役立ちます。
 
-    詳細な手順については、[Data Statistics](../../interface_guide/data_statistics.md) を参照してください。
+    詳細は[Data Statistics](../../interface_guide/data_statistics.md)を参照してください。
 
 === "Content Filter"
 
     Content Filter は、DPI ベースの分類により、有害または悪意のある Web サイトを自動的にブロックするオンライン安全機能です。ネットワークをクリーンで安全な状態に保つのに役立ちます。
 
-    詳細な手順については、[Content Filter](../../interface_guide/content_filter.md) を参照してください。
+    詳細は[Content Filter](../../interface_guide/content_filter.md)を参照してください。
 
 ---
 
@@ -237,19 +239,19 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Parental Control は、子どものデバイスを管理・制御するための機能です。スクリーンタイムの制限や、特定コンテンツへのアクセス制限などが含まれます。
 
-    Parental Control の設定については、[Parental Control](../../interface_guide/parental_control.md) を参照してください。
+    詳細は[Parental Control](../../interface_guide/parental_control.md)を参照してください。
 
 === "QoS"
 
     QoS（Quality of Service）は、ネットワーク混雑時にビデオ通話やゲームなどの重要な通信を優先し、帯域配分を最適化することで、遅延を減らしてネットワーク全体のパフォーマンスを向上させます。これはローカルクライアントトラフィックと VPN クライアントトンネルトラフィックに適用されますが、ルーターが VPN サーバーとして受信するトラフィックには適用されません。
 
-    詳細な手順については、[QoS](../../interface_guide/qos.md) を参照してください。
+    詳細は[QoS](../../interface_guide/qos.md)を参照してください。
 
 === "SQM"
 
     SQM（Smart Queue Management）は、ルーターのネットワークトラフィックをインテリジェントに管理し、遅延やバッファブロートを最小限に抑えることで、ゲームや音声通話をより滑らかにします。
 
-    詳細な手順については、[SQM](../../interface_guide/sqm.md) を参照してください。
+    詳細は[SQM](../../interface_guide/sqm.md)を参照してください。
 
 ## セキュリティ
 
@@ -257,25 +259,23 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     ポートフォワーディングにより、インターネット上のリモートサーバーやデバイスが、プライベートネットワーク内のデバイスへアクセスできるようになります。
 
-    ポートフォワーディングの設定については、[Port Forwarding](../../interface_guide/port_forwarding.md) を参照してください。
+    詳細は[Port Forwarding](../../interface_guide/port_forwarding.md)を参照してください。
 
-=== "Management Control"
+=== "Admin Access"
 
-    Management Control では、ネットワークやルーターを不正アクセスから保護するための各種セキュリティ設定を構成できます。このページには以下の項目があります。
+    Admin Accessでは、不正アクセスからネットワークとルーターを保護するための各種セキュリティ設定を行えます。このページには次の項目があります。
 
     * Local Access Control: ローカルネットワークに接続されたデバイスから、ルーターの管理画面へアクセスできる範囲を管理・制限します。
     * Remote Access Control: インターネット経由でのリモートアクセスを構成・制限し、外部からの脅威に対するセキュリティを強化します。
     * Open Ports on Router: ルーター上で開放するポートを管理し、潜在的な脆弱性や不正アクセスのリスクを抑えます。
 
-    これらの設定により、ルーターと接続デバイスを保護しながら、安全なネットワーク環境を維持できます。
-
-    詳細な手順については、[Security](../../interface_guide/security.md) を参照してください。
+    詳細は[Admin Access](../../interface_guide/admin_access.md)を参照してください。
 
 === "NAT Mode"
 
     NAT Mode ページでは、Full Cone NAT と SIP ALG（Application Layer Gateway）機能の有効 / 無効を切り替えられます。
 
-    NAT 設定については、[NAT Mode](../../interface_guide/nat_settings.md) を参照してください。
+    詳細は[NAT Mode](../../interface_guide/nat_settings.md)を参照してください。
 
 ## アプリケーション
 
@@ -321,7 +321,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Tor（The Onion Router）は、匿名通信を実現するプライバシー重視のネットワークです。インターネットトラフィックを複数のボランティア運用ノード経由で中継することで、ユーザーの位置情報や利用状況を追跡しにくくします。
 
-    * [Tor の設定方法](../../interface_guide/tor.md)
+    Torの設定方法は[Tor](../../interface_guide/tor.md)を参照してください。
 
 ## システム
 
@@ -331,39 +331,28 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     * CPU Average Load: ルーター CPU の平均負荷を監視し、性能評価やボトルネック特定に役立ちます。
     * Memory Usage: ルーターで使用中のメモリ量を確認し、リソース管理に役立てられます。
-    * LED Control: ルーターの LED ライトをオン / オフでき、視覚インジケーターを調整できます。
     * Flash Usage: フラッシュストレージの使用状況を確認し、ファームウェアや設定データのための十分な空き容量を確保できます。
     * Device Info: 稼働時間、ホスト名、モデル、アーキテクチャ、OpenWrt バージョン、カーネルバージョン、デバイス ID、デバイス MAC、デバイス S/N などの詳細情報を確認できます。
     * External Storage: USB ドライブや TF カードなど、接続された外部ストレージデバイスの状態を確認できます。
 
     これらの機能により、ルーターの動作を効果的に管理・監視できます。
 
-    詳細な手順については、[Overview](../../interface_guide/system_overview.md) を参照してください。
+    詳細は[Overview](../../interface_guide/system_overview.md)を参照してください。
 
 === "Admin Password"
 
-    Admin Password ページでは、ルーターの管理インターフェース用パスワードを設定または変更できます。権限のあるユーザーだけが設定を変更できるようにするための重要な項目です。
+    Admin Passwordページでは、ルーターの管理インターフェース用パスワードを管理し、許可されたユーザーだけが設定を変更できるようにします。
 
-    セキュリティのため、**Prevent Weak Password** を有効にすることを推奨します。
-
-    **Prevent Weak Password** を有効にした場合、新しいパスワードは以下の条件を満たす必要があります。
-
-    * 5 文字以上 63 文字以下
-    * 使用可能文字: 英字（大文字 / 小文字を区別）、数字、記号 `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ ``
-    * 大文字、小文字、数字、記号のうち少なくとも 2 種類を含むこと
-
-    詳細な手順については、[Admin Password](../../interface_guide/admin_password.md) を参照してください。
+    詳細は[Admin Password](../../interface_guide/admin_password.md)を参照してください。
 
 === "Upgrade"
 
     Upgrade ページでは、ルーターのファームウェアを最新バージョンへ更新できます。これにより、パフォーマンス、セキュリティ、新機能を改善できます。このページには次の 2 つのアップグレード方法があります。
 
-    * Firmware Online Upgrade: メーカーのサーバーから最新ファームウェアを自動確認し、そのままインストールします。
+    * Firmware Online Upgrade: メーカーのサーバーで最新のファームウェアバージョンを自動的に確認します。オンラインで利用できる場合はインストールできます。
     * Firmware Local Upgrade: コンピューターからファームウェアファイルを手動でアップロードし、アップグレードするバージョンやタイミングを管理できます。
 
-    これらの方法により、ルーターを常に最新の改善や修正に追従させることができます。
-
-    詳細な手順については、[Upgrade](../../interface_guide/upgrade.md) を参照してください。
+    詳細は[Upgrade](../../interface_guide/upgrade.md)を参照してください。
 
 ---
 
@@ -373,11 +362,11 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     * LCD Display Schedule: ルーターの LCD 画面を自動的にオン / オフするスケジュールを設定し、特定時間帯の光を抑えられます。
     * Schedule Reboot: 指定した間隔でルーターを自動再起動するよう設定し、最適なパフォーマンスと安定性の維持に役立ちます。
-    * Wi-Fi Status Schedule: 6GHz / 5GHz / 2.4GHz / MLO Wi-Fi バンドを制御するスケジュールを設定し、ネットワーク可用性や消費電力を管理できます。
+    * Wi-Fi Status Schedule: 6GHz / 5GHz / 2.4GHz / MLO Wi-Fiバンドを制御するスケジュールを設定し、ネットワークの可用性を管理して消費電力を抑えます。
 
     これらの設定により、ルーターの動作をより柔軟にコントロールできます。
 
-    詳細な手順については、[Scheduled Tasks](../../interface_guide/scheduled_tasks.md) を参照してください。
+    詳細は[Scheduled Tasks](../../interface_guide/scheduled_tasks.md)を参照してください。
 
 === "Display Management"
 
@@ -389,13 +378,13 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
     ‒ Screen Always On: タッチスクリーンを常時点灯させるか、無操作時に消灯させるかを切り替えます。
     ‒ Enable Screen Passcode: タッチスクリーン用のパスコードを設定し、追加のセキュリティを確保します。
 
-    詳細な手順については、[Display Management](../../interface_guide/display_management.md) を参照してください。
+    詳細は[Display Management](../../interface_guide/display_management.md)を参照してください。
 
 === "Time Zone"
 
     Time Zone ページでは、ルーターのタイムゾーンを正しく設定できます。これにより、スケジュールタスク、ログ、システムイベントに記録される時刻が現地時間に合わせて正確になります。
 
-    詳細な手順については、[Time Zone](../../interface_guide/time_zone.md) を参照してください。
+    詳細は[Time Zone](../../interface_guide/time_zone.md)を参照してください。
 
 ---
 
@@ -403,13 +392,13 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     Toggle Button Settings ページでは、ルーターの物理トグルボタンに特定の機能を割り当て、すばやく操作できるように設定できます。よく使う機能へのショートカットとして利用でき、ルーター管理をより簡単にします。
 
-    詳細な手順については、[Toggle Button Settings](../../interface_guide/toggle_button_settings.md) を参照してください。
+    詳細は[Toggle Button Settings](../../interface_guide/toggle_button_settings.md)を参照してください。
 
 === "Reset Firmware"
 
     Reset Firmware ページでは、現在インストールされているファームウェアバージョンの設定を初期状態に戻し、すべてのカスタム設定を消去できます。現在のファームウェアのままでトラブルシューティングしたい場合や、まっさらな状態からやり直したい場合に便利です。
 
-    詳細な手順については、[Reset Firmware](../../interface_guide/reset_firmware.md) を参照してください。
+    詳細は[Reset Firmware](../../interface_guide/reset_firmware.md)を参照してください。
 
 === "Log"
 
@@ -423,10 +412,10 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     さらに、Export Log ボタンにより収集したログをまとめてエクスポートでき、技術サポートによる分析にも活用できます。
 
-    詳細な手順については、[Log](../../interface_guide/log.md) を参照してください。
+    詳細は[Log](../../interface_guide/log.md)を参照してください。
 
 === "Advanced Settings"
 
     Advanced Settings ページでは、OpenWrt LuCI インターフェースを通じて高度な設定オプションにアクセスできます。基本インターフェースでは扱わない、詳細なネットワーク設定、ファイアウォール設定、システムカスタマイズなどを行いたい上級ユーザー向けの機能です。
 
-    詳細な手順については、[Advanced Settings](../../interface_guide/advanced_settings.md) を参照してください。
+    詳細は[Advanced Settings](../../interface_guide/advanced_settings.md)を参照してください。

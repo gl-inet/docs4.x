@@ -15,6 +15,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i jak rozwiązywać typowe pro
 * [FAQ rozwiązywania problemów z połączeniem internetowym](internet_connection_troubleshooting.md)
 * [Jak połączyć router GL.iNet z publicznym hotspotem z Captive Portal?](connect_to_a_hotspot_with_captive_portal.md)
 * [Jak podłączyć do Wi-Fi urządzenie z samym Ethernetem za pomocą routera GL.iNet?](produce_a_wired_connection.md)
+* [Jak podłączyć port 10G SFP+ w routerze Flint 4?](connecting_10g_sfp_plus_port_on_flint4.md)
 
 ## Powiadomienia o problemach
 

@@ -1,10 +1,16 @@
 # Porta Ethernet
 
-**Nota**: questa pagina e' disponibile come **Port Management** dal firmware v4.7 ed e' stata rinominata in **Ethernet Port** nel firmware v4.8.3.
+Il contenuto di questa pagina si basa sulle versioni firmware v4.7-4.9. Se il dispositivo utilizza una versione firmware diversa, usare il selettore seguente per passare alla guida corrispondente.
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.9 and earlier" markdown="1">
+
+- [Firmware v4.10](ethernet_port_v4.10.md)
+
+</div>
 
 ---
 
-Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **Port Management** oppure **Ethernet Port**.
+Sul lato sinistro del pannello di amministrazione web, vai su **NETWORK** -> **Ethernet Port** oppure **Port Management**.
 
 Questa pagina consente di gestire le funzioni delle porte Ethernet, WAN/LAN, e di visualizzare i dettagli della porta, come indirizzo MAC e velocita' negoziata.
 
@@ -18,7 +24,7 @@ Questa sezione mostra la funzione della porta, WAN o LAN, l'indirizzo MAC e la v
 
 - **MAC Mode**: per impostazione predefinita e' Factory Mode. Puoi cambiarla in Clone Mode oppure Random Mode.
 
-- **Mac Address**: l'indirizzo MAC dell'interfaccia WAN.
+- **MAC Address**: l'indirizzo MAC dell'interfaccia WAN.
 
 - **Negotiated Network Port Rate**: la velocita' di collegamento negoziata dell'interfaccia WAN, mostrata solo quando viene rilevato un collegamento valido.
 

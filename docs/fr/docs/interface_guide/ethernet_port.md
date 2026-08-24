@@ -1,10 +1,16 @@
 # Port Ethernet
 
-**Note**: Cette page est disponible sous le nom **Port Management** depuis le firmware v4.7 et a été renommée **Ethernet Port** dans le firmware v4.8.3.
+Le contenu de cette page est basé sur les versions de micrologiciel v4.7 à v4.9. Si votre appareil utilise une autre version, utilisez le sélecteur ci-dessous pour afficher le guide correspondant.
+
+<div class="gl-link-select" data-label="Version du micrologiciel" data-placeholder="Micrologiciel v4.9 et versions antérieures" markdown="1">
+
+- [Micrologiciel v4.10](ethernet_port_v4.10.md)
+
+</div>
 
 ---
 
-Dans le panneau d'administration web, accédez à **NETWORK** -> **Port Management** ou **Ethernet Port**.
+Dans la partie gauche du panneau d’administration Web, accédez à **NETWORK** -> **Ethernet Port** ou **Port Management**.
 
 Cette page vous permet de gérer le rôle des ports Ethernet (WAN/LAN) et d'afficher les détails des ports, comme l'adresse MAC et la vitesse négociée.
 

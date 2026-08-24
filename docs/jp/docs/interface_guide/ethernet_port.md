@@ -1,10 +1,16 @@
 # Ethernet Port
 
-**Note**: このページはファームウェア v4.7 では **Port Management** として利用可能で、ファームウェア v4.8.3 で **Ethernet Port** に名称変更されました。
+このページの内容はファームウェアv4.7-4.9に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、次の選択メニューから対応するガイドへ切り替えてください。
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.9 and earlier" markdown="1">
+
+- [ファームウェアv4.10](ethernet_port_v4.10.md)
+
+</div>
 
 ---
 
-Web Admin Panel の左側で、**NETWORK** -> **Port Management** または **Ethernet Port** に移動します。
+Web管理パネルの左側で、**NETWORK** -> **Ethernet Port** または **Port Management** に移動します。
 
 Ethernet ポートの役割（WAN/LAN）を管理し、MAC アドレスやネゴシエート速度などのポート詳細を確認できます。
 
@@ -18,7 +24,7 @@ Ethernet ポートの役割（WAN/LAN）を管理し、MAC アドレスやネゴ
 
 - **MAC Mode**: デフォルトは Factory Mode です。Clone Mode または Random Mode に切り替えられます。
 
-- **Mac Address**: WAN インターフェースの MAC アドレスです。
+- **MAC Address**: WAN インターフェースの MAC アドレスです。
 
 - **Negotiated Network Port Rate**: WAN インターフェースのリンク速度交渉結果です。有効なリンクが検出された場合にのみ表示されます。
 

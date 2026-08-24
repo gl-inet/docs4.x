@@ -1,6 +1,6 @@
 # AstroWarp
 
-**Hinweis**: Dieser Leitfaden gilt für die neue Version von AstroWarp.
+**Hinweis**: Dieser Leitfaden gilt für die neue Version von AstroWarp. Diese Funktion wurde in v4.10 in **GoodPAS** umbenannt.
 
 Das neue AstroWarp ist in das GL.iNet Router SDK integriert. Es verwendet das AmneziaWG-Protokoll mit integrierter Datenverkehrsverschleierung und bietet dadurch stabile und sichere Verbindungen für zuverlässigen Fernzugriff jederzeit und überall.
 

@@ -48,6 +48,10 @@ Im Lieferumfang enthalten sind:
 - 1 x Netzadapter
 - 4 x Steckeraufsätze (US, EU, UK und AU)
 
+Das folgende Video zeigt das Auspacken des Slate 7 Pro.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Touchscreen
 
 | Bildschirmanzeige | Beschreibung |
@@ -59,8 +63,6 @@ Im Lieferumfang enthalten sind:
 | ![internet](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Netzwerkstatus<br></br>**Blau**: Aktiv / mit dem Internet verbunden<br>**Gelb**: Verbindung wird hergestellt / Netzwerkfehler<br>**Weiß**: Inaktive Verbindung |
 
 ## So richten Sie Slate 7 Pro ein
-
-Für die Einrichtung von Slate 7 Pro verwenden Sie eine der vier unterstützten Methoden für den Internetzugang: Ethernet, Repeater, Tethering und Cellular. Folgen Sie den untenstehenden Schritten.
 
 ### 1. Einschalten
 
@@ -91,7 +93,7 @@ Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Int
     
     1. Verbinden Sie den WAN-Port des Slate 7 Pro per Ethernet-Kabel mit einem Upstream-Gerät (z. B. ISP-Modem, Netzwerkswitch oder Ethernet-Wandanschluss).
     2. Slate 7 Pro versucht automatisch, Netzwerkparameter wie IP-Adresse, Gateway und DNS-Server abzurufen, um eine Ethernet-Verbindung herzustellen.
-    3. Sobald die Internetverbindung erfolgreich hergestellt wurde, wird der Ethernet-Bereich auf der Touchscreen-Startseite blau angezeigt (aktiv). Sie können entweder auf der Touchscreen-Startseite auf Ethernet tippen oder sich im Web-Admin-Panel anmelden, um die Verbindungsdetails zu prüfen.
+    3. Sobald die Internetverbindung erfolgreich hergestellt wurde, wird der Ethernet-Bereich auf der Touchscreen-Startseite blau angezeigt (aktiv). Sie können entweder auf dem Touchscreen auf Ethernet tippen oder sich im Web-Admin-Panel anmelden, um die Verbindungsdetails zu prüfen.
 
 === "Repeater"
 
@@ -100,7 +102,7 @@ Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Int
     1. Tippen Sie auf dem Touchscreen auf **Repeater**. Das Gerät beginnt dann mit der Suche nach verfügbaren Wi-Fi-Netzwerken.
     2. Wählen Sie das Wi-Fi-Netzwerk aus, das Slate 7 Pro erweitern soll.
     3. Geben Sie das Passwort ein und tippen Sie auf **Apply**.
-    4. Sobald die Internetverbindung erfolgreich hergestellt wurde, wird der Repeater-Bereich auf der Touchscreen-Startseite blau angezeigt (aktiv). Sie können entweder auf der Touchscreen-Startseite auf Repeater tippen oder sich im Web-Admin-Panel anmelden, um die Verbindungsdetails zu prüfen.
+    4. Sobald die Internetverbindung erfolgreich hergestellt wurde, wird der Repeater-Bereich auf der Touchscreen-Startseite blau angezeigt (aktiv). Sie können entweder auf dem Touchscreen auf Repeater tippen oder sich im Web-Admin-Panel anmelden, um die Verbindungsdetails zu prüfen.
 
 === "Tethering"
 
@@ -108,8 +110,8 @@ Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Int
 
     1. Verbinden Sie Ihr Mobilgerät (z. B. Smartphone oder USB-Dongle) über ein USB-Kabel mit dem USB-Port des Routers.
     2. Gehen Sie auf Ihrem Mobilgerät zu den Einstellungen und aktivieren Sie **USB Tethering** oder **Personal Hotspot**. Beim iPhone tippen Sie bei Bedarf auf **Trust This Device**.
-    3. Wählen Sie auf dem Touchscreen **Tethering** und tippen Sie auf **Connect**. Der Router stellt dann die Verbindung zu Ihrem Gerät her.
-    4. Sobald die Internetverbindung erfolgreich hergestellt wurde, wird der Tethering-Bereich auf der Touchscreen-Startseite blau angezeigt (aktiv). Sie können entweder auf der Touchscreen-Startseite auf Tethering tippen oder sich im Web-Admin-Panel anmelden, um die Verbindungsdetails zu prüfen.
+    3. Wählen Sie auf dem Touchscreen des Slate 7 Pro **Tethering** und tippen Sie auf **Connect**. Der Router stellt daraufhin die Verbindung zu Ihrem Gerät her.
+    4. Sobald die Internetverbindung erfolgreich hergestellt wurde, wird der Tethering-Bereich auf der Touchscreen-Startseite blau angezeigt (aktiv). Sie können entweder auf dem Touchscreen auf Tethering tippen oder sich im Web-Admin-Panel anmelden, um die Verbindungsdetails zu prüfen.
 
     **Hinweis**: Wenn die Verbindung fehlschlägt, stellen Sie sicher, dass die Versorgungsspannung über 9 V / 3 A liegt, da eine zu niedrige Stromversorgung verhindern kann, dass der USB-Port aktiviert wird. Wiederholen Sie die obigen Schritte oder melden Sie sich im Web-Admin-Panel an, um den Status der Tethering-Verbindung zu prüfen.
 
@@ -118,7 +120,7 @@ Richten Sie Ihren Slate 7 Pro mit einer der unterstützten Methoden für den Int
     ![cellular connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-be10000/internet/be10000_cellular.jpg){class="glboxshadow"}
 
     1. Stecken Sie ein Mobilfunk-USB-Modem in den USB-Port des Slate 7 Pro. Das ist nützlich, wenn Sie die Internetverbindung eines USB-Modems mit allen verbundenen Geräten teilen möchten.
-    2. Sobald die Internetverbindung erfolgreich hergestellt wurde, wird der Cellular-Bereich auf der Touchscreen-Startseite blau angezeigt (aktiv). Sie können entweder auf der Touchscreen-Startseite auf Cellular tippen oder sich im Web-Admin-Panel anmelden, um die Verbindungsdetails zu prüfen.
+    2. Sobald die Internetverbindung erfolgreich hergestellt wurde, wird der Cellular-Bereich auf der Touchscreen-Startseite blau angezeigt (aktiv). Sie können entweder auf dem Touchscreen auf Cellular tippen oder sich im Web-Admin-Panel anmelden, um die Verbindungsdetails zu prüfen.
 
 ---
 
@@ -182,7 +184,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     LAN, kurz für Local Area Network, ist ein Netzwerk, das Computer und Geräte innerhalb eines begrenzten geografischen Bereichs wie zu Hause oder im Büro verbindet. Es ermöglicht schnelle Datenübertragung und gemeinsame Ressourcennutzung, sodass Geräte effizient miteinander kommunizieren können.
     
-    Informationen zur Einrichtung finden Sie unter [Lan](../../interface_guide/lan.md).
+    Informationen zur Einrichtung finden Sie unter [LAN](../../interface_guide/lan.md).
 
 === "Gastnetzwerk"
 
@@ -200,7 +202,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
 === "Ethernet Port"
 
-    Auf der Seite Ethernet Port können Sie WAN- und LAN-Ports konfigurieren, die WAN-/LAN-Schnittstelle auf Ethernet setzen, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle festlegen sowie die ausgehandelte Portgeschwindigkeit anzeigen.
+    Auf der Seite Ethernet Port können Sie die Portrolle (WAN/LAN) verwalten, den MAC-Modus und die MAC-Adresse für die WAN-Schnittstelle festlegen sowie die ausgehandelte Portgeschwindigkeit anzeigen.
 
     Informationen zur Verwaltung der Ethernet-Ports finden Sie unter [Ethernet Port](../../interface_guide/ethernet_port.md).
 
@@ -220,13 +222,13 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
 === "Netzwerkmodus"
 
-    Der Netzwerkmodus bezeichnet die Konfiguration, die bestimmt, wie ein Gerät eine Verbindung zu einem Netzwerk herstellt und mit anderen Geräten kommuniziert.
+    Der Netzwerkmodus bezeichnet die verschiedenen Betriebsrollen und Funktionen, die ein Router für unterschiedliche Netzwerkanforderungen übernehmen kann. Zu den gängigen Modi gehören Router-, Extender- und Access-Point-Modus.
     
     Informationen zur Einrichtung finden Sie unter [Netzwerkmodus](../../interface_guide/network_mode.md).
 
 === "Drop-in Gateway"
 
-    Drop-in Gateway erweitert die Funktionen Ihres Hauptrouters, einschließlich AdGuard Home, verschlüsseltem DNS und VPN-Client.
+    Drop-in Gateway ist eine flexible Funktion, mit der Sie einen vorhandenen Hauptrouter erweitern können, ohne ihn zu ersetzen oder neu zu konfigurieren. Wenn Sie einen GL.iNet-Router als Drop-in Gateway einrichten, können Sie der bestehenden Netzwerkinfrastruktur erweiterte Funktionen wie AdGuard Home, VPN und verschlüsseltes DNS hinzufügen.
     
     Informationen zur Einrichtung finden Sie in diesen Anleitungen:
     
@@ -247,19 +249,19 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
     
     In Kombination mit [Netify](https://www.netify.ai/){target="_blank"} nutzt die DPI-Funktion von GL.iNet ein leichtgewichtiges eingebettetes Plug-in für eine effiziente Bereitstellung. Mit der online aktualisierten Signaturdatenbank von Netify wird zuverlässiges Management ermöglicht, sodass die Netzwerksteuerung präziser und effizienter wird.
 
-    Detaillierte Informationen finden Sie unter [DPI Engine](../../interface_guide/dpi_engine.md).
+    Weitere Informationen finden Sie unter [DPI Engine](../../interface_guide/dpi_engine.md).
 
 === "Data Statistics"
 
     Data Statistics bietet ein intelligentes Dashboard zur Datenverkehrsanalyse, das die Netzwerknutzung nach Anwendungen kategorisiert und visualisiert. So können Sie den aktuellen und historischen Datenverkehr besser überwachen und kontrollieren.
 
-    Detaillierte Informationen finden Sie unter [Data Statistics](../../interface_guide/data_statistics.md).
+    Weitere Informationen finden Sie unter [Data Statistics](../../interface_guide/data_statistics.md).
 
 === "Content Filter"
 
     Content Filter bietet intelligente Online-Sicherheit auf Basis einer DPI-gestützten Klassifizierung und blockiert automatisch schädliche oder bösartige Websites, damit Ihr Netzwerk sauber und sicher bleibt.
 
-    Detaillierte Informationen finden Sie unter [Content Filter](../../interface_guide/content_filter.md).
+    Weitere Informationen finden Sie unter [Content Filter](../../interface_guide/content_filter.md).
 
 ---
 
@@ -267,19 +269,19 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Parental Control hilft Ihnen dabei, die Geräte Ihrer Kinder zu verwalten und zu kontrollieren. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
 
-    Informationen zur Einrichtung finden Sie unter [Parental Control](../../interface_guide/parental_control.md).
+    Weitere Informationen finden Sie unter [Parental Control](../../interface_guide/parental_control.md).
 
 === "QoS"
 
     QoS (Quality of Service) optimiert die Bandbreitenzuweisung, indem wichtige Aktivitäten wie Videoanrufe oder Gaming bei Netzwerküberlastung priorisiert werden. Dadurch werden Latenzen reduziert und die Gesamtleistung des Netzwerks verbessert. Dies gilt für lokalen Client-Datenverkehr und VPN-Client-Tunnel-Datenverkehr, jedoch nicht für Datenverkehr, den der Router als VPN-Server empfängt.
 
-    Detaillierte Informationen finden Sie unter [QoS](../../interface_guide/qos.md).
+    Weitere Informationen finden Sie unter [QoS](../../interface_guide/qos.md).
 
 === "SQM"
 
     SQM (Smart Queue Management) verwaltet den Netzwerkverkehr Ihres Routers intelligent, um Latenzen und „Bufferbloat“ zu minimieren und so Gaming und Sprachanrufe flüssiger zu machen.
 
-    Detaillierte Informationen finden Sie unter [SQM](../../interface_guide/sqm.md).
+    Weitere Informationen finden Sie unter [SQM](../../interface_guide/sqm.md).
 
 ## Sicherheit
 
@@ -287,25 +289,23 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Portweiterleitung ermöglicht es entfernten Servern und Geräten im Internet, auf Geräte in einem privaten Netzwerk zuzugreifen.
     
-    Informationen zur Einrichtung finden Sie unter [Port Forwarding](../../interface_guide/port_forwarding.md).
+    Weitere Informationen finden Sie unter [Port Forwarding](../../interface_guide/port_forwarding.md).
 
-=== "Management Control"
+=== "Admin Access"
 
-    Mit Management Control können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen. Diese Seite umfasst die folgenden Optionen:
+    Mit Admin Access können Sie verschiedene Sicherheitseinstellungen konfigurieren, um Ihr Netzwerk und Ihren Router vor unbefugtem Zugriff zu schützen. Diese Seite umfasst die folgenden Optionen:
 
     * Local Access Control: Verwalten und beschränken Sie den Zugriff auf die Routeroberfläche von Geräten in Ihrem lokalen Netzwerk.
     * Remote Access Control: Konfigurieren und beschränken Sie den Zugriff auf die Routeroberfläche aus der Ferne über das Internet, um die Sicherheit gegenüber externen Bedrohungen zu erhöhen.
     * Open Ports on Router: Legen Sie fest, welche Ports am Router geöffnet sind, um potenzielle Schwachstellen und unbefugte Zugriffe zu begrenzen.
 
-    Diese Einstellungen helfen Ihnen, eine sichere Netzwerkumgebung aufrechtzuerhalten und sowohl Ihren Router als auch verbundene Geräte zu schützen.
-
-    Detaillierte Informationen finden Sie unter [Security](../../interface_guide/security.md).
+    Weitere Informationen finden Sie unter [Admin Access](../../interface_guide/admin_access.md).
 
 === "NAT Mode"
 
     Auf der Seite NAT Mode können Sie Full Cone NAT und SIP ALG (Application Layer Gateway) aktivieren oder deaktivieren.
 
-    Informationen zur Einrichtung finden Sie unter [NAT Mode](../../interface_guide/nat_settings.md).
+    Weitere Informationen finden Sie unter [NAT Mode](../../interface_guide/nat_settings.md).
 
 ## Anwendungen
 
@@ -351,7 +351,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Tor, kurz für The Onion Router, ist ein auf Privatsphäre fokussiertes Netzwerk, das anonyme Kommunikation über das Internet ermöglicht. Es leitet den Internetverkehr über eine Reihe von freiwillig betriebenen Servern (Knoten) weiter, um Standort und Nutzung des Benutzers zu verschleiern und Online-Aktivitäten schwerer nachvollziehbar zu machen.
     
-    * [Tor einrichten](../../interface_guide/tor.md)
+    Informationen zur Einrichtung finden Sie unter [Tor](../../interface_guide/tor.md).
 
 ## System
 
@@ -361,39 +361,28 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     * CPU Average Load: Überwachen Sie die durchschnittliche CPU-Auslastung Ihres Routers, um die Leistung zu beurteilen und mögliche Engpässe zu erkennen.
     * Memory Usage: Prüfen Sie, wie viel Arbeitsspeicher Ihres Routers verwendet wird, um Ressourcen besser zu verwalten.
-    * LED Control: Schalten Sie die LED-Anzeigen des Routers ein oder aus, um die optischen Anzeigen anzupassen.
     * Flash Usage: Zeigen Sie die Auslastung des Flash-Speichers Ihres Routers an, damit ausreichend Platz für Firmware- und Konfigurationsdaten vorhanden ist.
     * Device Info: Greifen Sie auf detaillierte Systeminformationen Ihres Routers zu, darunter Uptime, Hostname, Modell, Architektur, OpenWrt-Version, Kernel-Version, Device ID, Geräte-MAC und Device S/N.
     * External Storage: Prüfen Sie den Status aller externen Speichermedien, die mit dem Router verbunden sind, z. B. USB-Laufwerke oder TF-Karten.
     
     Diese Funktionen liefern wichtige Einblicke und Steuerelemente, damit Sie den Betrieb Ihres Routers effektiv verwalten und überwachen können.
 
-    Detaillierte Informationen finden Sie unter [Overview](../../interface_guide/system_overview.md).
+    Weitere Informationen finden Sie unter [Overview](../../interface_guide/system_overview.md).
 
 === "Admin Password"
 
-    Auf der Seite Admin Password können Sie das Passwort für die Administrationsoberfläche des Routers festlegen oder ändern, damit nur autorisierte Benutzer Einstellungen ändern können.
+    Auf der Seite Admin Password können Sie das Passwort für die Administrationsoberfläche des Routers verwalten, damit nur autorisierte Benutzer Einstellungen ändern können.
 
-    Aus Sicherheitsgründen empfehlen wir, **Prevent Weak Password** zu aktivieren.
-
-    Wenn **Prevent Weak Password** aktiviert ist, gelten für neue Passwörter folgende Anforderungen:
-
-    * mindestens 5 und höchstens 63 Zeichen
-    * Buchstaben (Groß-/Kleinschreibung wird unterschieden), Zahlen und die Symbole `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` sind zulässig
-    * Es müssen mindestens zwei der folgenden Kategorien enthalten sein: Großbuchstaben, Kleinbuchstaben, Zahlen und Symbole.
-
-    Detaillierte Informationen finden Sie unter [Admin Password](../../interface_guide/admin_password.md).
+    Weitere Informationen finden Sie unter [Admin Password](../../interface_guide/admin_password.md).
 
 === "Upgrade"
 
     Auf der Seite Upgrade können Sie die Firmware Ihres Routers auf die neueste Version aktualisieren, um Leistung, Sicherheit und neue Funktionen zu verbessern. Diese Seite bietet zwei Upgrade-Optionen:
 
-    * Firmware Online Upgrade: Prüft automatisch die neueste Firmware-Version direkt vom Hersteller-Server und installiert sie, was den Aktualisierungsvorgang vereinfacht.
+    * Firmware Online Upgrade: Prüft automatisch auf dem Server des Herstellers, ob die neueste Firmware-Version verfügbar ist. Wenn eine neuere Version online verfügbar ist, können Sie sie installieren.
     * Firmware Local Upgrade: Lädt eine Firmware-Datei manuell von Ihrem Computer hoch, sodass Sie Version und Zeitpunkt des Upgrades selbst bestimmen können.
 
-    Mit diesen Optionen halten Sie Ihren Router auf dem neuesten Stand und profitieren von den neuesten Verbesserungen und Fehlerbehebungen.
-
-    Detaillierte Informationen finden Sie unter [Upgrade](../../interface_guide/upgrade.md).
+    Weitere Informationen finden Sie unter [Upgrade](../../interface_guide/upgrade.md).
 
 ---
 
@@ -403,11 +392,11 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     * LCD Display Schedule: Legen Sie einen Zeitplan fest, um das LCD-Display des Routers automatisch ein- oder auszuschalten und so zu bestimmten Zeiten Lichtemissionen zu reduzieren.
     * Schedule Reboot: Konfigurieren Sie, dass Ihr Router in festgelegten Intervallen automatisch neu startet, um Leistung und Stabilität zu erhalten.
-    * Wi-Fi Status Schedule: Legen Sie einen Zeitplan für die 6-GHz-/5-GHz-/2,4-GHz-/MLO-Wi-Fi-Bänder fest, um Netzverfügbarkeit und Energieverbrauch besser zu steuern.
+    * Wi-Fi Status Schedule: Legen Sie einen Zeitplan zur Steuerung der 6-GHz-/5-GHz-/2,4-GHz-/MLO-Wi-Fi-Bänder fest, um die Netzwerkverfügbarkeit zu verwalten und den Stromverbrauch zu senken.
     
     Diese Zeitplanoptionen geben Ihnen mehr Kontrolle über den Betrieb Ihres Routers, damit er Ihren Anforderungen und Vorlieben entspricht.
 
-    Detaillierte Informationen finden Sie unter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
+    Weitere Informationen finden Sie unter [Scheduled Tasks](../../interface_guide/scheduled_tasks.md).
 
 === "Display Management"
 
@@ -419,13 +408,13 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
     ‒ Screen Always On: Mit dieser Option legen Sie fest, ob der Touchscreen dauerhaft eingeschaltet bleibt oder sich nach Inaktivität ausschaltet.
     ‒ Enable Screen Passcode: Legen Sie einen Passcode für den Touchscreen fest, um eine zusätzliche Sicherheitsebene zu schaffen.
 
-    Detaillierte Informationen finden Sie unter [Display Management](../../interface_guide/display_management.md).
+    Weitere Informationen finden Sie unter [Display Management](../../interface_guide/display_management.md).
 
 === "Time Zone"
 
     Auf der Seite Time Zone können Sie die korrekte Zeitzone für Ihren Router einstellen, damit alle geplanten Aufgaben, Protokolle und Systemereignisse korrekt mit Ihrer lokalen Uhrzeit versehen werden. Diese Einstellung ist entscheidend für genaue Aufzeichnungen und die ordnungsgemäße Ausführung zeitbasierter Konfigurationen.
 
-    Detaillierte Informationen finden Sie unter [Time Zone](../../interface_guide/time_zone.md).
+    Weitere Informationen finden Sie unter [Time Zone](../../interface_guide/time_zone.md).
 
 ---
 
@@ -433,13 +422,13 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
     Auf der Seite Toggle Button Settings können Sie die physische Umschalttaste Ihres Routers konfigurieren und ihr bestimmte Funktionen für schnellen Zugriff und einfache Steuerung zuweisen. Damit erhalten Sie praktische Kurzbefehle für häufig verwendete Aufgaben und Einstellungen, was die Benutzerfreundlichkeit verbessert und die Routerverwaltung vereinfacht.
 
-    Detaillierte Informationen finden Sie unter [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
+    Weitere Informationen finden Sie unter [Toggle Button Settings](../../interface_guide/toggle_button_settings.md).
 
 === "Reset Firmware"
 
     Auf der Seite Reset Firmware können Sie die aktuell installierte Firmware-Version Ihres Routers auf ihre Standardeinstellungen zurücksetzen und dabei alle benutzerdefinierten Konfigurationen löschen. Dieser Vorgang stellt die Standardwerte der derzeit installierten Firmware wieder her. Das ist nützlich, wenn Sie hartnäckige Probleme beheben oder mit der Standardkonfiguration der aktuellen Firmware neu beginnen möchten.
 
-    Detaillierte Informationen finden Sie unter [Reset Firmware](../../interface_guide/reset_firmware.md).
+    Weitere Informationen finden Sie unter [Reset Firmware](../../interface_guide/reset_firmware.md).
 
 === "Log"
 
@@ -453,10 +442,10 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
     
     Zusätzlich gibt es auf dieser Seite eine Schaltfläche **Export Log**, mit der Sie alle gesammelten Protokolle für die Analyse durch den technischen Support exportieren können. Diese Funktion ist besonders wertvoll, um komplexe Probleme zu diagnostizieren und professionelle Hilfe zu erhalten.
 
-    Detaillierte Informationen finden Sie unter [Log](../../interface_guide/log.md).
+    Weitere Informationen finden Sie unter [Log](../../interface_guide/log.md).
 
 === "Advanced Settings"
 
     Die Seite Advanced Settings bietet Zugriff auf erweiterte Konfigurationsoptionen über die OpenWrt-LuCI-Oberfläche. Erfahrene Benutzer können dort Routereinstellungen und Funktionen über die grundlegenden Optionen hinaus fein abstimmen. Dazu gehören detaillierte Netzwerkkonfigurationen, Firewall-Einstellungen und weitere erweiterte Systemanpassungen.
 
-    Detaillierte Informationen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
+    Weitere Informationen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).

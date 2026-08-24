@@ -1,6 +1,12 @@
 # Konfiguracja klienta WireGuard na routerach GL.iNet
 
-**Uwaga**: Ten przewodnik dotyczy oprogramowania v4.7 i nowszego. W przypadku wcześniejszych wersji zapoznaj się z dokumentacją [tutaj](wireguard_client_v4.6.md).
+Treść tej strony dotyczy wersji firmware v4.7 i nowszych. Jeśli urządzenie używa innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
+
+<div class="gl-link-select" data-label="Wersja firmware" data-placeholder="Firmware v4.7 and above" markdown="1">
+
+- [Firmware v4.6 and earlier](wireguard_client_v4.6.md)
+
+</div>
 
 ---
 

@@ -38,7 +38,7 @@ Connectez-vous au panneau d'administration web, puis accédez à **VPN** -> **Op
 
 1. Cliquez sur **Generate Configuration** (uniquement lors de la configuration initiale du serveur VPN).
 
-    ![ovpn server generate configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_generate_config.png){class="glboxshadow"}
+    ![ovpnserver generate config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_generate.png){class="glboxshadow"}
 
 2. Appliquez la configuration.
 
@@ -119,15 +119,47 @@ Si la connexion échoue, voici plusieurs causes fréquentes :
 * Le port utilisé par le serveur OpenVPN est bloqué par votre fournisseur d'accès Internet. Changez de port ou contactez votre fournisseur d'accès Internet pour obtenir de l'aide.
 * Certains pays/régions peuvent bloquer la connexion VPN.
 
-## Accès de client à client
+## Server Options
 
-**Topologie réseau**
+Server Options regroupe des paramètres avancés côté serveur, notamment l’accès à distance au LAN du serveur et le masquage d’adresse IP. Configurez-les selon vos besoins.
 
-![ptptopology](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ptptopology.jpg){class="glboxshadow"}
+Avec le micrologiciel v4.8 ou une version ultérieure, accédez à **OpenVPN Server**, puis cliquez sur **Options** dans l’angle supérieur droit.
 
-Activez l'option client to client et exportez une nouvelle configuration vers les clients ; ils pourront alors communiquer entre eux.
+![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options1.png){class="glboxshadow"}
 
-![peertopeer](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/peertopeer.jpg){class="glboxshadow"}
+Avec le micrologiciel v4.7 ou une version antérieure, accédez à **VPN Dashboard** -> **VPN Server**, puis cliquez sur l’icône en forme d’engrenage pour ouvrir OpenVPN Options.
+
+![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options2.jpg){class="glboxshadow"}
+
+La fenêtre contextuelle présente les fonctions suivantes.
+
+![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options3.png){class="glboxshadow"}
+
+- **Allow Remote Access to the LAN Subnet** : lorsque cette option est activée, les ressources du sous-réseau LAN du serveur sont accessibles via le tunnel VPN.
+
+- **IP Masquerading** : lorsque cette option est activée, les adresses IP source des clients LAN sont remplacées par l’adresse IP du tunnel VPN du routeur. Désactivez-la uniquement dans les configurations site à site où le pair distant connaît vos sous-réseaux LAN.
+
+- **MTU** : abréviation de Maximum Transmission Unit. La valeur MTU définie pour le tunnel remplace celle du fichier de configuration.
+
+## Client to Client
+
+Client to Client est une fonction VPN côté serveur. Lorsqu’elle est activée, les clients VPN connectés peuvent communiquer entre eux au moyen de leurs adresses IP de tunnel VPN respectives.
+
+La topologie réseau est la suivante.
+
+![client-to-client topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ptptopology.jpg){class="glboxshadow"}
+
+Si nécessaire, procédez comme suit pour activer Client to Client sur votre serveur OpenVPN.
+
+1. Sur la page **OpenVPN Server**, cliquez sur **Advanced Configuration** dans l’angle inférieur droit.
+
+    ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_config_advanced.png){class="glboxshadow"}
+
+2. Activez **Client to Client**, puis cliquez sur **Apply**. Exportez ensuite une nouvelle configuration et importez-la sur vos clients OpenVPN.
+
+    ![client to client](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/client-to-client.png){class="glboxshadow"}
+
+**Conseil** : Client to Client annonce uniquement l’adresse IP de tunnel de chaque client. Les sous-réseaux LAN locaux situés derrière les différents clients VPN ne deviennent pas automatiquement accessibles. Pour permettre aux clients d’accéder aux sous-réseaux LAN des autres clients, ajoutez sur le serveur VPN des règles de routage qui annoncent ces sous-réseaux LAN distants.
 
 ## Installation de l'application OpenVPN
 

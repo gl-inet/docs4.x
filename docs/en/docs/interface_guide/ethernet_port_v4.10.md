@@ -74,7 +74,7 @@ Multiple VLANs mode allows multiple VLANs (Tagged) on one port, typically for co
 
 - **Negotiated Network Port Rate**: The negotiated link speed of the LAN interface, displayed only when a valid link is detected.
 
-- **VLAN Mode**: : To switch to Multiple VLANs mode, click the Multiple VLANs tab.
+- **VLAN Mode**: To switch to Multiple VLANs mode, click the Multiple VLANs tab.
 
 - **Untagged Traffic Handling**: Configure untagged packet handling for the port. You can select to either drop such packets directly or forward them to another subnet as the native PVID network.
 

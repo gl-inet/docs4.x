@@ -22,11 +22,11 @@ Aby powiązać konto GL.iNet, wykonaj następujące czynności.
 
     ![bind account](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/bind_account.png){class="glboxshadow"}
 
-3. Zaloguj się na konto GL.iNet. Jeśli nie masz konta, zarejestruj je i zaloguj się.
+2. Zaloguj się na konto GL.iNet. Jeśli nie masz konta, zarejestruj je i zaloguj się.
 
     ![login goodcloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/loin_goodcloud.png){class="glboxshadow" width=350}
 
-4. Po zalogowaniu urządzenie zostanie powiązane z kontem, a strona wyświetli pola **Bound Account** i **Bound Time**.
+3. Po zalogowaniu urządzenie zostanie powiązane z kontem, a strona wyświetli pola **Bound Account** i **Bound Time**.
 
     ![account 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/account_1.png){class="glboxshadow"}
 

@@ -22,11 +22,11 @@ GL.iNetアカウントを関連付けるには、次の手順を実行します�
 
     ![bind account](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/bind_account.png){class="glboxshadow"}
 
-3. GL.iNetアカウントでログインします。アカウントがない場合は、登録してからログインしてください。
+2. GL.iNetアカウントでログインします。アカウントがない場合は、登録してからログインしてください。
 
     ![login goodcloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/loin_goodcloud.png){class="glboxshadow" width=350}
 
-4. ログインするとデバイスがアカウントに関連付けられ、ページに**Bound Account**と**Bound Time**が表示されます。
+3. ログインするとデバイスがアカウントに関連付けられ、ページに**Bound Account**と**Bound Time**が表示されます。
 
     ![account 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/account_1.png){class="glboxshadow"}
 

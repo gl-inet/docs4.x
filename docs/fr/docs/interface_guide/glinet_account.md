@@ -22,11 +22,11 @@ Pour associer votre compte GL.iNet, procédez comme suit.
 
     ![bind account](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/bind_account.png){class="glboxshadow"}
 
-3. Connectez-vous avec votre compte GL.iNet. Si vous n’avez pas de compte, créez-en un, puis connectez-vous.
+2. Connectez-vous avec votre compte GL.iNet. Si vous n’avez pas de compte, créez-en un, puis connectez-vous.
 
     ![login goodcloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/loin_goodcloud.png){class="glboxshadow" width=350}
 
-4. Une fois connecté, votre appareil est associé à votre compte et la page affiche **Bound Account** et **Bound Time**.
+3. Une fois connecté, votre appareil est associé à votre compte et la page affiche **Bound Account** et **Bound Time**.
 
     ![account 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/account_1.png){class="glboxshadow"}
 

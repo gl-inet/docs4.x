@@ -22,11 +22,11 @@ To bind your GL.iNet Account, please follow the steps below.
 
     ![bind account](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/bind_account.png){class="glboxshadow"}
 
-3. Log in with your GL.iNet account. If you don't have an account, sign up for one and log in. 
+2. Log in with your GL.iNet account. If you don't have an account, sign up for one and log in.
 
     ![login goodcloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/loin_goodcloud.png){class="glboxshadow" width=350}
 
-4. After logging in, your device will be bound to your account, and the page displays the **Bound Account** and **Bound Time**.
+3. After logging in, your device will be bound to your account, and the page displays the **Bound Account** and **Bound Time**.
 
     ![account 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/account_1.png){class="glboxshadow"}
 

@@ -54,6 +54,9 @@ plugins:
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
         'interface_guide/sms.md': 'tutorials/sms.md'
 
+hooks:
+  - ../../scripts/alternate_links.py
+
 extra:
   analytics:
     feedback:
@@ -85,6 +88,9 @@ extra:
   version:
     provider: mike
   alternate:
+    - name: Français
+      link: /router/fr/4/
+      lang: fr
     - name: English
       link: /router/en/4/
       lang: en
@@ -94,9 +100,6 @@ extra:
     - name: Español
       link: /router/es/4/
       lang: es
-    - name: Français
-      link: /router/fr/4/
-      lang: fr
     - name: Italiano
       link: /router/it/4/
       lang: it

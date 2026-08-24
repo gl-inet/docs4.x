@@ -28,7 +28,7 @@ https://static.gl-inet.com/docs/router/en/4/tutorials/activate_top_up_sim_card/s
 
 Activation may take up to 24 hours to complete. Upon successful activation, you will get a confirmation email and can start using the SIM card. The SIM card will be valid for 30 days after activation. After that, you will have to top up your SIM card to continue using it. 
 
-## How to top up T-Moible SIM cards
+## How to top up T-Mobile SIM cards
 
 After 30 days, you can top up your SIM card at $80/month by following these steps: 
 

@@ -94,7 +94,7 @@ Some hotels limit the number of devices each customer can connect to the hotel's
 
     For some older models, the MAC address may not be available in the Wi-Fi settings. In this case, the device may use its real MAC address when connecting to public Wi-Fi, which can be found in your phone's Settings > About (or "About Phone").
 
-2. Connect your phone or computer to the router. Log in to the router's web Admin Panel, then clone or manually input this MAC access.
+2. Connect your phone or computer to the router. Log in to the router's web Admin Panel, then clone or manually input this MAC address.
 
     **For firmware v4.5 and earlier**, please select NETWORK from the left side -> MAC Address.
 

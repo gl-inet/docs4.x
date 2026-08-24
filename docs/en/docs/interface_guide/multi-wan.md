@@ -63,25 +63,21 @@ This sensitivity determines the time interval for Internet status detection.
 
 **Tips**: Switching to high sensitivity may lead to network disconnection, please adjust it with caution.
 
-## Multi-WAN Method
+## Multi-WAN Mode
 
-There are two methods: **Failover** and **Load Balance**. Failover is enabled by default when there are multi-wan connections.
-
-**Failover** and **Load Balance** are mutually exclusive and you can only use one of them.
+There are two modes for Multi-WAN: **Failover** and **Load Balance**. They are mutually exclusive and you can only use one of them.
 
 ### Failover
 
+Failover is the default mode when there are multi-wan connections. If the active link fails, the router will automatically switch to another network interface for Internet access.
+
 ![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/failover.png){class="glboxshadow"}
 
-You can set the priority of each interface, when the interface being used fails, the router will automatically switch to another available highest priority interface.
-
-For example, if the router has been set up with two types of Internet access, **Ethernet** and **Repeater**, and the priority of Ethernet is 1, the priority of Repeater is 2, the priority of Ethernet is higher than Repeater, so the router will use the Ethernet to access Internet. If you unpluged the ethernet cable, the Ethernet interface will become unavailable, then the router will automatically switch to Repeater interface to access Internet.
-
-Once the Ethernet connection is restored, the router will automatically switch back to the Ethernet to access Internet as it has higher priority.
+You can set the priority of each interface: when the currently used interface fails, the router switches to the next available interface with the highest priority. Once a higher-priority connection is restored, the router will automatically switch back to it.
 
 ### Load Balance
 
-**Load Balance** enables multiple network links to be used simultaneously, increasing bandwidth and improving total throughput.  
+Load Balance enables multiple network links to be used simultaneously, increasing bandwidth and improving total throughput.  
 
 The **Load Ratio** determines traffic distribution among interfaces, with the system distributing new connections to each interface according to the configured ratio.
 
@@ -91,11 +87,11 @@ The following two load ratios are available for configuration:
 
 - **Default Load Ratio**
 
-If the router is connected to four networks (Ethernet, Repeater, Tethering and Cellular) at the same time, and all four network interfaces are available to access the Internet, then enabling Load Balance and setting 1:1:1:1 means that the four network interfaces will load the network bandwidth averagely, as the system will assign these four interfaces to new connections based on the set load ratio 1:1:1:1.
+    If the router is connected to four networks (Ethernet, Repeater, Tethering and Cellular) at the same time, and all four network interfaces are available to access the Internet, then enabling Load Balance and setting 1:1:1:1 means that the four network interfaces will load the network bandwidth averagely, as the system will assign these four interfaces to new connections based on the set load ratio 1:1:1:1.
 
 - **Customize Load Ratio**
 
-If the Ethernet bandwidth is 200 Mbps, the Repeater Wi-Fi bandwidth is 100 Mbps, and no Tethering or Cellular connections are active, you can set the load ratios to 2 for Ethernet, 1 for Repeater, and 0 for Tethering/Cellular. The system allocates new connections based on the configured 2:1 ratio, allowing Ethernet to process approximately twice the connections handled by Repeater. Compared with the Failover mode, this optimizes the overall throughput efficiency by balancing the load across available interface.
+    If the Ethernet bandwidth is 200 Mbps, the Repeater Wi-Fi bandwidth is 100 Mbps, and no Tethering or Cellular connections are active, you can set the load ratios to 2 for Ethernet, 1 for Repeater, and 0 for Tethering/Cellular. The system allocates new connections based on the configured 2:1 ratio, allowing Ethernet to process approximately twice the connections handled by Repeater. Compared with the Failover mode, this optimizes the overall throughput efficiency by balancing the load across available interface.
 
 **Note:** Alive connections or traffic are not ensured to match the load ratio. It is closer to this ratio if it has been used for a longer time.
 

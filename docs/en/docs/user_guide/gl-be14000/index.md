@@ -1,38 +1,29 @@
-# Slate 7 Pro (GL-BE10000) User Guide
+# Flint 4 (GL-BE14000) User Guide
 
 ## Product overview
 
-Slate 7 Pro (GL-BE10000) is a tri‑band Wi‑Fi 7 portable travel router. As an upgraded version of Slate 7 (GL-BE3600), it features a larger touchscreen on the top, and is equipped with 1GB DDR4 RAM and 512MB NAND flash storage for stable performance and plugin compatibility. It delivers high VPN speeds of up to 1,100 Mbps for WireGuard® and 1,000 Mbps for OpenVPN-DCO. With 2× 2.5G Ethernet ports (1 WAN + 1 LAN), 1× USB-C 3.0 port and PD power support, it provides strong connectivity and convenience for travel and mobile use.
+Flint 4 (GL‑BE14000) redefines what a home router can be. It features tri‑band Wi‑Fi 7 with MLO, delivering peak rates of 688 Mbps (2.4 GHz) + 4323 Mbps (5 GHz) + 8646 Mbps (6 GHz). For wired connectivity, it comes with a full multi‑gig wired backbone, including one 10G SFP+ WAN/LAN port, one 10GE WAN/LAN port, one 2.5GE WAN/LAN port, three 2.5GE LAN ports and four 1GE LAN ports. Supporting high‑performance VPN, it achieves throughput up to 1.5 Gbps for both WireGuard® and OpenVPN DCO. A 2.4‑inch touchscreen display is also equipped on‑board, enabling real‑time network‑status monitoring and allowing users to view key network metrics directly on the hardware device.
 
-![gl-be10000 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/hardware/be10000_interface.png){class="glboxshadow"}
+![be14000 interfaces](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/hardware/be14000_interfaces.png){class="glboxshadow"}
 
 ## Package contents
 
-The package includes:
-
-- 1 x Slate 7 Pro (GL-BE10000)
-- 1 x User manual
-- 1 x Thank you card
+- 1 x Flint 4 (GL-BE14000)
+- 1 x Power adapter
 - 1 x Ethernet cable
-- 1 x Power cable
-- 1 x Power Adapter
-- 4 x Converters (US, EU, UK, and AU Plugs)
+- 1 x User Manual
+- 1 x Thank you card
+- 1 x Converter (Based on your shipping country)
 
-Check out Slate 7 Pro's unboxing video below.
+Check out Flint 4's unboxing video below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x48iKZaLaN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Touchscreen
+## How to set up Flint 4
 
-| Screen Display                    | Description         |
-| :-------------------------------- | :------------------ |
-| ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){width="500"} | Starting up |
-| ![set up admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){width="400"} | Set admin password |
-| ![set up wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){width="400"} | Set Wi-Fi |
-| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Home screen<br></br>**Left**: System time, network speed, and shortcuts for Wi-Fi, Clients, VPN, and other functions.<br>**Right**: Four connection modes: Ethernet, Repeater, Tethering, and Cellular |
-| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Network status<br></br>**Blue**: Active / Connected to Internet<br>**Yellow**: Connecting / Network Failure<br>**White**: Inactive connection
+Watch this setup video or follow the steps below. 
 
-## How to set up Slate 7 Pro
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N3zw02XGFSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Power on
 
@@ -52,64 +43,74 @@ Connect a device (e.g., computer, laptop or smartphone) to the router using Wi-F
 
 ### 3. Log in to web Admin Panel
 
-Open a web browser, enter `192.168.8.1` in the address bar and log in. Choose a language and set your admin password, then click **Apply**. 
+Open a web browser, enter `192.168.8.1` in the address bar and log in. Set your admin password and Wi-Fi details, then click **Apply**.
 
 ### 4. Internet setup
 
-Configure your Slate 7 Pro using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
+Configure your Flint 4 using one of the supported internet connection methods: Ethernet (SFP+), Ethernet (RJ45), Repeater, Tethering, and Cellular. If you want to use the [Multi-WAN](../../interface_guide/multi-wan.md) feature, please set up more than one internet connection.
 
-=== "Ethernet"
+=== "Ethernet (SFP+)"
 
-    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_ethernet.jpg){class="glboxshadow"}
+    ![Ethernet SFP+](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/internet/be14000_10g-sfp.png){class="glboxshadow"}
     
-    1. Connect the Slate 7 Pro's WAN port to an upstream device (e.g., ISP modem, network switch, or wall Ethernet jack) using an Ethernet cable. 
-    2. Slate 7 Pro will automatically attempt to obtain network parameters, such as IP address, gateway, and DNS server, to establish an Ethernet connection.
-    3. Once successfully connected to the internet, the Ethernet section on the touchscreen homepage will turn blue (active). You can either tap Ethernet on the touchscreen or log in to the web admin panel to check the connection details.
+    Flint 4 comes with a 10G SFP+ WAN/LAN port, designed for fiber uplinks, high‑speed switch backhaul, and high‑performance network expansion. This port is set to WAN by default and can be switched to LAN if needed.
+
+    Below is an example of connecting the Flint 4's 10G SFP+ port to ISP fiber uplink via an optical transceiver and fiber cable for internet access. Please refer to [Connecting the 10G SFP+ port on Flint 4](../../faq/connecting_10g_sfp_plus_port_on_flint4.md) for more solutions.
+
+    1. Insert a compatible 10G SFP+ transceiver into Flint 4's SFP+ port, then connect it to your ISP fiber uplink.  
+    2. Flint 4 will attempt to obtain network parameters (IP address, gateway, DNS) automatically via DHCP. If your ISP requires PPPoE or static IP addressing, adjust the WAN connection settings in the web Admin Panel accordingly.
+    3. Once successfully connected to the internet, the Ethernet section on the touchscreen homepage will turn blue (active). You can either tap Ethernet on the touchscreen or log in to the web admin panel to check connection details.
+
+=== "Ethernet (RJ45)"
+
+    ![Ethernet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/internet/be14000_ethernet.png){class="glboxshadow"}
+    
+    1. Connect the Flint 4's WAN port to an upstream device (e.g., ISP modem, network switch, or wall Ethernet jack) using an Ethernet cable. 
+    2. Flint 4 will attempt to obtain network parameters (IP address, gateway, DNS) automatically via DHCP. If your ISP requires PPPoE or static IP addressing, adjust the WAN connection settings in the web Admin Panel accordingly.
+    3. Once successfully connected to the internet, the Ethernet section on the touchscreen homepage will turn blue (active). You can either tap Ethernet on the touchscreen or log in to the web admin panel to check connection details.
 
 === "Repeater"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_repeater.jpg){class="glboxshadow"}
+    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/internet/be14000_repeater.png){class="glboxshadow"}
 
     1. Tap **Repeater** on the touchscreen. It will start scanning for available Wi-Fi networks.
-    2. Select the Wi-Fi network you want Slate 7 Pro to extend. 
+    2. Select the Wi-Fi network you want Flint 4 to extend. 
     3. Enter the password and tap **Apply**.
-    4. Once successfully connected to the internet, the Repeater section on the touchscreen homepage will turn blue (active). You can either tap Repeater on the touchscreen or log in to the web admin panel to check the connection details.
+    4. Once successfully connected to the internet, the Repeater section on the touchscreen homepage will turn blue (active). You can either tap Repeater on the touchscreen or log in to the web admin panel to check connection details.
 
 === "Tethering"
 
-    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_tethering.jpg){class="glboxshadow"}
+    ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/internet/be14000_tethering.png){class="glboxshadow"}
 
-    1. Connect your mobile device (e.g., smartphone or USB dongle) to the router's USB port using a USB cable. 
+    1. Connect a mobile device (e.g., smartphone) to the Flint 4's USB port via a USB cable. 
     2. On your mobile device, go to Settings and enable **USB Tethering** or **Personal Hotspot**. For iPhone, tap **Trust This Device** if prompted. 
-    3. On the Slate 7 Pro's touchscreen, select **Tethering** and tap **Connect**. It will then connect to your device.
-    4. Once successfully connected to the internet, the Tethering section on the touchscreen homepage will turn blue (active). You can either tap Tethering on the touchscreen or log in to the web admin panel to check the connection details.
+    3. On the Flint 4's touchscreen, select **Tethering** and tap **Connect**. It will then connect to your device.
+    4. Once successfully connected to the internet, the Tethering section on the touchscreen homepage will turn blue (active). You can either tap Tethering on the touchscreen or log in to the web admin panel to check connection details.
 
-    **Note**: If the connection fails, make sure the power supply voltage is above 9V 3A, as low power supply may prevent the USB port from powering up. Repeat the steps above, or log in to the web admin panel to check the Tethering connection status.
+    **Note**: If the connection fails, make sure the power supply voltage is 12V 4A, as low power supply may prevent the USB port from powering up. Repeat the steps above, or log in to the web admin panel to check the Tethering connection status.
 
 === "Cellular"
 
-    ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/internet/be10000_cellular.jpg){class="glboxshadow"}
+    ![cellular connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/internet/be14000_cellular.png){class="glboxshadow"}
 
-    1. Plug a cellular USB modem into the Slate 7 Pro's USB port. This is useful for sharing internet from a USB modem to all connected devices.
-    2. Once successfully connected to the internet, the Cellular section on the touchscreen homepage will turn blue (active). You can either tap Cellular on the touchscreen or log in to the web admin panel to check the connection details.
+    1. Plug a cellular modem or USB dongle into the Flint 4's USB port. This is useful for sharing internet from a USB modem to all connected devices.
+    2. Once successfully connected to the internet, the Cellular section on the touchscreen homepage will turn blue (active). You can either tap Cellular on the touchscreen or log in to the web admin panel to check connection details.
 
 ---
 
-Below is an overview of the features in the Slate 7 Pro web Admin Panel.
+Below is an overview of the features in the Flint 4 web Admin Panel.
 
 ## Wireless 
 
-The Wireless page allows you to configure settings for the 6GHz, 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel. 
-    
-In addition, Slate 7 Pro supports MLO Wi-Fi, i.e. Multi-Link Operation, combining multiple wireless networks simultaneously to achieve higher bandwidth and more reliable connections.
+The Wireless page allows you to configure various Wi-Fi networks for your Flint 4, including MLO Wi-Fi, Main Network, Guest Network and IoT Network.
 
-To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
+Please refer to [Wireless](../../interface_guide/wireless.md) for details.
 
 ## Clients
 
 The Clients page displays information about connected devices. For each client, it shows the name, IP and MAC addresses, download and upload speeds, total traffic, and provides the ability to block the client or perform other actions.
 
-To set up Clients, refer to [Clients](../../interface_guide/clients.md).
+Please refer to [Clients](../../interface_guide/clients.md) for details.
 
 ## Cloud Services
 
@@ -117,28 +118,28 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} provides an easy and simple way to remotely access and manage GL.iNet routers. 
     
-    To set up GoodCloud, refer to [GoodCloud](../../interface_guide/cloud.md).
+    Please refer to [GoodCloud](../../interface_guide/cloud.md) for details.
 
 === "AstroWarp"
 
     AstroWarp is an advanced networking feature integrated into GL.iNet routers. It enables seamless remote access to your home network without registration or login. Using the AmneziaWG protocol with built-in traffic obfuscation, it keeps your connection stable and secure, making it ideal for reliable remote access wherever you go. Users can set up an AstroWarp network directly through the GL.iNet router admin panel. Simply pair your routers using an access code and you can securely connect your travel router to your home network in seconds.
     
-    To set up AstroWarp, refer to [AstroWarp](../../interface_guide/astrowarp.md).
+    Please refer to [AstroWarp](../../interface_guide/astrowarp.md) for details.
 
 ## VPN 
 
-A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Slate 7 Pro supports OpenVPN and WireGuard protocols. 
+A VPN (virtual private network) creates a secure, encrypted traffic between your device and the VPN server. It provides an added layer of privacy and security (VPN client) and allows you to access a remote network (VPN server). Flint 4 supports OpenVPN and WireGuard protocols. 
 
 === "OpenVPN" 
     
-    Slate 7 Pro (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, follow these tutorials:
+    Flint 4 (and other GL.iNet routers) support the OpenVPN protocol which offers strong security. To set up OpenVPN, refer to the tutorials below:
 
     * [How to set up an OpenVPN client](../../interface_guide/openvpn_client.md)
     * [How to set up an OpenVPN server](../../interface_guide/openvpn_server.md)
 
 === "WireGuard"
 
-    Slate 7 Pro (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, follow these tutorials:
+    Flint 4 (and other GL.iNet routers) support the WireGuard protocol which offers great speeds and convenience. To set up WireGuard, refer to the tutorials below:
 
     * [How to set up a WireGuard client](../../interface_guide/wireguard_client.md)
     * [How to set up a WireGuard server](../../interface_guide/wireguard_server.md)
@@ -149,19 +150,19 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
 
-    To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
+    Please refer to [Multi-WAN](../../interface_guide/multi-wan.md) for details. 
 
-=== "LAN"
+=== "Subnet"
 
-    LAN, or Local Area Network, is a network that connects computers and devices within a limited geographical area, such as a home or office. It enables high-speed data transfer and resource sharing, allowing devices to communicate with each other efficiently. 
-    
-    To set up LAN, refer to [LAN](../../interface_guide/lan.md). 
+    The Subnet page centralizes management of LAN, Guest Network, IoT Network, and custom VLAN Networks, allowing you to create and manage multiple subnets to isolate different types of devices or traffic.
 
-=== "Guest Network"
+    Please refer to [Subnet](../../interface_guide/subnet.md) for details. 
 
-    It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
+=== "Ethernet Port"
 
-    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
+    The Ethernet Port page allows you to manage Ethernet port role (WAN/LAN) and VLAN segmentation, as well as viewing port details such as MAC address and negotiated speed.
+
+    Please refer to [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md) for details.
 
 ---
 
@@ -169,39 +170,33 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The DNS page allows you to set custom DNS servers, enable DNS rebinding attack protection and override DNS settings of all clients, allow custom DNS to override VPN DNS, and configure the DNS server settings mode to automatic or manually specify DNS servers from the Ethernet connection.
 
-    To set up DNS, refer to [DNS](../../interface_guide/dns.md).
-
-=== "Ethernet Port"
-
-    The Ethernet Port page allows you to manage Ethernet port role (WAN/LAN), specify the MAC mode and MAC address for the WAN interface, and view the negotiated network port rate.
-
-    To manage Ethernet ports, refer to [Ethernet Port](../../interface_guide/ethernet_port.md).
+    Please refer to [DNS](../../interface_guide/dns.md) for details. 
 
 === "IPv6"
 
     IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
     
-    To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
-
----
+    Please refer to [IPV6](../../interface_guide/network_mode.md) for details.
 
 === "IGMP Snooping"
 
     IGMP snooping is a network optimization technique used in Ethernet switches to manage and control multicast traffic. 
     
-    To set up IGMP snooping, refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md).
+    Please refer to [IGMP Snooping](../../interface_guide/igmp_snooping.md) for details.
+
+---
 
 === "Network Mode"
 
     Network mode refers to the various operational roles and functions that a router can assume to meet different network deployment needs. Common network modes for router include router mode, extender mode, and access point mode.
     
-    To set up network mode, refer to [Network Mode](../../interface_guide/network_mode.md).
+    Please refer to [Network Mode](../../interface_guide/network_mode.md) for details.
 
 === "Drop-in Gateway"
 
     Drop-in Gateway is a flexible feature that enables capability expansion for an existing main router without replacing or reconfiguring it. By setting a GL.iNet router as the Drop-in Gateway, you can add advanced features onto the existing network infrastructure, such as AdGuard Home, VPN, encrypted DNS, etc.
-    
-    To set up drop-in gateway, refer to these links:
+
+    Please refer to the links below to set up drop-in gateway.
     
     - [Drop-in Gateway](../../interface_guide/drop-in_gateway.md)
     - [How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)
@@ -210,7 +205,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Network acceleration can reduce CPU load and speeds up traffic packet forwarding.
     
-    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
+    Please refer to [Network Acceleration](../../interface_guide/network_acceleration.md) for details.
 
 ## Flow Control
 
@@ -236,12 +231,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
-=== "Parental Control"
-
-    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
-
-    Please refer to [Parental Control](../../interface_guide/parental_control.md) for details.
-
 === "QoS"
 
     QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical activities (e.g., video calls, gaming) during network congestion, reducing latency and improving overall network performance. Note that this applies to local client traffic and VPN Client tunnel traffic, but not to traffic received when the router functions as a VPN Server.
@@ -254,6 +243,12 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [SQM](../../interface_guide/sqm.md) for details.
 
+=== "Parental Control"
+
+    Parental Control is designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
+
+    Please refer to [Parental Control](../../interface_guide/parental_control_v4.9.md) for details.
+
 ## Security
 
 === "Port Forwarding"
@@ -261,6 +256,12 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     Port forwarding allows remote servers and devices on the internet to access devices on a private network. 
     
     Please refer to [Port Forwarding](../../interface_guide/port_forwarding.md) for details.
+
+=== "ACL"
+
+    ACL, short for Access Control List, lets you create rules to manage network traffic based on connection protocols, device addresses and ports. It controls whether to allow or block network access. If multiple ACL rules conflict, the system applies the one with higher priority.
+
+    Please refer to [ACL](../../interface_guide/acl.md) for details.
 
 === "Admin Access"
 
@@ -284,19 +285,19 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     A plug-in is a software component that adds specific features or functionalities to an existing computer program, allowing for customization and enhancement of its capabilities. 
     
-    To set up plug-ins, refer to [Plug-ins](../../interface_guide/plugins.md).
+    Please refer to [Plug-ins](../../interface_guide/plugins.md) for details.
 
 === "Dynamic DNS"
 
     Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
     
-    To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    Please refer to [Dynamic DNS](../../interface_guide/ddns.md) for details. 
 
 === "Network Storage"
 
     Network storage refers to a centralized data storage solution that allows multiple users and devices to access and share files over a network. 
     
-    To set up network storage, refer to [Network Storage](../../interface_guide/network_storage.md).
+    Please refer to [Network Storage](../../interface_guide/network_storage.md) for details.
 
 ---
 
@@ -304,25 +305,31 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     AdGuard Home is a network-wide ad and tracker blocking solution that acts as a DNS server to filter unwanted content across all devices connected to a home network. 
     
-    To set up AdGuard Home, refer to [AdGuard Home](../../interface_guide/adguardhome.md).
+    Please refer to [AdGuard Home](../../interface_guide/adguardhome.md) for details.
+
+=== "Bark"
+
+    Integrated in Flint 4, the Bark service can help protect your child's digital world and provide comprehensive online protection. It typically requires a paid subscription. However, as part of our partnership with Bark, GL.iNet offers the Bark Home plan for free on select router models including Flint 4, providing advanced monitoring and alerts at no extra cost.
+
+    Please refer to [Bark](../../interface_guide/bark.md) for details.
 
 === "Tailscale"
 
     Tailscale is a VPN service that allows you to access your devices and applications anywhere. 
     
-    To set up Tailscale, refer to [Tailscale](../../interface_guide/tailscale.md).
+    Please refer to [Tailscale](../../interface_guide/tailscale.md) for details.
 
 === "ZeroTier"
 
     ZeroTier is a software-defined networking solution that enables users to create secure, virtual networks over the internet, connecting devices as if they were on the same local network. 
     
-    To set up ZeroTier, refer to [ZeroTier](../../interface_guide/zerotier.md).
+    Please refer to [ZeroTier](../../interface_guide/zerotier.md) for details.
 
 === "Tor"
 
     Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities. 
     
-    To set up Tor, refer to [Tor](../../interface_guide/tor.md).
+    Please refer to [Tor](../../interface_guide/tor.md) for details.
 
 ## System
 
@@ -359,7 +366,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Scheduled Tasks"
 
-    The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
+    The Scheduled Tasks page allows you to automate various router functions based on a pre-defined schedule, enhancing convenience and efficiency. Key features on this page include:
 
     * LCD Display Schedule: Set a schedule to automatically turn the router's LCD display on or off, reducing light pollution during specific times.
     * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
@@ -389,12 +396,6 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ---
 
-=== "Toggle Button Settings"
-
-    The Toggle Button Settings page allows you to configure the physical toggle button on your router, enabling you to assign specific functions to the button for quick access and control. This feature provides convenient shortcuts for common tasks and settings, enhancing the user experience and simplifying router management.
-
-    Please refer to [Toggle Button Settings](../../interface_guide/toggle_button_settings.md) for details.
-
 === "Reset Firmware"
 
     The Reset Firmware page allows you to reset your router's current firmware version to its default settings, erasing all custom configurations. This process will restore the router to the default settings of the currently installed firmware version. This can be useful for troubleshooting persistent issues or starting fresh with the current firmware's default configuration.
@@ -423,53 +424,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 ## Regulatory Statements
 
-**Canadian Compliance Statement**
-
-This device contains licence-exempt transmitter(s)/receiver(s) that comply with Innovation, Science and Economic Development Canada's licence-exempt RSS(s).  
-Operation is subject to the following two conditions:  
-(1) This device may not cause interference.  
-(2) This device must accept any interference, including interference that may cause undesired operation of the device.  
-
-**IC Statement**  
-Devices shall not be used for control of or communications with unmanned aircraft systems.  
-Devices shall not be used on oil platforms.  
-Devices shall not be used on aircraft, except for the low-power indoor access points, indoor subordinate devices, low-power client devices, and very low-power devices operating in the 5925-6425 MHz band, that may be used on large aircraft as defined in the Canadian Aviation Regulations, while flying above 3,048 metres (10,000 feet).  
-Devices shall not be used on automobiles.  
-Devices shall not be used on trains.  
-Devices shall not be used on maritime vessels.  
-Low-power indoor access points and indoor subordinate devices shall bear a statement acknowledging the following restriction in the user manual and, where feasible, in a conspicuous location on the device: Operation shall be limited to indoor use only.
-
-Déclaration d'IC:  
-L'équipement ne doit pas être utilisé pour contrôler ou communiquer avec les systèmes d'aéronefs sans pilote.  
-L'équipement ne doit pas être utilisé sur une plate-forme pétrolière.  
-L'équipement ne doit pas être utilisé à bord d'un aéronef, à l'exception des points d'accès intérieurs de faible puissance, de l'équipement esclave intérieur, de l'équipement client de faible puissance et de l'équipement de très faible puissance fonctionnant dans la bande 5925 - 6425 MHz qui peuvent être utilisés sur de gros aéronefs tels que définis dans le règlement de l'aviation canadien et volant à des altitudes supérieures à 3,048 m (10,000 FT).  
-L'équipement ne doit pas être utilisé dans la voiture.  
-L'équipement ne doit pas être utilisé à bord du train.  
-L'équipement ne doit pas être utilisé à bord des navires en mer.  
-Les points d'accès intérieurs de faible consommation d'énergie et les dispositifs d'asservissement intérieurs doivent indiquer les limites suivantes dans le manuel de l'utilisateur et, si possible, à un endroit bien en vue de l'appareil: le fonctionnement doit être limité à un usage intérieur.
-
-The functions of Wireless Access Systems including Radio Local Area Networks(WAS/RLANs) within the band 5150-5350 MHz and 5945-6425 MHz for this device are restricted to indoor use only within all European Union countries.
-
----
-
-L'émetteur/récepteur exempt de licence contenu dans le présent appareil est conforme aux CNR d'Innovation, Sciences et Développement économique Canada applicables aux appareils radio exempts de licence.  
-L'exploitation est autorisée aux deux conditions suivantes:  
-(1) L'appareil ne doit pas produire de brouillage;  
-(2) L'appareil doit accepter tout brouillage radioélectrique subi, même si le brouillage est susceptible d'en compromettre le fonctionnement.
-
-This equipment complies with IC RSS-102 radiation exposure limits set forth for an uncontrolled environment.  
-This equipment should be installed and operated with minimum distance 20 cm between the radiator and your body.
-
-Cet équipement est conforme aux limites d'exposition aux radiations IC CNR-102 établies pour un environnement non contrôlé.  
-Cet équipement doit être installé et utilisé avec une distance minimale de 20 cm entre le radiateur et votre corps.
-
----
-
-The user manual for LE-LAN devices shall contain instructions related to the restrictions mentioned in the above sections, namely that:  
-i. the device for operation in the band 5150-5250 MHz is only for indoor use to reduce the potential for harmful interference to co-channel mobile satellite systems;  
-i. le dispositif utilisé dans la bande 5150-5250 MHz est réservé à une utilisation en intérieur afin de réduire le risque de brouillage préjudiciable aux systèmes mobiles par satellite dans le même canal.
-
-Hereby, GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment type [BE10000 Wi-Fi 7 Router, GL-BE10000] is in compliance with the essential requirements and other relevant provisions of Directive 2014/53/EU. The full text of the EU declaration of conformity is available at [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
+GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment type [BE14000 Wi-Fi 7 Router, GL-BE14000] is in compliance with the essential requirements and other relevant provisions of Directive 2014/53/EU. The full text of the EU declaration of conformity is available at [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
 
 For EU:  
 Maximum output power:  

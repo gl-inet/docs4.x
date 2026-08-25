@@ -48,11 +48,11 @@ Connectez-vous au panneau d'administration web, puis accédez à **VPN** -> **Wi
 
     (L'IPv6 est désactivé par défaut sur GL.iNet. Si vous souhaitez utiliser une adresse IPv6, activez d'abord IPv6 sur votre routeur.)
 
-    Si vous constatez que l'adresse IPv4 entre en conflit avec la passerelle du routeur amont, remplacez-la par une autre, par exemple **10.1.0.1/24**, puis cliquez sur **Apply**. Veillez à conserver la notation CIDR `/24` afin d'éviter des problèmes de connectivité.
+    L’adresse IPv4 est l’adresse IP du tunnel du serveur WireGuard. Si elle entre en conflit avec la passerelle du routeur en amont, remplacez-la par une autre, par exemple **10.1.0.1/24**, puis cliquez sur **Apply**. Veillez à conserver la notation CIDR « /24 » afin d’éviter des problèmes de connectivité.
 
     ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_configuration.png){class="glboxshadow"}
 
-    Par exemple, si un routeur Xfinity se trouve en amont du routeur GL.iNet, son adresse IP peut être `10.0.0.1`, ce qui entre en conflit avec l'adresse IP du tunnel WireGuard lorsque le routeur GL.iNet est configuré comme serveur WireGuard. Vous devez alors effectuer la modification ci-dessus.
+    Par exemple, si un routeur Xfinity se trouve en amont d’un routeur GL.iNet, son adresse IP peut être 10.0.0.1. Elle peut entrer en conflit avec l’adresse IP du tunnel du serveur WireGuard lorsque le routeur GL.iNet est configuré comme serveur WireGuard. Dans ce cas, effectuez la modification ci-dessus. S’il n’existe aucun conflit, ignorez cette modification.
 
     ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
@@ -140,6 +140,32 @@ En cas d'échec de la connexion, voici quelques causes fréquentes :
 * Vous devez peut-être configurer une redirection de ports. Vérifiez [ici](#vérifier-si-une-redirection-de-ports-est-nécessaire).
 * Le port utilisé par le serveur WireGuard est bloqué par votre fournisseur d'accès à Internet. Changez de port ou contactez-le pour plus d'assistance.
 * Certains pays ou certaines régions peuvent bloquer la connexion VPN.
+
+## Server Options
+
+Server Options regroupe des paramètres avancés côté serveur, notamment l’accès à distance au LAN du serveur et le masquage d’adresse IP. Configurez-les selon vos besoins.
+
+Avec le micrologiciel v4.8 ou une version ultérieure, accédez à **WireGuard Server**, puis cliquez sur **Options** dans l’angle supérieur droit.
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options1.png){class="glboxshadow"}
+
+Avec le micrologiciel v4.7 ou une version antérieure, accédez à **VPN Dashboard** -> **VPN Server**, puis cliquez sur l’icône en forme d’engrenage pour ouvrir WireGuard Options.
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options2.png){class="glboxshadow"}
+
+La fenêtre contextuelle présente les fonctions suivantes.
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options3.png){class="glboxshadow"}
+
+- **Allow Remote Access to the LAN Subnet** : lorsque cette option est activée, les ressources du sous-réseau LAN du serveur sont accessibles via le tunnel VPN.
+
+- **IP Masquerading** : lorsque cette option est activée, les adresses IP source des clients LAN sont remplacées par l’adresse IP du tunnel VPN du routeur. Désactivez-la uniquement dans les configurations site à site où le pair distant connaît vos sous-réseaux LAN.
+
+- **MTU** : abréviation de Maximum Transmission Unit. La valeur MTU définie pour le tunnel remplace celle du fichier de configuration.
+
+- **Client to Client** : lorsque cette option est activée, les clients VPN connectés à ce serveur peuvent communiquer entre eux au moyen de leurs adresses IP de tunnel VPN respectives.
+
+    Notez que Client to Client annonce uniquement l’adresse IP de tunnel de chaque client. Les sous-réseaux LAN locaux situés derrière les différents clients VPN ne deviennent pas automatiquement accessibles. Pour permettre aux clients d’accéder aux sous-réseaux LAN des autres clients, ajoutez sur le serveur VPN des règles de routage qui annoncent ces sous-réseaux LAN distants.
 
 ## Installation de l'application WireGuard
 

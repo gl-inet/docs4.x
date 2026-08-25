@@ -63,35 +63,37 @@ Czułość określa interwał czasowy wykrywania stanu połączenia z Internetem
 
 **Wskazówka**: Przełączenie na wysoką czułość może spowodować zerwanie połączenia sieciowego – zmieniaj to ustawienie z ostrożnością.
 
-## Metody Multi-WAN
+## Tryb Multi-WAN
 
-Dostępne są dwie metody: **Failover** i **Load Balance**. Gdy dostępnych jest kilka połączeń WAN, domyślnie włączony jest tryb Failover.
-
-**Failover** i **Load Balance** wzajemnie się wykluczają – można używać tylko jednej z tych metod.
+Dostępne są dwa tryby Multi-WAN: **Failover** i **Load Balance**. Wzajemnie się wykluczają – można używać tylko jednego z nich.
 
 ### Failover (przełączenie awaryjne)
 
+Failover jest trybem domyślnym, gdy dostępnych jest kilka połączeń WAN. Jeśli aktywne łącze ulegnie awarii, router automatycznie przełączy dostęp do Internetu na inny interfejs sieciowy.
+
 ![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/failover.png){class="glboxshadow"}
 
-Możesz ustawić priorytety interfejsów. Gdy aktywny interfejs ulegnie awarii, router automatycznie przełączy się na inny dostępny interfejs o najwyższym priorytecie.
-
-Przykładowo: jeśli router ma skonfigurowane dwa typy dostępu do Internetu – **Ethernet** i **Repeater** – a priorytet Ethernet wynosi 1, a Repeater 2, Ethernet ma wyższy priorytet i router będzie z niego korzystał. Po odłączeniu kabla sieciowego interfejs Ethernet staje się niedostępny i router automatycznie przełącza się na interfejs Repeater.
-
-Po przywróceniu połączenia Ethernet router automatycznie wróci do tego interfejsu, ponieważ ma wyższy priorytet.
+Możesz ustawić priorytet każdego interfejsu. Gdy aktualnie używany interfejs ulegnie awarii, router przełączy się na następny dostępny interfejs o najwyższym priorytecie. Po przywróceniu połączenia o wyższym priorytecie router automatycznie przełączy się z powrotem na ten interfejs.
 
 ### Load Balance (równoważenie obciążenia)
 
-Jednoczesne korzystanie z wielu interfejsów sieciowych zwiększa całkowitą przepustowość routera.
+Tryb Load Balance umożliwia jednoczesne korzystanie z wielu łączy sieciowych, zwiększając pasmo i ogólną przepustowość.
 
 Współczynnik obciążenia określa proporcje między interfejsami; system przydziela interfejsy do nowych połączeń zgodnie z ustawionym współczynnikiem.
 
-Przykładowo: jeśli router jest jednocześnie podłączony do czterech sieci (Ethernet, Repeater, Tethering i Cellular) i wszystkie cztery interfejsy są dostępne, włączenie Load Balance z ustawieniem 1:1:1:1 oznacza, że przepustowość sieciowa zostanie rozłożona równo między cztery interfejsy, ponieważ system przydziela je do nowych połączeń w proporcji 1:1:1:1.
+![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/load_balance.png){class="glboxshadow"}
 
-Możesz też dostosować współczynniki obciążenia. Jeśli przepustowość Ethernet wynosi 200 Mbps, Repeater Wi-Fi 100 Mbps, a brak aktywnych połączeń Tethering i Cellular, możesz ustawić: 2 dla Ethernet, 1 dla Repeater i 0 dla Tethering/Cellular. System rozdzieli nowe połączenia w proporcji 2:1, co oznacza, że Ethernet obsłuży około dwukrotnie więcej połączeń niż Repeater. W porównaniu z trybem Failover pozwala to zoptymalizować ogólną przepustowość poprzez równomierne rozłożenie obciążenia.
+Dostępne są dwa sposoby konfiguracji współczynnika obciążenia:
+
+- **Default Load Ratio**
+
+    Jeśli router jest jednocześnie podłączony do czterech sieci (Ethernet, Repeater, Tethering i Cellular), a wszystkie cztery interfejsy zapewniają dostęp do Internetu, włączenie Load Balance i ustawienie proporcji 1:1:1:1 oznacza równomierne rozłożenie obciążenia między cztery interfejsy. System przydziela nowe połączenia do interfejsów zgodnie z ustawioną proporcją 1:1:1:1.
+
+- **Customize Load Ratio**
+
+    Jeśli przepustowość Ethernet wynosi 200 Mbps, Repeater Wi-Fi 100 Mbps, a połączenia Tethering i Cellular są nieaktywne, możesz ustawić współczynnik 2 dla Ethernet, 1 dla Repeater oraz 0 dla Tethering/Cellular. System przydzieli nowe połączenia zgodnie z proporcją 2:1, dzięki czemu Ethernet obsłuży około dwa razy więcej połączeń niż Repeater. W porównaniu z trybem Failover optymalizuje to ogólną przepustowość przez równoważenie obciążenia między dostępnymi interfejsami.
 
 **Uwaga:** Aktywne połączenia i ruch nie zawsze dokładnie odzwierciedlają ustawiony współczynnik. Im dłużej system jest używany, tym bliżej tej proporcji będą faktyczne wyniki.
-
-![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/load_balance.png){class="glboxshadow"}
 
 ## Scenariusze użycia
 

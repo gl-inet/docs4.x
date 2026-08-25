@@ -63,31 +63,33 @@ Ce niveau de sensibilité détermine l'intervalle de temps de détection de l'é
 
 **Conseil** : passer à une sensibilité élevée peut entraîner une déconnexion réseau ; ajustez ce paramètre avec prudence.
 
-## Méthodes Multi-WAN
+## Mode Multi-WAN
 
-Il existe deux méthodes : **Failover** et **Load Balance**. **Failover** est activé par défaut lorsqu'il existe plusieurs connexions Multi-WAN.
-
-**Failover** et **Load Balance** sont mutuellement exclusifs ; vous ne pouvez en utiliser qu'un seul.
+Multi-WAN propose deux modes : **Failover** et **Load Balance**. Ces modes sont mutuellement exclusifs ; vous ne pouvez en utiliser qu’un seul à la fois.
 
 ### Failover
 
+Failover est le mode par défaut lorsque plusieurs connexions WAN sont disponibles. Si la connexion active échoue, le routeur bascule automatiquement vers une autre interface réseau pour accéder à Internet.
+
 ![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/failover.png){class="glboxshadow"}
 
-Vous pouvez définir la priorité de chaque interface. Si l'interface en cours d'utilisation tombe en panne, le routeur basculera automatiquement vers l'autre interface disponible ayant la priorité la plus élevée.
-
-Par exemple, si le routeur est configuré avec deux types d'accès à Internet, **Ethernet** et **Repeater**, et que la priorité d'Ethernet est 1 tandis que celle de Repeater est 2, l'interface Ethernet a la priorité la plus élevée ; le routeur utilisera donc Ethernet pour accéder à Internet. Si vous débranchez le câble Ethernet, l'interface Ethernet devient indisponible et le routeur bascule automatiquement vers l'interface Repeater pour l'accès à Internet.
-
-Une fois la connexion Ethernet rétablie, le routeur rebascule automatiquement vers Ethernet pour l'accès à Internet, car cette interface a une priorité plus élevée.
+Vous pouvez définir la priorité de chaque interface. Si l’interface utilisée échoue, le routeur bascule vers l’interface disponible suivante ayant la priorité la plus élevée. Dès qu’une connexion de priorité supérieure est rétablie, le routeur y rebascule automatiquement.
 
 ### Load Balance
 
-Utilisez plusieurs interfaces réseau en même temps pour augmenter la bande passante totale du routeur.
+Load Balance permet d’utiliser simultanément plusieurs connexions réseau afin d’augmenter la bande passante et le débit total.
 
-Le ratio de charge correspond à la proportion attribuée à chaque interface réseau, et le système affectera les nouvelles connexions aux interfaces en fonction du ratio configuré.
+Le **Load Ratio** détermine la répartition du trafic entre les interfaces. Le système affecte les nouvelles connexions à chaque interface selon le ratio configuré.
 
-Par exemple, si le routeur est connecté en même temps à quatre réseaux (Ethernet, Repeater, Tethering et Cellular), et que les quatre interfaces réseau sont disponibles pour accéder à Internet, alors l'activation de Load Balance avec un ratio de 1:1:1:1 signifie que la charge de la bande passante sera répartie de manière équilibrée entre les quatre interfaces, car le système affectera les nouvelles connexions selon ce ratio 1:1:1:1.
+Vous pouvez configurer les deux types de ratio suivants :
 
-Vous pouvez également personnaliser le ratio de charge. Si la bande passante Ethernet est de 200 Mbps, celle du Wi-Fi Repeater est de 100 Mbps et qu'aucune connexion Tethering ou Cellular n'est active, vous pouvez définir le ratio à 2 pour Ethernet, 1 pour Repeater et 0 pour Tethering/Cellular. Le système répartira alors les nouvelles connexions entre ces interfaces selon le ratio configuré de 2:1, ce qui signifie que l'interface Ethernet prendra en charge environ deux fois plus de connexions que l'interface Repeater. Par rapport au mode Failover, cela optimise l'efficacité globale du débit en équilibrant la charge sur les interfaces disponibles.
+- **Default Load Ratio**
+
+    Si le routeur est connecté simultanément à quatre réseaux, Ethernet, Repeater, Tethering et Cellular, et que les quatre interfaces peuvent accéder à Internet, le ratio 1:1:1:1 répartit uniformément les nouvelles connexions entre elles.
+
+- **Customize Load Ratio**
+
+    Si la bande passante Ethernet est de 200 Mbit/s, celle du Wi-Fi Repeater de 100 Mbit/s et qu’aucune connexion Tethering ou Cellular n’est active, vous pouvez définir le ratio sur 2 pour Ethernet, 1 pour Repeater et 0 pour Tethering/Cellular. Le système répartit alors les nouvelles connexions selon le ratio 2:1. Ethernet traite ainsi environ deux fois plus de connexions que Repeater. Par rapport au mode Failover, cette répartition améliore le débit global en équilibrant la charge entre les interfaces disponibles.
 
 **Remarque :** il n'est pas garanti que les connexions actives ou le trafic correspondent exactement au ratio de charge. L'utilisation s'en rapproche davantage sur une durée plus longue.
 

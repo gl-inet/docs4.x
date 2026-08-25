@@ -120,16 +120,17 @@ Access Control ページで、ブロックしたいデバイスの MAC アドレ
 
 現在の並べ替えタイプは右上に表示され、他の並べ替えタイプへ切り替えることもできます。
 
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
+
 デフォルトの並べ替えルールは次のとおりです。
 
-- 自分のデバイスは常に最上部に表示されます。
-- オンラインクライアントセクションでは、後から接続されたデバイスほど上に表示されます。
-
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.png){class="glboxshadow"}
+- 現在Web管理パネルへのアクセスに使用しているデバイスは、常に最上部に表示されます。
+- Online Clientsセクションでは、先に接続したデバイスほど上に表示されます。
+- Offline Clientsセクションでは、先に切断したデバイスほど上に表示されます。
 
 ## Action
 
-### クライアント詳細
+### 詳細を表示
 
 クライアントデバイスの詳細を表示したい場合は、右端の Action 列にある三点アイコンをクリックし、ドロップダウンメニューで **View Details** をクリックします。
 

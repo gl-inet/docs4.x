@@ -15,6 +15,7 @@ Découvrez comment utiliser nos appareils et résoudre certains problèmes coura
 * [FAQ de dépannage de la connexion Internet](internet_connection_troubleshooting.md)
 * [Comment connecter un routeur GL.iNet à des points d'accès publics avec un portail captif ?](connect_to_a_hotspot_with_captive_portal.md)
 * [Comment connecter au Wi-Fi un appareil ne disposant que d'un port Ethernet avec un routeur GL.iNet ?](produce_a_wired_connection.md)
+* [Comment connecter le port 10G SFP+ de Flint 4 ?](connecting_10g_sfp_plus_port_on_flint4.md)
 
 ## Notification de problème
 

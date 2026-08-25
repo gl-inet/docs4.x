@@ -1,10 +1,16 @@
 # Ethernet-Port
 
-**Hinweis**: Diese Seite ist seit Firmware v4.7 als **Port Management** verfügbar und wurde in Firmware v4.8.3 in **Ethernet-Port** umbenannt.
+Der Inhalt dieser Seite basiert auf den Firmwareversionen v4.7 bis v4.9. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die nachfolgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.9 and earlier" markdown="1">
+
+- [Firmware v4.10](ethernet_port_v4.10.md)
+
+</div>
 
 ---
 
-Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **Port Management** oder **Ethernet-Port**.
+Navigieren Sie auf der linken Seite des webbasierten Admin Panels zu **NETWORK** -> **Ethernet Port** oder **Port Management**.
 
 Hier können Sie Ethernet-Portrollen (WAN/LAN) verwalten und Portdetails wie MAC-Adresse und ausgehandelte Geschwindigkeit anzeigen.
 
@@ -18,7 +24,7 @@ In diesem Abschnitt werden die Portrolle (WAN oder LAN), die MAC-Adresse und die
 
 - **MAC Mode**: Standardmäßig ist Factory Mode eingestellt. Sie können zu Clone Mode oder Random Mode wechseln.
 
-- **Mac Address**: Die MAC-Adresse der WAN-Schnittstelle.
+- **MAC Address**: Die MAC-Adresse der WAN-Schnittstelle.
 
 - **Negotiated Network Port Rate**: Die ausgehandelte Verbindungsgeschwindigkeit der WAN-Schnittstelle. Sie wird nur angezeigt, wenn eine gültige Verbindung erkannt wurde.
 

@@ -1,6 +1,12 @@
-# WireGuard-Client auf GL.iNet-Routern einrichten (Firmware v4.6 und früher)
+# WireGuard-Client auf GL.iNet-Routern einrichten
 
-**Hinweis**: Diese Anleitung gilt für Firmware v4.6 und früher. Für neuere Versionen siehe [hier](wireguard_client.md).
+Der Inhalt dieser Seite basiert auf Firmware v4.6 und älter. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die nachfolgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.6 and earlier" markdown="1">
+
+- [Firmware v4.7 und höher](wireguard_client.md)
+
+</div>
 
 ---
 

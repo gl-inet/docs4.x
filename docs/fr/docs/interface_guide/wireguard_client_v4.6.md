@@ -1,6 +1,12 @@
-# Configurer le client WireGuard sur les routeurs GL.iNet (firmware v4.6 et antérieur)
+# Configurer le client WireGuard sur les routeurs GL.iNet
 
-**Remarque** : ce guide s'applique au firmware v4.6 et aux versions antérieures. Pour les versions plus récentes, veuillez consulter [cette page](wireguard_client.md).
+Le contenu de cette page est basé sur le micrologiciel v4.6 et les versions antérieures. Si votre appareil utilise une autre version, utilisez le sélecteur ci-dessous pour afficher le guide correspondant.
+
+<div class="gl-link-select" data-label="Version du micrologiciel" data-placeholder="Micrologiciel v4.6 et versions antérieures" markdown="1">
+
+- [Micrologiciel v4.7 et versions ultérieures](wireguard_client.md)
+
+</div>
 
 ---
 

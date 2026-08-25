@@ -48,11 +48,11 @@ Web 管理パネルにログインし、**VPN** -> **WireGuard Server** を開�
 
     （GL.iNet では IPv6 はデフォルトで無効です。IPv6 アドレスを使いたい場合は、ルーターで IPv6 を有効にしてください。）
 
-    もし IPv4 アドレスが上位ルーターのゲートウェイと競合している場合は、**10.1.0.1/24** など別のアドレスに変更し、**Apply** をクリックします。接続問題を避けるため、`/24` の CIDR 表記を必ず含めてください。
+    IPv4アドレスはWireGuardサーバーのトンネルIPです。上位ルーターのゲートウェイと競合する場合は、**10.1.0.1/24**など別のアドレスへ変更して**Apply**をクリックします。接続の問題を避けるため、`/24`のCIDR表記を必ず含めてください。
 
     ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_configuration.png){class="glboxshadow"}
 
-    たとえば、GL.iNet ルーターの上位に Xfinity ルーターがある場合、Xfinity ルーターの IP が 10.0.0.1 となり、GL.iNet ルーターを WireGuard サーバーとして設定したときの WireGuard Server のトンネル IP と競合することがあります。その場合は上記の変更が必要です。
+    たとえば、GL.iNetルーターの上位にXfinityルーターがある場合、そのIPアドレスが10.0.0.1で、GL.iNetルーターをWireGuardサーバーとして設定したときのWireGuard ServerのトンネルIPと競合する可能性があります。その場合は、上記の変更が必要になることがあります。競合がない場合、この変更は不要です。
 
     ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
@@ -140,6 +140,32 @@ Web 管理パネルにログインし、**VPN** -> **WireGuard Server** を開�
 * ポートフォワーディングの設定が必要な場合がある。[こちら](#confirm-if-port-forwarding-is-required) を確認してください。
 * WireGuard Server で使用しているポートがインターネットサービスプロバイダーによってブロックされている。別のポートに変更するか、ISP に問い合わせてください。
 * 一部の国や地域では VPN 接続がブロックされる場合があります。
+
+## Server Options
+
+Server Optionsには、サーバーのLANへのリモートアクセスやIPマスカレーディングなど、サーバー側の高度な設定があります。必要に応じて設定してください。
+
+ファームウェアv4.8以降では、**WireGuard Server**ページを開き、右上の**Options**をクリックします。
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options1.png){class="glboxshadow"}
+
+ファームウェアv4.7以前では、**VPN Dashboard** -> **VPN Server**の順に移動し、歯車アイコンをクリックしてWireGuard Optionsを開きます。
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options2.png){class="glboxshadow"}
+
+ポップアップウィンドウには次の機能が表示されます。
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options3.png){class="glboxshadow"}
+
+- **Allow Remote Access to the LAN Subnet**：有効にすると、サーバーのLANサブネット内のリソースへVPNトンネル経由でアクセスできます。
+
+- **IP Masquerading**：有効にすると、LANクライアントの送信元IPアドレスがルーターのVPNトンネルIPへ書き換えられます。この設定は、リモートピアがルーターのLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
+
+- **MTU**：Maximum Transmission Unitの略です。トンネルに設定したMTU値は、設定ファイル内のMTU設定を上書きします。
+
+- **Client to Client**：有効にすると、このサーバーに接続したVPNクライアント同士が、それぞれのVPNトンネルIP経由で相互にアクセスできます。
+
+    Client to Clientが通知するのは、各クライアントのトンネルIPアドレスだけです。各VPNクライアントの背後にあるローカルLANサブネットは、自動的には公開されません。クライアントから互いのLANサブネットへアクセスできるようにするには、VPNサーバーにルーティングルールを追加し、それらのリモートLANサブネットを通知してください。
 
 ## WireGuard App のインストール
 

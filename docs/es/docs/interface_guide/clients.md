@@ -118,18 +118,19 @@ En la página Access Control, introduzca manualmente la dirección MAC de los di
 
 ## Ordenar
 
-El tipo de orden actual se muestra en la esquina superior derecha, y puede cambiarlo por otros tipos de ordenación.
+La regla de ordenación actual se muestra en la esquina superior derecha y puede cambiarla por otra.
+
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
 
 El tipo de orden predeterminado es el siguiente:
 
-- El propio dispositivo siempre aparece primero.
-- En la sección de clientes en línea, cuanto más tarde se conecte el dispositivo, más arriba aparecerá en la lista.
-
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.png){class="glboxshadow"}
+- El propio dispositivo, es decir, el que utiliza para acceder al panel de administración, siempre aparece en la parte superior.
+- En la sección Online Clients, los dispositivos que se conectaron antes aparecen más arriba.
+- En la sección Offline Clients, los dispositivos que se desconectaron antes aparecen más arriba.
 
 ## Acción
 
-### Detalles del cliente
+### Ver detalles
 
 Si necesita ver los detalles del dispositivo cliente, haga clic en el icono de tres puntos de la columna Action, situada más a la derecha, y luego haga clic en **View Details** en el menú desplegable.
 

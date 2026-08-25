@@ -120,16 +120,17 @@ Nella pagina Access Control, inserisci manualmente l'indirizzo MAC dei dispositi
 
 Il tipo di ordinamento corrente e' mostrato nell'angolo superiore destro e puoi passare ad altri tipi di ordinamento.
 
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
+
 Il tipo di ordinamento predefinito e' il seguente:
 
-- Il dispositivo in uso e' sempre in cima.
-- Nella sezione dei client online, piu' recentemente si e' connesso un dispositivo, piu' in alto apparira' nell'elenco.
-
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.png){class="glboxshadow"}
+- Il dispositivo in uso, cioè quello con cui si accede al pannello di amministrazione, viene sempre visualizzato in cima.
+- Nella sezione Online Clients, i dispositivi connessi da più tempo vengono visualizzati più in alto.
+- Nella sezione Offline Clients, i dispositivi disconnessi da più tempo vengono visualizzati più in alto.
 
 ## Azione
 
-### Dettagli del client
+### Visualizza dettagli
 
 Se hai bisogno di visualizzare i dettagli del dispositivo client, fai clic sull'icona con i tre puntini nella colonna Action all'estrema destra, quindi fai clic su **View Details** nel menu a discesa.
 

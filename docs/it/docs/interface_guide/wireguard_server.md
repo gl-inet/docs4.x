@@ -48,11 +48,11 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **WireGuard Server
 
     (IPv6 su GL.iNet e' disabilitato per impostazione predefinita. Se vuoi usare un indirizzo IPv6, abilita IPv6 sul router.)
 
-    Se noti che l'indirizzo IPv4 entra in conflitto con il gateway del router a monte, modificalo con un altro, ad esempio **10.1.0.1/24**, quindi fai clic su **Apply**. Assicurati di includere la notazione CIDR "/24" per evitare problemi di connettivita'.
+    L'indirizzo IPv4 è l'IP del tunnel del server WireGuard. Se entra in conflitto con il gateway del router a monte, modificarlo, ad esempio in **10.1.0.1/24**, quindi fare clic su **Apply**. Assicurarsi di includere la notazione CIDR "/24" per evitare problemi di connettività.
 
     ![modify configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/modify_configuration.png){class="glboxshadow"}
 
-    Ad esempio, se a monte di un router GL.iNet c'e' un router Xfinity, l'IP del router Xfinity potrebbe essere 10.0.0.1, entrando in conflitto con il Tunnel IP del WireGuard Server quando il router GL.iNet viene configurato come server WireGuard; in tal caso occorre apportare la modifica sopra indicata.
+    Ad esempio, se a monte del router GL.iNet è presente un router Xfinity, l'indirizzo IP di quest'ultimo potrebbe essere 10.0.0.1 e quindi entrare in conflitto con il Tunnel IP di WireGuard Server quando il router GL.iNet è configurato come server WireGuard. In tal caso potrebbe essere necessario apportare la modifica descritta sopra. Se non esiste alcun conflitto, ignorare questo passaggio.
 
     ![xfinity gateway](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/xfinitygateway.jpg){class="glboxshadow"}
 
@@ -140,6 +140,32 @@ Se la connessione fallisce, le cause piu' comuni sono:
 * Potrebbe essere necessario configurare il port forwarding. Controlla [qui](#confirm-if-port-forwarding-is-required).
 * La porta usata da WireGuard Server e' bloccata dal tuo provider Internet. Cambia porta oppure contatta il provider per ulteriore assistenza.
 * In alcuni paesi o regioni la connessione VPN potrebbe essere bloccata.
+
+## Opzioni del server
+
+Le opzioni del server includono impostazioni avanzate lato server, quali l'accesso remoto alla LAN del server e il mascheramento IP. Configurarle in base alle proprie esigenze.
+
+Con il firmware v4.8 e versioni successive, andare su **WireGuard Server** e fare clic su **Options** nell'angolo superiore destro.
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options1.png){class="glboxshadow"}
+
+Con il firmware v4.7 e versioni precedenti, andare su **VPN Dashboard** -> **VPN Server** e fare clic sull'icona a forma di ingranaggio per accedere a WireGuard Options.
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options2.png){class="glboxshadow"}
+
+Nella finestra popup sono disponibili le funzioni seguenti.
+
+![wgserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_server/wgserver_options3.png){class="glboxshadow"}
+
+- **Allow Remote Access to the LAN Subnet**: se abilitata, le risorse nella sottorete LAN del server sono accessibili tramite il tunnel VPN.
+
+- **IP Masquerading**: se abilitato, gli indirizzi IP di origine dei client LAN vengono riscritti con l'IP del tunnel VPN del router. Disabilitare questa opzione solo nelle configurazioni site-to-site in cui il peer remoto conosce le sottoreti LAN del router.
+
+- **MTU**: abbreviazione di Maximum Transmission Unit. Il valore MTU impostato per il tunnel sostituisce l'impostazione MTU contenuta nel file di configurazione.
+
+- **Client to Client**: se abilitata, i client VPN connessi a questo server possono accedere gli uni agli altri tramite i rispettivi IP del tunnel VPN.
+
+    Client to Client pubblicizza esclusivamente l'indirizzo IP del tunnel di ciascun client. Non rende automaticamente accessibili le sottoreti LAN locali dietro ogni client VPN. Per consentire ai client di accedere alle sottoreti LAN reciproche, aggiungere sul server VPN regole di instradamento che pubblicizzino tali sottoreti LAN remote.
 
 ## Installazione dell'app WireGuard
 

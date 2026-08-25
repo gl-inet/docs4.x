@@ -38,7 +38,7 @@ Web 管理パネルにログインし、**VPN** -> **OpenVPN Server** を開き�
 
 1. **Generate Configuration** をクリックします（VPN サーバー初回設定時のみ）。
 
-    ![ovpn server generate configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_generate_config.png){class="glboxshadow"}
+    ![ovpnserver generate config](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_generate.png){class="glboxshadow"}
 
 2. 設定を適用します。
 
@@ -48,7 +48,7 @@ Web 管理パネルにログインし、**VPN** -> **OpenVPN Server** を開き�
 
     設定を変更した場合は、クライアント設定をエクスポートする前に **Apply** をクリックしてください。
 
-    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
+    ![openvpnserver configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
     * **Device Mode:** TAP-S2S または Tun。違いについては [こちら](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md/#tap-s2s-vs-tun-mode) を参照してください。
 
@@ -119,15 +119,47 @@ OpenVPN App に設定ファイルをインポートすると、以下のよう�
 * OpenVPN Server で使用しているポートがインターネットサービスプロバイダーによってブロックされている。別のポートに変更するか、ISP に問い合わせてください。
 * 一部の国や地域では VPN 接続がブロックされる場合があります。
 
-## クライアント間アクセス
+## Server Options
 
-**Network Topology**
+Server Optionsには、サーバーのLANへのリモートアクセスやIPマスカレーディングなど、サーバー側の高度な設定があります。必要に応じて設定してください。
 
-![ptptopology](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ptptopology.jpg){class="glboxshadow"}
+ファームウェアv4.8以降では、**OpenVPN Server**ページを開き、右上の**Options**をクリックします。
 
-client to client のトグルを有効にして、新しい設定をクライアントへエクスポートすると、クライアント同士で相互アクセスできるようになります。
+![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options1.png){class="glboxshadow"}
 
-![peertopeer](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/peertopeer.jpg){class="glboxshadow"}
+ファームウェアv4.7以前では、**VPN Dashboard** -> **VPN Server**の順に移動し、歯車アイコンをクリックしてOpenVPN Optionsを開きます。
+
+![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options2.jpg){class="glboxshadow"}
+
+ポップアップウィンドウには次の機能が表示されます。
+
+![ovpnserver options](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_options3.png){class="glboxshadow"}
+
+- **Allow Remote Access to the LAN Subnet**：有効にすると、サーバーのLANサブネット内のリソースへVPNトンネル経由でアクセスできます。
+
+- **IP Masquerading**：有効にすると、LANクライアントの送信元IPアドレスがルーターのVPNトンネルIPへ書き換えられます。この設定は、リモートピアがルーターのLANサブネットを認識しているサイトツーサイト構成の場合にのみ無効にしてください。
+
+- **MTU**：Maximum Transmission Unitの略です。トンネルに設定したMTU値は、設定ファイル内のMTU設定を上書きします。
+
+## Client to Client
+
+Client to Clientはサーバー側のVPN機能です。有効にすると、接続中のVPNクライアント同士が、それぞれのVPNトンネルIPアドレスを使用して通信できます。
+
+ネットワークトポロジーは次のとおりです。
+
+![client-to-client topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ptptopology.jpg){class="glboxshadow"}
+
+必要に応じて、次の手順でOpenVPNサーバーのClient to Clientを有効にします。
+
+1. **OpenVPN Server**ページで、右下の**Advanced Configuration**をクリックします。
+
+    ![](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_config_advanced.png){class="glboxshadow"}
+
+2. **Client to Client**を有効にして**Apply**をクリックします。新しい設定をエクスポートし、OpenVPNクライアントへアップロードします。
+
+    ![client to client](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/client-to-client.png){class="glboxshadow"}
+
+**ヒント**：Client to Clientが通知するのは、各クライアントのトンネルIPアドレスだけです。各VPNクライアントの背後にあるローカルLANサブネットは、自動的には公開されません。クライアントから互いのLANサブネットへアクセスできるようにするには、VPNサーバーにルーティングルールを追加し、それらのリモートLANサブネットを通知してください。
 
 ## OpenVPN App のインストール
 

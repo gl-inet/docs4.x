@@ -118,18 +118,19 @@ Dans la page Access Control, saisissez manuellement l’adresse MAC des appareil
 
 ## Tri
 
-Le type de tri actuel s’affiche dans le coin supérieur droit, et vous pouvez le remplacer par un autre type de tri.
+L’ordre de tri actuel s’affiche dans l’angle supérieur droit et peut y être modifié.
+
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
 
 Le tri par défaut est le suivant :
 
-- L’appareil utilisé actuellement est toujours affiché en haut.
-- Dans la section des clients en ligne, plus l’appareil s’est connecté récemment, plus il apparaît haut dans la liste.
-
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.png){class="glboxshadow"}
+- L’appareil actuel, utilisé pour accéder au panneau d’administration, est toujours affiché en haut.
+- Dans la section Online Clients, les appareils connectés en premier apparaissent plus haut.
+- Dans la section Offline Clients, les appareils déconnectés en premier apparaissent plus haut.
 
 ## Action
 
-### Détails du client
+### Afficher les détails
 
 Si vous devez consulter les détails d’un appareil client, cliquez sur l’icône à trois points dans la colonne Action tout à droite, puis cliquez sur **View Details** dans le menu déroulant.
 

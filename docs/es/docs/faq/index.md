@@ -15,6 +15,7 @@ Aprenda a utilizar nuestros dispositivos y a resolver algunos problemas comunes.
 - [Preguntas frecuentes sobre la solución de problemas de conexión a Internet](internet_connection_troubleshooting.md)
 - [¿Cómo conectar un router GL.iNet a puntos de acceso públicos con portal cautivo?](connect_to_a_hotspot_with_captive_portal.md)
 - [¿Cómo conectar a Wi-Fi un dispositivo solo con Ethernet mediante un router GL.iNet?](produce_a_wired_connection.md)
+- [¿Cómo conectar el puerto SFP+ de 10G de Flint 4?](connecting_10g_sfp_plus_port_on_flint4.md)
 
 ## Notificación de problemas
 

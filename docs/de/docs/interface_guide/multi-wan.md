@@ -63,31 +63,33 @@ Diese Empfindlichkeit bestimmt das Zeitintervall für die Erkennung des Internet
 
 **Tipps**: Das Umschalten auf hohe Empfindlichkeit kann zu Netzwerkunterbrechungen führen. Passen Sie diese Einstellung daher mit Vorsicht an.
 
-## Multi-WAN-Methode
+## Multi-WAN-Modus
 
-Es gibt zwei Methoden: **Failover** und **Load Balance**. Wenn Multi-WAN-Verbindungen vorhanden sind, ist Failover standardmäßig aktiviert.
-
-**Failover** und **Load Balance** schließen sich gegenseitig aus; Sie können immer nur eine davon verwenden.
+Für Multi-WAN stehen zwei Modi zur Verfügung: **Failover** und **Load Balance**. Sie schließen sich gegenseitig aus; es kann jeweils nur einer der beiden Modi verwendet werden.
 
 ### Failover
 
+Failover ist der Standardmodus, wenn mehrere WAN-Verbindungen vorhanden sind. Fällt die aktive Verbindung aus, schaltet der Router für den Internetzugang automatisch auf eine andere Netzwerkschnittstelle um.
+
 ![multi-wan failover](https://static.gl-inet.com/docs/router/de/4/interface_guide/multi-wan/failover.png){class="glboxshadow"}
 
-Sie können die Priorität jeder Schnittstelle festlegen. Fällt die aktuell verwendete Schnittstelle aus, schaltet der Router automatisch auf die andere verfügbare Schnittstelle mit der höchsten Priorität um.
-
-Wenn der Router beispielsweise mit zwei Arten des Internetzugangs eingerichtet wurde, **Ethernet** und **Repeater**, und Ethernet die Priorität 1 sowie Repeater die Priorität 2 hat, ist Ethernet höher priorisiert als Repeater. Der Router verwendet dann Ethernet für den Internetzugang. Wenn Sie das Ethernet-Kabel abziehen, wird die Ethernet-Schnittstelle nicht mehr verfügbar sein, und der Router schaltet automatisch auf die Repeater-Schnittstelle um, um auf das Internet zuzugreifen.
-
-Sobald die Ethernet-Verbindung wiederhergestellt ist, schaltet der Router automatisch zurück auf Ethernet für den Internetzugang, da diese Schnittstelle die höhere Priorität hat.
+Sie können die Priorität jeder Schnittstelle festlegen. Fällt die aktuell verwendete Schnittstelle aus, wechselt der Router zur nächsten verfügbaren Schnittstelle mit der höchsten Priorität. Sobald eine Verbindung mit höherer Priorität wiederhergestellt ist, schaltet der Router automatisch zu ihr zurück.
 
 ### Load Balance
 
-Verwenden Sie mehrere Netzwerkschnittstellen gleichzeitig, um die Gesamtbandbreite des Routers zu erhöhen.
+Load Balance ermöglicht die gleichzeitige Nutzung mehrerer Netzwerkverbindungen, wodurch sich die Bandbreite und der Gesamtdurchsatz erhöhen.
 
-Das Lastverhältnis ist hier das Verhältnis zwischen den einzelnen Netzwerkschnittstellen. Das System weist neue Verbindungen anhand des eingestellten Lastverhältnisses den jeweiligen Schnittstellen zu.
+Das **Load Ratio** bestimmt die Verteilung des Datenverkehrs auf die Schnittstellen. Das System weist neue Verbindungen entsprechend dem konfigurierten Verhältnis den einzelnen Schnittstellen zu.
 
-Wenn der Router beispielsweise gleichzeitig mit vier Netzwerken verbunden ist (Ethernet, Repeater, Tethering und Cellular) und alle vier Netzwerkschnittstellen für den Internetzugang verfügbar sind, bedeutet das Aktivieren von Load Balance mit der Einstellung 1:1:1:1, dass die vier Netzwerkschnittstellen die Netzwerkbandbreite gleichmäßig verteilen. Das System weist neue Verbindungen anhand des festgelegten Lastverhältnisses 1:1:1:1 zu.
+Die folgenden zwei Lastverhältnisse können konfiguriert werden:
 
-Sie können das Lastverhältnis auch individuell anpassen. Wenn die Ethernet-Bandbreite 200 Mbit/s beträgt, die Repeater-Wi-Fi-Bandbreite 100 Mbit/s und weder Tethering noch Cellular aktiv sind, können Sie das Lastverhältnis auf 2 für Ethernet, 1 für Repeater und 0 für Tethering/Cellular setzen. Das System verteilt neue Verbindungen dann anhand des konfigurierten Verhältnisses 2:1 auf diese Schnittstellen. Das bedeutet, dass die Ethernet-Schnittstelle ungefähr doppelt so viele Verbindungen verarbeitet wie die Repeater-Schnittstelle. Im Vergleich zum Failover-Modus wird die Gesamteffizienz des Datendurchsatzes so verbessert, indem die Last auf verfügbare Schnittstellen verteilt wird.
+- **Default Load Ratio**
+
+    Wenn der Router gleichzeitig mit vier Netzwerken (Ethernet, Repeater, Tethering und Cellular) verbunden ist und alle vier Schnittstellen auf das Internet zugreifen können, verteilt die Einstellung 1:1:1:1 neue Verbindungen entsprechend diesem Verhältnis gleichmäßig auf die vier Schnittstellen.
+
+- **Customize Load Ratio**
+
+    Wenn die Ethernet-Bandbreite 200 Mbit/s, die Repeater-Wi-Fi-Bandbreite 100 Mbit/s beträgt und keine Tethering- oder Cellular-Verbindung aktiv ist, können Sie das Verhältnis auf 2 für Ethernet, 1 für Repeater und 0 für Tethering/Cellular setzen. Das System weist neue Verbindungen entsprechend dem konfigurierten Verhältnis 2:1 zu. Dadurch verarbeitet Ethernet etwa doppelt so viele Verbindungen wie Repeater. Gegenüber dem Failover-Modus verbessert dies den Gesamtdurchsatz, indem die Last auf die verfügbaren Schnittstellen verteilt wird.
 
 **Hinweis:** Bereits bestehende Verbindungen oder laufender Datenverkehr entsprechen nicht zwingend exakt dem Lastverhältnis. Über einen längeren Nutzungszeitraum nähert sich die Verteilung diesem Verhältnis an.
 

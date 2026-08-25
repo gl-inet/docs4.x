@@ -15,6 +15,7 @@ hide:
 * [インターネット接続のトラブルシューティングFAQ](internet_connection_troubleshooting.md)
 * [GL.iNetルーターをキャプティブポータル付きのパブリックホットスポットに接続する方法は？](connect_to_a_hotspot_with_captive_portal.md)
 * [GL.iNetルーターを使用してEthernet専用のデバイスをWi-Fiに接続する方法は？](produce_a_wired_connection.md)
+* [Flint 4の10G SFP+ポートを接続する方法は？](connecting_10g_sfp_plus_port_on_flint4.md)
 
 ## 問題通知
 

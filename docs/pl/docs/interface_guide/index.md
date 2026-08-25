@@ -21,12 +21,17 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 
 * [Sieć bezprzewodowa](wireless.md)
 
+## Mesh
+
+* [Mesh](mesh.md)
+
 ## Klienci
 
 * [Klienci](clients.md)
 
 ## Usługi chmurowe
 
+* [Konto GL.iNet](glinet_account.md)
 * [GoodCloud](cloud.md) - oficjalna usługa chmurowa.
 * [AstroWarp](astrowarp.md) - zaawansowana platforma sieciowa zaprojektowana do zapewniania płynnej zdalnej łączności sieciowej i zdalnego zarządzania urządzeniami.
 

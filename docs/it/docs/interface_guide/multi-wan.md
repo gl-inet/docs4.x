@@ -63,35 +63,37 @@ Questa sensibilita' determina l'intervallo di tempo per il rilevamento dello sta
 
 **Suggerimenti**: passare a un'alta sensibilita' puo' causare disconnessioni di rete; regolala con cautela.
 
-## Metodo Multi-WAN
+## Modalità Multi-WAN
 
-Sono disponibili due metodi: **Failover** e **Load Balance**. Failover e' abilitato per impostazione predefinita quando sono presenti connessioni multi-wan.
-
-**Failover** e **Load Balance** si escludono a vicenda e puoi usarne solo uno.
+Multi-WAN offre due modalità: **Failover** e **Load Balance**. Le due modalità si escludono a vicenda ed è possibile utilizzarne una sola.
 
 ### Failover
 
+Failover è la modalità predefinita quando sono presenti connessioni Multi-WAN. Se il collegamento attivo si interrompe, il router passa automaticamente a un'altra interfaccia di rete per accedere a Internet.
+
 ![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/failover.png){class="glboxshadow"}
 
-Puoi impostare la priorita' di ciascuna interfaccia. Quando l'interfaccia in uso non e' disponibile, il router passera' automaticamente a un'altra interfaccia disponibile con priorita' piu' alta.
-
-Ad esempio, se il router e' stato configurato con due tipi di accesso a Internet, **Ethernet** e **Repeater**, e la priorita' di Ethernet e' 1 mentre quella di Repeater e' 2, la priorita' di Ethernet e' piu' alta di quella di Repeater, quindi il router usera' Ethernet per accedere a Internet. Se scolleghi il cavo Ethernet, l'interfaccia Ethernet non sara' piu' disponibile e il router passera' automaticamente all'interfaccia Repeater per accedere a Internet.
-
-Una volta ripristinata la connessione Ethernet, il router tornera' automaticamente a usare Ethernet per accedere a Internet, poiche' ha una priorita' piu' alta.
+È possibile impostare la priorità di ogni interfaccia: quando l'interfaccia in uso si interrompe, il router passa alla successiva interfaccia disponibile con la priorità più alta. Quando viene ripristinata una connessione con priorità superiore, il router torna automaticamente a utilizzarla.
 
 ### Load Balance
 
-Usa piu' interfacce di rete contemporaneamente per aumentare la larghezza di banda complessiva del router.
+Load Balance consente di utilizzare contemporaneamente più collegamenti di rete, aumentando la larghezza di banda e migliorando il throughput complessivo.
 
-Il rapporto di carico qui rappresenta il rapporto tra ciascuna interfaccia di rete e il sistema assegnera' le interfacce per gestire le nuove connessioni in base al rapporto di carico impostato.
-
-Ad esempio, se il router e' connesso contemporaneamente a quattro reti, Ethernet, Repeater, Tethering e Cellular, e tutte e quattro le interfacce di rete sono disponibili per l'accesso a Internet, allora abilitare Load Balance e impostare 1:1:1:1 significa che le quattro interfacce di rete distribuiranno la larghezza di banda in modo uniforme, poiche' il sistema assegnera' queste quattro interfacce alle nuove connessioni in base al rapporto di carico impostato 1:1:1:1.
-
-Puoi anche personalizzare il rapporto di carico. Se la larghezza di banda Ethernet e' 200 Mbps, la larghezza di banda Wi-Fi del Repeater e' 100 Mbps e non ci sono connessioni Tethering o Cellular attive, puoi impostare i rapporti di carico a 2 per Ethernet, 1 per Repeater e 0 per Tethering/Cellular. Il sistema distribuira' quindi le nuove connessioni tra queste interfacce in base al rapporto configurato di 2:1, il che significa che l'interfaccia Ethernet gestira' approssimativamente il doppio delle connessioni rispetto all'interfaccia Repeater. Rispetto alla modalita' Failover, questo ottimizza l'efficienza complessiva del throughput bilanciando il carico tra le interfacce disponibili.
-
-**Nota:** non e' garantito che le connessioni o il traffico gia' attivi corrispondano al rapporto di carico. Il comportamento si avvicina maggiormente a questo rapporto se viene usato per un periodo piu' lungo.
+Il **Load Ratio** determina la distribuzione del traffico tra le interfacce: il sistema assegna le nuove connessioni a ciascuna interfaccia in base al rapporto configurato.
 
 ![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/load_balance.png){class="glboxshadow"}
+
+È possibile configurare i due rapporti di carico seguenti:
+
+- **Default Load Ratio**
+
+    Se il router è connesso contemporaneamente a quattro reti (Ethernet, Repeater, Tethering e Cellular) e tutte e quattro le interfacce possono accedere a Internet, abilitando Load Balance e impostando il rapporto su 1:1:1:1 la larghezza di banda viene distribuita in modo uniforme. Il sistema assegna infatti le nuove connessioni alle quattro interfacce secondo il rapporto 1:1:1:1.
+
+- **Customize Load Ratio**
+
+    Se la larghezza di banda Ethernet è 200 Mbps, quella Wi-Fi del Repeater è 100 Mbps e non sono attive connessioni Tethering o Cellular, è possibile impostare il rapporto su 2 per Ethernet, 1 per Repeater e 0 per Tethering/Cellular. Il sistema assegna le nuove connessioni secondo il rapporto 2:1, consentendo a Ethernet di gestire circa il doppio delle connessioni del Repeater. Rispetto alla modalità Failover, questa configurazione ottimizza il throughput complessivo bilanciando il carico tra le interfacce disponibili.
+
+**Nota:** non e' garantito che le connessioni o il traffico gia' attivi corrispondano al rapporto di carico. Il comportamento si avvicina maggiormente a questo rapporto se viene usato per un periodo piu' lungo.
 
 ## Scenari di utilizzo
 

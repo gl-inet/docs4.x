@@ -54,6 +54,9 @@ plugins:
         'tutorials/how_to_use_simpoyo_ufi.md': 'user_guide/simpoyo-4g-ufi/index.md'
         'interface_guide/sms.md': 'tutorials/sms.md'
 
+hooks:
+  - ../../scripts/alternate_links.py
+
 extra:
   analytics:
     feedback:
@@ -85,6 +88,9 @@ extra:
   version:
     provider: mike
   alternate:
+    - name: Polski
+      link: /router/pl/4/
+      lang: pl
     - name: English
       link: /router/en/4/
       lang: en
@@ -103,9 +109,6 @@ extra:
     - name: 日本語
       link: /router/jp/4/
       lang: ja
-    - name: Polski
-      link: /router/pl/4/
-      lang: pl
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
@@ -137,6 +140,7 @@ nav:
   - Przewodnik uzytkownika:
     - Przeglad: user_guide/index.md
     - GL-MG1300 (Mango 2): https://www.gl-inet.com/products/gl-mg1300
+    - GL-BE14000 (Flint 4): user_guide/gl-be14000/index.md
     - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md
     - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
     - GL-E5800 (Mudi 7): user_guide/gl-e5800/index.md
@@ -181,6 +185,7 @@ nav:
       - FAQ rozwiazywania problemow z polaczeniem internetowym: faq/internet_connection_troubleshooting.md
       - Polacz z publicznym hotspotem z portalem uwierzytelniajacym: faq/connect_to_a_hotspot_with_captive_portal.md
       - Podlacz urzadzenie tylko z Ethernetem do Wi-Fi: faq/produce_a_wired_connection.md
+      - Podłączanie portu 10G SFP+ w Flint 4: faq/connecting_10g_sfp_plus_port_on_flint4.md
     - Powiadomienia o problemach:
       - Powiadomienie o problemie dla GL-MT2500/GL-X3000/GL-XE3000: faq/problem_notification_for_mt2500_x3000_xe3000.md
       - Powiadomienie o problemie i rozwiazania dla GL-X3000/GL-X2000, gdy nie dzialaja z kartami SIM EE: faq/problem_notification_and_solutions_for_x3000_x2000_failure_to_work_with_ee_sim_cards.md
@@ -299,9 +304,12 @@ nav:
       - Komorkowe: interface_guide/internet_cellular.md
     - Bezprzewodowe:
       - Bezprzewodowe: interface_guide/wireless.md
+    - Mesh:
+      - Mesh: interface_guide/mesh.md
     - Klienci:
       - Klienci: interface_guide/clients.md
     - Uslugi chmurowe:
+      - Konto GL.iNet: interface_guide/glinet_account.md
       - GoodCloud: interface_guide/cloud.md
       - AstroWarp: interface_guide/astrowarp.md
     - VPN:

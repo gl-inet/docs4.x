@@ -1,6 +1,12 @@
 # GL.iNet ルーターで WireGuard クライアントを設定する
 
-**Note**: このガイドはファームウェア v4.7 以降に適用されます。以前のバージョンについては [こちら](wireguard_client_v4.6.md) を参照してください。
+このページの内容はファームウェアv4.7以降に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、次の選択メニューから対応するガイドへ切り替えてください。
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.7 and above" markdown="1">
+
+- [ファームウェアv4.6以前](wireguard_client_v4.6.md)
+
+</div>
 
 ---
 

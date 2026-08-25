@@ -114,7 +114,7 @@ La página de configuración incluye ajustes básicos y ajustes del servidor DHC
 
 Puede configurar la subred dentro de los rangos de direcciones privadas IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
-![guest network basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/gest-network-basic.png){class="glboxshadow" width=650}
+![guest network basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-basic.png){class="glboxshadow" width=650}
 
 - **Gateway**
 

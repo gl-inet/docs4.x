@@ -120,16 +120,17 @@ Na stronie Access Control ręcznie wprowadź adresy MAC urządzeń, które chces
 
 Aktualny typ sortowania jest wyświetlany w prawym górnym rogu i możesz przełączyć się na inne typy sortowania.
 
+![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.jpg){class="glboxshadow"}
+
 Domyślny typ sortowania działa następująco:
 
 - Urządzenie, z którego aktualnie korzystasz, jest zawsze na górze.
-- W sekcji klientów online im później urządzenie się połączyło, tym wyżej pojawia się na liście.
-
-![sort](https://static.gl-inet.com/docs/router/en/4/interface_guide/clients/sort.png){class="glboxshadow"}
+- W sekcji Online Clients urządzenia, które połączyły się wcześniej, są wyświetlane wyżej.
+- W sekcji Offline Clients urządzenia, które rozłączyły się wcześniej, są wyświetlane wyżej.
 
 ## Akcje
 
-### Szczegóły klienta
+### Wyświetlanie szczegółów
 
 Jeśli chcesz wyświetlić szczegóły urządzenia klienckiego, kliknij ikonę trzech kropek w skrajnej prawej kolumnie Action, a następnie w menu rozwijanym kliknij **View Details**.
 

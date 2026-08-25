@@ -63,35 +63,37 @@ GL.iNet ルーターは最大 5 つの仮想ネットワークインターフェ
 
 **Tips**: 高感度へ切り替えるとネットワーク切断が発生する場合があります。慎重に調整してください。
 
-## Multi-WAN の方式
+## Multi-WANモード
 
-方式は **Failover** と **Load Balance** の 2 つです。複数の WAN 接続がある場合、デフォルトでは Failover が有効になります。
-
-**Failover** と **Load Balance** は排他的であり、同時には使用できません。
+Multi-WANには**Failover**と**Load Balance**の2つのモードがあります。これらは排他的であり、同時には使用できません。
 
 ### Failover
 
+複数のWAN接続がある場合、Failoverがデフォルトのモードです。使用中のリンクで障害が発生すると、ルーターはインターネットアクセスに使用する別のネットワークインターフェースへ自動的に切り替わります。
+
 ![multi-wan failover](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/failover.png){class="glboxshadow"}
 
-各インターフェースの優先順位を設定できます。使用中のインターフェースに障害が発生すると、ルーターは利用可能なインターフェースのうち最も優先順位の高いものへ自動的に切り替えます。
-
-たとえば、ルーターに **Ethernet** と **Repeater** の 2 種類のインターネット接続が設定され、Ethernet の優先順位が 1、Repeater の優先順位が 2 である場合、より優先順位の高い Ethernet が使われます。Ethernet ケーブルを抜くと Ethernet インターフェースは利用不可になり、ルーターは自動的に Repeater インターフェースへ切り替えてインターネットへ接続します。
-
-その後 Ethernet 接続が復旧すると、優先順位が高いため、ルーターは自動的に Ethernet へ戻ります。
+各インターフェースの優先順位を設定できます。使用中のインターフェースで障害が発生すると、ルーターは利用可能なインターフェースのうち、次に優先順位が高いものへ切り替わります。より優先順位の高い接続が復旧すると、その接続へ自動的に戻ります。
 
 ### 負荷分散
 
-複数のネットワークインターフェースを同時に使い、ルーター全体の帯域を増やします。
+Load Balanceでは、複数のネットワークリンクを同時に使用して、帯域幅と全体のスループットを向上させます。
 
-ここで設定する load ratio は各ネットワークインターフェース間の比率であり、システムはその比率に基づいて新しい接続を各インターフェースへ割り当てます。
-
-たとえば、ルーターが 4 つのネットワーク（Ethernet、Repeater、Tethering、Cellular）に同時接続され、4 つすべてのインターフェースがインターネット利用可能な場合、Load Balance を有効にして `1:1:1:1` に設定すると、4 つのインターフェースへ新しい接続が均等に割り当てられます。
-
-load ratio はカスタマイズも可能です。たとえば Ethernet が 200 Mbps、Repeater の Wi-Fi が 100 Mbps、Tethering と Cellular が未接続の場合、Ethernet を 2、Repeater を 1、Tethering/Cellular を 0 に設定できます。するとシステムは `2:1` の比率で新しい接続を割り当て、Ethernet インターフェースが Repeater の約 2 倍の接続を処理します。Failover mode と比べると、利用可能なインターフェースへ負荷を分散することで全体のスループット効率を高められます。
-
-**Note:** 既存の接続やトラフィックが load ratio と正確に一致することは保証されません。長時間使用するほど、この比率に近づきます。
+**Load Ratio**はインターフェース間のトラフィック配分を決定します。システムは、設定した比率に従って新しい接続を各インターフェースへ割り当てます。
 
 ![multi-wan load balance](https://static.gl-inet.com/docs/router/en/4/interface_guide/multi-wan/load_balance.png){class="glboxshadow"}
+
+次の2種類のLoad Ratioを設定できます。
+
+- **Default Load Ratio**
+
+    ルーターが4つのネットワーク（Ethernet、Repeater、Tethering、Cellular）に同時接続され、すべてのインターフェースでインターネットを利用できる場合、Load Balanceを有効にして1:1:1:1に設定すると、ネットワーク帯域幅が4つのインターフェースへ均等に分散されます。システムは、設定した1:1:1:1の比率に従って新しい接続を各インターフェースへ割り当てます。
+
+- **Customize Load Ratio**
+
+    Ethernetの帯域幅が200 Mbps、Repeater Wi-Fiの帯域幅が100 Mbpsで、TetheringとCellularが接続されていない場合、Ethernetを2、Repeaterを1、Tethering/Cellularを0に設定できます。システムは2:1の比率に従って新しい接続を割り当てるため、EthernetはRepeaterの約2倍の接続を処理します。Failoverモードと比べて、利用可能なインターフェース間で負荷を分散することで、全体のスループット効率を向上させます。
+
+**Note:** 既存の接続やトラフィックが load ratio と正確に一致することは保証されません。長時間使用するほど、この比率に近づきます。
 
 ## 使用シナリオ
 

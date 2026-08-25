@@ -577,3 +577,8 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     La page Advanced Settings donne accès à des options de configuration avancées via l'interface OpenWrt LuCI, permettant aux utilisateurs expérimentés d'ajuster finement les paramètres et fonctionnalités du routeur au-delà des options de l'interface de base. Cela inclut des configurations réseau détaillées, des paramètres de pare-feu et d'autres personnalisations système avancées.
 
     Pour des instructions détaillées, consultez [Advanced Settings](../../interface_guide/advanced_settings.md).
+
+## Déclarations réglementaires
+
+Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [Routeur portable 5G NR Wi-Fi 7 tri-bande, GL-E5800EU] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte complet de la déclaration UE de conformité est disponible à l'adresse internet suivante:
+[https://www.gl‑inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

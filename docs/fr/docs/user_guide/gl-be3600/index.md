@@ -410,3 +410,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     La page Advanced Settings donne accès à des options de configuration avancées via l'interface OpenWrt LuCI, permettant aux utilisateurs expérimentés d'ajuster finement les paramètres et fonctionnalités du routeur au-delà des options de l'interface de base. Cela inclut des configurations réseau détaillées, des paramètres de pare-feu et d'autres personnalisations système avancées.
 
     Pour des instructions détaillées, reportez-vous à [Advanced Settings](../../interface_guide/advanced_settings.md).
+
+## Déclarations réglementaires
+
+Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que le type d'équipement radio [Routeur de voyage Wi-Fi 7 bi-bande, GL-BE3600] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la Directive 2014/53/UE. Le texte intégral de la déclaration de conformité UE est disponible à l'adresse suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

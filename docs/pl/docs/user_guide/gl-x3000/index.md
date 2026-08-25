@@ -396,3 +396,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel między Twoim
     Strona Advanced Settings zapewnia dostęp do zaawansowanych opcji konfiguracji przez interfejs OpenWrt LuCI, umożliwiając doświadczonym użytkownikom precyzyjne dostosowanie ustawień i funkcji routera poza podstawowymi opcjami interfejsu. Obejmuje to szczegółową konfigurację sieci, ustawienia zapory i inne zaawansowane dostosowania systemu.
 
     Szczegółowe instrukcje znajdziesz w poradniku [Advanced Settings](../../interface_guide/advanced_settings.md).
+
+## Deklaracja zgodności
+
+Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED deklaruje, że typ urządzenia radiowego [Router Wi-Fi 6 5G NR, GL-X3000NR / Router Wi-Fi 6 4G LTE, GL-X3000C16] jest zgodny z zasadniczymi wymaganiami i innymi stosownymi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

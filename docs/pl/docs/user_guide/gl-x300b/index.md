@@ -302,3 +302,7 @@ Zapoznaj się z poradnikiem [**Reset Firmware**](../../interface_guide/reset_fir
 ### Advanced Settings
 
 Zapoznaj się z poradnikiem [**Advanced Settings**](../../interface_guide/advanced_settings.md).
+
+## Deklaracja zgodności
+
+Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [Industrial 4G LTE Gateway, GL-X300B] jest zgodny z zasadniczymi wymaganiami oraz innymi odpowiednimi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

@@ -349,3 +349,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
     Strona Advanced Settings zapewnia dostęp do zaawansowanych opcji konfiguracji poprzez interfejs OpenWrt LuCI, umożliwiając doświadczonym użytkownikom precyzyjne dostosowywanie ustawień i funkcji routera wykraczające poza podstawowe opcje interfejsu. Obejmuje to szczegółowe konfiguracje sieciowe, ustawienia zapory sieciowej i inne zaawansowane dostosowania systemu.
 
     Szczegółowe instrukcje znajdziesz w artykule [Advanced Settings](../../interface_guide/advanced_settings.md).
+
+## Deklaracja zgodności
+
+Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [AC1200 Wireless Travel Router, GL-SFT1200] jest zgodny z zasadniczymi wymaganiami oraz innymi odpowiednimi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

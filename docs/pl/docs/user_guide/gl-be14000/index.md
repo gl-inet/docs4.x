@@ -421,3 +421,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     Strona Advanced Settings zapewnia dostęp do zaawansowanych opcji konfiguracji przez interfejs OpenWrt LuCI. Doświadczeni użytkownicy mogą precyzyjnie dostosować ustawienia i funkcje routera poza podstawowymi opcjami interfejsu, w tym szczegółową konfigurację sieci, zapory i inne zaawansowane ustawienia systemowe.
 
     Szczegółowe informacje zawiera strona [Advanced Settings](../../interface_guide/advanced_settings.md).
+
+## Deklaracja zgodności
+
+Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [BE14000 Wi-Fi 7 Router, GL-BE14000] jest zgodny z zasadniczymi wymaganiami i innymi stosownymi postanowieniami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

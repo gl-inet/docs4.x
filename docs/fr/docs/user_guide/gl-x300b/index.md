@@ -303,6 +303,6 @@ Veuillez consulter le tutoriel [**Réinitialisation du firmware**](../../interfa
 
 Veuillez consulter le tutoriel [**Paramètres avancés**](../../interface_guide/advanced_settings.md).
 
-## Déclarations réglementaires
+## Déclaration UE de conformité
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [Industrial 4G LTE Gateway, GL-X300B] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la Directive 2014/53/UE. Le texte complet de la déclaration UE de conformité est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

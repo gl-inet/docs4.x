@@ -578,7 +578,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées, consultez [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Déclarations réglementaires
+## Déclaration UE de conformité
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [Routeur portable 5G NR Wi-Fi 7 tri-bande, GL-E5800EU] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte complet de la déclaration UE de conformité est disponible à l'adresse internet suivante:
 [https://www.gl‑inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

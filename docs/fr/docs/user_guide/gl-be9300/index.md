@@ -371,6 +371,6 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Veuillez consulter [Paramètres avancés](../../interface_guide/advanced_settings.md) pour des instructions détaillées.
 
-## Déclarations réglementaires
+## Déclaration UE de conformité
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que le type d'équipement radio [BE9300 Wi-Fi 7 Router, GL-BE9300] est conforme aux exigences essentielles et autres dispositions pertinentes de la Directive 2014/53/UE. Le texte complet de la déclaration de conformité UE est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

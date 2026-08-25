@@ -451,3 +451,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
     Die Seite Advanced Settings bietet Zugriff auf erweiterte Konfigurationsoptionen über die OpenWrt-LuCI-Oberfläche. Erfahrene Benutzer können dort Routereinstellungen und Funktionen über die grundlegenden Optionen hinaus fein abstimmen. Dazu gehören detaillierte Netzwerkkonfigurationen, Firewall-Einstellungen und weitere erweiterte Systemanpassungen.
 
     Detaillierte Informationen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
+
+## Konformitätserklärung
+
+Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [BE14000 Wi-Fi 7 Router, GL-BE14000] den grundlegenden Anforderungen und den übrigen einschlägigen Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter der folgenden Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

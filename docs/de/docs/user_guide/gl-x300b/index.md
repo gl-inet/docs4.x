@@ -332,3 +332,7 @@ Lesen Sie das Tutorial [**Reset Firmware**](../../interface_guide/reset_firmware
 ### Advanced Settings
 
 Lesen Sie das Tutorial [**Advanced Settings**](../../interface_guide/advanced_settings.md).
+
+## Konformitätserklärung
+
+Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [Industrial 4G LTE Gateway, GL-X300B] den grundlegenden Anforderungen und anderen relevanten Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU-Konformitätserklärung ist unter folgender Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

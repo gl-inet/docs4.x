@@ -4,7 +4,7 @@
 
 Mango 2 (GL-MG1300) is GL.iNet's first dual-band Wi‑Fi 5 mini travel router, featuring an ultra‑thin and portable design. It delivers theoretical dual-band speeds of 400 Mbps (2.4 GHz) and 866 Mbps (5 GHz), with a 2×2 MIMO configuration. Additionally, it comes pre-installed with OpenVPN and WireGuard, supports 30+ VPN services and automatically encrypts all network traffic, and enables remote management via GoodCloud — perfectly balancing performance, practicality, and security.
 
-![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.png){class="glboxshadow"}
+![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
 ## Package contents
 
@@ -97,7 +97,7 @@ Below is an overview of the features in the Mango 2 web Admin Panel.
 
 ## Wireless
 
-The Wireless page allows you to configure settings for both the 5 GHz and 2.4 GHz Wi-Fi networks, including enabling Wi-Fi, setting TX power, specifying the Wi-Fi name (SSID), enabling randomized BSSID, selecting Wi-Fi security mode and password, configuring SSID visibility, choosing the Wi-Fi mode, bandwidth, and channel.
+The Wireless page allow you to configure various Wi-Fi networks, including Main Network, Guest Network and IoT Network. For each Wi-Fi network type, you can independently configure both 5 GHz and 2.4 GHz bands. You can also enable and configure basic settings for each band, such as the Wi-Fi SSID, security mode, password, and enable randomized BSSID.
 
 To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 
@@ -121,7 +121,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 === "GoodPAS"
 
-    GoodPAS is an advanced networking platform designed for seamless remote networking and device management. Built specifically for GL.iNet router integration, GoodPAS employs the AmneziaWG protocol with built-in traffic obfuscation to ensure secure and stable connections. By securely extending your home network globally, it allows you to access remote resources using your home IP address.  
+    GoodPAS is an advanced networking feature designed for seamless remote access and device management. Built specifically for GL.iNet router integration, GoodPAS employs the AmneziaWG protocol with built-in traffic obfuscation to ensure secure and stable connections. It securely extends your home network globally, allowing you to access home resources while all traffic appears to originate from your home public IP address.
 
 ## VPN 
 
@@ -293,9 +293,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Scheduled Tasks page allows you to automate various router functions based on a predefined schedule, enhancing convenience and efficiency. Key features on this page include:
 
-    * LCD Display Schedule: Set a schedule to automatically turn the router's LCD display on or off, reducing light pollution during specific times.
+    * LED Control: Toggle the router's LED lights on or off, allowing for customization of the device's visual indicators.
     * Schedule Reboot: Configure your router to reboot automatically at specified intervals, helping to maintain optimal performance and stability.
-    * Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz / MLO Wi-Fi band, allowing for better management of network availability and power consumption.
+    * Wi-Fi Status Schedule: Set a schedule to control the 5GHz / 2.4GHz band, allowing for better management of network availability and power consumption.
     
     These scheduling options provide you with greater control over your router's operations, ensuring it meets your specific needs and preferences.
 

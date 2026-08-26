@@ -185,7 +185,7 @@ In summary, an Exit node routes outbound Internet traffic from your Tailnet devi
 
 In the following example, a GL.iNet router **GL-MT2500** and a **Leo-Desktop** are on the same Tailnet. 
 
-Here are the steps to set Leo-Desktop as an Exit Node.
+Here are the steps to set Leo-Desktop as an Exit Node. For an alternative custom Exit Nodes setup method, please refer to [IP Masquerading](#ip-masquerading).
 
 1. Enable subnet routes of GL-MT2500 in the Tailscale Admin console.
 
@@ -301,9 +301,56 @@ Here are the steps to set the GL-BE9300 as an Exit Node.
 
         ![ip boston](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/ip_boston.png){class="glboxshadow"}
 
----
 
-References: [Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/){target="_blank"}
+For more information, you can refer to [Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/){target="_blank"}.
+
+## IP Masquerading
+
+**Note**: This feature was introduced in firmware v4.9. If your router fails to join a Tailscale virtual network, try enabling the IP Masquerading option to improve setup success rates.
+
+IP Masquerading is a network address masquerading mechanism. When you enable this option on the router, the source IP addresses of packets from LAN clients are automatically rewritten to the router's Tailscale interface IP address. This means other nodes within the Tailscale network will recognize all traffic forwarded by the subnet router as originating from the router itself.
+
+IP Masquerading is recommended for the following scenarios:
+
+- If you want to simplify routing through a subnet router.
+
+- If you want to skip configuring return routes on the destination network.
+
+In the example below, the GL.iNet routers GL‑BE9300 and GL-MG1300 are on the same Tailnet.
+
+![tailnet](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailnet.png){class="glboxshadow"}
+
+Follow the steps below to configure a **custom exit node** on the GL‑BE9300.
+
+1. Log in to the GL-BE9300's web Admin Panel, go to **APPLICATIONS** -> **Tailscale**, enable **IP Masquerading**, then click **Apply**.
+
+    ![iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/ip_masquerading.png){class="glboxshadow"}
+
+    When IP Masquerading is enabled, subnet routes do not need to be configured in the Tailscale Admin console. LAN clients connected to the router can access the Tailscale network directly via the router's Tailscale virtual IP. 
+    
+    In this example, the GL-BE9300 (100.115.61.35) and GL-MG1300 (100.113.50.89) have Tailscale virtual IP. If a PC is connected to the GL‑BE9300, it can directly access the GL‑MG1300's web Admin Panel via the GL‑BE9300's Tailscale interface IP.
+
+    ![test iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/test_ip_masquerading.png){class="glboxshadow"}
+
+2. Select the device you want to use as an exit node, such as the GL-MG1300 in this example, enable **Run exit node**.
+
+    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
+
+    Then click **Apply**.
+
+    ![run exit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_2.png){class="glboxshadow"}
+
+3. In the Tailscale Admin console, set up the GL-MG1300 as an Exit node.
+
+    ![tailscale exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_exit_node_1.png){class="glboxshadow"}
+
+    ![tailscale exit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_exit_node_2.png){class="glboxshadow" width=500}
+
+4. Return to the GL-BE9300's web Admin Panel, go to **APPLICATIONS** -> **Tailscale** and enable **Custom Exit Nodes**. Click the refresh button, and select the IP address of the GL-MG1300 from the drop-down menu, then click **Apply**.
+
+    ![custom exit nodes 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes_1.png){class="glboxshadow"}
+
+After configuring, if your devices are connected to the router, they will route their traffic through the exit node to access the Internet, and all your Internet traffic will appear to originate from the Exit Node's location.
 
 ---
 

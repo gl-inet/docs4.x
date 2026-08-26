@@ -97,7 +97,7 @@ Below is an overview of the features in the Mango 2 web Admin Panel.
 
 ## Wireless
 
-The Wireless page allow you to configure various Wi-Fi networks, including Main Network, Guest Network and IoT Network. For each Wi-Fi network type, you can independently configure both 5 GHz and 2.4 GHz bands. You can also enable and configure basic settings for each band, such as the Wi-Fi SSID, security mode, password, and enable randomized BSSID.
+The Wireless page allows you to configure various Wi-Fi networks, including Main Network, Guest Network and IoT Network. For each Wi-Fi network type, you can independently configure both 5 GHz and 2.4 GHz bands. You can also enable and configure basic settings for each band, such as the Wi-Fi SSID, security mode, password, and enable randomized BSSID.
 
 To set up Wireless, refer to [Wireless](../../interface_guide/wireless.md).
 

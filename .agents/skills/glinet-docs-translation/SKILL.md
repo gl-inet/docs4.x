@@ -37,7 +37,7 @@ Use this workflow when syncing English changes into localized docs, especially w
    - If no commit is given and cache is insufficient, use the most recent commit whose message is `translation, from en to others.` as the fallback lower bound, then diff that commit..HEAD.
 2. Build an English change list first. Include modified, added, deleted, and renamed files under `docs/en/`, plus changes to `docs/en/mkdocs.yml`, redirects, nav, and path references.
 3. Handle structure before prose:
-   - Mirror English renames in `docs/de/`, `docs/es/`, `docs/fr/`, `docs/it/`, `docs/jp/`, and `docs/pl/`.
+   - Mirror English renames in `docs/de/`, `docs/es/`, `docs/fr/`, `docs/it/`, `docs/ja/`, and `docs/pl/`.
    - Create matching localized pages when English adds pages.
    - Sync localized `mkdocs.yml` changes when English changes nav, redirects, plugins, or path references.
 4. Translate only the changed English portions. Do not retranslate whole pages unless the English page is new or the localized page is unusable and the user agrees.
@@ -60,7 +60,7 @@ Use this workflow when syncing English changes into localized docs, especially w
 ## Path Conventions
 
 - English source docs live under the language root `docs/en/`, including `mkdocs.yml`, homepage overrides, and page content under `docs/en/docs/`.
-- Localized docs live under the language roots `docs/de/`, `docs/es/`, `docs/fr/`, `docs/it/`, `docs/jp/`, and `docs/pl/`.
+- Localized docs live under the language roots `docs/de/`, `docs/es/`, `docs/fr/`, `docs/it/`, `docs/ja/`, and `docs/pl/`.
 - For page content, prefer updating the matching localized path under the target language's `docs/` subdirectory. Create a new localized page only when the English source introduces a page that does not yet exist.
 - For language-level files such as `mkdocs.yml` or homepage overrides, update the matching file under the target language root when it exists.
 
@@ -103,7 +103,7 @@ For small edits, optionally run touched-language builds or fast smoke checks dur
 ```powershell
 # Run from repository root: docs4.x
 $mkdocs="..\Scripts\mkdocs.exe"
-$langs=@('de','es','fr','it','jp','pl')
+$langs=@('de','es','fr','it','ja','pl')
 foreach($lang in $langs){
   Write-Host "BUILD $lang"
   & $mkdocs build -f "docs/$lang/mkdocs.yml" --strict

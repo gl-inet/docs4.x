@@ -15,11 +15,7 @@ import posixpath
 
 
 def _lang_dir(link):
-    """Return the language directory from a link such as ``/router/jp/4/``.
-
-    The directory name is used instead of ``alt.lang`` because Japanese is
-    published under ``jp`` while its language code is ``ja``.
-    """
+    """Return the language directory from a link such as ``/router/ja/4/``."""
     parts = [part for part in link.split("/") if part]
     return parts[1] if len(parts) > 1 else None
 

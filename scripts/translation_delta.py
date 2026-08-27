@@ -13,7 +13,7 @@ from dataclasses import dataclass
 from typing import Iterable
 
 
-DEFAULT_LANGS = ("de", "es", "fr", "it", "jp", "pl")
+DEFAULT_LANGS = ("de", "es", "fr", "it", "ja", "pl")
 DEFAULT_EXTENSIONS = (".md", ".yml", ".yaml", ".html")
 DEFAULT_EXCLUDE_DIRS = {"site", ".git", "__pycache__"}
 EXCLUDED_TRAILING_MARKDOWN_SECTIONS = {"Regulatory Statements"}

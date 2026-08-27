@@ -55,7 +55,7 @@
 
 ## Repository Expectations for Japanese
 
-- Match the style used in well-written files under `docs/jp/docs/`.
+- Match the style used in well-written files under `docs/ja/docs/`.
 - Prefer wording that reads like official support documentation for router setup and administration.
 - If the current Japanese page contains low-quality machine translation, clean it fully instead of only editing one sentence and leaving the rest broken.
 

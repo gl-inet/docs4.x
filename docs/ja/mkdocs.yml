@@ -5,7 +5,7 @@ edit_uri: ""
 site_name: GL.iNet ルータードキュメント 4
 site_description: GL.iNet ルーター製品向けドキュメント
 site_author: GL.iNet
-site_url: https://docs.gl-inet.com/router/jp/4/
+site_url: https://docs.gl-inet.com/router/ja/4/
 site_dir: site
 copyright: Copyright &copy; 2026 GL Technologies & Microuter Technologies
 
@@ -89,7 +89,7 @@ extra:
     provider: mike
   alternate:
     - name: 日本語
-      link: /router/jp/4/
+      link: /router/ja/4/
       lang: ja
     - name: English
       link: /router/en/4/

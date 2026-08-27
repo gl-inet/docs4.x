@@ -77,6 +77,12 @@ Use this workflow when syncing English changes into localized docs, especially w
 - Do not create, update, or flag matching localized content for `## Regulatory Statements`, even when an English commit adds or changes these sections in user guide pages.
 - Do not translate, rewrite, or localize the regulatory statement text. It may already contain required English and French legal wording that should remain confined to the English documentation.
 
+## Protected Localized Sections
+
+- Some localized user guides under `docs/de/`, `docs/es/`, `docs/fr/`, `docs/it/`, and `docs/pl/` contain a localized EU Declaration of Conformity even when the matching English page has no equivalent section.
+- Preserve any existing Declaration of Conformity section, its product-specific wording, Directive `2014/53/EU` reference, and certificate link during translation syncs, page rewrites, and structure alignment. Do not delete it, replace it with English content, or flag it as extra or stale solely because it is absent from `docs/en/`.
+- Treat these localized declarations as distinct from the English-only `## Regulatory Statements` exclusion above. When creating or replacing a localized user guide, inspect the previous localized page and retain its declaration if present.
+
 ## Commit Baseline Guidance
 
 - Do not hard-code a specific commit hash in the skill. It becomes stale immediately after the next translation run.

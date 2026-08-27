@@ -6,8 +6,8 @@ TUTORIAL_FOR_COLLEAGUE.md
 .vscode/settings.json
 __pycache__/
 
-# 文档正文中的图片一律使用外部 CDN 链接引用，禁止把图片二进制文件提交到仓库。
-# 仅站点主题资源（各 docs/images、docs/stylesheets 目录下的 logo、favicon 等）允许入库。
+# All doc content images must be referenced via external CDN links, not committed as binaries.
+# Only site theme assets (logo, favicon, etc. under docs/images and docs/stylesheets) are allowed.
 *.png
 *.jpg
 *.jpeg

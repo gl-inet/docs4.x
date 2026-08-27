@@ -6,6 +6,7 @@ Data Statistics fournit un tableau de bord de trafic intuitif qui identifie l’
 
 1. La fonctionnalité Statistiques de données ne prend pas effet lorsque le routeur est en mode Drop-in Gateway.
 2. La fonctionnalité Statistiques de données ne peut pas fonctionner avec Network Acceleration. Son activation désactivera automatiquement Network Acceleration afin de garantir des performances stables.
+3. Data Statistics suit uniquement l’utilisation du trafic des appareils répertoriés sur la page **Clients**. Si un appareil se connecte au routeur via une interface de tunnel (par exemple, VPN Client, Tailscale ou AstroWarp), le trafic provenant de cet appareil et transféré par le routeur est exclu de ces statistiques.
 
 ## Modèles pris en charge
 

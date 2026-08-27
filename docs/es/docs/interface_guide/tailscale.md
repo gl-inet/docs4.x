@@ -182,7 +182,7 @@ En resumen, un Exit Node enruta el tráfico saliente de Internet de sus disposit
 
 ---
 
-En el siguiente ejemplo, un router GL.iNet **GL-MT2500** y un **Leo-Desktop** están en el mismo Tailnet. A continuación se indican los pasos para configurar Leo-Desktop como Exit Node.
+En el siguiente ejemplo, un router GL.iNet **GL-MT2500** y un **Leo-Desktop** están en el mismo Tailnet. A continuación se indican los pasos para configurar Leo-Desktop como Exit Node. Para consultar un método alternativo de configuración de Exit Nodes personalizados, consulte [Enmascaramiento de IP](#ip-masquerading).
 
 1. Habilite las rutas de subred del GL-MT2500 en la consola Tailscale Admin.
 
@@ -298,9 +298,61 @@ Siga estos pasos para configurar el GL-BE9300 como Exit Node.
 
         ![ip boston](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node/ip_boston.png){class="glboxshadow"}
 
----
+Para obtener más información, consulte [Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/){target="_blank"}.
 
-Referencias: [Exit Nodes (route all traffic)](https://tailscale.com/kb/1103/exit-nodes/){target="_blank"}
+## Enmascaramiento de IP {#ip-masquerading}
+
+**Nota**: Esta función se incorporó en el firmware v4.9.
+
+El enmascaramiento de IP es un mecanismo de enmascaramiento de direcciones de red. Al habilitar esta opción en el router, las direcciones IP de origen de los paquetes de los clientes LAN se sustituyen automáticamente por la dirección IP de la interfaz Tailscale del router. De este modo, los demás nodos de la red Tailscale reconocen todo el tráfico reenviado por el router de subred como procedente del propio router, y no del cliente LAN original.
+
+Se recomienda usar el enmascaramiento de IP en los siguientes casos:
+
+- Al configurar un Exit Node personalizado, si prefiere no configurar rutas de subred en la consola Tailscale Admin y quiere que el router reenvíe todo el tráfico de los clientes de una forma más sencilla.
+
+- Cuando sus dispositivos LAN no pueden instalar Tailscale, pero necesitan acceder a redes Tailscale a través del router.
+
+En el siguiente ejemplo, los routers GL.iNet GL-BE9300 y GL-MG1300 están en el mismo Tailnet.
+
+![tailnet](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailnet.png){class="glboxshadow"}
+
+Siga estos pasos para configurar un **Exit Node personalizado** en el GL-BE9300.
+
+1. Inicie sesión en el panel de administración web del GL-BE9300, vaya a **APPLICATIONS** -> **Tailscale**, habilite **IP Masquerading** y haga clic en **Apply**.
+
+    ![iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/ip_masquerading.png){class="glboxshadow"}
+
+    Cuando el enmascaramiento de IP está habilitado, no es necesario configurar rutas de subred en la consola Tailscale Admin. Los clientes LAN conectados al router pueden acceder directamente a la red Tailscale mediante la IP virtual de Tailscale del router.
+
+    En este ejemplo, el GL-BE9300 (`100.115.61.35`) y el GL-MG1300 (`100.113.50.89`) tienen direcciones IP virtuales de Tailscale. Si un PC está conectado al GL-BE9300, puede acceder directamente al panel de administración web del GL-MG1300 mediante la IP de la interfaz Tailscale del GL-BE9300.
+
+    ![test iP masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/test_ip_masquerading.png){class="glboxshadow"}
+
+2. Seleccione el dispositivo que quiera usar como Exit Node, por ejemplo el GL-MG1300 en este caso, y habilite **Run exit node**.
+
+    ![run exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_1.png){class="glboxshadow" width=600}
+
+    A continuación, haga clic en **Apply**.
+
+    ![run exit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/run_exit_node_2.png){class="glboxshadow"}
+
+3. En la consola Tailscale Admin, configure el GL-MG1300 como Exit Node.
+
+    ![tailscale exit node 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_exit_node_1.png){class="glboxshadow"}
+
+    ![tailscale exit node 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/tailscale_exit_node_2.png){class="glboxshadow" width=500}
+
+    Para evitar interrupciones de la conexión cuando caduque la clave de autenticación del Exit Node, puede habilitar **Disable Key Expiry**.
+
+    ![disable key expirty 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_1.png){class="glboxshadow"}
+
+    ![disable key expirty 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/disable_key_expiry_2.png){class="glboxshadow"}
+
+4. Regrese al panel de administración web del GL-BE9300, vaya a **APPLICATIONS** -> **Tailscale** y habilite **Custom Exit Nodes**. Haga clic en el botón de actualización, seleccione la dirección IP del GL-MG1300 en el menú desplegable y haga clic en **Apply**.
+
+    ![custom exit nodes 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/tailscale/custom_exit_nodes_1.png){class="glboxshadow"}
+
+Una vez completada la configuración, los dispositivos conectados al router GL-BE9300 enrutarán su tráfico a través del Exit Node GL-MG1300 para acceder a Internet, y todo el tráfico de Internet parecerá proceder de la ubicación del Exit Node.
 
 ---
 

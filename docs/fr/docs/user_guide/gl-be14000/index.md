@@ -425,3 +425,7 @@ Un VPN (réseau privé virtuel) crée un canal sécurisé et chiffré entre votr
 ## Déclaration UE de conformité
 
 Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que l'équipement radio de type [BE14000 Wi-Fi 7 Router, GL-BE14000] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte complet de la déclaration UE de conformité est disponible à l'adresse internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
+
+Pour l’UE :<br>
+Puissance de sortie maximale :<br>
+CE: ≤20dBm EIRP (2.412GHz~2.472GHz); ≤23dBm EIRP (5.15GHz~5.35GHz); ≤30dBm EIRP (5.47GHz~5.725GHz); ≤13.98dBm (5.725GHz~5.85GHz); ≤23dBm EIRP (5.925GHz~6.425 GHz)

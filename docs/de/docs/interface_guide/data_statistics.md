@@ -6,6 +6,7 @@ Die Datenstatistiken bieten ein intuitives Dashboard für den Datenverkehr, das 
 
 1. Datenstatistiken wirken nicht, wenn sich der Router im Drop-in Gateway-Modus befindet.
 2. Datenstatistiken können nicht zusammen mit der Netzwerkbeschleunigung verwendet werden. Beim Aktivieren der Datenstatistiken wird die Netzwerkbeschleunigung automatisch deaktiviert, um eine stabile Leistung sicherzustellen.
+3. Die Datenstatistiken erfassen nur die Datennutzung von Geräten, die auf der Seite **Clients** aufgeführt sind. Wenn ein Gerät über eine Tunnelschnittstelle (z. B. VPN-Client, Tailscale oder AstroWarp) mit dem Router verbunden ist, wird der von diesem Gerät ausgehende und über den Router weitergeleitete Datenverkehr nicht in diesen Statistiken erfasst.
 
 ## Unterstützte Modelle
 

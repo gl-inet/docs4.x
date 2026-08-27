@@ -139,7 +139,7 @@ nav:
   - Accueil: index.md
   - Guide utilisateur:
     - Apercu: user_guide/index.md
-    - GL-MG1300 (Mango 2): https://www.gl-inet.com/products/gl-mg1300
+    - GL-MG1300 (Mango 2): user_guide/gl-mg1300/index.md
     - GL-BE14000 (Flint 4): user_guide/gl-be14000/index.md
     - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md
     - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md

@@ -1,6 +1,10 @@
 # Come usare la eSIM Physical Card con dispositivi Android
 
-Questa guida fornisce istruzioni passo dopo passo per configurare e attivare la eSIM Physical Card acquistata nello store online GL.iNet. La eSIM Physical Card e compatibile con la maggior parte dei dispositivi Android e offre una connettivita Internet semplice e prestazioni affidabili.
+**Nota**: prima di iniziare, consulta l’[elenco dei dispositivi compatibili](https://www.eiotclub.com/blogs/community/physical-esim-compatible-devices){target="_blank"} per verificare che il tuo dispositivo Android sia compatibile con la eSIM Physical Card.
+
+---
+
+Questa guida fornisce istruzioni passo dopo passo per configurare e attivare la eSIM Physical Card acquistata nello store online GL.iNet. Se il tuo dispositivo Android è compatibile con la eSIM Physical Card, segui le istruzioni riportate di seguito per utilizzare la scheda e ottenere una connettività Internet senza interruzioni.
 
 ![eSIM Physical Card officially endorsed by GL.iNet](https://static.gl-inet.com/docs/router/en/4/tutorials/set_up_the_esim_physical_card_with_android_devices/simpoyo-esim-physical-card.png){class="glboxshadow"}
 

@@ -6,6 +6,7 @@ Statystyki danych udostępniają intuicyjny panel ruchu, który identyfikuje wyk
 
 1. Statystyki danych nie działają, gdy router pracuje w trybie Drop-in Gateway.
 2. Statystyki danych nie współpracują z funkcją Network Acceleration. Włączenie statystyk danych automatycznie wyłączy Network Acceleration, aby zapewnić stabilną wydajność.
+3. Statystyki danych rejestrują użycie ruchu tylko przez urządzenia widoczne na stronie **Clients**. Jeśli urządzenie łączy się z routerem przez interfejs tunelowy (np. VPN Client, Tailscale lub AstroWarp), ruch pochodzący z tego urządzenia i przekazywany przez router nie jest uwzględniany w tych statystykach.
 
 ## Obsługiwane modele
 

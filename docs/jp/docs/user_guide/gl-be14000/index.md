@@ -421,3 +421,11 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     Advanced Settingsページでは、OpenWrt LuCIインターフェースから高度な設定へアクセスできます。上級ユーザーは、基本インターフェースを超えてルーターの設定と機能を細かく調整できます。詳細なネットワーク設定、ファイアウォール設定、その他の高度なシステムカスタマイズが含まれます。
 
     詳細は[Advanced Settings](../../interface_guide/advanced_settings.md)を参照してください。
+
+## 適合宣言
+
+GL TECHNOLOGIES (HONG KONG) LIMITEDは、無線機器[BE14000 Wi-Fi 7 Router, GL-BE14000]が指令2014/53/EUの基本要件およびその他の関連規定に適合することを宣言します。EU適合宣言の全文は、[https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}で確認できます。
+
+EU向け：<br>
+最大送信出力：<br>
+CE: ≤20dBm EIRP (2.412GHz~2.472GHz); ≤23dBm EIRP (5.15GHz~5.35GHz); ≤30dBm EIRP (5.47GHz~5.725GHz); ≤13.98dBm (5.725GHz~5.85GHz); ≤23dBm EIRP (5.925GHz~6.425 GHz)

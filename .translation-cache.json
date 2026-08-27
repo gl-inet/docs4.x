@@ -1595,31 +1595,31 @@
     }
   },
   "docs/en/docs/interface_guide/display_management.md": {
-    "source_hash": "2f6f366f053f7c4647b0091658c19377f906a86c9514eb783e7d1d934da67dbb",
+    "source_hash": "04d80be4663ed6eda3b70bca8c1d4b9d67b325588e21d28f970ecd30c87fe6ba",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       }
     }
   },
@@ -3451,31 +3451,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_activate_top_up_sim_cards.md": {
-    "source_hash": "76d85b91014bc4ecf3e082cc58b52251c9b477a0c526a2a202c6868f8b47c9ae",
+    "source_hash": "87c636c71ad90f86f47f507aa80e595c6f89f3d210d18acee205cc5f789445d3",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       },
       "jp": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "updated_at": 1787801285
       }
     }
   },

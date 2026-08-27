@@ -15,7 +15,7 @@ https://static.gl-inet.com/docs/router/en/4/tutorials/activate_top_up_sim_card/t
 * Data only (no calls/SMS)
 * Easy setup or top-up at $80/month via QR code
 
-## How to activate T-Moible SIM cards 
+## How to activate T-Mobile SIM cards
 
 If you are using the SIM card for the first time, you will have to activate it by following these steps: 
 

@@ -40,7 +40,7 @@ This page lets you manage the touchscreen display and its related settings.
 
     ![be3600 lock screen](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_lockscreen.png){class="glboxshadow"}
 
-    Switch the wallper to **Customize**, and you can upload an image with a size not exceeding 5MB.
+    Switch the wallpaper to **Customize**, and you can upload an image with a size not exceeding 5MB.
 
     ![be3600 wallpaper customize](https://static.gl-inet.com/docs/router/en/4/interface_guide/display_management/be3600_wallpaper_custom.png){class="glboxshadow"}
 

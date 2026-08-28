@@ -375,3 +375,27 @@ Hereby, GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment ty
 FOR EU:  
 Maximum output power  
 CE: ≤20dBm EIRP(2.412GHz-2.472GHz); ≤23dBm EIRP(5.15GHz~5.35GHz); s30dBm EIRP(5.47GHz~5.725GHz); ≤13.98dBm(5.725GHz~5.85GHz)
+
+---
+
+**Déclaration de conformité**
+
+Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que le type d’équipement radio [Mini routeur de voyage bi‑bande, GL‑MG1300] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte intégral de la déclaration de conformité UE est disponible à l’adresse Internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
+
+---
+
+**Konformitätserklärung**
+
+Hiermit erklärt GL TECHNOLOGIES (HONG KONG) LIMITED, dass der Funkanlagentyp [Dualband‑Mini‑Reise‑Router, GL‑MG1300] den grundlegenden Anforderungen und anderen einschlägigen Bestimmungen der Richtlinie 2014/53/EU entspricht. Der vollständige Text der EU‑Konformitätserklärung ist unter der folgenden Internetadresse verfügbar: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
+
+---
+
+**Declaración de conformidad**
+
+Por la presente, GL TECHNOLOGIES (HONG KONG) LIMITED declara que el tipo de equipo radioeléctrico [Router mini de viaje doble banda, GL‑MG1300] cumple los requisitos esenciales y demás disposiciones pertinentes de la Directiva 2014/53/UE. El texto completo de la declaración UE de conformidad está disponible en la siguiente dirección de internet: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
+
+---
+
+**Deklaracja zgodności**
+
+Niniejszym GL TECHNOLOGIES (HONG KONG) LIMITED oświadcza, że typ urządzenia radiowego [Dwuzakresowy mini router podróżny, GL‑MG1300] jest zgodny z zasadniczymi wymaganiami i innymi odpowiednimi przepisami dyrektywy 2014/53/UE. Pełny tekst deklaracji zgodności UE jest dostępny pod następującym adresem internetowym: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

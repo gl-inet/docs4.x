@@ -179,3 +179,43 @@ img.glboxshadow {
 .gl-link-select[data-enhanced="true"] .gl-link-select__fallback {
   display: none;
 }
+
+/* Cross-site documentation links in the footer */
+.gl-docs-footer {
+  align-self: center;
+  color: var(--md-footer-fg-color--lighter);
+  display: flex;
+  flex-direction: column;
+  font-size: 0.64rem;
+  gap: 0.2rem;
+  margin: auto 0.6rem;
+  padding: 0.4rem 0;
+}
+
+.gl-docs-footer__title,
+.gl-docs-footer__current {
+  color: var(--md-footer-fg-color--light);
+  font-weight: 700;
+}
+
+.gl-docs-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.md-footer-meta .gl-docs-footer__links a {
+  color: var(--md-footer-fg-color--lighter);
+}
+
+.md-footer-meta .gl-docs-footer__links a:focus,
+.md-footer-meta .gl-docs-footer__links a:hover {
+  color: var(--md-footer-fg-color);
+}
+
+@media screen and (max-width: 44.984375em) {
+  .gl-docs-footer {
+    order: -1;
+    width: 100%;
+  }
+}

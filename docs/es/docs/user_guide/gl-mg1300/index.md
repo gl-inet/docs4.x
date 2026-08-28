@@ -341,8 +341,6 @@ Una VPN (red privada virtual) crea una conexión segura y cifrada entre el dispo
 
     Consulte [Advanced Settings](../../interface_guide/advanced_settings.md) para ver instrucciones detalladas.
 
----
-
-**Declaración de conformidad**
+## Declaración de conformidad
 
 Por la presente, GL TECHNOLOGIES (HONG KONG) LIMITED declara que el tipo de equipo radioeléctrico [Router mini de viaje doble banda, GL‑MG1300] cumple los requisitos esenciales y demás disposiciones pertinentes de la Directiva 2014/53/UE. El texto completo de la declaración UE de conformidad está disponible en la siguiente dirección de internet: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

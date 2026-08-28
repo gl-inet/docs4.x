@@ -340,3 +340,7 @@ Un VPN (réseau privé virtuel) crée une connexion sécurisée et chiffrée ent
     La page Advanced Settings donne accès à des options de configuration avancées via l'interface OpenWrt LuCI, ce qui permet aux utilisateurs expérimentés d'ajuster finement les paramètres et fonctionnalités du routeur au-delà des options de base de l'interface. Cela inclut des configurations réseau détaillées, des paramètres de pare-feu et d'autres personnalisations système avancées.
 
     Veuillez consulter [Advanced Settings](../../interface_guide/advanced_settings.md) pour des instructions détaillées.
+
+## Déclaration de conformité
+
+Par la présente, GL TECHNOLOGIES (HONG KONG) LIMITED déclare que le type d’équipement radio [Mini routeur de voyage bi‑bande, GL‑MG1300] est conforme aux exigences essentielles et aux autres dispositions pertinentes de la directive 2014/53/UE. Le texte intégral de la déclaration de conformité UE est disponible à l’adresse Internet suivante: [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.

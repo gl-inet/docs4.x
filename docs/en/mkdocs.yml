@@ -288,6 +288,7 @@ plugins:
         'user_guide/gl-mv1000/applications.md': 'user_guide/gl-mv1000/index.md#applications'
         'user_guide/gl-mv1000/network.md': 'user_guide/gl-mv1000/index.md#network'
         'user_guide/gl-mv1000/system.md': 'user_guide/gl-mv1000/index.md#system'
+        'tutorials/index/index.md': 'interface_guide/index.md'
 
 hooks:
   - ../../scripts/alternate_links.py

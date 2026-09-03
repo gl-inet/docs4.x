@@ -66,8 +66,6 @@ Flint 3 will act as the home router, while Slate 7 will act as the travel router
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/aw_topology.png){class="glboxshadow"}
 
-**Note**: Each GL.iNet router comes with **10 GB free data per month** for AstroWarp networking. Devices in an AstroWarp network will use the home router's data to access the Internet. You can upgrade to the AstroWarp+ plan for unlimited data as needed.
- 
 1. Configure Flint 3 for Internet.
 
     Log in to the Flint 3's web admin panel and navigate to the **INTERNET** page. Connect it to the Internet using one of the supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular.
@@ -142,32 +140,22 @@ Flint 3 will act as the home router, while Slate 7 will act as the travel router
 
     A: The travel router will disconnect and be pending with no network access. Once the home router resumes connection, the travel router can reconnect automatically without entering the access code again.
 
-3. **Q: What if the free data runs out or the AstroWarp+ plan expires on the home router?**
-
-    A: The travel router will enter pending state with no network access and will not switch to the local network automatically.
-
-4. **Q: In what scenarios will the travel router enter pending state?**
+3. **Q: In what scenarios will the travel router enter pending state?**
     
     A: The travel router will enter pending state when the home router meets any of the following conditions:
     
     - Terminates the AstroWarp connection
-    - Runs out of free data quota
-    - Reaches the expiry date of the AstroWarp+ plan (if applicable)
     - Loses internet access
 
-5. **Q: What does the Reset button in the top right corner do?**
+4. **Q: What does the Reset button in the top right corner do?**
 
     A: It will clear all authorized devices and revert to the router role selection page for re-selection.
 
-6. **Q: What happens to the travel router if I reset the AstroWarp on the home router?**
+5. **Q: What happens to the travel router if I reset the AstroWarp on the home router?**
 
     A: Once the home router is reset, the remotely connected devices will be disconnected from the AstroWarp network and revert to their local network for internet access.
 
-7. **Q: If I upgrade the home router to the AstroWarp+ plan and switch its role to travel router while the plan is still valid, can the remaining plan duration be retained?**
-
-    A: Remaining valid period cannot be retained and will expire when it reaches the due date. To avoid unnecessary losses, switch the device role after your current plan expires.
-
-8. **Q: If I have enabled the new AstroWarp in the router's web Admin Panel, how do I disable it and switch back to the legacy AstroWarp?**
+6. **Q: If I have enabled the new AstroWarp in the router's web Admin Panel, how do I disable it and switch back to the legacy AstroWarp?**
 
     A: In the router's web Admin Panel, go to **CLOUD SERVICES** -> **AstroWarp** and click **Reset** in the top right corner. 
     

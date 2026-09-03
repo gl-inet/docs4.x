@@ -132,14 +132,6 @@ Flint 3 will act as the home router, while Slate 7 will act as the travel router
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
 
-## Upgrade Plan
-
-Each GL.iNet router comes with **10 GB free data per month** for AstroWarp networking. Devices in an AstroWarp network will use the home router's data to access the Internet. 
-
-You can upgrade to the **AstroWarp+** plan for unlimited data as needed.
-
-![upgrade plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/upgrade_plan.png){class="glboxshadow"}
-
 ## FAQ
 
 1. **Q: What is the format of the dynamic access code, and how long is it valid?**

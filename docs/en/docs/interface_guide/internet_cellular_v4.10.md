@@ -293,7 +293,7 @@ Click the gear icon in the upper-right corner and select **AT Command**.
 
 ## Non-cellular Routers
 
-This section takes **Mango 2 (GL-MG1300)** and an external USB dongle [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} as an example to introduce the cellular setup steps. 
+This section takes **Flint 3 (GL-BE9300)** and an external USB dongle [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} as an example to introduce the cellular setup steps. 
 
 **Note**: 
 

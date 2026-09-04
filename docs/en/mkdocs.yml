@@ -536,7 +536,7 @@ nav:
       - Ethernet: interface_guide/internet_ethernet.md
       - Repeater: interface_guide/internet_repeater.md
       - Tethering: interface_guide/internet_tethering.md
-      - Cellular: interface_guide/internet_cellular.md
+      - Cellular: interface_guide/internet_cellular_v4.10.md
     - Wireless:
       - Wireless: interface_guide/wireless.md
     - Mesh:

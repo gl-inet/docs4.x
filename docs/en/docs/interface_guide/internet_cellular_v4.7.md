@@ -1,10 +1,11 @@
-# Connect to the Internet via cellular (Firmware v4.7 and earlier)
+# Connect to the Internet via cellular (v4.7 and earlier)
 
-The content on this page is based on firmware versions v4.7.x and earlier. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
+The content on this page is based on firmware versions v4.7 and earlier. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
 <div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.7 and earlier" markdown="1">
 
-- [Firmware v4.8 and above](internet_cellular.md)
+- [Firmware v4.10 and above](internet_cellular_v4.10.md)
+- [Firmware v4.8 - v4.9](internet_cellular.md)
 
 </div>
 
@@ -263,7 +264,7 @@ Choose any profiles you needed
 
 ## Lock Tower
 
-This feature is available only on GL-X3000, GL-XE3000, and GL-X2000 (firmware ver.4.7 or later).
+This feature is available only on selected models, such as GL-X3000, GL-XE3000, and GL-X2000 (firmware ver.4.7 or later).
 
 If you want to receive a high-quality signal and ensure a stable cellular connection, you can try locking tower.
 

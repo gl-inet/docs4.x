@@ -14,7 +14,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [How to connect to the Internet via an Ethernet cable](internet_ethernet.md)
 * [How to connect to the Internet via Repeater](internet_repeater.md)
 * [How to connect to the Internet via USB tethering](internet_tethering.md)
-* [How to connect to the Internet via Cellular](internet_cellular.md)
+* [How to connect to the Internet via Cellular](internet_cellular_v4.10.md)
 
 ## Wireless
 

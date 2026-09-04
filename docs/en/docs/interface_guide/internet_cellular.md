@@ -1,9 +1,10 @@
-# Connect to the Internet via cellular
+# Connect to the Internet via cellular (v4.8-v4.9)
 
-The content on this page is based on firmware version v4.8.x and above. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
+The content on this page is based on firmware versions from v4.8 to v4.9. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
-<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.8 and above" markdown="1">
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.8 - v4.9" markdown="1">
 
+- [Firmware v4.10 and above](internet_cellular_v4.10.md)
 - [Firmware v4.7 and earlier](internet_cellular_v4.7.md)
 
 </div>
@@ -328,7 +329,7 @@ Please refer to [SMS Forwarding](../tutorials/sms_forwarding.md).
     - GL-XE3000 (Puli AX)
     - GL-X2000 (Spitz Plus)*
 
-    *The GL-X2000 (Spitz Plus) supports this feature on firmware ver.4.7 or later.
+    *The GL-X2000 (Spitz Plus) supports this feature on firmware v4.7 or later.
 
 If you want to receive a high-quality signal and ensure a stable cellular connection, you can try locking tower.
 
@@ -360,7 +361,14 @@ Click a tower to view the details and lock onto it.
 
 ## Lock Operator
 
-This feature is available only on GL-X3000, GL-XE3000, and GL-X2000 (firmware ver.4.8 or later).
+!!! note "Supported Models"
+
+    - GL-E5800 (Mudi 7)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-X2000 (Spitz Plus)*
+
+    *The GL-X2000 (Spitz Plus) supports this feature on firmware v4.8 or later.
 
 By locking to a specific mobile operator, the router will only use that operator's network, ensuring a stable connection and avoiding unintended roaming charges — especially in border areas where the device may otherwise connect to foreign networks.
 

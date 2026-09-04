@@ -33,7 +33,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [GL.iNet Account](glinet_account.md)
 * [GoodCloud](cloud.md) - the official cloud service.
 * [GoodPAS](goodpas.md)
-* [AstroWarp](astrowarp.md) - an advanced networking platform designed to provide seamless remote networking and remote device management.
+* [AstroWarp](astrowarp.md)
 
 ## VPN
 

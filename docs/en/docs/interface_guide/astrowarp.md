@@ -1,6 +1,6 @@
 # AstroWarp
 
-**Note**: This guide applies to the new version of AstroWarp. This feature was renamed to **GoodPAS** in v4.10.
+**Note**: This guide applies to the new version of AstroWarp. This feature was renamed to [GoodPAS](./goodpas.md) in firmware v4.10.
 
 
 The new AstroWarp is integrated into the GL.iNet router SDK. It adopts the AmneziaWG protocol with built-in traffic obfuscation, delivering stable and secure connections for reliable remote access anytime, anywhere.

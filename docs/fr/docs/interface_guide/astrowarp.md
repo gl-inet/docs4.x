@@ -1,6 +1,6 @@
 # AstroWarp
 
-**Remarque** : ce guide s’applique à la nouvelle version d’AstroWarp. Cette fonction a été renommée **GoodPAS** dans la version v4.10.
+**Remarque** : ce guide s’applique à la nouvelle version d’AstroWarp. Cette fonction a été renommée [GoodPAS](./goodpas.md) dans le firmware v4.10.
 
 La nouvelle version d’AstroWarp est intégrée au SDK des routeurs GL.iNet. Elle adopte le protocole AmneziaWG avec obfuscation de trafic intégrée, offrant des connexions stables et sécurisées pour un accès à distance fiable à tout moment, où que vous soyez.
 
@@ -63,8 +63,6 @@ Dans l’exemple suivant, nous utiliserons **Flint 3 (GL-BE9300)** et **Slate 7 
 Flint 3 jouera le rôle de routeur domestique, tandis que Slate 7 fera office de routeur de voyage qui renvoie le trafic réseau vers Flint 3 pour l’accès à Internet.
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/aw_topology.png){class="glboxshadow"}
-
-**Remarque** : chaque routeur GL.iNet inclut **10 GB de données gratuites par mois** pour le réseau AstroWarp. Les appareils d’un réseau AstroWarp utilisent les données du routeur domestique pour accéder à Internet. Vous pouvez passer au forfait AstroWarp+ pour obtenir des données illimitées si nécessaire.
 
 1. Configurez Flint 3 pour l’accès à Internet.
 
@@ -130,14 +128,6 @@ Flint 3 jouera le rôle de routeur domestique, tandis que Slate 7 fera office de
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
 
-## Mettre à niveau le forfait
-
-Chaque routeur GL.iNet inclut **10 GB de données gratuites par mois** pour le réseau AstroWarp. Les appareils d’un réseau AstroWarp utilisent les données du routeur domestique pour accéder à Internet.
-
-Vous pouvez passer au forfait **AstroWarp+** pour obtenir des données illimitées si nécessaire.
-
-![upgrade plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/upgrade_plan.png){class="glboxshadow"}
-
 ## FAQ
 
 1. **Q : Quel est le format du code d’accès dynamique et combien de temps reste-t-il valide ?**
@@ -148,32 +138,22 @@ Vous pouvez passer au forfait **AstroWarp+** pour obtenir des données illimité
 
     R : Le routeur de voyage sera déconnecté et restera en attente sans accès réseau. Une fois la connexion rétablie sur le routeur domestique, le routeur de voyage pourra se reconnecter automatiquement sans devoir ressaisir le code d’accès.
 
-3. **Q : Que se passe-t-il si les données gratuites sont épuisées ou si le forfait AstroWarp+ expire sur le routeur domestique ?**
-
-    R : Le routeur de voyage passe en attente, sans accès réseau, et ne bascule pas automatiquement vers le réseau local.
-
-4. **Q : Dans quels cas le routeur de voyage passe-t-il en attente ?**
+3. **Q : Dans quels cas le routeur de voyage passe-t-il en attente ?**
 
     R : Le routeur de voyage passe en attente lorsque le routeur domestique remplit l’une des conditions suivantes :
 
     - Il met fin à la connexion AstroWarp.
-    - Il a épuisé le quota de données gratuites.
-    - La date d’expiration du forfait AstroWarp+ est atteinte (le cas échéant).
     - Il perd l’accès à Internet.
 
-5. **Q : À quoi sert le bouton Reset en haut à droite ?**
+4. **Q : À quoi sert le bouton Reset en haut à droite ?**
 
     R : Il efface tous les appareils autorisés et ramène la page à la sélection du rôle du routeur afin de pouvoir le choisir à nouveau.
 
-6. **Q : Que se passe-t-il pour le routeur de voyage si je réinitialise AstroWarp sur le routeur domestique ?**
+5. **Q : Que se passe-t-il pour le routeur de voyage si je réinitialise AstroWarp sur le routeur domestique ?**
 
     R : Une fois AstroWarp réinitialisé sur le routeur domestique, les appareils connectés à distance sont déconnectés du réseau AstroWarp et reviennent sur leur réseau local pour accéder à Internet.
 
-7. **Q : Si je mets à niveau le routeur domestique vers le forfait AstroWarp+ et que je change son rôle en routeur de voyage pendant que le forfait est encore valide, la durée restante est-elle conservée ?**
-
-    R : La durée restante ne peut pas être conservée et expirera à la date prévue. Pour éviter toute perte inutile, changez le rôle de l’appareil après l’expiration de votre forfait actuel.
-
-8. **Q : Si j’ai activé la nouvelle version d’AstroWarp dans le panneau d’administration web du routeur, comment la désactiver et revenir à l’ancienne version ?**
+6. **Q : Si j’ai activé la nouvelle version d’AstroWarp dans le panneau d’administration web du routeur, comment la désactiver et revenir à l’ancienne version ?**
 
     R : Dans le panneau d’administration web du routeur, accédez à **CLOUD SERVICES** -> **AstroWarp**, puis cliquez sur **Reset** en haut à droite.
 

@@ -14,7 +14,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Comment se connecter à Internet via un câble Ethernet](internet_ethernet.md)
 * [Comment se connecter à Internet via Repeater](internet_repeater.md)
 * [Comment se connecter à Internet via le partage de connexion USB](internet_tethering.md)
-* [Comment se connecter à Internet via le réseau cellulaire](internet_cellular.md)
+* [Comment se connecter à Internet via le réseau cellulaire](internet_cellular_v4.10.md)
 * [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
 ## Sans fil
@@ -33,7 +33,8 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 
 * [Compte GL.iNet](glinet_account.md)
 * [GoodCloud](cloud.md) - le service cloud officiel.
-* [AstroWarp](astrowarp.md) - une plateforme réseau avancée conçue pour offrir une mise en réseau à distance fluide et une gestion à distance des appareils.
+* [GoodPAS](goodpas.md)
+* [AstroWarp](astrowarp.md)
 
 ## VPN
 

@@ -152,6 +152,8 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     GoodPAS ist eine erweiterte Netzwerkfunktion für nahtlosen Fernzugriff und die Geräteverwaltung. GoodPAS wurde speziell für die Integration mit GL.iNet-Routern entwickelt und verwendet das AmneziaWG-Protokoll mit integrierter Datenverkehrsverschleierung, um sichere und stabile Verbindungen bereitzustellen. Es erweitert Ihr Heimnetzwerk sicher auf weltweiter Ebene, sodass Sie auf Ressourcen zu Hause zugreifen können, während der gesamte Datenverkehr so erscheint, als stamme er von der öffentlichen IP-Adresse Ihres Zuhauses.
 
+    Informationen zur Einrichtung von GoodPAS finden Sie unter [GoodPAS](../../interface_guide/goodpas.md).
+
 ## VPN
 
 Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Verbindung zwischen Ihrem Gerät und dem VPN-Server. Es bietet zusätzliche Privatsphäre und Sicherheit (VPN-Client) und ermöglicht den Zugriff auf ein entferntes Netzwerk (VPN-Server). Mango 2 unterstützt OpenVPN und WireGuard.

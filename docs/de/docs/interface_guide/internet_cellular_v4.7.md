@@ -1,10 +1,11 @@
-# Verbindung mit dem Internet über Mobilfunk
+# Verbindung mit dem Internet über Mobilfunk (v4.7 und früher)
 
-Der Inhalt dieser Seite basiert auf Firmwareversion v4.7.x und früher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
+Der Inhalt dieser Seite basiert auf den Firmwareversionen v4.7 und früher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
 <div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.7 und früher" markdown="1">
 
-- [Firmware v4.8 und höher](internet_cellular.md)
+- [Firmware v4.10 und höher](internet_cellular_v4.10.md)
+- [Firmware v4.8–v4.9](internet_cellular.md)
 
 </div>
 
@@ -264,7 +265,7 @@ Wählen Sie die benötigten Profile aus.
 
 ## Lock Tower
 
-Diese Funktion ist nur auf GL-X3000, GL-XE3000 und GL-X2000 verfügbar (Firmware v4.7 oder neuer).
+Diese Funktion ist nur auf ausgewählten Modellen verfügbar, beispielsweise GL-X3000, GL-XE3000 und GL-X2000 (Firmware v4.7 oder neuer).
 
 Wenn Sie ein hochwertiges Signal empfangen und eine stabile Mobilfunkverbindung sicherstellen möchten, können Sie **Lock Tower** ausprobieren.
 

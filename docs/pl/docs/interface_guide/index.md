@@ -14,7 +14,7 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 * [Jak połączyć się z Internetem za pomocą kabla Ethernet](internet_ethernet.md)
 * [Jak połączyć się z Internetem przez Repeater](internet_repeater.md)
 * [Jak połączyć się z Internetem przez tethering USB](internet_tethering.md)
-* [Jak połączyć się z Internetem przez sieć komórkową](internet_cellular.md)
+* [Jak połączyć się z Internetem przez sieć komórkową](internet_cellular_v4.10.md)
 * [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
 ## Sieć bezprzewodowa
@@ -33,7 +33,8 @@ Dowiedz się, jak korzystać z naszych urządzeń i dodatkowych funkcji, dzięki
 
 * [Konto GL.iNet](glinet_account.md)
 * [GoodCloud](cloud.md) - oficjalna usługa chmurowa.
-* [AstroWarp](astrowarp.md) - zaawansowana platforma sieciowa zaprojektowana do zapewniania płynnej zdalnej łączności sieciowej i zdalnego zarządzania urządzeniami.
+* [GoodPAS](goodpas.md)
+* [AstroWarp](astrowarp.md)
 
 ## VPN
 

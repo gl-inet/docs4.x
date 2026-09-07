@@ -1,17 +1,17 @@
 # Conectar el puerto SFP+ de 10G de Flint 4
 
-Flint 4 (GL‑BE14000) incluye un puerto SFP+ de 10G que puede alternar entre los modos WAN y LAN. Este puerto es compatible con varios tipos de módulos SFP+ y cables para conexiones Ethernet ópticas y de cobre. De este modo, satisface distintas necesidades de red, como el acceso por fibra a larga distancia, el cableado convencional de par trenzado y la terminación avanzada de fibra PON.
+Flint 4 (GL-BE14000) incluye un puerto SFP+ de 10G que puede funcionar en modo WAN o LAN. El puerto admite varios tipos de módulos SFP+ y cables para conexiones Ethernet de fibra óptica y cobre, incluidas conexiones de fibra a larga distancia, cableado convencional de par trenzado y terminación avanzada de fibra PON.
 
-A continuación se describen detalladamente las tres soluciones para conectar el puerto SFP+ de Flint 4 (GL-BE14000). La información sobre los casos de uso, las topologías de conexión, las ventajas y desventajas, las precauciones y los modelos compatibles se proporciona únicamente como referencia.
+Este artículo describe tres opciones para conectar el puerto SFP+ de Flint 4 (GL-BE14000), incluidos sus casos de uso, topologías de conexión, ventajas y desventajas, precauciones y modelos compatibles.
 
 ## Solución 1: Transceptor óptico y cable de fibra
 
 ### 1.1 Casos de uso
 
-Esta solución es adecuada para redes Ethernet de 10G estables y de larga distancia. Se utiliza principalmente en dos casos:
+Esta solución está indicada para conexiones Ethernet de 10G fiables y de larga distancia. Entre sus usos habituales se incluyen:
 
-- Conexión a enlaces ascendentes Ethernet de fibra pura de 10G del proveedor de Internet para ofrecer acceso de banda ancha de muy alta velocidad en hogares y empresas;
-- Implementación de interconexiones de red de larga distancia en interiores o exteriores, como la conexión de Flint 4 a un switch 10G remoto, el cableado de una red doméstica entre plantas o el despliegue de la red troncal de una oficina pequeña.
+- Conexión al enlace ascendente Ethernet de fibra de 10G de un proveedor de Internet para obtener acceso de banda ancha de alta velocidad en hogares o empresas.
+- Implementación de enlaces de red de larga distancia en interiores o exteriores, como la conexión de Flint 4 a un switch 10G remoto, el cableado entre plantas de una vivienda o el despliegue de la red troncal de una oficina pequeña.
 
 ### 1.2 Topología
 
@@ -25,11 +25,11 @@ La siguiente tabla evalúa aspectos clave del rendimiento y la facilidad de uso 
 
 |Criterio|Puntuación|Observaciones|
 |---|---|---|
-|Distancia de transmisión|★★★★★|Admite hasta 300 m (multimodo) o más de 10 km (monomodo), supera los límites de distancia del cable de cobre y resulta adecuado para redes de largo alcance.|
+|Distancia de transmisión|★★★★★|Admite distancias de hasta 300 m mediante fibra multimodo o de más de 10 km mediante fibra monomodo, por lo que resulta adecuado para conexiones de largo alcance.|
 |Resistencia a interferencias|★★★★★|La transmisión de señales ópticas es inmune a las interferencias electromagnéticas, la electricidad estática y la diafonía, lo que garantiza un funcionamiento estable en entornos complejos.|
-|Ahorro de energía|★★★★★|Bajo consumo y poca generación de calor; el diseño consolidado del chip permite un funcionamiento estable a plena carga durante periodos prolongados sin riesgo de sobrecalentamiento.|
-|Compatibilidad|★★★★★|Cuenta con compatibilidad oficial completa, cumple los protocolos Ethernet de 10G estándar y no presenta riesgos de adaptación del firmware.|
-|Facilidad de instalación|★★★☆☆|Requiere conocimientos básicos sobre las especificaciones de conexión de fibra. Una manipulación incorrecta puede atenuar la señal, por lo que exige algo más de experiencia que el cableado de cobre.|
+|Ahorro de energía|★★★★★|Ofrece bajo consumo y poca generación de calor. El diseño consolidado del chipset permite un funcionamiento estable a plena carga durante periodos prolongados sin sobrecalentamiento.|
+|Compatibilidad|★★★★★|Cuenta con compatibilidad oficial y cumple los protocolos Ethernet de 10G estándar; no requiere adaptar el firmware.|
+|Facilidad de instalación|★★★☆☆|Requiere conocimientos básicos sobre las conexiones de fibra. Una manipulación incorrecta puede atenuar la señal, por lo que la instalación es más compleja que con cableado de cobre.|
 |Economía|★★★☆☆|Requiere transceptores ópticos y cables de fibra adicionales, por lo que el coste total es superior al de las soluciones tradicionales de par trenzado.|
 
 ### 1.4 Precauciones
@@ -74,7 +74,7 @@ Los siguientes transceptores ópticos estándar han sido probados por GL.iNet y 
 
 ### 2.1 Casos de uso
 
-El módulo SFP‑10G‑T convierte la ranura óptica SFP+ en una interfaz de par trenzado RJ45 estándar. Es adecuado para redes 10G de corta distancia basadas en cables de red convencionales. Entre sus aplicaciones habituales se incluyen las conexiones de corta distancia entre Flint 4 y switches 10G o dispositivos NAS, la ampliación rápida de puertos de red RJ45 de 10G sin volver a instalar fibra y el cableado de redes locales domésticas o SOHO de alta velocidad que conservan el par trenzado tradicional. Es la mejor alternativa para quienes necesitan Ethernet de 10G pero no disponen de cableado de fibra.
+El módulo SFP-10G-T convierte la ranura SFP+ en una interfaz estándar RJ45 de par trenzado, por lo que resulta adecuado para redes 10G de corta distancia que usan cables Ethernet convencionales. Entre sus aplicaciones habituales se incluyen conectar Flint 4 a un switch 10G o NAS cercano, añadir un puerto RJ45 de 10G sin instalar fibra y crear una LAN doméstica o SOHO de alta velocidad con cableado de par trenzado existente. Esta opción es adecuada para quienes necesitan Ethernet de 10G pero no disponen de cableado de fibra.
 
 ### 2.2 Topología
 
@@ -88,16 +88,16 @@ La siguiente tabla evalúa aspectos clave del rendimiento y la facilidad de uso 
 
 |Criterio|Puntuación|Observaciones|
 |---|---|---|
-|Distancia de transmisión|★★☆☆☆|Debido a las limitaciones del chip PHY, la distancia máxima de transmisión estable es de solo 30 metros. No es adecuado para cableado de larga distancia.|
+|Distancia de transmisión|★★☆☆☆|El PHY limita la distancia de transmisión estable a 30 m, por lo que el módulo no es adecuado para cableado de larga distancia.|
 |Resistencia a interferencias|★★★☆☆|La transmisión tradicional por par trenzado es susceptible a las interferencias electromagnéticas y la diafonía en instalaciones de cableado complejas.|
-|Ahorro de energía|★★☆☆☆|Alto consumo y generación de calor evidente con cargas elevadas continuas; se requiere una gestión adecuada de la disipación térmica para el funcionamiento prolongado.|
-|Compatibilidad|★★★★☆|Compatible con todos los terminales RJ45 de 10G estándar; solo los cables CAT6A/CAT7 admiten una transmisión 10G estable.|
-|Facilidad de instalación|★★★★★|Plug-and-play, sin necesidad de ajustar la ruta óptica y compatible con las prácticas habituales de instalación de cables de red; requiere muy poca experiencia.|
-|Economía|★★★★☆|Permite reutilizar el cableado RJ45 existente sin coste de conversión a fibra; solo es necesario adquirir por separado un módulo 10G-T.|
+|Ahorro de energía|★★☆☆☆|Consume más energía y genera mucho calor con cargas elevadas continuas. Se requiere una disipación térmica adecuada para el funcionamiento prolongado.|
+|Compatibilidad|★★★★☆|Compatible con dispositivos RJ45 de 10G estándar. Se requiere cableado CAT6A o CAT7 para una transmisión 10G estable.|
+|Facilidad de instalación|★★★★★|Ofrece una instalación plug-and-play sin necesidad de configurar la ruta óptica y funciona con cableado Ethernet convencional.|
+|Economía|★★★★☆|Permite reutilizar el cableado RJ45 existente sin instalar fibra, aunque se necesita un módulo 10GBASE-T independiente.|
 
 ### 2.4 Precauciones
 
-- Debe utilizar cables de red CAT6A o de especificaciones superiores para obtener una transmisión 10G estable. Los cables CAT6 o inferiores provocarán una reducción de velocidad y pérdida de paquetes.
+- Use cables Ethernet CAT6A o de una categoría superior para obtener una transmisión 10G estable. Los cables de categorías inferiores pueden reducir la velocidad o causar pérdida de paquetes.
 
 - Mantenga la longitud del cableado dentro de los 30 metros. Si supera este límite, la conexión puede volverse inestable, reducir la velocidad o desconectarse.
 
@@ -123,7 +123,7 @@ Los siguientes módulos SFP+ a RJ45 han sido probados por GL.iNet y usuarios de 
 
 ### 3.1 Casos de uso
 
-El módulo PON‑ONU SFP+ integra todas las funciones ONU de un módem óptico, lo que permite que el puerto SFP+ de Flint 4 termine directamente líneas de fibra residenciales GPON/XGS-PON convencionales. Esta solución elimina la necesidad de un módem óptico externo independiente y permite que un solo dispositivo proporcione acceso por fibra y funciones de enrutamiento. Está destinada a configuraciones avanzadas para usuarios experimentados, especialmente a quienes desean simplificar el conjunto de equipos de su red doméstica y acceder directamente a las líneas de fibra PON del operador mediante el router.
+El módulo PON-ONU SFP+ proporciona las funciones de un módem óptico ONU, lo que permite que el puerto SFP+ de Flint 4 termine directamente líneas de fibra residenciales GPON/XGS-PON convencionales. Esta opción combina el acceso por fibra y el enrutamiento en un solo dispositivo, por lo que elimina la necesidad de un módem óptico externo independiente. Está destinada a instalaciones avanzadas para usuarios experimentados, en particular a quienes desean reducir el número de dispositivos de su red doméstica y conectar el router directamente a una línea de fibra PON del operador.
 
 ### 3.2 Topología
 
@@ -137,12 +137,12 @@ La siguiente tabla evalúa aspectos clave del rendimiento y la facilidad de uso 
 
 |Criterio|Puntuación|Observaciones|
 |---|---|---|
-|Distancia de transmisión|★★★★★|Se adapta a las distancias de transmisión de fibra PON estándar y cubre todos los casos habituales de acceso por fibra doméstico y comercial.|
+|Distancia de transmisión|★★★★★|Admite las distancias de transmisión PON estándar para el acceso por fibra residencial y comercial habitual.|
 |Resistencia a interferencias|★★★★★|La transmisión óptica por fibra ofrece una gran resistencia a las interferencias y una señal estable, de acuerdo con los estándares habituales de acceso por fibra PON.|
 |Ahorro de energía|★★☆☆☆|Genera mucho calor durante el funcionamiento a alta velocidad; es obligatorio utilizar refrigeración auxiliar para evitar una reducción del rendimiento y desconexiones.|
-|Compatibilidad|★★☆☆☆|Solución para usuarios experimentados sin verificación oficial; la compatibilidad depende de la lista de dispositivos permitidos del proveedor y del modelo del módulo, y el funcionamiento estable a largo plazo no está garantizado.|
-|Facilidad de instalación|★★☆☆☆|Requiere confirmación previa del proveedor, configurar la autenticación SN/PLOAM y optimizar la disipación térmica; la instalación presenta una complejidad elevada.|
-|Economía|★★★☆☆|Elimina el coste de un módem óptico independiente, pero puede ocasionar riesgos de servicio, como la falta de IPTV o servicios de voz y la ausencia de asistencia técnica oficial.|
+|Compatibilidad|★★☆☆☆|Es una solución no oficial destinada a usuarios experimentados. La compatibilidad depende de la lista de dispositivos permitidos del proveedor y del modelo del módulo, y el funcionamiento a largo plazo puede ser inestable.|
+|Facilidad de instalación|★★☆☆☆|Requiere confirmación previa del proveedor, configurar la autenticación SN/PLOAM y proporcionar refrigeración adecuada. La instalación es relativamente compleja.|
+|Economía|★★★☆☆|Elimina el coste de un módem óptico independiente, pero puede afectar a servicios como IPTV y voz y no incluye asistencia técnica oficial.|
 
 ### 3.4 Precauciones
 
@@ -150,7 +150,7 @@ La siguiente tabla evalúa aspectos clave del rendimiento y la facilidad de uso 
 
 - **La disipación térmica es obligatoria**: Equipe el módulo PON‑ONU con medidas auxiliares de disipación térmica para evitar reducciones de frecuencia, pérdida de paquetes y desconexiones provocadas por temperaturas elevadas.
 
-- **Sin garantía de servicio**: GL.iNet no proporciona asistencia técnica para esta solución. Los problemas como la inestabilidad de la red, las fluctuaciones de velocidad y el funcionamiento anómalo de servicios de valor añadido no se pueden resolver mediante el firmware oficial ni el servicio posventa.
+- **Sin garantía de servicio**: GL.iNet no proporciona asistencia técnica para esta opción. Los problemas como la inestabilidad de la red, las fluctuaciones de velocidad o las incidencias en servicios de valor añadido no están cubiertos por el firmware oficial ni por el servicio posventa.
 
 - Cada operador aplica reglas distintas a la lista de modelos de módulos permitidos. Antes de comprar, confirme qué modelos de módulos PON admite su operador.
 

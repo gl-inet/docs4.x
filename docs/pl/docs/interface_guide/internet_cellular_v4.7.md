@@ -1,10 +1,11 @@
-# Połączenie z Internetem przez sieć komórkową
+# Połączenie z Internetem przez sieć komórkową (v4.7 i wcześniejsze)
 
-Treść tej strony dotyczy wersji firmware v4.7.x i wcześniejszych. Jeśli urządzenie używa innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
+Treść tej strony dotyczy firmware w wersji v4.7 i wcześniejszych. Jeśli urządzenie korzysta z innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
 
 <div class="gl-link-select" data-label="Wersja firmware" data-placeholder="Firmware v4.7 i wcześniejsze" markdown="1">
 
-- [Firmware v4.8 i nowsze](internet_cellular.md)
+- [Firmware v4.10 i nowsze](internet_cellular_v4.10.md)
+- [Firmware v4.8 - v4.9](internet_cellular.md)
 
 </div>
 
@@ -264,7 +265,7 @@ Wybierz potrzebne profile.
 
 ## Blokowanie stacji bazowej
 
-Ta funkcja jest dostępna tylko w modelach GL-X3000, GL-XE3000 i GL-X2000 (firmware ver.4.7 lub nowszy).
+Ta funkcja jest dostępna tylko w wybranych modelach, takich jak GL-X3000, GL-XE3000 i GL-X2000 (firmware v4.7 lub nowszy).
 
 Jeśli chcesz uzyskać sygnał wyższej jakości i zapewnić stabilne połączenie komórkowe, możesz spróbować zablokować stację bazową.
 

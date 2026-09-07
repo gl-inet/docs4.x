@@ -14,7 +14,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [So verbinden Sie sich über ein Ethernet-Kabel mit dem Internet](internet_ethernet.md)
 * [So verbinden Sie sich über Repeater mit dem Internet](internet_repeater.md)
 * [So verbinden Sie sich über USB-Tethering mit dem Internet](internet_tethering.md)
-* [So verbinden Sie sich über Mobilfunk mit dem Internet](internet_cellular.md)
+* [So verbinden Sie sich über Mobilfunk mit dem Internet](internet_cellular_v4.10.md)
 * [Dual-Ethernet WAN](ethernet_port.md#dual-ethernet-wan)
 
 ## WLAN
@@ -33,7 +33,8 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 
 * [GL.iNet-Konto](glinet_account.md)
 * [GoodCloud](cloud.md) - der offizielle Cloud-Dienst.
-* [AstroWarp](astrowarp.md) - eine fortschrittliche Netzwerkplattform für nahtlose Fernvernetzung und Fernverwaltung von Geräten.
+* [GoodPAS](goodpas.md)
+* [AstroWarp](astrowarp.md)
 
 ## VPN
 

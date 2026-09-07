@@ -1,9 +1,10 @@
-# Verbindung mit dem Internet über Mobilfunk
+# Verbindung mit dem Internet über Mobilfunk (v4.8–v4.9)
 
-Der Inhalt dieser Seite basiert auf Firmwareversion v4.8.x und höher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
+Der Inhalt dieser Seite basiert auf den Firmwareversionen v4.8 bis v4.9. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
-<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.8 und höher" markdown="1">
+<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.8–v4.9" markdown="1">
 
+- [Firmware v4.10 und höher](internet_cellular_v4.10.md)
 - [Firmware v4.7 und früher](internet_cellular_v4.7.md)
 
 </div>
@@ -361,7 +362,14 @@ Klicken Sie auf einen Mast, um die Details anzuzeigen und ihn zu sperren.
 
 ## Lock Operator
 
-Diese Funktion ist nur auf GL-X3000, GL-XE3000 und GL-X2000 verfügbar (Firmware v4.8 oder neuer).
+!!! note "Unterstützte Modelle"
+
+    - GL-E5800 (Mudi 7)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-X2000 (Spitz Plus)*
+
+    *Der GL-X2000 (Spitz Plus) unterstützt diese Funktion ab Firmware v4.8.
 
 Durch das Sperren auf einen bestimmten Mobilfunkanbieter verwendet der Router nur noch dessen Netzwerk. Das sorgt für eine stabilere Verbindung und vermeidet unbeabsichtigte Roaming-Kosten – insbesondere in Grenzgebieten, in denen sich das Gerät sonst möglicherweise mit ausländischen Netzen verbindet.
 

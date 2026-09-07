@@ -1,17 +1,17 @@
 # 10G-SFP+-Port am Flint 4 anschließen
 
-Flint 4 (GL‑BE14000) verfügt über einen 10G-SFP+-Port, der zwischen WAN- und LAN-Modus umgeschaltet werden kann. Dieser Port ist mit verschiedenen SFP+-Modulen und Kabeln für optische und kupferbasierte Ethernet-Verbindungen kompatibel. Dadurch eignet er sich für unterschiedliche Netzwerkanforderungen, darunter Glasfaserverbindungen über große Entfernungen, herkömmliche Twisted-Pair-Verkabelung und moderne PON-Glasfaserabschlüsse.
+Flint 4 (GL-BE14000) verfügt über einen 10G-SFP+-Port, der im WAN- oder LAN-Modus betrieben werden kann. Der Port unterstützt verschiedene SFP+-Module und Kabel für optische und kupferbasierte Ethernet-Verbindungen, darunter Glasfaserverbindungen über große Entfernungen, herkömmliche Twisted-Pair-Verkabelung und moderne PON-Glasfaserabschlüsse.
 
-Nachfolgend werden die drei Verbindungslösungen für den SFP+-Port des Flint 4 (GL-BE14000) ausführlich beschrieben. Die Angaben zu Anwendungsszenarien, Verbindungstopologien, Vor- und Nachteilen, Vorsichtsmaßnahmen und kompatiblen Modellen dienen lediglich als Referenz.
+Dieser Artikel beschreibt drei Anschlussmöglichkeiten für den SFP+-Port des Flint 4 (GL-BE14000), einschließlich ihrer Anwendungsszenarien, Verbindungstopologien, Vor- und Nachteile, Vorsichtsmaßnahmen und kompatiblen Modelle.
 
 ## Lösung 1: Optischer Transceiver und Glasfaserkabel
 
 ### 1.1 Anwendungsszenarien
 
-Diese Lösung eignet sich für stabile 10G-Ethernet-Netzwerke über große Entfernungen. Sie wird hauptsächlich in zwei Szenarien eingesetzt:
+Diese Lösung ist für zuverlässige 10G-Ethernet-Verbindungen über große Entfernungen vorgesehen. Typische Anwendungen sind:
 
-- Verbindung mit einem reinen 10G-Glasfaser-Ethernet-Uplink des Internetanbieters für besonders schnelle private und gewerbliche Breitbandzugänge;
-- Einrichtung weitreichender Netzwerkverbindungen im Innen- und Außenbereich, beispielsweise zwischen Flint 4 und einem entfernten 10G-Switch, zur Verkabelung eines Heimnetzwerks über mehrere Etagen oder zum Aufbau des Backbone-Netzwerks eines kleinen Büros.
+- Verbindung mit einem 10G-Glasfaser-Ethernet-Uplink des Internetanbieters für schnelle private oder gewerbliche Breitbandzugänge.
+- Einrichtung weitreichender Netzwerkverbindungen im Innen- oder Außenbereich, beispielsweise zwischen Flint 4 und einem entfernten 10G-Switch, zur Verkabelung zwischen Etagen eines Hauses oder zum Aufbau des Backbone-Netzwerks eines kleinen Büros.
 
 ### 1.2 Topologie
 
@@ -25,12 +25,12 @@ Die folgende Tabelle bewertet wichtige Leistungs- und Benutzerfreundlichkeitsmer
 
 |Kriterium|Sternebewertung|Anmerkungen|
 |---|---|---|
-|Übertragungsentfernung|★★★★★|Unterstützt bis zu 300 m (Multimode) bzw. mehr als 10 km (Singlemode), überwindet damit die Entfernungsgrenzen von Kupferkabeln und eignet sich für weitreichende Netzwerke.|
+|Übertragungsentfernung|★★★★★|Unterstützt Entfernungen von bis zu 300 m über Multimode-Glasfaser oder mehr als 10 km über Singlemode-Glasfaser und eignet sich damit für weitreichende Verbindungen.|
 |Störfestigkeit|★★★★★|Die optische Signalübertragung ist unempfindlich gegenüber elektromagnetischen Störungen, statischer Elektrizität und Übersprechen und gewährleistet einen stabilen Betrieb in komplexen Umgebungen.|
-|Energieeffizienz|★★★★★|Geringer Stromverbrauch und geringe Wärmeentwicklung; das ausgereifte Chipdesign ermöglicht einen stabilen Dauerbetrieb unter Volllast ohne Überhitzungsrisiko.|
-|Kompatibilität|★★★★★|Wird offiziell vollständig unterstützt, entspricht den standardmäßigen 10G-Ethernet-Protokollen und birgt kein Risiko hinsichtlich der Firmwareanpassung.|
-|Einfache Bereitstellung|★★★☆☆|Grundkenntnisse zu den Glasfaser-Anschlussspezifikationen sind erforderlich. Unsachgemäße Handhabung kann zu Signaldämpfung führen, weshalb die Anforderungen etwas höher als bei Kupferverkabelung sind.|
-|Wirtschaftlichkeit|★★★☆☆|Zusätzliche optische Transceiver und Glasfaserkabel sind erforderlich; die Gesamtkosten liegen über denen herkömmlicher Twisted-Pair-Lösungen.|
+|Energieeffizienz|★★★★★|Bietet einen geringen Stromverbrauch und eine geringe Wärmeentwicklung. Das ausgereifte Chipdesign ermöglicht einen stabilen Dauerbetrieb unter Volllast ohne Überhitzung.|
+|Kompatibilität|★★★★★|Wird offiziell unterstützt und entspricht den standardmäßigen 10G-Ethernet-Protokollen; eine Firmwareanpassung ist nicht erforderlich.|
+|Einfache Bereitstellung|★★★☆☆|Grundkenntnisse zu den Anforderungen von Glasfaserverbindungen sind erforderlich. Unsachgemäße Handhabung kann das Signal dämpfen, sodass die Bereitstellung komplexer als bei Kupferverkabelung ist.|
+|Wirtschaftlichkeit|★★★☆☆|Zusätzliche optische Transceiver und Glasfaserkabel sind erforderlich, wodurch die Gesamtkosten über denen herkömmlicher Twisted-Pair-Lösungen liegen.|
 
 ### 1.4 Vorsichtsmaßnahmen
 
@@ -74,7 +74,7 @@ Die folgenden standardmäßigen optischen Transceiver wurden von GL.iNet und Com
 
 ### 2.1 Anwendungsszenarien
 
-Das SFP‑10G‑T-Modul wandelt den optischen SFP+-Steckplatz in eine standardmäßige RJ45-Twisted-Pair-Schnittstelle um. Es eignet sich für 10G-Netzwerke über kurze Entfernungen mit herkömmlichen Netzwerkkabeln. Typische Anwendungen sind kurze Verbindungen zwischen Flint 4 und 10G-Switches oder NAS-Geräten, die schnelle Erweiterung um 10G-RJ45-Netzwerkports ohne neue Glasfaserverkabelung sowie schnelle Heim- und SOHO-Netzwerke, die weiterhin eine herkömmliche Twisted-Pair-Verkabelung verwenden. Für Benutzer, die 10G-Ethernet benötigen, aber keine Glasfaserverkabelung nutzen können, ist dies die beste Alternative.
+Das SFP-10G-T-Modul wandelt den SFP+-Steckplatz in eine standardmäßige RJ45-Twisted-Pair-Schnittstelle um und eignet sich damit für 10G-Netzwerke über kurze Entfernungen mit herkömmlichen Ethernet-Kabeln. Typische Anwendungen sind die Verbindung von Flint 4 mit einem nahe gelegenen 10G-Switch oder NAS, das Hinzufügen eines 10G-RJ45-Ports ohne Glasfaserinstallation und der Aufbau eines schnellen Heim- oder SOHO-LANs mit vorhandener Twisted-Pair-Verkabelung. Diese Option eignet sich für Benutzer, die 10G-Ethernet benötigen, aber keine Glasfaserverkabelung haben.
 
 ### 2.2 Topologie
 
@@ -88,16 +88,16 @@ Die folgende Tabelle bewertet wichtige Leistungs- und Benutzerfreundlichkeitsmer
 
 |Kriterium|Sternebewertung|Anmerkungen|
 |---|---|---|
-|Übertragungsentfernung|★★☆☆☆|Aufgrund der PHY-Chip-Hardware ist die stabile Übertragungsentfernung auf höchstens 30 Meter begrenzt. Die Lösung eignet sich nicht für weitreichende Verkabelungen.|
+|Übertragungsentfernung|★★☆☆☆|Der PHY begrenzt die stabile Übertragungsentfernung auf 30 m, sodass sich das Modul nicht für weitreichende Verkabelungen eignet.|
 |Störfestigkeit|★★★☆☆|Die herkömmliche Twisted-Pair-Übertragung ist bei komplexen Verkabelungen anfällig für elektromagnetische Störungen und Übersprechen.|
-|Energieeffizienz|★★☆☆☆|Hoher Stromverbrauch und deutliche Wärmeentwicklung bei anhaltend hoher Last; für den Dauerbetrieb ist ein Wärmemanagement erforderlich.|
-|Kompatibilität|★★★★☆|Mit allen standardmäßigen 10G-RJ45-Endgeräten kompatibel; nur CAT6A-/CAT7-Kabel unterstützen eine stabile 10G-Übertragung.|
-|Einfache Bereitstellung|★★★★★|Plug-and-play, keine Einrichtung des optischen Pfads erforderlich und mit den üblichen Verfahren zur Netzwerkkabelverlegung kompatibel; besonders einfache Handhabung.|
-|Wirtschaftlichkeit|★★★★☆|Die vorhandene RJ45-Verkabelung kann weiterverwendet werden und muss nicht durch Glasfaser ersetzt werden. Lediglich ein 10G-T-Modul muss separat erworben werden.|
+|Energieeffizienz|★★☆☆☆|Verbraucht mehr Strom und erzeugt bei anhaltend hoher Last viel Wärme. Für den Dauerbetrieb ist eine ausreichende Wärmeableitung erforderlich.|
+|Kompatibilität|★★★★☆|Mit standardmäßigen 10G-RJ45-Geräten kompatibel. Für eine stabile 10G-Übertragung sind CAT6A- oder CAT7-Kabel erforderlich.|
+|Einfache Bereitstellung|★★★★★|Ermöglicht eine Plug-and-play-Bereitstellung ohne Konfiguration des optischen Pfads und funktioniert mit herkömmlicher Ethernet-Verkabelung.|
+|Wirtschaftlichkeit|★★★★☆|Vorhandene RJ45-Verkabelung kann ohne Glasfaserinstallation weiterverwendet werden; ein separates 10GBASE-T-Modul ist jedoch erforderlich.|
 
 ### 2.4 Vorsichtsmaßnahmen
 
-- Für eine stabile 10G-Übertragung müssen Netzwerkkabel der Kategorie CAT6A oder höher verwendet werden. CAT6-Kabel und niedrigere Kategorien führen zu Geschwindigkeitseinbußen und Paketverlusten.
+- Verwenden Sie für eine stabile 10G-Übertragung Ethernet-Kabel der Kategorie CAT6A oder höher. Kabel niedrigerer Kategorien können die Geschwindigkeit verringern oder Paketverluste verursachen.
 
 - Begrenzen Sie die Kabellänge auf 30 Meter. Bei Überschreitung dieses Grenzwerts kann die Verbindung instabil werden, langsamer werden oder abbrechen.
 
@@ -123,7 +123,7 @@ Die folgenden SFP+-zu-RJ45-Module wurden von GL.iNet und Community-Nutzern getes
 
 ### 3.1 Anwendungsszenarien
 
-Der PON‑ONU-SFP+-Stick integriert die vollständigen ONU-Funktionen eines optischen Modems. Dadurch kann der SFP+-Port des Flint 4 herkömmliche GPON-/XGS-PON-Glasfaseranschlüsse für Privathaushalte direkt abschließen. Ein separates externes optisches Modem ist nicht mehr erforderlich, sodass ein einziges Gerät sowohl den Glasfaserzugang als auch das Routing übernehmen kann. Diese Lösung richtet sich an erfahrene Netzwerknutzer, insbesondere wenn weniger Geräte im Heimnetzwerk eingesetzt und PON-Glasfaserleitungen des Anbieters direkt über den Router verwendet werden sollen.
+Der PON-ONU-SFP+-Stick stellt die Funktionen eines optischen ONU-Modems bereit, sodass der SFP+-Port des Flint 4 herkömmliche GPON-/XGS-PON-Glasfaseranschlüsse für Privathaushalte direkt abschließen kann. Diese Option kombiniert Glasfaserzugang und Routing in einem Gerät und macht ein separates externes optisches Modem überflüssig. Sie ist für fortgeschrittene Bereitstellungen durch erfahrene Benutzer vorgesehen, insbesondere wenn weniger Geräte im Heimnetzwerk eingesetzt und PON-Glasfaserleitungen des Anbieters direkt mit dem Router verbunden werden sollen.
 
 ### 3.2 Topologie
 
@@ -137,12 +137,12 @@ Die folgende Tabelle bewertet wichtige Leistungs- und Benutzerfreundlichkeitsmer
 
 |Kriterium|Sternebewertung|Anmerkungen|
 |---|---|---|
-|Übertragungsentfernung|★★★★★|Unterstützt die standardmäßigen PON-Glasfaser-Übertragungsentfernungen und damit alle üblichen privaten und gewerblichen Glasfaserzugänge.|
+|Übertragungsentfernung|★★★★★|Unterstützt standardmäßige PON-Übertragungsentfernungen für private und typische gewerbliche Glasfaserzugänge.|
 |Störfestigkeit|★★★★★|Die optische Übertragung über Glasfaser ist besonders störfest und signalstabil und entspricht den gängigen Standards für PON-Glasfaserzugänge.|
 |Energieeffizienz|★★☆☆☆|Hohe Wärmeentwicklung bei hohen Geschwindigkeiten; eine zusätzliche Kühlung ist zwingend erforderlich, um Leistungseinbußen und Verbindungsabbrüche zu vermeiden.|
-|Kompatibilität|★★☆☆☆|Inoffiziell geprüfte Lösung für erfahrene Nutzer; die Kompatibilität hängt von der Freigabeliste des Internetanbieters und vom Stick-Modell ab. Der langfristig stabile Betrieb ist nicht gewährleistet.|
-|Einfache Bereitstellung|★★☆☆☆|Erfordert eine vorherige Bestätigung durch den Internetanbieter, die Konfiguration der SN-/PLOAM-Authentifizierung und eine optimierte Wärmeableitung. Die Anforderungen an die Bereitstellung sind insgesamt hoch.|
-|Wirtschaftlichkeit|★★★☆☆|Ein separates optisches Modem entfällt. Es bestehen jedoch mögliche Dienstrisiken, beispielsweise nicht verfügbare IPTV-/Sprachdienste und fehlender offizieller technischer Support.|
+|Kompatibilität|★★☆☆☆|Dies ist eine inoffizielle Lösung für erfahrene Benutzer. Die Kompatibilität hängt von der Freigabeliste des Internetanbieters und vom Stick-Modell ab; der langfristige Betrieb kann instabil sein.|
+|Einfache Bereitstellung|★★☆☆☆|Erfordert die vorherige Bestätigung durch den Internetanbieter, die Konfiguration der SN-/PLOAM-Authentifizierung und ausreichende Kühlung. Die Bereitstellung ist relativ komplex.|
+|Wirtschaftlichkeit|★★★☆☆|Ein separates optisches Modem entfällt. Dienste wie IPTV und Telefonie können jedoch beeinträchtigt werden, und offizieller technischer Support ist nicht enthalten.|
 
 ### 3.4 Vorsichtsmaßnahmen
 
@@ -150,7 +150,7 @@ Die folgende Tabelle bewertet wichtige Leistungs- und Benutzerfreundlichkeitsmer
 
 - **Wärmeableitung ist zwingend erforderlich**: Statten Sie den PON‑ONU-Stick mit zusätzlichen Maßnahmen zur Wärmeableitung aus, um eine Taktreduzierung, Paketverluste und Verbindungsabbrüche durch hohe Temperaturen zu vermeiden.
 
-- **Keine Dienstgarantie**: GL.iNet bietet für diese Lösung keinen technischen Support. Probleme wie ein instabiles Netzwerk, Geschwindigkeitsschwankungen und fehlerhafte Mehrwertdienste können nicht durch offizielle Firmware oder den Kundendienst behoben werden.
+- **Keine Dienstgarantie**: GL.iNet bietet für diese Option keinen technischen Support. Probleme wie Netzwerkstabilität, Geschwindigkeitsschwankungen oder Störungen bei Mehrwertdiensten werden nicht durch offizielle Firmware oder den Kundendienst abgedeckt.
 
 - Die Freigaberegeln für Modulmodelle unterscheiden sich je nach Anbieter. Erkundigen Sie sich vor dem Kauf, welche PON-Stick-Modelle Ihr Anbieter unterstützt.
 

@@ -1,10 +1,11 @@
-# Connettersi a Internet tramite rete cellulare
+# Connettersi a Internet tramite rete cellulare (v4.7 e precedenti)
 
-Il contenuto di questa pagina si basa sulle versioni firmware v4.7.x e precedenti. Se il dispositivo usa una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
+Il contenuto di questa pagina si basa sulle versioni firmware v4.7 e precedenti. Se il dispositivo usa una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
 
 <div class="gl-link-select" data-label="Versione firmware" data-placeholder="Firmware v4.7 e precedenti" markdown="1">
 
-- [Firmware v4.8 e successivi](internet_cellular.md)
+- [Firmware v4.10 e successivi](internet_cellular_v4.10.md)
+- [Firmware v4.8 - v4.9](internet_cellular.md)
 
 </div>
 
@@ -263,7 +264,7 @@ Scegli qualsiasi profilo necessario.
 
 ## Lock Tower
 
-Questa funzione e' disponibile solo su GL-X3000, GL-XE3000 e GL-X2000, firmware v4.7 o successivo.
+Questa funzione è disponibile solo su alcuni modelli, ad esempio GL-X3000, GL-XE3000 e GL-X2000 (firmware v4.7 o successivo).
 
 Se vuoi ricevere un segnale di alta qualita' e garantire una connessione cellulare stabile, puoi provare il lock tower.
 

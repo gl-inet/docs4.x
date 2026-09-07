@@ -14,7 +14,7 @@ hide:
 * [イーサネットケーブルでインターネットに接続する方法](internet_ethernet.md)
 * [リピーターでインターネットに接続する方法](internet_repeater.md)
 * [USBテザリングでインターネットに接続する方法](internet_tethering.md)
-* [セルラーでインターネットに接続する方法](internet_cellular.md)
+* [セルラーでインターネットに接続する方法](internet_cellular_v4.10.md)
 * [デュアルイーサネットWAN](ethernet_port.md#dual-ethernet-wan)
 
 ## ワイヤレス
@@ -33,7 +33,8 @@ hide:
 
 * [GL.iNetアカウント](glinet_account.md)
 * [GoodCloud](cloud.md) - 公式クラウドサービスです。
-* [AstroWarp](astrowarp.md) - シームレスなリモートネットワーク接続とリモートデバイス管理を実現する、高度なネットワークプラットフォームです。
+* [GoodPAS](goodpas.md)
+* [AstroWarp](astrowarp.md)
 
 ## VPN
 

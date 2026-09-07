@@ -1,17 +1,17 @@
 # Collegare la porta 10G SFP+ di Flint 4
 
-Flint 4 (GL‑BE14000) è dotato di una porta 10G SFP+ che può essere commutata tra le modalità WAN e LAN. La porta è compatibile con diversi tipi di moduli e cavi SFP+ per connessioni Ethernet ottiche e in rame, rispondendo a varie esigenze di rete, tra cui collegamenti in fibra a lunga distanza, cablaggio tradizionale a doppino intrecciato e terminazione avanzata della fibra PON.
+Flint 4 (GL-BE14000) dispone di una porta 10G SFP+ che può funzionare in modalità WAN o LAN. La porta supporta diversi tipi di moduli e cavi SFP+ per connessioni Ethernet in fibra ottica e in rame, inclusi collegamenti in fibra a lunga distanza, cablaggio tradizionale a doppino intrecciato e terminazione avanzata della fibra PON.
 
-Di seguito sono descritte in dettaglio le tre soluzioni di collegamento per la porta SFP+ di Flint 4 (GL-BE14000), con scenari applicativi, topologie di connessione, vantaggi e svantaggi, precauzioni e modelli compatibili riportati esclusivamente come riferimento.
+Questo articolo descrive tre opzioni di collegamento per la porta SFP+ di Flint 4 (GL-BE14000), inclusi casi d'uso, topologie di connessione, vantaggi e svantaggi, precauzioni e modelli compatibili.
 
 ## Soluzione 1. Ricetrasmettitore ottico + cavo in fibra
 
 ### 1.1 Scenari
 
-Questa soluzione è adatta a reti Ethernet 10G a lunga distanza e ad alta stabilità. Viene utilizzata principalmente nei seguenti scenari:
+Questa soluzione è indicata per connessioni Ethernet 10G affidabili e a lunga distanza. Gli utilizzi tipici includono:
 
-- collegamento a uplink Ethernet 10G in fibra pura dell'ISP, per accesso a banda larga domestico o commerciale ad altissima velocità;  
-- realizzazione di collegamenti di rete a lunga distanza, interni o esterni, ad esempio tra Flint 4 e uno switch 10G remoto, tra piani diversi di un'abitazione oppure per la dorsale di rete di un piccolo ufficio.
+- Collegamento a un uplink Ethernet 10G in fibra dell'ISP per l'accesso a banda larga ad alta velocità in ambito domestico o commerciale.
+- Realizzazione di collegamenti di rete a lunga distanza, interni o esterni, ad esempio tra Flint 4 e uno switch 10G remoto, tra piani diversi di un'abitazione oppure per la dorsale di rete di un piccolo ufficio.
 
 ### 1.2 Topologia
 
@@ -25,10 +25,10 @@ La tabella seguente valuta i principali aspetti relativi a prestazioni e facilit
 
 |Parametro|Valutazione|Note|
 |---|---|---|
-|Distanza di trasmissione|★★★★★|Supporta fino a 300 m (multimodale) o oltre 10 km (monomodale), superando i limiti di distanza dei cavi in rame ed è quindi adatta alle reti a lungo raggio.|
+|Distanza di trasmissione|★★★★★|Supporta distanze fino a 300 m su fibra multimodale o superiori a 10 km su fibra monomodale, risultando adatta ai collegamenti a lungo raggio.|
 |Resistenza alle interferenze|★★★★★|La trasmissione del segnale ottico è immune da interferenze elettromagnetiche, elettricità statica e diafonia, garantendo un funzionamento stabile in ambienti complessi.|
-|Risparmio energetico|★★★★★|Consumo energetico e produzione di calore ridotti; il design consolidato del chipset consente un funzionamento stabile a pieno carico per lunghi periodi senza rischi di surriscaldamento.|
-|Compatibilità|★★★★★|Pieno supporto ufficiale e conformità ai protocolli Ethernet 10G standard, senza rischi di adattamento del firmware.|
+|Efficienza energetica|★★★★★|Offre consumi e produzione di calore ridotti. Il design consolidato del chipset consente un funzionamento stabile e prolungato a pieno carico senza surriscaldamento.|
+|Compatibilità|★★★★★|Supporto ufficiale e conformità ai protocolli Ethernet 10G standard; non è necessario alcun adattamento del firmware.|
 |Facilità di installazione|★★★☆☆|Richiede conoscenze di base sulle specifiche di accoppiamento della fibra; un'installazione non corretta può causare attenuazione del segnale e richiede competenze leggermente superiori rispetto al cablaggio in rame.|
 |Costo|★★★☆☆|Sono necessari ricetrasmettitori ottici e cavi in fibra aggiuntivi, con un costo complessivo superiore rispetto alle tradizionali soluzioni a doppino intrecciato.|
 
@@ -47,12 +47,12 @@ Di seguito sono elencati alcuni ricetrasmettitori ottici standard verificati da 
 |Modello|Tester|
 |---|---|
 |ipolex AXS85-192-M3 10GBase-SR 850nm 300m|GL.iNet|
-|ipolex CAB-10GSFP-P1.5M 10G SFP+ DAC 1.5m, 30AWG|Utente|
+|ipolex CAB-10GSFP-P1.5M 10G SFP+ DAC 1.5m, 30AWG|Membro della community|
 |QSFPTEK QT-SFP+SR CO SFP+ 10G 850nm 300m|GL.iNet|
 |QSFPTEK QT-SFP-2.5G-0401D SFP 2.5G 850nm 300m|GL.iNet|
-|QSFPTEK QT-SFP+-SR CO SFP+ 10G 850nm 300m|Utente|
+|QSFPTEK QT-SFP+-SR CO SFP+ 10G 850nm 300m|Membro della community|
 |QINIYEK BJ-SFP+SR AR 10G 850nm 300m|GL.iNet|
-|QINIYEK BJ-SFP+-SR CI SFP+ 10G 850nm 300m|Utente|
+|QINIYEK BJ-SFP+-SR CI SFP+ 10G 850nm 300m|Membro della community|
 |XZSNET SFP10G-SR|GL.iNet|
 |10Gtek AXS85-192-M3 10GBase-SR 850nm 300m|GL.iNet|
 |10Gtek AZS85-192-M1 25G SFP28-SR 850nm 100m|GL.iNet|
@@ -67,14 +67,14 @@ Di seguito sono elencati alcuni ricetrasmettitori ottici standard verificati da 
 |netLINK 10G/850nm/300m/DDM HTB-10G-SR|GL.iNet|
 |H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 |H!Fiber ASF85-24-X2-D 1000Base-SX 850nm 550m|GL.iNet|
-|Cisco GLC-SX-MMD 10-2626-01 CLASS 1 21CFR1040.10 LN#50|Utente|
-|ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|Utente|
+|Cisco GLC-SX-MMD 10-2626-01 CLASS 1 21CFR1040.10 LN#50|Membro della community|
+|ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|Membro della community|
 
 ## Soluzione 2. Modulo da SFP+ a RJ45 (SFP‑10G‑T)
 
 ### 2.1 Scenari
 
-Il modulo SFP‑10G‑T converte lo slot ottico SFP+ in un'interfaccia RJ45 standard a doppino intrecciato ed è adatto a reti 10G a breve distanza basate su cavi di rete tradizionali. Tra gli impieghi tipici figurano il collegamento a breve distanza tra Flint 4 e switch 10G o dispositivi NAS, la rapida aggiunta di porte di rete 10G RJ45 senza installare nuovamente la fibra e il cablaggio LAN ad alta velocità domestico o SOHO che mantiene il tradizionale doppino intrecciato. È l'alternativa ideale per chi necessita di Ethernet 10G ma non dispone di un cablaggio in fibra.
+Il modulo SFP-10G-T converte lo slot SFP+ in un'interfaccia RJ45 standard a doppino intrecciato ed è adatto a reti 10G a breve distanza basate su cavi Ethernet tradizionali. Tra gli impieghi tipici figurano il collegamento di Flint 4 a uno switch 10G o a un NAS nelle vicinanze, l'aggiunta di una porta 10G RJ45 senza installare la fibra e la realizzazione di una LAN domestica o SOHO ad alta velocità con il cablaggio a doppino esistente. Questa opzione è adatta a chi necessita di Ethernet 10G ma non dispone di un cablaggio in fibra.
 
 ### 2.2 Topologia
 
@@ -90,14 +90,14 @@ La tabella seguente valuta i principali aspetti relativi a prestazioni e facilit
 |---|---|---|
 |Distanza di trasmissione|★★☆☆☆|A causa dei limiti hardware del chip PHY, la distanza massima di trasmissione stabile è di soli 30 metri; la soluzione non è adatta al cablaggio a lunga distanza.|
 |Resistenza alle interferenze|★★★☆☆|La tradizionale trasmissione su doppino intrecciato è soggetta a interferenze elettromagnetiche e diafonia negli scenari di cablaggio complessi.|
-|Risparmio energetico|★★☆☆☆|Consumo energetico elevato e notevole produzione di calore con carichi elevati continui; per il funzionamento a lungo termine è necessario gestire la dissipazione del calore.|
-|Compatibilità|★★★★☆|Compatibile con tutti i terminali RJ45 10G standard; solo i cavi CAT6A/CAT7 supportano una trasmissione 10G stabile.|
+|Efficienza energetica|★★☆☆☆|Consumo energetico elevato e notevole produzione di calore con carichi elevati continui; per il funzionamento a lungo termine è necessario gestire la dissipazione del calore.|
+|Compatibilità|★★★★☆|Compatibile con i dispositivi RJ45 10G standard. Per una trasmissione 10G stabile sono necessari cavi CAT6A o CAT7.|
 |Facilità di installazione|★★★★★|Plug-and-play, non richiede la diagnostica del percorso ottico ed è compatibile con le consuete modalità di installazione dei cavi di rete, risultando estremamente semplice da utilizzare.|
 |Costo|★★★★☆|Riutilizza il cablaggio RJ45 esistente senza costi di conversione alla fibra; è sufficiente acquistare separatamente un modulo 10G-T.|
 
 ### 2.4 Precauzioni
 
-- Per una trasmissione 10G stabile è necessario utilizzare cavi CAT6A o di categoria superiore; i cavi CAT6 o inferiori causano riduzioni della velocità e perdita di pacchetti.
+- Per una trasmissione 10G stabile, utilizza cavi Ethernet CAT6A o di categoria superiore. I cavi di categoria inferiore possono ridurre la velocità o causare la perdita di pacchetti.
 
 - Mantenere la distanza del cablaggio entro 30 metri. Il superamento del limite può causare instabilità del collegamento, riduzione della velocità o disconnessioni.
 
@@ -115,9 +115,9 @@ Di seguito sono elencati alcuni moduli da SFP+ a RJ45 verificati da GL.iNet e da
 |XZSNET-SFP10G-T RJ45 30m|GL.iNet|
 |10Gtek ASF-10G-T RJ45 30m|GL.iNet|
 |10Gtek ASF-2G-T 2.5GBase-T SFP RJ-45 100m|GL.iNet|
-|10Gtek ASF-10G2-T 1G/2.5G/5G/10GBase-T RJ-45 30m|Utente|
-|HUAWEI SFP-1000BASE-T-RJ45-100m SFP-1000Base-T|Utente|
-|Xicom SFP-2.5G-T 100/1000M/2.5G RJ45 100m|Utente|
+|10Gtek ASF-10G2-T 1G/2.5G/5G/10GBase-T RJ-45 30m|Membro della community|
+|HUAWEI SFP-1000BASE-T-RJ45-100m SFP-1000Base-T|Membro della community|
+|Xicom SFP-2.5G-T 100/1000M/2.5G RJ45 100m|Membro della community|
 
 ## Soluzione 3. Modulo PON‑ONU SFP+
 
@@ -137,10 +137,10 @@ La tabella seguente valuta i principali aspetti relativi a prestazioni e facilit
 
 |Parametro|Valutazione|Note|
 |---|---|---|
-|Distanza di trasmissione|★★★★★|Supporta le distanze di trasmissione standard della fibra PON e soddisfa tutti i comuni scenari di accesso in fibra domestici e commerciali.|
+|Distanza di trasmissione|★★★★★|Supporta le distanze di trasmissione PON standard per il tipico accesso in fibra domestico e commerciale.|
 |Resistenza alle interferenze|★★★★★|La trasmissione in fibra ottica offre un'elevata resistenza alle interferenze e un segnale stabile, in linea con i principali standard di accesso in fibra PON.|
-|Risparmio energetico|★★☆☆☆|Durante il funzionamento ad alta velocità viene generato molto calore; è obbligatoria una dissipazione ausiliaria per evitare riduzioni delle prestazioni e disconnessioni.|
-|Compatibilità|★★☆☆☆|Soluzione per utenti esperti verificata in modo non ufficiale; la compatibilità dipende dalla whitelist dell'ISP e dal modello del modulo, mentre il funzionamento a lungo termine potrebbe non essere stabile.|
+|Efficienza energetica|★★☆☆☆|Durante il funzionamento ad alta velocità viene generato molto calore; è obbligatoria una dissipazione ausiliaria per evitare riduzioni delle prestazioni e disconnessioni.|
+|Compatibilità|★★☆☆☆|È una soluzione non ufficiale destinata agli utenti esperti. La compatibilità dipende dalla whitelist dell'ISP e dal modello del modulo e il funzionamento a lungo termine potrebbe essere instabile.|
 |Facilità di installazione|★★☆☆☆|Richiede la conferma preventiva dell'ISP, la configurazione dell'autenticazione SN/PLOAM e l'ottimizzazione della dissipazione del calore; la complessità complessiva dell'installazione è elevata.|
 |Costo|★★★☆☆|Elimina il costo di un modem ottico indipendente, ma comporta potenziali rischi per i servizi, ad esempio l'indisponibilità di IPTV o telefonia e l'assenza di assistenza tecnica ufficiale.|
 
@@ -148,9 +148,9 @@ La tabella seguente valuta i principali aspetti relativi a prestazioni e facilit
 
 - **Verificare preventivamente l'autorizzazione dell'ISP**: chiedere all'operatore se è consentito collegare alla rete PON hardware ONU di terze parti di proprietà dell'utente e ottenere i parametri di autenticazione obbligatori, inclusi il codice di registrazione SN e la password PLOAM.
 
-- **La dissipazione del calore è obbligatoria**: dotare il modulo PON‑ONU di sistemi ausiliari di dissipazione per evitare riduzioni della frequenza, perdita di pacchetti e disconnessioni dovute alle alte temperature.
+- **La dissipazione del calore è obbligatoria**: dotare il modulo PON-ONU di sistemi ausiliari di dissipazione per evitare cali di prestazioni, perdita di pacchetti e disconnessioni dovute alle alte temperature.
 
-- **Nessuna garanzia del servizio**: GL.iNet non fornisce assistenza tecnica per questa soluzione. Problemi quali instabilità della rete, variazioni della velocità e anomalie dei servizi a valore aggiunto non possono essere risolti tramite firmware ufficiale o assistenza post-vendita.
+- **Nessuna garanzia del servizio**: GL.iNet non fornisce assistenza tecnica per questa opzione. Problemi quali instabilità della rete, variazioni della velocità o anomalie dei servizi a valore aggiunto non sono coperti dal firmware ufficiale né dall'assistenza post-vendita.
 
 - Ogni operatore applica regole diverse per la whitelist dei modelli. Prima dell'acquisto, verificare quali moduli PON sono supportati dall'operatore.
 
@@ -161,7 +161,7 @@ Di seguito sono elencati alcuni moduli PON-ONU SFP+ verificati da GL.iNet e dagl
 |Modello|Tester|
 |---|---|
 |HUAWEI MA5671A 2.5G ONU stick|GL.iNet|
-|NOKIA GPON ONT SFP Class I Laser G-010S-A|Utente|
+|NOKIA GPON ONT SFP Class I Laser G-010S-A|Membro della community|
 
 ---
 

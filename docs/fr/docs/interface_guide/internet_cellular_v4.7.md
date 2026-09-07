@@ -1,10 +1,11 @@
-# Se connecter à Internet via le réseau cellulaire
+# Se connecter à Internet via le réseau cellulaire (v4.7 et versions antérieures)
 
-Le contenu de cette page est basé sur les versions de firmware v4.7.x et antérieures. Si votre appareil utilise une autre version de firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
+Le contenu de cette page est basé sur les versions de firmware v4.7 et antérieures. Si votre appareil utilise une autre version de firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
 
 <div class="gl-link-select" data-label="Version du firmware" data-placeholder="Firmware v4.7 et versions antérieures" markdown="1">
 
-- [Firmware v4.8 et versions ultérieures](internet_cellular.md)
+- [Firmware v4.10 et versions ultérieures](internet_cellular_v4.10.md)
+- [Firmware v4.8 - v4.9](internet_cellular.md)
 
 </div>
 
@@ -264,7 +265,7 @@ Choisissez les profils dont vous avez besoin.
 
 ## Verrouillage d'antenne relais
 
-Cette fonctionnalité est disponible uniquement sur GL-X3000, GL-XE3000 et GL-X2000 (firmware v4.7 ou version ultérieure).
+Cette fonctionnalité est disponible uniquement sur certains modèles, notamment GL-X3000, GL-XE3000 et GL-X2000 (firmware v4.7 ou version ultérieure).
 
 Si vous souhaitez obtenir un signal de meilleure qualité et garantir une connexion cellulaire stable, vous pouvez essayer de verrouiller une antenne relais.
 

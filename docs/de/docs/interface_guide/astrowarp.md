@@ -1,6 +1,6 @@
 # AstroWarp
 
-**Hinweis**: Dieser Leitfaden gilt für die neue Version von AstroWarp. Diese Funktion wurde in v4.10 in **GoodPAS** umbenannt.
+**Hinweis**: Dieser Leitfaden gilt für die neue Version von AstroWarp. Diese Funktion wurde in Firmware v4.10 in [GoodPAS](./goodpas.md) umbenannt.
 
 Das neue AstroWarp ist in das GL.iNet Router SDK integriert. Es verwendet das AmneziaWG-Protokoll mit integrierter Datenverkehrsverschleierung und bietet dadurch stabile und sichere Verbindungen für zuverlässigen Fernzugriff jederzeit und überall.
 
@@ -63,8 +63,6 @@ Im folgenden Beispiel verwenden wir **Flint 3 (GL-BE9300)** und **Slate 7 (GL-BE
 Flint 3 fungiert als Heimrouter, während Slate 7 als Reiserouter arbeitet, der den Netzwerkverkehr für den Internetzugang zurück zu Flint 3 leitet.
 
 ![topology](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/aw_topology.png){class="glboxshadow"}
-
-**Hinweis**: Jeder GL.iNet-Router verfügt für AstroWarp-Netzwerke über **10 GB kostenlose Daten pro Monat**. Geräte in einem AstroWarp-Netzwerk verwenden die Daten des Heimrouters für den Internetzugang. Bei Bedarf können Sie auf den Tarif AstroWarp+ mit unbegrenztem Datenvolumen upgraden.
 
 1. Konfigurieren Sie Flint 3 für den Internetzugang.
 
@@ -130,14 +128,6 @@ Flint 3 fungiert als Heimrouter, während Slate 7 als Reiserouter arbeitet, der 
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
 
-## Tarif upgraden
-
-Jeder GL.iNet-Router verfügt für AstroWarp-Netzwerke über **10 GB kostenlose Daten pro Monat**. Geräte in einem AstroWarp-Netzwerk verwenden die Daten des Heimrouters für den Internetzugang.
-
-Bei Bedarf können Sie auf den Tarif **AstroWarp+** mit unbegrenztem Datenvolumen upgraden.
-
-![upgrade plan](https://static.gl-inet.com/docs/router/de/4/interface_guide/astrowarp/upgrade_plan.png){class="glboxshadow"}
-
 ## FAQ
 
 1. **F: Welches Format hat der dynamische Zugriffscode und wie lange ist er gültig?**
@@ -148,32 +138,22 @@ Bei Bedarf können Sie auf den Tarif **AstroWarp+** mit unbegrenztem Datenvolume
 
     A: Der Reiserouter wird getrennt und bleibt ohne Netzwerkzugang im Status „Ausstehend“. Sobald der Heimrouter die Verbindung wieder aufnimmt, kann sich der Reiserouter automatisch erneut verbinden, ohne dass der Zugriffscode noch einmal eingegeben werden muss.
 
-3. **F: Was passiert, wenn das kostenlose Datenvolumen aufgebraucht ist oder der AstroWarp+-Tarif auf dem Heimrouter abläuft?**
-
-    A: Der Reiserouter wechselt in den Status „Ausstehend“, hat keinen Netzwerkzugang und schaltet nicht automatisch auf das lokale Netzwerk um.
-
-4. **F: In welchen Situationen wechselt der Reiserouter in den Status „Ausstehend“?**
+3. **F: In welchen Situationen wechselt der Reiserouter in den Status „Ausstehend“?**
 
     A: Der Reiserouter wechselt in den Status „Ausstehend“, wenn beim Heimrouter eine der folgenden Bedingungen eintritt:
 
     - Die AstroWarp-Verbindung wird beendet.
-    - Das kostenlose Datenkontingent ist aufgebraucht.
-    - Das Ablaufdatum des AstroWarp+-Tarifs wird erreicht (falls zutreffend).
     - Die Internetverbindung fällt aus.
 
-5. **F: Was bewirkt die Schaltfläche Reset oben rechts?**
+4. **F: Was bewirkt die Schaltfläche Reset oben rechts?**
 
     A: Sie löscht alle autorisierten Geräte und setzt die Seite auf die Router-Rollenauswahl zurück, damit die Rolle erneut gewählt werden kann.
 
-6. **F: Was passiert mit dem Reiserouter, wenn ich AstroWarp auf dem Heimrouter zurücksetze?**
+5. **F: Was passiert mit dem Reiserouter, wenn ich AstroWarp auf dem Heimrouter zurücksetze?**
 
     A: Sobald AstroWarp auf dem Heimrouter zurückgesetzt wird, werden die aus der Ferne verbundenen Geräte vom AstroWarp-Netzwerk getrennt und wechseln für den Internetzugang wieder auf ihr lokales Netzwerk.
 
-7. **F: Wenn ich den Heimrouter auf den AstroWarp+-Tarif upgrade und seine Rolle bei noch gültigem Tarif auf Reiserouter ändere, bleibt die verbleibende Laufzeit erhalten?**
-
-    A: Die verbleibende Gültigkeitsdauer kann nicht übernommen werden und läuft zum Fälligkeitsdatum ab. Um unnötige Verluste zu vermeiden, sollten Sie die Geräterolle erst nach Ablauf Ihres aktuellen Tarifs ändern.
-
-8. **F: Wenn ich das neue AstroWarp im Web-Admin-Panel des Routers aktiviert habe, wie deaktiviere ich es und wechsle zurück zum älteren AstroWarp?**
+6. **F: Wenn ich das neue AstroWarp im Web-Admin-Panel des Routers aktiviert habe, wie deaktiviere ich es und wechsle zurück zum älteren AstroWarp?**
 
     A: Gehen Sie im Web-Admin-Panel des Routers zu **CLOUD SERVICES** -> **AstroWarp** und klicken Sie oben rechts auf **Reset**.
 

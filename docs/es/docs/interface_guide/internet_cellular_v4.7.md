@@ -1,10 +1,11 @@
-# Conectarse a Internet mediante red celular
+# Conectarse a Internet mediante red celular (v4.7 y anteriores)
 
-El contenido de esta página se basa en las versiones de firmware v4.7.x y anteriores. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
+El contenido de esta página se basa en las versiones de firmware v4.7 y anteriores. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
 <div class="gl-link-select" data-label="Versión de firmware" data-placeholder="Firmware v4.7 y anteriores" markdown="1">
 
-- [Firmware v4.8 y posteriores](internet_cellular.md)
+- [Firmware v4.10 y posteriores](internet_cellular_v4.10.md)
+- [Firmware v4.8 - v4.9](internet_cellular.md)
 
 </div>
 
@@ -264,7 +265,7 @@ Elija cualquiera de los perfiles que necesite.
 
 ## Bloqueo de torre
 
-Esta función solo está disponible en GL-X3000, GL-XE3000 y GL-X2000 (firmware ver. 4.7 o posterior).
+Esta función solo está disponible en determinados modelos, como GL-X3000, GL-XE3000 y GL-X2000 (firmware v4.7 o posterior).
 
 Si desea recibir una señal de alta calidad y garantizar una conexión celular estable, puede probar el bloqueo de torre.
 

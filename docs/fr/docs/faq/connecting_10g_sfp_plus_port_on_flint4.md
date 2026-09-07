@@ -1,17 +1,17 @@
 # Connexion du port 10G SFP+ de Flint 4
 
-Flint 4 (GL‑BE14000) est équipé d’un port 10G SFP+ qui peut fonctionner en mode WAN ou LAN. Ce port est compatible avec plusieurs types de modules et câbles SFP+ pour les connexions Ethernet optiques et cuivre. Il répond ainsi à différents besoins réseau, notamment les accès fibre longue distance, le câblage conventionnel à paire torsadée et la terminaison fibre PON avancée.
+Flint 4 (GL-BE14000) est équipé d’un port 10G SFP+ qui peut fonctionner en mode WAN ou LAN. Ce port prend en charge plusieurs types de modules et câbles SFP+ pour les connexions Ethernet sur fibre optique ou cuivre, notamment les liaisons fibre longue distance, le câblage conventionnel à paire torsadée et la terminaison fibre PON avancée.
 
-Vous trouverez ci-dessous une présentation détaillée des trois solutions de connexion du port SFP+ de Flint 4 (GL-BE14000). Les scénarios d’utilisation, topologies, avantages et inconvénients, précautions et modèles compatibles sont fournis à titre indicatif uniquement.
+Cet article décrit trois options de connexion du port SFP+ de Flint 4 (GL-BE14000), avec leurs scénarios d’utilisation, topologies, avantages et inconvénients, précautions et modèles compatibles.
 
 ## Solution 1. Émetteur-récepteur optique + câble à fibre optique
 
 ### 1.1 Scénarios
 
-Cette solution convient aux réseaux Ethernet 10G longue distance exigeant une grande stabilité. Elle est principalement utilisée dans les deux scénarios suivants :
+Cette solution est destinée aux connexions Ethernet 10G fiables sur de longues distances. Les utilisations courantes comprennent :
 
-- connexion à une liaison montante Ethernet 10G entièrement en fibre d’un FAI, pour un accès haut débit domestique ou professionnel à très grande vitesse ;
-- déploiement d’une interconnexion réseau intérieure ou extérieure longue distance, par exemple entre Flint 4 et un commutateur 10G distant, pour un câblage domestique entre plusieurs étages ou pour le réseau dorsal d’un petit bureau.
+- la connexion à une liaison montante Ethernet 10G sur fibre d’un FAI, pour un accès haut débit domestique ou professionnel rapide ;
+- le déploiement de liaisons réseau longue distance en intérieur ou en extérieur, par exemple entre Flint 4 et un commutateur 10G distant, entre les étages d’une habitation ou pour le réseau dorsal d’un petit bureau.
 
 ### 1.2 Topologie
 
@@ -25,11 +25,11 @@ Le tableau ci-dessous évalue les principaux aspects liés aux performances et �
 
 |Critère|Note|Remarques|
 |---|---|---|
-|Distance de transmission|★★★★★|Prend en charge jusqu’à 300 m en multimode ou plus de 10 km en monomode, au-delà des limites des câbles cuivre, et convient aux réseaux longue distance.|
+|Distance de transmission|★★★★★|Prend en charge des distances allant jusqu’à 300 m sur fibre multimode ou plus de 10 km sur fibre monomode, et convient ainsi aux connexions longue distance.|
 |Résistance aux interférences|★★★★★|La transmission du signal optique est insensible aux interférences électromagnétiques, à l’électricité statique et à la diaphonie, pour un fonctionnement stable dans les environnements complexes.|
-|Économie d’énergie|★★★★★|Faible consommation électrique et faible dégagement de chaleur ; la conception éprouvée de la puce permet un fonctionnement stable et prolongé à pleine charge sans risque de surchauffe.|
-|Compatibilité|★★★★★|Entièrement pris en charge officiellement, conforme aux protocoles Ethernet 10G standard, sans risque d’adaptation du micrologiciel.|
-|Facilité de déploiement|★★★☆☆|Nécessite de connaître les spécifications de raccordement de base de la fibre ; une manipulation incorrecte peut atténuer le signal, ce qui rend l’installation légèrement plus complexe qu’avec un câblage cuivre.|
+|Économie d’énergie|★★★★★|Offre une faible consommation électrique et un faible dégagement de chaleur. La conception éprouvée du chipset permet un fonctionnement stable et prolongé à pleine charge sans surchauffe.|
+|Compatibilité|★★★★★|Officiellement pris en charge et conforme aux protocoles Ethernet 10G standard ; aucune adaptation du firmware n’est nécessaire.|
+|Facilité de déploiement|★★★☆☆|Nécessite de connaître les exigences de base d’une connexion fibre. Une manipulation incorrecte peut atténuer le signal, ce qui rend le déploiement plus complexe qu’avec un câblage cuivre.|
 |Coût|★★★☆☆|Nécessite des émetteurs-récepteurs optiques et des câbles à fibre supplémentaires ; le coût global est supérieur à celui d’une solution traditionnelle à paire torsadée.|
 
 ### 1.4 Précautions
@@ -74,7 +74,7 @@ Vous trouverez ci-dessous quelques émetteurs-récepteurs optiques standard dont
 
 ### 2.1 Scénarios
 
-Le module SFP‑10G‑T convertit le logement optique SFP+ en interface standard RJ45 à paire torsadée. Il convient aux réseaux 10G courte distance utilisant des câbles réseau conventionnels. Les utilisations courantes incluent la connexion courte distance entre Flint 4 et des commutateurs 10G ou appareils NAS, l’ajout rapide de ports réseau 10G RJ45 sans installer de fibre et le câblage d’un réseau local domestique ou SOHO à haut débit conservant les paires torsadées existantes. Il s’agit de la meilleure solution de remplacement pour les utilisateurs qui ont besoin d’Ethernet 10G sans disposer d’un câblage fibre.
+Le module SFP-10G-T convertit le logement SFP+ en interface RJ45 à paire torsadée standard. Il convient ainsi aux réseaux 10G courte distance utilisant des câbles Ethernet conventionnels. Les applications courantes comprennent la connexion de Flint 4 à un commutateur 10G ou à un NAS proche, l’ajout d’un port RJ45 10G sans installer de fibre et la création d’un LAN domestique ou SOHO à haut débit avec le câblage à paire torsadée existant. Cette option convient aux utilisateurs qui ont besoin d’Ethernet 10G sans disposer d’un câblage fibre.
 
 ### 2.2 Topologie
 
@@ -88,16 +88,16 @@ Le tableau ci-dessous évalue les principaux aspects liés aux performances et �
 
 |Critère|Note|Remarques|
 |---|---|---|
-|Distance de transmission|★★☆☆☆|Limitée par le matériel de la puce PHY : la distance de transmission stable maximale est de seulement 30 mètres et ne convient pas au câblage longue distance.|
+|Distance de transmission|★★☆☆☆|Le PHY limite la distance de transmission stable à 30 m, ce qui rend le module inadapté au câblage longue distance.|
 |Résistance aux interférences|★★★☆☆|La transmission traditionnelle à paire torsadée est sensible aux interférences électromagnétiques et à la diaphonie dans les installations complexes.|
-|Économie d’énergie|★★☆☆☆|Consommation élevée et dégagement de chaleur important sous forte charge continue ; une gestion de la dissipation thermique est nécessaire pour une utilisation prolongée.|
-|Compatibilité|★★★★☆|Compatible avec tous les terminaux RJ45 10G standard ; seuls les câbles CAT6A/CAT7 assurent une transmission 10G stable.|
-|Facilité de déploiement|★★★★★|Prêt à l’emploi, sans réglage du chemin optique ; compatible avec les pratiques habituelles de déploiement de câbles réseau et très simple à installer.|
-|Coût|★★★★☆|Réutilise le câblage RJ45 existant sans coût de conversion à la fibre ; seul un module 10G-T doit être acheté séparément.|
+|Économie d’énergie|★★☆☆☆|Consomme davantage d’énergie et produit beaucoup de chaleur sous forte charge continue. Une dissipation thermique adéquate est nécessaire pour une utilisation prolongée.|
+|Compatibilité|★★★★☆|Compatible avec les appareils RJ45 10G standard. Un câblage CAT6A ou CAT7 est requis pour une transmission 10G stable.|
+|Facilité de déploiement|★★★★★|Offre un déploiement prêt à l’emploi sans configuration du chemin optique et fonctionne avec un câblage Ethernet conventionnel.|
+|Coût|★★★★☆|Permet de réutiliser le câblage RJ45 existant sans installer de fibre, bien qu’un module 10GBASE-T distinct soit nécessaire.|
 
 ### 2.4 Précautions
 
-- Utilisez impérativement des câbles réseau CAT6A ou de catégorie supérieure pour assurer une transmission 10G stable ; les câbles CAT6 et de catégorie inférieure entraînent une baisse de débit et des pertes de paquets.
+- Utilisez des câbles Ethernet CAT6A ou de catégorie supérieure pour assurer une transmission 10G stable. Les câbles de catégorie inférieure peuvent réduire le débit ou provoquer des pertes de paquets.
 
 - Limitez la longueur du câblage à 30 mètres ; tout dépassement peut provoquer une instabilité de la liaison, une baisse du débit ou une déconnexion.
 
@@ -123,7 +123,7 @@ Vous trouverez ci-dessous quelques modules SFP+ vers RJ45 dont la compatibilité
 
 ### 3.1 Scénarios
 
-Le module PON‑ONU SFP+ intègre toutes les fonctions d’un modem optique ONU, ce qui permet au port SFP+ de Flint 4 de terminer directement les lignes fibre résidentielles GPON/XGS-PON traditionnelles. Cette solution évite d’utiliser un modem optique externe indépendant et assure l’accès fibre et le routage avec un seul appareil. Elle est destinée aux configurations réseau avancées pour utilisateurs expérimentés, notamment à ceux qui souhaitent réduire le nombre d’équipements de leur réseau domestique et connecter directement le routeur aux lignes fibre PON de l’opérateur.
+Le module PON-ONU SFP+ fournit les fonctions d’un modem optique ONU, ce qui permet au port SFP+ de Flint 4 de terminer directement les lignes fibre résidentielles GPON/XGS-PON traditionnelles. Cette option combine l’accès fibre et le routage dans un seul appareil, ce qui évite d’utiliser un modem optique externe distinct. Elle est destinée aux déploiements avancés par des utilisateurs expérimentés, en particulier à ceux qui souhaitent réduire le nombre d’appareils sur leur réseau domestique et connecter directement le routeur à une ligne fibre PON du FAI.
 
 ### 3.2 Topologie
 
@@ -137,12 +137,12 @@ Le tableau ci-dessous évalue les principaux aspects liés aux performances et �
 
 |Critère|Note|Remarques|
 |---|---|---|
-|Distance de transmission|★★★★★|S’adapte aux distances de transmission standard de la fibre PON et couvre tous les scénarios d’accès fibre domestiques et professionnels courants.|
+|Distance de transmission|★★★★★|Prend en charge les distances de transmission PON standard pour les accès fibre résidentiels et professionnels courants.|
 |Résistance aux interférences|★★★★★|La transmission par fibre optique offre une excellente résistance aux interférences et un signal stable, conformément aux normes courantes d’accès fibre PON.|
 |Économie d’énergie|★★☆☆☆|Dégagement de chaleur élevé à haut débit ; une dissipation thermique auxiliaire est indispensable pour éviter une baisse des performances et des déconnexions.|
-|Compatibilité|★★☆☆☆|Solution pour utilisateurs expérimentés non validée officiellement ; la compatibilité dépend de la liste blanche du FAI et du modèle du module, et le fonctionnement à long terme peut être instable.|
-|Facilité de déploiement|★★☆☆☆|Nécessite une confirmation préalable du FAI, la configuration de l’authentification SN/PLOAM et l’optimisation de la dissipation thermique ; le déploiement est globalement complexe.|
-|Coût|★★★☆☆|Supprime le coût d’un modem optique indépendant, mais présente des risques pour certains services, notamment l’indisponibilité de l’IPTV ou de la téléphonie et l’absence d’assistance technique officielle.|
+|Compatibilité|★★☆☆☆|Il s’agit d’une solution non officielle destinée aux utilisateurs expérimentés. La compatibilité dépend de la liste blanche du FAI et du modèle du module, et le fonctionnement à long terme peut être instable.|
+|Facilité de déploiement|★★☆☆☆|Nécessite une confirmation préalable du FAI, la configuration de l’authentification SN/PLOAM et un refroidissement adéquat. Le déploiement est relativement complexe.|
+|Coût|★★★☆☆|Supprime le coût d’un modem optique distinct, mais peut affecter des services tels que l’IPTV et la téléphonie et n’inclut pas d’assistance technique officielle.|
 
 ### 3.4 Précautions
 
@@ -150,7 +150,7 @@ Le tableau ci-dessous évalue les principaux aspects liés aux performances et �
 
 - **La dissipation thermique est obligatoire** : équipez le module PON‑ONU d’un dispositif de dissipation thermique auxiliaire afin d’éviter la réduction de fréquence, la perte de paquets et les déconnexions dues à une température élevée.
 
-- **Aucune garantie de service** : GL.iNet ne fournit aucune assistance technique pour cette solution. Les problèmes tels que l’instabilité du réseau, les variations de débit et les anomalies des services à valeur ajoutée ne peuvent pas être résolus par le micrologiciel officiel ni par le service après-vente.
+- **Aucune garantie de service** : GL.iNet ne fournit aucune assistance technique pour cette option. Les problèmes tels que l’instabilité du réseau, les variations de débit ou les incidents affectant des services à valeur ajoutée ne sont couverts ni par le firmware officiel ni par le service après-vente.
 
 - Les règles de liste blanche des modèles de modules varient selon les opérateurs. Avant l’achat, confirmez auprès de l’opérateur les modèles de modules PON pris en charge.
 

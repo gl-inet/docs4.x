@@ -1,9 +1,10 @@
-# Conectarse a Internet mediante red celular
+# Conectarse a Internet mediante red celular (v4.8-v4.9)
 
-El contenido de esta página se basa en la versión de firmware v4.8.x y posteriores. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
+El contenido de esta página se basa en las versiones de firmware v4.8 a v4.9. Si su dispositivo ejecuta otra versión de firmware, use el selector siguiente para cambiar a la guía correspondiente.
 
-<div class="gl-link-select" data-label="Versión de firmware" data-placeholder="Firmware v4.8 y posteriores" markdown="1">
+<div class="gl-link-select" data-label="Versión de firmware" data-placeholder="Firmware v4.8 - v4.9" markdown="1">
 
+- [Firmware v4.10 y posteriores](internet_cellular_v4.10.md)
 - [Firmware v4.7 y anteriores](internet_cellular_v4.7.md)
 
 </div>
@@ -329,7 +330,7 @@ Consulte [SMS Forwarding](../tutorials/sms_forwarding.md).
     - GL-XE3000 (Puli AX)
     - GL-X2000 (Spitz Plus)*
 
-    *El GL-X2000 (Spitz Plus) admite esta función con firmware ver. 4.7 o posterior.
+    *El GL-X2000 (Spitz Plus) admite esta función con firmware v4.7 o posterior.
 
 Si desea recibir una señal de alta calidad y garantizar una conexión celular estable, puede probar el bloqueo de torre.
 
@@ -361,7 +362,14 @@ Haga clic en una torre para ver los detalles y bloquearla.
 
 ## Bloqueo de operador
 
-Esta función solo está disponible en GL-X3000, GL-XE3000 y GL-X2000 (firmware ver. 4.8 o posterior).
+!!! note "Modelos compatibles"
+
+    - GL-E5800 (Mudi 7)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-X2000 (Spitz Plus)*
+
+    *El GL-X2000 (Spitz Plus) admite esta función con firmware v4.8 o posterior.
 
 Al bloquear un operador móvil específico, el router utilizará únicamente la red de ese operador, lo que garantiza una conexión estable y evita cargos de roaming no deseados, especialmente en zonas fronterizas donde el dispositivo podría conectarse de otro modo a redes extranjeras.
 

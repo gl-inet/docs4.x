@@ -1,9 +1,10 @@
-# Connettersi a Internet tramite rete cellulare
+# Connettersi a Internet tramite rete cellulare (v4.8-v4.9)
 
-Il contenuto di questa pagina si basa sulla versione firmware v4.8.x e successive. Se il dispositivo usa una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
+Il contenuto di questa pagina si basa sulle versioni firmware da v4.8 a v4.9. Se il dispositivo usa una versione firmware diversa, usa il selettore seguente per passare alla guida corrispondente.
 
-<div class="gl-link-select" data-label="Versione firmware" data-placeholder="Firmware v4.8 e successivi" markdown="1">
+<div class="gl-link-select" data-label="Versione firmware" data-placeholder="Firmware v4.8 - v4.9" markdown="1">
 
+- [Firmware v4.10 e successivi](internet_cellular_v4.10.md)
 - [Firmware v4.7 e precedenti](internet_cellular_v4.7.md)
 
 </div>
@@ -328,7 +329,7 @@ Fai riferimento a [SMS Forwarding](../tutorials/sms_forwarding.md).
     - GL-XE3000 (Puli AX)
     - GL-X2000 (Spitz Plus)*
 
-    *GL-X2000 (Spitz Plus) supporta questa funzione con firmware ver.4.7 o successivo.
+    *GL-X2000 (Spitz Plus) supporta questa funzione con firmware v4.7 o successivo.
 
 Se vuoi ricevere un segnale di alta qualita' e garantire una connessione cellulare stabile, puoi provare il lock tower.
 
@@ -360,7 +361,14 @@ Fai clic su una torre per visualizzarne i dettagli e bloccarla.
 
 ## Lock Operator
 
-Questa funzione e' disponibile solo su GL-X3000, GL-XE3000 e GL-X2000, firmware ver.4.8 o successivo.
+!!! note "Modelli supportati"
+
+    - GL-E5800 (Mudi 7)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-X2000 (Spitz Plus)*
+
+    *GL-X2000 (Spitz Plus) supporta questa funzione con firmware v4.8 o successivo.
 
 Bloccando un operatore mobile specifico, il router usera' solo la rete di quell'operatore, garantendo una connessione stabile ed evitando costi di roaming indesiderati, soprattutto nelle aree di confine dove il dispositivo potrebbe altrimenti connettersi a reti straniere.
 

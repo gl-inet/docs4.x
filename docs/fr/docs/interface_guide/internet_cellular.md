@@ -1,9 +1,10 @@
-# Se connecter à Internet via le réseau cellulaire
+# Se connecter à Internet via le réseau cellulaire (v4.8-v4.9)
 
-Le contenu de cette page est basé sur la version de firmware v4.8.x et les versions ultérieures. Si votre appareil utilise une autre version de firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
+Le contenu de cette page est basé sur les versions de firmware v4.8 à v4.9. Si votre appareil utilise une autre version de firmware, utilisez le sélecteur ci-dessous pour passer au guide correspondant.
 
-<div class="gl-link-select" data-label="Version du firmware" data-placeholder="Firmware v4.8 et versions ultérieures" markdown="1">
+<div class="gl-link-select" data-label="Version du firmware" data-placeholder="Firmware v4.8 - v4.9" markdown="1">
 
+- [Firmware v4.10 et versions ultérieures](internet_cellular_v4.10.md)
 - [Firmware v4.7 et versions antérieures](internet_cellular_v4.7.md)
 
 </div>
@@ -361,7 +362,14 @@ Cliquez sur une antenne relais pour afficher les détails et la verrouiller.
 
 ## Verrouillage d'opérateur
 
-Cette fonctionnalité est disponible uniquement sur GL-X3000, GL-XE3000 et GL-X2000 (firmware v4.8 ou version ultérieure).
+!!! note "Modèles pris en charge"
+
+    - GL-E5800 (Mudi 7)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-X2000 (Spitz Plus)*
+
+    *Le GL-X2000 (Spitz Plus) prend en charge cette fonctionnalité à partir du firmware v4.8.
 
 En verrouillant un opérateur mobile spécifique, le routeur n'utilisera que le réseau de cet opérateur, ce qui garantit une connexion stable et évite les frais d'itinérance involontaires — en particulier dans les zones frontalières où l'appareil pourrait sinon se connecter à des réseaux étrangers.
 

@@ -1,9 +1,10 @@
-# Połączenie z Internetem przez sieć komórkową
+# Połączenie z Internetem przez sieć komórkową (v4.8-v4.9)
 
-Treść tej strony dotyczy wersji firmware v4.8.x i nowszych. Jeśli urządzenie używa innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
+Treść tej strony dotyczy firmware w wersjach od v4.8 do v4.9. Jeśli urządzenie korzysta z innej wersji firmware, użyj poniższego selektora, aby przejść do odpowiedniego przewodnika.
 
-<div class="gl-link-select" data-label="Wersja firmware" data-placeholder="Firmware v4.8 i nowsze" markdown="1">
+<div class="gl-link-select" data-label="Wersja firmware" data-placeholder="Firmware v4.8 - v4.9" markdown="1">
 
+- [Firmware v4.10 i nowsze](internet_cellular_v4.10.md)
 - [Firmware v4.7 i wcześniejsze](internet_cellular_v4.7.md)
 
 </div>
@@ -361,7 +362,14 @@ Kliknij stację bazową, aby wyświetlić jej szczegóły i ją zablokować.
 
 ## Blokada operatora
 
-Ta funkcja jest dostępna tylko w modelach GL-X3000, GL-XE3000 i GL-X2000 (firmware ver.4.8 lub nowszy).
+!!! note "Obsługiwane modele"
+
+    - GL-E5800 (Mudi 7)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-X2000 (Spitz Plus)*
+
+    *GL-X2000 (Spitz Plus) obsługuje tę funkcję w firmware v4.8 lub nowszym.
 
 Po zablokowaniu do konkretnego operatora komórkowego router będzie korzystał wyłącznie z sieci tego operatora, co zapewnia stabilne połączenie i pozwala uniknąć niezamierzonych opłat roamingowych — szczególnie w obszarach przygranicznych, gdzie urządzenie mogłoby w przeciwnym razie łączyć się z zagranicznymi sieciami.
 

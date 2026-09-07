@@ -1,6 +1,6 @@
 # AstroWarp
 
-**Nota**: Esta guía se aplica a la nueva versión de AstroWarp. Esta función pasó a llamarse **GoodPAS** en v4.10.
+**Nota**: Esta guía se aplica a la nueva versión de AstroWarp. Esta función pasó a llamarse [GoodPAS](./goodpas.md) en el firmware v4.10.
 
 La nueva versión de AstroWarp está integrada en el SDK del router GL.iNet. Adopta el protocolo AmneziaWG con ofuscación de tráfico integrada para ofrecer conexiones estables y seguras, ideales para un acceso remoto fiable en cualquier momento y desde cualquier lugar.
 
@@ -63,8 +63,6 @@ En el siguiente ejemplo, usaremos **Flint 3 (GL-BE9300)** y **Slate 7 (GL-BE3600
 Flint 3 actuará como router doméstico, mientras que Slate 7 actuará como router de viaje que redirige el tráfico de red de vuelta a Flint 3 para acceder a Internet.
 
 ![topology](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/aw_topology.png){class="glboxshadow"}
-
-**Nota**: Cada router GL.iNet incluye **10 GB de datos gratuitos al mes** para redes AstroWarp. Los dispositivos de una red AstroWarp usarán los datos del router doméstico para acceder a Internet. Puede actualizar al plan AstroWarp+ para disponer de datos ilimitados según sea necesario.
 
 1. Configure Flint 3 para Internet.
 
@@ -130,14 +128,6 @@ Flint 3 actuará como router doméstico, mientras que Slate 7 actuará como rout
 
     ![ipcheck sz](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/ipcheck_sz.png){class="glboxshadow"}
 
-## Plan de actualización
-
-Cada router GL.iNet incluye **10 GB de datos gratuitos al mes** para redes AstroWarp. Los dispositivos de una red AstroWarp usarán los datos del router doméstico para acceder a Internet.
-
-Puede actualizar al plan **AstroWarp+** para disponer de datos ilimitados según sea necesario.
-
-![upgrade plan](https://static.gl-inet.com/docs/router/en/4/interface_guide/astrowarp/upgrade_plan.png){class="glboxshadow"}
-
 ## FAQ
 
 1. **P: ¿Cuál es el formato del código de acceso dinámico y cuánto tiempo es válido?**
@@ -148,32 +138,22 @@ Puede actualizar al plan **AstroWarp+** para disponer de datos ilimitados según
 
     R: El router de viaje se desconectará y quedará en estado pendiente, sin acceso a la red. Cuando el router doméstico reanude la conexión, el router de viaje podrá reconectarse automáticamente sin volver a introducir el código de acceso.
 
-3. **P: ¿Qué ocurre si se agotan los datos gratuitos o caduca el plan AstroWarp+ en el router doméstico?**
-
-    R: El router de viaje pasará al estado pendiente, sin acceso a la red, y no cambiará automáticamente a la red local.
-
-4. **P: ¿En qué situaciones entra el router de viaje en estado pendiente?**
+3. **P: ¿En qué situaciones entra el router de viaje en estado pendiente?**
 
     R: El router de viaje entrará en estado pendiente cuando el router doméstico cumpla cualquiera de las siguientes condiciones:
 
     - Finaliza la conexión de AstroWarp.
-    - Agota la cuota de datos gratuitos.
-    - Llega a la fecha de vencimiento del plan AstroWarp+ (si corresponde).
     - Pierde el acceso a Internet.
 
-5. **P: ¿Qué hace el botón Reset en la esquina superior derecha?**
+4. **P: ¿Qué hace el botón Reset en la esquina superior derecha?**
 
     R: Borra todos los dispositivos autorizados y vuelve a la página de selección de la función del router para que pueda volver a elegirla.
 
-6. **P: ¿Qué ocurre con el router de viaje si restablezco AstroWarp en el router doméstico?**
+5. **P: ¿Qué ocurre con el router de viaje si restablezco AstroWarp en el router doméstico?**
 
     R: Una vez restablecido AstroWarp en el router doméstico, los dispositivos conectados de forma remota se desconectarán de la red AstroWarp y volverán a su red local para acceder a Internet.
 
-7. **P: Si actualizo el router doméstico al plan AstroWarp+ y cambio su función a router de viaje mientras el plan sigue vigente, ¿se conserva el tiempo restante del plan?**
-
-    R: El periodo restante no se conserva y caducará en la fecha prevista. Para evitar pérdidas innecesarias, cambie la función del dispositivo después de que venza su plan actual.
-
-8. **P: Si he habilitado la nueva versión de AstroWarp en el panel de administración web del router, ¿cómo la desactivo y vuelvo a AstroWarp heredado?**
+6. **P: Si he habilitado la nueva versión de AstroWarp en el panel de administración web del router, ¿cómo la desactivo y vuelvo a AstroWarp heredado?**
 
     R: En el panel de administración web del router, vaya a **CLOUD SERVICES** -> **AstroWarp** y haga clic en **Reset** en la esquina superior derecha.
 

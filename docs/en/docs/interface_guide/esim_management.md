@@ -25,7 +25,7 @@ This page allows you to check eSIM physical card status and manage eSIM profiles
 
     **Note**:
 
-    1. For **Models marked with ※**, the module you use determines whether they can work with the eSIM physical card.
+    1. **For models marked with ※**, support for physical eSIM cards depends on the module in use.
     
         - If using **EC25-AF**, **EC25-E**, or **EG25-G** module, please install the eSIM-supported firmware before using them with eSIM physical card. [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} for more instructions.
         
@@ -140,7 +140,7 @@ After purchasing an eSIM profile, you will typically receive a QR code (or an ac
 
     ![esim connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_connect.png){class="glboxshadow"}
 
-    **Note**: Some eSIM profiles may require additional configuration, such as APN, PIN, or TTL settings. If needed, click **Manual Setup** or **SIM Card Settings** to adjust these parameters. In some cases, you may need to reboot the device to establish an internet connection.*
+    **Note**: Some eSIM profiles may require additional configuration, such as APN, PIN, or TTL settings. If needed, click **Manual Setup** or **SIM Card Settings** to adjust these parameters. In some cases, you may need to reboot the device to establish an internet connection.
 
 5. Once the router connects successfully via the eSIM profile, the page will display as follows:
 

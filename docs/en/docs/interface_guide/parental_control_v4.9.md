@@ -52,11 +52,7 @@ Follow the steps below the set up your Parental Control.
 
 7. Select content filter. 
 
-    Three categories have been seleted by default: **Gambling**, **Malicious Content**, and **Sexual Content**.
-
-    ![content filter](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
-
-    You may select other categories if needed, such as **Games**, **Shopping**, **Social Media**, **Entertainment**, etc.
+    Three categories have been seleted by default: **Gambling**, **Malicious Content**, and **Sexual Content**. You may select other categories if needed, such as **Games**, **Shopping**, **Social Media**, **Entertainment**, etc.
 
     ![content filter](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
 

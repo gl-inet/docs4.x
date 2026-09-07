@@ -297,7 +297,7 @@ For non-cellular routers, though they don't have built-in cellular modem, you ca
 
 Different USB dongles/modems may work in different modes: Standard USB modem mode or Host-less mode.
 
-- **Standard USB modem mode**: In this mode, the router acts as the USB host while the dongle functions as a USB-slave modem. Exposing both command interfaces (AT/QMI/MBIM) and a virtual USB Ethernet port, the dongle can be managed via the router's native Cellular WAN. The router can read low-level cellular metrics including signal strength, Cell ID and TAC, and users configure APN, SIM settings and band selection directly from the router web UI.
+- **Standard USB modem mode**: In this mode, the router acts as the USB host while the dongle functions as a USB-slave modem. Exposing both command interfaces (AT/QMI/MBIM) and a virtual USB Ethernet port, the dongle can be managed via the router's native Cellular WAN. The router can read low-level cellular metrics including ICCID, signal strength, and band, and users configure SIM settings directly from the router web UI.
 
 - **Host-less mode**: In this mode, the dongle completes cellular dial‑up internally and exposes a virtual USB Ethernet interface to the router. The router recognizes it as a tethered WAN rather than a controllable modem, so the connection will be established through the Tethering interface instead of the Cellular interface. No low-level cellular metrics are available on the router, and all APN and SIM-related configurations must be completed through the dongle's own embedded web UI.
 
@@ -399,4 +399,8 @@ This section takes **Flint 3 (GL-BE9300)** and an external USB dongle [SIMPoYo u
     
     ![tethering 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/tethering3.png){class="glboxshadow"}
 
-After initial setup, if you restart the router with the USB modem plugged in, or replug the modem, it will be recognized automatically, and the network connection will be established without clicking the connect button again.
+4. If you need to configure APN and SIM-related settings for the SIM card in the SIMPoYo uFi, please refer to [Manage SIMPoYo uFi](../user_guide/simpoyo-4g-ufi/index.md#manage-simpoyo-ufi).
+
+---
+
+Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

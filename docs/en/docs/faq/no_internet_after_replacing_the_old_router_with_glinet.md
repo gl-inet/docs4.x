@@ -6,7 +6,7 @@ Your Internet Service Provider may have **MAC binding** enabled, which only allo
 
 Try the following methods to resolve this issue.
 
-- Clone your old router's MAC address to your new GL.iNet router.
+- Clone your old router's MAC address to your new GL.iNet router. Refer to [here](./internet_connection_troubleshooting.md#q2-when-should-i-clone-a-mac-address) for details.
 - Reboot your modem. If the problem persists, power it off for 30 minutes and then power it on again.
 - Contact your Internet Service Provider to reset the modem.
 

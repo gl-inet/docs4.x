@@ -53,7 +53,7 @@ Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellula
 
     !!! note "What is Max Bit Rate (AMBR)?"
 
-        Max Bit Rate (AMBR)：Aggregate Maximum Bit Rate. It defines the aggregated upper‑limit bit rate for all non‑GBR bearers from your carrier. This parameter is provisioned by your mobile network operator.
+        Max Bit Rate (AMBR): Aggregate Maximum Bit Rate. It defines the aggregated upper‑limit bit rate for all non‑GBR bearers from your carrier. This parameter is provisioned by your mobile network operator.
 
 4. To configure your network manually, click **Details & Configuration**. 
 
@@ -73,7 +73,7 @@ Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellula
 
     - **HL**: In IPv6, the HL (Hop Limit) field is used to limit the number of transmission hops of data packets in the network, which is equivalent to the TTL in IPv4.
 
-    - **MTU**: Set the MTU value according to your usage scenario .Incorrect settings may cause internet disconnection. If MTU is modified, please reboot the device for it to take effect.
+    - **MTU**: Set the MTU value according to your usage scenario. Incorrect settings may cause internet disconnection. If MTU is modified, please reboot the device for it to take effect.
 
     - **Authentication**: This is usually set to NONE if no credentials are required. You may set the authentication to PAP, CHAP, or PAP/CHAP.
 
@@ -95,7 +95,7 @@ Set the Data Cap Amount, Data Reset Period, Start Day and Start Hour, then click
 
 1. If the Data Used exceeds the Data Cap Amount, please modify the Data Cap Amount or the Data Used. Otherwise, the network may be disconnected, or the router may switch to another SIM (only if [SIM Failover](#sim-failover) is enabled).
 
-2. If the SIM 1 Data Cap Amount is set and the SIM Auto Switch is enabled, SIM 1 will automatically switch to SIM 2 when it's data exceeds the Data Cap Amount and SIM 1 will be disabled.
+2. If the SIM 1 Data Cap Amount is set and the SIM Auto Switch is enabled, SIM 1 will automatically switch to SIM 2 when its data exceeds the Data Cap Amount and SIM 1 will be disabled.
 
 3. Start Day: The maximum number of days takes the value of the actual maximum number of days in the current month.
 
@@ -174,7 +174,7 @@ Then click **Scan Networks**.
 
 ![lock operator](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_operator2.png){class="glboxshadow"}
 
-Wait a minite, then you will see the available operators. Select one and click **Lock**.
+Wait a minute, then you will see the available operators. Select one and click **Lock**.
 
 ![lock operator](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_operator3.png){class="glboxshadow"}
 
@@ -207,7 +207,7 @@ In the pop-up window, click **Scan Networks**.
 
 ![lock tower](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_tower2.png){class="glboxshadow"}
 
-Wait a minite, then you will see the available towers.
+Wait a minute, then you will see the available towers.
 
 ![lock tower](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/lock_tower3.png){class="glboxshadow"}
 

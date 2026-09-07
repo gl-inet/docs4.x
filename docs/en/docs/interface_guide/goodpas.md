@@ -18,7 +18,7 @@ This feature enables seamless remote access to your home network. You can direct
 
 ## Quick Setup
 
-In the following example, we'll use **Flint 3(GL-BE9300)** and **Mango 2(GL-MG1300)** to set up an GoodPAS network.
+In the following example, we'll use **Flint 3(GL-BE9300)** and **Mango 2(GL-MG1300)** to set up a GoodPAS network.
 
 Flint 3 will act as the home router, while Mango 2 will act as the travel router that routes network traffic back to Flint 3 for Internet access.
 
@@ -78,7 +78,7 @@ Flint 3 will act as the home router, while Mango 2 will act as the travel router
 
 2. Open a browser and visit [ipcheck.ing](https://ipcheck.ing/){target="_blank"} or any other IP address lookup website.
 
-    It will show the public IP address of Mango 2, indicating that Mango 2 is accessing the Internet through your Flint 3 home router.
+    It will show the public IP address of Flint 3, indicating that Mango 2 is accessing the Internet through your Flint 3 home router.
 
     ![ipcheck hk](https://static.gl-inet.com/docs/router/en/4/interface_guide/goodpas/ipcheck_hk.png){class="glboxshadow"}
 

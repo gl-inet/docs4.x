@@ -78,7 +78,7 @@ Flint 3 はホームルーター、Mango 2 は旅行用ルーターとして動�
 
 2. ブラウザーを開き、[ipcheck.ing](https://ipcheck.ing/){target="_blank"} またはその他の IP アドレス確認サイトにアクセスします。
 
-    Mango 2 のグローバル IP アドレスが表示され、Mango 2 が Flint 3 ホームルーター経由でインターネットにアクセスしていることを確認できます。
+    Flint 3 のグローバル IP アドレスが表示され、Mango 2 が Flint 3 ホームルーター経由でインターネットにアクセスしていることを確認できます。
 
     ![ipcheck hk](https://static.gl-inet.com/docs/router/en/4/interface_guide/goodpas/ipcheck_hk.png){class="glboxshadow"}
 

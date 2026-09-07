@@ -8,32 +8,30 @@ Cette page permet de vérifier l'état de la carte physique eSIM et de gérer le
 
 ## Modèles pris en charge
 
-| Router Model          | Support |
-| :-------------------- | :-----: |
-| GL-X2000 (Spitz Plus) |    √    |
-| GL-X3000 (Spitz AX)   |    √    |
-| GL-XE3000 (Puli AX)   |    √    |
-| GL-E750V2 (Mudi V2)   |    √    |
-| GL-E750 (Mudi)        |    √    |
-| GL-XE300 (Puli)       |    ※    |
-| GL-X750 (Spitz)       |    ※    |
-| GL-X300B (Collie)     |    ※    |
-| GL-E750V2 vSIM        |    X    |
-| GL-E5800 (Mudi 7)     |    X    |
+!!! note "Modèles pris en charge"
 
-**Pour les modèles marqués ※** :
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-E750V2 (Mudi V2)
+    - ※ GL-E750 (Mudi)
+    - ※ GL-XE300 (Puli)
+    - ※ GL-X750 (Spitz)
+    - ※ GL-X300B (Collie)
 
-1. Le firmware stable actuel ne prend pas en charge l'eSIM. Pour utiliser cette fonction, vous devez installer un firmware compatible eSIM. [Contactez-nous](https://www.gl-inet.com/contacts/){target="_blank"} pour plus d'instructions.
+    **Remarque** :
 
-2. Pour les modèles marqués ※ équipés d'un module EP06-A, l'eSIM n'est pas prise en charge, car le logiciel Qualcomm ne prend pas en charge les commandes AT nécessaires.
+    1. **Pour les modèles marqués ※**, la prise en charge des cartes eSIM physiques dépend du module utilisé.
 
-3. Pour le GL-E750 (Mudi) et les modèles marqués ※ équipés d'un module EP06-E, consultez ce [lien](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} pour d'abord mettre à niveau le firmware du module, puis installer le firmware compatible eSIM afin d'activer la fonction eSIM.
+        - Si vous utilisez un module **EC25-AF**, **EC25-E** ou **EG25-G**, installez le firmware compatible eSIM avant d’utiliser une carte eSIM physique. [Contactez-nous](https://www.gl-inet.com/contacts/){target="_blank"} pour plus d’instructions.
 
-**Pour les modèles marqués X** :
+        - Si vous utilisez un module **EP06-E**, consultez [ce lien](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} pour d’abord mettre à niveau le firmware du module, puis installer le firmware compatible eSIM.
 
-1. Le GL-E750V2 vSIM ne prend pas en charge la fonctionnalité eSIM.
+        - Si vous utilisez un module **EP06-A**, les cartes eSIM physiques ne sont pas prises en charge, car le logiciel Qualcomm ne prend pas en charge les commandes AT requises.
 
-2. Le GL-E5800 (Mudi 7) intègre déjà une eSIM. Par conséquent, la carte physique eSIM sera reconnue comme une carte SIM classique, sans fonctionnalité eSIM, sur le Mudi 7.
+    2. **GL-E750V2 <u>vSIM</u>** ne prend pas en charge les cartes eSIM physiques.
+
+    3. **GL-E5800 (Mudi 7)** intègre une eSIM. Par conséquent, la carte eSIM physique sera reconnue comme une carte SIM classique, sans fonctionnalité eSIM, sur le Mudi 7.
 
 ## État actuel de l'eSIM
 
@@ -138,7 +136,7 @@ Après avoir acheté un profil eSIM, vous recevrez en général un QR code ou un
 
     ![esim connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_connect.png){class="glboxshadow"}
 
-    **Note** : Certains profils eSIM peuvent nécessiter des paramètres supplémentaires, comme l'APN, le PIN ou le TTL. Si nécessaire, cliquez sur **Manual Setup** ou **SIM Card Settings** pour ajuster ces paramètres. Dans certains cas, un redémarrage de l'appareil peut être nécessaire pour établir la connexion Internet.\*
+    **Note** : Certains profils eSIM peuvent nécessiter des paramètres supplémentaires, comme l'APN, le PIN ou le TTL. Si nécessaire, cliquez sur **Manual Setup** ou **SIM Card Settings** pour ajuster ces paramètres. Dans certains cas, un redémarrage de l'appareil peut être nécessaire pour établir la connexion Internet.
 
 5. Une fois que le routeur se connecte avec succès via le profil eSIM, la page s'affiche comme suit :
 

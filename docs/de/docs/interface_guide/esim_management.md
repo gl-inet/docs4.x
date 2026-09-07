@@ -8,32 +8,30 @@ Auf dieser Seite können Sie den Status der eSIM Physical Card prüfen und eSIM-
 
 ## Unterstützte Modelle
 
-| Router-Modell                  | Unterstützung |
-| :----------------------------- | :-----------: |
-| GL-X2000 (Spitz Plus)          | √             |
-| GL-X3000 (Spitz AX)            | √             |
-| GL-XE3000 (Puli AX)            | √             |
-| GL-E750V2 (Mudi V2)            | √             |
-| GL-E750 (Mudi)                 | √             |
-| GL-XE300 (Puli)                | ※            |
-| GL-X750 (Spitz)                | ※            |
-| GL-X300B (Collie)              | ※            |
-| GL-E750V2 vSIM                 | X             |
-| GL-E5800 (Mudi 7)              | X             |
+!!! note "Unterstützte Modelle"
 
-**Für Modelle mit ※:**
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-E750V2 (Mudi V2)
+    - ※ GL-E750 (Mudi)
+    - ※ GL-XE300 (Puli)
+    - ※ GL-X750 (Spitz)
+    - ※ GL-X300B (Collie)
 
-1. Die aktuelle stabile Firmware unterstützt eSIM nicht. Um die eSIM-Funktion zu nutzen, müssen Sie eine eSIM-fähige Firmware installieren. [Kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"} für weitere Anweisungen.
+    **Hinweis**:
 
-2. Bei mit ※ gekennzeichneten Modellen mit EP06-A-Modul wird eSIM nicht unterstützt, da die Qualcomm-Software die erforderlichen AT-Befehle nicht unterstützt.
+    1. **Bei Modellen mit ※** hängt die Unterstützung physischer eSIM-Karten vom verwendeten Modul ab.
 
-3. Für GL-E750 (Mudi) und mit ※ gekennzeichnete Modelle mit EP06-E-Modul lesen Sie bitte diesen [Beitrag](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"}, um zuerst die Firmware des Moduls zu aktualisieren. Installieren Sie anschließend die eSIM-fähige Firmware, um die eSIM-Funktion zu aktivieren.
+        - Wenn Sie ein Modul vom Typ **EC25-AF**, **EC25-E** oder **EG25-G** verwenden, installieren Sie bitte die eSIM-fähige Firmware, bevor Sie eine physische eSIM-Karte verwenden. [Kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"} für weitere Anweisungen.
 
-**Für Modelle mit X:**
+        - Wenn Sie ein **EP06-E**-Modul verwenden, lesen Sie bitte [diesen Beitrag](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"}, um zuerst die Firmware des Moduls zu aktualisieren und anschließend die eSIM-fähige Firmware zu installieren.
 
-1. GL-E750V2 vSIM unterstützt keine eSIM-Funktionalität.
+        - Bei Verwendung eines **EP06-A**-Moduls werden physische eSIM-Karten nicht unterstützt, da die Qualcomm-Software die erforderlichen AT-Befehle nicht unterstützt.
 
-2. GL-E5800 (Mudi 7) verfügt über eine integrierte eSIM. Daher wird die eSIM Physical Card auf dem Mudi 7 nur als normale SIM-Karte ohne eSIM-Funktion erkannt.
+    2. **GL-E750V2 <u>vSIM</u>** unterstützt keine physischen eSIM-Karten.
+
+    3. **GL-E5800 (Mudi 7)** verfügt über eine integrierte eSIM. Daher wird die physische eSIM-Karte auf dem Mudi 7 als normale SIM-Karte ohne eSIM-Funktion erkannt.
 
 ## Current eSIM Status
 
@@ -138,7 +136,7 @@ Nach dem Kauf eines eSIM-Profils erhalten Sie in der Regel einen QR-Code oder ei
 
     ![esim connect](https://static.gl-inet.com/docs/router/de/4/interface_guide/esim_management/esim_connect.png){class="glboxshadow"}
 
-    **Hinweis**: Einige eSIM-Profile erfordern möglicherweise zusätzliche Konfigurationen, z. B. APN-, PIN- oder TTL-Einstellungen. Klicken Sie bei Bedarf auf **Manual Setup** oder **SIM Card Settings**, um diese Parameter anzupassen. In manchen Fällen müssen Sie das Gerät neu starten, um eine Internetverbindung herzustellen.*
+    **Hinweis**: Einige eSIM-Profile erfordern möglicherweise zusätzliche Konfigurationen, z. B. APN-, PIN- oder TTL-Einstellungen. Klicken Sie bei Bedarf auf **Manual Setup** oder **SIM Card Settings**, um diese Parameter anzupassen. In manchen Fällen müssen Sie das Gerät neu starten, um eine Internetverbindung herzustellen.
 
 5. Sobald der Router erfolgreich über das eSIM-Profil verbunden ist, wird die Seite wie folgt angezeigt:
 

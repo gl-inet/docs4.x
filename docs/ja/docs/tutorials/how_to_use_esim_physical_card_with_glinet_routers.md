@@ -18,32 +18,30 @@ eSIM Physical Cardの主な特長は以下のとおりです。
 
 ## 対応モデル
 
-| Router Model                   | Support   |
-| :----------------------------- | :-------: |
-| GL-X2000 (Spitz Plus)          | √         |
-| GL-X3000 (Spitz AX)            | √         |
-| GL-XE3000 (Puli AX)            | √         |
-| GL-E750V2 (Mudi V2)            | √         |
-| GL-E750 (Mudi)                 | ※        |
-| GL-XE300 (Puli)                | ※        |
-| GL-X750 (Spitz)                | ※        |
-| GL-X300B (Collie)              | ※        |
-| GL-E750V2 vSIM                 | X         |
-| GL-E5800 (Mudi 7)              | X         |
+!!! note "対応モデル"
 
-**※ が付いたモデルについて**:
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-E750V2 (Mudi V2)
+    - ※ GL-E750 (Mudi)
+    - ※ GL-XE300 (Puli)
+    - ※ GL-X750 (Spitz)
+    - ※ GL-X300B (Collie)
 
-1. 現在の安定版ファームウェアではeSIMをサポートしていません。eSIM機能を使用するには、eSIM対応ファームウェアをインストールする必要があります。詳細は[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"}ください。
+    **注意**:
 
-2. ※ のモデルで EP06-A モジュールを使用している場合、Qualcommソフトウェアが特定のATコマンドをサポートしていないため、eSIMは利用できません。
+    1. **※ が付いたモデル**で物理 eSIM カードを使用できるかどうかは、搭載されているモジュールによって異なります。
 
-3. ※ のモデルで EP06-E モジュールを使用している場合は、この[リンク](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"}を参照してモジュールのファームウェアをアップグレードし、eSIM対応ファームウェアをインストールしてeSIM機能を有効にしてください。
+        - **EC25-AF**、**EC25-E**、または **EG25-G** モジュールを使用している場合は、物理 eSIM カードを使用する前に eSIM 対応ファームウェアをインストールしてください。詳細は [お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} ください。
 
-**X が付いたモデルについて**:
+        - **EP06-E** モジュールを使用している場合は、[このリンク](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"}を参照して、まずモジュールのファームウェアをアップグレードし、その後 eSIM 対応ファームウェアをインストールしてください。
 
-1. GL-E750V2 vSIM はeSIM機能をサポートしていません。
+        - **EP06-A** モジュールを使用しているモデルは、Qualcomm ソフトウェアが必要な AT コマンドをサポートしていないため、物理 eSIM カードに対応していません。
 
-2. GL-E5800 (Mudi 7) にはeSIMが内蔵されています。そのため、Mudi 7ではeSIM Physical CardはeSIM機能のない通常のSIMカードとして認識されます。
+    2. **GL-E750V2 <u>vSIM</u>** は物理 eSIM カードに対応していません。
+
+    3. **GL-E5800 (Mudi 7)** には eSIM が内蔵されています。そのため、Mudi 7 では物理 eSIM カードが eSIM 機能のない通常の SIM カードとして認識されます。
 
 ## eSIM Physical Cardを設定する
 

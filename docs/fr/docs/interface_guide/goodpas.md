@@ -78,7 +78,7 @@ Flint 3 servira de routeur domestique, tandis que Mango 2 fera office de routeur
 
 2. Ouvrez un navigateur et consultez [ipcheck.ing](https://ipcheck.ing/){target="_blank"} ou tout autre site de vérification d’adresse IP.
 
-    L’adresse IP publique de Mango 2 s’affiche, ce qui indique que Mango 2 accède à Internet via votre routeur domestique Flint 3.
+    L’adresse IP publique de Flint 3 s’affiche, ce qui indique que Mango 2 accède à Internet via votre routeur domestique Flint 3.
 
     ![ipcheck hk](https://static.gl-inet.com/docs/router/en/4/interface_guide/goodpas/ipcheck_hk.png){class="glboxshadow"}
 

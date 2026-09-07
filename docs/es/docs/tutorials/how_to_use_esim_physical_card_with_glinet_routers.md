@@ -18,32 +18,30 @@ Los puntos destacados de la eSIM Physical Card son los siguientes:
 
 ## Modelos compatibles
 
-| Modelo de router      | Compatibilidad |
-| :-------------------- | :------------: |
-| GL-X2000 (Spitz Plus) |       √        |
-| GL-X3000 (Spitz AX)   |       √        |
-| GL-XE3000 (Puli AX)   |       √        |
-| GL-E750V2 (Mudi V2)   |       √        |
-| GL-E750 (Mudi)        |       ※        |
-| GL-XE300 (Puli)       |       ※        |
-| GL-X750 (Spitz)       |       ※        |
-| GL-X300B (Collie)     |       ※        |
-| GL-E750V2 vSIM        |       X        |
-| GL-E5800 (Mudi 7)     |       X        |
+!!! note "Modelos compatibles"
 
-**Para los modelos marcados con ※**:
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-E750V2 (Mudi V2)
+    - ※ GL-E750 (Mudi)
+    - ※ GL-XE300 (Puli)
+    - ※ GL-X750 (Spitz)
+    - ※ GL-X300B (Collie)
 
-1. El firmware estable actual no admite eSIM. Para usar la función eSIM, debe instalar firmware compatible con eSIM. [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} para obtener más instrucciones.
+    **Nota**:
 
-2. Si usa un modelo marcado con ※ equipado con el módulo EP06-A, la eSIM no es compatible porque el software de Qualcomm no admite determinados comandos AT.
+    1. **En los modelos marcados con ※**, la compatibilidad con tarjetas eSIM físicas depende del módulo utilizado.
 
-3. Si usa un modelo marcado con ※ equipado con el módulo EP06-E, consulte [este enlace](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} para actualizar el firmware del módulo e instalar firmware compatible con eSIM a fin de habilitar esta función.
+        - Si utiliza un módulo **EC25-AF**, **EC25-E** o **EG25-G**, instale el firmware compatible con eSIM antes de usar una tarjeta eSIM física. [Póngase en contacto con nosotros](https://www.gl-inet.com/contacts/){target="_blank"} para obtener más instrucciones.
 
-**Para los modelos marcados con X**:
+        - Si utiliza un módulo **EP06-E**, consulte [este enlace](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"} para actualizar primero el firmware del módulo y, a continuación, instalar el firmware compatible con eSIM.
 
-1. GL-E750V2 vSIM no admite la función eSIM.
+        - Si utiliza un módulo **EP06-A**, las tarjetas eSIM físicas no son compatibles porque el software de Qualcomm no admite los comandos AT necesarios.
 
-2. GL-E5800 (Mudi 7) incorpora una eSIM integrada. Por lo tanto, en Mudi 7 la eSIM Physical Card se reconocerá como una tarjeta SIM normal, sin funcionalidad eSIM.
+    2. **GL-E750V2 <u>vSIM</u>** no admite tarjetas eSIM físicas.
+
+    3. **GL-E5800 (Mudi 7)** incorpora una eSIM integrada. Por lo tanto, en Mudi 7 la tarjeta eSIM física se reconocerá como una tarjeta SIM normal, sin funcionalidad eSIM.
 
 ## Configurar la eSIM Physical Card
 

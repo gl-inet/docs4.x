@@ -78,7 +78,7 @@ Flint 3 fungerà da router domestico, mentre Mango 2 fungerà da router da viagg
 
 2. Apri un browser e visita [ipcheck.ing](https://ipcheck.ing/){target="_blank"} o un altro sito per la verifica dell'indirizzo IP.
 
-    Verrà mostrato l'indirizzo IP pubblico di Mango 2, a indicare che Mango 2 accede a Internet tramite il router domestico Flint 3.
+    Verrà mostrato l'indirizzo IP pubblico di Flint 3, a indicare che Mango 2 accede a Internet tramite il router domestico Flint 3.
 
     ![ipcheck hk](https://static.gl-inet.com/docs/router/en/4/interface_guide/goodpas/ipcheck_hk.png){class="glboxshadow"}
 

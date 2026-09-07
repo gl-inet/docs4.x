@@ -6,34 +6,32 @@ Ta strona pozwala sprawdzic status fizycznej karty eSIM i zarzadzac profilami eS
 
 ![esim detected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_detected.png){class="glboxshadow"}
 
-## Obslugiwane modele
+## Obsługiwane modele
 
-| Model routera                  | Obsluga   |
-| :----------------------------- | :-------: |
-| GL-X2000 (Spitz Plus)          | √         |
-| GL-X3000 (Spitz AX)            | √         |
-| GL-XE3000 (Puli AX)            | √         |
-| GL-E750V2 (Mudi V2)            | √         |
-| GL-E750 (Mudi)                 | √         |
-| GL-XE300 (Puli)                | ※        |
-| GL-X750 (Spitz)                | ※        |
-| GL-X300B (Collie)              | ※        |
-| GL-E750V2 vSIM                 | X         |
-| GL-E5800 (Mudi 7)              | X         |
+!!! note "Obsługiwane modele"
 
-**Dla modeli oznaczonych symbolem ※**:
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-E750V2 (Mudi V2)
+    - ※ GL-E750 (Mudi)
+    - ※ GL-XE300 (Puli)
+    - ※ GL-X750 (Spitz)
+    - ※ GL-X300B (Collie)
 
-1. Aktualne stabilne oprogramowanie firmware nie obsluguje eSIM. Aby korzystac z funkcji eSIM, nalezy zainstalowac firmware z obsluga eSIM. [Skontaktuj sie z nami](https://www.gl-inet.com/contacts/){target="_blank"}, aby uzyskac wiecej informacji.
+    **Uwaga**:
 
-2. W modelach oznaczonych symbolem ※ z modulem EP06-A eSIM nie jest obslugiwany, poniewaz oprogramowanie Qualcomm nie udostepnia wymaganych polecen AT.
+    1. **W przypadku modeli oznaczonych symbolem ※** obsługa fizycznych kart eSIM zależy od używanego modułu.
 
-3. W przypadku GL-E750 (Mudi) oraz modeli oznaczonych symbolem ※ z modulem EP06-E zapoznaj sie z tym [linkiem](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"}, aby najpierw zaktualizowac firmware modulu, a nastepnie zainstalowac firmware z obsluga eSIM i wlaczyc te funkcje.
+        - Jeśli używasz modułu **EC25-AF**, **EC25-E** lub **EG25-G**, przed użyciem urządzenia z fizyczną kartą eSIM zainstaluj firmware obsługujący eSIM. [Skontaktuj się z nami](https://www.gl-inet.com/contacts/){target="_blank"}, aby uzyskać więcej informacji.
 
-**Dla modeli oznaczonych symbolem X**:
+        - Jeśli używasz modułu **EP06-E**, zapoznaj się z [tym linkiem](https://forum.gl-inet.com/t/upgrade-ep06-e-firmware-to-support-esim/48907){target="_blank"}, aby najpierw zaktualizować firmware modułu, a następnie zainstalować firmware obsługujący eSIM.
 
-1. GL-E750V2 vSIM nie obsluguje funkcji eSIM.
+        - Modele z modułem **EP06-A** nie obsługują fizycznych kart eSIM, ponieważ oprogramowanie Qualcomm nie udostępnia wymaganych poleceń AT.
 
-2. GL-E5800 (Mudi 7) ma wbudowana karte eSIM. W zwiazku z tym fizyczna karta eSIM bedzie rozpoznawana na Mudi 7 jako zwykla karta SIM bez funkcji eSIM.
+    2. **GL-E750V2 <u>vSIM</u>** nie obsługuje fizycznych kart eSIM.
+
+    3. **GL-E5800 (Mudi 7)** ma wbudowaną kartę eSIM. W związku z tym fizyczna karta eSIM zostanie rozpoznana na Mudi 7 jako zwykła karta SIM bez funkcji eSIM.
 
 ## Current eSIM Status
 
@@ -138,7 +136,7 @@ Po zakupie profilu eSIM zwykle otrzymasz kod QR lub kod aktywacyjny. Zapisz ten 
 
     ![esim connect](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_connect.png){class="glboxshadow"}
 
-    **Uwaga**: Niektore profile eSIM moga wymagac dodatkowej konfiguracji, takiej jak ustawienia APN, PIN lub TTL. W razie potrzeby kliknij **Manual Setup** lub **SIM Card Settings**, aby dostosowac te parametry. W niektorych przypadkach moze byc konieczne ponowne uruchomienie urzadzenia w celu nawiazania polaczenia z Internetem.*
+    **Uwaga**: Niektore profile eSIM moga wymagac dodatkowej konfiguracji, takiej jak ustawienia APN, PIN lub TTL. W razie potrzeby kliknij **Manual Setup** lub **SIM Card Settings**, aby dostosowac te parametry. W niektorych przypadkach moze byc konieczne ponowne uruchomienie urzadzenia w celu nawiazania polaczenia z Internetem.
 
 5. Gdy router polaczy sie pomyslnie przez profil eSIM, strona bedzie wyswietlana nastepujaco:
 

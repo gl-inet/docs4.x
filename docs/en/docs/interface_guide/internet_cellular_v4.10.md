@@ -287,23 +287,103 @@ Click the gear icon in the upper-right corner and select **AT Command**.
 
     ![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/command_shortcut2.png){class="glboxshadow"}
 
-- **SIM Slot**: Choose whether the command applies to SIM1 or SIM2.
+- **SIM Slot**: Choose whether the command applies to SIM1 or SIM2. The available options depend on the number of SIM slots on your cellular router.
 
 - **AT Command**: Enter your desired command in this field when the Shortcut is "Manual command".
 
 ## Non-cellular Routers
 
+For non-cellular routers, though they don't have built-in cellular modem, you can still plug an external USB dongle (not included) into their USB port for cellular connectivity.
+
+Different USB dongles/modems may work in different modes: Standard USB modem mode or Host-less mode.
+
+- **Standard USB modem mode**: In this mode, the router acts as the USB host while the dongle functions as a USB-slave modem. Exposing both command interfaces (AT/QMI/MBIM) and a virtual USB Ethernet port, the dongle can be managed via the router's native Cellular WAN. The router can read low-level cellular metrics including signal strength, Cell ID and TAC, and users configure APN, SIM settings and band selection directly from the router web UI.
+
+- **Host-less mode**: In this mode, the dongle completes cellular dial‑up internally and exposes a virtual USB Ethernet interface to the router. The router recognizes it as a tethered WAN rather than a controllable modem, so the connection will be established through the Tethering interface instead of the Cellular interface. No low-level cellular metrics are available on the router, and all APN and SIM-related configurations must be completed through the dongle's own embedded web UI.
+
+Please refer to the corresponding section based on the working mode of your USB dongle.
+
+### Standard USB modem
+
+This section takes **Mango 2 (GL-MG1300)** and a 5G development board [GL-M2](https://www.gl-inet.com/products/gl-m2){target="_blank"} (5G NR module: RM520N-GL) as an example to introduce the cellular setup steps and related features.
+
+1. Insert a SIM card into the GL-M2 board, then plug the GL-M2 into your router's USB port.
+
+2. Log in to your router's web Admin Panel and navigate to **INTERNET** -> **Cellular**. 
+
+    The router will attempt to connect to the Internet automatically. Once connected, the page displays the network details and a green dot, indicating a successful connection.
+
+    ![m2 sim active](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_active.png){class="glboxshadow"}
+
+3. SIM Card Settings.
+
+    To view your SIM configurations, click **SIM Card Settings**.
+
+    ![m2 sim settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_settings1.png){class="glboxshadow"}
+
+    You can see the auto-detected SIM configurations, such as APN, IP type, and network type. Changing these configurations will result in re-dialing.
+
+    ![m2 sim settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_settings2.png){class="glboxshadow"}
+
+4. SIM Information.
+
+    To view your SIM details, click **SIM Information**.
+
+    ![m2 sim info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_info1.png){class="glboxshadow"}
+
+    You can see your SIM network details, such as ICCID, IP address, DNS, cellular band, signal strength, etc.
+
+    ![m2 sim info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_info2.png){class="glboxshadow gl-80-desktop"}
+
+5. SMS & SMS Forwarding.
+
+    To use SMS and SMS Forwarding, please refer to [SMS](../tutorials/sms.md) and [SMS Forwarding](../tutorials/sms_forwarding.md).
+
+6. Manage Cellular Profiles.
+
+    To manage your SIM profiles, click the gear icon in the upper-right corner and select **Manage Cellular Profiles**.
+
+    ![m2 cellular settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_cellular_settings.png){class="glboxshadow"}
+
+    You can see the current profile in use.
+
+    ![m2 manage profiles](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_manage_profiles.png){class="glboxshadow"}
+
+    Click **Add a New Profile** to add more profiles if needed.
+
+    ![m2 add profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_add_profile1.png){class="glboxshadow"}
+
+    Enter the required parameters, then click **Apply**.
+
+    ![m2 add profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_add_profile2.png){class="glboxshadow"}
+
+7. Modem AT Command.
+
+    AT commands are standard instructions used to communicate with the cellular modem. With this feature, you can send commands and check the modem status.
+
+    To execute AT command, click the gear icon in the upper-right corner and select **Modem AT Command**.
+
+    ![m2 cellular settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_cellular_settings.png){class="glboxshadow"}
+
+    ![m2 atcommand](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_atcommand.png){class="glboxshadow"}
+
+    - **Shortcut**: When Shortcut is set to **Manual command**, enter your desired command in the **AT Command** field and click **Send** at the bottom. The system will return the result in the output box below.
+
+        You can also click the box and select a **preset command** from the drop-down list.
+
+        ![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/command_shortcut1.png){class="glboxshadow"}
+
+        For example, if you select a shortcut "Request SIM card status" and select the SIM slot as SIM1, simply click "Send" and you will get the result as shown below.
+
+        ![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/command_shortcut2.png){class="glboxshadow"}
+
+    - **SIM Slot**: Choose whether the command applies to SIM1 or SIM2. The available options depend on the SIM slots on your external USB modem connected to the router.
+
+    - **AT Command**: Enter your desired command in this field when the Shortcut is "Manual command".
+
+### Host‑less dongle
+
 This section takes **Flint 3 (GL-BE9300)** and an external USB dongle [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} as an example to introduce the cellular setup steps. 
-
-**Note**: 
-
-1. Some USB cellular dongles, including SIMPoYo uFi, operate in **host‑less mode**. In this mode, the dongle performs internal cellular dial‑up and exposes a virtual USB Ethernet interface to the router. The router treats it as a tethered WAN instead of a controllable cellular modem, so the connection will be established through the Tethering interface instead of the Cellular interface.
-
-2. Under host‑less tethering mode, the router cannot access low‑level cellular metrics such as signal strength, Cell ID and TAC, nor can it control APN or SIM‑related parameters. Configure these settings via the dongle's own built‑in web‑UI.
-
----
-
-Follow the steps below to set up cellular connection.
 
 1. Plug the USB dongle into your router's USB port.
 

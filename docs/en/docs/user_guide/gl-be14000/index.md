@@ -2,7 +2,7 @@
 
 ## Product overview
 
-Flint 4 (GL‑BE14000) redefines what a home router can be. It features tri‑band Wi‑Fi 7 with MLO, delivering peak rates of 688 Mbps (2.4 GHz) + 4323 Mbps (5 GHz) + 8646 Mbps (6 GHz). For wired connectivity, it comes with a full multi‑gig wired backbone, including one 10G SFP+ WAN/LAN port, one 10GE WAN/LAN port, one 2.5GE WAN/LAN port, three 2.5GE LAN ports and four 1GE LAN ports. Supporting high‑performance VPN, it achieves throughput up to 1.5 Gbps for both WireGuard® and OpenVPN DCO. A 2.4‑inch touchscreen display is also equipped on‑board, enabling real‑time network‑status monitoring and allowing users to view key network metrics directly on the hardware device.
+Flint 4 (GL-BE14000) redefines what a home router can be. It features tri-band Wi-Fi 7 with MLO, delivering peak rates of 688 Mbps (2.4 GHz) + 4323 Mbps (5 GHz) + 8646 Mbps (6 GHz). For wired connectivity, it comes with a full multi-gig wired backbone, including one 10G SFP+ WAN/LAN port, one 10GE WAN/LAN port, one 2.5GE WAN/LAN port, three 2.5GE LAN ports and four 1GE LAN ports. Supporting high-performance VPN, it achieves throughput up to 1.5 Gbps for both WireGuard® and OpenVPN DCO. A 2.4-inch touchscreen display is also equipped on-board, enabling real-time network-status monitoring and allowing users to view key network metrics directly on the hardware device.
 
 ![be14000 interfaces](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be14000/hardware/be14000_interfaces.png){class="glboxshadow"}
 
@@ -422,10 +422,10 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for details.
 
-## Declaration of Conformity
+## Regulatory Statement
 
 GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment type [BE14000 Wi-Fi 7 Router, GL-BE14000] is in compliance with the essential requirements and other relevant provisions of Directive 2014/53/EU. The full text of the EU declaration of conformity is available at [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
 
 For EU:  
 Maximum output power:  
-CE: ≤20dBm EIRP (2.412GHz~2.472GHz); ≤23dBm EIRP (5.15GHz~5.35GHz); ≤30dBm EIRP (5.47GHz~5.725GHz); ≤13.98dBm (5.725GHz~5.85GHz); ≤23dBm EIRP (5.925GHz~6.425 GHz)  
+CE: ≤20dBm EIRP (2.412GHz–2.472GHz); ≤23dBm EIRP (5.15GHz–5.35GHz); ≤30dBm EIRP (5.47GHz–5.725GHz); ≤13.98dBm EIRP (5.725GHz–5.85GHz); ≤23dBm EIRP (5.925GHz–6.425GHz)

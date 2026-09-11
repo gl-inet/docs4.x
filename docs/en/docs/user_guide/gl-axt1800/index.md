@@ -417,4 +417,4 @@ Hereby, GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment ty
 
 FOR EU:  
 Maximum output power  
-CE: ≤20dBm EIRP (2.412GHz~2.472GHz); ≤23dBm EIRP (5.15GHz~5.35GHz); ≤30dBm EIRP (5.47GHz~5.725GHz); ≤13.98dBm (5.725GHz~5.85GHz)
+CE: ≤20dBm EIRP (2.412GHz–2.472GHz); ≤23dBm EIRP (5.15GHz–5.35GHz); ≤30dBm EIRP (5.47GHz–5.725GHz); ≤13.98dBm EIRP (5.725GHz–5.85GHz)

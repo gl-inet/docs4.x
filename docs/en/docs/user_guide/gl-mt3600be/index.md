@@ -426,5 +426,5 @@ The functions of Wireless Access Systems including Radio Local Area Networks(WAS
 Hereby, GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment type [BE3600 Dual-band Wi-Fi 7 Travel Router, GL-MT3600BE] is in compliance with the essential requirements and other relevant provisions of Directive 2014/53/EU. The full text of the EU declaration of conformity is available at [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
 
 Wi-Fi Transmission Power:  
-CE: ≤20dBm EIRP (2.4GHz); ≤23dBm EIRP (5.15GHz~5.35GHz); ≤30dBm EIRP (5.47GHz~5.725GHz); ≤13.98dBm (5.725GHz~5.85GHz)  
+CE: ≤20dBm EIRP (2.412GHz–2.472GHz); ≤23dBm EIRP (5.15GHz–5.35GHz); ≤30dBm EIRP (5.47GHz–5.725GHz); ≤13.98dBm EIRP (5.725GHz–5.85GHz)  
 Power supply: TYPE-C30DIC

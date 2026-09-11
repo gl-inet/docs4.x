@@ -450,5 +450,5 @@ The functions of Wireless Access Systems including Radio Local Area Networks(WAS
 Hereby, GL TECHNOLOGIES (HONG KONG) LIMITED declares that the radio equipment type [5G NR Wi-Fi 6 Router, GL-X3000NR / 4G LTE Wi-Fi 6 Router, GL-X3000C16] is in compliance with the essential requirements and other relevant provisions of Directive 2014/53/EU. The full text of the EU declaration of conformity is available at [https://www.gl-inet.com/products/certificate](https://www.gl-inet.com/products/certificate){target="_blank"}.
 
 Maximum output power:
-CE: ≤20dBm EIRP (2.412GHz~2.472GHz); ≤23dBm EIRP (5.15GHz~5.35GHz); ≤30dBm EIRP (5.47GHz~5.725GHz); ≤13.98dBm (5.725GHz~5.85GHz);  
+CE: ≤20dBm EIRP (2.412GHz–2.472GHz); ≤23dBm EIRP (5.15GHz–5.35GHz); ≤30dBm EIRP (5.47GHz–5.725GHz); ≤13.98dBm EIRP (5.725GHz–5.85GHz);  
 Power supply: ICP30A-120-2500

@@ -52,11 +52,7 @@ GL.iNet Parental Control では、子どもがよく使うデバイスのイン�
 
 7. コンテンツフィルターを選択します。
 
-    デフォルトでは、**Gambling**、**Malicious Content**、**Sexual Content** の 3 つのカテゴリが選択されています。
-
-    ![content filter](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
-
-    必要に応じて、**Games**、**Shopping**、**Social Media**、**Entertainment** などのほかのカテゴリも選択できます。
+    デフォルトでは、**Gambling**、**Malicious Content**、**Sexual Content** の 3 つのカテゴリが選択されています。必要に応じて、**Games**、**Shopping**、**Social Media**、**Entertainment** などのほかのカテゴリも選択できます。
 
     ![content filter](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
 

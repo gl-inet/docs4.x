@@ -6,7 +6,7 @@ Il tuo Internet Service Provider potrebbe avere abilitato il **MAC binding**, ch
 
 Prova i seguenti metodi per risolvere il problema.
 
-- Clona sul nuovo router GL.iNet l'indirizzo MAC del vecchio router.
+- Clona sul nuovo router GL.iNet l'indirizzo MAC del vecchio router. Consulta [questa pagina](./internet_connection_troubleshooting.md#q2-when-should-i-clone-a-mac-address) per maggiori dettagli.
 - Riavvia il modem. Se il problema persiste, spegnilo per 30 minuti e poi riaccendilo.
 - Contatta il tuo Internet Service Provider per reimpostare il modem.
 

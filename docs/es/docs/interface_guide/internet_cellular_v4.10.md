@@ -287,23 +287,103 @@ Haga clic en el icono de engranaje de la esquina superior derecha y seleccione *
 
     ![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/command_shortcut2.png){class="glboxshadow"}
 
-- **SIM Slot**: Elija si el comando se aplica a SIM1 o SIM2.
+- **SIM Slot**: Elija si el comando se aplica a SIM1 o SIM2. Las opciones disponibles dependen del número de ranuras SIM del router celular.
 
 - **AT Command**: Introduzca el comando deseado en este campo cuando Shortcut esté configurado como «Manual command».
 
 ## Routers no celulares
 
+Aunque los routers no celulares no disponen de un módem celular integrado, puede conectar un dongle USB externo (no incluido) a su puerto USB para obtener conectividad celular.
+
+Los distintos dongles o módems USB pueden funcionar en modos diferentes: modo de módem USB estándar o modo host-less.
+
+- **Modo de módem USB estándar**: En este modo, el router actúa como host USB y el dongle funciona como módem USB esclavo. Al exponer interfaces de comandos (AT/QMI/MBIM) y un puerto Ethernet USB virtual, el dongle puede gestionarse mediante la WAN Cellular nativa del router. El router puede leer métricas celulares de bajo nivel, como ICCID, intensidad de la señal y banda, y el usuario configura los ajustes de la SIM directamente desde la interfaz web del router.
+
+- **Modo host-less**: En este modo, el dongle establece internamente la conexión celular y expone una interfaz Ethernet USB virtual al router. El router lo reconoce como una WAN mediante tethering, no como un módem controlable, por lo que la conexión se establece a través de la interfaz Tethering en lugar de Cellular. El router no dispone de métricas celulares de bajo nivel y toda la configuración relacionada con el APN y la SIM debe realizarse mediante la interfaz web integrada del dongle.
+
+Consulte el apartado correspondiente según el modo de funcionamiento del dongle USB.
+
+### Módem USB estándar
+
+En esta sección se usan **Mango 2 (GL-MG1300)** y la placa de desarrollo 5G [GL-M2](https://www.gl-inet.com/products/gl-m2){target="_blank"} (módulo 5G NR: RM520N-GL) como ejemplo para explicar los pasos de configuración celular y las funciones relacionadas.
+
+1. Inserte una tarjeta SIM en la placa GL-M2 y conecte la GL-M2 al puerto USB del router.
+
+2. Inicie sesión en el panel de administración web del router y vaya a **INTERNET** -> **Cellular**.
+
+    El router intentará conectarse a Internet automáticamente. Una vez establecida la conexión, la página muestra los detalles de la red y un punto verde, lo que indica que la conexión se ha realizado correctamente.
+
+    ![m2 sim active](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_active.png){class="glboxshadow"}
+
+3. Configuración de la tarjeta SIM.
+
+    Para ver la configuración de la SIM, haga clic en **SIM Card Settings**.
+
+    ![m2 sim settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_settings1.png){class="glboxshadow"}
+
+    Verá la configuración de la SIM detectada automáticamente, como APN, tipo de IP y tipo de red. Si cambia esta configuración, se volverá a establecer la conexión.
+
+    ![m2 sim settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_settings2.png){class="glboxshadow"}
+
+4. Información de la SIM.
+
+    Para ver los detalles de la SIM, haga clic en **SIM Information**.
+
+    ![m2 sim info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_info1.png){class="glboxshadow"}
+
+    Verá los detalles de red de la SIM, como ICCID, dirección IP, DNS, banda celular e intensidad de la señal.
+
+    ![m2 sim info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_info2.png){class="glboxshadow gl-80-desktop"}
+
+5. SMS y SMS Forwarding.
+
+    Para usar SMS y SMS Forwarding, consulte [SMS](../tutorials/sms.md) y [SMS Forwarding](../tutorials/sms_forwarding.md).
+
+6. Gestión de perfiles celulares.
+
+    Para gestionar los perfiles SIM, haga clic en el icono de engranaje de la esquina superior derecha y seleccione **Manage Cellular Profiles**.
+
+    ![m2 cellular settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_cellular_settings.png){class="glboxshadow"}
+
+    Se mostrará el perfil que está en uso.
+
+    ![m2 manage profiles](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_manage_profiles.png){class="glboxshadow"}
+
+    Haga clic en **Add a New Profile** para añadir más perfiles si es necesario.
+
+    ![m2 add profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_add_profile1.png){class="glboxshadow"}
+
+    Introduzca los parámetros necesarios y haga clic en **Apply**.
+
+    ![m2 add profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_add_profile2.png){class="glboxshadow"}
+
+7. Comando AT del módem.
+
+    Los comandos AT son instrucciones estándar para comunicarse con el módem celular. Con esta función puede enviar comandos y comprobar el estado del módem.
+
+    Para ejecutar un comando AT, haga clic en el icono de engranaje de la esquina superior derecha y seleccione **Modem AT Command**.
+
+    ![m2 cellular settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_cellular_settings.png){class="glboxshadow"}
+
+    ![m2 atcommand](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_atcommand.png){class="glboxshadow"}
+
+    - **Shortcut**: Cuando Shortcut esté configurado como **Manual command**, introduzca el comando deseado en el campo **AT Command** y haga clic en **Send** en la parte inferior. El sistema devolverá el resultado en el cuadro de salida situado debajo.
+
+        También puede hacer clic en el cuadro y seleccionar un **preset command** de la lista desplegable.
+
+        ![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/command_shortcut1.png){class="glboxshadow"}
+
+        Por ejemplo, si selecciona el acceso directo «Request SIM card status» y la ranura SIM1, haga clic en «Send» para obtener el resultado mostrado a continuación.
+
+        ![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/command_shortcut2.png){class="glboxshadow"}
+
+    - **SIM Slot**: Elija si el comando se aplica a SIM1 o SIM2. Las opciones disponibles dependen de las ranuras SIM del módem USB externo conectado al router.
+
+    - **AT Command**: Introduzca el comando deseado en este campo cuando Shortcut esté configurado como «Manual command».
+
+### Dongle host-less
+
 En esta sección se usan **Flint 3 (GL-BE9300)** y el dongle USB externo [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} como ejemplo para explicar la configuración celular.
-
-**Nota**:
-
-1. Algunos dongles celulares USB, incluido SIMPoYo uFi, funcionan en **modo host-less**. En este modo, el dongle establece internamente la conexión celular y expone una interfaz Ethernet USB virtual al router. El router lo trata como una WAN mediante tethering, no como un módem celular controlable, por lo que la conexión se establece a través de la interfaz Tethering en lugar de Cellular.
-
-2. En el modo de tethering host-less, el router no puede acceder a métricas celulares de bajo nivel, como la intensidad de señal, Cell ID y TAC, ni controlar el APN o los parámetros de la SIM. Configure estos ajustes mediante la interfaz web integrada del dongle.
-
----
-
-Siga estos pasos para configurar la conexión celular.
 
 1. Conecte el dongle USB al puerto USB del router.
 
@@ -319,4 +399,8 @@ Siga estos pasos para configurar la conexión celular.
 
     ![tethering 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/tethering3.png){class="glboxshadow"}
 
-Después de la configuración inicial, si reinicia el router con el módem USB conectado o vuelve a conectarlo, se reconocerá automáticamente y la conexión de red se establecerá sin tener que volver a pulsar el botón **Connect**.
+4. Si necesita configurar el APN y otros ajustes de la SIM instalada en SIMPoYo uFi, consulte [Gestionar SIMPoYo uFi](../user_guide/simpoyo-4g-ufi/index.md#gestionar-simpoyo-ufi).
+
+---
+
+¿Todavía tiene preguntas? Visite nuestro [foro de la comunidad](https://forum.gl-inet.com){target="_blank"} o [contáctenos](https://www.gl-inet.com/contacts/){target="_blank"}.

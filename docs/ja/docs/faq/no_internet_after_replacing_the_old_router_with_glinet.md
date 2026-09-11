@@ -6,8 +6,10 @@
 
 この問題を解決するには、次の方法を試してください。
 
-- 古いルーターのMACアドレスを新しいGL.iNetルーターにクローンします。
+- 古いルーターのMACアドレスを新しいGL.iNetルーターにクローンします。詳しくは[こちら](./internet_connection_troubleshooting.md#q2-when-should-i-clone-a-mac-address)を参照してください。
 - モデムを再起動します。問題が持続する場合は、30分間電源を切って再起動してください.
 - インターネットサービスプロバイダーに連絡してモデムをリセットしてください。
 
 ---
+
+ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} ください。

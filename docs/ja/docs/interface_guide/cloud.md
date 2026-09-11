@@ -3,17 +3,10 @@
 ## 目次
 
 - [はじめに](#introduction)
-- [デバイスを GoodCloud にバインドする](#bind-devices-to-goodcloud)
+- [デバイスを Cloud にバインドする](#bind-devices-to-goodcloud)
     - [ファームウェア v4.6 以前の場合](#for-firmware-v46-or-earlier)
-        - [GoodCloud を有効にする](#enable-goodcloud)
-        - [アカウントを登録する](#sign-up-an-account)
-        - [デバイスを追加する](#add-devices)
-        - [バインド情報](#binding-details)
-        - [デバイスのバインドを解除する](#unbind-device)
-    - [ファームウェア v4.7 以降の場合](#for-firmware-v47-or-later)
-        - [Cloud Service を有効にする](#enable-cloud-service)
-        - [バインド情報](#binding-details_1)
-        - [デバイスのバインドを解除する](#unbind-device_1)
+    - [ファームウェア v4.7～v4.9 の場合](#for-firmware-v47-or-later)
+    - [ファームウェア v4.10 以降の場合](#for-firmware-v410-and-above)
 - [デバイスを管理する](#manage-devices)
     - [システム情報と操作](#system-info-and-actions)
     - [デバイスの詳細](#device-details)
@@ -63,15 +56,15 @@ GoodCloud では、次のことが可能です。
     - 出張時: オフィスシステム（OA、CRM、MySQL など）へリモートアクセスする
     - スマートホーム: 自宅のデバイス（IP カメラ、NAS など）へリモートアクセスする
 
-複数のデバイスを管理し、一括操作、複数アカウント管理、カスタマイズソリューションなどの高度な機能を利用したい場合は、付加価値プランをご検討ください。詳細は [こちら](https://www.gl-inet.com/solutions/goodcloud/){target="_blank"} をご覧ください。ご不明な点があれば、[support@glinet.biz](mailto:support@glinet.biz) までお気軽にお問い合わせください。
+複数のデバイスを管理し、一括操作、複数アカウント管理、カスタマイズソリューションなどの高度な機能を利用したい場合は、付加価値プランをご検討ください。詳細は [こちら](https://www.gl-inet.com/solutions/goodcloud/){target="_blank"} をご覧ください。ご不明な点があれば、[support@gl-inet.com](mailto:support@gl-inet.com) までお気軽にお問い合わせください。
 
-## デバイスを GoodCloud にバインドする {#bind-devices-to-goodcloud}
+## デバイスを Cloud にバインドする {#bind-devices-to-goodcloud}
 
-デバイスをクラウドプラットフォームへ正常に接続するには、お使いのファームウェアバージョンに対応するバインド手順に従ってください。
+デバイスのファームウェアバージョンに応じて、該当するバインド手順を参照してください。
 
 ### ファームウェア v4.6 以前の場合 {#for-firmware-v46-or-earlier}
 
-#### GoodCloud を有効にする {#enable-goodcloud}
+1. **GoodCloud を有効にします。**
 
 ルーターの Web 管理画面にログインし、**APPLICATIONS** -> **GoodCloud** に移動します。スイッチを切り替えて GoodCloud を有効にします。
 
@@ -87,13 +80,13 @@ GoodCloud では、次のことが可能です。
 
 - **Data Server**: デバイスの設置場所に最も近いサーバーを選択してください。選択肢は Asia Pacific (Japan)、America (Oregon)、Europe (Ireland) の 3 つです。
 
-#### アカウントを登録する {#sign-up-an-account}
+2. **アカウントを登録します。**
 
 [GoodCloud の Web サイト](https://www.goodcloud.xyz){target="_blank"} にアクセスし、アカウントを登録してログインします。
 
-認証メールが届かない場合は、迷惑メールフォルダーを確認するか、数分待ってから再度お試しください。登録時に問題がある場合は、[support@glinet.biz](mailto:support@glinet.biz) までメールでお問い合わせください。
+認証メールが届かない場合は、迷惑メールフォルダーを確認するか、数分待ってから再度お試しください。さらにサポートが必要な場合は、[support@gl-inet.com](mailto:support@gl-inet.com) までメールでお問い合わせください。
 
-#### デバイスを追加する {#add-devices}
+3. **デバイスを追加します。**
 
 クラウドプラットフォームで **Devices** -> **Bound Devices** -> **Add Devices** に移動します。
 
@@ -103,7 +96,7 @@ GoodCloud では、次のことが可能です。
 
 ??? "自動検出"
 
-    ルーターと [GoodCloud の Web サイト](https://www.goodcloud.xyz){target="_blank"} にアクセスしている端末が同じネットワーク上にある場合は、**Auto discover** をお試しください。
+    ルーターと GoodCloud の Web サイトにアクセスしている端末が同じネットワーク上にある場合は、**Auto discover** をお試しください。
 
     ドロップダウンリストからデバイスを選択し、**DDNS / Device ID** を入力します。これらの情報は、ルーター本体の底面、または Web 管理画面の GoodCloud ページで確認できます。
 
@@ -123,13 +116,13 @@ GoodCloud では、次のことが可能です。
 
     ![bulk import](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/add_devices_bulk.jpg){class="glboxshadow"}
 
-#### バインド情報 {#binding-details}
+4. **バインド情報を確認します。**
 
 バインドに成功したら、ルーターの Web 管理画面に再度ログインし、**APPLICATIONS** -> **GoodCloud** に移動します。このページを更新すると、バインド済みの GoodCloud ユーザー名と日付が表示されます。
 
 ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_1.png){class="glboxshadow"}
 
-#### デバイスのバインドを解除する {#unbind-device}
+5. **デバイスのバインドを解除します。**
 
 ルーターのバインドを解除する場合は、ルーターの Web 管理画面にログインし、**APPLICATION** -> **GoodCloud** に移動して **Unbind** をクリックします。
 
@@ -137,17 +130,19 @@ GoodCloud では、次のことが可能です。
 
 または、GoodCloud プラットフォームの Bound Devices List から該当するデバイスを削除することもできます。すると、ルーターの Web 管理画面に最新のデバイスバインド状態が同期されます。
 
-問題がある場合は、[support@glinet.biz](mailto:support@glinet.biz) までメールでお問い合わせください。
+問題がある場合は、[support@gl-inet.com](mailto:support@gl-inet.com) までメールでお問い合わせください。
 
-### ファームウェア v4.7 以降の場合 {#for-firmware-v47-or-later}
+### ファームウェア v4.7～v4.9 の場合 {#for-firmware-v47-or-later}
 
-#### Cloud Service を有効にする {#enable-cloud-service}
+1. **GoodCloud を有効にします。**
 
 ルーターの Web 管理画面にログインし、**CLOUD SERVICE** -> **GoodCloud** に移動します。
 
 **Get Started** ボタンをクリックすると、右上に Cloud Service のポップアップウィンドウが表示されます。**Enable** をクリックして Cloud Service を使用します。
 
 ![enable cloud service](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.jpg){class="glboxshadow"}
+
+2. **ログインしてデバイスをバインドします。**
 
 GoodCloud アカウントにログインします。
 
@@ -157,13 +152,15 @@ GoodCloud アカウントにログインします。
 
 ![sign up goodcloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/sign_up.png){class="glboxshadow"}
 
-認証メールが届かない場合は、迷惑メールフォルダーを確認するか、数分待ってから再度お試しください。登録時に問題がある場合は、[support@glinet.biz](mailto:support@glinet.biz) までメールでお問い合わせください。
+認証メールが届かない場合は、迷惑メールフォルダーを確認するか、数分待ってから再度お試しください。さらにサポートが必要な場合は、[support@gl-inet.com](mailto:support@gl-inet.com) までメールでお問い合わせください。
 
-#### バインド情報 {#binding-details_1}
+3. **バインド情報を確認します。**
 
 バインドが完了したら、ルーターの Web 管理画面に再度ログインし、右上の Cloud アイコンをクリックします。すると、バインド済みの GoodCloud ユーザー名と日付、Device ID、Device MAC、Device S/N などのバインド情報を確認できます。
 
 ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
+
+4. **リモートアクセスを有効にします。**
 
 Web 管理画面で **CLOUD SERVICES** -> **GoodCloud** に移動すると、ルーターのリモートアクセスを有効または無効にできます。
 
@@ -175,7 +172,7 @@ Web 管理画面で **CLOUD SERVICES** -> **GoodCloud** に移動すると、ル
 
 - **View Logs**: GoodCloud による API 呼び出しログを表示します。
 
-#### デバイスのバインドを解除する {#unbind-device_1}
+5. **デバイスのバインドを解除します。**
 
 ルーターのバインドを解除する場合は、ルーターの Web 管理画面にログインし、右上のクラウドアイコンをクリックして **Unbind** を選択します。
 
@@ -183,7 +180,55 @@ Web 管理画面で **CLOUD SERVICES** -> **GoodCloud** に移動すると、ル
 
 または、GoodCloud プラットフォームの Bound Devices List から該当するデバイスを削除することもできます。すると、ルーターの Web 管理画面に最新のデバイスバインド状態が同期されます。
 
-問題がある場合は、[support@glinet.biz](mailto:support@glinet.biz) までメールでお問い合わせください。
+問題がある場合は、[support@gl-inet.com](mailto:support@gl-inet.com) までメールでお問い合わせください。
+
+### ファームウェア v4.10 以降の場合 {#for-firmware-v410-and-above}
+
+1. GoodCloud を有効にします。
+
+    ルーターの Web Admin Panel にログインし、**CLOUD SERVICE** -> **GoodCloud** に移動して **Get Started** をクリックします。
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind1.png){class="glboxshadow"}
+
+    **GL.iNet Account** ページに移動します。**Bind GL.iNet Account via URL** をクリックします。
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind2.png){class="glboxshadow"}
+
+    ポップアップウィンドウで **Continue** をクリックします。GoodCloud の Web サイトにリダイレクトされ、そこでバインドを完了します。
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind3.png){class="glboxshadow"}
+
+2. ログインしてデバイスをバインドします。
+
+    GL.iNet アカウントにログインします。アカウントをお持ちでない場合は、登録してからログインしてください。
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind4.png){class="glboxshadow"}
+
+    ログイン後、Device ID、モデル、MAC アドレスなどのアカウント情報とデバイス情報を確認します。デバイス名を設定して **Bind** をクリックすると、ルーターがアカウントにバインドされます。
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind5.png){class="glboxshadow" width="423"}
+
+    認証メールが届かない場合は、迷惑メールフォルダーを確認するか、数分待ってから再度お試しください。さらにサポートが必要な場合は、[support@gl-inet.com](mailto:support@gl-inet.com) までメールでお問い合わせください。
+
+3. バインド情報を確認します。
+
+    バインドが完了したら、ルーターの Web Admin Panel に戻り、**CLOUD SERVICES** -> **GoodCloud** に移動します。このページには、GoodCloud プラットフォームへのリンク、デバイス識別情報、最近のクラウドログが表示されます。
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind6.png){class="glboxshadow"}
+
+4. リモートアクセス。
+
+    ファームウェア v4.10 では、ルーターを GoodCloud にバインドすると、ルーターの Web Admin Panel とターミナルへのリモートアクセスがデフォルトで有効になります。
+
+5. デバイスのバインドを解除します。
+
+    ルーターのバインドを解除するには、ルーターの Web Admin Panel にログインし、**CLOUD SERVICES** -> **GL.iNet Account** に移動して **Unbind** をクリックします。
+
+    ![unbind](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_unbind.png){class="glboxshadow"}
+
+    または、GoodCloud プラットフォームの Bound Devices リストからデバイスを削除することもできます。ルーターの Web Admin Panel に最新のデバイスバインド状態が同期されます。
+
+    問題がある場合は、[support@gl-inet.com](mailto:support@gl-inet.com) までメールでお問い合わせください。
 
 ## デバイスを管理する {#manage-devices}
 

@@ -6,7 +6,7 @@ Twój dostawca usług internetowych może mieć włączone **powiązanie adresu 
 
 Wypróbuj poniższe metody, aby rozwiązać ten problem.
 
-- Sklonuj adres MAC starego routera do nowego routera GL.iNet.
+- Sklonuj adres MAC starego routera do nowego routera GL.iNet. Szczegółowe informacje znajdziesz [tutaj](./internet_connection_troubleshooting.md#q2-when-should-i-clone-a-mac-address).
 - Uruchom ponownie modem. Jeśli problem nadal występuje, wyłącz go na 30 minut, a następnie włącz ponownie.
 - Skontaktuj się z dostawcą usług internetowych i poproś o zresetowanie modemu.
 

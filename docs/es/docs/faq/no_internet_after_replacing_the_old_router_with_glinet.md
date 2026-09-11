@@ -6,7 +6,7 @@ Es posible que su proveedor de servicios de Internet tenga habilitado **MAC bind
 
 Pruebe los siguientes métodos para resolver este problema.
 
-- Clone la dirección MAC de su router antiguo en su nuevo router GL.iNet.
+- Clone la dirección MAC de su router antiguo en su nuevo router GL.iNet. Consulte [este apartado](./internet_connection_troubleshooting.md#p2-cuando-debo-clonar-una-direccion-mac) para obtener más información.
 - Reinicie el módem. Si el problema persiste, apáguelo durante 30 minutos y vuelva a encenderlo.
 - Póngase en contacto con su proveedor de servicios de Internet para restablecer el módem.
 

@@ -1,14 +1,14 @@
 # Kindersicherung (Firmware v4.9)
 
-> Diese Anleitung gilt für Firmware v4.9 und höher. Für frühere Versionen klicken Sie bitte [hier](parental_control.md).
+**Hinweis**: Diese Anleitung gilt für Firmware v4.9 und höher. Für frühere Versionen klicken Sie bitte [hier](parental_control.md).
+
+---
 
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **FLOW CONTROL** -> **Parental Control**.
 
 Die Kindersicherung schützt Kinder online, indem ungeeignete Websites blockiert und Bildschirmzeiten begrenzt werden. Sie filtert schädliche Inhalte und fördert eine verantwortungsvolle Internetnutzung.
 
 GL.iNet Parental Control bietet flexible Zeitpläne, um den Internetzugang auf häufig genutzten Geräten Ihrer Kinder einzuschränken. Ungeeignete Apps und Websites lassen sich mit einem Klick blockieren. Zusätzlich können Sie bei Bedarf Domains manuell eingeben, um einen umfassenden Online-Schutz zu erreichen.
-
-Das Seitenlayout und der Ablauf von Parental Control wurden in Firmware v4.9 verbessert, was die Einrichtung vereinfacht und eine intuitivere Übersicht über die Regeln bietet.
 
 ---
 
@@ -52,11 +52,7 @@ Folgen Sie den nachstehenden Schritten, um Ihre Kindersicherung einzurichten.
 
 7. Wählen Sie den Inhaltsfilter aus.
 
-    Standardmäßig sind drei Kategorien ausgewählt: **Gambling**, **Malicious Content** und **Sexual Content**.
-
-    ![content filter](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
-
-    Bei Bedarf können Sie weitere Kategorien auswählen, zum Beispiel **Games**, **Shopping**, **Social Media**, **Entertainment** usw.
+    Standardmäßig sind drei Kategorien ausgewählt: **Gambling**, **Malicious Content** und **Sexual Content**. Bei Bedarf können Sie weitere Kategorien auswählen, zum Beispiel **Games**, **Shopping**, **Social Media**, **Entertainment** usw.
 
     ![content filter](https://static.gl-inet.com/docs/router/de/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
 

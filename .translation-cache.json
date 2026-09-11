@@ -667,31 +667,31 @@
     }
   },
   "docs/en/docs/faq/no_internet_after_replacing_the_old_router_with_glinet.md": {
-    "source_hash": "250da11aed618d628a69ff9c66340de34703f7eb412c5b388c53fbe6c4e3376b",
+    "source_hash": "d0fffaf0d518ddf81849b4dc53e28ca04d4708faea005b950277e793d3f27a56",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576580
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605808
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       }
     }
   },
@@ -1479,31 +1479,31 @@
     }
   },
   "docs/en/docs/interface_guide/cloud.md": {
-    "source_hash": "97998a471b24ba04703a10ae13a123b8585d42ba87ddd5e8d7122ccfd86b5b79",
+    "source_hash": "a12a700bd4a4eae26d36ed2f10f5c1a6dae32f6c2d65f17c8d09cf33b45f32bd",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1789095838
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1789095838
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1789095838
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1789095838
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1789095838
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "manual-incremental-sync",
+        "updated_at": 1789095838
       }
     }
   },
@@ -1711,31 +1711,31 @@
     }
   },
   "docs/en/docs/interface_guide/esim_management.md": {
-    "source_hash": "ac8161ce4c930a0f62182d8bb1858f911d6264b9cfd04e3d5d5e51afd670e8ba",
+    "source_hash": "5de2e44d82d2ea242e47ac79f539d69b9064b716f56834da152e899d5131406c",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789091540
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789091540
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789091540
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789091540
       },
       "ja": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789091540
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789091540
       }
     }
   },
@@ -5858,31 +5858,31 @@
     }
   },
   "docs/en/docs/features_update/firmware_v4.9.md": {
-    "source_hash": "f4f93b827c1e7e47435ecdb87c79b0d916dd46850c2e0897b4c7b00d472a37dd",
+    "source_hash": "74dd0cda23e058c4a10396fd9254d349fcfa3936edf13a367f24bf5f93eaba8e",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "model": "manual-incremental-sync",
+        "updated_at": 1789091540
       }
     }
   },
@@ -6003,31 +6003,31 @@
     }
   },
   "docs/en/docs/interface_guide/parental_control_v4.9.md": {
-    "source_hash": "e3bc600df7f411c046d6d23614f60d1c1138bdc379a2198a5de7fd1e205fa129",
+    "source_hash": "f51a4018e4e3087268303a796b9765ca6a3ece44ba7a816b3b67604d82df5866",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1789095838
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1789095838
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1789095838
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1789095838
       },
       "ja": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1789095838
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1789095838
       }
     }
   },
@@ -6670,31 +6670,31 @@
     }
   },
   "docs/en/docs/interface_guide/internet_cellular_v4.10.md": {
-    "source_hash": "520179ee9d6fecb733e23f4f29fd64247799c5d436dc85543153db4e2a472642",
+    "source_hash": "c5764aab0bea86534ff8bcf91508e1da0da47e66b35fa979cf491b412ef1ce83",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789095838
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789095838
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789095838
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789095838
       },
       "ja": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789095838
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "updated_at": 1789095838
       }
     }
   },

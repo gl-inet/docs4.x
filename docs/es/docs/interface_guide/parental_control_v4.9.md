@@ -1,14 +1,14 @@
 # Control parental (Firmware v4.9)
 
-> Esta guía se aplica al firmware v4.9 y versiones posteriores. Para versiones anteriores, haga clic [aquí](parental_control.md).
+**Nota**: Esta guía se aplica al firmware v4.9 y versiones posteriores. Para versiones anteriores, haga clic [aquí](parental_control.md).
+
+---
 
 En el lado izquierdo del panel de administración web, vaya a **FLOW CONTROL** -> **Parental Control**.
 
 El control parental protege a los menores en Internet bloqueando sitios web inapropiados y limitando el tiempo de pantalla. Filtra contenido perjudicial y fomenta un uso responsable de Internet.
 
 GL.iNet Parental Control ofrece programación flexible para restringir el acceso a Internet en los dispositivos que sus hijos usan con frecuencia. Puede bloquear aplicaciones y sitios web inapropiados con un solo clic. Además, puede introducir dominios manualmente según sea necesario para lograr una protección online completa.
-
-El diseño de la página y el flujo de trabajo de Parental Control se han mejorado en el firmware v4.9, lo que simplifica la configuración y ofrece una vista más intuitiva de las reglas.
 
 ---
 
@@ -52,11 +52,7 @@ Siga los pasos que se indican a continuación para configurar el control parenta
 
 7. Seleccione el filtro de contenido.
 
-    Tres categorías están seleccionadas de forma predeterminada: **Gambling**, **Malicious Content** y **Sexual Content**.
-
-    ![content filter](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
-
-    Puede seleccionar otras categorías si lo necesita, como **Games**, **Shopping**, **Social Media**, **Entertainment**, etc.
+    Tres categorías están seleccionadas de forma predeterminada: **Gambling**, **Malicious Content** y **Sexual Content**. Puede seleccionar otras categorías si lo necesita, como **Games**, **Shopping**, **Social Media**, **Entertainment**, etc.
 
     ![content filter](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
 

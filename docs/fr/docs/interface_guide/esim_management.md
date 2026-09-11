@@ -1,10 +1,10 @@
 # Gestion de l'eSIM
 
-Dans le panneau d'administration web, allez dans **APPLICATIONS** -> **eSIM Management**.
+**Remarque** :
 
-Cette page permet de vérifier l'état de la carte physique eSIM et de gérer les profils eSIM. Elle se compose de deux parties : **État actuel de l'eSIM** et **Liste des profils eSIM**.
+1. Ce guide s'applique aux modèles compatibles avec la carte eSIM physique GL.iNet.
 
-![esim detected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_detected.png){class="glboxshadow"}
+2. Le GL-E5800 (Mudi 7) intègre une eSIM et ne prend pas en charge la carte eSIM physique GL.iNet. Sur le Mudi 7, une carte eSIM physique est reconnue comme une carte SIM classique, sans fonctionnalité eSIM.
 
 ## Modèles pris en charge
 
@@ -32,6 +32,14 @@ Cette page permet de vérifier l'état de la carte physique eSIM et de gérer le
     2. **GL-E750V2 <u>vSIM</u>** ne prend pas en charge les cartes eSIM physiques.
 
     3. **GL-E5800 (Mudi 7)** intègre une eSIM. Par conséquent, la carte eSIM physique sera reconnue comme une carte SIM classique, sans fonctionnalité eSIM, sur le Mudi 7.
+
+## Gestion de l'eSIM
+
+Dans le panneau d'administration web, allez dans **APPLICATIONS** -> **eSIM Management**.
+
+Cette page permet de vérifier l'état de la carte physique eSIM et de gérer les profils eSIM. Elle se compose de deux parties : **Current eSIM Status** et **eSIM Profile List**.
+
+![esim detected](https://static.gl-inet.com/docs/router/en/4/interface_guide/esim_management/esim_detected.png){class="glboxshadow"}
 
 ## État actuel de l'eSIM
 

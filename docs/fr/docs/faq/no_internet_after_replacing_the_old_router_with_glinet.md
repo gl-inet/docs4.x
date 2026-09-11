@@ -6,7 +6,7 @@ Votre fournisseur d'accès à Internet peut avoir activé la **liaison MAC**, ce
 
 Essayez les méthodes suivantes pour résoudre ce problème.
 
-- Clonez l'adresse MAC de votre ancien routeur sur votre nouveau routeur GL.iNet.
+- Clonez l'adresse MAC de votre ancien routeur sur votre nouveau routeur GL.iNet. Consultez [cette page](./internet_connection_troubleshooting.md#q2-when-should-i-clone-a-mac-address) pour plus de détails.
 - Redémarrez votre modem. Si le problème persiste, éteignez-le pendant 30 minutes, puis rallumez-le.
 - Contactez votre fournisseur d'accès à Internet pour réinitialiser le modem.
 

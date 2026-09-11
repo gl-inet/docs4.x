@@ -287,27 +287,107 @@ AT コマンドは、セルラーモデムと通信するための標準命令�
 
     ![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/command_shortcut2.png){class="glboxshadow"}
 
-- **SIM Slot**: コマンドを SIM1 と SIM2 のどちらに適用するかを選択します。
+- **SIM Slot**: コマンドを SIM1 と SIM2 のどちらに適用するかを選択します。使用できるオプションは、セルラールーターの SIM スロット数によって異なります。
 
 - **AT Command**: Shortcut が "Manual command" の場合に、任意のコマンドを入力します。
 
 ## 非セルラールーター {#non-cellular-routers}
 
+非セルラールーターにはセルラーモデムが内蔵されていませんが、外付け USB ドングル（別売）を USB ポートに接続すると、セルラー接続を利用できます。
+
+USB ドングル／モデムの動作モードには、標準 USB モデムモードとホストレスモードがあります。
+
+- **標準 USB モデムモード**: ルーターが USB ホストとして動作し、ドングルは USB スレーブモデムとして機能します。ドングルはコマンドインターフェース（AT/QMI/MBIM）と仮想 USB Ethernet ポートの両方を提供するため、ルーター標準の Cellular WAN から管理できます。ルーターは ICCID、信号強度、バンドなどの低レベルなセルラー情報を取得でき、SIM 設定はルーターの Web UI から直接行えます。
+
+- **ホストレスモード**: ドングルが内部でセルラー接続を確立し、仮想 USB Ethernet インターフェースをルーターへ提供します。ルーターは制御可能なモデムではなくテザリング WAN として認識するため、Cellular インターフェースではなく Tethering インターフェースから接続します。ルーターでは低レベルなセルラー情報を確認できず、APN や SIM 関連の設定はすべてドングルに内蔵された Web UI で行う必要があります。
+
+USB ドングルの動作モードに対応するセクションを参照してください。
+
+### 標準 USB モデム
+
+このセクションでは、**Mango 2 (GL-MG1300)** と 5G 開発ボード [GL-M2](https://www.gl-inet.com/products/gl-m2){target="_blank"}（5G NR モジュール: RM520N-GL）を例に、セルラー接続の設定手順と関連機能を説明します。
+
+1. SIM カードを GL-M2 ボードに挿入し、GL-M2 をルーターの USB ポートに接続します。
+
+2. ルーターの Web Admin Panel にログインし、**INTERNET** -> **Cellular** に移動します。
+
+    ルーターは自動的にインターネットへの接続を試みます。接続に成功すると、ページにネットワーク情報と緑のドットが表示されます。
+
+    ![m2 sim active](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_active.png){class="glboxshadow"}
+
+3. SIM Card Settings。
+
+    SIM の設定を確認するには、**SIM Card Settings** をクリックします。
+
+    ![m2 sim settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_settings1.png){class="glboxshadow"}
+
+    APN、IP type、network type など、自動検出された SIM 設定を確認できます。これらの設定を変更すると、再度ダイヤル接続が行われます。
+
+    ![m2 sim settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_settings2.png){class="glboxshadow"}
+
+4. SIM Information。
+
+    SIM の詳細を確認するには、**SIM Information** をクリックします。
+
+    ![m2 sim info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_info1.png){class="glboxshadow"}
+
+    ICCID、IP アドレス、DNS、セルラーバンド、信号強度など、SIM のネットワーク情報を確認できます。
+
+    ![m2 sim info](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_sim_info2.png){class="glboxshadow gl-80-desktop"}
+
+5. SMS と SMS Forwarding。
+
+    SMS と SMS Forwarding の使用方法については、[SMS](../tutorials/sms.md) と [SMS Forwarding](../tutorials/sms_forwarding.md) を参照してください。
+
+6. セルラープロファイルを管理します。
+
+    SIM プロファイルを管理するには、右上の歯車アイコンをクリックして **Manage Cellular Profiles** を選択します。
+
+    ![m2 cellular settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_cellular_settings.png){class="glboxshadow"}
+
+    現在使用中のプロファイルを確認できます。
+
+    ![m2 manage profiles](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_manage_profiles.png){class="glboxshadow"}
+
+    必要に応じて、**Add a New Profile** をクリックしてプロファイルを追加します。
+
+    ![m2 add profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_add_profile1.png){class="glboxshadow"}
+
+    必要なパラメーターを入力し、**Apply** をクリックします。
+
+    ![m2 add profile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_add_profile2.png){class="glboxshadow"}
+
+7. Modem AT Command。
+
+    AT コマンドは、セルラーモデムとの通信に使用する標準的な命令です。この機能を使用すると、コマンドを送信してモデムの状態を確認できます。
+
+    AT コマンドを実行するには、右上の歯車アイコンをクリックして **Modem AT Command** を選択します。
+
+    ![m2 cellular settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_cellular_settings.png){class="glboxshadow"}
+
+    ![m2 atcommand](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/m2_atcommand.png){class="glboxshadow"}
+
+    - **Shortcut**: Shortcut を **Manual command** に設定した場合は、**AT Command** フィールドにコマンドを入力して、下部の **Send** をクリックします。結果が下の出力欄に表示されます。
+
+        ボックスをクリックして、ドロップダウンリストから**プリセットコマンド**を選択することもできます。
+
+        ![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/command_shortcut1.png){class="glboxshadow"}
+
+        たとえば、ショートカットに「Request SIM card status」、SIM スロットに SIM1 を選択して「Send」をクリックすると、以下の結果が表示されます。
+
+        ![shortcut](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/command_shortcut2.png){class="glboxshadow"}
+
+    - **SIM Slot**: コマンドを SIM1 と SIM2 のどちらに適用するかを選択します。使用できるオプションは、ルーターに接続した外付け USB モデムの SIM スロットによって異なります。
+
+    - **AT Command**: Shortcut が「Manual command」の場合に、任意のコマンドを入力します。
+
+### ホストレスドングル
+
 このセクションでは、**Flint 3 (GL-BE9300)** と外付け USB ドングル [SIMPoYo uFi](https://www.gl-inet.com/products/simpoyo-ufi){target="_blank"} を例に、セルラー接続の設定手順を説明します。
-
-**注意**:
-
-1. SIMPoYo uFi を含む一部の USB セルラードングルは、**ホストレスモード**で動作します。このモードでは、ドングルが内部でセルラー接続を確立し、仮想 USB Ethernet インターフェースをルーターへ提供します。ルーターは制御可能なセルラーモデムではなくテザリング WAN として認識するため、Cellular インターフェースではなく Tethering インターフェースから接続します。
-
-2. ホストレステザリングモードでは、ルーターから信号強度、Cell ID、TAC などの低レベルなセルラー情報を取得したり、APN や SIM 関連パラメーターを制御したりできません。これらの設定は、ドングルに内蔵された Web UI で行ってください。
-
----
-
-次の手順でセルラー接続を設定します。
 
 1. USB ドングルをルーターの USB ポートに接続します。
 
-2. ルーターの Web 管理パネルにログインし、**INTERNET** -> **Tethering** に移動して **Connect** をクリックします。
+2. ルーターの Web Admin Panel にログインし、**INTERNET** -> **Tethering** に移動して **Connect** をクリックします。
 
     ![tethering 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/tethering1.png){class="glboxshadow"}
 
@@ -319,4 +399,8 @@ AT コマンドは、セルラーモデムと通信するための標準命令�
 
     ![tethering 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/4.10/tethering3.png){class="glboxshadow"}
 
-初回設定後は、USB モデムを接続したままルーターを再起動した場合や、モデムを挿し直した場合でも自動的に認識され、Connect ボタンを再度クリックしなくてもネットワーク接続が確立されます。
+4. SIMPoYo uFi 内の SIM カードについて APN や SIM 関連の設定を行う必要がある場合は、[SIMPoYo uFi の管理](../user_guide/simpoyo-4g-ufi/index.md#manage-simpoyo-ufi)を参照してください。
+
+---
+
+ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[お問い合わせ](https://www.gl-inet.com/contacts/){target="_blank"} ください。

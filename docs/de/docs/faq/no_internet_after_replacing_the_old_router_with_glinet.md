@@ -6,7 +6,7 @@ Möglicherweise hat Ihr Internetanbieter eine **MAC-Bindung** aktiviert, sodass 
 
 Versuchen Sie die folgenden Methoden, um dieses Problem zu beheben.
 
-- Klonen Sie die MAC-Adresse Ihres alten Routers auf Ihren neuen GL.iNet-Router.
+- Klonen Sie die MAC-Adresse Ihres alten Routers auf Ihren neuen GL.iNet-Router. Weitere Informationen finden Sie [hier](./internet_connection_troubleshooting.md#q2-wann-sollte-ich-eine-mac-adresse-klonen).
 - Starten Sie Ihr Modem neu. Wenn das Problem weiterhin besteht, schalten Sie es für 30 Minuten aus und dann wieder ein.
 - Kontaktieren Sie Ihren Internetanbieter und bitten Sie ihn, das Modem zurückzusetzen.
 

@@ -52,11 +52,7 @@ Wykonaj poniższe kroki, aby skonfigurować kontrolę rodzicielską.
 
 7. Wybierz filtr treści.
 
-    Domyślnie zaznaczone są trzy kategorie: **Gambling**, **Malicious Content** oraz **Sexual Content**.
-
-    ![content filter](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
-
-    W razie potrzeby możesz wybrać inne kategorie, takie jak **Games**, **Shopping**, **Social Media**, **Entertainment** itd.
+    Domyślnie zaznaczone są trzy kategorie: **Gambling**, **Malicious Content** oraz **Sexual Content**. W razie potrzeby możesz wybrać inne kategorie, takie jak **Games**, **Shopping**, **Social Media**, **Entertainment** itd.
 
     ![content filter](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
 

@@ -12,6 +12,7 @@ Click a model below to download its full PDF user manual for offline reference.
 
 **NOTE:** Contents of these documents are subject to change without prior notice due to product firmware upgrades. Unless otherwise formally agreed in writing, these documents are provided solely for informational reference. No statement, data or recommendation contained herein shall constitute a warranty of any kind.
 
+- [GL-BE14000 (Flint 4)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-be14000_user_manual.pdf){target="_blank"}
 - [GL-MG1300 (Mango 2)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-mg1300_user_manual.pdf){target="_blank"}
 - [GL-E5800 (Mudi 7)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-e5800_user_manual.pdf){target="_blank"}
 - [GL-BE9300 (Flint 3)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-be9300_user_manual.pdf){target="_blank"}

@@ -293,7 +293,7 @@ Click the gear icon in the upper-right corner and select **AT Command**.
 
 ## Non-cellular Routers
 
-For non-cellular routers, though they don't have built-in cellular modem, you can still plug an external USB dongle (not included) into their USB port for cellular connectivity.
+Although non-cellular routers do not have a built-in cellular modem, you can connect an external USB dongle (not included) to a USB port for cellular connectivity.
 
 Different USB dongles/modems may work in different modes: Standard USB modem mode or Host-less mode.
 

@@ -12,7 +12,7 @@ GL.iNet Parental Control provides flexible scheduling to restrict internet acces
 
 ---
 
-Follow the steps below the set up your Parental Control.
+Follow the steps below to set up Parental Control.
 
 1. Log in to the router's web Admin Panel and go to **FLOW CONTROL** -> **Parental Control**. Ensure the router time is accurate. 
 
@@ -52,7 +52,7 @@ Follow the steps below the set up your Parental Control.
 
 7. Select content filter. 
 
-    Three categories have been seleted by default: **Gambling**, **Malicious Content**, and **Sexual Content**. You may select other categories if needed, such as **Games**, **Shopping**, **Social Media**, **Entertainment**, etc.
+    Three categories have been selected by default: **Gambling**, **Malicious Content**, and **Sexual Content**. You may select other categories if needed, such as **Games**, **Shopping**, **Social Media**, **Entertainment**, etc.
 
     ![content filter](https://static.gl-inet.com/docs/router/en/4/interface_guide/parental_control_v4.9/filter.png){class="glboxshadow gl-90-desktop"}
 

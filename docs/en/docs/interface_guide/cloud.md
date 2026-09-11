@@ -220,7 +220,7 @@ Select the corresponding section for device binding steps based on the firmware 
 
 5. Unbind device.
 
-    If you want to unbind your router, log in to the router's web Admin Panel and go to **CLOUD SERVICES** -> **GL.iNet Account**. Click **Unbind**.. 
+    If you want to unbind your router, log in to the router's web Admin Panel and go to **CLOUD SERVICES** -> **GL.iNet Account**. Click **Unbind**.
 
     ![unbind](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_unbind.png){class="glboxshadow"}
 
@@ -342,7 +342,7 @@ Please refer to [GoodCloud Site to Site](../tutorials/goodcloud_site_to_site.md)
 
 If you enable **GoodCloud** and **VPN client** at the same time on your router, the connection between the router and the GoodCloud server will not go through the VPN by default. This ensures a more stable connection to GoodCloud services.
 
-However, if you want the GoodCloud connection to go through the VPN, you can change this settings in the router's web Admin Panel. Navigate to VPN -> VPN Dashboard -> VPN Client -> Options, and enable the option "Services from GL.iNet Use VPN".
+However, if you want the GoodCloud connection to go through the VPN, you can change this setting in the router's web Admin Panel. Navigate to VPN -> VPN Dashboard -> VPN Client -> Options, and enable the option "Services from GL.iNet Use VPN".
 
 ![Services from GL.iNet use VPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/goodcloud_vpn.png){class="glboxshadow"}
 

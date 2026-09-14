@@ -25,10 +25,10 @@ plugins:
   - git-revision-date-localized
   - redirects:
       redirect_maps:
+        'tutorials/vpn_obfuscation.md': 'tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md'
         'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
         'tutorials/how_to_set_up_esim.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
         'tutorials/tap_s2s_vs_tun.md': 'tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md'
-        'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
         'tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md': 'tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md'
         'tutorials/can_i_use_multiwan_wired_input.md': 'tutorials/configure_dual_ethernet_wan.md'
         'interface_guide/firmware_upgrade.md': 'interface_guide/upgrade.md'
@@ -477,7 +477,7 @@ nav:
       - Set up OpenVPN client: tutorials/how_to_set_up_openvpn_client.md
       - Set up OpenVPN server: tutorials/how_to_set_up_openvpn_server.md
       - Build your own WireGuard home server: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
-      - Set up VPN Obfuscation: tutorials/vpn_obfuscation.md
+      - Set up VPN Obfuscation: tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md
       - Connect to NordVPN via dedicated IP: tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
       - Connect to Surfshark via dedicated IP: tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md
       - Access OpenVPN Client LAN from Server: tutorials/openvpn_server_access_client_lan_side.md

@@ -1,33 +1,17 @@
 # How to set up VPN Obfuscation on GL.iNet routers
 
-## What is VPN Obfuscation
+**Note**: GL.iNet routers support AmneziaWG when running firmware v4.9 or later. Please upgrade your router to a supported firmware version first.
 
-VPN obfuscation is a technique that disguises VPN traffic to look like regular internet traffic. This helps users bypass network restrictions and censorship, especially in regions with strict internet policies.
+This tutorial introduces two scenarios for setting up AmneziaWG obfuscation on GL.iNet routers.
 
-- It masks VPN characteristics to prevent detection by ISPs, firewalls, or Deep Packet Inspection (DPI).
-
-- It makes your VPN connection appear as standard web traffic, improving connection stability and success rate in restricted networks.
-
-## What is AmneziaWG
-
-AmneziaWG is a VPN protocol built on WireGuard, with built-in traffic obfuscation. It retains the core benefits of WireGuard, such as high speed, lightweight design, and low latency, while adding a dedicated obfuscation module. This module effectively hides VPN traffic patterns, allowing both individual and business users to protect online privacy, bypass regional restrictions, and avoid connection interruptions caused by strict network controls.
-
-AmneziaWG is compatible with a wide range of devices, including Windows, macOS, iOS, Android, Linux, and routers, delivering reliable obfuscated VPN connections across all scenarios.
-
-Currently, several GL.iNet routers (e.g., **Brume 3**, **Flint 3**, **Flint 2**, and **Beryl AX**) support the AmneziaWG protocol in select firmware versions. Full official support will be available in firmware ver.4.9 and gradually roll out to more models.
-
-## Quick Setup
-
-Below are two typical scenarios for setting up AmneziaWG VPN obfuscation on GL.iNet routers.
-
-### Scenario 1. Using two GL.iNet routers
+## Scenario 1. Using two GL.iNet routers
 
 This scenario uses two GL.iNet routers to establish a VPN obfuscation connection via the AmneziaWG protocol.
 
-- **Brume 3 (GL-MT5000)**: A VPN Server for home use.
-- **Beryl AX (GL-MT3000)**: A portable VPN Client for on-the-go use. 
+- Brume 3 (GL-MT5000): A VPN Server for home use.
+- Beryl AX (GL-MT3000): A portable VPN Client for on-the-go use. 
 
-#### Set up VPN Server
+### Set up VPN Server
 
 1. Log in to the Brume 3's web Admin Panel. 
 
@@ -85,7 +69,7 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
-#### Set up VPN Client
+### Set up VPN Client
 
 1. Log in to the Beryl AX's web Admin Panel. 
 
@@ -133,13 +117,13 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     The VPN connection is complete. All devices on the Beryl AX now access the internet via the Brume 3's gateway, enabling a VPN obfuscation connection.
 
-### Scenario 2. Using a single GL.iNet router
+## Scenario 2. Using a single GL.iNet router
 
 This scenario uses a single GL.iNet router **Brume 3 (GL-MT5000)** as a VPN client to connect to an AmneziaVPN server. 
 
 In this case, you don't need to deploy your own server. Simply download an AmneziaWG configuration file from the [official Amnezia website](https://amnezia.org/){target="_blank"} or any VPN service provider that integrates AmneziaWG, then upload the file to your GL.iNet router. You will then be able to establish a VPN connection with obfuscation enabled.
 
-#### Download Configuration
+### Download Configuration
 
 <u>Option 1</u>: Download a config from Amnezia Official (Premium subscription required).
 
@@ -167,7 +151,7 @@ Take StarVPN as an example.
 
     Then follow the steps below to set up VPN client.
 
-#### Set up VPN Client
+### Set up VPN Client
 
 1. Log in to the Brume 3's web Admin Panel. 
 

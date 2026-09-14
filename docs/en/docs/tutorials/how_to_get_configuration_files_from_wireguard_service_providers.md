@@ -370,20 +370,28 @@
 
     3. Follow [this guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) to continue.
 
-??? "xvpn"
-    ### xvpn
+??? "X-VPN"
+    ### X-VPN
 
     [Official Website](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}
 
-    If you are using [xvpn](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}, log in and follow the steps below to download the WireGuard configuration files.
+    X-VPN is integrated into GL.iNet routers starting from firmware v4.11. 
+    
+    If your router runs firmware v4.11 and above, you can log in to X-VPN directly in the GL.iNet web Admin Panel using a login token. Click [here](../interface_guide/wireguard_client.md#set-up-x-vpn) for details.
 
-    ![xvpn WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn_vpn_on_router.png){class="glboxshadow"}
+    If your router runs firmware older than v4.11, or wish to download an X-VPN configuration file manually, follow the steps below.
 
-    1. In the left menu, go to **VPN** -> **VPN on Router**.
+    1. [Log in](https://xvpn.io/login){target="_blank"} to X-VPN, then go to **VPN** -> **VPN on Router**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn1.png){class="glboxshadow"}
 
     2. On the right side, locate **Step 1** and select **WireGuard** as the protocol.
 
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn2.png){class="glboxshadow"}
+
     3. In **Step 2**, choose your preferred **Region** and **State/City**, then click the **Search** button.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn3.png){class="glboxshadow"}
 
     4. In the search results, click the download button to get the configuration file for the desired server.
 

@@ -2,19 +2,21 @@
 
 **Note**: This feature is introduced in firmware v4.10.
 
+Mango 2 (GL-MG1300) and Mudi 7 (GL-E5800) do not support Mesh even with firmware v4.10 or later.
+
 ---
 
 On the left side of the web Admin Panel, go to **MESH**.
 
 Mesh is a feature based on the Wi-Fi EasyMesh™ standard that extends whole-home Wi‑Fi coverage and enables seamless roaming. If you have multiple GL.iNet routers, set one as the main router and the rest as mesh nodes for seamless Wi-Fi roaming around your home.
 
+## Quick Setup
+
 The following example uses Flint 3 (GL‑BE9300) and Slate 7 (GL‑BE3600) to build a Mesh network.
 
-- **Flint 3** is the main router that connects to the Internet and manages all Mesh nodes.
+**Flint 3** is the main router that connects to the Internet and manages all Mesh nodes.
 
-- **Slate 7** is the Mesh node that extends the main router's Wi-Fi coverage.
-
-## Quick Setup
+**Slate 7** is the Mesh node that extends the main router's Wi-Fi coverage.
 
 1. Power on your Mesh node and place it near the main router. 
 

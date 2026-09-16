@@ -574,6 +574,7 @@ nav:
       - Network Acceleration: interface_guide/network_acceleration.md
       - NAT Settings: interface_guide/nat_settings.md
     - Flow Control:
+      - Network Quality: interface_guide/network_quality.md
       - DPI Engine: interface_guide/dpi_engine.md
       - Data Statistics: interface_guide/data_statistics.md
       - Content Filter: interface_guide/content_filter.md

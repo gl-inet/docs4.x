@@ -1,6 +1,6 @@
 # Firmware v4.10
 
-This release focuses on improving Cloud Services, network management, and network security. Key updates include enhancements to Mesh and GL.iNet Account, native VLAN support, improved GoodCloud account management, and conflict detection for cascaded VPN configurations.
+This release focuses on improving Cloud Services, enhanced network security, and a more user-friendly interface to bring you a better overall experience.
 
 Get the latest firmware from the [Firmware Download Center](https://dl.gl-inet.com/){target="_blank"}.
 
@@ -18,7 +18,7 @@ The Cloud Services module includes GL.iNet Account, GoodCloud, and GoodPAS.
 
 ### GL.iNet Account
 
-The GL.iNet Account provides a centralized profile page where you can connect or manage your devices and access cloud services. With a single GL.iNet Account, you can seamlessly access GoodCloud and the GL.iNet App for more convenient network management. 
+The GL.iNet Account provides a centralized profile page where you can connect or manage your devices and access cloud services. With a single GL.iNet Account, you can seamlessly access GoodCloud, GoodPAS and the GL.iNet App for more convenient network management. 
 
 ![gl.inet account](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/account.png){class="glboxshadow"}
 
@@ -35,18 +35,6 @@ In firmware v4.10, GoodCloud simplifies account binding and lets you clear cloud
 GoodPAS is an advanced remote access solution integrated into the GL.iNet router SDK. Built on the AmneziaWG protocol, it enables secure access to a home network through simple device pairing, without requiring account registration or user login.
 
 ![goodpas](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodpas.png){class="glboxshadow"}
-
-## VPN
-
-Firmware v4.10 adds detection for IP address and DNS conflicts in cascaded VPN configurations.
-
-### Cascaded VPN
-
-A cascaded VPN configuration routes network traffic through two or more VPN tunnels in sequence. In such configurations, overlapping IP subnets or conflicting DNS settings between VPN layers may cause connection failures or DNS resolution issues. The new detection feature helps identify these configuration conflicts before they affect connectivity.
-
-The figure below illustrates two common configuration conflicts in a cascaded VPN setup: overlapping subnets and conflicting DNS settings.
-
-![cascaded vpn](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/vpn.png){class="glboxshadow"}
 
 ## Subnet
 

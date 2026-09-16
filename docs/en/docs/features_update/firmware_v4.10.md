@@ -1,6 +1,6 @@
 # Firmware v4.10
 
-This release includes improvements to cloud services, network security enhancements, and a more user-friendly interface for a better overall experience.
+This release includes improvements to Cloud Services, more flexible network configuration options, and a more user-friendly interface for a better overall experience.
 
 Get the latest firmware from the [Firmware Download Center](https://dl.gl-inet.com/){target="_blank"}.
 

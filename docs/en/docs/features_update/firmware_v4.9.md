@@ -16,33 +16,35 @@ Unlike traditional routers that only identify source and destination addresses, 
 
 ![dpi](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/dpi.png){class="glboxshadow"}
 
+Integrated with [Netify](https://www.netify.ai/){target="_blank"}, GL.iNet DPI adopts a lightweight embedded plug-in for efficient deployment. With Netify's online-updated signature database, it enables reliable management, making network control more accurate and efficient.
+
 ### Data Statistics
     
-Data Statistics provides an intuitive traffic dashboard that identifies network usage by application and protocol. It supports viewing 1‑hour, 1‑day, and 7‑day historical trends, displays usage rankings, monitors per‑device traffic, and allows one‑click blocking of unwanted apps.
+[Data Statistics](../interface_guide/data_statistics.md) provides an intuitive traffic dashboard that identifies network usage by application and protocol. It supports viewing 1‑hour, 1‑day, and 7‑day historical trends, displays usage rankings, monitors per‑device traffic, and allows one‑click blocking of unwanted apps.
 
 ![data stats](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/data_statistics.png){class="glboxshadow"}
 
 ### Content Filter
     
-Content Filter is an intelligent online safety feature powered by DPI classification. It automatically blocks harmful and malicious websites to keep your network clean and secure, and also supports custom rules to block specific apps, domains, or IP addresses.
+[Content Filter](../interface_guide/content_filter.md) is an intelligent online safety feature powered by DPI classification. It automatically blocks harmful and malicious websites to keep your network clean and secure, and also supports custom rules to block specific apps, domains, or IP addresses.
 
 ![content filter](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/blocked_apps.png){class="glboxshadow"}
 
 ### QoS
     
-QoS (Quality of Service) optimizes bandwidth allocation by prioritizing critical activities (e.g., video calls, gaming) during network congestion, reducing latency and improving overall network performance.
+[QoS](../interface_guide/qos.md) (Quality of Service) optimizes bandwidth allocation by prioritizing critical activities (e.g., video calls, gaming) during network congestion, reducing latency and improving overall network performance.
 
 ![qos](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/qos.png){class="glboxshadow"}
 
 ### SQM
 
-SQM (Smart Queue Management) intelligently manages your router's network traffic to minimize latency and "bufferbloat", ensuring smoother gaming and voice calls.
+[SQM](../interface_guide/sqm.md) (Smart Queue Management) intelligently manages your router's network traffic to minimize latency and "bufferbloat", ensuring smoother gaming and voice calls.
 
 ![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/sqm.png){class="glboxshadow"}
 
 ### Parental Control
     
-Previously categorized under the **Applications** menu, this feature is migrated to the **Flow Control** menu in firmware v4.9. It leverages the upgraded DPI engine to accurately identify and block inappropriate applications and network content, achieving more professional and precise traffic-based access restriction.
+[Parental Control](../interface_guide/parental_control_v4.9.md) was previously categorized under the **Applications** menu. It is migrated to the **Flow Control** menu in firmware v4.9, as it leverages the upgraded DPI engine to accurately identify and block inappropriate applications and network content, achieving more professional and precise traffic-based access restriction.
 
 ![parental control](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/parental_control.png){class="glboxshadow"}
 
@@ -68,7 +70,7 @@ A single VPN tunnel group can accommodate multiple configuration profiles. Users
     
 ### Redesigned Dashboard
         
-The VPN Dashboard features a complete redesign for a more intuitive layout. Tunnel status, connection details, and configuration entries are presented for clearer visibility, significantly boosting day‑to‑day operational and management efficiency. In addition, Kill Switch is enabled by default for all VPN tunnels under the new architecture to keep your traffic protected at all times.
+The [VPN Dashboard](../interface_guide/vpn_dashboard.md) in firmware v4.9 features a complete redesign for a more intuitive layout. Tunnel status, connection details, and configuration entries are presented for clearer visibility, significantly boosting day‑to‑day operational and management efficiency. In addition, Kill Switch is enabled by default for all VPN tunnels under the new architecture to keep your traffic protected at all times.
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/vpn_dashboard.png){class="glboxshadow"}
 
@@ -80,13 +82,13 @@ Firmware v4.9 officially introduces the AmneziaWG 2.0 protocol, equipped with mu
 
 ## IoT Network
 
-In firmware v4.9, you can create an independent dedicated Wi-Fi network for IoT smart devices. Physically and logically isolated from the primary network, it avoids network resource occupation and security risks brought by IoT device access to the main network. This optimization delivers broader device compatibility for various smart IoT clients and overall enhances the home network security system.
+The [IoT Network](../interface_guide/iot_network.md) in firmware v4.9 allows you to create an independent dedicated Wi-Fi network for IoT smart devices. Physically and logically isolated from the primary network, it avoids network resource occupation and security risks brought by IoT device access to the main network. This optimization delivers broader device compatibility for various smart IoT clients and overall enhances the home network security system.
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 
 ## ACL
 
-ACL, short for Access Control List, is a core network security management feature that allows users to create customized access rules to manage internal and external network traffic based on connection protocols, device IP addresses, and port. It supports precise permission control to allow or block specific network access behaviors. When multiple ACL rules generate conflicts, the system automatically executes the rule with higher priority to ensure accurate policy implementation.
+[ACL](../interface_guide/acl.md), short for Access Control List, is a core network security management feature that allows users to create customized access rules to manage internal and external network traffic based on connection protocols, device IP addresses, and port. It supports precise permission control to allow or block specific network access behaviors. When multiple ACL rules generate conflicts, the system automatically executes the rule with higher priority to ensure accurate policy implementation.
 
 ![acl](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/acl1.png){class="glboxshadow"}
 
@@ -94,15 +96,15 @@ ACL, short for Access Control List, is a core network security management featur
 
 Distinguished from Port Forwarding in core positioning, ACL focuses on network security management by controlling device and traffic access permissions; while Port Forwarding is used for network resource redirection, forwarding external network traffic to specified local terminal devices to implement remote access to local network services.
 
-## Wireless UI
+## Wireless
     
-The Wireless UI is fully redesigned with a streamlined layout and unified visual style, reducing operational complexity and greatly improving overall interface simplicity and user-friendliness.
+The [Wireless](../interface_guide/wireless.md) UI is fully redesigned with a streamlined layout and unified visual style, reducing operational complexity and greatly improving overall interface simplicity and user-friendliness.
 
 ![wireless](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/wireless.png){class="glboxshadow"}
 
 ## Encrypted DNS
     
-The encrypted DNS is expanded to cover more encryption protocols including DoH, DoT and DoQ. Meanwhile, more official DNS service providers are integrated, and the manual configuration for custom encrypted DNS servers is added to meet diverse secure domain resolution demands.
+The [Encrypted DNS](../interface_guide/dns.md#encrypted-dns) is expanded to cover more encryption protocols including DoH, DoT and DoQ. Meanwhile, more official DNS service providers are integrated, and the manual configuration for custom encrypted DNS servers is added to meet diverse secure domain resolution demands.
 
 ![dns provider](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/dns1.png){class="glboxshadow"}
 

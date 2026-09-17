@@ -66,6 +66,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## Flow Control
 
+* [Network Quality](network_quality.md)
 * [DPI Engine](dpi_engine.md)
 * [Data Statistics](data_statistics.md)
 * [Content Filter](content_filter.md)

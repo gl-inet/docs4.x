@@ -76,6 +76,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 
 ## Security
 
+* [Security Scan](security_scan.md)
 * [Port Forwarding](port_forwarding.md)
 * [ACL (Access Control List)](acl.md)
 * [Admin Access](admin_access.md)

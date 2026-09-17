@@ -24,7 +24,7 @@ The configuration page includes Basic settings, DHCP server settings and Address
 
 ### Basic Settings
 
-You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
+You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
 ![main network basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/main-network-basic.png){class="glboxshadow" width=650}
 
@@ -66,9 +66,9 @@ Click **Advanced** for further configuration if needed.
 
 - **Gateway**: The device that routes traffic between the local network and external networks such as the Internet.
 
-- **DNS Server**: Two DNS server fields are available for configuring the primary and secondary resolvers. 
-    
-    **Note**: The primary DNS is entered in the upper field, and the secondary in the lower field. In the event of primary server unavailability, client devices will automatically failover to the secondary resolver, ensuring domain name resolution continuity.
+- **DNS Server 1**: The primary server that translates domain names into IP addresses.
+
+- **DNS Server 2**: The secondary server used for domain name resolution if the primary DNS server is unavailable.
 
 - **LPR Server** (Line Printer Remote Server): A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured.
 
@@ -112,7 +112,7 @@ The configuration page includes Basic settings and DHCP server settings.
 
 ### Basic Settings
 
-You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
+You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
 ![guest network basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/guest-network-basic.png){class="glboxshadow" width=650}
 
@@ -130,7 +130,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
 - **AP Isolation**
 
-    This feature has been available since firmware v4.5
+    This feature has been available since firmware v4.5.
 
     You can isolate client devices into a separate network segment. These devices will not be able to communicate with other devices on the same network.
 
@@ -166,9 +166,9 @@ Click **Advanced** for further configuration if needed.
 
 - **Gateway**: The device that routes traffic between the local network and external networks such as the Internet.
 
-- **DNS Server**: Two DNS server fields are available for configuring the primary and secondary resolvers. 
-    
-    **Note**: The primary DNS is entered in the upper field, and the secondary in the lower field. In the event of primary server unavailability, client devices will automatically failover to the secondary resolver, ensuring domain name resolution continuity.
+- **DNS Server 1**: The primary server that translates domain names into IP addresses.
+
+- **DNS Server 2**: The secondary server used for domain name resolution if the primary DNS server is unavailable.
 
 - **LPR Server** (Line Printer Remote Server): A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured. 
 
@@ -188,7 +188,7 @@ Click **Edit** in the lower-right corner, and the IoT Network configuration pane
 
 ### Basic Settings
 
-You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
+You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
 ![iot network basic setting](https://static.gl-inet.com/docs/router/en/4/interface_guide/subnet/iot-network-basic.png){class="glboxshadow" width=650}
 
@@ -206,7 +206,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
 - **AP Isolation**
 
-    This feature has been available since firmware v4.5
+    This feature has been available since firmware v4.5.
 
     You can isolate client devices into a separate network segment. These devices will not be able to communicate with other devices on the same network.
 
@@ -242,9 +242,9 @@ Click **Advanced** for further configuration if needed.
 
 - **Gateway**: The device that routes traffic between the local network and external networks such as the Internet.
 
-- **DNS Server**: Two DNS server fields are available for configuring the primary and secondary resolvers. 
-    
-    **Note**: The primary DNS is entered in the upper field, and the secondary in the lower field. In the event of primary server unavailability, client devices will automatically failover to the secondary resolver, ensuring domain name resolution continuity.
+- **DNS Server 1**: The primary server that translates domain names into IP addresses.
+
+- **DNS Server 2**: The secondary server used for domain name resolution if the primary DNS server is unavailable.
 
 - **LPR Server** (Line Printer Remote Server): A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured.
 
@@ -282,7 +282,7 @@ You can configure the basic **VLAN Networks** information on this page.
 
 - **AP Isolation**
 
-    This feature has been available since firmware v4.5
+    This feature has been available since firmware v4.5.
 
     You can isolate client devices into a separate network segment. These devices will not be able to communicate with other devices on the same network.
 
@@ -318,9 +318,9 @@ Click **Advanced** for further configuration if needed.
 
 - **Gateway**: The device that routes traffic between the local network and external networks such as the Internet.
 
-- **DNS Server**: Two DNS server fields are available for configuring the primary and secondary resolvers. 
-    
-    **Note**: The primary DNS is entered in the upper field, and the secondary in the lower field. In the event of primary server unavailability, client devices will automatically failover to the secondary resolver, ensuring domain name resolution continuity.
+- **DNS Server 1**: The primary server that translates domain names into IP addresses.
+
+- **DNS Server 2**: The secondary server used for domain name resolution if the primary DNS server is unavailable.
 
 - **LPR Server** (Line Printer Remote Server): A service that manages print jobs and allows network devices to send print requests to remote printers. Multiple LPR printer ports can be configured.
 

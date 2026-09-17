@@ -1,30 +1,5 @@
 # GL.iNet GoodCloud
 
-## Contents
-
-- [Introduction](#introduction)
-- [Bind Devices to Cloud](#bind-devices-to-cloud)
-    - [For firmware v4.6 and earlier](#for-firmware-v46-or-earlier)
-    - [For firmware v4.7 to v4.9](#for-firmware-v47-to-v49)
-    - [For firmware v4.10 and above](#for-firmware-v410-and-above)
-- [Manage Devices](#manage-devices)
-    - [System info and actions](#system-info-and-actions)
-    - [Device details](#device-details)  
-        - [Basic info](#basic-info)
-        - [Statistics](#statistics)
-        - [Network settings](#network-settings)
-        - [Clients list](#clients-list)
-- [Remote Access](#remote-access)
-    - [Remote GUI](#remote-gui)
-    - [Remote SSH](#remote-ssh)
-- [Modify Settings](#modify-settings)
-- [Email Alarm](#email-alarm)
-- [Site to Site](#site-to-site)
-- [GoodCloud and VPN](#goodcloud-and-vpn)
-- [View Logs](#view-logs)
-- [Disable Cloud](#disable-cloud)
-- [Delete Account](#delete-account)
-
 ## Introduction
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} is a platform designed to simplify the remote deployment and management of connected devices. It provides an easy way to remotely access and manage GL.iNet routers. By centralizing network devices on the cloud, users can efficiently perform batch management tasks, such as deploying network configurations and performing software upgrades. They can also remotely access the router's web Admin Panel or connect to the router's terminal via SSH, achieving cross-regional and end-to-end network device management.
@@ -61,6 +36,102 @@ If you need to manage multiple devices and unlock advanced features like bulk op
 ## Bind Devices to Cloud
 
 Select the corresponding section for device binding steps based on the firmware version of your device.
+
+### For firmware v4.10 and above
+
+1. Enable GoodCloud.
+
+    Log in to your router's web Admin Panel, navigate to **CLOUD SERVICE** -> **GoodCloud** and click **Get Started**.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind1.png){class="glboxshadow"}
+
+    You will be directed to the **GL.iNet Account** page. Click **Bind GL.iNet Account via URL**.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind2.png){class="glboxshadow"}
+
+    In the pop-up window, click **Continue**. You will be redirected to the GoodCloud website to complete the binding.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind3.png){class="glboxshadow"}
+
+2. Log in to bind your device.
+
+    Log in to your GL.iNet account. If you don't have an account, sign up for one and log in.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind4.png){class="glboxshadow"}
+
+    After logging in, confirm your account and device information, including Device ID, model and MAC address. Customize a device name and click **Bind**, then the router will be bound to your account. 
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind5.png){class="glboxshadow" width="423"}
+
+    If you do not receive the verification email, check your spam folder or wait a few minutes and try again. Please email [support@gl-inet.com](mailto:support@gl-inet.com) for further assistance.
+
+3. Binding details.
+
+    After successful binding, return to the router's web Admin Panel and navigate to **CLOUD SERVICES** -> **GoodCloud**. This page displays a redirect entry to the GoodCloud platform, device identity details, and recent cloud logs.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind6.png){class="glboxshadow"}
+
+4. Remote Access.
+
+    In firmware v4.10, the remote access for router's web Admin Panel and terminal will be enabled by default once the router is bound to GoodCloud.  
+
+5. Unbind device.
+
+    If you want to unbind your router, log in to the router's web Admin Panel and go to **CLOUD SERVICES** -> **GL.iNet Account**. Click **Unbind**.
+
+    ![unbind](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_unbind.png){class="glboxshadow"}
+
+    Alternatively, you can remove the device from the Bound Devices list on the GoodCloud platform. The router web admin panel will synchronize to display the latest binding status.
+
+    If you encounter any difficulties, please email [support@gl-inet.com](mailto:support@gl-inet.com) for assistance.
+
+### For firmware v4.7 to v4.9
+
+1. Enable GoodCloud.
+
+    Log in to your router's web Admin Panel and navigate to **CLOUD SERVICE** -> **GoodCloud**. 
+
+    Click the **Get Started** button, and a Cloud Service pop-up window will appear in the upper right corner. Click **Enable**.
+
+    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.jpg){class="glboxshadow"}
+
+2. Log in to bind your device.
+
+    ![log in goodcloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/goodcloud_login.png){class="glboxshadow"}
+
+    If you don't have an account, sign up for one and log in. Once registration is complete, the router will be automatically bound to your account. 
+
+    ![sign up goodcloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/sign_up.png){class="glboxshadow"}
+
+    If you do not receive the verification email, check your spam folder or wait a few minutes and try again. Please email [support@gl-inet.com](mailto:support@gl-inet.com) for further assistance.
+
+3. Binding details.
+
+    After successful binding, return to the router's web Admin Panel, click on the Cloud icon in the upper right corner and you will see the binding details, including the username, binding time, Device ID, Device MAC and Device S/N.
+
+    ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
+
+4. Enable Remote Access.
+
+    In the web Admin Panel, navigate to **CLOUD SERVICES** -> **GoodCloud**, and you can enable the remote access for your router.
+
+    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_2.png){class="glboxshadow"}
+
+    - **Remote SSH**: For remotely accessing the router's terminal over SSH from GoodCloud platform.
+
+    - **Remote Web Access**: For remotely accessing the router's web Admin Panel over HTTP/HTTPS from GoodCloud platform.
+
+    - **View Logs**: It will show API call logs by GoodCloud.
+
+5. Unbind device.
+
+    If you want to unbind your router, log in to the router's web Admin Panel. Click the cloud icon in the upper right corner, and click **Unbind**. 
+
+    ![goodcloud unbind](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/unbind_router_2.png){class="glboxshadow"}
+
+    Alternatively, you can remove the device from the Bound Devices list on the GoodCloud platform. The router web admin panel will synchronize to display the latest binding status.
+
+    If you encounter any difficulties, please email [support@gl-inet.com](mailto:support@gl-inet.com) for assistance.
 
 ### For firmware v4.6 or earlier
 
@@ -127,102 +198,6 @@ Select the corresponding section for device binding steps based on the firmware 
     If you want to unbind your router, log in to the router's web Admin Panel, navigate to **APPLICATION** -> **GoodCloud** and click **Unbind**. 
 
     ![goodcloud unbind](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/unbind_router_1.png){class="glboxshadow"}
-
-    Alternatively, you can remove the device from the Bound Devices list on the GoodCloud platform. The router web admin panel will synchronize to display the latest binding status.
-
-    If you encounter any difficulties, please email [support@gl-inet.com](mailto:support@gl-inet.com) for assistance.
-
-### For firmware v4.7 to v4.9
-
-1. Enable GoodCloud.
-
-    Log in to your router's web Admin Panel and navigate to **CLOUD SERVICE** -> **GoodCloud**. 
-
-    Click the **Get Started** button, and a Cloud Service pop-up window will appear in the upper right corner. Click **Enable**.
-
-    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.jpg){class="glboxshadow"}
-
-2. Log in to bind your device.
-
-    ![log in goodcloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/goodcloud_login.png){class="glboxshadow"}
-
-    If you don't have an account, sign up for one and log in. Once registration is complete, the router will be automatically bound to your account. 
-
-    ![sign up goodcloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/sign_up.png){class="glboxshadow"}
-
-    If you do not receive the verification email, check your spam folder or wait a few minutes and try again. Please email [support@gl-inet.com](mailto:support@gl-inet.com) for further assistance.
-
-3. Binding details.
-
-    After successful binding, return to the router's web Admin Panel, click on the Cloud icon in the upper right corner and you will see the binding details, including the username, binding time, Device ID, Device MAC and Device S/N.
-
-    ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
-
-4. Enable Remote Access.
-
-    In the web Admin Panel, navigate to **CLOUD SERVICES** -> **GoodCloud**, and you can enable the remote access for your router.
-
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_2.png){class="glboxshadow"}
-
-    - **Remote SSH**: For remotely accessing the router's terminal over SSH from GoodCloud platform.
-
-    - **Remote Web Access**: For remotely accessing the router's web Admin Panel over HTTP/HTTPS from GoodCloud platform.
-
-    - **View Logs**: It will show API call logs by GoodCloud.
-
-5. Unbind device.
-
-    If you want to unbind your router, log in to the router's web Admin Panel. Click the cloud icon in the upper right corner, and click **Unbind**. 
-
-    ![goodcloud unbind](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/unbind_router_2.png){class="glboxshadow"}
-
-    Alternatively, you can remove the device from the Bound Devices list on the GoodCloud platform. The router web admin panel will synchronize to display the latest binding status.
-
-    If you encounter any difficulties, please email [support@gl-inet.com](mailto:support@gl-inet.com) for assistance.
-
-### For firmware v4.10 and above
-
-1. Enable GoodCloud.
-
-    Log in to your router's web Admin Panel, navigate to **CLOUD SERVICE** -> **GoodCloud** and click **Get Started**.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind1.png){class="glboxshadow"}
-
-    You will be directed to the **GL.iNet Account** page. Click **Bind GL.iNet Account via URL**.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind2.png){class="glboxshadow"}
-
-    In the pop-up window, click **Continue**. You will be redirected to the GoodCloud website to complete the binding.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind3.png){class="glboxshadow"}
-
-2. Log in to bind your device.
-
-    Log in to your GL.iNet account. If you don't have an account, sign up for one and log in.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind4.png){class="glboxshadow"}
-
-    After logging in, confirm your account and device information, including Device ID, model and MAC address. Customize a device name and click **Bind**, then the router will be bound to your account. 
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind5.png){class="glboxshadow" width="423"}
-
-    If you do not receive the verification email, check your spam folder or wait a few minutes and try again. Please email [support@gl-inet.com](mailto:support@gl-inet.com) for further assistance.
-
-3. Binding details.
-
-    After successful binding, return to the router's web Admin Panel and navigate to **CLOUD SERVICES** -> **GoodCloud**. This page displays a redirect entry to the GoodCloud platform, device identity details, and recent cloud logs.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind6.png){class="glboxshadow"}
-
-4. Remote Access.
-
-    In firmware v4.10, the remote access for router's web Admin Panel and terminal will be enabled by default once the router is bound to GoodCloud.  
-
-5. Unbind device.
-
-    If you want to unbind your router, log in to the router's web Admin Panel and go to **CLOUD SERVICES** -> **GL.iNet Account**. Click **Unbind**.
-
-    ![unbind](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_unbind.png){class="glboxshadow"}
 
     Alternatively, you can remove the device from the Bound Devices list on the GoodCloud platform. The router web admin panel will synchronize to display the latest binding status.
 

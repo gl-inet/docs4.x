@@ -12,7 +12,7 @@ It includes two sections: Basic Settings and DHCP Server Settings.
 
 ## Basic Settings
 
-You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
+You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
 ![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_1.png){class="glboxshadow"}
 
@@ -26,13 +26,13 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
 - **AP Isolation**
 
-    This feature has been available since firmware v4.5
+    This feature has been available since firmware v4.5.
 
     You can isolate client devices into a separate network segment. These devices will not be able to communicate with other devices on the same network.
 
 - **Block WAN Subnets**
 
-    This feature has been available since firmware v4.8
+    This feature has been available since firmware v4.8.
 
     When enabled, the guest network cannot access the upstream network and its subnet.
 

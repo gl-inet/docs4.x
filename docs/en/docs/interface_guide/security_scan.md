@@ -8,9 +8,7 @@ On the left side of the web Admin Panel, go to **SECURITY** -> **Security Scan**
 
 The Security Scan performs a security check on your router. It evaluates your router's security settings and produces a security score, alongside risk alerts and optimization suggestions. You can adjust your configurations based on the scan results to enhance router's security.
 
-A security scan starts automatically when you open this page. It checks multiple security items such as WiFi Security, WAN Ping, Remote SSH, Port Forwarding, and DPI Content Protection. Additionally, you can click the score icon to reset and rerun the security scan.
-
-On this page, you can view the key metrics when the scan finishes.
+A security scan starts automatically when you open this page. It checks multiple security items such as Wi-Fi Security, WAN Ping, Remote SSH, Port Forwarding, and DPI Content Protection. Additionally, you can click the score icon to reset and rerun the security scan. You can view the key metrics when the scan finishes.
 
 ![Security Scan](https://static.gl-inet.com/docs/router/en/4/interface_guide/security_scan/security_scan.png){class="glboxshadow"}
 
@@ -22,7 +20,7 @@ On this page, you can view the key metrics when the scan finishes.
 
 - **Safe**: Items that pass the security check.
 
-To view further details, you can browse detailed scan results by clicking the two tabs below.
+You can browse detailed scan results by clicking the two tabs below.
 
 - **Risk & Suggestion**
 

@@ -16,6 +16,8 @@ On the left side of the web Admin Panel, go to **DNS**.
 
 The DNS settings on your router control how domain names are translated into IP addresses. This page allows you to use the DNS server(s) automatically obtained from upstream devices, or set custom ones. You can also configure DNS options and edit static host rules.
 
+![dns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns_v4.11/dns_v4.11.png){class="glboxshadow"}
+
 By default, DNS queries for traffic matching the VPN policy use the DNS server(s) provided by the VPN tunnel. Non-VPN DNS queries use the DNS server(s) obtained from the active WAN interface. If you set custom DNS server(s), you can apply them to VPN tunnels, the router itself, or both. When these options are enabled, DNS queries within the selected scope are resolved through the specified one(s), instead of those obtained from the relevant network interfaces. If no custom DNS server(s) are set, the router uses the DNS server(s) obtained from the relevant network interfaces.
 
 ## WAN DNS
@@ -23,8 +25,6 @@ By default, DNS queries for traffic matching the VPN policy use the DNS server(s
 The WAN DNS displays DNS servers retrieved from each WAN uplink, including Ethernet, Repeater, Tethering and Cellular. 
 
 ![wan dns 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns_v4.11/wan_dns_1.png){class="glboxshadow" width=550}
-
-- **Unactivated**: The WAN connection is inactive.
 
 If a WAN uplink is active, its DNS server addresses are displayed on the right, as shown below.
 
@@ -62,7 +62,7 @@ You can enter up to four DNS server addresses. Click **Apply** to save the chang
 
 ### Encrypted DNS
 
-In addition to Control D, NextDNS and Cloudflare, more DNS providers are now available for Encrypted DNS mode, including Quad9, CleanBrowsing, AdGuard DNS, Google DNS, and OpenDNS. You can also specify an encrypted DNS server manually as needed.
+Encrypted DNS mode supports multiple DNS providers, including Control D, NextDNS, Quad9, CleanBrowsing, Cloudflare, AdGuard DNS, Google DNS, and OpenDNS. You can also specify an encrypted DNS server manually as needed. 
 
 Select the DNS Provider first. The remaining options will change according to your selection.
 

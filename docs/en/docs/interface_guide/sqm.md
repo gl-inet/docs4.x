@@ -1,6 +1,6 @@
 # SQM (Smart Queue Management)
 
-**Note**: This feature was introduced in firmware v4.9. Some models, such as Mango 2 (GL-MG1300), do not support SQM due to memory limitations, even when running firmware v4.9 or later.
+**Note**: This feature was introduced in firmware v4.9. Some models, such as Mango 2 (GL-MG1300), do not support SQM due to insufficient memory, even when running firmware v4.9 or later.
 
 On the left side of the web Admin Panel, go to **FLOW CONTROL** -> **SQM**. 
 
@@ -38,29 +38,27 @@ Toggle the switch to enable SQM, then complete the configuration following the s
     
         When **cake** is selected as the queue discipline, **Cake Autorate** is available as an optional feature.
 
-        - **(optional) Cake Autorate**
-
-            Cake Autorate is a latency-driven shaper that reduces or raises CAKE bandwidth in real time based on probe RTT. No active speed tests are performed; only lightweight pings are used. Recommended whenever the WAN bandwidth fluctuates; not needed on stable links.
+        Cake Autorate is a latency-driven shaper that reduces or raises CAKE bandwidth in real time based on probe RTT. No active speed tests are performed; only lightweight pings are used. Recommended whenever the WAN bandwidth fluctuates; not needed on stable links.
             
-            ![cake autorate](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/cake_autorate.png){class="glboxshadow" width=600}
+        ![cake autorate](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/cake_autorate.png){class="glboxshadow" width=600}
 
-            **Note**: Cake Autorate generates continuous background probe traffic. Consider this additional data usage when using a metered connection.
+        **Note**: Cake Autorate generates continuous background probe traffic. Consider this additional data usage when using a metered connection.
 
-            The default settings are suitable for most connections. Only change these parameters if you understand how they affect Cake Autorate. If needed, click **Reset to Default** to restore the default probe and threshold settings.
+        The default settings are suitable for most connections. Only change the following parameters if you understand how they affect Cake Autorate. If needed, click **Reset to Default** to restore the default probe and threshold settings.
 
-            ![Probe & threshold parameters](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/probe_threshold_parameters.png){class="glboxshadow" width=600}
+        ![Probe & threshold parameters](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/probe_threshold_parameters.png){class="glboxshadow" width=600}
 
-            - **Probe Server Addresses**: A list of IP addresses separated by commas, used for network quality probing. 
+        - **Probe Server Addresses**: A list of IP addresses separated by commas, used for network quality probing.
 
-            - **Probe Interval**: Shorter intervals enable faster response but consume more CPU resources. 
+        - **Probe Interval**: Shorter intervals enable faster response but consume more CPU resources.
 
-            - **Concurrent Probes**: The number of concurrent probes must not exceed the number of probe servers; higher values increase CPU load.
+        - **Concurrent Probes**: The number of concurrent probes must not exceed the number of probe servers; higher values increase CPU load.
 
-            - **Idle Detection Threshold**: When the transfer rate falls below this value, the connection will be considered idle. This value must not exceed 25% of the configured speed limit.
+        - **Idle Detection Threshold**: When the transfer rate falls below this value, the connection will be considered idle. This value must not exceed 25% of the configured speed limit.
 
-            - **Download Latency Threshold**: When download latency exceeds this threshold, bandwidth reduction is triggered.
+        - **Download Latency Threshold**: When download latency exceeds this threshold, bandwidth reduction is triggered.
 
-            - **Upload Latency Threshold**: When upload latency exceeds this threshold, bandwidth reduction is triggered.
+        - **Upload Latency Threshold**: When upload latency exceeds this threshold, bandwidth reduction is triggered.
 
     - **fq_codel**: Simple, efficient fair queueing with basic latency reduction.
 

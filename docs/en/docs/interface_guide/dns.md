@@ -1,5 +1,17 @@
 # DNS
 
+**Note**: The content on this page is based on firmware version v4.10 and earlier. 
+
+If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.10 and earlier" markdown="1">
+
+- [Firmware v4.11](dns_v4.11.md)
+
+</div>
+
+---
+
 On the left side of the web Admin Panel, go to **NETWORK** -> **DNS**.
 
 The DNS settings on your router control how domain names are translated into IP addresses. This page lets you use the DNS server(s) automatically obtained from upstream devices, or set custom ones, and configure DNS priorities.

@@ -1,6 +1,6 @@
 # Mesh
 
-**Note**: This feature is introduced in firmware v4.10.
+**Note**: This feature was introduced in firmware v4.10.
 
 Mango 2 (GL-MG1300) and Mudi 7 (GL-E5800) do not support Mesh even with firmware v4.10 or later.
 

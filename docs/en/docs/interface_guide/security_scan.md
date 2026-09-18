@@ -1,6 +1,6 @@
 # Security Scan
 
-**Note**: This feature is introduced in firmware v4.11.
+**Note**: This feature was introduced in firmware v4.11.
 
 ---
 

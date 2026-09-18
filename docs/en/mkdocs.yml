@@ -374,6 +374,7 @@ nav:
   - Home: index.md
   - User Guide:
     - Overview: user_guide/index.md
+    - GL-MT6000 (Fortify): user_guide/gl-mt6000ft/index.md
     - GL-MG1300 (Mango 2): user_guide/gl-mg1300/index.md
     - GL-BE14000 (Flint 4): user_guide/gl-be14000/index.md
     - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md

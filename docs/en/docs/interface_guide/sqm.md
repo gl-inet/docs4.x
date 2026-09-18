@@ -1,8 +1,8 @@
 # SQM (Smart Queue Management)
 
-**Note**: This feature was introduced in firmware v4.9.
+**Note**: This feature was introduced in firmware v4.9. Some models, such as Mango 2 (GL-MG1300), do not support SQM due to insufficient memory, even when running firmware v4.9 or later.
 
----
+On the left side of the web Admin Panel, go to **FLOW CONTROL** -> **SQM**. 
 
 SQM (Smart Queue Management) intelligently manages your router's network traffic to minimize latency and "bufferbloat", ensuring smoother gaming and voice calls. 
 
@@ -14,22 +14,55 @@ SQM (Smart Queue Management) intelligently manages your router's network traffic
 4. SQM and QoS cannot be enabled simultaneously.
 5. SQM cannot work with Network Acceleration. Enabling SQM will automatically disable Network Acceleration to ensure stable performance.
 
-## Supported Models
+## For firmware v4.11 and above
 
-!!! note "Supported Models"
+Toggle the switch to enable SQM, then complete the configuration following the steps below.
 
-    - GL-BE14000 (Flint 4)
-    - GL-BE10000 (Slate 7 Pro)
-    - GL-MT3600BE (Beryl 7)
-    - GL-MT5000 (Brume 3)
-    - GL-BE9300 (Flint 3)
-    - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint 2)
-    - GL-MT3000 (Beryl AX)
+![sqm v4.11](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/sqm_v4.11.png){class="glboxshadow" width=600}
 
-## Quick Setup
+1. **WAN Bandwidth**
 
-On the left side of the web Admin Panel, go to **FLOW CONTROL** -> **SQM**. 
+    Enter your WAN upload and download speeds (input range: 1 - 10000) manually, or click **Run Speedtest** to measure them and automatically populate the fields. An active internet connection is required to run the speed test.
+
+    ![wan bandwidth](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/wan_bandwidth.png){class="glboxshadow" width=600}
+
+    **Note**: Values entered in the input field are in **Mbps** (megabits per second). The equivalent **MB/s** (megabytes per second) is displayed for your reference.
+
+2. **Queue Discipline**
+
+    Select a queueing rule to manage traffic and reduce latency under load.
+
+    ![queue discipline](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/queue_discipline.png){class="glboxshadow" width=600}
+
+    - **cake**: Smart, automatic traffic shaping with superior overall latency control (recommended). 
+    
+        When **cake** is selected as the queue discipline, **Cake Autorate** is available as an optional feature.
+
+        Cake Autorate is a latency-driven shaper that reduces or raises CAKE bandwidth in real time based on probe RTT. No active speed tests are performed; only lightweight pings are used. Recommended whenever the WAN bandwidth fluctuates; not needed on stable links.
+            
+        ![cake autorate](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/cake_autorate.png){class="glboxshadow" width=600}
+
+        **Note**: Cake Autorate generates continuous background probe traffic. Consider this additional data usage when using a metered connection.
+
+        The default settings are suitable for most connections. Only change the following parameters if you understand how they affect Cake Autorate. If needed, click **Reset to Default** to restore the default probe and threshold settings.
+
+        ![Probe & threshold parameters](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/probe_threshold_parameters.png){class="glboxshadow" width=600}
+
+        - **Probe Server Addresses**: A list of IP addresses separated by commas, used for network quality probing.
+
+        - **Probe Interval**: Shorter intervals enable faster response but consume more CPU resources.
+
+        - **Concurrent Probes**: The number of concurrent probes must not exceed the number of probe servers; higher values increase CPU load.
+
+        - **Idle Detection Threshold**: When the transfer rate falls below this value, the connection will be considered idle. This value must not exceed 25% of the configured speed limit.
+
+        - **Download Latency Threshold**: When download latency exceeds this threshold, bandwidth reduction is triggered.
+
+        - **Upload Latency Threshold**: When upload latency exceeds this threshold, bandwidth reduction is triggered.
+
+    - **fq_codel**: Simple, efficient fair queueing with basic latency reduction.
+
+## For firmware v4.9 to v4.10
 
 Toggle the switch to enable SQM, and set your maximum upload and download speeds (input range: 1 - 10000) for traffic scheduling. Match them to your actual internet bandwidth for the best results.
 
@@ -47,7 +80,7 @@ For Queue Rule, two options are available:
 
 !!! Tip
 
-    A difference between QoS and SQM settings is that the QoS allows you set the application priorities, with the router allocating bandwidth accordingly; while the SQM allows you to select a queue rule.
+    A difference between QoS and SQM settings is that the QoS allows you to set the application priorities, with the router allocating bandwidth accordingly; while the SQM allows you to select a queue rule.
 
 ---
 

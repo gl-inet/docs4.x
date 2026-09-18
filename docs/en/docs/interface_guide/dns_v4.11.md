@@ -80,27 +80,27 @@ Select the DNS Provider first. The remaining options will change according to yo
 
     ![encrypted manual 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns_v4.11/encrypted_manual_2.png){class="glboxshadow" width=550}
 
-#### Encryption Type Comparison
+!!! tip "Encryption Type Comparison"
 
-1. **DNS over TLS (DoT)**
+    1. **DNS over TLS (DoT)**
 
-    Encrypts DNS queries via a dedicated TLS port. It isolates DNS traffic from regular web traffic and is easy to identify by network operators.
+        Encrypts DNS queries via a dedicated TLS port. It isolates DNS traffic from regular web traffic and is easy to identify by network operators.
 
-2. **DNS over HTTPS (DoH)**
+    2. **DNS over HTTPS (DoH)**
 
-    Transmits DNS data inside standard HTTPS traffic. It blends DNS requests with normal web traffic for strong privacy and bypasses simple traffic filtering.
+        Transmits DNS data inside standard HTTPS traffic. It blends DNS requests with normal web traffic for strong privacy and bypasses simple traffic filtering.
 
-3. **DNS over QUIC (DoQ)**
-    
-    Encapsulates DNS over the QUIC protocol. It features low latency, fast reconnection and stable performance on unstable networks.
+    3. **DNS over QUIC (DoQ)**
+        
+        Encapsulates DNS over the QUIC protocol. It features low latency, fast reconnection and stable performance on unstable networks.
 
-4. **Oblivious DNS over HTTPS (ODoH)**
+    4. **Oblivious DNS over HTTPS (ODoH)**
 
-    An enhanced version of DoH. It separates user IP from DNS queries, preventing both server and network providers from tracking your browsing activity.
+        An enhanced version of DoH. It separates user IP from DNS queries, preventing both server and network providers from tracking your browsing activity.
 
-5. **DNSCrypt**
+    5. **DNSCrypt**
 
-    A mature encryption protocol for DNS. It authenticates and encrypts DNS traffic, focusing on anti-tampering and compatibility with legacy network environments.
+        A mature encryption protocol for DNS. It authenticates and encrypts DNS traffic, focusing on anti-tampering and compatibility with legacy network environments.
 
 ## DNS Options
 

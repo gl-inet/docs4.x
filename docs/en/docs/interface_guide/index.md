@@ -43,6 +43,7 @@ Learn how to use our devices and add-on features with our step to step guides.
 * [Set up OpenVPN Server](openvpn_server.md)
 * [Set up WireGuard Client](wireguard_client.md)
 * [Set up WireGuard Server](wireguard_server.md)
+* [ExpressVPN Activation Guide](expressvpn_activation_guide.md)
 
 ## Network
 

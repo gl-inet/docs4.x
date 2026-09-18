@@ -556,6 +556,7 @@ nav:
       - OpenVPN Server: interface_guide/openvpn_server.md
       - WireGuard Client: interface_guide/wireguard_client.md
       - WireGuard Server: interface_guide/wireguard_server.md
+      - ExpressVPN Activation: interface_guide/expressvpn_activation_guide.md
     - Network:
       - Firewall: interface_guide/firewall.md
       - Port Forwarding: interface_guide/port_forwarding.md

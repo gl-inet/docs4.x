@@ -35,7 +35,7 @@ Toggle the switch to enable QoS, then complete the configuration by following th
 
     - **Device Priority**
 
-        When the WAN connection is congested, selected local clients **receive** higher network priority. Click **Add Device** to add target devices, and these devices get bandwidth priority during heavy WAN load.
+        When the WAN connection is congested, selected local clients receive higher network priority. Click **Add Device** to add target devices, and these devices get bandwidth priority during heavy WAN load.
 
         ![device priority](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/device_priority.png){class="glboxshadow" width=600}
 
@@ -45,7 +45,7 @@ Toggle the switch to enable QoS, then complete the configuration by following th
 
     - **Application Priority**
 
-        Toggle the switch to enable **Application Priority** and set priorities for different applications. The router will allocate bandwidth accordingly.
+        Toggle the switch to enable Application Priority and set priorities for different applications. The router will allocate bandwidth accordingly.
 
         ![application priority](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/application_priority.png){class="glboxshadow" width=600}
 
@@ -63,7 +63,7 @@ Toggle the switch to enable QoS, then complete the configuration by following th
 
     - **Advanced QoS**
 
-        Toggle the switch to enable **Advanced QoS** and create custom high-priority traffic rules. Click **Add Rule** to define rules based on protocol, port, and source IP to assign higher priority to matched traffic.
+        Toggle the switch to enable Advanced QoS and create custom high-priority traffic rules. Click **Add Rule** to define rules based on protocol, port, and source IP to assign higher priority to matched traffic.
 
         ![advanced qos](https://static.gl-inet.com/docs/router/en/4/interface_guide/qos/advanced_qos.png){class="glboxshadow" width=600}
 

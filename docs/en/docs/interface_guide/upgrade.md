@@ -66,6 +66,14 @@ Manually upload a modem firmware file from your computer to update the cellular 
 
 ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
+## DPI Online Upgrade
+
+The DPI Online Upgrade checks for and updates the DPI engine and its signature database, ensuring accurate traffic identification for Data Statistics, Content Filter, and other DPI-related features.
+
+**Note**: This feature was introduced in firmware v4.11.
+
+![dpi online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/dpi_online_upgrade.png){class="glboxshadow" width=700}
+
 ---
 
 Still have questions? Visit our [Community Forum](https://forum.gl-inet.com){target="_blank"} or [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

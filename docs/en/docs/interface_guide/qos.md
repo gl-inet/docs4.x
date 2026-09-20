@@ -1,6 +1,6 @@
 # QoS (Quality of Service)
 
-**Note**: This feature was introduced in firmware v4.9. Some models, such as Mango 2 (GL-MG1300), do not support SQM due to insufficient memory, even when running firmware v4.9 or later.
+**Note**: This feature was introduced in firmware v4.9. Some models, such as Mango 2 (GL-MG1300), do not support QoS due to insufficient memory, even when running firmware v4.9 or later.
 
 ---
 

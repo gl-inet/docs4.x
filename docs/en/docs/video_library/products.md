@@ -2,6 +2,42 @@
 
 An Introduction to our future products, and a glimpse into our latest development.
 
+## GL-MT6000 (Fortify)
+
+High-Performance Wi-Fi 6 Router with ExpressVPN Built-in
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n5Iq2_SIoGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MG1300 (Mango 2)
+
+Dual-band Mini Travel Router
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4p_puCeItsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-BE14000 (Flint 4)
+
+Tri-band Wi-Fi 7 Home Router
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2sCuVkLA9gA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-E5800 (Mudi 7)
+
+All-in-One 5G Wi-Fi 7 Dual SIM Travel Router
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZIt4UZXAmgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MT3600BE (Beryl 7)
+
+Pocket-sized Dual-band Wi-Fi 7 Travel Router
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2jqG2ckihCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MT5000 (Brume 3)
+
+High-Speed VPN Security Gateway
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bAxAgkzC1vU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-BE9300 (Flint 3)
 
 Tri-band Wi-Fi 7 Home Router
@@ -10,7 +46,7 @@ Tri-band Wi-Fi 7 Home Router
 
 ## GL-BE3600 (Slate 7)
 
-Dual-band Wi-Fi 7 Travel Router
+Dual-band Wi-Fi 7 Travel Router with Touchscreen
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5u0bzFlL-3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

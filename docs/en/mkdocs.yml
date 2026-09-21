@@ -525,7 +525,6 @@ nav:
       - SSH log in to the Router: tutorials/ssh_log_in_to_the_router.md
       - Use WinSCP to access share files: tutorials/winscp_share_file.md
       - Use WinSCP to modify files: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
-      - Activate or top up T-Mobile SIM cards: tutorials/how_to_activate_top_up_sim_cards.md
       - Change the NAT type on Gaming: tutorials/how_to_change_the_nat_type_on_gaming.md
       - Retrieve the mobile App log: tutorials/how_to_retrieve_the_mobile_app_log.md
       - Configure Domain and IP Filtering rules: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md

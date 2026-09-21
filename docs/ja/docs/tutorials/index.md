@@ -13,7 +13,7 @@ hide:
 * [GL.iNetルーターでOpenVPNクライアントを設定する方法](how_to_set_up_openvpn_client.md)
 * [GL.iNetルーターでOpenVPNサーバーを設定する方法](how_to_set_up_openvpn_server.md)
 * [2台のGL.iNetルーターで独自のWireGuardホームサーバーを構築する方法](build_your_own_wireguard_home_server_with_two_glinet_routers.md)
-* [GL.iNetルーターでVPN Obfuscationを設定する方法](vpn_obfuscation.md)
+* [GL.iNetルーターでVPN Obfuscationを設定する方法](how_to_set_up_vpn_obfuscation_on_glinet_routers.md)
 * [AmneziaWG Obfuscation Parametersを設定する方法](../faq/amneziawg_obfuscation.md)
 * [GL.iNetルーターでDedicated IPを使ってNordVPNに接続する方法](how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md)
 * [GL.iNetルーターでDedicated IPを使ってSurfsharkに接続する方法](how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md)

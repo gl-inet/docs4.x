@@ -13,7 +13,7 @@ Aprenda a usar correctamente nuestros dispositivos con pasos detallados.
 * [Cómo configurar un cliente OpenVPN en routers GL.iNet](how_to_set_up_openvpn_client.md)
 * [Cómo configurar un servidor OpenVPN en routers GL.iNet](how_to_set_up_openvpn_server.md)
 * [Cree su propio servidor WireGuard doméstico con dos routers GL.iNet](build_your_own_wireguard_home_server_with_two_glinet_routers.md)
-* [Cómo configurar la ofuscación VPN en routers GL.iNet](vpn_obfuscation.md)
+* [Cómo configurar la ofuscación VPN en routers GL.iNet](how_to_set_up_vpn_obfuscation_on_glinet_routers.md)
 * [Cómo configurar los parámetros de ofuscación de AmneziaWG](../faq/amneziawg_obfuscation.md)
 * [Cómo conectarse a NordVPN con una IP dedicada en routers GL.iNet](how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md)
 * [Cómo conectarse a Surfshark con una IP dedicada en routers GL.iNet](how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md)

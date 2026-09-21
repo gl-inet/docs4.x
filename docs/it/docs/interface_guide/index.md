@@ -44,6 +44,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 * [Configurare OpenVPN Server](openvpn_server.md)
 * [Configurare WireGuard Client](wireguard_client.md)
 * [Configurare WireGuard Server](wireguard_server.md)
+* [Guida all'attivazione di ExpressVPN](expressvpn_activation_guide.md)
 * [VPN Policy (per firmware v4.7 e precedenti)](vpn_dashboard_v4.7.md#proxy-mode)
 * [VPN Policy (per firmware v4.8 e successivi)](vpn_dashboard_v4.8.md#policy-mode)
 * [Come configurare NordVPN sul router?](openvpn_client.md#set-up-nordvpn)
@@ -88,6 +89,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 
 ## Controllo del traffico
 
+* [Qualità della rete](network_quality.md)
 * [DPI Engine](dpi_engine.md)
 * [Data Statistics](data_statistics.md)
 * [Content Filter](content_filter.md)
@@ -97,6 +99,7 @@ Scopri come usare i nostri dispositivi e le funzioni aggiuntive con le nostre gu
 
 ## Sicurezza
 
+* [Scansione di sicurezza](security_scan.md)
 * [Port Forwarding](port_forwarding.md)
 * [ACL (lista di controllo accessi)](acl.md)
 * [Accesso amministratore](admin_access.md)

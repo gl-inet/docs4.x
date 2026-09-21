@@ -7,4 +7,6 @@ hide:
 
 Poznaj najważniejsze nowe funkcje, ulepszenia funkcjonalne i zmiany strukturalne w najnowszej wersji firmware.
 
+- [Firmware v4.10](firmware_v4.10.md)
+
 - [Firmware v4.9](firmware_v4.9.md)

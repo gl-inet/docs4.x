@@ -133,10 +133,17 @@
   </div>
 </div>
 
-### Wi-Fi para el hogar
+### Router doméstico
 
 <div class="gl-product-row">
   <div class="gl-product-row-box">
+    <div class="gl-product-card">
+      <a href="gl-mt6000ft">
+        <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_mt6000_fortify.jpg" >
+        <div class="gl-product-model">GL-MT6000</div>
+        <div class="gl-product-model">(Fortify)</div>
+      </a>
+    </div>
     <div class="gl-product-card">
       <a href="gl-be14000/">
         <img src="https://static.gl-inet.com/www/images/products/general/product-list/product-list_be14000.png" >

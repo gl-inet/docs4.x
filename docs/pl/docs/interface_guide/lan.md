@@ -8,7 +8,7 @@ Ta strona obejmuje ustawienia podstawowe, ustawienia serwera DHCP oraz rezerwacj
 
 ## Ustawienia podstawowe
 
-Możesz ustawić podsieć w obrębie prywatnych zakresów adresów IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
+Możesz ustawić podsieć w obrębie prywatnych zakresów adresów IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
 ![lan basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/basic_settings.jpg){class="glboxshadow"}
 

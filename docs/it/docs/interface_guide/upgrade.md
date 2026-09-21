@@ -62,6 +62,14 @@ Carica manualmente dal computer un file firmware del modem per aggiornare il mod
 
 ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
+## Aggiornamento online DPI
+
+L'aggiornamento online DPI controlla e aggiorna il motore DPI e il relativo database delle firme, garantendo un'identificazione accurata del traffico per Statistiche dati, Filtro contenuti e altre funzioni basate su DPI.
+
+**Nota**: questa funzione è stata introdotta nel firmware v4.11.
+
+![dpi online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/dpi_online_upgrade.png){class="glboxshadow" width=700}
+
 ---
 
 Hai ancora domande? Visita il nostro [Community Forum](https://forum.gl-inet.com){target="_blank"} o [contattaci](https://www.gl-inet.com/contacts/){target="_blank"}.

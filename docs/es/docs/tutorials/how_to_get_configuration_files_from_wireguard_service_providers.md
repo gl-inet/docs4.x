@@ -370,20 +370,28 @@
 
     3. Siga [esta guía](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) para continuar.
 
-??? "xvpn"
-    ### xvpn
+??? "X-VPN"
+    ### X-VPN
 
-    [Official Website](https://xvpn.io){target="_blank"}
+    [Sitio web oficial](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}
 
-    Si utiliza [xvpn](https://xvpn.io){target="_blank"}, inicie sesión y siga los pasos a continuación para descargar los archivos de configuración de WireGuard.
+    X-VPN está integrado en los routers GL.iNet a partir del firmware v4.11.
 
-    ![xvpn WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn_vpn_on_router.png){class="glboxshadow"}
+    Si el router utiliza el firmware v4.11 o posterior, puede iniciar sesión en X-VPN directamente desde el panel de administración web de GL.iNet mediante un token de inicio de sesión. Consulte los detalles [aquí](../interface_guide/wireguard_client.md#set-up-x-vpn).
 
-    1. En el menú de la izquierda, vaya a **VPN** -> **VPN on Router**.
+    Si el router utiliza una versión anterior a v4.11 o desea descargar manualmente un archivo de configuración de X-VPN, siga los pasos siguientes.
+
+    1. [Inicie sesión](https://xvpn.io/login){target="_blank"} en X-VPN y vaya a **VPN** -> **VPN on Router**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn1.png){class="glboxshadow"}
 
     2. En el lado derecho, busque **Step 1** y seleccione **WireGuard** como protocolo.
 
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn2.png){class="glboxshadow"}
+
     3. En **Step 2**, elija la **Region** y la **State/City** que prefiera, y luego haga clic en el botón **Search**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn3.png){class="glboxshadow"}
 
     4. En los resultados de búsqueda, haga clic en el botón de descarga para obtener el archivo de configuración del servidor deseado.
 

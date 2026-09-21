@@ -66,9 +66,9 @@ W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
 - **Gateway**: Urządzenie routujące ruch między siecią lokalną a sieciami zewnętrznymi, takimi jak Internet.
 
-- **DNS Server**: Dostępne są dwa pola serwera DNS do skonfigurowania podstawowego i zapasowego resolvera.
+- **DNS Server 1**: serwer podstawowy tłumaczący nazwy domen na adresy IP.
 
-    **Uwaga**: Podstawowy DNS wpisuje się w górnym polu, a zapasowy w dolnym. Jeśli serwer podstawowy będzie niedostępny, urządzenia klienckie automatycznie przełączą się awaryjnie na zapasowy resolver, zapewniając ciągłość rozwiązywania nazw domen.
+- **DNS Server 2**: serwer zapasowy używany do rozwiązywania nazw domen, gdy podstawowy serwer DNS jest niedostępny.
 
 - **LPR Server** (Line Printer Remote Server): Usługa zarządzająca zadaniami drukowania i umożliwiająca urządzeniom sieciowym wysyłanie żądań drukowania do zdalnych drukarek. Można skonfigurować wiele portów drukarek LPR.
 
@@ -166,9 +166,9 @@ W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
 - **Gateway**: Urządzenie routujące ruch między siecią lokalną a sieciami zewnętrznymi, takimi jak Internet.
 
-- **DNS Server**: Dostępne są dwa pola serwera DNS do skonfigurowania podstawowego i zapasowego resolvera.
+- **DNS Server 1**: serwer podstawowy tłumaczący nazwy domen na adresy IP.
 
-    **Uwaga**: Podstawowy DNS wpisuje się w górnym polu, a zapasowy w dolnym. Jeśli serwer podstawowy będzie niedostępny, urządzenia klienckie automatycznie przełączą się awaryjnie na zapasowy resolver, zapewniając ciągłość rozwiązywania nazw domen.
+- **DNS Server 2**: serwer zapasowy używany do rozwiązywania nazw domen, gdy podstawowy serwer DNS jest niedostępny.
 
 - **LPR Server** (Line Printer Remote Server): Usługa zarządzająca zadaniami drukowania i umożliwiająca urządzeniom sieciowym wysyłanie żądań drukowania do zdalnych drukarek. Można skonfigurować wiele portów drukarek LPR.
 
@@ -242,9 +242,9 @@ W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
 - **Gateway**: Urządzenie routujące ruch między siecią lokalną a sieciami zewnętrznymi, takimi jak Internet.
 
-- **DNS Server**: Dostępne są dwa pola serwera DNS do skonfigurowania podstawowego i zapasowego resolvera.
+- **DNS Server 1**: serwer podstawowy tłumaczący nazwy domen na adresy IP.
 
-    **Uwaga**: Podstawowy DNS wpisuje się w górnym polu, a zapasowy w dolnym. Jeśli serwer podstawowy będzie niedostępny, urządzenia klienckie automatycznie przełączą się awaryjnie na zapasowy resolver, zapewniając ciągłość rozwiązywania nazw domen.
+- **DNS Server 2**: serwer zapasowy używany do rozwiązywania nazw domen, gdy podstawowy serwer DNS jest niedostępny.
 
 - **LPR Server** (Line Printer Remote Server): Usługa zarządzająca zadaniami drukowania i umożliwiająca urządzeniom sieciowym wysyłanie żądań drukowania do zdalnych drukarek. Można skonfigurować wiele portów drukarek LPR.
 
@@ -318,9 +318,9 @@ W razie potrzeby kliknij **Advanced**, aby przejść do dalszej konfiguracji.
 
 - **Gateway**: Urządzenie routujące ruch między siecią lokalną a sieciami zewnętrznymi, takimi jak Internet.
 
-- **DNS Server**: Dostępne są dwa pola serwera DNS do skonfigurowania podstawowego i zapasowego resolvera.
+- **DNS Server 1**: serwer podstawowy tłumaczący nazwy domen na adresy IP.
 
-    **Uwaga**: Podstawowy DNS wpisuje się w górnym polu, a zapasowy w dolnym. Jeśli serwer podstawowy będzie niedostępny, urządzenia klienckie automatycznie przełączą się awaryjnie na zapasowy resolver, zapewniając ciągłość rozwiązywania nazw domen.
+- **DNS Server 2**: serwer zapasowy używany do rozwiązywania nazw domen, gdy podstawowy serwer DNS jest niedostępny.
 
 - **LPR Server** (Line Printer Remote Server): Usługa zarządzająca zadaniami drukowania i umożliwiająca urządzeniom sieciowym wysyłanie żądań drukowania do zdalnych drukarek. Można skonfigurować wiele portów drukarek LPR.
 

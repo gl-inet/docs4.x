@@ -1,33 +1,17 @@
 # Comment configurer l’obfuscation VPN sur les routeurs GL.iNet
 
-## Qu’est-ce que l’obfuscation VPN
+**Remarque** : les routeurs GL.iNet prennent en charge AmneziaWG à partir du firmware v4.9. Commencez par mettre à niveau votre routeur vers une version compatible.
 
-L’obfuscation VPN est une technique qui déguise le trafic VPN pour le faire ressembler à du trafic Internet ordinaire. Cela aide les utilisateurs à contourner les restrictions réseau et la censure, en particulier dans les régions soumises à des politiques Internet strictes.
+Ce tutoriel présente deux scénarios permettant de configurer l'obfuscation AmneziaWG sur les routeurs GL.iNet.
 
-- Elle masque les caractéristiques du VPN afin d’empêcher sa détection par les FAI, les pare-feu ou l’inspection approfondie des paquets (DPI).
-
-- Elle fait apparaître votre connexion VPN comme du trafic web standard, améliorant ainsi la stabilité et le taux de réussite de la connexion sur les réseaux restreints.
-
-## Qu’est-ce qu’AmneziaWG
-
-AmneziaWG est un protocole VPN basé sur WireGuard, avec une obfuscation du trafic intégrée. Il conserve les principaux avantages de WireGuard, tels que la vitesse élevée, la légèreté et la faible latence, tout en ajoutant un module d’obfuscation dédié. Ce module masque efficacement les modèles de trafic VPN, ce qui permet aux particuliers comme aux entreprises de protéger leur vie privée en ligne, de contourner les restrictions régionales et d’éviter les interruptions de connexion causées par des contrôles réseau stricts.
-
-AmneziaWG est compatible avec un large éventail d’appareils, notamment Windows, macOS, iOS, Android, Linux et les routeurs, offrant des connexions VPN obfusquées fiables dans tous les scénarios.
-
-Actuellement, plusieurs routeurs GL.iNet (par ex. **Brume 3**, **Flint 3**, **Flint 2** et **Beryl AX**) prennent en charge le protocole AmneziaWG dans certaines versions de firmware. La prise en charge officielle complète sera disponible avec le firmware ver.4.9 et sera progressivement déployée sur davantage de modèles.
-
-## Configuration rapide
-
-Vous trouverez ci-dessous deux scénarios courants pour configurer l’obfuscation VPN AmneziaWG sur les routeurs GL.iNet.
-
-### Scénario 1. Utilisation de deux routeurs GL.iNet
+## Scénario 1. Utilisation de deux routeurs GL.iNet
 
 Ce scénario utilise deux routeurs GL.iNet pour établir une connexion VPN obfusquée via le protocole AmneziaWG.
 
-- **Brume 3 (GL-MT5000)** : utilisé comme serveur VPN domestique.
-- **Beryl AX (GL-MT3000)** : utilisé comme client VPN portable pour les déplacements.
+- Brume 3 (GL-MT5000) : utilisé comme serveur VPN domestique.
+- Beryl AX (GL-MT3000) : utilisé comme client VPN portable pour les déplacements.
 
-#### Configurer le serveur VPN
+### Configurer le serveur VPN
 
 1. Connectez-vous au panneau d’administration web du Brume 3.
 
@@ -85,7 +69,7 @@ Ce scénario utilise deux routeurs GL.iNet pour établir une connexion VPN obfus
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
-#### Configurer le client VPN
+### Configurer le client VPN
 
 1. Connectez-vous au panneau d’administration web du Beryl AX.
 
@@ -133,13 +117,13 @@ Ce scénario utilise deux routeurs GL.iNet pour établir une connexion VPN obfus
 
     La connexion VPN est terminée. Tous les appareils connectés au Beryl AX accèdent maintenant à Internet via la passerelle du Brume 3, ce qui permet une connexion VPN obfusquée.
 
-### Scénario 2. Utilisation d’un seul routeur GL.iNet
+## Scénario 2. Utilisation d’un seul routeur GL.iNet
 
 Ce scénario utilise un seul routeur GL.iNet **Brume 3 (GL-MT5000)** comme client VPN pour se connecter à un serveur AmneziaVPN.
 
 Dans ce cas, vous n’avez pas besoin de déployer votre propre serveur. Téléchargez simplement un fichier de configuration AmneziaWG depuis le [site officiel d’Amnezia](https://amnezia.org/){target="_blank"} ou depuis n’importe quel fournisseur de services VPN intégrant AmneziaWG, puis téléversez ce fichier sur votre routeur GL.iNet. Vous pourrez alors établir une connexion VPN avec obfuscation activée.
 
-#### Télécharger la configuration
+### Télécharger la configuration
 
 <u>Option 1</u> : télécharger une configuration depuis Amnezia Official (abonnement Premium requis).
 
@@ -167,7 +151,7 @@ Prenons StarVPN comme exemple.
 
     Suivez ensuite les étapes ci-dessous pour configurer le client VPN.
 
-#### Configurer le client VPN
+### Configurer le client VPN
 
 1. Connectez-vous au panneau d’administration web du Brume 3.
 

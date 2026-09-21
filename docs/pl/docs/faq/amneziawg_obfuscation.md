@@ -8,7 +8,7 @@ Poniżej znajdziesz szczegółowe omówienie AmneziaWG, różnic między wersjam
 
 Poprzednik AmneziaWG, czyli WireGuard, ugruntował swoją pozycję jako szybki i niezawodny protokół VPN dzięki zwartej bazie kodu i wysokiej wydajności. Jednak jego stałe nagłówki pakietów i przewidywalne rozmiary pakietów tworzą łatwo rozpoznawalną sygnaturę. Systemy DPI mogą bez trudu identyfikować takie pakiety i natychmiast zrywać połączenia – co jest krytycznym problemem w krajach objętych ścisłą cenzurą internetu.
 
-AmneziaWG dziedziczy prostotę architektury i wysoką wydajność oryginalnej implementacji, ale usuwa rozpoznawalne sygnatury sieciowe, które sprawiają, że WireGuard jest łatwy do wykrycia przez systemy głębokiej inspekcji pakietów (DPI).
+AmneziaWG zachowuje prostotę architektury i wysoką wydajność oryginalnej implementacji WireGuard, dodając dedykowany moduł maskowania wzorców ruchu VPN. Pomaga to użytkownikom indywidualnym i firmowym chronić prywatność online oraz utrzymywać stabilne połączenia w restrykcyjnych środowiskach sieciowych.
 
 W skrócie:
 
@@ -35,11 +35,11 @@ Dzięki tym usprawnieniom ruch VPN jest trudniejszy do wykrycia, przy zachowaniu
             
     > Uwaga: I1-I5 nie są generowane automatycznie. Użytkownicy mogą ręcznie dodać je jako dodatkowe linie w pliku konfiguracji, aby ruch AmneziaWG wyglądał jak inne popularne protokoły, takie jak QUIC lub WebRTC.
 
-## AmneziaWG na routerach GL.iNet
+## Obsługiwane modele
 
-Obecnie kilka routerów GL.iNet (np. Brume 3, Flint 3, Flint 2 i Beryl AX) obsługuje protokół AmneziaWG w wybranych wersjach oprogramowania. Pełne oficjalne wsparcie będzie dostępne w oprogramowaniu w wersji 4.9 i stopniowo rozszerzane na kolejne modele.
+AmneziaWG 2.0 jest dostępny na routerach GL.iNet z firmware v4.9 lub nowszym.
 
-Aby skonfigurować maskowanie VPN na routerach GL.iNet, zobacz [tutaj](../tutorials/vpn_obfuscation.md).
+Aby skonfigurować maskowanie VPN na routerach GL.iNet, zobacz [tutaj](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
 
 ## Przegląd parametrów
 
@@ -61,7 +61,7 @@ Aby skonfigurować maskowanie VPN na routerach GL.iNet, zobacz [tutaj](../tutori
 
 Powiązany artykuł:
 
-- [Jak skonfigurować maskowanie VPN na routerach GL.iNet](../tutorials/vpn_obfuscation.md){target="_blank"}
+- [Jak skonfigurować maskowanie VPN na routerach GL.iNet](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md){target="_blank"}
 
 ---
 

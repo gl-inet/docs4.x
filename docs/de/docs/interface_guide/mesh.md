@@ -2,19 +2,21 @@
 
 **Hinweis**: Diese Funktion wurde mit Firmware v4.10 eingeführt.
 
+Mango 2 (GL-MG1300) und Mudi 7 (GL-E5800) unterstützen Mesh auch mit Firmware v4.10 oder höher nicht.
+
 ---
 
 Navigieren Sie auf der linken Seite des webbasierten Admin Panels zu **MESH**.
 
 Mesh ist eine auf dem Wi-Fi EasyMesh™-Standard basierende Funktion, die die WLAN-Abdeckung im gesamten Zuhause erweitert und nahtloses Roaming ermöglicht. Wenn Sie mehrere GL.iNet-Router besitzen, legen Sie einen davon als Hauptrouter und die übrigen als Mesh-Knoten fest. Dadurch können Sie sich in Ihrem Zuhause bewegen, ohne die WLAN-Verbindung wechseln zu müssen.
 
+## Schnelleinrichtung
+
 Im folgenden Beispiel wird mit Flint 3 (GL‑BE9300) und Slate 7 (GL‑BE3600) ein Mesh-Netzwerk eingerichtet.
 
-- **Flint 3** ist der Hauptrouter, der die Verbindung zum Internet herstellt und alle Mesh-Knoten verwaltet.
+**Flint 3** ist der Hauptrouter, der die Verbindung zum Internet herstellt und alle Mesh-Knoten verwaltet.
 
-- **Slate 7** ist der Mesh-Knoten, der die WLAN-Abdeckung des Hauptrouters erweitert.
-
-## Schnelleinrichtung
+**Slate 7** ist der Mesh-Knoten, der die WLAN-Abdeckung des Hauptrouters erweitert.
 
 1. Schalten Sie den Mesh-Knoten ein und stellen Sie ihn in der Nähe des Hauptrouters auf.
 

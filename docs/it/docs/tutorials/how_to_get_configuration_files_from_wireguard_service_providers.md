@@ -370,20 +370,28 @@
 
     3. Continua seguendo [questa guida](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers).
 
-??? "xvpn"
-    ### xvpn
+??? "X-VPN"
+    ### X-VPN
 
-    [Sito ufficiale](https://xvpn.io){target="_blank"}
+    [Sito ufficiale](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}
 
-    Se usi [xvpn](https://xvpn.io){target="_blank"}, accedi e segui i passaggi qui sotto per scaricare i file di configurazione WireGuard.
+    X-VPN è integrato nei router GL.iNet a partire dal firmware v4.11.
 
-    ![xvpn WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn_vpn_on_router.png){class="glboxshadow"}
+    Se il router esegue il firmware v4.11 o successivo, puoi accedere a X-VPN direttamente dal pannello di amministrazione web GL.iNet usando un token di accesso. Fai clic [qui](../interface_guide/wireguard_client.md#set-up-x-vpn) per i dettagli.
 
-    1. Nel menu a sinistra, vai su **VPN** -> **VPN on Router**.
+    Se il router esegue un firmware precedente alla v4.11 o vuoi scaricare manualmente un file di configurazione X-VPN, segui i passaggi seguenti.
+
+    1. [Accedi](https://xvpn.io/login){target="_blank"} a X-VPN, quindi vai a **VPN** -> **VPN on Router**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn1.png){class="glboxshadow"}
 
     2. Sul lato destro, individua **Step 1** e seleziona **WireGuard** come protocollo.
 
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn2.png){class="glboxshadow"}
+
     3. In **Step 2**, scegli la **Region** e la **State/City** che preferisci, quindi fai clic sul pulsante **Search**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn3.png){class="glboxshadow"}
 
     4. Nei risultati della ricerca, fai clic sul pulsante di download per ottenere il file di configurazione del server desiderato.
 

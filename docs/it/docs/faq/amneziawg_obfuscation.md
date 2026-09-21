@@ -6,7 +6,7 @@ AmneziaWG è un protocollo VPN basato su WireGuard con offuscamento del traffico
 
 Il predecessore di AmneziaWG, WireGuard, si è affermato come protocollo VPN veloce e affidabile grazie alla sua base di codice compatta e all'elevata efficienza. Tuttavia, i suoi header di pacchetto fissi e le dimensioni prevedibili dei pacchetti creano una firma facilmente riconoscibile. I sistemi DPI possono identificare questi pacchetti senza difficoltà e interrompere immediatamente le connessioni, un problema critico nei Paesi con una forte censura di Internet.
 
-AmneziaWG eredita la semplicità architetturale e le alte prestazioni dell'implementazione originale, ma elimina le firme di rete riconoscibili che rendono WireGuard facilmente rilevabile dai sistemi di Deep Packet Inspection (DPI).
+AmneziaWG eredita la semplicità architetturale e le alte prestazioni dell'implementazione WireGuard originale, aggiungendo un modulo di offuscamento dedicato che nasconde i modelli del traffico VPN. Questo aiuta utenti privati e aziendali a proteggere la privacy online e a mantenere connessioni stabili in ambienti di rete restrittivi.
 
 In breve:
 
@@ -33,11 +33,11 @@ Questi miglioramenti rendono il traffico VPN più difficile da rilevare, mantene
             
     > Nota: I1-I5 non vengono generati automaticamente. Gli utenti possono aggiungerli manualmente come righe aggiuntive nel file di configurazione per far sembrare il traffico AmneziaWG simile ad altri protocolli comuni, come QUIC o WebRTC.
 
-## AmneziaWG sui router GL.iNet
+## Modelli supportati
 
-Attualmente, diversi router GL.iNet (ad esempio Brume 3, Flint 3, Flint 2 e Beryl AX) supportano il protocollo AmneziaWG in versioni firmware selezionate. Il supporto ufficiale completo sarà disponibile con il firmware ver.4.9 e verrà gradualmente esteso ad altri modelli.
+AmneziaWG 2.0 è disponibile sui router GL.iNet con firmware v4.9 o successivo.
 
-Per configurare l'offuscamento VPN sui router GL.iNet, consulta [qui](../tutorials/vpn_obfuscation.md).
+Per configurare l'offuscamento VPN sui router GL.iNet, consulta [qui](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
 
 ## Panoramica dei parametri
 
@@ -59,7 +59,7 @@ Riferimenti: [Documentazione ufficiale di AmneziaWG](https://docs.amnezia.org/do
 
 Articolo correlato:
 
-- [Come configurare l'offuscamento VPN sui router GL.iNet](../tutorials/vpn_obfuscation.md){target="_blank"}
+- [Come configurare l'offuscamento VPN sui router GL.iNet](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md){target="_blank"}
 
 ---
 

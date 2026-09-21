@@ -1,82 +1,155 @@
 # データ統計
 
-データ統計は、アプリケーションやプロトコルごとのネットワーク利用状況を把握できる、直感的なトラフィックダッシュボードです。過去 1 時間、1 日、7 日の履歴トレンド表示、利用ランキング、デバイスごとのトラフィック監視、不要なアプリのワンクリックブロックに対応しています。
+**注**: この機能はファームウェア v4.9 で導入されました。 Mango 2 (GL-MG1300) などの一部のモデルは、ファームウェア v4.9 以降を実行している場合でも、メモリ不足のためデータ統計をサポートしません。
 
-**Note**:
+---
 
-1. データ統計は、ルーターが Drop-in Gateway モードのときは動作しません。
-2. データ統計は **Network Acceleration** と併用できません。有効にすると、安定したパフォーマンスを確保するため **Network Acceleration** は自動的に無効になります。
-3. データ統計で集計されるのは、**Clients**ページに表示されているデバイスのトラフィック使用量のみです。デバイスがトンネルインターフェース（VPN Client、Tailscale、AstroWarpなど）経由でルーターに接続している場合、そのデバイスを送信元としてルーターから転送されるトラフィックは統計に含まれません。
+Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移動します。
 
-## 対応モデル
+データ統計は、アプリケーションおよびプロトコルごとのネットワーク使用状況を識別する直感的なトラフィック ダッシュボードを提供します。 1 時間、1 日、7 日間の履歴トレンドの表示をサポートし、使用状況ランキングを表示し、デバイスごとのトラフィックを監視し、ワンクリックで不要なアプリをブロックできます。
 
-!!! note "Supported Models"
-    - GL-BE14000 (Flint 4)
-    - GL-BE10000 (Slate 7 Pro)
-    - GL-MT3600BE (Beryl 7)
-    - GL-MT5000 (Brume 3)
-    - GL-BE9300 (Flint 3)
-    - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint 2)
-    - GL-MT3000 (Beryl AX)
+**注**:
 
+1. ルーターがドロップイン ゲートウェイ モードの場合、データ統計は有効になりません。
+2. データ統計はネットワーク アクセラレーションと併用できません。データ統計を有効にすると、ネットワーク アクセラレーションが自動的に無効になり、安定したパフォーマンスが保証されます。
+3. データ統計は、クライアント ページにリストされているデバイスのトラフィック使用量のみを追跡します。デバイスがトンネル インターフェイス （VPNクライアント、Tailscale、AstroWarpなど） 経由でルーターに接続している場合、そのデバイスから発信されルーター経由で転送されるトラフィックは、これらの統計から除外されます。
 
-## クイックセットアップ
+## ファームウェア v4.11 以降の場合
 
-Web Admin Panel の左側で、**FLOW CONTROL** -> **Data Statistics** に移動します。
+右上隅にあるスイッチを切り替えて、**Application Total Data** を表示します。
 
-右上のスイッチをオンにすると、**Application Total Data** を表示できます。
+![data statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/data_statistics.png){class="glboxshadow"}
+
+このページは 2 つの部分で構成されています。
+
+- **Top 10 Apps by Bandwidth Usage**: 時間ベースのトレンド チャート （過去1日など） を表示し、選択した期間における上位 10 個のアプリケーションの帯域幅消費量を示します。
+
+    グラフの上にマウスを置くと、特定の時点での帯域幅を消費する上位 10 個のアプリのデータ使用量が表示されます。
+
+    ![top10 apps chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/top10_apps_chart.png){class="glboxshadow"}
+
+- **App Traffic Statistics**: ダウンロード、アップロード、総帯域幅など、各アプリケーションの詳細なトラフィック メトリックが表示されます。必要に応じて、検索バーで特定のアプリを検索します。
+
+    列ヘッダーの横にある並べ替え矢印をクリックして、リストを昇順または降順に並べ替えます。
+
+    ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat.png){class="glboxshadow"}
+
+### データストレージルール
+
+1. トラフィック統計は 15 秒ごとに RAM に保存され、1 時間ごとにフラッシュに保存されます。フラッシュ メモリの寿命を保護するために、頻繁なフラッシュ書き込みが回避されます。
+
+2. ソフト リブートによってデータが失われることはありません。システムは再起動する前に、まず RAM からフラッシュにデータを書き込みます。
+
+3. （電源を抜き差しすること） のハード リブートまたはファームウェア アップグレード （設定を保持） を行うと、直近 1 時間までのデータが失われる可能性があります。
+
+### クライアントセレクター
+
+クライアント セレクターを使用すると、特定のクライアントを選択することも、デフォルトのすべてのクライアントを維持することもできます。グラフと統計テーブルは自動的に更新され、選択したデバイスのトラフィック データのみが表示されます。
+
+**注**: この機能はファームウェア v4.11 で導入されました。
+
+![client selector](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/client_selector.png){class="glboxshadow"}
+
+### チャートビューの切り替え
+
+アプリのトラフィック統計を表示するときに、必要に応じてグラフの種類を切り替えることができます。
+
+**注**: この機能はファームウェア v4.11 で導入されました。
+
+![switch chart views](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/switch_chart_views.png){class="glboxshadow"}
+
+- **Line chart**: グラフは、選択した時間範囲にわたる帯域幅の使用状況を追跡します。連続的な曲線は、時間の経過とともにトラフィックがどのように変化するかを明らかにするため、使用量の増加傾向と減少傾向を特定するのに最適です。
+
+    ![Line chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/line_chart.png){class="glboxshadow"}
+
+- **Bar chart**: このグラフは、アプリケーション全体の帯域幅使用量を並べて比較しています。個々のバーは、どのアプリがより多くの帯域幅を消費するかを一目で明確に示します。
+
+    ![Bar chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/bar_chart.png){class="glboxshadow"}
+
+- **Pie chart**: このグラフは、合計帯域幅使用量を割合に分けて示しています。スライスは、各アプリケーションによって使用されるトラフィックの相対的な割合を視覚化します。
+
+    ![pie chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/pie_chart.png){class="glboxshadow"}
+
+### 時間範囲の切り替え
+
+必要に応じて、時間範囲を過去 1 時間、過去 1 日、過去 1 週間の間で切り替えることができます。
+
+![select time range](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/select-time-range.png){class="glboxshadow"}
+
+選択した時間範囲によって、データの表示方法が決まります。
+
+- **For a closer look （過去1時間など）**: チャートには、きめの細かいリアルタイムの変動が表示されます。ピークはより高く、低下はより急峻であるため、帯域幅使用量の突然の急増を簡単に発見できます。
+
+    ![past hour](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past-hour.png){class="glboxshadow"}
+
+- **For a broad overview （過去1日または過去1週間など）**: グラフは、データをより長いタイムラインに凝縮します。曲線はより滑らかになり、小さな変化ではなく全体的な交通傾向を示します。
+
+    ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past-week.png){class="glboxshadow"}
+
+### 統計の消去
+
+必要に応じて、左上隅のほうきアイコンをクリックして統計をクリアします。
+
+![clear data 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data_1.png){class="glboxshadow"}
+
+クリア後、以下のようにページが更新されます。新しい統計の読み込みが開始されるまで、少しお待ちいただく必要がある場合があります。
+
+![clear data 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data_2.png){class="glboxshadow"}
+
+## ファームウェア v4.9 ～ v4.10 の場合
+
+右上隅にあるスイッチを切り替えて、**Application Total Data** を表示します。
 
 ![data statistics](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/data_stat.png){class="glboxshadow"}
 
 このページは 2 つの部分で構成されています。
 
-- **Top 10 Apps by Bandwidth Usage**: 選択した期間における上位 10 個のアプリの帯域幅使用量を、時間ベースのトレンドチャート（例: 過去 1 日）で表示します。
+- **Top 10 Apps by Bandwidth Usage**: 時間ベースのトレンド チャート （過去1日など） を表示し、選択した期間における上位 10 個のアプリケーションの帯域幅消費量を示します。
 
-    グラフにマウスカーソルを合わせると、特定時点における帯域幅消費量上位 10 個のアプリのデータ使用量を確認できます。
+    グラフの上にマウスを置くと、特定の時点での帯域幅を消費する上位 10 個のアプリのデータ使用量が表示されます。
 
     ![top10 apps chart](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/top10_apps_chart.png){class="glboxshadow"}
 
-- **App Traffic Statistics**: 各アプリケーションの Download、Upload、Total Bandwidth などの詳細なトラフィック指標を表示します。必要に応じて、検索バーで特定のアプリを検索できます。
+- **App Traffic Statistics**: ダウンロード、アップロード、合計帯域幅など、各アプリケーションの詳細なトラフィック メトリックが表示されます。必要に応じて、検索バーで特定のアプリを検索します。
 
-    列ヘッダー横の並べ替え矢印をクリックすると、昇順または降順で一覧を並べ替えられます。
+    列ヘッダーの横にある並べ替え矢印をクリックして、リストを昇順または降順に並べ替えます。
 
     ![app traffic stat](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/app_traffic_stat1.png){class="glboxshadow"}
 
-## データ保存ルール
+### データストレージルール
 
-1. トラフィック統計は 15 秒ごとに RAM へ保存され、1 時間ごとにフラッシュへ書き込まれます。フラッシュメモリの寿命を保護するため、頻繁な書き込みは避けられています。
+1. トラフィック統計は 15 秒ごとに RAM に保存され、1 時間ごとにフラッシュに保存されます。フラッシュ メモリの寿命を保護するために、頻繁なフラッシュ書き込みが回避されます。
 
-2. ソフト再起動ではデータは失われません。再起動前に、システムが RAM 内のデータを先にフラッシュへ書き込みます。
+2. ソフト リブートによってデータが失われることはありません。システムは再起動する前に、まず RAM からフラッシュにデータを書き込みます。
 
-3. ハード再起動（電源の抜き差し）やファームウェア更新（設定保持あり）では、直近 1 時間分までのデータが失われる場合があります。
+3. ハード リブート （電源を抜き差しすること） またはファームウェア アップグレード （設定を保持） を行うと、直近 1 時間までのデータが失われる可能性があります。
 
-## 表示期間を切り替える
+### 時間範囲の切り替え
 
-必要に応じて、Past hour、Past day、Past week の表示期間を切り替えられます。
+必要に応じて、時間範囲を過去 1 時間、過去 1 日、過去 1 週間の間で切り替えることができます。
 
 ![select time range](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/select_time_range.jpg){class="glboxshadow"}
 
-選択した表示期間によって、データの見え方が変わります。
+選択した時間範囲によって、データの表示方法が決まります。
 
-- **細かく確認したい場合（例: Past Hour）**: グラフには、より細かいリアルタイムの変動が表示されます。ピークは高く、落ち込みは急になり、帯域幅使用量の急増を把握しやすくなります。
+- **For a closer look （過去1時間など）**: チャートには、きめの細かいリアルタイムの変動が表示されます。ピークはより高く、低下はより急峻であるため、帯域幅使用量の突然の急増を簡単に発見できます。
 
     ![past hour](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_hour.png){class="glboxshadow"}
 
-- **全体像を確認したい場合（例: Past Day または Past Week）**: グラフはより長いタイムラインにデータを集約して表示します。曲線はなめらかになり、細かな変化よりも全体的なトラフィック傾向を把握しやすくなります。
+- **For a broad overview （過去1日または過去1週間など）**: グラフは、データをより長いタイムラインに凝縮します。曲線はより滑らかになり、小さな変化ではなく全体的な交通傾向を示します。
 
     ![past week](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/past_week.png){class="glboxshadow"}
 
-## 統計をクリアする
+### 統計の消去
 
-必要に応じて、左上のほうきアイコンをクリックして統計をクリアできます。
+必要に応じて、左上隅のほうきアイコンをクリックして統計をクリアします。
 
 ![clear data](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data1.png){class="glboxshadow"}
 
-クリア後、ページは以下のように更新されます。新しい統計の読み込みが始まるまで、少し待つ必要がある場合があります。
+クリア後​​、以下のようにページが更新されます。新しい統計の読み込みが開始されるまで、少しお待ちいただく必要がある場合があります。
 
 ![clear data](https://static.gl-inet.com/docs/router/en/4/interface_guide/data_statistics/clear_data2.png){class="glboxshadow"}
 
 ---
 
-ご不明な点がある場合は、[Community Forum](https://forum.gl-inet.com){target="_blank"} をご利用いただくか、[Contact us](https://www.gl-inet.com/contacts/){target="_blank"} からお問い合わせください。
+まだ質問がありますか? [Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} にアクセスしてください。

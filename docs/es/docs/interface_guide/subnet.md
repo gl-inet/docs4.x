@@ -66,9 +66,9 @@ Haga clic en **Advanced** para una configuración adicional si es necesario.
 
 - **Gateway**: El dispositivo que enruta el tráfico entre la red local y redes externas como Internet.
 
-- **DNS Server**: Hay dos campos de servidor DNS para configurar el resolver principal y el secundario.
+- **DNS Server 1**: Servidor principal que traduce los nombres de dominio en direcciones IP.
 
-    **Nota**: El DNS principal se introduce en el campo superior y el secundario en el campo inferior. Si el servidor principal no está disponible, los dispositivos cliente harán failover automáticamente al resolver secundario, lo que mantiene la continuidad de la resolución de nombres de dominio.
+- **DNS Server 2**: Servidor secundario que se utiliza para resolver nombres de dominio cuando el servidor DNS principal no está disponible.
 
 - **LPR Server** (Line Printer Remote Server): Un servicio que gestiona trabajos de impresión y permite que los dispositivos de red envíen solicitudes de impresión a impresoras remotas. Se pueden configurar varios puertos de impresora LPR.
 
@@ -166,9 +166,9 @@ Haga clic en **Advanced** para una configuración adicional si es necesario.
 
 - **Gateway**: El dispositivo que enruta el tráfico entre la red local y redes externas como Internet.
 
-- **DNS Server**: Hay dos campos de servidor DNS para configurar el resolver principal y el secundario.
+- **DNS Server 1**: Servidor principal que traduce los nombres de dominio en direcciones IP.
 
-    **Nota**: El DNS principal se introduce en el campo superior y el secundario en el campo inferior. Si el servidor principal no está disponible, los dispositivos cliente harán failover automáticamente al resolver secundario, lo que mantiene la continuidad de la resolución de nombres de dominio.
+- **DNS Server 2**: Servidor secundario que se utiliza para resolver nombres de dominio cuando el servidor DNS principal no está disponible.
 
 - **LPR Server** (Line Printer Remote Server): Un servicio que gestiona trabajos de impresión y permite que los dispositivos de red envíen solicitudes de impresión a impresoras remotas. Se pueden configurar varios puertos de impresora LPR.
 
@@ -242,9 +242,9 @@ Haga clic en **Advanced** para una configuración adicional si es necesario.
 
 - **Gateway**: El dispositivo que enruta el tráfico entre la red local y redes externas como Internet.
 
-- **DNS Server**: Hay dos campos de servidor DNS para configurar el resolver principal y el secundario.
+- **DNS Server 1**: Servidor principal que traduce los nombres de dominio en direcciones IP.
 
-    **Nota**: El DNS principal se introduce en el campo superior y el secundario en el campo inferior. Si el servidor principal no está disponible, los dispositivos cliente harán failover automáticamente al resolver secundario, lo que mantiene la continuidad de la resolución de nombres de dominio.
+- **DNS Server 2**: Servidor secundario que se utiliza para resolver nombres de dominio cuando el servidor DNS principal no está disponible.
 
 - **LPR Server** (Line Printer Remote Server): Un servicio que gestiona trabajos de impresión y permite que los dispositivos de red envíen solicitudes de impresión a impresoras remotas. Se pueden configurar varios puertos de impresora LPR.
 
@@ -318,9 +318,9 @@ Haga clic en **Advanced** para una configuración adicional si es necesario.
 
 - **Gateway**: El dispositivo que enruta el tráfico entre la red local y redes externas como Internet.
 
-- **DNS Server**: Hay dos campos de servidor DNS para configurar el resolver principal y el secundario.
+- **DNS Server 1**: Servidor principal que traduce los nombres de dominio en direcciones IP.
 
-    **Nota**: El DNS principal se introduce en el campo superior y el secundario en el campo inferior. Si el servidor principal no está disponible, los dispositivos cliente harán failover automáticamente al resolver secundario, lo que mantiene la continuidad de la resolución de nombres de dominio.
+- **DNS Server 2**: Servidor secundario que se utiliza para resolver nombres de dominio cuando el servidor DNS principal no está disponible.
 
 - **LPR Server** (Line Printer Remote Server): Un servicio que gestiona trabajos de impresión y permite que los dispositivos de red envíen solicitudes de impresión a impresoras remotas. Se pueden configurar varios puertos de impresora LPR.
 

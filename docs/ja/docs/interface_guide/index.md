@@ -44,6 +44,7 @@ hide:
 * [OpenVPNサーバーを設定する](openvpn_server.md)
 * [WireGuardクライアントを設定する](wireguard_client.md)
 * [WireGuardサーバーを設定する](wireguard_server.md)
+* [ExpressVPNアクティベーションガイド](expressvpn_activation_guide.md)
 * [VPNポリシー（ファームウェア v4.7 以前）](vpn_dashboard_v4.7.md#proxy-mode)
 * [VPNポリシー（ファームウェア v4.8 以降）](vpn_dashboard_v4.8.md#policy-mode)
 * [ルーターで NordVPN を設定する方法](openvpn_client.md#set-up-nordvpn)
@@ -88,6 +89,7 @@ hide:
 
 ## フロー制御
 
+* [ネットワーク品質](network_quality.md)
 * [DPI Engine](dpi_engine.md)
 * [データ統計](data_statistics.md)
 * [コンテンツフィルター](content_filter.md)
@@ -97,6 +99,7 @@ hide:
 
 ## セキュリティ
 
+* [セキュリティスキャン](security_scan.md)
 * [ポートフォワーディング](port_forwarding.md)
 * [ACL（アクセス制御リスト）](acl.md)
 * [管理者アクセス](admin_access.md)

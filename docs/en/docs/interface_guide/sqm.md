@@ -1,6 +1,10 @@
 # SQM (Smart Queue Management)
 
-**Note**: This feature was introduced in firmware v4.9. Some models, such as Mango 2 (GL-MG1300), do not support SQM due to insufficient memory, even when running firmware v4.9 or later.
+**Note**: This feature was introduced in firmware v4.9. 
+
+Some models, such as Mango 2 (GL-MG1300), do not support SQM due to insufficient memory, even when running firmware v4.9 or later.
+
+---
 
 On the left side of the web Admin Panel, go to **FLOW CONTROL** -> **SQM**. 
 
@@ -13,6 +17,43 @@ SQM (Smart Queue Management) intelligently manages your router's network traffic
 3. SQM will not take effect when the router is in Drop-in Gateway mode.
 4. SQM and QoS cannot be enabled simultaneously.
 5. SQM cannot work with Network Acceleration. Enabling SQM will automatically disable Network Acceleration to ensure stable performance.
+
+## Supported Models
+
+??? "Supported Models"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint2)
+    - GL-MT3000 (Beryl AX)
+
+??? "Unsupported Models"
+    - GL-MG1300 (Mango 2)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-B3000 (Marble)
+    - GL-AX1800 (Flint)
+    - GL-AXT1800 (Slate AX)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
+    - GL-A1300 (Slate Plus)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
 
 ## For firmware v4.11 and above
 

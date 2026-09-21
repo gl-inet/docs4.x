@@ -8,7 +8,7 @@ Il comprend les paramètres de base, les paramètres du serveur DHCP et la rése
 
 ## Paramètres de base
 
-Vous pouvez définir le sous-réseau dans les plages d'adresses privées IPv4 suivantes : `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
+Vous pouvez définir le sous-réseau dans les plages d'adresses privées IPv4 suivantes : `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
 ![lan basic settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/lan/basic_settings.jpg){class="glboxshadow"}
 

@@ -1,5 +1,17 @@
 # DNS
 
+**注**：このページの内容は、ファームウェアv4.10以前に基づいています。
+
+デバイスで別のファームウェアバージョンを使用している場合は、次のセレクターで対応するガイドに切り替えてください。
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.10 and earlier" markdown="1">
+
+- [ファームウェアv4.11](dns_v4.11.md)
+
+</div>
+
+---
+
 Web Admin Panel の左側で、**NETWORK** -> **DNS** に移動します。
 
 ルーターの DNS 設定では、ドメイン名をどのように IP アドレスへ変換するかを制御します。このページでは、上位デバイスから自動取得した DNS サーバーを使うか、カスタム DNS サーバーを設定するか、また DNS の優先順位を設定できます。
@@ -28,41 +40,41 @@ Web Admin Panel の左側で、**NETWORK** -> **DNS** に移動します。
 
 ファームウェアのバージョンに応じて、以下の説明を参照してください。
 
-!!! note "ファームウェア v4.8 以前"
+#### ファームウェアv4.8以前
 
-    4 種類の暗号化方式を利用できます。DNS over TLS、DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS です。
+4 種類の暗号化方式を利用できます。DNS over TLS、DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS です。
 
-    まず **Encryption Type** を選択してください。選択に応じて残りのオプションが変わります。
+まず **Encryption Type** を選択してください。選択に応じて残りのオプションが変わります。
 
-    ![encrypted dns types](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_types.png){class="glboxshadow"}
+![encrypted dns types](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_types.png){class="glboxshadow"}
 
-    - **DNS over TLS (DoT)** では、**Control D**、**NextDNS**、**Cloudflare** から DNS プロバイダーを選択します。
+- **DNS over TLS (DoT)** では、**Control D**、**NextDNS**、**Cloudflare** から DNS プロバイダーを選択します。
 
-        ![dns over tls](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_tls.png){class="glboxshadow"}
+    ![dns over tls](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_tls.png){class="glboxshadow"}
 
-    - **それ以外の 3 種類（DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS）** では、リポジトリから少なくとも 1 つの DNS Server を選択します。
+- **それ以外の 3 種類（DNSCrypt-Proxy、DNS over HTTPS、Oblivious DNS over HTTPS）** では、リポジトリから少なくとも 1 つの DNS Server を選択します。
 
-        ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
+    ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
 
-!!! note "ファームウェア v4.9 以降"
+#### ファームウェアv4.9～v4.10
 
-    Encrypted DNS モードでは、Control D、NextDNS、Cloudflare に加えて、**Quad9**、**CleanBrowsing**、**AdGuard DNS**、**Google DNS**、**OpenDNS** も利用できます。必要に応じて暗号化 DNS サーバーを手動で指定することも可能です。
+Encrypted DNS モードでは、Control D、NextDNS、Cloudflare に加えて、**Quad9**、**CleanBrowsing**、**AdGuard DNS**、**Google DNS**、**OpenDNS** も利用できます。必要に応じて暗号化 DNS サーバーを手動で指定することも可能です。
 
-    まず **DNS Provider** を選択してください。選択に応じて残りのオプションが変わります。
+まず **DNS Provider** を選択してください。選択に応じて残りのオプションが変わります。
 
-    ![encrypted dns providers](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_providers.png){class="glboxshadow"}
+![encrypted dns providers](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/dns_providers.png){class="glboxshadow"}
 
-    - 特定の DNS プロバイダー（例: NextDNS）を選択した場合は、**DNS over TLS (DoT)**、**DNS over HTTPS (DoH)**、**DNS over QUIC (DoQ)** から暗号化方式を選択します。なお、**DNS over QUIC (DoQ)** はファームウェア v4.9 で導入された機能で、DNS プロバイダーに **Control D**、**NextDNS**、**AdGuard DNS** を選択した場合のみ利用できます。
+- 特定の DNS プロバイダー（例: NextDNS）を選択した場合は、**DNS over TLS (DoT)**、**DNS over HTTPS (DoH)**、**DNS over QUIC (DoQ)** から暗号化方式を選択します。なお、**DNS over QUIC (DoQ)** はファームウェア v4.9 で導入された機能で、DNS プロバイダーに **Control D**、**NextDNS**、**AdGuard DNS** を選択した場合のみ利用できます。
 
-        ![nextdns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/nextdns.png){class="glboxshadow"}
+    ![nextdns](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/nextdns.png){class="glboxshadow"}
 
-    - DNS プロバイダーに **Manual** を選択した場合は、**DNS over TLS (DoT)**、**DNS over HTTPS (DoH)**、**DNS over QUIC (DoQ)**、**Oblivious DNS over HTTPS**、**DNSCrypt** から暗号化方式を選択します。
+- DNS プロバイダーに **Manual** を選択した場合は、**DNS over TLS (DoT)**、**DNS over HTTPS (DoH)**、**DNS over QUIC (DoQ)**、**Oblivious DNS over HTTPS**、**DNSCrypt** から暗号化方式を選択します。
 
-        ![encrypted manual1](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_manual1.png){class="glboxshadow"}
+    ![encrypted manual1](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_manual1.png){class="glboxshadow"}
 
-        次に **Add a Server** をクリックして、少なくとも 1 つの DNS サーバーを追加します。暗号化 DNS の URL または stamp 形式を直接入力できます。公開サーバーの一覧は [https://dnscrypt.info/public-servers](https://dnscrypt.info/public-servers){target="_blank"} を参照してください。
+    次に **Add a Server** をクリックして、少なくとも 1 つの DNS サーバーを追加します。暗号化 DNS の URL または stamp 形式を直接入力できます。公開サーバーの一覧は [https://dnscrypt.info/public-servers](https://dnscrypt.info/public-servers){target="_blank"} を参照してください。
 
-        ![encrypted manual2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_manual2.png){class="glboxshadow"}
+    ![encrypted manual2](https://static.gl-inet.com/docs/router/en/4/interface_guide/dns/encrypted_manual2.png){class="glboxshadow"}
 
 #### 暗号化方式の比較
 

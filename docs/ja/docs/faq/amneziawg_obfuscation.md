@@ -6,7 +6,7 @@ AmneziaWG は、トラフィック難読化機能を内蔵した WireGuard ベ�
 
 AmneziaWG の前身である WireGuard は、コンパクトなコードベースと高い効率により、高速で信頼性の高い VPN プロトコルとして広く利用されています。しかし、固定されたパケットヘッダーと予測しやすいパケットサイズにより、識別しやすいシグネチャが生まれます。DPI システムはこれらのパケットを容易に特定し、直ちに接続を遮断できます。これは、インターネット検閲が厳しい国では重大な問題です。
 
-AmneziaWG は、元の実装の設計のシンプルさと高い性能を引き継ぎつつ、WireGuard が Deep Packet Inspection（DPI）システムに容易に検出される原因となる識別可能なネットワークシグネチャを取り除いています。
+AmneziaWGは、元のWireGuard実装の設計のシンプルさと高い性能を引き継ぎながら、VPNトラフィックのパターンを隠す専用の難読化モジュールを追加しています。これにより、個人ユーザーと企業ユーザーのオンラインプライバシーを保護し、制限の厳しいネットワーク環境でも安定した接続を維持できます。
 
 簡単に言うと:
 - VPN の特徴を隠し、ISP、ファイアウォール、またはディープパケットインスペクション（DPI）による検出を防ぎます。
@@ -32,11 +32,11 @@ AmneziaWG v1.0 と比べて、v2.0 は新しいパラメーター（**S3~S4**）
             
     > 注意: I1-I5 は自動生成されません。ユーザーは設定ファイルに追加行として手動で記述し、AmneziaWG のトラフィックを QUIC や WebRTC などの一般的なプロトコルのように見せることができます。
 
-## GL.iNet ルーターでの AmneziaWG
+## 対応モデル
 
-現在、いくつかの GL.iNet ルーター（例：Brume 3、Flint 3、Flint 2、Beryl AX）が、特定のファームウェアバージョンで AmneziaWG プロトコルをサポートしています。正式なサポートはファームウェア ver.4.9 で提供され、順次より多くのモデルに展開される予定です。
+AmneziaWG 2.0は、ファームウェアv4.9以降のGL.iNetルーターで利用できます。
 
-GL.iNet ルーターで VPN 難読化を設定するには、[こちら](../tutorials/vpn_obfuscation.md) を参照してください。
+GL.iNetルーターでVPN難読化を設定するには、[こちらのチュートリアル](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md)を参照してください。
 
 ## パラメーター概要
 
@@ -58,7 +58,7 @@ GL.iNet ルーターで VPN 難読化を設定するには、[こちら](../tuto
 
 関連記事:
 
-- [GL.iNet ルーターで VPN 難読化を設定する方法](../tutorials/vpn_obfuscation.md){target="_blank"}
+- [GL.iNetルーターでVPN難読化を設定する方法](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md){target="_blank"}
 
 ---
 

@@ -1479,31 +1479,31 @@
     }
   },
   "docs/en/docs/interface_guide/cloud.md": {
-    "source_hash": "a12a700bd4a4eae26d36ed2f10f5c1a6dae32f6c2d65f17c8d09cf33b45f32bd",
+    "source_hash": "19f0b4a39455f383a398bc021ef486b866c1c4a948b2832685b78caad9e43770",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -1537,31 +1537,31 @@
     }
   },
   "docs/en/docs/interface_guide/data_statistics.md": {
-    "source_hash": "f23dcccbcc0ef387f150b718a634a2a261d3acc16089b6941de6c34ce96b9ffc",
+    "source_hash": "55e9a2826e298c26010e5e3b54023bfd336ac0a63e09f8c95aab881fdfe508b5",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -1624,31 +1624,31 @@
     }
   },
   "docs/en/docs/interface_guide/dns.md": {
-    "source_hash": "504f4e7054803c418608ad5424092aada3cf07448fbd1fed5e8555b6d38686e0",
+    "source_hash": "cf1c6aa84e2bd63dd398218573eca66de4486e40dfe1bd5e1c4618da375aaa2b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -1798,31 +1798,31 @@
     }
   },
   "docs/en/docs/interface_guide/guest_network.md": {
-    "source_hash": "fe5a7a1124401afb15c7bdf032dda0ecdc1d2e44a9bfc907f1c78c52928df139",
+    "source_hash": "347216a7035b8b518f3433752e46bd9875f166dfc638171f1710ae04a9d3a8b1",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -1943,31 +1943,31 @@
     }
   },
   "docs/en/docs/interface_guide/index.md": {
-    "source_hash": "a4c4702ebea97b6f2c40247c40001311ca53128bf50ff13c9fdcd092a5449442",
+    "source_hash": "0a1f228871cca4fb86077342abe0a9110e124a27fca06ef812e688e980cbfd74",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -2204,31 +2204,31 @@
     }
   },
   "docs/en/docs/interface_guide/lan.md": {
-    "source_hash": "fe724abfa88f84db4ac646a312a4b580a4db2563e65be8b51f2b53bb12d2b997",
+    "source_hash": "f89776ed8c2c9eef48b3b69c7ce8b580b9b2df82386d6a3c22feaf6e7722bce2",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -2581,31 +2581,31 @@
     }
   },
   "docs/en/docs/interface_guide/qos.md": {
-    "source_hash": "907db78763a842876db0c5780aefb6cf2671ec5d7ef50d58b3e13b055fc72f9e",
+    "source_hash": "31e29abf9e816de191dfb1bfae58add95bc6dda721d492ea64b848ca5a125a4b",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -2697,31 +2697,31 @@
     }
   },
   "docs/en/docs/interface_guide/sqm.md": {
-    "source_hash": "e3af29ecb4a589f145fe445f5666245a2540a9afa205ff8bc1af3a45380595a4",
+    "source_hash": "cffb1caf5b7eb242d257a19fbaa3f5439d1f4ed44acdb7a6e913e5632792b752",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -2900,31 +2900,31 @@
     }
   },
   "docs/en/docs/interface_guide/upgrade.md": {
-    "source_hash": "813b45af035f819bcb38df9fd3963b00e2c382f2ebc0182b2f361b11d2779021",
+    "source_hash": "e796606c104be48706b0e9bb8413e793c543a61eb3a54ad1c09ec093391b3446",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -3741,31 +3741,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md": {
-    "source_hash": "b9ac05aecaa4bc65274568b60c74f8639a1760c4f8ffcad1beed40213833eab4",
+    "source_hash": "cc811ec59bf52e770cc5478ba1cf95de9f240021d7a5da81b1d8c56fef0da9aa",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1784782206
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1784782206
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1784782206
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1784782206
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1784782206
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1784782206
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -4234,31 +4234,31 @@
     }
   },
   "docs/en/docs/tutorials/index.md": {
-    "source_hash": "b04b19d7405916ab04c35fc713880fbc1119f440d9077d4eaea1430cc7709144",
+    "source_hash": "abb3e5fd08078e6f341ef08264f13ccc681458c2ddb5ca6ba9368feb492855e6",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -4496,35 +4496,6 @@
   },
   "docs/en/docs/tutorials/use_wireguard_to_secure_rdp_from_outside_network.md": {
     "source_hash": "e34f24abfbe768c3c8422b49e1681aa9a1d9a1bef4dc31802d6707fd52609312",
-    "targets": {
-      "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
-      },
-      "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
-      },
-      "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
-      },
-      "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
-      },
-      "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
-      },
-      "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
-      }
-    }
-  },
-  "docs/en/docs/tutorials/vpn_obfuscation.md": {
-    "source_hash": "84a5d19f091f3203e290276033ac0a04fc150f8ef9b7ded9eb39b025de603b89",
     "targets": {
       "de": {
         "model": "manual-structural-sync",
@@ -5626,31 +5597,31 @@
     }
   },
   "docs/en/docs/user_guide/index.md": {
-    "source_hash": "0b6142e93c627115e936c0917c434c17ae21766e6d2af030ee66cea5e0ae2921",
+    "source_hash": "40c1076dff2d14bc524f220f51f2a9ad5794e32df42f1fb990c6e90a000136cb",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -5800,89 +5771,89 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "e37bdc105c7b678e3c1de030266280e3c15c7df097711e527561f58fed361b0f",
+    "source_hash": "f665c91f1734320ea3453033b9f3371fd4a5357f28aa2094a38003160b927793",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
   "docs/en/docs/features_update/index.md": {
-    "source_hash": "1450677b19501d9fca33a5b34dbf0337187dc7a4544da3f0dc9e856c58805926",
+    "source_hash": "765bc51f176dd28670e4f8b58d14d9be70e4267a9d3fd66d4b63a4eb4f56e08e",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "updated_at": 1789975896
       },
       "es": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "updated_at": 1789975896
       },
       "fr": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "updated_at": 1789975896
       },
       "it": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "updated_at": 1789975896
       },
       "ja": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "updated_at": 1789975896
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1783684521
+        "updated_at": 1789975896
       }
     }
   },
   "docs/en/docs/features_update/firmware_v4.9.md": {
-    "source_hash": "74dd0cda23e058c4a10396fd9254d349fcfa3936edf13a367f24bf5f93eaba8e",
+    "source_hash": "a44ccc92ff3710ba8879e89ede8ee518b814b6dc1ce35fb145315f247b842801",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789091540
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789091540
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789091540
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789091540
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789091540
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789091540
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -6034,31 +6005,31 @@
   "docs/en/docs/faq/amneziawg_obfuscation.md": {
     "targets": {
       "de": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
       },
       "es": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
       },
       "fr": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
       },
       "it": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
       },
       "ja": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
       },
       "pl": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
       }
     },
-    "source_hash": "b397f211fcbc58e222ab1fbcde8d6857eead6f48ad7092070c806118a85f6513"
+    "source_hash": "40ff04259fb7f61e68fd118a93943d2c89c2c286045f748decb4cd935b3d7136"
   },
   "docs/en/docs/tutorials/how_to_make_adguard_home_dns_bypass_vpn.md": {
     "source_hash": "2b8b6c3069d82d515bb1799cd479f0456bac3efcba0c2db9ae1353df7b00e096",
@@ -6409,31 +6380,31 @@
     }
   },
   "docs/en/docs/interface_guide/subnet.md": {
-    "source_hash": "05464000da2ede8bd8f032b6e96ef502ff45ac18c12c49f0a5ccc38b36a9c4a6",
+    "source_hash": "16bc22f4ecb84764ba75f0621e8f694863a7a4090eb4ef5c9ac07adbd39321f4",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -6467,31 +6438,31 @@
     }
   },
   "docs/en/docs/interface_guide/ethernet_port_v4.10.md": {
-    "source_hash": "83581f7431797e6cb144569a1b07ebec6104f9dadeddd9b58c86bb89cede4303",
+    "source_hash": "9df96806bd37516df4d49d548181a2970f6e3faff05c53ceb7bb8690eae610a0",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -6525,60 +6496,60 @@
     }
   },
   "docs/en/docs/interface_guide/mesh.md": {
-    "source_hash": "dd30cd7d7c881b012e5630c8270dae8e9fc889505e5c35b5552e2d1c506d9ee7",
+    "source_hash": "f77da3ed5aea4810b2d4e40a96fd212faaa028424e141f76efdbddf19cc3f59d",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
   "docs/en/docs/user_guide/gl-be14000/index.md": {
-    "source_hash": "7edb34e4c1f963fa11cddea68ef722ef35f9d71d6f45b0e3b7a3ff2394be8076",
+    "source_hash": "a04b7294a918d98ab0ca39b8bb39549ec115f42f5a1bfcf091370f1b9b2e3de6",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   },
@@ -6724,6 +6695,209 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1788747273
+      }
+    }
+  },
+  "docs/en/docs/features_update/firmware_v4.10.md": {
+    "source_hash": "10f2bab20cb5faf01c1a7c2d045d800d70e8ed5b95cc8cbe7c8804c97047f781",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "ja": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/dns_v4.11.md": {
+    "source_hash": "fa31de95c7c8b0f1efe13388c6b1c3e2489418c08277d9ce30fa66347894e4e3",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "ja": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/expressvpn_activation_guide.md": {
+    "source_hash": "2e6efcd2a3bcc239d66e118c7091f6267949a2b888ec26f657934eb61a8bf4a8",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "ja": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/network_quality.md": {
+    "source_hash": "dde3d0de335918f26d89a6d3d99eafc9b8562213d8e27635d8176c0b7f1e1782",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "ja": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      }
+    }
+  },
+  "docs/en/docs/interface_guide/security_scan.md": {
+    "source_hash": "c0ff0a46f57e18760898ad2b0473dd7b45292a504fc643ef2de79051d70e2139",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "ja": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      }
+    }
+  },
+  "docs/en/docs/tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md": {
+    "source_hash": "7b4c76b9154d3c4c4cc48b4b2fec6583713e1d7ad5f3d47e8f45f99a20ea6e7c",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
+      },
+      "ja": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789983243
+      }
+    }
+  },
+  "docs/en/docs/user_guide/gl-mt6000ft/index.md": {
+    "source_hash": "2dd8ff9e4025b7b7f6890bf79c6b158e52cddeaa202c9ee725e6048ac384289f",
+    "targets": {
+      "de": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "es": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "fr": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "it": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "ja": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
+      },
+      "pl": {
+        "model": "codex-gpt-5-manual-sync",
+        "updated_at": 1789975896
       }
     }
   }

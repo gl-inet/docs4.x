@@ -370,20 +370,28 @@
 
     3. Suivez [ce guide](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers) pour continuer.
 
-??? "xvpn"
-    ### xvpn
+??? "X-VPN"
+    ### X-VPN
 
-    [Site officiel](https://xvpn.io){target="_blank"}
+    [Site officiel](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}
 
-    Si vous utilisez [xvpn](https://xvpn.io){target="_blank"}, connectez-vous puis suivez les étapes ci-dessous pour télécharger les fichiers de configuration WireGuard.
+    X-VPN est intégré aux routeurs GL.iNet à partir du firmware v4.11.
 
-    ![xvpn WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn_vpn_on_router.png){class="glboxshadow"}
+    Si votre routeur utilise le firmware v4.11 ou une version ultérieure, vous pouvez vous connecter directement à X-VPN depuis le panneau d'administration Web de GL.iNet à l'aide d'un jeton de connexion. Consultez les détails [ici](../interface_guide/wireguard_client.md#set-up-x-vpn).
 
-    1. Dans le menu de gauche, accédez à **VPN** -> **VPN on Router**.
+    Si votre routeur utilise une version antérieure à v4.11 ou si vous souhaitez télécharger manuellement un fichier de configuration X-VPN, suivez les étapes ci-dessous.
+
+    1. [Connectez-vous](https://xvpn.io/login){target="_blank"} à X-VPN, puis accédez à **VPN** -> **VPN on Router**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn1.png){class="glboxshadow"}
 
     2. Sur la droite, repérez **Step 1** et sélectionnez **WireGuard** comme protocole.
 
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn2.png){class="glboxshadow"}
+
     3. Dans **Step 2**, choisissez la **Region** et la **State/City** de votre choix, puis cliquez sur le bouton **Search**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn3.png){class="glboxshadow"}
 
     4. Dans les résultats de recherche, cliquez sur le bouton de téléchargement pour obtenir le fichier de configuration du serveur souhaité.
 

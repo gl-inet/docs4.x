@@ -1,51 +1,87 @@
 # SQM (Smart Queue Management)
 
-SQM (Smart Queue Management) inteligentnie zarządza ruchem sieciowym routera, aby zminimalizować opóźnienia i efekt „bufferbloat”, zapewniając płynniejsze granie i rozmowy głosowe.
+**Uwaga**: Ta funkcja została wprowadzona w oprogramowaniu sprzętowym v4.9. Niektóre modele, takie jak Mango 2 (GL-MG1300), nie obsługują SQM z powodu niewystarczającej ilości pamięci, nawet jeśli działa oprogramowanie sprzętowe w wersji 4.9 lub nowszej.
+
+Po lewej stronie panelu administracyjnego przejdź do **FLOW CONTROL** -> **SQM**.
+
+SQM (Smart Queue Management) inteligentnie zarządza ruchem sieciowym routera, aby zminimalizować opóźnienia i „przepełnienie bufora”, zapewniając płynniejszą grę i połączenia głosowe.
 
 **Uwaga**:
 
-1. Ta funkcja wpływa tylko na ruch przechodzący przez router, gdy działa on jako brama, w tym ruch lokalnych klientów i ruch klienta VPN. Nie dotyczy ruchu przychodzącego, gdy router działa jako serwer VPN.
+1. Ta funkcja wpływa tylko na ruch przechodzący przez router, gdy działa on jako brama, w tym na ruch klientów lokalnych i ruch klientów VPN. Nie dotyczy to ruchu przychodzącego, gdy router pełni funkcję serwera VPN.
+2. Ponieważ SQM wymaga dużej ilości zasobów, działa najlepiej w przypadku sieci o niskiej przepustowości lub przeciążonych. Włączenie tej opcji na szybkich połączeniach może zmniejszyć szczytową przepustowość.
+3. SQM nie będzie działać, gdy router znajduje się w trybie bramy typu Drop-in.
+4. Nie można jednocześnie włączyć funkcji SQM i QoS.
+5. SQM nie może współpracować z akceleracją sieci. Włączenie SQM automatycznie wyłączy przyspieszenie sieci, aby zapewnić stabilną wydajność.
 
-2. Ponieważ SQM wymaga sporych zasobów, najlepiej sprawdza się w sieciach o niskiej przepustowości lub dużym obciążeniu. Włączenie go na szybkich łączach może obniżyć maksymalną przepustowość.
+## Dla oprogramowania sprzętowego w wersji 4.11 i nowszych
 
-3. SQM nie działa, gdy router pracuje w trybie Drop-in Gateway.
+Przełącz przełącznik, aby włączyć SQM, a następnie zakończ konfigurację, wykonując poniższe czynności.
 
-4. SQM i QoS nie mogą być włączone jednocześnie.
+![sqm v4.11](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/sqm_v4.11.png){class="glboxshadow" width=600}
 
-5. SQM nie współpracuje z funkcją Network Acceleration. Włączenie SQM automatycznie wyłączy Network Acceleration, aby zapewnić stabilną wydajność.
+1. **WAN Bandwidth**
 
-## Obsługiwane modele
+    Wprowadź ręcznie prędkość wysyłania i pobierania danych (zakres: 1–10000) w sieci WAN lub kliknij **Run Speedtest**, aby je zmierzyć i automatycznie wypełnić pola. Do uruchomienia testu prędkości wymagane jest aktywne połączenie internetowe.
 
-!!! note "Obsługiwane modele"
+    ![wan bandwidth](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/wan_bandwidth.png){class="glboxshadow" width=600}
 
-    - GL-BE14000 (Flint 4)
-    - GL-BE10000 (Slate 7 Pro)
-    - GL-MT3600BE (Beryl 7)
-    - GL-MT5000 (Brume 3)
-    - GL-BE9300 (Flint 3)
-    - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint 2)
-    - GL-MT3000 (Beryl AX)
+    **Uwaga**: Wartości wprowadzone w polu wejściowym znajdują się w **Mbps** (megabity na sekundę). Odpowiednik **MB/s** (megabajty na sekundę) jest wyświetlany w celach informacyjnych.
 
+2. **Queue Discipline**
 
-## Szybka konfiguracja
+    Wybierz regułę kolejkowania, aby zarządzać ruchem i zmniejszać opóźnienia pod obciążeniem.
 
-W lewym panelu webowego panelu administracyjnego przejdź do **FLOW CONTROL** -> **SQM**.
+    ![queue discipline](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/queue_discipline.png){class="glboxshadow" width=600}
 
-Włącz przełącznik, aby aktywować SQM, a następnie ustaw maksymalną prędkość wysyłania i pobierania (zakres wejściowy: 1–10000) na potrzeby planowania ruchu. Aby uzyskać najlepsze wyniki, dopasuj je do rzeczywistej przepustowości łącza internetowego.
+    - **cake**: Inteligentne, automatyczne kształtowanie ruchu z doskonałą ogólną kontrolą opóźnień. (zalecane).
+
+        Jeśli jako dyscyplinę kolejki wybrano **cake**, **Cake Autorate** jest dostępny jako funkcja opcjonalna.
+
+        Cake Autorate to narzędzie kształtujące oparte na opóźnieniach, które zmniejsza lub zwiększa przepustowość CAKE w czasie rzeczywistym w oparciu o sondę RTT. Nie są przeprowadzane żadne aktywne testy prędkości; używane są tylko lekkie pingi. Zalecane w przypadku wahań przepustowości sieci WAN; nie potrzebne na stabilnych łączach.
+
+        ![cake autorate](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/cake_autorate.png){class="glboxshadow" width=600}
+
+        **Uwaga**: Cake Autorate generuje ciągły ruch sondujący w tle. Należy wziąć pod uwagę dodatkowe użycie danych w przypadku korzystania z połączenia taryfowego.
+
+        Ustawienia domyślne są odpowiednie dla większości połączeń. Zmieniaj poniższe parametry tylko wtedy, gdy rozumiesz, jak wpływają one na Autoryzację Ciasto. W razie potrzeby kliknij **Reset to Default**, aby przywrócić domyślne ustawienia sondy i progu.
+
+        ![Probe & threshold parameters](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/probe_threshold_parameters.png){class="glboxshadow" width=600}
+
+        - **Probe Server Addresses**: Lista adresów IP oddzielonych przecinkami, używana do sprawdzania jakości sieci.
+
+        - **Probe Interval**: Krótsze interwały umożliwiają szybszą reakcję, ale zużywają więcej zasobów procesora.
+
+        - **Concurrent Probes**: Liczba jednoczesnych sond nie może przekraczać liczby serwerów sondujących; wyższe wartości zwiększają obciążenie procesora.
+
+        - **Idle Detection Threshold**: Gdy szybkość transmisji spadnie poniżej tej wartości, połączenie zostanie uznane za bezczynne. Wartość ta nie może przekraczać 25% skonfigurowanego ograniczenia prędkości.
+
+        - **Download Latency Threshold**: Gdy opóźnienie pobierania przekracza ten próg, wyzwalane jest zmniejszanie przepustowości.
+
+        - **Upload Latency Threshold**: Gdy opóźnienie przesyłania przekracza ten próg, wyzwalane jest zmniejszanie przepustowości.
+
+    - **fq_codel**: Proste, wydajne, uczciwe kolejkowanie z podstawową redukcją opóźnień.
+
+## Dla oprogramowania sprzętowego v4.9 do v4.10
+
+Przełącz przełącznik, aby włączyć SQM i ustawić maksymalną prędkość wysyłania i pobierania (zakres: 1–10000) na potrzeby planowania ruchu. Aby uzyskać najlepsze rezultaty, dopasuj je do rzeczywistej przepustowości Internetu.
 
 ![sqm](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/sqm.png){class="glboxshadow"}
 
-**Uwaga**: Wartości wprowadzone w polu wejściowym są podawane w **Mbps** (megabitach na sekundę). Dla ułatwienia wyświetlana jest także równowartość w **MB/s** (megabajtach na sekundę).
+**Uwaga**: Wartości wprowadzone w polu wejściowym znajdują się w **Mbps** (megabity na sekundę). Odpowiednik **MB/s** (megabajty na sekundę) jest wyświetlany w celach informacyjnych.
 
 ![up down speed](https://static.gl-inet.com/docs/router/en/4/interface_guide/sqm/up_down_speed.jpg){class="glboxshadow"}
 
-Dla **Queue Rule** dostępne są dwie opcje:
+W przypadku reguły kolejki dostępne są dwie opcje:
 
-- **cake**: inteligentne, automatyczne kształtowanie ruchu z bardzo dobrą kontrolą opóźnień (zalecane).
+- **cake**: Inteligentne, automatyczne kształtowanie ruchu z doskonałą ogólną kontrolą opóźnień (zalecane).
 
-- **fq_codel**: proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień.
+- **fq_codel**: Proste, wydajne, uczciwe kolejkowanie z podstawową redukcją opóźnień.
+
+!!! tip
+
+    Różnica między ustawieniami QoS i SQM polega na tym, że QoS umożliwia ustawienie priorytetów aplikacji, a router odpowiednio przydziela przepustowość; podczas gdy SQM pozwala wybrać regułę kolejki.
 
 ---
 
-Masz pytania? Odwiedź nasze [Forum społeczności](https://forum.gl-inet.com){target="_blank"} lub [Skontaktuj się z nami](https://www.gl-inet.com/contacts/){target="_blank"}.
+Nadal masz pytania? Odwiedź nasze [Community Forum](https://forum.gl-inet.com){target="_blank"} lub [Contact us](https://www.gl-inet.com/contacts/){target="_blank"}.

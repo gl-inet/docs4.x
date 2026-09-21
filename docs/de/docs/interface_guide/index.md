@@ -44,6 +44,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 * [OpenVPN-Server einrichten](openvpn_server.md)
 * [WireGuard-Client einrichten](wireguard_client.md)
 * [WireGuard-Server einrichten](wireguard_server.md)
+* [ExpressVPN-Aktivierungsanleitung](expressvpn_activation_guide.md)
 * [VPN-Richtlinie (für Firmware v4.7 und früher)](vpn_dashboard_v4.7.md#proxy-mode)
 * [VPN-Richtlinie (für Firmware v4.8 und später)](vpn_dashboard_v4.8.md#policy-mode)
 * [Wie richte ich NordVPN auf dem Router ein?](openvpn_client.md#set-up-nordvpn)
@@ -88,6 +89,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 
 ## Flow Control
 
+* [Netzwerkqualität](network_quality.md)
 * [DPI Engine](dpi_engine.md)
 * [Datenstatistiken](data_statistics.md)
 * [Inhaltsfilter](content_filter.md)
@@ -97,6 +99,7 @@ Erfahren Sie in unseren Schritt-für-Schritt-Anleitungen, wie Sie unsere Geräte
 
 ## Sicherheit
 
+* [Sicherheitsprüfung](security_scan.md)
 * [Portweiterleitung](port_forwarding.md)
 * [ACL (Access Control List)](acl.md)
 * [Admin-Zugriff](admin_access.md)

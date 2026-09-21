@@ -16,33 +16,35 @@ Flow Control モジュールには、DPI Engine、Data Statistics、Content Filt
 
 ![dpi](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/dpi.png){class="glboxshadow"}
 
+[Netify](https://www.netify.ai/){target="_blank"}と統合されたGL.iNet DPIは、効率的に導入できる軽量な組み込みプラグインを採用しています。Netifyのオンライン更新対応シグネチャデータベースにより、信頼性の高い管理と、より正確で効率的なネットワーク制御を実現します。
+
 ### Data Statistics
 
-Data Statistics は、アプリケーションやプロトコル別のネットワーク使用状況を確認できる、直感的なトラフィックダッシュボードを提供します。1 時間、1 日、7 日の履歴推移の表示、使用量ランキング、デバイスごとのトラフィック監視、不要なアプリのワンクリックブロックに対応しています。
+[Data Statistics](../interface_guide/data_statistics.md)は、アプリケーションやプロトコル別のネットワーク使用状況を確認できる、直感的なトラフィックダッシュボードを提供します。1 時間、1 日、7 日の履歴推移の表示、使用量ランキング、デバイスごとのトラフィック監視、不要なアプリのワンクリックブロックに対応しています。
 
 ![data stats](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/data_statistics.png){class="glboxshadow"}
 
 ### Content Filter
 
-Content Filter は、DPI 分類を利用したインテリジェントなオンライン安全機能です。有害な Web サイトや悪意のある Web サイトを自動的にブロックしてネットワークを安全に保つほか、特定のアプリ、ドメイン、IP アドレスをブロックするカスタムルールにも対応しています。
+[Content Filter](../interface_guide/content_filter.md)は、DPI 分類を利用したインテリジェントなオンライン安全機能です。有害な Web サイトや悪意のある Web サイトを自動的にブロックしてネットワークを安全に保つほか、特定のアプリ、ドメイン、IP アドレスをブロックするカスタムルールにも対応しています。
 
 ![content filter](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/blocked_apps.png){class="glboxshadow"}
 
 ### QoS
 
-QoS（Quality of Service）は、ネットワーク混雑時にビデオ通話やゲームなどの重要な通信を優先し、帯域幅の割り当てを最適化します。これにより、遅延を抑え、ネットワーク全体のパフォーマンスを向上させます。
+[QoS](../interface_guide/qos.md)（Quality of Service）は、ネットワーク混雑時にビデオ通話やゲームなどの重要な通信を優先し、帯域幅の割り当てを最適化します。これにより、遅延を抑え、ネットワーク全体のパフォーマンスを向上させます。
 
 ![qos](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/qos.png){class="glboxshadow"}
 
 ### SQM
 
-SQM（Smart Queue Management）は、ルーターのネットワークトラフィックをインテリジェントに管理して遅延と「バッファブロート」を最小限に抑え、ゲームや音声通話をよりスムーズにします。
+[SQM](../interface_guide/sqm.md)（Smart Queue Management）は、ルーターのネットワークトラフィックをインテリジェントに管理して遅延と「バッファブロート」を最小限に抑え、ゲームや音声通話をよりスムーズにします。
 
 ![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/sqm.png){class="glboxshadow"}
 
 ### Parental Control
 
-以前は **Applications** メニューに分類されていたこの機能は、ファームウェア v4.9 で **Flow Control** メニューに移動しました。アップグレードされた DPI Engine により、不適切なアプリケーションやネットワークコンテンツを正確に識別してブロックし、トラフィックに基づく、より高度で精密なアクセス制限を実現します。
+[Parental Control](../interface_guide/parental_control_v4.9.md)は、以前は**Applications**メニューに分類されていましたが、ファームウェア v4.9 で **Flow Control** メニューに移動しました。アップグレードされた DPI Engine により、不適切なアプリケーションやネットワークコンテンツを正確に識別してブロックし、トラフィックに基づく、より高度で精密なアクセス制限を実現します。
 
 ![parental control](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/parental_control.png){class="glboxshadow"}
 
@@ -68,7 +70,7 @@ SQM（Smart Queue Management）は、ルーターのネットワークトラフ�
 
 ### 再設計されたダッシュボード
 
-VPN Dashboard は、より直感的なレイアウトに全面的に再設計されました。トンネルの状態、接続の詳細、設定項目が見やすく表示され、日常の操作と管理を効率化します。また、新しいアーキテクチャでは、トラフィックを常に保護するために、すべての VPN トンネルでキルスイッチがデフォルトで有効になります。
+[VPN Dashboard](../interface_guide/vpn_dashboard.md)は、より直感的なレイアウトに全面的に再設計されました。トンネルの状態、接続の詳細、設定項目が見やすく表示され、日常の操作と管理を効率化します。また、新しいアーキテクチャでは、トラフィックを常に保護するために、すべての VPN トンネルでキルスイッチがデフォルトで有効になります。
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/vpn_dashboard.png){class="glboxshadow"}
 
@@ -80,13 +82,13 @@ VPN Dashboard は、より直感的なレイアウトに全面的に再設計さ
 
 ## IoT ネットワーク
 
-ファームウェア v4.9 では、IoT スマートデバイス専用の独立した Wi-Fi ネットワークを作成できます。メインネットワークから物理的および論理的に分離することで、IoT デバイスがメインネットワークにアクセスすることによるネットワークリソースの消費やセキュリティリスクを回避します。この改善により、さまざまなスマート IoT クライアントとの互換性が広がり、ホームネットワーク全体のセキュリティが強化されます。
+[IoTネットワーク](../interface_guide/iot_network.md)では、ファームウェアv4.9以降、IoTスマートデバイス専用の独立した Wi-Fi ネットワークを作成できます。メインネットワークから物理的および論理的に分離することで、IoT デバイスがメインネットワークにアクセスすることによるネットワークリソースの消費やセキュリティリスクを回避します。この改善により、さまざまなスマート IoT クライアントとの互換性が広がり、ホームネットワーク全体のセキュリティが強化されます。
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 
 ## ACL
 
-ACL（Access Control List）は、接続プロトコル、デバイスの IP アドレス、ポートに基づいて内部および外部のネットワークトラフィックを管理するカスタムアクセスルールを作成できる、中核的なネットワークセキュリティ管理機能です。特定のネットワークアクセス動作を許可またはブロックするための精密な権限制御に対応しています。複数の ACL ルールが競合した場合、システムは優先度の高いルールを自動的に実行し、ポリシーを正確に適用します。
+[ACL](../interface_guide/acl.md)（Access Control List）は、接続プロトコル、デバイスの IP アドレス、ポートに基づいて内部および外部のネットワークトラフィックを管理するカスタムアクセスルールを作成できる、中核的なネットワークセキュリティ管理機能です。特定のネットワークアクセス動作を許可またはブロックするための精密な権限制御に対応しています。複数の ACL ルールが競合した場合、システムは優先度の高いルールを自動的に実行し、ポリシーを正確に適用します。
 
 ![acl](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/acl1.png){class="glboxshadow"}
 
@@ -94,15 +96,15 @@ ACL（Access Control List）は、接続プロトコル、デバイスの IP ア
 
 Port Forwarding との主な違いは役割です。ACL はデバイスとトラフィックのアクセス権限を制御するネットワークセキュリティ管理に重点を置きます。一方、Port Forwarding はネットワークリソースのリダイレクトに使用され、外部ネットワークトラフィックを指定したローカル端末へ転送して、ローカルネットワークサービスへのリモートアクセスを実現します。
 
-## Wireless UI
+## Wireless
 
-Wireless UI は、整理されたレイアウトと統一されたビジュアルスタイルで全面的に再設計されました。操作の複雑さが軽減され、インターフェース全体のシンプルさと使いやすさが大きく向上しています。
+[Wireless](../interface_guide/wireless.md) UIは、整理されたレイアウトと統一されたビジュアルスタイルで全面的に再設計されました。操作の複雑さが軽減され、インターフェース全体のシンプルさと使いやすさが大きく向上しています。
 
 ![wireless](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/wireless.png){class="glboxshadow"}
 
 ## 暗号化 DNS
 
-暗号化 DNS は、DoH、DoT、DoQ など、より多くの暗号化プロトコルに対応しました。同時に、より多くの公式 DNS サービスプロバイダーが統合され、カスタム暗号化 DNS サーバーの手動設定も追加されました。これにより、安全なドメイン解決に関する多様なニーズに対応できます。
+[暗号化DNS](../interface_guide/dns.md#encrypted-dns)は、DoH、DoT、DoQ など、より多くの暗号化プロトコルに対応しました。同時に、より多くの公式 DNS サービスプロバイダーが統合され、カスタム暗号化 DNS サーバーの手動設定も追加されました。これにより、安全なドメイン解決に関する多様なニーズに対応できます。
 
 ![dns provider](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/dns1.png){class="glboxshadow"}
 

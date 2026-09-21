@@ -12,7 +12,7 @@ Include due sezioni: Impostazioni di base e Impostazioni del server DHCP.
 
 ## Impostazioni di base
 
-Puoi impostare la subnet all'interno degli intervalli di indirizzi privati IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`
+Puoi impostare la subnet all'interno degli intervalli di indirizzi privati IPv4: `192.168.0.0/16`, `172.16.0.0/12`, `10.0.0.0/8`.
 
 ![guest network 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/guest_network/guest_network_1.png){class="glboxshadow"}
 

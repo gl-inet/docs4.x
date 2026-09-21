@@ -369,20 +369,28 @@
 
     3. Następnie postępuj zgodnie z [tym przewodnikiem](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers).
 
-??? "xvpn"
-    ### xvpn
+??? "X-VPN"
+    ### X-VPN
 
-    [Oficjalna strona](https://xvpn.io){target="_blank"}
+    [Oficjalna strona](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}
 
-    Jeśli korzystasz z [xvpn](https://xvpn.io){target="_blank"}, zaloguj się i wykonaj poniższe kroki, aby pobrać pliki konfiguracyjne WireGuard.
+    X-VPN jest zintegrowany z routerami GL.iNet od firmware v4.11.
 
-    ![xvpn WireGuard Config Generator](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn_vpn_on_router.png){class="glboxshadow"}
+    Jeśli router korzysta z firmware v4.11 lub nowszego, możesz zalogować się do X-VPN bezpośrednio w panelu administracyjnym GL.iNet za pomocą tokenu logowania. Szczegóły znajdziesz [tutaj](../interface_guide/wireguard_client.md#set-up-x-vpn).
 
-    1. W menu po lewej stronie przejdź do **VPN** -> **VPN on Router**.
+    Jeśli router korzysta z firmware starszego niż v4.11 lub chcesz ręcznie pobrać plik konfiguracyjny X-VPN, wykonaj poniższe kroki.
+
+    1. [Zaloguj się](https://xvpn.io/login){target="_blank"} do X-VPN, a następnie przejdź do **VPN** -> **VPN on Router**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn1.png){class="glboxshadow"}
 
     2. Po prawej stronie znajdź **Step 1** i wybierz **WireGuard** jako protokół.
 
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn2.png){class="glboxshadow"}
+
     3. W **Step 2** wybierz preferowane **Region** i **State/City**, a następnie kliknij przycisk **Search**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn3.png){class="glboxshadow"}
 
     4. W wynikach wyszukiwania kliknij przycisk pobierania, aby pobrać plik konfiguracyjny dla wybranego serwera.
 

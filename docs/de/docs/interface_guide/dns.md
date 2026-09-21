@@ -1,5 +1,17 @@
 # DNS
 
+**Hinweis**: Der Inhalt dieser Seite basiert auf Firmware v4.10 und früher.
+
+Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, wechseln Sie über die Auswahl unten zur entsprechenden Anleitung.
+
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.10 and earlier" markdown="1">
+
+- [Firmware v4.11](dns_v4.11.md)
+
+</div>
+
+---
+
 Gehen Sie auf der linken Seite des Web-Admin-Panels zu **NETWORK** -> **DNS**.
 
 Die DNS-Einstellungen Ihres Routers steuern, wie Domainnamen in IP-Adressen aufgelöst werden. Auf dieser Seite können Sie die DNS-Server verwenden, die automatisch von übergeordneten Geräten bezogen werden, oder eigene DNS-Server festlegen und DNS-Prioritäten konfigurieren.
@@ -28,41 +40,41 @@ In diesem Modus verwendet der Router automatisch den DNS-Server, der vom Upstrea
 
 Bitte beachten Sie die folgenden Anweisungen entsprechend Ihrer Firmware-Version.
 
-!!! note "Für Firmware v4.8 und früher"
+#### Für Firmware v4.8 und früher
 
-    Es stehen vier Verschlüsselungstypen zur Verfügung: DNS over TLS, DNSCrypt-Proxy, DNS over HTTPS und Oblivious DNS over HTTPS.
+Es stehen vier Verschlüsselungstypen zur Verfügung: DNS over TLS, DNSCrypt-Proxy, DNS over HTTPS und Oblivious DNS over HTTPS.
 
-    Wählen Sie zuerst den **Encryption Type** aus. Die übrigen Optionen ändern sich entsprechend Ihrer Auswahl.
+Wählen Sie zuerst den **Encryption Type** aus. Die übrigen Optionen ändern sich entsprechend Ihrer Auswahl.
 
-    ![encrypted dns types](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/encrypted_types.png){class="glboxshadow"}
+![encrypted dns types](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/encrypted_types.png){class="glboxshadow"}
 
-    - **Für DNS over TLS (DoT)** wählen Sie bitte einen DNS-Anbieter aus **Control D**, **NextDNS** und **Cloudflare**.
+- **Für DNS over TLS (DoT)** wählen Sie bitte einen DNS-Anbieter aus **Control D**, **NextDNS** und **Cloudflare**.
 
-        ![dns over tls](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/encrypted_tls.png){class="glboxshadow"}
+    ![dns over tls](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/encrypted_tls.png){class="glboxshadow"}
 
-    - **Für die anderen drei Typen (also DNSCrypt-Proxy, DNS over HTTPS und Oblivious DNS over HTTPS)** wählen Sie bitte mindestens einen DNS-Server aus dem Repository aus.
+- **Für die anderen drei Typen (also DNSCrypt-Proxy, DNS over HTTPS und Oblivious DNS over HTTPS)** wählen Sie bitte mindestens einen DNS-Server aus dem Repository aus.
 
-        ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
+    ![dnscrypt-proxy](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/dnscrypt-proxy.png){class="glboxshadow"}
 
-!!! note "Für Firmware v4.9 und später"
+#### Für Firmware v4.9 bis v4.10
 
-    Zusätzlich zu Control D, NextDNS und Cloudflare stehen im Modus Encrypted DNS jetzt weitere DNS-Anbieter zur Verfügung, darunter **Quad9**, **CleanBrowsing**, **AdGuard DNS**, **Google DNS** und **OpenDNS**. Sie können bei Bedarf auch manuell einen verschlüsselten DNS-Server angeben.
+Zusätzlich zu Control D, NextDNS und Cloudflare stehen im Modus Encrypted DNS jetzt weitere DNS-Anbieter zur Verfügung, darunter **Quad9**, **CleanBrowsing**, **AdGuard DNS**, **Google DNS** und **OpenDNS**. Sie können bei Bedarf auch manuell einen verschlüsselten DNS-Server angeben.
 
-    Wählen Sie zuerst den **DNS Provider** aus. Die übrigen Optionen ändern sich entsprechend Ihrer Auswahl.
+Wählen Sie zuerst den **DNS Provider** aus. Die übrigen Optionen ändern sich entsprechend Ihrer Auswahl.
 
-    ![encrypted dns providers](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/dns_providers.png){class="glboxshadow"}
+![encrypted dns providers](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/dns_providers.png){class="glboxshadow"}
 
-    - Wenn Sie einen bestimmten DNS-Anbieter auswählen (z. B. NextDNS), wählen Sie bitte einen Verschlüsselungstyp aus **DNS over TLS (DoT)**, **DNS over HTTPS (DoH)** und **DNS over QUIC (DoQ)**. Beachten Sie, dass DNS over QUIC (DoQ) in Firmware v4.9 eingeführt wurde und nur verfügbar ist, wenn Sie Control D, NextDNS oder AdGuard DNS als DNS-Anbieter verwenden.
+- Wenn Sie einen bestimmten DNS-Anbieter auswählen (z. B. NextDNS), wählen Sie bitte einen Verschlüsselungstyp aus **DNS over TLS (DoT)**, **DNS over HTTPS (DoH)** und **DNS over QUIC (DoQ)**. Beachten Sie, dass DNS over QUIC (DoQ) in Firmware v4.9 eingeführt wurde und nur verfügbar ist, wenn Sie Control D, NextDNS oder AdGuard DNS als DNS-Anbieter verwenden.
 
-        ![nextdns](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/nextdns.png){class="glboxshadow"}
+    ![nextdns](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/nextdns.png){class="glboxshadow"}
 
-    - Wenn Sie **Manual** als DNS-Anbieter auswählen, wählen Sie bitte einen Verschlüsselungstyp aus **DNS over TLS (DoT)**, **DNS over HTTPS (DoH)**, **DNS over QUIC (DoQ)**, **Oblivious DNS over HTTPS** und **DNSCrypt**.
+- Wenn Sie **Manual** als DNS-Anbieter auswählen, wählen Sie bitte einen Verschlüsselungstyp aus **DNS over TLS (DoT)**, **DNS over HTTPS (DoH)**, **DNS over QUIC (DoQ)**, **Oblivious DNS over HTTPS** und **DNSCrypt**.
 
-        ![encrypted manual1](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/encrypted_manual1.png){class="glboxshadow"}
+    ![encrypted manual1](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/encrypted_manual1.png){class="glboxshadow"}
 
-        Klicken Sie anschließend auf **Add a Server**, um mindestens einen DNS-Server hinzuzufügen. Sie können die URL oder das Stamp-Format des verschlüsselten DNS direkt eingeben. Eine Liste öffentlicher Server finden Sie unter [https://dnscrypt.info/public-servers](https://dnscrypt.info/public-servers){target="_blank"}.
+    Klicken Sie anschließend auf **Add a Server**, um mindestens einen DNS-Server hinzuzufügen. Sie können die URL oder das Stamp-Format des verschlüsselten DNS direkt eingeben. Eine Liste öffentlicher Server finden Sie unter [https://dnscrypt.info/public-servers](https://dnscrypt.info/public-servers){target="_blank"}.
 
-        ![encrypted manual2](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/encrypted_manual2.png){class="glboxshadow"}
+    ![encrypted manual2](https://static.gl-inet.com/docs/router/de/4/interface_guide/dns/encrypted_manual2.png){class="glboxshadow"}
 
 #### Vergleich der Verschlüsselungstypen
 

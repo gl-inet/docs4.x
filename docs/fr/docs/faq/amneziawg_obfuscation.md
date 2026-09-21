@@ -2,13 +2,13 @@
 
 AmneziaWG est un protocole VPN basé sur WireGuard avec une obfuscation du trafic intégrée. Ses paramètres d'obfuscation contrôlent la manière dont le trafic est déguisé afin d’éviter sa détection par des mécanismes d’inspection réseau restrictive.
 
-Vous trouverez ci-dessous une analyse détaillée d’AmneziaWG, des différences entre les versions, de la prise en charge sur les routeurs GL.iNet et un aperçu des paramètres.
+Vous trouverez ci-dessous une présentation détaillée d'AmneziaWG, des différences entre les versions, de sa prise en charge sur les routeurs GL.iNet et de ses paramètres.
 
 ## Pourquoi AmneziaWG ?
 
 Le prédécesseur d’AmneziaWG, WireGuard, s’est imposé comme un protocole VPN rapide et fiable grâce à sa base de code compacte et à sa grande efficacité. Cependant, ses en-têtes de paquets fixes et ses tailles de paquets prévisibles créent une signature facilement reconnaissable. Les systèmes DPI peuvent identifier ces paquets sans difficulté et interrompre immédiatement les connexions, ce qui constitue un problème critique dans les pays où la censure d’Internet est stricte.
 
-AmneziaWG reprend la simplicité architecturale et les hautes performances de l’implémentation d’origine, tout en supprimant les signatures réseau identifiables qui rendent WireGuard facile à détecter par les systèmes d’inspection approfondie des paquets (DPI).
+AmneziaWG conserve la simplicité architecturale et les hautes performances de l'implémentation WireGuard d'origine, tout en ajoutant un module d'obfuscation dédié qui masque les modèles du trafic VPN. Les particuliers comme les entreprises peuvent ainsi protéger leur vie privée en ligne et maintenir des connexions stables dans les environnements réseau restrictifs.
 
 En bref :
 
@@ -35,11 +35,11 @@ Ces améliorations rendent le trafic VPN plus difficile à détecter tout en con
             
     > Remarque : I1-I5 ne sont pas générés automatiquement. Les utilisateurs peuvent les ajouter manuellement comme lignes supplémentaires dans le fichier de configuration afin que le trafic AmneziaWG ressemble à d’autres protocoles courants, tels que QUIC ou WebRTC.
 
-## AmneziaWG sur les routeurs GL.iNet
+## Modèles compatibles
 
-Actuellement, plusieurs routeurs GL.iNet (par exemple, Brume 3, Flint 3, Flint 2 et Beryl AX) prennent en charge le protocole AmneziaWG dans certaines versions de firmware. La prise en charge officielle complète sera disponible dans le firmware version 4.9 et se déploiera progressivement sur d’autres modèles.
+AmneziaWG 2.0 est disponible sur les routeurs GL.iNet équipés du firmware v4.9 ou d'une version ultérieure.
 
-Pour configurer l’obfuscation VPN sur les routeurs GL.iNet, veuillez vous référer à [cet article](../tutorials/vpn_obfuscation.md).
+Pour configurer l'obfuscation VPN sur les routeurs GL.iNet, consultez [ce tutoriel](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
 
 ## Aperçu des paramètres
 
@@ -61,7 +61,7 @@ Références : [Documentation officielle AmneziaWG](https://docs.amnezia.org/doc
 
 Article connexe :
 
-- [Comment configurer l’obfuscation VPN sur les routeurs GL.iNet](../tutorials/vpn_obfuscation.md){target="_blank"}
+- [Comment configurer l'obfuscation VPN sur les routeurs GL.iNet](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md){target="_blank"}
 
 ---
 

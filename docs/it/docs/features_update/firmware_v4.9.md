@@ -16,33 +16,35 @@ A differenza dei router tradizionali, che identificano soltanto gli indirizzi di
 
 ![dpi](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/dpi.png){class="glboxshadow"}
 
+Integrata con [Netify](https://www.netify.ai/){target="_blank"}, la funzione DPI di GL.iNet usa un plug-in integrato leggero per una distribuzione efficiente. Il database delle firme di Netify, aggiornato online, consente una gestione affidabile e rende il controllo della rete più preciso ed efficiente.
+
 ### Data Statistics
 
-Data Statistics offre un dashboard intuitivo del traffico che identifica l’utilizzo della rete per applicazione e protocollo. Consente di visualizzare le tendenze storiche di 1 ora, 1 giorno e 7 giorni, mostra le classifiche di utilizzo, monitora il traffico per dispositivo e permette di bloccare con un clic le app indesiderate.
+[Data Statistics](../interface_guide/data_statistics.md) offre un dashboard intuitivo del traffico che identifica l’utilizzo della rete per applicazione e protocollo. Consente di visualizzare le tendenze storiche di 1 ora, 1 giorno e 7 giorni, mostra le classifiche di utilizzo, monitora il traffico per dispositivo e permette di bloccare con un clic le app indesiderate.
 
 ![data stats](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/data_statistics.png){class="glboxshadow"}
 
 ### Content Filter
 
-Content Filter è una funzione intelligente di sicurezza online basata sulla classificazione DPI. Blocca automaticamente i siti web dannosi e malevoli per mantenere la rete sicura e supporta anche regole personalizzate per bloccare app, domini o indirizzi IP specifici.
+[Content Filter](../interface_guide/content_filter.md) è una funzione intelligente di sicurezza online basata sulla classificazione DPI. Blocca automaticamente i siti web dannosi e malevoli per mantenere la rete sicura e supporta anche regole personalizzate per bloccare app, domini o indirizzi IP specifici.
 
 ![content filter](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/blocked_apps.png){class="glboxshadow"}
 
 ### QoS
 
-QoS (Quality of Service) ottimizza l’allocazione della larghezza di banda dando priorità alle attività essenziali, ad esempio videochiamate e giochi, durante la congestione della rete. In questo modo riduce la latenza e migliora le prestazioni complessive della rete.
+[QoS](../interface_guide/qos.md) (Quality of Service) ottimizza l’allocazione della larghezza di banda dando priorità alle attività essenziali, ad esempio videochiamate e giochi, durante la congestione della rete. In questo modo riduce la latenza e migliora le prestazioni complessive della rete.
 
 ![qos](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/qos.png){class="glboxshadow"}
 
 ### SQM
 
-SQM (Smart Queue Management) gestisce in modo intelligente il traffico di rete del router per ridurre al minimo la latenza e il «bufferbloat», garantendo giochi e chiamate vocali più fluidi.
+[SQM](../interface_guide/sqm.md) (Smart Queue Management) gestisce in modo intelligente il traffico di rete del router per ridurre al minimo la latenza e il «bufferbloat», garantendo giochi e chiamate vocali più fluidi.
 
 ![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/sqm.png){class="glboxshadow"}
 
 ### Parental Control
 
-In precedenza classificata nel menu **Applications**, questa funzione viene spostata nel menu **Flow Control** nel firmware v4.9. Sfrutta il DPI Engine aggiornato per identificare e bloccare con precisione applicazioni e contenuti di rete inappropriati, offrendo restrizioni di accesso basate sul traffico più professionali e precise.
+[Parental Control](../interface_guide/parental_control_v4.9.md) era in precedenza classificata nel menu **Applications**, questa funzione viene spostata nel menu **Flow Control** nel firmware v4.9. Sfrutta il DPI Engine aggiornato per identificare e bloccare con precisione applicazioni e contenuti di rete inappropriati, offrendo restrizioni di accesso basate sul traffico più professionali e precise.
 
 ![parental control](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/parental_control.png){class="glboxshadow"}
 
@@ -68,7 +70,7 @@ Un singolo gruppo di tunnel VPN può contenere più profili di configurazione. G
 
 ### Dashboard ridisegnata
 
-La VPN Dashboard è stata completamente ridisegnata con un layout più intuitivo. Lo stato dei tunnel, i dettagli della connessione e le voci di configurazione sono presentati con maggiore chiarezza, migliorando notevolmente le attività quotidiane di gestione e amministrazione. Inoltre, nella nuova architettura, Kill Switch è abilitato per impostazione predefinita per tutti i tunnel VPN, in modo da proteggere sempre il traffico.
+La [VPN Dashboard](../interface_guide/vpn_dashboard.md) è stata completamente ridisegnata con un layout più intuitivo. Lo stato dei tunnel, i dettagli della connessione e le voci di configurazione sono presentati con maggiore chiarezza, migliorando notevolmente le attività quotidiane di gestione e amministrazione. Inoltre, nella nuova architettura, Kill Switch è abilitato per impostazione predefinita per tutti i tunnel VPN, in modo da proteggere sempre il traffico.
 
 ![vpn dashboard](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/vpn_dashboard.png){class="glboxshadow"}
 
@@ -80,13 +82,13 @@ Il firmware v4.9 introduce ufficialmente il protocollo AmneziaWG 2.0, dotato di 
 
 ## Rete IoT
 
-Nel firmware v4.9 puoi creare una rete Wi-Fi dedicata e indipendente per i dispositivi smart IoT. Essendo isolata fisicamente e logicamente dalla rete principale, evita l’occupazione delle risorse di rete e i rischi di sicurezza derivanti dall’accesso dei dispositivi IoT alla rete principale. Questa ottimizzazione offre una compatibilità più ampia con vari client IoT smart e migliora complessivamente il sistema di sicurezza della rete domestica.
+La [Rete IoT](../interface_guide/iot_network.md) nel firmware v4.9 consente di creare una rete Wi-Fi dedicata e indipendente per i dispositivi smart IoT. Essendo isolata fisicamente e logicamente dalla rete principale, evita l’occupazione delle risorse di rete e i rischi di sicurezza derivanti dall’accesso dei dispositivi IoT alla rete principale. Questa ottimizzazione offre una compatibilità più ampia con vari client IoT smart e migliora complessivamente il sistema di sicurezza della rete domestica.
 
 ![iot network](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/iot_network.png){class="glboxshadow"}
 
 ## ACL
 
-ACL, abbreviazione di Access Control List, è una funzione centrale di gestione della sicurezza di rete che consente agli utenti di creare regole di accesso personalizzate per gestire il traffico interno ed esterno in base a protocolli di connessione, indirizzi IP dei dispositivi e porte. Supporta un controllo preciso delle autorizzazioni per consentire o bloccare specifici comportamenti di accesso alla rete. Quando più regole ACL generano conflitti, il sistema esegue automaticamente la regola con priorità più alta per garantire l’applicazione corretta della policy.
+[ACL](../interface_guide/acl.md), abbreviazione di Access Control List, è una funzione centrale di gestione della sicurezza di rete che consente agli utenti di creare regole di accesso personalizzate per gestire il traffico interno ed esterno in base a protocolli di connessione, indirizzi IP dei dispositivi e porte. Supporta un controllo preciso delle autorizzazioni per consentire o bloccare specifici comportamenti di accesso alla rete. Quando più regole ACL generano conflitti, il sistema esegue automaticamente la regola con priorità più alta per garantire l’applicazione corretta della policy.
 
 ![acl](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/acl1.png){class="glboxshadow"}
 
@@ -94,15 +96,15 @@ ACL, abbreviazione di Access Control List, è una funzione centrale di gestione 
 
 ACL si distingue da Port Forwarding per il ruolo principale: ACL si concentra sulla gestione della sicurezza di rete controllando le autorizzazioni di accesso di dispositivi e traffico, mentre Port Forwarding viene usato per il reindirizzamento delle risorse di rete, inoltrando il traffico esterno a dispositivi locali specifici per implementare l’accesso remoto ai servizi della rete locale.
 
-## Interfaccia Wireless
+## Wireless
 
-L’interfaccia Wireless è stata completamente ridisegnata con un layout semplificato e uno stile visivo uniforme, riducendo la complessità operativa e migliorando notevolmente la semplicità e l’usabilità generale dell’interfaccia.
+L’interfaccia [Wireless](../interface_guide/wireless.md) è stata completamente ridisegnata con un layout semplificato e uno stile visivo uniforme, riducendo la complessità operativa e migliorando notevolmente la semplicità e l’usabilità generale dell’interfaccia.
 
 ![wireless](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/wireless.png){class="glboxshadow"}
 
 ## DNS cifrato
 
-Il DNS cifrato è stato ampliato per supportare più protocolli di cifratura, inclusi DoH, DoT e DoQ. Inoltre, sono stati integrati altri provider DNS ufficiali ed è stata aggiunta la configurazione manuale di server DNS cifrati personalizzati per soddisfare diverse esigenze di risoluzione sicura dei domini.
+Il [DNS cifrato](../interface_guide/dns.md#encrypted-dns) è stato ampliato per supportare più protocolli di cifratura, inclusi DoH, DoT e DoQ. Inoltre, sono stati integrati altri provider DNS ufficiali ed è stata aggiunta la configurazione manuale di server DNS cifrati personalizzati per soddisfare diverse esigenze di risoluzione sicura dei domini.
 
 ![dns provider](https://static.gl-inet.com/docs/router/en/4/features_update/4.9/dns1.png){class="glboxshadow"}
 

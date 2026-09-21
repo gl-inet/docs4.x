@@ -1,33 +1,17 @@
 # Jak skonfigurować zaciemnianie VPN na routerach GL.iNet
 
-## Czym jest zaciemnianie VPN
+**Uwaga**: routery GL.iNet obsługują AmneziaWG w firmware v4.9 lub nowszym. Najpierw zaktualizuj router do obsługiwanej wersji firmware.
 
-Zaciemnianie VPN to technika maskująca ruch VPN tak, aby wyglądał jak zwykły ruch internetowy. Pomaga ona użytkownikom omijać ograniczenia sieciowe i cenzurę, szczególnie w regionach o rygorystycznych przepisach internetowych.
+Ten przewodnik przedstawia dwa scenariusze konfiguracji zaciemniania AmneziaWG na routerach GL.iNet.
 
-- Maskuje charakterystykę VPN, aby zapobiec wykryciu przez dostawców internetu, zapory sieciowe lub Deep Packet Inspection (DPI).
-
-- Sprawia, że połączenie VPN wygląda jak standardowy ruch sieciowy, poprawiając stabilność połączenia i skuteczność w sieciach z ograniczeniami.
-
-## Czym jest AmneziaWG
-
-AmneziaWG to protokół VPN zbudowany na bazie WireGuard, z wbudowanym zaciemnianiem ruchu. Zachowuje podstawowe zalety WireGuard, takie jak wysoka prędkość, lekka konstrukcja i niskie opóźnienie, jednocześnie dodając dedykowany moduł zaciemniania. Moduł ten skutecznie ukrywa wzorce ruchu VPN, umożliwiając zarówno użytkownikom indywidualnym, jak i firmowym ochronę prywatności online, omijanie ograniczeń regionalnych i unikanie przerw w połączeniu spowodowanych rygorystycznymi kontrolami sieciowymi.
-
-AmneziaWG jest kompatybilny z szeroką gamą urządzeń, w tym Windows, macOS, iOS, Android, Linux i routerów, zapewniając niezawodne zaciemnione połączenia VPN we wszystkich scenariuszach.
-
-Obecnie kilka routerów GL.iNet (np. **Brume 3**, **Flint 3**, **Flint 2** i **Beryl AX**) obsługuje protokół AmneziaWG w wybranych wersjach oprogramowania. Pełna oficjalna obsługa będzie dostępna w oprogramowaniu ver.4.9 i stopniowo rozszerzona na kolejne modele.
-
-## Szybka konfiguracja
-
-Poniżej przedstawiono dwa typowe scenariusze konfiguracji zaciemniania VPN AmneziaWG na routerach GL.iNet.
-
-### Scenariusz 1. Korzystanie z dwóch routerów GL.iNet
+## Scenariusz 1. Korzystanie z dwóch routerów GL.iNet
 
 W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia VPN z zaciemnianiem przez protokół AmneziaWG.
 
-- **Brume 3 (GL-MT5000)**: Działa jako serwer VPN do użytku domowego.
-- **Beryl AX (GL-MT3000)**: Działa jako przenośny klient VPN do użytku w podróży. 
+- Brume 3 (GL-MT5000): serwer VPN do użytku domowego.
+- Beryl AX (GL-MT3000): przenośny klient VPN do użytku w podróży.
 
-#### Konfiguracja serwera VPN
+### Konfiguracja serwera VPN
 
 1. Zaloguj się do panelu administracyjnego Brume 3. 
 
@@ -83,7 +67,7 @@ W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia 
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
-#### Konfiguracja klienta VPN
+### Konfiguracja klienta VPN
 
 1. Zaloguj się do panelu administracyjnego Beryl AX. 
 
@@ -131,13 +115,13 @@ W tym scenariuszu używane są dwa routery GL.iNet do ustanowienia połączenia 
 
     Połączenie VPN jest ukończone. Wszystkie urządzenia w sieci Beryl AX uzyskują teraz dostęp do internetu przez bramę Brume 3, umożliwiając połączenie VPN z zaciemnianiem.
 
-### Scenariusz 2. Korzystanie z pojedynczego routera GL.iNet
+## Scenariusz 2. Korzystanie z pojedynczego routera GL.iNet
 
 W tym scenariuszu używany jest pojedynczy router GL.iNet **Brume 3 (GL-MT5000)** jako klient VPN do połączenia z serwerem AmneziaVPN. 
 
 W tym przypadku nie musisz wdrażać własnego serwera. Wystarczy pobrać plik konfiguracyjny AmneziaWG z [oficjalnej strony Amnezia](https://amnezia.org/){target="_blank"} lub od dowolnego dostawcy usług VPN integrującego AmneziaWG, a następnie przesłać plik do routera GL.iNet. Będziesz wtedy mógł nawiązać połączenie VPN z włączonym zaciemnianiem.
 
-#### Pobieranie konfiguracji
+### Pobieranie konfiguracji
 
 <u>Opcja 1</u>: Pobierz konfigurację z oficjalnej Amnezia (wymagana subskrypcja Premium).
 
@@ -165,7 +149,7 @@ Weźmy jako przykład StarVPN.
 
     Następnie wykonaj poniższe kroki, aby skonfigurować klienta VPN.
 
-#### Konfiguracja klienta VPN
+### Konfiguracja klienta VPN
 
 1. Zaloguj się do panelu administracyjnego Brume 3. 
 

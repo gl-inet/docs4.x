@@ -66,9 +66,9 @@ Klicken Sie bei Bedarf auf **Advanced**, um weitere Einstellungen vorzunehmen.
 
 - **Gateway**: Das Gerät, das den Datenverkehr zwischen dem lokalen Netzwerk und externen Netzwerken wie dem Internet weiterleitet.
 
-- **DNS Server**: Zwei DNS-Server-Felder stehen zur Konfiguration des primären und sekundären Resolvers zur Verfügung.
+- **DNS Server 1**: Der primäre Server, der Domainnamen in IP-Adressen übersetzt.
 
-    **Hinweis**: Der primäre DNS wird im oberen Feld und der sekundäre DNS im unteren Feld eingegeben. Wenn der primäre Server nicht verfügbar ist, wechseln Client-Geräte automatisch zum sekundären Resolver, sodass die Domainnamenauflösung weiter funktioniert.
+- **DNS Server 2**: Der sekundäre Server, der für die Domainnamenauflösung verwendet wird, wenn der primäre DNS-Server nicht verfügbar ist.
 
 - **LPR Server** (Line Printer Remote Server): Ein Dienst, der Druckaufträge verwaltet und es Netzwerkgeräten ermöglicht, Druckanforderungen an entfernte Drucker zu senden. Es können mehrere LPR-Druckerports konfiguriert werden.
 
@@ -166,9 +166,9 @@ Klicken Sie bei Bedarf auf **Advanced**, um weitere Einstellungen vorzunehmen.
 
 - **Gateway**: Das Gerät, das den Datenverkehr zwischen dem lokalen Netzwerk und externen Netzwerken wie dem Internet weiterleitet.
 
-- **DNS Server**: Zwei DNS-Server-Felder stehen zur Konfiguration des primären und sekundären Resolvers zur Verfügung.
+- **DNS Server 1**: Der primäre Server, der Domainnamen in IP-Adressen übersetzt.
 
-    **Hinweis**: Der primäre DNS wird im oberen Feld und der sekundäre DNS im unteren Feld eingegeben. Wenn der primäre Server nicht verfügbar ist, wechseln Client-Geräte automatisch zum sekundären Resolver, sodass die Domainnamenauflösung weiter funktioniert.
+- **DNS Server 2**: Der sekundäre Server, der für die Domainnamenauflösung verwendet wird, wenn der primäre DNS-Server nicht verfügbar ist.
 
 - **LPR Server** (Line Printer Remote Server): Ein Dienst, der Druckaufträge verwaltet und es Netzwerkgeräten ermöglicht, Druckanforderungen an entfernte Drucker zu senden. Es können mehrere LPR-Druckerports konfiguriert werden.
 
@@ -242,9 +242,9 @@ Klicken Sie bei Bedarf auf **Advanced**, um weitere Einstellungen vorzunehmen.
 
 - **Gateway**: Das Gerät, das den Datenverkehr zwischen dem lokalen Netzwerk und externen Netzwerken wie dem Internet weiterleitet.
 
-- **DNS Server**: Zwei DNS-Server-Felder stehen zur Konfiguration des primären und sekundären Resolvers zur Verfügung.
+- **DNS Server 1**: Der primäre Server, der Domainnamen in IP-Adressen übersetzt.
 
-    **Hinweis**: Der primäre DNS wird im oberen Feld und der sekundäre DNS im unteren Feld eingegeben. Wenn der primäre Server nicht verfügbar ist, wechseln Client-Geräte automatisch zum sekundären Resolver, sodass die Domainnamenauflösung weiter funktioniert.
+- **DNS Server 2**: Der sekundäre Server, der für die Domainnamenauflösung verwendet wird, wenn der primäre DNS-Server nicht verfügbar ist.
 
 - **LPR Server** (Line Printer Remote Server): Ein Dienst, der Druckaufträge verwaltet und es Netzwerkgeräten ermöglicht, Druckanforderungen an entfernte Drucker zu senden. Es können mehrere LPR-Druckerports konfiguriert werden.
 
@@ -318,9 +318,9 @@ Klicken Sie bei Bedarf auf **Advanced**, um weitere Einstellungen vorzunehmen.
 
 - **Gateway**: Das Gerät, das den Datenverkehr zwischen dem lokalen Netzwerk und externen Netzwerken wie dem Internet weiterleitet.
 
-- **DNS Server**: Zwei DNS-Server-Felder stehen zur Konfiguration des primären und sekundären Resolvers zur Verfügung.
+- **DNS Server 1**: Der primäre Server, der Domainnamen in IP-Adressen übersetzt.
 
-    **Hinweis**: Der primäre DNS wird im oberen Feld und der sekundäre DNS im unteren Feld eingegeben. Wenn der primäre Server nicht verfügbar ist, wechseln Client-Geräte automatisch zum sekundären Resolver, sodass die Domainnamenauflösung weiter funktioniert.
+- **DNS Server 2**: Der sekundäre Server, der für die Domainnamenauflösung verwendet wird, wenn der primäre DNS-Server nicht verfügbar ist.
 
 - **LPR Server** (Line Printer Remote Server): Ein Dienst, der Druckaufträge verwaltet und es Netzwerkgeräten ermöglicht, Druckanforderungen an entfernte Drucker zu senden. Es können mehrere LPR-Druckerports konfiguriert werden.
 

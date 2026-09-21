@@ -62,6 +62,14 @@ GL.iNet のセルラールーターでは、Web管理パネルからセルラー
 
 ![modem local upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
+## DPIオンラインアップグレード
+
+DPIオンラインアップグレードは、DPIエンジンとシグネチャデータベースを確認して更新し、データ統計、コンテンツフィルター、その他のDPI関連機能でトラフィックを正確に識別できるようにします。
+
+**注**：この機能はファームウェアv4.11で導入されました。
+
+![dpi online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/dpi_online_upgrade.png){class="glboxshadow" width=700}
+
 ---
 
 ご不明な点がありましたら、[Community Forum](https://forum.gl-inet.com){target="_blank"} または [Contact us](https://www.gl-inet.com/contacts/){target="_blank"} をご利用ください。

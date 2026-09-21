@@ -1,30 +1,5 @@
 # GL.iNet GoodCloud
 
-## Sommaire
-
-- [Présentation](#introduction)
-- [Lier des appareils au cloud](#bind-devices-to-cloud)
-    - [Pour le firmware v4.6 ou antérieur](#for-firmware-v46-or-earlier)
-    - [Pour le firmware v4.7 à v4.9](#for-firmware-v47-to-v49)
-    - [Pour le firmware v4.10 et versions ultérieures](#for-firmware-v410-and-above)
-- [Gérer les appareils](#manage-devices)
-    - [Informations système et actions](#system-info-and-actions)
-    - [Détails de l’appareil](#device-details)
-        - [Informations de base](#basic-info)
-        - [Statistiques](#statistics)
-        - [Paramètres réseau](#network-settings)
-        - [Liste des clients](#clients-list)
-- [Accès à distance](#remote-access)
-    - [GUI à distance](#remote-gui)
-    - [SSH à distance](#remote-ssh)
-- [Modifier les paramètres](#modify-settings)
-- [Alertes par e-mail](#email-alarm)
-- [Site à site](#site-to-site)
-- [GoodCloud et VPN](#goodcloud-and-vpn)
-- [Afficher les journaux](#view-logs)
-- [Désactiver le cloud](#disable-cloud)
-- [Supprimer le compte](#delete-account)
-
 ## Présentation {#introduction}
 
 GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} est une plateforme conçue pour simplifier le déploiement et la gestion à distance des appareils connectés. Elle offre un moyen simple d’accéder à distance aux routeurs GL.iNet et de les administrer. En centralisant les équipements réseau dans le cloud, les utilisateurs peuvent effectuer efficacement des tâches de gestion par lot, telles que le déploiement de configurations réseau et les mises à niveau logicielles. Ils peuvent également accéder à distance au panneau d’administration web du routeur ou se connecter au terminal du routeur via SSH, pour une gestion des équipements réseau de bout en bout et entre différentes régions.
@@ -61,6 +36,54 @@ Si vous devez gérer plusieurs appareils et débloquer des fonctionnalités avan
 ## Lier des appareils au cloud {#bind-devices-to-cloud}
 
 Sélectionnez la section correspondant à la version du firmware de votre appareil pour connaître la procédure d’association.
+
+### Pour le firmware v4.10 et les versions ultérieures {#for-firmware-v410-and-above}
+
+1. Activez GoodCloud.
+
+    Connectez-vous au panneau d’administration web de votre routeur, allez à **CLOUD SERVICE** -> **GoodCloud**, puis cliquez sur **Get Started**.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind1.png){class="glboxshadow"}
+
+    Vous êtes redirigé vers la page **GL.iNet Account**. Cliquez sur **Bind GL.iNet Account via URL**.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind2.png){class="glboxshadow"}
+
+    Dans la fenêtre contextuelle, cliquez sur **Continue**. Vous êtes redirigé vers le site GoodCloud pour terminer l’association.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind3.png){class="glboxshadow"}
+
+2. Connectez-vous pour lier votre appareil.
+
+    Connectez-vous à votre compte GL.iNet. Si vous n’avez pas encore de compte, créez-en un puis connectez-vous.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind4.png){class="glboxshadow"}
+
+    Après la connexion, vérifiez les informations relatives à votre compte et à votre appareil, notamment le Device ID, le modèle et l’adresse MAC. Personnalisez le nom de l’appareil, puis cliquez sur **Bind** pour associer le routeur à votre compte.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind5.png){class="glboxshadow" width="423"}
+
+    Si vous ne recevez pas l’e-mail de vérification, consultez votre dossier spam ou attendez quelques minutes avant de réessayer. Pour obtenir de l’aide, envoyez un e-mail à [support@gl-inet.com](mailto:support@gl-inet.com).
+
+3. Consultez les détails de l’association.
+
+    Une fois l’association terminée, revenez au panneau d’administration web du routeur, puis allez à **CLOUD SERVICES** -> **GoodCloud**. Cette page affiche un lien de redirection vers la plateforme GoodCloud, les informations d’identification de l’appareil et les journaux cloud récents.
+
+    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind6.png){class="glboxshadow"}
+
+4. Accès à distance.
+
+    Dans le firmware v4.10, l’accès à distance au panneau d’administration web et au terminal du routeur est activé par défaut dès que le routeur est associé à GoodCloud.
+
+5. Dissociez l’appareil.
+
+    Pour dissocier votre routeur, connectez-vous à son panneau d’administration web, puis allez à **CLOUD SERVICES** -> **GL.iNet Account**. Cliquez sur **Unbind**.
+
+    ![unbind](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_unbind.png){class="glboxshadow"}
+
+    Vous pouvez également supprimer l’appareil de la liste Bound Devices sur la plateforme GoodCloud. Le panneau d’administration web du routeur se synchronisera pour afficher le dernier état d’association.
+
+    Si vous rencontrez des difficultés, envoyez un e-mail à [support@gl-inet.com](mailto:support@gl-inet.com).
 
 ### Pour le firmware v4.6 ou antérieur {#for-firmware-v46-or-earlier}
 
@@ -175,54 +198,6 @@ Sélectionnez la section correspondant à la version du firmware de votre appare
     Pour dissocier votre routeur, connectez-vous à son panneau d’administration web. Cliquez sur l’icône cloud dans le coin supérieur droit, puis sur **Unbind**.
 
     ![goodcloud unbind](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/unbind_router_2.png){class="glboxshadow"}
-
-    Vous pouvez également supprimer l’appareil de la liste Bound Devices sur la plateforme GoodCloud. Le panneau d’administration web du routeur se synchronisera pour afficher le dernier état d’association.
-
-    Si vous rencontrez des difficultés, envoyez un e-mail à [support@gl-inet.com](mailto:support@gl-inet.com).
-
-### Pour le firmware v4.10 et versions ultérieures {#for-firmware-v410-and-above}
-
-1. Activez GoodCloud.
-
-    Connectez-vous au panneau d’administration web de votre routeur, allez à **CLOUD SERVICE** -> **GoodCloud**, puis cliquez sur **Get Started**.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind1.png){class="glboxshadow"}
-
-    Vous êtes redirigé vers la page **GL.iNet Account**. Cliquez sur **Bind GL.iNet Account via URL**.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind2.png){class="glboxshadow"}
-
-    Dans la fenêtre contextuelle, cliquez sur **Continue**. Vous êtes redirigé vers le site GoodCloud pour terminer l’association.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind3.png){class="glboxshadow"}
-
-2. Connectez-vous pour lier votre appareil.
-
-    Connectez-vous à votre compte GL.iNet. Si vous n’avez pas encore de compte, créez-en un puis connectez-vous.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind4.png){class="glboxshadow"}
-
-    Après la connexion, vérifiez les informations relatives à votre compte et à votre appareil, notamment le Device ID, le modèle et l’adresse MAC. Personnalisez le nom de l’appareil, puis cliquez sur **Bind** pour associer le routeur à votre compte.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind5.png){class="glboxshadow" width="423"}
-
-    Si vous ne recevez pas l’e-mail de vérification, consultez votre dossier spam ou attendez quelques minutes avant de réessayer. Pour obtenir de l’aide, envoyez un e-mail à [support@gl-inet.com](mailto:support@gl-inet.com).
-
-3. Consultez les détails de l’association.
-
-    Une fois l’association terminée, revenez au panneau d’administration web du routeur, puis allez à **CLOUD SERVICES** -> **GoodCloud**. Cette page affiche un lien de redirection vers la plateforme GoodCloud, les informations d’identification de l’appareil et les journaux cloud récents.
-
-    ![bind device](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_bind6.png){class="glboxshadow"}
-
-4. Accès à distance.
-
-    Dans le firmware v4.10, l’accès à distance au panneau d’administration web et au terminal du routeur est activé par défaut dès que le routeur est associé à GoodCloud.
-
-5. Dissociez l’appareil.
-
-    Pour dissocier votre routeur, connectez-vous à son panneau d’administration web, puis allez à **CLOUD SERVICES** -> **GL.iNet Account**. Cliquez sur **Unbind**.
-
-    ![unbind](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/4.10_unbind.png){class="glboxshadow"}
 
     Vous pouvez également supprimer l’appareil de la liste Bound Devices sur la plateforme GoodCloud. Le panneau d’administration web du routeur se synchronisera pour afficher le dernier état d’association.
 

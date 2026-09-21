@@ -13,7 +13,7 @@ Erfahren Sie anhand detaillierter Schritte, wie Sie unsere Geräte korrekt verwe
 * [So richten Sie einen OpenVPN-Client auf GL.iNet-Routern ein](how_to_set_up_openvpn_client.md)
 * [So richten Sie einen OpenVPN-Server auf GL.iNet-Routern ein](how_to_set_up_openvpn_server.md)
 * [Erstellen Sie mit zwei GL.iNet-Routern Ihren eigenen WireGuard-Heimserver](build_your_own_wireguard_home_server_with_two_glinet_routers.md)
-* [So richten Sie VPN-Verschleierung auf GL.iNet-Routern ein](vpn_obfuscation.md)
+* [So richten Sie VPN-Verschleierung auf GL.iNet-Routern ein](how_to_set_up_vpn_obfuscation_on_glinet_routers.md)
 * [So konfigurieren Sie die AmneziaWG-Verschleierungsparameter](../faq/amneziawg_obfuscation.md)
 * [So verbinden Sie NordVPN mit einer dedizierten IP auf GL.iNet-Routern](how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md)
 * [So verbinden Sie Surfshark mit einer dedizierten IP auf GL.iNet-Routern](how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md)

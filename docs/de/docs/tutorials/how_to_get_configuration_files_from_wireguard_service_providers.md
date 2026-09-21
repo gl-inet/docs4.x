@@ -370,20 +370,28 @@
 
     3. Folgen Sie [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.
 
-??? "xvpn"
-    ### xvpn
+??? "X-VPN"
+    ### X-VPN
 
-    [Offizielle Website](https://xvpn.io){target="_blank"}
+    [Offizielle Website](https://xvpn.io/go?aff_id=nk5bu995){target="_blank"}
 
-    Wenn Sie [xvpn](https://xvpn.io){target="_blank"} verwenden, melden Sie sich an und führen Sie die folgenden Schritte aus, um die WireGuard-Konfigurationsdateien herunterzuladen.
+    X-VPN ist ab Firmware v4.11 in GL.iNet-Router integriert.
 
-    ![xvpn WireGuard Config Generator](https://static.gl-inet.com/docs/router/de/4/tutorials/get_wg_configs/xvpn/xvpn_vpn_on_router.png){class="glboxshadow"}
+    Wenn auf Ihrem Router Firmware v4.11 oder höher ausgeführt wird, können Sie sich im webbasierten GL.iNet Admin-Panel direkt mit einem Anmeldetoken bei X-VPN anmelden. Weitere Informationen finden Sie [hier](../interface_guide/wireguard_client.md#set-up-x-vpn).
 
-    1. Gehen Sie im linken Menü zu **VPN** -> **VPN on Router**.
+    Wenn auf Ihrem Router eine ältere Firmwareversion ausgeführt wird oder Sie eine X-VPN-Konfigurationsdatei manuell herunterladen möchten, führen Sie die folgenden Schritte aus.
+
+    1. [Melden Sie sich bei X-VPN an](https://xvpn.io/login){target="_blank"} und navigieren Sie dann zu **VPN** -> **VPN on Router**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn1.png){class="glboxshadow"}
 
     2. Suchen Sie rechts **Step 1** und wählen Sie **WireGuard** als Protokoll aus.
 
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn2.png){class="glboxshadow"}
+
     3. Wählen Sie unter **Step 2** die gewünschte **Region** und **State/City** aus und klicken Sie dann auf **Search**.
+
+        ![xvpn wg config](https://static.gl-inet.com/docs/router/en/4/tutorials/get_wg_configs/xvpn/xvpn3.png){class="glboxshadow"}
 
     4. Klicken Sie in den Suchergebnissen auf die Download-Schaltfläche, um die Konfigurationsdatei für den gewünschten Server herunterzuladen.
 

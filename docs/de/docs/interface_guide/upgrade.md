@@ -62,6 +62,14 @@ Laden Sie bei Bedarf manuell eine Modem-Firmware-Datei von Ihrem Computer hoch, 
 
 ![modem local upgrade](https://static.gl-inet.com/docs/router/de/4/interface_guide/upgrade/modem_local_upgrade.png){class="glboxshadow"}
 
+## DPI-Online-Upgrade
+
+DPI Online Upgrade sucht nach Aktualisierungen für die DPI-Engine und ihre Signaturdatenbank und installiert sie. Dadurch bleibt die Datenverkehrserkennung für Data Statistics, Content Filter und andere DPI-bezogene Funktionen präzise.
+
+**Hinweis**: Diese Funktion wurde mit Firmware v4.11 eingeführt.
+
+![dpi online upgrade](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/dpi_online_upgrade.png){class="glboxshadow" width=700}
+
 ---
 
 Haben Sie noch Fragen? Besuchen Sie unser [Community-Forum](https://forum.gl-inet.com){target="_blank"} oder [kontaktieren Sie uns](https://www.gl-inet.com/contacts/){target="_blank"}.

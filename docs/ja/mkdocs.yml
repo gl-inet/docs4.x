@@ -25,10 +25,10 @@ plugins:
   - git-revision-date-localized
   - redirects:
       redirect_maps:
+        'tutorials/vpn_obfuscation.md': 'tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md'
         'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
         'tutorials/how_to_set_up_esim.md': 'tutorials/how_to_use_esim_physical_card_with_glinet_routers.md'
         'tutorials/tap_s2s_vs_tun.md': 'tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md'
-        'tutorials/vpn_cascading.md': 'tutorials/how_to_use_vpn_cascading_on_glinet_routers.md'
         'tutorials/build_your_own_openvpn_home_server_with_two_glrouter.md': 'tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md'
         'tutorials/can_i_use_multiwan_wired_input.md': 'tutorials/configure_dual_ethernet_wan.md'
         'interface_guide/firmware_upgrade.md': 'interface_guide/upgrade.md'
@@ -375,6 +375,7 @@ nav:
   - ホーム: index.md
   - ユーザーガイド:
       - 概要: user_guide/index.md
+      - GL-MT6000 (Fortify): user_guide/gl-mt6000ft/index.md
       - GL-MG1300 (Mango 2): user_guide/gl-mg1300/index.md
       - GL-BE14000 (Flint 4): user_guide/gl-be14000/index.md
       - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md
@@ -478,7 +479,7 @@ nav:
           - OpenVPN クライアントの設定: tutorials/how_to_set_up_openvpn_client.md
           - OpenVPN サーバーの設定: tutorials/how_to_set_up_openvpn_server.md
           - WireGuard ホームサーバーを構築する: tutorials/build_your_own_wireguard_home_server_with_two_glinet_routers.md
-          - VPN 難読化の設定: tutorials/vpn_obfuscation.md
+          - VPN 難読化の設定: tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md
           - NordVPN に Dedicated IP で接続する: tutorials/how_to_connect_to_nordvpn_with_dedicated_ip_on_glinet_routers.md
           - Surfshark に Dedicated IP で接続する: tutorials/how_to_connect_to_surfshark_with_dedicated_ip_on_glinet_routers.md
           - サーバーから OpenVPN クライアント LAN にアクセスする: tutorials/openvpn_server_access_client_lan_side.md
@@ -556,6 +557,7 @@ nav:
           - OpenVPN サーバー: interface_guide/openvpn_server.md
           - WireGuard クライアント: interface_guide/wireguard_client.md
           - WireGuard サーバー: interface_guide/wireguard_server.md
+          - ExpressVPNのアクティベーション: interface_guide/expressvpn_activation_guide.md
       - アプリケーション:
           - プラグイン: interface_guide/plugins.md
           - ダイナミック DNS: interface_guide/ddns.md
@@ -586,6 +588,7 @@ nav:
           - ネットワークアクセラレーション: interface_guide/network_acceleration.md
           - NAT 設定: interface_guide/nat_settings.md
       - フロー制御:
+          - ネットワーク品質: interface_guide/network_quality.md
           - DPI エンジン: interface_guide/dpi_engine.md
           - データ統計: interface_guide/data_statistics.md
           - コンテンツフィルター: interface_guide/content_filter.md
@@ -593,6 +596,7 @@ nav:
           - SQM: interface_guide/sqm.md
           - ペアレンタルコントロール（v4.9）: interface_guide/parental_control_v4.9.md
       - セキュリティ:
+          - セキュリティスキャン: interface_guide/security_scan.md
           - ポートフォワーディング: interface_guide/port_forwarding.md
           - ACL: interface_guide/acl.md
           - 管理者アクセス: interface_guide/admin_access.md
@@ -613,6 +617,8 @@ nav:
           - 言語: interface_guide/ui_languages.md
           - ヘルプ: interface_guide/help.md
   - 機能アップデート:
+      - 概要: features_update/index.md
+      - Firmware v4.10: features_update/firmware_v4.10.md
       - Firmware v4.9: features_update/firmware_v4.9.md
   - ビデオライブラリ:
       - 概要: video_library/index.md

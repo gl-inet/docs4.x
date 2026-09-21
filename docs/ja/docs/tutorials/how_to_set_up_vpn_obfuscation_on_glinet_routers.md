@@ -1,33 +1,17 @@
 # GL.iNetルーターでVPN Obfuscationを設定する方法
 
-## VPN Obfuscationとは
+**注**：GL.iNetルーターは、ファームウェアv4.9以降でAmneziaWGに対応します。最初にルーターを対応するファームウェアバージョンへ更新してください。
 
-VPN Obfuscation は、VPNトラフィックを通常のインターネットトラフィックのように見せかける技術です。これにより、特にインターネット規制が厳しい地域で、ネットワーク制限や検閲を回避しやすくなります。
+このガイドでは、GL.iNetルーターでAmneziaWG難読化を設定する2つのシナリオを説明します。
 
-- ISP、ファイアウォール、Deep Packet Inspection（DPI）に検出されないよう、VPN特有の通信パターンを隠します。
-
-- VPN接続を通常のWebトラフィックのように見せることで、制限のあるネットワークでも接続の安定性と成功率を高めます。
-
-## AmneziaWGとは
-
-AmneziaWG は、WireGuard をベースにしたVPNプロトコルで、トラフィック難読化機能を内蔵しています。高速、軽量、低遅延といった WireGuard 本来の利点を維持しながら、専用の難読化モジュールを追加しています。このモジュールによりVPNトラフィックのパターンを効果的に隠せるため、個人ユーザーにも法人ユーザーにも、オンラインプライバシーの保護、地域制限の回避、厳しいネットワーク制御による接続中断の防止に役立ちます。
-
-AmneziaWG は、Windows、macOS、iOS、Android、Linux、ルーターなど幅広いデバイスに対応しており、さまざまなシーンで信頼性の高い難読化VPN接続を提供します。
-
-現在、**Brume 3**、**Flint 3**、**Flint 2**、**Beryl AX** などの一部の GL.iNet ルーターが、特定のファームウェアバージョンで AmneziaWG プロトコルをサポートしています。正式なフルサポートはファームウェア ver.4.9 で提供され、今後さらに多くのモデルへ順次展開される予定です。
-
-## クイックセットアップ
-
-以下では、GL.iNetルーターで AmneziaWG のVPN Obfuscationを設定する代表的な2つのシナリオを紹介します。
-
-### シナリオ1. 2台のGL.iNetルーターを使用する
+## シナリオ1：2台のGL.iNetルーターを使用する
 
 このシナリオでは、2台の GL.iNet ルーターを使って、AmneziaWG プロトコル経由の VPN Obfuscation 接続を確立します。
 
-- **Brume 3 (GL-MT5000)**: 自宅用のVPNサーバーとして使用
-- **Beryl AX (GL-MT3000)**: 外出先で使うポータブルVPNクライアントとして使用
+- Brume 3（GL-MT5000）：家庭用VPNサーバー。
+- Beryl AX（GL-MT3000）：携帯用VPNクライアント。
 
-#### VPNサーバーを設定する
+### VPNサーバーを設定する
 
 1. Brume 3 のWeb管理パネルにログインします。
 
@@ -85,7 +69,7 @@ AmneziaWG は、Windows、macOS、iOS、Android、Linux、ルーターなど幅�
 
     ![server start](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/server_start2.png){class="glboxshadow"}
 
-#### VPNクライアントを設定する
+### VPNクライアントを設定する
 
 1. Beryl AX のWeb管理パネルにログインします。
 
@@ -133,13 +117,13 @@ AmneziaWG は、Windows、macOS、iOS、Android、Linux、ルーターなど幅�
 
     これでVPN接続は完了です。Beryl AX に接続されたすべてのデバイスは、Brume 3 のゲートウェイ経由でインターネットにアクセスし、VPN Obfuscation 接続を利用できます。
 
-### シナリオ2. 1台のGL.iNetルーターを使用する
+## シナリオ2：1台のGL.iNetルーターを使用する
 
 このシナリオでは、1台の GL.iNet ルーター **Brume 3 (GL-MT5000)** をVPNクライアントとして使い、AmneziaVPN サーバーに接続します。
 
 この場合、自分でサーバーを構築する必要はありません。[Amnezia 公式サイト](https://amnezia.org/){target="_blank"} または AmneziaWG を統合しているVPNサービスプロバイダーから AmneziaWG 設定ファイルをダウンロードし、そのファイルを GL.iNet ルーターにアップロードするだけで、難読化を有効にしたVPN接続を確立できます。
 
-#### 設定ファイルをダウンロードする
+### 設定ファイルをダウンロードする
 
 <u>Option 1</u>: Amnezia 公式から設定ファイルをダウンロードする（Premium サブスクリプションが必要です）。
 
@@ -167,7 +151,7 @@ StarVPN を例に説明します。
 
     その後、以下の手順に従ってVPNクライアントを設定します。
 
-#### VPNクライアントを設定する
+### VPNクライアントを設定する
 
 1. Brume 3 のWeb管理パネルにログインします。
 

@@ -66,9 +66,9 @@ Cliquez sur **Advanced** pour une configuration supplémentaire si nécessaire.
 
 - **Gateway** : appareil qui route le trafic entre le réseau local et les réseaux externes tels qu'Internet.
 
-- **DNS Server** : deux champs de serveur DNS sont disponibles pour configurer les résolveurs principal et secondaire.
+- **DNS Server 1** : serveur principal qui traduit les noms de domaine en adresses IP.
 
-    **Note** : le DNS principal est saisi dans le champ supérieur et le DNS secondaire dans le champ inférieur. Si le serveur principal n'est pas disponible, les appareils clients basculent automatiquement vers le résolveur secondaire, ce qui assure la continuité de la résolution des noms de domaine.
+- **DNS Server 2** : serveur secondaire utilisé pour résoudre les noms de domaine lorsque le serveur DNS principal n’est pas disponible.
 
 - **LPR Server** (Line Printer Remote Server) : service qui gère les travaux d'impression et permet aux appareils réseau d'envoyer des demandes d'impression à des imprimantes distantes. Plusieurs ports d'imprimante LPR peuvent être configurés.
 
@@ -166,9 +166,9 @@ Cliquez sur **Advanced** pour une configuration supplémentaire si nécessaire.
 
 - **Gateway** : appareil qui route le trafic entre le réseau local et les réseaux externes tels qu'Internet.
 
-- **DNS Server** : deux champs de serveur DNS sont disponibles pour configurer les résolveurs principal et secondaire.
+- **DNS Server 1** : serveur principal qui traduit les noms de domaine en adresses IP.
 
-    **Note** : le DNS principal est saisi dans le champ supérieur et le DNS secondaire dans le champ inférieur. Si le serveur principal n'est pas disponible, les appareils clients basculent automatiquement vers le résolveur secondaire, ce qui assure la continuité de la résolution des noms de domaine.
+- **DNS Server 2** : serveur secondaire utilisé pour résoudre les noms de domaine lorsque le serveur DNS principal n’est pas disponible.
 
 - **LPR Server** (Line Printer Remote Server) : service qui gère les travaux d'impression et permet aux appareils réseau d'envoyer des demandes d'impression à des imprimantes distantes. Plusieurs ports d'imprimante LPR peuvent être configurés.
 
@@ -242,9 +242,9 @@ Cliquez sur **Advanced** pour une configuration supplémentaire si nécessaire.
 
 - **Gateway** : appareil qui route le trafic entre le réseau local et les réseaux externes tels qu'Internet.
 
-- **DNS Server** : deux champs de serveur DNS sont disponibles pour configurer les résolveurs principal et secondaire.
+- **DNS Server 1** : serveur principal qui traduit les noms de domaine en adresses IP.
 
-    **Note** : le DNS principal est saisi dans le champ supérieur et le DNS secondaire dans le champ inférieur. Si le serveur principal n'est pas disponible, les appareils clients basculent automatiquement vers le résolveur secondaire, ce qui assure la continuité de la résolution des noms de domaine.
+- **DNS Server 2** : serveur secondaire utilisé pour résoudre les noms de domaine lorsque le serveur DNS principal n’est pas disponible.
 
 - **LPR Server** (Line Printer Remote Server) : service qui gère les travaux d'impression et permet aux appareils réseau d'envoyer des demandes d'impression à des imprimantes distantes. Plusieurs ports d'imprimante LPR peuvent être configurés.
 
@@ -318,9 +318,9 @@ Cliquez sur **Advanced** pour une configuration supplémentaire si nécessaire.
 
 - **Gateway** : appareil qui route le trafic entre le réseau local et les réseaux externes tels qu'Internet.
 
-- **DNS Server** : deux champs de serveur DNS sont disponibles pour configurer les résolveurs principal et secondaire.
+- **DNS Server 1** : serveur principal qui traduit les noms de domaine en adresses IP.
 
-    **Note** : le DNS principal est saisi dans le champ supérieur et le DNS secondaire dans le champ inférieur. Si le serveur principal n'est pas disponible, les appareils clients basculent automatiquement vers le résolveur secondaire, ce qui assure la continuité de la résolution des noms de domaine.
+- **DNS Server 2** : serveur secondaire utilisé pour résoudre les noms de domaine lorsque le serveur DNS principal n’est pas disponible.
 
 - **LPR Server** (Line Printer Remote Server) : service qui gère les travaux d'impression et permet aux appareils réseau d'envoyer des demandes d'impression à des imprimantes distantes. Plusieurs ports d'imprimante LPR peuvent être configurés.
 

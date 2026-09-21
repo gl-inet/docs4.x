@@ -44,6 +44,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 * [Configurer OpenVPN Server](openvpn_server.md)
 * [Configurer WireGuard Client](wireguard_client.md)
 * [Configurer WireGuard Server](wireguard_server.md)
+* [Guide d'activation d'ExpressVPN](expressvpn_activation_guide.md)
 * [Politique VPN (pour le firmware v4.7 et antérieur)](vpn_dashboard_v4.7.md#proxy-mode)
 * [Politique VPN (pour le firmware v4.8 et ultérieur)](vpn_dashboard_v4.8.md#policy-mode)
 * [Comment configurer NordVPN sur le routeur ?](openvpn_client.md#set-up-nordvpn)
@@ -88,6 +89,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 
 ## Contrôle du trafic
 
+* [Qualité du réseau](network_quality.md)
 * [DPI Engine](dpi_engine.md)
 * [Statistiques des données](data_statistics.md)
 * [Filtre de contenu](content_filter.md)
@@ -97,6 +99,7 @@ Découvrez comment utiliser nos appareils et leurs fonctionnalités complémenta
 
 ## Sécurité
 
+* [Analyse de sécurité](security_scan.md)
 * [Redirection de port](port_forwarding.md)
 * [ACL (liste de contrôle d'accès)](acl.md)
 * [Accès administrateur](admin_access.md)

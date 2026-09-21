@@ -66,9 +66,9 @@ Fare clic su **Advanced** per ulteriori configurazioni, se necessario.
 
 - **Gateway**: dispositivo che instrada il traffico tra la rete locale e le reti esterne, come Internet.
 
-- **DNS Server**: sono disponibili due campi DNS per configurare il resolver primario e quello secondario.
+- **DNS Server 1**: server primario che traduce i nomi di dominio in indirizzi IP.
 
-    **Nota**: il DNS primario viene inserito nel campo superiore e il secondario nel campo inferiore. Se il server primario non è disponibile, i dispositivi client passano automaticamente al resolver secondario, garantendo la continuità della risoluzione dei nomi di dominio.
+- **DNS Server 2**: server secondario utilizzato per la risoluzione dei nomi di dominio se il server DNS primario non è disponibile.
 
 - **LPR Server** (Line Printer Remote Server): servizio che gestisce i processi di stampa e consente ai dispositivi di rete di inviare richieste di stampa a stampanti remote. È possibile configurare più porte stampante LPR.
 
@@ -166,9 +166,9 @@ Fare clic su **Advanced** per ulteriori configurazioni, se necessario.
 
 - **Gateway**: dispositivo che instrada il traffico tra la rete locale e le reti esterne, come Internet.
 
-- **DNS Server**: sono disponibili due campi DNS per configurare il resolver primario e quello secondario.
+- **DNS Server 1**: server primario che traduce i nomi di dominio in indirizzi IP.
 
-    **Nota**: il DNS primario viene inserito nel campo superiore e il secondario nel campo inferiore. Se il server primario non è disponibile, i dispositivi client passano automaticamente al resolver secondario, garantendo la continuità della risoluzione dei nomi di dominio.
+- **DNS Server 2**: server secondario utilizzato per la risoluzione dei nomi di dominio se il server DNS primario non è disponibile.
 
 - **LPR Server** (Line Printer Remote Server): servizio che gestisce i processi di stampa e consente ai dispositivi di rete di inviare richieste di stampa a stampanti remote. È possibile configurare più porte stampante LPR.
 
@@ -242,9 +242,9 @@ Fare clic su **Advanced** per ulteriori configurazioni, se necessario.
 
 - **Gateway**: dispositivo che instrada il traffico tra la rete locale e le reti esterne, come Internet.
 
-- **DNS Server**: sono disponibili due campi DNS per configurare il resolver primario e quello secondario.
+- **DNS Server 1**: server primario che traduce i nomi di dominio in indirizzi IP.
 
-    **Nota**: il DNS primario viene inserito nel campo superiore e il secondario nel campo inferiore. Se il server primario non è disponibile, i dispositivi client passano automaticamente al resolver secondario, garantendo la continuità della risoluzione dei nomi di dominio.
+- **DNS Server 2**: server secondario utilizzato per la risoluzione dei nomi di dominio se il server DNS primario non è disponibile.
 
 - **LPR Server** (Line Printer Remote Server): servizio che gestisce i processi di stampa e consente ai dispositivi di rete di inviare richieste di stampa a stampanti remote. È possibile configurare più porte stampante LPR.
 
@@ -318,9 +318,9 @@ Fare clic su **Advanced** per ulteriori configurazioni, se necessario.
 
 - **Gateway**: dispositivo che instrada il traffico tra la rete locale e le reti esterne, come Internet.
 
-- **DNS Server**: sono disponibili due campi DNS per configurare il resolver primario e quello secondario.
+- **DNS Server 1**: server primario che traduce i nomi di dominio in indirizzi IP.
 
-    **Nota**: il DNS primario viene inserito nel campo superiore e il secondario nel campo inferiore. Se il server primario non è disponibile, i dispositivi client passano automaticamente al resolver secondario, garantendo la continuità della risoluzione dei nomi di dominio.
+- **DNS Server 2**: server secondario utilizzato per la risoluzione dei nomi di dominio se il server DNS primario non è disponibile.
 
 - **LPR Server** (Line Printer Remote Server): servizio che gestisce i processi di stampa e consente ai dispositivi di rete di inviare richieste di stampa a stampanti remote. È possibile configurare più porte stampante LPR.
 

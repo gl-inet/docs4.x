@@ -39,7 +39,7 @@ Ces améliorations rendent le trafic VPN plus difficile à détecter tout en con
 
 AmneziaWG 2.0 est disponible sur les routeurs GL.iNet équipés du firmware v4.9 ou d'une version ultérieure.
 
-Pour configurer l'obfuscation VPN sur les routeurs GL.iNet, consultez [ce guide](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
+Pour configurer l'obfuscation VPN sur les routeurs GL.iNet, consultez [ce tutoriel](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
 
 ## Aperçu des paramètres
 

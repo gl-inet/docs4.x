@@ -36,7 +36,7 @@ AmneziaWG v1.0 と比べて、v2.0 は新しいパラメーター（**S3~S4**）
 
 AmneziaWG 2.0は、ファームウェアv4.9以降のGL.iNetルーターで利用できます。
 
-GL.iNetルーターでVPN難読化を設定するには、[こちら](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md)を参照してください。
+GL.iNetルーターでVPN難読化を設定するには、[こちらのチュートリアル](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md)を参照してください。
 
 ## パラメーター概要
 

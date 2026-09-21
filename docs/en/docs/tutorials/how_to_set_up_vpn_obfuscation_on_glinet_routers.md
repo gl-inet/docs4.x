@@ -53,7 +53,7 @@ This scenario uses two GL.iNet routers to establish a VPN obfuscation connection
 
     ![add profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/add_profiles2.png){class="glboxshadow"}
 
-    In the pop-up window, click **Export** to download the config to your local, which will be used latter.
+    In the pop-up window, click **Export** to download the configuration file to your device for later use.
 
     ![add profiles](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/wg_config_qrcode.png){class="glboxshadow"}
 
@@ -185,7 +185,7 @@ Take StarVPN as an example.
 
     ![client amnezia connected](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_amnezia_connected.png){class="glboxshadow"}
 
-    Turn to the **VPN Dashboard**, you will see that the Brume 3 has been connected to a AmneziaVPN server.
+    Go to the **VPN Dashboard**. You will see that the Brume 3 is connected to an AmneziaVPN server.
 
     ![client amnezia dashboard](https://static.gl-inet.com/docs/router/en/4/tutorials/vpn_obfuscation/client_dashboard_amnezia.png){class="glboxshadow"}
     

@@ -6006,30 +6006,30 @@
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       },
       "es": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       },
       "fr": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       },
       "it": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       },
       "ja": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       }
     },
-    "source_hash": "73e577ac8da77cd0804bf2a40d75cf70ceb011c2b8c5afc053d6a7d6289af719"
+    "source_hash": "40ff04259fb7f61e68fd118a93943d2c89c2c286045f748decb4cd935b3d7136"
   },
   "docs/en/docs/tutorials/how_to_make_adguard_home_dns_bypass_vpn.md": {
     "source_hash": "2b8b6c3069d82d515bb1799cd479f0456bac3efcba0c2db9ae1353df7b00e096",
@@ -6844,31 +6844,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md": {
-    "source_hash": "82da6de654eb1efe14009916f50baaee37e1a0de55f9c38edf11c64017b9c9f3",
+    "source_hash": "7b4c76b9154d3c4c4cc48b4b2fec6583713e1d7ad5f3d47e8f45f99a20ea6e7c",
     "targets": {
       "de": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       },
       "es": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       },
       "fr": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       },
       "it": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       },
       "ja": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       },
       "pl": {
         "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "updated_at": 1789983243
       }
     }
   },

@@ -39,7 +39,7 @@ Dzięki tym usprawnieniom ruch VPN jest trudniejszy do wykrycia, przy zachowaniu
 
 AmneziaWG 2.0 jest dostępny na routerach GL.iNet z firmware v4.9 lub nowszym.
 
-Aby skonfigurować maskowanie VPN na routerach GL.iNet, zobacz [tutaj](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
+Aby skonfigurować maskowanie VPN na routerach GL.iNet, zapoznaj się z [tym poradnikiem](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
 
 ## Przegląd parametrów
 

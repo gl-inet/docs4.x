@@ -37,7 +37,7 @@ Diese Erweiterungen erschweren die Erkennung des VPN-Datenverkehrs und bewahren 
 
 AmneziaWG 2.0 ist auf GL.iNet-Routern mit Firmware v4.9 oder höher verfügbar.
 
-Informationen zum Einrichten der VPN-Verschleierung auf GL.iNet-Routern finden Sie [hier](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
+Informationen zum Einrichten der VPN-Verschleierung auf GL.iNet-Routern finden Sie in [dieser Anleitung](../tutorials/how_to_set_up_vpn_obfuscation_on_glinet_routers.md).
 
 ## Überblick über die Parameter {#parameter-overview}
 

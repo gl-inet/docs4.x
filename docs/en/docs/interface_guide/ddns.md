@@ -38,31 +38,31 @@ You can check if DDNS works using the DDNS test tool or check it manually using 
 
     ![ddns test](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns_test.png){class="glboxshadow"}
 
-    Make sure the IP address from DDNS domain resolution matches the router’s WAN IP. 
+    Make sure the IP address from DDNS domain resolution matches the router's WAN IP. 
     
     If not, a yellow prompt will appear at the top, indicating that the router might be behind NAT, and you need to set up port forwarding on the upstream router.
 
     ![ddns test prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns_test_no_public_ip.png){class="glboxshadow"}
 
-=== "Check it manually"
+=== "Using commands"
 
     1. Use `nslookup` command to obtain the mapping between domain name and IP address, as shown below.
 
-        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup1.jpg){class="glboxshadow"}
+        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup.png){class="glboxshadow" width="600"}
 
-        Replace the "xxxxxxx.glddns.com" in the image above with your Host Name. 
+        **Tips:**
         
-        The "8.8.8.8" in the image above is the Google DNS. Use it or replace it with other DNS, then press Enter.
-
-    2. If you get a public IP address as an output, such as "103.81.180.10" in the image below, it indicates that your DDNS domain has been successfully mapped to a public IP address.
-
-        ![nslookup 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup2.jpg){class="glboxshadow"}
+        - Replace the "xxxxxxx.glddns.com" in the image above with your Host Name. 
         
-        On a device connected to the router, search for "what is my ip address" in a browser, or visit a website like [What Is My IP Address](https://whatismyipaddress.com){target="_blank"}. You will get your public IP address. Compare the two IP addresses obtained from Step 1 and 2. If they are the same, the DDNS is in effect, otherwise it is not.
-
-    3. If you get a message `** server can't find xxxxxxx.glddns.com: NXDOMAIN`, as shown below, it indicates that domain resolution failed, and your DDNS domain has not been successfully mapped to a public IP address.
-
-        ![nslookup 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup3.png){class="glboxshadow"}
+        - The "8.8.8.8" in the image above is the Google DNS. Use it or replace it with other DNS, then press Enter.
+    
+    2. Determine whether your DDNS domain has been successfully mapped to a public IP address based on the returned result.
+    
+        - If you get a public IP address such as "183.178.10.100" in the image above, it indicates that your DDNS domain has been successfully mapped to a public IP address. 
+    
+        - If you get a message "server can't find xxxxxxx.glddns.com", it may indicate that domain resolution failed, and your DDNS domain has not been successfully mapped to a public IP address. Proceed to the next step to verify.
+    
+    3. Log in to your router's web Admin Panel and go to **INTERNET**. Find your router's WAN IP address in the currently active interface. Compare this IP address with the public IP address obtained above. If they are the same, the DDNS is in effect, otherwise it is not.
 
 ## HTTPS Remote Access
 

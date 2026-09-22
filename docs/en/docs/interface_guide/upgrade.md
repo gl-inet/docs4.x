@@ -20,15 +20,11 @@ You can find the current firmware version in the **Firmware Online Upgrade**.
 
 - **Accept Preview Plan**
 
-    If this option is enabled, you can try new features before the final version is issued and provide us with feedback. Set it once and it stays on, and you always have the option to turn it off. Note that these upgrades may not be stable. Please check [What's New?](https://www.gl-inet.com/whats-new/){target="_blank"} for the latest firmware features.
+    If enabled, you can try new features before the final version is issued and provide us with feedback. Note that these upgrades may not be stable.
 
-If your router is connected to the Internet, it will check for available firmware updates.
+**Note**: When trying to perform an online upgrade, if it displays **Download Failed**, please go to System -> Time Zone, and fix the time zone error (sync to browser).
 
-![upgrade reminder](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/upgrade_reminder.png){class="glboxshadow"}
-
-**Note**: When trying to perform an online upgrade, if it displays **Download Failed**, please navigate to System -> Time Zone, and fix the time zone error (sync to browser).
-
-![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow gl-50-desktop"}
+![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow" width="360"}
 
 ![time zone](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 

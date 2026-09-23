@@ -2407,31 +2407,31 @@
     }
   },
   "docs/en/docs/interface_guide/network_storage.md": {
-    "source_hash": "3cda4b660a1dd62644c78a1de2c1c5847b4972a0bd87b2f932e9e9d39d226623",
+    "source_hash": "bb137d39c7ee07ca4281c5d58cb9bcc39d6283d92edd70025be099ca22b7c249",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       }
     }
   },
@@ -5684,31 +5684,31 @@
     }
   },
   "docs/en/docs/video_library/tutorials.md": {
-    "source_hash": "4a7c4630e54a91154e314a3229834e4325ad3dfcf66affc09edf05d539f85afd",
+    "source_hash": "77b7e068d2eb6b91efcbb36fcd527f51fe540d7802c074ac9cf061f6a298dbb1",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "reviewed-no-target-change",
+        "updated_at": 1790151519
       }
     }
   },

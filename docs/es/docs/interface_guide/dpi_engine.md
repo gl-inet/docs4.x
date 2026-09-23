@@ -1,5 +1,11 @@
 # DPI Engine
 
+**Nota**: Esta función se introdujo en el firmware v4.9.
+
+Algunos modelos, como Mango 2 (GL-MG1300), no admiten DPI Engine por falta de memoria, incluso con firmware v4.9 o posterior. Consulte [Modelos compatibles](#supported-models) para obtener más información.
+
+---
+
 La DPI (Deep Packet Inspection) es una tecnología central para la gestión inteligente de redes. A diferencia de los routers tradicionales, que solo identifican las direcciones de origen y destino, la DPI analiza en profundidad la carga útil de los paquetes e identifica con precisión aplicaciones y sitios web mediante una biblioteca de coincidencia de firmas, lo que permite una clasificación y un control del tráfico mucho más detallados.
 
 El motor DPI de GL.iNet se ejecuta localmente en su router para ofrecer una gestión inteligente de la red con total privacidad. Proporciona acceso completo a estadísticas de tráfico, filtrado de contenido y QoS para un control integral del tráfico.
@@ -12,17 +18,42 @@ Integrado con [Netify](https://www.netify.ai/){target="_blank"}, el DPI de GL.iN
 
 2. Cuando la DPI está habilitada, Network Acceleration se desactiva automáticamente para garantizar un rendimiento estable.
 
-## Modelos compatibles
+## Modelos compatibles {#supported-models}
 
-!!! note "Modelos compatibles"
+??? "Modelos compatibles"
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
-    - GL-MT3600BE (Beryl 7)
+    - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint 2)
+    - GL-MT6000 (Flint2)
     - GL-MT3000 (Beryl AX)
+
+??? "Modelos no compatibles"
+    - GL-MG1300 (Mango 2)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-B3000 (Marble)
+    - GL-AX1800 (Flint)
+    - GL-AXT1800 (Slate AX)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
+    - GL-A1300 (Slate Plus)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
 
 
 ## Configuración rápida

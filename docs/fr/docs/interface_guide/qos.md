@@ -1,6 +1,8 @@
 # QoS (Quality of Service)
 
-**Remarque** : cette fonction a été introduite dans le firmware v4.9. Certains modèles, tels que Mango 2 (GL-MG1300), ne prennent pas en charge la QoS en raison d’une mémoire insuffisante, même lorsqu’ils exécutent le firmware v4.9 ou une version ultérieure.
+**Remarque** : cette fonction a été introduite dans le firmware v4.9.
+
+Certains modèles, notamment Mango 2 (GL-MG1300), ne prennent pas en charge die QoS en raison d’une mémoire insuffisante, même avec le firmware v4.9 ou une version ultérieure. Consultez les [modèles pris en charge](#supported-models) pour plus de détails.
 
 ---
 
@@ -14,6 +16,44 @@ La QoS (Quality of Service) optimise l’allocation de la bande passante en donn
 2. La QoS ne prend pas effet lorsque le routeur est en mode Drop-in Gateway.
 3. La QoS et le SQM ne peuvent pas être activés simultanément.
 4. La QoS ne peut pas fonctionner avec Network Acceleration. L’activation de la QoS désactivera automatiquement Network Acceleration afin de garantir des performances stables.
+
+## Modèles pris en charge {#supported-models}
+
+??? "Modèles pris en charge"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint2)
+    - GL-MT3000 (Beryl AX)
+
+??? "Modèles non pris en charge"
+    - GL-MG1300 (Mango 2)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-B3000 (Marble)
+    - GL-AX1800 (Flint)
+    - GL-AXT1800 (Slate AX)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
+    - GL-A1300 (Slate Plus)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
+
 
 ## Pour le firmware v4.11 et les versions ultérieures
 

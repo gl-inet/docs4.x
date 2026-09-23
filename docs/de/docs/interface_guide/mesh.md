@@ -2,13 +2,51 @@
 
 **Hinweis**: Diese Funktion wurde mit Firmware v4.10 eingeführt.
 
-Mango 2 (GL-MG1300) und Mudi 7 (GL-E5800) unterstützen Mesh auch mit Firmware v4.10 oder höher nicht.
+Mango 2 (GL-MG1300) und Mudi 7 (GL-E5800) unterstützen Mesh auch mit Firmware v4.10 oder höher nicht. Weitere Informationen finden Sie unter [Unterstützte Modelle](#supported-models).
 
 ---
 
 Navigieren Sie auf der linken Seite des webbasierten Admin Panels zu **MESH**.
 
 Mesh ist eine auf dem Wi-Fi EasyMesh™-Standard basierende Funktion, die die WLAN-Abdeckung im gesamten Zuhause erweitert und nahtloses Roaming ermöglicht. Wenn Sie mehrere GL.iNet-Router besitzen, legen Sie einen davon als Hauptrouter und die übrigen als Mesh-Knoten fest. Dadurch können Sie sich in Ihrem Zuhause bewegen, ohne die WLAN-Verbindung wechseln zu müssen.
+
+## Unterstützte Modelle {#supported-models}
+
+??? "Unterstützte Modelle"
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+
+??? "Nicht unterstützte Modelle"
+    - GL-MG1300 (Mango 2)
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-B3000 (Marble)
+    - GL-MT6000 (Flint2)
+    - GL-MT3000 (Beryl AX)
+    - GL-AX1800 (Flint)
+    - GL-AXT1800 (Slate AX)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
+    - GL-A1300 (Slate Plus)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
+
 
 ## Schnelleinrichtung
 

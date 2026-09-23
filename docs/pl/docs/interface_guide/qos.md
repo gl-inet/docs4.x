@@ -1,6 +1,8 @@
 # QoS (Quality of Service)
 
-**Uwaga**: Ta funkcja została wprowadzona w oprogramowaniu sprzętowym v4.9. Niektóre modele, takie jak Mango 2 (GL-MG1300), nie obsługują QoS ze względu na niewystarczającą ilość pamięci, nawet jeśli działa oprogramowanie sprzętowe w wersji 4.9 lub nowszej.
+**Uwaga**: Ta funkcja została wprowadzona w firmware v4.9.
+
+Niektóre modele, takie jak Mango 2 (GL-MG1300), nie obsługują QoS ze względu na zbyt małą ilość pamięci, nawet z firmware v4.9 lub nowszym. Szczegółowe informacje znajdują się w sekcji [Obsługiwane modele](#supported-models).
 
 ---
 
@@ -14,6 +16,43 @@ QoS (Quality of Service) optymalizuje alokację przepustowości, nadając priory
 2. Funkcja QoS nie będzie działać, gdy router znajduje się w trybie bramy typu Drop-in.
 3. Nie można jednocześnie włączyć funkcji QoS i SQM.
 4. Funkcja QoS nie działa z przyspieszeniem sieci. Włączenie QoS automatycznie wyłączy przyspieszenie sieci, aby zapewnić stabilną wydajność.
+
+## Obsługiwane modele {#supported-models}
+
+??? "Obsługiwane modele"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint2)
+    - GL-MT3000 (Beryl AX)
+
+??? "Nieobsługiwane modele"
+    - GL-MG1300 (Mango 2)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-B3000 (Marble)
+    - GL-AX1800 (Flint)
+    - GL-AXT1800 (Slate AX)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
+    - GL-A1300 (Slate Plus)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
 
 ## Dla oprogramowania sprzętowego w wersji 4.11 i nowszych
 

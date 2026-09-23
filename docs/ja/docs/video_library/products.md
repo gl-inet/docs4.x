@@ -2,6 +2,42 @@
 
 今後の製品のご紹介と、最新の開発状況をお届けします。
 
+## GL-MT6000 (Fortify) {#gl-mt6000-fortify}
+
+ExpressVPN 内蔵の高性能 Wi-Fi 6 ルーター
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n5Iq2_SIoGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MG1300 (Mango 2) {#gl-mg1300-mango-2}
+
+デュアルバンドの小型トラベルルーター
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4p_puCeItsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-BE14000 (Flint 4) {#gl-be14000-flint-4}
+
+トライバンド Wi-Fi 7 ホームルーター
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2sCuVkLA9gA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-E5800 (Mudi 7) {#gl-e5800-mudi-7}
+
+デュアル SIM 対応のオールインワン 5G Wi-Fi 7 トラベルルーター
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZIt4UZXAmgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MT3600BE (Beryl 7)
+
+ポケットサイズのデュアルバンド Wi-Fi 7 トラベルルーター
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2jqG2ckihCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MT5000 (Brume 3)
+
+高速 VPN セキュリティゲートウェイ
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bAxAgkzC1vU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-BE9300 (Flint 3)
 
 トライバンドWi-Fi 7ホームルーター
@@ -10,7 +46,7 @@
 
 ## GL-BE3600 (Slate 7)
 
-デュアルバンドWi-Fi 7トラベルルーター
+タッチスクリーン搭載デュアルバンド Wi-Fi 7 トラベルルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5u0bzFlL-3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -44,25 +44,23 @@ DDNS が機能しているかどうかは、DDNS テストツールを使用す�
 
     ![ddns test prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns_test_no_public_ip.png){class="glboxshadow"}
 
-=== "Check it manually"
+=== "コマンドで確認する"
 
-    1. 以下のように `nslookup` コマンドを使用して、ドメイン名と IP アドレスの対応を確認します。
+    1. 次のように `nslookup` コマンドでドメイン名と IP アドレスの対応を確認します。
 
-        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup1.jpg){class="glboxshadow"}
+        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup.png){class="glboxshadow" width="600"}
 
-        上の画像にある "xxxxxxx.glddns.com" は、ご自身の Host Name に置き換えてください。
-        
-        上の画像の "8.8.8.8" は Google DNS です。そのまま使用するか、別の DNS に置き換えて Enter キーを押してください。
+        **ヒント:**
 
-    2. 下の画像の "103.81.180.10" のようなパブリックIPアドレスが結果として表示された場合、DDNS ドメインがパブリックIPアドレスに正しく紐付けられていることを意味します。
+        - 画像の "xxxxxxx.glddns.com" は、ご自身の Host Name に置き換えてください。
+        - "8.8.8.8" は Google DNS です。そのまま使用するか、別の DNS サーバーに置き換えて Enter キーを押してください。
 
-        ![nslookup 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup2.jpg){class="glboxshadow"}
-        
-        ルーターに接続されている端末で、ブラウザから "what is my ip address" を検索するか、[What Is My IP Address](https://whatismyipaddress.com){target="_blank"} のようなサイトにアクセスしてください。そこでパブリックIPアドレスを確認できます。手順 1 と 2 で取得した 2 つの IP アドレスを比較し、同じであれば DDNS は有効です。異なる場合は有効になっていません。
+    2. 応答結果を見て、DDNS ドメインがパブリック IP アドレスに関連付けられているか確認します。
 
-    3. 下のように `** server can't find xxxxxxx.glddns.com: NXDOMAIN` というメッセージが表示された場合は、ドメインの名前解決に失敗しており、DDNS ドメインがパブリックIPアドレスに正しく紐付けられていないことを示します。
+        - 画像の "183.178.10.100" のようなパブリック IP アドレスが表示された場合、ドメインはパブリック IP アドレスに関連付けられています。
+        - "server can't find xxxxxxx.glddns.com" と表示された場合、名前解決に失敗している可能性があります。次の手順で確認してください。
 
-        ![nslookup 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup3.png){class="glboxshadow"}
+    3. ルーターの Web Admin Panel にログインして **INTERNET** に移動します。現在有効なインターフェースの WAN IP アドレスを確認し、上で取得したパブリック IP アドレスと比較します。一致すれば DDNS は有効です。一致しなければ有効ではありません。
 
 ## HTTPS リモートアクセス
 

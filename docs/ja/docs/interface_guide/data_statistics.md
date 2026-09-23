@@ -1,6 +1,8 @@
 # データ統計
 
-**注**: この機能はファームウェア v4.9 で導入されました。 Mango 2 (GL-MG1300) などの一部のモデルは、ファームウェア v4.9 以降を実行している場合でも、メモリ不足のためデータ統計をサポートしません。
+**注**: この機能はファームウェア v4.9 で導入されました。
+
+Mango 2 (GL-MG1300) など一部のモデルは、メモリ不足のため、ファームウェア v4.9 以降でも Data Statistics に対応しません。詳しくは[対応モデル](#supported-models)をご覧ください。
 
 ---
 
@@ -13,6 +15,43 @@ Web 管理パネルの左側で、**FLOW CONTROL** -> **Data Statistics** に移
 1. ルーターがドロップイン ゲートウェイ モードの場合、データ統計は有効になりません。
 2. データ統計はネットワーク アクセラレーションと併用できません。データ統計を有効にすると、ネットワーク アクセラレーションが自動的に無効になり、安定したパフォーマンスが保証されます。
 3. データ統計は、クライアント ページにリストされているデバイスのトラフィック使用量のみを追跡します。デバイスがトンネル インターフェイス （VPNクライアント、Tailscale、AstroWarpなど） 経由でルーターに接続している場合、そのデバイスから発信されルーター経由で転送されるトラフィックは、これらの統計から除外されます。
+
+## 対応モデル {#supported-models}
+
+??? "対応モデル"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint2)
+    - GL-MT3000 (Beryl AX)
+
+??? "非対応モデル"
+    - GL-MG1300 (Mango 2)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-B3000 (Marble)
+    - GL-AX1800 (Flint)
+    - GL-AXT1800 (Slate AX)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
+    - GL-A1300 (Slate Plus)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
 
 ## ファームウェア v4.11 以降の場合
 

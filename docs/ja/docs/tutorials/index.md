@@ -71,7 +71,6 @@ hide:
 * [ルーターにSSHでログインする方法](ssh_log_in_to_the_router.md)
 * [WinSCPを使って共有ファイルにアクセスする方法](winscp_share_file.md)
 * [WinSCPを使ってGL.iNetルーター上のファイルを編集する方法](how_to_use_winscp_to_modify_files_on_glinet_routers.md)
-* [T-Mobile SIMカードを有効化またはチャージする方法](how_to_activate_top_up_sim_cards.md)
 * [GamingでNATタイプを変更する方法](how_to_change_the_nat_type_on_gaming.md)
 * [モバイルアプリのログを取得する方法](how_to_retrieve_the_mobile_app_log.md)
 * [オンラインのテキストファイル経由でGL.iNetルーターのドメインおよびIPフィルタリングルールを設定する方法](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)

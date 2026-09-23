@@ -2,6 +2,42 @@
 
 Eine Einführung in unsere kommenden Produkte und ein Einblick in unsere neuesten Entwicklungen.
 
+## GL-MT6000 (Fortify) {#gl-mt6000-fortify}
+
+Leistungsstarker Wi-Fi-6-Router mit integriertem ExpressVPN
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n5Iq2_SIoGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MG1300 (Mango 2) {#gl-mg1300-mango-2}
+
+Kompakter Dual-Band-Reiserouter
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4p_puCeItsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-BE14000 (Flint 4) {#gl-be14000-flint-4}
+
+Tri-Band-Wi-Fi-7-Heimrouter
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2sCuVkLA9gA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-E5800 (Mudi 7) {#gl-e5800-mudi-7}
+
+All-in-One-5G-Wi-Fi-7-Reiserouter mit zwei SIM-Karten
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZIt4UZXAmgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MT3600BE (Beryl 7)
+
+Kompakter Dual-Band-Wi-Fi-7-Reiserouter
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2jqG2ckihCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MT5000 (Brume 3)
+
+Hochgeschwindigkeits-VPN-Sicherheitsgateway
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bAxAgkzC1vU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-BE9300 (Flint 3)
 
 Tri-Band-Wi-Fi-7-Heimrouter

@@ -2,6 +2,42 @@
 
 Un'introduzione ai nostri futuri prodotti e uno sguardo ai nostri sviluppi piu recenti.
 
+## GL-MT6000 (Fortify) {#gl-mt6000-fortify}
+
+Router Wi-Fi 6 ad alte prestazioni con ExpressVPN integrato
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n5Iq2_SIoGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MG1300 (Mango 2) {#gl-mg1300-mango-2}
+
+Mini router da viaggio dual-band
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4p_puCeItsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-BE14000 (Flint 4) {#gl-be14000-flint-4}
+
+Router domestico Wi-Fi 7 tri-band
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2sCuVkLA9gA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-E5800 (Mudi 7) {#gl-e5800-mudi-7}
+
+Router da viaggio 5G Wi-Fi 7 all-in-one con doppia SIM
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZIt4UZXAmgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MT3600BE (Beryl 7)
+
+Router da viaggio Wi-Fi 7 dual-band tascabile
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2jqG2ckihCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MT5000 (Brume 3)
+
+Gateway di sicurezza VPN ad alta velocità
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bAxAgkzC1vU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-BE9300 (Flint 3)
 
 Router domestico Wi-Fi 7 tri-band
@@ -10,7 +46,7 @@ Router domestico Wi-Fi 7 tri-band
 
 ## GL-BE3600 (Slate 7)
 
-Router da viaggio Wi-Fi 7 dual-band
+Router da viaggio Wi-Fi 7 dual-band con touchscreen
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5u0bzFlL-3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

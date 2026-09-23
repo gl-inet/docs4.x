@@ -289,6 +289,7 @@ plugins:
         'user_guide/gl-mv1000/network.md': 'user_guide/gl-mv1000/index.md#network'
         'user_guide/gl-mv1000/system.md': 'user_guide/gl-mv1000/index.md#system'
         'tutorials/index/index.md': 'interface_guide/index.md'
+        'tutorials/how_to_activate_top_up_sim_cards.md': 'index.md'
 
 hooks:
   - ../../scripts/alternate_links.py
@@ -379,8 +380,8 @@ nav:
       - GL-MG1300 (Mango 2): user_guide/gl-mg1300/index.md
       - GL-BE14000 (Flint 4): user_guide/gl-be14000/index.md
       - GL-BE10000 (Slate 7 Pro): user_guide/gl-be10000/index.md
-      - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
       - GL-E5800 (Mudi 7): user_guide/gl-e5800/index.md
+      - GL-MT3600BE (Beryl 7): user_guide/gl-mt3600be/index.md
       - GL-MT5000 (Brume 3): user_guide/gl-mt5000/index.md
       - GL-BE9300 (Flint 3): user_guide/gl-be9300/index.md
       - GL-BE6500 (Flint 3e): user_guide/gl-be6500/index.md
@@ -526,7 +527,6 @@ nav:
           - SSH でルーターにログインする: tutorials/ssh_log_in_to_the_router.md
           - WinSCP を使用して共有ファイルにアクセスする: tutorials/winscp_share_file.md
           - WinSCP を使用してファイルを変更する: tutorials/how_to_use_winscp_to_modify_files_on_glinet_routers.md
-          - T-Mobile SIM カードを有効化またはチャージする: tutorials/how_to_activate_top_up_sim_cards.md
           - ゲーミング NAT タイプを変更する: tutorials/how_to_change_the_nat_type_on_gaming.md
           - モバイルアプリのログを取得する: tutorials/how_to_retrieve_the_mobile_app_log.md
           - ドメインおよび IP フィルタリングルールの設定: tutorials/how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md
@@ -624,4 +624,4 @@ nav:
       - 概要: video_library/index.md
       - 新製品をご紹介します: video_library/products.md
       - 開梱と初回セットアップ: video_library/unboxing_first_set_up.md
-      - チュートリアル: video_library/tutorials.md
+      - 動画チュートリアル: video_library/tutorials.md

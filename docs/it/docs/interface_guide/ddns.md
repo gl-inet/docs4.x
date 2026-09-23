@@ -44,25 +44,23 @@ Puoi verificare se DDNS funziona usando lo strumento di test DDNS oppure control
 
     ![ddns test prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns_test_no_public_ip.png){class="glboxshadow"}
 
-=== "Controllo manuale"
+=== "Usare i comandi"
 
-    1. Usa il comando `nslookup` per ottenere la mappatura tra nome di dominio e indirizzo IP, come mostrato di seguito.
+    1. Usa il comando `nslookup` per verificare la corrispondenza tra nome di dominio e indirizzo IP, come mostrato di seguito.
 
-        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup1.jpg){class="glboxshadow"}
+        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup.png){class="glboxshadow" width="600"}
 
-        Sostituisci "xxxxxxx.glddns.com" nell'immagine sopra con il tuo Host Name.
+        **Suggerimenti:**
 
-        "8.8.8.8" nell'immagine sopra e' il DNS di Google. Usalo oppure sostituiscilo con un altro DNS, quindi premi Invio.
+        - Sostituisci "xxxxxxx.glddns.com" nell'immagine con il tuo Host Name.
+        - "8.8.8.8" è il DNS di Google. Puoi usarlo o sostituirlo con un altro server DNS, quindi premere Invio.
 
-    2. Se come risultato ottieni un indirizzo IP pubblico, ad esempio "103.81.180.10" come nell'immagine seguente, significa che il tuo dominio DDNS e' stato associato correttamente a un indirizzo IP pubblico.
+    2. In base al risultato, verifica se il dominio DDNS è associato a un indirizzo IP pubblico.
 
-        ![nslookup 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup2.jpg){class="glboxshadow"}
+        - Se ottieni un indirizzo IP pubblico, ad esempio "183.178.10.100" nell'immagine, il dominio DDNS è stato associato a un indirizzo IP pubblico.
+        - Se compare "server can't find xxxxxxx.glddns.com", la risoluzione del dominio potrebbe non essere riuscita. Prosegui con il passaggio successivo per verificare.
 
-        Su un dispositivo connesso al router, cerca "what is my ip address" in un browser oppure visita un sito come [What Is My IP Address](https://whatismyipaddress.com){target="_blank"}. Otterrai il tuo indirizzo IP pubblico. Confronta i due indirizzi IP ottenuti dai passaggi 1 e 2. Se coincidono, DDNS e' attivo; in caso contrario, non lo e'.
-
-    3. Se ricevi un messaggio `** server can't find xxxxxxx.glddns.com: NXDOMAIN`, come mostrato di seguito, significa che la risoluzione del dominio non e' riuscita e che il tuo dominio DDNS non e' stato associato correttamente a un indirizzo IP pubblico.
-
-        ![nslookup 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup3.png){class="glboxshadow"}
+    3. Accedi al pannello di amministrazione web del router e vai su **INTERNET**. Individua l'indirizzo IP WAN nell'interfaccia attiva e confrontalo con l'indirizzo IP pubblico ottenuto sopra. Se coincidono, DDNS funziona; altrimenti no.
 
 ## Accesso remoto HTTPS
 

@@ -44,25 +44,23 @@ Działanie DDNS możesz sprawdzić za pomocą narzędzia DDNS Test albo ręcznie
 
     ![ddns test prompt](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/ddns_test_no_public_ip.png){class="glboxshadow"}
 
-=== "Sprawdzanie ręczne"
+=== "Korzystanie z poleceń"
 
-    1. Użyj polecenia `nslookup`, aby uzyskać mapowanie między nazwą domeny a adresem IP, jak pokazano poniżej.
+    1. Użyj polecenia `nslookup`, aby sprawdzić powiązanie nazwy domeny z adresem IP, jak pokazano poniżej.
 
-        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup1.jpg){class="glboxshadow"}
+        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup.png){class="glboxshadow" width="600"}
 
-        Zastąp "xxxxxxx.glddns.com" z powyższego obrazu własną nazwą hosta. 
-        
-        "8.8.8.8" z powyższego obrazu to Google DNS. Możesz go użyć albo zastąpić innym serwerem DNS, a następnie nacisnąć Enter.
+        **Wskazówki:**
 
-    2. Jeśli w wyniku otrzymasz publiczny adres IP, na przykład "103.81.180.10" jak na obrazie poniżej, oznacza to, że domena DDNS została pomyślnie zmapowana na publiczny adres IP.
+        - Zastąp "xxxxxxx.glddns.com" na obrazie własną nazwą Host Name.
+        - "8.8.8.8" to serwer Google DNS. Możesz go użyć lub zastąpić innym serwerem DNS, a następnie nacisnąć Enter.
 
-        ![nslookup 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup2.jpg){class="glboxshadow"}
-        
-        Na urządzeniu podłączonym do routera wyszukaj w przeglądarce frazę "what is my ip address" albo odwiedź stronę taką jak [What Is My IP Address](https://whatismyipaddress.com){target="_blank"}. Otrzymasz swój publiczny adres IP. Porównaj dwa adresy IP uzyskane w krokach 1 i 2. Jeśli są takie same, DDNS działa. W przeciwnym razie nie działa.
+    2. Na podstawie wyniku sprawdź, czy domena DDNS została powiązana z publicznym adresem IP.
 
-    3. Jeśli pojawi się komunikat `** server can't find xxxxxxx.glddns.com: NXDOMAIN`, jak pokazano poniżej, oznacza to, że rozwiązywanie domeny nie powiodło się i domena DDNS nie została pomyślnie zmapowana na publiczny adres IP.
+        - Jeśli otrzymasz publiczny adres IP, taki jak "183.178.10.100" na obrazie, domena jest powiązana z publicznym adresem IP.
+        - Jeśli pojawi się komunikat "server can't find xxxxxxx.glddns.com", rozwiązywanie domeny mogło się nie powieść. Zweryfikuj to w następnym kroku.
 
-        ![nslookup 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup3.png){class="glboxshadow"}
+    3. Zaloguj się do panelu administracyjnego routera i przejdź do **INTERNET**. Znajdź adres WAN IP aktualnie aktywnego interfejsu i porównaj go z publicznym adresem IP uzyskanym powyżej. Jeśli są takie same, DDNS działa; w przeciwnym razie nie działa.
 
 ## Zdalny dostęp HTTPS
 

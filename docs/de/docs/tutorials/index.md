@@ -71,7 +71,6 @@ Erfahren Sie anhand detaillierter Schritte, wie Sie unsere Geräte korrekt verwe
 * [So melden Sie sich per SSH am Router an](ssh_log_in_to_the_router.md)
 * [So verwenden Sie WinSCP, um auf Ihre freigegebenen Dateien zuzugreifen](winscp_share_file.md)
 * [So verwenden Sie WinSCP, um Dateien auf GL.iNet-Routern zu bearbeiten](how_to_use_winscp_to_modify_files_on_glinet_routers.md)
-* [So aktivieren Sie T-Mobile-SIM-Karten oder laden sie auf](how_to_activate_top_up_sim_cards.md)
 * [So ändern Sie den NAT-Typ für Gaming](how_to_change_the_nat_type_on_gaming.md)
 * [So rufen Sie das Protokoll der mobilen App ab](how_to_retrieve_the_mobile_app_log.md)
 * [So konfigurieren Sie Domain- und IP-Filterregeln für GL.iNet-Router über eine Online-Textdatei](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)

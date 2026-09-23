@@ -1,6 +1,8 @@
 # Data Statistics
 
-**Nota**: Esta función se introdujo en el firmware v4.9. Algunos modelos, como Mango 2 (GL-MG1300), no admiten Data Statistics debido a que no disponen de memoria suficiente, aunque ejecuten el firmware v4.9 o posterior.
+**Nota**: Esta función se introdujo en el firmware v4.9.
+
+Algunos modelos, como Mango 2 (GL-MG1300), no admiten Data Statistics por falta de memoria, incluso con firmware v4.9 o posterior. Consulte [Modelos compatibles](#supported-models) para obtener más información.
 
 ---
 
@@ -13,6 +15,44 @@ Data Statistics ofrece un panel intuitivo de tráfico que identifica el uso de l
 1. Data Statistics no surtirá efecto cuando el router esté en modo Drop-in Gateway.
 2. Data Statistics no puede funcionar con Network Acceleration. Al habilitar Data Statistics, Network Acceleration se desactivará automáticamente para garantizar un rendimiento estable.
 3. Data Statistics solo registra el uso del tráfico de los dispositivos que aparecen en la página **Clients**. Si un dispositivo se conecta al router mediante una interfaz de túnel (por ejemplo, VPN Client, Tailscale o AstroWarp), el tráfico originado en ese dispositivo y reenviado a través del router no se incluye en estas estadísticas.
+
+## Modelos compatibles {#supported-models}
+
+??? "Modelos compatibles"
+    - GL-BE14000 (Flint 4)
+    - GL-BE10000 (Slate 7 Pro)
+    - GL-E5800 (Mudi 7)
+    - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
+    - GL-BE9300 (Flint 3)
+    - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint2)
+    - GL-MT3000 (Beryl AX)
+
+??? "Modelos no compatibles"
+    - GL-MG1300 (Mango 2)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-B3000 (Marble)
+    - GL-AX1800 (Flint)
+    - GL-AXT1800 (Slate AX)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
+    - GL-A1300 (Slate Plus)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
+
 
 ## Para firmware v4.11 y versiones posteriores
 

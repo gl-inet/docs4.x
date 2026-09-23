@@ -1,26 +1,62 @@
-# Tutoriels
+# Tutoriels vidéo
 
-Découvrez les nouvelles fonctionnalités ajoutées à nos produits et services, ainsi que des tutoriels détaillés pour apprendre à les utiliser.
+Découvrez les nouvelles fonctionnalités de nos produits et services et apprenez à les utiliser.
+
+## Présentation du firmware GL.iNet v4.8
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XpddRAcizWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Connecter SIMPoYo uFi à un routeur GL.iNet
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sU2u4En04so" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Activer la carte SIM SIMPoYo uFi
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0UokDjzp7Ek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Réinitialiser le routeur GL.iNet aux paramètres d’usine | Mudi 7 (GL-E5800)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3Kx_StIFLqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Réinitialiser le routeur GL.iNet aux paramètres d’usine | Beryl AX (GL-MT3000) {#how-to-reset-your-glinet-router-to-factory-settings--beryl-ax-gl-mt3000}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Configurer un serveur VPN (Brume 3) et un client VPN (Beryl 7) en quelques minutes
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7mJXA5MfMb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Configurer un serveur VPN (Flint 3) et un client VPN (Slate 7) en quelques minutes {#how-to-set-up-vpn-server-flint-3--vpn-client-slate-7-in-minutes}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v_DyRGicWco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Configurer la carte eSIM physique SIMPoYo avec des appareils Android
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yv1bMsN5rXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Configurer la carte eSIM physique SIMPoYo avec un routeur GL.iNet {#how-to-set-up-the-simpoyo-esim-physical-card-with-glinet-router}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SCex_vuvgNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Comment configurer votre routeur GL.iNet avec le firmware 4.7
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WW8wGk68lEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Connecter le routeur GL.iNet à un réseau Wi-Fi public {#how-to-connect-your-glinet-router-to-a-public-wi-fi}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CM4_soLf9fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Pourquoi utiliser le mode Repeater sur votre routeur GL.iNet
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7mZtz8u8--E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Comment configurer votre eSIM avec un routeur GL.iNet pour la première fois
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hyHh8pAxgVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Comment utiliser U-Boot sur Mudi / Mudi V2
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pz0DidfIXRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Comment configurer un serveur WireGuard sur un routeur GL.iNet
+## Comment configurer un serveur WireGuard® sur un routeur GL.iNet
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qLEj9zoiYRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jvc-CNmXfuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Comment configurer un client WireGuard sur un routeur GL.iNet
 

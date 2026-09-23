@@ -18,15 +18,12 @@ Web管理パネルの左側で、**SYSTEM** -> **Upgrade** に移動すると、
 
 - **Accept Preview Plan**
 
-    このオプションを有効にすると、正式版が公開される前に新機能を試し、フィードバックを送ることができます。一度有効にするとそのまま維持され、いつでもオフにできます。なお、これらのアップグレードは安定していない可能性があります。最新のファームウェア機能については [What's New?](https://www.gl-inet.com/whats-new/){target="_blank"} を確認してください。
+    有効にすると、正式版の公開前に新機能を試してフィードバックを送信できます。これらのアップグレードは安定していない場合があります。
 
-ルーターがインターネットに接続されていれば、利用可能なファームウェア更新を確認します。
-
-![upgrade reminder](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/upgrade_reminder.png){class="glboxshadow"}
 
 **Note**: オンラインアップグレード時に **Download Failed** と表示された場合は、**SYSTEM** -> **Time Zone** に移動し、タイムゾーンのエラーを修正してください（ブラウザと同期）。
 
-![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow gl-50-desktop"}
+![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow" width="360"}
 
 ![time zone](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 

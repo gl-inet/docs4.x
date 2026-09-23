@@ -1508,89 +1508,89 @@
     }
   },
   "docs/en/docs/interface_guide/content_filter.md": {
-    "source_hash": "afeac7d708a7ab0dc82afbffb6ce8762a56dd19e40515aaf978f63515cb42e61",
+    "source_hash": "020ae5f72cced8ef75eb6728271d63b2076dc481748333b7d0ded302f5468a9b",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       },
       "ja": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       }
     }
   },
   "docs/en/docs/interface_guide/data_statistics.md": {
-    "source_hash": "55e9a2826e298c26010e5e3b54023bfd336ac0a63e09f8c95aab881fdfe508b5",
+    "source_hash": "886d808f9ee569e6cb6f5ba2f1e4ae01eea195c60138b87237ac59702018824a",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
   "docs/en/docs/interface_guide/ddns.md": {
-    "source_hash": "f54d508858becef9880f78bda89cebdd8d831496261bb3f47d7b072c7510b08a",
+    "source_hash": "4aacc730168a519c9a264428b62305c0bdb26dba6524b2b57be45d92c7fad4ff",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1776635437
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
@@ -1653,31 +1653,31 @@
     }
   },
   "docs/en/docs/interface_guide/dpi_engine.md": {
-    "source_hash": "124b287b3e04fdfad57a2cfc85851f5e63d9c3bb2ea2b8057517259f0b25d7f6",
+    "source_hash": "5fd194442dc5a300029376ceb3ac848c983d6036c36442c58e56e05b004f9321",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       },
       "ja": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "updated_at": 1790150484
       }
     }
   },
@@ -2407,31 +2407,31 @@
     }
   },
   "docs/en/docs/interface_guide/network_storage.md": {
-    "source_hash": "19e19451e6a33359bedf7d13beccfc1a33564ff6fffd58125670e9a319836865",
+    "source_hash": "3cda4b660a1dd62644c78a1de2c1c5847b4972a0bd87b2f932e9e9d39d226623",
     "targets": {
       "de": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1790150484
       },
       "es": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1790150484
       },
       "fr": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1790150484
       },
       "it": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1790150484
       },
       "ja": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1790150484
       },
       "pl": {
         "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "updated_at": 1790150484
       }
     }
   },
@@ -2581,31 +2581,31 @@
     }
   },
   "docs/en/docs/interface_guide/qos.md": {
-    "source_hash": "31e29abf9e816de191dfb1bfae58add95bc6dda721d492ea64b848ca5a125a4b",
+    "source_hash": "c2eb63a7356548797272073e07b5ec593a30196fda76b4126517f7151f197c21",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
@@ -2697,31 +2697,31 @@
     }
   },
   "docs/en/docs/interface_guide/sqm.md": {
-    "source_hash": "cffb1caf5b7eb242d257a19fbaa3f5439d1f4ed44acdb7a6e913e5632792b752",
+    "source_hash": "cb4a0ad419cce9f2ee9f91718dfae0a13d4b333ec0469c1bf0e89b8a3ed48bda",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
@@ -2900,31 +2900,31 @@
     }
   },
   "docs/en/docs/interface_guide/upgrade.md": {
-    "source_hash": "e796606c104be48706b0e9bb8413e793c543a61eb3a54ad1c09ec093391b3446",
+    "source_hash": "ff442eb458f13665fca219d704f17ae34170afa964824e077412503d50b88bbf",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
@@ -3447,35 +3447,6 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775606395
-      }
-    }
-  },
-  "docs/en/docs/tutorials/how_to_activate_top_up_sim_cards.md": {
-    "source_hash": "87c636c71ad90f86f47f507aa80e595c6f89f3d210d18acee205cc5f789445d3",
-    "targets": {
-      "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787801285
-      },
-      "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787801285
-      },
-      "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787801285
-      },
-      "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787801285
-      },
-      "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787801285
-      },
-      "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787801285
       }
     }
   },
@@ -4234,31 +4205,31 @@
     }
   },
   "docs/en/docs/tutorials/index.md": {
-    "source_hash": "abb3e5fd08078e6f341ef08264f13ccc681458c2ddb5ca6ba9368feb492855e6",
+    "source_hash": "0bb8fbfbe580164a9f4914943b8aea6b27ac58a54c35b7b01967c0f699cec460",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
@@ -5655,147 +5626,147 @@
     }
   },
   "docs/en/docs/video_library/index.md": {
-    "source_hash": "2ce0dfe6cda8296f29838c8ebae2beb55ed66f6c943dea496f01a645f6375b7b",
+    "source_hash": "2598988765d85e3c4bcd1ca628717089f7acd0bb9463ebfdc2fee70518572cce",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775308748
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569440
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605711
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
   "docs/en/docs/video_library/products.md": {
-    "source_hash": "23b99a72c2dfe01fed2a68c60161021c01678af6b6e5d446918bfb0a4d6fde67",
+    "source_hash": "0ee1518778f718999d5d1c571994c85d818f44023c12a40a422c634efe9da58a",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775308748
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569440
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605846
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
   "docs/en/docs/video_library/tutorials.md": {
-    "source_hash": "ba247fb9bf81ccf9c891edfb35d6495a43d9ccee2f540aa9d4628f638860b672",
+    "source_hash": "4a7c4630e54a91154e314a3229834e4325ad3dfcf66affc09edf05d539f85afd",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775308748
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569440
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605808
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
   "docs/en/docs/video_library/unboxing_first_set_up.md": {
-    "source_hash": "17f1e4553d2e80220adc34b2701456a8cce4c79fd41c4de0a3c12f0e80259e99",
+    "source_hash": "8fbe930e31623ba1a890b6f64552ad224dcdb1f04f000c4dc118a8bc7ffef9b4",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775308827
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569440
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605846
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "f665c91f1734320ea3453033b9f3371fd4a5357f28aa2094a38003160b927793",
+    "source_hash": "645c2fe37faa649b009fc9774872be8ec7bd01598d2ec99f1c835836d64ae572",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },
@@ -6496,31 +6467,31 @@
     }
   },
   "docs/en/docs/interface_guide/mesh.md": {
-    "source_hash": "f77da3ed5aea4810b2d4e40a96fd212faaa028424e141f76efdbddf19cc3f59d",
+    "source_hash": "8058958a97beb79d487994ce2f7e111f4e6e2635986a6c474347baa82bb963db",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "manual-incremental-sync",
+        "updated_at": 1790150484
       }
     }
   },

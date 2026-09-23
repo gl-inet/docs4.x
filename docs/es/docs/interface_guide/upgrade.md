@@ -18,15 +18,11 @@ Aquí puede consultar la versión actual del firmware.
 
 - **Accept Preview Plan**
 
-  Si esta opción está habilitada, podrá probar nuevas funciones antes de que se publique la versión final y enviarnos sus comentarios. Basta con configurarla una vez para que permanezca activada, y siempre tendrá la opción de desactivarla. Tenga en cuenta que estas actualizaciones pueden no ser estables. Consulte [What's New?](https://www.gl-inet.com/whats-new/){target="_blank"} para ver las funciones más recientes del firmware.
-
-Si el router está conectado a Internet, comprobará si hay actualizaciones de firmware disponibles.
-
-![upgrade reminder](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/upgrade_reminder.png){class="glboxshadow"}
+    Si activa esta opción, podrá probar nuevas funciones antes de la versión final y enviarnos sus comentarios. Tenga en cuenta que estas actualizaciones pueden ser inestables.
 
 **Nota**: Si al intentar realizar una actualización en línea aparece **Download Failed**, vaya a **System** -> **Time Zone** y corrija el error de zona horaria sincronizando con el navegador.
 
-![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow gl-50-desktop"}
+![online download failed](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/online_download_failed.jpg){class="glboxshadow" width="360"}
 
 ![time zone](https://static.gl-inet.com/docs/router/en/4/interface_guide/upgrade/time_zone.png){class="glboxshadow"}
 

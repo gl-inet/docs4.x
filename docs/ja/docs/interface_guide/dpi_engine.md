@@ -1,5 +1,11 @@
 # DPI Engine
 
+**注**: この機能はファームウェア v4.9 で導入されました。
+
+Mango 2 (GL-MG1300) など一部のモデルは、メモリ不足のため、ファームウェア v4.9 以降でも DPI Engine に対応しません。詳しくは[対応モデル](#supported-models)をご覧ください。
+
+---
+
 DPI（Deep Packet Inspection）は、インテリジェントなネットワーク管理を支える中核技術です。従来のルーターが送信元アドレスと宛先アドレスの識別にとどまるのに対し、DPI はパケットのペイロードを詳細に解析し、シグネチャライブラリとの照合によってアプリケーションや Web サイトを正確に識別できます。これにより、よりきめ細かなトラフィック分類と制御が可能になります。
 
 GL.iNet の DPI Engine はルーター上でローカルに動作し、プライバシーを保ちながら高度なネットワーク管理を実現します。トラフィック統計、コンテンツフィルター、QoS をまとめて利用でき、包括的なトラフィック制御を行えます。
@@ -12,18 +18,42 @@ GL.iNet の DPI Engine はルーター上でローカルに動作し、プライ
 
 2. DPI を有効にすると、安定したパフォーマンスを確保するため **Network Acceleration** は自動的に無効になります。
 
-## 対応モデル
+## 対応モデル {#supported-models}
 
-!!! note "対応モデル"
+??? "対応モデル"
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
-    - GL-MT3600BE (Beryl 7)
+    - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
+    - GL-MT3600BE (Beryl 7)
+    - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint 2)
+    - GL-MT6000 (Flint2)
     - GL-MT3000 (Beryl AX)
 
+??? "非対応モデル"
+    - GL-MG1300 (Mango 2)
+    - GL-X2000 (Spitz Plus)
+    - GL-X3000 (Spitz AX)
+    - GL-XE3000 (Puli AX)
+    - GL-B3000 (Marble)
+    - GL-AX1800 (Flint)
+    - GL-AXT1800 (Slate AX)
+    - GL-SFT1200 (Opal)
+    - GL-MT1300 (Beryl)
+    - GL-E750/E750V2 (Mudi)
+    - GL-AR750S (Slate)
+    - GL-XE300 (Puli)
+    - GL-X750 (Spitz)
+    - GL-MT300N-V2 (Mango)
+    - GL-AR300M Series (Shadow)
+    - GL-B1300 (Convexa-B)
+    - GL-X300B (Collie)
+    - GL-A1300 (Slate Plus)
+    - GL-MT2500/GL-MT2500A (Brume 2)
+    - GL-AP1300 (Cirrus)
+    - GL-S1300 (Convexa-S)
 
 ## クイックセットアップ
 

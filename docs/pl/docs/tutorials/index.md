@@ -71,7 +71,6 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak zalogować się do routera przez SSH](ssh_log_in_to_the_router.md)
 * [Jak używać WinSCP do uzyskania dostępu do udostępnionych plików](winscp_share_file.md)
 * [Jak używać WinSCP do modyfikowania plików na routerach GL.iNet](how_to_use_winscp_to_modify_files_on_glinet_routers.md)
-* [Jak aktywować lub doładować karty SIM T-Mobile](how_to_activate_top_up_sim_cards.md)
 * [Jak zmienić typ NAT w grach](how_to_change_the_nat_type_on_gaming.md)
 * [Jak pobrać log aplikacji mobilnej](how_to_retrieve_the_mobile_app_log.md)
 * [Jak skonfigurować reguły filtrowania domen i IP dla routerów GL.iNet za pomocą pliku tekstowego online](how_to_configure_domain_and_ip_filtering_rules_for_glinet_routers_via_an_online_text_file.md)

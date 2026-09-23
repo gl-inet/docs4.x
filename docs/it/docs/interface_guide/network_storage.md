@@ -1,16 +1,5 @@
 # Network Storage
 
-## Indice
-
-- [Introduzione](#introduction)
-- [Modelli supportati](#supported-models)
-- [Inserire il dispositivo di archiviazione](#insert-storage-device)
-- [Configurare Samba](#set-up-samba)
-- [Configurare WebDAV](#set-up-webdav)
-- [Configurare DLNA](#set-up-dlna)
-- [Client Samba](#samba-client)
-- [Client WebDAV](#webdav-client)
-
 ## Introduction
 
 Network storage consente la condivisione wireless dei file tra dispositivi collegando un'unita' USB o una scheda SD al router. Il router converte il dispositivo di archiviazione in un'unita' di rete condivisa, accessibile a tutti i dispositivi connessi al Wi-Fi.
@@ -33,17 +22,17 @@ Per i dispositivi con memoria flash di 32 MB o inferiore, la funzione Network St
 
 | Router Model                           | Samba | Webdav | DLNA | USB Port | MicroSD Card |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
-| GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
 | GL-MG1300 (Mango 2) | √ | - | - | √ | - |
+| GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
-| GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-E5800 (Mudi 7)                      | √     | √     | √     | √        | -            |
+| GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-MT5000 (Brume 3)                    | √     | √     | √     | √        | -            |
 | GL-BE9300 (Flint 3)                    | √     | √     | √     | √        | -            |
 | GL-BE6500 (Flint 3e)                   | √     | √     | √     | √        | -            |
 | GL-BE3600 (Slate 7)                    | √     | √     | √     | √        | -            |
 | GL-X2000 (Spitz Plus)                  | √     | √     | √     | √        | -            |
-| GL-MT6000 (Flint 2)                    | √     | √     | √     | √        | -            |
+| GL-MT6000 (Flint2)                    | √     | √     | √     | √        | -            |
 | GL-XE3000 (Puli AX)                    | √     | √     | √     | √        | √            |
 | GL-X3000 (Spitz AX)                    | √     | √     | √     | √        | √            |
 | GL-MT3000 (Beryl AX)                   | √     | √     | √     | √        | -            |
@@ -56,7 +45,7 @@ Per i dispositivi con memoria flash di 32 MB o inferiore, la funzione Network St
 | GL-E750V2 (Mudi V2)</br>***FW 4.8+**   | √     | -     | -     | √        | √            |
 | GL-AR750S-EXT (Slate)</br>***FW 4.7+** | √     | -     | -     | √        | √            |
 
-## Insert Storage Device
+## Collegare il dispositivo di archiviazione {#connect-storage-device}
 
 Per una scheda TF, devi prima spegnere il router, inserire la scheda TF e poi riaccendere il router.
 
@@ -74,29 +63,30 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 1. Attiva **Enable Samba** e fai clic su **Apply**.
 
-    * Allow Access Samba from WAN: abilitalo se vuoi che i dispositivi a monte possano accedere a Samba.
+    ![enable samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba1.png){class="glboxshadow"}
 
-    ![enable samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
+
+    * Allow Access Samba from WAN: abilitalo se vuoi che i dispositivi a monte possano accedere a Samba.
 
 2. Fai clic su **Quick Setup Share** per impostare il link di condivisione.
 
-    ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow"}
+    ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba2.png){class="glboxshadow"}
 
 3. Aggiungi un utente e fai clic su **Next**. Questo passaggio verra' saltato se hai gia' un account.
 
-    ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
+    ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba3.png){class="glboxshadow"}
 
 4. Fai clic sull'icona a triangolo per mostrare tutte le cartelle. Seleziona una cartella da condividere oppure fai clic sul nome del disco (`disk1_part1`) se vuoi condividere l'intero disco. Poi fai clic su **Next**.
 
-    ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
+    ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba4.png){class="glboxshadow"}
 
 5. Configura la cartella condivisa.
 
     Per motivi di sicurezza, non e' consigliato abilitare **Anonymous Access**.
 
-    L'utente creato nel passaggio precedente verra' aggiunto per impostazione predefinita a **Read-Only User**. Se vuoi che questo utente possa scrivere o eliminare file, rimuovilo da Read-Only User e aggiungilo a **Writable User**, quindi fai clic su **Apply**.
+    L'utente creato nel passaggio precedente verra' aggiunto per impostazione predefinita a **Read-Only User**. Se vuoi che questo utente possa scrivere o eliminare file, rimuovilo da Read-Only User e aggiungilo a **Read-Write User**, quindi fai clic su **Apply**.
 
-    ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
+    ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba5.png){class="glboxshadow"}
 
 6. Ottieni il link di accesso alla cartella.
 
@@ -104,7 +94,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     Ora puoi accedere alla cartella condivisa tramite il servizio Samba usando questi link. Fai clic [qui](#samba-client) per i dettagli.
 
-    ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+    ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba6.png){class="glboxshadow"}
 
     **Nota:** se abiliti **Allow Access Samba from WAN** e accedi alla cartella condivisa dalla rete superiore, sostituisci l'IP del router (predefinito 192.168.8.1) nel link di accesso con l'IP WAN del router, che puoi trovare nella pagina INTERNET del pannello di amministrazione web.
 
@@ -114,33 +104,34 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 1. Attiva **Enable WebDAV** e fai clic su **Apply**.
 
+    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav1.png){class="glboxshadow"}
+
     * Allow Access WebDAV from WAN: abilitalo se vuoi che i dispositivi a monte possano accedere a WebDAV.
 
     * WebDAV Protocol: **HTTP** non e' crittografato; usalo a tuo rischio. **HTTPS** e' crittografato e usa un certificato autofirmato.
 
     * WebDAV Port: non e' necessario modificare il numero di porta a meno che non ci sia un conflitto. L'intervallo di porte consigliato e' 1024 - 65535.
 
-    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow"}
 
 2. Fai clic su **Quick Setup Share** per impostare il link di condivisione.
 
-    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share.png){class="glboxshadow"}
+    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav2.png){class="glboxshadow"}
 
 3. Aggiungi un utente e fai clic su **Next**. Questo passaggio verra' saltato se hai gia' un account.
 
-    ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
+    ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav3.png){class="glboxshadow"}
 
 4. Fai clic sull'icona a triangolo per mostrare tutte le cartelle. Seleziona una cartella da condividere oppure fai clic sul nome del disco (`disk1_part1`) per condividere l'intero disco. Poi fai clic su **Next**.
 
-    ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
+    ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav4.png){class="glboxshadow"}
 
 5. Configura la cartella condivisa.
 
     Per motivi di sicurezza, non e' consigliato abilitare **Anonymous Access**.
 
-    L'utente creato nel passaggio precedente verra' aggiunto per impostazione predefinita a **Read-Only User**. Se vuoi che questo utente possa scrivere o eliminare file, rimuovilo da Read-Only User e aggiungilo a **Writable User**, quindi fai clic su **Apply**.
+    L'utente creato nel passaggio precedente verra' aggiunto per impostazione predefinita a **Read-Only User**. Se vuoi che questo utente possa scrivere o eliminare file, rimuovilo da Read-Only User e aggiungilo a **Read-Write User**, quindi fai clic su **Apply**.
 
-    ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
+    ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav5.png){class="glboxshadow"}
 
 6. Ottieni il link di accesso alla cartella.
 
@@ -148,7 +139,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
     Ora puoi accedere alla cartella condivisa tramite il servizio WebDAV usando questi link. Fai clic [qui](#webdav-client) per i dettagli.
 
-    ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+    ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav6.png){class="glboxshadow"}
 
     **Nota:** se hai abilitato **Allow Access WebDAV from WAN** e accedi alla cartella condivisa dalla rete superiore, sostituisci l'IP del router (predefinito 192.168.8.1) nel link di accesso con l'IP WAN del router, che puoi trovare nella pagina INTERNET del pannello di amministrazione web.
 
@@ -156,11 +147,15 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 ## Configurare DLNA {#set-up-dlna}
 
-Attiva **Enable DLNA** e fai clic su **Apply**.
+1. Attiva **Enable DLNA** e fai clic su **Apply**.
 
-![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/enable_dlna.jpg){class="glboxshadow"}
+    ![enable dlna](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/dlna1.png){class="glboxshadow"}
 
-Collega la tua smart TV al router e trovera' il server DLNA.
+2. Se necessario, modifica **Share Path** sulla destra.
+
+    ![dlna share path](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/dlna2.png){class="glboxshadow"}
+
+3. Connetti la smart TV al router: il server DLNA verrà rilevato automaticamente.
 
 ---
 

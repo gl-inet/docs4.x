@@ -1,17 +1,5 @@
 # Magazyn sieciowy
 
-## Spis treści
-
-- [Wprowadzenie](#introduction)
-- [Obsługiwane modele](#supported-models)
-- [Podłączanie urządzenia pamięci masowej](#insert-storage-device)
-- [Konfiguracja Samba](#set-up-samba)
-- [Konfiguracja WebDAV](#set-up-webdav)
-- [Konfiguracja DLNA](#set-up-dlna)
-- [Klient Samba](#samba-client)
-- [Klient WebDAV](#webdav-client)
-- [Korzystanie z aplikacji mobilnej](#using-mobile-app)
-
 ## Wprowadzenie
 
 Magazyn sieciowy umożliwia bezprzewodowe udostępnianie plików między urządzeniami poprzez podłączenie dysku USB lub karty SD do routera. Router przekształca urządzenie pamięci masowej w udostępniony dysk sieciowy, dostępny dla wszystkich urządzeń połączonych przez Wi-Fi.
@@ -34,17 +22,17 @@ W przypadku urządzeń z pamięcią flash o pojemności 32 MB lub mniejszej funk
 
 | Model routera                          | Samba | Webdav | DLNA | Port USB | Karta MicroSD |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
-| GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
 | GL-MG1300 (Mango 2) | √ | - | - | √ | - |
+| GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
-| GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-E5800 (Mudi 7)                      | √     | √     | √     | √        | -            |
+| GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-MT5000 (Brume 3)                    | √     | √     | √     | √        | -            |
 | GL-BE9300 (Flint 3)                    | √     | √     | √     | √        | -            |
 | GL-BE6500 (Flint 3e)                   | √     | √     | √     | √        | -            |
 | GL-BE3600 (Slate 7)                    | √     | √     | √     | √        | -            |
 | GL-X2000 (Spitz Plus)                  | √     | √     | √     | √        | -            |
-| GL-MT6000 (Flint 2)                    | √     | √     | √     | √        | -            |
+| GL-MT6000 (Flint2)                    | √     | √     | √     | √        | -            |
 | GL-XE3000 (Puli AX)                    | √     | √     | √     | √        | √            |
 | GL-X3000 (Spitz AX)                    | √     | √     | √     | √        | √            |
 | GL-MT3000 (Beryl AX)                   | √     | √     | √     | √        | -            |
@@ -57,7 +45,7 @@ W przypadku urządzeń z pamięcią flash o pojemności 32 MB lub mniejszej funk
 | GL-E750V2 (Mudi V2)</br>***FW 4.8+**   | √     | -     | -     | √        | √            |
 | GL-AR750S-EXT (Slate)</br>***FW 4.7+** | √     | -     | -     | √        | √            |
 
-## Podłączanie urządzenia pamięci masowej {#insert-storage-device}
+## Podłączanie urządzenia pamięci masowej {#connect-storage-device}
 
 W przypadku karty TF najpierw wyłącz router, włóż kartę TF, a następnie uruchom router ponownie.
 
@@ -75,29 +63,30 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
 1. Włącz przełącznik **Enable Samba** i kliknij **Apply**.
 
-    * Allow Access Samba from WAN: Włącz, jeśli chcesz, aby urządzenia nadrzędne miały dostęp do Samba.
+    ![enable samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba1.png){class="glboxshadow"}
 
-    ![enable samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
+
+    * Allow Access Samba from WAN: Włącz, jeśli chcesz, aby urządzenia nadrzędne miały dostęp do Samba.
 
 2. Kliknij **Quick Setup Share**, aby ustawić łącze udostępniania.
 
-    ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow"}
+    ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba2.png){class="glboxshadow"}
 
 3. Dodaj użytkownika i kliknij **Next**. Ten krok zostanie pominięty, jeśli masz już konto.
 
-    ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
+    ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba3.png){class="glboxshadow"}
 
 4. Kliknij ikonę trójkąta, aby wyświetlić wszystkie foldery. Wybierz folder do udostępnienia lub kliknij nazwę dysku (disk1_part1), jeśli chcesz udostępnić cały dysk. Następnie kliknij **Next**.
 
-    ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
+    ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba4.png){class="glboxshadow"}
 
 5. Skonfiguruj folder udostępniony.
 
     Ze względów bezpieczeństwa nie zaleca się włączania opcji **Anonymous Access**.
 
-    Użytkownik utworzony w poprzednim kroku zostanie domyślnie dodany do grupy **Read-Only User**. Jeśli chcesz, aby ten użytkownik mógł zapisywać lub usuwać pliki, usuń go z grupy Read-Only User i dodaj do grupy **Writable User**, a następnie kliknij **Apply**.
+    Użytkownik utworzony w poprzednim kroku zostanie domyślnie dodany do grupy **Read-Only User**. Jeśli chcesz, aby ten użytkownik mógł zapisywać lub usuwać pliki, usuń go z grupy Read-Only User i dodaj do grupy **Read-Write User**, a następnie kliknij **Apply**.
 
-    ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
+    ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba5.png){class="glboxshadow"}
 
 6. Uzyskaj łącze dostępu do folderu.
 
@@ -105,7 +94,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
     
     Teraz możesz uzyskać dostęp do udostępnionego folderu za pośrednictwem usługi Samba za pomocą tych łączy. Kliknij [tutaj](#samba-client), aby uzyskać szczegóły.
 
-    ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+    ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba6.png){class="glboxshadow"}
 
     **Uwaga:** Jeśli włączysz opcję **Allow Access Samba from WAN** i uzyskasz dostęp do folderu udostępnionego z sieci nadrzędnej, zastąp adres IP routera (domyślnie 192.168.8.1) w łączu dostępu adresem IP WAN routera, który znajdziesz na stronie INTERNET w panelu administratora.
 
@@ -115,33 +104,34 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
 1. Włącz przełącznik **Enable WebDAV** i kliknij **Apply**.
 
+    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav1.png){class="glboxshadow"}
+
     * Allow Access WebDAV from WAN: Włącz, jeśli chcesz, aby urządzenia nadrzędne miały dostęp do WebDAV.
 
     * WebDAV Protocol: **HTTP** jest nieszyfrowany; używaj go na własne ryzyko. **HTTPS** jest szyfrowany i używa certyfikatu z podpisem własnym.
 
     * WebDAV Port: Nie ma potrzeby modyfikowania numeru portu, chyba że wystąpi konflikt. Zalecany zakres numerów portów to 1024–65535.
 
-    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow"}
 
 2. Kliknij **Quick Setup Share**, aby ustawić łącze udostępniania.
 
-    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share.png){class="glboxshadow"}
+    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav2.png){class="glboxshadow"}
 
 3. Dodaj użytkownika i kliknij **Next**. Ten krok zostanie pominięty, jeśli masz już konto.
 
-    ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
+    ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav3.png){class="glboxshadow"}
 
 4. Kliknij ikonę trójkąta, aby wyświetlić wszystkie foldery. Wybierz folder do udostępnienia lub kliknij nazwę dysku (disk1_part1), aby udostępnić cały dysk. Następnie kliknij **Next**.
 
-    ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
+    ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav4.png){class="glboxshadow"}
 
 5. Skonfiguruj folder udostępniony.
 
     Ze względów bezpieczeństwa nie zaleca się włączania opcji **Anonymous Access**.
 
-    Użytkownik utworzony w poprzednim kroku zostanie domyślnie dodany do grupy **Read-Only User**. Jeśli chcesz, aby ten użytkownik mógł zapisywać lub usuwać pliki, usuń go z grupy Read-Only User i dodaj do grupy **Writable User**, a następnie kliknij **Apply**.
+    Użytkownik utworzony w poprzednim kroku zostanie domyślnie dodany do grupy **Read-Only User**. Jeśli chcesz, aby ten użytkownik mógł zapisywać lub usuwać pliki, usuń go z grupy Read-Only User i dodaj do grupy **Read-Write User**, a następnie kliknij **Apply**.
 
-    ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
+    ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav5.png){class="glboxshadow"}
 
 6. Uzyskaj łącze dostępu do folderu.
 
@@ -149,7 +139,7 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
     
     Teraz możesz uzyskać dostęp do udostępnionego folderu za pośrednictwem usługi WebDAV za pomocą tych łączy. Kliknij [tutaj](#webdav-client), aby uzyskać szczegóły.
 
-    ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+    ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav6.png){class="glboxshadow"}
 
     **Uwaga:** Jeśli włączysz opcję **Allow Access WebDAV from WAN** i uzyskasz dostęp do folderu udostępnionego z sieci nadrzędnej, zastąp adres IP routera (domyślnie 192.168.8.1) w łączu dostępu adresem IP WAN routera, który znajdziesz na stronie INTERNET w panelu administratora.
 
@@ -157,11 +147,15 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
 ## Konfiguracja DLNA {#set-up-dlna}
 
-Włącz przełącznik **Enable DLNA** i kliknij **Apply**.
+1. Włącz **Enable DLNA** i kliknij **Apply**.
 
-![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/enable_dlna.jpg){class="glboxshadow"}
+    ![enable dlna](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/dlna1.png){class="glboxshadow"}
 
-Podłącz telewizor Smart TV do routera – wykryje on serwer DLNA.
+2. W razie potrzeby zmień **Share Path** po prawej stronie.
+
+    ![dlna share path](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/dlna2.png){class="glboxshadow"}
+
+3. Podłącz telewizor Smart TV do routera. Serwer DLNA zostanie wykryty automatycznie.
 
 ---
 

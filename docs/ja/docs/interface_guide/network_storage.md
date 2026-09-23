@@ -1,16 +1,5 @@
 # ネットワークストレージ
 
-## コンテンツ
-
-- [はじめに](#introduction)
-- [対応モデル](#supported-models)
-- [ストレージデバイスを挿入する](#insert-storage-device)
-- [Samba をセットアップする](#set-up-samba)
-- [WebDAV をセットアップする](#set-up-webdav)
-- [DLNA をセットアップする](#set-up-dlna)
-- [Samba クライアント](#samba-client)
-- [WebDAV クライアント](#webdav-client)
-
 ## はじめに {#introduction}
 
 ネットワークストレージを使うと、USB ドライブや SD カードをルーターに接続して、デバイス間でワイヤレスにファイル共有できます。ルーターがストレージデバイスを共有ネットワークドライブに変換し、Wi-Fi に接続しているすべてのデバイスからアクセスできるようにします。
@@ -33,17 +22,17 @@ GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、�
 
 | ルーターモデル                           | Samba | WebDAV | DLNA | USBポート | MicroSDカード |
 | :--------------------------------------- | :---: | :----: | :--: | :-------: | :-----------: |
-| GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
 | GL-MG1300 (Mango 2) | √ | - | - | √ | - |
+| GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
-| GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-E5800 (Mudi 7)                      | √     | √     | √     | √        | -            |
+| GL-MT3600BE (Beryl 7)                  | √     | √     | √     | √        | -            |
 | GL-MT5000 (Brume 3)                    | √     | √     | √     | √        | -            |
 | GL-BE9300 (Flint 3)                    | √     | √     | √     | √        | -            |
 | GL-BE6500 (Flint 3e)                   | √     | √     | √     | √        | -            |
 | GL-BE3600 (Slate 7)                    | √     | √     | √     | √        | -            |
 | GL-X2000 (Spitz Plus)                  | √     | √     | √     | √        | -            |
-| GL-MT6000 (Flint 2)                    | √     | √     | √     | √        | -            |
+| GL-MT6000 (Flint2)                    | √     | √     | √     | √        | -            |
 | GL-XE3000 (Puli AX)                    | √     | √     | √     | √        | √            |
 | GL-X3000 (Spitz AX)                    | √     | √     | √     | √        | √            |
 | GL-MT3000 (Beryl AX)                   | √     | √     | √     | √        | -            |
@@ -56,7 +45,7 @@ GL.iNet の一部モデルには MicroSD(TF) カードスロットがあり、�
 | GL-E750V2 (Mudi V2)</br>***FW 4.8+**   | √     | -     | -     | √        | √            |
 | GL-AR750S-EXT (Slate)</br>***FW 4.7+** | √     | -     | -     | √        | √            |
 
-## ストレージデバイスを挿入する {#insert-storage-device}
+## ストレージデバイスを接続する {#connect-storage-device}
 
 TF カードを使う場合は、まずルーターの電源を切り、TF カードを挿入してから電源を入れてください。
 
@@ -74,29 +63,30 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
 1. **Enable Samba** をオンにし、**Apply** をクリックします。
 
-    * Allow Access Samba from WAN: 上位ネットワーク側のデバイスから Samba へアクセスさせたい場合は有効にします。
+    ![enable samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba1.png){class="glboxshadow"}
 
-    ![enable samba](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/enable_samba.png){class="glboxshadow"}
+
+    * Allow Access Samba from WAN: 上位ネットワーク側のデバイスから Samba へアクセスさせたい場合は有効にします。
 
 2. **Quick Setup Share** をクリックして共有リンクを設定します。
 
-    ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share.png){class="glboxshadow"}
+    ![samba quick setup share](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba2.png){class="glboxshadow"}
 
 3. ユーザーを追加し、**Next** をクリックします。すでにアカウントがある場合は、この手順はスキップされます。
 
-    ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
+    ![samba quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba3.png){class="glboxshadow"}
 
 4. 三角アイコンをクリックしてすべてのフォルダーを表示します。共有するフォルダーを選ぶか、ディスク全体を共有したい場合はディスク名（disk1_part1）をクリックして、**Next** をクリックします。
 
-    ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
+    ![samba quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba4.png){class="glboxshadow"}
 
 5. 共有フォルダーを設定します。
 
     セキュリティ上の理由から、**Anonymous Access** を有効にすることは推奨されません。
 
-    前の手順で作成したユーザーは、デフォルトで **Read-Only User** に追加されます。このユーザーに書き込みや削除を許可したい場合は、**Read-Only User** から削除して **Writable User** に追加し、**Apply** をクリックしてください。
+    前の手順で作成したユーザーは、デフォルトで **Read-Only User** に追加されます。このユーザーに書き込みや削除を許可したい場合は、**Read-Only User** から削除して **Read-Write User** に追加し、**Apply** をクリックしてください。
 
-    ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
+    ![samba quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba5.png){class="glboxshadow"}
 
 6. フォルダーのアクセスリンクを取得します。
 
@@ -104,7 +94,7 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     これらのリンクを使って Samba 経由で共有フォルダーにアクセスできます。詳細は [こちら](#samba-client) をご覧ください。
 
-    ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+    ![samba quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba6.png){class="glboxshadow"}
 
     **Note:** **Allow Access Samba from WAN** を有効にして上位ネットワークから共有フォルダーへアクセスする場合は、アクセスリンク内のルーター IP（デフォルトは 192.168.8.1）を、Web admin panel の **INTERNET** ページで確認できる WAN IP に置き換えてください。
 
@@ -114,33 +104,34 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
 1. **Enable WebDAV** をオンにし、**Apply** をクリックします。
 
+    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav1.png){class="glboxshadow"}
+
     * Allow Access WebDAV from WAN: 上位ネットワーク側のデバイスから WebDAV へアクセスさせたい場合は有効にします。
 
     * WebDAV Protocol: **HTTP** は暗号化されません。使用は自己責任です。**HTTPS** は暗号化され、自己署名証明書を使用します。
 
     * WebDAV Port: ポート番号は競合がない限り変更不要です。推奨ポート範囲は 1024 - 65535 です。
 
-    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/enable_webdav.png){class="glboxshadow"}
 
 2. **Quick Setup Share** をクリックして共有リンクを設定します。
 
-    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share.png){class="glboxshadow"}
+    ![enable webdav](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav2.png){class="glboxshadow"}
 
 3. ユーザーを追加し、**Next** をクリックします。すでにアカウントがある場合は、この手順はスキップされます。
 
-    ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_user.png){class="glboxshadow"}
+    ![webdav quick setup share, add a user](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav3.png){class="glboxshadow"}
 
 4. 三角アイコンをクリックしてすべてのフォルダーを表示します。共有するフォルダーを選ぶか、ディスク全体を共有したい場合はディスク名（disk1_part1）をクリックして、**Next** をクリックします。
 
-    ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_quick_setup_share/samba_quick_setup_share_add_shared_folder.png){class="glboxshadow"}
+    ![webdav quick setup share, add shared folder](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav4.png){class="glboxshadow"}
 
 5. 共有フォルダーを設定します。
 
     セキュリティ上の理由から、**Anonymous Access** を有効にすることは推奨されません。
 
-    前の手順で作成したユーザーは、デフォルトで **Read-Only User** に追加されます。このユーザーに書き込みや削除を許可したい場合は、**Read-Only User** から削除して **Writable User** に追加し、**Apply** をクリックしてください。
+    前の手順で作成したユーザーは、デフォルトで **Read-Only User** に追加されます。このユーザーに書き込みや削除を許可したい場合は、**Read-Only User** から削除して **Read-Write User** に追加し、**Apply** をクリックしてください。
 
-    ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_shared_folder_settings.png){class="glboxshadow"}
+    ![webdav quick setup share, shared folder settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav5.png){class="glboxshadow"}
 
 6. フォルダーのアクセスリンクを取得します。
 
@@ -148,7 +139,7 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
     これらのリンクを使って WebDAV 経由で共有フォルダーにアクセスできます。詳細は [こちら](#webdav-client) をご覧ください。
 
-    ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav_quick_setup_share/webdav_quick_setup_share_folder_access_link.png){class="glboxshadow"}
+    ![webdav quick setup share, folder access link](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/webdav6.png){class="glboxshadow"}
 
     **Note:** **Allow Access WebDAV from WAN** を有効にして上位ネットワークから共有フォルダーへアクセスする場合は、アクセスリンク内のルーター IP（デフォルトは 192.168.8.1）を、Web admin panel の **INTERNET** ページで確認できる WAN IP に置き換えてください。
 
@@ -156,11 +147,15 @@ USB Drive はそのまま USB ポートに接続できます。ポータブル�
 
 ## DLNA をセットアップする {#set-up-dlna}
 
-**Enable DLNA** をオンにし、**Apply** をクリックします。
+1. **Enable DLNA** をオンにし、**Apply** をクリックします。
 
-![network storage, enable dlna](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/enable_dlna.jpg){class="glboxshadow"}
+    ![enable dlna](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/dlna1.png){class="glboxshadow"}
 
-スマート TV をルーターに接続すると、DLNA サーバーが検出されます。
+2. 必要に応じて右側の **Share Path** を変更します。
+
+    ![dlna share path](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/dlna2.png){class="glboxshadow"}
+
+3. スマートテレビをルーターに接続すると、DLNA サーバーが自動的に検出されます。
 
 ---
 

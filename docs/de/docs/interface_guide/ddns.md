@@ -44,25 +44,23 @@ Sie können prüfen, ob DDNS funktioniert, indem Sie das DDNS-Testwerkzeug verwe
 
     ![ddns test prompt](https://static.gl-inet.com/docs/router/de/4/interface_guide/ddns/ddns_test_no_public_ip.png){class="glboxshadow"}
 
-=== "Manuell prüfen"
+=== "Mit Befehlen prüfen"
 
     1. Verwenden Sie den Befehl `nslookup`, um die Zuordnung zwischen Domainnamen und IP-Adresse zu ermitteln, wie unten dargestellt.
 
-        ![nslookup 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/ddns/nslookup1.jpg){class="glboxshadow"}
+        ![nslookup 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/nslookup.png){class="glboxshadow" width="600"}
 
-        Ersetzen Sie `xxxxxxx.glddns.com` im obigen Bild durch Ihren Host Name.
+        **Tipps:**
 
-        `8.8.8.8` im obigen Bild ist der Google-DNS. Verwenden Sie ihn oder ersetzen Sie ihn durch einen anderen DNS-Server und drücken Sie dann die Eingabetaste.
+        - Ersetzen Sie `xxxxxxx.glddns.com` im Bild durch Ihren Host Name.
+        - `8.8.8.8` im Bild ist der Google-DNS-Server. Sie können ihn verwenden oder einen anderen DNS-Server angeben und dann die Eingabetaste drücken.
 
-    2. Wenn Sie als Ausgabe eine öffentliche IP-Adresse erhalten, z. B. `103.81.180.10` im folgenden Bild, bedeutet dies, dass Ihre DDNS-Domain erfolgreich einer öffentlichen IP-Adresse zugeordnet wurde.
+    2. Prüfen Sie anhand des Ergebnisses, ob Ihre DDNS-Domain einer öffentlichen IP-Adresse zugeordnet wurde.
 
-        ![nslookup 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/ddns/nslookup2.jpg){class="glboxshadow"}
-        
-        Suchen Sie auf einem mit dem Router verbundenen Gerät in einem Browser nach „what is my ip address“ oder besuchen Sie eine Website wie [What Is My IP Address](https://whatismyipaddress.com){target="_blank"}. Dort wird Ihre öffentliche IP-Adresse angezeigt. Vergleichen Sie die beiden in Schritt 1 und 2 erhaltenen IP-Adressen. Sind sie identisch, ist DDNS wirksam; andernfalls nicht.
+        - Wenn eine öffentliche IP-Adresse wie `183.178.10.100` im Bild angezeigt wird, wurde die DDNS-Domain erfolgreich zugeordnet.
+        - Wenn die Meldung `server can't find xxxxxxx.glddns.com` angezeigt wird, ist die Domainauflösung möglicherweise fehlgeschlagen. Überprüfen Sie dies im nächsten Schritt.
 
-    3. Wenn Sie die Meldung `** server can't find xxxxxxx.glddns.com: NXDOMAIN` erhalten, wie unten dargestellt, bedeutet dies, dass die Domainauflösung fehlgeschlagen ist und Ihre DDNS-Domain nicht erfolgreich einer öffentlichen IP-Adresse zugeordnet wurde.
-
-        ![nslookup 3](https://static.gl-inet.com/docs/router/de/4/interface_guide/ddns/nslookup3.png){class="glboxshadow"}
+    3. Melden Sie sich am Web-Admin-Panel Ihres Routers an und öffnen Sie **INTERNET**. Suchen Sie die WAN-IP-Adresse des Routers an der derzeit aktiven Schnittstelle. Vergleichen Sie sie mit der oben ermittelten öffentlichen IP-Adresse. Sind beide identisch, funktioniert DDNS; andernfalls nicht.
 
 ## HTTPS-Fernzugriff
 

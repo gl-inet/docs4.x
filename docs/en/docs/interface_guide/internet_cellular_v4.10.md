@@ -69,7 +69,7 @@ Log in to the router's web Admin Panel and navigate to **INTERNET** -> **Cellula
 
     - **International Data Roaming**: It is enabled by default to facilitate data usage when travelling internationally. You may disable this feature if it is not required, or to prevent high‑cost roaming charges from your carrier.
 
-    - **TTL**: Some network operators will determine whether the SIM card is used by the router by reading the TTL value. If your SIM card cannot be used on the router, you could try to set the TTL to a value other than 64 and 128 (for example, 65).
+    - **TTL**: Some ISPs will determine whether the SIM card is used in a router by reading the TTL value. If your SIM card cannot be used in the router, you may try setting the TTL to a value other than 64 and 128 (for example, 65).
 
     - **HL**: In IPv6, the HL (Hop Limit) field is used to limit the number of transmission hops of data packets in the network, which is equivalent to the TTL in IPv4.
 

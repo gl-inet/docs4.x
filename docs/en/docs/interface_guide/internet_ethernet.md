@@ -12,7 +12,7 @@ Follow the steps below to connect your router to the Internet via an Ethernet ca
 
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_1.png){class="glboxshadow"}
 
-**Tips**: Before plugging the Ethernet cable into the WAN port of the router, you can click **Change to LAN** to [set the WAN port as a LAN port](../faq/change_wan_to_lan.md). That is useful when you are using the router as a [repeater](internet_repeater.md) since the physical WAN port is idle. Therefore, you can repurpose the unused WAN port as a LAN port and then you will have one more LAN port.
+**Tip**: You can switch the WAN port role to a LAN port if needed. This is useful when you use the router as a [repeater](internet_repeater.md) since the physical WAN port is idle. If you switch the WAN to LAN, you will have one more LAN port.
 
 ## Protocol
 
@@ -46,7 +46,7 @@ In addition to the essential settings, there are also some optional advanced set
 
 * **TTL**: TTL (Time To Live) defines the maximum time packets can survive in the network. By default, the router decrements the TTL of incoming packets from client devices by 1 before forwarding them. The TTL setting is valid only for IPv4.  
 
-    **Note**: If you need to camouflage, you can set a fixed value here. For most models, enter the desired effective TTL plus 1 to compensate for the automatic decrement. The Mudi 7 (GL‑E5800) applies the entered value unchanged.
+    **Note**: If you need to override/spoof the TTL, set a fixed value here. For most models, enter the desired effective TTL plus 1 to compensate for the automatic decrement. The Mudi 7 (GL‑E5800) applies the entered value unchanged.
 
 * **HL**: In IPv6, the HL (Hop Limit) field limits the number of transmission hops for data packets in the network, serving as the equivalent of TTL in IPv4.
 
@@ -54,7 +54,7 @@ In addition to the essential settings, there are also some optional advanced set
 
 ## Ethernet Port
 
-Click the gear icon in the upper right corner to enter [Ethernet Port](ethernet_port.md).
+Click the gear icon in the upper right corner, and you will be directed to the [Ethernet Port](ethernet_port.md) to manage the Ethernet ports on your router.
 
 ![ethernet port 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_6.png){class="glboxshadow"}
 
@@ -66,7 +66,7 @@ The **LAN** page displays the port role and negotiated network port rate.
 
 ![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
-Please refer to this [link](ethernet_port.md) for details. 
+Please refer to [Ethernet Port](ethernet_port.md) for details. 
 
 ## Troubleshooting
 

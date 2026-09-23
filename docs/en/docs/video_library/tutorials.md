@@ -2,7 +2,7 @@
 
 Learn about new features in our products and services, and detailed tutorials on how to use them.
 
-## Introduction to GL. iNet Firmware v4.8
+## Introduction to GL.iNet Firmware v4.8
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XpddRAcizWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

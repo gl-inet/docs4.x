@@ -191,7 +191,7 @@ Select the corresponding section for device binding steps based on the firmware 
 
     After successful binding, return to the router's web Admin Panel and navigate to **APPLICATIONS** -> **GoodCloud**. This page displays the binding details, including username and binding time.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_1.png){class="glboxshadow"}
+    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info.png){class="glboxshadow"}
 
 5. Unbind device.
 

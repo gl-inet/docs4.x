@@ -22,6 +22,21 @@ Check out Mudi 7's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Battery Safety and Swollen Battery Handling
+
+Stop using and charging the Mudi 7 if the battery is swollen, leaking, unusually hot, damaged, or producing an unusual odor.
+
+- Do not press, bend, puncture, crush, or apply pressure to the battery.
+- Do not use tools to pry against a swollen or damaged battery.
+- Do not attempt to remove a battery that is swollen, stuck, leaking, hot, or otherwise unsafe to handle.
+- Do not place a damaged lithium-ion battery in household trash or normal recycling.
+- Do not mail or ship a swollen or damaged battery using an ordinary parcel service.
+- Contact [GL.iNet Support](https://www.gl-inet.com/contacts/) for warranty assistance and next steps.
+
+If the damaged battery has already been removed, do not reinstall it. Contact an appropriate local battery-recycling or household hazardous-waste facility that accepts damaged lithium-ion batteries.
+
+If the battery is smoking, rapidly heating, hissing, burning, or otherwise presents an immediate hazard, move away from the device and contact local emergency services.
+
 ## How to set up Mudi 7
 
 Watch this setup video or follow the steps below.
@@ -31,6 +46,10 @@ Watch this setup video or follow the steps below.
 ### 1. Install SIM card
 
 Install Nano-SIM card(s) on your Mudi 7. If you prefer using eSIM, skip this and proceed to step 2.
+
+!!! Warning
+
+    If the battery is swollen, leaking, unusually hot, damaged, or difficult to remove, stop using the device and do not attempt to remove the battery. See [Battery Safety and Swollen Battery Handling](#battery-safety-and-swollen-battery-handling).
 
 First, use the small notch at the bottom-right corner of the device's back cover as a leverage point. Pry along the seam to create a gap, then open the back cover and remove the Mudi 7 battery.
 

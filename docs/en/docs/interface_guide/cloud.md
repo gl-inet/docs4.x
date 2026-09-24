@@ -93,7 +93,7 @@ Select the corresponding section for device binding steps based on the firmware 
 
     Click the **Get Started** button, and a Cloud Service pop-up window will appear in the upper right corner. Click **Enable**.
 
-    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.jpg){class="glboxshadow"}
+    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.png){class="glboxshadow"}
 
 2. Log in to bind your device.
 
@@ -109,13 +109,13 @@ Select the corresponding section for device binding steps based on the firmware 
 
     After successful binding, return to the router's web Admin Panel, click on the Cloud icon in the upper right corner and you will see the binding details, including the username, binding time, Device ID, Device MAC and Device S/N.
 
-    ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
+    ![binding details](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/binding_details.png){class="glboxshadow"}
 
 4. Enable Remote Access.
 
     In the web Admin Panel, navigate to **CLOUD SERVICES** -> **GoodCloud**, and you can enable the remote access for your router.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_2.png){class="glboxshadow"}
+    ![enable remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_remote_access.png){class="glboxshadow"}
 
     - **Remote SSH**: For remotely accessing the router's terminal over SSH from GoodCloud platform.
 

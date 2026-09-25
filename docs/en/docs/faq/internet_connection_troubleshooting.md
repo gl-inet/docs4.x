@@ -4,23 +4,23 @@
 
 Follow the steps below for basic troubleshooting.
 
-1. Check physical connection.
+1. Check the physical connection.
 
-    Ensure the Ethernet cable is securely connected between your router's WAN port and the upstreaming device (e.g., modem, ONT, or Ethernet jack). Check the LEDs on the upstreaming device and ensure there's active transmission.
+    Ensure the Ethernet cable is securely connected between your router's WAN port and the upstream device (e.g., modem, ONT, or Ethernet jack). Check the LEDs on the upstream device and ensure there's active transmission.
 
 2. Reboot devices.
 
-    Power off the upstreaming device (e.g., modem) and your router. Wait for 1-2 minutes. Then turn on the modem first, wait until it is fully online, then power on the router.
+    Power off the upstream device (e.g., modem) and your router. Wait for 1-2 minutes. Then turn on the modem first, wait until it is fully online, then power on the router.
 
-3. Check WAN IP address.
+3. Check the WAN IP address.
 
-    Log in to your router's web Admin Panel and go to **INTERNET** -> **Ethernet** section. If it stucks at the connecting state, as shown below, it might be the DHCP issue, MAC binding, or VLAN required. 
+    Log in to your router's web Admin Panel and go to **INTERNET** -> **Ethernet** section. If it is stuck in the connecting state, as shown below, it might be a DHCP issue, MAC binding, or a VLAN requirement.
 
     ![connecting](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/connecting.png){class="glboxshadow"}
     
     Contact your ISP and verify if you need **PPPoE username**, **PPPoE password** and **VLAN ID** for Internet access. 
     
-    Meanwhile, verify if your ISP has configured **MAC binding** on your modem/ONT previously.
+    Meanwhile, check whether your ISP previously configured **MAC binding** on your modem/ONT.
 
 ## Q2. When should I clone a MAC address?
 
@@ -34,7 +34,7 @@ Follow the steps below to clone a MAC address to your GL.iNet router.
 
     ![mac clone](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/mac_clone.png){class="glboxshadow"}
 
-3. Reboot your modem (i.e., the upstreaming device).
+3. Reboot your modem (i.e., the upstream device).
 
 ## Q3. When do I need to configure a VLAN ID?
 

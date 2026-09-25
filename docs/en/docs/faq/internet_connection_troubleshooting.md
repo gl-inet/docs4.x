@@ -54,7 +54,7 @@ If the issue persists, try connecting a PC or laptop directly to your modem and 
 
 If you do not have Internet access, the issue may be with your ISP. Contact your ISP for further assistance.
 
-If you do has Internet access, the issue may be related to your router configuration. Contact our technical support at [support@gl-inet.com](mailto:support@gl-inet.com) and provide the following information:
+If you do have Internet access, the issue may be related to your router configuration. Contact our technical support at [support@gl-inet.com](mailto:support@gl-inet.com) and provide the following information:
 
 - Router model
 - Troubleshooting steps you have tried

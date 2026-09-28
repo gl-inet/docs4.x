@@ -7,6 +7,8 @@ hide:
 
 Learn the key new features, functional improvements, and structural adjustments in the latest firmware version.
 
+- [Firmware v4.11](firmware_v4.11.md)
+
 - [Firmware v4.10](firmware_v4.10.md)
 
 - [Firmware v4.9](firmware_v4.9.md)

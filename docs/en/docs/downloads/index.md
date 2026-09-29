@@ -28,4 +28,3 @@ Click a model below to download its full PDF user manual for offline reference.
 - [GL-AX1800 (Flint)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-ax1800_user_manual.pdf){target="_blank"}
 - [GL-SFT1200 (Opal)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-sft1200_user_manual.pdf){target="_blank"}
 - [GL-MT2500 (Brume 2)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-mt2500_user_manual.pdf){target="_blank"}
-`

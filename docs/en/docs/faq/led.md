@@ -4,6 +4,15 @@ This document describes the LED indicator status and corresponding meanings for 
 
 ## Travel Router
 
+### GL-MG1300
+
+![gl-mg1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mg1300_interface.png){class="glboxshadow"}
+
+- Solid blue: System boot up
+- Flashing blue slowly: Searching network
+- Flashing blue rapidly: Upgrading firmware
+- Solid white: Working normally
+
 ### GL-MT3600BE
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3600be_interface.png){class="glboxshadow"}

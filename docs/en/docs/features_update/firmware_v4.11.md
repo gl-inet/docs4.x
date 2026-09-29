@@ -78,7 +78,7 @@ This release improves [DNS](../interface_guide/dns_v4.11.md) configuration by br
 
 ## SQM
 
-[SQM](../interface_guide/sqm.md) (Smart Queue Management) provides a **Run Speedtest** option for WAN bandwidth, measuring download and upload speeds and auto‑filling the relevant fields. For **CAKE** queueing rules, the newly added **CAKE Autorate** dynamically adjusts the configured bandwidth based on probe RTT. It uses lightweight pings rather than active speed tests and is recommended for WAN connections with fluctuating bandwidth.
+[SQM](../interface_guide/sqm.md) (Smart Queue Management) provides a **Run Speedtest** option for WAN bandwidth, measuring download and upload speeds and auto‑filling the relevant fields. For the **cake** queue discipline, the newly added **Cake Autorate** dynamically adjusts the configured bandwidth based on probe RTT. It uses lightweight pings rather than active speed tests and is recommended for WAN connections with fluctuating bandwidth.
 
 ![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_v4.11.png){class="glboxshadow" width=600}
 

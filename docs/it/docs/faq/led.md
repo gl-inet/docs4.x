@@ -4,6 +4,15 @@ Questo documento descrive lo stato degli indicatori LED e i relativi significati
 
 ## Travel Router
 
+### GL-MG1300
+
+![gl-mg1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mg1300_interface.png){class="glboxshadow"}
+
+- Blu fisso: avvio del sistema
+- Blu lampeggiante lentamente: ricerca della rete
+- Blu lampeggiante rapidamente: aggiornamento del firmware
+- Bianco fisso: funzionamento normale
+
 ### GL-MT3600BE
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3600be_interface.png){class="glboxshadow"}

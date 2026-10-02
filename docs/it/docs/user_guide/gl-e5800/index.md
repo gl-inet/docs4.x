@@ -22,6 +22,21 @@ Guarda qui sotto il video di unboxing di Mudi 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Sicurezza della batteria e gestione di una batteria gonfia {#battery-safety-and-swollen-battery-handling}
+
+Smetti di usare e caricare Mudi 7 se la batteria è gonfia, perde liquido, è insolitamente calda, è danneggiata o emette un odore insolito.
+
+- Non premere, piegare, forare o schiacciare la batteria e non esercitare pressione su di essa.
+- Non usare strumenti per fare leva contro una batteria gonfia o danneggiata.
+- Non tentare di rimuovere una batteria gonfia, bloccata, che perde liquido, calda o comunque non sicura da maneggiare.
+- Non gettare una batteria agli ioni di litio danneggiata nei rifiuti domestici o nella normale raccolta differenziata.
+- Non inviare né spedire una batteria gonfia o danneggiata tramite un normale servizio di consegna pacchi.
+- Contatta il [supporto GL.iNet](https://www.gl-inet.com/contacts/) per assistenza in garanzia e indicazioni sui passaggi successivi.
+
+Se la batteria danneggiata è già stata rimossa, non reinstallarla. Contatta un centro locale appropriato per il riciclo delle batterie o la raccolta dei rifiuti domestici pericolosi che accetti batterie agli ioni di litio danneggiate.
+
+Se la batteria emette fumo, si riscalda rapidamente, sibila, brucia o presenta un altro pericolo immediato, allontanati dal dispositivo e contatta i servizi di emergenza locali.
+
 ## Come configurare Mudi 7
 
 Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
@@ -31,6 +46,10 @@ Guarda questo video di configurazione oppure segui i passaggi riportati di segui
 ### 1. Installa la scheda SIM
 
 Installa una o piu' Nano-SIM su Mudi 7. Se preferisci usare eSIM, salta questo passaggio e passa al passaggio 2.
+
+!!! Warning
+
+    Se la batteria è gonfia, perde liquido, è insolitamente calda, è danneggiata o è difficile da rimuovere, smetti di usare il dispositivo e non tentare di rimuovere la batteria. Consulta [Sicurezza della batteria e gestione di una batteria gonfia](#battery-safety-and-swollen-battery-handling).
 
 Per prima cosa, usa la piccola tacca nell'angolo inferiore destro del coperchio posteriore come punto di leva. Fai leva lungo la giunzione per creare un'apertura, quindi apri il coperchio posteriore e rimuovi la batteria di Mudi 7.
 

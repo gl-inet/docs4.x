@@ -20,7 +20,7 @@ Wykonaj poniższe kroki, aby przeprowadzić podstawowe rozwiązywanie problemów
 
     Skontaktuj się z dostawcą Internetu i sprawdź, czy do uzyskania dostępu do Internetu potrzebujesz **PPPoE username**, **PPPoE password** oraz **VLAN ID**.
 
-    Jednocześnie sprawdź, czy dostawca nie skonfigurował wcześniej **MAC binding** na modemie/ONT.
+    Jednocześnie sprawdź, czy dostawca wcześniej skonfigurował **MAC binding** na modemie/ONT.
 
 ## P2. Kiedy należy sklonować adres MAC?
 

@@ -1,6 +1,6 @@
 # GoodPAS
 
-**注意**: この機能はファームウェア v4.10 で導入され、AstroWarp から GoodPAS に名称変更されました。デバイスで古いファームウェアを使用している場合は、[AstroWarp](./astrowarp.md) を参照してください。
+**注意**: この機能はファームウェア v4.11 で導入され、AstroWarp から GoodPAS に名称変更されました。デバイスで古いファームウェアを使用している場合は、[AstroWarp](./astrowarp.md) を参照してください。
 
 ---
 

@@ -14,7 +14,7 @@ Führen Sie die folgenden Schritte zur grundlegenden Fehlerbehebung aus.
 
 3. Prüfen Sie die WAN-IP-Adresse.
 
-    Melden Sie sich im Web-Admin-Panel Ihres Routers an und gehen Sie zu **INTERNET** -> **Ethernet**. Wenn der Status wie unten gezeigt bei „connecting“ hängen bleibt, kann dies an DHCP, MAC-Bindung oder einer erforderlichen VLAN-ID liegen.
+    Melden Sie sich im Web-Admin-Panel Ihres Routers an und gehen Sie zu **INTERNET** -> **Ethernet**. Wenn der Status wie unten gezeigt bei „connecting“ hängen bleibt, kann dies an einem DHCP-Problem, einer MAC-Bindung oder einer erforderlichen VLAN-ID liegen.
 
     ![connecting](https://static.gl-inet.com/docs/router/de/4/faq/internet_connection_troubleshooting_faq/connecting.png){class="glboxshadow"}
 

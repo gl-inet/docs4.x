@@ -1,6 +1,6 @@
 # GoodPAS
 
-**Uwaga**: ta funkcja została wprowadzona w firmware v4.10, w którym nazwę AstroWarp zmieniono na GoodPAS. Jeśli urządzenie korzysta ze starszej wersji firmware, zapoznaj się z przewodnikiem [AstroWarp](./astrowarp.md).
+**Uwaga**: ta funkcja została wprowadzona w firmware v4.11, w którym nazwę AstroWarp zmieniono na GoodPAS. Jeśli urządzenie korzysta ze starszej wersji firmware, zapoznaj się z przewodnikiem [AstroWarp](./astrowarp.md).
 
 ---
 

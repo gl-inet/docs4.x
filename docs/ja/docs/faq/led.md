@@ -4,6 +4,15 @@
 
 ## トラベルルーター
 
+### GL-MG1300
+
+![gl-mg1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mg1300_interface.png){class="glboxshadow"}
+
+- 青で点灯: システム起動中
+- 青がゆっくり点滅: ネットワーク検索中
+- 青が速く点滅: ファームウェアアップグレード中
+- 白で点灯: 正常に動作中
+
 ### GL-MT3600BE
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3600be_interface.png){class="glboxshadow"}

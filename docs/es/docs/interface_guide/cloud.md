@@ -143,7 +143,7 @@ Seleccione el apartado correspondiente a la versión de firmware de su dispositi
 
     Después de vincular el dispositivo correctamente, vuelva al panel de administración web del router y vaya a **APPLICATIONS** -> **GoodCloud**. Esta página muestra los detalles de la vinculación, incluidos el nombre de usuario y la hora de vinculación.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_1.png){class="glboxshadow"}
+    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info.png){class="glboxshadow"}
 
 5. Desvincule el dispositivo.
 
@@ -163,7 +163,7 @@ Seleccione el apartado correspondiente a la versión de firmware de su dispositi
 
     Haga clic en el botón **Get Started** y aparecerá una ventana emergente de Cloud Service en la esquina superior derecha. Haga clic en **Enable**.
 
-    ![enable cloud service](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.jpg){class="glboxshadow"}
+    ![enable cloud service](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.png){class="glboxshadow"}
 
 2. Inicie sesión para vincular el dispositivo.
 
@@ -179,13 +179,13 @@ Seleccione el apartado correspondiente a la versión de firmware de su dispositi
 
     Después de vincular el dispositivo correctamente, vuelva a iniciar sesión en el panel de administración web del router, haga clic en el icono de la nube en la esquina superior derecha y verá los detalles de la vinculación, incluidos el nombre de usuario de GoodCloud vinculado y la fecha, el Device ID, el Device MAC y el Device S/N.
 
-    ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
+    ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/binding_details.png){class="glboxshadow"}
 
 4. Habilite el acceso remoto.
 
     En el panel de administración web, vaya a **CLOUD SERVICES** -> **GoodCloud**, donde podrá habilitar el acceso remoto a su router.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_2.png){class="glboxshadow"}
+    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_remote_access.png){class="glboxshadow"}
 
     - **Remote SSH**: para acceder remotamente al terminal del router a través de GoodCloud.
 

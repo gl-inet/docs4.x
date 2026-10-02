@@ -14,13 +14,13 @@ Siga los pasos siguientes para realizar una solución de problemas básica.
 
 3. Compruebe la dirección IP WAN.
 
-    Inicie sesión en el panel de administración web del router y vaya a **INTERNET** -> **Ethernet**. Si se queda en estado de conexión, como se muestra a continuación, el problema puede deberse a DHCP, a la vinculación MAC o a que se requiera una VLAN.
+    Inicie sesión en el panel de administración web del router y vaya a **INTERNET** -> **Ethernet**. Si se queda en estado de conexión, como se muestra a continuación, puede deberse a un problema de DHCP, a la vinculación MAC o a que se requiera una VLAN.
 
     ![connecting](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/connecting.png){class="glboxshadow"}
 
     Póngase en contacto con su ISP y confirme si necesita **nombre de usuario PPPoE**, **contraseña PPPoE** e **ID de VLAN** para acceder a Internet.
 
-    Al mismo tiempo, verifique si su ISP había configurado previamente la **vinculación MAC** en su módem/ONT.
+    Compruebe también si su ISP configuró previamente la **vinculación MAC** en su módem/ONT.
 
 ## P2. ¿Cuándo debo clonar una dirección MAC?
 

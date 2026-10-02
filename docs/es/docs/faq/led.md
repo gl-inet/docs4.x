@@ -4,6 +4,15 @@ Este documento describe el estado de los indicadores LED y sus significados corr
 
 ## Router de viaje
 
+### GL-MG1300
+
+![gl-mg1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mg1300_interface.png){class="glboxshadow"}
+
+- Azul fijo: inicio del sistema
+- Azul parpadeando lentamente: buscando red
+- Azul parpadeando rápidamente: actualizando el firmware
+- Blanco fijo: funcionamiento normal
+
 ### GL-MT3600BE
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3600be_interface.png){class="glboxshadow"}

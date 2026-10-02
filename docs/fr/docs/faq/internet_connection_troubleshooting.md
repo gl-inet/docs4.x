@@ -14,7 +14,7 @@ Suivez les étapes ci-dessous pour effectuer un dépannage de base.
 
 3. Vérifiez l'adresse IP WAN.
 
-    Connectez-vous au panneau d'administration web de votre routeur et accédez à la section **INTERNET** -> **Ethernet**. S'il reste bloqué sur l'état de connexion, comme illustré ci-dessous, cela peut indiquer un problème de DHCP, un **MAC binding** ou la nécessité d'un VLAN.
+    Connectez-vous au panneau d'administration web de votre routeur et accédez à la section **INTERNET** -> **Ethernet**. S'il reste bloqué dans l'état de connexion, comme illustré ci-dessous, cela peut indiquer un problème de DHCP, un **MAC binding** ou la nécessité d'un VLAN.
 
     ![connecting](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/connecting.png){class="glboxshadow"}
 

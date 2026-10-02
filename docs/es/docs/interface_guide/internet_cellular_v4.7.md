@@ -81,7 +81,7 @@ Aplicar los cambios provocará una nueva conexión.
 
 - **TTL**: TTL (Time To Live) define el tiempo máximo que los paquetes pueden permanecer en la red. De forma predeterminada, el router reduce en 1 el TTL de los paquetes entrantes de los dispositivos cliente antes de reenviarlos. La configuración de TTL solo es válida para IPv4.
 
-    **Nota**: Si necesita camuflaje, puede establecer aquí un valor fijo. En la mayoría de los modelos, introduzca el TTL efectivo deseado más 1 para compensar la reducción automática. El Mudi 7 (GL-E5800) aplica el valor introducido sin cambios.
+    **Nota**: Si necesita sobrescribir el TTL o simular otro valor de TTL, establezca aquí un valor fijo. En la mayoría de los modelos, introduzca el TTL efectivo deseado más 1 para compensar la reducción automática. El Mudi 7 (GL-E5800) aplica el valor introducido sin cambios.
 
 - **Service**: Seleccione el tipo de servicio celular para definir las tecnologías de red que utilizará el módem.
 

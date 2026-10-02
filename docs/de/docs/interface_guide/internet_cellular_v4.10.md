@@ -69,7 +69,7 @@ Melden Sie sich im Web-Admin-Panel des Routers an und navigieren Sie zu **INTERN
 
     - **International Data Roaming**: Diese Funktion ist standardmäßig aktiviert, um die Datennutzung bei internationalen Reisen zu ermöglichen. Sie können sie deaktivieren, wenn sie nicht benötigt wird oder wenn Sie hohe Roaming-Gebühren Ihres Anbieters vermeiden möchten.
 
-    - **TTL**: Manche Netzbetreiber ermitteln anhand des TTL-Werts, ob die SIM-Karte in einem Router verwendet wird. Wenn Ihre SIM-Karte im Router nicht funktioniert, können Sie einen anderen TTL-Wert als 64 oder 128 festlegen, beispielsweise 65.
+    - **TTL**: Manche ISPs ermitteln anhand des TTL-Werts, ob die SIM-Karte in einem Router verwendet wird. Wenn Ihre SIM-Karte im Router nicht funktioniert, können Sie versuchen, einen anderen TTL-Wert als 64 oder 128 festzulegen, beispielsweise 65.
 
     - **HL**: Unter IPv6 begrenzt das Feld HL (Hop Limit) die Anzahl der Übertragungssprünge von Datenpaketen im Netzwerk und entspricht TTL unter IPv4.
 

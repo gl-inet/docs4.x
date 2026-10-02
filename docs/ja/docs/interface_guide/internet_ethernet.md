@@ -12,7 +12,7 @@ WANポートに接続したイーサネットケーブルで、ルーターを�
 
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_1.png){class="glboxshadow"}
 
-**ヒント**: ルーターの WAN ポートにイーサネットケーブルを挿す前に、**Change to LAN** をクリックして [WANポートをLANポートとして設定](../faq/change_wan_to_lan.md)できます。これはルーターを[リピーター](internet_repeater.md)として使用する場合に便利です。物理 WAN ポートが未使用になるため、LAN ポートとして再利用して LAN ポートを1つ増やせます。
+**ヒント**: 必要に応じて、WAN ポートの役割を LAN ポートに変更できます。ルーターを[リピーター](internet_repeater.md)として使用する場合、物理 WAN ポートは未使用になるため、この変更が役立ちます。WAN ポートを LAN ポートに切り替えると、LAN ポートを1つ増やせます。
 
 ## プロトコル
 
@@ -46,7 +46,7 @@ WANポートに接続したイーサネットケーブルで、ルーターを�
 
 * **TTL**: TTL (Time To Live) は、パケットがネットワーク内で存続できる最大時間を定義します。デフォルトでは、ルーターはクライアントデバイスから受信したパケットを転送する前に TTL を 1 減らします。TTL 設定は IPv4 にのみ有効です。
 
-    **注意**: 通信をカモフラージュする必要がある場合は、ここで固定値を設定できます。ほとんどのモデルでは、自動減算を補正するため、目的の実効 TTL に 1 を加えた値を入力してください。Mudi 7 (GL-E5800) は入力された値をそのまま適用します。
+    **注意**: TTL を上書きまたは偽装する必要がある場合は、ここで固定値を設定してください。ほとんどのモデルでは、自動減算を補正するため、目的の実効 TTL に 1 を加えた値を入力してください。Mudi 7 (GL-E5800) は入力された値をそのまま適用します。
 
 * **HL**: IPv6 では、HL（Hop Limit）フィールドがネットワーク内でのデータパケットの転送ホップ数を制限し、IPv4 の TTL に相当します。
 
@@ -54,7 +54,7 @@ WANポートに接続したイーサネットケーブルで、ルーターを�
 
 ## Ethernet Port
 
-右上の歯車アイコンをクリックすると、[Ethernet Port](ethernet_port.md) に移動できます。
+右上の歯車アイコンをクリックすると、ルーターのイーサネットポートを管理するための [Ethernet Port](ethernet_port.md) ページに移動します。
 
 ![ethernet port 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_6.png){class="glboxshadow"}
 
@@ -66,7 +66,7 @@ WANポートに接続したイーサネットケーブルで、ルーターを�
 
 ![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
-詳細はこの[リンク](ethernet_port.md)を参照してください。
+詳細は [Ethernet Port](ethernet_port.md) を参照してください。
 
 ## トラブルシューティング
 

@@ -22,6 +22,21 @@ Vea a continuación el vídeo de unboxing de Mudi 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Seguridad de la batería y manipulación de baterías hinchadas {#battery-safety-and-swollen-battery-handling}
+
+Deje de usar y cargar el Mudi 7 si la batería está hinchada, tiene fugas, está inusualmente caliente o dañada, o desprende un olor inusual.
+
+- No presione, doble, perfore ni aplaste la batería, ni ejerza presión sobre ella.
+- No utilice herramientas para hacer palanca contra una batería hinchada o dañada.
+- No intente retirar una batería que esté hinchada, atascada, tenga fugas, esté caliente o que, por cualquier otro motivo, no pueda manipularse de forma segura.
+- No deseche una batería de iones de litio dañada en la basura doméstica ni en los contenedores de reciclaje habituales.
+- No envíe una batería hinchada o dañada por correo ni mediante un servicio de paquetería ordinario.
+- Póngase en contacto con el [soporte de GL.iNet](https://www.gl-inet.com/contacts/) para obtener ayuda con la garantía e instrucciones sobre los siguientes pasos.
+
+Si ya ha retirado la batería dañada, no vuelva a instalarla. Póngase en contacto con un centro local adecuado de reciclaje de baterías o de recogida de residuos domésticos peligrosos que acepte baterías de iones de litio dañadas.
+
+Si la batería emite humo, se calienta rápidamente, produce un siseo, arde o presenta cualquier otro peligro inmediato, aléjese del dispositivo y póngase en contacto con los servicios de emergencia locales.
+
 ## Cómo configurar Mudi 7
 
 Vea este vídeo de configuración o siga los pasos que se indican a continuación.
@@ -31,6 +46,10 @@ Vea este vídeo de configuración o siga los pasos que se indican a continuació
 ### 1. Instalar la tarjeta SIM
 
 Instale la(s) tarjeta(s) Nano-SIM en su Mudi 7. Si prefiere usar eSIM, omita este paso y vaya al paso 2.
+
+!!! Warning
+
+    Si la batería está hinchada, tiene fugas, está inusualmente caliente o dañada, o es difícil de retirar, deje de usar el dispositivo y no intente retirar la batería. Consulte [Seguridad de la batería y manipulación de baterías hinchadas](#battery-safety-and-swollen-battery-handling).
 
 Primero, use la pequeña muesca situada en la esquina inferior derecha de la tapa trasera como punto de apoyo. Haga palanca a lo largo de la unión para crear una abertura, luego abra la tapa trasera y retire la batería de Mudi 7.
 

@@ -93,7 +93,7 @@ Wybierz odpowiednią sekcję, aby zapoznać się z krokami wiązania urządzenia
 
     Kliknij przycisk **Get Started**, a w prawym górnym rogu pojawi się wyskakujące okno usługi w chmurze. Kliknij **Enable**.
 
-    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.jpg){class="glboxshadow"}
+    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.png){class="glboxshadow"}
 
 2. Zaloguj się, aby powiązać swoje urządzenie.
 
@@ -109,13 +109,13 @@ Wybierz odpowiednią sekcję, aby zapoznać się z krokami wiązania urządzenia
 
     Po pomyślnym powiązaniu wróć do internetowego panelu administracyjnego routera, kliknij ikonę Chmura w prawym górnym rogu, a zobaczysz szczegóły powiązania, w tym nazwę użytkownika, czas powiązania, identyfikator urządzenia, adres MAC urządzenia i numer seryjny urządzenia.
 
-    ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
+    ![binding details](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/binding_details.png){class="glboxshadow"}
 
 4. Włącz dostęp zdalny.
 
     W internetowym panelu administracyjnym przejdź do **CLOUD SERVICES** -> **GoodCloud** i możesz włączyć zdalny dostęp do swojego routera.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_2.png){class="glboxshadow"}
+    ![enable remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_remote_access.png){class="glboxshadow"}
 
     - **Remote SSH**: Do zdalnego dostępu do terminala routera przez SSH z platformy GoodCloud.
 
@@ -191,7 +191,7 @@ Wybierz odpowiednią sekcję, aby zapoznać się z krokami wiązania urządzenia
 
     Po pomyślnym powiązaniu wróć do panelu administracyjnego routera i przejdź do **APPLICATIONS** -> **GoodCloud**. Na tej stronie wyświetlane są szczegóły wiązania, w tym nazwa użytkownika i czas wiązania.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_1.png){class="glboxshadow"}
+    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info.png){class="glboxshadow"}
 
 5. Odłącz urządzenie.
 

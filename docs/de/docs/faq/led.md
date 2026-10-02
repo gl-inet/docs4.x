@@ -16,6 +16,15 @@ Dieses Dokument beschreibt den Status der LED-Anzeigen und die zugehörigen Bede
 
 ## Reiserouter
 
+### GL-MG1300
+
+![gl-mg1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mg1300_interface.png){class="glboxshadow"}
+
+- Dauerhaft blau: System startet
+- Blau blinkt langsam: Suche nach Netzwerk
+- Blau blinkt schnell: Firmware wird aktualisiert
+- Dauerhaft weiß: Normaler Betrieb
+
 
 
 

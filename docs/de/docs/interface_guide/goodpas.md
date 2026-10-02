@@ -1,6 +1,6 @@
 # GoodPAS
 
-**Hinweis**: Diese Funktion wurde mit Firmware v4.10 eingeführt; dabei wurde AstroWarp in GoodPAS umbenannt. Wenn auf Ihrem Gerät eine ältere Firmwareversion ausgeführt wird, lesen Sie [AstroWarp](./astrowarp.md).
+**Hinweis**: Diese Funktion wurde mit Firmware v4.11 eingeführt; dabei wurde AstroWarp in GoodPAS umbenannt. Wenn auf Ihrem Gerät eine ältere Firmwareversion ausgeführt wird, lesen Sie [AstroWarp](./astrowarp.md).
 
 ---
 

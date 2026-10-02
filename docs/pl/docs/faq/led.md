@@ -4,6 +4,15 @@ Ten dokument opisuje stany wskaźników LED i ich znaczenie dla różnych modeli
 
 ## Routery podróżne
 
+### GL-MG1300
+
+![gl-mg1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mg1300_interface.png){class="glboxshadow"}
+
+- Stałe niebieskie światło: uruchamianie systemu
+- Wolno migające niebieskie światło: wyszukiwanie sieci
+- Szybko migające niebieskie światło: aktualizacja firmware
+- Stałe białe światło: normalna praca
+
 ### GL-MT3600BE
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3600be_interface.png){class="glboxshadow"}

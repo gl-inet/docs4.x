@@ -22,6 +22,21 @@ Obejrzyj poniżej film z rozpakowania Mudi 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Bezpieczeństwo akumulatora i postępowanie ze spuchniętym akumulatorem {#battery-safety-and-swollen-battery-handling}
+
+Przestań używać i ładować Mudi 7, jeśli akumulator jest spuchnięty, wycieka, jest nietypowo gorący, uszkodzony lub wydziela nietypowy zapach.
+
+- Nie naciskaj, nie zginaj, nie przekłuwaj ani nie zgniataj akumulatora i nie wywieraj na niego nacisku.
+- Nie podważaj spuchniętego lub uszkodzonego akumulatora narzędziami.
+- Nie próbuj wyjmować akumulatora, który jest spuchnięty, zakleszczony, wycieka, jest gorący lub z innego powodu nie można go bezpiecznie dotykać.
+- Nie wyrzucaj uszkodzonego akumulatora litowo-jonowego do odpadów domowych ani do zwykłych pojemników do recyklingu.
+- Nie wysyłaj spuchniętego lub uszkodzonego akumulatora pocztą ani zwykłą przesyłką kurierską.
+- Skontaktuj się ze [wsparciem GL.iNet](https://www.gl-inet.com/contacts/), aby uzyskać pomoc dotyczącą gwarancji i dalszego postępowania.
+
+Jeśli uszkodzony akumulator został już wyjęty, nie wkładaj go ponownie. Skontaktuj się z odpowiednim lokalnym punktem recyklingu akumulatorów lub zbiórki niebezpiecznych odpadów z gospodarstw domowych, który przyjmuje uszkodzone akumulatory litowo-jonowe.
+
+Jeśli akumulator dymi, szybko się nagrzewa, syczy, pali się lub stwarza inne bezpośrednie zagrożenie, oddal się od urządzenia i skontaktuj się z lokalnymi służbami ratunkowymi.
+
 ## Jak skonfigurować Mudi 7
 
 Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
@@ -31,6 +46,10 @@ Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
 ### 1. Zainstaluj kartę SIM
 
 Zainstaluj kartę Nano-SIM lub karty Nano-SIM w urządzeniu Mudi 7. Jeśli wolisz korzystać z eSIM, pomiń ten krok i przejdź do kroku 2.
+
+!!! Warning
+
+    Jeśli akumulator jest spuchnięty, wycieka, jest nietypowo gorący, uszkodzony lub trudno go wyjąć, przestań używać urządzenia i nie próbuj wyjmować akumulatora. Zobacz [Bezpieczeństwo akumulatora i postępowanie ze spuchniętym akumulatorem](#battery-safety-and-swollen-battery-handling).
 
 Najpierw wykorzystaj małe wcięcie w prawym dolnym rogu tylnej pokrywy jako punkt podważenia. Podważaj wzdłuż szczeliny, aby utworzyć przerwę, a następnie otwórz tylną pokrywę i wyjmij akumulator Mudi 7.
 

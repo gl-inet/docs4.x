@@ -14,7 +14,7 @@ Segui i passaggi seguenti per una risoluzione di base dei problemi.
 
 3. Controlla l'indirizzo IP WAN.
 
-    Accedi al pannello di amministrazione web del router e vai alla sezione **INTERNET** -> **Ethernet**. Se rimane nello stato di connessione, come mostrato di seguito, il problema potrebbe dipendere da DHCP, binding MAC o dalla necessità di una VLAN.
+    Accedi al pannello di amministrazione web del router e vai alla sezione **INTERNET** -> **Ethernet**. Se rimane bloccato nello stato di connessione, come mostrato di seguito, il problema potrebbe dipendere da DHCP, binding MAC o dalla necessità di una VLAN.
 
     ![connecting](https://static.gl-inet.com/docs/router/en/4/faq/internet_connection_troubleshooting_faq/connecting.png){class="glboxshadow"}
 

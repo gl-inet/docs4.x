@@ -12,7 +12,7 @@ Suivez les étapes ci-dessous pour connecter votre routeur à Internet via un c�
 
     ![ethernet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_1.png){class="glboxshadow"}
 
-**Conseil** : avant de brancher le câble Ethernet sur le port WAN du routeur, vous pouvez cliquer sur **Change to LAN** pour [définir le port WAN comme port LAN](../faq/change_wan_to_lan.md). Cela est utile lorsque vous utilisez le routeur comme [Repeater](internet_repeater.md), car le port WAN physique reste inactif. Vous pouvez ainsi réaffecter ce port WAN inutilisé en port LAN et disposer d'un port LAN supplémentaire.
+**Conseil** : vous pouvez changer le rôle du port WAN pour l'utiliser comme port LAN si nécessaire. Cela est utile lorsque vous utilisez le routeur comme [répéteur](internet_repeater.md), car le port WAN physique reste inactif. En convertissant le port WAN en port LAN, vous disposez d'un port LAN supplémentaire.
 
 ## Protocole
 
@@ -46,7 +46,7 @@ Outre les paramètres essentiels, certains paramètres avancés facultatifs sont
 
 * **TTL** : TTL (Time To Live) définit la durée maximale pendant laquelle les paquets peuvent rester dans le réseau. Par défaut, le routeur décrémente de 1 le TTL des paquets entrants provenant des appareils clients avant de les transférer. Le paramètre TTL est valide uniquement pour IPv4.
 
-    **Remarque** : si vous devez camoufler la connexion, vous pouvez définir ici une valeur fixe. Pour la plupart des modèles, saisissez le TTL effectif souhaité plus 1 afin de compenser la décrémentation automatique. Le Mudi 7 (GL-E5800) applique la valeur saisie sans modification.
+    **Remarque** : si vous devez remplacer ou falsifier le TTL, définissez ici une valeur fixe. Pour la plupart des modèles, saisissez le TTL effectif souhaité plus 1 afin de compenser la décrémentation automatique. Le Mudi 7 (GL-E5800) applique la valeur saisie sans modification.
 
 * **HL** : en IPv6, le champ HL (Hop Limit) limite le nombre de sauts de transmission des paquets de données sur le réseau. Il correspond à l'équivalent du TTL en IPv4.
 
@@ -54,7 +54,7 @@ Outre les paramètres essentiels, certains paramètres avancés facultatifs sont
 
 ## Port Ethernet
 
-Cliquez sur l'icône en forme d'engrenage en haut à droite pour accéder à [Port Ethernet](ethernet_port.md).
+Cliquez sur l'icône en forme d'engrenage en haut à droite pour accéder à la page [Ethernet Port](ethernet_port.md) et gérer les ports Ethernet de votre routeur.
 
 ![ethernet port 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_6.png){class="glboxshadow"}
 
@@ -66,7 +66,7 @@ La page **LAN** affiche le rôle du port et la vitesse négociée du port résea
 
 ![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
-Veuillez consulter ce [lien](ethernet_port.md) pour plus de détails. 
+Veuillez consulter [Ethernet Port](ethernet_port.md) pour plus de détails.
 
 ## Dépannage
 

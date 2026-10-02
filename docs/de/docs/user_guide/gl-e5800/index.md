@@ -52,6 +52,21 @@ Sehen Sie sich unten das Unboxing-Video von Mudi 7 an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Akkusicherheit und Umgang mit aufgeblähten Akkus {#battery-safety-and-swollen-battery-handling}
+
+Verwenden und laden Sie den Mudi 7 nicht weiter, wenn der Akku aufgebläht ist, ausläuft, ungewöhnlich heiß oder beschädigt ist oder einen ungewöhnlichen Geruch abgibt.
+
+- Drücken, biegen, durchstechen oder quetschen Sie den Akku nicht und üben Sie keinen Druck auf ihn aus.
+- Verwenden Sie keine Werkzeuge, um einen aufgeblähten oder beschädigten Akku herauszuhebeln.
+- Versuchen Sie nicht, einen Akku zu entfernen, der aufgebläht ist, feststeckt, ausläuft, heiß ist oder aus anderen Gründen nicht sicher gehandhabt werden kann.
+- Entsorgen Sie einen beschädigten Lithium-Ionen-Akku nicht im Hausmüll oder über die normale Wertstoffsammlung.
+- Versenden Sie einen aufgeblähten oder beschädigten Akku nicht mit einem gewöhnlichen Paketdienst.
+- Wenden Sie sich an den [GL.iNet-Support](https://www.gl-inet.com/contacts/), um Unterstützung bei Garantiefragen und Informationen zum weiteren Vorgehen zu erhalten.
+
+Wenn der beschädigte Akku bereits entfernt wurde, setzen Sie ihn nicht wieder ein. Wenden Sie sich an eine geeignete örtliche Batterierecycling- oder Schadstoffsammelstelle, die beschädigte Lithium-Ionen-Akkus annimmt.
+
+Wenn der Akku raucht, sich schnell erhitzt, zischt, brennt oder auf andere Weise eine unmittelbare Gefahr darstellt, entfernen Sie sich vom Gerät und verständigen Sie die örtlichen Notfalldienste.
+
 ## So richten Sie Mudi 7 ein
 
 Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
@@ -61,6 +76,10 @@ Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Sc
 ### 1. SIM-Karte einsetzen
 
 Setzen Sie Nano-SIM-Karte(n) in Ihren Mudi 7 ein. Wenn Sie lieber eSIM verwenden möchten, überspringen Sie diesen Schritt und fahren Sie mit Schritt 2 fort.
+
+!!! Warning
+
+    Wenn der Akku aufgebläht ist, ausläuft, ungewöhnlich heiß oder beschädigt ist oder sich nur schwer entfernen lässt, verwenden Sie das Gerät nicht weiter und versuchen Sie nicht, den Akku zu entfernen. Lesen Sie [Akkusicherheit und Umgang mit aufgeblähten Akkus](#battery-safety-and-swollen-battery-handling).
 
 Nutzen Sie zuerst die kleine Kerbe unten rechts an der Rückabdeckung als Hebelpunkt. Hebeln Sie entlang der Fuge, um einen Spalt zu schaffen, öffnen Sie dann die Rückabdeckung und nehmen Sie den Akku des Mudi 7 heraus.
 

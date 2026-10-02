@@ -143,7 +143,7 @@ Sélectionnez la section correspondant à la version du firmware de votre appare
 
     Une fois l’association terminée, revenez au panneau d’administration web du routeur, puis allez à **APPLICATIONS** -> **GoodCloud**. Cette page affiche les détails de l’association, notamment le nom d’utilisateur et la date d’association.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_1.png){class="glboxshadow"}
+    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info.png){class="glboxshadow"}
 
 5. Dissociez l’appareil.
 
@@ -163,7 +163,7 @@ Sélectionnez la section correspondant à la version du firmware de votre appare
 
     Cliquez sur le bouton **Get Started**. Une fenêtre contextuelle Cloud Service s’affiche dans le coin supérieur droit. Cliquez sur **Enable**.
 
-    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.jpg){class="glboxshadow"}
+    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.png){class="glboxshadow"}
 
 2. Connectez-vous pour lier votre appareil.
 
@@ -179,13 +179,13 @@ Sélectionnez la section correspondant à la version du firmware de votre appare
 
     Une fois l’association terminée, revenez au panneau d’administration web du routeur, puis cliquez sur l’icône cloud dans le coin supérieur droit. Les détails de l’association s’affichent, notamment le nom d’utilisateur, la date d’association, le Device ID, le Device MAC et le Device S/N.
 
-    ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
+    ![binding details](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/binding_details.png){class="glboxshadow"}
 
 4. Activez l’accès à distance.
 
     Dans le panneau d’administration web, allez à **CLOUD SERVICES** -> **GoodCloud** pour activer l’accès à distance au routeur.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_2.png){class="glboxshadow"}
+    ![enable remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_remote_access.png){class="glboxshadow"}
 
     - **Remote SSH** : permet d’accéder à distance au terminal du routeur via SSH depuis la plateforme GoodCloud.
 

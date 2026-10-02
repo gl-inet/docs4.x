@@ -522,31 +522,31 @@
     }
   },
   "docs/en/docs/faq/internet_connection_troubleshooting.md": {
-    "source_hash": "22599f5fe7d11f1a5dddd6d8ff5e1d2683d2bd412c92dcdc0e0f8599b53d7d41",
+    "source_hash": "b7289ec055afd05482d3d351cf5b99652bf5b5a148ccf2316b3d6f15065486b7",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1779027549
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1779027567
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1779027523
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
@@ -580,31 +580,31 @@
     }
   },
   "docs/en/docs/faq/led.md": {
-    "source_hash": "17834c086e973378aad094cfa04ba12866f56b2fda1c0a87425771641d22ef89",
+    "source_hash": "59b1d150e1a847caa7ca9563f4a7ecc9d572e9367881f894faa33c44a887f99a",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
@@ -1479,31 +1479,31 @@
     }
   },
   "docs/en/docs/interface_guide/cloud.md": {
-    "source_hash": "19f0b4a39455f383a398bc021ef486b866c1c4a948b2832685b78caad9e43770",
+    "source_hash": "f75f7b7ad6a2370a52c287ce09e032e91fb09329ca7103946b67f97ca367b92d",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
@@ -2001,89 +2001,89 @@
     }
   },
   "docs/en/docs/interface_guide/internet_cellular.md": {
-    "source_hash": "68d85c045782abc4a6e8423a64182c2098a8ae0798c88b6d9a8510b2e8bb7d94",
+    "source_hash": "9c261253b1acea286cd251a9a0ed0d691bcf5bd267eee70e9f3f3c284338d0ad",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
   "docs/en/docs/interface_guide/internet_cellular_v4.7.md": {
-    "source_hash": "e4fe9dab1d93853dff0b24b7cad9360d43318ad3b3d17a315d4b39850cb8869a",
+    "source_hash": "935e0ae287491133d6e69b73b9d1e41da464fda447d9e99eec282934f12625b6",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
   "docs/en/docs/interface_guide/internet_ethernet.md": {
-    "source_hash": "a83551f75c175178acaa0fe1d4be14dc026c9182ac94ef03486920262bc18db3",
+    "source_hash": "713b96e5216bb0b4d8f16a31fcb4bc0fe6e2a02f45d6bb69ed794a506103736b",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785724866
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785724866
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785724866
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785724866
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785724866
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785724866
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
@@ -4930,31 +4930,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-e5800/index.md": {
-    "source_hash": "06e4e0a3e4924c38b1ab7083fd4250283eeed98e3386a60321c37393a9e3551c",
+    "source_hash": "6af727582a2a10b9c8145a9ff27b7b87e3a76ba7f12d48d276a822b034269ef7",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
@@ -5742,60 +5742,60 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "645c2fe37faa649b009fc9774872be8ec7bd01598d2ec99f1c835836d64ae572",
+    "source_hash": "5d682de7baf362d119ac6787cb4bff995b14d2fddd67757eee295af1a6fa8b5b",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
   "docs/en/docs/features_update/index.md": {
-    "source_hash": "765bc51f176dd28670e4f8b58d14d9be70e4267a9d3fd66d4b63a4eb4f56e08e",
+    "source_hash": "a6844faeb54deb321adba2d50276f21b2ada4d474e4a65522da49204d31162d0",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
@@ -6583,60 +6583,60 @@
     }
   },
   "docs/en/docs/interface_guide/goodpas.md": {
-    "source_hash": "069bc89a5235eb9494aec9ff92c969ec3ce267f838a624fe498d522adcbfbac4",
+    "source_hash": "0874defc17be80b269dcc08ee48f9b70240f3d1b67fcfa1e2902387ca6de3a43",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788752427
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
   "docs/en/docs/interface_guide/internet_cellular_v4.10.md": {
-    "source_hash": "c5764aab0bea86534ff8bcf91508e1da0da47e66b35fa979cf491b412ef1ce83",
+    "source_hash": "62d71af8326694e52d6943c458deeac62df704dc6beed7dc4bfd6413f14efb5d",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1789095838
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   },
@@ -6869,6 +6869,35 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      }
+    }
+  },
+  "docs/en/docs/features_update/firmware_v4.11.md": {
+    "source_hash": "69e15bfcdb2b30ccb695ee50417bacd047c62ba7bc966a83458d677d8d5a69cf",
+    "targets": {
+      "de": {
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
+      },
+      "es": {
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
+      },
+      "fr": {
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
+      },
+      "it": {
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
+      },
+      "ja": {
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
+      },
+      "pl": {
+        "model": "codex-manual-sync",
+        "updated_at": 1790927814
       }
     }
   }

@@ -12,7 +12,7 @@ Siga los pasos siguientes para conectar su router a Internet mediante un cable E
 
    ![ethernet](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_1.png){class="glboxshadow"}
 
-**Consejo**: Antes de conectar el cable Ethernet al puerto WAN del router, puede hacer clic en **Change to LAN** para [configurar el puerto WAN como puerto LAN](../faq/change_wan_to_lan.md). Esto resulta útil cuando utiliza el router como [repetidor](internet_repeater.md), ya que el puerto WAN físico queda libre. De este modo, puede reutilizar el puerto WAN no utilizado como puerto LAN y disponer de un puerto LAN adicional.
+**Consejo**: Puede cambiar la función del puerto WAN a LAN si lo necesita. Esto resulta útil cuando utiliza el router como [repetidor](internet_repeater.md), ya que el puerto WAN físico queda libre. Si cambia el puerto WAN a LAN, dispondrá de un puerto LAN adicional.
 
 ## Protocolo
 
@@ -46,7 +46,7 @@ Además de los ajustes esenciales, también hay algunos ajustes avanzados opcion
 
 * **TTL**: TTL (Time To Live) define el tiempo máximo que los paquetes pueden permanecer en la red. De forma predeterminada, el router reduce en 1 el TTL de los paquetes entrantes de los dispositivos cliente antes de reenviarlos. La configuración de TTL solo es válida para IPv4.
 
-    **Nota**: Si necesita camuflaje, puede establecer aquí un valor fijo. En la mayoría de los modelos, introduzca el TTL efectivo deseado más 1 para compensar la reducción automática. El Mudi 7 (GL-E5800) aplica el valor introducido sin cambios.
+    **Nota**: Si necesita sobrescribir el TTL o simular otro valor de TTL, establezca aquí un valor fijo. En la mayoría de los modelos, introduzca el TTL efectivo deseado más 1 para compensar la reducción automática. El Mudi 7 (GL-E5800) aplica el valor introducido sin cambios.
 
 - **HL**: En IPv6, el campo HL (Hop Limit) limita el número de saltos de transmisión de los paquetes de datos en la red y equivale al TTL en IPv4.
 
@@ -54,7 +54,7 @@ Además de los ajustes esenciales, también hay algunos ajustes avanzados opcion
 
 ## Puerto Ethernet
 
-Haga clic en el icono de engranaje de la esquina superior derecha para acceder a [Ethernet Port](ethernet_port.md).
+Haga clic en el icono de engranaje de la esquina superior derecha para acceder a la página [Ethernet Port](ethernet_port.md) y gestionar los puertos Ethernet de su router.
 
 ![ethernet port 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/ethernet_6.png){class="glboxshadow"}
 
@@ -66,7 +66,7 @@ La página **LAN** muestra la función del puerto y la velocidad negociada del p
 
 ![ethernet port 3](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
-Consulte este [enlace](ethernet_port.md) para más detalles.
+Consulte [Ethernet Port](ethernet_port.md) para más detalles.
 
 ## Solución de problemas
 

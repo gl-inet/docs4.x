@@ -92,7 +92,7 @@ Wählen Sie entsprechend der Firmware-Version Ihres Geräts den passenden Abschn
 
     Klicken Sie auf die Schaltfläche **Get Started**. Daraufhin erscheint oben rechts ein Cloud-Service-Popup. Klicken Sie auf **Enable**.
 
-    ![enable cloud service](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/enable_cloud_service.jpg){class="glboxshadow"}
+    ![enable cloud service](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.png){class="glboxshadow"}
 
 2. Melden Sie sich an, um Ihr Gerät zu verknüpfen.
 
@@ -108,13 +108,13 @@ Wählen Sie entsprechend der Firmware-Version Ihres Geräts den passenden Abschn
 
     Nach erfolgreicher Verknüpfung melden Sie sich erneut am webbasierten Admin Panel des Routers an, klicken oben rechts auf das Cloud-Symbol und sehen die Verknüpfungsdetails, darunter GoodCloud-Benutzername und Datum, Device ID, Device MAC und Device S/N.
 
-    ![cloud info](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
+    ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/binding_details.png){class="glboxshadow"}
 
 4. Fernzugriff aktivieren.
 
     Navigieren Sie im webbasierten Admin Panel zu **CLOUD SERVICES** -> **GoodCloud**. Dort können Sie den Fernzugriff für Ihren Router aktivieren.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/bind_info_2.png){class="glboxshadow"}
+    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_remote_access.png){class="glboxshadow"}
 
     - **Remote SSH**: Für den Fernzugriff auf das Terminal des Routers über GoodCloud.
 
@@ -190,7 +190,7 @@ Wählen Sie entsprechend der Firmware-Version Ihres Geräts den passenden Abschn
 
     Nachdem die Verknüpfung erfolgreich abgeschlossen wurde, kehren Sie zum webbasierten Admin Panel des Routers zurück und navigieren zu **APPLICATIONS** -> **GoodCloud**. Auf dieser Seite werden die Details der Verknüpfung angezeigt, einschließlich Benutzername und Verknüpfungszeitpunkt.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/bind_info_1.png){class="glboxshadow"}
+    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info.png){class="glboxshadow"}
 
 5. Geräteverknüpfung aufheben.
 

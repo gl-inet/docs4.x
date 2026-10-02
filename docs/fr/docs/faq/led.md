@@ -4,6 +4,15 @@ Ce document décrit les états des voyants LED et leur signification pour diffé
 
 ## Routeur de voyage
 
+### GL-MG1300
+
+![gl-mg1300 interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mg1300_interface.png){class="glboxshadow"}
+
+- Bleu fixe : démarrage du système
+- Bleu clignotant lentement : recherche du réseau
+- Bleu clignotant rapidement : mise à niveau du firmware
+- Blanc fixe : fonctionnement normal
+
 ### GL-MT3600BE
 
 ![gl-mt3600be interface](https://static.gl-inet.com/docs/router/en/4/faq/led/mt3600be_interface.png){class="glboxshadow"}

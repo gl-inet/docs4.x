@@ -93,7 +93,7 @@ GoodCloud を使用すると、次のことが可能になります。
 
     [**Get Started**] ボタンをクリックすると、右上隅に [クラウド サービス] ポップアップ ウィンドウが表示されます。 「**Enable**」をクリックします。
 
-    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.jpg){class="glboxshadow"}
+    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.png){class="glboxshadow"}
 
 2. ログインしてデバイスをバインドします。
 
@@ -109,13 +109,13 @@ GoodCloud を使用すると、次のことが可能になります。
 
     バインドが成功したら、ルーターの Web 管理パネルに戻り、右上隅のクラウド アイコンをクリックすると、ユーザー名、バインド時間、デバイス ID、デバイス MAC、デバイス S/N などのバインドの詳細が表示されます。
 
-    ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
+    ![binding details](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/binding_details.png){class="glboxshadow"}
 
 4. リモートアクセスを有効にします。
 
     Web 管理パネルで、**CLOUD SERVICES** -> **GoodCloud** に移動すると、ルーターのリモート アクセスを有効にできます。
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_2.png){class="glboxshadow"}
+    ![enable remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_remote_access.png){class="glboxshadow"}
 
     - **Remote SSH**: GoodCloud プラットフォームから SSH 経由でルーターの端末にリモート アクセスするため。
 
@@ -191,7 +191,7 @@ GoodCloud を使用すると、次のことが可能になります。
 
     バインドが成功したら、ルーターの Web 管理パネルに戻り、**APPLICATIONS** -> **GoodCloud** に移動します。このページには、ユーザー名やバインド時刻などのバインドの詳細が表示されます。
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_1.png){class="glboxshadow"}
+    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info.png){class="glboxshadow"}
 
 5. デバイスのバインドを解除します。
 

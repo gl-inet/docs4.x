@@ -93,7 +93,7 @@ Seleziona la sezione corrispondente per i passaggi di associazione del dispositi
 
     Fare clic sul pulsante **Get Started** e nell'angolo in alto a destra verrà visualizzata una finestra pop-up del servizio cloud. Fare clic su **Enable**.
 
-    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.jpg){class="glboxshadow"}
+    ![enable cloud](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_cloud_service.png){class="glboxshadow"}
 
 2. Accedi per associare il tuo dispositivo.
 
@@ -109,13 +109,13 @@ Seleziona la sezione corrispondente per i passaggi di associazione del dispositi
 
     Dopo aver eseguito correttamente l'associazione, torna al pannello di amministrazione web del router, fai clic sull'icona Cloud nell'angolo in alto a destra e vedrai i dettagli dell'associazione, inclusi nome utente, tempo di associazione, ID dispositivo, MAC dispositivo e S/N dispositivo.
 
-    ![cloud info](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/cloud_info.png){class="glboxshadow"}
+    ![binding details](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/binding_details.png){class="glboxshadow"}
 
 4. Abilita l'accesso remoto.
 
     Nel pannello di amministrazione web, vai a **CLOUD SERVICES** -> **GoodCloud** e puoi abilitare l'accesso remoto per il tuo router.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_2.png){class="glboxshadow"}
+    ![enable remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/enable_remote_access.png){class="glboxshadow"}
 
     - **Remote SSH**: per accedere in remoto al terminale del router tramite SSH dalla piattaforma GoodCloud.
 
@@ -191,7 +191,7 @@ Seleziona la sezione corrispondente per i passaggi di associazione del dispositi
 
     Dopo aver eseguito correttamente l'associazione, torna al pannello di amministrazione web del router e vai a **APPLICATIONS** -> **GoodCloud**. Questa pagina visualizza i dettagli di associazione, inclusi nome utente e tempo di associazione.
 
-    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info_1.png){class="glboxshadow"}
+    ![goodcloud bound](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/bind_info.png){class="glboxshadow"}
 
 5. Scollegare il dispositivo.
 

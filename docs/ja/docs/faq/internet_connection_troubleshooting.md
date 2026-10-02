@@ -20,7 +20,7 @@
 
     ISP に連絡し、インターネット接続に **PPPoE username**、**PPPoE password**、**VLAN ID** が必要か確認してください。
 
-    あわせて、ISP が以前にモデム / ONT に **MAC binding** を設定していないかも確認してください。
+    あわせて、ISP が以前にモデム / ONT に **MAC binding** を設定したかどうかも確認してください。
 
 ## Q2. MACアドレスをクローンするのはどのような場合ですか？
 

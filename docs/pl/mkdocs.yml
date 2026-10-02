@@ -618,6 +618,7 @@ nav:
       - Pomoc: interface_guide/help.md
   - Aktualizacje funkcji:
     - Przeglad: features_update/index.md
+    - Firmware v4.11: features_update/firmware_v4.11.md
     - Firmware v4.10: features_update/firmware_v4.10.md
     - Firmware v4.9: features_update/firmware_v4.9.md
   - Biblioteka wideo:

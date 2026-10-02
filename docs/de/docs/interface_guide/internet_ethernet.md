@@ -12,7 +12,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Router über ein Ethernet-Kabel
 
     ![ethernet](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/ethernet_1.png){class="glboxshadow"}
 
-**Tipps**: Bevor Sie das Ethernet-Kabel in den WAN-Port des Routers einstecken, können Sie auf **Change to LAN** klicken, um [den WAN-Port als LAN-Port festzulegen](../faq/change_wan_to_lan.md). Das ist nützlich, wenn Sie den Router als [Repeater](internet_repeater.md) verwenden, da der physische WAN-Port dann ungenutzt bleibt. So können Sie den ungenutzten WAN-Port als LAN-Port umfunktionieren und erhalten einen zusätzlichen LAN-Port.
+**Tipp**: Sie können die Rolle des WAN-Ports bei Bedarf zu LAN ändern. Das ist nützlich, wenn Sie den Router als [Repeater](internet_repeater.md) verwenden, da der physische WAN-Port dann ungenutzt bleibt. Wenn Sie den WAN-Port zu LAN ändern, erhalten Sie einen zusätzlichen LAN-Port.
 
 ## Protokoll
 
@@ -46,7 +46,7 @@ Zusätzlich zu den grundlegenden Einstellungen gibt es für die drei oben genann
 
 * **TTL**: TTL (Time To Live) definiert, wie lange Pakete maximal im Netzwerk überleben können. Standardmäßig verringert der Router die TTL eingehender Pakete von Client-Geräten vor der Weiterleitung um 1. Die TTL-Einstellung gilt nur für IPv4.
 
-    **Hinweis**: Wenn Sie die Verbindung tarnen müssen, können Sie hier einen festen Wert festlegen. Geben Sie bei den meisten Modellen die gewünschte effektive TTL plus 1 ein, um die automatische Verringerung auszugleichen. Beim Mudi 7 (GL-E5800) wird der eingegebene Wert unverändert angewendet.
+    **Hinweis**: Wenn Sie die TTL überschreiben oder einen anderen TTL-Wert vortäuschen möchten, legen Sie hier einen festen Wert fest. Geben Sie bei den meisten Modellen die gewünschte effektive TTL plus 1 ein, um die automatische Verringerung auszugleichen. Beim Mudi 7 (GL-E5800) wird der eingegebene Wert unverändert angewendet.
 
 * **HL**: In IPv6 begrenzt das Feld HL (Hop Limit) die Anzahl der Übertragungssprünge für Datenpakete im Netzwerk und ist das Gegenstück zu TTL in IPv4.
 
@@ -54,7 +54,7 @@ Zusätzlich zu den grundlegenden Einstellungen gibt es für die drei oben genann
 
 ## Ethernet Port
 
-Klicken Sie oben rechts auf das Zahnradsymbol, um zu [Ethernet Port](ethernet_port.md) zu gelangen.
+Klicken Sie oben rechts auf das Zahnradsymbol, um zur Seite [Ethernet Port](ethernet_port.md) zu gelangen und die Ethernet-Ports Ihres Routers zu verwalten.
 
 ![ethernet port 1](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/ethernet_6.png){class="glboxshadow"}
 
@@ -66,7 +66,7 @@ Auf der Seite **LAN** werden die Portrolle und die ausgehandelte Geschwindigkeit
 
 ![ethernet port 3](https://static.gl-inet.com/docs/router/de/4/interface_guide/internet_ethernet/lan.png){class="glboxshadow"}
 
-Weitere Details finden Sie unter diesem [Link](ethernet_port.md). 
+Weitere Details finden Sie unter [Ethernet Port](ethernet_port.md).
 
 ## Fehlerbehebung
 

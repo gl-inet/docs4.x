@@ -22,6 +22,21 @@ Regardez la vidéo de déballage du Mudi 7 ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Sécurité de la batterie et gestion d'une batterie gonflée {#battery-safety-and-swollen-battery-handling}
+
+Cessez d'utiliser et de charger le Mudi 7 si la batterie est gonflée, fuit, est anormalement chaude, est endommagée ou dégage une odeur inhabituelle.
+
+- Ne pressez pas, ne pliez pas, ne percez pas et n'écrasez pas la batterie ; n'exercez aucune pression dessus.
+- N'utilisez pas d'outils pour faire levier contre une batterie gonflée ou endommagée.
+- N'essayez pas de retirer une batterie gonflée, coincée, qui fuit, qui est chaude ou dont la manipulation présente un autre danger.
+- Ne jetez pas une batterie lithium-ion endommagée avec les ordures ménagères ou dans le circuit de recyclage ordinaire.
+- N'envoyez pas une batterie gonflée ou endommagée par un service de livraison de colis ordinaire.
+- Contactez le [support GL.iNet](https://www.gl-inet.com/contacts/) pour obtenir une assistance au titre de la garantie et connaître les prochaines étapes.
+
+Si la batterie endommagée a déjà été retirée, ne la réinstallez pas. Contactez un centre local adapté de recyclage des batteries ou de collecte des déchets ménagers dangereux qui accepte les batteries lithium-ion endommagées.
+
+Si la batterie dégage de la fumée, chauffe rapidement, siffle, brûle ou présente un autre danger immédiat, éloignez-vous de l'appareil et contactez les services d'urgence locaux.
+
 ## Configuration initiale du Mudi 7
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
@@ -31,6 +46,10 @@ Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
 ### 1. Installer la carte SIM
 
 Installez la ou les cartes Nano-SIM dans votre Mudi 7. Si vous préférez utiliser l'eSIM, ignorez cette étape et passez directement à l'étape 2.
+
+!!! Warning
+
+    Si la batterie est gonflée, fuit, est anormalement chaude, est endommagée ou est difficile à retirer, cessez d'utiliser l'appareil et n'essayez pas de retirer la batterie. Consultez [Sécurité de la batterie et gestion d'une batterie gonflée](#battery-safety-and-swollen-battery-handling).
 
 Utilisez d'abord la petite encoche située en bas à droite du capot arrière comme point d'appui. Faites levier le long de la jointure pour créer un espace, puis ouvrez le capot arrière et retirez la batterie du Mudi 7.
 

@@ -187,7 +187,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Ces paramètres vous aident à tirer parti des avantages d'IPv6, notamment un espace d'adressage étendu, des fonctions de sécurité renforcées et de meilleures performances.
 
-    Pour configurer IPv6, consultez [IPv6](../../interface_guide/network_mode.md).
+    Pour configurer IPv6, consultez [IPv6](../../interface_guide/ipv6.md).
 
 ---
 

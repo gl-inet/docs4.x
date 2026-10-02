@@ -176,7 +176,7 @@ Una VPN (rete privata virtuale) crea un canale di traffico sicuro e crittografat
 
     IPv6, o Internet Protocol versione 6, è la versione più recente del protocollo Internet e sostituisce IPv4. Offre uno spazio di indirizzi molto più ampio e un numero praticamente illimitato di indirizzi IP univoci, necessario per il crescente numero di dispositivi connessi a Internet.
     
-    Per maggiori dettagli, consultare [IPV6](../../interface_guide/network_mode.md).
+    Per maggiori dettagli, consultare [IPV6](../../interface_guide/ipv6.md).
 
 === "IGMP Snooping"
 

@@ -244,7 +244,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     IPv6, also Internet Protocol Version 6, ist die neueste Version des Internetprotokolls und wurde als Nachfolger von IPv4 entwickelt. Es stellt einen wesentlich größeren Adressraum bereit, sodass nahezu unbegrenzt viele eindeutige IP-Adressen verfügbar sind, was für die wachsende Zahl internetverbundener Geräte entscheidend ist.
     
-    Informationen zur Einrichtung finden Sie unter [IPv6](../../interface_guide/network_mode.md).
+    Informationen zur Einrichtung finden Sie unter [IPv6](../../interface_guide/ipv6.md).
 
 === "Drop-in Gateway"
 

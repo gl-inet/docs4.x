@@ -187,7 +187,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Estas opciones le ayudan a aprovechar las ventajas de IPv6, como un espacio de direcciones mayor, funciones de seguridad mejoradas y mejor rendimiento.
 
-    Para configurar IPv6, consulte [IPv6](../../interface_guide/network_mode.md).
+    Para configurar IPv6, consulte [IPv6](../../interface_guide/ipv6.md).
 
 ---
 

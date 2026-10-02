@@ -270,7 +270,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     IPv6, czyli Internet Protocol version 6, to najnowsza wersja protokołu internetowego zaprojektowana jako następca IPv4. Zapewnia znacznie większą przestrzeń adresową, umożliwiając użycie praktycznie nieograniczonej liczby unikalnych adresów IP, co jest niezbędne przy stale rosnącej liczbie urządzeń podłączonych do internetu. 
     
-    Aby skonfigurować IPV6, zobacz [IPV6](../../interface_guide/network_mode.md).
+    Aby skonfigurować IPV6, zobacz [IPV6](../../interface_guide/ipv6.md).
 
 === "Drop-in Gateway"
 
@@ -389,4 +389,3 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
     Strona Advanced Settings zapewnia dostęp do zaawansowanych opcji konfiguracji za pośrednictwem interfejsu OpenWrt LuCI, umożliwiając doświadczonym użytkownikom precyzyjne dostosowanie ustawień i funkcji routera poza podstawowymi opcjami interfejsu. Obejmuje to szczegółowe konfiguracje sieci, ustawienia zapory oraz inne zaawansowane dostosowania systemowe.
 
     Szczegółowe instrukcje znajdziesz w [Advanced Settings](../../interface_guide/advanced_settings.md).
-

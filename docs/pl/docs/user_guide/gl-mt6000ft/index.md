@@ -170,7 +170,7 @@ Aby skonfigurować serwer WireGuard, patrz [Serwer WireGuard](../../interface_gu
 
     IPv6, czyli protokół internetowy w wersji 6, to najnowsza wersja protokołu internetowego zaprojektowana w celu zastąpienia protokołu IPv4. Zapewnia znacznie większą przestrzeń adresową, pozwalając na praktycznie nieograniczoną liczbę unikalnych adresów IP, co jest niezbędne do obsługi rosnącej liczby urządzeń podłączonych do Internetu.
 
-    Aby uzyskać szczegółowe informacje, zobacz [IPV6](../../interface_guide/network_mode.md).
+    Aby uzyskać szczegółowe informacje, zobacz [IPV6](../../interface_guide/ipv6.md).
 
 === "IGMP Snooping"
 

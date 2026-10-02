@@ -258,7 +258,7 @@ You can select a saved profile next time.
 
 ![selectprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/select_profile.jpg){class="glboxshadow"}
 
-Choose any profiles you needed
+Choose the profiles you need.
 
 ![chooseprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
 

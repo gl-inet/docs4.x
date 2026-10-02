@@ -30,7 +30,7 @@ Najnowsze oprogramowanie układowe można pobrać z [Centrum pobierania oprogram
 
 **Uwaga**: Ta funkcja została najpierw udostępniona w wybranych modelach, a w firmware v4.11 rozszerzono jej dostępność na kolejne modele.
 
-![gli.net account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
+![GL.iNet Account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
 
 ## GoodPAS
 

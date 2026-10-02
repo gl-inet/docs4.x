@@ -176,7 +176,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     IPv6, czyli Internet Protocol version 6, jest najnowszą wersją protokołu internetowego, która ma zastąpić IPv4. Zapewnia znacznie większą przestrzeń adresową i praktycznie nieograniczoną liczbę unikatowych adresów IP, co jest niezbędne ze względu na rosnącą liczbę urządzeń podłączonych do Internetu.
     
-    Szczegółowe informacje zawiera strona [IPV6](../../interface_guide/network_mode.md).
+    Szczegółowe informacje zawiera strona [IPV6](../../interface_guide/ipv6.md).
 
 === "IGMP Snooping"
 

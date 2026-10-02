@@ -278,7 +278,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     IPv6, also Internet Protocol Version 6, ist die neueste Version des Internetprotokolls und als Nachfolger von IPv4 vorgesehen. Es bietet einen deutlich größeren Adressraum und ermöglicht eine nahezu unbegrenzte Anzahl eindeutiger IP-Adressen, was für die wachsende Zahl internetverbundener Geräte entscheidend ist.
 
-    Zum Einrichten von IPv6 lesen Sie bitte [IPv6](../../interface_guide/network_mode.md).
+    Zum Einrichten von IPv6 lesen Sie bitte [IPv6](../../interface_guide/ipv6.md).
 
 === "Drop-in gateway"
 

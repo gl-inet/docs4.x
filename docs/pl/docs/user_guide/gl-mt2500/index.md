@@ -214,7 +214,7 @@ Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
     IPv6, czyli Internet Protocol version 6, to najnowsza wersja protokołu internetowego zaprojektowana jako następca IPv4. Oferuje znacznie większą przestrzeń adresową, co pozwala obsłużyć praktycznie nieograniczoną liczbę unikalnych adresów IP, niezbędną przy stale rosnącej liczbie urządzeń podłączonych do Internetu. 
     
-    Zapoznaj się z poradnikiem [IPV6](../../interface_guide/network_mode.md).
+    Zapoznaj się z poradnikiem [IPV6](../../interface_guide/ipv6.md).
 
 === "Drop-in Gateway"
 

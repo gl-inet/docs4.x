@@ -30,7 +30,7 @@ Una [GL.iNet Account](../interface_guide/glinet_account.md) proporciona acceso u
 
 **Nota**: Esta función se publicó inicialmente para determinados modelos y se amplió a más modelos en la versión de firmware 4.11.
 
-![gli.net account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
+![GL.iNet Account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
 
 ## GoodPAS
 

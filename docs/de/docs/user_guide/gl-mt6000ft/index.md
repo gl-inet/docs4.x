@@ -200,7 +200,7 @@ Weitere Informationen finden Sie unter [Multi-WAN](../../interface_guide/multi-w
 
     IPv6 oder Internet Protocol Version 6 ist die neueste Version des Internetprotokolls, die IPv4 ersetzen soll. Es bietet einen wesentlich größeren Adressraum und ermöglicht eine praktisch unbegrenzte Anzahl eindeutiger IP-Adressen, was für die Unterbringung der wachsenden Anzahl an mit dem Internet verbundenen Geräten unerlässlich ist.
 
-    Weitere Informationen finden Sie unter [IPV6](../../interface_guide/network_mode.md).
+    Weitere Informationen finden Sie unter [IPV6](../../interface_guide/ipv6.md).
 
 === "IGMP Snooping"
 

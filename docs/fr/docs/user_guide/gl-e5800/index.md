@@ -146,7 +146,7 @@ Configurez votre Mudi 7 à l'aide de l'une des méthodes de connexion Internet p
 
         ![touchscreen ethernet wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-ethernet-wan.png){class="glboxshadow"}
 
-    3. Une fois la connexion Internet établie, une icône de port Ethernet s'affiche dans l'angle supérieur droit de l'écran tactile. Vous pouvez également consulter les détails de la connexion dans le panneau d'administration web.
+    4. Une fois la connexion Internet établie, une icône de port Ethernet s'affiche dans l'angle supérieur droit de l'écran tactile. Vous pouvez également consulter les détails de la connexion dans le panneau d'administration web.
 
     Pour des instructions détaillées, consultez [Se connecter à Internet via un câble Ethernet](../../interface_guide/internet_ethernet.md).
 
@@ -186,7 +186,7 @@ Configurez votre Mudi 7 à l'aide de l'une des méthodes de connexion Internet p
         ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
 
     3. Le Mudi 7 se connectera ensuite automatiquement à votre appareil. Si ce n'est pas le cas, répétez les étapes ci-dessus, ou connectez-vous au panneau d'administration web et vérifiez la connexion USB Ethernet sur la page INTERNET.
-    3. Une fois la connexion Internet établie, une icône USB et une icône de port Ethernet s'affichent dans l'angle supérieur droit de l'écran tactile. Vous pouvez également consulter les détails de la connexion dans le panneau d'administration web.
+    4. Une fois la connexion Internet établie, une icône USB et une icône de port Ethernet s'affichent dans l'angle supérieur droit de l'écran tactile. Vous pouvez également consulter les détails de la connexion dans le panneau d'administration web.
 
 
 ## Mise à niveau du firmware
@@ -384,7 +384,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     IPv6, abréviation de version 6 du protocole Internet, est la version la plus récente du protocole Internet conçue pour remplacer IPv4. Elle fournit un espace d'adressage bien plus vaste, permettant un nombre quasiment illimité d'adresses IP uniques, ce qui est essentiel face au nombre croissant d'appareils connectés à Internet.
     
-    Pour configurer IPV6, consultez [IPV6](../../interface_guide/network_mode.md).
+    Pour configurer IPV6, consultez [IPV6](../../interface_guide/ipv6.md).
 
 ---
 

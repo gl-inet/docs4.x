@@ -270,7 +270,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
     IPv6, o Internet Protocol versione 6, e la versione piu recente del protocollo Internet, progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto piu ampio, consentendo un numero virtualmente illimitato di indirizzi IP univoci, indispensabile per supportare il numero crescente di dispositivi connessi a Internet.
     
-    Per configurare IPv6, fai riferimento a [IPv6](../../interface_guide/network_mode.md).
+    Per configurare IPv6, fai riferimento a [IPv6](../../interface_guide/ipv6.md).
 
 === "Drop-in Gateway"
 

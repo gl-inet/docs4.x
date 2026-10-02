@@ -187,7 +187,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These settings help you leverage the benefits of IPv6, including improved address space, enhanced security features, and better performance.
 
-    To set up IPv6, refer to [IPv6](../../interface_guide/network_mode.md).
+    To set up IPv6, refer to [IPv6](../../interface_guide/ipv6.md).
 
 ---
 

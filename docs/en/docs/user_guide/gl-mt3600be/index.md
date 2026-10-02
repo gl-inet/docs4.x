@@ -251,7 +251,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     IPv6, or Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
     
-    To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
+    To set up IPV6, refer to [IPV6](../../interface_guide/ipv6.md).
 
 === "Drop-in Gateway"
 

@@ -246,7 +246,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     IPv6, ou Internet Protocol version 6, est la version la plus récente du protocole Internet conçue pour remplacer IPv4. Elle offre un espace d'adressage bien plus vaste, permettant un nombre pratiquement illimité d'adresses IP uniques, ce qui est essentiel pour répondre à l'augmentation du nombre d'appareils connectés à Internet.
     
-    Pour configurer IPv6, consultez [IPV6](../../interface_guide/network_mode.md).
+    Pour configurer IPv6, consultez [IPV6](../../interface_guide/ipv6.md).
 
 === "Drop-in gateway"
 

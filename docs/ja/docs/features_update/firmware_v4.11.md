@@ -30,7 +30,7 @@
 
 **注意**: この機能は一部のモデルで先行して提供され、ファームウェア v4.11 で対応モデルが拡大されました。
 
-![gli.net account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
+![GL.iNet Account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
 
 ## GoodPAS
 

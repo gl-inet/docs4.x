@@ -259,7 +259,7 @@ La próxima vez podrá seleccionar un perfil guardado.
 
 ![selectprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/select_profile.jpg){class="glboxshadow"}
 
-Elija cualquiera de los perfiles que necesite.
+Elija los perfiles que necesite.
 
 ![chooseprofile](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_cellular/carrier_profile/choose_profile.jpg){class="glboxshadow"}
 

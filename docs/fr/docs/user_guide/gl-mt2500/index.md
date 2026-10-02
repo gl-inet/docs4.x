@@ -214,7 +214,7 @@ Pour configurer les clients, consultez [Clients](../../interface_guide/clients.m
 
     IPv6, ou Internet Protocol version 6, est la version la plus récente du protocole Internet, conçue pour remplacer IPv4. Elle offre un espace d'adressage bien plus vaste, permettant un nombre quasiment illimité d'adresses IP uniques, indispensable pour répondre au nombre croissant d'appareils connectés à Internet.
     
-    Pour configurer IPv6, consultez [IPv6](../../interface_guide/network_mode.md).
+    Pour configurer IPv6, consultez [IPv6](../../interface_guide/ipv6.md).
 
 === "Drop-in Gateway"
 

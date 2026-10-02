@@ -170,7 +170,7 @@ Per configurare un server WireGuard, fare riferimento a [WireGuard Server](../..
 
     IPv6, o Protocollo Internet versione 6, è la versione più recente del Protocollo Internet progettata per sostituire IPv4. Fornisce uno spazio di indirizzi molto più ampio, consentendo un numero virtualmente illimitato di indirizzi IP univoci, essenziale per accogliere il numero crescente di dispositivi connessi a Internet.
 
-    Per i dettagli fare riferimento a [IPV6](../../interface_guide/network_mode.md).
+    Per i dettagli fare riferimento a [IPV6](../../interface_guide/ipv6.md).
 
 === "IGMP Snooping"
 

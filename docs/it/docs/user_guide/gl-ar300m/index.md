@@ -187,7 +187,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
     Queste impostazioni aiutano a sfruttare i vantaggi di IPv6, tra cui uno spazio di indirizzamento maggiore, funzionalita di sicurezza migliorate e prestazioni migliori.
 
-    Per configurarlo, fai riferimento a [IPv6](../../interface_guide/network_mode.md).
+    Per configurarlo, fai riferimento a [IPv6](../../interface_guide/ipv6.md).
 
 ---
 

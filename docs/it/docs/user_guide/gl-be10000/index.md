@@ -180,7 +180,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il tuo 
 
     IPv6, o Internet Protocol versione 6, è la versione più recente del protocollo Internet progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto più ampio, consentendo un numero praticamente illimitato di indirizzi IP univoci, indispensabile per il crescente numero di dispositivi connessi a Internet.
 
-    Per configurarlo, fai riferimento a [IPV6](../../interface_guide/network_mode.md).
+    Per configurarlo, fai riferimento a [IPV6](../../interface_guide/ipv6.md).
 
 ---
 

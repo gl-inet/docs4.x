@@ -217,7 +217,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Diese Einstellungen helfen Ihnen, die Vorteile von IPv6 zu nutzen, darunter ein größerer Adressraum, verbesserte Sicherheitsfunktionen und bessere Leistung.
 
-    Informationen zur Einrichtung finden Sie unter [IPv6](../../interface_guide/network_mode.md).
+    Informationen zur Einrichtung finden Sie unter [IPv6](../../interface_guide/ipv6.md).
 
 ---
 

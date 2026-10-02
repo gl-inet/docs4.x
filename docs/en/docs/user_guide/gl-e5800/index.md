@@ -185,7 +185,7 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
         ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
 
     3. Mudi 7 will then automatically connect to your device. If it does not connect, repeat the above steps, or log in to the web admin panel and check the USB Ethernet connection on the INTERNET page.
-    3. Once successfully connected to the internet, a USB icon and an Ethernet port icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
+    4. Once successfully connected to the internet, a USB icon and an Ethernet port icon will appear in the top right corner of the touchscreen. You can also check the connection details on the web admin panel.
     
     For details on the Mudi 7's USB-C OTG, please click [here](../../tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg.md).
 
@@ -384,7 +384,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     IPv6, short for Internet Protocol version 6, is the most recent version of the Internet Protocol designed to replace IPv4. It provides a vastly larger address space, allowing for a virtually unlimited number of unique IP addresses, which is essential for accommodating the growing number of devices connected to the internet. 
     
-    To set up IPV6, refer to [IPV6](../../interface_guide/network_mode.md).
+    To set up IPV6, refer to [IPV6](../../interface_guide/ipv6.md).
 
 ---
 
@@ -521,7 +521,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The admin password must meet the following requirements:
 
     * Minimum 10 characters and maximum 63 characters.
-    * Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
+    * Letters (case sensitive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
     * At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
 
 === "Upgrade"

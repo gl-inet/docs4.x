@@ -175,7 +175,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
     IPv6, o Internet Protocol version 6, e la versione piu recente del protocollo Internet progettata per sostituire IPv4. Offre uno spazio di indirizzamento molto piu ampio, permettendo un numero virtualmente illimitato di indirizzi IP univoci, elemento essenziale per il crescente numero di dispositivi collegati a Internet.
 
-    Per configurarlo, fai riferimento a [IPV6](../../interface_guide/network_mode.md).
+    Per configurarlo, fai riferimento a [IPV6](../../interface_guide/ipv6.md).
 
 === "IGMP Snooping"
 

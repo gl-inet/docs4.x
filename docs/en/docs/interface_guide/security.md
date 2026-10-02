@@ -15,7 +15,7 @@ You can change the login password of the web Admin Panel here.
 The admin password must meet the following requirements:
 
 - Minimum 10 characters and maximum 63 characters.
-- Letters (case senstive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
+- Letters (case sensitive), numbers and symbols `` ! @ # $ % ^ & * ( ) _ + - = , . > < | ? / \ [ ] { } : ; " ' ` ~ `` are allowed.
 - At least two of uppercase letters, lowercase letters, numbers, and symbols are required.
 
 ## Access Control

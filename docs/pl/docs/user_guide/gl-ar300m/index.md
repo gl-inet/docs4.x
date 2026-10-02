@@ -187,7 +187,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Ustawienia te pomagają wykorzystać zalety IPv6, w tym większą przestrzeń adresową, ulepszone funkcje bezpieczeństwa i lepszą wydajność.
 
-    Przejdź do poradnika [IPv6](../../interface_guide/network_mode.md).
+    Przejdź do poradnika [IPv6](../../interface_guide/ipv6.md).
 
 ---
 

@@ -175,7 +175,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     IPv6（Internet Protocol version 6）は、IPv4 を置き換えるために設計された最新のインターネットプロトコルです。ほぼ無制限の固有IPアドレスを提供する広大なアドレス空間を備え、インターネット接続デバイスの増加に対応するうえで不可欠です。
 
-    IPV6の設定については、[IPV6](../../interface_guide/network_mode.md)を参照してください。
+    IPV6の設定については、[IPV6](../../interface_guide/ipv6.md)を参照してください。
 
 === "IGMP Snooping"
 

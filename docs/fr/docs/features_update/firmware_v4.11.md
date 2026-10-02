@@ -30,7 +30,7 @@ Un [compte GL.iNet](../interface_guide/glinet_account.md) fournit un accès unif
 
 **Remarque** : cette fonctionnalité a d'abord été proposée sur certains modèles, puis étendue à davantage de modèles dans la version 4.11 du firmware.
 
-![gli.net account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
+![GL.iNet Account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
 
 ## GoodPAS
 

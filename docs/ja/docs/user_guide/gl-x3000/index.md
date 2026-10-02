@@ -277,7 +277,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     IPv6（Internet Protocol version 6）は、IPv4 を置き換えるために設計された最新のインターネットプロトコルです。非常に大きなアドレス空間を提供し、インターネットに接続されるデバイス数の増加に対応するために必要な、ほぼ無制限の一意な IP アドレスを利用できます。
     
-    IPv6 の設定については、[IPV6](../../interface_guide/network_mode.md)を参照してください。
+    IPv6 の設定については、[IPV6](../../interface_guide/ipv6.md)を参照してください。
 
 === "Drop-in Gateway"
 

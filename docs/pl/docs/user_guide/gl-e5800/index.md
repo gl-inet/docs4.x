@@ -385,7 +385,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel ruchu między
 
     IPv6, czyli Internet Protocol version 6, to najnowsza wersja protokołu internetowego zaprojektowana jako następca IPv4. Zapewnia znacznie większą przestrzeń adresową, umożliwiając praktycznie nieograniczoną liczbę unikalnych adresów IP, co jest niezbędne przy stale rosnącej liczbie urządzeń podłączonych do internetu.
     
-    Aby skonfigurować IPV6, zapoznaj się z [IPV6](../../interface_guide/network_mode.md).
+    Aby skonfigurować IPV6, zapoznaj się z [IPV6](../../interface_guide/ipv6.md).
 
 ---
 

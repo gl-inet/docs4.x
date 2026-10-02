@@ -204,7 +204,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
     IPv6, also Internet Protocol Version 6, ist die neueste Version des Internetprotokolls und wurde als Nachfolger von IPv4 entwickelt. Es bietet einen deutlich größeren Adressraum und damit eine nahezu unbegrenzte Anzahl eindeutiger IP-Adressen, was für die wachsende Zahl internetfähiger Geräte entscheidend ist.
 
-    Informationen zur Einrichtung von IPv6 finden Sie unter [IPV6](../../interface_guide/network_mode.md).
+    Informationen zur Einrichtung von IPv6 finden Sie unter [IPV6](../../interface_guide/ipv6.md).
 
 === "IGMP Snooping"
 

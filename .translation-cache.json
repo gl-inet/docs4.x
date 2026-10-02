@@ -1334,31 +1334,31 @@
     }
   },
   "docs/en/docs/interface_guide/admin_password.md": {
-    "source_hash": "edc0663eec5babbd8974350415770e1bab294b7e1c7415ee620a2479bb1e1b7c",
+    "source_hash": "e5fcdbbaaf41c9d378be7fd52c28a25495f0c8deb74db53f09b7d719c7fbca83",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
@@ -2001,60 +2001,60 @@
     }
   },
   "docs/en/docs/interface_guide/internet_cellular.md": {
-    "source_hash": "9c261253b1acea286cd251a9a0ed0d691bcf5bd267eee70e9f3f3c284338d0ad",
+    "source_hash": "71b003cf8ef505f52b8c40b96d39b46675878bf1a941a334c8fc59acad7fa02c",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "es": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "fr": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "it": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "ja": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "pl": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/interface_guide/internet_cellular_v4.7.md": {
-    "source_hash": "935e0ae287491133d6e69b73b9d1e41da464fda447d9e99eec282934f12625b6",
+    "source_hash": "085fb65bada2730e6efe0546509ce24984921e958b4a31175b786a4b10eade0b",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "es": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "fr": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "it": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "ja": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "pl": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       }
     }
   },
@@ -2668,31 +2668,31 @@
     }
   },
   "docs/en/docs/interface_guide/security.md": {
-    "source_hash": "15e7a7ab9f94aa4691879511e7ddc34a3cccd5a02c68931c3be7032b28f06a57",
+    "source_hash": "f5dc7b11ed12678a2c53e49f4d90f99c75a754d50db632231b1549e44fb63e02",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
@@ -4611,31 +4611,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-ar300m/index.md": {
-    "source_hash": "eb85f7a56b8a772cc60a7d47234d92b23444d8bdec63dbb8210cc78e1bc97764",
+    "source_hash": "d17b966a3d8fc283a3f8ea9dc7c480fc73b4df1204bfaec5cb5951e061686932",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
@@ -4698,60 +4698,60 @@
     }
   },
   "docs/en/docs/user_guide/gl-ax1800/index.md": {
-    "source_hash": "18fe1f004ecea64bbd4c7f89d442724347c4c579338f8308e303bceecfb097e5",
+    "source_hash": "9337b364a3b316539023f8ff0784fe6038f8b7a4cbb61a7e9c6e3b752e7cc1c0",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775308782
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775607091
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-axt1800/index.md": {
-    "source_hash": "17c065a7cddf4c97e9fbbdec096aaa769f453a43f39024f282f9c95ed06893b4",
+    "source_hash": "54176e6f9964bcd7222d4b879d5170c63845674b76e3e71b03c724c77ca06c78",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1777603823
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1777603818
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1777604086
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1777604055
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
@@ -4814,147 +4814,147 @@
     }
   },
   "docs/en/docs/user_guide/gl-be10000/index.md": {
-    "source_hash": "313e54fc82400f1ab9a4c84fb59607a3c6cb6552bbf6e3f7816da3934bbb6813",
+    "source_hash": "9d998356df2298853a2d44e7db95e539065257c526d67a4f2c3393e4bd2ee5c7",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-be3600/index.md": {
-    "source_hash": "c86698b8529c04468735adfdbe5574a1b5b089d6747de1c1dd235d454339416a",
+    "source_hash": "baa1d125263446c18504d6d5bc34599da3457ffd7d6e538f750912ebbed17799",
     "targets": {
       "de": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1781005292
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1781005442
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1781005580
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1781005760
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1781005984
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "deepseek-v4-pro",
-        "updated_at": 1781006211
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-be6500/index.md": {
-    "source_hash": "c42d8f0c6d766d042acb4ee2ae12e425a2867a35916742bf1ebf61b17b8708b2",
+    "source_hash": "30d298341cadf1d18d8454005a869172e912468b23c09c2ee733e50faf09dd70",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-be9300/index.md": {
-    "source_hash": "f1a2ea9038dc9452bcfa301c8f3cbcd7a695e3fcecf05efb5919c9fc7a48b54b",
+    "source_hash": "45655d7e3b23bb081af66c57b5af7326be7904e0e0864b2e6446985659c384d7",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775116824
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775604339
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-e5800/index.md": {
-    "source_hash": "6af727582a2a10b9c8145a9ff27b7b87e3a76ba7f12d48d276a822b034269ef7",
+    "source_hash": "65d497fbbeed34b00dc0d96af11ad9d21e93dfd82201333830d7ebe3f86a6754",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "es": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "fr": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "it": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "ja": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "pl": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       }
     }
   },
@@ -5046,176 +5046,176 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt2500/index.md": {
-    "source_hash": "65a1016f77d40f1ab89492b4e44392f69d6b156c4bc647d13a20a7280272c69c",
+    "source_hash": "21f41aae4f5064aab8ca8c2fb455ffdcea4ce1f7189938a75e5706d1f51c3a9a",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1779027567
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1779027523
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1779027510
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1779027869
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt3000/index.md": {
-    "source_hash": "1774c9a1d810e9f5ca480055b61517394658c6b015b6b575f5818138d0289165",
+    "source_hash": "3456c53909cf6021d929fb457e50f87184c15b5a6bc49547ef50c5fbf052c72f",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775123280
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt300n-v2/index.md": {
-    "source_hash": "b7d37243269cdcbc2880a124a84b538610189ccdbe6acd837b9732b74d9caf90",
+    "source_hash": "5b4244b60d28dac418951226fb65a9300c3c7673ba300cc25acda82a5b510cd0",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775123239
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567859
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt3600be/index.md": {
-    "source_hash": "29af836e07b469b29e43617d1ae9c0abfc6fc9d2ac951fe8ab2a874aac2d2efc",
+    "source_hash": "d33d92eab74bd3b798d84f2716d9b85b711c246735ebe1355fb439fa2ec01065",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775123239
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775604165
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt5000/index.md": {
-    "source_hash": "45ec2c07963c27786a162e8b545841339466b3667ef4665a943e7a4770f7c947",
+    "source_hash": "0a72e692d76f11f573ea89961ec622f8fbe87fabf29c6b176b29c5cacf321493",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1776046617
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776047605
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776047605
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776047605
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt6000/index.md": {
-    "source_hash": "8c4217e3c5dbe18b81a9e87b949095e52fb0571c6cbd3c7015b11ba0d02113cf",
+    "source_hash": "053d80d3a53afb27eff2d83bc0ad954545c253905086044e0862ab3f829a906d",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775305547
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775568381
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
@@ -5365,89 +5365,89 @@
     }
   },
   "docs/en/docs/user_guide/gl-sft1200/index.md": {
-    "source_hash": "476f6c0ce50fbce382e9ef7cb37d09a241bb31b29b4f146de892790be2bc09f1",
+    "source_hash": "9e2db1cf28d17f144f9972539fc033c294b2faeb29faf9c5913b9efa69ca71fb",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775305918
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775607301
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-x2000/index.md": {
-    "source_hash": "44ac5060fffae7642d6370506a373790d0ae7d755163777d678ac4647cf44ffe",
+    "source_hash": "6cc4a508343c4fb62f0ddda76b08bccd282ccbb58333db3c5f3fd31131955db0",
     "targets": {
       "de": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-x3000/index.md": {
-    "source_hash": "e1e9731735c035e00555cb664fc9685b9f198823ab03c60f56f09fcc4797e3a3",
+    "source_hash": "2f4a36269f4f465d2bc21fcc5bc3e61aa95060c0b21db4f291a28bc6647671f6",
     "targets": {
       "de": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "manual-sync",
-        "updated_at": 1783760915
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
@@ -5539,31 +5539,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-xe3000/index.md": {
-    "source_hash": "5e376003922045631d61d1296f6b132f5bddf8d8e5f85d8d3246cd4f925289bd",
+    "source_hash": "40310d820afe4f1949e16e35bf318e7edaed356013f49dc717cc7822ed0c2944",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775308429
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775607363
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
@@ -6496,60 +6496,60 @@
     }
   },
   "docs/en/docs/user_guide/gl-be14000/index.md": {
-    "source_hash": "a04b7294a918d98ab0ca39b8bb39549ec115f42f5a1bfcf091370f1b9b2e3de6",
+    "source_hash": "06a3f8216c2debbb045a335668bf4c02fcf8877d423e320e31a7845ac46a3ce0",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/user_guide/gl-mg1300/index.md": {
-    "source_hash": "6a1d0584434565a0484d6429de35311d75f62bf896c7c9b7bf5ab790077b9e81",
+    "source_hash": "debce51b889eb694f05059ef8518498342ba5fd640823ba1c41f32129920d781",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
@@ -6844,60 +6844,60 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt6000ft/index.md": {
-    "source_hash": "2dd8ff9e4025b7b7f6890bf79c6b158e52cddeaa202c9ee725e6048ac384289f",
+    "source_hash": "b4cae974799fd2c682b932c43fcf48f8017bc75e238f10617b52a1adb092ac0a",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1790929997
       }
     }
   },
   "docs/en/docs/features_update/firmware_v4.11.md": {
-    "source_hash": "69e15bfcdb2b30ccb695ee50417bacd047c62ba7bc966a83458d677d8d5a69cf",
+    "source_hash": "9844b8580dfee0d3ac22da91365d71f305785466a389d6a7ec733e690e2b0bc2",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "es": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "fr": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "it": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "ja": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       },
       "pl": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1790929997
       }
     }
   }

@@ -170,7 +170,7 @@ Consulte [Multi-WAN](../../interface_guide/multi-wan.md) para obtener más detal
 
     IPv6, o Protocolo de Internet versión 6, es la versión más reciente del Protocolo de Internet diseñada para reemplazar IPv4. Proporciona un espacio de direcciones mucho mayor, lo que permite un número prácticamente ilimitado de direcciones IP únicas, lo cual es esencial para dar cabida al creciente número de dispositivos conectados a Internet.
 
-    Consulte [IPV6](../../interface_guide/network_mode.md) para obtener más detalles.
+    Consulte [IPV6](../../interface_guide/ipv6.md) para obtener más detalles.
 
 === "IGMP Snooping"
 

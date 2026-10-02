@@ -30,7 +30,7 @@ Ein [GL.iNet Account](../interface_guide/glinet_account.md) bietet einen einheit
 
 **Hinweis**: Diese Funktion wurde zunächst für bestimmte Modelle veröffentlicht und mit Firmwareversion 4.11 auf weitere Modelle ausgeweitet.
 
-![gli.net account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
+![GL.iNet Account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
 
 ## GoodPAS
 

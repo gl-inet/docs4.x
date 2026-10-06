@@ -16,6 +16,7 @@ from typing import Iterable
 DEFAULT_LANGS = ("de", "es", "fr", "it", "ja", "pl")
 DEFAULT_EXTENSIONS = (".md", ".yml", ".yaml", ".html")
 DEFAULT_EXCLUDE_DIRS = {"site", ".git", "__pycache__"}
+EXCLUDED_SOURCE_PATHS = {"docs/en/docs/downloads/index.md"}
 EXCLUDED_TRAILING_MARKDOWN_SECTIONS = {"Regulatory Statements"}
 
 
@@ -140,6 +141,9 @@ def iter_source_files(
         if not path.is_file():
             continue
         if any(part in exclude_dirs for part in path.parts):
+            continue
+        relative_path = repo_path(path)
+        if relative_path in EXCLUDED_SOURCE_PATHS:
             continue
         if path.suffix.lower() in extensions:
             yield path

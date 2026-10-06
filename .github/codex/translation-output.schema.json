@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["completed", "no_changes", "blocked", "failed"]
+    },
+    "change_list": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "source_issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "path": {"type": "string"},
+          "location": {"type": "string"},
+          "problem": {"type": "string"},
+          "suggested_correction": {"type": "string"},
+          "blocking": {"type": "boolean"}
+        },
+        "required": ["path", "location", "problem", "suggested_correction", "blocking"]
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "passed": {"type": "boolean"},
+        "languages": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "notes": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      },
+      "required": ["passed", "languages", "notes"]
+    },
+    "notes": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  },
+  "required": ["status", "change_list", "source_issues", "validation", "notes"]
+}

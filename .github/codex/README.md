@@ -1,7 +1,7 @@
 # Automated translation sync
 
 The `translation.yml` workflow runs the repository translation sync daily at
-08:23 in `Asia/Shanghai` and can also be started with `workflow_dispatch`.
+07:23 in `Asia/Shanghai` and can also be started with `workflow_dispatch`.
 
 Configure these repository secrets before enabling the schedule:
 

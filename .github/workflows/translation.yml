@@ -2,7 +2,7 @@ name: Incremental documentation translation
 
 on:
   schedule:
-    - cron: "23 8 * * *"
+    - cron: "23 7 * * *"
       timezone: Asia/Shanghai
   workflow_dispatch:
 

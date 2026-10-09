@@ -12,7 +12,12 @@ The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalo
 **Note:** 
 
 1. It is not recommended to use AstroWarp with any of the following features at the same time, as this may cause routing conflicts: GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
+
 2. When AstroWarp is enabled, the Network Mode cannot be used.
+
+3. AstroWarp has the highest routing priority and cannot be cascaded with VPN Client. 
+
+    For example, if Router A and Router B establish a AstroWarp network with Router B as the exit node, traffic forwarded through AstroWarp will access the Internet through Router B's WAN public IP, even when VPN Client and Kill Switch are enabled on Router B. This traffic will not be forwarded through Router B's VPN Client tunnel.
 
 ## Supported Models
 

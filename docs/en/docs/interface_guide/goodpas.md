@@ -16,6 +16,10 @@ This feature enables seamless remote access to your home network. You can direct
 
 2. When GoodPAS is enabled, the Network Mode cannot be used.
 
+3. GoodPAS has the highest routing priority and cannot be cascaded with VPN Client. 
+    
+    For example, if Router A and Router B establish a GoodPAS network with Router B as the exit node, traffic forwarded through GoodPAS will access the Internet through Router B's WAN public IP, even when VPN Client and Kill Switch are enabled on Router B. This traffic will not be forwarded through Router B's VPN Client tunnel.
+
 ## Quick Setup
 
 In the following example, we'll use **Flint 3(GL-BE9300)** and **Mango 2(GL-MG1300)** to set up a GoodPAS network.

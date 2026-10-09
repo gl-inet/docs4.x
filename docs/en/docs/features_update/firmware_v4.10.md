@@ -18,7 +18,7 @@ The Cloud Services module includes GL.iNet Account, GoodCloud, and GoodPAS.
 
 ### GL.iNet Account
 
-The [GL.iNet Account](../interface_guide/glinet_account.md) provides a centralized profile page where you can connect or manage your devices and access cloud services. With a single GL.iNet Account, you can seamlessly access GoodCloud, GoodPAS and the GL.iNet App for more convenient network management. 
+The [GL.iNet Account](../interface_guide/glinet_account.md) provides a centralized page where you can connect or manage your devices and access cloud services. With a single GL.iNet Account, you can seamlessly access GoodCloud and the GL.iNet App for more convenient network and device management. You can also quickly access the GoodPAS page to establish a secure connection between your travel router and home network.
 
 ![gl.inet account](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/account.png){class="glboxshadow"}
 
@@ -46,7 +46,7 @@ The following figure shows the Subnet on the Flint 3 (GL-BE9300).
 
 ## Ethernet Port
 
-The [Ethernet Port](../interface_guide/ethernet_port_v4.10.md) page displays all Ethernet interfaces on the router. It allows you to check connection status, switch ports between WAN and LAN roles, and view details such as the MAC address, negotiated speed, and link status. Physical interfaces can also be assigned to subnets you have created.
+The [Ethernet Port](../interface_guide/ethernet_port_v4.10.md) page displays all Ethernet interfaces on the router. It allows you to check connection status, switch ports between WAN and LAN roles, and view details such as the MAC address, negotiated speed, and link status. Additionally, you can assign physical interfaces to any subnets you have created, which is ideal for VLAN (Virtual Local Area Network) configurations.
 
 The following figure shows the Ethernet Port on the Flint 3 (GL-BE9300).
 

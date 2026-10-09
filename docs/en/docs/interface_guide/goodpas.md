@@ -12,9 +12,13 @@ This feature enables seamless remote access to your home network. You can direct
 
 **Note**:
 
-1. It is not recommended to use GoodPAS with any of the following features at the same time, as this may cause routing conflicts: GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
+1. It is not recommended to use GoodPAS with any of the following features at the same time, as this may cause routing conflicts: OpenVPN Client, WireGuard Client, GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
 
 2. When GoodPAS is enabled, the Network Mode cannot be used.
+
+3. When enabled, GoodPAS has the highest routing priority and cannot be cascaded with VPN Client. 
+    
+    For example, if Router A and Router B establish a GoodPAS network with Router B as the exit node, traffic forwarded through GoodPAS will exit to the Internet via Router B's WAN public IP, even when VPN Client is enabled on Router B. This traffic will not be forwarded through Router B's VPN Client tunnel.
 
 ## Quick Setup
 

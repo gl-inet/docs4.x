@@ -22,21 +22,6 @@ Check out Mudi 7's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Battery Safety and Swollen Battery Handling
-
-Stop using and charging the Mudi 7 if the battery is swollen, leaking, unusually hot, damaged, or producing an unusual odor.
-
-- Do not press, bend, puncture, crush, or apply pressure to the battery.
-- Do not use tools to pry against a swollen or damaged battery.
-- Do not attempt to remove a battery that is swollen, stuck, leaking, hot, or otherwise unsafe to handle.
-- Do not place a damaged lithium-ion battery in household trash or normal recycling.
-- Do not mail or ship a swollen or damaged battery using an ordinary parcel service.
-- Contact [GL.iNet Support](https://www.gl-inet.com/contacts/) for warranty assistance and next steps.
-
-If the damaged battery has already been removed, do not reinstall it. Contact an appropriate local battery-recycling or household hazardous-waste facility that accepts damaged lithium-ion batteries.
-
-If the battery is smoking, rapidly heating, hissing, burning, or otherwise presents an immediate hazard, move away from the device and contact local emergency services.
-
 ## How to set up Mudi 7
 
 Watch this setup video or follow the steps below.
@@ -47,11 +32,11 @@ Watch this setup video or follow the steps below.
 
 Install Nano-SIM card(s) on your Mudi 7. If you prefer using eSIM, skip this and proceed to step 2.
 
+First, use the small notch at the bottom-right corner of the device's back cover as a leverage point. Pry along the seam to create a gap, then open the back cover and remove the Mudi 7 battery.
+
 !!! Warning
 
     If the battery is swollen, leaking, unusually hot, damaged, or difficult to remove, stop using the device and do not attempt to remove the battery. See [Battery Safety and Swollen Battery Handling](#battery-safety-and-swollen-battery-handling).
-
-First, use the small notch at the bottom-right corner of the device's back cover as a leverage point. Pry along the seam to create a gap, then open the back cover and remove the Mudi 7 battery.
 
 ![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
@@ -197,7 +182,7 @@ Configure your Mudi 7 using one of the supported internet connection methods: Ce
     2. Do not select Keep Settings when downgrading, as there may be compatibility issues.
     3. Firmware upgrade requires a certain amount of data consumption. If your SIM card data plan is limited, it is recommended to connect the router to the Internet via other methods (such as Repeater, USB Tethering, etc.) to avoid extra data consumption.
 
-You can upgrade Mudi 7's firmware via the Touchscreen or web Admin Panel.
+You can upgrade Mudi 7's firmware via the Touchscreen or the web Admin Panel.
 
 ### Upgrade via Touchscreen
 
@@ -213,17 +198,9 @@ You can upgrade Mudi 7's firmware via the Touchscreen or web Admin Panel.
 
 ### Upgrade via Web
 
-1. Online Upgrade
-
-    Log in to the web Admin Panel, and go to **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade** to update your router's firmware. 
+Log in to the web Admin Panel and go to **SYSTEM** -> **Upgrade**. You can upgrade your router's firmware online or locally.
     
-    Please refer to [here](../../interface_guide/upgrade.md#online-upgrade) for details.
-
-2. Local Upgrade
-
-    Log in to the web Admin Panel, go to **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade** to update your router's firmware. 
-    
-    Please refer to [here](../../interface_guide/upgrade.md#local-upgrade) for details.
+Please refer to [here](../../interface_guide/upgrade.md) for details.
 
 ## Factory Reset
 
@@ -596,6 +573,21 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
     The Advanced Settings page provides access to advanced configuration options through the OpenWrt LuCI interface, allowing experienced users to fine-tune their router's settings and functionalities beyond the basic interface options. This includes detailed network configurations, firewall settings, and other advanced system customizations.
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
+
+## Battery Safety and Swollen Battery Handling
+
+Stop using and charging the Mudi 7 if the battery is swollen, leaking, unusually hot, damaged, or producing an unusual odor.
+
+- Do not press, bend, puncture, crush, or apply pressure to the battery.
+- Do not use tools to pry against a swollen or damaged battery.
+- Do not attempt to remove a battery that is swollen, stuck, leaking, hot, or otherwise unsafe to handle.
+- Do not place a damaged lithium-ion battery in household trash or normal recycling.
+- Do not mail or ship a swollen or damaged battery using an ordinary parcel service.
+- Contact [GL.iNet Support](https://www.gl-inet.com/contacts/) for warranty assistance and next steps.
+
+If the damaged battery has already been removed, do not reinstall it. Contact an appropriate local battery-recycling or household hazardous-waste facility that accepts damaged lithium-ion batteries.
+
+If the battery is smoking, rapidly heating, hissing, burning, or otherwise presents an immediate hazard, move away from the device and contact local emergency services.
 
 ## Regulatory Statements
 

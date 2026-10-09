@@ -80,7 +80,7 @@ This release improves [DNS](../interface_guide/dns_v4.11.md) configuration by br
 
 [SQM](../interface_guide/sqm.md) (Smart Queue Management) provides a **Run Speedtest** option for WAN bandwidth, measuring download and upload speeds and auto-filling the relevant fields. Two queue disciplines are available: **cake** and **fq_codel**.
 
-![sqm fq_codel](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm.png){class="glboxshadow" width=600}
+![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm.png){class="glboxshadow" width=600}
 
 - **cake**: Smart, automatic traffic shaping with the best overall latency control (recommended).
 

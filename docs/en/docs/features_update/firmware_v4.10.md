@@ -46,7 +46,7 @@ The following figure shows the Subnet on the Flint 3 (GL-BE9300).
 
 ## Ethernet Port
 
-The [Ethernet Port](../interface_guide/ethernet_port_v4.10.md) page displays all Ethernet interfaces on the router. It allows you to check connection status, switch ports between WAN and LAN roles, and view details such as the MAC address, negotiated speed, and link status. Additionally, you can assign physical interfaces to any subnets you have created.
+The [Ethernet Port](../interface_guide/ethernet_port_v4.10.md) page displays all Ethernet interfaces on the router. It allows you to check connection status, switch ports between WAN and LAN roles, and view details such as the MAC address, negotiated speed, and link status. Additionally, you can assign physical interfaces to any subnets you have created, which is ideal for VLAN (Virtual Local Area Network) configurations.
 
 The following figure shows the Ethernet Port on the Flint 3 (GL-BE9300).
 

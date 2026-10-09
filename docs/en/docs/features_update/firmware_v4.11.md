@@ -62,7 +62,7 @@ The following figure shows the Ethernet Port on the Flint 3 (GL-BE9300).
 
 This release improves [DNS](../interface_guide/dns_v4.11.md) configuration by bringing WAN DNS, VPN DNS, and Manual DNS together on a single page. You can easily view the DNS status for each connection type, configure custom DNS servers, and choose whether manual DNS settings apply to VPN tunnels or the router itself.
 
-![dns](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/dns_v4.11.png){class="glboxshadow"}
+![dns](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/dns.png){class="glboxshadow"}
 
 ## QoS
 
@@ -78,11 +78,13 @@ This release improves [DNS](../interface_guide/dns_v4.11.md) configuration by br
 
 ## SQM
 
-[SQM](../interface_guide/sqm.md) (Smart Queue Management) provides a **Run Speedtest** option for WAN bandwidth, measuring download and upload speeds and auto‑filling the relevant fields. For the **cake** queue discipline, the newly added **Cake Autorate** dynamically adjusts the configured bandwidth based on probe RTT. It uses lightweight pings rather than active speed tests and is recommended for WAN connections with fluctuating bandwidth.
+[SQM](../interface_guide/sqm.md) (Smart Queue Management) provides a **Run Speedtest** option for WAN bandwidth, measuring download and upload speeds and auto‑filling the relevant fields.
 
-![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_v4.11.png){class="glboxshadow" width=600}
+![sqm fq_codel](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_fq_codel.png){class="glboxshadow" width=600}
 
-![cake autorate](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/cake_autorate.png){class="glboxshadow" width=600}
+For the **cake** queue discipline, the newly added **Cake Autorate** dynamically adjusts the configured bandwidth based on probe RTT. It uses lightweight pings rather than active speed tests and is recommended for WAN connections with fluctuating bandwidth.
+
+![sqm cake autorate](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_cake_autorate.png){class="glboxshadow" width=600}
 
 ## Data Statistics
 

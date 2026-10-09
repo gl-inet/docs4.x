@@ -10,31 +10,19 @@ Get the latest firmware from the [Firmware Download Center](https://dl.gl-inet.c
 
 ![mesh](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/mesh.png){class="glboxshadow"}
 
-## Cloud Services
-
-Cloud Services is a suite of cloud-based features built into the router and managed centrally through your GL.iNet Account. It enables real-time status monitoring, remote device management, batch firmware deployment, and secure remote access. In firmware v4.10, this module provides enhanced unified cloud management.
-
-The Cloud Services module includes GL.iNet Account, GoodCloud, and GoodPAS.
-
-### GL.iNet Account
+## GL.iNet Account
 
 The [GL.iNet Account](../interface_guide/glinet_account.md) provides a centralized page where you can connect or manage your devices and access cloud services. With a single GL.iNet Account, you can seamlessly access GoodCloud and the GL.iNet App for more convenient network and device management. You can also quickly access the GoodPAS page to establish a secure connection between your travel router and home network.
 
 ![gl.inet account](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/account.png){class="glboxshadow"}
 
-### GoodCloud
+## GoodCloud
 
 [GoodCloud](../interface_guide/cloud.md) is a cloud platform for remotely deploying and managing GL.iNet routers. It centralizes devices across multiple locations and supports batch configuration and firmware upgrades. It also provides remote access to the web Admin Panel and the device terminal via SSH, making it easier to manage routers remotely.
 
 In firmware v4.10, GoodCloud simplifies account binding and lets you clear cloud account data during a factory reset.
 
 ![goodcloud](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodcloud.png){class="glboxshadow"}
-
-### GoodPAS
-
-[GoodPAS](../interface_guide/goodpas.md) is an advanced remote access solution integrated into the GL.iNet router SDK. Built on the AmneziaWG protocol, it enables secure access to a home network through simple device pairing, without requiring account registration or user login.
-
-![goodpas](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodpas.png){class="glboxshadow"}
 
 ## Subnet
 

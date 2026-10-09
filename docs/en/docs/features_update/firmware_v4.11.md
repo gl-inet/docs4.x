@@ -66,7 +66,7 @@ This release improves [DNS](../interface_guide/dns_v4.11.md) configuration by br
 
 ## QoS
 
-[QoS](../interface_guide/qos.md) (Quality of Service) has been enhanced in this firmware. It adds **Run Speedtest** for WAN bandwidth, which measures the WAN download and upload bandwidth and automatically fills in the corresponding fields. Three scheduling policies are available, including the newly introduced **Device Priority** and **Advanced QoS**.
+[QoS](../interface_guide/qos.md) (Quality of Service) provides a **Run Speedtest** option for WAN bandwidth, measuring download and upload speeds and auto-filling the relevant fields. In terms of scheduling policies, this release adds two options in addition to Application Priority: **Device Priority** and **Advanced QoS**.
 
 ![qos](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/qos.png){class="glboxshadow" width=600}
 
@@ -78,13 +78,17 @@ This release improves [DNS](../interface_guide/dns_v4.11.md) configuration by br
 
 ## SQM
 
-[SQM](../interface_guide/sqm.md) (Smart Queue Management) provides a **Run Speedtest** option for WAN bandwidth, measuring download and upload speeds and auto‑filling the relevant fields.
+[SQM](../interface_guide/sqm.md) (Smart Queue Management) provides a **Run Speedtest** option for WAN bandwidth, measuring download and upload speeds and auto-filling the relevant fields. Two queue disciplines are available: **cake** and **fq_codel**.
 
-![sqm fq_codel](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_fq_codel.png){class="glboxshadow" width=600}
+![sqm fq_codel](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm.png){class="glboxshadow" width=600}
 
-For the **cake** queue discipline, the newly added **Cake Autorate** dynamically adjusts the configured bandwidth based on probe RTT. It uses lightweight pings rather than active speed tests and is recommended for WAN connections with fluctuating bandwidth.
+- **cake**: Smart, automatic traffic shaping with the best overall latency control (recommended).
 
-![sqm cake autorate](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_cake_autorate.png){class="glboxshadow" width=600}
+    For this queue discipline, the newly added **Cake Autorate** dynamically adjusts the configured bandwidth based on probe RTT. It uses lightweight pings rather than active speed tests and is recommended for WAN connections with fluctuating bandwidth.
+
+    ![sqm cake autorate](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_cake_autorate.png){class="glboxshadow" width=600}
+
+- **fq_codel**: Simple and efficient fair-queueing with basic latency reduction.
 
 ## Data Statistics
 

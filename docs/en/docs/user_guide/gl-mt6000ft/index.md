@@ -6,7 +6,25 @@ Fortify (GL-MT6000) is a co-branded Wi-Fi 6 router jointly released by GL.iNet a
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
+## Package contents
+
+- 1 x Fortify (GL-MT6000)
+- 1 x User manual
+- 1 x ExpressVPN activation guide
+- 1 x Ethernet cable
+- 1 x Power adapter
+- 1 x Thank you card
+- 1 x Converter (Based on your shipping country)
+
+Check out Fortify's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## How to set up Fortify
+
+Watch this setup video or follow the steps below. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Power on
 

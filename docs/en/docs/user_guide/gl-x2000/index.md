@@ -12,14 +12,13 @@ Spitz Plus (GL-X2000) is a dual-SIM 4G LTE Wi-Fi 6 cellular gateway designed to 
 - 1 x User manual
 - 4 x External antennas
 - 1 x Thank you card
-- 1 x Ethernet cable
+- 1 x RJ45 Ethernet cable
 - 1 x Wall mount kit
 - 1 x Adhesive pad
-- 4 x Screws
 - 1 x Power adapter
 - 1 x Converter (Base on your shipping country)
 
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_unboxing.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_package.png){class="glboxshadow"}
 
 ## LED indicators 
 

@@ -13,6 +13,12 @@ Mango 2 (GL-MG1300) is GL.iNet's first dual-band Wi‑Fi 5 mini travel router, f
 - 1 x USB-C to USB-C Power cable
 - 1 x Thank you card
 
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/unboxing.png){class="glboxshadow"}
+
+Check out Mango 2's unboxing video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## How to set up Mango 2
 
 To set up Mango 2, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Follow the steps below. 

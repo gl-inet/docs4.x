@@ -306,7 +306,10 @@ extra:
         - icon: material/emoticon-sad-outline
           name: Esta página podría mejorarse
           data: 0
-          note: ¡Gracias por tus comentarios! Los usaremos para mejorar esta página.
+          note: >-
+            ¡Gracias por tus comentarios! Ayúdanos a mejorar esta página
+            <a href="https://glinet.feishu.cn/share/base/form/shrcnbojSI6bg5XpcptdEzhQjpc"
+            data-prefill="Which page needs improvement?" target="_blank" rel="noopener">contándonos qué información te falta</a>.
   social:
     - icon: fontawesome/solid/globe
       link: https://www.gl-inet.com

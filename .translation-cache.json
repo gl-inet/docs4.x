@@ -5742,31 +5742,31 @@
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "5d682de7baf362d119ac6787cb4bff995b14d2fddd67757eee295af1a6fa8b5b",
+    "source_hash": "fa1f60101dababe9bca9eae15bfde27bb8fe8d8a7726bc524b1a88acdc821da2",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1791775479
       },
       "es": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1791775479
       },
       "fr": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1791775479
       },
       "it": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1791775479
       },
       "ja": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1791775479
       },
       "pl": {
         "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "updated_at": 1791775479
       }
     }
   },

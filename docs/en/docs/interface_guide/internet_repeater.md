@@ -98,11 +98,11 @@ When joining the network, there are some additional options.
 
 ## Repeater Options
 
-Click the gear icon in the upper-right corner of the connected Repeater section.
+Click the gear icon in the upper-right corner to configure Repeater options.
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-The Repeater Options are displayed as follows.
+The page may vary due to different firmware versions.
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 

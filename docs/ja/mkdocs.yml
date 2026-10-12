@@ -306,7 +306,10 @@ extra:
         - icon: material/emoticon-sad-outline
           name: このページは改善の余地がある
           data: 0
-          note: フィードバックをありがとうございます!このページの改善に役立てます。
+          note: >-
+            フィードバックをありがとうございます!このページの改善のため、<a
+            href="https://glinet.feishu.cn/share/base/form/shrcnbojSI6bg5XpcptdEzhQjpc"
+            data-prefill="Which page needs improvement?" target="_blank" rel="noopener">不足している内容をお知らせください</a>。
   social:
     - icon: fontawesome/solid/globe
       link: https://www.gl-inet.com

@@ -306,7 +306,10 @@ extra:
         - icon: material/emoticon-sad-outline
           name: Ta strona wymaga poprawy
           data: 0
-          note: Dziękujemy za opinię! Wykorzystamy ją, aby poprawić tę stronę.
+          note: >-
+            Dziękujemy za opinię! Pomóż nam ulepszyć tę stronę,
+            <a href="https://glinet.feishu.cn/share/base/form/shrcnbojSI6bg5XpcptdEzhQjpc"
+            data-prefill="Which page needs improvement?" target="_blank" rel="noopener">informując nas, czego na niej brakuje</a>.
   social:
     - icon: fontawesome/solid/globe
       link: https://www.gl-inet.com

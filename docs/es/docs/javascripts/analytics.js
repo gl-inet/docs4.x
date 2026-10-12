@@ -35,10 +35,16 @@ document$.subscribe(function () {
   var form = document.forms.feedback
   if (form) {
     form.hidden = false
+    var page = document.location.pathname
+    // Prefill the current page path (without domain) into the feedback form
+    form.querySelectorAll('a[data-prefill]').forEach(function (link) {
+      var url = new URL(link.href)
+      url.searchParams.set('prefill_' + link.getAttribute('data-prefill'), page)
+      link.href = url.href
+    })
     form.querySelectorAll('[type=submit]').forEach(function (btn) {
       btn.addEventListener('click', function (e) {
         e.preventDefault()
-        var page = document.location.pathname
         var value = this.getAttribute('data-md-value')
         gtag('event', 'feedback_docs4', { page: page, data: value })
         form.firstElementChild.disabled = true

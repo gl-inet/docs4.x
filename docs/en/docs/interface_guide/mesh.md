@@ -15,6 +15,8 @@ Mesh is a feature based on the Wi-Fi EasyMesh™ standard that extends whole-hom
 ??? "Supported Models"
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint 2)
+    - GL-MT3000 (Beryl AX)
 
 ??? "Unsupported Models"
     - GL-MG1300 (Mango 2)
@@ -28,8 +30,6 @@ Mesh is a feature based on the Wi-Fi EasyMesh™ standard that extends whole-hom
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
-    - GL-MT3000 (Beryl AX)
     - GL-AX1800 (Flint)
     - GL-AXT1800 (Slate AX)
     - GL-SFT1200 (Opal)

@@ -21,6 +21,7 @@ Click a model below to download its full PDF user manual for offline reference.
 - [GL-BE9300 (Flint 3)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-be9300_user_manual.pdf){target="_blank"}
 - [GL-BE6500 (Flint 3e)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-be6500_user_manual.pdf){target="_blank"}
 - [GL-BE3600 (Slate 7)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-be3600_user_manual.pdf){target="_blank"}
+- [GL-X2000 (Spitz Plus)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-x2000_user_manual.pdf){target="_blank"}
 - [GL-MT6000 (Flint 2)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-mt6000_user_manual.pdf){target="_blank"}
 - [GL-X3000 (Spitz AX)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-x3000_user_manual.pdf){target="_blank"}
 - [GL-MT3000 (Beryl AX)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-mt3000_user_manual.pdf){target="_blank"}

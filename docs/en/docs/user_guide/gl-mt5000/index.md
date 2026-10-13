@@ -15,6 +15,8 @@ Brume 3 (GL-MT5000) is a high-performance security gateway running OpenWrt v21.0
 - 1 x Thank you card
 - 1 x Converter (Based on your shipping country)
 
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/unboxing.png){class="glboxshadow"}
+
 Check out Brume 3's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

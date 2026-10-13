@@ -16,6 +16,8 @@ Fortify (GL-MT6000) is a co-branded Wi-Fi 6 router jointly released by GL.iNet a
 - 1 x Thank you card
 - 1 x Converter (Based on your shipping country)
 
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/unboxing.png){class="glboxshadow"}
+
 Check out Fortify's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

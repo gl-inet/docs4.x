@@ -68,7 +68,7 @@ As shown below, the GL-MT2500 is a WireGuard server and the GL-AXT1800 is a Wire
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.7-allow-remote-access-lan.png){class="glboxshadow"}
 
-??? "For firmware v4.8 and higher"
+??? "For firmware v4.8"
 
     Log in to the web admin panel of <u>your WireGuard client</u>, and go to **VPN** -> **VPN Dashboard**.
 
@@ -79,6 +79,18 @@ As shown below, the GL-MT2500 is a WireGuard server and the GL-AXT1800 is a Wire
     In the pop-up window, enable **Allow Remote Access the LAN Subnet**, then click **Apply**.
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.8-allow-remote-access-lan.png){class="glboxshadow"}
+
+??? "For firmware v4.9 and above"
+
+    Log in to the web admin panel of <u>your WireGuard client</u>, and go to **VPN** -> **VPN Dashboard**.
+
+    Click the gear icon in a tunnel group, and select **Options**.
+
+    ![tunnel options](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.9-tunnel-options.png){class="glboxshadow"}
+
+    In the pop-up window, enable **Allow Remote Access the LAN Subnet**, then click **Apply**.
+
+    ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/wiregaurd_server_access_client_lan_side/4.9-allow-remote-access-lan.png){class="glboxshadow" width=600}
 
 ## 3. Test connection
 

@@ -19,6 +19,7 @@ You can customize the switch behavior in the web Admin Panel.
     - GL-A1300 (Slate Plus)
     - GL-MT300N-V2 (Mango)
     - GL-AR300M Series (Shadow)
+    - GL-S200
     - GL-E750V2 (Mudi V2)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)

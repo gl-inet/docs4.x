@@ -12,7 +12,7 @@ Get the latest firmware from the [Firmware Download Center](https://dl.gl-inet.c
 
 ## GL.iNet Account
 
-The [GL.iNet Account](../interface_guide/glinet_account.md) provides a centralized page where you can connect or manage your devices and access cloud services. With a single GL.iNet Account, you can seamlessly access GoodCloud and the GL.iNet App for more convenient network and device management. You can also quickly access the GoodPAS page to establish a secure connection between your travel router and home network.
+[GL.iNet Account](../interface_guide/glinet_account.md) provides a centralized page where you can connect or manage your devices and access cloud services. With a single GL.iNet Account, you can seamlessly access GoodCloud and the GL.iNet App for more convenient network and device management. You can also quickly access the GoodPAS page to establish a secure connection between your travel router and home network.
 
 ![gl.inet account](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/account.png){class="glboxshadow"}
 
@@ -23,6 +23,12 @@ The [GL.iNet Account](../interface_guide/glinet_account.md) provides a centraliz
 In firmware v4.10, GoodCloud simplifies account binding and lets you clear cloud account data during a factory reset.
 
 ![goodcloud](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodcloud.png){class="glboxshadow"}
+
+## GoodPAS
+
+[GoodPAS](../interface_guide/goodpas.md) is an advanced remote access solution for GL.iNet routers. Built on the AmneziaWG protocol, it securely extends your home network globally. Through simple device pairing, it lets you access home resources with traffic appearing to originate from your home public IP address, without requiring account registration or login.
+
+![goodpas](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodpas.png){class="glboxshadow"}
 
 ## Subnet
 

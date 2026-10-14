@@ -5,7 +5,7 @@ The content on this page is based on firmware version v4.8.x. If your device is 
 <div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.8" markdown="1">
 
 - [Firmware v4.7 and earlier](vpn_dashboard_v4.7.md)
-- [Firmware v4.9](vpn_dashboard.md)
+- [Firmware v4.9 and above](vpn_dashboard.md)
 
 </div>
 

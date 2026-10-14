@@ -4,7 +4,7 @@ The content on this page is based on firmware version v4.8.x and earlier. If you
 
 <div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.8 and earlier" markdown="1">
 
-- [Firmware v4.9](wireless.md)
+- [Firmware v4.9 and above](wireless.md)
 
 </div>
 

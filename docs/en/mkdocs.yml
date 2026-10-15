@@ -502,7 +502,7 @@ nav:
     - Cellular:
       - SMS: tutorials/sms.md
       - SMS Forwarding: tutorials/sms_forwarding.md
-      - Get Module Logs: tutorials/get_module_logs.md
+      - Get Modem Logs: tutorials/get_module_logs.md
       - Upgrade Quectel Module: tutorials/upgrade_quectel_module_software.md
       - Check carrier aggregation status: tutorials/how_to_check_carrier_aggregation.md
       - Set up Spitz AX for RV: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md

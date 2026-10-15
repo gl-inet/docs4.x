@@ -31,8 +31,8 @@ Check out Slate 7 Pro's unboxing video below.
 | ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){width="500"} | Starting up |
 | ![set up admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){width="400"} | Set admin password |
 | ![set up wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){width="400"} | Set Wi-Fi |
-| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Home screen<br></br>**Left**: System time, network speed, and shortcuts for Wi-Fi, Clients, VPN, and other functions.<br>**Right**: Four connection modes: Ethernet, Repeater, Tethering, and Cellular |
-| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Network status<br></br>**Blue**: Active / Connected to Internet<br>**Yellow**: Connecting / Network Failure<br>**White**: Inactive connection
+| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Home screen<br>**Left**: System time, network speed, and shortcuts for Wi-Fi, Clients, VPN, and other functions.<br>**Right**: Four connection modes: Ethernet, Repeater, Tethering, and Cellular |
+| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Network status<br>**Blue**: Active / Connected to Internet<br>**Yellow**: Connecting / Network Failure<br>**White**: Inactive connection
 
 ## How to set up Slate 7 Pro
 

@@ -42,7 +42,7 @@ Take the upgrade of the RM520N module as an example.
 
 4. Upgrade the module firmware using the QFirehose command, as shown below.
 
-    **Note**: Please replace "/RM520NGLAAR03A03M4G_01.201.01201" with the actual module firmware folder path.
+    **Note**: Please replace "/RM520NGLAAR03A03M4G_01.201.01.201" with the actual module firmware folder path.
 
     ```
     QFirehose-mtk7981a-sha256-c0b944 -f /RM520NGLAAR03A03M4G_01.201.01.201

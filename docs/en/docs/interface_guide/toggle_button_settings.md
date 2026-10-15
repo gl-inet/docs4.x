@@ -51,7 +51,7 @@ On the left side of the web Admin Panel, go to **SYSTEM** -> **Toggle Button Set
 
 ![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
 
-Prior to firmware v4.8, there are four options, allowing users to customize the toggle button's functionality. 
+Prior to firmware v4.8, there are five options, allowing users to customize the toggle button's functionality.
 
 - No Function
 - AdGuard Home

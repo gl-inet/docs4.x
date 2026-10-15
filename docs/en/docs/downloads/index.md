@@ -22,10 +22,15 @@ Click a model below to download its full PDF user manual for offline reference.
 - [GL-BE6500 (Flint 3e)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-be6500_user_manual.pdf){target="_blank"}
 - [GL-BE3600 (Slate 7)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-be3600_user_manual.pdf){target="_blank"}
 - [GL-X2000 (Spitz Plus)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-x2000_user_manual.pdf){target="_blank"}
+- [GL-B3000 (Marble)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-b3000_user_manual.pdf){target="_blank"}
 - [GL-MT6000 (Flint 2)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-mt6000_user_manual.pdf){target="_blank"}
 - [GL-X3000 (Spitz AX)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-x3000_user_manual.pdf){target="_blank"}
 - [GL-MT3000 (Beryl AX)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-mt3000_user_manual.pdf){target="_blank"}
 - [GL-AXT1800 (Slate AX)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-axt1800_user_manual.pdf){target="_blank"}
+- [GL-A1300 (Slate Plus)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-a1300_user_manual.pdf){target="_blank"}
 - [GL-AX1800 (Flint)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-ax1800_user_manual.pdf){target="_blank"}
 - [GL-SFT1200 (Opal)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-sft1200_user_manual.pdf){target="_blank"}
 - [GL-MT2500 (Brume 2)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-mt2500_user_manual.pdf){target="_blank"}
+- [GL-MT300N-V2 (Mnago)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-mt300n-v2_user_manual.pdf){target="_blank"}
+- [GL-AR300M (Shadow)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-ar300m16_user_manual.pdf){target="_blank"}
+- [GL-E750V2 (Mudi V2)](https://static.gl-inet.com/docs/router/en/4/user_manual/gl-e750v2_user_manual.pdf){target="_blank"}

@@ -22,6 +22,7 @@ For devices with flash storage of 32MB or less, Network Storage is not yet suppo
 
 | Router Model                           | Samba | Webdav | DLNA | USB Port | MicroSD Card |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
+| GL-MT6000 (Fortify)                    | √     | √     | √     | √        | -            |
 | GL-MG1300 (Mango 2)                    | √     | -     | -     | √        | -            |
 | GL-BE14000 (Flint 4)                   | √     | √     | √     | √        | -            |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |

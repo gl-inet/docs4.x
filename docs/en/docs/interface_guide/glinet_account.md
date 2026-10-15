@@ -1,6 +1,6 @@
 # GL.iNet Account
 
-**Note**: The content on this page is based on firmware v4.10.
+**Note**: This guide applies to firmware v4.10 and above.
 
 ---
 

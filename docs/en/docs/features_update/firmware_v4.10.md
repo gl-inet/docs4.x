@@ -24,12 +24,6 @@ In firmware v4.10, GoodCloud simplifies account binding and lets you clear cloud
 
 ![goodcloud](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodcloud.png){class="glboxshadow"}
 
-## GoodPAS
-
-[GoodPAS](../interface_guide/goodpas.md) is an advanced remote access solution for GL.iNet routers. Built on the AmneziaWG protocol, it securely extends your home network globally. Through simple device pairing, it lets you access home resources with traffic appearing to originate from your home public IP address, without requiring account registration or login.
-
-![goodpas](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodpas.png){class="glboxshadow"}
-
 ## Subnet
 
 The [Subnet](../interface_guide/subnet.md) page consolidates the configuration of LAN, Guest Network, IoT Network, and custom VLAN Networks into a single unified view. It provides a centralized management interface for all subnet-related settings, allowing you to create and manage multiple subnets to isolate different types of devices or traffic.

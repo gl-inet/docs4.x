@@ -5,6 +5,7 @@ AdGuard Home is a network-wide software for blocking ads and tracking. Once set 
 ## Supported Models
 
 ??? "Supported Models"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
@@ -15,7 +16,7 @@ AdGuard Home is a network-wide software for blocking ads and tracking. Once set 
     - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-AX1800 (Flint)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)

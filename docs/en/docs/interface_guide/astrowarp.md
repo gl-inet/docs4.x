@@ -25,6 +25,7 @@ The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalo
 
     These models are compatible with the new AstroWarp. To view the supported model list for the legacy AstroWarp, click [here](https://docs.astrowarp.net/en/quick_start/){target="_blank"}.
 
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-MG1300 (Mango 2)
     - GL-BE9300 (Flint 3)

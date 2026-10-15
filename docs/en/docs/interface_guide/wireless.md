@@ -25,12 +25,13 @@ The Wireless page lets you configure various Wi-Fi networks, including MLO Wi-Fi
     - GL-BE3600 (Slate 7)
 
 ??? "Unsupported Models"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-AX1800 (Flint)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)

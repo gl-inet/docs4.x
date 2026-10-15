@@ -13,6 +13,7 @@ Mesh is a feature based on the Wi-Fi EasyMesh™ standard that extends whole-hom
 ## Supported Models
 
 ??? "Supported Models"
+    - GL-MT6000 (Fortify)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-MT6000 (Flint 2)

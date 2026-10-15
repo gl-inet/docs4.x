@@ -65,15 +65,15 @@ Take the GL-X3000 (Spitz AX) as an example.
 
     ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message2.png){class="glboxshadow"}
 
-    * Recepient
+    * Recipient
 
         You need to select the international area code and enter the number. 
 
-    * From modem (SIM)
+    * From Modem(SIM)
 
         Select which SIM card to send from.
 
-    * SMS Content
+    * SMS Contents
 
         Each SMS can have up to 160 characters.
 

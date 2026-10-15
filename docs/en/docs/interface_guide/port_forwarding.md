@@ -38,11 +38,11 @@ In the pop-up window, add a new port forwarding rule, and click **Apply**.
 
 - **Internal Zone:** The options for internal zone are `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server`, `WAN`.
 
-- **Internal IP:** The IP address assigned by the router to the device which needs to be accessed remotely. If you set a single port in **External Port**, you should set the single port here. If you set a port range in **External Port**, you should set the corresponding port range here.
+- **Internal IP:** The IP address assigned by the router to the device which needs to be accessed remotely.
 
-- **Internal Port:** The internal port number of the device. You can enter a specific port number. Leave it blank if it is same as the external port.
+- **Internal Port:** The internal port number of the device. You can enter a specific port number. If you set a single port in **External Port**, you should set the single port here. If you set a port range in **External Port**, you should set the corresponding port range here. Leave it blank if it is same as the external port.
 
-- **Description:** Set a cuztome name or add a description for this rule (optional).
+- **Description:** Set a custom name or add a description for this rule (optional).
 
 - **Enable:** Toggle to enable or disable this rule.
 

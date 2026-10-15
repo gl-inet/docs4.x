@@ -43,7 +43,7 @@ The following instructions were written for uploading your firmware through the 
 
 3. From the left sidebar, click **SYSTEM** > **Upgrade**. 
 4. Click **Local Upgrade** and select the file you downloaded earlier. 
-5. To retain your current settings (e.g., your router admin password), toggle **Keep Settings** to on. 
+5. To retain your current settings (e.g., your router admin password) when upgrading, toggle **Keep Settings** to on. Do not enable this option when downgrading firmware.
 6. Click **Install**.
 
 **Note:** During the upgrade process, do not power off the router. After the upgrade is complete, you will see the router login screen. 

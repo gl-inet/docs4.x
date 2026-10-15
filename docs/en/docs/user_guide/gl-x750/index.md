@@ -16,7 +16,7 @@ Spitz V2 (GL-X750V2) is the advanced version of Spitz (GL-X750). It comes with t
 
 ## First-time setup
 
-All GL.iNet routers have a similar setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a similar setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md).
 
 ---
 

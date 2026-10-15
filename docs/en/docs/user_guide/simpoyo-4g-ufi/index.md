@@ -66,6 +66,7 @@ This guide will show you how to use the SIMPoYo uFi USB dongle (SP-N150C4), incl
                 <td>OFF</td>
                 <td>Wi-Fi is Disabled</td>
             </tr>
+            <tr>
                 <td rowspan="2">4G LED + Wi-Fi LED</td>
                 <td>White</td>
                 <td>Device Powered On</td>
@@ -73,6 +74,7 @@ This guide will show you how to use the SIMPoYo uFi USB dongle (SP-N150C4), incl
             <tr>
                 <td>OFF</td>
                 <td>Device Powered Off</td>
+            </tr>
         </tbody>
     </table>
 </body>

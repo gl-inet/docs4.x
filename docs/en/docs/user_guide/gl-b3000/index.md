@@ -288,7 +288,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     These settings allow you to tailor your router's NAT behavior to better suit your network's needs, balancing performance improvements with potential security and functionality considerations.
 
-    For detailed setup instructions and more information, please refer to [NAT Settins](../../interface_guide/nat_settings.md).
+    For detailed setup instructions and more information, please refer to [NAT Settings](../../interface_guide/nat_settings.md).
 
 ---
 

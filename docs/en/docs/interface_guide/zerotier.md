@@ -68,7 +68,7 @@ The following is an example using the GL-MT3600BE.
 
 1. Visit [ZeroTier official website](https://www.zerotier.com/){target="_blank"} and sign in with your account.
 
-    ![create organization](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/zerotier_login.jpg){class="glboxshadow"}
+    ![zerotier login](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/zerotier_login.jpg){class="glboxshadow"}
 
 2. Create an organization.
 

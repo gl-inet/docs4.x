@@ -228,7 +228,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Guest Network page allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/guest_network.md). 
+    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
 ---
 

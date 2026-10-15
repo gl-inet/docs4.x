@@ -54,7 +54,7 @@ Configure your Slate AX using one of the supported internet connection methods: 
 
 === "Ethernet"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-axt1800/internet/axt1800_ethernet.png){class="glboxshadow"}
 
     Connect an ethernet cable between your router's WAN port and an upstream device such as a modem. 
     

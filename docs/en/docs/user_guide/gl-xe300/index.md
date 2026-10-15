@@ -21,7 +21,7 @@ The package includes:
 
 ![gl-xe300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-xe300/first_time_setup/xe300_unboxing.jpg){class="glboxshadow"}
 
-Check out Puli's [unboxing video](../../video_library/unboxing_first_set_up.md/#gl-xe300-puli). 
+Check out Puli's [unboxing video](../../video_library/unboxing_first_set_up.md#gl-xe300-puli). 
 
 ## Specifications
 
@@ -31,7 +31,7 @@ Check out Puli's [unboxing video](../../video_library/unboxing_first_set_up.md/#
 
 ## First-time setup
 
-All GL.iNet routers have a similar setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a similar setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md).
 
 ---
 

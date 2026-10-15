@@ -57,7 +57,7 @@ To avoid signal attenuation, the radio frequency cable from the roof antenna to 
 
 To ensure you have internet access during your journey, set up the internet using SIM cards. 
 
-Spitz AX has a built-in 5G NR module and supports dual SIM cards. Different mobile network carriers offer different cellular packages for the SIM card and use different APNs. You will need to enter the APN in the settings, so confirm with your operator what the VPN is. 
+Spitz AX has a built-in 5G NR module and supports dual SIM cards. Different mobile network carriers offer different cellular packages for the SIM card and use different APNs. You will need to enter the APN in the settings, so confirm with your operator what the APN is. 
 
 To set up your SIM cards, follow these steps: 
 

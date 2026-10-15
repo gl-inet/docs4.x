@@ -72,7 +72,7 @@ Take the upgrade of the EM060K module as an example.
 
 2. Plug the USB flash drive into your router. Then refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) to SSH log in to your router.
 
-3. Enter the command `df - h` to check the USB drive mounting path, and record the path.
+3. Enter the command `df -h` to check the USB drive mounting path, and record the path.
 
     ![check mounting path](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_mounting_path.png){class="glboxshadow"}
 

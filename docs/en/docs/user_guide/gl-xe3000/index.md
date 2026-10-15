@@ -72,7 +72,7 @@ Configure your Puli AX using one of the supported internet connection methods: C
     
     If not, power off the router, re-insert the SIM card and power it on.
     
-    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models) for detailed instructions.
+    Please refer to [Connect to the Internet via cellular](../../interface_guide/internet_cellular.md#setup-for-dual-sim-models) for detailed instructions.
 
     Learn how to use the eSIM physical card on GL.iNet router [here](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
@@ -244,7 +244,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/guest_network.md). 
+    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
 === "DNS"
 
@@ -317,7 +317,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Upgrade"
 
-    The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
+    The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers four options for upgrading:
 
     * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
     * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.

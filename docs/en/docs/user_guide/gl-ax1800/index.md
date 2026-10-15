@@ -55,7 +55,7 @@ Configure your Flint using one of the supported internet connection methods: Eth
 
 === "Ethernet"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
 
     Connect an ethernet cable between your router's WAN port and an upstream device such as a modem. 
     
@@ -221,7 +221,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
 
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/guest_network.md). 
+    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
 === "DNS"
 

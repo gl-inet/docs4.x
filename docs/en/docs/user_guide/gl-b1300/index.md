@@ -29,7 +29,7 @@ The package includes:
 
 ## First-time setup
 
-All GL.iNet routers have a similar setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a similar setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md).
 
 ---
 

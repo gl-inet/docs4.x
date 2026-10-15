@@ -136,7 +136,7 @@ In the following example, the gateway address of the primary router is `192.168.
 
         5. Select the **Manual** option. Turn on the **IPv4 toggle** switch.
 
-        6. Set the **IP address** as the IP address you see in step d, **Subnet mask** set as `255.255.255.0`, both **Gateway** and **Preferred DNS** set as the IP address in Drop-in Gateway page.
+        6. Set the **IP address** as the IP address you see in step 4, **Subnet mask** set as `255.255.255.0`, both **Gateway** and **Preferred DNS** set as the IP address in Drop-in Gateway page.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/interface_guide/drop-in_gateway/windows/windwos11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 

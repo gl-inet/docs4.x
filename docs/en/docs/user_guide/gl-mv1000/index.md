@@ -14,7 +14,7 @@ Brume-W (GL-MV1000W) is the special edition of Brume (GL-MV1000) that comes with
 
 ## First-time setup
 
-All GL.iNet routers have a similar setup process. [Click here to learn about the first time-setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a similar setup process. [Click here to learn about the first time-setup](../../faq/first_time_setup.md).
 
 ---
 

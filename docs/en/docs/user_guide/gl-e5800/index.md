@@ -233,7 +233,7 @@ Watch this video or follow the steps below.
 
 1. Remove the back cover, and you will find the reset button as shown below. 
 
-    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+    ![reset button](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
 2. Perform a soft reset or factory reset as needed.
 

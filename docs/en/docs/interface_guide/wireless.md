@@ -90,7 +90,7 @@ Click the gear icon on the right to view or modify Wi-Fi settings for each band.
 
 - 2.4 GHz
 
-    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
+    ![main 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
 ## Guest Network
 

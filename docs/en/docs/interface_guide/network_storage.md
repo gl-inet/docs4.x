@@ -322,7 +322,7 @@ Connect the storage device. When it is detected, the page is displayed as below.
 
 === "Android"
 
-    There are many iOS apps that support WebDAV, here is an example of [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}.
+    There are many Android apps that support WebDAV, here is an example of [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}.
 
     Note: Cx File Explorer doesn't support anonymous access.
 

@@ -30,7 +30,7 @@ The package includes:
 
 ## First time setup
 
-All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a simple and almost identical setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md).
 
 To set up Slate Plus, you will use one of the four supported internet connection methods: Ethernet, Repeater, Tethering, and Cellular. Please refer to this setup video.
 

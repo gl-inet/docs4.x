@@ -67,7 +67,7 @@ Press the power button to turn on the device.
 
 ![gl-e750v2 poweron](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_power-on.png){class="glboxshadow"}
 
-When Mudi V2 (GL-E750V2)'s power is off, you can still check the battery status by pressing the power button. The LED screen will show the battery status when you click the power button.
+When Mudi V2 (GL-E750V2)'s power is off, you can still check the battery status by pressing the power button. The OLED screen will show the battery status when you click the power button.
 
 ![gl-e750v2 battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_battery.png){class="glboxshadow"}
 

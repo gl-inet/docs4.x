@@ -16,7 +16,7 @@ Please refer to [this link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_l
 
 Select the appropriate steps based on your device model.
 
-### For GL-E5800
+### GL-E5800
 
 1. Insert a USB flash disk, then run `df -h` to get the mount path and record it.
 
@@ -58,7 +58,7 @@ Select the appropriate steps based on your device model.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/E5800_qlogs_files.png){class="glboxshadow"}
 
-### For GL-X2000
+### GL-X2000
 
 1. Insert a USB flash disk, then run `df -h` to get the mount path and record it.
 
@@ -108,7 +108,7 @@ Select the appropriate steps based on your device model.
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/X2000_qlogs_files.png){class="glboxshadow"}
 
 
-### For GL-XE300/GL-X750/GL-X300B
+### GL-XE300/GL-X750/GL-X300B
 
 1. Insert a USB flash disk, then run `df -h` to get the mount path and record it. 
 
@@ -154,7 +154,7 @@ Select the appropriate steps based on your device model.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
-### For GL-X3000/GL-XE3000
+### GL-X3000/GL-XE3000
 
 1. Insert a USB flash disk, then run `df -h` to get the mount path and record it.
 

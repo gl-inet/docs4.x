@@ -13,13 +13,13 @@ Mesh is a feature based on the Wi-Fi EasyMesh™ standard that extends whole-hom
 ## Supported Models
 
 ??? "Supported Models"
-    - GL-MT6000 (Fortify)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-MT6000 (Flint 2)
     - GL-MT3000 (Beryl AX)
 
 ??? "Unsupported Models"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)

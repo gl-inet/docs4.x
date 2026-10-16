@@ -316,9 +316,9 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers four options for upgrading:
 
-    * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
+    * Firmware Online Upgrade: Automatically check for the latest firmware version from the manufacturer's server. You can install the latest one if available online.
     * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
-    * Module Online Upgrade: Automatically check for and install the latest 4G/5G module version directly from the manufacturer's server, simplifying the update process.
+    * Module Online Upgrade: Automatically check for the latest 4G/5G module version from the manufacturer's server. You can install the latest one if available online.
     * Module Local Upgrade: Manually upload a module file from your computer to update the 4G/5G module.
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.

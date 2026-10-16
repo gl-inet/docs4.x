@@ -312,7 +312,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
 
-    * Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
+    * Online Upgrade: Automatically check for the latest firmware version from the manufacturer's server. You can install the latest one if available online.
     * Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.

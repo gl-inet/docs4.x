@@ -2,7 +2,7 @@
 
 ## Product overview
 
-Mango 2 (GL-MG1300) is GL.iNet's first dual-band Wi‑Fi 5 mini travel router, featuring an ultra‑thin and portable design. It delivers theoretical dual-band speeds of 400 Mbps (2.4 GHz) and 866 Mbps (5 GHz), with a 2×2 MIMO configuration. Additionally, it comes pre-installed with OpenVPN and WireGuard, supports 30+ VPN services and automatically encrypts all network traffic, and enables remote management via GoodCloud — perfectly balancing performance, practicality, and security.
+Mango 2 (GL-MG1300) is GL.iNet's first dual-band Wi‑Fi 5 mini travel router, featuring an ultra‑thin and portable design. It delivers theoretical dual-band speeds of 400 Mbps (2.4 GHz) and 866 Mbps (5 GHz), with a 2×2 MIMO configuration. Additionally, it comes pre-installed with OpenVPN and WireGuard, supports 30+ VPN services to encrypt network traffic when the VPN client is enabled, and enables remote management via GoodCloud — perfectly balancing performance, practicality, and security.
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 

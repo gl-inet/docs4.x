@@ -32,6 +32,8 @@ Models with Wi-Fi functionality usually support four network modes: Router, Acce
 
     After switching to Access Point mode, you will not be able to access the web admin panel using the original LAN IP address. Instead, you need to log in to the upstream router to find the IP address it has assigned to this AP, then use this IP address to access the web admin panel. If you do not have access to the upstream router, press and hold the reset button for 4 seconds to revert it to the default Router mode.
 
+    See [Mesh vs. Extender vs. Access Point Mode](mesh.md#mesh-vs-extender-vs-access-point-mode) for a comparison of connectivity, performance, and management.
+
     !!! tip
 
         When deploying multiple access points, AP placement, channel selection, coverage overlap, and transmit power can affect roaming and performance. See [Understanding Wi-Fi Coverage, Access Points, and Transmit Power](../tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md) for deployment guidance.
@@ -40,7 +42,9 @@ Models with Wi-Fi functionality usually support four network modes: Router, Acce
 
 - **Extender**: This mode is designed to extend the Wi-Fi coverage of an existing wireless network and eliminate signal dead zones in areas with poor connectivity.
 
-    It enables the router to wirelessly receive signals from the main router, amplify them, and retransmit the boosted signal. Unlike Access Point mode, it requires no wired connection to the main router, but it may lead to bandwidth halving, as the device has to handle simultaneous signal reception and transmission.
+    In Extender mode, the device connects to an existing Wi-Fi network and forwards traffic to extend coverage without an Ethernet connection to the main router. When the upstream connection and connected clients share the same Wi-Fi radio and channel, receiving and retransmitting traffic consumes additional airtime and can reduce throughput.
+
+    See [Mesh vs. Extender vs. Access Point Mode](mesh.md#mesh-vs-extender-vs-access-point-mode) for a comparison of connectivity, performance, and management.
 
     In Extender mode, you will still be able to access the web admin panel using its original LAN IP address.
 

@@ -42,6 +42,8 @@ Consulte este videotutorial o siga los procedimientos que se indican a continuac
 
         - Para **GL-MG1300 (Mango 2)**: el LED azul parpadea 7 veces y luego se queda en blanco fijo.
 
+        - Para **GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro) y GL-BE3600 (Slate 7)**: después de mantener pulsado el botón Reset durante unos 5 segundos, aparecerá una cuenta atrás de 5 segundos en la pantalla táctil. Siga pulsando el botón Reset hasta que aparezca la siguiente indicación en pantalla, por ejemplo, configurar manualmente la dirección IP de su ordenador en 192.168.1.2 y abrir http://192.168.1.1 en el navegador. Después pase al paso 4.
+
         - Para **GL-MT3600BE (Beryl 7)**: el LED azul parpadea 7 veces y luego se queda en blanco fijo.
 
         - Para **GL-MT5000 (Brume 3)**: el LED de alimentación parpadea en azul 7 veces y luego se queda en blanco fijo.
@@ -49,8 +51,6 @@ Consulte este videotutorial o siga los procedimientos que se indican a continuac
         - Para **GL-BE6500 (Flint 3e)**: el LED azul parpadea 6 veces y luego se queda en blanco fijo.
 
         - Para **GL-BE9300 (Flint 3)**: el LED azul parpadea 6 veces y luego se queda en blanco fijo.
-
-        - Para **GL-BE3600 (Slate 7)**: después de mantener pulsado el botón Reset durante unos 5 segundos, aparecerá una cuenta atrás de 5 segundos en la pantalla táctil. Siga pulsando Reset hasta que aparezca la siguiente indicación en pantalla, por ejemplo, configurar manualmente la dirección IP de su ordenador en 192.168.1.2 y abrir http://192.168.1.1 en el navegador. Después pase al paso 4.
 
         - Para **GL-X2000 (Spitz Plus)**: el LED de Internet parpadea 5 veces y luego el LED Wi-Fi permanece encendido.
 

@@ -1,246 +1,325 @@
-# GL-MT2500/GL-MT2500A(Brume 2) ユーザーガイド
+# Brume 2 (GL-MT2500/GL-MT2500A) ユーザーガイド
 
-## ハードウェア情報
+## 製品概要
 
-GL-MT2500/GL-MT2500A(Brume 2)は、OpenWrt v21.02オペレーティングシステムで動作する軽量でパワフルなVPNゲートウェイです。自宅でVPNサーバーをホストしたり、中小企業でSD-WAN(Site-to-Site)を実行するためにコンパクトに設計されています。GL-MT2500 はプラスチック筐体、GL-MT2500A はアルミニウム筐体の2つのバリエーションがあります。
+Brume 2（GL-MT2500/GL-MT2500A）は、OpenWrt v21.02 オペレーティングシステムで動作する軽量でパワフルな VPN ゲートウェイです。自宅で VPN サーバーをホストしたり、中小企業で SD-WAN（Site-to-Site）を実行したりするためにコンパクトに設計されています。プラスチック筐体の GL-MT2500 と、アルミニウム筐体の GL-MT2500A の 2 つのバリエーションがあります。
 
 ![gl-mt2500 interface](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/mt2500_interface.jpg){class="glboxshadow"}
 
-[GL-MT2500/GL-MT2500A 仕様](https://www.gl-inet.com/products/gl-mt2500/#specs){target="_blank"}
+## パッケージ内容
 
-[LED 表示](../../faq/led.md#gl-mt2500)
+- 1 x Brume 2 (GL-MT2500/GL-MT2500A)
+- 1 x ユーザーマニュアル
+- 1 x Ethernet ケーブル
+- 1 x サンキューカード
+- 1 x 保証書
+- 1 x 電源アダプター
+- 1 x 変換プラグ（配送先の国に応じた仕様）
 
-### PCB ピン設定
-
-<div class="gl-lightbox" itemscope itemtype="http://schema.org/ImageGallery">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a href="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/gl-mt2500a_pinout.jpg" itemprop="contentUrl" data-size="1500x1313">
-      <img src="https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/hardware_info/gl-mt2500a_pinout.jpg" itemprop="thumbnail" alt="gl-mt2500 pinout" loading="lazy" />
-    </a>
-  </figure>
-</div>
-
----
-
-## 初回設定
-
-GL.iNetのすべてのデバイスは、シンプルでほぼ同じセットアッププロセスを持っています。 [初回セットアップについてはここをクリックしてください](../../faq/first_time_setup.md/)。
-
-パッケージ内のアダプターは配送国によって異なることにご注意してください。
-
-パッケージ内容（以下の画像は GL-MT2500A の例です）
+以下の画像は GL-MT2500A の例です。
 
 ![gl-mt2500 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/first_time_setup/mt2500a_unboxing.jpg){class="glboxshadow"}
 
-同梱物：
+## Brume 2 のセットアップ方法
 
-- 1 x ユーザーマニュアル
-- 1 x Brume 2 (GL-MT2500 or GL-MT2500A)
-- 1 x イーサネットケーブル
-- 1 x サンキューカード
-- 1 x 保証書
-- 1 x 電源アダプター (選択されたプラグタイプ)
+Brume 2 のセットアップには、対応するインターネット接続方式（Ethernet、Tethering、Cellular）のいずれかを使用します。Brume 2 には Wi-Fi モジュールが搭載されていないため、Repeater には対応していません。以下のセットアップ動画を見るか、下の手順に従ってください。
 
----
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rpi_loOwUQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## インターネット
+### 1. 電源を入れる
 
-インターネット設定画面では、ルーターがサポートしてるインターネット接続タイプを選択できます。
+2 ピース式の電源アダプターを組み立てます。ルーターに接続し、コンセントに差し込むと自動的に起動します。
 
-ルータのWeb管理パネル内のサイドメニューで**インターネット**を選択して、インターネットネットワークを設定します。
+### 2. デバイスを接続する
 
-インターネットへの接続は以下の3つの方法がサポートされています:
+コンピューターやノートパソコンなどのデバイスを、Ethernet ケーブルでルーターの LAN ポートに接続します。
 
-### イーサネット
+### 3. Web Admin Panel にログインする
 
-イーサネットケーブルを使用して、ルーターをアクティブなモデムまたはネットワークデバイスに接続してインターネットにアクセスします。この方法は通常、最も高速で信頼性の高いインターネット接続を提供します。
+Web ブラウザを開き、アドレスバーに `192.168.8.1` と入力してログインします。言語を選択し、管理者パスワードを設定して **Apply** をクリックします。
 
-[イーサネット ケーブル経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_ethernet.md)
+### 4. インターネット設定
 
-![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
+=== "Ethernet"
 
-### テザリング
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_ethernet.png){class="glboxshadow"}
+    
+    ルーターの WAN ポートと、モデムなどの上位機器を Ethernet ケーブルで接続します。
+    
+    インターネットへの接続に成功すると、INTERNET ページの Ethernet セクションに緑のドットが表示されます。
 
-スマートフォンの通信データをケーブル経由でルーターと共有し、接続デバイスとのインターネット接続を確立します。この方法は、スマートフォンのデータを使ってインターネットにアクセスしたい場合に便利です。
+    詳細な手順については、[Ethernet ケーブル経由でインターネットに接続する](../../interface_guide/internet_ethernet.md)を参照してください。
 
-[USBテザリング経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_tethering.md)
+=== "Tethering"
 
-![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
+     ![Tethering Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_tethering.png){class="glboxshadow"}
 
-### セルラー
+    1. スマートフォンや USB ドングルなどのモバイルデバイスを USB ケーブルでルーターの USB ポートに接続します。
+    2. モバイルデバイスで Settings に移動し、USB Tethering を有効にします。
+    3. Web Admin Panel の INTERNET ページで、Tethering セクションの **Connect** をクリックします。
+    
+    インターネットへの接続に成功すると、INTERNET ページの Tethering セクションに緑のドットが表示されます。
 
-セルラー対応のUSBモデムをルーターのUSBポートに挿入して、ルーターをインターネットに接続します。この方法は、USBモデムからすべての接続デバイスにインターネットアクセスを共有する場合に最も役立ちます。
+    詳細な手順については、[USB テザリング経由でインターネットに接続する](../../interface_guide/internet_tethering.md)を参照してください。
 
-[USBモデム経由でインターネットに接続する方法については、ここをクリックしてください。](../../interface_guide/internet_cellular.md)
+=== "Cellular"
 
-![Cellular Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
+    ![cellular](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt2500/internet/mt2500_cellular.png){class="glboxshadow"}
 
-### 優先順位とロードバランス
+    セルラー対応の USB モデムをルーターの USB ポートに挿入します。USB モデムのインターネット接続を、接続中のすべてのデバイスで共有する場合に便利です。
 
-[マルチWAN](../../interface_guide/multi-wan.md) では、各インターネットアクセス方式の優先順位や、複数のインターネットアクセス方式を同時に使用する場合のロードバランスを設定します。
+    インターネットへの接続に成功すると、INTERNET ページの Cellular セクションに緑のドットが表示されます。
 
----
+    詳細な手順については、[Cellular 経由でインターネットに接続する](../../interface_guide/internet_cellular.md)を参照してください。
 
-## クライアント
+**Note:** [Multi-WAN](../../interface_guide/multi-wan.md) 機能を使用する場合は、複数のインターネット接続方式を設定してください。
 
-クライアントはルーターに接続されているデバイスで あり、クライアントをブロックしたり、ネットワーク速度を制限したりすることができます。このインターフェイスには、ルーターの管理パネルのサイドメニューにある **クライアント** をクリックしてアクセスできます。
+## VPN のセットアップ方法
 
-[デバイスクライアントの管理については、こちらをクリックしてください。](../../interface_guide/clients.md)
+VPN（仮想プライベートネットワーク）は、デバイスと VPN サーバー間に安全で暗号化された通信を作成します。プライバシーとセキュリティを強化し（VPN クライアント）、リモートネットワークへのアクセス（VPN サーバー）も可能にします。Brume 2（およびその他の GL.iNet ルーター）は OpenVPN と WireGuard に対応しています。さらに Tor にも対応しています。
 
----
+=== "OpenVPN"
 
-## VPN
+    Brume 2（およびその他の GL.iNet ルーター）は、強力なセキュリティを提供する OpenVPN プロトコルに対応しています。OpenVPN の設定については、次のチュートリアルを参照してください。
 
-GL.iNetルーターには、30以上のVPNサービスをサポートするOpenVPNとWireGuard®がプリインストールされています。これは、ゲストデバイスやVPN暗号化を実行できないクライアントデバイスを含め、接続されたネットワーク内のすべてのネットワークトラフィックを自動的に暗号化します。また、当社のルーターはVPNサーバーとしても機能し、パブリックのインターネットにアクセスする前に、遠隔にあるクライアントデバイスからのトラフィックをVPNトンネル経由でVPNサーバーにリダイレクトします。
+    * [OpenVPN クライアントの設定方法](../../interface_guide/openvpn_client.md)
+    * [OpenVPN サーバーの設定方法](../../interface_guide/openvpn_server.md)
 
-### VPN ダッシュボード
+=== "WireGuard"
 
-- [**VPN ダッシュボード**](../../interface_guide/vpn_dashboard_v4.8.md)
+    Brume 2（およびその他の GL.iNet ルーター）は、高速で使いやすい WireGuard プロトコルに対応しています。WireGuard の設定については、次のチュートリアルを参照してください。
 
-### OpenVPN
+    * [WireGuard クライアントの設定方法](../../interface_guide/wireguard_client.md)
+    * [WireGuard サーバーの設定方法](../../interface_guide/wireguard_server.md)
 
-セットアップの手順については、以下のリンクをご参照ください：
+=== "Tor"
 
-- [**OpenVPN クライアントのセットアップ**](../../interface_guide/openvpn_client.md)
-- [**OpenVPN サーバーのセットアップ**](../../interface_guide/openvpn_server.md)
+    Tor は The Onion Router の略で、インターネット上で匿名通信を可能にするプライバシー重視のネットワークです。インターネットトラフィックを複数のボランティア運営サーバー（ノード）経由でルーティングし、ユーザーの場所や利用状況を分かりにくくすることで、オンライン活動の追跡を困難にします。
+    
+    * [Tor の設定方法](../../interface_guide/tor.md)。
 
-### WireGuard
+## Clients
 
-セットアップの手順については、以下のリンクをご参照ください：
+Clients ページには、接続中のデバイス情報が表示されます。各クライアントについて、デバイス名、IP アドレス、MAC アドレス、ダウンロード/アップロード速度、総トラフィックが表示され、IP の予約、クライアントのブロック、その他の操作も行えます。
 
-- [**WireGuard クライアントのセットアップ**](../../interface_guide/wireguard_client.md)
-- [**WireGuard サーバーのセットアップ**](../../interface_guide/wireguard_server.md)
+Clients の設定については、[Clients](../../interface_guide/clients.md)を参照してください。
 
----
+## クラウドサービス
+
+=== "GoodCloud"
+
+    GL.iNet [GoodCloud](https://www.goodcloud.xyz){target="_blank"} サービスは、GL.iNet ルーターへリモートアクセスして管理するための簡単な方法を提供します。
+    
+    GoodCloud の設定については、[GoodCloud](../../interface_guide/cloud.md)を参照してください。
+
+=== "AstroWarp"
+
+    AstroWarp は、シームレスなリモートネットワークとリモートデバイス管理を提供する高度なネットワーキングプラットフォームです。GL.iNet ルーター連携向けに構築されており、ネットワーク全体にわたる包括的なデバイス管理をサポートし、上位デバイスと下位デバイスの両方を制御できます。ネットワーク全体の管理と将来的なハードウェアレベル制御を重視し、デバイス管理と安全で安定したネットワーク維持のための、より堅牢で信頼性の高いソリューションを提供します。
+    
+    AstroWarp の設定については、[AstroWarp](../../interface_guide/astrowarp.md)を参照してください。
 
 ## アプリケーション
 
-GL.iNetルーターには、デバイス管理の簡素化、ユーザーのインターネット体験の向上、ファームウェアの自動更新など、幅広いアドオン機能が含まれています。
+=== "Plug-ins"
 
-### プラグイン
+    プラグインは、既存のコンピュータープログラムに特定の機能を追加するソフトウェアコンポーネントで、機能のカスタマイズや拡張を可能にします。
+    
+    Plug-ins の設定については、[Plug-ins](../../interface_guide/plugins.md)を参照してください。
 
-[**プラグイン**](../../interface_guide/plugins.md)チュートリアルにアクセスしてください。
+=== "Dynamic DNS"
 
-### ダイナミックDNS
+    Dynamic DNS（DDNS）は、ドメインに関連付けられた IP アドレスをリアルタイムで自動検出し、更新します。ドメイン名をルーターの動的なパブリックIPアドレスに対応付けるため、固定IPアドレスがなくてもネットワークにリモートアクセスできます。
+    
+    Dynamic DNS の設定については、[Dynamic DNS](../../interface_guide/ddns.md)を参照してください。
 
- [**ダイナミックDNS**](../../interface_guide/ddns.md)チュートリアルにアクセスしてください。
+=== "Network Storage"
 
-### GoodCloud
-
- [**GoodCloud**](../../interface_guide/cloud.md)チュートリアルにアクセスしてください。
-
-### ネットワークストレージ
-
- [**ネットワークストレージ**](../../interface_guide/network_storage.md)チュートリアルにアクセスしてください。
-
-### AdGuard Home
-
- [**AdGuard Home**](../../interface_guide/adguardhome.md)チュートリアルにアクセスしてください。
-
-### ペアレンタルコントロール
-
- [**ペアレンタルコントロール**](../../interface_guide/parental_control.md)チュートリアルにアクセスしてください。
-
-### ZeroTier
-
- [**ZeroTier**](../../interface_guide/zerotier.md)チュートリアルにアクセスしてください。
-
-### Tailscale
-
- [**Tailscale**](../../interface_guide/tailscale.md)チュートリアルにアクセスしてください。
+    Network storage は、複数のユーザーやデバイスがネットワーク経由でファイルへアクセスし共有できる、集中型のデータストレージソリューションです。
+    
+    Network Storage の設定については、[Network Storage](../../interface_guide/network_storage.md)を参照してください。
 
 ---
 
-## ネットワーク
+=== "AdGuard Home"
 
-### ファイアウォール
+    AdGuard Home は、ホームネットワークに接続されたすべてのデバイスで不要なコンテンツをフィルタリングする DNS サーバーとして動作する、ネットワーク全体の広告・トラッカー ブロックソリューションです。
+    
+    AdGuard Home の設定については、[AdGuard Home](../../interface_guide/adguardhome.md)を参照してください。
 
-GL.iNetのルーターは、安全な接続とユーザーによる完全な監視を保証するため、複数のファイヤーウォール機能を備えています。ポート転送、オープンポート、DMZなどのファイアウォールルールを設定することができます。
+=== "Parental Control"
 
-[GL.iNetルーターのファイアウォールについて詳しくはこちら](../../interface_guide/firewall.md)
+    Parental control は、お子様のデバイスを管理・制御するための設定群です。画面使用時間の制限や、特定コンテンツへのアクセス制限などが含まれます。Brume 2 では、GL.iNet が開発したローカル版と、ペアレンタルコントロールアプリ Bark による統合版の 2 つのペアレンタルコントロールオプションを利用できます。
 
-### Multi-WAN
+    Parental Control の設定については、[Parental controls](../../interface_guide/parental_control.md)を参照してください。
 
- [**Multi-WAN**](../../interface_guide/multi-wan.md)チュートリアルにアクセスしてください。
+=== "ZeroTier"
 
-### LAN
-
- [**LAN**](../../interface_guide/lan.md) チュートリアルにアクセスしてください。
-
-### DNS
-
- [**DNS**](../../interface_guide/dns.md) チュートリアルにアクセスしてください。
-
-### ネットワークモード
-
- [**ネットワークモード**](../../interface_guide/network_mode.md) チュートリアルにアクセスしてください。
-
-### IPv6
-
- [**IPv6**](../../interface_guide/ipv6.md) チュートリアルにアクセスしてください。
-
-### MACアドレス
-
-Mac アドレスページは、以前はMacクローンと呼ばれていましたが、v4.2からMacアドレスに変更されました。
-
- [**MACアドレス**](../../interface_guide/mac_address.md)チュートリアルにアクセスしてください。
-
-### ドロップイン・ゲートウェイ
-
- [**ドロップイン・ゲートウェイ**](../../interface_guide/drop-in_gateway.md) チュートリアルにアクセスしてください。
-
-### IGMPスヌーピング
-
- [**IGMPスヌーピング**](../../interface_guide/igmp_snooping.md) チュートリアルにアクセスしてください。
-
-### ネットワークアクセラレーション
-
-以前は[ハードウェア アクセラレーション](../../interface_guide/hardware_acceleration.md)と呼ばれていました。
-
-[**ネットワークアクセラレーション**](../../interface_guide/network_acceleration.md) チュートリアルにアクセスしてください。
+    ZeroTier は、インターネット上に安全な仮想ネットワークを作成し、デバイス同士を同じローカルネットワーク上にあるかのように接続できるソフトウェア定義ネットワーキングソリューションです。
+    
+    ZeroTier の設定については、[ZeroTier](../../interface_guide/zerotier.md)を参照してください。
 
 ---
 
-## システム
+=== "Tailscale"
 
-### 概要
+    Tailscale は、どこからでもデバイスやアプリケーションにアクセスできる VPN サービスです。
+    
+    Tailscale の設定については、[Tailscale](../../interface_guide/tailscale.md)を参照してください。
 
- [**システム概要**](../../interface_guide/system_overview.md) チュートリアルにアクセスしてください。
+## ネットワーク設定
 
-### アップグレード
+=== "Port forwarding"
 
-GL.iNet は、パフォーマンスを向上させ、バグを解決し、脆弱性を修正するために、ルーターのファームウェアを定期的にアップデートします。
+    Port forwarding は、インターネット上のリモートサーバーやデバイスからプライベートネットワーク内のデバイスへアクセスできるようにします。Port forwarding の設定については、[Port Forwards](../../interface_guide/port_forwarding.md)を参照してください。
 
- [**アップグレード**](../../interface_guide/upgrade.md) チュートリアルにアクセスしてください。
+=== "Multi-WAN"
 
-### スケジュールされたタスク
+    Multi-WAN は、Cellular、Repeater、Ethernet など複数のインターネット接続を同時に設定できるネットワーク機能です。現在のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これにより、スムーズで途切れにくいインターネットアクセスを維持できます。
 
- [**スケジュールされたタスク**](../../interface_guide/scheduled_tasks.md) チュートリアルにアクセスしてください。
+    Multi-WAN の設定については、[Multi-WAN](../../interface_guide/multi-wan.md)を参照してください。
 
-### 管理者パスワード
+=== "LAN"
 
-この機能はv4.5から[**セキュリティ**](../../interface_guide/security.md) に移動されました。
+    LAN（Local Area Network）は、自宅やオフィスなど限られた範囲内でコンピューターやデバイスを接続するネットワークです。高速なデータ転送とリソース共有を可能にし、デバイス同士が効率的に通信できます。
+    
+    LAN の設定については、[Lan Tutorial](../../interface_guide/lan.md)を参照してください。
 
- [**管理者パスワード**](../../interface_guide/admin_password.md) チュートリアルにアクセスしてください。
+---
 
-### タイムゾーン
+=== "DNS"
 
-  [**タイムゾーン**](../../interface_guide/time_zone.md) チュートリアルにアクセスしてください。
+    DNS ページでは、カスタム DNS サーバーの設定、DNS rebinding attack protection の有効化、すべてのクライアントの DNS 設定の上書き、カスタム DNS による VPN DNS の上書き許可、DNS サーバー設定モードの自動または Ethernet 接続からの手動指定を設定できます。
 
-### ログ
+    DNS の設定については、[DNS](../../interface_guide/dns.md)を参照してください。
 
- [**ログ**](../../interface_guide/log.md) チュートリアルにアクセスしてください。
+=== "Network Port Management"
 
-### セキュリティ
+    Network Port Management ページでは、WAN/LAN ポートの設定、WAN/LAN インターフェースの Ethernet 設定、WAN インターフェースの MAC mode と MAC address の指定、ネットワークポートのネゴシエート速度の確認を行えます。
 
-この機能はv4.5から利用可能です。
+---
 
- [**セキュリティ**](../../interface_guide/security.md) チュートリアルにアクセスしてください。
+=== "Network Mode"
 
-### ファームウェアをリセット
+    Network mode は、デバイスがネットワークへ接続し、他のデバイスと通信する方法を決定する設定です。
+    
+    Network Mode の設定については、[Network Mode](../../interface_guide/network_mode.md)を参照してください。
 
- [**ファームウェアのリセット**](../../interface_guide/reset_firmware.md) チュートリアルにアクセスしてください。
+=== "IPv6"
 
-### 詳細設定
+    IPv6（Internet Protocol version 6）は、IPv4 を置き換えるために設計された最新のインターネットプロトコルです。非常に大きなアドレス空間を提供し、インターネットに接続されるデバイス数の増加に対応するために必要な、ほぼ無制限の一意な IP アドレスを利用できます。
+    
+    IPv6 の設定については、[IPV6](../../interface_guide/ipv6.md)を参照してください。
 
- [**詳細設定**](../../interface_guide/advanced_settings.md) チュートリアルにアクセスしてください。
+=== "Drop-in Gateway"
+
+    Drop-in Gateway は、AdGuard Home、暗号化 DNS、VPN など、メインルーターにない機能を追加します。
+    
+    Drop-in Gateway の設定については、[How to set up drop-in gateway](../../tutorials/how_to_set_up_drop_in_gateway.md)を参照してください。
+
+---
+
+=== "IGMP Snooping"
+
+    IGMP snooping は、Ethernet スイッチでマルチキャストトラフィックを管理・制御するためのネットワーク最適化技術です。
+    
+    IGMP Snooping の設定については、[IGMP Snooping](../../interface_guide/igmp_snooping.md)を参照してください。
+
+=== "Network Acceleration"
+
+    Hardware acceleration は、汎用 CPU よりも効率的に特定の処理を実行するために、専用ハードウェアコンポーネントを使用する仕組みです。
+    
+    Network Acceleration の設定については、[Network Acceleration](../../interface_guide/network_acceleration.md) チュートリアルを参照してください。
+
+=== "NAT Settings"
+
+    NAT Settings ページでは、Full Cone NAT と SIP ALG（Application Layer Gateway）機能の有効化または無効化を設定できます。
+
+    NAT settings の設定については、[NAT Settings](../../interface_guide/nat_settings.md)を参照してください。
+
+## システム設定
+
+=== "Overview"
+
+    Overview ページでは、ルーターの現在の状態とパフォーマンス指標をまとめて確認できます。このページでは次の情報を確認できます。
+
+    * CPU Average Load: ルーター CPU の平均負荷を監視し、パフォーマンス評価や潜在的なボトルネックの把握に役立ちます。
+    * Memory Usage: ルーターのメモリ使用量を確認し、リソース管理に役立ちます。
+    * LED Control: ルーターの LED ライトをオンまたはオフに切り替え、表示をカスタマイズできます。
+    * Flash Usage: ルーターのフラッシュストレージ使用量を確認し、ファームウェアや設定データ用の空き容量を把握できます。
+    * Device Info: uptime、hostname、model、architecture、OpenWrt version、kernel version、device ID、device MAC、device S/N など、ルーターのシステム情報にアクセスできます。
+    * External Storage: USB ドライブや TF カードなど、ルーターに接続された外部ストレージデバイスの状態を確認できます。
+    
+    これらの機能により、ルーターの動作を効果的に管理・監視するための重要な情報と制御を利用できます。
+
+    詳細な手順については、[Overview](../../interface_guide/system_overview.md)を参照してください。
+
+=== "Upgrade"
+
+    Upgrade ページは、ルーターのファームウェアを最新バージョンへ更新し、性能、セキュリティ、新機能を向上させるために使用します。このページには 2 種類のアップグレード方法があります。
+
+    * Firmware Online Upgrade: メーカーのサーバーで最新のファームウェアバージョンを自動的に確認します。オンラインで利用できる場合はインストールできます。
+    * Firmware Local Upgrade: コンピューターからファームウェアファイルを手動でアップロードしてルーターを更新し、アップグレードバージョンとタイミングを制御できます。
+
+    これらのオプションにより、ルーターを最新の改善や修正が含まれた状態に保てます。
+
+    詳細な手順については、[Upgrade](../../interface_guide/upgrade.md)を参照してください。
+
+=== "Scheduled Tasks"
+
+    Scheduled Tasks ページでは、事前に定義したスケジュールに基づいてルーター機能を自動化し、利便性と効率を高められます。このページの主な機能は次のとおりです。
+
+    * LED Display Schedule: 特定の時間帯にルーターの LED ライトを自動的にオンまたはオフにするスケジュールを設定し、光害を減らせます。
+    * Schedule Reboot: 指定した間隔でルーターを自動再起動するよう設定し、最適なパフォーマンスと安定性の維持に役立ちます。
+
+    これらのスケジュール機能により、ルーターの動作をより細かく制御し、特定のニーズや好みに合わせられます。
+
+    詳細な手順については、[Scheduled Tasks](../../interface_guide/scheduled_tasks.md)を参照してください。
+
+---
+
+=== "Time Zone"
+
+    Time Zone ページでは、ルーターに正しいタイムゾーンを設定し、すべてのスケジュールタスク、ログ、システムイベントが現地時間に基づいて正確に記録されるようにします。この設定は、正確な記録の維持と時間ベース設定の適切な実行に重要です。
+
+    詳細な手順については、[Time Zone](../../interface_guide/time_zone.md)を参照してください。
+
+=== "Log"
+
+    Log ページでは、トラブルシューティングやパフォーマンス監視に役立つ、ルーターの動作やイベントを記録した各種ログへアクセスできます。このページには次の項目があります。
+
+    * System Log: システムレベルのイベントや動作に関する詳細ログ。
+    * Kernel Log: カーネルの処理やイベントに関するログ。
+    * Crash Log: システムクラッシュやエラーの記録。重大な問題の診断に役立ちます。
+    * Cloud Log: ルーターに統合された GoodCloud サービスに関連する操作や通信のログ。
+    * Nginx Log: ルーターで Nginx Web サーバーを使用している場合のログ。Web トラフィックやサーバー動作の詳細を記録します。
+    
+    さらに、このページには Export Log ボタンがあり、収集されたすべてのログをテクニカルサポート分析用にエクスポートできます。この機能は、複雑な問題の診断や専門的な支援を受ける際に役立ちます。
+
+    詳細な手順については、[Log](../../interface_guide/log.md)を参照してください。
+
+=== "Security"
+
+    Security ページでは、不正アクセスからネットワークとルーターを保護するための各種セキュリティ設定を構成できます。このページには次のオプションがあります。
+
+    * Admin Password: ルーターの管理インターフェース用パスワードを設定または変更し、許可されたユーザーのみが設定を変更できるようにします。
+    * Local Access Control: ローカルネットワークに接続されたデバイスからルーターインターフェースへのアクセスを管理・制限します。
+    * Remote Access Control: インターネット経由のリモートロケーションからルーターインターフェースへのアクセスを設定・制限し、外部脅威に対するセキュリティを強化します。
+    * Open Ports on Router: ルーターで開いているポートを制御し、潜在的な脆弱性や不正アクセスを制限します。
+
+    これらの設定は、安全なネットワーク環境を維持し、ルーターと接続デバイスの両方を保護するのに役立ちます。
+
+    詳細な手順については、[Security](../../interface_guide/security.md)を参照してください。
+
+---
+
+=== "Reset Firmware"
+
+    Reset Firmware ページでは、現在のファームウェアバージョンをデフォルト設定へリセットし、すべてのカスタム設定を消去できます。この処理により、ルーターは現在インストールされているファームウェアバージョンのデフォルト設定に戻ります。継続的な問題のトラブルシューティングや、現在のファームウェアのデフォルト設定からやり直す場合に便利です。
+
+    詳細な手順については、[Reset Firmware](../../interface_guide/reset_firmware.md)を参照してください。
+
+=== "Advanced Settings"
+
+    Advanced Settings ページでは、OpenWrt LuCI インターフェースを通じて高度な設定オプションへアクセスできます。経験豊富なユーザーは、基本インターフェースの範囲を超えてルーターの設定や機能を細かく調整できます。詳細なネットワーク設定、ファイアウォール設定、その他の高度なシステムカスタマイズが含まれます。
+
+    詳細な手順については、[Advanced Settings](../../interface_guide/advanced_settings.md)を参照してください。

@@ -42,6 +42,8 @@ Sehen Sie sich dieses Video-Tutorial an oder folgen Sie den nachstehenden Schrit
 
         - Für **GL-MG1300 (Mango 2)**: Die blaue LED blinkt 7-mal, dann leuchtet sie dauerhaft weiß.
 
+        - Für **GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro) und GL-BE3600 (Slate 7)**: Nach etwa 5 Sekunden gedrückter Reset-Taste erscheint ein 5-Sekunden-Countdown auf dem Touchscreen. Halten Sie die Reset-Taste weiter gedrückt, bis die nächste Aufforderung auf dem Bildschirm erscheint, z. B. die IP-Adresse Ihres Computers manuell auf 192.168.1.2 setzen und mit dem Browser http://192.168.1.1 besuchen. Fahren Sie mit Schritt 4 fort.
+
         - Für **GL-MT3600BE (Beryl 7)**: Die blaue LED blinkt 7-mal, dann leuchtet sie dauerhaft weiß.
 
         - Für **GL-MT5000 (Brume 3)**: Die Power-LED blinkt 7-mal blau, dann leuchtet sie dauerhaft weiß.
@@ -49,8 +51,6 @@ Sehen Sie sich dieses Video-Tutorial an oder folgen Sie den nachstehenden Schrit
         - Für **GL-BE6500 (Flint 3e)**: Die blaue LED blinkt 6-mal, dann leuchtet sie dauerhaft weiß.
 
         - Für **GL-BE9300 (Flint 3)**: Die blaue LED blinkt 6-mal, dann leuchtet sie dauerhaft weiß.
-
-        - Für **GL-BE3600 (Slate 7)**: Nach etwa 5 Sekunden gedrückter Reset-Taste erscheint ein 5-Sekunden-Countdown auf dem Touchscreen. Halten Sie die Reset-Taste weiter gedrückt, bis die nächste Aufforderung auf dem Bildschirm erscheint, z. B. die IP-Adresse Ihres Computers manuell auf 192.168.1.2 setzen und mit dem Browser http://192.168.1.1 besuchen. Fahren Sie mit Schritt 4 fort.
 
         - Für **GL-X2000 (Spitz Plus)**: Die Internet-LED blinkt 5-mal, dann bleibt die Wi-Fi-LED an.
 

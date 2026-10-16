@@ -236,27 +236,27 @@
     "targets": {
       "de": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "es": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "fr": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "it": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "ja": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       }
     }
   },
@@ -1495,15 +1495,15 @@
       },
       "it": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "ja": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       }
     }
   },
@@ -3923,7 +3923,7 @@
       },
       "es": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "fr": {
         "model": "claude-opus-5-5-manual-sync",
@@ -4718,7 +4718,7 @@
       },
       "ja": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -4747,7 +4747,7 @@
       },
       "ja": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5066,7 +5066,7 @@
       },
       "ja": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5095,7 +5095,7 @@
       },
       "ja": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
@@ -5559,7 +5559,7 @@
       },
       "ja": {
         "model": "claude-opus-5-5-manual-sync",
-        "updated_at": 1792139333
+        "updated_at": 1792143662
       },
       "pl": {
         "model": "claude-opus-5-5-manual-sync",

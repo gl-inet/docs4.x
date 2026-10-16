@@ -42,6 +42,8 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
         - Pour le **GL-MG1300 (Mango 2)** : la LED bleue clignote 7 fois, puis devient blanche fixe.
 
+        - Pour les **GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro) et GL-BE3600 (Slate 7)** : après avoir maintenu le bouton Reset enfoncé pendant environ 5 secondes, un compte à rebours de 5 secondes apparaît sur l’écran tactile. Continuez à appuyer sur le bouton Reset jusqu’à ce que l’invite suivante apparaisse à l’écran, par exemple définir manuellement l’adresse IP de votre ordinateur sur 192.168.1.2 et utiliser un navigateur pour accéder à http://192.168.1.1. Passez ensuite à l’étape 4.
+
         - Pour le **GL-MT3600BE (Beryl 7)** : la LED bleue clignote 7 fois, puis devient blanche fixe.
 
         - Pour le **GL-MT5000 (Brume 3)** : la LED d’alimentation clignote en bleu 7 fois, puis devient blanche fixe.
@@ -49,8 +51,6 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
         - Pour le **GL-BE6500 (Flint 3e)** : la LED bleue clignote 6 fois, puis devient blanche fixe.
 
         - Pour le **GL-BE9300 (Flint 3)** : la LED bleue clignote 6 fois, puis devient blanche fixe.
-
-        - Pour le **GL-BE3600 (Slate 7)** : après avoir maintenu le bouton Reset enfoncé pendant environ 5 secondes, un compte à rebours de 5 secondes apparaît sur l’écran tactile. Continuez à appuyer sur le bouton Reset jusqu’à ce que l’invite suivante apparaisse à l’écran, par exemple définir manuellement l’adresse IP de votre ordinateur sur 192.168.1.2 et utiliser un navigateur pour accéder à http://192.168.1.1. Passez ensuite à l’étape 4.
 
         - Pour le **GL-X2000 (Spitz Plus)** : la LED Internet clignote 5 fois, puis la LED Wi-Fi reste allumée.
 

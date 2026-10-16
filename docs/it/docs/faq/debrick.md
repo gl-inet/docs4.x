@@ -42,6 +42,8 @@ Fai riferimento a questo video tutorial oppure segui la procedura riportata di s
 
         - Per **GL-MG1300 (Mango 2)**: il LED blu lampeggia 7 volte, poi diventa bianco fisso.
 
+        - Per **GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro) e GL-BE3600 (Slate 7)**: dopo aver tenuto premuto il pulsante Reset per circa 5 secondi, sul touchscreen apparirà un conto alla rovescia di 5 secondi. Continua a tenere premuto il pulsante Reset finché sullo schermo non compare il messaggio successivo, ad esempio di impostare manualmente l'indirizzo IP del computer su 192.168.1.2 e visitare http://192.168.1.1 con il browser. Passa al passaggio 4 per ulteriori istruzioni.
+
         - Per **GL-MT3600BE (Beryl 7)**: il LED blu lampeggia 7 volte, poi diventa bianco fisso.
 
         - Per **GL-MT5000 (Brume 3)**: il LED Power lampeggia in blu 7 volte, poi diventa bianco fisso.
@@ -49,8 +51,6 @@ Fai riferimento a questo video tutorial oppure segui la procedura riportata di s
         - Per **GL-BE6500 (Flint 3e)**: il LED blu lampeggia 6 volte, poi diventa bianco fisso.
 
         - Per **GL-BE9300 (Flint 3)**: il LED blu lampeggia 6 volte, poi diventa bianco fisso.
-
-        - Per **GL-BE3600 (Slate 7)**: dopo aver tenuto premuto il pulsante Reset per circa 5 secondi, sul touchscreen apparirà un conto alla rovescia di 5 secondi. Continua a tenerlo premuto finché sullo schermo non compare il messaggio successivo, ad esempio di impostare manualmente l'IP del computer su 192.168.1.2 e visitare http://192.168.1.1 con il browser. Passa al passaggio 4 per ulteriori istruzioni.
 
         - Per **GL-X2000 (Spitz Plus)**: il LED Internet lampeggia 5 volte, poi il LED Wi-Fi rimane acceso.
 

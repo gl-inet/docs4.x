@@ -42,6 +42,8 @@ Obejrzyj ten samouczek wideo lub wykonaj poniższe czynności, aby uzyskać dost
 
         - Dla **GL-MG1300 (Mango 2)**: niebieska dioda LED miga 7 razy, a następnie świeci ciągłym białym światłem.
 
+        - Dla **GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro) i GL-BE3600 (Slate 7)**: po przytrzymaniu przycisku Reset przez około 5 sekund na ekranie dotykowym pojawi się 5-sekundowe odliczanie. Nadal przytrzymuj przycisk Reset, aż na ekranie pojawi się kolejny komunikat, np. z prośbą o ręczne ustawienie adresu IP komputera na 192.168.1.2 i otwarcie w przeglądarce adresu http://192.168.1.1. Dalsze instrukcje znajdziesz w kroku 4.
+
         - Dla **GL-MT3600BE (Beryl 7)**: niebieska dioda LED miga 7 razy, a następnie świeci ciągłym białym światłem.
         
         - Dla **GL-MT5000 (Brume 3)**: dioda Power miga na niebiesko 7 razy, a następnie świeci ciągłym białym światłem.
@@ -49,8 +51,6 @@ Obejrzyj ten samouczek wideo lub wykonaj poniższe czynności, aby uzyskać dost
         - Dla **GL-BE6500 (Flint 3e)**: niebieska dioda LED miga 6 razy, a następnie świeci ciągłym białym światłem.
         
         - Dla **GL-BE9300 (Flint 3)**: niebieska dioda LED miga 6 razy, a następnie świeci ciągłym białym światłem.
-        
-        - Dla **GL-BE3600 (Slate 7)**: po przytrzymaniu przycisku Reset przez około 5 sekund na ekranie dotykowym pojawi się 5-sekundowe odliczanie. Nadal przytrzymuj przycisk Reset, aż na ekranie pojawi się kolejny komunikat, np. aby ręcznie ustawić adres IP komputera na 192.168.1.2 i odwiedzić w przeglądarce adres http://192.168.1.1. Następnie przejdź do kroku 4.
 
         - Dla **GL-X2000 (Spitz Plus)**: dioda Internet miga 5 razy, a następnie dioda Wi-Fi pozostaje włączona.
 

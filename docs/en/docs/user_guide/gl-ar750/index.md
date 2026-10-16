@@ -135,7 +135,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * Port Forwarding: Redirect specific traffic from the internet to designated devices within your network, enabling access to services like gaming servers or web servers.
     * Open Ports: Monitor and control which ports on your router are open, helping to prevent unauthorized access and potential security threats.
-    * DMZ (Demilitarized Zone): Place a device outside the main firewall, allowing it to have unrestricted access to the internet while protecting the rest of your network from potential threats.
+    * DMZ (Demilitarized Zone): Expose one device to the Internet by forwarding all inbound traffic to it.
 
     For detailed setup instructions and more information, please refer to [Firewall](../../interface_guide/firewall.md).
 

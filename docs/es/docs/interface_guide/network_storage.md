@@ -22,6 +22,7 @@ En los dispositivos con almacenamiento flash de 32 MB o menos, la función Netwo
 
 | Modelo de router                         | Samba | WebDAV | DLNA | Puerto USB | Tarjeta MicroSD |
 | :--------------------------------------- | :---: | :----: | :--: | :--------: | :-------------: |
+| GL-MT6000 (Fortify)                    | √     | √     | √     | √        | -            |
 | GL-MG1300 (Mango 2)                    | √     | -     | -     | √        | -            |
 | GL-BE14000 (Flint 4)                   | √     | √     | √     | √        | -            |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
@@ -41,9 +42,9 @@ En los dispositivos con almacenamiento flash de 32 MB o menos, la función Netwo
 | GL-AX1800 (Flint)                      | √     | √     | √     | √        | -            |
 | GL-A1300 (Slate Plus)                  | √     | √     | √     | √        | -            |
 | GL-S1300 (Convexa-S)                   | √     | √     | √     | √        | -            |
-| GL-SFT1200 (Opal)</br>***FW 4.8+**     | √     | -     | -     | √        | -            |
-| GL-E750V2 (Mudi V2)</br>***FW 4.8+**   | √     | -     | -     | √        | √            |
-| GL-AR750S-EXT (Slate)</br>***FW 4.7+** | √     | -     | -     | √        | √            |
+| GL-SFT1200 (Opal)<br>**FW 4.8+**     | √     | -     | -     | √        | -            |
+| GL-E750V2 (Mudi V2)<br>**FW 4.8+**   | √     | -     | -     | √        | √            |
+| GL-AR750S-EXT (Slate)<br>**FW 4.7+** | √     | -     | -     | √        | √            |
 
 ## Conectar dispositivo de almacenamiento {#connect-storage-device}
 
@@ -235,27 +236,27 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
         Abra la app **Files**. Viene instalada de forma predeterminada, por lo que debería encontrarla en la pantalla de inicio. Como **Files** ahora es una app extraíble, es posible que tenga que reinstalarla desde la App Store si no aparece.
 
-        ![buscar files en iphone](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width=300"}
+        ![buscar files en iphone](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width="300"}
 
         Asegúrese de estar en la pestaña **Browse** en la parte inferior de la pantalla. Toque el icono "…" (tres puntos) de la parte superior derecha para mostrar el menú contextual de la aplicación.
 
-        ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width=560"}
+        ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
         Toque la opción **Connect to Server** cerca de la parte superior del menú. En la pantalla siguiente, introduzca la URL de conexión del servidor. Puede encontrar la URL en el [enlace compartido](#configurar-samba). Toque el botón **Next** en la parte superior derecha para continuar.
 
-        ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width=560"}
+        ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
         La siguiente pantalla le permite introducir las credenciales de autenticación si va a conectarse a un recurso de red protegido. Toque **Registered User** y rellene los campos **Name** y **Password** con su nombre de usuario y contraseña de Samba. Puede tocar "Guest" en su lugar si habilitó **Anonymous Access**.
 
-        ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_3.png){class="glboxshadow" width=560"}
+        ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_3.png){class="glboxshadow" width="560"}
 
         Pulse el botón **Next** en la parte superior derecha para completar la conexión. El dispositivo iOS debería conectarse correctamente al servidor y mostrar una lista de los recursos compartidos disponibles.
 
-        ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_4.png){class="glboxshadow" width=560"}
+        ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_4.png){class="glboxshadow" width="560"}
 
         El recurso compartido de Samba aparecerá en la parte inferior del menú, bajo el encabezado **Shared**.
 
-        ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width=560"}
+        ![ios files configurar SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width="560"}
 
     - Guía para conectarse al servidor Samba con la app [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
 
@@ -321,7 +322,7 @@ Conecte el dispositivo de almacenamiento. Cuando se detecte, la página se mostr
 
 === "Android"
 
-    Hay muchas aplicaciones de iOS compatibles con WebDAV; aquí se muestra un ejemplo con [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}.
+    Hay muchas aplicaciones de Android compatibles con WebDAV; aquí se muestra un ejemplo con [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}.
 
     Nota: Cx File Explorer no admite acceso anónimo.
 

@@ -29,7 +29,7 @@ Obejrzyj [film z rozpakowania Beryl](../../video_library/unboxing_first_set_up.m
 
 ## Pierwsza konfiguracja
 
-Wszystkie routery GL.iNet mają podobny proces konfiguracji. [Kliknij tutaj, aby dowiedzieć się więcej o pierwszej konfiguracji](../../faq/first_time_setup.md/).
+Wszystkie routery GL.iNet mają podobny proces konfiguracji. [Kliknij tutaj, aby dowiedzieć się więcej o pierwszej konfiguracji](../../faq/first_time_setup.md).
 
 ## INTERNET
 

@@ -128,7 +128,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) rileva automaticamente e aggiorna in tempo reale l'indirizzo IP associato a un dominio. E utile per gli utenti che hanno bisogno di un indirizzo IP statico per accedere a una rete remota.
+    Dynamic DNS (DDNS) rileva automaticamente e aggiorna in tempo reale l'indirizzo IP associato a un dominio. Collega un nome di dominio all'indirizzo IP pubblico dinamico del router, consentendo l'accesso remoto alla rete senza un indirizzo IP statico.
 
     Per configurarlo, fai riferimento a [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -185,12 +185,6 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
     Per configurarla, fai riferimento a [LAN](../../interface_guide/lan.md).
 
 ---
-
-=== "Guest Network"
-
-    Consente di impostare una sottorete all'interno degli intervalli di indirizzi privati IPv4 192.168.0.0/16, 172.16.0.0/12 o 10.0.0.0/8, specificare gli indirizzi IP di gateway e netmask e configurare impostazioni di sicurezza come l'isolamento AP per la rete ospite.
-
-    Per configurarla, fai riferimento a [Guest Network](../../interface_guide/guest_network.md).
 
 === "DNS"
 
@@ -263,7 +257,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     La pagina Upgrade viene usata per aggiornare il firmware del router alla versione piu recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
 
-    * Firmware Online Upgrade: controlla e installa automaticamente la versione firmware piu recente direttamente dal server del produttore, semplificando il processo di aggiornamento.
+    * Firmware Online Upgrade: verifica automaticamente sul server del produttore la disponibilità della versione firmware più recente. Se disponibile online, è possibile installarla.
     * Firmware Local Upgrade: consente di caricare manualmente un file firmware dal computer per aggiornare il router, offrendo controllo sulla versione e sul momento dell'aggiornamento.
 
     Queste opzioni permettono di mantenere il router aggiornato con gli ultimi miglioramenti e le ultime correzioni.

@@ -29,31 +29,31 @@
     }
   },
   "docs/en/docs/faq/cannot_access_web_admin_panel.md": {
-    "source_hash": "f541749c8a831d67becd0249f9bf44ef8b9295149067cb89bb4de3050b6eb47b",
+    "source_hash": "37768d7c05e0e7013055ff1758afdfdae999ad6380c27956551ec076ff42ab82",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -232,31 +232,31 @@
     }
   },
   "docs/en/docs/faq/debrick.md": {
-    "source_hash": "2d08860028c53679c938e41704ecb8016b5547379c92b2dc772b933095ee0a5d",
+    "source_hash": "e6692d8a77d21fdb07cff5bbfdbd0b5d8f17409fc8f86ed048ab9e037a7f56c7",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -435,31 +435,31 @@
     }
   },
   "docs/en/docs/faq/how_to_make_wifi_calling_work_on_opal.md": {
-    "source_hash": "1beffc25b57b2da6d679bf0cf2974ab92e22bc471026f7226586d0e91e0dff22",
+    "source_hash": "813ebfd2c39107a39c59e72bdc13e955415db8cea4ebee852d076ef225c250e1",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576476
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775603329
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605852
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -783,31 +783,31 @@
     }
   },
   "docs/en/docs/faq/produce_a_wired_connection.md": {
-    "source_hash": "b2da607dcfe2cca8370a1ef6e46e63791d0dbb0e13df65d0611c970480040b48",
+    "source_hash": "c636b83b519e063b7fd2326d6a4d81a3965d46809711b3c78870c697d85ea036",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1774576580
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567637
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605937
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -841,31 +841,31 @@
     }
   },
   "docs/en/docs/faq/repair_network_or_reset_firmware.md": {
-    "source_hash": "c0282bb026bd260021ec77c11ed7a74d8b3a41f8e84076db2c2686cc7f2dd9a6",
+    "source_hash": "38c721fbfdf1e205a02e0b2242c3e4c089088b2a8bf88d1718f1b11f18c77307",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -986,31 +986,31 @@
     }
   },
   "docs/en/docs/faq/upgrade_uboot_version.md": {
-    "source_hash": "ba29f846f961dc37e3cf9ca8af728d219350395d596e850f4d7f1e13aaaa67e3",
+    "source_hash": "20afb738e2213b2833ad76f0152fe3f560219b33720ba4fb62d02206967eba27",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -1247,31 +1247,31 @@
     }
   },
   "docs/en/docs/faq/why_is_my_vpn_speed_slow.md": {
-    "source_hash": "a59b45c30ab9f1ede92058f902174e303efc020c19d441c24e5997db2e86978f",
+    "source_hash": "4f09d4b80c9a82a486eec9f0db1699d56360ee7378466b5fc3b56489c280408f",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1776635437
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -1305,31 +1305,31 @@
     }
   },
   "docs/en/docs/interface_guide/adguardhome.md": {
-    "source_hash": "2cc37e75987496d06af0c82bffc00f681d1c082778faf1bd3e1e752b5b38c8b1",
+    "source_hash": "a5001a69ecbf81ce6a1865a47db2e60beb0151ef6f7c38e79c540c04eb2d463f",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -1392,60 +1392,60 @@
     }
   },
   "docs/en/docs/interface_guide/astrowarp.md": {
-    "source_hash": "2f6c137cb07cc5da3431d2552a4e490e4941f641165f78fc24689d6578ddf16a",
+    "source_hash": "058e681ccf62c937c3a0f45eddb37e92c84b95dd90d520d1a2c8bda450008215",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1788747273
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/bark.md": {
-    "source_hash": "ee68194b62c7fd38086812bf4f6eb92690a762c6e7766402fe8649bf75d02b76",
+    "source_hash": "129982cf9fbe563cf46eb03f22ffed0ff0ebb1faf4137e21c9d3e28eb3d753fb",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -1479,118 +1479,118 @@
     }
   },
   "docs/en/docs/interface_guide/cloud.md": {
-    "source_hash": "f75f7b7ad6a2370a52c287ce09e032e91fb09329ca7103946b67f97ca367b92d",
+    "source_hash": "d1d739721a7d48be748546d5433fea59bf772718b15471fc1716bc6edc89214f",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/content_filter.md": {
-    "source_hash": "020ae5f72cced8ef75eb6728271d63b2076dc481748333b7d0ded302f5468a9b",
+    "source_hash": "7818890184f9e7d3f8038bd0f6cd83935deb6352485deb197f77cb85922230ad",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/data_statistics.md": {
-    "source_hash": "886d808f9ee569e6cb6f5ba2f1e4ae01eea195c60138b87237ac59702018824a",
+    "source_hash": "9a6e6d0cf40f9481e22ebd11c77f2bac2c675ffd9f0ee86659c7d7aef7ace3d2",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/ddns.md": {
-    "source_hash": "4aacc730168a519c9a264428b62305c0bdb26dba6524b2b57be45d92c7fad4ff",
+    "source_hash": "cd8cf45c6f6118ab704cee8f2be3985b9cdbd94ec570a03483858d8f87b0f7fa",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -1653,60 +1653,60 @@
     }
   },
   "docs/en/docs/interface_guide/dpi_engine.md": {
-    "source_hash": "5fd194442dc5a300029376ceb3ac848c983d6036c36442c58e56e05b004f9321",
+    "source_hash": "2ba5d45b3c508ee1b210acc759b31db55bce7dc3fb266157dabfd6e5ce262a2c",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/drop-in_gateway.md": {
-    "source_hash": "aa266c85d1e4c4c86793a71e67d579886098b578967a9bae57c79d9532436358",
+    "source_hash": "3e8514d8a71cb4c4a353bc1648a7ebc8b4125155575295f7ca22039be01257a1",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -1827,31 +1827,31 @@
     }
   },
   "docs/en/docs/interface_guide/hardware_acceleration.md": {
-    "source_hash": "8d3adbf74336a40c997e598f894041c3ec8ba1ac30a49ebc52e24c0a00e7797e",
+    "source_hash": "9708c4081aba02191d5c589578fa524c50f9b7f5219c0fa256345c237f2b6d94",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -1914,31 +1914,31 @@
     }
   },
   "docs/en/docs/interface_guide/igmp_snooping.md": {
-    "source_hash": "bcf6b326b1448a641b9da66f4e08ef89e437ffb09f256b377cf3d625e5fc923b",
+    "source_hash": "a5abbc83d0eb2fa35749fea91712008542e888a66686695cd423a72a26f04306",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -1972,31 +1972,31 @@
     }
   },
   "docs/en/docs/interface_guide/internet.md": {
-    "source_hash": "557e489ed967b665deeb95f2b985f3461cf5fae7490ae2dee869ce7409115833",
+    "source_hash": "a3e41d16338e307b8dfe203710d395382d317a1572f1e537e587b8fade9792fc",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -2088,31 +2088,31 @@
     }
   },
   "docs/en/docs/interface_guide/internet_repeater.md": {
-    "source_hash": "e90700836e4b5c1a2002b191b0972eca64450926abea83ec3a03835b3a23a26d",
+    "source_hash": "cc9bf7d6b21ef2e344b129b78a489c64f0bbddb7d2cce4be54e9f956b60b2e0f",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -2291,89 +2291,89 @@
     }
   },
   "docs/en/docs/interface_guide/multi-wan.md": {
-    "source_hash": "3d493fe30ef89ede318aecf1cc9a12c3bff69877257ee89d5f5160c14bd989fc",
+    "source_hash": "01e9eb583f4f36b01a06cea4efa095090a5810c0e839dd6c44469e8909962330",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/nat_settings.md": {
-    "source_hash": "2b6a06afdb8c15dd3b8ee38801749d3b5c0c5900578f7ecd5954bc9c40f36f08",
+    "source_hash": "0d08c7854aeb8edab9fc8979599ba1c5e298dfdc7444be1f85afe52db9454c44",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/network_acceleration.md": {
-    "source_hash": "67a0430e5c20fd140a5d4987a0a2cd7d1a075760fcbbc1ffb10f103a2e597a79",
+    "source_hash": "f2849256f71b1e8c607c851a1e1ae4bdb9cca436fb52d6ce65909c83fc459825",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -2407,31 +2407,31 @@
     }
   },
   "docs/en/docs/interface_guide/network_storage.md": {
-    "source_hash": "bb137d39c7ee07ca4281c5d58cb9bcc39d6283d92edd70025be099ca22b7c249",
+    "source_hash": "fb8ca82bbb01f70790873a1624bea7499d4c9d5b19ef232a45a47561ee632ca8",
     "targets": {
       "de": {
-        "model": "reviewed-no-target-change",
-        "updated_at": 1790151519
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "reviewed-no-target-change",
-        "updated_at": 1790151519
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "reviewed-no-target-change",
-        "updated_at": 1790151519
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "reviewed-no-target-change",
-        "updated_at": 1790151519
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "reviewed-no-target-change",
-        "updated_at": 1790151519
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "reviewed-no-target-change",
-        "updated_at": 1790151519
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -2465,60 +2465,60 @@
     }
   },
   "docs/en/docs/interface_guide/openvpn_server.md": {
-    "source_hash": "ed6bf98ac556f42a1d2609a624cb97f8cec21449a474fca5c521b014d1207a68",
+    "source_hash": "b3268280849e2b2266f07a0eb60dabf9277f65cf07e03239edc4bef1a70194f2",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/parental_control.md": {
-    "source_hash": "661599deea5f73914a24c03c8d5d50160e0d968ed1d77a3327a8f8a08464492c",
+    "source_hash": "2a15f6ac1be42dec08d1e16e67aaa75db4cdd86f2d580a9cd0b7630cfaf36031",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -2552,60 +2552,60 @@
     }
   },
   "docs/en/docs/interface_guide/port_forwarding.md": {
-    "source_hash": "f8606269dda019309c2feffe69093bc6ef31faa8751ad0eec6925143d962e6e9",
+    "source_hash": "17fab88b8a0d6a217151e08f778e823a32e8e8e9100abfb934d75ac2ec3e98a7",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/qos.md": {
-    "source_hash": "c2eb63a7356548797272073e07b5ec593a30196fda76b4126517f7151f197c21",
+    "source_hash": "bbef564eab2c2a9c53d928f12e777c30185afe7706f60301ab8e952f1f754d06",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -2697,31 +2697,31 @@
     }
   },
   "docs/en/docs/interface_guide/sqm.md": {
-    "source_hash": "cb4a0ad419cce9f2ee9f91718dfae0a13d4b333ec0469c1bf0e89b8a3ed48bda",
+    "source_hash": "4e4257a70239dabded04010be7331eaf922bc4205ac4bcba3defc9559d7c3406",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -2755,31 +2755,31 @@
     }
   },
   "docs/en/docs/interface_guide/tailscale.md": {
-    "source_hash": "6b2b48c0fb4610ec18e37cb5d7046f856da1564344a43a83a0b7d41d87cf095f",
+    "source_hash": "db9d10092f44b6f9903d4dd2121d88d96f35b635f3fa8cc9ea3474a5d5507b2f",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787799497
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -2813,60 +2813,60 @@
     }
   },
   "docs/en/docs/interface_guide/toggle_button_settings.md": {
-    "source_hash": "12760e493aceb9bc49625f27ac39b40472100923501af842c891945183734317",
+    "source_hash": "59aa4324243fff4f971ac160aa8c3fef6fadb9c2bd9f4a41f2a6c1eee911cfb0",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/tor.md": {
-    "source_hash": "78304ad12361b2d013d8b07ff0893f6d3f23282de9a3a520be37aa873bed2aa2",
+    "source_hash": "2c986b01c942c2be4e6c3a7d284b3fb5217e59f4d4d6f3a29463dd32fbf52c37",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -2987,60 +2987,60 @@
     }
   },
   "docs/en/docs/interface_guide/vpn_dashboard_v4.7.md": {
-    "source_hash": "da235351e1fc0803a178c202852fe1ae9f3e3c111b4ea6a93c656ebb3b396ba4",
+    "source_hash": "f48f4291c4029d581bfd84871eebb9a705567f19e8a3257d0a61d9084036fd38",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/vpn_dashboard_v4.8.md": {
-    "source_hash": "c81f94d5853563bacd1cc57518e38c47f30a1bf624bbdc7b009d97a0cc6427ec",
+    "source_hash": "bcd3658540811a05abea609080f6dd8f4d9c69bc38c58bc8b80e1abfb88c210f",
     "targets": {
       "de": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-sync",
-        "updated_at": 1783759579
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -3074,31 +3074,31 @@
     }
   },
   "docs/en/docs/interface_guide/wireguard_client_v4.6.md": {
-    "source_hash": "7e2951817071c3ea7c8b0db5ac7453670cd20150c2835de3013405dea51dfbdb",
+    "source_hash": "6c3a11520c91b9d6dd68939b20e53824587ee0a74791c05da1859900f54fbed2",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787569060
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -3132,60 +3132,60 @@
     }
   },
   "docs/en/docs/interface_guide/wireless.md": {
-    "source_hash": "33ce73e8ca2d3cb59e79545ea2195f143bfa6dc11d8e3f0cde6102185b143b26",
+    "source_hash": "3a8a67999602060115e24fdb513ebd6308d8d4c5f84adecec9fa821f3a6a0d37",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/zerotier.md": {
-    "source_hash": "1509f18ab5c6dda20162601fa1ab62294a05e18e71f02e26b7bd0bb255594f92",
+    "source_hash": "8ecfd2cd9fd1d360dae648a81d8072c2c79656024e30b865c4cbf0999e7da94f",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -3277,60 +3277,60 @@
     }
   },
   "docs/en/docs/tutorials/eap.md": {
-    "source_hash": "119626d5914b70c575c3c66a2b734621ba56e69ee288b67e26e5f5f21f92d5f3",
+    "source_hash": "0ec30390a93c9b55dbf7b9daaab180779300e550911aede3bf8899471a923336",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/tutorials/get_module_logs.md": {
-    "source_hash": "7a3b0fba2f9c8121ad39ee6376e0819d673d44c295344d8a8e2648fd788c82e2",
+    "source_hash": "441faa1d246fff7af779ff8062b5e244c89b9cc4430370358b6d42db87b8470b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775092437
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605389
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -3451,60 +3451,60 @@
     }
   },
   "docs/en/docs/tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md": {
-    "source_hash": "55754c82021315a6846581ab3fa682994cecd8fc2f74ce90be1207b0bf5e793d",
+    "source_hash": "e3a56a2401f36655187f593a58f5a88d751475e2d9252bc19be431f11b1d3968",
     "targets": {
       "de": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/tutorials/how_to_block_client_devices.md": {
-    "source_hash": "93fdc6b3ca11969d62310e06c334c86b983acd7c6493cbbaa1acfa104c213b9d",
+    "source_hash": "52ad9d3d51be454ed36f0ae5b70f916366eda861ff5842e5361bed816c246f7a",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775093544
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606395
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -3712,31 +3712,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md": {
-    "source_hash": "cc811ec59bf52e770cc5478ba1cf95de9f240021d7a5da81b1d8c56fef0da9aa",
+    "source_hash": "05f1f75e8cd8d5d4244d0464d05ea0b6d79ce57906db6a7ff6e96c32513127a6",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -3886,60 +3886,60 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md": {
-    "source_hash": "a2c9f91c4d7ef591274dc4358c0009e3b0b834faed3548868355178e5a2a31cc",
+    "source_hash": "8a94d47671e77c35812c276c3d0a04203125f310ab0dc813cc827dba4d647df5",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_drop_in_gateway.md": {
-    "source_hash": "4eb9235dde510836eeeb2b271ed6c7da36e7b11dcd13c62b1341fc1be31d0368",
+    "source_hash": "abb1ce91f0bc2667ebf0ad0318574c45506fafc9edb2f4207039561a5c3173b1",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775095657
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -4002,31 +4002,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_set_up_port_forwarding.md": {
-    "source_hash": "e1fce97d1f2fa05fcd8847d2c3360b224fc76a683cfee90d76fd4929f2b17f9c",
+    "source_hash": "72fe67a3611cecde218a63b13b9964c143cee0e464a4c97fea4fba15417dd1c5",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775097764
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569647
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605619
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -4060,31 +4060,31 @@
     }
   },
   "docs/en/docs/tutorials/how_to_upgrade_downgrade_router.md": {
-    "source_hash": "8d23dc8594080b5bb70b63ca6f68753fa68583e650d547d469b6e125c8a36845",
+    "source_hash": "59b3d1fe84d237b1d067114bf761d8f4a9970ce45d3268b0921b5035ada6bb99",
     "targets": {
       "de": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-sync",
-        "updated_at": 1783760121
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -4205,118 +4205,118 @@
     }
   },
   "docs/en/docs/tutorials/index.md": {
-    "source_hash": "0bb8fbfbe580164a9f4914943b8aea6b27ac58a54c35b7b01967c0f699cec460",
+    "source_hash": "f33df389a1e9762382ec6a619f70fae9bbdb90f5562a77c94b41f7b3206387b2",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/tutorials/manually_configure_static_ip.md": {
-    "source_hash": "a0a771493ff75fd4c00c2edf5a1036e34874ecc0ffd5d01c8ba1640e7cf20a53",
+    "source_hash": "8236f01000bdd6e421fd2fc508ce8368aafcb0a9b5da25bee62f8bf8e05a48f4",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785311131
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/tutorials/openvpn_server_access_client_lan_side.md": {
-    "source_hash": "113118c5ffa008dd55c547469c6ce07ac9be28ed47476ef66c3494428b23aa16",
+    "source_hash": "0c88c71bf47737c1a7e2e77af0835a309beb559cfc6e01b185aee0cb2218b33f",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775105946
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605692
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/tutorials/reserve_fixed_IP_for_ovpn_client.md": {
-    "source_hash": "499b7572dd0a36045de11bd8827a311f1e8e7c4683a0a92b0ee86fccd6db5141",
+    "source_hash": "41db3a454ca3ff4ec8ed0f88a24cab8547b141f189c27a30ec508e5302631fff",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775105946
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775568476
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606750
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -4350,60 +4350,60 @@
     }
   },
   "docs/en/docs/tutorials/sms_forwarding.md": {
-    "source_hash": "61bd24000ebf5947ad4d7394b1112b70e3e116ad9ba3a70e49c4690008db9270",
+    "source_hash": "9e1566b6f667a9cd6dde6962f104d80511259e1875c42255e8577cc2fb2de870",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/tutorials/ssh_log_in_to_the_router.md": {
-    "source_hash": "3f286e505b639c1c550d4aa128ebc02d426554f7c8389d28e6379aba03aa7529",
+    "source_hash": "8992b026b27c0d06ccedcca80e030ee2f545cc35bfb36a3077a1f07640ae8084",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775109975
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606750
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -4437,31 +4437,31 @@
     }
   },
   "docs/en/docs/tutorials/upgrade_quectel_module_software.md": {
-    "source_hash": "0fedbaa3346adfd2a0630437e847212e23ded642474c7ac46a08c76749e217fe",
+    "source_hash": "2abbfe758ef2557fce9e943d84a9e57782de672c875072c7d31a2bbb120e7ce8",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -4495,495 +4495,495 @@
     }
   },
   "docs/en/docs/tutorials/winscp_share_file.md": {
-    "source_hash": "501d65b612a64cd73df94d33aa4edc05b81682dae8bba8ac8a4be901111a87b5",
+    "source_hash": "fe28f639568d5efc46ed59f1a82d7d0237dd264688de0b408213f2b51a048845",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775111745
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775569415
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775606455
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/tutorials/wireguard_server_access_to_client_lan_side.md": {
-    "source_hash": "7b8faa418ad7747c30eb117fe4582c6f90374f6424a1cd881c22859bc267ac0e",
+    "source_hash": "31fee0574363353b5487b9fa76d05cd50fa4fd1a5af1cc1474a124f05439a6cb",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1773981801
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775111745
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775568476
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775605633
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-a1300/index.md": {
-    "source_hash": "5cb0b0deeb927ba7d4155cea1bf92af94fbab6d30e3ebded7956c986bc2b5ba2",
+    "source_hash": "2c03c8415843d0311f62bae249a384b9cbcb4679ff80b8ccf2f93e663e450258",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-ap1300/index.md": {
-    "source_hash": "edce6a851dcd1938fc4cd59e694a52453d67310a1810a05a298fcdcde66daec8",
+    "source_hash": "1cc5f714d7599d310d4730153472f3784a7e159dbfc84f6d61418e629fdf24e7",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-ar300m/index.md": {
-    "source_hash": "d17b966a3d8fc283a3f8ea9dc7c480fc73b4df1204bfaec5cb5951e061686932",
+    "source_hash": "fb4ee2a212298f831732c060901f0fcfa861cd5ca148606a4390a3adf8993df0",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-ar750/index.md": {
-    "source_hash": "7b922c5a5c66be2f5d39242a165a0e035daf62d2773fcf28c53ade36e18776a6",
+    "source_hash": "6745d327fa03c17421582887a5e763a49f47c3b811140eef47d00f9631b0604c",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775114113
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775567859
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775607075
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-ar750s/index.md": {
-    "source_hash": "d77389e0c2b6ae271f5c8c7f44cdfa48c9d6838c0789c56bead41e0b604177cc",
+    "source_hash": "cc6a4782121d81796f6592ba9d202abe783e3807a2f3dd201f5fb3ab23534c1e",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-ax1800/index.md": {
-    "source_hash": "9337b364a3b316539023f8ff0784fe6038f8b7a4cbb61a7e9c6e3b752e7cc1c0",
+    "source_hash": "d054e0aeaac7f1b8dc1aa96c8c0737bfa50c86bfbb9e8b83bd3d968581c3b636",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-axt1800/index.md": {
-    "source_hash": "54176e6f9964bcd7222d4b879d5170c63845674b76e3e71b03c724c77ca06c78",
+    "source_hash": "bb9a97fd883fe7ec267c87c98588320ecdb0dbf5f84535dfa3c6fa13c6ba4809",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-b1300/index.md": {
-    "source_hash": "a6005636961274e84bb3887933e26e8b32ec1348650418a8b85f2c9e4fc4d901",
+    "source_hash": "1f7b7a2db966cac984e44baab880af4cfc2d5234fee49a79cc04924144e2e597",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-b3000/index.md": {
-    "source_hash": "6300d7cb47f2fd8ee83d08cd3bcc59c85894aa95d4ce4bc19063322b0d831cfa",
+    "source_hash": "6321192103465ff783402ea02847103b75360ee944ae10d1251162c9d9fd905b",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1773902571
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1774324141
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1775114675
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1775604540
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1775607171
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-be10000/index.md": {
-    "source_hash": "9d998356df2298853a2d44e7db95e539065257c526d67a4f2c3393e4bd2ee5c7",
+    "source_hash": "1c00f649c642d120941ab999ba84978c1189075366a8d30052740a94ac5a5752",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-be3600/index.md": {
-    "source_hash": "baa1d125263446c18504d6d5bc34599da3457ffd7d6e538f750912ebbed17799",
+    "source_hash": "58d87085b2b61d6fa8bddf8bc20116b7fb580f13de10537e6699d33408ee7d9e",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-be6500/index.md": {
-    "source_hash": "30d298341cadf1d18d8454005a869172e912468b23c09c2ee733e50faf09dd70",
+    "source_hash": "8e4d3431db40b6495b0b57aa982a3b5162695a7a8fc5743fa90e40845388392d",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-be9300/index.md": {
-    "source_hash": "45655d7e3b23bb081af66c57b5af7326be7904e0e0864b2e6446985659c384d7",
+    "source_hash": "c6dce88cf747d4f8786623bf9d458171135e9a7352bef4158b8b60f578cd6b7d",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-e5800/index.md": {
-    "source_hash": "65d497fbbeed34b00dc0d96af11ad9d21e93dfd82201333830d7ebe3f86a6754",
+    "source_hash": "6f4eacfe3a7b8413ff5ea35838daaa7befe7d52ea01b1d35d03e17af13cbe99e",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-e750/index.md": {
-    "source_hash": "31078be0c5259b13f334810590337097b60869e624bb8fe6160e214f5d0532f6",
+    "source_hash": "c0c8db30b0ae3413738683c383f90393d7d01c99cc1cd8bcc89270ffea6a6483",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -5017,234 +5017,234 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt1300/index.md": {
-    "source_hash": "747791ef8f7cf5cff0729c13e90b98b1ed541a484cdbfcea44166ed79d6466bb",
+    "source_hash": "b0679980416e6c713110c1cc8d53b1a6bd85fc024a3d3db60b8787378a316620",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt2500/index.md": {
-    "source_hash": "21f41aae4f5064aab8ca8c2fb455ffdcea4ce1f7189938a75e5706d1f51c3a9a",
+    "source_hash": "f068ed2590c14692601984f5781505ac7e900646609ed68e05c0e1287e888abe",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt3000/index.md": {
-    "source_hash": "3456c53909cf6021d929fb457e50f87184c15b5a6bc49547ef50c5fbf052c72f",
+    "source_hash": "02399fa12fb5cfdde9a8ebfb12c00bcfae7be9bf621ccc3c1e6042e1a803c730",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt300n-v2/index.md": {
-    "source_hash": "5b4244b60d28dac418951226fb65a9300c3c7673ba300cc25acda82a5b510cd0",
+    "source_hash": "8a3179c2dae5fa8c718527ac221174fa463cf4fd64cb3c661beef9f9298a4766",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt3600be/index.md": {
-    "source_hash": "d33d92eab74bd3b798d84f2716d9b85b711c246735ebe1355fb439fa2ec01065",
+    "source_hash": "e5c521e20fba2d2bd717312e08d237ad0fbdb2862080353cb7588988472cd5a9",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt5000/index.md": {
-    "source_hash": "0a72e692d76f11f573ea89961ec622f8fbe87fabf29c6b176b29c5cacf321493",
+    "source_hash": "8c407ea4649c4a0d17ca0131cc18c640bc2ab7957b55fee3be6694048ac51ea3",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-mt6000/index.md": {
-    "source_hash": "053d80d3a53afb27eff2d83bc0ad954545c253905086044e0862ab3f829a906d",
+    "source_hash": "e7f1370a85015f490c6d3b1a35a27d703ab5084c304bd86e2b81a32e2371cea4",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-mv1000/index.md": {
-    "source_hash": "e462301ef24942b2bc63abc79a2a388074af7290b8f79cffac31df43aecaad5f",
+    "source_hash": "c6091520d53b542d664223fde851d3193248f0f8107c385f070c709eb0a847e1",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -5278,31 +5278,31 @@
     }
   },
   "docs/en/docs/user_guide/gl-s1300/index.md": {
-    "source_hash": "532197bb3b71f91953fe5dc86e1257025ce2ae2ff44da379ba304f81251243e4",
+    "source_hash": "f401762d486e142c1a44f27d4a1b8c613f5e94ea7a5d4bd26f87ea49fca6cab5",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -5336,234 +5336,234 @@
     }
   },
   "docs/en/docs/user_guide/gl-s200/index.md": {
-    "source_hash": "4ecd005f6efe0516c6126abe4e326f1ebe871d63cd783c1cca49c148405ec659",
+    "source_hash": "78fb27d3a4682698a057e7e6a7bbacbea530e3ed5e94c7d8aa98b1cf162ba54f",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-sft1200/index.md": {
-    "source_hash": "9e2db1cf28d17f144f9972539fc033c294b2faeb29faf9c5913b9efa69ca71fb",
+    "source_hash": "84bdf967c69ca40ed13005e2aa545b9dbcb6962399fa6aaf866791edfb1cb44f",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-x2000/index.md": {
-    "source_hash": "6cc4a508343c4fb62f0ddda76b08bccd282ccbb58333db3c5f3fd31131955db0",
+    "source_hash": "e551398d652fead44f64eb2758f829fe4d148e36c760df432bcf3fea2885bf60",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-x3000/index.md": {
-    "source_hash": "2f4a36269f4f465d2bc21fcc5bc3e61aa95060c0b21db4f291a28bc6647671f6",
+    "source_hash": "882432b26b5ee67bff5812fb4a7a76fa933f299f053de95efa4043d8e93e4a19",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-x300b/index.md": {
-    "source_hash": "634d5f12fabf8ecc03bb5af0fbfff7dcaf8fb773bf102bfa2dd101f16bb9de02",
+    "source_hash": "dcea49fca3fb9bbc8c65c36307531cd9747db8266f684349625ccb3ea2941c29",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785379941
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-x750/index.md": {
-    "source_hash": "d1a6fb7de1250b33c03c032d96a43cfd9ed98fb0596390aba2f1d706805eeee1",
+    "source_hash": "c455692201f81cae70d8e08d9c9b5af98f1d61e4825e0f47583a54c32423c3d0",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-xe300/index.md": {
-    "source_hash": "d0d609a1db98d5bad706e741fc0b8b227c7adef3f76d4a0d63be75da2ea9333a",
+    "source_hash": "6f0201bb03f9587d9aef96399f4eb999f06e264109a2a819644a34463a8391d7",
     "targets": {
       "de": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "pre-existing",
-        "updated_at": 1780110246
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "pre-existing",
-        "updated_at": 1776635405
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "pre-existing",
-        "updated_at": 1776635474
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "pre-existing",
-        "updated_at": 1776635972
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "pre-existing",
-        "updated_at": 1776635991
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-xe3000/index.md": {
-    "source_hash": "40310d820afe4f1949e16e35bf318e7edaed356013f49dc717cc7822ed0c2944",
+    "source_hash": "6d3f9084521abcbcfcd2c85153fa77256a4ff429edd01b7d86f1a40f736845c8",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -5597,89 +5597,89 @@
     }
   },
   "docs/en/docs/user_guide/simpoyo-4g-ufi/index.md": {
-    "source_hash": "7e84046d35e8890488648accc8419e5d88fd0359050bca6e93b064bca2f59570",
+    "source_hash": "ca8cea7af18063a18c8237f3b341d8ad004fe96843ab8a35dde6b45472dbd0a5",
     "targets": {
       "de": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-structural-sync",
-        "updated_at": 1783760220
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/video_library/index.md": {
-    "source_hash": "2598988765d85e3c4bcd1ca628717089f7acd0bb9463ebfdc2fee70518572cce",
+    "source_hash": "a2549026018b9e6a4d976fc72a9f5fea3145bba2e7dacaaaa2efba6c426247dc",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/video_library/products.md": {
-    "source_hash": "0ee1518778f718999d5d1c571994c85d818f44023c12a40a422c634efe9da58a",
+    "source_hash": "00e6dfa291fe5a4eb5be4a4db6f8ebbbeaceeb23000b7cf38b09917336ea2396",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -5713,60 +5713,60 @@
     }
   },
   "docs/en/docs/video_library/unboxing_first_set_up.md": {
-    "source_hash": "8fbe930e31623ba1a890b6f64552ad224dcdb1f04f000c4dc118a8bc7ffef9b4",
+    "source_hash": "3f3108bc29ab539994b55ce5ea3b66b936deff0049baf708ae7b00edb8a389ae",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/mkdocs.yml": {
-    "source_hash": "fa1f60101dababe9bca9eae15bfde27bb8fe8d8a7726bc524b1a88acdc821da2",
+    "source_hash": "9c7db35f9b560d9224fe1b1dcb4611141c34f4b4074abcae18c0b55a95e8dbdd",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
-        "updated_at": 1791775479
+        "updated_at": 1792139333
       },
       "es": {
         "model": "codex-manual-sync",
-        "updated_at": 1791775479
+        "updated_at": 1792139333
       },
       "fr": {
         "model": "codex-manual-sync",
-        "updated_at": 1791775479
+        "updated_at": 1792139333
       },
       "it": {
         "model": "codex-manual-sync",
-        "updated_at": 1791775479
+        "updated_at": 1792139333
       },
       "ja": {
         "model": "codex-manual-sync",
-        "updated_at": 1791775479
+        "updated_at": 1792139333
       },
       "pl": {
         "model": "codex-manual-sync",
-        "updated_at": 1791775479
+        "updated_at": 1792139333
       }
     }
   },
@@ -6090,31 +6090,31 @@
     }
   },
   "docs/en/docs/tutorials/sms.md": {
-    "source_hash": "5b925b1839ff4b24ddb9b97668d9a78978fb8f64a15bef42bdce2e5d7ca5cdce",
+    "source_hash": "dce4da5ece1ae596a6bb13a16857268a7258e17d7926dbed06caef354eded8a9",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1786528033
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -6148,31 +6148,31 @@
     }
   },
   "docs/en/docs/interface_guide/vpn_dashboard.md": {
-    "source_hash": "b109126ac27e62cdae3f20446189d7da8bf9fb517688e1b439aac511ea1c3047",
+    "source_hash": "b2702fcde330d093040a2c61496cb25265ff8950e13d27a39dbe8c6441af68db",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -6293,31 +6293,31 @@
     }
   },
   "docs/en/docs/interface_guide/wireless_v4.8.md": {
-    "source_hash": "6684088bce7f9e13a52dbdb8525ccd965c87e8c863b6c30c5f0f09939e4ddb3b",
+    "source_hash": "061ab05d78bcde81133336e5b846a51a24aba038500cd8e9beda3f8dcfe6516a",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1785992036
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -6351,31 +6351,31 @@
     }
   },
   "docs/en/docs/interface_guide/subnet.md": {
-    "source_hash": "16bc22f4ecb84764ba75f0621e8f694863a7a4090eb4ef5c9ac07adbd39321f4",
+    "source_hash": "af5e0597ff76085f86edeb1ff56bd6f75a893e05c73fd0cd33c3c068e481adb6",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "codex-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -6438,118 +6438,118 @@
     }
   },
   "docs/en/docs/interface_guide/glinet_account.md": {
-    "source_hash": "0d5736689db88e9503ce02fd5b4b57564716a63423f68812b56a4807cd68172f",
+    "source_hash": "171321e0f327c26981ea53e4df84b25a96c35cb073a04e7b9a9af5d2a43f70ef",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1787578278
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/interface_guide/mesh.md": {
-    "source_hash": "8058958a97beb79d487994ce2f7e111f4e6e2635986a6c474347baa82bb963db",
+    "source_hash": "99591516e96eaaa37f9f622468eb8b9805b04222e2de834f9e60dfbdd67dedb4",
     "targets": {
       "de": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "manual-incremental-sync",
-        "updated_at": 1790150484
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-be14000/index.md": {
-    "source_hash": "06a3f8216c2debbb045a335668bf4c02fcf8877d423e320e31a7845ac46a3ce0",
+    "source_hash": "4d75ed2fa30ce1ac23023abc3811355a5f22e3a263f17607b8f1a15611a9c0cd",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/user_guide/gl-mg1300/index.md": {
-    "source_hash": "debce51b889eb694f05059ef8518498342ba5fd640823ba1c41f32129920d781",
+    "source_hash": "3bb8b09bb49b6898f2580b42833a2ba018fbd238c76aee4e841a176f3e07b181",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -6583,31 +6583,31 @@
     }
   },
   "docs/en/docs/interface_guide/goodpas.md": {
-    "source_hash": "0874defc17be80b269dcc08ee48f9b70240f3d1b67fcfa1e2902387ca6de3a43",
+    "source_hash": "3d3fcc5c6180b9941847acff8760784d9a7f28df689adce6fce0b2707f111adf",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790927814
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -6670,31 +6670,31 @@
     }
   },
   "docs/en/docs/features_update/firmware_v4.10.md": {
-    "source_hash": "10f2bab20cb5faf01c1a7c2d045d800d70e8ed5b95cc8cbe7c8804c97047f781",
+    "source_hash": "d37ee24dbf7330718c7f73fe9396a4e1f4797a0e38375c4fea16dd2298c54a84",
     "targets": {
       "de": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-gpt-5-manual-sync",
-        "updated_at": 1789975896
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
@@ -6844,60 +6844,60 @@
     }
   },
   "docs/en/docs/user_guide/gl-mt6000ft/index.md": {
-    "source_hash": "b4cae974799fd2c682b932c43fcf48f8017bc75e238f10617b52a1adb092ac0a",
+    "source_hash": "bb6b49c1186a822f59e6fd132c76cf1cd19b784fa8bd44b2893c026de6d2658c",
     "targets": {
       "de": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "es": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "fr": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "it": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "ja": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       },
       "pl": {
-        "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792139333
       }
     }
   },
   "docs/en/docs/features_update/firmware_v4.11.md": {
-    "source_hash": "9844b8580dfee0d3ac22da91365d71f305785466a389d6a7ec733e690e2b0bc2",
+    "source_hash": "b0c408f61b8719f24e920d1e58859feb9bf6db2788b521b3d4d18e52c8eef41a",
     "targets": {
       "de": {
         "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "updated_at": 1792139333
       },
       "es": {
         "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "updated_at": 1792139333
       },
       "fr": {
         "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "updated_at": 1792139333
       },
       "it": {
         "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "updated_at": 1792139333
       },
       "ja": {
         "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "updated_at": 1792139333
       },
       "pl": {
         "model": "codex-manual-sync",
-        "updated_at": 1790929997
+        "updated_at": 1792139333
       }
     }
   }

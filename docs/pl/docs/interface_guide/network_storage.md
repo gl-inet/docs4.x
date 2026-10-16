@@ -22,6 +22,7 @@ W przypadku urządzeń z pamięcią flash o pojemności 32 MB lub mniejszej funk
 
 | Model routera                          | Samba | Webdav | DLNA | Port USB | Karta MicroSD |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
+| GL-MT6000 (Fortify) | √ | √ | √ | √ | - |
 | GL-MG1300 (Mango 2) | √ | - | - | √ | - |
 | GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
@@ -41,9 +42,9 @@ W przypadku urządzeń z pamięcią flash o pojemności 32 MB lub mniejszej funk
 | GL-AX1800 (Flint)                      | √     | √     | √     | √        | -            |
 | GL-A1300 (Slate Plus)                  | √     | √     | √     | √        | -            |
 | GL-S1300 (Convexa-S)                   | √     | √     | √     | √        | -            |
-| GL-SFT1200 (Opal)</br>***FW 4.8+**     | √     | -     | -     | √        | -            |
-| GL-E750V2 (Mudi V2)</br>***FW 4.8+**   | √     | -     | -     | √        | √            |
-| GL-AR750S-EXT (Slate)</br>***FW 4.7+** | √     | -     | -     | √        | √            |
+| GL-SFT1200 (Opal)<br>**FW 4.8+**     | √     | -     | -     | √        | -            |
+| GL-E750V2 (Mudi V2)<br>**FW 4.8+**   | √     | -     | -     | √        | √            |
+| GL-AR750S-EXT (Slate)<br>**FW 4.7+** | √     | -     | -     | √        | √            |
 
 ## Podłączanie urządzenia pamięci masowej {#connect-storage-device}
 
@@ -237,27 +238,27 @@ Podłącz urządzenie pamięci masowej. Po jego wykryciu strona wyświetli się 
 
         Otwórz aplikację **Files**. Jest ona zainstalowana domyślnie, więc powinna być widoczna na ekranie głównym. Ponieważ Files jest teraz aplikacją usuwalną, może być konieczne jej ponowne zainstalowanie z App Store, jeśli nie jest widoczna.
 
-        ![search files on iphone](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width=300"}
+        ![search files on iphone](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width="300"}
 
         Upewnij się, że jesteś na karcie **Browse** na dole ekranu. Stuknij ikonę „…" (trzy kropki) w prawym górnym rogu, aby wyświetlić menu kontekstowe aplikacji.
         
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
         Stuknij opcję **Connect to Server** przy górze menu. Na następnym ekranie wprowadź adres URL połączenia z serwerem. Adres URL znajdziesz w sekcji [Shared Link](#shared-link). Stuknij przycisk **Next** w prawym górnym rogu, aby kontynuować.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
         Na następnym ekranie możesz wprowadzić dane uwierzytelniające, jeśli łączysz się z chronionym udziałem sieciowym. Stuknij **Registered User** i wypełnij pola **Name** i **Password** nazwą użytkownika i hasłem Samba. Możesz stuknąć „Guest", jeśli włączyłeś opcję **Anonymous Access**.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_3.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_3.png){class="glboxshadow" width="560"}
 
         Naciśnij przycisk **Next** w prawym górnym rogu, aby zakończyć połączenie. Urządzenie iOS powinno pomyślnie połączyć się z serwerem i wyświetlić listę dostępnych udziałów.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_4.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_4.png){class="glboxshadow" width="560"}
 
         Udział Samba zostanie wyświetlony na dole menu, pod nagłówkiem **Shared**.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width="560"}
 
     - Przewodnik połączenia z serwerem Samba za pomocą aplikacji [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
 

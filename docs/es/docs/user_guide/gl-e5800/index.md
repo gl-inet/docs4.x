@@ -22,21 +22,6 @@ Vea a continuación el vídeo de unboxing de Mudi 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Seguridad de la batería y manipulación de baterías hinchadas {#battery-safety-and-swollen-battery-handling}
-
-Deje de usar y cargar el Mudi 7 si la batería está hinchada, tiene fugas, está inusualmente caliente o dañada, o desprende un olor inusual.
-
-- No presione, doble, perfore ni aplaste la batería, ni ejerza presión sobre ella.
-- No utilice herramientas para hacer palanca contra una batería hinchada o dañada.
-- No intente retirar una batería que esté hinchada, atascada, tenga fugas, esté caliente o que, por cualquier otro motivo, no pueda manipularse de forma segura.
-- No deseche una batería de iones de litio dañada en la basura doméstica ni en los contenedores de reciclaje habituales.
-- No envíe una batería hinchada o dañada por correo ni mediante un servicio de paquetería ordinario.
-- Póngase en contacto con el [soporte de GL.iNet](https://www.gl-inet.com/contacts/) para obtener ayuda con la garantía e instrucciones sobre los siguientes pasos.
-
-Si ya ha retirado la batería dañada, no vuelva a instalarla. Póngase en contacto con un centro local adecuado de reciclaje de baterías o de recogida de residuos domésticos peligrosos que acepte baterías de iones de litio dañadas.
-
-Si la batería emite humo, se calienta rápidamente, produce un siseo, arde o presenta cualquier otro peligro inmediato, aléjese del dispositivo y póngase en contacto con los servicios de emergencia locales.
-
 ## Cómo configurar Mudi 7
 
 Vea este vídeo de configuración o siga los pasos que se indican a continuación.
@@ -47,11 +32,11 @@ Vea este vídeo de configuración o siga los pasos que se indican a continuació
 
 Instale la(s) tarjeta(s) Nano-SIM en su Mudi 7. Si prefiere usar eSIM, omita este paso y vaya al paso 2.
 
+Primero, use la pequeña muesca situada en la esquina inferior derecha de la tapa trasera como punto de apoyo. Haga palanca a lo largo de la unión para crear una abertura, luego abra la tapa trasera y retire la batería de Mudi 7.
+
 !!! Warning
 
     Si la batería está hinchada, tiene fugas, está inusualmente caliente o dañada, o es difícil de retirar, deje de usar el dispositivo y no intente retirar la batería. Consulte [Seguridad de la batería y manipulación de baterías hinchadas](#battery-safety-and-swollen-battery-handling).
-
-Primero, use la pequeña muesca situada en la esquina inferior derecha de la tapa trasera como punto de apoyo. Haga palanca a lo largo de la unión para crear una abertura, luego abra la tapa trasera y retire la batería de Mudi 7.
 
 ![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
@@ -166,7 +151,10 @@ Configure su Mudi 7 con uno de los métodos de conexión a Internet compatibles:
 
     1. Conecte su dispositivo móvil, por ejemplo un smartphone o un dongle USB, al puerto USB-C de Mudi 7 mediante un cable USB.
     2. En su dispositivo móvil, vaya a Settings y active **USB Tethering**. Si usa iPhone, pulse **Trust This Device** si se lo solicita.
-    3. Mudi 7 se conectará automáticamente a su dispositivo. Si no se conecta, repita los pasos anteriores o inicie sesión en el panel de administración web y compruebe la conexión Tethering en la página INTERNET.
+    3. Cuando la pantalla táctil le solicite seleccionar el modo USB, seleccione **Host (USB OTG) mode**. Mudi 7 se conectará automáticamente a su dispositivo. Si no se conecta, repita los pasos anteriores o inicie sesión en el panel de administración web y compruebe la conexión Tethering en la página INTERNET.
+
+        Para obtener más información sobre las diferencias entre los modos USB, haga clic [aquí](https://docs.gl-inet.com/router/en/4/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg).
+
     4. Cuando la conexión a Internet se establezca correctamente, aparecerá un icono de cadena en la esquina superior derecha de la pantalla táctil. También puede comprobar los detalles de la conexión en el panel de administración web.
 
     Consulte [Conectarse a Internet mediante USB tethering](../../interface_guide/internet_tethering.md) para ver instrucciones detalladas.
@@ -214,17 +202,9 @@ Puede actualizar el firmware de Mudi 7 mediante la pantalla táctil o el panel d
 
 ### Actualizar mediante la Web
 
-1. Actualización en línea
+Inicie sesión en el panel de administración web y vaya a **SYSTEM** -> **Upgrade**. Puede actualizar el firmware del router en línea o de forma local.
 
-   Inicie sesión en el panel de administración web y vaya a **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade** para actualizar el firmware del router.
-
-   Consulte [aquí](../../interface_guide/upgrade.md#online-upgrade) para obtener más información.
-
-2. Actualización local
-
-   Inicie sesión en el panel de administración web y vaya a **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade** para actualizar el firmware del router.
-
-   Consulte [aquí](../../interface_guide/upgrade.md#local-upgrade) para obtener más información.
+Consulte [aquí](../../interface_guide/upgrade.md) para obtener más información.
 
 ## Restablecimiento de fábrica
 
@@ -254,7 +234,7 @@ Vea este vídeo o siga los pasos que se indican a continuación.
 
 1. Retire la tapa trasera y encontrará el botón de reinicio como se muestra a continuación.
 
-   ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+   ![reset button](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
 2. Realice un reinicio suave o un restablecimiento de fábrica según sea necesario.
 
@@ -461,7 +441,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Resulta especialmente útil para los usuarios que necesitan una dirección IP estática para acceder a una red remota.
+    Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Asigna un nombre de dominio a la dirección IP pública dinámica de su router, de modo que pueda acceder a su red de forma remota sin necesidad de una dirección IP estática.
 
     Para configurar Dynamic DNS, consulte [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -528,7 +508,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     La página Upgrade se utiliza para actualizar el firmware del router a la versión más reciente, garantizando mejor rendimiento, seguridad y nuevas funciones. Esta página ofrece dos opciones de actualización:
 
-    * Firmware Online Upgrade: comprueba automáticamente si hay una nueva versión de firmware y la instala directamente desde el servidor del fabricante, simplificando el proceso.
+    * Firmware Online Upgrade: comprueba automáticamente en el servidor del fabricante si existe una versión más reciente del firmware. Puede instalarla si está disponible en línea.
     * Firmware Local Upgrade: permite cargar manualmente un archivo de firmware desde el ordenador para actualizar el router, lo que le da control sobre la versión y el momento de la actualización.
 
     Estas opciones le permiten mantener el router actualizado con las mejoras y correcciones más recientes.
@@ -596,6 +576,21 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
     La página Advanced Settings ofrece acceso a opciones de configuración avanzada a través de la interfaz OpenWrt LuCI, lo que permite a los usuarios con experiencia ajustar con precisión la configuración y las funciones del router más allá de las opciones básicas de la interfaz. Esto incluye configuraciones detalladas de red, ajustes del firewall y otras personalizaciones avanzadas del sistema.
 
     Consulte [Advanced Settings](../../interface_guide/advanced_settings.md) para ver instrucciones detalladas.
+
+## Seguridad de la batería y manipulación de baterías hinchadas {#battery-safety-and-swollen-battery-handling}
+
+Deje de usar y cargar el Mudi 7 si la batería está hinchada, tiene fugas, está inusualmente caliente o dañada, o desprende un olor inusual.
+
+- No presione, doble, perfore ni aplaste la batería, ni ejerza presión sobre ella.
+- No utilice herramientas para hacer palanca contra una batería hinchada o dañada.
+- No intente retirar una batería que esté hinchada, atascada, tenga fugas, esté caliente o que, por cualquier otro motivo, no pueda manipularse de forma segura.
+- No deseche una batería de iones de litio dañada en la basura doméstica ni en los contenedores de reciclaje habituales.
+- No envíe una batería hinchada o dañada por correo ni mediante un servicio de paquetería ordinario.
+- Póngase en contacto con el [soporte de GL.iNet](https://www.gl-inet.com/contacts/) para obtener ayuda con la garantía e instrucciones sobre los siguientes pasos.
+
+Si ya ha retirado la batería dañada, no vuelva a instalarla. Póngase en contacto con un centro local adecuado de reciclaje de baterías o de recogida de residuos domésticos peligrosos que acepte baterías de iones de litio dañadas.
+
+Si la batería emite humo, se calienta rápidamente, produce un siseo, arde o presenta cualquier otro peligro inmediato, aléjese del dispositivo y póngase en contacto con los servicios de emergencia locales.
 
 ## Declaración de Conformidad
 

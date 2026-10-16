@@ -42,7 +42,7 @@ Prenons comme exemple la mise à niveau du module RM520N.
 
 4. Mettez à niveau le firmware du module à l’aide de la commande QFirehose, comme indiqué ci-dessous.
 
-    **Remarque** : remplacez "/RM520NGLAAR03A03M4G_01.201.01201" par le chemin réel du dossier du firmware de module.
+    **Remarque** : remplacez "/RM520NGLAAR03A03M4G_01.201.01.201" par le chemin réel du dossier du firmware de module.
 
     ```
     QFirehose-mtk7981a-sha256-c0b944 -f /RM520NGLAAR03A03M4G_01.201.01.201
@@ -72,7 +72,7 @@ Prenons comme exemple la mise à niveau du module EM060K.
 
 2. Branchez la clé USB sur votre routeur. Consultez ensuite [ce lien](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) pour vous connecter à votre routeur en SSH.
 
-3. Saisissez la commande `df - h` pour vérifier le chemin de montage de la clé USB, puis notez ce chemin.
+3. Saisissez la commande `df -h` pour vérifier le chemin de montage de la clé USB, puis notez ce chemin.
 
     ![check mounting path](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_mounting_path.png){class="glboxshadow"}
 

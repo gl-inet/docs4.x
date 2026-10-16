@@ -18,11 +18,13 @@ Zachowanie przełącznika można dostosować w panelu administracyjnym.
     - GL-A1300 (Slate Plus)
     - GL-MT300N-V2 (Mango)
     - GL-AR300M Series (Shadow)
+    - GL-S200
     - GL-E750V2 (Mudi V2)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
 
 ??? "Nieobsługiwane modele"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
@@ -30,7 +32,7 @@ Zachowanie przełącznika można dostosować w panelu administracyjnym.
     - GL-BE9300 (Flint 3)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
     - GL-AX1800 (Flint)
@@ -47,7 +49,7 @@ W lewym panelu bocznym panelu administracyjnego przejdź do **SYSTEM** -> **Togg
 
 ![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
 
-Przed firmware v4.8 dostępne są następujące opcje, które pozwalają dostosować funkcję przycisku przełącznika.
+Przed firmware v4.8 dostępnych jest pięć opcji pozwalających dostosować funkcję przycisku przełącznika.
 
 - No Function
 - AdGuard Home

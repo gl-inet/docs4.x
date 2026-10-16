@@ -130,9 +130,9 @@ Segui i passaggi seguenti per abilitare l'accesso remoto SSH per il router.
 
     ![enable ssh remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ssh_remote_access.png){class="glboxshadow"}
 
-Una volta abilitato, potrai accedere al pannello di amministrazione del router da qualsiasi luogo usando il nome host DDNS tramite **SSH** (ad esempio `ssh root@xxxxxxx.glddns.com`).
+Una volta abilitato, potrai accedere da remoto al terminale del router usando il nome host DDNS tramite **SSH** (ad esempio `ssh root@xxxxxxx.glddns.com`).
 
-Se il port forwarding e' configurato, accedi usando `ssh root@xxxxxxx.glddns.com:external_port` (sostituisci `external_port` con il numero di porta effettivo).
+Se il port forwarding e' configurato, accedi usando `ssh -p external_port root@xxxxxxx.glddns.com` (sostituisci `external_port` con il numero di porta effettivo).
 
 ---
 

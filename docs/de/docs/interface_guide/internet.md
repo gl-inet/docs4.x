@@ -2,7 +2,7 @@
 
 Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **INTERNET**.
 
-Die obere Hälfte zeigt ein Diagramm mit dem Internetstatus, und die untere Hälfte listet vier oder fünf Methoden für den Internetzugang auf (die Verfügbarkeit variiert je nach Modell).
+Die obere Hälfte zeigt ein Diagramm mit dem Internetstatus, und die untere Hälfte listet bis zu vier Methoden für den Internetzugang auf (die Verfügbarkeit variiert je nach Modell).
 
 ## Statusdiagramm
 

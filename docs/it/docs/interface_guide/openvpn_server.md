@@ -56,11 +56,11 @@ Accedi al pannello di amministrazione web e vai su **VPN** -> **OpenVPN Server**
 
     * **Authentication Mode:** determina il metodo di autenticazione usato quando il client si collega al server. Sono disponibili tre opzioni.
 
-        - **Certificate Only**: se selezionato, il router generera' automaticamente le chiavi del certificato server e client e le incorporera' nel file di configurazione client. Quando carichi la configurazione sul client, non saranno necessarie credenziali aggiuntive.
+        - **Certificate Only**: se selezionato, il router generera' automaticamente i certificati server e client e incorporera' il certificato e la chiave client nel file di configurazione client. Quando carichi la configurazione sul client, non saranno necessarie credenziali aggiuntive.
 
         - **Username/Password Only**: se selezionato, il router generera' una configurazione client senza chiavi di certificato. Devi prima aggiungere username e password nella scheda Users prima di esportare la configurazione client. Quando carichi la configurazione sul client, dovrai inserire queste credenziali per l'autenticazione.
 
-        - **Username/Password and Certificate**: se selezionato, devi prima aggiungere username e password nella scheda Users prima di esportare la configurazione client; inoltre, il router generera' automaticamente le chiavi del certificato server e client e le incorporera' nel file di configurazione. Quando carichi la configurazione sul client, verra' prima verificato il certificato, seguito dall'autenticazione username/password per una sicurezza a due fattori.
+        - **Username/Password and Certificate**: se selezionato, devi prima aggiungere username e password nella scheda Users prima di esportare la configurazione client; inoltre, il router generera' automaticamente i certificati server e client e incorporera' il certificato e la chiave client nel file di configurazione. Quando carichi la configurazione sul client, verra' prima verificato il certificato, seguito dall'autenticazione username/password per una sicurezza a due fattori.
 
         Ecco un esempio di creazione di un utente.
 

@@ -5,6 +5,7 @@ AdGuard Home est un logiciel de blocage des publicités et du pistage à l’éc
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)

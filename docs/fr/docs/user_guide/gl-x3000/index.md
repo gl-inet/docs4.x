@@ -81,7 +81,7 @@ Configurez votre Spitz AX en utilisant l'une des méthodes de connexion Internet
     
     Sinon, cliquez sur l'option **Auto Setup** si elle apparaît.
     
-    Veuillez consulter [Connexion à Internet via un réseau cellulaire](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models) pour des instructions détaillées.
+    Veuillez consulter [Connexion à Internet via un réseau cellulaire](../../interface_guide/internet_cellular.md#setup-for-dual-sim-models) pour des instructions détaillées.
 
     Découvrez [ici](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md) comment utiliser la carte physique eSIM sur un routeur GL.iNet.
 
@@ -183,7 +183,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "DNS dynamique"
 
-    Le DNS dynamique (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Il est particulièrement utile pour les utilisateurs qui ont besoin d'une adresse IP statique pour accéder à un réseau distant.
+    Le DNS dynamique (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Il associe un nom de domaine à l'adresse IP publique dynamique de votre routeur, ce qui vous permet d'accéder à votre réseau à distance sans adresse IP statique.
     
     Pour configurer le DNS dynamique, consultez [DNS dynamique](../../interface_guide/ddns.md).
 
@@ -251,7 +251,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Cette fonction vous permet de définir un sous-réseau dans les plages d'adresses privées IPv4 192.168.0.0/16, 172.16.0.0/12 ou 10.0.0.0/8, de spécifier les adresses IP de passerelle et de masque de sous-réseau, et de configurer des paramètres de sécurité comme l'isolation AP pour le réseau invité.
 
-    Pour configurer le réseau invité, consultez [Tutoriel LAN](../../interface_guide/guest_network.md).
+    Pour configurer le réseau invité, consultez [Réseau invité](../../interface_guide/guest_network.md).
 
 === "DNS"
 
@@ -324,11 +324,11 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Mise à niveau"
 
-    La page Mise à niveau permet de mettre à jour le firmware du routeur vers la version la plus récente, afin d'améliorer les performances, la sécurité et d'ajouter de nouvelles fonctionnalités. Cette page propose deux options de mise à niveau :
+    La page Mise à niveau permet de mettre à jour le firmware du routeur vers la version la plus récente, afin d'améliorer les performances, la sécurité et d'ajouter de nouvelles fonctionnalités. Cette page propose quatre options de mise à niveau :
 
-    * Mise à niveau du firmware en ligne : recherchez et installez automatiquement la dernière version du firmware directement depuis le serveur du fabricant afin de simplifier la mise à jour.
+    * Mise à niveau du firmware en ligne : recherche automatiquement la dernière version du firmware sur le serveur du fabricant. Vous pouvez l'installer si elle est disponible en ligne.
     * Mise à niveau locale du firmware : téléversez manuellement un fichier firmware depuis votre ordinateur pour mettre à jour le routeur, avec un contrôle total sur la version et le moment de la mise à jour.
-    * Mise à niveau en ligne du module : recherchez et installez automatiquement la dernière version du module 4G/5G directement depuis le serveur du fabricant afin de simplifier la mise à jour.
+    * Mise à niveau en ligne du module : recherche automatiquement la dernière version du module 4G/5G sur le serveur du fabricant. Vous pouvez l'installer si elle est disponible en ligne.
     * Mise à niveau locale du module : téléversez manuellement un fichier de module depuis votre ordinateur pour mettre à jour le module 4G/5G.
 
     Ces options vous permettent de maintenir votre routeur à jour avec les dernières améliorations et corrections.

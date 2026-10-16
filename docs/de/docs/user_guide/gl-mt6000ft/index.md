@@ -36,7 +36,27 @@ Fortify (GL-MT6000) ist ein Wi-Fi-6-Router mit Co-Branding, der gemeinsam von GL
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
+## Lieferumfang
+
+- 1 x Fortify (GL-MT6000)
+- 1 x Benutzerhandbuch
+- 1 x ExpressVPN-Aktivierungsanleitung
+- 1 x Ethernet-Kabel
+- 1 x Netzadapter
+- 1 x Dankeskarte
+- 1 x Adapter (je nach Versandland)
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/unboxing.png){class="glboxshadow"}
+
+Sehen Sie sich unten das Unboxing-Video von Fortify an.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## So richten Sie Fortify ein
+
+Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Einschalten
 
@@ -310,7 +330,7 @@ DPI (Deep Packet Inspection) ist eine Kernfunktion des intelligenten Netzwerkman
 
 === "Dynamic DNS"
 
-    Dynamisches DNS (DDNS) erkennt und aktualisiert automatisch die einer Domäne zugeordnete IP-Adresse in Echtzeit. Dies ist nützlich für Benutzer, die eine statische IP-Adresse für den Zugriff auf ein Remote-Netzwerk benötigen.
+    Dynamisches DNS (DDNS) erkennt und aktualisiert automatisch die einer Domäne zugeordnete IP-Adresse in Echtzeit. Dabei wird ein Domainname der dynamischen öffentlichen IP-Adresse Ihres Routers zugeordnet, sodass Sie ohne statische IP-Adresse aus der Ferne auf Ihr Netzwerk zugreifen können.
 
     Weitere Informationen finden Sie unter [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -381,7 +401,7 @@ DPI (Deep Packet Inspection) ist eine Kernfunktion des intelligenten Netzwerkman
 
     Auf der Seite „Upgrade“ können Sie die Firmware Ihres Routers auf die neueste Version aktualisieren und so eine verbesserte Leistung, Sicherheit und neue Funktionen gewährleisten. Diese Seite bietet zwei Optionen:
 
-    * Firmware-Online-Upgrade: Suchen Sie automatisch nach der neuesten Firmware-Version und installieren Sie diese direkt vom Server des Herstellers, was den Aktualisierungsprozess vereinfacht.
+    * Firmware-Online-Upgrade: Prüft automatisch auf dem Server des Herstellers, ob die neueste Firmware-Version verfügbar ist. Wenn eine neuere Version online verfügbar ist, können Sie sie installieren.
     * Lokales Firmware-Upgrade: Laden Sie manuell eine Firmware-Datei von Ihrem Computer hoch, um den Router zu aktualisieren und so die Kontrolle über die Upgrade-Version und den Zeitpunkt zu haben.
 
     Weitere Informationen finden Sie unter [Upgrade](../../interface_guide/upgrade.md).

@@ -42,7 +42,7 @@ VPN クライアントの Web 管理画面にログインし、**VPN** -> **VPN 
 
     ![tunnel target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select-target.png){class="glboxshadow"}
 
-    **Exclude Speficied Domain / IP** を選択し、ルーターの WAN サブネットを入力して、**Apply** をクリックします。
+    **Exclude specified Domain / IP List** を選択し、ルーターの WAN サブネットを入力して、**Apply** をクリックします。
 
     これにより、WAN サブネット宛てのすべてのトラフィックは VPN トンネルではなくローカル WAN 経由でルーティングされます。
 

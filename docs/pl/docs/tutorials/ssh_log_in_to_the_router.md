@@ -194,7 +194,7 @@ Proces w systemach Linux i Mac OS jest zasadniczo taki sam. Poniżej używamy Ub
 
         Jeśli tak się stanie, uruchom polecenie z czerwonego pola powyżej. Skopiuj dokładne polecenie wyświetlane w terminalu.
 
-        `ssh-keygen -f "~/.ssh/known_hosts" -R "192.168.8.1"`
+        `ssh-keygen -f ~/.ssh/known_hosts -R "192.168.8.1"`
 
         ![removed_host_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/removed_host_keygen.png){class="glboxshadow gl-90-desktop"}
 

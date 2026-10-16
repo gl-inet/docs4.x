@@ -26,7 +26,7 @@
 
     ![add ccd folder](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
 
-5. "GLsupport" というファイルを追加し、`ifconfig-push 10.8.0.10 255.255.255.0` と入力して保存・終了します。
+5. `/etc/openvpn/ccd` に移動して「GLsupport」というファイルを追加し、`ifconfig-push 10.8.0.10 255.255.255.0` と入力して保存し、ファイルを閉じます。
 
     `cat GLsupport` で内容を確認します。
 
@@ -36,9 +36,9 @@
 
     - "255.255.255.0" はサブネットマスクです。OpenVPNサーバーのサブネットマスクに置き換えることもできます。
 
-    **Note**: 複数のOpenVPNクライアントに固定IPを設定したい場合は、Step 2 で複数のユーザー名とパスワードを作成し、その後 Step 5 を繰り返して、CCDフォルダーに user_1、user_2、user_3 のようにユーザーごとのファイルを追加し、それぞれに "ifconfig push" コマンドと対応する固定IPおよびサブネットマスクを記述してください。
+    **Note**: 複数のOpenVPNクライアントに固定IPを設定したい場合は、Step 2 で複数のユーザー名とパスワードを作成し、その後 Step 5 を繰り返して、CCDフォルダーに user_1、user_2、user_3 のようにユーザーごとのファイルを追加し、それぞれに "ifconfig-push" コマンドと対応する固定IPおよびサブネットマスクを記述してください。
 
-    例: `ifconfig-push 10.8.0.20 225.225.225.0`、`ifconfig-push 10.8.0.30 225.225.225.0`、`ifconfig-push 10.8.0.40 225.225.225.0`
+    例: `ifconfig-push 10.8.0.20 255.255.255.0`、`ifconfig-push 10.8.0.30 255.255.255.0`、`ifconfig-push 10.8.0.40 255.255.255.0`
 
 6. 最後に、OVPNクライアントで接続テストを行い、クライアント仮想IP (IPv4) が予約したIPになっているか確認します。
 

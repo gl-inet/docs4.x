@@ -6,7 +6,27 @@ Fortify (GL-MT6000) to router Wi-Fi 6 pod wspólną marką wydany wspólnie prze
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
+## Zawartość opakowania
+
+- 1 x Fortify (GL-MT6000)
+- 1 x Instrukcja obsługi
+- 1 x Przewodnik aktywacji ExpressVPN
+- 1 x Kabel Ethernet
+- 1 x Zasilacz
+- 1 x Karta z podziękowaniem
+- 1 x Przejściówka (zależnie od kraju dostawy)
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/unboxing.png){class="glboxshadow"}
+
+Obejrzyj poniżej film z rozpakowania Fortify.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Jak skonfigurować Fortify
+
+Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Włącz
 
@@ -280,7 +300,7 @@ Aby skonfigurować serwer WireGuard, patrz [Serwer WireGuard](../../interface_gu
 
 === "Dynamic DNS"
 
-    Dynamiczny DNS (DDNS) automatycznie wykrywa i aktualizuje adres IP powiązany z domeną w czasie rzeczywistym. Jest to przydatne dla użytkowników, którzy potrzebują statycznego adresu IP, aby uzyskać dostęp do zdalnej sieci.
+    Dynamiczny DNS (DDNS) automatycznie wykrywa i aktualizuje adres IP powiązany z domeną w czasie rzeczywistym. Mapuje nazwę domeny na dynamiczny publiczny adres IP routera, dzięki czemu możesz zdalnie uzyskiwać dostęp do swojej sieci bez statycznego adresu IP.
 
     Aby uzyskać szczegółowe informacje, zobacz [Dynamiczny DNS](../../interface_guide/ddns.md).
 
@@ -351,7 +371,7 @@ Aby skonfigurować serwer WireGuard, patrz [Serwer WireGuard](../../interface_gu
 
     Strona Aktualizacja służy do aktualizacji oprogramowania sprzętowego routera do najnowszej wersji, co zapewnia lepszą wydajność, bezpieczeństwo i nowe funkcje. Na tej stronie dostępne są dwie opcje:
 
-    * Aktualizacja oprogramowania sprzętowego online: automatycznie sprawdzaj i instaluj najnowszą wersję oprogramowania sprzętowego bezpośrednio z serwera producenta, upraszczając proces aktualizacji.
+    * Aktualizacja oprogramowania sprzętowego online: automatyczne sprawdzanie dostępności najnowszej wersji firmware na serwerze producenta. Jeśli jest dostępna online, możesz ją zainstalować.
     * Lokalna aktualizacja oprogramowania sprzętowego: ręcznie prześlij plik oprogramowania sprzętowego z komputera, aby zaktualizować router, zapewniając kontrolę nad wersją i czasem aktualizacji.
 
     Aby uzyskać szczegółowe informacje, zobacz [Aktualizacja](../../interface_guide/upgrade.md).

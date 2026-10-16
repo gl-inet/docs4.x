@@ -54,11 +54,11 @@ Inicie sesión en el panel de administración web y vaya a **VPN** -> **OpenVPN 
    - **Protocol:** UDP o TCP. Haga clic [aquí](../faq/openvpn_tcp_udp.md) para consultar las diferencias.
 
    - **Authentication Mode:** Determina el método de autenticación que se utilizará cuando el cliente se conecte al servidor. Hay tres opciones.
-     - **Certificate Only**: Si se selecciona, el router generará automáticamente las claves de certificado del servidor y del cliente, y las integrará en el archivo de configuración del cliente. Cuando suba la configuración al cliente, no se requerirán credenciales adicionales.
+     - **Certificate Only**: Si se selecciona, el router generará automáticamente los certificados del servidor y del cliente, e integrará el certificado y la clave del cliente en el archivo de configuración del cliente. Cuando suba la configuración al cliente, no se requerirán credenciales adicionales.
 
      - **Username/Password Only**: Si se selecciona, el router generará la configuración del cliente sin claves de certificado. Antes de exportar la configuración del cliente, primero debe añadir un nombre de usuario y una contraseña en la pestaña **Users**. Al subir la configuración al cliente, deberá introducir estas credenciales para autenticarse.
 
-     - **Username/Password and Certificate**: Si se selecciona, primero debe añadir un nombre de usuario y una contraseña en la pestaña **Users** antes de exportar la configuración del cliente. Además, el router generará automáticamente las claves de certificado del servidor y del cliente y las integrará en el archivo de configuración. Al subir la configuración al cliente, primero se verificará el certificado y la clave, y después se realizará la autenticación mediante nombre de usuario y contraseña para proporcionar seguridad de dos factores.
+     - **Username/Password and Certificate**: Si se selecciona, primero debe añadir un nombre de usuario y una contraseña en la pestaña **Users** antes de exportar la configuración del cliente. Además, el router generará automáticamente los certificados del servidor y del cliente, e integrará el certificado y la clave del cliente en el archivo de configuración. Al subir la configuración al cliente, primero se verificará el certificado y la clave, y después se realizará la autenticación mediante nombre de usuario y contraseña para proporcionar seguridad de dos factores.
 
      A continuación se muestra un ejemplo de cómo crear un usuario.
 

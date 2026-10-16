@@ -12,6 +12,7 @@ Tor (abréviation de **The Onion Router**) est un logiciel libre et open source 
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT3600BE (Beryl 7)

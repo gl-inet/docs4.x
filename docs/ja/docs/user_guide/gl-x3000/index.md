@@ -81,7 +81,7 @@ Spitz AX は、Cellular、Ethernet、Repeater、Tethering の対応するイン�
     
     接続されない場合は、**Auto Setup** オプションが表示されていればクリックします。
     
-    詳細な手順については、[Cellular 経由でインターネットに接続する](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models)を参照してください。
+    詳細な手順については、[Cellular 経由でインターネットに接続する](../../interface_guide/internet_cellular.md#setup-for-dual-sim-models)を参照してください。
 
     GL.iNet ルーターで eSIM 物理カードを使用する方法は、[こちら](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)を参照してください。
 
@@ -183,7 +183,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Dynamic DNS"
 
-    Dynamic DNS（DDNS）は、ドメインに関連付けられた IP アドレスをリアルタイムで自動検出し、更新します。リモートネットワークへアクセスするために固定 IP アドレスが必要なユーザーに特に便利です。
+    Dynamic DNS（DDNS）は、ドメインに関連付けられた IP アドレスをリアルタイムで自動検出し、更新します。ドメイン名をルーターの動的なパブリックIPアドレスに対応付けるため、固定IPアドレスがなくてもネットワークにリモートアクセスできます。
     
     Dynamic DNS の設定については、[Dynamic DNS](../../interface_guide/ddns.md)を参照してください。
 
@@ -251,7 +251,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
     IPv4 プライベートアドレス範囲 192.168.0.0/16、172.16.0.0/12、10.0.0.0/8 内でサブネットを設定し、ゲートウェイとネットマスク IP アドレスを指定し、ゲストネットワーク向けに AP isolation などのセキュリティ設定を構成できます。
 
-    Guest Network の設定については、[Lan Tutorial](../../interface_guide/guest_network.md)を参照してください。
+    ゲストネットワークの設定については、[ゲストネットワーク](../../interface_guide/guest_network.md)を参照してください。
 
 === "DNS"
 
@@ -324,11 +324,11 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Upgrade"
 
-    Upgrade ページは、ルーターのファームウェアを最新バージョンへ更新し、性能、セキュリティ、新機能を向上させるために使用します。このページには 2 種類のアップグレード方法があります。
+    Upgrade ページは、ルーターのファームウェアを最新バージョンへ更新し、性能、セキュリティ、新機能を向上させるために使用します。このページには 4 種類のアップグレード方法があります。
 
-    * Firmware Online Upgrade: メーカーサーバーから最新ファームウェアバージョンを自動的に確認してインストールし、更新手順を簡略化します。
+    * Firmware Online Upgrade: メーカーのサーバーで最新のファームウェアバージョンを自動的に確認します。オンラインで利用できる場合はインストールできます。
     * Firmware Local Upgrade: コンピューターからファームウェアファイルを手動でアップロードしてルーターを更新し、アップグレードバージョンとタイミングを制御できます。
-    * Module Online Upgrade: メーカーサーバーから最新の 4G/5G モジュールバージョンを自動的に確認してインストールし、更新手順を簡略化します。
+    * Module Online Upgrade: メーカーのサーバーで最新の4G/5Gモジュールバージョンを自動的に確認します。オンラインで利用できる場合はインストールできます。
     * Module Local Upgrade: コンピューターからモジュールファイルを手動でアップロードして 4G/5G モジュールを更新します。
 
     これらのオプションにより、ルーターを最新の改善や修正が含まれた状態に保てます。

@@ -38,9 +38,9 @@ Fügen Sie im Pop-up-Fenster eine neue Regel für die Portweiterleitung hinzu un
 
 - **Internal Zone:** Für die interne Zone stehen `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server` und `WAN` zur Verfügung.
 
-- **Internal IP:** Die vom Router dem Gerät zugewiesene IP-Adresse, auf das per Fernzugriff zugegriffen werden soll. Wenn Sie unter **External Port** einen einzelnen Port festlegen, sollten Sie hier den einzelnen Port angeben. Wenn Sie unter **External Port** einen Portbereich festlegen, sollten Sie hier den entsprechenden Portbereich angeben.
+- **Internal IP:** Die vom Router dem Gerät zugewiesene IP-Adresse, auf das per Fernzugriff zugegriffen werden soll.
 
-- **Internal Port:** Die interne Portnummer des Geräts. Sie können eine bestimmte Portnummer eingeben. Lassen Sie das Feld leer, wenn sie mit dem externen Port identisch ist.
+- **Internal Port:** Die interne Portnummer des Geräts. Sie können eine bestimmte Portnummer eingeben. Wenn Sie unter **External Port** einen einzelnen Port festlegen, sollten Sie hier den einzelnen Port angeben. Wenn Sie unter **External Port** einen Portbereich festlegen, sollten Sie hier den entsprechenden Portbereich angeben. Lassen Sie das Feld leer, wenn sie mit dem externen Port identisch ist.
 
 - **Description:** Legen Sie einen benutzerdefinierten Namen fest oder fügen Sie eine Beschreibung für diese Regel hinzu (optional).
 

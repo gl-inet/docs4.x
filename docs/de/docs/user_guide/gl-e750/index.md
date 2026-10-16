@@ -98,7 +98,7 @@ Drücken Sie die Einschalttaste, um das Gerät einzuschalten.
 
 ![gl-e750v2 poweron](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e750/internet/e750v2_power-on.png){class="glboxshadow"}
 
-Wenn Mudi V2 (GL-E750V2) ausgeschaltet ist, können Sie den Akkustand trotzdem überprüfen, indem Sie die Einschalttaste drücken. Der LED-Bildschirm zeigt den Akkustatus an, wenn Sie die Taste drücken.
+Wenn Mudi V2 (GL-E750V2) ausgeschaltet ist, können Sie den Akkustand trotzdem überprüfen, indem Sie die Einschalttaste drücken. Der OLED-Bildschirm zeigt den Akkustatus an, wenn Sie die Taste drücken.
 
 ![gl-e750v2 battery](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e750/internet/e750v2_battery.png){class="glboxshadow"}
 
@@ -168,7 +168,7 @@ Clients sind Geräte, die mit dem Router verbunden sind. Sie können Clients blo
 
 ## VPN
 
-GL.iNet-Router sind mit OpenVPN und WireGuard® vorinstalliert und unterstützen mehr als 30 VPN-Dienste. Dadurch wird der gesamte Netzwerkverkehr im verbundenen Netzwerk automatisch verschlüsselt, einschließlich Gastgeräten und Client-Geräten, die selbst keine VPN-Verschlüsselung ausführen können. Unsere Router können außerdem als VPN-Server fungieren und den Verkehr von Client-Geräten an entfernten Standorten über einen VPN-Tunnel zum VPN-Server umleiten, bevor auf das öffentliche Internet zugegriffen wird.
+GL.iNet-Router sind mit OpenVPN und WireGuard® vorinstalliert und unterstützen mehr als 30 VPN-Dienste. Wenn der VPN-Client aktiviert ist, kann der Router den Datenverkehr von Geräten im Netzwerk gemäß Ihren VPN-Richtlinieneinstellungen verschlüsseln, auch von Geräten, auf denen keine VPN-Apps ausgeführt werden können. Unsere Router können außerdem als VPN-Server fungieren und den Verkehr von Client-Geräten an entfernten Standorten über einen VPN-Tunnel zum VPN-Server umleiten, bevor auf das öffentliche Internet zugegriffen wird.
 
 ### VPN Dashboard
 

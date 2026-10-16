@@ -1,6 +1,6 @@
 # GL.iNetアカウント
 
-**注**：このページの内容はファームウェアv4.10に基づいています。
+**注**：このガイドはファームウェアv4.10以降に適用されます。
 
 ---
 
@@ -44,7 +44,7 @@ GoodCloudセクション右下の**Go**をクリックするとGoodCloudプラ�
 
 ### GoodPAS
 
-GoodPASセクション右下の**Go**をクリックしてGoodPASページを開きます。トラベルルーターと自宅ネットワークの間に安全なネットワークを構築し、自宅ネットワークへシームレスにリモートアクセスできます。また、自宅のIPアドレスを使ってインターネットにアクセスできます。詳細は[GoodPAS](./astrowarp.md)を参照してください。
+GoodPASセクション右下の**Go**をクリックしてGoodPASページを開きます。トラベルルーターと自宅ネットワークの間に安全なネットワークを構築し、自宅ネットワークへシームレスにリモートアクセスできます。また、自宅のIPアドレスを使ってインターネットにアクセスできます。詳細は[GoodPAS](./goodpas.md)を参照してください。ファームウェア v4.10 では、GL-MG1300 以外のモデルでこのセクションは AstroWarp という名称です。[AstroWarp](./astrowarp.md)を参照してください。
 
 ![goodpas 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/goodpas.png){class="glboxshadow"}
 

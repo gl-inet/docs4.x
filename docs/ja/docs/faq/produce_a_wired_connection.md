@@ -6,7 +6,7 @@ GL.iNetルーターは、有線接続のみを持つデバイスのEthernet-to-W
 
 デバイスをルーターのLANポートに接続し、[リピーター](../interface_guide/internet_repeater.md)を設定してください。
 
-![repeatertop](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/produce_a_wired_connection/repeatertop.jpg){class=glboxshadow"}
+![repeatertop](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/produce_a_wired_connection/repeatertop.jpg){class="glboxshadow"}
 
 ---
 

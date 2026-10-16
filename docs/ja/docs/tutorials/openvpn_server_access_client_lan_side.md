@@ -64,7 +64,7 @@
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.7-allow-remote-access-lan.jpg){class="glboxshadow"}
 
-??? "ファームウェア v4.8 以降"
+??? "ファームウェア v4.8"
 
     <u>OpenVPNクライアント</u>のWeb管理パネルにログインし、**VPN** -> **VPN Dashboard** に移動します。
 
@@ -75,6 +75,18 @@
     ポップアップウィンドウで **Allow Remote Access the LAN Subnet** を有効にし、**Apply** をクリックします。
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.8-allow-remote-access-lan.png){class="glboxshadow"}
+
+??? "ファームウェア v4.9 以降"
+
+    <u>OpenVPNクライアント</u>のWeb管理パネルにログインし、**VPN** -> **VPN Dashboard** に移動します。
+
+    トンネルグループの歯車アイコンをクリックし、**Options** を選択します。
+
+    ![tunnel options](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.9-tunnel-options.png){class="glboxshadow"}
+
+    ポップアップウィンドウで **Allow Remote Access the LAN Subnet** を有効にし、**Apply** をクリックします。
+
+    ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.9-allow-remote-access-lan.png){class="glboxshadow" width=600}
 
 ## 3. 接続をテストする
 

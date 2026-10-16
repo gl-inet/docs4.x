@@ -17,6 +17,7 @@ Routery komórkowe GL.iNet są wyposażone we wbudowany modem obsługujący wysy
     - GL-X300B (Collie)
 
 ??? "Nieobsługiwane modele"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
@@ -26,7 +27,7 @@ Routery komórkowe GL.iNet są wyposażone we wbudowany modem obsługujący wysy
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-AX1800 (Flint)
     - GL-MT2500/GL-MT2500A (Brume 2)
     - GL-MT3000 (Beryl AX)
@@ -64,15 +65,15 @@ Poniższy przykład dotyczy modelu GL-X3000 (Spitz AX).
 
     ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message2.png){class="glboxshadow"}
 
-    * Recepient
+    * Recipient
 
         Wybierz międzynarodowy numer kierunkowy i wpisz numer telefonu.
 
-    * From modem (SIM)
+    * From Modem(SIM)
 
         Wybierz, z której karty SIM chcesz wysłać wiadomość.
 
-    * SMS Content
+    * SMS Contents
 
         Każda wiadomość SMS może zawierać maksymalnie 160 znaków.
 

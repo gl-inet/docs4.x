@@ -1,6 +1,6 @@
 # AstroWarp
 
-**Nota**: questa guida si applica alla nuova versione di AstroWarp. Nel firmware v4.10 la funzione è stata rinominata [GoodPAS](./goodpas.md).
+**Nota**: questa guida si applica alla nuova versione di AstroWarp. Nel firmware v4.11 (v4.10 per GL-MG1300) la funzione è stata rinominata [GoodPAS](./goodpas.md).
 
 Il nuovo AstroWarp e' integrato nello SDK del router GL.iNet. Adotta il protocollo AmneziaWG con offuscamento del traffico integrato, offrendo connessioni stabili e sicure per un accesso remoto affidabile sempre e ovunque.
 
@@ -10,8 +10,12 @@ L'AstroWarp legacy, pur essendo visibile nel pannello di amministrazione web, si
 
 **Nota:**
 
-1. Non e' consigliabile usare AstroWarp contemporaneamente a una delle seguenti funzioni, poiche' potrebbe causare conflitti di instradamento: GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
+1. Non e' consigliabile usare AstroWarp contemporaneamente a una delle seguenti funzioni, poiche' potrebbe causare conflitti di instradamento: OpenVPN Client, WireGuard Client, GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
 2. Quando AstroWarp e' abilitato, non e' possibile usare Network Mode.
+
+3. Quando è abilitato, AstroWarp ha la massima priorità di instradamento e non può essere usato in cascata con un client VPN.
+
+    Ad esempio, se il router A e il router B creano una rete AstroWarp con il router B come nodo di uscita, il traffico inoltrato tramite AstroWarp accederà a Internet attraverso l'IP pubblico WAN del router B, anche quando su quest'ultimo è abilitato un client VPN. Questo traffico non verrà inoltrato attraverso il tunnel del client VPN del router B.
 
 ## Modelli supportati
 
@@ -19,6 +23,9 @@ L'AstroWarp legacy, pur essendo visibile nel pannello di amministrazione web, si
 
     Questi modelli sono compatibili con il nuovo AstroWarp. Per visualizzare l'elenco dei modelli supportati da AstroWarp legacy, fai clic [qui](https://docs.astrowarp.net/en/quick_start/){target="_blank"}.
 
+    - GL-MT6000 (Fortify)
+    - GL-BE14000 (Flint 4)
+    - GL-MG1300 (Mango 2)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-MT6000 (Flint 2)
@@ -37,8 +44,6 @@ L'AstroWarp legacy, pur essendo visibile nel pannello di amministrazione web, si
 ??? "Modelli non supportati"
     Questi dispositivi non sono compatibili con il nuovo AstroWarp, mentre alcuni modelli continuano a funzionare con AstroWarp legacy. Consulta [qui](https://docs.astrowarp.net/en/quick_start/){target="_blank"} per i dettagli.
 
-    - GL-BE14000 (Flint 4)
-    - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-BE6500 (Flint 3e)
     - GL-B3000 (Marble)

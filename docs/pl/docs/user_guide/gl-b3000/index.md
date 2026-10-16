@@ -141,7 +141,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje adres IP powiązany z domeną w czasie rzeczywistym. Jest szczególnie przydatny dla użytkowników, którzy potrzebują statycznego adresu IP do uzyskiwania dostępu do zdalnej sieci. Aby skonfigurować Dynamic DNS, zapoznaj się z [Dynamic DNS](../../interface_guide/ddns.md).
+    Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje adres IP powiązany z domeną w czasie rzeczywistym. Mapuje nazwę domeny na dynamiczny publiczny adres IP routera, dzięki czemu możesz zdalnie uzyskiwać dostęp do swojej sieci bez statycznego adresu IP. Aby skonfigurować Dynamic DNS, zapoznaj się z [Dynamic DNS](../../interface_guide/ddns.md).
 
 ---
 
@@ -175,7 +175,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     * Port Forwarding: przekierowuje określony ruch z internetu do wskazanych urządzeń w sieci, umożliwiając dostęp do usług takich jak serwery gier lub serwery WWW.
     * Open Ports: pozwala monitorować i kontrolować, które porty routera są otwarte, pomagając zapobiegać nieautoryzowanemu dostępowi i potencjalnym zagrożeniom.
-    * DMZ (Demilitarized Zone): umieszcza urządzenie poza główną zaporą, zapewniając mu nieograniczony dostęp do internetu przy jednoczesnej ochronie pozostałej części sieci przed potencjalnymi zagrożeniami.
+    * DMZ (Demilitarized Zone): udostępnia jedno urządzenie w Internecie, przekierowując do niego cały ruch przychodzący.
 
     Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [Firewall](../../interface_guide/firewall.md).
 
@@ -288,7 +288,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Ustawienia te pozwalają dostosować zachowanie NAT routera do potrzeb sieci, równoważąc poprawę wydajności z możliwymi konsekwencjami dla bezpieczeństwa i funkcjonalności.
 
-    Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [NAT Settins](../../interface_guide/nat_settings.md).
+    Aby uzyskać szczegółowe instrukcje konfiguracji, zapoznaj się z [NAT Settings](../../interface_guide/nat_settings.md).
 
 ---
 
@@ -312,7 +312,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany ruch między Twoim 
 
     Strona Upgrade służy do aktualizacji firmware routera do najnowszej wersji, aby zapewnić lepszą wydajność, bezpieczeństwo i nowe funkcje. Dostępne są dwie opcje aktualizacji:
 
-    * Online Upgrade: automatyczne sprawdzanie i instalacja najnowszej wersji firmware bezpośrednio z serwera producenta, co upraszcza proces aktualizacji.
+    * Online Upgrade: automatyczne sprawdzanie dostępności najnowszej wersji firmware na serwerze producenta. Jeśli jest dostępna online, możesz ją zainstalować.
     * Local Upgrade: ręczne wgranie pliku firmware z komputera, co daje większą kontrolę nad wersją i momentem aktualizacji.
 
     Opcje te pozwalają utrzymywać router w aktualnym stanie, korzystając z najnowszych usprawnień i poprawek.

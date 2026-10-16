@@ -113,7 +113,7 @@
 
     En el menú Configure IPv4, seleccione Manually.
 
-    Introduzca una dirección IP estática en el campo IPv4 Address. ¿Qué número debe introducir? Un método consiste en tomar su dirección IP actual y cambiar la última parte del número. En este ejemplo, podría elegir cualquier dirección entre 192.168.7.0 y 192.168.7.255, siempre que no estuviera ya asignada a otro dispositivo.
+    Introduzca una dirección IP estática en el campo IPv4 Address. Un método consiste en tomar su dirección IP actual y cambiar la última parte. Para una red 192.168.7.0/24, elija una dirección de host sin usar entre 192.168.7.1 y 192.168.7.254. No utilice la dirección de red ni la de difusión.
 
     Haga clic en OK -> Apply.
 
@@ -145,23 +145,23 @@
         ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - Cuando use direcciones IP estáticas en redes domésticas y otras redes privadas, deben elegirse dentro de estos rangos estándar de IP privadas: 10.0.0.0 a 10.255.255.255, 172.16.0.0 a 172.31.255.255 y 192.168.0.0 a 192.168.255.255.
+    - Cuando use direcciones IP estáticas en redes domésticas y otras redes privadas, elija una dirección de host sin usar en su subred actual. Los rangos estándar de direcciones IP privadas son: 10.0.0.0 – 10.255.255.255, 172.16.0.0 – 172.31.255.255, 192.168.0.0 – 192.168.255.255
 
     - Ahora introduzca la dirección IP.
         - Este paso depende de cada red. Por ejemplo: 192.168.1.128.
 
-    - El Gateway debería rellenarse automáticamente en función de la dirección IP. Si no es así, copie la dirección IP y sustituya el último número por un 1.
-        - Ejemplo, basándose en el caso anterior: 192.168.1.1.
+    - La puerta de enlace debería rellenarse automáticamente en función de la dirección IP. Si no es así, introduzca la dirección IP de la puerta de enlace de su red.
+        - Por ejemplo, si la dirección IP de su router es 192.168.1.1, introduzca 192.168.1.1.
 
     3. Toque Save y deje que la red vuelva a conectarse.
 
 === "iOS"
 
-    Cuando use direcciones IP estáticas en redes domésticas y otras redes privadas, deben elegirse dentro de los siguientes rangos estándar de IP privadas:
+    Cuando use direcciones IP estáticas en redes domésticas y otras redes privadas, elija una dirección de host sin usar en su subred actual. Los rangos estándar de direcciones IP privadas son:
 
-    10.0.0.0 through 10.255.255.255
-    172.16.0.0 through 172.31.255.255
-    192.168.0.0 through 192.168.255.255
+    10.0.0.0 a 10.255.255.255
+    172.16.0.0 a 172.31.255.255
+    192.168.0.0 a 192.168.255.255
 
     Para configurar una dirección IP estática, haga lo siguiente:
 
@@ -187,7 +187,7 @@
 
     - Toque Subnet Mask e introduzca la información correspondiente.
 
-        - Normalmente será 255.255.0.0.
+        - Utilice la máscara de subred de la red a la que está conectado.
 
     - Toque el botón Wi-Fi en la esquina superior izquierda de la pantalla para guardar la configuración.
 

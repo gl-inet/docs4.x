@@ -52,21 +52,6 @@ Sehen Sie sich unten das Unboxing-Video von Mudi 7 an.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Akkusicherheit und Umgang mit aufgeblähten Akkus {#battery-safety-and-swollen-battery-handling}
-
-Verwenden und laden Sie den Mudi 7 nicht weiter, wenn der Akku aufgebläht ist, ausläuft, ungewöhnlich heiß oder beschädigt ist oder einen ungewöhnlichen Geruch abgibt.
-
-- Drücken, biegen, durchstechen oder quetschen Sie den Akku nicht und üben Sie keinen Druck auf ihn aus.
-- Verwenden Sie keine Werkzeuge, um einen aufgeblähten oder beschädigten Akku herauszuhebeln.
-- Versuchen Sie nicht, einen Akku zu entfernen, der aufgebläht ist, feststeckt, ausläuft, heiß ist oder aus anderen Gründen nicht sicher gehandhabt werden kann.
-- Entsorgen Sie einen beschädigten Lithium-Ionen-Akku nicht im Hausmüll oder über die normale Wertstoffsammlung.
-- Versenden Sie einen aufgeblähten oder beschädigten Akku nicht mit einem gewöhnlichen Paketdienst.
-- Wenden Sie sich an den [GL.iNet-Support](https://www.gl-inet.com/contacts/), um Unterstützung bei Garantiefragen und Informationen zum weiteren Vorgehen zu erhalten.
-
-Wenn der beschädigte Akku bereits entfernt wurde, setzen Sie ihn nicht wieder ein. Wenden Sie sich an eine geeignete örtliche Batterierecycling- oder Schadstoffsammelstelle, die beschädigte Lithium-Ionen-Akkus annimmt.
-
-Wenn der Akku raucht, sich schnell erhitzt, zischt, brennt oder auf andere Weise eine unmittelbare Gefahr darstellt, entfernen Sie sich vom Gerät und verständigen Sie die örtlichen Notfalldienste.
-
 ## So richten Sie Mudi 7 ein
 
 Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Schritten.
@@ -77,11 +62,11 @@ Sehen Sie sich dieses Einrichtungsvideo an oder folgen Sie den untenstehenden Sc
 
 Setzen Sie Nano-SIM-Karte(n) in Ihren Mudi 7 ein. Wenn Sie lieber eSIM verwenden möchten, überspringen Sie diesen Schritt und fahren Sie mit Schritt 2 fort.
 
+Nutzen Sie zuerst die kleine Kerbe unten rechts an der Rückabdeckung als Hebelpunkt. Hebeln Sie entlang der Fuge, um einen Spalt zu schaffen, öffnen Sie dann die Rückabdeckung und nehmen Sie den Akku des Mudi 7 heraus.
+
 !!! Warning
 
     Wenn der Akku aufgebläht ist, ausläuft, ungewöhnlich heiß oder beschädigt ist oder sich nur schwer entfernen lässt, verwenden Sie das Gerät nicht weiter und versuchen Sie nicht, den Akku zu entfernen. Lesen Sie [Akkusicherheit und Umgang mit aufgeblähten Akkus](#battery-safety-and-swollen-battery-handling).
-
-Nutzen Sie zuerst die kleine Kerbe unten rechts an der Rückabdeckung als Hebelpunkt. Hebeln Sie entlang der Fuge, um einen Spalt zu schaffen, öffnen Sie dann die Rückabdeckung und nehmen Sie den Akku des Mudi 7 heraus.
 
 ![small notch](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
@@ -196,7 +181,10 @@ Richten Sie Mudi 7 mit einer der unterstützten Internetverbindungsmethoden ein:
 
     1. Verbinden Sie Ihr Mobilgerät, z. B. ein Smartphone oder USB-Dongle, per USB-Kabel mit dem USB-C-Port des Mudi 7.
     2. Öffnen Sie auf Ihrem Mobilgerät die Einstellungen und aktivieren Sie **USB Tethering**. Wenn Sie ein iPhone verwenden, tippen Sie bei entsprechender Aufforderung auf **Trust This Device**.
-    3. Mudi 7 verbindet sich anschließend automatisch mit Ihrem Gerät. Falls keine Verbindung hergestellt wird, wiederholen Sie die obigen Schritte oder melden Sie sich im Web-Admin-Panel an und prüfen Sie die Tethering-Verbindung auf der Seite INTERNET.
+    3. Wenn auf dem Touchscreen die Auswahl des USB-Modus angezeigt wird, wählen Sie **Host (USB OTG) mode**. Mudi 7 verbindet sich anschließend automatisch mit Ihrem Gerät. Falls keine Verbindung hergestellt wird, wiederholen Sie die obigen Schritte oder melden Sie sich im Web-Admin-Panel an und prüfen Sie die Tethering-Verbindung auf der Seite INTERNET.
+
+        Weitere Informationen zu den Unterschieden zwischen den USB-Modi finden Sie [hier](https://docs.gl-inet.com/router/en/4/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg).
+
     4. Sobald die Internetverbindung erfolgreich hergestellt wurde, erscheint oben rechts auf dem Touchscreen ein Kettensymbol. Die Verbindungsdetails können Sie auch im Web-Admin-Panel prüfen.
 
     Detaillierte Anweisungen finden Sie unter [Über USB-Tethering eine Verbindung zum Internet herstellen](../../interface_guide/internet_tethering.md).
@@ -243,17 +231,9 @@ Sie können die Firmware von Mudi 7 über den Touchscreen oder das Web-Admin-Pan
 
 ### Upgrade über das Web
 
-1. Online-Upgrade
+Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Upgrade**. Sie können die Firmware Ihres Routers online oder lokal aktualisieren.
 
-   Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade**, um die Firmware Ihres Routers zu aktualisieren.
-
-   Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md#online-upgrade).
-
-2. Lokales Upgrade
-
-   Melden Sie sich im Web-Admin-Panel an und gehen Sie zu **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade**, um die Firmware Ihres Routers zu aktualisieren.
-
-   Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md#local-upgrade).
+Weitere Informationen finden Sie [hier](../../interface_guide/upgrade.md).
 
 ## Werkseinstellungen wiederherstellen
 
@@ -283,7 +263,7 @@ Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten.
 
 1. Entfernen Sie die Rückabdeckung. Dort finden Sie die Reset-Taste wie unten gezeigt.
 
-   ![tethering connection](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+   ![reset button](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
 2. Führen Sie je nach Bedarf einen Soft Reset oder einen Werksreset durch.
 
@@ -490,7 +470,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dies ist besonders nützlich für Benutzer, die für den Zugriff auf ein entferntes Netzwerk eine statische IP-Adresse benötigen.
+    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dabei wird ein Domainname der dynamischen öffentlichen IP-Adresse Ihres Routers zugeordnet, sodass Sie ohne statische IP-Adresse aus der Ferne auf Ihr Netzwerk zugreifen können.
 
     Zum Einrichten von Dynamic DNS lesen Sie bitte [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -557,7 +537,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Auf der Seite Upgrade können Sie die Firmware Ihres Routers auf die neueste Version aktualisieren, um bessere Leistung, mehr Sicherheit und neue Funktionen zu erhalten. Diese Seite bietet zwei Upgrade-Optionen:
 
-    * Firmware Online Upgrade: Prüfen Sie automatisch auf die neueste Firmware-Version und installieren Sie sie direkt vom Server des Herstellers, um den Aktualisierungsprozess zu vereinfachen.
+    * Firmware Online Upgrade: Prüft automatisch auf dem Server des Herstellers, ob die neueste Firmware-Version verfügbar ist. Wenn eine neuere Version online verfügbar ist, können Sie sie installieren.
     * Firmware Local Upgrade: Laden Sie manuell eine Firmware-Datei von Ihrem Computer hoch, um den Router zu aktualisieren, und behalten Sie dabei die Kontrolle über Version und Zeitpunkt des Upgrades.
 
     Mit diesen Optionen halten Sie Ihren Router auf dem neuesten Stand und profitieren von aktuellen Verbesserungen und Fehlerbehebungen.
@@ -625,6 +605,21 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     Auf der Seite Advanced Settings erhalten erfahrene Benutzer über die OpenWrt-LuCI-Oberfläche Zugriff auf erweiterte Konfigurationsoptionen, um Routereinstellungen und Funktionen über die grundlegenden Oberflächenoptionen hinaus fein abzustimmen. Dazu gehören detaillierte Netzwerkkonfigurationen, Firewall-Einstellungen und weitere erweiterte Systemanpassungen.
 
     Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
+
+## Akkusicherheit und Umgang mit aufgeblähten Akkus {#battery-safety-and-swollen-battery-handling}
+
+Verwenden und laden Sie den Mudi 7 nicht weiter, wenn der Akku aufgebläht ist, ausläuft, ungewöhnlich heiß oder beschädigt ist oder einen ungewöhnlichen Geruch abgibt.
+
+- Drücken, biegen, durchstechen oder quetschen Sie den Akku nicht und üben Sie keinen Druck auf ihn aus.
+- Verwenden Sie keine Werkzeuge, um einen aufgeblähten oder beschädigten Akku herauszuhebeln.
+- Versuchen Sie nicht, einen Akku zu entfernen, der aufgebläht ist, feststeckt, ausläuft, heiß ist oder aus anderen Gründen nicht sicher gehandhabt werden kann.
+- Entsorgen Sie einen beschädigten Lithium-Ionen-Akku nicht im Hausmüll oder über die normale Wertstoffsammlung.
+- Versenden Sie einen aufgeblähten oder beschädigten Akku nicht mit einem gewöhnlichen Paketdienst.
+- Wenden Sie sich an den [GL.iNet-Support](https://www.gl-inet.com/contacts/), um Unterstützung bei Garantiefragen und Informationen zum weiteren Vorgehen zu erhalten.
+
+Wenn der beschädigte Akku bereits entfernt wurde, setzen Sie ihn nicht wieder ein. Wenden Sie sich an eine geeignete örtliche Batterierecycling- oder Schadstoffsammelstelle, die beschädigte Lithium-Ionen-Akkus annimmt.
+
+Wenn der Akku raucht, sich schnell erhitzt, zischt, brennt oder auf andere Weise eine unmittelbare Gefahr darstellt, entfernen Sie sich vom Gerät und verständigen Sie die örtlichen Notfalldienste.
 
 ## Konformitätserklärung
 

@@ -1,8 +1,8 @@
 # VPN Dashboard
 
-このページの内容は、ファームウェア v4.9.x に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
+このページの内容は、ファームウェア v4.9.x 以降に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
-<div class="gl-link-select" data-label="ファームウェアバージョン" data-placeholder="ファームウェア v4.9" markdown="1">
+<div class="gl-link-select" data-label="ファームウェアバージョン" data-placeholder="ファームウェア v4.9 以降" markdown="1">
 
 - [ファームウェア v4.7 以前](vpn_dashboard_v4.7.md)
 - [ファームウェア v4.8](vpn_dashboard_v4.8.md)

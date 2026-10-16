@@ -26,7 +26,7 @@ Ce tutoriel vous montrera comment réserver une IP fixe pour votre client OpenVP
 
     ![add ccd folder](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
 
-5. Ajoutez un fichier "GLsupport", saisissez `ifconfig-push 10.8.0.10 255.255.255.0`, puis enregistrez et quittez le fichier.
+5. Accédez à `/etc/openvpn/ccd` et ajoutez un fichier "GLsupport", saisissez `ifconfig-push 10.8.0.10 255.255.255.0`, puis enregistrez et quittez le fichier.
 
     Vérifiez le contenu avec `cat GLsupport`
 
@@ -36,9 +36,9 @@ Ce tutoriel vous montrera comment réserver une IP fixe pour votre client OpenVP
     
     - "255.255.255.0" est le masque de sous-réseau, que vous pouvez remplacer par le masque de sous-réseau de votre serveur OpenVPN.
 
-    **Remarque** : si vous souhaitez fixer des adresses IP pour plusieurs clients OpenVPN, veuillez créer plusieurs noms d'utilisateur et mots de passe à l'étape 2, puis répéter l'étape 5, ajouter des fichiers dans le dossier CCD dans l'ordre des utilisateurs, comme user_1, user_2, user_3, suivis de la commande "ifconfig push" et de leurs IP fixes et masques de sous-réseau correspondants. 
+    **Remarque** : si vous souhaitez fixer des adresses IP pour plusieurs clients OpenVPN, veuillez créer plusieurs noms d'utilisateur et mots de passe à l'étape 2, puis répéter l'étape 5, ajouter des fichiers dans le dossier CCD dans l'ordre des utilisateurs, comme user_1, user_2, user_3, suivis de la commande "ifconfig-push" et de leurs IP fixes et masques de sous-réseau correspondants.
     
-    Par exemple, `ifconfig-push 10.8.0.20 225.225.225.0`, `ifconfig-push 10.8.0.30 225.225.225.0`, `ifconfig-push 10.8.0.40 225.225.225.0`
+    Par exemple, `ifconfig-push 10.8.0.20 255.255.255.0`, `ifconfig-push 10.8.0.30 255.255.255.0`, `ifconfig-push 10.8.0.40 255.255.255.0`
 
 6. Enfin, testez avec votre client OVPN et vérifiez que l'IP virtuelle du client (**Client Virtual IP (IPv4)**) correspond bien à l'adresse réservée. 
 

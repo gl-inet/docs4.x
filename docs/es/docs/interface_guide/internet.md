@@ -2,7 +2,7 @@
 
 Inicie sesión en el panel web de administración y vaya a **INTERNET**.
 
-La mitad superior muestra un diagrama con el estado de Internet, y la mitad inferior enumera cuatro o cinco métodos de acceso a Internet, cuya disponibilidad varía según el modelo.
+La mitad superior muestra un diagrama con el estado de Internet, y la mitad inferior enumera hasta cuatro métodos de acceso a Internet, cuya disponibilidad varía según el modelo.
 
 ## Diagrama de estado
 

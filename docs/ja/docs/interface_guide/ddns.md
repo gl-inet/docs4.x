@@ -130,9 +130,9 @@ HTTPS リモートアクセスを続行するには、下部の **Advanced** を
 
     ![enable ssh remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ssh_remote_access.png){class="glboxshadow"}
 
-有効にすると、**SSH** 経由で DDNS ホスト名（例: `ssh root@xxxxxxx.glddns.com`）を使用し、どこからでもルーターにアクセスできるようになります。
+有効にすると、DDNSホスト名（例: `ssh root@xxxxxxx.glddns.com`）を使用して、**SSH**経由でルーターの端末にリモートアクセスできます。
 
-ポートフォワーディングを設定している場合は、`ssh root@xxxxxxx.glddns.com:external_port` としてアクセスします（external_port は実際のポート番号に置き換えてください）。
+ポートフォワーディングを設定している場合は、`ssh -p external_port root@xxxxxxx.glddns.com` としてアクセスします（external_port は実際のポート番号に置き換えてください）。
 
 ---
 

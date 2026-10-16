@@ -6,7 +6,7 @@ Router GL.iNet może działać jako most Ethernet-Wi-Fi dla urządzeń, które m
 
 Podłącz urządzenie do portu LAN routera, a następnie skonfiguruj [repeater](../interface_guide/internet_repeater.md).
 
-![repeatertop](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/produce_a_wired_connection/repeatertop.jpg){class=glboxshadow"}
+![repeatertop](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/produce_a_wired_connection/repeatertop.jpg){class="glboxshadow"}
 
 ---
 

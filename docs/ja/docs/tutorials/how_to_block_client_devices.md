@@ -54,7 +54,7 @@ MAC アドレスを把握しているかどうかによって、次の 2 通り�
 
 ### 方法 1: MAC アドレスがわからないデバイスをブロックする {#mobile-1}
 
-1. アプリのメイン画面で、**Connected Clients** と **Office Clients** の下にあるブロックしたいデバイスをタップします。
+1. アプリのメイン画面で、**Connected Clients** と **Offline Clients** の下にあるブロックしたいデバイスをタップします。
 ![tap a device](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-a-device.jpeg){class="glboxshadow"}
 
 2. **Settings** の下で **Block** スイッチをオンにします。

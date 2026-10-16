@@ -194,7 +194,7 @@ Il processo su Linux e Mac OS e generalmente lo stesso. Di seguito usiamo Ubuntu
 
         Se questo accade, esegui il comando mostrato nel riquadro rosso sopra. Copia esattamente il comando mostrato nel tuo terminale.
 
-        `ssh-keygen -f "~/.ssh/known_hosts" -R "192.168.8.1"`
+        `ssh-keygen -f ~/.ssh/known_hosts -R "192.168.8.1"`
 
         ![removed_host_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/removed_host_keygen.png){class="glboxshadow gl-90-desktop"}
 

@@ -5,7 +5,7 @@ Le contenu de cette page est basé sur la version de firmware v4.8.x. Si votre a
 <div class="gl-link-select" data-label="Version du firmware" data-placeholder="Firmware v4.8" markdown="1">
 
 - [Firmware v4.7 et antérieur](vpn_dashboard_v4.7.md)
-- [Firmware v4.9](vpn_dashboard.md)
+- [Firmware v4.9 et versions ultérieures](vpn_dashboard.md)
 
 </div>
 

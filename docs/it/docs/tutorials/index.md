@@ -35,7 +35,7 @@ Scopri come usare correttamente i nostri dispositivi con istruzioni dettagliate.
 
 * [SMS](sms.md)
 * [Inoltro SMS](sms_forwarding.md)
-* [Come usare qlog per acquisire i log del modulo](get_module_logs.md)
+* [Come usare qlog per acquisire i log del modem](get_module_logs.md)
 * [Come aggiornare il firmware del modulo Quectel](upgrade_quectel_module_software.md)
 * [Come controllare lo stato dell'aggregazione di portante sul router cellulare](how_to_check_carrier_aggregation.md)
 * [Come configurare e utilizzare Spitz AX (GL-X3000) nel tuo veicolo ricreazionale](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)

@@ -16,7 +16,7 @@ Spitz V2 (GL-X750V2) est la version avancée du Spitz (GL-X750). Elle bénéfici
 
 ## Configuration initiale
 
-Tous les routeurs GL.iNet suivent un processus de configuration similaire. [Cliquez ici pour découvrir la configuration initiale](../../faq/first_time_setup.md/).
+Tous les routeurs GL.iNet suivent un processus de configuration similaire. [Cliquez ici pour découvrir la configuration initiale](../../faq/first_time_setup.md).
 
 ---
 
@@ -86,7 +86,7 @@ Les clients sont les appareils connectés au routeur. Vous pouvez les bloquer ou
 
 ## VPN
 
-Les routeurs GL.iNet sont préinstallés avec OpenVPN et WireGuard® et prennent en charge plus de 30 services VPN. Ils chiffrent automatiquement tout le trafic réseau au sein du réseau connecté, y compris les appareils invités et les appareils clients qui ne prennent pas en charge eux-mêmes le chiffrement VPN. Nos routeurs peuvent également fonctionner comme serveurs VPN, en redirigeant le trafic des appareils clients situés à distance vers le serveur VPN via un tunnel VPN avant d'accéder à l'Internet public.
+Les routeurs GL.iNet sont préinstallés avec OpenVPN et WireGuard® et prennent en charge plus de 30 services VPN. Lorsque le client VPN est activé, le routeur peut chiffrer le trafic des appareils du réseau, y compris ceux qui ne peuvent pas exécuter d'applications VPN, selon vos paramètres de politique VPN. Nos routeurs peuvent également fonctionner comme serveurs VPN, en redirigeant le trafic des appareils clients situés à distance vers le serveur VPN via un tunnel VPN avant d'accéder à l'Internet public.
 
 ### VPN Dashboard
 

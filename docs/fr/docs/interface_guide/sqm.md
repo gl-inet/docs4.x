@@ -22,6 +22,7 @@ Le SQM (Smart Queue Management) gère intelligemment le trafic réseau de votre 
 ## Modèles pris en charge {#supported-models}
 
 ??? "Modèles pris en charge"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
@@ -30,7 +31,7 @@ Le SQM (Smart Queue Management) gère intelligemment le trafic réseau de votre 
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-MT3000 (Beryl AX)
 
 ??? "Modèles non pris en charge"

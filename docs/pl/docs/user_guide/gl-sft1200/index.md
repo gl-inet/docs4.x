@@ -161,7 +161,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje adres IP powiązany z domeną w czasie rzeczywistym. Jest szczególnie przydatny dla użytkowników, którzy potrzebują stałego adresu IP do zdalnego dostępu do sieci.
+    Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje adres IP powiązany z domeną w czasie rzeczywistym. Mapuje nazwę domeny na dynamiczny publiczny adres IP routera, dzięki czemu możesz zdalnie uzyskiwać dostęp do swojej sieci bez statycznego adresu IP.
     
     Aby skonfigurować Dynamic DNS, zapoznaj się z poradnikiem [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -276,7 +276,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
 
     Strona Upgrade służy do aktualizacji firmware routera do najnowszej wersji, zapewniając lepszą wydajność, bezpieczeństwo i nowe funkcje. Ta strona oferuje dwie opcje aktualizacji:
 
-    * Aktualizacja firmware online: Automatyczne sprawdzanie i instalacja najnowszej wersji firmware bezpośrednio z serwera producenta, upraszczające proces aktualizacji.
+    * Aktualizacja firmware online: Automatyczne sprawdzanie dostępności najnowszej wersji firmware na serwerze producenta. Jeśli jest dostępna online, możesz ją zainstalować.
     * Lokalna aktualizacja firmware: Ręczne przesłanie pliku firmware z komputera w celu aktualizacji routera, dające kontrolę nad wersją i czasem aktualizacji.
 
     Te opcje pozwalają utrzymywać router z najnowszymi ulepszeniami i poprawkami.

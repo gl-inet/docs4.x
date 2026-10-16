@@ -6,7 +6,27 @@ Fortify (GL-MT6000) est un routeur Wi-Fi 6 co-marqué publié conjointement par 
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
+## Contenu du colis
+
+- 1 x Fortify (GL-MT6000)
+- 1 x Manuel d’utilisation
+- 1 x Guide d’activation ExpressVPN
+- 1 x Câble Ethernet
+- 1 x Adaptateur secteur
+- 1 x Carte de remerciement
+- 1 x Convertisseur (selon votre pays de livraison)
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/unboxing.png){class="glboxshadow"}
+
+Regardez ci-dessous la vidéo de déballage de Fortify.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Comment configurer Fortify
+
+Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Allumer
 
@@ -280,7 +300,7 @@ DPI (Deep Packet Inspection) est une fonctionnalité essentielle de la gestion i
 
 === "Dynamic DNS"
 
-    Le DNS dynamique (DDNS) détecte et met à jour automatiquement l'adresse IP associée à un domaine en temps réel. Il est utile pour les utilisateurs qui ont besoin d'une adresse IP statique pour accéder à un réseau distant.
+    Le DNS dynamique (DDNS) détecte et met à jour automatiquement l'adresse IP associée à un domaine en temps réel. Il associe un nom de domaine à l'adresse IP publique dynamique de votre routeur, ce qui vous permet d'accéder à votre réseau à distance sans adresse IP statique.
 
     Veuillez vous référer à [DNS dynamique](../../interface_guide/ddns.md) pour plus de détails.
 
@@ -351,7 +371,7 @@ DPI (Deep Packet Inspection) est une fonctionnalité essentielle de la gestion i
 
     La page Mise à niveau est utilisée pour mettre à jour le micrologiciel de votre routeur vers la dernière version, garantissant ainsi des performances, une sécurité et de nouvelles fonctionnalités améliorées. Cette page propose deux options :
 
-    * Mise à niveau du micrologiciel en ligne : recherchez et installez automatiquement la dernière version du micrologiciel directement à partir du serveur du fabricant, simplifiant ainsi le processus de mise à jour.
+    * Mise à niveau du micrologiciel en ligne : recherche automatiquement la dernière version du micrologiciel sur le serveur du fabricant. Vous pouvez l'installer si elle est disponible en ligne.
     * Mise à niveau locale du micrologiciel : téléchargez manuellement un fichier de micrologiciel depuis votre ordinateur pour mettre à jour le routeur, permettant ainsi de contrôler la version et le calendrier de la mise à niveau.
 
     Veuillez vous référer à [Mise à niveau](../../interface_guide/upgrade.md) pour plus de détails.

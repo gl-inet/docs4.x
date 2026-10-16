@@ -352,7 +352,7 @@ Wenn Sie nicht mehr möchten, dass Ihr Gerät mit der Cloud-Plattform verbunden 
 
 ??? "Für Firmware v4.7 oder neuer"
 
-    Melden Sie sich am webbasierten Admin Panel Ihres Routers an und klicken Sie oben rechts auf das Cloud-Symbol.
+    Melden Sie sich am webbasierten Admin Panel Ihres Routers an und klicken Sie oben rechts auf das Cloud-Symbol. Klicken Sie im Pop-up-Fenster **Cloud Service** auf das Zahnradsymbol und wählen Sie **Disable**.
 
     ![disable cloud 2](https://static.gl-inet.com/docs/router/de/4/interface_guide/cloud/disable_cloud_2.png){class="glboxshadow"}
 

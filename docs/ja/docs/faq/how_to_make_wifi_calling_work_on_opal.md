@@ -4,7 +4,7 @@
 
 Web管理パネルで、SYSTEM -> Upgradeに移動し、ファームウェアを最新バージョンにアップグレードします。最新バージョンを確認するには、[ファームウェアダウンロードセンター](https://dl.gl-inet.com/){target="_blank"}を参照してください。
 
-![opal4317](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/opal4317.jpg){class="glboxshadow}
+![opal4317](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/opal4317.jpg){class="glboxshadow"}
 
 ## ネットワークアクセラレーションを無効にする
 
@@ -12,4 +12,4 @@ Web管理パネルで、SYSTEM -> Upgradeに移動し、ファームウェアを
 
 ファームウェアアップグレード後、Web管理パネルにログインし、**NETWORK** -> **Network Acceleration**に移動し、無効にします。
 
-![networkacc](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/netacc.jpg){class="glboxshadow}
+![networkacc](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/netacc.jpg){class="glboxshadow"}

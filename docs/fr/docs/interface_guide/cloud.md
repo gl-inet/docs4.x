@@ -353,7 +353,7 @@ Si vous ne souhaitez plus que votre appareil soit connecté à la plateforme clo
 
 ??? "Pour le firmware v4.7 ou ultérieur"
 
-    Connectez-vous au panneau d’administration web de votre routeur, puis cliquez sur l’icône cloud en haut à droite.
+    Connectez-vous au panneau d’administration web de votre routeur, puis cliquez sur l’icône cloud en haut à droite. Dans la fenêtre contextuelle **Cloud Service**, cliquez sur l’icône d’engrenage et sélectionnez **Disable**.
 
     ![disable cloud 2](https://static.gl-inet.com/docs/router/en/4/interface_guide/cloud/disable_cloud_2.png){class="glboxshadow"}
 

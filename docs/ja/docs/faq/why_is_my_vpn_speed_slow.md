@@ -51,7 +51,7 @@ OpenVPNやWireGuardなど、異なるVPNプロトコルはセキュリティと�
 
 一部のインターネットサービスプロバイダー（ISP）、特にモバイルキャリアはデータパケットのサイズを制限している場合があります。VPNクライアントオプションでデフォルトのMTUを1420から1380または1280に変更してみてください。
 
-ファームウェアv4.8以降の場合、[こちら](../interface_guide/vpn_dashboard_v4.8.md/#tunnel-options)をご参照ください。
+ファームウェアv4.8以降の場合、[こちら](../interface_guide/vpn_dashboard_v4.8.md#tunnel-options)をご参照ください。
 
 ファームウェアv4.7以前の場合、[こちら](../interface_guide/vpn_dashboard_v4.7.md#vpn-client-options)をご参照ください。
 

@@ -42,14 +42,13 @@ Spitz Plus (GL-X2000) ist ein Dual-SIM-4G-LTE-Wi-Fi-6-Cellular-Gateway, das beso
 - 1 x Benutzerhandbuch
 - 4 x Externe Antennen
 - 1 x Dankeskarte
-- 1 x Ethernet-Kabel
+- 1 x RJ45-Ethernet-Kabel
 - 1 x Wandmontageset
 - 1 x Klebepad
-- 4 x Schrauben
 - 1 x Netzadapter
 - 1 x Adapter (je nach Versandland)
 
-![package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/first_time_setup/x2000_unboxing.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-x2000/first_time_setup/x2000_package.png){class="glboxshadow"}
 
 ## LED-Anzeigen
 
@@ -110,7 +109,7 @@ Richten Sie Spitz Plus mit einer der unterstützten Internetverbindungsmethoden 
 
     Falls nicht, schalten Sie den Router aus, setzen Sie die SIM-Karte erneut ein und schalten Sie das Gerät wieder ein.
 
-    Detaillierte Anweisungen finden Sie unter [Über Cellular eine Verbindung zum Internet herstellen](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models).
+    Detaillierte Anweisungen finden Sie unter [Über Cellular eine Verbindung zum Internet herstellen](../../interface_guide/internet_cellular.md#setup-for-dual-sim-models).
 
     **Hinweis:** Die eSIM-Funktion von Spitz Plus ist ab Firmware v4.7 verfügbar. Wie Sie die physische eSIM-Karte auf einem GL.iNet-Router verwenden, erfahren Sie [hier](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
 
@@ -210,7 +209,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dies ist nützlich für Benutzer, die für den Zugriff auf ein entferntes Netzwerk eine statische IP-Adresse benötigen.
+    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dabei wird ein Domainname der dynamischen öffentlichen IP-Adresse Ihres Routers zugeordnet, sodass Sie ohne statische IP-Adresse aus der Ferne auf Ihr Netzwerk zugreifen können.
 
     Zum Einrichten von Dynamic DNS lesen Sie bitte [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -238,7 +237,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Tailscale ist ein VPN-Dienst, mit dem Sie von überall auf Ihre Geräte und Anwendungen zugreifen können.
 
-    Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/parental_control.md).
+    Zum Einrichten von Tailscale lesen Sie bitte [Tailscale](../../interface_guide/tailscale.md).
 
 === "eSIM"
 
@@ -272,7 +271,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Hier können Sie ein Subnetz innerhalb der privaten IPv4-Adressbereiche 192.168.0.0/16, 172.16.0.0/12 oder 10.0.0.0/8 festlegen, Gateway- und Netmasken-IP-Adressen angeben und Sicherheitseinstellungen wie AP Isolation für das Gastnetzwerk konfigurieren.
 
-    Zum Einrichten des Gastnetzwerks lesen Sie bitte [Lan Tutorial](../../interface_guide/guest_network.md).
+    Zum Einrichten des Gastnetzwerks lesen Sie bitte [Guest Network](../../interface_guide/guest_network.md).
 
 === "DNS"
 
@@ -343,11 +342,11 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "Upgrade"
 
-    Auf der Seite Upgrade können Sie die Firmware Ihres Routers auf die neueste Version aktualisieren, um bessere Leistung, mehr Sicherheit und neue Funktionen zu erhalten. Diese Seite bietet mehrere Upgrade-Optionen:
+    Auf der Seite Upgrade können Sie die Firmware Ihres Routers auf die neueste Version aktualisieren, um bessere Leistung, mehr Sicherheit und neue Funktionen zu erhalten. Diese Seite bietet vier Upgrade-Optionen:
 
-    * Firmware Online Upgrade: Prüfen Sie automatisch auf die neueste Firmware-Version und installieren Sie sie direkt vom Server des Herstellers, um den Aktualisierungsprozess zu vereinfachen.
+    * Firmware Online Upgrade: Prüft automatisch auf dem Server des Herstellers, ob die neueste Firmware-Version verfügbar ist. Wenn eine neuere Version online verfügbar ist, können Sie sie installieren.
     * Firmware Local Upgrade: Laden Sie manuell eine Firmware-Datei von Ihrem Computer hoch, um den Router zu aktualisieren, und behalten Sie dabei die Kontrolle über Version und Zeitpunkt des Upgrades.
-    * Module Online Upgrade: Prüfen Sie automatisch auf die neueste 4G/5G-Modulversion und installieren Sie sie direkt vom Server des Herstellers.
+    * Module Online Upgrade: Prüft automatisch auf dem Server des Herstellers, ob die neueste 4G/5G-Modulversion verfügbar ist. Wenn eine neuere Version online verfügbar ist, können Sie sie installieren.
     * Module Local Upgrade: Laden Sie manuell eine Moduldatei von Ihrem Computer hoch, um das 4G/5G-Modul zu aktualisieren.
 
     Mit diesen Optionen halten Sie Ihren Router auf dem neuesten Stand und profitieren von aktuellen Verbesserungen und Fehlerbehebungen.

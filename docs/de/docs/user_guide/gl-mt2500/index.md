@@ -158,7 +158,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) erkennt und aktualisiert die mit einer Domain verknüpfte IP-Adresse automatisch in Echtzeit. Dies ist nützlich für Benutzer, die für den Zugriff auf ein entferntes Netzwerk eine statische IP-Adresse benötigen.
+    Dynamic DNS (DDNS) erkennt und aktualisiert die mit einer Domain verknüpfte IP-Adresse automatisch in Echtzeit. Dabei wird ein Domainname der dynamischen öffentlichen IP-Adresse Ihres Routers zugeordnet, sodass Sie ohne statische IP-Adresse aus der Ferne auf Ihr Netzwerk zugreifen können.
     
     Informationen zur Einrichtung finden Sie unter [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -215,12 +215,6 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
     Informationen zur Einrichtung finden Sie unter [LAN](../../interface_guide/lan.md).
 
 ---
-
-=== "Gastnetzwerk"
-
-    Damit können Sie ein Subnetz innerhalb der privaten IPv4-Adressbereiche 192.168.0.0/16, 172.16.0.0/12 oder 10.0.0.0/8 festlegen, die IP-Adressen für Gateway und Netzmaske angeben und Sicherheitseinstellungen wie AP-Isolation für das Gastnetzwerk konfigurieren.
-
-    Informationen zur Einrichtung finden Sie unter [Guest Network](../../interface_guide/guest_network.md).
 
 === "DNS"
 
@@ -293,7 +287,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
     Die Seite Upgrade dient dazu, die Firmware Ihres Routers auf die neueste Version zu aktualisieren und so bessere Leistung, höhere Sicherheit und neue Funktionen bereitzustellen. Diese Seite bietet zwei Upgrade-Optionen:
 
-    * Firmware Online Upgrade: Prüft automatisch auf die neueste Firmware-Version und installiert sie direkt vom Server des Herstellers, was den Aktualisierungsprozess vereinfacht.
+    * Firmware Online Upgrade: Prüft automatisch auf dem Server des Herstellers, ob die neueste Firmware-Version verfügbar ist. Wenn eine neuere Version online verfügbar ist, können Sie sie installieren.
     * Firmware Local Upgrade: Lädt eine Firmware-Datei manuell von Ihrem Computer hoch, damit Sie Version und Zeitpunkt des Upgrades selbst steuern können.
 
     Mit diesen Optionen halten Sie Ihren Router mit den neuesten Verbesserungen und Fehlerbehebungen auf dem aktuellen Stand.

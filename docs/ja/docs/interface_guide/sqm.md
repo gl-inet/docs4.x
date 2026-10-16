@@ -21,6 +21,7 @@ SQM (Smart Queue Management) は、ルーターのネットワーク トラフ�
 ## 対応モデル {#supported-models}
 
 ??? "対応モデル"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
@@ -29,7 +30,7 @@ SQM (Smart Queue Management) は、ルーターのネットワーク トラフ�
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-MT3000 (Beryl AX)
 
 ??? "非対応モデル"

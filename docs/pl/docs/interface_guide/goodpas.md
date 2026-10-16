@@ -1,6 +1,6 @@
 # GoodPAS
 
-**Uwaga**: ta funkcja została wprowadzona w firmware v4.11, w którym nazwę AstroWarp zmieniono na GoodPAS. Jeśli urządzenie korzysta ze starszej wersji firmware, zapoznaj się z przewodnikiem [AstroWarp](./astrowarp.md).
+**Uwaga**: ta funkcja została wprowadzona w firmware v4.11 (v4.10 w przypadku GL-MG1300), w którym nazwę AstroWarp zmieniono na GoodPAS. Jeśli urządzenie korzysta ze starszej wersji firmware, zapoznaj się z przewodnikiem [AstroWarp](./astrowarp.md).
 
 ---
 
@@ -12,9 +12,13 @@ Ta funkcja umożliwia płynny zdalny dostęp do sieci domowej. Urządzenia możn
 
 **Uwaga**:
 
-1. Nie zaleca się korzystania z GoodPAS jednocześnie z żadną z następujących funkcji, ponieważ może to powodować konflikty routingu: GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
+1. Nie zaleca się korzystania z GoodPAS jednocześnie z żadną z następujących funkcji, ponieważ może to powodować konflikty routingu: OpenVPN Client, WireGuard Client, GoodCloud Site to Site, ZeroTier, Tailscale, Tor.
 
 2. Gdy GoodPAS jest włączony, nie można korzystać z funkcji Network Mode.
+
+3. Po włączeniu GoodPAS ma najwyższy priorytet routingu i nie może być łączony kaskadowo z klientem VPN.
+
+    Na przykład, jeśli router A i router B utworzą sieć GoodPAS, w której router B jest węzłem wyjściowym, ruch przekazywany przez GoodPAS będzie wychodził do Internetu przez publiczny adres IP WAN routera B, nawet gdy na routerze B jest włączony klient VPN. Ten ruch nie będzie przekazywany przez tunel klienta VPN routera B.
 
 ## Szybka konfiguracja
 

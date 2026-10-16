@@ -338,17 +338,17 @@
         Kombinieren Sie die Konfiguration wie unten gezeigt.
 
         <p>
-        [Interface]</br>
-        PrivateKey = <i>Fügen Sie den PrivateKey aus Ihrem User Office ein</i></br>
-        ListenPort = <i>Fügen Sie die Angaben für ListenPort ein</i></br>
-        Address = <i>Fügen Sie die Adressinformationen ein</i></br>
-        DNS = <i>Fügen Sie die DNS-Angaben aus dem User Office ein</i></br>
-        </br>
-        [Peer]</br>
-        PublicKey = <i>Fügen Sie den PublicKey aus Ihrem User Office ein</i></br>
-        PresharedKey = <i>Fügen Sie die Angaben für PresharedKey ein</i></br>
-        AllowedIPs = <i>Fügen Sie die Angaben für AllowedIPs ein</i></br>
-        Endpoint = <i>Fügen Sie die Endpoint-Informationen ein</i></br>
+        [Interface]<br>
+        PrivateKey = <i>Fügen Sie den PrivateKey aus Ihrem User Office ein</i><br>
+        ListenPort = <i>Fügen Sie die Angaben für ListenPort ein</i><br>
+        Address = <i>Fügen Sie die Adressinformationen ein</i><br>
+        DNS = <i>Fügen Sie die DNS-Angaben aus dem User Office ein</i><br>
+        <br>
+        [Peer]<br>
+        PublicKey = <i>Fügen Sie den PublicKey aus Ihrem User Office ein</i><br>
+        PresharedKey = <i>Fügen Sie die Angaben für PresharedKey ein</i><br>
+        AllowedIPs = <i>Fügen Sie die Angaben für AllowedIPs ein</i><br>
+        Endpoint = <i>Fügen Sie die Endpoint-Informationen ein</i><br>
         </p>
 
     4. Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers), um fortzufahren.

@@ -111,7 +111,7 @@ Richten Sie Spitz AX mit einer der unterstützten Internetverbindungsmethoden ei
 
     Falls nicht, klicken Sie auf die Option **Auto Setup**, sofern sie angezeigt wird.
 
-    Detaillierte Anweisungen finden Sie unter [Über Cellular eine Verbindung zum Internet herstellen](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models).
+    Detaillierte Anweisungen finden Sie unter [Über Cellular eine Verbindung zum Internet herstellen](../../interface_guide/internet_cellular.md#setup-for-dual-sim-models).
 
     Wie Sie die physische eSIM-Karte auf einem GL.iNet-Router verwenden, erfahren Sie [hier](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
 
@@ -213,7 +213,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dies ist besonders nützlich für Benutzer, die für den Zugriff auf ein entferntes Netzwerk eine statische IP-Adresse benötigen.
+    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dabei wird ein Domainname der dynamischen öffentlichen IP-Adresse Ihres Routers zugeordnet, sodass Sie ohne statische IP-Adresse aus der Ferne auf Ihr Netzwerk zugreifen können.
 
     Zum Einrichten von Dynamic DNS lesen Sie bitte [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -281,7 +281,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Hier können Sie ein Subnetz innerhalb der privaten IPv4-Adressbereiche 192.168.0.0/16, 172.16.0.0/12 oder 10.0.0.0/8 festlegen, Gateway- und Netmasken-IP-Adressen angeben und Sicherheitseinstellungen wie AP Isolation für das Gastnetzwerk konfigurieren.
 
-    Zum Einrichten des Gastnetzwerks lesen Sie bitte [Lan Tutorial](../../interface_guide/guest_network.md).
+    Zum Einrichten des Gastnetzwerks lesen Sie bitte [Guest Network](../../interface_guide/guest_network.md).
 
 === "DNS"
 
@@ -354,11 +354,11 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "Upgrade"
 
-    Auf der Seite Upgrade können Sie die Firmware Ihres Routers auf die neueste Version aktualisieren, um bessere Leistung, mehr Sicherheit und neue Funktionen zu erhalten. Diese Seite bietet mehrere Upgrade-Optionen:
+    Auf der Seite Upgrade können Sie die Firmware Ihres Routers auf die neueste Version aktualisieren, um bessere Leistung, mehr Sicherheit und neue Funktionen zu erhalten. Diese Seite bietet vier Upgrade-Optionen:
 
-    * Firmware Online Upgrade: Prüfen Sie automatisch auf die neueste Firmware-Version und installieren Sie sie direkt vom Server des Herstellers, um den Aktualisierungsprozess zu vereinfachen.
+    * Firmware Online Upgrade: Prüft automatisch auf dem Server des Herstellers, ob die neueste Firmware-Version verfügbar ist. Wenn eine neuere Version online verfügbar ist, können Sie sie installieren.
     * Firmware Local Upgrade: Laden Sie manuell eine Firmware-Datei von Ihrem Computer hoch, um den Router zu aktualisieren, und behalten Sie dabei die Kontrolle über Version und Zeitpunkt des Upgrades.
-    * Module Online Upgrade: Prüfen Sie automatisch auf die neueste 4G/5G-Modulversion und installieren Sie sie direkt vom Server des Herstellers.
+    * Module Online Upgrade: Prüft automatisch auf dem Server des Herstellers, ob die neueste 4G/5G-Modulversion verfügbar ist. Wenn eine neuere Version online verfügbar ist, können Sie sie installieren.
     * Module Local Upgrade: Laden Sie manuell eine Moduldatei von Ihrem Computer hoch, um das 4G/5G-Modul zu aktualisieren.
 
     Mit diesen Optionen halten Sie Ihren Router auf dem neuesten Stand und profitieren von aktuellen Verbesserungen und Fehlerbehebungen.

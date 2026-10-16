@@ -114,7 +114,7 @@
 
     Wählen Sie im Menü **Configure IPv4** die Option **Manually**.
 
-    Geben Sie im Feld **IPv4 Address** eine statische IP-Adresse ein. Welche Zahl sollten Sie eingeben? Eine Möglichkeit ist, Ihre aktuelle IP-Adresse zu übernehmen und den letzten Teil der Nummer zu ändern. In diesem Beispiel hätte ich jede Adresse zwischen 192.168.7.0 und 192.168.7.255 wählen können, solange diese Adresse noch keinem anderen Gerät zugewiesen war.
+    Geben Sie im Feld **IPv4 Address** eine statische IP-Adresse ein. Eine Möglichkeit ist, Ihre aktuelle IP-Adresse zu übernehmen und den letzten Teil zu ändern. Wählen Sie für ein Netzwerk mit 192.168.7.0/24 eine freie Hostadresse zwischen 192.168.7.1 und 192.168.7.254. Verwenden Sie weder die Netzwerk- noch die Broadcast-Adresse.
 
     Klicken Sie auf **OK** -> **Apply**.
 
@@ -147,7 +147,7 @@
         ![DHCP_to_Static](https://static.gl-inet.com/docs/router/de/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - Wenn Sie statische IP-Adressen in Heimnetzwerken und anderen privaten Netzwerken verwenden, sollten diese aus den folgenden Standardbereichen für private IP-Adressen gewählt werden:
+    - Wenn Sie statische IP-Adressen in Heimnetzwerken und anderen privaten Netzwerken verwenden, wählen Sie eine freie Hostadresse in Ihrem aktuellen Subnetz. Die Standardbereiche für private IP-Adressen sind:
 
       10.0.0.0 bis 10.255.255.255,
       172.16.0.0 bis 172.31.255.255,
@@ -156,14 +156,14 @@
     - Geben Sie nun die IP-Adresse ein.
         - Dieser Schritt ist für jedes Netzwerk spezifisch, z. B. 192.168.1.128.
 
-    - Das Gateway sollte anhand der IP-Adresse automatisch ausgefüllt werden. Falls nicht, kopieren Sie die IP-Adresse und ersetzen Sie die letzte Zahl durch eine 1.
-        - Beispiel auf Basis des vorherigen Beispiels: 192.168.1.1
+    - Das Gateway sollte anhand der IP-Adresse automatisch ausgefüllt werden. Falls nicht, geben Sie die IP-Adresse Ihres Netzwerk-Gateways ein.
+        - Beispiel: Wenn die IP-Adresse Ihres Routers 192.168.1.1 lautet, geben Sie 192.168.1.1 ein.
 
     3. Tippen Sie auf **Save** und lassen Sie das Netzwerk die Verbindung erneut herstellen.
 
 === "iOS"
 
-    Wenn Sie statische IP-Adressen in Heimnetzwerken und anderen privaten Netzwerken verwenden, sollten diese aus den folgenden Standardbereichen für private IP-Adressen gewählt werden:
+    Wenn Sie statische IP-Adressen in Heimnetzwerken und anderen privaten Netzwerken verwenden, wählen Sie eine freie Hostadresse in Ihrem aktuellen Subnetz. Die Standardbereiche für private IP-Adressen sind:
 
     10.0.0.0 bis 10.255.255.255
     172.16.0.0 bis 172.31.255.255
@@ -192,7 +192,7 @@
 
     - Tippen Sie auf **Subnet Mask** und geben Sie Ihre Informationen ein.
 
-        - In der Regel ist dies 225.225.0.0.
+        - Verwenden Sie die Subnetzmaske des Netzwerks, mit dem Sie verbunden sind.
 
     - Tippen Sie oben links auf die Schaltfläche **Wi-Fi**, um die Einstellungen zu speichern.
 

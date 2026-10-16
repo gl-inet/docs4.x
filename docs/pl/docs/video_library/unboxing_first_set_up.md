@@ -2,6 +2,22 @@
 
 Poznaj nasze urządzenia przy pierwszym kontakcie i zobacz, jak przebiega proces konfiguracji.
 
+## GL-MT6000 (Fortify) {#gl-mt6000-fortify}
+
+Film z rozpakowania
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Pierwsza konfiguracja
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## GL-MG1300 (Mango 2) {#gl-mg1300-mango-2}
+
+Film z rozpakowania
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## GL-BE14000 (Flint 4) {#gl-be14000-flint-4}
 
 Film z rozpakowania

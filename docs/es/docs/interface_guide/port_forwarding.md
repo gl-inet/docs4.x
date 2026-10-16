@@ -38,9 +38,9 @@ En la ventana emergente, añada una nueva regla de reenvío de puertos y haga cl
 
 - **Internal Zone:** Las opciones de la zona interna son `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server` y `WAN`.
 
-- **Internal IP:** La dirección IP que el router asigna al dispositivo al que se necesita acceder de forma remota. Si configura un único puerto en **External Port**, debe configurar aquí ese único puerto. Si configura un rango de puertos en **External Port**, debe configurar aquí el rango de puertos correspondiente.
+- **Internal IP:** La dirección IP que el router asigna al dispositivo al que se necesita acceder de forma remota.
 
-- **Internal Port:** El número de puerto interno del dispositivo. Puede introducir un número de puerto concreto. Déjelo en blanco si es el mismo que el puerto externo.
+- **Internal Port:** El número de puerto interno del dispositivo. Puede introducir un número de puerto concreto. Si configura un único puerto en **External Port**, debe configurar aquí ese único puerto. Si configura un rango de puertos en **External Port**, debe configurar aquí el rango de puertos correspondiente. Déjelo en blanco si es el mismo que el puerto externo.
 
 - **Description:** Defina un nombre personalizado o añada una descripción para esta regla (opcional).
 

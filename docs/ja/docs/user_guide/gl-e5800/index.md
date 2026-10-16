@@ -4,39 +4,29 @@
 
 Mudi 7は、ロードウォリアーとビジネス旅行者向けのポータブル5G NR Wi-Fi 7トラベルルーターです。5Gハイスピード、デュアルSIM自動切替（フェイルオーバー）、Wi-Fi 7（320MHzチャンネルと4K QAM）を特徴とし、安定した高速接続を実現します。高速ダウンロード、4Kストリーミング、混雑した地域でも遅延のないビデオ会議をサポートします。
 
-タッチスクリーンを備えたMudi 7では、リアルタイムのデータ使用量、シグナル強度、接続されたデバイスを監視したり簡単なスワイプで設定を調整したりできます。インターフェースにはワンタップのネットワーク最適化と動的なキュー（速度、バッテリーなど）が含まれ、手間のかからない直感的な制御を提供します。
+タッチスクリーンを備えたMudi 7では、リアルタイムのデータ使用量、信号強度、接続中のデバイス、クライアントの通信速度を確認できます。簡単なタップ操作で設定を調整でき、直感的に操作できます。
 
 ![gl-e5800 overview](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/gl-e5800_overview.png){class="glboxshadow"}
 
 ## パッケージコンテンツ
 
-パッケージ内のアダプターは発送国によって異なることに注意してください。
-
-パッケージには以下が含まれます：
-
 - 1 x Mudi 7 (GL-E5800)
 - 1 x バッテリーパック
-- 1 x 10Gbps USB-C ケーブル
-- 1 x トラベルケース
-- 1 x ユーザーガイド
-- 1 x 保証書
+- 1 x 10Gbps USB-Cケーブル
+- 1 x トラベルポーチ
+- 1 x ユーザーマニュアル
 
-## バッテリーの安全性と膨張したバッテリーの取り扱い {#battery-safety-and-swollen-battery-handling}
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/unboxing.png){class="glboxshadow"}
 
-バッテリーが膨張している、液漏れしている、異常に熱い、損傷している、または異臭がする場合は、Mudi 7 の使用と充電を中止してください。
+以下のMudi 7の開梱動画をご覧ください。
 
-- バッテリーを押す、曲げる、穴を開ける、押しつぶすなど、圧力を加える行為をしないでください。
-- 膨張したバッテリーや損傷したバッテリーを、工具でこじって取り外そうとしないでください。
-- バッテリーが膨張している、取り外せない、液漏れしている、熱い、または安全に扱えない場合は、取り外そうとしないでください。
-- 損傷したリチウムイオンバッテリーを家庭ごみや通常のリサイクルに出さないでください。
-- 膨張したバッテリーや損傷したバッテリーを、通常の郵便や宅配便で送らないでください。
-- 保証に関するサポートと今後の対応について、[GL.iNet サポート](https://www.gl-inet.com/contacts/)にお問い合わせください。
-
-損傷したバッテリーをすでに取り外している場合は、再度取り付けないでください。損傷したリチウムイオンバッテリーを受け入れる、お住まいの地域の適切なバッテリーリサイクル施設または家庭から出る有害廃棄物の回収施設にお問い合わせください。
-
-バッテリーから煙が出ている、急速に熱くなっている、シューという音がする、燃えているなど、差し迫った危険がある場合は、デバイスから離れ、地域の緊急通報先に連絡してください。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Mudi 7の設定方法
+
+このセットアップ動画を視聴するか、以下の手順に従ってください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6xg8I0ohAMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Nano-SIMカードのインストール
 
@@ -66,31 +56,13 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
 ![power on](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/power-button.png){class="glboxshadow"}
 
-次に、画面の指示に従ってデバイス初期化を完たするか、以下の手順に従って続行します。
+### 3. 基本設定
 
-### 3. Mudi 7に接続する
+画面の指示に従い、**画面のパスコード**、**管理者パスワード**、**Wi-Fi名**、**Wi-Fiパスワード**、**周波数帯**などの基本設定を行います。
 
-Wi-Fi、Ethernet cable、またはUSB cableを使用してデバイス（コンピュータ、ラップトップ、スマートフォンなど）をMudi 7に接続します。
+**ヒント**: デフォルトの管理者パスワードは、デバイスのS/Nの末尾9文字に「#」を追加したものです。デフォルトのパスワードを使うか、独自のパスワードを設定できます。
 
-- **Wi-Fi**
-
-    <u>QRコード</u>: デバイスを使用してMudi 7の画面上のQRコードをスキャンします。次に、デバイスで「Join」をクリックして接続します。
-
-    <u>手動接続</u>: デバイスで、Settings -> WLANを開き、利用可能なネットワークリストからMudi 7のWi-Fiネットワーク名を見つけ、パスワードを入力してネットワークに参加します。（デフォルトのネットワーク名とパスワードはラベルに印刷されています。）
-
-- **Ethernet**
-
-    Ethernet cableを使用してデバイスをMudi 7のEthernetポート（デフォルトLAN）に接続します。
-
-- **USB**
-
-    USB cableを使用してデバイスをMudi 7のUSB-Cポートに接続します。OTG対応USB-Cポートにより、次のステップでMudi 7のWebGUIにアクセスできます。
-
-### 4. WebGUIにログインする
-
-Webブラウザーでアドレスバーに`192.168.8.1`を入力し、Mudi 7のログインページにアクセスします。言語を選択し，管理者パスワードを設定して、**Apply**をクリックします。
-
-### 5. Mudi 7をインターネットに接続する
+### 4. インターネットの設定
 
 サポートされているインターネット接続方法（Cellular、Ethernet、Repeater、Tethering、USB Ethernet）のいずれかを使用してMudi 7を設定します。[Multi-WAN](../../interface_guide/multi-wan.md)機能を使用する場合は、複数のインターネット接続を設定してください。
 
@@ -106,7 +78,7 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力し、Mudi 7の�
 
         ![enable esim](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/lcd_enable_esim.png){class="glboxshadow" width="590"}
 
-    2. [Web 管理パネル](./index.md#4-webguiにログインする)にログインし、**INTERNET** -> **Cellular** -> **eSIM Management** に移動します。
+    2. [Web 管理パネル](./index.md#log-in-to-web-admin-panel)にログインし、**INTERNET** -> **Cellular** -> **eSIM Management** に移動します。
 
         ![esim management](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/esim/esim_management.png){class="glboxshadow" width="590"}
 
@@ -169,7 +141,7 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力し、Mudi 7の�
     1. タッチスクリーンまたはWeb管理パネルで、**Internet** -> **Repeater**に移動し、**Connect**をクリックします。Mudi 7は利用可能なWi-Fiネットワークのスキャンを開始します。
     2. Mudi 7が拡張するWi-Fiネットワークを選択します。
     3. パスワードを入力し、**Apply**をクリックします。
-    4. インターネットに正常に接続されると、タッチスクレンの右上にWi-Fiアイコンが表示されます。Web管理パネルで接続の詳細を確認することもできます。
+    4. インターネットに正常に接続されると、タッチスクリーンの右上にWi-Fiアイコンが表示されます。Web管理パネルで接続の詳細を確認することもできます。
 
     詳細な手順については、[既存のWi-Fiネットワークでインターネットに接続する](../../interface_guide/internet_repeater.md)を参照してください。
 
@@ -179,8 +151,10 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力し、Mudi 7の�
 
     1. モバイルデバイス（スマートフォンやUSB dongleなど）をUSB cableでMudi 7のUSB-Cポートに接続します。
     2. モバイルデバイスでSettingsを開き、**USB Tethering**を有効にします。iPhoneを使用する場合は、表示される場合は「Trust This Device」をタップします。
-    3. Mudi 7は自動的にデバイスに接続します。接続しない場合は、上記の手順を繰り返すか、Web管理パネルにログインしてINTERNETページでTethering接続を確認します。
-    4. インターネットに正常に接続されると、タッチスクレンの右上にチェーンリンクアイコンが表示されます。Web管理パネルで接続の詳細を確認することもできます。
+    3. タッチスクリーンにUSBモードの選択が表示されたら、**Host (USB OTG) mode** を選択します。Mudi 7はデバイスに自動的に接続します。接続しない場合は、上記の手順を繰り返すか、Web管理パネルにログインし、INTERNETページでTethering接続を確認してください。
+
+        USBモードの違いについては、[こちら](https://docs.gl-inet.com/router/en/4/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg)を参照してください。
+    4. インターネットに正常に接続されると、タッチスクリーンの右上にチェーンリンクアイコンが表示されます。Web管理パネルで接続の詳細を確認することもできます。
 
     詳細な手順については、[USBテザリングでインターネットに接続する](../../interface_guide/internet_tethering.md)を参照してください。
 
@@ -192,7 +166,7 @@ Webブラウザーでアドレスバーに`192.168.8.1`を入力し、Mudi 7の�
 
     <small>*USB OTG（On-The-Go）は、ルーターなどの互換性のあるデバイスがホストと周辺機器の役割を切り替えて、個別のホストデバイスなしで直接データ伝送と電力交互作用を可能にするUSB標準です。</small>
 
-    1. 上游ネットワークソース（ISPモデム、ネットワークスイッチ、または壁のEthernetジャック）をUSB C-to-Ethernetアダプター経由でMudi 7のUSB-Cポートに接続します。
+    1. 上流のネットワークソース（ISPモデム、ネットワークスイッチ、または壁のEthernetジャック）をUSB C-to-Ethernetアダプター経由でMudi 7のUSB-Cポートに接続します。
     2. タッチスクリーンまたはWeb管理パネルで、**Network** -> **Ethernet Ports** -> **USB Ethernet Port**に移動し、ポートの役割を**WAN**に設定し、**Apply**をクリックします。
 
         ![touchscreen usb eth wan](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/internet/ts-usb-eth-wan.png){class="glboxshadow"}
@@ -228,17 +202,9 @@ Mudi 7 のファームウェアは、タッチスクリーンまたは Web 管�
 
 ### Web からアップグレードする
 
-1. オンラインアップグレード
+Web管理パネルにログインし、**SYSTEM** -> **Upgrade** に移動します。ルーターのファームウェアは、オンラインまたはローカルでアップグレードできます。
 
-    Web 管理パネルにログインし、**SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade** に移動してルーターのファームウェアを更新します。
-
-    詳細は [こちら](../../interface_guide/upgrade.md#online-upgrade) を参照してください。
-
-2. ローカルアップグレード
-
-    Web 管理パネルにログインし、**SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade** に移動してルーターのファームウェアを更新します。
-
-    詳細は [こちら](../../interface_guide/upgrade.md#local-upgrade) を参照してください。
+詳細は[こちら](../../interface_guide/upgrade.md)を参照してください。
 
 ## 工場出荷時設定へのリセット
 
@@ -268,7 +234,7 @@ Mudi 7 をリセットする方法は 3 つあります。タッチスクリー�
 
 1. 背面カバーを外すと、下図のように Reset ボタンがあります。
 
-    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+    ![reset button](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
 2. 必要に応じて、ソフトリセットまたは工場出荷時設定へのリセットを実行します。
 
@@ -284,7 +250,31 @@ Mudi 7 をリセットする方法は 3 つあります。タッチスクリー�
 
     ![web reset](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/web_reset.png){class="glboxshadow"}
 
-以下はMudi 7 WebGUI機能の概要です。
+## Web管理パネルにログインする {#log-in-to-web-admin-panel}
+
+Mudi 7のWeb管理パネルにログインすると、より多くの設定を確認・変更できます。
+
+まず、コンピューター、ノートPC、スマートフォンなどのデバイスを、Wi-Fi、Ethernetケーブル、またはUSBケーブルでMudi 7に接続します。
+
+- **Wi-Fi**
+
+    - <u>QRコード</u>: デバイスでMudi 7の画面に表示されているQRコードをスキャンし、デバイス上で「Join」をタップして接続します。
+    - <u>手動接続</u>: デバイスでSettings -> WLANに移動し、利用可能なネットワーク一覧からMudi 7のWi-Fi名を選択して、パスワードを入力します。デフォルトのネットワーク名とパスワードは、ラベルに記載されています。
+
+- **Ethernet**
+
+    Ethernetケーブルで、デバイスをMudi 7のEthernetポート（デフォルトはLAN）に接続します。
+
+- **USB**
+
+    USBケーブルで、デバイスをMudi 7のUSB-Cポートに接続します。OTG対応のUSB-Cポートを使うと、次の手順でMudi 7のWebGUIにアクセスできます。
+
+次に、Webブラウザーを開き、アドレスバーに `192.168.8.1` を入力してログインページにアクセスします。言語を選択し、管理者パスワードを設定して **Apply** をクリックします。
+
+Mudi 7のWeb管理パネルにログインします。
+
+以下は、Mudi 7のWeb管理パネルの機能概要です。
+
 
 ## Wireless
 
@@ -453,7 +443,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Dynamic DNS"
 
-    Dynamic DNS（DDNS）は、ドメインに関連付けられたIPアドレスをリアルタイムで自動的に検出およびアップデートします。リモートネットワークにアクセスするために静的IPアドレスが必要なユーザーに最も便利です。
+    Dynamic DNS（DDNS）は、ドメインに関連付けられたIPアドレスをリアルタイムで自動的に検出およびアップデートします。ドメイン名をルーターの動的なパブリックIPアドレスに対応付けるため、固定IPアドレスがなくてもネットワークにリモートアクセスできます。
     
     Dynamic DNSの設定については、[Dynamic DNS](../../interface_guide/ddns.md)を参照してください。
 
@@ -522,7 +512,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Upgrade ページでは、ルーターのファームウェアを最新バージョンへ更新できます。これにより、性能向上、セキュリティ強化、新機能の利用が可能になります。このページには次の2つのアップグレード方法があります。
 
-    * ファームウェアオンラインアップグレード：メーカーのサーバーから最新バージョンを自動確認してインストールします。
+    * ファームウェアオンラインアップグレード：メーカーのサーバーで最新のファームウェアバージョンを自動的に確認します。オンラインで利用できる場合はインストールできます。
     * ファームウェアローカルアップグレード：コンピューターからファームウェアファイルをアップロードしてルーターをアップデートし、アップグレードバージョンとタイミングを制御できます。
 
     これらのオプションにより、最新の改善や修正を適用した状態にルーターを保てます。
@@ -603,3 +593,18 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
     Advanced Settings ページでは、OpenWrt LuCI インターフェースを通じて高度な設定オプションにアクセスできます。経験豊富なユーザーは、基本インターフェースの範囲を超えて、詳細なネットワーク設定、ファイアウォール設定、その他の高度なシステムカスタマイズを行えます。
 
     詳細な設定手順と詳細については、[Advanced Settings](../../interface_guide/advanced_settings.md)を参照してください。
+
+## バッテリーの安全性と膨張したバッテリーの取り扱い {#battery-safety-and-swollen-battery-handling}
+
+バッテリーが膨張している、液漏れしている、異常に熱い、損傷している、または異臭がする場合は、Mudi 7 の使用と充電を中止してください。
+
+- バッテリーを押す、曲げる、穴を開ける、押しつぶすなど、圧力を加える行為をしないでください。
+- 膨張したバッテリーや損傷したバッテリーを、工具でこじって取り外そうとしないでください。
+- バッテリーが膨張している、取り外せない、液漏れしている、熱い、または安全に扱えない場合は、取り外そうとしないでください。
+- 損傷したリチウムイオンバッテリーを家庭ごみや通常のリサイクルに出さないでください。
+- 膨張したバッテリーや損傷したバッテリーを、通常の郵便や宅配便で送らないでください。
+- 保証に関するサポートと今後の対応について、[GL.iNet サポート](https://www.gl-inet.com/contacts/)にお問い合わせください。
+
+損傷したバッテリーをすでに取り外している場合は、再度取り付けないでください。損傷したリチウムイオンバッテリーを受け入れる、お住まいの地域の適切なバッテリーリサイクル施設または家庭から出る有害廃棄物の回収施設にお問い合わせください。
+
+バッテリーから煙が出ている、急速に熱くなっている、シューという音がする、燃えているなど、差し迫った危険がある場合は、デバイスから離れ、地域の緊急通報先に連絡してください。

@@ -98,11 +98,11 @@
 
 ## リピーターオプション
 
-接続済みの Repeater セクション右上にある歯車アイコンをクリックします。
+右上の歯車アイコンをクリックして、リピーターのオプションを設定します。
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_connected.png){class="glboxshadow"}
 
-Repeater Options は次のように表示されます。
+ファームウェアのバージョンによって、ページの表示は異なる場合があります。
 
 ![repeater options](https://static.gl-inet.com/docs/router/en/4/interface_guide/internet_repeater/repeater_options.png){class="glboxshadow"}
 

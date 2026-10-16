@@ -42,7 +42,7 @@ Jako przykład posłuży aktualizacja modułu RM520N.
 
 4. Zaktualizuj oprogramowanie modułu za pomocą komendy QFirehose, jak pokazano poniżej.
 
-    **Uwaga**: Zamień „/RM520NGLAAR03A03M4G_01.201.01201" na rzeczywistą ścieżkę folderu z oprogramowaniem modułu.
+    **Uwaga**: Zamień „/RM520NGLAAR03A03M4G_01.201.01.201" na rzeczywistą ścieżkę folderu z oprogramowaniem modułu.
 
     ```
     QFirehose-mtk7981a-sha256-c0b944 -f /RM520NGLAAR03A03M4G_01.201.01.201
@@ -72,7 +72,7 @@ Jako przykład posłuży aktualizacja modułu EM060K.
 
 2. Podłącz pendrive do routera. Następnie zapoznaj się z [tym linkiem](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/), aby zalogować się do routera przez SSH.
 
-3. Wprowadź komendę `df - h`, aby sprawdzić ścieżkę montowania pendrive'a i zanotuj ją.
+3. Wprowadź komendę `df -h`, aby sprawdzić ścieżkę montowania pendrive'a i zanotuj ją.
 
     ![check mounting path](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_mounting_path.png){class="glboxshadow"}
 

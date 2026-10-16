@@ -337,17 +337,17 @@
         Złóż konfigurację według poniższego wzoru.
 
         <p>
-        [Interface]</br>
-        PrivateKey = <i>wklej PrivateKey z panelu User Office</i></br>
-        ListenPort = <i>wklej wartość portu nasłuchu (ListenPort)</i></br>
-        Address = <i>wklej informacje z pola Address</i></br>
-        DNS = <i>wklej dane DNS z panelu User Office</i></br>
-        </br>
-        [Peer]</br>
-        PublicKey = <i>wklej PublicKey z panelu User Office</i></br>
-        PresharedKey = <i>wklej wartość PresharedKey</i></br>
-        AllowedIPs = <i>wklej wartość AllowedIPs</i></br>
-        Endpoint = <i>wklej informacje z pola Endpoint</i></br>
+        [Interface]<br>
+        PrivateKey = <i>wklej PrivateKey z panelu User Office</i><br>
+        ListenPort = <i>wklej wartość portu nasłuchu (ListenPort)</i><br>
+        Address = <i>wklej informacje z pola Address</i><br>
+        DNS = <i>wklej dane DNS z panelu User Office</i><br>
+        <br>
+        [Peer]<br>
+        PublicKey = <i>wklej PublicKey z panelu User Office</i><br>
+        PresharedKey = <i>wklej wartość PresharedKey</i><br>
+        AllowedIPs = <i>wklej wartość AllowedIPs</i><br>
+        Endpoint = <i>wklej informacje z pola Endpoint</i><br>
         </p>
 
     4. Następnie postępuj zgodnie z [tym przewodnikiem](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers).

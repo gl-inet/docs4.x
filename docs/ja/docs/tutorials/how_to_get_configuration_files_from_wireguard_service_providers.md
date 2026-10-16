@@ -338,17 +338,17 @@
         以下のように設定を組み立ててください。
 
         <p>
-        [Interface]</br>
-        PrivateKey = <i>User Office から PrivateKey を貼り付け</i></br>
-        ListenPort = <i>ListenPort の内容を貼り付け</i></br>
-        Address = <i>Address の情報を貼り付け</i></br>
-        DNS = <i>User Office から DNS の内容を貼り付け</i></br>
-        </br>
-        [Peer]</br>
-        PublicKey = <i>User Office から PublicKey を貼り付け</i></br>
-        PresharedKey = <i>PresharedKey の内容を貼り付け</i></br>
-        AllowedIPs = <i>AllowedIPs の内容を貼り付け</i></br>
-        Endpoint = <i>Endpoint の情報を貼り付け</i></br>
+        [Interface]<br>
+        PrivateKey = <i>User Office から PrivateKey を貼り付け</i><br>
+        ListenPort = <i>ListenPort の内容を貼り付け</i><br>
+        Address = <i>Address の情報を貼り付け</i><br>
+        DNS = <i>User Office から DNS の内容を貼り付け</i><br>
+        <br>
+        [Peer]<br>
+        PublicKey = <i>User Office から PublicKey を貼り付け</i><br>
+        PresharedKey = <i>PresharedKey の内容を貼り付け</i><br>
+        AllowedIPs = <i>AllowedIPs の内容を貼り付け</i><br>
+        Endpoint = <i>Endpoint の情報を貼り付け</i><br>
         </p>
 
     4. 次に[このガイド](../interface_guide/wireguard_client.md#set-up-wireguard-client-manually-for-other-providers)に従って続行してください。

@@ -64,7 +64,7 @@ Wie unten dargestellt, ist der GL-AXT1800 ein OpenVPN-Server und der GL-MT2500 e
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/de/4/tutorials/openvpn_server-access_client_lan_side/4.7-allow-remote-access-lan.jpg){class="glboxshadow"}
 
-??? "Für Firmware v4.8 und höher"
+??? "Für Firmware v4.8"
 
     Melden Sie sich am webbasierten Admin Panel <u>Ihres OpenVPN-Clients</u> an und gehen Sie zu **VPN** -> **VPN Dashboard**.
 
@@ -75,6 +75,18 @@ Wie unten dargestellt, ist der GL-AXT1800 ein OpenVPN-Server und der GL-MT2500 e
     Aktivieren Sie im Pop-up-Fenster **Allow Remote Access the LAN Subnet** und klicken Sie anschließend auf **Apply**.
 
     ![allow remote access lan](https://static.gl-inet.com/docs/router/de/4/tutorials/openvpn_server-access_client_lan_side/4.8-allow-remote-access-lan.png){class="glboxshadow"}
+
+??? "Für Firmware v4.9 und höher"
+
+    Melden Sie sich im Web-Admin-Panel <u>Ihres OpenVPN-Clients</u> an und gehen Sie zu **VPN** -> **VPN Dashboard**.
+
+    Klicken Sie in einer Tunnelgruppe auf das Zahnradsymbol und wählen Sie **Options**.
+
+    ![tunnel options](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.9-tunnel-options.png){class="glboxshadow"}
+
+    Aktivieren Sie im Pop-up-Fenster **Allow Remote Access the LAN Subnet** und klicken Sie auf **Apply**.
+
+    ![allow remote access lan](https://static.gl-inet.com/docs/router/en/4/tutorials/openvpn_server-access_client_lan_side/4.9-allow-remote-access-lan.png){class="glboxshadow" width=600}
 
 ## 3. Verbindung testen
 

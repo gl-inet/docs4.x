@@ -194,7 +194,7 @@ Linux と Mac OS での手順は概ね同じです。ここでは Ubuntu を例�
 
         この場合は、上の赤枠内に表示されているコマンドを実行してください。端末に表示されたコマンドをそのままコピーすることをおすすめします。
 
-        `ssh-keygen -f "~/.ssh/known_hosts" -R "192.168.8.1"`
+        `ssh-keygen -f ~/.ssh/known_hosts -R "192.168.8.1"`
 
         ![removed_host_keygen](https://static.gl-inet.com/docs/router/en/4/tutorials/ssh_log_in_to_the_router/removed_host_keygen.png){class="glboxshadow gl-90-desktop"}
 

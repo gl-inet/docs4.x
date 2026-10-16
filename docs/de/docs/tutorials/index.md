@@ -35,7 +35,7 @@ Erfahren Sie anhand detaillierter Schritte, wie Sie unsere Geräte korrekt verwe
 
 * [SMS](sms.md)
 * [SMS-Weiterleitung](sms_forwarding.md)
-* [So verwenden Sie qlog zum Erfassen von Modulprotokollen](get_module_logs.md)
+* [Modemprotokolle mit qlog erfassen](get_module_logs.md)
 * [So aktualisieren Sie die Firmware des Quectel-Moduls](upgrade_quectel_module_software.md)
 * [So überprüfen Sie den Carrier-Aggregation-Status auf Ihrem Mobilfunkrouter](how_to_check_carrier_aggregation.md)
 * [So richten Sie Spitz AX (GL-X3000) in Ihrem Wohnmobil ein und verwenden ihn](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)

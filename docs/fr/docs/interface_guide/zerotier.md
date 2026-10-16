@@ -15,6 +15,7 @@ La fonctionnalité ZeroTier sur les routeurs GL.iNet, disponible depuis le firmw
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
@@ -67,7 +68,7 @@ L’exemple suivant utilise le GL-MT3600BE.
 
 1. Rendez-vous sur le [site officiel de ZeroTier](https://www.zerotier.com/){target="_blank"} et connectez-vous à votre compte.
 
-    ![create organization](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/zerotier_login.jpg){class="glboxshadow"}
+    ![zerotier login](https://static.gl-inet.com/docs/router/en/4/interface_guide/zerotier/new_central/zerotier_login.jpg){class="glboxshadow"}
 
 2. Créez une organisation.
 

@@ -15,8 +15,11 @@ Mesh es una función basada en el estándar Wi-Fi EasyMesh™ que amplía la cob
 ??? "Modelos compatibles"
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
+    - GL-MT6000 (Flint 2)
+    - GL-MT3000 (Beryl AX)
 
 ??? "Modelos no compatibles"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
@@ -28,8 +31,6 @@ Mesh es una función basada en el estándar Wi-Fi EasyMesh™ que amplía la cob
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
-    - GL-MT3000 (Beryl AX)
     - GL-AX1800 (Flint)
     - GL-AXT1800 (Slate AX)
     - GL-SFT1200 (Opal)

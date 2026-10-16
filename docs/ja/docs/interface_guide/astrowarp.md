@@ -1,6 +1,6 @@
 # AstroWarp
 
-**注意**: このガイドは新しいバージョンのAstroWarpに適用されます。この機能はファームウェア v4.10 で [GoodPAS](./goodpas.md) に名称変更されました。
+**注意**: このガイドは新しいバージョンのAstroWarpに適用されます。この機能はファームウェア v4.11（GL-MG1300 では v4.10）で [GoodPAS](./goodpas.md) に名称変更されました。
 
 新しい AstroWarp は GL.iNet ルーター SDK に統合されており、トラフィック難読化を内蔵した AmneziaWG プロトコルを採用しています。これにより、安定かつ安全な接続を実現し、いつでもどこでも信頼性の高いリモートアクセスを提供します。
 
@@ -10,8 +10,12 @@
 
 **Note:**
 
-1. GoodCloud Site to Site、ZeroTier、Tailscale、Tor のいずれかの機能と AstroWarp を同時に使用すると、ルーティングの競合が発生する可能性があるため、推奨されません。
+1. OpenVPN Client、WireGuard Client、GoodCloud Site to Site、ZeroTier、Tailscale、Tor のいずれかの機能と AstroWarp を同時に使用すると、ルーティングの競合が発生する可能性があるため、推奨されません。
 2. AstroWarp を有効にすると、Network Mode は使用できません。
+
+3. AstroWarpを有効にすると、ルーティングの優先度が最も高くなり、VPNクライアントとカスケード接続することはできません。
+
+    たとえば、ルーターAとルーターBがAstroWarpネットワークを構成し、ルーターBを出口ノードに設定した場合、AstroWarp経由のトラフィックはルーターBのWANパブリックIPを使用してインターネットに接続します。ルーターBでVPNクライアントが有効になっていても、このトラフィックはルーターBのVPNクライアントトンネルには転送されません。
 
 ## 対応モデル
 
@@ -19,6 +23,9 @@
 
     これらのモデルは新しい AstroWarp に対応しています。従来版 AstroWarp の対応モデル一覧は、[こちら](https://docs.astrowarp.net/en/quick_start/){target="_blank"} をクリックして確認してください。
 
+    - GL-MT6000 (Fortify)
+    - GL-BE14000 (Flint 4)
+    - GL-MG1300 (Mango 2)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-MT6000 (Flint 2)
@@ -37,13 +44,11 @@
 ??? "非対応モデル"
     これらのデバイスは新しい AstroWarp には対応していませんが、一部のモデルは従来版 AstroWarp で引き続き利用できます。詳細は [こちら](https://docs.astrowarp.net/en/quick_start/){target="_blank"} を参照してください。
 
-    - GL-BE14000 (Flint 4)
-    - GL-MG1300 (Mango 2)
+    - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
     - GL-BE6500 (Flint 3e)
     - GL-B3000 (Marble)
     - GL-A1300 (Slate Plus)
-    - GL-BE10000 (Slate 7 Pro)
     - GL-SFT1200 (Opal)
     - GL-MT1300 (Beryl)
     - GL-E750/E750V2 (Mudi)

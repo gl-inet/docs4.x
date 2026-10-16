@@ -22,6 +22,7 @@ Per i dispositivi con memoria flash di 32 MB o inferiore, la funzione Network St
 
 | Router Model                           | Samba | Webdav | DLNA | USB Port | MicroSD Card |
 | :------------------------------------- | :---: | :---: | :---: | :------: | :----------: |
+| GL-MT6000 (Fortify)                    | √     | √     | √     | √        | -            |
 | GL-MG1300 (Mango 2) | √ | - | - | √ | - |
 | GL-BE14000 (Flint 4) | √ | √ | √ | √ | - |
 | GL-BE10000 (Slate 7 Pro)               | √     | √     | √     | √        | -            |
@@ -41,9 +42,9 @@ Per i dispositivi con memoria flash di 32 MB o inferiore, la funzione Network St
 | GL-AX1800 (Flint)                      | √     | √     | √     | √        | -            |
 | GL-A1300 (Slate Plus)                  | √     | √     | √     | √        | -            |
 | GL-S1300 (Convexa-S)                   | √     | √     | √     | √        | -            |
-| GL-SFT1200 (Opal)</br>***FW 4.8+**     | √     | -     | -     | √        | -            |
-| GL-E750V2 (Mudi V2)</br>***FW 4.8+**   | √     | -     | -     | √        | √            |
-| GL-AR750S-EXT (Slate)</br>***FW 4.7+** | √     | -     | -     | √        | √            |
+| GL-SFT1200 (Opal)<br>**FW 4.8+**     | √     | -     | -     | √        | -            |
+| GL-E750V2 (Mudi V2)<br>**FW 4.8+**   | √     | -     | -     | √        | √            |
+| GL-AR750S-EXT (Slate)<br>**FW 4.7+** | √     | -     | -     | √        | √            |
 
 ## Collegare il dispositivo di archiviazione {#connect-storage-device}
 
@@ -237,27 +238,27 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
         Apri l'app **Files**. E' installata per impostazione predefinita, quindi dovresti trovarla nella schermata Home. Poiche' **Files** ora e' un'app rimovibile, potresti doverla reinstallare dall'App Store se non compare.
 
-        ![search files on iphone](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width=300"}
+        ![search files on iphone](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios15-iphone-12-pro-home-screen-search-files.jpg){class="glboxshadow" width="300"}
 
         Assicurati di essere nella scheda **Browse** nella parte inferiore dello schermo. Tocca l'icona "..." (tre puntini) in alto a destra per mostrare il menu contestuale dell'app.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_1.png){class="glboxshadow" width="560"}
 
         Tocca l'opzione **Connect to Server** nella parte superiore del menu. Nella schermata successiva, inserisci l'URL di connessione del server. Puoi trovare l'URL in [Shared Link](#shared-link). Tocca il pulsante **Next** in alto a destra per continuare.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_2.png){class="glboxshadow" width="560"}
 
         La schermata successiva consente di inserire le credenziali di autenticazione se ti collegherai a una condivisione di rete protetta. Tocca **Registered User** e compila i campi **Name** e **Password** con il nome utente e la password Samba. Puoi anche toccare "Guest" se abiliti **Anonymous Access**.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_3.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_3.png){class="glboxshadow" width="560"}
 
         Premi il pulsante **Next** in alto a destra per completare la connessione. Il tuo dispositivo iOS dovrebbe collegarsi correttamente al server e mostrare un elenco delle condivisioni disponibili.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_4.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_4.png){class="glboxshadow" width="560"}
 
         La condivisione Samba verra' elencata nella parte inferiore del menu, sotto l'intestazione **Shared**.
 
-        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width=560"}
+        ![ios files set up SMB](https://static.gl-inet.com/docs/router/en/4/interface_guide/network_storage/samba_client/ios_files_smb_5.png){class="glboxshadow" width="560"}
 
     - Guida alla connessione a un server Samba tramite l'app [Documents](https://apps.apple.com/us/app/documents-file-reader-browser/id364901807){target="_blank"}.
 
@@ -323,7 +324,7 @@ Collega il dispositivo di archiviazione. Quando viene rilevato, la pagina verra'
 
 === "Android"
 
-    Esistono molte app iOS che supportano WebDAV; ecco un esempio con [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}.
+    Esistono molte app Android che supportano WebDAV; ecco un esempio con [Cx File Explorer](https://play.google.com/store/apps/details?id=com.cxinventor.file.explorer&hl=en&gl=US){target="_blank"}.
 
     Nota: Cx File Explorer non supporta l'accesso anonimo.
 

@@ -13,11 +13,12 @@ Il servizio [Bark](https://www.bark.us/){target="_blank"} puo' aiutarti a proteg
 ## Modelli supportati
 
 ??? "Modelli supportati"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
 
 ??? "Modelli non supportati"
     - GL-BE10000 (Slate 7 Pro)

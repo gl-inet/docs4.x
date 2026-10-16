@@ -18,11 +18,13 @@ Vous pouvez personnaliser le comportement de cet interrupteur dans le panneau d‚
     - GL-A1300 (Slate Plus)
     - GL-MT300N-V2 (Mango)
     - GL-AR300M Series (Shadow)
+    - GL-S200
     - GL-E750V2 (Mudi V2)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
 
 ??? "Mod√®les non pris en charge"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)

@@ -6,7 +6,27 @@ Fortify (GL-MT6000) es un enrutador Wi-Fi 6 de marca compartida lanzado conjunta
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
+## Contenido del paquete
+
+- 1 x Fortify (GL-MT6000)
+- 1 x Manual de usuario
+- 1 x Guía de activación de ExpressVPN
+- 1 x Cable Ethernet
+- 1 x Adaptador de corriente
+- 1 x Tarjeta de agradecimiento
+- 1 x Convertidor (según el país de envío)
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/unboxing.png){class="glboxshadow"}
+
+Vea a continuación el vídeo de desempaquetado de Fortify.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Cómo configurar Fortify
+
+Vea este vídeo de configuración o siga los pasos que se indican a continuación.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. Encendido
 
@@ -280,7 +300,7 @@ DPI (Inspección profunda de paquetes) es una capacidad central de la gestión i
 
 === "Dynamic DNS"
 
-    El DNS dinámico (DDNS) detecta y actualiza automáticamente la dirección IP asociada a un dominio en tiempo real. Es útil para usuarios que necesitan una dirección IP estática para acceder a una red remota.
+    El DNS dinámico (DDNS) detecta y actualiza automáticamente la dirección IP asociada a un dominio en tiempo real. Asigna un nombre de dominio a la dirección IP pública dinámica de su router, de modo que pueda acceder a su red de forma remota sin necesidad de una dirección IP estática.
 
     Consulte [DNS dinámico](../../interface_guide/ddns.md) para obtener más detalles.
 
@@ -351,7 +371,7 @@ DPI (Inspección profunda de paquetes) es una capacidad central de la gestión i
 
     La página Actualizar se utiliza para actualizar el firmware de su enrutador a la última versión, lo que garantiza un mejor rendimiento, seguridad y nuevas funciones. Esta página ofrece dos opciones:
 
-    * Actualización de firmware en línea: busque e instale automáticamente la última versión de firmware directamente desde el servidor del fabricante, simplificando el proceso de actualización.
+    * Actualización de firmware en línea: comprueba automáticamente en el servidor del fabricante si existe una versión más reciente del firmware. Puede instalarla si está disponible en línea.
     * Actualización local de firmware: cargue manualmente un archivo de firmware desde su computadora para actualizar el enrutador, brindando control sobre la versión y el tiempo de actualización.
 
     Consulte [Actualización](../../interface_guide/upgrade.md) para obtener más detalles.

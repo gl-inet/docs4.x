@@ -36,7 +36,7 @@ Bitte befolgen Sie die untenstehenden Schritte, um die U-Boot-Aktualisierungssei
 
         3. Klicken Sie auf **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
 
-        4. Stellen Sie die **IP adress** manuell auf `192.168.1.2` ein.
+        4. Stellen Sie die **IP address** manuell auf `192.168.1.2` ein.
 
         5. Stellen Sie die **Subnet mask** auf `255.255.255.0` ein.
 
@@ -46,47 +46,47 @@ Bitte befolgen Sie die untenstehenden Schritte, um die U-Boot-Aktualisierungssei
 
     ??? "Windows 11"
 
-        7. Öffnen Sie Settings.
+        1. Öffnen Sie Settings.
 
-        8. Klicken Sie auf **Network & Internet**.
+        2. Klicken Sie auf **Network & Internet**.
 
-        9. Klicken Sie auf die Registerkarte **Ethernet**.
+        3. Klicken Sie auf die Registerkarte **Ethernet**.
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/router/de/4/faq/upgrade_uboot_version/windwos11_ethernet.png){class="glboxshadow"}
 
-        10. Klicken Sie im Abschnitt "IP assignment" auf die Schaltfläche **Edit**.
+        4. Klicken Sie im Abschnitt "IP assignment" auf die Schaltfläche **Edit**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/de/4/faq/upgrade_uboot_version/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        11. Wählen Sie die Option **Manual**.
+        5. Wählen Sie die Option **Manual**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/de/4/faq/upgrade_uboot_version/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        12. Aktivieren Sie den Schalter **IPv4 toggle**.
+        6. Aktivieren Sie den Schalter **IPv4 toggle**.
 
-        13. Stellen Sie die statische **IP address** auf **192.168.1.2** ein.
+        7. Stellen Sie die statische **IP address** auf **192.168.1.2** ein.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/de/4/faq/upgrade_uboot_version/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        14. Geben Sie als **Subnet mask** **255.255.255.0** an.
+        8. Geben Sie als **Subnet mask** **255.255.255.0** an.
 
-        15. Klicken Sie auf die Schaltfläche **Save**.
+        9. Klicken Sie auf die Schaltfläche **Save**.
 
     ??? "macOS"
 
-        16. Klicken Sie oben links auf dem Bildschirm auf das **Apple**-Symbol und wählen Sie **System Preferences**.
+        1. Klicken Sie oben links auf dem Bildschirm auf das **Apple**-Symbol und wählen Sie **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/de/4/faq/upgrade_uboot_version/macos_system_preferences.png){class="glboxshadow"}
 
-        17. Klicken Sie auf **Network**.
+        2. Klicken Sie auf **Network**.
 
             ![macos system preferences network](https://static.gl-inet.com/docs/router/de/4/faq/upgrade_uboot_version/macos_system_preferences_network.png){class="glboxshadow"}
 
-        18. Klicken Sie links auf **Ethernet**, klicken Sie dann auf das Dropdown-Menü neben **Configure IPv4** und wählen Sie **Manually**. Wenn Sie einen USB-Ethernet-Adapter verwenden, wird Ethernet möglicherweise nicht angezeigt; stattdessen kann dort der Name des USB-Ethernet-Adapters erscheinen.
+        3. Klicken Sie links auf **Ethernet**, klicken Sie dann auf das Dropdown-Menü neben **Configure IPv4** und wählen Sie **Manually**. Wenn Sie einen USB-Ethernet-Adapter verwenden, wird Ethernet möglicherweise nicht angezeigt; stattdessen kann dort der Name des USB-Ethernet-Adapters erscheinen.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/de/4/faq/upgrade_uboot_version/macos_ip_manually_1.png){class="glboxshadow"}
 
-        19. Geben Sie bei **IPv4 Address** `192.168.1.2`, bei **Subnet Mask** `255.255.255.0` und bei **Router** `192.168.1.1` ein und klicken Sie dann rechts unten auf die Schaltfläche Apply.
+        4. Geben Sie bei **IPv4 Address** `192.168.1.2`, bei **Subnet Mask** `255.255.255.0` und bei **Router** `192.168.1.1` ein und klicken Sie dann rechts unten auf die Schaltfläche Apply.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/de/4/faq/upgrade_uboot_version/macos_ip_manually_2.png){class="glboxshadow"}
 

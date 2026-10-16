@@ -18,6 +18,7 @@ Les routeurs cellulaires GL.iNet prennent en charge le transfert de SMS, en envo
     - GL-X300B (Collie)
 
 ??? "Modèles non pris en charge"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)

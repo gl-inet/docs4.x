@@ -1,6 +1,6 @@
 # Firmware v4.11
 
-Ta wersja koncentruje się na usprawnieniu monitorowania jakości sieci i oceny bezpieczeństwa, pomagając wykrywać problemy z łącznością oraz potencjalne zagrożenia. Wprowadza także nowe funkcje Mesh, konta GL.iNet i VLAN oraz istotne ulepszenia DNS, SQM, QoS i statystyk ruchu.
+Ta wersja koncentruje się na usprawnieniu monitorowania jakości sieci i oceny bezpieczeństwa, pomagając wykrywać problemy z łącznością oraz potencjalne zagrożenia. Usprawnia także DNS, QoS, SQM i statystyki danych, zapewniając bardziej elastyczne zarządzanie siecią i kontrolę ruchu.
 
 Najnowsze oprogramowanie układowe można pobrać z [Centrum pobierania oprogramowania](https://dl.gl-inet.com/){target="_blank"}.
 
@@ -16,57 +16,15 @@ Najnowsze oprogramowanie układowe można pobrać z [Centrum pobierania oprogram
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
-## Mesh
-
-[Mesh](../interface_guide/mesh.md) to funkcja oparta na standardzie Wi-Fi EasyMesh™, która rozszerza zasięg Wi-Fi w całym domu i umożliwia płynny roaming. Jeśli masz kilka routerów GL.iNet, ustaw jeden jako router główny, a pozostałe jako węzły mesh, aby korzystać z płynnego roamingu Wi-Fi w całym domu.
-
-**Uwaga**: Ta funkcja została najpierw udostępniona w wybranych modelach, a w firmware v4.11 rozszerzono jej dostępność na kolejne modele.
-
-![mesh](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/mesh.png){class="glboxshadow"}
-
-## Konto GL.iNet
-
-[Konto GL.iNet](../interface_guide/glinet_account.md) zapewnia jednolity dostęp do urządzeń i usług chmurowych. Jedno konto GL.iNet pozwala wygodnie korzystać z GoodCloud i aplikacji GL.iNet, ułatwiając zarządzanie siecią i urządzeniami. Ponadto dzięki GoodPAS możesz szybko nawiązać bezpieczne połączenie między routerem podróżnym a siecią domową i korzystać ze zdalnego dostępu poza domem.
-
-**Uwaga**: Ta funkcja została najpierw udostępniona w wybranych modelach, a w firmware v4.11 rozszerzono jej dostępność na kolejne modele.
-
-![GL.iNet Account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
-
-## GoodPAS
-
-[GoodPAS](../interface_guide/goodpas.md) to rozwiązanie do zdalnego dostępu oparte na protokole AmneziaWG z wbudowanym maskowaniem ruchu. Umożliwia bezpieczne połączenie routera podróżnego z siecią domową za pomocą dynamicznego kodu dostępu, bez rejestracji ani logowania.
-
-**Uwaga**: Ta funkcja została najpierw udostępniona w wybranych modelach, a w firmware v4.11 rozszerzono jej dostępność na kolejne modele.
-
-![goodpas](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/goodpas.png){class="glboxshadow"}
-
-## GoodCloud
-
-[GoodCloud](../interface_guide/cloud.md) umożliwia zdalny dostęp do routerów GL.iNet i ich scentralizowane zarządzanie. Możesz zarządzać urządzeniami zbiorczo, wdrażać konfiguracje sieci, aktualizować firmware oraz uzyskiwać zdalny dostęp do panelu administracyjnego WWW routera lub terminala SSH.
-
-**Uwaga**: Ta funkcja została najpierw udostępniona w wybranych modelach, a w firmware v4.11 rozszerzono jej dostępność na kolejne modele.
-
-![goodcloud](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/goodcloud.png){class="glboxshadow"}
-
-## Ethernet Port
-
-Strona [Ethernet Port](../interface_guide/ethernet_port_v4.10.md) wyświetla wszystkie interfejsy routera. Możesz sprawdzać stan połączenia każdego interfejsu, zarządzać rolami portów Ethernet (WAN lub LAN) oraz przeglądać szczegóły portów, takie jak adres MAC, wynegocjowana prędkość i bieżący stan łącza. Możesz również przypisywać interfejsy fizyczne do utworzonych podsieci.
-
-**Uwaga**: Ta funkcja została najpierw udostępniona w wybranych modelach, a w firmware v4.11 rozszerzono jej dostępność na kolejne modele.
-
-Poniższa ilustracja przedstawia stronę Ethernet Port na routerze Flint 3 (GL-BE9300).
-
-![ethernet port](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/ethernet_port.png){class="glboxshadow"}
-
 ## DNS
 
 Ta wersja usprawnia konfigurację [DNS](../interface_guide/dns_v4.11.md), łącząc WAN DNS, VPN DNS i Manual DNS na jednej stronie. Możesz łatwo sprawdzać stan DNS dla każdego typu połączenia, konfigurować niestandardowe serwery DNS i wybierać, czy ręczne ustawienia DNS mają być stosowane do tuneli VPN, czy do samego routera.
 
-![dns](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/dns_v4.11.png){class="glboxshadow"}
+![dns](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/dns.png){class="glboxshadow"}
 
 ## QoS
 
-W tej wersji firmware ulepszono [QoS](../interface_guide/qos.md) (Quality of Service). Dodano opcję **Run Speedtest** dla przepustowości WAN, która mierzy przepustowość pobierania i wysyłania przez WAN oraz automatycznie wypełnia odpowiednie pola. Dostępne są trzy polityki planowania ruchu, w tym nowo wprowadzone **Device Priority** i **Advanced QoS**.
+[QoS](../interface_guide/qos.md) (Quality of Service) udostępnia opcję **Run Speedtest** dla przepustowości WAN, która mierzy prędkości pobierania i wysyłania oraz automatycznie wypełnia odpowiednie pola. Oprócz Application Priority ta wersja dodaje dwie polityki planowania ruchu: **Device Priority** i **Advanced QoS**.
 
 ![qos](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/qos.png){class="glboxshadow" width=600}
 
@@ -78,11 +36,17 @@ W tej wersji firmware ulepszono [QoS](../interface_guide/qos.md) (Quality of Ser
 
 ## SQM
 
-[SQM](../interface_guide/sqm.md) (Smart Queue Management) udostępnia opcję **Run Speedtest** dla przepustowości WAN, która mierzy prędkość pobierania i wysyłania oraz automatycznie wypełnia odpowiednie pola. Dla mechanizmu kolejkowania **cake** nowa funkcja **Cake Autorate** dynamicznie dostosowuje skonfigurowaną przepustowość na podstawie RTT pakietów testowych. Korzysta z lekkich testów ping zamiast aktywnych testów prędkości i jest zalecana dla połączeń WAN o zmiennej przepustowości.
+[SQM](../interface_guide/sqm.md) (Smart Queue Management) udostępnia opcję **Run Speedtest** dla przepustowości WAN, która mierzy prędkości pobierania i wysyłania oraz automatycznie wypełnia odpowiednie pola. Dostępne są dwa mechanizmy kolejkowania: **cake** i **fq_codel**.
 
-![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_v4.11.png){class="glboxshadow" width=600}
+![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm.png){class="glboxshadow" width=600}
 
-![cake autorate](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/cake_autorate.png){class="glboxshadow" width=600}
+- **cake**: inteligentne, automatyczne kształtowanie ruchu zapewniające najlepszą ogólną kontrolę opóźnień (zalecane).
+
+    W tym mechanizmie nowa funkcja **Cake Autorate** dynamicznie dostosowuje skonfigurowaną przepustowość na podstawie RTT pakietów testowych. Korzysta z lekkich testów ping zamiast aktywnych testów prędkości i jest zalecana dla połączeń WAN o zmiennej przepustowości.
+
+    ![sqm cake autorate](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_cake_autorate.png){class="glboxshadow" width=600}
+
+- **fq_codel**: proste i wydajne sprawiedliwe kolejkowanie z podstawową redukcją opóźnień.
 
 ## Statystyki danych
 

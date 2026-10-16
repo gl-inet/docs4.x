@@ -2,7 +2,7 @@
 
 Connectez-vous au panneau d'administration web, puis accédez à **INTERNET**.
 
-La moitié supérieure présente un schéma indiquant l'état d'Internet, et la moitié inférieure liste quatre ou cinq méthodes d'accès à Internet (la disponibilité varie selon le modèle).
+La moitié supérieure présente un schéma indiquant l'état d'Internet, et la moitié inférieure liste jusqu'à quatre méthodes d'accès à Internet (la disponibilité varie selon le modèle).
 
 ## Schéma d'état
 

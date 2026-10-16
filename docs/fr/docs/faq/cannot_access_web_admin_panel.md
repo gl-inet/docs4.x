@@ -48,7 +48,7 @@ Suivez les étapes ci-dessous pour vérifier l'adresse IP du routeur.
 
     ![control panel](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/control_panel_view_by.png){class="glboxshadow"}
 
-    Control Panel -> Network and Share Center -> cliquez sur la connexion. Vous pouvez avoir plusieurs connexions ; choisissez celle qui correspond au routeur que vous souhaitez vérifier.
+    Control Panel -> Network and Sharing Center -> cliquez sur la connexion. Vous pouvez avoir plusieurs connexions ; choisissez celle qui correspond au routeur que vous souhaitez vérifier.
 
     ![network and sharing center, connections](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/network_and_sharing_center_connections.png){class="glboxshadow"}
 

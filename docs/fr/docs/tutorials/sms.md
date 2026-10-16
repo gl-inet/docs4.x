@@ -1,8 +1,8 @@
 # SMS
 
-Les routeurs cellulaires GL.iNet sont équipés d''un modem intégré qui prend en charge l''envoi et la réception de SMS après l''insertion d''une carte SIM.
+Les routeurs cellulaires GL.iNet sont équipés d'un modem intégré qui prend en charge l'envoi et la réception de SMS après l'insertion d'une carte SIM.
 
-**Remarque** : cette fonctionnalité fonctionne uniquement sur les modèles GL.iNet 4G/5G équipés du module 4G LTE/5G NR d''origine. Elle n''est pas prise en charge par les autres modules ni par les modules USB tiers.
+**Remarque** : cette fonctionnalité fonctionne uniquement sur les modèles GL.iNet 4G/5G équipés du module 4G LTE/5G NR d'origine. Elle n'est pas prise en charge par les autres modules ni par les modules USB tiers.
 
 ## Modèles pris en charge
 
@@ -17,6 +17,7 @@ Les routeurs cellulaires GL.iNet sont équipés d''un modem intégré qui prend 
     - GL-X300B (Collie)
 
 ??? "Modèles non pris en charge"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
@@ -44,9 +45,9 @@ Les routeurs cellulaires GL.iNet sont équipés d''un modem intégré qui prend 
 
 Prenons le GL-X3000 (Spitz AX) comme exemple.
 
-1. Consultez d''abord [ce lien](../interface_guide/internet_cellular.md) pour configurer votre routeur cellulaire.
+1. Consultez d'abord [ce lien](../interface_guide/internet_cellular.md) pour configurer votre routeur cellulaire.
 
-2. Connectez-vous au panneau d''administration web du routeur et accédez à **INTERNET** -> **Cellular**. Cliquez sur l''icône d''enveloppe en haut à droite.
+2. Connectez-vous au panneau d'administration web du routeur et accédez à **INTERNET** -> **Cellular**. Cliquez sur l'icône d'enveloppe en haut à droite.
 
     ![sms](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms.png){class="glboxshadow gl-90-desktop"}
 
@@ -64,17 +65,17 @@ Prenons le GL-X3000 (Spitz AX) comme exemple.
 
     ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message2.png){class="glboxshadow"}
 
-    * Recepient
+    * Recipient
 
-        Sélectionnez l''indicatif international, puis saisissez le numéro.
+        Sélectionnez l'indicatif international, puis saisissez le numéro.
 
-    * From modem (SIM)
+    * From Modem(SIM)
 
-        Sélectionnez la carte SIM à utiliser pour l''envoi.
+        Sélectionnez la carte SIM à utiliser pour l'envoi.
 
-    * SMS Content
+    * SMS Contents
 
-        Chaque SMS peut contenir jusqu''à 160 caractères.
+        Chaque SMS peut contenir jusqu'à 160 caractères.
 
 ---
 

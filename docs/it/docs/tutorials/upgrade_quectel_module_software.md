@@ -42,7 +42,7 @@ Prendiamo come esempio l'aggiornamento del modulo RM520N.
 
 4. Aggiorna il firmware del modulo usando il comando QFirehose, come mostrato sotto.
 
-    **Nota**: sostituisci `/RM520NGLAAR03A03M4G_01.201.01201` con il percorso reale della cartella del firmware del modulo.
+    **Nota**: sostituisci `/RM520NGLAAR03A03M4G_01.201.01.201` con il percorso reale della cartella del firmware del modulo.
 
     ```
     QFirehose-mtk7981a-sha256-c0b944 -f /RM520NGLAAR03A03M4G_01.201.01.201
@@ -72,7 +72,7 @@ Prendiamo come esempio l'aggiornamento del modulo EM060K.
 
 2. Inserisci la chiavetta USB nel router. Quindi fai riferimento a [questo link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) per accedere al router tramite SSH.
 
-3. Inserisci il comando `df - h` per controllare il percorso di montaggio dell'unita USB e annota il percorso.
+3. Inserisci il comando `df -h` per controllare il percorso di montaggio dell'unita USB e annota il percorso.
 
     ![check mounting path](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_mounting_path.png){class="glboxshadow"}
 

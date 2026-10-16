@@ -68,7 +68,7 @@ Wysokowydajny domowy router Wi-Fi 6
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wOm1PS4Z-fY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE3000 (Spitz AX)
+## GL-XE3000 (Puli AX)
 
 Router komórkowy 5G Wi-Fi 6 z baterią
 

@@ -12,6 +12,7 @@ Tor (abgeleitet von **The Onion Router**) ist eine kostenlose Open-Source-Softwa
 ## Unterstützte Modelle
 
 ??? "Unterstützte Modelle"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-MT3600BE (Beryl 7)
@@ -21,7 +22,7 @@ Tor (abgeleitet von **The Onion Router**) ist eine kostenlose Open-Source-Softwa
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
     - GL-AX1800 (Flint)

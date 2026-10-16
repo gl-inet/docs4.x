@@ -66,6 +66,7 @@ Ten przewodnik pokazuje, jak korzystać z dongla USB SIMPoYo uFi (SP-N150C4), w 
                 <td>OFF</td>
                 <td>Wi-Fi jest wyłączone</td>
             </tr>
+            <tr>
                 <td rowspan="2">Dioda 4G + dioda Wi-Fi</td>
                 <td>Biały</td>
                 <td>Urządzenie jest włączone</td>
@@ -73,6 +74,7 @@ Ten przewodnik pokazuje, jak korzystać z dongla USB SIMPoYo uFi (SP-N150C4), w 
             <tr>
                 <td>OFF</td>
                 <td>Urządzenie jest wyłączone</td>
+            </tr>
         </tbody>
     </table>
 </body>

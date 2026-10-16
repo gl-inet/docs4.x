@@ -114,7 +114,7 @@
 
     Nel menu Configure IPv4, seleziona Manually.
 
-    Inserisci un indirizzo IP statico nel campo IPv4 Address. Quale numero inserire? Un metodo consiste nel prendere l'indirizzo IP corrente e cambiare l'ultima parte del numero. In questo esempio, potresti scegliere qualsiasi indirizzo tra 192.168.7.0 e 192.168.7.255, purche l'indirizzo non sia gia assegnato a un altro dispositivo.
+    Inserisci un indirizzo IP statico nel campo IPv4 Address. Un metodo consiste nel prendere l'indirizzo IP corrente e cambiarne l'ultima parte. Per una rete 192.168.7.0/24, scegli un indirizzo host inutilizzato tra 192.168.7.1 e 192.168.7.254. Non usare l'indirizzo di rete o quello di broadcast.
 
     Fai clic su OK -> fai clic su Apply.
 
@@ -147,19 +147,19 @@
         ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - Quando usi indirizzi IP statici su reti domestiche e altre reti private, devono essere scelti all'interno dei seguenti intervalli di indirizzi IP privati standard: 10.0.0.0 fino a 10.255.255.255, 172.16.0.0 fino a 172.31.255.255, 192.168.0.0 fino a 192.168.255.255.
+    - Quando usi indirizzi IP statici su reti domestiche e altre reti private, scegli un indirizzo host inutilizzato nella sottorete corrente. Gli intervalli standard di indirizzi IP privati sono: 10.0.0.0 fino a 10.255.255.255, 172.16.0.0 fino a 172.31.255.255, 192.168.0.0 fino a 192.168.255.255.
 
     - Ora inserisci l'indirizzo IP.
         - Questo passaggio dipende dalla rete in uso. Ad esempio: 192.168.1.128.
 
-    - Gateway dovrebbe essere compilato automaticamente in base all'indirizzo IP. In caso contrario, copia l'indirizzo IP e sostituisci l'ultimo numero con 1.
-        - Ad esempio, in base all'esempio precedente: 192.168.1.1.
+    - Il gateway dovrebbe essere compilato automaticamente in base all'indirizzo IP. In caso contrario, inserisci l'indirizzo IP del gateway della rete.
+        - Ad esempio, se l'indirizzo IP del router è 192.168.1.1, inserisci 192.168.1.1.
 
     3. Tocca Save e lascia che la rete si ricolleghi.
 
 === "iOS"
 
-    Quando usi indirizzi IP statici su reti domestiche e altre reti private, devono essere scelti all'interno dei seguenti intervalli di indirizzi IP privati standard:
+    Quando usi indirizzi IP statici su reti domestiche e altre reti private, scegli un indirizzo host inutilizzato nella sottorete corrente. Gli intervalli standard di indirizzi IP privati sono:
 
     10.0.0.0 fino a 10.255.255.255
     172.16.0.0 fino a 172.31.255.255
@@ -188,7 +188,7 @@
 
     - Tocca Subnet Mask e inserisci le informazioni richieste.
 
-        - Di solito sara 225.225.0.0.
+        - Usa la subnet mask della rete a cui sei connesso.
 
     - Tocca il pulsante Wi-Fi nell'angolo in alto a sinistra dello schermo per salvare le impostazioni.
 

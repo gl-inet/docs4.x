@@ -97,7 +97,7 @@ Se pueden configurar las dos proporciones de carga siguientes:
 
 ## Escenarios de uso
 
-- El sistema de caja de una tienda usa una conexión cableada a Internet, mientras que Repeater hacia una red Wi-Fi de tiendas cercanas, o insertar una tarjeta SIM para habilitar la red celular, se usa como método de acceso a Internet de respaldo para evitar que los pagos móviles fallen cuando el cable de red no esté disponible.
+- El sistema de caja de una tienda usa una conexión cableada a Internet, mientras que Repeater hacia una red Wi-Fi de tiendas cercanas, o insertar una tarjeta SIM para habilitar la red celular, se usa como método de acceso a Internet de respaldo para evitar que los pagos móviles se interrumpan cuando el cable de red no esté disponible.
 
 - El router se conecta mediante Repeater a una Wi-Fi pública, pero la velocidad de red no es lo suficientemente alta, por lo que puede usar Mobile Tethering para hacer balanceo de carga al mismo tiempo y mejorar el ancho de banda total.
 

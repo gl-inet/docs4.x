@@ -31,7 +31,7 @@ Unsachgemäßes Öffnen oder unsachgemäße Instandsetzung kann den Benutzer des
 Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 ## Produktübersicht
 
-Mango 2 (GL-MG1300) ist der erste Dualband-Wi-Fi-5-Mini-Reiserouter von GL.iNet und zeichnet sich durch ein ultraflaches, tragbares Design aus. Er erreicht theoretische Dualband-Geschwindigkeiten von 400 Mbit/s (2,4 GHz) und 866 Mbit/s (5 GHz) bei einer 2×2-MIMO-Konfiguration. OpenVPN und WireGuard sind vorinstalliert; der Router unterstützt mehr als 30 VPN-Dienste, verschlüsselt automatisch den gesamten Netzwerkverkehr und ermöglicht die Fernverwaltung über GoodCloud. Damit vereint er Leistung, Praxistauglichkeit und Sicherheit.
+Mango 2 (GL-MG1300) ist der erste Dualband-Wi-Fi-5-Mini-Reiserouter von GL.iNet und zeichnet sich durch ein ultraflaches, tragbares Design aus. Er erreicht theoretische Dualband-Geschwindigkeiten von 400 Mbit/s (2,4 GHz) und 866 Mbit/s (5 GHz) bei einer 2×2-MIMO-Konfiguration. OpenVPN und WireGuard sind vorinstalliert; der Router unterstützt mehr als 30 VPN-Dienste, mit denen der Netzwerkverkehr bei aktiviertem VPN-Client verschlüsselt wird, und ermöglicht die Fernverwaltung über GoodCloud. Damit vereint er Leistung, Praxistauglichkeit und Sicherheit.
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
@@ -41,6 +41,12 @@ Mango 2 (GL-MG1300) ist der erste Dualband-Wi-Fi-5-Mini-Reiserouter von GL.iNet 
 - 1 x Benutzerhandbuch
 - 1 x USB-C-auf-USB-C-Stromkabel
 - 1 x Dankeskarte
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/unboxing.png){class="glboxshadow"}
+
+Sehen Sie sich unten das Unboxing-Video von Mango 2 an.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## So richten Sie Mango 2 ein
 
@@ -264,7 +270,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) erkennt die mit einer Domain verknüpfte IP-Adresse automatisch und aktualisiert sie in Echtzeit. Das ist nützlich für Benutzer, die eine statische IP-Adresse benötigen, um auf ein entferntes Netzwerk zuzugreifen.
+    Dynamic DNS (DDNS) erkennt die mit einer Domain verknüpfte IP-Adresse automatisch und aktualisiert sie in Echtzeit. Dabei wird ein Domainname der dynamischen öffentlichen IP-Adresse Ihres Routers zugeordnet, sodass Sie ohne statische IP-Adresse aus der Ferne auf Ihr Netzwerk zugreifen können.
 
     Informationen zur Einrichtung von Dynamic DNS finden Sie unter [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -311,7 +317,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt eine sichere, verschlüsselte Ve
 
     Die Seite Upgrade wird verwendet, um die Firmware Ihres Routers auf die neueste Version zu aktualisieren und so Leistung, Sicherheit und Funktionsumfang zu verbessern. Auf dieser Seite stehen zwei Upgrade-Optionen zur Verfügung:
 
-    * Firmware Online Upgrade: Die neueste Firmware-Version wird automatisch auf dem Server des Herstellers gesucht und direkt installiert, was den Aktualisierungsprozess vereinfacht.
+    * Firmware Online Upgrade: Prüft automatisch auf dem Server des Herstellers, ob die neueste Firmware-Version verfügbar ist. Wenn eine neuere Version online verfügbar ist, können Sie sie installieren.
     * Firmware Local Upgrade: Laden Sie eine Firmware-Datei manuell von Ihrem Computer hoch, um den Router zu aktualisieren. Dadurch haben Sie Kontrolle über Version und Zeitpunkt des Upgrades.
 
     Mit diesen Optionen bleibt Ihr Router mit den neuesten Verbesserungen und Fehlerbehebungen auf dem aktuellen Stand.

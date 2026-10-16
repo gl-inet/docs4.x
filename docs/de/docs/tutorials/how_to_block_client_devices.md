@@ -54,7 +54,7 @@ Je nachdem, ob Ihnen die MAC-Adressen vorliegen, gibt es zwei Möglichkeiten, Cl
 
 ### Methode 1: Geräte ohne ihre MAC-Adressen blockieren {#mobile-1}
 
-1. Tippen Sie im Hauptbildschirm der App unter **Connected Clients** und **Office Clients** auf das Gerät, das Sie blockieren möchten.
+1. Tippen Sie im Hauptbildschirm der App unter **Connected Clients** und **Offline Clients** auf das Gerät, das Sie blockieren möchten.
 ![tap a device](https://static.gl-inet.com/docs/router/de/4/tutorials/how-to-block-client-devices/tap-a-device.jpeg){class="glboxshadow"}
 
 2. Schalten Sie unter **Settings** den Schalter **Block** ein.

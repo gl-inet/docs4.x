@@ -130,9 +130,9 @@ Suivez les étapes ci-dessous pour activer l’accès à distance SSH pour votre
 
     ![enable ssh remote access](https://static.gl-inet.com/docs/router/en/4/interface_guide/ddns/enable_ssh_remote_access.png){class="glboxshadow"}
 
-Une fois activé, vous pouvez accéder au terminal du routeur depuis n’importe où en utilisant le nom d’hôte DDNS via **SSH** (par exemple `ssh root@xxxxxxx.glddns.com`).
+Une fois cette option activée, vous pouvez accéder à distance au terminal du routeur via le nom d’hôte DDNS en **SSH** (par exemple, `ssh root@xxxxxxx.glddns.com`).
 
-Si une redirection de port est configurée, accédez-y via `ssh root@xxxxxxx.glddns.com:external_port` (remplacez external_port par votre numéro de port réel).
+Si une redirection de port est configurée, accédez-y via `ssh -p external_port root@xxxxxxx.glddns.com` (remplacez external_port par votre numéro de port réel).
 
 ---
 

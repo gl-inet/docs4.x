@@ -67,7 +67,7 @@ Pulse el botón de encendido para encender el dispositivo.
 
 ![gl-e750v2 poweron](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_power-on.png){class="glboxshadow"}
 
-Cuando Mudi V2 (GL-E750V2) está apagado, aún puede comprobar el estado de la batería pulsando el botón de encendido. La pantalla LED mostrará el nivel de batería cuando pulse el botón.
+Cuando Mudi V2 (GL-E750V2) está apagado, aún puede comprobar el estado de la batería pulsando el botón de encendido. La pantalla OLED mostrará el nivel de batería cuando pulse el botón.
 
 ![gl-e750v2 battery](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e750/internet/e750v2_battery.png){class="glboxshadow"}
 
@@ -137,7 +137,7 @@ Los clientes son los dispositivos conectados al router. Puede bloquear clientes 
 
 ## VPN
 
-Los routers GL.iNet vienen preinstalados con OpenVPN y WireGuard®, compatibles con más de 30 servicios VPN. Cifran automáticamente todo el tráfico de red dentro de la red conectada, incluidos los dispositivos de invitados y los dispositivos cliente que no pueden ejecutar cifrado VPN por sí mismos. Nuestros routers también pueden actuar como servidores VPN, redirigiendo el tráfico de dispositivos cliente ubicados en lugares remotos al servidor VPN a través de un túnel VPN antes de acceder a Internet pública.
+Los routers GL.iNet vienen preinstalados con OpenVPN y WireGuard®, compatibles con más de 30 servicios VPN. Cuando el cliente VPN está habilitado, el router puede cifrar el tráfico de los dispositivos de la red, incluidos los que no pueden ejecutar aplicaciones VPN, según la configuración de sus políticas VPN. Nuestros routers también pueden actuar como servidores VPN, redirigiendo el tráfico de dispositivos cliente ubicados en lugares remotos al servidor VPN a través de un túnel VPN antes de acceder a Internet pública.
 
 ### VPN Dashboard
 

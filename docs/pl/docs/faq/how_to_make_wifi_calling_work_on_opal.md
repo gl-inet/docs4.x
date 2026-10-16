@@ -4,7 +4,7 @@
 
 W panelu administracyjnym WWW przejdź do **SYSTEM** -> **Upgrade** i zaktualizuj firmware do najnowszej wersji. Najnowszą wersję możesz sprawdzić w [Firmware Download Center](https://dl.gl-inet.com/){target="_blank"}.
 
-![opal4317](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/opal4317.jpg){class="glboxshadow}
+![opal4317](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/opal4317.jpg){class="glboxshadow"}
 
 ## Wyłącz Network Acceleration
 
@@ -12,7 +12,7 @@ Na podstawie naszych doświadczeń i opinii klientów Wi‑Fi Calling działa pr
 
 Po aktualizacji firmware zaloguj się do panelu administracyjnego WWW, przejdź do **NETWORK** -> **Network Acceleration**, a następnie wyłącz tę funkcję.
 
-![networkacc](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/netacc.jpg){class="glboxshadow}
+![networkacc](https://static.gl-inet.com/docs/router/en/4/faq/wifi_call/netacc.jpg){class="glboxshadow"}
 
 ---
 

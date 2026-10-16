@@ -31,7 +31,7 @@ Siga los pasos que se indican a continuación.
 2. Haga clic en el cuadro central para configurar el destino del túnel.
 
     ![tunnel target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select-target.png){class="glboxshadow"}
-    Seleccione **Exclude Speficied Domain / IP**, introduzca la subred WAN de su router y luego haga clic en **Apply**.
+    Seleccione **Exclude specified Domain / IP List**, introduzca la subred WAN de su router y luego haga clic en **Apply**.
     Esto garantiza que todo el tráfico destinado a la subred WAN se enrute por la WAN local y no por el túnel VPN.
     ![exclude target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/exclude-target.png){class="glboxshadow"}
     Aquí usamos la subred 192.168.0.1/24 como ejemplo. Introduzca esta subred y aplique los cambios; el túnel VPN se mostrará como se indica a continuación.

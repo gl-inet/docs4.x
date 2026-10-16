@@ -43,7 +43,7 @@ Les instructions suivantes ont été rédigées pour téléverser votre firmware
 
 3. Dans la barre latérale gauche, cliquez sur **SYSTEM** > **Upgrade**. 
 4. Cliquez sur **Local Upgrade** et sélectionnez le fichier que vous avez téléchargé précédemment. 
-5. Pour conserver vos paramètres actuels (par exemple, votre mot de passe administrateur du routeur), basculez **Keep Settings** sur activé. 
+5. Pour conserver vos paramètres actuels (par exemple, votre mot de passe administrateur du routeur) lors d'une mise à niveau, basculez **Keep Settings** sur activé. N'activez pas cette option lors d'une rétrogradation du firmware.
 6. Cliquez sur **Install**.
 
 **Note :** Pendant le processus de mise à niveau, n'éteignez pas le routeur. Une fois la mise à niveau terminée, vous verrez l'écran de connexion du routeur. 

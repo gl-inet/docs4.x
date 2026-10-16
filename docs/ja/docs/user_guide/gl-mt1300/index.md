@@ -21,7 +21,7 @@ Beryl (GL-MT1300) は、パワフルなハードウェアと優れたサイバ�
 
 ![gl-mt1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
 
-Beryl の[開封動画](../../video_library/unboxing_first_set_up.md/#gl-mt1300-beryl)もご覧ください。
+Beryl の[開封動画](../../video_library/unboxing_first_set_up.md#gl-mt1300-beryl)もご覧ください。
 
 ## 仕様
 
@@ -29,7 +29,7 @@ Beryl の[開封動画](../../video_library/unboxing_first_set_up.md/#gl-mt1300-
 
 ## 初回設定
 
-すべての GL.iNet ルーターは、ほぼ同じ手順でセットアップできます。[初回セットアップの詳細はこちら](../../faq/first_time_setup.md/)。
+すべての GL.iNet ルーターは、ほぼ同じ手順でセットアップできます。[初回セットアップの詳細はこちら](../../faq/first_time_setup.md)。
 
 ## インターネット
 

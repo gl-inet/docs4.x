@@ -26,7 +26,7 @@ Este tutorial le mostrará cómo reservar una IP fija para su cliente OpenVPN qu
 
    ![add ccd folder](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
 
-5. Añade un archivo llamado `GLsupport`, escribe `ifconfig-push 10.8.0.10 255.255.255.0` y luego guarda el archivo y sal.
+5. Vaya a `/etc/openvpn/ccd`, añada un archivo llamado `GLsupport`, escriba `ifconfig-push 10.8.0.10 255.255.255.0` y, a continuación, guarde el archivo y salga.
 
    Verifica el contenido con `cat GLsupport`
 
@@ -37,7 +37,7 @@ Este tutorial le mostrará cómo reservar una IP fija para su cliente OpenVPN qu
 
    **Nota**: Si quiere fijar direcciones IP para varios clientes OpenVPN, cree varios nombres de usuario y contraseñas en el paso 2 y, a continuación, repita el paso 5. Añada archivos a la carpeta `ccd` según el orden de los usuarios, por ejemplo `user_1`, `user_2`, `user_3`, seguidos del comando `ifconfig-push` y de su correspondiente IP fija y máscara de subred.
 
-   Por ejemplo: `ifconfig-push 10.8.0.20 225.225.225.0`, `ifconfig-push 10.8.0.30 225.225.225.0`, `ifconfig-push 10.8.0.40 225.225.225.0`
+   Por ejemplo: `ifconfig-push 10.8.0.20 255.255.255.0`, `ifconfig-push 10.8.0.30 255.255.255.0`, `ifconfig-push 10.8.0.40 255.255.255.0`
 
 6. Por último, realice una prueba con su cliente OVPN y compruebe si la **Client Virtual IP (IPv4)** es la reservada.
 

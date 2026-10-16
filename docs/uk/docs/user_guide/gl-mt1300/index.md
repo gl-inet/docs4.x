@@ -23,7 +23,7 @@ Beryl (GL-MT1300) — продуктивний компактний маршру
 
 ![Комплект постачання gl-mt1300](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
 
-Перегляньте [відео розпакування](../../video_library/unboxing_first_set_up.md/#gl-mt1300-beryl) Beryl.
+Перегляньте [відео розпакування](../../video_library/unboxing_first_set_up.md#gl-mt1300-beryl) Beryl.
 
 ## Технічні характеристики {#specifications}
 
@@ -31,7 +31,7 @@ Beryl (GL-MT1300) — продуктивний компактний маршру
 
 ## Початкове налаштування {#first-time-setup}
 
-Усі маршрутизатори GL.iNet мають подібний процес налаштування. [Дізнайтеся, як виконати початкове налаштування](../../faq/first_time_setup.md/).
+Усі маршрутизатори GL.iNet мають подібний процес налаштування. [Дізнайтеся, як виконати початкове налаштування](../../faq/first_time_setup.md).
 
 ## Інтернет {#internet}
 

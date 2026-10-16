@@ -48,7 +48,7 @@
 
     ![Панель керування Windows](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/control_panel_view_by.png){class="glboxshadow"}
 
-    Відкрийте Control Panel -> Network and Share Center і натисніть з’єднання. Якщо з’єднань кілька, виберіть те, яке відповідає потрібному маршрутизатору.
+    Відкрийте Control Panel -> Network and Sharing Center і натисніть з’єднання. Якщо з’єднань кілька, виберіть те, яке відповідає потрібному маршрутизатору.
 
     ![Мережеві з’єднання в центрі мереж](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/network_and_sharing_center_connections.png){class="glboxshadow"}
 

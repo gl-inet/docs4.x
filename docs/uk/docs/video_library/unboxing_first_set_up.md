@@ -203,7 +203,3 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CzhxiAvCIlQ" title="Відео розпакування та налаштування: GL-M2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <span id="slategl-ar750s-ext"></span>
-
-Архівне відео першого налаштування Slate (GL-AR750S-Ext).
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cpN3ZXDBzi0" title="Архівне відео першого налаштування Slate (GL-AR750S-Ext)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

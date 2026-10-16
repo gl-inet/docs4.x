@@ -68,11 +68,11 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wOm1PS4Z-fY" title="Відео: GL-MT6000 (Flint 2) — Високопродуктивний домашній маршрутизатор Wi-Fi 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE3000 (Spitz AX) {#gl-xe3000-spitz-ax}
+## GL-XE3000 (Puli AX) {#gl-xe3000-puli-ax}
 
 Стільниковий маршрутизатор Wi-Fi 6 5G з акумулятором
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XrMDpWNEscM" title="Відео: GL-XE3000 — Стільниковий маршрутизатор Wi-Fi 6 5G з акумулятором" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XrMDpWNEscM" title="Відео: GL-XE3000 (Puli AX) — Стільниковий маршрутизатор Wi-Fi 6 5G з акумулятором" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## GL-X3000 (Spitz AX) {#gl-x3000-spitz-ax}
 

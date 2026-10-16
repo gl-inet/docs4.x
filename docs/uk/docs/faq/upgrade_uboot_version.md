@@ -36,7 +36,7 @@
 
         3. Виберіть **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
 
-        4. Вручну задайте **IP adress** `192.168.1.2`.
+        4. Вручну задайте **IP address** `192.168.1.2`.
 
         5. Задайте **Subnet mask** `255.255.255.0`.
 
@@ -46,47 +46,47 @@
 
     ??? "Windows 11"
 
-        7. Відкрийте Settings.
+        1. Відкрийте Settings.
 
-        8. Натисніть **Network & Internet**.
+        2. Натисніть **Network & Internet**.
 
-        9. Відкрийте вкладку **Ethernet**.
+        3. Відкрийте вкладку **Ethernet**.
 
             ![Параметри Ethernet у Windows 11](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windwos11_ethernet.png){class="glboxshadow"}
 
-        10. У розділі «IP assignment» натисніть **Edit**.
+        4. У розділі «IP assignment» натисніть **Edit**.
 
             ![Зміна IP-параметрів Ethernet у Windows 11](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        11. Виберіть **Manual**.
+        5. Виберіть **Manual**.
 
             ![Зміна IP-параметрів Ethernet у Windows 11](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        12. Увімкніть перемикач **IPv4 toggle**.
+        6. Увімкніть перемикач **IPv4 toggle**.
 
-        13. Задайте статичну **IP address** **192.168.1.2**.
+        7. Задайте статичну **IP address** **192.168.1.2**.
 
             ![Зміна IP-параметрів Ethernet у Windows 11](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        14. Задайте **Subnet mask** **255.255.255.0**.
+        8. Задайте **Subnet mask** **255.255.255.0**.
 
-        15. Натисніть **Save**.
+        9. Натисніть **Save**.
 
     ??? "macOS"
 
-        16. Натисніть піктограму **Apple** у верхньому лівому куті та виберіть **System Preferences**.
+        1. Натисніть піктограму **Apple** у верхньому лівому куті та виберіть **System Preferences**.
 
             ![Системні налаштування macOS](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_system_preferences.png){class="glboxshadow"}
 
-        17. Натисніть **Network**.
+        2. Натисніть **Network**.
 
             ![Мережеві налаштування macOS](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_system_preferences_network.png){class="glboxshadow"}
 
-        18. Виберіть **Ethernet** ліворуч, відкрийте список біля **Configure IPv4** і виберіть **Manually**. Якщо використовується адаптер USB Ethernet, замість Ethernet може відображатися назва адаптера.
+        3. Виберіть **Ethernet** ліворуч, відкрийте список біля **Configure IPv4** і виберіть **Manually**. Якщо використовується адаптер USB Ethernet, замість Ethernet може відображатися назва адаптера.
 
             ![Ручне налаштування IP у macOS](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_ip_manually_1.png){class="glboxshadow"}
 
-        19. Задайте **IPv4 Address** `192.168.1.2`, **Subnet Mask** `255.255.255.0` і **Router** `192.168.1.1`, а потім натисніть Apply у нижньому правому куті.
+        4. Задайте **IPv4 Address** `192.168.1.2`, **Subnet Mask** `255.255.255.0` і **Router** `192.168.1.1`, а потім натисніть Apply у нижньому правому куті.
 
             ![Ручне налаштування IP у macOS](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_ip_manually_2.png){class="glboxshadow"}
 

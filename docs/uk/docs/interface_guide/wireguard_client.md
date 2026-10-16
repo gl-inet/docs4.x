@@ -591,8 +591,6 @@ WireGuard® — простий, швидкий і сучасний VPN, який
 
 <span id="starvpn"></span>
 
-Докладні інструкції з отримання файлів конфігурації StarVPN наведено в [розділі StarVPN цього посібника](../tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md#starvpn).
-
 У вебпанелі адміністрування відкрийте **VPN** -> **WireGuard Client**.
 
 1. Натисніть **Add Manually**.

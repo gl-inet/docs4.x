@@ -17,6 +17,7 @@
     - GL-X300B (Collie)
 
 ??? "Непідтримувані моделі"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
@@ -26,7 +27,7 @@
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-AX1800 (Flint)
     - GL-MT2500/GL-MT2500A (Brume 2)
     - GL-MT3000 (Beryl AX)
@@ -69,7 +70,7 @@
 
 ??? "Outlook"
 
-    Outlook підтримує порт 587. Вимоги до автентифікації SMTP для свого облікового запису уточніть в офіційному посібнику [Налаштування POP, IMAP і SMTP для Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}.
+    Для Outlook можна використовувати пароль облікового запису напряму без додаткових налаштувань; підтримується порт 587. Див. офіційний посібник [Налаштування POP, IMAP і SMTP для Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}.
 
 ??? "iCloud"
 

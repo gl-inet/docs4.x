@@ -25,6 +25,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605489
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -54,6 +58,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -83,6 +91,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -112,6 +124,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -141,6 +157,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1785379941
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -170,6 +190,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1786528033
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -199,6 +223,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1779027845
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -228,6 +256,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1787799497
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -257,6 +289,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792143662
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -286,6 +322,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605937
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -315,6 +355,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1777158682
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -344,6 +388,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -373,6 +421,10 @@
       "pl": {
         "model": "manual-sync",
         "updated_at": 1783760915
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -402,6 +454,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -431,6 +487,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605721
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -460,6 +520,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -489,6 +553,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605807
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -518,6 +586,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1787569060
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -547,6 +619,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1790927814
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -576,6 +652,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -605,6 +685,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1790927814
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -634,6 +718,10 @@
       "pl": {
         "model": "manual-sync",
         "updated_at": 1783760915
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -663,6 +751,10 @@
       "pl": {
         "model": "deepseek-v4-pro",
         "updated_at": 1780889702
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -692,6 +784,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1789091540
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -721,6 +817,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605808
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -750,6 +850,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -779,6 +883,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -808,6 +916,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -837,6 +949,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -866,6 +982,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -895,6 +1015,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605515
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -924,6 +1048,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605984
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -953,6 +1081,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605985
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -982,6 +1114,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1011,6 +1147,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1040,6 +1180,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605515
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1069,6 +1213,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1098,6 +1246,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605588
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1127,6 +1279,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1156,6 +1312,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605767
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1185,6 +1345,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605620
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1214,6 +1378,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1243,6 +1411,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605620
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1272,6 +1444,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1301,6 +1477,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605652
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1330,6 +1510,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1359,6 +1543,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1790929997
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1388,6 +1576,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1417,6 +1609,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1446,6 +1642,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1475,6 +1675,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1787569060
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1504,6 +1708,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792143662
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1533,6 +1741,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1562,6 +1774,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1591,6 +1807,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1620,6 +1840,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1787801285
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1649,6 +1873,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1678,6 +1906,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1707,6 +1939,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1736,6 +1972,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1789091540
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1765,6 +2005,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1787569060
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1794,6 +2038,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1785992036
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1823,6 +2071,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1852,6 +2104,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1881,6 +2137,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605495
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1910,6 +2170,10 @@
       "pl": {
         "model": "deepseek-v4-pro",
         "updated_at": 1780989403
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1939,6 +2203,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1968,6 +2236,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -1997,6 +2269,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2026,6 +2302,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1790929997
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2055,6 +2335,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1790929997
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2084,6 +2368,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1790927814
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2113,6 +2401,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2142,6 +2434,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2171,6 +2467,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1786528033
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2200,6 +2500,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2229,6 +2533,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2258,6 +2566,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605840
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2287,6 +2599,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605840
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2316,6 +2632,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2345,6 +2665,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2374,6 +2698,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2403,6 +2731,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1785992036
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2432,6 +2764,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2461,6 +2797,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1785992036
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2490,6 +2830,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2519,6 +2863,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2548,6 +2896,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2577,6 +2929,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2606,6 +2962,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2635,6 +2995,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2664,6 +3028,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2693,6 +3061,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1790929997
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2722,6 +3094,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2751,6 +3127,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1785992036
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2780,6 +3160,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2809,6 +3193,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2838,6 +3226,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2867,6 +3259,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2896,6 +3292,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605583
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2925,6 +3325,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1790150484
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2954,6 +3358,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605583
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -2983,6 +3391,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1786528033
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3012,6 +3424,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3041,6 +3457,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3070,6 +3490,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1787569060
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3099,6 +3523,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3128,6 +3556,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1787569060
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3157,6 +3589,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3186,6 +3622,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3215,6 +3655,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605767
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3244,6 +3688,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1780110246
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3273,6 +3721,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775606750
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3302,6 +3754,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3331,6 +3787,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3360,6 +3820,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1786528033
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3389,6 +3853,10 @@
       "pl": {
         "model": "manual-sync",
         "updated_at": 1783760121
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3418,6 +3886,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3447,6 +3919,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775606395
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3476,6 +3952,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3505,6 +3985,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3534,6 +4018,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775606750
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3563,6 +4051,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775606750
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3592,6 +4084,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1784884582
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3621,6 +4117,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1780110246
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3650,6 +4150,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1786528033
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3679,6 +4183,10 @@
       "pl": {
         "model": "manual-sync",
         "updated_at": 1783760121
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3708,6 +4216,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775606750
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3737,6 +4249,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3766,6 +4282,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1777158886
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3795,6 +4315,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1784131200
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3824,6 +4348,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605564
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3853,6 +4381,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775606329
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3882,6 +4414,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775606329
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3911,6 +4447,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3940,6 +4480,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3969,6 +4513,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -3998,6 +4546,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605968
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4027,6 +4579,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4056,6 +4612,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775606386
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4085,6 +4645,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4114,6 +4678,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1788752427
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4143,6 +4711,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1787799497
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4172,6 +4744,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4201,6 +4777,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775606750
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4230,6 +4810,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4259,6 +4843,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4288,6 +4876,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4317,6 +4909,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4346,6 +4942,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605480
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4375,6 +4975,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4404,6 +5008,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4433,6 +5041,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1786528033
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4462,6 +5074,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4491,6 +5107,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1783760220
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4520,6 +5140,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4549,6 +5173,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4578,6 +5206,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4607,6 +5239,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4636,6 +5272,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4665,6 +5305,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4694,6 +5338,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4723,6 +5371,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4752,6 +5404,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4781,6 +5437,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4810,6 +5470,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4839,6 +5503,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4868,6 +5536,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4897,6 +5569,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4926,6 +5602,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4955,6 +5635,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -4984,6 +5668,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5013,6 +5701,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605401
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5042,6 +5734,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5071,6 +5767,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5100,6 +5800,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5129,6 +5833,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5158,6 +5866,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5187,6 +5899,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5216,6 +5932,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5245,6 +5965,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5274,6 +5998,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605401
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5303,6 +6031,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5332,6 +6064,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1775605401
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5361,6 +6097,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5390,6 +6130,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5419,6 +6163,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5448,6 +6196,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5477,6 +6229,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5506,6 +6262,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5535,6 +6295,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5564,6 +6328,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5593,6 +6361,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5622,6 +6394,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5651,6 +6427,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5680,6 +6460,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5709,6 +6493,10 @@
       "pl": {
         "model": "reviewed-no-target-change",
         "updated_at": 1790151519
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5738,6 +6526,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5767,6 +6559,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5796,6 +6592,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1790927814
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5825,6 +6625,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5854,6 +6658,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1783684521
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5883,6 +6691,10 @@
       "pl": {
         "model": "manual-sync",
         "updated_at": 1783759579
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5912,6 +6724,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1786528033
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5941,6 +6757,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1786528033
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5970,6 +6790,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1789095838
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -5998,6 +6822,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789983243
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     },
     "source_hash": "40ff04259fb7f61e68fd118a93943d2c89c2c286045f748decb4cd935b3d7136"
@@ -6028,6 +6856,10 @@
       "pl": {
         "model": "deepseek-v4-pro",
         "updated_at": 1780970386
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6056,6 +6888,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1781778005
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     },
     "source_hash": "74610e402b7e95fbdb518996de629aabb44d56b7cd8a8a4b5b4207bb052a2dfb"
@@ -6086,6 +6922,10 @@
       "pl": {
         "model": "manual-sync",
         "updated_at": 1783760121
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6115,6 +6955,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6173,6 +7017,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6202,6 +7050,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1785311131
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6289,6 +7141,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1784522575
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6318,6 +7174,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6347,6 +7207,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1785992036
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6376,6 +7240,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6405,6 +7273,10 @@
       "pl": {
         "model": "manual-incremental-sync",
         "updated_at": 1788747273
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6434,6 +7306,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6463,6 +7339,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6492,6 +7372,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6521,6 +7405,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6550,6 +7438,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6579,6 +7471,10 @@
       "pl": {
         "model": "manual-structural-sync",
         "updated_at": 1787569060
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6608,6 +7504,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6637,6 +7537,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1790927814
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6666,6 +7570,10 @@
       "pl": {
         "model": "pre-existing",
         "updated_at": 1788747273
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6695,6 +7603,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6724,6 +7636,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6753,6 +7669,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6782,6 +7702,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6811,6 +7735,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789975896
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6840,6 +7768,10 @@
       "pl": {
         "model": "codex-gpt-5-manual-sync",
         "updated_at": 1789983243
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6869,6 +7801,10 @@
       "pl": {
         "model": "claude-opus-5-5-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "claude-opus-5-5-manual-sync",
+        "updated_at": 1792143745
       }
     }
   },
@@ -6898,6 +7834,10 @@
       "pl": {
         "model": "codex-manual-sync",
         "updated_at": 1792139333
+      },
+      "uk": {
+        "model": "codex-manual-sync",
+        "updated_at": 1792143745
       }
     }
   }

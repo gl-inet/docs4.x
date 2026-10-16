@@ -185,7 +185,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It maps a domain name to your router's dynamic public IP address, so you can access your network remotely without a static IP address. 
     
     To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 

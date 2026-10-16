@@ -300,7 +300,7 @@ To set up a WireGuard server, refer to [WireGuard Server](../../interface_guide/
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It maps a domain name to your router's dynamic public IP address, so you can access your network remotely without a static IP address. 
     
     Please refer to [Dynamic DNS](../../interface_guide/ddns.md) for details.
 

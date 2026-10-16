@@ -12,7 +12,7 @@ Use the `$glinet-docs-translation` skill and follow its Incremental Sync Workflo
 ## Translation
 
 - First produce the English change list in your result, including added, modified, deleted, and renamed source files where applicable.
-- Sync `de`, `es`, `fr`, `it`, `ja`, and `pl`. Preserve Markdown structure, links, images, anchors, UI labels, technical values, warnings, and protected localized declarations.
+- Sync `de`, `es`, `fr`, `it`, `ja`, `pl`, and `uk`. Preserve Markdown structure, links, images, anchors, UI labels, technical values, warnings, and protected localized declarations.
 - Translate only changed portions of existing pages. Read the full English and localized pages and nearby terminology before editing. Use at most two subagents for independent language or topic batches if useful.
 - Update `.translation-cache.json` for every source file whose localized targets were synced.
 - Do not modify English source files in this run. If an English source has an obvious issue, report it with a path, location, problem, suggested correction, and whether it blocks translation.
@@ -20,6 +20,6 @@ Use the `$glinet-docs-translation` skill and follow its Incremental Sync Workflo
 
 ## Validation
 
-Run strict MkDocs builds for all six localized languages using their normal `mkdocs.yml` files. Remove generated `docs/<lang>/site` directories after the builds. Inspect the final diff for unrelated churn, mixed-language fragments, broken links or anchors, malformed Markdown, missing localized pages, and stale cache entries.
+Run strict MkDocs builds for all seven localized languages using their normal `mkdocs.yml` files. Remove generated `docs/<lang>/site` directories after the builds. Inspect the final diff for unrelated churn, mixed-language fragments, broken links or anchors, malformed Markdown, missing localized pages, and stale cache entries.
 
 Return only JSON matching `.github/codex/translation-output.schema.json`. Set `status` to `completed` when the sync and builds finish, `no_changes` when no edits were needed, `blocked` when a precondition or a blocking source issue prevents a safe sync, and `failed` when an unexpected operation fails.

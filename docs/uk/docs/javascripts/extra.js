@@ -205,56 +205,6 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 // execute above function
 initPhotoSwipeFromDOM('.gl-lightbox');
 
-// Reveal the actual content addressed by a translated page's legacy fragment.
-(function () {
-    var revealFragment = function () {
-        var id;
-        try {
-            id = decodeURIComponent(window.location.hash.slice(1));
-        } catch (error) {
-            return;
-        }
-        var target = document.getElementById(id);
-        if (!target) {
-            return;
-        }
-
-        var changed = false;
-        for (var node = target; node; node = node.parentElement) {
-            if (node.tagName === 'DETAILS' && !node.open) {
-                node.open = true;
-                changed = true;
-            }
-            if (node.classList.contains('tabbed-block')) {
-                var set = node.closest('.tabbed-set');
-                if (!set) {
-                    continue;
-                }
-                var index = Array.prototype.indexOf.call(node.parentElement.children, node);
-                var inputs = Array.prototype.filter.call(set.children, function (child) {
-                    return child.tagName === 'INPUT' && child.type === 'radio';
-                });
-                if (inputs[index] && !inputs[index].checked) {
-                    inputs[index].checked = true;
-                    inputs[index].dispatchEvent(new Event('change', { bubbles: true }));
-                    changed = true;
-                }
-            }
-        }
-        if (changed) {
-            window.requestAnimationFrame(function () { target.scrollIntoView(); });
-        }
-    };
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', revealFragment);
-    } else {
-        revealFragment();
-    }
-    window.addEventListener('load', revealFragment);
-    window.addEventListener('hashchange', revealFragment);
-})();
-
 (function () {
     var selectors = document.querySelectorAll('.gl-link-select');
 

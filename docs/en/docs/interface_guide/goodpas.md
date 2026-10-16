@@ -1,6 +1,6 @@
 # GoodPAS
 
-**Note**: This feature was introduced in firmware v4.10, where AstroWarp was renamed to GoodPAS. If your device is running an older firmware version, please refer to [AstroWarp](./astrowarp.md).
+**Note**: This feature was introduced in firmware v4.11 (v4.10 for GL-MG1300), where AstroWarp was renamed to GoodPAS. If your device is running an older firmware version, please refer to [AstroWarp](./astrowarp.md).
 
 ---
 

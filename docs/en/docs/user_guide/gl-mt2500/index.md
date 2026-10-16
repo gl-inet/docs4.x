@@ -186,11 +186,6 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ---
 
-=== "Guest Network"
-
-    It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
-
-    To set up guest network, refer to [Guest Network](../../interface_guide/guest_network.md). 
 
 === "DNS"
 

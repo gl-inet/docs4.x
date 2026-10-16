@@ -7,7 +7,11 @@ It is now a multilingual documentation repository. The current language sites in
 - English: `docs/en/`
 - German: `docs/de/`
 - Spanish: `docs/es/`
+- French: `docs/fr/`
+- Italian: `docs/it/`
 - Japanese: `docs/ja/`
+- Polish: `docs/pl/`
+- Ukrainian (Українська): `docs/uk/`
 
 Each language has its own `mkdocs.yml`, `docs/`, and `overrides/` directory.
 
@@ -55,7 +59,23 @@ docs/
     mkdocs.yml
     docs/
     overrides/
+  fr/
+    mkdocs.yml
+    docs/
+    overrides/
+  it/
+    mkdocs.yml
+    docs/
+    overrides/
   ja/
+    mkdocs.yml
+    docs/
+    overrides/
+  pl/
+    mkdocs.yml
+    docs/
+    overrides/
+  uk/
     mkdocs.yml
     docs/
     overrides/
@@ -74,6 +94,7 @@ mkdocs serve -f docs/en/mkdocs.yml
 mkdocs serve -f docs/de/mkdocs.yml
 mkdocs serve -f docs/es/mkdocs.yml
 mkdocs serve -f docs/ja/mkdocs.yml
+mkdocs serve -f docs/uk/mkdocs.yml
 ```
 
 If you are reviewing or translating localized content, open the English source page and the matching localized page side by side in VS Code.
@@ -85,7 +106,11 @@ Published documentation:
 - English: [https://docs.gl-inet.com/router/en/4/](https://docs.gl-inet.com/router/en/4/)
 - German: [https://docs.gl-inet.com/router/de/4/](https://docs.gl-inet.com/router/de/4/)
 - Spanish: [https://docs.gl-inet.com/router/es/4/](https://docs.gl-inet.com/router/es/4/)
+- French: [https://docs.gl-inet.com/router/fr/4/](https://docs.gl-inet.com/router/fr/4/)
+- Italian: [https://docs.gl-inet.com/router/it/4/](https://docs.gl-inet.com/router/it/4/)
 - Japanese: [https://docs.gl-inet.com/router/ja/4/](https://docs.gl-inet.com/router/ja/4/)
+- Polish: [https://docs.gl-inet.com/router/pl/4/](https://docs.gl-inet.com/router/pl/4/)
+- Ukrainian: [https://docs.gl-inet.com/router/uk/4/](https://docs.gl-inet.com/router/uk/4/)
 
 ## Writing Guide
 

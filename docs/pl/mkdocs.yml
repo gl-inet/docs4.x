@@ -349,6 +349,9 @@ extra:
     - name: 日本語
       link: /router/ja/4/
       lang: ja
+    - name: Українська
+      link: /router/uk/4/
+      lang: uk
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css

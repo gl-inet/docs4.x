@@ -36,7 +36,7 @@ First, use the small notch at the bottom-right corner of the device's back cover
 
 !!! Warning
 
-    If the battery is swollen, leaking, unusually hot, damaged, or difficult to remove, stop using the device and do not attempt to remove the battery. See [Battery Safety and Swollen Battery Handling](#battery-safety-and-swollen-battery-handling).
+    If the battery is swollen, leaking, unusually hot, damaged, or difficult to remove, stop using the device and do not attempt to remove the battery. See [Battery Safety](#battery-safety).
 
 ![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
@@ -577,7 +577,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Please refer to [Advanced Settings](../../interface_guide/advanced_settings.md) for detailed instructions.
 
-## Battery Safety and Swollen Battery Handling
+## Battery Safety
 
 Stop using and charging the Mudi 7 if the battery is swollen, leaking, unusually hot, damaged, or producing an unusual odor.
 

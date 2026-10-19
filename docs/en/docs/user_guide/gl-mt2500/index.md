@@ -148,7 +148,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 === "Parental Control"
 
-    Parental control is a group of settings designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content. Brume 2 offers two options for parental controls: the local version developed by GL.iNet and the integrated version from Bark, a parental controls app.
+    Parental control is a group of settings designed to help you manage and control your children's devices. It includes limiting their screen time and restricting their access to certain content.
 
     To set up parental control, refer to [Parental controls](../../interface_guide/parental_control.md).
 

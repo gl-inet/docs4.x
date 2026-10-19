@@ -34,7 +34,7 @@ The table below evaluates key performance and usability aspects of the optical t
 
 ### 1.4 Precautions
 
-- Only standard 10G Ethernet optical transceivers are supported; PON modules cannot be used with this option.
+- PON modules cannot be used with this option.
 
 - Select the appropriate single-mode or multimode optical modules and fiber cables for the required transmission distance to avoid reduced network speeds or link failure.
 
@@ -65,10 +65,8 @@ The following standard optical transceivers have been tested by GL.iNet or commu
 |HUAWEI 6G-850nm-120m-MM-SFP+ MTRS-6A11-01|GL.iNet|
 |HUAWEI 2.5G-1310nm-SM-ESFP MXPD-483II|GL.iNet|
 |netLINK 10G/850nm/300m/DDM HTB-10G-SR|GL.iNet|
-|H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 |H!Fiber ASF85-24-X2-D 1000Base-SX 850nm 550m|GL.iNet|
 |Cisco GLC-SX-MMD 10-2626-01 CLASS 1 21CFR1040.10 LN#50|Community member|
-|ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|Community member|
 
 ## Solution 2. SFP+ to RJ45 Module (SFP-10G-T)
 
@@ -118,6 +116,8 @@ The following SFP+ to RJ45 modules have been tested by GL.iNet or community memb
 |10Gtek ASF-10G2-T 1G/2.5G/5G/10GBase-T RJ-45 30m|Community member|
 |HUAWEI SFP-1000BASE-T-RJ45-100m SFP-1000Base-T|Community member|
 |Xicom SFP-2.5G-T 100/1000M/2.5G RJ45 100m|Community member|
+|ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|Community member|
+|H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 
 ## Solution 3. PON-ONU SFP+ Stick
 

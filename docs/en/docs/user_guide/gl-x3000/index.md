@@ -20,16 +20,18 @@ Spitz AX (GL-X3000) is a dual-SIM Wi-Fi 6 cellular gateway designed to provide f
 
 ## LED indicators 
 
+The following describes the LED states for different events. To see all statuses of each LED, refer to [GL-X3000 LED Indicator Status](../../faq/led.md#gl-x3000){target="_blank"}.
+
 | Device Status                          | Power                  | Internet               | 2.4GHz                 | 5GHz                   | Cellular               | 
 | -------------------------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- |
 | Internet connected (Cellular active)   | Green On               | Green On               | Green On               | Green On               | Green On               |
 | Internet connected (Cellular inactive) | Green On               | Green On               | Green On               | Green On               | Off                    |
 | No Internet connection                 | Green On               | Off                    | Green On               | Green On               | Off                    |
 | Firmware updating                      | Green On               | Flashing every 0.5s    | Flashing every 0.5s    | Flashing every 0.5s    | Green On               | 
-| Network reset (press reset < 3s)       | Flashing every 1s      | Green On               | Green On               | Green On               | Green On               |
+| Network reset (press reset for 5s)     | Flashing every 1s      | Green On               | Green On               | Green On               | Green On               |
 | Factory reset (press reset for 10s)    | Flashing every 0.25s   | Green On               | Green On               | Green On               | Green On               | 
 
-**Tips**: When connected to the Internet, a flashing 2.4GHz or 5GHz LED means that Wi-Fi devices are connected and actively transmitting data.
+**Tip**: When connected to the Internet, a flashing 2.4GHz or 5GHz LED means that Wi-Fi devices are connected and actively transmitting data.
 
 ## How to set up Spitz AX
 

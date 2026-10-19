@@ -63,7 +63,7 @@ Try solving this issue by the following methods.
             ext4 is primarily supported by Linux systems. After formatting to ext4, the storage device may be incompatible with Windows operating systems, potentially leading to issues such as inability to recognize or write to the drive on Windows devices.​
         
         1. Back up all data on the drive as formatting will erase it.​
-        2. Use a tool like Disk Utility or a Linux system to format the drive to ext4.
+        2. Use a Linux system or third-party tools to format the drive as ext4.
 
 8. **Update macOS and Clear Caches​.**
 

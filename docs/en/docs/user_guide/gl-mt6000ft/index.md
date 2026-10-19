@@ -16,6 +16,8 @@ Fortify (GL-MT6000) is a co-branded Wi-Fi 6 router jointly released by GL.iNet a
 - 1 x Thank you card
 - 1 x Converter (Based on your shipping country)
 
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/unboxing.png){class="glboxshadow"}
+
 Check out Fortify's unboxing video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -298,7 +300,7 @@ To set up a WireGuard server, refer to [WireGuard Server](../../interface_guide/
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It maps a domain name to your router's dynamic public IP address, so you can access your network remotely without a static IP address. 
     
     Please refer to [Dynamic DNS](../../interface_guide/ddns.md) for details.
 
@@ -369,7 +371,7 @@ To set up a WireGuard server, refer to [WireGuard Server](../../interface_guide/
 
     The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options:
 
-    * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
+    * Firmware Online Upgrade: Automatically check for the latest firmware version from the manufacturer's server. You can install the latest one if available online.
     * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
 
     Please refer to [Upgrade](../../interface_guide/upgrade.md) for details.

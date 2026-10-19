@@ -43,7 +43,7 @@ Las siguientes instrucciones están escritas para cargar el firmware a través d
 
 3.  En la barra lateral izquierda, haga clic en **SYSTEM** > **Upgrade**.
 4.  Haga clic en **Local Upgrade** y seleccione el archivo que descargó anteriormente.
-5.  Para conservar la configuración actual, por ejemplo la contraseña de administrador del router, active **Keep Settings**.
+5.  Para conservar la configuración actual al actualizar el firmware, por ejemplo la contraseña de administrador del router, active **Keep Settings**. No active esta opción al cambiar a una versión anterior del firmware.
 6.  Haga clic en **Install**.
 
 **Nota:** Durante el proceso de actualización, no apagues el router. Cuando la actualización se complete, verás la pantalla de inicio de sesión del router.

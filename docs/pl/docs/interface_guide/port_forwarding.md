@@ -38,9 +38,9 @@ W wyświetlonym oknie dodaj nową regułę przekierowania portów i kliknij **Ap
 
 - **Internal Zone:** Dostępne opcje strefy wewnętrznej: `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server` i `WAN`.
 
-- **Internal IP:** Adres IP przypisany przez router urządzeniu, do którego ma odbywać się zdalny dostęp. Jeśli w polu **External Port** podano pojedynczy port, tu również podaj ten sam pojedynczy port. Jeśli podano zakres portów, tu podaj odpowiadający zakres portów.
+- **Internal IP:** Adres IP przypisany przez router urządzeniu, do którego ma odbywać się zdalny dostęp.
 
-- **Internal Port:** Numer portu wewnętrznego urządzenia. Możesz podać konkretny numer portu. Pozostaw puste, jeśli jest taki sam jak port zewnętrzny.
+- **Internal Port:** Numer portu wewnętrznego urządzenia. Możesz podać konkretny numer portu. Jeśli w polu **External Port** podano pojedynczy port, tu również podaj ten sam pojedynczy port. Jeśli podano zakres portów, tu podaj odpowiadający zakres portów. Pozostaw puste, jeśli jest taki sam jak port zewnętrzny.
 
 - **Description:** Nadaj własną nazwę lub dodaj opis tej reguły (opcjonalne).
 

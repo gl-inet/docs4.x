@@ -18,6 +18,8 @@ Slate 7 Pro (GL-BE10000) は、トライバンド Wi-Fi 7 対応のポータブ�
 - 1 x 電源アダプター
 - 4 x 変換プラグ（US / EU / UK / AU）
 
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/unboxing.png){class="glboxshadow"}
+
 Slate 7 Proの開封動画を以下でご覧いただけます。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -29,8 +31,8 @@ Slate 7 Proの開封動画を以下でご覧いただけます。
 | ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){width="500"} | 起動中 |
 | ![set up admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){width="400"} | 管理者パスワードを設定 |
 | ![set up wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){width="400"} | Wi-Fi を設定 |
-| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | ホーム画面<br></br>**左側**: システム時刻、ネットワーク速度、および Wi-Fi、Clients、VPN、その他の機能へのショートカット。<br>**右側**: Ethernet、Repeater、Tethering、Cellular の 4 つの接続モード |
-| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | ネットワーク状態<br></br>**青**: アクティブ / インターネットに接続済み<br>**黄**: 接続中 / ネットワーク障害<br>**白**: 非アクティブな接続 |
+| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | ホーム画面<br>**左側**: システム時刻、ネットワーク速度、および Wi-Fi、Clients、VPN、その他の機能へのショートカット。<br>**右側**: Ethernet、Repeater、Tethering、Cellular の 4 つの接続モード |
+| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | ネットワーク状態<br>**青**: アクティブ / インターネットに接続済み<br>**黄**: 接続中 / ネットワーク障害<br>**白**: 非アクティブな接続 |
 
 ## Slate 7 Pro の設定方法
 
@@ -287,7 +289,7 @@ VPN（仮想プライベートネットワーク）は、デバイスと VPN サ
 
 === "Dynamic DNS"
 
-    Dynamic DNS（DDNS）は、ドメインに関連付けられた IP アドレスをリアルタイムで自動検出して更新します。リモートネットワークへアクセスするために固定 IP アドレスが必要な場合に特に便利です。
+    Dynamic DNS（DDNS）は、ドメインに関連付けられた IP アドレスをリアルタイムで自動検出して更新します。ドメイン名をルーターの動的なパブリックIPアドレスに対応付けるため、固定IPアドレスがなくてもネットワークにリモートアクセスできます。
 
     Dynamic DNS の設定については、[Dynamic DNS](../../interface_guide/ddns.md) を参照してください。
 

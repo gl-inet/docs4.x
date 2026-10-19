@@ -26,7 +26,7 @@ This tutorial will show you how to reserve a fixed IP for your OpenVPN client co
 
     ![add ccd folder](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
 
-5. Add a file "GLsupport", type in `ifconfig-push 10.8.0.10 255.255.255.0`, then save and exit the file.
+5. Go to `/etc/openvpn/ccd` and add a file "GLsupport", type in `ifconfig-push 10.8.0.10 255.255.255.0`, then save and exit the file.
 
     Verify the content by `cat GLsupport`
 
@@ -36,9 +36,9 @@ This tutorial will show you how to reserve a fixed IP for your OpenVPN client co
     
     - The "255.255.255.0" is the subnet mask and you can replace it with your OpenVPN server subnet mask.
 
-    **Note**: If you want to fix IP addresses for multiple OpenVPN clients, please create multiple usernames and passwords in Step 2, then repeat Step 5, add files to the CCD folder in the order of users, such as user_1, user_2, user_3, followed by the "ifconfig push" command and their corresponding fixed IP and subnet mask. 
+    **Note**: If you want to fix IP addresses for multiple OpenVPN clients, please create multiple usernames and passwords in Step 2, then repeat Step 5, add files to the CCD folder in the order of users, such as user_1, user_2, user_3, followed by the "ifconfig-push" command and their corresponding fixed IP and subnet mask.
     
-    For example, `ifconfig-push 10.8.0.20 225.225.225.0`, `ifconfig-push 10.8.0.30 225.225.225.0`, `ifconfig-push 10.8.0.40 225.225.225.0`
+    For example, `ifconfig-push 10.8.0.20 255.255.255.0`, `ifconfig-push 10.8.0.30 255.255.255.0`, `ifconfig-push 10.8.0.40 255.255.255.0`
 
 6. At last, test with your OVPN client and check if the Client Virtual IP (IPv4) is the reserved one. 
 

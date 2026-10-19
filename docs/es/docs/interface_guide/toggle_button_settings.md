@@ -18,11 +18,13 @@ Puede personalizar el comportamiento del interruptor en el panel de administraci
     - GL-A1300 (Slate Plus)
     - GL-MT300N-V2 (Mango)
     - GL-AR300M Series (Shadow)
+    - GL-S200
     - GL-E750V2 (Mudi V2)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
 
 ??? "Modelos no compatibles"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
@@ -30,7 +32,7 @@ Puede personalizar el comportamiento del interruptor en el panel de administraci
     - GL-BE9300 (Flint 3)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
     - GL-AX1800 (Flint)

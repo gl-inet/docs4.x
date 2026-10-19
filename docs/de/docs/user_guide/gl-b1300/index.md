@@ -59,7 +59,7 @@ Der Lieferumfang umfasst:
 
 ## Erste Einrichtung
 
-Alle GL.iNet-Router haben einen ähnlichen Einrichtungsprozess. [Klicken Sie hier, um mehr über die erste Einrichtung zu erfahren](../../faq/first_time_setup.md/).
+Alle GL.iNet-Router haben einen ähnlichen Einrichtungsprozess. [Klicken Sie hier, um mehr über die erste Einrichtung zu erfahren](../../faq/first_time_setup.md).
 
 ---
 
@@ -121,7 +121,7 @@ Clients sind Geräte, die mit dem Router verbunden sind. Sie können Clients blo
 
 ## VPN
 
-GL.iNet-Router sind mit OpenVPN und WireGuard® vorinstalliert und unterstützen mehr als 30 VPN-Dienste. Dadurch wird der gesamte Netzwerkverkehr im verbundenen Netzwerk automatisch verschlüsselt, einschließlich Gastgeräten und Client-Geräten, die selbst keine VPN-Verschlüsselung ausführen können. Unsere Router können außerdem als VPN-Server fungieren und den Verkehr von Client-Geräten an entfernten Standorten über einen VPN-Tunnel zum VPN-Server umleiten, bevor auf das öffentliche Internet zugegriffen wird.
+GL.iNet-Router sind mit OpenVPN und WireGuard® vorinstalliert und unterstützen mehr als 30 VPN-Dienste. Wenn der VPN-Client aktiviert ist, kann der Router den Datenverkehr von Geräten im Netzwerk gemäß Ihren VPN-Richtlinieneinstellungen verschlüsseln, auch von Geräten, auf denen keine VPN-Apps ausgeführt werden können. Unsere Router können außerdem als VPN-Server fungieren und den Verkehr von Client-Geräten an entfernten Standorten über einen VPN-Tunnel zum VPN-Server umleiten, bevor auf das öffentliche Internet zugegriffen wird.
 
 ### VPN Dashboard
 

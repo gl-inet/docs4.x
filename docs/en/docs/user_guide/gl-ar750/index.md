@@ -119,7 +119,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It maps a domain name to your router's dynamic public IP address, so you can access your network remotely without a static IP address. To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
 === "GoodCloud"
 
@@ -135,7 +135,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     * Port Forwarding: Redirect specific traffic from the internet to designated devices within your network, enabling access to services like gaming servers or web servers.
     * Open Ports: Monitor and control which ports on your router are open, helping to prevent unauthorized access and potential security threats.
-    * DMZ (Demilitarized Zone): Place a device outside the main firewall, allowing it to have unrestricted access to the internet while protecting the rest of your network from potential threats.
+    * DMZ (Demilitarized Zone): Expose one device to the Internet by forwarding all inbound traffic to it.
 
     For detailed setup instructions and more information, please refer to [Firewall](../../interface_guide/firewall.md).
 
@@ -240,7 +240,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
 
-    * Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
+    * Online Upgrade: Automatically check for the latest firmware version from the manufacturer's server. You can install the latest one if available online.
     * Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.

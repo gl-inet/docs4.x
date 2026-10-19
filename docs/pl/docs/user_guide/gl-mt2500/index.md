@@ -128,7 +128,7 @@ Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje w czasie rzeczywistym adres IP powiązany z domeną. Jest to przydatne dla użytkowników, którzy potrzebują statycznego adresu IP do uzyskiwania dostępu do sieci zdalnej. 
+    Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje w czasie rzeczywistym adres IP powiązany z domeną. Mapuje nazwę domeny na dynamiczny publiczny adres IP routera, dzięki czemu możesz zdalnie uzyskiwać dostęp do swojej sieci bez statycznego adresu IP. 
     
     Zapoznaj się z poradnikiem [Dynamic DNS](../../interface_guide/ddns.md). 
 
@@ -185,12 +185,6 @@ Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
     Zapoznaj się z poradnikiem [Lan Tutorial](../../interface_guide/lan.md). 
 
 ---
-
-=== "Guest Network"
-
-    Umożliwia ustawienie podsieci w prywatnych zakresach adresów IPv4 192.168.0.0/16, 172.16.0.0/12 lub 10.0.0.0/8, określenie adresów IP bramy i maski sieci oraz konfigurację ustawień zabezpieczeń, takich jak AP isolation, dla sieci gościnnej.
-
-    Aby skonfigurować sieć LAN, zapoznaj się z poradnikiem [Lan Tutorial](../../interface_guide/guest_network.md). 
 
 === "DNS"
 
@@ -263,7 +257,7 @@ Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
     Strona Upgrade służy do aktualizacji firmware routera do najnowszej wersji, aby zapewnić lepszą wydajność, bezpieczeństwo i nowe funkcje. Ta strona oferuje dwie opcje aktualizacji:
 
-    * Firmware Online Upgrade: Automatyczne sprawdzanie i instalowanie najnowszej wersji firmware bezpośrednio z serwera producenta, co upraszcza proces aktualizacji.
+    * Firmware Online Upgrade: Automatyczne sprawdzanie dostępności najnowszej wersji firmware na serwerze producenta. Jeśli jest dostępna online, możesz ją zainstalować.
     * Firmware Local Upgrade: Ręczne przesłanie pliku firmware z komputera w celu aktualizacji routera, co daje większą kontrolę nad wersją i czasem aktualizacji.
 
     Dzięki tym opcjom możesz utrzymywać router na bieżąco z najnowszymi ulepszeniami i poprawkami.

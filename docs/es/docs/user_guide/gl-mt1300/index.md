@@ -21,7 +21,7 @@ El paquete incluye:
 
 ![gl-mt1300 unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt1300/first_time_setup/mt1300_unboxing.jpg){class="glboxshadow"}
 
-Vea el [video de unboxing](../../video_library/unboxing_first_set_up.md/#gl-mt1300-beryl) de Beryl.
+Vea el [video de unboxing](../../video_library/unboxing_first_set_up.md#gl-mt1300-beryl) de Beryl.
 
 ## Especificaciones
 
@@ -29,7 +29,7 @@ Vea el [video de unboxing](../../video_library/unboxing_first_set_up.md/#gl-mt13
 
 ## Configuración inicial
 
-Todos los routers GL.iNet tienen un proceso de configuración similar. [Haga clic aquí para conocer la configuración inicial](../../faq/first_time_setup.md/).
+Todos los routers GL.iNet tienen un proceso de configuración similar. [Haga clic aquí para conocer la configuración inicial](../../faq/first_time_setup.md).
 
 ## INTERNET
 

@@ -68,7 +68,7 @@ A High-Performance Wi-Fi 6 Home Router
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wOm1PS4Z-fY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE3000 (Spitz AX)
+## GL-XE3000 (Puli AX)
 
 Wi-Fi 6 5G Cellular Router with Battery
 

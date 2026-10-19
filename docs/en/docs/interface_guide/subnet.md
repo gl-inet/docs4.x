@@ -194,7 +194,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
 - **Gateway**
 
-    The **default gateway** of the Guest Network is **192.168.9.1**. If it conflicts with your local network, change it to a different one.
+    The **default gateway** of the IoT Network is **192.168.10.1**. If it conflicts with your local network, change it to a different one.
 
 - **Netmask**
     
@@ -202,7 +202,7 @@ You can set the subnet within the IPv4 private address ranges: `192.168.0.0/16`,
 
 - **VLAN ID**
   
-    The Guest Network's default VLAN ID is **10**, which can be modified as required.
+    The IoT Network's default VLAN ID is **10**, which can be modified as required.
 
 - **AP Isolation**
 

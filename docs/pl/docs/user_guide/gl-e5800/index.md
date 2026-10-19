@@ -22,21 +22,6 @@ Obejrzyj poniżej film z rozpakowania Mudi 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Bezpieczeństwo akumulatora i postępowanie ze spuchniętym akumulatorem {#battery-safety-and-swollen-battery-handling}
-
-Przestań używać i ładować Mudi 7, jeśli akumulator jest spuchnięty, wycieka, jest nietypowo gorący, uszkodzony lub wydziela nietypowy zapach.
-
-- Nie naciskaj, nie zginaj, nie przekłuwaj ani nie zgniataj akumulatora i nie wywieraj na niego nacisku.
-- Nie podważaj spuchniętego lub uszkodzonego akumulatora narzędziami.
-- Nie próbuj wyjmować akumulatora, który jest spuchnięty, zakleszczony, wycieka, jest gorący lub z innego powodu nie można go bezpiecznie dotykać.
-- Nie wyrzucaj uszkodzonego akumulatora litowo-jonowego do odpadów domowych ani do zwykłych pojemników do recyklingu.
-- Nie wysyłaj spuchniętego lub uszkodzonego akumulatora pocztą ani zwykłą przesyłką kurierską.
-- Skontaktuj się ze [wsparciem GL.iNet](https://www.gl-inet.com/contacts/), aby uzyskać pomoc dotyczącą gwarancji i dalszego postępowania.
-
-Jeśli uszkodzony akumulator został już wyjęty, nie wkładaj go ponownie. Skontaktuj się z odpowiednim lokalnym punktem recyklingu akumulatorów lub zbiórki niebezpiecznych odpadów z gospodarstw domowych, który przyjmuje uszkodzone akumulatory litowo-jonowe.
-
-Jeśli akumulator dymi, szybko się nagrzewa, syczy, pali się lub stwarza inne bezpośrednie zagrożenie, oddal się od urządzenia i skontaktuj się z lokalnymi służbami ratunkowymi.
-
 ## Jak skonfigurować Mudi 7
 
 Obejrzyj ten film konfiguracyjny lub wykonaj poniższe kroki.
@@ -166,7 +151,9 @@ Skonfiguruj Mudi 7, korzystając z jednej z obsługiwanych metod połączenia z 
 
     1. Podłącz urządzenie mobilne (np. smartfon albo modem USB) do portu USB-C Mudi 7 za pomocą kabla USB.
     2. Na urządzeniu mobilnym przejdź do Ustawień i włącz **USB Tethering**. Jeśli korzystasz z iPhone'a, po wyświetleniu monitu stuknij **Trust This Device**.
-    3. Mudi 7 połączy się wtedy automatycznie z Twoim urządzeniem. Jeśli połączenie nie zostanie nawiązane, powtórz powyższe kroki albo zaloguj się do web Admin Panel i sprawdź połączenie Tethering na stronie INTERNET.
+    3. Gdy na ekranie dotykowym pojawi się monit o wybór trybu USB, wybierz **Host (USB OTG) mode**. Mudi 7 automatycznie połączy się z urządzeniem. Jeśli połączenie nie zostanie nawiązane, powtórz powyższe kroki albo zaloguj się do web Admin Panel i sprawdź połączenie Tethering na stronie INTERNET.
+
+        Więcej informacji o różnicach między trybami USB znajdziesz [tutaj](https://docs.gl-inet.com/router/en/4/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg).
     4. Po pomyślnym połączeniu z internetem w prawym górnym rogu ekranu dotykowego pojawi się ikona łańcucha. Szczegóły połączenia możesz też sprawdzić w web Admin Panel.
 
     Szczegółowe instrukcje znajdziesz w artykule [Połącz z internetem przez tethering USB](../../interface_guide/internet_tethering.md).
@@ -214,17 +201,9 @@ Firmware Mudi 7 możesz zaktualizować za pomocą ekranu dotykowego lub web Admi
 
 ### Aktualizacja przez WWW
 
-1. Aktualizacja online
+Zaloguj się do web Admin Panel i przejdź do **SYSTEM** -> **Upgrade**. Możesz zaktualizować firmware routera online lub lokalnie.
 
-    Zaloguj się do web Admin Panel i przejdź do **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade**, aby zaktualizować firmware routera.
-
-    Szczegółowe informacje znajdziesz [tutaj](../../interface_guide/upgrade.md#online-upgrade).
-
-2. Aktualizacja lokalna
-
-    Zaloguj się do web Admin Panel i przejdź do **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade**, aby zaktualizować firmware routera.
-
-    Szczegółowe informacje znajdziesz [tutaj](../../interface_guide/upgrade.md#local-upgrade).
+Szczegółowe informacje znajdziesz [tutaj](../../interface_guide/upgrade.md).
 
 ## Przywracanie ustawień fabrycznych
 
@@ -254,7 +233,7 @@ Obejrzyj ten film lub wykonaj poniższe kroki.
 
 1. Zdejmij tylną pokrywę, a zobaczysz przycisk Reset pokazany poniżej.
 
-    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+    ![reset button](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
 2. Wykonaj soft reset albo reset do ustawień fabrycznych, zależnie od potrzeb.
 
@@ -462,7 +441,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel ruchu między
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje adres IP powiązany z domeną w czasie rzeczywistym. Jest szczególnie przydatny dla użytkowników, którzy potrzebują statycznego adresu IP do uzyskiwania dostępu do sieci zdalnej.
+    Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje adres IP powiązany z domeną w czasie rzeczywistym. Mapuje nazwę domeny na dynamiczny publiczny adres IP routera, dzięki czemu możesz zdalnie uzyskiwać dostęp do swojej sieci bez statycznego adresu IP.
     
     Aby skonfigurować Dynamic DNS, zapoznaj się z [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -529,7 +508,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel ruchu między
 
     Strona Upgrade służy do aktualizacji firmware routera do najnowszej wersji, co zapewnia lepszą wydajność, wyższy poziom bezpieczeństwa i nowe funkcje. Ta strona oferuje dwie metody aktualizacji:
 
-    * Firmware Online Upgrade: automatyczne sprawdzenie i zainstalowanie najnowszej wersji firmware bezpośrednio z serwera producenta, co upraszcza proces aktualizacji.
+    * Firmware Online Upgrade: automatyczne sprawdzanie dostępności najnowszej wersji firmware na serwerze producenta. Jeśli jest dostępna online, możesz ją zainstalować.
     * Firmware Local Upgrade: ręczne przesłanie pliku firmware z komputera w celu aktualizacji routera, co daje większą kontrolę nad wersją i terminem aktualizacji.
 
     Dzięki tym opcjom możesz utrzymywać router w aktualnym stanie i korzystać z najnowszych poprawek oraz ulepszeń.
@@ -597,6 +576,21 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel ruchu między
     Strona Advanced Settings zapewnia dostęp do zaawansowanych opcji konfiguracji przez interfejs OpenWrt LuCI, dzięki czemu bardziej zaawansowani użytkownicy mogą szczegółowo dostosować ustawienia i funkcje routera poza podstawowymi opcjami interfejsu. Obejmuje to szczegółowe konfiguracje sieciowe, ustawienia zapory i inne zaawansowane ustawienia systemowe.
 
     Szczegółowe instrukcje znajdziesz w artykule [Advanced Settings](../../interface_guide/advanced_settings.md).
+
+## Bezpieczeństwo akumulatora i postępowanie ze spuchniętym akumulatorem {#battery-safety-and-swollen-battery-handling}
+
+Przestań używać i ładować Mudi 7, jeśli akumulator jest spuchnięty, wycieka, jest nietypowo gorący, uszkodzony lub wydziela nietypowy zapach.
+
+- Nie naciskaj, nie zginaj, nie przekłuwaj ani nie zgniataj akumulatora i nie wywieraj na niego nacisku.
+- Nie podważaj spuchniętego lub uszkodzonego akumulatora narzędziami.
+- Nie próbuj wyjmować akumulatora, który jest spuchnięty, zakleszczony, wycieka, jest gorący lub z innego powodu nie można go bezpiecznie dotykać.
+- Nie wyrzucaj uszkodzonego akumulatora litowo-jonowego do odpadów domowych ani do zwykłych pojemników do recyklingu.
+- Nie wysyłaj spuchniętego lub uszkodzonego akumulatora pocztą ani zwykłą przesyłką kurierską.
+- Skontaktuj się ze [wsparciem GL.iNet](https://www.gl-inet.com/contacts/), aby uzyskać pomoc dotyczącą gwarancji i dalszego postępowania.
+
+Jeśli uszkodzony akumulator został już wyjęty, nie wkładaj go ponownie. Skontaktuj się z odpowiednim lokalnym punktem recyklingu akumulatorów lub zbiórki niebezpiecznych odpadów z gospodarstw domowych, który przyjmuje uszkodzone akumulatory litowo-jonowe.
+
+Jeśli akumulator dymi, szybko się nagrzewa, syczy, pali się lub stwarza inne bezpośrednie zagrożenie, oddal się od urządzenia i skontaktuj się z lokalnymi służbami ratunkowymi.
 
 ## Deklaracja zgodności
 

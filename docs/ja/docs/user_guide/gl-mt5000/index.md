@@ -17,6 +17,8 @@ Brume 3 (GL-MT5000) は、OpenWrt v21.02を実行する高パフォーマンス�
 - 1 x サンキューカード
 - 1 x コンバーター（発送国により異なります）
 
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt5000/unboxing.png){class="glboxshadow"}
+
 Brume 3の開栓動画については、以下を参照してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PupxjK_u8O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -252,7 +254,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Dynamic DNS"
 
-    Dynamic DNS（DDNS）は、ドメインに関連付けられたIPアドレスをリアルタイムで自動的に検出およびアップデートします。リモートネットワークにアクセスするために静的IPアドレスが必要なユーザーに最も便利です。
+    Dynamic DNS（DDNS）は、ドメインに関連付けられたIPアドレスをリアルタイムで自動的に検出およびアップデートします。ドメイン名をルーターの動的なパブリックIPアドレスに対応付けるため、固定IPアドレスがなくてもネットワークにリモートアクセスできます。
 
     Dynamic DNSの設定については、[Dynamic DNS](../../interface_guide/ddns.md)を参照してください。
 
@@ -321,7 +323,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Upgrade ページでは、ルーターのファームウェアを最新バージョンへ更新できます。これにより、性能向上、セキュリティ強化、新機能の利用が可能になります。このページには次の2つのアップグレード方法があります。
 
-    * ファームウェアオンラインアップグレード：メーカーのサーバーから最新バージョンを自動確認してインストールします。
+    * ファームウェアオンラインアップグレード：メーカーのサーバーで最新のファームウェアバージョンを自動的に確認します。オンラインで利用できる場合はインストールできます。
     * ファームウェアローカルアップグレード：コンピューターからファームウェアファイルをアップロードしてルーターをアップデートし、アップグレードバージョンとタイミングを制御できます。
 
     これらのオプションにより、最新の改善や修正を適用した状態にルーターを保てます。

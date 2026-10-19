@@ -4,7 +4,7 @@ Le contenu de cette page est basé sur la version de firmware v4.8.x et les vers
 
 <div class="gl-link-select" data-label="Version du firmware" data-placeholder="Firmware v4.8 et versions antérieures" markdown="1">
 
-- [Firmware v4.9](wireless.md)
+- [Firmware v4.9 et versions ultérieures](wireless.md)
 
 </div>
 
@@ -112,7 +112,7 @@ Cliquez sur les onglets ci-dessous pour en savoir plus sur les paramètres de Ma
 
     ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_ssid_qr_code.png){class="glboxshadow"}
 
-* **Randomized BSSID** : cette fonctionnalité est activée par défaut. Elle vise à empêcher les fournisseurs d’appareils clients de collecter sur leurs serveurs les BSSID Wi-Fi à proximité ainsi que les coordonnées GPS des appareils clients. Cliquez [ici](#randomized-bssid) pour plus de détails.
+* **Randomized BSSID** : activée par défaut, cette fonctionnalité empêche le suivi du routeur via un BSSID fixe. Consultez [Randomized BSSID](#randomized-bssid) pour en savoir plus.
 
 * **Bandwidth** et **Channel** ne peuvent pas être modifiés lorsque le routeur agit comme [répéteur](internet_repeater.md), car ils suivent ceux du réseau répété.
 
@@ -126,31 +126,37 @@ Cliquez sur les onglets ci-dessous pour en savoir plus sur les paramètres de Ma
 
 ## BSSID aléatoire {#randomized-bssid}
 
-Randomized BSSID est disponible depuis le firmware v4.6. Il vise à empêcher les fournisseurs d’appareils clients de collecter sur leurs serveurs les BSSID Wi-Fi à proximité ainsi que les coordonnées GPS des appareils clients.
+Randomized BSSID est une fonctionnalité de confidentialité disponible depuis le firmware v4.6 et activée par défaut. Elle empêche la localisation et le suivi de votre routeur au moyen d’un BSSID Wi-Fi fixe (l’adresse MAC de l’interface sans fil du routeur).
 
-**Comment les fournisseurs d’appareils clients collectent les données de localisation**
+**Pourquoi un BSSID fixe présente un risque pour la confidentialité**
 
-Les fournisseurs d’appareils clients collectent généralement les données de localisation géographique des points d’accès Wi-Fi en exploitant leurs BSSID uniques pour localiser les appareils. Lorsque les appareils clients (par exemple, les téléphones mobiles et les ordinateurs) analysent les réseaux Wi-Fi ou se connectent à un routeur :
+Les systèmes d’exploitation mobiles (comme Android et iOS) utilisent le positionnement Wi-Fi fondé sur des données collaboratives pour fournir des services de localisation :
 
-- Si d’autres appareils se trouvent dans la zone de couverture du signal Wi-Fi du routeur, leur localisation et leurs trajectoires de déplacement peuvent être exposées.
+1. Les appareils clients (téléphones et ordinateurs portables) transmettent régulièrement les BSSID qu’ils détectent, ainsi que leur propre position GPS, au serveur du fournisseur du système d’exploitation ou du fabricant de l’appareil.
 
-- Si un appareil utilise le GPS pour son positionnement, il envoie périodiquement vers le serveur du fournisseur les BSSID Wi-Fi à proximité ainsi que les coordonnées GPS correspondantes.
+2. Les fournisseurs regroupent ces données dans une base mondiale associant chaque BSSID à une position.
+
+3. Tout appareil dont le Wi-Fi est activé, même sans GPS, peut interroger cette base pour estimer sa position à partir des BSSID environnants.
 
 ![randomized bssid](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/randomized-bssid-new.jpg){class="glboxshadow"}
 
-**Risques de sécurité liés au suivi participatif**
+Un routeur avec un BSSID fixe agit ainsi comme une balise de localisation : il peut être géolocalisé à distance et ses déplacements (par exemple lorsque vous l’emportez en voyage) peuvent être suivis dans le temps. Des attaquants peuvent également interroger ces bases pour localiser des routeurs ou les identifier à partir des informations du fabricant (OUI) contenues dans le BSSID.
 
-Même les appareils sans GPS (ou avec le GPS désactivé) peuvent estimer leur position en interrogeant les informations BSSID visibles. Cependant, ce système de suivi de localisation participatif présente des vulnérabilités de sécurité. Des attaquants peuvent l’utiliser pour constituer une base de données mondiale des emplacements des points d’accès Wi-Fi et suivre en continu les trajectoires de déplacement des appareils, ce qui menace la confidentialité et la sécurité des utilisateurs.
+**Comment Randomized BSSID vous protège**
 
-**Comment Randomized BSSID protège votre confidentialité**
+Lorsque cette fonctionnalité est activée, le routeur génère un BSSID aléatoire et le renouvelle à chaque démarrage. Puisque le BSSID change régulièrement, il ne peut plus être associé à une position fixe dans les bases des fournisseurs, ce qui rompt l’association entre BSSID et position utilisée pour le suivi.
 
-Pour remédier à ces vulnérabilités, les routeurs GL.iNet mettent en œuvre la fonctionnalité Randomized BSSID comme mesure de protection de la confidentialité.
+| État | Comportement |
+| ----------------- | ---------------------- |
+| Activé (par défaut) | Un nouveau BSSID aléatoire est généré à chaque démarrage |
+| Désactivé | Le routeur utilise son adresse MAC réelle d’usine comme BSSID |
 
-Dans le panneau d’administration web du routeur, accédez à WIRELESS -> 5GHz Wi-Fi ou 2.4GHz Wi-Fi ; l’option BSSID est activée par défaut.
+**Remarques** :
 
-Avec ce paramètre, l’appareil utilise un BSSID généré aléatoirement et le renouvelle à chaque démarrage. Si vous désactivez le BSSID aléatoire, le routeur recommence à utiliser sa véritable adresse MAC.
-
-**Note** : pour Guest Wi-Fi, le BSSID reste identique au BSSID de Main Wi-Fi dans la même bande de fréquences.
+1. Le BSSID ne change qu’au redémarrage du routeur ; il reste identique pendant une session en cours.
+2. Pour le Wi-Fi invité, le BSSID reste identique à celui du Wi-Fi principal sur la même bande de fréquence.
+3. Si les bandes du Wi-Fi MLO incluent 6 GHz, son BSSID se synchronise avec celui du Wi-Fi 6 GHz.
+4. Randomized BSSID bloque le suivi via le BSSID du routeur, mais n’empêche pas les appareils clients de transmettre leur propre position. Il ne constitue pas une solution de confidentialité complète : le SSID, le canal et les caractéristiques du signal restent observables.
 
 ---
 

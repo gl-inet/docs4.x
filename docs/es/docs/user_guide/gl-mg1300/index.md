@@ -2,7 +2,7 @@
 
 ## Descripción general del producto
 
-Mango 2 (GL-MG1300) es el primer minirouter de viaje Wi-Fi 5 de doble banda de GL.iNet, con un diseño ultrafino y portátil. Ofrece velocidades teóricas de 400 Mbps (2,4 GHz) y 866 Mbps (5 GHz), con una configuración MIMO 2×2. Además, incluye OpenVPN y WireGuard preinstalados, admite más de 30 servicios VPN, cifra automáticamente todo el tráfico de red y permite la administración remota mediante GoodCloud, combinando rendimiento, funcionalidad y seguridad.
+Mango 2 (GL-MG1300) es el primer minirouter de viaje Wi-Fi 5 de doble banda de GL.iNet, con un diseño ultrafino y portátil. Ofrece velocidades teóricas de 400 Mbps (2,4 GHz) y 866 Mbps (5 GHz), con una configuración MIMO 2×2. Además, incluye OpenVPN y WireGuard preinstalados, admite más de 30 servicios VPN para cifrar el tráfico de red cuando el cliente VPN está habilitado y permite la administración remota mediante GoodCloud, combinando rendimiento, funcionalidad y seguridad.
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
@@ -12,6 +12,12 @@ Mango 2 (GL-MG1300) es el primer minirouter de viaje Wi-Fi 5 de doble banda de G
 - 1 x Manual de usuario
 - 1 x Cable de alimentación USB-C a USB-C
 - 1 x Tarjeta de agradecimiento
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/unboxing.png){class="glboxshadow"}
+
+Vea a continuación el vídeo de desempaquetado de Mango 2.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Cómo configurar Mango 2
 
@@ -235,7 +241,7 @@ Una VPN (red privada virtual) crea una conexión segura y cifrada entre el dispo
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Resulta útil para los usuarios que necesitan una dirección IP estática para acceder a una red remota.
+    Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Asigna un nombre de dominio a la dirección IP pública dinámica de su router, de modo que pueda acceder a su red de forma remota sin necesidad de una dirección IP estática.
 
     Para configurar Dynamic DNS, consulte [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -282,7 +288,7 @@ Una VPN (red privada virtual) crea una conexión segura y cifrada entre el dispo
 
     La página Upgrade se utiliza para actualizar el firmware del router a la versión más reciente, garantizando mejor rendimiento, seguridad y nuevas funciones. Esta página ofrece dos opciones de actualización:
 
-    * Firmware Online Upgrade: comprueba automáticamente si hay una nueva versión de firmware y la instala directamente desde el servidor del fabricante, simplificando el proceso.
+    * Firmware Online Upgrade: comprueba automáticamente en el servidor del fabricante si existe una versión más reciente del firmware. Puede instalarla si está disponible en línea.
     * Firmware Local Upgrade: permite cargar manualmente un archivo de firmware desde el ordenador para actualizar el router, lo que le da control sobre la versión y el momento de la actualización.
 
     Estas opciones le permiten mantener el router actualizado con las mejoras y correcciones más recientes.

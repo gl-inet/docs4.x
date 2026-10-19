@@ -38,6 +38,12 @@ Fai riferimento a questo video tutorial oppure segui la procedura riportata di s
 
         **Nota:** modelli identici ma prodotti in lotti diversi possono avere colori dei LED o sequenze di lampeggiamento differenti. Questo non influisce sul processo di recupero U-Boot. Presta soprattutto attenzione al cambiamento dello stato del LED.
 
+        - Per **GL-MT6000 (Fortify)**: il LED blu lampeggia 6 volte, poi diventa bianco fisso.
+
+        - Per **GL-MG1300 (Mango 2)**: il LED blu lampeggia 7 volte, poi diventa bianco fisso.
+
+        - Per **GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro) e GL-BE3600 (Slate 7)**: dopo aver tenuto premuto il pulsante Reset per circa 5 secondi, sul touchscreen apparirà un conto alla rovescia di 5 secondi. Continua a tenere premuto il pulsante Reset finché sullo schermo non compare il messaggio successivo, ad esempio di impostare manualmente l'indirizzo IP del computer su 192.168.1.2 e visitare http://192.168.1.1 con il browser. Passa al passaggio 4 per ulteriori istruzioni.
+
         - Per **GL-MT3600BE (Beryl 7)**: il LED blu lampeggia 7 volte, poi diventa bianco fisso.
 
         - Per **GL-MT5000 (Brume 3)**: il LED Power lampeggia in blu 7 volte, poi diventa bianco fisso.
@@ -45,8 +51,6 @@ Fai riferimento a questo video tutorial oppure segui la procedura riportata di s
         - Per **GL-BE6500 (Flint 3e)**: il LED blu lampeggia 6 volte, poi diventa bianco fisso.
 
         - Per **GL-BE9300 (Flint 3)**: il LED blu lampeggia 6 volte, poi diventa bianco fisso.
-
-        - Per **GL-BE3600 (Slate 7)**: dopo aver tenuto premuto il pulsante Reset per circa 5 secondi, sul touchscreen apparirà un conto alla rovescia di 5 secondi. Continua a tenerlo premuto finché sullo schermo non compare il messaggio successivo, ad esempio di impostare manualmente l'IP del computer su 192.168.1.2 e visitare http://192.168.1.1 con il browser. Passa al passaggio 4 per ulteriori istruzioni.
 
         - Per **GL-X2000 (Spitz Plus)**: il LED Internet lampeggia 5 volte, poi il LED Wi-Fi rimane acceso.
 
@@ -126,47 +130,47 @@ Fai riferimento a questo video tutorial oppure segui la procedura riportata di s
 
     ??? "Windows 11"
 
-        7. Apri Settings.
+        1. Apri Settings.
 
-        8. Fai clic su **Network & Internet**.
+        2. Fai clic su **Network & Internet**.
 
-        9. Fai clic sulla scheda **Ethernet**.
+        3. Fai clic sulla scheda **Ethernet**.
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
-        10. Nella sezione "IP assignment", fai clic sul pulsante **Edit**.
+        4. Nella sezione "IP assignment", fai clic sul pulsante **Edit**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        11. Seleziona l'opzione **Manual**.
+        5. Seleziona l'opzione **Manual**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        12. Attiva l'interruttore **IPv4**.
+        6. Attiva l'interruttore **IPv4**.
 
-        13. Imposta l'**IP address** statico su **192.168.1.2**.
+        7. Imposta l'**IP address** statico su **192.168.1.2**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        14. Specifica **Subnet mask** come **255.255.255.0**.
+        8. Specifica **Subnet mask** come **255.255.255.0**.
 
-        15. Fai clic sul pulsante **Save**.
+        9. Fai clic sul pulsante **Save**.
 
     ??? "macOS"
 
-        16. Fai clic sull'icona **Apple** in alto a sinistra dello schermo e seleziona **System Preferences**.
+        1. Fai clic sull'icona **Apple** in alto a sinistra dello schermo e seleziona **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}
 
-        17. Fai clic su **Network**.
+        2. Fai clic su **Network**.
 
             ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences_network.png){class="glboxshadow"}
 
-        18. Fai clic su **Ethernet** a sinistra e poi sulla casella a discesa accanto a **Configure IPv4**, quindi seleziona **Manually**. Se stai usando un adattatore USB Ethernet, Ethernet potrebbe non essere visibile e potrebbe comparire invece il nome dell'adattatore USB Ethernet.
+        3. Fai clic su **Ethernet** a sinistra e poi sulla casella a discesa accanto a **Configure IPv4**, quindi seleziona **Manually**. Se stai usando un adattatore USB Ethernet, Ethernet potrebbe non essere visibile e potrebbe comparire invece il nome dell'adattatore USB Ethernet.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_1.png){class="glboxshadow"}
 
-        19. Inserisci **IPv4 Address** come `192.168.1.2`, **Subnet Mask** come `255.255.255.0`, **Router** come `192.168.1.1`, quindi fai clic sul pulsante Apply in basso a destra.
+        4. Inserisci **IPv4 Address** come `192.168.1.2`, **Subnet Mask** come `255.255.255.0`, **Router** come `192.168.1.1`, quindi fai clic sul pulsante Apply in basso a destra.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 

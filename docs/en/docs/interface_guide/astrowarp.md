@@ -1,6 +1,6 @@
 # AstroWarp
 
-**Note**: This guide applies to the new version of AstroWarp. This feature was renamed to [GoodPAS](./goodpas.md) in firmware v4.10.
+**Note**: This guide applies to the new version of AstroWarp. This feature was renamed to [GoodPAS](./goodpas.md) in firmware v4.11 (v4.10 for GL-MG1300).
 
 
 The new AstroWarp is integrated into the GL.iNet router SDK. It adopts the AmneziaWG protocol with built-in traffic obfuscation, delivering stable and secure connections for reliable remote access anytime, anywhere.
@@ -25,6 +25,7 @@ The legacy AstroWarp, while visible in the web Admin Panel, relied on a standalo
 
     These models are compatible with the new AstroWarp. To view the supported model list for the legacy AstroWarp, click [here](https://docs.astrowarp.net/en/quick_start/){target="_blank"}.
 
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-MG1300 (Mango 2)
     - GL-BE9300 (Flint 3)

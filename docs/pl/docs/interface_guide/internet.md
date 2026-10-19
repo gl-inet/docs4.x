@@ -2,7 +2,7 @@
 
 Zaloguj się do panelu administracyjnego WWW i przejdź do **INTERNET**.
 
-W górnej połowie strony znajduje się diagram pokazujący stan połączenia z Internetem, a w dolnej połowie wyświetlane są cztery lub pięć metod dostępu do Internetu, zależnie od modelu.
+W górnej połowie strony znajduje się diagram pokazujący stan połączenia z Internetem, a w dolnej połowie wyświetlane są maksymalnie cztery metody dostępu do Internetu, zależnie od modelu.
 
 ## Diagram stanu
 

@@ -1,8 +1,8 @@
-# Ottenere i log del modulo
+# Come usare qlog per acquisire i log del modem
 
-Alcuni router GL.iNet integrano moduli 3G/4G/5G. Quando la connessione di rete e' instabile, puo' essere necessario esportare il log del modulo per analizzarlo.
+Alcuni router GL.iNet sono dotati di modem 3G/4G/5G integrati. Quando la connessione di rete è instabile, potrebbe essere necessario esportare i log del modem per analizzarli.
 
-Di seguito trovi i passaggi per esportare il log del modulo cellulare.
+Di seguito sono riportati i passaggi per esportare i log del modem cellulare.
 
 ## 1. Collega il computer al router
 
@@ -12,71 +12,157 @@ Collega un laptop al Wi-Fi del router, trovi SSID e password sull'etichetta nell
 
 Fai riferimento a [questo link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/).
 
-## 3. Ottenere i log del modulo
+## 3. Acquisisci i log del modem
 
-### Per GL-XE300/GL-X750/GL-X300B
+Segui i passaggi appropriati per il modello del tuo dispositivo.
 
-1. Usa i seguenti comandi per ottenere qlog dal server GL.iNet e conferma che lo SHA256 del file qlog sia corretto.
+### GL-E5800
+
+1. Inserisci un’unità flash USB, quindi esegui `df -h` per individuare il percorso di montaggio e annotalo.
+
+    Nell’esempio seguente, l’unità flash USB è montata in `/tmp/mountd/disk1_part1`.
+
+    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/E5800_u_flash_drive_path.png){class="glboxshadow"}
+
+2. Scarica il file di configurazione cfg.
+
+    ```
+    cd /etc/ && wget https://fw.gl-inet.com/tools/quectel_tool/4G_5G_2.cfg
+    ```
+
+3. Esegui il comando seguente per avviare l’acquisizione dei log del modem. Sostituisci `/tmp/mountd/disk1_part1` con il percorso di montaggio effettivo dell’unità flash USB.
+
+    ```
+    diag_mdlog -u -i -f /etc/4G_5G_2.cfg -o /tmp/mountd/disk1_part1/diag_$(date +%Y%m%d%H%M) &
+    ```
+
+4. Riavvia il modem. Sostituisci `<sim_slot>` con il numero dello slot della scheda SIM attualmente attiva (`1` o `2`).
+
+    ```
+    gl_modem -B cpu -U <sim_slot> AT AT+CFUN=0; sleep 1; gl_modem -B cpu -U <sim_slot> AT AT+CFUN=1
+
+    ```
+    Ad esempio, se è attiva la scheda SIM **1**:
+
+    ```
+    gl_modem -B cpu -U 1 AT AT+CFUN=0; sleep 1; gl_modem -B cpu -U 1 AT AT+CFUN=1
+    ```
+
+5. Attendi 3 minuti, quindi esegui il comando seguente per arrestare qlog.
+
+    ```
+    diag_mdlog -k
+    ```
+
+6. Sull’unità flash USB troverai una cartella contenente i file dei dati acquisiti da qLog, che richiedono lo strumento Quectel per la decodifica. Invia questi file al supporto tecnico GL.iNet o Quectel.
+
+    ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/E5800_qlogs_files.png){class="glboxshadow"}
+
+### GL-X2000
+
+1. Inserisci un’unità flash USB, quindi esegui `df -h` per individuare il percorso di montaggio e annotalo.
+
+    Nell’esempio seguente, l’unità flash USB è montata in `/tmp/mountd/disk1_part1`.
+
+    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/x2000_u_flash_drive_path.png){class="glboxshadow"}
+
+2. Scarica il file di configurazione cfg.
+
+    ```
+    cd /etc/ && wget https://fw.gl-inet.com/tools/quectel_tool/default_v15.cfg
+    ```
+    ![download cfg file](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/X2000_download_cfg_file.png){class="glboxshadow"}
+
+3. Scarica lo strumento qlog.
+
+    ```
+    cd /usr/bin && wget https://fw.gl-inet.com/tools/quectel_tool/QLog_X2000
+    ```
+
+    ```
+    chmod 775 /usr/bin/QLog_X2000
+    ```
+
+    ![download qlog tool](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/X2000_download_qlog_tool.png){class="glboxshadow"}
+
+4. Esegui il comando seguente per avviare qlog. Sostituisci `/tmp/mountd/disk1_part1` con il percorso di montaggio effettivo dell’unità flash USB.
+
+    ```
+    QLog_X2000 -f /etc/default_v15.cfg -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) &
+    ```
+
+5. Riavvia il modem.
+
+    ```
+    gl_modem -B 2-1 AT AT+CFUN=0; sleep 1; gl_modem -B 2-1 AT AT+CFUN=1
+    ```
+
+6. Attendi 3 minuti, quindi esegui il comando seguente per arrestare qlog.
+
+    ```
+    ps  | grep qlog | grep -v grep | awk '{print $1}' | xargs kill -9
+    ```
+
+7. Sull’unità flash USB troverai una cartella contenente i file dei dati acquisiti da qLog, che richiedono lo strumento Quectel per la decodifica. Invia questi file al supporto tecnico GL.iNet o Quectel.
+
+    ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/X2000_qlogs_files.png){class="glboxshadow"}
+
+
+### GL-XE300/GL-X750/GL-X300B
+
+1. Inserisci un’unità flash USB, quindi esegui `df -h` per individuare il percorso di montaggio e annotalo.
+
+    Nell’esempio seguente, l’unità flash USB è montata in `/tmp/mountd/disk1_part1`.
+
+    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_u_flash_drive_path.png){class="glboxshadow"}
+
+2. Esegui i comandi seguenti per scaricare qlog dal server GL.iNet.
 
     ```
     cd /usr/bin/ && wget https://fw.gl-inet.com/tools/quectel_tool/qlog-ar9531-sha256-75fe8b
     ```
 
     ```
-    chmod 775 qlog-ar9531-sha256-75fe8b  && sha256sum qlog-ar9531-sha256-75fe8b
+    chmod 775 qlog-ar9531-sha256-75fe8b
     ```
 
-    ![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_get_qlog.png){class="glboxshadow"}
-
-2. Inserisci una chiavetta USB e usa il comando `df` per ottenere il percorso di mount; ricordalo.
-
-    Il percorso di mount della mia chiavetta USB e' `/tmp/mountd/disk1_part1`
-
-    ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_u_flash_drive_path.png){class="glboxshadow"}
-
-3. Usa il seguente comando per aprire la modalita' debug del modulo.
+3. Esegui il comando seguente per abilitare la modalità di debug del modem.
 
     ```
     gl_modem AT AT+QCFG=\"dbgctl\",0
     ```
 
-4. Usa il seguente comando per avviare qlog.
+4. Esegui il comando seguente per avviare qlog. Sostituisci `/tmp/mountd/disk1_part1` con il percorso di montaggio effettivo dell’unità flash USB.
 
     ```
     qlog-ar9531-sha256-75fe8b -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) &
     ```
 
-    `/tmp/mountd/disk1_part1` e' il percorso della mia chiavetta USB; devi sostituirlo con il tuo percorso.
-
-5. Usa il seguente comando per riavviare il modulo.
+5. Riavvia il modem.
 
     ```
     gl_modem AT AT+CFUN=0; sleep 1; gl_modem AT AT+CFUN=1
     ```
 
-6. Attendi da 1 a 3 minuti, poi usa il seguente comando per fermare qlog.
+6. Attendi 3 minuti, quindi esegui il comando seguente per arrestare qlog.
 
     ```
     ps  | grep qlog | grep -v grep | awk '{print $1}' | xargs kill -9
     ```
 
-    ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_start_and_stop_qlog.png){class="glboxshadow"}
-
-7. Troverai una directory nella chiavetta USB contenente alcuni file. Questi file sono dati acquisiti da qlog e devono essere decodificati con lo strumento Quectel, quindi inviali al supporto tecnico GL.iNet o Quectel.
+7. Sull’unità flash USB troverai una cartella contenente i file dei dati acquisiti da qLog, che richiedono lo strumento Quectel per la decodifica. Invia questi file al supporto tecnico GL.iNet o Quectel.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/ar9531_qlogs_files.png){class="glboxshadow"}
 
-### Per GL-X3000/GL-XE3000
+### GL-X3000/GL-XE3000
 
-1. Inserisci una chiavetta USB e usa il comando `df` per ottenere il percorso di mount; ricordalo.
+1. Inserisci un’unità flash USB, quindi esegui `df -h` per individuare il percorso di montaggio e annotalo.
 
-    Il percorso di mount della mia chiavetta USB e' `/tmp/mountd/disk1_part1`
+    Nell’esempio seguente, l’unità flash USB è montata in `/tmp/mountd/disk1_part1`.
 
     ![U Flash Drive Path](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_u_flash_drive_path.png){class="glboxshadow"}
 
-2. Ottieni qlog dal server GL.iNet e conferma che lo sha256 del file qlog sia corretto.
-
-    Usa i seguenti comandi per ottenere qlog.
+2. Esegui i comandi seguenti per scaricare qlog dal server GL.iNet.
 
     ```
     cd /etc/ && wget https://fw.gl-inet.com/tools/quectel_tool/default_v15.cfg
@@ -87,32 +173,28 @@ Fai riferimento a [questo link](https://docs.gl-inet.com/router/en/4/tutorials/s
     ```
 
     ```
-    chmod 775 qlog-mtk7981a-sha256-78dda4  && sha256sum qlog-mtk7981a-sha256-78dda4 && sha256sum /etc/default_v15.cfg
+    chmod 775 qlog-mtk7981a-sha256-78dda4
     ```
 
-    ![Get Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_get_qlog.png){class="glboxshadow"}
-
-3. Usa il seguente comando per avviare qlog.
+3. Esegui il comando seguente per avviare qlog. Sostituisci `/tmp/mountd/disk1_part1` con il percorso di montaggio effettivo dell’unità flash USB.
 
     ```
     qlog-mtk7981a-sha256-78dda4 -f /etc/default_v15.cfg -s /tmp/mountd/disk1_part1/qlogs_$(date +%Y%m%d%H%M) &
     ```
 
-4. Usa il seguente comando per riavviare il modulo.
+4. Riavvia il modem.
 
     ```
     gl_modem -B 0001:01:00.0 SAT sp AT+CFUN=0; sleep 1; gl_modem -B 0001:01:00.0 SAT sp AT+CFUN=1
     ```
 
-5. Dopo aver catturato i pacchetti con qlog, usa il seguente comando per fermare qlog.
+5. Attendi 3 minuti, quindi esegui il comando seguente per arrestare qlog.
 
     ```
     ps  | grep qlog | grep -v grep | awk '{print $1}' | xargs kill -9
     ```
 
-    ![Start And Stop Qlog](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_start_and_stop_qlog.png){class="glboxshadow"}
-
-6. Troverai una directory nella chiavetta USB contenente alcuni file. Questi file sono dati acquisiti da qlog e devono essere decodificati con lo strumento Quectel, quindi inviali al supporto tecnico GL.iNet o Quectel.
+6. Sull’unità flash USB troverai una cartella contenente i file dei dati acquisiti da qLog, che richiedono lo strumento Quectel per la decodifica. Invia questi file al supporto tecnico GL.iNet o Quectel.
 
     ![Qlogs Files](https://static.gl-inet.com/docs/router/en/4/tutorials/get_module_logs/mtk7981a_qlogs_files.png){class="glboxshadow"}
 

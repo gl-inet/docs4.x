@@ -114,7 +114,7 @@
 
     Dans le menu Configurer IPv4, sélectionnez Manuellement.
 
-    Saisissez une adresse IP statique dans le champ Adresse IPv4. Quel numéro faut-il saisir ? Une méthode consiste à prendre votre adresse IP actuelle et à modifier la dernière partie du numéro. Dans cet exemple, vous pouvez choisir n'importe quelle adresse entre 192.168.7.0 et 192.168.7.255, à condition que l'adresse ne soit pas déjà attribuée à un autre appareil.
+    Saisissez une adresse IP statique dans le champ Adresse IPv4. Une méthode consiste à prendre votre adresse IP actuelle et à modifier sa dernière partie. Pour un réseau 192.168.7.0/24, choisissez une adresse d’hôte inutilisée entre 192.168.7.1 et 192.168.7.254. N’utilisez ni l’adresse réseau ni l’adresse de diffusion.
 
     Cliquez sur OK -> Cliquez sur Appliquer.
    
@@ -147,19 +147,19 @@
         ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - Lors de l'utilisation d'adresses IP statiques sur les réseaux domestiques et autres réseaux privés, elles doivent être choisies dans les plages d'adresses IP privées standard listées : 10.0.0.0 à 10.255.255.255, 172.16.0.0 à 172.31.255.255, 192.168.0.0 à 192.168.255.255
+    - Lorsque vous utilisez des adresses IP statiques sur des réseaux domestiques ou d’autres réseaux privés, choisissez une adresse d’hôte inutilisée dans votre sous-réseau actuel. Les plages d’adresses IP privées standard sont : 10.0.0.0 – 10.255.255.255, 172.16.0.0 – 172.31.255.255, 192.168.0.0 – 192.168.255.255
 
     - Saisissez maintenant l'adresse IP.
         - Cette étape est spécifique à chaque réseau. Exemple : 192.168.1.128
         
-    - La Passerelle devrait se remplir automatiquement en fonction de l'adresse IP. Sinon, copiez l'adresse IP et remplacez le dernier chiffre par 1. 
-        - Exemple : d'après l'exemple précédent : 192.168.1.1
+    - La passerelle devrait se renseigner automatiquement en fonction de l’adresse IP. Sinon, saisissez l’adresse IP de la passerelle de votre réseau.
+        - Exemple : si l’adresse IP de votre routeur est 192.168.1.1, saisissez 192.168.1.1.
 
     3. Appuyez sur Enregistrer et laissez le réseau se reconnecter.
 
 === "iOS"
 
-    Lors de l'utilisation d'adresses IP statiques sur les réseaux domestiques et autres réseaux privés, elles doivent être choisies dans les plages d'adresses IP privées standard listées :
+    Lorsque vous utilisez des adresses IP statiques sur des réseaux domestiques ou d’autres réseaux privés, choisissez une adresse d’hôte inutilisée dans votre sous-réseau actuel. Les plages d’adresses IP privées standard sont :
 
     10.0.0.0 à 10.255.255.255
     172.16.0.0 à 172.31.255.255
@@ -189,7 +189,7 @@
         
     - Appuyez sur Masque de sous-réseau et saisissez vos informations
 
-        - Habituellement, ce sera 255.255.0.0.
+        - Utilisez le masque de sous-réseau du réseau auquel vous êtes connecté.
 
     - Appuyez sur le bouton Wi-Fi dans l'angle supérieur gauche de l'écran pour enregistrer les paramètres.
 

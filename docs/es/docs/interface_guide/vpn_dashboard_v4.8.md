@@ -5,7 +5,7 @@ El contenido de esta página se basa en la versión de firmware v4.8.x. Si su di
 <div class="gl-link-select" data-label="Versión de firmware" data-placeholder="Firmware v4.8" markdown="1">
 
 - [Firmware v4.7 y anteriores](vpn_dashboard_v4.7.md)
-- [Firmware v4.9](vpn_dashboard.md)
+- [Firmware v4.9 y posteriores](vpn_dashboard.md)
 
 </div>
 
@@ -215,7 +215,7 @@ En el ejemplo siguiente, la regla de Primary Tunnel es: todos los clientes usan 
 
 ![connected policy mode](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.8/connected-policy-mode.jpg){class="glboxshadow"}
 
-**Nota**: Por seguridad, vaya a [All Other Traffic](#all-other-traffic) y a [Opciones del tunel](#tunnel-options) para revisar otros ajustes antes de habilitar los túneles.
+**Nota**: Por seguridad, vaya a [All Other Traffic](#all-other-traffic) y a [Opciones del túnel](#opciones-del-tunel) para revisar otros ajustes antes de habilitar los túneles.
 
 <a id="add-tunnel"></a>
 
@@ -237,7 +237,7 @@ Puede añadir más túneles si lo necesita. Se pueden crear hasta 5 túneles, in
 
 Personalice las reglas del túnel estableciendo el origen del tráfico, los destinos y el método de enrutamiento. Consulte [Tunel principal](#primary-tunnel).
 
-**Nota**: Por seguridad, vaya a [All Other Traffic](#all-other-traffic) y a [Opciones del tunel](#tunnel-options) para revisar otros ajustes antes de habilitar los túneles.
+**Nota**: Por seguridad, vaya a [All Other Traffic](#all-other-traffic) y a [Opciones del túnel](#opciones-del-tunel) para revisar otros ajustes antes de habilitar los túneles.
 
 <a id="all-other-traffic"></a>
 
@@ -285,7 +285,7 @@ Haga clic y mantenga pulsado el icono de tres líneas de la derecha para reorden
 
 <a id="tunnel-options"></a>
 
-#### Opciones del tunel
+#### Opciones del túnel
 
 Puede configurar ajustes avanzados para cada túnel VPN, como el Kill Switch de VPN, el enmascaramiento de IP y el MTU.
 

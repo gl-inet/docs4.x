@@ -119,7 +119,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Cette fonction est particulièrement utile pour les utilisateurs qui ont besoin d'une adresse IP statique pour accéder à un réseau distant. Pour configurer Dynamic DNS, consultez [Dynamic DNS](../../interface_guide/ddns.md).
+    Dynamic DNS (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Il associe un nom de domaine à l'adresse IP publique dynamique de votre routeur, ce qui vous permet d'accéder à votre réseau à distance sans adresse IP statique. Pour configurer Dynamic DNS, consultez [Dynamic DNS](../../interface_guide/ddns.md).
 
 === "GoodCloud"
 
@@ -135,7 +135,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     * Port Forwarding : redirige un trafic spécifique provenant d'Internet vers des appareils précis de votre réseau afin de permettre l'accès à des services tels que des serveurs de jeu ou des serveurs web.
     * Open Ports : permet de surveiller et de contrôler les ports ouverts sur votre routeur afin de limiter les accès non autorisés et les menaces potentielles.
-    * DMZ (Demilitarized Zone) : place un appareil en dehors du pare-feu principal afin de lui permettre un accès Internet sans restriction tout en protégeant le reste du réseau contre les menaces potentielles.
+    * DMZ (Demilitarized Zone) : expose un appareil à Internet en lui redirigeant tout le trafic entrant.
 
     Pour des instructions détaillées et plus d'informations, consultez [Firewall](../../interface_guide/firewall.md).
 
@@ -240,7 +240,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     La page Upgrade permet de mettre à jour le firmware de votre routeur vers la dernière version afin d'améliorer les performances, la sécurité et les fonctionnalités. Cette page propose deux options de mise à niveau :
 
-    * Online Upgrade : recherche et installe automatiquement la dernière version du firmware depuis le serveur du fabricant, ce qui simplifie la mise à jour.
+    * Online Upgrade : recherche automatiquement la dernière version du firmware sur le serveur du fabricant. Vous pouvez l'installer si elle est disponible en ligne.
     * Local Upgrade : permet de téléverser manuellement un fichier de firmware depuis votre ordinateur pour mettre à jour le routeur, ce qui vous donne le contrôle sur la version installée et le moment de l'opération.
 
     Ces options vous permettent de maintenir votre routeur à jour avec les dernières améliorations et corrections.

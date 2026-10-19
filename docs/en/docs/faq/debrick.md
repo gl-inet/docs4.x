@@ -38,6 +38,10 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
 
         **Note:** Identical router models from different production batches may have different LED colors or flashing sequences. This does not affect the U-Boot recovery process. Please focus on the change of the LED flashing state.
 
+        - For **GL-MT6000 (Fortify)**: The blue LED flashes 6 times, then turns solid white.
+
+        - For **GL-MG1300 (Mango 2)**: The blue LED flashes 7 times, then turns solid white.
+
         - For **GL-BE14000 (Flint 4)，GL-BE10000 (Slate 7 Pro)， and GL-BE3600 (Slate 7)**: After holding down the Reset button for about 5 seconds, a 5-second countdown will appear on the touchscreen. Keep pressing the Reset button until the next prompt appears on the screen, e.g., manually set the IP address of your computer to 192.168.1.2, and use browser to visit http://192.168.1.1. Turn to Step 4 for further instruction.
         
         - For **GL-MT3600BE (Beryl 7)**: The blue LED flashes 7 times, then turns solid white.
@@ -116,7 +120,7 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
 
         3. Click **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
 
-        4. Set the **IP adress** to `192.168.1.2` manually.
+        4. Set the **IP address** to `192.168.1.2` manually.
 
         5. Set the **Subnet mask** to `255.255.255.0`.
 
@@ -126,47 +130,47 @@ Refer to this video tutorial or follow the procedures below to access the U-Boot
 
     ??? "Windows 11"
 
-        7. Open Settings.
+        1. Open Settings.
 
-        8. Click on **Network & Internet**.
+        2. Click on **Network & Internet**.
 
-        9. Click the **Ethernet** tab.
+        3. Click the **Ethernet** tab.
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
-        10. Under the "IP assignment" section, click the **Edit** button.
+        4. Under the "IP assignment" section, click the **Edit** button.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        11. Select the **Manual** option.
+        5. Select the **Manual** option.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        12. Turn on the **IPv4 toggle** switch.
+        6. Turn on the **IPv4 toggle** switch.
 
-        13. Set the static **IP address** as **192.168.1.2**.
+        7. Set the static **IP address** as **192.168.1.2**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        14. Specify the **Subnet mask** as **255.255.255.0**.
+        8. Specify the **Subnet mask** as **255.255.255.0**.
 
-        15. Click the **Save** button.
+        9. Click the **Save** button.
 
     ??? "macOS"
     
-        16. Click the **Apple** icon in the top left corner of the screen, and select **System Preferences**.
+        1. Click the **Apple** icon in the top left corner of the screen, and select **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}
 
-        17. Click **Network**.
+        2. Click **Network**.
 
             ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences_network.png){class="glboxshadow"}
 
-        18. Click **Ethernet** on the left and then click the drop-down box next to **Configure IPv4** and select **Manually**. If you are using a USB Ethernet Adapter, Ethernet may not be found and it may show up as the name of the USB Ethernet Adapter.
+        3. Click **Ethernet** on the left and then click the drop-down box next to **Configure IPv4** and select **Manually**. If you are using a USB Ethernet Adapter, Ethernet may not be found and it may show up as the name of the USB Ethernet Adapter.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_1.png){class="glboxshadow"}
 
-        19. Enter the **IPv4 Address** to `192.168.1.2`, **Subnet Mask** to `255.255.255.0`, **Router** to `192.168.1.1`, then click the Apply button in the lower right corner.
+        4. Enter the **IPv4 Address** to `192.168.1.2`, **Subnet Mask** to `255.255.255.0`, **Router** to `192.168.1.1`, then click the Apply button in the lower right corner.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 

@@ -49,7 +49,7 @@ Hay dos formas de bloquear dispositivos cliente, según disponga o no de sus dir
 
 ### Método 1: Bloquear dispositivos sin conocer sus direcciones MAC {#mobile-1}
 
-1. En la pantalla principal de la aplicación, toque el dispositivo que desea bloquear en **Connected Clients** y **Office Clients**.
+1. En la pantalla principal de la aplicación, toque el dispositivo que desea bloquear en **Connected Clients** y **Offline Clients**.
 ![tap a device](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-a-device.jpeg){class="glboxshadow"}
 2. En **Settings**, active el interruptor **Block**.
 ![toggle block](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/settings-toggle-block-to-on.jpeg){class="glboxshadow"}

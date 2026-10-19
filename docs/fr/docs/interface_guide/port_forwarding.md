@@ -38,9 +38,9 @@ Dans la fenêtre contextuelle, ajoutez une nouvelle règle de redirection de por
 
 - **Internal Zone:** Les options disponibles pour la zone interne sont `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server` et `WAN`.
 
-- **Internal IP:** Adresse IP attribuée par le routeur à l’appareil qui doit être accessible à distance. Si vous définissez un seul port dans **External Port**, vous devez définir ici ce même port. Si vous définissez une plage de ports dans **External Port**, vous devez définir ici la plage correspondante.
+- **Internal IP:** Adresse IP attribuée par le routeur à l’appareil qui doit être accessible à distance.
 
-- **Internal Port:** Numéro du port interne de l’appareil. Vous pouvez saisir un numéro de port précis. Laissez ce champ vide s’il est identique au port externe.
+- **Internal Port:** Numéro du port interne de l’appareil. Vous pouvez saisir un numéro de port précis. Si vous définissez un seul port dans **External Port**, vous devez définir ici ce même port. Si vous définissez une plage de ports dans **External Port**, vous devez définir ici la plage correspondante. Laissez ce champ vide s’il est identique au port externe.
 
 - **Description:** Définissez un nom personnalisé ou ajoutez une description pour cette règle (facultatif).
 

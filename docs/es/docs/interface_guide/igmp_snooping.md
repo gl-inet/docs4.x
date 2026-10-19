@@ -4,7 +4,7 @@ En el lado izquierdo del panel de administración web, vaya a **NETWORK** -> **I
 
 Puede habilitar IGMP snooping para utilizar la función de multidifusión del router.
 
-IGMP Snooping escucha los paquetes del protocolo IGMP, extrae la información correspondiente, establece y mantiene el reenvío de multidifusión de capa 2 y luego reenvía los datos del grupo de multidifusión al host que se une a dicho grupo, mientras que los demás hosts no pueden recibir esos datos.
+IGMP Snooping escucha los paquetes del protocolo IGMP, extrae la información correspondiente, establece y mantiene la tabla de reenvío de multidifusión de capa 2 y luego reenvía los datos del grupo de multidifusión al host que se une a dicho grupo, mientras que los demás hosts no pueden recibir esos datos.
 
 **Nota**: IGMPv3 es compatible con v1 y v2. Use v3 de forma predeterminada y cámbielo si experimenta algún problema.
 

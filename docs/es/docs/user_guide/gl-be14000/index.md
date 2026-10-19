@@ -289,7 +289,7 @@ Una VPN, red privada virtual, crea tráfico seguro y cifrado entre su dispositiv
 
 === "Dynamic DNS"
 
-    Dynamic DNS, DDNS, detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Resulta especialmente útil para usuarios que necesitan una dirección IP estática para acceder a una red remota.
+    Dynamic DNS, DDNS, detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Asigna un nombre de dominio a la dirección IP pública dinámica de su router, de modo que pueda acceder a su red de forma remota sin necesidad de una dirección IP estática.
 
     Para configurar Dynamic DNS, consulte [Dynamic DNS](../../interface_guide/ddns.md).
 

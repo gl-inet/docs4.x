@@ -1,8 +1,8 @@
 # VPN Dashboard
 
-Der Inhalt dieser Seite basiert auf Firmwareversion v4.9.x. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
+Der Inhalt dieser Seite basiert auf Firmwareversion v4.9.x und höher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
-<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.9" markdown="1">
+<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.9 und höher" markdown="1">
 
 - [Firmware v4.7 und früher](vpn_dashboard_v4.7.md)
 - [Firmware v4.8](vpn_dashboard_v4.8.md)

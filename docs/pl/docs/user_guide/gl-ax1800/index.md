@@ -55,7 +55,7 @@ Skonfiguruj Flint, korzystając z jednej z obsługiwanych metod połączenia z I
 
 === "Ethernet"
 
-    ![Repeater Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
+    ![Ethernet Connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ax1800/internet/ax1800_ethernet.png){class="glboxshadow"}
 
     Podłącz kabel Ethernet między portem WAN routera a urządzeniem nadrzędnym (np. modemem).
     
@@ -159,7 +159,7 @@ Sieć VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie 
 
 === "Dynamic DNS"
 
-    Dynamiczny DNS (DDNS) automatycznie wykrywa i aktualizuje w czasie rzeczywistym adres IP powiązany z domeną. Jest przydatny dla użytkowników, którzy potrzebują statycznego adresu IP do uzyskiwania dostępu do sieci zdalnej.
+    Dynamiczny DNS (DDNS) automatycznie wykrywa i aktualizuje w czasie rzeczywistym adres IP powiązany z domeną. Mapuje nazwę domeny na dynamiczny publiczny adres IP routera, dzięki czemu możesz zdalnie uzyskiwać dostęp do swojej sieci bez statycznego adresu IP.
     
     Aby skonfigurować Dynamic DNS, zapoznaj się z [Dynamic DNS](../../interface_guide/ddns.md). 
 
@@ -221,7 +221,7 @@ Sieć VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie 
 
     Umożliwia ustawienie podsieci w prywatnych zakresach adresów IPv4 192.168.0.0/16, 172.16.0.0/12 lub 10.0.0.0/8, określenie adresów IP bramy i maski sieci oraz konfigurację ustawień zabezpieczeń, takich jak izolacja AP, dla sieci gościnnej.
 
-    Aby skonfigurować sieć gościnną, zapoznaj się z [Lan Tutorial](../../interface_guide/guest_network.md). 
+    Aby skonfigurować sieć gościnną, zapoznaj się z [Guest Network](../../interface_guide/guest_network.md). 
 
 === "DNS"
 
@@ -290,7 +290,7 @@ Sieć VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie 
 
     Strona Upgrade służy do aktualizacji firmware routera do najnowszej wersji, co zapewnia lepszą wydajność, większe bezpieczeństwo i nowe funkcje. Strona oferuje dwie opcje aktualizacji:
 
-    * Aktualizacja online oprogramowania: automatycznie sprawdza i instaluje najnowszą wersję firmware bezpośrednio z serwera producenta, upraszczając proces aktualizacji.
+    * Aktualizacja online oprogramowania: automatyczne sprawdzanie dostępności najnowszej wersji firmware na serwerze producenta. Jeśli jest dostępna online, możesz ją zainstalować.
     * Lokalna aktualizacja oprogramowania: umożliwia ręczne przesłanie pliku firmware z komputera w celu zaktualizowania routera, dając kontrolę nad wersją i momentem aktualizacji.
 
     Opcje te pozwalają utrzymywać router na bieżąco z najnowszymi usprawnieniami i poprawkami.

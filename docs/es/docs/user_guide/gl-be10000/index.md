@@ -18,6 +18,8 @@ El paquete incluye:
 - 1 x Adaptador de corriente
 - 4 x Convertidores (enchufes US, EU, UK y AU)
 
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/unboxing.png){class="glboxshadow"}
+
 Vea a continuación el vídeo de unboxing de Slate 7 Pro.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zNxb5gl2tfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -29,8 +31,8 @@ Vea a continuación el vídeo de unboxing de Slate 7 Pro.
 | ![booting](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/power_on.png){width="500"} | Inicio |
 | ![set up admin password](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_admin.png){width="400"} | Establecer contraseña de administrador |
 | ![set up wifi](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/set_wifi.png){width="400"} | Configurar Wi-Fi |
-| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Pantalla de inicio<br></br>**Izquierda**: hora del sistema, velocidad de red y accesos directos a Wi-Fi, Clients, VPN y otras funciones.<br>**Derecha**: cuatro modos de conexión: Ethernet, Repeater, Tethering y Cellular |
-| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Estado de red<br></br>**Azul**: activo / conectado a Internet<br>**Amarillo**: conectando / fallo de red<br>**Blanco**: conexión inactiva |
+| ![home](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/home.png){width="400"} | Pantalla de inicio<br>**Izquierda**: hora del sistema, velocidad de red y accesos directos a Wi-Fi, Clients, VPN y otras funciones.<br>**Derecha**: cuatro modos de conexión: Ethernet, Repeater, Tethering y Cellular |
+| ![internet](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-be10000/touchscreen/internet.png){width="400"} | Estado de red<br>**Azul**: activo / conectado a Internet<br>**Amarillo**: conectando / fallo de red<br>**Blanco**: conexión inactiva |
 
 ## Cómo configurar Slate 7 Pro
 
@@ -287,7 +289,7 @@ Una VPN, red privada virtual, crea tráfico seguro y cifrado entre su dispositiv
 
 === "Dynamic DNS"
 
-    Dynamic DNS, DDNS, detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Resulta especialmente útil para usuarios que necesitan una dirección IP estática para acceder a una red remota.
+    Dynamic DNS, DDNS, detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Asigna un nombre de dominio a la dirección IP pública dinámica de su router, de modo que pueda acceder a su red de forma remota sin necesidad de una dirección IP estática.
 
     Para configurar Dynamic DNS, consulte [Dynamic DNS](../../interface_guide/ddns.md).
 

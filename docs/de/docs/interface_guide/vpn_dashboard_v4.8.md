@@ -5,7 +5,7 @@ Der Inhalt dieser Seite basiert auf Firmwareversion v4.8.x. Wenn auf Ihrem Gerä
 <div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.8" markdown="1">
 
 - [Firmware v4.7 und früher](vpn_dashboard_v4.7.md)
-- [Firmware v4.9](vpn_dashboard.md)
+- [Firmware v4.9 und höher](vpn_dashboard.md)
 
 </div>
 
@@ -212,7 +212,7 @@ Im folgenden Beispiel lautet die Primary-Tunnel-Regel: Alle Clients verwenden da
 
 ![connected policy mode](https://static.gl-inet.com/docs/router/de/4/interface_guide/vpn_dashboard/4.8/connected-policy-mode.jpg){class="glboxshadow"}
 
-**Hinweis**: Prüfen Sie aus Sicherheitsgründen vor dem Aktivieren der Tunnel bitte die Einstellungen unter [All Other Traffic](#all-other-traffic) und [Tunnel Options](#tunnel-options).
+**Hinweis**: Prüfen Sie aus Sicherheitsgründen vor dem Aktivieren der Tunnel bitte die Einstellungen unter [All Other Traffic](#all-other-traffic) und [Tunnel Options](#tunnel-options_1).
 
 #### Add Tunnel
 
@@ -232,7 +232,7 @@ Bei Bedarf können Sie weitere Tunnel hinzufügen. Es können bis zu 5 Tunnel er
 
 Passen Sie die Tunnel-Regeln an, indem Sie Datenverkehrsquelle, Ziele und Routing-Methode festlegen. Lesen Sie dazu den Abschnitt [Primary Tunnel](#primary-tunnel).
 
-**Hinweis**: Prüfen Sie aus Sicherheitsgründen vor dem Aktivieren der Tunnel bitte die Einstellungen unter [All Other Traffic](#all-other-traffic) und [Tunnel Options](#tunnel-options).
+**Hinweis**: Prüfen Sie aus Sicherheitsgründen vor dem Aktivieren der Tunnel bitte die Einstellungen unter [All Other Traffic](#all-other-traffic) und [Tunnel Options](#tunnel-options_1).
 
 #### All Other Traffic
 

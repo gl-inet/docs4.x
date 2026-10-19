@@ -43,7 +43,7 @@ Poniższe instrukcje opisują wgrywanie firmware przez panel administracyjny rou
 
 3. Z lewego paska bocznego kliknij **SYSTEM** > **Upgrade**. 
 4. Kliknij **Local Upgrade** i wybierz wcześniej pobrany plik. 
-5. Aby zachować bieżące ustawienia (np. hasło administratora routera), włącz opcję **Keep Settings**. 
+5. Aby zachować bieżące ustawienia (np. hasło administratora routera) podczas aktualizacji, włącz opcję **Keep Settings**. Nie włączaj tej opcji podczas obniżania wersji firmware.
 6. Kliknij **Install**.
 
 **Uwaga:** Podczas procesu aktualizacji nie wyłączaj routera. Po zakończeniu aktualizacji zobaczysz ekran logowania do routera. 

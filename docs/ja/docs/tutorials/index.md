@@ -35,7 +35,7 @@ hide:
 
 * [SMS](sms.md)
 * [SMS Forwarding](sms_forwarding.md)
-* [qlogを使ってモジュールログを取得する方法](get_module_logs.md)
+* [qlogでモデムログを取得する方法](get_module_logs.md)
 * [Quectelモジュールのファームウェアをアップグレードする方法](upgrade_quectel_module_software.md)
 * [セルラールーターでキャリアアグリゲーションの状態を確認する方法](how_to_check_carrier_aggregation.md)
 * [Spitz AX (GL-X3000) をRVでセットアップして使用する方法](how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md)

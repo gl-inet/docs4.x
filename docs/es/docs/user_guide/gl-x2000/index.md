@@ -12,14 +12,13 @@ Spitz Plus (GL-X2000) es una puerta de enlace celular 4G LTE Wi-Fi 6 con doble S
 - 1 x Manual del usuario
 - 4 x Antenas externas
 - 1 x Tarjeta de agradecimiento
-- 1 x Cable Ethernet
+- 1 x Cable Ethernet RJ45
 - 1 x Kit de montaje en pared
 - 1 x Almohadilla adhesiva
-- 4 x Tornillos
 - 1 x Adaptador de corriente
 - 1 x Convertidor (según el país de envío)
 
-![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_unboxing.jpg){class="glboxshadow"}
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-x2000/first_time_setup/x2000_package.png){class="glboxshadow"}
 
 ## Indicadores LED
 
@@ -80,7 +79,7 @@ Configure su Spitz Plus usando uno de los métodos de conexión a Internet admit
 
     Si no es así, apague el router, vuelva a insertar la tarjeta SIM y enciéndalo de nuevo.
 
-    Consulte [Conectarse a Internet mediante cellular](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models) para ver instrucciones detalladas.
+    Consulte [Conectarse a Internet mediante cellular](../../interface_guide/internet_cellular.md#setup-for-dual-sim-models) para ver instrucciones detalladas.
 
     **Nota**: La función eSIM de Spitz Plus está disponible a partir del firmware v4.7. Aprenda a usar la tarjeta física eSIM en un router GL.iNet [aquí](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
@@ -180,7 +179,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Resulta útil para usuarios que necesitan una dirección IP estática para acceder a una red remota.
+    Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Asigna un nombre de dominio a la dirección IP pública dinámica de su router, de modo que pueda acceder a su red de forma remota sin necesidad de una dirección IP estática.
 
     Para configurar Dynamic DNS, consulte [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -313,11 +312,11 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "Upgrade"
 
-    La página Upgrade se utiliza para actualizar el firmware del router a la versión más reciente, lo que garantiza mejor rendimiento, mayor seguridad y nuevas funciones. Esta página ofrece dos opciones de actualización:
+    La página Upgrade se utiliza para actualizar el firmware del router a la versión más reciente, lo que garantiza mejor rendimiento, mayor seguridad y nuevas funciones. Esta página ofrece cuatro opciones de actualización:
 
-    * Firmware Online Upgrade: compruebe e instale automáticamente la versión más reciente del firmware directamente desde el servidor del fabricante, lo que simplifica el proceso de actualización.
+    * Firmware Online Upgrade: comprueba automáticamente en el servidor del fabricante si existe una versión más reciente del firmware. Puede instalarla si está disponible en línea.
     * Firmware Local Upgrade: cargue manualmente un archivo de firmware desde su ordenador para actualizar el router, lo que le da control sobre la versión y el momento de la actualización.
-    * Module Online Upgrade: compruebe e instale automáticamente la versión más reciente del módulo 4G/5G directamente desde el servidor del fabricante, lo que simplifica el proceso de actualización.
+    * Module Online Upgrade: comprueba automáticamente en el servidor del fabricante si existe una versión más reciente del módulo 4G/5G. Puede instalarla si está disponible en línea.
     * Module Local Upgrade: cargue manualmente un archivo del módulo desde su ordenador para actualizar el módulo 4G/5G.
 
     Estas opciones le permiten mantener el router actualizado con las mejoras y correcciones más recientes.

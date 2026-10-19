@@ -56,11 +56,11 @@ Zaloguj się do panelu administracyjnego i przejdź do **VPN** -> **OpenVPN Serv
 
     * **Authentication Mode:** Określa metodę uwierzytelniania używaną podczas łączenia klienta z serwerem. Dostępne są trzy opcje.
 
-        - **Certificate Only**: Jeśli wybierzesz tę opcję, router automatycznie wygeneruje klucze certyfikatów serwera i klienta oraz osadzi je w pliku konfiguracyjnym klienta. Po przesłaniu konfiguracji do klienta nie są wymagane dodatkowe dane uwierzytelniające.
+        - **Certificate Only**: Jeśli wybierzesz tę opcję, router automatycznie wygeneruje certyfikaty serwera i klienta oraz osadzi certyfikat i klucz klienta w pliku konfiguracyjnym klienta. Po przesłaniu konfiguracji do klienta nie są wymagane dodatkowe dane uwierzytelniające.
 
         - **Username/Password Only**: Jeśli wybierzesz tę opcję, router wygeneruje konfigurację klienta bez kluczy certyfikatów. Przed wyeksportowaniem konfiguracji klienta musisz najpierw dodać nazwę użytkownika i hasło na karcie Users. Podczas importowania konfiguracji do klienta trzeba będzie podać te dane uwierzytelniające.
 
-        - **Username/Password and Certificate**: Jeśli wybierzesz tę opcję, przed wyeksportowaniem konfiguracji klienta musisz najpierw dodać nazwę użytkownika i hasło na karcie Users. Następnie router automatycznie wygeneruje klucze certyfikatów serwera i klienta oraz osadzi je w pliku konfiguracyjnym. Podczas importowania konfiguracji do klienta najpierw zostanie zweryfikowany klucz certyfikatu, a następnie nazwa użytkownika i hasło, co zapewnia dwuskładnikowe zabezpieczenie.
+        - **Username/Password and Certificate**: Jeśli wybierzesz tę opcję, przed wyeksportowaniem konfiguracji klienta musisz najpierw dodać nazwę użytkownika i hasło na karcie Users. Następnie router automatycznie wygeneruje certyfikaty serwera i klienta oraz osadzi certyfikat i klucz klienta w pliku konfiguracyjnym. Podczas importowania konfiguracji do klienta najpierw zostanie zweryfikowany klucz certyfikatu, a następnie nazwa użytkownika i hasło, co zapewnia dwuskładnikowe zabezpieczenie.
     
         Poniżej znajduje się przykład tworzenia użytkownika.
 

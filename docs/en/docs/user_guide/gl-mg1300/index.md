@@ -2,7 +2,7 @@
 
 ## Product overview
 
-Mango 2 (GL-MG1300) is GL.iNet's first dual-band Wi‑Fi 5 mini travel router, featuring an ultra‑thin and portable design. It delivers theoretical dual-band speeds of 400 Mbps (2.4 GHz) and 866 Mbps (5 GHz), with a 2×2 MIMO configuration. Additionally, it comes pre-installed with OpenVPN and WireGuard, supports 30+ VPN services and automatically encrypts all network traffic, and enables remote management via GoodCloud — perfectly balancing performance, practicality, and security.
+Mango 2 (GL-MG1300) is GL.iNet's first dual-band Wi‑Fi 5 mini travel router, featuring an ultra‑thin and portable design. It delivers theoretical dual-band speeds of 400 Mbps (2.4 GHz) and 866 Mbps (5 GHz), with a 2×2 MIMO configuration. Additionally, it comes pre-installed with OpenVPN and WireGuard, supports 30+ VPN services to encrypt network traffic when the VPN client is enabled, and enables remote management via GoodCloud — perfectly balancing performance, practicality, and security.
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
@@ -241,7 +241,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is most useful for users who need a static IP address for accessing a remote network. 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It maps a domain name to your router's dynamic public IP address, so you can access your network remotely without a static IP address. 
     
     To set up Dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
@@ -288,7 +288,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
 
-    * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
+    * Firmware Online Upgrade: Automatically check for the latest firmware version from the manufacturer's server. You can install the latest one if available online.
     * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.

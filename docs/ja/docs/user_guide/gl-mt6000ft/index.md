@@ -6,7 +6,27 @@ Fortify (GL-MT6000) は、GL.iNet と ExpressVPN が共同でリリースした�
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
+## パッケージ内容
+
+- 1 x Fortify (GL-MT6000)
+- 1 x ユーザーマニュアル
+- 1 x ExpressVPNアクティベーションガイド
+- 1 x Ethernetケーブル
+- 1 x 電源アダプター
+- 1 x サンキューカード
+- 1 x 変換プラグ（配送先の国によって異なります）
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/unboxing.png){class="glboxshadow"}
+
+以下のFortifyの開梱動画をご覧ください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IQEfj7Hff7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Fortifyのセットアップ方法
+
+このセットアップ動画を視聴するか、以下の手順に従ってください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FymI3LCRMTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. 電源を入れる
 
@@ -280,7 +300,7 @@ WireGuard サーバーをセットアップするには、[WireGuard サーバ�
 
 === "Dynamic DNS"
 
-    ダイナミック DNS (DDNS) は、ドメインに関連付けられた IP アドレスをリアルタイムで自動的に検出し、更新します。これは、リモート ネットワークにアクセスするために静的 IP アドレスが必要なユーザーに役立ちます。
+    ダイナミック DNS (DDNS) は、ドメインに関連付けられた IP アドレスをリアルタイムで自動的に検出し、更新します。ドメイン名をルーターの動的なパブリックIPアドレスに対応付けるため、固定IPアドレスがなくてもネットワークにリモートアクセスできます。
 
     詳細については、[ダイナミックDNS](../../interface_guide/ddns.md)を参照してください。
 
@@ -351,7 +371,7 @@ WireGuard サーバーをセットアップするには、[WireGuard サーバ�
 
     [アップグレード] ページは、ルーターのファームウェアを最新バージョンに更新し、パフォーマンス、セキュリティ、および新機能の強化を保証するために使用されます。このページには 2 つのオプションがあります。
 
-    * ファームウェアのオンライン アップグレード: 最新のファームウェア バージョンを自動的に確認してメーカーのサーバーから直接インストールするため、更新プロセスが簡素化されます。
+    * ファームウェアのオンライン アップグレード: メーカーのサーバーで最新のファームウェアバージョンを自動的に確認します。オンラインで利用できる場合はインストールできます。
     * ファームウェアのローカル アップグレード: コンピューターからファームウェア ファイルを手動でアップロードしてルーターを更新し、アップグレードのバージョンとタイミングを制御します。
 
     詳細は[アップグレード](../../interface_guide/upgrade.md)をご参照ください。

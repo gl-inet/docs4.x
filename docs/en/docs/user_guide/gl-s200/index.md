@@ -45,7 +45,7 @@ Check out GL-S200's [unboxing video](../../video_library/unboxing_first_set_up.m
 
 ## First-time setup
 
-All GL.iNet routers have a similar setup process. [Click here to learn about the first time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a similar setup process. [Click here to learn about the first time setup](../../faq/first_time_setup.md).
 
 ---
 
@@ -119,7 +119,7 @@ Please refer to [Bluetooth](https://docs.gl-inet.com/iot/en/thread_board_router/
 
 ## VPN
 
-GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VPN services. It automatically encrypts all network traffic within the connected network, including guest devices and client devices that are not capable of running VPN encryption. Our routers can also act as VPN servers, redirecting traffic from client devices in remote locations to the VPN server via a VPN tunnel before accessing the public internet.
+GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VPN services. When the VPN client is enabled, the router can encrypt traffic for devices on the network, including devices that cannot run VPN apps, according to your VPN policy settings. Our routers can also act as VPN servers, redirecting traffic from client devices in remote locations to the VPN server via a VPN tunnel before accessing the public internet.
 
 ### VPN Dashboard
 

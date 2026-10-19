@@ -97,7 +97,7 @@ Dostępne są dwa sposoby konfiguracji współczynnika obciążenia:
 
 ## Scenariusze użycia
 
-* Kasa w sklepie jest podłączona do Internetu kablem sieciowym, a połączenie przez Repeater z siecią Wi-Fi sąsiednich sklepów (lub przez kartę SIM z siecią komórkową) służy jako zapasowy dostęp do Internetu – na wypadek niedostępności kabla podczas realizacji płatności mobilnych.
+* Kasa w sklepie jest podłączona do Internetu kablem sieciowym, a połączenie przez Repeater z siecią Wi-Fi sąsiednich sklepów (lub przez kartę SIM z siecią komórkową) służy jako zapasowy dostęp do Internetu – aby zapobiec przerwaniu płatności mobilnych w przypadku niedostępności kabla.
 
 * Router łączy się przez Repeater z publiczną siecią Wi-Fi, ale prędkość jest niewystarczająca – w takim przypadku można jednocześnie użyć Mobile Tethering w trybie Load Balance, aby zwiększyć ogólną przepustowość.
 

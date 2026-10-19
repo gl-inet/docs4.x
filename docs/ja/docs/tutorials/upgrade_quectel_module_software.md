@@ -42,7 +42,7 @@
 
 4. 以下のように、QFirehose コマンドを使ってモジュールファームウェアをアップグレードします。
 
-    **注意**: "/RM520NGLAAR03A03M4G_01.201.01201" は、実際のモジュールファームウェアフォルダーパスに置き換えてください。
+    **注意**: "/RM520NGLAAR03A03M4G_01.201.01.201" は、実際のモジュールファームウェアフォルダーパスに置き換えてください。
 
     ```
     QFirehose-mtk7981a-sha256-c0b944 -f /RM520NGLAAR03A03M4G_01.201.01.201
@@ -72,7 +72,7 @@
 
 2. USBメモリをルーターに挿します。その後、[このリンク](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/)を参照してルーターへSSHログインします。
 
-3. `df - h` コマンドを入力してUSBドライブのマウントパスを確認し、そのパスを控えます。
+3. `df -h` コマンドを入力してUSBドライブのマウントパスを確認し、そのパスを控えます。
 
     ![check mounting path](https://static.gl-inet.com/docs/router/en/4/tutorials/upgrade_quectel_module_software/other_model/check_mounting_path.png){class="glboxshadow"}
 

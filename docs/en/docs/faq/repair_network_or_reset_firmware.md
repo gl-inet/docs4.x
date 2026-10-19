@@ -20,7 +20,7 @@ This operation will reboot the network interface and restore the Internet interf
 
 ## Reset to factory
 
-**For models without a touchscreen**, firmware reset can be performed in two ways: via the touchscreen or the reset button. Watch this video or follow the steps below.
+**For models without a touchscreen**, firmware reset can be performed in two ways: via the reset button or the web admin panel. Watch this video or follow the steps below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jguDqBWP-Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

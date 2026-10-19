@@ -46,47 +46,47 @@ Siga los procedimientos que se indican a continuación para acceder a la página
 
     ??? "Windows 11"
 
-        7. Abra Settings.
+        1. Abra Settings.
 
-        8. Haga clic en **Network & Internet**.
+        2. Haga clic en **Network & Internet**.
 
-        9. Haga clic en la pestaña **Ethernet**.
+        3. Haga clic en la pestaña **Ethernet**.
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windwos11_ethernet.png){class="glboxshadow"}
 
-        10. En la sección "IP assignment", haga clic en el botón **Edit**.
+        4. En la sección "IP assignment", haga clic en el botón **Edit**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        11. Seleccione la opción **Manual**.
+        5. Seleccione la opción **Manual**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        12. Active el interruptor **IPv4 toggle**.
+        6. Active el interruptor **IPv4 toggle**.
 
-        13. Configure la **dirección IP** estática como **192.168.1.2**.
+        7. Configure la **dirección IP** estática como **192.168.1.2**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        14. Especifique la **máscara de subred** como **255.255.255.0**.
+        8. Especifique la **máscara de subred** como **255.255.255.0**.
 
-        15. Haga clic en el botón **Save**.
+        9. Haga clic en el botón **Save**.
 
     ??? "macOS"
 
-        16. Haga clic en el icono **Apple** en la esquina superior izquierda de la pantalla y seleccione **System Preferences**.
+        1. Haga clic en el icono **Apple** en la esquina superior izquierda de la pantalla y seleccione **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_system_preferences.png){class="glboxshadow"}
 
-        17. Haga clic en **Network**.
+        2. Haga clic en **Network**.
 
             ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_system_preferences_network.png){class="glboxshadow"}
 
-        18. Haga clic en **Ethernet** a la izquierda y luego en la lista desplegable junto a **Configure IPv4**, donde debe seleccionar **Manually**. Si usa un adaptador USB a Ethernet, puede que no aparezca como Ethernet y se muestre con el nombre del adaptador.
+        3. Haga clic en **Ethernet** a la izquierda y luego en la lista desplegable junto a **Configure IPv4**, donde debe seleccionar **Manually**. Si usa un adaptador USB a Ethernet, puede que no aparezca como Ethernet y se muestre con el nombre del adaptador.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_ip_manually_1.png){class="glboxshadow"}
 
-        19. Introduzca **IPv4 Address** como `192.168.1.2`, **Subnet Mask** como `255.255.255.0`, **Router** como `192.168.1.1` y luego haga clic en el botón Apply en la esquina inferior derecha.
+        4. Introduzca **IPv4 Address** como `192.168.1.2`, **Subnet Mask** como `255.255.255.0`, **Router** como `192.168.1.1` y luego haga clic en el botón Apply en la esquina inferior derecha.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_ip_manually_2.png){class="glboxshadow"}
 

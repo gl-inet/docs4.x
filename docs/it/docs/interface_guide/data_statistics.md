@@ -19,6 +19,7 @@ Data Statistics fornisce un dashboard intuitivo sul traffico che identifica l'ut
 ## Modelli supportati {#supported-models}
 
 ??? "Modelli supportati"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
@@ -27,7 +28,7 @@ Data Statistics fornisce un dashboard intuitivo sul traffico che identifica l'ut
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-MT3000 (Beryl AX)
 
 ??? "Modelli non supportati"

@@ -349,6 +349,9 @@ extra:
     - name: Polski
       link: /router/pl/4/
       lang: pl
+    - name: Українська
+      link: /router/uk/4/
+      lang: uk
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
@@ -502,7 +505,7 @@ nav:
     - Cellulare:
       - SMS: tutorials/sms.md
       - Inoltro SMS: tutorials/sms_forwarding.md
-      - Ottenere i log del modulo: tutorials/get_module_logs.md
+      - Acquisisci i log del modem: tutorials/get_module_logs.md
       - Aggiornare il modulo Quectel: tutorials/upgrade_quectel_module_software.md
       - Verificare lo stato della carrier aggregation: tutorials/how_to_check_carrier_aggregation.md
       - Configurare Spitz AX per camper: tutorials/how_to_set_up_and_use_spitz_ax_gl-x3000_in_your_recreational_vehicle.md

@@ -13,11 +13,12 @@ Le service [Bark](https://www.bark.us/){target="_blank"} peut aider à protéger
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
 
 ??? "Modèles non pris en charge"
     - GL-BE10000 (Slate 7 Pro)

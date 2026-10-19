@@ -54,7 +54,7 @@ There are two ways to block client devices, depending on whether you have their 
 
 ### Method 1: Block devices without their MAC addresses {#mobile-1}
 
-1. On the main app screen, tap the device you want to block under **Connected Clients** and **Office Clients**. 
+1. On the main app screen, tap the device you want to block under **Connected Clients** and **Offline Clients**. 
 ![tap a device](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-a-device.jpeg){class="glboxshadow"}
 
 2. Under **Settings**, toggle the **Block** switch to on. 

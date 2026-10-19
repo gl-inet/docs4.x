@@ -60,6 +60,12 @@ Se hai un abbonamento **AzireVPN** o **Mullvad**, puoi effettuare direttamente i
 
     ![azirevpn edit credential](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn_edit_credential.png){class="glboxshadow"}
 
+5. Elimina
+
+    Puoi fare clic su **Delete All** per eliminare tutti i file di configurazione con un solo clic.
+
+    ![azirevpn delete all configuration files](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireguard_client_v4.6/azirevpn_delete_all_configuration_file.png){class="glboxshadow"}
+
 ## Configurare Mullvad
 
 [Mullvad](https://mullvad.net/){target="_blank"} e' un servizio VPN che aiuta a mantenere private la tua attivita' online, la tua identita' e la tua posizione.

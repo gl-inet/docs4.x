@@ -38,6 +38,12 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
         **Remarque :** des routeurs identiques issus de lots de production différents peuvent avoir des couleurs de LED ou des séquences de clignotement différentes. Cela n’affecte pas le processus de récupération U-Boot. Faites surtout attention au changement d’état du clignotement.
 
+        - Pour le **GL-MT6000 (Fortify)** : la LED bleue clignote 6 fois, puis devient blanche fixe.
+
+        - Pour le **GL-MG1300 (Mango 2)** : la LED bleue clignote 7 fois, puis devient blanche fixe.
+
+        - Pour les **GL-BE14000 (Flint 4), GL-BE10000 (Slate 7 Pro) et GL-BE3600 (Slate 7)** : après avoir maintenu le bouton Reset enfoncé pendant environ 5 secondes, un compte à rebours de 5 secondes apparaît sur l’écran tactile. Continuez à appuyer sur le bouton Reset jusqu’à ce que l’invite suivante apparaisse à l’écran, par exemple définir manuellement l’adresse IP de votre ordinateur sur 192.168.1.2 et utiliser un navigateur pour accéder à http://192.168.1.1. Passez ensuite à l’étape 4.
+
         - Pour le **GL-MT3600BE (Beryl 7)** : la LED bleue clignote 7 fois, puis devient blanche fixe.
 
         - Pour le **GL-MT5000 (Brume 3)** : la LED d’alimentation clignote en bleu 7 fois, puis devient blanche fixe.
@@ -45,8 +51,6 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
         - Pour le **GL-BE6500 (Flint 3e)** : la LED bleue clignote 6 fois, puis devient blanche fixe.
 
         - Pour le **GL-BE9300 (Flint 3)** : la LED bleue clignote 6 fois, puis devient blanche fixe.
-
-        - Pour le **GL-BE3600 (Slate 7)** : après avoir maintenu le bouton Reset enfoncé pendant environ 5 secondes, un compte à rebours de 5 secondes apparaît sur l’écran tactile. Continuez à appuyer sur le bouton Reset jusqu’à ce que l’invite suivante apparaisse à l’écran, par exemple définir manuellement l’adresse IP de votre ordinateur sur 192.168.1.2 et utiliser un navigateur pour accéder à http://192.168.1.1. Passez ensuite à l’étape 4.
 
         - Pour le **GL-X2000 (Spitz Plus)** : la LED Internet clignote 5 fois, puis la LED Wi-Fi reste allumée.
 
@@ -116,7 +120,7 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
         3. Cliquez sur **Internet Protocol Version 4 (TCP/IPv4)** -> **Properties**.
 
-        4. Définissez manuellement l’**IP adress** sur `192.168.1.2`.
+        4. Définissez manuellement l’**IP address** sur `192.168.1.2`.
 
         5. Définissez le **Subnet mask** sur `255.255.255.0`.
 
@@ -126,47 +130,47 @@ Reportez-vous à ce tutoriel vidéo ou suivez les procédures ci-dessous pour ac
 
     ??? "Windows 11"
 
-        7. Ouvrez **Settings**.
+        1. Ouvrez **Settings**.
 
-        8. Cliquez sur **Network & Internet**.
+        2. Cliquez sur **Network & Internet**.
 
-        9. Cliquez sur l’onglet **Ethernet**.
+        3. Cliquez sur l’onglet **Ethernet**.
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
-        10. Dans la section "IP assignment", cliquez sur le bouton **Edit**.
+        4. Dans la section "IP assignment", cliquez sur le bouton **Edit**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        11. Sélectionnez l’option **Manual**.
+        5. Sélectionnez l’option **Manual**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        12. Activez l’interrupteur **IPv4**.
+        6. Activez l’interrupteur **IPv4**.
 
-        13. Définissez l’**IP address** statique sur **192.168.1.2**.
+        7. Définissez l’**IP address** statique sur **192.168.1.2**.
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        14. Indiquez le **Subnet mask** comme **255.255.255.0**.
+        8. Indiquez le **Subnet mask** comme **255.255.255.0**.
 
-        15. Cliquez sur le bouton **Save**.
+        9. Cliquez sur le bouton **Save**.
 
     ??? "macOS"
 
-        16. Cliquez sur l’icône **Apple** en haut à gauche de l’écran, puis sélectionnez **System Preferences**.
+        1. Cliquez sur l’icône **Apple** en haut à gauche de l’écran, puis sélectionnez **System Preferences**.
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}
 
-        17. Cliquez sur **Network**.
+        2. Cliquez sur **Network**.
 
             ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences_network.png){class="glboxshadow"}
 
-        18. Cliquez sur **Ethernet** à gauche, puis cliquez sur la liste déroulante à côté de **Configure IPv4** et sélectionnez **Manually**. Si vous utilisez un adaptateur USB-Ethernet, **Ethernet** peut ne pas apparaître et le nom de l’adaptateur peut s’afficher à la place.
+        3. Cliquez sur **Ethernet** à gauche, puis cliquez sur la liste déroulante à côté de **Configure IPv4** et sélectionnez **Manually**. Si vous utilisez un adaptateur USB-Ethernet, **Ethernet** peut ne pas apparaître et le nom de l’adaptateur peut s’afficher à la place.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_1.png){class="glboxshadow"}
 
-        19. Saisissez **IPv4 Address** = `192.168.1.2`, **Subnet Mask** = `255.255.255.0`, **Router** = `192.168.1.1`, puis cliquez sur le bouton Apply en bas à droite.
+        4. Saisissez **IPv4 Address** = `192.168.1.2`, **Subnet Mask** = `255.255.255.0`, **Router** = `192.168.1.1`, puis cliquez sur le bouton Apply en bas à droite.
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 

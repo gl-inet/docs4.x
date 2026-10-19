@@ -4,7 +4,7 @@ El contenido de esta página se basa en la versión de firmware v4.8.x y anterio
 
 <div class="gl-link-select" data-label="Versión de firmware" data-placeholder="Firmware v4.8 y anteriores" markdown="1">
 
-- [Firmware v4.9](wireless.md)
+- [Firmware v4.9 y posteriores](wireless.md)
 
 </div>
 
@@ -112,7 +112,7 @@ Haga clic en las pestañas siguientes para consultar la configuración de la Wi-
 
   ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_ssid_qr_code.png){class="glboxshadow"}
 
-- **Randomized BSSID**: esta función está habilitada de forma predeterminada. Su objetivo es impedir que los fabricantes de los clientes recopilen los BSSID Wi-Fi cercanos y las coordenadas GPS de los dispositivos cliente en sus servidores. Haga clic [aquí](#randomized-bssid) para obtener más información.
+- **Randomized BSSID**: Está habilitado de forma predeterminada e impide rastrear el router mediante un BSSID fijo. Consulte [Randomized BSSID](#randomized-bssid) para obtener más información.
 
 - **Bandwidth** y **Channel** no se pueden modificar cuando el router actúa como [repetidor](internet_repeater.md), ya que siguen la configuración de la red repetida.
 
@@ -126,31 +126,37 @@ Haga clic en las pestañas siguientes para consultar la configuración de la Wi-
 
 ## Randomized BSSID {#randomized-bssid}
 
-Randomized BSSID está disponible desde el firmware v4.6. Su objetivo es impedir que los fabricantes de los clientes recopilen los BSSID Wi-Fi cercanos y las coordenadas GPS de los dispositivos cliente en sus servidores.
+Randomized BSSID es una función de privacidad disponible desde el firmware v4.6 y habilitada de forma predeterminada. Evita que el router sea localizado y rastreado mediante un BSSID Wi-Fi fijo (la dirección MAC de la interfaz inalámbrica del router).
 
-**Cómo recopilan los fabricantes de clientes los datos de ubicación**
+**Por qué un BSSID fijo supone un riesgo para la privacidad**
 
-Los fabricantes de clientes suelen recopilar la ubicación geográfica de los puntos de acceso Wi-Fi aprovechando sus BSSID únicos para localizar dispositivos. Cuando los dispositivos cliente, como teléfonos móviles u ordenadores, escanean o se conectan a un router:
+Los sistemas operativos móviles (como Android e iOS) utilizan el posicionamiento Wi-Fi basado en datos colaborativos para ofrecer servicios de ubicación:
 
-- Si hay otros dispositivos dentro de la cobertura de la señal Wi-Fi del router, su ubicación y sus trayectorias de movimiento pueden quedar expuestas.
+1. Los dispositivos cliente (teléfonos y portátiles) suben periódicamente los BSSID que detectan, junto con su propia ubicación obtenida mediante GPS, al servidor del proveedor del sistema operativo o del dispositivo.
 
-- Si un dispositivo utiliza GPS para posicionarse, sube periódicamente a los servidores del fabricante los BSSID Wi-Fi cercanos y las coordenadas GPS correspondientes.
+2. Los proveedores agrupan estos datos en una base de datos global que asocia cada BSSID con una ubicación.
+
+3. Cualquier dispositivo con Wi-Fi habilitado, incluso sin GPS, puede consultar esa base de datos para estimar su ubicación a partir de los BSSID cercanos.
 
 ![randomized bssid](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/randomized-bssid-new.jpg){class="glboxshadow"}
 
-**Riesgos de seguridad del seguimiento colaborativo**
+Como resultado, un router con un BSSID fijo actúa como una baliza de ubicación: puede geolocalizarse de forma remota y sus movimientos (por ejemplo, cuando viaja con él) pueden rastrearse a lo largo del tiempo. Los atacantes también pueden consultar estas bases de datos para localizar routers o identificarlos mediante la información del fabricante (OUI) del BSSID.
 
-Incluso los dispositivos sin GPS, o con el GPS desactivado, pueden estimar su ubicación consultando la información visible del BSSID. Sin embargo, este sistema colaborativo de seguimiento de ubicación presenta vulnerabilidades de seguridad. Los atacantes pueden utilizarlo para acumular una base de datos global de ubicaciones de puntos de acceso Wi-Fi y rastrear continuamente las trayectorias de movimiento de los dispositivos, lo que supone una amenaza para la privacidad y la seguridad del usuario.
+**Cómo le protege Randomized BSSID**
 
-**Cómo protege su privacidad Randomized BSSID**
+Cuando esta función está habilitada, el router genera un BSSID aleatorio y lo renueva en cada arranque. Al cambiar continuamente, el BSSID ya no puede asociarse a una ubicación fija en las bases de datos de los proveedores, lo que rompe la asociación entre BSSID y ubicación utilizada para el rastreo.
 
-Para abordar estas vulnerabilidades, los routers GL.iNet implementan la función Randomized BSSID como medida de protección de la privacidad.
+| Estado | Comportamiento |
+| ----------------- | ---------------------- |
+| Habilitado (predeterminado) | Se genera un nuevo BSSID aleatorio en cada arranque |
+| Deshabilitado | El router utiliza su dirección MAC real de fábrica como BSSID |
 
-En el panel de administración web del router, vaya a **WIRELESS** -> **5GHz Wi-Fi** o **2.4GHz Wi-Fi**. La opción BSSID está habilitada de forma predeterminada.
+**Notas**:
 
-Con este ajuste, el dispositivo utiliza un BSSID generado aleatoriamente y lo renueva cada vez que se inicia. Si deshabilita el BSSID aleatorio, el router volverá a utilizar la dirección MAC real.
-
-**Nota**: En la Wi-Fi de invitados, el BSSID se mantiene coherente con el BSSID de la Wi-Fi principal dentro de la misma banda de frecuencia.
+1. El BSSID solo cambia cuando el router se reinicia; permanece igual durante una sesión en ejecución.
+2. En la red Wi-Fi de invitados, el BSSID coincide con el de la red Wi-Fi principal en la misma banda de frecuencia.
+3. Si las bandas de la red Wi-Fi MLO incluyen 6 GHz, el BSSID de la red Wi-Fi MLO se sincroniza con el BSSID de la red Wi-Fi de 6 GHz.
+4. Randomized BSSID bloquea el rastreo mediante el BSSID del router, pero no impide que los dispositivos cliente comuniquen su propia ubicación. No es una solución de privacidad completa: el SSID, el canal y las características de la señal siguen siendo observables.
 
 ---
 

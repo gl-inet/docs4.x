@@ -38,9 +38,9 @@ Port Forwarding を設定するには、Port Forwarding セクションで **Add
 
 - **Internal Zone:** 内部ゾーンの選択肢は `LAN`、`Guest`、`WireGuard Client`、`WireGuard Server`、`OpenVPN Client`、`OpenVPN Server`、`WAN` です。
 
-- **Internal IP:** リモートアクセスする対象デバイスにルーターが割り当てた IP アドレスです。**External Port** で単一ポートを設定した場合は、ここでもその単一ポートを設定してください。**External Port** でポート範囲を設定した場合は、ここでも対応するポート範囲を設定してください。
+- **Internal IP:** リモートアクセスする対象デバイスにルーターが割り当てた IP アドレスです。
 
-- **Internal Port:** デバイスの内部ポート番号です。特定のポート番号を入力できます。External Port と同じ場合は空欄のままにしてください。
+- **Internal Port:** デバイスの内部ポート番号です。特定のポート番号を入力できます。**External Port** で単一ポートを設定した場合は、ここでもその単一ポートを設定してください。**External Port** でポート範囲を設定した場合は、ここでも対応するポート範囲を設定してください。External Port と同じ場合は空欄のままにしてください。
 
 - **Description:** このルールのカスタム名または説明を設定します（任意）。
 

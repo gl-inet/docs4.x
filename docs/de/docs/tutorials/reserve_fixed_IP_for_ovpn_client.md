@@ -26,7 +26,7 @@ Dieses Tutorial zeigt Ihnen, wie Sie für Ihren OpenVPN-Client, der sich mit Ihr
 
     ![add ccd folder](https://static.gl-inet.com/docs/router/de/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
 
-5. Erstellen Sie eine Datei mit dem Namen `GLsupport`, tragen Sie `ifconfig-push 10.8.0.10 255.255.255.0` ein und speichern bzw. schließen Sie die Datei.
+5. Wechseln Sie zu `/etc/openvpn/ccd`, erstellen Sie eine Datei mit dem Namen `GLsupport`, tragen Sie `ifconfig-push 10.8.0.10 255.255.255.0` ein und speichern bzw. schließen Sie die Datei.
 
     Prüfen Sie den Inhalt mit `cat GLsupport`.
 
@@ -38,7 +38,7 @@ Dieses Tutorial zeigt Ihnen, wie Sie für Ihren OpenVPN-Client, der sich mit Ihr
 
     **Hinweis**: Wenn Sie IP-Adressen für mehrere OpenVPN-Clients fest zuweisen möchten, erstellen Sie bitte in Schritt 2 mehrere Benutzernamen und Passwörter. Wiederholen Sie anschließend Schritt 5 und legen Sie im CCD-Ordner Dateien in der Reihenfolge der Benutzer an, z. B. `user_1`, `user_2`, `user_3`, jeweils mit dem Befehl `ifconfig-push` und der dazugehörigen festen IP-Adresse sowie Subnetzmaske.
 
-    Zum Beispiel: `ifconfig-push 10.8.0.20 225.225.225.0`, `ifconfig-push 10.8.0.30 225.225.225.0`, `ifconfig-push 10.8.0.40 225.225.225.0`
+    Zum Beispiel: `ifconfig-push 10.8.0.20 255.255.255.0`, `ifconfig-push 10.8.0.30 255.255.255.0`, `ifconfig-push 10.8.0.40 255.255.255.0`
 
 6. Testen Sie abschließend mit Ihrem OVPN-Client und prüfen Sie, ob die virtuelle Client-IP (IPv4) die reservierte Adresse ist.
 

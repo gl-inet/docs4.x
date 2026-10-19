@@ -42,7 +42,7 @@ Das Upgrade des RM520N-Moduls wird hier als Beispiel verwendet.
 
 4. Aktualisieren Sie die Modul-Firmware mit dem Befehl `QFirehose`, wie unten gezeigt.
 
-    **Hinweis**: Ersetzen Sie bitte "/RM520NGLAAR03A03M4G_01.201.01201" durch den tatsächlichen Ordnerpfad der Modul-Firmware.
+    **Hinweis**: Ersetzen Sie bitte "/RM520NGLAAR03A03M4G_01.201.01.201" durch den tatsächlichen Ordnerpfad der Modul-Firmware.
 
     ```
     QFirehose-mtk7981a-sha256-c0b944 -f /RM520NGLAAR03A03M4G_01.201.01.201
@@ -72,7 +72,7 @@ Das Upgrade des EM060K-Moduls wird hier als Beispiel verwendet.
 
 2. Stecken Sie den USB-Stick in Ihren Router ein. Melden Sie sich dann gemäß [diesem Link](https://docs.gl-inet.com/router/en/4/tutorials/ssh_log_in_to_the_router/) per SSH an Ihrem Router an.
 
-3. Geben Sie den Befehl `df - h` ein, um den Einhängepfad des USB-Sticks zu prüfen, und notieren Sie sich den Pfad.
+3. Geben Sie den Befehl `df -h` ein, um den Einhängepfad des USB-Sticks zu prüfen, und notieren Sie sich den Pfad.
 
     ![Einhängepfad prüfen](https://static.gl-inet.com/docs/router/de/4/tutorials/upgrade_quectel_module_software/other_model/check_mounting_path.png){class="glboxshadow"}
 

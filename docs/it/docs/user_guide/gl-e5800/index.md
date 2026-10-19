@@ -22,21 +22,6 @@ Guarda qui sotto il video di unboxing di Mudi 7.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Sicurezza della batteria e gestione di una batteria gonfia {#battery-safety-and-swollen-battery-handling}
-
-Smetti di usare e caricare Mudi 7 se la batteria è gonfia, perde liquido, è insolitamente calda, è danneggiata o emette un odore insolito.
-
-- Non premere, piegare, forare o schiacciare la batteria e non esercitare pressione su di essa.
-- Non usare strumenti per fare leva contro una batteria gonfia o danneggiata.
-- Non tentare di rimuovere una batteria gonfia, bloccata, che perde liquido, calda o comunque non sicura da maneggiare.
-- Non gettare una batteria agli ioni di litio danneggiata nei rifiuti domestici o nella normale raccolta differenziata.
-- Non inviare né spedire una batteria gonfia o danneggiata tramite un normale servizio di consegna pacchi.
-- Contatta il [supporto GL.iNet](https://www.gl-inet.com/contacts/) per assistenza in garanzia e indicazioni sui passaggi successivi.
-
-Se la batteria danneggiata è già stata rimossa, non reinstallarla. Contatta un centro locale appropriato per il riciclo delle batterie o la raccolta dei rifiuti domestici pericolosi che accetti batterie agli ioni di litio danneggiate.
-
-Se la batteria emette fumo, si riscalda rapidamente, sibila, brucia o presenta un altro pericolo immediato, allontanati dal dispositivo e contatta i servizi di emergenza locali.
-
 ## Come configurare Mudi 7
 
 Guarda questo video di configurazione oppure segui i passaggi riportati di seguito.
@@ -166,7 +151,9 @@ Configura Mudi 7 usando uno dei metodi di connessione Internet supportati: Cellu
 
     1. Collega il dispositivo mobile, ad esempio uno smartphone o un dongle USB, alla porta USB-C di Mudi 7 tramite un cavo USB.
     2. Sul dispositivo mobile, vai nelle impostazioni e abilita **USB Tethering**. Se usi un iPhone, tocca **Trust This Device** quando richiesto.
-    3. Mudi 7 si colleghera quindi automaticamente al dispositivo. Se non si connette, ripeti i passaggi sopra oppure accedi al pannello di amministrazione web e controlla la connessione Tethering nella pagina INTERNET.
+    3. Quando sul touchscreen viene richiesto di selezionare la modalità USB, scegli **Host (USB OTG) mode**. Mudi 7 si collegherà automaticamente al dispositivo. Se non si connette, ripeti i passaggi precedenti oppure accedi al pannello di amministrazione web e controlla la connessione Tethering nella pagina INTERNET.
+
+        Per saperne di più sulle differenze tra le modalità USB, fai clic [qui](https://docs.gl-inet.com/router/en/4/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg).
     4. Quando la connessione a Internet va a buon fine, un'icona a forma di catena comparira nell'angolo superiore destro del touchscreen. Puoi anche controllare i dettagli della connessione nel pannello di amministrazione web.
 
     Per istruzioni dettagliate, fai riferimento a [Collegarsi a Internet tramite USB tethering](../../interface_guide/internet_tethering.md).
@@ -211,17 +198,9 @@ Puoi aggiornare il firmware di Mudi 7 tramite touchscreen o pannello di amminist
 
 ### Aggiornamento via web
 
-1. Aggiornamento online
+Accedi al pannello di amministrazione web e vai su **SYSTEM** -> **Upgrade**. Puoi aggiornare il firmware del router online o localmente.
 
-    Accedi al pannello di amministrazione web e vai su **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade** per aggiornare il firmware del router.
-
-    Per i dettagli, fai riferimento [qui](../../interface_guide/upgrade.md#online-upgrade).
-
-2. Aggiornamento locale
-
-    Accedi al pannello di amministrazione web e vai su **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade** per aggiornare il firmware del router.
-
-    Per i dettagli, fai riferimento [qui](../../interface_guide/upgrade.md#local-upgrade).
+Per i dettagli, consulta [questa pagina](../../interface_guide/upgrade.md).
 
 ## Ripristino delle impostazioni di fabbrica
 
@@ -251,7 +230,7 @@ Guarda questo video oppure segui i passaggi riportati di seguito.
 
 1. Rimuovi il coperchio posteriore e troverai il pulsante Reset come mostrato di seguito.
 
-    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+    ![reset button](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
 2. Esegui un soft reset o un ripristino delle impostazioni di fabbrica in base alle tue esigenze.
 
@@ -459,7 +438,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) rileva automaticamente e aggiorna in tempo reale l'indirizzo IP associato a un dominio. E particolarmente utile per gli utenti che hanno bisogno di un indirizzo IP statico per accedere a una rete remota.
+    Dynamic DNS (DDNS) rileva automaticamente e aggiorna in tempo reale l'indirizzo IP associato a un dominio. Collega un nome di dominio all'indirizzo IP pubblico dinamico del router, consentendo l'accesso remoto alla rete senza un indirizzo IP statico.
 
     Per configurarlo, fai riferimento a [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -526,7 +505,7 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     La pagina Upgrade viene usata per aggiornare il firmware del router alla versione piu recente, garantendo prestazioni migliori, maggiore sicurezza e nuove funzioni. Questa pagina offre due opzioni di aggiornamento:
 
-    * Firmware Online Upgrade: controlla e installa automaticamente la versione firmware piu recente direttamente dal server del produttore, semplificando il processo di aggiornamento.
+    * Firmware Online Upgrade: verifica automaticamente sul server del produttore la disponibilità della versione firmware più recente. Se disponibile online, è possibile installarla.
     * Firmware Local Upgrade: consente di caricare manualmente un file firmware dal computer per aggiornare il router, offrendo controllo sulla versione e sul momento dell'aggiornamento.
 
     Queste opzioni permettono di mantenere il router aggiornato con gli ultimi miglioramenti e le ultime correzioni.
@@ -594,3 +573,18 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
     La pagina Advanced Settings offre accesso a opzioni di configurazione avanzata tramite l'interfaccia OpenWrt LuCI, consentendo agli utenti esperti di regolare in modo dettagliato impostazioni e funzioni del router oltre a quelle disponibili nell'interfaccia di base. Include configurazioni di rete dettagliate, impostazioni firewall e altre personalizzazioni avanzate del sistema.
 
     Per istruzioni dettagliate, fai riferimento a [Advanced Settings](../../interface_guide/advanced_settings.md).
+
+## Sicurezza della batteria e gestione di una batteria gonfia {#battery-safety-and-swollen-battery-handling}
+
+Smetti di usare e caricare Mudi 7 se la batteria è gonfia, perde liquido, è insolitamente calda, è danneggiata o emette un odore insolito.
+
+- Non premere, piegare, forare o schiacciare la batteria e non esercitare pressione su di essa.
+- Non usare strumenti per fare leva contro una batteria gonfia o danneggiata.
+- Non tentare di rimuovere una batteria gonfia, bloccata, che perde liquido, calda o comunque non sicura da maneggiare.
+- Non gettare una batteria agli ioni di litio danneggiata nei rifiuti domestici o nella normale raccolta differenziata.
+- Non inviare né spedire una batteria gonfia o danneggiata tramite un normale servizio di consegna pacchi.
+- Contatta il [supporto GL.iNet](https://www.gl-inet.com/contacts/) per assistenza in garanzia e indicazioni sui passaggi successivi.
+
+Se la batteria danneggiata è già stata rimossa, non reinstallarla. Contatta un centro locale appropriato per il riciclo delle batterie o la raccolta dei rifiuti domestici pericolosi che accetti batterie agli ioni di litio danneggiate.
+
+Se la batteria emette fumo, si riscalda rapidamente, sibila, brucia o presenta un altro pericolo immediato, allontanati dal dispositivo e contatta i servizi di emergenza locali.

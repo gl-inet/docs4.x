@@ -5,7 +5,7 @@ Der Inhalt dieser Seite basiert auf Firmwareversion v4.7.x und früher. Wenn auf
 <div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.7 und früher" markdown="1">
 
 - [Firmware v4.8](vpn_dashboard_v4.8.md)
-- [Firmware v4.9](vpn_dashboard.md)
+- [Firmware v4.9 und höher](vpn_dashboard.md)
 
 </div>
 

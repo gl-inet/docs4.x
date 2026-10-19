@@ -1,6 +1,6 @@
 ---
 name: glinet-docs-translation
-description: Translate, sync, or review GL.iNet router documentation between English source files and localized docs. Use when Codex is asked to translate English docs into German, Spanish, French, Italian, Japanese, or Polish; update localized docs after changes under docs/en/**; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
+description: Translate, sync, or review GL.iNet router documentation between English source files and localized docs. Use when Codex is asked to translate English docs into German, Spanish, French, Italian, Japanese, Polish, or Ukrainian; update localized docs after changes under docs/en/**; improve machine-translated localized pages; or check localized terminology, UI labels, Markdown structure, links, and technical accuracy.
 ---
 
 # GL.iNet Docs Translation
@@ -19,6 +19,7 @@ Read the target-language reference before editing that language:
 - Italian: `references/italian.md`
 - Japanese: `references/japanese.md`
 - Polish: `references/polish.md`
+- Ukrainian: `references/ukrainian.md`
 
 If a task touches multiple languages, read `references/common.md` once and then read each relevant language reference.
 
@@ -37,7 +38,7 @@ Use this workflow when syncing English changes into localized docs, especially w
    - If no commit is given and cache is insufficient, use the most recent commit whose message is `translation, from en to others.` as the fallback lower bound, then diff that commit..HEAD.
 2. Build an English change list first. Include modified, added, deleted, and renamed files under `docs/en/`, plus changes to `docs/en/mkdocs.yml`, redirects, nav, and path references.
 3. Handle structure before prose:
-   - Mirror English renames in `docs/de/`, `docs/es/`, `docs/fr/`, `docs/it/`, `docs/ja/`, and `docs/pl/`.
+   - Mirror English renames in `docs/de/`, `docs/es/`, `docs/fr/`, `docs/it/`, `docs/ja/`, `docs/pl/`, and `docs/uk/`.
    - Create matching localized pages when English adds pages.
    - Sync localized `mkdocs.yml` changes when English changes nav, redirects, plugins, or path references.
 4. Translate only the changed English portions. Do not retranslate whole pages unless the English page is new or the localized page is unusable and the user agrees.
@@ -60,7 +61,7 @@ Use this workflow when syncing English changes into localized docs, especially w
 ## Path Conventions
 
 - English source docs live under the language root `docs/en/`, including `mkdocs.yml`, homepage overrides, and page content under `docs/en/docs/`.
-- Localized docs live under the language roots `docs/de/`, `docs/es/`, `docs/fr/`, `docs/it/`, `docs/ja/`, and `docs/pl/`.
+- Localized docs live under the language roots `docs/de/`, `docs/es/`, `docs/fr/`, `docs/it/`, `docs/ja/`, `docs/pl/`, and `docs/uk/`.
 - For page content, prefer updating the matching localized path under the target language's `docs/` subdirectory. Create a new localized page only when the English source introduces a page that does not yet exist.
 - For language-level files such as `mkdocs.yml` or homepage overrides, update the matching file under the target language root when it exists.
 
@@ -94,16 +95,16 @@ Use this workflow when syncing English changes into localized docs, especially w
 
 Use the parent virtual environment for MkDocs in this repository. Do not install `requirements.txt` unless the virtual environment is missing or lacks required dependencies.
 
-Full six-language strict builds can take more than 120 seconds on Windows. When running the complete validation loop, use a command timeout of at least 600 seconds.
+Full seven-language strict builds can take more than 120 seconds on Windows. When running the complete validation loop, use a command timeout of at least 600 seconds.
 
 `mkdocs.fast.yml` is for local preview or quick smoke checks only because it disables plugins. Do not use it as a substitute for final validation.
 
-For small edits, optionally run touched-language builds or fast smoke checks during iteration. Before finishing a translation sync, all six localized docs must pass `docs/<lang>/mkdocs.yml --strict`.
+For small edits, optionally run touched-language builds or fast smoke checks during iteration. Before finishing a translation sync, all seven localized docs must pass `docs/<lang>/mkdocs.yml --strict`.
 
 ```powershell
 # Run from repository root: docs4.x
 $mkdocs="..\Scripts\mkdocs.exe"
-$langs=@('de','es','fr','it','ja','pl')
+$langs=@('de','es','fr','it','ja','pl','uk')
 foreach($lang in $langs){
   Write-Host "BUILD $lang"
   & $mkdocs build -f "docs/$lang/mkdocs.yml" --strict

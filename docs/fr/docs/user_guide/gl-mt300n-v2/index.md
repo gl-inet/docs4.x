@@ -112,7 +112,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "DNS dynamique"
 
-    Le DNS dynamique (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Il est particulièrement utile pour les utilisateurs qui ont besoin d'une adresse IP statique pour accéder à un réseau distant.
+    Le DNS dynamique (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Il associe un nom de domaine à l'adresse IP publique dynamique de votre routeur, ce qui vous permet d'accéder à votre réseau à distance sans adresse IP statique.
     
     Pour configurer le DNS dynamique, consultez [DNS dynamique](../../interface_guide/ddns.md).
 
@@ -130,7 +130,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     * Redirection de ports : redirigez un trafic spécifique depuis Internet vers des appareils désignés de votre réseau, afin de permettre l'accès à des services tels que des serveurs de jeu ou des serveurs web.
     * Ports ouverts : surveillez et contrôlez les ports ouverts sur votre routeur afin de prévenir les accès non autorisés et les menaces de sécurité potentielles.
-    * DMZ (zone démilitarisée) : placez un appareil en dehors du pare-feu principal pour lui permettre un accès sans restriction à Internet tout en protégeant le reste du réseau contre les menaces potentielles.
+    * DMZ (zone démilitarisée) : expose un appareil à Internet en lui redirigeant tout le trafic entrant.
 
     Pour configurer les paramètres liés au pare-feu, consultez [Pare-feu](../../interface_guide/firewall.md).
 
@@ -237,7 +237,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     La page Mise à niveau permet de mettre à jour le firmware du routeur vers la version la plus récente, afin d'améliorer les performances, la sécurité et d'ajouter de nouvelles fonctionnalités. Cette page propose deux options de mise à niveau :
 
-    * Mise à niveau en ligne : recherchez et installez automatiquement la dernière version du firmware directement depuis le serveur du fabricant afin de simplifier la mise à jour.
+    * Mise à niveau en ligne : recherche automatiquement la dernière version du firmware sur le serveur du fabricant. Vous pouvez l'installer si elle est disponible en ligne.
     * Mise à niveau locale : téléversez manuellement un fichier firmware depuis votre ordinateur pour mettre à jour le routeur, avec un contrôle total sur la version et le moment de la mise à jour.
 
     Ces options vous permettent de maintenir votre routeur à jour avec les dernières améliorations et corrections.

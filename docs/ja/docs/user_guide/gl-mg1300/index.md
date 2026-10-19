@@ -2,7 +2,7 @@
 
 ## 製品概要
 
-Mango 2 (GL-MG1300) は、GL.iNet初のデュアルバンドWi-Fi 5対応ミニトラベルルーターで、薄型かつ携帯性に優れた設計です。2×2 MIMO構成により、理論上のデュアルバンド速度は2.4 GHzで400 Mbps、5 GHzで866 Mbpsです。OpenVPNとWireGuardをプリインストールし、30以上のVPNサービスに対応してネットワークトラフィックを自動的に暗号化します。また、GoodCloudによるリモート管理にも対応し、性能、実用性、セキュリティを両立します。
+Mango 2 (GL-MG1300) は、GL.iNet初のデュアルバンドWi-Fi 5対応ミニトラベルルーターで、薄型かつ携帯性に優れた設計です。2×2 MIMO構成により、理論上のデュアルバンド速度は2.4 GHzで400 Mbps、5 GHzで866 Mbpsです。OpenVPNとWireGuardをプリインストールし、30以上のVPNサービスに対応し、VPNクライアントを有効にするとネットワークトラフィックを暗号化できます。また、GoodCloudによるリモート管理にも対応し、性能、実用性、セキュリティを両立します。
 
 ![mg1300 illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/mg1300_overview.jpg){class="glboxshadow"}
 
@@ -12,6 +12,12 @@ Mango 2 (GL-MG1300) は、GL.iNet初のデュアルバンドWi-Fi 5対応ミニ�
 - ユーザーマニュアル x 1
 - USB-C - USB-C電源ケーブル x 1
 - サンキューカード x 1
+
+![package contents](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mg1300/product_info/unboxing.png){class="glboxshadow"}
+
+以下のMango 2の開梱動画をご覧ください。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwHgLdWPwPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Mango 2の設定方法
 
@@ -235,7 +241,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Dynamic DNS"
 
-    Dynamic DNS（DDNS）は、ドメインに関連付けられたIPアドレスをリアルタイムで自動的に検出およびアップデートします。リモートネットワークにアクセスするために静的IPアドレスが必要なユーザーに便利です。
+    Dynamic DNS（DDNS）は、ドメインに関連付けられたIPアドレスをリアルタイムで自動的に検出およびアップデートします。ドメイン名をルーターの動的なパブリックIPアドレスに対応付けるため、固定IPアドレスがなくてもネットワークにリモートアクセスできます。
 
     Dynamic DNSの設定については、[Dynamic DNS](../../interface_guide/ddns.md)を参照してください。
 
@@ -282,7 +288,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     Upgrade ページでは、ルーターのファームウェアを最新バージョンへ更新できます。これにより、性能向上、セキュリティ強化、新機能の利用が可能になります。このページには次の2つのアップグレード方法があります。
 
-    * ファームウェアオンラインアップグレード：メーカーのサーバーから最新バージョンを自動確認してインストールします。
+    * ファームウェアオンラインアップグレード：メーカーのサーバーで最新のファームウェアバージョンを自動的に確認します。オンラインで利用できる場合はインストールできます。
     * ファームウェアローカルアップグレード：コンピューターからファームウェアファイルをアップロードしてルーターをアップデートし、アップグレードバージョンとタイミングを制御できます。
 
     これらのオプションにより、最新の改善や修正を適用した状態にルーターを保てます。

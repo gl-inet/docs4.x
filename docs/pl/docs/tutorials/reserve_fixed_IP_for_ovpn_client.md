@@ -26,7 +26,7 @@ Ten przewodnik pokaże, jak zarezerwować stały adres IP dla klienta OpenVPN ł
 
     ![add ccd folder](https://static.gl-inet.com/docs/router/en/4/tutorials/reserve_fixed_ip_for_ovpn_client/add_ccd_folder.png){class="glboxshadow"}
 
-5. Dodaj plik "GLsupport", wpisz `ifconfig-push 10.8.0.10 255.255.255.0`, następnie zapisz i zamknij plik.
+5. Przejdź do `/etc/openvpn/ccd` i dodaj plik "GLsupport", wpisz `ifconfig-push 10.8.0.10 255.255.255.0`, a następnie zapisz i zamknij plik.
 
     Zweryfikuj zawartość poleceniem `cat GLsupport`
 
@@ -36,9 +36,9 @@ Ten przewodnik pokaże, jak zarezerwować stały adres IP dla klienta OpenVPN ł
     
     - "255.255.255.0" to maska podsieci i możesz ją zastąpić maską podsieci swojego serwera OpenVPN.
 
-    **Uwaga**: Jeśli chcesz przypisać stałe adresy IP dla wielu klientów OpenVPN, utwórz wiele nazw użytkownika i haseł w kroku 2, następnie powtórz krok 5, dodając pliki do folderu CCD w kolejności użytkowników, takich jak user_1, user_2, user_3, a następnie polecenie "ifconfig push" z odpowiadającymi im stałymi adresami IP i maskami podsieci. 
+    **Uwaga**: Jeśli chcesz przypisać stałe adresy IP dla wielu klientów OpenVPN, utwórz wiele nazw użytkownika i haseł w kroku 2, następnie powtórz krok 5, dodając pliki do folderu CCD w kolejności użytkowników, takich jak user_1, user_2, user_3, a następnie polecenie "ifconfig-push" z odpowiadającymi im stałymi adresami IP i maskami podsieci.
     
-    Na przykład: `ifconfig-push 10.8.0.20 225.225.225.0`, `ifconfig-push 10.8.0.30 225.225.225.0`, `ifconfig-push 10.8.0.40 225.225.225.0`
+    Na przykład: `ifconfig-push 10.8.0.20 255.255.255.0`, `ifconfig-push 10.8.0.30 255.255.255.0`, `ifconfig-push 10.8.0.40 255.255.255.0`
 
 6. Na koniec przetestuj z klientem OVPN i sprawdź, czy wirtualny adres IP klienta (IPv4) jest tym zarezerwowanym. 
 

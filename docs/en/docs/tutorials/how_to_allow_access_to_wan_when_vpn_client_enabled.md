@@ -42,7 +42,7 @@ Follow the steps below.
 
     ![tunnel target](https://static.gl-inet.com/docs/router/en/4/tutorials/allow_access_to_vpn_server_wan/select-target.png){class="glboxshadow"}
 
-    Select **Exclude Speficied Domain / IP**, input the WAN subnet of your router, then click **Apply**.
+    Select **Exclude specified Domain / IP List**, input the WAN subnet of your router, then click **Apply**.
 
     This ensures all traffic to the WAN subnet is routed through the local WAN rather than the VPN tunnel.
 

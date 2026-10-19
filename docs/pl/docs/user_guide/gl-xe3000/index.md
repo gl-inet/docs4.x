@@ -72,7 +72,7 @@ Skonfiguruj Puli AX, korzystając z jednej z obsługiwanych metod połączenia z
     
     Jeśli nie, wyłącz router, ponownie włóż kartę SIM i włącz go.
     
-    Szczegółowe instrukcje znajdziesz w [Połącz z internetem przez sieć komórkową](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models).
+    Szczegółowe instrukcje znajdziesz w [Połącz z internetem przez sieć komórkową](../../interface_guide/internet_cellular.md#setup-for-dual-sim-models).
 
     Dowiedz się, jak korzystać z fizycznej karty eSIM w routerze GL.iNet [tutaj](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md).
 
@@ -176,7 +176,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje w czasie rzeczywistym adres IP powiązany z domeną. Jest to szczególnie przydatne dla użytkowników, którzy potrzebują statycznego adresu IP do uzyskiwania dostępu do sieci zdalnej. 
+    Dynamic DNS (DDNS) automatycznie wykrywa i aktualizuje w czasie rzeczywistym adres IP powiązany z domeną. Mapuje nazwę domeny na dynamiczny publiczny adres IP routera, dzięki czemu możesz zdalnie uzyskiwać dostęp do swojej sieci bez statycznego adresu IP. 
     
     Aby skonfigurować Dynamic DNS, zobacz [Dynamic DNS](../../interface_guide/ddns.md). 
 
@@ -244,7 +244,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Umożliwia ustawienie podsieci w prywatnych zakresach adresów IPv4 192.168.0.0/16, 172.16.0.0/12 lub 10.0.0.0/8, określenie adresów IP bramy i maski sieci oraz skonfigurowanie ustawień zabezpieczeń, takich jak izolacja AP dla sieci gościnnej.
 
-    Aby skonfigurować sieć gościnną, zobacz [Lan Tutorial](../../interface_guide/guest_network.md). 
+    Aby skonfigurować sieć gościnną, zapoznaj się z [Guest Network](../../interface_guide/guest_network.md). 
 
 === "DNS"
 
@@ -319,9 +319,9 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie międz
 
     Strona Upgrade służy do aktualizowania firmware routera do najnowszej wersji, co zapewnia lepszą wydajność, bezpieczeństwo i nowe funkcje. Ta strona oferuje następujące opcje aktualizacji:
 
-    * Firmware Online Upgrade: automatyczne sprawdzanie i instalowanie najnowszej wersji firmware bezpośrednio z serwera producenta, co upraszcza proces aktualizacji.
+    * Firmware Online Upgrade: automatyczne sprawdzanie dostępności najnowszej wersji firmware na serwerze producenta. Jeśli jest dostępna online, możesz ją zainstalować.
     * Firmware Local Upgrade: ręczne przesłanie pliku firmware z komputera w celu aktualizacji routera, co daje kontrolę nad wersją aktualizacji i momentem jej wykonania.
-    * Module Online Upgrade: automatyczne sprawdzanie i instalowanie najnowszej wersji modułu 4G/5G bezpośrednio z serwera producenta, co upraszcza proces aktualizacji.
+    * Module Online Upgrade: automatyczne sprawdzanie dostępności najnowszej wersji modułu 4G/5G na serwerze producenta. Jeśli jest dostępna online, możesz ją zainstalować.
     * Module Local Upgrade: ręczne przesłanie pliku modułu z komputera w celu aktualizacji modułu 4G/5G.
 
     Opcje te pozwalają utrzymywać router w aktualnym stanie i korzystać z najnowszych ulepszeń oraz poprawek.

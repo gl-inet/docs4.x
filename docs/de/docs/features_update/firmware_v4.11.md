@@ -1,6 +1,6 @@
 # Firmware v4.11
 
-Diese Version konzentriert sich auf Verbesserungen bei der Überwachung der Netzwerkqualität und der Sicherheitsbewertung, damit Sie Verbindungsprobleme und potenzielle Sicherheitsrisiken erkennen können. Sie führt außerdem neue Funktionen für Mesh, GL.iNet Account und VLAN ein und enthält umfangreiche Verbesserungen für DNS, SQM, QoS und Datenverkehrsstatistiken.
+Diese Version verbessert die Überwachung der Netzwerkqualität und die Sicherheitsbewertung, damit Sie Verbindungsprobleme und mögliche Sicherheitsrisiken erkennen können. Außerdem verbessert sie DNS, QoS, SQM und Datenstatistiken für eine flexiblere Netzwerkverwaltung und Datenverkehrssteuerung.
 
 Laden Sie die neueste Firmware im [Firmware Download Center](https://dl.gl-inet.com/){target="_blank"} herunter.
 
@@ -16,57 +16,15 @@ Laden Sie die neueste Firmware im [Firmware Download Center](https://dl.gl-inet.
 
 ![security scan](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/security_scan.png){class="glboxshadow"}
 
-## Mesh
-
-[Mesh](../interface_guide/mesh.md) basiert auf dem Standard Wi-Fi EasyMesh™ und erweitert die Wi-Fi-Abdeckung im gesamten Zuhause. Die Funktion ermöglicht nahtloses Roaming. Wenn Sie mehrere GL.iNet-Router besitzen, richten Sie einen als Hauptrouter und die übrigen als Mesh-Knoten ein, um nahtloses Wi-Fi-Roaming in Ihrem Zuhause zu nutzen.
-
-**Hinweis**: Diese Funktion wurde zunächst für bestimmte Modelle veröffentlicht und mit Firmwareversion 4.11 auf weitere Modelle ausgeweitet.
-
-![mesh](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/mesh.png){class="glboxshadow"}
-
-## GL.iNet-Konto
-
-Ein [GL.iNet Account](../interface_guide/glinet_account.md) bietet einen einheitlichen Zugang zu Ihren Geräten und Cloud-Diensten. Mit einem einzigen GL.iNet-Konto können Sie auf GoodCloud und die GL.iNet App zugreifen, um Netzwerke und Geräte komfortabler zu verwalten. Darüber hinaus können Sie mit GoodPAS schnell eine sichere Verbindung zwischen Ihrem Reiserouter und Ihrem Heimnetzwerk herstellen und so auch unterwegs nahtlos auf Ihr Heimnetzwerk zugreifen.
-
-**Hinweis**: Diese Funktion wurde zunächst für bestimmte Modelle veröffentlicht und mit Firmwareversion 4.11 auf weitere Modelle ausgeweitet.
-
-![GL.iNet Account](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/glinet_account.png){class="glboxshadow"}
-
-## GoodPAS
-
-[GoodPAS](../interface_guide/goodpas.md) ist eine Fernzugriffslösung auf Basis des AmneziaWG-Protokolls mit integrierter Datenverkehrsverschleierung. Sie können Ihren Reiserouter über einen dynamischen Zugriffscode sicher mit Ihrem Heimnetzwerk verbinden, ohne sich registrieren oder anmelden zu müssen.
-
-**Hinweis**: Diese Funktion wurde zunächst für bestimmte Modelle veröffentlicht und mit Firmwareversion 4.11 auf weitere Modelle ausgeweitet.
-
-![goodpas](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/goodpas.png){class="glboxshadow"}
-
-## GoodCloud
-
-[GoodCloud](../interface_guide/cloud.md) ermöglicht Fernzugriff und die zentrale Verwaltung von GL.iNet-Routern. Sie können mehrere Geräte gleichzeitig verwalten, Netzwerkkonfigurationen bereitstellen, Firmware-Upgrades durchführen und aus der Ferne auf das Web-Admin-Panel oder das SSH-Terminal des Routers zugreifen.
-
-**Hinweis**: Diese Funktion wurde zunächst für bestimmte Modelle veröffentlicht und mit Firmwareversion 4.11 auf weitere Modelle ausgeweitet.
-
-![goodcloud](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/goodcloud.png){class="glboxshadow"}
-
-## Ethernet-Port
-
-Die Seite [Ethernet Port](../interface_guide/ethernet_port_v4.10.md) zeigt alle Schnittstellen des Routers an. Sie können den Verbindungsstatus jeder Schnittstelle anzeigen, die Ethernet-Portrollen (WAN oder LAN) verwalten und Portdetails wie MAC-Adresse, ausgehandelte Geschwindigkeit und aktuellen Verbindungsstatus einsehen. Außerdem können Sie physische Schnittstellen beliebigen von Ihnen erstellten Subnetzen zuweisen.
-
-**Hinweis**: Diese Funktion wurde zunächst für bestimmte Modelle veröffentlicht und mit Firmwareversion 4.11 auf weitere Modelle ausgeweitet.
-
-Die folgende Abbildung zeigt Ethernet Port auf dem Flint 3 (GL-BE9300).
-
-![ethernet port](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/ethernet_port.png){class="glboxshadow"}
-
 ## DNS
 
 Diese Version verbessert die [DNS](../interface_guide/dns_v4.11.md)-Konfiguration, indem WAN DNS, VPN DNS und Manual DNS auf einer einzigen Seite zusammengeführt werden. Sie können den DNS-Status für jeden Verbindungstyp anzeigen, benutzerdefinierte DNS-Server konfigurieren und festlegen, ob manuelle DNS-Einstellungen für VPN-Tunnel oder den Router selbst gelten.
 
-![dns](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/dns_v4.11.png){class="glboxshadow"}
+![dns](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/dns.png){class="glboxshadow"}
 
 ## QoS
 
-[QoS](../interface_guide/qos.md) (Quality of Service) wurde in dieser Firmware erweitert. Die neue Option **Run Speedtest** misst die WAN-Download- und Upload-Bandbreite und füllt die entsprechenden Felder automatisch aus. Es stehen drei Scheduling-Richtlinien zur Verfügung, darunter die neu eingeführten Optionen **Device Priority** und **Advanced QoS**.
+[QoS](../interface_guide/qos.md) (Quality of Service) bietet die Option **Run Speedtest** für die WAN-Bandbreite. Sie misst die Download- und Upload-Geschwindigkeiten und füllt die entsprechenden Felder automatisch aus. Zusätzlich zu Application Priority enthält diese Version zwei weitere Scheduling-Richtlinien: **Device Priority** und **Advanced QoS**.
 
 ![qos](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/qos.png){class="glboxshadow" width=600}
 
@@ -78,11 +36,17 @@ Diese Version verbessert die [DNS](../interface_guide/dns_v4.11.md)-Konfiguratio
 
 ## SQM
 
-[SQM](../interface_guide/sqm.md) (Smart Queue Management) bietet die Option **Run Speedtest** für die WAN-Bandbreite. Sie misst Download- und Upload-Geschwindigkeiten und füllt die entsprechenden Felder automatisch aus. Für die Warteschlangendisziplin **cake** passt die neue Funktion **Cake Autorate** die konfigurierte Bandbreite dynamisch anhand der RTT von Testpaketen an. Sie verwendet ressourcenschonende Ping-Abfragen statt aktiver Geschwindigkeitstests und wird für WAN-Verbindungen mit schwankender Bandbreite empfohlen.
+[SQM](../interface_guide/sqm.md) (Smart Queue Management) bietet die Option **Run Speedtest** für die WAN-Bandbreite. Sie misst die Download- und Upload-Geschwindigkeiten und füllt die entsprechenden Felder automatisch aus. Es stehen zwei Warteschlangendisziplinen zur Verfügung: **cake** und **fq_codel**.
 
-![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_v4.11.png){class="glboxshadow" width=600}
+![sqm](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm.png){class="glboxshadow" width=600}
 
-![cake autorate](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/cake_autorate.png){class="glboxshadow" width=600}
+- **cake**: Intelligente, automatische Datenverkehrsformung mit der insgesamt besten Latenzkontrolle (empfohlen).
+
+    Für diese Warteschlangendisziplin passt die neue Funktion **Cake Autorate** die konfigurierte Bandbreite dynamisch anhand der RTT von Testpaketen an. Sie verwendet ressourcenschonende Ping-Abfragen statt aktiver Geschwindigkeitstests und wird für WAN-Verbindungen mit schwankender Bandbreite empfohlen.
+
+    ![sqm cake autorate](https://static.gl-inet.com/docs/router/en/4/features_update/4.11/sqm_cake_autorate.png){class="glboxshadow" width=600}
+
+- **fq_codel**: Einfaches und effizientes Fair-Queueing mit grundlegender Latenzreduzierung.
 
 ## Datenstatistiken
 

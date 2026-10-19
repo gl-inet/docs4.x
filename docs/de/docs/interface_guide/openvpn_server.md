@@ -56,11 +56,11 @@ Melden Sie sich am webbasierten Admin Panel an und navigieren Sie zu **VPN** -> 
 
     * **Authentication Mode:** Hiermit wird festgelegt, welche Authentifizierungsmethode verwendet wird, wenn sich der Client mit dem Server verbindet. Es gibt drei Optionen.
 
-        - **Certificate Only**: Wenn diese Option ausgewählt ist, erzeugt der Router automatisch Zertifikatsschlüssel für Server und Client und bettet sie in die Client-Konfigurationsdatei ein. Beim Hochladen der Konfiguration auf den Client sind keine zusätzlichen Zugangsdaten erforderlich.
+        - **Certificate Only**: Wenn diese Option ausgewählt ist, erzeugt der Router automatisch die Server- und Client-Zertifikate und bettet das Client-Zertifikat samt Schlüssel in die Client-Konfigurationsdatei ein. Beim Hochladen der Konfiguration auf den Client sind keine zusätzlichen Zugangsdaten erforderlich.
 
         - **Username/Password Only**: Wenn diese Option ausgewählt ist, erzeugt der Router eine Client-Konfiguration ohne Zertifikatsschlüssel. Sie müssen zunächst auf der Registerkarte Users einen Benutzernamen und ein Passwort hinzufügen, bevor Sie die Client-Konfiguration exportieren. Beim Hochladen der Konfiguration auf den Client müssen diese Zugangsdaten zur Authentifizierung eingegeben werden.
 
-        - **Username/Password and Certificate**: Wenn diese Option ausgewählt ist, müssen Sie zuerst auf der Registerkarte Users einen Benutzernamen und ein Passwort hinzufügen, bevor Sie die Client-Konfiguration exportieren. Zusätzlich erzeugt der Router automatisch Zertifikatsschlüssel für Server und Client und bettet sie in die Konfigurationsdatei ein. Beim Hochladen der Konfiguration auf den Client wird zuerst der Zertifikatsschlüssel geprüft und danach die Benutzername-/Passwort-Authentifizierung durchgeführt, um eine Zwei-Faktor-Sicherheit zu erreichen.
+        - **Username/Password and Certificate**: Wenn diese Option ausgewählt ist, müssen Sie zuerst auf der Registerkarte Users einen Benutzernamen und ein Passwort hinzufügen, bevor Sie die Client-Konfiguration exportieren. Zusätzlich erzeugt der Router automatisch die Server- und Client-Zertifikate und bettet das Client-Zertifikat samt Schlüssel in die Konfigurationsdatei ein. Beim Hochladen der Konfiguration auf den Client wird zuerst der Zertifikatsschlüssel geprüft und danach die Benutzername-/Passwort-Authentifizierung durchgeführt, um eine Zwei-Faktor-Sicherheit zu erreichen.
     
         Hier sehen Sie ein Beispiel für das Anlegen eines Benutzers.
 

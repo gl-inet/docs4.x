@@ -56,11 +56,11 @@ Log in to the web Admin Panel, and navigate to **VPN** -> **OpenVPN Server**.
 
     * **Authentication Mode:** This determines the authentication method used when the client connects to the server. There are three options.
 
-        - **Certificate Only**: If selected, the router will automatically generate a server and client certificate keys and embed them in the client configuration file. When you upload the configuration to the client, no additional credentials are required.
+        - **Certificate Only**: If selected, the router will automatically generate the server and client certificates, and embed the client certificate and key in the client configuration file. When you upload the configuration to the client, no additional credentials are required.
 
         - **Username/Password Only**: If selected, the router will generate client configuration without certificate keys. You must first add a username and password in the Users tab before exporting the client configuration. When uploading the configuration to the client, you need to enter these credentials for authentication.
 
-        - **Username/Password and Certificate**: If selected, you must first add a username and password in the Users tab before exporting the client configuration; second, the router will automatically generate server and client certificate keys and embed them in the configuration file. When uploading the configuration to the client, the certificate-key will be verified first, followed by username/password authentication for two-factor security.
+        - **Username/Password and Certificate**: If selected, you must first add a username and password in the Users tab before exporting the client configuration; second, the router will automatically generate the server and client certificates, and embed the client certificate and key in the configuration file. When uploading the configuration to the client, the certificate-key will be verified first, followed by username/password authentication for two-factor security.
     
         Here is an example of creating a user.
 

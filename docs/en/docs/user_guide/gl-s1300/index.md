@@ -14,7 +14,7 @@ Convexa-S (GL-S1300) is a unique smart home gateway with beamforming Wi-Fi and o
 
 ## First-time setup
 
-All GL.iNet routers have a similar setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md/).
+All GL.iNet routers have a similar setup process. [Click here to learn about the first-time setup](../../faq/first_time_setup.md).
 
 ---
 
@@ -76,7 +76,7 @@ Clients are devices connected to the router, you can block clients or limit its 
 
 ## VPN
 
-GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VPN services. It automatically encrypts all network traffic within the connected network, including guest devices and client devices that are not capable of running VPN encryption. Our routers can also act as VPN servers, redirecting traffic from client devices in remote locations to the VPN server via a VPN tunnel before accessing the public internet.
+GL.iNet routers are pre-installed with OpenVPN and WireGuard® supporting 30+ VPN services. When the VPN client is enabled, the router can encrypt traffic for devices on the network, including devices that cannot run VPN apps, according to your VPN policy settings. Our routers can also act as VPN servers, redirecting traffic from client devices in remote locations to the VPN server via a VPN tunnel before accessing the public internet.
 
 ### VPN Dashboard
 

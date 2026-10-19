@@ -38,6 +38,12 @@ DIYプロジェクトや誤ったファームウェアのフラッシュによ�
 
         **注意:** 同じルーターモデルでも製造バッチが異なると、LEDの色や点滅シーケンスが異なる場合があります。これはU-Bootリカバリープロセスには影響しません。LED点滅状態の変化に注目してください。
 
+        - **GL-MT6000 (Fortify)**の場合: 青色LEDが6回点滅し、その後白色に点灯します。
+
+        - **GL-MG1300 (Mango 2)**の場合: 青色LEDが7回点滅し、その後白色に点灯します。
+
+        - **GL-BE14000 (Flint 4)、GL-BE10000 (Slate 7 Pro)、および GL-BE3600 (Slate 7)**の場合: リセットボタンを約5秒間押し続けると、タッチスクリーンに5秒間のカウントダウンが表示されます。次の案内が画面に表示されるまでリセットボタンを押し続けてください（例：コンピュータのIPアドレスを192.168.1.2に手動で設定し、ブラウザでhttp://192.168.1.1にアクセスしてください）。詳細な手順については手順4に進んでください。
+
         - **GL-MT3600BE (Beryl 7)**の場合: 青色LEDが7回点滅し、その後白色に点灯します。
         
         - **GL-MT5000 (Brume 3)**の場合: 電源LEDが青色で7回点滅し、その後白色に点灯します。
@@ -45,8 +51,6 @@ DIYプロジェクトや誤ったファームウェアのフラッシュによ�
         - **GL-BE6500 (Flint 3e)**の場合: 青色LEDが6回点滅し、その後白色に点灯します。
         
         - **GL-BE9300 (Flint 3)**の場合: 青色LEDが6回点滅し、その後白色に点灯します。
-        
-        - **GL-BE3600 (Slate 7)**の場合: リセットボタンを約5秒間押し続けると、タッチスクリーンに5秒間のカウントダウンが表示されます。次のプロンプトが画面に表示されるまでリセットボタンを押し続けてください。例：コンピュータのIPアドレスを192.168.1.2に手動で設定し、ブラウザでhttp://192.168.1.1にアクセスしてください。詳細な手順については手順4に進んでください。
 
         - **GL-X2000 (Spitz Plus)**の場合: インターネットLEDが5回点滅し、その後Wi-Fi LEDが点灯し続けます。
 
@@ -126,47 +130,47 @@ DIYプロジェクトや誤ったファームウェアのフラッシュによ�
 
     ??? "Windows 11"
 
-        7. 設定を開きます。
+        1. 設定を開きます。
 
-        8. **ネットワークとインターネット**をクリックします。
+        2. **ネットワークとインターネット**をクリックします。
 
-        9. **イーサネット**タブをクリックします。
+        3. **イーサネット**タブをクリックします。
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windwos11_ethernet.png){class="glboxshadow"}
 
-        10. 「IP割り当て」セクションで、**編集**ボタンをクリックします。
+        4. 「IP割り当て」セクションで、**編集**ボタンをクリックします。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        11. **手動**オプションを選択します。
+        5. **手動**オプションを選択します。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        12. **IPv4**トグルスイッチをオンにします。
+        6. **IPv4**トグルスイッチをオンにします。
 
-        13. 固定**IPアドレス**を**192.168.1.2**に設定します。
+        7. 固定**IPアドレス**を**192.168.1.2**に設定します。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/debrick/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        14. **サブネットマスク**を**255.255.255.0**に指定します。
+        8. **サブネットマスク**を**255.255.255.0**に指定します。
 
-        15. **保存**ボタンをクリックします。
+        9. **保存**ボタンをクリックします。
 
     ??? "macOS"
     
-        16. 画面左上の**Apple**アイコンをクリックし、**システム環境設定**を選択します。
+        1. 画面左上の**Apple**アイコンをクリックし、**システム環境設定**を選択します。
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences.png){class="glboxshadow"}
 
-        17. **ネットワーク**をクリックします。
+        2. **ネットワーク**をクリックします。
 
             ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_system_preferences_network.png){class="glboxshadow"}
 
-        18. 左側の**イーサネット**をクリックし、**IPv4の設定**の横にあるドロップダウンボックスをクリックして**手動**を選択します。USBイーサネットアダプターを使用している場合、イーサネットが見つからず、USBイーサネットアダプターの名前として表示される場合があります。
+        3. 左側の**イーサネット**をクリックし、**IPv4の設定**の横にあるドロップダウンボックスをクリックして**手動**を選択します。USBイーサネットアダプターを使用している場合、イーサネットが見つからず、USBイーサネットアダプターの名前として表示される場合があります。
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_1.png){class="glboxshadow"}
 
-        19. **IPv4アドレス**に`192.168.1.2`、**サブネットマスク**に`255.255.255.0`、**ルーター**に`192.168.1.1`を入力し、右下の適用ボタンをクリックします。
+        4. **IPv4アドレス**に`192.168.1.2`、**サブネットマスク**に`255.255.255.0`、**ルーター**に`192.168.1.1`を入力し、右下の適用ボタンをクリックします。
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/debrick/macos_ip_manually_2.png){class="glboxshadow"}
 

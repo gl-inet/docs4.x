@@ -10,31 +10,19 @@ Najnowsze oprogramowanie układowe można pobrać z [Centrum pobierania oprogram
 
 ![mesh](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/mesh.png){class="glboxshadow"}
 
-## Usługi chmurowe
+## Konto GL.iNet
 
-Usługi chmurowe to zestaw funkcji wbudowanych w router i zarządzanych centralnie za pomocą konta GL.iNet. Umożliwia monitorowanie stanu w czasie rzeczywistym, zdalne zarządzanie urządzeniami, zbiorcze wdrażanie oprogramowania i bezpieczny zdalny dostęp. W firmware v4.10 moduł ten zapewnia ulepszone, ujednolicone zarządzanie chmurą.
-
-Moduł usług chmurowych obejmuje konto GL.iNet, GoodCloud i GoodPAS.
-
-### Konto GL.iNet
-
-[Konto GL.iNet](../interface_guide/glinet_account.md) zapewnia scentralizowaną stronę profilu, na której można łączyć urządzenia, zarządzać nimi i korzystać z usług chmurowych. Jedno konto GL.iNet zapewnia wygodny dostęp do GoodCloud, GoodPAS i aplikacji GL.iNet.
+[Konto GL.iNet](../interface_guide/glinet_account.md) zapewnia scentralizowaną stronę, na której można łączyć urządzenia, zarządzać nimi i korzystać z usług chmurowych. Jedno konto GL.iNet zapewnia wygodny dostęp do GoodCloud i aplikacji GL.iNet, ułatwiając zarządzanie siecią i urządzeniami. Można też szybko przejść do strony GoodPAS (w v4.10 na modelach innych niż GL-MG1300 nosi ona nazwę AstroWarp), aby nawiązać bezpieczne połączenie między routerem podróżnym a siecią domową.
 
 ![gl.inet account](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/account.png){class="glboxshadow"}
 
-### GoodCloud
+## GoodCloud
 
 [GoodCloud](../interface_guide/cloud.md) to platforma chmurowa do zdalnego wdrażania routerów GL.iNet i zarządzania nimi. Centralizuje urządzenia w wielu lokalizacjach oraz obsługuje konfigurację i aktualizację firmware w trybie zbiorczym. Zapewnia też zdalny dostęp do panelu administracyjnego WWW i terminala urządzenia przez SSH.
 
 W firmware v4.10 GoodCloud upraszcza powiązanie konta i pozwala usunąć dane konta chmurowego podczas przywracania ustawień fabrycznych.
 
 ![goodcloud](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodcloud.png){class="glboxshadow"}
-
-### GoodPAS
-
-[GoodPAS](../interface_guide/goodpas.md) to zaawansowane rozwiązanie do zdalnego dostępu, zintegrowane z SDK routerów GL.iNet. Jest oparte na protokole AmneziaWG i zapewnia bezpieczny dostęp do sieci domowej przez proste parowanie urządzeń, bez rejestracji konta ani logowania użytkownika.
-
-![goodpas](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/goodpas.png){class="glboxshadow"}
 
 ## Podsieć
 
@@ -46,7 +34,7 @@ Poniższa ilustracja przedstawia stronę Podsieć na routerze Flint 3 (GL-BE9300
 
 ## Port Ethernet
 
-Strona [Port Ethernet](../interface_guide/ethernet_port_v4.10.md) wyświetla wszystkie interfejsy Ethernet routera. Umożliwia sprawdzanie stanu połączenia, przełączanie roli portów między WAN i LAN oraz wyświetlanie takich informacji, jak adres MAC, wynegocjowana prędkość i stan łącza. Interfejsy fizyczne można również przypisywać do utworzonych podsieci.
+Strona [Port Ethernet](../interface_guide/ethernet_port_v4.10.md) wyświetla wszystkie interfejsy Ethernet routera. Umożliwia sprawdzanie stanu połączenia, przełączanie roli portów między WAN i LAN oraz wyświetlanie takich informacji, jak adres MAC, wynegocjowana prędkość i stan łącza. Interfejsy fizyczne można także przypisywać do dowolnych utworzonych podsieci, co jest szczególnie przydatne w konfiguracjach VLAN (Virtual Local Area Network).
 
 Poniższa ilustracja przedstawia stronę Port Ethernet na routerze Flint 3 (GL-BE9300).
 

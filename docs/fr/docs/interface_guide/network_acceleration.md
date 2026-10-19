@@ -7,6 +7,7 @@ Lorsque l'accélération réseau est activée, les fonctions suivantes ne foncti
 ## Modèles pris en charge
 
 ??? "Modèles pris en charge"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-MG1300 (Mango 2)

@@ -22,21 +22,6 @@ Regardez la vidéo de déballage du Mudi 7 ci-dessous.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sCEIReC70Fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Sécurité de la batterie et gestion d'une batterie gonflée {#battery-safety-and-swollen-battery-handling}
-
-Cessez d'utiliser et de charger le Mudi 7 si la batterie est gonflée, fuit, est anormalement chaude, est endommagée ou dégage une odeur inhabituelle.
-
-- Ne pressez pas, ne pliez pas, ne percez pas et n'écrasez pas la batterie ; n'exercez aucune pression dessus.
-- N'utilisez pas d'outils pour faire levier contre une batterie gonflée ou endommagée.
-- N'essayez pas de retirer une batterie gonflée, coincée, qui fuit, qui est chaude ou dont la manipulation présente un autre danger.
-- Ne jetez pas une batterie lithium-ion endommagée avec les ordures ménagères ou dans le circuit de recyclage ordinaire.
-- N'envoyez pas une batterie gonflée ou endommagée par un service de livraison de colis ordinaire.
-- Contactez le [support GL.iNet](https://www.gl-inet.com/contacts/) pour obtenir une assistance au titre de la garantie et connaître les prochaines étapes.
-
-Si la batterie endommagée a déjà été retirée, ne la réinstallez pas. Contactez un centre local adapté de recyclage des batteries ou de collecte des déchets ménagers dangereux qui accepte les batteries lithium-ion endommagées.
-
-Si la batterie dégage de la fumée, chauffe rapidement, siffle, brûle ou présente un autre danger immédiat, éloignez-vous de l'appareil et contactez les services d'urgence locaux.
-
 ## Configuration initiale du Mudi 7
 
 Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
@@ -47,11 +32,11 @@ Regardez cette vidéo de configuration ou suivez les étapes ci-dessous.
 
 Installez la ou les cartes Nano-SIM dans votre Mudi 7. Si vous préférez utiliser l'eSIM, ignorez cette étape et passez directement à l'étape 2.
 
+Utilisez d'abord la petite encoche située en bas à droite du capot arrière comme point d'appui. Faites levier le long de la jointure pour créer un espace, puis ouvrez le capot arrière et retirez la batterie du Mudi 7.
+
 !!! Warning
 
     Si la batterie est gonflée, fuit, est anormalement chaude, est endommagée ou est difficile à retirer, cessez d'utiliser l'appareil et n'essayez pas de retirer la batterie. Consultez [Sécurité de la batterie et gestion d'une batterie gonflée](#battery-safety-and-swollen-battery-handling).
-
-Utilisez d'abord la petite encoche située en bas à droite du capot arrière comme point d'appui. Faites levier le long de la jointure pour créer un espace, puis ouvrez le capot arrière et retirez la batterie du Mudi 7.
 
 ![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
@@ -167,7 +152,10 @@ Configurez votre Mudi 7 à l'aide de l'une des méthodes de connexion Internet p
 
     1. Connectez votre appareil mobile (par exemple un smartphone ou un dongle USB) au port USB-C du Mudi 7 à l'aide d'un câble USB.
     2. Sur votre appareil mobile, accédez aux réglages et activez **USB Tethering**. Si vous utilisez un iPhone, appuyez sur **Trust This Device** si cela vous est demandé.
-    3. Le Mudi 7 se connectera ensuite automatiquement à votre appareil. Si ce n'est pas le cas, répétez les étapes ci-dessus, ou connectez-vous au panneau d'administration web et vérifiez la connexion Tethering sur la page INTERNET.
+    3. Lorsque l’écran tactile vous invite à sélectionner le mode USB, choisissez **Host (USB OTG) mode**. Le Mudi 7 se connectera ensuite automatiquement à votre appareil. Si ce n’est pas le cas, répétez les étapes ci-dessus ou connectez-vous au panneau d’administration web et vérifiez la connexion Tethering sur la page INTERNET.
+
+        Pour en savoir plus sur les différences entre les modes USB, cliquez [ici](https://docs.gl-inet.com/router/en/4/tutorials/what_is_usb-c_otg_and_how_to_share_your_network_via_usb-c_otg).
+
     4. Une fois la connexion Internet établie, une icône en forme de maillon de chaîne s'affiche dans l'angle supérieur droit de l'écran tactile. Vous pouvez également consulter les détails de la connexion dans le panneau d'administration web.
 
     Pour des instructions détaillées, consultez [Se connecter à Internet via le partage de connexion USB](../../interface_guide/internet_tethering.md).
@@ -213,17 +201,9 @@ Vous pouvez mettre à niveau le firmware du Mudi 7 via l’écran tactile ou le 
 
 ### Mise à niveau via l’interface web
 
-1. Mise à niveau en ligne
+Connectez-vous au panneau d’administration web, puis accédez à **SYSTEM** -> **Upgrade**. Vous pouvez mettre à niveau le firmware de votre routeur en ligne ou localement.
 
-    Connectez-vous au panneau d’administration web, puis accédez à **SYSTEM** -> **Upgrade** -> **Firmware Online Upgrade** pour mettre à jour le firmware de votre routeur.
-
-    Pour plus de détails, consultez [cette section](../../interface_guide/upgrade.md#online-upgrade).
-
-2. Mise à niveau locale
-
-    Connectez-vous au panneau d’administration web, puis accédez à **SYSTEM** -> **Upgrade** -> **Firmware Local Upgrade** pour mettre à jour le firmware de votre routeur.
-
-    Pour plus de détails, consultez [cette section](../../interface_guide/upgrade.md#local-upgrade).
+Pour plus de détails, consultez [cette page](../../interface_guide/upgrade.md).
 
 ## Réinitialisation d'usine
 
@@ -253,7 +233,7 @@ Regardez cette vidéo ou suivez les étapes ci-dessous.
 
 1. Retirez le couvercle arrière, puis localisez le bouton Reset comme illustré ci-dessous.
 
-    ![tethering connection](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
+    ![reset button](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/hardware_info/reset-button.png){class="glboxshadow"}
 
 2. Effectuez une réinitialisation logicielle ou une réinitialisation d’usine selon vos besoins.
 
@@ -461,7 +441,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Dynamic DNS"
 
-    Le DNS dynamique (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Il est particulièrement utile pour les utilisateurs qui ont besoin d'une adresse IP statique afin d'accéder à un réseau distant.
+    Le DNS dynamique (DDNS) détecte et met à jour automatiquement en temps réel l'adresse IP associée à un domaine. Il associe un nom de domaine à l'adresse IP publique dynamique de votre routeur, ce qui vous permet d'accéder à votre réseau à distance sans adresse IP statique.
     
     Pour configurer Dynamic DNS, consultez [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -528,7 +508,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     La page Upgrade permet de mettre à jour le firmware de votre routeur vers la dernière version afin d'améliorer les performances, la sécurité et d'ajouter de nouvelles fonctionnalités. Cette page propose deux options de mise à niveau :
 
-    * Firmware Online Upgrade : vérifiez automatiquement la disponibilité de la dernière version du firmware et installez-la directement depuis le serveur du fabricant, ce qui simplifie la mise à jour.
+    * Firmware Online Upgrade : recherche automatiquement la dernière version du firmware sur le serveur du fabricant. Vous pouvez l'installer si elle est disponible en ligne.
     * Firmware Local Upgrade : téléversez manuellement un fichier de firmware depuis votre ordinateur pour mettre à jour le routeur, ce qui vous permet de contrôler la version et le moment de la mise à niveau.
 
     Ces options vous permettent de maintenir votre routeur à jour avec les dernières améliorations et corrections.
@@ -596,6 +576,21 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     La page Advanced Settings donne accès à des options de configuration avancées via l'interface OpenWrt LuCI, permettant aux utilisateurs expérimentés d'ajuster finement les paramètres et fonctionnalités du routeur au-delà des options de l'interface de base. Cela inclut des configurations réseau détaillées, des paramètres de pare-feu et d'autres personnalisations système avancées.
 
     Pour des instructions détaillées, consultez [Advanced Settings](../../interface_guide/advanced_settings.md).
+
+## Sécurité de la batterie et gestion d'une batterie gonflée {#battery-safety-and-swollen-battery-handling}
+
+Cessez d'utiliser et de charger le Mudi 7 si la batterie est gonflée, fuit, est anormalement chaude, est endommagée ou dégage une odeur inhabituelle.
+
+- Ne pressez pas, ne pliez pas, ne percez pas et n'écrasez pas la batterie ; n'exercez aucune pression dessus.
+- N'utilisez pas d'outils pour faire levier contre une batterie gonflée ou endommagée.
+- N'essayez pas de retirer une batterie gonflée, coincée, qui fuit, qui est chaude ou dont la manipulation présente un autre danger.
+- Ne jetez pas une batterie lithium-ion endommagée avec les ordures ménagères ou dans le circuit de recyclage ordinaire.
+- N'envoyez pas une batterie gonflée ou endommagée par un service de livraison de colis ordinaire.
+- Contactez le [support GL.iNet](https://www.gl-inet.com/contacts/) pour obtenir une assistance au titre de la garantie et connaître les prochaines étapes.
+
+Si la batterie endommagée a déjà été retirée, ne la réinstallez pas. Contactez un centre local adapté de recyclage des batteries ou de collecte des déchets ménagers dangereux qui accepte les batteries lithium-ion endommagées.
+
+Si la batterie dégage de la fumée, chauffe rapidement, siffle, brûle ou présente un autre danger immédiat, éloignez-vous de l'appareil et contactez les services d'urgence locaux.
 
 ## Déclaration UE de conformité
 

@@ -43,7 +43,7 @@ Die folgenden Anweisungen beschreiben das Hochladen Ihrer Firmware über das Adm
 
 3. Klicken Sie in der linken Seitenleiste auf **SYSTEM** > **Upgrade**.
 4. Klicken Sie auf **Local Upgrade** und wählen Sie die Datei aus, die Sie zuvor heruntergeladen haben.
-5. Wenn Sie Ihre aktuellen Einstellungen behalten möchten (z. B. das Admin-Passwort Ihres Routers), schalten Sie **Keep Settings** ein.
+5. Wenn Sie beim Upgrade Ihre aktuellen Einstellungen behalten möchten (z. B. das Admin-Passwort Ihres Routers), schalten Sie **Keep Settings** ein. Aktivieren Sie diese Option nicht, wenn Sie ein Firmware-Downgrade durchführen.
 6. Klicken Sie auf **Install**.
 
 **Hinweis:** Schalten Sie den Router während des Upgrade-Vorgangs nicht aus. Nach Abschluss des Upgrades wird der Anmeldebildschirm des Routers angezeigt.

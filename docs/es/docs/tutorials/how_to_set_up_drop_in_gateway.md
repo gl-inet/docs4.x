@@ -135,15 +135,45 @@ Hay dos formas de habilitar Drop-in Gateway: mediante el [panel de administraci�
         * **Preferred DNS:** introduzca la dirección IP que aparece en la página **Drop-in Gateway**.
     8. Haga clic en **Save**.
 
-??? "Android" 1. Conecte su dispositivo al router principal. 2. En Android, abra **Settings**. 3. Toque **Connections** > **Wi-Fi**. 4. Toque el icono **Settings** situado junto a la red a la que está conectado. 5. Toque **View more**. 6. Toque **IP settings** > **Static**. 7. En **Gateway** y **DNS 1**, introduzca la dirección IP que aparece en la pantalla **Drop-in Gateway**. 8. Toque **Save**.
+??? "Android"
+    1. Conecte su dispositivo al router principal.
+    2. En Android, abra **Settings**.
+    3. Toque **Connections** > **Wi-Fi**.
+    4. Toque el icono **Settings** situado junto a la red a la que está conectado.
+    5. Toque **View more**.
+    6. Toque **IP settings** > **Static**.
+    7. En **Gateway** y **DNS 1**, introduzca la dirección IP que aparece en la pantalla **Drop-in Gateway**.
+    8. Toque **Save**.
 
-??? "iOS" 1. Conecte su dispositivo al router principal. 2. En iOS, abra **Settings**. 3. Toque **Wi-Fi**. 4. Toque la red Wi-Fi a la que está conectado. 5. En **IPv4 Address**, tome nota de **IP Address** y **Subnet Mask**. 6. Toque **Configure IP** > **Manual**. 7. Introduzca la información siguiente:
-_ **IP Address:** introduzca la IP obtenida en el paso 5.
-_ **Subnet Mask:** introduzca la máscara de subred obtenida en el paso 5. \* **Router:** introduzca la dirección IP que aparece en la pantalla **Drop-in Gateway**. 8. Toque **Save**. 9. Toque **Configure DNS** y luego **Manual**. 10. Toque **Add Server** e introduzca la dirección IP que aparece en la pantalla **Drop-in Gateway**. 11. Toque **Save**.
+??? "iOS"
+    1. Conecte su dispositivo al router principal.
+    2. En iOS, abra **Settings**.
+    3. Toque **Wi-Fi**.
+    4. Toque la red Wi-Fi a la que está conectado.
+    5. En **IPv4 Address**, tome nota de **IP Address** y **Subnet Mask**.
+    6. Toque **Configure IP** > **Manual**.
+    7. Introduzca la información siguiente:
+        * **IP Address:** introduzca la dirección IP obtenida en el paso 5.
+        * **Subnet Mask:** introduzca la máscara de subred obtenida en el paso 5.
+        * **Router:** introduzca la dirección IP que aparece en la pantalla **Drop-in Gateway**.
+    8. Toque **Save**.
+    9. Toque **Configure DNS** y luego **Manual**.
+    10. Toque **Add Server** e introduzca la dirección IP que aparece en la pantalla **Drop-in Gateway**.
+    11. Toque **Save**.
 
-??? "Mac" 1. Conecte su dispositivo al router principal. 2. En su Mac, haga clic en el icono de Apple > **System Settings**. 3. En la barra lateral izquierda, haga clic en **Network**. 4. Junto a la red a la que está conectado, haga clic en **Details**. 5. Haga clic en **TCP/IP**. 6. Tome nota de **IP Address** y **Subnet Mask**. 7. Junto a **Configure IPv4**, haga clic en **Manually**. 8. Introduzca la información siguiente:
-_ **IP address:** introduzca la dirección IP obtenida en el paso 6.
-_ **Subnet mask:** introduzca la máscara de subred obtenida en el paso 6. \* **Router:** introduzca la dirección IP que aparece en la página **Drop-in Gateway**. 9. Haga clic en **OK** > **OK**.
+??? "Mac"
+    1. Conecte su dispositivo al router principal.
+    2. En su Mac, haga clic en el icono de Apple > **System Settings**.
+    3. En la barra lateral izquierda, haga clic en **Network**.
+    4. Junto a la red a la que está conectado, haga clic en **Details**.
+    5. Haga clic en **TCP/IP**.
+    6. Tome nota de **IP Address** y **Subnet Mask**.
+    7. Junto a **Configure IPv4**, haga clic en **Manually**.
+    8. Introduzca la información siguiente:
+        * **IP address:** introduzca la dirección IP obtenida en el paso 6.
+        * **Subnet mask:** introduzca la máscara de subred obtenida en el paso 6.
+        * **Router:** introduzca la dirección IP que aparece en la página **Drop-in Gateway**.
+    9. Haga clic en **OK** > **OK**.
 
 ### 4. Configurar AdGuard, DNS, VPN y otras funciones
 

@@ -41,7 +41,7 @@ Ce guide présente deux méthodes pour connecter les routeurs GL.iNet à un rés
 
     1. Lors de la connexion aux réseaux WPA/WPA2/WPA3-Enterprise, les GL-BE10000 (Slate 7 Pro), GL-MT3600BE (Beryl 7) et GL-BE3600 (Slate 7) ne prennent en charge que les réseaux authentifiés par PEAP. Les autres méthodes EAP (EAP-TLS, EAP-TTLS, EAP-MD5, etc.) ne sont pas prises en charge.
 
-    2. Les GL-MT6000 (Flint 2) et GL-MT3000 (Beryl AX) ne prennent pas en charge la connexion aux réseaux EAP avec le firmware par défaut. Cependant, GL.iNet fournit un firmware OpenWrt 24 natif pour ces modèles, qui ajoute la prise en charge EAP. Veuillez rechercher le modèle dans le [Download Center](https://dl.gl-inet.com/){target="_blank"} et consultez l'onglet OPENWRT 24 pour plus de détails.
+    2. Les GL-MT6000 (Fortify), GL-MT6000 (Flint 2) et GL-MT3000 (Beryl AX) ne prennent pas en charge la connexion aux réseaux EAP avec le firmware par défaut. Cependant, GL.iNet fournit un firmware OpenWrt 24 natif pour ces modèles, qui ajoute la prise en charge EAP. Veuillez rechercher le modèle dans le [Download Center](https://dl.gl-inet.com/){target="_blank"} et consultez l'onglet OPENWRT 24 pour plus de détails.
 
     3. Le GL-SFT1200 (Opal) prend en charge la connexion aux réseaux EAP à partir du firmware v4.8.
 

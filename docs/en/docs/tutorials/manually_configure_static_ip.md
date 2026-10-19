@@ -114,7 +114,7 @@
 
     From the Configure IPv4 menu, select Manually.
 
-    Enter a static IP address in the IPv4 Address field. What number should you enter? One method is to take your current IP address and change the last part of the number. In this example, I could have picked any address between 192.168.7.0 and 192.168.7.255, as long as the address was not already assigned to another device.
+    Enter a static IP address in the IPv4 Address field. What number should you enter? One method is to take your current IP address and change the last part of the number. For a 192.168.7.0/24 network, choose an unused host address between 192.168.7.1 and 192.168.7.254. Do not use the network or broadcast address.
 
     Click OK -> Click Apply.
    
@@ -147,19 +147,19 @@
         ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class="gl-50-desktop"}
         {class="glboxshadow"}
 
-    - When using static IP addresses on home and other private networks, they should be chosen from within the standard private IP address ranges listed:10.0.0.0 through 10.255.255.255,172.16.0.0 through 172.31.255.255,192.168.0.0 through 192.168.255.255
+    - When using static IP addresses on home and other private networks, choose an unused host address in your current subnet. The standard private IP address ranges are:10.0.0.0 through 10.255.255.255,172.16.0.0 through 172.31.255.255,192.168.0.0 through 192.168.255.255
 
     - Now enter the IP address.
         -This step is specific to each network. ex: 192.168.1.128
         
-    - The Gateway should fill in automatically based on the IP address. If not, copy the IP address and replace the last number with a 1. 
-        -ex. Based on the previous example: 192.168.1.1
+    - The Gateway should fill in automatically based on the IP address. If not, enter the IP address of your network gateway.
+        -ex. If your router's IP address is 192.168.1.1, enter 192.168.1.1.
 
     3. Tap Save and let the network reconnect.
 
 === "iOS"
 
-    When using static IP addresses on home and other private networks, they should be chosen from within the standard private IP address ranges listed:
+    When using static IP addresses on home and other private networks, choose an unused host address in your current subnet. The standard private IP address ranges are:
 
     10.0.0.0 through 10.255.255.255
     172.16.0.0 through 172.31.255.255
@@ -189,7 +189,7 @@
         
     - Tap on Subnet Mask and enter your information
 
-        - Usually, it will be 225.225.0.0.
+        - Use the subnet mask of the network you are connected to.
 
     - Tap on the Wi-Fi button, in the upper left corner of the screen, to save settings.
 

@@ -54,7 +54,7 @@ Il existe deux façons de bloquer des appareils clients, selon que vous disposez
 
 ### Méthode 1 : bloquer des appareils sans leurs adresses MAC {#mobile-1}
 
-1. Sur l'écran principal de l'application, appuyez sur l'appareil que vous souhaitez bloquer sous **Connected Clients** et **Office Clients**. 
+1. Sur l'écran principal de l'application, appuyez sur l'appareil que vous souhaitez bloquer sous **Connected Clients** et **Offline Clients**. 
 ![tap a device](https://static.gl-inet.com/docs/router/en/4/tutorials/how-to-block-client-devices/tap-a-device.jpeg){class="glboxshadow"}
 
 2. Dans **Settings**, activez l'interrupteur **Block**. 

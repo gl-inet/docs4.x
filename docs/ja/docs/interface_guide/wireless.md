@@ -1,8 +1,8 @@
 # ワイヤレス
 
-このページの内容は、ファームウェア v4.9.x に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
+このページの内容は、ファームウェア v4.9 以降に基づいています。デバイスで別のファームウェアバージョンを使用している場合は、以下のセレクターで該当するガイドに切り替えてください。
 
-<div class="gl-link-select" data-label="ファームウェアバージョン" data-placeholder="ファームウェア v4.9" markdown="1">
+<div class="gl-link-select" data-label="ファームウェアバージョン" data-placeholder="ファームウェア v4.9 以降" markdown="1">
 
 - [ファームウェア v4.8 以前](wireless_v4.8.md)
 
@@ -25,12 +25,13 @@ Wireless ページでは、MLO Wi-Fi（対応モデルのみ）、Main Network�
     - GL-BE3600 (Slate 7)
 
 ??? "非対応モデル"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-AX1800 (Flint)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -87,7 +88,7 @@ Main Network はメインの Wi-Fi ネットワークです。異なる無線バ
 
 - 2.4 GHz
 
-    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
+    ![main 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
 ## Guest Network
 

@@ -19,6 +19,7 @@ Wersja lokalna jest dostarczana przez GL.iNet. Aktualnie jest w fazie beta i nie
 ### Obsługiwane modele
 
 ??? "Obsługiwane modele"
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
     - GL-MG1300 (Mango 2)
@@ -30,7 +31,7 @@ Wersja lokalna jest dostarczana przez GL.iNet. Aktualnie jest w fazie beta i nie
     - GL-BE3600 (Slate 7)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-AX1800 (Flint)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)

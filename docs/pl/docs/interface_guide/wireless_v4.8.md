@@ -4,7 +4,7 @@ Treść tej strony dotyczy wersji firmware v4.8.x i wcześniejszych. Jeśli urz�
 
 <div class="gl-link-select" data-label="Wersja firmware" data-placeholder="Firmware v4.8 i wcześniejsze" markdown="1">
 
-- [Firmware v4.9](wireless.md)
+- [Firmware v4.9 i nowsze](wireless.md)
 
 </div>
 
@@ -112,7 +112,7 @@ Kliknij poniższe karty, aby dowiedzieć się więcej o ustawieniach głównej s
 
     ![wifi qr code](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/wifi_ssid_qr_code.png){class="glboxshadow"}
 
-* **Randomized BSSID**: Ta funkcja jest domyślnie włączona. Ma zapobiegać gromadzeniu przez producentów urządzeń klienckich pobliskich identyfikatorów BSSID sieci Wi‑Fi oraz współrzędnych GPS urządzeń klienckich na ich serwerach. Kliknij [tutaj](#randomized-bssid), aby uzyskać więcej informacji.
+* **Randomized BSSID**: funkcja domyślnie włączona, która zapobiega śledzeniu routera przez stały BSSID. Szczegóły znajdziesz w sekcji [Randomized BSSID](#randomized-bssid).
 
 * **Bandwidth** i **Channel** nie mogą być modyfikowane, gdy router działa w [trybie repeatera](internet_repeater.md), ponieważ są zgodne z ustawieniami powielanej sieci.
 
@@ -126,31 +126,37 @@ Kliknij poniższe karty, aby dowiedzieć się więcej o ustawieniach głównej s
 
 ## Losowy BSSID {#randomized-bssid}
 
-Funkcja Randomized BSSID jest dostępna od firmware v4.6. Ma zapobiegać gromadzeniu przez producentów urządzeń klienckich pobliskich identyfikatorów BSSID sieci Wi‑Fi oraz współrzędnych GPS urządzeń klienckich na ich serwerach.
+Randomized BSSID to funkcja ochrony prywatności dostępna od firmware v4.6 i domyślnie włączona. Zapobiega lokalizowaniu i śledzeniu routera za pomocą stałego BSSID sieci Wi-Fi (adresu MAC interfejsu bezprzewodowego routera).
 
-**Jak producenci urządzeń klienckich zbierają dane lokalizacyjne**
+**Dlaczego stały BSSID zagraża prywatności**
 
-Producenci urządzeń klienckich zazwyczaj zbierają dane geolokalizacyjne punktów dostępowych Wi‑Fi, wykorzystując ich unikalne BSSID do lokalizowania urządzeń. Gdy urządzenia klienckie (np. telefony komórkowe lub komputery) skanują router albo łączą się z nim:
+Mobilne systemy operacyjne, takie jak Android i iOS, wykorzystują pozycjonowanie Wi-Fi oparte na danych zbieranych od użytkowników do świadczenia usług lokalizacyjnych:
 
-- Jeśli inne urządzenia znajdują się w zasięgu sygnału Wi‑Fi routera, ich lokalizacja i trasy przemieszczania się mogą zostać ujawnione.
+1. Urządzenia klienckie, takie jak telefony i laptopy, okresowo przesyłają wykryte identyfikatory BSSID wraz z własną lokalizacją GPS na serwer dostawcy systemu operacyjnego lub producenta urządzenia.
 
-- Jeśli urządzenie korzysta z GPS do pozycjonowania, okresowo przesyła na serwer producenta pobliskie identyfikatory BSSID sieci Wi‑Fi oraz odpowiadające im współrzędne GPS.
+2. Dostawcy łączą te dane w globalnej bazie przypisującej identyfikatory BSSID do lokalizacji.
+
+3. Dowolne urządzenie z włączonym Wi-Fi, nawet bez GPS, może wysłać zapytanie do tej bazy, aby oszacować swoją lokalizację na podstawie pobliskich identyfikatorów BSSID.
 
 ![randomized bssid](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless/randomized-bssid-new.jpg){class="glboxshadow"}
 
-**Zagrożenia bezpieczeństwa związane z crowdsourcingowym śledzeniem**
+W rezultacie router ze stałym BSSID działa jak stały znacznik lokalizacji: można go zdalnie zlokalizować i śledzić jego przemieszczanie się, na przykład podczas podróży. Atakujący mogą też odpytywać takie bazy, aby lokalizować routery lub identyfikować ich cechy na podstawie informacji o producencie zawartych w BSSID (OUI).
 
-Nawet urządzenia bez GPS (lub z wyłączonym GPS) mogą oszacować swoją lokalizację, wysyłając zapytanie o widoczne informacje BSSID. Taki crowdsourcingowy system śledzenia lokalizacji ma jednak luki bezpieczeństwa. Atakujący mogą wykorzystać go do budowania globalnej bazy lokalizacji punktów dostępowych Wi‑Fi i ciągłego śledzenia tras przemieszczania się urządzeń, co stanowi zagrożenie dla prywatności i bezpieczeństwa użytkowników.
+**Jak Randomized BSSID Cię chroni**
 
-**Jak Randomized BSSID chroni prywatność**
+Gdy funkcja jest włączona, router generuje losowy BSSID i odnawia go przy każdym uruchomieniu. Ponieważ BSSID stale się zmienia, nie można go już powiązać ze stałą lokalizacją w bazach dostawców. Przerywa to powiązanie między BSSID a lokalizacją wykorzystywane do śledzenia.
 
-Aby ograniczyć te zagrożenia, routery GL.iNet implementują funkcję Randomized BSSID jako mechanizm ochrony prywatności.
+| Stan | Działanie |
+| ----------------- | ---------------------- |
+| Włączona (domyślnie) | Przy każdym uruchomieniu generowany jest nowy losowy BSSID |
+| Wyłączona | Router używa swojego rzeczywistego fabrycznego adresu MAC jako BSSID |
 
-W webowym panelu administracyjnym routera przejdź do **WIRELESS** -> **5GHz Wi-Fi** lub **2.4GHz Wi-Fi**; opcja BSSID jest tam domyślnie włączona.
+**Uwagi**:
 
-Przy tym ustawieniu urządzenie używa losowo generowanego BSSID i odnawia go przy każdym uruchomieniu. Jeśli wyłączysz losowy BSSID, router wróci do używania rzeczywistego adresu MAC.
-
-**Uwaga**: W przypadku gościnnej sieci Wi‑Fi identyfikator BSSID pozostaje taki sam jak BSSID głównej sieci Wi‑Fi w tym samym paśmie częstotliwości.
+1. BSSID zmienia się tylko po ponownym uruchomieniu routera; podczas jego pracy pozostaje taki sam.
+2. BSSID gościnnej sieci Wi-Fi pozostaje zgodny z BSSID głównej sieci Wi-Fi w tym samym paśmie częstotliwości.
+3. Jeśli pasma radiowe MLO Wi-Fi obejmują 6 GHz, BSSID MLO Wi-Fi synchronizuje się z BSSID sieci Wi-Fi 6 GHz.
+4. Randomized BSSID blokuje śledzenie przez BSSID routera, ale nie powstrzymuje urządzeń klienckich przed zgłaszaniem własnej lokalizacji i nie zapewnia pełnej ochrony prywatności: nadal można obserwować SSID, kanał i charakterystykę sygnału.
 
 ---
 

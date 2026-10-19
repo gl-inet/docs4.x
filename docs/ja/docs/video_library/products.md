@@ -68,7 +68,7 @@ ExpressVPN 内蔵の高性能 Wi-Fi 6 ルーター
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wOm1PS4Z-fY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## GL-XE3000 (Spitz AX)
+## GL-XE3000 (Puli AX)
 
 バッテリー搭載Wi-Fi 6 5Gセルラールーター
 

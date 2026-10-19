@@ -17,6 +17,7 @@ GL.iNet cellular routers are equipped with a built-in modem that supports sendin
     - GL-X300B (Collie)
 
 ??? "Unsupported Models"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
@@ -26,7 +27,7 @@ GL.iNet cellular routers are equipped with a built-in modem that supports sendin
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-AX1800 (Flint)
     - GL-MT2500/GL-MT2500A (Brume 2)
     - GL-MT3000 (Beryl AX)
@@ -64,15 +65,15 @@ Take the GL-X3000 (Spitz AX) as an example.
 
     ![sms new message](https://static.gl-inet.com/docs/router/en/4/tutorials/sms/sms_new_message2.png){class="glboxshadow"}
 
-    * Recepient
+    * Recipient
 
         You need to select the international area code and enter the number. 
 
-    * From modem (SIM)
+    * From Modem(SIM)
 
         Select which SIM card to send from.
 
-    * SMS Content
+    * SMS Contents
 
         Each SMS can have up to 160 characters.
 

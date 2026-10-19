@@ -5,7 +5,7 @@
 <div class="gl-link-select" data-label="ファームウェアバージョン" data-placeholder="ファームウェア v4.7 以前" markdown="1">
 
 - [ファームウェア v4.8](vpn_dashboard_v4.8.md)
-- [ファームウェア v4.9](vpn_dashboard.md)
+- [ファームウェア v4.9 以降](vpn_dashboard.md)
 
 </div>
 

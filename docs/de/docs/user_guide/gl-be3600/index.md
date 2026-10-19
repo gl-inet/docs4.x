@@ -214,7 +214,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dies ist besonders nützlich für Benutzer, die für den Zugriff auf ein entferntes Netzwerk eine statische IP-Adresse benötigen.
+    Dynamic DNS (DDNS) erkennt und aktualisiert automatisch die mit einer Domain verknüpfte IP-Adresse in Echtzeit. Dabei wird ein Domainname der dynamischen öffentlichen IP-Adresse Ihres Routers zugeordnet, sodass Sie ohne statische IP-Adresse aus der Ferne auf Ihr Netzwerk zugreifen können.
 
     Zum Einrichten von Dynamic DNS lesen Sie bitte [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -354,7 +354,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Die Seite Upgrade dient dazu, die Firmware Ihres Routers auf die neueste Version zu aktualisieren, um Leistung, Sicherheit und neue Funktionen bereitzustellen. Diese Seite bietet zwei Upgrade-Optionen:
 
-    * Firmware Online Upgrade: Prüfen und installieren Sie automatisch die neueste Firmware-Version direkt vom Server des Herstellers, um den Aktualisierungsprozess zu vereinfachen.
+    * Firmware Online Upgrade: Prüft automatisch auf dem Server des Herstellers, ob die neueste Firmware-Version verfügbar ist. Wenn eine neuere Version online verfügbar ist, können Sie sie installieren.
     * Firmware Local Upgrade: Laden Sie manuell eine Firmware-Datei von Ihrem Computer hoch, um den Router zu aktualisieren und dabei Version und Zeitpunkt des Upgrades selbst zu bestimmen.
 
     Mit diesen Optionen halten Sie Ihren Router mit den neuesten Verbesserungen und Fehlerbehebungen aktuell.

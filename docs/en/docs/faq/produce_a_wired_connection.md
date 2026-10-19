@@ -6,7 +6,7 @@ A GL.iNet router can act as an Ethernet-to-Wi-Fi bridge for devices that only ha
 
 Please connect your device to the LAN port of the router and then set up [repeater](../interface_guide/internet_repeater.md).
 
-![repeatertop](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/produce_a_wired_connection/repeatertop.jpg){class=glboxshadow"}
+![repeatertop](https://static.gl-inet.com/docs/router/en/4/faq/troubleshooting/produce_a_wired_connection/repeatertop.jpg){class="glboxshadow"}
 
 ---
 

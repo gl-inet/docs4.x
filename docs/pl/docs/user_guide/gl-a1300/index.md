@@ -30,7 +30,7 @@ W opakowaniu znajdują się:
 
 ## Pierwsza konfiguracja
 
-Wszystkie routery GL.iNet mają prosty i niemal identyczny proces konfiguracji. [Kliknij tutaj, aby dowiedzieć się więcej o pierwszej konfiguracji](../../faq/first_time_setup.md/).
+Wszystkie routery GL.iNet mają prosty i niemal identyczny proces konfiguracji. [Kliknij tutaj, aby dowiedzieć się więcej o pierwszej konfiguracji](../../faq/first_time_setup.md).
 
 Aby skonfigurować Slate Plus, możesz skorzystać z jednej z czterech obsługiwanych metod połączenia z internetem: Ethernet, Repeater, Tethering lub Cellular. Obejrzyj poniższy film instruktażowy.
 
@@ -102,7 +102,7 @@ Sekcja **CLIENTS** pokazuje urządzenia podłączone do routera. Możesz je blok
 
 ## VPN
 
-Routery GL.iNet mają fabrycznie zainstalowane OpenVPN i WireGuard®, obsługując ponad 30 usług VPN. Automatycznie szyfrują cały ruch sieciowy w podłączonej sieci, w tym urządzeń gościnnych i urządzeń klienckich, które same nie obsługują szyfrowania VPN. Nasze routery mogą także działać jako serwery VPN, przekierowując ruch z urządzeń klienckich w zdalnych lokalizacjach do serwera VPN przez tunel VPN przed uzyskaniem dostępu do publicznego internetu.
+Routery GL.iNet mają fabrycznie zainstalowane OpenVPN i WireGuard®, obsługując ponad 30 usług VPN. Gdy klient VPN jest włączony, router może szyfrować ruch urządzeń w sieci, w tym urządzeń, na których nie można uruchomić aplikacji VPN, zgodnie z ustawieniami polityki VPN. Nasze routery mogą także działać jako serwery VPN, przekierowując ruch z urządzeń klienckich w zdalnych lokalizacjach do serwera VPN przez tunel VPN przed uzyskaniem dostępu do publicznego internetu.
 
 ### VPN Dashboard
 

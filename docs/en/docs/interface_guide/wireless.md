@@ -1,8 +1,8 @@
 # Wireless
 
-The content on this page is based on firmware version v4.9.x. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
+The content on this page is based on firmware version v4.9 and above. If your device is running a different firmware version, use the selector below to switch to the corresponding guide.
 
-<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.9" markdown="1">
+<div class="gl-link-select" data-label="Firmware version" data-placeholder="Firmware v4.9 and above" markdown="1">
 
 - [Firmware v4.8 and earlier](wireless_v4.8.md)
 
@@ -25,12 +25,13 @@ The Wireless page lets you configure various Wi-Fi networks, including MLO Wi-Fi
     - GL-BE3600 (Slate 7)
 
 ??? "Unsupported Models"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-AX1800 (Flint)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -89,7 +90,7 @@ Click the gear icon on the right to view or modify Wi-Fi settings for each band.
 
 - 2.4 GHz
 
-    ![main 5g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
+    ![main 2.4g](https://static.gl-inet.com/docs/router/en/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
 ## Guest Network
 

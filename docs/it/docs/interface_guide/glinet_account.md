@@ -1,6 +1,6 @@
 # Account GL.iNet
 
-**Nota**: il contenuto di questa pagina si basa sul firmware v4.10.
+**Nota**: questa guida si applica al firmware v4.10 e versioni successive.
 
 ---
 
@@ -44,7 +44,7 @@ Fare clic su **Go** nell'angolo inferiore destro della sezione GoodCloud per apr
 
 ### GoodPAS
 
-Fare clic su **Go** nell'angolo inferiore destro della sezione GoodPAS per aprire la pagina GoodPAS, in cui è possibile creare una rete sicura tra il router da viaggio e la rete domestica. In questo modo si può accedere da remoto alla rete domestica e utilizzare il relativo indirizzo IP per l'accesso a Internet. Per maggiori dettagli, consultare [GoodPAS](./astrowarp.md).
+Fare clic su **Go** nell'angolo inferiore destro della sezione GoodPAS per aprire la pagina GoodPAS, in cui è possibile creare una rete sicura tra il router da viaggio e la rete domestica. In questo modo si può accedere da remoto alla rete domestica e utilizzare il relativo indirizzo IP per l'accesso a Internet. Per maggiori dettagli, consultare [GoodPAS](./goodpas.md). Nel firmware v4.10, questa sezione è denominata AstroWarp sui modelli diversi da GL-MG1300; consultare [AstroWarp](./astrowarp.md).
 
 ![goodpas 1](https://static.gl-inet.com/docs/router/en/4/interface_guide/glinet_account/goodpas.png){class="glboxshadow"}
 

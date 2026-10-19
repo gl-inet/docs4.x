@@ -319,7 +319,7 @@ Ein VPN (Virtual Private Network) erstellt einen sicheren, verschlüsselten Date
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) erkennt und aktualisiert die einer Domain zugeordnete IP-Adresse in Echtzeit automatisch. Es ist besonders nützlich für Benutzer, die eine statische IP-Adresse benötigen, um auf ein entferntes Netzwerk zuzugreifen.
+    Dynamic DNS (DDNS) erkennt und aktualisiert die einer Domain zugeordnete IP-Adresse in Echtzeit automatisch. Dabei wird ein Domainname der dynamischen öffentlichen IP-Adresse Ihres Routers zugeordnet, sodass Sie ohne statische IP-Adresse aus der Ferne auf Ihr Netzwerk zugreifen können.
 
     Informationen zur Einrichtung finden Sie unter [Dynamic DNS](../../interface_guide/ddns.md).
 

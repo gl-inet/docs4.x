@@ -19,12 +19,14 @@ You can customize the switch behavior in the web Admin Panel.
     - GL-A1300 (Slate Plus)
     - GL-MT300N-V2 (Mango)
     - GL-AR300M Series (Shadow)
+    - GL-S200
     - GL-E750V2 (Mudi V2)
     - GL-AR750S (Slate)
     - GL-AR750 (Creta)
 
 ??? "Unsupported Models"
 
+    - GL-MT6000 (Fortify)
     - GL-BE14000 (Flint 4)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
@@ -32,7 +34,7 @@ You can customize the switch behavior in the web Admin Panel.
     - GL-BE9300 (Flint 3)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
     - GL-AX1800 (Flint)
@@ -49,7 +51,7 @@ On the left side of the web Admin Panel, go to **SYSTEM** -> **Toggle Button Set
 
 ![toggle button settings](https://static.gl-inet.com/docs/router/en/4/interface_guide/toggle_button_settings/toggle_button_settings.jpg){class="glboxshadow"}
 
-Prior to firmware v4.8, there are four options, allowing users to customize the toggle button's functionality. 
+Prior to firmware v4.8, there are five options, allowing users to customize the toggle button's functionality.
 
 - No Function
 - AdGuard Home

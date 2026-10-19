@@ -171,7 +171,7 @@ There are two methods to enable drop-in gateway: through the [router admin panel
     7. Next to **Configure IPv4**, click **Manually**.
     8. Enter the following information: 
         * **IP address:** Enter the IP Address you obtained in step 6. 
-        * **Subnet mask:** Enter the IP Address you obtained in step 6. 
+        * **Subnet mask:** Enter the Subnet Mask you obtained in step 6. 
         * **Router:** Enter the IP address shown on the **Drop-in Gateway** page. 
     9. Click **OK** > **OK**. 
 

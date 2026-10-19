@@ -1,6 +1,6 @@
 # GoodPAS
 
-**注意**: この機能はファームウェア v4.11 で導入され、AstroWarp から GoodPAS に名称変更されました。デバイスで古いファームウェアを使用している場合は、[AstroWarp](./astrowarp.md) を参照してください。
+**注意**: この機能はファームウェア v4.11（GL-MG1300 では v4.10）で導入され、AstroWarp から GoodPAS に名称変更されました。デバイスで古いファームウェアを使用している場合は、[AstroWarp](./astrowarp.md) を参照してください。
 
 ---
 
@@ -12,9 +12,13 @@ GoodPAS は、GL.iNet ルーター SDK に統合された高度なリモート�
 
 **注意**:
 
-1. GoodPAS を次の機能と同時に使用するとルーティング競合が発生する可能性があるため、同時使用は推奨されません: GoodCloud Site to Site、ZeroTier、Tailscale、Tor。
+1. GoodPAS を次の機能と同時に使用するとルーティング競合が発生する可能性があるため、同時使用は推奨されません: OpenVPN Client、WireGuard Client、GoodCloud Site to Site、ZeroTier、Tailscale、Tor。
 
 2. GoodPAS が有効な場合、Network Mode は使用できません。
+
+3. GoodPASを有効にすると、ルーティングの優先度が最も高くなり、VPNクライアントとカスケード接続することはできません。
+
+    たとえば、ルーターAとルーターBがGoodPASネットワークを構成し、ルーターBを出口ノードに設定した場合、GoodPAS経由のトラフィックはルーターBのWANパブリックIPを使用してインターネットに接続します。ルーターBでVPNクライアントが有効になっていても、このトラフィックはルーターBのVPNクライアントトンネルには転送されません。
 
 ## クイックセットアップ
 

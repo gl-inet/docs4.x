@@ -12,11 +12,11 @@
 
     2. W sekcji "IP settings" kliknij przycisk Edit.
 
-        ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Windows_11_edit_IP_address.png){class=`"glboxshadow`"}
+        ![Windows 11 edit IP address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Windows_11_edit_IP_address.png){class="glboxshadow"}
 
     3. Wykonaj poniższe kroki, aby skonfigurować:
 
-        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class=`"glboxshadow`"}
+        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class="glboxshadow"}
 
         - Wybierz opcję Manual, włącz przełącznik IPv4.
 
@@ -55,11 +55,11 @@
     
     2. W sekcji "IP settings" kliknij przycisk Edit.
 
-        ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.png){class=`"glboxshadow`"}
+        ![Edit_TCP/IP_Ethernet_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Edit_TCP_IP_Ethernet_settings.png){class="glboxshadow"}
 
     3. Wykonaj poniższe kroki, aby skonfigurować:
 
-        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class=`"glboxshadow`"}
+        ![Settings_app_set_static_IP_address](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Settings_app_set_static_IP_address.png){class="glboxshadow"}
         
         - Wybierz opcję Manual.
 
@@ -100,7 +100,7 @@
 
     Wybierz Network. Pojawi się okno pokazane poniżej.
 
-    ![Mac_network_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_network_settings.png){class=`"glboxshadow`"}
+    ![Mac_network_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_network_settings.png){class="glboxshadow"}
 
     Z paska bocznego wybierz aktywny interfejs sieciowy. W tym przykładzie jestem połączony z siecią bezprzewodową, więc wybiorę Wi-Fi.
 
@@ -110,11 +110,11 @@
 
     Wybierz TCP/IP. Pojawi się okno pokazane poniżej.
     
-    ![Mac_Wi-Fi_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_Wi-Fi_settings.png){class=`"glboxshadow`"}
+    ![Mac_Wi-Fi_settings](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/Mac_Wi-Fi_settings.png){class="glboxshadow"}
 
     Z menu Configure IPv4 wybierz Manually.
 
-    Wprowadź statyczny adres IP w polu IPv4 Address. Jaki numer powinieneś wprowadzić? Jedną z metod jest wzięcie bieżącego adresu IP i zmiana ostatniej części numeru. W tym przykładzie mogłem wybrać dowolny adres między 192.168.7.0 a 192.168.7.255, o ile adres nie był już przypisany do innego urządzenia.
+    Wprowadź statyczny adres IP w polu IPv4 Address. Jedną z metod jest zmiana ostatniej części bieżącego adresu IP. W sieci 192.168.7.0/24 wybierz nieużywany adres hosta od 192.168.7.1 do 192.168.7.254. Nie używaj adresu sieci ani adresu rozgłoszeniowego.
 
     Kliknij OK -> Kliknij Apply.
    
@@ -126,40 +126,40 @@
     1. Przejdź do Settings -> Wybierz Network & Internet, następnie Wi-Fi -> Dotknij sieci aktualnie połączonej, aby otworzyć menu ustawień.
     
     ![list_available_networks](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/list_available_networks.png){class=`"gl-50-desktop`"}
-    {class=`"glboxshadow`"}
+    {class="glboxshadow"}
 
     2. Aby ustawić statyczny adres IP, wykonaj następujące czynności:
 
     - Wybierz ikonę ołówka w prawym górnym rogu, aby uzyskać dostęp do ustawień sieciowych.
         
         ![pencil_icon](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/pencil_icon.png){class=`"gl-50-desktop`"}
-        {class=`"glboxshadow`"}
+        {class="glboxshadow"}
 
     - Wybierz Advanced Options.
         
         ![advanced_options](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/advanced_options.png){class=`"gl-50-desktop`"}
-        {class=`"glboxshadow`"}
+        {class="glboxshadow"}
 
     - Wybierz IP Settings.
         
     - Zmień ustawienie z DHCP na Static.
         
         ![DHCP_to_Static](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/DHCP_to_Static.png){class=`"gl-50-desktop`"}
-        {class=`"glboxshadow`"}
+        {class="glboxshadow"}
 
-    - Przy używaniu statycznych adresów IP w sieciach domowych i innych sieciach prywatnych, powinny być wybrane z standardowych zakresów prywatnych adresów IP wymienionych: 10.0.0.0 do 10.255.255.255, 172.16.0.0 do 172.31.255.255, 192.168.0.0 do 192.168.255.255
+    - Używając statycznych adresów IP w sieciach domowych i innych sieciach prywatnych, wybierz nieużywany adres hosta w bieżącej podsieci. Standardowe zakresy prywatnych adresów IP to: 10.0.0.0 do 10.255.255.255, 172.16.0.0 do 172.31.255.255, 192.168.0.0 do 192.168.255.255
 
     - Teraz wprowadź adres IP.
         - Ten krok jest specyficzny dla każdej sieci. np.: 192.168.1.128
         
-    - Gateway powinien wypełnić się automatycznie na podstawie adresu IP. Jeśli nie, skopiuj adres IP i zamień ostatnią liczbę na 1. 
-        - np. Na podstawie poprzedniego przykładu: 192.168.1.1
+    - Adres bramy powinien zostać uzupełniony automatycznie na podstawie adresu IP. Jeśli tak się nie stanie, wprowadź adres IP bramy sieciowej.
+        - Np. jeśli adres IP routera to 192.168.1.1, wprowadź 192.168.1.1.
 
     3. Dotknij Save i pozwól sieci ponownie się połączyć.
 
 === "iOS"
 
-    Przy używaniu statycznych adresów IP w sieciach domowych i innych sieciach prywatnych, powinny być wybrane z standardowych zakresów prywatnych adresów IP wymienionych:
+    Używając statycznych adresów IP w sieciach domowych i innych sieciach prywatnych, wybierz nieużywany adres hosta w bieżącej podsieci. Standardowe zakresy prywatnych adresów IP to:
 
     10.0.0.0 do 10.255.255.255
     172.16.0.0 do 172.31.255.255
@@ -177,7 +177,7 @@
     - Przejdź do zakładki Static, pokazanej poniżej.
 
         
-    ![IP_Settings_Screen_iOS](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/IP_Settings_Screen_iOS.png){class=`"glboxshadow`"}
+    ![IP_Settings_Screen_iOS](https://static.gl-inet.com/docs/router/en/4/tutorials/manually_configure_static_ip/IP_Settings_Screen_iOS.png){class="glboxshadow"}
 
     - Dotknij pola IP Address.
 
@@ -189,7 +189,7 @@
         
     - Dotknij Subnet Mask i wprowadź swoje informacje
 
-        - Zazwyczaj będzie to 225.225.0.0.
+        - Użyj maski podsieci sieci, z którą masz połączenie.
 
     - Dotknij przycisku Wi-Fi w lewym górnym rogu ekranu, aby zapisać ustawienia.
 

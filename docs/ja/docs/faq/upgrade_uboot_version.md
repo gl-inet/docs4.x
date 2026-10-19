@@ -46,47 +46,47 @@ U-Bootアップグレードページにアクセスするには、以下の手�
 
     ??? "Windows 11"
 
-        7. 設定を開きます。
+        1. 設定を開きます。
 
-        8. **ネットワークとインターネット**をクリックします。
+        2. **ネットワークとインターネット**をクリックします。
 
-        9. **イーサネット**タブをクリックします。
+        3. **イーサネット**タブをクリックします。
 
             ![windows 11 ethernet](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windwos11_ethernet.png){class="glboxshadow"}
 
-        10. 「IP割り当て」セクションで、**編集**ボタンをクリックします。
+        4. 「IP割り当て」セクションで、**編集**ボタンをクリックします。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_ip_assignment_edit.png){class="glboxshadow"}
 
-        11. **手動**オプションを選択します。
+        5. **手動**オプションを選択します。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_edit_ip_settings.png){class="glboxshadow"}
 
-        12. **IPv4**トグルスイッチをオンにします。
+        6. **IPv4**トグルスイッチをオンにします。
 
-        13. 固定**IPアドレス**を**192.168.1.2**に設定します。
+        7. 固定**IPアドレス**を**192.168.1.2**に設定します。
 
             ![windows 11 ethernet edit](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/windows11_ethernet_edit_ip_settings_2.png){class="glboxshadow"}
 
-        14. **サブネットマスク**を**255.255.255.0**に指定します。
+        8. **サブネットマスク**を**255.255.255.0**に指定します。
 
-        15. **保存**ボタンをクリックします。
+        9. **保存**ボタンをクリックします。
 
     ??? "macOS"
 
-        16. 画面左上の**Apple**アイコンをクリックし、**システム環境設定**を選択します。
+        1. 画面左上の**Apple**アイコンをクリックし、**システム環境設定**を選択します。
 
             ![macos system preferences](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_system_preferences.png){class="glboxshadow"}
 
-        17. **ネットワーク**をクリックします。
+        2. **ネットワーク**をクリックします。
 
             ![macos system preferences network](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_system_preferences_network.png){class="glboxshadow"}
 
-        18. 左側で**イーサネット**をクリックし、**IPv4の設定**の横にあるドロップダウンをクリックして**手動**を選択します。USBイーサネットアダプターを使用している場合、イーサネットが見つからず、USBイーサネットアダプターの名前として表示される場合があります。
+        3. 左側で**イーサネット**をクリックし、**IPv4の設定**の横にあるドロップダウンをクリックして**手動**を選択します。USBイーサネットアダプターを使用している場合、イーサネットが見つからず、USBイーサネットアダプターの名前として表示される場合があります。
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_ip_manually_1.png){class="glboxshadow"}
 
-        19. **IPv4アドレス**に`192.168.1.2`、**サブネットマスク**に`255.255.255.0`、**ルーター**に`192.168.1.1`を入力し、右下の適用ボタンをクリックします。
+        4. **IPv4アドレス**に`192.168.1.2`、**サブネットマスク**に`255.255.255.0`、**ルーター**に`192.168.1.1`を入力し、右下の適用ボタンをクリックします。
 
             ![macos ip manually](https://static.gl-inet.com/docs/router/en/4/faq/upgrade_uboot_version/macos_ip_manually_2.png){class="glboxshadow"}
 

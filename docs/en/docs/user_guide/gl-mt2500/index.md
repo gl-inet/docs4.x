@@ -128,7 +128,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It is useful for users who need a static IP address for accessing a remote network. 
+    Dynamic DNS (DDNS) automatically detects and updates the IP address associated with a domain in real-time. It maps a domain name to your router's dynamic public IP address, so you can access your network remotely without a static IP address. 
     
     To set up dynamic DNS, refer to [Dynamic DNS](../../interface_guide/ddns.md). 
 
@@ -186,11 +186,6 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 ---
 
-=== "Guest Network"
-
-    It allows you to set a subnet within the IPv4 private address ranges 192.168.0.0/16, 172.16.0.0/12, or 10.0.0.0/8, specify the gateway and netmask IP addresses, and configure security settings like AP isolation for the guest network.
-
-    To set up LAN, refer to [Lan Tutorial](../../interface_guide/guest_network.md). 
 
 === "DNS"
 
@@ -263,7 +258,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
     The Upgrade page is used to update your router's firmware to the latest version, ensuring enhanced performance, security, and new features. This page offers two options for upgrading:
 
-    * Firmware Online Upgrade: Automatically check for and install the latest firmware version directly from the manufacturer's server, simplifying the update process.
+    * Firmware Online Upgrade: Automatically check for the latest firmware version from the manufacturer's server. You can install the latest one if available online.
     * Firmware Local Upgrade: Manually upload a firmware file from your computer to update the router, providing control over the upgrade version and timing.
 
     These options allow you to keep your router up-to-date with the latest improvements and fixes.

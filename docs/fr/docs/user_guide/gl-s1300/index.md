@@ -14,7 +14,7 @@ Le Convexa-S (GL-S1300) est une passerelle domotique unique avec Wi‑Fi beamfor
 
 ## Configuration initiale
 
-Tous les routeurs GL.iNet suivent un processus de configuration similaire. [Cliquez ici pour en savoir plus sur la configuration initiale](../../faq/first_time_setup.md/).
+Tous les routeurs GL.iNet suivent un processus de configuration similaire. [Cliquez ici pour en savoir plus sur la configuration initiale](../../faq/first_time_setup.md).
 
 ---
 
@@ -76,7 +76,7 @@ Les clients sont les appareils connectés au routeur. Vous pouvez bloquer des cl
 
 ## VPN
 
-Les routeurs GL.iNet sont préinstallés avec OpenVPN et WireGuard® et prennent en charge plus de 30 services VPN. Ils chiffrent automatiquement l'ensemble du trafic réseau du réseau connecté, y compris les appareils invités et les appareils clients qui ne sont pas capables d'exécuter eux-mêmes un chiffrement VPN. Nos routeurs peuvent également agir comme serveurs VPN, en redirigeant le trafic des appareils clients situés à distance vers le serveur VPN via un tunnel VPN avant d'accéder à l'Internet public.
+Les routeurs GL.iNet sont préinstallés avec OpenVPN et WireGuard® et prennent en charge plus de 30 services VPN. Lorsque le client VPN est activé, le routeur peut chiffrer le trafic des appareils du réseau, y compris ceux qui ne peuvent pas exécuter d'applications VPN, selon vos paramètres de politique VPN. Nos routeurs peuvent également agir comme serveurs VPN, en redirigeant le trafic des appareils clients situés à distance vers le serveur VPN via un tunnel VPN avant d'accéder à l'Internet public.
 
 ### VPN Dashboard
 

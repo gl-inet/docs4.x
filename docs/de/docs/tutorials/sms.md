@@ -17,6 +17,7 @@ GL.iNet-Mobilfunkrouter sind mit einem integrierten Modem ausgestattet, das nach
     - GL-X300B (Collie)
 
 ??? "Nicht unterstützte Modelle"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-BE14000 (Flint 4)
     - GL-BE10000 (Slate 7 Pro)
@@ -26,7 +27,7 @@ GL.iNet-Mobilfunkrouter sind mit einem integrierten Modem ausgestattet, das nach
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-AX1800 (Flint)
     - GL-MT2500/GL-MT2500A (Brume 2)
     - GL-MT3000 (Beryl AX)
@@ -64,15 +65,15 @@ Nehmen Sie den GL-X3000 (Spitz AX) als Beispiel.
 
     ![sms new message](https://static.gl-inet.com/docs/router/de/4/tutorials/sms/sms_new_message2.png){class="glboxshadow"}
 
-    * Recepient
+    * Recipient
 
         Sie müssen die internationale Vorwahl auswählen und die Nummer eingeben.
 
-    * From modem (SIM)
+    * From Modem(SIM)
 
         Wählen Sie aus, von welcher SIM-Karte gesendet werden soll.
 
-    * SMS Content
+    * SMS Contents
 
         Jede SMS kann bis zu 160 Zeichen enthalten.
 

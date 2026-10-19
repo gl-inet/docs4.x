@@ -163,7 +163,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
 === "Dynamic DNS"
 
-    Le DNS dynamique (DDNS) détecte et met automatiquement à jour en temps réel l'adresse IP associée à un domaine. Il est particulièrement utile pour les utilisateurs qui ont besoin d'une adresse IP statique afin d'accéder à un réseau distant.
+    Le DNS dynamique (DDNS) détecte et met automatiquement à jour en temps réel l'adresse IP associée à un domaine. Il associe un nom de domaine à l'adresse IP publique dynamique de votre routeur, ce qui vous permet d'accéder à votre réseau à distance sans adresse IP statique.
     
     Pour configurer le DNS dynamique, consultez [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -303,7 +303,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     La page Mise à niveau permet de mettre à jour le firmware de votre routeur vers la dernière version afin d'améliorer les performances, la sécurité et les fonctionnalités. Cette page propose deux options de mise à niveau :
 
-    * Mise à niveau du firmware en ligne : vérifiez automatiquement la disponibilité de la dernière version du firmware et installez-la directement depuis le serveur du fabricant, ce qui simplifie le processus de mise à jour.
+    * Mise à niveau du firmware en ligne : recherche automatiquement la dernière version du firmware sur le serveur du fabricant. Vous pouvez l'installer si elle est disponible en ligne.
     * Mise à niveau locale du firmware : téléversez manuellement un fichier de firmware depuis votre ordinateur pour mettre à jour le routeur, ce qui vous permet de choisir la version et le moment de la mise à niveau.
 
     Ces options vous permettent de maintenir votre routeur à jour avec les dernières améliorations et corrections.

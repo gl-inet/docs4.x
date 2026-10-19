@@ -38,9 +38,9 @@ Nella finestra pop-up, aggiungi una nuova regola di port forwarding e fai clic s
 
 - **Internal Zone:** le opzioni per la zona interna sono `LAN`, `Guest`, `WireGuard Client`, `WireGuard Server`, `OpenVPN Client`, `OpenVPN Server` e `WAN`.
 
-- **Internal IP:** l'indirizzo IP assegnato dal router al dispositivo che deve essere accessibile da remoto. Se imposti una singola porta in **External Port**, dovresti impostare qui la porta singola. Se imposti un intervallo di porte in **External Port**, dovresti impostare qui l'intervallo di porte corrispondente.
+- **Internal IP:** l'indirizzo IP assegnato dal router al dispositivo che deve essere accessibile da remoto.
 
-- **Internal Port:** il numero di porta interna del dispositivo. Puoi inserire un numero di porta specifico. Lascialo vuoto se è uguale alla porta esterna.
+- **Internal Port:** il numero di porta interna del dispositivo. Puoi inserire un numero di porta specifico. Se imposti una singola porta in **External Port**, dovresti impostare qui la porta singola. Se imposti un intervallo di porte in **External Port**, dovresti impostare qui l'intervallo di porte corrispondente. Lascialo vuoto se è uguale alla porta esterna.
 
 - **Description:** imposta un nome personalizzato oppure aggiungi una descrizione per questa regola (facoltativo).
 

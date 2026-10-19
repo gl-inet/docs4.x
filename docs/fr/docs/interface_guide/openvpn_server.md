@@ -56,11 +56,11 @@ Connectez-vous au panneau d'administration web, puis accédez à **VPN** -> **Op
 
     * **Authentication Mode:** ce paramètre détermine la méthode d'authentification utilisée lorsque le client se connecte au serveur. Trois options sont disponibles.
 
-        - **Certificate Only** : si cette option est sélectionnée, le routeur génère automatiquement les clés de certificat du serveur et du client, puis les intègre au fichier de configuration du client. Lorsque vous chargez la configuration sur le client, aucun identifiant supplémentaire n'est requis.
+        - **Certificate Only** : si cette option est sélectionnée, le routeur génère automatiquement les certificats du serveur et du client, puis intègre le certificat et la clé du client au fichier de configuration du client. Lorsque vous chargez la configuration sur le client, aucun identifiant supplémentaire n'est requis.
 
         - **Username/Password Only** : si cette option est sélectionnée, le routeur génère une configuration client sans clés de certificat. Vous devez d'abord ajouter un nom d'utilisateur et un mot de passe dans l'onglet Users avant d'exporter la configuration du client. Lors du chargement de la configuration sur le client, vous devrez saisir ces identifiants pour l'authentification.
 
-        - **Username/Password and Certificate** : si cette option est sélectionnée, vous devez d'abord ajouter un nom d'utilisateur et un mot de passe dans l'onglet Users avant d'exporter la configuration du client ; ensuite, le routeur génère automatiquement les clés de certificat du serveur et du client et les intègre au fichier de configuration. Lors du chargement de la configuration sur le client, la clé de certificat est d'abord vérifiée, puis l'authentification par nom d'utilisateur et mot de passe est effectuée pour fournir une sécurité à deux facteurs.
+        - **Username/Password and Certificate** : si cette option est sélectionnée, vous devez d'abord ajouter un nom d'utilisateur et un mot de passe dans l'onglet Users avant d'exporter la configuration du client ; ensuite, le routeur génère automatiquement les certificats du serveur et du client, puis intègre le certificat et la clé du client au fichier de configuration. Lors du chargement de la configuration sur le client, la clé de certificat est d'abord vérifiée, puis l'authentification par nom d'utilisateur et mot de passe est effectuée pour fournir une sécurité à deux facteurs.
     
         Voici un exemple de création d'un utilisateur.
 

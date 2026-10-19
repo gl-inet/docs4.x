@@ -1,8 +1,8 @@
 # WLAN
 
-Der Inhalt dieser Seite basiert auf Firmwareversion v4.9.x. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
+Der Inhalt dieser Seite basiert auf Firmwareversion v4.9 und höher. Wenn auf Ihrem Gerät eine andere Firmwareversion ausgeführt wird, verwenden Sie die folgende Auswahl, um zur entsprechenden Anleitung zu wechseln.
 
-<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.9" markdown="1">
+<div class="gl-link-select" data-label="Firmwareversion" data-placeholder="Firmware v4.9 und höher" markdown="1">
 
 - [Firmware v4.8 und früher](wireless_v4.8.md)
 
@@ -25,12 +25,13 @@ Auf der Wireless-Seite können Sie verschiedene Wi-Fi-Netzwerke konfigurieren, d
     - GL-BE3600 (Slate 7)
 
 ??? "Nicht unterstützte Modelle"
+    - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-X2000 (Spitz Plus)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
     - GL-AX1800 (Flint)
     - GL-X3000 (Spitz AX)
     - GL-XE3000 (Puli AX)
@@ -87,7 +88,7 @@ Klicken Sie rechts auf das Zahnradsymbol, um die Wi-Fi-Einstellungen für jedes 
 
 - 2.4 GHz
 
-    ![main 5g](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
+    ![main 2.4g](https://static.gl-inet.com/docs/router/de/4/interface_guide/wireless_v4.9/main_2.4g.png){class="glboxshadow"}
 
 ## Guest Network
 

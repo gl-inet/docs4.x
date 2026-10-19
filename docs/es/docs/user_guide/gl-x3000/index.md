@@ -81,7 +81,7 @@ Configure su Spitz AX usando uno de los métodos de conexión a Internet admitid
 
     Si no es así, haga clic en la opción **Auto Setup** si aparece.
 
-    Consulte [Conectarse a Internet mediante cellular](../../interface_guide/internet_cellular.md/#setup-for-dual-sim-models) para ver instrucciones detalladas.
+    Consulte [Conectarse a Internet mediante cellular](../../interface_guide/internet_cellular.md#setup-for-dual-sim-models) para ver instrucciones detalladas.
 
     Aprenda a usar la tarjeta física eSIM en un router GL.iNet [aquí](../../tutorials/how_to_use_esim_physical_card_with_glinet_routers.md)
 
@@ -183,7 +183,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "Dynamic DNS"
 
-    Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Resulta especialmente útil para los usuarios que necesitan una dirección IP estática para acceder a una red remota.
+    Dynamic DNS (DDNS) detecta y actualiza automáticamente en tiempo real la dirección IP asociada a un dominio. Asigna un nombre de dominio a la dirección IP pública dinámica de su router, de modo que pueda acceder a su red de forma remota sin necesidad de una dirección IP estática.
 
     Para configurar Dynamic DNS, consulte [Dynamic DNS](../../interface_guide/ddns.md).
 
@@ -324,11 +324,11 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "Upgrade"
 
-    La página Upgrade se utiliza para actualizar el firmware del router a la versión más reciente, lo que garantiza mejor rendimiento, mayor seguridad y nuevas funciones. Esta página ofrece dos opciones de actualización:
+    La página Upgrade se utiliza para actualizar el firmware del router a la versión más reciente, lo que garantiza mejor rendimiento, mayor seguridad y nuevas funciones. Esta página ofrece cuatro opciones de actualización:
 
-    * Firmware Online Upgrade: compruebe e instale automáticamente la versión más reciente del firmware directamente desde el servidor del fabricante, lo que simplifica el proceso de actualización.
+    * Firmware Online Upgrade: comprueba automáticamente en el servidor del fabricante si existe una versión más reciente del firmware. Puede instalarla si está disponible en línea.
     * Firmware Local Upgrade: cargue manualmente un archivo de firmware desde su ordenador para actualizar el router, lo que le da control sobre la versión y el momento de la actualización.
-    * Module Online Upgrade: compruebe e instale automáticamente la versión más reciente del módulo 4G/5G directamente desde el servidor del fabricante, lo que simplifica el proceso de actualización.
+    * Module Online Upgrade: comprueba automáticamente en el servidor del fabricante si existe una versión más reciente del módulo 4G/5G. Puede instalarla si está disponible en línea.
     * Module Local Upgrade: cargue manualmente un archivo del módulo desde su ordenador para actualizar el módulo 4G/5G.
 
     Estas opciones le permiten mantener el router actualizado con las mejoras y correcciones más recientes.

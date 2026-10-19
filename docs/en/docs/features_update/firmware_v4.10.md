@@ -12,7 +12,7 @@ Get the latest firmware from the [Firmware Download Center](https://dl.gl-inet.c
 
 ## GL.iNet Account
 
-The [GL.iNet Account](../interface_guide/glinet_account.md) provides a centralized page where you can connect or manage your devices and access cloud services. With a single GL.iNet Account, you can seamlessly access GoodCloud and the GL.iNet App for more convenient network and device management. You can also quickly access the GoodPAS page to establish a secure connection between your travel router and home network.
+[GL.iNet Account](../interface_guide/glinet_account.md) provides a centralized page where you can connect or manage your devices and access cloud services. With a single GL.iNet Account, you can seamlessly access GoodCloud and the GL.iNet App for more convenient network and device management. You can also quickly access the GoodPAS page (named AstroWarp in v4.10 on models other than GL-MG1300) to establish a secure connection between your travel router and home network.
 
 ![gl.inet account](https://static.gl-inet.com/docs/router/en/4/features_update/4.10/account.png){class="glboxshadow"}
 

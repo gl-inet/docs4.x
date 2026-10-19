@@ -48,7 +48,7 @@ Follow the steps below to check the router's IP address.
 
     ![control panel](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/control_panel_view_by.png){class="glboxshadow"}
 
-    Control Panel -> Network and Share Center -> Click the connection. You may have multiple connections, please choose the corresponding connections of the router you want to check.
+    Control Panel -> Network and Sharing Center -> Click the connection. You may have multiple connections, please choose the corresponding connections of the router you want to check.
 
     ![network and sharing center, connections](https://static.gl-inet.com/docs/router/en/4/faq/cannot_access_web_admin_panel/network_and_sharing_center_connections.png){class="glboxshadow"}
 

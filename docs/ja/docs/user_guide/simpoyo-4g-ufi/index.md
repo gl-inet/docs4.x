@@ -66,6 +66,7 @@ SIMPoYo 4G uFi は、Wi‑Fi ホットスポット機能を備えたコンパク
                 <td>消灯</td>
                 <td>Wi‑Fi 無効</td>
             </tr>
+            <tr>
                 <td rowspan="2">4G LED + Wi‑Fi LED</td>
                 <td>白</td>
                 <td>電源オン</td>
@@ -73,6 +74,7 @@ SIMPoYo 4G uFi は、Wi‑Fi ホットスポット機能を備えたコンパク
             <tr>
                 <td>消灯</td>
                 <td>電源オフ</td>
+            </tr>
         </tbody>
     </table>
 </body>

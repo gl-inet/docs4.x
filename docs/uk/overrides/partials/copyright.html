@@ -1,0 +1,22 @@
+<div class="md-copyright">
+  {% if config.copyright %}
+    <div class="md-copyright__highlight">
+      {{ config.copyright }}
+    </div>
+  {% endif %}
+  {% if not config.extra.generator == false %}
+    Створено за допомогою
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  {% endif %}
+</div>
+
+<nav class="gl-docs-footer" aria-label="Сайти документації GL.iNet">
+  <span class="gl-docs-footer__title">Документація</span>
+  <span class="gl-docs-footer__links">
+    <span class="gl-docs-footer__current" aria-current="page">Маршрутизатори</span>
+    <a href="https://docs.gl-inet.com/kvm/en/">KVM</a>
+    <a href="https://docs.gl-inet.com/iot/en/">IoT</a>
+  </span>
+</nav>

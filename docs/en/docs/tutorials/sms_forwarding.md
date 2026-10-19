@@ -66,11 +66,11 @@ Take the GL-XE3000 (Puli AX) as an example.
 
     For Gmail, you need to login your google account and create an **App Passwords**. Please check the official guide [Sign in with App Passwords](https://support.google.com/accounts/answer/185833?hl=en){target="_blank"}. You need to enable two-steps verification before create the App Passwords.
 
-    Both 465 and 587 ports are useable.
+    Both 465 and 587 ports are usable.
 
 ??? "Outlook"
 
-    For Outlook, you can use password directly without any setting, and it supports port 587. Please chck the official guide [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}
+    For Outlook, you can use password directly without any setting, and it supports port 587. Please check the official guide [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}
 
 ??? "iCloud"
 
@@ -78,7 +78,7 @@ Take the GL-XE3000 (Puli AX) as an example.
 
 ??? "Yahoo"
 
-    For Yahoo, you need to set an app password for login, and it supports both port 465 and 587. Please refere to the official guide [POP access settings and instructions for Yahoo Mail](https://help.yahoo.com/kb/SLN4724.html){target="_blank"} and [Generate and manage third-party app passwords](https://help.yahoo.com/kb/SLN15241.html){target="_blank"}.
+    For Yahoo, you need to set an app password for login, and it supports both port 465 and 587. Please refer to the official guide [POP access settings and instructions for Yahoo Mail](https://help.yahoo.com/kb/SLN4724.html){target="_blank"} and [Generate and manage third-party app passwords](https://help.yahoo.com/kb/SLN15241.html){target="_blank"}.
 
 **Note**: Each email sender may be subject to SMTP sending limits, e.g., a daily limit on the number of emails sent. Please consult with your service provider.
 

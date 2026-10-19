@@ -24,7 +24,7 @@ GoodCloud Site to Site allows offices in multiple locations to establish secure 
 
 ## Build a Site to Site network
 
-1. Bind your routers to your GoodCloud account. [How](../interface_guide/cloud.md/#setup-your-goodcloud-account)?
+1. Bind your routers to your GoodCloud account. See [Bind Devices to Cloud](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 2. Log in to [GoodCloud](https://www.goodcloud.xyz/#/login){target="_blank"}, navigate to **Site to Site** at the left-side bar. Click **Create Network** at the upper right.
 

@@ -174,7 +174,7 @@ To set up Clients, refer to [Clients](../../interface_guide/clients.md).
 
 === "Multi-WAN"
 
-    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., cellular, repeater, and ethernet) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
+    Multi-WAN is a networking feature that allows you to set up your router with multiple internet connections (e.g., ethernet, tethering, and cellular) at the same time. If your current internet connection fails, the router will automatically switch to another internet connection. This ensures smooth and uninterrupted internet access. 
 
     To set up multi-WAN, refer to [Multi-WAN](../../interface_guide/multi-wan.md). 
 

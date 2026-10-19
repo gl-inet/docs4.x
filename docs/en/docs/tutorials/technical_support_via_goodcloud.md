@@ -50,7 +50,7 @@ If your router runs firmware v4.6 or earlier, follow the steps below to log in t
 
 1. Visit [GoodCloud](https://www.goodcloud.xyz){target="_blank"} and log in to your account. If you don't have an account, register one first.
 
-2. Bind your device to GoodCloud. Please refer to [this link](../interface_guide/cloud.md#add-device-in-your-account).
+2. Bind your device to GoodCloud. See [Bind Devices to Cloud](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 ## Share device with GL.iNet technical support
 

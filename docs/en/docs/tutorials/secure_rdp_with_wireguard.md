@@ -24,7 +24,7 @@ This tutorial takes two GL.iNet routers as an example to demonstrate how to secu
 
     This step may vary due to differences in firmware versions. Select the firmware version of the router you set as WireGuard client below for reference.
     
-    ??? note "For firmware v1.7 and earlier"
+    ??? note "For firmware v4.7 and earlier"
     
         Log in to your WireGuard client and go to **VPN** -> **VPN Dashboard**. Locate the **VPN Server** and click the gear icon on the right. 
 
@@ -34,7 +34,7 @@ This tutorial takes two GL.iNet routers as an example to demonstrate how to secu
 
         ![wgserver options2](https://static.gl-inet.com/docs/router/en/4/tutorials/wireguard_rdp/wgserver_options2.png){class="glboxshadow"}
 
-    ??? note "For firmware v1.8 and above"
+    ??? note "For firmware v4.8 and above"
 
         Log in to your WireGuard client and go to **VPN** -> **WireGuard Server**. Click **Options** in the upper-right. 
 

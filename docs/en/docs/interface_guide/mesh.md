@@ -76,16 +76,19 @@ Mesh prioritizes Ethernet backhaul and supports switching to wireless when a sui
 ## Supported Models
 
 ??? "Supported Models"
+
+    - ※GL-BE14000 (Flint 4)
+    - ※GL-BE10000 (Slate 7 Pro)
     - GL-BE9300 (Flint 3)
     - GL-BE3600 (Slate 7)
     - GL-MT6000 (Flint 2)
     - GL-MT3000 (Beryl AX)
 
+    **Note**: Models marked with ※ support the integrated Mesh in Beta firmware.
+
 ??? "Unsupported Models"
     - GL-MT6000 (Fortify)
     - GL-MG1300 (Mango 2)
-    - GL-BE14000 (Flint 4)
-    - GL-BE10000 (Slate 7 Pro)
     - GL-E5800 (Mudi 7)
     - GL-MT5000 (Brume 3)
     - GL-MT3600BE (Beryl 7)

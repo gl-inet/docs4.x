@@ -16,7 +16,7 @@ After each step, check if the issue is resolved. If resolved, skip the remaining
 
 5. Use a different browser (e.g., Chrome, Edge, Safari) to access `192.168.8.1`. If the rebooting process was successful, you will be directed to the setup guide.
 
-6. If you still cannot access the router's web Admin Panel or the router is not functioning properly, try resetting the router to its factory default settings by follow [this](repair_network_or_reset_firmware.md/#reset-to-factory) guide.
+6. If you still cannot access the router's web Admin Panel or the router is not functioning properly, try resetting the router to its factory default settings by follow [this](repair_network_or_reset_firmware.md#reset-to-factory) guide.
 
 ---
 

@@ -140,7 +140,7 @@ Now you can connect your devices to the router via cable or Wi-Fi, or connect to
 
 **Step 1**. Plug the SIMPoYo uFi into the USB port of your computer (e.g., desktop or laptop). It will automatically be recognized as a USB Ethernet device, making your device online right away.
 
-**Step 2**. Other devices (e.g. smartphones, tables, etc.) can connect to the SIMPoYo uFi's 2.4 GHz Wi-Fi network to access the internet simultaneously.
+**Step 2**. Other devices (e.g. smartphones, tablets, etc.) can connect to the SIMPoYo uFi's 2.4 GHz Wi-Fi network to access the internet simultaneously.
 
 ![multi-device](https://static.gl-inet.com/docs/router/en/4/user_guide/simpoyo-4g-ufi/multi-device.jpg){class="glboxshadow"}
 

@@ -265,7 +265,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Ethernet Port"
 
-    The Ethernet Port page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+    The Ethernet Port page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
 
     To manage Ethernet ports, refer to [Ethernet Port](../../interface_guide/ethernet_port.md).
 
@@ -301,7 +301,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Hardware acceleration refers to the use of specialized hardware components to perform specific tasks more efficiently than general-purpose CPUs. 
     
-    To set up network acceleration to this [Network Acceleration](../../interface_guide/network_acceleration.md) tutorial.
+    To set up network acceleration, refer to [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 === "NAT Settings"
 

@@ -119,7 +119,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
     Tor, short for The Onion Router, is a privacy-focused network that enables anonymous communication over the internet. It routes internet traffic through a series of volunteer-operated servers (nodes) to obscure the user's location and usage, making it difficult to trace online activities.
     
-    *[How to set up Tor](../../interface_guide/tor.md).
+    * [How to set up Tor](../../interface_guide/tor.md).
 
 ## Wireless and clients
 
@@ -231,7 +231,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Port Management"
 
-    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
 
     To manage Ethernet ports, refer to [Port Management](../../interface_guide/ethernet_port.md).
 

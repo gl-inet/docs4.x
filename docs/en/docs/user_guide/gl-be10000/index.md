@@ -38,7 +38,7 @@ Check out Slate 7 Pro's unboxing video below.
 
 ### 1. Power on
 
-Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
+Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
 ### 2. Connect device
 

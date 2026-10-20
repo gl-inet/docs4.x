@@ -26,7 +26,7 @@ Watch this setup video or follow the steps below.
 
 ### 1. Power on
 
-Put the two-piece power adapter together. Connect it to your router and plug it into a outlet. It will start up automatically.
+Put the two-piece power adapter together. Connect it to your router and plug it into an outlet. It will start up automatically.
 
 ### 2. Connect device
 
@@ -232,7 +232,7 @@ A VPN (virtual private network) creates a secure, encrypted traffic between your
 
 === "Port Management"
 
-    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiate the network port rate.
+    The Port Management page allows you to configure the WAN and LAN ports, set the WAN/LAN interface to Ethernet, specify the MAC mode and MAC address for the WAN interface, and show the negotiated network port rate.
 
     To manage Ethernet ports, refer to [Port Management](../../interface_guide/ethernet_port.md).
 

@@ -2,9 +2,9 @@
 
 Most of the game makers will ask you to turn on the UPnP on the router to get a better NAT type, however studies show UPnP is a non-secure protocol.
 
-You can achieve the same purpose in a more secure may, either by the function of DMZ or port forward.
+You can achieve the same purpose in a more secure way, either by the function of DMZ or port forward.
 
-## Check you Game IP
+## Check your Game IP
 
 Go to the client list and check the IP assigned to your game. You need to use this IP address on the following setup
 
@@ -27,7 +27,6 @@ Example: Ports for PS5
 UDP 3074, 3478-3479
 
 TCP 1935, 3478-3480
-
 
 ![ps5port](https://static.gl-inet.com/docs/router/en/4/tutorials/gamling/ps5port.png){class="glboxshadow"}
 

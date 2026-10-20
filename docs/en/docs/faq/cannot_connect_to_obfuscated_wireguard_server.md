@@ -46,7 +46,7 @@ If you fail to establish a connection to an obfuscated WireGuard server, follow 
 
     ??? note "Check via SSH Command"
 
-        1. Log in to your via SSH.
+        1. Log in to your router via SSH.
         
         2. Run `opkg list|grep awg` and check the suffix of the **kmod-amneziawg** package in the output. If marked with **2.0**, the router supports AmneziaWG 2.0, as shown below.
         

@@ -2,7 +2,7 @@
 
 ## Product overview
 
-Fortify (GL-MT6000) is a co-branded Wi-Fi 6 router jointly released by GL.iNet and ExpressVPN. Every unit comes with a complimentary one-year ExpressVPN subscription. Users can redeem the subscription and connect their accounts directly on the router's web Admin Panel. Once activated, all traffic passing through the router will leverage ExpressVPN's high-speed network and robust encryption to protect your entire network connection and online privacy.
+Fortify (GL-MT6000) is a co-branded Wi-Fi 6 router jointly released by GL.iNet and ExpressVPN. Every unit comes with a complimentary one-year ExpressVPN subscription. Users can redeem the subscription and connect their accounts directly on the router's web Admin Panel. When an ExpressVPN tunnel is connected, the router encrypts and routes traffic through that tunnel according to your VPN policy settings.
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
@@ -138,7 +138,7 @@ Please refer to [Clients](../../interface_guide/clients.md) for details.
 
 A VPN (virtual private network) establishes secure, encrypted traffic tunnels between your local device and the VPN server. It adds an extra layer of privacy and security to the VPN client, and enables access to the remote VPN server network.
 
-Fortify integrates with [ExpressVPN](https://www.expressvpn.com/){target="_blank"}, allowing you to activate an ExpressVPN connection in minutes. Every Fortify device comes with a complimentary one-year ExpressVPN subscription. You may redeem the subscription and connect your ExpressVPN account directly on the router’s web admin panel. Once the VPN connection is enabled, all traffic routed through the router will utilize ExpressVPN's high-speed servers and robust encryption to secure your entire network and online privacy.
+Fortify integrates with [ExpressVPN](https://www.expressvpn.com/){target="_blank"}, allowing you to activate an ExpressVPN connection in minutes. Every Fortify device comes with a complimentary one-year ExpressVPN subscription. You may redeem the subscription and connect your ExpressVPN account directly on the router’s web admin panel. When an ExpressVPN tunnel is connected, the router encrypts and routes traffic through that tunnel according to your VPN policy settings.
 
 To redeem free subscription and set up VPN tunnel, refer to [ExpressVPN Activation Guide](../../interface_guide/expressvpn_activation_guide.md).
 

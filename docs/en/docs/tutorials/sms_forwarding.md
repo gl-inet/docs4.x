@@ -55,11 +55,11 @@ Take the GL-XE3000 (Puli AX) as an example.
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: Preset server addresses for Gmail, Outlook, iCloud, and Yahoo are available in the dropdown list. For other mail providers, refer to their documentation or contact their support.
+- **SMTP Server Address**: Preset server addresses for Gmail, Outlook, iCloud, and Yahoo are available in the dropdown list. A preset server address does not guarantee compatibility with the provider's authentication requirements. For other mail providers, refer to their documentation or contact their support.
 
 - **Encryption Method**: Three options are provided: none, SSL/TLS, and STARTTLS.
 - **Username**: Enter the email address here.
-- **Password**: Use an app-specific password or the login account password. For Gmail, Outlook, iCloud, and Yahoo, check the guide below.
+- **Password**: Enter the SMTP password required by your email provider, such as an app-specific password. See the provider-specific requirements below.
 - **Subject**: Set the email subject here.
 
 ??? "Gmail"
@@ -68,9 +68,13 @@ Take the GL-XE3000 (Puli AX) as an example.
 
     Both 465 and 587 ports are usable.
 
-??? "Outlook"
+??? "Outlook.com"
 
-    For Outlook, you can use password directly without any setting, and it supports port 587. Please check the official guide [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}
+    Outlook.com requires OAuth2 (Modern Authentication) for SMTP authentication. Its SMTP server is `smtp-mail.outlook.com`, using port `587` with `STARTTLS`.
+
+    Before using an Outlook.com account to send forwarded SMS messages, confirm that your router firmware supports this authentication method.
+
+    Refer to Microsoft's [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}.
 
 ??? "iCloud"
 

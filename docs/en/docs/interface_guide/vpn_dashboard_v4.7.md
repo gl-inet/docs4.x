@@ -49,6 +49,10 @@ The WireGuard Client Options displays as follows.
 
 - **IP Masquerading**: If enabled, the source IP addresses of LAN clients will be rewritten to the router's VPN tunnel IP. Disable this only for Site-to-Site setups where the remote peer knows your LAN subnets.
 
+    As shown below, if IP masquerading is enabled, when the Laptop (192.168.10.200) on the travel LAN sends traffic across the tunnel to the home NAS (192.168.8.100), the travel router rewrites the source IP from `192.168.10.200` to the VPN client's tunnel address `10.1.0.2`, so the server side sees that traffic originated from the client instead of the client's local LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: Short for Maximum Transmission Unit. This optional setting lets you customize the VPN tunnel MTU, which overrides the value defined in the configuration file.
 
 ### Proxy Mode
@@ -150,6 +154,10 @@ The WireGuard Server Options displays as follows.
 * **Remote Access LAN**: If enabled, resources inside the server's LAN subnet can be accessed through the VPN tunnel.
 
 * **IP Masquerading**: If enabled, the source IP addresses of LAN clients will be rewritten to the router's VPN tunnel IP. Disable this only for Site-to-Site setups where the remote peer knows your LAN subnets.
+
+    As shown below, if IP masquerading is enabled, when the NAS (192.168.8.100) on the home LAN sends traffic across the tunnel to the travel Laptop (192.168.10.200), the home router rewrites the source IP from `192.168.8.100` to the VPN server's tunnel address `10.1.0.1`, so the remote side sees that traffic originated from the server instead of the server's local LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.7/ip_masquerading.png){class="glboxshadow"}
 
 * **MTU**: Short for Maximum Transmission Unit. The MTU value you set for the tunnel will override the MTU settings in the configuration file.
 

@@ -296,6 +296,10 @@ Click the gear icon in a tunnel group, and select **Options**.
 
 - **IP Masquerading**: If enabled, the source IP addresses of LAN clients will be rewritten to the router's VPN tunnel IP. Disable this only for Site-to-Site setups where the remote peer knows your LAN subnets.
 
+    As shown below, if IP masquerading is enabled, when the Laptop (192.168.10.200) on the travel LAN sends traffic across the tunnel to the home NAS (192.168.8.100), the travel router rewrites the source IP from `192.168.10.200` to the VPN client's tunnel address `10.1.0.2`, so the server side sees that traffic originated from the client instead of the client's local LAN.
+
+    ![ip masquerading](https://static.gl-inet.com/docs/router/en/4/interface_guide/vpn_dashboard/4.9/ip_masquerading.png){class="glboxshadow"}
+
 - **MTU**: The MTU value you set for the tunnel will override the MTU settings in the configuration file.
 
 ## Tunnel Priority

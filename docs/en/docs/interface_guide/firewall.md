@@ -18,25 +18,25 @@ To set up port forwarding, click the **Port Forwards** tab, then click **Add**.
 
 ![firewall page](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/firewall.png){class="glboxshadow"}
 
-In the pop-up window, add a new port forward rule, and click **Apply**.
+In the pop-up window, add a port forward rule and click **Apply**.
 
 ![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
 
-**Name:** The name of the rule.
+**Name:** Enter a name for the rule.
 
-**Protocol:** The protocol used, you can choose TCP, UDP, or both TCP and UDP.
+**Protocol:** Select the protocol — TCP, UDP, or both.
 
-**External Zone:** The options for external zone are `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**External Zone:** Select the interface from which incoming traffic arrives. The options for external zone are `LAN`, `WAN`, `guest`, `ovpnclient`, `ovpnserver`, `wgclient`, and `wgserver`. VPN-related options appear only after a VPN connection is configured.
 
-**External Port:** The numbers of external ports. You can enter a specific port number here.
+**External Port:** Enter the external port number.
 
-**Internal Zone:** The options for internal zone are `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**Internal Zone:** Select the interface to which traffic is forwarded. The options for internal zone are `LAN`, `WAN`, `guest`, `ovpnclient`, `ovpnserver`, `wgclient`, and `wgserver`. VPN-related options appear only after a VPN connection is configured.
 
-**Internal IP:** The IP address assigned by the router to the device which needs to be accessed remotely.
+**Internal IP:** Enter the LAN IP address of the device you want to access remotely.
 
-**Internal Port:** The internal port number of the device. You can enter a specific port number. Leave it blank if it is same as the external port.
+**Internal Port:** Enter the internal port number on the device. Leave it blank if it is the same as the external port.
 
-**Enable:** Enable or disable the rule.
+**Enable:** Toggle to enable or disable the rule.
 
 ## Open Ports on Router
 

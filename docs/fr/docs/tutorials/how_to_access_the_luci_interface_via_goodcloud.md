@@ -6,7 +6,7 @@
 
 - Équipement matériel : un routeur GL.iNet configuré avec un accès Internet et fonctionnant normalement.
 - Environnement réseau : le réseau auquel le routeur est connecté est stable et peut accéder normalement à Internet.
-- Association de l’appareil : vous devez [associer votre routeur GL.iNet à votre compte GoodCloud](../interface_guide/cloud.md/#setup-your-goodcloud-account). Si vous n’avez pas de compte GoodCloud, veuillez en [créer un](https://www.goodcloud.xyz/){target="_blank"}.
+- Association de l’appareil : vous devez [associer votre routeur GL.iNet à votre compte GoodCloud](../interface_guide/cloud.md#bind-devices-to-cloud). Si vous n’avez pas de compte GoodCloud, veuillez en [créer un](https://www.goodcloud.xyz/){target="_blank"}.
 
 ## Étapes pour accéder à l’interface LuCI via GoodCloud
 

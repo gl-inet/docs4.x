@@ -22,13 +22,15 @@ Spitz Plus (GL-X2000) es una puerta de enlace celular 4G LTE Wi-Fi 6 con doble S
 
 ## Indicadores LED
 
-| Estado de funcionamiento                                                      | Power                               | Internet                    | 2.4GHz                      | 5GHz                        | Cellular |
-| ----------------------------------------------------------------------------- | ----------------------------------- | --------------------------- | --------------------------- | --------------------------- | -------- |
-| Normal (conectado a Internet)                                                 | Green                               | Green                       | Green                       | Green                       | Green    |
-| No conectado a Internet                                                       | Green                               | Off                         | Green                       | Green                       | Green    |
-| Actualizando firmware                                                         | Green                               | Blinking green (every 0.5s) | Blinking green (every 0.5s) | Blinking green (every 0.5s) | Green    |
-| Restableciendo el router (mantenga pulsado el botón "reset" durante > 3 s)   | Blinking green (every 1s)           | Green                       | Green                       | Green                       | Green    |
-| Restaurando el router a valores de fábrica (mantenga pulsado "reset" 10 s)   | Fast blinking green (every 0.25s)   | Green                       | Green                       | Green                       | Green    |
+A continuación se describen los estados de los LED para distintos eventos. Para consultar todos los estados de cada LED, consulte [Estado de los indicadores LED del GL-X2000](../../faq/led.md#gl-x2000){target="_blank"}.
+
+| Estado del dispositivo | Alimentación | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Conectado a Internet | Verde | Verde | Verde | Verde | Verde |
+| Sin conexión a Internet | Verde | Apagado | Verde | Verde | Verde |
+| Actualización de firmware | Verde | Parpadea cada 0,5 s | Parpadea cada 0,5 s | Parpadea cada 0,5 s | Verde |
+| Restablecimiento de red (mantenga pulsado reset durante 5 s) | Parpadea cada 1 s | Verde | Verde | Verde | Verde |
+| Restablecimiento de fábrica (mantenga pulsado reset durante 10 s) | Parpadea rápidamente cada 0,25 s | Verde | Verde | Verde | Verde |
 
 ## Cómo configurar Spitz Plus
 
@@ -197,7 +199,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "Parental Control"
 
-    El control parental es un conjunto de ajustes diseñado para ayudarle a administrar y controlar los dispositivos de sus hijos. Incluye limitar su tiempo de pantalla y restringir el acceso a determinados contenidos. Spitz Plus ofrece dos opciones de control parental: la versión local desarrollada por GL.iNet y la versión integrada de Bark, una aplicación de control parental.
+    El control parental es un conjunto de ajustes diseñado para ayudarle a administrar y controlar los dispositivos de sus hijos. Incluye limitar su tiempo de pantalla y restringir el acceso a determinados contenidos.
 
     Para configurar el control parental, consulte [Parental controls](../../interface_guide/parental_control.md).
 

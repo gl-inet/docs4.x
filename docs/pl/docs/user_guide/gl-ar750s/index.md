@@ -21,19 +21,13 @@ W opakowaniu znajdują się:
 
 ![gl-ar750s unboxing](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar750s/first_time_setup/ar750s_unboxing.jpg){class="glboxshadow"}
 
-Obejrzyj [film z rozpakowania Slate](../../video_library/unboxing_first_set_up.md#slategl-ar750s-ext).
-
 ## Specyfikacja
 
 [Specyfikacja GL-AR750S](https://www.gl-inet.com/products/gl-ar750s/#specs){target="_blank"}
 
----
-
 ## Pierwsza konfiguracja
 
 Wszystkie routery GL.iNet mają podobny proces konfiguracji. [Kliknij tutaj, aby dowiedzieć się więcej o pierwszej konfiguracji](../../faq/first_time_setup.md).
-
----
 
 ## INTERNET
 

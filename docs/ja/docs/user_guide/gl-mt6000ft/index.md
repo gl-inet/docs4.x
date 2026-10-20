@@ -2,7 +2,7 @@
 
 ## 製品概要
 
-Fortify (GL-MT6000) は、GL.iNet と ExpressVPN が共同でリリースした共同ブランドの Wi-Fi 6 ルーターです。すべてのユニットには、1 年間の ExpressVPN サブスクリプションが無料で付属しています。ユーザーはサブスクリプションを引き換えて、ルーターの Web 管理パネルでアカウントに直接接続できます。アクティブ化すると、ルーターを通過するすべてのトラフィックはExpressVPNの高速ネットワークと堅牢な暗号化を利用して、ネットワーク接続全体とオンラインプライバシーを保護します。
+Fortify (GL-MT6000) は、GL.iNet と ExpressVPN が共同でリリースした共同ブランドの Wi-Fi 6 ルーターです。すべてのユニットには、1 年間の ExpressVPN サブスクリプションが無料で付属しています。ユーザーはサブスクリプションを引き換えて、ルーターの Web 管理パネルでアカウントに直接接続できます。ExpressVPNトンネルが接続されている場合、ルーターはVPNポリシー設定に従ってトラフィックを暗号化し、そのトンネルを経由してルーティングします。
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
@@ -138,7 +138,7 @@ Wi-Fi をセットアップします。 Wi-Fi 情報を変更した場合は、�
 
 VPN (virtual private network) は、ローカル デバイスと VPN サーバーの間に安全な暗号化されたトラフィック トンネルを確立します。これにより、VPN クライアントにプライバシーとセキュリティの追加層が追加され、リモート VPN サーバー ネットワークへのアクセスが可能になります。
 
-Fortifyは[ExpressVPN](https://www.expressvpn.com/){target="_blank"}と統合されており、ExpressVPN接続を数分で有効にできます。すべてのFortifyには、1年間のExpressVPNサブスクリプションが付属しています。ルーターのWeb管理画面からサブスクリプションを引き換え、ExpressVPNアカウントを直接接続できます。VPN接続を有効にすると、ルーターを経由するすべてのトラフィックでExpressVPNの高速サーバーと強力な暗号化が使用され、ネットワーク全体とオンラインプライバシーが保護されます。
+Fortifyは[ExpressVPN](https://www.expressvpn.com/){target="_blank"}と統合されており、ExpressVPN接続を数分で有効にできます。すべてのFortifyには、1年間のExpressVPNサブスクリプションが付属しています。ルーターのWeb管理画面からサブスクリプションを引き換え、ExpressVPNアカウントを直接接続できます。ExpressVPNトンネルが接続されている場合、ルーターはVPNポリシー設定に従ってトラフィックを暗号化し、そのトンネルを経由してルーティングします。
 
 無料のサブスクリプションを引き換えて VPN トンネルを設定するには、[ExpressVPN アクティベーション ガイド](../../interface_guide/expressvpn_activation_guide.md) を参照してください。
 

@@ -24,7 +24,7 @@ GoodCloud Site to Site consente a uffici in sedi diverse di stabilire connession
 
 ## Creare una rete Site to Site
 
-1. Collega i router al tuo account GoodCloud. [Come](../interface_guide/cloud.md/#setup-your-goodcloud-account)?
+1. Associa i router al tuo account GoodCloud. Consulta [Associare dispositivi al cloud](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 2. Accedi a [GoodCloud](https://www.goodcloud.xyz/#/login), vai su **Site to Site** nella barra laterale sinistra. Fai clic su **Create Network** in alto a destra.
 

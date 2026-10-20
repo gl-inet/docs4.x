@@ -50,7 +50,7 @@ Se il router esegue firmware v4.6 o precedente, segui i passaggi sotto per acced
 
 1. Visita [GoodCloud](https://www.goodcloud.xyz){target="_blank"} ed effettua l'accesso al tuo account. Se non hai un account, registrane prima uno.
 
-2. Associa il dispositivo a GoodCloud. Fai riferimento a [questo link](../interface_guide/cloud.md#add-device-in-your-account).
+2. Associa il dispositivo a GoodCloud. Consulta [Associare dispositivi al cloud](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 ## Condividere il dispositivo con il supporto tecnico GL.iNet
 

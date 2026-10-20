@@ -52,7 +52,7 @@ OpenVPN — протокол VPN із відкритим вихідним код
 
     ![Конфігурація сервера OpenVPN](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
-    * **Device Mode:** TAP-S2S або Tun. Відмінності описано [тут](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md/#tap-s2s-vs-tun-mode).
+    * **Device Mode:** TAP-S2S або Tun. Відмінності описано [тут](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-tun-mode).
 
     * **Protocol:** UDP або TCP. Відмінності описано [тут](../faq/openvpn_tcp_udp.md).
 

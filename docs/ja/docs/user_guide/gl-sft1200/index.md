@@ -149,7 +149,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     AstroWarp を設定するには、[AstroWarp](../../interface_guide/astrowarp.md) を参照してください。
 
-    **Note:** この機能を使用する前に、ルーターのファームウェアをバージョン 1.7 以上にアップグレードしてください。
+    **Note:** この機能を使用する前に、ルーターのファームウェアをバージョン 4.8 以上にアップグレードしてください。
 
 ## Applications
 
@@ -171,7 +171,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     Network storage を設定するには、[Network Storage](../../interface_guide/network_storage.md) を参照してください。
 
-    **Note:** この機能を使用する前に、ルーターのファームウェアをバージョン 1.7 以上にアップグレードしてください。
+    **Note:** この機能を使用する前に、ルーターのファームウェアをバージョン 4.8 以上にアップグレードしてください。
 
 ## Network settings
 
@@ -211,7 +211,7 @@ VPN (virtual private network) は、デバイスと VPN サーバー間に安全
 
     Port Management ページは、ファームウェア v4.7 以降で利用できます。
 
-    このページでは、WAN および LAN ポートの構成、WAN/LAN インターフェースの Ethernet への設定、WAN インターフェースの MAC mode と MAC address の指定、ネットワークポートレートのネゴシエーション表示を行えます。
+    このページでは、WAN および LAN ポートの構成、WAN/LAN インターフェースの Ethernet への設定、WAN インターフェースの MAC mode と MAC address の指定、ネットワークポートのネゴシエート速度の確認を行えます。
 
     Ethernet ポートを管理するには、[Port Management](../../interface_guide/ethernet_port.md) を参照してください。
 

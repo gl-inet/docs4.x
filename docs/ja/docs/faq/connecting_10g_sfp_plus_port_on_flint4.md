@@ -34,7 +34,7 @@ Flint 4の10G SFP+ポート → 標準10G SFP+光トランシーバー（SR/MR/L
 
 ### 1.4 注意事項
 
-- 標準の10G Ethernet光トランシーバーのみをサポートします。PONプロトコル対応光モジュールはこの方式では使用できません。
+- この接続方法ではPONモジュールを使用できません。
 
 - 速度低下やリンク障害を防ぐため、実際の伝送距離に応じて、シングルモードまたはマルチモードの光モジュールと対応する光ファイバーケーブルを選択してください。
 
@@ -65,10 +65,8 @@ GL.iNetおよび協力ユーザーがFlint 4との互換性を確認した標準
 |HUAWEI 6G-850nm-120m-MM-SFP+ MTRS-6A11-01|GL.iNet|
 |HUAWEI 2.5G-1310nm-SM-ESFP MXPD-483II|GL.iNet|
 |netLINK 10G/850nm/300m/DDM HTB-10G-SR|GL.iNet|
-|H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 |H!Fiber ASF85-24-X2-D 1000Base-SX 850nm 550m|GL.iNet|
 |Cisco GLC-SX-MMD 10-2626-01 CLASS 1 21CFR1040.10 LN#50|コミュニティメンバー|
-|ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|コミュニティメンバー|
 
 ## 方式2：SFP+ - RJ45変換モジュール（SFP‑10G‑T）
 
@@ -118,6 +116,8 @@ GL.iNetおよび協力ユーザーがFlint 4との互換性を確認したSFP+ -
 |10Gtek ASF-10G2-T 1G/2.5G/5G/10GBase-T RJ-45 30m|コミュニティメンバー|
 |HUAWEI SFP-1000BASE-T-RJ45-100m SFP-1000Base-T|コミュニティメンバー|
 |Xicom SFP-2.5G-T 100/1000M/2.5G RJ45 100m|コミュニティメンバー|
+|ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|コミュニティメンバー|
+|H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 
 ## 方式3：PON‑ONU SFP+スティック
 

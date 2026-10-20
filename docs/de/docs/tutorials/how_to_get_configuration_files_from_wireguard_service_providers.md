@@ -45,7 +45,7 @@
 
     1. Rufen Sie die [offizielle Website von Mullvad](https://mullvad.net/){target="_blank"} auf und melden Sie sich an. Öffnen Sie anschließend den [Generator für WireGuard-Konfigurationsdateien](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}.
 
-    2. Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md/#set-up-mullvad), um fortzufahren.
+    2. Folgen Sie dann [dieser Anleitung](../interface_guide/wireguard_client.md#set-up-mullvad), um fortzufahren.
 
     3. Sie können Mullvad auch über die [Mobile App](../faq/mobile_app.md) einrichten.
 

@@ -20,7 +20,18 @@ Puli AX (GL-XE3000) e il router cellulare 5G Wi-Fi 6 definitivo, progettato per 
 
 ## Indicatori LED
 
-[Stato degli indicatori LED](../../faq/led.md#gl-xe3000){target="_blank"}
+Di seguito sono descritti gli stati dei LED per diversi eventi. Per consultare tutti gli stati di ciascun LED, fare riferimento a [Stato degli indicatori LED del GL-XE3000](../../faq/led.md#gl-xe3000){target="_blank"}.
+
+| Stato del dispositivo | Alimentazione | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Connesso a Internet (Cellular attivo) | Verde acceso | Verde acceso | Verde acceso | Verde acceso | Verde acceso |
+| Connesso a Internet (Cellular inattivo) | Verde acceso | Verde acceso | Verde acceso | Verde acceso | Spento |
+| Nessuna connessione Internet | Verde acceso | Spento | Verde acceso | Verde acceso | Spento |
+| Aggiornamento firmware | Verde acceso | Lampeggia ogni 0,5 s | Lampeggia ogni 0,5 s | Lampeggia ogni 0,5 s | Verde acceso |
+| Ripristino rete (tieni premuto reset per 5 s) | Lampeggia ogni 1 s | Verde acceso | Verde acceso | Verde acceso | Verde acceso |
+| Ripristino di fabbrica (tieni premuto reset per 10 s) | Lampeggia ogni 0,25 s | Verde acceso | Verde acceso | Verde acceso | Verde acceso |
+
+**Suggerimento**: quando la connessione Internet è attiva, un LED 2.4GHz o 5GHz lampeggiante indica che dispositivi Wi-Fi sono connessi e stanno trasmettendo dati.
 
 ## Come configurare Puli AX
 
@@ -254,7 +265,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
 
 === "Porta Ethernet"
 
-    La pagina Porta Ethernet consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalita MAC e l'indirizzo MAC per l'interfaccia WAN e mostrare la velocita negoziata della porta di rete.
+    La pagina Porta Ethernet consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalità MAC e l'indirizzo MAC per l'interfaccia WAN e mostrare la velocità negoziata della porta di rete.
 
     Per gestire le porte Ethernet, fai riferimento a [Ethernet Port](../../interface_guide/ethernet_port.md).
 

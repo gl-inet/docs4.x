@@ -23,7 +23,7 @@ Dowiedz się, jak prawidłowo używać naszych urządzeń, korzystając ze szcze
 * [Jak uzyskać dostęp do podsieci LAN serwera WireGuard z klienta przez nazwę domenową](how_to_access_wgserver_lan_via_domain_name.md)
 * [Jak włączyć tryb OpenVPN TAP-S2S na routerach GL.iNet](how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md)
 * [Jak włączyć VPN Cascading na routerach GL.iNet](how_to_use_vpn_cascading_on_glinet_routers.md)
-* [Użyj WireGuard do zabezpieczenia RDP spoza sieci](use_wireguard_to_secure_rdp_from_outside_network.md)
+* [Zabezpieczanie RDP za pomocą WireGuard](secure_rdp_with_wireguard.md)
 * [Jak uzyskać pliki konfiguracyjne od dostawców usług WireGuard](how_to_get_configuration_files_from_wireguard_service_providers.md)
 * [Jak zarezerwować stały adres IP dla klienta OpenVPN we własnym połączeniu OpenVPN](reserve_fixed_IP_for_ovpn_client.md)
 * [Jak zezwolić na dostęp do WAN, gdy klient VPN jest włączony?](how_to_allow_access_to_wan_when_vpn_client_enabled.md)

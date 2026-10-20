@@ -50,7 +50,7 @@
 
 1. Відкрийте [GoodCloud](https://www.goodcloud.xyz){target="_blank"} і ввійдіть до свого облікового запису. Якщо у вас немає облікового запису, спочатку зареєструйте його.
 
-2. Прив’яжіть пристрій до GoodCloud за [цією інструкцією](../interface_guide/cloud.md#add-device-in-your-account).
+2. Прив’яжіть пристрій до GoodCloud. Див. [Прив’язування пристроїв до хмари](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 ## Надання доступу до пристрою службі технічної підтримки GL.iNet {#share-device-with-glinet-technical-support}
 

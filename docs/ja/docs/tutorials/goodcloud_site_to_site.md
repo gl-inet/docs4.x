@@ -24,7 +24,7 @@ GoodCloud Site to Site を使用すると、複数の拠点にあるオフィス
 
 ## Site to Site ネットワークを構築する
 
-1. ルーターを GoodCloud アカウントにバインドします。[方法はこちら](../interface_guide/cloud.md/#setup-your-goodcloud-account)。
+1. ルーターをGoodCloudアカウントにバインドします。[デバイスをクラウドにバインドする方法](../interface_guide/cloud.md#bind-devices-to-cloud)を参照してください。
 
 2. [GoodCloud](https://www.goodcloud.xyz/#/login) にログインし、左側のサイドバーで **Site to Site** に移動します。右上の **Create Network** をクリックします。
 

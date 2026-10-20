@@ -123,7 +123,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
 === "Multi-WAN"
 
-    Multi-WAN es una función de red que le permite configurar el router con varias conexiones a Internet (por ejemplo, cellular, repeater y ethernet) al mismo tiempo. Si la conexión a Internet actual falla, el router cambiará automáticamente a otra conexión. Esto garantiza un acceso a Internet fluido e ininterrumpido.
+    Multi-WAN es una función de red que le permite configurar el router con varias conexiones a Internet (por ejemplo, Ethernet, Tethering y Cellular) al mismo tiempo. Si la conexión a Internet actual falla, el router cambiará automáticamente a otra conexión. Esto garantiza un acceso a Internet fluido e ininterrumpido.
 
     Para configurar Multi-WAN, consulte [Multi-WAN](../../interface_guide/multi-wan.md).
 

@@ -156,7 +156,7 @@ Informationen zur Einrichtung von Clients finden Sie unter [Clients](../../inter
 
 === "GoodPAS"
 
-    GoodPAS ist eine erweiterte Netzwerkfunktion für nahtlosen Fernzugriff und die Geräteverwaltung. GoodPAS wurde speziell für die Integration mit GL.iNet-Routern entwickelt und verwendet das AmneziaWG-Protokoll mit integrierter Datenverkehrsverschleierung, um sichere und stabile Verbindungen bereitzustellen. Es erweitert Ihr Heimnetzwerk sicher auf weltweiter Ebene, sodass Sie auf Ressourcen zu Hause zugreifen können, während der gesamte Datenverkehr so erscheint, als stamme er von der öffentlichen IP-Adresse Ihres Zuhauses.
+    GoodPAS ist eine erweiterte Netzwerkfunktion für nahtlosen Fernzugriff und die Geräteverwaltung. GoodPAS wurde speziell für die Integration mit GL.iNet-Routern entwickelt und verwendet das AmneziaWG-Protokoll mit integrierter Datenverkehrsverschleierung, um sichere und stabile Verbindungen bereitzustellen. GoodPAS ermöglicht Ihnen den Fernzugriff auf Ihr Heimnetzwerk. Wenn Ihr Heimrouter als GoodPAS-Ausgangsknoten dient, verwendet der über GoodPAS gesendete Internetverkehr die öffentliche WAN-IP-Adresse dieses Routers.
 
     Informationen zur Einrichtung von GoodPAS finden Sie unter [GoodPAS](../../interface_guide/goodpas.md).
 

@@ -32,7 +32,7 @@ Schalten Sie bei einem Störfall zuerst den Netzschalter aus.
 
 ## Produktübersicht
 
-Fortify (GL-MT6000) ist ein Wi-Fi-6-Router mit Co-Branding, der gemeinsam von GL.iNet und ExpressVPN herausgebracht wurde. Zu jeder Einheit gehört ein kostenloses einjähriges ExpressVPN-Abonnement. Benutzer können das Abonnement einlösen und ihre Konten direkt im Web-Admin-Panel des Routers verbinden. Nach der Aktivierung nutzt der gesamte Datenverkehr, der über den Router läuft, das Hochgeschwindigkeitsnetzwerk und die robuste Verschlüsselung von ExpressVPN, um Ihre gesamte Netzwerkverbindung und Ihre Online-Privatsphäre zu schützen.
+Fortify (GL-MT6000) ist ein Wi-Fi-6-Router mit Co-Branding, der gemeinsam von GL.iNet und ExpressVPN herausgebracht wurde. Zu jeder Einheit gehört ein kostenloses einjähriges ExpressVPN-Abonnement. Benutzer können das Abonnement einlösen und ihre Konten direkt im Web-Admin-Panel des Routers verbinden. Wenn ein ExpressVPN-Tunnel verbunden ist, verschlüsselt der Router den Datenverkehr und leitet ihn gemäß Ihren VPN-Richtlinieneinstellungen durch diesen Tunnel.
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
@@ -168,7 +168,7 @@ Weitere Informationen finden Sie unter [Clients](../../interface_guide/clients.m
 
 Ein VPN (virtuelles privates Netzwerk) richtet sichere, verschlüsselte Verkehrstunnel zwischen Ihrem lokalen Gerät und dem VPN-Server ein. Es fügt dem VPN-Client eine zusätzliche Ebene der Privatsphäre und Sicherheit hinzu und ermöglicht den Zugriff auf das Remote-VPN-Servernetzwerk.
 
-Fortify lässt sich in [ExpressVPN](https://www.expressvpn.com/){target="_blank"} integrieren, sodass Sie innerhalb von Minuten eine ExpressVPN-Verbindung aktivieren können. Zu jedem Fortify-Gerät gehört ein kostenloses einjähriges ExpressVPN-Abonnement. Sie können das Abonnement einlösen und Ihr ExpressVPN-Konto direkt im Web-Administrationsbereich des Routers verbinden. Sobald die VPN-Verbindung aktiviert ist, nutzt der gesamte über den Router geleitete Datenverkehr die Hochgeschwindigkeitsserver und die robuste Verschlüsselung von ExpressVPN, um Ihr gesamtes Netzwerk und Ihre Online-Privatsphäre zu schützen.
+Fortify lässt sich in [ExpressVPN](https://www.expressvpn.com/){target="_blank"} integrieren, sodass Sie innerhalb von Minuten eine ExpressVPN-Verbindung aktivieren können. Zu jedem Fortify-Gerät gehört ein kostenloses einjähriges ExpressVPN-Abonnement. Sie können das Abonnement einlösen und Ihr ExpressVPN-Konto direkt im Web-Administrationsbereich des Routers verbinden. Wenn ein ExpressVPN-Tunnel verbunden ist, verschlüsselt der Router den Datenverkehr und leitet ihn gemäß Ihren VPN-Richtlinieneinstellungen durch diesen Tunnel.
 
 Informationen zum Einlösen eines kostenlosen Abonnements und zum Einrichten eines VPN-Tunnels finden Sie im [ExpressVPN-Aktivierungsleitfaden](../../interface_guide/expressvpn_activation_guide.md).
 

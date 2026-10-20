@@ -63,7 +63,7 @@ Spróbuj rozwiązać ten problem, korzystając z poniższych metod.
             ext4 jest obsługiwany przede wszystkim przez systemy Linux. Po sformatowaniu do ext4 nośnik może być niezgodny z systemami Windows, co może prowadzić do problemów, takich jak brak rozpoznawania dysku lub brak możliwości zapisu na urządzeniach z Windows.​
         
         1. Wykonaj kopię zapasową wszystkich danych z dysku, ponieważ formatowanie je usunie.​
-        2. Użyj narzędzia takiego jak Disk Utility albo systemu Linux, aby sformatować dysk do ext4.
+        2. Użyj systemu Linux lub narzędzi innych firm, aby sformatować dysk jako ext4.
 
 8. **Zaktualizuj macOS i wyczyść pamięć podręczną​.**
 

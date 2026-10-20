@@ -20,7 +20,18 @@ Puli AX (GL-XE3000) to najwyższej klasy router komórkowy 5G z Wi-Fi 6, który 
 
 ## Wskaźniki LED 
 
-[Stan wskaźników LED](../../faq/led.md#gl-xe3000){target="_blank"}
+Poniżej opisano stany diod LED dla różnych zdarzeń. Wszystkie stany poszczególnych diod opisano w sekcji [Stan wskaźników LED GL-XE3000](../../faq/led.md#gl-xe3000){target="_blank"}.
+
+| Stan urządzenia | Zasilanie | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Połączenie z internetem (Cellular aktywny) | Świeci na zielono | Świeci na zielono | Świeci na zielono | Świeci na zielono | Świeci na zielono |
+| Połączenie z internetem (Cellular nieaktywny) | Świeci na zielono | Świeci na zielono | Świeci na zielono | Świeci na zielono | Wyłączona |
+| Brak połączenia z internetem | Świeci na zielono | Wyłączona | Świeci na zielono | Świeci na zielono | Wyłączona |
+| Aktualizacja firmware | Świeci na zielono | Miga co 0,5 s | Miga co 0,5 s | Miga co 0,5 s | Świeci na zielono |
+| Reset sieci (przytrzymaj reset przez 5 s) | Miga co 1 s | Świeci na zielono | Świeci na zielono | Świeci na zielono | Świeci na zielono |
+| Reset fabryczny (przytrzymaj reset przez 10 s) | Miga co 0,25 s | Świeci na zielono | Świeci na zielono | Świeci na zielono | Świeci na zielono |
+
+**Wskazówka**: Gdy router jest połączony z internetem, migająca dioda 2.4GHz lub 5GHz oznacza, że urządzenia Wi-Fi są podłączone i aktywnie przesyłają dane.
 
 ## Jak skonfigurować Puli AX
 

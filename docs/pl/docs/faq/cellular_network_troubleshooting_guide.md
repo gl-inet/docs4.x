@@ -46,9 +46,9 @@ Jeśli nie możesz nawiązać połączenia komórkowego, sprawdź poniższe kwes
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
     
-    **2.4** Włącz **Band Masking** i sprawdź ponownie. W przypadku firmware ver.4.7 i starszego zobacz [ten link](../interface_guide/internet_cellular_v4.7.md/#band-masking). W przypadku firmware ver.4.8 i nowszego zobacz [ten link](../interface_guide/internet_cellular.md/#band-masking).
+    **2.4** Włącz **Band Masking** i sprawdź ponownie. W przypadku firmware ver.4.7 i starszego zobacz [ten link](../interface_guide/internet_cellular_v4.7.md#band-masking). W przypadku firmware ver.4.8 i nowszego zobacz [ten link](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Zablokuj lub odblokuj stację bazową i sprawdź ponownie. Ta funkcja jest dostępna tylko w GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) i GL-X2000 (Spitz Plus). Kliknij [tutaj](../interface_guide/internet_cellular.md/#lock-tower), aby uzyskać więcej instrukcji.
+    **2.5** Zablokuj lub odblokuj stację bazową i sprawdź ponownie. Ta funkcja jest dostępna tylko w GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) i GL-X2000 (Spitz Plus). Kliknij [tutaj](../interface_guide/internet_cellular.md#blokada-stacji-bazowej), aby uzyskać więcej instrukcji.
     
     Zablokowanie konkretnej stacji bazowej pozwala routerowi korzystać z wysokiej jakości zasobów sieciowych i utrzymywać stabilne połączenie komórkowe.
     

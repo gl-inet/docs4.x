@@ -20,13 +20,15 @@ Spitz AX (GL-X3000) è un gateway cellulare Wi-Fi 6 dual-SIM progettato per forn
 
 ## Indicatori LED
 
+Di seguito sono descritti gli stati dei LED per diversi eventi. Per consultare tutti gli stati di ciascun LED, fare riferimento a [Stato degli indicatori LED del GL-X3000](../../faq/led.md#gl-x3000){target="_blank"}.
+
 | Stato del dispositivo                     | Alimentazione          | Internet               | 2.4GHz                 | 5GHz                   | Cellular               |
 | ----------------------------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- |
 | Internet connesso (Cellular attivo)       | Verde acceso           | Verde acceso           | Verde acceso           | Verde acceso           | Verde acceso           |
 | Internet connesso (Cellular inattivo)     | Verde acceso           | Verde acceso           | Verde acceso           | Verde acceso           | Spento                 |
 | Nessuna connessione Internet              | Verde acceso           | Spento                 | Verde acceso           | Verde acceso           | Spento                 |
-| Aggiornamento firmware                    | Lampeggia ogni 0,5 s   | Lampeggia ogni 0,5 s   | Lampeggia ogni 0,5 s   | Lampeggia ogni 0,5 s   | Verde acceso           |
-| Ripristino rete (premi reset < 3 s)       | Lampeggia ogni 1 s     | Verde acceso           | Verde acceso           | Verde acceso           | Verde acceso           |
+| Aggiornamento firmware                    | Verde acceso   | Lampeggia ogni 0,5 s   | Lampeggia ogni 0,5 s   | Lampeggia ogni 0,5 s   | Verde acceso           |
+| Ripristino rete (tieni premuto reset per 5 s)       | Lampeggia ogni 1 s     | Verde acceso           | Verde acceso           | Verde acceso           | Verde acceso           |
 | Ripristino di fabbrica (premi reset 10 s) | Lampeggia ogni 0,25 s  | Verde acceso           | Verde acceso           | Verde acceso           | Verde acceso           |
 
 **Suggerimento**: quando la connessione Internet è attiva, un LED 2.4GHz o 5GHz lampeggiante indica che dispositivi Wi-Fi sono connessi e stanno trasmettendo dati.

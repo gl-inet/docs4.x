@@ -39,7 +39,7 @@
 | GPIO41                        | PTA_PRIORITY   | PTA用 |
 | GPIO42                        | PTA_GRANT      | PTA用 |
 | GPIO43                        | UART0 TX       | デバッグ用シリアルポート出力 |
-| GPIO44                        | UART0 RX       | デバッグ用シリアルポート出力 |
+| GPIO44                        | UART0 RX       | デバッグ用シリアルポート入力 |
 | GPIO45                        | PTA_TX_LINE    | PTA用 |
 | GPIO46                        | GPIO46         | NC |
 | GPIO47                        | UART1 CTS      | h2 uart0 rtsへの接続用 |

@@ -20,13 +20,15 @@ Spitz AX (GL-X3000) est une passerelle cellulaire Wi‑Fi 6 double SIM conçue p
 
 ## Indicateurs LED
 
+Les états des LED lors de différents événements sont décrits ci-dessous. Pour consulter tous les états de chaque LED, reportez-vous à [État des indicateurs LED du GL-X3000](../../faq/led.md#gl-x3000){target="_blank"}.
+
 | Device Status                          | Power                  | Internet               | 2.4GHz                 | 5GHz                   | Cellular               | 
 | -------------------------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- |
 | Internet connecté (Cellular actif)   | Vert allumé            | Vert allumé            | Vert allumé            | Vert allumé            | Vert allumé            |
 | Internet connecté (Cellular inactif) | Vert allumé            | Vert allumé            | Vert allumé            | Vert allumé            | Éteint                 |
 | Pas de connexion Internet            | Vert allumé            | Éteint                 | Vert allumé            | Vert allumé            | Éteint                 |
 | Mise à jour du firmware              | Vert allumé            | Clignote toutes les 0,5 s | Clignote toutes les 0,5 s | Clignote toutes les 0,5 s | Vert allumé         | 
-| Réinitialisation réseau (appuyez sur reset < 3 s) | Clignote toutes les 1 s | Vert allumé | Vert allumé | Vert allumé | Vert allumé |
+| Réinitialisation réseau (maintenez reset enfoncé pendant 5 s) | Clignote toutes les 1 s | Vert allumé | Vert allumé | Vert allumé | Vert allumé |
 | Réinitialisation d'usine (appuyez sur reset pendant 10 s) | Clignote toutes les 0,25 s | Vert allumé | Vert allumé | Vert allumé | Vert allumé | 
 
 **Conseil :** lorsqu'il est connecté à Internet, un voyant LED 2,4 GHz ou 5 GHz clignotant signifie que des appareils Wi‑Fi sont connectés et transmettent activement des données.

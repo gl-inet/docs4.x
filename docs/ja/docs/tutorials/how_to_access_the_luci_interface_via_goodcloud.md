@@ -6,7 +6,7 @@ GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} は地理的な
 
 - ハードウェア機器: インターネット設定が完了し、正常に動作している GL.iNet ルーター
 - ネットワーク環境: ルーターが接続されているネットワークが安定しており、正常にインターネットへアクセスできること
-- デバイスのバインド: [GL.iNet ルーターを GoodCloud アカウントにバインド](../interface_guide/cloud.md/#setup-your-goodcloud-account)しておく必要があります。GoodCloud アカウントをお持ちでない場合は、[登録](https://www.goodcloud.xyz/){target="_blank"}してください。
+- デバイスのバインド: [GL.iNet ルーターを GoodCloud アカウントにバインド](../interface_guide/cloud.md#bind-devices-to-cloud)しておく必要があります。GoodCloud アカウントをお持ちでない場合は、[登録](https://www.goodcloud.xyz/){target="_blank"}してください。
 
 ## GoodCloud経由でLuCIインターフェースにアクセスする手順
 

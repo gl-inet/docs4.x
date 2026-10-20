@@ -120,7 +120,7 @@ GL-MT6000 の Web 管理画面にログインし、**APPLICATIONS** -> **Dynamic
 
 ![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
 
-その後、WireGuard の [mobile app](https://www.wireguard.com/install/){target="_blank"} で QR を読み取り、サーバーをテストできます。詳細は [こちら](../interface_guide/wireguard_server.md/#check-if-wireguard-server-is-working-properly) を参照してください。
+その後、WireGuard の [mobile app](https://www.wireguard.com/install/){target="_blank"} で QR を読み取り、サーバーをテストできます。詳細は [こちら](../interface_guide/wireguard_server.md#wireguard) を参照してください。
 
 また、VPNクライアント接続用にテキスト形式の設定をエクスポートすることもできます。
 

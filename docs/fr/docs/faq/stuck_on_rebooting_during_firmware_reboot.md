@@ -16,7 +16,7 @@ Après chaque étape, vérifiez si le problème est résolu. Si c'est le cas, ig
 
 5. Utilisez un autre navigateur (par exemple, Chrome, Edge ou Safari) pour accéder à `192.168.8.1`. Si le processus de redémarrage a réussi, vous serez redirigé vers le guide de configuration.
 
-6. Si vous ne parvenez toujours pas à accéder au panneau d'administration Web du routeur ou si le routeur ne fonctionne pas correctement, essayez de réinitialiser le routeur à ses paramètres d'usine en suivant [ce guide](repair_network_or_reset_firmware.md/#reset-to-factory).
+6. Si vous ne parvenez toujours pas à accéder au panneau d'administration Web du routeur ou si le routeur ne fonctionne pas correctement, essayez de réinitialiser le routeur à ses paramètres d'usine en suivant [ce guide](repair_network_or_reset_firmware.md#reset-to-factory).
 
 ---
 

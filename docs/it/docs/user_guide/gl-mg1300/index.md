@@ -127,7 +127,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "GoodPAS"
 
-    GoodPAS è una funzione di rete avanzata progettata per offrire accesso remoto e gestione dei dispositivi senza interruzioni. Sviluppato appositamente per l'integrazione con i router GL.iNet, GoodPAS utilizza il protocollo AmneziaWG con offuscamento del traffico integrato per garantire connessioni sicure e stabili. Estende in modo sicuro la rete domestica a livello globale, consentendo di accedere alle risorse di casa mentre tutto il traffico sembra provenire dall'indirizzo IP pubblico domestico.
+    GoodPAS è una funzione di rete avanzata progettata per offrire accesso remoto e gestione dei dispositivi senza interruzioni. Sviluppato appositamente per l'integrazione con i router GL.iNet, GoodPAS utilizza il protocollo AmneziaWG con offuscamento del traffico integrato per garantire connessioni sicure e stabili. GoodPAS consente di accedere da remoto alla rete domestica. Quando il router di casa funge da nodo di uscita GoodPAS, il traffico Internet inviato tramite GoodPAS utilizza l’indirizzo IP pubblico WAN di quel router.
 
     Per configurare GoodPAS, consulta [GoodPAS](../../interface_guide/goodpas.md).
 
@@ -165,7 +165,7 @@ Una VPN (rete privata virtuale) crea una connessione sicura e crittografata tra 
 
 === "Ethernet Port"
 
-    La pagina Ethernet Port consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalita MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocita negoziata della porta di rete.
+    La pagina Ethernet Port consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalità MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocità negoziata della porta di rete.
 
     Per gestire le porte Ethernet, fai riferimento a [Ethernet Port](../../interface_guide/ethernet_port_v4.10.md).
 

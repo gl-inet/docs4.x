@@ -66,7 +66,7 @@ Nutzen Sie zuerst die kleine Kerbe unten rechts an der Rückabdeckung als Hebelp
 
 !!! Warning
 
-    Wenn der Akku aufgebläht ist, ausläuft, ungewöhnlich heiß oder beschädigt ist oder sich nur schwer entfernen lässt, verwenden Sie das Gerät nicht weiter und versuchen Sie nicht, den Akku zu entfernen. Lesen Sie [Akkusicherheit und Umgang mit aufgeblähten Akkus](#battery-safety-and-swollen-battery-handling).
+    Wenn der Akku aufgebläht ist, ausläuft, ungewöhnlich heiß oder beschädigt ist oder sich nur schwer entfernen lässt, verwenden Sie das Gerät nicht weiter und versuchen Sie nicht, den Akku zu entfernen. Lesen Sie [Akkusicherheit](#battery-safety).
 
 ![small notch](https://static.gl-inet.com/docs/router/de/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
@@ -606,7 +606,9 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
     Detaillierte Anweisungen finden Sie unter [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Akkusicherheit und Umgang mit aufgeblähten Akkus {#battery-safety-and-swollen-battery-handling}
+<span id="battery-safety"></span>
+
+## Akkusicherheit {#battery-safety-and-swollen-battery-handling}
 
 Verwenden und laden Sie den Mudi 7 nicht weiter, wenn der Akku aufgebläht ist, ausläuft, ungewöhnlich heiß oder beschädigt ist oder einen ungewöhnlichen Geruch abgibt.
 

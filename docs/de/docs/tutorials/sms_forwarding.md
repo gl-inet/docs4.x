@@ -55,11 +55,11 @@ Klicken Sie oben rechts auf das Umschlag-Symbol, um die SMS-Seite zu öffnen. Do
 
 ![SMS-Weiterleitung per E-Mail](https://static.gl-inet.com/docs/router/de/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: Voreingestellte Serveradressen für Gmail, Outlook, iCloud und Yahoo sind in der Dropdown-Liste verfügbar. Informationen zu anderen E-Mail-Anbietern finden Sie in deren Dokumentation oder beim jeweiligen Support.
+- **SMTP Server Address**: Voreingestellte Serveradressen für Gmail, Outlook, iCloud und Yahoo sind in der Dropdown-Liste verfügbar. Eine voreingestellte Serveradresse garantiert keine Kompatibilität mit den Authentifizierungsanforderungen des Anbieters. Informationen zu anderen E-Mail-Anbietern finden Sie in deren Dokumentation oder beim jeweiligen Support.
 
 - **Encryption Method**: Es stehen drei Optionen zur Verfügung: none, SSL/TLS und STARTTLS.
 - **Username**: Geben Sie hier die E-Mail-Adresse ein.
-- **Password**: Verwenden Sie ein App-spezifisches Passwort oder das Passwort des Anmeldekontos. Für Gmail, Outlook, iCloud und Yahoo beachten Sie die Hinweise unten.
+- **Password**: Geben Sie das von Ihrem E-Mail-Anbieter benötigte SMTP-Passwort ein, beispielsweise ein App-spezifisches Passwort. Beachten Sie die anbieterspezifischen Anforderungen unten.
 - **Subject**: Legen Sie hier den Betreff der E-Mail fest.
 
 ??? "Gmail"
@@ -68,9 +68,13 @@ Klicken Sie oben rechts auf das Umschlag-Symbol, um die SMS-Seite zu öffnen. Do
 
     Sowohl Port 465 als auch Port 587 können verwendet werden.
 
-??? "Outlook"
+??? "Outlook.com"
 
-    Bei Outlook können Sie das Passwort direkt ohne zusätzliche Einstellungen verwenden. Unterstützt wird Port 587. Bitte beachten Sie die offizielle Anleitung [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}
+    Outlook.com erfordert OAuth2 (Modern Authentication) für die SMTP-Authentifizierung. Der SMTP-Server ist `smtp-mail.outlook.com`, mit Port `587` und `STARTTLS`.
+
+    Bevor Sie mit einem Outlook.com-Konto weitergeleitete SMS-Nachrichten senden, prüfen Sie, ob die Firmware Ihres Routers diese Authentifizierungsmethode unterstützt.
+
+    Siehe Microsofts [POP-, IMAP- und SMTP-Einstellungen für Outlook.com](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}.
 
 ??? "iCloud"
 

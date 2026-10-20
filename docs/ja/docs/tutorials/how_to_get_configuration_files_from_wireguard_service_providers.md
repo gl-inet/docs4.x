@@ -45,7 +45,7 @@
 
     1. [Mullvad公式サイト](https://mullvad.net/){target="_blank"} にアクセスしてログインし、[WireGuard configuration file generator](https://mullvad.net/en/account/#/wireguard-config){target="_blank"} を開きます。
 
-    2. 次に[このガイド](../interface_guide/wireguard_client.md/#set-up-mullvad)に従って続行してください。
+    2. 次に[このガイド](../interface_guide/wireguard_client.md#set-up-mullvad)に従って続行してください。
 
     3. [モバイルアプリ](../faq/mobile_app.md)を使って Mullvad を設定することもできます。
 

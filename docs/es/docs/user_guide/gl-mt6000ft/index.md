@@ -2,7 +2,7 @@
 
 ## Descripción general del producto
 
-Fortify (GL-MT6000) es un enrutador Wi-Fi 6 de marca compartida lanzado conjuntamente por GL.iNet y ExpressVPN. Cada unidad viene con una suscripción gratuita a ExpressVPN por un año. Los usuarios pueden canjear la suscripción y conectar sus cuentas directamente en el Panel de administración web del enrutador. Una vez activado, todo el tráfico que pase a través del enrutador aprovechará la red de alta velocidad y el cifrado sólido de ExpressVPN para proteger toda su conexión de red y su privacidad en línea.
+Fortify (GL-MT6000) es un enrutador Wi-Fi 6 de marca compartida lanzado conjuntamente por GL.iNet y ExpressVPN. Cada unidad viene con una suscripción gratuita a ExpressVPN por un año. Los usuarios pueden canjear la suscripción y conectar sus cuentas directamente en el Panel de administración web del enrutador. Cuando se conecta un túnel ExpressVPN, el router cifra y enruta el tráfico a través de ese túnel según la configuración de sus políticas de VPN.
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
@@ -138,7 +138,7 @@ Consulte [Clientes](../../interface_guide/clients.md) para obtener más detalles
 
 Una VPN (red privada virtual) establece túneles de tráfico cifrados y seguros entre su dispositivo local y el servidor VPN. Agrega una capa adicional de privacidad y seguridad al cliente VPN y permite el acceso a la red del servidor VPN remoto.
 
-Fortify se integra con [ExpressVPN](https://www.expressvpn.com/){target="_blank"}, lo que le permite activar una conexión ExpressVPN en minutos. Cada dispositivo Fortify viene con una suscripción gratuita a ExpressVPN por un año. Puede canjear la suscripción y conectar su cuenta ExpressVPN directamente en el panel de administración web del enrutador. Una vez que la conexión VPN esté habilitada, todo el tráfico dirigido a través del enrutador utilizará los servidores de alta velocidad y el cifrado sólido de ExpressVPN para proteger toda su red y su privacidad en línea.
+Fortify se integra con [ExpressVPN](https://www.expressvpn.com/){target="_blank"}, lo que le permite activar una conexión ExpressVPN en minutos. Cada dispositivo Fortify viene con una suscripción gratuita a ExpressVPN por un año. Puede canjear la suscripción y conectar su cuenta ExpressVPN directamente en el panel de administración web del enrutador. Cuando se conecta un túnel ExpressVPN, el router cifra y enruta el tráfico a través de ese túnel según la configuración de sus políticas de VPN.
 
 Para canjear la suscripción gratuita y configurar el túnel VPN, consulte la [Guía de activación de ExpressVPN](../../interface_guide/expressvpn_activation_guide.md).
 

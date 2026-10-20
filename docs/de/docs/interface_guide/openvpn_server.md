@@ -50,7 +50,7 @@ Melden Sie sich am webbasierten Admin Panel an und navigieren Sie zu **VPN** -> 
 
     ![openvpn server configuration](https://static.gl-inet.com/docs/router/de/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
 
-    * **Device Mode:** TAP-S2S oder Tun. Klicken Sie [hier](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md/#tap-s2s-vs-tun-mode), um die Unterschiede zu sehen.
+    * **Device Mode:** TAP-S2S oder Tun. Klicken Sie [hier](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-vs-tun-modus), um die Unterschiede zu sehen.
 
     * **Protocol:** UDP oder TCP. Klicken Sie [hier](../faq/openvpn_tcp_udp.md), um die Unterschiede zu sehen.
 

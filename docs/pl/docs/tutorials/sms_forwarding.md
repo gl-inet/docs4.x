@@ -55,11 +55,11 @@ Kliknij ikonę koperty w prawym górnym rogu, aby wejść na stronę SMS, gdzie 
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: Wstępnie ustawione adresy serwerów dla Gmail, Outlook, iCloud i Yahoo są dostępne na liście rozwijanej. W przypadku innych dostawców poczty zapoznaj się z ich dokumentacją lub skontaktuj się z ich wsparciem.
+- **SMTP Server Address**: Wstępnie ustawione adresy serwerów Gmail, Outlook, iCloud i Yahoo są dostępne na liście rozwijanej. Wstępnie ustawiony adres nie gwarantuje zgodności z wymaganiami dostawcy dotyczącymi uwierzytelniania. W przypadku innych dostawców poczty zapoznaj się z ich dokumentacją lub skontaktuj się z pomocą techniczną.
 
 - **Encryption Method**: Dostępne są trzy opcje: brak, SSL/TLS i STARTTLS.
 - **Username**: Wprowadź tutaj adres e-mail.
-- **Password**: Użyj hasła specyficznego dla aplikacji lub hasła do konta logowania. W przypadku Gmail, Outlook, iCloud i Yahoo sprawdź poniższy przewodnik.
+- **Password**: Wprowadź hasło SMTP wymagane przez dostawcę poczty, na przykład hasło aplikacji. Zapoznaj się z wymaganiami poszczególnych dostawców poniżej.
 - **Subject**: Ustaw tutaj temat e-maila.
 
 ??? "Gmail"
@@ -68,9 +68,13 @@ Kliknij ikonę koperty w prawym górnym rogu, aby wejść na stronę SMS, gdzie 
 
     Można używać zarówno portu 465, jak i 587.
 
-??? "Outlook"
+??? "Outlook.com"
 
-    W przypadku Outlook możesz użyć hasła bezpośrednio bez żadnych ustawień i obsługuje port 587. Sprawdź oficjalny przewodnik [Ustawienia POP, IMAP i SMTP dla Outlook.com](https://support.microsoft.com/pl-pl/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}
+    Outlook.com wymaga OAuth2 (Modern Authentication) do uwierzytelniania SMTP. Serwer SMTP to `smtp-mail.outlook.com`, z portem `587` i `STARTTLS`.
+
+    Przed użyciem konta Outlook.com do wysyłania przekazywanych wiadomości SMS sprawdź, czy firmware routera obsługuje tę metodę uwierzytelniania.
+
+    Zapoznaj się z dokumentacją Microsoft: [Ustawienia POP, IMAP i SMTP dla Outlook.com](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}.
 
 ??? "iCloud"
 

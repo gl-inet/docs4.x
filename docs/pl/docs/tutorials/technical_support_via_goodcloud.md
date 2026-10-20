@@ -50,7 +50,7 @@ Jeśli router działa z firmware v4.6 lub starszym, wykonaj poniższe kroki, aby
 
 1. Otwórz [GoodCloud](https://www.goodcloud.xyz){target="_blank"} i zaloguj się do swojego konta. Jeśli nie masz konta, najpierw je zarejestruj.
 
-2. Powiąż urządzenie z GoodCloud. Skorzystaj z [tego linku](../interface_guide/cloud.md#add-device-in-your-account).
+2. Powiąż urządzenie z GoodCloud. Zobacz [Powiązywanie urządzeń z chmurą](../interface_guide/cloud.md#bind-devices-to-cloud).
 
 ## Udostępnij urządzenie zespołowi wsparcia technicznego GL.iNet
 

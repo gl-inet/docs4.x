@@ -34,7 +34,7 @@ Zainstaluj kartę Nano-SIM lub karty Nano-SIM w urządzeniu Mudi 7. Jeśli wolis
 
 !!! Warning
 
-    Jeśli akumulator jest spuchnięty, wycieka, jest nietypowo gorący, uszkodzony lub trudno go wyjąć, przestań używać urządzenia i nie próbuj wyjmować akumulatora. Zobacz [Bezpieczeństwo akumulatora i postępowanie ze spuchniętym akumulatorem](#battery-safety-and-swollen-battery-handling).
+    Jeśli akumulator jest spuchnięty, wycieka, jest nietypowo gorący, uszkodzony lub trudno go wyjąć, przestań używać urządzenia i nie próbuj wyjmować akumulatora. Zobacz [Bezpieczeństwo akumulatora](#battery-safety).
 
 Najpierw wykorzystaj małe wcięcie w prawym dolnym rogu tylnej pokrywy jako punkt podważenia. Podważaj wzdłuż szczeliny, aby utworzyć przerwę, a następnie otwórz tylną pokrywę i wyjmij akumulator Mudi 7.
 
@@ -577,7 +577,9 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, szyfrowany tunel ruchu między
 
     Szczegółowe instrukcje znajdziesz w artykule [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Bezpieczeństwo akumulatora i postępowanie ze spuchniętym akumulatorem {#battery-safety-and-swollen-battery-handling}
+<span id="battery-safety"></span>
+
+## Bezpieczeństwo akumulatora {#battery-safety-and-swollen-battery-handling}
 
 Przestań używać i ładować Mudi 7, jeśli akumulator jest spuchnięty, wycieka, jest nietypowo gorący, uszkodzony lub wydziela nietypowy zapach.
 

@@ -36,7 +36,7 @@ Primero, use la pequeña muesca situada en la esquina inferior derecha de la tap
 
 !!! Warning
 
-    Si la batería está hinchada, tiene fugas, está inusualmente caliente o dañada, o es difícil de retirar, deje de usar el dispositivo y no intente retirar la batería. Consulte [Seguridad de la batería y manipulación de baterías hinchadas](#battery-safety-and-swollen-battery-handling).
+    Si la batería está hinchada, tiene fugas, está inusualmente caliente o dañada, o es difícil de retirar, deje de usar el dispositivo y no intente retirar la batería. Consulte [Seguridad de la batería](#battery-safety).
 
 ![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
@@ -577,7 +577,9 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Consulte [Advanced Settings](../../interface_guide/advanced_settings.md) para ver instrucciones detalladas.
 
-## Seguridad de la batería y manipulación de baterías hinchadas {#battery-safety-and-swollen-battery-handling}
+<span id="battery-safety"></span>
+
+## Seguridad de la batería {#battery-safety-and-swollen-battery-handling}
 
 Deje de usar y cargar el Mudi 7 si la batería está hinchada, tiene fugas, está inusualmente caliente o dañada, o desprende un olor inusual.
 

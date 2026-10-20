@@ -148,7 +148,7 @@ Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
 === "Parental Control"
 
-    Parental Control to zestaw ustawień zaprojektowanych, aby pomóc Ci zarządzać urządzeniami dzieci i kontrolować je. Obejmuje ograniczanie czasu spędzanego przed ekranem oraz blokowanie dostępu do określonych treści. Brume 2 oferuje dwie opcje kontroli rodzicielskiej: lokalną wersję opracowaną przez GL.iNet oraz zintegrowaną wersję aplikacji Bark do kontroli rodzicielskiej.
+    Parental Control to zestaw ustawień zaprojektowanych, aby pomóc Ci zarządzać urządzeniami dzieci i kontrolować je. Obejmuje ograniczanie czasu spędzanego przed ekranem oraz blokowanie dostępu do określonych treści.
 
     Zapoznaj się z poradnikiem [Parental controls](../../interface_guide/parental_control.md).
 
@@ -174,7 +174,7 @@ Zapoznaj się z poradnikiem [Clients](../../interface_guide/clients.md).
 
 === "Multi-WAN"
 
-    Multi-WAN to funkcja sieciowa, która pozwala skonfigurować router z wieloma połączeniami internetowymi jednocześnie (np. Cellular, Repeater i Ethernet). Jeśli bieżące połączenie internetowe przestanie działać, router automatycznie przełączy się na inne połączenie internetowe. Zapewnia to płynny i nieprzerwany dostęp do Internetu. 
+    Multi-WAN to funkcja sieciowa, która pozwala skonfigurować router z wieloma połączeniami internetowymi jednocześnie (np. Ethernet, Tethering i Cellular). Jeśli bieżące połączenie internetowe przestanie działać, router automatycznie przełączy się na inne połączenie internetowe. Zapewnia to płynny i nieprzerwany dostęp do Internetu.
 
     Zapoznaj się z poradnikiem [Multi-WAN](../../interface_guide/multi-wan.md). 
 

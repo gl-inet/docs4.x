@@ -50,7 +50,7 @@ Si su router ejecuta el firmware v4.6 o anterior, siga los pasos siguientes para
 
 1. Visite [GoodCloud](https://www.goodcloud.xyz){target="_blank"} e inicie sesión en su cuenta. Si no tiene una cuenta, regístrela primero.
 
-2. Vincule su dispositivo a GoodCloud. Consulte [este enlace](../interface_guide/cloud.md#add-device-in-your-account).
+2. Vincule su dispositivo a GoodCloud. Consulte [Vincular dispositivos a la nube](../interface_guide/cloud.md#vincular-dispositivos-a-la-nube).
 
 ## Compartir el dispositivo con el soporte técnico de GL.iNet
 

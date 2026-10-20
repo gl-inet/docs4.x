@@ -119,7 +119,7 @@ Sieć VPN (wirtualna sieć prywatna) tworzy bezpieczne, szyfrowane połączenie 
 
     Tor, czyli The Onion Router, to sieć nastawiona na ochronę prywatności, która umożliwia anonimową komunikację w Internecie. Kieruje ruch internetowy przez serię serwerów (węzłów) obsługiwanych przez wolontariuszy, aby ukryć lokalizację i sposób korzystania z sieci przez użytkownika, co utrudnia śledzenie aktywności online.
     
-    *[Jak skonfigurować Tor](../../interface_guide/tor.md).
+    * [Jak skonfigurować Tor](../../interface_guide/tor.md).
 
 ## Sieć bezprzewodowa i klienci
 

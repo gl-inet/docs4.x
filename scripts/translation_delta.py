@@ -14,7 +14,7 @@ from typing import Iterable
 
 
 DEFAULT_LANGS = ("de", "es", "fr", "it", "ja", "pl", "uk")
-DEFAULT_EXTENSIONS = (".md", ".yml", ".yaml", ".html")
+DEFAULT_EXTENSIONS = (".md", ".yml", ".yaml", ".html", ".js", ".css")
 DEFAULT_EXCLUDE_DIRS = {"site", ".git", "__pycache__"}
 EXCLUDED_SOURCE_PATHS = {"docs/en/docs/downloads/index.md"}
 EXCLUDED_TRAILING_MARKDOWN_SECTIONS = {"Regulatory Statements"}

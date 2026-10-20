@@ -16,7 +16,7 @@ Prüfen Sie nach jedem Schritt, ob das Problem behoben ist. Wenn ja, überspring
 
 5. Verwenden Sie einen anderen Browser (z. B. Chrome, Edge, Safari), um `192.168.8.1` aufzurufen. Wenn der Neustart erfolgreich war, werden Sie zum Einrichtungsassistenten weitergeleitet.
 
-6. Wenn Sie weiterhin nicht auf das Web-Admin-Panel des Routers zugreifen können oder der Router nicht ordnungsgemäß funktioniert, versuchen Sie, den Router mithilfe [dieser Anleitung](repair_network_or_reset_firmware.md/#reset-to-factory) auf die Werkseinstellungen zurückzusetzen.
+6. Wenn Sie weiterhin nicht auf das Web-Admin-Panel des Routers zugreifen können oder der Router nicht ordnungsgemäß funktioniert, versuchen Sie, den Router mithilfe [dieser Anleitung](repair_network_or_reset_firmware.md#auf-werkseinstellungen-zurucksetzen) auf die Werkseinstellungen zurückzusetzen.
 
 ---
 

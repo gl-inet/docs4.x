@@ -18,25 +18,25 @@ Per configurare il port forwarding, fai clic sulla scheda **Port Forwards**, qui
 
 ![firewall page](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/firewall.png){class="glboxshadow"}
 
-Nella finestra pop-up, aggiungi una nuova regola di port forwarding e fai clic su **Apply**.
+Nella finestra a comparsa, aggiungi una regola di port forwarding e fai clic su **Apply**.
 
 ![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
 
-**Name:** il nome della regola.
+**Name:** Inserisci un nome per la regola.
 
-**Protocol:** il protocollo usato. Puoi scegliere TCP, UDP oppure sia TCP sia UDP.
+**Protocol:** Seleziona il protocollo: TCP, UDP o entrambi.
 
-**External Zone:** le opzioni per la zona esterna sono `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**External Zone:** Seleziona l’interfaccia da cui arriva il traffico in ingresso. Le opzioni sono `LAN`, `WAN`, `guest`, `ovpnclient`, `ovpnserver`, `wgclient` e `wgserver`. Le opzioni relative alla VPN compaiono solo dopo aver configurato una connessione VPN.
 
-**External Port:** i numeri delle porte esterne. Qui puoi inserire un numero di porta specifico.
+**External Port:** Inserisci il numero di porta esterna.
 
-**Internal Zone:** le opzioni per la zona interna sono `WAN`, `wgclient`, `wgserver`, `ovpnclient`, `ovpnserver`.
+**Internal Zone:** Seleziona l’interfaccia a cui viene inoltrato il traffico. Le opzioni sono `LAN`, `WAN`, `guest`, `ovpnclient`, `ovpnserver`, `wgclient` e `wgserver`. Le opzioni relative alla VPN compaiono solo dopo aver configurato una connessione VPN.
 
-**Internal IP:** l'indirizzo IP assegnato dal router al dispositivo che deve essere raggiunto da remoto.
+**Internal IP:** Inserisci l’indirizzo IP LAN del dispositivo a cui vuoi accedere da remoto.
 
-**Internal Port:** il numero di porta interna del dispositivo. Puoi inserire un numero di porta specifico. Lascialo vuoto se coincide con la porta esterna.
+**Internal Port:** Inserisci il numero di porta interna del dispositivo. Lascia il campo vuoto se coincide con la porta esterna.
 
-**Enable:** abilita o disabilita la regola.
+**Enable:** Usa l’interruttore per abilitare o disabilitare la regola.
 
 ## Open Ports on Router
 

@@ -39,7 +39,7 @@
 | GPIO41                             | PTA_PRIORITY   | utilizzato per PTA                                           |
 | GPIO42                             | PTA_GRANT      | utilizzato per PTA                                           |
 | GPIO43                             | UART0 TX       | utilizzato per l'output della porta seriale di debug         |
-| GPIO44                             | UART0 RX       | utilizzato per l'output della porta seriale di debug         |
+| GPIO44                             | UART0 RX       | utilizzato per l’ingresso della porta seriale di debug |
 | GPIO45                             | PTA_TX_LINE    | utilizzato per PTA                                           |
 | GPIO46                             | GPIO46         | NC                                                           |
 | GPIO47                             | UART1 CTS      | utilizzato per collegarsi a h2 uart0 rts                     |

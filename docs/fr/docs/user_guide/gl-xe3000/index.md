@@ -20,7 +20,18 @@ Puli AX (GL-XE3000) est le routeur cellulaire 5G Wi‑Fi 6 par excellence pour f
 
 ## Indicateurs LED
 
-[État des indicateurs LED](../../faq/led.md#gl-xe3000){target="_blank"}
+Les états des LED lors de différents événements sont décrits ci-dessous. Pour consulter tous les états de chaque LED, reportez-vous à [État des indicateurs LED du GL-XE3000](../../faq/led.md#gl-xe3000){target="_blank"}.
+
+| État de l’appareil | Alimentation | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Connecté à Internet (Cellular actif) | Vert allumé | Vert allumé | Vert allumé | Vert allumé | Vert allumé |
+| Connecté à Internet (Cellular inactif) | Vert allumé | Vert allumé | Vert allumé | Vert allumé | Éteint |
+| Pas de connexion Internet | Vert allumé | Éteint | Vert allumé | Vert allumé | Éteint |
+| Mise à jour du firmware | Vert allumé | Clignote toutes les 0,5 s | Clignote toutes les 0,5 s | Clignote toutes les 0,5 s | Vert allumé |
+| Réinitialisation réseau (maintenez reset enfoncé pendant 5 s) | Clignote toutes les 1 s | Vert allumé | Vert allumé | Vert allumé | Vert allumé |
+| Restauration des paramètres d’usine (maintenez reset enfoncé pendant 10 s) | Clignote toutes les 0,25 s | Vert allumé | Vert allumé | Vert allumé | Vert allumé |
+
+**Conseil :** lorsqu'il est connecté à Internet, un voyant LED 2,4 GHz ou 5 GHz clignotant signifie que des appareils Wi-Fi sont connectés et transmettent activement des données.
 
 ## Comment configurer Puli AX
 

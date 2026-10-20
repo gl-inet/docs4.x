@@ -55,11 +55,11 @@ Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, d
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: nel menu a discesa sono disponibili indirizzi server preimpostati per Gmail, Outlook, iCloud e Yahoo. Per altri provider email, consulta la loro documentazione o contatta il supporto.
+- **SMTP Server Address**: Nel menu a discesa sono disponibili indirizzi server preimpostati per Gmail, Outlook, iCloud e Yahoo. Un indirizzo preimpostato non garantisce la compatibilità con i requisiti di autenticazione del provider. Per altri provider di posta, consulta la loro documentazione o contatta la loro assistenza.
 
 - **Encryption Method**: sono disponibili tre opzioni, none, SSL/TLS e STARTTLS.
 - **Username**: inserisci qui l'indirizzo email.
-- **Password**: usa una password specifica per l'app oppure la password dell'account di accesso. Per Gmail, Outlook, iCloud e Yahoo, consulta la guida sotto.
+- **Password**: Inserisci la password SMTP richiesta dal tuo provider di posta, ad esempio una password specifica per l’app. Consulta i requisiti dei singoli provider riportati di seguito.
 - **Subject**: imposta qui l'oggetto dell'email.
 
 ??? "Gmail"
@@ -68,9 +68,13 @@ Fai clic sull'icona della busta in alto a destra per entrare nella pagina SMS, d
 
     Sono utilizzabili sia la porta 465 sia la 587.
 
-??? "Outlook"
+??? "Outlook.com"
 
-    Per Outlook, puoi usare direttamente la password senza configurazioni aggiuntive e la porta supportata e la 587. Consulta la guida ufficiale [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}
+    Outlook.com richiede OAuth2 (Modern Authentication) per l’autenticazione SMTP. Il server SMTP è `smtp-mail.outlook.com`, con porta `587` e `STARTTLS`.
+
+    Prima di usare un account Outlook.com per inviare SMS inoltrati, verifica che il firmware del router supporti questo metodo di autenticazione.
+
+    Consulta la documentazione Microsoft sulle [impostazioni POP, IMAP e SMTP per Outlook.com](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}.
 
 ??? "iCloud"
 

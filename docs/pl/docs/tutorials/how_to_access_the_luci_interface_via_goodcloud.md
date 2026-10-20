@@ -6,7 +6,7 @@ GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} przełamuje ogr
 
 - Sprzęt: Router GL.iNet skonfigurowany z dostępem do Internetu i działający normalnie.
 - Środowisko sieciowe: Sieć, do której podłączony jest router, jest stabilna i może normalnie uzyskać dostęp do Internetu.
-- Powiązanie urządzenia: Musisz [powiązać router GL.iNet z kontem GoodCloud](../interface_guide/cloud.md/#setup-your-goodcloud-account). Jeśli nie masz konta GoodCloud, [zarejestruj](https://www.goodcloud.xyz/){target="_blank"} je.
+- Powiązanie urządzenia: Musisz [powiązać router GL.iNet z kontem GoodCloud](../interface_guide/cloud.md#bind-devices-to-cloud). Jeśli nie masz konta GoodCloud, [zarejestruj](https://www.goodcloud.xyz/){target="_blank"} je.
 
 ## Kroki dostępu do interfejsu LuCI przez GoodCloud
 

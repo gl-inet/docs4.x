@@ -120,7 +120,7 @@ Nella finestra pop-up, scorri per abilitare **DDNS Domain** (contrassegnato come
 
 ![wgservergen](https://static.gl-inet.com/docs/router/en/4/tutorials/build_your_own_wireguard_server/wgconfiggen.jpg){class="glboxshadow"}
 
-Puoi quindi scansionare il QR con l'[app mobile](https://www.wireguard.com/install/) WireGuard per testare il server. Per i dettagli fai clic [qui](../interface_guide/wireguard_server.md/#check-if-wireguard-server-is-working-properly).
+Puoi quindi scansionare il QR con l'[app mobile](https://www.wireguard.com/install/) WireGuard per testare il server. Per i dettagli fai clic [qui](../interface_guide/wireguard_server.md#verificare-che-wireguard-server-funzioni-correttamente).
 
 In alternativa, puoi esportare una configurazione in formato testo per la connessione del client VPN.
 

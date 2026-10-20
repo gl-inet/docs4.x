@@ -50,7 +50,7 @@ GoodCloud とリモートアクセスを有効にするには、デバイスの�
 
 1. [GoodCloud](https://www.goodcloud.xyz){target="_blank"} にアクセスしてアカウントへログインします。アカウントがない場合は、先に登録してください。
 
-2. デバイスをGoodCloudに紐付けます。詳細は[このリンク](../interface_guide/cloud.md#add-device-in-your-account)を参照してください。
+2. デバイスをGoodCloudにバインドします。[デバイスをクラウドにバインドする方法](../interface_guide/cloud.md#bind-devices-to-cloud)を参照してください。
 
 ## GL.iNet技術サポートとデバイスを共有する
 

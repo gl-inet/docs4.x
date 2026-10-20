@@ -20,13 +20,15 @@ Spitz AX (GL-X3000) es una puerta de enlace celular Wi-Fi 6 con doble SIM diseñ
 
 ## Indicadores LED
 
+A continuación se describen los estados de los LED para distintos eventos. Para consultar todos los estados de cada LED, consulte [Estado de los indicadores LED del GL-X3000](../../faq/led.md#gl-x3000){target="_blank"}.
+
 | Estado del dispositivo                    | Power                  | Internet               | 2.4GHz                 | 5GHz                   | Cellular               |
 | ----------------------------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- |
 | Internet conectado (Cellular activa)      | Green On               | Green On               | Green On               | Green On               | Green On               |
 | Internet conectado (Cellular inactiva)    | Green On               | Green On               | Green On               | Green On               | Off                    |
 | Sin conexión a Internet                   | Green On               | Off                    | Green On               | Green On               | Off                    |
 | Actualización de firmware                 | Green On               | Flashing every 0.5s    | Flashing every 0.5s    | Flashing every 0.5s    | Green On               |
-| Restablecimiento de red (pulse reset < 3s) | Flashing every 1s    | Green On               | Green On               | Green On               | Green On               |
+| Restablecimiento de red (mantenga pulsado reset durante 5 s) | Flashing every 1s    | Green On               | Green On               | Green On               | Green On               |
 | Restablecimiento de fábrica (pulse reset 10s) | Flashing every 0.25s | Green On             | Green On               | Green On               | Green On               |
 
 **Consejo**: Cuando esté conectado a Internet, un LED 2.4GHz o 5GHz parpadeando significa que hay dispositivos Wi-Fi conectados y transmitiendo datos activamente.

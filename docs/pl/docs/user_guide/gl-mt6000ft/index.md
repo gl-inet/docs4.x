@@ -2,7 +2,7 @@
 
 ## Przegląd produktu
 
-Fortify (GL-MT6000) to router Wi-Fi 6 pod wspólną marką wydany wspólnie przez GL.iNet i ExpressVPN. Do każdej jednostki dołączona jest bezpłatna roczna subskrypcja ExpressVPN. Użytkownicy mogą wykupić subskrypcję i połączyć swoje konta bezpośrednio w internetowym panelu administracyjnym routera. Po aktywacji cały ruch przechodzący przez router będzie wykorzystywał szybką sieć ExpressVPN i solidne szyfrowanie, aby chronić całe połączenie sieciowe i prywatność w Internecie.
+Fortify (GL-MT6000) to router Wi-Fi 6 pod wspólną marką wydany wspólnie przez GL.iNet i ExpressVPN. Do każdej jednostki dołączona jest bezpłatna roczna subskrypcja ExpressVPN. Użytkownicy mogą wykupić subskrypcję i połączyć swoje konta bezpośrednio w internetowym panelu administracyjnym routera. Gdy tunel ExpressVPN jest połączony, router szyfruje ruch i kieruje go przez ten tunel zgodnie z ustawieniami polityk VPN.
 
 ![fortify gl-mt6000](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-mt6000-fortify/mt6000-fortify_interface.png){class="glboxshadow"}
 
@@ -138,7 +138,7 @@ Aby uzyskać szczegółowe informacje, zobacz [Klienci](../../interface_guide/cl
 
 VPN (virtual private network) ustanawia bezpieczne, szyfrowane tunele ruchu pomiędzy Twoim urządzeniem lokalnym a serwerem VPN. Dodaje dodatkową warstwę prywatności i bezpieczeństwa do klienta VPN i umożliwia dostęp do zdalnej sieci serwerów VPN.
 
-Fortify integruje się z [ExpressVPN](https://www.expressvpn.com/){target="_blank"}, umożliwiając aktywację połączenia ExpressVPN w ciągu kilku minut. Każde urządzenie Fortify jest objęte bezpłatną roczną subskrypcją ExpressVPN. Możesz wykupić subskrypcję i połączyć swoje konto ExpressVPN bezpośrednio w internetowym panelu administracyjnym routera. Po włączeniu połączenia VPN cały ruch kierowany przez router będzie korzystał z szybkich serwerów ExpressVPN i solidnego szyfrowania, aby zabezpieczyć całą sieć i prywatność w Internecie.
+Fortify integruje się z [ExpressVPN](https://www.expressvpn.com/){target="_blank"}, umożliwiając aktywację połączenia ExpressVPN w ciągu kilku minut. Każde urządzenie Fortify jest objęte bezpłatną roczną subskrypcją ExpressVPN. Możesz wykupić subskrypcję i połączyć swoje konto ExpressVPN bezpośrednio w internetowym panelu administracyjnym routera. Gdy tunel ExpressVPN jest połączony, router szyfruje ruch i kieruje go przez ten tunel zgodnie z ustawieniami polityk VPN.
 
 Aby skorzystać z bezpłatnej subskrypcji i skonfigurować tunel VPN, zapoznaj się z [Przewodnikiem aktywacji ExpressVPN](../../interface_guide/expressvpn_activation_guide.md).
 

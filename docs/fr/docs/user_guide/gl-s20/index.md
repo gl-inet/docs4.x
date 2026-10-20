@@ -39,7 +39,7 @@
 | GPIO41                           | PTA_PRIORITY   | utilisé pour PTA                                            |
 | GPIO42                           | PTA_GRANT      | utilisé pour PTA                                            |
 | GPIO43                           | UART0 TX       | utilisé pour la sortie du port série de débogage            |
-| GPIO44                           | UART0 RX       | utilisé pour la sortie du port série de débogage            |
+| GPIO44                           | UART0 RX       | utilisé pour l’entrée du port série de débogage |
 | GPIO45                           | PTA_TX_LINE    | utilisé pour PTA                                            |
 | GPIO46                           | GPIO46         | NC                                                          |
 | GPIO47                           | UART1 CTS      | utilisé pour se connecter au RTS uart0 de h2                |

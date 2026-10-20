@@ -45,7 +45,7 @@
 
     1. Przejdź na [oficjalną stronę Mullvad](https://mullvad.net/){target="_blank"} i zaloguj się, następnie otwórz [generator plików konfiguracyjnych WireGuard](https://mullvad.net/en/account/#/wireguard-config){target="_blank"}
 
-    2. Następnie postępuj zgodnie z [tym przewodnikiem](../interface_guide/wireguard_client.md/#set-up-mullvad), aby kontynuować.
+    2. Następnie postępuj zgodnie z [tym przewodnikiem](../interface_guide/wireguard_client.md#set-up-mullvad), aby kontynuować.
     3. Możesz też użyć [aplikacji mobilnej](../faq/mobile_app.md), aby skonfigurować Mullvad.
 
 ??? "PIA (Private Internet Access)"

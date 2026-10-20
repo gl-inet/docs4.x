@@ -149,7 +149,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
     
     Aby skonfigurować AstroWarp, zapoznaj się z poradnikiem [AstroWarp](../../interface_guide/astrowarp.md).
 
-    **Uwaga:** Przed skorzystaniem z tej funkcji zaktualizuj firmware routera do wersji 1.7 lub nowszej.
+    **Uwaga:** Przed skorzystaniem z tej funkcji zaktualizuj firmware routera do wersji 4.8 lub nowszej.
 
 ## Aplikacje
 
@@ -171,7 +171,7 @@ VPN (wirtualna sieć prywatna) tworzy bezpieczny, zaszyfrowany ruch między Twoi
     
     Aby skonfigurować sieciową pamięć masową, zapoznaj się z poradnikiem [Network Storage](../../interface_guide/network_storage.md).
 
-    **Uwaga:** Przed skorzystaniem z tej funkcji zaktualizuj firmware routera do wersji 1.7 lub nowszej.
+    **Uwaga:** Przed skorzystaniem z tej funkcji zaktualizuj firmware routera do wersji 4.8 lub nowszej.
 
 ## Ustawienia sieciowe
 

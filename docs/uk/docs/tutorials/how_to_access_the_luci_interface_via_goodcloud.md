@@ -6,7 +6,7 @@ GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} надає зр
 
 - Обладнання: маршрутизатор GL.iNet із налаштованим інтернет-доступом, який працює належним чином.
 - Мережа: стабільне з’єднання з належним доступом до інтернету.
-- Прив’язування: [прив’яжіть маршрутизатор GL.iNet до облікового запису GoodCloud](../interface_guide/cloud.md/#setup-your-goodcloud-account). Якщо облікового запису немає, [зареєструйте його](https://www.goodcloud.xyz/){target="_blank"}.
+- Прив’язування: [прив’яжіть маршрутизатор GL.iNet до облікового запису GoodCloud](../interface_guide/cloud.md#bind-devices-to-cloud). Якщо облікового запису немає, [зареєструйте його](https://www.goodcloud.xyz/){target="_blank"}.
 
 ## Дії для доступу до LuCI через GoodCloud {#steps-to-access-the-luci-interface-via-goodcloud}
 

@@ -4,7 +4,7 @@
 
 Shadow (série GL-AR300M) est un mini-routeur de poche conçu pour être portable et pratique en voyage, avec un débit de transmission sans fil allant jusqu'à 300Mbps. Shadow offre des fonctions de sécurité avancées, notamment la prise en charge d'OpenVPN, de WireGuard® et d'un serveur DNS. Il vous permet non seulement de transformer un réseau public en Wi‑Fi privé pour naviguer en toute sécurité, mais aussi d'importer des fichiers de configuration VPN provenant de plus de 30 fournisseurs de services VPN et de l'utiliser comme client VPN, afin de créer un trafic chiffré entre votre appareil et le serveur VPN.
 
-![ar300m illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/product_info/mt300n_v2_overview.png){class="glboxshadow"}
+![vue d’ensemble ar300m](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/product_info/overview.png){class="glboxshadow"}
 
 ## Configuration initiale du Shadow
 

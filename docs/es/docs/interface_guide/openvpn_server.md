@@ -49,7 +49,7 @@ Inicie sesión en el panel de administración web y vaya a **VPN** -> **OpenVPN 
    Si ha modificado la configuración, haga clic en **Apply** antes de exportar la configuración del cliente.
 
    ![openvpn server configuration](https://static.gl-inet.com/docs/router/en/4/interface_guide/openvpn_server/ovpnserver_configuration.png){class="glboxshadow"}
-   - **Device Mode:** TAP-S2S o Tun. Haga clic [aquí](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md/#tap-s2s-vs-tun-mode) para consultar las diferencias.
+   - **Device Mode:** TAP-S2S o Tun. Haga clic [aquí](../tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md#tap-s2s-frente-a-modo-tun) para consultar las diferencias.
 
    - **Protocol:** UDP o TCP. Haga clic [aquí](../faq/openvpn_tcp_udp.md) para consultar las diferencias.
 

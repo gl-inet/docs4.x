@@ -34,7 +34,7 @@ Die folgende Tabelle bewertet wichtige Leistungs- und Benutzerfreundlichkeitsmer
 
 ### 1.4 Vorsichtsmaßnahmen
 
-- Es werden nur standardmäßige optische 10G-Ethernet-Transceiver unterstützt. Optische Module mit PON-Protokoll sind für diese Lösung nicht geeignet.
+- PON-Module können bei dieser Lösung nicht verwendet werden.
 
 - Wählen Sie anhand der tatsächlichen Übertragungsentfernung zueinander passende Singlemode-/Multimode-Module und Glasfaserkabel, um eine Verringerung der Netzwerkgeschwindigkeit oder einen Verbindungsfehler zu vermeiden.
 
@@ -65,10 +65,8 @@ Die folgenden standardmäßigen optischen Transceiver wurden von GL.iNet und Com
 |HUAWEI 6G-850nm-120m-MM-SFP+ MTRS-6A11-01|GL.iNet|
 |HUAWEI 2.5G-1310nm-SM-ESFP MXPD-483II|GL.iNet|
 |netLINK 10G/850nm/300m/DDM HTB-10G-SR|GL.iNet|
-|H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 |H!Fiber ASF85-24-X2-D 1000Base-SX 850nm 550m|GL.iNet|
 |Cisco GLC-SX-MMD 10-2626-01 CLASS 1 21CFR1040.10 LN#50|Community-Nutzer|
-|ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|Community-Nutzer|
 
 ## Lösung 2: SFP+-zu-RJ45-Modul (SFP‑10G‑T)
 
@@ -118,6 +116,8 @@ Die folgenden SFP+-zu-RJ45-Module wurden von GL.iNet und Community-Nutzern getes
 |10Gtek ASF-10G2-T 1G/2.5G/5G/10GBase-T RJ-45 30m|Community-Nutzer|
 |HUAWEI SFP-1000BASE-T-RJ45-100m SFP-1000Base-T|Community-Nutzer|
 |Xicom SFP-2.5G-T 100/1000M/2.5G RJ45 100m|Community-Nutzer|
+|ONTI OBT-C2GE-R10 SFP 2500Base-TX RJ45 100m|Community-Nutzer|
+|H!Fiber ASF-GE2-T 10/100/1000Base-T SFP SGMII RJ-45 100m|GL.iNet|
 
 ## Lösung 3: PON‑ONU-SFP+-Stick
 

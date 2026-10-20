@@ -149,7 +149,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     
     Per configurare AstroWarp, fai riferimento a [AstroWarp](../../interface_guide/astrowarp.md).
 
-    **Nota:** aggiorna il firmware del router alla versione 1.7 o superiore prima di utilizzare questa funzione.
+    **Nota:** aggiorna il firmware del router alla versione 4.8 o superiore prima di utilizzare questa funzione.
 
 ## Applicazioni
 
@@ -171,7 +171,7 @@ Una VPN (rete privata virtuale) crea un traffico sicuro e crittografato tra il t
     
     Per configurare l'archiviazione di rete, fai riferimento a [Network Storage](../../interface_guide/network_storage.md).
 
-    **Nota:** aggiorna il firmware del router alla versione 1.7 o superiore prima di utilizzare questa funzione.
+    **Nota:** aggiorna il firmware del router alla versione 4.8 o superiore prima di utilizzare questa funzione.
 
 ## Impostazioni di rete
 

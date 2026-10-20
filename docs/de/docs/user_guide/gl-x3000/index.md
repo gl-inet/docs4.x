@@ -50,13 +50,15 @@ Spitz AX (GL-X3000) ist ein Dual-SIM-Wi-Fi-6-Cellular-Gateway, das besonders in 
 
 ## LED-Anzeigen
 
+Die folgenden Angaben beschreiben die LED-Zustände bei verschiedenen Ereignissen. Alle Zustände der einzelnen LEDs finden Sie unter [GL-X3000: LED-Status](../../faq/led.md#gl-x3000){target="_blank"}.
+
 | Gerätestatus                                             | Stromversorgung    | Internet          | 2.4GHz            | 5GHz              | Cellular |
 | -------------------------------------------------------- | ------------------ | ----------------- | ----------------- | ----------------- | -------- |
 | Mit dem Internet verbunden (Cellular aktiv)              | Grün an            | Grün an           | Grün an           | Grün an           | Grün an  |
 | Mit dem Internet verbunden (Cellular inaktiv)            | Grün an            | Grün an           | Grün an           | Grün an           | Aus      |
 | Keine Internetverbindung                                 | Grün an            | Aus               | Grün an           | Grün an           | Aus      |
 | Firmware wird aktualisiert                               | Grün an            | Blinkt alle 0,5 s | Blinkt alle 0,5 s | Blinkt alle 0,5 s | Grün an  |
-| Netzwerk zurücksetzen (Reset < 3 s drücken)              | Blinkt jede 1 s    | Grün an           | Grün an           | Grün an           | Grün an  |
+| Netzwerk zurücksetzen (Reset 5 s gedrückt halten)              | Blinkt jede 1 s    | Grün an           | Grün an           | Grün an           | Grün an  |
 | Auf Werkseinstellungen zurücksetzen (Reset 10 s drücken) | Blinkt alle 0,25 s | Grün an           | Grün an           | Grün an           | Grün an  |
 
 **Hinweis:** Wenn eine Internetverbindung besteht und die 2.4GHz- oder 5GHz-LED blinkt, bedeutet dies, dass Wi-Fi-Geräte verbunden sind und aktiv Daten übertragen.

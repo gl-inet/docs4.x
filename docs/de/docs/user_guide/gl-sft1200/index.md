@@ -179,7 +179,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     
     Informationen zur Einrichtung finden Sie unter [AstroWarp](../../interface_guide/astrowarp.md).
 
-    **Hinweis:** Bitte aktualisieren Sie die Router-Firmware vor Verwendung dieser Funktion auf Version 1.7 oder höher.
+    **Hinweis:** Bitte aktualisieren Sie die Router-Firmware vor Verwendung dieser Funktion auf Version 4.8 oder höher.
 
 ## Anwendungen
 
@@ -201,7 +201,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
     
     Informationen zur Einrichtung finden Sie unter [Network Storage](../../interface_guide/network_storage.md).
 
-    **Hinweis:** Bitte aktualisieren Sie die Router-Firmware vor Verwendung dieser Funktion auf Version 1.7 oder höher.
+    **Hinweis:** Bitte aktualisieren Sie die Router-Firmware vor Verwendung dieser Funktion auf Version 4.8 oder höher.
 
 ## Netzwerkeinstellungen
 

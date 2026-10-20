@@ -20,7 +20,18 @@ Puli AX (GL-XE3000) es el router cellular 5G Wi-Fi 6 definitivo para llevar la v
 
 ## Indicadores LED
 
-[Estado de los indicadores LED](../../faq/led.md#gl-xe3000){target="_blank"}
+A continuación se describen los estados de los LED para distintos eventos. Para consultar todos los estados de cada LED, consulte [Estado de los indicadores LED del GL-XE3000](../../faq/led.md#gl-xe3000){target="_blank"}.
+
+| Estado del dispositivo | Alimentación | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Conectado a Internet (Cellular activa) | Verde encendido | Verde encendido | Verde encendido | Verde encendido | Verde encendido |
+| Conectado a Internet (Cellular inactiva) | Verde encendido | Verde encendido | Verde encendido | Verde encendido | Apagado |
+| Sin conexión a Internet | Verde encendido | Apagado | Verde encendido | Verde encendido | Apagado |
+| Actualización de firmware | Verde encendido | Parpadea cada 0,5 s | Parpadea cada 0,5 s | Parpadea cada 0,5 s | Verde encendido |
+| Restablecimiento de red (mantenga pulsado reset durante 5 s) | Parpadea cada 1 s | Verde encendido | Verde encendido | Verde encendido | Verde encendido |
+| Restablecimiento de fábrica (mantenga pulsado reset durante 10 s) | Parpadea cada 0,25 s | Verde encendido | Verde encendido | Verde encendido | Verde encendido |
+
+**Consejo**: Cuando esté conectado a Internet, un LED 2.4GHz o 5GHz parpadeando significa que hay dispositivos Wi-Fi conectados y transmitiendo datos activamente.
 
 ## Cómo configurar Puli AX
 

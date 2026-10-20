@@ -46,9 +46,9 @@
 
     ![Налаштування стільникового підключення](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
 
-    **2.4** Увімкніть **Band Masking** і повторіть перевірку. Для прошивки ver.4.7 і попередніх версій див. [цю інструкцію](../interface_guide/internet_cellular_v4.7.md/#band-masking), для ver.4.8 і новіших — [цю інструкцію](../interface_guide/internet_cellular.md/#band-masking).
+    **2.4** Увімкніть **Band Masking** і повторіть перевірку. Для прошивки ver.4.7 і попередніх версій див. [цю інструкцію](../interface_guide/internet_cellular_v4.7.md#band-masking), для ver.4.8 і новіших — [цю інструкцію](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Зафіксуйте базову станцію або скасуйте її фіксацію та повторіть перевірку. Ця функція доступна лише на GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) і GL-X2000 (Spitz Plus). Докладні інструкції наведено [тут](../interface_guide/internet_cellular.md/#lock-tower).
+    **2.5** Зафіксуйте базову станцію або скасуйте її фіксацію та повторіть перевірку. Ця функція доступна лише на GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) і GL-X2000 (Spitz Plus). Докладні інструкції наведено [тут](../interface_guide/internet_cellular.md#lock-tower).
 
     Фіксація певної базової станції дає змогу використовувати якісний мережевий ресурс і підтримувати стабільне стільникове з’єднання.
 

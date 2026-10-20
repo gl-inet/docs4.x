@@ -50,7 +50,7 @@ Wenn auf Ihrem Router Firmware v4.6 oder früher läuft, folgen Sie den unten st
 
 1. Besuchen Sie [GoodCloud](https://www.goodcloud.xyz){target="_blank"} und melden Sie sich bei Ihrem Konto an. Wenn Sie noch kein Konto haben, registrieren Sie zuerst eines.
 
-2. Verknüpfen Sie Ihr Gerät mit GoodCloud. Siehe dazu [diesen Link](../interface_guide/cloud.md#add-device-in-your-account).
+2. Verknüpfen Sie Ihr Gerät mit GoodCloud. Siehe [Geräte mit Cloud verknüpfen](../interface_guide/cloud.md#gerate-mit-cloud-verknupfen).
 
 ## Gerät mit dem technischen Support von GL.iNet teilen
 

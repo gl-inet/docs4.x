@@ -52,13 +52,15 @@ Spitz Plus (GL-X2000) ist ein Dual-SIM-4G-LTE-Wi-Fi-6-Cellular-Gateway, das beso
 
 ## LED-Anzeigen
 
-| Gerätestatus                                                                          | Stromversorgung                        | Internet                    | 2.4GHz                      | 5GHz                        | Cellular |
-| ------------------------------------------------------------------------------------- | -------------------------------------- | --------------------------- | --------------------------- | --------------------------- | -------- |
-| Normalbetrieb (mit dem Internet verbunden)                                            | Grün                                   | Grün                        | Grün                        | Grün                        | Grün     |
-| Nicht mit dem Internet verbunden                                                      | Grün                                   | Aus                         | Grün                        | Grün                        | Grün     |
-| Firmware wird aktualisiert                                                            | Grün                                   | Grünes Blinken (alle 0,5 s) | Grünes Blinken (alle 0,5 s) | Grünes Blinken (alle 0,5 s) | Grün     |
-| Router wird zurückgesetzt (Taste „Reset“ länger als 3 s gedrückt halten)              | Grünes Blinken (jede 1 s)              | Grün                        | Grün                        | Grün                        | Grün     |
-| Router wird auf Werkseinstellungen zurückgesetzt (Taste „Reset“ 10 s gedrückt halten) | Schnelles grünes Blinken (alle 0,25 s) | Grün                        | Grün                        | Grün                        | Grün     |
+Die folgenden Angaben beschreiben die LED-Zustände bei verschiedenen Ereignissen. Alle Zustände der einzelnen LEDs finden Sie unter [GL-X2000: LED-Status](../../faq/led.md#gl-x2000){target="_blank"}.
+
+| Gerätestatus | Stromversorgung | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Mit dem Internet verbunden | Grün | Grün | Grün | Grün | Grün |
+| Keine Internetverbindung | Grün | Aus | Grün | Grün | Grün |
+| Firmware wird aktualisiert | Grün | Blinkt alle 0,5 s | Blinkt alle 0,5 s | Blinkt alle 0,5 s | Grün |
+| Netzwerk zurücksetzen (Reset 5 s gedrückt halten) | Blinkt alle 1 s | Grün | Grün | Grün | Grün |
+| Auf Werkseinstellungen zurücksetzen (Reset 10 s gedrückt halten) | Blinkt schnell alle 0,25 s | Grün | Grün | Grün | Grün |
 
 ## So richten Sie Spitz Plus ein
 
@@ -227,7 +229,7 @@ Ein VPN (virtuelles privates Netzwerk) erstellt einen sicheren, verschlüsselten
 
 === "Parental Control"
 
-    Parental Control ist eine Gruppe von Einstellungen, die Ihnen dabei hilft, die Geräte Ihrer Kinder zu verwalten und zu steuern. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte. Spitz Plus bietet zwei Optionen für Parental Control: die lokale, von GL.iNet entwickelte Version und die integrierte Version von Bark, einer App für Parental Control.
+    Parental Control ist eine Gruppe von Einstellungen, die Ihnen dabei hilft, die Geräte Ihrer Kinder zu verwalten und zu steuern. Dazu gehören die Begrenzung der Bildschirmzeit und die Einschränkung des Zugriffs auf bestimmte Inhalte.
 
     Zum Einrichten von Parental Control lesen Sie bitte [Parental controls](../../interface_guide/parental_control.md).
 

@@ -50,7 +50,18 @@ Puli AX (GL-XE3000) ist ein leistungsstarker Wi-Fi-6-5G-Cellular-Router, der Ihr
 
 ## LED-Anzeigen
 
-[LED-Statusanzeige](../../faq/led.md#gl-xe3000){target="_blank"}
+Die folgenden Angaben beschreiben die LED-Zustände bei verschiedenen Ereignissen. Alle Zustände der einzelnen LEDs finden Sie unter [GL-XE3000: LED-Status](../../faq/led.md#gl-xe3000){target="_blank"}.
+
+| Gerätestatus | Stromversorgung | Internet | 2.4GHz | 5GHz | Cellular |
+| --- | --- | --- | --- | --- | --- |
+| Mit dem Internet verbunden (Cellular aktiv) | Grün an | Grün an | Grün an | Grün an | Grün an |
+| Mit dem Internet verbunden (Cellular inaktiv) | Grün an | Grün an | Grün an | Grün an | Aus |
+| Keine Internetverbindung | Grün an | Aus | Grün an | Grün an | Aus |
+| Firmware wird aktualisiert | Grün an | Blinkt alle 0,5 s | Blinkt alle 0,5 s | Blinkt alle 0,5 s | Grün an |
+| Netzwerk zurücksetzen (Reset 5 s gedrückt halten) | Blinkt alle 1 s | Grün an | Grün an | Grün an | Grün an |
+| Auf Werkseinstellungen zurücksetzen (Reset 10 s gedrückt halten) | Blinkt alle 0,25 s | Grün an | Grün an | Grün an | Grün an |
+
+**Hinweis:** Wenn eine Internetverbindung besteht und die 2.4GHz- oder 5GHz-LED blinkt, bedeutet dies, dass Wi-Fi-Geräte verbunden sind und aktiv Daten übertragen.
 
 ## So richten Sie Puli AX ein
 

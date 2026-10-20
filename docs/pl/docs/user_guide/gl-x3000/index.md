@@ -20,13 +20,15 @@ Spitz AX (GL-X3000) to bramka komórkowa Wi-Fi 6 z obsługą dwóch kart SIM, za
 
 ## Wskaźniki LED
 
+Poniżej opisano stany diod LED dla różnych zdarzeń. Wszystkie stany poszczególnych diod opisano w sekcji [Stan wskaźników LED GL-X3000](../../faq/led.md#gl-x3000){target="_blank"}.
+
 | Stan urządzenia                                  | Power                  | Internet               | 2.4GHz                 | 5GHz                   | Cellular               | 
 | ------------------------------------------------ | ---------------------- | ---------------------- | ---------------------- | ---------------------- | ---------------------- |
 | Połączenie z Internetem (Cellular aktywny)        | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       |
 | Połączenie z Internetem (Cellular nieaktywny)     | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Wyłączona              |
 | Brak połączenia z Internetem                      | Zielona — świeci       | Wyłączona              | Zielona — świeci       | Zielona — świeci       | Wyłączona              |
 | Aktualizacja firmware                             | Zielona — świeci       | Miga co 0,5 s         | Miga co 0,5 s         | Miga co 0,5 s         | Zielona — świeci       | 
-| Reset sieci (przytrzymaj reset < 3 s)             | Miga co 1 s           | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       |
+| Reset sieci (przytrzymaj reset przez 5 s)             | Miga co 1 s           | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       |
 | Reset fabryczny (przytrzymaj reset przez 10 s)    | Miga co 0,25 s        | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | Zielona — świeci       | 
 
 **Wskazówka**: Gdy router jest połączony z Internetem, migająca dioda 2.4GHz lub 5GHz oznacza, że urządzenia Wi-Fi są podłączone i aktywnie przesyłają dane.

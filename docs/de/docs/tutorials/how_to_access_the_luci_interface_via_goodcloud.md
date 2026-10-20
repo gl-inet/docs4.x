@@ -6,7 +6,7 @@ GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} überwindet geo
 
 - Hardware: Ein GL.iNet-Router, der mit dem Internet verbunden wurde und ordnungsgemäß funktioniert.
 - Netzwerkumgebung: Das Netzwerk, mit dem der Router verbunden ist, ist stabil und hat normalen Internetzugang.
-- Gerätebindung: Sie müssen [Ihren GL.iNet-Router mit Ihrem GoodCloud-Konto verknüpfen](../interface_guide/cloud.md/#setup-your-goodcloud-account). Wenn Sie noch kein GoodCloud-Konto haben, [registrieren](https://www.goodcloud.xyz/){target="_blank"} Sie sich bitte.
+- Gerätebindung: Sie müssen [Ihren GL.iNet-Router mit Ihrem GoodCloud-Konto verknüpfen](../interface_guide/cloud.md#gerate-mit-cloud-verknupfen). Wenn Sie noch kein GoodCloud-Konto haben, [registrieren](https://www.goodcloud.xyz/){target="_blank"} Sie sich bitte.
 
 ## Schritte für den Zugriff auf die LuCI-Oberfläche über GoodCloud
 

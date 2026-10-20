@@ -190,7 +190,7 @@
     - GL-BE6500 (Flint 3e)
     - GL-BE9300 (Flint 3)
     - GL-B3000 (Marble)
-    - GL-MT6000 (Flint2)
+    - GL-MT6000 (Flint 2)
 
 ??? "Моделі без підтримки"
     - GL-E5800 (Mudi 7)

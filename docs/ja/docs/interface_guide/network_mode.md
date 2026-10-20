@@ -30,6 +30,8 @@ Wi-Fi 機能を持つモデルでは、通常 Router、Access Point、Extender�
 
     Access Point mode に切り替えると、元の LAN IP アドレスでは Web Admin Panel にアクセスできません。上位ルーターにログインして、この AP に割り当てられた IP アドレスを確認し、その IP アドレスでアクセスしてください。上位ルーターにアクセスできない場合は、リセットボタンを 4 秒間長押ししてデフォルトの Router mode に戻してください。
 
+    接続方式、性能、管理方法の比較については、 [Mesh・Extender・Access Pointモードの比較](mesh.md#mesh-vs-extender-vs-access-point-mode)を参照してください。
+
     !!! tip
 
         複数のアクセスポイントを導入する場合、AP の配置、チャンネル選択、カバレッジの重なり、送信出力はローミングと性能に影響することがあります。導入の考え方については、[Wi-Fi カバレッジ、アクセスポイント、送信出力を理解する](../tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md) を参照してください。
@@ -38,7 +40,9 @@ Wi-Fi 機能を持つモデルでは、通常 Router、Access Point、Extender�
 
 - **Extender**: 既存の無線ネットワークの Wi-Fi カバレッジを拡張し、電波の届きにくい場所を補うためのモードです。
 
-    ルーターがメインルーターの無線信号を受信し、それを増幅して再送信します。Access Point mode と異なり有線接続は不要ですが、受信と送信を同時に行うため、帯域が半減する場合があります。
+    Extenderモードでは、デバイスが既存のWi-Fiネットワークに接続し、トラフィックを転送してカバレッジを拡張します。メインルーターへのEthernet接続は必要ありません。上位接続と接続クライアントが同じWi-Fi無線部とチャネルを共有する場合、トラフィックの受信と再送信に追加の通信時間が必要となり、スループットが低下することがあります。
+
+    接続方式、性能、管理方法の比較については、 [Mesh・Extender・Access Pointモードの比較](mesh.md#mesh-vs-extender-vs-access-point-mode)を参照してください。
 
     Extender mode では、元の LAN IP アドレスを使って引き続き Web Admin Panel にアクセスできます。
 

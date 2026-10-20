@@ -148,7 +148,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Parental Control"
 
-    Parental control e un insieme di impostazioni progettate per aiutarti a gestire e controllare i dispositivi dei tuoi figli. Include la limitazione del tempo di utilizzo dello schermo e la restrizione dell'accesso a determinati contenuti. Brume 2 offre due opzioni di parental control: la versione locale sviluppata da GL.iNet e la versione integrata di Bark, un'app dedicata al controllo parentale.
+    Parental control e un insieme di impostazioni progettate per aiutarti a gestire e controllare i dispositivi dei tuoi figli. Include la limitazione del tempo di utilizzo dello schermo e la restrizione dell'accesso a determinati contenuti.
 
     Per configurarlo, fai riferimento a [Parental controls](../../interface_guide/parental_control.md).
 
@@ -174,7 +174,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Multi-WAN"
 
-    Multi-WAN e una funzione di rete che consente di configurare il router con piu connessioni Internet, ad esempio cellular, repeater ed ethernet, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
+    Multi-WAN e una funzione di rete che consente di configurare il router con piu connessioni Internet, ad esempio Ethernet, Tethering e Cellular, contemporaneamente. Se la connessione Internet attuale si interrompe, il router passera automaticamente a un'altra connessione Internet. In questo modo l'accesso a Internet rimane fluido e ininterrotto.
 
     Per configurarlo, fai riferimento a [Multi-WAN](../../interface_guide/multi-wan.md).
 
@@ -194,7 +194,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
 === "Network Port Management"
 
-    La pagina Network Port Management consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalita MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocita negoziata della porta di rete.
+    La pagina Network Port Management consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare la modalità MAC e l'indirizzo MAC per l'interfaccia WAN e visualizzare la velocità negoziata della porta di rete.
 
 ---
 
@@ -228,7 +228,7 @@ Per configurarla, fai riferimento a [Clients](../../interface_guide/clients.md).
 
     Hardware acceleration indica l'uso di componenti hardware specializzati per eseguire compiti specifici in modo piu efficiente rispetto alle CPU generiche.
 
-    Per configurare la network acceleration, fai riferimento a questo tutorial [Network Acceleration](../../interface_guide/network_acceleration.md).
+    Per configurare l’accelerazione di rete, fai riferimento a questo tutorial [Network Acceleration](../../interface_guide/network_acceleration.md).
 
 === "NAT Settings"
 

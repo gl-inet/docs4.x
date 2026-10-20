@@ -18,25 +18,25 @@ Port Forwarding を設定するには、**Port Forwards** タブをクリック�
 
 ![firewall page](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/firewall.png){class="glboxshadow"}
 
-ポップアップウィンドウで新しいポート転送ルールを追加し、**Apply** をクリックします。
+ポップアップウィンドウでポート転送ルールを追加し、**Apply** をクリックします。
 
 ![add new port forward rule](https://static.gl-inet.com/docs/router/en/4/interface_guide/firewall/add_new_port_forward_rule.png){class="glboxshadow"}
 
-**Name:** ルール名です。
+**Name:** ルール名を入力します。
 
-**Protocol:** 使用するプロトコルです。TCP、UDP、または TCP と UDP の両方を選択できます。
+**Protocol:** TCP、UDP、またはその両方を選択します。
 
-**External Zone:** 外部ゾーンの選択肢は `WAN`、`wgclient`、`wgserver`、`ovpnclient`、`ovpnserver` です。
+**External Zone:** 受信トラフィックが入ってくるインターフェースを選択します。選択肢は `LAN`、`WAN`、`guest`、`ovpnclient`、`ovpnserver`、`wgclient`、`wgserver` です。VPN関連の選択肢は、VPN接続を設定した後にのみ表示されます。
 
-**External Port:** 外部ポート番号です。特定のポート番号を入力できます。
+**External Port:** 外部ポート番号を入力します。
 
-**Internal Zone:** 内部ゾーンの選択肢は `WAN`、`wgclient`、`wgserver`、`ovpnclient`、`ovpnserver` です。
+**Internal Zone:** トラフィックの転送先インターフェースを選択します。選択肢は `LAN`、`WAN`、`guest`、`ovpnclient`、`ovpnserver`、`wgclient`、`wgserver` です。VPN関連の選択肢は、VPN接続を設定した後にのみ表示されます。
 
-**Internal IP:** リモートアクセスする対象デバイスにルーターが割り当てた IP アドレスです。
+**Internal IP:** リモートアクセスするデバイスのLAN IPアドレスを入力します。
 
-**Internal Port:** デバイスの内部ポート番号です。特定のポート番号を入力できます。External Port と同じ場合は空欄のままにしてください。
+**Internal Port:** デバイスの内部ポート番号を入力します。外部ポートと同じ場合は空欄にします。
 
-**Enable:** ルールを有効または無効にします。
+**Enable:** スイッチでルールを有効または無効にします。
 
 ## ルーターで開いているポート
 

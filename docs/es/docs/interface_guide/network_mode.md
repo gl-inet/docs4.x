@@ -32,6 +32,8 @@ Los modelos con funcionalidad Wi-Fi suelen admitir cuatro modos de red: Router, 
 
   Después de cambiar al modo Access Point, no podrá acceder al panel de administración web usando la dirección IP LAN original. En su lugar, deberá iniciar sesión en el router ascendente para encontrar la dirección IP que le ha asignado a este AP y, a continuación, usar esa dirección IP para acceder al panel de administración web. Si no tiene acceso al router ascendente, mantenga pulsado el botón de reinicio durante 4 segundos para volver al modo Router predeterminado.
 
+  Para comparar la conectividad, el rendimiento y la gestión, consulte [Comparación de los modos Mesh, Extender y Access Point](mesh.md#mesh-vs-extender-vs-access-point-mode).
+
   !!! tip
 
       Al desplegar varios puntos de acceso, la ubicación de los AP, la selección de canales, la superposición de cobertura y la potencia de transmisión pueden afectar al roaming y al rendimiento. Consulte [Comprender la cobertura Wi-Fi, los puntos de acceso y la potencia de transmisión](../tutorials/understanding_wifi_coverage_access_points_and_transmit_power.md) para obtener orientación sobre la implementación.
@@ -40,7 +42,9 @@ Los modelos con funcionalidad Wi-Fi suelen admitir cuatro modos de red: Router, 
 
 - **Extender**: Este modo está diseñado para ampliar la cobertura Wi-Fi de una red inalámbrica existente y eliminar zonas muertas de señal en áreas con mala conectividad.
 
-  Permite que el router reciba de forma inalámbrica las señales del router principal, las amplifique y retransmita la señal reforzada. A diferencia del modo Access Point, no requiere conexión por cable con el router principal, pero puede reducir el ancho de banda a la mitad, ya que el dispositivo debe gestionar simultáneamente la recepción y la transmisión de la señal.
+  En el modo Extender, el dispositivo se conecta a una red Wi-Fi existente y reenvía el tráfico para ampliar la cobertura sin una conexión Ethernet con el router principal. Cuando la conexión ascendente y los clientes conectados comparten la misma radio y el mismo canal Wi-Fi, la recepción y retransmisión del tráfico consumen tiempo de transmisión adicional y pueden reducir el rendimiento.
+
+  Para comparar la conectividad, el rendimiento y la gestión, consulte [Comparación de los modos Mesh, Extender y Access Point](mesh.md#mesh-vs-extender-vs-access-point-mode).
 
   En el modo Extender, aún podrá acceder al panel de administración web usando su dirección IP LAN original.
 

@@ -6,7 +6,7 @@ GL.iNet [GoodCloud](https://www.goodcloud.xyz/){target="_blank"} supera las limi
 
 - Equipo de hardware: un router GL.iNet configurado con acceso a Internet y funcionando con normalidad.
 - Entorno de red: la red a la que está conectado el router es estable y puede acceder a Internet con normalidad.
-- Vinculación del dispositivo: necesita [vincular su router GL.iNet a su cuenta de GoodCloud](../interface_guide/cloud.md/#setup-your-goodcloud-account). Si no tiene una cuenta de GoodCloud, puede [registrarse](https://www.goodcloud.xyz/){target="_blank"}.
+- Vinculación del dispositivo: necesita [vincular su router GL.iNet a su cuenta de GoodCloud](../interface_guide/cloud.md#vincular-dispositivos-a-la-nube). Si no tiene una cuenta de GoodCloud, puede [registrarse](https://www.goodcloud.xyz/){target="_blank"}.
 
 ## Pasos para acceder a la interfaz LuCI mediante GoodCloud
 

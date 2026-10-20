@@ -34,7 +34,7 @@ Installa una o piu' Nano-SIM su Mudi 7. Se preferisci usare eSIM, salta questo p
 
 !!! Warning
 
-    Se la batteria è gonfia, perde liquido, è insolitamente calda, è danneggiata o è difficile da rimuovere, smetti di usare il dispositivo e non tentare di rimuovere la batteria. Consulta [Sicurezza della batteria e gestione di una batteria gonfia](#battery-safety-and-swollen-battery-handling).
+    Se la batteria è gonfia, perde liquido, è insolitamente calda, è danneggiata o è difficile da rimuovere, smetti di usare il dispositivo e non tentare di rimuovere la batteria. Consulta [Sicurezza della batteria](#battery-safety).
 
 Per prima cosa, usa la piccola tacca nell'angolo inferiore destro del coperchio posteriore come punto di leva. Fai leva lungo la giunzione per creare un'apertura, quindi apri il coperchio posteriore e rimuovi la batteria di Mudi 7.
 
@@ -574,7 +574,9 @@ Una VPN crea traffico sicuro e crittografato tra il dispositivo e il server VPN.
 
     Per istruzioni dettagliate, fai riferimento a [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Sicurezza della batteria e gestione di una batteria gonfia {#battery-safety-and-swollen-battery-handling}
+<span id="battery-safety"></span>
+
+## Sicurezza della batteria {#battery-safety-and-swollen-battery-handling}
 
 Smetti di usare e caricare Mudi 7 se la batteria è gonfia, perde liquido, è insolitamente calda, è danneggiata o emette un odore insolito.
 

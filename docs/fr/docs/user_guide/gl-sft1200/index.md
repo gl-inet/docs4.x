@@ -149,7 +149,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer AstroWarp, consultez [AstroWarp](../../interface_guide/astrowarp.md).
 
-    **Remarque :** veuillez mettre à niveau le firmware de votre routeur vers la version 1.7 ou supérieure avant d'utiliser cette fonctionnalité.
+    **Remarque :** veuillez mettre à niveau le firmware de votre routeur vers la version 4.8 ou supérieure avant d'utiliser cette fonctionnalité.
 
 ## Applications
 
@@ -171,7 +171,7 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
     
     Pour configurer le stockage réseau, consultez [Stockage réseau](../../interface_guide/network_storage.md).
 
-    **Remarque :** veuillez mettre à niveau le firmware de votre routeur vers la version 1.7 ou supérieure avant d'utiliser cette fonctionnalité.
+    **Remarque :** veuillez mettre à niveau le firmware de votre routeur vers la version 4.8 ou supérieure avant d'utiliser cette fonctionnalité.
 
 ## Paramètres réseau
 

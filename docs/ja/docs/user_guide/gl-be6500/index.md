@@ -239,7 +239,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Port Management"
 
-    Port Managementページでは、WANとLANポートの設定、WAN/LANインターフェースをEthernetに設定、WANインターフェースのMACモードとMACアドレスの指定、ネットワークポート速度のネゴシエーション表示を行うことができます。
+    Port Managementページでは、WANとLANポートの設定、WAN/LANインターフェースをEthernetに設定、WANインターフェースのMACモードとMACアドレスの指定、ネットワークポートのネゴシエート速度の確認を行うことができます。
 
     Ethernetポートの管理については、[Port Management](../../interface_guide/ethernet_port.md)を参照してください。
 

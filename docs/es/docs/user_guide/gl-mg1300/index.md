@@ -127,7 +127,7 @@ Para configurar Clients, consulte [Clients](../../interface_guide/clients.md).
 
 === "GoodPAS"
 
-    GoodPAS es una función de red avanzada diseñada para ofrecer acceso remoto y administración de dispositivos sin interrupciones. Creado específicamente para integrarse con routers GL.iNet, GoodPAS utiliza el protocolo AmneziaWG con ofuscación de tráfico integrada para proporcionar conexiones seguras y estables. Amplía de forma segura su red doméstica a cualquier lugar, permitiéndole acceder a los recursos del hogar mientras todo el tráfico parece proceder de la dirección IP pública de su casa.
+    GoodPAS es una función de red avanzada diseñada para ofrecer acceso remoto y administración de dispositivos sin interrupciones. Creado específicamente para integrarse con routers GL.iNet, GoodPAS utiliza el protocolo AmneziaWG con ofuscación de tráfico integrada para proporcionar conexiones seguras y estables. GoodPAS permite acceder de forma remota a su red doméstica. Cuando el router de su casa actúa como nodo de salida de GoodPAS, el tráfico de Internet enviado a través de GoodPAS utiliza la dirección IP pública WAN de ese router.
 
     Para configurar GoodPAS, consulte [GoodPAS](../../interface_guide/goodpas.md).
 

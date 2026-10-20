@@ -148,7 +148,7 @@ Clients の設定については、[Clients](../../interface_guide/clients.md)�
 
 === "Parental Control"
 
-    Parental control は、お子様のデバイスを管理・制御するための設定群です。画面使用時間の制限や、特定コンテンツへのアクセス制限などが含まれます。Brume 2 では、GL.iNet が開発したローカル版と、ペアレンタルコントロールアプリ Bark による統合版の 2 つのペアレンタルコントロールオプションを利用できます。
+    Parental control は、お子様のデバイスを管理・制御するための設定群です。画面使用時間の制限や、特定コンテンツへのアクセス制限などが含まれます。
 
     Parental Control の設定については、[Parental controls](../../interface_guide/parental_control.md)を参照してください。
 
@@ -174,7 +174,7 @@ Clients の設定については、[Clients](../../interface_guide/clients.md)�
 
 === "Multi-WAN"
 
-    Multi-WAN は、Cellular、Repeater、Ethernet など複数のインターネット接続を同時に設定できるネットワーク機能です。現在のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これにより、スムーズで途切れにくいインターネットアクセスを維持できます。
+    Multi-WAN は、Ethernet、Tethering、Cellular など複数のインターネット接続を同時に設定できるネットワーク機能です。現在のインターネット接続に障害が発生した場合、ルーターは自動的に別のインターネット接続へ切り替えます。これにより、スムーズで途切れにくいインターネットアクセスを維持できます。
 
     Multi-WAN の設定については、[Multi-WAN](../../interface_guide/multi-wan.md)を参照してください。
 

@@ -39,7 +39,7 @@
 | GPIO41                             | PTA_PRIORITY | utilizado para PTA                                                                |
 | GPIO42                             | PTA_GRANT    | utilizado para PTA                                                                |
 | GPIO43                             | UART0 TX     | utilizado para la salida del puerto serie de depuración                           |
-| GPIO44                             | UART0 RX     | utilizado para la salida del puerto serie de depuración                           |
+| GPIO44                             | UART0 RX     | utilizado para la entrada del puerto serie de depuración |
 | GPIO45                             | PTA_TX_LINE  | utilizado para PTA                                                                |
 | GPIO46                             | GPIO46       | NC                                                                                |
 | GPIO47                             | UART1 CTS    | utilizado para conectar a h2 uart0 rts                                            |

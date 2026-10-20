@@ -23,7 +23,7 @@ Découvrez comment utiliser correctement nos appareils grâce à des étapes dé
 * [Comment accéder au sous-réseau LAN du serveur WireGuard depuis le client via un nom de domaine](how_to_access_wgserver_lan_via_domain_name.md)
 * [Comment activer le mode OpenVPN TAP-S2S sur les routeurs GL.iNet](how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md)
 * [Comment activer le VPN Cascading sur les routeurs GL.iNet](how_to_use_vpn_cascading_on_glinet_routers.md)
-* [Utiliser WireGuard pour sécuriser RDP depuis l’extérieur du réseau](use_wireguard_to_secure_rdp_from_outside_network.md)
+* [Sécuriser RDP avec WireGuard](secure_rdp_with_wireguard.md)
 * [Comment obtenir les fichiers de configuration auprès des fournisseurs de services WireGuard](how_to_get_configuration_files_from_wireguard_service_providers.md)
 * [Comment réserver une adresse IP fixe pour un client OpenVPN dans une connexion OpenVPN auto-hébergée](reserve_fixed_IP_for_ovpn_client.md)
 * [Comment autoriser l’accès au WAN lorsque le client VPN est activé ?](how_to_allow_access_to_wan_when_vpn_client_enabled.md)

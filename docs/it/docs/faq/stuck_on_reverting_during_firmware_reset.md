@@ -16,7 +16,7 @@ Dopo ogni passaggio, verifica se il problema è stato risolto. In caso affermati
 
 5. Usa un browser diverso (ad esempio Chrome, Edge o Safari) per accedere a `192.168.8.1`. Se il processo di ripristino è riuscito, verrai indirizzato alla guida di configurazione.
 
-6. Se continui a non riuscire ad accedere al pannello di amministrazione web del router oppure il router non funziona correttamente, prova a ripristinare il router alle impostazioni di fabbrica seguendo [questa](repair_network_or_reset_firmware.md/#reset-to-factory) guida.
+6. Se continui a non riuscire ad accedere al pannello di amministrazione web del router oppure il router non funziona correttamente, prova a ripristinare il router alle impostazioni di fabbrica seguendo [questa](repair_network_or_reset_firmware.md#ripristino-di-fabbrica) guida.
 
 ---
 

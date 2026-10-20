@@ -290,6 +290,7 @@ plugins:
         'user_guide/gl-mv1000/system.md': 'user_guide/gl-mv1000/index.md#system'
         'tutorials/index/index.md': 'interface_guide/index.md'
         'tutorials/how_to_activate_top_up_sim_cards.md': 'index.md'
+        'tutorials/use_wireguard_to_secure_rdp_from_outside_network.md': 'tutorials/secure_rdp_with_wireguard.md'
 
 hooks:
   - ../../scripts/alternate_links.py
@@ -495,7 +496,7 @@ nav:
           - ドメイン名で WireGuard サーバー LAN にアクセスする: tutorials/how_to_access_wgserver_lan_via_domain_name.md
           - OpenVPN TAP-S2S を有効にする: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
           - VPN カスケードを有効にする: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
-          - WireGuard で外部ネットワークからの RDP を保護する: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
+          - WireGuardでRDPを保護する: tutorials/secure_rdp_with_wireguard.md
           - WireGuard サービスプロバイダーから設定ファイルを取得する: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
           - OpenVPN クライアントに固定 IP を予約する: tutorials/reserve_fixed_IP_for_ovpn_client.md
           - VPN クライアント有効時に WAN アクセスを許可する: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md

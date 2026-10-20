@@ -258,7 +258,7 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
 === "Ethernet Port"
 
-    Ethernet Portページでは、WANとLANポートの設定、WAN/LANインターフェースをEthernetに設定、WANインターフェースのMACモードとMACアドレスの指定、ネットワークポート速度のネゴシエーション表示を行うことができます。
+    Ethernet Portページでは、WANとLANポートの設定、WAN/LANインターフェースをEthernetに設定、WANインターフェースのMACモードとMACアドレスの指定、ネットワークポートのネゴシエート速度の確認を行うことができます。
 
     Ethernetポートの管理については、[Ethernet Port](../../interface_guide/ethernet_port.md)を参照してください。
 

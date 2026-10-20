@@ -55,10 +55,10 @@ Haga clic en el icono del sobre situado en la esquina superior derecha para entr
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: En la lista desplegable hay direcciones de servidor predefinidas para Gmail, Outlook, iCloud y Yahoo. Para otros proveedores de correo, consulte su documentación o contacte con su soporte.
+- **SMTP Server Address**: En la lista desplegable hay direcciones de servidor predefinidas para Gmail, Outlook, iCloud y Yahoo. Una dirección predefinida no garantiza la compatibilidad con los requisitos de autenticación del proveedor. Para otros proveedores de correo, consulte su documentación o contacte con su soporte.
 - **Encryption Method**: Hay tres opciones disponibles: none, SSL/TLS y STARTTLS.
 - **Username**: Introduzca aquí la dirección de correo electrónico.
-- **Password**: Use una contraseña específica de la aplicación o la contraseña de la cuenta de inicio de sesión. Para Gmail, Outlook, iCloud y Yahoo, consulte la guía siguiente.
+- **Password**: Introduzca la contraseña SMTP que requiera su proveedor de correo, como una contraseña específica de la aplicación. Consulte los requisitos de cada proveedor a continuación.
 - **Subject**: Defina aquí el asunto del correo.
 
 ??? "Gmail"
@@ -67,9 +67,13 @@ Haga clic en el icono del sobre situado en la esquina superior derecha para entr
 
     Se pueden usar los puertos 465 y 587.
 
-??? "Outlook"
+??? "Outlook.com"
 
-    Para Outlook, puede usar la contraseña directamente sin ninguna configuración adicional, y es compatible con el puerto 587. Consulte la guía oficial [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"}.
+    Outlook.com requiere OAuth2 (Modern Authentication) para la autenticación SMTP. Su servidor SMTP es `smtp-mail.outlook.com`, con el puerto `587` y `STARTTLS`.
+
+    Antes de usar una cuenta de Outlook.com para enviar SMS reenviados, confirme que el firmware de su router admite este método de autenticación.
+
+    Consulte la documentación de Microsoft sobre [la configuración POP, IMAP y SMTP de Outlook.com](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}.
 
 ??? "iCloud"
 

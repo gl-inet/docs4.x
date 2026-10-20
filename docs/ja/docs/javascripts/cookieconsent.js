@@ -40,52 +40,52 @@
     },
     cookie: { domain: '.gl-inet.com' },
     language: {
-        default: 'en',
+        default: 'ja',
         translations: {
-            en: {
+            ja: {
                 consentModal: {
-                    title: 'We use cookies',
-                    description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
-                    acceptAllBtn: 'Accept all',
-                    acceptNecessaryBtn: 'Reject all',
-                    showPreferencesBtn: 'Manage Individual preferences'
+                    title: 'Cookieを使用しています',
+                    description: 'このウェブサイトでは、正常な動作に必要なCookieと、サイトの利用状況を把握するためのトラッキングCookieを使用します。トラッキングCookieは同意後にのみ設定されます。<button type="button" data-cc="c-settings" class="cc-link">設定を選択する</button>',
+                    acceptAllBtn: 'すべて同意する',
+                    acceptNecessaryBtn: 'すべて拒否する',
+                    showPreferencesBtn: '個別の設定を管理する'
                 },
                 preferencesModal: {
-                    title: 'Cookie preferences',
-                    acceptAllBtn: 'Accept all',
-                    acceptNecessaryBtn: 'Reject all',
-                    savePreferencesBtn: 'Accept current selection',
-                    closeIconLabel: 'Close',
+                    title: 'Cookieの設定',
+                    acceptAllBtn: 'すべて同意する',
+                    acceptNecessaryBtn: 'すべて拒否する',
+                    savePreferencesBtn: '現在の選択に同意する',
+                    closeIconLabel: '閉じる',
                     sections: [
                         {
-                            title: 'Cookie usage 📢',
-                            description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="/privacy-policy/" class="cc-link">privacy policy</a>.'
+                            title: 'Cookieの使用について 📢',
+                            description: 'ウェブサイトの基本機能を提供し、オンラインでの利用体験を向上させるためにCookieを使用します。カテゴリごとにいつでも同意または同意の撤回を選択できます。Cookieやその他の機密データに関する詳細は、<a href="/privacy-policy/" class="cc-link">プライバシーポリシー</a>の全文をご覧ください。'
                         },
                         {
-                            title: 'Strictly necessary cookies',
-                            description: 'These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as redirecting you to the webstore according to our location, setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.',
+                            title: '必須Cookie',
+                            description: 'これらのCookieはウェブサイトの動作に必要なため、当社のシステムでは無効にできません。通常は、当社の所在地に応じたウェブストアへのリダイレクト、プライバシー設定の保存、ログイン、フォームへの入力など、サービスの要求に該当する操作に応じてのみ設定されます。ブラウザでこれらのCookieをブロックしたり、警告を表示したりできますが、その場合はサイトの一部が動作しなくなります。これらのCookieには、個人を特定できる情報は保存されません。',
 
                             //this field will generate a toggle linked to the 'necessary' category
                             linkedCategory: 'necessary'
                         },
                         {
-                            title: 'Performance and Analytics',
-                            description: 'These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.',
+                            title: 'パフォーマンスと分析',
+                            description: 'これらのCookieにより、アクセス数とトラフィックの流入元を集計し、サイトのパフォーマンスを測定・改善できます。人気の高いページと低いページや、訪問者がサイト内をどのように移動するかを把握するのに役立ちます。これらのCookieが収集する情報はすべて集計されるため、匿名です。これらのCookieを許可しない場合、当社はお客様がサイトを訪問したことを把握できず、サイトのパフォーマンスを監視できません。',
                             linkedCategory: 'analytics'
                         },
                         {
-                            title: 'Chat cookies',
-                            description: 'These cookies allow us provide you with a smooth customer service experience via freshchat chat and provide seamless technical support on our site.',
+                            title: 'チャットCookie',
+                            description: 'これらのCookieにより、freshchatのチャットを通じた円滑なカスタマーサービスと、サイト上での途切れのないテクニカルサポートを提供できます。',
                             linkedCategory: 'chat'
                         },
                         {
-                            title: 'Advertisement and Targeting cookies',
-                            description: 'These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.',
+                            title: '広告・ターゲティングCookie',
+                            description: 'これらのCookieは、広告パートナーによって当社のサイトを通じて設定される場合があります。各社は、お客様の関心に基づくプロフィールを作成し、他のサイトで関連する広告を表示するために使用する場合があります。個人情報を直接保存するものではなく、ブラウザとインターネット接続デバイスの一意の識別に基づいています。これらのCookieを許可しない場合、関心に合わせた広告が少なくなります。',
                             linkedCategory: 'marketing'
                         },
                         {
-                            title: 'More information',
-                            description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="/contacts/">contact us</a>.',
+                            title: '詳しい情報',
+                            description: 'Cookieに関する当社のポリシーやお客様の選択についてご質問がある場合は、<a class="cc-link" href="/contacts/">お問い合わせください</a>。',
                         }
                     ]
                 }

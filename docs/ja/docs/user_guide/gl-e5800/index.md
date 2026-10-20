@@ -34,7 +34,7 @@ Mudi 7 に Nano-SIM カードを挿入します。eSIM を使用する場合は�
 
 !!! Warning
 
-    バッテリーが膨張している、液漏れしている、異常に熱い、損傷している、または取り外しにくい場合は、デバイスの使用を中止し、バッテリーを取り外そうとしないでください。[バッテリーの安全性と膨張したバッテリーの取り扱い](#battery-safety-and-swollen-battery-handling)を参照してください。
+    バッテリーが膨張している、液漏れしている、異常に熱い、損傷している、または取り外しにくい場合は、デバイスの使用を中止し、バッテリーを取り外そうとしないでください。[バッテリーの安全性](#battery-safety)を参照してください。
 
 まず、本体背面カバー右下の小さな切り欠きを支点にし、すき間に沿ってこじ開けて背面カバーを外し、Mudi 7 のバッテリーを取り出します。
 
@@ -594,7 +594,9 @@ VPN（仮想プライベートネットワーク）は、デバイスとVPNサ�
 
     詳細な設定手順と詳細については、[Advanced Settings](../../interface_guide/advanced_settings.md)を参照してください。
 
-## バッテリーの安全性と膨張したバッテリーの取り扱い {#battery-safety-and-swollen-battery-handling}
+<span id="battery-safety"></span>
+
+## バッテリーの安全性 {#battery-safety-and-swollen-battery-handling}
 
 バッテリーが膨張している、液漏れしている、異常に熱い、損傷している、または異臭がする場合は、Mudi 7 の使用と充電を中止してください。
 

@@ -46,9 +46,9 @@ Se non riesci a stabilire una connessione cellulare, controlla i seguenti possib
 
     ![](https://static.gl-inet.com/docs/router/en/4/faq/cellular_troubleshoot/sim_settings_apn.png){class="glboxshadow gl-90-desktop"}
 
-    **2.4** Abilita **Band Masking** e riprova. Per firmware ver.4.7 e precedenti, fai riferimento a [questo link](../interface_guide/internet_cellular_v4.7.md/#band-masking). Per firmware ver.4.8 e successivi, fai riferimento a [questo link](../interface_guide/internet_cellular.md/#band-masking).
+    **2.4** Abilita **Band Masking** e riprova. Per firmware ver.4.7 e precedenti, fai riferimento a [questo link](../interface_guide/internet_cellular_v4.7.md#band-masking). Per firmware ver.4.8 e successivi, fai riferimento a [questo link](../interface_guide/internet_cellular.md#band-masking).
 
-    **2.5** Blocca o sblocca una torre radio e riprova. Questa funzione è disponibile solo su GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) e GL-X2000 (Spitz Plus). Fai clic [qui](../interface_guide/internet_cellular.md/#lock-tower) per ulteriori istruzioni.
+    **2.5** Blocca o sblocca una torre radio e riprova. Questa funzione è disponibile solo su GL-X3000 (Spitz AX), GL-XE3000 (Puli AX) e GL-X2000 (Spitz Plus). Fai clic [qui](../interface_guide/internet_cellular.md#lock-tower) per ulteriori istruzioni.
 
     Il blocco su una torre radio specifica consente al router di accedere a una risorsa di rete di alta qualità e di mantenere una connettività cellulare stabile.
 

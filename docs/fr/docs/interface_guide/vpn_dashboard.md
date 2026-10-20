@@ -103,9 +103,11 @@ Dans le tableau de bord VPN, suivez l’assistant de configuration pour définir
 
 !!! note "Qu’est-ce que le Kill Switch ?"
 
-    Le Kill Switch est une fonction de sécurité pour les connexions VPN. Il coupe automatiquement tout accès à Internet sur votre réseau local si la connexion VPN se déconnecte de manière inattendue, afin d’empêcher l’exposition de votre véritable adresse IP et de vos données en ligne, et de garantir une confidentialité et une sécurité continues. Cette fonction est particulièrement utile pour conserver un accès Internet sécurisé et anonyme, par exemple lors de l’utilisation de réseaux publics, du traitement de données sensibles ou lorsque vous souhaitez masquer votre véritable adresse IP.
+    Le Kill Switch VPN aide à empêcher le trafic de basculer vers une connexion Internet non chiffrée lorsque la connexion VPN échoue.
 
-    Lorsqu’il est activé, il bloque tout trafic client qui tente de contourner le tunnel VPN, ce qui empêche efficacement les fuites VPN causées par des problèmes de configuration DNS, des déconnexions inattendues, des requêtes IP directes et d’autres scénarios similaires.
+    Pour un tunnel individuel, l’activation de **Kill Switch** bloque l’accès à Internet du trafic affecté à ce tunnel si sa connexion échoue. Les autres flux suivent les paramètres **All Other Traffic**.
+
+    **Enhanced Kill Switch** bloque le trafic Internet qui ne correspond à aucun tunnel VPN. Il ne remplace pas le paramètre **Kill Switch** propre à chaque tunnel.
 
 Depuis le firmware v4.8, les routeurs GL.iNet prennent en charge la configuration d’un Kill Switch pour chaque tunnel VPN individuel, ainsi que pour la connexion VPN globale.
 

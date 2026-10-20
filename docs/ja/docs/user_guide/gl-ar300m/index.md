@@ -4,7 +4,7 @@
 
 Shadow (GL-AR300M Series) は、携帯しやすく旅行にも適した、ポケットサイズのミニルーターで、最大 300Mbps の無線伝送速度に対応しています。Shadow は、OpenVPN、WireGuard®、DNS サーバーに対応するなど、高度なセキュリティ機能を備えています。公衆ネットワークを安全なブラウジングのためのプライベート Wi-Fi に変換できるだけでなく、30 を超える VPN サービスプロバイダーの VPN 設定ファイルをアップロードして VPN クライアントとして設定することもでき、デバイスと VPN サーバーの間に暗号化された通信を作成して、プライバシーとセキュリティをさらに強化できます。
 
-![ar300m illustration](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/product_info/mt300n_v2_overview.png){class="glboxshadow"}
+![ar300mの概要](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-ar300m/product_info/overview.png){class="glboxshadow"}
 
 ## Shadow のセットアップ方法
 

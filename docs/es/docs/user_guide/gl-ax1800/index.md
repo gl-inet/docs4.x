@@ -119,7 +119,7 @@ Una VPN (red privada virtual) crea tráfico seguro y cifrado entre su dispositiv
 
     Tor, abreviatura de The Onion Router, es una red centrada en la privacidad que permite la comunicación anónima a través de Internet. Enruta el tráfico de Internet a través de una serie de servidores (nodos) gestionados por voluntarios para ocultar la ubicación y el uso del usuario, dificultando el rastreo de la actividad en línea.
 
-    *[Cómo configurar Tor](../../interface_guide/tor.md).
+    * [Cómo configurar Tor](../../interface_guide/tor.md).
 
 ## Inalámbrico y clientes
 

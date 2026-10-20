@@ -293,6 +293,7 @@ plugins:
         'user_guide/gl-mv1000/system.md': 'user_guide/gl-mv1000/index.md#system'
         'tutorials/index/index.md': 'interface_guide/index.md'
         'tutorials/how_to_activate_top_up_sim_cards.md': 'index.md'
+        'tutorials/use_wireguard_to_secure_rdp_from_outside_network.md': 'tutorials/secure_rdp_with_wireguard.md'
 
 hooks:
   - ../../scripts/alternate_links.py
@@ -499,7 +500,7 @@ nav:
       - Доступ із клієнта до LAN сервера WireGuard за доменним ім’ям: tutorials/how_to_access_wgserver_lan_via_domain_name.md
       - Увімкнення OpenVPN TAP-S2S: tutorials/how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md
       - Увімкнення каскадного VPN: tutorials/how_to_use_vpn_cascading_on_glinet_routers.md
-      - Захист RDP через WireGuard для доступу із зовнішньої мережі: tutorials/use_wireguard_to_secure_rdp_from_outside_network.md
+      - Захист RDP за допомогою WireGuard: tutorials/secure_rdp_with_wireguard.md
       - Отримання файлів конфігурації від постачальників WireGuard: tutorials/how_to_get_configuration_files_from_wireguard_service_providers.md
       - Резервування постійної IP-адреси для клієнта OpenVPN: tutorials/reserve_fixed_IP_for_ovpn_client.md
       - Дозвіл доступу до WAN з увімкненим клієнтом VPN: tutorials/how_to_allow_access_to_wan_when_vpn_client_enabled.md

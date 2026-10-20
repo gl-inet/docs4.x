@@ -231,7 +231,7 @@ Una VPN (rete privata virtuale) crea traffico sicuro e crittografato tra il disp
 
 === "Port Management"
 
-    La pagina Port Management consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare modalita MAC e indirizzo MAC per l'interfaccia WAN e visualizzare la velocita negoziata della porta di rete.
+    La pagina Port Management consente di configurare le porte WAN e LAN, impostare l'interfaccia WAN/LAN su Ethernet, specificare modalità MAC e indirizzo MAC per l'interfaccia WAN e visualizzare la velocità negoziata della porta di rete.
 
     Per gestire le porte Ethernet, fai riferimento a [Port Management](../../interface_guide/ethernet_port.md).
 

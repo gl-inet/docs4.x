@@ -36,7 +36,7 @@ Utilisez d'abord la petite encoche située en bas à droite du capot arrière co
 
 !!! Warning
 
-    Si la batterie est gonflée, fuit, est anormalement chaude, est endommagée ou est difficile à retirer, cessez d'utiliser l'appareil et n'essayez pas de retirer la batterie. Consultez [Sécurité de la batterie et gestion d'une batterie gonflée](#battery-safety-and-swollen-battery-handling).
+    Si la batterie est gonflée, fuit, est anormalement chaude, est endommagée ou est difficile à retirer, cessez d'utiliser l'appareil et n'essayez pas de retirer la batterie. Consultez [Sécurité de la batterie](#battery-safety).
 
 ![small notch](https://static.gl-inet.com/docs/router/en/4/user_guide/gl-e5800/first_time_setup/notch.png){class="glboxshadow"}
 
@@ -577,7 +577,9 @@ Un VPN (réseau privé virtuel) crée un trafic sécurisé et chiffré entre vot
 
     Pour des instructions détaillées, consultez [Advanced Settings](../../interface_guide/advanced_settings.md).
 
-## Sécurité de la batterie et gestion d'une batterie gonflée {#battery-safety-and-swollen-battery-handling}
+<span id="battery-safety"></span>
+
+## Sécurité de la batterie {#battery-safety-and-swollen-battery-handling}
 
 Cessez d'utiliser et de charger le Mudi 7 si la batterie est gonflée, fuit, est anormalement chaude, est endommagée ou dégage une odeur inhabituelle.
 

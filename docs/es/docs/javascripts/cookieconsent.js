@@ -40,52 +40,52 @@
     },
     cookie: { domain: '.gl-inet.com' },
     language: {
-        default: 'en',
+        default: 'es',
         translations: {
-            en: {
+            es: {
                 consentModal: {
-                    title: 'We use cookies',
-                    description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
-                    acceptAllBtn: 'Accept all',
-                    acceptNecessaryBtn: 'Reject all',
-                    showPreferencesBtn: 'Manage Individual preferences'
+                    title: 'Utilizamos cookies',
+                    description: 'Este sitio web utiliza cookies esenciales para garantizar su correcto funcionamiento y cookies de seguimiento para entender cómo interactúa con él. Estas últimas solo se instalarán después de obtener su consentimiento. <button type="button" data-cc="c-settings" class="cc-link">Elegir preferencias</button>',
+                    acceptAllBtn: 'Aceptar todas',
+                    acceptNecessaryBtn: 'Rechazar todas',
+                    showPreferencesBtn: 'Gestionar preferencias individuales'
                 },
                 preferencesModal: {
-                    title: 'Cookie preferences',
-                    acceptAllBtn: 'Accept all',
-                    acceptNecessaryBtn: 'Reject all',
-                    savePreferencesBtn: 'Accept current selection',
-                    closeIconLabel: 'Close',
+                    title: 'Preferencias de cookies',
+                    acceptAllBtn: 'Aceptar todas',
+                    acceptNecessaryBtn: 'Rechazar todas',
+                    savePreferencesBtn: 'Aceptar la selección actual',
+                    closeIconLabel: 'Cerrar',
                     sections: [
                         {
-                            title: 'Cookie usage 📢',
-                            description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="/privacy-policy/" class="cc-link">privacy policy</a>.'
+                            title: 'Uso de cookies 📢',
+                            description: 'Utilizamos cookies para garantizar las funciones básicas del sitio web y mejorar su experiencia en línea. Puede dar o retirar su consentimiento para cada categoría en cualquier momento. Para obtener más información sobre las cookies y otros datos sensibles, lea la <a href="/privacy-policy/" class="cc-link">política de privacidad</a> completa.'
                         },
                         {
-                            title: 'Strictly necessary cookies',
-                            description: 'These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as redirecting you to the webstore according to our location, setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.',
+                            title: 'Cookies estrictamente necesarias',
+                            description: 'Estas cookies son necesarias para que el sitio web funcione y no se pueden desactivar en nuestros sistemas. Normalmente solo se instalan en respuesta a acciones que usted realiza y que constituyen una solicitud de servicios, como redirigirle a la tienda en línea según nuestra ubicación, establecer sus preferencias de privacidad, iniciar sesión o rellenar formularios. Puede configurar el navegador para bloquear estas cookies o recibir avisos sobre ellas, pero algunas partes del sitio dejarán de funcionar. Estas cookies no almacenan información que permita identificarle personalmente.',
 
                             //this field will generate a toggle linked to the 'necessary' category
                             linkedCategory: 'necessary'
                         },
                         {
-                            title: 'Performance and Analytics',
-                            description: 'These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.',
+                            title: 'Rendimiento y análisis',
+                            description: 'Estas cookies nos permiten contar las visitas y las fuentes de tráfico para medir y mejorar el rendimiento de nuestro sitio. Nos ayudan a saber qué páginas son las más y las menos populares y cómo se desplazan los visitantes por el sitio. Toda la información que recopilan se agrega y, por tanto, es anónima. Si no permite estas cookies, no sabremos cuándo ha visitado nuestro sitio y no podremos supervisar su rendimiento.',
                             linkedCategory: 'analytics'
                         },
                         {
-                            title: 'Chat cookies',
-                            description: 'These cookies allow us provide you with a smooth customer service experience via freshchat chat and provide seamless technical support on our site.',
+                            title: 'Cookies del chat',
+                            description: 'Estas cookies nos permiten ofrecerle una experiencia fluida de atención al cliente mediante el chat de freshchat y asistencia técnica sin interrupciones en nuestro sitio.',
                             linkedCategory: 'chat'
                         },
                         {
-                            title: 'Advertisement and Targeting cookies',
-                            description: 'These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.',
+                            title: 'Cookies de publicidad y segmentación',
+                            description: 'Nuestros socios publicitarios pueden instalar estas cookies a través de nuestro sitio. Esas empresas pueden utilizarlas para crear un perfil de sus intereses y mostrarle anuncios relevantes en otros sitios. No almacenan información personal directamente, sino que se basan en la identificación única de su navegador y dispositivo de Internet. Si no permite estas cookies, verá publicidad menos personalizada.',
                             linkedCategory: 'marketing'
                         },
                         {
-                            title: 'More information',
-                            description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="/contacts/">contact us</a>.',
+                            title: 'Más información',
+                            description: 'Si tiene alguna pregunta sobre nuestra política de cookies o sus opciones, <a class="cc-link" href="/contacts/">póngase en contacto con nosotros</a>.',
                         }
                     ]
                 }

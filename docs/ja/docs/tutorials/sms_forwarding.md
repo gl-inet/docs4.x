@@ -55,11 +55,11 @@ Web管理パネルの左側で **INTERNET** -> **Cellular** セクションに�
 
 ![sms forwarding email](https://static.gl-inet.com/docs/router/en/4/tutorials/sms_forwarding/sms_forward_email.png){class="glboxshadow"}
 
-- **SMTP Server Address**: Gmail、Outlook、iCloud、Yahoo のサーバーアドレスはドロップダウンリストから選択できます。他のメールプロバイダーについては、各社のドキュメントまたはサポートを参照してください。
+- **SMTP Server Address**: Gmail、Outlook、iCloud、Yahooのサーバーアドレスはドロップダウンリストから選択できます。プリセットのサーバーアドレスがあっても、プロバイダーの認証要件への対応が保証されるわけではありません。他のメールプロバイダーについては、各社のドキュメントまたはサポートを参照してください。
 
 - **Encryption Method**: none、SSL/TLS、STARTTLS の3つのオプションがあります。
 - **Username**: ここにメールアドレスを入力します。
-- **Password**: アプリ専用パスワード、またはログインアカウントのパスワードを使用します。Gmail、Outlook、iCloud、Yahoo については以下のガイドを参照してください。
+- **Password**: アプリ専用パスワードなど、メールプロバイダーが指定するSMTPパスワードを入力します。各プロバイダーの要件は以下を参照してください。
 - **Subject**: ここでメール件名を設定します。
 
 ??? "Gmail"
@@ -68,9 +68,13 @@ Web管理パネルの左側で **INTERNET** -> **Cellular** セクションに�
 
     465 と 587 の両方のポートを使用できます。
 
-??? "Outlook"
+??? "Outlook.com"
 
-    Outlook では追加設定なしで通常のパスワードを直接使用でき、ポート 587 をサポートしています。公式ガイド [POP, IMAP, and SMTP settings for Outlook.com](https://support.microsoft.com/en-us/office/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040){target="_blank"} を参照してください。
+    Outlook.comのSMTP認証にはOAuth2（Modern Authentication）が必要です。SMTPサーバーは `smtp-mail.outlook.com` で、ポート `587` と `STARTTLS` を使用します。
+
+    Outlook.comアカウントでSMSをメール転送する前に、ルーターのファームウェアがこの認証方式に対応していることを確認してください。
+
+    Microsoftの[Outlook.comのPOP、IMAP、SMTP設定](https://support.microsoft.com/en-us/outlook/pop-imap-and-smtp-settings-for-outlook-com){target="_blank"}を参照してください。
 
 ??? "iCloud"
 

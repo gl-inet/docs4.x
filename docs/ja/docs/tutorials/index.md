@@ -23,7 +23,7 @@ hide:
 * [ドメイン名を使ってクライアントからWireGuardサーバーのLANサブネットにアクセスする方法](how_to_access_wgserver_lan_via_domain_name.md)
 * [GL.iNetルーターでOpenVPN TAP-S2Sモードを有効にする方法](how_to_enable_openvpn_tap_s2s_mode_on_glinet_routers.md)
 * [GL.iNetルーターでVPN Cascadingを有効にする方法](how_to_use_vpn_cascading_on_glinet_routers.md)
-* [WireGuardを使って外部ネットワークからのRDPを保護する方法](use_wireguard_to_secure_rdp_from_outside_network.md)
+* [WireGuardでRDPを保護する](secure_rdp_with_wireguard.md)
 * [WireGuardサービスプロバイダーから設定ファイルを取得する方法](how_to_get_configuration_files_from_wireguard_service_providers.md)
 * [自作OpenVPN接続でOpenVPNクライアントに固定IPを予約する方法](reserve_fixed_IP_for_ovpn_client.md)
 * [VPNクライアントが有効なときにWANへのアクセスを許可する方法](how_to_allow_access_to_wan_when_vpn_client_enabled.md)
